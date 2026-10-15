@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/community-frontier1042-audit/selected-replay.tar.gz",
+    "research/joint-query/certificate.json.gz",
+    "research/joint-query/evidence/CONSERVED-QQ16.md",
+    "research/joint-query/evidence/JOINT-QUERY-TRANSFER.md"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 90,
+      "checks": "Ordered proof identities, actual source/minor and recipe binding, exact rational dirty-input replay and 71 rejecting semantic controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 90,
+      "checks": "Same mathematical acceptance under optimized Python; no disabled asserts."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/test_integrity.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Git-free relocated optimized replay, read-only acceptance, source/receipt corruption and invalid CLI rejection."
+    }
+  ]
+}

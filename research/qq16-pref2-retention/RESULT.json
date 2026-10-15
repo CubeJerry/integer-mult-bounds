@@ -1,0 +1,110 @@
+{
+  "actual_minor_adapter": {
+    "H_nonzeros": 32,
+    "basis_columns": 40,
+    "borrowed_query_blocks": 1,
+    "child_counts": {
+      "LA": 4,
+      "LT": 8,
+      "PA": 8,
+      "PT": 4
+    },
+    "complete_child_calls": 24,
+    "compound_adds": 6,
+    "inverse_orders": 2,
+    "omitted_child_controls": 24
+  },
+  "no_new_kappa": true,
+  "observations": [
+    "initial B0 X0U",
+    "initial B2 X0U",
+    "f0",
+    "final X0A",
+    "final X0T",
+    "final Y0A",
+    "final Y0T",
+    "final Y0U"
+  ],
+  "old_loss_fixture": {
+    "new_f2": "-2",
+    "new_final_Y0_A": "1",
+    "old_all_initial_and_final_observations_zero": true,
+    "original_X0_A": "-1",
+    "scope": "rational identity fixture, not an actual-cover witness enumeration"
+  },
+  "ordered": {
+    "retention_identity": true,
+    "rules": "selected two-sided inverses; B2 K2 = 12 I only",
+    "zero_decoder_residuals": 4
+  },
+  "rational_models": {
+    "decoder_event_omission_controls": 35,
+    "literal_decoder": {
+      "actual_owned_output_coordinates": 32,
+      "actual_owned_scratch_coordinates": 112,
+      "add_calls": {
+        "B2": 2,
+        "I": 12,
+        "K0": 1,
+        "LA0": 1,
+        "LT0": 1,
+        "LT2": 1,
+        "PA0": 1,
+        "PA2": 1,
+        "PT0": 2
+      },
+      "clear_calls": 13,
+      "events": 35,
+      "three_model_owned_dirt_columns": 54
+    },
+    "models": [
+      {
+        "all_bank_basis_columns": 40,
+        "ordinary_dimension": 3,
+        "query_dimension": 1,
+        "selected_blocks_recovered": 4
+      },
+      {
+        "all_bank_basis_columns": 80,
+        "ordinary_dimension": 6,
+        "query_dimension": 2,
+        "selected_blocks_recovered": 4
+      },
+      {
+        "all_bank_basis_columns": 120,
+        "ordinary_dimension": 9,
+        "query_dimension": 3,
+        "selected_blocks_recovered": 4
+      }
+    ],
+    "rejected_controls": [
+      "omit_q0",
+      "omit_q2",
+      "omit_f2",
+      "terminal_sign",
+      "f2_terminal_sign",
+      "former_y_endpoint",
+      "omit_adapter",
+      "wrong_middle_sign",
+      "missing_y_correction",
+      "wrong_chart",
+      "wrong_F2_bank",
+      "wrong_bridge_sign"
+    ],
+    "total_basis_columns": 240
+  },
+  "recipe_member_sha256": "a179dad87651aba340a5a8ddbcd86a8e757cad87b8a1f8bad48106fbecd38518",
+  "scope": "Pair-0 logical final-record decoder; native realization and favorable supplier bill unproved.",
+  "source_sha256": {
+    "research/community-frontier1042-audit/selected-replay.tar.gz": "22c3f4dce4b897a1d423d1388801933e288b6a6b1906cb15e1b16a5eb68db754",
+    "research/joint-query/certificate.json.gz": "a5ed85fac5ebf3c091482a113ab0d351eb5a7892fe2841a35e16017ec1ff49f7",
+    "research/joint-query/evidence/CONSERVED-QQ16.md": "60f0de3a7205ba5046b5ae7ffa8bf2b1ea42ea46b498face0a77966b59e7f3fb",
+    "research/joint-query/evidence/JOINT-QUERY-TRANSFER.md": "9e13e73ebf3192a6548798c2f1d13bd4d83957e8db0dc34de12b1a5311a52a75"
+  },
+  "status": "PASS_QQ16_PREF2_RETENTION",
+  "tail": {
+    "completed_X_is_final_Y": true,
+    "events": 19,
+    "identity": "C = initial Y_0,U + K_2 f_2"
+  }
+}
