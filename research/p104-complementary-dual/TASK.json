@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "task_id": "p104-side-correction",
+  "priority_revision": 4,
+  "base_commit": "0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2",
+  "original_card": {
+    "id": "p104-side-correction",
+    "question": "Can the native P104 low-rank channel be completed with a legal, fully charged I-G/2 side correction?",
+    "starting_points": [
+      "research/p104-native-channel/README.md",
+      "research/p104-native-channel/PROOF.md",
+      "docs/research/community-efficient1000-review.md"
+    ],
+    "methods": [
+      "Construct one side-correction word at an explicit chronological cut with the needed frames still available.",
+      "Derive a lower bound on the side correction and hosting costs that decides whether this channel can beat the selected budget."
+    ],
+    "acceptance_gate": "An exact arbitrary-input identity, source/target frame availability and restoration at the chosen cut, plus the complete channel+correction+idle/hosting bill or an explicit favorable bound. The native channel alone is not a supplier.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Read the P104 open next questions and its fixed local histogram; inspect why appending I-G/2 after source completion is not justified. #1991 supplies the checked native channel, not the missing correction.",
+      "scope": "Source-bound orientation only. Read the named package and review before relying on its local evidence; this command is not its replay or supplier admission."
+    },
+    "first_experiment": "Choose one exact side-correction cut and bound its allowed cost from a favorable completed moment at a declared target. Stop or hand off if the necessary source/target access cannot be justified or even the optimistic total misses the target.",
+    "bottleneck_link": "Completing an already realized changed channel tests a concrete construction opportunity, instead of refining the incumbent packing. A positive local result still needs global and all-size admission.",
+    "allowed_variations": [
+      "One correction factorization, one chronological cut, or one explicit hosting obstruction.",
+      "A changed correction schedule with an updated full bill and native frame contract."
+    ],
+    "scope_change_triggers": [
+      "Recompiling the already certified low-rank channel without closing a new obligation.",
+      "Treating a pending ancestor, local histogram or unpriced side correction as an admitted global supplier."
+    ],
+    "overlap_terms": [
+      "P104",
+      "I-G/2",
+      "side correction",
+      "native channel",
+      "1972",
+      "1991"
+    ]
+  },
+  "scope_status": "changed",
+  "actual_scope": "Construct the complementary-frame inverse-transpose companion of PR2305 complete P104 coalesced/private-reuse forward word, preserving its paid rank profile and checking all arbitrary public input columns and private scratch lifetimes.",
+  "scope_change_reason": "Live overlap revealed the side-corrected forward construction and private reuse already completed in PR2152/PR2305, while their backward interface remains explicitly unimplemented. This closes one finite orientation obligation, not a new correction-space or hosting search.",
+  "bottleneck_link": "The changed P104 word has a complete forward shear but no checked opposite finite orientation. This constructs that orientation without adding positive-rank transforms; global native wrappers, chronological owners and recursive admission remain separate blockers.",
+  "budget_minutes": 120,
+  "stop_rule": "Stop if the transpose cannot preserve the private scratch/frame contract or if exact scalar/native replay fails; otherwise package the finite companion and unchanged local rank bill. Reserve the last 30 minutes for validation and handoff. No global supplier or exponent claim.",
+  "outcome": "completed",
+  "evidence": "RESULT.json: both 735-column boundary maps, 25,311 eventwise dual correspondences, complete source regeneration, unchanged rank mass 5,894 and all public lifetime widths; 2,942 native recipes, 208 rank-zero endpoints, 4,096 private Gaussian columns, ten semantic/accounting controls plus a native phase fault. No new kappa or global admission.",
+  "author": "@CubeJerry",
+  "ai_assistance": "Substantial OpenAI Codex assistance in mathematics, implementation, checking and writing. No subagents or independent human review.",
+  "open_questions": [
+    {
+      "question": "Can these complementary public helper endpoints be bound to an actual 104-port caller in both orientations?",
+      "why_it_matters": "Equal lifetime widths and a local native shear do not establish legal global data/helper wrappers or chronological hosting.",
+      "first_step": "For one source-pinned complete invocation, map each forward and companion helper entry/exit to the caller, emit all wrappers and check their native operators and charges before any global search.",
+      "blocked_by": "No backward owner/window map, complete native caller or recursive precision/reserve account is supplied."
+    },
+    {
+      "question": "Can a cheaper local word or a proved owner packing turn the tiny favorable relaxation into a complete moment gain?",
+      "why_it_matters": "The inherited actual forward invoice already misses the selected threshold; transposition changes neither its paid rank profile nor that warning.",
+      "first_step": "Price one changed mechanism with all local/public/private/idle charges before using this dual generator on the resulting word.",
+      "blocked_by": "No improved physical profile or global construction is established by this contribution."
+    }
+  ],
+  "assignment_seed": 32,
+  "selector_seed": "00000000000000000000000000000020",
+  "track": "complex-mechanisms",
+  "claim": {
+    "status": "DONE / released",
+    "claimed_utc": "2026-10-15T06:46:57.367026+00:00",
+    "expected_finish_utc": "2026-10-15T08:37:29Z",
+    "posting_limitation": "User specifies GitHub API and cross-repository PR creation unavailable; use local claim and Git transport publication. No API posting attempted.",
+    "predecessors": {
+      "2152": "05f7aad0f08992ee48ec2dd93e896d9a4567847d",
+      "2305": "335e78619a17b7c418e11306f86a72fd366de35b",
+      "2219": "3f913bc17276b68f0c9008a1202b6ce588e77ff6"
+    },
+    "result": "Finite complementary-frame backward logical shear X <- X - Y with all 527 dirty helpers restored and unchanged paid transform profile.",
+    "branch_url": "https://github.com/CubeJerry/integer-mult-bounds/tree/research/p104-complementary-dual-seed32-20261015",
+    "publication_note": "Branch destination; remote push verification and the final commit are reported in the final chat. No GitHub API post was attempted.",
+    "completed_utc": "2026-10-15T07:11:30.654498+00:00"
+  },
+  "candidate_tasks": [
+    {
+      "card": "complex-rank-shape-decoder",
+      "task": "One masked/block decoder with larger paid ranks",
+      "decision": "Not chosen: no concrete changed identity yet; known frame and rank floors already cover obvious variants."
+    },
+    {
+      "card": "complex-new-helper-inventory",
+      "task": "Further private-descent reuse in the coalesced P104 word",
+      "decision": "Not chosen: PR2219/2305/2337 already cover the explicit helper-7 mechanism and variants."
+    },
+    {
+      "card": "p104-side-correction",
+      "task": "Complementary-frame dual of the completed side-corrected word",
+      "decision": "Chosen: exact missing finite orientation named by PR2152/2305; focused live P104 backward/transpose searches found no competing implementation."
+    }
+  ],
+  "optimistic_budget": "The complementary reversal preserves every jump rank and lifetime width algebraically. PR2305 local mass5894/COPY56 and favorable rank51 idle moment0.99999585229209 at the selected threshold leave only tiny relaxed headroom; its actual inherited owner invoice1.00006553178737 already fails. No improved packing or transfer is asserted, and the dual gains no paid ranks.",
+  "overlap": {
+    "checked_utc": "2026-10-15T06:44:00Z",
+    "method": "Repository find_overlap.py offline plus public GitHub HTML searches/read-only PR and Discussion pages; API access not attempted per user restriction.",
+    "local_records": 1536,
+    "live_queries": [
+      "is:pr is:open P104 (pages1..3)",
+      "is:pr is:open P104 backward",
+      "is:pr is:open P104 transpose",
+      "Discussions P104 backward",
+      "active Discussions",
+      "Discussion1163",
+      "Discussion1166",
+      "Discussion2245",
+      "Discussion2299",
+      "Discussion2131",
+      "Discussion2218"
+    ],
+    "relevant_prs": [
+      2152,
+      2219,
+      2305,
+      2337,
+      2251,
+      2345,
+      2358,
+      2353
+    ],
+    "distinctness": "Current pooled-prefix and causal-contact claims cover different obligations. PR2305/2337 cover forward reuse and explicitly leave the backward/global interface unimplemented. No complementary backward construction found in the focused screen.",
+    "limitations": "No complete remote snapshot or all-comment pagination; public title/body search and visible comments can miss concurrent unpublished work. No novelty guarantee."
+  },
+  "validation": {
+    "python": "CPython3.12.14",
+    "platform": "Linux6.18.44 x86_64",
+    "registered_command": "python3.12 scripts/research_package.py --package research/p104-complementary-dual",
+    "registered_status": "PASS_REGISTERED_RESEARCH_PACKAGE",
+    "registered_seconds": 90.433,
+    "assertions_disabled": true,
+    "receipt_sha256": "e22a689627498131323fa18cbdfa73b48bafe8c4d81c4029897f3e4426426f92",
+    "source_export_scalar": "PASS,17 files unchanged, no Git or network",
+    "source_and_output_controls": {
+      "status": "PASS_SOURCE_EXPORT_AND_REJECTION_CONTROLS",
+      "unchanged_files": 17,
+      "controls": {
+        "external_source_drift": {
+          "exit_code": 1,
+          "reason": "source digest:"
+        },
+        "word_payload_drift": {
+          "exit_code": 1,
+          "reason": "source digest: BACKWARD.json.gz"
+        },
+        "producer_source_drift": {
+          "exit_code": 1,
+          "reason": "source digest: producer.tar.gz"
+        },
+        "occupied_output": {
+          "exit_code": 1,
+          "reason": "output already exists"
+        },
+        "partial_receipt_overwrite": {
+          "exit_code": 1,
+          "reason": "partial replay cannot replace full receipt"
+        }
+      }
+    },
+    "not_run": [
+      "Full selected frontier1094 cold replay",
+      "New chronological backward owner/window assignment",
+      "Global caller/emitter/native wrapper admission",
+      "Recursive precision,reserve,tape and all-size lifting",
+      "Outer multiplication assembly",
+      "Hosted GitHub CI",
+      "Independent human or proof-assistant review"
+    ],
+    "source_export_full": {
+      "command": "python3.12 -I -B <export>/research/p104-complementary-dual/verify.py",
+      "status": "PASS_P104_COMPLEMENTARY_DUAL",
+      "seconds": 186.136,
+      "assertions_disabled": false,
+      "git_available_in_export": false,
+      "files_unchanged": 17,
+      "gzip_positive_control": "Both word containers recompressed with level1 and mtime123456789; exact payloads and full mathematical receipt unchanged.",
+      "receipt_sha256": "e22a689627498131323fa18cbdfa73b48bafe8c4d81c4029897f3e4426426f92"
+    },
+    "metadata_and_pins": "PASS_PACKAGE_METADATA_AND_PINS",
+    "whitespace": "git diff --cached --check: PASS"
+  },
+  "final_freshness": {
+    "checked_utc": "2026-10-15T07:05:30.781101+00:00",
+    "canonical_main": "0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2",
+    "priority_revision": 4,
+    "changed_main_files": [],
+    "predecessor_heads_unchanged": true,
+    "focused_queries": {
+      "final-backward-prs": "https://github.com/CrocSwap/integer-mult-bounds/pulls?q=is%3Apr+is%3Aopen+P104+backward",
+      "final-transpose-prs": "https://github.com/CrocSwap/integer-mult-bounds/pulls?q=is%3Apr+is%3Aopen+P104+transpose",
+      "final-dual-prs": "https://github.com/CrocSwap/integer-mult-bounds/pulls?q=is%3Apr+is%3Aopen+P104+dual",
+      "final-backward-discussions": "https://github.com/CrocSwap/integer-mult-bounds/discussions?discussions_q=P104+backward",
+      "final-discussion2299": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2299"
+    },
+    "decision": "Continue: no competing P104 complementary backward implementation found in the focused visible results. Full remote pagination and code-diff coverage are not claimed."
+  }
+}

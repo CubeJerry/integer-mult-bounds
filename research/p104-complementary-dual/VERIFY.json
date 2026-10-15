@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/complex-block-rank-optimum/inputs/selected.json.gz",
+    "research/complex-local-word-ceiling/ceiling.py",
+    "research/frame-sa504/inputs/hamming/PROTOTYPE.json",
+    "research/p104-native-channel/inputs/P104-FIXTURE.json",
+    "research/p104-native-channel/vendor/clifford_exact.py",
+    "research/p104-native-channel/vendor/native_verify.py"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 600,
+      "checks": "Reconstruct both pinned words; replay all 735 input columns and helper/frame/private contracts; check 25,311 event correspondences, ten semantic controls, the exact conditional rank budget, 2,942 native recipes, 208 endpoint adapters, 4,096 private Gaussian columns and a phase control; compare the full receipt."
+    }
+  ]
+}
