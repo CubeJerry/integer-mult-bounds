@@ -1,0 +1,144 @@
+{
+  "schema": 1,
+  "track": "complex-mechanisms",
+  "task_id": null,
+  "seed": 31,
+  "scope_status": "changed",
+  "scope_change_reason": "Explicit complex-supplier assignment; selected an algebraic dyadic-decoder obligation in PR598 instead of an E8 masked-decoder construction. The completed theorem is for the first 2600 directions of its source recipe, not a claimed complete replay of the stored mod251 basis-selection receipt.",
+  "local_claim_time_utc": "2026-10-16T14:27:08Z",
+  "base_commit": "afc158a25ef3e0bd80de81d1eb5339f0dace118e",
+  "original_claim": {
+    "status": "claimed-locally",
+    "track": "complex-mechanisms",
+    "seed": 31,
+    "base_commit": "afc158a25ef3e0bd80de81d1eb5339f0dace118e",
+    "object": "Leech PR598 norm-six directional encoders: dyadic decoder feasibility of the pinned 2600-row rational basis and a budget-limited repair",
+    "method": "Independently derive integer-valued coefficient coordinates, test odd-prime obstructions to a dyadic dual, and only attempt a constructive repair if its whole optimistic budget survives.",
+    "domain": "The deterministic PR598 2700-direction sample (generator seed6242600), its mod251-selected 2600-row basis; seed31 orders odd-prime tests. An obstruction must separate the actual required kernel from the encoder row module, not merely detect a singular coefficient matrix.",
+    "deliverable": "One exact local decoder or a source-bound algebraic obstruction with a small independently checkable separating certificate. No claimed kappa from optimistic pricing.",
+    "finish_target_utc": "2026-10-16T16:13:07Z",
+    "verification_reserved_from_utc": "2026-10-16T15:43:07Z",
+    "candidates": [
+      {
+        "name": "P104 spectral rescaling of G/2",
+        "decision": "not chosen",
+        "reason": "Changes the coefficient but introduces diagonal correction and non-dyadic scaling; crowded endpoint work, including PR2953, makes a complete fresh improvement less discriminating."
+      },
+      {
+        "name": "P112 crossed orthogonal co-stars",
+        "decision": "not chosen",
+        "reason": "Changed row/column support contract leaves only one unit of copy saving with an extra term; complete helper invoice unknown. Prior PR1320 excludes one same-star instance and PR2724/2784 do not cover every rank-nine instance."
+      },
+      {
+        "name": "Leech norm-six dyadic decoder gap",
+        "decision": "chosen",
+        "reason": "PR598 explicitly supplies a cheaper rational encoder basis but no dyadic decoder. This tests the missing arithmetic interface rather than repeating the support-rank census; PR2222 concerns a different 48-dimensional lattice."
+      }
+    ],
+    "overlap": {
+      "queries": [
+        "Leech",
+        "Leech dyadic",
+        "norm-six",
+        "norm6",
+        "co-star",
+        "costar",
+        "P104 spectral"
+      ],
+      "closest_prs": [
+        598,
+        2222,
+        2244,
+        1320,
+        2338,
+        2724,
+        2784,
+        2953
+      ],
+      "limitations": "Targeted all-state PR title/body searches, not a complete literature census. No open coordination issue found by sprint/coordination issue searches. GitHub connector rejects Discussion URLs and exposes no Discussion write action; web reads failed. Local claim follows the permitted access fallback."
+    },
+    "expansion_gate": "C=24n; n=2600 has relaxed nominal kappa about0.0017364 at seven stages, but no complete helper bill. Stop after a decisive actual-kernel obstruction or a verified construction; do not optimize unpriced physical implementation. At most one evidence-driven pivot within this arithmetic interface."
+  },
+  "outcome": "completed_scoped_obstruction_and_one_prime_escape",
+  "exact_result": {
+    "encoders": 2600,
+    "prime": 5,
+    "source_rank": 2599,
+    "target_line": 0,
+    "target_residue": 3,
+    "replace_index": 2599,
+    "replacement_index": 2600,
+    "exchange_rank": 2600,
+    "copy_allowance_change": 0,
+    "new_kappa": false
+  },
+  "search_coverage": {
+    "discovery_generator_seed": 6242600,
+    "generated_directions": 2700,
+    "prime_order": [
+      13,
+      7,
+      17,
+      31,
+      29,
+      11,
+      19,
+      5
+    ],
+    "prime_domain": "fixed source matrix; stop at separating actual-target witness",
+    "exploratory_extra_screen": "The 100 extra directions were tested against the one F5 annihilator; this is not a decoder search. Only the index-2600 exchange is certified in the published replay.",
+    "published_replay_domain": "2600 source rows, one target, one row exchange, 2601 exact source-pair records",
+    "stopping_rule": "Stop after a separating certificate and one verified escape; the fixed optimistic 50-stage-count model fails the 5-percent expansion gate. No all-prime or global dyadic-basis search."
+  },
+  "evidence": [
+    "PROOF.md",
+    "CERTIFICATE.json",
+    "DIRECTIONS.json",
+    "verify.py",
+    "test_verify.py",
+    "budget.py"
+  ],
+  "reproduction": "python3 -I -O -B research/leech-norm6-dyadic-obstruction/verify.py",
+  "execution_environment": "Linux-6.18.44-x86_64-with-glibc2.41; CPython 3.13.5; default standard library; optional NumPy 2.3.5",
+  "tests_executed": [
+    "verify.py in normal and optimized isolated modes, --json: 2600 annihilation equations; full rank of exchanged matrix; 6762600 homogeneous coefficients; 256 direct evaluations; full 98280-line digest; 759 octads and 2024 triple cover; two rank-24 support minors; nine controls; 50 conditional budget cases.",
+    "test_verify.py -I -O -B: eight groups passed, including 625 exhaustive 2x2 matrices, 200 seeded rectangular matrices, 4097 mixed columns, malformed/schema inputs and relocated read-only optimized replay. A first tool invocation was interrupted at its 45-second host timeout; the completed rerun passed all eight groups.",
+    "reproduce_directions.py -I -B: all 2601 exact source-pair records reproduced with NumPy 2.3.5.",
+    "git diff --cached --check: isolated package snapshot passed; not a repository-wide suite."
+  ],
+  "unrun": [
+    "repository-wide make verify",
+    "selected cold supplier replay",
+    "hosted CI",
+    "proof assistant",
+    "independent human review",
+    "dyadic inverse for the exchanged basis",
+    "complete paid supplier and outer assembly"
+  ],
+  "open_next_questions": [
+    {
+      "question": "Does a nearby basis or a small redundant extension admit a dyadic decoder?",
+      "why_it_matters": "One-prime nonsingularity is not dyadic admissibility.",
+      "first_step": "Compute an exact saturated row-module/index certificate or explicit dyadic dual.",
+      "blocked_by": "Other odd-prime index information and exact coefficients."
+    },
+    {
+      "question": "Can a changed physical interface beat the fixed optimistic controller budget?",
+      "why_it_matters": "The retained 50-stage-count model fails the 5-percent expansion gate.",
+      "first_step": "Price one changed path/copy profile including preparation, restoration, source access and recursive children.",
+      "blocked_by": "No compatible dyadic decoder or complete helper/native/outer invoice."
+    }
+  ],
+  "attribution": "@CubeJerry with substantial OpenAI ChatGPT GPT-6 Astra Pro assistance; predecessor DominikScholz PR598 and adjacent Cinna Davis PR2222 credited in NOTICE.md.",
+  "overlap_refresh": {
+    "query": "Leech dyadic",
+    "scope": "all-state PR title/body search",
+    "returned_prs": [
+      2222,
+      598
+    ],
+    "limitations": "Targeted query, not a complete new-PR or Discussion census.",
+    "date_utc": "2026-10-16"
+  },
+  "assignment": "Explicit user-assigned complex-supplier track, seed range 20-39; no catalogue task ID claimed."
+}
