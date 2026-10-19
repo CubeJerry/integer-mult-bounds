@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/qq16-all-depth-producer-grid/PROOF.md",
+    "research/qq16-finite-dyadic-format/README.md",
+    "research/qq16-line-normalized-decoder/PROOF.md",
+    "research/qq16-line-normalized-decoder/WORD.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Authenticate sources and regenerate all typed format/cut receipts, including native interiors and ownership."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/independent.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Code-disjoint exact Gaussian-coefficient and numeric-depth recurrences on every cut at eight depths."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/test_numerical.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Exhaustive pair/quad identities, full small-word bounded-integer/rational comparisons, complete native invoices and failure controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/test_package.py"
+      ],
+      "timeout_seconds": 240,
+      "checks": "Normal/optimized Git-free read-only-mode exports, unchanged bytes, 13 corruption cases and refusal to overwrite."
+    }
+  ]
+}

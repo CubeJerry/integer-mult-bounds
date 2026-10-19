@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "kind": "same-input abstract scalar operation counts",
+  "excludes": "address/control, physical bit/tape movement, wrappers, covers, caller admission",
+  "rows": [
+    {
+      "depth": 1,
+      "complex_coordinates": 2,
+      "seed": 54,
+      "sequential": {
+        "add": 8,
+        "array_read": 8,
+        "array_write": 4,
+        "clear": 5,
+        "halve": 4
+      },
+      "paired": {
+        "add": 8,
+        "array_read": 8,
+        "array_write": 4,
+        "clear": 5,
+        "halve": 4
+      },
+      "saving_across_224_natives": 0,
+      "same_outputs": true
+    },
+    {
+      "depth": 2,
+      "complex_coordinates": 4,
+      "seed": 55,
+      "sequential": {
+        "add": 32,
+        "array_read": 32,
+        "array_write": 16,
+        "clear": 5,
+        "halve": 16
+      },
+      "paired": {
+        "add": 16,
+        "array_read": 16,
+        "array_write": 8,
+        "clear": 9,
+        "halve": 8
+      },
+      "saving_across_224_natives": 4480,
+      "same_outputs": true
+    },
+    {
+      "depth": 3,
+      "complex_coordinates": 8,
+      "seed": 56,
+      "sequential": {
+        "add": 96,
+        "array_read": 96,
+        "array_write": 48,
+        "clear": 5,
+        "halve": 48
+      },
+      "paired": {
+        "add": 64,
+        "array_read": 64,
+        "array_write": 32,
+        "clear": 9,
+        "halve": 32
+      },
+      "saving_across_224_natives": 9856,
+      "same_outputs": true
+    },
+    {
+      "depth": 4,
+      "complex_coordinates": 16,
+      "seed": 57,
+      "sequential": {
+        "add": 256,
+        "array_read": 256,
+        "array_write": 128,
+        "clear": 5,
+        "halve": 128
+      },
+      "paired": {
+        "add": 128,
+        "array_read": 128,
+        "array_write": 64,
+        "clear": 9,
+        "halve": 64
+      },
+      "saving_across_224_natives": 42112,
+      "same_outputs": true
+    },
+    {
+      "depth": 7,
+      "complex_coordinates": 128,
+      "seed": 60,
+      "sequential": {
+        "add": 3584,
+        "array_read": 3584,
+        "array_write": 1792,
+        "clear": 5,
+        "halve": 1792
+      },
+      "paired": {
+        "add": 2048,
+        "array_read": 2048,
+        "array_write": 1024,
+        "clear": 9,
+        "halve": 1024
+      },
+      "saving_across_224_natives": 515200,
+      "same_outputs": true
+    },
+    {
+      "depth": 8,
+      "complex_coordinates": 256,
+      "seed": 61,
+      "sequential": {
+        "add": 8192,
+        "array_read": 8192,
+        "array_write": 4096,
+        "clear": 5,
+        "halve": 4096
+      },
+      "paired": {
+        "add": 4096,
+        "array_read": 4096,
+        "array_write": 2048,
+        "clear": 9,
+        "halve": 2048
+      },
+      "saving_across_224_natives": 1375360,
+      "same_outputs": true
+    }
+  ]
+}
