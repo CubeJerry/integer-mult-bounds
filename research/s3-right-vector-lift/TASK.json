@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "task_id": "bit-new-register-model",
+  "priority_revision": 7,
+  "base_commit": "12fa8c5c844be21bfefb38a19503fbd867a11244",
+  "original_card": {
+    "id": "bit-new-register-model",
+    "question": "Can an explicitly larger or nonabelian register model escape the scoped three-register obstruction?",
+    "starting_points": [
+      "docs/research/research-family-status.md",
+      "research/bit-three-register-lower-bound/README.md",
+      "certificates/selected-result.json",
+      "research/bit-gl3-mixed-targets-length10/README.md",
+      "docs/research/community-efficient1000-review.md"
+    ],
+    "methods": [
+      "Construct the smallest exact identity in a newly specified legal operation alphabet.",
+      "Derive a target-specific relaxation bound for that same explicit alphabet."
+    ],
+    "acceptance_gate": "Name the changed hypothesis, all counted roles and a uniform identity; finite column tests alone do not certify it. A scoped local result may be retained without a complete supplier. Expanding it into further construction rounds requires the family-level budget and obligation gate in research-family-status.md; an optimistic passing relaxation alone is not acceptance.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Read Model section 1 of the three-register bound and identify the exact excluded free operations.",
+      "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+    },
+    "first_experiment": "First compare the alphabet, role count and length with the fully replayed #1974 census and #2027 mixed-root tariff. Identify a changed premise and a legal native implementation; then price one smallest completed instance before searching larger words.",
+    "bottleneck_link": "A small-width completed saving changes the bit primitive; a finite-address identity alone is insufficient.",
+    "allowed_variations": [
+      "Choose a fixed larger register count or a specified nonabelian operation family."
+    ],
+    "scope_change_triggers": [
+      "Remaining inside the already-excluded three-register abelian model.",
+      "Repeating the two-register GL3 census or a covered three-register length without changing a hypothesis; a formal group-algebra word without native conversion is a partial result."
+    ],
+    "overlap_terms": [
+      "three-register",
+      "nonabelian",
+      "group algebra"
+    ]
+  },
+  "scope_status": "changed",
+  "actual_scope": "Construct an explicit F2[S3] two-register target with right-vector paid-factor minimum 3 while the free-basis column bound is 2. Supply a three-factor word, a source-independent quotient obstruction, a faithful 12-bit regular-action replay and negative controls.",
+  "scope_change_reason": "Take the explicit unclaimed PR4265 open question 2 within the bit nonabelian track: lift its sharp general-target obstruction to F2[S3], rather than repeat the closed GL3 diagonal census or claim a new supplier.",
+  "bottleneck_link": "A scoped obstruction to treating the column bound as an attainable bit-register cost, now in a formal address group algebra. This is a local interface result, not a supplier improvement.",
+  "budget_minutes": 120,
+  "stop_rule": "One S3 lift of the named PR4265 target; stop if the full-ring target or three-factor restoration fails, if live overlap already covers it, or by 01:33 UTC for research. Reserve the remaining 30 minutes for verification/publication.",
+  "outcome": "completed",
+  "evidence": "PROOF.md gives an explicit group-algebra lift and geometric proof of cost=3>delta=2; CERTIFICATE.json and two separate standard-library implementations corroborate it. Independent census exhausts 766^2 ordered pairs with all six free maps; the literal 72-XOR word is checked on all 4096 inputs. No new kappa.",
+  "author": "@CubeJerry, with OpenAI Codex assistance",
+  "ai_assistance": "Substantial OpenAI Codex assistance; no independent human or formal-kernel review claimed.",
+  "open_questions": [
+    {
+      "question": "Does the minimum remain three with one extra dirty register required to return?",
+      "why_it_matters": "Extra returned storage changes the admissible bit-register circuit model.",
+      "first_step": "Test the plane-intersection necessary condition on diag(P,I2) under GL3(F2), before any larger search.",
+      "blocked_by": "The three-plane argument does not directly handle the six-dimensional quotient and its larger free action."
+    },
+    {
+      "question": "Does a concrete supplier boundary need this non-diagonal target, with a favorable full native bill?",
+      "why_it_matters": "Formal factors alone cannot price multiplication or the selected supplier.",
+      "first_step": "Name one producer and consumer and price all twelve translated-bank XORs, source maps, routing and required return.",
+      "blocked_by": "No native caller or recursive paid-profile realization is supplied."
+    }
+  ],
+  "assignment_seed": 1,
+  "candidate_tasks": [
+    {
+      "object": "PR1062 helper-star K/H2 boundary",
+      "task": "One replacement semantic-helper boundary in a fixed star",
+      "decision": "Not chosen: PR3904/4092/4115/4139/4216 already cover nearby defects; no distinct useful short obligation identified."
+    },
+    {
+      "object": "R437 carrier high-precision caller",
+      "task": "Join a nonzero-high child to source stock and residual preparation",
+      "decision": "Not chosen: active PR4176 already owns the compiler/caller integration; its 426-file boundary is too broad for a distinct bounded session."
+    },
+    {
+      "object": "PR4265 open question 2, F2[S3] lift",
+      "task": "Construct an explicit F2[S3] two-register target with right-vector paid-factor minimum 3 while the free-basis column bound is 2. Supply a three-factor word, a source-independent quotient obstruction, a faithful 12-bit regular-action replay and negative controls.",
+      "decision": "Chosen: new group-algebra target, explicit quotient and lift rather than another matrix-algebra census. Seed 01 selects the first nontrivial lexicographic S3 involution for the presentation."
+    }
+  ],
+  "coordination": {
+    "claim_time_utc": "2026-10-21T00:09:12.849276+00:00",
+    "expires_utc": "2026-10-21T02:03:06Z",
+    "base_commit": "12fa8c5c844be21bfefb38a19503fbd867a11244",
+    "track": "bit supplier",
+    "seed": 1,
+    "expected_deliverable": "One self-contained certificate, written scoped proof, exact verifier and public branch. No new kappa.",
+    "posting": "Local claim: no pinned sprint issue exists (only open issue #913 is unrelated); connected GitHub tools expose no Discussion write operation. No reservation issue created.",
+    "overlap": "Read current #1166 rendered newest page (43 comments, partial coverage); PR4265 explicitly leaves S3 lift open. Targeted all-status right-vector PR search returns #4265, #4243, #4099 plus unrelated #2224/#702/#988. find_overlap task helper ran but remote scan unavailable because gh is absent; connector searches and public Discussion page used as fallback.",
+    "result": "Completed explicit lift and geometric obstruction: cost=3 while delta=2; full faithful circuit 72 XORs. No new kappa.",
+    "result_branch": "https://github.com/CubeJerry/integer-mult-bounds/tree/research/s3-right-vector-lift-seed01-20261021",
+    "publication_status": "Result and branch link are retained locally; exact remote commit and complete-tree verification are supplied in the public PR handoff.",
+    "result_update_utc": "2026-10-21T00:23:02.853366+00:00"
+  },
+  "method": "Explicit central-idempotent decomposition, kernel-plane intersection proof, independent exhaustive 4x4 binary matrix products and faithful six-address literal XOR execution. No random search.",
+  "coverage": {
+    "domain": "One named two-register F2[S3] target; arbitrary ring-valued u, F2-valued right vectors, arbitrary free GL2(F2) maps, no auxiliary registers.",
+    "complete": "All 64 algebra elements, 4096 algebra products, 16 matrix-unit products, 6 free bases, 9 geometric intersections, 766^2 quotient factor pairs, 4096 literal dirty inputs.",
+    "stopping_rule": "The written proof and exact lift settle the named handoff; no larger group/register census or supplier implementation."
+  },
+  "optimistic_budget": {
+    "hypothesis": "Attain the free-basis column lower bound 2 for the exact non-diagonal target.",
+    "result": "Excluded: every completed formal word needs at least 3 factors; 3 attained. Full regular circuit upper bound 72 XORs, with all reads/writes and zero helper banks.",
+    "family_decision": "Stop after the local obstruction. No downstream expansion without a real producer/consumer and native bill.",
+    "unknowns": "Native frames, fixed-tape routing, hosting, precision, source maps and recursive profile remain uninstantiated."
+  },
+  "assignment_started_utc": "2026-10-21T00:03:06.087601+00:00",
+  "verification_reserved_minutes": 30,
+  "freshness": {
+    "checked_utc": "2026-10-21T00:23:02.853366+00:00",
+    "upstream_main": "12fa8c5c844be21bfefb38a19503fbd867a11244",
+    "priority_revision": 7,
+    "decision": "Continue: canonical main unchanged. Targeted all-status right-vector and S3/lift PR searches found no completed S3 lift beyond PR4265, which names it open. Newest rendered #1166 page retains the same open handoff; no overlapping live claim observed. Coverage is partial, not a novelty certificate."
+  },
+  "review_context": {
+    "4099": {
+      "head": "eb98e998903f6034ac7cc8707bfbd922f7c82cfb",
+      "disposition": "partially_reviewed / merged_for_archive_only",
+      "scope": "Source retention, syntax and pin intake; no independent scientific admission. This package rederives its own needed normal form and exact result."
+    },
+    "1974": {
+      "head": "a4992da8e4e81a74cf1fd2b2d3af948662476d6e",
+      "disposition": "incorporated",
+      "scope": "Closed GL3 coordinate-CNOT target-pair domain, not reopened."
+    },
+    "4265_and_4243": "Open PRs absent from the current ledger; source/model/question credit, not assumed accepted theorems."
+  },
+  "related_scopes": {
+    "1488": "Faithful S3 output transport on rational/integervalued dirty echo; different recursive interface and price model.",
+    "2224": "Q[S3] bilinear convolution, characteristic zero; different tensor task and selected-complex optimistic price screen.",
+    "4032": "A4 restricted-label diagonal target; different group, alphabet and target."
+  }
+}
