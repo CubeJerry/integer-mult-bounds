@@ -1,0 +1,104 @@
+{
+  "all_fields_including_packet": 799,
+  "baseline_deletions": [
+    12918,
+    13481,
+    13485,
+    13487,
+    13489,
+    13490,
+    13614,
+    13615,
+    13616,
+    13617,
+    13618
+  ],
+  "baseline_move_replacements": {
+    "12913": [
+      "MOVE",
+      451,
+      3,
+      595,
+      false
+    ],
+    "14523": [
+      "MOVE",
+      451,
+      595,
+      738,
+      false
+    ]
+  },
+  "canonical_version_sha256": "f3f3417422e2f4beba27b7584fb761b6cb4b0bf3eb063a2db82f942799453fe7",
+  "chart_envelope": [
+    3,
+    595,
+    738
+  ],
+  "controls_passed": [
+    "missing_COPY_deletion_rejected",
+    "retained_old228_read_rejected",
+    "chart737_expansion_rejected",
+    "one_watched_column_rank_one",
+    "two_packet_projected_repair",
+    "changed_immutable_word_rejected"
+  ],
+  "cuts_inclusive": [
+    0,
+    22818
+  ],
+  "distinct_role_projection_versions": 570,
+  "eligible_cut_role_observations": 7283846,
+  "final_minor": {
+    "determinant": "-1/4",
+    "rows": [
+      112,
+      144
+    ],
+    "values": [
+      [
+        "1/2",
+        "-1/2"
+      ],
+      [
+        "0",
+        "-1/2"
+      ]
+    ]
+  },
+  "final_residual_nonzero_rows": 79,
+  "final_residual_rank": 2,
+  "final_residual_sha256": "ec3d460496373c99244d86776a3cdfb1b3108489461b90ef65d5dc5e205e0de4",
+  "freely_granted_other_columns": 797,
+  "incremental_invariant_checks": 10772,
+  "observation_partition": {
+    "before_cut13679": 7167699,
+    "from_cut13679": 116147
+  },
+  "original_endpoint_entries_checked": 1598,
+  "original_intermediate_targets": {
+    "451_at_14524": [
+      "0",
+      "1"
+    ],
+    "572_at_13679": [
+      "1/2",
+      "-1/2"
+    ]
+  },
+  "packet_free_envelope_projection": [
+    "0",
+    "0"
+  ],
+  "reference_event_count": 22818,
+  "schema": "p104-root2-independent-full-endpoint-cut/1",
+  "scope": "One fixed linear packet, arbitrary recoding in the stated chart envelope, fixed outside instructions; full watched endpoints, no new kappa.",
+  "source_git_blob": "69b70ee50c697b185ebf585fbe69f2487af32d1d",
+  "source_head": "4f3b67e7c37ae270da9584033132866d0cf63e42",
+  "source_sha256": "c71985d96bf3d4a35aae111aaba87e376f7367efb4a5686278ef293732757533",
+  "source_size": 119901,
+  "watched_initial_columns": [
+    0,
+    8
+  ]
+}

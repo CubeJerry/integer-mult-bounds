@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Immutable sources, all-cut all-field two-coordinate envelope, original endpoint, full residual certificate, exact local tariff bounds."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "-O",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Immutable sources, all-cut all-field two-coordinate envelope, original endpoint, full residual certificate, exact local tariff bounds. Optimized Python."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/independent.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Independent Fraction endpoint and incremental envelope replay; six semantic/source controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "-O",
+        "{package}/independent.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Independent Fraction endpoint and incremental envelope replay; six semantic/source controls. Optimized Python."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/test_package.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Five private-copy CLI corruptions reject for the expected reason; all bytes/modes remain unchanged."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "-O",
+        "{package}/test_package.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Five private-copy CLI corruptions reject for the expected reason; all bytes/modes remain unchanged. Optimized Python."
+    }
+  ]
+}
