@@ -1,0 +1,339 @@
+{
+  "actual_blocks": [
+    [
+      1,
+      5,
+      18,
+      103
+    ],
+    [
+      1,
+      5,
+      20,
+      100
+    ],
+    [
+      1,
+      5,
+      80,
+      85
+    ],
+    [
+      1,
+      18,
+      20,
+      85
+    ],
+    [
+      1,
+      18,
+      80,
+      100
+    ],
+    [
+      1,
+      20,
+      80,
+      103
+    ],
+    [
+      1,
+      85,
+      100,
+      103
+    ],
+    [
+      5,
+      18,
+      20,
+      80
+    ],
+    [
+      5,
+      18,
+      85,
+      100
+    ],
+    [
+      5,
+      20,
+      85,
+      103
+    ],
+    [
+      5,
+      80,
+      100,
+      103
+    ],
+    [
+      18,
+      20,
+      100,
+      103
+    ],
+    [
+      18,
+      80,
+      85,
+      103
+    ],
+    [
+      20,
+      80,
+      85,
+      100
+    ]
+  ],
+  "domain": {
+    "actual_equation_gauges": 30720,
+    "actual_equation_rows": 1255168,
+    "allowed_stabilizer_signs": 89918,
+    "four_subsets": 70,
+    "independent_merge_graphs": 670680,
+    "normalized_options_per_state": 40,
+    "partition_block_states": 289800,
+    "partitions_8": 4140,
+    "source_canonical_calls": 11592000,
+    "source_merge_calls": 11592000,
+    "stabilizer_sign_tests": 1059840,
+    "term_covariance_cases": 72
+  },
+  "induced_orbits": [
+    {
+      "count": 40,
+      "orbit_size_histogram": {
+        "2": 40
+      },
+      "partition": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "count": 27,
+      "orbit_size_histogram": {
+        "2": 14,
+        "4": 13
+      },
+      "partition": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "count": 27,
+      "orbit_size_histogram": {
+        "2": 14,
+        "4": 13
+      },
+      "partition": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "count": 24,
+      "orbit_size_histogram": {
+        "2": 8,
+        "4": 16
+      },
+      "partition": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "count": 19,
+      "orbit_size_histogram": {
+        "2": 6,
+        "4": 9,
+        "8": 4
+      },
+      "partition": [
+        0,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "count": 27,
+      "orbit_size_histogram": {
+        "2": 14,
+        "4": 13
+      },
+      "partition": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "count": 24,
+      "orbit_size_histogram": {
+        "2": 8,
+        "4": 16
+      },
+      "partition": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "count": 19,
+      "orbit_size_histogram": {
+        "2": 6,
+        "4": 9,
+        "8": 4
+      },
+      "partition": [
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "count": 24,
+      "orbit_size_histogram": {
+        "2": 8,
+        "4": 16
+      },
+      "partition": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "count": 27,
+      "orbit_size_histogram": {
+        "2": 14,
+        "4": 13
+      },
+      "partition": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "count": 19,
+      "orbit_size_histogram": {
+        "2": 6,
+        "4": 9,
+        "8": 4
+      },
+      "partition": [
+        0,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "count": 19,
+      "orbit_size_histogram": {
+        "2": 6,
+        "4": 9,
+        "8": 4
+      },
+      "partition": [
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "count": 19,
+      "orbit_size_histogram": {
+        "2": 6,
+        "4": 9,
+        "8": 4
+      },
+      "partition": [
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "count": 19,
+      "orbit_size_histogram": {
+        "2": 6,
+        "4": 9,
+        "8": 4
+      },
+      "partition": [
+        0,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "count": 15,
+      "orbit_size_histogram": {
+        "2": 4,
+        "4": 6,
+        "8": 4,
+        "16": 1
+      },
+      "partition": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "negative_controls": [
+    "over_prune_all_nonzero_entries_to_one",
+    "under_prune_first_entry_only",
+    "omit_component_merge",
+    "merge_untouched_components",
+    "omit_column_gauge_sign"
+  ],
+  "no_new_kappa": true,
+  "pivot_indices": [
+    1,
+    5,
+    18,
+    20,
+    80,
+    85,
+    100,
+    103
+  ],
+  "retained_option_count_histogram": {
+    "15": 55930,
+    "19": 156240,
+    "24": 31710,
+    "27": 42280,
+    "40": 3640
+  },
+  "seed": 66,
+  "source_commit": "f7d6431080b375914216d76a8a6426f50c524471",
+  "source_hashes": {
+    "inputs/PROOF.md": "852bb621317de9b507e3e41dd7475b6d4b87284a591aca39021168f8a3a8c85b",
+    "inputs/code8.py": "bab039873a470a4d3ba71e8f1968268f412ab77122d50c9275b604540491d318"
+  },
+  "status": "PASS_CARRIER_SIGN_GAUGE_AUDIT",
+  "word_sha256": "7834725d9e34ee846a9ccc615221ea81e0201613938afa185d2eda0c9a6c232f"
+}

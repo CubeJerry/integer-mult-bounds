@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "task_id": "census-pruning-audit",
+  "priority_revision": 8,
+  "base_commit": "3f0152a32eeebac0df11946dbd50cabe5a7f7839",
+  "original_card": {
+    "id": "census-pruning-audit",
+    "question": "Does the reported word-census parity-pruning error invalidate a specific exclusion we still rely on, and what bounded repair is justified?",
+    "starting_points": [
+      "research/f7-weight-parity-census-correction/README.md",
+      "docs/research/research-family-status.md"
+    ],
+    "methods": [
+      "Independently reconstruct the tiny counterexample and trace one affected exclusion to its exact pruning code.",
+      "Compare corrected and unpruned enumeration on a small exhaustive domain, then audit the changed pruning implication."
+    ],
+    "acceptance_gate": "Pin the old and proposed corrected engines, distinguish a disproved pruning rule from a disproved final bound, and state exactly which downstream exclusions need revalidation. #2973 is an author-checked source archive; neither its new f(7) claim nor all old conclusions are automatically accepted or rejected.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_selected_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Resolve the current selected review, separate complex/ordinary BIT/admitted BIT/outer budgets, and compare the card against live handoffs before starting. Historical ceilings require exact source/model equivalence.",
+      "scope": "Source-binding orientation only; not a scientific replay or all-size proof. Materialize selected inputs if this checkout is sparse."
+    },
+    "first_experiment": "Reconstruct the eight prefix states of 01021323 and compare bit-0 versus Hamming-weight parity budgets independently. Trace the reported false prune to one pinned predecessor (#2542, #2634 or #2691), then test a small exhaustive domain. Stop after a source-impact handoff or corrected-prune proof; a full seven-label replay needs a separate resource budget and a named research decision it can change.",
+    "bottleneck_link": "An unsound exclusion can wrongly close a mechanism; correcting its dependency boundary is more useful than extending the same census.",
+    "allowed_variations": [
+      "One predecessor pruning rule, one independently exhaustive small domain, or one downstream dependency audit."
+    ],
+    "scope_change_triggers": [
+      "Launching a larger census before validating the prune and explaining which active decision it changes.",
+      "Treating a small-domain counterexample to the old rule as a counterexample to every reported seven-label bound."
+    ],
+    "overlap_terms": [
+      "2973",
+      "2542",
+      "2634",
+      "2691",
+      "weight parity",
+      "bit-0",
+      "01021323",
+      "census pruning"
+    ]
+  },
+  "scope_status": "changed",
+  "actual_scope": "Audit PR6166 sign-class canonicalization and merging, with an independent orbit oracle and a proof of the history stabilizer and equation covariance.",
+  "scope_change_reason": "The user assigned adversarial audit by OS draw 66. Three live candidate obligations were compared; 66 modulo 3 selects PR6166. This changes the catalogue card from historical F7 parity pruning to a distinct F3 decoding-code symmetry prune. It does not revisit or resolve the historical F7 census.",
+  "bottleneck_link": "Side result: validates one potentially solution-losing prune behind the proposed P104 carrier-code exclusion. It improves review evidence, not a supplier or the selected kappa.",
+  "budget_minutes": 120,
+  "stop_rule": "Stop after a proof and complete audit of all 4140 eight-point partitions, 70 four-subsets, 40 normalized options and the eight pivot-sign equation generators. Do not launch the full uniqueness search or infer new cost bounds.",
+  "outcome": "completed",
+  "evidence": "PROOF.md, RESULT.json and verify.py; independent BFS orbit and connectivity oracles, actual-source equation covariance, and five semantic controls.",
+  "author": "Jerry Chen (@CubeJerry)",
+  "ai_assistance": "Substantial OpenAI Codex assistance in reasoning, implementation, verification and writing; no independent human review or formal proof-kernel certification claimed.",
+  "open_questions": [
+    {
+      "question": "Does an independent implementation confirm the equation encoding, elimination and full certificate traversal for PR6166?",
+      "why_it_matters": "This audit covers symmetry pruning only; full uniqueness depends on these separate obligations.",
+      "first_step": "Pin the same PR6166 head, construct a separate dense F3 model, and compare its constraints and consistency decisions with code8.py before replaying the four certificates.",
+      "blocked_by": "A separate bounded review scope and the complete frozen certificate inputs; no mathematical obstruction identified."
+    }
+  ],
+  "session": {
+    "os_random_integer": 66,
+    "randomness": "secrets.randbelow(100)",
+    "start_utc": "2026-10-29T03:17:17Z",
+    "deadline_utc": "2026-10-29T05:17:17Z",
+    "subject_pr": 6166,
+    "subject_head": "f7d6431080b375914216d76a8a6426f50c524471",
+    "claim": "CLAIM.md",
+    "checkpoints": [
+      {
+        "utc": "2026-10-29T03:17:17Z",
+        "canonical_main": "3f0152a32eeebac0df11946dbd50cabe5a7f7839",
+        "priority_revision": 8,
+        "selected_kappa": "781451/250000000",
+        "decision": "start one isolated round; preserve PR6166 source bytes and selected word"
+      },
+      {
+        "utc": "2026-10-29T03:56:00.428237+00:00",
+        "canonical_main": "3f0152a32eeebac0df11946dbd50cabe5a7f7839",
+        "priority_revision": 8,
+        "guidance": [
+          {
+            "path": "AGENTS.md",
+            "sha256": "fbee67ab9e0ae4629a35fd9dba69c8f7e29e4a15392eb2d0f75d8768ffb65f40",
+            "changed": false
+          },
+          {
+            "path": "autoresearch.md",
+            "sha256": "d16f0d3bb4d4b213d06c128db6d6460b0fe9ec1ac5a6c1ea1febf1db40e7b60d",
+            "changed": false
+          },
+          {
+            "path": "docs/research/current-priorities.md",
+            "sha256": "70f61c8d140ae6e892f2b8f065bba4eae3e76f7a8f55f632fd4e2f9f34039bdc",
+            "changed": false
+          },
+          {
+            "path": "docs/research/agent-task-catalog.json",
+            "sha256": "ead6cdc9d0af6d58e8a49744d8ec8c7c15e13d2ba93c276c434bcf9b51b93a81",
+            "changed": false
+          },
+          {
+            "path": "certificates/selected-result.json",
+            "sha256": "9b8d0eea95b3bf0dfcb7938a732a6439b87a2685dec2a5ab9e525b3b34debbfa",
+            "changed": false
+          },
+          {
+            "path": "docs/research/pr-ledger.md",
+            "sha256": "f71d9aacf564051f4a0657f445d791a843059042597121063d48e80dbdbbf919",
+            "changed": false
+          }
+        ],
+        "decision": "continue frozen sign-pruning audit; final verification"
+      },
+      {
+        "utc": "2026-10-29T04:07:32.818774+00:00",
+        "canonical_main": "3f0152a32eeebac0df11946dbd50cabe5a7f7839",
+        "priority_revision": 8,
+        "guidance_changed": [],
+        "decision": "publication checkpoint; preserve completed contribution and frozen subject; same upstream base"
+      }
+    ]
+  }
+}
