@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Exact polynomial inverse coefficients, 108 noncommuting projector instances including exceptional parameters, independent normalization of the pinned eight-field root, and four negative controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "The same exact checks and failures remain active with Python assertions disabled."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/review_endpoint.py",
+        "--source",
+        "{package}/inputs/ROOT.json"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Independent finite-field Gaussian elimination, all-size trace mechanism, characteristic-three support-only boundary witness, separate source normalization and six failure/scope controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-O",
+        "-B",
+        "{package}/review_endpoint.py",
+        "--source",
+        "{package}/inputs/ROOT.json"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Independent finite-field Gaussian elimination, all-size trace mechanism, characteristic-three support-only boundary witness, separate source normalization and six failure/scope controls."
+    }
+  ]
+}

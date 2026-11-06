@@ -1,0 +1,207 @@
+{
+  "char3_witness": {
+    "basis_columns_a_b_c_h": [
+      [
+        0,
+        2,
+        2,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        0
+      ]
+    ],
+    "field": 3,
+    "left_group": [
+      2
+    ],
+    "masks_P0_Pn_R_L": [
+      3,
+      5,
+      13,
+      11
+    ],
+    "n": 4,
+    "prefix_commutation_fails_at": [
+      1,
+      2
+    ],
+    "projectors_P0_Pn_R_L": [
+      [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          2,
+          2,
+          2,
+          0
+        ],
+        [
+          2,
+          2,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "r": 1,
+    "right_group": [
+      1
+    ],
+    "scope": "Canonical support and commuting banks only; not a native caller root.",
+    "z": [
+      0,
+      2,
+      0,
+      1
+    ]
+  },
+  "controls": [
+    "wrong odd inverse coefficient rejected",
+    "s=1 asymmetric products detected",
+    "mutated source fixture rejected",
+    "odd zero parameter singular",
+    "characteristic two permits abstract commuting blocks",
+    "characteristic three admits reversed support-only banks but fails native prefixes"
+  ],
+  "gram": {
+    "cases": 448,
+    "fields": [
+      2,
+      3,
+      5,
+      7,
+      11
+    ],
+    "group_sizes": [
+      1,
+      16
+    ],
+    "odd_zero_parameter_singular": 40
+  },
+  "products": {
+    "characteristic_two_commuting_control": true,
+    "reverse_face_cases": 550,
+    "same_face_cases": 550
+  },
+  "source": {
+    "canonical_queries_checked": 9,
+    "normalization": "u0 a nonzero source R0 column, then Ri*u0",
+    "pair_sites": [
+      [
+        1,
+        2
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "r": "-1",
+    "source_sha256": "b31151c36e39c9267bcc81ec3e13d9d29df9d0c0b404830a9cfb01e21a5b8fc2"
+  }
+}
+PASS_INDEPENDENT_ENDPOINT_FACE_REVIEW

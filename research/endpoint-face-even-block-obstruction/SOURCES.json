@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "base_commit": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+  "files": [
+    {
+      "path": "certificates/selected-result.json",
+      "usage": "provenance",
+      "git_blob": "d59b5035e7b4cbaa9d688a1d32dd0d6eb79c466a",
+      "sha256": "9b8d0eea95b3bf0dfcb7938a732a6439b87a2685dec2a5ab9e525b3b34debbfa"
+    },
+    {
+      "path": "docs/research/agent-task-catalog.json",
+      "usage": "provenance",
+      "git_blob": "3404fbdd5e7529a0674eef26114b5071e4586cec",
+      "sha256": "ead6cdc9d0af6d58e8a49744d8ec8c7c15e13d2ba93c276c434bcf9b51b93a81"
+    }
+  ],
+  "external_predecessors": [
+    {
+      "repository": "zxv/integer-mult-bounds",
+      "pull_request": "CrocSwap/integer-mult-bounds#6726",
+      "commit": "435bbe91fb28cb1d7a569ca70c6c4e9eb302d486",
+      "path": "research/p104-paid-idle-fragmentation/frozen/two-fragment/ROOT.json",
+      "retained_as": "inputs/ROOT.json",
+      "git_blob": "d153188cc7bdc96d80f3f3bdae8e88865ef1d437",
+      "sha256": "b31151c36e39c9267bcc81ec3e13d9d29df9d0c0b404830a9cfb01e21a5b8fc2",
+      "usage": "Self-contained positive fixture; verify.py authenticates the retained bytes. No foreign Git object or network access is needed for replay."
+    },
+    {
+      "repository": "aliromman/integer-mult-bounds",
+      "pull_request": "CrocSwap/integer-mult-bounds#6398",
+      "commit": "dee2663ba0918be86993fd9d63c8d64b020f4c83",
+      "path": "research/mixed-projector-root-headroom/PROOF.md",
+      "git_blob": "f910b5fbf9a9d519fa7d7c7503de51df5a796368",
+      "sha256": "68be52ab098ff9dd6edfe938e5bf36d14d5f49aa1cac94a3d0784566c05363e9",
+      "usage": "Read-only mathematical provenance for the endpoint chart and one-dimensional predecessor; the relevant chart is rederived in PROOF.md."
+    },
+    {
+      "repository": "thu-nmrc/integer-mult-bounds",
+      "pull_request": "CrocSwap/integer-mult-bounds#6717",
+      "commit": "3c9072b8738323dda9f9c7dfb421d578ed3fc17a",
+      "path": "research/p104-coupled-three-stage-rank-budget/PROOF.md",
+      "usage": "Concurrent rank-budget context and inherited scalar/coupled normal form; no unmerged executable dependency."
+    },
+    {
+      "repository": "CrocSwap/integer-mult-bounds",
+      "commit": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+      "path": "research/five-call-projector-rigidity/PROOF.md",
+      "git_blob": "04db617a97bf941fe277e834d2b2e18d6b735a22",
+      "sha256": "f917d2a88433e2c8a3ba48f76453a77af4cfed9cabff32ea8b60ce5abbab869c",
+      "usage": "Read-only shortest-word normal-form provenance; our theorem is stated directly for the canonical model, and the actual root is normalized by the new exact verifier."
+    }
+  ],
+  "retained_input_notice": "inputs/NOTICE is preserved verbatim. inputs/LICENSE is Apache-2.0. The pending root is retained as a self-contained source export rather than requiring a head pin absent from publication ancestry."
+}
