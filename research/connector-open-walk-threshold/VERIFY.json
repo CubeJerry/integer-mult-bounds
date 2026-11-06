@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/connector-bounded-depth-cap/README.md",
+    "research/connector-depth-blocks/README.md",
+    "research/connector-gray-growth/README.md"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Exact threshold witnesses, inherited open-walk conversion, source hashes and 21 rejection controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/independent.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Independent full dirty formal execution of 1597 masks and 33 semantic rejection controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/generate.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Reproduce the bounded seed 43 Posa-rotation discoveries exactly; verification does not rely on this floating-point search."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Exact threshold witnesses, inherited open-walk conversion, source hashes and 21 rejection controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-O",
+        "-B",
+        "{package}/independent.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Independent full dirty formal execution of 1597 masks and 33 semantic rejection controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-O",
+        "-B",
+        "{package}/generate.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Reproduce the bounded seed 43 Posa-rotation discoveries exactly; verification does not rely on this floating-point search."
+    }
+  ]
+}
