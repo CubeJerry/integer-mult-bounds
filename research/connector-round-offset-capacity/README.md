@@ -10,9 +10,10 @@ It also attains the leading block-size upper bound at every fixed depth.
 python3 -B scripts/research_package.py --package research/connector-round-offset-capacity
 ```
 
-Expected: `PASS_ROUND_OFFSET_CAPACITY` and `PASS_INDEPENDENT_ROUND_OFFSET`,
+Expected: `PASS_ROUND_OFFSET_CAPACITY`, `PASS_INDEPENDENT_ROUND_OFFSET`,
+`PASS_CHAIN_ROUND_REFINEMENT`, and `PASS_INDEPENDENT_CHAIN_COVER_REFINEMENT`,
 each in normal and optimized Python. Standard library only, tested with
-Python 3.12.14. The four registered commands take about one second locally.
+Python 3.12.14. Eight commands are registered.
 
 ## Exact result
 
@@ -29,6 +30,16 @@ The inherited counting upper bound is c log₂c+O(c log log c), proving
 N(c)/(c log₂c) tends to one. At fixed depth d=D+1 the block has
 (d-1)log₂c-O_d(1) sources, matching #6107's leading upper term.
 See [PROOF.md](PROOF.md) for the complete proof and exact interface.
+
+The [symmetric-chain refinement](CHAIN_COVER.md) reduces the round budget to
+D binom(b,floor(b/2))<=c. This is the exact minimum within the stated
+literal pure-group prefix-cover class. It improves the bound, for all c>=16, to
+
+    N(c) >= c log₂c-(1/2)c log₂(log₂c)-4c.
+
+It also gives fixed-depth block size
+(d-1)log₂c+((d-1)/2)log₂log₂c+O_d(1). The refinement uses the same
+one-read correction and does not change the alphabet or complete abstract bill.
 
 The construction reserves one source-permutation round per nonempty subset
 of each small group. A selected prefix has vector r·1+1_S. Splitting a mask
@@ -60,7 +71,15 @@ finite blocks. The exact finite capacity and second-order term remain open.
   an incorrect boundary, and insufficient round/read budgets. It checks
   the exact capacity formula for c=2,...,65,536 and selected powers through
   2^4096. These arithmetic checks are not proofs of asymptotic quantifiers.
-- Both programs pass with normal Python and `-O`; failure detection does
+- The chain refinement checks 8,190 located subsets and 1,911 covering
+  permutations at b=1..12, plus 4,739 output masks and 30,180 complete calls
+  in five literal fixtures. Primary and independently authored checkers
+  reject 69 and 89 mutations, respectively. Exact integer arithmetic checks
+  2,048 binomial estimates and 16,383 consecutive capacities, with additional
+  powers through 2^4096; an independent binary-search oracle confirms every
+  capacity entry. [CHAIN_REVIEW.md](CHAIN_REVIEW.md) and
+  [CHAIN_LITERAL_REVIEW.md](CHAIN_LITERAL_REVIEW.md) record the two reviews.
+- All four programs pass with normal Python and `-O`; failure detection does
   not depend on Python assertions. The task-card orientation control also
   passed: `python3 -B research/universal-connector-boundary/verify.py`,
   `PASS_UNIVERSAL_CONNECTOR_BOUNDARY pairings=945 max_coverage=31 queries=74 leaves=182`.
@@ -72,6 +91,8 @@ finite blocks. The exact finite capacity and second-order term remain open.
   [INTERFACE_REVIEW.md](INTERFACE_REVIEW.md).
 
 The fixture domains and rejection controls are explicit in `independent.py`.
+The chain fixture generator deliberately caps b and total source count at 12;
+the universal construction is proved separately in CHAIN_COVER.md.
 Construction is deterministic; no seed or unsuccessful-search inference is
 used. These are exact finite checks and independent AI mathematical reviews,
 not proof-kernel formalization or independent human acceptance.
@@ -112,7 +133,10 @@ Ross Richardson/Riquelme Soares connector lineage. Earlier palette/block
 ideas in #4256 and conorholds's #2208 concern different coefficient demands
 or signed/two-root alphabets and retain their conceptual credit. Partitioning
 subsets and modular arithmetic are classical; the new step is their
-exact-floor realization through the round-start correction. The bounded
+exact-floor realization through the round-start correction. The refinement
+credits the classical symmetric-chain decomposition of de Bruijn, van
+Ebbenhorst Tengbergen and Kruyswijk (1951); its proof and source are recorded
+in CHAIN_COVER.md. The bounded
 [provenance review](PROVENANCE_REVIEW.md) records what was checked and its
 coverage limits. Apache-2.0. No predecessor file or selected record changes.
 

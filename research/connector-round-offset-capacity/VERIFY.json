@@ -46,6 +46,44 @@
       ],
       "timeout_seconds": 30,
       "checks": "Independent regeneration and full dirty/source/output execution, concatenation and 51 negative controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/verify_chains.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Exact symmetric-chain covers, literal schedules, binomial budgets and 69 rejection controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/verify_chains_independent.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Separately authored literal cover/call verification and 89 rejection controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-O",
+        "-B",
+        "{package}/verify_chains.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Exact symmetric-chain covers, literal schedules, binomial budgets and 69 rejection controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-O",
+        "-B",
+        "{package}/verify_chains_independent.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Separately authored literal cover/call verification and 89 rejection controls."
     }
   ]
 }
