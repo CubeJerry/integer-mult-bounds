@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/precision-state-frontier/FIXTURE.json",
+    "research/refined-native-recovery/CHAIN_PROOF.md"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Literal source;65536 maps;816 greedy cases;exact inequality and bit certificates"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "-O",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Literal source;65536 maps;816 greedy cases;exact inequality and bit certificates optimized"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/independent_bounds.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Separate integer DP and eight-class closed-form bounds; neither imports primary code"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "-O",
+        "{package}/independent_bounds.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Separate integer DP and eight-class closed-form bounds; neither imports primary code"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/independent_attainment.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Source lattice;3024 frame columns;27-stage chains;seven controls"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "-O",
+        "{package}/independent_attainment.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Source lattice;3024 frame columns;27-stage chains;seven controls optimized"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/controls.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Eight actual private-copy corruptions reject for named reasons"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "-O",
+        "{package}/controls.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Eight actual private-copy corruptions reject for named reasons optimized"
+    }
+  ]
+}
