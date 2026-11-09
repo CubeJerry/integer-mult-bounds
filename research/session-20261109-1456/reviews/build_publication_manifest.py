@@ -11,7 +11,11 @@ def git(*args):return subprocess.check_output(['git','-C',str(root),*args]).deco
 assert not git('status','--porcelain'), 'working tree must be clean'
 deps_path=root/a.package/'DEPENDENCIES.json'
 deps=json.loads(deps_path.read_text()).get('files',[]) if deps_path.exists() else []
-deps={(d['path'] if 'path' in d else a.package+'/'+d['local_path']):d for d in deps}
+def local_path(d):
+    name=d.get('path',d.get('local_path'))
+    assert isinstance(name,str)
+    return name if name.startswith('research/') else a.package+'/'+name
+deps={local_path(d):d for d in deps}
 files=[]
 for line in git('diff','--name-status',base,'HEAD').splitlines():
     status,path=line.split('\t');assert status=='A' and path.startswith(a.package+'/'),(status,path)

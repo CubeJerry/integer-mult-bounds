@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "wave": 8,
+  "worker": "compiler_owned",
+  "status": "frozen verified; ready for lead publication",
+  "canonical_base": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+  "branch": "research/compact-rounded-add-20261109",
+  "commit": "50b1a8275e980f4bdd3f60f48c1edeb7ede28113",
+  "whole_tree": "aa5426d57fb973dbc186fe4ff10e23f68e0668fb",
+  "package_tree": "6e08ab8a8646d98ca7b62850ef38a451cefb3823",
+  "package": "/workspace/scratch/a365d332d434/worker-compact-add/research/compact-rounded-add",
+  "changed_files": 25,
+  "all_changes_additions": true,
+  "tree_byte_mode_check": true,
+  "clean_worktree": true,
+  "title": "research: compact literal rounded ADD with two owned banks",
+  "pr_description": "/workspace/scratch/a365d332d434/worker-compact-add/research/compact-rounded-add/PR-DESCRIPTION.md",
+  "export": "/workspace/scratch/a365d332d434/compact-rounded-add-50b1a8275.tar",
+  "export_sha256": "94cbdc1660be200c3a9796b2428d4cd4f63723e1813032a345ad928b3dd94873",
+  "export_inputs_checked": 6,
+  "export_replay": "/workspace/scratch/a365d332d434/compiler-owned-wave8-EXPORT-REPLAY.json",
+  "verification": {
+    "registered_normal_optimized": 8,
+    "empty_PATH_export_suites": 4,
+    "metadata_pins": "PASS_PACKAGE_METADATA_AND_PINS",
+    "author_exhaustive_pairs": 1952,
+    "lead_independent_mixed_width_fields": 219,
+    "lead_successes": 139,
+    "lead_correct_overflows": 80,
+    "negative_mutants": 5,
+    "source_witnesses": [
+      252,
+      1103,
+      2798
+    ],
+    "last_amend": "Documentation-only spacing after eight identical-code/input registered replays; final metadata and four exported suites passed."
+  },
+  "result": "Two-bank compact fixed-rational rounded ADD table with graph O(LK+o^2+Ko), K=L+2, odd divisor<=125; all-size cancellation-safe signed admission and full positive tape/control/history cost; three exact current ADD token witnesses.",
+  "assumptions": [
+    "Canonical common-grid inputs and distinct ordered tapes",
+    "Initial public origins, protected local markers, confined context heads and contiguous old work",
+    "Exactly two explicitly owned work banks authorized for erasure",
+    "Source-specific unwrapped local token mapping only"
+  ],
+  "limitations": [
+    "Only three source coefficient tables installed, not full4462 catalogue",
+    "No full recursive caller or physical tariff-cap admission",
+    "No runtime-variable divisor or native leaf converter",
+    "No new kappa; five framework assumptions remain globally open"
+  ],
+  "next_action": "Lead verifies/publishes this immutable package and exact branch/tree; await fresh allocation, no self-assigned second scope."
+}

@@ -1,0 +1,40 @@
+{
+  "canonical_base": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+  "commit": "f5d9db287a15d2e20a147e92ae8ca37c10296320",
+  "tree": "47bec10248d7e32c50f495f91e22a0c2467dd610",
+  "branch": "research/current-rounded-positive-leaf-20261109",
+  "additions": 234,
+  "deletions": 0,
+  "worktree_clean": true,
+  "committed_bytes_modes": 234,
+  "unchanged_authenticated_source_files": 204,
+  "registered_normal_and_optimized_gates": 4,
+  "all_registered_gates_passed": true,
+  "each_registered_cap_seconds": 120,
+  "export": "native-w6-rounded-leaf-export.tar",
+  "export_check_with_inputs": true,
+  "cold_numeric": {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-I",
+      "-B",
+      "verify.py",
+      "--suite",
+      "numeric"
+    ],
+    "export_package": "/workspace/scratch/a365d332d434/native-w6-cold-f5d9db287/research/current-rounded-positive-leaf",
+    "git_free": true,
+    "PATH": "empty directory",
+    "elapsed_seconds": 6.695199,
+    "exit_code": 0,
+    "stdout": "PASS_CURRENT_ROUNDED_POSITIVE_LEAF_NUMERIC {\"full_MOVE\": false, \"no_new_kappa\": true, \"ports\": 521, \"selected_producer_witness\": false}\n",
+    "stderr": "",
+    "archive_sha256": "cc579c90d6d56ec0208f5639bf9949044c18f5278c853d72762b144afa71aa7a"
+  },
+  "production_sha256": "90692dd83d961d61ba3271390185dd21337b4334f388f161c8f8a81b76a884c8",
+  "proof_sha256": "2da659955598934113e236b2ba572825447f735e4fe78ac09b3d65a6b6418c2b",
+  "lead_independent_review": "review/rounded-leaf-lead-review.json (separate model-assisted review; no human/kernel claim)",
+  "publish_status": "Not pushed by worker; lead owns publication",
+  "no_new_kappa": true,
+  "global_assumptions_discharged": false
+}
