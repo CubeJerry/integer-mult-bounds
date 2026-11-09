@@ -1,0 +1,98 @@
+{
+  "actual_phase_engine": true,
+  "cases": [
+    {
+      "K": 1,
+      "columns": [
+        0,
+        0
+      ],
+      "descriptor_steps": 41016,
+      "f": 2,
+      "full_context_bits": 891,
+      "inverse": 2,
+      "ordinary_remainder": 13,
+      "phase": 2,
+      "physical_actions": 24210731,
+      "rho": 0,
+      "view_sha256": "6b57d53e57c3ac024646d8ab5e954a5a8b41e865ae4930088d929ba1658d66b0"
+    },
+    {
+      "K": 2,
+      "columns": [
+        1,
+        0
+      ],
+      "descriptor_steps": 67537,
+      "f": 2,
+      "full_context_bits": 1487,
+      "inverse": 3,
+      "ordinary_remainder": 9,
+      "phase": 1,
+      "physical_actions": 73878991,
+      "rho": 1,
+      "view_sha256": "99484c20ad92835ed7511282cf8a241eed2ccbaac50d9c718982bbecd3578521"
+    }
+  ],
+  "complete_parent_packet_executed": false,
+  "controls": [
+    "wrong_current_rho",
+    "copied_one_column_constant"
+  ],
+  "descriptor_ports": 39,
+  "fixed_total_ports": 1917,
+  "fourier_child_executed": false,
+  "full_global_reservation_admission": false,
+  "full_native_invocations": 0,
+  "source": {
+    "caller_sha256": "a84f6bbd547379597464e56c420cc665f96bc43a9a1351eed4b7cd0fce3cc4b9",
+    "caller_site": 0,
+    "caller_stage": 0,
+    "complete_caller_or_fourier_executed": false,
+    "destination_frame": 7,
+    "event": 9896,
+    "gamma": 1,
+    "geometry_head": "41febf890fbbb852c6059d4c0cc8c593ae9dfa5c",
+    "inherited_record_sha256": "0fb29a9ddca346f0b17d11f720d80607a0a64859d75afb50e9680be7a4647ac4",
+    "mapped_roles": 799,
+    "native_variables": 9,
+    "normalized_route_is_input_contract": true,
+    "owner": 3356,
+    "parent_ambient": 145,
+    "rank": 0,
+    "raw_owner": 236,
+    "raw_token": [
+      "move-in",
+      "local",
+      9896,
+      [
+        "MOVE",
+        236,
+        3,
+        7,
+        false
+      ]
+    ],
+    "right_constant_phase": 1,
+    "source_frame": 3,
+    "token": [
+      "caller-local",
+      0,
+      0,
+      [
+        "move-in",
+        "local",
+        9896,
+        [
+          "MOVE",
+          236,
+          3,
+          7,
+          false
+        ]
+      ]
+    ]
+  },
+  "status": "PASS_SOURCE_BOUND_NATIVE_HEADER_PHASE_CONTROLS",
+  "synthetic_numeric_callback": false
+}

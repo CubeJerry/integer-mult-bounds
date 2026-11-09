@@ -1,0 +1,221 @@
+{
+  "history": {
+    "fresh_private_cells": 3147,
+    "retained_private_cells": 84451,
+    "short_call_actions": {
+      "move": 25246,
+      "read": 22227,
+      "write": 6554
+    }
+  },
+  "prepare_rows": 2742,
+  "release_rows": 475,
+  "scope": "Independent emitted-table interpretation and exact typed source binding; no numerical parent field, native endpoint, or compiler assumption discharged.",
+  "source_binding": {
+    "actual_source_prefix": true,
+    "helpers": 562,
+    "owner": 3356,
+    "raw_record": [
+      "MOVE",
+      236,
+      3,
+      7,
+      false
+    ],
+    "rejected": [
+      "raw owner instead of caller owner",
+      "adjacent helper owner",
+      "flat token",
+      "untyped caller boolean",
+      "other source cut",
+      "buried raw token",
+      "untyped raw flag",
+      "untyped rank",
+      "wrong gamma",
+      "boolean gamma",
+      "wrong ambient",
+      "wrong source frame",
+      "reverse vectors",
+      "after stage route"
+    ],
+    "source_payload_not_executed": true
+  },
+  "source_pins": {
+    "DEPENDENCIES.json": "f79d1df65a3de7e689bc1a7f7e029f4b3be244aeab3c9cbfab9eacd300394149",
+    "header_sources.py": "2c0ebfbcc5ee2c85841c8a4e42c578f4f0fca24b88db7e27d80d92e843077384",
+    "header_view.py": "8395d099b0fe141bb92d9bc70138e81c6c080a69cc5c06bd3143641fe2a7fe38",
+    "source_binding.py": "a66f9a1ef3e7a3e49079e92876fb57115a6095444bf766d29e604016e5a2ab3f"
+  },
+  "status": "INDEPENDENT_NATIVE_HEADER_TABLES_PASS",
+  "success_cases": [
+    {
+      "K": 1,
+      "changed_fields": [
+        "selected_axes",
+        "entry_start",
+        "remainder"
+      ],
+      "f": 1,
+      "input_bits": 1647,
+      "output_bits": 1639,
+      "prepare_dispatches": 62833,
+      "preserved_fields": 20,
+      "primitive_actions": {
+        "move": 25246,
+        "read": 22227,
+        "write": 6554
+      },
+      "release_dispatches": 11908,
+      "remainder": 0
+    },
+    {
+      "K": 2,
+      "changed_fields": [
+        "selected_axes",
+        "entry_start",
+        "remainder"
+      ],
+      "f": 1,
+      "input_bits": 2027,
+      "output_bits": 2013,
+      "prepare_dispatches": 76999,
+      "preserved_fields": 20,
+      "primitive_actions": {
+        "move": 30904,
+        "read": 27131,
+        "write": 8062
+      },
+      "release_dispatches": 14526,
+      "remainder": 8
+    },
+    {
+      "K": 3,
+      "changed_fields": [
+        "selected_axes",
+        "entry_start",
+        "remainder"
+      ],
+      "f": 1,
+      "input_bits": 2349,
+      "output_bits": 2335,
+      "prepare_dispatches": 89075,
+      "preserved_fields": 20,
+      "primitive_actions": {
+        "move": 35734,
+        "read": 31317,
+        "write": 9350
+      },
+      "release_dispatches": 16780,
+      "remainder": 9
+    },
+    {
+      "K": 2,
+      "changed_fields": [
+        "selected_axes",
+        "entry_start",
+        "remainder"
+      ],
+      "f": 1,
+      "input_bits": 3411,
+      "output_bits": 3387,
+      "prepare_dispatches": 128777,
+      "preserved_fields": 20,
+      "primitive_actions": {
+        "move": 51600,
+        "read": 45068,
+        "write": 13580
+      },
+      "release_dispatches": 24144,
+      "remainder": 144
+    },
+    {
+      "K": 2,
+      "changed_fields": [
+        "selected_axes",
+        "entry_start",
+        "remainder"
+      ],
+      "f": 2,
+      "input_bits": 3409,
+      "output_bits": 3401,
+      "prepare_dispatches": 128954,
+      "preserved_fields": 20,
+      "primitive_actions": {
+        "move": 51692,
+        "read": 45147,
+        "write": 13606
+      },
+      "release_dispatches": 24242,
+      "remainder": 0
+    },
+    {
+      "K": 2,
+      "changed_fields": [
+        "selected_axes",
+        "entry_start",
+        "remainder"
+      ],
+      "f": 2,
+      "input_bits": 3545,
+      "output_bits": 3531,
+      "prepare_dispatches": 133968,
+      "preserved_fields": 20,
+      "primitive_actions": {
+        "move": 53690,
+        "read": 46879,
+        "write": 14138
+      },
+      "release_dispatches": 25152,
+      "remainder": 13
+    },
+    {
+      "K": 5,
+      "changed_fields": [
+        "selected_axes",
+        "entry_start",
+        "remainder"
+      ],
+      "f": 3,
+      "input_bits": 9813,
+      "output_bits": 9789,
+      "prepare_dispatches": 368900,
+      "preserved_fields": 20,
+      "primitive_actions": {
+        "move": 147646,
+        "read": 128308,
+        "write": 39192
+      },
+      "release_dispatches": 68958,
+      "remainder": 144
+    },
+    {
+      "K": 3,
+      "changed_fields": [
+        "selected_axes",
+        "entry_start",
+        "remainder"
+      ],
+      "f": 7,
+      "input_bits": 12839,
+      "output_bits": 12823,
+      "prepare_dispatches": 482536,
+      "preserved_fields": 20,
+      "primitive_actions": {
+        "move": 193108,
+        "read": 167708,
+        "write": 51316
+      },
+      "release_dispatches": 90196,
+      "remainder": 9
+    }
+  ],
+  "table_controls": [
+    "compiled multiplier 8 instead of 9",
+    "compiled entry copied from back_start",
+    "compiled view-retirement writes zero",
+    "truncated final field",
+    "empty descriptor",
+    "zero multiplicity"
+  ],
+  "table_sha256": "3e8bdb02323df791291cd7dd002483ebcdd8b02874b4ae53092bcb6860e08b1e"
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "research/current-native-header-view/verify.py"
+      ],
+      "timeout_seconds": 480,
+      "checks": "Exact normal physical descriptor/source-chain/history and actual selected phase-control replay; all 23 fields, origins, retirement and typed controls. No full numerical parent or Fourier execution."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "research/current-native-header-view/verify.py"
+      ],
+      "timeout_seconds": 480,
+      "checks": "Exact optimized physical descriptor/source-chain/history and actual selected phase-control replay; all 23 fields, origins, retirement and typed controls. No full numerical parent or Fourier execution."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "research/current-native-header-view/check_review.py"
+      ],
+      "timeout_seconds": 80,
+      "checks": "Independent normal sparse-hardware table review, 23-field oracle, compiled mutants, malformed binary and typed source/route controls; exact receipt comparison."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "research/current-native-header-view/check_review.py"
+      ],
+      "timeout_seconds": 80,
+      "checks": "Independent optimized sparse-hardware table review, 23-field oracle, compiled mutants, malformed binary and typed source/route controls; exact receipt comparison."
+    }
+  ]
+}
