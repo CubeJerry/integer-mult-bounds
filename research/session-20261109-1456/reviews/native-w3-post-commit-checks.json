@@ -1,0 +1,43 @@
+{
+  "local_commit": "430926727528959cc556d0608af325c443a8d8dd",
+  "tree": "c395af0e0dc6cc8d838812c5388b52c042237646",
+  "canonical_parent": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+  "additions": 162,
+  "other_change_kinds": 0,
+  "checks": [
+    {
+      "command": [
+        "python",
+        "-B",
+        "scripts/check_research_commit.py",
+        "--package",
+        "research/current-coded-all-source-leaf",
+        "--check-modes"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS_RESEARCH_COMMIT_BYTES {\"commit\": \"430926727528959cc556d0608af325c443a8d8dd\", \"files\": 162, \"package\": \"research/current-coded-all-source-leaf\", \"executable_modes_checked\": true}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "scripts/export_research_package.py",
+        "check",
+        "--check-inputs",
+        "/workspace/scratch/a365d332d434/native-w3-export.tar"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS_RESEARCH_EXPORT {\"commit\": \"430926727528959cc556d0608af325c443a8d8dd\", \"package\": \"research/current-coded-all-source-leaf\", \"files\": 162, \"declared_inputs_checked\": 0}\n",
+      "stderr": ""
+    }
+  ],
+  "cold_export_interface": {
+    "exit_code": 0,
+    "elapsed_seconds": 1.418,
+    "check": "cold exported interface including source dependency closure",
+    "physical_child_replay": false,
+    "archive": "/workspace/scratch/a365d332d434/native-w3-export.tar",
+    "harness_correction": "Export is an uncompressed tar; corrected the local filename and reader before replay."
+  }
+}

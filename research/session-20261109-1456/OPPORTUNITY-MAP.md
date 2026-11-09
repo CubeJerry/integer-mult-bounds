@@ -42,3 +42,14 @@ No result in this run changes the selected certificate or proves an unconditiona
 - Remaining diagonal is publishedb00d64b6204e83d468dde2db7480a2822e6940aa. Its actual q-grid service fits the source group ledger, conditional on explicit reference/radius/route contracts.
 - Literal narrow-gap admission is now the analytic target. #4648 already proves ideal half-gap and a generic rounding budget; the new question is whether actual for_cap allocation automatically pays its own rounding loss. Candidate inequality is UNVERIFIED.
 - Direct serial monomial has completed smaller actual forward/inverse and history tests, plus a real batched/serial acceptance-domain counterexample. Source proof, gates and independent review remain active.
+
+## Thirteenth publication and next interfaces
+
+- Actual for_cap narrow-gap admission: resolved in its fine-theta/legal-cut family by9a07c08; ideal #4648 remains predecessor.
+- Every selected positive leaf rank: conditional direct interface published12e58df, guard r*f<=cutoff and388 ports.
+- Multi-column serial monomial: conditional direct alternative published2ec95e,45 ports, full repeated bill and stricter signed domain.
+- Protected complete direct MOVE: active native wave4.
+- Separated QSELF pair plus existing query: active compiler wave5; possible three-query replacement remains unverified.
+- Actual H-to-ideal-periodic-N under original coordinates and final scales: active analytic wave6; prior ProductionPlan joins have different theta and scales.
+
+All thirteen verified branches are in REVIEW-LINKS.json. All five global assumptions and selected kappa remain unchanged.

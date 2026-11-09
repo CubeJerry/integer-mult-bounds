@@ -39,3 +39,9 @@ The new #6937 E-free root is prior work, including its finite central-character 
 The source-scale ledger at `76a84e1c4bfa4035e5ee85410dbfc4541f0da168` spends the bridge normalizer inside the existing completed-map budget or, as a distinct policy, adds it to final restoration. It proves an actual-rounded-state recurrence and common precision allocation under an explicit remaining-diagonal service contract. No scalar engine, source-page generation or physical diagonal execution is inferred. Address width log2 T=Theta(p), input length n=Theta(Tp), and d=Theta(p^(1-10^-30)) remain distinct.
 
 The next useful analytic implication is an actual paid diagonal service on radius3R0 with the changed remaining coefficients and q-grid error. Existing #3851/#3787/#6898 engines and cached odometer products are prior work.
+
+## Source-specific progress at wave6 transition
+
+The actual cap constructor now has its literal narrow-gap admission proved in the fine-theta/legal-cut family using existing precision. The remaining source Gaussian diagonal has a real common-grid service. Replacing that finite Reference by the ideal periodic narrow operator under the same coordinates/restored error budget is active. Fine-prime avoidance and final integer recovery remain inherited.
+
+Every selected positive rank now has a direct current-header leaf. Multi-column monomials can use serial one-column branches with no ordinary runtime invocation under a narrower signed domain and full repeated costs. Protected complete composition is active; enclosing compiler uniformity and nonleaf rates remain open.

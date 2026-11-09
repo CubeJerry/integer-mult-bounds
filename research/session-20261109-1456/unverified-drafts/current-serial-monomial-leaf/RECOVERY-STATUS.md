@@ -1,3 +1,3 @@
-# UNVERIFIED recovery copy
+# Historical draft, superseded
 
-Root serial prototype, copied during normal/optimized gates and independent review. Not a reviewed contribution or PR. Reconstruct vendor/monomial from the exact public source paths and hashes in DEPENDENCIES.json (109 rows); all nonvendor source and receipts are included here. Original working branch research/current-serial-monomial-leaf-20261109, base7c49fe32c55de02c2c873655c804b16e4c3fef0a. Do not infer acceptance from saved receipts.
+Use reviewed public commit `2ec95e06c2a16e73f9da9a8fe41912710135daaf` on branch `research/current-serial-monomial-leaf-20261109`. This older draft is retained only as recovery history and is not the reviewed contribution.

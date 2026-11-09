@@ -1,0 +1,21 @@
+{
+  "status": "PASS_COMMITTED_BYTES_MODES_AND_COLD_EXPORT",
+  "local_commit": "edd337cf4b08b3276155202a6f78d88778fa9197",
+  "tree": "65268e65a52561b5a9ef15758e058dcd4ea96761",
+  "files": 129,
+  "declared_inputs": 0,
+  "archive_sha256": "f1671cd3f167e56c573cfd443cc5dfa53cad4a584332f474493331689b89bf22",
+  "cold_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-I",
+    "-B",
+    "/workspace/scratch/a365d332d434/serial-cold-edd337c/research/current-serial-monomial-leaf/verify.py",
+    "--suite",
+    "metadata"
+  ],
+  "PATH": "",
+  "cold_stdout_sha256": "b243035a240c53edb06b8afd6c5b4ef31137e5eb66629fa0874612006ddae229",
+  "independent_review_original_sha256": "f9b3b95b9666f35287b1b20ab6551610cdfa307b4f101116d78b111185ed0d5e",
+  "long_gates": "All eight normal/optimized registered gates passed before scientific-code freeze; not rerun for documentation-only changes.",
+  "bytecode_note": "Post-commit file gate detected ignored local review bytecode; removed only own package __pycache__ directories, then gate passed. No committed bytes changed."
+}
