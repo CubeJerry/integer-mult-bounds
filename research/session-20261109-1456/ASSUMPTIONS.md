@@ -33,3 +33,9 @@ The production-window package gives the exact current 6W carve test and the suff
 Atomic MOVE composition has been reviewed algebraically, but the whole4096-record replay timed out. Only completed factor receipts may be reported; the final package must distinguish sliced evidence from uninterrupted execution.
 
 The new #6937 E-free root is prior work, including its finite central-character caller check. Current investigation concerns the remaining QSELF/whole-source all-column interface. For analytic normalization, the canonical full d=Theta(p^(1-10^-30)) bound makes O(d log p)=o(p); an assumed O(p log p) obstruction would be false. The open task is exact actual-state and compensation bookkeeping, including which scales the outer framework already includes.
+
+## Verified group-scale interface
+
+The source-scale ledger at `76a84e1c4bfa4035e5ee85410dbfc4541f0da168` spends the bridge normalizer inside the existing completed-map budget or, as a distinct policy, adds it to final restoration. It proves an actual-rounded-state recurrence and common precision allocation under an explicit remaining-diagonal service contract. No scalar engine, source-page generation or physical diagonal execution is inferred. Address width log2 T=Theta(p), input length n=Theta(Tp), and d=Theta(p^(1-10^-30)) remain distinct.
+
+The next useful analytic implication is an actual paid diagonal service on radius3R0 with the changed remaining coefficients and q-grid error. Existing #3851/#3787/#6898 engines and cached odometer products are prior work.
