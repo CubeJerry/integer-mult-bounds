@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "research/compiled-row-stock-dispatch/verify.py"
+      ],
+      "timeout_seconds": 500,
+      "checks": "Authenticate exact source/export bytes; replay literal row, canonical padding, geometry, source routes, actual adverse controls and joined lifecycle; compare deterministic receipt."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "research/compiled-row-stock-dispatch/verify.py"
+      ],
+      "timeout_seconds": 500,
+      "checks": "Repeat the complete authenticated scientific replay under optimized Python; rejection checks and deterministic receipt must remain identical."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "research/compiled-row-stock-dispatch/review/row_dispatch_independent.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Portable independently authored complete-row/encoded-geometry review, normal; separate hardware, codec and interpreter."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "research/compiled-row-stock-dispatch/review/row_dispatch_independent.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Portable independently authored complete-row/encoded-geometry review, optimized; separate hardware, codec and interpreter."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "research/compiled-row-stock-dispatch/review/row_geometry_independent.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Portable independently authored complete-row/encoded-geometry review, normal; separate hardware, codec and interpreter."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "research/compiled-row-stock-dispatch/review/row_geometry_independent.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Portable independently authored complete-row/encoded-geometry review, optimized; separate hardware, codec and interpreter."
+    }
+  ]
+}

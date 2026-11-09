@@ -1,0 +1,478 @@
+{
+  "checks": {
+    "check_compiler": {
+      "rejections": [
+        "deleted_actual_axis_entry",
+        "deleted_actual_inverse_xor",
+        "wrong_actual_owner_xor",
+        "double_route_binding",
+        "missing_source_axis_boundaries"
+      ],
+      "source_generated_instances": [
+        {
+          "emitted_events": 29,
+          "entry_swaps": 2,
+          "matched_row_divisors": 0,
+          "paid_sites": 2,
+          "placement_checks": 54,
+          "private_borrow_entries": 0,
+          "rank": 3,
+          "route_pairs": 6,
+          "scope_kinds": {
+            "deepest-exit": 1,
+            "source-complement": 1,
+            "terminal-rank-one": 2,
+            "unit-occurrence": 2
+          },
+          "selected_xor_records": 12,
+          "source_events": 17,
+          "width": 2
+        },
+        {
+          "emitted_events": 61,
+          "entry_swaps": 6,
+          "matched_row_divisors": 0,
+          "paid_sites": 4,
+          "placement_checks": 78,
+          "private_borrow_entries": 0,
+          "rank": 4,
+          "route_pairs": 9,
+          "scope_kinds": {
+            "deepest-exit": 1,
+            "source-complement": 2,
+            "terminal-rank-one": 4,
+            "unit-occurrence": 2
+          },
+          "selected_xor_records": 36,
+          "source_events": 25,
+          "width": 2
+        },
+        {
+          "emitted_events": 181,
+          "entry_swaps": 20,
+          "matched_row_divisors": 0,
+          "paid_sites": 8,
+          "placement_checks": 192,
+          "private_borrow_entries": 0,
+          "rank": 5,
+          "route_pairs": 22,
+          "scope_kinds": {
+            "deepest-exit": 3,
+            "source-complement": 5,
+            "terminal-rank-one": 8,
+            "unit-occurrence": 6
+          },
+          "selected_xor_records": 120,
+          "source_events": 61,
+          "width": 4
+        },
+        {
+          "emitted_events": 183,
+          "entry_swaps": 18,
+          "matched_row_divisors": 0,
+          "paid_sites": 8,
+          "placement_checks": 240,
+          "private_borrow_entries": 2,
+          "rank": 6,
+          "route_pairs": 26,
+          "scope_kinds": {
+            "deepest-exit": 3,
+            "source-complement": 5,
+            "terminal-rank-one": 8,
+            "unit-occurrence": 10
+          },
+          "selected_xor_records": 108,
+          "source_events": 75,
+          "width": 6
+        },
+        {
+          "emitted_events": 362,
+          "entry_swaps": 44,
+          "matched_row_divisors": 0,
+          "paid_sites": 10,
+          "placement_checks": 312,
+          "private_borrow_entries": 2,
+          "rank": 7,
+          "route_pairs": 35,
+          "scope_kinds": {
+            "deepest-exit": 4,
+            "source-complement": 9,
+            "terminal-rank-one": 10,
+            "unit-occurrence": 12
+          },
+          "selected_xor_records": 264,
+          "source_events": 98,
+          "width": 6
+        },
+        {
+          "emitted_events": 859,
+          "entry_swaps": 104,
+          "matched_row_divisors": 0,
+          "paid_sites": 28,
+          "placement_checks": 744,
+          "private_borrow_entries": 4,
+          "rank": 8,
+          "route_pairs": 84,
+          "scope_kinds": {
+            "deepest-exit": 9,
+            "source-complement": 21,
+            "terminal-rank-one": 28,
+            "unit-occurrence": 26
+          },
+          "selected_xor_records": 624,
+          "source_events": 235,
+          "width": 12
+        }
+      ]
+    },
+    "check_controls": {
+      "adverse_controls": {
+        "counterexamples": [
+          "same_shape_matched_owner_mixing",
+          "fresh_log_rows_rebases_phi"
+        ],
+        "rejections": [
+          "matched_event_row_call",
+          "max_replaces_repeated_stock_product",
+          "short_complete_packet",
+          "extra_complete_packet"
+        ],
+        "wrong_matched_outputs": [
+          "01",
+          "01"
+        ]
+      },
+      "coded_complete_rows": [
+        {
+          "child_rows": 3,
+          "divisor": 2,
+          "parent_rows": 6,
+          "physical_bits": 4608,
+          "physical_ops": 149474,
+          "row_bits": 384,
+          "table_steps": 193744
+        },
+        {
+          "child_rows": 3,
+          "divisor": 3,
+          "parent_rows": 9,
+          "physical_bits": 6912,
+          "physical_ops": 211758,
+          "row_bits": 384,
+          "table_steps": 274486
+        },
+        {
+          "child_rows": 3,
+          "divisor": 5,
+          "parent_rows": 15,
+          "physical_bits": 11520,
+          "physical_ops": 336326,
+          "row_bits": 384,
+          "table_steps": 435970
+        },
+        {
+          "child_rows": 3,
+          "divisor": 7,
+          "parent_rows": 21,
+          "physical_bits": 16128,
+          "physical_ops": 460894,
+          "row_bits": 384,
+          "table_steps": 597454
+        }
+      ]
+    },
+    "check_core": {
+      "cases": 160,
+      "maximum_steps": [
+        6077,
+        24317,
+        25437
+      ]
+    },
+    "check_geometry": {
+      "child_geometry_cases": 48,
+      "extent_cases": 221,
+      "leaf_boundary_cases": 213,
+      "maximum_child_steps": 22338,
+      "occurrence_routes": 9,
+      "rejections": [
+        "cutoff_below_final_rank",
+        "recursive_call_at_leaf_boundary",
+        "matched_occurrence_consumes_rows",
+        "aliased_matched_fields",
+        "deleted_actual_geometry_program"
+      ],
+      "root_geometry_cases": 12
+    },
+    "check_join": {
+      "joined_cases": [
+        {
+          "counts_one_run": {
+            "children": 72,
+            "leaves": 512,
+            "paid": 584
+          },
+          "mode": "stock_depth_structural",
+          "native_fixture": "identity native/coordinate services plus cyclic value-bit leaf; not Gaussian admission",
+          "observed_headers": [
+            [
+              1,
+              1,
+              6,
+              1,
+              2,
+              2
+            ],
+            [
+              6,
+              6,
+              6,
+              1,
+              2,
+              2
+            ],
+            [
+              36,
+              36,
+              6,
+              1,
+              2,
+              2
+            ]
+          ],
+          "physical_actions_two_runs": 36419744,
+          "rank": 6,
+          "retained_cells": 100465,
+          "root_rows": 36,
+          "routed_events": 183,
+          "row_bits": 192,
+          "row_table_steps_two_runs": 13050176,
+          "selected_xor_records": 108,
+          "source_events": 75,
+          "width": 6
+        },
+        {
+          "counts_one_run": {
+            "children": 2,
+            "leaves": 4,
+            "paid": 6
+          },
+          "mode": "encoded_numerical_geometry",
+          "native_fixture": "identity native/coordinate services plus cyclic value-bit leaf; not Gaussian admission",
+          "observed_headers": [
+            [
+              1,
+              1,
+              3,
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              1,
+              6,
+              3,
+              2,
+              2
+            ]
+          ],
+          "physical_actions_two_runs": 5515262,
+          "rank": 2,
+          "retained_cells": 51397,
+          "root_rows": 1,
+          "routed_events": 12,
+          "row_bits": 12288,
+          "row_table_steps_two_runs": 4838456,
+          "selected_xor_records": 6,
+          "source_events": 6,
+          "width": 1
+        }
+      ]
+    },
+    "check_padding": {
+      "cases": 360,
+      "maximum_steps": 37793,
+      "rejections": [
+        "stock_exceeds_rows",
+        "literal_zero_bytes_replace_numeric_zero"
+      ]
+    }
+  },
+  "encoded_header_fields": 23,
+  "fixed_row_work_ports": 40,
+  "frozen_exports": [
+    {
+      "commit": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+      "git_blob": "1e3533efa92c3bab35916ae6844290586d18ff27",
+      "path": "vendor/row_padding.py",
+      "provenance": "published",
+      "sha256": "24270408e87b028791670cd63908adeb03162f0919237e8644065c5898fecf2f"
+    },
+    {
+      "commit": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+      "git_blob": "8fff5bc0c042097199bf4a690d52fec969ed8abc",
+      "path": "vendor/ROW-PADDING-PROOF.md",
+      "provenance": "published",
+      "sha256": "18b1323470eeb7a74babd46b20e051d0b53dc3615e63463195420c63280edb3c"
+    },
+    {
+      "commit": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+      "git_blob": "c80c6be99447a3e242120fff186662daa9b250ba",
+      "path": "vendor/TWO-ROLE-PROOF.md",
+      "provenance": "published",
+      "sha256": "c076d8638ea543f209b6c1438315dc25e39097c4b516f4a7a24d3fdaa1c4b38c"
+    },
+    {
+      "commit": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+      "git_blob": "c505caecc7ced19a4efc35c423efedda9427bea5",
+      "path": "vendor/OLD-CONTROLLER-PROOF.md",
+      "provenance": "published",
+      "sha256": "471185621c0ecce295ffd327b1244aed234efe5ff05a804aaaa11316f1a8319e"
+    },
+    {
+      "commit": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+      "git_blob": "f65f38123ca0adb02f6ca69351cbfc933506e5cb",
+      "path": "vendor/COMPACT-PROOF.md",
+      "provenance": "published",
+      "sha256": "ec6395822ae500242f3fe5e2cf40caf9a7f9fa259d475d2c14970d951ff4df48"
+    },
+    {
+      "commit": "41febf890fbbb852c6059d4c0cc8c593ae9dfa5c",
+      "git_blob": "152fcd41486dc8d078ae2a77cb3e6a26c37e8e10",
+      "path": "vendor/OCCURRENCE-PROOF.md",
+      "provenance": "published",
+      "sha256": "dbc8af6f9f6bef61b7c9a4b19a20a2233e7e2551b9979c852bebba27028a9a49"
+    },
+    {
+      "commit": "41febf890fbbb852c6059d4c0cc8c593ae9dfa5c",
+      "git_blob": "4f811a465093c5e489d8c2b67025e99810919c2c",
+      "path": "vendor/OCCURRENCE-COST.md",
+      "provenance": "published",
+      "sha256": "b3a4c2c155a99978b619108f3c7ba9f67955a785689c199e99d425abf9b141ce"
+    },
+    {
+      "commit": "41febf890fbbb852c6059d4c0cc8c593ae9dfa5c",
+      "git_blob": "9c3c97d86a7bdd7b95944218bf1e6e4a5a1746a1",
+      "path": "vendor/occurrence_geometry.py",
+      "provenance": "published",
+      "sha256": "f3504a73803da120040cc62ee8f5e8b849237daf508a7146272d55624c3f8396"
+    },
+    {
+      "commit": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+      "git_blob": "de725a73e97496836100aa6e0ed9cd70985373da",
+      "path": "vendor/DEFERRED-PROOF.md",
+      "provenance": "published",
+      "sha256": "3a7ac6dae3b76d5f78849f521635da034fe99b1ea6c942175a3652b53f6262c2"
+    },
+    {
+      "commit": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+      "git_blob": "9469443a3d7cc6310a7369daf77c7756d5bd3f38",
+      "path": "vendor/lockstep_executor.py",
+      "provenance": "published",
+      "sha256": "0bda14a3e5f4da348cd5c89ebe29d717e7a5406ec31b164d5b9e1d25f7f38e0e"
+    },
+    {
+      "commit": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+      "git_blob": "a5d6753b901901a5b2d1a4dd72134e53af70c666",
+      "path": "vendor/continuation_stack.py",
+      "provenance": "published",
+      "sha256": "21a2213aa850c55e5eace4cd10b72b958d7ee84d83a014567902ce8ee9b3f4f2"
+    },
+    {
+      "commit": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+      "git_blob": "d59b5035e7b4cbaa9d688a1d32dd0d6eb79c466a",
+      "path": "vendor/SELECTED-RESULT.json",
+      "provenance": "published",
+      "sha256": "9b8d0eea95b3bf0dfcb7938a732a6439b87a2685dec2a5ab9e525b3b34debbfa"
+    },
+    {
+      "commit": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+      "git_blob": "3404fbdd5e7529a0674eef26114b5071e4586cec",
+      "path": "vendor/TASK-CATALOG.json",
+      "provenance": "published",
+      "sha256": "ead6cdc9d0af6d58e8a49744d8ec8c7c15e13d2ba93c276c434bcf9b51b93a81"
+    },
+    {
+      "commit": "4c7a4f00f09665276e145ac2cc1d12f8b8f9a7ac",
+      "git_blob": "7e0793c4d00efcf337df926ff16fe922134fcef7",
+      "path": "vendor/compiler-grid.md",
+      "provenance": "published",
+      "sha256": "42606a73acf3313f39e6055bf2409974c528c12a3092d13ca09f206bbbd010a1"
+    },
+    {
+      "commit": "c46339035fccd571effb48434d80f572e20f1092",
+      "git_blob": "e05d4141bc00dff59635da521ffa066e9c3604f6",
+      "path": "vendor/caller-grid.md",
+      "provenance": "published",
+      "sha256": "eaecedd0fe115499b6fe107db034fe86873e9689119bc0eb9c56b88010783e24"
+    },
+    {
+      "commit": "ab239cb6ee884e7a900dd9101c34448077fad0b0",
+      "git_blob": "acf475e4fccaff2fb64bd5b0b3f3fc0d246dc592",
+      "path": "vendor/lifecycle_machine.py",
+      "provenance": "published",
+      "sha256": "ec597bce13275003ff30e4be481c936401826c1d4af642b55eec0c410774d1df"
+    },
+    {
+      "commit": "ab239cb6ee884e7a900dd9101c34448077fad0b0",
+      "git_blob": "79c95fa79439f3c893de52991173bd3a5eae2729",
+      "path": "vendor/lifecycle_source_ir.py",
+      "provenance": "published",
+      "sha256": "54dd93bc50bd10e974c70794df1c13da27f0e3d8cdb6cfe6791a63280096f1b1"
+    },
+    {
+      "commit": "ab239cb6ee884e7a900dd9101c34448077fad0b0",
+      "git_blob": "605981247e27de68fe78d3a36e2b454efbd6b11e",
+      "path": "vendor/LIFECYCLE-PROOF.md",
+      "provenance": "published",
+      "sha256": "9a088fa00f10e59df48090b67c6ef7c3641bc9cc36b223deb917740372d57993"
+    },
+    {
+      "commit": "ab239cb6ee884e7a900dd9101c34448077fad0b0",
+      "git_blob": "309acf690d9d2572a8936880bf48fa68c0d7cd26",
+      "path": "vendor/LIFECYCLE-RESULT.json",
+      "provenance": "published",
+      "sha256": "30f0f4bf19062bf218820137f3b1095a4fb7fa19ec18ef9f15ae20e3e893d002"
+    },
+    {
+      "commit": "ab239cb6ee884e7a900dd9101c34448077fad0b0",
+      "git_blob": "0d1de35b5dc06e980df60ada502046f36c6c821f",
+      "path": "vendor/LIFECYCLE-SOURCES.json",
+      "provenance": "published",
+      "sha256": "0e343499ecede3afc5697e3331ec99ed8d71c98152f51ad1eea290f46a06de8e"
+    }
+  ],
+  "own_program_sha256": {
+    "check_compiler.py": "68e261fa960aa56a2af62ca3e0c5052ac2fb5b7c026bf60a7961f773a162cfad",
+    "check_controls.py": "50aadea1a4902b7f9abcbd1f6449f45382a1fe68d2587e1ad6fbcf0c78b1a5d3",
+    "check_core.py": "4a9853b920ab11a974e89ded79ed0522df171c1fcece394a2adafda57a193705",
+    "check_geometry.py": "b43be5c4e023783783d5c2dcd79f8d5d6f28579bd4185ab0ecad5aaf22131795",
+    "check_join.py": "2004871fd63d3d19c3cf77b5f202df561b6906538b4abce9795fa8330a47e349",
+    "check_padding.py": "d915035ef2425fb95d2ae2200fc69353908d7b8a98091a5e62bcdbadcaf050bb",
+    "compiler_routes.py": "d375f8c2e666ffd2ebe6de34ccb7756ac9fa4a4cd5f866cb025a781f8538c599",
+    "fixture_tools.py": "d13399afa4c1f8f480019fcd47a828653c40bb4bef6e23437fe6bea9640ff35b",
+    "pattern_padding.py": "c92ada1a4c98c43cfb68b6e71938f025edc3892cbf0627cfab3c676112608624",
+    "row_programs.py": "a59510516d1397382de6141edc1eb69cf3ba5e6e330198deb5e335e543300be4",
+    "services.py": "7d08a1cd6a03d1d8818b69c745a284ab3f63867106b2fdaec49112a776a52fca",
+    "verify.py": "becdbeb0868453e9c68fba58717da89d9d49f0d862d4850d2a6b99672c43e54d"
+  },
+  "retained_assumptions": [
+    "native_all_columns",
+    "owned_erasure",
+    "compiler",
+    "precision_tape",
+    "analytic_recovery"
+  ],
+  "schema_version": 1,
+  "selected_kappa": "781451/250000000",
+  "selected_source_binding": {
+    "maximum_raw_target": 145,
+    "productive_fields": 13444,
+    "raw_ambient": 145,
+    "raw_paid": 66834,
+    "scope": "Authenticated lifecycle receipt binding only; native algebra is retained"
+  },
+  "source_control": "altered_export_rejected_before_import",
+  "status": "PASS_SCOPED_ROW_OCCURRENCE_DISPATCH"
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "authorship": "Root reviewer, separate hardware, interpreter, codec and address/geometry oracle; OpenAI multi-agent review, not independent human acceptance",
+  "subject_sha256": "a59510516d1397382de6141edc1eb69cf3ba5e6e330198deb5e335e543300be4",
+  "files": [
+    {
+      "file": "row_dispatch_independent.py",
+      "original_sha256": "a0e35327361e7003d07981a496a9001907b8bd0d653734973b06651ef4443959",
+      "export_sha256": "c50101788f32037317920aad40077a63e710ad698317087fdb130339e9721cc2",
+      "changes": "Only SOURCE path changed to package-relative path"
+    },
+    {
+      "file": "row_geometry_independent.py",
+      "original_sha256": "2571ea0143fdab60f8078dc0f62c6eed7dace96777766614e29fd5ae1b766cea",
+      "export_sha256": "2571ea0143fdab60f8078dc0f62c6eed7dace96777766614e29fd5ae1b766cea",
+      "changes": "Byte-identical reviewer module; relative independent hardware import already portable"
+    }
+  ]
+}

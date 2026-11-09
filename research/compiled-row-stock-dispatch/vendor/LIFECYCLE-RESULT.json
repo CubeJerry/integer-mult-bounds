@@ -1,0 +1,616 @@
+{
+  "arithmetic": {
+    "initialization_cases": 12,
+    "overflow_controls": 2,
+    "signed_add_cases": 70
+  },
+  "base_commit": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+  "boundaries": [
+    {
+      "administrative_actions": 3297,
+      "depth": 1,
+      "prefix": 0,
+      "records": 2,
+      "row_actions": 851,
+      "width": 3
+    },
+    {
+      "administrative_actions": 3297,
+      "depth": 1,
+      "prefix": 17,
+      "records": 2,
+      "row_actions": 851,
+      "width": 3
+    },
+    {
+      "administrative_actions": 3297,
+      "depth": 1,
+      "prefix": 257,
+      "records": 2,
+      "row_actions": 851,
+      "width": 3
+    },
+    {
+      "administrative_actions": 8303,
+      "depth": 2,
+      "prefix": 0,
+      "records": 4,
+      "row_actions": 2469,
+      "width": 5
+    },
+    {
+      "administrative_actions": 8303,
+      "depth": 2,
+      "prefix": 17,
+      "records": 4,
+      "row_actions": 2469,
+      "width": 5
+    },
+    {
+      "administrative_actions": 8303,
+      "depth": 2,
+      "prefix": 257,
+      "records": 4,
+      "row_actions": 2469,
+      "width": 5
+    },
+    {
+      "administrative_actions": 19549,
+      "depth": 3,
+      "prefix": 0,
+      "records": 6,
+      "row_actions": 6087,
+      "width": 9
+    },
+    {
+      "administrative_actions": 19549,
+      "depth": 3,
+      "prefix": 17,
+      "records": 6,
+      "row_actions": 6087,
+      "width": 9
+    },
+    {
+      "administrative_actions": 19549,
+      "depth": 3,
+      "prefix": 257,
+      "records": 6,
+      "row_actions": 6087,
+      "width": 9
+    }
+  ],
+  "context": {
+    "rejected": {
+      "frontier": "context frontier cannot be crossed",
+      "origin": "native context crossed its local origin",
+      "write": "native context is read-only"
+    },
+    "runtime_branch_cases": 6
+  },
+  "current_source": {
+    "episodes": [
+      [
+        798,
+        12785,
+        12813
+      ],
+      [
+        795,
+        12961,
+        12972
+      ],
+      [
+        797,
+        13089,
+        13098
+      ],
+      [
+        796,
+        13212,
+        13224
+      ],
+      [
+        770,
+        13452,
+        13462
+      ],
+      [
+        771,
+        13463,
+        13471
+      ],
+      [
+        772,
+        13472,
+        13482
+      ],
+      [
+        792,
+        13230,
+        13499
+      ],
+      [
+        773,
+        13485,
+        13505
+      ],
+      [
+        786,
+        13516,
+        13525
+      ],
+      [
+        774,
+        13506,
+        13526
+      ],
+      [
+        784,
+        13545,
+        13554
+      ],
+      [
+        775,
+        13530,
+        13555
+      ],
+      [
+        788,
+        13570,
+        13584
+      ],
+      [
+        776,
+        13556,
+        13586
+      ],
+      [
+        790,
+        13600,
+        13613
+      ],
+      [
+        777,
+        13587,
+        13614
+      ],
+      [
+        778,
+        0,
+        13634
+      ],
+      [
+        778,
+        13635,
+        13656
+      ],
+      [
+        791,
+        13453,
+        15568
+      ],
+      [
+        793,
+        12976,
+        16024
+      ],
+      [
+        794,
+        15405,
+        16822
+      ],
+      [
+        789,
+        13593,
+        16888
+      ],
+      [
+        783,
+        13534,
+        16915
+      ],
+      [
+        780,
+        13531,
+        16918
+      ],
+      [
+        787,
+        13564,
+        16931
+      ],
+      [
+        785,
+        13511,
+        16962
+      ],
+      [
+        781,
+        13507,
+        16963
+      ],
+      [
+        779,
+        13588,
+        16975
+      ],
+      [
+        782,
+        13557,
+        16997
+      ],
+      [
+        778,
+        13658,
+        22801
+      ]
+    ],
+    "event_counts": {
+      "CLEAR": 2118,
+      "COPY": 1974,
+      "INIT": 2118,
+      "PAID": 66834,
+      "SERVICE": 569366
+    },
+    "events": 22803,
+    "local_sites": 18,
+    "owned_labels": 29,
+    "owned_lifetimes": 31,
+    "paid": {
+      "1": 2219,
+      "2": 457,
+      "3": 496,
+      "4": 100,
+      "5": 163,
+      "6": 11,
+      "7": 6,
+      "8": 1
+    },
+    "peak_live": 13,
+    "public_count": 13444,
+    "query_lifetimes": 1560,
+    "raw_events": 642410,
+    "raw_owned": 626,
+    "raw_paid": {
+      "1": 41502,
+      "2": 8226,
+      "3": 8928,
+      "4": 1800,
+      "5": 2934,
+      "6": 198,
+      "7": 108,
+      "8": 18,
+      "16": 416,
+      "24": 416,
+      "32": 416,
+      "40": 416,
+      "48": 416,
+      "56": 416,
+      "64": 416,
+      "72": 208
+    },
+    "raw_targets": {
+      "1": 252,
+      "2": 144,
+      "3": 72,
+      "4": 1926,
+      "5": 252,
+      "6": 36,
+      "7": 162,
+      "8": 342,
+      "9": 6930,
+      "17": 416,
+      "25": 416,
+      "33": 416,
+      "41": 416,
+      "49": 416,
+      "57": 416,
+      "65": 416,
+      "73": 208,
+      "145": 208
+    },
+    "total_lifetimes": 2118
+  },
+  "dependency_count": 16,
+  "grammar": {
+    "completed_roles": 1,
+    "owned": 5,
+    "pass_events": {
+      "CLEAR": 10,
+      "COPY": 10,
+      "INIT": 10,
+      "PAID": 11,
+      "SERVICE": 49
+    },
+    "product": {
+      "CLEAR": 10,
+      "COPY": 10,
+      "INIT": 10,
+      "PAID": 9,
+      "SERVICE": 25
+    }
+  },
+  "lowerings": [
+    {
+      "borrowed_private": 0,
+      "events": 37,
+      "flat_ownership": {
+        "counts": {
+          "base_axis_entries": 6,
+          "deepest-exit_fields": 3,
+          "occurrence_entries": 2,
+          "ordinary_paid_sites": 6,
+          "ordinary_private_paid_sites": 3,
+          "physical_clear_sites": 2,
+          "physical_init_sites": 2,
+          "private_occurrence_entries": 0,
+          "source-complement_fields": 1
+        },
+        "max_borrow_depth": 3
+      },
+      "occurrences": 2,
+      "owned": 1,
+      "paid": 6,
+      "rank": 5,
+      "replication": 1,
+      "source_cost": 2,
+      "source_stats": {
+        "adapter_records": 0,
+        "bank_init_scans": 1,
+        "base_rank_lt_m_fields": 4,
+        "classes": 1,
+        "executed_programs": 1,
+        "exit_jobs": 3,
+        "interface_checked_subprogram_fields": 4,
+        "max_class_live_roles": 3,
+        "orig_jobs": 3,
+        "relocation_records": 0,
+        "source_role_entries": 2,
+        "units": 1
+      },
+      "width": 2
+    },
+    {
+      "borrowed_private": 4,
+      "events": 472,
+      "flat_ownership": {
+        "counts": {
+          "base_axis_entries": 70,
+          "deepest-exit_fields": 36,
+          "occurrence_entries": 28,
+          "ordinary_paid_sites": 70,
+          "ordinary_private_paid_sites": 48,
+          "physical_clear_sites": 28,
+          "physical_init_sites": 28,
+          "private_occurrence_entries": 4,
+          "source-complement_fields": 18
+        },
+        "max_borrow_depth": 5
+      },
+      "occurrences": 28,
+      "owned": 14,
+      "paid": 70,
+      "rank": 15,
+      "replication": 2,
+      "source_cost": 28,
+      "source_stats": {
+        "adapter_records": 0,
+        "bank_init_scans": 14,
+        "base_rank_lt_m_fields": 42,
+        "classes": 9,
+        "executed_programs": 6,
+        "exit_jobs": 36,
+        "interface_checked_subprogram_fields": 42,
+        "max_class_live_roles": 6,
+        "nested_role_entries": 6,
+        "orig_jobs": 42,
+        "relocation_records": 0,
+        "source_role_entries": 22,
+        "units": 14
+      },
+      "width": 10
+    },
+    {
+      "borrowed_private": 112,
+      "events": 12571,
+      "flat_ownership": {
+        "counts": {
+          "base_axis_entries": 1820,
+          "deepest-exit_fields": 963,
+          "occurrence_entries": 754,
+          "ordinary_paid_sites": 1820,
+          "ordinary_private_paid_sites": 1299,
+          "physical_clear_sites": 754,
+          "physical_init_sites": 754,
+          "private_occurrence_entries": 112,
+          "source-complement_fields": 519
+        },
+        "max_borrow_depth": 6
+      },
+      "occurrences": 754,
+      "owned": 377,
+      "paid": 1820,
+      "rank": 20,
+      "replication": 40,
+      "source_cost": 754,
+      "source_stats": {
+        "adapter_records": 0,
+        "bank_init_scans": 377,
+        "base_rank_lt_m_fields": 1096,
+        "classes": 151,
+        "executed_programs": 124,
+        "exit_jobs": 963,
+        "interface_checked_subprogram_fields": 1096,
+        "max_class_live_roles": 120,
+        "nested_role_entries": 168,
+        "orig_jobs": 1131,
+        "relocation_records": 0,
+        "source_role_entries": 586,
+        "units": 377
+      },
+      "width": 200
+    },
+    {
+      "borrowed_private": 0,
+      "events": 271,
+      "flat_ownership": {
+        "counts": {
+          "base_axis_entries": 52,
+          "deepest-exit_fields": 11,
+          "occurrence_entries": 4,
+          "ordinary_paid_sites": 52,
+          "ordinary_private_paid_sites": 15,
+          "physical_clear_sites": 10,
+          "physical_init_sites": 10,
+          "private_occurrence_entries": 0,
+          "source-complement_fields": 3
+        },
+        "max_borrow_depth": 3
+      },
+      "occurrences": 4,
+      "owned": 5,
+      "paid": 52,
+      "rank": 25,
+      "replication": 1,
+      "source_cost": 4,
+      "source_stats": {
+        "adapter_records": 0,
+        "bank_init_scans": 5,
+        "base_rank_lt_m_fields": 14,
+        "classes": 1,
+        "executed_programs": 1,
+        "exit_jobs": 11,
+        "interface_checked_subprogram_fields": 14,
+        "max_class_live_roles": 9,
+        "orig_jobs": 11,
+        "relocation_records": 0,
+        "source_role_entries": 4,
+        "units": 1
+      },
+      "width": 4
+    }
+  ],
+  "negative_controls": {
+    "borrowed_clear": "current owned CLEAR chart",
+    "copy_overwrite_loses_residue": "actual residue must be added",
+    "early_parent_clear": "use outside private lifetime",
+    "integer_private_flag": "typed private MOVE flag",
+    "logical_blank_collapsed_to_physical_blank": "physical blank incorrectly truncated live suffix",
+    "missing_base-axis_return": "exact whole-program inverse return",
+    "missing_current_init": "current scalar destination chart",
+    "missing_occurrence_return": "exact whole-program inverse return",
+    "missing_program_return": "exact whole-program inverse return",
+    "native_ancestor_probe": "native routine crossed its local origin",
+    "numerical_zero_is_not_erasure": "zero format still occupies coded cells",
+    "one_bank_per_depth": "fresh occurrence bank identity",
+    "pop_before_output_copy": "complete numerical row",
+    "source_drift": "SHA256 source drift before execution",
+    "wrong_copy_coefficient": "current COPY follows untouched INIT with coefficient one",
+    "wrong_return_pc": "literal saved PC"
+  },
+  "package_sha256": {
+    "checks.py": "bf50711581254dff6ec69a98ad07881bc2604255c9d059dfb59b717457b31c1b",
+    "machine.py": "ec597bce13275003ff30e4be481c936401826c1d4af642b55eec0c410774d1df",
+    "source_ir.py": "54dd93bc50bd10e974c70794df1c13da27f0e3d8cdb6cfe6791a63280096f1b1"
+  },
+  "physical_fixtures": [
+    {
+      "actions": 902107,
+      "cycles": 2,
+      "depth": 2,
+      "dirty_clears": 172,
+      "entry_including_visited": 595,
+      "entry_retained": 595,
+      "events": 38,
+      "owned": 1,
+      "paid_private": 258,
+      "prefix": 17,
+      "public": 2,
+      "records": 4,
+      "retained": 1407,
+      "retained_including_visited": 1412,
+      "tapes": 8,
+      "warm": 7,
+      "width": 7
+    },
+    {
+      "actions": 13029266,
+      "cycles": 2,
+      "depth": 1,
+      "dirty_clears": 3976,
+      "entry_including_visited": 12770,
+      "entry_retained": 12770,
+      "events": 473,
+      "owned": 14,
+      "paid_private": 6816,
+      "prefix": 257,
+      "public": 10,
+      "records": 10,
+      "retained": 20754,
+      "retained_including_visited": 20780,
+      "tapes": 29,
+      "warm": 11,
+      "width": 7
+    },
+    {
+      "actions": 2120982,
+      "cycles": 2,
+      "depth": 0,
+      "dirty_clears": 1508,
+      "entry_including_visited": 170682,
+      "entry_retained": 170682,
+      "events": 12572,
+      "owned": 377,
+      "paid_private": 2598,
+      "prefix": 257,
+      "public": 200,
+      "records": 1,
+      "retained": 180107,
+      "retained_including_visited": 180484,
+      "tapes": 582,
+      "warm": 11,
+      "width": 7
+    },
+    {
+      "actions": 3195497,
+      "cycles": 2,
+      "depth": 1,
+      "dirty_clears": 1060,
+      "entry_including_visited": 1182,
+      "entry_retained": 1182,
+      "events": 272,
+      "owned": 5,
+      "paid_private": 1590,
+      "prefix": 17,
+      "public": 4,
+      "records": 4,
+      "retained": 2669,
+      "retained_including_visited": 2681,
+      "tapes": 14,
+      "warm": 7,
+      "width": 7
+    },
+    {
+      "actions": 22625896,
+      "cycles": 2,
+      "depth": 0,
+      "dirty_clears": 4236,
+      "entry_including_visited": 680992,
+      "entry_retained": 666917,
+      "events": 642411,
+      "owned": 626,
+      "paid_private": 3840,
+      "prefix": 0,
+      "public": 13444,
+      "records": 1,
+      "retained": 689435,
+      "retained_including_visited": 703510,
+      "tapes": 14075,
+      "warm": 0,
+      "width": 7
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Relative source-refinement and physical lifecycle; all five selected assumptions retained",
+  "status": "PASS_SOURCE_BOUND_PHYSICAL_LIFECYCLE"
+}
