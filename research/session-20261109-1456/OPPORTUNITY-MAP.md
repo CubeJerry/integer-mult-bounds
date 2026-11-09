@@ -72,3 +72,14 @@ verification, recoverability and publication retain the final quarter.
 | Normalized Gaussian scalar recovery | Conditional source-interface theorem and actual native endpoints at1ab10aa; q+3/q+2 and3Gamma mismatches repaired. | Actual original-q extraction, CRT/carry, production controllers and fast full cost remain. |
 | Tariff units versus literal tape cost | Source already explicitly leaves the conversion/model substitution open. | New quantitative all-zero mandatory-pass lower bill pending. Do not publish the old warning as new or infer a cap obstruction without conversion. |
 | Full original-q extraction | Unresolved current integration prerequisite; predecessor audit active. | Seek exact compact-S return from full paddedT using encoded metadata and honest full scan costs; no host coordinate-list runtime. |
+
+## 22:00 UTC source port and review delta
+
+Actual proposed6936 raw MOVE source membership is now proved at3e1309c:
+6323occurrences/2961pairs, exact all-column phase and isolated once-rounded
+provider binding. The selected catalogue is unchanged. Actual enclosing
+exporter/placement, complete tariff/nonleaf and all five global assumptions
+remain open. The tariff conversion audit and original-q extraction are in
+final cross-review; extraction now explicitly charges historical borrowed
+capacity. Fresh analytic wave12 checks the exact CRT/carry order boundary
+and prior coverage; no generic CRT result or full-sort route is presumed new.

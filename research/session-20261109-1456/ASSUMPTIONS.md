@@ -60,3 +60,14 @@ complete caller installation follows automatically. All complete serial,
 expanded-field, source/setup and historical costs remain in their statements.
 The source tariff model still needs an exact quantitative implementation
 substitution. No numeric cap failure is inferred merely from that open bridge.
+
+## 22:00 UTC source port and review delta
+
+Actual proposed6936 raw MOVE source membership is now proved at3e1309c:
+6323occurrences/2961pairs, exact all-column phase and isolated once-rounded
+provider binding. The selected catalogue is unchanged. Actual enclosing
+exporter/placement, complete tariff/nonleaf and all five global assumptions
+remain open. The tariff conversion audit and original-q extraction are in
+final cross-review; extraction now explicitly charges historical borrowed
+capacity. Fresh analytic wave12 checks the exact CRT/carry order boundary
+and prior coverage; no generic CRT result or full-sort route is presumed new.
