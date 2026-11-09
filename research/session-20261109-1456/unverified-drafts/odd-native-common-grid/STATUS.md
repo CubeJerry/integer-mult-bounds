@@ -1,0 +1,1 @@
+UNVERIFIED RECOVERY SNAPSHOT. Not a reviewed contribution. Independent proof review, negative controls and package gates pending. Exact sources and limitations are in PROOF.md. Do not open a PR for this checkpoint.

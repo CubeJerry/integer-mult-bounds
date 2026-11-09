@@ -16,28 +16,46 @@
   ],
   "source_repo": "/workspace/scratch/ca8c04ec435b/canonical",
   "recovery_branch": "research/continuous-20261109-1456-recovery",
-  "wave": 1,
+  "wave": 2,
   "workers": [
     {
       "worker": "native_physical",
       "track": "75/50",
-      "scope": "Current coded positive Gaussian/Fourier native child with source-compatible normalization, widths, phase, cost and cleanup; monomial and Compact work excluded.",
-      "status": "source and novelty audit",
-      "output": "native-w1"
+      "scope": "Current coded positive rank-one Gaussian leaf at actual selected MOVE 9896; no ordinary callback, f <= cutoff, exact signed normalization/return, direct cost only.",
+      "status": "Wave1 independently reviewed and published; wave2 mathematical audit of odd-grid; full MOVE waits for public monomial dependency.",
+      "output": "native-w1/research/current-coded-gaussian-leaf",
+      "wave": 2,
+      "local_commit": "82e4b6660755be2826e6b95e1b1fe314a5824dd0",
+      "remote_commit": "61edc4fe348f0aeadc82a3b642a802cbfb03aed8",
+      "next_action": "Independent odd-grid audit; exact full MOVE composition only when predecessor monomial public pin exists."
     },
     {
       "worker": "compiler_owned",
       "track": "60/50",
       "scope": "Actual finite transition tables for current dyadic ADD/SCALE SERVICE tokens through retained lifecycle execute_table, including signed arithmetic, division/overflow guards and blank scratch return.",
-      "status": "source and coefficient audit",
-      "output": "compiler-w1"
+      "status": "Actual scalar prefix and full small-domain physical oracle pass; lead carry iff audit passed 14260 cases; registered freeze pending.",
+      "output": "worker-compiler/research/current-scalar-flat-tables",
+      "wave": 1,
+      "next_action": "Freeze full tables and source binding after normal/optimized gates, then new scope."
     },
     {
       "worker": "analytic_join",
       "track": "60/75",
-      "scope": "Actual same-Reference finite Core connected to physical sparse halo: signed-format/grid/radius/normalization/coordinate join and complete cost; prior Core independently audited only.",
-      "status": "full budget and source audit",
-      "output": "analytic-w1"
+      "scope": "Source/format/grid/radius bridge from real finite Core to physical halo, preserving saved boundary inputs and full global volume.",
+      "status": "Real 2-record Core-to-codec witness passes with original source ports restored; full halo geometry not run; dependency not public.",
+      "output": "worker-analytic/research/core-halo-source-bridge",
+      "wave": 1,
+      "next_action": "Freeze scoped bridge theorem, then obtain public Core pin or preserve unverified handoff."
+    },
+    {
+      "worker": "lead",
+      "track": "50/75",
+      "scope": "Source-bound common-grid and unfinished-context precision extension for odd-scalar candidate #6934, replacing quoted caller majorants; no candidate kappa admission.",
+      "status": "Draft all-size odd-grid proof derived A178/B161 and common F=p+D,W=p+h+2D+3; independently reviewing; not verified/published.",
+      "dependency": "#6934 head4e13b7acdbea1c9f12aa88126435360eecea7401; #6901 fixed-root/compiler theorem",
+      "output": "odd-grid/research/odd-native-common-grid",
+      "next_action": "Adversarial controls, source-pin package, independent proof review and registered replay.",
+      "wave": 1
     }
   ],
   "facts": [
@@ -46,13 +64,44 @@
     "Latest public PR search includes 6934 conditional kappa .00362386; not selected/admitted.",
     "Local c7e140a5d4f4 packages changed during orientation and are treated as concurrent active work, excluded from new implementation claims.",
     "Discussion 1163 and newest handoff 1166 read through public web; GitHub connector does not support Discussions. No open sprint issue found.",
-    "Shared selected baseline attempted but unavailable because verify_selected_result.py was sparsely omitted; no baseline success asserted yet."
+    "Shared selected baseline attempted but unavailable because verify_selected_result.py was sparsely omitted; no baseline success asserted yet.",
+    "Selected CLAIM.json SHA256 exactly matches selected record. Full metadata baseline would require 1,404 sparsely omitted inputs, so it was not expanded for orientation; no full baseline/replay pass asserted.",
+    "Recovery tree4b9f2fb6dd8d8362a83808f051a150333927add9 published as e41702292e0c759698afca896e0a0725294c2590 and remote branch checked. Git CLI has no write credential; authorized GitHub connector publishes commits/refs.",
+    "At wave2 refresh canonical main remains7c49fe32; current recent PR maximum6935, selected unchanged. Explicit branch check for unpublished monomial predecessor404. No package depends on its unverified source.",
+    "Compare target and remote branch/tree checked; connector compare endpoint and web form fetching unavailable. Link is plain compare; full Markdown description is in the package, no prefilled-form success claimed."
   ],
-  "verified_contributions": [],
-  "published_contributions": [],
+  "verified_contributions": [
+    {
+      "id": "current-coded-gaussian-leaf",
+      "classification": "source-bound physical native leaf lemma; No new kappa",
+      "branch": "research/current-coded-gaussian-leaf-20261109",
+      "commit": "61edc4fe348f0aeadc82a3b642a802cbfb03aed8",
+      "tested_local_commit": "82e4b6660755be2826e6b95e1b1fe314a5824dd0",
+      "tree": "cb3dc36b5b099146cd23b3732bbb890149fbe1c8",
+      "package": "research/current-coded-gaussian-leaf",
+      "compare": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/current-coded-gaussian-leaf-20261109?expand=1",
+      "pr_description": "research/current-coded-gaussian-leaf/PR-DESCRIPTION.md",
+      "checks": "Remote ref/parent/tree checked; API tree equals tested local tree; 113 additions only, no deletions; registered normal/optimized replay, independent proof and 1063-address audit, additional 16-record packet/8514260 physical actions."
+    }
+  ],
+  "published_contributions": [
+    {
+      "id": "current-coded-gaussian-leaf",
+      "classification": "source-bound physical native leaf lemma; No new kappa",
+      "branch": "research/current-coded-gaussian-leaf-20261109",
+      "commit": "61edc4fe348f0aeadc82a3b642a802cbfb03aed8",
+      "tested_local_commit": "82e4b6660755be2826e6b95e1b1fe314a5824dd0",
+      "tree": "cb3dc36b5b099146cd23b3732bbb890149fbe1c8",
+      "package": "research/current-coded-gaussian-leaf",
+      "compare": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/current-coded-gaussian-leaf-20261109?expand=1",
+      "pr_description": "research/current-coded-gaussian-leaf/PR-DESCRIPTION.md",
+      "checks": "Remote ref/parent/tree checked; API tree equals tested local tree; 113 additions only, no deletions; registered normal/optimized replay, independent proof and 1063-address audit, additional 16-record packet/8514260 physical actions."
+    }
+  ],
   "blockers": [
     "No supported Discussion mutation connector found; advisory claims kept in this manifest.",
     "All local-only predecessor work must obtain public frozen pins before dependent publication."
   ],
-  "next_action": "Complete selected source-binding orientation, freeze distinct task cards, then independent mathematical and implementation checks."
+  "next_action": "Continue distinct wave2 source joins while independently verifying and publishing completed wave1 packages; all five foundational assumptions still retained.",
+  "last_checkpoint_utc": "2026-11-09T15:36:44Z"
 }
