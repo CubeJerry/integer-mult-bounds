@@ -1,0 +1,76 @@
+{
+  "cases": [
+    {
+      "global_routes": 2,
+      "labels": 8,
+      "lengths": [
+        2,
+        2,
+        1
+      ],
+      "local_bits": 1,
+      "output_sha256": "9e60369d238508ded0d4342e669ad24c6a9eb0aeeb6c4ce3807acc7f08bcc0ba",
+      "records": 32,
+      "selected": [
+        1,
+        0
+      ]
+    },
+    {
+      "global_routes": 2,
+      "labels": 8,
+      "lengths": [
+        1,
+        2,
+        2
+      ],
+      "local_bits": 1,
+      "output_sha256": "51cfa2950e8e4ac49c5b536ef74338c2a73c42f6787a490ed9cfa14f6f26d4e6",
+      "records": 32,
+      "selected": [
+        2,
+        1
+      ]
+    },
+    {
+      "global_routes": 2,
+      "labels": 8,
+      "lengths": [
+        2,
+        1,
+        2
+      ],
+      "local_bits": 2,
+      "output_sha256": "eb78adaf83f7a499018a98100b73e3faef3e4b1054790a0e525691da7276b011",
+      "records": 32,
+      "selected": [
+        2
+      ]
+    },
+    {
+      "global_routes": 2,
+      "labels": 4,
+      "lengths": [
+        1,
+        1,
+        2
+      ],
+      "local_bits": 1,
+      "output_sha256": "075491e24028b78e5072097983703fd87f863edf30568e7794487480f57484ec",
+      "records": 16,
+      "selected": [
+        0,
+        2
+      ]
+    }
+  ],
+  "implementation_sha256": "7289bdd255fa340c7915a600cb119f57ea2ffed056aee54d243b8b1196575e54",
+  "negative_controls": [
+    "omitted first route",
+    "omitted inverse route",
+    "missing coarse context",
+    "wrong original window origin"
+  ],
+  "scope": "actual wrapper and global routers; explicit semantic Core double; no numerical claim",
+  "status": "PASS_INDEPENDENT_ORIGINAL_COORDINATE_BOUNDARIES"
+}

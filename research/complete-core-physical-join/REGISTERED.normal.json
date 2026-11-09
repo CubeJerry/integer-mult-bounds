@@ -1,0 +1,50 @@
+{
+  "actual_physical_replayed": true,
+  "checks": [
+    {
+      "check": "check_source_compatibility.py",
+      "seconds": 0.4893150339994463,
+      "stdout_sha256": "cb0cda828c3dd9e90d9c1d55cca676507f278f945aee12e4ee9e2a2e25e443a4"
+    },
+    {
+      "check": "check_budget.py",
+      "seconds": 0.16901954300010402,
+      "stdout_sha256": "dde743c318d92fdc1b5341ca65fafbb6a9497ebb5d892d0228beb50a3dc4caaf"
+    },
+    {
+      "check": "check_allocation.py",
+      "seconds": 5.587082070000179,
+      "stdout_sha256": "38015b119e3ac8e1dd92b826c373434f522df813015b5ad5922fc99c60998f8c"
+    },
+    {
+      "check": "check_source_join.py",
+      "seconds": 6.442950994999592,
+      "stdout_sha256": "496cc9cf0aa764f25cd027800b0f41970640d47f0211949bc6dbefb9198a6564"
+    },
+    {
+      "check": "review/independent_core_transport.py",
+      "seconds": 0.5255578880005487,
+      "stdout_sha256": "435e0e18353c330f853b140967d0b2cb79e767c19a12c395add80f744b8abb7d"
+    },
+    {
+      "check": "review/independent_original_route.py",
+      "seconds": 2.894394194000597,
+      "stdout_sha256": "5920054378e21ed575e1da19ebdcb0473ca5919f0ca7e100ff4a13d389974fc5"
+    },
+    {
+      "check": "verify.py",
+      "seconds": 337.3492102119999,
+      "stdout_sha256": "4721e11d54a5819a0483d62eb82262c2f82f99eb7b3bbda9460b66f5e196d2cd"
+    },
+    {
+      "check": "check_physical_result.py",
+      "seconds": 0.7938649190000433,
+      "stdout_sha256": "cccb367fc80d92e7bbf4d93448433264bb069ebfe80fb5bf6b4e0fc7c91238c7"
+    }
+  ],
+  "extended_original_physical_replayed": false,
+  "no_new_kappa": true,
+  "optimization": 0,
+  "seconds": 354.2535370270007,
+  "status": "PASS_COMPLETE_CORE_PACKAGE"
+}
