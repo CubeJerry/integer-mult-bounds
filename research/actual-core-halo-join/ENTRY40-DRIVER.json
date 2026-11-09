@@ -1,0 +1,50 @@
+{
+  "allocation": {
+    "H": 2,
+    "P": 246,
+    "R0": 4,
+    "R2": 2048,
+    "Rstar": 65536,
+    "V2": 4,
+    "dense_events": [
+      159,
+      159
+    ],
+    "dense_input_widths": [
+      259,
+      259
+    ],
+    "dense_widths": [
+      368,
+      368
+    ],
+    "g": 1,
+    "h": 2,
+    "incoming": 246,
+    "labels": 2,
+    "local_target": 12,
+    "n": 4,
+    "radius_bits": 11,
+    "side": 8,
+    "stage_target": 10,
+    "target": 2,
+    "width": 270
+  },
+  "baseline_entry_bits": 64,
+  "baseline_sha256": "230cef8659af7b8beaa0db86ecd3376df81ad6aeaf5fbe7f1d7b3e339cae954b",
+  "changed_executable_lines": [
+    "Reference(...,64) -> Reference(...,40)",
+    "default receipt -> PHYSICAL-ENTRY40-RESULT.json"
+  ],
+  "driver_sha256": "e116b2199793214a19145eef025e3219f20287dbc1a11b0682ed41d5cb53a13d",
+  "earlier_scratch_operation_ledger_sha256": "568b27a334b8366703cf909304a3746b951bdf1e48aee04d64b29c8d1e784fa8",
+  "entry_bits": 40,
+  "no_service_body_change": true,
+  "original_run_preserved": true,
+  "preflight_sha256": "860b052f289b150b5c43d82f1a7db3f1c6ca1b0a3acb6fe4264df3becf5a3145",
+  "rationale": "The complete source-page census represents 64 inverse blocks, 1,872 exact reductions and 464 roundings for each source. Entry40 has 46.0% of the binary-division digit-visit proxy and 88.7% of sequential matrix scan cells, with unchanged numerical program dimensions. These are comparison metrics, not measured Tape actions, measured physical speedup or a runtime guarantee.",
+  "reference_sha256": "83868eeb82059328a1dde403e6d2cecb64e30c5d12bb19e3c7e5db58592bdf4f",
+  "source_operation_census": "SETUP-COST-CENSUS.json",
+  "source_operation_census_sha256": "e5d87ee03a4d03de2ddb705a55158987c9071938594d9f2e0fc9810815b08d7f",
+  "status": "PASS_SEPARATE_ENTRY40_FULL_PREFLIGHT"
+}

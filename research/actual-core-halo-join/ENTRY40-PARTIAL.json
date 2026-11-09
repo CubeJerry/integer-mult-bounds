@@ -1,0 +1,149 @@
+{
+  "actual_stop_mechanism": "Targeted execution-session interrupt (Ctrl-C)",
+  "command": [
+    "python3",
+    "-B",
+    "research/actual-core-halo-join/verify_entry40.py"
+  ],
+  "driver_sha256": "e116b2199793214a19145eef025e3219f20287dbc1a11b0682ed41d5cb53a13d",
+  "first_stop_attempt": "Direct PID SIGTERM returned ProcessLookupError while the execution session remained active. The subsequent targeted session interrupt returned exit 130.",
+  "independent_primary_review_sha256": "ad7ae7b8f252c7c9436803f5e2d8cb2b2bea5002880330f1e222fc5efdd1496e",
+  "initial_words": [
+    [
+      -6291455,
+      -6291453
+    ],
+    [
+      -8388605,
+      5242885
+    ],
+    [
+      9437189,
+      -7340025
+    ],
+    [
+      7340039,
+      4194313
+    ],
+    [
+      5242889,
+      -8388597
+    ],
+    [
+      3145739,
+      3145741
+    ],
+    [
+      1048589,
+      -9437169
+    ],
+    [
+      -1048561,
+      2097169
+    ],
+    [
+      -3145711,
+      -10485741
+    ],
+    [
+      -5242861,
+      1048597
+    ],
+    [
+      -7340011,
+      -11534313
+    ],
+    [
+      -9437161,
+      25
+    ],
+    [
+      8388633,
+      11534363
+    ],
+    [
+      6291483,
+      -1048547
+    ],
+    [
+      4194333,
+      10485791
+    ],
+    [
+      2097183,
+      -2097119
+    ]
+  ],
+  "input_precision": 28,
+  "last_completed_stage": "D_A",
+  "last_started_stage": "T2",
+  "log": {
+    "bytes": 1799,
+    "path": "ENTRY40-PARTIAL-EXECUTION.log",
+    "sha256": "98f846c8afef776bfb59af63b8ca603a5c5a4779cdc0a36d9524844c896c848d"
+  },
+  "not_a_completed_physical_witness": true,
+  "not_a_numerical_failure": true,
+  "observed_exit_code": 130,
+  "observed_utc": "2026-11-09 18:17:09 UTC",
+  "operator_attestation": true,
+  "partial_state_scope": "Exact frozen source and driver, full original input, complete preflight, and emitted partial stage/interrupt log. No unfinished mutable tape image was exported.",
+  "preflight": {
+    "path": "ENTRY40-PREFLIGHT.json",
+    "sha256": "860b052f289b150b5c43d82f1a7db3f1c6ca1b0a3acb6fe4264df3becf5a3145"
+  },
+  "primary_receipt_sha256": "0ecf35eb4a36f6015b19739e37732e1d767c0bcbf513500ddacafab85abed76e",
+  "process_cpu_ticks_before_stop_attempt": {
+    "system": 108,
+    "user": 555994
+  },
+  "reason": "Primary entry64 completed, exited 0 after teardown, and passed independent original-matrix observation normally and with -O. No separate source-precision risk remains.",
+  "reference_sha256": "83868eeb82059328a1dde403e6d2cecb64e30c5d12bb19e3c7e5db58592bdf4f",
+  "source_parameters": [
+    15,
+    1,
+    2,
+    1,
+    3,
+    40
+  ],
+  "stages": [
+    {
+      "phase": "input",
+      "seconds": 2023.2560343630012,
+      "stage": "D_Ainv_1"
+    },
+    {
+      "phase": "output",
+      "seconds": 3265.551905428001,
+      "stage": "D_Ainv_1"
+    },
+    {
+      "phase": "input",
+      "seconds": 3265.5523121180013,
+      "stage": "T1"
+    },
+    {
+      "phase": "output",
+      "seconds": 3701.2114628890013,
+      "stage": "T1"
+    },
+    {
+      "phase": "input",
+      "seconds": 3701.2120353400005,
+      "stage": "D_A"
+    },
+    {
+      "phase": "output",
+      "seconds": 5270.144267399999,
+      "stage": "D_A"
+    },
+    {
+      "phase": "input",
+      "seconds": 5270.144834130002,
+      "stage": "T2"
+    }
+  ],
+  "status": "STOPPED_FALLBACK_AFTER_PRIMARY_ACCEPTANCE",
+  "stop_requested_utc": "2026-11-09 18:14:08 UTC"
+}

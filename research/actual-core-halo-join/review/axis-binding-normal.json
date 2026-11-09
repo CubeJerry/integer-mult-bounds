@@ -1,0 +1,140 @@
+{
+  "actual_new_source_producer_rejects_foreign_reference": true,
+  "actual_route_rejections": [
+    {
+      "name": "wrong-axis-order",
+      "reason": "same original Reference coordinates at dense/sparse axis reversal"
+    },
+    {
+      "name": "naive-coarse-label",
+      "reason": "same original Reference coordinates at dense/sparse axis reversal"
+    }
+  ],
+  "boundary": 1,
+  "contexts": 64,
+  "distinct_intended_source_windows": 18,
+  "encoded_bridge_counts": [
+    31,
+    80,
+    28,
+    64,
+    39
+  ],
+  "encoded_parameters": [
+    12,
+    13,
+    9,
+    4
+  ],
+  "expected_reference_identity_control": true,
+  "halo": 0,
+  "naive_coarse_label_address_mismatches": 3584,
+  "native_low_axis_widths": [
+    7,
+    4,
+    1
+  ],
+  "normalizer_shifts": [
+    1,
+    2
+  ],
+  "original_addresses": 4096,
+  "original_msf_periods": [
+    16,
+    128
+  ],
+  "original_window_entries": 1152,
+  "producer_rejections": [
+    {
+      "name": "producer-foreign-same-period-reference",
+      "reason": "same immutable Core and halo source"
+    },
+    {
+      "name": "producer-reversed-source-list",
+      "reason": "same immutable Core and halo source"
+    },
+    {
+      "name": "producer-uncertified-narrow-band-with-correct-source-id",
+      "reason": "generic factory uses the inherited conservative physical source band"
+    },
+    {
+      "name": "producer-missing-whole-field-radius",
+      "reason": "all contexts and spectators in Core radius"
+    },
+    {
+      "name": "producer-missing-output-headroom",
+      "reason": "actual rounded normalized Core output carrier"
+    },
+    {
+      "name": "producer-insufficient-lift-carrier",
+      "reason": "complete exact input lift carrier"
+    },
+    {
+      "name": "producer-coarser-Core-grid",
+      "reason": "complete exact input lift carrier"
+    }
+  ],
+  "reference_sha256": [
+    "eeec438b0fc1f5310849651e3e909bc1719b78e42aefa994282d44d1262038c1",
+    "1322174a9c7e4c4c9e71f3dc7090e223c88f9371d4c00ca927e35616f9cb00d8"
+  ],
+  "reviewer_sha256": "ebd6238a6286e9ddd1d9e3d254c6b86b49d46f1e1e99e60c64fdbcc4cf09c91e",
+  "route_support": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      9,
+      5
+    ]
+  ],
+  "same_period_foreign_reference_is_structurally_accepted": true,
+  "scope": "Actual retained source partitions and encoded routes plus exhaustive address semantics; no physical Core or halo execution.",
+  "side": 8,
+  "source_geometry_sha256": "bbee918cd3492ca016d3edc668e884af6e22784a521f1102acad28e3cd2bc622",
+  "source_sha256": {
+    "admitted_context.py": "f00baeb1c774e65224a4ed0712178e3bb28a1cf2e0381deba0c3346f74af767b",
+    "original_layout.py": "7289bdd255fa340c7915a600cb119f57ea2ffed056aee54d243b8b1196575e54",
+    "retained/cohort/core_layout.py": "de01f1d70f531eaa2cbde9cb2e404d653fdb551f9b4cd2e0d8291fd928cab67a"
+  },
+  "spectator_count": 2,
+  "status": "INDEPENDENT_ASYMMETRIC_AXIS_BINDING_PASS",
+  "translated_local_origin_mismatches": 224,
+  "whole_field_radius": {
+    "carrier_radius": 2,
+    "core_error": "1/16",
+    "input_radius": 1,
+    "normalizer": 8,
+    "normalizer_shift_sum": 3,
+    "records": 4096
+  }
+}

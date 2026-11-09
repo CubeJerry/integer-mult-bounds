@@ -1,0 +1,82 @@
+{
+  "controls": [
+    {
+      "control": "missing-exit-record",
+      "exit_code": 1,
+      "no_replay_started": true,
+      "optimization": 0,
+      "rejection": "observed successful exit after trailing teardown required"
+    },
+    {
+      "control": "missing-exit-record",
+      "exit_code": 1,
+      "no_replay_started": true,
+      "optimization": 1,
+      "rejection": "observed successful exit after trailing teardown required"
+    },
+    {
+      "control": "nonzero-process-exit",
+      "exit_code": 1,
+      "no_replay_started": true,
+      "optimization": 0,
+      "rejection": "separate observed process-completion gate"
+    },
+    {
+      "control": "nonzero-process-exit",
+      "exit_code": 1,
+      "no_replay_started": true,
+      "optimization": 1,
+      "rejection": "separate observed process-completion gate"
+    },
+    {
+      "control": "unfinished-teardown",
+      "exit_code": 1,
+      "no_replay_started": true,
+      "optimization": 0,
+      "rejection": "separate observed process-completion gate"
+    },
+    {
+      "control": "unfinished-teardown",
+      "exit_code": 1,
+      "no_replay_started": true,
+      "optimization": 1,
+      "rejection": "separate observed process-completion gate"
+    },
+    {
+      "control": "changed-execution-log",
+      "exit_code": 1,
+      "no_replay_started": true,
+      "optimization": 0,
+      "rejection": "process-completion record binds exact log"
+    },
+    {
+      "control": "changed-execution-log",
+      "exit_code": 1,
+      "no_replay_started": true,
+      "optimization": 1,
+      "rejection": "process-completion record binds exact log"
+    },
+    {
+      "control": "different-reference",
+      "exit_code": 1,
+      "no_replay_started": true,
+      "optimization": 0,
+      "rejection": "same completed source identity"
+    },
+    {
+      "control": "different-reference",
+      "exit_code": 1,
+      "no_replay_started": true,
+      "optimization": 1,
+      "rejection": "same completed source identity"
+    }
+  ],
+  "scope": "Retained completion-record admission only; no physical replay.",
+  "source_sha256": {
+    "PHYSICAL-EXECUTION.log": "5ad4e70fb0441b0d40f6c749a3546854214ffe41cf60788e47c6b3a56ec58c4f",
+    "PHYSICAL-EXIT.json": "855d59883832615f8024796a6bcc57131161c1f0b4c137e0f2275ed584aeb5d0",
+    "PHYSICAL-RESULT.json": "0ecf35eb4a36f6015b19739e37732e1d767c0bcbf513500ddacafab85abed76e",
+    "replay.py": "38c203083d02326da6a19eec5842a94ea0776ece8efab81a29df614cfa0cbdd9"
+  },
+  "status": "PASS_ADVERSARIAL_PROCESS_COMPLETION_GATE"
+}

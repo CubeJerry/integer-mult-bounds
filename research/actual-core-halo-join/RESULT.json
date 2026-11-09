@@ -1,0 +1,558 @@
+{
+  "base_commit": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+  "bounded_normal": {
+    "actual_extended_physical_replayed": false,
+    "checks": [
+      {
+        "check": "review/a4-analytic-cross-review/verify_hashes.py",
+        "seconds": 0.13803172600091784,
+        "stdout_sha256": "55b45efc0548f0016bcccfba00b3e468dfd53aa1807f74093b4d4d657f9144e6"
+      },
+      {
+        "check": "verify.py",
+        "seconds": 2.02895865499886,
+        "stdout_sha256": "db5326749202d9a50879b442156af7ce6140a982e3b0f90d55bef4f956640676"
+      },
+      {
+        "check": "review/bridge_review.py",
+        "seconds": 2.2569830319989705,
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "check": "review/axis_binding_review.py",
+        "seconds": 26.61223103899829,
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "check": "semantic_halo.py",
+        "seconds": 16.13971631000095,
+        "stdout_sha256": "fc37c41fb2cdb96a19bc2bb732f91ed98d42d22319bb1e05ff1617460d706d00"
+      },
+      {
+        "check": "review/periodic_review.py",
+        "seconds": 24.63781499200195,
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "complete_semantic_fixture_replayed": true,
+    "receipt": "BOUNDED-NORMAL.json",
+    "retained_actual_physical_reviewed": true,
+    "retained_process_exit_record_checked": true,
+    "seconds": 71.82436824400065,
+    "sha256": "d8c2886ebe01edd9e63476607e4e8f0594e3e938fb39762a3e720a895384620c",
+    "status": "PASS_ACTUAL_CORE_HALO_PACKAGE"
+  },
+  "bounded_optimized": {
+    "actual_extended_physical_replayed": false,
+    "checks": [
+      {
+        "check": "review/a4-analytic-cross-review/verify_hashes.py",
+        "seconds": 0.1144434950001596,
+        "stdout_sha256": "55b45efc0548f0016bcccfba00b3e468dfd53aa1807f74093b4d4d657f9144e6"
+      },
+      {
+        "check": "verify.py",
+        "seconds": 1.837994911998976,
+        "stdout_sha256": "db5326749202d9a50879b442156af7ce6140a982e3b0f90d55bef4f956640676"
+      },
+      {
+        "check": "review/bridge_review.py",
+        "seconds": 2.3222907160015893,
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "check": "review/axis_binding_review.py",
+        "seconds": 26.48917290299869,
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "check": "semantic_halo.py",
+        "seconds": 15.133536361001461,
+        "stdout_sha256": "19f469dc08dc9631bb44cfc73b8a7cc1447500331384d1169a4e6ee0b2d64de9"
+      },
+      {
+        "check": "review/periodic_review.py",
+        "seconds": 24.514035090000107,
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "complete_semantic_fixture_replayed": true,
+    "receipt": "BOUNDED-OPTIMIZED.json",
+    "retained_actual_physical_reviewed": true,
+    "retained_process_exit_record_checked": true,
+    "seconds": 70.41687497300154,
+    "sha256": "b7eb9891dc412b81d4d1afd1b46c3bea9804da079ce64024050eae33bfdfed0e",
+    "status": "PASS_ACTUAL_CORE_HALO_PACKAGE"
+  },
+  "completion_gate_controls": {
+    "no_replay_started": true,
+    "normal_and_optimized": true,
+    "rejecting_executions": 10,
+    "separate_command": "review/check_process_completion_gate.py",
+    "status": "PASS_ADVERSARIAL_PROCESS_COMPLETION_GATE"
+  },
+  "independent_physical_observation": {
+    "actual_periodic_max_error": "12349273070397320735452872352626943769904137807640683666964059871562179533740354327024229062319317224489036724578503389453060238562093691867595934044368796339469785632888579235665878884209794021836098742258446960837184547017780476040883969044151758818721953863324479475685548562792942478257556501689216040699068168774697945314231066810088126056958687890933924510888819602930971844427109680373954035034684170160793032247499609792674620523319715263100304377305804463919675002527649652109281519094487300523632849238879556616842464535393903695582872067003094067305437560432008594789855784146474115206474518243888027618491141329539691003625908114823747834313561562759340446956526447846213629644173540227241349365441639103043396346838059990284584299093982493946075/7805256760948982536805984468173695183098285065403224778933581231250714748181240595781858730511787596545644786414414065098710576984189927495085697807655058485638565513191169998468077224155449217426020476356346145513373591523394707909234272354614711421347284339703156121941975689243010433872795471091206313071684471509863489388794485875385180927794327743226962019193279018927066630573417446700970555166933855359744368664959442723817421813689094737231686864147068419718172346576796461723366355314019844824643804276272525286502510789661401134062507178046911728786662391491438806100103963503471888723901326049513507382207910759035508152134390629234082028858705071203315043355710248784977086919398158259342836511775915885087054679434000221907773254805572744330046976",
+    "adversarial_observation_controls": [
+      {
+        "name": "width-one-omits-original-source-entries",
+        "rejection": "whole original source cyclic bandwidth"
+      },
+      {
+        "name": "per-coordinate-radius-substituted-for-whole-field",
+        "rejection": "complete Euclidean input-radius funding"
+      },
+      {
+        "name": "omitted-input-grid-lift",
+        "rejection": "independent exact incoming lift"
+      },
+      {
+        "name": "core-return-corrupted-by-one-unit",
+        "rejection": "actual Core versus direct original principal inverses"
+      },
+      {
+        "name": "negative-floor-replaces-toward-zero",
+        "rejection": "toward-zero normalized return from actual native integers"
+      },
+      {
+        "name": "halo-consumes-mutated-core-source",
+        "rejection": "actual merged values at every original address"
+      },
+      {
+        "name": "current-kept-core-replaced-by-halo-term",
+        "rejection": "actual merged values at every original address"
+      },
+      {
+        "name": "current-kept-output-corrupted-by-one-grid-unit",
+        "rejection": "actual merged values at every original address"
+      }
+    ],
+    "all_original_addresses_checked": true,
+    "bit_exact_merge_and_rounding": true,
+    "core_euclidean_error_squared": "149544569686586685753964555804170169620308165005427382171591229418740664175033071506814080945938538944139623011136303573790992730336211907705601146964838794214968116982134736853997966006542823271371106412043080444175538458524592841492095245035999399732202232989256921732579415295221461716265864411747442001511255930954187125124670342816020624986338450272882072313213043098676939740992378217899834737386036137059786390567291511569833570687313525875837836438644344660457055458523764677254146217727526500934880545581285965424301718456116469022467210163249305685824726033087657169725931794776747284685453530220247412680605710167191959128569842359808836103967117915500738247889923530937070822379175562851124452787750799559520693026115459572913504036848312169852873863832814789206332014509100092386900010022812344717389141745175923353793939498576419175243764927491448462859234762603809947664666433432978779822457396822213336083159008021770221124276729605577238162718507875734911573115545824851007250845367321104066906435434469557616730905702846740447719766918367353487073197782281442452444241158670695113372866799085830319931516764736011456210208865373590519210946830160112858492429930423814401639880598519629925282988102939056675175607657368564682747434118668005438653520959721655549889021594525580604966647239280196646612258169641365223317427225994687180428690681165443452081706388758400137942838954636905912609559212227736330159460338038674759439404376827692595239566390524201949053315385256816579466222176360896979920472180330004943/47985476638354955518619000681553714758734876017248458660476935219495490559282629773995131066123232469978916183989057410935646574089335115049463056863003897369700199233303996451416987033002906706754133252556468852611431309762108835680113953580714573181992105095525915889480255738837263967262275643801496956322905465203792902137579453331119625979993589119506929619957279986303895866289753743690774006584905235680615065004677359900543823300737610542673373732491319021794742349637726560468808155699004775406442456041123290238944044068343749399838540534577104101235383107050004959042910778553397168694614352201181335237093002271227677431837682898390557925632991209762536761210933572601387071276582555622054360853609237885622398256822346241215051600233421186366381963277188411773669446357552455783476261614720781610456846607029258639648926557120498486618493040511431124387618609124235515247431853694513212780994303122816605856570457283267340219947278107263768534697768221014605782307249272953350003437624674731584134051708944277107422541445366849239922084437622645159211673339850980480927473071350187039658843076171800892628208007698031865530828180386991392465868356998772449012098149853426117379489069778356043487746743030904605286712608435111854521797697586921354094460373759662587441655510497091023109887555307666892802589823312982006437524985572085761650215180220019787139807743172119987186841270690243433011510541159551579863872119581792965483475637770614753721722604349018251405592899091953689696043021327079338444491222281241600870681398317932690929562552914226872343852009955046296109739380317775177702501490828504846233256501706429556012701973953484454994579949571182428160",
+    "identity_replacement_error_squared": "28240107966977440412920817165598614710271927019762127155428929106245951896065120854643994043631053319206840090477678556597294674635184978711980905170202285699881530349921901597465649999019155837781387225645121170568227231999015604793846285541808963881841380111044487508387602606919486585625553671571722891633312524839442238542758209011019600020958174724915714046277389871833062090496772279643275327186728483571416316683579225720236205096303302331621967178383972343016600253115283408061238608316850752072788777040578083713101399301618502714048607546978386580553557740696890705406612492555648880946116417087480433002528321095060732609674990854998616761371091232587867109800101541692297253035216872111452980172468209427459505399851669422189025528127072532493962071340020826831090671646531364965131363518277805662975189799353589531193788262710478000591968338579029465625648262888797163529502828491718527708100857699420371199780995002722298234341628900172125026072808608206292434516879690165731405634875498520897006831703945779492488734317431948326219291635626537814055268923151035265823581264176655178494250227861585775320986728500113306204202576277813079129542788362120498195140415247251506603972353189736247989667619812681102907851195212569861825524669114771210907751882885055374089694108338455487405171554420024805440635001200989483147087577089428571737824745833403635124830712085342726701536262538672378120116665961635121098481719765375531833604752305189754996866653245956359671431199938465886960701032351700339461640271880581178846174855118471/1107622199415470630777306604819754984677293549268100319300457757624099649293340284865127910100915417471197559033461627374679100209813139201092849624766506092202504826260670809958433899055491939565433250281274694604663849818248845183056801176375636137121328558564645412817155882552224990564917561428711105737053688284510317323638004510965661044088643043113184725918441405551566847342135871670155900824396939841172806880247413202755800213463647611102274489902248669979476882596759272042968593001209021737627822449476241778580485817775005019469017543194329940535285304347821099253623857918234134383028476970747014788912199197519060896885223778734452389033586304102224357151291402469637190589980242696110324746631316761478872791820947280827068717251783265491090183025811310850926299014411634606026757409443751729273106089821997118275474108454154243744620470492631366547415025010852501894268628125727611159292505206952454300632920512258629128687222226732907362426487063785775598439249887426966560921072671174134011076454422030657285184813208203563409941770245313240915875398211594837504025783920440958718944882794621763502189547062917587737029388763145650832518764165164518896183692981708462435226447146895516623068013149103091686204945041775045771832077549560320559561293664262428858123258778377892275564674522848752326407500629893042062789323660353501342610492420666453874448661070156639460182256073599045395899678372145616801067688719759952829122901858186633259831927256268296777557575056051556944846326632062648993341982878583242241368498926004469760",
+    "kept_halo_substitution_numerically_distinguished": true,
+    "normal_optimized_identical": true,
+    "normalized_core_l1_error": "592906597048669982194615848040998083998464052885663700144920007210935624813377191015195436958632023516568867544418654074725140279414914261407159703438685964666550453927445160306849324463451046861610398287312015505506951158162838393415466412586847262336511752585305098780709965228076833255021891982951001102183358378673119407282428004623725531833182282413008523413348212576322179990508155402809942886299429958956154214909315686026166374408849245726477927721101543036897923518291698515126196609584646184520551816005472964361079871556315293441373/95393324259079465545755920898623513051986230555619083843224531173150379443639660582238717874924924240346325435966108332634563492086994849595080627372205821125160285600419749310797911049887974555119316969946423763930913690423175417851837591301625753621130759669833267356926654383286357753905372048481626804662091326276246432753009457041611793925768883044326924850584351539227147643374920841912032929736256854636703808420808590506185678929889236149011774309341274560079645351376942348998403838537500037250866589345753537187087419460541558195710360289280",
+    "receipt_sha256": "ad7ae7b8f252c7c9436803f5e2d8cb2b2bea5002880330f1e222fc5efdd1496e"
+  },
+  "no_new_kappa": true,
+  "physical_execution": {
+    "active_axes": 1,
+    "allocation": {
+      "H": 2,
+      "P": 246,
+      "R0": 4,
+      "R2": 2048,
+      "Rstar": 65536,
+      "V2": 4,
+      "dense_events": [
+        159,
+        159
+      ],
+      "dense_input_widths": [
+        259,
+        259
+      ],
+      "dense_widths": [
+        368,
+        368
+      ],
+      "g": 1,
+      "h": 2,
+      "incoming": 246,
+      "labels": 2,
+      "local_target": 12,
+      "n": 4,
+      "radius_bits": 11,
+      "side": 8,
+      "stage_target": 10,
+      "target": 2,
+      "width": 270
+    },
+    "codec": {
+      "control_carrier_units": 1216,
+      "cropped_records": 0,
+      "cumulative_counter_bits": 15,
+      "encoded_plan_descriptor_bits": 1121,
+      "quadratic_codec_tariff_units": 17743872,
+      "rectangles": 4,
+      "returned_records": 4,
+      "saved_records": 4,
+      "tariff_scope": "The complete encoded control block is O(control_carrier_units); an O(1) multiple of reported quadratic units covers sparse geometry/key macros. These are not measured binary transitions. Numeric source/consumer scalar macros remain separately charged.",
+      "transport_record_width": 80
+    },
+    "complete_dense_events": 477,
+    "complete_physical_replays": 1,
+    "consumer_bill": {
+      "additions": 0,
+      "control_steps": 588,
+      "maximum_single_tape_extent": 2400,
+      "moves": 49824,
+      "page_scans": 4,
+      "peak_scalar_bits": 25,
+      "products": 0,
+      "reads": 13504,
+      "roundings": 8,
+      "setup_divisions": 80,
+      "setup_entries": 80,
+      "source_shifts": 8,
+      "writes": 11408
+    },
+    "consumer_retained_binary_cells": 5263,
+    "contexts": 2,
+    "entry": "verify.py",
+    "extended_optimized_physical_replay": false,
+    "fixed_native_private_inventory": 11651,
+    "global_dense_calls": 3,
+    "global_forward_sparse_stages": 1,
+    "global_inverse_sparse_stages": 1,
+    "interior": "scalar A=1 at local index 7; complete Q coupled",
+    "kept": 12,
+    "layout": "identity permutation in this one-axis fixture",
+    "meter_scope": "The native setup/online, finite-alphabet transport and binary-consumer meters have distinct boundaries. Receipt timing and counters precede trailing fixture teardown, whose completion is separately observed and whose cost remains in the generic invoice.",
+    "native_all_constructed_cells": 2424867,
+    "native_online_actions": [
+      10406453317,
+      4149839475,
+      9898877192
+    ],
+    "native_owned_retained_cells": 872994,
+    "native_setup_actions": [
+      10471971830,
+      1224893364,
+      7079322454
+    ],
+    "online_new_native_tapes": 0,
+    "online_seconds": 5389.720323009,
+    "per_context_payload_child_calls": [
+      2,
+      2
+    ],
+    "period": 16,
+    "process_exit_code": 0,
+    "process_exit_record": "PHYSICAL-EXIT.json",
+    "receipt": "PHYSICAL-RESULT.json",
+    "receipt_seconds": 9424.753022516,
+    "reference_sha256": "eeec438b0fc1f5310849651e3e909bc1719b78e42aefa994282d44d1262038c1",
+    "returned": 4,
+    "side": 8,
+    "source_parameters": [
+      15,
+      1,
+      2,
+      1,
+      3,
+      64
+    ],
+    "status": "PASS_ACTUAL_COMPLETE_CORE_HALO_JOIN",
+    "transport": {
+      "finite_alphabet_actions": 313059,
+      "retained_finite_alphabet_cells": 3569,
+      "roles": 30
+    }
+  },
+  "physical_fallback": {
+    "comparison": "SETUP-COST-CENSUS.json contains source-derived comparison proxies, not measured physical speedup.",
+    "entry": "verify_entry40.py",
+    "exit_code": 130,
+    "interrupted_stage": "T2",
+    "last_completed_stage": "D_A",
+    "not_a_completed_witness": true,
+    "partial_log": "ENTRY40-PARTIAL-EXECUTION.log",
+    "partial_record": "ENTRY40-PARTIAL.json",
+    "reason": "Primary entry64 completed, exited 0 after teardown, and passed independent original-matrix observation normally and with -O. No separate source-precision risk remains.",
+    "reference_sha256": "83868eeb82059328a1dde403e6d2cecb64e30c5d12bb19e3c7e5db58592bdf4f",
+    "source_parameters": [
+      15,
+      1,
+      2,
+      1,
+      3,
+      40
+    ],
+    "status": "STOPPED_FALLBACK_AFTER_PRIMARY_ACCEPTANCE"
+  },
+  "prephysical_normal": {
+    "checks": [
+      {
+        "check": "verify.py",
+        "seconds": 1.9960251640004572,
+        "stdout_sha256": "db5326749202d9a50879b442156af7ce6140a982e3b0f90d55bef4f956640676"
+      },
+      {
+        "check": "review/bridge_review.py",
+        "seconds": 2.345711238000149,
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "check": "review/axis_binding_review.py",
+        "seconds": 29.005275774999973,
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "check": "semantic_halo.py",
+        "seconds": 17.05065158599973,
+        "stdout_sha256": "1417cf90b1e68eb5d632d8d0509bc7615bb9041b097e4a83f8e82486f575c528"
+      },
+      {
+        "check": "review/periodic_review.py",
+        "seconds": 26.549368762000086,
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "seconds": 76.95217658600086,
+    "status": "PASS_PREPHYSICAL_CORE_HALO_CHECKS"
+  },
+  "prephysical_optimized": {
+    "checks": [
+      {
+        "check": "verify.py",
+        "seconds": 1.947693521000474,
+        "stdout_sha256": "db5326749202d9a50879b442156af7ce6140a982e3b0f90d55bef4f956640676"
+      },
+      {
+        "check": "review/bridge_review.py",
+        "seconds": 2.3991928880004707,
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "check": "review/axis_binding_review.py",
+        "seconds": 27.998163439000564,
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "check": "semantic_halo.py",
+        "seconds": 16.687125469999955,
+        "stdout_sha256": "5814a921fdce600087fec1bb0ec728b3511b4667547f4ad9d3719e06eb44e217"
+      },
+      {
+        "check": "review/periodic_review.py",
+        "seconds": 25.132923209999717,
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "seconds": 74.16968416199961,
+    "status": "PASS_PREPHYSICAL_CORE_HALO_CHECKS"
+  },
+  "proof": "PROOF.md",
+  "receipts": [
+    {
+      "bytes": 2418,
+      "path": "PROBE.json",
+      "sha256": "06553ed35c224477dfbe79b7f9bfa2683346e94e4cb01c4440ffff23c1756717"
+    },
+    {
+      "bytes": 172626,
+      "path": "SEMANTIC-RESULT.json",
+      "sha256": "4e4a7c9f78eab6c757fe37f583a1a0deb2bb74c4dace520491bbf6352d0660a0"
+    },
+    {
+      "bytes": 172626,
+      "path": "SEMANTIC-OPTIMIZED-RESULT.json",
+      "sha256": "85db4b553405bc00995135ffc4afa216b22c50b777a0ea05076029c15f49a656"
+    },
+    {
+      "bytes": 5917,
+      "path": "review/bridge-review-normal.json",
+      "sha256": "c8264d883d7f9dcf02a803d82c6f8ddd0aa805e5839ecbc3f83acf9843b1fac4"
+    },
+    {
+      "bytes": 5917,
+      "path": "review/bridge-review-optimized.json",
+      "sha256": "c8264d883d7f9dcf02a803d82c6f8ddd0aa805e5839ecbc3f83acf9843b1fac4"
+    },
+    {
+      "bytes": 3309,
+      "path": "review/axis-binding-normal.json",
+      "sha256": "0df7755229622a00716f43eea7179b39978eaec6be44a5e3fc2c4c0530f389e1"
+    },
+    {
+      "bytes": 3309,
+      "path": "review/axis-binding-optimized.json",
+      "sha256": "0df7755229622a00716f43eea7179b39978eaec6be44a5e3fc2c4c0530f389e1"
+    },
+    {
+      "bytes": 117166,
+      "path": "review/semantic-periodic-normal.json",
+      "sha256": "d8c42b5c0e667feb113774093ff5c752e1da7f5bcdabc3ca66d525a3e8c11692"
+    },
+    {
+      "bytes": 117166,
+      "path": "review/semantic-periodic-optimized.json",
+      "sha256": "d8c42b5c0e667feb113774093ff5c752e1da7f5bcdabc3ca66d525a3e8c11692"
+    },
+    {
+      "bytes": 3160,
+      "path": "PREPHYSICAL-NORMAL.json",
+      "sha256": "4cd6f61ec877de10e1a3225dcbbcd0d3aceb30a04eede60cb8ad0224701e07bc"
+    },
+    {
+      "bytes": 3161,
+      "path": "PREPHYSICAL-OPTIMIZED.json",
+      "sha256": "14a6503e0765a52f150f01b49f8afe287305a0b8a07953ad160b269c80e7c8b9"
+    },
+    {
+      "bytes": 2273,
+      "path": "ENTRY40-PREFLIGHT.json",
+      "sha256": "860b052f289b150b5c43d82f1a7db3f1c6ca1b0a3acb6fe4264df3becf5a3145"
+    },
+    {
+      "bytes": 1790,
+      "path": "ENTRY40-DRIVER.json",
+      "sha256": "6c7df89229699f56f0dd5b41a3b8e58dcbb51493270b0940dddb7cf447a6f00a"
+    },
+    {
+      "bytes": 187325,
+      "path": "SETUP-COST-CENSUS.json",
+      "sha256": "e5d87ee03a4d03de2ddb705a55158987c9071938594d9f2e0fc9810815b08d7f"
+    },
+    {
+      "bytes": 55275,
+      "path": "PHYSICAL-RESULT.json",
+      "sha256": "0ecf35eb4a36f6015b19739e37732e1d767c0bcbf513500ddacafab85abed76e"
+    },
+    {
+      "bytes": 1208,
+      "path": "PHYSICAL-EXIT.json",
+      "sha256": "855d59883832615f8024796a6bcc57131161c1f0b4c137e0f2275ed584aeb5d0"
+    },
+    {
+      "bytes": 2055,
+      "path": "PHYSICAL-EXECUTION.log",
+      "sha256": "5ad4e70fb0441b0d40f6c749a3546854214ffe41cf60788e47c6b3a56ec58c4f"
+    },
+    {
+      "bytes": 3356,
+      "path": "ENTRY40-PARTIAL.json",
+      "sha256": "502178c970be6eb70848b7b0389148c379479c33c7cb80e7f9f834ac5b50654c"
+    },
+    {
+      "bytes": 1799,
+      "path": "ENTRY40-PARTIAL-EXECUTION.log",
+      "sha256": "98f846c8afef776bfb59af63b8ca603a5c5a4779cdc0a36d9524844c896c848d"
+    },
+    {
+      "bytes": 17070,
+      "path": "review/physical-periodic-normal.json",
+      "sha256": "ad7ae7b8f252c7c9436803f5e2d8cb2b2bea5002880330f1e222fc5efdd1496e"
+    },
+    {
+      "bytes": 17070,
+      "path": "review/physical-periodic-optimized.json",
+      "sha256": "ad7ae7b8f252c7c9436803f5e2d8cb2b2bea5002880330f1e222fc5efdd1496e"
+    },
+    {
+      "bytes": 2530,
+      "path": "review/PROCESS-COMPLETION-GATE.json",
+      "sha256": "26fe6f5cf48516ee06a9c339039800940dd26ad801f56cf8b517902f92c2d0b9"
+    },
+    {
+      "bytes": 5340,
+      "path": "BOUNDED-NORMAL.json",
+      "sha256": "d8c2886ebe01edd9e63476607e4e8f0594e3e938fb39762a3e720a895384620c"
+    },
+    {
+      "bytes": 5342,
+      "path": "BOUNDED-OPTIMIZED.json",
+      "sha256": "b7eb9891dc412b81d4d1afd1b46c3bea9804da079ce64024050eae33bfdfed0e"
+    },
+    {
+      "bytes": 11998,
+      "path": "REGISTERED-REPLAY.log",
+      "sha256": "5354721d6403134fbf82c26582660bd407ed5630d34d5b2d46bd3c5758a67b91"
+    }
+  ],
+  "registered_replay": {
+    "allowed_comparison_differences": [
+      "optimization label",
+      "runtime fields",
+      "semantic stdout hash containing fresh runtime",
+      "fresh semantic observation provenance hash and resulting report digest"
+    ],
+    "command": [
+      "python3",
+      "-B",
+      "scripts/research_package.py",
+      "--package",
+      "research/actual-core-halo-join"
+    ],
+    "exit_code": 0,
+    "extended_physical_replayed": false,
+    "log": "REGISTERED-REPLAY.log",
+    "normal_and_optimized_scientific_agreement": true
+  },
+  "scientific_scope": "Conditional same-Reference actual narrow Core/first-face halo attachment with a completed physical witness, source-bound all-size composition, complete generic bill and historical backing. No production rate is inferred from the tiny fixture; current outer/native supplier and final recovery premises remain.",
+  "selected_assumptions_unchanged": true,
+  "selected_record": "#6030",
+  "semantic_execution": {
+    "active_axes": 1,
+    "actual_bridge_halo_and_merge": true,
+    "allocation": {
+      "H": 2,
+      "P": 356,
+      "R0": 8,
+      "R2": 4096,
+      "Rstar": 131072,
+      "V2": 8,
+      "dense_events": [
+        897,
+        897
+      ],
+      "dense_input_widths": [
+        370,
+        370
+      ],
+      "dense_widths": [
+        531,
+        531
+      ],
+      "g": 1,
+      "h": 2,
+      "incoming": 356,
+      "labels": 2,
+      "local_target": 15,
+      "n": 5,
+      "radius_bits": 12,
+      "side": 16,
+      "stage_target": 12,
+      "target": 4,
+      "width": 381
+    },
+    "codec": {
+      "control_carrier_units": 3106,
+      "cropped_records": 0,
+      "cumulative_counter_bits": 18,
+      "encoded_plan_descriptor_bits": 2949,
+      "quadratic_codec_tariff_units": 424478384,
+      "rectangles": 4,
+      "returned_records": 12,
+      "saved_records": 28,
+      "tariff_scope": "The complete encoded control block is O(control_carrier_units); an O(1) multiple of reported quadratic units covers sparse geometry/key macros. These are not measured binary transitions. Numeric source/consumer scalar macros remain separately charged.",
+      "transport_record_width": 139
+    },
+    "contexts": 2,
+    "coupled_A2_interiors": 2,
+    "dense_events": 2691,
+    "period": 32,
+    "physical_core_executed": false,
+    "q": 56,
+    "side": 16,
+    "status": "PASS_SEMANTIC_CORE_ACTUAL_J2_HALO",
+    "transport": {
+      "finite_alphabet_actions": 3115722,
+      "retained_finite_alphabet_cells": 20931,
+      "roles": 30
+    }
+  },
+  "source_manifests": [
+    "SOURCES.json",
+    "DEPENDENCIES.json",
+    "PUBLIC-HALO-PINS.json",
+    "EXECUTION-SOURCES.json",
+    "INDEPENDENT-SOURCES.json"
+  ],
+  "status": "PASS_SCOPED_ACTUAL_CORE_HALO_ATTACHMENT",
+  "task_seed": 29,
+  "verification": "VERIFICATION.md"
+}

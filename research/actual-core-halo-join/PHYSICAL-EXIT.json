@@ -1,0 +1,39 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "research/actual-core-halo-join/verify.py"
+  ],
+  "driver": {
+    "bytes": 13566,
+    "path": "verify.py",
+    "sha256": "230cef8659af7b8beaa0db86ecd3376df81ad6aeaf5fbe7f1d7b3e339cae954b"
+  },
+  "exit_code": 0,
+  "log": {
+    "bytes": 2055,
+    "path": "PHYSICAL-EXECUTION.log",
+    "sha256": "5ad4e70fb0441b0d40f6c749a3546854214ffe41cf60788e47c6b3a56ec58c4f"
+  },
+  "observed_utc": "2026-11-09 18:11:51 UTC",
+  "operator_attestation": true,
+  "python": "3.12.14",
+  "receipt": {
+    "bytes": 55275,
+    "path": "PHYSICAL-RESULT.json",
+    "sha256": "0ecf35eb4a36f6015b19739e37732e1d767c0bcbf513500ddacafab85abed76e"
+  },
+  "receipt_written_before_teardown": true,
+  "reference_sha256": "eeec438b0fc1f5310849651e3e909bc1719b78e42aefa994282d44d1262038c1",
+  "scope": "Observed completion result of the actual physical command, not an independent replay or binary action total. The driver writes its numerical receipt before trailing teardown; the execution session subsequently returned exit code 0.",
+  "source_parameters": [
+    15,
+    1,
+    2,
+    1,
+    3,
+    64
+  ],
+  "status": "OBSERVED_PROCESS_EXIT_ZERO_AFTER_TEARDOWN",
+  "teardown_completed": true
+}

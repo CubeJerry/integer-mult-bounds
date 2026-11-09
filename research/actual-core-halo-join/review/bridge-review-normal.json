@@ -1,0 +1,235 @@
+{
+  "current_cleanup_history_independent": true,
+  "executed_cases": [
+    {
+      "core_width": 5,
+      "halo_width": 2,
+      "input_shift": 3,
+      "name": "signed-width-2",
+      "normalizer_shift": 3,
+      "payload_actions": 1119,
+      "private_roles": 66,
+      "records": 3
+    },
+    {
+      "core_width": 6,
+      "halo_width": 3,
+      "input_shift": 3,
+      "name": "signed-width-3",
+      "normalizer_shift": 3,
+      "payload_actions": 2671,
+      "private_roles": 66,
+      "records": 7
+    },
+    {
+      "core_width": 7,
+      "halo_width": 4,
+      "input_shift": 3,
+      "name": "signed-width-4",
+      "normalizer_shift": 3,
+      "payload_actions": 4017,
+      "private_roles": 66,
+      "records": 9
+    },
+    {
+      "core_width": 8,
+      "halo_width": 5,
+      "input_shift": 3,
+      "name": "signed-width-5",
+      "normalizer_shift": 3,
+      "payload_actions": 5667,
+      "private_roles": 66,
+      "records": 11
+    },
+    {
+      "core_width": 9,
+      "halo_width": 6,
+      "input_shift": 3,
+      "name": "signed-width-6",
+      "normalizer_shift": 3,
+      "payload_actions": 6503,
+      "private_roles": 66,
+      "records": 11
+    },
+    {
+      "core_width": 10,
+      "halo_width": 7,
+      "input_shift": 3,
+      "name": "signed-width-7",
+      "normalizer_shift": 3,
+      "payload_actions": 7339,
+      "private_roles": 66,
+      "records": 11
+    },
+    {
+      "core_width": 11,
+      "halo_width": 8,
+      "input_shift": 3,
+      "name": "signed-width-8",
+      "normalizer_shift": 3,
+      "payload_actions": 8175,
+      "private_roles": 66,
+      "records": 11
+    },
+    {
+      "core_width": 270,
+      "halo_width": 31,
+      "input_shift": 218,
+      "name": "production-dimensions",
+      "normalizer_shift": 1,
+      "payload_actions": 30387,
+      "private_roles": 66,
+      "records": 3
+    },
+    {
+      "core_width": 4,
+      "halo_width": 4,
+      "input_shift": 0,
+      "name": "equal-grid-no-normalizer",
+      "normalizer_shift": 0,
+      "payload_actions": 1287,
+      "private_roles": 66,
+      "records": 3
+    },
+    {
+      "core_width": 9,
+      "drop": 0,
+      "halo_width": 10,
+      "name": "minimum-and-odd-drop-0",
+      "payload_actions": 1377,
+      "records": 3,
+      "scratch_historical_extent": 10
+    },
+    {
+      "core_width": 9,
+      "drop": 1,
+      "halo_width": 10,
+      "name": "minimum-and-odd-drop-1",
+      "payload_actions": 1377,
+      "records": 3,
+      "scratch_historical_extent": 10
+    },
+    {
+      "core_width": 9,
+      "drop": 2,
+      "halo_width": 10,
+      "name": "minimum-and-odd-drop-2",
+      "payload_actions": 1377,
+      "records": 3,
+      "scratch_historical_extent": 10
+    },
+    {
+      "core_width": 9,
+      "drop": 8,
+      "halo_width": 10,
+      "name": "minimum-and-odd-drop-8",
+      "payload_actions": 1377,
+      "records": 3,
+      "scratch_historical_extent": 10
+    },
+    {
+      "core_width": 9,
+      "drop": 9,
+      "halo_width": 10,
+      "name": "minimum-and-odd-drop-9",
+      "payload_actions": 1377,
+      "records": 3,
+      "scratch_historical_extent": 10
+    },
+    {
+      "core_width": 9,
+      "drop": 10,
+      "halo_width": 10,
+      "name": "minimum-and-odd-drop-10",
+      "payload_actions": 1377,
+      "records": 3,
+      "scratch_historical_extent": 10
+    },
+    {
+      "core_width": 9,
+      "drop": 19,
+      "halo_width": 10,
+      "name": "minimum-and-odd-drop-19",
+      "payload_actions": 1377,
+      "records": 3,
+      "scratch_historical_extent": 10
+    },
+    {
+      "core_width": 150,
+      "drop": 0,
+      "halo_width": 151,
+      "name": "large-history",
+      "payload_actions": 6479,
+      "records": 1,
+      "scratch_historical_extent": 151
+    },
+    {
+      "core_width": 4,
+      "drop": 1,
+      "halo_width": 5,
+      "name": "short-after-large",
+      "payload_actions": 347,
+      "records": 1,
+      "scratch_historical_extent": 151
+    },
+    {
+      "core_width": 4,
+      "drop": 1,
+      "halo_width": 5,
+      "name": "fresh-short",
+      "payload_actions": 347,
+      "records": 1,
+      "scratch_historical_extent": 5
+    }
+  ],
+  "historical_backing_retained": true,
+  "independent_hardware": true,
+  "negative_zero_canonical": true,
+  "rejection_controls": [
+    {
+      "name": "negative-zero-late",
+      "reason": "reject sign-magnitude negative zero"
+    },
+    {
+      "name": "malformed-signmag-digit",
+      "reason": "complete sign-magnitude digit"
+    },
+    {
+      "name": "missing-record-delimiter",
+      "reason": "complete complex source record"
+    },
+    {
+      "name": "missing-stream-end",
+      "reason": "complete sign-magnitude digit"
+    },
+    {
+      "name": "insufficient-lift-carrier",
+      "reason": "funded exact lifted signed carrier"
+    },
+    {
+      "name": "unfunded-coarser-grid",
+      "reason": "exact incoming grid lift"
+    },
+    {
+      "name": "positive-return-overflow",
+      "reason": "normalized sign-magnitude carrier overflow"
+    },
+    {
+      "name": "negative-return-overflow",
+      "reason": "normalized sign-magnitude carrier overflow"
+    },
+    {
+      "name": "minimum-return-overflow",
+      "reason": "normalized sign-magnitude carrier overflow"
+    }
+  ],
+  "scope": "Frozen signed/grid bridge endpoints on independent sparse payload hardware; retained Count arithmetic, no full Core/halo fixture replay.",
+  "source_sha256": {
+    "bridge_review.py": "9d84eb0f7b7b5e2ead0e9ceeffb70f91770af17b1b0c5c252ad1bacbcdcc0e69",
+    "format_bridge.py": "037dd2265e637f92c6f51320409fb348b148ce9a5e873a353aba053a5c94d1d3",
+    "halo_core_sources.py": "ecbedd7a1aafcea97abd1187b6f3cec0624edc3c776d96aa9f7ee77720576fa5",
+    "retained_transport": "80b246fafae0adf53af7561e1be59f4374e6294d66bb7a12ef9524b9ef4f2a78",
+    "signed_oracle.py": "46ceaa9e0f4f35e1a0748c70c8c63e084a8ea4350bebc81a810b8227beb342f7"
+  },
+  "status": "INDEPENDENT_CORE_HALO_BRIDGE_PASS"
+}

@@ -1,0 +1,144 @@
+{
+  "actual_extended_physical_replayed": false,
+  "analytic_review_hashes_checked_only": true,
+  "checks": [
+    {
+      "check": "review/a4-analytic-cross-review/verify_hashes.py",
+      "seconds": 0.1144434950001596,
+      "stdout_sha256": "55b45efc0548f0016bcccfba00b3e468dfd53aa1807f74093b4d4d657f9144e6"
+    },
+    {
+      "check": "verify.py",
+      "seconds": 1.837994911998976,
+      "stdout_sha256": "db5326749202d9a50879b442156af7ce6140a982e3b0f90d55bef4f956640676"
+    },
+    {
+      "check": "review/bridge_review.py",
+      "seconds": 2.3222907160015893,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "check": "review/axis_binding_review.py",
+      "seconds": 26.48917290299869,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "check": "semantic_halo.py",
+      "seconds": 15.133536361001461,
+      "stdout_sha256": "19f469dc08dc9631bb44cfc73b8a7cc1447500331384d1169a4e6ee0b2d64de9"
+    },
+    {
+      "check": "review/periodic_review.py",
+      "seconds": 24.514035090000107,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "complete_semantic_fixture_replayed": true,
+  "independent_observations": [
+    {
+      "adversarial_observation_controls": [
+        {
+          "name": "width-one-omits-original-source-entries",
+          "rejection": "whole original source cyclic bandwidth"
+        },
+        {
+          "name": "per-coordinate-radius-substituted-for-whole-field",
+          "rejection": "complete Euclidean input-radius funding"
+        },
+        {
+          "name": "omitted-input-grid-lift",
+          "rejection": "independent exact incoming lift"
+        },
+        {
+          "name": "core-return-corrupted-by-one-unit",
+          "rejection": "actual Core versus direct original principal inverses"
+        },
+        {
+          "name": "negative-floor-replaces-toward-zero",
+          "rejection": "toward-zero normalized return from actual native integers"
+        },
+        {
+          "name": "halo-consumes-mutated-core-source",
+          "rejection": "actual merged values at every original address"
+        },
+        {
+          "name": "current-kept-core-replaced-by-halo-term",
+          "rejection": "actual merged values at every original address"
+        },
+        {
+          "name": "current-kept-output-corrupted-by-one-grid-unit",
+          "rejection": "actual merged values at every original address"
+        }
+      ],
+      "all_original_addresses_checked": true,
+      "bit_exact_merge_and_rounding": true,
+      "discarded": 12,
+      "kept": 20,
+      "kept_halo_substitution_numerically_distinguished": true,
+      "observation_file": "semantic.json",
+      "observation_sha256": "10812bae36ff524d53f0ec84cb80550f3bd345928c6addba48a6100336b70924",
+      "observed_scope": "Semantic Core plus literal bridge and actual halo; no physical Core execution.",
+      "observed_status": "PASS_SEMANTIC_CORE_ACTUAL_J2_HALO",
+      "period": 32,
+      "precision": 356,
+      "q": 56,
+      "side": 16
+    },
+    {
+      "adversarial_observation_controls": [
+        {
+          "name": "width-one-omits-original-source-entries",
+          "rejection": "whole original source cyclic bandwidth"
+        },
+        {
+          "name": "per-coordinate-radius-substituted-for-whole-field",
+          "rejection": "complete Euclidean input-radius funding"
+        },
+        {
+          "name": "omitted-input-grid-lift",
+          "rejection": "independent exact incoming lift"
+        },
+        {
+          "name": "core-return-corrupted-by-one-unit",
+          "rejection": "actual Core versus direct original principal inverses"
+        },
+        {
+          "name": "negative-floor-replaces-toward-zero",
+          "rejection": "toward-zero normalized return from actual native integers"
+        },
+        {
+          "name": "halo-consumes-mutated-core-source",
+          "rejection": "actual merged values at every original address"
+        },
+        {
+          "name": "current-kept-core-replaced-by-halo-term",
+          "rejection": "actual merged values at every original address"
+        },
+        {
+          "name": "current-kept-output-corrupted-by-one-grid-unit",
+          "rejection": "actual merged values at every original address"
+        }
+      ],
+      "all_original_addresses_checked": true,
+      "bit_exact_merge_and_rounding": true,
+      "discarded": 4,
+      "kept": 12,
+      "kept_halo_substitution_numerically_distinguished": true,
+      "observation_file": "PHYSICAL-RESULT.json",
+      "observation_sha256": "0ecf35eb4a36f6015b19739e37732e1d767c0bcbf513500ddacafab85abed76e",
+      "observed_scope": "Full actual L8/N16/K2/g1 narrow Core and J1 first-face halo; scalar interior A identity, complete Q coupled.",
+      "observed_status": "PASS_ACTUAL_COMPLETE_CORE_HALO_JOIN",
+      "period": 16,
+      "precision": 246,
+      "q": 28,
+      "side": 8
+    }
+  ],
+  "no_new_kappa": true,
+  "optimization": 1,
+  "periodic_report_sha256": "2c4518abd04b340925b184b5a024cc1c5f3384303547a8b5f105be621c07c686",
+  "retained_actual_physical_reviewed": true,
+  "retained_process_exit_record_checked": true,
+  "seconds": 70.41687497300154,
+  "status": "PASS_ACTUAL_CORE_HALO_PACKAGE"
+}
