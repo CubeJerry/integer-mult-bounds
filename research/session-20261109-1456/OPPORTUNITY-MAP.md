@@ -53,3 +53,11 @@ No result in this run changes the selected certificate or proves an unconditiona
 - Actual H-to-ideal-periodic-N under original coordinates and final scales: active analytic wave6; prior ProductionPlan joins have different theta and scales.
 
 All thirteen verified branches are in REVIEW-LINKS.json. All five global assumptions and selected kappa remain unchanged.
+
+## Fifteenth publication and next constraints
+
+- QSELF requirement: bypassed for the exact proposed E-free caller by6179034, using a source-specific three-query factorization and unchanged paid profile. Previous owned lowering remains valid for its own caller but is unnecessary for this alternative. Physical binding and rounded admissibility are not resolved.
+- H-to-periodic-N compression: source-specific existing-budget join proved by4509310 under explicit radius/target/normalization gates. The finite inverse witness is on one named input only.
+- Current recovery port: actual old Tensor production-policy guards may exclude the fine-theta family; analytic wave7 audits exact source and predecessor overlap. This is not a claim against all possible recovery implementations.
+- New caller precision: exact-grid and total rounded-division policies are distinct. Current-word scalar numerator widths and complete source envelopes need rebinding; compiler wave6 active.
+- Complete direct MOVE: proof reviewed, whole physical evidence incomplete after580s. One final1100s capped attempt with checkpointed boundaries is permitted; retain timeout evidence.
