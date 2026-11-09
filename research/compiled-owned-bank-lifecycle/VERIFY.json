@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "research/compiled-owned-bank-lifecycle/verify.py"
+      ],
+      "timeout_seconds": 400,
+      "checks": "Authenticate current sources; replay exact raw lifetimes and complete small compiler instances, signed arithmetic, complete boundary bills, positive physical lifecycle and coordinatewise retained backing with adverse controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-O",
+        "-B",
+        "research/compiled-owned-bank-lifecycle/verify.py"
+      ],
+      "timeout_seconds": 400,
+      "checks": "Repeat the full read-only replay with Python assertions disabled and compare the same committed scientific receipt."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "research/compiled-owned-bank-lifecycle/independent_source_trace.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Independent authenticated-source-loop trace comparison at six ranks, multiple replicated exit batches, wrong complement support and omitted scalar controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-O",
+        "-B",
+        "research/compiled-owned-bank-lifecycle/independent_source_trace.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Independent authenticated-source-loop trace comparison at six ranks, multiple replicated exit batches, wrong complement support and omitted scalar controls. Assertions disabled."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "research/compiled-owned-bank-lifecycle/independent_primitives.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Independent sparse hardware and signed-word oracle: 4095 legal pairs, 1365 overflow rejections, canonical zero/retirement, exact scan bills and origin/blank controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-O",
+        "-B",
+        "research/compiled-owned-bank-lifecycle/independent_primitives.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Independent sparse hardware and signed-word oracle: 4095 legal pairs, 1365 overflow rejections, canonical zero/retirement, exact scan bills and origin/blank controls. Assertions disabled."
+    }
+  ],
+  "inputs": [
+    "research/lockstep-completion-pass/executor.py",
+    "research/lockstep-completion-pass/PROOF.md",
+    "research/p104-helper470-twin-rung-removal/WORD.json.gz",
+    "research/p104-productive-controller/CONTROLLER.json",
+    "research/kappa-rebuild/architecture/FINITE-PRECOMPILATION.md",
+    "research/higher-moment-strictification/vendor/p7-TENSOR.md",
+    "research/selected-owned-dispatch/ALLOCATION-THEOREM.md",
+    "research/selected-owned-dispatch/FRESH-NAMES.md",
+    "research/selected-owned-dispatch/BINDING-STATUS.md",
+    "research/selected-owned-dispatch/PROOF.md",
+    "research/delimited-continuation-stack/stack.py",
+    "notes/batched-complex-rows.tex",
+    "research/p104-helper470-twin-rung-removal/RESULT.json"
+  ]
+}
