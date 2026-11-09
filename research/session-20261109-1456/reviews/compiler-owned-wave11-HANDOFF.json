@@ -1,0 +1,47 @@
+{
+  "status": "verified_frozen_for_parent_publication",
+  "updated_utc": "2026-11-09T22:50:26.483378+00:00",
+  "wave": 11,
+  "track": "compiler/precision_tape",
+  "worktree": "/workspace/scratch/a365d332d434/worker-micro-control",
+  "branch": "research/scalar-table-microcontrol-20261109",
+  "package": "research/scalar-table-microcontrol",
+  "commit": "b8b04884ad21ef2d08bdb1642af491e0a47b3e16",
+  "base": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+  "whole_tree": "5789fcac8aeaa61850088cf560b0801ccdf4f600",
+  "package_tree": "d8a64135b4d36c1f9a7b0bd4248b190bec7a7897",
+  "title": "research: explicit scalar-table microcontrol and serialized clock",
+  "description_path": "/workspace/scratch/a365d332d434/worker-micro-control/research/scalar-table-microcontrol/PR-DESCRIPTION.md",
+  "files": 30,
+  "dependencies": 6,
+  "claim": "Fixed admitted N-row no-context execute_table on P>=1 distinct fixed tapes has a closed finite-state lowering on alphabet 0..6, exact source semantics and serialized TM clock C=A+U, state count at most 48N+3P+4, with separately charged finite precompilation F.",
+  "gates": {
+    "registered_normal_optimized_six_commands": "PASS",
+    "registered_log": "/workspace/scratch/a365d332d434/microcontrol-registered-gates.log",
+    "registered_log_sha256": "314388cb255bf377ab0d4f4d961e94e7e90bb8e258cacc2695c92d2a7ca5cb51",
+    "byte_mode_only_additions_sole_parent": "PASS",
+    "byte_gate": "/workspace/scratch/a365d332d434/microcontrol-byte-gate.json",
+    "export_30_files_6_declared_inputs": "PASS",
+    "cold_isolated_empty_PATH_author_and_both_independent_reviews": "PASS",
+    "cold_gate": "/workspace/scratch/a365d332d434/microcontrol-cold-gate.json",
+    "reviewed_scientific_hashes_unchanged": true,
+    "independent_review_copies_byte_identical": true
+  },
+  "archive": "/workspace/scratch/a365d332d434/microcontrol-b8b04884a.tar",
+  "archive_sha256": "a582e87f272e5a73b61547193ab5a9818debf330f9e6f58a8e2747dffd79fc54",
+  "reviews": {
+    "model": "PASS full proof and graph/model closure; 253 graphs, 1226848 literal transition instances, 17 negative controls",
+    "operations": "PASS 2827 generated executions, 30375 microsteps and 12 negative controls; exact source traces/heads/labels",
+    "lead": "PASS full proof and exact state-count review"
+  },
+  "limits": [
+    "No readonly_context, including unused context ports",
+    "No Controller, wrapper/retirement or source/header/wholecaller installation",
+    "No numerical tariff rho conversion or complete runtime cap admission",
+    "No assumption discharge, selected certificate change or new kappa",
+    "Fixed precompiled table and distinct P>=1 ports; finite-prefix equivalence, no general termination guarantee",
+    "Host simulator storage is verification apparatus; F includes table/label size and optional 7^P expansion"
+  ],
+  "next_action": "Parent may publish exact tested tree on a separate fork branch after normal publication gates; no upstream PR submission.",
+  "external_actions_performed": []
+}

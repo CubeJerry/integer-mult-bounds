@@ -1,0 +1,48 @@
+{
+  "commit": "b8b04884ad21ef2d08bdb1642af491e0a47b3e16",
+  "tree": "5789fcac8aeaa61850088cf560b0801ccdf4f600",
+  "sole_parent": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+  "only_additions": 30,
+  "bytes_modes": {
+    "commit": "b8b04884ad21ef2d08bdb1642af491e0a47b3e16",
+    "files": 30,
+    "package": "research/scalar-table-microcontrol",
+    "executable_modes_checked": true
+  },
+  "archive_sha256": "a582e87f272e5a73b61547193ab5a9818debf330f9e6f58a8e2747dffd79fc54",
+  "export_files": 30,
+  "declared_inputs": 6,
+  "registered_log_hash_verified": true,
+  "worker_cold_receipt": {
+    "status": "PASS",
+    "archive": "/workspace/scratch/a365d332d434/microcontrol-b8b04884a.tar",
+    "archive_sha256": "a582e87f272e5a73b61547193ab5a9818debf330f9e6f58a8e2747dffd79fc54",
+    "cold_directory": "/workspace/scratch/a365d332d434/microcontrol-b8b04884a-cold",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "PATH": "",
+    "PYTHONPATH": "",
+    "isolated": true,
+    "runs": [
+      {
+        "check": "author",
+        "exit_code": 0,
+        "output_sha256": "80ff7d67011f15da2317456a2f724861bd032086e753e4b1bcda1fe5bac060fc",
+        "retained_receipt_match": "success marker and recorded counts"
+      },
+      {
+        "check": "model",
+        "exit_code": 0,
+        "output_sha256": "43e913930083acb32bcc6dbe750f5caf99f2a243105c80498e70defc7828a08d",
+        "retained_receipt_match": "all emitted fields"
+      },
+      {
+        "check": "operations",
+        "exit_code": 0,
+        "output_sha256": "df144016d4d0b01e58794ba5acece8b4d29ee1a72e09d799b09062fa180d6964",
+        "retained_receipt_match": "all emitted fields"
+      }
+    ],
+    "packaging_check_correction": "Initial whole-JSON comparison for operational review encountered four metadata-only retained fields; all seven emitted scientific fields agree exactly. No code or proof change and no physical rerun."
+  },
+  "scientific_review_pins_unchanged": true
+}

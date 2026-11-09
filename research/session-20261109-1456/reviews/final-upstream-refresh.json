@@ -1,0 +1,75 @@
+{
+  "utc": "2026-11-09 22:52:51 UTC",
+  "main": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+  "prs": [
+    {
+      "number": 6938,
+      "head": "48f11b95175fcd39bfba0a7ae3fd2f744a7259d1",
+      "state": "open",
+      "updated": "2026-11-09T22:48:01Z"
+    },
+    {
+      "number": 6936,
+      "head": "d360b1182b6d21b1ee2354856abcb50646ad618b",
+      "state": "open",
+      "updated": "2026-11-09T16:47:14Z"
+    },
+    {
+      "number": 6937,
+      "head": "a98df73ddae1d1ea85a62b6bdf2714b28cb7b359",
+      "state": "open",
+      "updated": "2026-11-09T16:18:12Z"
+    },
+    {
+      "number": 4612,
+      "head": "0e0df631da41a1f9ed3489e8df532189c2643cbf",
+      "state": "closed",
+      "updated": "2026-11-09T15:41:39Z"
+    }
+  ],
+  "new_proposal": {
+    "number": 6938,
+    "title": "Expose stale catalogue selection context without changing frozen pickers (no κ)",
+    "head": "48f11b95175fcd39bfba0a7ae3fd2f744a7259d1",
+    "state": "open",
+    "files": [
+      {
+        "path": "AGENTS.md",
+        "status": "modified",
+        "additions": 4,
+        "deletions": 3
+      },
+      {
+        "path": "docs/research/agent-procedure.md",
+        "status": "modified",
+        "additions": 13,
+        "deletions": 5
+      },
+      {
+        "path": "docs/research/priority-selection-context.md",
+        "status": "added",
+        "additions": 134,
+        "deletions": 0
+      },
+      {
+        "path": "scripts/choose_contextual_research_task.py",
+        "status": "added",
+        "additions": 89,
+        "deletions": 0
+      },
+      {
+        "path": "tests/test_research_coordination.py",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "tests/test_research_priority_context.py",
+        "status": "added",
+        "additions": 179,
+        "deletions": 0
+      }
+    ],
+    "assessment": "New open metadata/task-picker proposal; canonical main unchanged. Six-file scope checked against this run; no scientific package overlap or accepted frontier change. Proposal's own tests were not independently replayed."
+  }
+}

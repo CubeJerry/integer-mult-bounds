@@ -1,6 +1,6 @@
 # Reconciled research opportunities
 
-Canonical7c49fe32c55de02c2c873655c804b16e4c3fef0a is unchanged.32 verified
+Canonical7c49fe32c55de02c2c873655c804b16e4c3fef0a is unchanged. 33 verified
 fork contributions are indexed in REVIEW-LINKS.json; none is an upstream PR
 or a new accepted κ. All five exact assumptions remain globally open.
 
@@ -11,7 +11,7 @@ or a new accepted κ. All five exact assumptions remain globally open.
 | Uniform rate for serial per-column monomials | Current implementation has proved mandatory4fV moves and full import/export repetition at3775157. Fixed-cutoff leaves remain valid. | A useful new mechanism must avoid repeated complete-field work or prove a different admissible parameter/volume regime. No general monomial lower bound follows. |
 | Exact division as total rounded service | The implication is false on an allowed approximate return; literal rounded SCALE/ADD/LAMBDA/MOVE contracts now exist. | Install actual source services and prove reached-radius/width/header contracts. Do not claim the countermodel is an observed genuine child output. |
 | Complete caller cost | Partially resolved:8603be6 gives universal compact-ADD lower vector and necessary conditional exchange rate after releasing all old ADD credit. | Supply a numeric common-volume upper conversion and full substituted invoice. Do not add model upper fees to a primitive lower bound and call it runtime lower. |
-| Scalar interpreter to finite machine | Explicit microcontrol construction is under final review; qualitative finite simulation was prior work. | Require literal finite states, exact reject/head behavior, canonical machine model and full setup/state/backing costs. No tariff-unit equality is implied. |
+| Scalar interpreter to finite machine | Resolved for the fixed no-context interface at1a13aa8: same ports/alphabet, explicit finite graph, exact C=A+U, separately paid F; qualitative finite simulation was prior work. | Next: readonly-context and Controller/wrapper interfaces, then complete caller installation. No tariff-unit equality is implied. |
 | QSELF in proposed caller | Bypassed by6179034 without changing the full formal map or paid profile. Restricted three-query optimum at1804146. | Whole physical caller remains. Different boundaries/nonlinear relations are outside the lower theorem. |
 | Literal Reference gap and ideal-compression join | Resolved in their named families at9a07c08 and4509310; source-first error/radius allocation retained. | Do not repeat ideal half-gap or call a single inverse-response fixture an operator-norm computation. Production full prefix remains. |
 | Old catalogue at fine theta | Blocked by962112 under exact old guards, including freed-q regimes. | Replace the policy/caller; precision increases alone do not repair it. No generic prime-existence impossibility is proved. |
@@ -25,13 +25,14 @@ or a new accepted κ. All five exact assumptions remain globally open.
 Main7c49fe is fixed. Latest observed proposed6936 head d360b118 is a direct
 child of tested036261 and changes only a VERIFY timeout; its mathematical
 word bytes are unchanged. Proposed6937 head a98df73 is unchanged.
-The last upstream/PR delta refresh was22:33UTC; both proposals remain open.
+The final upstream/PR delta refresh was22:52:51UTC; both proposals remain open.
+New open #6938 at48f11b9 changes task-picker context/onboarding metadata
+(six-file scope inspected), not these scientific packages or the selected frontier.
+Its own tests were not independently replayed; it is an unaccepted proposal.
 
-The lead owns integration, exact tree/ref publication and final handoff.
-Compiler wave11 owns scalar microcontrol. Two final reviewers have explicitly complementary model/cost and
-operational-edge reviews (micro_model_review and micro_operations_review).
-No new speculative scopes start after22:26UTC; final work is verification,
-packaging, publication and recoverability. Unfinished claims stay unverified.
+All research, complementary reviews and publication are complete. The final
+scalar construction is published at1a13aa8. No new speculative scopes were
+started after22:26UTC, and no background continuation is scheduled.
 
 Earlier source surveys and maps remain under history/. Full completed CRT
 audit with17 pinned inputs is in reviews/wave12-crt-audit/. No placeholder

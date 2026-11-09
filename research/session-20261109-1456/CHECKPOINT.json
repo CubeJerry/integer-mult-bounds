@@ -1,6 +1,6 @@
 {
   "schema": "research-recovery-checkpoint-v2",
-  "status": "final verification only;32 verified fork publications;scalar microcontrol unverified",
+  "status": "completed;33 verified fork publications;no new kappa;no active workers",
   "run_id": "20261109-1456",
   "start_utc": "2026-11-09T14:56:08Z",
   "upstream": "CrocSwap/integer-mult-bounds",
@@ -23,70 +23,179 @@
       "wave": 11,
       "track": "30/53/85",
       "scope": "Same-port scalar execute_table finite microcontrol;no contexts",
-      "status": "unverified construction;no new scope",
+      "status": "completed",
       "output": "/workspace/scratch/a365d332d434/worker-micro-control/research/scalar-table-microcontrol",
-      "next_action": "Finish construction or preserve unverified partial;close graph and C=A+U proof."
+      "next_action": "No active task;see final publication index and scoped remaining obligations.",
+      "commit": "1a13aa8c5b891685ca0c035c898e12da55961b12",
+      "verified_local_commit": "b8b04884ad21ef2d08bdb1642af491e0a47b3e16",
+      "base_sha": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+      "dependency": {
+        "executor": "ab239cb6ee884e7a900dd9101c34448077fad0b0",
+        "exact_scalar": "13193a22b1070a74a8580c5d3ea27470443f815a",
+        "rounded_scalar": "6476455a1cf7cd29d6a2a81c3b6f02fd3a3bbf57"
+      }
     },
     {
       "worker": "micro_model_review",
       "wave": "final review",
       "track": "75",
       "scope": "Canonical model,finite control/setup and clock",
-      "status": "review active;not approval",
-      "output": "/workspace/scratch/a365d332d434/micro-model-review",
-      "next_action": "Review frozen draft;record verdict."
+      "status": "completed",
+      "output": "research/scalar-table-microcontrol/review/micro-model-review at 1a13aa8c5b891685ca0c035c898e12da55961b12",
+      "next_action": "No active task;see final publication index and scoped remaining obligations.",
+      "base_sha": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+      "dependency": {
+        "reviewed_publication": "1a13aa8c5b891685ca0c035c898e12da55961b12",
+        "all_publications": "REVIEW-LINKS.json"
+      }
     },
     {
       "worker": "micro_operations_review",
       "wave": "final review",
       "track": "75",
       "scope": "Independent primitive traces and reject/head endpoints",
-      "status": "review active;not approval",
-      "output": "/workspace/scratch/a365d332d434/micro-operations-review",
-      "next_action": "Compare original trace oracle with compiled graph."
+      "status": "completed",
+      "output": "research/scalar-table-microcontrol/review/micro-operations-review at 1a13aa8c5b891685ca0c035c898e12da55961b12",
+      "next_action": "No active task;see final publication index and scoped remaining obligations.",
+      "base_sha": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+      "dependency": {
+        "reviewed_publication": "1a13aa8c5b891685ca0c035c898e12da55961b12",
+        "all_publications": "REVIEW-LINKS.json"
+      }
     },
     {
       "worker": "lead",
       "wave": "final review",
       "track": "60/75/95",
       "scope": "Critical review,source frontier,publication,recoverability",
-      "status": "32 branches freshly checked",
+      "status": "finalized publication and recovery",
       "output": "research/session-20261109-1456",
-      "next_action": "Verify/dispose microcontrol;freeze final handoff."
+      "next_action": "No active task;see final publication index and scoped remaining obligations.",
+      "base_sha": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+      "dependency": {
+        "reviewed_publication": "1a13aa8c5b891685ca0c035c898e12da55961b12",
+        "all_publications": "REVIEW-LINKS.json"
+      }
     }
   ],
   "facts": [
     "All five globally open;exact statements and scoped progress in ASSUMPTIONS.md.",
-    "All32 remote branch heads freshly rechecked;reviews/final-32-branch-recheck.json.",
+    "All first32 remote branch heads freshly rechecked;publication33 separately checked for exact ref/tree/sole parent. See reviews/final-32-branch-recheck.json and reviews/publication-entry33.json.",
     "Each package has independent review,source pins,evidence,limitations and full published PR description.",
     "No upstream PR created;selected certificate,fork main and unrelated branches untouched.",
     "Large completed or timed-out traces are recorded;do not rerun without a concrete defect.",
     "Raw actions,flat rows,canonical simultaneous steps and invoice tariffs remain distinct.",
     "CRT order audit is resolved/superseded;full sources and result in reviews/wave12-crt-audit.",
-    "Earlier chronological facts and completed worktree paths preserved under history/."
+    "Earlier chronological facts and completed worktree paths preserved under history/.",
+    "Scalar finite-state construction published at1a13aa8;exact C=A+U, fixed ports/alphabet and full setup F;no context/Controller/tariff or global discharge."
   ],
   "blockers": [
     "No supported Discussion mutation connector; claims are recorded in this durable manifest.",
     "No guaranteed unattended ten-hour runtime is exposed; execution proceeds in real bounded stages, without a background-work promise."
   ],
-  "next_action": "Finish complementary scalar microcontrol reviews;publish only verified result or preserve incomplete;final handoff.",
-  "last_checkpoint_utc": "2026-11-09T22:34:02.779801+00:00",
+  "next_action": "User reviews plain compare links and full PR descriptions. No upstream PR submitted and no unscheduled background work continues.",
+  "last_checkpoint_utc": "2026-11-09T22:54:58.600196+00:00",
   "upstream_refresh": {
-    "utc": "2026-11-09T22:33:00Z",
+    "utc": "2026-11-09 22:52:51 UTC",
     "main": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
-    "pr6936": "d360b1182b6d21b1ee2354856abcb50646ad618b",
-    "pr6937": "a98df73ddae1d1ea85a62b6bdf2714b28cb7b359",
-    "status": "Both proposals open;recent4PRs unchanged;no frontier change"
+    "prs": [
+      {
+        "number": 6938,
+        "head": "48f11b95175fcd39bfba0a7ae3fd2f744a7259d1",
+        "state": "open",
+        "updated": "2026-11-09T22:48:01Z"
+      },
+      {
+        "number": 6936,
+        "head": "d360b1182b6d21b1ee2354856abcb50646ad618b",
+        "state": "open",
+        "updated": "2026-11-09T16:47:14Z"
+      },
+      {
+        "number": 6937,
+        "head": "a98df73ddae1d1ea85a62b6bdf2714b28cb7b359",
+        "state": "open",
+        "updated": "2026-11-09T16:18:12Z"
+      },
+      {
+        "number": 4612,
+        "head": "0e0df631da41a1f9ed3489e8df532189c2643cbf",
+        "state": "closed",
+        "updated": "2026-11-09T15:41:39Z"
+      }
+    ],
+    "new_proposal": {
+      "number": 6938,
+      "title": "Expose stale catalogue selection context without changing frozen pickers (no \u03ba)",
+      "head": "48f11b95175fcd39bfba0a7ae3fd2f744a7259d1",
+      "state": "open",
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 3
+        },
+        {
+          "path": "docs/research/agent-procedure.md",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 5
+        },
+        {
+          "path": "docs/research/priority-selection-context.md",
+          "status": "added",
+          "additions": 134,
+          "deletions": 0
+        },
+        {
+          "path": "scripts/choose_contextual_research_task.py",
+          "status": "added",
+          "additions": 89,
+          "deletions": 0
+        },
+        {
+          "path": "tests/test_research_coordination.py",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "path": "tests/test_research_priority_context.py",
+          "status": "added",
+          "additions": 179,
+          "deletions": 0
+        }
+      ],
+      "assessment": "New open metadata/task-picker proposal; canonical main unchanged. Six-file scope checked against this run; no scientific package overlap or accepted frontier change. Proposal's own tests were not independently replayed."
+    }
   },
   "speculative_cutoff_utc": "2026-11-09T22:26:08Z",
-  "verified_publication_count": 32,
-  "publication_index": "REVIEW-LINKS.json",
+  "verified_publication_count": 33,
+  "publication_index": "REVIEW-LINKS.md and REVIEW-LINKS.json",
   "history": "history/after32-CHECKPOINT.json",
   "restart": [
-    "Read CHECKPOINT.json,ASSUMPTIONS.md,OPPORTUNITY-MAP.md,then REVIEW-LINKS.json.",
-    "Public contributions and recovery are durable;local worktrees may disappear.",
-    "history/after32-CHECKPOINT.json preserves detailed chronological provenance.",
-    "Recheck canonical and active proposals before reallocation.",
-    "No new speculation in this run;finish review,publication and handoff."
-  ]
+    "Read this file,ASSUMPTIONS.md,OPPORTUNITY-MAP.md and REVIEW-LINKS.md;JSON index has exact public/local commits and whole trees.",
+    "Public contributions and recovery are durable;local worktrees may disappear. Recreate only required narrow source/dependency checkouts.",
+    "history/after32-CHECKPOINT.json preserves detailed chronology and completed worktree paths.",
+    "Recheck canonical main,selected certificate,active claims and proposed6936/6937/6938 deltas before any fresh allocation.",
+    "Current run is complete. New research must choose a fresh precise obligation from the updated map;do not repeat resolved CRT/order or qualitative finite-control questions."
+  ],
+  "completed_utc": "2026-11-09T22:54:58.600196+00:00",
+  "previous_remote_recovery": "4171184ba61d648ff054cf6eddf7ca5e0149efd4",
+  "outstanding_obligations": [
+    "Complete actual caller exporter/placement and recursive precision/header admission",
+    "Whole dispatcher ownership and summed historical backing",
+    "Complete physical upper bound with consistent volume and tariff units",
+    "Fast production fine-family Fourier prefix/opposite transform and balanced CRT payload",
+    "All five exact selected foundational assumptions remain globally open"
+  ],
+  "selected_record": {
+    "path": "certificates/selected-result.json",
+    "sha256": "9b8d0eea95b3bf0dfcb7938a732a6439b87a2685dec2a5ab9e525b3b34debbfa",
+    "certificate": "certificates/frontier6030/CLAIM.json",
+    "certificate_sha256": "9cee8a1304fa893be3d3b641eda42fdd9b2fd6a5ac2124fb891de7a1a5e8d92e",
+    "review": "docs/research/pr-intake-evidence/pr6030-audit/PROOF-REVIEW.md",
+    "kappa": "781451/250000000"
+  }
 }
