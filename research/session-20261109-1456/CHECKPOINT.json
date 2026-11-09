@@ -1,0 +1,58 @@
+{
+  "schema": "research-recovery-checkpoint-v1",
+  "status": "active; unfinished claims unverified",
+  "run_id": "20261109-1456",
+  "start_utc": "2026-11-09T14:56:08Z",
+  "upstream": "CrocSwap/integer-mult-bounds",
+  "base_sha": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+  "priority_revision": 8,
+  "selected_kappa": "781451/250000000",
+  "selected_assumptions": [
+    "native_all_columns",
+    "owned_erasure",
+    "compiler",
+    "precision_tape",
+    "analytic_recovery"
+  ],
+  "source_repo": "/workspace/scratch/ca8c04ec435b/canonical",
+  "recovery_branch": "research/continuous-20261109-1456-recovery",
+  "wave": 1,
+  "workers": [
+    {
+      "worker": "native_physical",
+      "track": "75/50",
+      "scope": "Current coded positive Gaussian/Fourier native child with source-compatible normalization, widths, phase, cost and cleanup; monomial and Compact work excluded.",
+      "status": "source and novelty audit",
+      "output": "native-w1"
+    },
+    {
+      "worker": "compiler_owned",
+      "track": "60/50",
+      "scope": "Actual finite transition tables for current dyadic ADD/SCALE SERVICE tokens through retained lifecycle execute_table, including signed arithmetic, division/overflow guards and blank scratch return.",
+      "status": "source and coefficient audit",
+      "output": "compiler-w1"
+    },
+    {
+      "worker": "analytic_join",
+      "track": "60/75",
+      "scope": "Actual same-Reference finite Core connected to physical sparse halo: signed-format/grid/radius/normalization/coordinate join and complete cost; prior Core independently audited only.",
+      "status": "full budget and source audit",
+      "output": "analytic-w1"
+    }
+  ],
+  "facts": [
+    "Canonical and fork main both resolve to base_sha.",
+    "Selected application review explicitly admits only a conditional kappa; all five assumptions retained.",
+    "Latest public PR search includes 6934 conditional kappa .00362386; not selected/admitted.",
+    "Local c7e140a5d4f4 packages changed during orientation and are treated as concurrent active work, excluded from new implementation claims.",
+    "Discussion 1163 and newest handoff 1166 read through public web; GitHub connector does not support Discussions. No open sprint issue found.",
+    "Shared selected baseline attempted but unavailable because verify_selected_result.py was sparsely omitted; no baseline success asserted yet."
+  ],
+  "verified_contributions": [],
+  "published_contributions": [],
+  "blockers": [
+    "No supported Discussion mutation connector found; advisory claims kept in this manifest.",
+    "All local-only predecessor work must obtain public frozen pins before dependent publication."
+  ],
+  "next_action": "Complete selected source-binding orientation, freeze distinct task cards, then independent mathematical and implementation checks."
+}
