@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "research/current-coded-gaussian-monomial/verify.py"
+      ],
+      "timeout_seconds": 520,
+      "checks": "Complete normal exact physical replay: signed format, suffix coefficients, two monomial directions, current descriptor, actual selected phase controls, source rejection and full cleanup/retained backing."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "research/current-coded-gaussian-monomial/verify.py"
+      ],
+      "timeout_seconds": 520,
+      "checks": "Complete optimized exact physical replay: signed format, suffix coefficients, two monomial directions, current descriptor, actual selected phase controls, source rejection and full cleanup/retained backing."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "research/current-coded-gaussian-monomial/check_review.py"
+      ],
+      "timeout_seconds": 80,
+      "checks": "Independent normal sparse-hardware exact signed-format review: seven physical calls, three rows, suffix coefficient multiplicity, inverse address phase, allowed signed minima, late rejection/retry, and two injected failures."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "research/current-coded-gaussian-monomial/check_review.py"
+      ],
+      "timeout_seconds": 80,
+      "checks": "Independent optimized sparse-hardware exact signed-format review: seven physical calls, three rows, suffix coefficient multiplicity, inverse address phase, allowed signed minima, late rejection/retry, and two injected failures."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "cases": [
+    {
+      "actions": 10193896,
+      "case": "rho_zero_and_allowed_signed_minima",
+      "headroom_rejected": false,
+      "options": {
+        "extrema": true
+      },
+      "output_sha256": "74ce00634f619491d06ed4f976e302278c17940b061c942803d9f44d5aed5917",
+      "physical_bits": 1536,
+      "records": 32,
+      "work_ports": 1750
+    },
+    {
+      "actions": 42782274,
+      "case": "rho_one_nonpower_rows_and_two_suffix_bits",
+      "headroom_rejected": false,
+      "options": {
+        "residue": 1,
+        "row_count": 3,
+        "tail": 1
+      },
+      "output_sha256": "0b2e524b1cd8c70f6e3bd6ebcf774b58aebdd3dcb3ec42063f81187be431c3e5",
+      "physical_bits": 9216,
+      "records": 192,
+      "work_ports": 1750
+    },
+    {
+      "actions": 20451110,
+      "case": "two_columns_global_phase_and_folded_suffix",
+      "headroom_rejected": false,
+      "options": {
+        "columns": 2,
+        "linear": 1,
+        "spacing": 1,
+        "tail": 1
+      },
+      "output_sha256": "16c90c1dc8c71dc9c1a47f336790ad82d760a4587c6158269c5e8f69fe583c0d",
+      "physical_bits": 3072,
+      "records": 64,
+      "work_ports": 1750
+    },
+    {
+      "actions": 12419077,
+      "case": "inverse_toggle_source_address_phase",
+      "headroom_rejected": false,
+      "options": {
+        "inverse": true,
+        "linear": 1,
+        "toggle": true
+      },
+      "output_sha256": "eb0db717d3998a2894fa92f9ba21205864054dcf61bd86d026950d4963c95a30",
+      "physical_bits": 1536,
+      "records": 32,
+      "work_ports": 1750
+    },
+    {
+      "actions": 10193896,
+      "case": "headroom_baseline",
+      "headroom_rejected": false,
+      "options": {},
+      "output_sha256": "b999a277137d85c034c57f9e8cdac0281008f4e45aacbecaf64c69f861495b01",
+      "physical_bits": 1536,
+      "records": 32,
+      "work_ports": 1750
+    },
+    {
+      "actions": 7832475,
+      "case": "late_folded_field_headroom_rejection",
+      "headroom_rejected": true,
+      "options": {
+        "reject": true
+      },
+      "output_sha256": "d6e98bf5229bf9cb90571017f3bd6e40ca2b6651e8ab0ba21eb98fe66bd37cab",
+      "physical_bits": 1536,
+      "records": 32,
+      "work_ports": 1750
+    },
+    {
+      "actions": 10193896,
+      "case": "valid_retry_after_headroom",
+      "headroom_rejected": false,
+      "options": {},
+      "output_sha256": "b999a277137d85c034c57f9e8cdac0281008f4e45aacbecaf64c69f861495b01",
+      "physical_bits": 1536,
+      "records": 32,
+      "work_ports": 1750
+    }
+  ],
+  "limitation": "No independent old phase/Compact theorem, selected rank-nine execution or faster-rate admission",
+  "negative_controls": [
+    "unconverted_current_rho_changes_physical_endpoint",
+    "discarded_suffix_coefficients_fail_complete_packet"
+  ],
+  "phase_adapter_sha256": "42687d9cd5f8f4a964e2ddd79aa404432ff26f9ebb55e9c069bbba30f0c3044f",
+  "phase_binding_sha256": "7624e2421c4188f7339231263d6d8504bf7eb3acaf91dcfd745952b87a6f1cda",
+  "scope": "Independent current coded-format and suffix/phase join on small rank-one packets",
+  "status": "PASS_INDEPENDENT_CURRENT_PHASE_FORMAT"
+}
