@@ -1,0 +1,15 @@
+{
+  "status": "PASS_LEAD_CUTOFF_TRANSPORT_REVIEW",
+  "literal_table_cases_with_independent_encoder": 24,
+  "bit_length_endpoint_checks": 24576,
+  "commit_gate": {
+    "commit": "c8d13c4a257dcb3bdd102b22b57017ecd6bd3a7d",
+    "files": 197,
+    "package": "research/current-leaf-cutoff-transport",
+    "executable_modes_checked": true
+  },
+  "source_review": "Leaf cutoff only positivity/comparison; numeric parameters and inventory do not consume it. Global row branch excluded.",
+  "proof_review": "Positive-domain equivalence, all-f geometry, both coded-length increments, carry invariant, complete costs and historical backing.",
+  "numeric_reexecution_by_lead": false,
+  "global_producer_claim": false
+}
