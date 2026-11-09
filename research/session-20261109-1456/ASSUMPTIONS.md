@@ -23,3 +23,13 @@ Prepared for @CubeJerry with substantial OpenAI assistance. Credits remain with 
 Four source-bound packages are available at exact commits in REVIEW-LINKS.json. The positive Gaussian PAID leaf and literal scalar SERVICE tables supply concrete physical subinterfaces; the Core/halo bridge replaces the specific test-double boundary by an admitted-source composition; the odd-scalar common-grid proof derives numerical exactness under explicit nonprecision interfaces. None discharges an entire selected assumption.
 
 The next unresolved implications are complete raw MOVE and nested caller binding, remaining two-output arithmetic services, all production Core context admissions (especially empty interiors), and complete root/outer scale and machine-cost composition. The minimum clearing factor and generic Clifford depth method are predecessor results, not new claims. All four packages are independently author-reviewed, not maintainer-admitted frontier changes.
+
+## Verified progress through wave2 and current wave3
+
+The current scalar and two-output flat-table packages together implement all 377,762 arithmetic SERVICE occurrences in the pinned 642,410-event caller. Their all-width mathematical domain contracts are explicit; this is not a complete caller replay, and rejection leaves heads/work dirty even though public contents stay unchanged. Native dispatch and whole chronology remain obligations.
+
+The production-window package gives the exact current 6W carve test and the sufficient guard S>=e(6W+1), L>=12W+2 for every original target window. In the stated conservative family this removes the empty-interior admission. It leaves all analytic coefficient, conditioning, precision and outer recovery obligations.
+
+Atomic MOVE composition has been reviewed algebraically, but the whole4096-record replay timed out. Only completed factor receipts may be reported; the final package must distinguish sliced evidence from uninterrupted execution.
+
+The new #6937 E-free root is prior work, including its finite central-character caller check. Current investigation concerns the remaining QSELF/whole-source all-column interface. For analytic normalization, the canonical full d=Theta(p^(1-10^-30)) bound makes O(d log p)=o(p); an assumed O(p log p) obstruction would be false. The open task is exact actual-state and compensation bookkeeping, including which scales the outer framework already includes.
