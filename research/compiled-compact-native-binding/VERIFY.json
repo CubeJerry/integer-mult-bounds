@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "research/compiled-compact-native-binding/verify.py"
+      ],
+      "timeout_seconds": 580,
+      "checks": "Complete normal exact receipt: actual Compact both source orders, f=1, encoded geometry, 83 authenticated exports, adverse controls, source binding, cleanup and retained-backing reuse."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "research/compiled-compact-native-binding/verify.py"
+      ],
+      "timeout_seconds": 580,
+      "checks": "Complete optimized exact receipt: actual Compact both source orders, f=1, encoded geometry, 83 authenticated exports, adverse controls, source binding, cleanup and retained-backing reuse."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "research/compiled-compact-native-binding/check_review.py"
+      ],
+      "timeout_seconds": 20,
+      "checks": "Independent normal sparse-hardware codec and local guards: 8232 triples, 32 blank extensions and seven negative controls; no predecessor theorem admission."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "research/compiled-compact-native-binding/check_review.py"
+      ],
+      "timeout_seconds": 20,
+      "checks": "Independent optimized sparse-hardware codec and local guards: 8232 triples, 32 blank extensions and seven negative controls; no predecessor theorem admission."
+    }
+  ]
+}
