@@ -1,4 +1,4 @@
-# Opportunity map after eight published packages
+# Opportunity map after ten published packages
 
 Canonical base: `7c49fe32c55de02c2c873655c804b16e4c3fef0a`. Updated 2026-11-09 during wave 3. These classifications record the checked sources and exact scope; they do not imply maintainer admission or exhaustive literature coverage. All five selected assumptions remain open.
 
@@ -21,7 +21,7 @@ Canonical base: `7c49fe32c55de02c2c873655c804b16e4c3fef0a`. Updated 2026-11-09 d
 
 The complete native leaf/monomial joins retain source access, format conversion, fixed setup, historical backing, all ordinary children and failed execution costs. Minimal fixtures have poor long-record amortization and do not estimate the asymptotic tariff. Conversely a favorable asymptotic tariff under its stated root/long-record premises does not certify a completed current provider. The source/tree checks and finite arithmetic receipts are independently reviewable evidence, not a replacement for those universal interface obligations.
 
-No result in this run changes the selected certificate or proves an unconditional multiplication bound. The eight reviewed contributions and their exact remote/local trees are in REVIEW-LINKS.json; active unverified work is in CHECKPOINT.json. Prepared for @CubeJerry with substantial OpenAI assistance; all named predecessor results retain their authors' credit.
+No result in this run changes the selected certificate or proves an unconditional multiplication bound. The ten reviewed contributions and their exact remote/local trees are in REVIEW-LINKS.json; active unverified work is in CHECKPOINT.json. Prepared for @CubeJerry with substantial OpenAI assistance; all named predecessor results retain their authors' credit.
 
 ## Latest results and active changes
 
@@ -35,3 +35,10 @@ No result in this run changes the selected certificate or proves an unconditiona
 - Direct ordinary-free monomial fallback (lead investigation, unverified): repeat actual f=1 service on descriptors fprime=1, Kprime=fK, rhoprime=jK+rho, selected_axes=m. Full f-times work/setup/history must fit the direct leaf budget; no faster nonleaf tariff claim. #4172 already proves source history coupling and the zero-ordinary f=1 branch, which will be credited.
 - E-free lowering: new shipped formal 18-D/76-input certificate, backward dyadic certificate and fused owned-bank source invoice. The source construction belongs to #6937; no new kappa or unconditional theorem.
 - Remaining diagonal: source-specific coefficient stock and exact engine join, including one-ulp upper-endpoint quantization and an explicit no-separation argument. Generic scalar multiplication/cache schedules are already prior work.
+
+## Tenth publication and next actual admission
+
+- E-free caller certificate is published4e2fd1b6abed49c202a057fd5c73ead0a460f976. Relative typed lowering is proved; token registry/header export is expressly open.
+- Remaining diagonal is publishedb00d64b6204e83d468dde2db7480a2822e6940aa. Its actual q-grid service fits the source group ledger, conditional on explicit reference/radius/route contracts.
+- Literal narrow-gap admission is now the analytic target. #4648 already proves ideal half-gap and a generic rounding budget; the new question is whether actual for_cap allocation automatically pays its own rounding loss. Candidate inequality is UNVERIFIED.
+- Direct serial monomial has completed smaller actual forward/inverse and history tests, plus a real batched/serial acceptance-domain counterexample. Source proof, gates and independent review remain active.
