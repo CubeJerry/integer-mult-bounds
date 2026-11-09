@@ -1,6 +1,6 @@
 # Current research opportunities and exclusions
 
-Updated after twenty-five verified publications. Main remains pinned to
+Updated after twenty-eight verified publications. Main remains pinned to
 `7c49fe32c55de02c2c873655c804b16e4c3fef0a`; open #6936/#6937 proposals have
 not changed the accepted selected certificate. See `ASSUMPTIONS.md` for
 exact five statements and `REVIEW-LINKS.json` for verified source packages.
@@ -23,9 +23,9 @@ All previous map text is retained under `history/`, not treated as current.
 
 ## Allocation and integration policy
 
-Native wave7 owns final-only rounded complete selected-source MOVE; compiler
-wave9 owns actual global LAMBDA; analytic wave10 owns current source-first
-end-grid/recovery admission, excluding previously solved ideal identities. The lead
+Native wave8 owns proposed #6936 source binding; compiler wave10 owns a
+quantitative tariff-conversion audit and mandatory-pass bill; analytic wave11
+owns original-q complete extraction, after checking predecessor overlap. The lead
 owns cross-review, current state, full-cost/model compatibility and publication.
 No task is considered independent solely because its track seed differs.
 
@@ -62,3 +62,13 @@ be advertised as a fast fine-family Fourier caller.
 
 New speculative work stops at22:26UTC if the supported run reaches that point;
 verification, recoverability and publication retain the final quarter.
+
+## 21:38 UTC resolved interfaces and remaining obligations
+
+| Question | Updated status | Next action |
+| --- | --- | --- |
+| Complete selected-source rounded MOVE | Locally proved and published e573186; final-only rounding and expanded-domain/cost proof. No new whole numeric trace. | New #6936 source binder is a distinct active task, not inherited catalogue membership. |
+| Proposed-source global LAMBDA | Locally proved and published591394d; all-column phase-zero Q² route and one-rounded Gaussian table. | Actual outer exporter, complete caller stock and physical tariff remain. |
+| Normalized Gaussian scalar recovery | Conditional source-interface theorem and actual native endpoints at1ab10aa; q+3/q+2 and3Gamma mismatches repaired. | Actual original-q extraction, CRT/carry, production controllers and fast full cost remain. |
+| Tariff units versus literal tape cost | Source already explicitly leaves the conversion/model substitution open. | New quantitative all-zero mandatory-pass lower bill pending. Do not publish the old warning as new or infer a cap obstruction without conversion. |
+| Full original-q extraction | Unresolved current integration prerequisite; predecessor audit active. | Seek exact compact-S return from full paddedT using encoded metadata and honest full scan costs; no host coordinate-list runtime. |

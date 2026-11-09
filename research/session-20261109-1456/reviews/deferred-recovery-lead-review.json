@@ -1,0 +1,71 @@
+{
+  "status": "independent budget and scalar endpoint checks passed",
+  "mathematics": {
+    "cases": 180,
+    "group_budget_cases": 720,
+    "target_order_cases": 2880,
+    "negative_controls": [
+      "missing compression target increase",
+      "underfunded restored product grid"
+    ]
+  },
+  "native_endpoints": [
+    {
+      "S": 1,
+      "b": 1,
+      "Gamma": 0,
+      "q": 8,
+      "W": 18,
+      "recovered": [
+        32
+      ],
+      "scalar_calls": {
+        "base": 16,
+        "fft": 0
+      }
+    },
+    {
+      "S": 3,
+      "b": 2,
+      "Gamma": 1,
+      "q": 13,
+      "W": 30,
+      "recovered": [
+        9216,
+        -9216,
+        7
+      ],
+      "scalar_calls": {
+        "base": 48,
+        "fft": 0
+      }
+    },
+    {
+      "S": 7,
+      "b": 3,
+      "Gamma": 5,
+      "q": 27,
+      "W": 60,
+      "recovered": [
+        822083584,
+        -822083584,
+        37,
+        -37,
+        12,
+        -12,
+        0
+      ],
+      "scalar_calls": {
+        "base": 112,
+        "fft": 0
+      }
+    }
+  ],
+  "production_transforms_executed": false,
+  "extraction_or_CRT_executed": false,
+  "reviewed_files": {
+    "PROOF.md": "870fcf901001aad2b6380f57ce3ba38f31da0bd3bd36abac933a180d29f48db6",
+    "deferred_tail.py": "75caace20996afaabb3a102f76367eee2ff4a9bd250a3c59b31812c1edb6349f",
+    "allocation.py": "fc484ef865ad9092f5210b1f2701e4f6baa05b2d293a9e88e76e62dcc734be5f"
+  }
+}
