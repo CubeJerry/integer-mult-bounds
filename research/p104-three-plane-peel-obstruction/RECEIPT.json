@@ -1,0 +1,131 @@
+{
+  "source_gzip_sha256": "ab5c1c05383a8d3a84995f1a8368e08173e776608d635ff06871651d9e494590",
+  "source_events": 38334,
+  "core_range": [
+    11947,
+    25871
+  ],
+  "method": "Reverse scalar functionals, inverse-row composition, direct minor ranks; no producer imports",
+  "independent_census": {
+    "input_helpers": 363,
+    "output_helpers": 295,
+    "pairs": 984
+  },
+  "inverse_rows_checked": [
+    47,
+    819,
+    793,
+    1202
+  ],
+  "mutated_inverse_rows_rejected": [
+    47,
+    819,
+    793,
+    1202
+  ],
+  "residual_cases": [
+    {
+      "q": 268,
+      "h": 793,
+      "g": 1352,
+      "forward": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "inverse": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "1/2"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "actual_ranks": [
+        1,
+        1
+      ],
+      "forward_target_ranks": [
+        2,
+        1
+      ],
+      "reverse_target_ranks": [
+        1,
+        2
+      ]
+    },
+    {
+      "q": 268,
+      "h": 1202,
+      "g": 1352,
+      "forward": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "inverse": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "1/2"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "actual_ranks": [
+        1,
+        1
+      ],
+      "forward_target_ranks": [
+        2,
+        1
+      ],
+      "reverse_target_ranks": [
+        1,
+        2
+      ]
+    }
+  ],
+  "scope": "Independent two-block obstruction and finite family size. Nonresidual zero-block witnesses remain author checks, supported by separately reviewed rank-invariance proof."
+}

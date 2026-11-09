@@ -1,0 +1,58 @@
+{
+  "utc": "2026-11-09T02:56:37.122050+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "-I",
+        "-B",
+        "research/p104-three-plane-peel-obstruction/check.py",
+        "--write-result"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.481,
+      "stdout": "PASS_P104_THREE_PLANE_ENDPOINT_PEEL_OBSTRUCTION\n984 helper pairs excluded; 104 source two-plane controls; 1375 exact inverse rows; two exact residual inverse blocks of rank1.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-I",
+        "-O",
+        "-B",
+        "research/p104-three-plane-peel-obstruction/check.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.831,
+      "stdout": "PASS_P104_THREE_PLANE_ENDPOINT_PEEL_OBSTRUCTION\n984 helper pairs excluded; 104 source two-plane controls; 1375 exact inverse rows; two exact residual inverse blocks of rank1.\n",
+      "stderr": ""
+    }
+  ],
+  "source_hashes": {
+    "check.py": "c99751591c8e71c64056131adb344e5532face3288cec207736e8c042aafbfb7",
+    "README.md": "c02eda5d4fd2300fe0f59c3fc552b02e785ccb7e4c4edc19ad9e531173fd124c",
+    "THEOREM.md": "69b0e5e2f97c3087ba5404a638fe0a7fefd7b610be24353d85fc15319876323e",
+    "SOURCES.json": "f3802794b06052712613e12131465b4e3330ed23da7647f3cc30e4f9f0a1d752",
+    "RESULT.json": "2e102669b40814e23ea49e643be2b6f075737c5ea50a5b4113755007ed6b36e5",
+    "data/word.json.gz": "ab5c1c05383a8d3a84995f1a8368e08173e776608d635ff06871651d9e494590"
+  },
+  "documentation_note": "After replay, prose clarified that a nonzero independent scalar coefficient has the same rank obstruction; executable proof and input bytes did not change.",
+  "independent_review_files": {
+    "review.py": "a5c453d84e606f204c1fb38b60cf7ef9f187ba2a0caa9a70b60092b65830eb80",
+    "RECEIPT.json": "e8447127bab61efa0b6170508d9d9d42fe6aec749f647f6c9c732153e7ef44d4",
+    "REVIEW.md": "eb89a83faf036aa2426b894e735218407767e5e15c15945730dec9829177c0f2"
+  },
+  "registered_gate": {
+    "command": [
+      "python3",
+      "-B",
+      "scripts/research_package.py",
+      "--package",
+      "research/p104-three-plane-peel-obstruction"
+    ],
+    "exit_code": 0,
+    "expected": "PASS_REGISTERED_RESEARCH_PACKAGE",
+    "coverage": "normal and optimized author replay plus normal and optimized separate reverse-functional reviewer"
+  }
+}

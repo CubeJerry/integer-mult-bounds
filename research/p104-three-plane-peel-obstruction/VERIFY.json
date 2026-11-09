@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/check.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Exact rational native endpoint, full core inverse product, exhaustive984-pair inventory, exact forbidden blocks and residual inverse obstructions; positive and negative controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/check.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Same exact proof checks with optimization enabled; no Python assertions."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/review.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Separate reverse-functional oracle, exact inverse-row composition, direct minors, independent363/295/984 inventory and four corrupt-inverse controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/review.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Separate reverse-functional oracle, exact inverse-row composition, direct minors, independent363/295/984 inventory and four corrupt-inverse controls."
+    }
+  ]
+}
