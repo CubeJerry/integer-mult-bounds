@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Source ownership/job signature, charged strictification and actual153 cap."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Source ownership/job signature, charged strictification and actual153 cap. Optimized Python."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/audit.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Separate reverse endpoint, polynomial caller, literal flow and rational-log checks."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-O",
+        "-B",
+        "{package}/audit.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Separate reverse endpoint, polynomial caller, literal flow and rational-log checks. Optimized Python."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/bit-audit/audit.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Separate BIT integral/binary endpoints, actual134 cap, complete invoice/tail, frozen source replay and two completed backend steps."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-O",
+        "-B",
+        "{package}/bit-audit/audit.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Separate BIT integral/binary endpoints, actual134 cap, complete invoice/tail, frozen source replay and two completed backend steps. Optimized Python."
+    }
+  ]
+}
