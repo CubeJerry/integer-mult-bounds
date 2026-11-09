@@ -1,1 +1,1 @@
-UNVERIFIED RECOVERY SNAPSHOT. Not a reviewed contribution. Independent proof review, negative controls and package gates pending. Exact sources and limitations are in PROOF.md. Do not open a PR for this checkpoint.
+Historical UNVERIFIED snapshot, superseded by independently reviewed published package e45e844303e04947cf6591fb46b43bf8a7bc5356. Keep for recovery history only. Do not open a PR for this checkpoint.

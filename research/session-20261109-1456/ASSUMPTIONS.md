@@ -17,3 +17,9 @@ Native algebra and owned semantics support the compiled supplier. Physical nativ
 Open PRs and local packages are research claims pending independent review unless their exact scope has separately been validated. A merge is archival evidence, not automatic mathematical admission. A counterexample to an overstrong local interface need not refute the selected conditional theorem.
 
 Prepared for @CubeJerry with substantial OpenAI assistance. Credits remain with all pinned predecessor authors. No new kappa.
+
+## Verified progress through wave1
+
+Four source-bound packages are available at exact commits in REVIEW-LINKS.json. The positive Gaussian PAID leaf and literal scalar SERVICE tables supply concrete physical subinterfaces; the Core/halo bridge replaces the specific test-double boundary by an admitted-source composition; the odd-scalar common-grid proof derives numerical exactness under explicit nonprecision interfaces. None discharges an entire selected assumption.
+
+The next unresolved implications are complete raw MOVE and nested caller binding, remaining two-output arithmetic services, all production Core context admissions (especially empty interiors), and complete root/outer scale and machine-cost composition. The minimum clearing factor and generic Clifford depth method are predecessor results, not new claims. All four packages are independently author-reviewed, not maintainer-admitted frontier changes.
