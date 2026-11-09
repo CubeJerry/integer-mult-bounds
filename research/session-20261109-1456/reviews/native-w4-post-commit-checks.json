@@ -1,0 +1,31 @@
+{
+  "archive_sha256": "3bf33c18e825af6ec8f5ece977e21afb5107553e5fd06fbcbd21c1d2883fb557",
+  "cold": [
+    {
+      "command": "verify.py",
+      "exit_code": 0,
+      "seconds": 2.199,
+      "stderr": "",
+      "stdout": "PASS_CURRENT_DIRECT_SOURCE_MOVE {\"concrete_ports\": 4235, \"model_return_cases\": 16, \"numeric_whole_replay\": false, \"source_occurrences\": 3453}\n"
+    },
+    {
+      "command": "check_evidence.py",
+      "exit_code": 0,
+      "seconds": 0.686,
+      "stderr": "",
+      "stdout": "PASS_CURRENT_DIRECT_MOVE_EVIDENCE {\"final_complete\": true, \"first_timeout_preserved\": true, \"numeric_reexecution\": false, \"validated_final_boundaries\": 4}\n"
+    }
+  ],
+  "commit": "38b134c93551e1bb2b2ac34db422205e6127c006",
+  "committed_bytes_modes": "PASS_RESEARCH_COMMIT_BYTES:215",
+  "export_inputs": "PASS_RESEARCH_EXPORT:215",
+  "final_worktree_clean": true,
+  "source_critical_hashes": {
+    "check_move.py": "7f84589ae4dc6beee1e462c7bbeb05acbcb87c46f21b1f0a6790916e9fcba0f0",
+    "check_protection.py": "8585da3fd8f610e00a4ea92cb17e3c91e424dcf089036503628fa115d0a660a1",
+    "direct_move.py": "24c86d593b8406f2a2a4c0b0d2ceb38d4360f3823a911f02141d2d8231e0eb90",
+    "direct_sources.py": "ba2dd99a050b20206f64ee7e6a9ff0c72d3020498f65193ffc02883e229f9648",
+    "verify.py": "5942956d7c47f34ea23698dbc89ca63bd9a370822fa59573ca7285a386d73f0f"
+  },
+  "tree": "ea80e30723272090570055ad281626e91047f0f3"
+}
