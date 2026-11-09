@@ -1,0 +1,24 @@
+{
+  "bounded": {
+    "normal": "python3 -I -B -X pycache_prefix=FRESH research/physical-union-router/verify.py --write-result",
+    "normal_optimized_result_equal": true,
+    "normal_receipt_postcheck": "After a tuple/list-only canonicalization correction, verify_carve.py and both independent review scripts passed separately in normal and optimized mode; all final checks are included in the optimized bounded run.",
+    "normal_result_sha256": "833ebbf0797cffa09a62ba8a90ac2b21945535b5ef280bb1574d1cdea3c79f72",
+    "optimized": "python3 -I -O -B -X pycache_prefix=FRESH research/physical-union-router/verify.py",
+    "optimized_result_sha256": "833ebbf0797cffa09a62ba8a90ac2b21945535b5ef280bb1574d1cdea3c79f72"
+  },
+  "environment": {
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+  },
+  "extended": {
+    "admission_sha256": "504499cac08a22f5582f7c6b20d8a0a1503639a38fee26b7149e2c442532a10a",
+    "command": "python3 -B research/physical-union-router/verify_source.py --case sparse8 --write-result",
+    "optimized_extended_run": "not run; bounded normal/optimized plus one complete larger source join suffices for the identified risks",
+    "receipt_sha256": "6712d5fc79b15633c7a84cc0a4461f24f777327d81da642095a273353ed9e702",
+    "status": "PASS_SOURCE_BOUND_WHOLE_PHYSICAL_UNION"
+  },
+  "metadata": "PASS_PACKAGE_METADATA_AND_PINS; exact canonical objects authenticated centrally",
+  "no_new_kappa": true,
+  "status": "PASS_NORMAL_AND_OPTIMIZED_WHOLE_UNION"
+}

@@ -1,0 +1,58 @@
+{
+  "independent_review_cases": 7,
+  "independent_review_marker": "PASS_ROOT_FLAT_INDEX_UNION_REVIEW",
+  "long_replay": "verify_source.py --case sparse8; excluded from the bounded generic hook",
+  "marker": "PASS_PHYSICAL_WHOLE_UNION_PACKAGE",
+  "no_new_kappa": true,
+  "numerical_admission": {
+    "admitted_current_radius": true,
+    "carrier_bound": true,
+    "local_error_target": true,
+    "matrix_calls": 16,
+    "scalar_products": 784,
+    "substream_lines": [
+      4,
+      4
+    ]
+  },
+  "numerical_case": "admitted4",
+  "numerical_marker": "PASS_SOURCE_BOUND_WHOLE_PHYSICAL_UNION",
+  "numerical_transport": {
+    "actions": [
+      139804804,
+      44403113,
+      130670210
+    ],
+    "consume_actions": [
+      8238,
+      4058,
+      8120
+    ],
+    "dense_records": 16,
+    "output_bits": 4057,
+    "output_sha256": "c9e533bca0d82b2ff322ecd7a8da800ea7b77b20b182afd7ff97acc5270c1efd",
+    "owned_roles": 3079,
+    "pool_peak": 32,
+    "retained_cells": 47910,
+    "rounds": 2,
+    "scalar_products": 784,
+    "substreams": 2,
+    "visits": 32
+  },
+  "rejection_controls": [
+    "changed_return_header",
+    "different_complete_context",
+    "duplicate_exposed_coordinate",
+    "failure_after_completed_substream",
+    "nonbinary_dense_payload",
+    "noncanonical_second_count",
+    "truncated_dense_word",
+    "truncated_page_bank",
+    "wrong_nondyadic_chunk",
+    "wrong_source_mask_count"
+  ],
+  "source_carve_cases": 2,
+  "source_carve_marker": "PASS_CANONICAL_CARVE_SOURCE_PROVENANCE",
+  "transport_cases": 8,
+  "transport_marker": "PASS_LITERAL_WHOLE_UNION_TRANSPORT"
+}
