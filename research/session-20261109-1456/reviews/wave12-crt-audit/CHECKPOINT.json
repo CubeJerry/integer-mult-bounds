@@ -1,0 +1,31 @@
+{
+  "wave": 12,
+  "track": "50/60 analytic_recovery",
+  "status": "completed read-only audit; resolved/superseded verdict",
+  "base": "7c49fe32c55de02c2c873655c804b16e4c3fef0a",
+  "consumer": "1ab10aa78c4b27345c76806d1d32c7b9de481219",
+  "checkpoint": "/workspace/scratch/a365d332d434/wave12-crt-audit",
+  "new_worktree": false,
+  "new_publication": false,
+  "source_files": 17,
+  "oracle_records": 1205,
+  "normal_optimized_identical": true,
+  "native_execution": false,
+  "main_findings": [
+    "Canonical intended axis-zero-fastest CRT/carry order already documented and charged",
+    "Older literal Converter.inverse expects final-axis-fastest compact order: ordinal1 s=(3,5) goes to3 rather than10",
+    "Old D literal shears write at least2*D*T*W bits, so even free layout repair cannot admit it at the fine-family target",
+    "Existing carry returns2*Ndigits*b bits; source n-bit output needs paid leading-zero trim to2*n"
+  ],
+  "remaining": "Actual fast balanced CRT payload caller and complete source/primitive/ownership admissions; not another abstract identity or old triangular route",
+  "reproduction": [
+    "python -B /workspace/scratch/a365d332d434/wave12-crt-audit/audit.py",
+    "python -O -B /workspace/scratch/a365d332d434/wave12-crt-audit/audit.py"
+  ],
+  "sha256": {
+    "README.md": "1e77e89cd611b0dee77cda70c36a3d77fc13d618da8ba5091f4e4b6b45480e95",
+    "audit.py": "97a4b789fe15e4e6671a43671ea6f063f1bbbf697d8c48f9862ab395f18c1a05",
+    "SOURCES.json": "e943cd4f1003d797adfd4cd2420f5eba031d3f8db5df6cb0e2b1c69c47c436ed",
+    "RESULT.json": "0871d841333ba1fede32161560559f41d50f05060d84f11d43015f1c37dbd9a8"
+  }
+}

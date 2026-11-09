@@ -71,3 +71,34 @@ remain open. The tariff conversion audit and original-q extraction are in
 final cross-review; extraction now explicitly charges historical borrowed
 capacity. Fresh analytic wave12 checks the exact CRT/carry order boundary
 and prior coverage; no generic CRT result or full-sort route is presumed new.
+
+## 22:06 UTC extraction result
+
+Exact full original-q extraction is now published5355dd7. It preserves
+the q+3 carrier and grid on a full T scan using fixed native Count stock.
+TimeO(n_addr^3+log(q+1)+T(q+n_addr)); backing explicitly includes complete
+H_borrowed history. The simplified fine-family O(Tp0) storage requires
+bounded-history admission. Production transforms, original-coordinate
+delivery, exact descriptor binding and CRT/carry remain. Wave12 audits
+the existing CRT layout/cost interface; native wave9 audits an actual
+serial-provider pass lower bound. New speculation still stops22:26UTC.
+
+## 22:19 UTC tariff and CRT findings
+
+Tariff audit8603be6 proves a mandatory literal ADD vector and exact
+source-weighted necessary conversion; inherited model fees are not runtime
+lower bounds. Canonical balanced CRT already resolves the intended order.
+Its older concrete Converter has a different layout and2DTW mandatory shear
+writes, as anticipated by the source. The actual fast balanced payload
+caller remains open. Explicit scalar microcontrol is under complementary
+model and operational reviews; serial-pass lower theorem is frozen.
+
+## 22:22 UTC serial provider exclusion
+
+Published3775157 proves a mandatory four-pass-per-column implementation
+lower bound, with an explicit unbounded local d=9f family and comparable
+complete physical/raw volumes. This prevents a uniform sublinear-d tariff
+for that implementation only on a producer-admitted comparable family.
+It does not refute fixed-cutoff direct leaves. Simultaneous TM clocks
+require their own fixed-factor mapping. The remaining fresh construction
+is finite scalar-table microcontrol;two complementary reviews are active.
