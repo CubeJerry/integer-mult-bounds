@@ -10,4 +10,6 @@ Publish each independently verified package on its own CubeJerry branch. Check r
 
 ## Latest verified outputs
 
-Three wave-1 packages are independently recoverable on the branches in REVIEW-LINKS.json. All five assumptions and selected kappa remain unchanged. New work continues in three wave-2 worktrees; their scope and unresolved source boundaries are in CHECKPOINT.json. The review links use verified compare pages with full Markdown descriptions in each package; authenticated prefill was not observable in the signed-out browser.
+Four packages are independently recoverable on the branches in REVIEW-LINKS.json: primitive wrapper, whole-tree CRT state, stratified reserves and coded whole-row services. All five assumptions and selected kappa remain unchanged. The two remaining Wave2 author freezes have exact recovery patches under UNVERIFIED; independent review and the node-entry control/linear-use corrections remain unfinished. Their scopes and next actions are in CHECKPOINT.json. New source/overlap audits may proceed after review obligations; follow-on implementations require an exact scope and cost budget.
+
+Review links use verified compare pages with complete Markdown descriptions in each package; authenticated prefill was not observable. Recovery preserves work, not review acceptance.

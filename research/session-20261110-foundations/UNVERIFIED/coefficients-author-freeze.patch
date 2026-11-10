@@ -1,0 +1,2237 @@
+diff --git a/research/fixed-dimension-bit-coefficients/CHECKPOINT.md b/research/fixed-dimension-bit-coefficients/CHECKPOINT.md
+new file mode 100644
+index 00000000..bdd0b417
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/CHECKPOINT.md
+@@ -0,0 +1,63 @@
++# Local recovery trail and author verification checkpoint
++
++Base: e54523517d0f03e58352e647c403a5af3e525a57.
++Branch: research/continuous-20261110-bit-history.
++Package: research/fixed-dimension-bit-coefficients.
++Initial WIP commit: aaca699b. It was explicitly unverified and not offered for
++publication. The later author checkpoint below supersedes its draft status;
++no selected result is updated, and independent review is a separate gate.
++
++Implemented: 17 authenticated specialization sites over the four #6903
++encoded numerical modules; one exclusive four-tape continuation Workspace;
++explicit source-arena/record historical bounds; separate small-block modular
++oracle and pre-guard demand observer.
++
++Executed coverage before this checkpoint:
++
++* N=2,w=1,depth 0: exact coefficient 2; residue/index pending 28/11.
++* N=3,w=2,descriptor GUPG: coefficient 8; pending 59/18.
++* N=65,w=2,depth 0: coefficient 8; all 4,225 field digits read; pending 16,912/11.
++* N=130,w=1,depth 0: coefficient 2; target row 129 crosses the historical
++  multiplier cap; all 16,900 field digits read; pending 67,612/11.
++* Earlier exploratory controls rejected insufficient capacity, a wrong global
++  field code and a truncated field. A GUPG call repeated four times used the
++  same four continuation Tape identities and retained erased backing.
++
++At the initial WIP checkpoint the proof was a draft. Missing then:
++the final registered verifier/receipt, full boundary-control suite, complete
++package metadata/attribution/overlap report and independent review. The
++selected source label generation, root-size map, literal table lowering and
++changing-precision physical bank are explicitly outside the proved seam.
++
++Reproduce one current positive fixture:
++
++    python3 -B research/fixed-dimension-bit-coefficients/check_consumer.py
++
++Next command after completing the verifier:
++
++    python3 -B scripts/research_package.py --package research/fixed-dimension-bit-coefficients
++
++The initial scaffold verify.py intentionally exited DRAFT. That scaffold is
++now replaced by the actual read-only verifier.
++
++## Author verification completed after the WIP
++
++The final registered normal/optimized replay passed fourteen positive cases,
++ten runtime controls and the isolated Git-free three-corruption suite. The
++typed mathematical receipt digest is
++`afd86ba5470b877b6cad58a86fe26a58d98bb7e81129be4f1db47fd1a285a39a`.
++Exact executed commands and limitations are in VALIDATION.md. Added tests
++include N=44/rank43, a halved Unit, a dead earlier global-code mismatch,
++full warm erased slots and normal exclusive Workspace reuse.
++
++The supported entry is Workspace.open. The untouched legacy selected_offset
++wrapper does not pass borrowed stack roles and is outside the contract.
++Scientific proof and implementation are frozen for independent review; only
++explicitly reported review fixes should change them. Root coordinates review,
++publication and a separate durable recovery-branch snapshot. No push or PR
++creation is performed by this worker.
++
++Next action: integrate the independent review if it passes, rerun affected
++registered checks and the committed-byte preflight, then let the root publish
++the verified package. In parallel this worker cross-reviews the separate
++encoded-balanced-crt-entry package under the root's Wave-2 assignment.
+diff --git a/research/fixed-dimension-bit-coefficients/NOTICE.md b/research/fixed-dimension-bit-coefficients/NOTICE.md
+new file mode 100644
+index 00000000..69ea3212
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/NOTICE.md
+@@ -0,0 +1,31 @@
++# Attribution and inherited scope
++
++New explicit dimension specialization, fixed continuation Workspace, scoped
++source-arena proof, exact checks and package: prepared for @CubeJerry with
++substantial OpenAI Codex assistance. New material is Apache-2.0. A source-aware
++AI cross-review is separate from the author checks; no independent human or
++formal-kernel acceptance is implied.
++
++Jose Manuel (@jmbarrancoml) supplied the binary word arithmetic, matrix
++preparation, records and Good/Pair/Unit evaluator retained through #2697/#2809
++and copied in #6903. This package authenticates and specializes those live
++canonical files, preserving their comments. The complete retained source
++notice is pinned at
++`research/delayed-cover-chronological-fields/numerical/NOTICE.md`; its parent
++NOTICE.md is also pinned. Their source527, commdata2338, Ross Richardson,
++Douglas Colkitt/OpenAI, and earlier word/hosting credits remain applicable.
++
++Ross Richardson's #2835 supplies the first-failed-allocation proof method and
++the credited primitive effects, following Nick Petalas's #2759/#2770/#2778/
++#2781 and Arham Tahir's #2796 lifetime results. No new sharp N=64 inventory is
++claimed. #5404 supplies the distinction between current live arrays and
++retained backing. #6896 proves a separate actual recursive N=64 numerical
++capacity theorem, and #6879 a source-specific ordinary helper space theorem.
++
++The chronological field producer is credited to #6903, Ali Romman's #5829
++whole-high geometry, thu-nmrc's #6719 physical recursion and David Arias's
++#2776 machine lineage. This package preserves the entire format and original
++source labels; it does not claim to have executed its new numerical consumer
++inside that producer's literal ready port. The completed current BIT base
++remains the query-thinned `.0034` lineage, with its actual source generation
++and five foundational assumptions retained.
+diff --git a/research/fixed-dimension-bit-coefficients/OVERLAP.md b/research/fixed-dimension-bit-coefficients/OVERLAP.md
+new file mode 100644
+index 00000000..cc3b0712
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/OVERLAP.md
+@@ -0,0 +1,36 @@
++# Scope, overlap and source selection
++
++Scientific base: e54523517d0f03e58352e647c403a5af3e525a57. The orchestrator
++supplied the canonical selected state, live PR snapshots and nonoverlapping
++assignment. The first wave's stratified reserve theorem remains a separate
++package; this package does not import it as an established selected layout.
++
++| Predecessor | Established scope retained here | What this package adds |
++| --- | --- | --- |
++| #6903, delayed-cover-chronological-fields | Generic-N literal field producer; full chronological labels; N=64 numerical join only | Concrete arbitrary-fixed-N specialization of its retained numerical consumer and four-tape reentry contract |
++| #2835, selected-coefficient-capacity-prefix | N=64 closed coefficient pending-demand proof, including warm histories and first failed allocation | Source-site conservative N-parametric demand for the new specialization; no sharp old constant claimed |
++| #6896, recursive-physical-capacity-prefix | Fixed N=64 source numerical inventory across actual recursive cuts | No whole-recursion replacement; keeps actual varying-precision and all historical caller records outside the local theorem |
++| #6879, ordinary-bit-retained-space | Source-bound retained ordinary helper with its local domain | Addresses a concrete coefficient component it leaves open; does not identify that helper with the current `.0034` base |
++| #5404, continuation-retained-backing | Separate historical maxima and concrete continuation role obligations | Explicit actual Workspace reuses four tapes; exact full-prefix and stack bills for this specialization |
++| selected-binary-control and #2697 source lineage | Encoded arithmetic, matrices, Good/Pair/Unit semantics and index operations at N=64 | Seventeen finite-dimension/interface edits, including the separate 128 finite-multiplier guard |
++| #4440/#4470 query-thinned controller lineage | Completed conditional ordinary `.0034` BIT interface | No replacement construction; distinguishes its unspecified huge fixed dimension from the old 64-dimensional implementation |
++
++Source inspection specifically excludes re-publication of the generic peak
++versus history principle, local CLEAR semantics, the raw 54/43 lifetime census,
++whole-high V/L child geometry, and the existing N=64 capacity constants. Those
++results are credited and used only where their exact interfaces apply.
++
++The bounded live overlap lookup included PR searches for `"parametric"
++"Callback"` (the returned #5164 concerned setup rollback) and
++`"N-dimensional" "encoded"` (no matching PR returned). The root also supplied
++the current sprint/PR claims. Absence from these queries is not proof of
++novelty; the concrete comparison is with the source/domain statements above.
++Later merged work must be checked by the publication coordinator before a
++remote branch is offered for review.
++
++The first claim was narrowed from the full `.0034` historical per-tape B₀
++contract: that source-specific mapping is not currently supplied by the
++retained implementation. The accepted scope is the concrete dimensional
++consumer seam and its source-arena proof, with all label/dispatcher/physical
++bank obligations visible. This is partial assumption-directed progress and
++does not assert an unconditional multiplication theorem or a changed κ.
+diff --git a/research/fixed-dimension-bit-coefficients/PR-DESCRIPTION.md b/research/fixed-dimension-bit-coefficients/PR-DESCRIPTION.md
+new file mode 100644
+index 00000000..13a1c62b
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/PR-DESCRIPTION.md
+@@ -0,0 +1,76 @@
++## Why this is needed
++
++The selected #7000 application reaches a completed `.0034` BIT interface whose
++compiler dimension is large and fixed. The chronological whole-high producer
++in #6903 already handles arbitrary fixed N, but its actual numerical join is
++explicitly N=64. The existing #2835/#6896 capacity theorems also pin that old
++dimension. A generic claim that preparation is finite-dimensional does not
++supply the matching encoded consumer or its retained physical roles.
++
++## Exact contribution
++
++This package authenticates and specializes the four retained encoded
++Callback/Fields/Matrices/words modules with 17 explicit edits for each fixed
++N≥2. Runtime values remain binary words; all N² high digits and original
++global source labels are preserved. One Workspace supplies the same four
++continuation tapes on each closed reentry.
++
++The written proof establishes exact Good/Pair/Unit and coefficient semantics,
++pending demand of at most `16N²+128` residue and `128` index Words over **all**
++entry residents before the first capacity guard, and explicit full-prefix and
++separate historical-tape bounds. Every admitted descriptor contracts by at
++least `(N−1)/N`. The full local consumer bill is polynomial in its actual root
++size; absorption by `q^(ceil(e^.004)-1)` is conditional on a proved `root_size≤e`
++coupling and the actual number of calls per fibre.
++
++Base: `e54523517d0f03e58352e647c403a5af3e525a57`. Exact live-source SHA256 and Git
++blob pins are in SOURCES.json. No predecessor source or selected record changes.
++
++## Novelty and credit
++
++#6903 supplies the generic-N field producer and predecessor module bytes;
++#2835 supplies the noncircular prefix method; #5404 supplies the historical
++backing distinction. #6879/#6896 remain separate source-specific helper and
++recursive results. The new result is the implemented dimensional consumer
++and its precise per-call/fixed-arena history contract, not those earlier
++general principles or an increased N=64 constant.
++
++Prepared for @CubeJerry with substantial OpenAI Codex assistance. Credit Jose
++Manuel (@jmbarrancoml) for the retained numerical source lineage, Ross
++Richardson for #2835, Nick Petalas and Arham Tahir for its lifetime inputs,
++and #5829/#6719/#6903's authors for the chronological whole-high interface.
++NOTICE.md retains the broader source attribution.
++
++## Reproduction and failure detection
++
++```sh
++python3 -B scripts/research_package.py --package research/fixed-dimension-bit-coefficients
++```
++
++Normal and optimized modes compare the complete typed receipt. The exact
++oracle uses signed-permutation determinants/cofactors on dense N=2/3 fields
++and a closed block formula for the larger dimensions. Cases cover widths
++1/2/3, mixed Good/Pair/Unit histories, reversed Pair, inverse offset, leaf
++calls, a halved Unit, erased warm backing and repeated reuse of the same Tape
++identities. N=44/rank43 crosses the old rank guard; N=65 tests all 4,225 field
++digits; N=130 tests all 16,900 and target row 129.
++
++Controls reject wrong chronological labels, truncated fields, actual capacity
++exhaustion, the old 64² reader and rank-42 guard, the separate old 128 multiplier
++guard and fresh continuation tape creation. An isolated Git-free mirror rejects source-byte,
++typed-receipt and pending-budget corruption. Finite examples corroborate the
++written universal proof; they do not exhaust the selected source catalogue.
++
++## Limitations and κ status
++
++**No new κ.** All five foundational assumptions and the selected bound remain
++conditional. The actual `.0034` catalogue/label generator and root map,
++literal finite-table join, arbitrary changing-R/I physical bank and complete
++caller stock/history composition remain open. Entry allocated history and
++all live residents are charged explicitly. This theorem does not turn one
++fixed arena's slot bound into a varying-precision physical bank or erase
++other retained ancestor/producer/payload owners from the full source bill.
++
++The package is a narrowly scoped compiler/ownership enabling lemma. It claims
++no formal-kernel or independent human proof, selected cold replay, complete
++multiplier implementation, or unconditional asymptotic improvement.
+diff --git a/research/fixed-dimension-bit-coefficients/PR-TITLE.txt b/research/fixed-dimension-bit-coefficients/PR-TITLE.txt
+new file mode 100644
+index 00000000..a956ab27
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/PR-TITLE.txt
+@@ -0,0 +1 @@
++Specialize the encoded BIT coefficient evaluator to every fixed dimension and bound its retained continuation backing
+diff --git a/research/fixed-dimension-bit-coefficients/PROOF.md b/research/fixed-dimension-bit-coefficients/PROOF.md
+new file mode 100644
+index 00000000..14f1d8ff
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/PROOF.md
+@@ -0,0 +1,354 @@
++# A dimension-parametric encoded coefficient consumer
++
++Prepared for @CubeJerry with substantial OpenAI Codex assistance. Apache-2.0.
++This is a scoped consumer and source-arena theorem. **No new κ.** The selected
++bound and all five foundational assumptions remain conditional.
++
++## 1. Which missing implication is addressed
++
++At base `e54523517d0f03e58352e647c403a5af3e525a57`, the application of #7000
++uses the completed `.0034` BIT interface from `query-thinned-controllers`,
++not the historical 64-dimensional supplier. That interface has a large fixed
++compiler dimension. #6879 bounds an ordinary retained helper but excludes its
++coefficient evaluator. #6903 produces chronological whole-high fields for each
++fixed dimension N, while its numerical join explicitly supports only N=64.
++#2835 proves noncircular numerical capacity for its pinned N=64 consumer;
++#6896 likewise has a fixed-dimensional recursive numerical inventory. Neither
++statement installs a dimension-matching coefficient consumer for arbitrary N.
++
++The new contribution is an explicit specialization of the four encoded modules
++retained by #6903, a reusable four-tape continuation workspace, and an all-depth
++source-arena proof for this particular specialization. It preserves full
++N²-digit chronological fields and original source labels. It does not generate
++the selected `.0034` catalogue or Program labels, prove their grammar matches
++this interface, install a changing-precision physical bank, or complete the
++selected dispatcher. Those are separate, source-specific obligations.
++
++All input bytes and the scientific base are pinned in SOURCES.json. The proof
++uses the capacity-prefix calculus of #2835 and the retained-history distinction
++of #5404; it does not claim those general principles as new results.
++
++## 2. Domain and explicit compilation
++
++Fix N≥2, an odd prime q, and a finite source catalogue before runtime. A label
++has Q≥1 bits. Each catalogue member has a distinct label, a rank 1≤r<N, an
++N-by-N low matrix, an N-by-N fixed rational preparation S whose denominators
++are units modulo q, and a valid Good/Bad classification. On admitted fields,
++H=(low+q·high)S is invertible over Z/q^wZ. A Good member has every required
++leading pivot a unit. These are inherited algebraic source contracts, not
++properties inferred from a finite fixture or from the label's name.
++
++Write R=bitlength(q^w)+1, with w≥1. Residues use that exact canonical extent.
++The root extent n₀≥N uses I=bitlength(n₀)+1 bits, exactly as the source guard
++requires, and b_N=max(16,bitlength(2N)) is a fixed finite-label extent. Each
++runtime depth, coordinate, extent, modulus and residue remains an encoded
++Word. Only compile-time labels, matrix positions and finite operation tags
++enter native control. Fixed source coefficients can be large; Ring.literal
++reduces their compiled bit strings through encoded arithmetic.
++
++`consumer.build(N)` verifies the original four hashes, performs exactly the
++17 explicit single-occurrence edits in `changes`, and compiles the resulting
++modules. The edits are: one finite-multiplier limit in words; four record
++dimension/label-width sites; three matrix limits; seven controller dimension
++or finite-label limits; and two controller interface sites that borrow the
++two Stack objects instead of constructing them. N is not a runtime word.
++All arithmetic loops and the evaluator/stack algorithms are retained. The
++compiled instance may have enormous finite control; no efficient uniform
++compiler or finite table construction bound is claimed here.
++
++The supported invocation entry is `Workspace.open`, followed by a method of
++the returned Callback and `close` (or the inherited `abort` on rejection).
++The retained legacy `controller.selected_offset` wrapper does not supply
++borrowed stack roles and is outside this new interface. No theorem or test
++invokes that wrapper. Low-level Callback construction must supply the same
++explicit workspace contract; exporting its source module is not a claim
++that every historical wrapper remains a supported entry.
++
++The Program has a root record and h chronological step records. Each step
++contains its original global source label and exact parent/child extents. It
++is Good, Pair or Unit, using the retained grammar. If f=floor(parent/N), its
++child is respectively r f, f, or (for Unit) f or floor(f/2). Children are
++positive. Pair fields satisfy
++0≤a<2N−1 and reversal is exactly the predicate a≥N. No other reversal or
++non-Unit halving is admitted.
++
++The raw Fields tape contains h records at a leaf, or h+1 for an internal
++coefficient call, including every field before any Unit reset. Each record
++contains its Q-bit original source label and all N² canonical high digits,
++not merely an active rank subset. The current field uses the current label.
++All inherited head, ownership, finite-metadata, shape, unit and arithmetic
++margin contracts hold. The two numerical arenas are distinct and canonical.
++No concurrent use, external Word construction or mutation of the arena
++partition is allowed. Runtime metadata and host allocation failures are
++outside the source-arena bound; their eventual lowering remains a compiler
++obligation.
++
++## 3. Exact interpreted semantics
++
++For an admitted field let P=H diag(I_r,0) H⁻¹. Let d₀,...,d_(r−1) be the
++Good elimination pivots. Let δ and π be the diagonal and row permutation
++returned by the retained 2N-dimensional residual elimination for a Pair.
++Define a generated weight W recursively, with root weight the encoded unit u.
++For a child coordinate j:
++
++* Good: W_child(j)=d_floor(j/f) W_parent(j).
++* Unit: W_child(j)=1.
++* Pair: put c=j or f−1−j according to the reversal flag, and set
++  B_a(c)=W_parent(a f+c) for a<N and B_a(c)=1 for a≥N. Then
++  W_child(j)=δ_a B_π(a)(c)/B_a(c).
++
++These divisions require the inherited unit conditions. They are not inferred
++from a successful capacity test. At a current internal site, with current
++projector P and f=floor(final_size/N), the result for target row 0<t<N and
++column 0≤c<f is
++
++    coefficient(t,c) = −P[t,0]/P[0,0] · W(t f+c)/W(c).
++
++The optional inverse flag negates this shear coefficient; `offset` multiplies
++it by its borrowed source residue. It is not a claim that arbitrary matrix
++inverse is implemented by negating all entries.
++
++**Theorem 1.** Under the stated noncapacity contracts and sufficient arena
++capacities as established in §4, the specialized Callback computes these
++expressions. Every normal closed call restores all borrowed numerical heads
++and all Program/Fields bytes and heads, and leaves both continuation stacks
++empty. Full raw fields are read at their original global indices.
++
++**Proof.** `step` verifies each exact child equation, chronological parent
++link, rank, branch and physical pair label. `_validate_program` checks every
++step's field label, the current label where applicable, and the precise end
++of both records. `Fields.read` seeks the encoded global slot and materializes
++exactly N² R-bit digits. It does not delete or renumber earlier fields after
++a Unit. `Matrices.prepare` forms H using encoded modular operations and
++computes the stated projector; Gauss elimination and the endpoint checks give
++the stated pivots, diagonal and permutation. These ring identities and unit
++conditions are exactly the retained matrix algorithm, with its finite loop
++dimensions replaced by N and 2N.
++
++For clarity, Pair elimination has the expected unit property in this domain.
++Conjugating its residual by diag(I,J), where J reverses N coordinates, gives
++`[[I−P,P],[P,I−P]]`. Its square is the identity because P²=P. Over the local
++ring Z/q^wZ an invertible matrix has a unit candidate at each successive
++elimination pivot; otherwise its remaining determinant is divisible by q.
++The resulting diagonal entries are units. Together with the Good pivot and
++root-unit hypotheses, induction makes every generated weight a unit.
++
++At the `weight` loop boundary, each VALUE asks for one lower-level generated
++weight, and each CONSTANT/MULTIPLY/PAIR continuation represents the matching
++operation above. A Pair pushes its denominator request before its numerator,
++so LIFO evaluation leaves the ordered denominator and numerator expected by
++the PAIR branch. Every generated VALUE decreases its encoded level; the
++finite stack evaluation therefore terminates. Unit returns one immediately
++without arithmetic on dead earlier fields. The current coefficient routine
++then applies the displayed quotient using two complete calls to `weight`.
++Each borrowed word and record head is restored by the retained helpers, and
++the result is the only newly live residue after normal closing. This proves
++the semantics for arbitrary finite legal programs, not by testing depths.
++
++## 4. Capacity before the first allocation guard
++
++Let an arena have K allocated slots and L live residents at closed entry.
++L includes every suspended caller, modulus, Ring.one, requested coordinate
++and unrelated borrowed object. Its erased free slots and live slots partition
++K, with restored heads. A pending demand includes the requested new slot
++*before* Arena.zero checks capacity. Put
++
++    B_R(N)=16N²+128,                 B_I=128.
++
++**Theorem 2.** On every prefix of construction, one admitted weight,
++coefficient or offset evaluation, and closing, before any separate
++noncapacity error, the residue pending demand is at most L_R+B_R and the
++index demand at most L_I+B_I. The theorem does not assume that a reference
++execution succeeds or that either numerical capacity is sufficient.
++
++The effect rule is the predecessor's: sequential (peak,net) effects compose
++as `(max(P₁,N₁+P₂),N₁+N₂)`; a loop restoring its baseline does not multiply
++peak demand by its iteration count. A partially allocated matrix is bounded
++by its planned full shape. The final requested Word is included before its
++guard. Free, rollback and record clear allocate no numerical Words.
++
++Here is a deliberately nonsharp source-site derivation. Unsigned division
++uses four additional requested/live Words, modular multiply and literal four,
++inverse ten, and add/subtract/negate at most three. These same source loops
++were proved prefixwise in #2835; changing the fixed `times_small` label limit
++changes its loop count, not its two-result-at-a-time invariant.
++
++* `prepare` uses at most 4N²+12 residue Words above its scalar callers.
++  This includes the entire high matrix, raw matrix, every distinct fixed
++  palette value, all copied preparation entries, the product, and the
++  inverse's 2N² augmented entries. These large stages are sequential.
++  An identity list aliases the inverse's right half and adds no second copy.
++  Matrix multiplication charges its complete output and primitive scratch.
++* A Good expansion holds its N²-entry projector, an N²-entry elimination
++  copy, at most N pivots, and at most twelve scalar scratch Words:
++  2N²+N+12. A Pair expansion holds that projector, its 4N²-entry residual,
++  and at most twelve scratch Words: 5N²+12. Permutation labels are fixed
++  finite control. Failed unit candidates retire their inverse scratch.
++* Construction, callback residents, a retained current coefficient, a first
++  generated numerator while its denominator is evaluated, and any popped
++  continuation operands fit within 64 further residue Words. At each
++  `weight` loop boundary all previous expansion matrices have been freed;
++  serialized ancestors never accumulate numerical matrices or Word objects.
++* There are at most six retained callback indices. A coefficient retains
++  at most two further indices. VALUE/step/seek/division/address construction
++  uses at most sixteen additional indices, including the request causing
++  a guard. Constructor validation has the same bound. This is below 128.
++
++For N≥2 the displayed residue phases plus 64 are below 16N²+128. All
++phases count partially built arrays and a requested replacement while its
++old Word is still live. This is a source derivation, rather than the measured
++peaks of the examples. It covers prefixes ending in a capacity rejection.
++
++Consequently **C_j≥max(K_j,L_j+B_j)**, established at entry, excludes a first
++numerical inventory failure. If no free slot exists at a supposed failure,
++all current allocated slots are live. The pending bound gives K_current+1≤C,
++contradicting that guard. If a free slot exists the allocator does not test
++capacity. This argument does not establish any other success precondition.
++
++## 5. Historical backing in the actual fixed roles
++
++The numerical allocator reuses erased slots before creating a new Word. Its
++template and every allocated Word, including erased ones, retain R+2 or I+2
++cells. Theorem 2 and this allocator invariant give the numerical backing bound
++
++    (max(K_R,L_R+B_R)+1)(R+2)
++      + (max(K_I,L_I+B_I)+1)(I+2).                         (1)
++
++The extra one is the permanent template. This is a bound on the source Word
++cell arrays, not the Python heap or an installed finite-tape bank. A physical
++lowering must implement the finite slot vocabulary, reusable locations and
++head restoration with its actual costs. In particular it must not allocate
++a fresh physical bank on every callback or changing precision.
++
++`Workspace` constructs exactly two Stack objects, hence four record Tapes,
++once for its fixed pair of numerical arenas. Every callback borrows those
++same roles exclusively. `close` returns the lease only after empty-stack and
++numerical retirement checks; `abort` delegates to the retained cleanup. No
++new Stack or Tape is constructed by `open`. The normal-return theorem does
++not assert universal exception safety of partially initialized callbacks.
++
++Let A=2I+4, D=R+3, T=max(A,D). VALUE occupies A symbols, and a scalar
++continuation occupies D. On a depth-h traversal, the pending stack has at
++most 2h+1 records and the value stack at most h+1. Each reverse tape holds
++at most one complete record. Partial push/pop copies, including the time
++when an operand exists on both tapes, fit these same individual extents.
++Markers and the first blank visited after the logical end add a constant.
++Thus the **sum of the four separate historical maxima**, not merely their
++simultaneous live sizes, is bounded by
++
++    S_stack ≤ (4h+12) max(2I+4,R+3) + 16.                  (2)
++
++For a sequence of normal closed calls using the same Workspace and the same
++fixed R,I, replace h by the maximum depth so far. Erasure never removes tape
++backing; each later push starts at the same origin. The induction therefore
++bounds the complete history, even after earlier deeper siblings return.
++If the workspace entered with previously retained larger spans, take the
++maximum with those four entry spans **coordinatewise** before summing.
++
++The complete borrowed record spans, including an endpoint allowance, are
++
++    S_program = 2I+R+10 + h(Q+5b_N+2I+12),
++    S_fields  = (h+1)(Q+N²(R+1)+2)+4.                     (3)
++
++The leaf has only h fields, so the displayed h+1 bound still applies. The
++root record has two indices and one residue. Every step has five b_N-bit
++finite labels, one Q-bit source label, two indices, and delimiters. Each
++field has its source label, **every one of its N² high digits**, and all
++delimiters. Reads reach no farther than the first blank after the prescribed
++last record. Resets do not shrink (3).
++
++If a producer rewrites the same borrowed Program/Fields roles at their fixed
++origins across a sequence, their historical backing is bounded by the larger
++of their entry spans and the separate maxima of (3). If a caller instead
++keeps several ancestor Programs/Fields, those are separate owners and must
++all be charged by its recursion theorem. Equations (1)–(3) include one full
++borrowed prefix, not all independently retained caller copies. Producer
++STATE, PREFIX duplication, payload, source access and other suspended frames
++retain the bills of their own source interfaces.
++
++For the standard coupling I=O(log n₀), h=O_N(log n₀), R=O_q(w), the new
++component's bound is O_fixed(w log n₀+(log n₀)²), in addition to all entry
++resident/history terms. This local source-arena result does **not** by itself
++prove a B₀-level c_t V+K_t historical physical bound across changing R or I.
++
++## 6. Complete consumer cost and the exact absorption condition
++
++Each Word primitive scans its encoded operands; unsigned division takes
++O(I²) index actions or O(R²) residue actions, and Euclidean inversion takes
++O(R³). Fixed N, source tables and coefficient bit strings contribute finite
++constants. Matrix preparation includes raw high materialization, rational
++palette production, all fixed-dimensional inversions and every copy/free.
++A record seek scans the full earlier prefix and updates an encoded counter.
++
++Validation visits h earlier Program and Fields records, including the dead
++ones. At most 2^(h+1)−1 VALUE nodes are expanded by a weight evaluation;
++continuation operations add a constant factor. Two weights are used by one
++coefficient. The first generated numerator remains live during the second.
++The following deliberately loose bill includes construction, all field and
++program seeks, coefficient preparation, both weights, rewinds and retirement:
++
++    T_consumer ≤ C_fixed (h+1)² 2^h
++                        (N²R + I + Q + b_N + 1)³.         (4)
++
++C_fixed may depend on q,N and the finite catalogue, but not on n₀,w,h or
++runtime entries. The source arithmetic and stack operations, rather than a
++unit-cost numerical oracle, justify this polynomial. Charging the complete
++prefix at every visited node is sufficient; no average seek or carry cost
++is assumed. Field production, payload access, copying to the producer port,
++and the final caller's actions remain additional positive terms.
++
++**Lemma 3 (descriptor depth).** Every admitted step satisfies
++
++    child ≤ ((N−1)/N) parent.
++
++For Good, use r≤N−1 and f≤parent/N; for Pair and either Unit use
++child≤f≤parent/N. Since the final child is positive,
++
++    h ≤ log(n₀)/log(N/(N−1)).                             (5)
++
++The exact root coupling is essential. If an actual invocation establishes
++`n₀≤e`, `w=ceil(e^(1/250))`, and fixed q,N,Q and source data, then (5) makes
++2^h polynomial in e. Since e≤w^250, (4), the retained prefix sizes, and any
++fixed number of these operations are bounded by a fixed polynomial in w.
++For fixed q≥3 this polynomial is uniformly O(q^(w−1)): the ratio tends to
++zero and has a finite maximum over the remaining positive integer widths.
++
++That is the valid absorption implication. It is **conditional on this exact
++root-size coupling and the actual number of invocations per charged fibre**.
++The completed `.0034` label generator and its root map are not supplied by
++this package. Without such a map one must keep (4), or assume explicitly
++that its ratio to the proposed fibre allowance is uniformly bounded. A
++bare bound 2^h times a polynomial cannot be absorbed if h already consumes
++all of the exponent w log₂q and no further slack is proved. The producer's
++own invoice and the number of coefficient preparations also remain charged.
++
++## 7. Evidence and limitations
++
++The executable tests use genuine encoded Program and Fields tapes, the
++specialized source matrix/word routines, and the same four continuation Tape
++identities across reentry. They prohibit runtime Word.inspect and new Tape
++construction, observe pending demand before Arena.zero's guard, and compare
++with a separate integer oracle on small structured source catalogues. Larger
++dimensions cross the historical 64-field and 128-label boundaries. A field
++contains N² entries even when the algebraic example has a sparse projector.
++
++These are finite corroboration and failure-detection tests. The source-site
++proof supplies the arbitrary-depth/dimension statements. None of the fixtures
++is claimed to be the actual selected `.0034` catalogue or an admitted current
++producer. The new specialization is a concrete format-matching numerical
++consumer, not a literal finite transition-table lowering of it or an executed
++join to #6903's `ready` PC. The borrowed field format is the same; an actual
++port join must still implement the symbol-code interface and continuation.
++
++## Open next questions
++
++1. Generate the exact completed `.0034` catalogue and chronological Good/Pair/
++   Unit Program from its actual controller/strictification construction, then
++   prove that every label and preparation meets this consumer's domain.
++2. Prove the root-size map n₀≤e and the number of coefficient invocations for
++   that source. This decides whether (4) is absorbed by the claimed fibre
++   budget, instead of merely by an unrelated exponential.
++3. Install the fixed slot inventories and four reusable stacks in an actual
++   varying-precision bank. Charge all retained ancestor prefixes, source
++   copies, producer STATE/PREFIX roles and caller restoration. Per-call (1)
++   is one input to this obligation, not its proof.
+diff --git a/research/fixed-dimension-bit-coefficients/README.md b/research/fixed-dimension-bit-coefficients/README.md
+new file mode 100644
+index 00000000..e5e5de29
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/README.md
+@@ -0,0 +1,80 @@
++# Encoded coefficients for every fixed dimension
++
++This package supplies an actual dimension-matching numerical consumer for the
++chronological whole-high field format of #6903. It specializes the retained
++binary Callback, Fields, Matrices and arithmetic modules at **every fixed N≥2**,
++preserves all N² digits and global source labels, and reuses the same four
++continuation tapes across closed calls. Seventeen explicit source edits are
++authenticated against their base bytes; no runtime numeric oracle replaces
++the coefficient evaluator.
++
++The callable entry is `Workspace.open`, followed by the returned callback's
++method and `close`. The retained legacy `controller.selected_offset` wrapper
++does not pass borrowed stack roles and is outside this package's interface.
++
++The written source-arena proof bounds the pending allocation **before its
++capacity guard** by `16N²+128` residue Words and `128` index Words over all live
++entry residents. It separately counts already allocated erased slots, full
++chronological Program/Fields prefixes, and the four separate historical stack
++maxima. Every admitted descriptor contracts its extent by at least `(N−1)/N`;
++the resulting explicit consumer bill is polynomial in the actual root size.
++
++**No new κ.** This is a source-arena and format-interface lemma. The selected
++`.0034` base's actual catalogue/label generation, exact root-size map, emitted
++finite-table interface and changing-precision physical bank remain unproved.
++All five foundational assumptions of the selected multiplication bound remain.
++
++## What was added
++
++| Review target | Evidence |
++| --- | --- |
++| Actual specialized runtime and fixed continuation roles | [consumer.py](consumer.py) |
++| All-depth semantics, noncircular capacity, history and complete local cost | [PROOF.md](PROOF.md) |
++| Separate determinant/cofactor and integer elimination oracle | [check_consumer.py](check_consumer.py) |
++| Exact examples and meaningful rejection controls | [RESULT.json](RESULT.json), [verify.py](verify.py) |
++| Isolated corrupted-source/receipt/budget checks | [test_boundaries.py](test_boundaries.py) |
++| Source and predecessor scope comparison | [OVERLAP.md](OVERLAP.md), [SOURCES.json](SOURCES.json) |
++
++The actual examples cover dense N=2/3 fields, widths 1/2/3, mixed Good/Pair/Unit
++histories including a halved Unit, inverse offset and leaf calls, erased warm
++backing, and repeated use of the same continuation roles. N=44/rank43 crosses
++the historical rank guard; N=65 crosses the field reader limit; N=130 reaches
++target row 129 and crosses the separate index-multiplier limit. These synthetic
++catalogue examples corroborate the universal written
++proof; none is represented as the actual selected large compiler instance.
++
++## Reproduce
++
++From the repository root, Python 3.12 and the standard library:
++
++```sh
++python3 -B scripts/research_package.py --package research/fixed-dimension-bit-coefficients --check-only
++python3 -B scripts/research_package.py --package research/fixed-dimension-bit-coefficients
++```
++
++The registered replay is read-only and includes normal/optimized execution and
++isolated failure controls. [VALIDATION.md](VALIDATION.md) records executed
++coverage and its limits. `verify.py --write-result` explicitly regenerates
++the receipt; normal verification compares all typed fields. Source pins use
++base `e54523517d0f03e58352e647c403a5af3e525a57`.
++
++## Open next questions
++
++1. Bind the completed `.0034` controller's exact catalogue and chronological
++   labels to this consumer; begin with its compiler output and all branch kinds.
++2. Prove its actual `root_size≤e` coupling and the counted coefficient calls
++   per charged fibre before using the conditional exponential absorption lemma.
++3. Install the fixed roles across changing precision, charging all ancestor
++   records, producer STATE/PREFIX copies, payload access and restoration.
++
++## Credit
++
++Prepared for @CubeJerry with substantial OpenAI Codex assistance. Jose Manuel
++(@jmbarrancoml) supplied the retained arithmetic/matrix/record/evaluator lineage;
++Ross Richardson's #2835 supplied the prefix-capacity proof method, building on
++Nick Petalas and Arham Tahir's lifetimes. #5404 supplied the historical backing
++distinction; #6879 and #6896 supply separate helper/recursive capacity results.
++The generic-N chronological producer is credited to #6903 and its #5829/#6719
++predecessors. See [NOTICE.md](NOTICE.md) for the full retained source notice and
++scope. New work is Apache-2.0; no formal-kernel or independent human review is
++claimed.
+diff --git a/research/fixed-dimension-bit-coefficients/RESULT.json b/research/fixed-dimension-bit-coefficients/RESULT.json
+new file mode 100644
+index 00000000..e02ba0bd
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/RESULT.json
+@@ -0,0 +1,518 @@
++{
++  "N130_specialized_sha256": {
++    "controller": "5866fb163922e880a9b515b005be18a09c2f09f5ceac35097dbc1cb5075817bd",
++    "matrices": "0824cbd19914f29ed9ca9574bd0c6d34b269b392c768254668c53e659b233628",
++    "records": "888a741f2558f4375fbec9999d0ad8ef9a7c81bbc89ff705f82d9d476f6937c1",
++    "words": "7113177b69ac8d8341292e17fb51afa272253f8dccfe0d4306e70baccca432a4"
++  },
++  "base": "e54523517d0f03e58352e647c403a5af3e525a57",
++  "case_count": 14,
++  "cases": [
++    {
++      "N": 2,
++      "dense_fields": false,
++      "entry_slots": [
++        3,
++        1
++      ],
++      "fields_backing": 22,
++      "four_stack_backing": [
++        14,
++        13,
++        8,
++        7
++      ],
++      "half_units": false,
++      "index_backing": 72,
++      "index_pending": 11,
++      "inverse": false,
++      "kinds": "",
++      "leaf": false,
++      "offset": false,
++      "program_backing": 18,
++      "rank": 1,
++      "repetitions": 1,
++      "residue_backing": 145,
++      "residue_pending": 28,
++      "source_changes": 17,
++      "value": 2,
++      "w": 1,
++      "warm_history": false
++    },
++    {
++      "N": 2,
++      "dense_fields": false,
++      "entry_slots": [
++        3,
++        1
++      ],
++      "fields_backing": 86,
++      "four_stack_backing": [
++        34,
++        17,
++        10,
++        9
++      ],
++      "half_units": false,
++      "index_backing": 152,
++      "index_pending": 18,
++      "inverse": false,
++      "kinds": "GG",
++      "leaf": false,
++      "offset": false,
++      "program_backing": 232,
++      "rank": 1,
++      "repetitions": 1,
++      "residue_backing": 231,
++      "residue_pending": 32,
++      "source_changes": 17,
++      "value": 8,
++      "w": 2,
++      "warm_history": false
++    },
++    {
++      "N": 2,
++      "dense_fields": true,
++      "entry_slots": [
++        3,
++        1
++      ],
++      "fields_backing": 86,
++      "four_stack_backing": [
++        42,
++        17,
++        18,
++        9
++      ],
++      "half_units": false,
++      "index_backing": 152,
++      "index_pending": 18,
++      "inverse": false,
++      "kinds": "GP",
++      "leaf": false,
++      "offset": false,
++      "program_backing": 232,
++      "rank": 1,
++      "repetitions": 1,
++      "residue_backing": 245,
++      "residue_pending": 34,
++      "source_changes": 17,
++      "value": 2,
++      "w": 2,
++      "warm_history": false
++    },
++    {
++      "N": 2,
++      "dense_fields": true,
++      "entry_slots": [
++        3,
++        1
++      ],
++      "fields_backing": 130,
++      "four_stack_backing": [
++        92,
++        19,
++        29,
++        10
++      ],
++      "half_units": false,
++      "index_backing": 162,
++      "index_pending": 17,
++      "inverse": false,
++      "kinds": "PPP",
++      "leaf": false,
++      "offset": false,
++      "program_backing": 345,
++      "rank": 1,
++      "repetitions": 1,
++      "residue_backing": 296,
++      "residue_pending": 36,
++      "source_changes": 17,
++      "value": 11,
++      "w": 3,
++      "warm_history": false
++    },
++    {
++      "N": 3,
++      "dense_fields": false,
++      "entry_slots": [
++        3,
++        1
++      ],
++      "fields_backing": 176,
++      "four_stack_backing": [
++        62,
++        19,
++        18,
++        9
++      ],
++      "half_units": false,
++      "index_backing": 162,
++      "index_pending": 17,
++      "inverse": false,
++      "kinds": "PP",
++      "leaf": false,
++      "offset": false,
++      "program_backing": 238,
++      "rank": 1,
++      "repetitions": 1,
++      "residue_backing": 420,
++      "residue_pending": 59,
++      "source_changes": 17,
++      "value": 8,
++      "w": 2,
++      "warm_history": false
++    },
++    {
++      "N": 3,
++      "dense_fields": true,
++      "entry_slots": [
++        3,
++        1
++      ],
++      "fields_backing": 337,
++      "four_stack_backing": [
++        68,
++        25,
++        20,
++        10
++      ],
++      "half_units": false,
++      "index_backing": 228,
++      "index_pending": 18,
++      "inverse": false,
++      "kinds": "GUPG",
++      "leaf": false,
++      "offset": false,
++      "program_backing": 481,
++      "rank": 1,
++      "repetitions": 1,
++      "residue_backing": 496,
++      "residue_pending": 61,
++      "source_changes": 17,
++      "value": 5,
++      "w": 3,
++      "warm_history": false
++    },
++    {
++      "N": 3,
++      "dense_fields": false,
++      "entry_slots": [
++        3,
++        1
++      ],
++      "fields_backing": 292,
++      "four_stack_backing": [
++        66,
++        25,
++        18,
++        9
++      ],
++      "half_units": true,
++      "index_backing": 228,
++      "index_pending": 18,
++      "inverse": false,
++      "kinds": "GUPG",
++      "leaf": false,
++      "offset": false,
++      "program_backing": 480,
++      "rank": 1,
++      "repetitions": 1,
++      "residue_backing": 420,
++      "residue_pending": 59,
++      "source_changes": 17,
++      "value": 8,
++      "w": 2,
++      "warm_history": false
++    },
++    {
++      "N": 3,
++      "dense_fields": false,
++      "entry_slots": [
++        3,
++        1
++      ],
++      "fields_backing": 292,
++      "four_stack_backing": [
++        66,
++        25,
++        18,
++        9
++      ],
++      "half_units": false,
++      "index_backing": 228,
++      "index_pending": 18,
++      "inverse": false,
++      "kinds": "GUPG",
++      "leaf": false,
++      "offset": false,
++      "program_backing": 480,
++      "rank": 1,
++      "repetitions": 4,
++      "residue_backing": 420,
++      "residue_pending": 59,
++      "source_changes": 17,
++      "value": 8,
++      "w": 2,
++      "warm_history": false
++    },
++    {
++      "N": 2,
++      "dense_fields": false,
++      "entry_slots": [
++        200,
++        136
++      ],
++      "fields_backing": 114,
++      "four_stack_backing": [
++        46,
++        19,
++        18,
++        9
++      ],
++      "half_units": false,
++      "index_backing": 1233,
++      "index_pending": 17,
++      "inverse": false,
++      "kinds": "PUP",
++      "leaf": false,
++      "offset": false,
++      "program_backing": 344,
++      "rank": 1,
++      "repetitions": 1,
++      "residue_backing": 1407,
++      "residue_pending": 34,
++      "source_changes": 17,
++      "value": 8,
++      "w": 2,
++      "warm_history": true
++    },
++    {
++      "N": 3,
++      "dense_fields": false,
++      "entry_slots": [
++        3,
++        1
++      ],
++      "fields_backing": 176,
++      "four_stack_backing": [
++        54,
++        23,
++        18,
++        9
++      ],
++      "half_units": false,
++      "index_backing": 187,
++      "index_pending": 16,
++      "inverse": false,
++      "kinds": "GUP",
++      "leaf": true,
++      "offset": false,
++      "program_backing": 360,
++      "rank": 1,
++      "repetitions": 1,
++      "residue_backing": 406,
++      "residue_pending": 57,
++      "source_changes": 17,
++      "value": 1,
++      "w": 2,
++      "warm_history": false
++    },
++    {
++      "N": 3,
++      "dense_fields": true,
++      "entry_slots": [
++        3,
++        1
++      ],
++      "fields_backing": 234,
++      "four_stack_backing": [
++        56,
++        23,
++        18,
++        9
++      ],
++      "half_units": false,
++      "index_backing": 209,
++      "index_pending": 18,
++      "inverse": true,
++      "kinds": "GPG",
++      "leaf": false,
++      "offset": true,
++      "program_backing": 360,
++      "rank": 1,
++      "repetitions": 1,
++      "residue_backing": 427,
++      "residue_pending": 60,
++      "source_changes": 17,
++      "value": 8,
++      "w": 2,
++      "warm_history": false
++    },
++    {
++      "N": 44,
++      "dense_fields": false,
++      "entry_slots": [
++        3,
++        1
++      ],
++      "fields_backing": 23242,
++      "four_stack_backing": [
++        40,
++        31,
++        10,
++        9
++      ],
++      "half_units": false,
++      "index_backing": 285,
++      "index_pending": 18,
++      "inverse": false,
++      "kinds": "G",
++      "leaf": false,
++      "offset": false,
++      "program_backing": 156,
++      "rank": 43,
++      "repetitions": 1,
++      "residue_backing": 54327,
++      "residue_pending": 7760,
++      "source_changes": 17,
++      "value": 5,
++      "w": 2,
++      "warm_history": false
++    },
++    {
++      "N": 65,
++      "dense_fields": false,
++      "entry_slots": [
++        3,
++        1
++      ],
++      "fields_backing": 25356,
++      "four_stack_backing": [
++        24,
++        23,
++        10,
++        9
++      ],
++      "half_units": false,
++      "index_backing": 132,
++      "index_pending": 11,
++      "inverse": false,
++      "kinds": "",
++      "leaf": false,
++      "offset": false,
++      "program_backing": 30,
++      "rank": 1,
++      "repetitions": 1,
++      "residue_backing": 118391,
++      "residue_pending": 16912,
++      "source_changes": 17,
++      "value": 8,
++      "w": 2,
++      "warm_history": false
++    },
++    {
++      "N": 130,
++      "dense_fields": false,
++      "entry_slots": [
++        3,
++        1
++      ],
++      "fields_backing": 67606,
++      "four_stack_backing": [
++        26,
++        25,
++        8,
++        7
++      ],
++      "half_units": false,
++      "index_backing": 144,
++      "index_pending": 11,
++      "inverse": false,
++      "kinds": "",
++      "leaf": false,
++      "offset": false,
++      "program_backing": 30,
++      "rank": 1,
++      "repetitions": 1,
++      "residue_backing": 338065,
++      "residue_pending": 67612,
++      "source_changes": 17,
++      "value": 2,
++      "w": 1,
++      "warm_history": false
++    }
++  ],
++  "claim": "fixed-dimension encoded consumer; no new kappa",
++  "control_count": 10,
++  "controls": [
++    {
++      "control": "dimension True",
++      "error": "fixed dimension >=2"
++    },
++    {
++      "control": "dimension 1",
++      "error": "fixed dimension >=2"
++    },
++    {
++      "control": "dimension -1",
++      "error": "fixed dimension >=2"
++    },
++    {
++      "control": "short_capacity",
++      "control_error": "fixed register inventory",
++      "index_pending": 4,
++      "residue_pending": 5
++    },
++    {
++      "control": "wrong_field_code",
++      "control_error": "original global raw-field code",
++      "index_pending": 15,
++      "residue_pending": 14
++    },
++    {
++      "control": "truncate_field",
++      "control_error": "encoded word extent",
++      "index_pending": 17,
++      "residue_pending": 33
++    },
++    {
++      "control": "retained 128 multiplier guard",
++      "error": "valid encoded run: finite index multiplier"
++    },
++    {
++      "control": "retained rank-42 guard",
++      "error": "valid encoded run: actual selected rank"
++    },
++    {
++      "control": "retained 64-squared reader",
++      "error": "valid encoded run: complete 64-dimensional raw high field"
++    },
++    {
++      "control": "fresh continuation role",
++      "error": "valid encoded run: fresh continuation tape during callback"
++    }
++  ],
++  "implementation_sha256": {
++    "check_consumer.py": "4c52f31d24435a9ec89c373550c17352b61dcdc006005f843f135888c26a70e5",
++    "consumer.py": "5ba042c23c2d81f6b0ecb37cfbc954c24b865c05f8007e7666ab638be2856aa8"
++  },
++  "schema": 1,
++  "source_inputs": {
++    "docs/research/pr-intake-evidence/pr7000-application/PROOF-REVIEW.md": "4501502c2ceb9759b20372435fe4beb51082c5a5e2910c1fd5dbe6edca415055",
++    "research/continuation-retained-backing/PROOF.md": "00995d2b056eaa943fa0ced9bdfdc030a7c5e93bb1b499e53d4083d99b84cc25",
++    "research/delayed-cover-chronological-fields/NOTICE.md": "8e06504b1bf140a3f62aa9c1f55064d38c77f965bbd46d740138dd90b31ff55d",
++    "research/delayed-cover-chronological-fields/PROOF.md": "9571ecdf53f30bafb96d6acfdad2add756f0f900c6d6634fbd0a7f3dceaffd0e",
++    "research/delayed-cover-chronological-fields/numerical/NOTICE.md": "c446b32b8a621844fb2fbe654810c8122035bdd43fed2132f1137d98cb6f9943",
++    "research/delayed-cover-chronological-fields/numerical/controller.py": "fa09146991f6c04e6f4b6eb9bf0c8e103e70e90a0e402ff3d69814e6aac8ff8c",
++    "research/delayed-cover-chronological-fields/numerical/matrices.py": "00b687434039b54529ee092e34f9435cfcd66e0816eb3bd2a6688c73f4e01459",
++    "research/delayed-cover-chronological-fields/numerical/records.py": "0c9c4b23e998597fb877bb1a29da69ac869b68262abe635b162b4dba9c69b372",
++    "research/delayed-cover-chronological-fields/numerical/words.py": "5c37f57708ba3131bdcb03139f9dbc29886bee44569c09cbba51b68f75acd7f9",
++    "research/ordinary-bit-retained-space/PROOF.md": "72f317eacb9db5667941ceda6557bb2b8efde19f451c69d197c736f03f405897",
++    "research/query-thinned-controllers/PROOF.md": "5ade59641f2ed70d045d6f60e89db7d979b1d1e9967f3acbe5c56eac81312841",
++    "research/recursive-physical-capacity-prefix/PROOF.md": "805abbee41f6c9a9b1ee5167833533e1604eac7f0526e50d21f42d2df05c134c",
++    "research/selected-binary-control/PROOF.md": "4461fdbd114a2aec884de9513b2587b7713160b3af57f80680e84c41997b9a21",
++    "research/selected-coefficient-capacity-prefix/PROOF.md": "cd8d94c1248bf41b511bc776b857a46937372a588af550717c9682ebce98e588",
++    "research/selected-ordinary-reseed-contract/README.md": "85b7974f3cfac123b888afcd0b1607b8d186528f8803f34b4ae8eeba60f5c718"
++  }
++}
+diff --git a/research/fixed-dimension-bit-coefficients/SOURCES.json b/research/fixed-dimension-bit-coefficients/SOURCES.json
+new file mode 100644
+index 00000000..8db72b5c
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/SOURCES.json
+@@ -0,0 +1,108 @@
++{
++  "schema_version": 1,
++  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
++  "files": [
++    {
++      "path": "certificates/selected-result.json",
++      "usage": "provenance",
++      "git_blob": "75d77b328ea02ded535e7f23aee5b1e55d0bb1a8",
++      "sha256": "154c3d30455d778fd3343b6b4851f0fa4665f0f7625b0adb3675e2bafbbf6bf1"
++    },
++    {
++      "path": "docs/research/agent-task-catalog.json",
++      "usage": "provenance",
++      "git_blob": "3404fbdd5e7529a0674eef26114b5071e4586cec",
++      "sha256": "ead6cdc9d0af6d58e8a49744d8ec8c7c15e13d2ba93c276c434bcf9b51b93a81"
++    },
++    {
++      "path": "docs/research/pr-intake-evidence/pr7000-application/PROOF-REVIEW.md",
++      "usage": "input",
++      "git_blob": "3dd1af2285e597676725e85ad4f65e7ad326d695",
++      "sha256": "4501502c2ceb9759b20372435fe4beb51082c5a5e2910c1fd5dbe6edca415055"
++    },
++    {
++      "path": "research/continuation-retained-backing/PROOF.md",
++      "usage": "input",
++      "git_blob": "179f4726a8bad426d2f691490b2c47dda3aebd81",
++      "sha256": "00995d2b056eaa943fa0ced9bdfdc030a7c5e93bb1b499e53d4083d99b84cc25"
++    },
++    {
++      "path": "research/delayed-cover-chronological-fields/NOTICE.md",
++      "usage": "input",
++      "git_blob": "a931499a8a7d41604eefad646b4f5b6b378412d1",
++      "sha256": "8e06504b1bf140a3f62aa9c1f55064d38c77f965bbd46d740138dd90b31ff55d"
++    },
++    {
++      "path": "research/delayed-cover-chronological-fields/PROOF.md",
++      "usage": "input",
++      "git_blob": "a564a45ff35314cc2fe23e43274036d84e771d43",
++      "sha256": "9571ecdf53f30bafb96d6acfdad2add756f0f900c6d6634fbd0a7f3dceaffd0e"
++    },
++    {
++      "path": "research/delayed-cover-chronological-fields/numerical/NOTICE.md",
++      "usage": "input",
++      "git_blob": "ef9f81510db86eaf2f0a7191d85e92a6db30ddc0",
++      "sha256": "c446b32b8a621844fb2fbe654810c8122035bdd43fed2132f1137d98cb6f9943"
++    },
++    {
++      "path": "research/delayed-cover-chronological-fields/numerical/controller.py",
++      "usage": "input",
++      "git_blob": "c631a9e77fbcccf0e8f448adc22978728aed7b60",
++      "sha256": "fa09146991f6c04e6f4b6eb9bf0c8e103e70e90a0e402ff3d69814e6aac8ff8c"
++    },
++    {
++      "path": "research/delayed-cover-chronological-fields/numerical/matrices.py",
++      "usage": "input",
++      "git_blob": "5d497353efbb9eeaaf4facd96ab40ffb0f3aa20d",
++      "sha256": "00b687434039b54529ee092e34f9435cfcd66e0816eb3bd2a6688c73f4e01459"
++    },
++    {
++      "path": "research/delayed-cover-chronological-fields/numerical/records.py",
++      "usage": "input",
++      "git_blob": "4f00467a0ff580954ad2fd0c7380240c753ddef3",
++      "sha256": "0c9c4b23e998597fb877bb1a29da69ac869b68262abe635b162b4dba9c69b372"
++    },
++    {
++      "path": "research/delayed-cover-chronological-fields/numerical/words.py",
++      "usage": "input",
++      "git_blob": "8d4ba37e2778acb35b34e0719df2caf138fbeb50",
++      "sha256": "5c37f57708ba3131bdcb03139f9dbc29886bee44569c09cbba51b68f75acd7f9"
++    },
++    {
++      "path": "research/ordinary-bit-retained-space/PROOF.md",
++      "usage": "input",
++      "git_blob": "d8fdae6afe4c84863730bf1be79015861bbb885d",
++      "sha256": "72f317eacb9db5667941ceda6557bb2b8efde19f451c69d197c736f03f405897"
++    },
++    {
++      "path": "research/query-thinned-controllers/PROOF.md",
++      "usage": "input",
++      "git_blob": "9068f429896112082664455ab00bab083c99d1d8",
++      "sha256": "5ade59641f2ed70d045d6f60e89db7d979b1d1e9967f3acbe5c56eac81312841"
++    },
++    {
++      "path": "research/recursive-physical-capacity-prefix/PROOF.md",
++      "usage": "input",
++      "git_blob": "ba9671522723c4562c905ca0df42ce19546d7589",
++      "sha256": "805abbee41f6c9a9b1ee5167833533e1604eac7f0526e50d21f42d2df05c134c"
++    },
++    {
++      "path": "research/selected-binary-control/PROOF.md",
++      "usage": "input",
++      "git_blob": "f0212e1488f27bc9962fbfa394f5d920686950d2",
++      "sha256": "4461fdbd114a2aec884de9513b2587b7713160b3af57f80680e84c41997b9a21"
++    },
++    {
++      "path": "research/selected-coefficient-capacity-prefix/PROOF.md",
++      "usage": "input",
++      "git_blob": "0b594186b21cc059b4c8589005ce46f8e437f483",
++      "sha256": "cd8d94c1248bf41b511bc776b857a46937372a588af550717c9682ebce98e588"
++    },
++    {
++      "path": "research/selected-ordinary-reseed-contract/README.md",
++      "usage": "input",
++      "git_blob": "ccc43e1543b22b2cb87f590e960f926ac2e72798",
++      "sha256": "85b7974f3cfac123b888afcd0b1607b8d186528f8803f34b4ae8eeba60f5c718"
++    }
++  ]
++}
+diff --git a/research/fixed-dimension-bit-coefficients/TASK.json b/research/fixed-dimension-bit-coefficients/TASK.json
+new file mode 100644
+index 00000000..c6091c88
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/TASK.json
+@@ -0,0 +1,95 @@
++{
++  "schema_version": 1,
++  "task_id": "uniform-transfer-audit",
++  "priority_revision": 8,
++  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
++  "original_card": {
++    "id": "uniform-transfer-audit",
++    "question": "Can one of the selected record's five inherited assumptions be proved at its actual caller?",
++    "starting_points": [
++      "docs/research/current-priorities.md",
++      "docs/research/research-family-status.md",
++      "certificates/selected-result.json",
++      "docs/research/pr-intake-evidence/pr5599-completion/PROOF-REVIEW.md"
++    ],
++    "methods": [
++      "Construct and independently check one source-bound instance of the stated first experiment.",
++      "Seek an exact counterexample or target-specific complete-budget obstruction to that same proposed change."
++    ],
++    "acceptance_gate": "Identify the proposition and what would change downstream; do not equate a finite replay with a universal proof.",
++    "first_step": {
++      "command": [
++        "python3",
++        "-B",
++        "scripts/research_selected_baseline.py"
++      ],
++      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
++      "inspect": "Read revision 8, the selected review and live exact-source handoffs. Then follow this card's bounded first_experiment.",
++      "scope": "Source-bound orientation only, not a supplier replay or theorem proof."
++    },
++    "first_experiment": "Choose one assumption ID (native_all_columns, owned_erasure, compiler, precision_tape, analytic_recovery), one quantified implication and exact dependency closure. Check current handoffs, including #5625 row reentry and #5707 root-prefix lowering, without treating their partial scope as the whole theorem. Prove or falsify that implication with a caller-bound argument; stop at the chosen obligation. Finite tests or root digits do not discharge an all-size statement.",
++    "bottleneck_link": "Judge the actual current supplier contract and complete signed target/paid bill; frozen-profile ceilings require an applicability proof.",
++    "allowed_variations": [
++      "One exact source head, helper/cut region or quantified proposition and changed hypothesis; check live handoffs first. Different seeds are not different scopes."
++    ],
++    "scope_change_triggers": [
++      "Changing source head, helper/cut domain, operation alphabet or caller boundary without recording the new scope.",
++      "Treating an archived proposal or local numerical pass as complete supplier admission."
++    ],
++    "overlap_terms": [
++      "native_all_columns",
++      "owned_erasure",
++      "compiler",
++      "precision_tape",
++      "analytic_recovery"
++    ],
++    "existing_checks": [
++      {
++        "scope": "PR #4100: proposed unconditional construction and finite checks, without independent acceptance.",
++        "evidence": "research/unconditional-batched-crt/README.md",
++        "remaining": "Independent proof audit of one caller-bound all-size implication; all other premises remain explicit.",
++        "status": "author-checked",
++        "source_commit": "337d04939571a637aeab54a0f58f54fde811663a",
++        "selected_record_sha256": "bb2eaa58647b353f88d0aec2eafb9d30df1be53589231b23e12ceef3e4bad129"
++      },
++      {
++        "scope": "Selected PR5599: complete helper-subspace construction and independent caller replay; five framework assumptions remain.",
++        "evidence": "docs/research/pr-intake-evidence/pr5599-completion/PROOF-REVIEW.md",
++        "remaining": "The next experiment must identify uncovered source-specific work. Successor archive intake does not transfer this admission.",
++        "status": "reviewed",
++        "source_commit": "09dd0965711ca7eeb169057a420abab1c9052137",
++        "selected_record_sha256": "2a0220e866417774606e0f991e41b9c1d26b1f43b97857238cf478dbc7d330b5"
++      }
++    ]
++  },
++  "scope_status": "refined",
++  "actual_scope": "Specialize the retained encoded BIT Callback/Fields/Matrices consumer to every fixed N>=2, prove exact semantics and pre-guard source-arena demand, and bound the full chronological prefix and four reusable continuation tapes across fixed-context history.",
++  "scope_change_reason": "The actual selected .0034 BIT base is not the archived dimension64 supplier. Current generic-N chronological field production stops at a matching consumer; a source-bound arbitrary-fixed-N implementation is a narrower feasible lemma than full selected backend admission.",
++  "bottleneck_link": "Removes the literal N=64 numerical format barrier in the generic-N chronological whole-high port. Supplies a concrete coefficient component toward owned_erasure/compiler/precision_tape while preserving actual source catalogue, label generation, root-size coupling, physical bank and full dispatcher obligations.",
++  "budget_minutes": 90,
++  "stop_rule": "At 90 minutes stop expanding the source seam. If fixed-N specialization duplicates an already source-bound arbitrary-N consumer, publish no new theorem. Otherwise freeze the concrete implementation/proof and verify its source, capacity, full-field and history boundaries; no search for kappa or selected catalogue is included.",
++  "outcome": "partial",
++  "evidence": "PROOF.md gives three quantified statements; consumer.py implements 17 authenticated source edits and fixed continuation reuse. RESULT.json records exact independent-oracle examples and rejecting controls; test_boundaries.py checks actual corrupted subprocesses.",
++  "author": "Prepared for @CubeJerry",
++  "ai_assistance": "Substantial OpenAI Codex assistance in source audit, mathematical derivation, implementation and verification. A separate research agent will cross-review the frozen proof and implementation; no human or formal-kernel review is claimed.",
++  "open_questions": [
++    {
++      "question": "Does the actual completed .0034 supplier emit this catalogue and chronological Program grammar?",
++      "why_it_matters": "A format-matching consumer does not establish the selected source-label obligation.",
++      "first_step": "Derive the exact preparation/low/rank labels and Good/Pair/Unit Program events from the query-thinned controller strictification.",
++      "blocked_by": "No current-source all-label encoded generator is supplied here."
++    },
++    {
++      "question": "What is the actual root_size-to-e coupling and coefficient multiplicity per charged fibre?",
++      "why_it_matters": "These are needed before the explicit h-dependent complete consumer bill is absorbed by q^(ceil(e^.004)-1).",
++      "first_step": "Pin every actual invocation and prove root_size<=e plus its counted multiplicity.",
++      "blocked_by": "Selected source generator and dispatcher binding remain separate."
++    },
++    {
++      "question": "Can the numerical slot and continuation bounds be installed in changing-precision fixed physical banks?",
++      "why_it_matters": "Per-call source-arena bounds do not establish arbitrary historical physical backing across R/I changes and suspended callers.",
++      "first_step": "Bind each bank origin and role, then count all entry history, ancestor Programs/Fields, producer copies and restoration.",
++      "blocked_by": "Actual selected physical bank layout and full caller composition are unproved."
++    }
++  ]
++}
+diff --git a/research/fixed-dimension-bit-coefficients/VALIDATION.md b/research/fixed-dimension-bit-coefficients/VALIDATION.md
+new file mode 100644
+index 00000000..0f132504
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/VALIDATION.md
+@@ -0,0 +1,55 @@
++# Executed validation and limits
++
++CPython 3.12.14 on Linux, standard library only, 2026-11-10.
++Scientific base: e54523517d0f03e58352e647c403a5af3e525a57.
++
++Executed from the repository root:
++
++```sh
++python3 -B scripts/research_package.py --package research/fixed-dimension-bit-coefficients --check-only
++python3 -B research/fixed-dimension-bit-coefficients/verify.py --write-result
++python3 -B scripts/research_package.py --package research/fixed-dimension-bit-coefficients
++```
++
++The metadata/live-pin gate passed. The final registered run passed fourteen
++positive exact cases and ten controls in both normal and optimized modes,
++with identical typed receipt digest
++`afd86ba5470b877b6cad58a86fe26a58d98bb7e81129be4f1db47fd1a285a39a`.
++The final marker was
++`PASS_REGISTERED_RESEARCH_PACKAGE research/fixed-dimension-bit-coefficients outcome=partial`.
++
++The positive suite uses dense N=2/3 fields and a separate signed-permutation
++determinant/cofactor oracle, plus the exact two-axis block formula with fixed
++middle pivots for large N. It covers Good, Pair in both physical orientations,
++Unit and halved Unit, global fields before a reset, inverse offset, actual
++leaf calls, repeated fixed-role reentry and warm erased numerical backing.
++N=44/rank43, N=65 and N=130 test the three historical finite limits. Actual
++pending demand is observed before the allocation guard, and runtime word
++decoding and fresh Tape construction are prohibited during every measured
++call. Borrowed record bytes/heads, empty stacks and live numerical retirement
++are checked on normal return.
++
++Ten controls reject three invalid dimension inputs, genuine numerical quota
++exhaustion, a wrong original label in a dead earlier field, a truncated
++materialized field, the old 128 multiplier guard, the old rank-42 guard, the
++old 64² reader and fresh continuation tape construction. These controls
++exercise runtime guards and instrumentation; they are not an exhaustive
++malformed-input theorem.
++
++The separate boundary suite builds a Git-free mirror of this package and
++exactly its fifteen declared scientific source inputs. It passes normal and
++optimized replays, then requires failing subprocesses after (1) changing
++receipt integer schema 1 to Boolean true, (2) appending a source byte, and
++(3) replacing the residue pending allowance by one. These are actual failed
++replays, not tests that merely expect a Python exception from the same helper.
++
++The written proof, not bounded examples, supplies arbitrary finite depth and
++dimension. The exact selected `.0034` catalogue/Program mapping, actual root
++coupling, literal transition-table lowering, varying-precision physical bank,
++all caller/producer/payload histories and the complete supplier remain open.
++No selected cold replay, practical huge compiler instance, formal-kernel
++verification or independent human review has been run or claimed.
++
++An independent research worker is reviewing the frozen scientific package by
++a different source derivation and rank-two numerical fixture. That review is
++recorded separately when complete; it is not part of the author receipt above.
+diff --git a/research/fixed-dimension-bit-coefficients/VERIFY.json b/research/fixed-dimension-bit-coefficients/VERIFY.json
+new file mode 100644
+index 00000000..be03da02
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/VERIFY.json
+@@ -0,0 +1,53 @@
++{
++  "schema_version": 1,
++  "status": "ready",
++  "python": "3.12",
++  "requirements": [],
++  "inputs": [
++    "docs/research/pr-intake-evidence/pr7000-application/PROOF-REVIEW.md",
++    "research/continuation-retained-backing/PROOF.md",
++    "research/delayed-cover-chronological-fields/NOTICE.md",
++    "research/delayed-cover-chronological-fields/PROOF.md",
++    "research/delayed-cover-chronological-fields/numerical/NOTICE.md",
++    "research/delayed-cover-chronological-fields/numerical/controller.py",
++    "research/delayed-cover-chronological-fields/numerical/matrices.py",
++    "research/delayed-cover-chronological-fields/numerical/records.py",
++    "research/delayed-cover-chronological-fields/numerical/words.py",
++    "research/ordinary-bit-retained-space/PROOF.md",
++    "research/query-thinned-controllers/PROOF.md",
++    "research/recursive-physical-capacity-prefix/PROOF.md",
++    "research/selected-binary-control/PROOF.md",
++    "research/selected-coefficient-capacity-prefix/PROOF.md",
++    "research/selected-ordinary-reseed-contract/README.md"
++  ],
++  "commands": [
++    {
++      "argv": [
++        "{python}",
++        "-B",
++        "{package}/verify.py"
++      ],
++      "timeout_seconds": 120,
++      "checks": "Exact source pins, 17 actual specialization sites, dense determinant/cofactor and sparse block oracles, actual pre-guard demands, full chronological field extents, fixed continuation identities and ten semantic/ownership controls."
++    },
++    {
++      "argv": [
++        "{python}",
++        "-O",
++        "-B",
++        "{package}/verify.py"
++      ],
++      "timeout_seconds": 120,
++      "checks": "Identical typed receipt with assertions disabled."
++    },
++    {
++      "argv": [
++        "{python}",
++        "-B",
++        "{package}/test_boundaries.py"
++      ],
++      "timeout_seconds": 600,
++      "checks": "Git-free normal/optimized mirror plus actual source, typed-receipt and insufficient pending-budget corruption subprocesses."
++    }
++  ]
++}
+diff --git a/research/fixed-dimension-bit-coefficients/check_consumer.py b/research/fixed-dimension-bit-coefficients/check_consumer.py
+new file mode 100644
+index 00000000..e5ba0f9f
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/check_consumer.py
+@@ -0,0 +1,283 @@
++"""Independent small-block algebra and literal encoded-consumer executions.
++
++Fixture serialization and expected arithmetic are outside the runtime. Runtime
++Word.inspect is forbidden, including for N>64. This is not a full B0 dispatcher.
++"""
++from fractions import Fraction as F
++from hashlib import sha256
++import json
++from itertools import permutations
++from math import gcd
++from pathlib import Path
++import sys
++from types import ModuleType
++
++HERE = Path(__file__).resolve().parent
++
++
++def load(path):
++    name = "fixed_dimension_consumer_source"
++    old = sys.modules.get(name)
++    module = ModuleType(name)
++    module.__file__ = str(path)
++    sys.modules[name] = module
++    try:
++        exec(compile(path.read_bytes(),str(path),"exec"),module.__dict__)
++    finally:
++        if old is None:
++            sys.modules.pop(name,None)
++        else:
++            sys.modules[name]=old
++    return module
++
++
++C = load(HERE/"consumer.py")
++
++
++def need(condition, label):
++    if not condition:
++        raise ValueError(label)
++
++
++def identity(n):
++    return [[F(i==j) for j in range(n)] for i in range(n)]
++
++
++def fixtures(n,rank=1):
++    preparation = identity(n)
++    preparation[0][n-1] = F(1,2)
++    template = C.Template(3,rank,tuple(map(tuple,preparation)))
++    specs = {}
++    for code,block in enumerate((((1,1),(1,2)),((0,1),(1,1)),((1,2),(1,0)))):
++        low=[[int(i==j) for j in range(n)] for i in range(n)]
++        for i,x in enumerate((0,n-1)):
++            for j,y in enumerate((0,n-1)):
++                low[x][y]=block[i][j]
++        # The compiled preparation is unit triangular. The first projector
++        # pivot is good for the first and third low class, bad for the second.
++        specs[code]=C.Specification(code,template,tuple(map(tuple,low)),code!=1)
++    return specs
++
++
++def projector(spec,high,modulus):
++    """Closed 2x2 adjugate formula on the nontrivial extreme-coordinate block.
++
++    Other coordinates are identity in the header and zero in the rank-one
++    projector. No source matrix preparation or elimination is imported.
++    """
++    n=len(high)
++    if n<=3:
++        need(spec.template.rank==1,'dense fixture oracle rank-one domain')
++        # The signed-permutation determinant and cofactor inverse are
++        # independent of the source's row-reduction algorithm.
++        g=[[(spec.low[i][j]+spec.template.q*high[i][j])%modulus for j in range(n)] for i in range(n)]
++        s=[[(z.numerator*pow(z.denominator,-1,modulus))%modulus for z in row]
++           for row in spec.template.preparation]
++        a=[[sum(g[i][k]*s[k][j] for k in range(n))%modulus for j in range(n)] for i in range(n)]
++        def det(matrix):
++            size=len(matrix); total=0
++            for p in permutations(range(size)):
++                inversions=sum(p[i]>p[j] for i in range(size) for j in range(i+1,size))
++                term=(-1)**inversions
++                for i in range(size): term*=matrix[i][p[i]]
++                total+=term
++            return total%modulus
++        invdet=pow(det(a),-1,modulus)
++        row=[]
++        for j in range(n):
++            minor=[[a[x][y] for y in range(1,n)] for x in range(n) if x!=j]
++            row.append(((-1)**j*det(minor)*invdet)%modulus)
++        return [[a[i][0]*row[j]%modulus for j in range(n)] for i in range(n)]
++    axes=(0,n-1)
++    g=[[ (spec.low[i][j]+spec.template.q*high[i][j])%modulus for j in axes] for i in axes]
++    s=[[ (z.numerator*pow(z.denominator,-1,modulus))%modulus
++         for j in axes for z in (spec.template.preparation[i][j],)] for i in axes]
++    h=[[sum(g[i][k]*s[k][j] for k in range(2))%modulus for j in range(2)] for i in range(2)]
++    a,b=h[0]; c,d=h[1]; det=(a*d-b*c)%modulus
++    inv=pow(det,-1,modulus)
++    block=[[a*d*inv%modulus,-a*b*inv%modulus],[c*d*inv%modulus,-c*b*inv%modulus]]
++    out=[[0]*n for _ in range(n)]
++    for k in range(1,spec.template.rank): out[k][k]=1
++    for i,x in enumerate(axes):
++        for j,y in enumerate(axes): out[x][y]=block[i][j]
++    return out
++
++
++def fallback_diagonal(p,modulus):
++    """Separate integer row-operation oracle for the fixed residual matrix."""
++    n=len(p); d=2*n
++    a=[[0]*d for _ in range(d)]
++    for i in range(n):
++        for j in range(n):
++            z=(int(i==j)-p[i][j])%modulus
++            a[i][j]=z; a[d-1-i][d-1-j]=z
++            a[i][d-1-j]=p[i][j]; a[d-1-i][j]=p[i][j]
++    perm=list(range(d))
++    for j in range(d):
++        pivot=next(k for k in range(j,d) if gcd(a[k][j],modulus)==1)
++        a[j],a[pivot]=a[pivot],a[j]; perm[j],perm[pivot]=perm[pivot],perm[j]
++        inv=pow(a[j][j],-1,modulus)
++        for i in range(d):
++            if i!=j:
++                factor=a[i][j]*inv%modulus
++                a[i]=[(x-factor*y)%modulus for x,y in zip(a[i],a[j],strict=True)]
++    need(all(not a[i][j] for i in range(d) for j in range(d) if i!=j),"oracle residual diagonal")
++    return [a[i][i] for i in range(d)],perm
++
++
++def oracle(n,modulus,root_unit,root_size,events,specs,highs,index,coefficient=False):
++    sizes=[root_size]
++    for kind,code,rank,field,reverse,half in events:
++        f=sizes[-1]//n
++        sizes.append(rank*f if kind==0 else f//2 if half else f)
++    def weight(level,coordinate):
++        if level==0: return root_unit
++        kind,code,rank,field,reverse,half=events[level-1]
++        if kind==2: return 1
++        f=sizes[level-1]//n
++        p=projector(specs[code],highs[level-1],modulus)
++        if kind==0:
++            pivot=coordinate//f
++            need(0<=pivot<rank,'independent generated pivot label')
++            factor=p[0][0] if pivot==0 else 1
++            need(rank==1 or n>3,'sparse higher-rank oracle domain')
++            return factor*weight(level-1,coordinate)%modulus
++        diagonal,perm=fallback_diagonal(p,modulus)
++        column=f-1-coordinate if reverse else coordinate
++        def bank(row):
++            return weight(level-1,row*f+column) if row<n else 1
++        return diagonal[field]*bank(perm[field])*pow(bank(field),-1,modulus)%modulus
++    if not coefficient:
++        return weight(len(events),index)
++    p=projector(specs[2],highs[-1],modulus)
++    f=sizes[-1]//n
++    ell=-p[n-1][0]*pow(p[0][0],-1,modulus)%modulus
++    return ell*weight(len(events),(n-1)*f+index)*pow(weight(len(events),index),-1,modulus)%modulus
++
++
++def run_case(n,width,kinds,*,repeat=1,coefficient=True,short_capacity=False,
++             wrong_field_code=False,truncate_field=False,dense=False,warm_history=False,
++             inverse=False,offset=False,leaf=False,rank=1,half_units=False):
++    need(not leaf or not coefficient,'leaf has no current coefficient')
++    m=C.build(n); q=3; modulus=q**width; h=len(kinds); root_size=n**(h+1)*2
++    residue_bits=modulus.bit_length()+1; index_bits=root_size.bit_length()+1; code_bits=2
++    bound=C.footprint(n,h,residue_bits,index_bits,code_bits)
++    r=m.words.Arena(residue_bits,capacity=bound['residue_pending']+16)
++    i=m.words.Arena(index_bits,capacity=bound['index_pending']+16)
++    if warm_history:
++        for arena,limit in ((r,bound['residue_pending']+8),(i,bound['index_pending']+8)):
++            old=[arena.zero() for _ in range(limit)]
++            arena.free_many(*old)
++    mod=r.input(modulus); ring=m.words.Ring(mod)
++    specs=fixtures(n,rank); events=[]; fields=[]; highs=[]
++    for level,kind in enumerate(kinds):
++        code=0 if kind=='G' else 1
++        field=0 if kind!='P' else (n if level%2 else 0)
++        events.append(({'G':0,'P':1,'U':2}[kind],code,rank,field,field>=n,
++                       bool(half_units and kind=='U')))
++    for level,code in enumerate([row[1] for row in events]+([] if leaf else [2])):
++        high=[[0]*n for _ in range(n)]
++        if width>1:
++            if dense:
++                need(n<=3,'small exact dense oracle')
++                high=[[(2*x+3*y+level+1)%(q**(width-1)) for y in range(n)] for x in range(n)]
++            else:
++                high[n-1][n-1]=(level+1)%q
++                if code==1: high[0][0]=1
++        highs.append(high); fields.append((code,high))
++    program=m.records.Program.fixture(i,r,root_size,2,events,code_bits)
++    raw=m.records.Fields.fixture(i,r,fields,code_bits)
++    if wrong_field_code:
++        raw.tape.cells[1]=1-raw.tape.cells[1]
++    if truncate_field:
++        # Remove one complete final digit word before the first RECORD_END.
++        end=raw.tape.cells.index(m.records.RECORD_END)
++        del raw.tape.cells[end-(residue_bits+1):end]
++    before=(bytes(program.tape.cells),program.tape.head,bytes(raw.tape.cells),raw.tape.head)
++    position=i.input(0)
++    operand=r.input(2) if offset else None
++    workspace=C.Workspace(m,ring,i)
++    stack_identities=tuple(id(t) for s in workspace.roles for t in (s.tape,s.reverse))
++    start_r,start_i=len(r.live),len(i.live)
++    entry_r,entry_i=len(r.words),len(i.words)
++    pending={id(r):start_r,id(i):start_i}
++    original_zero=m.words.Arena.zero
++    original_inspect=m.words.Word.inspect
++    original_tape_init=m.records.Tape.__init__
++    def observed_zero(arena):
++        pending[id(arena)]=max(pending.get(id(arena),0),len(arena.live)+1)
++        return original_zero(arena)
++    def forbidden_inspect(_): raise ValueError('runtime word decoding forbidden')
++    def forbidden_tape_init(_): raise ValueError('fresh continuation tape during callback')
++    m.words.Arena.zero=observed_zero; m.words.Word.inspect=forbidden_inspect
++    m.records.Tape.__init__=forbidden_tape_init
++    if short_capacity:
++        r.capacity=max(len(r.words),len(r.live))+1
++    values=[]; stack_max=[0]*4
++    error=None
++    try:
++        for _ in range(repeat):
++            cb=None
++            try:
++                cb=workspace.open(program,raw,specs,2,leaf=leaf)
++                try:
++                    workspace.open(program,raw,specs,2)
++                except ValueError as exc:
++                    need(str(exc)=='exclusive continuation workspace','exact lease guard')
++                else:
++                    raise ValueError('concurrent callback lease was accepted')
++                output=(cb.offset(n-1,position,operand,inverse) if offset else
++                        cb.coefficient(n-1,position,inverse) if coefficient else cb.weight(position))
++                cb.close()
++                value=original_inspect(output); r.free(output); values.append(value)
++                for j,tape in enumerate((cb.pending.tape,cb.pending.reverse,cb.values.tape,cb.values.reverse)):
++                    stack_max[j]=max(stack_max[j],len(tape.cells)+1)
++            except ValueError:
++                if cb is not None: cb.abort()
++                raise
++    except ValueError as exc:
++        error=str(exc)
++    finally:
++        m.words.Arena.zero=original_zero; m.words.Word.inspect=original_inspect
++        m.records.Tape.__init__=original_tape_init
++    need(pending[id(r)]<=start_r+bound['residue_pending'],'pre-guard residue demand')
++    need(pending[id(i)]<=start_i+bound['index_pending'],'pre-guard index demand')
++    if short_capacity or wrong_field_code or truncate_field:
++        need(error is not None,'invalid runtime control rejected')
++        return {'control_error':error,'residue_pending':pending[id(r)],'index_pending':pending[id(i)]}
++    need(error is None,'valid encoded run: '+str(error))
++    expected=oracle(n,modulus,2,root_size,events,specs,highs,0,coefficient)
++    if coefficient and inverse: expected=-expected%modulus
++    if offset: expected=2*expected%modulus
++    need(values==[expected]*repeat,'independent full-ring coefficient')
++    need(before==(bytes(program.tape.cells),program.tape.head,bytes(raw.tape.cells),raw.tape.head),
++         'complete borrowed program/field bytes and heads')
++    need(len(r.live)==start_r and len(i.live)==start_i,'numerical frame closed')
++    need(not workspace.active and stack_identities==tuple(id(t) for s in workspace.roles for t in (s.tape,s.reverse)),
++         'exclusive fixed continuation roles reused')
++    need(len(program.tape.cells)+1<=bound['program_extent'],'full Program backing')
++    need(len(raw.tape.cells)+1<=bound['fields_extent'],'full N-squared Fields backing')
++    need(sum(stack_max)<=bound['four_stack_extents'],'four historical stack extents')
++    residue_backing=(len(r.words)+1)*(residue_bits+2)
++    index_backing=(len(i.words)+1)*(index_bits+2)
++    need(len(r.words)<=max(entry_r,start_r+bound['residue_pending']) and
++         len(i.words)<=max(entry_i,start_i+bound['index_pending']),
++         'allocated slots retain erased history')
++    i.free(position)
++    if operand is not None: r.free(operand)
++    ring.close(); r.free(mod)
++    need(not r.live and not i.live,'complete numerical retirement')
++    return {'N':n,'w':width,'kinds':kinds,'repetitions':repeat,'value':expected,
++            'rank':rank,
++            'half_units':half_units,
++            'dense_fields':dense,'warm_history':warm_history,'entry_slots':[entry_r,entry_i],
++            'inverse':inverse,'offset':offset,'leaf':leaf,
++            'residue_pending':pending[id(r)],'index_pending':pending[id(i)],
++            'residue_backing':residue_backing,'index_backing':index_backing,
++            'four_stack_backing':stack_max,'program_backing':len(program.tape.cells)+1,
++            'fields_backing':len(raw.tape.cells)+1,
++            'source_changes':m.edit_count}
++
++
++if __name__=='__main__':
++    print(json.dumps(run_case(2,2,'GP'),sort_keys=True))
+diff --git a/research/fixed-dimension-bit-coefficients/consumer.py b/research/fixed-dimension-bit-coefficients/consumer.py
+new file mode 100644
+index 00000000..101f057c
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/consumer.py
+@@ -0,0 +1,191 @@
++"""Compile one fixed-dimensional instance of the retained encoded consumer.
++
++Dimension and finite label widths are compile-time constants. Runtime field
++digits, coordinates and depths stay in the unchanged binary word machine.
++Prepared for CubeJerry with substantial OpenAI Codex assistance. Apache-2.0.
++"""
++from dataclasses import dataclass
++from fractions import Fraction
++from hashlib import sha256
++import json
++from pathlib import Path
++from types import ModuleType, SimpleNamespace
++import sys
++
++PACKAGE = Path(__file__).resolve().parent
++ROOT = PACKAGE.parents[1]
++SOURCE = "research/delayed-cover-chronological-fields/numerical/"
++
++
++def need(condition, label):
++    if not condition:
++        raise ValueError(label)
++
++
++@dataclass(frozen=True)
++class Template:
++    q: int
++    rank: int
++    preparation: tuple[tuple[Fraction, ...], ...]
++
++
++@dataclass(frozen=True)
++class Specification:
++    code: int
++    template: Template
++    low: tuple[tuple[int, ...], ...]
++    good: bool
++
++
++def changes(dimension):
++    """Every specialization site is explicit and checked once against its pin."""
++    n = dimension
++    bits = max(16, (2*n).bit_length())
++    return {
++        "words": [
++            ("0 <= constant <= 128", f"0 <= constant <= {2*n}"),
++        ],
++        "records": [
++            ("FINITE_BITS = 16", f"FINITE_BITS = {bits}"),
++            ("f = size//64", f"f = size//{n}"),
++            ("out = [[read_word(self.tape, self.residue_arena) for _ in range(64)] for _ in range(64)]",
++             f"out = [[read_word(self.tape, self.residue_arena) for _ in range({n})] for _ in range({n})]"),
++            ("len(high) == 64 and all(len(row) == 64 for row in high)",
++             f"len(high) == {n} and all(len(row) == {n} for row in high)"),
++        ],
++        "matrices": [
++            ("0 < rows <= 128 and 0 < columns <= 256", f"0 < rows <= {2*n} and 0 < columns <= {4*n}"),
++            ("size <= 128 and all(len(row) == size for row in matrix)",
++             f"size <= {2*n} and all(len(row) == size for row in matrix)"),
++            ("size <= 64", f"size <= {n}"),
++        ],
++        "controller": [
++            ("0 < limit <= 128", f"0 < limit <= {2*n}"),
++            ("for _ in range(8):", f"for _ in range({n.bit_length()+1}):"),
++            ("self.index.literal(64)", f"self.index.literal({n})"),
++            ("1 <= rank <= 42", f"1 <= rank < {n}"),
++            ("field < 127 and reverse == (field >= 64)",
++             f"field < {2*n-1} and reverse == (field >= {n})"),
++            ("if row < 64:", f"if row < {n}:"),
++            ("0 < target_row < 64", f"0 < target_row < {n}"),
++            ("allow_fallback=False, leaf=False):",
++             "allow_fallback=False, leaf=False, stack_roles=None):"),
++            ("self.pending, self.values = Stack(index_arena, self.residue), Stack(index_arena, self.residue)",
++             "need(stack_roles is not None and len(stack_roles) == 2, 'two borrowed continuation roles')\n"
++             "        self.pending, self.values = stack_roles\n"
++             "        need(all(s.index_arena is index_arena and s.residue_arena is self.residue and s.empty() "
++             "for s in stack_roles), 'closed matching continuation workspace')"),
++        ],
++    }
++
++
++def build(dimension: int):
++    """Return actual encoded modules specialized before any runtime input.
++
++    This is a source compiler, not a runtime matrix-oracle substitution.
++    The arithmetic/record/stack algorithms retain their source bytes apart
++    from the listed static bounds. The two listed interface edits take
++    the two Stack objects from an exclusive reusable workspace.
++    """
++    need(type(dimension) is int and dimension >= 2, "fixed dimension >=2")
++    pins = {r["path"]: r["sha256"] for r in json.loads((PACKAGE/"SOURCES.json").read_text())["files"]}
++    edits = changes(dimension)
++    originals = {}
++    transformed = {}
++    for name in ("words", "records", "matrices", "controller"):
++        path = SOURCE + name + ".py"
++        raw = (ROOT/path).read_bytes()
++        need(sha256(raw).hexdigest() == pins[path], "source drift: " + path)
++        originals[name] = raw.decode()
++        text = originals[name]
++        for old, new in edits.get(name, []):
++            need(text.count(old) == 1, "specialization site count: " + old)
++            text = text.replace(old, new, 1)
++        transformed[name] = text
++    # Imports in the unchanged source use these four module names. Restore the
++    # process module registry after compilation so distinct N instances do not
++    # alias one another or a caller's previously loaded source cohort.
++    saved = {name: sys.modules.get(name) for name in transformed}
++    modules = {}
++    try:
++        for name, text in transformed.items():
++            module = ModuleType(name)
++            module.__file__ = str(ROOT/(SOURCE+name+".py"))
++            sys.modules[name] = module
++            exec(compile(text, module.__file__, "exec"), module.__dict__)
++            modules[name] = module
++    finally:
++        for name, old in saved.items():
++            if old is None:
++                sys.modules.pop(name, None)
++            else:
++                sys.modules[name] = old
++    return SimpleNamespace(dimension=dimension,
++                           finite_bits=max(16,(2*dimension).bit_length()),
++                           edit_count=sum(map(len, edits.values())),
++                           source_hashes={k:sha256(v.encode()).hexdigest() for k,v in originals.items()},
++                           specialized_hashes={k:sha256(v.encode()).hexdigest() for k,v in transformed.items()},
++                           **modules)
++
++
++class Workspace:
++    """One real, exclusive four-tape continuation inventory across callbacks.
++
++    Residue/index contexts are fixed for this workspace. A callback borrows
++    Program/Fields, and returns these stack roles before a later call reuses
++    them. Erased historical suffixes remain in the same Tape objects.
++    """
++    def __init__(self, modules, ring, index_arena):
++        self.modules, self.ring, self.index = modules, ring, index_arena
++        self.roles = tuple(modules.records.Stack(index_arena,ring.arena) for _ in range(2))
++        self.active = False
++        workspace = self
++        base = self.modules.controller.Callback
++        class BoundCallback(base):
++            def close(self):
++                need(workspace.active, "live callback lease")
++                super().close()
++                workspace.active=False
++
++            def abort(self):
++                try:
++                    super().abort()
++                finally:
++                    workspace.active=False
++        self.callback_type = BoundCallback
++
++    def open(self, program, fields, specifications, current_code, *, allow_fallback=False, leaf=False):
++        need(not self.active, "exclusive continuation workspace")
++        need(program.index_arena is self.index and fields.index_arena is self.index and
++             program.residue_arena is self.ring.arena and fields.residue_arena is self.ring.arena,
++             "one encoded numerical context")
++        self.active = True
++        try:
++            return self.callback_type(self.ring,self.index,program,fields,specifications,current_code,
++                                      allow_fallback=allow_fallback,leaf=leaf,stack_roles=self.roles)
++        except Exception:
++            # This flag has no numerical payload and never substitutes for
++            # the inherited abort/rollback or input-validity contracts.
++            self.active=False
++            raise
++
++
++def footprint(dimension, depth, residue_bits, index_bits, code_bits):
++    """Conservative explicit extents; input entry history is charged separately.
++
++    The numerical bounds are additional pending Word demand over legal entry
++    residents, before a capacity guard. No successful execution is assumed.
++    """
++    need(type(dimension) is int and dimension >= 2, "fixed dimension")
++    need(all(type(v) is int and v >= 0 for v in (depth,residue_bits,index_bits,code_bits)),
++         "integer footprint inputs")
++    need(residue_bits >= 2 and index_bits >= dimension.bit_length()+1 and code_bits >= 1,
++         "word/label extent")
++    n,h,r,i,q = dimension,depth,residue_bits,index_bits,code_bits
++    f = max(16,(2*n).bit_length())
++    t = max(2*i+4,r+3)
++    return {"residue_pending":16*n*n+128,"index_pending":128,
++            "program_extent":2*i+r+10+h*(q+5*f+2*i+12),
++            "fields_extent":(h+1)*(q+n*n*(r+1)+2)+4,
++            "four_stack_extents":(4*h+12)*t+16,
++            "finite_label_bits":f}
+diff --git a/research/fixed-dimension-bit-coefficients/test_boundaries.py b/research/fixed-dimension-bit-coefficients/test_boundaries.py
+new file mode 100644
+index 00000000..839602ec
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/test_boundaries.py
+@@ -0,0 +1,57 @@
++#!/usr/bin/env python3
++"""Real subprocess integrity failures in an isolated source mirror."""
++from pathlib import Path
++import json
++import shutil
++import subprocess
++import sys
++from tempfile import TemporaryDirectory
++
++HERE=Path(__file__).resolve().parent
++ROOT=HERE.parents[1]
++
++
++def need(condition,label):
++    if not condition: raise ValueError(label)
++
++
++def invoke(package,*,optimized=False,error=None):
++    args=[sys.executable,'-B']+(['-O'] if optimized else [])+[str(package/'verify.py')]
++    result=subprocess.run(args,cwd=package.parent.parent.parent,capture_output=True,text=True,timeout=120)
++    text=result.stdout+result.stderr
++    if error:
++        need(result.returncode!=0 and error in text,'subprocess rejection: '+error+' '+text[-1000:])
++    else:
++        need(result.returncode==0 and text.startswith('PASS_FIXED_DIMENSION_COEFFICIENTS '),
++             'isolated positive replay '+text[-1000:])
++    return text.strip()
++
++
++def main():
++    with TemporaryDirectory(prefix='fixed-dimension-boundaries-') as temp:
++        root=Path(temp); package=root/'research'/HERE.name
++        shutil.copytree(HERE,package,ignore=shutil.ignore_patterns('__pycache__','*.pyc'))
++        rows=json.loads((HERE/'SOURCES.json').read_text())['files']
++        for row in rows:
++            if row['usage']!='input': continue
++            target=root/row['path']; target.parent.mkdir(parents=True,exist_ok=True)
++            shutil.copyfile(ROOT/row['path'],target)
++        invoke(package); invoke(package,optimized=True)
++        receipt=package/'RESULT.json'; old=receipt.read_bytes()
++        changed=json.loads(old); changed['schema']=True
++        receipt.write_text(json.dumps(changed))
++        invoke(package,optimized=True,error='typed complete RESULT equality')
++        receipt.write_bytes(old)
++        source=root/'research/delayed-cover-chronological-fields/numerical/records.py'
++        old=source.read_bytes(); source.write_bytes(old+b'\n# intentional source drift\n')
++        invoke(package,error='source drift:'); source.write_bytes(old)
++        implementation=package/'consumer.py'; old=implementation.read_bytes()
++        altered=old.replace(b'"residue_pending":16*n*n+128',b'"residue_pending":0*n*n+1')
++        need(altered!=old,'capacity budget mutation applied')
++        implementation.write_bytes(altered)
++        invoke(package,optimized=True,error='pre-guard residue demand')
++        implementation.write_bytes(old)
++    print('PASS_FIXED_DIMENSION_BOUNDARIES 2 clean modes 3 real corruption controls')
++
++
++if __name__=='__main__': main()
+diff --git a/research/fixed-dimension-bit-coefficients/verify.py b/research/fixed-dimension-bit-coefficients/verify.py
+new file mode 100644
+index 00000000..d08c13a2
+--- /dev/null
++++ b/research/fixed-dimension-bit-coefficients/verify.py
+@@ -0,0 +1,140 @@
++#!/usr/bin/env python3
++"""Read-only exact replay; --write-result is explicit receipt generation.
++
++Prepared for CubeJerry with substantial OpenAI Codex assistance. Apache-2.0.
++"""
++import argparse
++from hashlib import sha256
++import json
++from pathlib import Path
++import sys
++from types import ModuleType
++
++HERE=Path(__file__).resolve().parent
++ROOT=HERE.parents[1]
++
++
++def need(condition,label):
++    if not condition: raise ValueError(label)
++
++
++def load(path):
++    name='_coefficient_check_bytes'
++    module=ModuleType(name); module.__file__=str(path)
++    sys.modules[name]=module
++    try: exec(compile(path.read_bytes(),str(path),'exec'),module.__dict__)
++    finally: sys.modules.pop(name,None)
++    return module
++
++
++def reject(action,label,fragment=None):
++    try: action()
++    except ValueError as exc:
++        text=str(exc)
++        need(fragment is None or fragment in text,label+': wrong rejection '+text)
++        return {'control':label,'error':text}
++    raise ValueError(label+': accepted')
++
++
++def run():
++    manifest=json.loads((HERE/'SOURCES.json').read_text())
++    pins={}
++    for row in manifest['files']:
++        if row['usage']!='input': continue
++        digest=sha256((ROOT/row['path']).read_bytes()).hexdigest()
++        need(digest==row['sha256'],'source drift: '+row['path'])
++        pins[row['path']]=digest
++    checks=load(HERE/'check_consumer.py'); c=checks.C
++    cases=[]
++    for n,width,kinds,options in [
++        (2,1,'',{}),
++        (2,2,'GG',{}),
++        (2,2,'GP',{'dense':True}),
++        (2,3,'PPP',{'dense':True}),
++        (3,2,'PP',{}),
++        (3,3,'GUPG',{'dense':True}),
++        (3,2,'GUPG',{'half_units':True}),
++        (3,2,'GUPG',{'repeat':4}),
++        (2,2,'PUP',{'warm_history':True}),
++        (3,2,'GUP',{'leaf':True,'coefficient':False}),
++        (3,2,'GPG',{'dense':True,'inverse':True,'offset':True}),
++        (44,2,'G',{'rank':43}),
++        (65,2,'',{}),
++        (130,1,'',{}),
++    ]:
++        cases.append(checks.run_case(n,width,kinds,**options))
++    controls=[]
++    for value in (True,1,-1):
++        controls.append(reject(lambda v=value:c.build(v),'dimension '+repr(value),'fixed dimension >=2'))
++    for kw,fragment in [
++        ({'short_capacity':True},'fixed register inventory'),
++        ({'wrong_field_code':True},'original global raw-field code'),
++        ({'truncate_field':True},'encoded word extent'),
++    ]:
++        result=checks.run_case(2,2,'GUPG' if 'wrong_field_code' in kw else 'GP',**kw)
++        need(fragment in result['control_error'],'actual bad encoded control')
++        controls.append({'control':next(iter(kw)),**result})
++    old_changes=c.changes
++    def omit_word_limit(n):
++        edits=old_changes(n); edits['words']=[]; return edits
++    c.changes=omit_word_limit
++    try:
++        controls.append(reject(lambda:checks.run_case(130,1,''),
++                               'retained 128 multiplier guard','finite index multiplier'))
++    finally: c.changes=old_changes
++    def omit_rank_limit(n):
++        edits=old_changes(n)
++        edits['controller']=[pair for pair in edits['controller'] if pair[0]!='1 <= rank <= 42']
++        return edits
++    c.changes=omit_rank_limit
++    try:
++        controls.append(reject(lambda:checks.run_case(44,2,'G',rank=43),
++                               'retained rank-42 guard','actual selected rank'))
++    finally: c.changes=old_changes
++    def omit_full_field_dimension(n):
++        edits=old_changes(n)
++        edits['records']=[pair for pair in edits['records'] if not pair[0].startswith('out = [[')]
++        return edits
++    c.changes=omit_full_field_dimension
++    try:
++        controls.append(reject(lambda:checks.run_case(65,2,''),
++                               'retained 64-squared reader','complete 64-dimensional raw high field'))
++    finally: c.changes=old_changes
++    old_open=c.Workspace.open
++    def fresh_tape(workspace,*args,**kwargs):
++        workspace.modules.records.Tape()
++        return old_open(workspace,*args,**kwargs)
++    c.Workspace.open=fresh_tape
++    try:
++        controls.append(reject(lambda:checks.run_case(2,2,'G'),
++                               'fresh continuation role','fresh continuation tape during callback'))
++    finally: c.Workspace.open=old_open
++    instance=c.build(130)
++    need(instance.edit_count==17,'all seventeen specialization sites')
++    need(all(row['source_changes']==17 for row in cases),'case specialization contract')
++    return {'schema':1,'claim':'fixed-dimension encoded consumer; no new kappa',
++            'base':manifest['base_commit'],'source_inputs':pins,
++            'implementation_sha256':{name:sha256((HERE/name).read_bytes()).hexdigest()
++                                     for name in ('consumer.py','check_consumer.py')},
++            'N130_specialized_sha256':instance.specialized_hashes,
++            'cases':cases,'controls':controls,'case_count':len(cases),'control_count':len(controls)}
++
++
++def main():
++    parser=argparse.ArgumentParser(); parser.add_argument('--write-result',action='store_true')
++    args=parser.parse_args()
++    result=run(); encoded=json.dumps(result,sort_keys=True,separators=(',',':'))
++    if args.write_result:
++        (HERE/'RESULT.json').write_text(json.dumps(result,indent=2,sort_keys=True)+'\n')
++    else:
++        expected=json.loads((HERE/'RESULT.json').read_text())
++        need(encoded==json.dumps(expected,sort_keys=True,separators=(',',':')),'typed complete RESULT equality')
++    print('PASS_FIXED_DIMENSION_COEFFICIENTS',result['case_count'],result['control_count'],
++          sha256(encoded.encode()).hexdigest())
++
++
++if __name__=='__main__':
++    try: main()
++    except (ValueError,KeyError,OSError) as exc:
++        print('FAIL_FIXED_DIMENSION_COEFFICIENTS',str(exc),file=sys.stderr)
++        raise SystemExit(1)

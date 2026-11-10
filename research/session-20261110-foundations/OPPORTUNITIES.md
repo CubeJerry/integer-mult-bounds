@@ -10,3 +10,11 @@
 - Uncertain: encoded topology/source and variable-geometry repair-key joins; check current source overlaps before allocation.
 
 Provenance: 5654 canonical package names/indexes, scoped ledger, recent PR/source reads, prior 33-package run map. Discussion coverage partial/cached; no search hit is not proof of novelty. CHECKPOINT.json gives branches, review status and restart steps.
+
+## Wave2 review and next allocation
+
+- Verified/published: actual coded homogeneous whole-row callbacks, all components/fields and occupied-parent return. Production format manufacture, general rank/padding and physical tariffs remain open.
+- Pending review: fixed-N coefficient consumer and pre-guard source-arena footprint. Actual B0 catalogue, root coupling and varying-precision physical bank remain open.
+- Pending review: tape-selected balanced CRT numerical entry with78 roles. The exact raw Port envelope must be separated from its finite-control refinement constant; linear-use/current-lease handoff must exclude stale host handles. No full CRT permutation or encoded row/ROM selector.
+- Candidates awaiting exact allocation: actual production complex format join; encoded CRT row/target/ROM join. Audit source overlap and all costs before implementing.
+- Open #7113 claims conditional .00363797977; selected e545 frontier stays .00363005817.
