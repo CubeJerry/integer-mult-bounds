@@ -1,0 +1,2036 @@
+diff --git a/research/encoded-balanced-crt-entry/CHECKPOINT.md b/research/encoded-balanced-crt-entry/CHECKPOINT.md
+new file mode 100644
+index 00000000..34ccda8f
+--- /dev/null
++++ b/research/encoded-balanced-crt-entry/CHECKPOINT.md
+@@ -0,0 +1,42 @@
++# Unverified working checkpoint
++
++Base: `e54523517d0f03e58352e647c403a5af3e525a57`.
++Branch: `research/continuous-20261110-crt-control`.
++Package: `research/encoded-balanced-crt-entry/`.
++Recorded 2026-11-10 16:26 UTC. This is a recovery checkpoint, not a reviewed
++contribution or publication approval.
++
++## Executed
++
++`python -I -B research/encoded-balanced-crt-entry/verify.py --write-result`
++completed with `PASS_ENCODED_BALANCED_CRT_ENTRY nodes=14 owned_roles=78`.
++Four actual-source fixtures cover d=2,4,8; nonzero node starts; changing
++half-size; changing numerical precision; invalid left coordinates and
++padded right coordinates. Runtime geometry/decode functions in the new
++frontend are poisoned, and Port/Word/Arena constructors and Word.inspect
++are sealed after the fixed initial inventory is acquired. The unchanged
++Entry and numeric producer actually run. All source bytes/head restore,
++and all78 owned histories retire blank after complete traversal.
++
++The oracle independently solves the small CRT congruences by enumeration.
++Its decoded values are observer-only and never enter runtime control.
++The current receipt is preliminary and may change when controls are added.
++
++## Not yet verified
++
++The universal invariant and full source-operation bounds are not written
++or independently reviewed. The proposed C M² frontend bound, complete
++retained envelope, shape-rejection cleanup, early close, fault detection,
++source pins, package metadata and optimized replay remain outstanding.
++No complete CRT row/ROM/payload permutation, binary admission, complete
++assumption discharge or kappa improvement is claimed.
++
++## Next
++
++Add source pins and negative controls; prove the encoded cursor/half-size
++invariant and all lifecycle costs; run read-only normal/optimized replays;
++obtain a separate source/mathematical review. The immediate existing replay:
++
++```sh
++python -I -B research/encoded-balanced-crt-entry/verify.py
++```
+diff --git a/research/encoded-balanced-crt-entry/RESULT.json b/research/encoded-balanced-crt-entry/RESULT.json
+new file mode 100644
+index 00000000..fad57144
+--- /dev/null
++++ b/research/encoded-balanced-crt-entry/RESULT.json
+@@ -0,0 +1,1471 @@
++{
++  "status": "PASS_ENCODED_BALANCED_CRT_ENTRY",
++  "cases": [
++    {
++      "name": "changing_half_and_nonzero_start",
++      "moduli": [
++        5,
++        7,
++        3,
++        2
++      ],
++      "widths": [
++        3,
++        3,
++        2,
++        2
++      ],
++      "values": [
++        3,
++        2,
++        1,
++        1
++      ],
++      "source_length": 48,
++      "trace": [
++        {
++          "level": 1,
++          "start": 0,
++          "half": 1,
++          "precision": 7,
++          "lower": 3,
++          "product": 5,
++          "output": [
++            [
++              2,
++              4
++            ]
++          ],
++          "retained": [
++            8,
++            11,
++            11,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            20,
++            20,
++            20,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            6,
++            4,
++            6,
++            4,
++            3,
++            1,
++            5
++          ]
++        },
++        {
++          "level": 1,
++          "start": 2,
++          "half": 1,
++          "precision": 5,
++          "lower": 1,
++          "product": 3,
++          "output": [
++            [
++              1,
++              0
++            ]
++          ],
++          "retained": [
++            8,
++            11,
++            11,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            20,
++            20,
++            20,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            9,
++            6,
++            4,
++            6,
++            4,
++            4,
++            3,
++            5
++          ]
++        },
++        {
++          "level": 2,
++          "start": 0,
++          "half": 2,
++          "precision": 11,
++          "lower": 3,
++          "product": 35,
++          "output": [
++            [
++              0,
++              1
++            ],
++            [
++              1,
++              0
++            ]
++          ],
++          "retained": [
++            12,
++            20,
++            16,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            54,
++            54,
++            54,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            6,
++            4,
++            6,
++            4,
++            4,
++            3,
++            5
++          ]
++        }
++      ],
++      "actions": 370212,
++      "budget": 39529168896,
++      "retained_total": 1135,
++      "owned_roles": 78
++    },
++    {
++      "name": "invalid_left_and_padded_right",
++      "moduli": [
++        7,
++        3
++      ],
++      "widths": [
++        3,
++        2
++      ],
++      "values": [
++        7,
++        3
++      ],
++      "source_length": 25,
++      "trace": [
++        {
++          "level": 1,
++          "start": 0,
++          "half": 1,
++          "precision": 6,
++          "lower": 0,
++          "product": 7,
++          "output": [
++            [
++              0,
++              3
++            ]
++          ],
++          "retained": [
++            7,
++            12,
++            10,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            18,
++            18,
++            18,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            8,
++            4,
++            3,
++            4,
++            3,
++            3,
++            1,
++            5
++          ]
++        }
++      ],
++      "actions": 45062,
++      "budget": 4346945536,
++      "retained_total": 651,
++      "owned_roles": 78
++    },
++    {
++      "name": "wide_declared_axes",
++      "moduli": [
++        7,
++        5,
++        3,
++        2
++      ],
++      "widths": [
++        4,
++        4,
++        3,
++        3
++      ],
++      "values": [
++        6,
++        4,
++        2,
++        1
++      ],
++      "source_length": 60,
++      "trace": [
++        {
++          "level": 1,
++          "start": 0,
++          "half": 1,
++          "precision": 9,
++          "lower": 6,
++          "product": 7,
++          "output": [
++            [
++              3,
++              2
++            ]
++          ],
++          "retained": [
++            10,
++            12,
++            12,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            24,
++            24,
++            24,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            6,
++            4,
++            6,
++            4,
++            3,
++            1,
++            6
++          ]
++        },
++        {
++          "level": 1,
++          "start": 2,
++          "half": 1,
++          "precision": 7,
++          "lower": 2,
++          "product": 3,
++          "output": [
++            [
++              0,
++              1
++            ]
++          ],
++          "retained": [
++            10,
++            12,
++            12,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            24,
++            24,
++            24,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            6,
++            4,
++            6,
++            4,
++            4,
++            3,
++            6
++          ]
++        },
++        {
++          "level": 2,
++          "start": 0,
++          "half": 2,
++          "precision": 15,
++          "lower": 13,
++          "product": 35,
++          "output": [
++            [
++              2,
++              1
++            ],
++            [
++              1,
++              0
++            ]
++          ],
++          "retained": [
++            16,
++            22,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            70,
++            70,
++            70,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            17,
++            6,
++            4,
++            6,
++            4,
++            4,
++            3,
++            6
++          ]
++        }
++      ],
++      "actions": 553706,
++      "budget": 110094139392,
++      "retained_total": 1463,
++      "owned_roles": 78
++    },
++    {
++      "name": "eight_axis_tree",
++      "moduli": [
++        3,
++        5,
++        7,
++        11,
++        13,
++        17,
++        19,
++        23
++      ],
++      "widths": [
++        4,
++        4,
++        4,
++        4,
++        4,
++        5,
++        5,
++        5
++      ],
++      "values": [
++        2,
++        4,
++        6,
++        10,
++        12,
++        16,
++        18,
++        22
++      ],
++      "source_length": 139,
++      "trace": [
++        {
++          "level": 1,
++          "start": 0,
++          "half": 1,
++          "precision": 9,
++          "lower": 2,
++          "product": 3,
++          "output": [
++            [
++              4,
++              3
++            ]
++          ],
++          "retained": [
++            10,
++            10,
++            12,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            24,
++            24,
++            24,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            10,
++            5,
++            10,
++            6,
++            3,
++            1,
++            7
++          ]
++        },
++        {
++          "level": 1,
++          "start": 2,
++          "half": 1,
++          "precision": 9,
++          "lower": 6,
++          "product": 7,
++          "output": [
++            [
++              4,
++              3
++            ]
++          ],
++          "retained": [
++            10,
++            12,
++            14,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            24,
++            24,
++            24,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            11,
++            10,
++            5,
++            10,
++            6,
++            3,
++            1,
++            7
++          ]
++        },
++        {
++          "level": 1,
++          "start": 4,
++          "half": 1,
++          "precision": 10,
++          "lower": 12,
++          "product": 13,
++          "output": [
++            [
++              14,
++              13
++            ]
++          ],
++          "retained": [
++            11,
++            14,
++            16,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            26,
++            26,
++            26,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            12,
++            10,
++            5,
++            10,
++            6,
++            3,
++            1,
++            7
++          ]
++        },
++        {
++          "level": 1,
++          "start": 6,
++          "half": 1,
++          "precision": 11,
++          "lower": 18,
++          "product": 19,
++          "output": [
++            [
++              7,
++              6
++            ]
++          ],
++          "retained": [
++            12,
++            16,
++            16,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            28,
++            28,
++            28,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            13,
++            10,
++            5,
++            10,
++            6,
++            4,
++            3,
++            7
++          ]
++        },
++        {
++          "level": 2,
++          "start": 0,
++          "half": 2,
++          "precision": 17,
++          "lower": 2,
++          "product": 15,
++          "output": [
++            [
++              2,
++              1
++            ],
++            [
++              4,
++              3
++            ]
++          ],
++          "retained": [
++            18,
++            20,
++            24,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            78,
++            78,
++            78,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            19,
++            10,
++            5,
++            10,
++            6,
++            4,
++            3,
++            7
++          ]
++        },
++        {
++          "level": 2,
++          "start": 4,
++          "half": 2,
++          "precision": 20,
++          "lower": 38,
++          "product": 221,
++          "output": [
++            [
++              0,
++              18
++            ],
++            [
++              10,
++              9
++            ]
++          ],
++          "retained": [
++            21,
++            28,
++            30,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            90,
++            90,
++            90,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            22,
++            10,
++            5,
++            10,
++            6,
++            6,
++            4,
++            7
++          ]
++        },
++        {
++          "level": 3,
++          "start": 0,
++          "half": 4,
++          "precision": 36,
++          "lower": 797,
++          "product": 1155,
++          "output": [
++            [
++              11,
++              10
++            ],
++            [
++              8,
++              7
++            ],
++            [
++              2,
++              1
++            ],
++            [
++              2,
++              1
++            ]
++          ],
++          "retained": [
++            37,
++            42,
++            56,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            306,
++            306,
++            306,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            38,
++            10,
++            5,
++            10,
++            6,
++            6,
++            4,
++            7
++          ]
++        }
++      ],
++      "actions": 6897342,
++      "budget": 2652595650560,
++      "retained_total": 3710,
++      "owned_roles": 78
++    }
++  ],
++  "host_geometry_poisoned": true,
++  "runtime_constructors_sealed": true,
++  "full_crt_permutation": false,
++  "new_kappa": null
++}
+diff --git a/research/encoded-balanced-crt-entry/WORKING.md b/research/encoded-balanced-crt-entry/WORKING.md
+new file mode 100644
+index 00000000..0ee83813
+--- /dev/null
++++ b/research/encoded-balanced-crt-entry/WORKING.md
+@@ -0,0 +1,18 @@
++# Wave 2 working checkpoint — unverified until tests/review complete
++
++Base e54523517d0f03e58352e647c403a5af3e525a57. Work began 2026-11-10
++16:16 UTC; implementation budget ends17:26, verification packaging ends17:46.
++Parent approved track50/75: a tape-driven balanced-node numerical iterator,
++not the complete CRT permutation. Source axes and counts remain on tapes.
++No runtime width/start/level/precision integer may enter the new frontend.
++The actual unchanged #5219 Entry and #5053 producer must consume its outputs.
++
++Intended inventory:63 inherited numerical roles +8 protected zero words
+++7 shape/cursor/width roles =78 owned roles, plus the supplied source.
++Root count, halving, all source scans/rewinds, every cursor and level change,
++current guide/guards and result retirement are paid. Goal: <=C M² additional
++frontend source work for d-1 nodes, plus the inherited numerical tariff sum.
++Current code is not yet a proved or executed result. First decisive test:
++nonzero start and changed half-size on the same source and bank, with host
++geometry/decode methods poisoned. Any inherited contract mismatch is a stop
++or precise obstruction, not permission to silently alter the contract.
+diff --git a/research/encoded-balanced-crt-entry/frontend.py b/research/encoded-balanced-crt-entry/frontend.py
+new file mode 100644
+index 00000000..4b62b9c1
+--- /dev/null
++++ b/research/encoded-balanced-crt-entry/frontend.py
+@@ -0,0 +1,270 @@
++"""Tape-driven balanced-node selection into the unchanged CRT numerical entry.
++
++No runtime width, axis count, start, level or precision is decoded. All variable
++iteration is driven by local symbols on the supplied source or owned unary
++tapes. Numeric arithmetic and its 63-role bank are pinned predecessor code.
++Prepared for CubeJerry with substantial OpenAI assistance. Apache-2.0.
++"""
++from types import SimpleNamespace
++
++
++COUNTERS = ('axis', 'depth', 'halve_a', 'halve_b', 'half', 'double', 'width')
++GUARDS = ('g0', 'g1', 'g2', 'g3', 'g4', 'g5', 'g6', 'g7')
++
++
++class Iterator:
++    """One numerical result at a time; source contents stay read-only.
++
++The supplied source has the #5353 tagged padded-axis encoding and enters at
++head one. Construction charges shape manufacture. next() takes no geometry
++arguments. A returned lease must close before the next numerical result.
++"""
++    def __init__(self, words, records, entry, numeric, owner, canonical, source):
++        self.w, self.r, self.e = words, records, entry
++        self.numeric, self.canonical, self.source = numeric, canonical, source
++        self.bank = owner.Bank(words, entry)
++        self.guards = tuple(entry.Port(words) for _ in GUARDS)
++        for port in self.guards:
++            port.retire()
++        self.counters = {name: entry.Port(words) for name in COUNTERS}
++        self.live, self.closed = False, False
++        try:
++            self._shape()
++        except ValueError:
++            # Source framing errors and nondyadic counts precede numerical entry.
++            source.rewind()
++            for port in self.counters.values():
++                port.retire()
++            self.closed = True
++            raise
++
++    def _record(self, target=None, guide=None):
++        """Read one exact axis record; optionally project its canonical pair."""
++        w, r, source = self.w, self.r, self.source
++        width = self.counters['width']
++        width.clear()
++        w.need(source.read() == r.ROOT, 'axis tag')
++        source.step(1)
++        if target is not None:
++            target.append(r.ROOT)
++        seen = False
++        while source.read() == w.ONE:
++            seen = True
++            width.append(w.ONE)
++            if guide is not None:
++                guide.append(w.ONE)
++            source.step(1)
++        w.need(seen and source.read() == r.WORD_END, 'positive unary width')
++        source.step(1)
++        width.append(w.RIGHT)
++        width.rewind()
++        for delimiter in (r.WORD_END, r.RECORD_END):
++            while width.read() == w.ONE:
++                bit = source.read()
++                w.need(bit in (w.ZERO, w.ONE), 'padded source bit')
++                if target is not None:
++                    target.append(bit)
++                source.step(1)
++                width.step(1)
++            w.need(width.read() == w.RIGHT and source.read() == delimiter,
++                   'exact source field extent')
++            source.step(1)
++            width.rewind()
++            if target is not None:
++                self.canonical.canonical_end(target, w, r)
++        if target is not None:
++            target.append(r.RECORD_END)
++        width.clear()
++
++    def _many(self, port):
++        w = self.w
++        w.need(port.read() == w.ONE, 'nonempty reduction count')
++        port.step(1)
++        symbol = port.read()
++        w.need(symbol in (w.ONE, w.RIGHT), 'unary reduction shape')
++        port.rewind()
++        return symbol == w.ONE
++
++    def _shape(self):
++        w, source = self.w, self.source
++        axis, depth = self.counters['axis'], self.counters['depth']
++        current, spare = self.counters['halve_a'], self.counters['halve_b']
++        while source.read() != w.RIGHT:
++            self._record()
++            axis.append(w.ONE)
++            current.append(w.ONE)
++        source.rewind()
++        axis.append(w.RIGHT)
++        axis.rewind()
++        current.append(w.RIGHT)
++        current.rewind()
++        w.need(self._many(current), 'at least two source axes')
++        while self._many(current):
++            depth.append(w.ONE)
++            odd = False
++            while current.read() == w.ONE:
++                odd = not odd
++                if not odd:
++                    spare.append(w.ONE)
++                current.step(1)
++            w.need(current.read() == w.RIGHT and not odd, 'dyadic source axis count')
++            spare.append(w.RIGHT)
++            spare.rewind()
++            current.clear()
++            current, spare = spare, current
++        current.clear()
++        spare.clear()
++        depth.append(w.RIGHT)
++        depth.rewind()
++        half = self.counters['half']
++        half.append(w.ONE)
++        half.append(w.RIGHT)
++        half.rewind()
++        w.need(axis.read() == w.ONE, 'first axis')
++        axis.write(self.r.STEP)  # Unique current-node marker.
++
++    def _prepare_guards(self, guide):
++        w = self.w
++        for port in self.guards:
++            port.step(-1)
++            w.need(port.read() == w.BLANK, 'retired protected marker')
++            port.write(w.LEFT)
++            port.step(1)
++            while guide.read() == w.ONE:
++                w.need(port.read() == w.BLANK, 'retired protected body')
++                port.write(w.ZERO)
++                port.step(1)
++                guide.step(1)
++            w.need(guide.read() == w.BLANK and port.read() == w.BLANK,
++                   'current protected extent')
++            port.write(w.RIGHT)
++            port.rewind()
++            guide.rewind()
++
++    def _entry(self, w, r, adapter, numeric, source, dirty,
++               widths, ell, level, start, row):
++        # Bank.open's fixed call signature is preserved. Geometry is never supplied.
++        w.need(widths is None and ell is None and level is None and
++               start is None and row is None, 'no host geometry arguments')
++        w.need(source is self.source and dirty is self.guards, 'actual borrowed ports')
++        return NodeEntry(self, adapter)
++
++    def next(self):
++        self.w.need(not self.live, 'previous node result must close')
++        if self.closed:
++            return None
++        self.w.need(self.counters['depth'].read() == self.w.ONE, 'active encoded level')
++        self.live = True
++        bridge = SimpleNamespace(RowEntry=self._entry)
++        lease = self.bank.open(self.r, self.numeric, bridge, self.source, self.guards,
++                               None, None, None, None, None)
++        return NodeLease(self, lease)
++
++    def _double_half(self):
++        w = self.w
++        half, temporary = self.counters['half'], self.counters['double']
++        while half.read() == w.ONE:
++            temporary.append(w.ONE)
++            half.step(1)
++        w.need(half.read() == w.RIGHT, 'half-size delimiter')
++        half.write(w.BLANK)
++        temporary.append(w.RIGHT)
++        temporary.rewind()
++        while temporary.read() == w.ONE:
++            half.append(w.ONE)
++            temporary.step(1)
++        w.need(temporary.read() == w.RIGHT, 'copied half size')
++        half.append(w.RIGHT)
++        half.rewind()
++        temporary.clear()
++
++    def _advance(self, last):
++        w, r = self.w, self.r
++        axis, depth = self.counters['axis'], self.counters['depth']
++        while axis.read() != r.STEP:
++            w.need(axis.read() == w.ONE, 'preserved current cursor')
++            axis.step(1)
++        axis.write(w.ONE)
++        if last:
++            while axis.read() != w.RIGHT:
++                w.need(axis.read() == w.ONE, 'last-node suffix')
++                axis.step(1)
++            axis.rewind()
++            depth.step(1)
++            if depth.read() == w.RIGHT:
++                self.close()
++                return
++            w.need(depth.read() == w.ONE, 'next encoded level')
++            self._double_half()
++            axis.write(r.STEP)
++        else:
++            while axis.read() != r.VALUE:
++                w.need(axis.read() == w.ONE, 'next-node interval')
++                axis.step(1)
++            axis.write(r.STEP)
++            axis.rewind()
++
++    def close(self):
++        self.w.need(not self.live and not self.closed, 'retired iterator closes once')
++        for port in self.counters.values():
++            port.retire()
++        self.closed = True
++
++
++class NodeEntry:
++    """Actual canonical streams and precision guide into unchanged Entry."""
++    def __init__(self, iterator, adapter):
++        self.iterator = iterator
++        w, r, source = iterator.w, iterator.r, iterator.source
++        self.guide, self.left, self.right = (adapter.Port(w), adapter.Port(w), adapter.Port(w))
++        self.inputs = (self.guide, self.left, self.right)
++        self.active = True
++        axis, half = iterator.counters['axis'], iterator.counters['half']
++        while axis.read() != r.STEP:
++            w.need(axis.read() == w.ONE, 'prefix cursor')
++            iterator._record()
++            axis.step(1)
++        for target in (self.left, self.right):
++            while half.read() == w.ONE:
++                w.need(axis.read() in (w.ONE, r.STEP), 'complete selected node')
++                iterator._record(target, self.guide)
++                axis.step(1)
++                half.step(1)
++            w.need(half.read() == w.RIGHT, 'encoded half extent')
++            half.rewind()
++            target.append(w.RIGHT)
++            target.rewind()
++        self.last = axis.read() == w.RIGHT
++        if not self.last:
++            w.need(axis.read() == w.ONE, 'following source axis')
++            axis.write(r.VALUE)  # Pending next cursor; current cursor survives handoff.
++        axis.rewind()
++        source.rewind()
++        self.guide.append(w.ONE)
++        self.guide.rewind()
++        iterator._prepare_guards(self.guide)
++        self.context = adapter.Entry(w, r, self.guide, iterator.guards)
++        self.result = self.context.invoke(iterator.numeric, self.left, self.right)
++
++    def close(self):
++        self.context.consume(self.result)
++        self.context.close()
++        for port in self.inputs:
++            port.retire()
++        for port in self.iterator.guards:
++            port.retire()
++
++
++class NodeLease:
++    def __init__(self, iterator, lease):
++        self.iterator, self.lease = iterator, lease
++        self.actual = lease.actual
++        self.closed = False
++
++    def close(self):
++        self.iterator.w.need(not self.closed, 'node lease closes once')
++        last = self.actual.last
++        self.lease.close()
++        self.closed = True
++        self.iterator.live = False
++        self.iterator._advance(last)
+diff --git a/research/encoded-balanced-crt-entry/verify.py b/research/encoded-balanced-crt-entry/verify.py
+new file mode 100644
+index 00000000..d765398e
+--- /dev/null
++++ b/research/encoded-balanced-crt-entry/verify.py
+@@ -0,0 +1,205 @@
++"""Actual producer executions; all host decoding below is observer-only."""
++from contextlib import contextmanager
++from hashlib import sha256
++from pathlib import Path
++from types import ModuleType
++import json
++import math
++import sys
++
++P = Path(__file__).resolve().parent
++ROOT = P.parents[1]
++
++
++def need(ok, message):
++    if not ok:
++        raise ValueError(message)
++
++
++def load(name, path):
++    m = ModuleType(name)
++    m.__file__ = str(path)
++    sys.modules[name] = m
++    exec(compile(path.read_bytes(), str(path), 'exec'), m.__dict__)
++    return m
++
++
++def modules():
++    w = load('words', ROOT/'research/r437-preparation-composition/predecessor4025/source/words.py')
++    r = load('records', ROOT/'research/r437-preparation-composition/predecessor4025/source/records.py')
++    e = load('entry', ROOT/'research/encoded-crt-entry-lifecycle/entry.py')
++    n = load('numeric', ROOT/'research/encoded-current-crt/producer.py')
++    o = load('owner', ROOT/'research/crt-persistent-numerical-owner/owner.py')
++    c = load('canonical', ROOT/'research/crt-mixed-row-entry/bridge.py')
++    return w, r, e, n, o, c
++
++
++def fixture(w, r, e, moduli, widths, values):
++    source = e.Port(w)
++    for s, h, x in zip(moduli, widths, values, strict=True):
++        source.append(r.ROOT)
++        for _ in range(h):
++            source.append(w.ONE)
++        source.append(r.WORD_END)
++        for value, delimiter in ((s, r.WORD_END), (x, r.RECORD_END)):
++            for j in range(h):
++                source.append((value >> j) & 1)
++            source.append(delimiter)
++    source.append(w.RIGHT)
++    source.rewind()
++    return source
++
++
++def unword(cells, index, delimiter):
++    value, bit = 0, 0
++    while cells[index] != delimiter:
++        need(cells[index] in (0, 1), 'observer binary word')
++        value += cells[index] << bit
++        bit += 1
++        index += 1
++    return value, index+1
++
++
++def records(port, w, r):
++    result, at = [], 1
++    while port.cells[at] != w.RIGHT:
++        need(port.cells[at] == r.ROOT, 'observer record tag')
++        first, at = unword(port.cells, at+1, r.WORD_END)
++        second, at = unword(port.cells, at, r.WORD_END)
++        need(port.cells[at] == r.RECORD_END, 'observer record end')
++        at += 1
++        result.append([first, second])
++    return result
++
++
++def numeric_oracle(moduli, values, start, half):
++    """Independent exhaustive congruence solution, no predecessor arithmetic."""
++    left = moduli[start:start+half]
++    left_values = values[start:start+half]
++    product = math.prod(left)
++    if all(x < s for x, s in zip(left_values, left)):
++        residues, prefix = [], 1
++        for s, x in zip(left, left_values):
++            residues.append((x*prefix) % s)
++            prefix *= s
++        lower = next(k for k in range(product)
++                     if all(k % s == residue for s, residue in zip(left, residues)))
++    else:
++        lower = 0
++    result, prefix = [], product
++    for s, x in zip(moduli[start+half:start+2*half], values[start+half:start+2*half]):
++        offset = next(o for o in range(s) if (o*prefix-lower) % s == 0)
++        result.append([offset, (x+offset) % s if x < s else x])
++        prefix *= s
++    return lower, product, result
++
++
++def poison(module):
++    def denied(*a, **k):
++        raise ValueError('forbidden host geometry/decode')
++    for name in ('int', 'float', 'len', 'range', 'sum', 'min', 'max', 'enumerate', 'pow', 'sorted'):
++        module.__dict__[name] = denied
++    return denied
++
++
++@contextmanager
++def sealed(w, e):
++    old = e.Port.__init__, w.Word.__init__, w.Arena.__init__, w.Word.inspect
++    def denied(*a, **k):
++        raise ValueError('forbidden runtime constructor/decode')
++    e.Port.__init__ = w.Word.__init__ = w.Arena.__init__ = w.Word.inspect = denied
++    try:
++        yield
++    finally:
++        e.Port.__init__, w.Word.__init__, w.Arena.__init__, w.Word.inspect = old
++
++
++def actions(ports):
++    return sum(p.meter.reads+p.meter.writes+p.meter.moves for p in ports)
++
++
++def check_fixture(f, m, name, moduli, widths, values):
++    w, r, e, n, o, c = m
++    source = fixture(w, r, e, moduli, widths, values)
++    snapshot = bytes(source.cells), source.head
++    before = actions([source])
++    it = f.Iterator(w, r, e, n, o, c, source)
++    ports = (*it.bank.ports, *it.guards, *it.counters.values())
++    need(len(ports) == 78 and len({id(p.cells) for p in ports}) == 78, '78 distinct owned roles')
++    identities = tuple(id(p.cells) for p in ports)
++    expected = [(level, start, 1 << (level-1))
++                for level in range(1, len(widths).bit_length())
++                for start in range(0, len(widths), 1 << level)]
++    trace, numeral_work, last_lease = [], 0, None
++    try:
++        with sealed(w, e):
++            for level, start, half in expected:
++                lease = it.next()
++                last_lease = lease
++                need(lease is not None, 'every balanced node produced')
++                a = lease.actual
++                precision = 1+sum(widths[start:start+2*half])
++                need(records(a.left, w, r) == [[s, x] for s, x in
++                      zip(moduli[start:start+half], values[start:start+half])], 'selected left records')
++                need(records(a.right, w, r) == [[s, x] for s, x in
++                      zip(moduli[start+half:start+2*half], values[start+half:start+2*half])], 'selected right records')
++                need(a.guide.cells[1:precision+1] == bytearray([w.ONE])*precision and
++                      (len(a.guide.cells) == precision+1 or a.guide.cells[precision+1] == w.BLANK),
++                     'physical current guide extent')
++                lower, product, output = numeric_oracle(moduli, values, start, half)
++                need(unword(a.result['lower'].cells, 1, w.RIGHT)[0] == lower, 'independent lower congruences')
++                need(unword(a.result['product'].cells, 1, w.RIGHT)[0] == product, 'independent left product')
++                need(records(a.result['stream'], w, r) == output, 'independent actual numerical output')
++                for guard in it.guards:
++                    need(guard.cells[:precision+2] == bytearray([w.LEFT]+[w.ZERO]*precision+[w.RIGHT]),
++                         'current exact-width protected zeros')
++                    need(all(x == w.BLANK for x in guard.cells[precision+2:]), 'blank protected historical tail')
++                need((bytes(source.cells), source.head) == snapshot, 'source restored during result handoff')
++                lease.close()
++                meter = a.context.arena.meter
++                numeral_work += meter.reads+meter.writes+meter.moves
++                need(tuple(id(p.cells) for p in ports) == identities, 'stable whole-iterator backing')
++                need(all(p.head == 1 and all(x == w.BLANK for x in p.cells)
++                         for p in (*it.bank.ports, *it.guards)), 'numerical history retired')
++                trace.append({'level': level, 'start': start, 'half': half, 'precision': precision,
++                              'lower': lower, 'product': product, 'output': output,
++                              'retained': [len(p.cells) for p in ports]})
++            need(it.next() is None and it.closed, 'exact final rightmost node and termination')
++    finally:
++        if last_lease is not None and not last_lease.closed:
++            last_lease.close()
++        if not it.closed and not it.live:
++            it.close()
++    need((bytes(source.cells), source.head) == snapshot, 'all source bytes and head restored')
++    need(all(p.head == 1 and all(x == w.BLANK for x in p.cells) for p in ports), 'all owned history blank')
++    total = actions([source, *ports])-before+numeral_work
++    length = len(source.cells)
++    budget = 2**16*(length+2)**2 + sum(2**20*(t['precision']+2)**4 +
++             2**16*(t['precision']+2)**2 + 4096 for t in trace) + 4096
++    need(total <= budget, 'complete quantified invoice calibration')
++    return {'name': name, 'moduli': list(moduli), 'widths': list(widths), 'values': list(values),
++            'source_length': length, 'trace': trace, 'actions': total, 'budget': budget,
++            'retained_total': length+sum(len(p.cells) for p in ports), 'owned_roles': 78}
++
++
++def main():
++    m = modules()
++    f = load('encoded_frontend', P/'frontend.py')
++    poison(f)
++    cases = [check_fixture(f, m, 'changing_half_and_nonzero_start', (5,7,3,2), (3,3,2,2), (3,2,1,1)),
++             check_fixture(f, m, 'invalid_left_and_padded_right', (7,3), (3,2), (7,3)),
++             check_fixture(f, m, 'wide_declared_axes', (7,5,3,2), (4,4,3,3), (6,4,2,1)),
++             check_fixture(f, m, 'eight_axis_tree', (3,5,7,11,13,17,19,23),
++                           (4,4,4,4,4,5,5,5), (2,4,6,10,12,16,18,22))]
++    result = {'status': 'PASS_ENCODED_BALANCED_CRT_ENTRY', 'cases': cases,
++              'host_geometry_poisoned': True, 'runtime_constructors_sealed': True,
++              'full_crt_permutation': False, 'new_kappa': None}
++    if '--write-result' in sys.argv:
++        (P/'RESULT.json').write_text(json.dumps(result, indent=2)+'\n')
++    else:
++        need(result == json.loads((P/'RESULT.json').read_text()), 'frozen typed receipt')
++    print(result['status'], 'nodes='+str(sum(len(c['trace']) for c in cases)), 'owned_roles=78')
++
++
++if __name__ == '__main__':
++    main()

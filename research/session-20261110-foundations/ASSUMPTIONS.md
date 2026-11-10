@@ -6,9 +6,9 @@ Canonical base: `e54523517d0f03e58352e647c403a5af3e525a57`. Exact statements: `c
 
 > Retained native operators, phase conventions, spectators and whole-job adapters work at every positive column multiplicity.
 
-**Established or scoped progress:** Current selected review checks the 3057-map finite catalogue, exact phase/owner joins and ideal common grid. Source-specific leaf, monomial and rounded MOVE packages prove local domains; #6996 binds old #6030, #6994 the distinct #6936 source, not automatically current #7000.
+**Established or scoped progress:** Current selected review checks the3057-map catalogue via full signed-Pauli action plus exact global phase and then proves the product lift at every f with complete spectators under retained provider semantics. Its phase/owner joins and ideal common grid are already applied. Source-specific leaf, monomial and rounded MOVE packages prove local domains; #6996 binds old #6030, #6994 the distinct #6936 source, not automatically current #7000.
 
-**Conditional remainder and caveats:** All-size installed providers, every positive multiplicity, actual reached precision/radius, nonleaf composition, spectators and complete source/route charges must agree. A finite catalogue is not an all-column theorem.
+**Conditional remainder and caveats:** All-size installed providers, every positive multiplicity, actual reached precision/radius, nonleaf composition, spectators and complete source/route charges must agree. Finite enumeration alone would not prove the lift; the current review also supplies the algebraic argument. The remaining gap is all-size physical implementation, not a missing distinguished-column check.
 
 **Weak useful next lemma:** Bind one actual current event family and production descriptor to an implemented whole-field provider with valid-return and complete entry/exit bill. Material enabling progress, not all A1.
 

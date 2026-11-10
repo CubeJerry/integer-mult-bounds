@@ -1,0 +1,3013 @@
+diff --git a/research/coded-whole-row-services/CHECKPOINT.md b/research/coded-whole-row-services/CHECKPOINT.md
+new file mode 100644
+index 00000000..a519f290
+--- /dev/null
++++ b/research/coded-whole-row-services/CHECKPOINT.md
+@@ -0,0 +1,65 @@
++# Wave 2 local WIP checkpoint: not independently reviewed
++
++Canonical base: e54523517d0f03e58352e647c403a5af3e525a57.
++Branch: research/continuous-20261110-continuations.
++Package: research/coded-whole-row-services.
++Worker: dispatcher. Track50. This checkpoint is unfinished research, not a
++reviewed contribution or a production numerical-header implementation.
++
++## Implemented, with bounded executed corroboration
++
++rows.py emits four entry points of one seven-symbol graph with273w+125 states
++for fixed productive width w>=2. No runtime B, row count R or depth is compiled
++into that graph. One specific protected payload role G holds a canonical
++zero-row format guide; the existing child_header stages that guide across the
++unchanged Controller/Stack boundary. Root format production F_format(B) remains
++a named supplied-input obligation. It is not the e/f/K/rho production header.
++
++Classification reads one actual formatted row. Installation stripes complete
++rows among all w productive fields; collection checks every returned field
++and its matching component layout, then interleaves rows before actual pop.
++Transport permits arbitrary canonical signed-component row layouts. The actual
++scalar-provider binding uses complete complex pairs, as #6968 requires.
++
++Candidate exact transition bills (read/write/unit move/halt each one) passed:
++
++    classify =8B+9; prepare=9B+8;
++    install=13RB+4R+R/w+9B+3w+12;
++    collect=13RB+4R+R/w+4w+4.
++
++Adding all unchanged Controller administration gives the proposed nonleaf
++boundary invoice, with q payload tapes, b saved-PC bits, parent occupied
++sum S, child occupied sum C, and L=RB:
++
++    4S+5C+57L+8R+2R/w+31B+38q+27b+7w+136.
++
++This includes classification but excludes numerical child time, literal
++Controller instruction dispatch, separate RET top tests, and supplied-input
++production. It does not improve kappa or discharge a selected assumption.
++
++Executed coverage in RESULT.json:64 row-service cases,16 extra one-row leaf
++classifiers,7 actual Controller/Stack replays with #6968 SCALE(-1) leaves,
++57 ordinary boundaries,4160 independently specified short guide/data pairs,
++and16 negative controls. Widths2..5 are tested for row services; Controller
++fixtures use w2/3/4, depths0..3, translated prefixes, dirty initial work, and
++warm blank histories. All original admin terms and every new callback are
++measured separately and recomposed. A first odd-component scalar fixture was
++correctly rejected by the retained complex provider; fixtures now use pairs.
++
++## Reproduce and remaining work
++
++    python3 -I -B research/coded-whole-row-services/verify.py
++
++Expected: PASS_CODED_WHOLE_ROW_SERVICES64 7 4160 16 (spaces after the status).
++The explicit --write-result flag regenerates the frozen receipt; default
++execution is read-only. Retained bytes authenticate before source-byte exec,
++so no stale pyc can bypass the pins.
++
++Unverified at this checkpoint: the quantified proof, historical-capacity
++envelope, exact model-interface exposition, full task/source/VERIFY metadata,
++independent lead review and publication checks. The actual code and all-size
++claims must not be advertised as reviewed yet. Next: finish PROOF.md with
++format/parser, complete-row, suspended-owner and cost inductions; add metadata
++and limitations; execute registered normal/optimized verification; request
++cross-review before the scientific freeze. Exclude variable-rank recursion,
++non-power homogeneous roots, remainders/padding and production descriptors.
+diff --git a/research/coded-whole-row-services/DEPENDENCIES.json b/research/coded-whole-row-services/DEPENDENCIES.json
+new file mode 100644
+index 00000000..120c872c
+--- /dev/null
++++ b/research/coded-whole-row-services/DEPENDENCIES.json
+@@ -0,0 +1,54 @@
++{
++  "schema_version": 1,
++  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
++  "files": [
++    {
++      "source_path": "research/scalar-table-microcontrol/vendor/machine.py",
++      "local_path": "retained/machine.py",
++      "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
++      "bytes": 14932,
++      "sha256": "ec597bce13275003ff30e4be481c936401826c1d4af642b55eec0c410774d1df",
++      "git_blob": "acf475e4fccaff2fb64bd5b0b3f3fc0d246dc592"
++    },
++    {
++      "source_path": "research/scalar-table-microcontrol/vendor/exact_scalar_tables.py",
++      "local_path": "retained/exact_scalar_tables.py",
++      "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
++      "bytes": 12650,
++      "sha256": "654e9734ef80a9394807ca508543b1bc164afb5768d23d0e5a88c790d2f13bac",
++      "git_blob": "1cc22f75fbe53d48b84be42782e581c04820cd49"
++    },
++    {
++      "source_path": "research/scalar-table-microcontrol/reference/LIFECYCLE-PROOF.md",
++      "local_path": "retained/LIFECYCLE-PROOF.md",
++      "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
++      "bytes": 35612,
++      "sha256": "9a088fa00f10e59df48090b67c6ef7c3641bc9cc36b223deb917740372d57993",
++      "git_blob": "605981247e27de68fe78d3a36e2b454efbd6b11e"
++    },
++    {
++      "source_path": "research/delimited-continuation-stack/stack.py",
++      "local_path": "retained/stack.py",
++      "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
++      "bytes": 5657,
++      "sha256": "21a2213aa850c55e5eace4cd10b72b958d7ee84d83a014567902ce8ee9b3f4f2",
++      "git_blob": "a5d6753b901901a5b2d1a4dd72134e53af70c666"
++    },
++    {
++      "source_path": "research/delimited-continuation-stack/PROOF.md",
++      "local_path": "retained/STACK-PROOF.md",
++      "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
++      "bytes": 7661,
++      "sha256": "1baafa10fa78b788a70d4cc35ec4a8fe41f6fd280d3aad81453312f91488400d",
++      "git_blob": "5c9310d77e847bebee3c41a6fb87c9dc05fdef42"
++    },
++    {
++      "source_path": "research/current-scalar-flat-tables/PROOF.md",
++      "local_path": "retained/SCALAR-PROOF.md",
++      "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
++      "bytes": 17101,
++      "sha256": "ac65c5a157c22779e71c3fc16453543d024406710d37f860d0ef0d5c8f58932e",
++      "git_blob": "2469f719ad5da0906694acba1829361498747b45"
++    }
++  ]
++}
+diff --git a/research/coded-whole-row-services/RESULT.json b/research/coded-whole-row-services/RESULT.json
+new file mode 100644
+index 00000000..e7c9fcb8
+--- /dev/null
++++ b/research/coded-whole-row-services/RESULT.json
+@@ -0,0 +1,207 @@
++{
++  "status": "PASS_CODED_WHOLE_ROW_SERVICES",
++  "services": {
++    "cases": 64,
++    "total_canonical_bits": 8400,
++    "graph_states": {
++      "2": 671,
++      "3": 944,
++      "4": 1217,
++      "5": 1490
++    },
++    "leaf_cases": 16
++  },
++  "controllers": [
++    {
++      "width": 2,
++      "depth": 0,
++      "component_widths": [
++        2,
++        2
++      ],
++      "row_bits": 18,
++      "root_rows": 1,
++      "prefix_length": 0,
++      "initial_dirty_work": [
++        5,
++        6
++      ],
++      "ordinary_boundaries": 0,
++      "row_callbacks": 2,
++      "raw_actions": 2386,
++      "row_transition_steps": 306,
++      "scalar_rows": 216,
++      "boundary_administrative_sum": 0,
++      "complete_boundary_sum": 0,
++      "retained_cells": 231
++    },
++    {
++      "width": 2,
++      "depth": 1,
++      "component_widths": [
++        2,
++        3
++      ],
++      "row_bits": 21,
++      "root_rows": 2,
++      "prefix_length": 7,
++      "initial_dirty_work": [
++        3,
++        4
++      ],
++      "ordinary_boundaries": 2,
++      "row_callbacks": 12,
++      "raw_actions": 13818,
++      "row_transition_steps": 4114,
++      "scalar_rows": 216,
++      "boundary_administrative_sum": 5034,
++      "complete_boundary_sum": 8440,
++      "retained_cells": 416
++    },
++    {
++      "width": 2,
++      "depth": 2,
++      "component_widths": [
++        3,
++        3
++      ],
++      "row_bits": 24,
++      "root_rows": 4,
++      "prefix_length": 19,
++      "initial_dirty_work": [
++        17,
++        18
++      ],
++      "ordinary_boundaries": 6,
++      "row_callbacks": 32,
++      "raw_actions": 47670,
++      "row_transition_steps": 15762,
++      "scalar_rows": 216,
++      "boundary_administrative_sum": 21274,
++      "complete_boundary_sum": 35428,
++      "retained_cells": 873
++    },
++    {
++      "width": 2,
++      "depth": 3,
++      "component_widths": [
++        2,
++        3,
++        1,
++        2
++      ],
++      "row_bits": 36,
++      "root_rows": 8,
++      "prefix_length": 37,
++      "initial_dirty_work": [
++        11,
++        12
++      ],
++      "ordinary_boundaries": 14,
++      "row_callbacks": 72,
++      "raw_actions": 182682,
++      "row_transition_steps": 63874,
++      "scalar_rows": 216,
++      "boundary_administrative_sum": 88130,
++      "complete_boundary_sum": 147252,
++      "retained_cells": 2087
++    },
++    {
++      "width": 3,
++      "depth": 1,
++      "component_widths": [
++        3,
++        4
++      ],
++      "row_bits": 27,
++      "root_rows": 3,
++      "prefix_length": 9,
++      "initial_dirty_work": [
++        7,
++        8
++      ],
++      "ordinary_boundaries": 3,
++      "row_callbacks": 21,
++      "raw_actions": 38024,
++      "row_transition_steps": 10689,
++      "scalar_rows": 216,
++      "boundary_administrative_sum": 14133,
++      "complete_boundary_sum": 22797,
++      "retained_cells": 725
++    },
++    {
++      "width": 3,
++      "depth": 2,
++      "component_widths": [
++        2,
++        3
++      ],
++      "row_bits": 21,
++      "root_rows": 9,
++      "prefix_length": 31,
++      "initial_dirty_work": [
++        13,
++        14
++      ],
++      "ordinary_boundaries": 12,
++      "row_callbacks": 75,
++      "raw_actions": 136160,
++      "row_transition_steps": 41931,
++      "scalar_rows": 216,
++      "boundary_administrative_sum": 62904,
++      "complete_boundary_sum": 100056,
++      "retained_cells": 1574
++    },
++    {
++      "width": 4,
++      "depth": 2,
++      "component_widths": [
++        3,
++        3
++      ],
++      "row_bits": 24,
++      "root_rows": 16,
++      "prefix_length": 47,
++      "initial_dirty_work": [
++        5,
++        6
++      ],
++      "ordinary_boundaries": 20,
++      "row_callbacks": 144,
++      "raw_actions": 366800,
++      "row_transition_steps": 107524,
++      "scalar_rows": 216,
++      "boundary_administrative_sum": 175640,
++      "complete_boundary_sum": 270300,
++      "retained_cells": 3190
++    }
++  ],
++  "format_exhaustion": {
++    "physical_lengths": [
++      3,
++      6
++    ],
++    "guide_data_pairs": 4160,
++    "accepted_pairs": 2
++  },
++  "negative_controls": [
++    "short_last_returned_field",
++    "long_last_returned_field",
++    "partial_last_codeword",
++    "literal_zero_bytes_are_not_a_zero_row",
++    "lost_component_terminator",
++    "different_layout_with_same_length",
++    "nonzero_format_digit",
++    "empty_format",
++    "foreign_physical_symbol",
++    "incomplete_productive_batch",
++    "aliased_format_role",
++    "aliased_productive_roles",
++    "aliased_outer_relays",
++    "swapped_complete_fields_endpoint",
++    "omitted_returned_field_frontier_check",
++    "omitted_format_installation_cost"
++  ],
++  "kappa_change": null,
++  "conditional_homogeneous_geometry": true
++}
+diff --git a/research/coded-whole-row-services/retained/LIFECYCLE-PROOF.md b/research/coded-whole-row-services/retained/LIFECYCLE-PROOF.md
+new file mode 100644
+index 00000000..60598124
+--- /dev/null
++++ b/research/coded-whole-row-services/retained/LIFECYCLE-PROOF.md
+@@ -0,0 +1,591 @@
++# Source-bound physical lifecycle for the retained complex compiler
++
++Prepared for @CubeJerry with substantial OpenAI assistance. Apache-2.0.
++
++## 1. Claim, prior coverage and exact boundary
++
++This package constructs a physical lifecycle refinement of the **current
++selected raw word and the complete finite compiler grammar**. Its new content
++is the binding between actual source events and an executable sequential-tape
++controller: current private lifetimes, chronological product substitutions,
++compiler matches on borrowed private fields, complete smaller-program batches,
++initialization, arithmetic COPY, dirty retirement, suspended parent contents,
++saved finite return state, and output installation before parent resumption.
++The proof is quantified over all legal runtime sizes for every fixed finite
++template produced by that construction. Its force is the induction below;
++the executed small instances are discriminating implementation evidence.
++
++The generic allocation argument already exists in
++[#5814](https://github.com/CrocSwap/integer-mult-bounds/pull/5814), especially
++`selected-owned-dispatch/ALLOCATION-THEOREM.md`, `FRESH-NAMES.md` and
++`BINDING-STATUS.md`. That work includes coded logical blanks, the output bridge,
++COPY as addition, and the distinction between current volume and retained
++backing. Those ideas are credited dependencies, not new discoveries here.
++The present contribution instantiates them with the current source word and a
++literal controller, and supplies a source-driven lowerer which executes the
++complete lockstep compiler rather than replacing large subprograms by an
++interface check.
++
++All five assumptions in selected #6030 remain in the selected record. A native
++Gaussian implementation and its numerical error bound are not supplied here.
++A physical lifecycle theorem relative to explicit native and row services is
++different from a complete multiplication theorem.
++
++`SOURCES.json` pins canonical inputs at
++`7c49fe32c55de02c2c873655c804b16e4c3fef0a` by Git blob and SHA256:
++
++| Source | Use in this result |
++| --- | --- |
++| #6030 `p104-helper470-twin-rung-removal/WORD.json.gz` | Every current local operand, chart, INIT, COPY, MOVE and CLEAR |
++| `p104-productive-controller/CONTROLLER.json` | Actual 18 LOCAL sites, 15 copied queries, boundaries, IDLE jobs and productive roles |
++| #5443 `lockstep-completion-pass/executor.py` | Unchanged Pascal matching, replication, complete source/complement batches, exits and ownership stack |
++| `p7-TENSOR.md` and `FINITE-PRECOMPILATION.md` | Chronological product, completion/splitting and finite compiler semantics |
++| #5356 `delimited-continuation-stack/stack.py` | Unchanged local-read/write/unit-move continuation implementation |
++| #5814 allocation, fresh-name and binding proofs | Prior allocator and historical source-boundary analysis |
++
++Byte-identical proof exports in `vendor/` have public commit and Git/SHA256
++pins in `DEPENDENCIES.json`: #6878 at
++`41febf890fbbb852c6059d4c0cc8c593ae9dfa5c` supplies occurrence geometry,
++complements, inverse routes and the complete-row ABI; #6900 at
++`c46339035fccd571effb48434d80f572e20f1092` supplies the current ideal caller
++grid; #6901 at `4c7a4f00f09665276e145ac2cc1d12f8b8f9a7ac` supplies
++compiler-wide ideal dyadic precision and headroom under its endpoint premises.
++The verifier authenticates these proof bytes, without rerunning their whole
++dependency suites. The all-column selected algebra of #6890 and the newer
++#6902/#6914 owned-rise audit are not repeated or claimed as new results.
++
++### Relative theorem
++
++Fix the current raw unit and a finite sequence of the specified products,
++completion and splitting operations which produces a separated rule: maximum
++paid rank is smaller than minimum target rank. Fix a legal finite integer
++compiler rank N. Run `source_ir.lower` on authenticated #5443, without partial
++copies or non-base blackbox fallback. Let the resulting fixed template have
++productive width w, private inventory o and finite program P. All construction
++work precedes varying runtime input size.
++
++Assume these service conditions, which do **not** assume private initialization,
++arithmetic COPY, dirty erasure, or preservation of suspended parent banks:
++
++1. **Full-field and arithmetic ABI.** Numerical fields are complete common-format
++   arrays, with common fixed-point scale and signed component width. Native and
++   geometry services return the exact declared array extent, including arbitrary
++   spectators, at the origin. Actual additions fit the signed width. The frontier
++   is exactly the declared number of complete records: no trailing coded logical
++   blanks or native scratch remain in a numerical field. Descriptors are separate
++   contiguous raw binary payloads. The ideal format of #6900/#6901 is compatible
++   when their premises hold; it does not certify an approximate native service.
++2. **Fixed native tables.** Each SERVICE and elementary PAID leaf has a fixed
++   finite transition table with its source endpoint, time and local backing
++   bound. Its accessible ports are exactly its event fields, fixed auxiliary
++   ports and explicitly borrowed binary context ports. Tables cannot access
++   another field or an ancestor segment. The full-field conjugations of #6878
++   are charged services, not free relabelings.
++3. **Ordinary child services.** A terminating encoded stopping test and
++   `prepare/install/collect` implement actual ordinary recursion at the
++   supplied ordered PAID site. `prepare` preserves parent payloads and stages
++   a complete child descriptor; `install` distributes a complete owner bridge
++   into all w productive fields and installs that descriptor; `collect`
++   reconstructs the owner from **all** returned productive fields. They use
++   fixed supplied ports, return canonical heads and format, and have explicit
++   time/backing bounds. Rank reduction, elementary remainders, placement,
++   whole-row stock and numerical leaf cutoff belong to this interface.
++   A stock-depth fixture is not their proof.
++4. **Imported finite source theorem.** The named compiler has its stated
++   ordered matching, integral complete batches, strict smaller-rank substitutions
++   and semantic endpoints. This is an imported theorem, not an assertion that
++   finite testing proves it. The added lifecycle annotation is proved below
++   by structural induction over that exact construction.
++
++Then `machine.Controller` refines the emitted program on every legal runtime
++input and every finite current dirty private body. INIT produces canonical
++zero; COPY adds into the actual destination; CLEAR erases the complete physical
++body. A child cannot change a parked parent field, descriptor or continuation.
++Every output is captured before retirement; the correct occupied parent owner
++is replaced; all other parent words and heads return unchanged. The number of
++physical tapes is fixed by P and its service inventories, independently of
++runtime size and recursion depth.
++
++Sections 6–7 give a positive action invoice and a coordinatewise retained
++backing bound, including dirty contents and auxiliary high-water marks. Under
++the stated current-volume bounds and whole-row contraction
++`V_child=V_parent/w`, w>=2, they imply `K0+C_P V_root` retained backing and
++linear lifecycle work per ordinary node, with finite template-dependent
++constants. Arbitrarily occupied dirty input is not silently absorbed into K0.
++
++## 2. Actual raw lifetimes and the finite wrapper grammar
++
++`current_local` reads every instruction of the authenticated word. It checks
++the chart of every accessed field, exact Boolean ownership flags on MOVE,
++equal charts at scalar contacts, positive MOVE rank from the source chart
++dimension difference, and complete final charts. Every private access lies
++between the actual INIT and CLEAR. Each current COPY has coefficient one and
++an INIT destination unchanged by intervening operations. The machine still
++implements it by actual addition; this check does not license an overwrite.
++
++The exact local word has 770 public fields, 29 private names, 31 private
++lifetimes, peak logical ownership 13, and 23 COPY sites. The lowering uses a
++separate conservative 29-name inventory at each actual LOCAL occurrence; it
++does not reuse an ancestor's live bank because the local peak is smaller.
++
++`current_caller` maps the selected 104 local ports and their partners to the
++32 main factors. It allocates distinct sets of 562 local helpers and 29 private
++names for each of 18 LOCAL sites, retaining every caller boundary and physical
++event. Each QUERY_SHEAR gets the literal sequence
++
++`INIT z; COPY(z,x); query-in; PAID(z); query-out; query-add(y,z); CLEAR z`.
++
++Its 104 query banks are reused only after CLEAR. There are 15 query sites.
++Actual field maps are injective; productive inputs are not copied to satisfy
++another productive role. Normalizers are explicit SERVICE events, including
++the re-emitted whole-job canonicalizers of #6878.
++
++The derived caller has 13,444 productive fields, 626 private names, 2,118
++private lifetimes, 1,974 arithmetic COPYs and 66,834 paid jobs. Its annotated
++raw word has 642,410 events: 569,366 SERVICE, 66,834 PAID, 2,118 INIT,
++2,118 CLEAR and 1,974 COPY. Both complete paid and target histograms are
++compared with selected `RESULT.json`, rather than inferred from these totals.
++Added services incur positive ordinary work; this package does not claim
++that they fit the historical numerical raw `10^9` allowance.
++
++For a chronological product U*V, each V role j has a separate U copy. Its
++private names are `('left',j,name)`. At U's chronological paid position ell,
++the distinct current owners, in V-role order, become V's productive fields;
++V's private names are `('right',ell,name)`. A V input can be a live private
++field of U: it is borrowed, not allocated, copied or cleared by V. All V events
++and inverse normalizers finish before U resumes. Left and right path tags are
++disjoint. Induction on event position preserves each INIT/use/CLEAR lifetime,
++including later reuse of a private label in a disjoint lifetime.
++
++Let B_U,O_U,P_U count productive fields, private names and paid events, and
++I_U,C_U,A_U,S_U count INIT, CLEAR, COPY and SERVICE. The actual loops give
++
++\[
++B_{UV}=B_UB_V,\quad P_{UV}=P_UP_V,\quad O_{UV}=B_VO_U+P_UO_V,
++\]
++
++\[
++X_{UV}=B_VX_U+P_UX_V\quad(X=I,C,A),
++\]
++
++\[
++S_{UV}=B_VS_U+P_US_V+2B_UB_V+2P_UB_V.
++\]
++
++The final terms count charged complete-field entry/return services. The
++verifier checks this full bill on a product with private owners on both sides.
++These equalities define every fixed finite product power without requiring
++materialization of the selected 1,024-fold product.
++
++Completion appends the source job on [K,L) to a field with target K<L,
++retaining whole-job canonicalizers around the complete old word. Splitting
++replaces rank R by consecutive pieces of size at most J, with entry and inverse
++return around every piece. Original normalizers remain outside the replacement.
++No new private bank appears. If c fields are completed and p' is the sum of
++the ceiling counts of pieces, INIT/CLEAR/COPY counts stay fixed and SERVICE
++increases by 2c+2p'. Every piece keeps its actual owner. The executed fixture
++contains a nonleading split piece and a genuine completion job.
++
++## 3. Refinement of the actual integer compiler
++
++`lower` supplies the exact roles and ordered (rank,owner) rounds to the
++authenticated `Rule`. It reuses `Compiler.plan`, `compile`, `uniform`,
++`run_class`, Pascal buckets and source order unchanged. With the source's
++`owned_policy='unit'`, every static owned field is `('own',g,name)`, where g
++is the fresh source unit identifier. It gets one fixed physical port. Distinct
++unit occurrences never share a private bank just because their depths agree.
++
++| Source boundary | Added event and invariant |
++| --- | --- |
++| `push(field,(g,role),expected)` | Complete-field occurrence entry on that exact field; retain g, role, copy, Pascal point, column and program rank |
++| Before the next child/exit round | Emit the entire preceding nonpaid fragment for every unit, with its full field map |
++| `sub(n,fields,tops)` | Entry for the exact ordered distinct fields, complete smaller program, inverse returns |
++| Elementary n<m | `base-axis-enter`, rank-one PAID, `base-axis-return` for each actual axis and field |
++| After all deepest exit batches return | Final nonpaid fragment before releasing private names |
++| `pop(field,(g,role))` | Matching full-field inverse return before the source permission pop |
++
++The predecessor executor can replace large subprograms by an interface check
++for an audit budget, or execute only some replicas. This lowerer removes those
++shortcuts: `copies` must be `None`; every non-base `sub` has its exact compiled
++width and expands recursively. Only the elementary rank base makes rank-one
++leaves. The source budget does not gate this override. Python recursion and
++construction records are finite template construction, not runtime storage.
++
++Each scalar fragment is emitted only after all productive and private fields
++of the class are matched. Every ADD therefore receives its actual two complete
++fields in the common occurrence order. Replication can split a deepest exit
++round into several complete batches. A static pending set groups the batches; synchronous source construction
++calls prevent advancing the parent fragment or releasing its banks until the
++last batch and its inverse services have returned. The set becomes empty when
++the last batch is issued, before that synchronous call returns.
++That construction record becomes a fixed sequence of program counters.
++
++For the proof, induct on the source's strict smaller-rank calls, then on the
++finite class tree and chronological rounds. A fresh class receives injective
++source fields or the exact live fields handed by issuers; its private ports
++are fresh. The nonpaid fragment uses only these bindings, with every private
++access in a lifetime checked by `Unit.check`. While a child runs, the parent
++fragment is not emitted. A live private owner can thus be borrowed without
++being reinitialized or cleared. The child induction restores full fields and
++orders. The next parent fragment has its previous permission and shape. The
++final fragment closes all actual lifetimes before source release. The source
++LIFO returns give each actual field back to the issuer named by the matching.
++
++This proves the annotation property for every finite source instance, under
++the imported matching/termination theorem. `check_flat_ownership` separately
++replays the emitted word without calling the Compiler, tracking lifetime owners
++and nested occurrence, program and base-axis scopes. A parent cannot resume
++through an outstanding borrow; only the actual owner clears an unborrowed
++private field. This checker is extra evidence, not the universal argument.
++
++Only a rank-one PAID site makes an ordinary runtime recursive call on one
++owner. A compiler `sub` already has its complete ordered matched-field list.
++It consumes neither another row divisor nor another runtime bank frame.
++Products, completions and compiler substitutions are inside the fixed program.
++Their private names increase the template constant o; they allocate no new
++physical tapes at runtime.
++
++## 4. Geometry is an explicit service obligation
++
++Changing supports inside an unchanged scalar word would not be justified.
++The #6878 construction instead conjugates each **complete field** into the
++common occurrence order and inverse-routes it on return. For ordered support
++A its extension lists A followed by the increasing ambient complement. Every
++spectator remains present, without a zero assumption. An entry/return pair
++costs at most 6(N-1) selected-block movement records at that occurrence scale,
++besides native monomial, scalar, descriptor and row work. Movements act at
++the chosen bit plane rho; applying every bit plane requires its actual calls.
++
++The IR retains the needed source information at each boundary:
++
++* `occurrence-enter/return` identifies the actual field, unit, role, Pascal
++  point, column c and containing program. Full unit ambient satisfies
++  m*c<=n, and the matched target has its source rank k*c.
++* `program-enter/return` retains the ordered actual field list, source
++  complement or deepest-exit tag, and exact rank. A source complement uses
++  [s,n_parent), before the source job on [0,s). An exit uses its actual ordered
++  request, the smaller uniform program and the full complement. Return
++  services are emitted in reverse field order.
++* `base-axis-enter/return` retains the axis and base rank around every
++  elementary rank-one PAID. Ordinary row installation may use a canonical
++  prefix only after the requested axis is placed there and restored afterward.
++* Raw MOVE, LOCAL, QUERY, IDLE and whole-job normalizers, product transposes,
++  completed targets and split pieces remain explicit source-tagged services.
++  None is an additional row split.
++
++The finite source path determines the fixed movement recipe. Runtime scale,
++rank/placement values and rho are read from explicit binary context ports,
++not a hidden Python closure. Context is read-only and its head is normalized
++on return. Additional mutable scratch uses fixed `primitive_work` ports,
++included in the physical inventory and each continuation, and retired before
++and after the table.
++
++This package binds the positions and operands of these services and proves
++their lifecycle. It does not implement the charged compact selected-bit
++movement primitives or numerical native endpoints. Their table supplier must
++still meet the declared geometry, full-format return and tariff. A codec or
++head convention of an older native implementation is not automatically this
++ABI; an adapter and its cost must be supplied if they differ.
++
++## 5. Literal initialization, addition and physical continuation
++
++### Encoded fields and native ports
++
++The physical alphabet is 0,1,LEFT=2,SEP=3,END=4,BASE=5,BLANK=6.
++Every occupied payload body is a contiguous string of physical 0/1 cells,
++preceded by its current LEFT marker. Physical BLANK terminates that body.
++A logical symbol in 0..6 is coded by three physical bits; the logical blank
++is 4, encoded 100. It therefore cannot terminate a physical body. Native
++rightward motion at an unwritten frontier first materializes code 100, so it
++cannot jump over an unrepresented hole. Left motion rejects at the current
++origin and cannot access the parked parent. Code alignment is invariant.
++
++A signed component is a little-endian two's-complement word followed by logical
++COMPONENT=2, encoded 010. A complex record has two components. A numerical
++zero row consequently contains separator codes; it is **not** a string of
++physical zero bits. At a fixed fractional scale this representation is a
++common dyadic grid. #6901's ideal choice F=p+D and signed width
++p+h+2D+3 can be encoded this way under its assumptions. This package additionally
++requires actual arithmetic headroom and a provider's canonical return format.
++
++`CodedPort` is used for numerical fields and native auxiliaries. A separate
++`BinaryContextPort` exposes a raw binary descriptor: its frontier read returns
++physical BLANK=6, not logical blank4. Writes and movement beyond either its
++origin or frontier reject. The table's port order is event fields, then
++`primitive_work`, then `primitive_context`. The last group must be protected
++descriptor ports disjoint from event and scratch ports. They are included
++in the payload inventory, so a single physical stack preserves them too.
++
++`execute_table` accepts only finite branch/write/move/goto/halt/reject rows.
++It cannot call a Python numerical function or inspect a tape address. After
++the table it rewinds every bound port. Each table must return numerical fields
++to the declared full-record extent; trimming an extended numerical tail is
++part of that table's separately charged return contract. Native scratch is
++retired by the controller even when nonzero. Two-sided native machines need
++an explicit translation to one-sided ports, with its inventory and tariff;
++the present code does not silently assume that adaptation.
++
++### INIT, COPY and CLEAR
++
++`initialize(target,shape)` first retires every old byte of target, including
++coded logical blanks, then scans the complete format of productive field0.
++It writes zero for each value bit and preserves every component separator.
++All numerical fields have that same complete shape at a program boundary;
++native services do not change the guide's declared format. The guide's data
++and head are preserved. Every private name is initialized before access.
++
++`copy_as_add(target,source)` scans equal complete component boundaries and
++does finite carry addition into the **actual destination**. It retains only
++carry and previous sign bits. At a terminator it resets carry and rejects
++equal-sign overflow. It thus computes exact signed addition whenever the
++result fits. Existing destination residue is included, even if the ideal
++source word called that destination zero. It does not assign a host copy.
++
++`retire` scans to the physical frontier, writes BLANK on every occupied cell,
++and returns to the local origin. It is independent of the numerical value.
++Numerical zeroing does not substitute for retirement. Old high-water backing
++remains reserved after retirement; no space claim treats it as deallocated.
++
++### One physical stack, output before pop
++
++There are q fixed payload tapes: all productive and static private fields,
++row descriptors, and every row/native auxiliary. Four additional tapes hold
++the stack control, the active finite-PC descriptor, the owner bridge and the
++staged child header. The last two are reused at every depth. The bridge and
++header are not unrecorded per-depth arrays.
++
++At a non-leaf PAID site the controller performs this sequence:
++
++1. Copy the actual complete owner bytes into the empty bridge, without changing
++   the owner. Run `prepare` to stage the child's complete binary descriptor.
++2. Write the fixed-width binary PC of the following instruction. The source
++   site and its actual owner are recoverable from this finite PC.
++3. Run the inherited `Stack.push` on **all** q payload ports. It scans their
++   current bodies, leaves them intact, and installs a child LEFT delimiter at
++   each actual frontier. Every child head is at a new empty local origin.
++4. Run `install` into all productive ports and the new descriptor. Retire the
++   bridge and staged header. Begin the same fixed program at PC0.
++
++At child RET, `collect` first builds the complete returned owner in the bridge.
++The controller then retires all q child bodies, including every private bank,
++descriptor and dirty auxiliary. Only now does it call `Stack.pop`, which removes
++the child delimiters and restores every parent payload head and the saved PC.
++It consumes that PC, locates the exact parent owner from its preceding PAID
++instruction, retires the owner's old body, installs the bridge output, and
++retires the bridge. The next fixed instruction is the matching source
++continuation, including its inverse coordinate route where applicable.
++
++The stack does not save host pointers or origins. It finds current delimiters
++and the previous control top by local scans. The source implementation's
++returned sizes/heads and hardware counters are observers; the controller
++ignores them. Removing these observations changes no branch or tape action.
++The runtime PC and its bit loop have bounds fixed by the template and can be
++expanded into finite control. There is no host recursion in `Controller.run`.
++An observation callback used by the verifier is absent from the machine claim.
++
++Induct on the terminating ordinary recursion tree. At a leaf, the supplied
++finite table has its stated endpoint; INIT/COPY/CLEAR have the proved meanings.
++At an internal call, the delimiter isolates every child from all parent
++segments. The row service and induction hypothesis provide all child outputs.
++Capturing them before retirement preserves them independently of pop. Pop
++restores all parents, then only the actual issuing owner is replaced. Thus the
++next source instruction receives exactly the required data and descriptor.
++At the root, unprotected private and auxiliary payloads are retired; productive
++outputs and protected borrowed descriptors remain. This proves the physical
++part of the relative theorem without assuming erased intermediate values.
++
++## 6. Complete positive time invoice
++
++Count one local physical read, write or unit move as one action. The following
++are exact for `machine.py` and the pinned Stack, with canonical entry heads.
++Lengths refer to physical occupied binary bytes, not ideal nonzero values.
++
++| Routine | Exact actions |
++| --- | --- |
++| Rewind a head at offset h to its local origin | 2h+3 |
++| Transfer L bytes into an empty marked target | 8L+14 |
++| Retire L bytes | 5L+7 |
++| INIT, old dirty length D and n logical format symbols | 5D+25n+17 |
++| COPY addition with B value bits and C component terminators | 35B+26C+14 |
++| Stack.push, total parent length S, q ports, fixed PC width b | 2S+10q+7b+11 |
++| Stack.pop under the same conditions | 2S+21q+11b+28 |
++| Write / consume the active saved PC | 4b+4 / 5b+4 |
++| Test for a parent at a canonical control top | 3 |
++
++For example, the signed-addition bit scan performs its source and target
++three-bit reads and target rewrite; delimiter processing checks/reset carry.
++Rewinds give the final affine terms. These counts are derived from literal
++loops, not timing extrapolations. The verifier measures translated-origin
++cases, and the root reviewer separately derived the scan and stack bills.
++
++Let S be the sum of parent body lengths, C the sum of child body lengths just
++before their retirement, L_in and L_out the input/output owner lengths, and H
++the staged child header length. Here H is a header byte count, not the paper's
++control-field parameter dG. Descend plus ascend, excluding the three row
++service calls and separate leaf/top tests, has exact administrative cost
++
++\[
++\boxed{4S+5C+18L_{in}+13L_{out}+5H+38q+27b+103.}
++\]
++
++This includes both bridge copies, bridge/header retirement, all child
++retirement, parent-owner replacement, PC production/consumption and both
++stack operations. It allows unequal input/output physical lengths for the
++administrative identity, although the numerical row ABI returns the same
++complete declared shape. The nine boundary fixtures subtract measured row
++service actions and recover this exact bill, independently of ancestor prefix
++length. No child-time, numerical-value or source-error term is used to pay it.
++
++The total execution invoice is the sum of these administrative costs over
++ordinary calls; every actual INIT, COPY and CLEAR scan; every `prepare`,
++`install`, `collect` and encoded leaf test; every native/geometry/elementary
++kernel table; every primitive auxiliary pre/post retirement; root cleanup;
++and initial/final conversion or loading. All source adapters remain SERVICE
++costs. Fixed finite-control transitions contribute an additional fixed
++constant per emitted instruction and table transition in a standard TM model.
++
++A coded native read costs at most 10 physical actions, write 9, and unit
++movement at most 13, including materialized logical blanks. Read-only binary
++context reads cost 1 and legal unit moves at most 2. Thus a finite table using
++t such primitive steps costs at most 13t, plus each bound port's final rewind
++2h+3 and the explicit auxiliary retirements. This constant-factor simulation
++does not establish that a particular native table has the required tariff.
++
++If each current body, descriptor and service local peak is at most a fixed
++template constant times current complete-field volume V, then each lifecycle
++and boundary charge is O_P(V). A fixed program has finitely many events, so
++its total nonrecursive lifecycle charge at one ordinary node is O_P(V), in
++addition to its explicit primitive tariff. This is absorbable only where the
++retained node tariff already pays a full scan. We do not certify a new raw
++numerical allowance or silently discard geometry constants.
++
++Occupied dirty input of length D costs its actual 5D term. A very large warm
++blank capacity costs no traversal merely because it exists. Conversely, K0
++alone cannot justify an O(V) time bound for arbitrarily large **occupied**
++private bodies. The exact invoice applies without a small-D assumption; the
++linear-time corollary requires the stated current-volume entry bound.
++
++## 7. Retained backing, including erased and visited cells
++
++Use absolute physical extents, including every previously reserved or visited
++cell. Let K_i be entry backing of physical tape i, and b_i its current root
++payload origin. For a payload port at ordinary node v, let e_{v,i} bound the
++largest locally visited offset, expressed as a length from that node's origin.
++This includes native work, descriptor scratch, blanks subsequently erased and
++the first visited frontier cell. At a call boundary let s_{v,i} be its actual
++current parent-body length. The child origin on that same tape is exactly
++
++\[
++b_{child,i}=b_{v,i}+s_{v,i}+1,
++\]
++
++because push writes one LEFT delimiter at the actual parent frontier. Define
++the prospective extent recursively by
++
++\[
++E_{v,i}=\max\bigl(e_{v,i},
++ \max_{v\to u}(s_{v,i}+1+E_{u,i})\bigr).
++\]
++
++This is a resource proof, not a runtime address computation. A sequential
++child reuses the same suffix, so siblings enter a maximum rather than a sum.
++On every payload tape final retained backing is bounded coordinatewise by
++`max(K_i,b_i+E_root,i)`. Even if e and s bounds are conservative, this remains
++valid. Using `max(sum K_i, sum E_i)` instead is generally false: one tape can
++retain warm capacity while another extends cold backing.
++
++Control frames have length exactly 2q+b+3 when all payload heads are normalized.
++Thus control backing is bounded by the maximum live depth times that length,
++plus its entry prefix and visited frontier. The active PC tape needs b bits
++and its frontier. The shared bridge needs the largest complete owner or output
++encountered; the shared staged-header tape needs the largest staged descriptor.
++Their capacities are maxima across the execution, not per-depth allocations.
++Include their coordinatewise maxima with K_i too. Parent descriptors and
++all fixed row/native work tapes are already among the q payload ports.
++
++Suppose each node's local peaks, its current cut bodies, descriptor/auxiliary
++sizes, and the finitely many marker/PC costs are bounded by C_P V_v, with
++V_v>=1. Suppose each actual ordinary whole-row child satisfies
++V_u=V_v/w and w>=2, using the complete unchanged within-row format. Along any
++active path,
++
++\[
++\sum_j V_j\leq V_{root}\sum_{j\geq0}w^{-j}
++=\frac{V_{root}}{1-1/w}.
++\]
++
++Summing the coordinatewise inequalities and adding the fixed shared ports
++gives `K0+C'_P V_root`, where K0=sum_i K_i. Deleted dirty values and cleared
++native work remain included through their local peaks. There is no sum over
++all completed siblings, no depth-dependent tape inventory, and no separate
++unpriced descriptor stack. Without the local service bound, or without volume
++contraction, retain the explicit path/coordinate formula; do not assert the
++linear corollary. In particular, w=1 requires its own argument.
++
++The checker computes per-port prospective extents from the fixed source word,
++canonical field lengths and legal call cuts **before** execution. It then
++compares every individual physical tape's retained capacity. A separate
++observer tracks all reads, writes and unit moves, adding the visited frontier
++even where the inherited simulator has not extended its written-cell list.
++Both written backing and visited backing are recorded. Repeated invocations
++must reuse their retained suffixes exactly, and translated protected prefixes
++must be preserved. These are finite resource tests of the formula, not a
++replacement for the path induction.
++
++## 8. What is closed, what remains, and how to check it
++
++The proved implication replaces an abstract compiler-owned allocation step
++with a source-bound executable implementation: every current private lifetime
++and borrowed owner has an actual port; every source occurrence has explicit
++entry/return; initialization and COPY use the full numerical format; dirty
++contents are physically retired; complete ordinary child outputs survive pop;
++and all continuation, descriptor, scratch and historical backing is charged.
++There is no remaining allocator oracle inside this implementation.
++
++The result remains relative to the finite compiler source theorem and to the
++explicit native/geometry/ordinary-row services. It does not provide the compact
++movement tables, exact or rounded Gaussian tables, source-specific numerical
++stopping/stock producer, global numerical error analysis, BIT admission, or
++analytic recovery. A row implementation must treat the numerical zero-row
++pattern canonically, preserve complete within-row fields and spectators,
++divide only at actual ordinary children, handle decreasing rank and remainders,
++and charge its padding and descriptor arithmetic. Those are concrete interface
++obligations, rather than silently successful callbacks in the theorem.
++
++The current selected constants remain power1024, cutoff16, floor17, ambient145,
++and compiler N=2^65807000000000. The final template is defined constructively
++but is not materialized here. Its nonmaterialization is not itself a gap in
++an existence proof. Conversely, no finite fixture is described as executing
++that template or removing one of the five selected assumptions.
++
++Run the package verifier in normal and optimized Python. It authenticates all
++source bytes before parsing or executing and uses captured-source `compile`,
++not a stale bytecode cache. It checks current complete profiles, raw lifetimes,
++product and completion/splitting invoices, complete small compiler expansions,
++independent flat ownership, literal physical replays, exact boundary action
++bills, signed arithmetic, raw context access and retained backing. The current
++raw word is executed twice with distinguishing synthetic native tables; all
++2,118 private lifetimes are physically cleared on each invocation. That fixture
++is not a numerical Gaussian replay. An independent value-level oracle uses
++host recursion only in the checker, never in the controller.
++
++Adverse controls include borrowed CLEAR, a changed COPY coefficient, mistyped
++ownership flag, omitted INIT, early parent CLEAR, one bank per depth, missing
++occurrence/program/base-axis returns, an ancestor probe, COPY overwrite losing
++actual residue, numerical zero substituted for physical retirement, child
++output discarded before collection, wrong return PC, a logical blank collapsed
++to physical blank, source drift, and illegal binary context operations. Tests
++are rejection evidence for these specific faults. No proof-kernel acceptance
++or independent human approval is claimed.
++
++Credit the predecessor authors: Ali Romman's continuation and P104 work;
++JoyboyBrian's query/owned-interface work; Mason Hale's #5814 allocation binding;
++zxv's backing and chronological-product analysis; Jacob Alan Sussman's integer
++compiler; Mark / Matarener's lockstep implementation; Douglas Colkitt's compact
++layout and retained framework; DreamingOfClouds and the selected local-word
++lineage; Chris R / Clear1nsight's whole-job/contact audit; and the precision
++contributors including Ross Richardson. The #6878/#6900/#6901 source exports
++retain their original notices. This new source refinement, implementation,
++proof and checks were prepared for @CubeJerry with substantial OpenAI
++assistance. Concurrent root review is separate AI-assisted review, not a human
++or formal theorem certification.
+diff --git a/research/coded-whole-row-services/retained/SCALAR-PROOF.md b/research/coded-whole-row-services/retained/SCALAR-PROOF.md
+new file mode 100644
+index 00000000..2469f719
+--- /dev/null
++++ b/research/coded-whole-row-services/retained/SCALAR-PROOF.md
+@@ -0,0 +1,307 @@
++# Current scalar SERVICE tables on complete coded fields
++
++Prepared for **@CubeJerry**, with substantial OpenAI assistance. Apache-2.0.
++This is a source-bound physical implementation lemma. **No new κ.**
++
++## 1. Exact claim and boundary
++
++For each fixed nonzero rational coefficient q, `tables.compile_scalar` emits a
++finite table in the **unchanged** `machine.execute_table` grammar of the
++published `compiled-owned-bank-lifecycle` source. The only runtime instructions
++are branch on one local symbol, write one local symbol, unit move, goto, halt
++and reject. The generator runs before numerical input size varies. No runtime
++integer, coordinate, component width, record count or payload callback is
++supplied to the resulting table.
++
++For SCALE the ordered public ports are `(target)`. For ADD they are
++`(target,source)`, on **distinct physical tapes**. There are two work ports:
++protected candidate output and unary rewind guide. Any additional supplied
++work and binary-context ports are untouched by the table. The unchanged
++`Controller.primitive` supplies entry retirement, `execute_table`, and success
++retirement on its complete fixed work inventory.
++
++Each input is a nonempty complete complex field on one common numerical grid.
++One complex record has two signed little-endian two's-complement components,
++each of width w>=1 followed by virtual delimiter 2. The source and target have
++the same complete ordered shape. A virtual symbol occupies the lifecycle's
++three nonblank physical bits. The physical blank frontier immediately follows
++the last complete component: no coded logical blank or private tail belongs to
++the public field. All supplied public, work and context heads begin at their
++current origins. Each initially dirty work body is one contiguous raw binary
++prefix ending at a physical blank, as required by the inherited `retire`;
++there are no hidden live bytes beyond an interior blank. Work and context
++segments are distinct from every public field and ancestor segment.
++
++**Theorem (exact success domain).** For every width and record count, the table
++succeeds exactly when every component of the requested scalar output is an
++integer on that same grid and lies in the original signed width. On success,
++
++* SCALE returns q*x and ADD returns x+q*y, component by component;
++* every public field has precisely its original physical extent and delimiter
++  positions; the ADD source is unchanged;
++* the table performs no target write until the complete field has passed all
++  arithmetic/shape checks;
++* the original table executor restores all supplied heads, and the original
++  primitive wrapper physically erases all work bodies before return;
++* fixed-tape time is O_q(V+D+Q), with two used work tapes, where V is one
++  complete coded field's physical length, D is the total initially occupied
++  current work prefix, and Q is the fixed caller work/context inventory.
++
++The result does not require the product q*y or an implementation-specific
++numerator to fit a temporary signed word. It never materializes such a word.
++The finite carry belongs to the precompiled control, whose size depends on q
++and not on w or the number of records.
++
++The exact current sources instantiate this theorem at all 366,842 original
++ADD/SCALE service occurrences of the selected complete caller. Their 42
++operation/coefficient pairs use only 31 distinct coefficients. COPY remains
++the lifecycle's original addition; two-output SWAP/SIGNED_SWAP and native
++phase, movement, Gaussian and recursive services remain separate.
++
++## 2. Integer relation and the finite carry
++
++Write q=a/b in lowest terms, b=2^d*b0, b0 positive odd. The required relation is
++
++    2^d*b0*z = p*x + r*y,
++
++where `(p,r)=(a,0)` for SCALE and `(p,r)=(b,a)` for ADD. In the one-input case
++y is the finite constant zero, not an allocated numerical word.
++
++Read the w bits of each input least-significant first and remember their last
++bits sx,sy in finite control. Continue with **exactly d sign-extension bits**
++sx,sy, even when w<d. Thus the total input digit stream has length n=w+d.
++
++Initially c_0=0. At positions i<d, set u=p*x_i+r*y_i+c_i. Require u even and
++put c_(i+1)=u/2. These discarded digits are precisely the low d numerator bits.
++At positions i>=d, emit
++
++    z_(i-d) = u mod 2,
++    c_(i+1) = (u-b0*z_(i-d))/2.
++
++The division is integral because b0 is odd. Negative carries use the same
++integer equalities and nonnegative parity bit; there is no unsigned
++reinterpretation of a negative component. Exactly w output bits are emitted:
++there are w+d input positions and precisely d discarded positions. For w<d,
++the remaining discards occur in the sign-extension stage, then its remaining
++positions emit exactly w bits. The last emitted bit is the candidate sign sz.
++
++The bounded interval
++
++    |c_i| <= A,  A=|p|+|r|+b0
++
++is invariant. In the discarded stage,
++`|c_(i+1)| <= (|p|+|r|+A)/2 <= A`. In the emitting stage, including either
++output bit, the upper bound is
++`(|p|+|r|+A+b0)/2=A`. Therefore the table has finitely many carry states. Its
++other state components are the discarded-position counter in 0..d, a fixed
++sign-extension counter in 0..d, the last input/output bits, component parity,
++and a first-component flag. All are independent of runtime width and length.
++
++Let X_n,Y_n be the unsigned values of the n sign-extended input bits, and Z_w
++the unsigned value of the w output bits. Summing the digit equations gives
++
++    p*X_n+r*Y_n-2^d*b0*Z_w = 2^n*c_n.                 (1)
++
++The sign of the right side matters. An early draft had the opposite final
++sign; the first most-negative physical fixture rejected it. The corrected
++equation above is checked by a retained wrong-sign mutation control.
++
++Since sign extension preserves the signed inputs,
++
++    X_n=x+2^n*sx,  Y_n=y+2^n*sy,  Z_w=z+2^w*sz.
++
++Substituting in (1) proves that the requested signed relation holds **if and
++only if**
++
++    c_n = p*sx+r*sy-b0*sz.                             (2)
++
++This is the final finite-state guard. It simultaneously checks divisibility
++by the odd denominator and signed output fit. No guessed bound or floating
++point comparison is involved.
++
++### Completeness, including negative and boundary values
++
++Suppose the requested signed output is integral and lies in
++`[-2^(w-1),2^(w-1)-1]`. Its numerator is divisible by 2^d, so all d discarded
++digits are zero. At each remaining position, oddness of b0 uniquely determines
++the next quotient bit from the relation modulo the next power of two. The
++emitted w-bit word is therefore this output's two's-complement word. Equation
++(2) follows from (1), and the table accepts. Conversely, acceptance of (2)
++proves the exact signed relation for the emitted w-bit value, which is by
++definition in the original signed range. Thus neither a nonintegral value nor
++an out-of-range value can be accepted.
++
++Zero has the ordinary all-zero signed word and satisfies the same proof.
++Equal **values** on distinct ADD tapes are allowed; the physical alias x=y is
++excluded by the ordered-port contract and rejected by source binding. The
++proof has no probabilistic independence or uncorrelated-input premise.
++
++For example, at w=4, SCALE(-1/2) maps -8 to +4. A recipe which first computes
++NEG(-8) in four signed bits rejects an intermediate +8. This table accepts the
++representable final value without creating that intermediate word. Similarly
++ADD(2) sends `(x,y)=(-7,7)` to +7 although 2*y alone does not fit four bits.
++These are weaker **arithmetic admission conditions** at the new interface;
++they are not a claim that an older literal recipe's rejection policy changed.
++
++The proof works for every fixed rational q. The concrete selected catalogue is
++dyadic. For an odd-denominator successor such as q=1/3, the table still requires
++the exact integer-grid relation; it does not prove that a proposed caller's
++inputs or recursive microstates meet that condition.
++
++## 3. Whole-field staging, movement and ownership
++
++The arithmetic stream writes candidate bits to a separate output port. A work
++guide starts with virtual marker 5 and appends one virtual 1 for every consumed
++input bit or component delimiter. Each component is checked before its output
++delimiter is emitted. A parity state requires an even positive number of
++components at the field frontier. ADD verifies source and target bits,
++delimiters and final frontiers in lockstep.
++
++Once the **whole** field is accepted, output and input have equal virtual
++length L. The guide has one marker followed by L ones. Starting at its blank
++frontier, move it left once and inspect. For each one, move every public input
++and the output left once. On reaching marker 5, those heads have moved exactly
++L places and are at their current origins. No head-position query or decoded
++length controls the movement. The marker terminates the guide before an extra
++left move of a public tape could cross its origin.
++
++The guide is then read forward. Each one copies one candidate output symbol to
++the target and advances both ports once. Its end coincides with the unchanged
++target and output frontiers. Every copied symbol is 0,1 or delimiter 2. This
++preserves the complete numerical format and extent. The ADD source is never
++written. The original executor's final raw-origin loops restore every supplied
++head, including untouched read-only contexts.
++
++Work is encoded, so writing virtual blank 4 would leave nonblank physical
++codewords. The implementation therefore uses the original primitive wrapper's
++literal `retire` after table success. Its raw binary scan erases every code bit,
++including the guide marker, and restores current origins. No ancestor marker
++is touched. It uses the same charged entry retirement if work was initially
++dirty. Retained visited backing is not confused with live contents.
++
++On an arithmetic rejection of otherwise well-formed inputs, the target and
++source **contents** are still unchanged, including when a late component
++fails. Rejection may leave heads advanced and work occupied: the inherited
++executor raises immediately and has no success retirement on that path. This
++package does not claim rejection rollback or interruption recovery. The
++all-success source composition uses the explicit exact-grid/range premises.
++
++## 4. Complete cost and retained backing
++
++Let B be the number of data bits, c the number of components and L=B+c the
++virtual field length, so V=3L physical bits. The first pass processes B actual
++data digits and exactly d*c constant-control extension steps. It also writes
++c delimiters and L guide marks. Since each component is nonempty, c<=L and
++this is O_q(L). Rewind and installation each make L guided iterations. Every
++virtual symbol read/write/unit-move expands to at most 13 physical cell
++actions under the unchanged `CodedPort`; each iteration uses a fixed bounded
++number of table rows. The executor's final origin loops and both raw work
++retirements are linear in the complete occupied prefixes, not merely the
++number of output values.
++
++A conservative ceiling for initially blank two-port work is
++
++    physical cell actions + table-row steps
++        <= 1024*(d+2)*(L+1).
++
++It follows by charging at most 128 actions/rows per actual input symbol,
++32 per extension step, 64 per rewind symbol, 96 per install symbol, 64 per
++symbol for final head restoration and retirement, and fixed entry/exit work
++below 256. These deliberately loose terms fit the displayed ceiling for
++d>=0 and L>=1. Extra untouched fixed ports cost O(Q); a dirty initial raw work
++prefix of D cells costs O(D) to erase. These positive terms are retained.
++
++The candidate output occupies at most V cells and the guide at most V+3.
++Two used work tapes therefore suffice with current-call backing at most
++`2V+3+O(1)`, plus the public inputs and any separate caller inventory. For
++reuse histories each tape retains its maximum reached coordinate. A smaller
++later call begins at a blank current origin and scans its own new body, not
++an old erased high-water interval. This gives the coordinatewise maximum bound
++`max(previous backing, current extent)`; no deletion of visited cells is assumed.
++When these ports are parked by the existing lifecycle, its original ancestor
++and allocation theorem remains the explicit composition premise.
++
++For a fixed compiled template with arithmetic services E, the complete added
++bill is the positive sum of these per-service bounds, using each actual
++field length V_e and initial dirt D_e. Finite source compilation, tables and
++coefficient constants are independent of input size. Thus these services cost
++linear current volume per ordinary node and do not alter paid recursive
++histograms or productive targets. This does not certify the historical raw
++`10^9` numerical allowance: exact machine constants, other providers and the
++outer admission must still be joined and priced.
++
++## 5. Binding to actual current source events
++
++`SOURCES.json` pins canonical main
++`7c49fe32c55de02c2c873655c804b16e4c3fef0a`, its selected #6030 word and the
++complete P104 controller. `DEPENDENCIES.json` pins byte-identical published
++lifecycle machine and `source_ir` exports at
++`ab239cb6ee884e7a900dd9101c34448077fad0b0`. Those source bytes are unchanged.
++
++The original lowerer supplies the exact local operands and caller field maps.
++It preserves local instruction tokens under chronological products, caller
++occurrences and the finite compiler's `unit-fragment` remapping. The new
++`source_literal` follows the exact source remapping wrapper grammar to the
++active original token, authenticating its exact source instruction, operation,
++coefficient and arity. In `product-right`, the separate issuing PAID token is
++provenance; only the last member is the active instruction. Searching all
++nested tuples would confuse these two roles. It uses the emitted
++ordered fields as the actual ports, rather than replacing them by the old
++local role numbers. Duplicate binary ports are rejected.
++
++Boundary ADD/SCALE instructions are authenticated against their actual source
++program; physical outer ADDs against their exact site; query additions against
++the actual forward QUERY_SHEAR record. No whole-job normalizer, two-output
++swap or native/paid event is reinterpreted as a scalar. The complete source
++partition is:
++
++| Covered original scalar service | Occurrences |
++| --- | ---: |
++| 18 copies of the local ADD/SCALE word | 346,770 |
++| Outer scalar ADDs | 9,360 |
++| Left boundary ADD/SCALE | 6,240 |
++| Right boundary ADD/SCALE | 2,912 |
++| Forward query accumulation ADD | 1,560 |
++| Total | 366,842 |
++
++The 18,404 local ADDs, 861 SCALEs and 23 separate COPYs agree with the source;
++the 31-coefficient/denominator-16 census is already reported by #6928 and is
++credited rather than claimed anew. The contribution is the actual executable
++table binding, its exact success domain and complete tape accounting.
++
++Assume the source occurrence/geometry theorem gives each scalar its actual
++aligned complete operands, and the current ideal precision theorem supplies
++exact integer-grid outputs and the common signed range at these cuts. The
++theorem above then discharges the physical scalar-table premise for every
++covered service, including arbitrarily correlated values and all spectators.
++Induction through its actual chronological service sites preserves their
++endpoints without a scalar numerical callback. This substitution does not
++prove those geometry or precision premises, native returns, row dispatch,
++recursive termination, global ownership, or analytic recovery.
++
++## 6. Novelty, evidence and open obligations
++
++PR #3098 (`physical-scalar-stream`, Jose Manuel/jmbarrancoml) already proves
++linear sequential execution of inherited scalar recipes on aligned packets,
++with finite local word roles and explicit lifecycle. It leaves actual caller
++alignment and owner binding open. It credits Nick Petalas's #3078/#3090,
++Sagar Thakrar's #696, James Chang's #1869 and #3091. Their arithmetic and
++ownership contributions are retained. This package supplies the current
++coded ABI and actual finite-table/source join. The endpoint-complete fused
++transducer also avoids recipe-specific temporary-word rejection conditions.
++It does not rerun or replace their whole-provider theorem.
++
++The exact Fraction oracle checks small full signed domains and complete wider
++fields through the original physical table executor. The actual Controller
++fixture executes the uninterrupted current scalar block at source events
++1..9895 on 799 borrowed fields after the source's INIT(778) boundary; it starts
++that owned operand at zero and compares every returned component. This is a
++source prefix, not a complete native caller. The complete 642,410-event source
++scan binds the covered services and leaves every other opcode untouched.
++Finite evidence is not the quantified proof in Sections 1–5.
++
++Open next questions are the current Gaussian/phase and recursive numerical
++providers, complete compiler/row/lifecycle composition, and the successful
++whole-caller precision/cost join. The optional odd-denominator primitive does
++not discharge the new rational-grid obligation in #6932/#6934. All five
++selected assumptions remain in force; the selected κ stays 0.003125804.
+diff --git a/research/coded-whole-row-services/retained/STACK-PROOF.md b/research/coded-whole-row-services/retained/STACK-PROOF.md
+new file mode 100644
+index 00000000..5c9310d7
+--- /dev/null
++++ b/research/coded-whole-row-services/retained/STACK-PROOF.md
+@@ -0,0 +1,135 @@
++# Sequential stack proof and invoice
++
++## Alphabet and entry state
++
++The alphabet has binary symbols 0 and 1, LEFT, SEP, END, BASE and BLANK.
++Payload tapes use only binary data, LEFT and BLANK. The control tape uses
++BASE at its initial top boundary. A complete older frame ends in END. The
++descriptor tape has BASE immediately before its word. The initial dirty
++prefixes may be arbitrary; none of the routines must inspect them.
++
++Fix k. Role i has word x_i of length s_i and head h_i, with 0<=h_i<=s_i.
++If its presence bit is zero, x_i is empty and h_i=0. The entry head is
++immediately after the first h_i data cells. The payload is contiguous and
++the first cell after it is BLANK. Let H=sum h_i, S=sum s_i and let A count
++absent roles. The parent descriptor has length d. The child descriptor has
++length q when pop begins. Recursive work must retire its payloads and put
++their heads at their current origins before pop. That retirement is child
++work; the source adapter executes and charges it explicitly.
++
++## Push invariant
++
++Push first emits LEFT on the control tape. For each role it emits its presence
++bit, moves the payload head left until LEFT, and emits one unary 1 for each
++crossed binary cell. It then emits 0. There are exactly h_i such binary cells.
++The payload head moves right to the origin, scans the unchanged word to BLANK,
++writes LEFT at that end, and moves right once. The child segment is empty.
++No prefix cell to the left of the previous LEFT is read or written.
++
++The role record is therefore `presence 1^h_i 0`. Push emits SEP, copies each
++descriptor bit to the control tape while clearing the descriptor tape, returns
++its descriptor head to the origin, and emits END. The control head is now at
++the blank cell after END. The frame length is
++
++    L = H + 2k + d + 3.
++
++No extent, origin, frame length or parent reference is saved. The unary header
++is produced by the payload head's actual unit moves. Empty head offsets have
++an explicit 0 terminator; zero never has a missing representation.
++
++## Pop invariant
++
++Pop clears the current child descriptor and rewinds that tape to BASE. From
++the free control top, it moves left, checks END, and continues left to LEFT.
++Neither a role record nor a descriptor can contain LEFT, so this is exactly
++the current frame start. SEP is distinct from all binary header/descriptor
++symbols. BASE before a frame start is rejected; it is not crossed.
++
++Pop clears the frame as it parses it. For each role, it checks the empty child
++origin, moves left to the child delimiter and erases it. It moves left through
++the unchanged parent word until its previous LEFT, then right to its origin.
++For each 1 in the saved unary offset it checks a binary payload cell and moves
++right once. The terminating 0 ends the offset. Thus the final physical head
++is exactly the old head. An excessive offset reaches BLANK and is rejected.
++The parsed presence bit restores the finite role bitmap. An absent role must
++be empty. The recorded size and offset counters in the simulator are observers;
++the physical motion does not depend on those integer values.
++
++After k roles, pop checks SEP. It copies the saved descriptor back to its tape
++and clears each control cell. END terminates that copy. After clearing END,
++pop walks left across the now blank frame until the preceding END or BASE,
++then moves right once. This returns the control head to its exact old free top.
++It rewinds the descriptor head to its BASE. All current frame cells are blank.
++Older complete frames, all parent words and every earlier prefix remain exact.
++
++Push and pop use finite branches on the current symbol and a fixed k-role
++index. Their returned integer observer counts can be omitted without changing
++any tape action. The hardware simulator's absolute head index is a tape-model
++implementation detail; the routines cannot read it or the backing array.
++
++## Composition
++
++The child entry has the same form as the parent entry, with one extra delimiter
++per payload tape and one complete older control frame. Apply the same argument
++at each child. At a leaf, retirement establishes pop's entry condition. Pop
++restores its immediate parent exactly. Induction on any finite properly nested
++call tree gives complete restoration at every return. This proof has no bound
++on depth, ancestor size, descriptor lengths or binary contents. It does require
++the stated lexical ownership and successful child-retirement contract.
++
++## Exact operation count
++
++Every read, write and unit move costs one. Symbol tests and the fixed role
++index are finite control. The following counts refer to the literal routines
++in stack.py, including their explicit checks. H is the sum of offsets from the
++left end, not the sum of distances to the right end.
++
++| Component | Cost |
++| --- | ---: |
++| Push control: L writes, L moves, one initial read | 2L+1 |
++| Push payload sweeps and delimiters | 2H+2S+6k+A |
++| Push descriptor copy, clear and rewind | 5d+4 |
++| Pop child descriptor clear and rewind | 5q+4 |
++| Pop control: find, parse, clear and return | 7L |
++| Pop payload return and head replay | 2S+2H+7k+A |
++| Pop saved descriptor write and rewind | 4d+3 |
++
++For pop control, location takes L reads and L moves. Forward parsing takes
++L-1 reads and L-1 moves. The final backward scan takes L+1 reads and L+1 moves;
++the repeated boundary check is included. Exactly L control cells are cleared.
++These counts give 7L. The descriptor lengths are unrestricted and may differ.
++
++Substitute L to obtain the two exact formulas in README.md. Since H<=S and
++A<=k, their sum is at most 17S+33k+18d+5q+39. No term contains the ancestor
++extent or depth. A frame retains L control cells and k payload delimiters.
++The descriptor tape is reused at every level. The deepest live prefix therefore
++uses the sum of the live frame lengths, with no per-depth tape allocation.
++
++This result supplies a local linear boundary, not a full recursion-space
++theorem. To absorb it into a concrete caller one must still prove bounds for
++the sum of active payload and descriptor sizes. No geometric reserve estimate
++can be substituted for those implementation premises without proof.
++
++## Retained source boundary
++
++The source adapter implements the retained local Tape operations by actual
++unit reads, writes and moves. Its byte snapshot is used only by checkers.
++The local size and head counters are obtained from current operations and
++from the observer counts of the just-decoded physical frame. They do not save
++an ancestor origin or choose a return address. A weak-reference registry models the predecessor's lexical lifetime premise.
++Its live-handle keys are depth and slot. It is consulted only for allocation,
++never for push/pop, and is neither serialized nor recovered by pop. The registry
++is a simulator oracle for allocation, not a proved physical allocator. This interface is for properly scoped source
++handles, not arbitrary stale-handle reuse or a new dynamic allocator.
++
++Each source primitive's sequential call trace is therefore interpreted on the
++current segment. Its new delimiter checks add constant work per crossed cell.
++Its original mathematical endpoint and physical controller premises remain
++inherited. The finite source tests exercise compact repair, ordinary fallback,
++radix work and the actual right-recipe phase under nested suspension. They do
++not establish the general allocation schedule, full affine payload rectangle,
++recursive C output, or a selected supplier admission.
++
++The new proof and code are by Ali Romman with substantial OpenAI Codex
++assistance. The source interface and all predecessor mathematics retain the
++credit and limitations in README.md and the unchanged source notices.
+diff --git a/research/coded-whole-row-services/retained/exact_scalar_tables.py b/research/coded-whole-row-services/retained/exact_scalar_tables.py
+new file mode 100644
+index 00000000..1cc22f75
+--- /dev/null
++++ b/research/coded-whole-row-services/retained/exact_scalar_tables.py
+@@ -0,0 +1,295 @@
++"""Fixed scalar services compiled to the unchanged lifecycle table ABI.
++
++All arithmetic here belongs to finite-template construction. The returned
++runtime uses only branch/write/unit-move/goto/halt/reject instructions.
++Prepared for @CubeJerry with substantial OpenAI assistance. Apache-2.0.
++"""
++from collections import deque
++from fractions import Fraction
++
++
++def need(ok, message):
++    if not ok:
++        raise ValueError(message)
++
++
++class Builder:
++    def __init__(self):
++        self.rows, self.labels = [], {}
++        self.pending, self.claimed = deque(), set()
++
++    def request(self, key):
++        if key not in self.claimed:
++            self.claimed.add(key)
++            self.pending.append(key)
++        return key
++
++    def mark(self, key):
++        need(key not in self.labels, "unique compiled state")
++        self.labels[key] = len(self.rows)
++
++    def emit(self, *row):
++        self.rows.append(row)
++
++    def goto(self, key):
++        self.emit("goto", self.request(key))
++
++    def branch(self, port, cases, default):
++        self.emit("branch", port,
++                  tuple((s, self.request(k)) for s,k in sorted(cases.items())),
++                  self.request(default))
++
++    def finish(self):
++        need(not self.pending, "complete finite graph")
++        out = []
++        for row in self.rows:
++            if row[0] == "goto":
++                out.append(("goto", self.labels[row[1]]))
++            elif row[0] == "branch":
++                out.append(("branch", row[1], tuple((s,self.labels[k]) for s,k in row[2]),
++                            self.labels[row[3]]))
++            else:
++                out.append(row)
++        return tuple(out)
++
++
++def compile_scalar(op, coefficient):
++    """Build a table for all complete complex records on one common grid.
++
++    SCALE ports: target, output-work, guide-work.
++    ADD ports: target, source, output-work, guide-work.
++    Additional supplied work/context ports are untouched. Work is physically
++    retired by the unchanged Controller.primitive success wrapper.
++    """
++    need(op in ("ADD", "SCALE"), "scalar operation")
++    q = Fraction(coefficient)
++    need(q != 0, "nonzero selected scalar")
++    a, denominator = q.numerator, q.denominator
++    d, odd = 0, denominator
++    while odd % 2 == 0:
++        d += 1
++        odd //= 2
++    p, r = (denominator,a) if op == "ADD" else (a,0)
++    count = 2 if op == "ADD" else 1
++    output, guide = count, count+1
++    bound = abs(p)+abs(r)+odd
++    b, carry_states = Builder(), set()
++    b.request(("entry",))
++
++    def advance_inputs():
++        for port in range(count):
++            b.emit("move", port, 1)
++
++    def guide_one():
++        b.emit("write", guide, 1)
++        b.emit("move", guide, 1)
++
++    def digit(k, carry, last_q, x, y):
++        need(0 <= k <= d and abs(carry) <= bound, "finite carry invariant")
++        carry_states.add(carry)
++        value = p*x+r*y+carry
++        if k < d:
++            if value % 2:
++                return None
++            return k+1, value//2, last_q
++        bit = value & 1
++        following = (value-odd*bit)//2
++        need(abs(following) <= bound, "closed finite carry interval")
++        b.emit("write", output, bit)
++        b.emit("move", output, 1)
++        return d, following, bit
++
++    while b.pending:
++        key = b.pending.popleft()
++        b.mark(key)
++        tag = key[0]
++        if tag == "entry":
++            b.branch(output, {4:("guide-entry",)}, ("reject","nonblank output work"))
++        elif tag == "guide-entry":
++            b.branch(guide, {4:("begin",)}, ("reject","nonblank guide work"))
++        elif tag == "begin":
++            b.emit("write", guide, 5)
++            b.emit("move", guide, 1)
++            b.goto(("start",0,False))
++        elif tag == "start":
++            _, parity, seen = key
++            ending = ("finish-source",) if parity == 0 and seen else ("reject","complete nonempty complex field")
++            b.branch(0, {0:("read-source",0,0,2,parity,0),
++                         1:("read-source",0,0,2,parity,1), 4:ending},
++                     ("reject","positive component width"))
++        elif tag == "scan":
++            _, k, carry, sx, sy, sq, parity = key
++            b.branch(0, {0:("read-source",k,carry,sq,parity,0),
++                         1:("read-source",k,carry,sq,parity,1),
++                         2:("component-end",k,carry,sx,sy,sq,parity)},
++                     ("reject","unterminated signed component"))
++        elif tag == "read-source":
++            _, k, carry, sq, parity, x = key
++            if count == 2:
++                b.branch(1, {y:("digit",k,carry,sq,parity,x,y) for y in (0,1)},
++                         ("reject","same complete component shape"))
++            else:
++                b.goto(("digit",k,carry,sq,parity,x,0))
++        elif tag == "digit":
++            _, k, carry, sq, parity, x, y = key
++            following = digit(k,carry,sq,x,y)
++            if following is None:
++                b.goto(("reject","inexact low numerator bits"))
++            else:
++                k1,c1,q1 = following
++                guide_one()
++                advance_inputs()
++                b.goto(("scan",k1,c1,x,y,q1,parity))
++        elif tag == "component-end":
++            _, k, carry, sx, sy, sq, parity = key
++            following = ("extend",d,k,carry,sx,sy,sq,parity)
++            if count == 2:
++                b.branch(1, {2:following}, ("reject","same complete component shape"))
++            else:
++                b.goto(following)
++        elif tag == "extend":
++            _, remaining, k, carry, sx, sy, sq, parity = key
++            if remaining:
++                following = digit(k,carry,sq,sx,sy)
++                if following is None:
++                    b.goto(("reject","inexact sign-extension numerator bits"))
++                else:
++                    k1,c1,q1 = following
++                    b.goto(("extend",remaining-1,k1,c1,sx,sy,q1,parity))
++            elif sq not in (0,1) or carry != p*sx+r*sy-odd*sq:
++                b.goto(("reject","inexact quotient or signed output overflow"))
++            else:
++                b.emit("write", output, 2)
++                b.emit("move", output, 1)
++                guide_one()
++                advance_inputs()
++                b.goto(("start",parity^1,True))
++        elif tag == "finish-source":
++            if count == 2:
++                b.branch(1, {4:("finish-output",)}, ("reject","same complete field frontier"))
++            else:
++                b.goto(("finish-output",))
++        elif tag == "finish-output":
++            b.branch(output, {4:("rewind-step",)}, ("reject","exact staged output frontier"))
++        elif tag == "rewind-step":
++            b.emit("move", guide, -1)
++            b.goto(("rewind-read",))
++        elif tag == "rewind-read":
++            b.branch(guide, {1:("rewind-inputs",),5:("install-start",)},
++                     ("reject","complete unary rewind guide"))
++        elif tag == "rewind-inputs":
++            for port in tuple(range(count))+(output,):
++                b.emit("move", port, -1)
++            b.goto(("rewind-step",))
++        elif tag == "install-start":
++            b.emit("move", guide, 1)
++            b.goto(("install-guide",))
++        elif tag == "install-guide":
++            b.branch(guide, {1:("install-read",),4:("installed-target-end",)},
++                     ("reject","install guide format"))
++        elif tag == "install-read":
++            b.branch(output, {s:("install-symbol",s) for s in (0,1,2)},
++                     ("reject","complete protected numeric output"))
++        elif tag == "install-symbol":
++            b.emit("write", 0, key[1])
++            for port in (0,output,guide):
++                b.emit("move", port, 1)
++            b.goto(("install-guide",))
++        elif tag == "installed-target-end":
++            b.branch(0, {4:("installed-output-end",)}, ("reject","exact installed target frontier"))
++        elif tag == "installed-output-end":
++            b.branch(output, {4:("halt",)}, ("reject","exact consumed protected output"))
++        elif tag == "halt":
++            b.emit("halt")
++        elif tag == "reject":
++            b.emit("reject", key[1])
++        else:
++            raise ValueError("unknown compiler state")
++    return b.finish(), dict(operation=op,coefficient=str(q),denominator_twos=d,
++                           odd_denominator=odd,numerator_target=p,numerator_source=r,
++                           carry_bound=bound,carry_states=len(carry_states),
++                           rows=len(b.rows),states=len(b.labels),public_ports=count,work_ports=2)
++
++
++def source_literal(event, word, caller=None):
++    """Authenticate a source scalar retained by source_ir's nested remappings.
++
++    Fields stay the source lowerer's actual ordered binding. Whole-job native
++    normalizers and two-output SWAP/SIGNED_SWAP services remain outside scope.
++    """
++    need(event.op == "SERVICE", "only original scalar SERVICE")
++    token = event.token
++    wrappers = {'caller-local':4, 'product-left':4,
++                'product-right':5, 'unit-fragment':6}
++    while isinstance(token,(tuple,list)) and token:
++        if len(token) == 1 and isinstance(token[0],(tuple,list)):
++            token = token[0]  # The source remap API's empty context.
++            continue
++        if isinstance(token[0],str) and token[0] in wrappers:
++            need(len(token)==wrappers[token[0]],'source remap wrapper grammar')
++            # product-right also retains an issuing PAID token as provenance.
++            # Only the last member is the instruction currently being remapped.
++            token = token[-1]
++            continue
++        break
++    need(isinstance(token,(tuple,list)) and token and isinstance(token[0],str)
++         and token[0] in ('local','boundary-right','boundary-left','outer','query-add'),
++         'source scalar origin grammar')
++    tag = token[0]
++    if tag == 'local':
++        need(len(token)==3,'local scalar token grammar')
++        _,pc,raw = token
++        need(type(pc) is int and 0 <= pc < len(word['program']), "actual current source event")
++        need(tuple(raw) == tuple(word['program'][pc]), "exact current scalar source bytes")
++        q, origin = Fraction(raw[-2]), ('local',pc)
++    else:
++        need(caller is not None,'outer scalar requires exact caller source')
++        if tag in ('boundary-right','boundary-left'):
++            need(len(token)==3,'boundary scalar token grammar')
++            _,column,raw = token
++            rows = caller['boundaries'][tag.split('-')[1]+'_program']
++            need(tuple(raw) in tuple(tuple(x) for x in rows),'actual boundary scalar instruction')
++            origin = (tag,column)
++        elif tag == 'outer':
++            need(len(token)==4,'outer scalar token grammar')
++            _,site,column,raw = token
++            need(type(site) is int and 0 <= site < len(caller['physical_events']),
++                 'actual outer source site')
++            need(tuple(raw)==tuple(caller['physical_events'][site]),'exact outer scalar instruction')
++            origin = (tag,site,column)
++        else:
++            need(len(token)==5 and token[1]=='query','query scalar token grammar')
++            _,_,site,stage,column = token
++            need(type(site) is int and 0 <= site < len(caller['physical_events']),
++                 'actual query source site')
++            original = caller['physical_events'][site]
++            need(original[0]=='QUERY_SHEAR' and original[1]==stage and original[3] is False,
++                 'actual forward source query')
++            raw = ('ADD',None,None,1)
++            origin = (tag,site,column)
++        need(type(column) is int and 0 <= column < 104,'actual source scalar column')
++        need(raw[0] in ('ADD','SCALE'),'original source arithmetic scalar')
++        q = Fraction(raw[-1])
++    op = raw[0]
++    need(op in ("ADD","SCALE"), "original scalar kind")
++    arity = 2 if op == "ADD" else 1
++    need(len(event.fields) == arity and len(set(event.fields)) == arity,
++         "distinct actual scalar field ports")
++    need(q != 0, "nonzero source coefficient")
++    return op,q,origin
++
++
++def bind_services(events, word, caller=None):
++    """Bind precisely the supplied source scalar events to finite tables."""
++    cache, services, receipt = {}, {}, []
++    for event in events:
++        op,q,origin = source_literal(event,word,caller)
++        key = (op,q)
++        if key not in cache:
++            cache[key] = compile_scalar(op,q)
++        table,_ = cache[key]
++        token = event.token
++        need(token not in services or services[token] == table, "unambiguous scalar service token")
++        services[token] = table
++        receipt.append((origin,op,str(q),tuple(event.fields)))
++    return services, tuple(cache[key][1] for key in sorted(cache)), tuple(receipt)
+diff --git a/research/coded-whole-row-services/retained/machine.py b/research/coded-whole-row-services/retained/machine.py
+new file mode 100644
+index 00000000..acf475e4
+--- /dev/null
++++ b/research/coded-whole-row-services/retained/machine.py
+@@ -0,0 +1,406 @@
++"""Literal lifecycle control on fixed sequential tapes.
++
++Prepared for @CubeJerry with substantial OpenAI assistance. Apache-2.0.
++Stack is the authenticated #5356 implementation supplied by the loader.
++Algorithms never read tape addresses, extents, hardware arrays or a host stack.
++Instruction and primitive tables are fixed before runtime inputs vary.
++"""
++from dataclasses import dataclass
++
++ZERO, ONE, LEFT, SEP, END, BASE, BLANK = range(7)
++COMPONENT = 2
++
++
++def need(condition, message):
++    if not condition:
++        raise ValueError(message)
++
++
++def emit(tape, symbol):
++    tape.write(symbol)
++    tape.move(1)
++
++
++def origin(tape, marker=LEFT):
++    tape.move(-1)
++    while tape.read() != marker:
++        tape.move(-1)
++    tape.move(1)
++
++
++def retire(tape, marker=LEFT):
++    """Erase all coded bytes, including encoded logical blanks."""
++    origin(tape, marker)
++    while (symbol := tape.read()) != BLANK:
++        need(symbol in (ZERO, ONE), "contiguous binary body")
++        emit(tape, BLANK)
++    origin(tape, marker)
++
++
++def transfer(source, target, source_marker=LEFT, target_marker=LEFT):
++    """Administrative actual-byte copy; never an arithmetic COPY."""
++    origin(source, source_marker)
++    origin(target, target_marker)
++    need(target.read() == BLANK, "administrative transfer needs empty target")
++    while (symbol := source.read()) != BLANK:
++        need(symbol in (ZERO, ONE), "binary transfer")
++        emit(target, symbol)
++        source.move(1)
++    origin(source, source_marker)
++    origin(target, target_marker)
++
++
++class CodedPort:
++    """Seven virtual symbols encoded as three nonblank physical bits.
++
++    The physical LEFT before the current body is never exposed as data.
++    A left step at its local origin rejects. Two-sided routines first use
++    the standard translation to two one-sided ports.
++    """
++    __slots__ = ("tape",)
++
++    def __init__(self, tape):
++        self.tape = tape
++
++    def read(self):
++        t = self.tape
++        if t.read() == BLANK:
++            return 4
++        value = 0
++        for _ in range(3):
++            bit = t.read()
++            need(bit in (ZERO, ONE), "whole virtual codeword")
++            value = 2 * value + bit
++            t.move(1)
++        for _ in range(3):
++            t.move(-1)
++        need(value < 7, "unused virtual codeword")
++        return value
++
++    def write(self, value):
++        need(type(value) is int and 0 <= value < 7, "virtual alphabet")
++        for shift in (2, 1, 0):
++            emit(self.tape, (value >> shift) & 1)
++        for _ in range(3):
++            self.tape.move(-1)
++
++    def move(self, direction):
++        need(direction in (-1, 1), "virtual unit move")
++        t = self.tape
++        if direction == 1:
++            if t.read() == BLANK:
++                self.write(4)
++            for _ in range(3):
++                t.move(1)
++        else:
++            t.move(-1)
++            if t.read() == LEFT:
++                t.move(1)
++                raise ValueError("native routine crossed its local origin")
++            t.move(-1)
++            t.move(-1)
++
++
++class BinaryContextPort:
++    """Read-only raw binary descriptor, with its own physical alphabet.
++
++    Unlike CodedPort, read returns physical BLANK=6 at the frontier. A table
++    may inspect that frontier but cannot pass it or the current LEFT marker.
++    This supplies runtime e/f/K/rho data through counted local operations.
++    """
++    __slots__ = ("tape",)
++
++    def __init__(self, tape):
++        self.tape = tape
++
++    def read(self):
++        symbol = self.tape.read()
++        need(symbol in (ZERO, ONE, BLANK), "binary context alphabet")
++        return symbol
++
++    def write(self, value):
++        raise ValueError("native context is read-only")
++
++    def move(self, direction):
++        need(direction in (-1, 1), "binary context unit move")
++        t = self.tape
++        if direction == 1:
++            need(t.read() in (ZERO, ONE), "context frontier cannot be crossed")
++            t.move(1)
++        else:
++            t.move(-1)
++            if t.read() == LEFT:
++                t.move(1)
++                raise ValueError("native context crossed its local origin")
++
++
++def read_code(tape):
++    """Consume a numeric-format code; physical frontier returns None."""
++    if tape.read() == BLANK:
++        return None
++    value = 0
++    for _ in range(3):
++        bit = tape.read()
++        need(bit in (ZERO, ONE), "numeric codeword")
++        value = 2 * value + bit
++        tape.move(1)
++    need(value < 7, "unused numeric codeword")
++    return value
++
++
++def write_code(tape, value):
++    for shift in (2, 1, 0):
++        emit(tape, (value >> shift) & 1)
++
++
++def initialize(target, shape):
++    """Dispose of arbitrary old bytes, then zero the complete common format."""
++    need(target is not shape, "private initialization cannot destroy its guide")
++    retire(target)
++    origin(shape)
++    in_component = False
++    while (symbol := read_code(shape)) is not None:
++        need(symbol in (ZERO, ONE, COMPONENT), "canonical signed components")
++        if symbol == COMPONENT:
++            need(in_component, "positive component width")
++            write_code(target, COMPONENT)
++            in_component = False
++        else:
++            write_code(target, ZERO)
++            in_component = True
++    need(not in_component, "component terminator")
++    origin(shape)
++    origin(target)
++
++
++def copy_as_add(target, source):
++    """Signed addition into the actual destination, including any residue.
++
++    Components are little-endian two's complement followed by COMPONENT.
++    Carries reset at delimiters; equal-sign signed overflow rejects.
++    No ideal-zero test or exact-value overwrite substitutes for addition.
++    """
++    need(target is not source, "distinct COPY/ADD ports")
++    origin(source)
++    origin(target)
++    carry = 0
++    last_a = last_b = last_out = 0
++    in_component = False
++    while True:
++        a = read_code(source)
++        b = read_code(target)
++        need((a is None) == (b is None), "same complete numerical extent")
++        if a is None:
++            need(not in_component, "complete signed component")
++            break
++        need(a in (ZERO, ONE, COMPONENT) and b in (ZERO, ONE, COMPONENT),
++             "canonical signed addition operands")
++        need((a == COMPONENT) == (b == COMPONENT), "same component boundaries")
++        if a == COMPONENT:
++            need(in_component, "positive signed component width")
++            need(last_a != last_b or last_out == last_a, "signed addition overflow")
++            carry = 0
++            in_component = False
++            continue
++        value = a + b + carry
++        last_a, last_b, last_out = a, b, value & 1
++        carry = value >> 1
++        for _ in range(3):
++            target.move(-1)
++        write_code(target, last_out)
++        in_component = True
++    origin(source)
++    origin(target)
++
++
++def execute_table(table, ports, readonly_context=()):
++    """Run a supplied finite native table with every port confined.
++
++    These tables retain explicit semantics/time/space premises. Fixture
++    tables are not advertised as Gaussian implementations.
++    """
++    views = (tuple(CodedPort(t) for t in ports)
++             + tuple(BinaryContextPort(t) for t in readonly_context))
++    pc = 0
++    while True:
++        row = table[pc]
++        op = row[0]
++        if op == "halt":
++            break
++        if op == "reject":
++            raise ValueError(row[1])
++        if op == "goto":
++            pc = row[1]
++            continue
++        view = views[row[1]]
++        if op == "branch":
++            pc = dict(row[2]).get(view.read(), row[3])
++            continue
++        if op == "write":
++            view.write(row[2])
++        elif op == "move":
++            view.move(row[2])
++        else:
++            raise ValueError("native table opcode")
++        pc += 1
++    for tape in tuple(ports)+tuple(readonly_context):
++        origin(tape)
++
++
++@dataclass(frozen=True)
++class Instruction:
++    op: str
++    ports: tuple = ()
++    token: tuple = ()
++
++
++class Controller:
++    """Fixed finite controller of a fixed flat compiled template.
++
++    rows implements the separately priced row/shape interface; all its
++    dynamic state belongs on the supplied tapes. services contains fixed
++    finite transition tables. Payload ports include metadata and all scratch.
++    The only runtime continuation is the physical Stack.
++    """
++    def __init__(self, program, public_count, payloads, control, descriptor,
++                 bridge, child_header, rows, services, stack_class, protected_ports=(),
++                 primitive_work=(), primitive_context=()):
++        self.program = tuple(program)
++        self.public_count = public_count
++        self.payloads = tuple(payloads)
++        self.control = control
++        self.descriptor = descriptor
++        self.bridge = bridge
++        self.child_header = child_header
++        self.rows = rows
++        self.services = services
++        need(len({id(t) for t in self.payloads+(control,descriptor,bridge,child_header)})
++             == len(self.payloads)+4, "all physical ports distinct")
++        self.stack = stack_class(self.payloads, control, descriptor)
++        self.protected_ports = tuple(protected_ports)
++        owned = {e.ports[0] for e in self.program if e.op == "INIT"}
++        need(all(public_count <= i < len(self.payloads) for i in owned), "INIT only private physical slots")
++        need(owned.isdisjoint(self.protected_ports), "owned fields cannot be borrowed descriptors")
++        self.root_cleanup = tuple(i for i in range(public_count,len(self.payloads))
++                                  if i not in self.protected_ports)
++        self.primitive_work = tuple(primitive_work)
++        self.primitive_context = tuple(primitive_context)
++        data_ports = {i for e in self.program for i in e.ports}
++        need(all(0 <= i < len(self.payloads) for i in data_ports), "compiled port range")
++        need(all(i >= public_count and i < len(self.payloads) and i not in data_ports
++                 and i not in self.protected_ports for i in self.primitive_work), "separate primitive scratch")
++        need(len(set(self.primitive_work)) == len(self.primitive_work), "distinct primitive work ports")
++        need(len(set(self.primitive_context)) == len(self.primitive_context)
++             and all(i in self.protected_ports and 0 <= i < len(self.payloads)
++                     and i not in data_ports for i in self.primitive_context), "borrowed binary context ports")
++        self.pc_bits = max(1, (len(self.program) - 1).bit_length())
++        self.pc_words = tuple(tuple((pc >> j) & 1 for j in range(self.pc_bits))
++                              for pc in range(len(self.program)))
++        need(self.program and self.program[-1].op == "RET", "finite completed program")
++
++    def save_pc(self, pc):
++        need(self.descriptor.read() == BLANK, "empty active PC descriptor")
++        for bit in self.pc_words[pc]:
++            emit(self.descriptor, bit)
++        origin(self.descriptor, BASE)
++
++    def consume_pc(self):
++        pc = 0
++        for shift in range(self.pc_bits):
++            bit = self.descriptor.read()
++            need(bit in (ZERO, ONE), "binary return PC")
++            pc |= bit << shift
++            emit(self.descriptor, BLANK)
++        need(self.descriptor.read() == BLANK, "exact fixed return PC width")
++        origin(self.descriptor, BASE)
++        need(pc < len(self.program) and pc > 0 and self.program[pc-1].op == "PAID",
++             "return PC designates a paid continuation")
++        return pc
++
++    def has_parent(self):
++        self.control.move(-1)
++        symbol = self.control.read()
++        self.control.move(1)
++        need(symbol in (BASE, END), "complete continuation top")
++        return symbol == END
++
++    def descend(self, pc):
++        event = self.program[pc]
++        source = self.payloads[event.ports[0]]
++        transfer(source, self.bridge, target_marker=BASE)
++        self.rows.prepare(event.token, self.child_header)
++        self.save_pc(pc + 1)
++        self.stack.push((True,) * len(self.payloads))
++        self.rows.install(self.bridge, self.child_header,
++                          self.payloads[:self.public_count])
++        retire(self.bridge, BASE)
++        retire(self.child_header, BASE)
++
++    def primitive(self, token, fields):
++        for i in self.primitive_work:
++            retire(self.payloads[i])
++        execute_table(self.services[token],
++                      tuple(self.payloads[i] for i in fields+self.primitive_work),
++                      tuple(self.payloads[i] for i in self.primitive_context))
++        for i in self.primitive_work:
++            retire(self.payloads[i])
++
++    def ascend(self):
++        self.rows.collect(self.payloads[:self.public_count], self.bridge)
++        for tape in self.payloads:
++            retire(tape)
++        self.stack.pop()                   # ignore observer sizes and heads
++        pc = self.consume_pc()
++        target = self.payloads[self.program[pc-1].ports[0]]
++        retire(target)
++        transfer(self.bridge, target, source_marker=BASE)
++        retire(self.bridge, BASE)
++        return pc
++
++    def run(self, observe=None):
++        pc = 0
++        while True:
++            event = self.program[pc]
++            if observe is not None:
++                observe("before", pc, event)  # checker only; ignores return value
++            if event.op == "INIT":
++                initialize(self.payloads[event.ports[0]], self.payloads[0])
++                pc += 1
++            elif event.op == "CLEAR":
++                retire(self.payloads[event.ports[0]])
++                pc += 1
++            elif event.op == "COPY":
++                copy_as_add(self.payloads[event.ports[0]], self.payloads[event.ports[1]])
++                pc += 1
++            elif event.op == "SERVICE":
++                self.primitive(event.token,event.ports)
++                pc += 1
++            elif event.op == "PAID":
++                if self.rows.is_leaf(event.token):
++                    self.primitive(("leaf",)+event.token,event.ports)
++                    pc += 1
++                else:
++                    self.descend(pc)
++                    pc = 0
++            elif event.op == "RET":
++                if not self.has_parent():
++                    for i in self.root_cleanup:
++                        retire(self.payloads[i])
++                    break
++                pc = self.ascend()
++            else:
++                raise ValueError("compiled opcode")
++            if observe is not None:
++                observe("after", pc, event)
++
++
++def boundary_actions(q, b, parent_total, child_total, input_length,
++                     output_length, staged_header_length):
++    """Exact descend+ascend actions, excluding the three row-service calls.
++
++    Also excludes caller leaf/top tests. All heads are at local origins.
++    Includes PC, all retirement, occupied-target replacement and both relays.
++    """
++    return (4 * parent_total + 5 * child_total + 18 * input_length
++            + 13 * output_length + 5 * staged_header_length
++            + 38 * q + 27 * b + 103)
+diff --git a/research/coded-whole-row-services/retained/stack.py b/research/coded-whole-row-services/retained/stack.py
+new file mode 100644
+index 00000000..a5d6753b
+--- /dev/null
++++ b/research/coded-whole-row-services/retained/stack.py
+@@ -0,0 +1,170 @@
++"""Delimited continuation on a fixed number of sequential tapes.
++
++Ali Romman, with substantial OpenAI Codex assistance. Apache-2.0.
++The source interface follows JoyboyBrian and Jose Manuel's tape packages.
++"""
++from dataclasses import dataclass
++
++ZERO, ONE, LEFT, SEP, END, BASE, BLANK = range(7)
++
++
++def need(ok, message):
++    if not ok:
++        raise ValueError(message)
++
++
++@dataclass
++class Counts:
++    reads: int = 0
++    writes: int = 0
++    moves: int = 0
++
++    @property
++    def total(self):
++        return self.reads + self.writes + self.moves
++
++
++class Tape:
++    """Hardware model. Only read, write and unit move are algorithm operations."""
++    def __init__(self, prefix=(), marker=LEFT, counts=None):
++        self.cells = list(prefix) + [marker]
++        self.head = len(self.cells)
++        self.floor = self.head - 1
++        self.minimum = self.head
++        self.counts = counts if counts is not None else Counts()
++
++    def read(self):
++        self.counts.reads += 1
++        self.minimum = min(self.minimum, self.head)
++        need(self.head >= self.floor, 'ancestor prefix accessed')
++        return self.cells[self.head] if self.head < len(self.cells) else BLANK
++
++    def write(self, value):
++        need(value in range(7), 'finite tape alphabet')
++        need(self.head >= self.floor, 'ancestor prefix overwritten')
++        self.counts.writes += 1
++        while len(self.cells) <= self.head:
++            self.cells.append(BLANK)
++        self.cells[self.head] = value
++
++    def move(self, direction):
++        need(direction in (-1, 1), 'unit move')
++        self.counts.moves += 1
++        self.head += direction
++        need(self.head >= self.floor, 'ancestor prefix crossed')
++
++
++def emit(tape, symbol):
++    tape.write(symbol)
++    tape.move(1)
++
++
++def rewind(tape, marker):
++    tape.move(-1)
++    while tape.read() != marker:
++        tape.move(-1)
++    tape.move(1)
++
++
++def clear_descriptor(tape):
++    """Entry and exit are at the descriptor origin."""
++    while (symbol := tape.read()) != BLANK:
++        need(symbol in (ZERO, ONE), 'binary descriptor')
++        emit(tape, BLANK)
++    rewind(tape, BASE)
++
++
++class Stack:
++    """No saved frame, parent pointer, frame size or origin is stored here."""
++    def __init__(self, payloads, control, descriptor):
++        self.payloads = tuple(payloads)
++        self.control = control
++        self.descriptor = descriptor
++
++    def push(self, present):
++        need(len(present) == len(self.payloads), 'fixed role bitmap')
++        c = self.control
++        need(c.read() == BLANK, 'control at free top')
++        emit(c, LEFT)
++        for tape, occupied in zip(self.payloads, present):
++            need(type(occupied) is bool, 'role presence bit')
++            emit(c, int(occupied))
++            tape.move(-1)
++            while (symbol := tape.read()) != LEFT:
++                need(symbol in (ZERO, ONE), 'binary prefix before current head')
++                emit(c, ONE)
++                tape.move(-1)
++            emit(c, ZERO)
++            tape.move(1)
++            if not occupied:
++                need(tape.read() == BLANK, 'absent role is empty')
++            while (symbol := tape.read()) != BLANK:
++                need(symbol in (ZERO, ONE), 'binary parent payload')
++                tape.move(1)
++            emit(tape, LEFT)
++        emit(c, SEP)
++        d = self.descriptor
++        while (symbol := d.read()) != BLANK:
++            need(symbol in (ZERO, ONE), 'binary descriptor')
++            emit(c, symbol)
++            emit(d, BLANK)
++        rewind(d, BASE)
++        emit(c, END)
++
++    def pop(self):
++        """Child payloads are empty at their origins; clear its descriptor.
++
++        Returned sizes/heads are observer counts for the source API adapter.
++        No branch or tape move uses those counts.
++        """
++        clear_descriptor(self.descriptor)
++        c = self.control
++        c.move(-1)
++        need(c.read() == END, 'complete control frame')
++        c.move(-1)
++        while (symbol := c.read()) != LEFT:
++            need(symbol in (ZERO, ONE, SEP), 'frame start before ancestor boundary')
++            c.move(-1)
++        emit(c, BLANK)
++        state = []
++        for tape in self.payloads:
++            present = c.read()
++            need(present in (ZERO, ONE), 'role presence bit')
++            emit(c, BLANK)
++            need(tape.read() == BLANK, 'child payload is retired')
++            tape.move(-1)
++            need(tape.read() == LEFT, 'child delimiter')
++            tape.write(BLANK)
++            tape.move(-1)
++            size = 0
++            while (symbol := tape.read()) != LEFT:
++                need(symbol in (ZERO, ONE), 'parked parent payload')
++                size += 1
++                tape.move(-1)
++            tape.move(1)
++            if not present:
++                need(tape.read() == BLANK, 'absent parent role is empty')
++            head = 0
++            while (symbol := c.read()) == ONE:
++                need(tape.read() in (ZERO, ONE), 'saved head is within payload')
++                tape.move(1)
++                head += 1
++                emit(c, BLANK)
++            need(symbol == ZERO, 'terminated unary head')
++            emit(c, BLANK)
++            state.append((bool(present), size, head))
++        need(c.read() == SEP, 'complete fixed-role header')
++        emit(c, BLANK)
++        d = self.descriptor
++        while (symbol := c.read()) != END:
++            need(symbol in (ZERO, ONE), 'binary saved descriptor')
++            emit(d, symbol)
++            emit(c, BLANK)
++        c.write(BLANK)
++        c.move(-1)
++        while c.read() == BLANK:
++            c.move(-1)
++        need(c.read() in (BASE, END), 'previous control top')
++        c.move(1)
++        rewind(d, BASE)
++        return state
+diff --git a/research/coded-whole-row-services/rows.py b/research/coded-whole-row-services/rows.py
+new file mode 100644
+index 00000000..538502e5
+--- /dev/null
++++ b/research/coded-whole-row-services/rows.py
+@@ -0,0 +1,243 @@
++"""Fixed seven-symbol tables for the actual Controller's complete-row ABI.
++
++The only compilation parameter is the fixed productive width w. Runtime row
++count, format length, recursion depth and numerical values stay on tapes.
++Prepared for Jerry Chen / CubeJerry with substantial OpenAI assistance.
++Apache-2.0. See PROOF.md for supplied-format and homogeneous-geometry premises.
++"""
++ZERO, ONE, LEFT, SEP, END, BASE, BLANK = range(7)
++
++
++def need(ok, message):
++    if not ok:
++        raise ValueError(message)
++
++
++class Builder:
++    def __init__(self):
++        self.code = {'reject': ('reject', 'coded whole-row contract')}
++
++    def put(self, label, row):
++        need(label not in self.code, 'unique finite label')
++        self.code[label] = row
++        return label
++
++    def read(self, label, port, edges):
++        return self.put(label, ('read', port, dict(edges), 'reject'))
++
++    def actions(self, label, actions, following):
++        for i, operation in enumerate(actions):
++            after = label + ':' + str(i + 1) if i + 1 < len(actions) else following
++            self.put(label + ':' + str(i), (*operation, after))
++        return label + ':0'
++
++    def rewind(self, label, port, marker, following):
++        self.put(label + ':left', ('move', port, -1, label + ':read'))
++        self.read(label + ':read', port,
++                  {ZERO: label + ':left', ONE: label + ':left', marker: label + ':right'})
++        self.put(label + ':right', ('move', port, 1, following))
++        return label + ':left'
++
++    def copy(self, label, source, target, source_marker, target_marker, following):
++        """Copy one positive raw binary descriptor, preserving both heads."""
++        end = self.rewind(label + ':target-rewind', target, target_marker, following)
++        end = self.rewind(label + ':source-rewind', source, source_marker, end)
++        edges = {}
++        for bit in (ZERO, ONE):
++            name = label + ':bit' + str(bit)
++            start = self.actions(name + ':copy',
++                                 [('write', target, bit), ('move', target, 1),
++                                  ('move', source, 1)], label + ':loop')
++            edges[bit] = self.read(name + ':blank', target, {BLANK: start})
++        self.read(label + ':loop', source, {**edges, BLANK: end})
++        return self.read(label + ':entry', source, edges)
++
++    def row(self, label, source, guide, target, following):
++        """One complete row, checked against its canonical zero-format guide.
++
++Virtual0 has physical code000, virtual1 code001, component separator010.
++Guide numeric codes must be000. Source numeric codes admit000/001. Every
++component is nonempty and the row ends exactly after a complete separator.
++target=None implements the same checked scan without producing output.
++"""
++        initial = (0, False, False, '')
++        pending, seen = [initial], set()
++        done = self.rewind(label + ':guide-rewind', guide, LEFT, following)
++
++        def key(state):
++            return label + ':state:' + ':'.join(map(str, state))
++
++        while pending:
++            state = pending.pop()
++            if state in seen:
++                continue
++            seen.add(state)
++            phase, inside, completed, kind = state
++            options = {}
++            if phase == 0:
++                options[ZERO] = {ZERO: (1, inside, completed, '')}
++            elif phase == 1:
++                options[ZERO] = {ZERO: (2, inside, completed, 'bit')}
++                if inside:
++                    options[ONE] = {ONE: (2, inside, completed, 'separator')}
++            elif kind == 'bit':
++                options[ZERO] = {bit: (0, True, completed, '') for bit in (ZERO, ONE)}
++            else:
++                options[ZERO] = {ZERO: (0, False, True, '')}
++            guide_edges = {}
++            for guide_bit, source_options in options.items():
++                source_edges = {}
++                for source_bit, after in source_options.items():
++                    pending.append(after)
++                    name = key(state) + ':g' + str(guide_bit) + ':s' + str(source_bit)
++                    actions = []
++                    if target is not None:
++                        actions += [('write', target, source_bit), ('move', target, 1)]
++                    actions += [('move', source, 1), ('move', guide, 1)]
++                    start = self.actions(name + ':actions', actions, key(after))
++                    if target is not None:
++                        start = self.read(name + ':blank', target, {BLANK: start})
++                    source_edges[source_bit] = start
++                guide_edges[guide_bit] = self.read(key(state) + ':source' + str(guide_bit),
++                                                  source, source_edges)
++            if phase == 0 and not inside and completed:
++                guide_edges[BLANK] = done
++            self.read(key(state), guide, guide_edges)
++        return key(initial)
++
++
++def compile_rows(width):
++    """Return one fixed graph and four entry states, independent of B and R."""
++    need(type(width) is int and width >= 2, 'fixed productive width at least two')
++    guide, bridge, header = width, width + 1, width + 2
++    b = Builder()
++    b.put('done', ('halt', 'done'))
++    b.put('leaf', ('halt', 'leaf'))
++    b.put('inner', ('halt', 'inner'))
++    ends = {value: b.rewind('classify:' + value, 0, LEFT, value)
++            for value in ('leaf', 'inner')}
++    frontier = b.read('classify:frontier', 0,
++                      {BLANK: ends['leaf'], ZERO: ends['inner'], ONE: ends['inner']})
++    classify = b.row('classify:row', 0, guide, None, frontier)
++    prepare = b.copy('prepare', guide, header, LEFT, BASE, 'done')
++
++    def finish(label):
++        after = b.rewind(label + ':bridge', bridge, BASE, 'done')
++        for port in reversed(range(width)):
++            after = b.rewind(label + ':field' + str(port), port, LEFT, after)
++        return after
++
++    installed = finish('install:finish')
++    next_row = 'install:loop'
++    for port in reversed(range(width)):
++        next_row = b.row('install:field' + str(port), bridge, guide, port, next_row)
++    b.read('install:entry', bridge, {ZERO: next_row, ONE: next_row})
++    b.read('install:loop', bridge, {ZERO: next_row, ONE: next_row, BLANK: installed})
++    install = b.copy('install:format', header, guide, BASE, LEFT, 'install:entry')
++
++    collected = finish('collect:finish')
++    for port in reversed(range(1, width)):
++        collected = b.read('collect:end' + str(port), port, {BLANK: collected})
++    next_row = 'collect:loop'
++    for port in reversed(range(width)):
++        next_row = b.row('collect:field' + str(port), port, guide, bridge, next_row)
++    collect = b.read('collect:entry', 0, {ZERO: next_row, ONE: next_row})
++    b.read('collect:loop', 0, {ZERO: next_row, ONE: next_row, BLANK: collected})
++    entries = dict(classify=classify, prepare=prepare, install=install, collect=collect)
++    validate(b.code, entries, width + 3)
++    return b.code, entries
++
++
++def validate(code, entries, ports):
++    need(all(label in code for label in entries.values()), 'closed entry labels')
++    for row in code.values():
++        op = row[0]
++        if op in ('halt', 'reject'):
++            need(len(row) == 2, 'terminal arity')
++            continue
++        need(op in ('read', 'write', 'move'), 'local finite instruction')
++        need(type(row[1]) is int and 0 <= row[1] < ports, 'fixed physical port')
++        if op == 'read':
++            need(all(type(s) is int and 0 <= s < 7 for s in row[2]), 'seven-symbol alphabet')
++            targets = (*row[2].values(), row[3])
++        else:
++            need(row[2] in ((-1, 1) if op == 'move' else range(7)), 'local action')
++            targets = (row[3],)
++        need(all(label in code for label in targets), 'closed transition graph')
++
++
++def execute(code, entry, tapes, observer=None):
++    """Literal finite-graph emulator. steps and observer never choose a branch."""
++    state, steps = entry, 0
++    while True:
++        row = code[state]
++        steps += 1
++        if observer is not None:
++            observer(state, row)
++        op = row[0]
++        if op == 'halt':
++            return row[1], steps
++        if op == 'reject':
++            raise ValueError(row[1])
++        tape = tapes[row[1]]
++        if op == 'read':
++            state = row[2].get(tape.read(), row[3])
++        else:
++            if op == 'write':
++                tape.write(row[2])
++            else:
++                tape.move(row[2])
++            state = row[3]
++
++
++class RowServices:
++    """Bind the exact Controller callback signatures to one static graph.
++
++`payloads[format_role]` is a protected nondata role of that Controller, included
++in its Stack bank. Header and bridge are the Controller's existing outer ports.
++Structural identity tests are fixed ABI validation, not a snapshot admission.
++"""
++    def __init__(self, payloads, public_count, format_role, bridge, child_header, observe=None):
++        need(type(format_role) is int and public_count <= format_role < len(payloads),
++             'separate protected format role')
++        self.public = tuple(payloads[:public_count])
++        self.guide, self.bridge, self.header = payloads[format_role], bridge, child_header
++        self.tapes = self.public + (self.guide, bridge, child_header)
++        need(len({id(t) for t in self.tapes}) == len(self.tapes), 'distinct row-service ports')
++        self.code, self.entries = compile_rows(public_count)
++        self.observe = observe  # Optional checker; absent from the machine theorem.
++
++    def invoke(self, name):
++        value, steps = execute(self.code, self.entries[name], self.tapes)
++        if self.observe is not None:
++            self.observe(name, steps)
++        return value
++
++    def is_leaf(self, token):
++        return self.invoke('classify') == 'leaf'
++
++    def prepare(self, token, child_header):
++        need(child_header is self.header, 'actual staged header')
++        self.invoke('prepare')
++
++    def install(self, bridge, child_header, productive):
++        need(bridge is self.bridge and child_header is self.header
++             and len(productive) == len(self.public)
++             and all(a is b for a, b in zip(productive, self.public)), 'actual install ports')
++        self.invoke('install')
++
++    def collect(self, productive, bridge):
++        need(len(productive) == len(self.public)
++             and all(a is b for a, b in zip(productive, self.public))
++             and bridge is self.bridge, 'actual collect ports')
++        self.invoke('collect')
++
++
++def costs(width, row_bits, rows):
++    """Analysis only: runtime services never call this function."""
++    need(width >= 2 and row_bits >= 1 and rows >= width and rows % width == 0,
++         'complete nonleaf rows')
++    length = row_bits * rows
++    return dict(classify=8 * row_bits + 9, prepare=9 * row_bits + 8,
++                install=13 * length + 4 * rows + rows // width + 9 * row_bits + 3 * width + 12,
++                collect=13 * length + 4 * rows + rows // width + 4 * width + 4)
+diff --git a/research/coded-whole-row-services/source_binding.py b/research/coded-whole-row-services/source_binding.py
+new file mode 100644
+index 00000000..15632006
+--- /dev/null
++++ b/research/coded-whole-row-services/source_binding.py
+@@ -0,0 +1,35 @@
++"""Authenticate retained source bytes and execute those exact bytes, without pyc."""
++from hashlib import sha1, sha256
++from pathlib import Path
++from types import ModuleType
++import json
++import sys
++
++PACKAGE = Path(__file__).resolve().parent
++
++
++def authenticate():
++    manifest = json.loads((PACKAGE / 'DEPENDENCIES.json').read_text())
++    authenticated = {}
++    for pin in manifest['files']:
++        raw = (PACKAGE / pin['local_path']).read_bytes()
++        blob = sha1(b'blob ' + str(len(raw)).encode() + b'\0' + raw).hexdigest()
++        if (len(raw) != pin['bytes'] or sha256(raw).hexdigest() != pin['sha256']
++                or blob != pin['git_blob']):
++            raise ValueError('retained source mismatch: ' + pin['local_path'])
++        authenticated[pin['local_path']] = raw
++    return authenticated
++
++
++def modules():
++    raw = authenticate()
++    loaded = []
++    for stem in ('machine', 'stack', 'exact_scalar_tables'):
++        path = PACKAGE / 'retained' / (stem + '.py')
++        name = 'coded_whole_row_retained_' + stem
++        module = ModuleType(name)
++        module.__file__ = str(path)
++        sys.modules[name] = module
++        exec(compile(raw['retained/' + stem + '.py'], str(path), 'exec'), module.__dict__)
++        loaded.append(module)
++    return tuple(loaded)
+diff --git a/research/coded-whole-row-services/verify.py b/research/coded-whole-row-services/verify.py
+new file mode 100644
+index 00000000..e915dc8f
+--- /dev/null
++++ b/research/coded-whole-row-services/verify.py
+@@ -0,0 +1,433 @@
++"""Bounded source-bound corroboration; scientific control never reads observers."""
++from pathlib import Path
++from types import ModuleType
++import itertools
++import json
++import sys
++
++P = Path(__file__).resolve().parent
++
++
++def need(ok, message):
++    if not ok:
++        raise ValueError(message)
++
++
++def load(stem):
++    path = P / (stem + '.py')
++    module = ModuleType('coded_rows_' + stem)
++    module.__file__ = str(path)
++    sys.modules[module.__name__] = module
++    exec(compile(path.read_bytes(), str(path), 'exec'), module.__dict__)
++    return module
++
++
++rows = load('rows')
++binding = load('source_binding')
++machine, stack, scalar = binding.modules()
++
++
++class Tape(stack.Tape):
++    """Hardware and verification-only history, not an executable input decoder."""
++    def __init__(self, body=(), marker=stack.LEFT, prefix=(), warm=0):
++        super().__init__(prefix, marker)
++        self.cells.extend(body)
++        self.cells.extend([stack.BLANK] * warm)
++        self.initial_origin = self.head
++        self.events = []
++        self.high = self.head
++
++    def read(self):
++        value = super().read()
++        self.events.append(('r', self.head, value))
++        self.high = max(self.high, self.head)
++        return value
++
++    def write(self, value):
++        self.events.append(('w', self.head, value))
++        self.high = max(self.high, self.head)
++        super().write(value)
++
++    def move(self, direction):
++        self.events.append(('m', self.head, direction))
++        super().move(direction)
++        self.high = max(self.high, self.head)
++
++
++def encode(symbols):
++    return [bit for symbol in symbols for bit in ((symbol >> 2) & 1,
++                                                 (symbol >> 1) & 1, symbol & 1)]
++
++
++def format_bits(widths):
++    return encode([s for width in widths for s in ([0] * width + [2])])
++
++
++def encode_row(values, widths):
++    need(len(values) == len(widths), 'one value per signed component')
++    symbols = []
++    for value, width in zip(values, widths):
++        need(-(1 << (width - 1)) <= value < (1 << (width - 1)), 'signed fixture range')
++        symbols.extend((value >> j) & 1 for j in range(width))
++        symbols.append(2)
++    return encode(symbols)
++
++
++def current(tape, marker=stack.LEFT):
++    """Checker-only current body; no scientific transition uses this routine."""
++    origin = tape.head
++    while origin > 0 and tape.cells[origin - 1] != marker:
++        origin -= 1
++    need(origin > 0, 'observer locates marker')
++    stop = origin
++    while stop < len(tape.cells) and tape.cells[stop] != stack.BLANK:
++        stop += 1
++    return origin, tuple(tape.cells[origin:stop])
++
++
++def make_tapes(width, formats, fields=None, bridge=(), header=(), warm=0):
++    fields = fields if fields is not None else [()] * width
++    result = [Tape(body, prefix=[(i + j) & 1 for j in range(i + 2)], warm=warm)
++              for i, body in enumerate(fields)]
++    result.append(Tape(formats, prefix=(1, 0, 1, 1), warm=warm))
++    result.append(Tape(bridge, stack.BASE, (0, 1, 1), warm))
++    result.append(Tape(header, stack.BASE, (1, 1, 0, 0, 1), warm))
++    return result
++
++
++def run_checked(code, entry, tapes):
++    starts = []
++    for index, tape in enumerate(tapes):
++        marker = stack.BASE if index >= len(tapes) - 2 else stack.LEFT
++        origin, _ = current(tape, marker)
++        starts.append((origin, tuple(tape.cells[:origin]), len(tape.events)))
++    raw_before = sum(t.counts.total for t in tapes)
++    value, steps = rows.execute(code, entry, tapes)
++    need(sum(t.counts.total for t in tapes) - raw_before == steps - 1,
++         'one local action per nonterminal transition')
++    for tape, (origin, prefix, begin) in zip(tapes, starts):
++        need(tuple(tape.cells[:origin]) == prefix, 'all ancestor bytes and delimiter preserved')
++        need(tape.head == origin, 'each touched row port returns to local origin')
++        need(all(event[1] >= origin - 1 for event in tape.events[begin:]),
++             'trace stays within current segment and its marker')
++    return value, steps
++
++
++def service_cases():
++    count, canonical_bits = 0, 0
++    static = {}
++    for width in range(2, 6):
++        code, entries = rows.compile_rows(width)
++        static[width] = len(code)
++        for widths in ((1,), (2,), (1, 3), (2, 3, 1)):
++            fmt = format_bits(widths)
++            for cycles in range(1, 5):
++                number = width * cycles
++                values = [tuple((r + i) % (1 << h) - (1 << (h - 1))
++                                for i, h in enumerate(widths)) for r in range(number)]
++                parts = [encode_row(value, widths) for value in values]
++                data = [bit for part in parts for bit in part]
++                bill = rows.costs(width, len(fmt), number)
++                parent = make_tapes(width, fmt, [data] * width, warm=17)
++                value, steps = run_checked(code, entries['classify'], parent)
++                need(value == 'inner' and steps == bill['classify'], 'actual nonleaf classification bill')
++                value, steps = run_checked(code, entries['prepare'], parent)
++                need(value == 'done' and steps == bill['prepare'], 'actual staged-format bill')
++                need(current(parent[-1], stack.BASE)[1] == tuple(fmt), 'staged format exact')
++                child = make_tapes(width, (), bridge=data, header=fmt, warm=19)
++                value, steps = run_checked(code, entries['install'], child)
++                need(value == 'done' and steps == bill['install'], 'actual installation bill')
++                for i in range(width):
++                    expected = tuple(bit for part in parts[i::width] for bit in part)
++                    need(current(child[i])[1] == expected, 'complete row stripe')
++                need(current(child[width])[1] == tuple(fmt), 'child guide actually installed')
++                machine.retire(child[-2], stack.BASE)
++                machine.retire(child[-1], stack.BASE)
++                value, steps = run_checked(code, entries['collect'], child)
++                need(value == 'done' and steps == bill['collect'], 'actual collection bill')
++                need(current(child[-2], stack.BASE)[1] == tuple(data), 'complete row inverse')
++                canonical_bits += len(data)
++                count += 1
++            one = make_tapes(width, fmt, [encode_row((0,) * len(widths), widths)] * width)
++            value, steps = run_checked(code, entries['classify'], one)
++            need(value == 'leaf' and steps == 8 * len(fmt) + 9, 'actual one-row frontier')
++    return {'cases': count, 'total_canonical_bits': canonical_bits,
++            'graph_states': static, 'leaf_cases': 16}
++
++
++def controller_case(width, depth, widths, prefix_length, dirty_length):
++    """Run the actual Controller/Stack/scalar code; all extra state is observer-only."""
++    count, fmt = width ** depth, format_bits(widths)
++    values = []
++    data, expected = [], []
++    for field in range(width):
++        field_values = []
++        for row in range(count):
++            current_values = []
++            for component, h in enumerate(widths):
++                bound = (1 << (h - 1)) - 1
++                current_values.append((row + 2 * field + component) % (2 * bound + 1) - bound)
++            field_values.append(tuple(current_values))
++        values.append(field_values)
++        data.append([bit for value in field_values for bit in encode_row(value, widths)])
++        expected.append(tuple(bit for value in field_values
++                              for bit in encode_row(tuple(-x for x in value), widths)))
++    q, guide_role = width + 3, width
++    bodies = data + [fmt, [i & 1 for i in range(dirty_length)],
++                     [(i + 1) & 1 for i in range(dirty_length + 1)]]
++    payloads = [Tape(body, prefix=tuple((i + j) & 1 for j in range(prefix_length + i)), warm=13)
++                for i, body in enumerate(bodies)]
++    outer = [Tape(marker=stack.BASE, prefix=tuple((i + j) & 1 for j in range(prefix_length + 2 * i)),
++                  warm=17) for i in range(4)]
++    control, descriptor, bridge, header = outer
++    tapes = payloads + outer
++    initial_prefixes = [tuple(t.cells[:t.initial_origin]) for t in tapes]
++    observations, boundary_receipts, restored_parents = [], [], []
++    pending = []
++
++    class ObservedRows(rows.RowServices):
++        def invoke(self, name):
++            value, steps = run_checked(self.code, self.entries[name], self.tapes)
++            observations.append((name, steps))
++            return value
++
++    class ObservedStack(stack.Stack):
++        """Snapshots are checks; the inherited stack never receives them."""
++        def push(self, present):
++            snapshot = [(t.head, tuple(t.cells[:t.head]), current(t)[1]) for t in self.payloads]
++            super().push(present)
++            restored_parents.append(snapshot)
++
++        def pop(self):
++            snapshot = restored_parents.pop()
++            result = super().pop()
++            for tape, (head, prefix, body) in zip(self.payloads, snapshot):
++                need(tape.head == head and tuple(tape.cells[:head]) == prefix,
++                     'actual Stack parent heads and protected prefix')
++                need(current(tape)[1] == body, 'actual Stack every suspended owner restored')
++            return result
++
++    def total():
++        return sum(t.counts.total for t in tapes)
++
++    class ObservedController(machine.Controller):
++        def descend(self, pc):
++            event = self.program[pc]
++            before, event_start = total(), len(observations)
++            parent_total = sum(len(current(t)[1]) for t in self.payloads)
++            incoming = len(current(self.payloads[event.ports[0]])[1])
++            need(observations[-1] == ('classify', 8 * len(fmt) + 9), 'paid classification before descent')
++            super().descend(pc)
++            row_steps = observations[event_start:]
++            need(tuple(name for name, _ in row_steps) == ('prepare', 'install'), 'actual descent callbacks')
++            admin = total() - before - sum(steps - 1 for _, steps in row_steps)
++            pending.append((parent_total, incoming, admin, row_steps, observations[event_start - 1]))
++            need(current(self.payloads[guide_role])[1] == tuple(fmt), 'current child format survived push')
++            need(all(len(current(t)[1]) == incoming // width for t in self.payloads[:width]),
++                 'every productive child field installed')
++
++        def ascend(self):
++            parent_total, incoming, descend_admin, down_rows, classification = pending.pop()
++            before, event_start = total(), len(observations)
++            child_total = sum(len(current(t)[1]) for t in self.payloads)
++            outgoing = sum(len(current(t)[1]) for t in self.payloads[:width])
++            pc = super().ascend()
++            up_rows = observations[event_start:]
++            need(tuple(name for name, _ in up_rows) == ('collect',), 'actual collect before ascent')
++            admin = descend_admin + total() - before - sum(steps - 1 for _, steps in up_rows)
++            written = machine.boundary_actions(q, self.pc_bits, parent_total, child_total,
++                                               incoming, outgoing, len(fmt))
++            need(admin == written, 'all original Controller administrative terms retained')
++            all_rows = [classification, *down_rows, *up_rows]
++            bill = rows.costs(width, len(fmt), incoming // len(fmt))
++            need(all(steps == bill[name] for name, steps in all_rows), 'complete actual callback invoice')
++            combined = (4 * parent_total + 5 * child_total + 57 * incoming
++                        + 8 * (incoming // len(fmt)) + 2 * (incoming // len(fmt) // width)
++                        + 31 * len(fmt) + 38 * q + 27 * self.pc_bits + 7 * width + 136)
++            need(incoming == outgoing and admin + sum(steps for _, steps in all_rows) == combined,
++                 'independent expanded administrative-plus-row invoice')
++            boundary_receipts.append({'incoming': incoming, 'outgoing': outgoing,
++                                      'parent_total': parent_total, 'child_total': child_total,
++                                      'administrative_actions': admin, 'complete_boundary': combined})
++            return pc
++
++    row_services = ObservedRows(payloads, width, guide_role, bridge, header)
++    table, table_info = scalar.compile_scalar('SCALE', -1)
++    program = tuple(machine.Instruction('PAID', (i,), ('homogeneous', i)) for i in range(width))
++    program += (machine.Instruction('RET'),)
++    services = {('leaf', 'homogeneous', i): table for i in range(width)}
++    controller = ObservedController(program, width, payloads, control, descriptor, bridge, header,
++                                    row_services, services, ObservedStack,
++                                    protected_ports=(guide_role,), primitive_work=(width + 1, width + 2),
++                                    primitive_context=(guide_role,))
++    controller.run()
++    need(not pending and not restored_parents, 'all observed recursion frames retired')
++    for i in range(width):
++        need(current(payloads[i])[1] == expected[i], 'actual complete nested scalar endpoint')
++    need(current(payloads[guide_role])[1] == tuple(fmt), 'root protected format preserved')
++    for tape in payloads[width + 1:]:
++        need(current(tape)[1] == (), 'root native scratch physically retired')
++    for tape in outer:
++        need(current(tape, stack.BASE)[1] == (), 'control, PC, bridge and header retired')
++    for index, tape in enumerate(tapes):
++        need(tape.head == tape.initial_origin, 'all root heads restored')
++        need(tuple(tape.cells[:tape.initial_origin]) == initial_prefixes[index], 'outer ancestor bytes exact')
++        marker = stack.BASE if index >= q else stack.LEFT
++        _, body = current(tape, marker)
++        need(all(c == stack.BLANK for c in tape.cells[tape.head + len(body):]),
++             'entire historical tail blank after root return')
++    expected_boundaries = sum(width ** j for j in range(1, depth + 1))
++    need(len(boundary_receipts) == expected_boundaries, 'complete finite recursion tree')
++    return {'width': width, 'depth': depth, 'component_widths': list(widths),
++            'row_bits': len(fmt), 'root_rows': count, 'prefix_length': prefix_length,
++            'initial_dirty_work': [dirty_length, dirty_length + 1],
++            'ordinary_boundaries': len(boundary_receipts), 'row_callbacks': len(observations),
++            'raw_actions': total(), 'row_transition_steps': sum(s for _, s in observations),
++            'scalar_rows': table_info['rows'],
++            'boundary_administrative_sum': sum(x['administrative_actions'] for x in boundary_receipts),
++            'complete_boundary_sum': sum(x['complete_boundary'] for x in boundary_receipts),
++            'retained_cells': sum(len(t.cells) for t in tapes)}
++
++
++def controller_cases():
++    return [controller_case(w, d, widths, prefix, dirty)
++            for w, d, widths, prefix, dirty in
++            ((2, 0, (2, 2), 0, 5), (2, 1, (2, 3), 7, 3),
++             (2, 2, (3, 3), 19, 17), (2, 3, (2, 3, 1, 2), 37, 11),
++             (3, 1, (3, 4), 9, 7), (3, 2, (2, 3), 31, 13),
++             (4, 2, (3, 3), 47, 5))]
++
++
++def direct_format_accepts(guide, data):
++    """Independent complete-word specification, not the runtime state graph."""
++    if not guide or len(guide) != len(data) or len(guide) % 3:
++        return False
++    g = [4 * guide[i] + 2 * guide[i + 1] + guide[i + 2] for i in range(0, len(guide), 3)]
++    x = [4 * data[i] + 2 * data[i + 1] + data[i + 2] for i in range(0, len(data), 3)]
++    if g[-1] != 2 or any(s not in (0, 2) for s in g):
++        return False
++    pieces = []
++    begin = 0
++    for i, symbol in enumerate(g):
++        if symbol == 2:
++            pieces.append(g[begin:i])
++            begin = i + 1
++    if any(not piece for piece in pieces):
++        return False
++    return all(s in (0, 1) if f == 0 else s == 2 for f, s in zip(g, x))
++
++
++def exhaustive_format_check():
++    code, entries = rows.compile_rows(2)
++    cases, accepted = 0, 0
++    for size in (3, 6):
++        words = list(itertools.product((0, 1), repeat=size))
++        for guide in words:
++            for data in words:
++                tapes = make_tapes(2, guide, [data, ()])
++                try:
++                    outcome, _ = rows.execute(code, entries['classify'], tapes)
++                    observed = outcome == 'leaf'
++                except ValueError:
++                    observed = False
++                expected = direct_format_accepts(guide, data)
++                need(observed == expected, 'independent full-word format specification')
++                accepted += observed
++                cases += 1
++    return {'physical_lengths': [3, 6], 'guide_data_pairs': cases, 'accepted_pairs': accepted}
++
++
++def negative_controls():
++    code, entries = rows.compile_rows(2)
++    fmt = format_bits((2, 2))
++    first = encode_row((0, 1), (2, 2))
++    second = encode_row((1, -1), (2, 2))
++    caught = []
++
++    def rejects(label, action):
++        try:
++            action()
++        except ValueError:
++            caught.append(label)
++        else:
++            raise ValueError('negative control survived: ' + label)
++
++    def collect(fields, guide=fmt):
++        tapes = make_tapes(2, guide, fields)
++        rows.execute(code, entries['collect'], tapes)
++        return current(tapes[-2], stack.BASE)[1]
++
++    rejects('short_last_returned_field', lambda: collect([first + second, first]))
++    rejects('long_last_returned_field', lambda: collect([first, first + second]))
++    rejects('partial_last_codeword', lambda: collect([first, second[:-1]]))
++    rejects('literal_zero_bytes_are_not_a_zero_row', lambda: collect([first, [0] * len(fmt)]))
++    changed = list(second)
++    changed[-2] = 0
++    rejects('lost_component_terminator', lambda: collect([first, changed]))
++    same_length_guide = format_bits((1, 1))
++    other_layout = encode_row((0,), (3,))
++    rejects('different_layout_with_same_length', lambda: collect([other_layout, other_layout], same_length_guide))
++    nonzero_guide = list(fmt)
++    nonzero_guide[2] = 1
++    rejects('nonzero_format_digit', lambda: collect([first, second], nonzero_guide))
++    rejects('empty_format', lambda: collect([first, second], []))
++    foreign = list(second)
++    foreign[0] = stack.END
++    rejects('foreign_physical_symbol', lambda: collect([first, foreign]))
++    split_tapes = make_tapes(2, (), bridge=first * 3, header=fmt)
++    rejects('incomplete_productive_batch', lambda: rows.execute(code, entries['install'], split_tapes))
++
++    tapes = make_tapes(2, fmt, [first, second])
++    rejects('aliased_format_role',
++            lambda: rows.RowServices([tapes[0], tapes[1], tapes[0]], 2, 2, tapes[-2], tapes[-1]))
++    rejects('aliased_productive_roles',
++            lambda: rows.RowServices([tapes[0], tapes[0], tapes[2]], 2, 2, tapes[-2], tapes[-1]))
++    rejects('aliased_outer_relays',
++            lambda: rows.RowServices(tapes[:3], 2, 2, tapes[-2], tapes[-2]))
++
++    # A valid-shape mutant reverses the field order; local shape checks alone
++    # cannot substitute for the source-bound endpoint proof.
++    swapped = dict(code)
++    for label, instruction in code.items():
++        if (label.startswith('collect:') and instruction[0] in ('read', 'write', 'move')
++                and instruction[1] in (0, 1)):
++            swapped[label] = (instruction[0], 1 - instruction[1], *instruction[2:])
++    mutated_tapes = make_tapes(2, fmt, [first, second])
++    rows.execute(swapped, entries['collect'], mutated_tapes)
++    rejects('swapped_complete_fields_endpoint',
++            lambda: need(current(mutated_tapes[-2], stack.BASE)[1] == tuple(first + second),
++                         'correct field order'))
++
++    # The extra-field end guard is an actual discriminator, not decorative.
++    unchecked = dict(code)
++    instruction = unchecked['collect:end1']
++    target = instruction[2][stack.BLANK]
++    unchecked['collect:end1'] = ('read', 1, {0: target, 1: target, stack.BLANK: target}, 'reject')
++    unchecked_tapes = make_tapes(2, fmt, [first, second + first])
++    rows.execute(unchecked, entries['collect'], unchecked_tapes)
++    rejects('omitted_returned_field_frontier_check',
++            lambda: need(len(current(unchecked_tapes[0])[1]) == len(current(unchecked_tapes[1])[1]),
++                         'complete equal returned fields'))
++    rejects('omitted_format_installation_cost',
++            lambda: need(rows.costs(2, len(fmt), 2)['install']
++                         == 13 * 2 * len(fmt) + 8 + 1 + 6 + 5,
++                         'complete paid header copy'))
++    return caught
++
++
++def main():
++    result = {'status': 'PASS_CODED_WHOLE_ROW_SERVICES', 'services': service_cases(),
++              'controllers': controller_cases(), 'format_exhaustion': exhaustive_format_check(),
++              'negative_controls': negative_controls(), 'kappa_change': None,
++              'conditional_homogeneous_geometry': True}
++    result = json.loads(json.dumps(result))
++    if '--write-result' in sys.argv:
++        (P / 'RESULT.json').write_text(json.dumps(result, indent=2) + '\n')
++    else:
++        need(result == json.loads((P / 'RESULT.json').read_text()), 'frozen typed receipt')
++    print(result['status'], result['services']['cases'], len(result['controllers']),
++          result['format_exhaustion']['guide_data_pairs'], len(result['negative_controls']))
++
++
++if __name__ == '__main__':
++    main()
