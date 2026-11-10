@@ -1,0 +1,212 @@
+{
+  "status": "PASS_CODED_WHOLE_ROW_SERVICES",
+  "services": {
+    "cases": 64,
+    "total_canonical_bits": 8400,
+    "graph_states": {
+      "2": 671,
+      "3": 944,
+      "4": 1217,
+      "5": 1490
+    },
+    "leaf_cases": 16
+  },
+  "controllers": [
+    {
+      "width": 2,
+      "depth": 0,
+      "component_widths": [
+        2,
+        2
+      ],
+      "row_bits": 18,
+      "root_rows": 1,
+      "prefix_length": 0,
+      "initial_dirty_work": [
+        5,
+        6
+      ],
+      "ordinary_boundaries": 0,
+      "row_callbacks": 2,
+      "raw_actions": 2386,
+      "row_transition_steps": 306,
+      "scalar_rows": 216,
+      "boundary_administrative_sum": 0,
+      "complete_boundary_sum": 0,
+      "retained_cells": 231
+    },
+    {
+      "width": 2,
+      "depth": 1,
+      "component_widths": [
+        3,
+        3
+      ],
+      "row_bits": 24,
+      "root_rows": 2,
+      "prefix_length": 7,
+      "initial_dirty_work": [
+        3,
+        4
+      ],
+      "ordinary_boundaries": 2,
+      "row_callbacks": 12,
+      "raw_actions": 15598,
+      "row_transition_steps": 4678,
+      "scalar_rows": 216,
+      "boundary_administrative_sum": 5646,
+      "complete_boundary_sum": 9520,
+      "retained_cells": 455
+    },
+    {
+      "width": 2,
+      "depth": 2,
+      "component_widths": [
+        3,
+        3
+      ],
+      "row_bits": 24,
+      "root_rows": 4,
+      "prefix_length": 19,
+      "initial_dirty_work": [
+        17,
+        18
+      ],
+      "ordinary_boundaries": 6,
+      "row_callbacks": 32,
+      "raw_actions": 47670,
+      "row_transition_steps": 15762,
+      "scalar_rows": 216,
+      "boundary_administrative_sum": 21274,
+      "complete_boundary_sum": 35428,
+      "retained_cells": 873
+    },
+    {
+      "width": 2,
+      "depth": 3,
+      "component_widths": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "row_bits": 36,
+      "root_rows": 8,
+      "prefix_length": 37,
+      "initial_dirty_work": [
+        11,
+        12
+      ],
+      "ordinary_boundaries": 14,
+      "row_callbacks": 72,
+      "raw_actions": 182682,
+      "row_transition_steps": 63874,
+      "scalar_rows": 216,
+      "boundary_administrative_sum": 88130,
+      "complete_boundary_sum": 147252,
+      "retained_cells": 2087
+    },
+    {
+      "width": 3,
+      "depth": 1,
+      "component_widths": [
+        4,
+        4
+      ],
+      "row_bits": 30,
+      "root_rows": 3,
+      "prefix_length": 9,
+      "initial_dirty_work": [
+        7,
+        8
+      ],
+      "ordinary_boundaries": 3,
+      "row_callbacks": 21,
+      "raw_actions": 41957,
+      "row_transition_steps": 11841,
+      "scalar_rows": 216,
+      "boundary_administrative_sum": 15555,
+      "complete_boundary_sum": 25155,
+      "retained_cells": 785
+    },
+    {
+      "width": 3,
+      "depth": 2,
+      "component_widths": [
+        3,
+        3
+      ],
+      "row_bits": 24,
+      "root_rows": 9,
+      "prefix_length": 31,
+      "initial_dirty_work": [
+        13,
+        14
+      ],
+      "ordinary_boundaries": 12,
+      "row_callbacks": 75,
+      "raw_actions": 154313,
+      "row_transition_steps": 47727,
+      "scalar_rows": 216,
+      "boundary_administrative_sum": 71184,
+      "complete_boundary_sum": 113484,
+      "retained_cells": 1736
+    },
+    {
+      "width": 4,
+      "depth": 2,
+      "component_widths": [
+        3,
+        3
+      ],
+      "row_bits": 24,
+      "root_rows": 16,
+      "prefix_length": 47,
+      "initial_dirty_work": [
+        5,
+        6
+      ],
+      "ordinary_boundaries": 20,
+      "row_callbacks": 144,
+      "raw_actions": 366800,
+      "row_transition_steps": 107524,
+      "scalar_rows": 216,
+      "boundary_administrative_sum": 175640,
+      "complete_boundary_sum": 270300,
+      "retained_cells": 3190
+    }
+  ],
+  "format_exhaustion": {
+    "physical_lengths": [
+      3,
+      6
+    ],
+    "guide_data_pairs": 4160,
+    "accepted_pairs": 2
+  },
+  "negative_controls": [
+    "short_last_returned_field",
+    "long_last_returned_field",
+    "partial_last_codeword",
+    "literal_zero_bytes_are_not_a_zero_row",
+    "lost_component_terminator",
+    "different_layout_with_same_length",
+    "nonzero_format_digit",
+    "empty_format",
+    "foreign_physical_symbol",
+    "incomplete_productive_batch",
+    "aliased_format_role",
+    "aliased_productive_roles",
+    "aliased_outer_relays",
+    "swapped_complete_fields_endpoint",
+    "omitted_returned_field_frontier_check",
+    "omitted_format_installation_cost"
+  ],
+  "kappa_change": null,
+  "partial_failure_example": {
+    "rejection_preserves_partial_output_cells": 54,
+    "bridge_head_restored": false,
+    "rollback_claimed": false
+  },
+  "conditional_homogeneous_geometry": true
+}

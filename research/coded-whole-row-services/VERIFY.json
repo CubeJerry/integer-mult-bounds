@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "research/coded-whole-row-services/verify.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Exact fixed row graphs, full-format validation, original Controller/Stack/scalar binding, complete invoices, finite independent specification, mutation and partial-failure controls"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "research/coded-whole-row-services/verify.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Optimized replay preserves explicit guards and frozen typed receipt"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "research/coded-whole-row-services/independent-review/independent.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Independent target-only interpreter;90 domains,10 widths,altered returned values,four malformed-field/format controls and reviewed graph hash"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "research/coded-whole-row-services/independent-review/independent.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Independent target-only interpreter;90 domains,10 widths,altered returned values,four malformed-field/format controls and reviewed graph hash"
+    }
+  ]
+}
