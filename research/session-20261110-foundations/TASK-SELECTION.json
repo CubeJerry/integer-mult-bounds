@@ -1,0 +1,148 @@
+{
+  "seed": "ad6d306d6f6b93897c819c22f8240e7b",
+  "track": "adversarial-audit",
+  "suggestions": [
+    {
+      "task_id": "uniform-transfer-audit",
+      "scope_key": "cdee6027333168fe48af",
+      "handoff_url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1166",
+      "existing_checks": [
+        {
+          "scope": "PR #4100: proposed unconditional construction and finite checks, without independent acceptance.",
+          "evidence": "research/unconditional-batched-crt/README.md",
+          "remaining": "Independent proof audit of one caller-bound all-size implication; all other premises remain explicit.",
+          "status": "author-checked",
+          "source_commit": "337d04939571a637aeab54a0f58f54fde811663a",
+          "selected_record_sha256": "bb2eaa58647b353f88d0aec2eafb9d30df1be53589231b23e12ceef3e4bad129"
+        },
+        {
+          "scope": "Selected PR5599: complete helper-subspace construction and independent caller replay; five framework assumptions remain.",
+          "evidence": "docs/research/pr-intake-evidence/pr5599-completion/PROOF-REVIEW.md",
+          "remaining": "The next experiment must identify uncovered source-specific work. Successor archive intake does not transfer this admission.",
+          "status": "reviewed",
+          "source_commit": "09dd0965711ca7eeb169057a420abab1c9052137",
+          "selected_record_sha256": "2a0220e866417774606e0f991e41b9c1d26b1f43b97857238cf478dbc7d330b5"
+        }
+      ],
+      "coverage_rule": "These checks have limited scopes. Empty coverage means unknown, not unstudied. Audit a missing implication or explicitly justify independent repetition.",
+      "question": "Can one of the selected record's five inherited assumptions be proved at its actual caller?",
+      "method": "Seek an exact counterexample or target-specific complete-budget obstruction to that same proposed change.",
+      "starting_points": [
+        "docs/research/current-priorities.md",
+        "docs/research/research-family-status.md",
+        "certificates/selected-result.json",
+        "docs/research/pr-intake-evidence/pr5599-completion/PROOF-REVIEW.md"
+      ],
+      "acceptance_gate": "Identify the proposition and what would change downstream; do not equate a finite replay with a universal proof.",
+      "first_step": {
+        "command": [
+          "python3",
+          "-B",
+          "scripts/research_selected_baseline.py"
+        ],
+        "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+        "inspect": "Read revision 8, the selected review and live exact-source handoffs. Then follow this card's bounded first_experiment.",
+        "scope": "Source-bound orientation only, not a supplier replay or theorem proof."
+      },
+      "first_experiment": "Choose one assumption ID (native_all_columns, owned_erasure, compiler, precision_tape, analytic_recovery), one quantified implication and exact dependency closure. Check current handoffs, including #5625 row reentry and #5707 root-prefix lowering, without treating their partial scope as the whole theorem. Prove or falsify that implication with a caller-bound argument; stop at the chosen obligation. Finite tests or root digits do not discharge an all-size statement.",
+      "bottleneck_link": "Judge the actual current supplier contract and complete signed target/paid bill; frozen-profile ceilings require an applicability proof.",
+      "allowed_variations": [
+        "One exact source head, helper/cut region or quantified proposition and changed hypothesis; check live handoffs first. Different seeds are not different scopes."
+      ],
+      "scope_change_triggers": [
+        "Changing source head, helper/cut domain, operation alphabet or caller boundary without recording the new scope.",
+        "Treating an archived proposal or local numerical pass as complete supplier admission."
+      ],
+      "overlap_terms": [
+        "native_all_columns",
+        "owned_erasure",
+        "compiler",
+        "precision_tape",
+        "analytic_recovery"
+      ],
+      "scope_rule": "If you change the card's premise, record scope_status=changed and explain why. A package metadata check cannot establish mathematical relevance.",
+      "coverage_context_matches_selected": false,
+      "open_handoffs": [],
+      "advisory_claims": []
+    }
+  ],
+  "coordination": {
+    "handoff_url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1166",
+    "scope": "Check live handoffs first; no structured snapshot supplied."
+  },
+  "priorities": "docs/research/current-priorities.md",
+  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "catalog_assessed_on": "2026-10-26",
+  "priority_revision": 8,
+  "priority_log": "docs/research/research-priority-log.md",
+  "catalog_sha256": "ead6cdc9d0af6d58e8a49744d8ec8c7c15e13d2ba93c276c434bcf9b51b93a81",
+  "selected_record_sha256": "154c3d30455d778fd3343b6b4851f0fa4665f0f7625b0adb3675e2bafbbf6bf1",
+  "selected": {
+    "kappa": "363005817/100000000000",
+    "review": "docs/research/pr-intake-evidence/pr7000-application/PROOF-REVIEW.md",
+    "source_manifest": "certificates/frontier7000-source.json",
+    "reproduce": "make frontier7000-verify"
+  },
+  "status": "SUGGESTIONS_ONLY_NOT_RESERVED",
+  "next_step": "First check #1166 for a suitable open handoff. Use these suggestions if none fits, check live overlap and existing coverage, then record a bounded scope. Claims never exclude independent audits.",
+  "sparse_checkout": {
+    "omitted_catalogue_paths": [
+      "CONTRIBUTORS.md",
+      "docs/ci-verification.md",
+      "docs/research/community-efficient1000-review.md",
+      "docs/research/pr-intake-evidence/pr5599-completion/PROOF-REVIEW.md",
+      "docs/research/recursive-invoice-preflight.md",
+      "docs/research/research-priority-log.md",
+      "research/bit-gl3-mixed-targets-length10/README.md",
+      "research/bit-three-register-lower-bound/README.md",
+      "research/bootstrap-cutoff-time-space-split/README.md",
+      "research/dyadic-helper-channel-capacity/README.md",
+      "research/f7-weight-parity-census-correction/README.md",
+      "research/g20-conjugation-admission/README.md",
+      "research/g20-helper-split/README.md",
+      "research/gate-operand-parity-lean/README.md",
+      "research/gzip-container-reproducibility/README.md",
+      "research/p104-helper-subspace-splits/README.md",
+      "research/r437-reverse-row-coefficient/README.md",
+      "research/r437-two-window-carrier/README.md",
+      "research/selected-bootstrap-stock-audit/README.md",
+      "research/staged544-certified-endpoint/README.md",
+      "research/stock-margin-chain/README.md",
+      "research/unconditional-batched-crt/README.md",
+      "research/universal-connector-boundary/README.md",
+      "research/universal-connector-boundary/verify.py",
+      "scripts/run_isolated_tests.py",
+      "scripts/verify_replay_coverage.py"
+    ],
+    "scope": "These absent regular files match HEAD and skip-worktree index entries. Materialize the chosen task's inputs before running it; this validates catalogue references, not replay dependencies."
+  },
+  "catalog_selection": {
+    "context": {
+      "refreshed_on": "2026-10-26",
+      "kappa": "62009/20000000",
+      "source_pr": 5599,
+      "source_commit": "09dd0965711ca7eeb169057a420abab1c9052137",
+      "record": "certificates/selected-result.json",
+      "review": "docs/research/pr-intake-evidence/pr5599-completion/PROOF-REVIEW.md",
+      "orientation_command": "python3 -B scripts/research_selected_baseline.py",
+      "scope": "Revision-8 strategic reassessment. PR5599 is selected and independently replayed under five inherited assumptions. Archived successor claims are not admissions. Compare complete signed target/paid moments and the current nine outer rows; no historical balanced-transfer cap is imposed."
+    },
+    "matches_selected": false,
+    "differences": {
+      "kappa": {
+        "catalog": "62009/20000000",
+        "selected": "363005817/100000000000"
+      },
+      "source_commit": {
+        "catalog": "09dd0965711ca7eeb169057a420abab1c9052137",
+        "selected": "93effe2a135bf57b9e484cb630d8dd057159aec9"
+      },
+      "review": {
+        "catalog": "docs/research/pr-intake-evidence/pr5599-completion/PROOF-REVIEW.md",
+        "selected": "docs/research/pr-intake-evidence/pr7000-application/PROOF-REVIEW.md"
+      }
+    },
+    "uncompared_fields": [],
+    "scope": "Compare only kappa, source_commit/audited_source_head and review. Missing fields are unknown. The catalogue context is historical; use selected for the current result and replay. Matching metadata does not establish current task coverage or scientific validation. Input hashes bind this comparison to the picker receipt, not the complete selected source closure."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "continuous-research-recovery-v1",
+  "run": "20261110-foundations",
+  "state": "wave 1 active; new claims unverified",
+  "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "base_tree": "1199c3d7a31fffa5ba5d41f10f1b933aacc797aa",
+  "selected_kappa": "363005817/100000000000",
+  "selected_review": "docs/research/pr-intake-evidence/pr7000-application/PROOF-REVIEW.md",
+  "priority_revision": 8,
+  "catalogue_context_stale": true,
+  "first_clock_observation_utc": "2026-11-10T15:28:52Z",
+  "checkpoint_utc": "2026-11-10T15:40:00Z",
+  "recovery_branch": "research/continuous-20261110-recovery",
+  "wave": 1,
+  "workers": [
+    {
+      "worker": "dispatcher",
+      "wave": 1,
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Actual Controller.primitive with readonly contexts and pre/post retirement; #6999 same-port no-context predecessor excluded.",
+      "status": "active",
+      "worktree": "/workspace/scratch/6baa9e3af65b/wt-dispatcher",
+      "branch": "research/continuous-20261110-dispatcher",
+      "next_action": "Prove or falsify exact proposed claim; independent review before publication."
+    },
+    {
+      "worker": "ownership",
+      "wave": 1,
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Source-specific stratified historical storage for same-volume complex/BIT bootstrap ancestry and contracting within-backend recursion.",
+      "status": "active",
+      "worktree": "/workspace/scratch/6baa9e3af65b/wt-ownership",
+      "branch": "research/continuous-20261110-ownership",
+      "next_action": "Prove or falsify exact proposed claim; independent review before publication."
+    },
+    {
+      "worker": "analytic",
+      "wave": 1,
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Changing-node whole balanced CRT traversal with one 118-role RowQuery workspace, staging and eight owned protected-word roles; #6100/#5625 fixed-node limit.",
+      "status": "active",
+      "worktree": "/workspace/scratch/6baa9e3af65b/wt-analytic",
+      "branch": "research/continuous-20261110-analytic",
+      "next_action": "Prove or falsify exact proposed claim; independent review before publication."
+    }
+  ],
+  "verified_publications": [],
+  "completed": [
+    "Required canonical instructions, exact selected assumptions/review and scoped ledger entries read.",
+    "5654 research-package names surveyed; targeted recent PR/source overlap.",
+    "Earlier 33-package history reconciled; already-proved lemmas excluded.",
+    "One shallow blob-filtered sparse clone; four isolated writable worktrees.",
+    "Canonical source binding orientation completed (220 exact inputs, 5.1 MB)."
+  ],
+  "limitations": [
+    "No supported Discussion mutation connector; claims kept in this recovery branch. Public Discussion pages give partial/cached coverage.",
+    "No guaranteed unattended runtime; no promise of unscheduled background work."
+  ],
+  "budget": {
+    "requested_hours": 10,
+    "provisional_new_research_cutoff_utc": "2026-11-10T22:58:52Z",
+    "provisional_window_end_utc": "2026-11-11T01:28:52Z",
+    "rule": "Continue successive fresh waves while live runtime and verification budget support them. Reserve final quarter, publish verified work throughout; close with useful handoff on concrete limits."
+  },
+  "restart": [
+    "Read RECOVERY.md, ASSUMPTIONS.md and OPPORTUNITIES.md.",
+    "Refresh upstream and scope-specific PR/claim/source deltas.",
+    "Resume active work without repeating frozen completed research.",
+    "Do not create upstream PRs, merge, change selected certificate or fork main."
+  ]
+}
