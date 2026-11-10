@@ -69,3 +69,7 @@ format/parser, complete-row, suspended-owner and cost inductions; add metadata
 and limitations; execute registered normal/optimized verification; request
 cross-review before the scientific freeze. Exclude variable-rank recursion,
 non-power homogeneous roots, remainders/padding and production descriptors.
+
+## Publication withheld after overlap audit
+
+The verified scientific graph/receipt remain unchanged. The original missing-callback novelty characterization is withdrawn: CubeJerry 5c59d247d51c6e1fca0dead3ed2139b6802b3a15 already installs the same Controller services with a broader header/geometry domain. The branch is retained as a validation/control variant and excluded from proposed research contribution links. See overlap-review/REVIEW.md, PINS.json and DIFFERENTIAL.json. No upstream PR was submitted. Next action: preserve this documentation correction, then audit the genuinely remaining G_root producer transitively.

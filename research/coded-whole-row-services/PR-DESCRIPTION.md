@@ -1,10 +1,16 @@
-## Result and why this boundary matters
+## Publication withheld after predecessor overlap review
 
-The actual Controller retained by #6999 already has a physical stack and an
-exact occupied-owner ascent invoice, but its row callbacks are explicit
-premises. This package supplies `is_leaf`, `prepare`, `install` and `collect`
-for one precise source-relative domain: fixed productive width w>=2, a common
-canonical signed-component row format, and homogeneous row counts R=w^d.
+Do not submit this branch as a new missing-interface research result. It is
+excluded from the session's proposed contribution links. The earlier
+[compiled-row-stock-dispatch at CubeJerry 5c59d247](https://github.com/CubeJerry/integer-mult-bounds/tree/5c59d247d51c6e1fca0dead3ed2139b6802b3a15/research/compiled-row-stock-dispatch)
+already implements all four callbacks on the identical Controller, with a
+broader 23-value header, actual ordinary geometry and cutoff domain. The first
+audit missed that package's nested vendor export. The exact comparison and
+differential receipt are preserved in overlap-review/.
+
+This archive retains a valid format-checking variant for fixed productive
+width w>=2 and homogeneous row counts R=w^d. No foundational-assumption
+progress or complete multiplication improvement is claimed by the variant.
 
 One protected payload role G contains a real zero-row format, with 000 numeric
 zeros and 010 component separators. The existing `child_header` stages G
@@ -34,7 +40,7 @@ and input/format/table production are explicitly additional. The historical
 visit bound keeps native visits, control/PC backing and each role's retained
 maximum visible.
 
-## Novelty and source pins
+## Preserved source pins and corrected scope
 
 Base: `e54523517d0f03e58352e647c403a5af3e525a57`.
 DEPENDENCIES.json pins six retained files by byte length, SHA256 and Git blob.
@@ -42,13 +48,15 @@ The actual Controller is blob `acf475e4fccaff2fb64bd5b0b3f3fc0d246dc592`;
 its original CubeJerry lifecycle commit is
 `ab239cb6ee884e7a900dd9101c34448077fad0b0`.
 
-The existing four-symbol complete-row/recursive callers prove their own
-interfaces. This package binds the different current Controller ABI, its
-canonical coded numerical rows, staged format, all productive fields and
-occupied-owner return. The #5356 stack and #6968 numerical table theorems are
-reused unchanged. selected-control-uniformity, selected-joined-dispatch and
-selected-compiler-source-bridge remain differently scoped predecessors;
-OVERLAP.md records the exact distinctions and remaining obligations.
+The earlier dispatcher already binds this current seven-symbol Controller,
+complete coded rows, all productive outputs and occupied-owner return. The
+distinct retained evidence here is per-component pattern validation and exact
+clocks for a smaller, narrower graph. The variant checks equal output row
+counts, but has no independent expected count: uniform extra rows pass it and
+fail the predecessor. Thus it is not a general strengthening of return
+validation. Its smaller role inventory does not establish an apples-to-apples
+production optimization. The #5356 stack and #6968 numerical theorems remain
+unchanged credited work.
 
 ## Reproduction and executed checks
 
@@ -87,12 +95,14 @@ guide is not the production e/f/K/rho descriptor. General variable-rank
 recursion, remainder/padding, changing precision, numerical provider semantics,
 the physical tariff conversion and the complete multiplication theorem remain
 open. This is a successful-call theorem; rejection can leave partial state.
-The next useful lemma should bind one actual production descriptor/geometry
-to this precise interface and retain all its setup and complete-field costs.
+The predecessor's actual root descriptor/stock/cutoff/padded-count producer
+is a separate remaining target, requiring a later-binding audit before any
+new implementation or novelty claim.
 
 ## Credit and assistance
 
-Prepared for @CubeJerry. Credit the original CubeJerry lifecycle, #6999 and
+Prepared for @CubeJerry. Credit the earlier CubeJerry compiled-row-stock-dispatch
+at 5c59d247 and its retained contributors, the original lifecycle, #6999 and
 #6968 packages; Ali Romman's #5356 Stack; JoyboyBrian and Jose Manuel's
 complete-row, control, padding and dispatcher work; commdata2338's descriptor
 and parking lineage; and all unchanged retained source notices. Substantial

@@ -1,5 +1,14 @@
 # Complete coded-row services for the actual recursive Controller
 
+**Publication withheld after overlap review.** This branch is preserved as a
+validation/control variant and is excluded from the session's proposed research
+contribution links. The earlier
+[compiled-row-stock-dispatch](https://github.com/CubeJerry/integer-mult-bounds/tree/5c59d247d51c6e1fca0dead3ed2139b6802b3a15/research/compiled-row-stock-dispatch)
+already implements the same Controller callbacks, including a stronger
+23-value descriptor and actual geometry/cutoff interface. The original bounded
+audit missed its nested vendor export. No foundational-assumption progress is
+claimed by this variant. See [the exact overlap review](overlap-review/REVIEW.md).
+
 This package supplies the actual seven-symbol Controller's `is_leaf`,
 `prepare`, `install` and `collect` callbacks for a fixed productive width
 w>=2 and homogeneous row counts R=w^d. The new local tables check and
@@ -38,6 +47,13 @@ exactly 273w+125 states, independent of runtime B,R,depth and values. Rows are
 striped in the order input row tw+j -> field j, local row t. Collection is
 the inverse ordering on all returned fields. Classifying one actual complete
 row distinguishes R=1 from R>1 without reading a host depth or row count.
+Collection checks component layout and equal row counts across fields; it has
+no independent expected returned count. Uniform extra rows in all fields pass
+this variant and fail the predecessor's descriptor-count check. Conversely,
+this variant rejects some same-length malformed component layouts accepted by
+the predecessor's raw-bit router outside its admitted numerical-format domain.
+The retained comparison receipt records both directions; neither is a claim
+that the predecessor's stated theorem is false.
 
 ## Exact costs and scope
 

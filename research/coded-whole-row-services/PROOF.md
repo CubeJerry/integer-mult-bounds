@@ -4,6 +4,11 @@ Prepared for Jerry Chen / @CubeJerry with substantial OpenAI assistance.
 Apache-2.0. This is a source-relative universal interface proof, with bounded
 executable corroboration. It is not human or proof-kernel acceptance.
 
+**Publication withheld for predecessor overlap.** The scoped proof and graph
+below remain preserved, but this is a validation/control variant, not a new
+missing-callback or foundational-assumption result. The exact comparison is in
+overlap-review/REVIEW.md.
+
 ## 1. Exact source, domain and claim
 
 The base is `e54523517d0f03e58352e647c403a5af3e525a57`. The actual
@@ -16,11 +21,17 @@ and proof came from CubeJerry commit
 uses #6968's unchanged exact scalar table. DEPENDENCIES.json records every
 retained byte, and the original proofs/notices remain in retained/.
 
-The prior lifecycle theorem assumes ordinary row `is_leaf`, `prepare`,
-`install` and `collect` services. Its own stock-depth fixture is explicitly
-not their proof. The present result supplies these services for one precise
-homogeneous geometry. It does not repeat the existing PC, push/pop, dirty
-retirement or occupied-owner ascent proofs.
+The lifecycle theorem alone assumes ordinary row `is_leaf`, `prepare`,
+`install` and `collect` services. However, the earlier
+`compiled-row-stock-dispatch` at CubeJerry commit
+`5c59d247d51c6e1fca0dead3ed2139b6802b3a15` already implements all four
+callbacks against this exact machine blob, with encoded production-relative
+geometry and cutoff checks. Its proof/table bytes are retained in the current
+canonical tree through `current-coded-gaussian-leaf/vendor/binding/vendor/dispatch`.
+The present proof describes a narrower supplied-pattern implementation with
+per-component validation and exact local clocks. It does not close a previously
+unsupplied successful row-service premise. PC, push/pop, dirty retirement and
+occupied-owner ascent remain credited predecessor results.
 
 Fix an integer productive width w>=2 and a fixed Controller program. Its q
 payload tapes and four outside tapes are fixed before runtime inputs vary.

@@ -25,3 +25,7 @@ retained/SCALAR-PROOF.md. No predecessor source file is modified.
 The new contribution is the actual coded-row callback graph, complete
 format/field validation, source-specific homogeneous Controller composition,
 its full invoice, historical-visit argument and bounded verification package.
+
+## Predecessor overlap correction
+
+CubeJerry compiled-row-stock-dispatch at commit 5c59d247d51c6e1fca0dead3ed2139b6802b3a15 already implements the same Controller row callbacks, physical headers, geometry and stock interface. Its contributors and retained notices keep their original credit. This branch is preserved only as a supplied-pattern validation/control variant; publication as new research is withheld. See overlap-review/REVIEW.md.
