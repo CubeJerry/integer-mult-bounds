@@ -28,9 +28,9 @@ Canonical base: `e54523517d0f03e58352e647c403a5af3e525a57`. Exact statements: `c
 
 **Established or scoped progress:** Finite precompilation constructs rational flow, integer batches and chronological/complement recurrences under native/owned closure. Existing Controller.run administration is already proved relative to row services. New verified contextual-primitive-microcontrol supplies actual primitive wrapper/raw contexts and exact C=A+U on fixed tapes.
 
-**Conditional remainder and caveats:** Complete row/continuation services, installed registry and production headers remain. Finite algebraic compilation does not instantiate a uniform physical consumer. The new local graph does not admit the whole Controller.
+**Conditional remainder and caveats:** Installed registry, exact production headers and remaining numerical services remain. The embedded compiled-row-stock-dispatch predecessor already supplies actual row callbacks, ordinary geometry and a23-field ABI; the new homogeneous row-service package is under novelty review against it. Finite algebraic compilation does not instantiate a uniform physical consumer. The new local graph does not admit the whole Controller.
 
-**Weak useful next lemma:** Supply the actual signed three-bit row prepare/install/collect interface with all complete fields, ownership and paid scans. Wave 2 is implementing a homogeneous scope; variable production geometry remains separate.
+**Weak useful next lemma:** Bind the actual selected root descriptor/stock/cutoff producer to the existing23-field row-dispatch ABI and pay G_root. The callback/geometry existence itself is already predecessor work; any new format-checking alternative must state its smaller distinct claim.
 
 ## precision_tape
 
