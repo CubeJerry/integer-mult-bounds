@@ -1,0 +1,720 @@
+diff --git a/research/encoded-crt-row-query/CHECKPOINT.md b/research/encoded-crt-row-query/CHECKPOINT.md
+new file mode 100644
+index 000000000..18909a22e
+--- /dev/null
++++ b/research/encoded-crt-row-query/CHECKPOINT.md
+@@ -0,0 +1,36 @@
++# Unverified Wave 3 checkpoint
++
++Base e54523517d0f03e58352e647c403a5af3e525a57.
++Branch research/continuous-20261110-crt-rows.
++Started implementation at2026-11-10 17:03 UTC under a70+20minute bound.
++
++The current code replaces only the compiled selection/header/target fragment
++of #5496. It retains actual numerical Entry/Bank, the unchanged ROM program
++and execute, and exact copy/skip/countdown primitives. It borrows a unary
++encoded ell. No ell=max-width inference or complete source installer is used.
++The pinned node frontend is retained from public CubeJerry commit
++cc35ecedce6f208d5056fab6d17c58555affc73c. Its public advancing lease is not
++reused: the new row iterator closes the actual numerical Bank Lease, clears
++the pending marker while retaining STEP, and advances the node once after
++the final global row. This interface still needs independent review.
++
++Executed smoke coverage: five real rows on d2, widths3/2, ell3, including
++two literal idles and three actual ROM invocations (8,330,780 instructions).
++A second actual prefix executes seven rows on d4, widths3/3/2/2: all first
++node rows followed by two rows at nonzero start2. Host geometry functions
++are poisoned and physical constructors sealed after initial acquisition.
++Its actual ROM count is218,784,440. These smoke runs are not yet the frozen
++oracle verification receipt and do not establish the universal theorem.
++
++Current inventory is137 owned roles:78 inherited numerical/node/guard roles,
++52 ROM/header,3 query,4 row selectors. The source and encoded ell are two
++additional borrowed roles. All histories must be checked in the next stage.
++
++Remaining: independent arithmetic selector oracle, exact source/ell snapshots,
++historical-capacity and lifecycle checks, meaningful controls, source pins,
++full source-operation proof/invoice, registered metadata/tests, cross-review
++and publication checks. Source production, encoded-ell production, coordinate
++installation, full payload permutation and binary lowering remain open.
++
++Next command will be the package verifier once written. This checkpoint is
++explicitly unverified and is not a publication candidate.
+diff --git a/research/encoded-crt-row-query/row_control.py b/research/encoded-crt-row-query/row_control.py
+new file mode 100644
+index 000000000..988c5811a
+--- /dev/null
++++ b/research/encoded-crt-row-query/row_control.py
+@@ -0,0 +1,389 @@
++"""Tape-driven global-row headers and target selection for the actual CRT query.
++
++Prepared for Jerry Chen / @CubeJerry with substantial OpenAI assistance.
++Apache-2.0. Numeric Entry, ROM execution and copy/query primitives are retained.
++The source and encoded ell are borrowed; the output lease is linear-use.
++"""
++from types import SimpleNamespace
++
++CONTROL_ROLES = ('rows', 'timeline', 'prefix', 'suffix')
++HEADERS = ('h', 'modulus', 'selected_layer', 'offsets')
++QUERY_ROLES = ('coordinate', 'countdown', 'output')
++# This fixed interpreter watchdog is disabled, not calculated from geometry.
++# External verification processes impose wall-clock limits independently.
++NO_WATCHDOG = 1e309
++
++
++def zero_header(target, guide, w):
++    target.emit('L')
++    while guide.read() == w.ONE:
++        target.emit('0')
++        guide.step(1)
++    w.need(guide.read() == w.BLANK, 'guide end')
++    target.write('R')
++    target.rewind()
++    guide.rewind()
++
++
++def increment_header(target, w):
++    target.step(1)
++    while target.read() == '1':
++        target.write('0')
++        target.step(1)
++    w.need(target.read() == '0', 'encoded scalar capacity')
++    target.write('1')
++    target.rewind()
++
++
++class Iterator:
++    """Fresh numeric entry for each active row at the same tape-selected node.
++
++The node's public advancing NodeLease is deliberately not used. The pinned
++Bank Lease retires without advancing; the final row advances the node once.
++"""
++    def __init__(self, w, r, entry, numeric, owner, canonical, nodes, join, rom,
++                 source, ell):
++        self.w, self.r, self.entry_module = w, r, entry
++        self.numeric, self.join, self.rom = numeric, join, rom
++        self.source, self.ell = source, ell
++        w.need(source is not ell and source.cells is not ell.cells, 'distinct borrowed sources')
++        self.node = nodes.Iterator(w, r, entry, numeric, owner, canonical, source)
++        self.controls = {name: entry.Port(w) for name in CONTROL_ROLES}
++        self.service = {name: ['_'] for name in rom.REGS+('arena', 'spool', 'layers', 'rom')+HEADERS}
++        self.headers = {name: join.Tape(self.service[name]) for name in HEADERS}
++        self.queries = {name: join.Tape() for name in QUERY_ROLES}
++        self.produced_rom = join.Tape(self.service['rom'])
++        self.produced_layers = join.Tape(self.service['layers'])
++        self.program = rom.producer_program()  # One input-independent fixed program.
++        self.live, self.closed = False, False
++        self.producer_steps = 0
++        self.setup_cells = 55  # Positive initial cells of52 ROM/header+3 query roles.
++        self._initialize_rows()
++        self._validate_widths()
++
++    def _initialize_rows(self):
++        w, ell, rows = self.w, self.ell, self.controls['rows']
++        w.need(ell.read() == w.ONE, 'positive encoded ell')
++        ell.step(1)
++        w.need(ell.read() == w.ONE, 'encoded ell at least two')
++        ell.rewind()
++        while ell.read() == w.ONE:
++            rows.append(w.ONE)
++            ell.step(1)
++        w.need(ell.read() == w.RIGHT, 'encoded ell framing')
++        ell.rewind()
++        ell.step(1)  # The second pass contributes ell-1 positions.
++        while ell.read() == w.ONE:
++            rows.append(w.ONE)
++            ell.step(1)
++        w.need(ell.read() == w.RIGHT, 'encoded ell return')
++        ell.rewind()
++        rows.append(w.RIGHT)
++        rows.rewind()
++        rows.write(self.r.STEP)
++
++    def _read_width(self):
++        w, r, source, ell = self.w, self.r, self.source, self.ell
++        width = self.node.counters['width']
++        width.clear()
++        w.need(source.read() == r.ROOT, 'axis tag')
++        source.step(1)
++        while source.read() == w.ONE:
++            width.append(w.ONE)
++            source.step(1)
++        w.need(source.read() == r.WORD_END, 'unary width end')
++        source.step(1)
++        width.append(w.RIGHT)
++        width.rewind()
++        w.need(width.read() == w.ONE, 'positive declared width')
++        width.step(1)
++        w.need(width.read() == w.ONE, 'modulus width at least two')
++        width.rewind()
++        while width.read() == w.ONE:
++            w.need(ell.read() == w.ONE, 'width no greater than encoded ell')
++            width.step(1)
++            ell.step(1)
++        short = ell.read() == w.ONE
++        if short:
++            ell.step(1)
++        w.need(ell.read() == w.RIGHT, 'width is ell or ell-1')
++        width.rewind()
++        ell.rewind()
++        return short
++
++    def _field(self, delimiter, visit=None):
++        w, source, width = self.w, self.source, self.node.counters['width']
++        while width.read() == w.ONE:
++            bit = source.read()
++            w.need(bit in (w.ZERO, w.ONE), 'padded field bit')
++            if visit is not None:
++                visit(bit)
++            source.step(1)
++            width.step(1)
++        w.need(width.read() == w.RIGHT and source.read() == delimiter, 'exact padded field')
++        source.step(1)
++        width.rewind()
++
++    def _validate_widths(self):
++        while self.source.read() != self.w.RIGHT:
++            self._read_width()
++            self._field(self.r.WORD_END)
++            self._field(self.r.RECORD_END)
++            self.node.counters['width'].clear()
++        self.source.rewind()
++
++    def _selector(self, short, row_header=None):
++        """Manufacture the exact active-prefix/suffix counts on owned tapes."""
++        w, r = self.w, self.r
++        width, rows = self.node.counters['width'], self.controls['rows']
++        timeline, prefix, suffix = (self.controls[x] for x in ('timeline', 'prefix', 'suffix'))
++        for port in (timeline, prefix, suffix):
++            port.clear()
++        while width.read() == w.ONE:
++            timeline.append(w.ONE)
++            width.step(1)
++        width.rewind()
++        if short:
++            timeline.append(w.ZERO)
++            timeline.append(w.ZERO)
++        width.step(1)
++        while width.read() == w.ONE:
++            timeline.append(w.ONE)
++            width.step(1)
++        width.rewind()
++        timeline.append(w.RIGHT)
++        timeline.rewind()
++        before, active = True, False
++        while rows.read() != w.RIGHT:
++            mark, on = rows.read(), timeline.read()
++            w.need(mark in (w.ONE, r.STEP) and on in (w.ZERO, w.ONE), 'synchronized row shape')
++            if mark == r.STEP:
++                w.need(before, 'one encoded row cursor')
++                before, active = False, on == w.ONE
++            elif on == w.ONE:
++                if before:
++                    prefix.append(w.ONE)
++                    if row_header is not None:
++                        increment_header(row_header, w)
++                else:
++                    suffix.append(w.ONE)
++            rows.step(1)
++            timeline.step(1)
++        w.need(not before and timeline.read() == w.RIGHT, 'complete synchronized rows')
++        for port in (prefix, suffix):
++            port.append(w.RIGHT)
++            port.rewind()
++        rows.rewind()
++        timeline.rewind()
++        return active
++
++    def _clear_selection(self):
++        for name in ('timeline', 'prefix', 'suffix'):
++            self.controls[name].clear()
++
++    def _seek_right(self):
++        w, r, node = self.w, self.r, self.node
++        axis, half = node.counters['axis'], node.counters['half']
++        while axis.read() != r.STEP:
++            w.need(axis.read() == w.ONE, 'node prefix')
++            node._record()
++            axis.step(1)
++        while half.read() == w.ONE:
++            node._record()
++            axis.step(1)
++            half.step(1)
++        w.need(half.read() == w.RIGHT, 'selected left half')
++        half.rewind()
++
++    def _finish_scan(self):
++        self.source.rewind()
++        self.node.counters['axis'].rewind()
++        self.node.counters['half'].rewind()
++
++    def _any_active(self):
++        self._seek_right()
++        w, half, axis = self.w, self.node.counters['half'], self.node.counters['axis']
++        active = False
++        while half.read() == w.ONE:
++            short = self._read_width()
++            active = self._selector(short) or active
++            self._field(self.r.WORD_END)
++            self._field(self.r.RECORD_END)
++            self.node.counters['width'].clear()
++            self._clear_selection()
++            half.step(1)
++            axis.step(1)
++        w.need(half.read() == w.RIGHT, 'selected right half')
++        self._finish_scan()
++        return active
++
++    def next(self):
++        self.w.need(not self.live, 'current row must close')
++        if self.closed:
++            return None
++        self.live = True
++        if not self._any_active():
++            return Lease(self, None, None)
++        node = self.node
++        node.live = True
++        bridge = SimpleNamespace(RowEntry=node._entry)
++        numeric = node.bank.open(self.r, self.numeric, bridge, self.source, node.guards,
++                                 None, None, None, None, None)
++        self._query(numeric.actual)
++        return Lease(self, numeric, self.queries['output'])
++
++    def _query(self, actual):
++        w, r, guide = self.w, self.r, actual.guide
++        headers, result = self.headers, actual.result['stream']
++        coordinate, countdown, output = (self.queries[name] for name in QUERY_ROLES)
++        output.emit('L')
++        self._seek_right()
++        half, axis, width = (self.node.counters[name] for name in ('half', 'axis', 'width'))
++        while half.read() == w.ONE:
++            short = self._read_width()
++            zero_header(headers['h'], guide, w)
++            zero_header(headers['selected_layer'], guide, w)
++            while width.read() == w.ONE:
++                increment_header(headers['h'], w)
++                width.step(1)
++            width.rewind()
++            active = self._selector(short, headers['selected_layer'])
++            if active:
++                headers['modulus'].emit('L')
++            def modulus_bit(bit):
++                if active:
++                    w.need(guide.read() == w.ONE, 'modulus fits current guide')
++                    headers['modulus'].emit('1' if bit == w.ONE else '0')
++                    guide.step(1)
++            self._field(r.WORD_END, modulus_bit)
++            if active:
++                while guide.read() == w.ONE:
++                    headers['modulus'].emit('0')
++                    guide.step(1)
++                w.need(guide.read() == w.BLANK, 'modulus padding complete')
++                guide.rewind()
++                headers['modulus'].write('R')
++                headers['modulus'].rewind()
++            coordinate.emit('L')
++            if active:
++                countdown.emit('L')
++            def coordinate_bit(bit):
++                symbol = '1' if bit == w.ONE else '0'
++                coordinate.emit(symbol)
++                if active:
++                    countdown.emit(symbol)
++            self._field(r.RECORD_END, coordinate_bit)
++            coordinate.write('R')
++            coordinate.rewind()
++            w.need(result.read() == r.ROOT, 'actual offset record')
++            result.step(1)
++            if active:
++                countdown.write('R')
++                countdown.rewind()
++                self.join.copy_numeric_field(result, headers['offsets'], guide, w, r.WORD_END, '|')
++                run = self.rom.execute(self.program, self.service, max_steps=NO_WATCHDOG)
++                w.need(run['status'] == 'accept', 'unchanged ROM accepts encoded headers')
++                w.need(all(head == 0 for head in run['heads'].values()), 'ROM heads returned')
++                self.producer_steps += run['steps']  # Observer meter; never selects control.
++                bit = self.join.select_row_bit(self.produced_rom, countdown)
++                prefix, suffix = self.controls['prefix'], self.controls['suffix']
++                coordinate.step(1)
++                while prefix.read() == w.ONE and suffix.read() == w.ONE:
++                    coordinate.step(1)
++                    prefix.step(1)
++                    suffix.step(1)
++                old = coordinate.read()
++                w.need(old in ('0', '1'), 'selected target inside coordinate')
++                coordinate.write('1' if (old == '1') != (bit == '1') else '0')
++                coordinate.rewind()
++                self.produced_layers.erase()
++                self.produced_rom.erase()
++                for tape in headers.values():
++                    tape.erase()
++            else:
++                self.join.skip_numeric_field(result, guide, w, r.WORD_END)
++                headers['h'].erase()
++                headers['selected_layer'].erase()
++            self.join.skip_numeric_field(result, guide, w, r.WORD_END)
++            w.need(result.read() == r.RECORD_END, 'actual offset record end')
++            result.step(1)
++            coordinate.step(1)
++            while coordinate.read() != 'R':
++                output.emit(coordinate.read())
++                coordinate.step(1)
++            coordinate.rewind()
++            coordinate.erase()
++            output.emit('|')
++            width.clear()
++            self._clear_selection()
++            half.step(1)
++            axis.step(1)
++        w.need(half.read() == w.RIGHT and result.read() == w.RIGHT, 'complete selected right stream')
++        result.rewind()
++        self._finish_scan()
++        output.write('R')
++        output.rewind()
++
++    def _advance_row(self):
++        w, rows = self.w, self.controls['rows']
++        while rows.read() != self.r.STEP:
++            w.need(rows.read() == w.ONE, 'row cursor prefix')
++            rows.step(1)
++        rows.write(w.ONE)
++        rows.step(1)
++        finished = rows.read() == w.RIGHT
++        if finished:
++            rows.rewind()
++        else:
++            w.need(rows.read() == w.ONE, 'next global row')
++        rows.write(self.r.STEP)
++        rows.rewind()
++        return finished
++
++    def _clear_pending(self, last):
++        w, r, axis = self.w, self.r, self.node.counters['axis']
++        seen = False
++        while axis.read() != w.RIGHT:
++            if axis.read() == r.VALUE:
++                w.need(not seen and not last, 'one pending next-node marker')
++                axis.write(w.ONE)
++                seen = True
++            else:
++                w.need(axis.read() in (w.ONE, r.STEP), 'retired current-node marker')
++            axis.step(1)
++        w.need(seen != last, 'pending marker agrees with node boundary')
++        axis.rewind()
++
++    def close(self):
++        self.w.need(not self.live and not self.closed, 'retired row iterator closes once')
++        self.node.close()
++        for port in self.controls.values():
++            port.retire()
++        self.closed = True
++
++
++class Lease:
++    """One current row continuation; old host handles are outside physical scope."""
++    def __init__(self, iterator, numeric, output):
++        self.iterator, self.numeric, self.output = iterator, numeric, output
++        self.closed = False
++
++    def close(self):
++        it = self.iterator
++        it.w.need(not self.closed, 'current row closes once')
++        last = False
++        if self.numeric is not None:
++            last = self.numeric.actual.last
++            self.output.erase()
++            self.numeric.close()  # Retires actual bank without node advance.
++            it.node.live = False
++        self.closed, it.live = True, False
++        if it._advance_row():
++            it.w.need(self.numeric is not None, 'last row is active on every admitted target')
++            it.node._advance(last)  # Exactly once after the node's final row.
++            if it.node.closed:
++                for port in it.controls.values():
++                    port.retire()
++                it.closed = True
++        elif self.numeric is not None:
++            it._clear_pending(last)
+diff --git a/research/encoded-crt-row-query/vendor/node_frontend.py b/research/encoded-crt-row-query/vendor/node_frontend.py
+new file mode 100644
+index 000000000..8adbe2cfe
+--- /dev/null
++++ b/research/encoded-crt-row-query/vendor/node_frontend.py
+@@ -0,0 +1,277 @@
++"""Tape-driven balanced-node selection into the unchanged CRT numerical entry.
++
++No runtime width, axis count, start, level or precision is decoded. All variable
++iteration is driven by local symbols on the supplied source or owned unary
++tapes. Numeric arithmetic and its 63-role bank are pinned predecessor code.
++Prepared for CubeJerry with substantial OpenAI assistance. Apache-2.0.
++"""
++from types import SimpleNamespace
++
++
++COUNTERS = ('axis', 'depth', 'halve_a', 'halve_b', 'half', 'double', 'width')
++GUARDS = ('g0', 'g1', 'g2', 'g3', 'g4', 'g5', 'g6', 'g7')
++
++
++class Iterator:
++    """One numerical result at a time; source contents stay read-only.
++
++The supplied source has the #5353 tagged padded-axis encoding and enters at
++head one. Construction charges shape manufacture. next() takes no geometry
++arguments. The physical interface is linear-use: consume the current lease
++once before the next result and relinquish its borrowed aliases. Historical
++Python-handle identity checks are interpreter guards, not a tape service.
++"""
++    def __init__(self, words, records, entry, numeric, owner, canonical, source):
++        self.w, self.r, self.e = words, records, entry
++        self.numeric, self.canonical, self.source = numeric, canonical, source
++        self.bank = owner.Bank(words, entry)
++        self.guards = tuple(entry.Port(words) for _ in GUARDS)
++        for port in self.guards:
++            port.retire()
++        self.counters = {name: entry.Port(words) for name in COUNTERS}
++        self.live, self.closed = False, False
++        try:
++            self._shape()
++        except ValueError:
++            # Source framing errors and nondyadic counts precede numerical entry.
++            source.rewind()
++            for port in self.counters.values():
++                port.retire()
++            self.closed = True
++            raise
++
++    def _record(self, target=None, guide=None):
++        """Read one exact axis record; optionally project its canonical pair."""
++        w, r, source = self.w, self.r, self.source
++        width = self.counters['width']
++        width.clear()
++        w.need(source.read() == r.ROOT, 'axis tag')
++        source.step(1)
++        if target is not None:
++            target.append(r.ROOT)
++        seen = False
++        while source.read() == w.ONE:
++            seen = True
++            width.append(w.ONE)
++            if guide is not None:
++                guide.append(w.ONE)
++            source.step(1)
++        w.need(seen and source.read() == r.WORD_END, 'positive unary width')
++        source.step(1)
++        width.append(w.RIGHT)
++        width.rewind()
++        for delimiter in (r.WORD_END, r.RECORD_END):
++            while width.read() == w.ONE:
++                bit = source.read()
++                w.need(bit in (w.ZERO, w.ONE), 'padded source bit')
++                if target is not None:
++                    target.append(bit)
++                source.step(1)
++                width.step(1)
++            w.need(width.read() == w.RIGHT and source.read() == delimiter,
++                   'exact source field extent')
++            source.step(1)
++            width.rewind()
++            if target is not None:
++                self.canonical.canonical_end(target, w, r)
++        if target is not None:
++            target.append(r.RECORD_END)
++        width.clear()
++
++    def _many(self, port):
++        w = self.w
++        w.need(port.read() == w.ONE, 'nonempty reduction count')
++        port.step(1)
++        symbol = port.read()
++        w.need(symbol in (w.ONE, w.RIGHT), 'unary reduction shape')
++        port.rewind()
++        return symbol == w.ONE
++
++    def _shape(self):
++        w, source = self.w, self.source
++        axis, depth = self.counters['axis'], self.counters['depth']
++        current, spare = self.counters['halve_a'], self.counters['halve_b']
++        while source.read() != w.RIGHT:
++            self._record()
++            axis.append(w.ONE)
++            current.append(w.ONE)
++        source.rewind()
++        axis.append(w.RIGHT)
++        axis.rewind()
++        current.append(w.RIGHT)
++        current.rewind()
++        w.need(self._many(current), 'at least two source axes')
++        while self._many(current):
++            depth.append(w.ONE)
++            odd = False
++            while current.read() == w.ONE:
++                odd = not odd
++                if not odd:
++                    spare.append(w.ONE)
++                current.step(1)
++            w.need(current.read() == w.RIGHT and not odd, 'dyadic source axis count')
++            spare.append(w.RIGHT)
++            spare.rewind()
++            current.clear()
++            current, spare = spare, current
++        current.clear()
++        spare.clear()
++        depth.append(w.RIGHT)
++        depth.rewind()
++        half = self.counters['half']
++        half.append(w.ONE)
++        half.append(w.RIGHT)
++        half.rewind()
++        w.need(axis.read() == w.ONE, 'first axis')
++        axis.write(self.r.STEP)  # Unique current-node marker.
++
++    def _prepare_guards(self, guide):
++        w = self.w
++        for port in self.guards:
++            port.step(-1)
++            w.need(port.read() == w.BLANK, 'retired protected marker')
++            port.write(w.LEFT)
++            port.step(1)
++            while guide.read() == w.ONE:
++                w.need(port.read() == w.BLANK, 'retired protected body')
++                port.write(w.ZERO)
++                port.step(1)
++                guide.step(1)
++            w.need(guide.read() == w.BLANK and port.read() == w.BLANK,
++                   'current protected extent')
++            port.write(w.RIGHT)
++            port.rewind()
++            guide.rewind()
++
++    def _entry(self, w, r, adapter, numeric, source, dirty,
++               widths, ell, level, start, row):
++        # Bank.open's fixed call signature is preserved. Geometry is never supplied.
++        w.need(widths is None and ell is None and level is None and
++               start is None and row is None, 'no host geometry arguments')
++        w.need(source is self.source and dirty is self.guards, 'actual borrowed ports')
++        return NodeEntry(self, adapter)
++
++    def next(self):
++        self.w.need(not self.live, 'previous node result must close')
++        if self.closed:
++            return None
++        self.w.need(self.counters['depth'].read() == self.w.ONE, 'active encoded level')
++        self.live = True
++        bridge = SimpleNamespace(RowEntry=self._entry)
++        lease = self.bank.open(self.r, self.numeric, bridge, self.source, self.guards,
++                               None, None, None, None, None)
++        return NodeLease(self, lease)
++
++    def _double_half(self):
++        w = self.w
++        half, temporary = self.counters['half'], self.counters['double']
++        while half.read() == w.ONE:
++            temporary.append(w.ONE)
++            half.step(1)
++        w.need(half.read() == w.RIGHT, 'half-size delimiter')
++        half.write(w.BLANK)
++        temporary.append(w.RIGHT)
++        temporary.rewind()
++        while temporary.read() == w.ONE:
++            half.append(w.ONE)
++            temporary.step(1)
++        w.need(temporary.read() == w.RIGHT, 'copied half size')
++        half.append(w.RIGHT)
++        half.rewind()
++        temporary.clear()
++
++    def _advance(self, last):
++        w, r = self.w, self.r
++        axis, depth = self.counters['axis'], self.counters['depth']
++        while axis.read() != r.STEP:
++            w.need(axis.read() == w.ONE, 'preserved current cursor')
++            axis.step(1)
++        axis.write(w.ONE)
++        if last:
++            while axis.read() != w.RIGHT:
++                w.need(axis.read() == w.ONE, 'last-node suffix')
++                axis.step(1)
++            axis.rewind()
++            depth.step(1)
++            if depth.read() == w.RIGHT:
++                self.close()
++                return
++            w.need(depth.read() == w.ONE, 'next encoded level')
++            self._double_half()
++            axis.write(r.STEP)
++        else:
++            while axis.read() != r.VALUE:
++                w.need(axis.read() == w.ONE, 'next-node interval')
++                axis.step(1)
++            axis.write(r.STEP)
++            axis.rewind()
++
++    def close(self):
++        self.w.need(not self.live and not self.closed, 'retired iterator closes once')
++        for port in self.counters.values():
++            port.retire()
++        self.closed = True
++
++
++class NodeEntry:
++    """Actual canonical streams and precision guide into unchanged Entry."""
++    def __init__(self, iterator, adapter):
++        self.iterator = iterator
++        w, r, source = iterator.w, iterator.r, iterator.source
++        self.guide, self.left, self.right = (adapter.Port(w), adapter.Port(w), adapter.Port(w))
++        self.inputs = (self.guide, self.left, self.right)
++        self.active = True
++        axis, half = iterator.counters['axis'], iterator.counters['half']
++        while axis.read() != r.STEP:
++            w.need(axis.read() == w.ONE, 'prefix cursor')
++            iterator._record()
++            axis.step(1)
++        for target in (self.left, self.right):
++            while half.read() == w.ONE:
++                w.need(axis.read() in (w.ONE, r.STEP), 'complete selected node')
++                iterator._record(target, self.guide)
++                axis.step(1)
++                half.step(1)
++            w.need(half.read() == w.RIGHT, 'encoded half extent')
++            half.rewind()
++            target.append(w.RIGHT)
++            target.rewind()
++        self.last = axis.read() == w.RIGHT
++        if not self.last:
++            w.need(axis.read() == w.ONE, 'following source axis')
++            axis.write(r.VALUE)  # Pending next cursor; current cursor survives handoff.
++        axis.rewind()
++        source.rewind()
++        self.guide.append(w.ONE)
++        self.guide.rewind()
++        iterator._prepare_guards(self.guide)
++        self.context = adapter.Entry(w, r, self.guide, iterator.guards)
++        self.result = self.context.invoke(iterator.numeric, self.left, self.right)
++
++    def close(self):
++        self.context.consume(self.result)
++        self.context.close()
++        for port in self.inputs:
++            port.retire()
++        for port in self.iterator.guards:
++            port.retire()
++
++
++class NodeLease:
++    """Interpreter wrapper for the single current linear-use continuation.
++
++The closed flag also guards stale Python references, but the fixed-role
++physical theorem does not implement an unbounded stale-handle history.
++"""
++    def __init__(self, iterator, lease):
++        self.iterator, self.lease = iterator, lease
++        self.actual = lease.actual
++        self.closed = False
++
++    def close(self):
++        self.iterator.w.need(not self.closed, 'node lease closes once')
++        last = self.actual.last
++        self.lease.close()
++        self.closed = True
++        self.iterator.live = False
++        self.iterator._advance(last)

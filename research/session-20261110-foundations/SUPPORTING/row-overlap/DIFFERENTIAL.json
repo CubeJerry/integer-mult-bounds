@@ -1,0 +1,62 @@
+{
+  "only_last_field_extra_row": {
+    "guide_variant": {
+      "accept": false,
+      "error": "coded whole-row contract",
+      "partial_output_length": 24
+    },
+    "predecessor": {
+      "accept": false,
+      "error": "row program reject",
+      "partial_output_length": 24
+    }
+  },
+  "same_length_missing_component_separator": {
+    "guide_variant": {
+      "accept": false,
+      "error": "coded whole-row contract",
+      "partial_output_length": 16
+    },
+    "predecessor": {
+      "accept": true,
+      "output": "000010000010000000000010",
+      "steps": 3507
+    }
+  },
+  "same_length_virtual_blank": {
+    "guide_variant": {
+      "accept": false,
+      "error": "coded whole-row contract",
+      "partial_output_length": 12
+    },
+    "predecessor": {
+      "accept": true,
+      "output": "000010000010100010000010",
+      "steps": 3507
+    }
+  },
+  "uniform_extra_complete_rows": {
+    "guide_variant": {
+      "accept": true,
+      "output": "000010000010000010000010000010000010000010000010",
+      "steps": 654
+    },
+    "predecessor": {
+      "accept": false,
+      "error": "row program reject",
+      "partial_output_length": 24
+    }
+  },
+  "valid": {
+    "guide_variant": {
+      "accept": true,
+      "output": "000010000010000010000010",
+      "steps": 333
+    },
+    "predecessor": {
+      "accept": true,
+      "output": "000010000010000010000010",
+      "steps": 3507
+    }
+  }
+}

@@ -1,0 +1,368 @@
+diff --git a/research/encoded-fine-prime-axis-source/CHECKPOINT.md b/research/encoded-fine-prime-axis-source/CHECKPOINT.md
+new file mode 100644
+index 000000000..b857374b8
+--- /dev/null
++++ b/research/encoded-fine-prime-axis-source/CHECKPOINT.md
+@@ -0,0 +1,25 @@
++# Local checkpoint — unverified Wave 3 work
++
++Base: `e54523517d0f03e58352e647c403a5af3e525a57`.
++
++Scope approved by the lead: exact fine-band encoded prime production into the
++unchanged #5353 axis-source ABI. No old TensorPlan admission, new prime supply,
++complete bound, or discharged global assumption is claimed.
++
++The first implementation has executed one actual encoded arithmetic fixture:
++`p=2`, `ell=8`, flags `(0, implicit 1)`, coordinates `(112,255)`. It produced
++primes `(113,227)` and was accepted by the unchanged #5353/#5219/#5053 consumer;
++the actual left reconstruction was `112` with product `113`. All four borrowed
++sources and heads were preserved. All 74 owned roles retired with every physical
++cell blank and head one. Peak total live numerical slots was 22 (including eight
++guards). This finite execution does not prove the proposed uniform bound.
++
++Next action: create and run `python3 -B
++research/encoded-fine-prime-axis-source/verify.py`, with independent sieve/CRT
++oracles, malformed/insufficient-domain controls, history tracking, actual mixed
++width consumers, then write the universal semantic/capacity/cost proof.
++
++Unfinished: exact source pins and metadata; universal pending-slot/history/time
++proof; author test suite; independent review; committed publication checks.
++
++This file is a recovery checkpoint, not publication evidence.
+diff --git a/research/encoded-fine-prime-axis-source/frontend.py b/research/encoded-fine-prime-axis-source/frontend.py
+new file mode 100644
+index 000000000..319daeaae
+--- /dev/null
++++ b/research/encoded-fine-prime-axis-source/frontend.py
+@@ -0,0 +1,331 @@
++"""Encoded fine-band prime production into the unchanged #5353 axis ABI.
++
++Prepared for @CubeJerry with substantial OpenAI assistance; Apache-2.0.
++All variable numerical values and geometry are read from finite-alphabet tapes.
++Only fixed role labels, symbols, carries, and Boolean state enter Python control.
++The retained word arithmetic and encoded-width Entry are passed as modules.
++"""
++
++
++class Source:
++    """One producer lifecycle, with one linear output lease.
++
++    p_input and ell_input are canonical positive little-endian binary words,
++    terminated by RIGHT. flags has d-1 bits; the last full flag is implicit.
++    coordinates contains ROOT, h bits, RECORD_END for each axis, then RIGHT.
++    All four borrowed heads enter at one. They and every old backing cell are
++    preserved. Own roles are fresh; a new Source does not deallocate an old one.
++    """
++
++    def __init__(self, words, records, entry, arithmetic,
++                 p_input, ell_input, flags, coordinates):
++        w, r = words, records
++        w.need(len({id(x.cells) for x in
++                    (p_input, ell_input, flags, coordinates)}) == 4,
++               'four disjoint borrowed sources')
++        self.w, self.r, self.entry = w, r, entry
++        self.borrowed = (p_input, ell_input, flags, coordinates)
++        self.roles = []
++        self.context = None
++        self.closed = False
++        self.ready = False
++
++        def port():
++            result = entry.Port(w)
++            self.roles.append(result)
++            return result
++
++        self.guide, self.ell_guide, self.counter = (port() for _ in range(3))
++        self.half_table, self.full_table, self.output = (port() for _ in range(3))
++        self.guards = tuple(port() for _ in range(8))
++        source = self
++
++        class NumericalEntry(entry.Entry):
++            def new_port(self):
++                result = port()
++                self.owned.append(result)
++                self.control += 1
++                return result
++
++        try:
++            self._bootstrap(p_input, ell_input)
++            for guard in self.guards:
++                while self.guide.read() == w.ONE:
++                    guard.append(w.ZERO)
++                    self.guide.step(1)
++                self.guide.rewind()
++                guard.append(w.RIGHT)
++                guard.rewind()
++            self.context = NumericalEntry(w, r, self.guide, self.guards)
++            a = self.context.arena
++            self.arithmetic = arithmetic.Arithmetic(a, w)
++            self.raw = self.arithmetic.raw
++            p = self._import(p_input)
++            one = self.arithmetic.one
++            w.need(self.raw.compare(p, one) > 0, 'p at least two')
++            half_quota, full_quota, count = a.zero(), a.copy(one), a.copy(one)
++            while flags.read() != w.RIGHT:
++                bit = flags.read()
++                w.need(bit in (w.ZERO, w.ONE), 'axis flag bit')
++                flags.step(1)
++                if bit == w.ZERO:
++                    half_quota = self._increment(half_quota)
++                else:
++                    full_quota = self._increment(full_quota)
++                count = self._increment(count)
++                w.need(self.raw.compare(count, p) <= 0, 'axis count at most p')
++            flags.rewind()
++            w.need(self.raw.compare(count, one) > 0, 'at least two axes')
++            seen = False
++            while count.read() != w.RIGHT:
++                if count.read() == w.ONE:
++                    w.need(not seen, 'dyadic axis count')
++                    seen = True
++                count.step(1)
++            count.rewind()
++            a.free(count)
++
++            p_square = self.arithmetic.product(p, p)
++            denominator_two = self._double(p_square)
++            denominator_four = self._double(denominator_two)
++            a.free_many(p, p_square)
++            half_target, full_target = self._power(False), self._power(True)
++            self._band(half_target, half_quota, denominator_two,
++                       denominator_four, self.half_table)
++            self._band(full_target, full_quota, denominator_two,
++                       denominator_four, self.full_table)
++            a.free_many(half_target, full_target, denominator_two,
++                        denominator_four, one)
++            w.need(a.live == set(range(8)), 'all private numerical words retired')
++            self._emit(flags, coordinates)
++            self.ready = True
++        except BaseException:
++            self.abort()
++            raise
++        finally:
++            for borrowed in self.borrowed:
++                borrowed.rewind()
++
++    def _bootstrap(self, p_input, ell_input):
++        w = self.w
++        seen, last = False, w.ZERO
++        while ell_input.read() != w.RIGHT:
++            bit = ell_input.read()
++            w.need(bit in (w.ZERO, w.ONE), 'binary ell bit')
++            self.counter.append(bit)
++            seen, last = True, bit
++            ell_input.step(1)
++        w.need(seen and last == w.ONE, 'canonical positive ell')
++        ell_input.rewind()
++        self.counter.append(w.RIGHT)
++        self.counter.rewind()
++        while True:
++            nonzero = False
++            while self.counter.read() != w.RIGHT:
++                nonzero = nonzero or self.counter.read() == w.ONE
++                self.counter.step(1)
++            self.counter.rewind()
++            if not nonzero:
++                break
++            while self.counter.read() == w.ZERO:
++                self.counter.write(w.ONE)
++                self.counter.step(1)
++            w.need(self.counter.read() == w.ONE, 'positive unary bootstrap counter')
++            self.counter.write(w.ZERO)
++            self.counter.rewind()
++            self.ell_guide.append(w.ONE)
++            self.guide.append(w.ONE)
++            self.guide.append(w.ONE)
++        self.ell_guide.rewind()
++        for _ in range(3):
++            w.need(self.ell_guide.read() == w.ONE, 'ell at least three')
++            self.ell_guide.step(1)
++        self.ell_guide.rewind()
++        seen, last = False, w.ZERO
++        while p_input.read() != w.RIGHT:
++            bit = p_input.read()
++            w.need(bit in (w.ZERO, w.ONE), 'binary p bit')
++            seen, last = True, bit
++            self.guide.append(w.ONE)
++            self.guide.append(w.ONE)
++            p_input.step(1)
++        w.need(seen and last == w.ONE, 'canonical positive p')
++        p_input.rewind()
++        for _ in range(8):
++            self.guide.append(w.ONE)
++        self.guide.rewind()
++
++    def _import(self, port):
++        w = self.w
++        result = self.context.arena.zero()
++        while port.read() != w.RIGHT:
++            bit = port.read()
++            w.need(bit in (w.ZERO, w.ONE) and result.read() != w.RIGHT,
++                   'binary input fits prepared word')
++            result.write(bit)
++            result.step(1)
++            port.step(1)
++        result.rewind()
++        port.rewind()
++        return result
++
++    def _increment(self, value):
++        result, carry = self.raw.add(value, self.arithmetic.one)
++        self.w.need(not carry, 'counter increment fits prepared word')
++        self.context.arena.free(value)
++        return result
++
++    def _double(self, value):
++        result, carry = self.raw.add(value, value)
++        self.w.need(not carry, 'denominator double fits prepared word')
++        return result
++
++    def _power(self, full):
++        w, g = self.w, self.ell_guide
++        result = self.context.arena.zero()
++        if not full:
++            g.step(1)
++        while g.read() == w.ONE:
++            result.step(1)
++            g.step(1)
++        w.need(result.read() == w.ZERO, 'dyadic target fits prepared word')
++        result.write(w.ONE)
++        result.rewind()
++        g.rewind()
++        return result
++
++    def _ceiling(self, target, denominator):
++        a = self.context.arena
++        quotient, remainder = self.raw.divmod(target, denominator)
++        if not remainder.zero():
++            quotient = self._increment(quotient)
++        a.free(remainder)
++        return quotient
++
++    def _prime(self, candidate):
++        """Exact square-root trial division; no finite test stands for a proof."""
++        a = self.context.arena
++        divisor = a.literal(2)
++        try:
++            while True:
++                square = self.arithmetic.product(divisor, divisor)
++                beyond = self.raw.compare(square, candidate) > 0
++                a.free(square)
++                if beyond:
++                    return True
++                quotient, remainder = self.raw.divmod(candidate, divisor)
++                divisible = remainder.zero()
++                a.free_many(quotient, remainder)
++                if divisible:
++                    return False
++                divisor = self._increment(divisor)
++        finally:
++            a.free(divisor)
++
++    def _band(self, target, quota, denominator_two, denominator_four, table):
++        a, w, r = self.context.arena, self.w, self.r
++        if quota.zero():
++            a.free(quota)
++            table.append(w.RIGHT)
++            table.rewind()
++            return
++        low_gap = self._ceiling(target, denominator_two)
++        candidate = self.raw.subtract_exact(target, low_gap)
++        a.free(low_gap)
++        candidate = self._increment(candidate)
++        high_gap = self._ceiling(target, denominator_four)
++        high = self.raw.subtract_exact(target, high_gap)
++        a.free(high_gap)
++        while not quota.zero():
++            w.need(self.raw.compare(candidate, high) <= 0,
++                   'fine band exhausted before its requested prime quota')
++            if self._prime(candidate):
++                while self.ell_guide.read() == w.ONE:
++                    table.append(candidate.read())
++                    candidate.step(1)
++                    self.ell_guide.step(1)
++                candidate.rewind()
++                self.ell_guide.rewind()
++                table.append(r.WORD_END)
++                reduced = self.raw.subtract_exact(quota, self.arithmetic.one)
++                a.free(quota)
++                quota = reduced
++            candidate = self._increment(candidate)
++        a.free_many(candidate, high, quota)
++        table.append(w.RIGHT)
++        table.rewind()
++
++    def _width_start(self, full):
++        if not full:
++            self.ell_guide.step(1)
++
++    def _axis(self, full, coordinates):
++        w, r, g, out = self.w, self.r, self.ell_guide, self.output
++        table = self.full_table if full else self.half_table
++        out.append(r.ROOT)
++        self._width_start(full)
++        while g.read() == w.ONE:
++            out.append(w.ONE)
++            g.step(1)
++        g.rewind()
++        out.append(r.WORD_END)
++        self._width_start(full)
++        while g.read() == w.ONE:
++            bit = table.read()
++            w.need(bit in (w.ZERO, w.ONE), 'ordered prime-table bit')
++            out.append(bit)
++            table.step(1)
++            g.step(1)
++        g.rewind()
++        if not full:
++            w.need(table.read() == w.ZERO, 'half-scale unused high bit')
++            table.step(1)
++        w.need(table.read() == r.WORD_END, 'prime-table word end')
++        table.step(1)
++        out.append(r.WORD_END)
++        w.need(coordinates.read() == r.ROOT, 'coordinate tag')
++        coordinates.step(1)
++        self._width_start(full)
++        while g.read() == w.ONE:
++            bit = coordinates.read()
++            w.need(bit in (w.ZERO, w.ONE), 'padded coordinate bit')
++            out.append(bit)
++            coordinates.step(1)
++            g.step(1)
++        g.rewind()
++        w.need(coordinates.read() == r.RECORD_END, 'coordinate record end')
++        coordinates.step(1)
++        out.append(r.RECORD_END)
++
++    def _emit(self, flags, coordinates):
++        w = self.w
++        while flags.read() != w.RIGHT:
++            bit = flags.read()
++            w.need(bit in (w.ZERO, w.ONE), 'axis flag bit')
++            flags.step(1)
++            self._axis(bit == w.ONE, coordinates)
++        self._axis(True, coordinates)
++        w.need(coordinates.read() == w.RIGHT, 'complete coordinate source')
++        w.need(self.half_table.read() == w.RIGHT and
++               self.full_table.read() == w.RIGHT, 'complete prime-table consumption')
++        self.half_table.rewind()
++        self.full_table.rewind()
++        self.output.append(w.RIGHT)
++        self.output.rewind()
++
++    def abort(self):
++        """Retire this lifecycle; callers must never reuse a retired handle."""
++        if self.closed:
++            return
++        if self.context is not None:
++            self.context.arena.rollback(set(range(8)))
++        # Direct owner retirement also covers partially built contexts/streams.
++        for role in self.roles:
++            role.retire()
++        self.closed = True
++        self.ready = False
++
++    def close(self):
++        self.w.need(self.ready and not self.closed,
++                    'current complete prime-source output lease')
++        self.abort()
