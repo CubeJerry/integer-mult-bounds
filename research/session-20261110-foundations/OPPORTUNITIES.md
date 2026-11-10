@@ -2,8 +2,8 @@
 
 - Resolved/excluded: #6999 no-context microcontrol; generic single-backend storage and coordinatewise history maxima; fixed-node CRT update; CRT algebra/order and schoolbook setup; Controller.run administrative stack induction relative to row services.
 - New verified: actual primitive wrapper/raw-context finite control; production provider/header/caller binding remains open.
-- Reviewed, publication pending: changing-node full CRT address-state traversal, corrected geometric budget and per-role history.
-- Final independent gate pending: stratified backend history/reserve theorem, six-stage DAG and monotone maximum-width envelope.
+- New verified and published: changing-node full CRT address-state traversal, corrected geometric budget and per-role history.
+- New verified and published: stratified backend history/reserve theorem, six-stage DAG and monotone maximum-width envelope.
 - Wave 2: actual signed numerical row prepare/install/collect ABI; actual completed p16 B0 footprint/consumer seam, distinguished from old helper and p1 scopes.
 - Blocked for the literal stated caller/schedule: unchanged old fine catalogue; unchanged sequential fine expansion/routing. Other catalogues and grouped algorithms remain open.
 - Superseded: older selected exponents and abandoned raw-1e9 physical-cap diagnosis. Open #7112 is not selected.

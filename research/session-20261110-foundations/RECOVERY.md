@@ -7,3 +7,7 @@ Read CHECKPOINT.json, ASSUMPTIONS.md and OPPORTUNITIES.md before resuming. Refre
 Use the listed isolated worktrees; they share one shallow blob-filtered source checkout at `/workspace/scratch/6baa9e3af65b/canonical`. Prior source snapshots under `/workspace/scratch/a365d332d434` and `/workspace/scratch/c7e140a5d4f4` are read-only caches, not current authority. Targeted Git/API reads establish new pins.
 
 Publish each independently verified package on its own CubeJerry branch. Check remote ref, exact content, parent/tree, tests, scope and prefilled review URL. Do not create upstream PRs, change the selected certificate, merge, force-push other branches or modify fork main. User submits the review links.
+
+## Latest verified outputs
+
+Three wave-1 packages are independently recoverable on the branches in REVIEW-LINKS.json. All five assumptions and selected kappa remain unchanged. New work continues in three wave-2 worktrees; their scope and unresolved source boundaries are in CHECKPOINT.json. The review links use verified compare pages with full Markdown descriptions in each package; authenticated prefill was not observable in the signed-out browser.

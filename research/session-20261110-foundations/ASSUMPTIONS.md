@@ -16,7 +16,7 @@ Canonical base: `e54523517d0f03e58352e647c403a5af3e525a57`. Exact statements: `c
 
 > Owned streams and suspended centers obey the retained allocation, erasure and ownership contracts.
 
-**Established or scoped progress:** #5814/#5829 give reusable origins and whole-high interfaces. #6879 constructs ordinary-helper history space and refutes a history-free current-volume bound. #6903 binds chronological fields. New stratified-reserves proves an ordered-backend Bellman envelope and monotone reserve, pending final independent gate.
+**Established or scoped progress:** #5814/#5829 give reusable origins and whole-high interfaces. #6879 constructs ordinary-helper history space and refutes a history-free current-volume bound. #6903 binds chronological fields. New stratified-reserves proves an ordered-backend Bellman envelope and monotone reserve, now independently reviewed and published.
 
 **Conditional remainder and caveats:** Actual local per-tape coefficients, completed B0 implementation and physical source fit remain premises. Erased cells stay allocated; sum each role history, not maxima of live totals. The p16 .0034 B0 cannot be substituted by an old m575 or p1 helper theorem.
 
