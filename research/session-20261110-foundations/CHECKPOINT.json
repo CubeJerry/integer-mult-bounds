@@ -1,7 +1,7 @@
 {
   "schema": "continuous-research-recovery-v1",
   "run": "20261110-foundations",
-  "state": "wave 1 active; new claims unverified",
+  "state": "wave 1 publication and cross-review; wave 2 active",
   "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
   "base_tree": "1199c3d7a31fffa5ba5d41f10f1b933aacc797aa",
   "selected_kappa": "363005817/100000000000",
@@ -9,52 +9,99 @@
   "priority_revision": 8,
   "catalogue_context_stale": true,
   "first_clock_observation_utc": "2026-11-10T15:28:52Z",
-  "checkpoint_utc": "2026-11-10T15:40:00Z",
+  "checkpoint_utc": "2026-11-10T16:06:05.180158+00:00",
   "recovery_branch": "research/continuous-20261110-recovery",
-  "wave": 1,
+  "wave": 2,
   "workers": [
     {
       "worker": "dispatcher",
       "wave": 1,
       "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
       "scope": "Actual Controller.primitive with readonly contexts and pre/post retirement; #6999 same-port no-context predecessor excluded.",
-      "status": "active",
+      "status": "verified and published",
       "worktree": "/workspace/scratch/6baa9e3af65b/wt-dispatcher",
       "branch": "research/continuous-20261110-dispatcher",
-      "next_action": "Prove or falsify exact proposed claim; independent review before publication."
+      "next_action": "Wave 2 actual signed numerical row-service construction",
+      "local_commit": "c3008c531d454ea9c69e70b187833316888e1056",
+      "remote_commit": "107ea2e77dcf44d50343eb818b5b14e1f537c8c7",
+      "package": "research/contextual-primitive-microcontrol"
     },
     {
       "worker": "ownership",
       "wave": 1,
       "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
       "scope": "Source-specific stratified historical storage for same-volume complex/BIT bootstrap ancestry and contracting within-backend recursion.",
-      "status": "active",
+      "status": "author frozen; independent analytic-worker review finishing",
       "worktree": "/workspace/scratch/6baa9e3af65b/wt-ownership",
       "branch": "research/continuous-20261110-ownership",
-      "next_action": "Prove or falsify exact proposed claim; independent review before publication."
+      "next_action": "Resolve cross-review then publish; wave 2 B0 actual source/history audit",
+      "local_commit": "efb348fbb7cd39b5c8e9b41043774e7f468502bb",
+      "package": "research/stratified-owned-reserves"
     },
     {
       "worker": "analytic",
       "wave": 1,
       "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
       "scope": "Changing-node whole balanced CRT traversal with one 118-role RowQuery workspace, staging and eight owned protected-word roles; #6100/#5625 fixed-node limit.",
-      "status": "active",
+      "status": "author frozen; separate dispatcher review passed after corrected quadratic bound",
       "worktree": "/workspace/scratch/6baa9e3af65b/wt-analytic",
       "branch": "research/continuous-20261110-analytic",
-      "next_action": "Prove or falsify exact proposed claim; independent review before publication."
+      "next_action": "Lead gate and remote publication; currently independently reviewing ownership",
+      "local_commit": "a711f8de265bd296b1174a039560cb97c53db877",
+      "package": "research/crt-whole-tree-state"
+    },
+    {
+      "worker": "dispatcher",
+      "wave": 2,
+      "track": 50,
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Actual seven-symbol Controller row-service ABI for homogeneous canonical three-bit signed fields: B guide, complete-row striping/install and inverse collect before pop",
+      "status": "exact narrowed scope approved",
+      "worktree": "/workspace/scratch/6baa9e3af65b/wt-continuations",
+      "branch": "research/continuous-20261110-continuations",
+      "dependency": "Compiled owned-bank lifecycle administration; existing row service and code ABI; excludes variable-rank production stopping and native admission",
+      "next_action": "Implement actual interface and universal cost/space proof with nested Controller fixture and controls"
+    },
+    {
+      "worker": "ownership",
+      "wave": 2,
+      "track": 50,
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Actual completed p16 .0034 B0 footprint and dimension-parametric coefficient/ancestor consumer seam; do not substitute old m575 helper or p1 provider",
+      "status": "bounded scope audit; exact claim not yet approved",
+      "worktree": "/workspace/scratch/6baa9e3af65b/wt-bit-history",
+      "branch": "research/continuous-20261110-bit-history",
+      "dependency": "#6879 helper space, #6903 chronological fields, query-thinned-controllers p16 bootstrap and reseed contract",
+      "next_action": "Find an actual missing consumer/footprint implication rather than generic O(V) assertion"
     }
   ],
-  "verified_publications": [],
+  "verified_publications": [
+    {
+      "package": "contextual-primitive-microcontrol",
+      "branch": "research/continuous-20261110-dispatcher",
+      "commit": "107ea2e77dcf44d50343eb818b5b14e1f537c8c7",
+      "tree": "74c969544419166eb431bd8bbcf213e655627f16",
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "title": "Lower the actual primitive wrapper and protected binary contexts to finite-state tape control",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/continuous-20261110-dispatcher?expand=1",
+      "description_url": "https://github.com/CubeJerry/integer-mult-bounds/blob/107ea2e77dcf44d50343eb818b5b14e1f537c8c7/research/contextual-primitive-microcontrol/PR-DESCRIPTION.md",
+      "link_kind": "Verified compare; full proposed Markdown description published; prefill encoded and HTTP 200 but authenticated form unobserved"
+    }
+  ],
   "completed": [
     "Required canonical instructions, exact selected assumptions/review and scoped ledger entries read.",
     "5654 research-package names surveyed; targeted recent PR/source overlap.",
     "Earlier 33-package history reconciled; already-proved lemmas excluded.",
     "One shallow blob-filtered sparse clone; four isolated writable worktrees.",
-    "Canonical source binding orientation completed (220 exact inputs, 5.1 MB)."
+    "Canonical source binding orientation completed (220 exact inputs, 5.1 MB).",
+    "Primitive wrapper source-relative finite graph: C=A+U; 28 protocol/372 arithmetic cases, separate 38 target-only probes and negative controls. Remote ref/tree/parent and 23 additions verified.",
+    "CRT separate review corrected false quadratic coefficient to sum <2(ell+2)^2 d^2 <=32p^2, preserving the majorant. Author normal/optimized full replay and independent source/tariff review passed.",
+    "Upstream remains e545; newest observed conditional proposal #7112 is not accepted frontier."
   ],
   "limitations": [
     "No supported Discussion mutation connector; claims kept in this recovery branch. Public Discussion pages give partial/cached coverage.",
-    "No guaranteed unattended runtime; no promise of unscheduled background work."
+    "No guaranteed unattended runtime; no promise of unscheduled background work.",
+    "Prepared full prefill returns HTTP 200, but anonymous GitHub does not expose authenticated title/body form. User link is verified compare; complete Markdown description is published."
   ],
   "budget": {
     "requested_hours": 10,
@@ -67,5 +114,7 @@
     "Refresh upstream and scope-specific PR/claim/source deltas.",
     "Resume active work without repeating frozen completed research.",
     "Do not create upstream PRs, merge, change selected certificate or fork main."
-  ]
+  ],
+  "recovery_remote_commit": "ac77cc948dd3dcb495cc4b344ffe071d703a9cea",
+  "recovery_remote_tree": "a1d4e74d550747e898c104ad126aae69e32c27ac"
 }
