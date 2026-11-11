@@ -85,6 +85,15 @@ positive-rank arrivals. Preloads cost more than the four returns they replace;
 the advance is discharging five concrete observation premises, not a cheaper
 optimistic price. Input-difference formation, recoupling and all ordinary tariffs
 remain separate. The next target is an endpoint-correct shared code that supplies
-the four later owned observations and the the observer premises for all ten current-cochart rewrites within this
+the four later owned observations and the observer premises for all ten current-cochart rewrites within this
 budget, or a proved structural revision of the profile. Universal main-departure
 decoding remains excluded. No new kappa; all five assumptions remain.
+
+## S003: sharp initial-acquisition obstruction
+
+Before-source acquisition of the four whole historical return rows needs exactly105
+new positive-rank arrivals:101 distributed initial-chart cuts plus rank4 at empty
+chart3. The literal72073-instruction upper word removes all nine historical
+observation premises but exceeds even the optimistic98-arrival allowance.
+Dynamic funded reuse, helper payload recoding and changed geometry remain open.
+See results/initial-preprocessing/. No new kappa.

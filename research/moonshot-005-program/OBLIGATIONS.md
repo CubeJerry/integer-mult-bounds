@@ -111,9 +111,21 @@ independent dyadic audit in results/prepaid-historical-budget/.
 Remaining precise local obligation: supply delta1499 after28113 at470,
 delta1497 after32558 at431, delta1495 after34450 at394, and delta1482 after37548
 at520, preserving source versions, physical owners and dirty common inputs.
-Also supply the the observer premises for the ten earlier current-cochart rewrites and construct the full shared
+Also supply the observer premises for the ten earlier current-cochart rewrites and construct the full shared
 main/helper code. The prepaid provisional invoice allows less than
 3.924557776362 additional paid moment/native. This ceiling is necessary under
 that profile, not sufficient for any supplier or kappa theorem. Explore fused
 source blocks or changed funded payloads; do not restore every virtual main at
 every departure, a grammar excluded even with delayed common reads.
+
+## S003 PRELOAD-FULL
+
+PROVED sharp count; DISPROVED within initial-only target-budget scope. For every
+permitted V over characteristic zero, materializing the four whole historical
+return rows before the original calendar from pinned rawq placement requires
+at least105 complete-field transmissions. Arbitrary linear V-coordinate coding,
+local caching, multicast and intermediate charts are granted; all preprocessing
+routes are newly charged, with equal-span aliases identified. A literal word
+attains105. Evidence: results/initial-preprocessing/PROOF.md and review/REVIEW.md.
+This closes initial-only replacement of the four later owned samples. It leaves
+funded temporal aggregation, helper recoding and changed geometry open.

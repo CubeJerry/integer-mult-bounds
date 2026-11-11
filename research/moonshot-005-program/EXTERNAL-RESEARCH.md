@@ -102,3 +102,19 @@ it neither supplies our missing observations nor disproves our paid weighted
 preloads. No upstream code, source pin, selected certificate or assumption was
 changed during this check. Next sessions should avoid re-reading these bodies
 without a changed head or a concrete composition question.
+
+## S003 entry refresh
+
+At08:05 UTC programme HEAD was ce2846f5ac40be3392ece83b4f61ca0757af449f; canonical
+main remained e54523517d0f03e58352e647c403a5af3e525a57. Selected-result.json still
+controls at conditional.00363005817; bottleneck/priority prose naming older
+frontiers is historical. Current AGENTS/autoresearch/CONTRIBUTING and relevant
+coordination/family guidance were read. Public discussion start-here, handoff
+and mechanism pages were inspected; oldest-page visibility is bounded coverage.
+
+New #7166/#7171 transport/fusion proof assessment is assigned to the bridge.
+#7167 at1af08e33b84c603c8e68ea6b41232f197a31692f reports reduced ANF hosting
+charge without a physical invoice map; #7173 ata30cb01ae877386d0ede459491100fc55cc28c83
+reports a conditional five-stage13q aggregation. Their detailed bodies were read,
+not independently replayed or admitted; neither supplies the missing joint code.
+No upstream source, selected certificate or branch was modified.

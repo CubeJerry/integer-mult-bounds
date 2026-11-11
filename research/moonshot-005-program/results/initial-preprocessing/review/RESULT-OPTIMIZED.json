@@ -1,0 +1,64 @@
+{
+  "added_rank_one_gathering_MOVEs": 101,
+  "author_result_sha256": "fb3da15f48ed52e0da2211de5fa45feecfbf5412796acc61a530f5f2366e7a01",
+  "declared_owned_labels": 56,
+  "distributed_chart_cuts": 101,
+  "distributed_minor": "-3/4",
+  "empty_chart_cut_rank": 4,
+  "entry_minor": "-495/64",
+  "independent_difference_inputs": 400,
+  "initial_chart_groups": 102,
+  "instructions": 72073,
+  "minimum_added_arrivals": 105,
+  "negative_controls": [
+    {
+      "mutation": "wrong_preload_coefficient",
+      "rejection": "exact400-column rebind"
+    },
+    {
+      "mutation": "owned_gather_marked_public",
+      "rejection": "typed MOVE"
+    },
+    {
+      "mutation": "retired_owner_reference",
+      "rejection": "live cochart scalar"
+    }
+  ],
+  "operation_changes": {
+    "ADD": 501,
+    "CLEAR": 105,
+    "COPY": 0,
+    "INIT": 105,
+    "MOVE": 101,
+    "SCALE": 0
+  },
+  "prelude_instructions": 812,
+  "public_endpoint_rows": 1480,
+  "scope": "Exact initial-only minimum and literal reference-rail upper witness. Dynamic funded routes, joint common/difference codes, weighted-price optimality and global kappa contracts remain outside.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_INDEPENDENT_SHARP_105_PREPROCESSING",
+  "transcript_payload_sha256": "936d9953b61d13330d39ccd5a223cdc424c61a9a39e760a205f70492ef23a479",
+  "typed_bill": {
+    "counts": {
+      "ADD": 61681,
+      "CLEAR": 159,
+      "COPY": 1,
+      "INIT": 159,
+      "MOVE": 6411,
+      "SCALE": 3662
+    },
+    "final_live_owned": 0,
+    "move_histogram": {
+      "1": 4176,
+      "2": 825,
+      "3": 814,
+      "4": 241,
+      "5": 319,
+      "6": 18,
+      "7": 12,
+      "8": 6
+    },
+    "owned_lifetimes": 159,
+    "peak_owned": 44
+  }
+}

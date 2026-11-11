@@ -168,3 +168,12 @@ joint native, and every global supplier/foundation contract remain unresolved.
 [Quiet-route loan](results/quiet-route-loan/) is a verified dirty-input transform
 whose [scope obstruction](results/quiet-loan-scope/) prevents claiming useful
 required endpoint reachability. No new kappa. Ongoing programme, not PR-ready.
+
+## S003 extension: sharp initial acquisition
+
+[Initial-preprocessing](results/initial-preprocessing/) proves an exact105-arrival
+minimum and supplies a separately reconstructed72073-instruction upper witness
+for acquiring four full historical return rows before the source calendar.
+All nine historical observations are removed at an unaffordable paid price.
+Dynamic funded reuse remains open. Exact pins, ordinary/lifecycle bills and
+negative controls are retained. No new kappa; cumulative programme not PR-ready.

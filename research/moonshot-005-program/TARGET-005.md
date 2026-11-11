@@ -167,7 +167,17 @@ Local word:181 entry ADDs+4 owned-observation ADDs,4 INITs,4 CLEARs; four transp
 rank3,3,3,6 replace rank2,2,2,5. Formation of92 needed q=y-x values costs92
 cochart ADDs, or use362 direct entry ADDs from both original banks plus4 later
 owned ADDs. A full q bank and output recoupling, if used, are separately charged.
-Four later owned observations, all the observer premises for all ten current-cochart rewrites and the rest of the
+Four later owned observations, the observer premises for all ten current-cochart rewrites and the rest of the
 shared native remain conditional. No ordinary, storage, precision, compiler,
 recursive or foundational contract is discharged by this paid-moment surplus.
 See results/entry-preload/ and results/prepaid-historical-budget/ including reviews.
+
+## S003 initial-only full-return acquisition
+
+The exact arrival-count minimum is105 under the newly charged preprocessing
+contract. The sharp word adds {1:101,3:3,6:1}, removes {2:3,5:1}, and adds501ADDs,
+105INITs and105CLEARs. Relative to the four weighted preloads, raw18-native
+margin falls by1818 and becomes negative. This excludes inexpensive before-source
+full acquisition, not funded retiming; weighted-price optimality is unclaimed.
+Raw-q formation and every other physical/compiler fee remain additional.
+Proof and independent review: results/initial-preprocessing/.

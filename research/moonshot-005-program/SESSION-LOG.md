@@ -196,3 +196,23 @@ including #7165's exact pinned proof. Neither is selected or locally admitted;
 the different source/input/calendar contracts are recorded in EXTERNAL-RESEARCH.
 Construction worker independently executed all three new portable reproduction
 commands successfully after the publication, with no scientific-file edits.
+
+## 2026-11-11 S003 — continued shared-code programme
+
+Started08:05 UTC (16:05 UTC+8), target two hours, at GitHub-confirmed programme
+ce2846f5ac40be3392ece83b4f61ca0757af449f. Canonical main remains
+e54523517d0f03e58352e647c403a5af3e525a57. Recovered current state, obligations,
+verified constructions, failures and S002 handoff; three complementary workers
+continue the same branch. Current canonical guidance/selected record read.
+
+First reviewed milestone: exact105 before-source arrivals for four whole
+historical return rows, with sharp72073-instruction construction and separate
+all400-q/1480-endpoint typed review. It closes all nine historical observation
+premises but fails the paid target budget. Initial cuts101+4, added{1:101,3:3,6:1},
+removed{2:3,5:1};501ADD,105INIT/CLEAR pairs,peak44,56labels,159lifetimes.
+
+The14-return quotient/history reduction, endpoint funded-calendar bounds and
+seven-rewrite alternative remain under review at this first checkpoint. They
+are not admitted here. Next: useful helper payload recoding beyond quiet loans,
+with dirty common restoration and every physical cost. No new kappa. Publication
+identity will be recorded in the next checkpoint, avoiding self-reference.

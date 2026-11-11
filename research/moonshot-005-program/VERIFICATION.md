@@ -140,3 +140,14 @@ Final integrated read-deadline review completed and matches the frozen receipt:
 8494 records and106/106 departure floors. All three workers audited the published
 integration; only the wording clarifications recorded in SESSION-LOG were needed.
 Scientific bytes and all120 author-review pins remain unchanged.
+
+## S003 first reviewed result
+
+Initial-preprocessing: separate reviewer imports no author builder/interpreter,
+reconstructs all72073 instructions, checks400 independent q directions and1480
+public endpoints, and verifies both4x4 minors, canonical chart cuts, rebinding,
+owned lifecycle and three actual-word mutations. Normal/-O receipts agree;
+all10 author hashes match. Counts:105 added arrivals,501ADDs,105INIT/CLEAR pairs,
+56labels,159lifetimes,peak44,final0. The general outgoing-chart dimension proof
+and its exact source witness establish arrival-count sharpness only. No complete
+1880-input shared native, weighted optimum, supplier or assumption discharge.

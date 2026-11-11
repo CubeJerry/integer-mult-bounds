@@ -90,3 +90,15 @@ instructions, five historical helper observations discharged, four later owned
 observations retained; paid153090,targets27344,surplus3346,additional rank-one
 ceiling3. Normal/-O author and separate reviewer receipts are preserved.
 The400-input preload reference rail is not a complete1880-input shared lift.
+
+## S003 initial-only acquisition
+
+From repository root:
+
+```sh
+python3 -B research/moonshot-005-program/results/initial-preprocessing/review/review.py --source research/shared-wire-split-composition/data/final.json.gz --packet research/moonshot-005-program/results/initial-preprocessing
+```
+
+Expected:105 added arrivals,72073 instructions,400 q inputs,1480 public endpoints,
+501ADDs,105INIT/CLEAR pairs,peak44,finalowned0. Repeat with-O. See the package
+README for explicit author source/word reconstruction commands.
