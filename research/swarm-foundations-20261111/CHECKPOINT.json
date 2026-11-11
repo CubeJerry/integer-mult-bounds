@@ -3,8 +3,8 @@
   "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
   "base_tree": "1199c3d7a31fffa5ba5d41f10f1b933aacc797aa",
   "selected_kappa": "0.00363005817",
-  "updated_utc": "2026-11-11T14:43:41Z",
-  "status": "Five independently verified contributions published; wave 3 inverse and complement ports accepted and in publication; wave 4 active",
+  "updated_utc": "2026-11-11T14:48:57Z",
+  "status": "Seven independently verified contributions published; wave 4 narrowing compiler generation and CRT literal-refinement obligations",
   "recovery_branch": "recovery/foundations-swarm-20261111-1313",
   "assumptions": [
     {
@@ -88,6 +88,16 @@
       "result": "Literal source-bound selected header cutoff",
       "commit": "da3f01ded52e84388d9b40b70590dd4dce6f51b4",
       "remote_blobs_match": 18
+    },
+    {
+      "result": "Drive the padded balanced CRT inverse from encoded source and retain all 79 role histories across precision changes",
+      "commit": "c84b0e619c4afb249fe65f568751858f5f1d0c83",
+      "remote_blobs_match": 28
+    },
+    {
+      "result": "Map every source row to its whole complement invocation and child input slot without expanding replicas",
+      "commit": "bd63147b1a193f68b5713e5814ac3b2c743beff8",
+      "remote_blobs_match": 19
     }
   ],
   "published": [
@@ -125,9 +135,23 @@
       "commit": "da3f01ded52e84388d9b40b70590dd4dce6f51b4",
       "compare": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/selected-header-cutoff-20261111-1313?expand=1",
       "description_path": "research/selected-header-cutoff/PR-DESCRIPTION.md"
+    },
+    {
+      "slug": "encoded-balanced-crt-inverse",
+      "branch": "research/encoded-crt-inverse-20261111-1313",
+      "commit": "c84b0e619c4afb249fe65f568751858f5f1d0c83",
+      "compare": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/encoded-crt-inverse-20261111-1313?expand=1",
+      "description_path": "research/encoded-balanced-crt-inverse/PR-DESCRIPTION.md"
+    },
+    {
+      "slug": "source-complement-port-index",
+      "branch": "research/source-complement-ports-20261111-1313",
+      "commit": "bd63147b1a193f68b5713e5814ac3b2c743beff8",
+      "compare": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/source-complement-ports-20261111-1313?expand=1",
+      "description_path": "research/source-complement-port-index/PR.md"
     }
   ],
-  "next": "Publish the two accepted packages after final staging replay; audit fresh wave 4 claims without duplicating existing routing or width theorems.",
+  "next": "Independently review all-rank compiler recurrence and CRT projection lemma; retain existing width and routing theorem credit.",
   "negative_and_superseded": [
     {
       "result": "Historical scale-ratio-only analytic bound",
@@ -138,6 +162,11 @@
       "result": "Python hash-table source-index cost",
       "status": "Repaired and published after independent mathematical, collision-family and cost-model review",
       "source": "reviews/source_index_peer_review/REVIEW.md"
+    },
+    {
+      "result": "Fixed-template whole-row complement routing",
+      "status": "Already follows from elementary-streams item 4 and #6878; no duplicate implementation",
+      "path": "physical-routing/CHECKPOINT.md"
     }
   ],
   "latest_upstream_check": {
@@ -145,18 +174,5 @@
     "through_pr": 7273,
     "selected_unchanged": true
   },
-  "reviewed_pending_publication": [
-    {
-      "slug": "encoded-balanced-crt-inverse",
-      "path": "publish/research/encoded-balanced-crt-inverse",
-      "status": "Root independent 20 cases/52 nodes plus separate universal proof/cost review passed; final package replay running",
-      "core": "PROOF edbeb16bd8d088ab75b73b22adf5fc8aeef1ec93e8333bf74d4ad8e7f2f3d51f"
-    },
-    {
-      "slug": "source-complement-port-index",
-      "path": "publish/research/source-complement-port-index",
-      "status": "Independent 22 flows/3900 rows/11 controls and root proof/code review passed; transient bucket wording repaired",
-      "core": "PROOF c966ddff4b9f8cb7c2c428adc9ab6e0496fb2fa40e9d05a1397ec96f96327272"
-    }
-  ]
+  "reviewed_pending_publication": []
 }

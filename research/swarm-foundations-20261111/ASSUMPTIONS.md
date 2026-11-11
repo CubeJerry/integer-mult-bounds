@@ -122,3 +122,56 @@ contracts. Finite verifiers corroborate proofs and detect mutations; they are
 not universal proofs, human review, or formal-kernel acceptance. No selected
 certificate or kappa was changed. Open PR claims were checked through #7271;
 a later restart must refresh the exact main SHA and deltas.
+
+## Wave 3 resolutions and wave 4 allocation
+
+This section supersedes the corresponding open candidate labels above; it
+does not alter any of the five canonical assumption statements.
+
+- **Verified, source-bound cutoff input resolved:** commit
+  `da3f01ded52e84388d9b40b70590dd4dce6f51b4`,
+  `research/selected-header-cutoff`. A literal eleven-tape prefix reads the
+  actual Gamma(p)Gamma(d) header and supplies the unchanged controller with
+  C=min(ceil(d^(1/Q)),e+1), Q=10^14. With selected epsilon=1−1/Q, its
+  paid O_Q(h+dC) setup and retirement fit O(p), including historical unary-d
+  backing. Valid header, positive post-reservation WIDTH, final manifest,
+  grants and payload consumers remain. Root dense CPU and separate symbolic
+  source/cost review passed; no selected-payload replay is inferred.
+- **Verified, encoded balanced address-state inverse resolved:** commit
+  `c84b0e619c4afb249fe65f568751858f5f1d0c83`,
+  `research/encoded-balanced-crt-inverse`. Encoded descending levels and
+  subtractive rotations compose with the unchanged retired-commit writer.
+  Complete source-model time is O(A^4) and extra retained backing O(A^2).
+  Precision may shrink and regrow (11,5,7); one invocation retains 79 roles,
+  two fresh invocations 158 histories. Payload conversion, raw exceptional
+  key S^-1, literal binary emission and selected caller admission remain
+  distinct. Separate direct-CRT inverse and universal cost reviews passed.
+- **Verified, whole complement input ports resolved as metadata:** commit
+  `bd63147b1a193f68b5713e5814ac3b2c743beff8`,
+  `research/source-complement-port-index`. True-rank bucket counts and
+  rank/unrank produce an exact replicated-row to invocation/slot bijection,
+  including batches crossing replicas and explicit NoComplement at rank N.
+  Existing gcd/LCM factors are credited; every chronological exit remains
+  separate. Deterministic indexed and serialized metadata costs are stated
+  separately. Physical routing, smaller native services and full manifest
+  generation are not supplied. A fresh literal-word parent-edge oracle passed.
+- **Superseded, no new router:** fixed whole-source row grouping is already
+  an instantiation of elementary-streams item 4 and #6878 complete routing
+  costs. See `physical-routing/CHECKPOINT.md` and its exact source pins.
+  Native growing-frame normalization is a different, separately priced
+  operation; no linear lower bound or impossibility claim follows.
+- **Superseded width-only question; active generation-time question:** #4638
+  already gives explicit width divisors and #5962 sharpens multiplicative
+  rank dependence. Wave 4 checks a compressed exact all-rank table recurrence
+  and its full deterministic bit cost. This is unverified until separately
+  reviewed; no new native word or physical cost theorem is asserted.
+- **Active source-model refinement audit:** wave 4 checks the actual CRT hot
+  call closure, instrumentation erasure, host state and local-symbol lowering.
+  It may justify or delimit C_inv; no literal refinement claim is accepted
+  yet. The published inverse retains its explicit source-model qualification.
+
+All seven remote contribution branches were checked against exact canonical
+base e54523517d0f03e58352e647c403a5af3e525a57, with all intended Git blob
+hashes matching local reviewed bytes and zero deletions. Full PR descriptions
+are committed in their packages. No upstream PR was submitted. The selected
+conditional kappa remains 0.00363005817; all five assumptions remain retained.
