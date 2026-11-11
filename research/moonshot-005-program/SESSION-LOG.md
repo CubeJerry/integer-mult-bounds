@@ -400,3 +400,35 @@ a search reports a dimension; exact source representations and separate
 review are required. The final checkpoint records its outcome below.
 
 The bounded final setup completed before13:27UTC. Two independent exact source algorithms show D=spanu77 at chart71/pre29098, with actual E roles287/847/1050. The sole mode is final189-initial189 and has a literal response-stable receiver-history lift. Root proved a general stable-history quotient bound; bridge independently reviewed it. Composition with the admitted220-chart theorem excludes this first generalized encoder, rather than leaving it as next session's repeated task. Next: find a cut with nonzero D/(D intersect S), then run full neutral-control criterion. No new kappa.
+
+S004 checkpoint4 was published and GitHub-confirmed at
+7a7996034a91e737b30c3d59aaecdde2a3bcf6b4,
+tree1465ee911f13d26a79617c2d0cf0060397417d9d. The28 intentional changes
+preserved all earlier scientific bytes; fetch-back gave a clean tree.
+The source intersection integrated replay matches its frozen receipt. Final
+scientific ledger:80imports,554scientific files,281reviewed author pins and
+3direct source pins. The41 verified-result entries and77 principal local
+document links resolve. These counts describe coverage, not formal proof
+certification. All three workers have stopped; no background work is promised.
+
+The session leaves one evolving construction: recoverable common-mode
+encoding with actual histories, neutral controls, terminal restoration and
+a necessary stable-history quotient. The first source cut is excluded,
+not queued for repetition. The next session should find an actual cut with
+nonzero quotient under the established history-annihilation interface, then
+prove nonzero Z_R B K and emit a fully restored1880-input word. A different
+pair/interface needs its own annihilation premise; the quotient filter must
+not be generalized without it. The20-new-call/26-original-crossing necessary
+budget, full supplier/compiler/precision/ownership and recursive duties,
+and all five foundational assumptions remain. No new complete kappa.
+
+The final handoff commit records this already-confirmed scientific parent;
+its own SHA is reported separately after GitHub confirms it. No upstream PR
+was submitted, no permanent branch was added and no history was rewritten.
+
+Final reference check at13:31:25UTC confirms programme scientific HEAD
+7a7996034a91e737b30c3d59aaecdde2a3bcf6b4 and canonical main
+e54523517d0f03e58352e647c403a5af3e525a57. No concurrent update was detected.
+The requested session runs11:36:40–13:36:40UTC; the final minutes are reserved
+for this handoff publication and remote confirmation. All research workers
+are stopped. Future work begins only on a later invocation.

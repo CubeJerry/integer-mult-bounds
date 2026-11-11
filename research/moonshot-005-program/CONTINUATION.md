@@ -51,3 +51,9 @@ station set is now excluded by a complete nine-relation history certificate,
 even without endpoint neutrality. Do not repeat that search. Nonzero-R
 encoders or changed access/processing are the next explicit interfaces;
 an external q-bearing aggregate is not covered by that obstruction.
+
+Apply the stable-history gate only with its history-annihilation premise.
+It is proved for the existing77-to189/220-station family. For another pair
+or access interface, re-establish that premise; its failure may itself
+provide an additive channel. The quotient gate is not an unconditional
+filter for arbitrary new architectures.
