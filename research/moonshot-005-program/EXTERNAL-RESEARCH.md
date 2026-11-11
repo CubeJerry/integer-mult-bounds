@@ -191,3 +191,5 @@ programme native; no newly opened PR or selected-certificate change is admitted.
 The final S003 aggregation/facet mechanism is internal to the continuing programme
 and pinned native. No unaccepted high-kappa PR supplies its missing continuation.
 Selected conditional result and all five foundations remain unchanged.
+
+Final S00310:01:21 UTC reference check: canonical main still e54523517d0f03e58352e647c403a5af3e525a57; programme scientific HEAD2168708e0ceff4ddec2cd69c60c6e6b65e65c557. No canonical integration or selected-result change was needed.

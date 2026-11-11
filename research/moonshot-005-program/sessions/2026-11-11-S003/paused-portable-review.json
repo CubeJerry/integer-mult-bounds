@@ -1,0 +1,113 @@
+{
+  "author_result_sha256": "e115789257883fdcb09f67fbb47ee305371982a179ce74a8ebb6f82d48e84c0a",
+  "boundary_ADDs": 800,
+  "common_rows_restored_at_cut": {
+    "live_owned": 12,
+    "public": 1480
+  },
+  "eight_plus_repairs_headroom_per_native_bounds": [
+    "46835555875546385765159774371/2785365088392105618523029504",
+    "162623457901202728351249341/9671406556917033397649408"
+  ],
+  "eight_plus_repairs_paid_positions": 153054,
+  "eight_plus_repairs_rank_surplus": 3580,
+  "exact_first_output": {
+    "101": "1",
+    "213": "1"
+  },
+  "exact_second_output": {
+    "1573": "1",
+    "1677": "1"
+  },
+  "funded_second_owned_lineage": [
+    [
+      30824,
+      541,
+      534,
+      1
+    ],
+    [
+      30826,
+      534,
+      117,
+      1
+    ],
+    [
+      30830,
+      117,
+      594,
+      4
+    ]
+  ],
+  "independent_bill": {
+    "counts": {
+      "ADD": 61991,
+      "CLEAR": 56,
+      "COPY": 1,
+      "INIT": 56,
+      "MOVE": 8025,
+      "SCALE": 3662
+    },
+    "final_owned": 0,
+    "move_histogram": {
+      "1": 5067,
+      "2": 1190,
+      "3": 916,
+      "4": 354,
+      "5": 453,
+      "6": 25,
+      "7": 14,
+      "8": 6
+    },
+    "owned_labels_used": 52,
+    "owned_lifetimes": 56,
+    "peak_owned": 43
+  },
+  "independent_input_columns": 1880,
+  "instructions": 73791,
+  "negative_controls": [
+    {
+      "mutation": "omit_donor_restore",
+      "rejection": "mutant full1880 endpoint"
+    },
+    {
+      "mutation": "omit_common_restore_step",
+      "rejection": "mutant full1880 endpoint"
+    },
+    {
+      "mutation": "false_public_descent",
+      "rejection": "MOVE actual ownership/chart"
+    },
+    {
+      "mutation": "omit_funded_middle_leg",
+      "rejection": "MOVE actual ownership/chart"
+    },
+    {
+      "mutation": "wrong_receiver_shear",
+      "rejection": "mutant full1880 endpoint"
+    },
+    {
+      "mutation": "omit_donor_input_conversion",
+      "rejection": "mutant full1880 endpoint"
+    },
+    {
+      "mutation": "omit_receiver_output_recoupling",
+      "rejection": "mutant full1880 endpoint"
+    }
+  ],
+  "new_paid_moment_per_native_bounds": [
+    "38551784128581059098316695/9671406556917033397649408",
+    "616828546057296945573067121/154742504910672534362390528"
+  ],
+  "new_paid_ranks": [
+    2,
+    2
+  ],
+  "public_output_rows": 1880,
+  "retimed_raw_main_MOVEs": 1387,
+  "scope": "One exact second-native endpoint with all arbitrary common inputs restored; three reserved second-owned1481 payload duties are repurposed and not simultaneously discharged. Arithmetic coexistence with eight-profile is not composition or supplier admission. All other native, precision, compiler, ordinary and foundational duties remain.",
+  "selected_output": 213,
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_INDEPENDENT_1880_PAUSED_COMMON_LOAN",
+  "word_payload_sha256": "12184516c26af12642c869b75735bd816f1df9b6e364c09b6fabb0c3d7c3df92"
+}

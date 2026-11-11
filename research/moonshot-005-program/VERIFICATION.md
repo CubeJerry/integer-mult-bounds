@@ -245,3 +245,5 @@ mathematical/execution error is associated with it. No formal kernel/human revie
 complete uniform supplier or newkappa is claimed.
 
 The separate construction-worker forward source audit also passed: source rows, entry/nonentry minors1/8 and-1/8, final facets and exact operational interface agree with the bridge reverse-adjoint review. Its four files and13 author pins are preserved in paid-observable-acquisition/review-source/. The pre-existing independent forward interpreter is pinned explicitly; its new reproduction receipt matches byte for byte. This audit does not claim independent discovery of the facet variant.
+
+Final continuation-ledger clarification: the unexecuted common native retains its47 owned MOVE occurrences; the difference side has33 funded surviving owned occurrences under S8. Its14 deleted occurrences are not recovered as free credits. The prefix consumes no second-owned reservation. Source words and verified profiles are unchanged; CONTINUATION.md/STATE now distinguish these ledgers explicitly.

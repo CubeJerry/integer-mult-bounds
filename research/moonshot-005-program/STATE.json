@@ -1,7 +1,7 @@
 {
   "schema": "moonshot-005-program-state-v1",
   "branch": "research/moonshot-005-program",
-  "checkpoint_baseline_sha": "3656bf845089679a15530d4bbf49765fdded57b6",
+  "checkpoint_baseline_sha": "2168708e0ceff4ddec2cd69c60c6e6b65e65c557",
   "checkpoint_sha_semantics": "Prior baseline, not this file's own commit identity.",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
   "session": "2026-11-11-S003",
@@ -274,9 +274,9 @@
   "path_semantics": "Result paths are relative to research/moonshot-005-program.",
   "tested_source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
   "publication_status": "Ongoing programme, not PR-ready; no upstream PR submitted.",
-  "last_verified_scientific_commit": "3656bf845089679a15530d4bbf49765fdded57b6",
-  "last_verified_scientific_tree": "9c7a9ebdb009bda5aafb97333dac30ae21384d50",
-  "session_status": "S003 final verification/publication: both actual prefixes and provisional budgets independently verified.",
+  "last_verified_scientific_commit": "2168708e0ceff4ddec2cd69c60c6e6b65e65c557",
+  "last_verified_scientific_tree": "e310ec94a6a77beb1e66391712ade37173540f3a",
+  "session_status": "S003 completed; five scientific checkpoints and final resumable handoff published after verification.",
   "supporting_results": {
     "index": "SUPPORTING-RESULTS.md",
     "manifest": "SUPPORTING-IMPORTS.json",
@@ -285,7 +285,7 @@
   "session_started_utc": "2026-11-11T08:05:00Z",
   "requested_session_seconds": 7200,
   "observer_count_clarification": "Eight-current closure has26 surviving terms:4main,20helper,2owned. Deleted observations are not remaining premises. Reference peak33 is not the peak of the unbuilt1880-input shared execution.",
-  "upstream_last_checked_utc": "2026-11-11T09:35:34Z",
+  "upstream_last_checked_utc": "2026-11-11T10:01:21Z",
   "external_open_prs_examined": [
     7161,
     7162,
@@ -316,6 +316,30 @@
     },
     "remaining_paid_moment_upper": "8.8148714402760477",
     "literal_source_cut_established": false,
-    "S8_observations_automatically_discharged": 0
-  }
+    "S8_observations_automatically_discharged": 0,
+    "common_native_executed": false,
+    "unexecuted_common_owned_moves": 47,
+    "retained_second_owned_reservations_unused": 33,
+    "deleted_second_owned_occurrences_not_funded": 14,
+    "physical_namespace": {
+      "common_public": [
+        0,
+        1479
+      ],
+      "raw_bank": [
+        1480,
+        1879
+      ],
+      "common_owned_reserved": [
+        1880,
+        1930
+      ],
+      "source_common_owned_relabel": "j+400",
+      "r_output": 1931,
+      "Mnew_output": 1932,
+      "retired_temporary": 1933
+    }
+  },
+  "handoff": "sessions/2026-11-11-S003/HANDOFF.md",
+  "session_checkpoint_utc": "2026-11-11T10:01:21Z"
 }

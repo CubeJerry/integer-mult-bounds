@@ -279,3 +279,22 @@ five own mutants per variant. Root independently rebuilt full invoices using
 full continuation is not. Facet remaining moment<8.8148714402760477/native; all26
 S8 observers and ordinary/compiler/supplier duties remain. CONTINUATION.md gives
 the next exact physical state/problem. No new kappa.
+
+S003 final scientific checkpoint published and independently fetched from GitHub:
+2168708e0ceff4ddec2cd69c60c6e6b65e65c557,
+treee310ec94a6a77beb1e66391712ade37173540f3a. Remote STATE/proof/tree and sole parent
+3656bf845089679a15530d4bbf49765fdded57b6 were confirmed. No concurrent programme
+update or canonical main change was detected at publication. Final handoff
+clarifies33 retained second-owned reservations versus14 deleted unfunded
+occurrences and47 protected common-owned operations, plus exact physical role
+renaming. Source proofs/prefixes/prices are unchanged.
+
+The resumable scientific state and six portable rerun receipts are preserved in
+sessions/2026-11-11-S003/. Byte ledger:80 imports,418 scientific files,235 reviewed
+author pins,3 direct source pins. Five coherent scientific checkpoints were
+published in this session. No new kappa and no upstream PR. The next session
+begins with RELAY-CONTINUATION in CONTINUATION.md; it must not redo acquired forms
+or assume a missing full source-cut state. The later handoff commit records
+this exact prior scientific SHA; its own identity is reported separately.
+
+Final handoff prepared after the10:01:21 UTC reference checks, within the requested08:05–10:05 UTC session budget. All workers are finished; no background research or pending publication is promised. The branch remains the sole persistent programme identity.
