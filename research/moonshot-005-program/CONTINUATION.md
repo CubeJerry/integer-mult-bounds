@@ -57,3 +57,11 @@ It is proved for the existing77-to189/220-station family. For another pair
 or access interface, re-establish that premise; its failure may itself
 provide an additive channel. The quotient gate is not an unconditional
 filter for arbitrary new architectures.
+
+An immediate corollary of both reviewed source ranks reduces this search:
+row(F0) has dimension1056 and its certified stable subspace S has dimension
+1047, so row(F0)/S has dimension9. Compute this fixed quotient once, then
+look for an actual recoverable cochart mode with nonzero image in it.
+For the stated neutral single-encoder interface, rankG is at most9; a
+nonzero image still does not prove controllable gain. These nine quotient
+directions are distinct from the nine left-null history relations.

@@ -432,3 +432,10 @@ e54523517d0f03e58352e647c403a5af3e525a57. No concurrent update was detected.
 The requested session runs11:36:40–13:36:40UTC; the final minutes are reserved
 for this handoff publication and remote confirmation. All research workers
 are stopped. Future work begins only on a later invocation.
+
+Final continuation corollary: the independently proved1056-dimensional
+receiver history and1047-dimensional stable subspace give a9-dimensional
+quotient. Compute it once to screen later encoder cuts; this is an exact
+necessary search reduction, not a positive channel or asymptotic gain.
+It is distinct from the nine left-null relations. The preceding handoff
+was GitHub-confirmed atfddfc684cb2975601443d069f03134c800cde5aa.
