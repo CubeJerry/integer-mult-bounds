@@ -47,3 +47,49 @@ complete recursive and physical invoices → uniform complex compiler and covere
 BIT implementation → source-valid ordinary bootstrap → all strict outer rows.
 All five selected assumptions remain: native_all_columns, owned_erasure,
 compiler, precision_tape, analytic_recovery.
+
+## S001: verified new constraints and construction interface
+
+These are source/grammar-specific statements; none is a universal .005 ceiling.
+
+1. BIT-CUT proves every allowed fixed-selector endpoint repair has paid moment
+   at least111(m−1). Its source-bound q-core extension, when entry low-side rank
+   is at most111q and the invoice is fixed, has complete moment
+   M(m,q)<−222m−414(m−q)<0. Temporal core changes remain open.
+2. H4-END proves final repair of the canonical balanced E⊕R endpoint costs at
+   least208/native under normalized scalar/cochart single-field MOVE rules.
+   With unchanged targets, margin is below1771.183386−18·208=−1972.816614.
+   This does not price a changed caller or globally fused cross-native repair.
+3. H4-SWITCH proves rank(E−R)≥275, whereas all canonical two-switch cut pairs
+   have required nullity sum≤260. The exact52-sample rank-loss certificate
+   covers all71262 source cuts. Role-local coding and other histories are open.
+4. H4-CAP proves the two frozen main banks have rank738. Any1080 helper fields
+   plus43 extra fields can reach at most1861<1880 input dimensions. A changed
+   design with that owner count needs joint main rank≥757 at the critical cut.
+   In the identical-prefix model with main-on-all rank400, main-on-main rank
+   must be≥357 instead of338. Balanced helper sharing has exact deficit63;
+   seven observations recover old owned states only, losing56 further directions.
+5. CODED-LIFT supplies an explicit conditional construction: every missing
+   difference row must have a CURRENT COCHART expression, snapshotted before
+   aliases change. It counts ADD/SCALE, lifecycle and any extra transport.
+   If all event witnesses exist, arbitrary helpers and all eight coupled ports
+   are correct. No complete witness schedule is currently known.
+
+If a modified word retains the optimistic H4 target/paid profile except an
+extra paid correction, its full per-native moment must be <M4/18, strictly
+below98.39907695 at the target. This is an allowance on added work, while
+13.012927833 is the required SAVING from doubled-owned work; do not interchange
+these numbers. Changing targets/caller requires a new budget.
+
+The event identities of CODED-LIFT introduce no division when code weights are
+0 or1; they therefore suggest a selector-code interface also over F2, provided
+that source's operations and observations are separately valid. Balanced half-
+broadcast is not defined in characteristic2. Neither the complex source nor
+its price/precision admission transfers automatically to BIT.
+
+Next concrete proof attempt: build a source-version-safe cochart difference-
+delivery schedule for a changed main-state history or funded parked observations,
+with every extra MOVE below the complete allowance and restoration explicit.
+The62 pinned helper differences plus owned1503 are a static information interface,
+not a source, decoder or transport implementation. Test the first required delivery
+macro and its whole paid bill before expanding to a full native.

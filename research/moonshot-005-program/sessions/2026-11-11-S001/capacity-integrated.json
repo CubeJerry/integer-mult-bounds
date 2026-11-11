@@ -1,0 +1,56 @@
+{
+  "status": "PASS_EXACT_OWNED_CUT_CAPACITY",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "cut_before_event": 36961,
+  "ranks": {
+    "public": 1479,
+    "public_plus_owned": 1480,
+    "main_on_main": 338,
+    "main_plus_owned_on_main": 344,
+    "public_on_main": 400,
+    "main_on_all": 400,
+    "owned": 26,
+    "owned_on_main": 21
+  },
+  "owned_counts": {
+    "live_at_cut": 42,
+    "peak_live": 43,
+    "allocated_labels": 51
+  },
+  "two_main_one_shared_helper": {
+    "input_dimension": 1880,
+    "public_rank": 1817,
+    "minimum_owned_recovery_fields": 7,
+    "minimum_invertible_continuation_fields": 63,
+    "deficit_at43": 20
+  },
+  "any_one_helper_bank_with_frozen_mains": {
+    "main_observation_rank": 738,
+    "helper_fields": 1080,
+    "necessary_extra_fields": 62,
+    "deficit_at43": 19
+  },
+  "without_public_side_information": 47,
+  "two_current_helper_banks_minimum": 1,
+  "independent_exact_main_kernel_vectors": 62,
+  "cochart_parking_observations": {
+    "helper_differences": 62,
+    "common_owned": 1503,
+    "extraction_INITs": 62,
+    "extraction_ADDs_into_zero_fields": 124,
+    "production_transport_and_reinjection": "unbuilt"
+  },
+  "negative_controls": [
+    "corrupted lost mode becomes publicly observable",
+    "seven owned observations miss56 complete-input directions",
+    "43 live fields and51 allocated labels both fail full fixed-prefix capacity",
+    "one current helper bank differs from two",
+    "omitted helper correction changes observation",
+    "a symbolic difference need not be a cochart ADD"
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "scope": "Exact normalized information at one cut. No physical compression, paid-price lower bound or new kappa."
+}

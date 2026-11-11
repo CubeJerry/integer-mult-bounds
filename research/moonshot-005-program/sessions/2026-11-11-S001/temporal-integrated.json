@@ -1,0 +1,41 @@
+{
+  "status": "PASS_FIXED_CHANNEL_OBSTRUCTION_AND_SWITCH_INTERFACE",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "source_path": "research/shared-wire-split-composition/data/final.json.gz",
+  "main_roles": 400,
+  "source_events": 71261,
+  "synchronized_cuts": 71262,
+  "main_move_occurrences": 1710,
+  "input_role": 1,
+  "output_role": 112,
+  "skeleton_coefficient": "-1/2",
+  "full_coefficient": "0",
+  "entry_cohort": [
+    1,
+    773
+  ],
+  "exit_cohort": [
+    112,
+    882
+  ],
+  "skeleton_block": [
+    [
+      "-1/2",
+      "0"
+    ],
+    [
+      "0",
+      "0"
+    ]
+  ],
+  "block_rank": 1,
+  "global_sign_switch_scalars": 400,
+  "global_signed_swap_adds": 1200,
+  "signed_swap_cases": 49,
+  "controls": [
+    "altered source pin",
+    "full-source replacement destroys witness",
+    "forbidden final ADD cancels numerically but has different charts"
+  ],
+  "scope": "Exact finite-source witness plus universal linear invariant proof; no H4 native or new kappa."
+}

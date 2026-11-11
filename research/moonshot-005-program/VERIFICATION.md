@@ -28,3 +28,32 @@ lead reverse-adjoint/Newton-root checks. See its INDEPENDENT-REVIEW.md.
 
 Exact outputs: sessions/2026-11-11-S001. No selected complete cold replay was
 needed or claimed; the selected supplier remains an inherited dependency.
+
+## S001 final scientific checks
+
+All reviewed author-file hashes match the integrated files. Each new critical
+claim received a separate agent's mathematical review and separately written
+source checks; the lead also derived the two-switch and endpoint-potential
+arguments. This is independent model-assisted checking, not human acceptance.
+
+| Claim | Author evidence | Independent evidence | Classification |
+|---|---|---|---|
+| BIT111(m−1) floor and q-core extension | Exact cut proof, forward source/caller census, finite lifts, tiny controls | Lead reverse endpoint matrix and separate Newton-root bill | Proved within declared normalized grammar |
+| Fixed-channel and all one/two-switch restrictions | Exact boundary block;52 sampled ranks plus rigorous whole-interval rank-loss bounds | Reverse matrix check;287 transposed modular samples and52-subset certificate | Source-bound proved obstruction, not a global ceiling |
+| Endpoint208 paid-arrival floor | Rational cohort ranks and monotone deficiency proof | Separate reverse Fraction reconstruction;105 exact frame cohorts; another agent's separate recount | Proved in declared final-correction grammar |
+| Owned capacity47/7/63/≥62 | Exact rational upper witnesses and modular lower witnesses | Independent standard-library modular/adjoint/62-kernel replay; lead reverse owned rows | Source-bound linear information theorem |
+| Coded event interface | Algebraic update identities, explicit snapshot costs, alias/COPY controls | Separate review of identities, state versions and physical owner premises | Conditional construction; witness schedule remains unbuilt |
+
+Author normal/-O receipt pairs agree. Integrated source-root executions of all
+four temporal/interface scripts and the capacity author check passed; independent
+capacity and endpoint checks passed from the committed directory layout. Scripts
+and outputs are preserved under the result packages and sessions/2026-11-11-S001.
+Primary temporal verifiers and independent capacity review require only Python's
+standard library; the optional primary capacity/modular full-review paths use
+NumPy (tested2.3.5). Historical selector replay also uses Node18+.
+
+No complete selected cold replay, physical full multiplier, human review or formal
+kernel was run or claimed. Recovery fragmentation/rechart/compiler claims remain
+unreproduced reconstruction. The H4 itinerary, actual difference delivery, source
+access, full physical tariffs, precision/compiler closure and stronger BIT remain
+open. Exact import receipts are in PROVENANCE.json; reproduction below is scoped.
