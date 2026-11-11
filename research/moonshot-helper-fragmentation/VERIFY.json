@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/moonshot-helper-fragmentation/inputs/FULL-RESULT.json",
+    "research/shared-wire-split-composition/data/final.json.gz",
+    "research/moonshot-helper-fragmentation/inputs/source-invoice.json",
+    "research/moonshot-helper-fragmentation/inputs/exact_arithmetic.py"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 90,
+      "checks": "Source-authenticated exact gate and stated controls: verify.py"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/static_cut.py"
+      ],
+      "timeout_seconds": 90,
+      "checks": "Source-authenticated exact gate and stated controls: static_cut.py"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/compiler_certificate.py"
+      ],
+      "timeout_seconds": 90,
+      "checks": "Source-authenticated exact gate and stated controls: compiler_certificate.py"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/review/fragmentation/independent.py",
+        "--source",
+        "{package}/inputs/FULL-RESULT.json"
+      ],
+      "timeout_seconds": 90,
+      "checks": "Source-authenticated exact gate and stated controls: review/fragmentation/independent.py"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/review/compiler/independent.py",
+        "--source",
+        "{package}/inputs/FULL-RESULT.json"
+      ],
+      "timeout_seconds": 90,
+      "checks": "Source-authenticated exact gate and stated controls: review/compiler/independent.py"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/review/static/independent.py",
+        "--source",
+        "{package}/../shared-wire-split-composition/data/final.json.gz"
+      ],
+      "timeout_seconds": 90,
+      "checks": "Source-authenticated exact gate and stated controls: review/static/independent.py"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify_group.py",
+        "author"
+      ],
+      "timeout_seconds": 300,
+      "checks": "Optimized Python replays for all three author gates; explicit subprocess failure propagation."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify_group.py",
+        "independent"
+      ],
+      "timeout_seconds": 300,
+      "checks": "Optimized Python replays for all three independent gates; explicit subprocess failure propagation."
+    }
+  ]
+}
