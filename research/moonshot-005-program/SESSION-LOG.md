@@ -264,3 +264,18 @@ Active-shadow census/common151 barrier are preserved as author-only WIP.
 At09:35:34 UTC upstream and programme remote were unchanged. Actual two-output
 acquisition through retimed raw-main aggregation is under construction and
 review; this checkpoint presumes no outcome. No new kappa.
+
+S003 checkpoint4 published and GitHub-confirmed at
+3656bf845089679a15530d4bbf49765fdded57b6,
+tree9c7a9ebdb009bda5aafb97333dac30ae21384d50: paused/selective loan, authentic
+interface, independent reviews and explicitly unreviewed WIP.
+
+Final constructive wave: root proposed funded aggregation of52 nonentry donors
+plus two entry contributions. Construction worker found cheaper8facet lifts;
+adversarial worker built both730/783-instruction prefixes. Bridge independently
+derived rows by reverse adjoints and replayed all1,880 inputs/reservations with
+five own mutants per variant. Root independently rebuilt full invoices using
+2^96 bounds versus bridge10^30 bounds. Actual local acquisition is now proved;
+full continuation is not. Facet remaining moment<8.8148714402760477/native; all26
+S8 observers and ordinary/compiler/supplier duties remain. CONTINUATION.md gives
+the next exact physical state/problem. No new kappa.

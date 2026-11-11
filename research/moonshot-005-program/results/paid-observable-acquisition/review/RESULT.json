@@ -1,0 +1,210 @@
+{
+  "reviewed_artifact_pins": {
+    "ACQUISITION-PREFIX.json": "f918a319b8133a2fe7ae59da97d47c2a811ee899e0b8253c61bde20c66faa98d",
+    "LIFTED-PREFIX.json": "e87e4bfcb9772b232e6c443cf2d8ee79a7de356d381eda3aa42040e5e37003c0",
+    "LIFTED-RESULT.json": "e55f2a0cd3c2e6d1c2d82a6106006805ecf37a7e4efd035850321811811e21c9",
+    "RESULT.json": "503a7a3fb1d566ac78eb2c6fd2be03476e8450c21f6957e5c618bc4ef2aec8bf"
+  },
+  "scope": "Exact finite1880-input acquisition prefixes, all1480 arbitrary common fields and400 raw differences preserved, two live owned outputs at541. No native source-clock state, S8 composition, output retirement, continuation, precision admission, or new kappa.",
+  "source_row_method": "Fresh reverse adjoints before source30824 with zero initial helper differences.",
+  "source_rows": {
+    "Mnew_delta130": {
+      "101": "-1/2",
+      "103": "-1/2",
+      "110": "1/2",
+      "129": "1/4",
+      "130": "1",
+      "131": "1/4",
+      "150": "1/4",
+      "152": "1/4",
+      "159": "1/4",
+      "17": "-1/4",
+      "19": "-1/4",
+      "20": "1/2",
+      "27": "-1/2",
+      "36": "-1/2",
+      "38": "-1/4",
+      "4": "1/2",
+      "40": "-1/4",
+      "47": "-1/4",
+      "55": "1/2",
+      "65": "1/2",
+      "68": "-1/2",
+      "7": "-1/2",
+      "77": "-1/2",
+      "81": "-1/2",
+      "87": "-1/2",
+      "96": "-1/2"
+    },
+    "r_delta1481": {
+      "101": "1/4",
+      "103": "-1/4",
+      "105": "1/4",
+      "107": "-1/4",
+      "109": "-1/4",
+      "11": "-1/4",
+      "110": "-1/4",
+      "129": "1/8",
+      "13": "1/4",
+      "131": "1/8",
+      "15": "1/4",
+      "150": "1/8",
+      "152": "1/8",
+      "159": "-1/8",
+      "164": "-1/8",
+      "17": "-1/8",
+      "172": "1/8",
+      "19": "-1/8",
+      "2": "-1/4",
+      "20": "-1/4",
+      "23": "-1/4",
+      "27": "-1/4",
+      "29": "-1/4",
+      "33": "-1/4",
+      "35": "-1/4",
+      "36": "1/4",
+      "38": "-1/8",
+      "4": "-1/4",
+      "40": "-1/8",
+      "41": "1/4",
+      "43": "1/4",
+      "44": "1/4",
+      "47": "1/8",
+      "48": "-1/4",
+      "50": "-1/4",
+      "52": "1/8",
+      "55": "-1/4",
+      "58": "-1/4",
+      "6": "1/4",
+      "60": "-1/8",
+      "62": "-1/4",
+      "65": "-1/4",
+      "68": "1/4",
+      "7": "-1/4",
+      "71": "-1/4",
+      "73": "1/4",
+      "75": "1/4",
+      "77": "-1/4",
+      "81": "-1/4",
+      "83": "1/4",
+      "85": "-1/4",
+      "86": "-1/4",
+      "87": "-1/4",
+      "89": "-1/4",
+      "9": "-1/4",
+      "91": "-1/4",
+      "94": "-1/4",
+      "96": "1/4",
+      "99": "1/4"
+    }
+  },
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_INDEPENDENT_BOTH_1880_INPUT_ACQUISITION_PREFIXES",
+  "variants": {
+    "direct": {
+      "MOVE_histogram": {
+        "1": 155,
+        "2": 32,
+        "3": 13,
+        "4": 14,
+        "5": 20,
+        "6": 1,
+        "7": 2
+      },
+      "common_rows_preserved": 1480,
+      "counts": {
+        "ADD": 487,
+        "CLEAR": 2,
+        "INIT": 4,
+        "MOVE": 237
+      },
+      "fresh_owned_labels": 3,
+      "independent_inputs": 1880,
+      "instructions": 730,
+      "live_owned_outputs": 2,
+      "negative_controls": [
+        {
+          "mutation": "wrong_owned_output",
+          "rejection": "exact1880-input observable r_delta1481"
+        },
+        {
+          "mutation": "wrong_input_difference",
+          "rejection": "all actual q preserved"
+        },
+        {
+          "mutation": "broken_reserved_route",
+          "rejection": "MOVE endpoint"
+        },
+        {
+          "mutation": "false_public_descent",
+          "rejection": "MOVE ownership"
+        },
+        {
+          "mutation": "erase_live_output",
+          "rejection": "two live owned outputs"
+        }
+      ],
+      "new_paid_MOVE_profile": {
+        "2": 2,
+        "7": 2
+      },
+      "owned_lifetimes": 4,
+      "peak_owned": 3,
+      "raw_q_rows_preserved": 400,
+      "source_routes_unexecuted": 1477,
+      "unique_source_routes_used": 233
+    },
+    "lifted": {
+      "MOVE_histogram": {
+        "1": 175,
+        "2": 41,
+        "3": 14,
+        "4": 18,
+        "5": 23,
+        "6": 1
+      },
+      "common_rows_preserved": 1480,
+      "counts": {
+        "ADD": 493,
+        "CLEAR": 8,
+        "INIT": 10,
+        "MOVE": 272
+      },
+      "fresh_owned_labels": 3,
+      "independent_inputs": 1880,
+      "instructions": 783,
+      "live_owned_outputs": 2,
+      "negative_controls": [
+        {
+          "mutation": "wrong_owned_output",
+          "rejection": "exact1880-input observable r_delta1481"
+        },
+        {
+          "mutation": "wrong_input_difference",
+          "rejection": "all actual q preserved"
+        },
+        {
+          "mutation": "broken_reserved_route",
+          "rejection": "MOVE endpoint"
+        },
+        {
+          "mutation": "false_public_descent",
+          "rejection": "MOVE ownership"
+        },
+        {
+          "mutation": "erase_live_output",
+          "rejection": "two live owned outputs"
+        }
+      ],
+      "new_paid_MOVE_profile": {
+        "1": 8,
+        "2": 2
+      },
+      "owned_lifetimes": 10,
+      "peak_owned": 3,
+      "raw_q_rows_preserved": 400,
+      "source_routes_unexecuted": 1448,
+      "unique_source_routes_used": 262
+    }
+  }
+}

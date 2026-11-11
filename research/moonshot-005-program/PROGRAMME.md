@@ -7,37 +7,42 @@ Canonical base e54523517d0f03e58352e647c403a5af3e525a57 still selects conditiona
 κ=.00363005817 through #7000/#7001. Five foundational assumptions remain.
 **No new κ.** The selected record controls over stale historical guidance.
 
-## Current frontier: lifetime closure and useful helper transport (S003)
+## Current frontier: acquired source forms and retimed continuation (S003)
 
-The preferred provisional complex reference now uses eight current identities
-and deletes every owned lifetime that has no surviving reader. Deletion then
-exposes parent lifetimes for removal. A general operational proof and an
-independent lifetime graph verify three deletion waves, all public endpoints,
-and exact route lineage. Fourteen original owned difference MOVEs disappear,
-including all four historical returns. No historical preload or decoding at
-those deleted return clocks is required.
+Two structural advances now define the programme. Late reconstruction permits
+deletion of unread owned lifetimes: the preferred eight-current reference
+removes14 owned MOVEs, including all four historical returns, and leaves26
+physical observer terms. Its provisional allowance is below20.801032491590
+per native. This remains a400-input reference, not a full shared native.
+See [lifetime closure](results/lifetime-elimination/PROOF.md).
 
-The full reference has 71,201 instructions, 26 external observer terms
-(4 main,20 helper,2 owned),47 lifetimes and peak33 owned fields. These resource
-figures describe the400-input difference reference, not an unbuilt1880-input
-shared native. Its complete provisional profile has27,344 targets,153,018 paid
-positions, rank surplus3652 and additional paid moment/native strictly below
-20.801032491590. Other helper-difference transports still need implementation
-inside the proposed shared core; all26 observations remain physical premises.
+A [literal1,880-input prefix](results/paid-observable-acquisition/PROOF.md) now
+acquires the authentic59-term relay1481 form and26-term current130 form. It
+forms and preserves all400 raw differences and leaves arbitrary common data
+unchanged. Sixty carriers consume262 funded main routes; eight facet copies
+and two rank2 descents deliver both outputs at541. The783-instruction word
+has493ADD,10INIT,8CLEAR,272MOVE,peak3 fresh owned fields and two live outputs.
+All original common-owned labels remain reserved.
 
-This is a structural change from individual return shaving: reconstruct the
-necessary late state, then erase the unused upstream dependency graph. Earlier
-four-before-return obstructions keep their exact scope and do not apply to
-removed internal demands. The fixed-calendar endpoint-only46-field theorem
-still constrains codes using its original graph; retimed codes require their
-actual new graph to be checked. See results/lifetime-elimination/ and review/.
+The [complete provisional tariff](results/relay-acquisition-budget/PROOF.md)
+charges all18 repetitions:153198 paid positions,27344 targets,rank surplus3436,
+remaining moment/native<8.8148714402760477. Ordinary, storage, precision,
+retirement and compiler fees are still needed. A730-instruction direct variant
+has fewer arrivals but higher moment. Separate reverse-source/full-input and
+exact-price reviews verify both variants.
 
-The next construction uses a paused common execution and explicitly paid remote
-restoration to make a useful helper transfer. It must preserve the original
-duties of borrowed routes or replace them honestly. Full endpoint completion,
-all ordinary costs, compatible complex/BIT suppliers and five foundations remain
-open. No new kappa. Earlier S003 S7 choices below are superseded as primary
-profiles, while their proofs and historical rationale remain valid.
+Acquisition is complete for these two forms under the changed chronology. The
+whole state at source30824 is not available, and none of the26 S8 observers is
+automatically discharged. Next: extend the actual raw state, respect262 spent
+reservations, realize all13 relay effects/current130 dependencies, and complete
+all endpoint/ownership duties. [CONTINUATION.md](CONTINUATION.md) specifies the
+first residual-demand calculation and exact available information.
+
+The restored-helper selected-endpoint loan and four-route refinement remain
+alternative verified primitives. Their costs and reserved1481 duties cannot
+be silently combined with this prefix. Fixed-calendar obstructions keep their
+original scopes. Compatible complex/BIT suppliers and all five foundations
+remain open. **No new kappa; ongoing programme, not PR-ready.**
 
 ## Evolving construction
 
@@ -162,7 +167,7 @@ updates or shadow state, full dirty-input restoration and every cost exposed.
 The four-before-return rank4/two-helper obstruction applies to prepaid14, not
 S7's retained historicalreturns. No newkappa; native/suppliers/foundations open.
 
-## Reviewed source-authentic relay milestone (S003)
+## Historical S003 relay stage, superseded by the current acquisition frontier
 
 The [paused common loan](results/paused-common-loan/PROOF.md) is an actual
 1,880-input partial construction: a helper carries q101, three reserved
@@ -178,4 +183,4 @@ owner1481 payload is r=(-A-B+M+G)/2 with59 terms, not half of151's entry row.
 The [authentic interface](results/authentic-relay-interface/PROOF.md) audits
 all13 reads through retirement40843 and provides a conditional three-record
 relay. Actual acquisition and receiver continuation are now the concrete task.
-Funded raw-main aggregation is under construction, not yet an admitted result.
+This historical stage is superseded by the reviewed acquisition prefixes above; the original conditional interface keeps its scoped meaning.

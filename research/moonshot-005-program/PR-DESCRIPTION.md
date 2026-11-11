@@ -240,3 +240,19 @@ corrects a stale snapshot before acceptance: the actual59-term1481 row has
 interface, missing-mode minor and reverse-adjoint review identify the exact
 next acquisition/continuation task. No full shared native or new kappa is
 asserted. The cumulative branch remains ongoing and not PR-ready.
+
+## Actual source-observable acquisition by funded aggregation and facet lifts
+
+The [two prefixes](results/paid-observable-acquisition/PROOF.md) acquire actual
+59-term owned1481 and26-term current130 forms from1,880 inputs, preserving
+arbitrary common data and400 rawdifferences. Preferred783-instruction variant:
+60 donors,262 reserved routes,8 rank1 copies,2 rank2 descents,2 live outputs.
+Exact ordinary/lifecycle counts, reverse-source authentication and separate
+full-input review are included. No full source-cut state is presumed.
+
+The [full tariff](results/relay-acquisition-budget/PROOF.md) charges18 repetitions:
+153198paid,27344targets,3436surplus,remaining moment/native<8.8148714402760477.
+Independent root bounds check all costs. Positive raw margin is no supplier
+admission. All26 S8 observers,13 relay consumers, retimed route duties, output
+retirement and full continuation remain explicit in [CONTINUATION.md](CONTINUATION.md).
+No new kappa. Ongoing programme, not PR-ready; no upstream PR submitted.

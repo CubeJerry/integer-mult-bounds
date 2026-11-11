@@ -187,3 +187,7 @@ S00309:35:34 UTC check: canonical main remains
 e54523517d0f03e58352e647c403a5af3e525a57; programme remote is
 50eabc441f97e2ccc4e78baf0795c70a61a78181. New relay analysis uses the pinned
 programme native; no newly opened PR or selected-certificate change is admitted.
+
+The final S003 aggregation/facet mechanism is internal to the continuing programme
+and pinned native. No unaccepted high-kappa PR supplies its missing continuation.
+Selected conditional result and all five foundations remain unchanged.

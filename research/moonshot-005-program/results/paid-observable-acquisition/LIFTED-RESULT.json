@@ -1,0 +1,102 @@
+{
+  "actual_differences_formed_and_preserved": 400,
+  "additional_row_and_copy_ADDs_beyond400_input_differences": 93,
+  "all_donors_hoisted": 60,
+  "all_nonentry_main_carriers_end_at127": 200,
+  "arbitrary_common_roles_preserved": 1480,
+  "entry_contribution_minor": "1/8",
+  "entry_donors_hoisted": 8,
+  "entry_final_facets": {
+    "129": 143,
+    "130": 144,
+    "131": 145,
+    "150": 162,
+    "152": 163,
+    "159": 170,
+    "164": 175,
+    "172": 183
+  },
+  "entry_terms": [
+    7,
+    6
+  ],
+  "exact_new_paid_moment_at_kappa_1_over_200": "8+2*2^(199/200)",
+  "independent_physical_input_directions": 1880,
+  "negative_controls": [
+    {
+      "mutation": "wrong_entry_coefficient",
+      "rejection": "mutated exact observable/input interface"
+    },
+    {
+      "mutation": "wrong_nonentry_coefficient",
+      "rejection": "mutated exact observable/input interface"
+    },
+    {
+      "mutation": "missing_input_difference",
+      "rejection": "mutated exact observable/input interface"
+    },
+    {
+      "mutation": "missing_funded_route",
+      "rejection": "typed MOVE"
+    },
+    {
+      "mutation": "false_public_descent",
+      "rejection": "typed MOVE"
+    },
+    {
+      "mutation": "omit_entry_lift",
+      "rejection": "actual cochart ADD"
+    }
+  ],
+  "new_paid_MOVE_profile": {
+    "1": 8,
+    "2": 2
+  },
+  "nonentry_contribution_minor": "-1/8",
+  "nonentry_donors_hoisted": 52,
+  "nonentry_terms": [
+    52,
+    20
+  ],
+  "owned_output_retirements_outstanding": 2,
+  "prefix_instructions": 783,
+  "prefix_sha256": "e87e4bfcb9772b232e6c443cf2d8ee79a7de356d381eda3aa42040e5e37003c0",
+  "reserved_main_MOVEs_unexecuted": 1448,
+  "reserved_main_MOVEs_used": 262,
+  "scope": "Actual1880-input acquisition prefix, two live owned outputs at541; common data unchanged. Consumes exact raw-main reservations and changes chronology. No complete joint native, receiver continuation, uniform supplier, or new kappa.",
+  "source_row_l1_norms": [
+    "13",
+    "11"
+  ],
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_ACTUAL_TWO_OBSERVABLE_ACQUISITION_VIA_FACET_LIFTS",
+  "target_roles": [
+    1481,
+    130
+  ],
+  "target_source_cut_before_event": 30824,
+  "target_supports": [
+    59,
+    26
+  ],
+  "typed_bill": {
+    "MOVE_histogram": {
+      "1": 175,
+      "2": 41,
+      "3": 14,
+      "4": 18,
+      "5": 23,
+      "6": 1
+    },
+    "counts": {
+      "ADD": 493,
+      "CLEAR": 8,
+      "INIT": 10,
+      "MOVE": 272
+    },
+    "live_owned_outputs": 2,
+    "owned_labels_used": 3,
+    "owned_lifetimes": 10,
+    "peak_owned": 3
+  }
+}

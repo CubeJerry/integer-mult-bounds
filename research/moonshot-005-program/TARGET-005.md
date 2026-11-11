@@ -182,7 +182,7 @@ full acquisition, not funded retiming; weighted-price optimality is unclaimed.
 Raw-q formation and every other physical/compiler fee remain additional.
 Proof and independent review: results/initial-preprocessing/.
 
-## S003 current provisional profile
+## Earlier S003 seven-current profile, superseded by lifetime closure
 
 S7 retains four historical returns and current events 33272,33281,37606.
 Removed events are 28169,33558,34479,39217,40094,40096,41758. From
@@ -254,3 +254,25 @@ U=M-B+G-q130/2 and W=M+B+q130/2 give r=(U-b)/2,M_new=W+b. Fifty U coordinates
 are absent from the fixed granted graph; this is not fifty jobs. The absent
 q7,q4 restriction of U,W has determinant-1/2. Retimed acquisition must supply
 real fields and preserve the remaining main/receiver duties.
+
+## Actual retimed acquisition: current budget
+
+Both prefixes now have independently checked physical words on1,880 inputs.
+For new per-native profile H, the full tariff is P_H=P8+18H,T_H=T8. At199/200:
+
+| Variant | H | Paid | Targets | Rank surplus | Added moment/native | Remaining moment/native |
+|---|---|---:|---:|---:|---:|---:|
+| Direct |{7:2,2:2}|153090|27344|3328|17.8506078461061104…|2.9504246454814085…|
+| Facet (preferred) |{1:8,2:2}|153198|27344|3436|11.9861610513114713…|8.8148714402760476…|
+
+Rational brackets and all histograms: results/relay-acquisition-budget/. The
+facet word has783 instructions,493ADD(including400 input differences),10INIT,
+8CLEAR,262 reserved main MOVEs and10 new MOVEs. Two outputs remain live. Direct
+has730 instructions,487ADD,4INIT,2CLEAR,233 reserved main MOVEs and4 new MOVEs.
+Neither is a full native; none of the26 S8 observers is discharged automatically.
+Retirement, final recoupling and ordinary/compiler/precision costs remain.
+
+Facet permits at most8 further positive-rank arrivals before other fees; one
+rank9 fails. Direct permits at most2; rank3 or two paused-loan rank2 repairs fail.
+Facet saves5.8644467947946390… moment but uses6 more calls: no full scalar/storage
+dominance. Recompute information bounds on its actual changed graph.

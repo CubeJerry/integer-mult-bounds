@@ -133,3 +133,19 @@ python3 -B "$P/authentic-relay-interface/review/review.py" --source "$S" --autho
 The selective-refinement review command is in its review/REVIEW.md. Frozen
 normal/-O receipts and pins accompany each implementation. The source relay
 review checks a conditional input interface, not actual acquisition.
+
+## Actual acquisition and full target prices
+
+```sh
+P=research/moonshot-005-program/results
+S=research/shared-wire-split-composition/data/final.json.gz
+python3 -B "$P/paid-observable-acquisition/review/review.py" --repository . --package "$P/paid-observable-acquisition" --output /tmp/acquisition-review.json
+python3 -B "$P/relay-acquisition-budget/verify.py" --repository . --lifetime "$P/lifetime-elimination" --source-rows "$P/authentic-relay-interface/review/SOURCE-ROWS.json" --output /tmp/acquisition-budget.json
+python3 -B "$P/relay-acquisition-budget/review/review.py" --source "$S" --invoice research/shared-core-target-obligations/INVOICE-RESULT.json --lifetime-word "$P/lifetime-elimination/eight.json.gz" --author "$P/relay-acquisition-budget" --output /tmp/acquisition-budget-review.json
+```
+
+Expected PASS_INDEPENDENT_BOTH_1880_INPUT_ACQUISITION_PREFIXES,
+PASS_TWO_ACQUISITION_TARGET_BUDGETS and
+PASS_INDEPENDENT_DYADIC_RELAY_ACQUISITION_BUDGET. Normal/-O receipts are frozen.
+Acquisition proofs and conditional paid invoices have distinct scopes; neither
+is a complete shared multiplication bound.

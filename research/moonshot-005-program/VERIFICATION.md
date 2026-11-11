@@ -224,3 +224,24 @@ It confirms50 absent coordinates, minor-1/2 and both stale-version controls,
 and pins all8 author files. Actual input acquisition/receiver continuation
 are not established by this conditional prefix. Evidence in the three result
 packages and their separate review/ directories. No new kappa.
+
+## Actual prefixes and full acquisition prices (S003)
+
+Both730/783-instruction prefixes passed separate reverse-adjoint source derivation
+and literal1,880-input rational replay:1480 common rows/charts,400 rawdifferences,
+2 owned outputs at541,233/262 unique reservations, all operation/lifecycle counts,
+five independent mutants each. All13 author files pinned; normal/-O agree.
+Design origin and independent implementation review are credited separately.
+
+Both full price profiles are reconstructed from original/S8 owned MOVE censuses
+and H4 invoice, charging each new call18 times. Author10^30 integer-root bounds
+and root2^96 binary brackets independently agree on every rank bin/count/margin.
+Negative controls reject direct+two rank2 repairs, direct+rank3, facet+rank9.
+All5 author files pinned. Integrated-path author and independent commands pass.
+
+A harmless extra EOF blank line in the frozen authentic-relay review script is
+reported by diff --check; its scientific hashes are deliberately preserved. No
+mathematical/execution error is associated with it. No formal kernel/human review,
+complete uniform supplier or newkappa is claimed.
+
+The separate construction-worker forward source audit also passed: source rows, entry/nonentry minors1/8 and-1/8, final facets and exact operational interface agree with the bridge reverse-adjoint review. Its four files and13 author pins are preserved in paid-observable-acquisition/review-source/. The pre-existing independent forward interpreter is pinned explicitly; its new reproduction receipt matches byte for byte. This audit does not claim independent discovery of the facet variant.

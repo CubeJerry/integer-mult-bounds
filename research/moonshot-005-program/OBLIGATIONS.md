@@ -1,6 +1,6 @@
 # Proof obligations
 
-Each status is scoped to its proposition, not the whole hopeful architecture.
+Each status is scoped to its proposition. STATE.json and the final current-frontier section govern active work; earlier sections preserve the sequence of proved reductions and superseded obligations.
 
 | ID | Proposition / quantifiers | Dependencies | Status; next step |
 |---|---|---|---|
@@ -169,7 +169,7 @@ Historical before-return observation obligations are legitimately removed by the
 new word, not declared solved at their former clocks. This distinction is why
 PRELOAD-FULL and RETURN-DEADLINE-4 remain valid without obstructing this variant.
 
-## S003 source-authentic relay update
+## Historical S003 relay interface before actual acquisition
 
 - PAUSED-ENDPOINT: PROVED for every admitted field volume and all1,880 inputs:
   literal partial word preserves E(u), completes the selected second endpoint
@@ -190,3 +190,24 @@ PRELOAD-FULL and RETURN-DEADLINE-4 remain valid without obstructing this variant
 
 Unreviewed active-shadow and immediate cochart-restoration evidence is under
 wip/ with explicit status files; it does not extend the verified dependency graph.
+
+## Current frontier: acquisition proved, continuation open
+
+RELAY-ACQUIRE is now PROVED for the new typed interface and every admitted V/input:
+actual r,M_new at541, all common inputs and400 rawq preserved. Direct uses233
+funded occurrences plus{7:2,2:2}; Facet uses262 plus{1:8,2:2}. Both leave2 owned
+outputs. Independent reverse-source/full1,880-input replay is in
+results/paid-observable-acquisition/review/. Physical transport assumptions
+remain; the whole source-cut state is not constructed.
+
+RELAY-TARGET-BUDGET is PROVED conditional arithmetic: all calls charged18 times,
+Facet allowance<8.8148714402760477/native, Direct<2.9504246454814086. Decimal and
+dyadic exact-root methods independently agree; see results/relay-acquisition-budget/.
+
+RELAY-CONTINUATION is OPEN, primary: for all1,880 inputs/admitted V, extend the
+actual facet state to required shared endpoints, correct ownership and exact
+paid reservations. None of the26 S8 observers is discharged merely by these two
+forms. Recompute residual endpoint knowledge, then implement all13r effects and
+current130 continuation or their entire endpoint-equivalent replacement.
+CONTINUATION.md specifies262 spent/1448 remaining main occurrences and rank2
+owned knowledge. H4-COMP, BIT-NEW, uniform suppliers and foundations remain open.
