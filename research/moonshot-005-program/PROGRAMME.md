@@ -7,43 +7,42 @@ Canonical base e54523517d0f03e58352e647c403a5af3e525a57 still selects conditiona
 κ=.00363005817 through #7000/#7001. Five foundational assumptions remain.
 **No new κ.** The selected record controls over stale historical guidance.
 
-## Current frontier: controlled helper signals and terminal restoration (S004)
+## Current frontier: recoverable common-mode modulation (S004)
 
-The new [difference-carrier interface](results/difference-carrier/PROOF.md)
-uses two cochart ADDs to replace helper h by q and retain delta=q-h in the raw
-donor. Given actual source-safe delivery, terminal-supported common response
-and recovery rows, cochart corrections restore every common input and donor.
-Real stationary snapshots implement later controls along funded routes.
-Multiple loans restore donors in reverse chronological order, with exact
-cross-loan coefficients and no auxiliary inverse or recovery temporary.
-Four typed illustrative networks and independent review establish these
-claims; they are not useful crossing witnesses for the frozen native.
+The construction now chooses a cochart common mode r(u), retains
+delta=q-r(u) along the donor's remaining funded route, and uses joint controls
+and actual receiver observations. The [recoverable-encoder criterion](results/recoverable-encoder/PROOF.md)
+reduces this interface to Z_R B K != 0. Here R intersects encoder cochart
+rows with terminal recovery rows, K spans neutral controls, and Z_R selects
+histories whose common part belongs to R. This includes the [joint additive
+criterion](results/joint-modulation/PROOF.md) as R=0 and extends the
+[difference carrier](results/difference-carrier/PROOF.md). Physical records,
+history collection, normalization and restoration are all charged. No
+positive native generalized-encoder certificate is yet established.
 
-The immediate task is one real source control/observation certificate, followed
-by a complete1880-input word and composition of enough independent deliveries.
-Baseline rowspace membership alone does not establish perturbed signal gain.
+There is now a [real source observation](results/active-helper-observation/PROOF.md):
+31 individual gain identities and a literal73378-instruction1880-input77-to189
+word adding7ADD and noMOVE/lifetime.372local corrections restore the hub and
+donor but leave60offhub common errors;400recouplings and other raw-native
+duties remain owed. The [103-case dual theorem](results/itinerary-control-obstruction/PROOF.md)
+excludes every selected prescribed helper pulse's repair by arbitrary future
+donor-suffix controls, even with free caches and feedback. Jointly chosen
+initial controls and different recoverable modes are outside that theorem.
+This is the reason for broadening the construction.
 
-Two verified barriers guide this construction. The [terminal theorem](results/terminal-hub-export/PROOF.md)
-excludes affordable continuation of unchanged S003 prefixes:52 independent
-modes reach chart127, which has no original outgoing route; only rank2 is
-outside, requiring50 new exports. Local acquisition remains valid. The
-[static cut](results/static-history-obstruction/PROOF.md) grants all raw
-histories and arbitrary main/owned/quiet reuse, yet separates46 endpoint modes
-behind220 charts. Informative nonquiet helper traffic or a new interface is
-necessary;399 candidate source crossings are not implementations.
+Earlier verified constraints still apply. Unchanged S003 prefixes require50
+terminal exports. The220-chart static cut separates46 modes even with full
+raw histories. Without acquisition the conditional S8 ledger allows20 new
+complete calls and requires26 informative original crossings; Facet/Direct
+instead require36/42. No acquired forms are free. Initial-helper substitution
+is excluded on the fixed word. These are distinct scoped bounds, not additive
+costs or global impossibility claims.
 
-The redesign omits the failed acquisitions. Under the conditional S8 ledger,
-headroom20.801032491587519 permits at most20 new complete calls and still
-requires26 informative original crossings. The [budget corollary](results/static-history-obstruction/S8-BUDGET-COROLLARY.md)
-distinguishes this from36/42 after the paid Facet/Direct alternatives. No forms
-are acquired for free. The [initial-helper theorem](results/initial-helper-annihilation/PROOF.md)
-excludes the simpler initial substitution family on every required receiver
-history; midrun changes remain outside that scope.
-
-S8's26 observers or a proved whole endpoint-equivalent replacement remain
-open. All scalar/storage/precision, erasure, compiler and recursive costs,
-compatible complex/BIT suppliers and five foundations remain explicit.
-[CONTINUATION.md](CONTINUATION.md) defines the next task.
+Next: authenticate a nonzero encoded source channel, lower and restore it,
+then compose enough independent deliveries. S8's26 observers or a whole
+endpoint replacement, ordinary/storage/precision/erasure/compiler and
+recursive costs, both suppliers and all five foundations remain open.
+[CONTINUATION.md](CONTINUATION.md) specifies the next test.
 **No new kappa; ongoing programme, not PR-ready.**
 
 ## Evolving construction
@@ -186,3 +185,5 @@ The [authentic interface](results/authentic-relay-interface/PROOF.md) audits
 all13 reads through retirement40843 and provides a conditional three-record
 relay. Actual acquisition and receiver continuation are now the concrete task.
 This historical stage is superseded by the reviewed acquisition prefixes above; the original conditional interface keeps its scoped meaning.
+
+The final [220-chart history theorem](results/joint-additive-history-obstruction/ADMISSION.md) also excludes every q77-only additive code for77-to189 throughout that station set, even with all receiver histories and no endpoint-neutrality requirement. This makes the nonzero-R encoder distinction consequential. It does not include an external q-bearing aggregate or common-input-dependent replacement.

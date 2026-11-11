@@ -328,3 +328,26 @@ term, all endpoint/recovery and cross-loan coefficients, and real snapshots.
 A snapshot costs INIT, ADD, CLEAR, an owned lifetime and storage. Four checked
 networks establish the interface, not a frozen-native implementation or complete
 physical price. Changed targets or reservations require a new full invoice.
+
+## S004 recoverable-mode gate and complete remaining costs
+
+The73378-instruction source observation adds7ADD and noMOVE/lifetime, but
+372local corrections leave60offhub errors and400recouplings remain owed.
+This is not a completed shared-native price. All31 fixed helper pulses are
+among103 exact exclusions of arbitrary future donor-suffix repair.
+
+For R=row(E) intersect row(W_T), K=ker A and Z_R=leftnull(F0 L), with L
+spanning the annihilator of R, exact feasibility is Z_R B K != 0. Its rank
+equals rank([[A,0],[B,F0 L]])-rank(A)-rank(F0 L). This is necessary and
+sufficient for the stated linear interface, not source existence or price.
+Controls occur only at admitted post-encoder stations; A includes all guards.
+
+For e encoder terms,c controls,d observations,s donor snapshots,J receiver
+accumulators,t terminal corrections,l recovery terms, lowering adds
+e+c+d+s+J+t+l ADDs, s+J INITs/CLEARs, and no new MOVE beyond the supplied
+distinct-carrier routes. Coefficient admission, precision, actual storage,
+erasure, preparation, input conversion and final recoupling remain costs.
+Recompute the entire18-copy invoice for a new native. The20-call/26-crossing
+necessary baseline budget remains unchanged; no complete new kappa follows.
+
+The220-chart additive-history certificate excludes an unchanged-q baseline alternative for77-to189 even before neutral endpoints or pricing are required. It does not exclude recoverable common-mode replacement. A new source test must retain that distinction and cannot discard an externally supplied q-bearing aggregate as independent noise.

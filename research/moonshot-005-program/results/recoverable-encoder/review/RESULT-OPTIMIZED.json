@@ -1,0 +1,260 @@
+{
+  "cases": [
+    {
+      "A": [],
+      "B": [
+        [
+          1
+        ]
+      ],
+      "F0": [
+        [
+          1
+        ]
+      ],
+      "R_basis": [
+        [
+          "1"
+        ]
+      ],
+      "annihilator_columns": [
+        []
+      ],
+      "encoder_rows": [
+        [
+          1
+        ]
+      ],
+      "name": "strict_scalar_encoder",
+      "normalized_witness": {
+        "beta": "1",
+        "c": [
+          "1"
+        ],
+        "d": [
+          "1"
+        ],
+        "r": [
+          "1"
+        ]
+      },
+      "projected_left_null_basis": [
+        [
+          "1"
+        ]
+      ],
+      "rank_excess": 1,
+      "terminal_rows": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "A": [],
+      "B": [
+        [
+          1
+        ]
+      ],
+      "F0": [
+        [
+          1,
+          0
+        ]
+      ],
+      "R_basis": [],
+      "annihilator_columns": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "encoder_rows": [
+        [
+          1,
+          0
+        ]
+      ],
+      "name": "unavailable_terminal_mode",
+      "normalized_witness": null,
+      "projected_left_null_basis": [],
+      "rank_excess": 0,
+      "terminal_rows": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "A": [],
+      "B": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "F0": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "R_basis": [
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "annihilator_columns": [
+        [
+          "1"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "encoder_rows": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "name": "recoverable_sum_mode",
+      "normalized_witness": {
+        "beta": "2",
+        "c": [
+          "1/2"
+        ],
+        "d": [
+          "1",
+          "1"
+        ],
+        "r": [
+          "1",
+          "1"
+        ]
+      },
+      "projected_left_null_basis": [
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "rank_excess": 1,
+      "terminal_rows": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "A": [
+        [
+          1
+        ]
+      ],
+      "B": [
+        [
+          1
+        ]
+      ],
+      "F0": [
+        [
+          1
+        ]
+      ],
+      "R_basis": [
+        [
+          "1"
+        ]
+      ],
+      "annihilator_columns": [
+        []
+      ],
+      "encoder_rows": [
+        [
+          1
+        ]
+      ],
+      "name": "neutrality_still_required",
+      "normalized_witness": null,
+      "projected_left_null_basis": [
+        [
+          "1"
+        ]
+      ],
+      "rank_excess": 0,
+      "terminal_rows": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "A": [],
+      "B": [
+        [
+          0
+        ]
+      ],
+      "F0": [
+        [
+          1
+        ]
+      ],
+      "R_basis": [
+        [
+          "1"
+        ]
+      ],
+      "annihilator_columns": [
+        []
+      ],
+      "encoder_rows": [
+        [
+          1
+        ]
+      ],
+      "name": "no_observation_response",
+      "normalized_witness": null,
+      "projected_left_null_basis": [
+        [
+          "1"
+        ]
+      ],
+      "rank_excess": 0,
+      "terminal_rows": [
+        [
+          1
+        ]
+      ]
+    }
+  ],
+  "negative_controls": [
+    "Using row-space sum instead of intersection falsely admits unavailable terminal mode",
+    "Ignoring Ac=0 falsely admits forbidden pulse",
+    "Zero observation response cannot decode q",
+    "Multiplying by beta instead of dividing fails exact unit signal",
+    "Unchanged-q additive scalar interface has no noise-canceling decoder"
+  ],
+  "reviewed_author_sha256": "4c716975ebad0a89f49886f0c3bf770f1aa832143636f5dc4775e7e73f8474c0",
+  "scope": "Independent exact small-matrix controls and proof review; no source witness, coefficient-admission theorem or new kappa.",
+  "status": "PASS_INDEPENDENT_RECOVERABLE_ENCODER_CONTROLS"
+}

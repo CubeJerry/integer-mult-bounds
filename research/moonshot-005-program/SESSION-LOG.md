@@ -359,3 +359,25 @@ permits20 new calls and still requires26 informative original crossings; paid
 Facet/Direct constraints remain36/42. Prices and floor arithmetic were checked
 independently. Source control/decoder searches continue. No new kappa. The
 resulting checkpoint SHA is recorded later to avoid self-reference.
+
+S004 checkpoint2 was GitHub-confirmed at
+fd355b9cbe9b3b7c2d58c43cc155947a287cc340,
+tree0474534e1a599e832f4be9c3ffc5439479d8ba40. Integrity:80imports,
+475scientificfiles,257reviewed author pins,3direct source pins.
+
+Final research wave:31 source-authentic gain observations, including a real
+73378-instruction1880-input77-to189 word with7newADD/noMOVE or lifetime.
+Separate full-input replay verifies source order, reservations and431-row
+response.372hub corrections leave60offhub errors;400recouplings are owed.
+All selected pulses belong to103 exact exclusions of future donor-suffix
+repair, independently checked by offline source-location/adjoint interval
+joins. These exclude fixed pulses, not different encoders or joint initial
+controls. The architecture broadens to recoverable common modes and joint
+controls: exact criteria Z B K and Z_R B K, complete physical lowering,
+independent proof reviews, an18-instruction joint toy and five encoder matrix
+controls. No native nonzero-R witness is established. Next: source-authenticate
+that test and lower a positive witness or preserve its exact scoped dual.
+The resulting commit SHA is recorded in the later handoff, avoiding
+self-reference. No new kappa and no upstream PR.
+
+A final bounded independent review admits the220-chart joint-additive history obstruction for77-to189. It authenticates the entire nine-relation nullspace of1065 observations and all-time station insensitivity without endpoint-neutrality restrictions. Generalized recoverable encoders remain open; extra q-bearing side channels are outside this obstruction. The original pending-review prose remains frozen and is superseded by ADMISSION.md.

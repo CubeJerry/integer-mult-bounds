@@ -239,3 +239,41 @@ was developed within this programme. Its four examples are explicitly separate
 networks; no external construction was silently imported. Earlier upstream
 allocation and connector leads retain their recorded admission status. The
 selected canonical kappa remains unchanged at this checkpoint.
+
+The source observations, pulse duals and joint/recoverable-mode criteria are
+S004 programme contributions. No open external PR is promoted to a supplier
+or used to erase their restoration, uniformity or price obligations. Canonical
+pins remain distinct from programme commits; external leads retain their
+recorded status.
+
+## S004 final targeted refresh at13:12 UTC
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57 and selected
+conditional kappa .00363005817. Newly updated metadata and the following PR
+bodies were read; no proof/verifier admission or source merge is claimed.
+
+- [#7244](https://github.com/CrocSwap/integer-mult-bounds/pull/7244), open
+  head215f67247f395c0e15f5ea3980f6a3e4aed155af, Clear1nsight: proposes
+  conditional .003645372367832 using two funded rank-one exits and cancellation
+  across two distinct cuts on its #7161 native. Its claimed full17-stage invoice
+  and five retained assumptions are distinct from this programme's18-copy
+  shared-core invoice. Potential source of a changed-access mechanism, not an
+  admitted generalized encoder or .005 supplier. Do not substitute its
+  reported packing ceiling for an algorithm. Predecessor and @CubeJerry
+  temporal credit remain in its body.
+- [#7256](https://github.com/CrocSwap/integer-mult-bounds/pull/7256), open
+  head032216617c70a30e785d809795f16af2f34d60fe, Nick Petalas: proposes a
+  dense-bypass rank/energy inequality for flat Gaussian fusion under bounded
+  adapter norms. Coordinate-matrix rank differs from recursive axis rank.
+  No actual shared-native bypass or cost invoice is supplied; applying the
+  local theorem would first require matching its operator/norm contract.
+- [#7258](https://github.com/CrocSwap/integer-mult-bounds/pull/7258), open
+  head90a63fbefcf79c3e0c0453ef0741dff8517b6167, ToikY: reports a selected-BIT
+  fixed-endpoint stock obstruction, with523 unmarked payloads held fixed.
+  Different scope from the programme's earlier selector floor; no new BIT
+  supplier or foundational discharge follows. Aggregate changes to unmarked
+  payloads remain a possible future interface.
+
+These developments do not supersede the current recoverable-mode construction
+or its source restoration gap. They are selective external leads, not a
+complete review of all newly opened packages. No upstream PR was submitted.

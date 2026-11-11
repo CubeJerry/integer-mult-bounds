@@ -1,37 +1,48 @@
-# Current construction: controlled helper signals before terminal deposition
+# Next construction: a recoverable common-mode source channel
 
-**Next obligation, not a completed native or new kappa.** The unchanged S003
-prefixes require50 new exports under retained geometry. Their original
-continuation specification is preserved in sessions/2026-11-11-S004/.
+**Primary obligation remains open. No new kappa.** Resume from remote HEAD
+and STATE, preserving all source pins and scoped negative results.
 
-The verified difference-carrier interface executes Q-=H; H+=Q at a genuine
-cochart cut, leaving H=q and Q=delta=q-h. Q follows funded main routes,
-optionally seeding actual stationary owned snapshots. Source controls inject
-multiples of delta. Given terminal-supported common response, source guards
-and recovery rows, cochart corrections restore common outputs and donors.
-Multiple loans restore donors in reverse chronological order. Four typed
-examples establish this interface; no useful frozen-native crossing is yet
-admitted. Initial-helper substitution has been excluded on the fixed word.
+At an actual encoder cut, collect cochart common rows E and terminal common
+rows W_T. Form R=row(E) intersect row(W_T). Choose actual later controls
+only on the donor's remaining unused route; earlier stations cannot receive
+delta for free. A contains off-terminal endpoint and COPY-guard responses,
+B the responses in genuine receiver histories F0. Let K span ker A, L span
+the annihilator of R, and Z_R span leftnull(F0 L). Feasibility is Z_R B K != 0.
 
-The single next step is an actual source control/decoder witness: exact cut,
-donor/receiver roles, observation versions and gains, control clocks, COPY-zero
-guard, endpoint/recovery rows, consumed reservations, lifetimes, and a full
-1880-input typed replay. Baseline rowspace membership does not establish
-perturbed signal gain. After one witness, prove composition of enough
-independent deliveries and calculate the complete physical invoice.
+First test donor77, receiver189 at chart71 before29098, allowing all locally
+recoverable common modes and jointly chosen controls. Do not prescribe the
+old helper287 pulse: its entire future itinerary repair is already excluded.
+A nonzero entry supplies c,d,r=dF0, encoder/recovery coefficients and a unit-q
+decoder. A zero matrix excludes only the authenticated family; preserve an
+exact dual and change an explicit interface rather than claiming impossibility.
 
-Current tests include later compensation and historical noise cancellation.
-An exploratory additive variant keeps raw q unchanged, injects it into common
-states, recovers it from a zero-baseline history relation, and cancels common
-endpoint effects at the terminal chart. It needs its own source certificate.
+The physical word must encode Q=q-r(u), leave actual stationary delta records
+on remaining funded routes, apply source-safe controls and collect histories
+at their actual times. A distinct receiver uses its still-unused route.
+Correct common terminal outputs while Q=delta, then recover Q from restored
+endpoints. Charge encoder/control/decoder/recovery work, labels, lifetimes,
+storage, erasure, preparation, input conversion and final recoupling. Replay
+all1880 inputs and reservations. A matrix witness alone is not a native.
+See results/recoverable-encoder/ and its two independent mathematical reviews.
 
-A redesign meeting the conditional S8 profile without acquisition has headroom
-20.801032491587519/native and at most20 new complete calls. The static cut still
-requires26 informative original crossings. Paying Facet first leaves eight
-calls and needs36 such crossings; Direct leaves two and needs42. No forms are
-acquired for free. These are necessary conditions, not sufficient constructions.
+Do not repeat completed work:31 native decoders have actual nonzero gains.
+The77-to189 partial word has73378instructions and7newADD but60offhub common
+residuals after372hub corrections;400recouplings remain owed. All31 chosen
+pulses are among103 whose future donor-itinerary control spaces cannot repair
+them. Other encodings, joint initial controls, changed access and recoding
+the common native remain open.
 
-Common47 owned and retained second-owned33 have different duties;14 deleted
-occurrences are not credits. Scalar work, snapshots, storage, precision,
-erasure, compiler, full recursion, S8's26 observers or a proved whole endpoint
-replacement, both compatible suppliers and five foundations remain open.
+Conditional S8 without acquisition allows20.801032491587519/native: at most20
+new complete calls and at least26 informative original crossing units.
+Facet-first allows8/requires36; Direct-first allows2/requires42. Common47
+and second-owned33 have different duties;14deleted occurrences are not credits.
+One channel does not prove independent composition or target feasibility.
+S8's26 observers or a whole endpoint replacement, full recursion, compatible
+complex/BIT suppliers and all five foundational assumptions remain explicit.
+
+The entire unchanged-q additive family for77-to189 within the220-chart
+station set is now excluded by a complete nine-relation history certificate,
+even without endpoint neutrality. Do not repeat that search. Nonzero-R
+encoders or changed access/processing are the next explicit interfaces;
+an external q-bearing aggregate is not covered by that obstruction.

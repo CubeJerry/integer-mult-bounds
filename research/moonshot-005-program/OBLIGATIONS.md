@@ -247,3 +247,18 @@ is ACTIVE-HELPER-ENDPOINT, not the already solved acquisition task.
 
 S8's26 observers or a proved whole endpoint-equivalent replacement remain
 explicit. Current source probes are unadmitted until their separate reviews.
+
+## Latest S004 obligations: observations and recoverable encoders
+
+| ID | Exact scope and evidence | Status / missing step |
+| --- | --- | --- |
+| ACTIVE-OBSERVATION | All admitted V and1880 independent inputs;31 gain identities, real history lowering and the literal77-to189 word. [Proof](results/active-helper-observation/PROOF.md), [review](results/active-helper-observation/review/REVIEW.md). | PROVED partial construction.60offhub errors,400recouplings and other native duties remain. |
+| PRESCRIBED-PULSE-103 |103 explicit event/donor pairs; every nonzero prescribed pulse survives in an offterminal functional under all future donor-suffix controls, mixing and feedback. [Proof](results/itinerary-control-obstruction/PROOF.md), [review](results/itinerary-control-obstruction/review/REVIEW.md). | PROVED scoped obstruction, includes all31 selected observations. Different initial encoders/controls/access excluded from scope. |
+| JOINT-MODULATION | Every finite fixed linear interface: additive neutral channel iff Z B K != 0, exact block-rank excess. [Proof](results/joint-modulation/PROOF.md), [review](results/joint-modulation/review/REVIEW.md). | PROVED criterion and18-instruction typed toy; no native positive witness. |
+| RECOVERABLE-ENCODER | R=row(E) intersect row(W_T), encoded delta=q-r(u); channel iff Z_R B K != 0. [Proof](results/recoverable-encoder/PROOF.md), [review](results/recoverable-encoder/review/REVIEW.md). | PROVED linear criterion; physical lowering conditional on explicit source/route/coefficient premises. No native witness. |
+| RECOVERABLE-ENCODER-SOURCE | Authenticate E/W_T/F0 and post-encoder A/B, produce a nonzero criterion and fully restored1880-input word, then compose enough independent crossings. | OPEN, primary. Start77-to189 before29098 with all recoverable cochart modes, not fixed helper287. |
+
+CONTROLLED-SOURCE-WITNESS is refined, not discharged. All earlier results,
+H4-COMP, stronger compatible BIT/complex, recursion and foundations remain.
+
+ADDITIVE-HISTORY-220 is PROVED for77-to189: all1065 receiver observations have rank1056; nine complete relations annihilate q77-only controls at every cut of every220 station chart. Independent full-input/simultaneous-adjoint review is in results/joint-additive-history-obstruction/review/. No endpoint-neutrality condition is needed. Extra correlated side information, nonzero-R replacement and changed common processing are outside scope. Author pre-review text is superseded by ADMISSION.md.

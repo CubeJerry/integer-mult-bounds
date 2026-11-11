@@ -305,3 +305,29 @@ witness and its full composition/price remain missing. All source pins, tests,
 reviews and limitations are in the packages. Credit @CubeJerry, predecessor
 authors and S004 workers; OpenAI assistance disclosed. **No new kappa; not
 PR-ready.**
+
+## Native observations, repair exclusions and recoverable encoders
+
+[31 actual observation identities and a literal1880-input partial word](results/active-helper-observation/PROOF.md)
+deliverq77toq189 with7newADD/noMOVE or lifetime.372hub corrections leave60
+explicit offhub errors and400recouplings remain owed. A separately reviewed
+[103-case dual theorem](results/itinerary-control-obstruction/PROOF.md) excludes
+every selected prescribed pulse's future donor-itinerary repair, including
+arbitrary later mixing, feedback and caches. Different initial encodings or
+additional access remain open.
+
+The [joint criterion](results/joint-modulation/PROOF.md) and [recoverable-mode
+criterion](results/recoverable-encoder/PROOF.md) provide the next construction:
+retain delta=q-r(u), with r locally available and terminal-recoverable.
+The exact finite interface is feasible iff Z_R B K != 0. Quotient rank proves
+the test; stationary records, accumulation, normalization, restoration and
+boundary costs are explicit. An18-instruction toy separates joint from
+individual neutrality. No positive native generalized encoder is asserted.
+
+Independent source/typed-column implementations, normal/-O receipts and
+negative controls accompany admitted results. Credit @CubeJerry, original
+native authors and S004 workers; OpenAI assistance disclosed. Full suppliers,
+precision/compiler/storage/erasure, recursion and five foundations remain.
+**No new kappa; ongoing programme, not a submission-ready PR.**
+
+The [220-chart history obstruction](results/joint-additive-history-obstruction/ADMISSION.md) further excludes every joint q-only additive code for77-to189 in its stated fixed-baseline observation interface. Separate full-input and all-cut adjoint verification establishes the complete nine-relation certificate. Common-input-dependent encoders and correlated external side channels remain outside scope. This is a cohesive obstruction motivating the broader encoder, not a global multiplication lower bound.

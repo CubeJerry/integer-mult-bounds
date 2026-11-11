@@ -298,3 +298,25 @@ receipts. Only the reviewer README script path was corrected on integration.
 The S8 corollary retains all18 repetitions and exact reviewed source fractions.
 Its separate bridge review verifies the floor argument and26 baseline versus
 36/42 paid-acquisition bounds. No native crossing, supplier or kappa follows.
+
+## S004 final source/control and encoder review
+
+Active-helper review separately replays1480 common/31response columns and
+the1880-input physical word:31gains, COPY,73378instructions,1710unique raw
+reservations,431response rows,372hub corrections and60remaining outside errors.
+Formal simultaneous response columns do not claim module composition.
+The103-case reviewer joins independently built forward lifetime/location
+intervals with reverse adjoint intervals for every permitted future cut.
+All58departures/33functionals pass; adding each departure destination breaks
+the zero-control premise. Normal/-O receipts agree in both packages.
+
+Joint-modulation review reconstructs the18-instruction five-input toy, pulse
+matrices, quotient-rank proof and four controls. Distinct carriers and
+separately charged conversions/recouplings were clarified before freezing.
+Recoverable-encoder has two separate mathematical derivations and five exact
+matrix controls, preserving the remaining-route restriction. Root integrated
+reruns match frozen receipts. Only reproduction paths in reviewer prose were
+corrected; reviewed author proofs/certificates/words are byte-preserved.
+These are independent model-assisted reviews, not human/formal acceptance.
+
+Final bounded review: a separate1480-input replay reconstructs1065 histories/rank1056 and the complete nine-dimensional left nullspace. A fresh simultaneous nine-component reverse pass checks142524 cuts against every live nonzero role at all220 stations. Normal/-O receipts match; altered relation and added chart3 control expose scope. The reviewer imports no author verifier. Correlated q-bearing side information is explicitly excluded from the interface.
