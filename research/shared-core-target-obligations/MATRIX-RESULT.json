@@ -1,0 +1,58 @@
+{
+  "status": "PASS_INDEPENDENT_INTEGER_MATRIX_REPLAY",
+  "tested_m": "1..16",
+  "four_plane_map": "(S,D,H) -> (S,D+diag(1,1,-1,-1)S,H)",
+  "controls": [
+    "omitted input encoding",
+    "omitted cross cancellations",
+    "wrong reverse signs",
+    "changed source versions during cross correction, then restored"
+  ],
+  "stale_target_residual_rows": [
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "-1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "scope": "Literal exact ADD algebra; hypothetical matching-chart access windows and native itinerary remain required."
+}
