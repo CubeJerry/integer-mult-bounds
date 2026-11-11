@@ -162,3 +162,23 @@ importance of real input arrival times. It does not transfer numerical counts
 to our source or exclude fused blocks that change intermediate read contracts.
 No main/source update or code integration performed. Credit ToikY, Clear1nsight,
 Rohan Arun and each retained predecessor named in those packages.
+
+## S003 09:02 UTC refresh
+
+Canonical main is unchanged at e54523517d0f03e58352e647c403a5af3e525a57.
+Open#7177 (ToikY), headf59cf773c6038d72bc3b5aeae204cbe1923b34bf, changes18
+LOCAL phases to remove QUERY349. Its README, source manifest and exact price
+code were read. A physical provider and compatible supplier remain open. The
+programme grants its111-job credit for an independent target calculation,
+then proves even all4 freeQUERY credits fail at1/200 with other profiles fixed.
+See results/bit-query-budget/; this is not independent admission of#7177's caller.
+
+Open#7175 (petalas), head777b642e85eb81564d1774e4747cb2313f0b54ec, supplies a
+fixed-invoice optimistic helper-refinement ceiling ladder. Only its PR body
+was read in this refresh; no verifier/proof admission is claimed. It does not
+construct legal splits or supply the missing joint code. Other new metadata
+adds no selected frontier change. Existing source pins remain distinct.
+
+Merged @CubeJerry#6916 and#6773 descriptions were read for their explicit
+mathematical scope, complete accounting, source pins, negative controls,
+reproduction, limitations and contributor/AI credit conventions.

@@ -1,0 +1,58 @@
+{
+  "after_all_four_queries": [
+    "-7902054042455123093346461103/125000000000000000000000000000",
+    "-31608216169820492373385806903/500000000000000000000000000000"
+  ],
+  "baseline_margin": [
+    "-55507902054042455123093346461103/125000000000000000000000000000",
+    "-222031608216169820492373385806903/500000000000000000000000000000"
+  ],
+  "conditional_uniform_net_unit_credits_per18_changed_calls": 19,
+  "controls": {
+    "18_uniform_credits_fail_after_query349": true,
+    "19_uniform_credits_pass_raw_gate_after_query349": true,
+    "444_credits_fail": true,
+    "445_credits_pass_raw_gate": true,
+    "a_fifth_original_query_does_not_exist": true
+  },
+  "literal_event_counts": {
+    "ADD": 362,
+    "IDLE_ONE": 32,
+    "LOCAL": 36,
+    "QUERY": 4,
+    "SWAP": 364
+  },
+  "literal_query_events": [
+    196,
+    198,
+    201,
+    349
+  ],
+  "methods": [
+    "literal per-event native expansion",
+    "independent decimal-grid integer Newton200th roots",
+    "exact signed rational intervals"
+  ],
+  "minimum_extra_net_unit_credits_after_query349": 334,
+  "minimum_total_net_unit_credits": 445,
+  "native_helpers": 437,
+  "native_jobs": 2871,
+  "paid_jobs": 107352,
+  "power_grid": "1000000000000000000000000000000",
+  "reviewed_author_files": {
+    "PROOF.md": "d4ea6bd8936521ad292adbb0fc6fd4d99c896d979b34a17ce28ca19b635ba5db",
+    "README.md": "7e9777c4d619ebaa062f30691a727fec36b1cf71a38ccc97075e4032f65de9ab",
+    "RESULT-OPTIMIZED.json": "3fb13f8072e0d8b2ff9cead7754533cf95fe5079f144857e558da719d3a533f0",
+    "RESULT.json": "3fb13f8072e0d8b2ff9cead7754533cf95fe5079f144857e558da719d3a533f0",
+    "SOURCES.json": "addf5160d23807a7556c650c1bdf36146f1dab78fed14c69e9c779b86aa27cae",
+    "verify.py": "fefcb2e891aae59cfbf678d8367b79c223e5b4631534705930f4615061984217"
+  },
+  "scope": "Exact kappa1/200 with the pinned native, IDLE and target profiles fixed; all four QUERY costs granted free. Changed-provider admission and the metadata claim that PR7177 changes18 calls are outside this numerical review. The18-call calculation is conditional on that explicit count. No new kappa and no assertion of global monotonicity.",
+  "source_pins": {
+    "research/paired-query-only-bit/EFREE-CALLER.json.gz": "757b3523798f840bdb02028b23708c3416627a99ea09e7a3c4bcdc5cd0c7ce4b",
+    "research/paired-query-only-bit/EFREE-RESULT.json": "a46b6c6040f75184cab5467656811ad988c216e3bc8e44d595a5015b6e49620b",
+    "research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78"
+  },
+  "status": "PASS_INDEPENDENT_BIT_QUERY_TARGET_REVIEW",
+  "target_fields": 19950
+}

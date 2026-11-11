@@ -111,3 +111,12 @@ separate independent command and expected status. Use the integrated package
 path from repository root. For quotient/history, first generate reverse rows,
 then pass that rowfile to history_review.py. Both normal and-O receipts are
 stored. No search is needed to check the frozen46 endpoint certificate.
+
+## S003 lifetime and target packages
+
+Use results/{fused-seven-rewrite,lifetime-elimination,bit-query-budget}/README.md
+and review/REVIEW.md. The lifetime independent checker reconstructs the source
+macros, all4 words and their dependency closures before checking full endpoints
+and dyadic prices. The BIT review independently reconstructs both profiles and
+certifies the target sign with decimal-grid integer roots. Neither needs
+network access. No raw numerical root or finite search is promoted to a theorem.

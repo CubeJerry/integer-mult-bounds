@@ -229,3 +229,21 @@ moment penalty, not a new saving. Four-deadline obstruction stays with prepaid14
 Next construction wave: useful read-active helper loans, delayed updates/shadow
 fields, arbitrary dirty-input restoration and source-block observer fusion.
 No newkappa. Resulting commit will be recorded later to avoid self-reference.
+
+S003 checkpoint2 was published and GitHub-confirmed at
+30276845eb630ba2e57033f8ba47b43287a7172d,
+treef008627fcd9536cdfa505c8a260a3353292e83fe. Subsequent constructive wave fused
+an unobserved two-return block and proved whole-owned-lifetime deletion, then
+checked three deletion waves and full public dependency closure. Preferred
+current profile is now eight-current:14 source MOVEs removed,all4 historical
+returns disappear,26 external terms,headroom<20.801032491590. All four full
+variants and complete prices independently replayed; no unused owned SCC remains.
+
+Target-first upstream reading of open#7177 led to the separately reviewed BIT
+result: even all4 freeQUERY deletions miss.005 by>.06321643233964 with other
+profiles fixed. Canonical remained e54523517d0f03e58352e647c403a5af3e525a57 at
+09:02:47 UTC. Recent#7175 inspected as body-only optimistic relaxation; no
+source admission. #6916/#6773 descriptions reviewed for publication quality.
+Positive paused-common loan is under separate review. A proposed half-entry
+1481 payload was found stale because later151 updates and incoming1507 intervene;
+no incorrect source-authentic claim is admitted. No new kappa.

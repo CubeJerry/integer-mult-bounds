@@ -40,8 +40,13 @@ def main():
     reviewed = 0
     for path in (P / 'results').rglob('REVIEWED-FILES.json'):
         obj = json.loads(path.read_text())
-        rows = obj.get('author_files', obj.get('files', {}))
+        rows = obj.get('author_files', obj.get('files', obj))
+        need(isinstance(rows, dict) and bool(rows),
+             f'Empty or unknown reviewed-file manifest: {path}')
         for name, digest in rows.items():
+            need(isinstance(digest, str) and len(digest) == 64
+                 and all(c in '0123456789abcdef' for c in digest),
+                 f'Invalid reviewed digest: {path}: {name}')
             check(path.parent.parent / name, digest)
             reviewed += 1
     sources = {

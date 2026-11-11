@@ -7,6 +7,38 @@ Canonical base e54523517d0f03e58352e647c403a5af3e525a57 still selects conditiona
 κ=.00363005817 through #7000/#7001. Five foundational assumptions remain.
 **No new κ.** The selected record controls over stale historical guidance.
 
+## Current frontier: lifetime closure and useful helper transport (S003)
+
+The preferred provisional complex reference now uses eight current identities
+and deletes every owned lifetime that has no surviving reader. Deletion then
+exposes parent lifetimes for removal. A general operational proof and an
+independent lifetime graph verify three deletion waves, all public endpoints,
+and exact route lineage. Fourteen original owned difference MOVEs disappear,
+including all four historical returns. No historical preload or decoding at
+those deleted return clocks is required.
+
+The full reference has 71,201 instructions, 26 external observer terms
+(4 main,20 helper,2 owned),47 lifetimes and peak33 owned fields. These resource
+figures describe the400-input difference reference, not an unbuilt1880-input
+shared native. Its complete provisional profile has27,344 targets,153,018 paid
+positions, rank surplus3652 and additional paid moment/native strictly below
+20.801032491590. Other helper-difference transports still need implementation
+inside the proposed shared core; all26 observations remain physical premises.
+
+This is a structural change from individual return shaving: reconstruct the
+necessary late state, then erase the unused upstream dependency graph. Earlier
+four-before-return obstructions keep their exact scope and do not apply to
+removed internal demands. The fixed-calendar endpoint-only46-field theorem
+still constrains codes using its original graph; retimed codes require their
+actual new graph to be checked. See results/lifetime-elimination/ and review/.
+
+The next construction uses a paused common execution and explicitly paid remote
+restoration to make a useful helper transfer. It must preserve the original
+duties of borrowed routes or replace them honestly. Full endpoint completion,
+all ordinary costs, compatible complex/BIT suppliers and five foundations remain
+open. No new kappa. Earlier S003 S7 choices below are superseded as primary
+profiles, while their proofs and historical rationale remain valid.
+
 ## Evolving construction
 
 The main goal remains a shared auxiliary core for independent main channels,

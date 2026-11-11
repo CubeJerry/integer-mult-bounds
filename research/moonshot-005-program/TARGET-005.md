@@ -207,3 +207,33 @@ applies to prepaid14's removed historical returns, not S7. Rank10 modes,
 and are not added. See results/{seven-rewrite,endpoint-obstruction,
 quotient-history,temporal-observation-rank}/ with independent reviews.
 All outer/BIT/precision/compiler requirements remain. No complete target theorem.
+
+## S003 revised target budget after lifetime closure
+
+For O={1:20,2:9,3:2,4:13,5:2,6:1}, every variant retains T=T4 and uses
+P=P4+18(O-S), plus its explicitly added entry routes. Exact integer200th-power
+bounds and an independent dyadic engine verify the complete profiles.
+
+| Reference variant | Removed owned MOVEs | Remaining external terms | Paid positions | Rank surplus | Strict paid allowance/native |
+|---|---:|---:|---:|---:|---:|
+| Seven-current closure |12|22|153054|3544|14.841106979641|
+| Eight-current closure (preferred) |14|26|153018|3652|20.801032491590|
+| Ten-current closure |16|28|152982|3706|23.794113017246|
+| Ten-current with two constructed preloads |16, plus2new|26|153018|3580|16.838177042001|
+
+Eight-current saves S={1:6,2:3,3:1,4:2,5:1,6:1}. Its total raw margin is in
+[374418584848544536,374418584848616174]/10^15. All variants retain27,344 targets.
+The optional two preloads have96 ADDs and ranks3,4; they now fit but cost more
+paid moment than eight-current with the same26 remaining-term count. Different
+physical interfaces prevent a full-cost dominance claim. Peak33 is a reference
+property, not a proved joint-code peak. Evidence: results/lifetime-elimination/.
+
+For an unchanged main/allowned/quiet graph, the46-field theorem and the preferred
+20-extra-field ceiling imply at least26 other informative field transmissions
+or a graph change. It does not automatically constrain newly retimed schedules.
+
+BIT requirement: with the pinned native/IDLE/target spectrum fixed, even deleting
+all four QUERY events for free leaves target margin in a strictly negative
+interval near−0.06321643233964. Deleting QUERY349 alone leaves a deficit above
+333.06321643233964. The exact remaining gap is proved in results/bit-query-budget/.
+This is a fixed-profile target condition, not a global supplier impossibility.

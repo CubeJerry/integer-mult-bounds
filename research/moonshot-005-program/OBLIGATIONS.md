@@ -145,3 +145,26 @@ H4-COMP. Compatible BIT-NEW, admitted complex supplier and outer premises imply
 the target. These arrows do not construct missing components. Prepaid14 and
 initial105 remain valid within their scopes. S003 supersedes the earlier
 primary preload task while retaining all prior evidence.
+
+## S003 lifetime-closure dependency update
+
+- FUSED-RETURNS: CONDITIONALLY PROVED replacement of source40094–40099, preserving
+  its entire public effect/cleanup while dropping four intermediate observers.
+  Evidence: results/fused-seven-rewrite/ and separate reconstruction review.
+- LIFETIME-CLOSURE: PROVED for every legal typed word and field size: an owned
+  lifetime with no external read can be removed without changing other fields.
+  Repetition/backward public dependency closure eliminates the certified source
+  subgraph. Composed current identities remain conditional on their actual
+  surviving observers. Four reference variants and full invoices are verified.
+  Preferred eight-current removes14 owned MOVEs and all4 historical demands;
+  its26 physical terms remain. Evidence: results/lifetime-elimination/ and review/.
+- BIT-QUERY-CEILING: PROVED exact1/200 failure even after all444 QUERY job credits,
+  with other profiles fixed and added fees nonnegative. It depends on literal
+  #7001/#6726 sources, not admission of open#7177. Evidence: results/bit-query-budget/.
+- ACTIVE-HELPER remains primary: compose a physically legal useful helper loan
+  with all actual difference duties and required endpoints. A simple initial151
+  row is not its later1481 payload; all source updates and versions must be kept.
+
+Historical before-return observation obligations are legitimately removed by the
+new word, not declared solved at their former clocks. This distinction is why
+PRELOAD-FULL and RETURN-DEADLINE-4 remain valid without obstructing this variant.

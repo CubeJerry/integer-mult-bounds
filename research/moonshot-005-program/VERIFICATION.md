@@ -177,3 +177,31 @@ and its exact source witness establish arrival-count sharpness only. No complete
 All evidence and author-file hash manifests are under the corresponding results
 packages. Repeating author checks is not called independent review. No complete
 1880-input shared code or supplier is verified by these source packages.
+
+## S003 third checkpoint: dependency elimination and BIT target audit
+
+The fused seven-return block has a separate full typed reconstruction and
+six negative controls. Its22 final terms replace26 at the unchanged profile.
+The lifetime-elimination review rebuilds immutable lifetime dependencies and
+checks repeated sink deletion against backward closure from public reads.
+All four expanded/pruned transcripts, exact source MOVE lineage, all400 q
+columns and1480 endpoints, lifecycle bounds and complete invoices agree.
+Independent dyadic2^88 bounds lie inside the author's decimal-grid bounds.
+No dead owned-only component survives. The preferred eight-current reference
+has14 removed source MOVEs,26 final terms,47 lifetimes and peak33; this is not
+a joint-code ownership claim. Evidence: results/lifetime-elimination/review/.
+
+The BIT query-layer result uses literal source census and dyadic bisection;
+a separate worker expands each LOCAL event individually and uses decimal10^30
+integer Newton roots. Both certify the strict negative whole-query margin and
+444/445,18/19 controls. All six source/result/proof files are review-pinned.
+No external PR caller/provider is admitted. Normal/-O receipts agree.
+
+All earlier scientific bytes remain unchanged. Source-level lifetime elimination
+is an all-size operational proof; the instantiated price is provisional until
+all shared helper traffic and physical observers have a complete construction.
+
+Integrity-ledger correction: the checker now recognizes both wrapped and flat
+reviewed-file hash maps and rejects empty/unknown formats. Two S003 flat maps
+(previously already covered by the complete scientific byte manifest) now
+contribute their12 explicit author-pin checks. No frozen evidence was changed.

@@ -201,3 +201,25 @@ Published evidence: [quotient/history](results/quotient-history/PROOF.md),
 **No new kappa. Ongoing programme, not PR-ready; no upstream submission.**
 Prepared for @CubeJerry with substantial OpenAI assistance, predecessor/source
 credit and separate worker reviews. These are not human/formal acceptance.
+
+## Structural advance: late reconstruction and dependency elimination
+
+A general typed-word theorem removes an owned lifetime with no external reader.
+After late current-row reconstruction, repeated deletion removes parents whose
+only users were deleted preparation. The independently verified preferred
+reference removes14 owned difference MOVEs, including all four historical
+returns, without their former preload/decoding demands. It preserves every
+public endpoint on the declared400-input difference domain. All26 surviving
+physical terms remain explicit. The complete provisional invoice has153018
+paid positions,27344 targets,rank surplus3652 and added moment/native below
+20.801032491590. Full word, source lineage, four variants, optional actual entry
+preloads and separate dependency/rational/price review are in
+[the lifetime package](results/lifetime-elimination/PROOF.md).
+
+A complementary [BIT target audit](results/bit-query-budget/PROOF.md) proves that
+removing the entire four-QUERY layer for free still misses the exact.005 gate
+with native/IDLE/targets fixed. This sharpens the required supplier architecture;
+it does not admit open#7177 or rule out changed natives. The programme remains
+ongoing and not PR-ready. No complete conditional target or new kappa is claimed.
+The description follows the detailed scope, full-cost, pin/reproduction and
+credit conventions reviewed in @CubeJerry's merged#6916 and#6773.
