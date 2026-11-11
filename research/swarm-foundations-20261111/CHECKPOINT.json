@@ -3,8 +3,8 @@
   "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
   "base_tree": "1199c3d7a31fffa5ba5d41f10f1b933aacc797aa",
   "selected_kappa": "0.00363005817",
-  "updated_utc": "2026-11-11T14:11:15Z",
-  "status": "Four verified contributions published; wave 3 implementing three source-bound missing interfaces",
+  "updated_utc": "2026-11-11T14:43:41Z",
+  "status": "Five independently verified contributions published; wave 3 inverse and complement ports accepted and in publication; wave 4 active",
   "recovery_branch": "recovery/foundations-swarm-20261111-1313",
   "assumptions": [
     {
@@ -31,43 +31,36 @@
   "tasks": [
     {
       "worker": "tape_dispatch",
-      "track": 53,
-      "scope": "Capped selected cutoff from actual Gamma header; restored inputs, paid arithmetic/copies/return/retirement",
-      "status": "Allocated after source/overlap and optimistic full-budget review; implementation/proof active",
-      "path": "work/tape_cutoff_feasibility",
-      "dependencies": [
-        5158,
-        7150,
-        7151,
-        6878
-      ],
-      "wave": 3
+      "wave": 4,
+      "track": 55,
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Physical complement routing versus retained whole-row stream theorem",
+      "status": "Novelty-negative: existing elementary stream theorem already pays fixed routing; preserving exact remaining adapter boundary",
+      "dependency": "source-group package; 02-streams.tex item 4; #6878",
+      "path": "work/physical_complement_routing",
+      "next": "Save pinned negative checkpoint, then complementary cost review of all-rank metadata recurrence"
     },
     {
       "worker": "analytic_recovery",
-      "track": 67,
-      "scope": "Uniform encoded balanced inverse with descending levels, subtractive node values and current-source commit",
-      "status": "Allocated after source/overlap and optimistic full-budget review; implementation/proof active",
-      "path": "work/analytic_recovery",
-      "dependencies": [
-        7152,
-        7154,
-        6993,
-        6982
-      ],
-      "wave": 3
+      "wave": 4,
+      "track": 64,
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Audit source-to-literal-machine refinement of CRT production paths",
+      "status": "Active host-control and source-interface inventory; no new theorem accepted",
+      "dependency": "forward commit 532b60a; frozen inverse 0e5f4c9 / 6acdebee",
+      "path": "work/crt_literal_refinement",
+      "next": "Propose precise refinement lemma or scoped obstruction"
     },
     {
       "worker": "compiler_uniformity",
-      "track": 57,
-      "scope": "Source-rank groups to actual complement invocation/child-slot bijection; existing gcd/LCM formulas credited",
-      "status": "Allocated after source/overlap and optimistic full-budget review; implementation/proof active",
-      "path": "reviews/tape_selected_peer_review",
-      "dependencies": [
-        6878,
-        6901
-      ],
-      "wave": 3
+      "wave": 4,
+      "track": 54,
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Effective all-rank compiler metadata construction with chronological exits",
+      "status": "Width-only bounds superseded by #4638/#5962; approved pivot to exact all-rank generation complexity",
+      "dependency": "#4638, #5962, #5071 and frozen source-group codec",
+      "path": "work/quantitative_rank_closure",
+      "next": "Pin unsolved generation statement and exact complete recurrence before coding"
     }
   ],
   "verified": [
@@ -90,6 +83,11 @@
       "result": "Literal rank-one cutoff/remainder recursion controller",
       "commit": "9dfe6747b8553fd11b408f2b045c5954ef1e6eaa",
       "remote_blobs_match": 21
+    },
+    {
+      "result": "Literal source-bound selected header cutoff",
+      "commit": "da3f01ded52e84388d9b40b70590dd4dce6f51b4",
+      "remote_blobs_match": 18
     }
   ],
   "published": [
@@ -120,9 +118,16 @@
       "commit": "9dfe6747b8553fd11b408f2b045c5954ef1e6eaa",
       "compare": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/selected-rank-control-20261111-1313?expand=1",
       "description_path": "research/selected-rank-control/PR-DESCRIPTION.md"
+    },
+    {
+      "slug": "selected-header-cutoff",
+      "branch": "research/selected-header-cutoff-20261111-1313",
+      "commit": "da3f01ded52e84388d9b40b70590dd4dce6f51b4",
+      "compare": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/selected-header-cutoff-20261111-1313?expand=1",
+      "description_path": "research/selected-header-cutoff/PR-DESCRIPTION.md"
     }
   ],
-  "next": "Independent cross-review new claims before publication; respect source-model boundaries; refresh upstream at next allocation",
+  "next": "Publish the two accepted packages after final staging replay; audit fresh wave 4 claims without duplicating existing routing or width theorems.",
   "negative_and_superseded": [
     {
       "result": "Historical scale-ratio-only analytic bound",
@@ -137,7 +142,21 @@
   ],
   "latest_upstream_check": {
     "sha": "e54523517d0f03e58352e647c403a5af3e525a57",
-    "through_pr": 7271,
+    "through_pr": 7273,
     "selected_unchanged": true
-  }
+  },
+  "reviewed_pending_publication": [
+    {
+      "slug": "encoded-balanced-crt-inverse",
+      "path": "publish/research/encoded-balanced-crt-inverse",
+      "status": "Root independent 20 cases/52 nodes plus separate universal proof/cost review passed; final package replay running",
+      "core": "PROOF edbeb16bd8d088ab75b73b22adf5fc8aeef1ec93e8333bf74d4ad8e7f2f3d51f"
+    },
+    {
+      "slug": "source-complement-port-index",
+      "path": "publish/research/source-complement-port-index",
+      "status": "Independent 22 flows/3900 rows/11 controls and root proof/code review passed; transient bucket wording repaired",
+      "core": "PROOF c966ddff4b9f8cb7c2c428adc9ab6e0496fb2fa40e9d05a1397ec96f96327272"
+    }
+  ]
 }
