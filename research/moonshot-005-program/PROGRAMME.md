@@ -1,5 +1,24 @@
 # Persistent multiplication programme: κ ≥ 1/200
 
+## Current frontier — source access and native processing (S005)
+
+The original donor77-to-receiver189 encoder route is now closed. The
+[chronological screen](results/causal-encoder-screen/PROOF.md) extracts the
+nine-dimensional history quotient and an actual five-term local candidate.
+The stronger [endpoint-history conservation theorem](results/five-chart-history-conservation/PROOF.md)
+then proves that each of the receiver's19 arrival responses is a fixed multiple
+of final common189 response. Restoring that endpoint erases the complete
+receiver record. This covers common-dependent, multiple and nonlinear feedback
+encoders at all five original donor charts, all cuts and all field volumes.
+
+The next construction must change physical access, outside native processing,
+the observation interface or the native word. Expanded220-chart response gains
+do not supply donor access, a recoverable encoder or restoration routes. Funded
+cross-chart histories and other source interfaces are under investigation;
+no positive complete witness is admitted. All prior target invoices, both
+supplier requirements and five foundations remain. The S004 frontier below is
+historical and its original-route search is superseded. **No new κ.**
+
 Target, not theorem: T(n)=O(n(log n)^(199/200)) in the retained multitape bit-cost
 model and complete supplier/outer contracts. Prepared for @CubeJerry with
 substantial OpenAI assistance. AI review is not human or formal acceptance.

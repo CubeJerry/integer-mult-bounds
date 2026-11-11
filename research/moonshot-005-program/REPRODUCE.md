@@ -149,3 +149,17 @@ PASS_TWO_ACQUISITION_TARGET_BUDGETS and
 PASS_INDEPENDENT_DYADIC_RELAY_ACQUISITION_BUDGET. Normal/-O receipts are frozen.
 Acquisition proofs and conditional paid invoices have distinct scopes; neither
 is a complete shared multiplication bound.
+
+## S005 chronological screen and five-chart conservation
+
+```sh
+python -B research/moonshot-005-program/results/causal-encoder-screen/verify.py --repository . --output /tmp/causal-screen.json
+python -B research/moonshot-005-program/results/five-chart-history-conservation/verify.py --source research/shared-wire-split-composition/data/final.json.gz --output /tmp/five-chart.json
+python -B research/moonshot-005-program/results/five-chart-history-conservation/review/verify_duals.py --source research/shared-wire-split-composition/data/final.json.gz --certificate research/moonshot-005-program/results/five-chart-history-conservation/CERTIFICATE.json --output /tmp/five-chart-independent.json
+```
+
+Author markers: `PASS_CAUSAL_RECOVERABLE_ENCODER_SCREEN` and
+`PASS_FIVE_CHART_RANK_ONE_HISTORY_CONSERVATION`. Full independent commands and
+compressed receipts are in [review/README.md](results/five-chart-history-conservation/review/README.md).
+Repeat with `-O -B` for optimized consistency. These are source identities,
+not a new asymptotic supplier or complete theorem.

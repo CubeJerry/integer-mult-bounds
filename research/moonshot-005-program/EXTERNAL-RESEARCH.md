@@ -279,3 +279,22 @@ or its source restoration gap. They are selective external leads, not a
 complete review of all newly opened packages. No upstream PR was submitted.
 
 Final13:31:25UTC canonical ref check again confirms unchangede54523517d0f03e58352e647c403a5af3e525a57. No newly selected theorem or upstream integration is inferred from the open PR bodies.
+
+## S005 targeted refresh (metadata/body inspection only)
+
+Canonical remains `e54523517d0f03e58352e647c403a5af3e525a57`; selected κ remains
+.00363005817. Current instructions and selected record were read. None of the
+following open proposals is independently admitted here.
+
+| Proposal | Examined pin | Programme relevance / limit |
+|---|---|---|
+| CrocSwap/integer-mult-bounds#7271, ToikY | `8cff2624a060329db55f3858367082b5efe37be3` | BIT terminal-ingress census reports marked stock14 versus21 needed and fixed-target budget failure; relevant source-specific BIT constraint. |
+| CrocSwap/integer-mult-bounds#7244, Clear1nsight | `215f67247f395c0e15f5ea3980f6a3e4aed155af` | Open proposed κ=.003645372367832,17stages/two exits. Refreshed replay repair; scientific tree `f201bc8b5d1402ca40e7aa419269a58b7724798d`. Not selected. |
+| CrocSwap/integer-mult-bounds#7264 and #7269, petalas | Reported `19f6c9e5962ae11519661d070c3bdcd3aa6537a3` / `7de4bd6bd4a6f7fae59b90c941ae5a3b9b3e652d` | Abstract terminal/odd-Smith capacity interfaces; no source-hosted native or complete invoice. |
+| CrocSwap/integer-mult-bounds#7014, unpaidmoon | `949c0ada285aae619468ae49317c8d9f4df130f7` | Odd-characteristic indicator ranks13/14/15; no physical hosted word; does not improve binary9. |
+| CrocSwap/integer-mult-bounds#6933, DreamingOfClouds | `a967c521074c2c7450255ae237fda9c439ee1b35` | Reported P104 bound53/6, first unexcluded binary block6/rank53; no actual sub9 window/native. Alternative lead. |
+
+@CubeJerry PR style was inspected at#6916, head
+`ed359c115fa713395da380dcc602761196f5df4a`. Bounded visible discussion histories
+1163/1166/1167 were read; this is not exhaustive live coordination coverage.
+No upstream PR submitted and no accepted source/certificate changed.

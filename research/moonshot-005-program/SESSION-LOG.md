@@ -439,3 +439,27 @@ quotient. Compute it once to screen later encoder cuts; this is an exact
 necessary search reduction, not a positive channel or asymptotic gain.
 It is distinct from the nine left-null relations. The preceding handoff
 was GitHub-confirmed atfddfc684cb2975601443d069f03134c800cde5aa.
+
+## 2026-11-11-S005 — checkpoint1, session in progress
+
+Start14:05:11UTC from remote `2e58d81f202fad3573a615898e8bd366c047f386`;
+canonical unchanged at `e54523517d0f03e58352e647c403a5af3e525a57`.
+Requested duration10hours, planned end2026-11-12 00:05:11UTC. This checkpoint
+does not claim that the full session has elapsed.
+
+Construction extracted the nine-dimensional receiver quotient, all of which
+survives terminal recovery, and screened154 chronological cuts. One genuine
+five-term nonterminal encoder survives. Bridge then proved19 all-cut
+endpoint-history identities excluding that candidate and all other controllers
+on the five original donor charts. Root proved the general feedback argument.
+A separate adversarial worker independently replayed exact source rows and
+timed adjoints without importing either author extractor. Wrong-coefficient,
+expanded-access and nonzero source-input controls are retained, with matching
+normal/optimized receipts. The candidate is closed, not queued for repetition.
+
+The next wave tests actual changed processing, funded cross-chart histories
+and full response laws for other endpoint pairs. Expanded-access pulse gains
+lack admitted physical encoders/restoration schedules. Upstream was checked
+selectively; no open proposal is promoted to accepted mathematics. No new κ
+and no upstream PR. The resulting commit SHA is recorded after GitHub confirms
+publication, avoiding self-reference.

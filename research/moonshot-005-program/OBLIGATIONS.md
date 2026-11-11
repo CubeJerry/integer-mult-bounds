@@ -264,3 +264,18 @@ H4-COMP, stronger compatible BIT/complex, recursion and foundations remain.
 ADDITIVE-HISTORY-220 is PROVED for77-to189: all1065 receiver observations have rank1056; nine complete relations annihilate q77-only controls at every cut of every220 station chart. Independent full-input/simultaneous-adjoint review is in results/joint-additive-history-obstruction/review/. No endpoint-neutrality condition is needed. Extra correlated side information, nonzero-R replacement and changed common processing are outside scope. Author pre-review text is superseded by ADMISSION.md.
 
 STABLE-HISTORY-ENCODER is PROVED: under dF0=0 implies dBK=0, neutral response descends to G on D and rankG<=dimD-dim(D intersect S). For77-to189 at chart71/pre29098, independent source reconstructions establish D=spanu77 contained in stable S via final189-initial189. Together with ADDITIVE-HISTORY-220 this excludes that encoder even with the220-station overgrant, without extra correlated side information. Evidence: results/stable-history-encoder/. RECOVERABLE-ENCODER-SOURCE remains OPEN at other cuts/interfaces, with nonzero stable quotient a necessary first gate.
+
+## S005 current frontier — original-route encoder search superseded
+
+| ID | Proposition and dependencies | Status and remaining step |
+|---|---|---|
+| CAUSAL-ENCODER-SCREEN | Exact source E intersects terminal W and receiver H; modulo prior history plus restored receiver endpoints,154 donor-route snapshots leave one nonterminal interval at chart232 after29530/before29637. Channel inference retains the history-annihilation premise. | Proved source reduction; independent rational replay. H intersect W has rank605 and retains all9 quotient modes. The necessary candidate is closed by the stronger law below. [Proof](results/causal-encoder-screen/PROOF.md). |
+| FIVE-CHART-HISTORY | For every V and every finite sequence of possibly common-dependent/feedback increments at the five donor77 charts, fixed outside processing gives Delta arrival_i = rho_i Delta final189 for all19 receiver arrivals. No extra q-bearing channel. | Proved by all-cut timed adjoints, independently replayed. Endpoint restoration excludes all encoders in this access class. [Proof](results/five-chart-history-conservation/PROOF.md), [review](results/five-chart-history-conservation/review/REVIEW.md). |
+| FEEDBACK-FACTORIZATION | For any fixed linear word, B=L A implies every actual controller preserving constrained response A has unchanged receiver response, including nonlinear feedback and coordinate mixing. | Proved general interface; independent review. [Statement](results/five-chart-history-conservation/FEEDBACK-INTERFACE.md). |
+| CHANGED-NATIVE-CHANNEL | Construct a typed restored1,880-input channel outside that interface, with real access, decoder, guards, lifetimes and complete physical costs. | Open primary. Expanded gains and failed rank-one factorizations are not source constructions. |
+| FUNDED-HISTORY-RELAY | Supply receiver predictors or distributed recovery through physically funded history movement. | Active, unverified; no admitted native witness. |
+
+The earlier RECOVERABLE-ENCODER-SOURCE task is closed only on the original
+five-chart77-to189 interface. Other pairs require their own complete response
+analysis. Changed processing, the larger220-chart grant and the multiplication
+problem remain open. All S8, supplier and compiler obligations are retained.

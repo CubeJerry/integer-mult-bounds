@@ -322,3 +322,26 @@ These are independent model-assisted reviews, not human/formal acceptance.
 Final bounded review: a separate1480-input replay reconstructs1065 histories/rank1056 and the complete nine-dimensional left nullspace. A fresh simultaneous nine-component reverse pass checks142524 cuts against every live nonzero role at all220 stations. Normal/-O receipts match; altered relation and added chart3 control expose scope. The reviewer imports no author verifier. Correlated q-bearing side information is explicitly excluded from the interface.
 
 Stable-history gate: separate bridge mathematical review accepts the neutral-control premise and rank-nullity proof. Construction-worker stacked quotient/provenance and bridge-worker max-pivot intersection/local-history replay independently give E rank3, hub rank1022, history1065/rank1056, D=spanu77, stable span rank1047. Both normal/-O pairs agree within their own formats. The literal lift is response-authentic; baseline equality to arbitrary external endpoints is not assumed. An apparent all-control/neutral-control scope concern was resolved: all nine existing source dual endpoint terms are empty, so its stronger theorem remains valid.
+
+## S005 chronological screen and complete feedback exclusion
+
+Independent rational replay checks H,W,S, all154 snapshots and exact encoder
+representations. It disproves the shortcut H intersect W subset S: all9 modes
+survive global terminal recovery. Chronological prior observations are stable;
+CLEAR can shrink local span and is not assumed invertible.
+
+The [five-chart theorem](results/five-chart-history-conservation/PROOF.md)
+uses19 exact timed adjoints over all71,262 event cuts, with541,177 changed-entry
+station checks in both independent and author implementations. The1,046 initial
+rows and native local arithmetic extend the arrivals to complete histories.
+Wrong rho and added chart8 access fail; original input77 gives a nonzero control.
+Normal/optimized receipts match. The reviewer uses its own source parser and
+sparse rational replay. This is independent AI review, not human or formal
+acceptance. Rational identities extend to native complex arrays for every V;
+no characteristic-two claim is made.
+
+The [feedback proof](results/five-chart-history-conservation/FEEDBACK-INTERFACE.md)
+has separate review and preserved draft bytes. Full row receipts are losslessly
+compressed with uncompressed hashes; see [review instructions](results/five-chart-history-conservation/review/README.md).
+The screen's pending control question is resolved by [ADMISSION.md](results/causal-encoder-screen/ADMISSION.md).
+No native construction, new supplier or complete κ is certified.

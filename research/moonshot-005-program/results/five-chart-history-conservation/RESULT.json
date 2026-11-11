@@ -1,0 +1,47 @@
+{
+  "COPY_zero_guards_not_needed_for_obstruction": true,
+  "all_19_duals_checked": true,
+  "all_time_station_adjoint_checks": 541177,
+  "arrival_observations": 19,
+  "certificate_sha256": "14c939ffcb09bbf82b31146e1dcdee863fbab6cf06ebe6fa2858140ec42828ca",
+  "claim": "For this fixed native chronology and five station spaces, restoring common endpoint189 forces every receiver189 native history to remain unchanged under arbitrary local additive interventions, including data-dependent feedback. No new kappa.",
+  "endpoint_coefficients": {
+    "-1": 1,
+    "-1/4": 1,
+    "0": 16,
+    "1/2": 1
+  },
+  "initial_observations": 1046,
+  "native_instructions": 71261,
+  "negative_controls": [
+    {
+      "mutation": "change a nonzero endpoint coefficient",
+      "rejected": "nonzero station adjoint at cut29098, role287, chart71, value-1"
+    },
+    {
+      "mutation": "grant additional controls at chart8",
+      "rejected": "nonzero station adjoint at cut36558, role377, chart8, value1/2"
+    }
+  ],
+  "new_complete_kappa": null,
+  "public_inputs": 1480,
+  "receiver_charts": [
+    3,
+    307,
+    901,
+    198
+  ],
+  "source_input77_positive_control": {
+    "final189_response": "1",
+    "nonzero_arrival_responses": 3
+  },
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "station_charts": [
+    71,
+    312,
+    324,
+    232,
+    127
+  ],
+  "status": "PASS_FIVE_CHART_RANK_ONE_HISTORY_CONSERVATION"
+}

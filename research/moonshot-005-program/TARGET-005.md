@@ -353,3 +353,20 @@ necessary baseline budget remains unchanged; no complete new kappa follows.
 The220-chart additive-history certificate excludes an unchanged-q baseline alternative for77-to189 even before neutral endpoints or pricing are required. It does not exclude recoverable common-mode replacement. A new source test must retain that distinction and cannot discard an externally supplied q-bearing aggregate as independent noise.
 
 The stable-history quotient is a new necessary source gate: rankG<=dimD-dim(D intersect S), under the exact neutral history-annihilation premise. The first chart71/pre29098 quotient is zero, so it cannot supply a channel even before the target invoice is applied. A positive quotient is not sufficient and introduces no numerical kappa credit.
+
+## S005: changed access or processing is necessary for this source pair
+
+For the pinned77-to189 native interface, arbitrary controls on the five donor
+charts obey `Delta arrival_i = rho_i Delta final_common189`:16 coefficients
+are zero and the others are-1,-1/4,1/2. Endpoint restoration therefore excludes
+all such encoders, including joint and nonlinear feedback. See the
+[proof](results/five-chart-history-conservation/PROOF.md). A successful use of
+this pair must change actual access, outside processing, observed transport or
+the native, and charge those changes. This is not a global lower bound.
+
+The conditional S8 allowance remains below20.801032491590 paid moment units
+per native, with at most20 new complete calls and at least26 informative
+original crossings. Facet and Direct invoices remain distinct. Expanded220
+station gains are outside the theorem and are not physical feasibility.
+Strict U>.005 and completed B>.005, all recursive costs and five foundational
+assumptions remain required. No new supplier or κ is established.

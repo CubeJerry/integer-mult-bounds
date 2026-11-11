@@ -1,5 +1,25 @@
 # Prove shared-core information and repair barriers, and reduce κ = 1/200 synthesis to causal cochart delivery
 
+## Latest cumulative result — S005, programme ongoing
+
+Nineteen exact timed adjoints show that every receiver189 arrival response to
+controls on donor77's five charts factors through final common189 response.
+Restoring that endpoint erases all receiver history, including for joint,
+common-dependent and nonlinear feedback encoders. Independent rational replay,
+distinct adjoint code and negative controls are included. The preceding
+chronological screen's genuine five-term candidate is thereby closed. This
+requires a change to physical access or outside processing, not a new local
+encoder on the same route. It is not a global multiplication lower bound.
+
+[Source proof](results/five-chart-history-conservation/PROOF.md),
+[chronological screen](results/causal-encoder-screen/PROOF.md),
+[general interface](results/five-chart-history-conservation/FEEDBACK-INTERFACE.md),
+[independent review](results/five-chart-history-conservation/review/REVIEW.md).
+Baseline `2e58d81f202fad3573a615898e8bd366c047f386`; native compressed SHA256
+`2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883`.
+Earlier provenance, @CubeJerry attribution, substantial OpenAI assistance and
+five assumptions remain. **No new κ. Ongoing programme, not PR-ready.**
+
 **Cumulative working description. Ongoing programme; not PR-ready. No new κ.**
 
 The selected conditional bound is κ = 363005817/100000000000 through

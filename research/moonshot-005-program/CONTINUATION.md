@@ -1,67 +1,32 @@
-# Next construction: a recoverable common-mode source channel
+# Next construction: changed access or native processing
 
-**Primary obligation remains open. No new kappa.** Resume from remote HEAD
-and STATE, preserving all source pins and scoped negative results.
+**Primary obligation open. No new κ.** Resume exact remote HEAD and STATE.
+S005 is in progress; consult the latest log before assuming session completion.
 
-At an actual encoder cut, collect cochart common rows E and terminal common
-rows W_T. Form R=row(E) intersect row(W_T). Choose actual later controls
-only on the donor's remaining unused route; earlier stations cannot receive
-delta for free. A contains off-terminal endpoint and COPY-guard responses,
-B the responses in genuine receiver histories F0. Let K span ker A, L span
-the annihilator of R, and Z_R span leftnull(F0 L). Feasibility is Z_R B K != 0.
+Do not repeat original five-chart donor77-to-receiver189 encoder searches.
+The [endpoint-history law](results/five-chart-history-conservation/PROOF.md)
+excludes all endpoint-restoring controllers there, including multiple encoders,
+common dependence, feedback and local caches. The nine quotient modes and
+five-term chart232 candidate are already extracted and closed in this scope.
 
-The originally proposed chart71/pre29098 test for77-to189 is now excluded.
-Two independent source replays give D=span(u77), and that mode equals final
-common189 minus initial common189. The complete history-annihilation theorem
-makes every decoder of it insensitive to neutral controls. Do not repeat it.
+The single next obligation is a real typed channel obtained by changed outside
+processing, physically funded expanded access or another authenticated source
+interface. Preserve all1,880 inputs, common endpoints, guards, raw duties and
+route typing. Algebraic pulse gain or failure of a rank-one law is insufficient.
 
-First screen other actual encoder cuts for a nonzero quotient
-D/(D intersect S), where D=row(E) intersect row(W_T) intersect row(F0)
-and S has certified response-stable history decoders. Only then compute the
-full Z_R B K test. A positive quotient alone is not sufficient. Restrict
-controls to the remaining donor route, and retain any extra side information
-as an explicit interface change. See results/stable-history-encoder/.
+1. Prove data availability at every encoder, control and decoder; transported
+   histories and predictors require actual records and paid routes.
+2. Prove the full response, restoration and decoder equality. Do not reuse
+   pair-specific annihilation results without authenticating the new pair.
+3. Emit and independently replay a literal word with every funded reservation,
+   added MOVE, lifetime, scalar and erasure; compare direct paid delivery.
+4. Compose enough independent channels and recompute the entire invoice.
 
-The physical word must encode Q=q-r(u), leave actual stationary delta records
-on remaining funded routes, apply source-safe controls and collect histories
-at their actual times. A distinct receiver uses its still-unused route.
-Correct common terminal outputs while Q=delta, then recover Q from restored
-endpoints. Charge encoder/control/decoder/recovery work, labels, lifetimes,
-storage, erasure, preparation, input conversion and final recoupling. Replay
-all1880 inputs and reservations. A matrix witness alone is not a native.
-See results/recoverable-encoder/ and its two independent mathematical reviews.
-
-Do not repeat completed work:31 native decoders have actual nonzero gains.
-The77-to189 partial word has73378instructions and7newADD but60offhub common
-residuals after372hub corrections;400recouplings remain owed. All31 chosen
-pulses are among103 whose future donor-itinerary control spaces cannot repair
-them. Other encodings, joint initial controls, changed access and recoding
-the common native remain open.
-
-Conditional S8 without acquisition allows20.801032491587519/native: at most20
-new complete calls and at least26 informative original crossing units.
-Facet-first allows8/requires36; Direct-first allows2/requires42. Common47
-and second-owned33 have different duties;14deleted occurrences are not credits.
-One channel does not prove independent composition or target feasibility.
-S8's26 observers or a whole endpoint replacement, full recursion, compatible
-complex/BIT suppliers and all five foundational assumptions remain explicit.
-
-The entire unchanged-q additive family for77-to189 within the220-chart
-station set is now excluded by a complete nine-relation history certificate,
-even without endpoint neutrality. Do not repeat that search. Nonzero-R
-encoders or changed access/processing are the next explicit interfaces;
-an external q-bearing aggregate is not covered by that obstruction.
-
-Apply the stable-history gate only with its history-annihilation premise.
-It is proved for the existing77-to189/220-station family. For another pair
-or access interface, re-establish that premise; its failure may itself
-provide an additive channel. The quotient gate is not an unconditional
-filter for arbitrary new architectures.
-
-An immediate corollary of both reviewed source ranks reduces this search:
-row(F0) has dimension1056 and its certified stable subspace S has dimension
-1047, so row(F0)/S has dimension9. Compute this fixed quotient once, then
-look for an actual recoverable cochart mode with nonzero image in it.
-For the stated neutral single-encoder interface, rankG is at most9; a
-nonzero image still does not prove controllable gain. These nine quotient
-directions are distinct from the nine left-null history relations.
+The expanded220-chart grant has algebraic gains but no admitted physical
+encoder/access schedule. Funded histories and other endpoint response laws
+are active, unverified work. The conditional S8 allowance stays below
+20.801032491590 paid moment/native, at most20 new calls, with26 informative
+original crossings necessary. Facet/Direct invoices differ; no acquired forms
+are free. All26 S8 observers, remaining native duties, compatible complex and
+completed BIT suppliers strictly above.005, complete recursive costs and all
+five foundations remain. No complete bound or PR-readiness is claimed.
