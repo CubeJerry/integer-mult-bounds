@@ -308,3 +308,23 @@ contracts. They are not added. A repaired architecture must pass both relevant
 information tests and the entire ordinary, storage, precision, erasure,
 compiler, supplier and recursive invoice. A positive local loan alone will
 not establish a complete conditional kappa.
+
+
+## S004 redesign without failed acquisition
+
+A construction meeting the conditional S8 profile without buying either prefix
+has exact reviewed headroom20.801032491587519/native and at most20 new complete
+calls. With no free r/s grant, the static cut requires46 crossing units; at
+least26 must use informative original operations. This replaces36 only for
+the redesigned no-acquisition architecture, not either published prefix price.
+
+For integer acquired rank a at paid moment c with a<=c and no other informative
+original acquisition crossing, a+floor(H0-c)<=floor(H0)=20. Such original traffic,
+if used, already counts toward26. Arbitrary coordinate mixing is handled by
+complete-call count. See the [exact corollary](results/static-history-obstruction/S8-BUDGET-COROLLARY.md).
+
+The difference-carrier interface charges two entry ADDs, every receiver/control
+term, all endpoint/recovery and cross-loan coefficients, and real snapshots.
+A snapshot costs INIT, ADD, CLEAR, an owned lifetime and storage. Four checked
+networks establish the interface, not a frozen-native implementation or complete
+physical price. Changed targets or reservations require a new full invoice.

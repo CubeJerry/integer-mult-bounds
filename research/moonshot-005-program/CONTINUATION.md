@@ -1,50 +1,37 @@
-# Current continuation: retain modes and borrow useful active helper traffic
+# Current construction: controlled helper signals before terminal deposition
 
-**S004 problem specification. No complete construction or new kappa.** The
-S003 starting specification is preserved in
-`sessions/2026-11-11-S004/STARTING-CONTINUATION.md`. Its requested residual
-endpoint audit is now complete and changes the construction task.
+**Next obligation, not a completed native or new kappa.** The unchanged S003
+prefixes require50 new exports under retained geometry. Their original
+continuation specification is preserved in sessions/2026-11-11-S004/.
 
-## Facts that the next construction must respect
+The verified difference-carrier interface executes Q-=H; H+=Q at a genuine
+cochart cut, leaving H=q and Q=delta=q-h. Q follows funded main routes,
+optionally seeding actual stationary owned snapshots. Source controls inject
+multiples of delta. Given terminal-supported common response, source guards
+and recovery rows, cochart corrections restore common outputs and donors.
+Multiple loans restore donors in reverse chronological order. Four typed
+examples establish this interface; no useful frozen-native crossing is yet
+admitted. Initial-helper substitution has been excluded on the fixed word.
 
-The valid S003 facet prefix deposits 52 raw nonentry modes at chart 127 and
-leaves only two independent acquired modes outside. No original MOVE exits
-127. Required facet endpoints have rank 52 on those inputs. The terminal
-export theorem therefore excludes affordable continuation of that unchanged
-state even with arbitrary retiming and helper recoding. Its remaining allowance
-is less than 8.8148714402760477/native; the direct variant is still tighter.
+The single next step is an actual source control/decoder witness: exact cut,
+donor/receiver roles, observation versions and gains, control clocks, COPY-zero
+guard, endpoint/recovery rows, consumed reservations, lifetimes, and a full
+1880-input typed replay. Baseline rowspace membership does not establish
+perturbed signal gain. After one witness, prove composition of enough
+independent deliveries and calculate the complete physical invoice.
 
-A repaired prefix must retain or export at least 42 additional independent
-modes beyond the two acquired forms before depositing those donors at 127,
-if it keeps the eight-new-field ceiling. This rank condition is necessary only.
-Free caches on every original main itinerary still leave the static 220-chart
-cut and a 44-field transmission requirement outside main/owned/quiet routes.
-At least 36 informative crossing units must therefore come from other funded
-operations or a separately admitted changed interface under that ceiling.
+Current tests include later compensation and historical noise cancellation.
+An exploratory additive variant keeps raw q unchanged, injects it into common
+states, recovers it from a zero-baseline history relation, and cancels common
+endpoint effects at the terminal chart. It needs its own source certificate.
 
-Do not add these two bounds. Do not count 399 candidate nonquiet helper
-crossings as successful loans. Do not count the two aggregate supports as 60
-independent available fields. The 14 deleted owned occurrences are not paid
-credits; common 47 and retained second-owned 33 have different duties.
+A redesign meeting the conditional S8 profile without acquisition has headroom
+20.801032491587519/native and at most20 new complete calls. The static cut still
+requires26 informative original crossings. Paying Facet first leaves eight
+calls and needs36 such crossings; Direct leaves two and needs42. No forms are
+acquired for free. These are necessary conditions, not sufficient constructions.
 
-## Next concrete mathematical attempt
-
-Construct a useful active common-helper loan before terminal deposition. A
-promising test is to replace a current helper mode by a raw difference, deliver
-that difference through an already funded helper MOVE, then continue the common
-native and repair every resulting common perturbation at a chart where the raw
-donor can legally reunite. Required evidence is an exact suffix influence
-certificate, genuine source access, a typed donor/receiver schedule, restoration
-for all 1,880 independent inputs, and every operation/lifetime charge.
-
-S004 is testing initial helper-mode substitution and a broader midrun loan with
-terminal-supported correction. These are exploratory until the next verified
-checkpoint records a source witness. A failed restricted probe is not a proof
-that every active-helper code fails. If the mechanism works, next establish
-composition of enough independent deliveries, not merely another isolated pair.
-
-The native namespace, all input/final conversion operations, ordinary scalar
-work, storage, precision, erasure and compiler costs remain explicit. A complete
-shared native and compatible uniform complex/BIT suppliers above .005 remain
-open, together with the five foundational assumptions. See OBLIGATIONS.md and
-TARGET-005.md for the retained full accounting.
+Common47 owned and retained second-owned33 have different duties;14 deleted
+occurrences are not credits. Scalar work, snapshots, storage, precision,
+erasure, compiler, full recursion, S8's26 observers or a proved whole endpoint
+replacement, both compatible suppliers and five foundations remain open.

@@ -228,3 +228,22 @@ terminal loss. The more generous history-preserving repair remains subject to
 HISTORY-CUT. Neither theorem discharges H4-COMP, BIT-NEW or a foundational
 assumption. Earlier scoped results are retained; the current construction task
 is ACTIVE-HELPER-ENDPOINT, not the already solved acquisition task.
+
+
+## Current S004 construction and budget
+
+- INITIAL-HELPER-ANNIHILATION is PROVED for all104 required endpoint pairs:
+  fixed native histories have zero eligible initial-helper columns. [Proof](results/initial-helper-annihilation/PROOF.md), [independent full-input review](results/initial-helper-annihilation/review/REVIEW.md). Midrun changes remain outside scope.
+- DIFFERENCE-CARRIER is a PROVED universal sufficient interface: two ADDs,
+  source-safe controls, terminal correction and reverse chronological donor
+  restoration. [Proof](results/difference-carrier/PROOF.md), [review](results/difference-carrier/review/REVIEW.md). Four typed examples; no useful frozen-native crossing.
+- S8-CROSSING-26 is a PROVED fixed-profile corollary: at most20 new complete
+  calls without acquisition, so at least26 informative original crossings.
+  [Proof](results/static-history-obstruction/S8-BUDGET-COROLLARY.md), [review](results/static-history-obstruction/review-s8-budget/REVIEW.md). Paid Facet36/Direct42 remain separate constraints.
+- CONTROLLED-SOURCE-WITNESS is OPEN, primary: actual controls, observation gain,
+  all1880-input restoration, typed ownership and complete costs, followed by
+  composition of enough independent signals. Rowspace membership is not gain,
+  a relaxed certificate is not a word, and a toy is not the selected native.
+
+S8's26 observers or a proved whole endpoint-equivalent replacement remain
+explicit. Current source probes are unadmitted until their separate reviews.

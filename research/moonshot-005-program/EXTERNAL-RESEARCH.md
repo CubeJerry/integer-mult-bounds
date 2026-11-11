@@ -230,3 +230,12 @@ not succeed; this session does not claim complete discussion coverage.
 
 Latest PR metadata was inspected selectively. No upstream branch, selected
 certificate or PR was changed. No automatic PR or discussion message was sent.
+
+
+## S004 construction provenance update
+
+The difference-carrier, stationary-control and triangular-restoration interface
+was developed within this programme. Its four examples are explicitly separate
+networks; no external construction was silently imported. Earlier upstream
+allocation and connector leads retain their recorded admission status. The
+selected canonical kappa remains unchanged at this checkpoint.

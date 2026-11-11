@@ -1,0 +1,52 @@
+{
+  "S8_headroom_interval": [
+    "2340116155303595885694854875789/112500000000000000000000000000",
+    "187209292424287670855588390098939/9000000000000000000000000000000"
+  ],
+  "cases": {
+    "direct": {
+      "acquisition_moment_interval": [
+        "8925303923053055208494900378223/500000000000000000000000000000",
+        "357012156922122208339796015129/20000000000000000000000000000"
+      ],
+      "further_original_crossings_necessary": 42,
+      "new_call_ceiling": 2,
+      "remaining_interval": [
+        "1659613863083292318917511453443/562500000000000000000000000000",
+        "26553821809332677102680183290907/9000000000000000000000000000000"
+      ],
+      "supplied_scalar_rank": 2
+    },
+    "facet": {
+      "acquisition_moment_interval": [
+        "239723221026229426738318579483/20000000000000000000000000000",
+        "1498270131413933917114491121769/125000000000000000000000000000"
+      ],
+      "further_original_crossings_necessary": 36,
+      "new_call_ceiling": 8,
+      "remaining_interval": [
+        "9916730370310553602918128661969/1125000000000000000000000000000",
+        "79333842962484428823345029331589/9000000000000000000000000000000"
+      ],
+      "supplied_scalar_rank": 2
+    },
+    "none": {
+      "further_original_crossings_necessary": 26,
+      "new_call_ceiling": 20,
+      "remaining_interval": [
+        "2340116155303595885694854875789/112500000000000000000000000000",
+        "187209292424287670855588390098939/9000000000000000000000000000000"
+      ],
+      "supplied_scalar_rank": 0
+    }
+  },
+  "native_repetitions": 18,
+  "negative_controls": [
+    "21 new complete calls exceed S8 headroom",
+    "60 support coordinates are not 60 paid-acquired independent forms"
+  ],
+  "price_sha256": "b5c4a118bb7e72a31d7ba90a8cd4b72884f9fa6470710850119d709ad3f21f40",
+  "required_static_cut_rank": 46,
+  "scope": "Fixed S8 complete-field price and static cut. At least26 informative original crossing occurrences are necessary; no native, cost admission or new kappa.",
+  "status": "PASS_PREACQUISITION_S8_26_CROSSING_COROLLARY"
+}

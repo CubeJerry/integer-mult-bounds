@@ -1,0 +1,629 @@
+{
+  "future_existing_owned_control": {
+    "baseline_native_operations": 10,
+    "baseline_raw_MOVEs": 1,
+    "endpoint_rows": {
+      "0": {
+        "0": "1"
+      },
+      "1": {
+        "1": "1"
+      },
+      "2": {
+        "2": "1"
+      },
+      "3": {
+        "3": "1"
+      },
+      "4": {
+        "3": "1",
+        "4": "1"
+      }
+    },
+    "extra_ADDs": 6,
+    "extra_MOVEs": 0,
+    "extra_owned_lifetimes": 0,
+    "tariff": {
+      "counts": {
+        "ADD": 9,
+        "CLEAR": 1,
+        "INIT": 1,
+        "MOVE": 6
+      },
+      "declared_owned": 1,
+      "final_owned": 0,
+      "instructions": 17,
+      "owned_lifetimes": 1,
+      "peak_owned": 1
+    },
+    "word": [
+      [
+        "INIT",
+        5,
+        0
+      ],
+      [
+        "ADD",
+        5,
+        0,
+        "1",
+        0
+      ],
+      [
+        "MOVE",
+        5,
+        0,
+        2,
+        true
+      ],
+      [
+        "ADD",
+        3,
+        0,
+        "-1",
+        0
+      ],
+      [
+        "ADD",
+        0,
+        3,
+        "1",
+        0
+      ],
+      [
+        "MOVE",
+        3,
+        0,
+        2,
+        false
+      ],
+      [
+        "ADD",
+        5,
+        3,
+        "1",
+        2
+      ],
+      [
+        "MOVE",
+        0,
+        0,
+        1,
+        false
+      ],
+      [
+        "ADD",
+        4,
+        0,
+        "1",
+        1
+      ],
+      [
+        "ADD",
+        1,
+        0,
+        "1",
+        1
+      ],
+      [
+        "MOVE",
+        0,
+        1,
+        2,
+        false
+      ],
+      [
+        "MOVE",
+        5,
+        2,
+        1,
+        true
+      ],
+      [
+        "ADD",
+        1,
+        5,
+        "-1",
+        1
+      ],
+      [
+        "CLEAR",
+        5,
+        1
+      ],
+      [
+        "MOVE",
+        2,
+        0,
+        2,
+        false
+      ],
+      [
+        "ADD",
+        0,
+        3,
+        "-1",
+        2
+      ],
+      [
+        "ADD",
+        3,
+        0,
+        "1",
+        2
+      ]
+    ]
+  },
+  "gamma_zero": {
+    "difference_carrier_succeeds": true,
+    "gamma": "0",
+    "legacy_signed_swap_recovery_numerator": "0",
+    "public_suffix_response": {},
+    "tariff": {
+      "counts": {
+        "ADD": 8,
+        "CLEAR": 1,
+        "INIT": 1,
+        "MOVE": 4
+      },
+      "declared_owned": 1,
+      "final_owned": 0,
+      "instructions": 14,
+      "owned_lifetimes": 1,
+      "peak_owned": 1
+    },
+    "word": [
+      [
+        "INIT",
+        5,
+        0
+      ],
+      [
+        "ADD",
+        5,
+        0,
+        "1",
+        0
+      ],
+      [
+        "ADD",
+        3,
+        0,
+        "-1",
+        0
+      ],
+      [
+        "ADD",
+        0,
+        3,
+        "1",
+        0
+      ],
+      [
+        "MOVE",
+        0,
+        0,
+        1,
+        false
+      ],
+      [
+        "ADD",
+        4,
+        0,
+        "1",
+        1
+      ],
+      [
+        "MOVE",
+        1,
+        0,
+        1,
+        false
+      ],
+      [
+        "MOVE",
+        3,
+        0,
+        1,
+        false
+      ],
+      [
+        "MOVE",
+        5,
+        0,
+        1,
+        true
+      ],
+      [
+        "ADD",
+        0,
+        5,
+        "1",
+        1
+      ],
+      [
+        "ADD",
+        5,
+        0,
+        "-1",
+        1
+      ],
+      [
+        "ADD",
+        0,
+        5,
+        "1",
+        1
+      ],
+      [
+        "CLEAR",
+        5,
+        1
+      ],
+      [
+        "ADD",
+        3,
+        0,
+        "1",
+        1
+      ]
+    ]
+  },
+  "negative_controls": [
+    {
+      "exact_Q2_error": {
+        "0": "2"
+      },
+      "mutation": "forward_donor_restoration"
+    },
+    {
+      "mutation": "omit_stationary_control",
+      "rejection": "full symbolic endpoints"
+    },
+    {
+      "mutation": "omit_snapshot_copy",
+      "rejection": "full symbolic endpoints"
+    },
+    {
+      "mutation": "omit_terminal_common_correction",
+      "rejection": "full symbolic endpoints"
+    },
+    {
+      "mutation": "omit_donor_restoration",
+      "rejection": "full symbolic endpoints"
+    },
+    {
+      "mutation": "omit_future_owned_control",
+      "rejection": "full symbolic endpoints"
+    },
+    {
+      "mutation": "public_CLEAR",
+      "rejection": "owned CLEAR"
+    },
+    {
+      "mutation": "nonzero_COPY_destination",
+      "rejection": "zero COPY destination"
+    }
+  ],
+  "new_complete_kappa": null,
+  "scope": "Universal proof plus complete symbolic input-column checks of explicit toy words; not a frozen-native crossing construction.",
+  "source_crossing_constructed": false,
+  "source_metadata": {
+    "COPY_events": [
+      [
+        31737,
+        [
+          "COPY",
+          1504,
+          770,
+          "1",
+          115
+        ]
+      ]
+    ],
+    "main_roles": 400,
+    "native_declared_owned": 51,
+    "native_instructions": 71261,
+    "native_public": 1480,
+    "raw_main_reservations": 1710,
+    "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883"
+  },
+  "stationary_snapshot": {
+    "baseline_native_operations": 5,
+    "baseline_raw_MOVEs": 2,
+    "endpoint_rows": {
+      "0": {
+        "0": "1"
+      },
+      "1": {
+        "1": "1"
+      },
+      "2": {
+        "0": "1",
+        "2": "1"
+      },
+      "3": {
+        "3": "1"
+      },
+      "4": {
+        "3": "1",
+        "4": "1"
+      }
+    },
+    "extra_MOVEs": 0,
+    "extra_operations": 9,
+    "tariff": {
+      "counts": {
+        "ADD": 8,
+        "CLEAR": 1,
+        "INIT": 1,
+        "MOVE": 6
+      },
+      "declared_owned": 1,
+      "final_owned": 0,
+      "instructions": 16,
+      "owned_lifetimes": 1,
+      "peak_owned": 1
+    },
+    "word": [
+      [
+        "ADD",
+        3,
+        0,
+        "-1",
+        0
+      ],
+      [
+        "ADD",
+        0,
+        3,
+        "1",
+        0
+      ],
+      [
+        "MOVE",
+        3,
+        0,
+        1,
+        false
+      ],
+      [
+        "INIT",
+        5,
+        1
+      ],
+      [
+        "ADD",
+        5,
+        3,
+        "1",
+        1
+      ],
+      [
+        "MOVE",
+        3,
+        1,
+        2,
+        false
+      ],
+      [
+        "MOVE",
+        0,
+        0,
+        1,
+        false
+      ],
+      [
+        "ADD",
+        4,
+        0,
+        "1",
+        1
+      ],
+      [
+        "ADD",
+        2,
+        0,
+        "1",
+        1
+      ],
+      [
+        "ADD",
+        2,
+        5,
+        "-1",
+        1
+      ],
+      [
+        "CLEAR",
+        5,
+        1
+      ],
+      [
+        "MOVE",
+        0,
+        1,
+        2,
+        false
+      ],
+      [
+        "MOVE",
+        1,
+        0,
+        1,
+        false
+      ],
+      [
+        "MOVE",
+        1,
+        1,
+        2,
+        false
+      ],
+      [
+        "ADD",
+        0,
+        3,
+        "-1",
+        2
+      ],
+      [
+        "ADD",
+        3,
+        0,
+        "1",
+        2
+      ]
+    ]
+  },
+  "status": "PASS_UNIVERSAL_DIFFERENCE_CARRIER_EXAMPLES",
+  "two_loans": {
+    "W": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "2",
+        "1"
+      ]
+    ],
+    "b21": "2",
+    "endpoint_rows": {
+      "0": {
+        "0": "1"
+      },
+      "1": {
+        "0": "2",
+        "1": "1"
+      },
+      "2": {
+        "2": "1"
+      },
+      "3": {
+        "3": "1"
+      },
+      "4": {
+        "2": "1",
+        "4": "1"
+      },
+      "5": {
+        "3": "1",
+        "5": "1"
+      }
+    },
+    "tariff": {
+      "counts": {
+        "ADD": 13
+      },
+      "declared_owned": 0,
+      "final_owned": 0,
+      "instructions": 13,
+      "owned_lifetimes": 0,
+      "peak_owned": 0
+    },
+    "word": [
+      [
+        "ADD",
+        2,
+        0,
+        "-1",
+        0
+      ],
+      [
+        "ADD",
+        0,
+        2,
+        "1",
+        0
+      ],
+      [
+        "ADD",
+        4,
+        0,
+        "1",
+        0
+      ],
+      [
+        "ADD",
+        1,
+        0,
+        "2",
+        0
+      ],
+      [
+        "ADD",
+        3,
+        1,
+        "-1",
+        0
+      ],
+      [
+        "ADD",
+        1,
+        3,
+        "1",
+        0
+      ],
+      [
+        "ADD",
+        5,
+        1,
+        "1",
+        0
+      ],
+      [
+        "ADD",
+        0,
+        2,
+        "-1",
+        0
+      ],
+      [
+        "ADD",
+        1,
+        2,
+        "-2",
+        0
+      ],
+      [
+        "ADD",
+        1,
+        3,
+        "-1",
+        0
+      ],
+      [
+        "ADD",
+        3,
+        1,
+        "1",
+        0
+      ],
+      [
+        "ADD",
+        3,
+        2,
+        "2",
+        0
+      ],
+      [
+        "ADD",
+        2,
+        0,
+        "1",
+        0
+      ]
+    ],
+    "z_columns": [
+      [
+        "1",
+        "2"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ]
+  }
+}

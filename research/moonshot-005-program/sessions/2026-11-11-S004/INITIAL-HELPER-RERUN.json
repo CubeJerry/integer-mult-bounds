@@ -1,0 +1,47 @@
+{
+  "actual_required_endpoint_dependencies": 104,
+  "all_eligible_helper_columns_zero_on_all_receiver_histories": true,
+  "certificate_sha256": "df858b554c354bb998c3158f3e04651ad20a07247202d0faacf6e0b7472d8f79",
+  "donors_with_nonempty_eligible_set": 88,
+  "eligible_initial_helpers": 45,
+  "entry_receivers": 200,
+  "history_census": {
+    "all_historical_field_states": 72687,
+    "nonzero_other_helper_rows_at_relevant_charts": 26,
+    "relevant_historical_field_states": 32017
+  },
+  "native_instructions": 71261,
+  "negative_controls": [
+    {
+      "change": "inject into the actual common main input rather than an eligible helper input",
+      "donor": 6,
+      "endpoint_coefficient": "1",
+      "outside_scope": "This modifies a required common-main endpoint; it is not an initial-helper substitution.",
+      "receiver": 118
+    },
+    {
+      "change": "grant receiver access to final helper rows at chart127",
+      "donor": 41,
+      "helper_inputs": [
+        741,
+        1357,
+        1365,
+        1373,
+        1380,
+        1385,
+        1392,
+        1397,
+        1448
+      ],
+      "independent_observable_modes": 9,
+      "outside_scope": "Chart127 is absent from the receiver itinerary; these nine exact identity rows become available only under changed geometric access.",
+      "receiver": 153
+    }
+  ],
+  "nonentry_donors": 200,
+  "nontrivial_nonempty_helper_dependency_pairs": 46,
+  "scope": "For every actual nonentry-to-entry endpoint dependency, arbitrary changes confined to helper inputs initially accessible on the donor itinerary and ending at127 leave every native historical observation on the receiver itinerary unchanged. Observation and donor/receiver access clocks waived; common native instruction order fixed. Does not cover midrun state injection, changed native operations, extra observation geometry, or additional source channels. No new kappa.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_ALL_HISTORY_INITIAL_HELPER_COLUMN_ANNIHILATION",
+  "trivial_empty_helper_dependency_pairs": 58
+}

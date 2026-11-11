@@ -7,47 +7,43 @@ Canonical base e54523517d0f03e58352e647c403a5af3e525a57 still selects conditiona
 κ=.00363005817 through #7000/#7001. Five foundational assumptions remain.
 **No new κ.** The selected record controls over stale historical guidance.
 
-## Current frontier: preserve modes and use active helper routes (S004)
+## Current frontier: controlled helper signals and terminal restoration (S004)
 
-The preferred eight-current reference still removes 14 owned MOVEs, including
-all four historical returns, and leaves 26 physical observer terms. Its
-provisional allowance is below 20.801032491590 per native. The independently
-reviewed S003 prefixes genuinely acquire two authentic source forms while
-preserving all 1,880 inputs. Those local constructions remain valid.
+The new [difference-carrier interface](results/difference-carrier/PROOF.md)
+uses two cochart ADDs to replace helper h by q and retain delta=q-h in the raw
+donor. Given actual source-safe delivery, terminal-supported common response
+and recovery rows, cochart corrections restore every common input and donor.
+Real stationary snapshots implement later controls along funded routes.
+Multiple loans restore donors in reverse chronological order, with exact
+cross-loan coefficients and no auxiliary inverse or recovery temporary.
+Four typed illustrative networks and independent review establish these
+claims; they are not useful crossing witnesses for the frozen native.
 
-Their unchanged poststates cannot, however, support an affordable complete
-continuation on the original route geometry. The new [terminal export
-proof](results/terminal-hub-export/PROOF.md) identifies 52 independent donor
-modes deposited at chart 127, which has no outgoing edge among all 6,310
-original MOVEs. Required outputs outside that chart have rank 52; the two
-acquired forms supply rank two. At least 50 additional exported field units
-are necessary, versus at most eight under the facet price and two under the
-direct price. Even granting 33 freely retargeted difference-owned messages
-leaves a deficit of 17. This is a scoped exclusion of these literal prefix
-continuations, not a defect in their acquisition proof or a global lower bound.
+The immediate task is one real source control/observation certificate, followed
+by a complete1880-input word and composition of enough independent deliveries.
+Baseline rowspace membership alone does not establish perturbed signal gain.
 
-Retaining raw histories before the final ascent avoids that particular loss,
-but does not solve delivery. The new [static cut
-proof](results/static-history-obstruction/PROOF.md) grants every raw coordinate
-at every original main location, and allows unlimited reordering/reuse of all
-main, owned and quiet-loan arcs. A closed set of 220 charts still separates
-46 independent endpoint modes. After the two acquired forms, at least 44
-further crossing field units remain. If only eight new paid units fit, at
-least 36 must come from informative uses of other original operations or a
-separately priced change of interface. There are 399 original nonquiet helper
-crossings of this cut; their usefulness and arbitrary-common-state restoration
-are unproved. The 50 and 44 bounds have different premises and are not added.
+Two verified barriers guide this construction. The [terminal theorem](results/terminal-hub-export/PROOF.md)
+excludes affordable continuation of unchanged S003 prefixes:52 independent
+modes reach chart127, which has no original outgoing route; only rank2 is
+outside, requiring50 new exports. Local acquisition remains valid. The
+[static cut](results/static-history-obstruction/PROOF.md) grants all raw
+histories and arbitrary main/owned/quiet reuse, yet separates46 endpoint modes
+behind220 charts. Informative nonquiet helper traffic or a new interface is
+necessary;399 candidate source crossings are not implementations.
 
-The next construction must preserve modes before terminal deposition and use
-active helper traffic with complete restoration, or change the geometry and
-recompute the full invoice. S004 is investigating delayed endpoint restoration
-of borrowed helper modes. This is work in progress until a typed source witness
-and independent review are recorded. [CONTINUATION.md](CONTINUATION.md) gives
-the exact next obligation. Repeated acquisition of the same two forms and
-implementation of their 13 reads alone cannot resolve these rank deficits.
+The redesign omits the failed acquisitions. Under the conditional S8 ledger,
+headroom20.801032491587519 permits at most20 new complete calls and still
+requires26 informative original crossings. The [budget corollary](results/static-history-obstruction/S8-BUDGET-COROLLARY.md)
+distinguishes this from36/42 after the paid Facet/Direct alternatives. No forms
+are acquired for free. The [initial-helper theorem](results/initial-helper-annihilation/PROOF.md)
+excludes the simpler initial substitution family on every required receiver
+history; midrun changes remain outside that scope.
 
-Compatible complex and BIT suppliers, physical scalar/storage/precision costs,
-owned erasure, complete recursion and all five foundations remain open.
+S8's26 observers or a proved whole endpoint-equivalent replacement remain
+open. All scalar/storage/precision, erasure, compiler and recursive costs,
+compatible complex/BIT suppliers and five foundations remain explicit.
+[CONTINUATION.md](CONTINUATION.md) defines the next task.
 **No new kappa; ongoing programme, not PR-ready.**
 
 ## Evolving construction

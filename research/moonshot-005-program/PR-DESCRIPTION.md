@@ -283,3 +283,25 @@ results preserve all S003 prefix bytes and their credit. Prepared for
 @CubeJerry with substantial OpenAI assistance; agent verification does not
 replace human or formal review. **No new kappa.** The cumulative branch remains
 an ongoing programme rather than a PR-ready complete construction.
+
+
+## S004 constructive extension: difference carriers and delayed restoration
+
+The [new interface](results/difference-carrier/PROOF.md) replaces helper h by q
+with two cochart ADDs while retaining q-h in the raw donor. Real stationary
+snapshots support later controls. Common endpoints restore first, then donors
+in reverse chronology with exact cross-loan coefficients. No auxiliary inverse
+or recovery temporary is needed. Four fully typed networks, all-input symbolic
+verification, exact operation/lifetime counts and independent review establish
+these claims. Later controls are strictly stronger than same-cut controls in
+two examples. These examples are not the selected native.
+
+The [initial-helper theorem](results/initial-helper-annihilation/PROOF.md)
+excludes the simpler family for104 required pairs with all receiver histories.
+The [budget corollary](results/static-history-obstruction/S8-BUDGET-COROLLARY.md)
+restores the20-new-call ceiling when acquisition is omitted but still requires
+26 informative original crossings. An actual useful source control/decoder
+witness and its full composition/price remain missing. All source pins, tests,
+reviews and limitations are in the packages. Credit @CubeJerry, predecessor
+authors and S004 workers; OpenAI assistance disclosed. **No new kappa; not
+PR-ready.**

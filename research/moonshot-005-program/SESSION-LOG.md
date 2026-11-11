@@ -331,3 +331,31 @@ exact allocation proof were examined with their distinct verification status
 recorded. No external source package was merged and no upstream PR submitted.
 The resulting scientific SHA will be recorded in a later checkpoint to avoid
 self-reference. No new kappa. Next: actual typed active-helper transport witness.
+
+S004 checkpoint1 published and GitHub-confirmed at
+8145cd59891da9c24607840dc4e37bb7ed0df70d,
+tree bb117bd6b60c130b55b1fc266b4569d322677901. All four integrated author/reviewer
+reproduction receipts match their frozen originals. Integrity: 80 imports,
+443 scientific files, 244 reviewed author pins, three direct source pins.
+No concurrent programme advance or canonical main change was found.
+
+The next wave tested initial-helper substitution, broadened to arbitrary forms
+along a donor itinerary and every historical receiver observation. Exact
+source columns vanish for all 104 required donor/entry-receiver pairs (58
+empty and 46 nonempty helper sets). Root independently verified this using a
+full 1,480-input replay and complete historical support unions. The construction
+therefore moves to midrun replacement. A new two-ADD difference carrier retains
+q-h on the raw route and permits delayed common restoration; its universal
+composition proof and source control witnesses are being developed separately.
+
+
+Second reviewed milestone: two-ADD difference carriers, stationary controls
+and reverse chronological multiloan restoration are proved. Four typed networks
+have independent all-input review. A future-owned control example adds six
+ADDs without a new MOVE/lifetime and defeats same-cut correction. These are
+enabling constructions, not native source witnesses. Initial-helper annihilation
+is admitted with separate full-input review. The no-acquisition S8 baseline
+permits20 new calls and still requires26 informative original crossings; paid
+Facet/Direct constraints remain36/42. Prices and floor arithmetic were checked
+independently. Source control/decoder searches continue. No new kappa. The
+resulting checkpoint SHA is recorded later to avoid self-reference.

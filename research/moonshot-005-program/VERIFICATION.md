@@ -278,3 +278,23 @@ Reproduction commands are in both package READMEs. The terminal independent
 review script is under `results/terminal-hub-export/review/review.py`; pass the
 author directory to `--packet`. The eight-current reference, both acquisition
 prefixes and prior complete prices remain byte-identical. No new kappa.
+
+
+## S004 second reviewed checkpoint
+
+Initial-helper annihilation has a separate root full1480-input replay matching
+all200 donor helper sets and104 required pairs. It verifies helper restoration,
+main independence and historical support annihilation. Normal/-O agree; controls
+expose actual main-input influence, terminal-chart access and a forbidden helper
+column. The common source chronology is explicitly fixed.
+
+The difference-carrier proof has separate mathematical review and dense exact
+replay on four typed examples with5,5,5,6 independent inputs. Eight author mutants
+and reviewer controls cover wrong restoration order, omitted future control and
+early cache retirement. A gamma-zero example removes an old extra premise.
+Root read the proof and coupled-loan induction. Integrated reruns match both
+receipts. Only the reviewer README script path was corrected on integration.
+
+The S8 corollary retains all18 repetitions and exact reviewed source fractions.
+Its separate bridge review verifies the floor argument and26 baseline versus
+36/42 paid-acquisition bounds. No native crossing, supplier or kappa follows.
