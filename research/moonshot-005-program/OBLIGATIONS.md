@@ -168,3 +168,25 @@ primary preload task while retaining all prior evidence.
 Historical before-return observation obligations are legitimately removed by the
 new word, not declared solved at their former clocks. This distinction is why
 PRELOAD-FULL and RETURN-DEADLINE-4 remain valid without obstructing this variant.
+
+## S003 source-authentic relay update
+
+- PAUSED-ENDPOINT: PROVED for every admitted field volume and all1,880 inputs:
+  literal partial word preserves E(u), completes the selected second endpoint
+  and restores every common field. Two rank2 calls are new; the three reserved
+  1481 calls do not simultaneously fulfill their original duties. Evidence:
+  results/paused-common-loan/ and independent review/.
+- SELECTIVE-PAUSE: PROVED refinement using only4 hoisted main MOVEs, same word
+  counts/endpoint/costs. Independent schedule, algebra, reverse-source checks
+  establish the all-input map by composition, not a claimed second full matrix
+  run. Evidence: results/selective-paused-loan/ and review/.
+- AUTHENTIC-RELAY: PROVED exact59-term row, all13 reads, retirement40843 and
+  stale/raw counterexamples; four-port prefix CONDITIONALLY PROVED with3 live
+  owned outputs. Evidence: results/authentic-relay-interface/ and review/.
+- RELAY-ACQUIRE: OPEN primary. Supply r at541 and M_new if retained from actual
+  inputs under full accounting; then realize or legitimately replace every
+  receiver's future effect and retire all outputs. Funded main retiming is a
+  candidate outside fixed-clock obstructions, not an assumed construction.
+
+Unreviewed active-shadow and immediate cochart-restoration evidence is under
+wip/ with explicit status files; it does not extend the verified dependency graph.

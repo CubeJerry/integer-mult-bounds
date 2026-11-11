@@ -1,0 +1,128 @@
+{
+  "baseline_bill": {
+    "counts": {
+      "ADD": 61980,
+      "CLEAR": 54,
+      "COPY": 1,
+      "INIT": 54,
+      "MOVE": 8020,
+      "SCALE": 3662
+    },
+    "final_owned": 0,
+    "move_histogram": {
+      "1": 5065,
+      "2": 1188,
+      "3": 916,
+      "4": 353,
+      "5": 453,
+      "6": 25,
+      "7": 14,
+      "8": 6
+    },
+    "owned_labels_used": 51,
+    "owned_lifetimes": 54,
+    "peak_owned": 43
+  },
+  "baseline_instructions": 73771,
+  "boundary_ADDs_included": 800,
+  "common_input_directions": 1480,
+  "common_state_at_cut30773_restored": {
+    "live_owned_rows": 12,
+    "public_rows": 1480
+  },
+  "completed_selected_second_endpoint": {
+    "exact_physical_input_rows": {
+      "1573": "1",
+      "1677": "1"
+    },
+    "logical_output": 213,
+    "physical_output": 1677
+  },
+  "exact_new_weighted_Gaussian_cost_at_kappa_1_over_200": "2 * 2^(199/200)",
+  "funded_second_owned_slots": [
+    {
+      "rank": 1,
+      "source": 541,
+      "source_event": 30824,
+      "target": 534
+    },
+    {
+      "rank": 1,
+      "source": 534,
+      "source_event": 30826,
+      "target": 117
+    },
+    {
+      "rank": 4,
+      "source": 117,
+      "source_event": 30830,
+      "target": 594
+    }
+  ],
+  "independent_physical_inputs": 1880,
+  "loan_bill": {
+    "counts": {
+      "ADD": 61991,
+      "CLEAR": 56,
+      "COPY": 1,
+      "INIT": 56,
+      "MOVE": 8025,
+      "SCALE": 3662
+    },
+    "final_owned": 0,
+    "move_histogram": {
+      "1": 5067,
+      "2": 1190,
+      "3": 916,
+      "4": 354,
+      "5": 453,
+      "6": 25,
+      "7": 14,
+      "8": 6
+    },
+    "owned_labels_used": 52,
+    "owned_lifetimes": 56,
+    "peak_owned": 43
+  },
+  "loan_instructions": 73791,
+  "negative_controls": [
+    {
+      "mutation": "omit_donor_restoration",
+      "rejection": "mutant violates full1880-column endpoint map"
+    },
+    {
+      "mutation": "omit_common_repair_step",
+      "rejection": "mutant violates full1880-column endpoint map"
+    },
+    {
+      "mutation": "false_public_descent",
+      "rejection": "typed MOVE source and owner flag"
+    },
+    {
+      "mutation": "omit_middle_funded_leg",
+      "rejection": "typed MOVE source and owner flag"
+    },
+    {
+      "mutation": "wrong_endpoint_shear",
+      "rejection": "mutant violates full1880-column endpoint map"
+    }
+  ],
+  "new_paid_MOVE_ranks": [
+    2,
+    2
+  ],
+  "operation_delta": {
+    "ADD": 11,
+    "CLEAR": 2,
+    "INIT": 2,
+    "MOVE": 5
+  },
+  "retimed_main_MOVE_count": 1387,
+  "scope": "One exact missing q101\u2192q213 endpoint shear with dirty common native preserved. Three second-owned1481 routes carry this chosen q101 instead of their generally required delta1481; all other difference-native duties remain open. The two new rank2 complete-field routes and all ordinary/owned/boundary operations are charged. No complete supplier, target admission, or new kappa.",
+  "second_main_input_directions": 400,
+  "source_instructions": 71261,
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_EXACT_PAUSED_COMMON_ENDPOINT_LOAN",
+  "word_gzip_sha256": "49a09f2e47d25970b9cca65c510f4cedaae1e491bc1990bbe91e12175368415a",
+  "word_payload_sha256": "12184516c26af12642c869b75735bd816f1df9b6e364c09b6fabb0c3d7c3df92"
+}

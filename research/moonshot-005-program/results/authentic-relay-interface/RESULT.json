@@ -1,0 +1,38 @@
+{
+  "actual_relay_support": 59,
+  "all_source_reads": 13,
+  "conditional_prefix_sha256": "124aec1cae3fa4e848b1f2dac14228de657c11c60a68b824e4867d5b3e2a79a1",
+  "funded_graph_missing_U_coordinates": 50,
+  "fused_U_support": 57,
+  "fused_W_support": 24,
+  "local_counts": {
+    "ADD": 7,
+    "INIT": 3,
+    "MOVE": 3,
+    "SCALE": 2
+  },
+  "local_four_port_instruction_count": 15,
+  "negative_controls": {
+    "q55_only": {
+      "actual_carrier": "-1/4",
+      "incorrect_half_entry": "1/4"
+    },
+    "q7_only": {
+      "actual_carrier": "-1/4",
+      "incorrect_half_entry": "0"
+    }
+  },
+  "owned_output_records": 3,
+  "retirement_event": 40843,
+  "scope": "Proved local reduction and full source lifetime audit. Conditional four-port prefix only; no oracle is inserted into a global1880-input word. Inputs, receiver-state continuation and retirement are unproved. No new kappa.",
+  "source_rows_sha256": "19b54793050e0d16ccaa3ff3297a2a9d093da0291d521dec999bd9e464ad9e56",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_EXACT_AUTHENTIC_RELAY_REDUCTION",
+  "two_observable_missing_minor": "-1/2",
+  "unproved_physical_input_ports": [
+    "actual B",
+    "actual M",
+    "actual G"
+  ],
+  "unproved_reduced_supply": "U at541 before30824; W additionally if current delta130 must be realized"
+}

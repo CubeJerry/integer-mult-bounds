@@ -161,3 +161,21 @@ The primary step is useful read-active helper recoding with legally delayed
 updates or shadow state, full dirty-input restoration and every cost exposed.
 The four-before-return rank4/two-helper obstruction applies to prepaid14, not
 S7's retained historicalreturns. No newkappa; native/suppliers/foundations open.
+
+## Reviewed source-authentic relay milestone (S003)
+
+The [paused common loan](results/paused-common-loan/PROOF.md) is an actual
+1,880-input partial construction: a helper carries q101, three reserved
+second-owned routes deliver it to q213, and two new rank2 transports restore
+both the arbitrary dirty common helper and donor. All800 boundary ADDs, common
+states, endpoints and cleanup are checked separately. The73,791-operation word
+completes endpoint213 in both copies. The [selective refinement](results/selective-paused-loan/PROOF.md)
+retimes only4 main MOVEs instead of1387. Other endpoints and original1481
+payload duties remain open; its conditional added moment is2*2^(199/200).
+
+Source-version checking caught a false shortcut before admission. The true
+owner1481 payload is r=(-A-B+M+G)/2 with59 terms, not half of151's entry row.
+The [authentic interface](results/authentic-relay-interface/PROOF.md) audits
+all13 reads through retirement40843 and provides a conditional three-record
+relay. Actual acquisition and receiver continuation are now the concrete task.
+Funded raw-main aggregation is under construction, not yet an admitted result.

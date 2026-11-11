@@ -1,0 +1,124 @@
+{
+  "additional_Gaussian_MOVEs": 0,
+  "baseline_bill": {
+    "counts": {
+      "ADD": 61980,
+      "CLEAR": 54,
+      "COPY": 1,
+      "INIT": 54,
+      "MOVE": 8020,
+      "SCALE": 3662
+    },
+    "final_owned": 0,
+    "move_histogram": {
+      "1": 5065,
+      "2": 1188,
+      "3": 916,
+      "4": 353,
+      "5": 453,
+      "6": 25,
+      "7": 14,
+      "8": 6
+    },
+    "owned_labels_used": 51,
+    "owned_lifetimes": 54,
+    "peak_owned": 43
+  },
+  "baseline_instructions": 73771,
+  "boundary_ADDs_included": 800,
+  "common_input_directions": 1480,
+  "difference_input_directions": 400,
+  "difference_shears": [
+    {
+      "closure_after_source_event": 33597,
+      "coefficient": "1",
+      "delivery_after_source_event": 32151,
+      "source_logical": 178,
+      "target_logical": 67
+    },
+    {
+      "closure_after_source_event": 37333,
+      "coefficient": "1",
+      "delivery_after_source_event": 36071,
+      "source_logical": 122,
+      "target_logical": 883
+    }
+  ],
+  "independent_input_directions": 1880,
+  "loan_bill": {
+    "counts": {
+      "ADD": 61998,
+      "CLEAR": 56,
+      "COPY": 1,
+      "INIT": 56,
+      "MOVE": 8020,
+      "SCALE": 3663
+    },
+    "final_owned": 0,
+    "move_histogram": {
+      "1": 5065,
+      "2": 1188,
+      "3": 916,
+      "4": 353,
+      "5": 453,
+      "6": 25,
+      "7": 14,
+      "8": 6
+    },
+    "owned_labels_used": 52,
+    "owned_lifetimes": 56,
+    "peak_owned": 43
+  },
+  "loan_instructions": 73794,
+  "negative_controls": [
+    {
+      "mutation": "omit_common_debt",
+      "rejected": "mutant violates full1880-column output map"
+    },
+    {
+      "mutation": "omit_helper_shadow",
+      "rejected": "mutant violates full1880-column output map"
+    },
+    {
+      "mutation": "wrong_helper_half",
+      "rejected": "mutant violates full1880-column output map"
+    },
+    {
+      "mutation": "restore_before_donor_arrival",
+      "rejected": "live cochart scalar"
+    },
+    {
+      "mutation": "wrong_q_delivery",
+      "rejected": "mutant violates full1880-column output map"
+    }
+  ],
+  "operation_delta": {
+    "ADD": 18,
+    "CLEAR": 2,
+    "INIT": 2,
+    "SCALE": 1
+  },
+  "physical_public_outputs": 1880,
+  "restorations": [
+    {
+      "all_common_rows_restored": true,
+      "common_public_rows": 1480,
+      "live_common_owned_rows": 28,
+      "name": "read_write",
+      "source_event": 33597
+    },
+    {
+      "all_common_rows_restored": true,
+      "common_public_rows": 1480,
+      "live_common_owned_rows": 41,
+      "name": "read_before_receiver_departure",
+      "source_event": 37333
+    }
+  ],
+  "scope": "Two exact scalar-word primitives with400 input differences and400 output recombinations, one full common native, and a raw400-main difference transport bank. This is not the complete difference native, supplier, price admission, or a new kappa. The34 immediate-closure candidates add no currently missing endpoint reach even under simultaneous granting.",
+  "source_instructions": 71261,
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_EXACT_ACTIVE_SHADOW_LOANS",
+  "word_gzip_sha256": "8d37ff0b45f0e69e79800ae5307dfc9b2c6c9e8fbdd1b957452a18254072260d",
+  "word_payload_sha256": "d7715c5fb44e2c5bf434d7304db910adc2efda8cfaca05dee419b0a91ed67412"
+}

@@ -247,3 +247,20 @@ source admission. #6916/#6773 descriptions reviewed for publication quality.
 Positive paused-common loan is under separate review. A proposed half-entry
 1481 payload was found stale because later151 updates and incoming1507 intervene;
 no incorrect source-authentic claim is admitted. No new kappa.
+
+S003 checkpoint3 published and GitHub-confirmed at
+50eabc441f97e2ccc4e78baf0795c70a61a78181,
+treeb298e9d2fb9d275e01a65e21608490ddc04b734a. Lifetime closure, fused block
+and BIT target audit include independent reviews. Integrity checking now
+recognizes flat reviewer manifests, explicitly covering12 previously unchecked
+review pins without modifying frozen scientific bytes.
+
+Next accepted milestone: the73,791-operation1880-input paused-common endpoint
+loan with2 paid rank2 repairs, all800 boundaries and separate full-column
+reconstruction; selective4-route refinement independently checked by state
+composition; corrected59-term authentic1481 row with all13 reads through40843.
+Stale-entry and raw-current-M substitutions are refuted before admission.
+Active-shadow census/common151 barrier are preserved as author-only WIP.
+At09:35:34 UTC upstream and programme remote were unchanged. Actual two-output
+acquisition through retimed raw-main aggregation is under construction and
+review; this checkpoint presumes no outcome. No new kappa.

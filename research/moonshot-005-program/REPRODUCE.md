@@ -120,3 +120,16 @@ macros, all4 words and their dependency closures before checking full endpoints
 and dyadic prices. The BIT review independently reconstructs both profiles and
 certifies the target sign with decimal-grid integer roots. Neither needs
 network access. No raw numerical root or finite search is promoted to a theorem.
+
+## S003 loan and authentic relay
+
+```sh
+P=research/moonshot-005-program/results
+S=research/shared-wire-split-composition/data/final.json.gz
+python3 -B "$P/paused-common-loan/review/independent.py" --source "$S" --packet "$P/paused-common-loan" --lifetime "$P/lifetime-elimination" --invoice research/shared-core-target-obligations/INVOICE-RESULT.json --output /tmp/paused-review.json
+python3 -B "$P/authentic-relay-interface/review/review.py" --source "$S" --author "$P/authentic-relay-interface" --output /tmp/relay-review.json
+```
+
+The selective-refinement review command is in its review/REVIEW.md. Frozen
+normal/-O receipts and pins accompany each implementation. The source relay
+review checks a conditional input interface, not actual acquisition.

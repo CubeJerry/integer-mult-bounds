@@ -205,3 +205,22 @@ Integrity-ledger correction: the checker now recognizes both wrapped and flat
 reviewed-file hash maps and rejects empty/unknown formats. Two S003 flat maps
 (previously already covered by the complete scientific byte manifest) now
 contribute their12 explicit author-pin checks. No frozen evidence was changed.
+
+## S003 physical loan, selective schedule and authentic relay
+
+The paused-loan reviewer rebuilt the word and replayed all1,880 physical input
+columns, common states at resumption, boundaries, lifecycle and seven mutants.
+The reviewer contributed the paused idea but did not import author code:
+independent implementation review, not independent origin or human review.
+All7 author files and the conditional S8 invoice are checked. The selective
+review instead reconstructs all73791 instructions, every raw itinerary and
+the exact h/x/y restoration, then uses reverse source COPY/endpoint checks to
+prove the all-input result by composition. It does not claim another complete
+forward matrix replay. Normal/-O receipts agree; all7 author files are pinned.
+
+The authentic-relay review uses fresh reverse adjoints for all source versions
+and13 reads, independent quiet/reverse reachability, and dense four-port replay.
+It confirms50 absent coordinates, minor-1/2 and both stale-version controls,
+and pins all8 author files. Actual input acquisition/receiver continuation
+are not established by this conditional prefix. Evidence in the three result
+packages and their separate review/ directories. No new kappa.

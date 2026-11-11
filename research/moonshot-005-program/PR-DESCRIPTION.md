@@ -223,3 +223,20 @@ it does not admit open#7177 or rule out changed natives. The programme remains
 ongoing and not PR-ready. No complete conditional target or new kappa is claimed.
 The description follows the detailed scope, full-cost, pin/reproduction and
 credit conventions reviewed in @CubeJerry's merged#6916 and#6773.
+
+## Physical helper transfer and corrected source contract
+
+The [paused loan](results/paused-common-loan/PROOF.md) is a complete typed
+partial construction on1,880 inputs, with800 boundaryADDs, two new rank2 repairs
+and three explicitly reserved second-owned routes. It restores arbitrary
+common states and completes both copies of endpoint213. A separate full-column
+review is included. The [selective refinement](results/selective-paused-loan/PROOF.md)
+retimes only4 main routes and has its own independent state-composition review.
+The original payload duties of the reserved routes remain explicit obligations.
+
+The [authentic relay analysis](results/authentic-relay-interface/PROOF.md)
+corrects a stale snapshot before acceptance: the actual59-term1481 row has
+13 reads through retirement40843. Pinned source rows, conditional owned-record
+interface, missing-mode minor and reverse-adjoint review identify the exact
+next acquisition/continuation task. No full shared native or new kappa is
+asserted. The cumulative branch remains ongoing and not PR-ready.

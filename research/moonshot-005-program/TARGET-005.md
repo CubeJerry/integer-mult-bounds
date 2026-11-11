@@ -237,3 +237,20 @@ all four QUERY events for free leaves target margin in a strictly negative
 interval near−0.06321643233964. Deleting QUERY349 alone leaves a deficit above
 333.06321643233964. The exact remaining gap is proved in results/bit-query-budget/.
 This is a fixed-profile target condition, not a global supplier impossibility.
+
+## Source-authentic relay and paid restoration
+
+The selected-endpoint loan uses three reserved1481 routes of ranks1,1,4 and
+two new rank2 calls. Its original1481 duties are not simultaneously served.
+P8+36 rank2 positions has153054 paid positions,rank surplus3580 and remaining
+moment/native about16.81487144027605. This is arithmetic coexistence, not full
+composition. The word has11 extraADD,5MOVE,2INIT/CLEAR pairs and800 boundaryADD;
+ordinary/lifecycle/precision charges remain. The four-route refinement has
+exactly the same invoice and narrows only the timing interface.
+
+The true source row r=(-A-B+M+G)/2 has59 terms and13 reads. The actual versioned
+ports are pinned in results/authentic-relay-interface/. For b=(q55-q101)/2,
+U=M-B+G-q130/2 and W=M+B+q130/2 give r=(U-b)/2,M_new=W+b. Fifty U coordinates
+are absent from the fixed granted graph; this is not fifty jobs. The absent
+q7,q4 restriction of U,W has determinant-1/2. Retimed acquisition must supply
+real fields and preserve the remaining main/receiver duties.
