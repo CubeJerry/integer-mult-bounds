@@ -70,3 +70,8 @@ independently replayed or admitted by this programme:
 
 #7161 remains open at its previously recorded head; no selected source changed.
 These are relevant scoped external findings, not accepted new programme premises.
+
+Final S002 canonical recheck during final S002 integration: main remains
+e54523517d0f03e58352e647c403a5af3e525a57. The permanent programme remote remained
+847f283aadaf73df96561f1667e449752557bd99 before final integration. No upstream
+changes or open-PR claims were silently merged into the pinned source.

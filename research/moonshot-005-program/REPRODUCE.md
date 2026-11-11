@@ -69,3 +69,24 @@ The demand review takes the compiler's DEMAND-PREFIX-RESULT.json, not the
 separate author replay receipt. Calendar commands print3144/3111 and913/902,
 106/106,0/0 respectively. Normal/-O records are provided; zero is no feasibility
 claim. Independent calendar review scripts take explicit --source/--author paths.
+
+## S002 final-wave acquisition and read-deadline checks
+
+The frozen package READMEs document author commands. Use explicit paths for
+portable independent reproduction (from repository root); store output outside
+the frozen result tree.
+
+```sh
+P=research/moonshot-005-program
+S=research/shared-wire-split-composition/data/final.json.gz
+python3 -B "$P/results/read-deadline-capacity/review/review.py" --source "$S" --author "$P/results/read-deadline-capacity/RESULT.json"
+python3 -B "$P/results/entry-preload/review/review_entry_preload.py" --source "$S" --certificate "$P/results/historical-owned/WITNESSES.json" --transcript "$P/results/entry-preload/preloaded-rail.json.gz" --author-result "$P/results/entry-preload/RESULT.json"
+python3 -B "$P/results/prepaid-historical-budget/review/check.py" --source "$S" --invoice research/shared-core-target-obligations/INVOICE-RESULT.json --current "$P/results/owned-difference-delivery/CERTIFICATE.json" --historical "$P/results/historical-owned/WITNESSES.json" --author "$P/results/prepaid-historical-budget/BUDGET.json"
+python3 -B "$P/verify_checkpoint.py"
+```
+
+Expected:8494 demand records,106/106 departure floors;71454 typed preload
+instructions, five historical helper observations discharged, four later owned
+observations retained; paid153090,targets27344,surplus3346,additional rank-one
+ceiling3. Normal/-O author and separate reviewer receipts are preserved.
+The400-input preload reference rail is not a complete1880-input shared lift.

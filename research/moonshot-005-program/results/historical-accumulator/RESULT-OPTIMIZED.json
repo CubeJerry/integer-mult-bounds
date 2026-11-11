@@ -1,0 +1,115 @@
+{
+  "status": "PASS_CONDITIONAL_LITERAL_DIFFERENCE_RAIL",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "certificate_sha256": "d46db515a5fead49b752b8d798472c883aff7698d7e5e948f0d4e336ec99054b",
+  "transcript_payload_sha256": "d7b27edbb63172f75a204e36404b1a8ebe00a682743371884d212c6bb31cb4fc",
+  "public_difference_rows_checked": 1480,
+  "independent_main_difference_inputs": 400,
+  "baseline": {
+    "counts": {
+      "ADD": 61180,
+      "SCALE": 3662,
+      "MOVE": 6310,
+      "INIT": 54,
+      "COPY": 1,
+      "CLEAR": 54
+    },
+    "move_histogram": {
+      "1": 4075,
+      "2": 828,
+      "3": 811,
+      "4": 241,
+      "5": 320,
+      "6": 17,
+      "7": 12,
+      "8": 6
+    },
+    "peak_owned": 43,
+    "owned_lifetimes": 54,
+    "final_live_owned": 0
+  },
+  "rewritten": {
+    "counts": {
+      "ADD": 61189,
+      "SCALE": 3662,
+      "MOVE": 6306,
+      "INIT": 58,
+      "CLEAR": 58,
+      "COPY": 1
+    },
+    "move_histogram": {
+      "1": 4075,
+      "2": 825,
+      "3": 811,
+      "4": 241,
+      "5": 319,
+      "6": 17,
+      "7": 12,
+      "8": 6
+    },
+    "peak_owned": 44,
+    "owned_lifetimes": 58,
+    "final_live_owned": 0
+  },
+  "saved_MOVE_histogram": {
+    "2": 3,
+    "5": 1
+  },
+  "operation_changes": {
+    "ADD": 9,
+    "SCALE": 0,
+    "MOVE": -4,
+    "INIT": 4,
+    "CLEAR": 4,
+    "COPY": 0
+  },
+  "rebindings": [
+    {
+      "physical_before_event": 28144,
+      "event": 28141,
+      "logical_owner": 1526,
+      "old_physical_owner": 1526,
+      "new_physical_owner": 1531,
+      "destination": 470
+    },
+    {
+      "physical_before_event": 33560,
+      "event": 33554,
+      "logical_owner": 1524,
+      "old_physical_owner": 1524,
+      "new_physical_owner": 1532,
+      "destination": 431
+    },
+    {
+      "physical_before_event": 34477,
+      "event": 34467,
+      "logical_owner": 1522,
+      "old_physical_owner": 1522,
+      "new_physical_owner": 1533,
+      "destination": 394
+    },
+    {
+      "physical_before_event": 37610,
+      "event": 37597,
+      "logical_owner": 1511,
+      "old_physical_owner": 1511,
+      "new_physical_owner": 1534,
+      "destination": 520
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "wrong_historical_coefficient",
+      "rejected": "mutated final effect"
+    },
+    {
+      "name": "wrong_accumulator_chart",
+      "rejected": "stationary accumulator chart"
+    },
+    {
+      "name": "omit_rebinding",
+      "rejected": "mutated final effect"
+    }
+  ],
+  "scope": "Conditional complete difference-rail rewrite only. All helper difference availability, the full shared native, source control/precision and five assumptions remain explicit. No new kappa."
+}

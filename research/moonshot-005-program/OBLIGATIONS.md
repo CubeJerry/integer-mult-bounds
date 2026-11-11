@@ -71,3 +71,49 @@ The all-live extension of CODED-LIFT is excluded on the fixed calendar; the
 conditional local identities remain valid. The earlier984 floor assumes
 literal main payloads and is not added to these new bounds. All positive
 construction results above remain partial or conditional; no supplier is admitted.
+
+
+## S002 final-wave refinements
+
+- READ-DEADLINE: PROVED calendar obstruction106 even when common states are
+  decoded only at actual source scalar reads and final outputs. Exact rational
+  independent review checks8494 demands. Evidence: results/read-deadline-capacity/.
+- OWNED-HISTORY: four exact historical difference identities and separating
+  functionals prove that literal owned/main history alone is insufficient;
+  historical helper information is necessary in that class. Their stationary
+  accumulator lowering is CONDITIONALLY PROVED with actual observation supply.
+  Evidence: results/historical-owned/ and results/historical-accumulator/.
+- QUIET-LOAN: PROVED literal seven-ADD route-loan primitive, but its raw example
+  is an entry-cochart shear and supplies no target saving. All354 ascending
+  quiet windows add no required endpoint reachability in the audited relaxation;
+ 104 of208 off-diagonal coefficients remain excluded by inherited monotone
+  geometry. This is not a104-job price floor. Evidence: results/quiet-route-loan/
+  and results/quiet-loan-scope/ with independent reviews.
+
+All these results concern the same joint-code construction. The key unresolved
+issue is actual source-safe observation delivery and endpoint correctness through
+funded routes, allowing intermediate main/common representations to change.
+
+### PRELOAD-HISTORY — explicit acquisition of five historical helper contributions
+
+Status: proved exact finite source transformation; conditional physical interface.
+Dependencies: OWNED-HISTORY's four identities, fixed source, homogeneous400-input
+q rail, four later owned observations. The entry construction forms four linear
+combinations at empty chart3 and pays ranks3,3,3,6 to deliver them. Its185 ADDs,
+4 INIT/CLEAR pairs, owned lifetimes and1480 public endpoints are independently
+replayed. This discharges the five historical helper-observation premises for
+these four returns only. Arbitrary helper/common inputs remain in the separate
+common rail; a400-column difference certificate is not an1880-column joint lift.
+
+Evidence: results/entry-preload/PROOF.md and review/REVIEW.md; exact profile and
+independent dyadic audit in results/prepaid-historical-budget/.
+
+Remaining precise local obligation: supply delta1499 after28113 at470,
+delta1497 after32558 at431, delta1495 after34450 at394, and delta1482 after37548
+at520, preserving source versions, physical owners and dirty common inputs.
+Also supply the ten earlier current observers and construct the full shared
+main/helper code. The prepaid provisional invoice allows less than
+3.924557776362 additional paid moment/native. This ceiling is necessary under
+that profile, not sufficient for any supplier or kappa theorem. Explore fused
+source blocks or changed funded payloads; do not restore every virtual main at
+every departure, a grammar excluded even with delayed common reads.

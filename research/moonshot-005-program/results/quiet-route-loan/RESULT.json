@@ -1,0 +1,98 @@
+{
+  "difference_formation_ADDs": 400,
+  "difference_outputs_checked": 400,
+  "extra_MOVEs": 0,
+  "extra_lifetimes": 0,
+  "extra_owners": 0,
+  "final_difference_effect": "q977 <- q977 + q907; every other q is unchanged",
+  "first_copy_roles_checked": 1531,
+  "first_copy_source_bill": {
+    "counts": {
+      "ADD": 61180,
+      "CLEAR": 54,
+      "COPY": 1,
+      "INIT": 54,
+      "MOVE": 6310,
+      "SCALE": 3662
+    },
+    "final_live_owned": 0,
+    "move_histogram": {
+      "1": 4075,
+      "2": 828,
+      "3": 811,
+      "4": 241,
+      "5": 320,
+      "6": 17,
+      "7": 12,
+      "8": 6
+    },
+    "owned_lifetimes": 54,
+    "owned_move_histogram": {
+      "1": 20,
+      "2": 9,
+      "3": 2,
+      "4": 13,
+      "5": 2,
+      "6": 1
+    },
+    "peak_owned": 43
+  },
+  "formal_input_columns": 1880,
+  "funded_second_main_MOVEs": 1710,
+  "loan_ADDs": 7,
+  "negative_controls": [
+    {
+      "mutation": "wrong_restore_sign",
+      "rejection": "exact full first-copy source output"
+    },
+    {
+      "mutation": "wrong_delivery_chart",
+      "rejection": "current cochart add"
+    },
+    {
+      "mutation": "wrong_public_MOVE_flag",
+      "rejection": "move ownership"
+    }
+  ],
+  "next_helper_use": 30837,
+  "physical_bill": {
+    "counts": {
+      "ADD": 61587,
+      "CLEAR": 54,
+      "COPY": 1,
+      "INIT": 54,
+      "MOVE": 8020,
+      "SCALE": 3662
+    },
+    "final_live_owned": 0,
+    "move_histogram": {
+      "1": 5065,
+      "2": 1188,
+      "3": 916,
+      "4": 353,
+      "5": 453,
+      "6": 25,
+      "7": 14,
+      "8": 6
+    },
+    "owned_lifetimes": 54,
+    "owned_move_histogram": {
+      "1": 20,
+      "2": 9,
+      "3": 2,
+      "4": 13,
+      "5": 2,
+      "6": 1
+    },
+    "peak_owned": 43
+  },
+  "physical_events": 73378,
+  "quiet_interval": [
+    28049,
+    30653
+  ],
+  "scope": "Exact complete reference source with raw difference carriers; final difference bank is one elementary shear, not the required second native action.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_EXACT_SOURCE_QUIET_LOAN",
+  "transcript_payload_sha256": "8cdcc10ec654b8b6364d7a56dbc7f6462294d7b0049f80b6845276c11d96a6c1"
+}

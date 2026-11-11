@@ -63,3 +63,28 @@ See results/encoded-prefix/. Ten exact owned-difference identities separately
 save about20.89550378 per native from doubled-owned work, conditionally leaving
 less than7.882575946582 for all other paid work. Their actual physical observers
 remain unbuilt; see results/owned-difference-delivery/. No new complete kappa.
+
+## S002 final construction: paid entry observations
+
+The calendar obstruction persists when common values are required only at actual
+reads and final outputs: departure-plus-endpoint difference decoding still needs
+106 added arrivals. A real quiet-route loan preserves all1880 input columns but
+buys no required geometric reachability; it does not solve this obstruction.
+
+Four additional historical owned-return identities lead to an explicit paid
+preload construction. Five helper-difference observations are replaced by four
+entry forms with supports44,44,44,49, using92 distinct input differences. Four
+paid MOVEs of ranks3,3,3,6 and185 ADDs replace returns of ranks2,2,2,5. The exact
+71454-instruction reference difference word preserves all1480 public endpoints,
+with four extra INIT/CLEAR pairs and peak44 owned fields. It is conditional on
+four later owned differences and the remaining reference difference rail.
+
+Together with the ten earlier conditional substitutions, the fully charged
+preload profile has headroom below3.924557776362/native, allowing at most3 more
+positive-rank arrivals. Preloads cost more than the four returns they replace;
+the advance is discharging five concrete observation premises, not a cheaper
+optimistic price. Input-difference formation, recoupling and all ordinary tariffs
+remain separate. The next target is an endpoint-correct shared code that supplies
+the four later owned observations and the ten current observers within this
+budget, or a proved structural revision of the profile. Universal main-departure
+decoding remains excluded. No new kappa; all five assumptions remain.

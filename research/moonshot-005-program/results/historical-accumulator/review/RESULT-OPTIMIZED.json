@@ -1,0 +1,35 @@
+{
+  "negative_control": "Adding independent entering helper difference402 invalidates the first return equality, confirming the required homogeneous input domain.",
+  "status": "PASS_INDEPENDENT_EXACT_CONDITIONAL_ACCUMULATOR_WORD",
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "transcript_sha256": "685ff6568d6266a422592507001eaa6039d4671a2006e251bce92926f4dd42f6",
+  "formal_main_inputs": 400,
+  "public_endpoints_compared": 1480,
+  "all_rebinding_equalities": [
+    28141,
+    33554,
+    34467,
+    37597
+  ],
+  "operation_changes": {
+    "ADD": 9,
+    "SCALE": 0,
+    "MOVE": -4,
+    "INIT": 4,
+    "CLEAR": 4,
+    "COPY": 0
+  },
+  "removed_moves": {
+    "2": 3,
+    "5": 1
+  },
+  "lifecycle": {
+    "baseline_peak": 43,
+    "new_peak": 44,
+    "baseline_lifetimes": 54,
+    "new_lifetimes": 58,
+    "final_live_owned": 0
+  },
+  "method": "Independent exact rational typed interpreter and GF2-span bit masks; author scientific code not imported or run.",
+  "scope": "Complete supplied homogeneous delta rail only; no physical acquisition of helper differences or shared H4 native is proved."
+}

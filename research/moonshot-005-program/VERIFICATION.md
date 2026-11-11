@@ -101,3 +101,37 @@ unverified. No complete supplier or global foundation is newly established.
 Independent implementations and mathematical reviews are separate from repeated
 execution of an author's verifier. No complete supplier, physical tariff,
 precision/owned service or multiplication exponent is established by these checks.
+
+## S002 final wave: source obligations and paid acquisition
+
+- Read-deadline capacity: lead's separate exact Fraction/min-pivot replay matches
+  all8494 modular author records, chart maxima and106/106,0/0 floors. Normal/-O
+  pass. An earlier slow insert-every-read diagnostic was interrupted; its later
+  closure-cached independent implementation completed. No interrupted result is
+  counted as verification.
+- Quiet loan: separate full1880-input reconstruction verifies all73378 typed
+  instructions,354 windows/35921 contacts and the dirty-helper obstruction.
+  Scope review confirms no new required endpoint reachability;104 forbidden
+  coefficients are not104 paid jobs.
+- Historical identities: independent dirty-input forward/reverse checks verify
+  four witnesses and nine exact after-event versions; sign/stale-version mutants
+  fail. Separate typed replay verifies the stationary-accumulator reference word.
+- Entry preload: independent reconstruction checks all71454 instructions and
+  all1480 public endpoint rows over400 independent q inputs. All six author pins
+  match. Wrong coefficient, false public ownership and stale rebinding mutations
+  fail. Normal/-O receipts agree; five historical helper observations are removed.
+- Prepaid budget: lead independently derives histograms from source occurrences
+  and verifies dyadic exact200th-power intervals inside author decimal intervals.
+  Both executions agree: paid153090,targets27344,surplus3346,headroom between3 and4.
+
+All source proofs are scoped to their stated interfaces. Other full-reference
+helper transports are not free H4 resources. Four later owned observations,
+ten earlier physical observers, all-input shared implementation and all ordinary/
+compiler/precision/foundational contracts remain open. No new complete kappa.
+Reviewer independence is separate model-assisted implementation, not human or
+formal-kernel acceptance.
+
+Integrated-path independent preload replay and independent prepaid budget both
+pass again from their final repository paths; receipts in sessions/2026-11-11-S002.
+The integrity gate covers80 imported files,240 scientific files,120 reviewed
+author pins and3 source pins. This is separate from mathematical checking.

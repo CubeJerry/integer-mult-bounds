@@ -130,3 +130,34 @@ zero is no feasibility claim. The construction now defers intermediate states.
 Ten owned difference identities conditionally save20.89550378/native but leave
 only7.882575946582 for all other paid work; physical observations remain open.
 Read-deadline decoding and route loans continue next. No new kappa; not PR-ready.
+
+### S002 second publication and final constructive wave
+
+The second scientific checkpoint was published and independently fetched at
+847f283aadaf73df96561f1667e449752557bd99, tree
+bc6f371b995ea9257e9a25f3cc87df072eed70be. It contains149 scientific files and70
+review pins. Final-wave research strengthens the calendar floor to actual common
+read deadlines (106 remains), checks a genuine quiet loan and its no-gain scope,
+and proves four historical owned identities beyond the ten current identities.
+
+A stationary-accumulator rewrite initially assumed five historical helper
+observations. The final entry-preload construction discharges all five through
+four paid entry forms, supports44,44,44,49, from92 distinct q inputs. Independent
+reconstruction verifies71454 instructions,1480 public endpoints,185 extra ADDs,
+4 INIT/CLEAR pairs, added ranks3,3,3,6 and removed ranks2,2,2,5. Four later owned
+observations and the remaining reference rail remain conditional. Full input
+encoding and ordinary physical prices are not waived.
+
+The exact complete provisional profile retains only<3.924557776362 paid
+moment/native; independent dyadic arithmetic agrees with the decimal certificate.
+The new four-route acquisition costs more than its four return savings. This is
+constructive premise discharge, not an exponent gain. Quiet loans add no required
+reachability and actual-read relaxation alone does not remove the106 obstruction.
+
+Canonical main rechecked during final S002 integration remains e54523517d0f03e58352e647c403a5af3e525a57.
+Open #7161/#7162/#7163 were selectively examined, not admitted. No complete new
+kappa or foundational assumption discharge; no upstream PR. Next: physically
+supply the four remaining owned observations and ten current observers inside
+an endpoint-correct joint code, or prove a better structural profile. Final
+publication identity is recorded in a later handoff checkpoint, avoiding
+self-reference. All three workers have frozen their final review packets.

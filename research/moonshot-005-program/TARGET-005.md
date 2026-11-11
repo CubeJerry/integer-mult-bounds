@@ -124,3 +124,50 @@ does not prove that the remaining native fits. Never subtract owned jobs absent
 from a changed representation's actual ledger. Pointwise observations, actual
 scalar/lifecycle costs, complex uniformity, compatible BIT above.005 and all
 outer assumptions remain. See the three new result packages and their reviews.
+
+
+## S002 historical returns and actual acquisition prices
+
+Four additional historical owned-difference identities remove ranks2,2,2,5
+provided five historical helper differences and four owned differences are
+physically available at their exact versions. Nine ADDs into four stationary
+accumulators implement them; the supplied homogeneous rail has +4INIT/+4CLEAR,
++4lifetimes, declared owned labels51→55 and actual peak43→44. The fully supplied
+rail is a reference execution, not free helper-difference resources in H4.
+
+Combining these with the ten current identities gives S14={1:6,2:4,3:1,4:1,5:1,6:1}.
+The conditional profile P4+18(O-S14) has raw moment in
+[338791374638780820,338791374638961182]/10^15 and per-native headroom strictly
+below18.821743035498. At most18 positive-rank extra arrivals fit. Every new
+historical helper premise remains charged unless an actual acquisition is built.
+
+The source-calendar106 lower bound survives the weaker interface in which
+common values are required only at actual ADD/COPY/SCALE reads and final public
+endpoints. Independent exact-rational replay matches all8494 modular demand
+records. Thus common quiet intervals alone cannot repair universal main-difference
+departure decoding. The theorem covers arbitrary V-coordinate linear codes;
+fused source blocks, deferred virtual departures and changed calendars remain open.
+
+### Paid historical preload closure (supersedes the free-history premise above)
+
+Let S14={1:6,2:4,3:1,4:1,5:1,6:1} and A={3:3,6:1}. The actual entry construction
+pays A to acquire the five historical helper-difference contributions. Its
+complete provisional profile is T=T4 and P=P4+18(O-S14+A). At t=199/200,
+
+70642039974319590/10^15 <= sum_r(T_r-P_r) r^t <= 70642039974500024/10^15.
+
+Consequently additional paid moment/native is strictly below3.924557776362,
+and at most3 more positive-rank arrivals can fit with all other terms fixed.
+Counts:27344 targets,153090 paid positions, rank surplus3346. The preload cost
+exceeds the four newly saved returns by a quantity in
+[3958018170220130,3958018170220138]/10^15 per native. The earlier18.821743035498
+headroom assumed free historical observations; it is not the prepaid budget.
+
+Local word:181 entry ADDs+4 owned-observation ADDs,4 INITs,4 CLEARs; four transports
+rank3,3,3,6 replace rank2,2,2,5. Formation of92 needed q=y-x values costs92
+cochart ADDs, or use362 direct entry ADDs from both original banks plus4 later
+owned ADDs. A full q bank and output recoupling, if used, are separately charged.
+Four later owned observations, all ten current observers and the rest of the
+shared native remain conditional. No ordinary, storage, precision, compiler,
+recursive or foundational contract is discharged by this paid-moment surplus.
+See results/entry-preload/ and results/prepaid-historical-budget/ including reviews.
