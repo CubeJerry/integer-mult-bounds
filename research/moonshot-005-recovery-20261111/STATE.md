@@ -34,6 +34,26 @@ cannot fund .005 through the current wrapper. The old input-lift Taylor test
 fails at target, but a sharper derivative test may repair it. Fragmentation
 changes target count, so the old cutoff11/floor12 cannot be reused blindly.
 
+## Checkpoint 2026-11-11T02:20Z
+
+Wave1 BIT theorem independently passed and published on
+research/moonshot-005-bit-bootstrap at a169504af5d7a394424bb19b10d58f1d1b5d1fce.
+All16 remote files match locally tested Git blobs; compare is one commit ahead,
+zero behind, additions only. Full prefilled form is recorded in PUBLISHED.json.
+
+Fragmentation independently verified: sharp22954 extra caller targets, or1276
+per repeated native. Independent integer-product/Abel proof certifies binary
+no-go. Owned-rise rank/scalar tradeoff also passed preliminary independent
+source checks; final review pending. Neither constructs a stronger supplier.
+
+Wave2: actual static ternary first-cut census has zero witnesses among4657
+dimension3/6 chart/cuts; independent scope review in progress. Full compiler
+feasibility for the hypothetical1276 profile passes a target-restriction bill,
+with actual ambient153^1920 and U=.00500006; written proof/review pending.
+
+Wave3: longer-rest/multiple-plane bus construction and new-chart or nonstatic
+ternary escape. Preserve source versions and all fees. Main remains e545235.
+
 ## Next action
 
 Finish proofs, challenge independently, refresh canonical SHA and live PRs;
