@@ -48,3 +48,11 @@ finite fixtures. No assumption is discharged at its full scope this session.
 | compiler | Finite mixed-target compilation, chronological product, completion and splitting satisfy uniform closure. | No new compiled supplier is materialized. |
 | precision_tape | Fixed-tape movement, precision and storage prescriptions apply to the new finite template. | New sidecars/scalars require fresh positive tariffs. |
 | analytic_recovery | Analytic decomposition, fine-prime avoidance and exact integer recovery follow the retained outer framework. | Partial CRT interfaces do not establish full recovery. |
+
+## S002 causal information and adaptive payloads
+
+**H4-ARRIVAL — proved in stated grammar.** Every allowed complete-array dimension with pinned literal main prefixes and actual main MOVE payloads needs984 incoming rows in the strengthened local-cache model. Fixed common helper payloads leave937 after47 owned credits. Evidence: results/causal-arrival-floor/PROOF.md, CERTIFICATE.json and review/REVIEW.md.
+
+**ADAPTIVE-PAYLOAD — open, primary.** Construct shared endpoints through changed main histories or useful adaptive main/helper payloads, preserving common information and all costs. Dependencies: H4-ARRIVAL, CODED-LIFT, H4-CAP. With literal main payloads at least839 helper arrivals must be informative within the otherwise fixed target budget.
+
+Equality at source-event boundaries alone does not force literal MOVE payloads. The independent review gives an exact two-chart recoding escape, deliberately outside the fixed-payload theorem.

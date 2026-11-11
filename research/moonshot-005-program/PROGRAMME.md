@@ -43,3 +43,7 @@ slack. Unconditionality also proves/bypasses all five global assumptions.
 Resume from STATE.json, TARGET-005.md and OBLIGATIONS.md. Preserve evidence on
 this permanent branch; never force-push or automatically submit upstream.
 The programme is ongoing and not yet ready for its cumulative PR.
+
+## S002 causal construction checkpoint
+
+The source-wide causal arrival theorem gives984 required rows with literal main prefixes and actual main MOVE payloads, even with free immutable caching and proactive coding. Fixed common helper payloads need937 added arrivals after all47 owned credits; unchanged H4 permits at most98. The construction now changes main-state encodings and borrows existing routes with adaptive payloads. A charged prefix remains under investigation. See H4-ARRIVAL and ERRATA.md. No new complete kappa.

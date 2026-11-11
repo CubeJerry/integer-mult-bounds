@@ -88,3 +88,22 @@ without substituting or adding incompatible bounds. Primary CODED-LIFT and all
 open supplier/foundation obligations are unchanged. Exact Git object identity
 is checked; this integration does not claim rerunning scientific suites.
 No new kappa, main change, force push, or upstream PR.
+
+## 2026-11-11 S002 — resumed causal construction, two-hour session
+
+Started 05:19:06 UTC at remote 091099b2d6898657b51ddadda5f9a581bacbb58b.
+Main remains e54523517d0f03e58352e647c403a5af3e525a57. Recovered S001 and the
+supporting integration; no restart or new permanent branch. Three workers cover
+changed-main construction, delivery/accounting and independent reconstruction.
+
+First verified milestone: causal excess-rank proof and exact 984 source count.
+Literal main MOVE payloads plus fixed common helper payloads leave 937 extra
+arrivals after granting all 47 owned routes, beyond the at-most-98 budget.
+Independent rational and fraction-free reconstruction agree on all innovations.
+Lead review required actual MOVE payloads, beyond merely restored macro boundaries;
+a temporary route-recoding escape is in the review and control suite.
+
+Current records correct a strict down-rounded decimal: the exact upper is
+221397923137950577/2250000000000000 (<98.399076951). ERRATA.md preserves historical
+wording and records unchanged integer conclusions. Construction and transport
+lending continue. No new kappa. A later checkpoint records this publication SHA.

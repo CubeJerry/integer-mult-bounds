@@ -35,3 +35,18 @@ SUPPORTING-IMPORTS.json. Complete helper/static-cut/compiler and shared-core
 packages supersede the earlier lost-packet status for those specific claims.
 The source chronology remains pinned; quiet-rechart notes are not promoted.
 The programme's stronger endpoint, switch and capacity results remain intact.
+
+## S002 targeted refresh — 2026-11-11
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57 at entry.
+
+| PR | Exact head | Status and relevance |
+|---|---|---|
+| #7161 | e3f8d39c43b07063dfc5b800f71c5d21015259e6 | Open .003644890067940 proposal: paid rank-one exit and causal split on a changed 17-stage caller. Not selected/imported. |
+| #7160 | 6160ff3751c9f69ef9bb099c2d853b85dcdea740 | Open 36-LOCAL BIT QUERY floor; does not supply BIT-NEW. |
+| #7159 | a3352606f71a97ab3a707ee6c5173df6345c5f38 | Open fixed-owned-receiver BIT sender/cochart restriction; separate source and construction. |
+
+#6916 was reread for mathematical description, cost, pins, reproduction and credit.
+Discussion start-here, handoff and active-board pages were read; visible comments
+are not exhaustive paginated coverage. Older monotone-frame/relay and prefix-
+minrank work was inspected; generic monotone reachability is not claimed new.

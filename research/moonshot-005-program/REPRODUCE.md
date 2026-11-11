@@ -40,3 +40,13 @@ For a fast read-only check of imported bytes, scientific manifests and reviewed
 hashes, run `python3 -B research/moonshot-005-program/verify_checkpoint.py`.
 Capture its stdout outside this tree before saving a new receipt here, so the
 JSON syntax check does not inspect a file concurrently being written.
+
+## S002 causal arrival theorem
+
+```sh
+python3 -B research/moonshot-005-program/results/causal-arrival-floor/verify.py
+python3 -I -B research/moonshot-005-program/results/causal-arrival-floor/review/review_deliveries.py --author-certificate research/moonshot-005-program/results/causal-arrival-floor/CERTIFICATE.json
+```
+
+Expected: 984 innovations, complete record agreement and explicit payload controls.
+Normal and optimized receipts are retained in the package.

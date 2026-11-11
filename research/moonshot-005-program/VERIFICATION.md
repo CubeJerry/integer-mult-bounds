@@ -64,3 +64,19 @@ PASS covers80 imported files,64 scientific files,18 reviewer pins and3 source
 pins. Receipt: sessions/2026-11-11-S001/checkpoint-integrity.json. This check
 verifies integrity and syntax, not theorems. Scientific publication was fetched
 back and its complete Git tree matched the local index exactly.
+
+## S002 causal-arrival verification
+
+Exact Fraction author replay and independent primitive-integer/max-pivot
+elimination reproduce all 71,261 events, 7,988 demands, 1,610 free main innovations
+and 984 arrival records. Author normal/-O receipts match. The independent checker
+imports no author routines. Controls cover source corruption, chart locality,
+all auxiliary arrivals granted (zero deficit), proactive potential inequalities
+and the nonliteral main-payload escape. All seven author files are independently
+pinned in results/causal-arrival-floor/review/REVIEWED-FILES.json.
+
+ERRATA.md corrects a directional decimal assertion without changing integer
+thresholds or frozen scientific bytes. Historical S001 reconstruction limitations
+for fragmentation/static-cut/compiler were superseded by the supporting integration;
+SUPPORTING-RESULTS.md records completed imported reviews. Quiet-rechart remains
+unverified. No complete supplier or global foundation is newly established.

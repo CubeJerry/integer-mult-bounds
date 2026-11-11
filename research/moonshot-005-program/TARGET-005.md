@@ -80,7 +80,7 @@ These are source/grammar-specific statements; none is a universal .005 ceiling.
 
 If a modified word retains the optimistic H4 target/paid profile except an
 extra paid correction, its full per-native moment must be <M4/18, strictly
-below98.39907695 at the target. This is an allowance on added work, while
+below98.399076951 at the target (see ERRATA.md). This is an allowance on added work, while
 13.012927833 is the required SAVING from doubled-owned work; do not interchange
 these numbers. Changing targets/caller requires a new budget.
 
@@ -96,3 +96,9 @@ with every extra MOVE below the complete allowance and restoration explicit.
 The62 pinned helper differences plus owned1503 are a static information interface,
 not a source, decoder or transport implementation. Test the first required delivery
 macro and its whole paid bill before expanding to a full native.
+
+## S002 causal arrival requirement
+
+For literal main prefixes AND actual main MOVE payloads, exact innovation count984 covers7,988 demands in522 charts. Free immutable caches, scalar work and arbitrary row teleportation are granted. Fixed common helper payloads supply no differential information; all47 owned arrivals still leave937 extras.
+
+The exact inherited receipt gives `M4/18 < 221397923137950577/2250000000000000 < 98.399076951 < 99`. At most98 added positive-rank MOVEs fit unchanged H4. Literal-main schemes need984-47-98=839 useful helper arrivals; nonliteral main payloads enter the generalized tally. Changed main histories need a new free-row/demand analysis. This necessary condition grants acquisition, timing and storage. Proof and separate review: results/causal-arrival-floor/.

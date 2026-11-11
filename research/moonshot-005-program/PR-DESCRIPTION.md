@@ -42,11 +42,19 @@ the proposed shared-core native and supplies an interface for the next attempt.
   owners give eventwise updates with explicit scalar/lifecycle costs. No
   source-wide observation schedule or new supplier is supplied.
 
+- **Causal arrival theorem.** Literal main prefixes and actual main MOVE payloads
+  require 984 row arrivals beyond free main routes, allowing immutable caches
+  and proactive coding. Fixed common helper payloads need 937 extras after 47
+  owned credits; unchanged H4 permits at most 98. Under literal main payloads,
+  variable helpers need 839 useful arrivals. Changed histories and adaptive
+  actual main payloads remain open. Independent exact elimination reproduces
+  every innovation; the review tests a legitimate excluded recoding escape.
+
 ## Complete accounting and limitations
 
 The recovered ideal H4 profile has27,344 targets,152,424 paid jobs and surplus
 5,056. Its .005 raw moment lies in(1771.183385,1771.183386). With18 native
-occurrences, added paid moment/native must be below98.39907695 with all other
+occurrences, added paid moment/native must be below98.399076951 with all other
 terms fixed. Endpoint repair alone gives complete margin below−1972.816614.
 The separate13.012927833 figure is the required saving from doubled-owned
 work, not the extra-cost allowance. Source-unit ordinary counts are not tape
@@ -79,7 +87,7 @@ Byte-preserved predecessors: `a169504af5d7a394424bb19b10d58f1d1b5d1fce`
 `65d4af8d22e8436d8aa0cbe48da6255d3aa1b135` (selector metadata; scientific
 source unchanged from`f4ea078929202b99b34dfc2f05a7b809718e0bdf`).
 [PROVENANCE.json](PROVENANCE.json) authenticates all80 imported files.
-Reconstructed fragmentation/rechart/compiler notes remain unreproduced.
+Completed fragmentation/static-cut/compiler and shared-core packages are imported with exact provenance; quiet-rechart remains unverified.
 
 ## Reproduction, independent review and full package
 
