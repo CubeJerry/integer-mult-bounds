@@ -3,8 +3,8 @@
   "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
   "base_tree": "1199c3d7a31fffa5ba5d41f10f1b933aacc797aa",
   "selected_kappa": "0.00363005817",
-  "updated_utc": "2026-11-11T14:48:57Z",
-  "status": "Seven independently verified contributions published; wave 4 narrowing compiler generation and CRT literal-refinement obligations",
+  "updated_utc": "2026-11-11T15:12:50Z",
+  "status": "Eight independently verified contributions published; wave 4 CRT projection proof under review; wave 5 effective native-word emission investigation active",
   "recovery_branch": "recovery/foundations-swarm-20261111-1313",
   "assumptions": [
     {
@@ -31,36 +31,36 @@
   "tasks": [
     {
       "worker": "tape_dispatch",
-      "wave": 4,
-      "track": 55,
+      "wave": 5,
+      "track": 54,
       "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
-      "scope": "Physical complement routing versus retained whole-row stream theorem",
-      "status": "Novelty-negative: existing elementary stream theorem already pays fixed routing; preserving exact remaining adapter boundary",
-      "dependency": "source-group package; 02-streams.tex item 4; #6878",
-      "path": "work/physical_complement_routing",
-      "next": "Save pinned negative checkpoint, then complementary cost review of all-rank metadata recurrence"
+      "scope": "Effective emitted compiler-word size from reviewed library counts and actual adapter producers",
+      "status": "Unverified source-bound reduction; no code",
+      "dependency": "022461f115369efd988ef8c459907f5544bb8bb3; #6878; #4638",
+      "path": "work/emitted_compiler_bound",
+      "next": "Pin local producer grammar and complete code-generation bill; respect common m=A=max target domain"
     },
     {
       "worker": "analytic_recovery",
       "wave": 4,
-      "track": 64,
+      "track": 80,
       "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
-      "scope": "Audit source-to-literal-machine refinement of CRT production paths",
-      "status": "Active host-control and source-interface inventory; no new theorem accepted",
-      "dependency": "forward commit 532b60a; frozen inverse 0e5f4c9 / 6acdebee",
+      "scope": "Finite-state quotient of CRT production closure, diagnostic erasure and binary simulation bounds",
+      "status": "Projection proof f37cb65a frozen for independent review; three independent meter perturbation fixtures pass",
+      "dependency": "scientific inverse c84b0e6; metadata-only head 8c0e55c9",
       "path": "work/crt_literal_refinement",
-      "next": "Propose precise refinement lemma or scoped obstruction"
+      "next": "Complete independent proof review and narrow reproducible audit before publication"
     },
     {
       "worker": "compiler_uniformity",
       "wave": 4,
-      "track": 54,
+      "track": 75,
       "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
-      "scope": "Effective all-rank compiler metadata construction with chronological exits",
-      "status": "Width-only bounds superseded by #4638/#5962; approved pivot to exact all-rank generation complexity",
-      "dependency": "#4638, #5962, #5071 and frozen source-group codec",
-      "path": "work/quantitative_rank_closure",
-      "next": "Pin unsolved generation statement and exact complete recurrence before coding"
+      "scope": "Complementary independent CRT projection proof review",
+      "status": "Reviewing frozen projection proof",
+      "dependency": "f37cb65a8c557d1e1bf03e6517bb760ce2ac9547df0bce7a4e76905711f0879e",
+      "path": "reviews/crt_projection_peer_review",
+      "next": "Check finite scientific state, all loops/call depth, erased assertions, binary time and visited-history bound"
     }
   ],
   "verified": [
@@ -98,6 +98,11 @@
       "result": "Map every source row to its whole complement invocation and child input slot without expanding replicas",
       "commit": "bd63147b1a193f68b5713e5814ac3b2c743beff8",
       "remote_blobs_match": 19
+    },
+    {
+      "result": "Generate exact chronological compiler library tables with product aggregation and explicit binary and tape cost bounds",
+      "commit": "022461f115369efd988ef8c459907f5544bb8bb3",
+      "remote_blobs_match": 27
     }
   ],
   "published": [
@@ -111,7 +116,8 @@
     {
       "slug": "encoded-balanced-crt-endpoint",
       "branch": "research/encoded-crt-endpoint-20261111-1313",
-      "commit": "532b60ac427f47191175aba2e1317db0f3508d51",
+      "commit": "d2ed3959c30528b0b85fc6d815d4ad4f94f6be86",
+      "scientific_commit": "532b60ac427f47191175aba2e1317db0f3508d51",
       "compare": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/encoded-crt-endpoint-20261111-1313?expand=1",
       "description_path": "research/encoded-balanced-crt-endpoint/PR-DESCRIPTION.md"
     },
@@ -139,7 +145,8 @@
     {
       "slug": "encoded-balanced-crt-inverse",
       "branch": "research/encoded-crt-inverse-20261111-1313",
-      "commit": "c84b0e619c4afb249fe65f568751858f5f1d0c83",
+      "commit": "8c0e55c9ba25ff2c8199b01539a4d56ae71a1473",
+      "scientific_commit": "c84b0e619c4afb249fe65f568751858f5f1d0c83",
       "compare": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/encoded-crt-inverse-20261111-1313?expand=1",
       "description_path": "research/encoded-balanced-crt-inverse/PR-DESCRIPTION.md"
     },
@@ -149,9 +156,16 @@
       "commit": "bd63147b1a193f68b5713e5814ac3b2c743beff8",
       "compare": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/source-complement-ports-20261111-1313?expand=1",
       "description_path": "research/source-complement-port-index/PR.md"
+    },
+    {
+      "slug": "quantitative-rank-library",
+      "branch": "research/chronological-library-table-20261111-1313",
+      "commit": "022461f115369efd988ef8c459907f5544bb8bb3",
+      "compare": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/chronological-library-table-20261111-1313?expand=1",
+      "description_path": "research/quantitative-rank-library/PR.md"
     }
   ],
-  "next": "Independently review all-rank compiler recurrence and CRT projection lemma; retain existing width and routing theorem credit.",
+  "next": "Review CRT refinement lemma; investigate effective native-word production; preserve model boundaries and final verification reserve.",
   "negative_and_superseded": [
     {
       "result": "Historical scale-ratio-only analytic bound",
@@ -171,8 +185,9 @@
   ],
   "latest_upstream_check": {
     "sha": "e54523517d0f03e58352e647c403a5af3e525a57",
-    "through_pr": 7273,
-    "selected_unchanged": true
+    "through_pr": 7276,
+    "selected_unchanged": true,
+    "pending_frontier": "Open #7274 proposes conditional 0.003645473221716; not selected or independently accepted here"
   },
   "reviewed_pending_publication": []
 }

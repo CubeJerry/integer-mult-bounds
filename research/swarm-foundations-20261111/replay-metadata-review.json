@@ -1,0 +1,29 @@
+{
+  "schema_checks": [
+    {
+      "package": "encoded-balanced-crt-endpoint",
+      "status": "PASS_METADATA_SCHEMA",
+      "task_outcome": "completed",
+      "replay_status": "ready",
+      "commands": 3,
+      "mode": "Official pinned validator in isolated minimal Git checkout; check_pins=False; immutable-source authenticity verified separately"
+    },
+    {
+      "package": "encoded-balanced-crt-inverse",
+      "status": "PASS_METADATA_SCHEMA",
+      "task_outcome": "completed",
+      "replay_status": "ready",
+      "commands": 3,
+      "mode": "Official pinned validator in isolated minimal Git checkout; check_pins=False; immutable-source authenticity verified separately"
+    }
+  ],
+  "catalogue_git_blob": "3404fbdd5e7529a0674eef26114b5071e4586cec",
+  "exact_original_cards": "both verified equal to pinned canonical catalogue",
+  "runner_sha256": "e1256016e7f51827d04fa2179255989f639ae1d97afaa9c16265f85a0c6abd70",
+  "replay_schema_corrections_only": {
+    "forward_head": "d2ed3959c30528b0b85fc6d815d4ad4f94f6be86",
+    "inverse_head": "8c0e55c9ba25ff2c8199b01539a4d56ae71a1473"
+  },
+  "scientific_bytes_unchanged": true,
+  "full_git_provenance_runner": "not run; exact exports and pins independently authenticated through targeted GitHub reads and package verifiers"
+}

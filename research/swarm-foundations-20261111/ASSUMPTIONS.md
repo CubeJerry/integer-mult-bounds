@@ -175,3 +175,27 @@ base e54523517d0f03e58352e647c403a5af3e525a57, with all intended Git blob
 hashes matching local reviewed bytes and zero deletions. Full PR descriptions
 are committed in their packages. No upstream PR was submitted. The selected
 conditional kappa remains 0.00363005817; all five assumptions remain retained.
+
+## Verified all-rank metadata and remaining emission obligation
+
+Commit `022461f115369efd988ef8c459907f5544bb8bb3` publishes
+`research/quantitative-rank-library`: all four evaluated integers a_n,B_n,
+P_n,O_n through N for the fixed separated default-height policy. Product
+aggregation yields N*polylog(N) indexed bit work and a separately charged
+N^2*polylog(N) fixed-tape construction. Existing width divisors are credited;
+a normalized contraction estimate bounds leaf/unit bit lengths without
+positive surplus. Author 1,061-row, separate root 336-row, universal cost
+review and two independent cut-pooling witnesses passed.
+
+This numerical evaluator fixes m=max target rank. The earlier source-port
+codec also admits larger ambient A; composition is established only on
+the common m=A domain unless an additional binding is proved. Native word
+production, coefficient/owner encodings, adapter production and physical
+execution remain separate. Wave 5 audits that precise remaining implication.
+
+Two CRT publication heads received only repository schema-enum corrections;
+see replay-metadata-review.json. Original scientific commit pins remain
+valid and all scientific source bytes are unchanged. Latest canonical main
+is still e545; open #7274 proposes a larger conditional coefficient but is
+not selected or independently accepted in this run. All five retained
+assumptions and selected kappa 0.00363005817 are unchanged.
