@@ -167,7 +167,7 @@ Local word:181 entry ADDs+4 owned-observation ADDs,4 INITs,4 CLEARs; four transp
 rank3,3,3,6 replace rank2,2,2,5. Formation of92 needed q=y-x values costs92
 cochart ADDs, or use362 direct entry ADDs from both original banks plus4 later
 owned ADDs. A full q bank and output recoupling, if used, are separately charged.
-Four later owned observations, all ten current observers and the rest of the
+Four later owned observations, all the observer premises for all ten current-cochart rewrites and the rest of the
 shared native remain conditional. No ordinary, storage, precision, compiler,
 recursive or foundational contract is discharged by this paid-moment surplus.
 See results/entry-preload/ and results/prepaid-historical-budget/ including reviews.

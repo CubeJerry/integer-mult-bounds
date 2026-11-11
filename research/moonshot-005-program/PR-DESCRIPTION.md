@@ -157,13 +157,13 @@ acquires their five helper contributions using four explicitly paid entry loads.
 Its full71454-instruction reference word is independently reconstructed and
 checked on400 independent difference inputs/all1480 public endpoints. Costs:
 185 ADDs,4 INIT/CLEAR pairs, added ranks3,3,3,6, removed ranks2,2,2,5,peak44.
-Input difference formation and output recoupling are separately priced.
+Input difference formation and output recoupling remain separate cost obligations.
 
 The [complete prepaid profile](results/prepaid-historical-budget/) has153090
 paid positions,27344 targets and3346 rank surplus. Exact independent rational
 intervals leave<3.924557776362 additional paid moment/native. These preloads
 increase the price versus the ten-substitution optimistic profile; they close
-five premises. Four later owned observations, ten current observers, the full
+five premises. Four later owned observations, the observer premises for all ten current-cochart rewrites, the full
 joint native, and every global supplier/foundation contract remain unresolved.
 [Quiet-route loan](results/quiet-route-loan/) is a verified dirty-input transform
 whose [scope obstruction](results/quiet-loan-scope/) prevents claiming useful

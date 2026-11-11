@@ -113,7 +113,7 @@ precision/owned service or multiplication exponent is established by these check
   instructions,354 windows/35921 contacts and the dirty-helper obstruction.
   Scope review confirms no new required endpoint reachability;104 forbidden
   coefficients are not104 paid jobs.
-- Historical identities: independent dirty-input forward/reverse checks verify
+- Historical identities: independent dirty-input forward replay and sparse dual checks verify
   four witnesses and nine exact after-event versions; sign/stale-version mutants
   fail. Separate typed replay verifies the stationary-accumulator reference word.
 - Entry preload: independent reconstruction checks all71454 instructions and
@@ -126,7 +126,7 @@ precision/owned service or multiplication exponent is established by these check
 
 All source proofs are scoped to their stated interfaces. Other full-reference
 helper transports are not free H4 resources. Four later owned observations,
-ten earlier physical observers, all-input shared implementation and all ordinary/
+the physical observer premises for the ten earlier rewrites, all-input shared implementation and all ordinary/
 compiler/precision/foundational contracts remain open. No new complete kappa.
 Reviewer independence is separate model-assisted implementation, not human or
 formal-kernel acceptance.
@@ -135,3 +135,8 @@ Integrated-path independent preload replay and independent prepaid budget both
 pass again from their final repository paths; receipts in sessions/2026-11-11-S002.
 The integrity gate covers80 imported files,240 scientific files,120 reviewed
 author pins and3 source pins. This is separate from mathematical checking.
+
+Final integrated read-deadline review completed and matches the frozen receipt:
+8494 records and106/106 departure floors. All three workers audited the published
+integration; only the wording clarifications recorded in SESSION-LOG were needed.
+Scientific bytes and all120 author-review pins remain unchanged.

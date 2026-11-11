@@ -85,6 +85,6 @@ positive-rank arrivals. Preloads cost more than the four returns they replace;
 the advance is discharging five concrete observation premises, not a cheaper
 optimistic price. Input-difference formation, recoupling and all ordinary tariffs
 remain separate. The next target is an endpoint-correct shared code that supplies
-the four later owned observations and the ten current observers within this
+the four later owned observations and the the observer premises for all ten current-cochart rewrites within this
 budget, or a proved structural revision of the profile. Universal main-departure
 decoding remains excluded. No new kappa; all five assumptions remain.

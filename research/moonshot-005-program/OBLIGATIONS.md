@@ -111,7 +111,7 @@ independent dyadic audit in results/prepaid-historical-budget/.
 Remaining precise local obligation: supply delta1499 after28113 at470,
 delta1497 after32558 at431, delta1495 after34450 at394, and delta1482 after37548
 at520, preserving source versions, physical owners and dirty common inputs.
-Also supply the ten earlier current observers and construct the full shared
+Also supply the the observer premises for the ten earlier current-cochart rewrites and construct the full shared
 main/helper code. The prepaid provisional invoice allows less than
 3.924557776362 additional paid moment/native. This ceiling is necessary under
 that profile, not sufficient for any supplier or kappa theorem. Explore fused

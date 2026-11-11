@@ -161,3 +161,38 @@ supply the four remaining owned observations and ten current observers inside
 an endpoint-correct joint code, or prove a better structural profile. Final
 publication identity is recorded in a later handoff checkpoint, avoiding
 self-reference. All three workers have frozen their final review packets.
+
+### S002 final scientific publication and review handoff
+
+Final scientific checkpoint published and GitHub-confirmed at
+**b1c6d43903dbf5bece96094e3b8bb9cc6e8812fb**, exact tree
+ce5c720ac713b829cd2508ef68375e0d562ca631. The fetched remote tree equals the local
+staged tree and the checkout was clean. Publication used an expected-HEAD,
+non-forced update; no concurrent remote advancement was found.
+
+All three workers performed a final read-only integration audit. Four wording
+clarifications are recorded without rewriting earlier session history: 'ten
+current observers' means the observer premises for TEN identities (32 witness
+terms:4main,25helper,3owned), not ten fields. Four preloads supply WEIGHTED helper
+contributions, with two historical helper terms combined in the chart394 form;
+they do not separately expose five helper values. Recoupling remains a separate
+cost obligation, not an admitted priced implementation. Independent historical
+verification used full1480-column forward replay and sparse dual checks; no
+additional reverse implementation for those four identities is claimed.
+Current control documents incorporate these clarifications; frozen evidence
+and its review pins are unchanged.
+
+Integrated-path independent read-deadline replay also completed:8494 exact
+rational records,106/106 departure floors. Integrated preload and prepaid-budget
+checks passed. The complete byte audit checks80 imported files,240 scientific
+files,120 reviewed author pins and3 source pins. Exploratory delayed-common
+probes are retained separately as WIP, with superseded helper-acquisition lead
+explicitly marked. No new kappa. Programme remains ongoing and not PR-ready.
+The next session resumes the precisely versioned shared-code observation
+obligation in STATE, not the now-discharged historical-helper acquisition step.
+
+Final07:14 UTC upstream check additionally inspected open #7164 and #7165,
+including #7165's exact pinned proof. Neither is selected or locally admitted;
+the different source/input/calendar contracts are recorded in EXTERNAL-RESEARCH.
+Construction worker independently executed all three new portable reproduction
+commands successfully after the publication, with no scientific-file edits.

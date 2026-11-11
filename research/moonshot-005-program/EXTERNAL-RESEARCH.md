@@ -75,3 +75,30 @@ Final S002 canonical recheck during final S002 integration: main remains
 e54523517d0f03e58352e647c403a5af3e525a57. The permanent programme remote remained
 847f283aadaf73df96561f1667e449752557bd99 before final integration. No upstream
 changes or open-PR claims were silently merged into the pinned source.
+
+## Final S002 upstream check:07:14 UTC
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; selected conditional
+kappa remains.00363005817. Two additional open contributions were examined:
+
+- [CrocSwap/integer-mult-bounds#7164](https://github.com/CrocSwap/integer-mult-bounds/pull/7164),
+  Clear1nsight head2a141395038cb62da26de84ee21cbcad44dbc979, independently reviews
+  the proposed #7161 conditional.003644890067940. PR body and exact source pins
+  inspected; its replay was not run here. Maintainer selection remains open.
+- [CrocSwap/integer-mult-bounds#7165](https://github.com/CrocSwap/integer-mult-bounds/pull/7165),
+  ToikY head16ea35caeeca1a166113ad21c76127f04889f6f5, gives a fixed-clock,
+  separately charged donor-chart obstruction for47 owned MOVEs of #7161. Read
+  PR body and research/p104-owned-move-transport-bound/PROOF.md (Git blob
+  6ec7e29d54f8de6e917d71ccae02e7f32d289767); no local rank-receipt reproduction
+  or admission claimed. It grants full-window row unions and excludes cheap
+  one-recipient replacements in that grammar. Changed clocks, cross-recipient
+  responses and nonadditive tariffs remain outside its scope.
+
+Compatibility: #7165 uses1499 arbitrary public inputs,17 native invocations and
+its own.0040075385047236 target. Our pinned1480-common/400-difference construction
+uses18 invocations and target.005. Its source-specific counts therefore do not
+transfer. The conceptual donor-distance/span test is relevant future evidence;
+it neither supplies our missing observations nor disproves our paid weighted
+preloads. No upstream code, source pin, selected certificate or assumption was
+changed during this check. Next sessions should avoid re-reading these bodies
+without a changed head or a concrete composition question.
