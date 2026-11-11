@@ -3,8 +3,8 @@
   "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
   "base_tree": "1199c3d7a31fffa5ba5d41f10f1b933aacc797aa",
   "selected_kappa": "0.00363005817",
-  "updated_utc": "2026-11-11T13:55:01Z",
-  "status": "Rolling wave 2 verification and publication; wave 3 candidates under bounded overlap review",
+  "updated_utc": "2026-11-11T14:03:39Z",
+  "status": "Wave 2 source index published after repaired-cost review; wave 3 caller/overlap feasibility active",
   "recovery_branch": "recovery/foundations-swarm-20261111-1313",
   "assumptions": [
     {
@@ -32,42 +32,42 @@
     {
       "worker": "tape_dispatch",
       "track": 53,
-      "scope": "Heterogeneous finite-rank physical call plan with V/W normalization",
-      "status": "Generic and selected rank-one control proofs reviewed; combining coherent package; root independent width/remainder CPU check next",
-      "path": "work/tape_selected_package",
+      "scope": "Actual root-cutoff production or exact predicate: source pins, overlap and full budget before implementation",
+      "status": "Feasibility and novelty review active; prior selected controller frozen awaiting independent executable review",
+      "path": "work/tape_cutoff_feasibility",
       "dependencies": [
         5158,
         7150,
         7151,
         6878
       ],
-      "wave": 2
+      "wave": 3
     },
     {
       "worker": "analytic_recovery",
       "track": 67,
-      "scope": "Current exact-layer contract through quantitative recovery",
-      "status": "CRT endpoint published and independently reviewed; reviewing source-index repair; wave 3 inverse-CRT novelty and budget reconnaissance",
-      "path": "work/analytic_recovery/encoded_crt_endpoint",
+      "scope": "Inverse balanced CRT encoded state interface; distinguish raw exceptional macro and payload converter",
+      "status": "Feasibility and overlap review active; prior forward endpoint published",
+      "path": "work/analytic_recovery",
       "dependencies": [
         7152,
         7154,
         6993,
         6982
       ],
-      "wave": 2
+      "wave": 3
     },
     {
       "worker": "compiler_uniformity",
       "track": 57,
-      "scope": "Lazy final-template owner/occurrence matching",
-      "status": "Contiguous source rank/unrank mathematics passes; repairing adversarial hash lookup cost before publication",
-      "path": "work/compiler_source_index/package",
+      "scope": "Independent dense CPU and explicit address-tree review of selected rank-one controller",
+      "status": "Independent verification active; source-row index already published",
+      "path": "reviews/tape_selected_peer_review",
       "dependencies": [
         6878,
         6901
       ],
-      "wave": 2
+      "wave": 3
     }
   ],
   "verified": [
@@ -80,6 +80,11 @@
       "result": "Uniform encoded forward CRT source-state endpoint",
       "commit": "532b60ac427f47191175aba2e1317db0f3508d51",
       "remote_blobs_match": 22
+    },
+    {
+      "result": "Contiguous replicated source rank/unrank with deterministic metadata costs",
+      "commit": "c5bcb6dc792f5fe4d8abe89a2a2854f148b09f2c",
+      "remote_blobs_match": 16
     }
   ],
   "published": [
@@ -96,9 +101,16 @@
       "commit": "532b60ac427f47191175aba2e1317db0f3508d51",
       "compare": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/encoded-crt-endpoint-20261111-1313?expand=1",
       "description_path": "research/encoded-balanced-crt-endpoint/PR-DESCRIPTION.md"
+    },
+    {
+      "slug": "lockstep-source-row-index",
+      "branch": "research/source-row-index-20261111-1313",
+      "commit": "c5bcb6dc792f5fe4d8abe89a2a2854f148b09f2c",
+      "compare": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/source-row-index-20261111-1313?expand=1",
+      "description_path": "research/lockstep-source-row-index/PR.md"
     }
   ],
-  "next": "Publish only independently verified repaired source index and source-bound controller; resolve inverse-CRT novelty and caller budget before any new implementation; preserve exact branches and checkpoint",
+  "next": "Finish independent selected-controller review and publish; accept new implementation scopes only after source-pinned novelty and complete budget checks; refresh upstream deltas",
   "negative_and_superseded": [
     {
       "result": "Historical scale-ratio-only analytic bound",
@@ -107,7 +119,7 @@
     },
     {
       "result": "Python hash-table source-index cost",
-      "status": "Independent counterexample found; positive counting/bijection intact; deterministic ordered and serialized-table repair in progress",
+      "status": "Repaired and published after independent mathematical, collision-family and cost-model review",
       "source": "reviews/source_index_peer_review/REVIEW.md"
     }
   ],
