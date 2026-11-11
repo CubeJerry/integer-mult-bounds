@@ -102,3 +102,25 @@ macro and its whole paid bill before expanding to a full native.
 For literal main prefixes AND actual main MOVE payloads, exact innovation count984 covers7,988 demands in522 charts. Free immutable caches, scalar work and arbitrary row teleportation are granted. Fixed common helper payloads supply no differential information; all47 owned arrivals still leave937 extras.
 
 The exact inherited receipt gives `M4/18 < 221397923137950577/2250000000000000 < 98.399076951 < 99`. At most98 added positive-rank MOVEs fit unchanged H4. Literal-main schemes need984-47-98=839 useful helper arrivals; nonliteral main payloads enter the generalized tally. Changed main histories need a new free-row/demand analysis. This necessary condition grants acquisition, timing and storage. Proof and separate review: results/causal-arrival-floor/.
+
+
+## S002: stronger interface gate and a conditional owned profile
+
+On the fixed paid source calendar, arbitrary physical codes do not suffice if
+virtual decoding is demanded too frequently. Extra arrival floors are3144 for
+all live roles,913 for current mains, and106 for main departures plus endpoints
+(common execution decoded throughout). The latter remains106 for every mixed
+one/two-owned calendar. Thus unchanged H4 excludes universal departure rebasing.
+Endpoint-only zero grants impossible arbitrary teleports and is not feasibility.
+
+Let O={1:20,2:9,3:2,4:13,5:2,6:1} be the owned profile and
+S={1:6,2:1,3:1,4:1,6:1} the ten conditional saved difference MOVEs. Given actual
+current physical observers, T_new=T4 and P_new=P4+18(O-S):27344 targets,153090
+paid positions, rank surplus3418. Its raw moment lies in
+(141.88636703828,141.88636703847), leaving less than7.882575946582/native for ALL
+additional paid work. At most seven positive-rank arrivals fit. The nine-route
+all-live prefix makes this union negative. The later four-route demand prefix
+does not prove that the remaining native fits. Never subtract owned jobs absent
+from a changed representation's actual ledger. Pointwise observations, actual
+scalar/lifecycle costs, complex uniformity, compatible BIT above.005 and all
+outer assumptions remain. See the three new result packages and their reviews.

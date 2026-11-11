@@ -1,0 +1,28 @@
+{
+  "status": "PASS_INDEPENDENT_MODULAR_DEPARTURE_AND_WEAKER_DEMAND_FLOORS",
+  "prime": 1000003,
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "author_result_sha256": "3f09cee23e334a2a60c0448778c3401be73d0480b8a23c0d2bc0029d7df32190",
+  "method": "Finite-field max-pivot replay; separate demand-history/funded-calendar merge using ordered event phases and bisect",
+  "extra_arrival_floors": {
+    "all_main_current": {
+      "1": 913,
+      "2": 902
+    },
+    "main_departure_and_endpoint": {
+      "1": 106,
+      "2": 106
+    },
+    "endpoint_only": {
+      "1": 0,
+      "2": 0
+    }
+  },
+  "records_compared": {
+    "all_main_current": 7294,
+    "main_departure_and_endpoint": 8094,
+    "endpoint_only": 6710
+  },
+  "chronology": "Departure phase0, funding phase1, arrival demand phase2, main update phase3, endpoint phase4. Future arrivals do not fund departure observations.",
+  "scope": "Common first-copy current rows always decoded, fixed funded calendar. Endpoint-only zero means this relaxation gives no obstruction; it proves no physical feasibility."
+}

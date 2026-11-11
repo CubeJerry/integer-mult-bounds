@@ -1,0 +1,95 @@
+{
+  "status": "CONSTRUCTED_MAIN_DEMAND_PREFIX",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "cut": 25897,
+  "source_prefix_counts": {
+    "ADD": 24433,
+    "SCALE": 1380,
+    "MOVE": 84
+  },
+  "physical_prefix_counts": {
+    "ADD": 24860,
+    "SCALE": 1380,
+    "MOVE": 95,
+    "INIT": 11
+  },
+  "physical_events": 26346,
+  "extra_paid_histogram": {
+    "1": 4
+  },
+  "live_owned": 11,
+  "deliveries": [
+    {
+      "event": 25489,
+      "owner": 1931,
+      "virtual_owner": 830,
+      "rank": 1
+    },
+    {
+      "event": 25729,
+      "owner": 1934,
+      "virtual_owner": 812,
+      "rank": 1
+    },
+    {
+      "event": 25853,
+      "owner": 1936,
+      "virtual_owner": 320,
+      "rank": 1
+    },
+    {
+      "event": 25880,
+      "owner": 1939,
+      "virtual_owner": 355,
+      "rank": 1
+    }
+  ],
+  "main_parks": [
+    {
+      "event": 25717,
+      "owner": 1932,
+      "main": 108,
+      "retained_node": 100
+    },
+    {
+      "event": 25727,
+      "owner": 1933,
+      "main": 108,
+      "retained_node": 405
+    },
+    {
+      "event": 25797,
+      "owner": 1935,
+      "main": 23,
+      "retained_node": 20
+    },
+    {
+      "event": 25855,
+      "owner": 1937,
+      "main": 22,
+      "retained_node": 19
+    },
+    {
+      "event": 25859,
+      "owner": 1938,
+      "main": 22,
+      "retained_node": 429
+    },
+    {
+      "event": 25882,
+      "owner": 1940,
+      "main": 29,
+      "retained_node": 26
+    },
+    {
+      "event": 25886,
+      "owner": 1941,
+      "main": 29,
+      "retained_node": 439
+    }
+  ],
+  "main_decoders": 400,
+  "retained_input_differences": 400,
+  "transcript_payload_sha256": "9908825b9ec7e95a2c4809f07411b47c302488b1048cf04204e8c1c3f6410383",
+  "scope": "All first-copy roles and 400 second-copy current main values are represented; every original q input remains physically retained. No all-live second-helper cochart decoder is claimed. Partial prefix only; deferred demands and complete cost remain open."
+}

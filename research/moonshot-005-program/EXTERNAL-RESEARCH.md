@@ -50,3 +50,23 @@ Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57 at entry.
 Discussion start-here, handoff and active-board pages were read; visible comments
 are not exhaustive paginated coverage. Older monotone-frame/relay and prefix-
 minrank work was inspected; generic monotone reachability is not claimed new.
+
+
+### S002 midpoint check at 06:16:51 UTC
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. New open ToikY
+PRs were read at exact heads, including their PROOF.md files; they have not been
+independently replayed or admitted by this programme:
+
+- CrocSwap/integer-mult-bounds#7162, head d75f7b72a70ceed398a692c085fd4555f104d21a,
+  bounds paired BIT schedule changes at fixed endpoint/native/QUERY/IDLE tariffs
+  at κ=.0040075385047236. It does not itself supply a continuum statement at.005.
+  Relevant implication: changing stage counts alone supplies no new BIT provider.
+- CrocSwap/integer-mult-bounds#7163, head3bbbee9d709fe5f561920381a2d1b8f52338c972,
+  proves a paid-volume obstruction to packing independent full-fibre reflections
+  with address-preserving no-child maps for0≤κ≤1/2. Address-changing maps and
+  incomplete fibres remain outside its scope. This reinforces the need to charge
+  independent field volume and construct a genuinely changed BIT interface.
+
+#7161 remains open at its previously recorded head; no selected source changed.
+These are relevant scoped external findings, not accepted new programme premises.

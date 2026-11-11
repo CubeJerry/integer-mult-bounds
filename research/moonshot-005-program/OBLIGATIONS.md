@@ -56,3 +56,18 @@ finite fixtures. No assumption is discharged at its full scope this session.
 **ADAPTIVE-PAYLOAD — open, primary.** Construct shared endpoints through changed main histories or useful adaptive main/helper payloads, preserving common information and all costs. Dependencies: H4-ARRIVAL, CODED-LIFT, H4-CAP. With literal main payloads at least839 helper arrivals must be informative within the otherwise fixed target budget.
 
 Equality at source-event boundaries alone does not force literal MOVE payloads. The independent review gives an exact two-chart recoding escape, deliberately outside the fixed-payload theorem.
+
+
+## S002 decoder-contract reduction and constructive witnesses
+
+| ID | Exact scoped proposition | Evidence | Status / next obligation |
+|---|---|---|---|
+| H4-CALENDAR | For every admitted V and arbitrary linear physical codes on the fixed funded calendar, all-live decoding needs3144 extra arrivals. Current-main decoding needs913; main-departure plus endpoint decoding needs106, including every mixed owned calendar. | results/decoder-calendar-capacity/{PROOF.md,WEAKER-INTERFACES.md}; independent modular review | PROVED under common-state decoding premise. Endpoint-only zero is no obstruction, not feasibility. |
+| ENCODED-PREFIX | Literal cut25897 with four added rank-one MOVEs, eleven owned fields, all1880 input arrays retained,400 current mains decoded, and explicit unavailable helper332. | results/encoded-prefix/DEMAND-PROOF.md; review-demand/REVIEW.md | PROVED finite source construction. Fixed full-horizon graph needs2879 extra routes; future interface/cost open. |
+| OWNED-LOCAL | Ten named current-cochart difference identities imply ten removed difference-owned MOVEs if actual current physical observers and retirement/initialization are supplied. | results/owned-difference-delivery/PROOF.md, BRIDGE.md; review/REVIEW.md | Exact identities PROVED; physical lowering CONDITIONAL. Remaining moment below7.882575946582/native. |
+| DEADLINE-CODE | A source/read-deadline joint common/difference representation realizes all required endpoints with a full target-feasible invoice. | H4-CALENDAR; ENCODED-PREFIX; OWNED-LOCAL; retained CODED-LIFT | OPEN, primary. Need an indispensable funded transfer with dirty common information restored, not another universal departure-rebase schedule. |
+
+The all-live extension of CODED-LIFT is excluded on the fixed calendar; the
+conditional local identities remain valid. The earlier984 floor assumes
+literal main payloads and is not added to these new bounds. All positive
+construction results above remain partial or conditional; no supplier is admitted.

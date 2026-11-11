@@ -23,13 +23,13 @@ The first programme session proves restrictions that change the next task:
   helper-bank coding, or63 for balanced sharing. Peak43 cannot suffice. This
   is an information-capacity statement, not a paid-job lower bound.
 
-The programme now targets changed intermediate main information and explicitly
-funded difference delivery. The conditional CODED-LIFT-INTERFACE supplies exact
-updates if current cochart observations, safe snapshots and complete costs are
-provided. Constructing that causal observation schedule is the next decisive
-obligation; another favorable profile alone is insufficient. Extra parked
-fields, role-dependent temporal codes, changed contacts or fused native/caller
-boundaries remain possible, but require their own complete paid contracts.
+The programme now targets joint common/difference codes with explicit read
+deadlines. Intermediate virtual states may be deferred, while every required
+endpoint and arbitrary helper must be restored. CODED-LIFT remains a valid
+conditional event interface, but its all-live realization is too expensive on
+the original calendar even with arbitrary coded payloads. The next construction
+must change intermediate decoding requirements or funded arrival geometry,
+with full ownership, physical cost and recursive contracts.
 
 The alternative fixed-paid helper-refinement route now has restored, independently
 checked threshold, static-cut and compiler-specification packages. See
@@ -44,6 +44,22 @@ Resume from STATE.json, TARGET-005.md and OBLIGATIONS.md. Preserve evidence on
 this permanent branch; never force-push or automatically submit upstream.
 The programme is ongoing and not yet ready for its cumulative PR.
 
-## S002 causal construction checkpoint
+## S002 verified construction and interface reductions
 
-The source-wide causal arrival theorem gives984 required rows with literal main prefixes and actual main MOVE payloads, even with free immutable caching and proactive coding. Fixed common helper payloads need937 added arrivals after all47 owned credits; unchanged H4 permits at most98. The construction now changes main-state encodings and borrows existing routes with adaptive payloads. A charged prefix remains under investigation. See H4-ARRIVAL and ERRATA.md. No new complete kappa.
+The source-wide causal arrival theorem gives984 required rows with literal main prefixes and actual main MOVE payloads, even with free immutable caching and proactive coding. Fixed common helper payloads need937 added arrivals after all47 owned credits; unchanged H4 permits at most98. The construction now changes main-state encodings and borrows existing routes with adaptive payloads. A literal demand-driven prefix is now independently verified; its full-source continuation is still open. See H4-ARRIVAL and ERRATA.md. No new complete kappa.
+
+
+The stronger calendar theorem permits arbitrary physical linear codes. With
+common states decoded at every event, it requires 3144 extra arrivals for all
+virtual roles, 913 for all current mains, and106 for main departures plus final
+outputs. The latter survives every mixed one/two-owned calendar. Unchanged H4
+allows at most98. Endpoint-only differences give zero in this relaxation,
+which is not feasibility. See results/decoder-calendar-capacity/.
+
+The demand prefix through cut25897 uses four extra rank-one MOVEs and eleven
+owned fields, retains all1880 input arrays and decodes400 current main values.
+Its fixed full-horizon graph needs2879 extra routes and fails the target.
+See results/encoded-prefix/. Ten exact owned-difference identities separately
+save about20.89550378 per native from doubled-owned work, conditionally leaving
+less than7.882575946582 for all other paid work. Their actual physical observers
+remain unbuilt; see results/owned-difference-delivery/. No new complete kappa.

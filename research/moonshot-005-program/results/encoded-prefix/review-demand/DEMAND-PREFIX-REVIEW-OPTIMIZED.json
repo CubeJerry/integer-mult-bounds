@@ -1,0 +1,59 @@
+{
+  "combined_peak_owned": 11,
+  "cut_before_event": 25897,
+  "deferred_helper_witness": {
+    "chart": 381,
+    "difference": [
+      [
+        33,
+        "-1/2"
+      ],
+      [
+        108,
+        "1/2"
+      ],
+      [
+        109,
+        "1/2"
+      ]
+    ],
+    "outside_all_physical_destination_rows": true,
+    "outside_difference_span": true,
+    "role": 332
+  },
+  "extra_paid_histogram": {
+    "1": 4
+  },
+  "first_copy_roles_checked": 1531,
+  "formal_entering_inputs": 1880,
+  "funded_main_departure_payloads_checked": 7,
+  "negative_controls": [
+    {
+      "mutation": "wrong_owned_flag",
+      "rejection": "literal MOVE ownership flag"
+    },
+    {
+      "mutation": "wrong_main_departure_payload",
+      "rejection": "literal main departure difference"
+    },
+    {
+      "mutation": "false_input_retention",
+      "rejection": "retained input current initial chart"
+    }
+  ],
+  "owned_lifetimes": 11,
+  "physical_counts": {
+    "ADD": 24860,
+    "INIT": 11,
+    "MOVE": 95,
+    "SCALE": 1380
+  },
+  "physical_events": 26346,
+  "retained_input_differences_checked": 400,
+  "scope": "Exact finite typed demand-prefix. All first-copy roles, 400 current main values and 400 raw input differences checked; no current second-helper decoder or complete supplier/kappa.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_INDEPENDENT_TYPED_MAIN_DEMAND_AND_RETAINED_INPUT_PREFIX",
+  "transcript_payload_sha256": "9908825b9ec7e95a2c4809f07411b47c302488b1048cf04204e8c1c3f6410383",
+  "typed_ownership_and_chart_guards": true,
+  "virtual_decoders_checked": 400
+}

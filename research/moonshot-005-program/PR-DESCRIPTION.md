@@ -119,3 +119,29 @@ The next obligation is an actual causal observation schedule with changed
 main-prefix information or funded extra fields. Before eventual submission,
 freeze the final reviewed commit, audit the entire cumulative contribution and
 replace moving links with that identity. No upstream PR is submitted here.
+
+
+## S002 cumulative extension: causal codes and their necessary interfaces
+
+The programme now includes literal all-input encoded prefixes, independent
+source-calendar lower bounds, and ten conditional owned-transport substitutions.
+The constructive prefix at cut25897 uses four added rank-one MOVEs and eleven
+owned fields while retaining all1880 entering arrays and decoding400 current
+mains. Explicitly deferred helper states and the2879-route failure of its fixed
+full continuation prevent a false full-native claim.
+
+The independent calendar theorem allows arbitrary physical linear codes and
+unlimited local memory. It needs3144 added arrivals for all-live decoding,
+913 for current mains, and106 for main-departure plus endpoint decoding under
+the stated common-state/funded-calendar contract. This identifies the need to
+change intermediate decoding or the actual arrival calendar. Endpoint-only
+zero is no algorithm. The ten owned identities leave a strict paid allowance
+below7.882575946582/native and still require actual current physical observers.
+
+Full packages, sources, proofs, exact receipts and separate reviews are under
+[encoded-prefix](results/encoded-prefix/),
+[decoder-calendar-capacity](results/decoder-calendar-capacity/), and
+[owned-difference-delivery](results/owned-difference-delivery/).
+The original complete κ and all five foundational assumptions remain unchanged.
+**No new κ.** This remains a draft for an ongoing integrated programme, not a
+request to select a new certificate or an automatically submitted PR.

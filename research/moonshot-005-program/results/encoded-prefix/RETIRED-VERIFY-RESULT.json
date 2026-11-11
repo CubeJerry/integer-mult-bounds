@@ -1,0 +1,37 @@
+{
+  "actual_owned_peak": 87,
+  "live_owned_at_cut": 87,
+  "all_input_rows": 1880,
+  "decoded_virtual_roles": 1480,
+  "decoder_terms": 4384,
+  "physical_paid_histogram": {
+    "1": 292,
+    "3": 1,
+    "2": 16
+  },
+  "physical_events": 27312,
+  "status": "PASS_EXACT_PHYSICAL_ENCODED_PREFIX",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "transcript_payload_sha256": "c39e2429da49be9654407fbe89fcded1b3306aa18ca974e74bfe1124ac642ab1",
+  "cut": 26226,
+  "negative_controls": [
+    {
+      "mutation": "wrong_first_delivery_sign",
+      "rejection": "exact secondcopy all-input row 60"
+    },
+    {
+      "mutation": "wrong_owned_MOVE_flag",
+      "rejection": "MOVE ownership annotation"
+    },
+    {
+      "mutation": "omitted_first_delivery_MOVE",
+      "rejection": "ADD source/destination current cochart"
+    },
+    {
+      "mutation": "invalid_main_snapshot_alias",
+      "rejection": "INIT owner"
+    }
+  ],
+  "elapsed_seconds": 30.412460803985596,
+  "scope": "Exact finite normalized all-input prefix. No completed H4 native, compiler, physical tariff or kappa."
+}

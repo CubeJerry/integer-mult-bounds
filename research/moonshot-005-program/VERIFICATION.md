@@ -80,3 +80,24 @@ thresholds or frozen scientific bytes. Historical S001 reconstruction limitation
 for fragmentation/static-cut/compiler were superseded by the supporting integration;
 SUPPORTING-RESULTS.md records completed imported reviews. Quiet-rechart remains
 unverified. No complete supplier or global foundation is newly established.
+
+
+## S002 checkpoint 2: encoded prefixes and decoder calendars
+
+- encoded-prefix: independent full1880-input typed replay checks both all-live
+  prefixes, all33 retirement cuts, and the demand prefix with400 current main
+  decoders and400 retained input witnesses. A real owned/public MOVE flag defect
+  was corrected before publication. Missing helper332 is proved unavailable.
+- decoder-calendar-capacity: rational replay and separate modular max-pivot
+  replay agree on6310 all-live records and22098 weaker demands, every chart
+  maximum and ordering. Source denominators are invertible modulo1000003;
+  nonzero modular minors certify rational rank lower bounds. Independent review
+  accepts arbitrary V-coordinate linear coding over characteristic zero.
+- owned-difference-delivery: ten homogeneous/reverse identities are independently
+  checked by full1480-column dirty-input forward replay. All ten have nonzero
+  common-helper residuals, rejecting ordinary values substituted for differences.
+  Directed price arithmetic rejects eight added arrivals and the nine-route union.
+
+Independent implementations and mathematical reviews are separate from repeated
+execution of an author's verifier. No complete supplier, physical tariff,
+precision/owned service or multiplication exponent is established by these checks.

@@ -1,0 +1,86 @@
+{
+  "status": "PASS_INDEPENDENT_FULL_DIRTY_INPUT_FORWARD_REVIEW",
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "certificate_sha256": "7b915321a6e9afc2a83fd79f95e0c9605d28dc578d69d4b0700ee6fd37f739b9",
+  "public_columns": 1480,
+  "main_columns": 400,
+  "source_events": 71261,
+  "checked": [
+    {
+      "event": 28169,
+      "terms": 9,
+      "dirty_residual_support": 9,
+      "example_dirty_input": 400,
+      "example_residual": "-2"
+    },
+    {
+      "event": 33272,
+      "terms": 1,
+      "dirty_residual_support": 1,
+      "example_dirty_input": 749,
+      "example_residual": "1"
+    },
+    {
+      "event": 33281,
+      "terms": 1,
+      "dirty_residual_support": 4,
+      "example_dirty_input": 756,
+      "example_residual": "1"
+    },
+    {
+      "event": 33558,
+      "terms": 2,
+      "dirty_residual_support": 3,
+      "example_dirty_input": 368,
+      "example_residual": "-1/8"
+    },
+    {
+      "event": 34479,
+      "terms": 4,
+      "dirty_residual_support": 2,
+      "example_dirty_input": 93,
+      "example_residual": "-1/4"
+    },
+    {
+      "event": 37606,
+      "terms": 4,
+      "dirty_residual_support": 69,
+      "example_dirty_input": 230,
+      "example_residual": "-4"
+    },
+    {
+      "event": 39217,
+      "terms": 2,
+      "dirty_residual_support": 140,
+      "example_dirty_input": 126,
+      "example_residual": "8"
+    },
+    {
+      "event": 40094,
+      "terms": 4,
+      "dirty_residual_support": 42,
+      "example_dirty_input": 21,
+      "example_residual": "1/2"
+    },
+    {
+      "event": 40096,
+      "terms": 2,
+      "dirty_residual_support": 1,
+      "example_dirty_input": 133,
+      "example_residual": "-1/2"
+    },
+    {
+      "event": 41758,
+      "terms": 3,
+      "dirty_residual_support": 52,
+      "example_dirty_input": 244,
+      "example_residual": "-1/2"
+    }
+  ],
+  "controls": [
+    "ten wrong-sign changes rejected",
+    "ten ordinaryvalue identities fail on purehelper residual",
+    "helper749 at33272 gives residual1"
+  ],
+  "scope": "Exact source identities, not physical delta availability or supplier admission."
+}

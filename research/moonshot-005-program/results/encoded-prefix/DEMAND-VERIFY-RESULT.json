@@ -1,0 +1,39 @@
+{
+  "all_input_dimensions": 1880,
+  "first_copy_live_roles": 1480,
+  "current_main_decoders": 400,
+  "retained_original_differences": 400,
+  "live_owned": 11,
+  "peak_owned": 11,
+  "physical_paid_histogram": {
+    "1": 86,
+    "3": 1,
+    "2": 8
+  },
+  "physical_events": 26346,
+  "deferred_helper_witness": {
+    "role": 332,
+    "current_chart": 381,
+    "difference_not_in_current_difference_observation_span": true
+  },
+  "status": "PASS_EXACT_MAIN_DEMAND_PREFIX",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "transcript_payload_sha256": "9908825b9ec7e95a2c4809f07411b47c302488b1048cf04204e8c1c3f6410383",
+  "cut": 25897,
+  "negative_controls": [
+    {
+      "mutation": "wrong_owned_MOVE_flag",
+      "rejection": "MOVE ownership annotation"
+    },
+    {
+      "mutation": "wrong_first_delivery_sign",
+      "rejection": "exact current second main row 60"
+    },
+    {
+      "mutation": "false_input_retention",
+      "rejection": "original input difference retained 0"
+    }
+  ],
+  "elapsed_seconds": 33.50969123840332,
+  "scope": "All1880 formal inputs; current mains and full input information retained. Second-helper current cochart states are explicitly deferred. No complete native or kappa."
+}

@@ -50,3 +50,22 @@ python3 -I -B research/moonshot-005-program/results/causal-arrival-floor/review/
 
 Expected: 984 innovations, complete record agreement and explicit payload controls.
 Normal and optimized receipts are retained in the package.
+
+
+## S002 encoded-state and calendar packages
+
+```sh
+python3 -B research/moonshot-005-program/results/encoded-prefix/verify_prefix.py
+python3 -B research/moonshot-005-program/results/encoded-prefix/verify_demand_prefix.py
+python3 -I -B research/moonshot-005-program/results/encoded-prefix/review-demand/review_demand_prefix.py --source research/shared-wire-split-composition/data/final.json.gz --transcript research/moonshot-005-program/results/encoded-prefix/demand-prefix.json.gz --author-receipt research/moonshot-005-program/results/encoded-prefix/DEMAND-PREFIX-RESULT.json
+python3 -B research/moonshot-005-program/results/decoder-calendar-capacity/scan.py
+python3 -B research/moonshot-005-program/results/decoder-calendar-capacity/weaker_demands.py
+python3 -B research/moonshot-005-program/results/owned-difference-delivery/verify.py
+python3 -B research/moonshot-005-program/results/owned-difference-delivery/budget.py
+python3 -I -B research/moonshot-005-program/results/owned-difference-delivery/review/independent_rows.py --source research/shared-wire-split-composition/data/final.json.gz --certificate research/moonshot-005-program/results/owned-difference-delivery/CERTIFICATE.json
+```
+
+The demand review takes the compiler's DEMAND-PREFIX-RESULT.json, not the
+separate author replay receipt. Calendar commands print3144/3111 and913/902,
+106/106,0/0 respectively. Normal/-O records are provided; zero is no feasibility
+claim. Independent calendar review scripts take explicit --source/--author paths.

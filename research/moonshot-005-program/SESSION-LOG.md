@@ -107,3 +107,26 @@ Current records correct a strict down-rounded decimal: the exact upper is
 221397923137950577/2250000000000000 (<98.399076951). ERRATA.md preserves historical
 wording and records unchanged integer conclusions. Construction and transport
 lending continue. No new kappa. A later checkpoint records this publication SHA.
+
+
+### S002 first publication and second scientific checkpoint
+
+The first causal-floor checkpoint was published and GitHub-confirmed at
+2b725ad5cb2661e93e50fd28cdf0a495fa7f710c, tree40ca0d7817afa00d93f8ee56b2431caa6fce7dfb.
+The CLI lacked push credentials; connected Git Data API publication reproduced
+the exact staged tree and used a non-forced expected-HEAD ref update.
+
+Constructed and independently checked changed-main prefixes. The all-live
+version reaches cut25728 with9 new routes; its retirement extension reaches26226
+with92 and exhausts the remaining budget on its next delivery. The demand-driven
+version reaches25897 with4 added rank-one routes and11 owned fields, retaining
+all inputs and400 current mains. Its fixed full-horizon graph still needs2879
+extra routes. A genuine owned-flag defect was corrected before publication.
+
+Proved the calendar capacity lemma and source counts:3144 extra arrivals for
+all-live decoding,913 for current mains,106 for main departures plus endpoints.
+Independent modular reconstruction matches all rational records. Endpoint-only
+zero is no feasibility claim. The construction now defers intermediate states.
+Ten owned difference identities conditionally save20.89550378/native but leave
+only7.882575946582 for all other paid work; physical observations remain open.
+Read-deadline decoding and route loans continue next. No new kappa; not PR-ready.

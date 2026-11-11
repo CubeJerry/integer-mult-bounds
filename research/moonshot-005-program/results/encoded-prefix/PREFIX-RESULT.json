@@ -1,0 +1,377 @@
+{
+  "status": "CONSTRUCTED_EXACT_CAUSAL_PREFIX",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "cut_before_event": 25728,
+  "requested_cut": 25728,
+  "stopped_before": null,
+  "source_prefix_counts": {
+    "ADD": 24321,
+    "SCALE": 1377,
+    "MOVE": 30
+  },
+  "physical_prefix_counts": {
+    "ADD": 24738,
+    "SCALE": 1377,
+    "MOVE": 41,
+    "INIT": 11
+  },
+  "extra_paid_histogram": {
+    "1": 8,
+    "2": 1
+  },
+  "extra_delivery_count": 9,
+  "additional_live_owned": 11,
+  "extra_owned_labels": 11,
+  "extra_owned_lifetimes": 11,
+  "retirement_count": 0,
+  "retirements": [],
+  "actual_peak_owned": 11,
+  "source_owned_live": 0,
+  "first_copy_public": 1480,
+  "main_difference_carriers": 400,
+  "main_departures": 2,
+  "max_snapshot_support": 2,
+  "deliveries": [
+    {
+      "event": 25489,
+      "virtual_owner": 830,
+      "physical_owner": 1931,
+      "source_chart": 3,
+      "destination_chart": 56,
+      "rank": 1,
+      "row": [
+        [
+          172,
+          "-1/2"
+        ]
+      ],
+      "expression": [
+        [
+          1639,
+          "-1/2"
+        ]
+      ]
+    },
+    {
+      "event": 25666,
+      "virtual_owner": 802,
+      "physical_owner": 1932,
+      "source_chart": 3,
+      "destination_chart": 28,
+      "rank": 1,
+      "row": [
+        [
+          142,
+          "-1/2"
+        ]
+      ],
+      "expression": [
+        [
+          1611,
+          "-1/2"
+        ]
+      ]
+    },
+    {
+      "event": 25688,
+      "virtual_owner": 327,
+      "physical_owner": 1933,
+      "source_chart": 31,
+      "destination_chart": 372,
+      "rank": 1,
+      "row": [
+        [
+          33,
+          "1"
+        ]
+      ],
+      "expression": [
+        [
+          1510,
+          "1"
+        ]
+      ]
+    },
+    {
+      "event": 25711,
+      "virtual_owner": 328,
+      "physical_owner": 1934,
+      "source_chart": 101,
+      "destination_chart": 369,
+      "rank": 1,
+      "row": [
+        [
+          108,
+          "1"
+        ]
+      ],
+      "expression": [
+        [
+          1580,
+          "1"
+        ]
+      ]
+    },
+    {
+      "event": 25716,
+      "virtual_owner": 322,
+      "physical_owner": 1935,
+      "source_chart": 101,
+      "destination_chart": 376,
+      "rank": 2,
+      "row": [
+        [
+          108,
+          "1"
+        ]
+      ],
+      "expression": [
+        [
+          1580,
+          "1"
+        ]
+      ]
+    },
+    {
+      "event": 25719,
+      "virtual_owner": 791,
+      "physical_owner": 1937,
+      "source_chart": 3,
+      "destination_chart": 18,
+      "rank": 1,
+      "row": [
+        [
+          131,
+          "-1/2"
+        ]
+      ],
+      "expression": [
+        [
+          1601,
+          "-1/2"
+        ]
+      ]
+    },
+    {
+      "event": 25721,
+      "virtual_owner": 332,
+      "physical_owner": 1938,
+      "source_chart": 102,
+      "destination_chart": 372,
+      "rank": 1,
+      "row": [
+        [
+          109,
+          "1"
+        ]
+      ],
+      "expression": [
+        [
+          1581,
+          "1"
+        ]
+      ]
+    },
+    {
+      "event": 25724,
+      "virtual_owner": 327,
+      "physical_owner": 1939,
+      "source_chart": 372,
+      "destination_chart": 375,
+      "rank": 1,
+      "row": [
+        [
+          33,
+          "1"
+        ],
+        [
+          109,
+          "1"
+        ]
+      ],
+      "expression": [
+        [
+          1933,
+          "1"
+        ],
+        [
+          1938,
+          "1"
+        ]
+      ]
+    },
+    {
+      "event": 25725,
+      "virtual_owner": 332,
+      "physical_owner": 1940,
+      "source_chart": 372,
+      "destination_chart": 381,
+      "rank": 1,
+      "row": [
+        [
+          33,
+          "-1/2"
+        ],
+        [
+          109,
+          "1/2"
+        ]
+      ],
+      "expression": [
+        [
+          1933,
+          "-1/2"
+        ],
+        [
+          1938,
+          "1/2"
+        ]
+      ]
+    }
+  ],
+  "main_parks": [
+    {
+      "event": 25717,
+      "main": 108,
+      "carrier": 1580,
+      "parked_owner": 1936,
+      "old_row": [
+        [
+          108,
+          "1"
+        ]
+      ],
+      "new_row": [
+        [
+          108,
+          "1/2"
+        ]
+      ],
+      "rebase_support": 1
+    },
+    {
+      "event": 25727,
+      "main": 108,
+      "carrier": 1580,
+      "parked_owner": 1941,
+      "old_row": [
+        [
+          108,
+          "1/2"
+        ]
+      ],
+      "new_row": [
+        [
+          108,
+          "1/2"
+        ]
+      ],
+      "rebase_support": 1
+    }
+  ],
+  "skipped_auxiliary_moves": [
+    {
+      "event": 24472,
+      "owner": 415,
+      "reason": "zero difference"
+    },
+    {
+      "event": 24474,
+      "owner": 403,
+      "reason": "zero difference"
+    },
+    {
+      "event": 24476,
+      "owner": 727,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25054,
+      "owner": 39,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25184,
+      "owner": 302,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25275,
+      "owner": 393,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25496,
+      "owner": 288,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25545,
+      "owner": 329,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25550,
+      "owner": 327,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25551,
+      "owner": 332,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25590,
+      "owner": 398,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25591,
+      "owner": 399,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25640,
+      "owner": 411,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25683,
+      "owner": 326,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25685,
+      "owner": 322,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25686,
+      "owner": 323,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25702,
+      "owner": 320,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25705,
+      "owner": 328,
+      "reason": "zero difference"
+    },
+    {
+      "event": 25710,
+      "owner": 324,
+      "reason": "zero difference"
+    }
+  ],
+  "decoded_virtual_roles_at_cut": 1480,
+  "scope": "Literal encoded source prefix only. Live sidecars, decoder and future transport/endpoint obligations remain; no new kappa.",
+  "transcript_payload_sha256": "e019602e31b3913d30b2688b4e841d34faf89faff0a9ce932327abeb78698d5e",
+  "transcript_operations": 26167,
+  "extra_paid_moment_interval": [
+    "1998616105131147/200000000000000",
+    "1249135065706967/125000000000000"
+  ]
+}
