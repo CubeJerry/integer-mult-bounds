@@ -57,3 +57,20 @@ under changed intermediate main rows or explicit additional fields. Prove
 availability, source versions, ownership and complete cost jointly. One favorable
 static rank or invoice cannot substitute for this schedule. Final publication
 identity is recorded in a later checkpoint/remote ref, avoiding self-reference.
+
+### S001 publication and handoff
+
+Scientific results published and confirmed at
+**8c4d2f665e94b93c51e84b6d2ff1a3d7b61bac95**, tree
+ba6192d3565f5a8b656ce21aa14f4db30aeee0e6. Fetching the published tree reproduced
+the staged local tree exactly; working tree was clean. The final handoff commit
+records this preceding identity rather than a self-referential current SHA.
+Canonical main was rechecked and remains e54523517d0f03e58352e647c403a5af3e525a57.
+
+The read-only checkpoint audit verifies all80 imported Git blobs/SHA256 values,
+all64 scientific files,18 exact author-file review pins and3 source/invoice
+pins. JSON records parse and programme links resolve. These are integrity
+checks, separate from mathematical review. No source/review files changed
+between scientific publication and handoff. All workers finished; no background
+continuation is promised. Next session resumes the causal construction
+obligation in STATE, on this same branch. Ongoing programme; not PR-ready.

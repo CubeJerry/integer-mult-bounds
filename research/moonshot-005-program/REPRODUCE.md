@@ -34,3 +34,9 @@ executions; session receipts are in `sessions/2026-11-11-S001/`.
 freezes new scientific evidence; integrity checks do not prove mathematics.
 No complete selected supplier cold replay, formal kernel or physical multiplier
 was run this session.
+
+
+For a fast read-only check of imported bytes, scientific manifests and reviewed
+hashes, run `python3 -B research/moonshot-005-program/verify_checkpoint.py`.
+Capture its stdout outside this tree before saving a new receipt here, so the
+JSON syntax check does not inspect a file concurrently being written.

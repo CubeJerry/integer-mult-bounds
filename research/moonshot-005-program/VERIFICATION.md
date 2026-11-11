@@ -57,3 +57,10 @@ kernel was run or claimed. Recovery fragmentation/rechart/compiler claims remain
 unreproduced reconstruction. The H4 itinerary, actual difference delivery, source
 access, full physical tariffs, precision/compiler closure and stronger BIT remain
 open. Exact import receipts are in PROVENANCE.json; reproduction below is scoped.
+
+
+Final byte-integrity check: `python3 -B research/moonshot-005-program/verify_checkpoint.py`.
+PASS covers80 imported files,64 scientific files,18 reviewer pins and3 source
+pins. Receipt: sessions/2026-11-11-S001/checkpoint-integrity.json. This check
+verifies integrity and syntax, not theorems. Scientific publication was fetched
+back and its complete Git tree matched the local index exactly.
