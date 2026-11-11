@@ -351,3 +351,5 @@ Recompute the entire18-copy invoice for a new native. The20-call/26-crossing
 necessary baseline budget remains unchanged; no complete new kappa follows.
 
 The220-chart additive-history certificate excludes an unchanged-q baseline alternative for77-to189 even before neutral endpoints or pricing are required. It does not exclude recoverable common-mode replacement. A new source test must retain that distinction and cannot discard an externally supplied q-bearing aggregate as independent noise.
+
+The stable-history quotient is a new necessary source gate: rankG<=dimD-dim(D intersect S), under the exact neutral history-annihilation premise. The first chart71/pre29098 quotient is zero, so it cannot supply a channel even before the target invoice is applied. A positive quotient is not sufficient and introduces no numerical kappa credit.

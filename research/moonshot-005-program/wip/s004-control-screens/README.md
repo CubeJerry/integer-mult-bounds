@@ -21,8 +21,9 @@ and independent verifier before admitting any claimed completeness.
   common baseline is unchanged. This does not exclude q-r(u) replacement.
 
 The admitted103 prescribed-pulse theorem supersedes earlier repair-search
-parents. The separately preserved220-chart additive certificate should be used
-for that exact77-to189 family once independently reviewed. A zero direct-edge
+parents. The separately preserved220-chart additive certificate is now independently
+reviewed under results/joint-additive-history-obstruction/ and should be used
+for that exact77-to189 family. A zero direct-edge
 screen did not exclude later native propagation and must not be used as such.
 Credit S004 construction/adversarial workers, @CubeJerry and native authors;
 OpenAI assistance disclosed. No new kappa.

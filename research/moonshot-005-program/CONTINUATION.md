@@ -10,12 +10,17 @@ delta for free. A contains off-terminal endpoint and COPY-guard responses,
 B the responses in genuine receiver histories F0. Let K span ker A, L span
 the annihilator of R, and Z_R span leftnull(F0 L). Feasibility is Z_R B K != 0.
 
-First test donor77, receiver189 at chart71 before29098, allowing all locally
-recoverable common modes and jointly chosen controls. Do not prescribe the
-old helper287 pulse: its entire future itinerary repair is already excluded.
-A nonzero entry supplies c,d,r=dF0, encoder/recovery coefficients and a unit-q
-decoder. A zero matrix excludes only the authenticated family; preserve an
-exact dual and change an explicit interface rather than claiming impossibility.
+The originally proposed chart71/pre29098 test for77-to189 is now excluded.
+Two independent source replays give D=span(u77), and that mode equals final
+common189 minus initial common189. The complete history-annihilation theorem
+makes every decoder of it insensitive to neutral controls. Do not repeat it.
+
+First screen other actual encoder cuts for a nonzero quotient
+D/(D intersect S), where D=row(E) intersect row(W_T) intersect row(F0)
+and S has certified response-stable history decoders. Only then compute the
+full Z_R B K test. A positive quotient alone is not sufficient. Restrict
+controls to the remaining donor route, and retain any extra side information
+as an explicit interface change. See results/stable-history-encoder/.
 
 The physical word must encode Q=q-r(u), leave actual stationary delta records
 on remaining funded routes, apply source-safe controls and collect histories

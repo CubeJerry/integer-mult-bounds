@@ -1,15 +1,15 @@
 {
   "schema": "moonshot-005-program-state-v1",
   "branch": "research/moonshot-005-program",
-  "checkpoint_baseline_sha": "fd355b9cbe9b3b7c2d58c43cc155947a287cc340",
+  "checkpoint_baseline_sha": "9cd9546550a42bad8378fe220f06fafe4dd1ae90",
   "checkpoint_sha_semantics": "Prior baseline, not this file's own commit identity.",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
   "session": "2026-11-11-S004",
-  "phase": "recoverable-common-mode-modulation",
+  "phase": "recoverable-encoder-stable-history-quotient",
   "target_kappa": "1/200",
   "selected_conditional_kappa": "363005817/100000000000",
   "programme_new_complete_kappa": null,
-  "primary_obligation": "Authenticate a source encoder E, terminal rows W_T, legal post-encoder controls A/B and receiver histories F0; with R=row(E) intersect row(W_T), prove Z_R B K nonzero, then lower the witness to a fully restored1880-input word and compose enough independent channels.",
+  "primary_obligation": "Find a source encoder cut with nonzero D/(D intersect S), where D is locally encodable, terminal-recoverable and receiver-visible and S has certified neutral-stable history decoders. Then authenticate a nonzero Z_R B K witness, lower it to a restored1880-input word and prove sufficient independent composition. Chart71/pre29098 for77-to189 is now excluded.",
   "completed_milestones": [
     "Permanent branch initialized from verified canonical selected state",
     "80 predecessor files byte-authenticated with exact provenance",
@@ -53,13 +53,14 @@
     "103 prescribed helper-pulse/donor cases at58departures have short dual obstructions to all future donor-suffix controls; independent offline adjoint/location interval review.",
     "Joint neutral modulation has exact quotient-rank criterion and18-instruction typed example separating joint from individually neutral controls; independent review.",
     "Recoverable common-mode encoder has exact criterion Z_R B K nonzero, conditional physical lowering and explicit costs; two independent mathematical reviews, no source positive witness.",
-    "For77-to189, all1065 native receiver observations have rank1056 and nine complete relations annihilating arbitrary q-only additive controls at all220 station charts/allcuts; independent full-input and simultaneous-adjoint review. Nonzero-R encoders remain open."
+    "For77-to189, all1065 native receiver observations have rank1056 and nine complete relations annihilating arbitrary q-only additive controls at all220 station charts/allcuts; independent full-input and simultaneous-adjoint review. Nonzero-R encoders remain open.",
+    "Stable-history quotient gate proved and independently reviewed; two independent exact source replays show first encoder D=spanu77 lies in stable span via final189-initial189, excluding that cut even under220-station control overgrant."
   ],
   "active_subproblems": [
     {
       "id": "RECOVERABLE-ENCODER-SOURCE",
       "status": "open-primary",
-      "task": "Authenticate a source encoder E, terminal rows W_T, legal post-encoder controls A/B and receiver histories F0; with R=row(E) intersect row(W_T), prove Z_R B K nonzero, then lower the witness to a fully restored1880-input word and compose enough independent channels."
+      "task": "Find a source encoder cut with nonzero D/(D intersect S), where D is locally encodable, terminal-recoverable and receiver-visible and S has certified neutral-stable history decoders. Then authenticate a nonzero Z_R B K witness, lower it to a restored1880-input word and prove sufficient independent composition. Chart71/pre29098 for77-to189 is now excluded."
     },
     {
       "id": "H4-COMP",
@@ -313,6 +314,13 @@
       "status": "proved-source-specific-all-time-q-only-additive-obstruction-no-extra-correlated-side-channel",
       "path": "results/joint-additive-history-obstruction/PROOF.md",
       "review": "results/joint-additive-history-obstruction/review/REVIEW.md"
+    },
+    {
+      "id": "STABLE-HISTORY-ENCODER",
+      "status": "proved-universal-neutral-history-gate-and-source-specific-single-encoder-exclusion",
+      "path": "results/stable-history-encoder/PROOF.md",
+      "source": "results/stable-history-encoder/source/PROOF.md",
+      "review": "results/stable-history-encoder/review/REVIEW.md"
     }
   ],
   "unverified_hypotheses": [
@@ -329,10 +337,10 @@
     "Historical quiet-rechart reconstruction remains unverified."
   ],
   "next_actions": [
-    "At an actual encoder cut authenticate E/W_T/F0 and all legal post-encoder control columns, including COPY guards; compute R,K,Z_R exactly.",
-    "Start donor77/receiver189 at chart71 before29098, allowing all recoverable cochart modes and joint controls rather than the excluded fixed helper287 pulse. A zero test excludes only that declared family.",
-    "For a nonzero entry emit actual snapshots/accumulators, full1880-input word, common/donor restoration, boundary conversions/recoupling and all scalar/ownership/precision costs. Otherwise preserve a dual certificate and alter one explicit interface.",
-    "Compose enough independent crossings under the20-new-call/26-original-crossing necessary budget, then complete compatible complex/BIT and outer/foundational contracts."
+    "Screen actual cochart encoder cuts for D not contained in certified stable receiver-history span S; retain actual post-encoder access. Do not repeat the excluded77-to189 chart71/pre29098 case.",
+    "At a surviving cut compute exact E/W_T/F0 and all legal A/B including guards; establish nonzero Z_R B K or preserve a scoped dual. A positive D quotient alone is insufficient.",
+    "Lower a positive witness to actual snapshots, history collection, complete common/donor restoration and all1880 inputs/reservations/costs.",
+    "Compose enough independent crossings, recompute the18-copy invoice, and complete both compatible suppliers, recursion and five foundations."
   ],
   "pr_ready": false,
   "retained_assumptions": [
@@ -345,9 +353,9 @@
   "path_semantics": "Result paths are relative to research/moonshot-005-program.",
   "tested_source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
   "publication_status": "Ongoing programme, not PR-ready; no upstream PR submitted.",
-  "last_verified_scientific_commit": "fd355b9cbe9b3b7c2d58c43cc155947a287cc340",
-  "last_verified_scientific_tree": "0474534e1a599e832f4be9c3ffc5439479d8ba40",
-  "session_status": "S004 final scientific checkpoint: source observations, prescribed-pulse obstruction and recoverable-encoder criteria. No new kappa.",
+  "last_verified_scientific_commit": "9cd9546550a42bad8378fe220f06fafe4dd1ae90",
+  "last_verified_scientific_tree": "33ba5383fcd0b9759a48e2c7cdcd4f12c3f35943",
+  "session_status": "S004 final verification and publication: first generalized encoder cut excluded; next task is a nonzero stable-history quotient.",
   "supporting_results": {
     "index": "SUPPORTING-RESULTS.md",
     "manifest": "SUPPORTING-IMPORTS.json",
@@ -409,7 +417,7 @@
     "affordable_continuation_status": "disproved-within-unchanged-prefix-original-route-geometry-and-recorded-target-profile"
   },
   "handoff": "CONTINUATION.md",
-  "session_checkpoint_utc": "2026-11-11T13:10:00Z",
+  "session_checkpoint_utc": "2026-11-11T13:23:00Z",
   "continuation_constraints": {
     "terminal_export_lower_bound": 50,
     "fixed_profile_new_call_ceiling_facet": 8,

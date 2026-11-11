@@ -381,3 +381,22 @@ The resulting commit SHA is recorded in the later handoff, avoiding
 self-reference. No new kappa and no upstream PR.
 
 A final bounded independent review admits the220-chart joint-additive history obstruction for77-to189. It authenticates the entire nine-relation nullspace of1065 observations and all-time station insensitivity without endpoint-neutrality restrictions. Generalized recoverable encoders remain open; extra q-bearing side channels are outside this obstruction. The original pending-review prose remains frozen and is superseded by ADMISSION.md.
+
+S004 checkpoint3 was published and GitHub-confirmed at
+9cd9546550a42bad8378fe220f06fafe4dd1ae90,
+tree33ba5383fcd0b9759a48e2c7cdcd4f12c3f35943. All84 intended file changes
+were built from staged bytes; every large/binary blob and complete Git tree
+matched locally before an expected-SHA non-force ref update. Fetch-back
+confirmed a clean local tree. Integrity:80imports,538scientific files,
+278reviewed author pins,3direct source pins. Five integrated new-package
+reproduction receipts agree exactly with their frozen originals. All75
+local links in the principal programme records resolve. Canonical main
+remained unchanged; selected external bodies#7244/#7256/#7258 were inspected
+with explicit non-admission, distinct native/invoice/scope and retained credit.
+
+The remaining bounded source setup computes the recoverable visible mode
+space at the proposed77-to189 encoder cut. It is not admitted merely because
+a search reports a dimension; exact source representations and separate
+review are required. The final checkpoint records its outcome below.
+
+The bounded final setup completed before13:27UTC. Two independent exact source algorithms show D=spanu77 at chart71/pre29098, with actual E roles287/847/1050. The sole mode is final189-initial189 and has a literal response-stable receiver-history lift. Root proved a general stable-history quotient bound; bridge independently reviewed it. Composition with the admitted220-chart theorem excludes this first generalized encoder, rather than leaving it as next session's repeated task. Next: find a cut with nonzero D/(D intersect S), then run full neutral-control criterion. No new kappa.
