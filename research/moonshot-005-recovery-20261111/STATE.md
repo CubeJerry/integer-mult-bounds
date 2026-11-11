@@ -54,6 +54,25 @@ with actual ambient153^1920 and U=.00500006; written proof/review pending.
 Wave3: longer-rest/multiple-plane bus construction and new-chart or nonstatic
 ternary escape. Preserve source versions and all fees. Main remains e545235.
 
+## Checkpoint 2026-11-11T02:45Z
+
+Published owned-rise theorem on research/moonshot-005-owned-rank at
+4115049c5126cb56133072982d9158acfd74d4b3. All20 remote files match tested
+local Git blobs; only package additions. Six packaged normal/-O checks pass.
+Both full prefilled forms are recorded in PUBLISHED.json.
+
+Fragmentation, compiler specification and static ternary audit independently
+pass; 12 portable packaged replays pass. Cohesive branch being prepared.
+Wave3 two-owner quiet-rechart coverage is being corrected after review found
+adjacent-contact boundary cases. No universal rechart claim is published.
+Wave3 dirty-bus boundary identity and full favorable complex/BIT invoices
+are under independent review; actual shared-core native remains unbuilt.
+Wave4 construction agent is inspecting the source generator for that native.
+
+Canonical main unchanged at02:35. New open #7155/#7156 are temporal designs
+on changed sources, not selected results; #7156 remains draft with checks
+pending. The frozen #7000 scopes remain explicit.
+
 ## Next action
 
 Finish proofs, challenge independently, refresh canonical SHA and live PRs;
