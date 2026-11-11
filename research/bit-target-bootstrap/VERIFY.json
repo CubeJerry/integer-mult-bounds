@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "inputs": [
+    "research/kappa-rebuild/bit/DELAYED-COVER-BRIDGE.md",
+    "research/bit-finite-ordinary-bootstrap/PROOF.md",
+    "research/outer-ledger-kappa-region/PROOF.md",
+    "research/shared-wire-split-composition/interval_gate.py",
+    "research/paired-query-only-bit/check.py",
+    "research/paired-query-only-bit/PROOF.md",
+    "certificates/selected-result.json",
+    "docs/research/pr-intake-evidence/pr7000-application/PROOF-REVIEW.md",
+    "docs/research/agent-task-catalog.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Exact source pins, strict finite-stage frontier and inverse target identities, source outer AST, current prices, negative controls, rational derivative certificate."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Exact source pins, strict finite-stage frontier and inverse target identities, source outer AST, current prices, negative controls, rational derivative certificate."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/independent.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Independent matrix-depth, full-cost, Bernoulli lift and source/negative-control review."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/independent.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Independent matrix-depth, full-cost, Bernoulli lift and source/negative-control review."
+    }
+  ],
+  "python": "3.12",
+  "requirements": []
+}

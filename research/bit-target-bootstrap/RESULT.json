@@ -1,0 +1,65 @@
+{
+  "status": "PASS_TARGET_BIT_BOOTSTRAP",
+  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "scope": "Exact strict cost-ledger and source arithmetic; no new covered supplier or kappa",
+  "finite_grid": {
+    "stage_identities": 1520,
+    "rho_upper_comparisons": 18810,
+    "constructed_witnesses": 570
+  },
+  "target": "1/200",
+  "selected_ordinary": "12039/3125000",
+  "selected_covered": "19262649/5000000000",
+  "one_stage_C_strict_threshold": "3112961/621875000",
+  "hypothetical_covered": "50001/10000000",
+  "one_stage_supremum": "250005/50057381",
+  "two_stage_supremum": "2502919107381/500576679107381",
+  "witness_stages": [
+    {
+      "old": "12039/3125000",
+      "rho": "51/10000",
+      "new": "15607/3125000",
+      "improvement_relaxation_adapter_stock_gaps": [
+        "446/390625",
+        "3569/500000000000",
+        "52876431/500000000000",
+        "494952876431/500000000000"
+      ]
+    },
+    {
+      "old": "15607/3125000",
+      "rho": "51/10000",
+      "new": "500007/100000000",
+      "improvement_relaxation_adapter_stock_gaps": [
+        "583/100000000",
+        "57/500000000000",
+        "49964943/500000000000",
+        "494949964943/500000000000"
+      ]
+    }
+  ],
+  "outer_join": {
+    "strict_count": 54,
+    "functional_count": 4,
+    "minimum_gap": "1/1000000000",
+    "complex_tested_hypothetical": "500007/100000000",
+    "complex_uniform_hypothetical": "250003/50000000"
+  },
+  "lift_guard": {
+    "interval_cap": "51/10000",
+    "derivative_lower_proved": "9/100",
+    "gain_lower": "(9/100)*k for 0<k<=51/10000",
+    "old_guard_at_target_lower": "11/100"
+  },
+  "negative_controls": {
+    "one_step_supremum_equality": "REJECT",
+    "one_stage_target_requires_two": "REJECT",
+    "covered_target_equality": "REJECT",
+    "old_atom_exponent_at_moonshot": "REJECT",
+    "zero_relaxation": "REJECT",
+    "missing_stock_gap": "REJECT",
+    "BIT_at_target_has_no_outer_slack": "REJECT"
+  },
+  "new_kappa": null,
+  "foundational_assumptions_discharged": []
+}
