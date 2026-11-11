@@ -1,0 +1,56 @@
+{
+  "status": "PASS_SHARED_CORE_INDEPENDENT_PACKAGE",
+  "executions": [
+    {
+      "script": "exact_matrix.js",
+      "runtime": "node",
+      "status": "PASS_INDEPENDENT_INTEGER_MATRIX_REPLAY"
+    },
+    {
+      "script": "exact_invoice.js",
+      "runtime": "node",
+      "status": "PASS_INDEPENDENT_EXACT_BIGINT_RECOMPUTATION"
+    },
+    {
+      "script": "source_census.py",
+      "optimized": false,
+      "status": "PASS_INDEPENDENT_SOURCE_OWNER_CHART_CENSUS"
+    },
+    {
+      "script": "source_census.py",
+      "optimized": true,
+      "status": "PASS_INDEPENDENT_SOURCE_OWNER_CHART_CENSUS"
+    },
+    {
+      "script": "selector_witness.py",
+      "optimized": false,
+      "status": "PASS_INDEPENDENT_SELECTOR_REPAIR_WITNESS"
+    },
+    {
+      "script": "selector_witness.py",
+      "optimized": true,
+      "status": "PASS_INDEPENDENT_SELECTOR_REPAIR_WITNESS"
+    },
+    {
+      "script": "hub_witness.py",
+      "optimized": false,
+      "status": "PASS_INDEPENDENT_ONE_WAY_HUB_CUT"
+    },
+    {
+      "script": "hub_witness.py",
+      "optimized": true,
+      "status": "PASS_INDEPENDENT_ONE_WAY_HUB_CUT"
+    }
+  ],
+  "program_sha256": {
+    "exact_matrix.js": "5b98c58b7604331824ba0517887f032a46e9984aeefc25deb1da029d71c72ddf",
+    "exact_invoice.js": "f5545d81574b614f87e4345ae86819de0f2463ba11b995e11fd3b7d84b4a060c",
+    "source_census.py": "cf41ea958d8c6a05be0887a8f8d534a5ff6485bc8be059f08b0d3799a6031734",
+    "selector_witness.py": "59b62f77b5a1c04c81ac42ff144bef7bdbff726ef5c7ca39baf83b1341060598",
+    "hub_witness.py": "4c8d120334181c9c04f4891d2f7893929e5b8ea1134a2b4339bd29ef52021eb8",
+    "verify.py": "0565c41d6db9914b506df3631ed0542ef8b6d77df470e9aedcc3be15dd5f34f3"
+  },
+  "word_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "invoice_sha256": "d9ba709fa5dcefffe3f3abdcf34600ce188224703cfd743e6db8b58ba4816cb7",
+  "scope": "Finite source correspondence, exact algebra/profile arithmetic, and scoped repair witnesses; no H4 word, physical supplier admission or new kappa."
+}

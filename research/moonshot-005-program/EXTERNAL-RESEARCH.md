@@ -27,3 +27,11 @@ cost/pin/validation/credit conventions. No public posts or upstream PRs made.
 Direct reads resolved the earlier search mismatch. #7155 is open at594d57036057f88f8bacc82e9c203bd4cb3276b9, claiming .003644267085400 via temporal237/595 composition. #7156 is now non-draft/open atb44944c3058d522cbff17836e16240d40d77a927, claiming .003644407895539 with a further chart306 temporal split and completed reported replay. Both use changed17-stage sources; neither is selected or imported. Their causal history technique is relevant, while frozen-source obstructions here cannot be transferred without rechecking. #7149 at a757b3745788361eedcac35136d0cb00594c915f bounds retained BIT summary supports and explicitly leaves cost-neutral public-MOVE redirection open. It does not settle our distinct endpoint rank-cut theorem.
 
 The selector branch advanced during initialization to65d4af8d22e8436d8aa0cbe48da6255d3aa1b135. Exact diff inspected: seven metadata/runner files only; original proof/native/scientific checker unchanged. That newer package is imported deliberately, with f4ea0789 retained as scientific predecessor.
+
+## User-requested supporting integration — 2026-11-11
+
+See [SUPPORTING-RESULTS.md](SUPPORTING-RESULTS.md) and exact commit/tree pins in
+SUPPORTING-IMPORTS.json. Complete helper/static-cut/compiler and shared-core
+packages supersede the earlier lost-packet status for those specific claims.
+The source chronology remains pinned; quiet-rechart notes are not promoted.
+The programme's stronger endpoint, switch and capacity results remain intact.

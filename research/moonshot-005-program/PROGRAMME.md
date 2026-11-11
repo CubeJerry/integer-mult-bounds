@@ -31,10 +31,11 @@ obligation; another favorable profile alone is insufficient. Extra parked
 fields, role-dependent temporal codes, changed contacts or fused native/caller
 boundaries remain possible, but require their own complete paid contracts.
 
-The alternative fixed-paid helper-refinement route remains a lead. Its lost
-fragmentation/rechart/compiler packets are reconstructed notes, not programme
-proofs. Exact bootstrap, isolated owned-rank and selector packages are preserved
-unchanged with original source paths, provenance and credit.
+The alternative fixed-paid helper-refinement route now has restored, independently
+checked threshold, static-cut and compiler-specification packages. See
+SUPPORTING-RESULTS.md for their exact scope and integration. Its physical native
+and stronger BIT supplier remain unbuilt; quiet-rechart notes remain unverified.
+Existing bootstrap, owned-rank and selector packages are preserved unchanged.
 
 Success requires actual complex U>.005 and ordinary BIT B>.005, funded compiler
 closure, compatible arbitrary-input/ROW/ownership contracts and strict outer

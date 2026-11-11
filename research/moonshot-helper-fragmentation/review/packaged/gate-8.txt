@@ -1,0 +1,2605 @@
+{
+  "status": "PASS_INDEPENDENT_DUAL_ABEL_REVIEW",
+  "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "source_sha256": "d9ba709fa5dcefffe3f3abdcf34600ce188224703cfd743e6db8b58ba4816cb7",
+  "no_new_kappa": true,
+  "partition_cases": 96,
+  "dual_ties": [
+    [
+      1,
+      [
+        1
+      ]
+    ],
+    [
+      2,
+      [
+        2
+      ]
+    ],
+    [
+      3,
+      [
+        3
+      ]
+    ],
+    [
+      4,
+      [
+        4
+      ]
+    ],
+    [
+      5,
+      [
+        5
+      ]
+    ],
+    [
+      6,
+      [
+        3,
+        3
+      ]
+    ],
+    [
+      7,
+      [
+        3,
+        4
+      ]
+    ],
+    [
+      8,
+      [
+        4,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        3,
+        3,
+        3
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        5
+      ]
+    ]
+  ],
+  "lambda": {
+    "lower": "1840248679235603291607/100000000000000000000000",
+    "upper": "736099471694241316643/40000000000000000000000",
+    "midpoint": 0.018402486792356034
+  },
+  "threshold_moments": {
+    "22953": {
+      "lower": "-1724655900555553293799/1000000000000000000000000",
+      "upper": "-107790993784722073299/62500000000000000000000",
+      "midpoint": -0.0017246559005555532
+    },
+    "22954": {
+      "lower": "130295553842191247049/7812500000000000000000",
+      "upper": "1667783089180047974329/100000000000000000000000",
+      "midpoint": 0.01667783089180048
+    },
+    "22950": {
+      "lower": "-14233029069405913010503/250000000000000000000000",
+      "upper": "-28466058138811825960503/500000000000000000000000",
+      "midpoint": -0.05693211627762365
+    },
+    "22968": {
+      "lower": "137156322992392470223633/500000000000000000000000",
+      "upper": "137156322992392470284163/500000000000000000000000",
+      "midpoint": 0.27431264598478494
+    }
+  },
+  "binary_moment": {
+    "lower": "-9961991446331810830234069/100000000000000000000000",
+    "upper": "-12452489307914763537778707/125000000000000000000000",
+    "midpoint": -99.61991446331811
+  },
+  "binary_target": {
+    "1": 1674,
+    "2": 9756,
+    "3": 3060,
+    "4": 13446,
+    "5": 10710,
+    "9": 416,
+    "17": 416,
+    "25": 416,
+    "33": 416,
+    "41": 416,
+    "49": 416,
+    "57": 416,
+    "65": 416,
+    "73": 416,
+    "145": 208
+  },
+  "log_tails": [
+    {
+      "least_rank": 145,
+      "numerator_bits": 1494,
+      "denominator_bits": 1
+    },
+    {
+      "least_rank": 73,
+      "numerator_bits": 4069,
+      "denominator_bits": 1
+    },
+    {
+      "least_rank": 65,
+      "numerator_bits": 6574,
+      "denominator_bits": 1
+    },
+    {
+      "least_rank": 64,
+      "numerator_bits": 6574,
+      "denominator_bits": 2497
+    },
+    {
+      "least_rank": 57,
+      "numerator_bits": 9001,
+      "denominator_bits": 2497
+    },
+    {
+      "least_rank": 56,
+      "numerator_bits": 9001,
+      "denominator_bits": 4912
+    },
+    {
+      "least_rank": 49,
+      "numerator_bits": 11336,
+      "denominator_bits": 4912
+    },
+    {
+      "least_rank": 48,
+      "numerator_bits": 11336,
+      "denominator_bits": 7236
+    },
+    {
+      "least_rank": 41,
+      "numerator_bits": 13565,
+      "denominator_bits": 7236
+    },
+    {
+      "least_rank": 40,
+      "numerator_bits": 13565,
+      "denominator_bits": 9450
+    },
+    {
+      "least_rank": 33,
+      "numerator_bits": 15664,
+      "denominator_bits": 9450
+    },
+    {
+      "least_rank": 32,
+      "numerator_bits": 15664,
+      "denominator_bits": 11530
+    },
+    {
+      "least_rank": 25,
+      "numerator_bits": 17595,
+      "denominator_bits": 11530
+    },
+    {
+      "least_rank": 24,
+      "numerator_bits": 17595,
+      "denominator_bits": 13437
+    },
+    {
+      "least_rank": 17,
+      "numerator_bits": 19296,
+      "denominator_bits": 13437
+    },
+    {
+      "least_rank": 16,
+      "numerator_bits": 19296,
+      "denominator_bits": 15101
+    },
+    {
+      "least_rank": 9,
+      "numerator_bits": 20615,
+      "denominator_bits": 15101
+    },
+    {
+      "least_rank": 8,
+      "numerator_bits": 20615,
+      "denominator_bits": 17537
+    },
+    {
+      "least_rank": 7,
+      "numerator_bits": 20615,
+      "denominator_bits": 18143
+    },
+    {
+      "least_rank": 6,
+      "numerator_bits": 20615,
+      "denominator_bits": 18934
+    },
+    {
+      "least_rank": 5,
+      "numerator_bits": 32108,
+      "denominator_bits": 18934
+    },
+    {
+      "least_rank": 4,
+      "numerator_bits": 50324,
+      "denominator_bits": 18934
+    },
+    {
+      "least_rank": 3,
+      "numerator_bits": 50324,
+      "denominator_bits": 37222
+    },
+    {
+      "least_rank": 2,
+      "numerator_bits": 50324,
+      "denominator_bits": 42370
+    }
+  ],
+  "repeated_native_profile": {
+    "1": 13,
+    "2": 18,
+    "3": 1808,
+    "4": 408,
+    "5": 109
+  },
+  "repeated_target": {
+    "1": 234,
+    "2": 324,
+    "3": 32544,
+    "4": 7344,
+    "5": 1962,
+    "9": 416,
+    "17": 416,
+    "25": 416,
+    "33": 416,
+    "41": 416,
+    "49": 416,
+    "57": 416,
+    "65": 416,
+    "73": 416,
+    "145": 208
+  },
+  "paid": {
+    "1": 73766,
+    "2": 14904,
+    "3": 14598,
+    "4": 4338,
+    "5": 5760,
+    "6": 306,
+    "7": 216,
+    "8": 812,
+    "16": 416,
+    "24": 416,
+    "32": 416,
+    "40": 416,
+    "48": 416,
+    "56": 416,
+    "64": 416
+  },
+  "negative_controls": [
+    "duplicate old helper credit",
+    "omit100 paid rank1",
+    "wrong dual multiplier"
+  ],
+  "scope": "Integer partitions within each original helper; fixed paid/root; no physical realization or admission."
+}
+{
+  "status": "PASS_INDEPENDENT_COMPILER_SPECIFICATION_REVIEW",
+  "no_new_kappa": true,
+  "source_sha256": "d9ba709fa5dcefffe3f3abdcf34600ce188224703cfd743e6db8b58ba4816cb7",
+  "target": {
+    "1": 234,
+    "2": 324,
+    "3": 32544,
+    "4": 7344,
+    "5": 1962,
+    "9": 416,
+    "17": 416,
+    "25": 416,
+    "33": 416,
+    "41": 416,
+    "49": 416,
+    "57": 416,
+    "65": 416,
+    "73": 416,
+    "145": 208
+  },
+  "paid": {
+    "1": 73766,
+    "2": 14904,
+    "3": 14598,
+    "4": 4338,
+    "5": 5760,
+    "6": 306,
+    "7": 216,
+    "8": 812,
+    "16": 416,
+    "24": 416,
+    "32": 416,
+    "40": 416,
+    "48": 416,
+    "56": 416,
+    "64": 416
+  },
+  "tested_C": "500007/100000000",
+  "moment": {
+    "lower": "31659045182279700967614983984648077446245643983005649104123/125000000000000000000000000000000000000000000000000000000000",
+    "upper": "6331809036455940193522996796929615489249128796601136012801/25000000000000000000000000000000000000000000000000000000000",
+    "midpoint": 0.2532723614582376
+  },
+  "alpha": {
+    "lower": "499999600359924108003695693312039743677132578265668686492347/500000000000000000000000000000000000000000000000000000000000",
+    "upper": "999999200719848216007391386624079487354265156531337372985477/1000000000000000000000000000000000000000000000000000000000000",
+    "midpoint": 0.9999992007198483
+  },
+  "gamma": {
+    "lower": "949253876673210810643197055185488381913523106808848635977251/1000000000000000000000000000000000000000000000000000000000000",
+    "upper": "189850775334642162128639411037097676382704621361769727195643/200000000000000000000000000000000000000000000000000000000000",
+    "midpoint": 0.9492538766732108
+  },
+  "lambda": {
+    "lower": "488277053581534124567385277370661725736041483395856138208271/500000000000000000000000000000000000000000000000000000000000",
+    "upper": "488277053581534124567385277370661725736041483395856138208753/500000000000000000000000000000000000000000000000000000000000",
+    "midpoint": 0.9765541071630682
+  },
+  "tail_upper": 0.998467733842613,
+  "tail_less_than": "999/1000",
+  "log_margins": [
+    {
+      "lower": "22854631719611027029083132128703665500668153737205771033079/1000000000000000000000000000000000000000000000000000000000000",
+      "upper": "22854631719611027029083132128703665500668153737205772437061/1000000000000000000000000000000000000000000000000000000000000",
+      "midpoint": 0.022854631719611027
+    },
+    {
+      "lower": "181234157498964135095803631557608459809193865016620942242724079/200000000000000000000000000000000000000000000000000000000000",
+      "upper": "90617078749482067547901815778804229904596932508310471121376723/100000000000000000000000000000000000000000000000000000000000",
+      "midpoint": 906.1707874948207
+    }
+  ],
+  "log_power": 1377,
+  "H": 5839800000000,
+  "old_completion": {
+    "lower": "216839740465731704248464469197049982667296723528285520791437/125000000000000000000000000000000000000000000000000000000000",
+    "upper": "867358961862926816993857876788199930669186894113142083166251/500000000000000000000000000000000000000000000000000000000000",
+    "midpoint": 1.7347179237258536
+  },
+  "unfragmented_alpha": {
+    "lower": "125224364262105237400946269981730925974500482042320470498511/125000000000000000000000000000000000000000000000000000000000",
+    "upper": "1001794914096841899207570159853847407796003856338563763988931/1000000000000000000000000000000000000000000000000000000000000",
+    "midpoint": 1.0017949140968418
+  },
+  "toy": {
+    "before": 105,
+    "after": -15,
+    "discarded_mass": 120,
+    "split_paid": {
+      "9": 1,
+      "1": 16,
+      "4": 8,
+      "7": 1
+    }
+  },
+  "controls": [
+    "unfragmented fails",
+    "old completion fails",
+    "false145 ambient fails153",
+    "p1376 fails",
+    "previous H fails",
+    "omitted target debit",
+    "u<C"
+  ],
+  "scope": "Sufficient arithmetic specification only; physical1276 native and covered BIT remain unbuilt."
+}
+{
+  "status": "PASS_INDEPENDENT_STATIC_3_6_REVIEW",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "frame_count": 1095,
+  "relevant_frames_without_aliases": 351,
+  "events": 71261,
+  "classes_count": 4657,
+  "counts": {
+    "no_pure_prefix": 4496,
+    "no_pure_suffix": 136,
+    "zero_local_pairing": 25
+  },
+  "classes": [
+    {
+      "cut_after": 29103,
+      "frame": 508,
+      "roles": [
+        439,
+        583
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 29105,
+      "frame": 514,
+      "roles": [
+        444,
+        589
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 29577,
+      "frame": 735,
+      "roles": [
+        518
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 29636,
+      "frame": 573,
+      "roles": [
+        519
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 31507,
+      "frame": 717,
+      "roles": [
+        482
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 31649,
+      "frame": 508,
+      "roles": [
+        439,
+        583,
+        1260
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 32608,
+      "frame": 396,
+      "roles": [
+        715,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 32983,
+      "frame": 1089,
+      "roles": [
+        507,
+        1467
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 33440,
+      "frame": 435,
+      "roles": [
+        376,
+        550,
+        1138,
+        1140
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 33441,
+      "frame": 435,
+      "roles": [
+        376,
+        550,
+        1138,
+        1140
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 33449,
+      "frame": 435,
+      "roles": [
+        376,
+        550,
+        1138
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 33579,
+      "frame": 435,
+      "roles": [
+        376,
+        550,
+        725,
+        1138
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 33580,
+      "frame": 435,
+      "roles": [
+        376,
+        550,
+        725,
+        1138
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 33581,
+      "frame": 435,
+      "roles": [
+        376,
+        550,
+        725,
+        1138
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 33609,
+      "frame": 285,
+      "roles": [
+        10,
+        461,
+        1214
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 33624,
+      "frame": 435,
+      "roles": [
+        376,
+        550,
+        1138
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 33777,
+      "frame": 1089,
+      "roles": [
+        507,
+        1242,
+        1467
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 33778,
+      "frame": 735,
+      "roles": [
+        518,
+        1247
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 33877,
+      "frame": 281,
+      "roles": [
+        242,
+        457,
+        1210
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 34202,
+      "frame": 396,
+      "roles": [
+        715,
+        1099,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 34203,
+      "frame": 396,
+      "roles": [
+        715,
+        1099,
+        1102,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 34204,
+      "frame": 396,
+      "roles": [
+        715,
+        1099,
+        1102,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 34228,
+      "frame": 396,
+      "roles": [
+        715,
+        1102,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 34334,
+      "frame": 396,
+      "roles": [
+        340,
+        715,
+        1102,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 34335,
+      "frame": 396,
+      "roles": [
+        337,
+        340,
+        715,
+        1102,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 34336,
+      "frame": 396,
+      "roles": [
+        337,
+        340,
+        715,
+        1102,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 34358,
+      "frame": 396,
+      "roles": [
+        340,
+        715,
+        1102,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 34464,
+      "frame": 396,
+      "roles": [
+        340,
+        715,
+        1102,
+        1249,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 34486,
+      "frame": 396,
+      "roles": [
+        340,
+        525,
+        715,
+        1102,
+        1249,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 34911,
+      "frame": 281,
+      "roles": [
+        242,
+        457,
+        1004,
+        1210
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 34912,
+      "frame": 281,
+      "roles": [
+        242,
+        457,
+        1004,
+        1006,
+        1210
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 34913,
+      "frame": 281,
+      "roles": [
+        242,
+        457,
+        1004,
+        1006,
+        1210
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 34917,
+      "frame": 285,
+      "roles": [
+        10,
+        461,
+        783,
+        1214
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 34918,
+      "frame": 285,
+      "roles": [
+        10,
+        461,
+        782,
+        783,
+        1214
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 34919,
+      "frame": 285,
+      "roles": [
+        10,
+        461,
+        782,
+        783,
+        1214
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 34932,
+      "frame": 281,
+      "roles": [
+        242,
+        457,
+        1006,
+        1210
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 34942,
+      "frame": 285,
+      "roles": [
+        10,
+        461,
+        782,
+        1214
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 35831,
+      "frame": 514,
+      "roles": [
+        444,
+        589,
+        809
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 35832,
+      "frame": 514,
+      "roles": [
+        444,
+        589,
+        809,
+        1201
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 35833,
+      "frame": 514,
+      "roles": [
+        444,
+        589,
+        809,
+        1201
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 35849,
+      "frame": 514,
+      "roles": [
+        444,
+        589,
+        1201
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36029,
+      "frame": 573,
+      "roles": [
+        519,
+        805
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36030,
+      "frame": 573,
+      "roles": [
+        519,
+        805,
+        1248
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36031,
+      "frame": 573,
+      "roles": [
+        519,
+        805,
+        1248
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36032,
+      "frame": 573,
+      "roles": [
+        519,
+        805,
+        1097,
+        1248
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36033,
+      "frame": 573,
+      "roles": [
+        519,
+        805,
+        1097,
+        1248
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36052,
+      "frame": 573,
+      "roles": [
+        519,
+        805,
+        1097
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36295,
+      "frame": 281,
+      "roles": [
+        242,
+        457,
+        1006,
+        1210
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36313,
+      "frame": 1089,
+      "roles": [
+        507,
+        855,
+        1242,
+        1467
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36314,
+      "frame": 1089,
+      "roles": [
+        507,
+        855,
+        1081,
+        1242,
+        1467
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36315,
+      "frame": 1089,
+      "roles": [
+        507,
+        855,
+        1081,
+        1242,
+        1467
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36320,
+      "frame": 285,
+      "roles": [
+        10,
+        461,
+        782,
+        1214
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36323,
+      "frame": 1089,
+      "roles": [
+        507,
+        855,
+        1081,
+        1242,
+        1467
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36332,
+      "frame": 735,
+      "roles": [
+        518,
+        1095,
+        1247
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36333,
+      "frame": 735,
+      "roles": [
+        518,
+        821,
+        1095,
+        1247
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36334,
+      "frame": 735,
+      "roles": [
+        518,
+        821,
+        1095,
+        1247
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36338,
+      "frame": 735,
+      "roles": [
+        518,
+        821,
+        1095,
+        1247
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36372,
+      "frame": 514,
+      "roles": [
+        444,
+        589,
+        1201,
+        1263
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 36373,
+      "frame": 514,
+      "roles": [
+        444,
+        589,
+        1201,
+        1263
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 36374,
+      "frame": 514,
+      "roles": [
+        444,
+        589,
+        1201
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36384,
+      "frame": 396,
+      "roles": [
+        340,
+        525,
+        715,
+        1102,
+        1249,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 36387,
+      "frame": 735,
+      "roles": [
+        518,
+        821,
+        1095
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36392,
+      "frame": 573,
+      "roles": [
+        519,
+        805,
+        1097
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36395,
+      "frame": 1089,
+      "roles": [
+        507,
+        855,
+        1081,
+        1467
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36415,
+      "frame": 573,
+      "roles": [
+        519,
+        805
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36434,
+      "frame": 735,
+      "roles": [
+        518,
+        821
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36461,
+      "frame": 573,
+      "roles": [
+        519
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36463,
+      "frame": 1089,
+      "roles": [
+        507,
+        1081,
+        1467
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36645,
+      "frame": 508,
+      "roles": [
+        439,
+        583,
+        1194,
+        1260
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 36646,
+      "frame": 508,
+      "roles": [
+        439,
+        583,
+        1194,
+        1196,
+        1260
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 36647,
+      "frame": 508,
+      "roles": [
+        439,
+        583,
+        1194,
+        1196,
+        1260
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 36650,
+      "frame": 508,
+      "roles": [
+        439,
+        583,
+        1196,
+        1260
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 36687,
+      "frame": 508,
+      "roles": [
+        439,
+        583,
+        1196,
+        1260
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 36776,
+      "frame": 456,
+      "roles": [
+        97,
+        563,
+        867
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36777,
+      "frame": 456,
+      "roles": [
+        97,
+        563,
+        867
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36778,
+      "frame": 456,
+      "roles": [
+        97,
+        563,
+        867
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36779,
+      "frame": 456,
+      "roles": [
+        97,
+        867
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36826,
+      "frame": 527,
+      "roles": [
+        97,
+        414,
+        867
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36827,
+      "frame": 527,
+      "roles": [
+        97,
+        414,
+        867
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36848,
+      "frame": 527,
+      "roles": [
+        97,
+        414,
+        644,
+        867
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36849,
+      "frame": 527,
+      "roles": [
+        97,
+        414,
+        644,
+        867
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36850,
+      "frame": 527,
+      "roles": [
+        97,
+        414,
+        644,
+        867
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 36851,
+      "frame": 527,
+      "roles": [
+        97,
+        414,
+        867
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 37030,
+      "frame": 527,
+      "roles": [
+        97,
+        414
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 37074,
+      "frame": 514,
+      "roles": [
+        444,
+        589
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 37171,
+      "frame": 573,
+      "roles": [
+        33,
+        519
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 37172,
+      "frame": 573,
+      "roles": [
+        33,
+        519
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 37173,
+      "frame": 573,
+      "roles": [
+        33,
+        335,
+        519
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 37174,
+      "frame": 573,
+      "roles": [
+        33,
+        335,
+        519
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 37227,
+      "frame": 572,
+      "roles": [
+        32,
+        317,
+        506,
+        804
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 37228,
+      "frame": 572,
+      "roles": [
+        32,
+        317,
+        506,
+        804
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 37303,
+      "frame": 396,
+      "roles": [
+        340,
+        525,
+        715,
+        1102,
+        1249,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 37304,
+      "frame": 396,
+      "roles": [
+        340,
+        525,
+        715,
+        1102,
+        1249,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 37305,
+      "frame": 396,
+      "roles": [
+        340,
+        525,
+        715,
+        1102,
+        1249,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 37307,
+      "frame": 396,
+      "roles": [
+        340,
+        525,
+        715,
+        1249,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 37311,
+      "frame": 396,
+      "roles": [
+        340,
+        525,
+        715,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 37931,
+      "frame": 508,
+      "roles": [
+        439,
+        583,
+        1196
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38331,
+      "frame": 717,
+      "roles": [
+        482,
+        1048
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38332,
+      "frame": 717,
+      "roles": [
+        482,
+        826,
+        1048
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38333,
+      "frame": 717,
+      "roles": [
+        482,
+        826,
+        1048
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38334,
+      "frame": 717,
+      "roles": [
+        482,
+        826,
+        1048,
+        1229
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 38335,
+      "frame": 717,
+      "roles": [
+        482,
+        826,
+        1048,
+        1229
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 1,
+      "kind": "zero_local_pairing"
+    },
+    {
+      "cut_after": 38336,
+      "frame": 508,
+      "roles": [
+        439,
+        583
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38337,
+      "frame": 717,
+      "roles": [
+        482,
+        1048,
+        1229
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38339,
+      "frame": 717,
+      "roles": [
+        482,
+        1048
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38353,
+      "frame": 717,
+      "roles": [
+        482
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38485,
+      "frame": 281,
+      "roles": [
+        242,
+        457,
+        1006,
+        1210
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38503,
+      "frame": 717,
+      "roles": [
+        56,
+        482
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38504,
+      "frame": 717,
+      "roles": [
+        56,
+        285,
+        482
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38505,
+      "frame": 717,
+      "roles": [
+        56,
+        285,
+        482
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38553,
+      "frame": 1089,
+      "roles": [
+        319,
+        507,
+        1081,
+        1467
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38554,
+      "frame": 1089,
+      "roles": [
+        85,
+        319,
+        507,
+        1081,
+        1467
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38555,
+      "frame": 1089,
+      "roles": [
+        85,
+        319,
+        507,
+        1081,
+        1467
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38561,
+      "frame": 285,
+      "roles": [
+        10,
+        461,
+        782,
+        1214
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38600,
+      "frame": 1089,
+      "roles": [
+        85,
+        319,
+        507,
+        1081,
+        1467
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38627,
+      "frame": 735,
+      "roles": [
+        50,
+        518,
+        821
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38628,
+      "frame": 735,
+      "roles": [
+        50,
+        333,
+        518,
+        821
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38629,
+      "frame": 735,
+      "roles": [
+        50,
+        333,
+        518,
+        821
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38677,
+      "frame": 735,
+      "roles": [
+        50,
+        333,
+        518,
+        821
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38746,
+      "frame": 396,
+      "roles": [
+        340,
+        525,
+        715,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38929,
+      "frame": 285,
+      "roles": [
+        10,
+        461,
+        1214
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38950,
+      "frame": 435,
+      "roles": [
+        376,
+        550,
+        1138
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38951,
+      "frame": 435,
+      "roles": [
+        376,
+        550,
+        1138
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 38952,
+      "frame": 435,
+      "roles": [
+        376,
+        1138
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39011,
+      "frame": 281,
+      "roles": [
+        242,
+        457,
+        1006
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39023,
+      "frame": 750,
+      "roles": [
+        3,
+        554
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39024,
+      "frame": 750,
+      "roles": [
+        3,
+        554
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39041,
+      "frame": 285,
+      "roles": [
+        10,
+        461
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39129,
+      "frame": 717,
+      "roles": [
+        56,
+        285,
+        482
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39138,
+      "frame": 508,
+      "roles": [
+        439,
+        583
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39177,
+      "frame": 514,
+      "roles": [
+        444,
+        589
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39588,
+      "frame": 396,
+      "roles": [
+        340,
+        525,
+        715,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39625,
+      "frame": 396,
+      "roles": [
+        340,
+        525,
+        715,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39626,
+      "frame": 396,
+      "roles": [
+        340,
+        525,
+        715,
+        1342
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39627,
+      "frame": 396,
+      "roles": [
+        340,
+        525,
+        715
+      ],
+      "rank": 3,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39712,
+      "frame": 819,
+      "roles": [
+        338,
+        370,
+        1100,
+        1132
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39713,
+      "frame": 819,
+      "roles": [
+        338,
+        370,
+        1100,
+        1132
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39722,
+      "frame": 849,
+      "roles": [
+        44,
+        382,
+        816,
+        1144
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39723,
+      "frame": 849,
+      "roles": [
+        44,
+        382,
+        816,
+        1144
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39862,
+      "frame": 819,
+      "roles": [
+        338,
+        370,
+        604,
+        1100,
+        1132
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39863,
+      "frame": 819,
+      "roles": [
+        338,
+        370,
+        604,
+        1100,
+        1132
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39864,
+      "frame": 819,
+      "roles": [
+        338,
+        370,
+        604,
+        1100,
+        1132
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39865,
+      "frame": 819,
+      "roles": [
+        338,
+        370,
+        604,
+        1132
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 39869,
+      "frame": 819,
+      "roles": [
+        338,
+        370,
+        1132
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 40572,
+      "frame": 842,
+      "roles": [
+        376,
+        408,
+        635,
+        1138
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 40573,
+      "frame": 842,
+      "roles": [
+        376,
+        408,
+        635,
+        1138
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 40574,
+      "frame": 842,
+      "roles": [
+        376,
+        408,
+        635,
+        1138,
+        1428
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 40575,
+      "frame": 842,
+      "roles": [
+        376,
+        408,
+        635,
+        1138,
+        1428
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 40577,
+      "frame": 842,
+      "roles": [
+        376,
+        408,
+        635,
+        1428
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 40614,
+      "frame": 842,
+      "roles": [
+        376,
+        408,
+        635,
+        1428
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 41131,
+      "frame": 842,
+      "roles": [
+        376,
+        408,
+        635,
+        1428
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 41132,
+      "frame": 842,
+      "roles": [
+        376,
+        408,
+        635,
+        1428
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 41133,
+      "frame": 842,
+      "roles": [
+        376,
+        408,
+        635,
+        1428
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 41134,
+      "frame": 842,
+      "roles": [
+        376,
+        408,
+        635,
+        1428
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 41135,
+      "frame": 842,
+      "roles": [
+        376,
+        408,
+        1428
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 41136,
+      "frame": 842,
+      "roles": [
+        376,
+        408
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 41628,
+      "frame": 849,
+      "roles": [
+        44,
+        382,
+        646,
+        816,
+        1144
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 41629,
+      "frame": 849,
+      "roles": [
+        44,
+        382,
+        646,
+        816,
+        1144
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 41630,
+      "frame": 849,
+      "roles": [
+        44,
+        382,
+        646,
+        816,
+        1144
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 41631,
+      "frame": 849,
+      "roles": [
+        44,
+        382,
+        646,
+        816
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    },
+    {
+      "cut_after": 41639,
+      "frame": 849,
+      "roles": [
+        44,
+        382,
+        816
+      ],
+      "rank": 6,
+      "prefix_dimension": 1,
+      "suffix_dimension": 0,
+      "kind": "no_pure_suffix"
+    }
+  ],
+  "controls": [
+    "positive cut survives",
+    "zero image coefficients retained",
+    "outside cancellation"
+  ],
+  "no_new_kappa": true,
+  "scope": "All existing rank3/6 source frames; all coframed roles; fixed scalar order;595 current rank9 boundary group."
+}

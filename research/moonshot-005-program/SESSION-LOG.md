@@ -74,3 +74,17 @@ checks, separate from mathematical review. No source/review files changed
 between scientific publication and handoff. All workers finished; no background
 continuation is promised. Next session resumes the causal construction
 obligation in STATE, on this same branch. Ongoing programme; not PR-ready.
+
+### 2026-11-11 supporting-results integration requested by @CubeJerry
+
+Starting programme HEAD: 5386c31535ed3d4501386d663f25d4861f9e3fe8. Integrated all five
+completed target-first results as supporting material. Owned/selector packages
+were already byte-identical; bootstrap science matches, with its old pinned
+metadata preserved. Added the complete helper/compiler and shared-core packages
+at original paths, including proofs, exact checks, independent reviews and
+receipts. Updated FRAG status, target map and STATE; quiet-rechart stays unverified.
+Reconciled the 119-job restricted hub theorem with existing 208-arrival work
+without substituting or adding incompatible bounds. Primary CODED-LIFT and all
+open supplier/foundation obligations are unchanged. Exact Git object identity
+is checked; this integration does not claim rerunning scientific suites.
+No new kappa, main change, force push, or upstream PR.

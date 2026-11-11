@@ -12,7 +12,8 @@ Each status is scoped to its proposition, not the whole hopeful architecture.
 | H4-COMP | Fund completion, strictification, geometry, precision and storage for uniform U>.005. | literal H4; physical services | OPEN; positive raw moment alone insufficient. |
 | BIT-NEW | Covered C>.005 on the retained prime/domain/ROW interface, compatible with the new architecture. | literal BIT word; complete invoice | OPEN; complex sharing does not transfer automatically. |
 | BIT-CUT | Every normalized endpoint repair of the fixed selector pays at least111(m−1); the rank-limited q-core full invoice fails at.005. | results/bit-selector-boundary-floor/PROOF.md; lead review | PROVED within stated grammar; change temporal delivery or invoice. |
-| FRAG | Reproduce recovered fixed-paid threshold and static/rechart exclusions. | recovery/reconstructed | UNVERIFIED RECONSTRUCTION; original packets unavailable. |
+| FRAG | Fixed-paid threshold and existing-chart static first-cut exclusions. | ../moonshot-helper-fragmentation; independent reviews | PROVED within exact source/partition scope; physical ternary construction OPEN. Quiet-rechart remains unverified. |
+| FRAG-COMP | Paid target restriction, splitting and uniform compiler arithmetic for the stated 1,276-extra profile. | ../moonshot-helper-fragmentation/COMPILER-SPECIFICATION.md | SUFFICIENT SPECIFICATION with unbuilt native/BIT inputs; not an H4 compiler certificate. |
 | FOUNDATION | Prove/bypass all five selected assumptions for all required inputs/sizes. | full machine/analytic construction | OPEN at global scope; local interfaces do not discharge them. |
 
 Detailed session proofs belong in subdirectories with exact pins, meaningful

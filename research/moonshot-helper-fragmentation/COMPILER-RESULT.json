@@ -1,0 +1,136 @@
+{
+  "status": "PASS_UNBUILT_PROFILE_COMPILER_SPECIFICATION",
+  "classification": "Sufficient arithmetic specification only; native profile and covered BIT are UNBUILT.",
+  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "no_new_kappa": true,
+  "profile": {
+    "T": {
+      "1": 234,
+      "2": 324,
+      "3": 32544,
+      "4": 7344,
+      "5": 1962,
+      "9": 416,
+      "17": 416,
+      "25": 416,
+      "33": 416,
+      "41": 416,
+      "49": 416,
+      "57": 416,
+      "65": 416,
+      "73": 416,
+      "145": 208
+    },
+    "P": {
+      "1": 73766,
+      "2": 14904,
+      "3": 14598,
+      "4": 4338,
+      "5": 5760,
+      "6": 306,
+      "7": 216,
+      "8": 812,
+      "16": 416,
+      "24": 416,
+      "32": 416,
+      "40": 416,
+      "48": 416,
+      "56": 416,
+      "64": 416
+    },
+    "extra_per_native": 1276,
+    "extra_caller_targets": 22968
+  },
+  "parameters": {
+    "tested_saving": "500007/100000000",
+    "v": 1920,
+    "c": 11,
+    "b": 12,
+    "u": "1/7",
+    "w": "1/7"
+  },
+  "moment": {
+    "productive": {
+      "lower": "316875.579723747569189195648089920792",
+      "upper": "316875.579723747569189195648089920793"
+    },
+    "paid": {
+      "lower": "316875.326451386110951587907170048915",
+      "upper": "316875.326451386110951587907170048916"
+    },
+    "signed": {
+      "lower": "0.253272361458237607740919871877",
+      "upper": "0.253272361458237607740919871878"
+    },
+    "alpha": {
+      "lower": "0.999999200719848216007391386624",
+      "upper": "0.999999200719848216007391386625"
+    },
+    "gamma": {
+      "lower": "0.949253876673210810643197055185",
+      "upper": "0.949253876673210810643197055186"
+    },
+    "lambda": {
+      "lower": "0.976554107163068249134770554741",
+      "upper": "0.976554107163068249134770554742"
+    },
+    "rational_upper_bounds": [
+      "12499990009/12500000000",
+      "19/20",
+      "977/1000"
+    ],
+    "normalized_bound": {
+      "lower": "0.998467733842613010483771261029",
+      "upper": "0.998467733842613010483771261030"
+    },
+    "strict_gap_lower": "1/1000"
+  },
+  "uniform_compiler": {
+    "ambient": "153^1920",
+    "theta": "28/29",
+    "p": 1377,
+    "log_eta": {
+      "lower": "-48.297892748399321139208515213147",
+      "upper": "-48.297892748399321139208515213146"
+    },
+    "log_base": {
+      "lower": "48.292880136224015588510473459866",
+      "upper": "48.292880136224015588510473459867"
+    },
+    "log_margin": {
+      "lower": "0.022854631719611027029083132128",
+      "upper": "0.022854631719611027029083132129"
+    },
+    "gap": "1/100000000",
+    "uniform_saving": "250003/50000000",
+    "H": 5839800000000,
+    "N": "2^5839800000000",
+    "previous_p_and_grid_fail": true
+  },
+  "counts": {
+    "public": 46360,
+    "paid_calls": 117612,
+    "paid_rank_mass": 319844,
+    "raw_product_invocations": "sum(i=0..1919,46360^(1919-i)*117612^i)",
+    "owned_specializations": "D=46360^1920-W_retained",
+    "new_initialization_and_erasure_records": "2D",
+    "split_paid_calls_upper": "319844^1920"
+  },
+  "negative_controls": {
+    "completion": {
+      "lower": "1.734717923725853633987715753576",
+      "upper": "1.734717923725853633987715753577"
+    },
+    "unfragmented_alpha": {
+      "lower": "1.001794914096841899207570159853",
+      "upper": "1.001794914096841899207570159854"
+    },
+    "145_ambient_power_fails_true153": 1362
+  },
+  "limits": [
+    "No native helper-cut construction or arbitrary-input admission.",
+    "No covered BIT supplier at target.",
+    "Actual new scalar/storage/precision counts need the constructed word.",
+    "All five foundational assumptions remain."
+  ]
+}

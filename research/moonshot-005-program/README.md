@@ -10,7 +10,7 @@ The first session proves exact restrictions on fixed-channel sharing, temporal
 exchanges, endpoint repair and shared-cut capacity, and supplies a conditional
 coding interface. See [VERIFICATION.md](VERIFICATION.md),
 [REPRODUCE.md](REPRODUCE.md), [SESSION-LOG.md](SESSION-LOG.md) and result files.
-Prior reconstructed evidence remains explicitly labelled.
+[Supporting results](SUPPORTING-RESULTS.md) integrate the completed target-first swarm packages and explain overlap with this programme. Only unreconstructed quiet-rechart evidence remains provisional.
 
 Continue on `research/moonshot-005-program`. Recheck remote HEAD before updating;
 never force-push. STATE deliberately names a preceding checkpoint to avoid

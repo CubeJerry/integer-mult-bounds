@@ -37,10 +37,13 @@ positive constants and compiler substitution at the actual ambient 153.
 
 ## Alternate refinement and complete dependency order
 
-Reconstructed notes report a fixed-paid two-piece obstruction and threshold
-1,276 extra targets per repeated native. Original final proof/checker packets
-were lost; do not promote them to programme proofs before reproduction. Neither
-is a universal ceiling.
+The completed imported helper package proves the fixed-paid two-piece obstruction
+and sharp 1,276-extra-target threshold per repeated native, with fresh independent
+review after reconstruction. Its static 3/6 census is also verified. The paid
+compiler specification for that unbuilt profile supplies U=.00500006; see
+SUPPORTING-RESULTS.md. These results are scoped, not universal ceilings. Actual
+native construction and physical counts remain open; quiet-rechart notes retain
+their unverified status.
 
 Required chain: literal arbitrary-input word → causal chart/ownership proof →
 complete recursive and physical invoices → uniform complex compiler and covered
