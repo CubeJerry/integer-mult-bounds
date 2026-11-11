@@ -97,3 +97,35 @@ chart3. The literal72073-instruction upper word removes all nine historical
 observation premises but exceeds even the optimistic98-arrival allowance.
 Dynamic funded reuse, helper payload recoding and changed geometry remain open.
 See results/initial-preprocessing/. No new kappa.
+
+## S003 architecture decision: read-active helper recoding
+
+Fourteen return rows have distributed quotient rank10 after granting entry
+inputs. Thirteen have conditional earlier owned/main-history identities;
+event37606 is excluded even by all that history plusentry inputs
+(psi=row[0]+row[20], target4). Identities do not acquire observations.
+Evidence: results/quotient-history/ and independent reverse-adjoint review.
+
+The endpoint-only theorem grants arbitrary coded main/all47owned routes,
+every354quiet loan, free caches and entrypreloads. A46x46 endpoint restriction
+remains absent from all chosen sink knowledge. It forces46 outside-graph field
+units for every admitted dimension. With at most3newpaid arrivals, at least43
+useful transmissions must use other mechanisms or changed geometry/timing.
+Existing helper routes may supply them without newGaussian jobs, but must carry
+q information and restore dirty common values. See results/endpoint-obstruction/.
+Quiet-only refinements cannot close this gap.
+
+Preferred PROVISIONAL S7 retains fourhistorical and threecurrent returns
+33272,33281,37606. It removes sevencurrent returns, with26observerterms. Its
+independently reconstructed71294-instruction reference is conditional, not a
+shared native. S7={1:4,3:1,4:1,6:1}, P7=P4+18(O-S7):27344targets,153144paid,
+surplus3346, remaining moment<3.889495420926/native. This is approximately
+0.035062355436 MORE expensive/native than prepaid14, but omits fourpreloads,
+185ADDs,fourlater-owned samples and sixcurrent terms. No full-cost dominance.
+
+This revision simplifies acquisition at nearly the same paid allowance. All
+historical/prepaid14/initial105 constructions remain verified optional mechanisms.
+The primary step is useful read-active helper recoding with legally delayed
+updates or shadow state, full dirty-input restoration and every cost exposed.
+The four-before-return rank4/two-helper obstruction applies to prepaid14, not
+S7's retained historicalreturns. No newkappa; native/suppliers/foundations open.

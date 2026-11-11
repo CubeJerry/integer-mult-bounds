@@ -151,3 +151,29 @@ all10 author hashes match. Counts:105 added arrivals,501ADDs,105INIT/CLEAR pairs
 56labels,159lifetimes,peak44,final0. The general outgoing-chart dimension proof
 and its exact source witness establish arrival-count sharpness only. No complete
 1880-input shared native, weighted optimum, supplier or assumption discharge.
+
+## S003 second checkpoint: four reviewed packages
+
+- quotient-history: author forward replay; independent14 reverse adjoints,
+  separate rank10 minor51/64,26 distinct reverse historical observations,
+  23positive identities, complete10-row37606 scalar-mode obstruction, actual
+  owned provenance and exact200th-power price audit. Normal/-O agree. The finer
+  owned-only classification was reviewed from author certificates/code; the
+  independent executable concentrates on13 closures and the full-history failure.
+- endpoint-obstruction: independent backward temporal ancestors and46 reverse
+  endpoint rows;354quiet windows/141starts,2116 excluded input/sink pairs in each
+  of3graphs,determinant1/8,all-helper escape at46sinks.46 is not optimal;
+  102missing coefficients are supporting diagnostic only. Normal/-O agree.
+- temporal-observation-rank: separate worker reverse paths, adjoint target rows
+  and per-input sender paths verify U134,rank4,determinant-3/4 and all2221 zero
+  sender intersections, including the exact recordhash. Scope: historical
+  BEFORE-return demands, not S7's retained returns. Normal/-O agree.
+- seven-rewrite: separate worker reconstructs all71294 instructions with typed
+  rational replay,400q/1480endpoints,51labels/61lifetimes/peak43. Independent
+  dyadic2^88 power enclosures verify fullP7 and its premium over prepaid14.
+  Wrong coefficient/ownership/INIT chart are rejected. Helper400 independent
+  difference produces94 differing endpoints, delimiting the input domain.
+
+All evidence and author-file hash manifests are under the corresponding results
+packages. Repeating author checks is not called independent review. No complete
+1880-input shared code or supplier is verified by these source packages.

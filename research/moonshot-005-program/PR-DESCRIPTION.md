@@ -177,3 +177,27 @@ for acquiring four full historical return rows before the source calendar.
 All nine historical observations are removed at an unaffordable paid price.
 Dynamic funded reuse remains open. Exact pins, ordinary/lifecycle bills and
 negative controls are retained. No new kappa; cumulative programme not PR-ready.
+
+## Cumulative S003 additions
+
+New source-bound packages prove sharp105 initial-only acquisition, a rank10
+fourteen-return quotient with an explicit full-history obstruction, and a46-field
+endpoint-only barrier even granting all main/owned routes and354quiet loans.
+The four-deadline refinement excludes a lone nonquiet helper repair under the
+three-new-field ceiling. These counts have distinct scopes and are not added.
+Critical claims have separate mathematical reviews and implementations.
+
+The conditional seven-return reference construction becomes the preferred
+provisional candidate:26observer terms,71294typed instructions, complete P7
+invoice with headroom<3.889495420926/native. It slightly increases paid moment
+while reducing specific acquisition obligations; no full-cost dominance.
+Read-active helper recoding is the primary missing mechanism. Source-linear
+reference proofs do not establish a1880-input shared native, supplier or compiler.
+
+Published evidence: [quotient/history](results/quotient-history/PROOF.md),
+[endpoint barrier](results/endpoint-obstruction/PROOF.md),
+[deadline refinement](results/temporal-observation-rank/PROOF.md), and
+[seven-return construction](results/seven-rewrite/PROOF.md), each with review/.
+**No new kappa. Ongoing programme, not PR-ready; no upstream submission.**
+Prepared for @CubeJerry with substantial OpenAI assistance, predecessor/source
+credit and separate worker reviews. These are not human/formal acceptance.

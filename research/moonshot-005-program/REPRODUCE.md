@@ -102,3 +102,12 @@ python3 -B research/moonshot-005-program/results/initial-preprocessing/review/re
 Expected:105 added arrivals,72073 instructions,400 q inputs,1480 public endpoints,
 501ADDs,105INIT/CLEAR pairs,peak44,finalowned0. Repeat with-O. See the package
 README for explicit author source/word reconstruction commands.
+
+## S003 integrated packages
+
+Each results/{quotient-history,endpoint-obstruction,temporal-observation-rank,
+seven-rewrite}/README.md gives author commands; each review/REVIEW.md gives the
+separate independent command and expected status. Use the integrated package
+path from repository root. For quotient/history, first generate reverse rows,
+then pass that rowfile to history_review.py. Both normal and-O receipts are
+stored. No search is needed to check the frozen46 endpoint certificate.

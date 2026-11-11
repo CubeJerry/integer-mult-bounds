@@ -1,0 +1,73 @@
+{
+  "all_helper_senders_before_last_deadline": 2277,
+  "all_sender_intersection_dimensions": 0,
+  "author_files_sha256": {
+    "PROOF.md": "1272aa06cd829c699496bb4613fe345b041bb2d772d8bd789ec5825391d090b4",
+    "README.md": "cb5b8d2b766ade7401c7b61670922f9c179b7a7511ef52e9334de98384bd8aed",
+    "RESULT-OPTIMIZED.json": "caebed17f8143ce59bc9f23e89c24304684bd48bc4b29e843307c09b4c979975",
+    "RESULT.json": "caebed17f8143ce59bc9f23e89c24304684bd48bc4b29e843307c09b4c979975",
+    "SOURCES.json": "8a94be40bd8febb3f2d6bdc732522c0e979acca2b653d52d39d2ce5e0b412c34",
+    "verify.py": "fb1e2b03c86327cd838359365ae65138c343137c37902268f5cbf160284e3307"
+  },
+  "budget_sha256": "6a1d608dc4b0947cd1d47e2869ceafc72498813a8ceba5d7a09cc1e7ec5bad51",
+  "controls": {
+    "source_pin_corruption_rejected": true,
+    "synthetic_sender_intersection_dimension": 1,
+    "three_targets_rank": 3
+  },
+  "deadlines": [
+    {
+      "event": 28141,
+      "known_inputs": 38,
+      "missing_distributed": 32
+    },
+    {
+      "event": 33554,
+      "known_inputs": 30,
+      "missing_distributed": 37
+    },
+    {
+      "event": 34467,
+      "known_inputs": 6,
+      "missing_distributed": 49
+    },
+    {
+      "event": 37597,
+      "known_inputs": 200,
+      "missing_distributed": 52
+    }
+  ],
+  "historical_certificate_sha256": "d46db515a5fead49b752b8d798472c883aff7698d7e5e948f0d4e336ec99054b",
+  "methods": [
+    "per-role position histories for quiet windows",
+    "reverse temporal chart reachability at each BEFORE-return deadline",
+    "fresh reverse adjoint programme replay for four target rows",
+    "one-input forward paths for every relevant coordinate and every helper sender",
+    "maximum-column exact rational elimination and independently evaluated determinant"
+  ],
+  "minor_columns": [
+    4,
+    2,
+    1,
+    0
+  ],
+  "minor_determinant": "-3/4",
+  "nonquiet_helper_senders_checked": 2221,
+  "paid_extra_arrival_ceiling": 3,
+  "quiet_changes_four_deadline_knowledge": false,
+  "quiet_unique_arcs": 141,
+  "quiet_windows": 354,
+  "restricted_row_rank": 4,
+  "restricted_row_supports": [
+    32,
+    29,
+    34,
+    36
+  ],
+  "scope": "Four specified returned rows decoded BEFORE original return MOVEs under fixed main/owned calendar plus the reconstructed 354 quiet windows. The rank4 and at-least-two nonquiet helper message conclusions do not transfer automatically to S7, which retains these four historical returns. No new kappa.",
+  "sender_classes": 94,
+  "sender_record_sha256": "8b95ae3579bdf178ec9c143851e42b31130a284ccbfd86a3997c42f174feadac",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_INDEPENDENT_TEMPORAL_REVIEW",
+  "unreachable_coordinate_count": 134
+}

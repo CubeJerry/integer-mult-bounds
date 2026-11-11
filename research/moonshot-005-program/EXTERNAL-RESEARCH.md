@@ -118,3 +118,47 @@ charge without a physical invoice map; #7173 ata30cb01ae877386d0ede459491100fc55
 reports a conditional five-stage13q aggregation. Their detailed bodies were read,
 not independently replayed or admitted; neither supplies the missing joint code.
 No upstream source, selected certificate or branch was modified.
+
+# S003 targeted upstream reading
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. Both entries below
+were open and unmerged at the S003 startup. PR bodies and exact PROOF.md files
+were read; no independent replay or mathematical admission is claimed.
+
+## CrocSwap/integer-mult-bounds#7166
+
+ToikY head6efb5d028b3212fba68edfb725608413622d6ab6;
+research/p104-rectangular-clifford-adapter-bound/PROOF.md,
+Git blobc85683dffd2c1cb9cf4c2f6b0b9542ae9b49b19a.
+
+This asks whether one rank-two child can perform two independent rank-one jobs.
+For uniformly bounded rectangular pre/postprocessing and bounded-support bypass,
+the retained flat-child normalization forces an adapter norm product growing
+at least2^((r−1)f/2). A separate sparse-left-inverse formulation forces a support
+product at least2^((r−1)f). Destructive output projection does not bypass the
+first stated hypothesis. The positive reciprocal/projection example pays
+exponential bank expansion. Source-specific price counts use #7161's17-stage
+caller and target.0040075385047236; they are not our18-stage.005 invoice.
+
+Relevant lesson: arbitrary coordinate coding or rectangular adapters cannot
+silently be treated as uniformly bounded ordinary services. This does not
+exclude changed recursive calls, unbounded adapters with honestly priced fees,
+or our local source-linear observation identities. No missing supplier supplied.
+
+## CrocSwap/integer-mult-bounds#7171
+
+ToikY head53d69a5c27aa457cdf050edba3a8d77d63741a65;
+research/p104-serial-temporal-support-bound/PROOF.md,
+Git blob0908aa266eafb59d31720ad6b3f52da6886323bf.
+
+The source-bound temporal-support test grants arbitrary coframed scalar coding,
+free caches/restoration and broad hypothetical fused arcs, but preserves literal
+normalized reads at their charts/clocks. Its capped screen excludes1105 of3925
+serial blocks;760 read gaps remain unvisited. Its positive optimistic bound
+leaves the broader family open. These counts concern the different #7161 source.
+
+This resembles our source-history information restrictions and reinforces the
+importance of real input arrival times. It does not transfer numerical counts
+to our source or exclude fused blocks that change intermediate read contracts.
+No main/source update or code integration performed. Credit ToikY, Clear1nsight,
+Rohan Arun and each retained predecessor named in those packages.

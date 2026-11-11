@@ -216,3 +216,16 @@ seven-rewrite alternative remain under review at this first checkpoint. They
 are not admitted here. Next: useful helper payload recoding beyond quiet loans,
 with dirty common restoration and every physical cost. No new kappa. Publication
 identity will be recorded in the next checkpoint, avoiding self-reference.
+
+S003 checkpoint1 published and GitHub-confirmed at
+c6348e719402598efa78ed015954d93f98ea57b0 (tree3a5a2115b785e320f3691d219c9ff1de81e0d877).
+Next accepted wave: rank10quotient/13history closures/37606counterexample;
+endpoint-only46-field bound with main/owned/quiet grants; four-before-return
+rank4 plus2221sender exclusions; and seven-return conditional word/fullP7.
+Root independently reversed quotient/history and endpoint source rows; workers
+cross-reviewed temporal and seven packages. All normal/-O receipts agree.
+Preferred profile changes toS7 for fewer acquisition premises at a small paid-
+moment penalty, not a new saving. Four-deadline obstruction stays with prepaid14.
+Next construction wave: useful read-active helper loans, delayed updates/shadow
+fields, arbitrary dirty-input restoration and source-block observer fusion.
+No newkappa. Resulting commit will be recorded later to avoid self-reference.

@@ -181,3 +181,29 @@ margin falls by1818 and becomes negative. This excludes inexpensive before-sourc
 full acquisition, not funded retiming; weighted-price optimality is unclaimed.
 Raw-q formation and every other physical/compiler fee remain additional.
 Proof and independent review: results/initial-preprocessing/.
+
+## S003 current provisional profile
+
+S7 retains four historical returns and current events 33272,33281,37606.
+Removed events are 28169,33558,34479,39217,40094,40096,41758. From
+O={1:20,2:9,3:2,4:13,5:2,6:1}, S7={1:4,3:1,4:1,6:1}, T7=T4 and
+P7=P4+18(O-S7), the exact full-profile margin at exponent199/200 lies in
+[70010917576579126,70010917576650854]/10^15. Added paid moment per native
+must be below3.889495420926: at most3 positive-rank complete-field arrivals.
+This provisional margin does not fund unbuilt ordinary services or a supplier.
+
+The seven rewrites need26 terms(4main,19helper,3owned),+26ADD,+7INIT/+7CLEAR,
+51labels,61lifetimes,peak43. The homogeneous400-q reference keeps other helper
+routes; it is not the1880-input shared word. P7 has54 more paid positions than
+prepaid14, the same3346 surplus and a0.035062355436/native paid-moment premium.
+Omitting preloads reduces specific premises, not a proved full physical tariff.
+
+The endpoint theorem needs46 outside-graph informative field units; if only3
+are newly paid, at least43 must use other q-bearing operations or changed graph.
+Main/allowned/quiet routes are already over-granted. Primary search: useful
+read-active helper recoding. The four-before-return rank4/two-helper theorem
+applies to prepaid14's removed historical returns, not S7. Rank10 modes,
+105initial arrivals,46endpoint messages and4deadline modes have different scopes
+and are not added. See results/{seven-rewrite,endpoint-obstruction,
+quotient-history,temporal-observation-rank}/ with independent reviews.
+All outer/BIT/precision/compiler requirements remain. No complete target theorem.

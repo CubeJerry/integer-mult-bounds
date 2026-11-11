@@ -129,3 +129,19 @@ routes are newly charged, with equal-span aliases identified. A literal word
 attains105. Evidence: results/initial-preprocessing/PROOF.md and review/REVIEW.md.
 This closes initial-only replacement of the four later owned samples. It leaves
 funded temporal aggregation, helper recoding and changed geometry open.
+
+## S003 revised dependency frontier
+
+| ID | Precise proposition and dependencies | Status and consequence |
+|---|---|---|
+| QUOTIENT-HISTORY | For every admitted V over characteristic zero,14 return rows modulo200 entry directions have rank10V;13 have earlier owned/main formulas;37606 does not. Pinned source/current/historical certificates. | PROVED source-linear reduction; observations remain physical premises. Evidence: results/quotient-history/ and review/. |
+| RETURN-DEADLINE-4 | Decode four historical rows BEFORE original return MOVEs. Main/allowned/354quiet graph plus entrypreloads; common-unreachable134-coordinate restriction has rank4V;2221 nonquiet senders have zero target intersection. | PROVED scoped:3 new fields and1 helper message insufficient; at least2 helper messages or changed interface. Not S7's retained returns. Evidence: results/temporal-observation-rank/. |
+| ENDPOINT-46 | Final endpoints only;1710main/47owned/354quiet grants, arbitraryV-coordinate linear codes, free caches.46x46 absent-input endpoint restriction has determinant1/8. | PROVED m>=46 outside-graph field units;<=3 newpaid implies>=43 other informative transmissions or graph change. Not46 newGaussianjobs in unrestricted recoding. Evidence: results/endpoint-obstruction/. |
+| SEVEN-REWRITE | Seven identities with26 actual physical terms imply400-q reference equivalence; source counts imply full P7. | CONDITIONALLY PROVED lowering/exact provisional invoice; no joint native. Preferred profile,headroom<3.889495420926. Evidence: results/seven-rewrite/. |
+| ACTIVE-HELPER | Useful q payloads on read-active helper routes restore arbitrary common inputs and complete endpoints with full costs. | OPEN,primary. Quiet-only graph excluded. Test delayed updates/shadow state with a useful owned-descending contact. |
+
+ACTIVE-HELPER plus actual S7 observations and full native completion imply
+H4-COMP. Compatible BIT-NEW, admitted complex supplier and outer premises imply
+the target. These arrows do not construct missing components. Prepaid14 and
+initial105 remain valid within their scopes. S003 supersedes the earlier
+primary preload task while retaining all prior evidence.
