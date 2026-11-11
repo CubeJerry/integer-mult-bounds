@@ -3,8 +3,8 @@
   "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
   "base_tree": "1199c3d7a31fffa5ba5d41f10f1b933aacc797aa",
   "selected_kappa": "0.00363005817",
-  "updated_utc": "2026-11-11T13:43:00Z",
-  "status": "Rolling wave 2; first result published",
+  "updated_utc": "2026-11-11T13:55:01Z",
+  "status": "Rolling wave 2 verification and publication; wave 3 candidates under bounded overlap review",
   "recovery_branch": "recovery/foundations-swarm-20261111-1313",
   "assumptions": [
     {
@@ -33,45 +33,53 @@
       "worker": "tape_dispatch",
       "track": 53,
       "scope": "Heterogeneous finite-rank physical call plan with V/W normalization",
-      "status": "Wave 1 proof reviewed; wave 2 actual uniform law/cutoff/remainder binding",
-      "path": "work/tape_binding",
+      "status": "Generic and selected rank-one control proofs reviewed; combining coherent package; root independent width/remainder CPU check next",
+      "path": "work/tape_selected_package",
       "dependencies": [
         5158,
         7150,
         7151,
         6878
-      ]
+      ],
+      "wave": 2
     },
     {
       "worker": "analytic_recovery",
       "track": 67,
       "scope": "Current exact-layer contract through quantitative recovery",
-      "status": "Wave 1 superseded audit; wave 2 CRT state join in independent review",
+      "status": "CRT endpoint published and independently reviewed; reviewing source-index repair; wave 3 inverse-CRT novelty and budget reconnaissance",
       "path": "work/analytic_recovery/encoded_crt_endpoint",
       "dependencies": [
         7152,
         7154,
         6993,
         6982
-      ]
+      ],
+      "wave": 2
     },
     {
       "worker": "compiler_uniformity",
       "track": 57,
       "scope": "Lazy final-template owner/occurrence matching",
-      "status": "Wave 1 published; wave 2 source index in independent review",
-      "path": "work/compiler_source_index",
+      "status": "Contiguous source rank/unrank mathematics passes; repairing adversarial hash lookup cost before publication",
+      "path": "work/compiler_source_index/package",
       "dependencies": [
         6878,
         6901
-      ]
+      ],
+      "wave": 2
     }
   ],
   "verified": [
     {
-      "result": "Pascal occurrence codec",
+      "result": "Pascal occurrence and owner codec",
       "commit": "91246e5131152ccb1f64a969c36706360861f821",
-      "remote_blobs_match": true
+      "remote_blobs_match": 12
+    },
+    {
+      "result": "Uniform encoded forward CRT source-state endpoint",
+      "commit": "532b60ac427f47191175aba2e1317db0f3508d51",
+      "remote_blobs_match": 22
     }
   ],
   "published": [
@@ -81,7 +89,31 @@
       "commit": "91246e5131152ccb1f64a969c36706360861f821",
       "compare": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/pascal-occurrence-codec-20261111-1313?expand=1",
       "description_path": "research/pascal-occurrence-codec/PR.md"
+    },
+    {
+      "slug": "encoded-balanced-crt-endpoint",
+      "branch": "research/encoded-crt-endpoint-20261111-1313",
+      "commit": "532b60ac427f47191175aba2e1317db0f3508d51",
+      "compare": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/encoded-crt-endpoint-20261111-1313?expand=1",
+      "description_path": "research/encoded-balanced-crt-endpoint/PR-DESCRIPTION.md"
     }
   ],
-  "next": "Confirm novel exact claims; independently check results; refresh main and PR deltas at wave transition."
+  "next": "Publish only independently verified repaired source index and source-bound controller; resolve inverse-CRT novelty and caller budget before any new implementation; preserve exact branches and checkpoint",
+  "negative_and_superseded": [
+    {
+      "result": "Historical scale-ratio-only analytic bound",
+      "status": "Superseded by existing scale-aware theorem; not a selected-bound flaw or separate contribution",
+      "path": "analytic-wave1-superseded.md"
+    },
+    {
+      "result": "Python hash-table source-index cost",
+      "status": "Independent counterexample found; positive counting/bijection intact; deterministic ordered and serialized-table repair in progress",
+      "source": "reviews/source_index_peer_review/REVIEW.md"
+    }
+  ],
+  "latest_upstream_check": {
+    "sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+    "through_pr": 7270,
+    "selected_unchanged": true
+  }
 }
