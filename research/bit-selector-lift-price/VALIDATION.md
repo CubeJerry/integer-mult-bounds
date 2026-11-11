@@ -42,3 +42,5 @@ an exhaustive repository-wide proof search. The selector invariant is an
 elementary linear decomposition; the contribution is its exact current-source
 instantiation and complete target-price discrimination, not a claim of
 priority for abstract linear mode decomposition.
+
+The registered entry point verify_node.py is a small Python launcher for the same Node checker and passed on the final package. The retained research-package schema validator passed against the staged file inventory; its Git-provenance phase and the full generic registry run were not executed. Every source export was separately checked against its declared byte length, Git blob and SHA256.

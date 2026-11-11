@@ -18,7 +18,7 @@ are in [review/REVIEW.md](review/REVIEW.md). The literal caller is frozen at
 inputs/query_only_6980.json for its independent recount. Validation records
 the exact completed commands and current publication scope.
 
-## Open next question
+## Open next questions
 
 Can a different shared-core word or admissible correction avoid the displayed
 repair bill, while retaining arbitrary independent inputs, actual frame

@@ -7,8 +7,10 @@
   "commands": [
     {
       "argv": [
-        "node",
-        "{package}/verify.js"
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify_node.py"
       ],
       "timeout_seconds": 120,
       "checks": "Node18+; source SHA256, full original scalar endpoint, main-only identity, actual chart chronology and111rational repair nestings, repaired m2/4/6 endpoints, complete paid and event formulas, exact integer-root moment bounds and omitted-repair controls."
