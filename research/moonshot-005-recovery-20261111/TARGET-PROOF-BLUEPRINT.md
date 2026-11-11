@@ -95,12 +95,23 @@ state replacement obligations. Conditional assembly and unconditionality differ.
    pairings. Exact source COPY-as-ADD semantics and full role coverage pass.
    This rules out the first static cut of a sequential 3+3+3 route only.
 
-Wave3/4 high-upside alternative: a four-channel dirty-bus boundary identity
-has passed preliminary independent algebra checks. Its complete optimistic
-shared-core complex moment is positive. Actual source transport with that
-invoice is UNBUILT. BIT uses a distinct two-core baseline; no transfer of
-complex sharing is assumed. Quiet-corridor rechart extensions remain under
-coverage review. None of these provisional steps is an admitted supplier.
+Wave3/4 alternative, now independently verified in its stated scope:
+the four-channel boundary normalizer is valid on the 96 paired ports.
+The complete hypothetical shared-core moment is positive, but the actual H4
+word is UNBUILT, including both coupled eight-port copies and owned sharing.
+Duplicating owned work makes the moment negative. A fixed-selector repair
+needs cross-chart dependence; the specified one-way FULL-hub grammar requires
+at least 119 rank-one jobs per native and loses the target margin. Independent
+replay rejects all 19,600 members of a precisely named time-varying family.
+A universal write-span lemma excludes load-only changes with deficient write
+span; interleaved bank changes must be judged by transported directions.
+These restrictions do not exclude every shared-core construction.
+
+BIT has a distinct source architecture. Its constructed selector lift with
+the specified literal paid repair fails the target for every even m>=2;
+no complex sharing gain is transferred to BIT. Quiet-corridor rechart
+observations not reconstructed after workspace replacement remain recovery
+notes only and are not verified publication claims.
 
 ## Exact five canonical statements
 
@@ -129,3 +140,57 @@ B0, and discharge the full physical/global contracts. This is a working map,
 not a certificate or a general impossibility theorem.
 
 Prepared for Jerry Chen / @CubeJerry with substantial OpenAI assistance.
+
+## Final source-bound obligation status
+
+All results below were independently checked and published on isolated
+contribution branches. Every comparison against the frozen canonical base has
+only additions under its own package. No upstream pull request was opened.
+
+| Obligation | Final status | Exact published evidence |
+|---|---|---|
+| Stronger covered BIT B0 | Open; existing supplier remains below target | BIT bridge does not construct its required covered input |
+| Ordinary BIT bridge B1 and lift L0 | Sharp finite-stage theorem and target parameter implication proved; literal selector-repair alternative fails | bit-target-bootstrap at 8bd8a92d611f17fdc368b114fee8302df63cc51d; bit-selector-lift-price at 65d4af8d22e8436d8aa0cbe48da6255d3aa1b135 |
+| Complex target production C1 | 1,276 extras/native is the sharp repeated-profile threshold in the fixed-paid relaxation; current static first cuts excluded | moonshot-helper-fragmentation at 34470f7cae31f9b317f593628107ed3ed3833b12 |
+| Complex compiler C2 | Sufficient target restriction/splitting/uniformity arithmetic proved for an unbuilt native; actual expanded physical counts still required | same package, COMPILER-SPECIFICATION.md and independent compiler review |
+| Joint shared-core construction | Boundary wrapper constructed; full native unbuilt; scoped owned/repair barriers and finite-family rejection proved | shared-core-target-obligations at 9cf4110aca86a22ccb7ab96ed4517b5bc377faf7 |
+| Isolated owned-rank shortcut | Cheaper paid rank forces at least f whole-field additions under the stated model; arbitrary correlated/fused rewrites excluded | selected-owned-rank-tradeoff at 4115049c5126cb56133072982d9158acfd74d4b3 |
+| Complete outer assembly O0 | 54 strict + 4 functional rows pass for hypothetical U=.00500006,B=.00500007,g=1e-8; actual suppliers remain missing | bit-target-bootstrap RESULT.json |
+| Unconditional foundation F0 | No full assumption discharged or bypassed | exact selected-record statements above |
+
+The minimal sufficient *construction* targets now have explicit downstream
+arithmetic, but two central internal inputs remain unbuilt: the arbitrary-input
+ternary native and covered BIT saving .0050001. Supplying those words also
+requires their complete physical invoices, precision/stock bounds and the
+same inherited five assumptions. No complete conditional kappa=.005 claim
+is made while those internal inputs are missing.
+
+### Foundation-by-foundation consequence
+
+| Canonical assumption | Partial evidence available / remaining discharge | Effect of investigated architectures |
+|---|---|---|
+| native_all_columns | Finite source catalogue, boundary and scalar checks are retained; all-column operator/spectator/adapter contract remains universal beyond that finite replay | Unchanged; new words require new admissible instances |
+| owned_erasure | Current-owner chronology, 54 lifetimes and isolated-rise lower bound checked; uniform physical allocation/restoration/erasure contract remains | Unchanged; restriction adds owned zero fields, H4 requires shared owned lifetimes |
+| compiler | Explicit paid finite profile/strictification arithmetic and uniform rank implication; actual native, expansion and uniform dispatcher/closure contract still required | Unchanged; no free completion or omitted child |
+| precision_tape | Existing exact common-grid and finite service applications retained; new templates require fresh coefficient, stock, precision and fixed-tape counts | Unchanged; predecessor source-invoice units are not physical tariffs |
+| analytic_recovery | Retained analytic decomposition, prime avoidance and exact recovery framework remains an external hypothesis; no new discharge claimed | Unchanged; no bypass |
+
+A discharge must prove the cited retained contract at its actual unbounded
+input/column quantifiers, or give a replacement complete multiplication
+argument paying for the omitted operation. Finite source checks and optimistic
+profile inequalities alone cannot do either.
+
+### Final overlap and publication audit
+
+Canonical main remained e54523517d0f03e58352e647c403a5af3e525a57 on refresh.
+New open #7158 (cc48fe3098b639c9100aff5fad31ad9c917205a5) reviews #7156
+(b44944c3058d522cbff17836e16240d40d77a927) at .003644407895539; it was not
+selected. Open #7157 (a17390e1944ad56bcaba3700a24285138b92f0c6) concerns one/two
+literal BIT carriers for summary770 with fixed source prefix, a different
+scope from whole-main selector lifting and literal paid endpoint repair.
+Discussion endpoints were unavailable, so discussion overlap coverage is
+explicitly incomplete; no claim of exhaustive novelty discovery is made.
+
+PUBLISHED.json holds exact verified commit heads, full prepared titles/bodies
+and once-encoded prefilled compare forms. These are forms for the user to
+submit, not submitted upstream PRs. Checkpoint branches are not contributions.
