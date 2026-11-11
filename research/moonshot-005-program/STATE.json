@@ -1,7 +1,7 @@
 {
   "schema": "moonshot-005-program-state-v1",
   "branch": "research/moonshot-005-program",
-  "checkpoint_baseline_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "checkpoint_baseline_sha": "fae26837275fa89a5dbaffef0cd68722485d34b6",
   "checkpoint_sha_semantics": "Prior baseline, not this file's own commit identity.",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
   "session": "2026-11-11-S001",
@@ -10,12 +10,46 @@
   "selected_conditional_kappa": "363005817/100000000000",
   "programme_new_complete_kappa": null,
   "primary_obligation": "H4 causal shared-core native for independent channels at a target-feasible complete invoice",
-  "completed_milestones": ["Exact remote predecessor recovery", "Canonical selected-record identification", "Permanent branch initialized", "55 imported predecessor files byte-authenticated"],
-  "active_subproblems": ["fixed-channel source chronology", "BIT endpoint-repair floor", "joint owned-state cut rank"],
-  "verified_results": [],
-  "unverified_hypotheses": ["H4 native realizability", "compatible covered BIT above .005", "reconstructed fragmentation/compiler/rechart results"],
-  "pending": ["Complete replays and independent proof checks", "Integrate and push new results"],
-  "next_actions": ["Resolve causal independent-information delivery before further optimistic profile searches"],
+  "completed_milestones": [
+    "Exact remote predecessor recovery",
+    "Canonical selected-record identification",
+    "Permanent branch initialized",
+    "55 imported predecessor files byte-authenticated",
+    "25 selector files authenticated",
+    "H4 source census restored",
+    "Optimal normalized BIT endpoint-repair floor independently checked"
+  ],
+  "active_subproblems": [
+    "fixed-channel source chronology",
+    "BIT endpoint-repair floor",
+    "joint owned-state cut rank"
+  ],
+  "verified_results": [
+    {
+      "id": "BIT-CUT",
+      "status": "proved-within-normalized-linear-grammar",
+      "path": "research/moonshot-005-program/results/bit-selector-boundary-floor/PROOF.md",
+      "review": "research/moonshot-005-program/results/bit-selector-boundary-floor/INDEPENDENT-REVIEW.md"
+    }
+  ],
+  "unverified_hypotheses": [
+    "H4 native realizability",
+    "compatible covered BIT above .005",
+    "reconstructed fragmentation/compiler/rechart results"
+  ],
+  "pending": [
+    "Complete replays and independent proof checks",
+    "Integrate and push new results"
+  ],
+  "next_actions": [
+    "Resolve causal independent-information delivery before further optimistic profile searches"
+  ],
   "pr_ready": false,
-  "retained_assumptions": ["native_all_columns", "owned_erasure", "compiler", "precision_tape", "analytic_recovery"]
+  "retained_assumptions": [
+    "native_all_columns",
+    "owned_erasure",
+    "compiler",
+    "precision_tape",
+    "analytic_recovery"
+  ]
 }

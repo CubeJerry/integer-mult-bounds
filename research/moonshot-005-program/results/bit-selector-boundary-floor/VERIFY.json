@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "inputs": [
+    "research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz",
+    "research/paired-query-only-bit/data/query_only_6980.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py",
+        "--word",
+        "research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz",
+        "--caller",
+        "research/paired-query-only-bit/data/query_only_6980.json",
+        "--expected",
+        "{package}/RESULT.json"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Source endpoint/cut rank, repair saturation, complete caller census, exact roots, 4096 local states and negative controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/verify.py",
+        "--word",
+        "research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz",
+        "--caller",
+        "research/paired-query-only-bit/data/query_only_6980.json",
+        "--expected",
+        "{package}/RESULT.json"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Source endpoint/cut rank, repair saturation, complete caller census, exact roots, 4096 local states and negative controls."
+    }
+  ],
+  "python": "3.12",
+  "requirements": []
+}

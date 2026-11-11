@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify_node.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Node18+; source SHA256, full original scalar endpoint, main-only identity, actual chart chronology and111rational repair nestings, repaired m2/4/6 endpoints, complete paid and event formulas, exact integer-root moment bounds and omitted-repair controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/review/independent.py",
+        "--word",
+        "{package}/inputs/native.json.gz",
+        "--caller",
+        "{package}/inputs/query_only_6980.json"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Independent reverse-adjoint endpoints, exact rational frame geometry, literal caller and separate interval moment calculation."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/review/independent.py",
+        "--word",
+        "{package}/inputs/native.json.gz",
+        "--caller",
+        "{package}/inputs/query_only_6980.json"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Independent reverse-adjoint endpoints, exact rational frame geometry, literal caller and separate interval moment calculation."
+    }
+  ]
+}

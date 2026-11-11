@@ -1,0 +1,109 @@
+{
+  "status": "PASS_BIT_SELECTOR_LIFT_PAID_REPAIR",
+  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "main_only_identity": true,
+  "no_cross_main_core_swaps": true,
+  "source_public_endpoint_mismatches": 0,
+  "source_finite_coefficients": 434281,
+  "repair_nesting_checks": 111,
+  "copied_main_events": 22954,
+  "results": [
+    {
+      "m": 2,
+      "public_fields": 881,
+      "owned_labels": 238,
+      "events": 57757,
+      "paid": {
+        "1": 1888,
+        "2": 1497,
+        "3": 70,
+        "4": 55,
+        "5": 9,
+        "6": 206,
+        "7": 11
+      },
+      "missing_rows_before_repair": 111,
+      "endpoint_mismatches_after_repair": 0,
+      "repair_rank_one_calls": 111
+    },
+    {
+      "m": 4,
+      "public_fields": 1325,
+      "owned_labels": 238,
+      "events": 104997,
+      "paid": {
+        "1": 2892,
+        "2": 1985,
+        "3": 86,
+        "4": 71,
+        "5": 9,
+        "6": 410,
+        "7": 13
+      },
+      "missing_rows_before_repair": 333,
+      "endpoint_mismatches_after_repair": 0,
+      "repair_rank_one_calls": 333
+    },
+    {
+      "m": 6,
+      "public_fields": 1769,
+      "owned_labels": 238,
+      "events": 152237,
+      "paid": {
+        "1": 3896,
+        "2": 2473,
+        "3": 102,
+        "4": 87,
+        "5": 9,
+        "6": 614,
+        "7": 15
+      },
+      "missing_rows_before_repair": 555,
+      "endpoint_mismatches_after_repair": 0,
+      "repair_rank_one_calls": 555
+    }
+  ],
+  "main_paid": {
+    "1": 391,
+    "2": 244,
+    "3": 8,
+    "4": 8,
+    "6": 102,
+    "7": 1
+  },
+  "core_paid": {
+    "1": 995,
+    "2": 1009,
+    "3": 54,
+    "4": 39,
+    "5": 9,
+    "6": 2,
+    "7": 9
+  },
+  "helpers": {
+    "2": 1,
+    "4": 25,
+    "6": 1,
+    "8": 410
+  },
+  "negative_controls": {
+    "zero_repair_endpoint": "REJECT:111*(m-1)missing rows",
+    "free_same_chart_endpoint_repair": "REJECT:dimension8 source versus dimension7 target",
+    "omitted_paid_repair": "REJECT:unfunded positive four-plane moment becomes negative after full bill"
+  },
+  "exact_moments": {
+    "scale": "340282366920938463463374607431768211456",
+    "M2": [
+      "-151106882350121508171683032424504106985824",
+      "-151106882350121508171683032424504106910806"
+    ],
+    "core_minus_helper": [
+      "29826738891206703259721466132784440370439",
+      "29826738891206703259721466132784440371944"
+    ],
+    "M2_upper": "-444",
+    "core_delta_upper": "88",
+    "repaired_lift_upper": "-222*m-414*(m-1) <0 for all integers m>=2"
+  },
+  "new_kappa": null
+}

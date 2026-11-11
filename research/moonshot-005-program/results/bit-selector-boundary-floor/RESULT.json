@@ -1,0 +1,125 @@
+{
+  "all_m_theorem": "paid repair >= 111*(m-1) for all integers m>=2 and all real t>0",
+  "chronology": {
+    "all_main_only_ADDs_on_X": true,
+    "main_frame_configurations": 755,
+    "main_only_ADDs": 628,
+    "minimum_X_dimension_minus_maximum_Y_dimension": 1,
+    "scope": "All 34138 source cuts covered by 755 constant-main-frame intervals."
+  },
+  "core_paid": {
+    "1": 995,
+    "2": 1009,
+    "3": 54,
+    "4": 39,
+    "5": 9,
+    "6": 2,
+    "7": 9
+  },
+  "exact_moments": {
+    "D": [
+      "87652907675162247894034305019014",
+      "87652907675162247894034305020519"
+    ],
+    "D_upper": "88",
+    "M2": [
+      "-444063216432339640984746771688824",
+      "-444063216432339640984746771613806"
+    ],
+    "M2_upper": "-444",
+    "scale": "1000000000000000000000000000000",
+    "unrepaired_m2_positive": true
+  },
+  "finite_lifts": [
+    {
+      "entry_cut_rank": 111,
+      "exit_cut_rank": 222,
+      "literal_repair_events": 666,
+      "m": 2,
+      "rank_gains": 111,
+      "rank_one_paid_moment": 111,
+      "repair_down_crossings": 111
+    },
+    {
+      "entry_cut_rank": 111,
+      "exit_cut_rank": 444,
+      "literal_repair_events": 1998,
+      "m": 4,
+      "rank_gains": 333,
+      "rank_one_paid_moment": 333,
+      "repair_down_crossings": 333
+    },
+    {
+      "entry_cut_rank": 111,
+      "exit_cut_rank": 666,
+      "literal_repair_events": 3330,
+      "m": 6,
+      "rank_gains": 555,
+      "rank_one_paid_moment": 555,
+      "repair_down_crossings": 555
+    }
+  ],
+  "helper_endpoint_dimensions": {
+    "4": 2,
+    "6": 1,
+    "8": 434
+  },
+  "helper_targets": {
+    "2": 1,
+    "4": 25,
+    "6": 1,
+    "8": 410
+  },
+  "main_only_identity": true,
+  "main_paid": {
+    "1": 391,
+    "2": 244,
+    "3": 8,
+    "4": 8,
+    "6": 102,
+    "7": 1
+  },
+  "new_kappa": null,
+  "owned_reset_events": 474,
+  "rank_limited_q_core_bound": "M(m,q)<-222*m-414*(m-q) for even m>=2 and 1<=q<=m",
+  "root_paid": {
+    "1": 444,
+    "7": 444,
+    "14": 444,
+    "21": 444,
+    "28": 444,
+    "35": 444,
+    "42": 444,
+    "49": 444,
+    "56": 444
+  },
+  "root_targets": {
+    "8": 444,
+    "15": 444,
+    "22": 444,
+    "29": 444,
+    "36": 444,
+    "43": 444,
+    "50": 444,
+    "57": 444,
+    "64": 444,
+    "127": 222
+  },
+  "scope": "Normalized linear boundary correction grammar; no changed-prefix or universal shared-core exclusion.",
+  "small_checks": {
+    "local_transition_checks": 65536,
+    "negative_controls": [
+      "free cross-chart ADD increases rank without MOVE",
+      "value-only unequal-chart SWAP violates pairing premise",
+      "X-dependent low-side helper increases entry rank"
+    ],
+    "tiny_states": 4096,
+    "universal_proof": "PROOF.md Theorem 1, not finite extrapolation"
+  },
+  "source_base": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "source_git_blob": "b718d6b2848215ad785022106dfa9f871a3d1c0c",
+  "source_public_coefficients": 434281,
+  "source_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "source_swaps": 3,
+  "status": "PASS_SELECTOR_BOUNDARY_REPAIR_FLOOR"
+}
