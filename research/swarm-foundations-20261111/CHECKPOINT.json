@@ -3,8 +3,8 @@
   "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
   "base_tree": "1199c3d7a31fffa5ba5d41f10f1b933aacc797aa",
   "selected_kappa": "0.00363005817",
-  "updated_utc": "2026-11-11T15:12:50Z",
-  "status": "Eight independently verified contributions published; wave 4 CRT projection proof under review; wave 5 effective native-word emission investigation active",
+  "updated_utc": "2026-11-11T15:19:50Z",
+  "status": "STOPPED: execution environment unavailable; eight verified contributions published; no background work running",
   "recovery_branch": "recovery/foundations-swarm-20261111-1313",
   "assumptions": [
     {
@@ -35,7 +35,7 @@
       "track": 54,
       "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
       "scope": "Effective emitted compiler-word size from reviewed library counts and actual adapter producers",
-      "status": "Unverified source-bound reduction; no code",
+      "status": "Stopped due to environment unavailability; incomplete, no final theorem acceptance",
       "dependency": "022461f115369efd988ef8c459907f5544bb8bb3; #6878; #4638",
       "path": "work/emitted_compiler_bound",
       "next": "Pin local producer grammar and complete code-generation bill; respect common m=A=max target domain"
@@ -46,7 +46,7 @@
       "track": 80,
       "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
       "scope": "Finite-state quotient of CRT production closure, diagnostic erasure and binary simulation bounds",
-      "status": "Projection proof f37cb65a frozen for independent review; three independent meter perturbation fixtures pass",
+      "status": "Stopped due to environment unavailability; incomplete, no final theorem acceptance",
       "dependency": "scientific inverse c84b0e6; metadata-only head 8c0e55c9",
       "path": "work/crt_literal_refinement",
       "next": "Complete independent proof review and narrow reproducible audit before publication"
@@ -57,7 +57,7 @@
       "track": 75,
       "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
       "scope": "Complementary independent CRT projection proof review",
-      "status": "Reviewing frozen projection proof",
+      "status": "Stopped due to environment unavailability; incomplete, no final theorem acceptance",
       "dependency": "f37cb65a8c557d1e1bf03e6517bb760ce2ac9547df0bce7a4e76905711f0879e",
       "path": "reviews/crt_projection_peer_review",
       "next": "Check finite scientific state, all loops/call depth, erased assertions, binary time and visited-history bound"
@@ -165,7 +165,7 @@
       "description_path": "research/quantitative-rank-library/PR.md"
     }
   ],
-  "next": "Review CRT refinement lemma; investigate effective native-word production; preserve model boundaries and final verification reserve.",
+  "next": "Restore a functioning execution environment; read HANDOFF.md and exact package commits; refresh canonical main and PR/claim deltas; review incomplete proofs before any publication. No unscheduled continuation is promised.",
   "negative_and_superseded": [
     {
       "result": "Historical scale-ratio-only analytic bound",
@@ -189,5 +189,33 @@
     "selected_unchanged": true,
     "pending_frontier": "Open #7274 proposes conditional 0.003645473221716; not selected or independently accepted here"
   },
-  "reviewed_pending_publication": []
+  "reviewed_pending_publication": [],
+  "blocker": {
+    "kind": "execution_environment_unavailable",
+    "detail": "Platform explicitly marked environment unavailable after exec-server transport disconnection and recovery timeout. Local source/review reads no longer work.",
+    "observed_utc": "2026-11-11T15:19:50Z"
+  },
+  "final_upstream_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "final_remote_refs_verified": true,
+  "incomplete": [
+    {
+      "scope": "CRT source-to-finite-machine projection",
+      "draft": "crt-refinement-unverified/PROJECTION.md",
+      "sha256": "f37cb65a8c557d1e1bf03e6517bb760ce2ac9547df0bce7a4e76905711f0879e",
+      "status": "Unverified and unpublished. Root read proof and performed three finite diagnostic-perturbation controls; separate reviewer authenticated runtime inputs but never received frozen proof bytes.",
+      "required_correction": "K_source+D assumes fresh Endpoint-owned private histories. Reused private histories require per-role maxima or an added incoming-history term.",
+      "uncertain_local_operation": "The final static-auditor write/replay call never returned; neither existence nor PASS is claimed."
+    },
+    {
+      "scope": "Emitted compiler word and manifest bound",
+      "draft": "emission-unverified/SCOPE.md",
+      "status": "Unverified and unpublished; no implementation or accepted new theorem",
+      "proposed_claims": [
+        "Expanded activation count <=P_N+O_N",
+        "Sum of activation productive-interface widths <=P_N+W*O_N"
+      ],
+      "boundary": "Current published library has m=A=max target rank. Selected #7000 uses ambient A=153^1920 and explicitly requires no rank-A target; selected transfer is not established.",
+      "next": "Bind an explicit native/normalizer record schema and producer costs, or generalize ambient-cap library first with a proved width/contraction argument."
+    }
+  ]
 }
