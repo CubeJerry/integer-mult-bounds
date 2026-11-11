@@ -463,3 +463,13 @@ lack admitted physical encoders/restoration schedules. Upstream was checked
 selectively; no open proposal is promoted to accepted mathematics. No new κ
 and no upstream PR. The resulting commit SHA is recorded after GitHub confirms
 publication, avoiding self-reference.
+
+S005 checkpoint1 was GitHub-confirmed at
+bcc6ba3b21812f2d15393cd3cc932ee8acf72378,
+tree3868e402f578390644b0cde63907e1eb976faf07. Fetch-back was clean; allfour
+integrated source/reviewer receipts matched. At approximately15:13UTC the
+shell environment became unavailable. The session continues through GitHub
+and portable JavaScript source access. See sessions/2026-11-11-S005/INTERRUPTION-RECOVERY.md
+for the exact boundary between published proofs, observed but unpublished
+checks, and open constructions. The full native was recovered with matching
+compressed SHA256 and gzip CRC. No new κ or completed10-hour claim.
