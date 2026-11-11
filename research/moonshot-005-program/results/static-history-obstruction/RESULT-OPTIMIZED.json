@@ -1,0 +1,60 @@
+{
+  "actual_prefix_spent_main_occurrences": 262,
+  "additional_original_helper_crossing_field_units_needed_if_at_most8_new_paid": 36,
+  "aggregate_minor": "-1/8",
+  "all_original_raw_histories_granted": true,
+  "budget_sha256": "b5c4a118bb7e72a31d7ba90a8cd4b72884f9fa6470710850119d709ad3f21f40",
+  "canonical_charts": 1094,
+  "certificate_sha256": "57c3eaec1aa281cd2458e9a1071e3e349046b3dca7c992c754d08ad93931c235",
+  "closed_cut_charts": 220,
+  "distinct_allowed_static_arcs": 853,
+  "distinct_escape_arcs": 223,
+  "distinct_escape_helpers": 375,
+  "endpoint_determinant": "1/8",
+  "escape_rank_histogram": {
+    "1": 258,
+    "2": 56,
+    "3": 83,
+    "4": 1,
+    "5": 1
+  },
+  "facet_prefix_sha256": "e87e4bfcb9772b232e6c443cf2d8ee79a7de356d381eda3aa42040e5e37003c0",
+  "full_original_main_occurrences_granted": 1710,
+  "full_original_owned_occurrences_granted": 47,
+  "initial_aggregate_rank": 2,
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "negative_controls": [
+    {
+      "mutation": "omit_initial_chart",
+      "rejection": "all selected initial charts lie inside cut"
+    },
+    {
+      "mutation": "allow_one_cross_helper",
+      "rejection": "allowed route cannot leave closed cut"
+    },
+    {
+      "mutation": "grant_all_helper_edges",
+      "rejection": "allowed route cannot leave closed cut"
+    },
+    {
+      "aggregate_rank": 2,
+      "mutation": "duplicate_both_aggregates"
+    },
+    {
+      "aggregate_rank": 46,
+      "mutation": "free_global_selected_input_rereads",
+      "remaining_rank_bound": 0
+    }
+  ],
+  "optimistic_additional_paid_arrival_ceiling": 8,
+  "original_helper_escape_occurrences": 399,
+  "original_time_order_required": false,
+  "quiet_starts_granted": 141,
+  "quiet_windows_granted": 354,
+  "remaining_message_lower_bound": 44,
+  "scope": "All-V linear closed-cut lower bound with arbitrary reorder/reuse of main/all-owned/quiet edges, free raw history on every original main itinerary and two global aggregate modes. Extra q-informative nonquiet helper crossings or new routes remain possible and charged. No complete native, uniform supplier or new kappa.",
+  "selected_input_count": 46,
+  "selected_output_count": 46,
+  "selected_raw_history_MOVE_occurrences": 204,
+  "status": "PASS_STATIC_220_CHART_HISTORY_ROBUST_44_MESSAGE_BOUND"
+}

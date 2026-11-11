@@ -7,42 +7,48 @@ Canonical base e54523517d0f03e58352e647c403a5af3e525a57 still selects conditiona
 κ=.00363005817 through #7000/#7001. Five foundational assumptions remain.
 **No new κ.** The selected record controls over stale historical guidance.
 
-## Current frontier: acquired source forms and retimed continuation (S003)
+## Current frontier: preserve modes and use active helper routes (S004)
 
-Two structural advances now define the programme. Late reconstruction permits
-deletion of unread owned lifetimes: the preferred eight-current reference
-removes14 owned MOVEs, including all four historical returns, and leaves26
-physical observer terms. Its provisional allowance is below20.801032491590
-per native. This remains a400-input reference, not a full shared native.
-See [lifetime closure](results/lifetime-elimination/PROOF.md).
+The preferred eight-current reference still removes 14 owned MOVEs, including
+all four historical returns, and leaves 26 physical observer terms. Its
+provisional allowance is below 20.801032491590 per native. The independently
+reviewed S003 prefixes genuinely acquire two authentic source forms while
+preserving all 1,880 inputs. Those local constructions remain valid.
 
-A [literal1,880-input prefix](results/paid-observable-acquisition/PROOF.md) now
-acquires the authentic59-term relay1481 form and26-term current130 form. It
-forms and preserves all400 raw differences and leaves arbitrary common data
-unchanged. Sixty carriers consume262 funded main routes; eight facet copies
-and two rank2 descents deliver both outputs at541. The783-instruction word
-has493ADD,10INIT,8CLEAR,272MOVE,peak3 fresh owned fields and two live outputs.
-All original common-owned labels remain reserved.
+Their unchanged poststates cannot, however, support an affordable complete
+continuation on the original route geometry. The new [terminal export
+proof](results/terminal-hub-export/PROOF.md) identifies 52 independent donor
+modes deposited at chart 127, which has no outgoing edge among all 6,310
+original MOVEs. Required outputs outside that chart have rank 52; the two
+acquired forms supply rank two. At least 50 additional exported field units
+are necessary, versus at most eight under the facet price and two under the
+direct price. Even granting 33 freely retargeted difference-owned messages
+leaves a deficit of 17. This is a scoped exclusion of these literal prefix
+continuations, not a defect in their acquisition proof or a global lower bound.
 
-The [complete provisional tariff](results/relay-acquisition-budget/PROOF.md)
-charges all18 repetitions:153198 paid positions,27344 targets,rank surplus3436,
-remaining moment/native<8.8148714402760477. Ordinary, storage, precision,
-retirement and compiler fees are still needed. A730-instruction direct variant
-has fewer arrivals but higher moment. Separate reverse-source/full-input and
-exact-price reviews verify both variants.
+Retaining raw histories before the final ascent avoids that particular loss,
+but does not solve delivery. The new [static cut
+proof](results/static-history-obstruction/PROOF.md) grants every raw coordinate
+at every original main location, and allows unlimited reordering/reuse of all
+main, owned and quiet-loan arcs. A closed set of 220 charts still separates
+46 independent endpoint modes. After the two acquired forms, at least 44
+further crossing field units remain. If only eight new paid units fit, at
+least 36 must come from informative uses of other original operations or a
+separately priced change of interface. There are 399 original nonquiet helper
+crossings of this cut; their usefulness and arbitrary-common-state restoration
+are unproved. The 50 and 44 bounds have different premises and are not added.
 
-Acquisition is complete for these two forms under the changed chronology. The
-whole state at source30824 is not available, and none of the26 S8 observers is
-automatically discharged. Next: extend the actual raw state, respect262 spent
-reservations, realize all13 relay effects/current130 dependencies, and complete
-all endpoint/ownership duties. [CONTINUATION.md](CONTINUATION.md) specifies the
-first residual-demand calculation and exact available information.
+The next construction must preserve modes before terminal deposition and use
+active helper traffic with complete restoration, or change the geometry and
+recompute the full invoice. S004 is investigating delayed endpoint restoration
+of borrowed helper modes. This is work in progress until a typed source witness
+and independent review are recorded. [CONTINUATION.md](CONTINUATION.md) gives
+the exact next obligation. Repeated acquisition of the same two forms and
+implementation of their 13 reads alone cannot resolve these rank deficits.
 
-The restored-helper selected-endpoint loan and four-route refinement remain
-alternative verified primitives. Their costs and reserved1481 duties cannot
-be silently combined with this prefix. Fixed-calendar obstructions keep their
-original scopes. Compatible complex/BIT suppliers and all five foundations
-remain open. **No new kappa; ongoing programme, not PR-ready.**
+Compatible complex and BIT suppliers, physical scalar/storage/precision costs,
+owned erasure, complete recursion and all five foundations remain open.
+**No new kappa; ongoing programme, not PR-ready.**
 
 ## Evolving construction
 

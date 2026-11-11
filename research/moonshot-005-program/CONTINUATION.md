@@ -1,31 +1,50 @@
-# Exact next continuation problem
+# Current continuation: retain modes and borrow useful active helper traffic
 
-**Problem specification, not a completed construction.** Start from the independently reviewed [facet prefix](results/paid-observable-acquisition/PROOF.md) and its [complete provisional price](results/relay-acquisition-budget/PROOF.md).
+**S004 problem specification. No complete construction or new kappa.** The
+S003 starting specification is preserved in
+`sessions/2026-11-11-S004/STARTING-CONTINUATION.md`. Its requested residual
+endpoint audit is now complete and changes the construction task.
 
-## Available physical state
+## Facts that the next construction must respect
 
-For arbitrary common input u in1,480 complete fields and second-main input v in400 fields, all common values and charts remain initial. All400 raw differences q=v-u_M are formed and preserved. Sixty raw carriers have finished their itineraries:52 nonentry carriers at127 and8 entry carriers at their respective rank8 facets. The other340 raw locations remain initial. Two real owned fields at541 contain r=delta1481 and s=delta130 at the reference cut before30824. That cut identifies the two forms; the other difference states at that cut are not available.
+The valid S003 facet prefix deposits 52 raw nonentry modes at chart 127 and
+leaves only two independent acquired modes outside. No original MOVE exits
+127. Required facet endpoints have rank 52 on those inputs. The terminal
+export theorem therefore excludes affordable continuation of that unchanged
+state even with arbitrary retiming and helper recoding. Its remaining allowance
+is less than 8.8148714402760477/native; the direct variant is still tighter.
 
-The prefix consumes262 listed main MOVE reservations, leaves1,448 unused, and adds8 rank1 plus2 rank2 calls. The common native is unexecuted, with its47 owned MOVE occurrences separately protected. All33 retained second-owned MOVE reservations in the S8 profile are unused. The14 deleted second-owned occurrences are not available paid credits. Two owned outputs require consumption and retirement. Its493 ADDs include400 input conversions; final recoupling is not implemented.
+A repaired prefix must retain or export at least 42 additional independent
+modes beyond the two acquired forms before depositing those donors at 127,
+if it keeps the eight-new-field ceiling. This rank condition is necessary only.
+Free caches on every original main itinerary still leave the static 220-chart
+cut and a 44-field transmission requirement outside main/owned/quiet routes.
+At least 36 informative crossing units must therefore come from other funded
+operations or a separately admitted changed interface under that ceiling.
 
-The emitted namespace is part of the interface: common public roles are0–1479; the400 raw carriers use the artifact's `difference_role_map` in1480–1879. Source common-owned role j must be renamed to j+400 in1880–1930 when common execution begins. The acquired outputs are1931 (r) and1932 (s);1933 is the retired reusable temporary. Do not paste source-owned indices directly into this namespace.
+Do not add these two bounds. Do not count 399 candidate nonquiet helper
+crossings as successful loans. Do not count the two aggregate supports as 60
+independent available fields. The 14 deleted owned occurrences are not paid
+credits; common 47 and retained second-owned 33 have different duties.
 
-## Required continuation
+## Next concrete mathematical attempt
 
-Construct a typed chronological continuation from exactly this state. Use each unused reservation at most once, and never reuse one of the262 consumed occurrences without paying for its replacement. Preserve the common native E(u), produce every required second-main endpoint of the actual two-copy contract, satisfy the helper/owned output interfaces, and implement all26 surviving S8 observations or an endpoint-equivalent replacement of their entire future effects. The two acquired forms do not reduce that26 count automatically.
+Construct a useful active common-helper loan before terminal deposition. A
+promising test is to replace a current helper mode by a raw difference, deliver
+that difference through an already funded helper MOVE, then continue the common
+native and repair every resulting common perturbation at a chart where the raw
+donor can legally reunite. Required evidence is an exact suffix influence
+certificate, genuine source access, a typed donor/receiver schedule, restoration
+for all 1,880 independent inputs, and every operation/lifetime charge.
 
-First address all13 reads of r and the current130 dependency, or factor their complete endpoint effect through a different legal representation. Appending those ADDs alone is invalid if their receiver's other state or chart is missing. Restarting the difference source at30824 is also invalid: its remaining prefix states have not been constructed.
+S004 is testing initial helper-mode substitution and a broader midrun loan with
+terminal-supported correction. These are exploratory until the next verified
+checkpoint records a source witness. A failed restricted probe is not a proof
+that every active-helper code fails. If the mechanism works, next establish
+composition of enough independent deliveries, not merely another isolated pair.
 
-## First concrete calculation
-
-Rebuild the communication graph from the actual prefix. Remove its262 main occurrences from their old clocks, insert the retimed occurrences and10 new routes, and append every remaining funded reservation at a specified legal clock, distinguishing the common47 owned occurrences from the33 retained second-owned occurrences. For a lower-bound relaxation, old quiet arcs may be explicitly over-granted even if the new timing prevents their realization; such a graph is not a schedule. Recompute the old46-endpoint witness and the residual endpoint-demand rank. In a positive construction, only the two actual aggregate forms are granted, not every coordinate that an unlimited-capacity reachability graph could carry.
-
-Use that calculation to construct a receiver/endpoint module, or prove that additional informative helper traffic or another representation is necessary. Neither the old fixed-clock obstruction nor successful graph reachability settles this changed interface.
-
-## Binding budget and retained dependencies
-
-With S8 fixed and the facet calls charged at all18 native invocations, remaining paid moment/native lies between8.8148714402760476 and8.8148714402760477 before other physical/compiler charges. At most8 further positive-integer-rank complete calls fit this optimistic allowance. Scalar work, storage, source access, precision, erasure and complete recursion remain charged. Compatible complex/BIT suppliers and all five foundational assumptions remain open.
-
-The paused common endpoint loan is a separate primitive. Its repair cost and reserved1481 calls cannot silently be combined with or credited to this prefix. The direct aggregation variant remains a legitimate alternative if its different chronology is easier to continue, despite tighter paid headroom.
-
-Prepared for @CubeJerry by the S003 orchestrator with OpenAI assistance. This note specifies the next proof obligation and asserts no new kappa.
+The native namespace, all input/final conversion operations, ordinary scalar
+work, storage, precision, erasure and compiler costs remain explicit. A complete
+shared native and compatible uniform complex/BIT suppliers above .005 remain
+open, together with the five foundational assumptions. See OBLIGATIONS.md and
+TARGET-005.md for the retained full accounting.

@@ -276,3 +276,35 @@ Facet permits at most8 further positive-rank arrivals before other fees; one
 rank9 fails. Direct permits at most2; rank3 or two paused-loan rank2 repairs fail.
 Facet saves5.8644467947946390… moment but uses6 more calls: no full scalar/storage
 dominance. Recompute information bounds on its actual changed graph.
+
+## S004: exact continuation deficits and repair conditions
+
+The S003 complete prices are unchanged. Direct leaves less than
+2.9504246454814086 additional paid moment/native; Facet leaves less than
+8.8148714402760477. At exponent 199/200 each new positive integer-rank complete
+field call costs at least one, giving optimistic ceilings two and eight.
+
+The [terminal export theorem](results/terminal-hub-export/PROOF.md) proves a
+50-field deficit for either actual prefix, even granting arbitrary reuse,
+ordering and helper recoding on all original edges. Thus neither unchanged
+prefix can reach the target profile. Granting 33 retained difference-owned
+calls as arbitrary free exports still leaves 17, above either ceiling. The
+common native's 47 protected owned calls are not retargeted in this corollary.
+Changing their duties, ranks or the profile requires fresh accounting.
+
+For a revised Facet-like prefix, off-hub information on the 52 selected modes
+must have rank at least 52-8=44 before terminal deposition, hence 42 additional
+independent modes beyond the existing two. This is necessary, not sufficient.
+The [history-robust cut](results/static-history-obstruction/PROOF.md) grants
+all original main histories and still requires 46-2=44 further crossing field
+units outside the main/owned/quiet route pool. Retaining the eight-new-call
+ceiling therefore requires at least 36 informative units from other funded
+operations or a newly priced interface. It is not a theorem that these are
+36 new Gaussian jobs: original nonquiet helper routes may provide them if a
+valid mixed-payload/restoration construction exists.
+
+Both bounds are under the stated characteristic-zero linear full-field
+contracts. They are not added. A repaired architecture must pass both relevant
+information tests and the entire ordinary, storage, precision, erasure,
+compiler, supplier and recursive invoice. A positive local loan alone will
+not establish a complete conditional kappa.

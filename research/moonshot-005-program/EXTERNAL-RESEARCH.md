@@ -193,3 +193,40 @@ and pinned native. No unaccepted high-kappa PR supplies its missing continuation
 Selected conditional result and all five foundations remain unchanged.
 
 Final S00310:01:21 UTC reference check: canonical main still e54523517d0f03e58352e647c403a5af3e525a57; programme scientific HEAD2168708e0ceff4ddec2cd69c60c6e6b65e65c557. No canonical integration or selected-result change was needed.
+
+## S004 upstream checkpoint (2026-11-11)
+
+Programme remote began at `7e186cf68763478d23f8c155cdcac4caa761cd09`;
+canonical main was freshly confirmed unchanged at
+`e54523517d0f03e58352e647c403a5af3e525a57`. Current canonical AGENTS,
+autoresearch, CONTRIBUTING, bottleneck, priority and coordination documents
+were read. Selected certificate remains conditional kappa .00363005817;
+older priority prose does not supersede it. Live discussion retrieval did
+not succeed; this session does not claim complete discussion coverage.
+
+- [CrocSwap/integer-mult-bounds#7204](https://github.com/CrocSwap/integer-mult-bounds/pull/7204),
+  open head `6aa446cd8d188db3cdd713c85a99e073b5de1feb`: body read. Proposed
+  four-source clean-row tariff min(8b+23a,16b+15a), with physical hosting and
+  caller admission open. Different local contract; no programme admission.
+- [#7206](https://github.com/CrocSwap/integer-mult-bounds/pull/7206), open head
+  `b81898d08f2c2b88b6276902dfe819394d448584`: body read. GF8 dirty connector
+  unit count 140 versus 142 under its own demands. Different field/contract;
+  scaled fees and caller composition remain open. No source replay here.
+- [#7211](https://github.com/CrocSwap/integer-mult-bounds/pull/7211), open head
+  `2b882fd2834303655f82d084e25dc551f67e9784`: exact
+  `research/sharp-rounded-move-allocation/PROOF.md` read. Nick Petalas derives
+  component width h+2 ceil(g/2)+1 in the specified Gaussian tensor setting,
+  preserving integer prefixes, phase and nearest-up rounding under retained
+  provider premises. Logical dimension remains g. Count/Tape replacement and
+  selected-caller integration are unimplemented. Preserve @CubeJerry's
+  #6996/#6989 and #6030 predecessor credit. Potential future precision saving;
+  no relief of the current information-routing deficit is inferred.
+- [#7164](https://github.com/CrocSwap/integer-mult-bounds/pull/7164), open review
+  head `190cf7eadc8dd8002327bec4b63d1db7f978a0e9`: updated review body read.
+  It recommends conditional kappa .003644890067940 for #7161 head
+  `e3f8d39c43b07063dfc5b800f71c5d21015259e6`. Not merged/selected and not
+  independently admitted in S004; its full invoice and reused receipts must
+  remain distinguished. This increment does not resolve the programme target.
+
+Latest PR metadata was inspected selectively. No upstream branch, selected
+certificate or PR was changed. No automatic PR or discussion message was sent.

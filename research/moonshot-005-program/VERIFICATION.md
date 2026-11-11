@@ -247,3 +247,34 @@ complete uniform supplier or newkappa is claimed.
 The separate construction-worker forward source audit also passed: source rows, entry/nonentry minors1/8 and-1/8, final facets and exact operational interface agree with the bridge reverse-adjoint review. Its four files and13 author pins are preserved in paid-observable-acquisition/review-source/. The pre-existing independent forward interpreter is pinned explicitly; its new reproduction receipt matches byte for byte. This audit does not claim independent discovery of the facet variant.
 
 Final continuation-ledger clarification: the unexecuted common native retains its47 owned MOVE occurrences; the difference side has33 funded surviving owned occurrences under S8. Its14 deleted occurrences are not recovered as free credits. The prefix consumes no second-owned reservation. Source words and verified profiles are unchanged; CONTINUATION.md/STATE now distinguish these ledgers explicitly.
+
+## S004 first checkpoint: terminal export and static history closure
+
+Two frozen source-specific proofs have separate agent reviews with independently
+written implementations. Root read both proofs and reviews, checked their
+quantified dimension arguments and distinguished their different scopes.
+
+- `results/terminal-hub-export/`: all 6,310 native MOVEs have no source at the
+  canonical full chart; fresh prefix restrictions have outside rank two;
+  52 required facet endpoints have determinant 1/128; deficit 50. The separate
+  review uses explicit binary spans, dense rational prefix replay and fresh
+  reverse adjoints. Normal and optimized reviewer receipts agree.
+- `results/static-history-obstruction/`: 853 distinct granted arcs close a set
+  of 220 charts; all 2,116 selected input/sink exclusions survive full raw
+  histories and arbitrary retiming/reuse. Exact endpoint determinant 1/8 and
+  aggregate minor -1/8 give deficit 44. The independent reviewer uses backward
+  traversal, a separate quiet census and literal prefix replay. It also verifies
+  the 399 nonquiet helper crossing occurrences. Normal and optimized receipts
+  agree.
+
+Controls cover corrupt endpoint coefficients, an added terminal exit, duplicate
+aggregates, coordinate complements, adding real nonquiet crossings and granting
+all helper routes. The latter destroys the static separation and is explicitly
+outside its free route pool. This is independent agent verification, not human
+peer review or proof-kernel certification. Theorems concern all V under explicit
+linear contracts; exact finite computations bind the particular source.
+
+Reproduction commands are in both package READMEs. The terminal independent
+review script is under `results/terminal-hub-export/review/review.py`; pass the
+author directory to `--packet`. The eight-current reference, both acquisition
+prefixes and prior complete prices remain byte-identical. No new kappa.

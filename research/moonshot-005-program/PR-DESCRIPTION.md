@@ -256,3 +256,30 @@ Independent root bounds check all costs. Positive raw margin is no supplier
 admission. All26 S8 observers,13 relay consumers, retimed route duties, output
 retirement and full continuation remain explicit in [CONTINUATION.md](CONTINUATION.md).
 No new kappa. Ongoing programme, not PR-ready; no upstream PR submitted.
+
+## S004 contribution: exact limits of acquired forms and a required active-helper interface
+
+The cumulative programme now proves why the valid two-form acquisition does
+not compose into an affordable full native. Its 52 independent donors end at a
+chart with no outgoing original route, while required facet endpoints retain
+rank 52 and only rank two is already outside. The resulting **50-field export
+lower bound** exceeds the complete provisional allowances. It remains valid
+under arbitrary helper recoding, retiming and reuse of all original routes.
+This is a scoped continuation obstruction, not a global multiplication bound.
+
+A distinct **220-chart static cut** grants all raw main histories and arbitrary
+reuse of main/owned/quiet routes. It separates 46 required modes, leaving a
+44-field quotient after the two acquired forms. Under the current eight-call
+ceiling, a repair must obtain at least 36 informative crossing field units from
+other original operations or change the interface with full new accounting.
+All 399 candidate nonquiet helper crossings are source-authenticated; none is
+promoted to a valid mixed-payload transport without common-state restoration.
+
+The [terminal package](results/terminal-hub-export/README.md) and [static cut
+package](results/static-history-obstruction/README.md) include exact source
+and certificate pins, independent implementations/reviews, reproducible normal
+and optimized receipts, and negative controls exposing the scope. The new
+results preserve all S003 prefix bytes and their credit. Prepared for
+@CubeJerry with substantial OpenAI assistance; agent verification does not
+replace human or formal review. **No new kappa.** The cumulative branch remains
+an ongoing programme rather than a PR-ready complete construction.

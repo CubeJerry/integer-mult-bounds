@@ -191,7 +191,7 @@ PRELOAD-FULL and RETURN-DEADLINE-4 remain valid without obstructing this variant
 Unreviewed active-shadow and immediate cochart-restoration evidence is under
 wip/ with explicit status files; it does not extend the verified dependency graph.
 
-## Current frontier: acquisition proved, continuation open
+## Historical S003 frontier: acquisition proved, continuation then open
 
 RELAY-ACQUIRE is now PROVED for the new typed interface and every admitted V/input:
 actual r,M_new at541, all common inputs and400 rawq preserved. Direct uses233
@@ -211,3 +211,20 @@ forms. Recompute residual endpoint knowledge, then implement all13r effects and
 current130 continuation or their entire endpoint-equivalent replacement.
 CONTINUATION.md specifies262 spent/1448 remaining main occurrences and rank2
 owned knowledge. H4-COMP, BIT-NEW, uniform suppliers and foundations remain open.
+
+## Current S004 dependency frontier
+
+| ID | Precise proposition and dependencies | Status and consequence |
+| --- | --- | --- |
+| TERMINAL-EXPORT | For every admitted V and characteristic-zero field, either literal S003 prefix followed by arbitrary linear recoding, retiming and reuse of all original route geometry requires at least 50 additional outward full-field units from chart 127. Dependencies: exact prefix states, native no-exit census, rank-52 endpoint restriction, complete S003 prices. | PROVED within this scope; [proof](results/terminal-hub-export/PROOF.md), [independent review](results/terminal-hub-export/review/REVIEW.md). Affordable unchanged-prefix continuation is DISPROVED within the retained geometry and invoice. Acquisition itself remains proved. |
+| HISTORY-CUT | Grant every raw coordinate at every original main location, all main/all 47 owned/all quiet arcs with arbitrary reuse and order, and both acquired forms globally. For all V, at least 44 further crossing field units are required by the 46 selected endpoints. | PROVED; [proof](results/static-history-obstruction/PROOF.md), [review](results/static-history-obstruction/review/REVIEW.md). The 220-chart closure survives history retention. With at most eight newly paid units, at least 36 informative units must come from other original traffic or an admitted changed interface. |
+| PRETERMINAL-MODES | A revised prefix depositing the same 52 donors at 127 and allowing at most eight new exports must retain off-hub rank at least 44, including at least 42 independent modes beyond the existing two-form span. | PROVED necessary condition from TERMINAL-EXPORT. Real snapshots may satisfy rank but require source access, storage, retirement and subsequent routing; HISTORY-CUT still applies. |
+| ACTIVE-HELPER-ENDPOINT | Construct useful nonquiet helper crossings that carry independent main-difference information and restore every arbitrary common input, with complete typed chronology and all costs. | OPEN, primary. The 399 crossing occurrences are potential channels, not an executable code. Delayed terminal restoration and local observable cancellation are under active investigation. |
+
+RELAY-CONTINUATION as originally specified is now contradicted at the recorded
+price under unchanged route geometry, even allowing every original helper to
+be informative. A repaired representation must change the prefix before its
+terminal loss. The more generous history-preserving repair remains subject to
+HISTORY-CUT. Neither theorem discharges H4-COMP, BIT-NEW or a foundational
+assumption. Earlier scoped results are retained; the current construction task
+is ACTIVE-HELPER-ENDPOINT, not the already solved acquisition task.

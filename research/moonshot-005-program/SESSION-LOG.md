@@ -298,3 +298,36 @@ or assume a missing full source-cut state. The later handoff commit records
 this exact prior scientific SHA; its own identity is reported separately.
 
 Final handoff prepared after the10:01:21 UTC reference checks, within the requested08:05–10:05 UTC session budget. All workers are finished; no background research or pending publication is promised. The branch remains the sole persistent programme identity.
+
+
+## 2026-11-11-S004 — continuation audit and active-helper repair
+
+Started 11:36:40 UTC (19:36:40 Asia/Shanghai), requested two hours, at freshly
+confirmed programme `7e186cf68763478d23f8c155cdcac4caa761cd09`. Canonical main
+remains `e54523517d0f03e58352e647c403a5af3e525a57`. Recovered remote state,
+unfinished continuation, source proofs, prior rejections and current canonical
+instructions. Initial integrity: 80 imports, 418 scientific files, 235 reviewed
+author pins, three native/source pins. Three workers continue one programme.
+
+First mathematical checkpoint: terminal-hub theorem excludes unchanged S003
+prefix completion at the target profile, since rank 52 outside endpoints minus
+rank two supplied information requires 50 exports and no old edge exits 127.
+A stronger-history but restricted-route theorem exhibits a static closed set of
+220 charts, surviving arbitrary main/owned/quiet retiming and all raw histories;
+46 endpoint modes minus the two forms leave 44 crossing units. With at most
+eight newly paid units, at least 36 must use other original informative routes
+or a newly priced interface. Source census identifies 399 such helper crossing
+occurrences. Neither count is added to the other or called a universal floor.
+
+Workers independently cross-reviewed both proofs with separate exact source
+implementations; root reviewed both arguments and their scope. Prior prefix
+correctness and all historical bytes are retained. The primary obligation
+changes from literal-prefix continuation to preterminal mode retention plus
+useful active-helper restoration. Initial-helper substitution and broader
+terminal-restored loans are under investigation, not admitted in this checkpoint.
+
+Upstream selected state is unchanged. Open #7204/#7206/#7164 bodies and #7211's
+exact allocation proof were examined with their distinct verification status
+recorded. No external source package was merged and no upstream PR submitted.
+The resulting scientific SHA will be recorded in a later checkpoint to avoid
+self-reference. No new kappa. Next: actual typed active-helper transport witness.
