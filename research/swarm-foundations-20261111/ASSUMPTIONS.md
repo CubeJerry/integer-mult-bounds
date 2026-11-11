@@ -97,10 +97,10 @@ The new CRT endpoint has no free payload-routing or exceptional-key edge.
   endpoint at commit `532b60ac427f47191175aba2e1317db0f3508d51`, with pending
   #7154 explicitly byte-pinned. It joins the read-only encoded frontend to
   actual numerical results; it does not replace compiled payload routing.
-- **Pending final independent executable review:** final rank-one online
+- **Verified at commit `9dfe6747b8553fd11b408f2b045c5954ef1e6eaa`:** final rank-one online
   cutoff/remainder controller, after source-law correction from
   floor(r*e/m) to r*floor(e/m). The two agree universally here only after
-  the finite rank-one specialization. Proofs and author checks are complete.
+  the finite rank-one specialization. Proofs, author checks and the separate 125-case dense CPU review passed.
 - **Resolved defect, preserved negative witness:** source-index hash tables
   violated their advertised deterministic tariff for a fixed collision family.
   Sorted tables and an explicit serialized-tape simulation repair the model;
@@ -120,5 +120,5 @@ The new CRT endpoint has no free payload-routing or exceptional-key edge.
 All mathematical claims remain relative to their stated models and inherited
 contracts. Finite verifiers corroborate proofs and detect mutations; they are
 not universal proofs, human review, or formal-kernel acceptance. No selected
-certificate or kappa was changed. Open PR claims were checked through #7270;
+certificate or kappa was changed. Open PR claims were checked through #7271;
 a later restart must refresh the exact main SHA and deltas.
