@@ -1,9 +1,11 @@
 # Continuous research recovery checkpoint
 
-Recovery only, not an upstream contribution. ALLOCATION.json records exact base, completed/active tasks and next actions. ASSUMPTIONS.json preserves the five selected assumptions; OPPORTUNITIES.md classifies covered, blocked and open work. PUBLICATIONS.json contains five independently reviewed remote packages with exact prefilled compare URLs; no upstream PR was submitted.
+Execution stopped when the platform workspace became unavailable. Read [RECOVERY-HANDOFF.md](RECOVERY-HANDOFF.md) first. This is a recovery branch, not an upstream contribution.
 
-All reviewed remote trees equal checked local trees and contain only scoped additions. Exact sources and all reproduction/review material are retained in each package. The optional full-history checker refused this shallow checkout; actual commit/path bindings and remote parent/tree/diff were independently checked without a full clone.
+PUBLICATIONS.json contains ten independently reviewed remote packages with checked prefilled compare URLs. All ten heads were rechecked after interruption. No upstream PR was submitted.
 
-Everything under unverified-wave2 or unverified-wave3 is a historical UNVERIFIED recovery snapshot, not scientific acceptance. Later accepted versions are linked in PUBLICATIONS.json. Refresh canonical main, selected result and relevant claims before reallocation. Preserve source pins and prior credit; do not duplicate the completed fixed-template amortization audit. No unscheduled execution continues after this session.
+INTERRUPTED-REVIEWS.json records two accepted mathematical candidates with incomplete publication gates. ALLOCATION.json distinguishes published work, those candidates and unverified/unstarted sixth-wave scopes. ASSUMPTIONS.json preserves the five selected assumptions; the full bound remains conditional and kappa unchanged.
 
-Prepared for Jerry Chen / @CubeJerry with substantial OpenAI assistance; separate AI checks are not human or formal-kernel review.
+Historical unverified snapshots are recovery material, not acceptance. Complete exact-source/reproduction/review artifacts for published results live in their own packages. Local unpublished work may be lost if the workspace cannot recover. No unscheduled execution continues.
+
+Prepared for Jerry Chen / @CubeJerry with substantial OpenAI assistance. Separate AI checks are not human or formal-kernel review.
