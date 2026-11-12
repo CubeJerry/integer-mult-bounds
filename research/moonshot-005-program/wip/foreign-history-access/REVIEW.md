@@ -99,7 +99,7 @@ native source. SHA256 values bind the examined bytes.
 
 | File | SHA256 |
 | --- | --- |
-| `wip/foreign-history-access/prepare.py` | `544bb93d0fcb92427016dd566941909f70e50812e8125d9f72717e1fc64f6736` |
+| `wip/foreign-history-access/prepare.py` | `fd623f13b8c0bcb2d59d082fbf23a20ff0c775dbc646f300ec5e5882010e26ae` |
 | `wip/foreign-history-access/INVENTORY.json` | `87197ab352408bc40231df54ac749241bdb36ba7da12b3e3ca6b4f1d300dbeb8` |
 | `wip/foreign-history-access/NULL-ROUTE-PACKET-TEST.json` | `5f8c4fe8849f0343007f8dd57ec34aecf7830ec01fba8a24664a2d2e46da52f2` |
 | `results/joint-additive-history-obstruction/CERTIFICATE.json` | `168fee8f09cdf0f33bcf5989630d244141d3c570808b7ccb553f6ad7be098dd7` |
@@ -113,3 +113,17 @@ The inherited joint-history admission SHA256 is
 `1d9d2047a3dbc3b20225e0ee490347b69f03757de8747ed05f932ffb52e78097`.
 
 Prepared by the independent S006 adversarial worker; no author code imports.
+
+## Final pin correction
+
+The author corrected `outside_initial_station` from integer-label membership
+to full binary-space membership, `C[w["initial"][x]] not in null`, during
+publication. I inspected this one-line semantic correction and independently
+rechecked every regenerated inventory route, outside-station list and initial
+station flag using complete spaces; all 48 rows and the 27-outside count pass.
+The hashes in the table above now bind that corrected author version. The old
+prepare.py hash was `544bb93d0fcb92427016dd566941909f70e50812e8125d9f72717e1fc64f6736`;
+the previously recorded inventory hash was
+`87197ab352408bc40231df54ac749241bdb36ba7da12b3e3ca6b4f1d300dbeb8`.
+The independent scientific check already used full-space semantics, so the
+packet-null vector, route inclusion and scoped deduction are unchanged.
