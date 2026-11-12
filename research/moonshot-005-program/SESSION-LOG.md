@@ -702,3 +702,28 @@ No new kappa. Exact evidence and recovery status are linked in STATE.json.
 Parent/baseline a478afb84a982323126bc3077a6d975a1ea099b3 (first S008 checkpoint, GitHub confirmed). Fresh one/two/three reviews completed. Reconstructed and independently audited the changed-common endpoint recipe, correcting only its written historical invoice formula. Proved and attained its sharp416-field terminal completion, which fails the full1/200 budget. Proved the analytic all-chart unchanged-donor contact bound2786; independent decoder rank witnesses and finite integer recurrence sharpen it to2768. Proved the monotone400-path budget envelope:25 direct rank8 routes plus16 new rank1 finishing moves leave0.0497119890 moment/native after all eight rank9 packets, conditional on a real global word.
 
 All key proofs independently reviewed; full source and actual-row checks, exact power bounds and meaningful negative controls passed. Canonical main unchanged at e545235; new open #7414/#7419/#7420 scoped obstruction reports recorded without adoption. Active construction moves to dependent-root cohorts and persistent current-row encoding with early reverse information. No new kappa; no upstream PR. Resulting checkpoint SHA is recorded in the next confirmed checkpoint ledger to avoid self-reference.
+
+## 2026-11-12-S009 — checkpoint1, session active
+
+Started12:58:11UTC from exact remotea478afb84a982323126bc3077a6d975a1ea099b3.
+User requested10hours; planned end22:58:11UTC subject to supported execution.
+Canonicale545235 unchanged. ConcurrentS008 advancement51e063356902b082a891ac80464f9dfb80f09693
+was fetched and fast-forwarded without altering its published evidence.
+
+New mathematics: literal4-contact feedback star reduces hosted reverse rank
+96→95; actual2-frame reciprocal word reduces96→88 with8explicit kernels,
+32newforward and32transpose coefficients,78123operations and positive full
+provisional moment40.4450837953. Both have independent source reconstruction,
+all-input prefix/inverse/type/price and phase checks. Partial nonorthogonal
+feedback can undo the rank gain. A preterminal8-coupled change of variables
+completes reverse duties for8rank1messages while preserving prior forward
+completions; lead independently rebuilt all77827operations and input columns.
+Full donor-basis changes are retained. Null-padded adjoint algebra has explicit
+auxiliary costs, with finite source census still author-checked.
+
+Independent review of a new fresh-Gram packet obstruction and combined
+coupled/rank88 construction is active. Next work targets compatible earlier
+current-row codes and restoration; no reset of spent donor paths. New upstream
+#7424/#7430 are open enabling components, not assumed suppliers. No new kappa
+or upstream PR. Resulting checkpoint SHA is recorded after remote confirmation,
+not self-embedded. The requested10-hour session is still active.

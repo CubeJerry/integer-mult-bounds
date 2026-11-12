@@ -405,3 +405,19 @@ joint-code precedent, not as an imported theorem on this source.
 ## S008 refresh at12:57 UTC
 
 Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; accepted conditional frontier unchanged. Relevant new open reports: CrocSwap/integer-mult-bounds#7414 (head9a9e39d8a91ef27d36ef1fa20a478625fd04eba2) excludes proportional compression of29 fixed adjacent public MOVE pairs on the newer1,501-input word. Our reversible cohort encoding preserves every direction and changes routes; that scope does not exclude it. #7419 (heada590edb3c5f7efd7404b1203e727c8cc3218493e) reports a signed-caller obstruction for153 contiguous replacement windows; #7420 (heada9809ce276aca6859e140404626c8772870215f2) reports pair/triple signed-factor reuse bounds. These reinforce the need to retain full signed/uniform caller obligations. They are metadata/source-description reviews only, not independently reproduced or adopted programme theorems. Exact metadata: sessions/2026-11-12-S008/UPSTREAM-REFRESH-1257.json.
+
+## S009 targeted upstream refresh
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; selected
+conditionalkappa remains.00363005817. GitHub metadata confirms #7334 is open
+at aaeec8c0acf01e99a5f331ef363a698d9c084ace, proposing.00364665195644 on a
+different17-stage signed source. Its local savings are not transplanted intoH4.
+
+New open enabling packages include #7430 at39b40c465f7636a4bb6d70af28595fe8f70f4f3f
+(selected Gaussian linear fixed-tape maps) and #7424 at
+d622d8c62defa9defeb95741e88b33a120044866 (independent-ambient rank libraries).
+Both explicitly retain complete caller/physical or compiler obligations and
+all five foundations. Metadata and package scope were inspected; no full source
+review or incorporation is claimed. They may inform later compiler admission.
+#6916's substantial mathematical PR style and exact provenance were reviewed
+for the cumulative description. No PR or discussion message was submitted.

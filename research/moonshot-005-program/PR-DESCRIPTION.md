@@ -508,3 +508,18 @@ cohort, raw-pivot and review contributions retain their provenance and credit.
 The cumulative programme now includes a fresh full-source reconstruction of the two-direction endpoint alternative and a sharp416-arrival terminal theorem with an actual attaining suffix. The completed finite word fails the target invoice; no successful bound is claimed. An all-chart unchanged-donor theorem limits contacts to2,786 analytically, refined to2,768 by exact finite recurrence, while explicit decoder minors force4,992 side pairs. This explains the move to reversible coded carriers. A separate independently reviewed global raw-refinement envelope shows25 direct rank-eight routes suffice to fund16 additional rank-one moves after arbitrary monotone refinement and all eight E8 packet payments, conditional on actually constructing the global code and legal deliveries.
 
 These results compose as restrictions and an accounting target for one evolving construction. They do not constitute a completed supplier. The one/two/three recovery variants now also have fresh independent source reviews. All new evidence retains @CubeJerry attribution, predecessor credit and substantial OpenAI assistance disclosure. No new kappa; the branch remains ongoing and is not PR-ready.
+
+## Cumulative S009 contribution: a real reverse-rank reduction
+
+The programme now includes an independently reviewed reciprocal source word
+whose complete hosted reverse residual falls96→88, with all1,880input directions
+retained and all paid calls charged. Its one-star calibration proves the
+nonmonotone partial-feedback failure mode. A separate preterminal input map
+completes all eight coupled reverse outputs for8rank1messages, with the
+changed residual basis explicit. See `results/orthogonal-frame-feedback/`,
+`results/reciprocal-feedback-star/` and `results/preterminal-coupled-eight/`.
+These are coherent constructive advances in the same global code. They do not
+complete either strict supplier, the five foundations or κ=.005. **No new κ.**
+The branch remains an ongoing programme; cumulative PR readiness is not yet
+declared. @CubeJerry, with substantial OpenAI assistance and retained source,
+E8/native/cohort/paired-interface predecessor credit.

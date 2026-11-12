@@ -579,3 +579,26 @@ The two-direction reconstruction has a fresh full1,480 source audit by author ba
 The unchanged-donor theorem has an analytic proof independent of the8,283,458-chart discovery census. The bridge worker independently reviewed Gauss signs and grammar, produced104 explicit rank7 decoder minors, and evaluated both exact finite rectangle recurrences. Root separately implements the recurrence and authenticates every census witness. Normal/-O review receipts agree. Coded/relay mechanisms and paid-call counts are excluded from the theorem's conclusion.
 
 The global raw envelope is checked from authentic endpoint ranks and full H4 histograms. Independent40-digit power certificates sit inside author's30-digit integer-root bounds, confirming the positive25-direct-plus16 profile and two negative controls. No actual global code, legal finishing forms, uniform supplier or foundational contract is established by this arithmetic.
+
+## S009 checkpoint1: independent source rank reduction
+
+Starting scientific parenta478afb8; concurrentS008 checkpoint51e06335 was
+fast-forwarded intact. New independent star review reconstructs77,814operations,
+all1,880 prefix directions, exact95-rank/kernel/inverse, full price and4phase
+maps. The frame review separately reconstructs78,123operations without author
+imports, all1,880columns,8kernel vectors and a unit88-minor,735rawroutes,
+16phase maps and7word mutants plus a phase mutant. Its dyadic interval lies
+inside the author's decimal integer-root interval. Full common suffixes remain
+literal, with noninterference checks; this is not a new full-native replay.
+
+Lead independently rebuilt the77,827-operation coupled preconditioner and
+all input-map coefficients, complete types/owners/invoice and3mutants. Review
+caught stale paired event metadata; it was relabelled historical before freeze.
+The input inverse is explicit; all eight prior complete forward rows survive.
+Null-padding algebra and full cost were separately rederived; its finite source
+census is not promoted to independently checked physical implementation.
+
+Each package README gives standalone reproduction into /tmp. Source utility
+and physical-engine SHA256 pins are in SOURCE-PINS.json. The scientific ledger
+separately authenticates every admitted file. No human/formal acceptance or new
+complete kappa is claimed.

@@ -1,13 +1,29 @@
-# Resume S008 global preterminal coding
+# Resume the actual rank88 reciprocal construction
 
-Read exact remote HEAD, STATE.json and the current TARGET-005.md sections. Current checkpoint parent is a478afb84a982323126bc3077a6d975a1ea099b3; canonical e545235 remains unchanged. No new complete kappa. The ten-hour session is active, planned end2026-11-12 21:51:49 UTC.
+Read exact remote HEAD and STATE.json. S009 began at a478afb8 and integrated
+concurrent S008 checkpoint51e06335 without rewriting history. Canonical
+selected source remains e545235; no new complete kappa.
 
-Fresh one/two/three/eight reconstructions are now independently admitted under results/cohort-reconstruction/. Original lost S007 bytes are not claimed recovered. The reciprocal paired word in results/paired-cohort/ retains all inputs and adds352 transpose terms, but its reverse residual remains rank96.
+Start with results/orthogonal-frame-feedback/PROOF.md and its independent
+review. The actual78123-word reduces hosted reverse rank96to88; full source
+information and common outputs survive. B=[5,56,65,69,77,96,100,103] and
+S=[0,7,20,27,36,46,57,111] are orthogonal source frames. The B carriers now
+have spent5+2+1 ascents; they cannot be granted fresh direct routes.
 
-The important frontier is a single current-row global code with early shared reverse information. A dependent-root triple has passed local independent review and awaits the next source integration; extend it through compatible nested acquisition, not separate reset-and-repeat cohorts. Preserve all mutual terms, coupled aliases and donor restoration deadlines.
+The next physical gap is352 missing forward corrections for S, including320
+hosted transpose terms and32 primal-only coupled terms. Filling coefficients
+without a real current-row schedule or treating separately priced cohorts as
+compatible is invalid. Partial feedback gains are nonmonotone: two individually
+good nonorthogonal stars can restore rank96. Use the exact continuation gates.
 
-The new global-raw-refinement-envelope proves that extensive monotone raw subdivision is affordable:400 paths retain3200 rank mass;25 direct rank8 routes suffice to fund16 extra rank1 moves after8 rank9 packets. That is a conditional budget, not a constructed finish. Low residual rank alone does not provide legal deliveries from separated source facets.
+The preterminal coupled-eight package finishes all8 coupled reverse outputs
+for8 rank1 messages by x_tilde=x-y,y_tilde=2y. Its composition with rank88 is
+being constructed. All future forward rows must use x_tilde; original-Y
+residual terms do not disappear. The fresh global-Gram packet bound is under
+independent review; only reviewed evidence may enter the admitted construction.
 
-The unchanged-donor-contact-bound proves every unchanged-value monotone arrangement has at most2786 contacts analytically, or2768 by exact finite relaxation, while the forced E8 decoder requires4992. Coded aggregates and relays are legitimate escapes. The two-direction endpoint alternative is freshly source-audited; its exact terminal repair needs416 new fields and fails. Earlier coding remains open.
-
-All five foundations and compatible strict complex/BIT suppliers remain. The branch is an ongoing programme, not PR-ready. See the session checkpoint ledger and verification files; do not restart earlier proved investigations.
+S008's verified raw-refinement envelope/contact/endpoint packages remain
+applicable in their exact scopes. Its local dependent-root construction may
+advance concurrently; preserve it and reconcile remote HEAD before every push.
+Both strict suppliers, actual physical costs and all five foundations remain.
+The programme is ongoing, not PR-ready. Do not submit an upstream PR.

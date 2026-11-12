@@ -571,3 +571,26 @@ where F is the actual additional finishing profile. The independently verified s
 The16 finishing moves are an unproved physical interface. Eight coupled repairs have actual original-value prerequisites. A hosted residual of algebraic rank8 does not imply eight legal field deliveries from separated final facets. The global construction must retain or deliver the appropriate reverse combinations earlier, restore public values and pay all extra transport. Uniform complex U>1/200 and completed ordinary BIT B>1/200, native all-column and all other foundations remain unchanged.
 
 The independently completed changed-common endpoint word has49,968 paid positions,27,344 targets and rank surplus-5,600. Its append-only repair needs exactly416 field arrivals and leaves moment/native -401.187614379860055... . This excludes terminal repair of that exact6,952-operation prefix; earlier coding and different endpoint interfaces remain open. Its reconstructed S007 numerical invoice was correct but the displayed formula omitted the old raw-route subtraction; see the dated ERRATUM.md.
+
+## S009 actual feedback and early coupled completion
+
+The complete actual hosted residual first falls96→95 with one feedback star,
+then96→88 with two orthogonal source frames. The latter78,123-word has735
+raw MOVEs, rank mass3200, no new recursive packet, and still charges8rank9
+E8 packets. Its full conditional invoice has135018paid,27344targets,
+surplus3760 and moment/native40.44508379528756. It leaves4569 forward terms
+and rank88 hosted debt; no new individual receiver is completed by rank alone.
+
+The separate preterminal coupled map costs8rank1 per native and completes all
+8coupled reverse outputs without requiring forward decoding. On the paired
+parent it leaves33.01712837582312 moment. It changes raw donor basis fromx
+tox-y at the coupled ports; the original-coordinate forward residual has351
+additional Y terms. Combination with the two-frame word is pending.
+
+Future source accounting must cover352 missing second-frame forward terms,
+320 hosted transpose terms and32 primal-only coupled terms. Only actual current
+rows and mutually compatible routes count. The fixed-eight-output feedback
+class cannot lower rank below88; the entire row architecture requires all96
+hosted rows to leave only8 residual dimensions. These are scoped algebraic
+conditions, not global lower bounds or delivered packets. Both U>.005 andB>.005
+and all five foundational contracts remain. No complete target certificate.

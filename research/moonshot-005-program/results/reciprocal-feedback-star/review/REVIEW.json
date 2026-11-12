@@ -1,0 +1,455 @@
+{
+  "actual_reverse_rank_after": 95,
+  "actual_reverse_rank_before": 96,
+  "author_builder_sha256": "19231e09a1a0ed3b82c435e3ea9cad905c553a250b30ceabaf0aa2e775abdc34",
+  "full_bill": {
+    "final_owned": 0,
+    "instructions": 77814,
+    "move_rank_histogram": {
+      "1": 4196,
+      "2": 942,
+      "3": 887,
+      "4": 241,
+      "5": 505,
+      "6": 22,
+      "7": 24,
+      "8": 204,
+      "9": 8
+    },
+    "opcode_counts": {
+      "ADD": 66282,
+      "CLEAR": 416,
+      "COPY": 1,
+      "INIT": 416,
+      "MOVE": 7029,
+      "SCALE": 3670
+    },
+    "owned_lifetimes": 416,
+    "peak_owned": 43,
+    "raw_histogram": {
+      "1": 121,
+      "2": 114,
+      "3": 76,
+      "5": 185,
+      "6": 5,
+      "7": 12,
+      "8": 198
+    }
+  },
+  "full_prefix_rows": 1885,
+  "independent_input_columns": 1880,
+  "introduced_map_count": 4,
+  "introduced_maps": [
+    {
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            130,
+            259,
+            4,
+            1,
+            8,
+            16,
+            32,
+            64,
+            3
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 7,
+        "right": {
+          "linear_Z4": [
+            1,
+            3,
+            2,
+            0,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "matrix_rows": [
+            10,
+            265,
+            4,
+            16,
+            32,
+            64,
+            128,
+            267,
+            256
+          ],
+          "offset": 124,
+          "phase": 1,
+          "quadratic_rows": [
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source": 5,
+      "target": 128
+    },
+    {
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            3,
+            3,
+            3,
+            2,
+            2,
+            2,
+            3,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            130,
+            3,
+            260,
+            1,
+            8,
+            16,
+            32,
+            64,
+            68
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            3,
+            3,
+            68,
+            0,
+            0,
+            0,
+            68,
+            0,
+            0
+          ]
+        },
+        "rank": 7,
+        "right": {
+          "linear_Z4": [
+            1,
+            3,
+            0,
+            0,
+            2,
+            2,
+            2,
+            0,
+            1
+          ],
+          "matrix_rows": [
+            10,
+            9,
+            4,
+            16,
+            32,
+            64,
+            384,
+            11,
+            256
+          ],
+          "offset": 316,
+          "phase": 3,
+          "quadratic_rows": [
+            3,
+            3,
+            256,
+            0,
+            0,
+            0,
+            0,
+            256,
+            388
+          ]
+        }
+      },
+      "source": 52,
+      "target": 128
+    },
+    {
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            3,
+            3,
+            2,
+            3,
+            3,
+            2,
+            2,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            130,
+            3,
+            4,
+            1,
+            264,
+            16,
+            32,
+            64,
+            24
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            3,
+            3,
+            0,
+            24,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 7,
+        "right": {
+          "linear_Z4": [
+            1,
+            3,
+            2,
+            0,
+            0,
+            0,
+            2,
+            2,
+            1
+          ],
+          "matrix_rows": [
+            10,
+            9,
+            4,
+            16,
+            288,
+            64,
+            128,
+            11,
+            256
+          ],
+          "offset": 364,
+          "phase": 3,
+          "quadratic_rows": [
+            3,
+            3,
+            0,
+            0,
+            256,
+            256,
+            0,
+            0,
+            304
+          ]
+        }
+      },
+      "source": 64,
+      "target": 128
+    },
+    {
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            2,
+            3,
+            3,
+            3,
+            2,
+            3,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            130,
+            259,
+            4,
+            1,
+            8,
+            16,
+            32,
+            64,
+            95
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            92,
+            92,
+            95,
+            95,
+            95,
+            0,
+            95,
+            0,
+            0
+          ]
+        },
+        "rank": 7,
+        "right": {
+          "linear_Z4": [
+            1,
+            3,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            2
+          ],
+          "matrix_rows": [
+            10,
+            265,
+            260,
+            272,
+            288,
+            64,
+            384,
+            267,
+            256
+          ],
+          "offset": 32,
+          "phase": 1,
+          "quadratic_rows": [
+            3,
+            3,
+            256,
+            0,
+            256,
+            256,
+            0,
+            256,
+            180
+          ]
+        }
+      },
+      "source": 93,
+      "target": 128
+    }
+  ],
+  "literal_suffix_unchanged": true,
+  "literal_word_reconstructed": true,
+  "negative_controls": {
+    "missing_contact_actual_rank": 96,
+    "nonorthogonal_reduced_determinant": "-1/4",
+    "nonorthogonal_two_star_actual_rank": 96,
+    "wrong_global_phase_rejected": true
+  },
+  "ordinary_increment": {
+    "ADD": 9,
+    "CLEAR": 1,
+    "COPY": 0,
+    "INIT": 1,
+    "MOVE": 8,
+    "SCALE": 0
+  },
+  "parent_word_sha256": "bd5c598c9ac30bffdcdd85a4cb059376ceb83846144fa9cfa28a347a9ea2ef17",
+  "raw_histogram_delta": {
+    "1": 8,
+    "2": 0,
+    "3": 0,
+    "5": 0,
+    "6": 0,
+    "7": 8,
+    "8": -8
+  },
+  "remaining_moment_per_native_dyadic_lower": "15289291531611524451186788460973326797/373845373814507589254195735703846912",
+  "remaining_moment_per_native_dyadic_upper": "40771444084297398536498102562595540991/996920996838686904677855295210258432",
+  "retained_chart_engine_pins": {
+    "clifford_exact.py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "native_verify.py": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38"
+  },
+  "reviewed_payload_sha256": "02b86b2096a7b9ebbf4529821e7675e94101019efd1cde0634fd32435b9c318e",
+  "reviewed_word_sha256": "a312df6c1ea30b8779dbf9f77ceccf2734aa73703f3cccffd7804a5661e5efd7",
+  "scope": "Independent exact source reconstruction, matrix proof, inverse and invoice; finite source result, no complete supplier or new kappa.",
+  "source_derived_kernel": {
+    "0": "1",
+    "1": "1/2",
+    "100": "-1/2",
+    "101": "1/2",
+    "102": "1/2",
+    "12": "1/2",
+    "13": "1/2",
+    "15": "1/2",
+    "2": "1/2",
+    "25": "1/2",
+    "31": "1/2",
+    "32": "1/2",
+    "33": "1/2",
+    "4": "1/2",
+    "48": "-1/2",
+    "49": "-1/2",
+    "5": "-1/2",
+    "50": "-1/2",
+    "51": "-1/2",
+    "53": "-1/2",
+    "54": "-1/2",
+    "55": "-1/2",
+    "56": "1/2",
+    "6": "1/2",
+    "67": "-1/2",
+    "68": "-1/2",
+    "69": "1/2",
+    "70": "-1/2",
+    "71": "-1/2",
+    "72": "-1/2",
+    "73": "-1/2",
+    "74": "-1/2",
+    "75": "-1/2",
+    "78": "1/2",
+    "80": "1/2",
+    "81": "1/2",
+    "82": "1/2",
+    "83": "1/2",
+    "84": "1/2",
+    "85": "1/2",
+    "87": "1/2",
+    "88": "1/2",
+    "89": "1/2",
+    "90": "1/2",
+    "91": "1/2",
+    "92": "-1/2",
+    "98": "1/2",
+    "99": "1/2"
+  },
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_INDEPENDENT_FEEDBACK_STAR_REVIEW"
+}

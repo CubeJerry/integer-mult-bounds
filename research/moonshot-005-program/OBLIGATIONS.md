@@ -434,3 +434,17 @@ For every monotone400-path raw replacement with at least25 direct rank-eight rou
 ### GLOBAL-EARLY-REVERSE-CODE — open primary
 
 Construct one physically valid joint encoding that completes all forward duties and delivers the necessary shared reverse information before final source separation. Every read must be in the current row span at its actual chart; all donor/public restoration, coupled aliases, remaining transport and full caller costs must be proved. The paired interface and newly admitted cohorts supply local primitives, while the raw envelope permits substantial route refinement. A dependent-root triple is under local integration review; no unpublished candidate is used as a theorem premise here.
+
+## S009 actual reciprocal progress
+
+| Obligation | Exact statement and evidence | Status / next step |
+| --- | --- | --- |
+| FEEDBACK-STAR | Actual77,814-word preserves1,880 inputs and lowers hosted reverse rank96→95; four real contacts, no extra packet. `results/reciprocal-feedback-star/` | PROVED finite source construction, independently reviewed. Nonorthogonal star addition can destroy the gain. |
+| ORTHOGONAL-FEEDBACK | Actual78,123-word uses two genuine hosted root frames,32forward/32transpose terms and an exact8-column kernel with nonsingular88-minor. `results/orthogonal-frame-feedback/` | PROVED finite source construction, independently reviewed. All coupled duties and larger global completion remain separate. |
+| PRETERMINAL-COUPLED | For all inputs over characteristic≠2, (x-y,2y) precomposes the forward interface and completes8coupled reverse endpoints; actual77,827-word pays8rank1. `results/preterminal-coupled-eight/` | PROVED and independently reviewed. Future rows use changed donor basis. Combined word under construction. |
+| NULL-PADDED-ADJOINT | Genuine zero auxiliaries give b_H−A_H^Td with full logical storage rankh+rank(A_U) and charged auxiliary ascents. | CONDITIONALLY PROVED interface; source rank census author-checked. No complete physical global compiler. |
+| RANK88-CONTINUATION | One compatible earlier word supplies more mutual corrections while retaining actual current inputs, all inverse duties and strict full budget. | OPEN PRIMARY.352second-frame terms/320hosted transpose terms remain; no spent raw route may reset. |
+
+The ordinary proof, uniform complex/BIT admission and five foundations are not
+discharged by residual-rank statements. Packet acquisition is separate from
+algebraic row-space dimension.

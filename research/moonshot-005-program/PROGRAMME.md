@@ -1,3 +1,37 @@
+# S009 current frontier: actual reciprocal rank reduction
+
+A source-valid two-frame word now reduces the complete hosted reverse residual
+from rank96 to88. Its78,123 instructions preserve all1,880 input directions,
+all common outputs and the eight earlier forward completions. It adds32 actual
+forward corrections and32 transpose terms, with735 raw MOVEs and no new
+recursive packet. All eight existing E8 packets remain charged; provisional
+moment/native is40.44508379528756. Independent instruction reconstruction,
+current-row replay, explicit kernels/minor, inverse, phase maps and full invoice
+passed. Eight residual null directions are not eight individually completed
+receivers. See results/orthogonal-frame-feedback/.
+
+The one-star calibration separately proves rank95 and the exact failure of
+nonorthogonal star addition. The complete-row and partial-feedback rank gates
+now guide the global construction. See results/reciprocal-feedback-star/.
+
+An actual preterminal input change completes all eight coupled reverse outputs
+using eight paid rank1 messages, before forward decoding. It preserves prior
+forward completions but changes every future donor row to x-y at the coupled
+ports. Its standalone paired-parent margin is33.01712837582312; composition
+with the rank88 word is being constructed, not assumed here. See
+results/preterminal-coupled-eight/ and its independent lead review.
+
+The next obstacle is compatible earlier encoding of the352 remaining second-
+frame forward terms and320 hosted transpose terms, or a different global code
+that preserves and extends the eight null directions without resetting spent
+routes. A fresh global-Gram packet obstruction is under independent review.
+Canonical selected conditional kappa remains.00363005817. Both strict suppliers
+and all five foundations remain. No new kappa; ongoing programme, not PR-ready.
+
+Concurrent S008 checkpoint51e06335 was fast-forwarded intact before this update.
+Its geometry, raw refinement envelope and endpoint obstructions remain distinct
+verified supporting results. Historical strategy entries follow unchanged.
+
 # Current construction — S007: joint corrections on actual priced routes
 
 The admitted eight-packet word now cancels seven selected Gram coefficients
