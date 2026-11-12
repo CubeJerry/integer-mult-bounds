@@ -1,0 +1,71 @@
+{
+  "COPY_guard": [
+    {
+      "event": 31737,
+      "response": "0"
+    }
+  ],
+  "all400_boundary_pairs": true,
+  "baseline_initial_terms": 107,
+  "hub_response_support": 33,
+  "increment": {
+    "ADD": 143,
+    "CLEAR": 0,
+    "COPY": 0,
+    "INIT": 0,
+    "MOVE": 0,
+    "SCALE": 0
+  },
+  "independent_baseline_method": "Exact backward adjoint of two arrival terms on all1480 common inputs",
+  "instructions": 73914,
+  "move_rank_histogram": {
+    "1": 5065,
+    "2": 1188,
+    "3": 916,
+    "4": 353,
+    "5": 453,
+    "6": 25,
+    "7": 14,
+    "8": 6
+  },
+  "negative_controls": {
+    "delayed_raw_MOVE": "physical cochart arithmetic at 39024",
+    "late_read_baseline_residual_support": 90,
+    "late_read_first_residual": [
+      20,
+      "1/2"
+    ],
+    "omitted_hub_repair_at3": "-q47/4",
+    "omitted_initial_baseline_residual": {
+      "34": "-1"
+    },
+    "wrong_decoder_sign": "-2q47"
+  },
+  "offhub_response_support": 0,
+  "opcode_counts": {
+    "ADD": 62123,
+    "CLEAR": 54,
+    "COPY": 1,
+    "INIT": 54,
+    "MOVE": 8020,
+    "SCALE": 3662
+  },
+  "outside_pure_payload_S": true,
+  "peak_owned": 43,
+  "pins": {
+    "certificate": "546ca7bf0ab8a958c7269d94143f3ec315e12e96eddbebed129b435ac59239e6",
+    "proof": "deb84343a691fdc5116ac73d64158b3e6ca8baa0be402e6a9fe3489c74a33ccc",
+    "report": "4a031837c7edf8a72b712f88f3519573085fa239bc1ccb9fc2e28667dac01add",
+    "source": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+    "word": "290d246a9de8f0355263ca2f4bcf1a90db6305058c4c7c414eb9e8c155d8df0c"
+  },
+  "pulse_gain": "-1",
+  "raw_reservations_once": 1710,
+  "scope": "Independent exact compositional proof on all1880 independent inputs using the reviewed native baseline, plus literal instruction and physical type audit. Does not rerun the author full1880-column baseline replay. One cross-coordinate shear; no complete private native, supplier, composition or new kappa.",
+  "status": "PASS_INDEPENDENT_FOREIGN_HISTORY_WORD_COMPOSITION",
+  "timed_arrival_responses": {
+    "36808": "0",
+    "36811": "-1"
+  },
+  "universal_endpoint_map": "common=Tu; private_i=(Tu)_i+q_i+1[i=172]q47, with q_i=v_i-u_i"
+}
