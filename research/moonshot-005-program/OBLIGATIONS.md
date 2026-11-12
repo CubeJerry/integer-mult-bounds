@@ -356,3 +356,22 @@ SHARED-GAIN now has an actual foreign channel; this does not complete104 require
 own-pair endpoints. CHART318-OLD-O fixes the common observation matrix. The
 stronger ALL104-HISTORY has a different entire-history factorization and already
 excludes original own-station neutral swaps, including common-dependent ones.
+
+
+## S007 checkpoint4 — actual joint corrections and completed comparison
+
+| ID | Precise proposition and dependencies | Status / next step |
+|---|---|---|
+| E8-SEVEN | For all 1,880 input directions under retained field semantics, the 76,060-word cancels seven selected Gram coefficients, preserves all 4,985 others, restores common outputs and retains all private inputs. Five controllers have rank four. | PROVED finite composition, independently reviewed. `results/eight-packet-seven-corrections/`. Full receiver completion remains open. |
+| E8-SEVEN-FUSED | The 74,757-word preserves E8-SEVEN, all actual accesses and every inverse row with 407 raw MOVEs. All eight rank-nine packets are included in its conditional margin 46.96179481981380... . | PROVED finite rewrite and invoice. `results/eight-packet-seven-corrections-fused/`. New collectors must price their own access stops. |
+| REVERSE-HISTORY-CONE | For each of 96 hosted pairs and every V, all fixed-map q-only donor controls on monotone charts inside the final donor hyperplane have zero complete receiver-history quotient gain. | PROVED source-specific obstruction with independently complete relations. `results/reverse-history-cone/`. Changed common maps or correlated side records remain outside scope. No 96-call theorem is inferred. |
+| FIRST-FAMILY-DIRECT | The 73,037-word completes all 104 first pairs, common outputs and inverse duties using 400 direct raw routes and 112 rank-one packets. | PROVED partial native; conditional margin 6.29307104377714... . `results/complete-first-family/`. Hosted reverse duties remain. |
+| TERMINAL-REVERSE-96 | For every V, an append-only completion from the precise FIRST-FAMILY-DIRECT terminal state needs at least 96 inbound full fields at the hub. | PROVED sharp scoped cut, independently reviewed. Actual 576-instruction suffix attains it and fails the target price. Earlier recoding is not excluded. |
+| CHART318-FULL-HISTORY | For arbitrary realized native-field increments at charts 16,35,127,318, all 19 receiver189 arrival differences factor through final roles 129,150,189,215. | PROVED, including common-dependent swaps and feedback, with unchanged native propagation and no additional receiver information. `results/chart318-full-history/`. This supersedes the weaker old-O restriction in that access class. |
+| RAW-AGGREGATE-COLLECTION | Acquire exact weighted residuals at real donor cocharts, deliver them during paid ascent, then restore every raw donor before later use. | OPEN PRIMARY. One- and two-receiver words reviewed but not integrated; three-receiver reversible-pivot word under review. |
+| SATURATED-SPATIAL-CUT | Price all recoding against common transport and private endpoint information, with funded crossing capacity deducted. | ACTIVE UNVERIFIED. A single odd-frame cut is being independently prepared; no global exclusion admitted yet. |
+
+All supplier, full-cost and foundational obligations remain. The direct word
+is a comparison, not a completed target construction. The current positive
+mechanism combines E8 packets, actual history gains and in-place raw aggregate
+transport; compatibility across many receivers is the next decisive property.

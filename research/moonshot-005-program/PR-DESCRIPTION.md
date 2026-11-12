@@ -444,3 +444,32 @@ at the H4 target:98.992356/native versus allowance<98.399076950198. Its exact
 clique-cover optimum is97+2^(199/200). Hybrid funded paths, changedroutes and
 common-response networks remain outside that numerical exclusion; general
 weighted-cut accounting records their capacities explicitly. **No new kappa.**
+
+
+### Joint correction words, priced access and exact excluded continuations
+
+The cumulative construction now has a restored foreign-history channel and
+an actual seven-coefficient E8 correction word. Its observation-preserving
+fusion reduces 1,710 raw MOVEs to 407 while retaining all read charts and
+private inverse rows. All eight rank-nine packet charges appear in the exact
+conditional H4 invoice, whose remaining moment is 46.96179481981380... per
+native. This remains a partial construction with 4,985 residual coefficients
+and reverse duties outstanding.
+
+A separate fully charged comparison completes all 104 first pairs with 104
+forward packets and eight coupled returns. Its remaining moment is only
+6.29307104377714... . A sharp append-only cut proves that its exact terminal
+state requires 96 incoming fields for the missing hosted reverse family; an
+actual attaining suffix is supplied and its target invoice fails. This is a
+scoped obstruction, not a general lower bound on earlier shared coding.
+
+The source-bound reverse-history cone theorem excludes fixed-map q-only
+controls for all 96 hosted pairs, including retargeted monotone donor routes.
+The stronger chart318 theorem proves complete receiver-history conservation
+even under common-dependent feedback in its explicit four-chart access class.
+Both have independently reconstructed exact duals and meaningful scope mutants.
+The packages contain proofs, frozen words, pins, independent review and portable
+reproduction commands. Prepared for @CubeJerry with substantial OpenAI
+assistance and predecessor credit preserved. **No new kappa.** Both stronger
+suppliers, complete physical and recursive accounting, and all five foundations
+remain open. The cumulative branch is not yet declared PR-ready.

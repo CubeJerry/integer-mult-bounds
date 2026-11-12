@@ -491,3 +491,37 @@ independent mathematical review corrected the information theorem to fixed
 common-input-independent controls before admission. The old-functional identity
 holds more widely, but a changed common matrix can have new null relations.
 Direct integrated reproduction is separate from the lead's proof review.
+
+
+## S007 checkpoint4 admission
+
+Five integrated independent reviewers passed. Seven-correction, fused-route,
+reverse-cone and full chart318 receipts reproduce byte for byte. The direct
+first-family receipt matches as exact JSON; only integer-key ordering in one
+histogram differs. Its attaining 576-instruction suffix is byte-identical.
+The seven-correction history dependency independently regenerates its frozen
+certificate and receipt. See `sessions/2026-11-12-S007/checkpoint4-replays.json`.
+
+The seven-correction review derives fresh common relations and all 104 complete
+interfaces, tests actual cache/source charts, confirms joint response rank four
+and checks every private inverse row. The fusion review preserves all actual
+uses, checks the changed invoice independently and verifies introduced-map
+coverage; phase certification uses the pinned retained engines, not a newly
+written physical compiler. The reverse-cone review independently establishes
+1,859 complete relations by exact rank sandwiches and checks 5,540,780 nonzero
+adjoint entries including post-MOVE observation phases. Its fixed common-map
+restriction is essential.
+
+The first-family reviewer found a terminal-raw wording error: private Y2 is
+vY2, so an attaining return must form qY2 by subtracting common Y2. The root
+proof was corrected before admission. The reviewer constructs and checks the
+actual six-operation-per-pair suffix on every input direction. The chart318
+review separately propagates 19 full-history residuals at 28,292 changed states,
+checks a changed-matrix pulse, and rejects wrong-sign and extra-chart controls.
+The stronger result is a difference identity, not an absolute baseline equation.
+Author exploratory swap screening remains separately classified.
+
+All frozen author/reviewer files retain staging provenance. Path-only adapters
+preserve mathematical code. These are independent AI mathematical reviews,
+not human or formal-kernel certification. Byte-integrity checks are a separate
+ledger and do not promote finite source identities into uniform suppliers.

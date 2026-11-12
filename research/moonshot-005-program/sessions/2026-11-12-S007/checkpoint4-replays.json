@@ -1,0 +1,48 @@
+{
+  "session": "2026-11-12-S007",
+  "checkpoint": 4,
+  "baseline_sha": "62bdb2fe78804935fddb8ae6b21e8591830e1f29",
+  "scope": "Integrated independent replay, byte or exact JSON equality as specified. This is not a formal proof kernel.",
+  "checks": [
+    {
+      "package": "eight-packet-seven-corrections",
+      "frozen_receipt_sha256": "0afb0bec5d68b9ad2db80ee9e79e81581689072b76bcc9d33c01b499970957c3",
+      "integrated_receipt_sha256": "0afb0bec5d68b9ad2db80ee9e79e81581689072b76bcc9d33c01b499970957c3",
+      "byte_equal": true,
+      "exact_json_equal": true
+    },
+    {
+      "package": "eight-packet-seven-corrections-fused",
+      "frozen_receipt_sha256": "a0ad37e09f691e57128d0eda773aaeb3bea62a757759c7cba0059686cae9ea6e",
+      "integrated_receipt_sha256": "a0ad37e09f691e57128d0eda773aaeb3bea62a757759c7cba0059686cae9ea6e",
+      "byte_equal": true,
+      "exact_json_equal": true
+    },
+    {
+      "package": "reverse-history-cone",
+      "frozen_receipt_sha256": "7b2c3c8fef04c990bc355b8df054d2b1acedc8d684caee6bff7579b13b022cb3",
+      "integrated_receipt_sha256": "7b2c3c8fef04c990bc355b8df054d2b1acedc8d684caee6bff7579b13b022cb3",
+      "byte_equal": true,
+      "exact_json_equal": true
+    },
+    {
+      "package": "complete-first-family",
+      "frozen_receipt_sha256": "fdd92de3c866f16240910cd3fdf4ba8c56e27ba5678b43a7163ab8b18f19d6c1",
+      "integrated_receipt_sha256": "47430c14ba500ca18098e6932218e3f256d5c4150269f275958dc4024dacc203",
+      "byte_equal": false,
+      "exact_json_equal": true
+    },
+    {
+      "package": "chart318-full-history",
+      "frozen_receipt_sha256": "c077ba8e47b5bdc3893c42f6b47933a2b7d361acd1d966e664300265a90ae476",
+      "integrated_receipt_sha256": "c077ba8e47b5bdc3893c42f6b47933a2b7d361acd1d966e664300265a90ae476",
+      "byte_equal": true,
+      "exact_json_equal": true
+    }
+  ],
+  "first_family_suffix_byte_equal": true,
+  "history_dependency_byte_equal": {
+    "CERTIFICATE.json.gz": true,
+    "REVIEW-RESULT.json": true
+  }
+}

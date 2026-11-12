@@ -496,3 +496,31 @@ checks; these do not replace physical compiler and unbounded-column foundations.
 The foreign channel adds no recursive moment. Its E8 composition cancels one
 of4992 residual terms; it supplies neither the remaining rows nor the96 hosted
 reverse and8 coupled reverse duties. Both strict suppliers remain open.
+
+## S007 checkpoint4: exact partial profiles and terminal comparison
+
+The independently admitted seven-correction fusion uses
+R7 = {1:5, 2:2, 5:1, 6:1, 7:4, 8:394}, with 407 calls and rank sum 3,200.
+For t = 199/200 its complete provisional caller is
+P7 = P4 + 18(R7 - Rold) + 18*8{rank9}, with T7 = T4.
+It has 129,114 paid positions, 27,344 targets, surplus 3,760 and remaining
+moment 46.96179481981380... per native. All eight packets are already paid;
+the 4,985 residual coefficients, eight coupled reverse duties, 96 hosted
+reverse duties and every ordinary/physical service are still owed.
+
+The direct first-family comparison instead uses Rdir = 400{rank8} and
+hdir = 112{rank1}, comprising 104 forward deliveries and eight coupled returns.
+Its full provisional profile has 130,860 paid positions, 27,344 targets,
+surplus 3,040 and remaining moment 6.29307104377714... per native. All 104 first
+pairs are complete; the 96 hosted reverse shears are not. From this exact
+terminal state, append-only recovery needs at least 96 inbound full fields
+at the hub, attained by a 576-instruction, 96-rank-one suffix. The resulting
+correct full finite word has negative target moment. Earlier recoding and
+other terminal interfaces are outside this sharp append-only statement.
+
+These are explicit changed invoices, not interchangeable margins. The old
+fixed H4 ceiling and the fully newly paid localized-code comparison retain
+their original scope. Independent source history obstructions constrain
+particular controls; they do not by themselves price every possible code.
+Both U > .005 and completed ordinary BIT B > .005 remain necessary in the
+retained outer theorem. No complete conditional target theorem is obtained.

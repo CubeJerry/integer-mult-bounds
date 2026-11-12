@@ -629,3 +629,28 @@ has now passed independent review; its fusion is still under review and both
 await integration. Next wave: changed-O retained swaps and96 hosted reverse
 histories. Upstream unchanged; no new kappa or PR. The10-hour session remains
 active. Resulting SHA is recorded after GitHub confirmation, not here.
+
+
+### S007 checkpoint4 — joint correction word and exact continuation limits
+
+Prepared 2026-11-12T04:17:02Z after GitHub confirmed checkpoint3 at
+`62bdb2fe78804935fddb8ae6b21e8591830e1f29`, tree
+`1948f313028bf17ca320f31d1ef60a577864ea04`. Admitted the seven-correction word,
+its 407-raw-MOVE fusion, all96 hosted reverse fixed-map history cones, the
+complete direct first-family comparison and its sharp96-field terminal repair
+floor, and the stronger chart318 full-history factorization. Five independent
+portable reviews passed; four receipts match bytes and one matches exact JSON
+up to histogram-key ordering. The history dependency also reproduces exactly.
+
+The independent first-family review corrected the attaining suffix to form
+qY2 from private-minus-common, then supplied and checked its actual576-word.
+The chart318 proof closes common-dependent feedback only in its explicit
+four-chart native-control class. No general96-call history bound is claimed.
+
+New positive construction: one- and two-facet words have independent reviews;
+a three-receiver reversible raw-pivot word is author-frozen and under review.
+A saturated odd-frame spatial cut is being prepared. These await later admission.
+Canonical main is unchanged; open#7177 is a formal BIT interface with unbuilt
+provider, not a target supplier. The ten-hour S007 session remains active.
+No new complete kappa or upstream PR. The resulting remote SHA is recorded
+only after GitHub confirmation, avoiding self-reference.

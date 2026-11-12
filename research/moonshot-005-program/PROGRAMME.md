@@ -1,4 +1,39 @@
-# Current construction — S007: actual history gain and observation-priced routes
+# Current construction — S007: joint corrections on actual priced routes
+
+The admitted eight-packet word now cancels seven selected Gram coefficients
+jointly and preserves all other 4,985 residual coefficients. Observation-aware
+fusion gives an actual 74,757-operation word with 407 raw MOVEs, full common
+restoration and a 400-row private inverse. With all eight rank-nine packet
+charges included, its provisional H4 invoice leaves 46.96179481981380... moment
+per native at t = 199/200. The five controllers give four independent response
+directions; q37 and q47 share one aggregate channel. No receiver is completed
+by those seven corrections alone.
+
+The constructive continuation collects residual aggregates during actual raw
+ascent. One- and two-receiver words have passed independent review and await
+integration. A three-receiver candidate uses reversible raw aggregate pivots
+to cross incomparable pair-intersection charts; it is still under review.
+Its key obligation is recovery of every original donor before later source
+reads, with every access stop and ordinary cost charged.
+
+The direct 104-forward-packet comparison completes the entire first family,
+including eight coupled returns, but leaves only 6.29307104377714... moment.
+From that exact terminal state, an append-only hosted-reverse repair has the
+sharp minimum 96 incoming fields at the hub. This motivates arranging shared
+information earlier; it is not an unrestricted 96-call lower bound.
+
+Two new obstructions have separate scopes. All 96 hosted reverse histories
+annihilate q-only donor controls on monotone donor charts inside their final
+hyperplanes, with the common observation map fixed. For receiver 189 at
+charts 16, 35, 127 and 318, the stronger entire-history response factors
+through four common endpoints even for common-dependent feedback. That access
+class is closed; other charts and changed native processing remain open.
+
+No new complete kappa. Selected conditional kappa remains .00363005817.
+Both strict suppliers, complete recursive and physical costs, and all five
+foundations remain. The programme is ongoing, not PR-ready.
+
+# Historical checkpoint3 — actual history gain and observation-priced routes
 
 A restored foreign-history channel now lies outside the old pure-payload
 routing graph. Its73,914-instruction word carries q47 to raw172 with143 added

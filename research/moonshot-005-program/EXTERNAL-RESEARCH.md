@@ -369,3 +369,19 @@ retiming fails. This does not contradict fusion across unobserved private stops.
 #7361's13 multi-ADD rechart components and#7362's95-mover/285-midpoint funded
 rank2 cuts report no gain under fixed outside charts/clocks. These are scoped
 open results, not imported theorems. #7363/#7364 metadata was noted only.
+
+
+## S007 targeted upstream update, 2026-11-12 (checkpoint4)
+
+Canonical main remains `e54523517d0f03e58352e647c403a5af3e525a57`.
+[CrocSwap/integer-mult-bounds#7177](https://github.com/CrocSwap/integer-mult-bounds/pull/7177)
+by ToikY is open at head `7aadacf803deffd79b14a09fd8ccef1429a7ff23`.
+Its formal QUERY349 removal changes the second LOCAL of each stage to
+`(x,y) -> (D_s qx, D_s(x+y))`, replaces one QUERY by ADD, and checks all 1,444
+forward/reverse coefficients. The new native provider is explicitly unbuilt.
+Its cost allowance is at its stated approximately .00400754 exponent, not
+.005. It cites #6726, #6834, #6980, #7001 and #7113. This is a relevant formal
+interface lead, not an admitted supplier or a removed foundation.
+The programme's stronger .005 obstruction already grants deletion of all four
+QUERY calls while retaining native/IDLE/target costs; that limitation remains.
+No upstream branch, selected certificate or PR was changed.
