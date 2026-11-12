@@ -1,3 +1,9 @@
+## S008 checkpoint5: recovered words and the consumer-access frontier
+
+The current package results/s008-recovered-cut-and-entry/ proves causal retained-Hub gates with restored joint D coding and the all400-private57 floor under downward forward transport. It excludes the original-support C4-to-D5 candidate by a63-mode bound. Exact recovered aligned/permuted entry words preserve all1880 directions and parent duties; the rank8 assignment reaches all96 singleton cuts for8real rank1 calls, with remaining moment33.01712837582312. Coupled-X debt remains. The unchanged Hub history has no pure originalD information.
+
+The new complete-target cut removes the pureGramHub premise, but its unrestricted nested-edge price relaxation is exactly8 via zero→span511, where no original private carrier can consume. Consumer-access and continuation constraints or a genuine global current-row construction are therefore primary. The actual concurrent cyclic22/rank82 source remains a construction lead; do not assume its unfinished map isP-I or reset spent paths. No new complete kappa, not PR-ready; both strict suppliers and all five foundations remain.
+
 # Current construction: cyclic source code and mixed-information completion
 
 ## S009 checkpoint3, 2026-11-12

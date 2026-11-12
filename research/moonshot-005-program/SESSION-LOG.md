@@ -791,3 +791,11 @@ Scientific baseline 1f21379ca624a40c44edbe616000c00cabcafe81 remains intact. The
 Unpublished local cyclic/late-two, midpoint and nine-packet work is not claimed recovered. Fresh D4 reconstruction and scalar rank-nine fitting-matrix gluing are under independent review; a seven-null/one-original-return recipe is being emitted and replayed as an actual source word. None supplies a complete global code. The primary obligation remains actual mixed observations and restoration in one globally compatible construction. Changing a fitting matrix requires a new full debt calculation. Canonical upstream main remains e54523517d0f03e58352e647c403a5af3e525a57.
 
 This is an intermediate checkpoint, not session completion, a new kappa or PR readiness. S009 continues toward its requested22:58:11 UTC endpoint; no background execution is implied. Concurrent S008 evidence/status is preserved. Resulting checkpoint SHA is recorded only after remote confirmation.
+
+## 2026-11-12-S008 — checkpoint5 recovery, session active
+
+Previous S008 remote b2dc1cc59f39b60488b80c574eddc7bd7ac8ea5d was preserved by concurrent1f21379. Around16:10UTC the executor failed before local CP5 publication. GitHub/code-mode remained usable. The exact native and paired compressed bytes were authenticated and fresh arithmetic resumed. Concurrent S009 recovery9501088c7863ce61f8f0d9c3ed05dc46b9e24913 is this checkpoint's preserved parent.
+
+Recovered/preserved: causal downset and all-private57 proofs,63-mode support obstruction, both exact original entry canonical payloads, and the new full-target cut with its exact8-price limitation. Fresh code checks all1880 input directions at1885 fields and the72711-operation unchanged suffix, rejects8 mutants, and corroborates91 source cuts plus40831 rank49 profiles. Fresh proof/checker files are explicitly distinct from unavailable original bytes. Remaining auxiliary/mixed/nested artifacts are recorded, not promoted.
+
+Next: consumer-access or an actual global current-row restoration. S008 continues toward21:51:49UTC through available cloud tools. No new kappa or PR. Resulting remoteSHA is reported after confirmation in a later ledger, avoiding self-reference.

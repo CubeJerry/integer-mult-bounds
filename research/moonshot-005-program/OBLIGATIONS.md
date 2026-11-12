@@ -530,3 +530,16 @@ The concurrent S009 source families remain independent actual alternatives. A co
 
 Earlier rank87 and rank88 variants remain valid separate constructions. No
 complete exponent follows from the new finite rank82 or the scoped obstructions.
+
+## S008 checkpoint5 obligations
+
+| ID | Proposition and dependencies | Status |
+|---|---|---|
+| CAUSAL-RETAINED-GRAM | At every volume, closed mixed histories/restored joint D plus fullBHub rank and pureK imply both distance42 support gates. | Proved with explicit transport inventory; exact price inherited from S009. |
+| ALL400-RETAINED-GRAM | Full first targets, originalD,8 changed entries, downward forward legs and retained pureK imply union gate and total57. | Proved; singleton96 coverage does not follow. |
+| PURE-C4-D5 | Original-support block factorization covers at most70 nonzero blocks per mode and needs63. | Proved at all volumes; changed current supports excluded. |
+| ACTUAL-MIXED-ENTRY | Exact78535/78547-operation words,8 entry calls, all1880 inputs and rank8 singleton coverage. | Proved finite-source partial construction; original payloads recovered, X debt remains. |
+| FULL-TARGET-DOWNSET | Complete original endpoints require actual outward count at least|Z| minus explicit credits. | Proved independently without pureGram premise; edge-cost relaxation exactly8. |
+| CONSUMER-ACCESS | Useful distributed consumption and complete restoration in one global current-row code. | Primary open obligation. |
+
+Details and verification: results/s008-recovered-cut-and-entry/. Unavailable original CP5 files are listed in its RECOVERY.json; hashes alone are not recovered evidence.

@@ -1,0 +1,13 @@
+# Verification of the recovered entry words
+
+Before the executor failed, Worker C independently re-emitted both literal words, checked all1880 prefix coordinates and live owned fields, all actual packet reads, the full type/lifecycle/invoice, the unchanged suffix and five rejecting controls per variant. Normal and optimized receipts were identical. Its frozen manifest was28ce2b7f4805447e6da2974fccf70862b002c94684d921003faf37fd32e31c01. Those original review files are currently unavailable; this text is a reconstructed scientific record, not claimed original bytes.
+
+After the failure root retrieved the exact native and paired parent compressed bytes from GitHub, authenticated both SHA256 pins, decompressed and verified their CRC/size, and translated the author's reconstructed emitter to JavaScript. Python-compatible canonical serialization matches the parent's original payload hash and both new original payload hashes. The committed gzip files have new wrappers around these exact recovered payloads.
+
+Root then wrote a fresh exact BigInt dyadic checker. In the independent basis of1480 common inputs and400 q=v-u inputs, it compares every coefficient at all1885 live fields before the common suffix, including the five inherited live owned caches and all locations. This is an invertible change from the original1880 inputs. The aligned prefix has5824 operations and15030 nonzero coefficients; the permuted prefix has5836 operations and14300 nonzero coefficients. Both following72711-operation suffixes match the parent literally.
+
+The fresh checker additionally verifies every inherited event and its chronological lineage, exactly eight deleted first half-scales, eight actual rank1 entry MOVEs and all new temporary retirements. Four fresh mutants per variant fail for semantic or cochart reasons: packet coefficient sign, wrong packet line, missing Y compensation and a wrong independent source. These are recorded in ENTRY-RECOVERY.json.
+
+The all-original-D preservation and forward/coupled endpoint assertions follow by exact precomposition of the admitted parent. The original parent proof and independent review remain dependencies; root did not claim another full common suffix matrix replay. The unchanged-Hub no-pure-D corollary uses its separately audited local stream and inherited common restoration.
+
+The construction and its review were separate agents; root's reproduction is additional verification, not a replacement name for independence. Reconstructed proof text and restored payload identity are explicitly distinguished. No new complete kappa, no uniform supplier admission and no discharged foundation.

@@ -1,0 +1,115 @@
+{
+  "status": "ORIGINAL_CANONICAL_PAYLOADS_RECOVERED_AND_FRESHLY_CHECKED",
+  "wrappers": [
+    {
+      "mode": "aligned",
+      "payload_sha256": "91e3358f3e09ada6eb81b9bc9d40086912872e2df8216e9dc265ce8af00c456a",
+      "gzip_sha256": "556d9ef6fa4f88f386e45033e8ba92391ba9d926da6bfc73ca04bdf6f0043a2f",
+      "payload_bytes": 3210820,
+      "gzip_bytes": 1033891,
+      "operations": 78535,
+      "original_payload_recovered": true,
+      "original_gzip_bytes_recovered": false,
+      "compression": "fresh deterministic fixed-Huffman gzip; exact original JSON payload"
+    },
+    {
+      "mode": "permuted",
+      "payload_sha256": "06844c10a8dba2145c07cb517a7f9d8a383806aa5a42feff8ce6d7b36cad8bd8",
+      "gzip_sha256": "bb0b205cc8edcf1581c3617ab0c49d36ee3e824dd5baf94c51faf0d7067baee3",
+      "payload_bytes": 3212719,
+      "gzip_bytes": 1034657,
+      "operations": 78547,
+      "original_payload_recovered": true,
+      "original_gzip_bytes_recovered": false,
+      "compression": "fresh deterministic fixed-Huffman gzip; exact original JSON payload"
+    }
+  ],
+  "prefix_reviews": {
+    "aligned": {
+      "status": "PASS_FRESH_EXACT_ALL1880_PREFIX_PRECOMPOSITION",
+      "basis": "1480 original common fields plus400 independent q=v-u coordinates; invertible change from all1880 original inputs",
+      "fields_compared": 1885,
+      "columns": 1880,
+      "nonzero_coefficients_compared": 15030,
+      "prefix_operations": 5824,
+      "literal_suffix_operations": 72711,
+      "new_owned_rank1_MOVEs": 8,
+      "new_phase_peak_owned": 1,
+      "unchanged_parent_peak_owned": 43,
+      "all_original_D_endpoints_preserved": true,
+      "coupled_X_debt": "-K*d; not restored",
+      "original_payload_hash_authentication_required": true,
+      "scope": "Exact dyadic symbolic prefix and literal complete-suffix composition. This is not a fresh full-common-matrix replay or complete multiplier."
+    },
+    "permuted": {
+      "status": "PASS_FRESH_EXACT_ALL1880_PREFIX_PRECOMPOSITION",
+      "basis": "1480 original common fields plus400 independent q=v-u coordinates; invertible change from all1880 original inputs",
+      "fields_compared": 1885,
+      "columns": 1880,
+      "nonzero_coefficients_compared": 14300,
+      "prefix_operations": 5836,
+      "literal_suffix_operations": 72711,
+      "new_owned_rank1_MOVEs": 8,
+      "new_phase_peak_owned": 1,
+      "unchanged_parent_peak_owned": 43,
+      "all_original_D_endpoints_preserved": true,
+      "coupled_X_debt": "-K*d; not restored",
+      "original_payload_hash_authentication_required": true,
+      "scope": "Exact dyadic symbolic prefix and literal complete-suffix composition. This is not a fresh full-common-matrix replay or complete multiplier."
+    }
+  },
+  "fresh_negative_controls": [
+    {
+      "mode": "aligned",
+      "name": "packet-sign",
+      "rejected": true,
+      "reason": "all1880 input coefficient"
+    },
+    {
+      "mode": "aligned",
+      "name": "wrong-packet-line",
+      "rejected": true,
+      "reason": "cochart ADD"
+    },
+    {
+      "mode": "aligned",
+      "name": "missing-Y-compensation",
+      "rejected": true,
+      "reason": "all1880 input coefficient"
+    },
+    {
+      "mode": "aligned",
+      "name": "wrong-independent-source",
+      "rejected": true,
+      "reason": "exact row denominator/support"
+    },
+    {
+      "mode": "permuted",
+      "name": "packet-sign",
+      "rejected": true,
+      "reason": "all1880 input coefficient"
+    },
+    {
+      "mode": "permuted",
+      "name": "wrong-packet-line",
+      "rejected": true,
+      "reason": "cochart ADD"
+    },
+    {
+      "mode": "permuted",
+      "name": "missing-Y-compensation",
+      "rejected": true,
+      "reason": "all1880 input coefficient"
+    },
+    {
+      "mode": "permuted",
+      "name": "wrong-independent-source",
+      "rejected": true,
+      "reason": "exact row denominator/support"
+    }
+  ],
+  "previous_independent_review_manifest": "28ce2b7f4805447e6da2974fccf70862b002c94684d921003faf37fd32e31c01",
+  "original_review_bytes_available": false,
+  "remaining_H4_moment_per_native": "33.01712837582312",
+  "no_new_complete_kappa": true
+}

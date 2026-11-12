@@ -449,3 +449,7 @@ but its completed global hub cannot be substituted for actual rank82 rows.
 No upstream branch, certificate, or PR has been changed by this checkpoint.
 
 Concurrentb2dc1cc5 adds source-valid short parked ghosts, nested current-row schedules and recovered parity/cut evidence. Eight ghost outputs and cyclic22 rank82 are different parent constructions; no automatic composition or sum of savings is claimed. Their complete source interfaces now guide the next mixed-information attempt.
+
+## S008 integration through16:40UTC
+
+Canonical main was last checked at e54523517d0f03e58352e647c403a5af3e525a57 around15:40UTC. Targeted recent metadata through#7456 showed further scoped rechart/late-bank results, not an admitted new complete supplier; no certificate changed. Concurrent S0091f21379's cyclic22/rank82, shared-column lift, interleaved pure-eight barrier and joint-endpoint rank identity are retained. Its9501088 recovery records the same executor outage. The closedB/D return gate composes with the interleaved theorem after conditioning independent first-family inputs; changed-entry all-private transport is not automatically covered. S009 distance42 and exact-price credit is retained.

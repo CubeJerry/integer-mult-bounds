@@ -1,3 +1,15 @@
+# Active S008/S009 continuation after recovery
+
+Read exact remoteHEAD and STATE first. S008 continues toward2026-11-12 21:51:49UTC; S009 has its separate22:58:11UTC window. The executor is unavailable but GitHub/code-mode research continues. Preserve both sessions' commits and recheck before pushes; no background execution is implied.
+
+## S008 checkpoint5: recovered words and the consumer-access frontier
+
+The current package results/s008-recovered-cut-and-entry/ proves causal retained-Hub gates with restored joint D coding and the all400-private57 floor under downward forward transport. It excludes the original-support C4-to-D5 candidate by a63-mode bound. Exact recovered aligned/permuted entry words preserve all1880 directions and parent duties; the rank8 assignment reaches all96 singleton cuts for8real rank1 calls, with remaining moment33.01712837582312. Coupled-X debt remains. The unchanged Hub history has no pure originalD information.
+
+The new complete-target cut removes the pureGramHub premise, but its unrestricted nested-edge price relaxation is exactly8 via zero→span511, where no original private carrier can consume. Consumer-access and continuation constraints or a genuine global current-row construction are therefore primary. The actual concurrent cyclic22/rank82 source remains a construction lead; do not assume its unfinished map isP-I or reset spent paths. No new complete kappa, not PR-ready; both strict suppliers and all five foundations remain.
+
+Original CP5 auxiliary/mixed/nested branch artifacts remain unavailable. Exact entry payloads and fresh reconstructed proofs/checkers are in results/s008-recovered-cut-and-entry/. Reproduce them from their published pins; do not equate stored hashes with recovered files.
+
 # Resume the active cyclic/current-row construction
 
 Read STATE.json and the exact remote branch first. Current independently

@@ -667,3 +667,11 @@ with actual K=G, systematic pivots I give96-|B intersect I|, best88. This
 prevents crediting changed Y2 rows as restored. The general observation gate
 must use actual current matrices; full R=G-I remains a construction premise.
 Both strict suppliers and all foundations remain. No new complete kappa.
+
+## S008 checkpoint5: recovered words and the consumer-access frontier
+
+The current package results/s008-recovered-cut-and-entry/ proves causal retained-Hub gates with restored joint D coding and the all400-private57 floor under downward forward transport. It excludes the original-support C4-to-D5 candidate by a63-mode bound. Exact recovered aligned/permuted entry words preserve all1880 directions and parent duties; the rank8 assignment reaches all96 singleton cuts for8real rank1 calls, with remaining moment33.01712837582312. Coupled-X debt remains. The unchanged Hub history has no pure originalD information.
+
+The new complete-target cut removes the pureGramHub premise, but its unrestricted nested-edge price relaxation is exactly8 via zero→span511, where no original private carrier can consume. Consumer-access and continuation constraints or a genuine global current-row construction are therefore primary. The actual concurrent cyclic22/rank82 source remains a construction lead; do not assume its unfinished map isP-I or reset spent paths. No new complete kappa, not PR-ready; both strict suppliers and all five foundations remain.
+
+Exact scoped comparisons: closed retained returns cost at least10*5^(199/200)=49.599255119493925; arbitrary-interleaved pure-eight forward allowance is49.26950365220561, deficit>.3297514672883. The all-private theorem uses only the surviving union gate:49+8=57 versus49.03359816976095, deficit>7.9664018302. Its missing singleton premise is not borrowed. Pure C4/D5 support requires63 rank1 calls even granting coupled repairs free, deficit>13.9664018302. These are necessary costs in stated interfaces, not a complete multiplier lower bound.
