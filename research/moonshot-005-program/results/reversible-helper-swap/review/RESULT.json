@@ -1,0 +1,45 @@
+{
+  "status": "PASS_INDEPENDENT_SWAP_SOURCE_COMPOSITION_AND_TYPES",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "word_payload_sha256": "13197190b0030fcc5100f35ae1d71a15e350708bafa000fc0dea39b48e3a9f96",
+  "author_result_sha256": "37c533aae71da34a23f91ce8af5f5dad66362fa791bedebe964d1a11b6ede4f7",
+  "source_h_method": "Backward adjoint of the literal source prefix",
+  "source_z_method": "Exact one-dimensional suffix pulse",
+  "payload_support": 260,
+  "response_support": 25,
+  "instructions": 73807,
+  "opcode_counts": {
+    "ADD": 62012,
+    "SCALE": 3663,
+    "MOVE": 8021,
+    "INIT": 55,
+    "COPY": 1,
+    "CLEAR": 55
+  },
+  "move_rank_histogram": {
+    "1": 5066,
+    "2": 1188,
+    "3": 916,
+    "4": 353,
+    "5": 453,
+    "6": 25,
+    "7": 14,
+    "8": 6
+  },
+  "peak_owned": 43,
+  "incremental_counts": {
+    "ADD": 32,
+    "SCALE": 1,
+    "MOVE": 1,
+    "INIT": 1,
+    "CLEAR": 1,
+    "COPY": 0
+  },
+  "raw_reservations_once": 1710,
+  "all_common_rows_restored_by_identity": 1480,
+  "all_private_rows_preserved_by_invertible_shear": 400,
+  "source_guard_unchanged": [
+    31737
+  ],
+  "scope": "Exact typed-word comparison, independently reconstructed cut/pulse and universal composition proof using the reviewed pinned native baseline. Does not rerun a full1880-column baseline replay. A single cross-coordinate shear, not the complete private target, supplier or kappa improvement."
+}
