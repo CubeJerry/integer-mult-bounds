@@ -1,0 +1,11 @@
+# Independent review of even-hyperplane acquisition accounting
+
+**Mathematical review: PASS within the exclusive-entry interface.** This review concerns Worker C's `EVEN-HYPERPLANE-ACQUISITION.md`; its exact file hash is recorded in REVIEW.json. I read the proof and independently checked the innovation argument. I did not rerun the source geometry audit; the absence of retained holders at E and the fixed 1631/1623 conditional rank/capacity are explicitly inherited from its pinned source certificate.
+
+Let h count new inward calls bypassing E, e new E-to-hub calls, and g new outside-region-to-E calls. The cut capacity immediately implies e≥(8−h)+. For acquisition, condition on all inside initial inputs and grant the complete fixed inward transcript F, bypass transcript H, and outside-to-E transcript G. Chronological induction puts every inside field, every inside-to-E feedback value, and every E-held field in their linear span. A local ADD/SCALE or erasure cannot add a new independent direction. A feedback message only returns information already generated from those transcripts. A fresh outside-to-E arrival adds at most one field of innovation.
+
+This argument does not assume that F,H,G are mutually independent. In particular, a fixed or bypass transcript value may depend on earlier E-to-hub messages: chronological induction still bounds the final inside span by all granted values. The conditional target rank therefore forces g≥(8−h)+. The three call classes are disjoint and each has positive integer rank, so their moment is at least h+2(8−h)+. For h=0 this is16; for h=8 the bound returns8.
+
+The premises are necessary. If data could start at E, arrive on an uncharged retained leg, or enter through an unlisted source record, acquisition could evade g. If eight useful entries bypass E, the theorem gives no16-unit conclusion. The proof correctly admits arbitrary linear combinations of common/private inputs and feedback, while retaining normalized linear field operations and fixed native/packet endpoint legs. It does not prove a universal16-call barrier or new κ.
+
+Review by Worker A for the persistent @CubeJerry programme, with substantial OpenAI AI assistance. Worker C authored the acquisition proof; the earlier recovered odd-eight cut retains its original credit.

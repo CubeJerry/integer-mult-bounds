@@ -431,3 +431,7 @@ to the frame word. The mixed-observation interface requires a complete
 paired code or an explicit reduction of the actual remaining map before
 eight Gram observations suffice. Upstream last examined remains
 e54523517d0f03e58352e647c403a5af3e525a57; no selected certificate changed.
+
+## Concurrent1ceafd5e preserved during S008
+
+Remote1ceafd5edbd856727d40e18058a3c77149e558dc was a direct successor of S00829736f46. Its80 changed/added files were inspected and fast-forwarded before tracked S008 edits. S009 contributes independently reviewed distance42/sharp fresh-packet price, actual rank87 principal extension, coupled-frame composition and late-two forward packets. Distance42 supports the new S008 downset extension; simultaneously developed matching source geometry is additional evidence with credit. The late tariff changes global comparison when physically composed. No upstream selection, PR or branch was altered.

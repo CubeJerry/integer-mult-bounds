@@ -1,0 +1,249 @@
+{
+  "actual_current_rows_checked": 360,
+  "bill": {
+    "final_owned": 0,
+    "instructions": 77262,
+    "move_histogram": {
+      "1": 4124,
+      "2": 856,
+      "3": 948,
+      "4": 241,
+      "5": 484,
+      "6": 24,
+      "7": 22,
+      "8": 225,
+      "9": 8
+    },
+    "opcode_counts": {
+      "ADD": 65785,
+      "CLEAR": 437,
+      "COPY": 1,
+      "INIT": 437,
+      "MOVE": 6932,
+      "SCALE": 3670
+    },
+    "peak_owned": 43,
+    "raw_calls": 614,
+    "raw_histogram": {
+      "1": 49,
+      "2": 28,
+      "3": 137,
+      "5": 164,
+      "6": 7,
+      "7": 10,
+      "8": 219
+    },
+    "raw_rank_mass": 3200
+  },
+  "independent_remaining_moment_bounds": [
+    "47443901086125042896690551/1125000000000000000000000",
+    "843447130420000762607991/20000000000000000000000"
+  ],
+  "independent_remaining_moment_decimal": 42.17235652100004,
+  "input_basis": "All1480 common u and400 independent differences q=v\u2212u; entry transformation checked literally",
+  "join_source_receipts": [
+    {
+      "chart": 1102,
+      "current_early_Y2_term": {
+        "coefficient": "-1",
+        "role": 884
+      },
+      "four_real_dual_supports": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "four_real_primal_supports": [
+        13,
+        11,
+        11,
+        11
+      ],
+      "pair": [
+        112,
+        113
+      ],
+      "reachable_active_receiver_facets": [
+        112,
+        113
+      ],
+      "remaining_cycle_direction_not_deliverable_to_new_facet_after_join": true
+    },
+    {
+      "chart": 1103,
+      "current_early_Y2_term": {
+        "coefficient": "-1",
+        "role": 975
+      },
+      "four_real_dual_supports": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "four_real_primal_supports": [
+        13,
+        11,
+        11,
+        11
+      ],
+      "pair": [
+        112,
+        210
+      ],
+      "reachable_active_receiver_facets": [
+        112,
+        210
+      ],
+      "remaining_cycle_direction_not_deliverable_to_new_facet_after_join": true
+    },
+    {
+      "chart": 1104,
+      "current_early_Y2_term": {
+        "coefficient": "-1",
+        "role": 979
+      },
+      "four_real_dual_supports": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "four_real_primal_supports": [
+        13,
+        11,
+        11,
+        11
+      ],
+      "pair": [
+        113,
+        210
+      ],
+      "reachable_active_receiver_facets": [
+        113,
+        210
+      ],
+      "remaining_cycle_direction_not_deliverable_to_new_facet_after_join": true
+    }
+  ],
+  "literal_suffix_and_no_feedback": true,
+  "mutants": {
+    "free_extra_delivery_after_join": "legal nested MOVE",
+    "lost_early_dual_source_term": "four actual encoded dual rows at 1725",
+    "missing_coupled_affine_restoration": "all104 actual originals restored",
+    "reverse_source_skips_acquisition": "actual cochart source at 593",
+    "wrong_nested_inverse_transpose": "nested dual output at 1769"
+  },
+  "new_forward_coefficients": 196,
+  "new_hosted_reverse_coefficients": 183,
+  "original_E8_source_reads_checked": 520,
+  "parent_sha256": "1536c714dd3500709c7717b8687b53f98d7a30f482aa5b09e5c25a4a23cf8153",
+  "primitive_source_receipts": [
+    {
+      "affine_controls": [
+        47
+      ],
+      "chart": 1099,
+      "donors": 11,
+      "hosted": 10,
+      "rank": 3,
+      "support": [
+        113,
+        114,
+        210,
+        211
+      ]
+    },
+    {
+      "affine_controls": [],
+      "chart": 1097,
+      "donors": 11,
+      "hosted": 11,
+      "rank": 3,
+      "support": [
+        112,
+        114,
+        210,
+        215
+      ]
+    },
+    {
+      "affine_controls": [
+        52
+      ],
+      "chart": 1096,
+      "donors": 11,
+      "hosted": 10,
+      "rank": 3,
+      "support": [
+        112,
+        113,
+        211,
+        215
+      ]
+    },
+    {
+      "affine_controls": [],
+      "chart": 1095,
+      "donors": 13,
+      "hosted": 13,
+      "rank": 1,
+      "support": [
+        112,
+        113,
+        114
+      ]
+    },
+    {
+      "affine_controls": [],
+      "chart": 1098,
+      "donors": 13,
+      "hosted": 13,
+      "rank": 1,
+      "support": [
+        112,
+        210,
+        211
+      ]
+    },
+    {
+      "affine_controls": [
+        17,
+        19
+      ],
+      "chart": 1100,
+      "donors": 13,
+      "hosted": 11,
+      "rank": 1,
+      "support": [
+        113,
+        210,
+        215
+      ]
+    },
+    {
+      "affine_controls": [
+        38,
+        40,
+        60
+      ],
+      "chart": 1101,
+      "donors": 13,
+      "hosted": 10,
+      "rank": 1,
+      "support": [
+        114,
+        211,
+        215
+      ]
+    }
+  ],
+  "reverse_residual_rank": 95,
+  "reviewer_imports_author_code": false,
+  "scope": "Independent source geometry, matrices, affine controls, actual1880-column prefix and full typed invoice. Separate C review supplies literal full re-emission and final inverse audit; no new kappa.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_INDEPENDENT_NESTED_AFFINE_CURRENT_ROW_REVIEW",
+  "word_payload_sha256": "77d2e907d74c2539b115d8ad60367ee74939cca2eda9e10bcf28fb2b4e7ee42c",
+  "word_sha256": "25b1de208efe04fa8c619c7a46b288ca38fcef7464498cf7035281788c746b27"
+}

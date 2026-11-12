@@ -626,3 +626,13 @@ residual bases and all1480 common prefix rows. All copied checkers passed
 from final repository paths; these portability reruns are not additional
 independent mathematical reviews. Session receipts contain exact results.
 No new kappa; all strict suppliers and five foundations remain.
+
+## S008 fourth checkpoint: short ghosts, nested source and exact cut recovery
+
+The independent parked-ghost implementation re-emits both literal words, evaluates all1880 input columns, verifies authentic parked originals and normalized phantom support, checks all96 reverse rows and complete invoices, and rejects11 semantic/typing/price mutants. Root reproduced its frozen receipt exactly. The rank88 certificate and96nonzero residual columns are both retained.
+
+The nested word has separate affine-interface and full-source reviews. Root reproduced both receipts exactly, including360 actual row gates,20 macros,24 joined inputs,400 inverse rows, full source/invoice checks and negative controls. The117 physical maps use credited retained exact engines, not a newly claimed independent engine.
+
+Root's separate parity implementation checks all26520 hyperplanes before/after inherited cancellations; its proof review required the explicit support premise. The odd8 adapter reproduces exact historically independent author/reviewer receipts, while Worker C's new full-source E8 cut is a separate implementation also reproduced by root. The exclusive even-hyperplane proof has independent mathematical review, without an additional source replay claim. Root's ghost-cut diagnostic remains separately labelled and is not a global construction premise.
+
+All author and reviewer pins are exact. Rerunning an independent verifier is integration validation, not another independent proof. The prior S009 star/frame/coupled review receipts were likewise reproduced. New1ceafd5e evidence is preserved with original reviews; S008 has not yet rerun its new source checkers. No new complete kappa.

@@ -545,3 +545,9 @@ entry map also composes with rank88, with original-basis debt retained.
 **No new kappa.** Both strict suppliers and five foundations remain.
 Preserve @CubeJerry and predecessor/S008 credit; substantial OpenAI
 assistance disclosed. Ongoing programme, no upstream PR submitted.
+
+## Actual short ghosts and nested paired source rows
+
+The77851-operation parked-ghost word completes eight individual hosted reverse outputs while retaining the parent's forward completions and all original inputs. Its independent reviewer reconstructs all1880 columns, the real8-slot decoder, lifecycle and full invoice; remaining moment17.358506460845017/native. A separate78126-operation observation word restores the S009 frame parent exactly. These establish actual late observations, not a full Gram supplier.
+
+The77262-operation nested code uses seven acquisitions and three joins with a proved affine paired invariant and real current-row witnesses. Exact parity-complement geometry and recovered odd8 cut constrain further composition. Each package supplies source pins, predecessor credit, independent checks and portable commands. All are components or scoped constraints of the same global programme. No new kappa; not PR ready. @CubeJerry attribution and substantial OpenAI assistance apply throughout.

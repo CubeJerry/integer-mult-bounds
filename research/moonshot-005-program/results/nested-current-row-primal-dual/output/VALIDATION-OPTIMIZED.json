@@ -1,0 +1,95 @@
+{
+  "all1880_prefix_rows_checked": true,
+  "gate_receipts": [
+    {
+      "chart": 1102,
+      "dual_current_row_supports": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "event": 1725,
+      "primal_current_row_supports": [
+        13,
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "chart": 1103,
+      "dual_current_row_supports": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "event": 1782,
+      "primal_current_row_supports": [
+        13,
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "chart": 1104,
+      "dual_current_row_supports": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "event": 1839,
+      "primal_current_row_supports": [
+        13,
+        11,
+        11,
+        11
+      ]
+    }
+  ],
+  "independence": "Supplementary second implementation by the construction author; no generator imports. Separate independent-agent reviews must be recorded separately.",
+  "negative_controls": [
+    {
+      "mutation": "pretend_original_donor_instead_of_current_encoded_row",
+      "rejection": "actual primal nested input row at event 1725"
+    },
+    {
+      "mutation": "omit_preterminal_reverse_source_route",
+      "rejection": "actual cochart ADD at 593"
+    },
+    {
+      "mutation": "wrong_nested_dual_recombination_sign",
+      "rejection": "complete1880 prefix matrix and locations"
+    },
+    {
+      "mutation": "omit_coupled_control_restoration",
+      "rejection": "all104 original first donors restored"
+    },
+    {
+      "mutation": "omit_new_forward_partial_read",
+      "rejection": "complete1880 prefix matrix and locations"
+    },
+    {
+      "mutation": "wrong_acquisition_subspace",
+      "rejection": "strict nested MOVE"
+    }
+  ],
+  "new_forward_rows_from_source": {
+    "112": 48,
+    "113": 48,
+    "114": 26,
+    "210": 48,
+    "211": 13,
+    "215": 13
+  },
+  "new_reverse_coefficients": 183,
+  "parent_sha256": "1536c714dd3500709c7717b8687b53f98d7a30f482aa5b09e5c25a4a23cf8153",
+  "scope": "Exact finite normalized prefix and suffix-composition validation; no complete global target map, physical supplier or new kappa.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_NESTED_INTERMEDIATE_ROWS_AND_SIX_REJECTING_CONTROLS",
+  "word_payload_sha256": "77d2e907d74c2539b115d8ad60367ee74939cca2eda9e10bcf28fb2b4e7ee42c",
+  "word_sha256": "25b1de208efe04fa8c619c7a46b288ca38fcef7464498cf7035281788c746b27"
+}

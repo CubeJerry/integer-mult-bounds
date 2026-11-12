@@ -1,0 +1,662 @@
+{
+  "all_declared_frames_unchanged": true,
+  "engine_pins": {
+    "clifford_exact.py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "native_verify.py": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38"
+  },
+  "introduced_maps": [
+    {
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            3,
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            0
+          ],
+          "matrix_rows": [
+            257,
+            2,
+            4,
+            3,
+            8,
+            16,
+            32,
+            64,
+            128
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 8,
+        "right": {
+          "linear_Z4": [
+            0,
+            0,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "matrix_rows": [
+            1,
+            10,
+            4,
+            16,
+            32,
+            64,
+            128,
+            256,
+            8
+          ],
+          "offset": 509,
+          "phase": 2,
+          "quadratic_rows": [
+            8,
+            8,
+            0,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source": 0,
+      "target": 127
+    },
+    {
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            3,
+            2,
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            0
+          ],
+          "matrix_rows": [
+            257,
+            2,
+            4,
+            8,
+            5,
+            16,
+            32,
+            64,
+            128
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            5,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 8,
+        "right": {
+          "linear_Z4": [
+            0,
+            2,
+            0,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            20,
+            8,
+            32,
+            64,
+            128,
+            256,
+            16
+          ],
+          "offset": 507,
+          "phase": 2,
+          "quadratic_rows": [
+            16,
+            0,
+            16,
+            0,
+            21,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source": 7,
+      "target": 127
+    },
+    {
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            3,
+            2,
+            2,
+            2,
+            2,
+            3,
+            2,
+            2,
+            0
+          ],
+          "matrix_rows": [
+            257,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            33,
+            128
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            33,
+            0,
+            0,
+            0,
+            0,
+            33,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 8,
+        "right": {
+          "linear_Z4": [
+            0,
+            2,
+            2,
+            2,
+            2,
+            0,
+            2,
+            1,
+            2
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            160,
+            64,
+            256,
+            128
+          ],
+          "offset": 479,
+          "phase": 2,
+          "quadratic_rows": [
+            128,
+            0,
+            0,
+            0,
+            0,
+            128,
+            0,
+            161,
+            0
+          ]
+        }
+      },
+      "source": 19,
+      "target": 127
+    },
+    {
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            3,
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            0
+          ],
+          "matrix_rows": [
+            1,
+            258,
+            4,
+            8,
+            16,
+            6,
+            32,
+            64,
+            128
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            6,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 8,
+        "right": {
+          "linear_Z4": [
+            2,
+            0,
+            0,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            36,
+            8,
+            16,
+            64,
+            128,
+            256,
+            32
+          ],
+          "offset": 507,
+          "phase": 2,
+          "quadratic_rows": [
+            0,
+            32,
+            32,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source": 25,
+      "target": 127
+    },
+    {
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            3,
+            2,
+            2,
+            3,
+            2,
+            2,
+            2,
+            0
+          ],
+          "matrix_rows": [
+            1,
+            258,
+            4,
+            8,
+            16,
+            32,
+            64,
+            18,
+            128
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            18,
+            0,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 8,
+        "right": {
+          "linear_Z4": [
+            2,
+            0,
+            2,
+            2,
+            0,
+            2,
+            2,
+            1,
+            2
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            4,
+            8,
+            144,
+            32,
+            64,
+            256,
+            128
+          ],
+          "offset": 495,
+          "phase": 2,
+          "quadratic_rows": [
+            0,
+            128,
+            0,
+            0,
+            128,
+            0,
+            0,
+            146,
+            0
+          ]
+        }
+      },
+      "source": 33,
+      "target": 127
+    },
+    {
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            2,
+            3,
+            3,
+            2,
+            2,
+            2,
+            2,
+            0
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            260,
+            8,
+            16,
+            32,
+            64,
+            12,
+            128
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            12,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 8,
+        "right": {
+          "linear_Z4": [
+            2,
+            2,
+            0,
+            0,
+            2,
+            2,
+            2,
+            1,
+            2
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            4,
+            136,
+            16,
+            32,
+            64,
+            256,
+            128
+          ],
+          "offset": 503,
+          "phase": 2,
+          "quadratic_rows": [
+            0,
+            0,
+            128,
+            128,
+            0,
+            0,
+            0,
+            140,
+            0
+          ]
+        }
+      },
+      "source": 42,
+      "target": 127
+    },
+    {
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            2,
+            2,
+            3,
+            3,
+            2,
+            2,
+            2,
+            0
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            4,
+            264,
+            16,
+            24,
+            32,
+            64,
+            128
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            24,
+            24,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 8,
+        "right": {
+          "linear_Z4": [
+            2,
+            2,
+            2,
+            0,
+            0,
+            1,
+            2,
+            2,
+            2
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            4,
+            8,
+            48,
+            64,
+            128,
+            256,
+            32
+          ],
+          "offset": 495,
+          "phase": 2,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            32,
+            32,
+            56,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source": 53,
+      "target": 127
+    },
+    {
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2,
+            2,
+            0
+          ],
+          "matrix_rows": [
+            257,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            63,
+            128
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            63,
+            63,
+            63,
+            63,
+            63,
+            63,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 8,
+        "right": {
+          "linear_Z4": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1,
+            2
+          ],
+          "matrix_rows": [
+            1,
+            130,
+            132,
+            136,
+            144,
+            160,
+            64,
+            256,
+            128
+          ],
+          "offset": 449,
+          "phase": 2,
+          "quadratic_rows": [
+            128,
+            128,
+            128,
+            128,
+            128,
+            128,
+            0,
+            191,
+            0
+          ]
+        }
+      },
+      "source": 104,
+      "target": 127
+    }
+  ],
+  "parent_word_sha256": "bd5c598c9ac30bffdcdd85a4cb059376ceb83846144fa9cfa28a347a9ea2ef17",
+  "scope": "Retained exact Clifford lowering and independent signed-Pauli/phase engine reused and credited. No physical supplier admission.",
+  "status": "PASS_PARKED_ORIGINAL_INTRODUCED_MAPS",
+  "word_sha256": "2418cf9b9321fb3398b148f30229a9f60e98c852cd170f019e80a5830d201025",
+  "wrong_global_phase_rejected": true
+}

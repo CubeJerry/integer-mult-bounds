@@ -630,3 +630,13 @@ R=G-I does this become the proposed eight-dimensional Gram target. Current
 rank87 therefore cannot be repaired by eight arbitrary new whole-field
 observations absent further source changes or additional useful information.
 The complete strict complex/BIT requirements and five foundations are unchanged.
+
+## S008 fourth checkpoint: full prices of actual new primitives
+
+| Actual word | Parent | Remaining moment/native at1/200 | Verified contribution |
+| --- | --- | ---: | --- |
+| One parked ghost,78126 operations | orthogonal-frame-feedback |37.48775605591529|One real four-source D observation; parent public state restored |
+| Eight parked ghosts,77851 operations | paired-cohort |17.358506460845017|Eight individual reverse outputs and parent's eight forward outputs |
+| Nested affine word,77262 operations | fused-seven source |42.17235652100004|Three full forward rows,52 further forward and183 hosted transpose coefficients |
+
+Each parked slot changes the full MOVE histogram by +one rank8 minus one rank5. Its old total-rank3 tail becomes owned and remains charged. The eight-word residual has rank88 but all96 columns remain nonzero after ghosts retire, so the terminal96-first-departure theorem still applies. A full Gram extension needs new actual information acquisition. S009's late-forward tariff must be included when physically composed; unrelated margins cannot be added. These partial source constructions establish no new kappa.

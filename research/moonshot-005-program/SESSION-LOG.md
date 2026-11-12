@@ -748,3 +748,11 @@ Current-row quotient branches and a broader forward packet gate continue
 in the next wave. Next: global mixed acquisition and replacement of
 saturated reciprocal blocks. No new kappa; no PR. Resulting remote SHA
 will be recorded after publication in a later receipt, avoiding self-reference.
+
+## 2026-11-12-S008 — checkpoint4: actual short ghosts and nested source code
+
+The session continues its11:51:49–21:51:49 UTC window. Starting programmeSHA baeb15027fd99788fd7f7a7149a1b8dce5a645cb; prior S00829736f4673db32e546de019d9143b07404d15368 was advanced by concurrent S009 to1ceafd5edbd856727d40e18058a3c77149e558dc. All incoming evidence was fast-forwarded intact before tracked edits.
+
+New mathematics: an actual short parked ghost and a separate eight-individual-reverse-output word; nested current-row primal/dual composition and affine invariant; exact parity-complement template with necessary scope correction; exact regeneration of old odd8 receipts plus fresh E8 cut and exclusive-even-entry proof. Full-input reviewers, complete prices and meaningful mutants are preserved. No new kappa.
+
+Next integrate the reviewed retained-hub downset price extension using S009 distance42/price, then build an informative changed funded-entry or distributed reverse primitive. This is an intermediate checkpoint, not session completion or PR readiness. The resulting SHA will be recorded only after GitHub confirmation.

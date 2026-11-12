@@ -1,42 +1,11 @@
-# Resume the shared S008/S009 current-row construction
+# Resume the shared S008/S009 current-row programme
 
-Read exact remote HEAD, STATE.json and latest session entries. Both sessions
-remain active in their recorded ten-hour windows. S009 started12:58:11 UTC,
-planned end22:58:11 UTC. This is an intermediate checkpoint. No new complete
-kappa; not PR ready. Recheck the remote programme HEAD before each push.
+Read exact remote HEAD and STATE.json. Both sessions remain active: S00811:51:49–21:51:49 UTC; S00912:58:11–22:58:11 UTC. This is an intermediate checkpoint. No new complete kappa; not PR ready. Preserve concurrent commits and recheck HEAD before every push.
 
-## Admitted source state
+S0091ceafd5e remains intact: actual rank87 principal extension, coupled-frame rank88 composition, late-two packet saving and independently reviewed hosted distance42/sharp fresh-packet price. Different parents and consumed routes cannot be combined without an actual word.
 
-- `principal-gram-extension`: actual78143 word, rank87, unchanged forward
-  rows,4 raw1+7 splits and1paidrank1; full margin39.3852032109849/native.
-  All80 alternative templates and320 map pairs pass. No serial route reuse.
-- `principal-gram-continuation`: closed principal Gram block and sharp
-  column-support rank gate; all80 next ports need12 specific entries.
-- `coupled-frame-composition`: actual78155 word, rank88, all8 coupled
-  reverse outputs complete;4569 changed-basis/4920 original-basis forward
-  terms. Not yet composed with rank87 or late2 word.
-- `late-two-packets`: actual78020 word preserves rank88 parent's complete
-  prefix state/suffix, saves.418386945536927/native. Not yet composed with
-  the coupled-entry or rank87 word.
-- `hosted-gram-distance42`: universal characteristic-zero/all-volume
-  distance42, fresh-packet rank50 and exact relaxed price10*5^.995.
-  Improvedlate2 plus ideal direct raw paths is short by>.5656569497329735.
+S008 now adds two actual parked-ghost words. The77851-operation eight word completes eight individual reverse outputs plus the parent's eight forward outputs, remaining moment17.358506460845017. Its rank88 residual still has96 nonzero columns after records retire. The78126-operation one-ghost word preserves the two-frame parent public state, margin37.48775605591529. The77262-operation nested affine alternative has196 forward/183 transpose coefficients and margin42.17235652100004. See their exact reviews. Parity-complement geometry and exact old odd8 receipts are now admitted with explicit scope/provenance.
 
-## Main mathematical obligation
+The decisive task remains actual reverse acquisition in one complete global code. For hub z=b+Rd and observationsm=Qb+Ld, repair requires row(I+R) contained in row(L-QR); Gram-only targets apply after proving the corresponding global map. A locally independently reviewed downset proof extends distance/coverage gates to mixed retained-hub records and arbitrary stationary histories under a closed B/unchanged-D transport inventory. Integrate it with S009's exact price next; unpublished files are not admitted premises yet.
 
-Build a globally compatible current-row paired code and real mixed reverse
-acquisition with complete input recovery and target invoice. For actual hub
-z=b+R d and observations m=Qb+L d, remaining reverse repair is M=I+R and
-requires row(M) contained in row(L-QR). Eight Gram observations are a
-sufficient-dimensional target only after R=G-I or a separately proved
-reduction. The present rank87 word is not that completed code.
-
-Current B-to-S blocks have spent their B routes and full-rank payload slots.
-One- and two-departure source words passed independent review and await
-integration; shared-width and saturated-family gates are under review.
-Their initial circuit census does not grant simultaneous access. A stronger
-arbitrary8-forward-packet tariff theorem is being investigated, not admitted.
-
-Preserve S008 commit29736f46, dependent-triple source and mixed-packet work.
-Its source is an alternative parent, not an additive improvement. Both strict
-suppliers and all five foundations remain. Continue the same programme.
+Then try changed informative funded coupled-entry payloads, distributed completion before the hub, or an explicitly paid different representation. Joint D recoding alone does not create a free crossing if original D outputs must be restored. Both strict suppliers and all five foundations remain. Continue this programme without rediscovering recovered results.

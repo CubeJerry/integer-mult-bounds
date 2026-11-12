@@ -502,3 +502,16 @@ combination with rank87 remains to be emitted and verified if useful.
 in z=b+R d, not an unbuilt complete G-I. Prove every acquired row, restore
 all inputs and final duties, charge every operation, and meet the full target.
 All strict suppliers/foundations remain. No new complete kappa.
+
+## S008 fourth-checkpoint results and remaining construction
+
+| ID | Precise statement | Status / evidence |
+| --- | --- | --- |
+| PARKED-SOURCE-LEMMA | For any paired prefix with no early read of selected original B coordinates and other public endpoints independent of them, parking those originals and routing zero ghosts through their former active slots reproduces the parent after adding back actual observations; every old tail is charged. | PROVED algebraic substitution and two actual full-input source words; results/parked-dual-ghosts/. |
+| EIGHT-INDIVIDUAL-REVERSE | For pinned framesS=[0,7,20,27,36,46,57,111],B=[5,56,65,69,77,96,100,103], real ghost vectorG_SB d_B is inverted byG_BS and eight genuine outputs become b_B-d_B. | PROVED finite construction; rank88 with96nonzero residual columns. No global/88-call terminal conclusion. |
+| NESTED-AFFINE-PAIR | For compatible independent banks over any field, a=Rx+Cz and R^Tb=b0-F_H^Td persist under stated actual cochart M/M^-T changes and real reverse injections. | PROVED invariant with explicit availability premises;77262-operation application reviewed twice. |
+| PARITY-COMPLEMENT | Across104facets and255hyperplanes each, outside donor spans are complementary7-spaces except the even hyperplane, which leaves rank8; every lower chart leaves full facet span. | PROVED source geometry. One-arrival consequence additionally assumes the explicit source-support invariant; arbitrary X/Y packet feedback is outside scope. |
+| SATURATED-ODD8-RECOVERY | Original receipts regenerated exactly; fixed common/E8 cut demands1631 versus1623 funded dimensions at every positive volume. | PROVED scoped8-inward-field floor. Historical identity and fresh source proof remain distinct; exclusive-even acquisition/exit proof separately reviewed. |
+| GLOBAL-GHOST-EXTENSION | Acquire full useful reverse information through actual records with all banks preserved and positive full invoice. | OPEN construction. Locally reviewed stronger retained-hub downset price gate awaits integration. Partial ghosts are not a full Gram supplier. |
+
+The concurrent S009 source families remain independent actual alternatives. A combined code requires its own literal schedule, current-row proof and invoice.

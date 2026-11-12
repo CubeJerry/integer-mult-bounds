@@ -1,0 +1,95 @@
+{
+  "all_declared_frames_unchanged": true,
+  "engine_pins": {
+    "clifford_exact.py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "native_verify.py": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38"
+  },
+  "introduced_maps": [
+    {
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            2,
+            3,
+            2,
+            2,
+            2,
+            2,
+            3,
+            0
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            260,
+            8,
+            16,
+            32,
+            64,
+            128,
+            132
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            132,
+            0,
+            0,
+            0,
+            0,
+            132,
+            0
+          ]
+        },
+        "rank": 8,
+        "right": {
+          "linear_Z4": [
+            2,
+            2,
+            0,
+            2,
+            2,
+            2,
+            2,
+            0,
+            1
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            384,
+            256
+          ],
+          "offset": 383,
+          "phase": 2,
+          "quadratic_rows": [
+            0,
+            0,
+            256,
+            0,
+            0,
+            0,
+            0,
+            256,
+            388
+          ]
+        }
+      },
+      "source": 52,
+      "target": 127
+    }
+  ],
+  "parent_word_sha256": "3d7ada763346a5658ef481f84bf895b668005a558e999be431d2257e16fbd101",
+  "scope": "Retained exact Clifford lowering and independent signed-Pauli/phase engine reused and credited. No physical supplier admission.",
+  "status": "PASS_PARKED_ORIGINAL_INTRODUCED_MAPS",
+  "word_sha256": "8775d0ac240903477a40a870fbb6ca5145c564d1f048648d3617b82bc73e68be",
+  "wrong_global_phase_rejected": true
+}
