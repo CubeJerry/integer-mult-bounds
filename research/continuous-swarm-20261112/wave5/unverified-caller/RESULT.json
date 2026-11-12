@@ -1,0 +1,186 @@
+{
+  "status": "PASS_COMPLETE_SELECTED_METADATA_STREAM",
+  "stream": {
+    "records": 1871898,
+    "canonical_jsonl_bytes": 567126355,
+    "maximum_record_bytes": 805,
+    "largest_integer_bits": 24,
+    "stream_sha256": "646911b637881c71f5fb0032ea4e68264db3614e35ef91ecbf8dc6b6f9c7ba45",
+    "paid_positions": 117612,
+    "complete_paid_position_digest": "7ab145efbbc8d72e1893f6143a57dd45244237e912057a30291d74bf1603f376",
+    "operations": {
+      "ADD": 1185402,
+      "AFFINE": 23136,
+      "AXIS_PERMUTATION": 15136,
+      "C": 117612,
+      "CLEAR": 15868,
+      "GAUSSIAN_INTEGER": 28960,
+      "INIT": 15868,
+      "MONOMIAL": 273240,
+      "SCALE": 142156,
+      "SWAP": 35672,
+      "TRANSLATION": 18848
+    },
+    "parts": {
+      "helper-inverse-left": 19440,
+      "helper-inverse-right": 19440,
+      "idle-child": 3616,
+      "idle-input-basis": 3616,
+      "idle-output-basis": 3616,
+      "lambda-clear": 14480,
+      "lambda-copy-by-add": 14480,
+      "lambda-final-half": 14480,
+      "lambda-first-numerator": 14480,
+      "lambda-init": 14480,
+      "lambda-second-numerator": 14480,
+      "lambda-sum-numerators": 14480,
+      "lambda-translation": 14480,
+      "main-input-normalizer": 3600,
+      "main-output-normalizer": 3600,
+      "main-stage-entry": 7200,
+      "main-stage-exit": 7200,
+      "move-child": 113580,
+      "move-left": 113580,
+      "move-right": 113580,
+      "native": 1169118,
+      "outer": 98504,
+      "query-add-back": 416,
+      "query-child": 416,
+      "query-clear": 416,
+      "query-copy-by-add": 416,
+      "query-init": 416,
+      "query-input-basis": 416,
+      "query-negative-correction": 416,
+      "query-output-basis": 416,
+      "root-input-axis-order": 3952,
+      "root-input-q-basis": 3952,
+      "root-negative-q-correction": 3952,
+      "root-output-axis-order": 3952,
+      "root-output-q-basis": 3952,
+      "scale-1125": 26640,
+      "unscale-1125": 26640
+    },
+    "targets": 23392,
+    "target_histogram": {
+      "1": 234,
+      "2": 324,
+      "3": 792,
+      "4": 3870,
+      "5": 1224,
+      "6": 756,
+      "7": 324,
+      "8": 1206,
+      "9": 11126,
+      "17": 416,
+      "25": 416,
+      "33": 416,
+      "41": 416,
+      "49": 416,
+      "57": 416,
+      "65": 416,
+      "73": 416,
+      "145": 208
+    },
+    "paid_histogram": {
+      "1": 73766,
+      "2": 14904,
+      "3": 14598,
+      "4": 4338,
+      "5": 5760,
+      "6": 306,
+      "7": 216,
+      "8": 812,
+      "16": 416,
+      "24": 416,
+      "32": 416,
+      "40": 416,
+      "48": 416,
+      "56": 416,
+      "64": 416
+    },
+    "lifetimes": {
+      "aux": 14896,
+      "owned": 972
+    },
+    "peak_native_owned": 43,
+    "peak_serial_aux": 1
+  },
+  "algebra": {
+    "exact_q_routes": 104,
+    "relocated_stage_routes": 1872,
+    "route_digest": "9229c9f2137c95667afd26e2f13cdb461c3dd150785c6cb65e355e087a0553e9",
+    "lambda_grid_controls": [
+      [
+        -1,
+        1,
+        -1,
+        [
+          "0",
+          "-1"
+        ]
+      ],
+      [
+        -1,
+        3,
+        1,
+        [
+          "2",
+          "-1"
+        ]
+      ],
+      [
+        -1,
+        -3,
+        -1,
+        [
+          "-2",
+          "1"
+        ]
+      ],
+      [
+        1,
+        1,
+        -1,
+        [
+          "0",
+          "1"
+        ]
+      ],
+      [
+        1,
+        3,
+        1,
+        [
+          "2",
+          "1"
+        ]
+      ],
+      [
+        1,
+        -3,
+        -1,
+        [
+          "-2",
+          "-1"
+        ]
+      ]
+    ]
+  },
+  "negative_controls": {
+    "changed_native_scalar": "lossless native SCALE",
+    "changed_absolute_phase": "absolute actual MOVE monomial",
+    "wrong_helper_inverse_side": "correct distinct helper boundary inverse",
+    "erased_lifetime_identity": "actual native operand and lifetime",
+    "scalar_tensor_power": "scalar coefficient is not tensor powered",
+    "drop_ordinary_source_event": "lossless chronological native source coverage",
+    "lambda_wrong_numerator": "complete lambda integer numerator",
+    "query_wrong_sign_translation": "query sign correction",
+    "root_wrong_target_basis": "actual root target basis"
+  },
+  "scope": "Concrete fixed-template metadata only; no physical dispatcher or expanded compiler claim.",
+  "scientific_sha256": {
+    "emit.py": "00e080fd0f1fe50498ab7ae8918a5185508cc1790645be5bf5e7a1b5bb8f3173",
+    "geometry.py": "503ee06f75f60290610a645fcbc257a400117537b2fbd51e5d0144479df03afb",
+    "catalogue.json.gz": "15c74f011cafa4b54e9094468457cc2df3380ea5bbbfb3a540924ae22d2bc525"
+  }
+}

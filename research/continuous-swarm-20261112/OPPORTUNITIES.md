@@ -59,3 +59,7 @@ A4b descriptor/translation join is independently verified and published at1dbdaa
 ## Positive C leaf published; fifth-wave composition pending
 
 C4 remote1a555e469b89af70d309bc966f8f813ac11dc887 supplies the literal direct positive C tensor leaf at its six-Gamma packed boundary. Proof and independent source/spectral/cost/dense execution checks accepted. Each executed prefix must satisfy exact integrality and signed fit; endpoint-only validity is insufficient. Wave5 explores a complete selected MOVE24472 with outer public-preserving staging, both exact linear factors and the missing left phase. No full native/caller/compiler, strided layout or global cutoff/precision bridge has been established.
+
+## Linear factors published; actual joins under review
+
+B5 remote39b40c465f7636a4bb6d70af28595fe8f70f4f3f closes both selected matrix factors at the shared packed leaf boundary. Root independently authenticates14Git sources and executes both actual m9f2 arrays with inverse-address oracle and exact complete census. A5 full metadata stream and C5 complete literal MOVE leaf are frozen but not yet accepted. Their separate independent reviews are active. All five global assumptions remain.

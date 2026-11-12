@@ -1,0 +1,337 @@
+{
+  "actual_complete_f2": {
+    "accepted": true,
+    "data_writes": 2097152,
+    "exteriors_preserved": true,
+    "header_preserved": true,
+    "header_writes": 0,
+    "heads_returned": true,
+    "input_bits": 2097152,
+    "last_pc": 84278,
+    "last_stage": "outer_commit",
+    "output_sha256": "58ad89c059c05e4e36932498691b7d237fdb8b4ed9db42c534f612cc87a330f3",
+    "private_blank": true,
+    "private_history": 64684712,
+    "shadow_writes": 16777218,
+    "shape": [
+      2,
+      1,
+      1,
+      1,
+      4,
+      2
+    ],
+    "steps": 12860501867
+  },
+  "graph_sha256": "1399eab15a66bc831ab730cde21dbbaaee44d5278d7c7cb32fd20ecfb2dbb7ab",
+  "interpreter_sha256": "4f2c16c4e22dcaec9d7e0d142078a325826470d9f35a33225e540c97383789d3",
+  "locations": 84280,
+  "mutations": [
+    {
+      "name": "translation before right matrix",
+      "receipt": {
+        "accepted": true,
+        "data_writes": 4096,
+        "exteriors_preserved": true,
+        "header_preserved": true,
+        "header_writes": 0,
+        "heads_returned": true,
+        "input_bits": 4096,
+        "last_pc": 84278,
+        "last_stage": "outer_commit",
+        "output_sha256": "55f072cfc795b2c21f85d8d47a7a800c386d19151603948216b08104572d7164",
+        "private_blank": true,
+        "private_history": 138328,
+        "shadow_writes": 32770,
+        "shape": [
+          1,
+          1,
+          1,
+          1,
+          4,
+          1
+        ],
+        "steps": 14472282
+      }
+    },
+    {
+      "name": "omit exact left sign phase",
+      "receipt": {
+        "accepted": true,
+        "data_writes": 4096,
+        "exteriors_preserved": true,
+        "header_preserved": true,
+        "header_writes": 0,
+        "heads_returned": true,
+        "input_bits": 4096,
+        "last_pc": 84278,
+        "last_stage": "outer_commit",
+        "output_sha256": "69024a345d70e82647aefabbbfcec843d201315ad491f2f9d11852447c048494",
+        "private_blank": true,
+        "private_history": 130075,
+        "shadow_writes": 28674,
+        "shape": [
+          1,
+          1,
+          1,
+          1,
+          4,
+          1
+        ],
+        "steps": 14161454
+      }
+    },
+    {
+      "name": "omit source global phase",
+      "receipt": {
+        "accepted": true,
+        "data_writes": 4096,
+        "exteriors_preserved": true,
+        "header_preserved": true,
+        "header_writes": 0,
+        "heads_returned": true,
+        "input_bits": 4096,
+        "last_pc": 84278,
+        "last_stage": "outer_commit",
+        "output_sha256": "327b63f2ee0aa23b9acceb44cda0c0227c8c1cf89d22bc5aa21e47b84e8d4508",
+        "private_blank": true,
+        "private_history": 138328,
+        "shadow_writes": 32770,
+        "shape": [
+          1,
+          1,
+          1,
+          1,
+          4,
+          1
+        ],
+        "steps": 14472282
+      }
+    },
+    {
+      "name": "route first factor through original public DATA",
+      "receipt": {
+        "accepted": false,
+        "data_writes": 3072,
+        "exteriors_preserved": true,
+        "header_preserved": true,
+        "header_writes": 0,
+        "heads_returned": false,
+        "input_bits": 3072,
+        "last_pc": 42787,
+        "last_stage": "positive_C",
+        "output_sha256": "7cfb67e50b07c3aea6f1b867fe5047e08d7acbd06c856e5595c0cbe00fce44ad",
+        "private_blank": false,
+        "private_history": 66249,
+        "shadow_writes": 9217,
+        "shape": [
+          1,
+          1,
+          1,
+          1,
+          3,
+          1
+        ],
+        "steps": 4760419
+      }
+    }
+  ],
+  "program_sha256": "d80c754a830df965ace6b656fc8a0c7eba3192c6742b80ed342a451646f6fa37",
+  "scope": "Actual fixed m9 complete arrays including all 262144 addresses at f2; no reduced dimension or record subsampling.",
+  "small_cases": [
+    {
+      "accepted": true,
+      "data_writes": 4096,
+      "exteriors_preserved": true,
+      "header_preserved": true,
+      "header_writes": 0,
+      "heads_returned": true,
+      "input_bits": 4096,
+      "last_pc": 84278,
+      "last_stage": "outer_commit",
+      "output_sha256": "5046766cd60266cdba75498827ded78a532d40c10dd48f6ef3660d6681e01d7b",
+      "private_blank": true,
+      "private_history": 138328,
+      "shadow_writes": 32770,
+      "shape": [
+        1,
+        1,
+        1,
+        1,
+        4,
+        1
+      ],
+      "steps": 14472282
+    },
+    {
+      "accepted": true,
+      "data_writes": 32768,
+      "exteriors_preserved": true,
+      "header_preserved": true,
+      "header_writes": 0,
+      "heads_returned": true,
+      "input_bits": 32768,
+      "last_pc": 84278,
+      "last_stage": "outer_commit",
+      "output_sha256": "192c3d290942ff29b95cd57742b78321b145c3056244ebd1dcbd46d9d258c062",
+      "private_blank": true,
+      "private_history": 894425,
+      "shadow_writes": 262146,
+      "shape": [
+        1,
+        2,
+        2,
+        2,
+        4,
+        1
+      ],
+      "steps": 109557496
+    },
+    {
+      "accepted": true,
+      "data_writes": 4096,
+      "exteriors_preserved": true,
+      "header_preserved": true,
+      "header_writes": 0,
+      "heads_returned": true,
+      "input_bits": 4096,
+      "last_pc": 84278,
+      "last_stage": "outer_commit",
+      "output_sha256": "059a1430f9e3cb4af1e0a0f4d76fec71ca4de26682e0fa50c8e80e7c71da8952",
+      "private_blank": true,
+      "private_history": 158804,
+      "shadow_writes": 32770,
+      "shape": [
+        1,
+        1,
+        1,
+        1,
+        4,
+        32317006071311007300714876688669951960444102669715484032130345427524655138867890893197201411522913463688717960921898019494119559150490921095088152386448283120630877367300996091750197750389652106796057638384067568276792218642619756161838094338476170470581645852036305042887575891541065808607552399123930385521914333389668342420684974786564569494856176035326322058077805659331026192708460314150258592864177116725943603718461857357598351152301645904403697613233287231227125684710820209725157101726931323469678542580656697935045997268352998638215525166389437335543602135433229604645318478604952148193555853611059596230656
+      ],
+      "steps": 14672948
+    },
+    {
+      "accepted": false,
+      "data_writes": 0,
+      "exteriors_preserved": true,
+      "header_preserved": true,
+      "header_writes": 0,
+      "heads_returned": false,
+      "input_bits": 3072,
+      "last_pc": 42787,
+      "last_stage": "positive_C",
+      "output_sha256": "d2a0d4e10a639821d6fbb3ba6a0c80e7c228614eb6809f5609a9f570314bb894",
+      "private_blank": false,
+      "private_history": 66249,
+      "shadow_writes": 12289,
+      "shape": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        1
+      ],
+      "steps": 4760419
+    },
+    {
+      "accepted": false,
+      "data_writes": 0,
+      "exteriors_preserved": true,
+      "header_preserved": true,
+      "header_writes": 0,
+      "heads_returned": false,
+      "input_bits": 3072,
+      "last_pc": 50038,
+      "last_stage": "left_phase",
+      "output_sha256": "5a09c96efecf6670e3c90063b5d1fd4e812bc8b2439a4f359ad8b3c671c074e6",
+      "private_blank": false,
+      "private_history": 75525,
+      "shadow_writes": 15361,
+      "shape": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        1
+      ],
+      "steps": 5229154
+    },
+    {
+      "accepted": false,
+      "data_writes": 0,
+      "exteriors_preserved": true,
+      "header_preserved": true,
+      "header_writes": 0,
+      "heads_returned": false,
+      "input_bits": 4095,
+      "last_pc": 1339,
+      "last_stage": "outer_entry",
+      "output_sha256": "6c782d11ef54ef2512503f38706af57d1429736c39745ca4542d9a6a494152b6",
+      "private_blank": false,
+      "private_history": 8923,
+      "shadow_writes": 4096,
+      "shape": [
+        1,
+        1,
+        1,
+        1,
+        4,
+        1
+      ],
+      "steps": 68279
+    },
+    {
+      "accepted": false,
+      "data_writes": 0,
+      "exteriors_preserved": true,
+      "header_preserved": true,
+      "header_writes": 0,
+      "heads_returned": false,
+      "input_bits": 4097,
+      "last_pc": 1373,
+      "last_stage": "outer_entry",
+      "output_sha256": "249a859b703710b892f9beb09d53b1f9ddf77e926e0d6a4e4bcf74647c8bb871",
+      "private_blank": false,
+      "private_history": 8925,
+      "shadow_writes": 4097,
+      "shape": [
+        1,
+        1,
+        1,
+        1,
+        4,
+        1
+      ],
+      "steps": 69086
+    },
+    {
+      "accepted": false,
+      "data_writes": 0,
+      "exteriors_preserved": true,
+      "header_preserved": true,
+      "header_writes": 0,
+      "heads_returned": true,
+      "input_bits": 4096,
+      "last_pc": 81,
+      "last_stage": "outer_entry",
+      "output_sha256": "7f2ca1be5dcf8e00ec355436ea390edc9bc89be09a827e48eb8678c42286af61",
+      "private_blank": false,
+      "private_history": 196,
+      "shadow_writes": 1,
+      "shape": [
+        1,
+        1,
+        1,
+        1,
+        4,
+        1
+      ],
+      "steps": 82
+    }
+  ],
+  "status": "PASS_COMPLETE_LITERAL_SELECTED_MOVE",
+  "tapes": 171
+}
