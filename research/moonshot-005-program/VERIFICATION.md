@@ -569,3 +569,13 @@ Reproduce the admitted new packages with the commands in their READMEs and
 review documents. Exact inverse-transpose algebra and shared-register gate
 received a separate lead proof review. All five assumptions and both strict
 supplier requirements remain. No new complete kappa.
+
+## S008 second checkpoint: fresh source, geometric and global-budget gates
+
+Fresh one/two/three reconstructions are now independently admitted by results/cohort-reconstruction/review/SMALL-REVIEW.md. The checker re-emits every word and lineage from source Gram rows, verifies all1,880 inputs,520 original E8 reads, actual pivots,400-row inverse, costs and5/5/7 negative controls. This removes the first checkpoint's pending gate without claiming original lost payload identity.
+
+The two-direction reconstruction has a fresh full1,480 source audit by author backward adjoints and an independently written root forward audit. The6,952 partial word and32,712 complete word are checked on all1,880 inputs. Root independently computes all105 actual-chart quotient deficits and verifies the sharp416 suffix, full failing invoice and four mutants. Normal/-O terminal review receipts agree exactly. Existing292+207 chart-pair engine runs are pinned with their original implementation credit; root does not claim a new chart engine.
+
+The unchanged-donor theorem has an analytic proof independent of the8,283,458-chart discovery census. The bridge worker independently reviewed Gauss signs and grammar, produced104 explicit rank7 decoder minors, and evaluated both exact finite rectangle recurrences. Root separately implements the recurrence and authenticates every census witness. Normal/-O review receipts agree. Coded/relay mechanisms and paid-call counts are excluded from the theorem's conclusion.
+
+The global raw envelope is checked from authentic endpoint ranks and full H4 histograms. Independent40-digit power certificates sit inside author's30-digit integer-root bounds, confirming the positive25-direct-plus16 profile and two negative controls. No actual global code, legal finishing forms, uniform supplier or foundational contract is established by this arithmetic.

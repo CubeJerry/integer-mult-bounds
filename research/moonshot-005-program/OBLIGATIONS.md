@@ -416,3 +416,21 @@ Published source baseline1872e0b1 is preserved. Missing generated files are not 
   avoiding coupled aliasing, restoring donors before later uses and changing
   the full reverse residual toward the target low-rank interface. Adding
   separate cohort invoices or counting coefficients as eliminated rank fails.
+
+## S008 second-checkpoint obligations
+
+### DIRECT-CONTACT-ALL-CHARTS — proved in the stated unchanged-value grammar
+
+For every collection of104 monotone original-donor paths and104 monotone receiver paths in F2^9, with donor-only stationary caches and the eight pinned E8 packets, at most2,786 distinct direct contacts occur. Explicit source minors force every decoder row and all4,992 side demands over characteristic not2 and any field volume. An exact finite integer relaxation sharpens the bound to2,768. Extra moving copies, coded donors and interreceiver relay are outside scope. Dependencies, Gauss argument and independent review: results/unchanged-donor-contact-bound/. The next construction must use information combinations or a changed packet span.
+
+### TWO-DIRECTION-TERMINAL-416 — sharp scoped obstruction proved
+
+For the exact newly reconstructed6,952-word terminal interface, every appended field-linear completion with arbitrary feedback and free local history requires416 new full-field arrivals:208 at the hub and208 across104 distinct facets. A literal25,760-op suffix attains416 rank-one MOVEs and completes the source map on all1,880 inputs. Its full invoice fails at1/200. Dependencies: exact endpoint source, P^2=13P, local quotient arrival lemma, actual coupled inverse and source-prescribed final charts. Review and negative controls: results/two-direction-terminal-completion/review/. Earlier encodings/retained information are not excluded.
+
+### GLOBAL-RAW-REFINEMENT-ENVELOPE — conditional transport inequality proved
+
+For every monotone400-path raw replacement with at least25 direct rank-eight routes, fixed H4/common word and eight rank-nine packets, at most16 additional rank-one MOVEs fit the complete1/200 recursive-moment inequality. This is sufficient arithmetic conditional on a correct actual global word and valid finishing routes. It supplies neither the code nor any supplier. Exact independent review: results/global-raw-refinement-envelope/review/.
+
+### GLOBAL-EARLY-REVERSE-CODE — open primary
+
+Construct one physically valid joint encoding that completes all forward duties and delivers the necessary shared reverse information before final source separation. Every read must be in the current row span at its actual chart; all donor/public restoration, coupled aliases, remaining transport and full caller costs must be proved. The paired interface and newly admitted cohorts supply local primitives, while the raw envelope permits substantial route refinement. A dependent-root triple is under local integration review; no unpublished candidate is used as a theorem premise here.

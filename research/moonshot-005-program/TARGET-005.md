@@ -559,3 +559,15 @@ boundary, retain actual row availability and pass a new complete invoice.
 
 See results/paired-cohort/review/PAIRED-REVIEW.md. The general primal/dual
 interface and alias gate are in results/paired-encoder-interface/.
+
+## S008 global monotone-path budget and closed terminal alternative
+
+Let R be any complete monotone raw histogram on the400 fixed main endpoints. Then sum_r r R_r=3200 and, at t=199/200, sum_r R_r r^t<=3200. With at least k direct rank-eight routes the upper bound improves to3200-k(8-8^t). Under the exact H4 caller, all old raw routes are removed and every new route is charged18 times:
+
+    P=P4+18(R-R_old)+18*8*{9}+18*F,
+
+where F is the actual additional finishing profile. The independently verified sufficient envelope at k=25 and F=16*{1} leaves0.0497119890015356484... per native; k=24 with the remaining raw routes all unit is negative. Twenty-five is sufficient, not necessary. Full histograms, exact bounds and source pins: results/global-raw-refinement-envelope/.
+
+The16 finishing moves are an unproved physical interface. Eight coupled repairs have actual original-value prerequisites. A hosted residual of algebraic rank8 does not imply eight legal field deliveries from separated final facets. The global construction must retain or deliver the appropriate reverse combinations earlier, restore public values and pay all extra transport. Uniform complex U>1/200 and completed ordinary BIT B>1/200, native all-column and all other foundations remain unchanged.
+
+The independently completed changed-common endpoint word has49,968 paid positions,27,344 targets and rank surplus-5,600. Its append-only repair needs exactly416 field arrivals and leaves moment/native -401.187614379860055... . This excludes terminal repair of that exact6,952-operation prefix; earlier coding and different endpoint interfaces remain open. Its reconstructed S007 numerical invoice was correct but the displayed formula omitted the old raw-route subtraction; see the dated ERRATUM.md.

@@ -1,29 +1,13 @@
-# Resume S008 global coding after the reconstructed source gate
+# Resume S008 global preterminal coding
 
-Read exact remote HEAD, STATE.json, PROGRAMME.md and TARGET-005.md. The S008
-baseline is baeb15027fd99788fd7f7a7149a1b8dce5a645cb; canonical e545235 is unchanged.
-No new complete kappa; ongoing programme, not PR-ready.
+Read exact remote HEAD, STATE.json and the current TARGET-005.md sections. Current checkpoint parent is a478afb84a982323126bc3077a6d975a1ea099b3; canonical e545235 remains unchanged. No new complete kappa. The ten-hour session is active, planned end2026-11-12 21:51:49 UTC.
 
-The independently admitted new-provenance eight-cohort word is in
-results/cohort-reconstruction/eight/; its checker and mathematical review are
-under review/. All1880 directions, eight first completions and donor restoration
-before520 packet reads are checked. Small variants remain separately classified
-in ADMISSION.md. Lost S007 generator bytes are not claimed recovered.
+Fresh one/two/three/eight reconstructions are now independently admitted under results/cohort-reconstruction/. Original lost S007 bytes are not claimed recovered. The reciprocal paired word in results/paired-cohort/ retains all inputs and adds352 transpose terms, but its reverse residual remains rank96.
 
-The main new component is results/paired-cohort/: real inverse-transpose
-encoding supplies352 transpose terms on88 hosted X2 rows while retaining all
-common outputs and the eight forward completions. The77795-word profile leaves
-41.01712837582312/native with all8 rank-nine packets charged. R^2=0, so reverse
-residual I+R still has rank96. No reverse diagonal is complete. Appending96
-rank-one repairs fails; earlier global recoding remains open.
+The important frontier is a single current-row global code with early shared reverse information. A dependent-root triple has passed local independent review and awaits the next source integration; extend it through compatible nested acquisition, not separate reset-and-repeat cohorts. Preserve all mutual terms, coupled aliases and donor restoration deadlines.
 
-Use results/paired-encoder-interface/ for the exact reciprocal algebra and
-alias gate. The eight coupled source ports cannot be treated as two independent
-banks. Construct one compatible preterminal two-frame schedule, solving every
-requested row against the actual current observation matrix and retaining
-restoration deadlines. Do not reuse spent routes or add independent cohort bills.
+The new global-raw-refinement-envelope proves that extensive monotone raw subdivision is affordable:400 paths retain3200 rank mass;25 direct rank8 routes suffice to fund16 extra rank1 moves after8 rank9 packets. That is a conditional budget, not a constructed finish. Low residual rank alone does not provide legal deliveries from separated source facets.
 
-S008 active tasks also include small-variant fresh review, endpoint alternative
-source/terminal audit and an all-chart uncoded direct-contact bound. Read STATE
-and the session directory before extending those tasks to avoid duplication.
-Both strict complex/BIT suppliers and all five foundational assumptions remain.
+The unchanged-donor-contact-bound proves every unchanged-value monotone arrangement has at most2786 contacts analytically, or2768 by exact finite relaxation, while the forced E8 decoder requires4992. Coded aggregates and relays are legitimate escapes. The two-direction endpoint alternative is freshly source-audited; its exact terminal repair needs416 new fields and fails. Earlier coding remains open.
+
+All five foundations and compatible strict complex/BIT suppliers remain. The branch is an ongoing programme, not PR-ready. See the session checkpoint ledger and verification files; do not restart earlier proved investigations.

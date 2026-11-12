@@ -401,3 +401,7 @@ still governs over the older numeric heading in current-priorities.md.
 No queried proposal supplies the missing global forward/reverse code or removes
 the five retained foundations. Preserve prior positive#7244 as a scoped funded
 joint-code precedent, not as an imported theorem on this source.
+
+## S008 refresh at12:57 UTC
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; accepted conditional frontier unchanged. Relevant new open reports: CrocSwap/integer-mult-bounds#7414 (head9a9e39d8a91ef27d36ef1fa20a478625fd04eba2) excludes proportional compression of29 fixed adjacent public MOVE pairs on the newer1,501-input word. Our reversible cohort encoding preserves every direction and changes routes; that scope does not exclude it. #7419 (heada590edb3c5f7efd7404b1203e727c8cc3218493e) reports a signed-caller obstruction for153 contiguous replacement windows; #7420 (heada9809ce276aca6859e140404626c8772870215f2) reports pair/triple signed-factor reuse bounds. These reinforce the need to retain full signed/uniform caller obligations. They are metadata/source-description reviews only, not independently reproduced or adopted programme theorems. Exact metadata: sessions/2026-11-12-S008/UPSTREAM-REFRESH-1257.json.

@@ -502,3 +502,9 @@ supplier, no foundational discharge and **No new kappa** are claimed. The
 cumulative branch remains an ongoing programme, not a PR-ready target theorem.
 Prepared for@CubeJerry with substantial OpenAI assistance; all original source,
 cohort, raw-pivot and review contributions retain their provenance and credit.
+
+## S008 added coherent construction gates
+
+The cumulative programme now includes a fresh full-source reconstruction of the two-direction endpoint alternative and a sharp416-arrival terminal theorem with an actual attaining suffix. The completed finite word fails the target invoice; no successful bound is claimed. An all-chart unchanged-donor theorem limits contacts to2,786 analytically, refined to2,768 by exact finite recurrence, while explicit decoder minors force4,992 side pairs. This explains the move to reversible coded carriers. A separate independently reviewed global raw-refinement envelope shows25 direct rank-eight routes suffice to fund16 additional rank-one moves after arbitrary monotone refinement and all eight E8 packet payments, conditional on actually constructing the global code and legal deliveries.
+
+These results compose as restrictions and an accounting target for one evolving construction. They do not constitute a completed supplier. The one/two/three recovery variants now also have fresh independent source reviews. All new evidence retains @CubeJerry attribution, predecessor credit and substantial OpenAI assistance disclosure. No new kappa; the branch remains ongoing and is not PR-ready.

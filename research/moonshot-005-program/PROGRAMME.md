@@ -395,3 +395,11 @@ rank96, with R^2=0. This is a new physical component, not a rank reduction or
 a complete supplier. The next construction must compose rows before routes
 terminate and change the full reverse matrix; separate cheap cohorts still
 do not compose automatically. No new kappa; all five foundations remain.
+
+## S008 second checkpoint: global code instead of terminal repair
+
+The new all-chart theorem bounds unchanged-donor monotone itineraries by2,786 contacts analytically, or2,768 through an independently checked exact integer relaxation. Every eight-packet decoder is source-forced and requires4,992 side pairs. Coded values or relays are therefore essential within this packet architecture. See results/unchanged-donor-contact-bound/. This is a restricted mechanism obstruction, not a paid-call lower bound.
+
+The changed-common two-direction endpoint alternative has been freshly reconstructed on all1,880 inputs and independently checked. Its fixed terminal completion has sharp416 new field-arrival cost, with an explicit attaining normalized word; the full target invoice fails. That branch of the same programme must be changed before the terminal boundary. See results/two-direction-endpoint-reconstruction/ and results/two-direction-terminal-completion/.
+
+The constructive budget is more permissive than local route counts suggest. Any monotone refinement of the400 raw paths has rank mass3200. After eight rank-nine E8 packets it leaves at least13.9810432720429 moment/native; retaining25 direct rank-eight paths suffices to fund16 further rank-one moves with margin0.0497119890015. This conditional envelope does not construct the global code or the16 legal deliveries. Early shared reverse information, actual current-row encoding and donor restoration are the next structural tasks. All five foundations and both strict uniform suppliers remain. No new kappa.

@@ -696,3 +696,9 @@ frozen source words and are not transferred. No PR submitted.
 Work continues on one compatible two-frame schedule, small recovery reviews,
 endpoint-alternative source/terminal review and all-chart direct-contact proof.
 No new kappa. Exact evidence and recovery status are linked in STATE.json.
+
+### S008 checkpoint2: global route limits and a constructive budget envelope
+
+Parent/baseline a478afb84a982323126bc3077a6d975a1ea099b3 (first S008 checkpoint, GitHub confirmed). Fresh one/two/three reviews completed. Reconstructed and independently audited the changed-common endpoint recipe, correcting only its written historical invoice formula. Proved and attained its sharp416-field terminal completion, which fails the full1/200 budget. Proved the analytic all-chart unchanged-donor contact bound2786; independent decoder rank witnesses and finite integer recurrence sharpen it to2768. Proved the monotone400-path budget envelope:25 direct rank8 routes plus16 new rank1 finishing moves leave0.0497119890 moment/native after all eight rank9 packets, conditional on a real global word.
+
+All key proofs independently reviewed; full source and actual-row checks, exact power bounds and meaningful negative controls passed. Canonical main unchanged at e545235; new open #7414/#7419/#7420 scoped obstruction reports recorded without adoption. Active construction moves to dependent-root cohorts and persistent current-row encoding with early reverse information. No new kappa; no upstream PR. Resulting checkpoint SHA is recorded in the next confirmed checkpoint ledger to avoid self-reference.
