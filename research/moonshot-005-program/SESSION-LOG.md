@@ -594,3 +594,25 @@ manifest. The final S006 handoff descends from this reconciled head, not from an
 overwritten S006 state. S007 remains the active programme session; this session
 closes only its own work. New S007 source proofs were inspected for scope, not
 independently rerun by S006 in this final window. Integrity is checked separately.
+
+### S007 checkpoint2 — mixed records and paid-code budget (2026-11-12T02:52:42Z)
+
+Prior integrated remote checkpoint was confirmed at5ed5888a0c4869211faeda491b8e0b0a5d75d07e,
+tree5300299b9c90a6be5b8c130efa7c53bc45e9e69a. Both concurrent histories were
+preserved; no force push or upstream change occurred.
+
+Proved the sharp mixed swap return count, including explicit indistinguishable
+inputs andcoordinate attainment. Independently checked48 rational cases and
+16322 exhaustive finite-field observation cases. Admitted the narrowed fullypaid
+localized-code lower bound98.992356 andsharp clique optimum97+2^.995; author
+and independent checker agree. Hybrid total/newly paid tariff distinction was
+corrected before admission.
+
+The next wave has produced unadmitted source candidates: a q47-to-172 foreign
+history channel restoringall common outputs with143 ADDs andnoextraMOVE/lifetime,
+and an observation-aware unit17raw route fusion removing1305 MOVEs. Their exact
+proofs and independentreviews are pending; they are not yet new certified
+suppliers. A rerouted incidentchart controller is under construction. Session
+continues within the requested10-hour window; no new complete kappa or PR.
+
+Before checkpoint2 publication, remote S006 handoff commits 6e145f2b and f52daa57 were fetched. Only unpublished S007 commits were replayed on that new remote head; no published history was rewritten. The corrected packet-admission README, WIP access proof and all S006 handoff metadata are preserved. All 825 scientific file hashes agree after integration.

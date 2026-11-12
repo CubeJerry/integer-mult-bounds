@@ -406,3 +406,14 @@ coded common-record architecture. The swap is a cross-coordinate partial
 native, not a complete paired endpoint map; the history theorem is pairwise,
 not a union-of-stations bound. All five foundations and both stronger supplier
 obligations remain. **No new kappa. Not yet declared ready for submission.**
+
+### Further S007 admitted interfaces
+
+The cumulative package now includes the sharp mixed-swap return theorem
+with hiddencommon uncertainty, coordinate attainment and16322 independent
+finite-field observation controls. It also includes a source-bound weighted
+acyclic certificate excluding all wholly newly paid localizedlinear packet codes
+at the H4 target:98.992356/native versus allowance<98.399076950198. Its exact
+clique-cover optimum is97+2^(199/200). Hybrid funded paths, changedroutes and
+common-response networks remain outside that numerical exclusion; general
+weighted-cut accounting records their capacities explicitly. **No new kappa.**

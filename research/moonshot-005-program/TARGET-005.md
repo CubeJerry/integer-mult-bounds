@@ -456,3 +456,22 @@ its own original station-control interface, including nonlinear feedback.
 Changed charts, extra correlated records or changed common processing require
 fresh matrices. No union-of-all-stations bound is asserted. The complete H4,
 BIT, outer and five-foundation obligations remain unchanged.
+
+## S007: records, newly paid code limits and changed route access
+
+With actual mixed swap records R=q-delta and hidden common uncertainty
+H=LambdaW+GammaN, put C=K(LambdaZ-L), where K spans the left nullspace ofGamma.
+Full raw recovery requires k-rank(C) new independent raw-return coordinates;
+this equals rankGamma+k-rank([Gamma B]) and is at least rank(HmodW). It is an
+information dimension, not a number or rank of paid MOVEs.
+
+Under the separate fully newly paid one encoder / one decoder packet interface, the
+exact general linear lower price98.992356/native exceeds H4's98.399076950198
+allowance evenwhen reverse/restoration/nontransport duties are free. The sharp
+clique-cover special case costs97+2^(199/200). Hybrid funded paths and changed
+raw itineraries need a new tariff; the price lemma cannot be transferred to them.
+
+New foreign history channels and observation-aware raw route fusion are under
+source review. Do not subtract their tentative savings or enlarge S in a
+claimed complete certificate before actual words and compatible accesses are
+admitted. The frozen H4 invoice remains authoritative for unchanged routes.

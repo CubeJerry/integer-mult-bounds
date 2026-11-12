@@ -327,3 +327,16 @@ CODED-COMMON-DEBT remains the primary open construction. The new record theorem
 constrains its retained state; the actual swap supplies a physical primitive,
 and ALL104-HISTORY removes all original-pair instances of the old access route.
 No supplier, foundation or complete kappa is newly established.
+
+## S007 checkpoint2 — sharp mixed records and paid-code scope
+
+| ID | Precise result and dependencies | Status / next requirement |
+|---|---|---|
+| MIXED-SWAP-RETURNS | For every field, independent u,q, chronological swaps Tdelta=q-Hu, actual retainedR=q-delta, Y=Wu+Zdelta, H=LambdaW+GammaN with independent[W;N] and hidden Nu: recovery ofWu andallq fromY,R,Aq iff rank([K(LambdaZ-L);A])=k. | PROVED. Sharp additional raw-return dimension k-rank(C), coordinate attainment; source acquisition and route costs remain open. |
+| FULLY-PAID-CODE-BOUND | Every characteristic-zero linear code, every volume V, oneoriginaldonorcochart and oneoriginalreceivercochart perpacket, all transport legs newly paid, with reviewedS: cost>=98.992356/native. | PROVED source-specific exclusion ofH4 inthatmodel. Existingfundedcodedtransit, multistopacquisition/distribution, changedraw routes/commonprocessing remain outside. |
+| HISTORY-NEUTRAL-CHANNELS | Real foreign-donor q gains from native histories withall common endpoints restored. | OPEN family. Oneq47-to-172word is author-checked andawaits independentadmission. |
+| RAW-ROUTE-HOOKS | Retain everyactual scalar/read chart whilecombining unobserved monotone private MOVE segments; price the emitted word. | ACTIVE construction. Unit17 fusion candidate awaits source/compiler and independentchecks; old deleted source access cannot be granted. |
+
+The mixed-record theorem does not treat a retained swap carrier as an
+independent supplied common record. The paid-code bound does not charge total
+path length as newly paid cost. Both distinctions are essential to SHARED-GAIN.

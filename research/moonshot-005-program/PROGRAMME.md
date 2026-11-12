@@ -284,3 +284,19 @@ This historical stage is superseded by the reviewed acquisition prefixes above; 
 The final [220-chart history theorem](results/joint-additive-history-obstruction/ADMISSION.md) also excludes every q77-only additive code for77-to189 throughout that station set, even with all receiver histories and no endpoint-neutrality requirement. This makes the nonzero-R encoder distinction consequential. It does not include an external q-bearing aggregate or common-input-dependent replacement.
 
 The first generalized encoder cut is now [excluded by stable histories](results/stable-history-encoder/README.md). Two independent source replays give D=span(u77) at chart71/pre29098. Its sole mode equals final common189 minus initial common189 and is unchanged by neutral controls. The reviewed history-annihilation theorem makes all decoders of that mode equally insensitive. The next construction must first find a cut with nonzero D/(D intersect S), then pass the full control criterion. This filter changes the next source test, not the global target.
+
+## S007 progression after concurrent integration
+
+The shared construction now has exact information accounting for both supplied
+common records and the different mixed records produced by actual swaps. Its
+next real source mechanism is foreign-donor information recovered from native
+histories while the common state is restored. A new source-word candidate and
+its composition with the E8 prefix are being checked; no completed supplier is
+claimed. Monotone private routes may also be shortened between their actual
+reads, but any resulting construction must pay for the access stops it retains.
+
+The fully newly paid localized-code family is now rigorously too expensive:
+98.992356 exceeds the entire unchanged H4 allowance. Fundedcommon processing,
+changed observation interfaces and deliberately repriced raw routes remain the
+programme's substantive construction opportunities. Mixed swap return rank is
+exactly k-rank(K(LambdaZ-L)); lowcommondebt alone does not prove cheap recovery.

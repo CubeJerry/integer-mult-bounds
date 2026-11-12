@@ -445,3 +445,24 @@ portability correction changes one manifest hash, no proof or reviewer pin.
 The finite foreign-history access WIP stays outside admitted scientific results.
 Its candidate-check script authenticates the native source and displays the
 actual packet/history certificate hashes; any additional review has its own scope.
+
+## S007 checkpoint2 admission
+
+- MIXED-SWAP-RETURNS: root proposition, separate review-worker proof and48 exact
+  rational cases with129 kernel witnesses; root review of the complete formal
+  proof plus an independent exhaustive original-input collision checker over
+  F2/F3. All16322 observation cases andall return row spaces in the stated finite
+  families agree with the criterion andcoordinate attainment. Wrong chronology
+  sign anddependent-common-counterexamples are retained. Universal status comes
+  from the proof, not the finite cases.
+- FULLY-PAID-CODE-BOUND: author exact source/dual/clique verification; reviewer
+  independently reconstructs binary spaces,99,616 chart pairs,74 acyclic sets and
+  1,268 cliques, using a different integer-root engine at2^128 denominator.
+  Exactlower98.992356 andminimum constraint slack1/200000. Root reran both checks
+  against integrated sources. The fully newly paid tariff restriction was added
+  after root review found the initial hybrid-path overreach; no unrestricted
+  hybrid numerical exclusion is admitted.
+
+The general hybrid weighted-cut and shortest-path accounting lemmas are
+retained in source-localised-code-budget/HYBRID-CUTS.md. They explicitly
+subtract funded capacities and have no source-specific H4 certificate yet.
