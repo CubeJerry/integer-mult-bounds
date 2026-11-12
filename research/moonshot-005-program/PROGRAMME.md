@@ -1,6 +1,40 @@
-# S009 current frontier: actual reciprocal rank reduction
+# Current construction: cyclic source code and mixed-information completion
 
-## Current checkpoint: S009 second verified wave, 2026-11-12
+## S009 checkpoint3, 2026-11-12
+
+A genuine two-round cyclic schedule now closes a22-port principal Gram block
+and lowers the hosted reverse residual to **rank82**. Its78011 instructions
+preserve all1880 input directions, every forward output, eight coupled reverse
+completions and the unchanged common suffix. It introduces72 transpose terms
+and no new owned MOVE. Its full provisional margin is31.556561901356545/native.
+A shared two-record plus/minus code preserves the older external cohort; no
+spent route is reset. See results/joint-current-row-codes/.
+
+The programme now has a proved reason to change the completion interface.
+Any exactly-eight pure full-field forward Gram factorization, even with
+arbitrary interleaving and retained copies, leaves at most49.26950365220561
+moment/native for fresh unchanged-source reverse packets. Their exact-distance42
+floor is49.599255119493925: the rigorous deficit exceeds.329751467288311.
+The theorem grants all unrelated raw paths direct cost. Mixed current values,
+funded transport, overcomplete factors and changed receiver duties remain
+outside this scoped obstruction.
+
+The main architecture therefore develops global joint raw schedules and
+actual mixed observations, preserving every independent endpoint. The joint
+endpoint theorem prevents treating input coding or a silently supplied Gram
+baseline as free restoration. The current rank82 is a finite construction;
+eight reverse observations become a sufficient-dimensional target only after
+a complete compatible reduction. The next task is to enlarge this source
+stage coherently and acquire its remaining information within the complete bill.
+
+Selected complete conditional kappa remains.00363005817. Target.005 is open;
+both strict suppliers and all five foundations remain. **No new kappa.**
+The branch remains an ongoing research programme, not PR-ready. Earlier
+checkpoints below are retained as dated history, not competing current plans.
+
+# Historical S009 reciprocal rank-reduction checkpoints
+
+## Historical checkpoint2: S009 second verified wave, 2026-11-12
 
 The actual source frontier now includes a **rank87** reverse residual:
 four earlier reads on genuine raw dual routes plus one paid rank1 column
@@ -478,3 +512,5 @@ Parking genuine B originals at the hub and replacing their unread active slots b
 The77262-operation nested source word composes seven dimension-six acquisitions through three dimension-seven joins using current primal/dual rows and a proved affine-control invariant. It supplies196 forward and183 transpose coefficients with margin42.17235652100004; reverse rank95 and global duties remain. See results/nested-current-row-primal-dual/. It is an alternative source word, not a gain added to the rank87/rank88 word.
 
 Parity-complement geometry and the exactly recovered odd8 cut now have their missing verification evidence. The one-arrival template requires an explicit original-support invariant; the cut requires eight informative inward fields in its fixed transport class. Neither proves sufficiency. A locally reviewed stronger retained-hub transport gate is next for integration, motivating changed funded-entry payloads or useful distributed reverse updates. Concurrent S009 distance42, rank87, coupled-frame and late-forward packages remain intact. No new complete kappa; both strict suppliers and all five foundations remain.
+
+Concurrent checkpointb2dc1cc5 was integrated before this publication. Its actual short-ghost word completes eight individual hosted outputs on its own source parent; its nested source is also preserved. Neither gain nor bill is added to cyclic22 without an emitted compatible word.

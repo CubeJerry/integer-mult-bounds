@@ -756,3 +756,30 @@ The session continues its11:51:49–21:51:49 UTC window. Starting programmeSHA b
 New mathematics: an actual short parked ghost and a separate eight-individual-reverse-output word; nested current-row primal/dual composition and affine invariant; exact parity-complement template with necessary scope correction; exact regeneration of old odd8 receipts plus fresh E8 cut and exclusive-even-entry proof. Full-input reviewers, complete prices and meaningful mutants are preserved. No new kappa.
 
 Next integrate the reviewed retained-hub downset price extension using S009 distance42/price, then build an informative changed funded-entry or distributed reverse primitive. This is an intermediate checkpoint, not session completion or PR readiness. The resulting SHA will be recorded only after GitHub confirmation.
+
+## 2026-11-12-S009 — third checked checkpoint, session continuing
+
+Starting remote baseline1ceafd5edbd856727d40e18058a3c77149e558dc. The session
+remains active toward the requested22:58:11 UTC endpoint. Built and independently
+reviewed a genuine two-round cyclic source, closing22 Gram ports and reducing
+hosted residual88->82 with72 new coefficients and no owned MOVE. The external
+cohort is preserved by an actual two-record code; all1880 input columns and74
+new maps checked. Admitted the preceding one/two source departures and sharp
+all-field column-lift/padding criterion.
+
+Proved the general exactly8 pure packet tariff and its arbitrary-interleaving
+extension. Independent proof/source review establishes the exact complete
+fresh-return deficit>.329751467288311. The retained-three schedule is a
+negative control showing why spatial order does not imply delivery order.
+Also independently established the joint endpoint debt identity and distinct
+K=0 versus actually supplied K=G source conclusions.
+
+All prior scientific evidence remains byte-authenticated. Portable independent
+checks pass from final paths. Checkpoint parent is recorded in STATE; resulting
+remote commit will be reported only after confirmation and recorded in a later
+receipt. Immediate next work: review cyclic/late2 composition and midpoint
+chronology, then construct a global mixed current-row mechanism. No new kappa;
+not PR-ready, no upstream PR. This is an intermediate checkpoint, not a claim
+that the ten-hour session has ended.
+
+Before publication, remoteb2dc1cc5 advanced from1ceafd5e. Only unpublished S009 checkpoint3 was replayed on that parent. All incoming short-ghost, nested, parity and recovered-cut scientific files and every existing S008/S009 result were byte-preserved; both session entries remain. No force-push or published-history rewrite occurred. See CHECKPOINT3-CONCURRENT.json.

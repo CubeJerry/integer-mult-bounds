@@ -551,3 +551,30 @@ assistance disclosed. Ongoing programme, no upstream PR submitted.
 The77851-operation parked-ghost word completes eight individual hosted reverse outputs while retaining the parent's forward completions and all original inputs. Its independent reviewer reconstructs all1880 columns, the real8-slot decoder, lifecycle and full invoice; remaining moment17.358506460845017/native. A separate78126-operation observation word restores the S009 frame parent exactly. These establish actual late observations, not a full Gram supplier.
 
 The77262-operation nested code uses seven acquisitions and three joins with a proved affine paired invariant and real current-row witnesses. Exact parity-complement geometry and recovered odd8 cut constrain further composition. Each package supplies source pins, predecessor credit, independent checks and portable commands. All are components or scoped constraints of the same global programme. No new kappa; not PR ready. @CubeJerry attribution and substantial OpenAI assistance apply throughout.
+
+## S009 cumulative addition: cyclic source construction and packet obstruction
+
+The actual78011-instruction cyclic source lowers reverse residual rank88->82
+without any new owned movement. Two three-family schedules and a real shared
+sum/difference code preserve every earlier current input and source duty.
+The full signed raw invoice costs.8885218939310113/native, leaving
+31.556561901356545 after all forward/coupled packets. Independent review checks
+all1880 columns,74 phase maps, exact kernels/minor and source mutants.
+See [cyclic proof](results/joint-current-row-codes/cyclic-dual/PROOF.md) and
+[review](results/joint-current-row-codes/review-cyclic/REVIEW.md).
+
+A complementary theorem excludes exactly8 pure full-field forward packets
+plus fresh unchanged-source reverse Gram returns even under arbitrary
+interleaving and retained copies. The52-coordinate source code forces a
+chain/parity-fork topology at rank8; six exact-pair classes forbid4 cheap
+packets;51 required raw splits complete the invoice. The strict deficit is
+>.329751467288311/native. See [proof](results/interleaved-eight-packet-barrier/PROOF.md)
+and [independent review](results/interleaved-eight-packet-barrier/review-root/REVIEW.md).
+The shared invertible-column theorem, two source departures and joint endpoint
+rank identity supply explicit interfaces and prevent free-restoration errors.
+
+All packages retain @CubeJerry attribution, predecessor credit, exact source
+pins and OpenAI assistance disclosure. These are coherent enabling results
+and scoped obstructions, not a complete conditional.005 theorem. **No new κ.**
+The branch is still developing; no upstream PR or prefilled submission is
+being declared ready at this checkpoint.

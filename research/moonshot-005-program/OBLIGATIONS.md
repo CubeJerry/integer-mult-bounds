@@ -515,3 +515,18 @@ All strict suppliers/foundations remain. No new complete kappa.
 | GLOBAL-GHOST-EXTENSION | Acquire full useful reverse information through actual records with all banks preserved and positive full invoice. | OPEN construction. Locally reviewed stronger retained-hub downset price gate awaits integration. Partial ghosts are not a full Gram supplier. |
 
 The concurrent S009 source families remain independent actual alternatives. A combined code requires its own literal schedule, current-row proof and invoice.
+
+## S009 checkpoint3: current proof graph
+
+| ID | Precise scoped proposition | Dependencies | Status and remaining work |
+|---|---|---|---|
+| CYCLIC22 | For arbitrary1880 input directions, the emitted78011-word closes22 hosted ports to rank8 Gram, yielding full reverse rank82, unchanged forward/common rows and no new owned movement. | Pinned coupled/frame source; real external two-record inverse;74 phase maps; joint-current-row-codes/review-cyclic | PROVED finite source; extend a coherent earlier stage, never reset spent paths. |
+| COLUMN-LIFT | Over every field, injective V with AV=B exists iff image(B) is contained in image(A) and nullity(B)<=nullity(A); zero padding needs exactly the positive nullity deficit. | shared-column-lift/PROOF.md; independent90512-case review | PROVED algebraic interface; physical acquisitions,2s padding fields and every route remain charged. |
+| SHARED-DEPARTURES | The one/two emitted source variants preserve old quotient duties using real shared encoding and inverse. | Literal source words; full1880 independent review | PROVED finite constructions; variants are not added as if sequential. |
+| PURE8-ORDERED | Every stated exactly8 pure whole-field factorization with global delivery order costs at least6*9^t+8^t+7^t+1. | All511 source ranks;52-recipient code; copy saturation | PROVED scoped lower bound; arbitrary decoder basis and field volume allowed. |
+| PURE8-INTERLEAVED | With arbitrary interleaving/retained copies, at most3 packets are cheap; one cheap packet forces51 raw splits, producing strict fresh-return budget deficit>.329751467288311. | PURE8 locality/saturation; all10920 exact-pair classes; hosted distance42; H4 invoice; root independent review | PROVED scoped obstruction; mixed, overcomplete, fragmented or changed receiver/return representations remain open. |
+| JOINT-CODING-DEBT | For all compatible matrices over every field, rank([I+RP-K;P-I])=rank(I+R-K)+rank((P-I)Z), Z a kernel basis of I+R-K. | Joint endpoint proof; actual source and independent replay | PROVED algebraic/source gate; K must be delivered and every changed endpoint restored. |
+| GLOBAL-CYCLIC-MIXED | Construct one compatible full current-row code and acquire enough mixed observations with all output duties and complete budget. | CYCLIC22; joint restoration; source access; strict suppliers/foundations | OPEN primary. Current rank82 cannot be repaired by eight observations without additional construction or other retained information. |
+
+Earlier rank87 and rank88 variants remain valid separate constructions. No
+complete exponent follows from the new finite rank82 or the scoped obstructions.

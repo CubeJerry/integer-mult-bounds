@@ -1,3 +1,28 @@
+# Resume the active cyclic/current-row construction
+
+Read STATE.json and the exact remote branch first. Current independently
+admitted source is joint-current-row-codes/cyclic-dual:22-port principal Gram,
+rank82,78011 instructions,no new owned MOVE,margin31.556561901356545/native.
+Its first-bank and coupled duties are preserved; all1880 directions and74
+phase maps independently checked. The source routes have been consumed.
+
+The next primary obligation is one coherent global extension plus actual
+mixed observation acquisition/restoration. Pure exactly8 forward packets
+with fresh unchanged-source Gram returns are excluded even with arbitrary
+interleaving and retained copies; the exact deficit is>.329751467288311.
+Do not repeat that retiming search, or substitute a completed R=G-I hub for
+the current rank82 source. More than8 packets, mixed/funded carriers and a
+changed receiver/return interface remain explicit escapes.
+
+Current unadmitted next-wave work: cyclic/late2 actual composition (author
+word complete, independent review underway), midpoint chronological skew
+and transported metrics, and global shared schedules. These are not premises
+of this checkpoint. Both strict suppliers and all five foundations remain.
+No new complete kappa; ongoing research programme. S009 requested window
+ends2026-11-12 22:58:11 UTC; no background execution is implied.
+
+## Concurrent S008 checkpoint, preserved at b2dc1cc5
+
 # Resume the shared S008/S009 current-row programme
 
 Read exact remote HEAD and STATE.json. Both sessions remain active: S00811:51:49–21:51:49 UTC; S00912:58:11–22:58:11 UTC. This is an intermediate checkpoint. No new complete kappa; not PR ready. Preserve concurrent commits and recheck HEAD before every push.

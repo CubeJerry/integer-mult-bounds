@@ -1,0 +1,211 @@
+{
+  "classification": "finite computational verification of a separately proved all-field algebraic criterion",
+  "coverage": [
+    {
+      "A_B_pairs": 4,
+      "d": 1,
+      "independent_lifts_enumerated_per_A": 1,
+      "m": 1,
+      "p": 2,
+      "r": 1
+    },
+    {
+      "A_B_pairs": 8,
+      "d": 2,
+      "independent_lifts_enumerated_per_A": 0,
+      "m": 1,
+      "p": 2,
+      "r": 1
+    },
+    {
+      "A_B_pairs": 16,
+      "d": 1,
+      "independent_lifts_enumerated_per_A": 1,
+      "m": 2,
+      "p": 2,
+      "r": 1
+    },
+    {
+      "A_B_pairs": 64,
+      "d": 2,
+      "independent_lifts_enumerated_per_A": 0,
+      "m": 2,
+      "p": 2,
+      "r": 1
+    },
+    {
+      "A_B_pairs": 64,
+      "d": 1,
+      "independent_lifts_enumerated_per_A": 3,
+      "m": 2,
+      "p": 2,
+      "r": 2
+    },
+    {
+      "A_B_pairs": 256,
+      "d": 2,
+      "independent_lifts_enumerated_per_A": 6,
+      "m": 2,
+      "p": 2,
+      "r": 2
+    },
+    {
+      "A_B_pairs": 1024,
+      "d": 3,
+      "independent_lifts_enumerated_per_A": 0,
+      "m": 2,
+      "p": 2,
+      "r": 2
+    },
+    {
+      "A_B_pairs": 256,
+      "d": 1,
+      "independent_lifts_enumerated_per_A": 7,
+      "m": 2,
+      "p": 2,
+      "r": 3
+    },
+    {
+      "A_B_pairs": 1024,
+      "d": 2,
+      "independent_lifts_enumerated_per_A": 42,
+      "m": 2,
+      "p": 2,
+      "r": 3
+    },
+    {
+      "A_B_pairs": 4096,
+      "d": 3,
+      "independent_lifts_enumerated_per_A": 168,
+      "m": 2,
+      "p": 2,
+      "r": 3
+    },
+    {
+      "A_B_pairs": 16384,
+      "d": 4,
+      "independent_lifts_enumerated_per_A": 0,
+      "m": 2,
+      "p": 2,
+      "r": 3
+    },
+    {
+      "A_B_pairs": 27,
+      "d": 1,
+      "independent_lifts_enumerated_per_A": 8,
+      "m": 1,
+      "p": 3,
+      "r": 2
+    },
+    {
+      "A_B_pairs": 81,
+      "d": 2,
+      "independent_lifts_enumerated_per_A": 48,
+      "m": 1,
+      "p": 3,
+      "r": 2
+    },
+    {
+      "A_B_pairs": 243,
+      "d": 3,
+      "independent_lifts_enumerated_per_A": 0,
+      "m": 1,
+      "p": 3,
+      "r": 2
+    },
+    {
+      "A_B_pairs": 729,
+      "d": 1,
+      "independent_lifts_enumerated_per_A": 8,
+      "m": 2,
+      "p": 3,
+      "r": 2
+    },
+    {
+      "A_B_pairs": 6561,
+      "d": 2,
+      "independent_lifts_enumerated_per_A": 48,
+      "m": 2,
+      "p": 3,
+      "r": 2
+    },
+    {
+      "A_B_pairs": 59049,
+      "d": 3,
+      "independent_lifts_enumerated_per_A": 0,
+      "m": 2,
+      "p": 3,
+      "r": 2
+    }
+  ],
+  "minimum_slot_formula": "max(0,d-rank(B)-nullity(A)); only if im(B) subset im(A)",
+  "negative_controls": {
+    "characteristic_two_plusminus_not_invertible": true,
+    "image_mismatch_not_repaired_by_nullity": true,
+    "odd_characteristic_plusminus_valid": true,
+    "three_equal_columns_need_two_kernel_slots": true,
+    "two_equal_columns_need_one_kernel_slot": true
+  },
+  "not_a_physical_admission_or_kappa_certificate": true,
+  "source_two_branch_instance": {
+    "dual_change": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "-1",
+        "1"
+      ]
+    ],
+    "forward_change": [
+      [
+        "1/2",
+        "1/2"
+      ],
+      [
+        "-1/2",
+        "1/2"
+      ]
+    ],
+    "minimum_added_paired_slots": 0,
+    "old_shared_columns": [
+      [
+        "-1/2",
+        "-1/2"
+      ],
+      [
+        "1/2",
+        "1/2"
+      ],
+      [
+        "-1/2",
+        "1/2"
+      ],
+      [
+        "-1/2",
+        "1/2"
+      ]
+    ],
+    "requested_columns": [
+      [
+        "-1",
+        "0"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ]
+  },
+  "status": "PASS_INVERTIBLE_COLUMN_REALIZATION_GATE",
+  "total_A_B_pairs": 89886
+}

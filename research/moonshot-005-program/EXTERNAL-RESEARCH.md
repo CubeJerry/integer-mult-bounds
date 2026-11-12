@@ -435,3 +435,17 @@ e54523517d0f03e58352e647c403a5af3e525a57; no selected certificate changed.
 ## Concurrent1ceafd5e preserved during S008
 
 Remote1ceafd5edbd856727d40e18058a3c77149e558dc was a direct successor of S00829736f46. Its80 changed/added files were inspected and fast-forwarded before tracked S008 edits. S009 contributes independently reviewed distance42/sharp fresh-packet price, actual rank87 principal extension, coupled-frame composition and late-two forward packets. Distance42 supports the new S008 downset extension; simultaneously developed matching source geometry is additional evidence with credit. The late tariff changes global comparison when physically composed. No upstream selection, PR or branch was altered.
+
+## S009 checkpoint3 integration and compatibility
+
+Remote1ceafd5e is the exact preceding S009 checkpoint; concurrent S008 history
+through29736f46 remains intact. The cyclic22 source replaces coherent dual
+blocks and preserves the earlier forward/coupled map, rather than adding its
+rank gain to a different source. Its external two-record code demonstrates
+an actual escape from a fixed-old-cohort departure obstruction. The new pure8
+barrier composes with the independently reviewed distance42 reverse theorem
+only under both interfaces. S008 mixed-observation algebra remains relevant,
+but its completed global hub cannot be substituted for actual rank82 rows.
+No upstream branch, certificate, or PR has been changed by this checkpoint.
+
+Concurrentb2dc1cc5 adds source-valid short parked ghosts, nested current-row schedules and recovered parity/cut evidence. Eight ghost outputs and cyclic22 rank82 are different parent constructions; no automatic composition or sum of savings is claimed. Their complete source interfaces now guide the next mixed-information attempt.

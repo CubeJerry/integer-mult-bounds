@@ -640,3 +640,30 @@ The complete strict complex/BIT requirements and five foundations are unchanged.
 | Nested affine word,77262 operations | fused-seven source |42.17235652100004|Three full forward rows,52 further forward and183 hosted transpose coefficients |
 
 Each parked slot changes the full MOVE histogram by +one rank8 minus one rank5. Its old total-rank3 tail becomes owned and remains charged. The eight-word residual has rank88 but all96 columns remain nonzero after ghosts retire, so the terminal96-first-departure theorem still applies. A full Gram extension needs new actual information acquisition. S009's late-forward tariff must be included when physically composed; unrelated margins cannot be added. These partial source constructions establish no new kappa.
+
+## S009 checkpoint3: source architecture and complete pure-eight exclusion
+
+The actual cyclic22 word has residual `M=[[G_KK,0],[L,I_74]]`, with
+rank(G_KK)=8 and rank(M)=82. Its new raw bill is
+`34{1}+2{2}+20{3}+20{4}-2{5}-4{6}-18{8}` relative to the coupled/frame
+parent; no owned movement is added. With all existing packets charged,
+its margin is31.556561901356545/native. It retains4569 changed-basis or
+4920 original-coordinate forward terms and is not a complete supplier.
+
+For exactly8 pure full-field minimal forward packets, arbitrary ambient
+charts, arbitrary retained copies and interleaving, at most3 packets can
+cost below9^t. Any cheap packet forces51 distinct raw receiver refinements.
+The complete favorable lower invoice is400*8^t plus
+`5*9^t+3*8^t+51*(1+7^t-8^t)`. It leaves at most49.26950365220561/native.
+The fresh unchanged-source reverse floor10*5^t is larger by more than
+.329751467288311. This is a proved architecture obstruction at t=199/200,
+not an impossibility theorem for mixed/current, fragmented, funded,
+overcomplete or changed endpoint/return mechanisms.
+
+For actual input coding d->Pd, current hub b+Rd and genuinely supplied Kd,
+joint error rank equals rank([I+R-K;P-I]). A paid baseline must not be silently
+inserted. On the rank88 parent, systematic B coding without K gives joint96;
+with actual K=G, systematic pivots I give96-|B intersect I|, best88. This
+prevents crediting changed Y2 rows as restored. The general observation gate
+must use actual current matrices; full R=G-I remains a construction premise.
+Both strict suppliers and all foundations remain. No new complete kappa.

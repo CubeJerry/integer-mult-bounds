@@ -1,0 +1,89 @@
+{
+  "all_four_root_subsets": 1820,
+  "all_three_root_subsets": 560,
+  "cheap_threshold": "9^(199/200)",
+  "complete_optimistic_headroom_lower": "294706816168224854018519626383023198299/5981525981032121428067131771261550592",
+  "complete_optimistic_headroom_upper": "196471210778816569345679750922015488951/3987683987354747618711421180841033728",
+  "deficit_lower": "1314944645912331647998576464528412579/3987683987354747618711421180841033728",
+  "deficit_upper": "1972416968868497471997864696792654041/5981525981032121428067131771261550592",
+  "distance42_proof_sha256": "77c996ff9233f087a0e024c107b552f022adeca51cf5540c2487ef80cb2a2506",
+  "every_cheap_broadcast_topology": "spatial descending chain, or a single parity fork with two dimension2 leaves; stationary copies may be retained indefinitely",
+  "exact_pair_classes_checked": 10920,
+  "fresh_return_floor_lower": "32964359237454816832279721231090650255/664613997892457936451903530140172288",
+  "fresh_return_floor_upper": "8241089809363704208069930307772662565/166153499473114484112975882535043072",
+  "invoice_sha256": "b8adae359984f27f140db1fb3cf7e37f1f96a25bdb1cc586de6dca6b47534248",
+  "lower_owned_profile": {
+    "8": 3,
+    "9": 5
+  },
+  "lower_raw_profile": {
+    "1": 51,
+    "7": 51,
+    "8": 349
+  },
+  "mandatory_raw_split_receivers_if_any_cheap": 51,
+  "maximum_cheap_packets_with_interleaving": 3,
+  "minimum_exact_pair_receiver_count": 2,
+  "negative_controls": [
+    "allones parity-fork exception retained",
+    "stationary copies can deliver after descendants: chronology cannot be inferred from spatial chain",
+    "all six exact-pair classes are required for four-versus-six counting"
+  ],
+  "parent_minimal_eight_proof_sha256": "184428adb93a4c62b14a106566bb7a5b6d358ef91fdc230c59159d9098853bfe",
+  "scope": "Exactly8 pure full-field minimal Gram packets; arbitrary interleaving, stationary owned copies and ambient charts; unchanged monotone receiver identities/endpoints; every informative owned move paid; no within-packet rank fragmentation or cross-packet mixing. The fresh-return incompatibility retains its own unchanged-source/fresh-packet hypotheses. Independent review pending. No new kappa.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "split_fee_lower": "9949368632381392638221838581403039/664613997892457936451903530140172288",
+  "split_fee_upper": "19898737264762785276443677162806081/1329227995784915872903807060280344576",
+  "status": "PASS_INTERLEAVED_MINIMAL_EIGHT_PLUS_MANDATORY_RAW_BARRIER",
+  "three_retained_chain_scope_counterexample": {
+    "actual_parent_payload_sha256": "2e0853ba95763f5182d675fbf08317871ca4b5df7328066230e446ef959f782a",
+    "candidate_complete_optimistic_headroom_lower": "571810542931065256565699024417614693469/11963051962064242856134263542523101184",
+    "candidate_complete_optimistic_headroom_upper": "190603514310355085521899674805871588043/3987683987354747618711421180841033728",
+    "candidate_fresh_return_deficit_lower": "7182641114373815471778652580672313487/3987683987354747618711421180841033728",
+    "candidate_fresh_return_deficit_upper": "21547923343121446415335957742017011211/11963051962064242856134263542523101184",
+    "cyclic_pair_owner": [
+      [
+        97,
+        42
+      ],
+      [
+        42,
+        82
+      ],
+      [
+        82,
+        97
+      ]
+    ],
+    "normals": [
+      97,
+      42,
+      82
+    ],
+    "owned_packet_profile_with_five_early_packets": {
+      "1": 6,
+      "6": 3,
+      "9": 5
+    },
+    "raw_delta": {
+      "1": 132,
+      "3": 8,
+      "5": 13,
+      "6": 39,
+      "7": 39,
+      "8": -91
+    },
+    "raw_fee_lower": "2854158360672858942547782799507498289/1329227995784915872903807060280344576",
+    "raw_fee_upper": "2854158360672858942547782799507498611/1329227995784915872903807060280344576",
+    "receiver_pattern_counts": {
+      "0": 8,
+      "1": 44,
+      "2": 44,
+      "3": 8
+    },
+    "saving_over_eight_rank9_parent_lower": "954792681264797653142314335042935625/1329227995784915872903807060280344576",
+    "saving_over_eight_rank9_parent_upper": "954792681264797653142314335042935959/1329227995784915872903807060280344576",
+    "status": "Exact abstract source-chart/copy schedule with actual pinned prefix stops and complete route invoice; no full-word phase/compiler admission claimed. It has three cheap packets because deliveries interleave."
+  },
+  "unified_extra_packet_and_raw_floor": "5*9^(199/200)+3*8^(199/200)+51*(1+7^(199/200)-8^(199/200))"
+}

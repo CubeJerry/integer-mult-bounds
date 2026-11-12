@@ -1,0 +1,459 @@
+{
+  "actual_reverse_rank": 88,
+  "engine_pins": {
+    "clifford_exact.py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "native_verify.py": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38"
+  },
+  "exact_input_columns": 1880,
+  "exits": {
+    "90": 0
+  },
+  "fresh_margin_lower": "425196948645570240625990382014844187079492018480147/13153514735978126263833163494446547176903392886784",
+  "fresh_margin_upper": "47244105405063360069554486890538243008832446501641/1461501637330902918203684832716283019655932542976",
+  "full_bill": {
+    "final_owned": 0,
+    "instructions": 78152,
+    "move_rank_histogram": {
+      "1": 4214,
+      "2": 966,
+      "3": 891,
+      "4": 241,
+      "5": 515,
+      "6": 22,
+      "7": 16,
+      "8": 196,
+      "9": 8
+    },
+    "opcode_counts": {
+      "ADD": 66498,
+      "CLEAR": 461,
+      "COPY": 1,
+      "INIT": 461,
+      "MOVE": 7069,
+      "SCALE": 3662
+    },
+    "owned_lifetimes": 461,
+    "peak_owned": 43,
+    "raw_histogram": {
+      "1": 131,
+      "2": 138,
+      "3": 80,
+      "5": 195,
+      "6": 5,
+      "7": 4,
+      "8": 190
+    }
+  },
+  "full_dual_matrix": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "-1",
+      "-1",
+      "1"
+    ]
+  ],
+  "full_primal_matrix": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "-1"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "1"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "1"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "independent_entry_census": {
+    "binary_dimension3_circuits": 38,
+    "case_count": 112,
+    "classification": {
+      "(0, 0)": 12,
+      "(1, 1)": 2,
+      "(2, 2)": 14,
+      "(3, 3)": 46,
+      "(4, 3)": 38
+    },
+    "coordinate_exit_nullity_sum": 34,
+    "scope": "Untouched-entry geometry and per-cohort coordinate quotient preservation only; not simultaneous routing admission or general coded-row bound."
+  },
+  "independently_reconstructed_operations": 78152,
+  "introduced_map_count": 6,
+  "negative_controls": {
+    "incorrect_inverse_transpose_absorption": "mutated exact1880 source state",
+    "new_forward_collector_unconsumed": "mutated exact1880 source state",
+    "spent_initial_route_reused": "typed route at 5441",
+    "wrong_absorption_sign": "mutated exact1880 source state",
+    "wrong_dual_hub_inverse": "mutated exact1880 source state",
+    "wrong_reverse_receiver_sign": "mutated exact1880 source state"
+  },
+  "new_blocks": {
+    "dual": [
+      1049,
+      1182
+    ],
+    "primal": [
+      2640,
+      2757
+    ]
+  },
+  "new_owned_moves": 0,
+  "old_blocks": {
+    "dual": [
+      1049,
+      1178
+    ],
+    "primal": [
+      2636,
+      2760
+    ]
+  },
+  "ordinary_increment": {
+    "ADD": -7,
+    "CLEAR": -2,
+    "COPY": 0,
+    "INIT": -2,
+    "MOVE": 8,
+    "SCALE": 0
+  },
+  "parent_sha256": "54b268f4e67e696b6e7e1bdbabb8fd136a434d312f2e305bd714e1f245e2473a",
+  "raw_increment": {
+    "1": 2,
+    "2": 8,
+    "3": 4,
+    "5": -6
+  },
+  "restricted_hosted_dual_matrix": [
+    [
+      "0",
+      "0",
+      "-1",
+      "0",
+      "-1",
+      "0"
+    ],
+    [
+      "-1",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "-1",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "-1",
+      "0",
+      "1",
+      "-1",
+      "0"
+    ],
+    [
+      "-1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "0",
+      "-1",
+      "0",
+      "-1",
+      "1"
+    ]
+  ],
+  "restricted_hosted_primal_matrix": [
+    [
+      "-1/2",
+      "-1/2",
+      "-1/2",
+      "-1/2",
+      "-1/2",
+      "-1/2"
+    ],
+    [
+      "-1/2",
+      "-1/2",
+      "-1/2",
+      "1/2",
+      "1/2",
+      "1/2"
+    ],
+    [
+      "-1/2",
+      "-1/2",
+      "1/2",
+      "-1/2",
+      "-1/2",
+      "1/2"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "-1/2",
+      "1/2",
+      "1/2",
+      "1/2",
+      "-1/2",
+      "1/2"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "scope": "Independent finite current-row source construction and full tariff. No new supplier or kappa.",
+  "shared_matrix": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_INDEPENDENT_ONE_QUOTIENT_DEPARTURE",
+  "unchanged_literal_common_suffix": true,
+  "word_payload_sha256": "7bf5b3549db0fa38027822fb0bd8eaa2df852b7d925ab315780c020c5c0c0421",
+  "word_sha256": "a214af51c5a6e9f7bd5863c629ffafbbc1a7791cfb3557ceeb895afee4c41a2b",
+  "wrong_global_phase_rejected": true
+}

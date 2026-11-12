@@ -1,0 +1,49 @@
+{
+  "checked_matrix_pairs": 90512,
+  "classification": "Finite coverage complements the independent universal proof review; no physical source or asymptotic theorem is inferred.",
+  "domains": [
+    {
+      "existing_width": 0,
+      "field": 2,
+      "rows": 2,
+      "tested_pairs": 5
+    },
+    {
+      "existing_width": 1,
+      "field": 2,
+      "rows": 2,
+      "tested_pairs": 84
+    },
+    {
+      "existing_width": 2,
+      "field": 2,
+      "rows": 2,
+      "tested_pairs": 1360
+    },
+    {
+      "existing_width": 3,
+      "field": 2,
+      "rows": 2,
+      "tested_pairs": 21824
+    },
+    {
+      "existing_width": 1,
+      "field": 3,
+      "rows": 2,
+      "tested_pairs": 819
+    },
+    {
+      "existing_width": 2,
+      "field": 3,
+      "rows": 2,
+      "tested_pairs": 66420
+    }
+  ],
+  "negative_controls": [
+    "Image containment cannot be dropped.",
+    "Over-width second-inequality failure needs image containment.",
+    "Repeated coefficient columns need exact additional kernel width."
+  ],
+  "proof_sha256": "5a30156c21a2be58c6e324b3d0dd76e14d717c6b0273ccd57161c6993fa7a8c5",
+  "status": "PASS_INDEPENDENT_COLUMN_LIFT_REVIEW"
+}

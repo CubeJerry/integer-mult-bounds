@@ -636,3 +636,29 @@ The nested word has separate affine-interface and full-source reviews. Root repr
 Root's separate parity implementation checks all26520 hyperplanes before/after inherited cancellations; its proof review required the explicit support premise. The odd8 adapter reproduces exact historically independent author/reviewer receipts, while Worker C's new full-source E8 cut is a separate implementation also reproduced by root. The exclusive even-hyperplane proof has independent mathematical review, without an additional source replay claim. Root's ghost-cut diagnostic remains separately labelled and is not a global construction premise.
 
 All author and reviewer pins are exact. Rerunning an independent verifier is integration validation, not another independent proof. The prior S009 star/frame/coupled review receipts were likewise reproduced. New1ceafd5e evidence is preserved with original reviews; S008 has not yet rerun its new source checkers. No new complete kappa.
+
+## S009 checkpoint3
+
+Independent source review reconstructed the cyclic word, all72 new coefficients,
+the original external plus/minus source rows, fourteen kernels and a unit82
+minor, every1880 input column, unchanged208-first-bank projection and common
+suffix, full raw/owned bill and74 new exact phase maps. Seven source mutants
+and one phase mutant fail; a missing contact raises rank83. The one/two
+quotient words are independently reconstructed with6/12 new phase maps.
+
+The universal column-lift theorem received a separate lead proof review and
+90512 finite-field matrix-pair checks. The pure8 proofs received a full lead
+review of minimal-factor all-volume reduction, pure-copy pruning, independent
+cut saturation, parity-fork exception, pair-capacity and51-field raw cost.
+A new Fraction implementation checks all511 locality matrices,16 spectra,
+560 triples and10920 exact-pair classes. A three-retained-chain counterexample
+preserves the important temporal-order exception. Independent decimal-base
+200th-power bounds verify both complete deficits and the separate zero-cheap
+case. This is distinct from executing the author verifiers.
+
+The joint endpoint theorem received a separate1880-column replay with actual
+encoded inputs, nine different nonorthogonal pivot examples and a192-endpoint
+suffix audit. No encoded Y2 restoration or K=G acquisition is assumed free.
+All six independent checkers were rerun from their final repository paths;
+CHECKPOINT3-PORTABLE.json records byte matches. Portable reruns are not new
+independent mathematical reviews. No new kappa; all five foundations retained.
