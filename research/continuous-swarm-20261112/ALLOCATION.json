@@ -1,8 +1,8 @@
 {
   "schema": "continuous-swarm-checkpoint/v1",
   "started_utc": "2026-11-12 01:31 UTC",
-  "updated_utc": "2026-11-12T03:05:24.178816+00:00",
-  "status": "five_verified_publications_wave3_active",
+  "updated_utc": "2026-11-12T03:39:22.537076+00:00",
+  "status": "six_verified_publications_c3_accepted_wave4_active",
   "base": "e54523517d0f03e58352e647c403a5af3e525a57",
   "selected_kappa": "363005817/100000000000",
   "recovery_branch": "recovery/continuous-swarm-20261112-0132",
@@ -105,14 +105,14 @@
       "track": 20,
       "base": "e54523517d0f03e58352e647c403a5af3e525a57",
       "scope": "Literal fixed-recipe selected #7000 quadratic phase for every f, including absolute i^(q0*f), packed five-Gamma ABI; affine and descriptor production excluded.",
-      "status": "active_unverified",
+      "status": "independently_reviewed_published",
       "dependencies": [
         "#7000 event24472 owner415 frames3->99",
         "#5375",
         "literal-layer-phase 8b549ca6557ccbb3017b104b27ea35051f990416"
       ],
       "output": "/workspace/scratch/be42ab5b7196/worker-b3/research/literal-native-quadratic-phase",
-      "next": "Finish scoped proof/audit; independent review before any contribution publication."
+      "next": "Frozen; exact remote commit and checked user review link in PUBLICATIONS.json."
     },
     {
       "worker": "crt_reusable_history",
@@ -120,14 +120,14 @@
       "track": 85,
       "base": "e54523517d0f03e58352e647c403a5af3e525a57",
       "scope": "Literal complete-record reversal on canonical binary P,R,B descriptors, same DATA owner and O(E+PRB) complete time; only contiguous-block tensor-X corollary.",
-      "status": "active_unverified",
+      "status": "independently_reviewed_publication_pending",
       "dependencies": [
         "upstream02-streams.tex",
         "#5188",
         "#6992"
       ],
       "output": "/workspace/scratch/be42ab5b7196/worker-c3",
-      "next": "Finish scoped proof/audit; independent review before any contribution publication."
+      "next": "Root owns publication; accepted proof9dc3019f and exact instruction census, local13b16b6e."
     },
     {
       "worker": "compiler_exits",
@@ -135,14 +135,73 @@
       "track": 60,
       "base": "e54523517d0f03e58352e647c403a5af3e525a57",
       "scope": "Overlap/source/ABI/cost audit for selected1125 scalar calls, then separate universal review of B3.",
-      "status": "active_unverified",
+      "status": "completed_audit_and_independent_review",
       "dependencies": [
         "#6990",
         "current-scalar-flat-tables 13193a22b1070a74a8580c5d3ea27470443f815a",
         "#7268"
       ],
       "output": "/workspace/scratch/be42ab5b7196/reviews",
-      "next": "Finish scoped proof/audit; independent review before any contribution publication."
+      "next": "Scalar overlap recorded; B3 accepted independently; fresh A4b scope assigned."
+    },
+    {
+      "worker": "compiler_exits",
+      "wave": 4,
+      "track": 60,
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Actual #7000 SCALE1125 wrapper owner/format join to #6968.",
+      "status": "completed_no_new_package",
+      "dependencies": [
+        "#7000",
+        "#6968"
+      ],
+      "output": "/workspace/scratch/be42ab5b7196/worker-a4",
+      "next": "Actual logical owner count settled; physical caller producer remains unavailable. Audit retained; no generic registry package."
+    },
+    {
+      "worker": "compiler_exits",
+      "wave": 4,
+      "track": 85,
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Literal five-Gamma producer and complete same-owner post-matrix X_1 translation for selected MOVE24472 using C3, with actual axis order.",
+      "status": "active_unverified",
+      "dependencies": [
+        "B3 remote172f4535ce8dcff79f626410af845f757c1563be",
+        "C3 local13b16b6e, remote pending"
+      ],
+      "output": "/workspace/scratch/be42ab5b7196/worker-a4b",
+      "next": "Gate passed; emit joined graph, prove complete O(V), independently review; exclude preceding affine matrix."
+    },
+    {
+      "worker": "crt_reusable_history",
+      "wave": 4,
+      "track": 20,
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Literal positive C^tensor f leaf on B3 packed common-grid raw Gaussian ABI with supplied encoded cutoff.",
+      "status": "active_unverified",
+      "dependencies": [
+        "#6967",
+        "#3091",
+        "#7000 MOVE24472",
+        "B3 remote172f4535ce8dcff79f626410af845f757c1563be"
+      ],
+      "output": "/workspace/scratch/be42ab5b7196/worker-c4/research/literal-positive-c-leaf",
+      "next": "Gate passed; exact positive normalization, generated axis strides, O(fV+E); old coded ABI and strided bridge excluded."
+    },
+    {
+      "worker": "literal_layer_boundary",
+      "wave": 4,
+      "track": 50,
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Source-specific full padded T-field extraction to original S order left open by #6993 deferred Gaussian recovery.",
+      "status": "active_evidence_gate",
+      "dependencies": [
+        "#6993 head1ab10aa78c4b27345c76806d1d32c7b9de481219",
+        "#4320",
+        "#4415"
+      ],
+      "output": "/workspace/scratch/be42ab5b7196/worker-b4",
+      "next": "Bounded overlap/source map and complete cost gate; stop if exact producer unavailable; no free gather or generic recovery algebra."
     }
   ],
   "verified_packages": [
@@ -180,6 +239,13 @@
       "commit": "8b549ca6557ccbb3017b104b27ea35051f990416",
       "tree": "af4494583ae6533dcd74e6e42f5e4e23aecc811c",
       "prefilled_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/literal-layer-phase-20261112-0132?expand=1&title=Implement+the+outer+layer+phase+sweep+from+its+actual+encoded+header+with+a+fixed+finite+tape+program&body=%23%23+Result%0AImplement+the+actual+outer+S_D+phase+sweep+from+its+nine-Gamma+header%3A+one+fixed+2%2C146-location%2C+twenty-tape+program+derives+geometry%2C+visits+every+implicit+address+and+returns+exact+Gaussian+rotations+on+the+original+owner.+Setup%2C+repetition%2C+staging%2C+return+and+erasure+are+paid+in+O%28E%2Bp%2Bd%2BDK%2BNw%29%3B+retained+history+is+explicit.%0A%0A%23%23+Evidence+and+scope%0ABase+e54523517d0f03e58352e647c403a5af3e525a57%3B+only+research%2Fliteral-layer-phase+is+added.+Run+%60python+-I+-W+error+-B+research%2Fliteral-layer-phase%2Fverify.py%60+and+%60compose.py%60+%28also+-O%29.+Checks+cover+319+packets%2C+seven+table+mutants+and+ten+wrapper+joins+around+an+explicitly+test-only+C+oracle.+Separate+interpreters+and+universal+review+check+arithmetic%2C+ownership+and+exact+movement+counts%2C+including+a+numerically+correct+but+over-cost+scan.+Eight+source+bindings+and+committed+bytes+were+authenticated.%0A%0ANo+new+kappa%3B+all+five+global+assumptions+remain.+C+production%2C+paid+grid+conversion%2C+allocation+and+full+native%2Fcompiler+admission+remain+open.+Credit+Ali+Romman%27s+%235375%2C+the+canonical+layer+authors+and+the+pinned+literal-egress%2Fcontroller+packages.+Prepared+for+%40CubeJerry+with+substantial+OpenAI+assistance+and+separate-agent+review%3B+human%2Fformal+acceptance+is+unclaimed.%0A%0AFull+proof%2C+dependency+pins%2C+review+and+proposed+description%3A+https%3A%2F%2Fgithub.com%2FCubeJerry%2Finteger-mult-bounds%2Ftree%2F8b549ca6557ccbb3017b104b27ea35051f990416%2Fresearch%2Fliteral-layer-phase%0A"
+    },
+    {
+      "id": "literal-native-quadratic-phase",
+      "branch": "research/literal-native-quadratic-phase-20261112-0132",
+      "commit": "172f4535ce8dcff79f626410af845f757c1563be",
+      "tree": "7e51fa9528de8dfe5bd24db2c07db5d599117dc8",
+      "prefilled_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/literal-native-quadratic-phase-20261112-0132?expand=1&title=Lower+the+current+selected+quadratic+Gaussian+phase+to+a+fixed+tape+table+with+complete+owner+return&body=%23%23+Result%0ALower+the+actual+selected+%237000+MOVE24472+right+quadratic+phase+to+one+fixed+8%2C211-location%2C+23-tape+program.+It+preserves+the+constant+once+per+column%2C+derives+counters+from+the+supplied+five-Gamma+header%2C+stages+exact+signed+Gaussian+rotations+and+returns+to+the+original+owner.+Complete+time+and+retained+history+are+O%28V%29+at+this+packed+interface.%0A%0A%23%23+Evidence+and+scope%0ABase+e54523517d0f03e58352e647c403a5af3e525a57%3B+only+research%2Fliteral-native-quadratic-phase+is+added.+Run+%60bind_selected.py%60+and+%60verify.py%60+in+that+directory+with+%60python+-I+-W+error+-B%60+%28also+-O%29.+Checks+bind+the+actual+event+and+all+512+monomial+basis+inputs%2C+replay+376+complete+packets+and+detect+four+semantic+mutations.+Separate+interpreters+and+universal+review+check+the+full+cost%2C+ownership+and+counter+movement%3B+larger+actual-column+prefix+fixtures+are+explicitly+incomplete.%0A%0ANo+new+kappa%3B+all+five+foundational+assumptions+remain.+Descriptor%2Flayout+production%2C+affine+routing%2C+recursive+C%2C+exterior+scalars+and+the+full+caller+remain+open.+%235375+already+proves+the+phase+arithmetic%3B+this+package+supplies+its+selected+literal+boundary.+Credit+its+authors%2C+%237000%2C+%237349+and+the+pinned+layer-phase%2Fegress+packages.+Prepared+for+%40CubeJerry+with+substantial+OpenAI+assistance+and+separate-agent+review%3B+human%2Fformal+acceptance+is+unclaimed.%0A%0AFull+proof%2C+exact+pins%2C+independent+checks+and+proposed+description%3A+https%3A%2F%2Fgithub.com%2FCubeJerry%2Finteger-mult-bounds%2Ftree%2F172f4535ce8dcff79f626410af845f757c1563be%2Fresearch%2Fliteral-native-quadratic-phase%0A"
     }
   ],
   "orientation": {
