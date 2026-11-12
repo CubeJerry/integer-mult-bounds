@@ -1,0 +1,60 @@
+{
+  "status": "PASS_EXACT_RETAINED_DELTA_RECORD_CONTROLS",
+  "sympy_version": "1.14.0",
+  "field": "Q",
+  "seed": 20261112,
+  "named_checks": {
+    "no_raw": {
+      "feasible": true,
+      "record_minimum": 2,
+      "coordinate_minimum": 2,
+      "known_delta_rank": 0
+    },
+    "redundant_q2": {
+      "feasible": true,
+      "record_minimum": 2,
+      "coordinate_minimum": 2,
+      "known_delta_rank": 0
+    },
+    "useful_q1": {
+      "feasible": true,
+      "record_minimum": 1,
+      "coordinate_minimum": 1,
+      "known_delta_rank": 1
+    },
+    "all_raw": {
+      "feasible": true,
+      "record_minimum": 1,
+      "coordinate_minimum": 1,
+      "known_delta_rank": 1
+    },
+    "partial_sum_target": {
+      "feasible": true,
+      "record_minimum": 1,
+      "coordinate_minimum": 2,
+      "known_delta_rank": 0
+    },
+    "repeated_raw_signal": {
+      "feasible": true,
+      "record_minimum": 2,
+      "coordinate_minimum": 2,
+      "known_delta_rank": 0
+    },
+    "invisible_raw_mode": {
+      "feasible": false
+    },
+    "dependent_common_record": {
+      "feasible": true,
+      "record_minimum": 1,
+      "coordinate_minimum": 1,
+      "known_delta_rank": 1
+    }
+  },
+  "additional_matrix_cases": {
+    "independent_common": 24,
+    "dependent_common": 12,
+    "feasible": 34,
+    "infeasible": 2
+  },
+  "scope": "Finite exact controls for the written quantified proof. No source construction or new kappa."
+}
