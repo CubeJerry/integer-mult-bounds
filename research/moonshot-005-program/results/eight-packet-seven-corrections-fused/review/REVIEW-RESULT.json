@@ -1,0 +1,207 @@
+{
+  "MOVE_profile": {
+    "1": 4080,
+    "2": 830,
+    "3": 811,
+    "4": 241,
+    "5": 321,
+    "6": 18,
+    "7": 16,
+    "8": 400,
+    "9": 8
+  },
+  "actual_packet_calls_per_native": {
+    "9": 8
+  },
+  "actual_raw_arithmetic_instructions_preserved": 3045,
+  "all1480_common_outputs_preserved": true,
+  "all_non_MOVE_instructions_literal_and_ordered": true,
+  "all_other4985_residual_coefficients_preserved": true,
+  "chart_recipe_review_scope": "Pins, coverage and rank checked here. The existing exact Clifford/signed-Pauli recipe verification is credited to its inherited engine run, not re-authored or re-run by this checker.",
+  "conditional_paid_positions": 129114,
+  "conditional_paid_profile": {
+    "1": 74272,
+    "2": 14940,
+    "3": 14598,
+    "4": 4338,
+    "5": 5778,
+    "6": 324,
+    "7": 288,
+    "8": 8608,
+    "9": 144,
+    "16": 832,
+    "24": 832,
+    "32": 832,
+    "40": 832,
+    "48": 832,
+    "56": 832,
+    "64": 832
+  },
+  "conditional_rank_surplus": 3760,
+  "conditional_remaining_approximate": 46.9617948198138,
+  "conditional_remaining_exact_bounds": [
+    "617712660190402021339731826237133508882347622748657/13153514735978126263833163494446547176903392886784",
+    "68634740021155780148859091804125945431371958086829/1461501637330902918203684832716283019655932542976"
+  ],
+  "conditional_target_positions": 27344,
+  "conditional_target_profile": {
+    "1": 234,
+    "2": 324,
+    "3": 792,
+    "4": 3870,
+    "5": 1224,
+    "6": 756,
+    "7": 324,
+    "8": 1206,
+    "9": 11542,
+    "17": 832,
+    "25": 832,
+    "33": 832,
+    "41": 832,
+    "49": 832,
+    "57": 832,
+    "65": 832,
+    "73": 832,
+    "145": 416
+  },
+  "counts": {
+    "ADD": 64227,
+    "CLEAR": 67,
+    "COPY": 1,
+    "INIT": 67,
+    "MOVE": 6725,
+    "SCALE": 3670
+  },
+  "exact_seven_cancelled_coefficients_preserved": true,
+  "final_charts_identical": true,
+  "fused_instructions": 74757,
+  "introduced_chart_recipe_coverage": 209,
+  "negative_controls": {
+    "merge_across_observation": "intervening actual raw arithmetic barrier",
+    "omit_eight_rank9_packets": "Rejected: actual partial word emits144 caller rank9 packet calls.",
+    "removed_intermediate_source": "MOVE source location/owner"
+  },
+  "non_MOVE_instructions_preserved": 68032,
+  "observed_receiver_routes": [
+    {
+      "logical_role": 116,
+      "physical_role": 1587,
+      "ranks": [
+        2,
+        5,
+        1
+      ],
+      "route": [
+        3,
+        449,
+        929,
+        131
+      ]
+    },
+    {
+      "logical_role": 144,
+      "physical_role": 1613,
+      "ranks": [
+        7,
+        1
+      ],
+      "route": [
+        3,
+        911,
+        157
+      ]
+    },
+    {
+      "logical_role": 145,
+      "physical_role": 1614,
+      "ranks": [
+        7,
+        1
+      ],
+      "route": [
+        3,
+        914,
+        158
+      ]
+    },
+    {
+      "logical_role": 160,
+      "physical_role": 1627,
+      "ranks": [
+        7,
+        1
+      ],
+      "route": [
+        3,
+        911,
+        171
+      ]
+    },
+    {
+      "logical_role": 161,
+      "physical_role": 1628,
+      "ranks": [
+        7,
+        1
+      ],
+      "route": [
+        3,
+        914,
+        172
+      ]
+    },
+    {
+      "logical_role": 172,
+      "physical_role": 1639,
+      "ranks": [
+        6,
+        2
+      ],
+      "route": [
+        3,
+        524,
+        183
+      ]
+    }
+  ],
+  "parent_compressed_sha256": "ae7a86a02b853f3166c6727d66e0a2440b0e5e4e8e3a7d35e69dae029d66942d",
+  "parent_independent_review_sha256": "0afb0bec5d68b9ad2db80ee9e79e81581689072b76bcc9d33c01b499970957c3",
+  "parent_instructions": 76060,
+  "parent_payload_sha256": "3cb2c8ef4b3f3d4c85703d3d737d4a2f570f380916d91fa0f00d8c3a768900cb",
+  "peak_owned": 43,
+  "physical_equivalence": "Each nested whole-field leg is C_destination C_source^-1. In a segment no other instruction touches this carrier; all other-field actions commute with the delayed move. The complete product telescopes, including phase and layout, to the one final direct move. This preserves every subsequent actual interface under the retained chart/compiler contracts.",
+  "private_inverse_rows_preserved": 400,
+  "raw_after_profile": {
+    "1": 5,
+    "2": 2,
+    "5": 1,
+    "6": 1,
+    "7": 4,
+    "8": 394
+  },
+  "raw_before_profile": {
+    "1": 990,
+    "2": 360,
+    "3": 105,
+    "4": 112,
+    "5": 133,
+    "6": 8,
+    "7": 2
+  },
+  "raw_moves_after": 407,
+  "raw_moves_before": 1710,
+  "raw_rank_sum": 3200,
+  "removed_actual_raw_MOVEs": 1303,
+  "removed_actual_raw_chart_visits": 1303,
+  "reviewed_proof_sha256": "a3c8496bee479739b30d890640fb53cab8207bf0a384d2380ea406c2db47bf76",
+  "route_saving_approximate": 19.776046170012552,
+  "route_saving_exact_bounds": [
+    "14451361928702439304864674483813621668104184874923/730750818665451459101842416358141509827966271488",
+    "7225680964351219652432337241906810834052092437739/365375409332725729550921208179070754913983135744"
+  ],
+  "scope": "Independent full literal fusion reconstruction from actual barriers, physical chart walk, source/parent/recipe pins, and exact full caller invoice. Full1880-input equality, seven cancellations and inverse inherit the independently authenticated parent by whole-field composition. No author code imported, no new dense baseline replay, no new general supplier or exponent. Removed stops are unavailable.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_INDEPENDENT_SEVEN_CORRECTION_FUSION_AND_INVOICE",
+  "word_compressed_sha256": "1536c714dd3500709c7717b8687b53f98d7a30f482aa5b09e5c25a4a23cf8153",
+  "word_payload_sha256": "05b503f0c2f219f328353b984ca821db9d6c3cc0225ff3380c551708d247e8d8"
+}
