@@ -538,3 +538,7 @@ Five integrated portable reviews passed before loss with byte-identical receipts
 Budget recovery files distinguish authenticated bytes from unpinned reconstructions. Original nine-layer COVER and120-cut input remain unavailable. The finite43.527 potential is rejected by a recorded rank-one counterexample. Eight-cohort and endpoint candidates have no independent PASS.
 
 Seven pivot files extend the scientific manifest to982. Recovery-only files stay outside it. Next available runtime must run the new adapter normally/with-O and regenerate missing packages before extending their conclusions.
+
+### Final recovery scope
+
+Twelve original text files were frozen-hash authenticated and GitHub-readback checked. Source construction generators were not recovered; the new source recipe is not an original file. The fresh JavaScript group-zero transcription check executes both rational inverse identities and binary-chart arithmetic, with2187 integer evaluations and two rejection controls. Its exact core code was run in V8; Node I/O wrapper remains unexecuted. This does not establish source associations, all14 groups, whole-word correctness or a complete supplier. Details and reproducible code are under sessions/2026-11-12-S007/recovery/. No old scientific file was changed.

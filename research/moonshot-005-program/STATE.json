@@ -1,11 +1,11 @@
 {
   "schema": "moonshot-005-program-state-v1",
   "branch": "research/moonshot-005-program",
-  "checkpoint_baseline_sha": "d5381d278a37044104f14614b0d7bc1ec97f788b",
+  "checkpoint_baseline_sha": "40912de301eb6be56240a2cbfd6ffcf597011d44",
   "checkpoint_sha_semantics": "Last confirmed remote baseline; the resulting recovery commit is reported only after GitHub confirmation.",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
   "session": "2026-11-12-S007",
-  "phase": "interrupted-runtime-recovery-and-global-code-composition",
+  "phase": "global-forward-reverse-composition-open-after-interruption",
   "target_kappa": "1/200",
   "selected_conditional_kappa": "363005817/100000000000",
   "programme_new_complete_kappa": null,
@@ -579,10 +579,10 @@
   ],
   "path_semantics": "Result paths are relative to research/moonshot-005-program.",
   "tested_source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
-  "publication_status": "Ongoing research; no new complete kappa, not PR-ready. Recovery files distinguish exact text, missing generated artifacts, and unreviewed candidates.",
+  "publication_status": "Ongoing, not PR-ready. Verified source checkpoint4 plus independently proved universal pivot interface persist. Recovery records explicitly distinguish missing sources, unreviewed candidates and newly checked transcription arithmetic. No new kappa.",
   "last_verified_scientific_commit": "d5381d278a37044104f14614b0d7bc1ec97f788b",
   "last_verified_scientific_tree": "cdec7c8ddf77b7b10aa9f985d931e53e83d065e3",
-  "session_status": "Runtime unavailable; recovery checkpoint published and source-worker reconstruction notes pending. Ten-hour request not completed.",
+  "session_status": "S007 interrupted; final durable handoff prepared. No unattended continuation. Requested ten-hour duration not completed.",
   "supporting_results": {
     "index": "SUPPORTING-RESULTS.md",
     "manifest": "SUPPORTING-IMPORTS.json",
@@ -652,8 +652,8 @@
     },
     "affordable_continuation_status": "disproved-within-unchanged-prefix-original-route-geometry-and-recorded-target-profile"
   },
-  "handoff": "CONTINUATION.md",
-  "session_checkpoint_utc": "2026-11-12 05:32:56 UTC",
+  "handoff": "sessions/2026-11-12-S007/HANDOFF.md",
+  "session_checkpoint_utc": "2026-11-12 05:40:13 UTC",
   "continuation_constraints": {
     "terminal_export_lower_bound": 50,
     "fixed_profile_new_call_ceiling_facet": 8,
@@ -758,10 +758,11 @@
     "started_utc": "2026-11-12T01:32:54Z",
     "requested_duration_hours": 10,
     "planned_end_utc": "2026-11-12T11:32:54Z",
-    "status": "runtime-interrupted-before-requested-duration",
+    "status": "interrupted-handoff",
     "runtime_unavailable_utc": "2026-11-12T04:59:35Z",
     "container_available_seconds": 12401,
-    "ten_hour_request_completed": false
+    "ten_hour_request_completed": false,
+    "handoff_prepared_utc": "2026-11-12 05:40:13 UTC"
   },
   "s007_active_investigations": [
     {
@@ -845,6 +846,12 @@
     "byte_authentication": "SHA256 against frozen pre-outage pins; missing bytes are explicitly marked",
     "background_execution": false,
     "regeneration_blocker": "The original one-facet independent checker is missing (SHA25668fae3bd5a9a4f15a496f1e8b7b170880dfab6e66261cdd6d1455dc9a8c5f995). Three-facet review imports it. Recover exact bytes or write and independently validate a replacement with fresh provenance; do not silently bypass pins.",
-    "source_generator_status": "One/two/three/eight-facet original generator bytes are not recovered from surviving context. Preserve recipes/pins, reimplement with fresh validation, and do not claim exact generator recovery."
+    "source_generator_status": "Original one/two/three/eight generators and complete author proof bytes are missing. New reconstructed recipe only; rebuild and independently validate, comparing frozen pins where possible.",
+    "source_recipe": "sessions/2026-11-12-S007/recovery/SOURCE-COUPLING-RECOVERY.json",
+    "exact_original_text_files_authenticated": 12,
+    "scientific_manifest_files": 982,
+    "limited_fresh_check": "sessions/2026-11-12-S007/recovery/RECOVERED-GROUP-CHECK.json",
+    "full_eight_cohort_review_completed": false,
+    "interrupted_source_generated_artifacts_fully_recovered": false
   }
 }

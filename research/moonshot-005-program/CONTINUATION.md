@@ -31,3 +31,7 @@ A changed-common-transport alternative is recorded in ROOT-ENDPOINT-CANDIDATE.md
 - Word-local new chart IDs differ between three-facet and eight-cohort artifacts.
 
 Both compatible uniform complex U>.005 and completed ordinary BIT B>.005 remain required; all five foundations remain. No selected certificate or upstream branch was altered and no PR was submitted.
+
+## Final S007 recovery update
+
+Read sessions/2026-11-12-S007/HANDOFF.md and recovery/README.md. Exact original generator bytes for one/two/three/eight-facet constructions were not recovered; SOURCE-COUPLING-RECOVERY.json is a new algorithm/metadata recipe. Reconstruct with fresh validation. The missing one-facet independent helper must be recovered or replaced under a separately validated new provenance, never silently bypassed. Twelve original text artifacts are authenticated. The fresh group-zero matrix/geometry check is deliberately narrower than a full cohort review. The programme remains open; S007 is interrupted, with no unattended execution.
