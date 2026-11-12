@@ -1,4 +1,31 @@
-# Current construction — S006 second scientific checkpoint
+# Current construction — S007: actual history gain and observation-priced routes
+
+A restored foreign-history channel now lies outside the old pure-payload
+routing graph. Its73,914-instruction word carries q47 to raw172 with143 added
+ADDs and no extra MOVE or lifetime, restoring every common endpoint on1880
+independent inputs. Its independently reviewed74,989-instruction E8 composition
+removes exactlyone residual coefficient;4991 remain and no receiver is complete.
+
+The route theorem deletes only unobserved stops. Applied to the17-shear word
+it reduces1710 raw MOVEs to405, preserving every actual read and endpoint.
+Its moment saving is rigorously about19.80836/native at t=199/200. After all17
+packet fees, the provisional full H4 caller leaves about101.20744/native for191
+missing dependencies. All206 new chart maps have exact source-pinned phase/rank
+checks. Deleted stops grant no access to later controls.
+
+The construction joins shared codes, actual common-history processing,
+retained records and routes around real observations. A seven-term joint E8
+extension now has independent review; its407-MOVE fusion is still under review
+and not yet integrated. Many corrections and96 hosted reverse duties remain.
+A chart318 detour has a proved zero-gain theorem for fixed common-input-independent
+controls; common-dependent replacement changes the observation matrix and
+remains open there.
+
+No new complete kappa. Selected conditional kappa remains .00363005817.
+Both strict suppliers, full physical/recursive costs and all five foundations
+remain. Ongoing programme, not PR-ready. Historical checkpoints follow.
+
+# Earlier checkpoint — S006
 
 Initial common precompensation is now a literal construction: an80,774-operation
 word restores all1480 common outputs on1880 independent inputs and implements17

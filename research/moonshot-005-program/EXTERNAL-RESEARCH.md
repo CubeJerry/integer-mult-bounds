@@ -359,3 +359,13 @@ discussion1163/1166 pages were read, without claiming exhaustive live coverage.
 
 These are technical leads with their stated status, not incorporated proofs.
 No external message, upstream PR, merge or selected-frontier change was made.
+
+## S007 selective upstream check at2026-11-12T03:14:15Z
+
+Main remains e54523517d0f03e58352e647c403a5af3e525a57. Open#7354,#7361,#7362
+concern a separate signed17-copy#7334 source. #7354's47 owned MOVEs give9
+consecutive same-lifetime pairs, all with intervening ADDs; fixed one-ADD
+retiming fails. This does not contradict fusion across unobserved private stops.
+#7361's13 multi-ADD rechart components and#7362's95-mover/285-midpoint funded
+rank2 cuts report no gain under fixed outside charts/clocks. These are scoped
+open results, not imported theorems. #7363/#7364 metadata was noted only.

@@ -1,65 +1,45 @@
 # Resume the same programme
 
-Read the exact remote HEAD of `research/moonshot-005-program`, STATE, TARGET and
-OBLIGATIONS. This integration preserves concurrent S006 commit
-107462f8be155fa5657556bcacb607e387a0c972 and S007 scientific parent
-5c3c6bf1a22e665c41538785e4ff5b66bb851977. Canonical last examined is
-e54523517d0f03e58352e647c403a5af3e525a57. Selected conditional kappa remains
-.00363005817; no new kappa, all five assumptions retained.
+Read exact remote HEAD, STATE, PROGRAMME, TARGET and OBLIGATIONS. This checkpoint
+follows confirmed f8267f4491ea68eea0adbd86f7474f8584bd331b. Canonical remains
+e54523517d0f03e58352e647c403a5af3e525a57, checked03:14:15UTC on2026-11-12.
+S006 is closed. S007 remains active from01:32:54UTC with requested planning
+end11:32:54UTC; no unattended execution is promised. No new kappa.
 
-## Current construction and decisive next step
+## Current construction and next decisive work
 
-S006 supplied an actual80774-operation word restoring all1480 common outputs
-and17 private shears. It costs17 rank1 packets,111 real histories and peak121,
-leaving191 dependencies and scalar/precision/compiler obligations. Its joint
-packet criterion is rank([J;E]);104 first-Y coordinates need94 exact-gain
-zero-debt directions at10 packets,96 at8. Common-debt rank alone is insufficient.
+The restored foreign-history channel q47-to172 has an exact73914-word with143
+extra ADDs and no extra MOVE/lifetime. Its E8 composition removesone weighted
+residual;4991 remain. The unit17 observation-preserving route rewrite reduces
+1710 raw calls to405, saving19.80836 moment/native and leaving101.20744 after
+all17 packet fees. It still owes191 dependencies. All actual observations are
+retained and206 new chart pairs have exact phase/rank checks. See their three
+results packages and independent reviews.
 
-S007 supplies sharp retained-difference record counts including every raw duty,
-a literal73807-operation restored60-to213 dirty-helper swap costing one new
-rank1 return, and newly recovered all104 original-route history conservation
-laws. The swap is a partial cross-coordinate shear already granted in the
-pure-routing graph; it does not solve that excluded completion. All three
-packages have separate independent mathematical reviews.
-
-Primary next construction: real shared receiver gain after restoration through
-common-dependent retained records or newly authenticated history relations.
-Eight original owned-chain pulse responses are now being tested against all104
-receiver histories; that active investigation is not yet admitted here. An
-all-new-transport packet-code bound has been reviewed in scratch but awaits
-integration. Its geometric tariff cannot be applied to hybrid funded paths.
+The joint seven-term E8 extension now has independent review; its407-MOVE
+fusion remains under review and both await integration. A full96 hosted-reverse
+history gate is author-frozen, not admitted yet. Next: compatible receiver
+gains with all common/raw information retained, and the96 reverse duties under
+the complete changed invoice. At changed chart318 access, q-only controls are
+excluded, but an actual common-dependent swap changes the observation matrix
+and remains open if its displaced common mode and every raw return are supplied.
 
 ## Do not repeat or overextend
 
-- Original-station controls are excluded for all104 pairs separately. This is
-  not a union-of-all-donor-stations theorem; changed access or records differ.
-- Receiver189's220-station gate gives no gain after common restoration using
-  only packet-dependent precompensation. Foreign controls need fresh N B.
-  General decoding requires e-D0R in row(C,S,N R).
-- Eight-packet prefix and54/43 routing floors retain their specified graph.
-  Dirty/common-dependent histories are a different interface;890 reservations
-  spent by that prefix cannot be spent again for free.
--1472 neutral pure overwrites lose a common mode;748 lose it immediately.
-  Swaps and acquired common records must preserve every independent raw input.
--31 old modules mismatch jointly at rank30; the scalar-unit family has37
-  accessible events/rank35 withtwo zero hub columns. Fixed E8 Gram responses
-  fail the77/0 source duals. These are scoped exclusions, not universal no-gos.
-- H4 and S8 have different funded rails. Eight rank9 plus8 rank1 leaves19.1857;
-  ten plus8 leaves1.3824 before further duties. Price all scalar/storage costs.
+- ALL104-HISTORY excludes own original-station completion even for arbitrary
+  common-dependent increments when relevant commonY endpoints are restored.
+  It is per donor, not a union of all donors' stations.
+- Mixed-swap return counts include every raw duty. Retained q-delta is not an
+  independently supplied common record. Source acquisition is not automatic.
+- The98.992356 paid-code bound has all-new-transport and old-access scope. It
+  is not a hybrid bound; its old H4 comparison changes when raw routes change.
+- Deleted raw stops are unavailable. Later controls must retain and price
+  their own actual read/control stops. No old reservation is credited twice.
+- CHART318-OLD-O fixes the common matrix. Its old-null identity is weaker than
+  ALL104's entire-history factorization; changed common matrices remain open.
+- The E8 and54/43 routing certificates retain their pure-value graph. Dirty
+  history gains require actual jointly compatible words.
 
-Use REPRODUCE and package reviews. Recovery/quiet-rechart WIP remains
-unverified. S007 began01:32:54UTC with requested10-hour planning end11:32:54UTC;
-this record promises no unattended execution. The programme remains ongoing
-and is not PR-ready.
-
-
-## S006 closing access lead (preserved alongside active S007)
-
-Before committing to the fixed E8 foreign-control correction for77-to189, inspect
-`wip/foreign-history-access/`. Exact finite checks give a packet-kernel vector
-q77=1,q10=-1,q16=-1,q20=1,q26=1 supported on original donor routes within the
-receiver189220-station null set. Check actual private rows S and permitted mixed
-encodings first; a private row seeing this vector changes the gate. This WIP
-does not replace the active S007 owned-chain/retained-record investigation, and
-is not an admitted uniform supplier or general no-go. Its review, if present,
-states exactly which finite checks and inherited premises were examined.
+Keep complex U>.005, completed ordinary BIT B>.005 and all five foundations
+visible. Historical access WIP remains separately scoped. No upstream PR was
+submitted. The programme remains ongoing and not PR-ready.

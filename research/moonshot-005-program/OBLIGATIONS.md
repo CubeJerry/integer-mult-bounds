@@ -340,3 +340,19 @@ No supplier, foundation or complete kappa is newly established.
 The mixed-record theorem does not treat a retained swap carrier as an
 independent supplied common record. The paid-code bound does not charge total
 path length as newly paid cost. Both distinctions are essential to SHARED-GAIN.
+
+## S007 checkpoint3 — actual channels and priced observation access
+
+| ID | Proposition and dependencies | Status / next requirement |
+|---|---|---|
+| FOREIGN-HISTORY-47 | Literal73914-word on all1880 independent inputs restores Tu and maps raw q172 to q172+q47, preserving all other raw inputs;143 ADDs, no new MOVE/lifetime. | PROVED finite source identity, independently reviewed. A new edge outside the old pure-routing grant. results/foreign-history-channel/. |
+| E8-ONE-CORRECTION | Literal74989-word embeds the2362-prefix and all source/raw reservations once, cancels q47/4 at172, restores common outputs and retains a400-row inverse. | PROVED finite composition.4991 other residuals and all reverse duties remain. results/eight-packet-one-correction/. |
+| RAW-ROUTE-FUSION | For every valid monotone private MOVE block with no intervening non-MOVE use, direct nested transport at the last old MOVE preserves the word and weakly reduces every0<t<=1 moment. | PROVED under retained chart semantics. Unit17 has405 raw MOVEs;206 introduced maps checked exactly. Deleted access unavailable. results/observation-preserving-route-fusion/. |
+| CHART318-OLD-O | Every fixed common-input-independent control on{16,35,127,318} has original receiver189 null gain determined by Delta215-Delta189; restoring these endpoints makes pure signals unobservable in that original interface. | PROVED scoped theorem; common-dependent replacements may change O and remain open. results/retargeted-history-control/. |
+| JOINT-FOREIGN-CORRECTIONS | Jointly realize enough weighted corrections with restored common endpoints and actual histories after changing routes. | OPEN PRIMARY. Seven-term word reviewed but not yet integrated;407-route fusion review active. |
+| HOSTED-REVERSE-HISTORY | Supply96 hosted Y2-to-X2 shears, retaining independent raw values and all common data within the complete profile. | OPEN. Full history/control analysis underway; no free reverse completion presumed. |
+
+SHARED-GAIN now has an actual foreign channel; this does not complete104 required
+own-pair endpoints. CHART318-OLD-O fixes the common observation matrix. The
+stronger ALL104-HISTORY has a different entire-history factorization and already
+excludes original own-station neutral swaps, including common-dependent ones.

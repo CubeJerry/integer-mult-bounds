@@ -466,3 +466,28 @@ actual packet/history certificate hashes; any additional review has its own scop
 The general hybrid weighted-cut and shortest-path accounting lemmas are
 retained in source-localised-code-budget/HYBRID-CUTS.md. They explicitly
 subtract funded capacities and have no source-specific H4 certificate yet.
+
+## S007 checkpoint3 admission
+
+Foreign-history review checks a full1480-input adjoint, exact pulse/guard,
+original-native and1710-reservation lineage, all physical types and universal
+1880-input composition. It reuses the pinned native baseline; no second dense
+baseline replay is claimed. The source uses exact rational coefficients; the
+frozen proof's dyadic wording has an explicit DOC-ERRATUM. Added coefficients
+are dyadic. E8 composition review independently derives root/Gram factors,
+all400 private prefix rows, all2362 prefix and71261 native instructions,
+all reservations, actual cache/read charts and400 inverse rows. Exactlyone
+coefficient vanishes. Wrong normalization, cache and decoder controls survive.
+
+Route review independently checks405 fusion blocks,72737 unchanged non-MOVE
+instructions,6403 actual raw uses, proper nesting and the full changed invoice
+with a distinct2^160 root engine. Root's206-chart check uses two pinned retained
+exact engines including global phase; it is not a newly authored independent
+engine or a physical lift theorem. Allthree path-only portable review runners
+reproduce frozen receipts byte-for-byte after integration.
+
+Chart318 has two propagation implementations by one worker. The lead's
+independent mathematical review corrected the information theorem to fixed
+common-input-independent controls before admission. The old-functional identity
+holds more widely, but a changed common matrix can have new null relations.
+Direct integrated reproduction is separate from the lead's proof review.

@@ -616,3 +616,16 @@ suppliers. A rerouted incidentchart controller is under construction. Session
 continues within the requested10-hour window; no new complete kappa or PR.
 
 Before checkpoint2 publication, remote S006 handoff commits 6e145f2b and f52daa57 were fetched. Only unpublished S007 commits were replayed on that new remote head; no published history was rewritten. The corrected packet-admission README, WIP access proof and all S006 handoff metadata are preserved. All 825 scientific file hashes agree after integration.
+
+### S007 checkpoint3 — actual foreign gain and observation-priced routes
+
+Prepared2026-11-12T03:28:20Z after confirmed remote
+f8267f4491ea68eea0adbd86f7474f8584bd331b. Admitted restored q47-to172, exact
+one-term E8 composition, and unit17 route fusion to405 actual raw MOVEs with
+refreshed full provisional invoice and206 exact phase/rank checks. Three
+independent portable receipts match frozen bytes. Chart318 q-only obstruction
+admitted after lead correction of its feedback scope. The seven-term E8 parent
+has now passed independent review; its fusion is still under review and both
+await integration. Next wave: changed-O retained swaps and96 hosted reverse
+histories. Upstream unchanged; no new kappa or PR. The10-hour session remains
+active. Resulting SHA is recorded after GitHub confirmation, not here.

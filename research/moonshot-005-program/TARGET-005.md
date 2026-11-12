@@ -475,3 +475,24 @@ New foreign history channels and observation-aware raw route fusion are under
 source review. Do not subtract their tentative savings or enlarge S in a
 claimed complete certificate before actual words and compatible accesses are
 admitted. The frozen H4 invoice remains authoritative for unchanged routes.
+
+## S007: changed invoice from observation-preserving routes
+
+The actual17-shear word has R_new={1:3,2:1,3:2,5:1,8:398}, replacing
+R_old={1:990,2:360,3:105,4:112,5:133,6:8,7:2}. Both have rank sum3200;
+1710 raw calls become405. At t=199/200, Delta=sum(R_old-R_new)r^t is
+rigorously enclosed around19.8083625716245272. Its full provisional caller is
+P_partial=P4+18(R_new-R_old)+18*17{rank1}, T_partial=T4.
+It has129240 paid positions,27344 targets, surplus4750 and remaining
+moment101.20743952182206.../native. Every17 packet fee is included.
+All191 missing dependencies and all physical/uniform contracts remain owed.
+
+The old98.39907695 allowance is not a universal cap on a changed raw word.
+Earlier exclusions retain their fixed-profile/access scopes. Conversely,
+deleted raw visits are unavailable: later controllers must retain and price
+their own real read/control stops. The new calls have exact chart phase/rank
+checks; these do not replace physical compiler and unbounded-column foundations.
+
+The foreign channel adds no recursive moment. Its E8 composition cancels one
+of4992 residual terms; it supplies neither the remaining rows nor the96 hosted
+reverse and8 coupled reverse duties. Both strict suppliers remain open.

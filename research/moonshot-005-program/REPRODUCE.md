@@ -204,3 +204,15 @@ python3 -B "$P/verify_checkpoint.py"
 Other source/fixture arguments are in package READMEs. Unit17 builder takes
 MATRICES.json and ../joint-nonneutral/RESULT.json.gz. Keep scratch outputs outside
 frozen packages. These checks do not establish the missing complete supplier.
+
+## S007 actual channel, one-term composition and route fusion
+
+Each results/{foreign-history-channel,eight-packet-one-correction,
+observation-preserving-route-fusion}/ has a frozen independent checker and
+path-only review/run_review.py adapter. Run with
+`--repo /path/to/integer-mult-bounds --output /tmp/RECEIPT`.
+The output REVIEW-RESULT.json must equal the frozen receipt. CHART-MAPS.md
+in the route package gives the exact phase/rank check; inherited compiler
+assertions must remain enabled. retargeted-history-control/run_check.py takes
+the same flags and reproduces DUAL-CHECK.json. Each package keeps author
+reproduction commands, source pins, proof scope and meaningful negative controls.
