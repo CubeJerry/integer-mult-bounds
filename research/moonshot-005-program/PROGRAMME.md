@@ -1,3 +1,9 @@
+## S009 checkpoint5 — verified source interfaces and the distributed-consumer frontier
+
+Three new packages are independently accepted. The77905-instruction late-null-seven word acquires seven real Gram directions and one original d56, completes eight paired-parent reverse outputs, and retains full1880-input correctness. Its residual rank88 and provisional margin19.1321664213467 are partial-source results. Scalar fitting-matrix gluing proves a precise biclique normal form, a necessary three-active-row exception and rank(K-G)<=8. Complete D4 geometry and disjoint-packing proofs give block rank>=35 and a scoped complete price deficit>1.0793049713039/native.
+
+Concurrent S00847afb650 is preserved intact. Its restored-endpoint gate contradicts a proposed cheap global full-Gram extension with the same short null births; see late-null-seven/GLOBAL-LIMIT.md. The active goal is an actual useful distributed consumer in one compatible current-row code. Changed fitting matrices and additional innovative transport need their own source access, endpoint restoration and full bills. The cyclic22/rank82 source remains a separate valid construction. No new complete kappa; both strict suppliers and all five foundations remain. The programme is ongoing and not PR-ready; S009 continues toward22:58:11 UTC.
+
 ## S008 checkpoint5: recovered words and the consumer-access frontier
 
 The current package results/s008-recovered-cut-and-entry/ proves causal retained-Hub gates with restored joint D coding and the all400-private57 floor under downward forward transport. It excludes the original-support C4-to-D5 candidate by a63-mode bound. Exact recovered aligned/permuted entry words preserve all1880 directions and parent duties; the rank8 assignment reaches all96 singleton cuts for8real rank1 calls, with remaining moment33.01712837582312. Coupled-X debt remains. The unchanged Hub history has no pure originalD information.

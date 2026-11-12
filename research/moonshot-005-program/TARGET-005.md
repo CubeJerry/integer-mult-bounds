@@ -675,3 +675,13 @@ The current package results/s008-recovered-cut-and-entry/ proves causal retained
 The new complete-target cut removes the pureGramHub premise, but its unrestricted nested-edge price relaxation is exactly8 via zero→span511, where no original private carrier can consume. Consumer-access and continuation constraints or a genuine global current-row construction are therefore primary. The actual concurrent cyclic22/rank82 source remains a construction lead; do not assume its unfinished map isP-I or reset spent paths. No new complete kappa, not PR-ready; both strict suppliers and all five foundations remain.
 
 Exact scoped comparisons: closed retained returns cost at least10*5^(199/200)=49.599255119493925; arbitrary-interleaved pure-eight forward allowance is49.26950365220561, deficit>.3297514672883. The all-private theorem uses only the surviving union gate:49+8=57 versus49.03359816976095, deficit>7.9664018302. Its missing singleton premise is not borrowed. Pure C4/D5 support requires63 rank1 calls even granting coupled repairs free, deficit>13.9664018302. These are necessary costs in stated interfaces, not a complete multiplier lower bound.
+
+## S009 checkpoint5: exact prices and global compatibility
+
+The late-null word adds18*(7{rank3}+{rank1}) to the paired caller, with all raw/outer/native terms unchanged. Its86ADD,8INIT,8MOVE and8CLEAR yield77905 operations,423 lifetimes, peak43 and remaining moment19.1321664213467/native. This is a valid eight-source observation interface, not a complete supplier or the cheapest direct repair of that partial problem.
+
+For scalar K with row(K) in the fixed E8 space plus one direction, the proved normal form is K=diag(1-t*g)G+t g^T when active root span>=3; the sharp smaller-span exception has at most three active rows. In all cases rank(K-G)<=8. Arbitrary rank-nine row spaces, singular operator decoders and a physical complete invoice remain outside this theorem.
+
+Disjoint cyclic D4 blocks have total rank R>=35. With beta=2+2*2^(199/200)+2*5^(199/200)-2*8^(199/200), the enlarged-chart price is at least35+78*beta>40.5774346602217. The original/actual late-two forward allowances after eight coupled calls are39.07974274338085/39.49812968891777. Shared corrections and larger/different forward interfaces are excluded from this obstruction.
+
+Seven C6 null births plus a hosted ghost and original-d return give nine relevant upward lifetimes. Two C6 supports cover<=8 hosted normals, while S008 requires>=42 at the full restored-endpoint/retained-Gram audit. Thus global coefficient supply at those short charts is an incompatible premise in that scope. The current next step is a genuine distributed consumer, not an unpriced global null extension.

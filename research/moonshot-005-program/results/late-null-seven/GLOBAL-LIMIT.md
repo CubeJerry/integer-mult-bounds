@@ -1,0 +1,11 @@
+# Compatibility with the restored-endpoint gate
+
+The partial77905-instruction word is independently accepted. Its section6 global continuation is a conditional algebraic template, not an available physical extension. Concurrent S008 commit47afb6500bc08e231d315cdda00674d93fd59ed4 proves an obstruction to realizing that template with the same short births and a simultaneous restored-endpoint/full-Gram Hub boundary; see ../s008-recovered-cut-and-entry/TRANSPORT-GATES.md.
+
+Suppose all400 genuine private trajectories remain monotone, only the eight stated coupled entry calls are added, fixed forward calls are downward, and every other innovative outward message is charged. If all original first-family and D endpoints are restored while the Hub has full original-B column rank and the complete hosted Gram space, every union of m-7 retained birth-support sets must cover at least42 hosted normals.
+
+Seven C6-born nulls, one short hosted ghost and one actual original-d return give at most nine relevant new upward lifetimes. For m=9, choose two of the C6 births: a dimension6 chart can be contained in at most four of the distinct odd-normal facets, so their union has size at most eight, below42. Keeping the return as a separate lifetime gives the more permissive count; erasing it after adding its data does not remove its charged transport. If only eight lifetimes are counted, the singleton support requirement is even stronger. Thus those claimed short births cannot supply the full global Gram modes under this audited interface.
+
+The valid affine-null identity is not at fault. The missing premise is a global source schedule that simultaneously preserves its short actual acquisition cocharts, supplies the full coefficient rows and restores the independent endpoint targets. The partial word supplies only G_UB d_B. In the actual cyclic parent even the old direct chart1105 acquisition disappears; any replacement requires its real new chart and price. Existing Gram-row rank statements are not source access.
+
+Distributed completion that never exposes the full pure Gram space at the Hub, honestly paid innovative common transport, or a different representation remain outside the cited gate. A temporal extension to earlier Hub histories requires its own explicit proof; this note invokes the published simultaneous-boundary theorem only. No new kappa.

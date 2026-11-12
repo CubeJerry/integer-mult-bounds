@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { resolve, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+import { gunzipSync } from "node:zlib";
+import { createHash } from "node:crypto";
+const repo=resolve(process.argv[2]||"."), output=resolve(process.argv[3]||"d4-js-output");
+const sha=b=>createHash("sha256").update(b).digest("hex");
+const nativeBytes=readFileSync(resolve(repo,"research/shared-wire-split-composition/data/final.json.gz"));
+if(sha(nativeBytes)!=="2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883")throw Error("native pin");
+const invoiceBytes=readFileSync(resolve(repo,"research/moonshot-005-program/results/eight-packet-seven-corrections-fused/INPUT-INVOICE.json"));
+if(sha(invoiceBytes)!=="b8adae359984f27f140db1fb3cf7e37f1f96a25bdb1cc586de6dca6b47534248")throw Error("invoice pin");
+const native=JSON.parse(gunzipSync(nativeBytes).toString("utf8")), invoice=JSON.parse(invoiceBytes.toString("utf8"));
+const core=eval(readFileSync(resolve(dirname(fileURLToPath(import.meta.url)),"verify-core.js"),"utf8"));
+const catalogue=core.buildIndependentD4Catalogue(), cover=core.certifyIndependentD4Cover(catalogue);
+const binding=core.bindNativeD4Source(native,catalogue,cover);
+const budget=core.certifyD4Budget(invoice,binding.native_raw_histogram,cover.minimum_total_block_rank);
+budget.native_bridge_status="PASS: native gzip SHA256 and complete native binding checked in this run.";
+mkdirSync(output,{recursive:true});
+writeFileSync(resolve(output,"CATALOGUE.json"),JSON.stringify(catalogue.records)+"\n");
+const concise={...catalogue};delete concise.records;
+writeFileSync(resolve(output,"RESULT.json"),JSON.stringify({catalogue:concise,cover,binding,budget},null,2)+"\n");
+console.log("PASS_FRESH_JS_D4_NATIVE_BOUND_RANK34",catalogue.all_orthogonal_quadruples,budget.ambient_chart_floor.approx);

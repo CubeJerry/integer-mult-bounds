@@ -543,3 +543,12 @@ complete exponent follows from the new finite rank82 or the scoped obstructions.
 | CONSUMER-ACCESS | Useful distributed consumption and complete restoration in one global current-row code. | Primary open obligation. |
 
 Details and verification: results/s008-recovered-cut-and-entry/. Unavailable original CP5 files are listed in its RECOVERY.json; hashes alone are not recovered evidence.
+
+## S009 checkpoint5 proof dependencies
+
+- **LATE-NULL-AFFINE — proved.** At every field volume, genuine cocharted z,z'=z-Ed and real zero observers -C^Tz,+C^Tz' give -C^TEd. The actual77905-word instance retains all1880 original inputs, every lifecycle and the full invoice. Independent review: results/late-null-seven/review-independent/. The eight completions belong to the paired parent only.
+- **SCALAR-SINGLE-EXTENSION — proved in characteristic zero.** For every fitting K whose row space lies in W+<h>, h outside W, active root span>=3 implies the stated biclique normal form; the at-most-three-active-row exception is necessary. Every such K has rank(K-G)<=8. Depends on all104/5356 exact source spans and independent Q9 witnesses. Arbitrary block operators and physical realization remain open; see results/scalar-fitting-glue/.
+- **D4-BLOCK-RANK35 — proved finite-source theorem.** Every partition of the96 hosted roots into subsets of the complete3150 D4 catalogue has sum of real block ranks>=35. All full disjoint packings number1585 and have size at most4. Independent geometry/packing review: results/d4-cyclic-block-barrier/review-root/. Rank35 attainability is not asserted.
+- **D4-INDEPENDENT-PRICE — disproved within stated architecture.** Independent fresh block returns plus the specified cyclic family routes cost>=35+78*beta; the two stated complete forward tariffs fail. Shared/mixed corrections and different routing contracts are outside scope.
+- **GLOBAL-SHORT-NULL — contradicted under the restored/retained audit.** The proposed nine short lifetimes have a two-birth union of size<=8, below the required42. The valid affine lemma does not provide a global compatible acquisition schedule. See late-null-seven/GLOBAL-LIMIT.md and the preserved S008 transport gate.
+- **DISTRIBUTED-CONSUMER — open primary.** Construct a real current-row consumer and later restoration for the full target. The parity-line LP optimum8 has no original private consumer and is not a physical algorithm. Continue from actual source words, with the entire invoice and all foundations retained.
