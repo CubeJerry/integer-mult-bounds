@@ -1,8 +1,8 @@
 {
   "schema": "continuous-swarm-checkpoint/v1",
   "started_utc": "2026-11-12 01:31 UTC",
-  "updated_utc": "2026-11-12T02:30:59.206136+00:00",
-  "status": "wave1_published_wave2_independent_review",
+  "updated_utc": "2026-11-12T03:05:24.178816+00:00",
+  "status": "five_verified_publications_wave3_active",
   "base": "e54523517d0f03e58352e647c403a5af3e525a57",
   "selected_kappa": "363005817/100000000000",
   "recovery_branch": "recovery/continuous-swarm-20261112-0132",
@@ -60,14 +60,14 @@
       "track": 75,
       "base": "e54523517d0f03e58352e647c403a5af3e525a57",
       "scope": "General fixed ambient A>=m quantitative separated rank-library construction; actual bit lengths, per-cut integrality and rank descent.",
-      "status": "author_frozen_peer_review",
+      "status": "independently_reviewed_published",
       "dependencies": [
         "#7345",
         "FINITE-PRECOMPILATION.md",
         "wave1 chronological-leaf-owner-index valid-library premise"
       ],
       "output": "/workspace/scratch/be42ab5b7196/worker-a2/research/ambient-rank-library",
-      "next": "B independently reviews arbitrary-ambient divisor/cost and quadratic-output obstruction."
+      "next": "Frozen; exact remote commit and user review link in PUBLICATIONS.json."
     },
     {
       "worker": "crt_reusable_history",
@@ -75,13 +75,13 @@
       "track": 20,
       "base": "e54523517d0f03e58352e647c403a5af3e525a57",
       "scope": "Literal actual-header implicit-address S_D phase sweep; variable D,K,r,P,S, same-owner payload and full history.",
-      "status": "code_frozen_peer_review",
+      "status": "independently_reviewed_published",
       "dependencies": [
         "#5375",
         "literal-layer-egress 51ab0539059214fcfa044938c36a0b6017232be5"
       ],
       "output": "/workspace/scratch/be42ab5b7196/worker-c2/research/literal-layer-phase",
-      "next": "A reviews universal proof; root separate dense CPU/address oracle."
+      "next": "Frozen; exact remote commit and user review link in PUBLICATIONS.json."
     },
     {
       "worker": "literal_layer_boundary",
@@ -98,6 +98,51 @@
       ],
       "output": "/workspace/scratch/be42ab5b7196/reviews/b2-emitter",
       "next": "No duplicate publication. Future full emitter must preserve actual intervening ordinary events and full-field charts/returns."
+    },
+    {
+      "worker": "literal_layer_boundary",
+      "wave": 3,
+      "track": 20,
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Literal fixed-recipe selected #7000 quadratic phase for every f, including absolute i^(q0*f), packed five-Gamma ABI; affine and descriptor production excluded.",
+      "status": "active_unverified",
+      "dependencies": [
+        "#7000 event24472 owner415 frames3->99",
+        "#5375",
+        "literal-layer-phase 8b549ca6557ccbb3017b104b27ea35051f990416"
+      ],
+      "output": "/workspace/scratch/be42ab5b7196/worker-b3/research/literal-native-quadratic-phase",
+      "next": "Finish scoped proof/audit; independent review before any contribution publication."
+    },
+    {
+      "worker": "crt_reusable_history",
+      "wave": 3,
+      "track": 85,
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Literal complete-record reversal on canonical binary P,R,B descriptors, same DATA owner and O(E+PRB) complete time; only contiguous-block tensor-X corollary.",
+      "status": "active_unverified",
+      "dependencies": [
+        "upstream02-streams.tex",
+        "#5188",
+        "#6992"
+      ],
+      "output": "/workspace/scratch/be42ab5b7196/worker-c3",
+      "next": "Finish scoped proof/audit; independent review before any contribution publication."
+    },
+    {
+      "worker": "compiler_exits",
+      "wave": 3,
+      "track": 60,
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Overlap/source/ABI/cost audit for selected1125 scalar calls, then separate universal review of B3.",
+      "status": "active_unverified",
+      "dependencies": [
+        "#6990",
+        "current-scalar-flat-tables 13193a22b1070a74a8580c5d3ea27470443f815a",
+        "#7268"
+      ],
+      "output": "/workspace/scratch/be42ab5b7196/reviews",
+      "next": "Finish scoped proof/audit; independent review before any contribution publication."
     }
   ],
   "verified_packages": [
@@ -121,6 +166,20 @@
       "commit": "81f0b0b9a920bd1c9da583cbc3612efd5e75ea94",
       "tree": "78ccf8c766e6bc977a347d0be593685cf327249f",
       "prefilled_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/chronological-leaf-owner-index-20261112-0132?expand=1&title=Locate+every+expanded+compiler+leaf+and+preserve+its+source+or+owned-bank+identity+through+recursive+return&body=%23%23+Result%0ALocate+and+invert+every+ordinal+in+the+separated+compiler%27s+recursively+expanded+rank-one+paid-leaf+projection.+A+weighted+suffix+table+preserves+each+chronological+cut+while+upward+port+translation+identifies+the+original+source+row+or+namespaced+owned+bank.+Input+ports+of+one+whole+invocation+are+injective%3B+different+leaves+may+revisit+one+physical+field.%0A%0AThis+composes+%237345%27s+library+with+the+%237346%2C+%237347+and+%237348+occurrence%2Fsource%2Fcomplement+codecs.+All+actual+integer+lengths%2C+setup%2C+path+copying+and+a+separate+serialized-tape+simulation+are+charged%3B+no+free+payload+access+is+inferred.%0A%0A%23%23+Verification%0ABase+e54523517d0f03e58352e647c403a5af3e525a57.+Run+%60python3+-I+-W+error+-B+research%2Fchronological-leaf-owner-index%2Fverify.py%60%3A+4%2C102+leaves%2C+2%2C970+calls%2C+15+controls%3B+optimized+replay+agrees.+A+separate+nonminimal-library+recursion+oracle+checks+24%2C137+leaves%2C+24%2C205+calls%2C+25%2C120+ports+and+three+mutants.+Eight+exact+source+pins+and+the+universal+proof+received+separate+review.%0A%0A%23%23+Limits+and+credit%0ANo+new+kappa%3B+selected+0.00363005817+remains+conditional+on+all+five+assumptions.+The+full+scalar%2Fphase%2Fadapter+word%2C+physical+gather%2Freturn%2C+numerical+endpoints+and+actual+selected+huge+library+remain+open.+Larger+ambient+A+accepts+a+supplied+valid+library%3B+default-ambient+width+bounds+are+not+transferred.%0A%0APrepared+for+%40CubeJerry+with+substantial+OpenAI+assistance.+Credit+%234507%2C+%235071%2C+%237345%2C+%237346%2C+%237347+and+%237348+and+their+authors%2C+including+Jacob+Alan+Sussman%2C+zxv%2C+Mihir+Srivastava+and+JoyboyBrian.+Separate+AI+review+is+not+human+or+formal-kernel+acceptance.%0A%0AFull+proof%2C+provenance%2C+checks+and+open+questions%3A+https%3A%2F%2Fgithub.com%2FCubeJerry%2Finteger-mult-bounds%2Ftree%2F81f0b0b9a920bd1c9da583cbc3612efd5e75ea94%2Fresearch%2Fchronological-leaf-owner-index%0A"
+    },
+    {
+      "id": "ambient-rank-library",
+      "branch": "research/ambient-rank-library-20261112-0132",
+      "commit": "d622d8c62defa9defeb95741e88b33a120044866",
+      "tree": "4443d9bba2d5a215918da3b0ecf51733d4b45493",
+      "prefilled_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/ambient-rank-library-20261112-0132?expand=1&title=Construct+chronological+rank+libraries+at+independent+ambient+caps+and+prove+the+quadratic+explicit+width-output+obstruction&body=%23%23+Result%0AExtend+%237345+to+every+fixed+independent+ambient+cap+A%3E%3Dmax+target%2C+preserving+each+chronological+exit+divisor.+Prove+explicit+bit%2Ftape+metadata+bounds+and+a+varying-A+family+with+B_n%3D2%5E%28floor%28%28n-A%29%2F2%29%2B1%29%2C+whose+plateau+outputs+contain+floor%28%28A-1%29%5E2%2F4%29%2B2A+bits.+This+rules+out+uniform+near-linear+explicit+output%3B+it+does+not+contradict+fixed-template+asymptotics.%0A%0A%23%23+Evidence+and+scope%0ABase+e54523517d0f03e58352e647c403a5af3e525a57%3B+only+research%2Fambient-rank-library+is+added.+Run+%60python+-I+-W+error+-B+research%2Fambient-rank-library%2Fverify.py%60+%28also+-O%29%3A+1%2C267+ranks%2C+4%2C000+obstruction+rows+and+15+controls.+Separate+proof+review+and+brute-force+replication+checks+pass+269+rows+and+three+mutations.+All+nine+commit%2Fpath+bindings+and+committed+bytes+were+checked.%0A%0ANo+new+kappa%3A+0.00363005817+remains+conditional+on+all+five+assumptions.+Actual+selected+manifests%2C+physical+native+execution+and+full+instruction+emission+remain+open.+Credit+%234507%2C+%234638%2C+%235071%2C+%236916+and+%237345%3B+prepared+for+%40CubeJerry+with+substantial+OpenAI+assistance%2C+including+separate-agent+review.+Human%2Fformal+acceptance+is+unclaimed.%0A%0AFull+proof%2C+costs%2C+reproduction%2C+review+and+proposed+description%3A+https%3A%2F%2Fgithub.com%2FCubeJerry%2Finteger-mult-bounds%2Ftree%2Fd622d8c62defa9defeb95741e88b33a120044866%2Fresearch%2Fambient-rank-library%0A"
+    },
+    {
+      "id": "literal-layer-phase",
+      "branch": "research/literal-layer-phase-20261112-0132",
+      "commit": "8b549ca6557ccbb3017b104b27ea35051f990416",
+      "tree": "af4494583ae6533dcd74e6e42f5e4e23aecc811c",
+      "prefilled_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/literal-layer-phase-20261112-0132?expand=1&title=Implement+the+outer+layer+phase+sweep+from+its+actual+encoded+header+with+a+fixed+finite+tape+program&body=%23%23+Result%0AImplement+the+actual+outer+S_D+phase+sweep+from+its+nine-Gamma+header%3A+one+fixed+2%2C146-location%2C+twenty-tape+program+derives+geometry%2C+visits+every+implicit+address+and+returns+exact+Gaussian+rotations+on+the+original+owner.+Setup%2C+repetition%2C+staging%2C+return+and+erasure+are+paid+in+O%28E%2Bp%2Bd%2BDK%2BNw%29%3B+retained+history+is+explicit.%0A%0A%23%23+Evidence+and+scope%0ABase+e54523517d0f03e58352e647c403a5af3e525a57%3B+only+research%2Fliteral-layer-phase+is+added.+Run+%60python+-I+-W+error+-B+research%2Fliteral-layer-phase%2Fverify.py%60+and+%60compose.py%60+%28also+-O%29.+Checks+cover+319+packets%2C+seven+table+mutants+and+ten+wrapper+joins+around+an+explicitly+test-only+C+oracle.+Separate+interpreters+and+universal+review+check+arithmetic%2C+ownership+and+exact+movement+counts%2C+including+a+numerically+correct+but+over-cost+scan.+Eight+source+bindings+and+committed+bytes+were+authenticated.%0A%0ANo+new+kappa%3B+all+five+global+assumptions+remain.+C+production%2C+paid+grid+conversion%2C+allocation+and+full+native%2Fcompiler+admission+remain+open.+Credit+Ali+Romman%27s+%235375%2C+the+canonical+layer+authors+and+the+pinned+literal-egress%2Fcontroller+packages.+Prepared+for+%40CubeJerry+with+substantial+OpenAI+assistance+and+separate-agent+review%3B+human%2Fformal+acceptance+is+unclaimed.%0A%0AFull+proof%2C+dependency+pins%2C+review+and+proposed+description%3A+https%3A%2F%2Fgithub.com%2FCubeJerry%2Finteger-mult-bounds%2Ftree%2F8b549ca6557ccbb3017b104b27ea35051f990416%2Fresearch%2Fliteral-layer-phase%0A"
     }
   ],
   "orientation": {
@@ -146,8 +205,10 @@
   ],
   "credit": "Prepared for Jerry Chen / @CubeJerry with substantial OpenAI assistance; separate AI checks are not human or formal-kernel review.",
   "verified_findings": [
-    "Three independently reviewed source-relative packages published; no new kappa/global assumption discharge.",
-    "Fixed-template metadata amortization already proved; varying-A library output bounds do not contradict it."
+    "Five independently reviewed packages published with exact source/commit/tree checks and inspected comparison pages; no new kappa or global assumption discharge.",
+    "Fixed-A evaluated libraries extend to independent ambient A; varying-A explicit widths have a rigorous quadratic output family.",
+    "Literal outer phase sweep supplies both S boundaries around a separately supplied exact C and literal egress.",
+    "Scalar 1125 and inverse kernels already exist in current-scalar-flat-tables; selected token/owner/common-format join remains open."
   ],
-  "previous_recovery_remote_commit": "4fb9397dd6ff5c7f7ceaaba366b644b89d9f7d89"
+  "previous_recovery_remote_commit": "5aa201b5474f476afdf8521299cdbcf14749465b"
 }

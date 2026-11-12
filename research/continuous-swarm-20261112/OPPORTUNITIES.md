@@ -9,9 +9,9 @@ frontiers is not the selected certificate. No accepted exponent change.
 | Obligation and provenance | Current classification | Useful next step and exclusion |
 |---|---|---|
 | Same-inventory completed encoded CRT calls, #7352 Open next questions / PROOF section 5 | Scoped source-relative restart independently reviewed in this run | Publish 79-role result; actual payload caller and binary lowering remain open. #7152 within-tree 127-role work is different. |
-| Compiler lazy chronological leaf and physical field join, selected-compiler-occurrence-layout Open next questions; #7345–#7348 | Partially resolved by new author-frozen leaf projection; peer review pending | It does not emit interleaved scalar/phase/adapter instructions or selected astronomical library. |
-| General ambient quantitative library, #7345 explicit A=m restriction | Unresolved; Wave2 claimed | Prove or refute extension to A>=m with correct height/cost bounds; do not import default-ambient widths. |
-| Exact external layer b^D and final projection, selected application review and upstream 05-layers.tex; #3127 normalization | Literal egress produced, independent arithmetic/CPU checks passed, proof review pending | Initial/final S sweeps remain supplied; no reproof claim for #3127 Gaussian algebra. |
+| Compiler lazy chronological leaf and physical field join, selected-compiler-occurrence-layout Open next questions; #7345–#7348 | Scoped projection independently reviewed and published | It does not emit interleaved scalar/phase/adapter instructions or selected astronomical library. |
+| General ambient quantitative library, #7345 explicit A=m restriction | Fixed-A quantitative extension and varying-A output obstruction reviewed and published | Bind actual selected histogram and full word; do not infer payload costs from metadata. |
+| Exact external layer b^D and final projection, selected application review and upstream 05-layers.tex; #3127 normalization | Literal egress and both outer phase sweeps independently reviewed and published | Exact C and paid common-grid conversion remain supplied; no complete layer claim. |
 | Fine-prime existence intervals, fine-prime-trudgian-audit and pr1786-fine-prime-transfer-audit | Previously proved within stated interval hypotheses | Do not re-run. Actual family/source radius and recovery caller remain a separate obligation. |
 | Balanced CRT conditioning, unconditional-batched-crt/INVERSE-CONDITIONING.md | Existing row-gap/bandwidth implication; whole claimed unconditional package lacks independent admission | Avoid duplicating its small block-norm lemma. Audit a named missing source-level join if selected later. |
 | Gaussian deferred recovery, #6993 deferred-gaussian-recovery | Scoped algebra/recovery established in predecessor | Production controller/fine family/source endpoint join remains open; exact scalar algebra alone is settled. |
@@ -31,3 +31,17 @@ current versus historical widths and full cost bills match. No result here
 supplies all five missing uniform contracts. Conditional rank-library,
 finite instruction-table checks and source-level lifetime proofs must not be
 reported as an unconditional multiplication theorem.
+
+## Updated Wave3 gates
+
+- Selected-native-tensor-closure (#6890) and selected #7000 application already
+  supply all-column algebra through full native products and common-chart
+  induction. Do not repackage generic tensor-power algebra as assumption removal.
+- #5375 already proves multicounter quadratic-phase arithmetic. Wave3 targets
+  an actual selected recipe and its literal local-control/whole-owner boundary.
+- current-scalar-flat-tables already gives literal fixed rational SCALE/ADD,
+  including 1125 and its inverse. #6990/#7268 compact rounded ADD has a narrower
+  executable odd-denominator domain. New work must bind source token/owner/format.
+- upstream02-streams gives the two-stack record-reversal algorithm. Wave3
+  targets literal runtime descriptor lowering and owner/history, with strided
+  packing explicitly excluded. No new routing algebra is claimed.
