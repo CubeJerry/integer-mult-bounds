@@ -521,3 +521,44 @@ Canonical rechecked02:01:41UTC remains e54523517d0f03e58352e647c403a5af3e525a57.
 No new upstream result imported. Next: actual mixed-donor history gain or retained
 common-dependent record, jointly satisfying common repair and complete price.
 No new kappa or PR submission. Resulting SHA is recorded after remote confirmation.
+
+## 2026-11-12-S007 — checkpoint1, session active
+
+Started01:32:54UTC from exact remote7bbe4fcb47f67073ae021fcadd8dd86ad14ea39a;
+canonical remains e54523517d0f03e58352e647c403a5af3e525a57. User requested10hours,
+planned through11:32:54UTC where execution supports it. This is an active
+checkpoint, not a claim that the duration has elapsed. S006's prior log still
+said continuing through02:28:43UTC; actual concurrent runtime was not confirmed.
+Remote is rechecked before integration/push; both sessions' evidence is retained.
+
+Three scoped mathematical workers ran after two full-history launches failed
+before execution with platform errors. New theorem: exact sharp retained-delta
+record counts including all declared raw outputs, independent finite-field
+review. New actual source primitive: restored60-to213 neutral helper swap with
+one rank1return,32ADD,1SCALE,1ownedlifetime,73807instructions andpeak43, with
+independent source/word/composition review. It does not solve a required own
+pair or the pure-routing bound. Fresh recovery: all104 original-station
+history identities,2846arrivals, all71262cuts, independently checked; historical
+unpublished hashes were not treated as evidence.
+
+A source-localized packet budget investigation found a candidate weighted
+acyclic dual. Lead review identified the necessary all-new-transport tariff
+scope: total movement price does not lower-bound newly paid cost when funded
+legs are reused. That result remains pending independent review; the next wave
+explicitly examines hybrid paid/funded paths and common-dependent aggregates.
+
+No upstream PR or selected-certificate change. No new complete kappa. This
+checkpoint's resulting SHA is recorded only after GitHub confirmation, avoiding
+self-reference. All prior scientific source files remain unchanged.
+
+### S007 concurrent integration checkpoint
+
+Immediately before publishing S007, GitHub reported concurrent S006 advancement
+from7bbe4fcb to107462f8be155fa5657556bcacb607e387a0c972. The expected-HEAD check
+stopped the update. Both scientific histories were fetched and reconciled;
+S006's new source words and proofs remain byte-identical, and its seven reviewed
+result packages retain their independent source/interface scopes. S007's three
+packages are preserved from API commit5c3c6bf1a22e665c41538785e4ff5b66bb851977.
+Only programme record conflicts are combined. The shared frontier is actual
+receiver gain after restoration with jointly small correction and real retained
+records. Resulting branch SHA will be recorded after GitHub confirms it.

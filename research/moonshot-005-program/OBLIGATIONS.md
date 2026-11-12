@@ -313,3 +313,17 @@ been rebuilt and freshly admitted; the old local hashes alone are not evidence.
 CODED-COMMON-DEBT is partly discharged by physical precompensation. Shared gain,
 complete complex/BIT suppliers, scalar/precision/compiler and all foundations remain.
 Historical S8/recovery obligations retain their own source-interface scope.
+
+## S007 checkpoint1 — records and source access
+
+| ID | Exact result / dependency | Status and next obligation |
+|---|---|---|
+| RETAINED-RAW-RECORDS | Every field-linear chronological system with the stated Q,H,L,Z,N,R,D contracts has the sharp attaining record count in results/retained-difference-records/PROOF.md; dependent common records included. | PROVED and independently reviewed. Acquire the selected records physically and retain every caller raw duty. |
+| RESTORED-SWAP-60-213 | Literal73807-operation1880-input word restores all1480common outputs and preserves400private inputs by q213+=q60; one newrank1return. | PROVED partial native; independent cut/pulse/type/composition review. Does not implement own paired60-to172 or solve pure-routing completion. |
+| ALL104-HISTORY | For every first pair separately and all admittedV, arbitrary all-cut controls at that donor's originalstations have receiver arrival response factoring through104commonYendpoints. | PROVED;2846exact timed duals independently replayed. Fresh recovery of S005 evidence. Changed access, cross-carrier signals and changed processing remain open. |
+| HYBRID-PAID-FUNDED-CODE | Coded packets using both newly paid and retained funded routes must be priced by newly charged movement only. | OPEN. A candidate all-new-transport dual does not cover free coded transit; scope correction is required before admission. |
+
+CODED-COMMON-DEBT remains the primary open construction. The new record theorem
+constrains its retained state; the actual swap supplies a physical primitive,
+and ALL104-HISTORY removes all original-pair instances of the old access route.
+No supplier, foundation or complete kappa is newly established.

@@ -1,43 +1,53 @@
 # Resume the same programme
 
-Fetch exact remote HEAD of research/moonshot-005-program. This checkpoint's parent
-is7bbe4fcb47f67073ae021fcadd8dd86ad14ea39a. Canonical last examined:
-e54523517d0f03e58352e647c403a5af3e525a57. Selected conditional kappa remains.00363005817;
-no new kappa, all five assumptions retained. Read STATE, TARGET and OBLIGATIONS.
+Read the exact remote HEAD of `research/moonshot-005-program`, STATE, TARGET and
+OBLIGATIONS. This integration preserves concurrent S006 commit
+107462f8be155fa5657556bcacb607e387a0c972 and S007 scientific parent
+5c3c6bf1a22e665c41538785e4ff5b66bb851977. Canonical last examined is
+e54523517d0f03e58352e647c403a5af3e525a57. Selected conditional kappa remains
+.00363005817; no new kappa, all five assumptions retained.
 
 ## Current construction and decisive next step
 
-Physical initial precompensation now restores all common outputs and17 actual
-second shears on1880 inputs. It costs17 rank1 packets,111 real histories and peak121,
-leaving191 dependencies and new scalar/precision/compiler obligations. No saving.
+S006 supplied an actual80774-operation word restoring all1480 common outputs
+and17 private shears. It costs17 rank1 packets,111 real histories and peak121,
+leaving191 dependencies and scalar/precision/compiler obligations. Its joint
+packet criterion is rank([J;E]);104 first-Y coordinates need94 exact-gain
+zero-debt directions at10 packets,96 at8. Common-debt rank alone is insufficient.
 
-Shared receiver gain is primary. Minimum packets=rank([J;E]);104 first-Y coordinates
-need94 exact-gain zero-debt directions at10 packets,96 at8. Do not optimize common
-debt alone. The unchanged injective58/unit-helper families cannot compress.
+S007 supplies sharp retained-difference record counts including every raw duty,
+a literal73807-operation restored60-to213 dirty-helper swap costing one new
+rank1 return, and newly recovered all104 original-route history conservation
+laws. The swap is a partial cross-coordinate shear already granted in the
+pure-routing graph; it does not solve that excluded completion. All three
+packages have separate independent mathematical reviews.
 
-Concrete next attempt: compute actual nine-relation response N B from FOREIGN-donor
-controls outside receiver189's220 null stations, or supply an authenticated
-common-dependent carrier record. For E8 packets C=A^T seek weighted correction
-e77-a77 A^T/8 in those actual gains plus priced private rows. Its own77 coefficient
-is zero, so the own-column obstruction does not exclude foreign contributions.
-Simultaneously choose common debt J=U C with free U, all guards, real access/records
-and full budget. See packet-gain-reduction/NEXT-CONSTRUCTION.md. This remains an
-open architectural probe;77 is already in the17 directly repaired channels.
-
-Fixed Gram response is excluded at77 and0, including the specified remaining87
-hybrid; another U/code/access is not excluded. General decoding requires
-e-D0R in row(C,S,N R). Outside-station controls need fresh N B certification.
+Primary next construction: real shared receiver gain after restoration through
+common-dependent retained records or newly authenticated history relations.
+Eight original owned-chain pulse responses are now being tested against all104
+receiver histories; that active investigation is not yet admitted here. An
+all-new-transport packet-code bound has been reviewed in scratch but awaits
+integration. Its geometric tariff cannot be applied to hybrid funded paths.
 
 ## Do not repeat or overextend
 
-- Eight-packet prefix verified;104 corrections remain. Source-value routing has
- 54/43 floors only in its stated graph. Dirty/common-dependent histories differ.
--1472 neutral pure overwrites lose a common mode;748 lose it immediately without
- retained/reread records. Swaps and actual common records are separate interfaces.
--31 old modules mismatch jointly at rank30. Scalar-unit family has37 accessible
- events/rank35 withtwo zero hub columns. Neither is a universal controller no-go.
-- Keep H4/S8 prices distinct. Eight rank9 plus8 rank1 leaves19.1857;ten plus8
- leaves1.3824, before other new duties. Scalars/ordinary costs remain real.
-- Recovery/quiet-rechart WIP stays unverified; preserve historical source scopes.
+- Original-station controls are excluded for all104 pairs separately. This is
+  not a union-of-all-donor-stations theorem; changed access or records differ.
+- Receiver189's220-station gate gives no gain after common restoration using
+  only packet-dependent precompensation. Foreign controls need fresh N B.
+  General decoding requires e-D0R in row(C,S,N R).
+- Eight-packet prefix and54/43 routing floors retain their specified graph.
+  Dirty/common-dependent histories are a different interface;890 reservations
+  spent by that prefix cannot be spent again for free.
+-1472 neutral pure overwrites lose a common mode;748 lose it immediately.
+  Swaps and acquired common records must preserve every independent raw input.
+-31 old modules mismatch jointly at rank30; the scalar-unit family has37
+  accessible events/rank35 withtwo zero hub columns. Fixed E8 Gram responses
+  fail the77/0 source duals. These are scoped exclusions, not universal no-gos.
+- H4 and S8 have different funded rails. Eight rank9 plus8 rank1 leaves19.1857;
+  ten plus8 leaves1.3824 before further duties. Price all scalar/storage costs.
 
-Use REPRODUCE and package reviews. Ongoing programme, not PR-ready.
+Use REPRODUCE and package reviews. Recovery/quiet-rechart WIP remains
+unverified. S007 began01:32:54UTC with requested10-hour planning end11:32:54UTC;
+this record promises no unattended execution. The programme remains ongoing
+and is not PR-ready.

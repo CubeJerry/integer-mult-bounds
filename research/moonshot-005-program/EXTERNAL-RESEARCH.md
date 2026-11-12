@@ -334,3 +334,28 @@ merge was made. The cumulative PR remains a draft for future user review.
 S006 end-phase check: canonical main was re-read at02:01:41UTC and remains
 e54523517d0f03e58352e647c403a5af3e525a57. No additional upstream package
 was imported during the second scientific wave.
+
+## S007 targeted intake — metadata only
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57 and the selected
+conditional kappa remains.00363005817. Current selected assumptions were read
+literally; stale headline values in the bottleneck/priorities guides were not
+used as the frontier. The pinned native file is byte-identical at canonical
+main and the starting programme commit. Root instructions and bounded visible
+discussion1163/1166 pages were read, without claiming exhaustive live coverage.
+
+- Open#7334, aaeec8c0acf01e99a5f331ef363a698d9c084ace: helper319 rank5+1-to6
+  fusion and compensated chart207 identities on the changed#7314/#7113
+  signed17-stage source. Its claimed.00364665195644 is not selected. No invoice
+  or source credit transfers to the programme's1480-field/18-copy H4 word.
+- Open#7355,403e0d388c35e83b15eab5bba67be563b33d5a8a: fixed one-ADD donor-span
+  exclusions on that newer source. Metadata and body only; not independently
+  admitted and not a theorem about our source or changed records.
+- Open#7357,b4902a36a1506ab87cbdee03c51345b179fb00a6: fixed-clock TypeB odd/even
+  idle fusion exclusion on signed#7113. Its narrow source/caller scope is
+  retained; no programme mechanism is invalidated merely by its headline.
+- @CubeJerry#6916 was reread for cumulative PR style and exact limitations;
+  the programme remains ongoing, with no automatic upstream submission.
+
+These are technical leads with their stated status, not incorporated proofs.
+No external message, upstream PR, merge or selected-frontier change was made.
