@@ -1,0 +1,69 @@
+{
+  "status": "PASS_INDEPENDENT_EXHAUSTIVE_FINITE_FIELD_MIXED_SWAP",
+  "scope": "All specified two-swap matrices and all return row spaces; exhaustive independent-input collisions. These finite controls supplement the universal proof.",
+  "families": [
+    {
+      "field": 2,
+      "hidden_common_dimension": 1,
+      "base_cases": 128,
+      "return_rowspaces": 5,
+      "observation_cases": 640,
+      "explicit_ambiguity_cases": 352,
+      "inputs_per_case": 16,
+      "wrong_plus_L_rejected": 0,
+      "first_wrong_sign_witness": null
+    },
+    {
+      "field": 2,
+      "hidden_common_dimension": 2,
+      "base_cases": 512,
+      "return_rowspaces": 5,
+      "observation_cases": 2560,
+      "explicit_ambiguity_cases": 1680,
+      "inputs_per_case": 32,
+      "wrong_plus_L_rejected": 0,
+      "first_wrong_sign_witness": null
+    },
+    {
+      "field": 3,
+      "hidden_common_dimension": 1,
+      "base_cases": 2187,
+      "return_rowspaces": 6,
+      "observation_cases": 13122,
+      "explicit_ambiguity_cases": 5697,
+      "inputs_per_case": 81,
+      "wrong_plus_L_rejected": 1368,
+      "first_wrong_sign_witness": {
+        "field": 3,
+        "hidden": 1,
+        "Lambda": [
+          0,
+          1
+        ],
+        "Gamma": [
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "L21": 1,
+        "Z": [
+          0,
+          1
+        ],
+        "A": [
+          [
+            1,
+            1
+          ]
+        ],
+        "actual_recovery": true,
+        "wrong_plus_L": false,
+        "collision": null
+      }
+    }
+  ],
+  "total_observation_cases": 16322
+}

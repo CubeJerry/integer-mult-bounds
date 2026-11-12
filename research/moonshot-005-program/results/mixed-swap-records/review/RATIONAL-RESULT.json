@@ -1,0 +1,38 @@
+{
+  "status": "PASS_INDEPENDENT_MIXED_SWAP_RECORD_CONTROLS",
+  "coefficient_field": "Q",
+  "sympy_version": "1.14.0",
+  "named_controls": {
+    "hub_recoverable_single": {
+      "minimum_returns": 0,
+      "known_delta_rank": 1,
+      "kernel_pairs_checked": 0
+    },
+    "outside_hub_single": {
+      "minimum_returns": 1,
+      "known_delta_rank": 0,
+      "kernel_pairs_checked": 1
+    },
+    "chronological_minus_sign": {
+      "minimum_returns": 1,
+      "known_delta_rank": 1,
+      "kernel_pairs_checked": 1
+    },
+    "hidden_common_sign": {
+      "minimum_returns": 1,
+      "known_delta_rank": 1,
+      "kernel_pairs_checked": 2
+    },
+    "dependent_common_rows_reject_unqualified_extension": true
+  },
+  "additional_exact_cases": 48,
+  "explicit_kernel_pairs_checked": 129,
+  "return_count_histogram": {
+    "0": 11,
+    "1": 20,
+    "2": 11,
+    "3": 6,
+    "4": 0
+  },
+  "scope": "Independent original-input observation matrices, all coordinate-return subsets, explicit necessity witnesses and arbitrary linear returns. Universal proof reviewed separately. No source swap family or physical return price."
+}
