@@ -1,8 +1,8 @@
 {
   "schema": "continuous-swarm-checkpoint/v1",
   "started_utc": "2026-11-12 01:31 UTC",
-  "updated_utc": "2026-11-12 01:44:13 UTC",
-  "status": "wave_1_research_active_unverified",
+  "updated_utc": "2026-11-12T02:30:59.206136+00:00",
+  "status": "wave1_published_wave2_independent_review",
   "base": "e54523517d0f03e58352e647c403a5af3e525a57",
   "selected_kappa": "363005817/100000000000",
   "recovery_branch": "recovery/continuous-swarm-20261112-0132",
@@ -13,7 +13,7 @@
       "worker": "compiler_exits",
       "wave": 1,
       "track": 50,
-      "status": "active_unverified",
+      "status": "independently_reviewed_published",
       "scope": "Lazy rank-one leaf locator with inverse ordinal and actual physical field identity through nested source/complement and chronological exit calls; retains full cut path.",
       "dependencies": [
         "#7345",
@@ -23,39 +23,106 @@
         "#4507",
         "#5071"
       ],
-      "output": "/workspace/scratch/be42ab5b7196/worker-a",
-      "next": "Prove counted path/rank descent, within-invocation injection, return identity; independent explicit expansion oracle."
+      "output": "/workspace/scratch/be42ab5b7196/worker-a/research/chronological-leaf-owner-index",
+      "next": "Frozen; user review via PUBLICATIONS.json."
     },
     {
       "worker": "literal_layer_boundary",
       "wave": 1,
       "track": 20,
-      "status": "active_unverified",
-      "scope": "Literal selected S/b^d layer boundary joined to source-prescribed final signed truncation; preserve exact-grid semantics.",
+      "status": "independently_reviewed_published",
+      "scope": "Literal source-header driven b^D egress and one final signed toward-zero projection; S sweeps remain supplied.",
       "dependencies": [
         "#7000 application review",
         "#3127",
         "upstream 05-layers.tex"
       ],
-      "output": "/workspace/scratch/be42ab5b7196/worker-b",
-      "next": "Avoid duplicate encoded normalization; check exact literal final truncation source seam and full volume cost."
+      "output": "/workspace/scratch/be42ab5b7196/worker-b/research/literal-layer-egress",
+      "next": "Frozen; user review via PUBLICATIONS.json."
     },
     {
       "worker": "crt_reusable_history",
       "wave": 1,
       "track": 75,
-      "status": "active_unverified",
+      "status": "independently_reviewed_published",
       "scope": "Repeated encoded forward/inverse balanced CRT calls on one stable 79-role inventory with retained per-role history, paid rearm/retirement, changing geometry.",
       "dependencies": [
         "#7351",
         "#7352",
         "#7152"
       ],
-      "output": "/workspace/scratch/be42ab5b7196/worker-c",
-      "next": "Prove/test existing blank historical tails, disjoint source, restart lease and per-role maximum envelope."
+      "output": "/workspace/scratch/be42ab5b7196/worker-c/research/encoded-crt-restart",
+      "next": "Frozen; user review via PUBLICATIONS.json."
+    },
+    {
+      "worker": "compiler_exits",
+      "wave": 2,
+      "track": 75,
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "General fixed ambient A>=m quantitative separated rank-library construction; actual bit lengths, per-cut integrality and rank descent.",
+      "status": "author_frozen_peer_review",
+      "dependencies": [
+        "#7345",
+        "FINITE-PRECOMPILATION.md",
+        "wave1 chronological-leaf-owner-index valid-library premise"
+      ],
+      "output": "/workspace/scratch/be42ab5b7196/worker-a2/research/ambient-rank-library",
+      "next": "B independently reviews arbitrary-ambient divisor/cost and quadratic-output obstruction."
+    },
+    {
+      "worker": "crt_reusable_history",
+      "wave": 2,
+      "track": 20,
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Literal actual-header implicit-address S_D phase sweep; variable D,K,r,P,S, same-owner payload and full history.",
+      "status": "code_frozen_peer_review",
+      "dependencies": [
+        "#5375",
+        "literal-layer-egress 51ab0539059214fcfa044938c36a0b6017232be5"
+      ],
+      "output": "/workspace/scratch/be42ab5b7196/worker-c2/research/literal-layer-phase",
+      "next": "A reviews universal proof; root separate dense CPU/address oracle."
+    },
+    {
+      "worker": "literal_layer_boundary",
+      "wave": 2,
+      "track": 60,
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Fixed-template metadata budget audit, then concrete selected full-event emitter interface.",
+      "status": "completed_no_new_package",
+      "dependencies": [
+        "FINITE-PRECOMPILATION section6",
+        "selected-compiler-occurrence-layout/COST section3",
+        "#7000 native/caller sources",
+        "#7346"
+      ],
+      "output": "/workspace/scratch/be42ab5b7196/reviews/b2-emitter",
+      "next": "No duplicate publication. Future full emitter must preserve actual intervening ordinary events and full-field charts/returns."
     }
   ],
-  "verified_packages": [],
+  "verified_packages": [
+    {
+      "id": "encoded-crt-restart",
+      "branch": "research/encoded-crt-restart-20261112-0132",
+      "commit": "30ae49d57441e9f1ffa7233f8f64729988a2fca1",
+      "tree": "586d386466cc6f75349c4f69802ea5f77beaa69c",
+      "prefilled_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/encoded-crt-restart-20261112-0132?expand=1&title=Restart+the+encoded+forward+and+inverse+balanced+CRT+endpoints+on+one+79-role+inventory+with+paid+reentry+and+retained+history&body=%23%23+Result%0AThe+encoded+forward+and+inverse+CRT+endpoints+now+reuse+one+79-role+inventory+across+any+finite+successful+sequence%2C+including+changing+geometry.+This+closes+the+same-inventory+restart+question+in+%237352%3B+%237351%2F%237352+already+supply+the+numerical+maps.%0A%0AAll+invocation+costs+remain+charged.+Time+is+initial+cost+plus+sum+O%28A_i%5E4%29%3B+retained+private+backing+is+at+most+K0+%2B+3+Amax+dmax+%2B+74+Amax+%2B+23+dmax+%2B+223.+Rearm+and+finish+add+exactly+396+raw+actions+per+call.+Ten+predecessor+runtime+files+remain+unchanged.%0A%0A%23%23+Verification%0ABase%3A+e54523517d0f03e58352e647c403a5af3e525a57.%0ARun+%60python3+-I+-W+error+-B+research%2Fencoded-crt-restart%2Fverify.py%60%3A+174+calls%2C+270+nodes%2C+14+controls%3B+optimized+replay+agrees.+A+separate+modular-inverse+oracle+checks+32+calls+and+96+nodes%2C+and+independent+source%2Fproof+review+verifies+the+successful-retirement+induction+and+per-role+historical+maxima.%0A%0A%23%23+Limits+and+kappa%0ANo+new+kappa%3B+0.00363005817+remains+conditional+on+all+five+assumptions.+Clean+initial+tails+and+successful+linear+use+are+explicit+premises.+Source+preparation%2C+payload+routing%2C+binary+lowering+and+the+outer+caller+remain+open%3B+no+failed-call+recovery+is+claimed.%0A%0A%23%23+Credit%0APrepared+for+%40CubeJerry+with+substantial+OpenAI+assistance.+Credit+%235505%2C+%237152%2C+%237154%2C+%237351%2C+%237352+and+their+authors.+Separate+AI+review+is+not+human+or+formal-kernel+acceptance.%0A%0AFull+proof%2C+exact+pins%2C+checks+and+open+questions%3A+https%3A%2F%2Fgithub.com%2FCubeJerry%2Finteger-mult-bounds%2Ftree%2F30ae49d57441e9f1ffa7233f8f64729988a2fca1%2Fresearch%2Fencoded-crt-restart%0A"
+    },
+    {
+      "id": "literal-layer-egress",
+      "branch": "research/literal-layer-egress-20261112-0132",
+      "commit": "51ab0539059214fcfa044938c36a0b6017232be5",
+      "tree": "845d665a8d6536e3876a31dfda16b4a2af8d350b",
+      "prefilled_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/literal-layer-egress-20261112-0132?expand=1&title=Normalize+the+selected+complex+layer+and+perform+its+single+toward-zero+return+with+a+literal+18-tape+program&body=%23%23+Result%0AA+fixed+18-tape%2C+17%2C814-location+program+reads+the+actual+nine-Gamma+header+and+returns+Q_p%28b%5ED+z%29%2C+b%3D%281-i%29%2F2%2C+with+one+final+toward-zero+projection.+It+stages+signed+output%2C+checks+exact+range%2C+commits+to+the+original+DATA+owner%2C+erases+the+old+tail+and+restores+all+successful+heads%2Fprivate+tapes.%0A%0AThis+supplies+the+literal+numerical+egress+left+after+%233127%27s+encoded+normalization.+Complete+time+and+historical+backing+bounds+are+O%28V%29+in+the+selected+bands.+Global+d+and+actual+D+remain+distinct%3B+the+supplied+format+conversion+uses+the+coupled+selected+widths.%0A%0A%23%23+Verification%0ABase+e54523517d0f03e58352e647c403a5af3e525a57.+Run+%60python3+-I+-W+error+-B+research%2Fliteral-layer-egress%2Fverify.py%60%3A+771+packets%2C+12+tensor+fixtures%2C+six+mutants%3B+optimized+replay+agrees.+A+separate+dense+CPU+checks+20+packets+and+three+mutants.+Independent+proof%2Fsource+review+checks+174%2C752+signed+rows%2C+4%2C106+ranges+and+four+controls.%0A%0A%23%23+Limits+and+credit%0ANo+new+kappa%3B+0.00363005817+and+all+five+assumptions+remain.+Recursive+C%2C+the+S+sweeps%2C+complete+caller+packet%2C+paid+format+conversion+and+disjoint+owned+backing+are+supplied.+Numerical+rejection+preserves+DATA+but+promises+no+cleanup%2Frestart.+This+is+not+a+complete+layer.%0A%0APrepared+for+%40CubeJerry+with+substantial+OpenAI+assistance.+Credit+%233127%2C+%232287%2C+%233087%2C+%233091%2C+%233098%2C+%237000%2C+%237349%2C+%237350+and+retained+source+authors.+Separate+AI+review+is+not+human+or+formal-kernel+acceptance.%0A%0AFull+proof%2C+provenance%2C+checks+and+open+questions%3A+https%3A%2F%2Fgithub.com%2FCubeJerry%2Finteger-mult-bounds%2Ftree%2F51ab0539059214fcfa044938c36a0b6017232be5%2Fresearch%2Fliteral-layer-egress%0A"
+    },
+    {
+      "id": "chronological-leaf-owner-index",
+      "branch": "research/chronological-leaf-owner-index-20261112-0132",
+      "commit": "81f0b0b9a920bd1c9da583cbc3612efd5e75ea94",
+      "tree": "78ccf8c766e6bc977a347d0be593685cf327249f",
+      "prefilled_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/chronological-leaf-owner-index-20261112-0132?expand=1&title=Locate+every+expanded+compiler+leaf+and+preserve+its+source+or+owned-bank+identity+through+recursive+return&body=%23%23+Result%0ALocate+and+invert+every+ordinal+in+the+separated+compiler%27s+recursively+expanded+rank-one+paid-leaf+projection.+A+weighted+suffix+table+preserves+each+chronological+cut+while+upward+port+translation+identifies+the+original+source+row+or+namespaced+owned+bank.+Input+ports+of+one+whole+invocation+are+injective%3B+different+leaves+may+revisit+one+physical+field.%0A%0AThis+composes+%237345%27s+library+with+the+%237346%2C+%237347+and+%237348+occurrence%2Fsource%2Fcomplement+codecs.+All+actual+integer+lengths%2C+setup%2C+path+copying+and+a+separate+serialized-tape+simulation+are+charged%3B+no+free+payload+access+is+inferred.%0A%0A%23%23+Verification%0ABase+e54523517d0f03e58352e647c403a5af3e525a57.+Run+%60python3+-I+-W+error+-B+research%2Fchronological-leaf-owner-index%2Fverify.py%60%3A+4%2C102+leaves%2C+2%2C970+calls%2C+15+controls%3B+optimized+replay+agrees.+A+separate+nonminimal-library+recursion+oracle+checks+24%2C137+leaves%2C+24%2C205+calls%2C+25%2C120+ports+and+three+mutants.+Eight+exact+source+pins+and+the+universal+proof+received+separate+review.%0A%0A%23%23+Limits+and+credit%0ANo+new+kappa%3B+selected+0.00363005817+remains+conditional+on+all+five+assumptions.+The+full+scalar%2Fphase%2Fadapter+word%2C+physical+gather%2Freturn%2C+numerical+endpoints+and+actual+selected+huge+library+remain+open.+Larger+ambient+A+accepts+a+supplied+valid+library%3B+default-ambient+width+bounds+are+not+transferred.%0A%0APrepared+for+%40CubeJerry+with+substantial+OpenAI+assistance.+Credit+%234507%2C+%235071%2C+%237345%2C+%237346%2C+%237347+and+%237348+and+their+authors%2C+including+Jacob+Alan+Sussman%2C+zxv%2C+Mihir+Srivastava+and+JoyboyBrian.+Separate+AI+review+is+not+human+or+formal-kernel+acceptance.%0A%0AFull+proof%2C+provenance%2C+checks+and+open+questions%3A+https%3A%2F%2Fgithub.com%2FCubeJerry%2Finteger-mult-bounds%2Ftree%2F81f0b0b9a920bd1c9da583cbc3612efd5e75ea94%2Fresearch%2Fchronological-leaf-owner-index%0A"
+    }
+  ],
   "orientation": {
     "current_main_verified": true,
     "selected_review_read": true,
@@ -73,9 +140,14 @@
     "Continue only named remaining obligations; no repeat of completed predecessor results."
   ],
   "limitations": [
-    "All active claims unverified.",
-    "No global assumption removed or new kappa established.",
-    "No promise of execution after the platform turn ends."
+    "Only explicitly reviewed findings may be published.",
+    "All five global assumptions remain; no new kappa.",
+    "Execution ends with the active supported session; no unscheduled background continuation."
   ],
-  "credit": "Prepared for Jerry Chen / @CubeJerry with substantial OpenAI assistance; separate AI checks are not human or formal-kernel review."
+  "credit": "Prepared for Jerry Chen / @CubeJerry with substantial OpenAI assistance; separate AI checks are not human or formal-kernel review.",
+  "verified_findings": [
+    "Three independently reviewed source-relative packages published; no new kappa/global assumption discharge.",
+    "Fixed-template metadata amortization already proved; varying-A library output bounds do not contradict it."
+  ],
+  "previous_recovery_remote_commit": "4fb9397dd6ff5c7f7ceaaba366b644b89d9f7d89"
 }

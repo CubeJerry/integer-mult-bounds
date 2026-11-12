@@ -1,20 +1,9 @@
-# Continuous research recovery checkpoint — 12 November 2026
+# Continuous research recovery checkpoint
 
-This branch preserves work in progress, not a reviewed theorem or a proposed
-upstream contribution. The exact base, active scopes, status, provenance and
-restart sequence are in ALLOCATION.json. Unfinished claims are unverified.
+Recovery only, not an upstream contribution. ALLOCATION.json records exact base, completed/active tasks and next actions. ASSUMPTIONS.json preserves the five selected assumptions; OPPORTUNITIES.md classifies covered, blocked and open work. PUBLICATIONS.json contains three independently reviewed remote packages with exact prefilled compare URLs; no upstream PR was submitted.
 
-Canonical base: e54523517d0f03e58352e647c403a5af3e525a57. Selected conditional
-kappa: 0.00363005817, from CrocSwap/integer-mult-bounds#7000 and #7001.
-All five foundational assumptions remain. Source and application review,
-rather than outdated priority prose, determine the frontier.
+All reviewed remote trees equal checked local trees and contain only scoped additions. Exact sources and all reproduction/review material are retained in each package. The optional full-history checker refused this shallow checkout; actual commit/path bindings and remote parent/tree/diff were independently checked without a full clone.
 
-Three genuine research agents work in isolated worktrees; the lead checks and
-integrates. Separate AI reviews are not independent human or proof-kernel
-acceptance. Prepared for Jerry Chen / @CubeJerry with substantial OpenAI
-assistance; all predecessor credits and source licenses remain applicable.
+Everything in unverified-wave2 is an UNVERIFIED recovery snapshot, not scientific acceptance. Refresh canonical main, selected result and relevant claims before reallocation. Preserve source pins and prior credit; do not duplicate the completed fixed-template amortization audit. No unscheduled execution continues after this session.
 
-Only independently checked packages will receive separate publication branches.
-No upstream PR is submitted; the user reviews prefilled comparison links.
-Neither fork main nor selected certificates are changed. There is no promised
-background execution after the active session ends.
+Prepared for Jerry Chen / @CubeJerry with substantial OpenAI assistance; separate AI checks are not human or formal-kernel review.
