@@ -1,0 +1,124 @@
+{
+  "allowed_source_control_charts": [
+    16,
+    35,
+    127,
+    318
+  ],
+  "complete_arrivals": 19,
+  "correct_dual": {
+    "allowed_charts": [
+      16,
+      35,
+      127,
+      318
+    ],
+    "checked_changed_states": 28292,
+    "first_failure": null,
+    "initial_residual_nonzero_roles": 404
+  },
+  "exact_nonzero_arrival_coefficients": {
+    "37195": {
+      "189": "-1/2",
+      "215": "1/2"
+    },
+    "40835": {
+      "129": "-1/2",
+      "150": "-1/2",
+      "189": "-1",
+      "215": "2"
+    },
+    "40836": {
+      "129": "-1",
+      "150": "-1"
+    },
+    "41626": {
+      "189": "-1/4",
+      "215": "1/4"
+    },
+    "41650": {
+      "189": "-1",
+      "215": "2"
+    }
+  },
+  "excluded_interfaces": "Additional receiver raw/common records, new receiver charts, other source-control charts or altered native processing are not covered. Receiver initial observations precede controls. This is a source difference identity, not an absolute baseline history equation or a numeric paid-call lower bound.",
+  "factor_sha256": "ef19dd321bb036a69e88e091983081f0dbba5694b5111d79de0c610f046e5540",
+  "forward_changed_matrix_control": {
+    "before_event": 40835,
+    "chart": 318,
+    "nonzero_arrival_response": {
+      "40835": "1",
+      "41650": "1"
+    },
+    "nonzero_final_response": {
+      "189": "1",
+      "215": "1"
+    },
+    "role": 215
+  },
+  "initial_observations": 1046,
+  "mathematical_scope": "For arbitrary realized increments on live native fields at the admitted charts, fixed native linear propagation gives history differences B delta and final endpoint differences A delta. The checked control-column identity B=D A implies exact original-history restoration whenever the four endpoints are restored, even if increments depend on common inputs or feedback. No fixed-O assumption is needed for constructing these increments.",
+  "negative_added_receiver_chart": {
+    "allowed_charts": [
+      16,
+      35,
+      127,
+      318,
+      901
+    ],
+    "checked_changed_states": 28316,
+    "first_failure": {
+      "chart": 901,
+      "cut": 41700,
+      "phase": "before-source-event",
+      "residual": {
+        "10": "-1/2",
+        "13": "-2",
+        "16": "-1/4",
+        "17": "-2"
+      },
+      "role": 215
+    },
+    "initial_residual_nonzero_roles": 404
+  },
+  "negative_wrong_endpoint_sign": {
+    "allowed_charts": [
+      16,
+      35,
+      127,
+      318
+    ],
+    "checked_changed_states": 28292,
+    "first_failure": {
+      "chart": 318,
+      "cut": 40835,
+      "phase": "before-source-event",
+      "residual": {
+        "10": "-1",
+        "13": "-2",
+        "16": "-1/2",
+        "17": "-2"
+      },
+      "role": 215
+    },
+    "initial_residual_nonzero_roles": 404
+  },
+  "other_arrival_differences_identically_zero": 14,
+  "receiver": 189,
+  "receiver_route": [
+    3,
+    307,
+    901,
+    198
+  ],
+  "restoration_endpoint_roles": [
+    129,
+    150,
+    189,
+    215
+  ],
+  "review_method": "Separate exact19-residual source adjoints, complete source observation/geometry audit and separate forward pulse. No author code or earlier column-elimination helper imported. The24-cut exploratory swap-rank census is not independently audited by this checker.",
+  "reviewed_proof_sha256": "bbea2eaf4db1be40c32ac0eba486d5e8d40759126bb48112ac71fff32ec67339",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_INDEPENDENT_COMPLETE_HISTORY_FACTOR_FOR_REALIZED_FEEDBACK"
+}

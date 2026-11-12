@@ -1,0 +1,89 @@
+{
+  "correct": {
+    "allowed_charts": [
+      16,
+      35,
+      127,
+      318
+    ],
+    "checked_changed_states": 28292,
+    "first_failure": null
+  },
+  "endpoint_roles": [
+    129,
+    150,
+    189,
+    215
+  ],
+  "factor_certificate_sha256": "ef19dd321bb036a69e88e091983081f0dbba5694b5111d79de0c610f046e5540",
+  "negative_extra_chart901": {
+    "allowed_charts": [
+      16,
+      35,
+      127,
+      318,
+      901
+    ],
+    "checked_changed_states": 28309,
+    "first_failure": {
+      "chart": 901,
+      "cut": 41700,
+      "residual": [
+        [
+          10,
+          "-1/2"
+        ],
+        [
+          13,
+          "-2"
+        ],
+        [
+          16,
+          "-1/4"
+        ],
+        [
+          17,
+          "-2"
+        ]
+      ],
+      "role": 215
+    }
+  },
+  "negative_wrong_sign": {
+    "allowed_charts": [
+      16,
+      35,
+      127,
+      318
+    ],
+    "checked_changed_states": 28292,
+    "first_failure": {
+      "chart": 318,
+      "cut": 40835,
+      "residual": [
+        [
+          10,
+          "-1"
+        ],
+        [
+          13,
+          "-2"
+        ],
+        [
+          16,
+          "-1/2"
+        ],
+        [
+          17,
+          "-2"
+        ]
+      ],
+      "role": 215
+    }
+  },
+  "receiver": 189,
+  "schema": "chart318-direct-full-arrival-dual-v1",
+  "scope": "The entire original receiver history response vanishes once the four listed offhub endpoints are restored, for arbitrary realized increments on live native fields at16,35,127,318. This includes common-dependent swaps and feedback with actual donor records, provided no new receiver records/access or native chronology changes are introduced.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_FULL19_ARRIVAL_FACTOR_INCLUDING_COMMON_DEPENDENT_CONTROLS"
+}
