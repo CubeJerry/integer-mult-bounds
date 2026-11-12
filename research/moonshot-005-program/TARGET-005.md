@@ -524,3 +524,18 @@ their original scope. Independent source history obstructions constrain
 particular controls; they do not by themselves price every possible code.
 Both U > .005 and completed ordinary BIT B > .005 remain necessary in the
 retained outer theorem. No complete conditional target theorem is obtained.
+
+
+## S007 pivot interface and interrupted larger constructions
+
+The admitted any-field pivot theorem supplies exact acquisition/restoration, not free aggregate access. For p line inputs meeting at dimension c, m pivots delivered through dimension-eight facets and a dimension-nine hub, incremental moment over direct raw ascent is
+
+    p[(c-1)^t+(9-c)^t-8^t]+m[(8-c)^t+1-(9-c)^t], t=199/200.
+
+Containments, chart maps, records, ordinary operations and current-row compatibility remain required. A singular chosen minor needs at least m-rank(A_I) extra full records; the algebraic minimum does not acquire or route them.
+
+Locally reviewed three-facet collection leaves provisional45.10785453981816 after8 rank-nine packets, with4,841 residual coefficients. Author-only eight-cohort leaves43.91010862296462 and4,601 residuals. Neither completes hosted reverse duties; generated files need recovery before source-package admission.
+
+The changed-common endpoint candidate has42,480 paid positions,27,344 targets, surplus1,888,32 rank-nine packets and remaining moment14.812385620139944/native. It owes19,968 residual coefficients across both copies; full source audit and independent review are unfinished. This is partial accounting, not a feasibility certificate.
+
+The locally independently reviewed saturated odd-eight cut needs8 additional fields under fixed common slots/all112 reserved first-family legs, exceeding that interface's6.29307104377714 margin. Changed common transport is outside scope. The finite adaptive43.527 potential failed an all-chart edge test and supplies no global forty-plus lower bound.

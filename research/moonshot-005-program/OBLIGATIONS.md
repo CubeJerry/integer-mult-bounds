@@ -375,3 +375,19 @@ All supplier, full-cost and foundational obligations remain. The direct word
 is a comparison, not a completed target construction. The current positive
 mechanism combines E8 packets, actual history gains and in-place raw aggregate
 transport; compatibility across many receivers is the next decisive property.
+
+
+## S007 recovery status and global composition gate
+
+| ID | Precise obligation or result | Status and dependency |
+|---|---|---|
+| RAW-PIVOT-INTERFACE | For every field F, V>=1 and1<=m<=p, replacing chosen m raw coordinates by Aq while retaining the rest is injective iff the selected minor is nonsingular; lost dimension V(m-rank(A_I)). | PROVED algebraic interface with retained physical contracts. results/reversible-raw-pivot-interface/PROOF.md and independent review. |
+| CURRENT-AVAILABILITY | A desired original-input row belongs to the span of all actually present current fields/records, including common/nuisance columns; an invertible overwrite is a separate condition. | PROVED in the linear acquisition model. No global schedule inferred. |
+| ONE-TWO-THREE-FACET | Real acquisition and raw restoration before E8 reads for specified1/2/3 receiver groups. | Independent local reviews passed; generated artifacts await recovery. |
+| SATURATED-SPATIAL-CUT | Specified odd-eight upward cut, fixed common slots and112 reserved legs, linear recoding/feedback still needs8 extra inward fields. | Independent local review passed; proof/checker rescued; result awaits regeneration. Changed common transport excluded from scope. |
+| EIGHT-COHORT | Complete source correctness, introduced maps and raw inverse for specified eight receivers. | AUTHOR-CHECKED; independent review interrupted. No PASS. |
+| GLOBAL-FORWARD-REVERSE-CODE | One compatible causal schedule supplies all first/reverse outputs, retains every input and fits full target invoice. | OPEN PRIMARY. Use actual paired-bank availability, not sums of incompatible cohort prices. |
+| ENDPOINT-REPLACEMENT | Reproduce32-packet changed-common word, prove source comparison, acquire19,968 residual terms within provisional14.812385620139944. | PARTIAL AUTHOR CANDIDATE; fresh full-source audit completion unconfirmed, independent review absent. |
+| ADAPTIVE-CUT-GLOBAL | Saved finite-chart43.527 potential obeys all-chart edge prices. | DISPROVED for that candidate: rank-one jump5.301433140. No unrestricted impossibility follows. |
+
+Published source baseline1872e0b1 is preserved. Missing generated files are not counted as remote evidence. Runtime loss ended local verification before the ten-hour duration.

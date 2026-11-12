@@ -1,0 +1,202 @@
+{
+  "status": "RECOVERED_FROM_PRE_OUTAGE_TOOL_OUTPUT_NOT_AN_INDEPENDENT_REVIEW",
+  "oracle": {
+    "subspaces": 8283458,
+    "unit_edges": 213188689,
+    "cuts": 120,
+    "coefficient_denominator": 1000000000,
+    "objective_numerator": 43527227048,
+    "maximum_unit_increment_numerator": 5301433140,
+    "source_chart_memberships_match": true,
+    "runtime_seconds_approximately": 4.2,
+    "memory_estimate": "About208MB main C++ arrays; no large Python object graph.",
+    "by_upper_dimension": [
+      {
+        "dimension": 1,
+        "increment_numerator": 999999990,
+        "from_frame": [],
+        "to_frame": [
+          511
+        ]
+      },
+      {
+        "dimension": 2,
+        "increment_numerator": 1698921282,
+        "from_frame": [
+          215
+        ],
+        "to_frame": [
+          215,
+          296
+        ]
+      },
+      {
+        "dimension": 3,
+        "increment_numerator": 2984830892,
+        "from_frame": [
+          473,
+          246
+        ],
+        "to_frame": [
+          265,
+          38,
+          208
+        ]
+      },
+      {
+        "dimension": 4,
+        "increment_numerator": 4383619992,
+        "from_frame": [
+          401,
+          378,
+          212
+        ],
+        "to_frame": [
+          193,
+          42,
+          388,
+          336
+        ]
+      },
+      {
+        "dimension": 5,
+        "increment_numerator": 5301433140,
+        "from_frame": [
+          33,
+          34,
+          36,
+          456
+        ],
+        "to_frame": [
+          33,
+          34,
+          36,
+          456,
+          16
+        ]
+      },
+      {
+        "dimension": 6,
+        "increment_numerator": 5176797508,
+        "from_frame": [
+          257,
+          258,
+          212,
+          408,
+          288
+        ],
+        "to_frame": [
+          257,
+          258,
+          324,
+          8,
+          400,
+          288
+        ]
+      },
+      {
+        "dimension": 7,
+        "increment_numerator": 4594636376,
+        "from_frame": [
+          129,
+          66,
+          452,
+          136,
+          144,
+          160
+        ],
+        "to_frame": [
+          129,
+          2,
+          388,
+          136,
+          144,
+          160,
+          64
+        ]
+      },
+      {
+        "dimension": 8,
+        "increment_numerator": 3770298431,
+        "from_frame": [
+          257,
+          66,
+          260,
+          264,
+          272,
+          288,
+          384
+        ],
+        "to_frame": [
+          1,
+          66,
+          4,
+          8,
+          16,
+          32,
+          128,
+          256
+        ]
+      },
+      {
+        "dimension": 9,
+        "increment_numerator": 999999994,
+        "from_frame": [
+          257,
+          258,
+          260,
+          264,
+          272,
+          288,
+          320,
+          384
+        ],
+        "to_frame": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256
+        ]
+      }
+    ],
+    "input_data_status": "The full120-cut weight/generator INPUT.txt and INPUT.json were not printed and could not be byte-rescued. Recreate them from a newly rerun adaptive LP using prepare.py. The finite43.527 candidate is not a global bound."
+  },
+  "adaptive": {
+    "last_solved_cut_count": 4851,
+    "cut_meta_after_last_separation": 4963,
+    "iterations": 12,
+    "last_objective": 43.52722752265827,
+    "last_paid_cover_edges": 113,
+    "last_minimum_augmented_cut_capacity": 10.922488,
+    "required_capacity": 16,
+    "last_violated_frames": 112,
+    "converged": false,
+    "objective_history": [
+      37.53969392759522,
+      39.038018494872624,
+      39.607933601368636,
+      40.05404939102737,
+      40.88829863847147,
+      41.54222958828657,
+      41.99589918699928,
+      42.527738590925196,
+      42.939315295696495,
+      43.18836799083635,
+      43.37810573194853,
+      43.52722752265827
+    ],
+    "scope": "Only1096 source/new chart subspaces were normalized by the finite LP. The complete all-chart screen invalidated its present intrinsic extension."
+  },
+  "next_unexecuted_probe": {
+    "necessary_constraint": "Phi(B)-Phi(A) <= (dim(B)-dim(A intersection B))^(199/200).",
+    "derivation": "For upward cuts Phi(A intersection B)<=Phi(A); normalize the actual nested paid edge A intersection B -> B.",
+    "cover_lifting": "For each cut, the actual meet-to-B entry indicator is at least1_B-1_A. A nonnegative combination of source-pair inequalities can therefore be lifted to concrete nested paid edges for an upper certificate on the cut dual.",
+    "separation": "Use native-owned upward capacities and the actual paid meet-to-B edges on the native plus meet palette; add reverse-containment infinite arcs, force selected facets outside and selected lines inside. Passing all369 frame min-cuts at capacity16 bounds all intermediate upward-cut weights, including arbitrary new-chart cuts by restriction.",
+    "execution_status": "Last write/launch had no output before environment loss. Its orchestration cell g4:190 was explicitly terminated. No result is claimed."
+  }
+}

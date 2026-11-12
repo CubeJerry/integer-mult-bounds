@@ -525,3 +525,16 @@ All frozen author/reviewer files retain staging provenance. Path-only adapters
 preserve mathematical code. These are independent AI mathematical reviews,
 not human or formal-kernel certification. Byte-integrity checks are a separate
 ledger and do not promote finite source identities into uniform suppliers.
+
+
+## S007 exact recovery after runtime loss
+
+At04:59:35 UTC the container became unavailable; GitHub API survived. Checkpoint4 was already confirmed at1872e0b10fd036c47f2f6ce27b32460d70b231f1 with975 scientific files, all preserved.
+
+The raw-pivot proof, independent checker/review and receipt were reconstructed from exact tool-call text, SHA256-matched to frozen pins, then GitHub-readback-hashed by the lead. See results/reversible-raw-pivot-interface/PROVENANCE.json. The universal review covers all fields and V>=1; finite controls cover21,138 matrices,22,807 pivot choices,599,501 inputs and714 route profiles. Negative controls address bad minors, missing records, inverse order, omitted route legs and incomplete availability.
+
+Five integrated portable reviews passed before loss with byte-identical receipts: one/two/three-facet, odd-eight cut and pivot theorem. Original checkpoint5 replay metadata remained local. Missing outputs retain frozen regeneration hashes. The replacement pivot path adapter was inspected but not executed after loss.
+
+Budget recovery files distinguish authenticated bytes from unpinned reconstructions. Original nine-layer COVER and120-cut input remain unavailable. The finite43.527 potential is rejected by a recorded rank-one counterexample. Eight-cohort and endpoint candidates have no independent PASS.
+
+Seven pivot files extend the scientific manifest to982. Recovery-only files stay outside it. Next available runtime must run the new adapter normally/with-O and regenerate missing packages before extending their conclusions.

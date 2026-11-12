@@ -654,3 +654,14 @@ Canonical main is unchanged; open#7177 is a formal BIT interface with unbuilt
 provider, not a target supplier. The ten-hour S007 session remains active.
 No new complete kappa or upstream PR. The resulting remote SHA is recorded
 only after GitHub confirmation, avoiding self-reference.
+
+
+### S007 checkpoint5 recovery — interrupted runtime and preserved pivot theorem
+
+Confirmed baseline1872e0b10fd036c47f2f6ce27b32460d70b231f1/tree77cce511e2e8ffde1a289ff951a0ecd9b018c804. Before interruption, portable independent reviews of one/two/three-facet, saturated odd-eight cut and general pivot interface reproduced frozen receipts. Their generated artifacts were local, not committed.
+
+New mathematics: reversible raw-pivot criterion and exact information loss, full route/ordinary accounting, complete-current-observation gate; actual three-receiver construction; eight-cohort author candidate with monotone composition limit; scoped8-field saturated cut excluding retained direct-first-family interface. Finite adaptive43.527 potential failed an all-chart rank-one test. Changed-common endpoint candidate uses32 rank-nine packets and owes19,968 residual terms; full-source-audit completion and independent review remain unestablished.
+
+Runtime became unavailable2026-11-12 04:59:35 UTC after3h26m41s, before the requested10-hour duration. GitHub API recovery authenticates exact text against frozen SHA256 and separately labels missing generated data and unpinned reconstructions. Universal pivot package is admitted; incomplete source-package recovery does not imply published generated artifacts.
+
+Read sessions/2026-11-12-S007/INTERRUPTION-RECOVERY.md and ROOT-ENDPOINT-CANDIDATE.md. Next regenerate source packages, finish eight-cohort review and construct compatible paired-bank forward/reverse encoding under full accounting. No new kappa, no PR, no unattended continuation. Resulting SHA is reported after GitHub confirmation, avoiding self-reference.

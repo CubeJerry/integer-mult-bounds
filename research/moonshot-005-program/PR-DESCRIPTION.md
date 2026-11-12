@@ -473,3 +473,12 @@ reproduction commands. Prepared for @CubeJerry with substantial OpenAI
 assistance and predecessor credit preserved. **No new kappa.** Both stronger
 suppliers, complete physical and recursive accounting, and all five foundations
 remain open. The cumulative branch is not yet declared PR-ready.
+
+
+## S007 addition and publication limit
+
+The cumulative programme adds the general reversible raw-pivot theorem: exact nonsingular-minor criterion, sharp missing-record count, constructive inverse, complete route invoice and current-observation gate. Its proof/review were recovered byte-exact after runtime loss.
+
+Larger source words, saturated-cut evidence and changed-common alternatives are separately classified in the interruption ledger. Some independent local checks completed before generated artifacts were pushed; eight-cohort and endpoint candidates have no completed independent review. These are not promoted to the admitted theorem.
+
+**No new kappa.** The branch remains ongoing and not PR-ready. All foundations and both supplier requirements remain. @CubeJerry and predecessor credit are retained; AI assistance was used. No upstream PR was submitted.

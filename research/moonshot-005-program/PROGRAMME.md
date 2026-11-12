@@ -362,3 +362,12 @@ The fully newly paid localized-code family is now rigorously too expensive:
 changed observation interfaces and deliberately repriced raw routes remain the
 programme's substantive construction opportunities. Mixed swap return rank is
 exactly k-rank(K(LambdaZ-L)); lowcommondebt alone does not prove cheap recovery.
+
+
+## S007 recovery checkpoint: composable raw encoding
+
+The general reversible raw-pivot interface is now admitted with its independently reviewed algebraic proof at results/reversible-raw-pivot-interface/. A selected carrier overwrite is reversible exactly when its pivot minor is nonsingular; exact information loss is m-rank(A_I). Acquisition, inverse operations, route legs and records remain charged. Later target rows must lie in the span of complete current observations at the real chart. Separate invertible cohort maps do not imply global compatibility.
+
+Locally reviewed one/two/three-receiver words extend actual residual collection; generated artifacts interrupted before publication need regeneration. An eight-receiver candidate is author-checked only. Its monotone cohort restriction rules out simply summing independent cheap cohorts. Next construct a joint forward/reverse code with compatible rows and paid routes. A changed-common endpoint replacement is preserved with all19,968 residual terms explicit; it is not a complete supplier.
+
+The runtime disappeared2026-11-12 04:59:35 UTC before the requested ten-hour duration. See sessions/2026-11-12-S007/INTERRUPTION-RECOVERY.md for exact recovery and missing artifacts. No new kappa; all foundations and both supplier requirements remain.

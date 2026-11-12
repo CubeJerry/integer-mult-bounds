@@ -1,0 +1,35 @@
+{
+  "schema": "byte-authenticated-recovery-v1",
+  "session": "2026-11-12-S007",
+  "baseline_remote_sha": "1872e0b10fd036c47f2f6ce27b32460d70b231f1",
+  "interruption_utc": "2026-11-12T04:59:35Z",
+  "authenticated_frozen_files": [
+    {
+      "path": "PROOF.md",
+      "blob_sha": "447bdb5d6c04d6adfe4232a7bc15458e69210520",
+      "sha256": "71d27e20ed5041f0779f92a16fc1708f08581d330e942909fa66d57de5ffc955",
+      "bytes": 9331
+    },
+    {
+      "path": "review/check_pivot_lemma.py",
+      "blob_sha": "2ececdf572914da5fb970c3db0af52784e12b9cf",
+      "sha256": "4a953929bbe436e1f086bf529cb4509d279addcadb7b410aaed445ce3562d450",
+      "bytes": 9044
+    },
+    {
+      "path": "review/REVIEW.md",
+      "blob_sha": "29e1cf10b588d23cacb34d6db372a43da85ee7d1",
+      "sha256": "d91f5f42dd10e26d31dbfcd406bd9bf093005371d72de16840688d741599acd7",
+      "bytes": 7008
+    },
+    {
+      "path": "review/REVIEW-RESULT.json",
+      "blob_sha": "246bfe8844b904e90336aa2015fcf0c56ffe08c5",
+      "sha256": "83edba4555e2159b4ed038de88e2916536aae5b82d2adb58e53c68661223923d",
+      "bytes": 2133
+    }
+  ],
+  "provenance": "Exact tool-call text matched to frozen pre-interruption SHA256, then read back from GitHub blobs. No scientific receipt was invented.",
+  "new_adapter_status": "Inspected but not executed after runtime loss; earlier local portable replay passed with byte-identical receipt.",
+  "new_complete_kappa": null
+}

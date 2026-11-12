@@ -1,51 +1,33 @@
-# Resume the same programme
+# Resume the same programme after S007 interruption
 
-Read exact remote HEAD, STATE, PROGRAMME, TARGET and OBLIGATIONS. This checkpoint
-follows confirmed `62bdb2fe78804935fddb8ae6b21e8591830e1f29`. Canonical remains
-`e54523517d0f03e58352e647c403a5af3e525a57`. S006 is closed. S007 remains active
-from 2026-11-12 01:32:54 UTC, with requested planning end 11:32:54 UTC. No
-unattended execution is promised. No new complete kappa; not PR-ready.
+Fetch exact remote HEAD and read STATE.json, PROGRAMME.md and TARGET-005.md. Recovery follows the confirmed checkpoint1872e0b10fd036c47f2f6ce27b32460d70b231f1. Canonical last examined:e54523517d0f03e58352e647c403a5af3e525a57. No new complete kappa; not PR-ready.
 
-## Current construction and next decisive work
+S007 began2026-11-12 01:32:54 UTC for a requested10-hour window. The runtime became unavailable04:59:35 UTC after3h26m41s. Recovery used GitHub API access. The requested duration was not completed; no unattended continuation is running.
 
-The admitted seven-correction E8 word has 4,985 residual terms remaining. Its
-actual 407-raw-MOVE fusion preserves all common outputs and private inverse
-rows. The provisional H4 invoice includes all eight rank-nine packets and
-leaves 46.96179481981380... moment per native. Deleted raw visits are unavailable.
+## First recover exact evidence
 
-The constructive continuation acquires real residual aggregates on paid raw
-ascent. One- and two-facet words have independent reviews and await integration.
-A three-receiver candidate uses reversible raw aggregate pivots to bridge
-incomparable pair charts, restoring every donor before later E8 reads; review
-is pending. Next test a systematic eight-receiver cohort using exact group
-ranks and all route/ordinary costs, rather than assuming independent local
-constructions compose.
+Read sessions/2026-11-12-S007/INTERRUPTION-RECOVERY.md and recovery manifests. The old975 scientific files remain unchanged. The general raw-pivot theorem adds authenticated proof, independent checker/review/receipt and a new path-only adapter that needs its first post-outage execution.
 
-A separate direct first-family word completes all104 first pairs with112
-rank-one packets and leaves only6.29307104377714 moment. Its exact terminal
-state has a sharp96-inbound-field append-only repair floor; the attaining suffix
-fails the target. Earlier recoding is outside that statement. A stronger
-saturated spatial cut is being prepared and must be reviewed before admission.
+One/two/three-facet and odd-eight cut independent local replays passed before interruption, but generated files were not yet pushed. Regenerate from rescued sources and compare frozen pins before admitting full packages. The eight-receiver cohort is author-checked only: its independent word review was interrupted. Do not invent a PASS.
 
-## Do not repeat or overextend
+## One main mathematical obligation
 
-- ALL104-HISTORY excludes own original-station completion even for arbitrary
-  common-dependent increments when the relevant common endpoints are restored.
-  It is per donor, not a union of all donors' stations.
-- CHART318-FULL-HISTORY strengthens old-O: all19 arrival differences factor
-  through four common endpoints for actual controls at16,35,127,318, including
-  feedback. This closes that access class; new receiver charts remain open.
-- REVERSE-HISTORY-CONE excludes q-only controls for all96 hosted pairs with a
-  fixed common observation map, including monotone donor retargeting within the
-  final hyperplane. It does not prove96 paid calls are necessary.
-- Mixed-swap return counts include every raw duty. Retained q-delta is not an
-  independently supplied common record. Source acquisition is not automatic.
-- The98.992356 code bound is for all-new transport and old access. It is not a
-  hybrid bound, and its fixed H4 comparison changes when raw routes change.
-- E8 and54/43 routing certificates retain their pure-value interfaces. Actual
-  dirty-history gains and changed raw carriers require new compatible words.
+Construct one compatible **joint forward/reverse encoding** with real chart availability, every input direction retained, restoration before later donor reads and one complete target invoice. Separate invertible group maps are insufficient. Use RAW-PIVOT-INTERFACE with the complete current observation matrix, including real local records and all common-input columns.
 
-Keep uniform complex U>.005, completed ordinary BIT B>.005 and all five
-foundations visible. Open PR7177 is a formal BIT QUERY removal with an unbuilt
-provider; even removing all four QUERY calls does not meet the retained .005
-native/IDLE/target invoice. No upstream PR or selected certificate was changed.
+The eight-cohort candidate completes8 first pairs with56 reversible pivots and leaves4,601 residual coefficients. Its claimed conditional margin43.91010862296462 includes8 rank-nine packets. After a donor ascends to its dimension-six cohort chart, monotone access is confined to that cohort's four receiver normals. Independent cohorts do not automatically compose.
+
+The next concrete test is paired-bank forward/reverse acquisition, exploiting common initial Y/Y2 charts and shared terminal X/X2 charts. Do not buy another reverse packet system without recomputing all costs.
+
+A changed-common-transport alternative is recorded in ROOT-ENDPOINT-CANDIDATE.md. Its32 paid rank-nine packets leave provisional margin14.812385620139944 but19,968 residual coefficients. Common main outputs are not yet correct. Fresh full source audit completion was unconfirmed; no independent review exists.
+
+## Preserve proven scope and rejected methods
+
+- Admitted seven-fused word:74,757 instructions,407 raw MOVEs,4,985 residuals; margin46.96179481981380 with8 rank-nine packets.
+- Direct104-first-pair word:112 rank-one packets, margin6.29307104377714. Sharp terminal96-field repair fails; locally reviewed saturated odd-eight cut also needs8 extra fields under fixed common slots and all112 charged legs. Changed common transport is outside that cut.
+- All104 original-route history laws and chart318 full-history laws retain their stated common-map/access restrictions.
+- Reverse-history cones are not a96-paid-call lower bound.
+- All-new localized-code bound98.992356 is not a hybrid funded-transit bound.
+- The adaptive finite-chart43.527 potential FAILS on an explicit new rank-one edge. No global forty-plus bound exists.
+- Word-local new chart IDs differ between three-facet and eight-cohort artifacts.
+
+Both compatible uniform complex U>.005 and completed ordinary BIT B>.005 remain required; all five foundations remain. No selected certificate or upstream branch was altered and no PR was submitted.

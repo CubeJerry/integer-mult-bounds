@@ -1,0 +1,39 @@
+{
+  "status": "byte-authenticated-text-recovery",
+  "files": [
+    {
+      "path": "odd8-saturated-cut/check_cut.py",
+      "blob_sha": "074536fa7fc9949e151b1d36e557fc32b0d9c89d",
+      "bytes": 15810,
+      "sha256": "7161aea481dd45d9e712b9ab753c9f7669c3287a2884d6f182283e0c893afc28",
+      "matches_frozen_pre_outage_sha256": true
+    },
+    {
+      "path": "odd8-saturated-cut/REVIEW.md",
+      "blob_sha": "63a5527a5e1b7f2106ad6547f1b3b5c941e97586",
+      "bytes": 7179,
+      "sha256": "55e48fb2ce45ccdefcc0162b3ae33eef5dfad936e716ae9138d1193db7323b1f",
+      "matches_frozen_pre_outage_sha256": true
+    },
+    {
+      "path": "three-facet-pivot-completion/check_three_pivots.py",
+      "blob_sha": "393a672bc3473e45b23dfe3367c2b3be15fdb2f9",
+      "bytes": 24119,
+      "sha256": "f2b3a62870287adc416f37a6951d3a09ff4739631e930464669bb52d32c79154",
+      "matches_frozen_pre_outage_sha256": true
+    },
+    {
+      "path": "three-facet-pivot-completion/REVIEW.md",
+      "blob_sha": "50ae11f998c46a99ee4333e3dd582a4555338e91",
+      "bytes": 8158,
+      "sha256": "0a1c77a21b9cbfb306e8516e3386553f0b4854f988b43548d10639a8418ce4fa",
+      "matches_frozen_pre_outage_sha256": true
+    }
+  ],
+  "missing": [
+    "Cut and three-facet generated review receipts",
+    "One-facet check_facet.py required by three-facet checker; frozen SHA25668fae3bd5a9a4f15a496f1e8b7b170880dfab6e66261cdd6d1455dc9a8c5f995",
+    "One/two-facet full independent source and prose not recovered"
+  ],
+  "cohort_status": "Independent checker incomplete; no PASS."
+}

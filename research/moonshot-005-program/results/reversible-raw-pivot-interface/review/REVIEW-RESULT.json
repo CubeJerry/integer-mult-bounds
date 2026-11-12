@@ -1,0 +1,66 @@
+{
+  "all_matrices_and_pivot_choices_for": "1<=m<=p<=3",
+  "field_results": {
+    "2": {
+      "all_input_assignments": 5924,
+      "invertible_choices": 263,
+      "largest_actual_ADD_count": 20,
+      "largest_actual_SCALE_count": 10,
+      "lost_dimensions_total": 555,
+      "matrices": 606,
+      "pivot_choices": 754,
+      "singular_choices": 491
+    },
+    "3": {
+      "all_input_assignments": 593577,
+      "invertible_choices": 12644,
+      "largest_actual_ADD_count": 20,
+      "largest_actual_SCALE_count": 10,
+      "lost_dimensions_total": 9777,
+      "matrices": 20532,
+      "pivot_choices": 22053,
+      "singular_choices": 9409
+    }
+  },
+  "finite_fields": [
+    2,
+    3
+  ],
+  "negative_controls": {
+    "dependent_output_collision_rejected": true,
+    "full_rank_matrix_bad_minor_rejected": true,
+    "overlap_and_complete_availability": {
+      "2": {
+        "raw_only_rank": 1,
+        "with_record_rank": 2,
+        "wrong_inverse_first_row": [
+          1,
+          0,
+          1
+        ]
+      },
+      "3": {
+        "raw_only_rank": 1,
+        "with_record_rank": 2,
+        "wrong_inverse_first_row": [
+          1,
+          0,
+          2
+        ]
+      }
+    },
+    "rank_tensor_identity_verified_at_V3": true
+  },
+  "pivot_cases": 22807,
+  "reviewed_proof_sha256": "71d27e20ed5041f0779f92a16fc1708f08581d330e942909fa66d57de5ffc955",
+  "route_profiles": {
+    "arbitrary_pivot_index_order_checked": true,
+    "noncontaining_facet_rejected": true,
+    "omitted_acquisition_rejected": true,
+    "omitted_final_leg_rejected": true,
+    "symbolic_route_profiles_checked": 714,
+    "zero_length_segments_omitted": true
+  },
+  "status": "PASS_INDEPENDENT_RAW_PIVOT_LEMMA_CONTROLS",
+  "universal_scope": "The universal any-field theorem is justified by the separate mathematical proof review; these finite controls verify concrete elementary implementations, all small-field inputs, exact lost-information counts, minimum coordinate records, route histogram identities, inverse order, and complete current availability. They do not establish physical chart suppliers or compatible global schedules."
+}
