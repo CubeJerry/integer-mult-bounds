@@ -1,7 +1,7 @@
 {
   "schema": "moonshot-005-program-state-v1",
   "branch": "research/moonshot-005-program",
-  "checkpoint_baseline_sha": "1872e0b10fd036c47f2f6ce27b32460d70b231f1",
+  "checkpoint_baseline_sha": "d5381d278a37044104f14614b0d7bc1ec97f788b",
   "checkpoint_sha_semantics": "Last confirmed remote baseline; the resulting recovery commit is reported only after GitHub confirmation.",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
   "session": "2026-11-12-S007",
@@ -580,9 +580,9 @@
   "path_semantics": "Result paths are relative to research/moonshot-005-program.",
   "tested_source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
   "publication_status": "Ongoing research; no new complete kappa, not PR-ready. Recovery files distinguish exact text, missing generated artifacts, and unreviewed candidates.",
-  "last_verified_scientific_commit": "1872e0b10fd036c47f2f6ce27b32460d70b231f1",
-  "last_verified_scientific_tree": "77cce511e2e8ffde1a289ff951a0ecd9b018c804",
-  "session_status": "Execution container unavailable since2026-11-12T04:59:35Z; recovering evidence through GitHub. Ten-hour request not completed.",
+  "last_verified_scientific_commit": "d5381d278a37044104f14614b0d7bc1ec97f788b",
+  "last_verified_scientific_tree": "cdec7c8ddf77b7b10aa9f985d931e53e83d065e3",
+  "session_status": "Runtime unavailable; recovery checkpoint published and source-worker reconstruction notes pending. Ten-hour request not completed.",
   "supporting_results": {
     "index": "SUPPORTING-RESULTS.md",
     "manifest": "SUPPORTING-IMPORTS.json",
@@ -591,7 +591,7 @@
   "session_started_utc": "2026-11-12T01:32:54Z",
   "requested_session_seconds": 36000,
   "observer_count_clarification": "Eight-current closure has26 surviving terms:4main,20helper,2owned. Deleted observations are not remaining premises. Reference peak33 is not the peak of the unbuilt1880-input shared execution.",
-  "upstream_last_checked_utc": "2026-11-12T04:17:02Z",
+  "upstream_last_checked_utc": "2026-11-12 05:23:27 UTC",
   "external_open_prs_examined": [
     3040,
     3045,
@@ -653,7 +653,7 @@
     "affordable_continuation_status": "disproved-within-unchanged-prefix-original-route-geometry-and-recorded-target-profile"
   },
   "handoff": "CONTINUATION.md",
-  "session_checkpoint_utc": "2026-11-12 05:16:46 UTC",
+  "session_checkpoint_utc": "2026-11-12 05:32:56 UTC",
   "continuation_constraints": {
     "terminal_export_lower_bound": 50,
     "fixed_profile_new_call_ceiling_facet": 8,
@@ -843,6 +843,8 @@
     "record": "sessions/2026-11-12-S007/INTERRUPTION-RECOVERY.md",
     "root_candidate": "sessions/2026-11-12-S007/ROOT-ENDPOINT-CANDIDATE.md",
     "byte_authentication": "SHA256 against frozen pre-outage pins; missing bytes are explicitly marked",
-    "background_execution": false
+    "background_execution": false,
+    "regeneration_blocker": "The original one-facet independent checker is missing (SHA25668fae3bd5a9a4f15a496f1e8b7b170880dfab6e66261cdd6d1455dc9a8c5f995). Three-facet review imports it. Recover exact bytes or write and independently validate a replacement with fresh provenance; do not silently bypass pins.",
+    "source_generator_status": "One/two/three/eight-facet original generator bytes are not recovered from surviving context. Preserve recipes/pins, reimplement with fresh validation, and do not claim exact generator recovery."
   }
 }

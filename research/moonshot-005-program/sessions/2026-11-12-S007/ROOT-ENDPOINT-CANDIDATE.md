@@ -28,16 +28,18 @@ There are208 residual rows and9,984 nonzero offdiagonal coefficients per copy; a
 
 ## Schedule used in the local author run
 
+The empty subspace has source chart identifier **3**; it is not chart ID0. Execute the entire block of steps3–7 separately for the common-main bank and then for the private-difference bank. Each bank has200 X-like and200 Y-like public fields and uses16 packets. Step8 follows both complete bank passes.
+
 1. Form400 raw differences q=v-u with real ADD operations.
 2. Move1080 common helper fields directly from initial to final chart, preserving normalized values.
-3. For each of the common-main and q banks, form eight reverse aggregates from original yr at chart0 and retain them in eight actual owned fields.
-4. Move all200 X-like public fields directly to the hub. Scale the eight coupled first-Y values by1/2 at0.
-5. For each of eight forward packets, encode original X at the hub, perform one paid rank-nine Hub→0 MOVE, decode into first-Y fields, and clear its record.
-6. Move each retained reverse packet0→Hub, decode into104 reverse-X roles, and clear it.
+3. For each of the common-main and q banks, form eight reverse aggregates from original yr at empty chart3 and retain them in eight actual owned fields.
+4. Move all200 X-like public fields directly to the hub. Scale the eight coupled first-Y values by1/2 at empty chart3.
+5. For each of eight forward packets, encode original X at the hub, perform one paid rank-nine Hub→chart3 MOVE, decode into first-Y fields, and clear its record.
+6. Move each retained reverse packet chart3→Hub, decode into104 reverse-X roles, and clear it.
 7. Move all200 Y-like public fields to their destination facets.
 8. Recouple400 q outputs with the common approximate outputs. Linearity yields the same approximate map on v, with no residual u contamination.
 
-All1880 public fields move exactly once;32 owned rank-nine packets are separately paid. Peak newly owned live fields is9.
+Across both banks there are800 main public MOVEs, plus1080 helper MOVEs and32 owned packet MOVEs, giving1912 total. All1880 public fields move exactly once;32 owned rank-nine packets are separately paid. Peak newly owned live fields is9.
 
 Recorded counts:
 
