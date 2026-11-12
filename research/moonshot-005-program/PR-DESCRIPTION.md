@@ -529,3 +529,19 @@ E8/native/cohort/paired-interface predecessor credit.
 The dependent-root source word now proves a finite rank95 reverse residual with all1,880 inputs preserved, three forward rows complete and one reverse relation complete. A general separated-source first-departure argument shows why this rank gain does not imply cheap terminal delivery. A separate exact all-chart gate excludes complete pure Gram packets on independently paid returns at the target budget. These results motivate the same programme's mixed b/d return construction, whose physical acquisition remains open.
 
 Full source evidence, precise scopes and independent reviews are in results/dependent-triple-paired-code/ and results/reverse-gram-packet-chart-gate/. Do not combine alternative words' benefits without a legal current-row composition. No complete native, uniform supplier or foundational discharge is claimed. **No new kappa.** The branch remains ongoing and is not PR-ready. Prepared for @CubeJerry with substantial OpenAI assistance; all source and predecessor credit retained.
+
+## Verified S009 second wave
+
+Exact hosted E8 distance42 at all field volumes gives fresh-packet rank50
+and relaxed price10*5^(199/200). Actual late2 retiming saves
+.418386945536927/native, but the favorable complete tariff still excludes
+fresh unchanged-source Gram returns by>.5656569497329735/native. Mixed
+current rows remain outside that theorem. The actual78143 twelve-entry
+principal extension obtains rank87 with unchanged forward rows, one paid
+rank1 packet and full margin39.3852032109849. Independent reconstruction
+covers all1880 inputs, inverse, clocks, fee and phases;80 alternative
+source templates are verified without serial route reuse. The coupled
+entry map also composes with rank88, with original-basis debt retained.
+**No new kappa.** Both strict suppliers and five foundations remain.
+Preserve @CubeJerry and predecessor/S008 credit; substantial OpenAI
+assistance disclosed. Ongoing programme, no upstream PR submitted.

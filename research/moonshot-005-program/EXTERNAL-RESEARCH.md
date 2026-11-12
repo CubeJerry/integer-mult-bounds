@@ -421,3 +421,13 @@ all five foundations. Metadata and package scope were inspected; no full source
 review or incorporation is claimed. They may inform later compiler admission.
 #6916's substantial mathematical PR style and exact provenance were reviewed
 for the cumulative description. No PR or discussion message was submitted.
+
+## S009 checkpoint2 concurrent integration
+
+Programme29736f4673db32e546de019d9143b07404d15368 descends from S009's
+a3fd7cc3. S009 fast-forwarded and preserved S008's dependent-triple source
+and independent packet-gate reviews. Alternative-source gains are not added
+to the frame word. The mixed-observation interface requires a complete
+paired code or an explicit reduction of the actual remaining map before
+eight Gram observations suffice. Upstream last examined remains
+e54523517d0f03e58352e647c403a5af3e525a57; no selected certificate changed.

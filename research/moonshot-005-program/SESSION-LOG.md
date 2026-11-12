@@ -733,3 +733,18 @@ not self-embedded. The requested10-hour session is still active.
 Parent/baseline51e063356902b082a891ac80464f9dfb80f09693, GitHub confirmed. Independently admitted the actual dependent-root triple:76,039 instructions,three complete forward rows,136 transpose coefficients,rank95 reverse residual and one completed reverse relation. Proved a96-first-departure lower bound for restored separated-source terminal states, so low rank alone does not finish the construction. Independently classified complete reverse Gram packet acquisition over all511 binary lines; eight separate returns cost at least63.3380260 and fail the optimistic47.0797428 allowance.
 
 The next mechanism mixes reverse-X and Y2 information at facets, using the current hub z=b+(P-I)d to remove the b part. Its promising eight-row decoder algebra is under independent review; physical current-row acquisition is now the primary obligation. Nested source code and exact odd8 recovery have local reviews pending integration. The requested ten-hour session remains active. No new kappa, no upstream PR; resulting SHA goes in the next confirmed ledger.
+
+### 2026-11-12-S009 — checkpoint2, session active
+
+Start a478afb8 at12:58:11 UTC; planning end22:58:11 UTC. Previous S009
+remote checkpointa3fd7cc3; parent29736f4673db32e546de019d9143b07404d15368.
+Concurrent S008 evidence was inspected and preserved by fast-forward.
+Admitted: exact hosted distance42/all-volume packet floor; actual late2
+prefix identity; principal/column-support rank lemmas; actualrank87 word;
+coupled-entry/rank88 composition. The upgraded-tariff fresh-return deficit
+remains>.5656569497329735/native. Reviews tightened the shear lemma to
+full input columns and recorded five live caches; the word/fee were unchanged.
+Current-row quotient branches and a broader forward packet gate continue
+in the next wave. Next: global mixed acquisition and replacement of
+saturated reciprocal blocks. No new kappa; no PR. Resulting remote SHA
+will be recorded after publication in a later receipt, avoiding self-reference.

@@ -1,5 +1,30 @@
 # S009 current frontier: actual reciprocal rank reduction
 
+## Current checkpoint: S009 second verified wave, 2026-11-12
+
+The actual source frontier now includes a **rank87** reverse residual:
+four earlier reads on genuine raw dual routes plus one paid rank1 column
+packet complete a17-port principal Gram block. All1880 input directions,
+forward rows and common suffix are preserved. Full provisional margin:
+39.3852032109849/native. The80 alternative source templates cannot be
+composed by resetting their shared routes. This is a partial construction.
+
+The coupled entry transform composes with the rank88 word. A separate actual
+late-two-packet schedule preserves that word's map and saves
+.418386945536927/native. Exact hosted Gram distance42 gives a fresh
+unchanged-source packet price of at least10*5^(199/200). Even that new
+forward tariff, granting all400 raw paths direct, leaves a deficit above
+.5656569497329735/native. Mixed current rows and funded informative side
+information are outside the obstruction.
+
+The main construction needs globally compatible shared reverse information
+or a different complete interface. Concurrent S008's dependent-triple and
+mixed-observation work is preserved at29736f46. Its alternative-source gains
+are not added to this word. The selected complete conditional saving remains
+.00363005817; target.005 remains open. All five foundations retained;
+**No new kappa. Not PR ready.**
+
+
 A source-valid two-frame word now reduces the complete hosted reverse residual
 from rank96 to88. Its78,123 instructions preserve all1,880 input directions,
 all common outputs and the eight earlier forward completions. It adds32 actual

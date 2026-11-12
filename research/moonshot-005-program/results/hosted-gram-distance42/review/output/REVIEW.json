@@ -1,0 +1,233 @@
+{
+  "attaining_normals": [
+    38,
+    191
+  ],
+  "deletion_census": [
+    {
+      "index": 1,
+      "sign_pairs": 0,
+      "total": 42,
+      "two_coordinate_pairs": 42
+    },
+    {
+      "index": 2,
+      "sign_pairs": 7,
+      "total": 28,
+      "two_coordinate_pairs": 21
+    },
+    {
+      "index": 3,
+      "sign_pairs": 1,
+      "total": 22,
+      "two_coordinate_pairs": 21
+    },
+    {
+      "index": 4,
+      "sign_pairs": 2,
+      "total": 14,
+      "two_coordinate_pairs": 12
+    },
+    {
+      "index": 5,
+      "sign_pairs": 4,
+      "total": 16,
+      "two_coordinate_pairs": 12
+    },
+    {
+      "index": 6,
+      "sign_pairs": 8,
+      "total": 23,
+      "two_coordinate_pairs": 15
+    },
+    {
+      "index": 7,
+      "sign_pairs": 16,
+      "total": 37,
+      "two_coordinate_pairs": 21
+    },
+    {
+      "index": 8,
+      "sign_pairs": 32,
+      "total": 63,
+      "two_coordinate_pairs": 31
+    }
+  ],
+  "exact_relaxed_moment_floor": "10*5^(199/200)",
+  "integer_packet_review": {
+    "histograms_rank_at_most49": 321728,
+    "independent_knapsack_bounds": [
+      {
+        "largest_small_rank": 2,
+        "maximum_capacity": 35,
+        "small_rank_budget": 35
+      },
+      {
+        "largest_small_rank": 3,
+        "maximum_capacity": 37,
+        "small_rank_budget": 28
+      },
+      {
+        "largest_small_rank": 4,
+        "maximum_capacity": 41,
+        "small_rank_budget": 21
+      },
+      {
+        "largest_small_rank": 5,
+        "maximum_capacity": 40,
+        "small_rank_budget": 14
+      },
+      {
+        "largest_small_rank": 6,
+        "maximum_capacity": 33,
+        "small_rank_budget": 7
+      }
+    ],
+    "passing_at_exact50": [
+      {
+        "5": 10
+      },
+      {
+        "2": 1,
+        "4": 12
+      },
+      {
+        "1": 2,
+        "4": 12
+      }
+    ],
+    "passing_at_most49": 0
+  },
+  "invoice_sha256": "b8adae359984f27f140db1fb3cf7e37f1f96a25bdb1cc586de6dca6b47534248",
+  "method": "Fresh geometric signed-root construction, duals derived by exact elimination, separate reflection/node census, actual hosted support lists, count-vector integer enumeration, dyadic power arithmetic; no author verifier imported or executed. Universal chamber proof reviewed analytically.",
+  "minimum_distance": 42,
+  "negative_controls": [
+    "wrong simple orientation creates mixed signs",
+    "root exception has126 signed zeros",
+    "distance41 admits rank49 near-boundary histogram"
+  ],
+  "nonroot_real_normal_support_lower": 54,
+  "reviewed_author_files": {
+    "PROOF.md": "77c996ff9233f087a0e024c107b552f022adeca51cf5540c2487ef80cb2a2506",
+    "output/CHAMBER.json": "a323567b58318285ecdcb68af1851c72e5486286355aa6debc46e24f46d63d7c",
+    "output/RESULT.json": "1f6b3dc66ca27d3dec721e78ce00084230352a5f68ba9e28cdc70e5d6582f9d7",
+    "verify.py": "fa08e19bc807dabc09c1d89a7fd03827494f14f63f124493eb92eabf73bd1258"
+  },
+  "root_reflection_identities": 1920,
+  "scope": "Source/all-volume unchanged-raw freshpacket theorem accepted. Mixed current rows, funded routes, useful hub side information and changed packet interfaces remain outside the obstruction. No new kappa.",
+  "simple_duals": [
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "-1"
+    ],
+    [
+      "1/4",
+      "1/4",
+      "1/4",
+      "1/4",
+      "1/4",
+      "1/4",
+      "1/4",
+      "-5/4"
+    ],
+    [
+      "-1/4",
+      "1/4",
+      "1/4",
+      "1/4",
+      "1/4",
+      "1/4",
+      "1/4",
+      "-7/4"
+    ],
+    [
+      "0",
+      "0",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2",
+      "-5/2"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2",
+      "-2"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1/2",
+      "1/2",
+      "1/2",
+      "-3/2"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1/2",
+      "1/2",
+      "-1"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1/2",
+      "-1/2"
+    ]
+  ],
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_INDEPENDENT_DISTANCE42_CHAMBER_AND_CHANGED_TARIFF_REVIEW",
+  "tariffs": {
+    "eight_rank9": {
+      "deficit_lower": "5023509579084104215602797792900560499/1993841993677373809355710590420516864",
+      "deficit_upper": "15070528737252312646808393378701716467/5981525981032121428067131771261550592",
+      "fresh_return_price_lower": "32964359237454816832279721231090650255/664613997892457936451903530140172288",
+      "fresh_return_price_upper": "8241089809363704208069930307772662565/166153499473114484112975882535043072",
+      "headroom_lower": "281608704399841038843709097701114135873/5981525981032121428067131771261550592",
+      "headroom_upper": "46934784066640173140618182950185695133/996920996838686904677855295210258432",
+      "packet_histogram": {
+        "9": 8
+      },
+      "paid_positions": 128988,
+      "targets": 27344
+    },
+    "two_late_with_all_raw_refinements_free": {
+      "deficit_lower": "1127830580393054083349829399584090111/1993841993677373809355710590420516864",
+      "deficit_upper": "6766983482358324500098976397504610633/11963051962064242856134263542523101184",
+      "fresh_return_price_lower": "32964359237454816832279721231090650255/664613997892457936451903530140172288",
+      "fresh_return_price_upper": "8241089809363704208069930307772662565/166153499473114484112975882535043072",
+      "headroom_lower": "586591482791828378480936005762127094047/11963051962064242856134263542523101184",
+      "headroom_upper": "48882623565985698206744667146843930327/996920996838686904677855295210258432",
+      "packet_histogram": {
+        "1": 1,
+        "7": 1,
+        "8": 1,
+        "9": 6
+      },
+      "paid_positions": 129006,
+      "targets": 27344
+    }
+  }
+}

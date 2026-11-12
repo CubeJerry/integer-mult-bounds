@@ -1,0 +1,122 @@
+{
+  "all_field_volumes": true,
+  "arbitrary_linear_coordinate_mixing": true,
+  "complete_new_kappa": null,
+  "exhaustive_rank_histogram_check": {
+    "both_pass": 0,
+    "cover_pass": 197339,
+    "distance_pass": 14,
+    "histograms_at_least8": 244755,
+    "max_coverage_histogram": {
+      "1": 43,
+      "4": 1
+    },
+    "max_coverage_if_distance_passes": 51,
+    "rank_budget": 47
+  },
+  "full_p_sum": "57",
+  "full_projective_root_count": 120,
+  "hosted_p_sum_lower": "73/2",
+  "hosted_source_count": 96,
+  "invoice_sha256": "b8adae359984f27f140db1fb3cf7e37f1f96a25bdb1cc586de6dca6b47534248",
+  "locality_rank_histogram": {
+    "7": 24,
+    "8": 487
+  },
+  "minimum_source_block_support": 37,
+  "negative_controls": [
+    "weakened support33 admits rank46 histogram",
+    "dropping total96 coverage admits44 rank1 packets",
+    "altered omitted frame rejected",
+    "all nonexceptional source directions have exact rank8 witnesses"
+  ],
+  "numerical_relaxation_attainer": {
+    "4": 12
+  },
+  "omitted_frames": [
+    [
+      7,
+      25,
+      42,
+      52,
+      76,
+      82,
+      97,
+      127
+    ],
+    [
+      67,
+      104,
+      137,
+      162,
+      266,
+      289,
+      448,
+      491
+    ]
+  ],
+  "omitted_root_count": 24,
+  "optimistic_complete_caller": {
+    "P_best": {
+      "1": 74182,
+      "2": 14904,
+      "3": 14598,
+      "4": 4338,
+      "5": 5760,
+      "6": 306,
+      "7": 216,
+      "8": 8716,
+      "9": 144,
+      "16": 832,
+      "24": 832,
+      "32": 832,
+      "40": 832,
+      "48": 832,
+      "56": 832,
+      "64": 832
+    },
+    "T4": {
+      "1": 234,
+      "2": 324,
+      "3": 792,
+      "4": 3870,
+      "5": 1224,
+      "6": 756,
+      "7": 324,
+      "8": 1206,
+      "9": 11542,
+      "17": 832,
+      "25": 832,
+      "33": 832,
+      "41": 832,
+      "49": 832,
+      "57": 832,
+      "65": 832,
+      "73": 832,
+      "145": 416
+    },
+    "deficit_18_native_lower": "356228511195009772514439/50000000000000000000000",
+    "deficit_per_native_lower": "39580945688334419168271/100000000000000000000000",
+    "deficit_per_native_upper": "222642819496881107825893/562500000000000000000000",
+    "headroom_lower": "26482355293151728145769773/562500000000000000000000",
+    "headroom_upper": "23539871371690425018465901/500000000000000000000000",
+    "packet_cost_lower": "2967222012516512139288407/62500000000000000000000",
+    "packet_cost_upper": "4450833018774768208932611/93750000000000000000000",
+    "paid_positions": 128988,
+    "rank_surplus": 3760,
+    "raw_histogram": {
+      "8": 400
+    },
+    "retained_forward_packets": {
+      "9": 8
+    },
+    "target_positions": 27344
+  },
+  "packet_demand_dimensions_per_field": 8,
+  "polynomial_coefficients_checked": 2082,
+  "power_denominator": 1000000000000000000000000,
+  "rank_mass_floor": 48,
+  "scope": "Fresh single-cochart raw-source packets, no useful Y-dependent hub side information or funded transport. The rank48 relaxation attainer is not a constructed packet code. No new kappa.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_SOURCE_GRAM_RETURN_PACKET_OBSTRUCTION"
+}

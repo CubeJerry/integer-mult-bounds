@@ -610,3 +610,19 @@ The dependent-triple author word and independent C re-emission agree exactly at7
 For the reverse Gram packet gate, root independently used rational elimination rather than the author's modular-minor method. All511 lines, all276 exceptional pairs and actual source endpoint charts are checked. Separate40-digit rational power certificates establish the stronger direct-raw price comparison. The integrated review receipt matches its frozen result. These two packages are alternatives/constraints within the programme; their bills and gains are not added as if they were one word.
 
 Mixed b/d packet algebra and physical acquisition are active research, not admitted construction premises at this checkpoint. No new complete kappa.
+
+## S009 checkpoint2
+
+Six packages admitted with independent reviews: support37 predecessor;
+exact distance42/all-volume fresh-packet rank50 and tariff; actual78020
+late2 source identity; principal-block/column-support theorem and all80
+kernel/minor certificates; actual78143 rank87 word and80 alternative
+source templates; actual78155 coupled/frame composition. Each exact source
+word was reconstructed separately on all1880 input columns, with inverse,
+full invoice, native clocks and phases. Negative controls are in the
+package reviews. The rank87 review checks320 family map pairs, the full
+b-input columns and five retained caches. The combined review checks both
+residual bases and all1480 common prefix rows. All copied checkers passed
+from final repository paths; these portability reruns are not additional
+independent mathematical reviews. Session receipts contain exact results.
+No new kappa; all strict suppliers and five foundations remain.

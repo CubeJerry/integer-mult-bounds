@@ -464,3 +464,41 @@ For every binary acquisition chart C, nonzero complete hosted Gram functionals f
 ### MIXED-REVERSE-ACQUISITION — open primary
 
 Construct actual facet observations m=Qb+Sd during one global paired current-row code, restore all promised public inputs, and establish row(P) subset row(S-QE), where E=P-I and the final hub has z=b+Ed. Then the hub can derive Pd from m-Qz. A proposed eight-row special case Q=E_I,S=I_I is under independent algebra review; its actual acquisition remains unproved. Dependencies: reciprocal encoder interface, correct complete forward code, actual source row availability, typed transport, owned lifetimes/erasure, coupled repair prerequisites and full H4 invoice. The global16-move envelope is sufficient arithmetic only.
+
+## S009 checkpoint2 obligations and changed dependencies
+
+**HOSTED-GRAM-DISTANCE42 — proved within pinned source and characteristic zero.**
+For every V>=1 every nonzero vector of W tensor F^V has source-block support
+at least42; root directions38/191 attain it. The chamber proof covers every
+normal, not only finite sampled directions. For fresh unchanged-raw local
+packets, arbitrary dependence and coordinate mixing are permitted; the
+quotient argument yields rank50 and price10*5^(199/200). Independent review
+also proves the deficit under the changed late2 tariff. Source and invoice
+pins, negative controls and all hypotheses are in the package and review.
+
+**CLOSED-PRINCIPAL-GRAM — proved algebraic interface.** For residual
+[[G_KK,0],[D,I]], rank=96-|K|+rank(A_K). A general column update on J obeys
+rank(M+E)>=rank(M)-|J|+rank(Z_J), Z a kernel basis. The actual rank88 word
+has |K|=16; all80 next ports need precisely12 entries for the prescribed
+principal extension, giving rank87. Root review independently checks their
+kernels/minors. This gate alone supplies no transport.
+
+**ACTUAL-RANK87-EXTENSION — proved finite word and80 alternative templates.**
+The78143-operation t90 word physically supplies those12 entries by4 actual
+early raw shears and1paidrank1 packet. All1880 columns, complete invoice,
+native clocks,320 family map pairs and true input inverse are independently
+checked. All96 b columns vanish outside their retained outputs; this stronger
+premise is required by the entry-shear lemma. Five inherited owned caches
+remain live at common entry, but slot1880 is free and local peak6<43.
+Further global shared-code completion is open; no serial resets are granted.
+
+**COUPLED-FRAME-COMPOSITION — proved partial composition.** The78155 word
+retains rank88, completes8 coupled reverse outputs and preserves8 B forward
+completions. Exact original-coordinate forward debt is4920. The separate
+late2 word preserves the full rank88 map and saves actual moment; their
+combination with rank87 remains to be emitted and verified if useful.
+
+**GLOBAL-MIXED-PACKET-ADMISSION — open primary.** Use the actual current R
+in z=b+R d, not an unbuilt complete G-I. Prove every acquired row, restore
+all inputs and final duties, charge every operation, and meet the full target.
+All strict suppliers/foundations remain. No new complete kappa.

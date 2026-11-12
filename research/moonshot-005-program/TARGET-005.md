@@ -602,3 +602,31 @@ The actual dependent triple leaves rank95, with partial margin43.730571695159306
 The separate complete-Gram-packet gate over all511 binary lines proves acquisition dimension at most1 from unchanged original Y2 values. Eight separately paid complete returns cost at least8*8^(199/200)=63.338026010573245..., exceeding the optimistic direct-raw allowance47.07974274338085... by more than16.258283267. Partial factors, mixed b/d packets, changed current carrier rows and funded transport are outside that restriction.
 
 The primary open interface is now: obtain actual m=Qb+Sd with row(P) contained in row(S-QE), where z=b+Ed is the current hub and E=P-I. Local subtraction yields m-Qz=(S-QE)d. The special choice Q=E_I,S=I_I may yield eight rank1 facet-to-hub returns; its decoder algebra is being independently checked. The existing16-move budget envelope applies only after all acquisitions, full forward coding, coupled repairs and restoration are actually constructed. No source access is free, no terminal rank is a transport certificate, and neither strict supplier nor any foundation is discharged.
+
+## S009 checkpoint2: exact packet floor and actual rank87 interface
+
+Let t=199/200. The hosted characteristic-zero Gram code has exact block
+minimum distance42 for every field volume. Fresh single-cochart packets
+from unchanged hosted values satisfy total movement rank>=50 and moment
+>=10*5^t. These are necessary conditions in that interface, not a physical
+code attaining the relaxed optimum. With all400 raw paths optimistically
+direct, the fixed eight-rank9 forward tariff allows47.07974274338085/native.
+The actual late2 tariff {9:6,8:1,7:1,1:1} raises this favorable ceiling to
+49.03359816976095, still short by>.5656569497329735. All other unpaid work
+was granted free, so it cannot cure that deficit. Changed/mixed raw rows,
+useful hub side information and funded transport remain outside the gate.
+See `results/hosted-gram-distance42/PROOF.md` and its independent review.
+
+The actual late2 word saves.418386945536927/native after its104 additional
+raw segments are paid, leaving40.86347074082448. The separate rank87 word
+costs1+4(1+7^t-8^t) above rank88, leaving39.3852032109849. Its80 alternative
+templates do not imply80 sequential uses. The coupled-frame word leaves
+32.44508379528756 and retains4920 original-coordinate forward terms.
+These variants are not silently stacked into one unconstructed supplier.
+
+For actual hub z=b+R d, a mixed packet family m=Qb+L d reveals
+(L-QR)d. Repair requires row(I+R) contained in that rowspace. Only after
+R=G-I does this become the proposed eight-dimensional Gram target. Current
+rank87 therefore cannot be repaired by eight arbitrary new whole-field
+observations absent further source changes or additional useful information.
+The complete strict complex/BIT requirements and five foundations are unchanged.
