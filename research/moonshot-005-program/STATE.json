@@ -1,8 +1,8 @@
 {
   "schema": "moonshot-005-program-state-v1",
   "branch": "research/moonshot-005-program",
-  "checkpoint_baseline_sha": "107462f8be155fa5657556bcacb607e387a0c972",
-  "checkpoint_sha_semantics": "Remote integration baseline; resulting merge commit is reported only after GitHub confirmation. Other parent5c3c6bf1a22e665c41538785e4ff5b66bb851977 contains the three reviewed S007 packages.",
+  "checkpoint_baseline_sha": "5ed5888a0c4869211faeda491b8e0b0a5d75d07e",
+  "checkpoint_sha_semantics": "Immediately preceding remote checkpoint; this file does not name its own resulting commit.",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
   "session": "2026-11-12-S007",
   "phase": "shared-receiver-gain-with-record-preserving-couplings",
@@ -697,5 +697,21 @@
     "session": "2026-11-12-S006",
     "observed_remote_commit": "107462f8be155fa5657556bcacb607e387a0c972",
     "status": "Actual concurrent advancement detected immediately before publication; both histories merged without force or evidence loss."
+  },
+  "s006_final_handoff": {
+    "prepared_utc": "2026-11-12T02:24:33Z",
+    "started_utc": "2026-11-12T00:28:43Z",
+    "requested_seconds": 7200,
+    "scientific_commits": [
+      "7bbe4fcb47f67073ae021fcadd8dd86ad14ea39a",
+      "107462f8be155fa5657556bcacb607e387a0c972"
+    ],
+    "concurrent_head_preserved": "5ed5888a0c4869211faeda491b8e0b0a5d75d07e",
+    "status": "Scientific work closed; final publication and handoff. No unattended S006 continuation.",
+    "new_kappa": null,
+    "next_access_gate": "Test saved E8 packet-kernel candidate against actual private rows/mixed access before original-route foreign history synthesis.",
+    "wip_path": "wip/foreign-history-access/",
+    "wip_status": "Finite preparation excluded from admitted scientific manifest; see separate review scope.",
+    "handoff": "sessions/2026-11-12-S006/HANDOFF.md"
   }
 }

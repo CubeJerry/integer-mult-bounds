@@ -562,3 +562,35 @@ packages are preserved from API commit5c3c6bf1a22e665c41538785e4ff5b66bb851977.
 Only programme record conflicts are combined. The shared frontier is actual
 receiver gain after restoration with jointly small correction and real retained
 records. Resulting branch SHA will be recorded after GitHub confirms it.
+
+
+## 2026-11-12-S006 — final handoff
+
+Second scientific checkpoint GitHub-confirmed at 107462f8be155fa5657556bcacb607e387a0c972,
+tree fcde0e45799e20e704c3a952638ff77d01e3c362, at02:12:00UTC. Published STATE and CONTINUATION
+were fetched at that exact commit and matched complete local text. The integrated
+unit17 independent interpreter reproduces its frozen receipt exactly. Integrity
+checks cover774 scientific files and333 reviewed author pins.
+
+Final handoff prepared at 2026-11-12T02:22:39Z. Corrected one packet-admission README
+reproduction path to the published sibling package and sent generated output to
+/tmp; the corrected command passed. This documentation-only change intentionally
+updates one scientific-file hash, without altering any proof/reviewer pin.
+
+Saved finite foreign-history access preparation separately in WIP:48 required
+foreign coordinates,27 with original outside-null stations, and an exact E8
+packet-kernel candidate supported on five all-null-route donors. The next attempt
+must first inspect actual private rows/mixed encodings against this candidate.
+This preparation is not a newly admitted supplier or general impossibility claim.
+
+The final handoff commit descends from the scientific SHA above; its own identity
+is obtained from the remote branch, avoiding self-reference. No new kappa.
+All five assumptions remain. Programme ongoing, not PR-ready; no PR was submitted.
+
+Concurrent update detected during final pre-push check: 5ed5888a0c4869211faeda491b8e0b0a5d75d07e,
+parents107462f8be155fa5657556bcacb607e387a0c972 and5c3c6bf1a22e665c41538785e4ff5b66bb851977.
+Fetched and fast-forwarded; preserved all S007 records, three packages and804-file
+manifest. The final S006 handoff descends from this reconciled head, not from an
+overwritten S006 state. S007 remains the active programme session; this session
+closes only its own work. New S007 source proofs were inspected for scope, not
+independently rerun by S006 in this final window. Integrity is checked separately.

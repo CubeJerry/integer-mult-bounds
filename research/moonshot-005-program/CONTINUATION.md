@@ -51,3 +51,15 @@ Use REPRODUCE and package reviews. Recovery/quiet-rechart WIP remains
 unverified. S007 began01:32:54UTC with requested10-hour planning end11:32:54UTC;
 this record promises no unattended execution. The programme remains ongoing
 and is not PR-ready.
+
+
+## S006 closing access lead (preserved alongside active S007)
+
+Before committing to the fixed E8 foreign-control correction for77-to189, inspect
+`wip/foreign-history-access/`. Exact finite checks give a packet-kernel vector
+q77=1,q10=-1,q16=-1,q20=1,q26=1 supported on original donor routes within the
+receiver189220-station null set. Check actual private rows S and permitted mixed
+encodings first; a private row seeing this vector changes the gate. This WIP
+does not replace the active S007 owned-chain/retained-record investigation, and
+is not an admitted uniform supplier or general no-go. Its review, if present,
+states exactly which finite checks and inherited premises were examined.

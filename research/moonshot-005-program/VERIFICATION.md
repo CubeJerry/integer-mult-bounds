@@ -432,3 +432,16 @@ Each package contains its reproduction command, source pins, receipts and
 review. This is independent AI mathematical checking, not human or formal
 kernel acceptance. Historical S005 reported counts are provenance; newly
 reconstructed bytes establish the admitted104-pair result.
+
+
+## S006 final publication verification
+
+GitHub confirmed scientific commit107462f8be155fa5657556bcacb607e387a0c972
+and treefcde0e45799e20e704c3a952638ff77d01e3c362. Full published STATE and
+CONTINUATION matched local bytes. Integrated unit17 independent replay matches
+the frozen receipt. The packet-admission reproduction command was corrected
+to its published sibling tariff path and successfully rerun; this README-only
+portability correction changes one manifest hash, no proof or reviewer pin.
+The finite foreign-history access WIP stays outside admitted scientific results.
+Its candidate-check script authenticates the native source and displays the
+actual packet/history certificate hashes; any additional review has its own scope.
