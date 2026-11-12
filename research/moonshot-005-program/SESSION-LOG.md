@@ -500,3 +500,32 @@ compressed SHA256 and gzip CRC. No new κ or completed10-hour claim.
   scientific files are preserved. First checkpoint's resulting remote SHA is
   recorded by the next checkpoint after GitHub confirmation, avoiding a
   self-referential hash. **No new κ; no PR submission; programme ongoing.**
+
+## 2026-11-12-S007 — checkpoint1, session active
+
+Started01:32:54UTC from exact remote7bbe4fcb47f67073ae021fcadd8dd86ad14ea39a;
+canonical remains e54523517d0f03e58352e647c403a5af3e525a57. User requested10hours,
+planned through11:32:54UTC where execution supports it. This is an active
+checkpoint, not a claim that the duration has elapsed. S006's prior log still
+said continuing through02:28:43UTC; actual concurrent runtime was not confirmed.
+Remote is rechecked before integration/push; both sessions' evidence is retained.
+
+Three scoped mathematical workers ran after two full-history launches failed
+before execution with platform errors. New theorem: exact sharp retained-delta
+record counts including all declared raw outputs, independent finite-field
+review. New actual source primitive: restored60-to213 neutral helper swap with
+one rank1return,32ADD,1SCALE,1ownedlifetime,73807instructions andpeak43, with
+independent source/word/composition review. It does not solve a required own
+pair or the pure-routing bound. Fresh recovery: all104 original-station
+history identities,2846arrivals, all71262cuts, independently checked; historical
+unpublished hashes were not treated as evidence.
+
+A source-localized packet budget investigation found a candidate weighted
+acyclic dual. Lead review identified the necessary all-new-transport tariff
+scope: total movement price does not lower-bound newly paid cost when funded
+legs are reused. That result remains pending independent review; the next wave
+explicitly examines hybrid paid/funded paths and common-dependent aggregates.
+
+No upstream PR or selected-certificate change. No new complete kappa. This
+checkpoint's resulting SHA is recorded only after GitHub confirmation, avoiding
+self-reference. All prior scientific source files remain unchanged.

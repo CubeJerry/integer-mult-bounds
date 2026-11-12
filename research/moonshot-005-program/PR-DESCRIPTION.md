@@ -381,3 +381,14 @@ precision/compiler/storage/erasure, recursion and five foundations remain.
 The [220-chart history obstruction](results/joint-additive-history-obstruction/ADMISSION.md) further excludes every joint q-only additive code for77-to189 in its stated fixed-baseline observation interface. Separate full-input and all-cut adjoint verification establishes the complete nine-relation certificate. Common-input-dependent encoders and correlated external side channels remain outside scope. This is a cohesive obstruction motivating the broader encoder, not a global multiplication lower bound.
 
 A final [stable-history quotient theorem and source exclusion](results/stable-history-encoder/README.md) closes the first generalized-encoder test. Neutral response rank is at most dimD-dim(D intersect S). Two independent source replays show the proposed chart71/pre29098 cut has D=spanu77, with u77=final189-initial189 stable under neutral controls. The next construction needs a different cut or interface with nonzero quotient before the full control test. This is a scoped source obstruction, not a complete multiplication bound.
+
+### S007 cumulative additions (programme still ongoing)
+
+The programme now includes a sharp retained-difference record theorem with
+complete raw duties, a literal restored dirty-helper swap using one rank1return,
+and freshly recovered all104 original-route history identities with exact
+independent review. These results constrain and implement parts of the same
+coded common-record architecture. The swap is a cross-coordinate partial
+native, not a complete paired endpoint map; the history theorem is pairwise,
+not a union-of-stations bound. All five foundations and both stronger supplier
+obligations remain. **No new kappa. Not yet declared ready for submission.**

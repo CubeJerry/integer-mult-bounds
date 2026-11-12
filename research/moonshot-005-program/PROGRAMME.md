@@ -1,5 +1,27 @@
 # Persistent multiplication programme: κ ≥ 1/200
 
+## S007 active checkpoint — retained records and complete original-route exclusion
+
+A [sharp record theorem](results/retained-difference-records/PROOF.md) now counts
+both common and raw recovery duties. For full raw recovery, k chronological
+differences need exactly k-rank(C) retained dimensions after the actual supplied
+records are included. Coordinate retention attains that count; rank(Z) alone
+can miss raw information. Formation, routes and retirement remain obligations.
+
+The [restored60-to213 swap](results/reversible-helper-swap/PROOF.md) is an actual
+73,807-instruction1,880-input partial word. One added rank1return and one owned
+lifetime preserve the displaced260-term common payload, restore all common
+outputs and produce a private cross-coordinate shear. It does not complete
+the paired native or evade the earlier pure-routing bound.
+
+The [all104 history certificate](results/all-pair-history-conservation/PROOF.md)
+is freshly reconstructed and independently reviewed. Every first donor's own
+original station access has endpoint-determined receiver histories; restoring
+commonY endpoints erases every receiver response. The grant is per donor,
+not the union of all stations. Changed access and common processing are still
+required. S007 continues with coded common records and hybrid paid/funded
+packet paths. **No new kappa; ongoing programme, not PR-ready.**
+
 ## Current frontier — an actual endpoint code and its missing common-record interface (S006)
 
 The programme now has an [actual2,362-instruction eight-packet prefix](results/eight-packet-prefix/PROOF.md)

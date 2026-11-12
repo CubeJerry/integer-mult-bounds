@@ -404,3 +404,24 @@ is not free. Joint replacement rows obey (I+L)delta=Qq−Hu; their actual
 common/raw observation matrix must contain the required target row space.
 No standalone slot gain, favorable Gram rank or nonzero moment discharges
 that requirement. New common-response codes need a fresh full-source invoice.
+
+## S007 record-preserving constructions and source-access gate
+
+The new retained-record theorem requires explicit common AND raw targets.
+For Tdelta=Qq-Hu, H=LambdaW+GammaN and D=AQ+BR, let G=T-LambdaZ and let
+C contain UG for all relations UQ+VR=0, plus JZ for dependent-common relations
+JW+K0N=0. The additional algebraic record minimum is
+rank([C;Z;AG])-rank(C); full raw recovery gives k-rank(C). These are dimensions,
+not paid calls. No record may be omitted solely because rankZ is small.
+
+The actual restored60-to213 swap spends one new rank1call/native and32ADD,
+1SCALE,1INIT/CLEAR; peak43. All1710 raw reservations and400recouplings are
+charged. Its cross-coordinate shear is partial; it is already an edge in the
+routing overgrant and cannot rescue the excluded fixedE8 completion. It starts
+at source entry, so no E8-consumed reservation can be reused for free.
+
+The all104 timed-history theorem excludes every required first pair under
+its own original station-control interface, including nonlinear feedback.
+Changed charts, extra correlated records or changed common processing require
+fresh matrices. No union-of-all-stations bound is asserted. The complete H4,
+BIT, outer and five-foundation obligations remain unchanged.

@@ -384,3 +384,28 @@ relative integrated author pins for portable integrity checks. Compressed
 certificates preserve reviewed decompressed bytes. No selected cold replay,
 complete multiplier, human review or formal kernel acceptance is claimed.
 All five foundations and both strict supplier requirements remain open.
+
+## S007 checkpoint1 — new record theorem, restored swap and recovered104-pair law
+
+- RETAINED-RAW-RECORDS: mathematical worker proof and eight named plus36exact
+  rational cases; lead separately reviewed the proof and implemented36F2/F3
+  cases with exhaustive projective record choices and physical-input collision
+  checks. General and dependentN formulas are accepted over any field. Source
+  coefficients/physical services remain separate. Both optimized checks pass.
+- RESTORED-SWAP-60-213: author exact1880-column word; independent reviewer
+  reconstructed260-term h by prefix adjoint and25-term z by suffix pulse,
+  checked original native subsequence,1710unique rawreservations, every physical
+  type and the universal restoration/shear identities. Decompressed word
+  13197190b0030fcc5100f35ae1d71a15e350708bafa000fc0dea39b48e3a9f96.
+  Independent review reuses the authenticated baseline; it is not claimed as
+  a second full1880-column baseline replay. Four exact mutation witnesses.
+- ALL104-HISTORY: lead exact control-span extraction plus simultaneous timed
+  adjoints; reviewer separately rebuilds208itineraries and2846arrivals and runs
+  exact per-pair adjoints. All71262cuts, maximum6terms. Certificate payload
+  073f1fc82cc83800401cf966c210d2f9ae7e533d95a2da4a2da9bfa0c2fc493e.
+  Wronglambda and forbiddenchart controls fail. Pairwise scope is explicit.
+
+Each package contains its reproduction command, source pins, receipts and
+review. This is independent AI mathematical checking, not human or formal
+kernel acceptance. Historical S005 reported counts are provenance; newly
+reconstructed bytes establish the admitted104-pair result.

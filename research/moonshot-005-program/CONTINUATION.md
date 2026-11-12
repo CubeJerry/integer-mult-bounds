@@ -1,5 +1,25 @@
 # Next construction: retain common records and exploit joint responses
 
+## S007 active continuation
+
+Three new reviewed packages constrain the next construction:
+`retained-difference-records` gives the exact retained state needed when every
+declared raw output is included; `reversible-helper-swap` supplies an actual
+restored60-to213 channel at one extra rank1call; and
+`all-pair-history-conservation` closes original-route common controls for all
+104 required first pairs. Do not repeat a different pair in that old interface.
+
+The swap is already inside the pure-coordinate routing overgrant, so it does
+not repair the excluded E8 completion. Next test a common-dependent aggregate
+with physically retained records or a packet that uses a genuinely changed
+access path. Price newly paid legs separately from funded transit. The proposed
+all-new-transport packet dual is under review and cannot be transferred to
+hybrid paid/funded paths. Full common/raw restoration and all caller duties
+remain mandatory. S007 is active, with requested10-hour planning end
+2026-11-12 11:32:54UTC; this file does not promise unattended execution.
+
+The S006 continuation below is retained as the prior checkpoint.
+
 **No new κ. The programme remains ongoing.** Read exact remote HEAD and STATE.
 S006 began00:28:43UTC with a two-hour budget; this is a mid-session checkpoint.
 
