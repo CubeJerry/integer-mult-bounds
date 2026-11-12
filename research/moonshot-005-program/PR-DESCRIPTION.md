@@ -482,3 +482,23 @@ The cumulative programme adds the general reversible raw-pivot theorem: exact no
 Larger source words, saturated-cut evidence and changed-common alternatives are separately classified in the interruption ledger. Some independent local checks completed before generated artifacts were pushed; eight-cohort and endpoint candidates have no completed independent review. These are not promoted to the admitted theorem.
 
 **No new kappa.** The branch remains ongoing and not PR-ready. All foundations and both supplier requirements remain. @CubeJerry and predecessor credit are retained; AI assistance was used. No upstream PR was submitted.
+
+
+## S008 cumulative addition: a verified reciprocal source component
+
+Fresh reconstruction resolves the interrupted eight-cohort review under new
+provenance. Historical summaries are not treated as source bytes;
+the actual admitted word has76277 operations and exact pinned evidence in
+results/cohort-reconstruction/. The new reciprocal M/M^{-T} interface, exact
+shared-register criterion and77795-operation source companion provide a
+coherent forward/reverse building block. All1880 inputs, source chronology,
+real read locations, donor restoration, chart maps, owned lifetimes and complete
+provisional histograms are accounted for, with independent checks and mutants.
+
+The352 new transpose coefficients do not reduce the rank96 reverse deficit.
+The current margin41.01712837582312 does not fund its96-arrival terminal repair.
+The programme must compose a different preterminal global code. No complete
+supplier, no foundational discharge and **No new kappa** are claimed. The
+cumulative branch remains an ongoing programme, not a PR-ready target theorem.
+Prepared for@CubeJerry with substantial OpenAI assistance; all original source,
+cohort, raw-pivot and review contributions retain their provenance and credit.

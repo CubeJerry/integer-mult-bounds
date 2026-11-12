@@ -671,3 +671,28 @@ Read sessions/2026-11-12-S007/INTERRUPTION-RECOVERY.md and ROOT-ENDPOINT-CANDIDA
 Prepared 2026-11-12 05:40:13 UTC on confirmed40912de301eb6be56240a2cbfd6ffcf597011d44. Core recovery d5381d278a37044104f14614b0d7bc1ec97f788b admits the universal pivot proof and preserves all975 prior scientific files; current admitted manifest has982 files. Twelve original text artifacts match frozen hashes and GitHub readback. The source worker could recover algorithms/pins but no original one/two/three/eight generator bytes. Its30127-byte reconstruction is explicitly labeled. A fresh independent V8 transcription check confirms the group-zero inverse identities,2187 integer cases and binary annihilator, with wrong-inverse/basis negative controls; it is not a full cohort review.
 
 Independent final document review corrected empty chart ID3 and clarified the two-bank endpoint loop. All recovery records, missing-source/helper gaps and next global paired-bank obligation are committed for continuation. The execution environment remained unavailable on repeated bounded checks. Ten-hour request was not completed; no unattended continuation or new kappa. Exact resulting remote commit is reported after publication, not embedded self-referentially.
+
+
+## 2026-11-12-S008 — checkpoint1, session active
+
+Start11:51:49 UTC; requested10-hour planning window to21:51:49 UTC, supported
+execution only. Starting remote programme baeb15027fd99788fd7f7a7149a1b8dce5a645cb;
+canonical e54523517d0f03e58352e647c403a5af3e525a57 unchanged. Exact resulting
+checkpoint SHA is reported after GitHub confirmation, not self-embedded here.
+
+Recovered fresh one/two/three/eight generators with explicit new provenance.
+Independent eight review now closes the interrupted gate:76277 instructions,
+all1880 inputs,eight completed first pairs,4601 residuals,margin43.91010862296462.
+Proved reciprocal M/M^{-T} encoder and shared-register no-mixing/orthogonality
+criterion. Constructed and independently reviewed77795-word hosted companion,
+with352 transpose terms and margin41.01712837582312. R^2=0 leaves rank96 reverse
+residual; no completed reverse diagonal. A review caught and corrected a stale
+chronological-boundary marker before admission; literal operations unchanged.
+
+Upstream selected conditional kappa stays.00363005817; open#7334/.00364665195644
+is unselected. New#7404/#7387 scoped availability obstructions use different
+frozen source words and are not transferred. No PR submitted.
+
+Work continues on one compatible two-frame schedule, small recovery reviews,
+endpoint-alternative source/terminal review and all-chart direct-contact proof.
+No new kappa. Exact evidence and recovery status are linked in STATE.json.

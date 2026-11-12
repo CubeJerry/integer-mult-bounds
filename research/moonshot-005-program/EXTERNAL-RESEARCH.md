@@ -385,3 +385,19 @@ interface lead, not an admitted supplier or a removed foundation.
 The programme's stronger .005 obstruction already grants deletion of all four
 QUERY calls while retaining native/IDLE/target costs; that limitation remains.
 No upstream branch, selected certificate or PR was changed.
+
+
+## S008 focused refresh at e545235
+
+Canonical main is unchanged since S007. Root independently fetched current
+#7334 head aaeec8c0acf01e99a5f331ef363a698d9c084ace (claimed conditional
+.00364665195644, open/unselected), #7404 head1ec899dade2febbfb155f0ca015b9cc0356bd7e2
+(stage8 retiming and protected-return obstructions), and #7387
+head8f4b87165e158c4329999ad857b775b4361b4063 (47 first-use and11 later owner-span
+exclusions). Their source-specific hypotheses do not automatically apply to
+this programme's #7000-derived frozen native. See
+sessions/2026-11-12-S008/UPSTREAM-AUDIT.md and exact metadata. Selected-result.json
+still governs over the older numeric heading in current-priorities.md.
+No queried proposal supplies the missing global forward/reverse code or removes
+the five retained foundations. Preserve prior positive#7244 as a scoped funded
+joint-code precedent, not as an imported theorem on this source.

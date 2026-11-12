@@ -1,0 +1,206 @@
+{
+  "finite_checks": [
+    {
+      "dimension": 3,
+      "field": 2,
+      "input_assignments_until_decision": 14426,
+      "interfaces": 1344,
+      "invertible_matrices": 168,
+      "valid_by_size": {
+        "0": 168,
+        "1": 18,
+        "2": 6,
+        "3": 6
+      }
+    },
+    {
+      "dimension": 2,
+      "field": 3,
+      "input_assignments_until_decision": 4512,
+      "interfaces": 192,
+      "invertible_matrices": 48,
+      "valid_by_size": {
+        "0": 48,
+        "1": 8,
+        "2": 8
+      }
+    }
+  ],
+  "scope": "Proof is universal; finite checks supplement it. No complete supplier or kappa.",
+  "status": "PASS_PAIRED_ENCODER_AND_EXACT_ALIAS_GATE",
+  "typed_example": {
+    "counts": {
+      "ADD": 6,
+      "MOVE": 10
+    },
+    "direct_baseline": {
+      "3": 4
+    },
+    "final_rows": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "-1"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "-1"
+      ],
+      [
+        "1",
+        "1",
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "histogram": {
+      "1": 8,
+      "2": 2
+    },
+    "increment": "8+2*2^t-4*3^t",
+    "independent_inputs": 6,
+    "negative_controls": [
+      "same M instead of inverse transpose",
+      "wrong hub inverse",
+      "omitted dual facet MOVE",
+      "read at unavailable donor chart"
+    ],
+    "word": [
+      [
+        "MOVE",
+        0,
+        0,
+        2
+      ],
+      [
+        "MOVE",
+        1,
+        1,
+        2
+      ],
+      [
+        "MOVE",
+        2,
+        0,
+        2
+      ],
+      [
+        "MOVE",
+        3,
+        1,
+        2
+      ],
+      [
+        "ADD",
+        0,
+        1,
+        "1",
+        2
+      ],
+      [
+        "ADD",
+        3,
+        2,
+        "-1",
+        2
+      ],
+      [
+        "MOVE",
+        0,
+        2,
+        3
+      ],
+      [
+        "MOVE",
+        2,
+        2,
+        3
+      ],
+      [
+        "ADD",
+        4,
+        0,
+        "1",
+        3
+      ],
+      [
+        "ADD",
+        2,
+        5,
+        "-1",
+        3
+      ],
+      [
+        "MOVE",
+        0,
+        3,
+        4
+      ],
+      [
+        "MOVE",
+        2,
+        3,
+        4
+      ],
+      [
+        "MOVE",
+        1,
+        2,
+        4
+      ],
+      [
+        "MOVE",
+        3,
+        2,
+        4
+      ],
+      [
+        "ADD",
+        0,
+        1,
+        "-1",
+        4
+      ],
+      [
+        "ADD",
+        3,
+        2,
+        "1",
+        4
+      ]
+    ]
+  }
+}

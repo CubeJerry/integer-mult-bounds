@@ -539,3 +539,23 @@ Locally reviewed three-facet collection leaves provisional45.10785453981816 afte
 The changed-common endpoint candidate has42,480 paid positions,27,344 targets, surplus1,888,32 rank-nine packets and remaining moment14.812385620139944/native. It owes19,968 residual coefficients across both copies; full source audit and independent review are unfinished. This is partial accounting, not a feasibility certificate.
 
 The locally independently reviewed saturated odd-eight cut needs8 additional fields under fixed common slots/all112 reserved first-family legs, exceeding that interface's6.29307104377714 margin. Changed common transport is outside scope. The finite adaptive43.527 potential failed an all-chart edge test and supplies no global forty-plus lower bound.
+
+
+## S008 paired-source target gap
+
+Freshly admitted eight-cohort raw profile is
+{1:61,2:58,3:40,5:97,6:1,7:4,8:298}. Its full caller has131850 paid,
+27344 targets,surplus3760 and margin43.91010862296462/native. The actual paired
+companion replaces it by {1:113,2:114,3:76,5:185,6:5,7:4,8:206}, giving134442
+paid and margin41.01712837582312. Both use exactly
+P=P4+18(R_new-R_old)+18*8{rank9}, T=T4; all8 packets are charged.
+
+The paired update has352 nonzero coefficients but R^2=0, so I+R is invertible
+with inverse I-R and residual rank96. No reverse diagonal is complete.
+The sharp96-arrival append-only hosted repair would leave margin below-54.98287,
+even before unresolved forward/coupled duties. This excludes only the current
+terminal continuation. A global earlier encoding must change that information
+boundary, retain actual row availability and pass a new complete invoice.
+
+See results/paired-cohort/review/PAIRED-REVIEW.md. The general primal/dual
+interface and alias gate are in results/paired-encoder-interface/.

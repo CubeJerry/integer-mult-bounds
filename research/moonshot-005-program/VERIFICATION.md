@@ -542,3 +542,30 @@ Seven pivot files extend the scientific manifest to982. Recovery-only files stay
 ### Final recovery scope
 
 Twelve original text files were frozen-hash authenticated and GitHub-readback checked. Source construction generators were not recovered; the new source recipe is not an original file. The fresh JavaScript group-zero transcription check executes both rational inverse identities and binary-chart arithmetic, with2187 integer evaluations and two rejection controls. Its exact core code was run in V8; Node I/O wrapper remains unexecuted. This does not establish source associations, all14 groups, whole-word correctness or a complete supplier. Details and reproducible code are under sessions/2026-11-12-S007/recovery/. No old scientific file was changed.
+
+
+## S008 checkpoint1: fresh source reconstruction and paired code
+
+Source pin remains2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883;
+starting programme SHA baeb15027fd99788fd7f7a7149a1b8dce5a645cb. The982 prior
+scientific files,80 imports,338 reviewed author pins and3 source pins pass the
+unchanged byte-integrity checker. This is integrity evidence, not a new proof.
+The interrupted raw-pivot path adapter now executes successfully and reproduces
+its frozen independent receipt; normal and optimized runs retain the same gate.
+
+The new independent cohort checker derives all14 groups/minors from source,
+reconstructs76277 instructions, proves1880-column prefix composition,400-row
+inverse and exact full profile, and rejects7 mutants. The new paired checker
+reconstructs77795 instructions,276 checkpoints and60 reverse reads, verifies
+all current-row deadlines, full source/profile and7 mutants. Both normal/-O
+receipts agree. Root reran the integrated paths; this is integration validation,
+not a third independent proof. Exact chart engines retain their own attribution.
+
+One/two/three reconstructed variants currently have fresh author checks and
+frozen-count comparisons; their separate new implementation review is pending.
+All source-recovery and byte-authentication distinctions remain explicit.
+
+Reproduce the admitted new packages with the commands in their READMEs and
+review documents. Exact inverse-transpose algebra and shared-register gate
+received a separate lead proof review. All five assumptions and both strict
+supplier requirements remain. No new complete kappa.

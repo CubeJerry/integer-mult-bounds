@@ -391,3 +391,28 @@ transport; compatibility across many receivers is the next decisive property.
 | ADAPTIVE-CUT-GLOBAL | Saved finite-chart43.527 potential obeys all-chart edge prices. | DISPROVED for that candidate: rank-one jump5.301433140. No unrestricted impossibility follows. |
 
 Published source baseline1872e0b1 is preserved. Missing generated files are not counted as remote evidence. Runtime loss ended local verification before the ten-hour duration.
+
+
+## S008 update: verified reciprocal component and unresolved global code
+
+- **EIGHT-COHORT-S008 — proved finite source construction.** All1880 arbitrary
+  inputs, original104 donor restoration before520 packet reads, unchanged
+  common suffix and400-row inverse independently checked. See
+  results/cohort-reconstruction/review/EIGHT-REVIEW.md. Small reconstructed
+  variants remain separately classified in ADMISSION.md.
+- **PAIRED-ENCODER-INTERFACE — proved algebra, physical schedule conditional.**
+  For every field and positive volume, independent a,b,c,d and invertible M,
+  real cocharted transforms/deliveries/inverses give c+=Aa,b-=A^Td. Literal
+  shared U coordinates require M=diag(Q,R), QQ^T=I. Source availability,
+  coefficients, routes and records remain premises. See the exact proof and
+  lead review in results/paired-encoder-interface/.
+- **PAIRED-COHORT-S008 — proved finite source application.** The actual word
+  uses13 full-rank hosted blocks and one rank-two direct block, with real Y2
+  acquisition. All1880 directions and all common endpoints survive. Its352
+  transpose terms leave rank96 reverse residual. Exact word, negative controls
+  and budget: results/paired-cohort/review/PAIRED-REVIEW.md.
+- **GLOBAL-FORWARD-REVERSE-CODE — still open, primary.** Find one preterminal
+  composition satisfying every requested row against current observations,
+  avoiding coupled aliasing, restoring donors before later uses and changing
+  the full reverse residual toward the target low-rank interface. Adding
+  separate cohort invoices or counting coefficients as eliminated rank fails.

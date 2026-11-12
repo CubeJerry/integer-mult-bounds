@@ -371,3 +371,27 @@ The general reversible raw-pivot interface is now admitted with its independentl
 Locally reviewed one/two/three-receiver words extend actual residual collection; generated artifacts interrupted before publication need regeneration. An eight-receiver candidate is author-checked only. Its monotone cohort restriction rules out simply summing independent cheap cohorts. Next construct a joint forward/reverse code with compatible rows and paid routes. A changed-common endpoint replacement is preserved with all19,968 residual terms explicit; it is not a complete supplier.
 
 The runtime disappeared2026-11-12 04:59:35 UTC before the requested ten-hour duration. See sessions/2026-11-12-S007/INTERRUPTION-RECOVERY.md for exact recovery and missing artifacts. No new kappa; all foundations and both supplier requirements remain.
+
+
+## S008: an actual reciprocal component, with the global gate retained
+
+The [new-provenance cohort reconstruction](results/cohort-reconstruction/PROOF.md)
+is independently complete for the eight-receiver word:76277 instructions,
+559 raw MOVEs,all1880 input directions and eight exact first pairs. Its4601
+remaining forward coefficients and reverse duties are still real obligations.
+The lost S007 generator bytes have not been relabelled as recovered.
+
+The [paired encoder interface](results/paired-encoder-interface/PAIRED-ENCODER-INTERFACE.md)
+now has a source application. Encoding independent a,b by M,M^{-T}, injecting
+actual reverse d at receiver facets and decoding by M^{-1},M^T gives forward
+Aa and reverse -A^Td while restoring a. Aliased source coordinates require
+an orthogonal isolated block; they cannot be assigned a fictional second bank.
+
+The [77795-operation paired word](results/paired-cohort/PROOF.md) preserves all
+common outputs and eight forward completions while adding352 transpose terms
+on88 hosted rows. Its exact margin41.01712837582312 includes all8 rank-nine
+packets and both route banks. The actual reverse residual remains I+R of
+rank96, with R^2=0. This is a new physical component, not a rank reduction or
+a complete supplier. The next construction must compose rows before routes
+terminate and change the full reverse matrix; separate cheap cohorts still
+do not compose automatically. No new kappa; all five foundations remain.
