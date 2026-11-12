@@ -49,3 +49,5 @@ reported as an unconditional multiplication theorem.
 ## Wave4 update
 
 B3 selected quadratic phase and C3 elementary reversal are independently accepted; B3 is published. #6968 already supplies fixed rational arithmetic; actual #7000 caller producers still do not join its coded owner ABI. Wave4 therefore targets a literal packed translation descriptor join, a positive central C leaf, and the source-specific recovery extraction gate. The routing literature gate found no new unrestricted obstruction; existing restricted lower bounds must not be generalized. All five global assumptions and the selected kappa remain.
+
+C3 published at 7662d01d827c95d90032579c168cae78aa531f2f after independent exact-census/runtime and universal/source review; base and all31scoped additions checked. Seven independent review branches are now listed in PUBLICATIONS.json.

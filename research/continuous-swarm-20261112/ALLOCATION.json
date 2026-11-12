@@ -1,8 +1,8 @@
 {
   "schema": "continuous-swarm-checkpoint/v1",
   "started_utc": "2026-11-12 01:31 UTC",
-  "updated_utc": "2026-11-12T03:39:22.537076+00:00",
-  "status": "six_verified_publications_c3_accepted_wave4_active",
+  "updated_utc": "2026-11-12T03:42:05.526428+00:00",
+  "status": "seven_verified_publications_wave4_active",
   "base": "e54523517d0f03e58352e647c403a5af3e525a57",
   "selected_kappa": "363005817/100000000000",
   "recovery_branch": "recovery/continuous-swarm-20261112-0132",
@@ -120,14 +120,14 @@
       "track": 85,
       "base": "e54523517d0f03e58352e647c403a5af3e525a57",
       "scope": "Literal complete-record reversal on canonical binary P,R,B descriptors, same DATA owner and O(E+PRB) complete time; only contiguous-block tensor-X corollary.",
-      "status": "independently_reviewed_publication_pending",
+      "status": "independently_reviewed_published",
       "dependencies": [
         "upstream02-streams.tex",
         "#5188",
         "#6992"
       ],
       "output": "/workspace/scratch/be42ab5b7196/worker-c3",
-      "next": "Root owns publication; accepted proof9dc3019f and exact instruction census, local13b16b6e."
+      "next": "Frozen; remote7662d01d827c95d90032579c168cae78aa531f2f and checked review link in PUBLICATIONS.json."
     },
     {
       "worker": "compiler_exits",
@@ -167,7 +167,7 @@
       "status": "active_unverified",
       "dependencies": [
         "B3 remote172f4535ce8dcff79f626410af845f757c1563be",
-        "C3 local13b16b6e, remote pending"
+        "C3 remote7662d01d827c95d90032579c168cae78aa531f2f"
       ],
       "output": "/workspace/scratch/be42ab5b7196/worker-a4b",
       "next": "Gate passed; emit joined graph, prove complete O(V), independently review; exclude preceding affine matrix."
@@ -246,6 +246,13 @@
       "commit": "172f4535ce8dcff79f626410af845f757c1563be",
       "tree": "7e51fa9528de8dfe5bd24db2c07db5d599117dc8",
       "prefilled_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/literal-native-quadratic-phase-20261112-0132?expand=1&title=Lower+the+current+selected+quadratic+Gaussian+phase+to+a+fixed+tape+table+with+complete+owner+return&body=%23%23+Result%0ALower+the+actual+selected+%237000+MOVE24472+right+quadratic+phase+to+one+fixed+8%2C211-location%2C+23-tape+program.+It+preserves+the+constant+once+per+column%2C+derives+counters+from+the+supplied+five-Gamma+header%2C+stages+exact+signed+Gaussian+rotations+and+returns+to+the+original+owner.+Complete+time+and+retained+history+are+O%28V%29+at+this+packed+interface.%0A%0A%23%23+Evidence+and+scope%0ABase+e54523517d0f03e58352e647c403a5af3e525a57%3B+only+research%2Fliteral-native-quadratic-phase+is+added.+Run+%60bind_selected.py%60+and+%60verify.py%60+in+that+directory+with+%60python+-I+-W+error+-B%60+%28also+-O%29.+Checks+bind+the+actual+event+and+all+512+monomial+basis+inputs%2C+replay+376+complete+packets+and+detect+four+semantic+mutations.+Separate+interpreters+and+universal+review+check+the+full+cost%2C+ownership+and+counter+movement%3B+larger+actual-column+prefix+fixtures+are+explicitly+incomplete.%0A%0ANo+new+kappa%3B+all+five+foundational+assumptions+remain.+Descriptor%2Flayout+production%2C+affine+routing%2C+recursive+C%2C+exterior+scalars+and+the+full+caller+remain+open.+%235375+already+proves+the+phase+arithmetic%3B+this+package+supplies+its+selected+literal+boundary.+Credit+its+authors%2C+%237000%2C+%237349+and+the+pinned+layer-phase%2Fegress+packages.+Prepared+for+%40CubeJerry+with+substantial+OpenAI+assistance+and+separate-agent+review%3B+human%2Fformal+acceptance+is+unclaimed.%0A%0AFull+proof%2C+exact+pins%2C+independent+checks+and+proposed+description%3A+https%3A%2F%2Fgithub.com%2FCubeJerry%2Finteger-mult-bounds%2Ftree%2F172f4535ce8dcff79f626410af845f757c1563be%2Fresearch%2Fliteral-native-quadratic-phase%0A"
+    },
+    {
+      "id": "literal-row-reversal",
+      "branch": "research/literal-row-reversal-20261112-0132",
+      "commit": "7662d01d827c95d90032579c168cae78aa531f2f",
+      "tree": "a11b8f6eecb90a64627764a2158d2ced9b37be8e",
+      "prefilled_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/literal-row-reversal-20261112-0132?expand=1&title=Implement+complete-record+row+reversal+from+encoded+elementary+descriptors+with+a+fixed+finite+tape+program&body=%23%23+Result%0ARealize+the+elementary+whole-record+reversal+with+one+fixed+524-location%2C+13-tape+program.+It+decodes+canonical+binary+P%2CR%2CB%2C+preserves+internal+bit+order+and+prefix+isolation%2C+stages+the+result+and+commits+to+the+original+owner.+The+exact+complete+instruction+count+is+53PRB%2B23PR%2B71P%2B54R%2B54B%2B28E-30sum%28popcount%29-8%3B+retained+private+history+is+at+most+K_entry%2B8PRB%2BE%2B18.%0A%0A%23%23+Evidence+and+scope%0ABase+e54523517d0f03e58352e647c403a5af3e525a57%3B+31+scoped+additions.+Run+%60python+-I+-W+error+-B+research%2Fliteral-row-reversal%2Fcheck.py%60+%28also+-O%29.+Author+checks+cover+3%2C814+packets%2C+twelve+rejection+controls+and+six+table+mutants.+A+separate+dense+CPU+verifies+462+packets+and+the+exact+census%3B+complementary+proof%2Fsource+review+checks+4%2C916+shapes+and+114%2C752+map+addresses.+Nine+source+bindings+and+committed+bytes+were+authenticated.%0A%0ANo+new+kappa%3B+all+five+global+assumptions+remain.+Supplied+collapsed+descriptors+and+clean+owned+work+are+explicit+premises.+Descriptor+production%2C+strided+packing+and+full+affine%2Fnative+composition+remain+open.+The+two-stack+algorithm+is+credited+to+upstream+02-streams%3B+%235188%2C+%236992+and+the+pinned+layer-phase%2Fcontroller+packages+are+predecessors.+Prepared+for+%40CubeJerry+with+substantial+OpenAI+assistance+and+independent-agent+checks%2C+without+human+or+formal-kernel+acceptance.%0A%0AFull+proof%2C+exact+pins%2C+review+and+proposed+description%3A+https%3A%2F%2Fgithub.com%2FCubeJerry%2Finteger-mult-bounds%2Ftree%2F7662d01d827c95d90032579c168cae78aa531f2f%2Fresearch%2Fliteral-row-reversal%0A"
     }
   ],
   "orientation": {
