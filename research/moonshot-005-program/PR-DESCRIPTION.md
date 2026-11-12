@@ -523,3 +523,9 @@ complete either strict supplier, the five foundations or κ=.005. **No new κ.**
 The branch remains an ongoing programme; cumulative PR readiness is not yet
 declared. @CubeJerry, with substantial OpenAI assistance and retained source,
 E8/native/cohort/paired-interface predecessor credit.
+
+## S008 actual reverse-rank gain and the mixed-return boundary
+
+The dependent-root source word now proves a finite rank95 reverse residual with all1,880 inputs preserved, three forward rows complete and one reverse relation complete. A general separated-source first-departure argument shows why this rank gain does not imply cheap terminal delivery. A separate exact all-chart gate excludes complete pure Gram packets on independently paid returns at the target budget. These results motivate the same programme's mixed b/d return construction, whose physical acquisition remains open.
+
+Full source evidence, precise scopes and independent reviews are in results/dependent-triple-paired-code/ and results/reverse-gram-packet-chart-gate/. Do not combine alternative words' benefits without a legal current-row composition. No complete native, uniform supplier or foundational discharge is claimed. **No new kappa.** The branch remains ongoing and is not PR-ready. Prepared for @CubeJerry with substantial OpenAI assistance; all source and predecessor credit retained.

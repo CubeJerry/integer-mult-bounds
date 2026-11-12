@@ -1,0 +1,53 @@
+{
+  "actual_reverse_input_kernel": {
+    "882": "1",
+    "883": "-1",
+    "974": "-1"
+  },
+  "completed_reverse_output_combination": {
+    "772": "1",
+    "773": "-1",
+    "868": "-1"
+  },
+  "independent_input_coordinates": 1880,
+  "mutants": {
+    "Y2_source_not_at_actual_facet": "prefix cochart 575",
+    "dual_decoder_retains_original": "wrong exact1880-coordinate prefix",
+    "dual_encoder_retains_original": "wrong exact1880-coordinate prefix",
+    "dual_facet_injection_wrong_sign": "wrong exact1880-coordinate prefix",
+    "forward_receiver_skips_pair_chart": "prefix cochart 3095",
+    "primal_pivot_inverse_not_applied": "all104 original donors restored",
+    "reverse_kernel_wrong_sign": "nonzero exact residual image"
+  },
+  "ordinary_reverse_pairs_completed": 0,
+  "remaining_reverse_target_rank": 95,
+  "reverse_addition_rank": 3,
+  "scope": "Exact finite source verification, using retained replay helpers. One reverse residual direction is removed; no individual reverse pair or complete shared native is completed. No new kappa.",
+  "source_Gram": [
+    [
+      8,
+      4,
+      4
+    ],
+    [
+      4,
+      8,
+      -4
+    ],
+    [
+      4,
+      -4,
+      8
+    ]
+  ],
+  "source_Gram_rank": 2,
+  "source_root_relation": {
+    "0": 1,
+    "1": -1,
+    "98": -1
+  },
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_SOURCE_RESIDUAL_RANK95_AND_SEMANTIC_MUTANTS",
+  "word_payload_sha256": "19a7a89b4623f7f095833a46369fad7bf6d63eabd6bf5a7929ed52a87b55b121",
+  "word_sha256": "13d43635c2900a7220b5bd1da21e63807d728d4c67ccf2370178f171db62ef0c"
+}

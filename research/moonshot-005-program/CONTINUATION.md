@@ -1,29 +1,13 @@
-# Resume the actual rank88 reciprocal construction
+# Resume the shared S008/S009 global current-row construction
 
-Read exact remote HEAD and STATE.json. S009 began at a478afb8 and integrated
-concurrent S008 checkpoint51e06335 without rewriting history. Canonical
-selected source remains e545235; no new complete kappa.
+Read exact remote HEAD and STATE.json. This checkpoint preserves concurrent S009 commit a3fd7cc3f3d1f24998f9d54885de696cb9171816. Both sessions remain active under their recorded ten-hour windows; recheck remote HEAD before every push. No new complete kappa; not PR ready.
 
-Start with results/orthogonal-frame-feedback/PROOF.md and its independent
-review. The actual78123-word reduces hosted reverse rank96to88; full source
-information and common outputs survive. B=[5,56,65,69,77,96,100,103] and
-S=[0,7,20,27,36,46,57,111] are orthogonal source frames. The B carriers now
-have spent5+2+1 ascents; they cannot be granted fresh direct routes.
+The nearest consequential obligation is one complete global paired code plus actual mixed reverse acquisition. With P=A_H A_H^T/8,E=P-I and hub z=b+Ed, actual packets m=Qb+Sd allow Pd recovery exactly when row(P) is contained in row(S-QE). Proposed facet rows m_i=E_i b+d_i have promising eight-row algebra under independent review; actual source availability/restoration is open. Eight such returns plus the eight coupled entry repairs may fit the16-move envelope only after their complete physical prerequisites are established.
 
-The next physical gap is352 missing forward corrections for S, including320
-hosted transpose terms and32 primal-only coupled terms. Filling coefficients
-without a real current-row schedule or treating separately priced cohorts as
-compatible is invalid. Partial feedback gains are nonmonotone: two individually
-good nonorthogonal stars can restore rank96. Use the exact continuation gates.
+## Admitted complementary source words
 
-The preterminal coupled-eight package finishes all8 coupled reverse outputs
-for8 rank1 messages by x_tilde=x-y,y_tilde=2y. Its composition with rank88 is
-being constructed. All future forward rows must use x_tilde; original-Y
-residual terms do not disappear. The fresh global-Gram packet bound is under
-independent review; only reviewed evidence may enter the admitted construction.
+S009 orthogonal-frame-feedback has78,123 instructions and reverse rank88. Its B=[5,56,65,69,77,96,100,103] and S=[0,7,20,27,36,46,57,111] are orthogonal frames. B carrier routes5+2+1 are already spent. The352 missing S-frame forward coefficients include320 hosted transpose and32 primal-only coupled terms. Do not fill coefficients without an actual current-row itinerary. The preterminal-coupled-eight word pays8 rank1 messages to set a_U=x_U-y_U,b_U=2y_U; future forward corrections must use the changed a values.
 
-S008's verified raw-refinement envelope/contact/endpoint packages remain
-applicable in their exact scopes. Its local dependent-root construction may
-advance concurrently; preserve it and reconcile remote HEAD before every push.
-Both strict suppliers, actual physical costs and all five foundations remain.
-The programme is ongoing, not PR-ready. Do not submit an upstream PR.
+S008 dependent-triple-paired-code has76,039 instructions,rank95 reverse residual,three complete forward rows and one completed reverse relation. Its independently reviewed local nested extension awaits integration. It is an alternative from the fused-seven parent, not an additive gain on S009's word. The new complete reverse Gram packet gate excludes unchanged pure Gram packets on separately paid returns; mixed b/d packets and funded changed carriers are outside that scope.
+
+Exact odd8 recovery/cut evidence and nested code have local reviews pending source integration. Preserve original versus reconstructed byte provenance. The16-finishing-move raw envelope, unchanged-donor contact obstruction and sharp416 terminal alternative remain valid in their stated scopes. Both strict uniform suppliers and all five foundations remain. Continue the same programme and preserve both sessions' scientific evidence.

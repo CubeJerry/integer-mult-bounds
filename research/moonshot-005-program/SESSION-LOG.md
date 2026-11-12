@@ -727,3 +727,9 @@ current-row codes and restoration; no reset of spent donor paths. New upstream
 #7424/#7430 are open enabling components, not assumed suppliers. No new kappa
 or upstream PR. Resulting checkpoint SHA is recorded after remote confirmation,
 not self-embedded. The requested10-hour session is still active.
+
+### S008 checkpoint3: rank95 source word and mixed-packet frontier
+
+Parent/baseline51e063356902b082a891ac80464f9dfb80f09693, GitHub confirmed. Independently admitted the actual dependent-root triple:76,039 instructions,three complete forward rows,136 transpose coefficients,rank95 reverse residual and one completed reverse relation. Proved a96-first-departure lower bound for restored separated-source terminal states, so low rank alone does not finish the construction. Independently classified complete reverse Gram packet acquisition over all511 binary lines; eight separate returns cost at least63.3380260 and fail the optimistic47.0797428 allowance.
+
+The next mechanism mixes reverse-X and Y2 information at facets, using the current hub z=b+(P-I)d to remove the b part. Its promising eight-row decoder algebra is under independent review; physical current-row acquisition is now the primary obligation. Nested source code and exact odd8 recovery have local reviews pending integration. The requested ten-hour session remains active. No new kappa, no upstream PR; resulting SHA goes in the next confirmed ledger.

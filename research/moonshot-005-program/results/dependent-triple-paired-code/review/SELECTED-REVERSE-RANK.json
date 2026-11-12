@@ -1,0 +1,313 @@
+{
+  "budget_gate": {
+    "max_affordable_integer_terminal_arrivals": 46,
+    "necessary_inequality": "|S|-rank(G[S,S]) >= 50",
+    "necessary_selected_nullity": 50,
+    "parent_remaining_native_moment_upper": "68634740021155780148859091804125945431371958086829/1461501637330902918203684832716283019655932542976",
+    "parent_review_sha256": "a0ad37e09f691e57128d0eda773aaeb3bea62a757759c7cba0059686cae9ea6e",
+    "scope": "Necessary only if common/packet invoices are fixed, all new raw routes refine direct parent routes, and residual is repaired through extra terminal field arrivals."
+  },
+  "dependent_triple": {
+    "groups": [
+      {
+        "coupled_donors": [
+          52
+        ],
+        "donors": [
+          2,
+          4,
+          5,
+          31,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          73,
+          74,
+          75,
+          78,
+          81,
+          82,
+          83,
+          84,
+          85,
+          88,
+          89,
+          90,
+          91,
+          98
+        ],
+        "firstX_receivers": [
+          0,
+          1
+        ],
+        "full_aggregate_rank": 2,
+        "hosted_aggregate_rank": 2,
+        "hosted_donors": [
+          2,
+          4,
+          5,
+          31,
+          51,
+          53,
+          54,
+          55,
+          56,
+          73,
+          74,
+          75,
+          78,
+          81,
+          82,
+          83,
+          84,
+          85,
+          88,
+          89,
+          90,
+          91,
+          98
+        ],
+        "intersection_basis": [
+          3,
+          4,
+          25,
+          32,
+          64,
+          128,
+          256
+        ],
+        "intersection_dimension": 7,
+        "receivers": [
+          112,
+          113
+        ],
+        "source_chart_ids": []
+      },
+      {
+        "coupled_donors": [],
+        "donors": [
+          1,
+          6,
+          12,
+          13,
+          15,
+          25,
+          32,
+          33,
+          48,
+          49,
+          50,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          80,
+          87,
+          92,
+          99,
+          100,
+          101,
+          102
+        ],
+        "firstX_receivers": [
+          0,
+          98
+        ],
+        "full_aggregate_rank": 2,
+        "hosted_aggregate_rank": 2,
+        "hosted_donors": [
+          1,
+          6,
+          12,
+          13,
+          15,
+          25,
+          32,
+          33,
+          48,
+          49,
+          50,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          80,
+          87,
+          92,
+          99,
+          100,
+          101,
+          102
+        ],
+        "intersection_basis": [
+          3,
+          13,
+          16,
+          36,
+          68,
+          132,
+          260
+        ],
+        "intersection_dimension": 7,
+        "receivers": [
+          112,
+          210
+        ],
+        "source_chart_ids": []
+      },
+      {
+        "coupled_donors": [
+          17,
+          19,
+          47
+        ],
+        "donors": [
+          0,
+          7,
+          16,
+          17,
+          18,
+          19,
+          26,
+          35,
+          36,
+          37,
+          45,
+          46,
+          47,
+          62,
+          63,
+          64,
+          65,
+          66,
+          79,
+          86,
+          103,
+          104,
+          105,
+          106
+        ],
+        "firstX_receivers": [
+          1,
+          98
+        ],
+        "full_aggregate_rank": 2,
+        "hosted_aggregate_rank": 2,
+        "hosted_donors": [
+          0,
+          7,
+          16,
+          18,
+          26,
+          35,
+          36,
+          37,
+          45,
+          46,
+          62,
+          63,
+          64,
+          65,
+          66,
+          79,
+          86,
+          103,
+          104,
+          105,
+          106
+        ],
+        "intersection_basis": [
+          3,
+          8,
+          21,
+          36,
+          68,
+          132,
+          260
+        ],
+        "intersection_dimension": 7,
+        "receivers": [
+          113,
+          210
+        ],
+        "source_chart_ids": []
+      }
+    ],
+    "residual_matrix_sha256": "2a02f2504e4ea72c7dc8b2608c185d3019ec9623e6098be982ce9bdac5d3a277",
+    "reverse_residual_nullity": 1,
+    "reverse_residual_rank": 95,
+    "selected_firstX": [
+      0,
+      1,
+      98
+    ],
+    "selected_firstY": [
+      112,
+      113,
+      210
+    ],
+    "selected_gram": [
+      [
+        "8",
+        "4",
+        "4"
+      ],
+      [
+        "4",
+        "8",
+        "-4"
+      ],
+      [
+        "4",
+        "-4",
+        "8"
+      ]
+    ],
+    "selected_gram_rank": 2,
+    "selected_root_rank": 2
+  },
+  "exact_null_vector": [
+    [
+      0,
+      "1"
+    ],
+    [
+      1,
+      "-1"
+    ],
+    [
+      98,
+      "-1"
+    ]
+  ],
+  "independent_checker_sha256": "5df76656f94ef59ced327165e7d15516b59ca6f7c60d6f3ab9506f7cb50c200c",
+  "negative_controls": {
+    "omitting_mutual_selected_terms_restores_rank96": true,
+    "orthogonal_frame_does_not_lower_rank": true,
+    "wrong_root_relation_sign_rejected": true
+  },
+  "orthogonal_frame": {
+    "reverse_residual_rank": 96,
+    "selected_firstX": [
+      5,
+      56,
+      65,
+      69,
+      77,
+      96,
+      100,
+      103
+    ],
+    "selected_gram_rank": 8
+  },
+  "scope": "Proved interface rank theorem and exact finite source geometry. Existence, typing, cost and current-row availability of a realizing triple word are separate obligations.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_INDEPENDENT_SELECTED_COLUMN_RANK_AND_TRIPLE_GEOMETRY"
+}

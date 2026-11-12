@@ -448,3 +448,19 @@ Construct one physically valid joint encoding that completes all forward duties 
 The ordinary proof, uniform complex/BIT admission and five foundations are not
 discharged by residual-rank statements. Packet acquisition is separate from
 algebraic row-space dimension.
+
+### DEPENDENT-TRIPLE-RANK95 — proved finite source construction
+
+For the exact source and selected hosted roles0,1,98, one compatible76,039-operation word realizes three completed forward rows and136 transpose coefficients, with invertible400-dimensional raw state and reverse residual rank95. The relation a0-a1-a98=0 makes the selected Gram rank2; the block identity gives residual rank96-|S|+rank(G_SS). Independent source re-emission, actual row/read tests, all1,880 inputs,400 inverse rows,84 phase maps and negative controls support the finite word. See results/dependent-triple-paired-code/ and its review. Zero individual reverse pairs are complete.
+
+### SEPARATED-REVERSE-DEPARTURES — proved within restored terminal scope
+
+If the current hub is b+Rd, the independent original d_i occupy distinct terminal facets, no earlier retained record carries them, and every column of I+R is nonzero, any linear completion needs one first departure from each source facet. Vary d by delta and b by -R delta while keeping the hub fixed. Every target dependence must leave its own source. This gives96 even when residual rank is smaller. The actual triple's96-move suffix attains the departure count but fails its budget. Preterminal mixed encoding is outside scope.
+
+### COMPLETE-REVERSE-GRAM-ACQUISITION — proved scoped source obstruction
+
+For every binary acquisition chart C, nonzero complete hosted Gram functionals formed from unchanged original Y2 values require dim(C)<=1. All511 lines have exact source rank certificates:487 permit no functional and24 permit one, with no common nonzero functional for two distinct exceptions. Thus eight independent separately paid complete returns cost at least63.3380260, exceeding every monotone raw replacement's optimistic47.0797428 allowance. Independent rational review: results/reverse-gram-packet-chart-gate/review/. Mixed packets and funded/changed carrier payloads are not excluded.
+
+### MIXED-REVERSE-ACQUISITION — open primary
+
+Construct actual facet observations m=Qb+Sd during one global paired current-row code, restore all promised public inputs, and establish row(P) subset row(S-QE), where E=P-I and the final hub has z=b+Ed. Then the hub can derive Pd from m-Qz. A proposed eight-row special case Q=E_I,S=I_I is under independent algebra review; its actual acquisition remains unproved. Dependencies: reciprocal encoder interface, correct complete forward code, actual source row availability, typed transport, owned lifetimes/erasure, coupled repair prerequisites and full H4 invoice. The global16-move envelope is sufficient arithmetic only.

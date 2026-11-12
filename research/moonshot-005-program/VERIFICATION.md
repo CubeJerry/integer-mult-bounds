@@ -602,3 +602,11 @@ Each package README gives standalone reproduction into /tmp. Source utility
 and physical-engine SHA256 pins are in SOURCE-PINS.json. The scientific ledger
 separately authenticates every admitted file. No human/formal acceptance or new
 complete kappa is claimed.
+
+## S008 third checkpoint: dependent rank reduction and pure packet gate
+
+The dependent-triple author word and independent C re-emission agree exactly at76,039 operations and the frozen payload hash19a7a89b4623f7f095833a46369fad7bf6d63eabd6bf5a7929ed52a87b55b121. Root reproduced the integrated independent receipt and96-MOVE suffix byte-for-byte, reviewed the principal-Gram block rank formula and first-departure proof, and checked the distinction between one completed relation and zero individual reverse pairs. The review includes252 actual row gates,520 original E8 reads,6 actual Y2 injections,400 inverse rows and8 mutants. Existing chart engines retain their credit.
+
+For the reverse Gram packet gate, root independently used rational elimination rather than the author's modular-minor method. All511 lines, all276 exceptional pairs and actual source endpoint charts are checked. Separate40-digit rational power certificates establish the stronger direct-raw price comparison. The integrated review receipt matches its frozen result. These two packages are alternatives/constraints within the programme; their bills and gains are not added as if they were one word.
+
+Mixed b/d packet algebra and physical acquisition are active research, not admitted construction premises at this checkpoint. No new complete kappa.

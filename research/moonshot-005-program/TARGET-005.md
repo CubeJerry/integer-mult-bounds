@@ -594,3 +594,11 @@ class cannot lower rank below88; the entire row architecture requires all96
 hosted rows to leave only8 residual dimensions. These are scoped algebraic
 conditions, not global lower bounds or delivered packets. Both U>.005 andB>.005
 and all five foundational contracts remain. No complete target certificate.
+
+## S008 mixed reverse return interface and two scoped gates
+
+The actual dependent triple leaves rank95, with partial margin43.730571695159306, and completes one reverse relation. Its literal96-rank1 terminal suffix costs more than that margin. More generally, a restored separated-source layout with hub b+Rd and all nonzero columns of I+R needs96 first departures regardless of the rank of I+R. This is a spatial information statement under its stated terminal premises.
+
+The separate complete-Gram-packet gate over all511 binary lines proves acquisition dimension at most1 from unchanged original Y2 values. Eight separately paid complete returns cost at least8*8^(199/200)=63.338026010573245..., exceeding the optimistic direct-raw allowance47.07974274338085... by more than16.258283267. Partial factors, mixed b/d packets, changed current carrier rows and funded transport are outside that restriction.
+
+The primary open interface is now: obtain actual m=Qb+Sd with row(P) contained in row(S-QE), where z=b+Ed is the current hub and E=P-I. Local subtraction yields m-Qz=(S-QE)d. The special choice Q=E_I,S=I_I may yield eight rank1 facet-to-hub returns; its decoder algebra is being independently checked. The existing16-move budget envelope applies only after all acquisitions, full forward coding, coupled repairs and restoration are actually constructed. No source access is free, no terminal rank is a transport certificate, and neither strict supplier nor any foundation is discharged.
