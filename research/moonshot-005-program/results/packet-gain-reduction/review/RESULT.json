@@ -1,0 +1,24 @@
+{
+  "dependency_pins": {
+    "PROOF.md": "51bed76021f5007d39b09cc31ebf5c4cafa3f67290b78947a4e915e3a4d8827e",
+    "results/joint-additive-history-obstruction/ADMISSION.md": "1d9d2047a3dbc3b20225e0ee490347b69f03757de8747ed05f932ffb52e78097",
+    "results/joint-additive-history-obstruction/CERTIFICATE.json": "168fee8f09cdf0f33bcf5989630d244141d3c570808b7ccb553f6ad7be098dd7",
+    "results/joint-additive-history-obstruction/PROOF.md": "b53b98261b88936fe48b99ac9ddfe6537b1bf9c377d06b8284143a3957d021fd",
+    "results/joint-additive-history-obstruction/review/REVIEW.md": "a3889679ba09d58dc8a7ea2db7e7bf5db472ce0575f9e459c9daa03121ec7da5",
+    "results/stable-history-encoder/review/REVIEW.md": "c287289c7da367b6ad0483d5d43a19fbbfac0d7a3fab33af12abded82df9809b",
+    "results/stable-history-encoder/review/STABLE-GATE-REVIEW.md": "862d8e7b54da06b867bb2494f58180be349dc22c26f0d4e59178d5bd8f3e7e32",
+    "results/stable-history-encoder/source/PROOF.md": "a49c771a7b31763d2e5042452e4231e2dbdd69a71d4bd661230689b3315fe3e0",
+    "results/stable-history-encoder/source/RESULT.json": "82f21ba5dc74f65002e44727274b890ea9266d7e46e13f5f292f841f936fb2c9"
+  },
+  "general_criterion": "e-D0R in row(C,S,NR)",
+  "negative_controls": [
+    "foreign q2 history gain plus q1+q2 packet reveals q1 despite zero q1 gain column",
+    "modified initial189 observation changes stable decoder by minus its precompensation",
+    "nonzero history response can be common-input masked",
+    "dropping endpoint restoration permits target gain without packets"
+  ],
+  "new_complete_kappa": null,
+  "source_reproduction": "Inherited admitted source certificates; hashes checked, not reexecuted in this derived review.",
+  "source_specialization": "All220-station control columns satisfy NB=0; with restored stable endpoint this reduces to e in row(C,S).",
+  "status": "PASS_INDEPENDENT_PACKET_GAIN_ALGEBRA_AND_PINS"
+}

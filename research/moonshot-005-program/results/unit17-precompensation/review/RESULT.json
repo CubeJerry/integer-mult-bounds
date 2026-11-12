@@ -1,0 +1,64 @@
+{
+  "common_word_events": 71261,
+  "completed_second_shears": 17,
+  "expected_complete_common_rows": 1480,
+  "funded_raw_moves": 1710,
+  "independent_source_main_map": true,
+  "negative_controls": {
+    "dropped_one_raw_gain_correction_wrong_rows": [
+      1625
+    ],
+    "duplicate_funded_reservation_rejected": true
+  },
+  "normal": {
+    "move_histogram": {
+      "1": 5082,
+      "2": 1188,
+      "3": 916,
+      "4": 353,
+      "5": 453,
+      "6": 25,
+      "7": 14,
+      "8": 6
+    },
+    "new_q_packets": [
+      77,
+      103,
+      22,
+      109,
+      20,
+      46,
+      41,
+      106,
+      26,
+      24,
+      107,
+      58,
+      28,
+      92,
+      57,
+      7,
+      8
+    ],
+    "non_dyadic_scalar_operations": 7615,
+    "operations": {
+      "ADD": 68642,
+      "CLEAR": 216,
+      "COPY": 1,
+      "INIT": 216,
+      "MOVE": 8037,
+      "SCALE": 3662
+    },
+    "peak_owned": 121,
+    "wrong_rows": []
+  },
+  "physical_instruction_count": 80774,
+  "preserved_other_second_inputs": 383,
+  "public_input_domain": 1880,
+  "schema": "independent-unit17-physical-word-review-v1",
+  "scope": "Partial restored native word;17 new rank1 calls. No complete supplier, no new kappa, no saving over direct17-channel delivery. Non-dyadic scalar admission and all programme foundations remain.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS: independent full1880-input exact symbolic typed replay, lineage and negative controls.",
+  "word_compressed_sha256": "c75f595393d32f0ddefed906e9dab02e6e09b764730684541375d6979c6c349c",
+  "word_payload_sha256": "ee6a4bb6c9e9873a518f84ab8e007851e43bd770c11d01b1e3e2ea96f1b5c901"
+}

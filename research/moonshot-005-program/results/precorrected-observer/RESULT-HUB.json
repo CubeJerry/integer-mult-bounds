@@ -1,0 +1,57 @@
+{
+  "added_to_native_counts": {
+    "ADD": 438,
+    "CLEAR": 3,
+    "COPY": 0,
+    "INIT": 3,
+    "MOVE": 8,
+    "SCALE": 0
+  },
+  "bill": {
+    "counts": {
+      "ADD": 61618,
+      "CLEAR": 57,
+      "COPY": 1,
+      "INIT": 57,
+      "MOVE": 6318,
+      "SCALE": 3662
+    },
+    "final_live_owned": 0,
+    "instructions": 71713,
+    "owned_lifetimes": 57,
+    "peak_owned": 43
+  },
+  "common_outputs_restored": 1480,
+  "funded_raw_routes": 7,
+  "hub_correction_fields": 366,
+  "negative_controls": [
+    "omitting one initial preload leaves a nonzero common output error",
+    "initial history read before precompensation changes decoder",
+    "funded raw reservation multiplicity and physical ownership checked"
+  ],
+  "new_complete_kappa": null,
+  "new_paid_moves": [
+    {
+      "owned": true,
+      "rank": 9,
+      "source": 127,
+      "target": 3
+    }
+  ],
+  "other_raw_inputs_retained": 398,
+  "packet_route": "hub",
+  "physical_input_directions": 1880,
+  "precorrection_fields": 60,
+  "predecessor_pins": {
+    "OBSERVATIONS.json": "03c0dd40c55545892effd8dd8fdd45246a2a22b6eccb1df39f03f76154fb8a83",
+    "verify.py": "524ed58f8d029efa4bf092a0173f960a75db496b6a3012bdc065cbcfcae1dc16"
+  },
+  "premature_snapshot_error": "1",
+  "raw_shears_completed": 1,
+  "scope": "One raw shear77 to189 completed; all1480 common outputs restored;398 other raw fields retained at initial charts. No complete400-output lift.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_LITERAL_1880_INPUT_PRECORRECTED_COMMON_RESTORATION_AND_ONE_RAW_SHEAR",
+  "unused_raw_reservations": 1703,
+  "word_payload_sha256": "9bc9426d76e0ab3fe8df1c8cdcc6384f5f9563ffcee33a06c344d518a6d78abc",
+  "word_sha256": "3714d8ae8d8bc58a5f09cfaf8dd6990572ab928177c2d5ac29e4e9bdc9dda8a1"
+}

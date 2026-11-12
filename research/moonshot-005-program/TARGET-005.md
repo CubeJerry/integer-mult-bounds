@@ -404,3 +404,34 @@ is not free. Joint replacement rows obey (I+L)delta=Qq−Hu; their actual
 common/raw observation matrix must contain the required target row space.
 No standalone slot gain, favorable Gram rank or nonzero moment discharges
 that requirement. New common-response codes need a fresh full-source invoice.
+
+
+## S006: exact joint packet and receiver-gain target
+
+With T=diag(1/g)+L, actual target caches H u+Dq, response Z_o, decoder baseline
+A u/response B and an initial-chart right inverse V satisfying F_o V=I and H V=0,
+put J=Z_o T^-1D, K=-VJ, E=R-BT^-1D+AVJ. Packets Cq supply both corrections iff
+row([J;E]) is contained in row(C). This is algebraic necessity/sufficiency within
+the stated interface, in addition to real caches/routes, retained hub q, COPY
+guards G0K+G1T^-1D=0, precision, storage and full ordinary/recursive costs.
+
+For invertible104-by104 R, rank([J;E])<=r iff
+dimension{q:Jq=0 and R^-1BT^-1Dq=q}>=104-r. Hence10 packets require94 independent
+exact-gain zero-debt directions;8 require96. Injective debt on every signal forces
+all signal packets in this interface, as for unit17.
+
+Fixed H4 with eight rank1 reverse calls and no other new calls permits rank9
+packet counts8,9,10 with native margins19.1857486498012441,10.2840826122517077,
+1.3824165747021713;11 yields-7.5192494628473652. These abbreviate exact intervals.
+Ten is that profile's optimistic ceiling; eight is convenient, not universally
+necessary. Extra17 direct repairs cannot spend the same remaining allowance twice.
+
+For histories y=Ou+Rhist q, D0O=h and complete left-nullspace N, exact gain requires
+e-D0Rhist in row(C,S,N Rhist). Under authenticated endpoint restoration and
+Rhist=OVC+Bhist, this becomes e in row(C,S,N Bhist). The proved220-station receiver189
+class has N Bhist=0. Foreign controls, extra records and changed processing require
+fresh source evidence. Seek actual weighted correction through N Bhist jointly
+with J=U C, allowing free U. Neither follows from E8 packet arithmetic.
+
+Proofs: results/packet-admission/ and results/packet-gain-reduction/. Both strict
+complex/BIT supplier requirements and all foundational obligations remain unchanged.

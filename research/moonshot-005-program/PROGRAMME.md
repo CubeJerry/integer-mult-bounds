@@ -1,3 +1,27 @@
+# Current construction — S006 second scientific checkpoint
+
+Initial common precompensation is now a literal construction: an80,774-operation
+word restores all1480 common outputs on1880 independent inputs and implements17
+actual second-copy shears. It uses17 new rank1 packets,111 real history records
+and peak121 owned fields. It leaves191 cross-dependencies and new non-dyadic
+scalar admission open. This is a causal repair mechanism, not a price saving.
+
+The architecture joins shared packets, controlled common processing, initial
+correction and real histories. Its next binding problem is shared receiver gain
+after common restoration. Exact packet demand is rank([J;E]), combining common
+error with receiver deficit. A104-coordinate interface with10 packets needs94
+exact-gain zero-error directions;8 needs96. All physical and recursive costs remain.
+
+The first fixed E8 common-response matrix fails original-station identities at
+donors77 and0, including the specified remaining87 hybrid. This does not invalidate
+the packet prefix or exclude another left factor J=U C. The exact history/private
+criterion points to actual mixed-donor history responses or retained common-dependent
+records as the next escape to test. See CONTINUATION for a concrete source attempt.
+
+Selected complete conditional kappa remains363005817/100000000000. No complete
+conditional or unconditional kappa>=1/200 is established. All five assumptions
+remain; the programme is ongoing, not PR-ready. Historical frontiers follow.
+
 # Persistent multiplication programme: κ ≥ 1/200
 
 ## Current frontier — an actual endpoint code and its missing common-record interface (S006)

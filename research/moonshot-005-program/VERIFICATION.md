@@ -384,3 +384,26 @@ relative integrated author pins for portable integrity checks. Compressed
 certificates preserve reviewed decompressed bytes. No selected cold replay,
 complete multiplier, human review or formal kernel acceptance is claimed.
 All five foundations and both strict supplier requirements remain open.
+
+
+## S006 second checkpoint admission
+
+All672 previous scientific files are byte-preserved. Separate source reviews check
+joint58 H/L/B/Z, the exhaustive scalar-unit38 census, and their exact response ranks.
+Normal/optimized receipts agree. The unit17 independent interpreter imports no
+author builder: it checks all1880 rows,1710 unique raw reservations, native subsequence,
+actual packets, frames, guards, peak121 and semantic mutants. Root separately
+authenticates the native subsequence and counts3471 new odd-part5 coefficients plus
+one odd-part3 history coefficient, versus4143 original non-dyadic occurrences.
+
+Both71713-operation one-shear variants have separate full typed reviews; author and
+reviewer optimized receipts agree. Independent all-cut adjoints prove donor77/0 E8
+duals and rescaling/access controls. Exploratory author rank17/14 statistics are not
+needed for or independently promoted by these identities. Two separate algebra
+reviews check the packet criterion, signs, modified initial histories, row/kernel
+conditions and nullity corollaries. NEXT-CONSTRUCTION remains an open lead; these
+algebra reviews do not claim new replay of inherited source certificates.
+
+Original and portable manifests bind reviewed bytes. Symbolic source execution
+establishes the displayed fixed linear words for all inputs/V under retained
+primitives; it is not an asymptotic supplier or scalar/precision admission proof.

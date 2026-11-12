@@ -1,3 +1,17 @@
+## S006 cumulative update — ongoing, not PR-ready
+
+Added an independently replayed80774-operation partial word restoring1480 common
+and17 second shears; exact shared packet/gain admission with94-dimensional necessary
+exact-gain space at ten packets; and source obstructions to fixed E8/helper families.
+These form one evolving construction.191 dependencies, scalar admission and complete
+compatible complex/BIT suppliers remain open. **No new kappa. No upstream PR.**
+
+See [physical17](results/unit17-precompensation/PROOF.md),
+[packet criterion](results/packet-admission/PROOF.md),
+[gain criterion](results/packet-gain-reduction/GENERAL-INTERFACE.md), and
+[fixed-code scope](results/e8-response-control/PROOF.md). Pins, costs, predecessor
+credit, @CubeJerry attribution and OpenAI assistance are in the full packages.
+
 # Prove shared-core information and repair barriers, and reduce κ = 1/200 synthesis to causal cochart delivery
 
 ## Latest cumulative contribution — S006, no new κ

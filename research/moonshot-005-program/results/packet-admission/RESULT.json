@@ -1,0 +1,77 @@
+{
+  "example": {
+    "E": [
+      [
+        "40",
+        "-6"
+      ]
+    ],
+    "J": [
+      [
+        "14",
+        "-2"
+      ]
+    ],
+    "T": [
+      [
+        "1/2",
+        "0"
+      ],
+      [
+        "3",
+        "-1"
+      ]
+    ],
+    "debt_invisible_displacement": [
+      [
+        "1"
+      ],
+      [
+        "7"
+      ]
+    ]
+  },
+  "negative_controls": [
+    "omit A V J",
+    "send debt-only packet while receiver deficit independent",
+    "drop COPY response",
+    "replace scaled-control T by I+L"
+  ],
+  "profiles": {
+    "10": {
+      "denominator": "18000000000000000000000000000000",
+      "margin_numerator_bounds": [
+        "24883498344639082763897254031596",
+        "24883498344639082763897254119308"
+      ],
+      "strict_positive": true
+    },
+    "11": {
+      "denominator": "18000000000000000000000000000000",
+      "margin_numerator_bounds": [
+        "-135346490331252572757676737016712",
+        "-135346490331252572757676736928982"
+      ],
+      "strict_positive": false
+    },
+    "8": {
+      "denominator": "18000000000000000000000000000000",
+      "margin_numerator_bounds": [
+        "345343475696422393807045236128212",
+        "345343475696422393807045236215888"
+      ],
+      "strict_positive": true
+    },
+    "9": {
+      "denominator": "18000000000000000000000000000000",
+      "margin_numerator_bounds": [
+        "185113487020530738285471245079904",
+        "185113487020530738285471245167598"
+      ],
+      "strict_positive": true
+    }
+  },
+  "scope": "Fixed right inverse, controls, decoder and H4 optimistic invoice; no complete source construction or new kappa.",
+  "status": "PASS_EXACT_INTERFACE_CONTROLS_AND_PACKET_CEILING",
+  "tariff_sha256": "8c4c9781a72926bbce2ac8c0a920241a609eeac0c291c3c595c068da1404370d"
+}

@@ -1,36 +1,43 @@
-# Next construction: retain common records and exploit joint responses
+# Resume the same programme
 
-**No new κ. The programme remains ongoing.** Read exact remote HEAD and STATE.
-S006 began00:28:43UTC with a two-hour budget; this is a mid-session checkpoint.
+Fetch exact remote HEAD of research/moonshot-005-program. This checkpoint's parent
+is7bbe4fcb47f67073ae021fcadd8dd86ad14ea39a. Canonical last examined:
+e54523517d0f03e58352e647c403a5af3e525a57. Selected conditional kappa remains.00363005817;
+no new kappa, all five assumptions retained. Read STATE, TARGET and OBLIGATIONS.
 
-The [actual eight-packet prefix](results/eight-packet-prefix/PROOF.md) is built,
-priced and independently replayed on1880 input directions. It still owes104
-weighted residuals,96 hosted reverse duties, the coupled reverse prerequisites,
-common execution, recoupling and all supplier/physical/recursive obligations.
-Its890 consumed raw-main reservations are not free continuation resources.
+## Current construction and decisive next step
 
-Do not repeat its simple transport completion. The reviewed routing graph
-needs43 packet dimensions even after free reuse of all main/owned routes;
-8rank9+35rank1 already exceeds the full H4 allowance. This bound explicitly
-does not cover additional decoded common-response histories.
+Physical initial precompensation now restores all common outputs and17 actual
+second shears on1880 inputs. It costs17 rank1 packets,111 real histories and peak121,
+leaving191 dependencies and new scalar/precision/compiler obligations. No saving.
 
-Do not overwrite a neutral helper by pure q and erase its original value.
-All1472 such single overwrites lose one independent common field. The748
-no-owned-live cases lose it immediately without another retained/reread record.
-The joint restoration row criterion keeps actual N/Rq and every version/guard.
+Shared receiver gain is primary. Minimum packets=rank([J;E]);104 first-Y coordinates
+need94 exact-gain zero-debt directions at10 packets,96 at8. Do not optimize common
+debt alone. The unchanged injective58/unit-helper families cannot compress.
 
-The single primary obligation is an actual joint private-information channel
-with a sufficiently small and physically repairable common response. The
-current concrete test starts from source-bound nonneutral observations,
-authenticates their gains and chronological cross-effects, and measures their
-joint off-hub response. If the proposed family fails its complete budget,
-change that response mechanism rather than relabel a scalar rank as a supplier.
-Reversible record-carrying swaps and changed caller interfaces remain possible,
-but must retain all independent inputs and be priced from their real routes.
+Concrete next attempt: compute actual nine-relation response N B from FOREIGN-donor
+controls outside receiver189's220 null stations, or supply an authenticated
+common-dependent carrier record. For E8 packets C=A^T seek weighted correction
+e77-a77 A^T/8 in those actual gains plus priced private rows. Its own77 coefficient
+is zero, so the own-column obstruction does not exclude foreign contributions.
+Simultaneously choose common debt J=U C with free U, all guards, real access/records
+and full budget. See packet-gain-reduction/NEXT-CONSTRUCTION.md. This remains an
+open architectural probe;77 is already in the17 directly repaired channels.
 
-Record source versions, receiver observation equations, common restoration,
-all raw endpoint duties, reservation consumption and complete paid/ordinary
-costs together. Then compare the complete H4 or deliberately changed invoice.
-Never combine H4's discarded second-owned rail with S8's funded reservations.
-Both compatible complex and completed ordinary BIT savings must strictly
-exceed.005, and all five foundational assumptions remain.
+Fixed Gram response is excluded at77 and0, including the specified remaining87
+hybrid; another U/code/access is not excluded. General decoding requires
+e-D0R in row(C,S,N R). Outside-station controls need fresh N B certification.
+
+## Do not repeat or overextend
+
+- Eight-packet prefix verified;104 corrections remain. Source-value routing has
+ 54/43 floors only in its stated graph. Dirty/common-dependent histories differ.
+-1472 neutral pure overwrites lose a common mode;748 lose it immediately without
+ retained/reread records. Swaps and actual common records are separate interfaces.
+-31 old modules mismatch jointly at rank30. Scalar-unit family has37 accessible
+ events/rank35 withtwo zero hub columns. Neither is a universal controller no-go.
+- Keep H4/S8 prices distinct. Eight rank9 plus8 rank1 leaves19.1857;ten plus8
+ leaves1.3824, before other new duties. Scalars/ordinary costs remain real.
+- Recovery/quiet-rechart WIP stays unverified; preserve historical source scopes.
+
+Use REPRODUCE and package reviews. Ongoing programme, not PR-ready.

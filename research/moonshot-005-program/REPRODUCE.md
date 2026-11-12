@@ -187,3 +187,20 @@ source/certificate arguments. The source-normalized all1480/1880-column
 replays, finite controls and mathematical scope are recorded in VERIFICATION.
 Compressed certificate comparison uses exact decompressed bytes. No command
 above certifies a complete κ or discharges the five foundational assumptions.
+
+
+## S006 second checkpoint
+
+```sh
+P=research/moonshot-005-program
+S=research/shared-wire-split-composition/data/final.json.gz
+python3 -B "$P/results/unit17-precompensation/review/review.py" --source "$S" --word "$P/results/unit17-precompensation/WORD.json.gz" --output /tmp/unit17-independent.json
+python3 -B "$P/results/unit17-precompensation/review-scalars/check.py" --source "$S" --word "$P/results/unit17-precompensation/WORD.json.gz" --output /tmp/unit17-scalars.json
+python3 -B "$P/results/precorrected-observer/review/check.py" --source "$S" --packet "$P/results/precorrected-observer" --output /tmp/precorrected-independent.json
+python3 -B "$P/results/e8-response-control/review/check.py" --source "$S" --screen "$P/results/e8-response-control/RESULT.json" --output /tmp/e8-dual77.json
+python3 -B "$P/verify_checkpoint.py"
+```
+
+Other source/fixture arguments are in package READMEs. Unit17 builder takes
+MATRICES.json and ../joint-nonneutral/RESULT.json.gz. Keep scratch outputs outside
+frozen packages. These checks do not establish the missing complete supplier.

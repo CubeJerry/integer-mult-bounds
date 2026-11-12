@@ -329,3 +329,8 @@ refresh does not claim a new exhaustive discussion-board survey.
 
 No upstream PR, Discussion message, selected certificate edit or upstream
 merge was made. The cumulative PR remains a draft for future user review.
+
+
+S006 end-phase check: canonical main was re-read at02:01:41UTC and remains
+e54523517d0f03e58352e647c403a5af3e525a57. No additional upstream package
+was imported during the second scientific wave.

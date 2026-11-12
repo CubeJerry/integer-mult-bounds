@@ -295,3 +295,21 @@ problem remain open. All S8, supplier and compiler obligations are retained.
 Earlier S005 unpushed104-pair/freshness packages remain observed historical
 leads until fully reconstructed. Only the joint restoration proof has now
 been rebuilt and freshly admitted; the old local hashes alone are not evidence.
+
+
+## S006 second checkpoint dependency nodes
+
+| Node | Stated result and scope | Evidence/status |
+| --- | --- | --- |
+| PRECOMP-17 | For all1880 inputs/admitted V,80774-word restores1480 common and17 actual shears;191 dependencies remain. | Proved source identity; scalar/compiler open. results/unit17-precompensation/. |
+| PRECOMP-ONE | Two71713-word source/hub variants restore all common andone shear;398 other raw inputs stay initial. | Proved source identity. results/precorrected-observer/. |
+| JOINT-58 |58 fixed impulse columns independent;31 old normalized decoders have rank30 mismatch. | Proved fixed-slot theorem. results/joint-nonneutral/. |
+| UNIT-38 |38 scalar-unit helper departures,37accessible/rank35 withtwo zero hub-bound columns. | Proved scoped census. results/unit-helper-census/. |
+| PACKET-ADMISSION | rank([J;E]) packet criterion and94/96 exact-gain requirement, with guards/access separate. | Conditionally proved interface. results/packet-admission/. |
+| E8-COLUMN |77 stations force z113-z116+z119=0;0 stations force z113=0, contradicting prescribed Gram columns. | Fixed code/rescalings excluded, including specified remaining87 hybrid; other U/access open. results/e8-response-control/. |
+| PACKET-GAIN | Exact packet/private/history-null decoder criterion for stated full-field records. | Proved scoped reduction. results/packet-gain-reduction/. |
+| SHARED-GAIN | Actual mixed-history or common-dependent records giving missing raw gain and shared low-rank correction within full costs. | Open primary; depends on above and native history facts. |
+
+CODED-COMMON-DEBT is partly discharged by physical precompensation. Shared gain,
+complete complex/BIT suppliers, scalar/precision/compiler and all foundations remain.
+Historical S8/recovery obligations retain their own source-interface scope.

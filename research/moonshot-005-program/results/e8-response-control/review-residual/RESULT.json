@@ -1,0 +1,35 @@
+{
+  "author_screen_sha256": "d7d6a199cccec12163e39acf4b6dde21a1efb8008834fdf87a9a9f91fef9a85d",
+  "cuts_checked": 71262,
+  "donor": 0,
+  "dual": [
+    [
+      113,
+      "1"
+    ]
+  ],
+  "guard_relaxation": "No COPY guard constraint used: dual annihilates every station control even without imposing the guard.",
+  "maximum_adjoint_support": 337,
+  "method": "one one-output scalar adjoint checked at every source cut and every nonzero coordinate; target independently built in nine dimensions",
+  "negative_controls": {
+    "add_hub_output0": {
+      "coefficient": "1",
+      "cut": 71261,
+      "role": 0
+    },
+    "extra_final113_station": {
+      "adjoint": "1",
+      "chart": 129,
+      "role": 113
+    }
+  },
+  "new_complete_kappa": null,
+  "nonzero_adjoint_entries_examined": 5563180,
+  "nonzero_row_column_rescaling_pairing": "row_scale113 * column_scale0 / 2",
+  "scope": "Fixed native word; arbitrary additions to existing public or owned fields at the five donor0 funded-route charts, at any source cut. Prescribed Gram column target only; no general low-rank correction-code impossibility.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "station_count": 5,
+  "status": "PASS_INDEPENDENT_ALL_CUT_GRAM_TARGET_DUAL",
+  "target_at113": "1/2",
+  "target_pairing": "1/2"
+}

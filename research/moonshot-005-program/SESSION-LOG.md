@@ -500,3 +500,24 @@ compressed SHA256 and gzip CRC. No new κ or completed10-hour claim.
   scientific files are preserved. First checkpoint's resulting remote SHA is
   recorded by the next checkpoint after GitHub confirmation, avoiding a
   self-referential hash. **No new κ; no PR submission; programme ongoing.**
+
+
+## 2026-11-12-S006 — second scientific checkpoint
+
+Checkpoint1 was GitHub-confirmed at7bbe4fcb47f67073ae021fcadd8dd86ad14ea39a,
+tree8fe77078d81836dc8ac9b027452dd7e85f2100cf, at01:22:46UTC. Fetch-back and
+integrated prefix/routing/tariff checks passed. The next wave proved joint58
+injectivity, the complete scalar-unit38 census and normalized gain interference.
+Precompensation became independently replayed one- and17-shear1880-input words
+with complete common restoration. Unit17 uses17 rank1 packets/111 real histories,
+leaves191 dependencies, and does not beat direct delivery; scalar admission is open.
+
+Derived stacked packet/gain admission and94/96-dimensional exact-gain requirements.
+The fixed E8 response fails donor77 anddonor0 adjoints, including the specified
+remaining87 hybrid; no generic low-rank no-go is claimed. Receiver189 history yields
+the packet/private gate and general N B criterion for possible foreign controls.
+
+Canonical rechecked02:01:41UTC remains e54523517d0f03e58352e647c403a5af3e525a57.
+No new upstream result imported. Next: actual mixed-donor history gain or retained
+common-dependent record, jointly satisfying common repair and complete price.
+No new kappa or PR submission. Resulting SHA is recorded after remote confirmation.
