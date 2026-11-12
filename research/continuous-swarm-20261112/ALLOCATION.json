@@ -1,8 +1,8 @@
 {
   "schema": "continuous-swarm-checkpoint/v1",
   "started_utc": "2026-11-12 01:31 UTC",
-  "updated_utc": "2026-11-12T03:42:05.526428+00:00",
-  "status": "seven_verified_publications_wave4_active",
+  "updated_utc": "2026-11-12T03:55:51.712296+00:00",
+  "status": "seven_published_a4b_reviewed_c4_verification_active",
   "base": "e54523517d0f03e58352e647c403a5af3e525a57",
   "selected_kappa": "363005817/100000000000",
   "recovery_branch": "recovery/continuous-swarm-20261112-0132",
@@ -164,13 +164,13 @@
       "track": 85,
       "base": "e54523517d0f03e58352e647c403a5af3e525a57",
       "scope": "Literal five-Gamma producer and complete same-owner post-matrix X_1 translation for selected MOVE24472 using C3, with actual axis order.",
-      "status": "active_unverified",
+      "status": "independently_reviewed_packaging",
       "dependencies": [
         "B3 remote172f4535ce8dcff79f626410af845f757c1563be",
         "C3 remote7662d01d827c95d90032579c168cae78aa531f2f"
       ],
       "output": "/workspace/scratch/be42ab5b7196/worker-a4b",
-      "next": "Gate passed; emit joined graph, prove complete O(V), independently review; exclude preceding affine matrix."
+      "next": "Root accepted program e2750fef/proof6b76d348, exact runtime census and11Gitpins; author finishing metadata/commit. Publish only after scoped tree/preflight."
     },
     {
       "worker": "crt_reusable_history",
@@ -178,7 +178,7 @@
       "track": 20,
       "base": "e54523517d0f03e58352e647c403a5af3e525a57",
       "scope": "Literal positive C^tensor f leaf on B3 packed common-grid raw Gaussian ABI with supplied encoded cutoff.",
-      "status": "active_unverified",
+      "status": "implementation_runtime_verified_proof_pending",
       "dependencies": [
         "#6967",
         "#3091",
@@ -186,7 +186,7 @@
         "B3 remote172f4535ce8dcff79f626410af845f757c1563be"
       ],
       "output": "/workspace/scratch/be42ab5b7196/worker-c4/research/literal-positive-c-leaf",
-      "next": "Gate passed; exact positive normalization, generated axis strides, O(fV+E); old coded ABI and strided bridge excluded."
+      "next": "Root dense independent tensor oracle passes bb46c1a5; B universal/source/cost review active; no publication until accepted."
     },
     {
       "worker": "literal_layer_boundary",
@@ -194,14 +194,28 @@
       "track": 50,
       "base": "e54523517d0f03e58352e647c403a5af3e525a57",
       "scope": "Source-specific full padded T-field extraction to original S order left open by #6993 deferred Gaussian recovery.",
-      "status": "active_evidence_gate",
+      "status": "stopped_exact_duplicate",
       "dependencies": [
         "#6993 head1ab10aa78c4b27345c76806d1d32c7b9de481219",
         "#4320",
         "#4415"
       ],
-      "output": "/workspace/scratch/be42ab5b7196/worker-b4",
-      "next": "Bounded overlap/source map and complete cost gate; stop if exact producer unavailable; no free gather or generic recovery algebra."
+      "output": "/workspace/scratch/be42ab5b7196/reviews/b4-gate",
+      "next": "Merged #6995 already supplies exact original-Q extraction; only joined completed field producer remains open. No duplicate package."
+    },
+    {
+      "worker": "literal_layer_boundary",
+      "wave": 4,
+      "track": 75,
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Independent C4 exact positive kernel/source/universal/cost review, complementary to author and root CPU.",
+      "status": "active_verification",
+      "dependencies": [
+        "literal-positive-c-leaf candidate",
+        "actual#7000 MOVE24472"
+      ],
+      "output": "/workspace/scratch/be42ab5b7196/reviews/c4-peer",
+      "next": "Review frozen scientific bytes, derive independent obligations/control receipt; report defects before publication."
     }
   ],
   "verified_packages": [
@@ -283,5 +297,11 @@
     "Literal outer phase sweep supplies both S boundaries around a separately supplied exact C and literal egress.",
     "Scalar 1125 and inverse kernels already exist in current-scalar-flat-tables; selected token/owner/common-format join remains open."
   ],
-  "previous_recovery_remote_commit": "5aa201b5474f476afdf8521299cdbcf14749465b"
+  "previous_recovery_remote_commit": "5aa201b5474f476afdf8521299cdbcf14749465b",
+  "last_upstream_refresh": {
+    "sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+    "recent_prs_through": 7366,
+    "selected_kappa": "363005817/100000000000",
+    "note": "Recent open7363-7366 are conditional source-retiming/chart-bank exclusions, not selected frontier or overlapping literal scopes."
+  }
 }
