@@ -1,0 +1,121 @@
+{
+  "allowed_charts": [
+    16,
+    35,
+    127,
+    318
+  ],
+  "history_basis": {
+    "arrival_rows": 19,
+    "complete_nullity": 9,
+    "full_input_adjoint_null_relations": 9,
+    "initial_units": 1046,
+    "quotient_rank": 10
+  },
+  "history_sha256": "168fee8f09cdf0f33bcf5989630d244141d3c570808b7ccb553f6ad7be098dd7",
+  "identity": "N5=(final_delta_215-final_delta_189)/2; N7=(final_delta_215-final_delta_189)/4; all other N rows zero",
+  "negative_extra_chart198": {
+    "checked_changed_states": 28300,
+    "first_failure_reverse_order": {
+      "chart": 198,
+      "cut": 71261,
+      "residual": {
+        "5": "1/2",
+        "7": "1/4"
+      },
+      "role": 189
+    },
+    "last_failure_reverse_order": {
+      "chart": 198,
+      "cut": 41627,
+      "residual": {
+        "5": "-4",
+        "7": "-2"
+      },
+      "role": 953
+    }
+  },
+  "negative_wrong_dual_sign": {
+    "checked_changed_states": 28292,
+    "first_failure_reverse_order": {
+      "chart": 318,
+      "cut": 37195,
+      "residual": {
+        "5": "2",
+        "7": "1"
+      },
+      "role": 979
+    },
+    "last_failure_reverse_order": {
+      "chart": 318,
+      "cut": 30301,
+      "residual": {
+        "5": "2",
+        "7": "1"
+      },
+      "role": 979
+    }
+  },
+  "normal": {
+    "checked_changed_states": 28292,
+    "first_failure_reverse_order": null,
+    "last_failure_reverse_order": null
+  },
+  "route_profiles": {
+    "17": {
+      "new_charts": [
+        16,
+        318,
+        127
+      ],
+      "new_ranks": [
+        1,
+        7
+      ],
+      "old_charts": [
+        16,
+        308,
+        326,
+        232,
+        127
+      ],
+      "old_ranks": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "38": {
+      "new_charts": [
+        35,
+        318,
+        127
+      ],
+      "new_ranks": [
+        1,
+        7
+      ],
+      "old_charts": [
+        35,
+        309,
+        324,
+        854,
+        982,
+        153,
+        127
+      ],
+      "old_ranks": [
+        1,
+        1,
+        3,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "scope": "Control responses on all live native fields at the listed charts, preserving the native chronology and COPY guard. This is separately implemented from the span derivation; both scripts are evidence authored by this review worker.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_DIRECT_ALL_CUT_DUAL_CHECK"
+}
