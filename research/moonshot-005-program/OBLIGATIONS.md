@@ -279,3 +279,19 @@ The earlier RECOVERABLE-ENCODER-SOURCE task is closed only on the original
 five-chart77-to189 interface. Other pairs require their own complete response
 analysis. Changed processing, the larger220-chart grant and the multiplication
 problem remain open. All S8, supplier and compiler obligations are retained.
+
+## S006 admitted results and current construction graph
+
+| ID | Proposition and quantifiers | Dependencies and evidence | Status / next step |
+|---|---|---|---|
+| E8-PREFIX | The literal2,362-instruction prefix preserves1,880 independent input directions, all1,480 common values/charts and prescribed raw charts; Y_i=c_i qYi+c_i(GqX)_i/8. | Pinned native; results/eight-packet-prefix/PROOF.md; independent all-column review and separate E8 algebra review. | PROVED finite normalized partial word under retained transport/erasure semantics. Supply104 weighted residuals and all reverse duties. |
+| ROUTING-54/43 | For all V and linear packet encodings in the declared source-value routing models, broadcast dimension>=54V, or43V even under retimed/reused main/owned grants. | results/endpoint-side-information/PROOF.md; exact source adjoints, two independent graph implementations, acyclic and kernel witnesses. | PROVED scoped obstruction. Fixed8rank9 completion exceeds H4. Dirty common-response decoders and changed interfaces are outside scope. |
+| E8-TARIFF | Fixed T4 and P4+18h have the exact intervals above; coupled reverse values can be completed by eight rank1 calls once forward Y is correct. | results/eight-packet-budget-and-reverse/; independent dyadic intervals and typed1880-column macro. | PROVED conditional invoice and entry-contracted macro. Remaining allowance19.1857... does not supply native duties. |
+| JOINT-RESTORE | For every stated linear field system, common restoration from(Y,Nu,Rq q) iff its observation row space contains[W,0]; all-version T=I+L is mandatory. | results/joint-hub-restoration/PROOF.md and fresh independent review. | PROVED algebraic interface; physical holders, records, guards, scalar services and all endpoints remain premises. |
+| PURE-OVERWRITE-1472 | Each admitted single neutral helper overwrite has hT^-1z=1,z!=0 and common rank1479V; at least one extra common field record is needed in the stated interface. | results/single-overwrite-loss/PROOF.md; independent backward adjoints verify all exact source witnesses. | PROVED single-overwrite/fixed-suffix obstruction. Swaps, joint changes and retained/reread records excluded from its scope. |
+| ERASE-748 | At748 selected cuts with no original owned fields live, unrecorded pure replacement immediately loses a common mode, so later deterministic processing alone cannot restore it. | single-overwrite-loss/review/REVIEW.md; independent lifecycle census and lead recount. | PROVED with original prefix and no other u-bearing record; not a general multi-operation lower bound. |
+| CODED-COMMON-DEBT | Construct useful private endpoint observations with a jointly repairable common response, preserving every input and all source reservations within the strict target invoice. | E8-PREFIX, ROUTING-54/43, JOINT-RESTORE, PURE-OVERWRITE-1472; retained H4/BIT/outer obligations. | OPEN PRIMARY. Test an actual joint nonneutral observation family or a reversible record-carrying coupling; prove receiver gain, chronology and physical repair. |
+
+Earlier S005 unpushed104-pair/freshness packages remain observed historical
+leads until fully reconstructed. Only the joint restoration proof has now
+been rebuilt and freshly admitted; the old local hashes alone are not evidence.

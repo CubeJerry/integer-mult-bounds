@@ -1,6 +1,34 @@
 # Prove shared-core information and repair barriers, and reduce κ = 1/200 synthesis to causal cochart delivery
 
-## Latest cumulative result — S005, programme ongoing
+## Latest cumulative contribution — S006, no new κ
+
+A literal [eight-packet endpoint prefix](results/eight-packet-prefix/PROOF.md)
+now turns the abstract Gram identity into2,362 typed operations on1,880
+independent inputs. Eight newly paid rank9 calls and890 existing raw-main
+reservations put the coded values at all104 first receivers. All common data
+are unchanged, all raw input information survives, and104 exact correction
+rows remain. The E8 representation is predecessor mathematics, not the novelty.
+
+The [source routing certificate](results/endpoint-side-information/PROOF.md)
+proves54 dimensions on the timed model and43 even after free main-route reuse;
+thus the fixed eight-packet completion cannot fit H4 through that interface.
+The [single-overwrite theorem](results/single-overwrite-loss/PROOF.md) proves
+one lost common mode at all1472 individually neutral pure-q replacements.
+These scoped barriers motivate actual common-record preservation and changed
+response coding. The [joint restoration interface](results/joint-hub-restoration/PROOF.md)
+now supplies exact chronological and restricted-raw criteria, with fresh
+independent review. The [complete conditional tariff and reverse macro](results/eight-packet-budget-and-reverse/PROOF.md)
+retain every priced call and specify the remaining19.1857... allowance.
+
+Source baseline be00a963d4a8c96681a9f6df691a694f1b4fc853; unchanged canonical
+e54523517d0f03e58352e647c403a5af3e525a57. Exact commands and independent
+negative controls are in REPRODUCE.md and VERIFICATION.md. Both suppliers>.005,
+physical completion, uniformity and all five assumptions remain open. This
+is a coherent ongoing proof programme, **not yet a PR-ready target theorem**.
+Prepared for @CubeJerry with substantial OpenAI and subagent assistance;
+all native, source-package and E8 predecessor credit remains.
+
+## Previous cumulative checkpoint — S005
 
 Nineteen exact timed adjoints show that every receiver189 arrival response to
 controls on donor77's five charts factors through final common189 response.

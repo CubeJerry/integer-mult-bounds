@@ -1,0 +1,122 @@
+{
+  "checks": {
+    "cancelling_nuisance": {
+      "H_mod_W_rank": 1,
+      "d_min": 0
+    },
+    "interacting_two_loans": {
+      "G": [
+        [
+          "1",
+          "-1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "G_inverse": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "P": [
+        [
+          "2",
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "1",
+          "-1"
+        ]
+      ],
+      "d_min": 1,
+      "delta": [
+        [
+          "3"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "missing_N_kernel_vector": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "unsafe_second_delta": "2"
+    },
+    "restricted_raw": {
+      "indistinguishability_vector": [
+        [
+          "-1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "insufficient_Rq": [
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "sufficient_Rq": [
+        [
+          "1",
+          "1"
+        ]
+      ]
+    },
+    "scalar_service": {
+      "G": [
+        [
+          "7"
+        ]
+      ],
+      "dyadic": false,
+      "inverse": [
+        [
+          "1/7"
+        ]
+      ]
+    },
+    "singular_dependent_N": {
+      "G": [
+        [
+          "0"
+        ]
+      ],
+      "H_mod_W_rank": 0,
+      "N": [
+        [
+          "1"
+        ]
+      ],
+      "d_min": 1
+    }
+  },
+  "coefficient_domain": "Q",
+  "proof_sha256": "5c3ba8322efe7795adf64c5638bef521f3a0741d2e5b37129e0344a764249778",
+  "scope": "Finite controls for the quantified proof; no native replacement word or new kappa.",
+  "status": "PASS_FRESH_EXACT_RESTORATION_CONTROLS"
+}

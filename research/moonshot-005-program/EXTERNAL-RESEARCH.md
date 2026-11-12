@@ -298,3 +298,34 @@ following open proposals is independently admitted here.
 `ed359c115fa713395da380dcc602761196f5df4a`. Bounded visible discussion histories
 1163/1166/1167 were read; this is not exhaustive live coordination coverage.
 No upstream PR submitted and no accepted source/certificate changed.
+
+## S006 targeted refresh — 2026-11-12
+
+Canonical main and selected conditional κ=.00363005817 are unchanged at
+e54523517d0f03e58352e647c403a5af3e525a57. Root AGENTS.md, autoresearch.md,
+CONTRIBUTING.md, selected record and relevant bottleneck/family guidance were
+reread. The explicit persistent assignment supersedes random task selection.
+The prior programme's bounded discussion overlap remains historical; this
+refresh does not claim a new exhaustive discussion-board survey.
+
+- New relevant open [#7272](https://github.com/CrocSwap/integer-mult-bounds/pull/7272),
+  ToikY head b912721cb111ee7a55078759c876a5e9d92538e9, reports fixed-suffix BIT
+  exterior injectivity on60 changed ingress events. Its body and metadata
+  were read; no proof/replay admission here. It supplies no stronger BIT.
+- [#7244](https://github.com/CrocSwap/integer-mult-bounds/pull/7244) remains open
+  at215f67247f395c0e15f5ea3980f6a3e4aed155af, proposing.003645372367832.
+  It is not selected, changed, or imported by this programme.
+- [#7014](https://github.com/CrocSwap/integer-mult-bounds/pull/7014), unpaidmoon
+  head949c0ada285aae619468ae49317c8d9f4df130f7, has the opposite zero mask
+  from the dyadic Gram code. Its exact port list agrees with the pinned native.
+  No rank13-window improvement is claimed by the rank8 packet interface.
+- Earlier E8/root-code [#3040](https://github.com/CrocSwap/integer-mult-bounds/pull/3040)
+  at53fc5af5b778b8bbe6472d69a4f112d76febc108 and
+  [#3045](https://github.com/CrocSwap/integer-mult-bounds/pull/3045)
+  at16feea078f5542964ae85ca1b1f35bb94314ae78 were read for scope/credit.
+  Their rigidity and square-decoder statements are neither reproved nor
+  used as physical suppliers here. Our new claims concern the exact prefix,
+  declared routing interface and common-record loss on the pinned source.
+
+No upstream PR, Discussion message, selected certificate edit or upstream
+merge was made. The cumulative PR remains a draft for future user review.

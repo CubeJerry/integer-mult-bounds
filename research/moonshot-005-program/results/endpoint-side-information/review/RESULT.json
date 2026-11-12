@@ -1,0 +1,45 @@
+{
+  "status": "PASS_INDEPENDENT_TIMED_SIDE_INFORMATION_REVIEW",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "author_certificate_sha256": "58186c21ef28a9ae71e8c14dd82c12a01bf50f33db28e23eadc23755e905b139",
+  "offhub_endpoints": 458,
+  "neutral_public_arcs": 1472,
+  "nonneutral_public_arcs": 3081,
+  "all_owned_arcs": 47,
+  "guard_only_nonneutral_moves": [],
+  "checked_paths": 1346,
+  "checked_receiver_witnesses": 208,
+  "variants": {
+    "S8_33": {
+      "neutral_arcs": 1472,
+      "owned_arcs": 33,
+      "side_information_edges": 673,
+      "acyclic_vertices": 54,
+      "induced_edges": 99,
+      "indistinguishability_witnesses": 104,
+      "known_odd_pairs": 24
+    },
+    "full47": {
+      "neutral_arcs": 1472,
+      "owned_arcs": 47,
+      "side_information_edges": 673,
+      "acyclic_vertices": 54,
+      "induced_edges": 99,
+      "indistinguishability_witnesses": 104,
+      "known_odd_pairs": 24
+    }
+  },
+  "negative_controls": {
+    "relabel_nonneutral_event_as_neutral_rejected": 24472,
+    "reversed_acyclic_edge": {
+      "existing_edge": [
+        1,
+        86
+      ],
+      "reverse_edge_rejected": true
+    },
+    "target_kernel_coefficient_doubled": "nonzero eight-packet response"
+  },
+  "scope": "Fixed-calendar pure-information routing graph with hoisted donor caches, no consumed-main-route reuse, and no additional usable common-response observations. Not a lower bound for arbitrary common-mode network codes.",
+  "new_complete_kappa": null
+}

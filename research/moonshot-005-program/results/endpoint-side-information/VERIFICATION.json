@@ -1,0 +1,108 @@
+{
+  "checks": [
+    {
+      "kind": "base",
+      "optimized": false,
+      "payload_sha256": "58186c21ef28a9ae71e8c14dd82c12a01bf50f33db28e23eadc23755e905b139",
+      "summary": {
+        "S8_33": {
+          "acyclic_lower_bound": 54,
+          "eight_packet_decodable": 0,
+          "self_delivery": 0,
+          "side_info": 673
+        },
+        "full47": {
+          "acyclic_lower_bound": 54,
+          "eight_packet_decodable": 0,
+          "self_delivery": 0,
+          "side_info": 673
+        }
+      }
+    },
+    {
+      "kind": "base",
+      "optimized": true,
+      "payload_sha256": "58186c21ef28a9ae71e8c14dd82c12a01bf50f33db28e23eadc23755e905b139",
+      "summary": {
+        "S8_33": {
+          "acyclic_lower_bound": 54,
+          "eight_packet_decodable": 0,
+          "self_delivery": 0,
+          "side_info": 673
+        },
+        "full47": {
+          "acyclic_lower_bound": 54,
+          "eight_packet_decodable": 0,
+          "self_delivery": 0,
+          "side_info": 673
+        }
+      }
+    },
+    {
+      "kind": "expanded",
+      "optimized": false,
+      "payload_sha256": "0df1ceb9babf6931572f7aa558ec8fadfe9ca2966540ca0d92a06a9d1b157864",
+      "summary": {
+        "main_reuse_retimed33": {
+          "acyclic_bound": 43,
+          "e8_decodable": 5,
+          "self_delivery": 5,
+          "side_info": 1746
+        },
+        "main_reuse_retimed47": {
+          "acyclic_bound": 43,
+          "e8_decodable": 5,
+          "self_delivery": 5,
+          "side_info": 1746
+        },
+        "retimed33": {
+          "acyclic_bound": 54,
+          "e8_decodable": 0,
+          "self_delivery": 0,
+          "side_info": 745
+        },
+        "retimed47": {
+          "acyclic_bound": 54,
+          "e8_decodable": 0,
+          "self_delivery": 0,
+          "side_info": 745
+        }
+      }
+    },
+    {
+      "kind": "expanded",
+      "optimized": true,
+      "payload_sha256": "0df1ceb9babf6931572f7aa558ec8fadfe9ca2966540ca0d92a06a9d1b157864",
+      "summary": {
+        "main_reuse_retimed33": {
+          "acyclic_bound": 43,
+          "e8_decodable": 5,
+          "self_delivery": 5,
+          "side_info": 1746
+        },
+        "main_reuse_retimed47": {
+          "acyclic_bound": 43,
+          "e8_decodable": 5,
+          "self_delivery": 5,
+          "side_info": 1746
+        },
+        "retimed33": {
+          "acyclic_bound": 54,
+          "e8_decodable": 0,
+          "self_delivery": 0,
+          "side_info": 745
+        },
+        "retimed47": {
+          "acyclic_bound": 54,
+          "e8_decodable": 0,
+          "self_delivery": 0,
+          "side_info": 745
+        }
+      }
+    }
+  ],
+  "per_command_timeout_seconds": 60,
+  "schema": "moonshot-side-information-reproduction-v1",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS: all four source-bound receipts reproduce exactly; normal and optimized payloads agree."
+}

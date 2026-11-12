@@ -1,6 +1,36 @@
 # Persistent multiplication programme: κ ≥ 1/200
 
-## Current frontier — source access and native processing (S005)
+## Current frontier — an actual endpoint code and its missing common-record interface (S006)
+
+The programme now has an [actual2,362-instruction eight-packet prefix](results/eight-packet-prefix/PROOF.md)
+on all1,880 independent inputs. It leaves all common data unchanged, preserves
+all private input information, and puts a dyadic Gram-coded value at every
+first Y endpoint. Its eight new rank9 calls and890 consumed raw-main reservations
+are explicit. The104 weighted correction rows remain unbuilt. The E8 rank8
+representation is prior mathematics; this is a source-bound physical reduction.
+
+A source-specific [routing theorem](results/endpoint-side-information/PROOF.md)
+excludes completion through the tested pure-source-value network:54 broadcast
+dimensions are necessary on the timed graph, and43 even after arbitrary reuse
+and retiming of all1,710 main routes and47 clean-owned routes. With the fixed
+eight rank9 packets,35 further positive-rank calls exceed H4's<99 allowance.
+This does not cover additional usable dirty-common responses or changed coding.
+
+The new [single-overwrite theorem](results/single-overwrite-loss/PROOF.md)
+explains a second material gap: every one of1,472 individually neutral public
+helper pure-q replacements loses exactly one common-input mode if no earlier
+common record is retained. The [joint restoration criterion](results/joint-hub-restoration/PROOF.md)
+therefore retains actual common records and required raw combinations explicitly.
+It has been freshly reconstructed and independently reviewed after S005's loss.
+
+The next construction must couple useful private information to common records
+reversibly, or create a joint nonneutral response with a small, physically
+repairable off-hub image. The ongoing screen of prior observation families is
+not a successful low-rank provider. The literal prefix's consumed reservations
+cannot be reused for free by a continuation. Both strict suppliers>.005 and
+all five foundations remain. **No new κ; ongoing programme, not PR-ready.**
+
+## Earlier frontier — source access and native processing (S005)
 
 The original donor77-to-receiver189 encoder route is now closed. The
 [chronological screen](results/causal-encoder-screen/PROOF.md) extracts the
@@ -26,7 +56,7 @@ Canonical base e54523517d0f03e58352e647c403a5af3e525a57 still selects conditiona
 κ=.00363005817 through #7000/#7001. Five foundational assumptions remain.
 **No new κ.** The selected record controls over stale historical guidance.
 
-## Current frontier: recoverable common-mode modulation (S004)
+## Earlier frontier: recoverable common-mode modulation (S004)
 
 The construction now chooses a cochart common mode r(u), retains
 delta=q-r(u) along the donor's remaining funded route, and uses joint controls

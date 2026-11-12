@@ -1,0 +1,95 @@
+{
+  "controls": [
+    "wrong reverse coefficient rejected",
+    "eight rank9 plus35 rank1 strictly exceeds H4",
+    "next integer at every rank cutoff rejected"
+  ],
+  "grid": "2^128",
+  "invoice_sha256": "b8adae359984f27f140db1fb3cf7e37f1f96a25bdb1cc586de6dca6b47534248",
+  "macro_payload_sha256": "4fc0cbe1c97ae84d8440664b15bf7c1b82aa1aaa63e86f1a48e09a85087a6167",
+  "profiles": {
+    "H4_no_second_owned": {
+      "headroom_interval": [
+        "16741735403724388130374372917090014857115/170141183460469231731687303715884105728",
+        "150675618633519493173369356253810133731859/1531270651144223085585185733442956951552"
+      ],
+      "paid_count": 152424,
+      "rank_surplus": 5056
+    },
+    "eight_packets_and_reverse_eight": {
+      "headroom_interval": [
+        "3264285980852283327083599774023568947911/170141183460469231731687303715884105728",
+        "29378573827670549943752397966212120548987/1531270651144223085585185733442956951552"
+      ],
+      "paid_count": 152712,
+      "rank_surplus": 3616
+    },
+    "eight_rank9_packets": {
+      "headroom_interval": [
+        "4625415448536037180937098203750641793735/170141183460469231731687303715884105728",
+        "41628739036824334628433883833755776161403/1531270651144223085585185733442956951552"
+      ],
+      "paid_count": 152568,
+      "rank_surplus": 3760
+    },
+    "two_independent_eight_packet_trips_and_reverse_eight": {
+      "headroom_interval": [
+        "-8852033974336067622353674939315804115469/170141183460469231731687303715884105728",
+        "-79668305769024608601183074453842237021469/1531270651144223085585185733442956951552"
+      ],
+      "paid_count": 152856,
+      "rank_surplus": 2320
+    }
+  },
+  "reverse_macro": {
+    "counts": {
+      "ADD": 16,
+      "CLEAR": 8,
+      "INIT": 8,
+      "MOVE": 8,
+      "SCALE": 8
+    },
+    "coupled_pairs": [
+      [
+        17,
+        129
+      ],
+      [
+        19,
+        131
+      ],
+      [
+        30,
+        142
+      ],
+      [
+        38,
+        150
+      ],
+      [
+        40,
+        152
+      ],
+      [
+        47,
+        159
+      ],
+      [
+        52,
+        164
+      ],
+      [
+        60,
+        172
+      ]
+    ],
+    "paid": {
+      "1": 8
+    },
+    "peak_owned": 1,
+    "rows": 1880
+  },
+  "scope": "Conditional H4 invoice and entry-contracted reverse macro; no residual provider, full supplier or new kappa.",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_INDEPENDENT_DYADIC_PACKET_INVOICE_AND_REVERSE_MACRO"
+}

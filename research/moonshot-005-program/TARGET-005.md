@@ -370,3 +370,37 @@ original crossings. Facet and Direct invoices remain distinct. Expanded220
 station gains are outside the theorem and are not physical feasibility.
 Strict U>.005 and completed B>.005, all recursive costs and five foundational
 assumptions remain required. No new supplier or κ is established.
+
+## S006: endpoint-code budget and exact failure of the routing completion
+
+The actual eight-packet prefix consumes890 of1,710 raw-main reservations and
+adds{9:8} per native. It does not retain any second-owned reservation. The
+complete conditional H4 target histogram remains T4; any candidate with added
+histogram h must use P=P4+18h and strictly positive moment at199/200.
+
+| Added calls/native | Full paid count | Rank surplus | Further paid moment/native |
+|---|---:|---:|---:|
+| Eight rank9 packets |152568|3760|27.18574864980124...|
+| Packets + eight conditional rank1 reverse returns |152712|3616|19.18574864980124...|
+| Two independent eight-packet trips + those returns |152856|2320|negative52.02757965059504...|
+
+Exact directed fractions and independent binary-power bounds are in
+[the tariff package](results/eight-packet-budget-and-reverse/PROOF.md).
+The48-instruction reverse macro requires the coupled Y values to have already
+been corrected; it supplies no correction row and no hosted reverse shear.
+
+The source Gram matrix has diagonal8 and4,992 nonzero off-diagonal entries.
+Each receiver needs one specified weighted aggregate, not necessarily48
+separate fields. On the declared routing graph, even freely reusing all
+main routes yields an acyclic43-demand witness. The eight fixed packet
+coordinates leave at least35 additional complete-field dimensions. Since
+9^199>8^200, their paid price is>8·8+35=99, above the H4 allowance.
+This is necessary only under the declared routing/no-extra-response interface.
+
+Every individually neutral pure-q overwrite has common map T−zh with
+hT^-1z=1 and z!=0, so its exact common rank drops from1480 to1479.
+Retaining one extra common record is algebraically sufficient but its route
+is not free. Joint replacement rows obey (I+L)delta=Qq−Hu; their actual
+common/raw observation matrix must contain the required target row space.
+No standalone slot gain, favorable Gram rank or nonzero moment discharges
+that requirement. New common-response codes need a fresh full-source invoice.

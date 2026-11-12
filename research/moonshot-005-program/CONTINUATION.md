@@ -1,32 +1,36 @@
-# Next construction: changed access or native processing
+# Next construction: retain common records and exploit joint responses
 
-**Primary obligation open. No new κ.** Resume exact remote HEAD and STATE.
-S005 is in progress; consult the latest log before assuming session completion.
+**No new κ. The programme remains ongoing.** Read exact remote HEAD and STATE.
+S006 began00:28:43UTC with a two-hour budget; this is a mid-session checkpoint.
 
-Do not repeat original five-chart donor77-to-receiver189 encoder searches.
-The [endpoint-history law](results/five-chart-history-conservation/PROOF.md)
-excludes all endpoint-restoring controllers there, including multiple encoders,
-common dependence, feedback and local caches. The nine quotient modes and
-five-term chart232 candidate are already extracted and closed in this scope.
+The [actual eight-packet prefix](results/eight-packet-prefix/PROOF.md) is built,
+priced and independently replayed on1880 input directions. It still owes104
+weighted residuals,96 hosted reverse duties, the coupled reverse prerequisites,
+common execution, recoupling and all supplier/physical/recursive obligations.
+Its890 consumed raw-main reservations are not free continuation resources.
 
-The single next obligation is a real typed channel obtained by changed outside
-processing, physically funded expanded access or another authenticated source
-interface. Preserve all1,880 inputs, common endpoints, guards, raw duties and
-route typing. Algebraic pulse gain or failure of a rank-one law is insufficient.
+Do not repeat its simple transport completion. The reviewed routing graph
+needs43 packet dimensions even after free reuse of all main/owned routes;
+8rank9+35rank1 already exceeds the full H4 allowance. This bound explicitly
+does not cover additional decoded common-response histories.
 
-1. Prove data availability at every encoder, control and decoder; transported
-   histories and predictors require actual records and paid routes.
-2. Prove the full response, restoration and decoder equality. Do not reuse
-   pair-specific annihilation results without authenticating the new pair.
-3. Emit and independently replay a literal word with every funded reservation,
-   added MOVE, lifetime, scalar and erasure; compare direct paid delivery.
-4. Compose enough independent channels and recompute the entire invoice.
+Do not overwrite a neutral helper by pure q and erase its original value.
+All1472 such single overwrites lose one independent common field. The748
+no-owned-live cases lose it immediately without another retained/reread record.
+The joint restoration row criterion keeps actual N/Rq and every version/guard.
 
-The expanded220-chart grant has algebraic gains but no admitted physical
-encoder/access schedule. Funded histories and other endpoint response laws
-are active, unverified work. The conditional S8 allowance stays below
-20.801032491590 paid moment/native, at most20 new calls, with26 informative
-original crossings necessary. Facet/Direct invoices differ; no acquired forms
-are free. All26 S8 observers, remaining native duties, compatible complex and
-completed BIT suppliers strictly above.005, complete recursive costs and all
-five foundations remain. No complete bound or PR-readiness is claimed.
+The single primary obligation is an actual joint private-information channel
+with a sufficiently small and physically repairable common response. The
+current concrete test starts from source-bound nonneutral observations,
+authenticates their gains and chronological cross-effects, and measures their
+joint off-hub response. If the proposed family fails its complete budget,
+change that response mechanism rather than relabel a scalar rank as a supplier.
+Reversible record-carrying swaps and changed caller interfaces remain possible,
+but must retain all independent inputs and be priced from their real routes.
+
+Record source versions, receiver observation equations, common restoration,
+all raw endpoint duties, reservation consumption and complete paid/ordinary
+costs together. Then compare the complete H4 or deliberately changed invoice.
+Never combine H4's discarded second-owned rail with S8's funded reservations.
+Both compatible complex and completed ordinary BIT savings must strictly
+exceed.005, and all five foundational assumptions remain.

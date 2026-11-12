@@ -163,3 +163,27 @@ Author markers: `PASS_CAUSAL_RECOVERABLE_ENCODER_SCREEN` and
 compressed receipts are in [review/README.md](results/five-chart-history-conservation/review/README.md).
 Repeat with `-O -B` for optimized consistency. These are source identities,
 not a new asymptotic supplier or complete theorem.
+
+## S006 source-bound packet prefix and restoration gates
+
+Run from repository root; use a separate scratch output directory when a
+checker accepts --output. Do not overwrite frozen receipts merely to test them.
+
+```sh
+P=research/moonshot-005-program
+S=research/shared-wire-split-composition/data/final.json.gz
+python3 -B "$P/results/eight-packet-prefix/verify.py" --source "$S"
+python3 -B "$P/results/eight-packet-prefix/review/verify_prefix.py" --source "$S" --prefix "$P/results/eight-packet-prefix/PREFIX.json.gz" --output /tmp/s006-prefix-review.json
+python3 -B "$P/results/endpoint-side-information/reproduce.py" --source "$S" --output /tmp/s006-routing.json
+python3 -B "$P/results/eight-packet-budget-and-reverse/review/check.py" --source "$S" --invoice "$P/results/eight-packet-budget-and-reverse/INVOICE-SOURCE.json" --author "$P/results/eight-packet-budget-and-reverse/RESULT.json" --macro "$P/results/eight-packet-budget-and-reverse/REVERSE-EIGHT.json.gz" --output /tmp/s006-budget-review.json
+python3 -B "$P/results/joint-hub-restoration/verify.py" --output /tmp/s006-restoration.json
+python3 -B "$P/results/single-overwrite-loss/verify.py" --source "$S" --neutral "$P/results/endpoint-side-information/RESULT.json.gz"
+python3 -B "$P/verify_checkpoint.py"
+```
+
+The corresponding independent graph, algebra, joint-restoration and overwrite
+checkers are in each package's review directories. Their --help documents
+source/certificate arguments. The source-normalized all1480/1880-column
+replays, finite controls and mathematical scope are recorded in VERIFICATION.
+Compressed certificate comparison uses exact decompressed bytes. No command
+above certifies a complete κ or discharges the five foundational assumptions.

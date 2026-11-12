@@ -473,3 +473,30 @@ and portable JavaScript source access. See sessions/2026-11-11-S005/INTERRUPTION
 for the exact boundary between published proofs, observed but unpublished
 checks, and open constructions. The full native was recovered with matching
 compressed SHA256 and gzip CRC. No new κ or completed10-hour claim.
+
+## 2026-11-12-S006 — checkpoint1, session continuing
+
+- Started00:28:43UTC from remote be00a963d4a8c96681a9f6df691a694f1b4fc853.
+  Latest user instruction sets a two-hour session, planned through02:28:43UTC.
+  This supersedes the earlier ten-hour request; no unattended work is claimed.
+- Canonical e54523517d0f03e58352e647c403a5af3e525a57 and selected.00363005817
+  are unchanged. Sparse workspace recovered; S005 unpushed files were absent.
+  Their historical observations were not silently admitted. Joint restoration
+  was reconstructed, extended and freshly independently reviewed.
+- Constructed the literal2,362-operation dyadic eight-packet prefix on1880
+  inputs; common state untouched, actual paid routes/ordinary costs counted.
+  Proved the conditional48-operation reverse-eight macro and exact H4 tariff.
+- Proved54/43 broadcast-dimension obstructions for the declared timed and
+  retimed/reused source-value graphs; the fixed8rank9+35rank1 lower price
+  exceeds H4. This excludes that completion, not dirty-response codes.
+- Proved exact one-mode loss at all1472 individually neutral pure overwrites;
+  independent backward adjoints verify all source kernels. The748 no-owned-live
+  corollary excludes unrecorded erasure even with changed later processing.
+- Current research is testing joint nonneutral observations and reversible
+  common-record retention. Algebraic favorable budgets are not native witnesses.
+  The prefix's104 corrections and all remaining hosted/recursive duties stay open.
+- Verification and integrated paths: VERIFICATION.md and the five result
+  packages listed in sessions/2026-11-12-S006/INTEGRATION.json. All587 prior
+  scientific files are preserved. First checkpoint's resulting remote SHA is
+  recorded by the next checkpoint after GitHub confirmation, avoiding a
+  self-referential hash. **No new κ; no PR submission; programme ongoing.**

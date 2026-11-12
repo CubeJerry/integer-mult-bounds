@@ -1,0 +1,17 @@
+{
+  "status": "PASS_FULL_RANK_CORRECTION_OPERATOR",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "transpose_gram_diagonal": 104,
+  "transpose_gram_offdiagonal": 0,
+  "packet_gram_rank": 8,
+  "correction_operator": "C=AA^T/8-I",
+  "correction_rank": 104,
+  "exact_inverse": "C^-1=AA^T/96-I",
+  "eigenvalues": {
+    "12": 8,
+    "-1": 96
+  },
+  "determinant": "12^8",
+  "scope": "Algebraic aggregate dimension only; no104-call lower bound when receivers already have side information. The inverse is not claimed as a dyadic implementation.",
+  "new_complete_kappa": null
+}

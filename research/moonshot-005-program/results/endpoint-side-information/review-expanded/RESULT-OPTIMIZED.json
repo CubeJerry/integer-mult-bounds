@@ -1,0 +1,71 @@
+{
+  "status": "PASS_INDEPENDENT_EXPANDED_ROUTING_REVIEW",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "base_certificate_sha256": "58186c21ef28a9ae71e8c14dd82c12a01bf50f33db28e23eadc23755e905b139",
+  "expanded_certificate_sha256": "0df1ceb9babf6931572f7aa558ec8fadfe9ca2966540ca0d92a06a9d1b157864",
+  "variants": {
+    "retimed33": {
+      "side_information_edges": 745,
+      "self_deliveries": 0,
+      "free_owned": 33,
+      "reused_main": 0,
+      "acyclic_vertices": 54,
+      "induced_edges": 112,
+      "eight_packet_failures": 104,
+      "eight_packet_successes": []
+    },
+    "retimed47": {
+      "side_information_edges": 745,
+      "self_deliveries": 0,
+      "free_owned": 47,
+      "reused_main": 0,
+      "acyclic_vertices": 54,
+      "induced_edges": 112,
+      "eight_packet_failures": 104,
+      "eight_packet_successes": []
+    },
+    "main_reuse_retimed33": {
+      "side_information_edges": 1746,
+      "self_deliveries": 5,
+      "free_owned": 33,
+      "reused_main": 1710,
+      "acyclic_vertices": 43,
+      "induced_edges": 130,
+      "eight_packet_failures": 99,
+      "eight_packet_successes": [
+        22,
+        44,
+        72,
+        89,
+        109
+      ]
+    },
+    "main_reuse_retimed47": {
+      "side_information_edges": 1746,
+      "self_deliveries": 5,
+      "free_owned": 47,
+      "reused_main": 1710,
+      "acyclic_vertices": 43,
+      "induced_edges": 130,
+      "eight_packet_failures": 99,
+      "eight_packet_successes": [
+        22,
+        44,
+        72,
+        89,
+        109
+      ]
+    }
+  },
+  "checked_paths": 4982,
+  "checked_kernel_witnesses": 406,
+  "conditional_budget": {
+    "total_linear_packets_at_least": 43,
+    "fixed_eight_packets": 8,
+    "additional_complete_field_packets_at_least": 35,
+    "strict_paid_lower_bound": 99,
+    "hypothesis": "Eight retained rank9 broadcasts at kappa1/200, further complete-field calls each rank>=1, unchanged other invoice; additive allowance must be<99."
+  },
+  "scope": "Retimed/reused routing overgrant only; no conclusion for extra usable common-response observations or changed baseline invoices.",
+  "new_complete_kappa": null
+}

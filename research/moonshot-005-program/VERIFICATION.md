@@ -345,3 +345,42 @@ has separate review and preserved draft bytes. Full row receipts are losslessly
 compressed with uncompressed hashes; see [review instructions](results/five-chart-history-conservation/review/README.md).
 The screen's pending control question is resolved by [ADMISSION.md](results/causal-encoder-screen/ADMISSION.md).
 No native construction, new supplier or complete κ is certified.
+
+## S006 checkpoint1 — fresh source construction and restored evidence
+
+Source remains the pinned350,722-byte native gzip. The initial remote branch
+was be00a963d4a8c96681a9f6df691a694f1b4fc853; canonical main remained e54523517d0f03e58352e647c403a5af3e525a57.
+The workspace had been lost; a sparse checkout was recovered from that remote.
+The prior587 scientific files,80 imports,285 review pins and3 native/source
+pins passed integrity before modification. No absent S005 file was promoted.
+
+- Prefix: author and independent literal1880-column replays agree on2,362
+  operations,890 unique funded main routes,8 new rank9 calls,520 encoder and
+  520 injection ADDs,8 lifetimes and standalone peak1. Both normal/-O pass;
+  sign, coefficient, missing route, source reservation and ownership mutants fail.
+- Algebra: separate nine-dimensional derivation, exact8-by8 minor−512,
+  all120-port pair cases,104 source charts and4992 correction coefficients.
+  The tight-frame identity A^T A=104I gives correction rank104; this is not
+  a104-call lower bound. Opposite #7014 mask is explicitly rejected.
+- Routing: exact rational suffix classification gives1472 neutral/3081
+  nonneutral helpers; independent bitset propagation matches all matrices,
+  paths,54/43 acyclic witnesses and decoder kernels. Normal/-O and compressed
+  payload replays agree. Final certificate payloads are58186c21ef28a9ae71e8c14dd82c12a01bf50f33db28e23eadc23755e905b139 and0df1ceb9babf6931572f7aa558ec8fadfe9ca2966540ca0d92a06a9d1b157864.
+- Tariff/reverse: a separate2^128 binary-power engine encloses the exact
+  profiles inside the author's10^30 brackets. Full48-instruction macro
+  replay checks1880 coordinates and eight rank1 returns under its entry
+  contract. Wrong reverse coefficient and next-integer tariff controls fail.
+- Joint restoration: reconstructed proof is freshly independently reviewed,
+  including nonzero chronological L, dependent-N exception, restricted raw
+  combinations, sign and nondyadic inverse controls. This recovers an S005
+  theorem with new evidence; it is not merely a reread of an absent old file.
+- Single overwrite: forward-pulse author and backward-adjoint reviewer
+  agree on every h/lambda/z/kernel digest for1472 slots. All source scalars
+  are treated as exact rationals. Common rank1479, unit response and nonzero
+  erased modes are proved;748 no-owned-live cuts are independently recounted.
+
+Reviewer manifests preserve original staging provenance separately and use
+relative integrated author pins for portable integrity checks. Compressed
+certificates preserve reviewed decompressed bytes. No selected cold replay,
+complete multiplier, human review or formal kernel acceptance is claimed.
+All five foundations and both strict supplier requirements remain open.

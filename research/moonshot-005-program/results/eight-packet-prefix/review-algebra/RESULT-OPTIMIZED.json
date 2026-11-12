@@ -1,0 +1,95 @@
+{
+  "status": "PASS_INDEPENDENT_DYADIC_EIGHT_PACKET_CODE",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "universal_ports": 120,
+  "universal_pair_checks": 7140,
+  "active_ports": 104,
+  "active_weight_counts": {
+    "3": 70,
+    "7": 34
+  },
+  "excluded_from_weight3_or7": [
+    7,
+    25,
+    42,
+    52,
+    67,
+    76,
+    82,
+    97,
+    104,
+    127,
+    137,
+    162,
+    266,
+    289,
+    448,
+    491
+  ],
+  "excluded_weight_counts": {
+    "3": 14,
+    "7": 2
+  },
+  "source_rank": 8,
+  "source_minor_roles": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    9,
+    12
+  ],
+  "source_minor_ports": [
+    11,
+    19,
+    35,
+    131,
+    259,
+    13,
+    69,
+    41
+  ],
+  "source_minor_determinant": "-512",
+  "source_route_incidences_checked": 890,
+  "ordered_orthogonal_corrections": 4992,
+  "encoder_nonzeros": 520,
+  "correction_degree_counts": {
+    "48": 104
+  },
+  "empty_side_information_kernel": [
+    [
+      0,
+      "1"
+    ],
+    [
+      1,
+      "-1"
+    ],
+    [
+      6,
+      "-1"
+    ],
+    [
+      7,
+      "1"
+    ]
+  ],
+  "coefficient_mutant_rejected": "Gram diagonal",
+  "omitted_packet_coordinate": 1,
+  "opposite_pattern_failure": {
+    "roles": [
+      1,
+      0
+    ],
+    "ports": [
+      19,
+      11
+    ],
+    "binary_dot": 0,
+    "gram": 4
+  },
+  "new_complete_kappa": null,
+  "scope": "Conditional on actual side-information delivery, scheduling, all endpoint restoration and a complete invoice."
+}
