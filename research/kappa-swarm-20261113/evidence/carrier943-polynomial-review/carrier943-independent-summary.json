@@ -1,0 +1,28 @@
+{
+  "status": "PASS_INDEPENDENT_POLYNOMIAL_ALL_ALPHA_HISTORY_SEPARATOR",
+  "source_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+  "compiler_sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+  "author_certificate_sha256": "78f154624c191b1b1c127e6fcbeee9c3f9b1bf9e5485f9883b2bfb6147f11fd3",
+  "source_events_replayed": 40710,
+  "actual_observed_frame_ID_count": 645,
+  "positive_cheap_span_classes": 67,
+  "positive_cheap_rank_histogram": {
+    "2": 17,
+    "3": 49,
+    "1": 1
+  },
+  "controls": [
+    {
+      "control": "wrong_dual1196_coefficient",
+      "rejected": true,
+      "reason": "nonzero cheap history at (30514, 20, 477)"
+    },
+    {
+      "control": "unavailable_initial1459_supplied_free",
+      "rejected": true,
+      "reason": "nonzero cheap history at (-1, 1459, 189)"
+    }
+  ],
+  "limits": "Latest single943 injection only, demoted1459 original entrance unavailable, otherwise fixed original prefix. No original paid-payload augmentation or uncharged cross-frame ordinary algorithm. No supplier or kappa claim.",
+  "full_receipt_sha256": "7e2b9b2c33f1772b1ce820caef660e6e73cfb5e3710d68b4d42dc959844f7289"
+}

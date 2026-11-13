@@ -1,0 +1,73 @@
+{
+  "status": "PASS_CONDITIONAL_ZERO_CONTINUATION_FIXTURES",
+  "authenticated_inputs": 16,
+  "public_same_owner_identity": true,
+  "correlated_previous_error_cancelled_exactly": true,
+  "intervening_write_cancellation_control": true,
+  "rejections": [
+    {
+      "control": "nonzero payload",
+      "rejected": true,
+      "reason": "fixture rejects forged zero evidence"
+    },
+    {
+      "control": "ideal-only zero with retained residual",
+      "rejected": true,
+      "reason": "stored-zero evidence"
+    },
+    {
+      "control": "different owner",
+      "rejected": true,
+      "reason": "same live owner"
+    },
+    {
+      "control": "implicit owner freeing",
+      "rejected": true,
+      "reason": "same live owner"
+    },
+    {
+      "control": "changed heads",
+      "rejected": true,
+      "reason": "identical heads"
+    },
+    {
+      "control": "changed backing",
+      "rejected": true,
+      "reason": "identical backing"
+    },
+    {
+      "control": "changed occurrence descriptor",
+      "rejected": true,
+      "reason": "identical occurrence_descriptor"
+    },
+    {
+      "control": "different width",
+      "rejected": true,
+      "reason": "identical format"
+    },
+    {
+      "control": "different quantum",
+      "rejected": true,
+      "reason": "identical format"
+    },
+    {
+      "control": "different volume",
+      "rejected": true,
+      "reason": "identical format"
+    },
+    {
+      "control": "different layout",
+      "rejected": true,
+      "reason": "identical format"
+    },
+    {
+      "control": "different selected_root_factor",
+      "rejected": true,
+      "reason": "identical format"
+    }
+  ],
+  "actual_nonzero_interface_rank": 8,
+  "actual_nonzero_interface_not_identity": true,
+  "selected_public_zero_opcode_admitted": false,
+  "selected_descriptor_join_or_numeric_tariff_proved": false
+}
