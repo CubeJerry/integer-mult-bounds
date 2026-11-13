@@ -827,3 +827,23 @@ suppliers and all five foundations remain. @CubeJerry, retained predecessors,
 B/C/root proof and independent review credit and OpenAI assistance are explicit.
 The binary-four extension and compensated ferry are still being admitted;
 their speculative status is preserved. Ongoing, not PR-ready.
+
+## S010 actual compensated histories and stronger binary source obstruction
+
+The [binary-four theorem](results/bit-binary-four-quotients/ADMISSION.md) now
+forces at least four quotient dimensions beyond C for the declared scalarF2
+q8unit/noYfeedback interface: required123 arrivals exceed122 affordable.
+A distinct independent catalogue and cap algorithm verifies every fixed-source
+case. This is NOT arbitraryrank13, nor a general feedback/block obstruction.
+
+The [compensated ferries](results/complex-compensated-ferries/ADMISSION.md)
+are literal compatible partial words preserving all old forward output maps
+while reducing hosted residual58to57 and58to54. Independent400-input,
+phase/global-phase, and full2280-input m3 checks retain every movement/owned
+charge. Their positive partial invoices do not complete the source.
+The same package proves arbitraryfree legal off-diagonal corrections have
+minimumrank8, yet restored-cut completion needs65 source departures against
+26.096340... limiting allowance. This identifies exactly why a new preterminal
+observation interface is needed. No new kappa; both suppliers/fivefoundations
+remain. Credit @CubeJerry, predecessors, A/root/B/C contributions and
+OpenAI assistance. Ongoing cumulative programme; not PR-ready.

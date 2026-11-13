@@ -804,3 +804,18 @@ admission. Both suppliers and all five foundations remain open.
 The main q8 all222 source remains open. Codes with more independent directions,
 general Y feedback and genuinely noncommuting block representations remain
 available escapes under their full physical/recursive costs.
+
+## S010 checkpoint11 — reviewed binary-four and compensated-ferry frontier
+
+| Obligation | Status, dependencies and remaining work |
+|---|---|
+| BIT-BINARY-FOUR-EXTENSION | PROVED for scalarF2, specifiedq8unit/noYfeedback interface: dim((rowA+C)/C)>=4. Depends on gluing, sharp17, distance48, complete high-gain catalogue, Fano-cap audit and strictq8price. Former WIP promoted without changing author bytes. results/bit-binary-four-quotients/ADMISSION.md. |
+| COMPLEX-COMPENSATED-D-FERRY | PROVED finite partial maps: sameparent58to57 and58to54, all old forward/D outputs unchanged, full400 inputs/phase/2280-inputm3 and bills independently checked. No complete individual hosted gain or supplier. results/complex-compensated-ferries/ADMISSION.md. |
+| COMPLEX-FREE-FERRY-RANK-EIGHT | PROVED optimistic algebraic optimum8 for arbitrary corrections at allowed orthogonal off-diagonal contacts; exact fixedI8 minor and maskedGram witness. ArbitraryL physical realization remains open. |
+| COMPLEX-FERRY-TERMINAL-COMPLETION | DISPROVED WITHIN restored-cut scope:65 distinct-source departures exceed26.096340... limit even with allL and forward completion free; every finite fixedm worse. No retainedD record or otherchangedoutput allowed at that cut. |
+| BIT-Y-FEEDBACK-INTERFACE | OPEN: build or normalize actual Y-mediated feedback with unknown-y and original-X restoration. Existing scalar quotient gates do not include it; q>=8 physical cut does. |
+| JOINT-PRETERMINAL-COMPLETION | OPEN: retain/use actual mixed information before the closed complex cut and produce complete endpoint maps within one consistent invoice; currentB perturbations alone do not deliver observations. |
+
+No supplier or foundation is discharged by these partial source facts. The
+next exact source/interface lemma must establish chronology and restoration,
+not just a low algebraic rank or favorable movement profile.

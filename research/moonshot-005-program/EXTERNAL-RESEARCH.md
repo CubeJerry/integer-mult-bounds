@@ -557,3 +557,12 @@ and sector-dependent routes open. Bodies and targeted recent metadata read;
 these source-specific reports supply neither a new compatible supplier nor
 a general obstruction to the programme's changed histories. Receipt:
 sessions/2026-11-13-S010/UPSTREAM-1123.json. No source histories merged.
+
+## S01012:10 canonical continuity check
+
+GitHub still reports canonical main e54523517d0f03e58352e647c403a5af3e525a57
+and programme heada5adbf2da1494a84ea821a7cbe645ada4221bb08 at12:10UTC.
+No upstream source is merged or selected certificate changed. The targeted
+11:23 open-PR review remains the latest PR metadata checkpoint; its reported
+fixed-interface obstructions are compatible with the programme's explicit
+pivot toward changed preterminal histories. See UPSTREAM-1210.json.

@@ -1,0 +1,2338 @@
+{
+  "status": "PASS_INDEPENDENT_DENSE400_FUNDED_CROSS_D_FOUR_PAIR_WORD",
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "parent_sha256": "a235a7e58f9eb96c6d409a88095fd6b59c977977baabb8735c76b2b820dcbedc",
+  "word_sha256": "20a5c2c3eccd000b757f65e2cd6bed7f8a9ec39f0b8f88a66716e4b818a2521f",
+  "all400_original_input_columns": true,
+  "only_final_changes": [
+    [
+      1,
+      106,
+      -1
+    ],
+    [
+      106,
+      1,
+      -1
+    ],
+    [
+      2,
+      4,
+      1
+    ],
+    [
+      4,
+      2,
+      1
+    ],
+    [
+      11,
+      15,
+      1
+    ],
+    [
+      15,
+      11,
+      1
+    ],
+    [
+      23,
+      24,
+      1
+    ],
+    [
+      24,
+      23,
+      1
+    ]
+  ],
+  "all_firstX_firstY_D_exact_parent": true,
+  "actual_current_donors_and_packet_histories_checked": true,
+  "whole_parent_B_transfer_columns_are_identity": true,
+  "old_reverse_rank": 58,
+  "new_reverse_rank": 54,
+  "old_completed_reverse_ports_retained": [
+    6,
+    9,
+    10,
+    12,
+    13,
+    16,
+    22,
+    25,
+    28,
+    29,
+    31,
+    32,
+    33,
+    35,
+    41,
+    50,
+    53,
+    55,
+    63,
+    66,
+    71,
+    72,
+    74,
+    75
+  ],
+  "original_forward_debt": 4920,
+  "bill": {
+    "instructions": 6314,
+    "counts": {
+      "INIT": 402,
+      "ADD": 4652,
+      "MOVE": 856,
+      "CLEAR": 402,
+      "SCALE": 2
+    },
+    "moves": {
+      "1": 224,
+      "2": 132,
+      "3": 96,
+      "4": 20,
+      "5": 199,
+      "6": 1,
+      "7": 12,
+      "8": 172
+    },
+    "lifetimes": 402,
+    "peak": 29,
+    "nonzero_owned_clears": 394,
+    "common_rational_denominator": 128,
+    "global_rescalings": 2
+  },
+  "movement_delta": {
+    "1": 16,
+    "7": 8,
+    "9": -8
+  },
+  "events": [
+    {
+      "port": 1,
+      "D_port": 106,
+      "start": 2412,
+      "B": 209,
+      "D": 394,
+      "line": 1,
+      "facet": 226,
+      "old_D_event": 4677,
+      "coefficient": -1
+    },
+    {
+      "port": 106,
+      "D_port": 1,
+      "start": 2549,
+      "B": 298,
+      "D": 305,
+      "line": 99,
+      "facet": 129,
+      "old_D_event": 4684,
+      "coefficient": -1
+    },
+    {
+      "port": 2,
+      "D_port": 4,
+      "start": 2686,
+      "B": 210,
+      "D": 307,
+      "line": 2,
+      "facet": 131,
+      "old_D_event": 4670,
+      "coefficient": 1
+    },
+    {
+      "port": 4,
+      "D_port": 2,
+      "start": 2823,
+      "B": 211,
+      "D": 306,
+      "line": 4,
+      "facet": 130,
+      "old_D_event": 4647,
+      "coefficient": 1
+    },
+    {
+      "port": 11,
+      "D_port": 15,
+      "start": 2960,
+      "B": 218,
+      "D": 317,
+      "line": 11,
+      "facet": 141,
+      "old_D_event": 4676,
+      "coefficient": 1
+    },
+    {
+      "port": 15,
+      "D_port": 11,
+      "start": 3097,
+      "B": 221,
+      "D": 314,
+      "line": 14,
+      "facet": 138,
+      "old_D_event": 4706,
+      "coefficient": 1
+    },
+    {
+      "port": 23,
+      "D_port": 24,
+      "start": 3234,
+      "B": 226,
+      "D": 323,
+      "line": 21,
+      "facet": 149,
+      "old_D_event": 4687,
+      "coefficient": 1
+    },
+    {
+      "port": 24,
+      "D_port": 23,
+      "start": 3371,
+      "B": 227,
+      "D": 322,
+      "line": 22,
+      "facet": 148,
+      "old_D_event": 4662,
+      "coefficient": 1
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "wrong_D_pickup",
+      "event": 2413,
+      "rejected": true
+    },
+    {
+      "name": "wrong_B_deposit",
+      "event": 2415,
+      "rejected": true
+    },
+    {
+      "name": "missing_Y_precode",
+      "event": 40,
+      "rejected": true
+    }
+  ],
+  "generalization_source_premises": {
+    "B_identity_columns": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true,
+      "8": true,
+      "9": true,
+      "10": true,
+      "11": true,
+      "12": true,
+      "13": true,
+      "15": true,
+      "16": true,
+      "18": true,
+      "20": true,
+      "22": true,
+      "23": true,
+      "24": true,
+      "25": true,
+      "26": true,
+      "27": true,
+      "28": true,
+      "29": true,
+      "31": true,
+      "32": true,
+      "33": true,
+      "35": true,
+      "36": true,
+      "37": true,
+      "41": true,
+      "42": true,
+      "43": true,
+      "44": true,
+      "45": true,
+      "46": true,
+      "48": true,
+      "49": true,
+      "50": true,
+      "51": true,
+      "53": true,
+      "54": true,
+      "55": true,
+      "56": true,
+      "57": true,
+      "58": true,
+      "59": true,
+      "62": true,
+      "63": true,
+      "64": true,
+      "65": true,
+      "66": true,
+      "67": true,
+      "68": true,
+      "69": true,
+      "70": true,
+      "71": true,
+      "72": true,
+      "73": true,
+      "74": true,
+      "75": true,
+      "77": true,
+      "78": true,
+      "79": true,
+      "80": true,
+      "81": true,
+      "82": true,
+      "83": true,
+      "84": true,
+      "85": true,
+      "86": true,
+      "87": true,
+      "88": true,
+      "89": true,
+      "90": true,
+      "91": true,
+      "92": true,
+      "94": true,
+      "95": true,
+      "96": true,
+      "97": true,
+      "98": true,
+      "99": true,
+      "100": true,
+      "101": true,
+      "102": true,
+      "103": true,
+      "104": true,
+      "105": true,
+      "106": true,
+      "107": true,
+      "108": true,
+      "109": true,
+      "110": true,
+      "111": true
+    },
+    "D_paths": {
+      "0": {
+        "writes": [
+          [
+            72,
+            [
+              "MOVE",
+              304,
+              3,
+              1113,
+              false
+            ]
+          ],
+          [
+            134,
+            [
+              "MOVE",
+              304,
+              1113,
+              1117,
+              false
+            ]
+          ],
+          [
+            190,
+            [
+              "MOVE",
+              304,
+              1117,
+              128,
+              false
+            ]
+          ]
+        ],
+        "read_count": 7,
+        "all_reads_at_final_chart": false
+      },
+      "1": {
+        "writes": [
+          [
+            4684,
+            [
+              "MOVE",
+              305,
+              3,
+              129,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "2": {
+        "writes": [
+          [
+            4647,
+            [
+              "MOVE",
+              306,
+              3,
+              130,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "4": {
+        "writes": [
+          [
+            4670,
+            [
+              "MOVE",
+              307,
+              3,
+              131,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "5": {
+        "writes": [
+          [
+            68,
+            [
+              "MOVE",
+              308,
+              3,
+              1115,
+              false
+            ]
+          ],
+          [
+            130,
+            [
+              "MOVE",
+              308,
+              1115,
+              1118,
+              false
+            ]
+          ],
+          [
+            182,
+            [
+              "MOVE",
+              308,
+              1118,
+              132,
+              false
+            ]
+          ]
+        ],
+        "read_count": 13,
+        "all_reads_at_final_chart": false
+      },
+      "6": {
+        "writes": [
+          [
+            4700,
+            [
+              "MOVE",
+              309,
+              3,
+              133,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "7": {
+        "writes": [
+          [
+            223,
+            [
+              "MOVE",
+              310,
+              3,
+              1119,
+              false
+            ]
+          ],
+          [
+            285,
+            [
+              "MOVE",
+              310,
+              1119,
+              1123,
+              false
+            ]
+          ],
+          [
+            341,
+            [
+              "MOVE",
+              310,
+              1123,
+              134,
+              false
+            ]
+          ]
+        ],
+        "read_count": 7,
+        "all_reads_at_final_chart": false
+      },
+      "8": {
+        "writes": [
+          [
+            227,
+            [
+              "MOVE",
+              311,
+              3,
+              1120,
+              false
+            ]
+          ],
+          [
+            289,
+            [
+              "MOVE",
+              311,
+              1120,
+              1122,
+              false
+            ]
+          ],
+          [
+            349,
+            [
+              "MOVE",
+              311,
+              1122,
+              135,
+              false
+            ]
+          ]
+        ],
+        "read_count": 8,
+        "all_reads_at_final_chart": false
+      },
+      "9": {
+        "writes": [
+          [
+            4655,
+            [
+              "MOVE",
+              312,
+              3,
+              136,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "10": {
+        "writes": [
+          [
+            4680,
+            [
+              "MOVE",
+              313,
+              3,
+              137,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "11": {
+        "writes": [
+          [
+            4706,
+            [
+              "MOVE",
+              314,
+              3,
+              138,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "12": {
+        "writes": [
+          [
+            4672,
+            [
+              "MOVE",
+              315,
+              3,
+              139,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "13": {
+        "writes": [
+          [
+            4709,
+            [
+              "MOVE",
+              316,
+              3,
+              140,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "15": {
+        "writes": [
+          [
+            4676,
+            [
+              "MOVE",
+              317,
+              3,
+              141,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "16": {
+        "writes": [
+          [
+            4708,
+            [
+              "MOVE",
+              318,
+              3,
+              142,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "18": {
+        "writes": [
+          [
+            228,
+            [
+              "MOVE",
+              319,
+              3,
+              1120,
+              false
+            ]
+          ],
+          [
+            290,
+            [
+              "MOVE",
+              319,
+              1120,
+              1122,
+              false
+            ]
+          ],
+          [
+            351,
+            [
+              "MOVE",
+              319,
+              1122,
+              144,
+              false
+            ]
+          ]
+        ],
+        "read_count": 8,
+        "all_reads_at_final_chart": false
+      },
+      "20": {
+        "writes": [
+          [
+            224,
+            [
+              "MOVE",
+              320,
+              3,
+              1119,
+              false
+            ]
+          ],
+          [
+            286,
+            [
+              "MOVE",
+              320,
+              1119,
+              1123,
+              false
+            ]
+          ],
+          [
+            343,
+            [
+              "MOVE",
+              320,
+              1123,
+              146,
+              false
+            ]
+          ]
+        ],
+        "read_count": 7,
+        "all_reads_at_final_chart": false
+      },
+      "22": {
+        "writes": [
+          [
+            4669,
+            [
+              "MOVE",
+              321,
+              3,
+              147,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "23": {
+        "writes": [
+          [
+            4662,
+            [
+              "MOVE",
+              322,
+              3,
+              148,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "24": {
+        "writes": [
+          [
+            4687,
+            [
+              "MOVE",
+              323,
+              3,
+              149,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "25": {
+        "writes": [
+          [
+            4653,
+            [
+              "MOVE",
+              324,
+              3,
+              150,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "26": {
+        "writes": [
+          [
+            229,
+            [
+              "MOVE",
+              325,
+              3,
+              1120,
+              false
+            ]
+          ],
+          [
+            291,
+            [
+              "MOVE",
+              325,
+              1120,
+              1122,
+              false
+            ]
+          ],
+          [
+            353,
+            [
+              "MOVE",
+              325,
+              1122,
+              151,
+              false
+            ]
+          ]
+        ],
+        "read_count": 8,
+        "all_reads_at_final_chart": false
+      },
+      "27": {
+        "writes": [
+          [
+            225,
+            [
+              "MOVE",
+              326,
+              3,
+              1119,
+              false
+            ]
+          ],
+          [
+            287,
+            [
+              "MOVE",
+              326,
+              1119,
+              1123,
+              false
+            ]
+          ],
+          [
+            345,
+            [
+              "MOVE",
+              326,
+              1123,
+              152,
+              false
+            ]
+          ]
+        ],
+        "read_count": 7,
+        "all_reads_at_final_chart": false
+      },
+      "28": {
+        "writes": [
+          [
+            4688,
+            [
+              "MOVE",
+              327,
+              3,
+              153,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "29": {
+        "writes": [
+          [
+            4715,
+            [
+              "MOVE",
+              328,
+              3,
+              154,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "31": {
+        "writes": [
+          [
+            4659,
+            [
+              "MOVE",
+              329,
+              3,
+              156,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "32": {
+        "writes": [
+          [
+            4711,
+            [
+              "MOVE",
+              330,
+              3,
+              157,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "33": {
+        "writes": [
+          [
+            4664,
+            [
+              "MOVE",
+              331,
+              3,
+              158,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "35": {
+        "writes": [
+          [
+            4712,
+            [
+              "MOVE",
+              332,
+              3,
+              159,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "36": {
+        "writes": [
+          [
+            226,
+            [
+              "MOVE",
+              333,
+              3,
+              1119,
+              false
+            ]
+          ],
+          [
+            288,
+            [
+              "MOVE",
+              333,
+              1119,
+              1123,
+              false
+            ]
+          ],
+          [
+            347,
+            [
+              "MOVE",
+              333,
+              1123,
+              160,
+              false
+            ]
+          ]
+        ],
+        "read_count": 7,
+        "all_reads_at_final_chart": false
+      },
+      "37": {
+        "writes": [
+          [
+            4686,
+            [
+              "MOVE",
+              334,
+              3,
+              161,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "41": {
+        "writes": [
+          [
+            4678,
+            [
+              "MOVE",
+              335,
+              3,
+              164,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "42": {
+        "writes": [
+          [
+            4683,
+            [
+              "MOVE",
+              336,
+              3,
+              165,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "43": {
+        "writes": [
+          [
+            4696,
+            [
+              "MOVE",
+              337,
+              3,
+              166,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "44": {
+        "writes": [
+          [
+            4698,
+            [
+              "MOVE",
+              338,
+              3,
+              167,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "45": {
+        "writes": [
+          [
+            4701,
+            [
+              "MOVE",
+              339,
+              3,
+              168,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "46": {
+        "writes": [
+          [
+            73,
+            [
+              "MOVE",
+              340,
+              3,
+              1113,
+              false
+            ]
+          ],
+          [
+            135,
+            [
+              "MOVE",
+              340,
+              1113,
+              1117,
+              false
+            ]
+          ],
+          [
+            192,
+            [
+              "MOVE",
+              340,
+              1117,
+              169,
+              false
+            ]
+          ]
+        ],
+        "read_count": 7,
+        "all_reads_at_final_chart": false
+      },
+      "48": {
+        "writes": [
+          [
+            4713,
+            [
+              "MOVE",
+              341,
+              3,
+              171,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "49": {
+        "writes": [
+          [
+            4663,
+            [
+              "MOVE",
+              342,
+              3,
+              172,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "50": {
+        "writes": [
+          [
+            4714,
+            [
+              "MOVE",
+              343,
+              3,
+              173,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "51": {
+        "writes": [
+          [
+            4697,
+            [
+              "MOVE",
+              344,
+              3,
+              174,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "53": {
+        "writes": [
+          [
+            4675,
+            [
+              "MOVE",
+              345,
+              3,
+              176,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "54": {
+        "writes": [
+          [
+            76,
+            [
+              "MOVE",
+              346,
+              3,
+              1114,
+              false
+            ]
+          ],
+          [
+            138,
+            [
+              "MOVE",
+              346,
+              1114,
+              1116,
+              false
+            ]
+          ],
+          [
+            198,
+            [
+              "MOVE",
+              346,
+              1116,
+              177,
+              false
+            ]
+          ]
+        ],
+        "read_count": 8,
+        "all_reads_at_final_chart": false
+      },
+      "55": {
+        "writes": [
+          [
+            4699,
+            [
+              "MOVE",
+              347,
+              3,
+              178,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "56": {
+        "writes": [
+          [
+            69,
+            [
+              "MOVE",
+              348,
+              3,
+              1115,
+              false
+            ]
+          ],
+          [
+            131,
+            [
+              "MOVE",
+              348,
+              1115,
+              1118,
+              false
+            ]
+          ],
+          [
+            184,
+            [
+              "MOVE",
+              348,
+              1118,
+              1111,
+              false
+            ]
+          ],
+          [
+            204,
+            [
+              "MOVE",
+              348,
+              1111,
+              179,
+              false
+            ]
+          ]
+        ],
+        "read_count": 14,
+        "all_reads_at_final_chart": false
+      },
+      "57": {
+        "writes": [
+          [
+            74,
+            [
+              "MOVE",
+              349,
+              3,
+              1113,
+              false
+            ]
+          ],
+          [
+            136,
+            [
+              "MOVE",
+              349,
+              1113,
+              1117,
+              false
+            ]
+          ],
+          [
+            194,
+            [
+              "MOVE",
+              349,
+              1117,
+              180,
+              false
+            ]
+          ]
+        ],
+        "read_count": 7,
+        "all_reads_at_final_chart": false
+      },
+      "58": {
+        "writes": [
+          [
+            4689,
+            [
+              "MOVE",
+              350,
+              3,
+              181,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "59": {
+        "writes": [
+          [
+            4692,
+            [
+              "MOVE",
+              351,
+              3,
+              182,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "62": {
+        "writes": [
+          [
+            4679,
+            [
+              "MOVE",
+              352,
+              3,
+              184,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "63": {
+        "writes": [
+          [
+            4703,
+            [
+              "MOVE",
+              353,
+              3,
+              185,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "64": {
+        "writes": [
+          [
+            4671,
+            [
+              "MOVE",
+              354,
+              3,
+              186,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "65": {
+        "writes": [
+          [
+            219,
+            [
+              "MOVE",
+              355,
+              3,
+              1121,
+              false
+            ]
+          ],
+          [
+            281,
+            [
+              "MOVE",
+              355,
+              1121,
+              1124,
+              false
+            ]
+          ],
+          [
+            333,
+            [
+              "MOVE",
+              355,
+              1124,
+              187,
+              false
+            ]
+          ]
+        ],
+        "read_count": 14,
+        "all_reads_at_final_chart": false
+      },
+      "66": {
+        "writes": [
+          [
+            4658,
+            [
+              "MOVE",
+              356,
+              3,
+              188,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "67": {
+        "writes": [
+          [
+            77,
+            [
+              "MOVE",
+              357,
+              3,
+              1114,
+              false
+            ]
+          ],
+          [
+            139,
+            [
+              "MOVE",
+              357,
+              1114,
+              1116,
+              false
+            ]
+          ],
+          [
+            200,
+            [
+              "MOVE",
+              357,
+              1116,
+              189,
+              false
+            ]
+          ]
+        ],
+        "read_count": 8,
+        "all_reads_at_final_chart": false
+      },
+      "68": {
+        "writes": [
+          [
+            4693,
+            [
+              "MOVE",
+              358,
+              3,
+              190,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "69": {
+        "writes": [
+          [
+            70,
+            [
+              "MOVE",
+              359,
+              3,
+              1115,
+              false
+            ]
+          ],
+          [
+            132,
+            [
+              "MOVE",
+              359,
+              1115,
+              1118,
+              false
+            ]
+          ],
+          [
+            186,
+            [
+              "MOVE",
+              359,
+              1118,
+              191,
+              false
+            ]
+          ]
+        ],
+        "read_count": 14,
+        "all_reads_at_final_chart": false
+      },
+      "70": {
+        "writes": [
+          [
+            4674,
+            [
+              "MOVE",
+              360,
+              3,
+              192,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "71": {
+        "writes": [
+          [
+            4707,
+            [
+              "MOVE",
+              361,
+              3,
+              193,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "72": {
+        "writes": [
+          [
+            4648,
+            [
+              "MOVE",
+              362,
+              3,
+              194,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "73": {
+        "writes": [
+          [
+            4716,
+            [
+              "MOVE",
+              363,
+              3,
+              195,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "74": {
+        "writes": [
+          [
+            4668,
+            [
+              "MOVE",
+              364,
+              3,
+              196,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "75": {
+        "writes": [
+          [
+            4702,
+            [
+              "MOVE",
+              365,
+              3,
+              197,
+              false
+            ]
+          ]
+        ],
+        "read_count": 1,
+        "all_reads_at_final_chart": true
+      },
+      "77": {
+        "writes": [
+          [
+            220,
+            [
+              "MOVE",
+              366,
+              3,
+              1121,
+              false
+            ]
+          ],
+          [
+            282,
+            [
+              "MOVE",
+              366,
+              1121,
+              1124,
+              false
+            ]
+          ],
+          [
+            335,
+            [
+              "MOVE",
+              366,
+              1124,
+              1112,
+              false
+            ]
+          ],
+          [
+            355,
+            [
+              "MOVE",
+              366,
+              1112,
+              198,
+              false
+            ]
+          ]
+        ],
+        "read_count": 14,
+        "all_reads_at_final_chart": false
+      },
+      "78": {
+        "writes": [
+          [
+            4719,
+            [
+              "MOVE",
+              367,
+              3,
+              199,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "79": {
+        "writes": [
+          [
+            4654,
+            [
+              "MOVE",
+              368,
+              3,
+              200,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "80": {
+        "writes": [
+          [
+            4666,
+            [
+              "MOVE",
+              369,
+              3,
+              201,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "81": {
+        "writes": [
+          [
+            4656,
+            [
+              "MOVE",
+              370,
+              3,
+              202,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "82": {
+        "writes": [
+          [
+            4704,
+            [
+              "MOVE",
+              371,
+              3,
+              203,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "83": {
+        "writes": [
+          [
+            4667,
+            [
+              "MOVE",
+              372,
+              3,
+              204,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "84": {
+        "writes": [
+          [
+            4695,
+            [
+              "MOVE",
+              373,
+              3,
+              205,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "85": {
+        "writes": [
+          [
+            4685,
+            [
+              "MOVE",
+              374,
+              3,
+              206,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "86": {
+        "writes": [
+          [
+            4646,
+            [
+              "MOVE",
+              375,
+              3,
+              207,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "87": {
+        "writes": [
+          [
+            4650,
+            [
+              "MOVE",
+              376,
+              3,
+              208,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "88": {
+        "writes": [
+          [
+            4665,
+            [
+              "MOVE",
+              377,
+              3,
+              209,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "89": {
+        "writes": [
+          [
+            4652,
+            [
+              "MOVE",
+              378,
+              3,
+              210,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "90": {
+        "writes": [
+          [
+            4705,
+            [
+              "MOVE",
+              379,
+              3,
+              211,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "91": {
+        "writes": [
+          [
+            4673,
+            [
+              "MOVE",
+              380,
+              3,
+              212,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "92": {
+        "writes": [
+          [
+            4657,
+            [
+              "MOVE",
+              381,
+              3,
+              213,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "94": {
+        "writes": [
+          [
+            4649,
+            [
+              "MOVE",
+              382,
+              3,
+              214,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "95": {
+        "writes": [
+          [
+            4660,
+            [
+              "MOVE",
+              383,
+              3,
+              215,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "96": {
+        "writes": [
+          [
+            221,
+            [
+              "MOVE",
+              384,
+              3,
+              1121,
+              false
+            ]
+          ],
+          [
+            283,
+            [
+              "MOVE",
+              384,
+              1121,
+              1124,
+              false
+            ]
+          ],
+          [
+            337,
+            [
+              "MOVE",
+              384,
+              1124,
+              216,
+              false
+            ]
+          ]
+        ],
+        "read_count": 14,
+        "all_reads_at_final_chart": false
+      },
+      "97": {
+        "writes": [
+          [
+            4694,
+            [
+              "MOVE",
+              385,
+              3,
+              217,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "98": {
+        "writes": [
+          [
+            4691,
+            [
+              "MOVE",
+              386,
+              3,
+              218,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "99": {
+        "writes": [
+          [
+            4718,
+            [
+              "MOVE",
+              387,
+              3,
+              219,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "100": {
+        "writes": [
+          [
+            71,
+            [
+              "MOVE",
+              388,
+              3,
+              1115,
+              false
+            ]
+          ],
+          [
+            133,
+            [
+              "MOVE",
+              388,
+              1115,
+              1118,
+              false
+            ]
+          ],
+          [
+            188,
+            [
+              "MOVE",
+              388,
+              1118,
+              1111,
+              false
+            ]
+          ],
+          [
+            206,
+            [
+              "MOVE",
+              388,
+              1111,
+              220,
+              false
+            ]
+          ]
+        ],
+        "read_count": 14,
+        "all_reads_at_final_chart": false
+      },
+      "101": {
+        "writes": [
+          [
+            4710,
+            [
+              "MOVE",
+              389,
+              3,
+              221,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "102": {
+        "writes": [
+          [
+            78,
+            [
+              "MOVE",
+              390,
+              3,
+              1114,
+              false
+            ]
+          ],
+          [
+            140,
+            [
+              "MOVE",
+              390,
+              1114,
+              1116,
+              false
+            ]
+          ],
+          [
+            202,
+            [
+              "MOVE",
+              390,
+              1116,
+              222,
+              false
+            ]
+          ]
+        ],
+        "read_count": 8,
+        "all_reads_at_final_chart": false
+      },
+      "103": {
+        "writes": [
+          [
+            222,
+            [
+              "MOVE",
+              391,
+              3,
+              1121,
+              false
+            ]
+          ],
+          [
+            284,
+            [
+              "MOVE",
+              391,
+              1121,
+              1124,
+              false
+            ]
+          ],
+          [
+            339,
+            [
+              "MOVE",
+              391,
+              1124,
+              1112,
+              false
+            ]
+          ],
+          [
+            357,
+            [
+              "MOVE",
+              391,
+              1112,
+              223,
+              false
+            ]
+          ]
+        ],
+        "read_count": 14,
+        "all_reads_at_final_chart": false
+      },
+      "104": {
+        "writes": [
+          [
+            4717,
+            [
+              "MOVE",
+              392,
+              3,
+              224,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "105": {
+        "writes": [
+          [
+            4682,
+            [
+              "MOVE",
+              393,
+              3,
+              225,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "106": {
+        "writes": [
+          [
+            4677,
+            [
+              "MOVE",
+              394,
+              3,
+              226,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "107": {
+        "writes": [
+          [
+            4690,
+            [
+              "MOVE",
+              395,
+              3,
+              227,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "108": {
+        "writes": [
+          [
+            4661,
+            [
+              "MOVE",
+              396,
+              3,
+              228,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "109": {
+        "writes": [
+          [
+            4651,
+            [
+              "MOVE",
+              397,
+              3,
+              229,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "110": {
+        "writes": [
+          [
+            4681,
+            [
+              "MOVE",
+              398,
+              3,
+              230,
+              false
+            ]
+          ]
+        ],
+        "read_count": 0,
+        "all_reads_at_final_chart": true
+      },
+      "111": {
+        "writes": [
+          [
+            75,
+            [
+              "MOVE",
+              399,
+              3,
+              1113,
+              false
+            ]
+          ],
+          [
+            137,
+            [
+              "MOVE",
+              399,
+              1113,
+              1117,
+              false
+            ]
+          ],
+          [
+            196,
+            [
+              "MOVE",
+              399,
+              1117,
+              231,
+              false
+            ]
+          ]
+        ],
+        "read_count": 7,
+        "all_reads_at_final_chart": false
+      }
+    }
+  },
+  "independence": "No author builder/interpreter imported. Reuses B independently authored dense common-denominator engine from the admitted earlier exchange review; rank oracle uses fraction-free integer row elimination with gcd normalization.",
+  "scope": "Finite partial400-input source. Phase maps and literal m3 reviewed separately; no complete source, supplier, or new kappa."
+}

@@ -1,0 +1,31 @@
+{
+  "execution": "python replay.py --package worker-a/next/funded-cross-pair --source programme --out worker-c/funded-cross-pair-review/RESULT.json; python phase_check.py --package worker-a/next/funded-cross-pair --out worker-c/funded-cross-pair-review/PHASE-RESULT.json; python replay_m3.py --package worker-a/next/funded-cross-pair --source programme --out worker-c/funded-cross-pair-review/M3-RESULT.json",
+  "independent_review_artifacts": {
+    "M3-RESULT.json": "73ebf65a70a1193724fd8fc33bf3113353ad8f9bc12e253e4876a70bd8a817cf",
+    "PHASE-RESULT.json": "b331d4ac31d02cbd21cf693ab36bb3d4ea0e4d002c407509470a9d43d8e1abe4",
+    "RESULT.json": "b715e1d5f5c2902e57ec82e91f1c5a4733a3e4e3a4f77761c61bcd36cd6cfff0",
+    "REVIEW.md": "2810c5442c3f0dd52dde10848a96671106c30d256ca9103ac60e8d25ab849763",
+    "phase_check.py": "302412c7bd4e4edf107016bdfcf248aa4d9c2064ca11c39182d9f3bc798e9e00",
+    "replay.py": "b35ccffbd8f01f65f43740d757546db321359a61fb2db5713b9ccfa59fb0831a",
+    "replay_m3.py": "cbcf8056b506c24f18eecb52d03e8b3860d1e57628dbb2e6f7c116b64c9a5bea"
+  },
+  "method": "Separate sparse Fraction replay, exact row rank, event-lineage/causal trace, two-tag suffix transfer, and independently constructed signed-Pauli plus exact Gaussian-state chart map checks. No author extractor, builder, map checker, or replay engine imported.",
+  "result": "PASS_INDEPENDENT_FUNDED_CROSS_PAIR_CAUSAL_PHASE_M3_REVIEW",
+  "reviewed_author_manifest_sha256": "b5bfd431477d9d423961fd679b8c940273594530f11c2f6629d2ae523d6342ac",
+  "reviewed_author_package": "worker-a/next/funded-cross-pair",
+  "reviewed_pins": {
+    "worker-a/next/funded-cross-pair/CHART-MAPS.json": "1e59e57d09ebaacb1a22374eca0e3443c2e3d752b9961c863b7173feabe0918b",
+    "worker-a/next/funded-cross-pair/MANIFEST.json": "b5bfd431477d9d423961fd679b8c940273594530f11c2f6629d2ae523d6342ac",
+    "worker-a/next/funded-cross-pair/PROOF.md": "971be0e28b9c9697829d70c69160182f1af7084e7ee802b633e8cd7c65b62701",
+    "worker-a/next/funded-cross-pair/build_cross.py": "d7d4ae4cd616b751d9875ab8cf5564adbddd622dac7d491a26abd0464e60b612",
+    "worker-a/next/funded-cross-pair/build_mcopy_explicit.py": "6d44f5aab694d65d6386822908c68af61d97efbc6ca9dea1b2ef1568f0bb551f",
+    "worker-a/next/funded-cross-pair/check_maps.py": "bb534bf4db024efd7d3288bb60de6ef62947ff168bf55d68491f2f636d6c2ee0",
+    "worker-a/next/funded-cross-pair/m3/RESULT.json": "effd9d5bb6211349f615081becbf27a5ee3a5f17c1dc34f58e2c1412dd3c0217",
+    "worker-a/next/funded-cross-pair/m3/WORD.json.gz": "de58d2b0b769d9947444d11fb5adb27fb5eb4a3a97ddfc34871323b9be0919c0",
+    "worker-a/next/funded-cross-pair/output/RESULT.json": "27a997d0b6b75ba410d6ba343ab553b2a2ac73589b7738ae49d8516b6b74d77c",
+    "worker-a/next/funded-cross-pair/output/rail-cross-pair.json.gz": "787ae38760119ce9b628c3b9eff0244271b3c0ad65b646c725730a2142d6dc1a",
+    "worker-a/next/funded-cross-pair/source-evidence/extract_rail.py": "7eba542316bfb1a0ae70fee8f2201b7b15abfcfa3cb59f84014f3331608ec372",
+    "worker-a/next/funded-cross-pair/source-evidence/rail-consumer.json.gz": "a235a7e58f9eb96c6d409a88095fd6b59c977977baabb8735c76b2b820dcbedc"
+  },
+  "status": "FROZEN_INDEPENDENT_REVIEW"
+}

@@ -1,0 +1,1472 @@
+{
+  "all_firstX_firstY_D_exact_parent": true,
+  "all_old_Gram_modes_preserved": true,
+  "bill": {
+    "counts": {
+      "ADD": 3860,
+      "CLEAR": 402,
+      "INIT": 402,
+      "MOVE": 844,
+      "SCALE": 2
+    },
+    "instructions": 5510,
+    "lifetimes": 402,
+    "moves": {
+      "1": 212,
+      "2": 132,
+      "3": 96,
+      "4": 20,
+      "5": 199,
+      "6": 1,
+      "7": 6,
+      "8": 172,
+      "9": 6
+    },
+    "peak": 29
+  },
+  "completed_hosted_reverse_ports": [
+    6,
+    9,
+    10,
+    12,
+    13,
+    16,
+    22,
+    25,
+    28,
+    29,
+    31,
+    32,
+    33,
+    35,
+    41,
+    50,
+    53,
+    55,
+    63,
+    66,
+    71,
+    72,
+    74,
+    75
+  ],
+  "controller_cleanup": [
+    {
+      "begin": 5380,
+      "end": 5445,
+      "target_port": 1
+    },
+    {
+      "begin": 5445,
+      "end": 5510,
+      "target_port": 106
+    }
+  ],
+  "current_a_forward_debt": 4569,
+  "hoisted_D_events": [
+    {
+      "new_event": 170,
+      "old_event": 4677,
+      "op": [
+        "MOVE",
+        394,
+        3,
+        226,
+        false
+      ]
+    },
+    {
+      "new_event": 171,
+      "old_event": 4684,
+      "op": [
+        "MOVE",
+        305,
+        3,
+        129,
+        false
+      ]
+    }
+  ],
+  "input_directions": 400,
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "negative_controls": [
+    {
+      "event": 40,
+      "name": "omit_Y0_precode",
+      "rejected": true
+    },
+    {
+      "event": 2017,
+      "name": "omit_actual_D_pickup",
+      "rejected": true
+    },
+    {
+      "event": 2019,
+      "name": "wrong_B_handoff_sign",
+      "rejected": true
+    },
+    {
+      "event": 5380,
+      "name": "omit_Hub_controller_cleanup",
+      "rejected": true
+    },
+    {
+      "event": 170,
+      "name": "omit_D_hoist",
+      "rejected": true
+    }
+  ],
+  "new_chart_pairs": [
+    [
+      1,
+      3
+    ],
+    [
+      99,
+      3
+    ],
+    [
+      127,
+      129
+    ],
+    [
+      127,
+      226
+    ],
+    [
+      129,
+      99
+    ],
+    [
+      226,
+      1
+    ]
+  ],
+  "new_reverse_rank": 57,
+  "old_reverse_rank": 58,
+  "ordinary_increment": {
+    "ADD": 264,
+    "CLEAR": 0,
+    "INIT": 0,
+    "MOVE": 4,
+    "SCALE": 0
+  },
+  "original_forward_debt": 4920,
+  "packet_events": [
+    {
+      "B_handoff": 2019,
+      "D_pickup": 2017,
+      "D_port": 106,
+      "begin": 2016,
+      "controller": {
+        "0": "1",
+        "1": "1",
+        "10": "2",
+        "101": "-1",
+        "103": "-1",
+        "11": "1",
+        "119": "-1",
+        "12": "1",
+        "121": "-2",
+        "13": "2",
+        "138": "1",
+        "14": "1",
+        "15": "1",
+        "151": "1",
+        "16": "1",
+        "17": "2",
+        "18": "1",
+        "19": "1",
+        "2": "1",
+        "20": "2",
+        "21": "2",
+        "22": "-1",
+        "23": "-1",
+        "24": "-1",
+        "25": "-1",
+        "26": "-1",
+        "28": "-1",
+        "29": "-1",
+        "3": "1",
+        "30": "-1",
+        "31": "-1",
+        "32": "-1",
+        "34": "-1",
+        "36": "-1",
+        "39": "-1",
+        "4": "2",
+        "40": "-1",
+        "41": "-1",
+        "43": "-1",
+        "44": "-1",
+        "46": "-1",
+        "47": "-1",
+        "49": "-1",
+        "5": "1",
+        "52": "-1",
+        "53": "-1",
+        "54": "-1",
+        "56": "-1",
+        "58": "-1",
+        "6": "1",
+        "61": "-1",
+        "62": "-1",
+        "64": "-1",
+        "67": "-1",
+        "7": "1",
+        "70": "2",
+        "71": "2",
+        "72": "2",
+        "73": "2",
+        "74": "2",
+        "75": "2",
+        "76": "2",
+        "77": "1",
+        "8": "1",
+        "84": "-1",
+        "89": "-1",
+        "9": "1",
+        "94": "-1",
+        "98": "-1"
+      },
+      "end": 2021,
+      "old_down": 3528,
+      "target_port": 1
+    },
+    {
+      "B_handoff": 2156,
+      "D_pickup": 2154,
+      "D_port": 1,
+      "begin": 2153,
+      "controller": {
+        "0": "1",
+        "1": "1",
+        "101": "-1",
+        "103": "-1",
+        "11": "-1",
+        "119": "1",
+        "12": "-1",
+        "131": "-2",
+        "138": "-1",
+        "139": "-2",
+        "14": "-1",
+        "15": "-1",
+        "151": "1",
+        "16": "-1",
+        "18": "-1",
+        "19": "-1",
+        "2": "1",
+        "22": "1",
+        "23": "1",
+        "24": "1",
+        "25": "1",
+        "26": "1",
+        "27": "2",
+        "28": "1",
+        "29": "1",
+        "3": "1",
+        "30": "1",
+        "31": "1",
+        "32": "1",
+        "33": "2",
+        "34": "1",
+        "35": "2",
+        "36": "1",
+        "37": "2",
+        "38": "2",
+        "39": "-1",
+        "4": "2",
+        "40": "-1",
+        "41": "-1",
+        "43": "-1",
+        "44": "-1",
+        "46": "-1",
+        "47": "-1",
+        "49": "-1",
+        "5": "-1",
+        "52": "-1",
+        "53": "-1",
+        "54": "-1",
+        "56": "-1",
+        "58": "-1",
+        "6": "-1",
+        "61": "-1",
+        "62": "-1",
+        "64": "-1",
+        "67": "-1",
+        "7": "-1",
+        "70": "-2",
+        "77": "-1",
+        "78": "2",
+        "79": "2",
+        "8": "-1",
+        "80": "2",
+        "81": "2",
+        "82": "2",
+        "83": "2",
+        "84": "1",
+        "89": "-1",
+        "9": "-1",
+        "94": "-1",
+        "98": "-1"
+      },
+      "end": 2158,
+      "old_down": 3661,
+      "target_port": 106
+    }
+  ],
+  "paid_move_increment": {
+    "1": 4,
+    "7": 2,
+    "9": -2
+  },
+  "parent_sha256": "a235a7e58f9eb96c6d409a88095fd6b59c977977baabb8735c76b2b820dcbedc",
+  "payload_sha256": "b274f69058688e27ab589321e52380d11b0df67ac2407ef684d7ea4676911d26",
+  "precode_range": [
+    40,
+    170
+  ],
+  "primal_end": 3201,
+  "scope": "Actual funded cross-D pair, all forward rows and all original input information preserved; reverse rank57 with24 old completions. Global forward4569/4920 debt and remaining57-dimensional reverse response are unpaid; no complete supplier. Both strict suppliers and all five foundations remain.",
+  "status": "PASS_ACTUAL_FUNDED_CROSS_D_PAIR_RANK57",
+  "suffix_tag_transfer": {
+    "209": {
+      "10000": "1"
+    },
+    "298": {
+      "10001": "1"
+    }
+  },
+  "suffix_tagged_reads": [
+    {
+      "destination_tags_before": {
+        "10000": "1"
+      },
+      "old_event": 530,
+      "op": [
+        "MOVE",
+        209,
+        1,
+        1095,
+        false
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10001": "1"
+      },
+      "old_event": 534,
+      "op": [
+        "MOVE",
+        298,
+        99,
+        1095,
+        false
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 537,
+      "op": [
+        "ADD",
+        473,
+        209,
+        "1",
+        1095
+      ],
+      "source_tags_before": {
+        "10000": "1"
+      }
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 545,
+      "op": [
+        "ADD",
+        477,
+        298,
+        "1",
+        1095
+      ],
+      "source_tags_before": {
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1"
+      },
+      "old_event": 548,
+      "op": [
+        "ADD",
+        209,
+        473,
+        "-1",
+        1095
+      ],
+      "source_tags_before": {
+        "10000": "1"
+      }
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 549,
+      "op": [
+        "ADD",
+        209,
+        473,
+        "-1",
+        1095
+      ],
+      "source_tags_before": {
+        "10000": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1"
+      },
+      "old_event": 550,
+      "op": [
+        "ADD",
+        209,
+        477,
+        "1",
+        1095
+      ],
+      "source_tags_before": {
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 553,
+      "op": [
+        "ADD",
+        210,
+        477,
+        "1",
+        1095
+      ],
+      "source_tags_before": {
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 561,
+      "op": [
+        "ADD",
+        254,
+        477,
+        "-1",
+        1095
+      ],
+      "source_tags_before": {
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10001": "1"
+      },
+      "old_event": 562,
+      "op": [
+        "ADD",
+        298,
+        477,
+        "-1",
+        1095
+      ],
+      "source_tags_before": {
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 563,
+      "op": [
+        "ADD",
+        298,
+        473,
+        "-1",
+        1095
+      ],
+      "source_tags_before": {
+        "10000": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1"
+      },
+      "old_event": 564,
+      "op": [
+        "ADD",
+        298,
+        474,
+        "1",
+        1095
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 566,
+      "op": [
+        "ADD",
+        301,
+        473,
+        "1",
+        1095
+      ],
+      "source_tags_before": {
+        "10000": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1"
+      },
+      "old_event": 567,
+      "op": [
+        "ADD",
+        301,
+        474,
+        "-1",
+        1095
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1"
+      },
+      "old_event": 568,
+      "op": [
+        "ADD",
+        301,
+        477,
+        "-1",
+        1095
+      ],
+      "source_tags_before": {
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1",
+        "10001": "-1"
+      },
+      "old_event": 569,
+      "op": [
+        "ADD",
+        301,
+        478,
+        "1",
+        1095
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1"
+      },
+      "old_event": 570,
+      "op": [
+        "CLEAR",
+        473,
+        1095
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10001": "1"
+      },
+      "old_event": 574,
+      "op": [
+        "CLEAR",
+        477,
+        1095
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1",
+        "10001": "1"
+      },
+      "old_event": 576,
+      "op": [
+        "MOVE",
+        209,
+        1095,
+        132,
+        false
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1",
+        "10001": "1"
+      },
+      "old_event": 577,
+      "op": [
+        "ADD",
+        209,
+        308,
+        "-1",
+        132
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1",
+        "10001": "1"
+      },
+      "old_event": 578,
+      "op": [
+        "MOVE",
+        209,
+        132,
+        127,
+        false
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10001": "1"
+      },
+      "old_event": 579,
+      "op": [
+        "MOVE",
+        210,
+        1095,
+        179,
+        false
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10001": "1"
+      },
+      "old_event": 580,
+      "op": [
+        "ADD",
+        210,
+        348,
+        "-1",
+        179
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10001": "1"
+      },
+      "old_event": 581,
+      "op": [
+        "MOVE",
+        210,
+        179,
+        127,
+        false
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10001": "-1"
+      },
+      "old_event": 585,
+      "op": [
+        "MOVE",
+        254,
+        1095,
+        127,
+        false
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1"
+      },
+      "old_event": 586,
+      "op": [
+        "MOVE",
+        298,
+        1095,
+        223,
+        false
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1"
+      },
+      "old_event": 587,
+      "op": [
+        "ADD",
+        298,
+        391,
+        "-1",
+        223
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1"
+      },
+      "old_event": 588,
+      "op": [
+        "MOVE",
+        298,
+        223,
+        127,
+        false
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1",
+        "10001": "-1"
+      },
+      "old_event": 589,
+      "op": [
+        "MOVE",
+        301,
+        1095,
+        127,
+        false
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 591,
+      "op": [
+        "ADD",
+        473,
+        209,
+        "1",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1",
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 593,
+      "op": [
+        "ADD",
+        474,
+        210,
+        "1",
+        127
+      ],
+      "source_tags_before": {
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 597,
+      "op": [
+        "ADD",
+        476,
+        254,
+        "1",
+        127
+      ],
+      "source_tags_before": {
+        "10001": "-1"
+      }
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 599,
+      "op": [
+        "ADD",
+        477,
+        298,
+        "1",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1"
+      }
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 601,
+      "op": [
+        "ADD",
+        478,
+        301,
+        "1",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "1",
+        "10001": "-1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1",
+        "10001": "1"
+      },
+      "old_event": 602,
+      "op": [
+        "ADD",
+        209,
+        473,
+        "-1",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1",
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 603,
+      "op": [
+        "ADD",
+        209,
+        473,
+        "-1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1",
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1/2",
+        "10001": "-1/2"
+      },
+      "old_event": 604,
+      "op": [
+        "ADD",
+        209,
+        474,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1/2"
+      },
+      "old_event": 605,
+      "op": [
+        "ADD",
+        209,
+        475,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1/2"
+      },
+      "old_event": 606,
+      "op": [
+        "ADD",
+        209,
+        477,
+        "-1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10001": "1"
+      },
+      "old_event": 607,
+      "op": [
+        "ADD",
+        210,
+        474,
+        "-1",
+        127
+      ],
+      "source_tags_before": {
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 608,
+      "op": [
+        "ADD",
+        210,
+        473,
+        "-1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1",
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1/2",
+        "10001": "-1/2"
+      },
+      "old_event": 609,
+      "op": [
+        "ADD",
+        210,
+        474,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1/2"
+      },
+      "old_event": 610,
+      "op": [
+        "ADD",
+        210,
+        475,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1/2"
+      },
+      "old_event": 611,
+      "op": [
+        "ADD",
+        210,
+        477,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1"
+      }
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 613,
+      "op": [
+        "ADD",
+        246,
+        473,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1",
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1/2",
+        "10001": "1/2"
+      },
+      "old_event": 614,
+      "op": [
+        "ADD",
+        246,
+        474,
+        "-1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1/2"
+      },
+      "old_event": 615,
+      "op": [
+        "ADD",
+        246,
+        475,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1/2"
+      },
+      "old_event": 616,
+      "op": [
+        "ADD",
+        246,
+        477,
+        "-1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10001": "-1"
+      },
+      "old_event": 617,
+      "op": [
+        "ADD",
+        254,
+        476,
+        "-1",
+        127
+      ],
+      "source_tags_before": {
+        "10001": "-1"
+      }
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 618,
+      "op": [
+        "ADD",
+        254,
+        473,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1",
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1/2",
+        "10001": "1/2"
+      },
+      "old_event": 619,
+      "op": [
+        "ADD",
+        254,
+        474,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1/2",
+        "10001": "1"
+      },
+      "old_event": 620,
+      "op": [
+        "ADD",
+        254,
+        475,
+        "-1/2",
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1/2",
+        "10001": "1"
+      },
+      "old_event": 621,
+      "op": [
+        "ADD",
+        254,
+        476,
+        "1",
+        127
+      ],
+      "source_tags_before": {
+        "10001": "-1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1/2"
+      },
+      "old_event": 622,
+      "op": [
+        "ADD",
+        254,
+        477,
+        "-1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1"
+      },
+      "old_event": 623,
+      "op": [
+        "ADD",
+        298,
+        477,
+        "-1",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1"
+      }
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 624,
+      "op": [
+        "ADD",
+        298,
+        473,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1",
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1/2",
+        "10001": "1/2"
+      },
+      "old_event": 625,
+      "op": [
+        "ADD",
+        298,
+        474,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1/2",
+        "10001": "1"
+      },
+      "old_event": 626,
+      "op": [
+        "ADD",
+        298,
+        475,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1/2",
+        "10001": "1"
+      },
+      "old_event": 627,
+      "op": [
+        "ADD",
+        298,
+        477,
+        "-1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1",
+        "10001": "-1"
+      },
+      "old_event": 628,
+      "op": [
+        "ADD",
+        301,
+        478,
+        "-1",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "1",
+        "10001": "-1"
+      }
+    },
+    {
+      "destination_tags_before": {},
+      "old_event": 629,
+      "op": [
+        "ADD",
+        301,
+        473,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1",
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1/2",
+        "10001": "1/2"
+      },
+      "old_event": 630,
+      "op": [
+        "ADD",
+        301,
+        474,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10001": "1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1/2",
+        "10001": "1"
+      },
+      "old_event": 631,
+      "op": [
+        "ADD",
+        301,
+        475,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1/2",
+        "10001": "1"
+      },
+      "old_event": 632,
+      "op": [
+        "ADD",
+        301,
+        477,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "-1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1",
+        "10001": "1"
+      },
+      "old_event": 633,
+      "op": [
+        "ADD",
+        301,
+        478,
+        "1",
+        127
+      ],
+      "source_tags_before": {
+        "10000": "1",
+        "10001": "-1"
+      }
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1",
+        "10001": "1"
+      },
+      "old_event": 634,
+      "op": [
+        "CLEAR",
+        473,
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10001": "1"
+      },
+      "old_event": 635,
+      "op": [
+        "CLEAR",
+        474,
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10001": "-1"
+      },
+      "old_event": 637,
+      "op": [
+        "CLEAR",
+        476,
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "-1"
+      },
+      "old_event": 638,
+      "op": [
+        "CLEAR",
+        477,
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1",
+        "10001": "-1"
+      },
+      "old_event": 639,
+      "op": [
+        "CLEAR",
+        478,
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1"
+      },
+      "old_event": 4783,
+      "op": [
+        "ADD",
+        209,
+        400,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10001": "1"
+      },
+      "old_event": 4821,
+      "op": [
+        "ADD",
+        298,
+        400,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1"
+      },
+      "old_event": 4830,
+      "op": [
+        "ADD",
+        209,
+        400,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10001": "1"
+      },
+      "old_event": 4872,
+      "op": [
+        "ADD",
+        298,
+        400,
+        "1/2",
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10000": "1"
+      },
+      "old_event": 5078,
+      "op": [
+        "ADD",
+        209,
+        400,
+        "-1/2",
+        127
+      ],
+      "source_tags_before": {}
+    },
+    {
+      "destination_tags_before": {
+        "10001": "1"
+      },
+      "old_event": 5117,
+      "op": [
+        "ADD",
+        298,
+        400,
+        "-1/2",
+        127
+      ],
+      "source_tags_before": {}
+    }
+  ],
+  "word_sha256": "787ae38760119ce9b628c3b9eff0244271b3c0ad65b646c725730a2142d6dc1a"
+}

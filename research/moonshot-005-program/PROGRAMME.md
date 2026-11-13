@@ -1,3 +1,33 @@
+## S010 checkpoint11 — actual ferries and the need for a changed access interface
+
+The scalar binary q8 source now needs at least FOUR quotient dimensions
+outside the canonical nine-code in the specified unit/no-Y-feedback interface.
+An independently rebuilt38,324-class catalogue and different cap algorithm
+prove at least123 facet arrivals versus at most122 affordable. Rank13 follows
+only for a historical code actually containing C, not for arbitrary fittings.
+The frozen WIP theorem has passed review; its original evidence is preserved.
+
+On the compatible complex track, actual compensated funded ferries preserve
+every old forward output while lowering the hosted reverse residual58 to57
+and, in one eight-packet word, to54. Full400-input causal maps, exact phases,
+ownership and complete2280-input m3 lifts are independently checked. These
+are partial source constructions, retaining4920 original-coordinate forward
+terms and all remaining reverse obligations.
+
+The mechanism's optimistic limit is also proved. Arbitrary FREE legal
+orthogonal off-diagonal corrections attain residual rank8, but leave65
+independent source facets requiring first departures at the restored terminal
+cut. Full retained caller allowance is only26.096340268441956... per rail
+in the limiting fixed-m budget, giving deficit38.903659731558044... before
+actual ferry costs. More terminal rank shaving in this class cannot reach.005.
+
+The continuous programme therefore turns these actual-history mechanisms
+toward preterminal retained observations or a changed global source/feedback
+interface. The primary q8 all222 endpoint construction remains open, along
+with a compatible complete complex source and both strict suppliers. The
+selected conditional kappa is unchanged; all five foundations remain.
+No new kappa; ongoing and not PR-ready.
+
 ## S010 checkpoint10 — the canonical code needs genuinely new directions
 
 One scalar extra mode beyond the canonical nine-code is now ruled out by an

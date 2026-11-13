@@ -907,3 +907,28 @@ Three installed-path receipts reproduce the frozen values. Target arithmetic
 is exact and explicitly grants no k-to-C conversion. Every earlier scientific
 byte remains. The proposed binary-four catalogue/cap extension is frozen only
 as WIP pending its separate independent proof/source review.
+
+## S010 checkpoint11 — separate catalogue, phase and full-map reviews
+
+The binary-four author catalogue has38,324 high-gain classes. B independently
+rebuilds all masks using full120 perpendicular/F257 geometry, checks all569
+legal envelopes and19 high cases, and uses a DIFFERENT cap enumeration:
+242403084 top triples plus456192 two17/two15 cases. Its3989 caps/max46 and all
+162603561 high pairs match. It explicitly supplies the four-representative
+weight32<48 argument and a separate minimum restriction-distance18 check.
+All installed receipts match byte for byte; NDEBUG and Python-O controls fail.
+
+A's compensated words have root dense400-column and C sparse400-column
+reviews with actual histories, donor chronology and suffix tags. C checks
+all six/twenty-three new signed/global-phase map recipes and the full2280
+basis-direction m3 maps, not only structural schedule counts. Encoded COPY
+coefficients are applied. Semantic and pure-phase mutants fail. Root's pair
+and four-pair replays share a method, explicitly disclosed.
+
+Root's general review independently proves the actual invariantI8 minor,
+free rank8 upper witness,65 fixed nonzero diagonal columns and complete signed
+caller price with fresh exact rational200th-root enclosures. The universal
+first-departure argument retains the no-other-D-observation cut premise.
+Intermediate suffix certificates must include all public outputs; projection
+onto B alone is insufficient. Earlier scientific bytes remain unchanged.
+See sessions/2026-11-13-S010/CHECKPOINT11-VALIDATION.json.

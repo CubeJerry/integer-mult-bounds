@@ -1,3 +1,20 @@
+# Current continuation — S010 checkpoint11
+
+Resume exact remote HEAD; this checkpoint's baseline isa5adbf2da1494a84ea821a7cbe645ada4221bb08.
+The session remains active until13:27:03UTC. Latest verified source facts:
+scalarF2 q8unit/noYfeedback needs FOUR quotient dimensions beyond C; rank13
+requires actual C containment. GeneralYfeedback and blocks remain open.
+Actual compensated complex ferries reduce58to57/54 with old forward debt
+unchanged, but evenfree rank8 in that family cannot complete at its restored
+terminalcut:65departures exceed26.096340... allowance.
+
+Highest-value next task: an actual q8 chronological code with all222 endpoints,
+or a precise Y-feedback interface lemma that legitimately leaves the closed
+arrival model while preserving originalX/Y and pricing all carriers. The
+compatible complex mechanism must retain mixed information before its closed
+cut or change the full source; further terminal rank shaving does not suffice.
+Both strict suppliers and all five foundations remain. No newkappa; notPRready.
+
 # Current continuation — S010 checkpoint10
 
 Exact checkpoint baseline a94ad0d0adc3e360d3be319b064a594adfc3fec9; resume the actual remote HEAD. Session

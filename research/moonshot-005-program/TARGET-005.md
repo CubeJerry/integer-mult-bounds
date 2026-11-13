@@ -953,3 +953,29 @@ differences are not compiler credit: no such conversion theorem exists here.
 The movement-only1618 profile must be replaced by an actual complete signed
 invoice including ordinary/owned/precision/compiler work, then cover and
 strictification losses. Compatible complex U>.005 remains separate.
+
+## S010 checkpoint11 — strengthened source constraints and full ferry budget
+
+For scalar F2 in the specified q8 unit profile without Y feedback,
+dim((row(A)+C)/C)>=4. A quotient of dimension<=3 can save at most99 from222
+necessary proxy arrivals, leaving123>111+8+3. The three extras are the
+optimistic any-finite-m allowance; m6 affords only one. This is a necessary
+condition for that interface, not arbitrary rank13 and not a general feedback
+or block lower bound. The earlier all-field/all-V physical cut q>=8 still
+allows Y feedback and remains applicable to changed histories.
+
+Compensated complex ferries charge profile increments4[1]+2[7]-2[9] or
+16[1]+8[7]-8[9] for the actual two/eight-ferry alternatives. Their partial m3
+margins are10.265336365203686... and10.081992206116988... . Neither pays
+remaining forward/reverse completion. Even the overgranted free-L rank8
+relaxation retains65 nonzero original-D diagonal columns. With no preterminal
+record surviving, completion needs65 rank1 first departures against only
+26.096340268441956... limiting allowance. Every finite fixedm is worse.
+This rules out that terminal suffix even granting forward corrections free.
+
+A useful construction must therefore realize new modes with original-input
+restoration BEFORE the closed cut, or change the entire source interface.
+Movement k, covered C and completed B remain distinct. No k-to-C conversion,
+strict covered/ordinary BIT or compatible uniform complex supplier is newly
+admitted. All actual ordinary, owned, precision, compiler, cover and recursive
+costs remain part of the target theorem.

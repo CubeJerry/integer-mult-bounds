@@ -1,0 +1,175 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_BINARY_HIGH_GAIN_CATALOG",
+  "method": "PurePython full120 perpendicular-mask closures with Hadamard-certifiedF257 ranks; no author numpy/Gram-adjugate generator imported",
+  "source_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "root_manifest_sha256": "1c727243747e684b7d633fe4d76bc723c823909d4a221cfdb66fbe38565897e7",
+  "independent_triples": 220934,
+  "rank3_flats": 74396,
+  "candidate_calls": 6329841,
+  "family_calls": {
+    "rank3": 146521,
+    "rank3_plus_isolated": 2577100,
+    "isolated_quad": 3483013,
+    "orthogonal_clique": 123207
+  },
+  "clique_counts": {
+    "1": 111,
+    "2": 3235,
+    "3": 29939,
+    "4": 90079,
+    "5": 77003,
+    "6": 35667,
+    "7": 9443,
+    "8": 1094
+  },
+  "catalog_size": 38324,
+  "gain_histogram": {
+    "13": 20290,
+    "14": 9988,
+    "15": 6912,
+    "16": 1122,
+    "17": 12
+  },
+  "binary_code_distance": 48,
+  "minimum_zero_restriction_code_distance": 18,
+  "every_small_support_availability_exact_common_closed_neighborhood": true,
+  "all38324_masks_gains_and_rowmasks_match_frozen_author": true,
+  "envelope_cases": 569,
+  "all_cases_with_bound_at_least13": [
+    [
+      3,
+      4,
+      1,
+      14,
+      "rank3"
+    ],
+    [
+      3,
+      5,
+      0,
+      20,
+      "rank3"
+    ],
+    [
+      3,
+      6,
+      0,
+      20,
+      "rank3"
+    ],
+    [
+      4,
+      4,
+      1,
+      14,
+      "isolated_quad"
+    ],
+    [
+      4,
+      4,
+      2,
+      16,
+      "isolated_quad"
+    ],
+    [
+      4,
+      4,
+      3,
+      18,
+      "isolated_quad"
+    ],
+    [
+      4,
+      4,
+      4,
+      20,
+      "isolated_quad"
+    ],
+    [
+      4,
+      5,
+      1,
+      14,
+      "rank3_plus_isolated"
+    ],
+    [
+      4,
+      5,
+      2,
+      16,
+      "rank3_plus_isolated"
+    ],
+    [
+      4,
+      6,
+      1,
+      14,
+      "rank3_plus_isolated"
+    ],
+    [
+      4,
+      7,
+      1,
+      14,
+      "rank3_plus_isolated"
+    ],
+    [
+      5,
+      5,
+      4,
+      14,
+      "orthogonal_clique"
+    ],
+    [
+      5,
+      5,
+      5,
+      16,
+      "orthogonal_clique"
+    ],
+    [
+      6,
+      6,
+      5,
+      13,
+      "orthogonal_clique"
+    ],
+    [
+      6,
+      6,
+      6,
+      15,
+      "orthogonal_clique"
+    ],
+    [
+      7,
+      7,
+      6,
+      13,
+      "orthogonal_clique"
+    ],
+    [
+      7,
+      7,
+      7,
+      15,
+      "orthogonal_clique"
+    ],
+    [
+      8,
+      8,
+      7,
+      14,
+      "orthogonal_clique"
+    ],
+    [
+      8,
+      8,
+      8,
+      16,
+      "orthogonal_clique"
+    ]
+  ],
+  "catalog_input_sha256": "091d4b33d9b8fb12ee5917c9ceb410006c38951acaed4087055fbf9c64b2f632",
+  "scope": "Exact fixed-source binary high-coset catalogue; proof and independent cap screen needed for quotientdim4 conclusion."
+}
