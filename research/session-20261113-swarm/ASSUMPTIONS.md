@@ -75,3 +75,7 @@ proofs, tested domains, source pins and negative controls are in the individual
 branches and publication receipts. All five global assumptions remain; selected
 kappa remains `363005817/100000000000`. The unadmitted #7480/#7481 proposals
 do not change that frontier.
+
+## Wave 5 delta
+
+The once-rounded native result is now published at `16e304f18941228167244862180303bafe98060c`, and the affine-period/fiber slack theorem at `26ea0e01b09b12759a17f006c9066d9e5fcd84e0`. Their scoped status does not remove any global selected assumption. New unrestricted candidate: with fixed approximation error M, integer norm spacing and the credited radial lemma force positive outward slack without a period premise. A complete radius-five Hadamard matching and Hall certificate sharpen the M=1 finite bound to sqrt(21)-sqrt(19). That latter package is under independent review; it is not a global construction. The native-pair transfer uses exact left/right signed permutations, not a physical implementation claim. New #7487 and updated #7486 concern different fixed signed-host rank obstructions and do not overlap these scopes.
