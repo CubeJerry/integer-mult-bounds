@@ -37,3 +37,7 @@ Seven complete verified branches and exact review links are in CHECKPOINT.json a
 ## Current recovery point: wave 11
 
 Eight verified branches are now recorded. The global error-one Hadamard/Gaussian bijection with optimal bilateral slack 1/2 is published, replacing the earlier pending global candidate. The exact-sum/phase-covariant sharp 1/sqrt(2) variant is frozen and mathematically reviewed but not yet published. Active work covers the literal rank-two MOVE, an order-four alternative and parity obstruction, and four metadata-only replay-registration repairs. Earlier status paragraphs are historical. No full kappa improvement or assumption discharge is claimed.
+
+## Current recovery point: wave12
+
+Nine verified contributions are published. Four earlier branches received only standalone replay metadata repairs; current heads are in CHECKPOINT.json. The actual owned rank-two MOVE passed independent source/tape review and registered replay. Exact-sum1/sqrt2 awaits final publication checks. The sharp square-to-swap candidate sqrt19-sqrt13 is under independent proof and implementation review. Same-map tensor commutation is already blocked by prior#6778 under its hypotheses. No selected kappa or full assumption discharge.

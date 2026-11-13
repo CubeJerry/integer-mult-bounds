@@ -1,6 +1,6 @@
 {
   "branch": "research/literal-selected-move-join-20261113",
-  "commit": "dffe132bbe16d830e2aa7367ed40a540f5c7fd64",
+  "commit": "5dd80e8ab9c989336b5e448e14147c2ba29da89b",
   "base": "e54523517d0f03e58352e647c403a5af3e525a57",
   "title": "Implement the selected MOVE24472 with literal endpoint scaling, sharp signed width and paid restoration",
   "body": "## Result\nA fixed 52-tape graph executes selected MOVE24472 with paid scale/header/width conversion, complete exact core, exact unscale and one public commit. For Gaussian-integral symmetric w-bit input/output endpoints, k=floor((f+2)/4) and width w+2k suffice and are sharp at that fixed scale. Full cost is O(fV'+E); all earlier storage remains charged.\n\n## Checks and limits\nExact source binding, normal/optimized replay, separate mathematical review, instruction relocation, independent integer/sparse-tape oracles and rejection controls pass. Reproduce bind_source.py, verify.py and endpoint_verify.py in the package. Actual caller packing/endpoint admission, faster recursion and all five global assumptions remain open. No new kappa.\n\nBase e54523517d0f03e58352e647c403a5af3e525a57. Credit @CubeJerry, #7426, #7427, #7428, #7429, #7430, Nick Petalas #7468 and Gaussian norm predecessors; substantial OpenAI Codex assistance.\n\n[Full proof, exact sources, checks and proposed description](https://github.com/CubeJerry/integer-mult-bounds/blob/dffe132bbe16d830e2aa7367ed40a540f5c7fd64/research/literal-selected-move-join/PR-DESCRIPTION.md)\n",
@@ -11,5 +11,19 @@
   "page_contains_branch": true,
   "prefill_query_round_trip": true,
   "signed_in_form_submission_tested": false,
-  "full_description": "https://github.com/CubeJerry/integer-mult-bounds/blob/dffe132bbe16d830e2aa7367ed40a540f5c7fd64/research/literal-selected-move-join/PR-DESCRIPTION.md"
+  "full_description": "https://github.com/CubeJerry/integer-mult-bounds/blob/dffe132bbe16d830e2aa7367ed40a540f5c7fd64/research/literal-selected-move-join/PR-DESCRIPTION.md",
+  "tree": "bec15cf8a12a539dd879854268684fb74694b096",
+  "files": 54,
+  "replay_metadata_repair_parent": "dffe132bbe16d830e2aa7367ed40a540f5c7fd64",
+  "metadata_repair": {
+    "scientific_bytes_unchanged": true,
+    "standalone_manifest": "REPRODUCTION.json",
+    "all_remote_blobs_checked": true,
+    "scope": "Filename/readme/inventory repair only; standalone replay remains available."
+  },
+  "post_metadata_repair_url_check": {
+    "http_status": 200,
+    "target_branch_visible": true,
+    "remote_commit": "5dd80e8ab9c989336b5e448e14147c2ba29da89b"
+  }
 }
