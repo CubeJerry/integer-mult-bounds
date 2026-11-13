@@ -2,17 +2,17 @@
   "schema": "moonshot-005-program-state-v2-compact",
   "branch": "research/moonshot-005-program",
   "repository": "CubeJerry/integer-mult-bounds",
-  "checkpoint_baseline_sha": "69eaf2a58f130d4e4135d3694d74b0e889439e00",
+  "checkpoint_baseline_sha": "01502a2c56e2e2239172caaa0f8ac812e062a10b",
   "checkpoint_sha_semantics": "Parent/baseline identity; never self-referential. Resulting remote SHA is confirmed after publication and recorded in next receipt or session handoff.",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
-  "upstream_last_checked_utc": "2026-11-13 12:54:54 UTC",
+  "upstream_last_checked_utc": "2026-11-13 13:25:14 UTC",
   "root_upstream_review": "Read exact7498 proof and complete7496 Lean source at pinned heads duringfinalreview; no code imported, no source/Lean replay claimed.",
   "session": "2026-11-13-S010",
   "session_started_utc": "2026-11-13 03:27:03 UTC",
   "session_planned_end_utc": "2026-11-13 13:27:03 UTC",
   "requested_session_seconds": 36000,
-  "session_status": "active-final-verification-and-publication",
-  "session_checkpoint_utc": "2026-11-13 13:24:17 UTC",
+  "session_status": "closed-durable-handoff-no-background-execution",
+  "session_checkpoint_utc": "2026-11-13 13:27:04 UTC",
   "background_execution": false,
   "phase": "construct-minimal-noncanonical-history-code-with-paid-chronology",
   "target_kappa": "1/200",
@@ -164,8 +164,8 @@
     "complete_complex_caller_sha256": "d9ba709fa5dcefffe3f3abdcf34600ce188224703cfd743e6db8b58ba4816cb7",
     "selected_index_sha256": "154c3d30455d778fd3343b6b4851f0fa4665f0f7625b0adb3675e2bafbbf6bf1"
   },
-  "last_verified_scientific_commit": "69eaf2a58f130d4e4135d3694d74b0e889439e00",
-  "last_verified_scientific_tree": "ca541ad6635ea4b08d9158f9391f2e391b3ff443",
+  "last_verified_scientific_commit": "01502a2c56e2e2239172caaa0f8ac812e062a10b",
+  "last_verified_scientific_tree": "80f9f670b60a6ed5a46289601d36c795efaff4ce",
   "archived_state": {
     "path": "sessions/2026-11-13-S010/logical-records-at-cp12/STATE.json",
     "source_commit": "35237fd8d59aeb3b0a21c9a427daca2f1eee9a60",
@@ -193,10 +193,16 @@
     "checkpoint13_baseline": "35237fd8d59aeb3b0a21c9a427daca2f1eee9a60",
     "results_index": "S010-RESULTS.md",
     "latest_validation": "sessions/2026-11-13-S010/CHECKPOINT14-VALIDATION.json",
-    "status": "active-final-publication",
+    "status": "closed",
     "checkpoint13_confirmed_remote_sha": "69eaf2a58f130d4e4135d3694d74b0e889439e00",
-    "checkpoint14_baseline": "69eaf2a58f130d4e4135d3694d74b0e889439e00"
+    "checkpoint14_baseline": "69eaf2a58f130d4e4135d3694d74b0e889439e00",
+    "closed_utc": "2026-11-13 13:27:04 UTC",
+    "elapsed_seconds": 36001.229814,
+    "checkpoint14_confirmed_remote_sha": "01502a2c56e2e2239172caaa0f8ac812e062a10b",
+    "final_handoff": "sessions/2026-11-13-S010/FINAL-HANDOFF.json"
   },
   "path_semantics": "Paths relative to research/moonshot-005-program unless stated otherwise.",
-  "publication_status": "Ongoing cumulativeprogramme; no newcompletekappa andnotPRready. No upstreamPR submitted; no backgroundexecution."
+  "publication_status": "Ongoing researchprogramme, this10hoursessionclosed andpublished. No newcompletekappa, no upstreamPR, no backgroundexecution.",
+  "session_closed_utc": "2026-11-13 13:27:04 UTC",
+  "session_elapsed_seconds": 36001.229814
 }

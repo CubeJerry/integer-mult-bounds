@@ -37,3 +37,12 @@ provenance, not automatically accepted mathematics. Their compatible verified
 packages, reconstructed notes and remaining gaps are distinguished in the
 archived logical records, SUPPORTING-RESULTS and source admissions.
 No new permanent branch or upstream PR was created this session.
+
+## Final13:25 continuity check
+
+Canonicalmain remains e54523517d0f03e58352e647c403a5af3e525a57.
+New open [#7499](https://github.com/CrocSwap/integer-mult-bounds/pull/7499),
+head501ce9eadc0e5662e9e64176701ec1912659d95c, concerns fixed-bank chart431
+owned-transport repairs. Finalmetadata/bodytriage only; no independent source
+replay, proofadmission or codeimport. Recheck relevance in the nextsession if
+that fixed source/interface is adopted. It is not a selected bound.
