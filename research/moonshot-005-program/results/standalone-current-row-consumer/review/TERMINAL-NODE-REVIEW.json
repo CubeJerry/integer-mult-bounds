@@ -1,0 +1,43 @@
+{
+  "status": "PASS_ROOT_TERMINAL_NODE_REVIEW",
+  "reviewed_note_sha256": "72b4eb2195ffe7c8c2d2a80b130670c571bf913d140536ac8a2b4519ca55a05e",
+  "source_facets": [
+    128,
+    129
+  ],
+  "facet_dimensions": [
+    8,
+    8
+  ],
+  "intersection_dimension": 7,
+  "hub_dimension": 9,
+  "negative_control": {
+    "moves": [
+      {
+        "source": "F1",
+        "target": "I",
+        "rank": 1
+      },
+      {
+        "source": "F2",
+        "target": "I",
+        "rank": 1
+      },
+      {
+        "source": "I",
+        "target": "Hub",
+        "rank": 2
+      }
+    ],
+    "symbolic_rows": [
+      "z1=d1 at F1; z2=d2 at F2",
+      "move z1,z2 to I, then z1+=z2",
+      "move z1=d1+d2 from I to Hub"
+    ],
+    "original_D_fields_retained": true,
+    "first_original_node_departures_distinct": 2,
+    "shared_downset_exit_event": 3,
+    "explanation": "The last one MOVE exits both facet downsets. Counting distinct downset first exits would be invalid; counting source-node departures remains valid."
+  },
+  "proof_review": "For each original facet node, fix Hub z by b variation -R delta. Only D at that node varies. Conditional outside-target rank is(m-1)V, so total messages departing that node have scalar capacity at least(m-1)V; different source-node event sets are disjoint. All message costs are at least1. This proves the scoped all-m bound, not a different earlier schedule."
+}

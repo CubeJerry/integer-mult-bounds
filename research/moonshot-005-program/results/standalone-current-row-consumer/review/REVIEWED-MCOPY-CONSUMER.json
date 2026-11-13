@@ -1,0 +1,94 @@
+{
+  "format": "worker-c-reviewed-mcopy-consumer-v1",
+  "status": "PASS_INDEPENDENT_STANDALONE_CONSUMER_M3_COMPOSITION_AND_TERMINAL_GATE",
+  "source_commit": "cbc210ca0eb82c74a021b4f1b744e2e07e07e00b",
+  "author_inputs": [
+    {
+      "path": "programme/research/shared-wire-split-composition/data/final.json.gz",
+      "sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883"
+    },
+    {
+      "path": "programme/research/shared-wire-split-composition/FULL-RESULT.json",
+      "sha256": "d9ba709fa5dcefffe3f3abdcf34600ce188224703cfd743e6db8b58ba4816cb7"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/joint-current-row-codes/cyclic-dual/WORD.json.gz",
+      "sha256": "ca493a06385fc55a1b1b2d30ddb638c7f5b021d19459aa6b0b8c85e3797510d2"
+    },
+    {
+      "path": "worker-a/next/multicopy-consumer/source-evidence/PROOF.md",
+      "sha256": "1d016a8958c035a3251d5c87256835ccdcd8f6aa4573818053728bb3dd35e9d9"
+    },
+    {
+      "path": "worker-a/next/multicopy-consumer/source-evidence/rail-repaired.json.gz",
+      "sha256": "90440c9115da1b98242113832c296faf314caf0ab7e0743119275dbfc372c9d2"
+    },
+    {
+      "path": "worker-a/next/multicopy-consumer/source-evidence/PURE-RAIL-RESULT.json",
+      "sha256": "a816768b8d71fb74755653f4888b673f980e67b8d9cea7d2e7594c5680d39aae"
+    },
+    {
+      "path": "worker-a/next/multicopy-consumer/source-evidence/B7-COORDINATE-CHOICE.json",
+      "sha256": "24fc794c72895918eb810225a0b8c9f1d7d0266a70073e322861b084d05596b2"
+    },
+    {
+      "path": "worker-a/next/multicopy-consumer/source-evidence/CHART-MAPS.json",
+      "sha256": "747e0386e9f47b904ebe7215bcb095babd0ee7821cd9187769c49d3d138f63cb"
+    },
+    {
+      "path": "worker-a/next/multicopy-consumer/source-evidence/extract_rail.py",
+      "sha256": "7eba542316bfb1a0ae70fee8f2201b7b15abfcfa3cb59f84014f3331608ec372"
+    },
+    {
+      "path": "worker-a/next/multicopy-consumer/source-evidence/build_mcopy.py",
+      "sha256": "c1126456f16c748e9405450dabbd54824b80b2768c9f8072698484b09b881c73"
+    },
+    {
+      "path": "worker-a/next/multicopy-consumer/append_consumer.py",
+      "sha256": "702e1bc1412a095530b542a47b31abece20e74e5431591b433713cecd7a9a39b"
+    },
+    {
+      "path": "worker-a/next/multicopy-consumer/output/rail-consumer.json.gz",
+      "sha256": "a235a7e58f9eb96c6d409a88095fd6b59c977977baabb8735c76b2b820dcbedc"
+    },
+    {
+      "path": "worker-a/next/multicopy-consumer/output/RAIL-CONSUMER-RESULT.json",
+      "sha256": "6dd88eea05c9d8a627ec8c5bf611ced5fe4db2b34f3d35ccefbc041588aff548"
+    },
+    {
+      "path": "worker-a/next/multicopy-consumer/build_mcopy_consumer.py",
+      "sha256": "46bac1baca0bc366dd84d3d8756444acf2832504601bccf3931b36d77b8ddc52"
+    },
+    {
+      "path": "worker-a/next/multicopy-consumer/m3/WORD.json.gz",
+      "sha256": "9001ff407427dd86176f5d2ef9ba6d3baef457c023b132e36648d3f7c1159124"
+    },
+    {
+      "path": "worker-a/next/multicopy-consumer/m3/RESULT.json",
+      "sha256": "b9c3834e1ac8015b3265d72203c0eb7388faaeb69cedf541142009dee00d8f4b"
+    }
+  ],
+  "reviewer_outputs": [
+    {
+      "path": "worker-c/check_mcopy_consumer.py",
+      "sha256": "da3604a82da8b29363deabfe7896e1b4dcd151e1862c73db5d844d7f82fdf0a1"
+    },
+    {
+      "path": "worker-c/check_mcopy_consumer.json",
+      "sha256": "e11bf42f77784fffae8a71b3302c9cb7fd59124b410005e5d885831f9f5b25b6"
+    },
+    {
+      "path": "worker-c/APPEND-ONLY-TERMINAL-GATE.md",
+      "sha256": "72b4eb2195ffe7c8c2d2a80b130670c571bf913d140536ac8a2b4519ca55a05e"
+    }
+  ],
+  "independent_checks": [
+    "Replayed Q base, appended B7+24 consumer, native W, and entire m=3 word with fresh stdlib Fraction row semantics; imported no author verifier.",
+    "Compared Q consumer patch instruction-by-instruction with independently reconstructed full actual M columns.",
+    "Rebuilt m3 program as literal Q/Q/W/recoupling concatenation and checked every 2,280-input common/private output row.",
+    "Recomputed T_m/P_m from pinned full caller and actual Qpaid MOVE profile; exact integer-power intervals agree with the frozen receipt.",
+    "Checked all96 D facets distinct/restored, M has96 nonzero columns before consumer and65 after, all other Q terminal rows independent of hosted b/d, and all31 consumer MOVEs inherit the pinned cyclic chart pairs.",
+    "Verified the six standalone repair MOVE pairs are exactly the six certified new chart pairs; all other standalone MOVE pairs occur in cyclic parent."
+  ],
+  "terminal_gate_scope": "Append-only private-only suffix after current Q endpoint, or after the fixed-m word with shared W already spent/common outputs restored. Does not cover changing earlier Q/current rows or future funded shared/native transport; no new kappa."
+}

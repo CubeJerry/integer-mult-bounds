@@ -1,3 +1,32 @@
+## S010 checkpoint2 — full fitting rigidity and the required earlier redesign
+
+The source now has a complete **minimum-rank operator fitting classification**:
+for both96 hosted and104 first-X roots, every characteristic-zero fitting with
+identity blocks, the prescribed zeros and rank8V is a blockwise gauge of Gram.
+A source-bound Jordan argument removes the formerly open singular-contact
+exception. Independent geometry and algebra review checks all three finite
+spans, separately for both source sets. Whole-coordinate support geometry is
+unchanged throughout this entire minimum-rank family; this grants no physical
+implementation or price reduction. See results/minimum-rank-fitting-rigidity/.
+
+The actual31-return consumer has also been composed with standaloneQ and the
+literal m3 source. Its83345 operations and all2280 input directions are checked
+independently; reverse rank58 and24 complete hosted outputs survive, with
+remaining per-rail moment10.326451084899253. A new terminal node-source theorem
+shows that no fixed multiplicity rescues append-only private completion of this
+exact state: it needs96 calls per base rail, or65 after the paid31, against
+limiting remaining rooms57.0963403 and26.0963403 respectively. The deficit is
+strictly greater than38.9036597 even at the limiting ceiling. This proof counts
+original chart-node departures, avoiding double-counted downset exits.
+
+The next construction must therefore change the earlier joint forward/reverse
+acquisition, use an honestly funded common interface, or leave the minimum-rank
+static fitting architecture. Higher-rank/overcomplete and mixed packet work is
+active; author-checked packet-cycle variants are not yet integrated as proved.
+Both strict suppliers above.005 and all five foundations remain open. **No new
+κ; ongoing programme, not PR-ready.** Historical conclusions below retain their
+original scope. This is an intermediate checkpoint of the active ten-hour session.
+
 ## S010 checkpoint1 — independent rails and a sharp current-row consumer frontier
 
 The cyclic partial map now has a **standalone400-input rail**, with no common-input dependency. Six paid rank-one repairs replace its common-history accesses. Independent source and phase review checks all400 directions,4779 operations,371 retired lifetimes and peak29. A universal fixed-integer-m construction runs this rail m-1 times with one shared common native; actual m2/m3 words preserve all1880/2280 independent inputs. The complete helper-credit loss and every outer/native/packet call remain charged.
