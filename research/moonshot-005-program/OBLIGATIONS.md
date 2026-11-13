@@ -752,3 +752,21 @@ COUPLED-SELF-RESPONSE — partial actual source progress. Four-entry dyadic and
 two-lane words, plus a causal eight-entry mixed consumer, are frozen author
 evidence. Independent admission and full-price usefulness remain separate;
 appending eight fresh returns fails the actual full current invoice.
+
+## S010 checkpoint8 — historical modes and the coded source target
+
+| Obligation | Exact status and dependencies |
+|---|---|
+| E7-TWO-SUBSPACE | Proved for all proper real-subspace pairs: root-line union<=52, attained. Chamber/parabolic reduction plus two independent enumerations; actual foreign55..62. results/bit-monotone-arrival-gate/. |
+| BIT-MONOTONE-CANONICAL | Disproved in local/invertible-through monotone interface:222 facet visits versus120. Scalars all characteristic-two fields; blocks only canonical/invertible-Schur stratum. Generated caches only. |
+| BIT-SINGULAR-HISTORY | Proved all-field cell/poset normalization with actual kernels, first-arrival ground values and compatibility: rank(A)<=qV+sum nu<=8qV. Independently reviewed by root and C. results/bit-source-packet-scattering/. |
+| BIT-ONE-PACKET | Disproved full111-target completion in this interface, all V:8V<9V. No claim q>=9 after mode exchange. |
+| BIT-SCALAR-HISTORY-RANK | Proved rank(A)>=10 for completed scalar q<=9, via scalar rigidity and E7. General noncommuting10V unresolved. |
+| BIT-EIGHT-TARGET-BUS | Proved finite partial source, all222 columns:242MOVEs,30ADDs, all X restored and eight Y completed;103 incomplete. Eight independent historical modes. results/bit-source-packet-exchange-bus/. |
+| BIT-EIGHT-CODED-FLAGS | OPEN primary BIT source. Eight actual descending packet flags and111 ascending X/Y flags, full222 endpoints, actual G/D_C/compatibility and all costs. Unit-route1618 first fits even m6 conditionally; no supplier. results/bit-eight-packet-target/. |
+| COMPLEX-DYADIC-FOUR-ENTRY | Proved finite partial word and400-input review, literal m3 schedule/composition. Coupled residual7, hosted58; full endpoints open. results/four-call-dyadic-entry/. |
+| COMPLEX-TWO-LANE-ENTRY | Proved distinct rational partial word,400-input/current-row/map review. Coupled residual3/four completions, hosted58; compiler/precision/full endpoints open. results/two-lane-coupled-entry/. |
+
+Single canonical-rank-one-patch obstruction, actual complex singular exchange,
+causal mixed consumer and joint cache screens remain frozen author evidence
+awaiting admission. Both suppliers and all foundations remain. No new kappa.

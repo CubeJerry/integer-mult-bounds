@@ -1,0 +1,32 @@
+{
+  "status": "PASS_INDEPENDENT_SCATTERING_PARAMETERIZATION_CONTROLS_AND_BUS_RANK",
+  "proof_pins": {
+    "PROOF.md": "5713d1b4e06be85211c3ef0bd8b4312090554dbb6a55f35e2394415a92c14d18",
+    "next/PROOF.md": "8511f06a30329e7708d8d20f843ca16c426e8870ae03b0e26ffc025a0cb98172"
+  },
+  "method": "Two-sided binary row/column elimination, not author generalized-inverse construction; written universal proof reviewed separately.",
+  "all_binary_3_by_3_through_matrices": 512,
+  "rank_distribution": {
+    "0": 1,
+    "1": 49,
+    "2": 294,
+    "3": 168
+  },
+  "actual_input_reconstruction_cases": 4096,
+  "incompatible_output_controls_rejected": 1477,
+  "omitted_kernel_controls_rejected": 1477,
+  "actual_bus_word_sha256": "9caac6d9b939c60bbfe54937bd30f2b2f6b2037a99f6e3a35ec10ac2794341be",
+  "actual_bus_ground_and_historical_modes": [
+    1,
+    128,
+    64,
+    32,
+    16,
+    8,
+    4,
+    2
+  ],
+  "actual_bus_historical_rank": 8,
+  "late_zero_terminal_control_rejected": true,
+  "scope": "Finite controls only; separate root review proves all-field/all-V algebra and poset induction. Actual111-target endpoint remains open; q>=2 is necessary only."
+}

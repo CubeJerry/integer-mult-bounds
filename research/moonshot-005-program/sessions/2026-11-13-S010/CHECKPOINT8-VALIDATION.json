@@ -1,0 +1,58 @@
+{
+  "status": "PASS_INSTALLED_PATH_EXACT_REVIEWS",
+  "matching_receipts": {
+    "bit-monotone-arrival-gate/review-geometry/RESULT.json": {
+      "replay_sha256": "b8fd8a8dd34d545ac69e5178e672ae833da6b0735c0069a28a61ad800f591793",
+      "frozen_sha256": "b8fd8a8dd34d545ac69e5178e672ae833da6b0735c0069a28a61ad800f591793",
+      "byte_identical": true,
+      "json_value_identical": true
+    },
+    "bit-monotone-arrival-gate/author/BIT-REVERSAL-BUDGET.json": {
+      "replay_sha256": "35c157cd14fc318c327faa7ec65d11fa0e674ef5f35f1fb1e547d5f68f237595",
+      "frozen_sha256": "35c157cd14fc318c327faa7ec65d11fa0e674ef5f35f1fb1e547d5f68f237595",
+      "byte_identical": true,
+      "json_value_identical": true
+    },
+    "four-call-dyadic-entry/review/RESULT.json": {
+      "replay_sha256": "ed84416b21975e7ceb58485a051f50b8c8b1a106687fac41b86317445f9ed26a",
+      "frozen_sha256": "af4b6a6d2c4aff6914ba84d3446ebec5d6120ceb3caf62f3264b5ef0455aae4d",
+      "byte_identical": false,
+      "json_value_identical": true
+    },
+    "two-lane-coupled-entry/review/RESULT.json": {
+      "replay_sha256": "aa5b9003d9d69742a08ac5637e4c249e23eee5d9877e6ce3eca6c3fc3fe46077",
+      "frozen_sha256": "93648d2db053bfd824d28d9c4aa815638fbac591242264b284702493ebd17818",
+      "byte_identical": false,
+      "json_value_identical": true
+    },
+    "bit-source-packet-exchange-bus/review/RESULT.json": {
+      "replay_sha256": "24301bd0600cf2cc50d0b5179943068b6aae280df5b768ae7d5de049143a46b0",
+      "frozen_sha256": "24301bd0600cf2cc50d0b5179943068b6aae280df5b768ae7d5de049143a46b0",
+      "byte_identical": true,
+      "json_value_identical": true
+    },
+    "bit-source-packet-scattering/review-root/RESULT.json": {
+      "replay_sha256": "f81ee484eb9d7913201465fc7474d9407b20a89d258a59ea719977562dbb5923",
+      "frozen_sha256": "f81ee484eb9d7913201465fc7474d9407b20a89d258a59ea719977562dbb5923",
+      "byte_identical": true,
+      "json_value_identical": true
+    },
+    "bit-eight-packet-target/author/RESULT.json": {
+      "replay_sha256": "f1ec7b16a986c7b7ce7d9a3788bbea2943810cfd70386e554bd14a21759e07e2",
+      "frozen_sha256": "f1ec7b16a986c7b7ce7d9a3788bbea2943810cfd70386e554bd14a21759e07e2",
+      "byte_identical": true,
+      "json_value_identical": true
+    },
+    "bit-source-packet-scattering/review-adversarial/RESULT.json": {
+      "replay_sha256": "74406941f3832c8d623cb3ddc6cbae2199b71e95523d433855160ee4a5d41f05",
+      "frozen_sha256": "74406941f3832c8d623cb3ddc6cbae2199b71e95523d433855160ee4a5d41f05",
+      "byte_identical": true,
+      "json_value_identical": true
+    }
+  },
+  "serialization_note": "Dyadic and two-lane JSON object insertion order differs, but all parsed values are identical; frozen bytes are preserved.",
+  "independence": "Root and C independently enumerate E7 flats in different coordinates; B reviews root terminal/facet proof; root and C independently review B singular-cell proof with different finite controls; C independently replays root bus; B independently interprets complex400-input words with dense rational rows. Reproduction is not another independent review.",
+  "m3_scope": "Literal83325-operation schedules and all2280 chart/lifetime trajectories plus admitted block composition; not full2280-column dense replay.",
+  "launch_correction": "Dyadic/two-lane review use python3 -B for sibling dense_engine; initial -I import failure was corrected.",
+  "scope": "No complete BIT or complex source, supplier or kappa."
+}

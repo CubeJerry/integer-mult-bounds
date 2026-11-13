@@ -763,3 +763,25 @@ endpoint completion remain open. Incompatible source gains are not added.
 Credit remains @CubeJerry and retained predecessor/native/caller authors;
 OpenAI assistance is disclosed. No new κ; both strict suppliers and all five
 foundations remain. Ongoing programme, not PR-ready.
+
+## S010 historical-mode interface and source witnesses
+
+The [sharp E7 theorem](results/bit-monotone-arrival-gate/ADMISSION.md) establishes
+52-root union for any two proper subspaces and the declared222-versus120
+monotone canonical-interface obstruction. Its universal reduction and two
+exact implementations are retained. The [singular-cell theorem](results/bit-source-packet-scattering/ADMISSION.md)
+explains the surviving mechanism: actual historical kernel modes supplement
+terminal information with every compatibility retained. Rank<=8qV excludes
+one packet for the full source; scalar q<=9 completion requires rank>=10.
+The general noncommuting minimal singular-Schur stratum remains open.
+
+The [literal exchange bus](results/bit-source-packet-exchange-bus/ADMISSION.md)
+completes eight actual BIT targets and restores all X, independently checked
+on all222 directions;103 Y targets remain. The [q8 movement target](results/bit-eight-packet-target/ADMISSION.md)
+fits fixed m6 conditionally, not covered/ordinary supplier admission. The
+[dyadic](results/four-call-dyadic-entry/ADMISSION.md) and [two-lane](results/two-lane-coupled-entry/ADMISSION.md)
+complex words are distinct independently reviewed partial constructions with
+full debts retained, not stackable gains. No new kappa. Both strict suppliers
+and all five foundations remain. Ongoing, not PR-ready. @CubeJerry and retained
+source/predecessor credit, substantial OpenAI assistance and exact independent
+review scope are explicit; no human or proof-kernel acceptance is claimed.

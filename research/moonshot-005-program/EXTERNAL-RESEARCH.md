@@ -527,3 +527,19 @@ before checkpoint5. Root independently replayed its three assessment receipts,
 including cross-engine intervals and source controls. It remains a supplemental
 lower-target assessment, with missing suppliers explicit, not a change of the
 permanent .005 target. No upstream branch or selected certificate is altered.
+
+## S010 checkpoint8 — targeted09:28 upstream review
+
+Canonical main remained e54523517d0f03e58352e647c403a5af3e525a57 at
+2026-11-13 09:28:22 UTC. Open CrocSwap/integer-mult-bounds#7481 at
+89eaa9d8cae37c1540de98f2d29a3abaabb96a2b claims conditional
+.003647081039689 through a funded485/1455 determinant-one helper replacement,
+paid delta{1:+1,3:-1,4:-1,6:+1} and charged ordinarywork. Funded producer
+handoff is relevant; no independent source/full replay admission or selected
+certificate change is claimed. Credit Clear1nsight, Rohan Arun and #7480/#7334.
+
+ToikY's open#7482 at db68969c04ce473128364f42eec8273734f02326 reports a
+fixed-cut dirty-owned restoration obstruction; #7483 at
+2f51505f287e2c5ee6fc0c70441d887732ef9cd6 reports a finite common-plane screen
+with large explicitly untested families. Metadata/bodies were read; no source
+histories merged or broad theorem inferred. Receipt: sessions/2026-11-13-S010/UPSTREAM-0928.json.

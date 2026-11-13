@@ -954,3 +954,18 @@ and independent admission remain separate. Continue toward13:27:03UTC.
 Next resolve the terminal gate, then affordable nonmonotone turns or changed
 source; construct useful mixed complex access within its complete invoice.
 No new κ or PR readiness. Remote SHA is recorded after confirmation.
+
+## 2026-11-13-S010 — checkpoint8, continuing (2026-11-13 10:16:07 UTC)
+
+Baseline2a6c542f4de62e87f95ad5eb7720217ff70676ef, tree17a2171ac813dce29b135bc3699bafe6160e347b. Proved E7 two-subspace52 and canonical222/120
+gate with independent geometry/proof reviews. Generalized singular-cell
+normalization independently reviewed twice: actual rank<=8qV, q1 excluded,
+q2..8 open; scalar rank>=10 with block caveat. Independent coordinate bus
+completes eight BIT targets and restores all X. Exact q8 unit-route conditional
+invoice first fits even m6, margin1.2838623420838017; endpoint/source and strict
+covered/ordinary admission remain. Complex dyadic/two-lane alternatives admitted
+after dense400-input review and m3 schedule/composition checks. Eight installed
+receipts match; prior scientific bytes preserved. Canonical unchanged09:28;
+open#7481..7483 descriptions recorded without admission. Complex exchange,
+rank-one-patch and joint caches remain under review. Continue toward13:27:03UTC.
+No new kappa or PR readiness; resulting SHA is recorded after confirmation.

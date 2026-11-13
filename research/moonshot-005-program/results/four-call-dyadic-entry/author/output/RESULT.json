@@ -1,0 +1,177 @@
+{
+  "all_coupled_Y_at0_for_packet_reads": true,
+  "all_hosted_reverse_D_rows_unchanged": true,
+  "all_raw_paths_and_forward_packet_reads_literal": true,
+  "bill": {
+    "counts": {
+      "ADD": 3591,
+      "CLEAR": 398,
+      "INIT": 398,
+      "MOVE": 836,
+      "SCALE": 9
+    },
+    "instructions": 5232,
+    "lifetimes": 398,
+    "moves": {
+      "1": 204,
+      "2": 132,
+      "3": 96,
+      "4": 20,
+      "5": 199,
+      "6": 1,
+      "7": 4,
+      "8": 172,
+      "9": 8
+    },
+    "peak": 29
+  },
+  "canonical_cross_actions_constructed": false,
+  "completed_coupled_reverse_ports": [
+    17
+  ],
+  "completed_firstY_ports": [
+    5,
+    56,
+    65,
+    69,
+    77,
+    96,
+    100,
+    103
+  ],
+  "conditional_canonical_cross_condensed_rank": 7,
+  "conditional_canonical_cross_joint_rank": 15,
+  "coupled_correction_visible_in_Gram_rowspace": true,
+  "coupled_reverse_correction_matrix": [
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "-1",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "coupled_reverse_residual_rank": 7,
+  "forward_residual_a_basis": 4569,
+  "hosted_reverse_residual_rank": 58,
+  "information_inverse": "y=2c-u*c17; x=a+u*c17",
+  "input_directions": 400,
+  "joint_reverse_residual_rank": 65,
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "negative_controls": [
+    {
+      "event": 8,
+      "name": "wrong_rank1_entry_sign",
+      "rejected": true
+    },
+    {
+      "event": 20,
+      "name": "missing_half_scale",
+      "rejected": true
+    },
+    {
+      "event": 27,
+      "name": "missing_physical_pivot_add",
+      "rejected": true
+    }
+  ],
+  "new_chart_pairs": [],
+  "new_forward_residual_original_inputs": 4573,
+  "old_forward_residual_original_inputs": 4920,
+  "ordinary_increment": {
+    "ADD": -5,
+    "CLEAR": -4,
+    "INIT": -4,
+    "MOVE": -4,
+    "SCALE": 7
+  },
+  "paid_move_increment": {
+    "1": -4
+  },
+  "parent_rail_sha256": "a235a7e58f9eb96c6d409a88095fd6b59c977977baabb8735c76b2b820dcbedc",
+  "pure_coupled_Gram_observation_supplied": false,
+  "scalar_denominators": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "scope": "Actual partial400-input source with4 coupled entry calls. Coupled reverse correction rank7 remains unpaid; no complete endpoint or supplier. Both strict suppliers and all five foundations remain.",
+  "status": "PASS_ACTUAL_FOUR_CALL_DYADIC_ENTRY",
+  "word_payload_sha256": "69412f99e3668ffeceafc1c5d3e7fd9cd89ebafcdda2d9e6dfdf2c5672b3b71b",
+  "word_sha256": "806280ff6b56eada3927251ff09ae8b26e9388fd770320dd7fa382aef1782502"
+}

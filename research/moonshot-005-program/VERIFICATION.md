@@ -830,3 +830,30 @@ checks root's nineteen-port pigeonhole consequence. Finite certificates
 instantiate the source-bound proof; they do not replace it. Author manifests
 and source pins are retained. CHECKPOINT7-VALIDATION.json records both
 installed-path replays. Every earlier scientific byte is unchanged. No new κ.
+
+## S010 checkpoint8 — independent geometry, algebra and literal words
+
+The E7 theorem uses an analytic reduction covering all real normals. Root's
+pairing-coordinate orbits and C's ambient rational reflections independently
+produce8821 flats and sharp52;51 is rejected. B separately reviews the facet
+argument. The final proof explicitly requires zero-started, actually generated
+caches; the reviewed draft is preserved.
+
+Root and C separately audit B's generalized-inverse identities, first-arrival
+boundary and poset/facet support proof. Root's distinct oracle checks512 binary
+3x3 maps,4096 inputs and1477 rejecting controls of each kind; C checks16 binary
+2x2 maps,256 packet-input matrices and10 image negatives. C independently
+replays the exchange bus on all222 columns with rational inclusions, ownership
+and four controls. B's dense rational400-input engine checks both complex
+variants; shared native phase predicate is disclosed. Literal m3 schedules
+and all2280 chart/lifetime trajectories plus admitted composition are not a
+full2280-column replay.
+
+Eight installed-path JSON receipts agree in every value; six are byte-identical.
+Dyadic/two-lane object-key order differs; frozen bytes are preserved and both
+hashes are recorded in CHECKPOINT8-VALIDATION.json.
+Reproduction is not additional independent review. Selected independent
+reversal/source-chain reviews are included; heuristic logs are not admitted.
+C independently rederives the q8 real threshold near4.28858525225, hence first
+even m6. Strict covered/ordinary supplier distinctions were rechecked. All
+previous scientific bytes remain; no new complete endpoint or kappa.

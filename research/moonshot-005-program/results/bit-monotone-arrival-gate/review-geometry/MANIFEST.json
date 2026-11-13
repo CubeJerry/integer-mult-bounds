@@ -1,0 +1,29 @@
+{
+  "status": "PASS_INDEPENDENT_E7_GEOMETRY_REVIEW",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "root_artifacts_reviewed": {
+    "root-work/e7_two_subspace.py": "abe55753396d8fb0d2c89dee862c147ed1f13d4c2f6ab818114ea666004d3a66",
+    "root-work/E7-TWO-SUBSPACE.json": "b0a1cbfd69306f0049280fac74c102cc3f5b4a3e0f11075137ae4d4571977e7f",
+    "root-work/E7-MONOTONE-ARRIVAL-GATE-WIP.md": "a3f1d464d3234e202d361de9d899bac336b1d445df5a15c6978a8df6d8d9e3df"
+  },
+  "independent_review_artifacts": {
+    "worker-c/e7-two-subspace-review/review_e7_subspace_union.py": "39a29fc2a8706795a47d6bee97e916c9a0fde44d8654b0c1cee70d74ea8af599",
+    "worker-c/e7-two-subspace-review/RESULT.json": "b8fd8a8dd34d545ac69e5178e672ae833da6b0735c0069a28a61ad800f591793",
+    "worker-c/e7-two-subspace-review/REVIEW.md": "80255d51091c9e5f81e06953521afb30010752571799fdfa97668603d3c34391"
+  },
+  "review_findings": {
+    "full_e8_root_lines": 120,
+    "fixed_e7_root_lines": 63,
+    "parabolic_masks": 8821,
+    "maximum_two_proper_subspace_union": 52,
+    "sharp_e6_pair": {
+      "first_root_lines": 36,
+      "second_root_lines": 36,
+      "intersection": 20,
+      "union": 52
+    },
+    "actual_contact_line_min_max": [55, 62],
+    "universal_real_subspace_reduction": "PASS_CLOSED_DOMINANT_CHAMBER",
+    "arrival_accounting_scope": "GEOMETRY_ONLY; monotone trajectory/locality and block-fitting premises require separate review"
+  }
+}

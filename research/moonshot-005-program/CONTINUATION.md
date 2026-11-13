@@ -1,3 +1,19 @@
+# Current continuation — S010 checkpoint8
+
+Resume exact remote HEAD; checkpoint parent2a6c542f4de62e87f95ad5eb7720217ff70676ef. Session active until
+13:27:03UTC. Build a COMPLETE coded eight-packet source on actual monotone
+flags, all222 endpoints restored. Its1618 unit-route movement profile fits
+fixed even m6 conditionally. Singular packet-through exchanges escape the
+canonical terminal gate; actual historical modes and compatibility are
+mandatory. Scalar fitting rank>=10; q1 impossible allV; general10V not proved.
+The eight-target bus is real, but uncoded14-bus tilings are too expensive.
+
+Read six new ADMISSION files in STATE. Complex dyadic/two-lane entries are
+independently checked alternatives; full mixed acquisition/forward restoration
+remain. Review frozen complex exchange, rank-one patch and joint cache screens
+next. Covered C>.005, valid atom/ordinary bootstrap, uniform complex U>.005
+and all foundations remain. No new kappa; ongoing, not PR-ready.
+
 # Current continuation — S010 checkpoint7
 
 Resume exact remote HEAD; checkpoint parent3e85cc219287839b9cd1ebcf78a838762de4f962. Session remains active

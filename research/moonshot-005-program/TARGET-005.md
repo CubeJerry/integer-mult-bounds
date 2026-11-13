@@ -857,3 +857,41 @@ The complex kernel lane has exact delta4[6]+4[2]-4[8], costing
 Its separate rank-three observer costs3.0728242054203196... and leaves
 7.25362687947893... . These are incomplete-word allowances, not supplier
 savings. No entry-call reduction or endpoint completion follows.
+
+## S010 checkpoint8 — exact eight-packet movement target
+
+Singular packet-through D_C is compatible with an invertible full local map.
+Use actual first-arrival values Z0 and historical T_C=h_C P_in, retaining
+(I-D_C R_C)(P_out-C_C X_in)=0. Then rank(A)<=rank(G)<=qV+sum nu_C<=8qV,
+where completion requires9V. q1 is excluded; q2..8 remain. Scalars require
+rank(A)>=10; general blocks retain the open minimal singular-Schur stratum.
+No arbitrary fitting receives a free source or physical observations.
+
+For q8, fully unit-splitting original X/Y/packet routes gives Q={1:1618}.
+P_m=(m/2)P2-18(m-1)N+18(m-1)Q, T_m=(m/2)T2-18(m-1)H.
+At t=199/200, m4 margin is below-.36081623729523404; m6 margin lies in
+(1.2838623420838016852,1.2838623420838016853), the first positive even m.
+Full m6 counts:20520 targets,209286 paid positions, integer rank surplus4428.
+Limiting room3.750880211152355246... admits at most three additional unit
+calls for any finite m; m6 admits one. These profiles assume a complete
+source. All222 main endpoints, initial acquisition, chart maps, ordinarywork,
+owned states, physical compilation and strict covered saving remain open.
+1618 is the specified unit-split profile, not a lower bound for jump schedules.
+
+Strict covered C>1/200 is distinct from movement at t=.995. From b0=.00385248,
+one ordinary stage above.005 requires C>3112961/621875000. Hypothetical
+C=.0050001,rho=.0051 admits two stages to B=.00500007 only after source and
+atom/stock contracts are established. Compatible complex U>.005 and all
+five foundations remain. No cover loss or compiler tail is waived.
+
+The E7 union52 theorem gives222 required facet visits versus111+q for
+canonical foreign support. At q9,102 extra upward-local arrivals cannot fit
+even optimistic direct-route room11.54200672705252... . Separate reversal
+bounds give U<=2 with clean X, U<=5 with arbitrary monotone X/Y, and R<=6
+when all original routes may turn. Strict-descendant source caps are not a
+general nonmonotone obstruction: upper-endpoint reads can carry nonlocal modes.
+
+Complex dyadic and rational two-lane alternatives have literal m3 partial
+rooms14.326451084899253... and12.151589455482453... . Their debts differ and
+discounts cannot be stacked. Hosted96 firstY target is x+y; coupled8 firstY
+is(x+y)/2. Preserve this convention in every joint colour recoding.

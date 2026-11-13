@@ -1,0 +1,40 @@
+{
+  "status": "PASS_ORDERED_BLOCK_IDENTITY_CONTROLS",
+  "field": "GF2",
+  "block_size": 2,
+  "noncommuting_units": true,
+  "read_checks": [
+    {
+      "read_index": 0,
+      "future_local_support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "ordered_identity": true
+    },
+    {
+      "read_index": 1,
+      "future_local_support": [
+        0,
+        1
+      ],
+      "ordered_identity": true
+    },
+    {
+      "read_index": 2,
+      "future_local_support": [
+        0
+      ],
+      "ordered_identity": true
+    },
+    {
+      "read_index": 3,
+      "future_local_support": [],
+      "ordered_identity": true
+    }
+  ],
+  "commuted_product_rejected": true,
+  "scope": "Concrete controls supporting written all-V proof; actual E7 geometry is a separately reviewed dependency."
+}

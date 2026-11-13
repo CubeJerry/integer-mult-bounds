@@ -1,0 +1,345 @@
+{
+  "bill": {
+    "counts": {
+      "ADD": 3575,
+      "CLEAR": 402,
+      "INIT": 402,
+      "MOVE": 849,
+      "SCALE": 4
+    },
+    "instructions": 5232,
+    "lifetimes": 402,
+    "moves": {
+      "1": 214,
+      "2": 135,
+      "3": 96,
+      "4": 24,
+      "5": 197,
+      "6": 1,
+      "7": 7,
+      "8": 168,
+      "9": 7
+    },
+    "peak": 29
+  },
+  "completed_coupled_reverse_ports": [
+    30,
+    47,
+    52,
+    60
+  ],
+  "coupled_reverse_rank": 3,
+  "first_X_move_events": {
+    "17": 3023,
+    "19": 2450,
+    "38": 3025,
+    "40": 2452
+  },
+  "forward_residual_a_basis": 4569,
+  "hosted_reverse_rank": 58,
+  "input_directions": 400,
+  "joint_reverse_rank": 61,
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "negative_controls": [
+    {
+      "event": 61,
+      "name": "miss_physical_half",
+      "rejected": true
+    },
+    {
+      "event": 3560,
+      "name": "wrong_lane_sign",
+      "rejected": true
+    },
+    {
+      "event": 4516,
+      "name": "miss_late_inverse",
+      "rejected": true
+    }
+  ],
+  "new_chart_pairs": [
+    [
+      3,
+      318
+    ],
+    [
+      3,
+      336
+    ],
+    [
+      3,
+      902
+    ],
+    [
+      3,
+      905
+    ],
+    [
+      16,
+      318
+    ],
+    [
+      18,
+      336
+    ],
+    [
+      35,
+      318
+    ],
+    [
+      36,
+      336
+    ],
+    [
+      105,
+      336
+    ],
+    [
+      127,
+      318
+    ],
+    [
+      318,
+      105
+    ],
+    [
+      318,
+      905
+    ],
+    [
+      318,
+      1105
+    ],
+    [
+      336,
+      3
+    ],
+    [
+      336,
+      902
+    ],
+    [
+      336,
+      1100
+    ],
+    [
+      902,
+      143
+    ],
+    [
+      902,
+      162
+    ],
+    [
+      905,
+      145
+    ],
+    [
+      905,
+      163
+    ]
+  ],
+  "new_charts": [],
+  "new_forward_residual_original_inputs": 5020,
+  "ordinary_increment": {
+    "ADD": -21,
+    "CLEAR": 0,
+    "INIT": 0,
+    "MOVE": 9,
+    "SCALE": 2
+  },
+  "packet_basis": [
+    [
+      "1/8",
+      "-1/8",
+      "0",
+      "0",
+      "1/8",
+      "-1/8",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "packet_basis_inverse": [
+    [
+      "8",
+      "1",
+      "0",
+      "0",
+      "-1",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "paid_move_increment": {
+    "1": 6,
+    "2": 3,
+    "4": 4,
+    "5": -2,
+    "7": 3,
+    "8": -4,
+    "9": -1
+  },
+  "pair_charts": {
+    "CA": 902,
+    "CB": 905,
+    "EA": 318,
+    "EB": 336,
+    "line": 105
+  },
+  "parent_rail_sha256": "a235a7e58f9eb96c6d409a88095fd6b59c977977baabb8735c76b2b820dcbedc",
+  "payload_sha256": "595f23ab7c1b45357573f804fe5ccbf2843a98ae504bb4e23056dd97a1318336",
+  "scalar_denominators": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    12,
+    16
+  ],
+  "scope": "Actual partial400-input two-lane preconditioner. Four outside entries remain; reverse rank61 and all4569 forward coefficients remain owed. No complete supplier. Hosted/coupled cross acquisitions, mixed reverse observations, compiler precision and both strict suppliers remain open.",
+  "status": "PASS_ACTUAL_TWO_LANE_PRECONDITIONER",
+  "word_sha256": "e68cf993d0975c4e05bc366a4fefe9fea1b59e5ca0990c9c75f8c79ad62159d7"
+}

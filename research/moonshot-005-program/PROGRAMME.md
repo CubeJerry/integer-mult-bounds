@@ -1,3 +1,38 @@
+## S010 checkpoint8 — historical modes change the packet interface
+
+The next construction uses information-preserving source/packet exchanges.
+A sharp E7 theorem proves two proper subspaces cover at most52 root lines,
+while each actual foreign receiver support has55..62. It excludes the
+monotone additive/invertible-through canonical interface:222 required facet
+visits exceed120 available, even after changing local X paths. This is a
+scoped theorem, not a general multiplication lower bound.
+
+A singular packet-through cell escapes terminal-only normalization. Its ACTUAL
+kernel coordinates augment first-arrival ground values, with all image and
+chronological constraints retained. For q persistent monotone packets,
+rank(A)<=qV+sum(nullities)<=8qV. The proved9V fitting minimum excludes one
+packet. Two through eight remain open. Scalar completion requires historical
+fitting rank at least10; arbitrary noncommuting blocks retain the open minimal
+singular-Schur alternative. Static fresh-nine-field bounds do not become
+nine-persistent-packet bounds in this changed interface.
+
+One actual packet now exchanges modes along a coordinate flag, completes
+eight BIT targets and restores every X on all222 inputs. Independent replay
+checks all242MOVEs and30ADDs. The other103 Y outputs remain incomplete. Plain
+uncoded tilings need at least14 packets and fail the full caller; completion
+needs coded interaction across frames.
+
+The concrete target has eight mutable packets and unit-rank refinements of
+all original paths, paying1618MOVEs. Its conditional invoice first has positive
+movement margin at fixed even m6:1.2838623420838017... per rail; limiting room
+3.750880211152355... . The full222-input endpoint word is unbuilt. This is
+movement feasibility, not covered BIT or ordinary completion admission.
+Separately, dyadic four-entry and rational two-lane complex words are admitted
+partial constructions after independent400-input review. Their alternative
+gains cannot be added; complete mixed acquisition and forward restoration
+remain open. Both strict suppliers and all five foundations remain. No new
+complete kappa; ongoing programme, not PR-ready.
+
 ## S010 checkpoint7 — decoder timing removed; a real early coupled lane
 
 The fixed clean-X cache obstruction now survives arbitrary packet read timing
