@@ -1,0 +1,24 @@
+{
+  "status": "FROZEN_INDEPENDENT_ONE_EXTRA_COSET_REVIEW",
+  "result": "PASS_INDEPENDENT_ONE_EXTRA_COSET_SOURCE_AND_EXTENSION_AUDIT",
+  "artifacts": {
+    "audit_one_extra_coset.py": "3d2fea4a54f3604098f3a0a7ea133aafd59b19907670b9c6ca06b76bb7346178",
+    "RESULT.json": "0165819c01619ed7bd4dcab7693215ff90b2caba3e76abe9ed5c0fc9e6d32926",
+    "REVIEW.md": "a45fe7e44bc383869f50293f83865345d43ae6e4697e4d83155f9f0a8f303e60"
+  },
+  "reviewed_pins": {
+    "programme/research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+    "worker-b/one-extra-coset/PROOF.md": "a6b0a34517fd550c1565be4af47c975c464c5373bf52f0aea5a487a68fdc04fd",
+    "worker-b/one-extra-coset/RESULT.json": "17f3ef72890ae5fb6e75825a83c06a4cad0d89b1e68fc9012ba704c62c0d31bb",
+    "worker-b/one-extra-coset/SOURCE-CERTIFICATE.json.gz": "51ae7b7442c63f3a038c78203adb47a08d2f6c09fb9768a30e472516f64a3c99",
+    "worker-b/one-extra-coset/verify.py": "ebfe2fd7fb4c12796d3bbd5a91ae3264b0bd95c19f024561807e38e2a932e486",
+    "worker-b/one-extra-coset/MANIFEST.json": "df8fa1ece0182cd8082345f3853dabb5d9021349c151a135270ca04eaa22c5b6",
+    "worker-b/scattering-feedback/next/PROOF.md": "8511f06a30329e7708d8d20f843ca16c426e8870ae03b0e26ffc025a0cb98172",
+    "worker-b/scattering-feedback/PROOF.md": "5713d1b4e06be85211c3ef0bd8b4312090554dbb6a55f35e2394415a92c14d18",
+    "programme/research/moonshot-005-program/results/bit-monotone-arrival-gate/PROOF.md": "d9cf390a4300c47d786141b2013d1a2f2d60e5eb692473c910a8ffcfd043da43",
+    "root-work/final-path-q8-budget/RESULT.json": "f1ec7b16a986c7b7ce7d9a3788bbea2943810cfd70386e554bd14a21759e07e2",
+    "root-work/BIT-REVERSAL-BUDGET.json": "35c157cd14fc318c327faa7ec65d11fa0e674ef5f35f1fb1e547d5f68f237595"
+  },
+  "execution": "python audit_one_extra_coset.py --repo programme --root-package worker-b/one-extra-coset --output worker-c/one-extra-coset-review",
+  "method": "Reconstructed rational source roots and K independently; low-bit F2 elimination; did not use or run the root source certificate/verifier. Added written field-extension distance and availability transfer."
+}

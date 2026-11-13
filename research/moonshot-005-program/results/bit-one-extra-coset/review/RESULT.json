@@ -1,0 +1,108 @@
+{
+  "status": "PASS_INDEPENDENT_ONE_EXTRA_COSET_SOURCE_AND_EXTENSION_AUDIT",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "reconstructed_code_dimension": 9,
+  "basis_ports": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    9,
+    14,
+    30,
+    59
+  ],
+  "all111_normals_distinct_nonzero": true,
+  "single_zero_ranks": {
+    "count": 111,
+    "all": 8
+  },
+  "pair_zero_intersection_ranks": {
+    "count": 6105,
+    "all": 7
+  },
+  "pair_closed_neighborhood_intersection": {
+    "maximum": 36,
+    "histogram": {
+      "25": 1,
+      "26": 18,
+      "27": 108,
+      "28": 332,
+      "29": 797,
+      "30": 1101,
+      "31": 903,
+      "32": 699,
+      "33": 830,
+      "34": 846,
+      "35": 385,
+      "36": 85
+    }
+  },
+  "binary_codeword_count": 512,
+  "minimum_binary_codeword_weight": 48,
+  "sharp_witness": {
+    "h_support": [
+      1,
+      10
+    ],
+    "F2_availability_count": 36,
+    "available_rows": [
+      0,
+      3,
+      5,
+      6,
+      14,
+      15,
+      20,
+      21,
+      38,
+      40,
+      43,
+      45,
+      52,
+      54,
+      56,
+      58,
+      66,
+      67,
+      70,
+      71,
+      81,
+      82,
+      84,
+      86,
+      88,
+      89,
+      92,
+      93,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "not_coordinate_over_any_extension_by_distance_transfer": true
+  },
+  "coordinate_availability_is_exact_closed_neighborhood": true,
+  "extension_field_transfer": {
+    "rank_invariance": "All source matrices have entries in F2; a nonzero minor remains nonzero and zero minors remain zero under every characteristic-two extension.",
+    "distance_argument": "If an extended codeword had support<48, its >63 zero coordinates give a rank<9 punctured generator matrix; extension rank invariance yields a nonzero binary codeword with the same zero coordinates, contradicting binary distance48.",
+    "availability_argument": "For binary h and each binary restriction matrix, rowspace membership over an extension is equivalent to equality of ranks of binary augmented matrices, hence to base-field membership.",
+    "coordinate_coset_negative_control": "For h=e1+e10, h+c e_l is nonzero with support<=3 for every extension scalar c and every l; it cannot be in the extended code of distance48."
+  },
+  "rank2_three_normal_negative_control": {
+    "pair_conditions_hold": true,
+    "global_q_exists": false
+  },
+  "proof_audit": {
+    "gluing_scope": "Pair-difference relations force a global q only when the available binary normals span rank>=3.",
+    "dependent_normal_handling": "For any extra normal a, at least two of an independent triple remain independent modulo span(a); intersecting the corresponding spans(a,a_i) therefore leaves only span(a), including when a is a selected normal or a dependent sum.",
+    "rank2_exception": "Three distinct nonzero normals 01,10,11 can satisfy all pairwise relations without one global q; this prevents extending the gluing lemma to rank2 by assertion.",
+    "main_bound": "For any nonzero noncoordinate coset, availability<=36. A coset with>=37 available normals has rank>=3, glues to a representative supported in the common closed neighborhood; two support coordinates force availability<=36, so only a single-coordinate coset remains."
+  },
+  "scope": "Scalar characteristic-two fields, the pinned actual code C+span(h), and its vertex-gauge equivalent only. No arbitrary rank-ten space or entangled operator extension."
+}

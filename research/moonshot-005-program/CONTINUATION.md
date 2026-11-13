@@ -1,3 +1,19 @@
+# Current continuation — S010 checkpoint10
+
+Exact checkpoint baseline a94ad0d0adc3e360d3be319b064a594adfc3fec9; resume the actual remote HEAD. Session
+active until13:27:03UTC. New verified source constraints: scalar C+one extra
+mode fails; each projective quotient direction saves at most17 arrivals;
+F2/F4 priced interfaces require at least THREE quotient dimensions outside C.
+This is not an arbitrary rank12 bound. General Y feedback is outside the
+arrival gate but inside the earlier q>=8 downset cut.
+
+Complete q8 all222-source remains primary. Review the frozen binary-four
+extension in wip before using it; its catalogue/cap argument is not admitted
+yet. Complete independent admission of actual compensated complex D ferries
+that preserve old forward delivery. Every actual mode, physical route,
+ordinary/owned/precision cost, strict covered/ordinary supplier, compatible
+complex supplier and all foundations remain. No new kappa; not PR-ready.
+
 # Current continuation — S010 checkpoint9
 
 Resume exact remote HEAD; recorded checkpoint baseline 6f586e6a2940d51bc686d00c3cd3a4982000c8a5.

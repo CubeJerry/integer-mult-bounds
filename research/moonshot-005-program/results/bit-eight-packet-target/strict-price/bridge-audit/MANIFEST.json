@@ -1,0 +1,22 @@
+{
+  "status": "FROZEN_CONDITIONAL_TARGET_BRIDGE_AUDIT",
+  "result": "PASS_EXACT_CONDITIONAL_TARGET_BRIDGE_ARITHMETIC",
+  "artifacts": {
+    "check_rational_bridge.py": "fcb13761e09093ef7c115ad119bab656e2f30d0bb65f1337e7309b605c9a4a10",
+    "RESULT.json": "cfec78e6f1527d0ab4edaa6782feccb8d1fa442a1c567ef3b841d78c03a2c7f1",
+    "NOTE.md": "b7a88195ae41ea8afb418066227365089211b28beb4cdfb2378c6bceedd8a420"
+  },
+  "reviewed_pins": {
+    "programme/research/bit-target-bootstrap/PROOF.md": "fff9e71930ceb31c82b3a56c245cd2ae4209451a937f7ccdc24142f74b0eaf2e",
+    "programme/research/bit-target-bootstrap/RESULT.json": "1a9114afbfe9d1eb97e26f5b613014632585ca3584d46db3a324dfaa691cdcf4",
+    "programme/research/moonshot-005-program/results/bit-eight-packet-target/author/RESULT.json": "f1ec7b16a986c7b7ce7d9a3788bbea2943810cfd70386e554bd14a21759e07e2",
+    "programme/research/moonshot-005-program/results/bit-eight-packet-target/strict-price/author-uniform/PROOF.md": "fb8e8592a7305fd27797047a73807160cffb207fdf5121b438e60dbe1e55a1a7",
+    "programme/research/moonshot-005-program/results/bit-eight-packet-target/strict-price/author-uniform/RESULT.json": "8178c76d1a20c39faf11c02bbb1c143eff151c4bb7ad717fd098ba8067137936",
+    "programme/research/moonshot-005-program/results/bit-eight-packet-target/strict-price/author-two-prices/PROOF.md": "3ad51ec509305fa86e4052c9491f77f53cf3cddf7cff53bd2600d87e8ae4225b",
+    "programme/research/moonshot-005-program/results/bit-eight-packet-target/strict-price/author-two-prices/RESULT.json": "1ead49806d5bde7e0be794c362ab8abba657dfdaeb1fb5278feb051ab6016397",
+    "programme/research/moonshot-005-program/results/bit-eight-packet-target/strict-price/review/REVIEW.md": "3fcaba51397f532af7b35035b3f658d913c54a0b4cff18db18162b4ca32bcdda",
+    "programme/research/moonshot-005-program/results/bit-eight-packet-target/strict-price/review/RESULT.json": "61d93d95db5460899710f054aa5230fd3569c7911b549f0b3be86494d04f8117"
+  },
+  "execution": "python check_rational_bridge.py --bootstrap programme/research/bit-target-bootstrap --strict-price programme/research/moonshot-005-program/results/bit-eight-packet-target/strict-price --output worker-c/target-bridge-audit",
+  "scope": "Exact rational witness/loss arithmetic and provenance. Explicitly no k-to-C implication, supplier, or compiler admission."
+}

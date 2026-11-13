@@ -933,3 +933,23 @@ all96 needs at least20 new directions. Complete transfer with changes confined
 to the old8-space plus k new receiver directions needs k>=76. These are
 direction counts, not packet/MOVE prices; changed earlier source maps escape
 the fixed-interface premise. No costs are removed by algebraic decoding.
+
+## S010 checkpoint10 — projective direction and admission requirements
+
+For the scalar no-Y-feedback arrival interface, let d be the number of nonzero
+projective row classes modulo canonical C. Completion needs
+d>=ceil((111-q-e)/17). At q8 this gives7,6,6 directions for e=0,1,3; q9
+requires6 even with11 optimistic extra arrivals. Thus the F2/F4 quotient span
+must have dimension>=3. This is a necessary source-code condition; it supplies
+no actual modes or charts. If the historical code contains C, dimension>=12;
+arbitrary fitting rank12 is not established. The broader downset cut still
+allows Y feedback, whereas this code gate does not.
+
+The exact target bridge distinguishes movement k, covered C and completed B.
+Hypothetical C=.0050001,rho=.0051 gives the retained strict two-stage witness
+B=.00500007, with positive relaxation gaps3569/500000000000 and57/500000000000.
+The changed stock/primitive contracts remain unproved. Illustrative kmax-to-C
+differences are not compiler credit: no such conversion theorem exists here.
+The movement-only1618 profile must be replaced by an actual complete signed
+invoice including ordinary/owned/precision/compiler work, then cover and
+strictification losses. Compatible complex U>.005 remains separate.

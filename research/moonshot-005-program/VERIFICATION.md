@@ -888,3 +888,22 @@ in JSON key insertion order. Prior scientific bytes remain unchanged.
 Three expensive frozen author-only archives have member/manifest hashes
 verified, with no mathematical admission. CHECKPOINT9-VALIDATION.json records
 all scopes and receipts. No complete source, supplier or new kappa.
+
+## S010 checkpoint10 — independent code gluing and sharp direction price
+
+C reconstructs the canonical code with a different binary pivot order and
+checks111 zero-set ranks8,6105 pair ranks7, distance48 and the sharp36-availability
+witness. Its review supplies the explicit punctured-rank field-extension lemma
+missing from the author's compressed wording. The dependent-three-normal
+example rejects rank-two gluing without the required premise.
+
+B independently checks root's17 theorem using pure-Python full120-root
+perpendicular closures. Hadamard bounds all root minors by256, so prime257
+preserves exact real rank. This differs from root's integerGram-adjugate/NumPy
+census and reproduces every exceptional count and the rank-ten120-entry
+sharp witness. The205-visit support proxy is not a realized physical source.
+
+Three installed-path receipts reproduce the frozen values. Target arithmetic
+is exact and explicitly grants no k-to-C conversion. Every earlier scientific
+byte remains. The proposed binary-four catalogue/cap extension is frozen only
+as WIP pending its separate independent proof/source review.

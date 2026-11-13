@@ -1,3 +1,28 @@
+## S010 checkpoint10 — the canonical code needs genuinely new directions
+
+One scalar extra mode beyond the canonical nine-code is now ruled out by an
+exact gluing theorem. It is available at at most36 rows unless it is equivalent
+to a single coordinate, which cannot remove enough foreign dependencies.
+All111/6105 source restriction ranks and the all-extension-field argument
+are independently verified. This is a scoped code obstruction, not a claim
+about every rank-ten fitting.
+
+A sharp17-saved-visits theorem now quantifies the required departure from C.
+Each nonzero projective quotient direction saves at most17 facet arrivals.
+Both the universal reduction and exceptional actual-source geometry have an
+independent implementation. The binary and F4 priced interfaces require at
+least THREE quotient dimensions outside C; codes containing C plus only two
+new modes fail. Rank>=12 follows only if C is actually contained in the
+historical code. A larger binary-four extension is preserved as author-only
+evidence pending its own independent review.
+
+The main source task remains an actual chronological q8 code with all222
+endpoints and full invoice. On the complex side, a coordinated compensated
+D-ferry mechanism has produced a new partial author word preserving both old
+forward packets; independent causal/phase/caller admission is under way.
+It is not yet counted as a complete construction. Both strict suppliers and
+all five foundations remain; no new kappa, ongoing and not PR-ready.
+
 ## S010 checkpoint9 — eight packets are necessary; completion requires a new code
 
 The downset-cut theorem now proves q>=8 for ALL-volume linear computation

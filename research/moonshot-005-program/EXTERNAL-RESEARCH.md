@@ -543,3 +543,17 @@ fixed-cut dirty-owned restoration obstruction; #7483 at
 2f51505f287e2c5ee6fc0c70441d887732ef9cd6 reports a finite common-plane screen
 with large explicitly untested families. Metadata/bodies were read; no source
 histories merged or broad theorem inferred. Receipt: sessions/2026-11-13-S010/UPSTREAM-0928.json.
+
+## S010 targeted11:23 upstream check
+
+Canonical main stayed e54523517d0f03e58352e647c403a5af3e525a57 at
+11:23:27UTC. Clear1nsight's open#7481 retained head89eaa9d8cae37c1540de98f2d29a3abaabb96a2b
+and its unselected conditional claim; no independent source admission here.
+ToikY's open#7491 (dddd54739f25edc3f331c6faf21c0d2b7ef974d2) reports fixed
+receiver-bank rank obstructions for19 terminal owned transfers; changed
+producer histories/banks are outside. Open#7487 (080c7b23ed897b9b4d52ba7cb2fb92336524dddb)
+reports one fixed-sector J8 rank2-versus3 host obstruction, with other fibres
+and sector-dependent routes open. Bodies and targeted recent metadata read;
+these source-specific reports supply neither a new compatible supplier nor
+a general obstruction to the programme's changed histories. Receipt:
+sessions/2026-11-13-S010/UPSTREAM-1123.json. No source histories merged.

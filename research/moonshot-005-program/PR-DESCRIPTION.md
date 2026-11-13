@@ -808,3 +808,22 @@ alone in the fixed source quotient. All proofs, source pins, independent
 reviews and precise controls are linked in those admissions. @CubeJerry and
 predecessor credit are retained; work is OpenAI-assisted. No new kappa; both
 strict suppliers and all five foundations remain. Ongoing, not PR-ready.
+
+## S010 exact quotient-code obstruction
+
+The [one-extra-coset theorem](results/bit-one-extra-coset/ADMISSION.md) proves
+global gluing and sharp36 availability over every characteristic-two scalar
+field, including the explicit extension-field distance argument. It closes
+the canonical code plus one-mode architecture without classifying all rank-ten
+fits. The [seventeen-savings theorem](results/bit-quotient-direction-savings/ADMISSION.md)
+has a second exact geometric implementation and a sharp algebraic control.
+It forces at least three quotient dimensions outside C over F2/F4 in the
+specified priced interfaces. Rank12 is claimed only for codes containing C.
+
+The [target bridge audit](results/bit-eight-packet-target/strict-price/bridge-audit/ADMISSION.md)
+keeps movement, covered and completed exponents distinct and rechecks the
+strict rational bootstrap witness. No new kappa; complete source, both strict
+suppliers and all five foundations remain. @CubeJerry, retained predecessors,
+B/C/root proof and independent review credit and OpenAI assistance are explicit.
+The binary-four extension and compensated ferry are still being admitted;
+their speculative status is preserved. Ongoing, not PR-ready.

@@ -789,3 +789,18 @@ The downset cut allows Y feedback; the fitting-distance theorem does not.
 Do not silently transfer the latter to the broader cut model. Frozen causal
 and joint/mixed cache archives remain author-only WIP; storing them is not
 admission. Both suppliers and all five foundations remain open.
+
+## S010 checkpoint10 — exact scalar code separation
+
+| Obligation | Status and dependencies |
+|---|---|
+| BIT-ONE-EXTRA-COSET | Proved all characteristic-two scalar fields: availability>36 forces coordinate class; exact gluing from all pair zero-set ranks7. C+one mode cannot satisfy the priced no-Y-feedback interface. results/bit-one-extra-coset/. |
+| BIT-SEVENTEEN-PER-DIRECTION | Proved sharp source-specific bound, all characteristic-two scalar fields: ell sum>=222-17d. Independent Gram/perpendicular source enumerations. results/bit-quotient-direction-savings/. |
+| BIT-QUOTIENT-DIMENSION-THREE | Proved F2/F4 requirement dim((rowA+C)/C)>=3 for priced q8/q9 interfaces. No arbitrary rank12 or block statement. |
+| BIT-BINARY-FOUR-EXTENSION | AUTHOR-ONLY, independent review pending: proposed binary quotientdim>=4 for specified q8 unit invoice. Complete frozen catalogue/cap evidence in wip/S010-binary-four-quotients/. Not admitted. |
+| BIT-MOVEMENT-TO-COVERED | OPEN: actual source and full compiler/cover/strictification cost yielding strict covered C. Target-bridge audit rechecks exact arithmetic but supplies no conversion. |
+| COMPLEX-COMPENSATED-D-FERRY | Partial author source plus root400-column replay; causal/phase/m3 independent review pending. Existing forward debt retained. Not yet a verified-result admission at this checkpoint. |
+
+The main q8 all222 source remains open. Codes with more independent directions,
+general Y feedback and genuinely noncommuting block representations remain
+available escapes under their full physical/recursive costs.

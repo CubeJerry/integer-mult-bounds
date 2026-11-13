@@ -984,3 +984,17 @@ bytes retained. Three frozen author-only source archives preserved without
 admission. Continue coordinated acquisition and one-extra-coset investigation
 toward13:27:03UTC while protecting verification/publication. No new kappa or
 PR readiness; resulting SHA is recorded only after remote confirmation.
+
+## 2026-11-13-S010 — checkpoint10, continuing (2026-11-13 11:46:21 UTC)
+
+Baseline a94ad0d0adc3e360d3be319b064a594adfc3fec9, tree fe15b27c43ff71375946b92ed71bef4b3dea2041. Independently admitted one-extra-coset gluing,
+including explicit scalar-extension distance transfer. Independently admitted
+sharp17 savings per projective quotient direction using distinct exact source
+geometry; F2/F4 priced interfaces need quotientdimension>=3, not arbitrary
+rank12. Exact target bridge rechecked without k-to-C substitution. Three
+installed receipts match. Binary-four source catalogue/cap extension is frozen
+as author-only WIP while independent review runs. Actual compensated cross-D
+ferry preserves forward delivery in author/root400 replay; phase/caller review
+continues. Canonical unchanged11:23, selected openPR scopes recorded. Continue
+to13:27:03UTC with verification/publication reserve. No new complete kappa or
+PR readiness; resulting SHA recorded only after remote confirmation.
