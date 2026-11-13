@@ -1,0 +1,77 @@
+{
+  "schema": "worker-c-final-upstream-review-v1",
+  "checked_at_utc": "2026-11-13T12:54:54Z",
+  "repository": "CrocSwap/integer-mult-bounds",
+  "current_main": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "review_file": {
+    "path": "REVIEW.md",
+    "sha256": "595f577c5cab2e9be140ea4338800de5b9c1503f718c483e8cab9d0d3492fe72"
+  },
+  "pull_requests": [
+    {
+      "number": 7498,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7498",
+      "state": "open",
+      "title": "Bound fixed-paid productive endpoint exchanges on #7481",
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "head_sha": "f69879a7dc7e633151e582dae11f4480290405c9",
+      "selected_files": [
+        {
+          "path": "research/p104-fixed-paid-productive-endpoint-exchanges/PROOF.md",
+          "git_blob_sha": "cb073c4e746c56dd5af1ab7920687fc0be93c0dc"
+        },
+        {
+          "path": "research/p104-fixed-paid-productive-endpoint-exchanges/VERIFICATION.md",
+          "git_blob_sha": "a77a6d686ee3ecda14e030d8190c3093a24b6c7c"
+        },
+        {
+          "path": "research/p104-fixed-paid-productive-endpoint-exchanges/VERIFY.json",
+          "git_blob_sha": "253460c25470b5170a48add33dfb651cea50e956"
+        },
+        {
+          "path": "research/p104-fixed-paid-productive-endpoint-exchanges/independent/check_endpoint_windows.py",
+          "git_blob_sha": "df17ad98d4b32ef567764c91e8d22f9ace9842b2"
+        },
+        {
+          "path": "research/p104-fixed-paid-productive-endpoint-exchanges/cycle-prefix-independent/cycle1049_prefix.py",
+          "git_blob_sha": "ed74c68126d378983c5ab41e0c3a3b9a3dd926eb"
+        },
+        {
+          "path": "research/p104-fixed-paid-productive-endpoint-exchanges/cycle-independent/cycle1049_forward.py",
+          "git_blob_sha": "95947c626735501d2d206c0d835773fc766ef755"
+        }
+      ],
+      "large_input_not_downloaded": {
+        "path": "research/p104-fixed-paid-productive-endpoint-exchanges/inputs/7481-WORD.json.gz",
+        "archive_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+        "decompressed_native_sha256": "64fca675b91298868e12f09423b47e0c2327cba7095e35c8919c1953b4ed68b8"
+      }
+    },
+    {
+      "number": 7496,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7496",
+      "state": "open",
+      "title": "feat(formal): add zero-dependency Lean 4 Frontier 7000 ledger and universal rank-one fusion obstruction (no new κ)",
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "head_sha": "5dfe94ea4855b54bc31c2b4d55f86ddb78f8510b",
+      "selected_files": [
+        {
+          "path": "docs/research/zero-deps-lean-frontier-and-batch-obstructions.md",
+          "git_blob_sha": "4af930a1ca7b78dedee652d00ef11389d86f801d"
+        },
+        {
+          "path": "formal/lean/Frontier7000ZeroDeps.lean",
+          "git_blob_sha": "d827e74cfbca61dc509a5fa1fbac90941cb0d697"
+        }
+      ],
+      "independent_compile": false,
+      "reason": "Lean and Lake are not installed in the review workspace."
+    }
+  ],
+  "review_status": {
+    "source_integration": false,
+    "full_7498_replay": false,
+    "7496_lean_compile": false,
+    "scope": "Read PR bodies and selected proof/check files; independent mathematical spot review only."
+  }
+}

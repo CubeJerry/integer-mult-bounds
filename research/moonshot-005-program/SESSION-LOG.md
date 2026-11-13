@@ -1028,3 +1028,23 @@ Canonical main unchanged at last check; targeted newPR triage ongoing.
 Next: actual nonclass q8 history/restoration, with separate complex preterminal
 source and strict supplier obligations. No new completekappa or PR readiness.
 ResultingremoteSHA to be recorded onlyafterGitHubconfirmation.
+
+## 2026-11-13-S010 — checkpoint13, final research integration (2026-11-13 13:13:07 UTC)
+
+Baseline35237fd8d59aeb3b0a21c9a427daca2f1eee9a60. Independently admitted class-history quotient closure,
+including Yfeedback through actualX projections. Exactclassq8 requiresrankG_x>15V;
+scalar16/kernel8, arbitraryblocks only15V+1/7V+1. Classified fifteen distinct
+rank16 binaryspaces U+<K_i>; the15 classes exhaustnonzeroC/(C intersectU),
+with111 exactfacet-localrepairs matched byindependent implementations. No
+physicalavailability or sufficientq8word claimed. Four installedreceipts match.
+Preserved rootstreamaccounting review and pinned finalupstreamtriage:7498fixed
+family no gain,7496Intdeterminant lemma notF2det4 witness, neitherfoundation
+closure. Mainunchanged e545235. No source merged andno upstreamPRcreated.
+
+Compacted currentlogicalviews while archiving all8 exactCP12preimages and
+preserving143 earlierregisteredclassifications; two newresultentries added.
+SESSION-LOG remainsappend-only and all2125 prior scientificfiles unchanged.
+Nextconstructanactualpaid handoff forone16modecandidate, thenfull222endpoints
+andcompleteinvoice. Separatecomplexsource andstrictsuppliers remainopen.
+No newcompletekappa; branchongoing/notPRready. Sessioncontinues to13:27:03UTC
+forfinalverification andremoteconfirmation; resultingSHA reportedafterpush.

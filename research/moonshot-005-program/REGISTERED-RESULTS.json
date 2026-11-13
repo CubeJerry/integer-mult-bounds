@@ -1,0 +1,881 @@
+{
+  "baseline_sha": "35237fd8d59aeb3b0a21c9a427daca2f1eee9a60",
+  "scope": "Complete pre-consolidation registered result list; classifications and source-specific limitations retained. A listed conditional or partial result is not promoted by inclusion.",
+  "results": [
+    {
+      "id": "BIT-CUT",
+      "status": "proved-within-normalized-linear-grammar",
+      "path": "results/bit-selector-boundary-floor/PROOF.md",
+      "review": "results/bit-selector-boundary-floor/INDEPENDENT-REVIEW.md"
+    },
+    {
+      "id": "H4-FIXED-SWITCH",
+      "status": "proved-source-bound-obstruction",
+      "path": "results/shared-core-temporal/PROOF.md",
+      "review": "results/shared-core-temporal/review/REVIEW.md"
+    },
+    {
+      "id": "H4-END",
+      "status": "proved-within-final-correction-grammar",
+      "path": "results/shared-core-temporal/ENDPOINT-REPAIR-PROOF.md",
+      "review": "results/shared-core-temporal/review-endpoint/REVIEW.md"
+    },
+    {
+      "id": "H4-CAP",
+      "status": "proved-linear-information-theorem-with-exact-source-certificate",
+      "path": "results/owned-cut-capacity/PROOF.md",
+      "review": "results/owned-cut-capacity/review/REVIEW.md"
+    },
+    {
+      "id": "CODED-LIFT",
+      "status": "conditionally-proved-no-all-event-witness",
+      "path": "results/shared-core-temporal/CODED-LIFT-INTERFACE.md",
+      "review": "results/shared-core-temporal/review/ADDITIONAL-REVIEW.md"
+    },
+    {
+      "id": "FRAG",
+      "status": "proved-scoped-threshold-and-static-obstruction",
+      "path": "../moonshot-helper-fragmentation/PROOF.md",
+      "review": "../moonshot-helper-fragmentation/review/fragmentation/REVIEW.md"
+    },
+    {
+      "id": "FRAG-COMP",
+      "status": "sufficient-arithmetic-for-unbuilt-inputs",
+      "path": "../moonshot-helper-fragmentation/COMPILER-SPECIFICATION.md",
+      "review": "../moonshot-helper-fragmentation/review/compiler/REVIEW.md"
+    },
+    {
+      "id": "H4-ARRIVAL",
+      "status": "proved-source-bound-causal-information-floor",
+      "path": "results/causal-arrival-floor/PROOF.md",
+      "review": "results/causal-arrival-floor/review/REVIEW.md"
+    },
+    {
+      "id": "H4-CALENDAR",
+      "status": "proved-source-calendar-linear-obstruction",
+      "path": "results/decoder-calendar-capacity/PROOF.md",
+      "review": "results/decoder-calendar-capacity/review/REVIEW.md"
+    },
+    {
+      "id": "ENCODED-PREFIX",
+      "status": "proved-finite-source-construction-with-open-continuation",
+      "path": "results/encoded-prefix/DEMAND-PROOF.md",
+      "review": "results/encoded-prefix/review-demand/REVIEW.md"
+    },
+    {
+      "id": "OWNED-LOCAL",
+      "status": "exact-source-identities-and-conditional-physical-interface",
+      "path": "results/owned-difference-delivery/BRIDGE.md",
+      "review": "results/owned-difference-delivery/review/REVIEW.md"
+    },
+    {
+      "id": "READ-DEADLINE",
+      "status": "proved-source-calendar-obstruction",
+      "path": "results/read-deadline-capacity/",
+      "review": "results/read-deadline-capacity/review/"
+    },
+    {
+      "id": "OWNED-HISTORY",
+      "status": "proved-exact-source-identities",
+      "path": "results/historical-owned/",
+      "review": "results/historical-owned/review/"
+    },
+    {
+      "id": "HISTORICAL-ACCUMULATOR",
+      "status": "conditional-reference-word-equivalence",
+      "path": "results/historical-accumulator/",
+      "review": "results/historical-accumulator/review/"
+    },
+    {
+      "id": "PRELOAD-HISTORY",
+      "status": "proved-paid-acquisition-conditional-reference-word",
+      "path": "results/entry-preload/",
+      "review": "results/entry-preload/review/"
+    },
+    {
+      "id": "PREPAID-BUDGET",
+      "status": "conditional-exact-profile",
+      "path": "results/prepaid-historical-budget/",
+      "review": "results/prepaid-historical-budget/review/"
+    },
+    {
+      "id": "QUIET-LOAN",
+      "status": "proved-finite-transform-with-no-required-geometric-gain",
+      "path": "results/quiet-route-loan/",
+      "review": "results/quiet-route-loan/review/"
+    },
+    {
+      "id": "PRELOAD-FULL",
+      "status": "proved-sharp-initial-only-count-and-finite-upper-word",
+      "path": "results/initial-preprocessing/PROOF.md",
+      "review": "results/initial-preprocessing/review/REVIEW.md"
+    },
+    {
+      "id": "QUOTIENT-HISTORY",
+      "status": "proved-source-linear-reduction-and-scoped-obstruction",
+      "path": "results/quotient-history/PROOF.md",
+      "review": "results/quotient-history/review/REVIEW.md"
+    },
+    {
+      "id": "ENDPOINT-46",
+      "status": "proved-all-V-linear-message-obstruction-on-granted-graph",
+      "path": "results/endpoint-obstruction/PROOF.md",
+      "review": "results/endpoint-obstruction/review/REVIEW.md"
+    },
+    {
+      "id": "RETURN-DEADLINE-4",
+      "status": "proved-scoped-rank-and-sender-obstruction",
+      "path": "results/temporal-observation-rank/PROOF.md",
+      "review": "results/temporal-observation-rank/review/REVIEW.md"
+    },
+    {
+      "id": "SEVEN-REWRITE",
+      "status": "conditional-reference-construction-and-exact-provisional-invoice",
+      "path": "results/seven-rewrite/PROOF.md",
+      "review": "results/seven-rewrite/review/REVIEW.md"
+    },
+    {
+      "id": "FUSED-RETURNS",
+      "status": "proved-conditional-block-equivalence-and-invoice",
+      "path": "results/fused-seven-rewrite/PROOF.md",
+      "review": "results/fused-seven-rewrite/review/REVIEW.md"
+    },
+    {
+      "id": "LIFETIME-CLOSURE",
+      "status": "proved-universal-word-elimination-and-conditional-reference-constructions",
+      "path": "results/lifetime-elimination/PROOF.md",
+      "review": "results/lifetime-elimination/review/REVIEW.md"
+    },
+    {
+      "id": "BIT-QUERY-CEILING",
+      "status": "proved-fixed-profile-exact-target-exclusion",
+      "path": "results/bit-query-budget/PROOF.md",
+      "review": "results/bit-query-budget/review/REVIEW.md"
+    },
+    {
+      "id": "PAUSED-ENDPOINT",
+      "status": "proved-source-typed-1880-input-partial-construction",
+      "path": "results/paused-common-loan/PROOF.md",
+      "review": "results/paused-common-loan/review/REVIEW.md"
+    },
+    {
+      "id": "SELECTIVE-PAUSE",
+      "status": "proved-four-route-refinement-by-state-composition",
+      "path": "results/selective-paused-loan/PROOF.md",
+      "review": "results/selective-paused-loan/review/REVIEW.md"
+    },
+    {
+      "id": "AUTHENTIC-RELAY",
+      "status": "proved-exact-source-reduction-and-conditional-local-prefix",
+      "path": "results/authentic-relay-interface/PROOF.md",
+      "review": "results/authentic-relay-interface/review/REVIEW.md"
+    },
+    {
+      "id": "RELAY-ACQUIRE",
+      "status": "proved-source-typed-prefix-for-all-inputs-under-retained-transports",
+      "path": "results/paid-observable-acquisition/PROOF.md",
+      "review": "results/paid-observable-acquisition/review/REVIEW.md",
+      "source_review": "results/paid-observable-acquisition/review-source/REVIEW.md"
+    },
+    {
+      "id": "RELAY-TARGET-BUDGET",
+      "status": "proved-complete-provisional-paid-profiles-no-composition",
+      "path": "results/relay-acquisition-budget/PROOF.md",
+      "review": "results/relay-acquisition-budget/review/REVIEW.md"
+    },
+    {
+      "id": "TERMINAL-EXPORT",
+      "status": "proved-scoped-linear-export-lower-bound-and-fixed-profile-exclusion",
+      "path": "results/terminal-hub-export/PROOF.md",
+      "review": "results/terminal-hub-export/review/REVIEW.md"
+    },
+    {
+      "id": "HISTORY-CUT",
+      "status": "proved-all-V-static-cut-with-free-main-histories-and-actual-two-form-rank",
+      "path": "results/static-history-obstruction/PROOF.md",
+      "review": "results/static-history-obstruction/review/REVIEW.md"
+    },
+    {
+      "id": "INITIAL-HELPER-ANNIHILATION",
+      "status": "proved-source-specific-all-history-zero-column-obstruction",
+      "path": "results/initial-helper-annihilation/PROOF.md",
+      "review": "results/initial-helper-annihilation/review/REVIEW.md"
+    },
+    {
+      "id": "DIFFERENCE-CARRIER",
+      "status": "proved-universal-sufficient-interface-four-toys-no-source-witness",
+      "path": "results/difference-carrier/PROOF.md",
+      "review": "results/difference-carrier/review/REVIEW.md"
+    },
+    {
+      "id": "S8-CROSSING-26",
+      "status": "proved-fixed-profile-corollary",
+      "path": "results/static-history-obstruction/S8-BUDGET-COROLLARY.md",
+      "review": "results/static-history-obstruction/review-s8-budget/REVIEW.md"
+    },
+    {
+      "id": "ACTIVE-OBSERVATION",
+      "status": "proved-source-identities-and-literal-partial-word-restoration-incomplete",
+      "path": "results/active-helper-observation/PROOF.md",
+      "review": "results/active-helper-observation/review/REVIEW.md"
+    },
+    {
+      "id": "PRESCRIBED-PULSE-103",
+      "status": "proved-scoped-all-future-control-obstruction",
+      "path": "results/itinerary-control-obstruction/PROOF.md",
+      "review": "results/itinerary-control-obstruction/review/REVIEW.md"
+    },
+    {
+      "id": "JOINT-MODULATION",
+      "status": "proved-linear-criterion-and-toy-no-native-witness",
+      "path": "results/joint-modulation/PROOF.md",
+      "review": "results/joint-modulation/review/REVIEW.md"
+    },
+    {
+      "id": "RECOVERABLE-ENCODER",
+      "status": "proved-linear-criterion-conditional-physical-lowering-no-native-witness",
+      "path": "results/recoverable-encoder/PROOF.md",
+      "review": "results/recoverable-encoder/review/REVIEW.md"
+    },
+    {
+      "id": "ADDITIVE-HISTORY-220",
+      "status": "proved-source-specific-all-time-q-only-additive-obstruction-no-extra-correlated-side-channel",
+      "path": "results/joint-additive-history-obstruction/PROOF.md",
+      "review": "results/joint-additive-history-obstruction/review/REVIEW.md"
+    },
+    {
+      "id": "STABLE-HISTORY-ENCODER",
+      "status": "proved-universal-neutral-history-gate-and-source-specific-single-encoder-exclusion",
+      "path": "results/stable-history-encoder/PROOF.md",
+      "source": "results/stable-history-encoder/source/PROOF.md",
+      "review": "results/stable-history-encoder/review/REVIEW.md"
+    },
+    {
+      "id": "CAUSAL-ENCODER-SCREEN",
+      "status": "proved-source-bound-chronological-necessary-reduction",
+      "path": "results/causal-encoder-screen/PROOF.md",
+      "review": "results/five-chart-history-conservation/review/REVIEW.md"
+    },
+    {
+      "id": "FIVE-CHART-HISTORY",
+      "status": "proved-source-bound-all-volume-feedback-obstruction",
+      "path": "results/five-chart-history-conservation/PROOF.md",
+      "review": "results/five-chart-history-conservation/review/REVIEW.md"
+    },
+    {
+      "id": "FEEDBACK-FACTORIZATION",
+      "status": "proved-general-fixed-linear-word-interface",
+      "path": "results/five-chart-history-conservation/FEEDBACK-INTERFACE.md",
+      "review": "results/five-chart-history-conservation/review/FEEDBACK-REVIEW.md"
+    },
+    {
+      "id": "E8-PREFIX",
+      "status": "proved-finite-partial-word",
+      "path": "results/eight-packet-prefix/PROOF.md",
+      "review": "results/eight-packet-prefix/review/REVIEW.md"
+    },
+    {
+      "id": "ROUTING-54/43",
+      "status": "proved-scoped-linear-routing-obstruction",
+      "path": "results/endpoint-side-information/PROOF.md",
+      "review": "results/endpoint-side-information/review/REVIEW.md"
+    },
+    {
+      "id": "E8-TARIFF",
+      "status": "proved-conditional-invoice-and-entry-contracted-macro",
+      "path": "results/eight-packet-budget-and-reverse/PROOF.md",
+      "review": "results/eight-packet-budget-and-reverse/review/REVIEW.md"
+    },
+    {
+      "id": "JOINT-RESTORE",
+      "status": "proved-algebraic-interface-conditional-physical-lowering",
+      "path": "results/joint-hub-restoration/PROOF.md",
+      "review": "results/joint-hub-restoration/review/REVIEW.md"
+    },
+    {
+      "id": "PURE-OVERWRITE-1472",
+      "status": "proved-source-bound-single-overwrite-obstruction",
+      "path": "results/single-overwrite-loss/PROOF.md",
+      "review": "results/single-overwrite-loss/review/REVIEW.md"
+    },
+    {
+      "id": "S006-joint-nonneutral",
+      "status": "proved-with-stated-source-or-interface-scope",
+      "path": "results/joint-nonneutral/PROOF.md",
+      "review": "results/joint-nonneutral/review/REVIEW.md",
+      "claim": "Full58 response rank and31-decoder interference in stated slots."
+    },
+    {
+      "id": "S006-unit-helper-census",
+      "status": "proved-with-stated-source-or-interface-scope",
+      "path": "results/unit-helper-census/PROOF.md",
+      "review": "results/unit-helper-census/review/REVIEW.md",
+      "claim": "Exhaustive38 scalar-unit slots,37accessible/rank35 withtwo zero columns."
+    },
+    {
+      "id": "S006-unit17-precompensation",
+      "status": "proved-with-stated-source-or-interface-scope",
+      "path": "results/unit17-precompensation/PROOF.md",
+      "review": "results/unit17-precompensation/review/REVIEW.md",
+      "claim": "80774-operation1880-input word restores1480 common and17 second shears."
+    },
+    {
+      "id": "S006-precorrected-observer",
+      "status": "proved-with-stated-source-or-interface-scope",
+      "path": "results/precorrected-observer/PROOF.md",
+      "review": "results/precorrected-observer/review/REVIEW.md",
+      "claim": "Two71713-operation variants with one shear and complete common restoration."
+    },
+    {
+      "id": "S006-e8-response-control",
+      "status": "proved-with-stated-source-or-interface-scope",
+      "path": "results/e8-response-control/PROOF.md",
+      "review": "results/e8-response-control/review/REVIEW.md",
+      "claim": "All-time77/0 duals exclude fixed Gram responses and rescalings."
+    },
+    {
+      "id": "S006-packet-admission",
+      "status": "proved-with-stated-source-or-interface-scope",
+      "path": "results/packet-admission/PROOF.md",
+      "review": "results/packet-admission/review/REVIEW.md",
+      "claim": "Conditional stacked packet criterion and94/96 exact-gain requirement."
+    },
+    {
+      "id": "S006-packet-gain-reduction",
+      "status": "proved-with-stated-source-or-interface-scope",
+      "path": "results/packet-gain-reduction/PROOF.md",
+      "review": "results/packet-gain-reduction/review/REVIEW.md",
+      "claim": "Exact private/history-null gain criterion; foreign-response witness open."
+    },
+    {
+      "id": "RETAINED-RAW-RECORDS",
+      "status": "proved-universal-field-linear-record-interface-no-source-provider",
+      "path": "results/retained-difference-records/PROOF.md",
+      "review": "results/retained-difference-records/review/REVIEW.md"
+    },
+    {
+      "id": "RESTORED-SWAP-60-213",
+      "status": "proved-source-typed-partial-native-with-complete-common-restoration",
+      "path": "results/reversible-helper-swap/PROOF.md",
+      "review": "results/reversible-helper-swap/review/REVIEW.md"
+    },
+    {
+      "id": "ALL104-HISTORY",
+      "status": "proved-source-bound-pairwise-feedback-obstruction-freshly-reconstructed",
+      "path": "results/all-pair-history-conservation/PROOF.md",
+      "review": "results/all-pair-history-conservation/review/REVIEW.md"
+    },
+    {
+      "id": "MIXED-SWAP-RETURNS",
+      "status": "proved-universal-field-information-interface-conditional-local-decoder",
+      "path": "results/mixed-swap-records/PROOF.md",
+      "review": "results/mixed-swap-records/review/ROOT-REVIEW.md"
+    },
+    {
+      "id": "FULLY-PAID-CODE-BOUND",
+      "status": "proved-scoped-source-linear-code-paid-moment-obstruction",
+      "path": "results/source-localised-code-budget/PROOF.md",
+      "review": "results/source-localised-code-budget/review/REVIEW.md"
+    },
+    {
+      "id": "FOREIGN-HISTORY-47",
+      "status": "proved-scoped-source-result",
+      "path": "results/foreign-history-channel/PROOF.md",
+      "review": "results/foreign-history-channel/review/REVIEW.md"
+    },
+    {
+      "id": "E8-ONE-CORRECTION",
+      "status": "proved-scoped-source-result",
+      "path": "results/eight-packet-one-correction/PROOF.md",
+      "review": "results/eight-packet-one-correction/review/REVIEW.md"
+    },
+    {
+      "id": "RAW-ROUTE-FUSION",
+      "status": "proved-scoped-source-result",
+      "path": "results/observation-preserving-route-fusion/PROOF.md",
+      "review": "results/observation-preserving-route-fusion/review/REVIEW.md"
+    },
+    {
+      "id": "CHART318-OLD-O",
+      "status": "proved-scoped-source-result",
+      "path": "results/retargeted-history-control/PROOF.md",
+      "review": "results/retargeted-history-control/ROOT-REVIEW.md"
+    },
+    {
+      "id": "E8-SEVEN",
+      "status": "proved-finite-partial-word",
+      "path": "results/eight-packet-seven-corrections/",
+      "review": "results/eight-packet-seven-corrections/review/REVIEW.md"
+    },
+    {
+      "id": "E8-SEVEN-FUSED",
+      "status": "proved-finite-rewrite-and-conditional-invoice",
+      "path": "results/eight-packet-seven-corrections-fused/",
+      "review": "results/eight-packet-seven-corrections-fused/review/REVIEW.md"
+    },
+    {
+      "id": "REVERSE-HISTORY-CONE",
+      "status": "proved-source-specific-fixed-map-obstruction",
+      "path": "results/reverse-history-cone/",
+      "review": "results/reverse-history-cone/review/REVIEW.md"
+    },
+    {
+      "id": "FIRST-FAMILY-DIRECT",
+      "status": "proved-partial-word-and-sharp-terminal-cut",
+      "path": "results/complete-first-family/",
+      "review": "results/complete-first-family/review/REVIEW.md"
+    },
+    {
+      "id": "CHART318-FULL-HISTORY",
+      "status": "proved-source-specific-full-history-factorization",
+      "path": "results/chart318-full-history/",
+      "review": "results/chart318-full-history/review/REVIEW.md"
+    },
+    {
+      "id": "RAW-PIVOT-INTERFACE",
+      "status": "proved-algebraic-interface-with-retained-physical-contracts",
+      "path": "results/reversible-raw-pivot-interface/PROOF.md",
+      "review": "results/reversible-raw-pivot-interface/review/REVIEW.md",
+      "recovery": "Frozen bytes authenticated; replacement portable adapter inspected but not executed after outage."
+    },
+    {
+      "id": "EIGHT-COHORT-S008",
+      "status": "proved-finite-source-construction-independent-reconstruction",
+      "path": "results/cohort-reconstruction/PROOF.md",
+      "review": "results/cohort-reconstruction/review/EIGHT-REVIEW.md"
+    },
+    {
+      "id": "PAIRED-ENCODER-INTERFACE",
+      "status": "proved-any-field-algebra-under-explicit-physical-premises",
+      "path": "results/paired-encoder-interface/PAIRED-ENCODER-INTERFACE.md",
+      "review": "results/paired-encoder-interface/ROOT-REVIEW.md"
+    },
+    {
+      "id": "PAIRED-COHORT-S008",
+      "status": "proved-finite-bidirectional-partial-source-word-no-reverse-rank-gain",
+      "path": "results/paired-cohort/PROOF.md",
+      "review": "results/paired-cohort/review/PAIRED-REVIEW.md"
+    },
+    {
+      "id": "S008-SMALL-RECOVERY",
+      "path": "results/cohort-reconstruction/review/SMALL-REVIEW.md",
+      "status": "independently-verified-finite-source-words"
+    },
+    {
+      "id": "S008-TWO-DIRECTION-416",
+      "path": "results/two-direction-terminal-completion/PROOF.md",
+      "status": "proved-sharp-scoped-terminal-obstruction"
+    },
+    {
+      "id": "S008-ALL-CHART-CONTACT",
+      "path": "results/unchanged-donor-contact-bound/PROOF.md",
+      "status": "proved-analytic-with-exact-finite-sharpening"
+    },
+    {
+      "id": "S008-RAW-ENVELOPE",
+      "path": "results/global-raw-refinement-envelope/PROOF.md",
+      "status": "conditionally-proved-transport-envelope"
+    },
+    {
+      "id": "RECIPROCAL-STAR-S009",
+      "status": "proved-finite-source-rank95-construction-independently-reviewed",
+      "path": "results/reciprocal-feedback-star/",
+      "review": "results/reciprocal-feedback-star/review/REVIEW.md"
+    },
+    {
+      "id": "TWO-FRAME-RANK88-S009",
+      "status": "proved-finite-source-rank88-construction-independently-reviewed",
+      "path": "results/orthogonal-frame-feedback/",
+      "review": "results/orthogonal-frame-feedback/review/REVIEW.md"
+    },
+    {
+      "id": "PRETERMINAL-COUPLED-S009",
+      "status": "proved-eight-coupled-reverse-completions-independently-reviewed",
+      "path": "results/preterminal-coupled-eight/",
+      "review": "results/preterminal-coupled-eight/review-root/REVIEW.md"
+    },
+    {
+      "id": "NULL-PADDED-ADJOINT-S009",
+      "status": "proved-algebraic-interface-physical-schedule-conditional-source-census-author-checked",
+      "path": "results/preterminal-coupled-eight/NULL-PADDED-ADJOINT.md",
+      "review": "results/preterminal-coupled-eight/review-root/REVIEW.md"
+    },
+    {
+      "id": "S008-DEPENDENT-TRIPLE",
+      "path": "results/dependent-triple-paired-code/PROOF.md",
+      "review": "results/dependent-triple-paired-code/review/ROOT-ADMISSION.md",
+      "status": "proved-finite-source-partial-word-and-scoped-departure-theorem"
+    },
+    {
+      "id": "S008-REVERSE-GRAM-GATE",
+      "path": "results/reverse-gram-packet-chart-gate/REVERSE-PACKET-CHART-GATE.md",
+      "review": "results/reverse-gram-packet-chart-gate/review/REVIEW.md",
+      "status": "proved-source-bound-complete-packet-acquisition-and-price-obstruction"
+    },
+    {
+      "id": "FRESH-GRAM-37",
+      "status": "proved-scoped-predecessor",
+      "path": "results/fresh-gram-packet-bound/PROOF.md",
+      "review": "results/fresh-gram-packet-bound/review/REVIEW.md"
+    },
+    {
+      "id": "HOSTED-GRAM-DISTANCE42",
+      "status": "proved-all-volume-source-code-and-scoped-packet-floor",
+      "path": "results/hosted-gram-distance42/PROOF.md",
+      "review": "results/hosted-gram-distance42/review/REVIEW.md"
+    },
+    {
+      "id": "LATE-TWO-SOURCE-PACKETS",
+      "status": "proved-identical-map-source-retiming",
+      "path": "results/late-two-packets/PROOF.md",
+      "review": "results/late-two-packets/review/REVIEW.md"
+    },
+    {
+      "id": "CLOSED-PRINCIPAL-GRAM",
+      "status": "proved-algebraic-continuation-and-all80-source-census",
+      "path": "results/principal-gram-continuation/PROOF.md",
+      "review": "results/principal-gram-continuation/review-root/REVIEW.md"
+    },
+    {
+      "id": "ACTUAL-RANK87-EXTENSION",
+      "status": "proved-finite-word-and80-alternative-source-templates",
+      "path": "results/principal-gram-extension/PROOF.md",
+      "review": "results/principal-gram-extension/review/REVIEW.md"
+    },
+    {
+      "id": "COUPLED-FRAME-COMPOSITION",
+      "status": "proved-compatible-source-composition",
+      "path": "results/coupled-frame-composition/PROOF.md",
+      "review": "results/coupled-frame-composition/review-root/REVIEW.md"
+    },
+    {
+      "id": "PARKED-DUAL-GHOSTS",
+      "status": "proved-finite-source-construction",
+      "path": "results/parked-dual-ghosts/"
+    },
+    {
+      "id": "NESTED-AFFINE-CODE",
+      "status": "proved-finite-source-construction",
+      "path": "results/nested-current-row-primal-dual/"
+    },
+    {
+      "id": "PARITY-SPLIT-TEMPLATE",
+      "status": "proved-exact-geometry-and-scoped-template",
+      "path": "results/parity-split-template/"
+    },
+    {
+      "id": "ODD8-RECOVERY",
+      "status": "exact-recovery-and-proved-source-cut",
+      "path": "results/saturated-cut-recovery/"
+    },
+    {
+      "id": "CYCLIC22-RANK82",
+      "status": "proved-with-explicit-interface-and-independent-review",
+      "path": "results/joint-current-row-codes/cyclic-dual/PROOF.md",
+      "review": "results/joint-current-row-codes/review-cyclic/REVIEW.md"
+    },
+    {
+      "id": "SHARED-COLUMN-LIFT",
+      "status": "proved-with-explicit-interface-and-independent-review",
+      "path": "results/joint-current-row-codes/shared-column-lift/PROOF.md",
+      "review": "results/joint-current-row-codes/review-lifting/REVIEW.md"
+    },
+    {
+      "id": "TWO-SHARED-DEPARTURES",
+      "status": "proved-with-explicit-interface-and-independent-review",
+      "path": "results/joint-current-row-codes/two-departures/PROOF.md",
+      "review": "results/joint-current-row-codes/review-departures/REVIEW.md"
+    },
+    {
+      "id": "MINIMAL-EIGHT-FORWARD-GATE",
+      "status": "proved-with-explicit-interface-and-independent-review",
+      "path": "results/minimal-eight-packet-barrier/PROOF.md",
+      "review": "results/interleaved-eight-packet-barrier/review-root/REVIEW.md"
+    },
+    {
+      "id": "INTERLEAVED-EIGHT-FORWARD-GATE",
+      "status": "proved-with-explicit-interface-and-independent-review",
+      "path": "results/interleaved-eight-packet-barrier/PROOF.md",
+      "review": "results/interleaved-eight-packet-barrier/review-root/REVIEW.md"
+    },
+    {
+      "id": "JOINT-INPUT-CODING-DEBT",
+      "status": "proved-with-explicit-interface-and-independent-review",
+      "path": "results/joint-endpoint-rank/PROOF.md",
+      "review": "results/joint-endpoint-rank/review/REVIEW.md"
+    },
+    {
+      "id": "S008-RECOVERED-CUT-AND-ENTRY",
+      "status": "proved-scoped-theorems-and-exact-finite-source-partial-words",
+      "path": "results/s008-recovered-cut-and-entry/",
+      "review": "results/s008-recovered-cut-and-entry/ENTRY-REVIEW.md",
+      "recovery_note": "Original canonical entry payloads authenticated; other proofs/checkers are fresh reconstructions."
+    },
+    {
+      "id": "LATE-NULL-SEVEN",
+      "status": "proved-finite-source-with-independent-review",
+      "path": "results/late-null-seven/PROOF.md",
+      "review": "results/late-null-seven/review-independent/REVIEW.md"
+    },
+    {
+      "id": "SCALAR-FITTING-GLUE",
+      "status": "proved-scalar-source-interface",
+      "path": "results/scalar-fitting-glue/PROOF.md",
+      "review": "results/scalar-fitting-glue/review-independent/REVIEW.md"
+    },
+    {
+      "id": "D4-CYCLIC-RANK35-GATE",
+      "status": "proved-scoped-architecture-obstruction",
+      "path": "results/d4-cyclic-block-barrier/RANK35.md",
+      "review": "results/d4-cyclic-block-barrier/review-root/REVIEW.md"
+    },
+    {
+      "id": "STANDALONE-CYCLIC-Q",
+      "status": "proved within exact source/interface; independent review recorded",
+      "source": "results/standalone-cyclic-rail/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "FIXED-M-SHARED-LIFT",
+      "status": "proved within exact source/interface; independent review recorded",
+      "source": "results/standalone-cyclic-rail/PROOF.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "ACTUAL-FULL-COLUMN-CONSUMER",
+      "status": "proved within exact source/interface; independent review recorded",
+      "source": "results/current-row-consumers/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "COORDINATE-RETURN-RANK58",
+      "status": "proved within exact source/interface; independent review recorded",
+      "source": "results/coordinate-return-optimum/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "SINGLE-CUT-CONSUMER-CONTROL",
+      "status": "proved within exact source/interface; independent review recorded",
+      "source": "results/single-cut-consumer-control/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "MINIMUM-RANK-OPERATOR-RIGIDITY",
+      "status": "proved within exact source/interface; independent review recorded",
+      "source": "results/minimum-rank-fitting-rigidity/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "STANDALONE-CONSUMER-M3-TERMINAL-GATE",
+      "status": "proved within exact source/interface; independent review recorded",
+      "source": "results/standalone-current-row-consumer/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "FRESH-EIGHT-TEMPORAL-OPTIMUM",
+      "status": "proved within exact source/interface; independent review recorded",
+      "source": "results/fresh-eight-acquisition-optimum/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "COTANGENT-CURRENT-RETURN",
+      "status": "proved within exact source/interface; independent review recorded",
+      "source": "results/cotangent-packet-cycles/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "COUPLED-CONDITIONED-SCHUR",
+      "status": "proved within exact source/interface; independent review recorded",
+      "source": "results/cotangent-packet-cycles/review-coupled/REVIEW.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "NINE-FRESH-NO-LINE",
+      "status": "proved within exact source/interface; independent review recorded",
+      "source": "results/nine-packet-no-line-gate/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "INTERMEDIATE-004-ASSESSMENT",
+      "status": "proved source-scoped terminal specialization and exact finite invoice/threshold verification",
+      "source": "results/kappa-004-feasibility/README.md",
+      "review": "results/kappa-004-feasibility/REVIEW.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "FRESH-NINE-COMPLETE",
+      "status": "proved within explicit source/interface; finite words and conditional composition distinguished",
+      "source": "results/fresh-nine-acquisition-gate/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "CHAR2-COMPLEX-PARITY",
+      "status": "proved within explicit source/interface; finite words and conditional composition distinguished",
+      "source": "results/characteristic-two-complex-parity/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-MINIMUM-RANK-NINE",
+      "status": "proved within explicit source/interface; finite words and conditional composition distinguished",
+      "source": "results/bit-minimum-rank-nine/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-EVEN-M-SHARING",
+      "status": "proved within explicit source/interface; finite words and conditional composition distinguished",
+      "source": "results/bit-rank-nine-shared-interface/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-RANK9-GLOBAL-RIGIDITY",
+      "status": "proved scalar/all invertible-Schur blocks; singular-Schur noncommuting escape open",
+      "source": "results/bit-fitting-rigidity/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-PROPER-FACET-CODE",
+      "status": "proved all-volume shortening and scoped fresh-nine optimum; literal partial word",
+      "source": "results/bit-proper-facet-code/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-CLEAN-CACHE-FRESH-BUDGET",
+      "status": "proved all-volume scoped obstruction including complete fixed-even-m price",
+      "source": "results/bit-clean-source-cache-gate/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-CODE-DECODER-ROBUSTNESS",
+      "status": "proved all-volume code-interface and scoped complete fresh-price obstruction",
+      "source": "results/bit-code-decoder-robustness/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "EARLY-KERNEL-RECEIVER-LANE",
+      "status": "proved finite actual partial source/paid observer; endpoint open",
+      "source": "results/early-kernel-receiver-lane/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "E7-TWO-SUBSPACE-AND-MONOTONE-GATE",
+      "status": "proved universal geometry and scoped source-interface obstruction",
+      "source": "results/bit-monotone-arrival-gate/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-SINGULAR-HISTORICAL-MODES",
+      "status": "proved all-field cell/poset theorem and scoped rank gates",
+      "source": "results/bit-source-packet-scattering/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-EIGHT-TARGET-EXCHANGE-BUS",
+      "status": "proved finite partial source, all222 inputs;103 outputs open",
+      "source": "results/bit-source-packet-exchange-bus/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-EIGHT-PACKET-TARGET",
+      "status": "exact conditional movement invoice; source/supplier open",
+      "source": "results/bit-eight-packet-target/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "COMPLEX-DYADIC-FOUR-ENTRY",
+      "status": "proved finite partial source/composition",
+      "source": "results/four-call-dyadic-entry/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "COMPLEX-TWO-LANE-ENTRY",
+      "status": "proved distinct rational partial source/composition",
+      "source": "results/two-lane-coupled-entry/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-DOWNSET-EIGHT",
+      "status": "proved all-field/all-volume physical cut; q8 necessary only",
+      "source": "results/bit-packet-downset-cut/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-HISTORICAL-FITTING-DISTANCE",
+      "status": "proved scalar no-Y-feedback distance and individually-valid-patch obstruction",
+      "source": "results/bit-historical-fitting-distance/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-Q8-UNIFORM-MOVEMENT-PRICE",
+      "status": "proved continuum profile bound; no covered supplier",
+      "source": "results/bit-eight-packet-target/strict-price/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "COMPLEX-ACTUAL-SINGULAR-HANDOFF",
+      "status": "proved partial literal source; forward delivery displaced",
+      "source": "results/complex-source-packet-exchange/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "COMPLEX-MIXED-COLOUR-GATE",
+      "status": "proved scoped all-V one-mode obstruction and scalar direction constraints",
+      "source": "results/complex-mixed-colour-gate/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-ONE-EXTRA-COSET",
+      "source": "results/bit-one-extra-coset/ADMISSION.md",
+      "status": "proved all-characteristic-two scalar gluing and scoped source obstruction",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-SEVENTEEN-DIRECTION-SAVINGS",
+      "source": "results/bit-quotient-direction-savings/ADMISSION.md",
+      "status": "proved sharp all-field scalar direction gate; F2/F4 quotientdim>=3",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-TARGET-BRIDGE-AUDIT",
+      "source": "results/bit-eight-packet-target/strict-price/bridge-audit/ADMISSION.md",
+      "status": "exact retained arithmetic/dependency audit; no supplier conversion",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-BINARY-FOUR-QUOTIENTS",
+      "source": "results/bit-binary-four-quotients/ADMISSION.md",
+      "status": "proved scalarF2 q8unit/noYfeedback quotientdimension>=4; not arbitraryrank13",
+      "complete_kappa": false
+    },
+    {
+      "id": "COMPLEX-COMPENSATED-FERRIES",
+      "source": "results/complex-compensated-ferries/ADMISSION.md",
+      "status": "proved actual partial rank57/54 words, free-L rank8 optimum and scoped65-departure terminal exclusion",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-Y-FEEDBACK-NORMALIZATION",
+      "source": "results/bit-y-feedback-normalization/ADMISSION.md",
+      "status": "proved in declared monotone whole-record model, arbitrary cochartedY feedback; scalarF2 quotientdim>=4 bridge",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-FIFTEEN-CLASS-TARGET-AND-GATE",
+      "source": "results/bit-fifteen-class-target/ADMISSION.md",
+      "status": "proved exact fitting and scopedq>=9 class-boundary gate; physicalsourceopen",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-CLASS-HISTORICAL-CLOSURE",
+      "source": "results/bit-class-history-closure/ADMISSION.md",
+      "status": "proved all-field/V quotientlemma underNF; Ybridgeextension reviewed; exactclassq8 rankG_x>15V, scalar16/kernel8",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-CLASS-CANONICAL-EXTENSIONS",
+      "source": "results/bit-class-canonical-extensions/ADMISSION.md",
+      "status": "proved exact scalarF2 sourceclassification:15 rank16 candidates and111 localidentities; no physicalavailability",
+      "complete_kappa": false
+    }
+  ],
+  "current_checkpoint_baseline_sha": "35237fd8d59aeb3b0a21c9a427daca2f1eee9a60"
+}
