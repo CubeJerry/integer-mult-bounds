@@ -1,0 +1,127 @@
+{
+  "status": "EXPLORATORY_EXACT_RAIL_EXTRACTION",
+  "parent_pin": "ca493a06385fc55a1b1b2d30ddb638c7f5b021d19459aa6b0b8c85e3797510d2",
+  "source_pin": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "omitted": {
+    "common-access": 2002,
+    "native": 71261
+  },
+  "original_bill": {
+    "instructions": 78011,
+    "counts": {
+      "ADD": 66395,
+      "INIT": 419,
+      "MOVE": 7113,
+      "CLEAR": 419,
+      "SCALE": 3664,
+      "COPY": 1
+    },
+    "moves": {
+      "1": 4246,
+      "3": 907,
+      "2": 960,
+      "5": 519,
+      "4": 261,
+      "9": 8,
+      "8": 178,
+      "7": 16,
+      "6": 18
+    },
+    "peak": 43,
+    "lifetimes": 419
+  },
+  "extracted_bill": {
+    "instructions": 4748,
+    "counts": {
+      "INIT": 365,
+      "ADD": 3213,
+      "MOVE": 803,
+      "CLEAR": 365,
+      "SCALE": 2
+    },
+    "moves": {
+      "1": 171,
+      "3": 96,
+      "2": 132,
+      "5": 199,
+      "4": 20,
+      "9": 8,
+      "8": 172,
+      "7": 4,
+      "6": 1
+    },
+    "peak": 29,
+    "lifetimes": 365
+  },
+  "repairs": {
+    "107": {
+      "source_role": 116,
+      "row": {
+        "102": "1/2"
+      },
+      "expression": {
+        "102": "1/2"
+      },
+      "unrepresented": {},
+      "facet": 131
+    },
+    "133": {
+      "source_role": 144,
+      "row": {
+        "103": "-1/2"
+      },
+      "expression": {
+        "103": "-1/2"
+      },
+      "unrepresented": {},
+      "facet": 157
+    },
+    "134": {
+      "source_role": 145,
+      "row": {
+        "32": "-1/2"
+      },
+      "expression": {
+        "32": "-1/2"
+      },
+      "unrepresented": {},
+      "facet": 158
+    },
+    "147": {
+      "source_role": 160,
+      "row": {
+        "103": "-1/2"
+      },
+      "expression": {
+        "103": "-1/2"
+      },
+      "unrepresented": {},
+      "facet": 171
+    },
+    "148": {
+      "source_role": 161,
+      "row": {
+        "32": "-1/2"
+      },
+      "expression": {
+        "32": "-1/2"
+      },
+      "unrepresented": {},
+      "facet": 172
+    },
+    "159": {
+      "source_role": 172,
+      "row": {
+        "42": "-1/4",
+        "146": "1/4",
+        "33": "-1/4"
+      },
+      "expression": {
+        "33": "-1/4",
+        "42": "-1/4"
+      },
+      "unrepresented": {},
+      "facet": 183
+    }
+  }
+}

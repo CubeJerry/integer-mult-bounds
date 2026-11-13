@@ -37,6 +37,16 @@ def main():
     actual = {str(f.relative_to(P)) for f in (P / 'results').rglob('*')
               if f.is_file() and '__pycache__' not in str(f)}
     need(actual == listed, 'Scientific manifest does not cover exactly the result files')
+    aliases = {}
+    for row in json.loads((P / 'REVIEW-PATHS.json').read_text())['aliases']:
+        check(P / row['manifest'], row['manifest_sha256'])
+        key = (row['manifest'], row['reviewed_path'])
+        need(key not in aliases, f'Duplicate reviewed-path alias: {key}')
+        destination = (ROOT / row['repository_path']).resolve()
+        need(destination.is_relative_to(ROOT.resolve()),
+             f'Review destination leaves repository: {destination}')
+        aliases[key] = destination
+    used_aliases = set()
     reviewed = 0
     for path in (P / 'results').rglob('REVIEWED-FILES.json'):
         obj = json.loads(path.read_text())
@@ -47,8 +57,13 @@ def main():
             need(isinstance(digest, str) and len(digest) == 64
                  and all(c in '0123456789abcdef' for c in digest),
                  f'Invalid reviewed digest: {path}: {name}')
-            check(path.parent.parent / name, digest)
+            key = (str(path.relative_to(P)), name)
+            destination = aliases.get(key, path.parent.parent / name)
+            if key in aliases:
+                used_aliases.add(key)
+            check(destination, digest)
             reviewed += 1
+    need(used_aliases == set(aliases), 'Unused reviewed-path alias')
     sources = {
         'research/shared-wire-split-composition/data/final.json.gz':
         '2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883',
@@ -64,6 +79,7 @@ def main():
     print(json.dumps({'status': 'PASS_CHECKPOINT_BYTE_INTEGRITY',
                       'imported_files': imported, 'scientific_files': len(listed),
                       'reviewed_author_pins': reviewed, 'source_pins': len(sources),
+                      'explicit_review_relocations': len(used_aliases),
                       'scope': 'Byte identity and record syntax only; not proof verification.'},
                      indent=2))
 

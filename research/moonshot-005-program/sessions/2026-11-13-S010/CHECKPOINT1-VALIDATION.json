@@ -1,0 +1,29 @@
+{
+  "recorded_utc": "2026-11-13T04:25:56.773860+00:00",
+  "baseline_sha": "9cd90ec28b1df217812ec717553c4a3063f30290",
+  "final_path_independent_checker_reproductions": [
+    {
+      "command_result": "final-path-q-review/MULTICOPY-REVIEW.json",
+      "recorded_receipt": "results/standalone-cyclic-rail/review/MULTICOPY-REVIEW.json",
+      "status": "PASS_INDEPENDENT_MULTICOPY_RAIL_ENDPOINT_AND_FORMAL_INVOICE_REVIEW",
+      "semantic_identity": true,
+      "recorded_sha256": "cd7938f66f1ec8d74f6b443c01e9fa34338e60157cbef27a781cd57433c67738"
+    },
+    {
+      "command_result": "final-path-column-review.json",
+      "recorded_receipt": "results/current-row-consumers/review/check_coordinate_returns.json",
+      "status": "PASS_INDEPENDENT_FULL_COLUMN_RETURN_AUDIT",
+      "semantic_identity": true,
+      "recorded_sha256": "61ffad1182bff67a2f1c9da195868680b756ade52992182075533e6f77fb0545"
+    },
+    {
+      "command_result": "final-path-null-review.json",
+      "recorded_receipt": "results/current-row-consumers/review/check_cyclic_null.json",
+      "status": "PASS_INDEPENDENT_CYCLIC_NULL_AUDIT",
+      "semantic_identity": true,
+      "recorded_sha256": "e65d420040b04d8ef6efa5b5c1c0bfc70d09b20557e2f0d09520599bb04989fa"
+    }
+  ],
+  "scope": "Reproductions of already independent reviews; not a second independent proof simply because root reran them.",
+  "no_new_kappa": true
+}

@@ -1,0 +1,176 @@
+{
+  "engine_pins": {
+    "clifford_exact.py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "native_verify.py": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38"
+  },
+  "map_count": 2,
+  "maps": [
+    {
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            3,
+            3,
+            3,
+            2,
+            3,
+            2,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            65,
+            2,
+            132,
+            8,
+            272,
+            19,
+            32,
+            7,
+            3
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            23,
+            23,
+            7,
+            0,
+            19,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 6,
+        "right": {
+          "linear_Z4": [
+            2,
+            2,
+            0,
+            2,
+            0,
+            0,
+            2,
+            0,
+            3
+          ],
+          "matrix_rows": [
+            161,
+            418,
+            260,
+            8,
+            272,
+            64,
+            256,
+            384,
+            288
+          ],
+          "offset": 510,
+          "phase": 2,
+          "quadratic_rows": [
+            416,
+            416,
+            128,
+            0,
+            32,
+            19,
+            0,
+            7,
+            259
+          ]
+        }
+      },
+      "source": 1113,
+      "target": 127
+    },
+    {
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            65,
+            2,
+            132,
+            264,
+            16,
+            19,
+            32,
+            7,
+            40
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            20,
+            20,
+            7,
+            40,
+            19,
+            40,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 6,
+        "right": {
+          "linear_Z4": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "matrix_rows": [
+            129,
+            162,
+            36,
+            8,
+            48,
+            320,
+            32,
+            160,
+            256
+          ],
+          "offset": 264,
+          "phase": 0,
+          "quadratic_rows": [
+            160,
+            160,
+            128,
+            256,
+            32,
+            19,
+            256,
+            7,
+            328
+          ]
+        }
+      },
+      "source": 1119,
+      "target": 127
+    }
+  ],
+  "parent_word_sha256": "ca493a06385fc55a1b1b2d30ddb638c7f5b021d19459aa6b0b8c85e3797510d2",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "status": "PASS_QUOTIENT_DEPARTURE_CHART_MAPS",
+  "word_sha256": "67c9d8d85b5d3d18ae1cda6d1ffa921f4e47b6a6023737c49101ca543afb03ca",
+  "wrong_global_phase_rejected": true
+}

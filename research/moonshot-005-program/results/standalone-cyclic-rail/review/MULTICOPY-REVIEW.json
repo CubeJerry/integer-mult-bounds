@@ -1,0 +1,132 @@
+{
+  "status": "PASS_INDEPENDENT_MULTICOPY_RAIL_ENDPOINT_AND_FORMAL_INVOICE_REVIEW",
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "cyclic_sha256": "ca493a06385fc55a1b1b2d30ddb638c7f5b021d19459aa6b0b8c85e3797510d2",
+  "pure_rail_sha256": "90440c9115da1b98242113832c296faf314caf0ab7e0743119275dbfc372c9d2",
+  "taint_candidates_exactly_checked": [
+    1587,
+    1613,
+    1614,
+    1627,
+    1628,
+    1639
+  ],
+  "author_manifest_sha256": "585d5d19c1825c27c2f0fde4cb4e1ba57822ebd85e5db99267c5963236e13e16",
+  "author_files_authenticated": 16,
+  "rail_rational_rank": 400,
+  "six_phase_recipes_replayed": 6,
+  "wrong_phase_control_rejected": true,
+  "pure_rail_bill": {
+    "instructions": 4779,
+    "counts": {
+      "INIT": 371,
+      "ADD": 3226,
+      "MOVE": 809,
+      "CLEAR": 371,
+      "SCALE": 2
+    },
+    "moves": {
+      "1": 177,
+      "2": 132,
+      "3": 96,
+      "4": 20,
+      "5": 199,
+      "6": 1,
+      "7": 4,
+      "8": 172,
+      "9": 8
+    },
+    "lifetimes": 371,
+    "peak": 29
+  },
+  "checks": {
+    "2": {
+      "input_directions": 1880,
+      "word_sha256": "995226d25521cf2f69957368b71017aa22b93a62225b57c6c898245f86d5eabd",
+      "bill": {
+        "instructions": 76840,
+        "counts": {
+          "ADD": 65206,
+          "INIT": 425,
+          "MOVE": 7119,
+          "CLEAR": 425,
+          "SCALE": 3664,
+          "COPY": 1
+        },
+        "moves": {
+          "1": 4252,
+          "2": 960,
+          "3": 907,
+          "4": 261,
+          "5": 519,
+          "6": 18,
+          "7": 16,
+          "8": 178,
+          "9": 8
+        },
+        "lifetimes": 425,
+        "peak": 43
+      },
+      "endpoint_identity": "common=Ww; copy_j=pi(Ww)+L(v_j-pi(w))",
+      "per_rail_bounds": [
+        "115004528556104454694051451/4500000000000000000000000",
+        "3194570237669568185946357/125000000000000000000000"
+      ],
+      "with31_return_bounds": [
+        "-24495471443895545305948549/4500000000000000000000000",
+        "-680429762330431814053643/125000000000000000000000"
+      ]
+    },
+    "3": {
+      "input_directions": 2280,
+      "word_sha256": "8fe1588a29e09460b5aec0cb1887f9d57ea267f695c6d51f87adfb2a21c6a050",
+      "bill": {
+        "instructions": 82419,
+        "counts": {
+          "ADD": 69232,
+          "INIT": 796,
+          "MOVE": 7928,
+          "CLEAR": 796,
+          "SCALE": 3666,
+          "COPY": 1
+        },
+        "moves": {
+          "1": 4429,
+          "2": 1092,
+          "3": 1003,
+          "4": 281,
+          "5": 718,
+          "6": 19,
+          "7": 20,
+          "8": 350,
+          "9": 16
+        },
+        "lifetimes": 796,
+        "peak": 43
+      },
+      "endpoint_identity": "common=Ww; copy_j=pi(Ww)+L(v_j-pi(w))",
+      "per_rail_bounds": [
+        "61989676627348878382504049/1500000000000000000000000",
+        "10331612771224813063751287/250000000000000000000000"
+      ],
+      "with31_return_bounds": [
+        "15489676627348878382504049/1500000000000000000000000",
+        "2581612771224813063751287/250000000000000000000000"
+      ]
+    }
+  },
+  "A_infinity_bounds": [
+    "584724848927773270401823921/4500000000000000000000000",
+    "64969427658641474489092117/500000000000000000000000"
+  ],
+  "C_bounds": [
+    "283858005303768721813817041/9000000000000000000000000",
+    "94619335101256240604614333/3000000000000000000000000"
+  ],
+  "Q_excess_bounds": [
+    "72842515048840989955744447/1000000000000000000000000",
+    "72842515048840989955745031/1000000000000000000000000"
+  ],
+  "all_m_histogram_slopes_nonnegative": true,
+  "scope": "Source scalar/type endpoint identity and formal caller moment only. L is the actual partial rail map, not the full main target E. Outer/caller admission and all five foundations remain."
+}

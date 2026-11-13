@@ -1,0 +1,135 @@
+{
+  "status": "PASS_SINGLE_CUT_CONSUMER_ACCESS_CONTROL",
+  "source_gzip_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "hosted_roles": 96,
+  "Hub": {
+    "chart": 127,
+    "dimension": 9
+  },
+  "cut_frame_B": [
+    5,
+    56,
+    65,
+    69,
+    77,
+    96,
+    100,
+    103
+  ],
+  "disjoint_frame_negative_control": [
+    0,
+    7,
+    20,
+    27,
+    36,
+    46,
+    57,
+    111
+  ],
+  "B_gram_identity": true,
+  "disjoint_frame_gram_identity": true,
+  "positive_four_gram_negative_control": {
+    "roles": [
+      0,
+      1
+    ],
+    "inner_product": 4,
+    "normalized_exact": "1/2",
+    "legacy_floor_by_8": 0
+  },
+  "B_and_negative_control_disjoint": true,
+  "actual_D_endpoints_and_rank1_Hub_moves": [
+    {
+      "i": 5,
+      "b_field": 777,
+      "d_field": 887,
+      "F_chart": 132,
+      "F_dim": 8,
+      "W_chart": 127,
+      "W_dim": 9,
+      "native_pair_occurrences": 4,
+      "new_owned_MOVE_rank": 1
+    },
+    {
+      "i": 56,
+      "b_field": 826,
+      "d_field": 933,
+      "F_chart": 179,
+      "F_dim": 8,
+      "W_chart": 127,
+      "W_dim": 9,
+      "native_pair_occurrences": 3,
+      "new_owned_MOVE_rank": 1
+    },
+    {
+      "i": 65,
+      "b_field": 835,
+      "d_field": 941,
+      "F_chart": 187,
+      "F_dim": 8,
+      "W_chart": 127,
+      "W_dim": 9,
+      "native_pair_occurrences": 2,
+      "new_owned_MOVE_rank": 1
+    },
+    {
+      "i": 69,
+      "b_field": 839,
+      "d_field": 945,
+      "F_chart": 191,
+      "F_dim": 8,
+      "W_chart": 127,
+      "W_dim": 9,
+      "native_pair_occurrences": 3,
+      "new_owned_MOVE_rank": 1
+    },
+    {
+      "i": 77,
+      "b_field": 847,
+      "d_field": 953,
+      "F_chart": 198,
+      "F_dim": 8,
+      "W_chart": 127,
+      "W_dim": 9,
+      "native_pair_occurrences": 2,
+      "new_owned_MOVE_rank": 1
+    },
+    {
+      "i": 96,
+      "b_field": 866,
+      "d_field": 972,
+      "F_chart": 216,
+      "F_dim": 8,
+      "W_chart": 127,
+      "W_dim": 9,
+      "native_pair_occurrences": 3,
+      "new_owned_MOVE_rank": 1
+    },
+    {
+      "i": 100,
+      "b_field": 870,
+      "d_field": 976,
+      "F_chart": 220,
+      "F_dim": 8,
+      "W_chart": 127,
+      "W_dim": 9,
+      "native_pair_occurrences": 4,
+      "new_owned_MOVE_rank": 1
+    },
+    {
+      "i": 103,
+      "b_field": 873,
+      "d_field": 979,
+      "F_chart": 223,
+      "F_dim": 8,
+      "W_chart": 127,
+      "W_dim": 9,
+      "native_pair_occurrences": 3,
+      "new_owned_MOVE_rank": 1
+    }
+  ],
+  "single_cut_demand": 8,
+  "single_cut_added_MOVE_price": 8,
+  "all_positive_whole_field_volumes": "each capacity is multiplied by V; price is unchanged",
+  "scope": "one hosted orthogonal-frame cut only; not a construction satisfying the complete family or all native duties"
+}

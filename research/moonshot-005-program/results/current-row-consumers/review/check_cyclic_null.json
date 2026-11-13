@@ -1,0 +1,61 @@
+{
+  "status": "PASS_INDEPENDENT_CYCLIC_NULL_AUDIT",
+  "source_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "parent_sha256": "ca493a06385fc55a1b1b2d30ddb638c7f5b021d19459aa6b0b8c85e3797510d2",
+  "parent_residual_rank": 82,
+  "cases": [
+    {
+      "case": "4",
+      "word_sha256": "6f8b518a36675affab198cebd23234f08629006c471813d405214c02ec9ad862",
+      "selected_modes": 4,
+      "completed_hosted_reverse_outputs": 11,
+      "parent_residual_rank": 82,
+      "actual_residual_rank": 78,
+      "ghost_rows_equal_actual_Gram_d_combinations": true,
+      "all1880_preprojection_rows_match_parent": true,
+      "all1480_common_identities": true,
+      "all_original_D_restored": true,
+      "changed_B_rows_used_only_for_own_final_recoupling": true,
+      "raw_move_histogram_unchanged": true,
+      "new_owned_move_histogram": {
+        "1": 4,
+        "6": 4
+      },
+      "owned_peak": 43,
+      "owned_lifetimes_added": 8,
+      "ordinary_increment": {
+        "ADD": 48,
+        "INIT": 8,
+        "MOVE": 8,
+        "CLEAR": 8
+      }
+    },
+    {
+      "case": "8",
+      "word_sha256": "67c9d8d85b5d3d18ae1cda6d1ffa921f4e47b6a6023737c49101ca543afb03ca",
+      "selected_modes": 8,
+      "completed_hosted_reverse_outputs": 22,
+      "parent_residual_rank": 82,
+      "actual_residual_rank": 74,
+      "ghost_rows_equal_actual_Gram_d_combinations": true,
+      "all1880_preprojection_rows_match_parent": true,
+      "all1480_common_identities": true,
+      "all_original_D_restored": true,
+      "changed_B_rows_used_only_for_own_final_recoupling": true,
+      "raw_move_histogram_unchanged": true,
+      "new_owned_move_histogram": {
+        "1": 8,
+        "6": 8
+      },
+      "owned_peak": 43,
+      "owned_lifetimes_added": 16,
+      "ordinary_increment": {
+        "ADD": 96,
+        "INIT": 16,
+        "MOVE": 16,
+        "CLEAR": 16
+      }
+    }
+  ],
+  "scope": "Checks exact scalar source algebra, all1880 input rows, chart/lifetime validity, residual rank, selected completions and movement/ordinary counts. It does not complete the full supplier or remaining forward duties."
+}

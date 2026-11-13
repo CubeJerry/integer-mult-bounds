@@ -1,3 +1,13 @@
+## S010 checkpoint1 — independent rails and a sharp current-row consumer frontier
+
+The cyclic partial map now has a **standalone400-input rail**, with no common-input dependency. Six paid rank-one repairs replace its common-history accesses. Independent source and phase review checks all400 directions,4779 operations,371 retired lifetimes and peak29. A universal fixed-integer-m construction runs this rail m-1 times with one shared common native; actual m2/m3 words preserve all1880/2280 independent inputs. The complete helper-credit loss and every outer/native/packet call remain charged.
+
+The exact per-rail target allowance is `c <129.9388553172829489...-31.5397783670854135.../(m-1)`, with c measured above the old raw profile. CurrentQ leaves25.5565619 at m2 and41.3264511 at m3, and at most57.0963403 in the limit. This is a finite ceiling, not a completed supplier.
+
+Actual whole-column consumers of the original cyclic word reach rank58 with31 paid returns and24 individual reverse outputs complete, or rank65 with31 complete outputs. Independent review authenticates all1880 directions and the full tariffs. A separately proved E8 lattice/kernel theorem establishes **rank58 is optimal for at most31 whole-coordinate returns** from this exact source. Mixed observations, changed earlier words and fragmented returns lie outside that theorem. The alternative cyclic-null interfaces are valid but dominated at their present prices.
+
+The main construction now seeks a complete earlier joint forward/reverse map in this reusable private-rail interface. The4569/4920 forward coefficient duties and remaining reverse endpoints are real. Positive moment, a smaller residual rank and larger multiplicity do not discharge them. Selected complete conditional kappa remains.00363005817; target.005 is open; both strict suppliers and all five foundations remain. **No new kappa. Ongoing programme, not PR-ready.** This is an intermediate S010 checkpoint; historical records follow.
+
 ## S009 checkpoint5 — verified source interfaces and the distributed-consumer frontier
 
 Three new packages are independently accepted. The77905-instruction late-null-seven word acquires seven real Gram directions and one original d56, completes eight paired-parent reverse outputs, and retains full1880-input correctness. Its residual rank88 and provisional margin19.1321664213467 are partial-source results. Scalar fitting-matrix gluing proves a precise biclique normal form, a necessary three-active-row exception and rank(K-G)<=8. Complete D4 geometry and disjoint-packing proofs give block rank>=35 and a scoped complete price deficit>1.0793049713039/native.

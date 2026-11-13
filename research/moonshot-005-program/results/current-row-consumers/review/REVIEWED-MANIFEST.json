@@ -1,0 +1,179 @@
+{
+  "format": "worker-c-reviewed-manifest-v1",
+  "review_status": "PASS_INDEPENDENT_FULL_COLUMN_AND_CYCLIC_NULL_AUDITS; ALL_AUTHOR_MANIFEST_HASHES_MATCH",
+  "author_manifest": {
+    "path": "worker-a/MANIFEST.json",
+    "sha256": "3328b0886355154d39de49d7504878cb2c7e621e0ee0a46c1ee47358a4fc8a1e",
+    "expected_sha256": "3328b0886355154d39de49d7504878cb2c7e621e0ee0a46c1ee47358a4fc8a1e",
+    "listed_artifacts_verified": 26,
+    "listed_source_dependencies_verified": 7
+  },
+  "source_git_commit": "cbc210ca0eb82c74a021b4f1b744e2e07e07e00b",
+  "reviewer_outputs": [
+    {
+      "path": "worker-c/check_coordinate_returns.py",
+      "sha256": "c2ec6d52df625a3c740760ef13bd52f66bfc40244dac31e34582b2b8f8859938"
+    },
+    {
+      "path": "worker-c/check_coordinate_returns.json",
+      "sha256": "61ffad1182bff67a2f1c9da195868680b756ade52992182075533e6f77fb0545"
+    },
+    {
+      "path": "worker-c/check_cyclic_null.py",
+      "sha256": "25e208cea723d9f1fbee09b7da46734e1f3e5466bae65d8a407bb79c8cd51efb"
+    },
+    {
+      "path": "worker-c/check_cyclic_null.json",
+      "sha256": "e65d420040b04d8ef6efa5b5c1c0bfc70d09b20557e2f0d09520599bb04989fa"
+    },
+    {
+      "path": "worker-c/consumer_cut_check.py",
+      "sha256": "ab485f4e214125404d5a3818f7ff4691da5e7d72b623517171792e91693fea59"
+    },
+    {
+      "path": "worker-c/consumer_cut_check.json",
+      "sha256": "0ab5f10359a916482ff29fed743c160988fb25abe092f36ccbf55ffb03db27b8"
+    },
+    {
+      "path": "worker-c/CONSUMER-CUT-CONTROL.md",
+      "sha256": "a2f2048a2ce2fbc6f14553fe03ef20ff66e85307928cdfc8230570c166998c1e"
+    }
+  ],
+  "verified_author_artifacts": [
+    {
+      "path": "worker-a/B7-COORDINATE-CHOICE.json",
+      "sha256": "24fc794c72895918eb810225a0b8c9f1d7d0266a70073e322861b084d05596b2"
+    },
+    {
+      "path": "worker-a/PROOF.md",
+      "sha256": "88ee54e5985de8579011c676cb6561409d2df1c8f21bd532de28034ed5f551fb"
+    },
+    {
+      "path": "worker-a/build_cyclic_direct.py",
+      "sha256": "48feae57da34b797ad26b37aecd1f0e824cde6ea60018028803d288663e7d553"
+    },
+    {
+      "path": "worker-a/build_cyclic_null.py",
+      "sha256": "bc1a433ea32e3ae769054127e6ab45d6fd360df1a86e5b137de964cf5037dbb7"
+    },
+    {
+      "path": "worker-a/check_cyclic_null_controls.py",
+      "sha256": "bb210d89bb75fd97f701c08c73905b14f0da67388658bccdd2bbcd961fecb985"
+    },
+    {
+      "path": "worker-a/check_direct_controls.py",
+      "sha256": "51c72a5711ef580c5b57cd7747789fb55d204fe8d98ae315728743de81c3ff8e"
+    },
+    {
+      "path": "worker-a/cyclic-column-22/CHART-INHERITANCE.json",
+      "sha256": "7c43641e500153ce9584c0e1a68f93d9a011929c87d3f0eea463f7bb95e6fa4a"
+    },
+    {
+      "path": "worker-a/cyclic-column-22/NEGATIVE-CONTROLS.json",
+      "sha256": "97695532f7fba661aae6b14e7e43f10384e05e5e037107ece282878afa1b6e42"
+    },
+    {
+      "path": "worker-a/cyclic-column-22/RESULT.json",
+      "sha256": "d7fe10a6f1d3c87df4afe7e4f61bf7c372d531a16d07f20f06a934a66fd53374"
+    },
+    {
+      "path": "worker-a/cyclic-column-22/WORD.json.gz",
+      "sha256": "2f3d25131f3d838c789dcc6fff61374caa6f7deb6bcedb38bf9d6aaccba09d29"
+    },
+    {
+      "path": "worker-a/cyclic-column-31/CHART-INHERITANCE.json",
+      "sha256": "3fc02c6b1ae6bbd613b45edb4481c30542aecd079080fdcd8b50bd4ce644a7b9"
+    },
+    {
+      "path": "worker-a/cyclic-column-31/NEGATIVE-CONTROLS.json",
+      "sha256": "9a6a1c235745acf30af6db19b340d922d506dbc10198eeae6c06ba74a4f85488"
+    },
+    {
+      "path": "worker-a/cyclic-column-31/RESULT.json",
+      "sha256": "cdb9a60ab7778d2f8faa4002744fb41124409a9290317e6b5dc07b62f78838ed"
+    },
+    {
+      "path": "worker-a/cyclic-column-31/WORD.json.gz",
+      "sha256": "b0691274a36547516e883e1b87296aac624d258df880485f9c091d5402f9a7c1"
+    },
+    {
+      "path": "worker-a/cyclic-column-rank58/CHART-INHERITANCE.json",
+      "sha256": "c2d128d314a8b9e3f2927dc89061e3e93cb22f39fadb3d04276d8d3df08de4e9"
+    },
+    {
+      "path": "worker-a/cyclic-column-rank58/NEGATIVE-CONTROLS.json",
+      "sha256": "0dc3b5c5dc17fdfa2e73c070753f703f22580a819217db5169f61b04f71aa598"
+    },
+    {
+      "path": "worker-a/cyclic-column-rank58/RESULT.json",
+      "sha256": "5bc4910d06f36ed1ac3b3059eabfd1c9bbcc1f9d5082d5183d0d0fc2e6142a8f"
+    },
+    {
+      "path": "worker-a/cyclic-column-rank58/WORD.json.gz",
+      "sha256": "e7635a5d9ddddab4fed13b549aa017b284ae2e60723d73e616390d47798ad778"
+    },
+    {
+      "path": "worker-a/cyclic-null-4/CHART-MAPS.json",
+      "sha256": "8a89dac55063c6725bb05f0ae0d2b5deb5c990754ea3cd08710b7d63b988384b"
+    },
+    {
+      "path": "worker-a/cyclic-null-4/NEGATIVE-CONTROLS.json",
+      "sha256": "081efd1bc2d162fc55eb6dc0732411e0aabfef2b8837b76c151b1008025b50e6"
+    },
+    {
+      "path": "worker-a/cyclic-null-4/RESULT.json",
+      "sha256": "948b07e34ebee64adf328e15bf99865e8c403f0cc8153448e2a4cdad8983284a"
+    },
+    {
+      "path": "worker-a/cyclic-null-4/WORD.json.gz",
+      "sha256": "6f8b518a36675affab198cebd23234f08629006c471813d405214c02ec9ad862"
+    },
+    {
+      "path": "worker-a/cyclic-null-8/CHART-MAPS.json",
+      "sha256": "43b530a274359da773db534baa7a14ced122b6ff0cdc15dad06a47d4d25b723a"
+    },
+    {
+      "path": "worker-a/cyclic-null-8/NEGATIVE-CONTROLS.json",
+      "sha256": "c09cfade32739cd2d092696fc28b3248cd100d34c73c3a3d1334090d9a2f3163"
+    },
+    {
+      "path": "worker-a/cyclic-null-8/RESULT.json",
+      "sha256": "3aac250c367fe0aa74be1f341fbdb2553d1ea6a8256d914f0904b8f58f1127f6"
+    },
+    {
+      "path": "worker-a/cyclic-null-8/WORD.json.gz",
+      "sha256": "67c9d8d85b5d3d18ae1cda6d1ffa921f4e47b6a6023737c49101ca543afb03ca"
+    }
+  ],
+  "verified_source_dependencies": [
+    {
+      "path": "programme/research/moonshot-005-program/results/joint-current-row-codes/check_departure_charts.py",
+      "sha256": "ac9103c261fb01ee05232fb989b5eb40a1504506e10879f204e4b5150eb59953"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/joint-current-row-codes/cyclic-dual/RESULT.json",
+      "sha256": "b524e181a2c8931bd575393cc1f4d5aafc3f0bb7d9b4d7156960f20dfe6bfcf7"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/joint-current-row-codes/cyclic-dual/WORD.json.gz",
+      "sha256": "ca493a06385fc55a1b1b2d30ddb638c7f5b021d19459aa6b0b8c85e3797510d2"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/joint-current-row-codes/review-star/engine.py",
+      "sha256": "126c5cc00d2347fce1e81278b9e9563e5958f8899580d9bdba0dd8799e4e9d81"
+    },
+    {
+      "path": "programme/research/shared-wire-split-composition/data/final.json.gz",
+      "sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883"
+    },
+    {
+      "path": "programme/research/shared-wire-split-composition/frozen/clifford_exact.py",
+      "sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962"
+    },
+    {
+      "path": "programme/research/shared-wire-split-composition/frozen/native_verify.py",
+      "sha256": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38"
+    }
+  ],
+  "scope": "Frozen author inventory bytes match exactly. Independent scalar Q replay verifies source access, all1880 rows, actual residual matrices, endpoint completions, source restorations and movement/tariff ledgers for 22/31/rank58 direct returns and null4/null8. Full supplier, remaining forward debt, physical compiler and all five foundations remain unproved."
+}
