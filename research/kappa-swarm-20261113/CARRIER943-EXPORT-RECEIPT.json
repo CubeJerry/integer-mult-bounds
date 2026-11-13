@@ -1,0 +1,260 @@
+{
+  "status": "PASS_READ_ONLY_GIT_FREE_EMPTY_PATH_EXPORT",
+  "tested_commit": "db8bed73dda53091e60ff6420225d8c389633797",
+  "files": 29,
+  "declared_inputs_checked": 11,
+  "seconds": 1.09,
+  "exit_code": 0,
+  "stdout_sha256": "d4482da9bd059504d8be628a4ab95f3b4d50e9daa0a6d4ac640c89ae19bf28a3",
+  "read_only_modes": true,
+  "git_free": true,
+  "empty_path": true,
+  "package_bytes_and_modes_unchanged": true,
+  "stderr_empty": true,
+  "scientific_receipt": {
+    "actual_cheap_frame_IDs": [
+      127,
+      130,
+      175,
+      189,
+      194,
+      208,
+      214,
+      245,
+      246,
+      267,
+      477,
+      517,
+      518,
+      529,
+      530,
+      531,
+      532,
+      541,
+      542,
+      543,
+      544,
+      549,
+      558,
+      559,
+      560,
+      565,
+      591,
+      631,
+      632,
+      633,
+      634,
+      635,
+      648,
+      649,
+      650,
+      651,
+      658,
+      660,
+      666,
+      667,
+      673,
+      674,
+      675,
+      682,
+      683,
+      769,
+      867,
+      871,
+      901,
+      903,
+      904,
+      906,
+      907,
+      908,
+      910,
+      913,
+      914,
+      919,
+      921,
+      923,
+      924,
+      925,
+      927,
+      928,
+      930,
+      946,
+      976,
+      1011,
+      1051
+    ],
+    "actual_observed_cheap_frame_IDs": [
+      127,
+      130,
+      175,
+      189,
+      194,
+      208,
+      214,
+      245,
+      246,
+      267,
+      477,
+      517,
+      518,
+      529,
+      530,
+      531,
+      532,
+      541,
+      542,
+      543,
+      544,
+      549,
+      558,
+      559,
+      560,
+      565,
+      631,
+      632,
+      633,
+      634,
+      635,
+      648,
+      649,
+      650,
+      651,
+      658,
+      660,
+      666,
+      667,
+      673,
+      674,
+      675,
+      682,
+      683,
+      769,
+      867,
+      871,
+      901,
+      903,
+      904,
+      906,
+      907,
+      908,
+      910,
+      913,
+      914,
+      919,
+      921,
+      923,
+      924,
+      925,
+      927,
+      928,
+      930,
+      946,
+      976,
+      1011,
+      1051
+    ],
+    "actual_observed_frame_ID_count": 645,
+    "actual_used_frame_ID_count": 646,
+    "author_certificate_sha256": "78f154624c191b1b1c127e6fcbeee9c3f9b1bf9e5485f9883b2bfb6147f11fd3",
+    "budget": {
+      "all_new_native_cost_ceiling": {
+        "decimal_display_only": [
+          "3.4522144390136276525403632100065198",
+          "3.4522144390136276525403632100065198"
+        ],
+        "exact": [
+          "86305360975340691313509080250162995579055890336029/25000000000000000000000000000000000000000000000000",
+          "5868764546323167009318617457011083699375800542906137/1700000000000000000000000000000000000000000000000000"
+        ]
+      },
+      "baseline": {
+        "decimal_display_only": [
+          "-59.241933884374900242161720639008409",
+          "-59.241933884374900242161720639008409"
+        ],
+        "exact": [
+          "-1184838677687498004843234412780168170845987878085819/20000000000000000000000000000000000000000000000000",
+          "-5924193388437490024216172063900840854229939390372947/100000000000000000000000000000000000000000000000000"
+        ]
+      },
+      "calls": 17,
+      "kappa": "0.0038",
+      "minimum_rank4_network_cost": {
+        "decimal_display_only": [
+          "3.9789837303114766470001366428127908",
+          "3.9789837303114766470001366428127908"
+        ],
+        "exact": [
+          "397898373031147664700013664281279077858737116779083/100000000000000000000000000000000000000000000000000",
+          "99474593257786916175003416070319769464684279194771/25000000000000000000000000000000000000000000000000"
+        ]
+      },
+      "rank4_optimistic_complete_moment": {
+        "decimal_display_only": [
+          "-8.9550779520634329058161483577066062",
+          "-8.9550779520634329058161483577066062"
+        ],
+        "exact": [
+          "-111938474400792911322701854471332578027841305299307/12500000000000000000000000000000000000000000000000",
+          "-447753897603171645290807417885330312111365221169137/50000000000000000000000000000000000000000000000000"
+        ]
+      }
+    },
+    "compiler_sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "complete_actual_geometry_sha256": "e881182e8742316710586ecc495c2f864e97d3f85dacc47f00b2d46ff3ea1745",
+    "controls": [
+      {
+        "control": "wrong_dual1196_coefficient",
+        "reason": "nonzero cheap history at (30514, 20, 477)",
+        "rejected": true
+      },
+      {
+        "control": "unavailable_initial1459_supplied_free",
+        "reason": "nonzero cheap history at (-1, 1459, 189)",
+        "rejected": true
+      }
+    ],
+    "demoted1459_no_prefix_contact_verified": true,
+    "direct_replay": {
+      "current_cheap_values_checked": 598,
+      "input_promise_polynomial": [
+        "0",
+        "0"
+      ],
+      "target_polynomial": [
+        "1",
+        "0"
+      ],
+      "zero_only_initialization_values_checked": 1
+    },
+    "elimination_or_author_row_engine_used": false,
+    "limits": "Latest single943 injection only, demoted1459 original entrance unavailable, otherwise fixed original prefix. No original paid-payload augmentation or uncharged cross-frame ordinary algorithm. No supplier or kappa claim.",
+    "positive_cheap_actual_frame_IDs_sha256": "0c0ddad25c127e2a39fadb93081e8bdb04c9a65572382252111cc9126377cc15",
+    "positive_cheap_rank_histogram": {
+      "1": 1,
+      "2": 17,
+      "3": 49
+    },
+    "positive_cheap_span_classes": 67,
+    "source_events_replayed": 40710,
+    "source_mutation_controls": [
+      {
+        "input": "WORD.json.gz",
+        "reason": "exact source pin",
+        "rejected": true
+      },
+      {
+        "input": "clifford_exact.py",
+        "reason": "actual frame constructor pin",
+        "rejected": true
+      }
+    ],
+    "source_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+    "status": "PASS_P104_CARRIER943_TRANSPORT_BOUND",
+    "strict_observation_count": 294,
+    "strict_observation_records_sha256": "cc991f208d0fa96e2e80b3811595afaba1f0cb5b8bb3f8cc676ca92fa197d22b",
+    "zero_only_initialization_frame_IDs": [
+      591
+    ]
+  }
+}

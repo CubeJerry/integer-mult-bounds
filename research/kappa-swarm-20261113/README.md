@@ -1,17 +1,25 @@
-# Rolling integer multiplication research recovery
+# Integer multiplication research: final recovery checkpoint
 
-Recovery only, not an upstream contribution. Read STATE.json for authoritative
-published commits, exact pins and active wave23 work. Four verified branches
-cover BIT clean pairing, complex frame changes, helper funding and earlier-cache
-exclusions. The cache package now covers all47owned MOVEs plus18public cuts.
-Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; selected kappa
-remains363005817/100000000000. All five foundations remain.
+Recovery only, not an upstream contribution. Start with FINAL-MANIFEST.json
+and FINAL-HANDOFF.md. Ten verified contributions are published on separate
+CubeJerry branches, with checked compare URLs against CrocSwap/main. Exact
+heads, source pins, proof scopes, reproduction commands and completed gates
+are preserved. No upstream PR was submitted and no work remains active.
 
-Current work studies helper-only cache restrictions and general helper graph
-correlations. The corrected temporal-cache local lemma supersedes its initial
-faulty draft; source-specific grids and complete costs remain open.
-Evidence snapshots are scoped notes; older IN-PROGRESS/UNPUBLISHED filenames are
-historical. Published package VERIFY.json files are authoritative for portable
-finished results. Recovery scripts may retain workspace paths; recreate their
-layout from exact pinned source exports. Only remote commits are durable.
-No upstream PR was submitted; full proposed descriptions are in each package.
+Canonical main is e54523517d0f03e58352e647c403a5af3e525a57. The selected complete
+conditional kappa remains363005817/100000000000; all five foundational
+assumptions remain. The run establishes scoped negative results, exact
+classifications, independent verification and a selected numerical admission
+implication after a paid bridge. It establishes no new complete exponent.
+
+STATE.json retains a chronological research log, where earlier pending or
+UNPUBLISHED entries are historical. Its current contributions and final
+manifest override those old progress descriptions. The stopped Wave61
+intersection census is not evidence; a separately proved exact support and
+circuit classification superseded it. A60 public-zero continuation remains
+a conditional interface with an unresolved physical/precision join.
+
+Every finished package has its own VERIFY.json and full proposed PR text.
+Recovery evidence may retain workspace paths and unfinished hypotheses;
+these are not promoted to reviewed contributions. Only the named remote
+commits are durable. Keep this recovery branch separate from upstream review.

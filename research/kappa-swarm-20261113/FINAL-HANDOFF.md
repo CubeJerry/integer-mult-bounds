@@ -32,7 +32,7 @@ The A60 zero-transition proposal is a **conditional interface**, not an admitted
 
 ## Publication and gate status
 
-Nine independently reviewed packages are now published with exact heads and
+Ten independently reviewed packages are now published with exact heads and
 checked compare links in STATE.json. The newest are public prices
 `732ed51e1f05457c2d14c90b9d766321e48ed14c`, the complete scalar relation plane
 `2a7f914f530cf357db296ee7951eb9ba053c014f`, and all18 rank-one singleton zeros
@@ -45,8 +45,13 @@ package. The whole plane, every finite scalar line and the h-only direction
 are classified; the conditional preparation corollary retains its extra
 input-access and fixed-dataflow restrictions.
 
-Carrier943's all-alpha polynomial certificate and transport proof are checked;
-its last independent numerical-method and publication gates are in progress.
+Carrier943's fixed-alpha polynomial certificate and transport proof are published
+at `c7bd2af0e5849bc17345956df3751ad692d864ed`. Its independent numerical
+certificate checks all25 price ranks by exact integer powers, authenticates
+and counts17 caller invocations, and proves the charged moment lies in
+[-8.955077952063432905843994,-8.955077952063432905794371]. The normal/optimized
+registered pairs and both read-only exported checks pass. All29 remote blobs,
+canonical parent, branch ref and checked compare URL match the tested package.
 Its invoice grants only the nominated40710 replacement credit, with all other
 original paid jobs/target credits retained. No extra suffix/deletion credit
 or cross-call amortization was classified. No result changes the selected
@@ -56,8 +61,34 @@ exponent or discharges a global foundational assumption.
 
 1. **Close the selected physical bridge.** Produce and review a paid, source-legal codec/descriptor/ownership path for the selected occurrence, then join it to the complete dispatcher and exact recovery caller. Bind the actual tape, phase, precision, storage, cutoff, and retirement services in one invoice.
 2. **Resolve the public-cache physical premises.** Either prove initial `e1459` is unavailable under the proposed demotion or charge its construction; separately specify and admit any public zero-retag service. State the fixed dataflow/control-channel rule, charge every cross-frame edge, and rule out cross-call reuse before using a per-call ceiling.
-3. **Finish the carrier package gate, then target an uncovered physical join.** The rank-one and relation-plane classifications are complete. Do not repeat the settled1,066-candidate screen or sum its per-target allowances; new producer/history or cross-call proposals need explicit new source and funding proofs.
+3. **Target an uncovered physical join or an explicitly changed source.** The carrier package, rank-one and relation-plane classifications are complete. Do not repeat the settled1,066-candidate screen or sum its per-target allowances; new producer/history or cross-call proposals need explicit new source and funding proofs.
 
 ## Settled exclusions
 
 The full 1,066 public per-target census and 17-call invoice are complete and remotely verified; the selected packed-bridge numerical implication is also complete and remotely verified. Reopening either census without a changed source, interface, or claim would duplicate settled work. Keep changed-history and imported-information mechanisms separate from fixed-history screens, and keep every optimistic price bound separate from physical admission and from the five foundational assumptions.
+
+## Latest upstream delta and exact restart
+
+Canonical main was rechecked unchanged at21:21:29UTC. Open #7542, head
+`71f5acb0409daf208a865482f3349049dbd3251c`, proposes conditional
+kappa=.0036475398277 from two helper rung merges. Its body was read, but the
+construction and proposed composition with #7481 were not verified in this
+run; it is unselected and does not replace the accepted frontier. No theorem
+in these packages is silently extended to its changed word. PRs7541,7540 and
+7539 were recorded as final metadata deltas, not independently reviewed
+research claims. See FINAL-UPSTREAM-DELTA.json.
+
+FINAL-MANIFEST.json records the exact ten published heads, source packages,
+review URLs and proposed PR-description paths. FINAL-HEAD-CONSISTENCY.json
+authenticates the ten fork heads and unchanged canonical main. The final
+independent ledger audit found stale mirror copies of the older cache/cold
+heads; those mirrors have been replaced, all ten current review receipts are
+preserved, and stale active/UNPUBLISHED labels have been corrected. Historical
+progress entries remain explicitly labelled as history.
+
+No upstream PR was submitted. No worker or background investigation remains
+active. The stopped general-intersection attempt contributes no evidence.
+Recovery notes can contain workspace-relative scratch paths; published
+packages are self-contained, and each VERIFY.json is the authoritative
+reproduction entry point. Preserve this recovery branch separately from the
+ten review contributions.
