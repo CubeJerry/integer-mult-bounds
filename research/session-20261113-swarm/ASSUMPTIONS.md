@@ -6,6 +6,10 @@ application is [the #7000/#7001 review](../../docs/research/pr-intake-evidence/p
 Selected conditional kappa is `363005817/100000000000`. This is a recovery and
 allocation note, not a scientific contribution or proof of assumption removal.
 
+**Final reading guide:** the exact statements are unchanged. Earlier wave entries
+are chronological records; the final status and next-obligation table at the end
+supersede every earlier pending label. The15 final heads are in CHECKPOINT.json.
+
 | ID | Exact retained statement | Established selected or partial scope | Weakest useful next interface |
 |---|---|---|---|
 | native_all_columns | Retained native operators, phase conventions, spectators and whole-job adapters work at every positive column multiplicity. | Exact finite catalogue, absolute phase contacts and generic tensor lift; 3,057 native maps and 104 boundary pairs audited. | Complete uniform physical invocation with encoded parameters, all columns/spectators, absolute phase, owner return and charged child/adapters. #7426–#7430 are partial modules; wave 1 targets the join. |
@@ -119,3 +123,39 @@ The source-root gate distinguishes DATA-only HOME length v from separate header 
 Thirteen verified branches are published; the arbitrary fixed9-bit offset is now a complete supplied-entry literal service. Generic monomial composition and actual rank3MOVE24476 pass source/absolute-phase/all512-column review plus a separate118.7millionstep machine run. BorrowedimmutableGamma6 HEADER withDATA-onlyHOME F=V passes rootproof and a separate13.7millionstep rank2execution; anotherrole reviewsitsinterface. Both packages remain in publication gates.
 
 The retained complete-root Clifford-row numerical bound is closed under inserted exact C-prefixes without new exterior coefficient/debt. This reviewed application can discharge a separate prefix numerical promise *conditional on an actual producer supplying that invariant and correct complete-root view*. It is prior-theorem application, not a new precision theorem; partialbits, accumulator representations and scratch are excluded. Actual producer/packing/cutoff and faster tariff remain the next material missing interfaces. All five selected assumptions and selectedkappa remain unchanged.
+
+## Final verified status after wave17
+
+Canonical main was rechecked at2026-11-13 14:54:01 UTC and remains the exact base
+above. Fifteen separate review branches are published and checked. Every full
+selected assumption remains open; the selected conditional kappa is unchanged.
+The results are independently cross-checked AI research proposals, not upstream
+admission, human peer review or formal-kernel proofs.
+
+| Assumption | New verified local scope | Remaining conditional boundary | Weakest material next obligation |
+|---|---|---|---|
+| native_all_columns | Literal positive centers for every fixed rho1..9, arbitrary fixed9-bit translations, generic monomial composition and uniform fixed-recipe31-tape closure; actual source-bound MOVE24472,28141,24476 have separate physical/source checks. The universal result is a written composition proof, not all-f execution. | Supplied typed packet, cutoff, every phase/prefix numerical condition, authenticated recipe; whole-source dispatch, rank-zero/non-nested and153-axis/root adapters are not established. | Bind one actual source producer/view/owner entry to authenticated MOVE24476, using the retained complete-root invariant. This would advance one caller implication, not close the entire assumption. |
+| owned_erasure | Permanent source/owned HOME identities, literal signed ADD/SUB and successful primitive returns with historical backing; immutable-header small/large/small reuse restores same owners and retains earlier larger history. | Complete54 owned lifetimes, allocation/reservation, suspended ancestors and dirty erasure remain global obligations. A nonzero CLEAR witness is consistent with retained dirty semantics, not a refutation. | Complete one actual owned bank's source allocation-to-erasure chronology with typed packets and paid helper/ancestor reserves; use genuine dirty-erasure semantics. |
+| compiler | Actual checkpoint-to-payload dispatcher with full16(R+1)(K+b+1)(F+2) routing bill plus primitives; DATA-only HOME wrapper removes header-length dependence from scientific field extent. | Primitive semantics, typed initialization, supplied layouts and whole-source contacts remain premises. No all-event executed compiler or faster full invoice follows. | Instantiate one complete actual word interval, including every INIT/COPY/SCALE/ADD/MOVE/CLEAR contact and its owner/format transitions, against the charged dispatcher. |
+| precision_tape | Complete fixed leaf movement/return/history bills; root-row closure shows completed exact Clifford prefixes retain the original common grid and width if the actual root row/view invariant holds. Separate rounded alternatives have sharp scoped arithmetic bounds. | Actual producer/view/packing/cutoff proof, helper temporaries and scratch remain separate. Inline-header source MOVE and borrowed-header positive core have different public interfaces; their actual caller composition is not automatic. O(fV+E) leaves do not meet the faster nonleaf tariff merely by counting source operations. | Prove and implement one paid producer-to-native address view using the original root dimension and immutable parameter boundary, then charge acquisition, placement, return and history in the actual caller regime. |
+| analytic_recovery | No new analytic assumption proof. Targeted audit prevented duplication: CRT row lift and earlier fine-prime questions were already addressed by credited merged work; slow fineTile admission does not produce a faster complete supplier. | Analytic decomposition, fine-prime avoidance, exact rounding/recovery and the complete paid outer interfaces remain retained. | Choose a genuinely new paid recovery interface only after comparing its full recurrence and error/prime hypotheses with #4024/#4408/#4435/#4648/#6991. Do not relabel address semantics as analytic recovery. |
+
+### Alternative arithmetic and exhausted routes
+
+The global error-one Gaussian-pair bijection has optimal bilateral radial
+supremum1/2 without the stricter native identities. Exact-sum/phase-covariant
+conjugation-inverse maps have sharp bilateral1/sqrt2. Exact-sum maps whose
+square is wire swap have sharp forward/bilateral sqrt19-sqrt13, attained by
+an annular construction. These classes differ; their hypotheses cannot be
+silently combined. Exact sum plus square-to-swap excludes conjugation-as-inverse,
+and the credited #6778 tensor-commutation obstruction remains. The unrestricted
+forward-only optimum remains between sqrt78-sqrt73 and1/2; bilateral optimality
+does not settle it. None is an admitted replacement inside the selected exact
+layer, and the once-rounded primitive still needs a separate caller error proof.
+
+The serial CNOT implementation's fV writes give a scoped tariff obstruction,
+not a general movement lower bound. The compact BIT descent implication and
+CRT row-lift result were already prior work, so no duplicate contribution was
+published. The ball-core Hall extension failed in its stated family; it did
+not prove a global forward impossibility. See retained gates and negative
+reports before allocating another search.

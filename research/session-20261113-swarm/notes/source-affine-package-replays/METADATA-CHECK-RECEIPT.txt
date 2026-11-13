@@ -1,0 +1,3 @@
+PASS_PACKAGE_METADATA_AND_PINS (not a mathematical acceptance check)
+
+Method: ran the canonical repository script scripts/research_package.py --check-only in an isolated temporary repository root. The temporary root had a temporary `research/literal-source-affine-move` containing TASK.json, SOURCES.json, VERIFY.json and README.md, a HEAD ref to canonical base e54523517d0f03e58352e647c403a5af3e525a57, and a read-only Git object alternate to the existing local canonical repository. No shared repository or validation-global tree was mutated. The temporary harness was removed after the check.
