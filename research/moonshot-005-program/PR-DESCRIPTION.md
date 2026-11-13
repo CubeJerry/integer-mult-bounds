@@ -130,3 +130,15 @@ q8 chronological code in one explicit historical extension, with acquisition,
 kernel/image compatibility, old-mode restoration, all222 endpoints and a full
 invoice, followed by compatible strict supplier admission. The cumulative
 branch remains the durable research output.
+
+## Coordinate candidate: exact proper-support interface
+
+The final [localization theorem](results/bit-coordinate-history-localization/ADMISSION.md)
+classifies every properly supported nonclass word of W0=U+<K0>: exactly eight
+l_i at the coordinate facets. The span of all proper-support words has rank10,
+so the optimistic quotient screen drops from9 forU to6 forW0. The independent
+physical boundq>=8 stillapplies. Separate sourcecheckers agree on every full
+pattern and forced shortbit; the shared proof method is disclosed. This is a
+concrete possible escape from the closed-class code obstruction, but none of
+the support49..53 localforms is physically supplied. Actual acquisition and
+all endpoints/costs remain. No new kappa; no change to PR readiness.

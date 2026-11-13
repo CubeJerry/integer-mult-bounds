@@ -59,3 +59,16 @@ Checkpoint11/12/13 validation receipts record exact installed-path comparisons.
 Earlier invalidated, reconstructed, incomplete and superseded results remain
 labeled in their original packages and archived ledger. No complete source,
 uniform supplier or foundation is inferred from these finite successes.
+
+## Final W0 localization check
+
+Root proposed the support reduction; B independently wrote the proof and
+certificate while root implemented a separate source reconstruction. Both
+use the same four-plane method, disclosed. Four orthogonal roots span each
+selected coordinate4-plane; all256 patterns give248 Hub spans and8 proper
+coordinatefacets, with six shortbits uniquelyforced. All48 wrong-short-bit
+controls fail. Ranks6/4/10/16 and quotient6 are exact. Installed Bcertificate
+and rootreceipt matchbyteforbyte. Classification covers anyproperreal subspace,
+not just existingchartIDs; noavailability orcost conclusion follows.
+[Package](results/bit-coordinate-history-localization/ADMISSION.md) and
+[checkpoint14 receipt](sessions/2026-11-13-S010/CHECKPOINT14-VALIDATION.json).

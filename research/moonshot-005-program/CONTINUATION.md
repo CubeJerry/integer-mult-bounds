@@ -35,3 +35,12 @@ No upstreamPR submitted. One ongoingprogramme. Use VERIFICATION forreproduction
 and REGISTERED-RESULTS for earlier scope. CP12 logical preimages are archived
 byteexactly; SESSION-LOG isappend-only. Obtain latestSHA fromGitHub. Historical
 active-status fields are not evidence of execution after this session ends.
+
+## Most precise next block
+
+Use W0's classified local form l0=K0+u0 at actualF0 (49 original-input
+coefficients). The only nonclass W0 forms supported in anyproperchart are
+the eightcoordinate l_i; the all-local-span quotient is6, so thisscreen permits
+q8. Build actual l0 availability and old-global-mode retention, with unknownY
+andoriginalX restoration. Do not infer availability fromsupport, or restrict
+all singular kernels to thesefacets. See bit-coordinate-history-localization.

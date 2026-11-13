@@ -57,3 +57,14 @@ before repeating them. Fragmentation/H4 and recharting remain in
 [SUPPORTING-RESULTS.md](SUPPORTING-RESULTS.md), with native realizability open.
 Changed global codes and singular noncommuting block mechanisms remain possible,
 with new full costs required. Failed finite searches are not impossibility.
+
+## W0-LOCALIZATION — proved exact scalarF2 source geometry
+
+The coordinate W0's nonclass proper-support words are exactly the eight l_i,
+and all proper-support words spanrank10. Dependencies: actualrootpartition,
+256 complete full-support choices, unique shortbits and exactbinaryranks.
+[Admission](results/bit-coordinate-history-localization/ADMISSION.md).
+The resulting quotientrank6 is an optimistic necessary-screen calculation,
+not a source orprice. OPEN next: physically acquire l0 at actualF0, retain
+oldmode andrestore originals within q8 invoice; do not treat support49 as
+49 cocharted originalinputs or a free observer.

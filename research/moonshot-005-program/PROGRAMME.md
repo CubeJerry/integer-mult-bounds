@@ -78,3 +78,14 @@ are [archived](sessions/2026-11-13-S010/logical-records-at-cp12/MANIFEST.json).
 SESSION-LOG remains append-only and prior scientific bytes are unchanged.
 Reconstructed evidence remains distinct from independent reproduction.
 The branch is ongoing, not PR-ready; no upstream PR is being submitted.
+
+## Final S010 refinement: a precise local acquisition target
+
+The coordinate candidate W0=U+<K0> now has a complete proper-support
+classification. Its only nonclass words supported in any proper real subspace
+are l_i=K_i+u0 for the eight coordinate indices; each spans actualF_i.
+Their span together with six short-class modes has rank10, leaving quotient6.
+Thus this optimistic local-code screen does not excludeq8 (the physicalcut
+stillrequires8). The concrete next step is actual acquisition of l0, support49,
+atF0 while preserving the displaced global mode. Algebraic support supplies
+no cache, chronology or price. [Proof and checks](results/bit-coordinate-history-localization/ADMISSION.md).

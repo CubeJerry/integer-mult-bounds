@@ -133,3 +133,14 @@ Every arrow is an obligation. All five foundations remain explicit. Uniformity
 must cover unbounded input sizes; finite checks cannot establish it by
 extrapolation. m is fixed independently of n; storage and precomputation are
 not silently free. Alternative architectures require their own complete budget.
+
+## Coordinate-candidate localization, final S010 result
+
+For scalarF2 W0, exactly eight nonclass rows have proper real support:
+l_i=K_i+u0, i0..7, supported on actualcoordinateF_i with sizes
+49,53,53,51,51,51,51,53. Granting allproperreal subspaces, the spanS of ALL
+proper-support W0words is Tshort+span(l_i), rank10. Hence dim(W0/S)=6 and
+the targetU image hasdimension6, compared with the earlier U/Tshort rank9.
+This relaxes that particular algebraic seed screen; the independentphysical
+q>=8 gate and completecosts remain. It does not place every kernel at these
+facets or make the dense localforms available. [Localization](results/bit-coordinate-history-localization/ADMISSION.md).

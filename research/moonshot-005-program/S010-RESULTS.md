@@ -34,3 +34,12 @@ The [class-historical closure](results/bit-class-history-closure/ADMISSION.md) i
 ## Single next construction attempt
 
 Build one actual q8 global BIT source around a coordinated cross-class source/packet handoff: transport a genuine nonclass current-X component while retaining the displaced old coded mode through an honestly available ascending carrier/Hub cache. Choose the eight actual descending flags and donor/receiver reads together; initial packet functions must be acquired at their real Hub birth times. The first concrete block must preserve both old forward modes rather than merely improve historical rank. Embed it in one 111-target timeline and output all 222 coefficient maps, G_x, every D_C kernel/image equation, original-X restoration and the full fixed-m invoice. The fifteen-class fitting is a specification to test, not an available encoder. Stop a candidate when an old read, unknown-Y term or paid MOVE is missing; add no fresh-return assumption to repair it.
+
+## Final bounded localization lemma
+
+The [coordinate candidate](results/bit-coordinate-history-localization/ADMISSION.md)
+has exactly eight nonclass proper-support words, one per coordinatefacet.
+They spanrank4 and, with sixshort-class modes, give localspanrank10 and
+quotient6. This particular screen permitsq8; no source isconstructed.
+The next exact acquisition target is l0 atF0, with support49 and all old-mode,
+unknownY, endpoint andprice duties retained.
