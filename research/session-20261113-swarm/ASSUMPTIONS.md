@@ -79,3 +79,7 @@ do not change that frontier.
 ## Wave 5 delta
 
 The once-rounded native result is now published at `16e304f18941228167244862180303bafe98060c`, and the affine-period/fiber slack theorem at `26ea0e01b09b12759a17f006c9066d9e5fcd84e0`. Their scoped status does not remove any global selected assumption. New unrestricted candidate: with fixed approximation error M, integer norm spacing and the credited radial lemma force positive outward slack without a period premise. A complete radius-five Hadamard matching and Hall certificate sharpen the M=1 finite bound to sqrt(21)-sqrt(19). That latter package is under independent review; it is not a global construction. The native-pair transfer uses exact left/right signed permutations, not a physical implementation claim. New #7487 and updated #7486 concern different fixed signed-host rank obstructions and do not overlap these scopes.
+
+## Wave 6–7 delta
+
+Signed ADD/SUB is a verified supplied-packet primitive at dcd6352db7e5a5353498203c0c2699334019ba56. Bank1526 has a nonzero -3/4 witness at CLEAR, consistent with existing dirty-erasure semantics; no assumption is falsified or discharged. Raw MOVE Boolean is ownership, not inversion; correction is explicit and arithmetic code unchanged. The R5 finite optimum and native transfer passed independent review. A new short W(D4)-invariant Hall witness has independently matched counts1809/1777; proof packaging pending. Native tariff work isolates actual adapter writes and checks current grouped p^beta geometry. All five assumptions and selected kappa remain unchanged.

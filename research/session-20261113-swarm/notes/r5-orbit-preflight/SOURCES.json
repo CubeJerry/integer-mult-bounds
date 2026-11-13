@@ -1,0 +1,50 @@
+{
+  "package": "r5-hall-orbit-preflight",
+  "canonical_base": {
+    "repository": "CrocSwap/integer-mult-bounds",
+    "commit": "e54523517d0f03e58352e647c403a5af3e525a57"
+  },
+  "frozen_inputs": [
+    {
+      "path": "../sharp-finite-gaussian-outward-slack/R5-OPTIMUM.json.gz",
+      "source_path": "root-work/outward-tradeoff-preflight/R5-OPTIMUM.json",
+      "expanded_bytes": 633242,
+      "expanded_sha256": "b1fe3d866d2184227f46ec73ec2021c546bba056e98077e657e9205d9db5ad8b",
+      "compressed_sha256": "d26f615aacff4b082c316e491aa1730aabc9cb6ceb377d33fb9a279b2d7f5f16",
+      "author_context": "@CubeJerry workstream; substantial OpenAI assistance"
+    },
+    {
+      "path": "../sharp-finite-gaussian-outward-slack/verify.py",
+      "sha256": "611124563b42ec1c20d4755d190a850d1deac5ed743d6f98094ec97f7d893190",
+      "role": "current exact finite neighbor and radical-comparison verifier, authenticated and loaded from source bytes"
+    }
+  ],
+  "predecessors": [
+    {
+      "repository": "petalas/integer-mult-bounds",
+      "pr": 6619,
+      "author": "Nick Petalas",
+      "commit": "eaa967e7e8aa12cc53ec246a5fc00c5f8873a50b",
+      "path": "research/rational-norm-rounding/PROOF.md",
+      "git_blob": "ffb873b2749b1590df9267e802aea5af2c2a6eb5",
+      "sha256": "231b1b322b6be2a798d1807f5c0346ac4002323384b45cd4eff2a0ef7210bc00",
+      "role": "rounding and radial-error context; cites #2589"
+    },
+    {
+      "pr": 2589,
+      "author": "ywz65",
+      "role": "finite-sphere predecessor cited by #6619; not re-proved or required by this group audit"
+    },
+    {
+      "repository": "aliromman/integer-mult-bounds",
+      "pr": 6509,
+      "author": "Ali Romman",
+      "commit": "a4173e810c4d34a1d13b9745af123ad0ec6cfed5",
+      "path": "research/conservative-gaussian-rounding/PROOF.md",
+      "git_blob": "b7047476aaa5e2bb149c92a8a40a9b2ab444ef73",
+      "sha256": "122eff335674d8de1bcba47d28feb0c420be62b2b6d4e84f91c4292383753380",
+      "role": "actual ideal Gaussian pair map to which the pinned R5 result transfers"
+    }
+  ],
+  "method": "Exhaustive enumeration of the 384 signed input permutations, exact derivation of the unique compatible output permutation, exact stabilizers, complete strict-beta neighborhoods for S5 templates, and all unions of 16 coordinate-parity classes. No radius extension or matching search."
+}
