@@ -1,0 +1,65 @@
+{
+  "status": "bounded source-bound preflight; the proposed d=2 row rotor is superseded by the pinned full-payload shear implementation in #4024; no caller integration established",
+  "files": [
+    {
+      "label": "#7351 forward address-state proof",
+      "head": "d2ed3959c30528b0b85fc6d815d4ad4f94f6be86",
+      "path": "research/encoded-balanced-crt-endpoint/PROOF.md",
+      "git_blob": "d3b9ce4faec2d1e9db0406d4588af53b15dc3cfe",
+      "sha256": "a20c90aada4ea2d9141a465b10bd1d54a1047b52608bb19c88efa7fd98eeacf3",
+      "bytes": 19385,
+      "use": "source formula and padded-domain premises"
+    },
+    {
+      "label": "#4024 triangular CRT address-stream proof",
+      "head": "e99297be6749518a1b5b85cd129ecaf204d26c63",
+      "path": "research/crt-address-streams/PROOF.md",
+      "git_blob": "479a2b727b67b88efc8bdc64bde340a1c0d95ec3",
+      "sha256": "7b141475955cc372c5936118ff16e8748b589b93de2d26b76da28feec9b45de4",
+      "bytes": 11035,
+      "use": "supersedes the proposed row-lift mechanism; full-payload sequential bucket shear, inverse, complete conversion stages, and conditional tariff"
+    },
+    {
+      "label": "#4024 physical triangular shear implementation",
+      "head": "e99297be6749518a1b5b85cd129ecaf204d26c63",
+      "path": "research/crt-address-streams/crt_shear.py",
+      "git_blob": "229e3a42decd7088019240f4f8f8578a3d20424b",
+      "sha256": "2ab51279388abceeb8a1e4a335c207236da60d9c62c7e0f633b39cca11abee46",
+      "bytes": 2973,
+      "use": "forward/inverse bucket ordering, full suffix copying, stream exhaustion, head restoration, and temporary erasure"
+    },
+    {
+      "label": "#4024 encoded offset compiler",
+      "head": "e99297be6749518a1b5b85cd129ecaf204d26c63",
+      "path": "research/crt-address-streams/crt_offsets.py",
+      "git_blob": "efb054733b8bfff89e229f5f1e9c223b9aafb6d3",
+      "sha256": "3b130990f37a844c39722eeed3de7af45aeca6640972333c762e96e6d0df7cd7",
+      "bytes": 2753,
+      "use": "actual encoded offsets per lower prefix, including padded-prefix validity and zero offset"
+    },
+    {
+      "label": "related non-superseding check: transported exceptional-key tape",
+      "head": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "path": "research/crt-transported-key-tape/README.md",
+      "git_blob": "a552817b3379cd4ac96535f12f8f2b90e6c8a5ef",
+      "sha256": "45d2e6b749eb9f4d16c7fd1f0a047c22b9fb51ff0721a8224fa6211dfbd74d58",
+      "bytes": 9344,
+      "use": "fixed exceptional-key evaluation; does not supply the general full-payload shear or selected-caller integration"
+    }
+  ],
+  "credited_but_not_inspected": [
+    {
+      "label": "#7388 encoded CRT leaf payload",
+      "head": "d6f4a69202ad0bba4a915f4d4f3eaba1fe431c86",
+      "reported_scope": "actual finite payload fibers via radix; metadata supplied by parent, package not inspected"
+    },
+    {
+      "label": "#7390 encoded CRT two-target payload",
+      "head": "cf62e701f52adf2196923ab7356539e69713d55b",
+      "reported_scope": "actual finite payload fibers via radix; metadata supplied by parent, package not inspected"
+    }
+  ],
+  "not_used": [
+    "#7352 inverse proof was not needed; the inverse of each row rotation is immediate from the pinned #7351 map."
+  ]
+}
