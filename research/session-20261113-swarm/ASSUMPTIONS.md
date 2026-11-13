@@ -23,7 +23,7 @@ must cross these boundaries before it changes the complete multiplication theore
 All five are retained proof obligations, not established false statements. Finite
 success is not uniform proof; finite failure is not a universal obstruction.
 
-## Current opportunity classification
+## Initial opportunity classification (07:29 UTC; updated below)
 
 - Complete selected native MOVE: unresolved composition. Partial open modules
   #7426–#7430; newer #7462 changes a binary factor, #7468 sharpens C-prefix scales.
@@ -53,3 +53,25 @@ predecessor authors. Pending PRs are proposals, not automatic theorem acceptance
 ## Wave 3 verified proposals
 
 Native endpoint/core at dffe132bbe16d830e2aa7367ed40a540f5c7fd64 and compiler routing at b4fcc9d64971fdabd0b1d82cfb749d8aac920437 are independently reviewed in their stated supplied-entry/primitive domains. All remote blobs match tested snapshots. Actual caller admission, full native manifest, faster recursion and all five global assumptions remain open. Active work: once-rounded MOVE, complete-field ABI adapter, and a bounded CRT row-lift preflight. Initial analytic address/payload limitation was already stated in predecessors, not a new contribution. Review URLs and descriptions are in notes/*-publication.json. No upstream PR submitted. #7481 is an unadmitted coefficient proposal.
+
+## Current classification after three published contributions, wave 4
+
+The five exact statements above remain the selected assumptions. The first
+table's wave-1 next actions are historical entry scopes, not current claims
+that no progress has occurred. Canonical main remains the exact pinned SHA.
+
+| Obligation or candidate | Current status and evidence | Weakest useful next step |
+|---|---|---|
+| One actual selected native MOVE, all positive multiplicities | Scoped local proof and fixed physical graph at `dffe132bbe16d830e2aa7367ed40a540f5c7fd64`; complete nine-axis geometry, all f, r, P, S with supplied format/cutoff/numerical entry. Endpoint scaling removes prefix divisibility/range promises when both endpoints are integral and bounded. | Generalize the rank-one recipe only after comparing the actual joint f,p,cutoff regime with the full selected tariff; verify source binding and every extra routing axis. Other native operators and their caller entry remain open. |
+| Chronological compiler payload routing | Local lowering at `b4fcc9d64971fdabd0b1d82cfb749d8aac920437` realizes complete logical checkpoints with permanent HOME fields, distinct source/owned identities and paid O(RKF) scans. Primitive semantics/tariffs remain premises. | Instantiate compatible scientific primitives and establish selected initial packets and real word contacts. Raw zero reserve is not a formatted scientific initializer. |
+| Actual native/dispatcher packet interface | Source-bound MOVE24472 interface at `13c29e2df66ba46402d4da5f1d2489ebf333e5fe`, with six encoded Gamma codes, complete DATA and restored owners. Full author/root executions and exact source binding passed. | Bank1526 format gate found a rank-two MOVE and five actual ADD/SUB contacts. A compatible scalar ADD/SUB primitive is in development; an all-lifetime realization is not yet established. |
+| Arbitrary-input once-rounded native MOVE | Written numerical/physical proof and independent full f=1 execution passed; final package source freeze pending. Uses k=ceil(f/2), W=w+2k+1 and one final nearest-UP round. | Selected application requires an exact layer before final truncation. Interior replacement needs a separate caller/accumulated-error proof. No admission follows from the local rounded return. |
+| Exact outward slack of affine-period rounders | New full-rank period lemma and conservative-pair fiber proof pass independent reasoning and exact rational checks. Author packaging pending; not yet published. | State restricted-family optimum and inherited source corollaries precisely; unrestricted nonperiodic bijection problem from #6619 stays open. |
+| CRT row rotor/payload lift | Superseded by #4024 `e99297be6749518a1b5b85cd129ecaf204d26c63`, which already proves complete triangular-shear payload routing and invalid-tail restoration. No new implementation or PR. | Bind existing conditional router/offset producer and complete geometry to the actual fine recovery caller. Address semantics alone do not do this. |
+| Earlier fine-prime and old-catalogue questions | Trudgian conditioning question already addressed by #4408. #6982 proves a scoped old-catalogue admission obstruction; it is not a global impossibility. | Find a genuinely different fine-recovery interface; repeating old parameter tuning or finite catalogue tests cannot remove that obstruction. |
+
+Published packages are review proposals, not upstream admission. Their complete
+proofs, tested domains, source pins and negative controls are in the individual
+branches and publication receipts. All five global assumptions remain; selected
+kappa remains `363005817/100000000000`. The unadmitted #7480/#7481 proposals
+do not change that frontier.
