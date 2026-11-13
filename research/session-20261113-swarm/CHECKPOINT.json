@@ -1,12 +1,12 @@
 {
   "schema": "integer-mult-swarm-checkpoint/v1",
   "session": "2026-11-13-swarm",
-  "status": "wave-2-active-first-core-verified-published",
+  "status": "wave-3-active-two-verified-contributions",
   "base": "e54523517d0f03e58352e647c403a5af3e525a57",
   "base_tree": "1199c3d7a31fffa5ba5d41f10f1b933aacc797aa",
   "selected_kappa": "363005817/100000000000",
-  "latest_check_utc": "2026-11-13T08:03:00Z",
-  "checkpoint_utc": "2026-11-13T08:05:44.760136+00:00",
+  "latest_check_utc": "2026-11-13T08:23:00Z",
+  "checkpoint_utc": "2026-11-13T08:44:17Z",
   "recovery_branch": "recovery/swarm-20261113",
   "local_root": "/workspace/scratch/92c9920affc2",
   "publication_rule": "Verified individual fork branches; no upstream PR submission or selected-certificate changes",
@@ -17,74 +17,50 @@
     "Contextual picker executed; revision-8 assessment mismatches #7000 selection, current selected pins retained",
     "Native MOVE24472 fixed graph independently reviewed and published to a separate fork branch; 38 exact Git blobs match tested local snapshot with no deletions",
     "Native source full archive independently re-extracted; graph relocation and exact integer forward oracle passed",
-    "Initial analytic address/payload gap was already explicit in predecessors; not treated as a new contribution"
+    "Initial analytic address/payload gap was already explicit in predecessors; not treated as a new contribution",
+    "Endpoint width and physical wrapper independently reviewed/published, all 54 remote blobs matched",
+    "Compiler route independently reviewed/published, all 30 remote blobs matched",
+    "Nearest-up preflight independently passed; source-reachable post-round-fit counterexample verified"
   ],
   "active": [
     {
       "worker": "native_move",
-      "wave": 2,
-      "track": "20-39/60-74",
-      "scope": "Literal sharp endpoint scale, widened header and exact narrowing around frozen complete MOVE",
+      "wave": 3,
+      "track": "20-39/precision",
+      "scope": "Literal nearest-up rounded MOVE for arbitrary signed inputs; only final overflow",
+      "output": "worker-a/research/literal-once-rounded-selected-move",
       "dependencies": [
-        7430,
-        7426,
-        7428,
-        7429,
-        7427,
-        7468,
-        7462
+        "dffe132bbe16d830e2aa7367ed40a540f5c7fd64",
+        "#7211"
       ],
-      "output": "worker-a/research/",
-      "status": "core verified/published; physical wrapper implementation in progress",
-      "next": "Independent endpoint proof review; exercise k>0 converters and integrated core, audit full costs"
+      "status": "unverified implementation",
+      "next": "Complete graph; independent domain/cost review"
     },
     {
       "worker": "compiler_routing",
-      "wave": 1,
-      "track": "50-59",
-      "scope": "Bridge chronological compiler addresses to physical routing and emission",
+      "wave": 3,
+      "track": "50-59/85-94",
+      "scope": "Paid complete-field native/dispatcher ABI adapter",
+      "output": "worker-b/research/source-bound-move-home-primitive",
       "dependencies": [
-        7345,
-        7346,
-        7347,
-        7348,
-        7423,
-        7424,
-        7464
+        "3a27ab1d302d13b1ce52411f8a174e7a32baab77",
+        "b4fcc9d64971fdabd0b1d82cfb749d8aac920437"
       ],
-      "output": "worker-b/research/",
-      "status": "exact chronological emitter and literal permanent-home graph including physical zero-home reservation pass 33 fixtures; full docs and independent review pending",
-      "next": "Audit source correspondence, primitive contracts, full QK costs and actual history"
+      "status": "First full m9f1 packet passed; proof and independent review pending",
+      "next": "Complete source/cost/history proofs and independent review"
     },
     {
       "worker": "analytic_recovery",
-      "wave": 2,
+      "wave": 3,
       "track": "60-74/analytic",
-      "scope": "Independent sharp endpoint component-width proof review",
+      "scope": "d2 CRT row-shear payload lift cost and novelty preflight",
+      "output": "worker-c/crt-row-lift-preflight",
       "dependencies": [
-        7421,
-        7351,
-        7352,
-        7154,
-        7152
+        "#7351",
+        "#7352"
       ],
-      "output": "worker-c/research/",
-      "status": "analytic work closed as known boundary; independent review requested, checkpoint pending",
-      "next": "Write exact proof/novelty review, then cross-review compiler"
-    },
-    {
-      "worker": "root",
-      "wave": 2,
-      "track": "60-74/precision",
-      "scope": "Two-endpoint signed-width bridge extending #7468 arithmetic scale",
-      "dependencies": [
-        7468,
-        7211,
-        7429
-      ],
-      "output": "root-work/endpoint-width",
-      "status": "core published; endpoint-width all-f candidate awaiting independent worker review",
-      "next": "Verify/compiler and endpoint physical wrapper; publish only checked extensions"
+      "status": "preflight only; exact shear formula derived",
+      "next": "Cost/overlap gate before implementation"
     }
   ],
   "verification": [
@@ -103,15 +79,24 @@
   ],
   "remote_packages": [
     {
-      "name": "literal-selected-move-join",
+      "commit": "dffe132bbe16d830e2aa7367ed40a540f5c7fd64",
       "branch": "research/literal-selected-move-join-20261113",
-      "commit": "3a27ab1d302d13b1ce52411f8a174e7a32baab77",
-      "tree": "ae44ea798dfd69a0a8ebc0037444b6cd2a714a38",
       "base": "e54523517d0f03e58352e647c403a5af3e525a57",
-      "files": 38,
+      "tree": "25686f6392458355b2718f7a80d33f988afef196",
+      "files": 54,
       "all_blobs_match": true,
       "all_additions": true,
-      "local_snapshot": "publication/native-core/research/literal-selected-move-join",
+      "retained_core_commit": "3a27ab1d302d13b1ce52411f8a174e7a32baab77",
+      "upstream_pr_created": false
+    },
+    {
+      "commit": "b4fcc9d64971fdabd0b1d82cfb749d8aac920437",
+      "branch": "research/compiler-permanent-home-dispatch-20261113",
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "tree": "de950f37297a97f5e73d867ed497d9cdce994498",
+      "files": 30,
+      "all_blobs_match": true,
+      "all_additions": true,
       "upstream_pr_created": false
     }
   ],
@@ -123,8 +108,14 @@
   ],
   "next": "Review worker results independently, then launch fresh evidence-driven waves.",
   "remote_checkpoint": {
-    "previous_sha": "f0276d841e7a59310b57e38a90e8eec264748d33",
-    "branch_verified": true,
-    "note": "This checkpoint records previous published recovery head; new own commit is in Git history."
-  }
+    "previous_sha": "c0b64fac1132043c377ff32fc4fb63c466105fab",
+    "branch_verified": true
+  },
+  "latest_unadmitted_frontier": {
+    "pr": 7481,
+    "sha": "89eaa9d8cae37c1540de98f2d29a3abaabb96a2b",
+    "claimed_kappa": "0.003647081039689",
+    "status": "Unadmitted; selected record unchanged"
+  },
+  "coverage_note": "Main and recent PR deltas refreshed; Discussion board and exposed newest #1166 view checked, anonymous view partial. No exhaustive active-claim coverage claimed."
 }

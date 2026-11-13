@@ -49,3 +49,7 @@ claims are recorded locally in CHECKPOINT.json. No placeholder issue was opened.
 
 Prepared for @CubeJerry with substantial OpenAI assistance; credit all named
 predecessor authors. Pending PRs are proposals, not automatic theorem acceptance.
+
+## Wave 3 verified proposals
+
+Native endpoint/core at dffe132bbe16d830e2aa7367ed40a540f5c7fd64 and compiler routing at b4fcc9d64971fdabd0b1d82cfb749d8aac920437 are independently reviewed in their stated supplied-entry/primitive domains. All remote blobs match tested snapshots. Actual caller admission, full native manifest, faster recursion and all five global assumptions remain open. Active work: once-rounded MOVE, complete-field ABI adapter, and a bounded CRT row-lift preflight. Initial analytic address/payload limitation was already stated in predecessors, not a new contribution. Review URLs and descriptions are in notes/*-publication.json. No upstream PR submitted. #7481 is an unadmitted coefficient proposal.
