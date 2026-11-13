@@ -1,0 +1,62 @@
+{
+  "status": "PASS_LOCAL_PORTABLE_READ_ONLY_NORMAL_AND_OPTIMIZED",
+  "runs": [
+    {
+      "mode": "-I -B",
+      "complete_stdout_equals_EXPECTED_bytes": true
+    },
+    {
+      "mode": "-I -O -B",
+      "complete_stdout_equals_EXPECTED_bytes": true
+    },
+    {
+      "mode": "empty_PATH_portable -I -B",
+      "complete_stdout_equals_EXPECTED_bytes": true
+    },
+    {
+      "mode": "empty_PATH_portable -I -O -B",
+      "complete_stdout_equals_EXPECTED_bytes": true
+    }
+  ],
+  "write_text_and_write_bytes_guard": true,
+  "receipt_no_excluded_fields": true,
+  "current_cheap_checks": 598,
+  "additional_INIT_zero_checks": 1,
+  "complete_geometry_sha256": "e881182e8742316710586ecc495c2f864e97d3f85dacc47f00b2d46ff3ea1745",
+  "observation_records_sha256": "cc991f208d0fa96e2e80b3811595afaba1f0cb5b8bb3f8cc676ca92fa197d22b",
+  "integrated_publication_gates": {
+    "scientific_commit": "db8bed73dda53091e60ff6420225d8c389633797",
+    "registered_commands": 4,
+    "registered_outcome": "PASS_REGISTERED_RESEARCH_PACKAGE outcome=partial",
+    "primary_normal_optimized_expected_equal": true,
+    "independent_normal_optimized_expected_equal": true,
+    "committed_bytes_and_modes_checked": 29,
+    "primary_export": {
+      "status": "PASS_READ_ONLY_GIT_FREE_EMPTY_PATH_EXPORT",
+      "tested_commit": "db8bed73dda53091e60ff6420225d8c389633797",
+      "files": 29,
+      "declared_inputs_checked": 11,
+      "seconds": 1.09,
+      "exit_code": 0,
+      "stdout_sha256": "d4482da9bd059504d8be628a4ab95f3b4d50e9daa0a6d4ac640c89ae19bf28a3",
+      "read_only_modes": true,
+      "git_free": true,
+      "empty_path": true,
+      "package_bytes_and_modes_unchanged": true,
+      "stderr_empty": true
+    },
+    "independent_export": {
+      "status": "PASS_EXPORTED_INDEPENDENT_INTEGER_POWER",
+      "tested_commit": "db8bed73dda53091e60ff6420225d8c389633797",
+      "stdout_sha256": "7beefdf62bfb40f8ce8ae900aee0534d9d013929e893dc29e3c0a9d4cfb408ee",
+      "normal_optimized_registered_equal": true,
+      "expected_receipt_equal": true,
+      "read_only": true,
+      "git_free": true,
+      "empty_path": true,
+      "bytes_and_modes_unchanged": true,
+      "stderr_empty": true,
+      "seconds": 1.081
+    }
+  }
+}

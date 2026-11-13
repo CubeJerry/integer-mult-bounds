@@ -1,0 +1,113 @@
+{
+  "ai_assistance": "Substantial OpenAI assistance; no human or proof-kernel approval claimed.",
+  "author": "Jerry Chen / CubeJerry",
+  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "bundled_external_inputs": [
+    {
+      "path": "research/p104-carrier943-transport-bound/inputs/WORD.json.gz",
+      "sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+      "source_commit": "89eaa9d8cae37c1540de98f2d29a3abaabb96a2b",
+      "source_git_blob": "77df4ad624f4ed3d4bb5e08b4ac1891534d2261d",
+      "source_path": "research/p104-funded-485-1455-return/producer54/reroute/WORD.json.gz",
+      "source_repository": "Clear1nsight/integer-mult-bounds"
+    },
+    {
+      "local_origin": "root-public-carrier943-union/RESULT.json",
+      "origin_status": "Frozen local research/retained source; not a fabricated Git ancestor",
+      "path": "research/p104-carrier943-transport-bound/inputs/SEPARATOR.json",
+      "sha256": "78f154624c191b1b1c127e6fcbeee9c3f9b1bf9e5485f9883b2bfb6147f11fd3"
+    },
+    {
+      "path": "research/p104-carrier943-transport-bound/inputs/clifford_exact.py",
+      "sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+      "source_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "source_git_blob": "166841a037f069249f6f7f6dedb89248812f59e2",
+      "source_path": "research/shared-wire-split-composition/frozen/clifford_exact.py"
+    },
+    {
+      "path": "research/p104-carrier943-transport-bound/inputs/CURRENT-PRICE.json",
+      "sha256": "86f71ccbc923db5d7a6753aa971c3a9c8a572680534498ed17be072cfa2aae6b",
+      "source_commit": "89eaa9d8cae37c1540de98f2d29a3abaabb96a2b",
+      "source_git_blob": "257ae8ae92fdf24c9bedbd92cfebc26925eda5a2",
+      "source_path": "research/p104-funded-485-1455-return/producer54/validation_signed/adapted/CURRENT-PRICE.json",
+      "source_repository": "Clear1nsight/integer-mult-bounds"
+    },
+    {
+      "path": "research/p104-carrier943-transport-bound/inputs/PR7481-NOTICE",
+      "sha256": "78e060cbd33ebc4078cabf39e50191a977fb9eb5c41104533079e22da1d9d248",
+      "source_commit": "89eaa9d8cae37c1540de98f2d29a3abaabb96a2b",
+      "source_git_blob": "4133e9216529e7a1dbceb092a05db2300305d102",
+      "source_path": "research/p104-funded-485-1455-return/NOTICE",
+      "source_repository": "Clear1nsight/integer-mult-bounds"
+    },
+    {
+      "local_origin": "budget_price.py",
+      "origin_status": "Frozen local research/retained source; not a fabricated Git ancestor",
+      "path": "research/p104-carrier943-transport-bound/inputs/budget_price.py",
+      "sha256": "527d1cb2756ac6c61bd0b08488441105b8902a20e953dce149127bebc74d32bb"
+    },
+    {
+      "local_origin": "root-public-carrier943-union/PROOF.md",
+      "origin_status": "Frozen local research/retained source; not a fabricated Git ancestor",
+      "path": "research/p104-carrier943-transport-bound/inputs/AUTHOR-PROOF.md",
+      "sha256": "d3ab4ed5b731f63a7e14db3aaa25cdb13ba06ccabc25bc71f663e245069a0556"
+    },
+    {
+      "local_origin": "worker-c/root-public-carrier943-union-review/REVIEW.md",
+      "origin_status": "Credited frozen complementary review; no fabricated Git ancestor",
+      "path": "research/p104-carrier943-transport-bound/COMPLEMENTARY-REVIEW.md",
+      "sha256": "9ec23d3f01d3df78eab4ca2ad6ff9104f0ced33f29417d7d99a73697358bef55"
+    },
+    {
+      "path": "research/p104-carrier943-transport-bound/inputs/SELECTED-NOTICE",
+      "sha256": "da12736e2e824167ff56f2ecb623a5f88f75a270410360890f61dffc33bab249",
+      "source_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "source_git_blob": "a3687d65a00794277cdaad37558d24008cbc37f5",
+      "source_path": "research/shared-wire-split-composition/NOTICE"
+    },
+    {
+      "path": "research/p104-carrier943-transport-bound/inputs/CALLER.json",
+      "sha256": "255d89f38cd45e38e5770f559bc43dc217e989032359768cdc7e8cdfd64b47bc",
+      "source_commit": "89eaa9d8cae37c1540de98f2d29a3abaabb96a2b",
+      "source_git_blob": "9451ceaf6e8e037894680b549f3ef41c21b260d7",
+      "source_path": "research/p104-funded-485-1455-return/inputs/pr7113/ODD-TYPE-AB-CALLER.json",
+      "source_repository": "Clear1nsight/integer-mult-bounds"
+    }
+  ],
+  "dependency_policy": "All runtime dependencies bundled. Direct polynomial substitution only; no author row engine, equation solve, network or Git objects at replay.",
+  "files": [
+    {
+      "git_blob": "3404fbdd5e7529a0674eef26114b5071e4586cec",
+      "path": "docs/research/agent-task-catalog.json",
+      "sha256": "ead6cdc9d0af6d58e8a49744d8ec8c7c15e13d2ba93c276c434bcf9b51b93a81",
+      "usage": "provenance"
+    },
+    {
+      "git_blob": "75d77b328ea02ded535e7f23aee5b1e55d0bb1a8",
+      "path": "certificates/selected-result.json",
+      "sha256": "154c3d30455d778fd3343b6b4851f0fa4665f0f7625b0adb3675e2bafbbf6bf1",
+      "usage": "provenance"
+    },
+    {
+      "git_blob": "c9b816f8445be9dc19b2259e03e9d8709d18c87a",
+      "path": "certificates/frontier7000/CLAIM.json",
+      "sha256": "3f8add8252adb223b60418ec69351a69b6b5edfe601ec1c6b4b65cd9e2afd9b2",
+      "usage": "provenance"
+    },
+    {
+      "git_blob": "3dd1af2285e597676725e85ad4f65e7ad326d695",
+      "path": "docs/research/pr-intake-evidence/pr7000-application/PROOF-REVIEW.md",
+      "sha256": "4501502c2ceb9759b20372435fe4beb51082c5a5e2910c1fd5dbe6edca415055",
+      "usage": "provenance"
+    }
+  ],
+  "independent_numeric_method": {
+    "actual_source_supplier_admission": "OPEN",
+    "joint_invoice_verification_commit": "509baf4514966e4202cfdde379d7adf3085b1cc7",
+    "origin": "Separate worker B implementation, worker-b/carrier-budget-review/verify.py; no price engine imported",
+    "path": "research/p104-carrier943-transport-bound/independent_budget.py",
+    "receipt_sha256": "7beefdf62bfb40f8ce8ae900aee0534d9d013929e893dc29e3c0a9d4cfb408ee",
+    "sha256": "ca2811c0a20d62c37b146cc7c5a3311507589651db49adcbfc2d5c6fa6346c90"
+  },
+  "schema_version": 1
+}

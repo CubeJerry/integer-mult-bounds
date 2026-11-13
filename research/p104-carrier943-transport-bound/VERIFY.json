@@ -1,0 +1,76 @@
+{
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "checks": "All646 used/645 observed actual frameIDs,294 strict polynomial observations,598 original current values plus1 INIT-only zero, exact full budget and four rejection controls.",
+      "name": "normal_read_only",
+      "timeout_seconds": 60
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "checks": "All646 used/645 observed actual frameIDs,294 strict polynomial observations,598 original current values plus1 INIT-only zero, exact full budget and four rejection controls.",
+      "name": "optimized_read_only",
+      "timeout_seconds": 60
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/independent_budget.py",
+        "{package}/inputs/CURRENT-PRICE.json",
+        "--caller",
+        "{package}/inputs/CALLER.json"
+      ],
+      "checks": "Certify all 25 rank-price brackets by exact positive integer powers, authenticate and count 17 caller invocations, rebuild the complete signed invoice, prove the negative charged moment, and reject raised/lowered bracket controls.",
+      "name": "independent_integer_power_normal",
+      "timeout_seconds": 90
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/independent_budget.py",
+        "{package}/inputs/CURRENT-PRICE.json",
+        "--caller",
+        "{package}/inputs/CALLER.json"
+      ],
+      "checks": "Certify all 25 rank-price brackets by exact positive integer powers, authenticate and count 17 caller invocations, rebuild the complete signed invoice, prove the negative charged moment, and reject raised/lowered bracket controls.",
+      "name": "independent_integer_power_optimized",
+      "timeout_seconds": 90
+    }
+  ],
+  "expected_marker": "PASS_P104_CARRIER943_TRANSPORT_BOUND",
+  "inputs": [
+    "research/p104-carrier943-transport-bound/inputs/WORD.json.gz",
+    "research/p104-carrier943-transport-bound/inputs/SEPARATOR.json",
+    "research/p104-carrier943-transport-bound/inputs/clifford_exact.py",
+    "research/p104-carrier943-transport-bound/inputs/CURRENT-PRICE.json",
+    "research/p104-carrier943-transport-bound/inputs/PR7481-NOTICE",
+    "research/p104-carrier943-transport-bound/inputs/budget_price.py",
+    "research/p104-carrier943-transport-bound/inputs/AUTHOR-PROOF.md",
+    "research/p104-carrier943-transport-bound/COMPLEMENTARY-REVIEW.md",
+    "research/p104-carrier943-transport-bound/inputs/SELECTED-NOTICE",
+    "research/p104-carrier943-transport-bound/EXPECTED.json",
+    "research/p104-carrier943-transport-bound/inputs/CALLER.json"
+  ],
+  "package": "research/p104-carrier943-transport-bound",
+  "python": "3.12",
+  "read_only": "Reads bundled inputs/modules; regenerates records in memory; default command writes no files.",
+  "requirements": [],
+  "schema_version": 1,
+  "status": "ready"
+}
