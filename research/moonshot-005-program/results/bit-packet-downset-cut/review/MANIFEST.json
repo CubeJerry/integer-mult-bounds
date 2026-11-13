@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN_INDEPENDENT_REVIEW",
+  "result": "PASS_INDEPENDENT_EIGHT_DOWNSET_CUT_AUDIT",
+  "independent_review_artifacts": {
+    "replay_independent.py": "80668d2f363565a622fc9e02f14a97d8ecbac9f5977755c7c1a4b994308cdbae",
+    "RESULT.json": "cf1851c6f5f6087c829e0f184b8ec167df757ee91521b5dc613354fd29099ebe",
+    "REVIEW.md": "7c3b240132591594a33d459a5be7a26ea158016dc658eeaf41b058869295eb6a"
+  },
+  "reviewed_pins": {
+    "programme/research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+    "root-work/bit-eight-downset-cut/PROOF.md": "43d72b141b2b9f477e2ab6d89c08b12590837db1516cb80f8cace755a3164bd1",
+    "root-work/bit-eight-downset-cut/RESULT.json": "eae778a8f94f33f2bf2389e7acac212dd0c2ea4c53f6491c8b220219baf186d2",
+    "root-work/bit-eight-downset-cut/WORD.json.gz": "820ec11e14ae00d98bc0fdc109d5d8db64f6a6bea7f2cf76f5bc743a5d4abb4c",
+    "root-work/bit-eight-downset-cut/verify.py": "44a242813de96fddfb4cf22233ea35cfb62afaaba47327f7db9e7167ae51b1a0"
+  },
+  "execution": "python replay_independent.py --repo programme --root-package root-work/bit-eight-downset-cut --output worker-c/bit-eight-downset-cut-review",
+  "method": "Standalone exact Fraction geometry and F2 replay; does not import root verifier or retained replay module."
+}

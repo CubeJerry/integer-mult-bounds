@@ -1,0 +1,75 @@
+{
+  "status": "PASS_SOURCE_RANK10_PATCH_EXAMPLES_AND_CONDITIONAL_PRICE",
+  "source_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "accepted_budget_sha256": "aeb08b1200c06c5ba378ead88ca2a90b90b681dfacb17b60fd399d532c57eea4",
+  "canonical_rank": 9,
+  "canonical_foreign_coefficients": 6470,
+  "actual_source_foreign_min": 55,
+  "rank10_rectangle_example": {
+    "coordinate_support": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "A": [
+      2,
+      3,
+      4,
+      5,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
+    "B": [
+      0,
+      1,
+      6,
+      7,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "rank": 10,
+    "deleted_foreign_coefficients": 144,
+    "remaining_foreign_coefficients": 6326,
+    "unchanged_rows": 99
+  },
+  "rank10_single_column_example": {
+    "column": 0,
+    "affected_rows": 56,
+    "rank": 10,
+    "minimum_remaining_foreign_support": 55
+  },
+  "universal_E7_premises": {
+    "proper_subspace_max": 36,
+    "two_proper_union_max": 52
+  },
+  "required_visits_lower": 150,
+  "available_nine_packet_original_path_visits": 120,
+  "necessary_additional_upward_arrivals": 30,
+  "optimistic_base_bounds": [
+    "805104436742049917171437614663937825989/500000000000000000000000000000000000",
+    "1610208873484099834342875229327875652209/1000000000000000000000000000000000000"
+  ],
+  "limiting_remaining_bounds": [
+    "2770081614492605016809021049388640191/240000000000000000000000000000000000",
+    "721375420440782556460682564944958411/62500000000000000000000000000000000"
+  ],
+  "extra30_deficit_bounds": [
+    "1153624579559217443539317435055041589/62500000000000000000000000000000000",
+    "4429918385507394983190978950611359809/240000000000000000000000000000000000"
+  ],
+  "extra30_deficit_decimal": 18.45799327294748,
+  "scope": "Scalar rank-one perturbation of a vertex-gauge canonical fitting; arbitrary rank10 and noncommuting block perturbations remain open. Explicit algebraic fits are not physical constructions."
+}

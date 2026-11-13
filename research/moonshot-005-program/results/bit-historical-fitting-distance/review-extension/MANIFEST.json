@@ -1,0 +1,26 @@
+{
+  "status": "FROZEN_INDEPENDENT_EXTENSION_REVIEW",
+  "result": "PASS_INDEPENDENT_CLOSED_FORM_PATCH_DISTANCE_EXTENSION",
+  "artifacts": {
+    "replay_arithmetic.py": "09726652914f2196f5c8c82586b3bcea15f8f6445785128230d86f5cd2e2813e",
+    "RESULT.json": "aa2f0479b68d3b89a9a58c873608d3470949c10157626606dabe29549c2b6f0d",
+    "REVIEW.md": "b6a099e81cd33b05e14df289b9cb1f838c7edb387b67ed683615e67727604582"
+  },
+  "reviewed_pins": {
+    "root-work/patch-distance-review/REVIEW.md": "a503084a154c3383ba1e5ae75f5299573556850f31339eb95d25cb2c89379765",
+    "root-work/patch-distance-review/RESULT.json": "b2dab00e3a816644b516a5bf10d8db1729da3eb5796f80d2246c741faebaa6de",
+    "root-work/patch-distance-review/verify.py": "a93a8af96c95ba20e17fbac4a11e00cd681959715cd79f6afa8731f9ba05a3e1",
+    "worker-c/rank-one-patch-review/RESULT.json": "3a4bf899025257c5faeff8873edab410735957cda5a881415993ddce1d88fb7b",
+    "worker-b/scattering-feedback/PROOF.md": "5713d1b4e06be85211c3ef0bd8b4312090554dbb6a55f35e2394415a92c14d18",
+    "worker-b/scattering-feedback/rank-one-patch/PROOF.md": "ea03084dde6b37eeece251847472602c052f199f3b105eafb2947696e731a59d",
+    "programme/research/moonshot-005-program/results/bit-monotone-arrival-gate/PROOF.md": "d9cf390a4300c47d786141b2013d1a2f2d60e5eb692473c910a8ffcfd043da43",
+    "programme/research/moonshot-005-program/results/coordinate-return-optimum/PROOF.md": "d0d4d4c6153453861bcf931353fcdb700deb44f4d380a0b39bf6ba2779d0ccac",
+    "programme/research/moonshot-005-program/results/coordinate-return-optimum/ADMISSION.md": "954726c68a601cd89f3bc8d197868b4594a28f6de3ac7d5d41c38aa83d011dab",
+    "root-work/final-path-q8-budget/RESULT.json": "f1ec7b16a986c7b7ce7d9a3788bbea2943810cfd70386e554bd14a21759e07e2",
+    "root-work/BIT-REVERSAL-BUDGET.json": "35c157cd14fc318c327faa7ec65d11fa0e674ef5f35f1fb1e547d5f68f237595",
+    "root-work/final-path-cache-budget.json": "49dd9f4746e4cceed378726a7ae4dbf3da97a1ced9bafaffde3479135419aa51",
+    "programme/research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78"
+  },
+  "execution": "python replay_arithmetic.py --prior-review worker-c/rank-one-patch-review --root-package root-work/patch-distance-review --q8-budget root-work/final-path-q8-budget --output worker-c/patch-distance-extension-review",
+  "method": "Closed-form exchange calculation from the prior independently frozen exact support histogram; no new source census."
+}

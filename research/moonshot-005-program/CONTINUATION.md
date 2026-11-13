@@ -1,3 +1,25 @@
+# Current continuation — S010 checkpoint9
+
+Resume exact remote HEAD; recorded checkpoint baseline 6f586e6a2940d51bc686d00c3cd3a4982000c8a5.
+Session remains active until13:27:03UTC. Primary source target: COMPLETE q8
+coded capture on actual monotone flags with all222 endpoints and the full
+fixed-m invoice. q2..7 are now EXCLUDED by an all-field/all-V physical downset
+cut allowing local Y feedback. All nine q8 first-entry frame maps must be
+invertible; the explicit B8 word shows this is not sufficient.
+
+In the narrower scalar no-Y-feedback historical interface, rank>=10 and
+distance>=619 from every canonical gauge at m6; at least five individually
+valid rank-one patches. General cancellations/noncommuting blocks remain.
+Q={1:1618} has uniform movement room for test prices[.005,.005006], first m6;
+this does not admit covered C or ordinary completion. Actual complex singular
+handoff is partial and displaces forward delivery; one-mode colour repair
+fails in the pinned quotient. Coordinated genuine acquisition is the next
+complex attempt. Read the five new ADMISSION files listed in STATE.
+
+The three WIP source archives are hash-verified author-only evidence. Both
+strict suppliers, actual endpoint completion and all foundations remain.
+Selected conditional kappa=.00363005817; no new kappa; not PR-ready.
+
 # Current continuation — S010 checkpoint8
 
 Resume exact remote HEAD; checkpoint parent2a6c542f4de62e87f95ad5eb7720217ff70676ef. Session active until

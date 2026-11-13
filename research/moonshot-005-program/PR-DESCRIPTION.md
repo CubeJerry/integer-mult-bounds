@@ -785,3 +785,26 @@ full debts retained, not stackable gains. No new kappa. Both strict suppliers
 and all five foundations remain. Ongoing, not PR-ready. @CubeJerry and retained
 source/predecessor credit, substantial OpenAI assistance and exact independent
 review scope are explicit; no human or proof-kernel acceptance is claimed.
+
+## S010 source cuts, historical-fitting distance and actual mixed handoff
+
+The [downset-cut theorem](results/bit-packet-downset-cut/ADMISSION.md) proves
+eight descending packets necessary under physical monotonicity, all fields
+and all volumes, even with local Y feedback. Its literal eight-packet negative
+control satisfies every retained frame cut yet fails every Y target. The
+[scalar fitting-distance theorem](results/bit-historical-fitting-distance/ADMISSION.md)
+requires at least619 changed coefficients at the q8/m6 budget in the narrower
+no-Y-feedback interface, and at least five individually support-valid rank-one
+corrections. Arbitrary cancellations and block alternatives remain open.
+
+The [strict movement neighbourhood](results/bit-eight-packet-target/strict-price/ADMISSION.md)
+is proved uniformly on[.005,.005006]; it is not an admitted covered supplier.
+The [actual singular exchange](results/complex-source-packet-exchange/ADMISSION.md)
+acquires a reverse history through a funded source carrier while retaining
+all X/B/D endpoints, at the explicit cost of displaced forward delivery.
+The [colour-rank theorem](results/complex-mixed-colour-gate/ADMISSION.md)
+explains why one such mixed mode cannot be repaired by invertible recoding
+alone in the fixed source quotient. All proofs, source pins, independent
+reviews and precise controls are linked in those admissions. @CubeJerry and
+predecessor credit are retained; work is OpenAI-assisted. No new kappa; both
+strict suppliers and all five foundations remain. Ongoing, not PR-ready.

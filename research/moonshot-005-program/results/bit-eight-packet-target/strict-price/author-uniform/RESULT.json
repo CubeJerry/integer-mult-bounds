@@ -1,0 +1,71 @@
+{
+  "status": "PASS_UNIFORM_Q8_MOVEMENT_PRICE_INTERVAL",
+  "q8_receipt_sha256": "f1ec7b16a986c7b7ce7d9a3788bbea2943810cfd70386e554bd14a21759e07e2",
+  "baseline_budget_sha256": "92ab5d5cc08933f46c7eedb195f8d5f4e68a27dc189e6f8594876f70846db152",
+  "kappa_interval": [
+    "1/200",
+    "2503/500000"
+  ],
+  "t_interval": [
+    "497497/500000",
+    "199/200"
+  ],
+  "epsilon_width": "3/500000",
+  "log_bound": "log r < (7/10)*ceil(log2 r), r>1; exp(7/10)>2 by positive degree4 Taylor sum.",
+  "derivative_bound": "For 0<=k<=1, |d/dk sum c_r r^(1-k)| <= (7/10)sum |c_r|r ceil(log2 r).",
+  "uniform_even_cases": {
+    "2": {
+      "derivative_absolute_upper": "372036/5",
+      "lower": "-27091957002571237676657113204379780273/3000000000000000000000000000000000000",
+      "upper": "-4068882967095206279442852200729962229/500000000000000000000000000000000000",
+      "decimal_display": [
+        -9.030652334190412,
+        -8.137765934190412
+      ]
+    },
+    "4": {
+      "derivative_absolute_upper": "1382507/30",
+      "lower": "-1433964683914276549795052750602465561/2250000000000000000000000000000000000",
+      "upper": "-5058890237714041327868073349399027/60000000000000000000000000000000000",
+      "decimal_display": [
+        -0.637317637295234,
+        -0.08431483729523402
+      ]
+    },
+    "6": {
+      "derivative_absolute_upper": "1010471/25",
+      "lower": "1041349302083801685219779413304003719/1000000000000000000000000000000000000",
+      "upper": "3815938455209504213049448533260010879/2500000000000000000000000000000000000",
+      "decimal_display": [
+        1.0413493020838016,
+        1.5263753820838017
+      ]
+    }
+  },
+  "uniform_limiting_margin": {
+    "derivative_absolute_upper": "127687/4",
+    "lower": "21356098266914131477476902201969918029/6000000000000000000000000000000000000",
+    "upper": "1971205355576177623123075183497493277/500000000000000000000000000000000000",
+    "decimal_display": [
+      3.5593497111523553,
+      3.9424107111523554
+    ]
+  },
+  "uniform_original_paired_moment": {
+    "derivative_absolute_upper": "7647381/5",
+    "lower": "-376537121677326572609555270085477301283825967/830767497365572420564879412675215360000000",
+    "upper": "-5780631236766017664159852586796746534795893903/13292279957849158729038070602803445760000000",
+    "decimal_display": [
+      -453.24007363233966,
+      -434.88635923233966
+    ]
+  },
+  "first_profitable_even_m_throughout_interval": 6,
+  "m6_extra_unit_moves_affordable_throughout_interval": 1,
+  "all_finite_m_at_most_extra_unit_moves": 3,
+  "one_stage_covered_threshold": "3112961/621875000",
+  "explicit_price_above_one_stage_threshold": "9961475399/1990000000000",
+  "two_stage_price": "50001/10000000",
+  "interval_upper_above_one_stage_threshold": "581/2487500000",
+  "scope": "Analytic uniform movement-profile lemma. Test exponent is not an admitted covered saving; source, allwidth, compiler cover/tail losses, changed atom, ordinary bootstrap and complex supplier remain open. No new kappa."
+}

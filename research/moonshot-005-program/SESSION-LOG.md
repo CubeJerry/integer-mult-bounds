@@ -969,3 +969,18 @@ receipts match; prior scientific bytes preserved. Canonical unchanged09:28;
 open#7481..7483 descriptions recorded without admission. Complex exchange,
 rank-one-patch and joint caches remain under review. Continue toward13:27:03UTC.
 No new kappa or PR readiness; resulting SHA is recorded after confirmation.
+
+## 2026-11-13-S010 — checkpoint9, continuing (2026-11-13 11:01:48 UTC)
+
+Baseline 6f586e6a2940d51bc686d00c3cd3a4982000c8a5, tree c5bc1a1a0971ddc721ce253225841d7b03b18539. Proved and independently reviewed all-V q>=8
+physical downset cut; actual B8 word passes cuts but fails all111 endpoints.
+Admitted scalar historical-fitting distances627/619/603 and restricted
+five-valid-patch corollary with independent closed-form/DP and geometry review.
+Admitted actual complex singular handoff (forward debt increases) and colour
+rank/source-quotient obstructions; all400 columns and causal histories checked.
+Uniform movement test interval[.005,.005006] proved analytically; supplier
+admission remains open. Six installed receipts match by value; prior scientific
+bytes retained. Three frozen author-only source archives preserved without
+admission. Continue coordinated acquisition and one-extra-coset investigation
+toward13:27:03UTC while protecting verification/publication. No new kappa or
+PR readiness; resulting SHA is recorded only after remote confirmation.

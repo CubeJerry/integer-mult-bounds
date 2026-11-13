@@ -1,0 +1,54 @@
+{
+  "status": "PASS_INDEPENDENT_SCALAR_ONE_PATCH_AND_FITTING_DISTANCE_REVIEW",
+  "scope": "Scalar characteristic-two one-rank patches and final-fitting support-distance bounds in the stated monotone no-Y-feedback interface. Does not classify all rank-ten fits or arbitrary rank-two decompositions.",
+  "worker_b_artifacts_reviewed": {
+    "worker-b/scattering-feedback/rank-one-patch/PROOF.md": "ea03084dde6b37eeece251847472602c052f199f3b105eafb2947696e731a59d",
+    "worker-b/scattering-feedback/rank-one-patch/RESULT.json": "21c89887a1294b3ad86c62c42efa78b7bf0088249c6091cbf55084e83884efe6",
+    "worker-b/scattering-feedback/rank-one-patch/check.py": "7787871aca6bff2efbae25291bce4d8d9081d207102941505f515eca7168e549",
+    "worker-b/scattering-feedback/rank-one-patch/MANIFEST.json": "147687a2e1d2e570e118bf950aacb4f7d44f43f1b2882122ee8f7e29a6b4b48b",
+    "worker-b/scattering-feedback/next/PROOF.md": "8511f06a30329e7708d8d20f843ca16c426e8870ae03b0e26ffc025a0cb98172",
+    "worker-b/scattering-feedback/next/MANIFEST.json": "bf3acd5e72df55a65189633cc42763ea6176caab5aa5c1e8f3c195130d2ea0dc"
+  },
+  "pinned_dependencies": {
+    "programme/research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+    "root-work/E7-MONOTONE-ARRIVAL-GATE-WIP.md": "a3f1d464d3234e202d361de9d899bac336b1d445df5a15c6978a8df6d8d9e3df",
+    "root-work/E7-TWO-SUBSPACE.json": "b0a1cbfd69306f0049280fac74c102cc3f5b4a3e0f11075137ae4d4571977e7f",
+    "worker-c/e7-two-subspace-review/MANIFEST.json": "5da50ec1edad0e9045c298f42330142c303d05d4c56f364cd5f143c3611529f3",
+    "programme/research/moonshot-005-program/results/coordinate-return-optimum/PROOF.md": "d0d4d4c6153453861bcf931353fcdb700deb44f4d380a0b39bf6ba2779d0ccac",
+    "programme/research/moonshot-005-program/results/coordinate-return-optimum/ADMISSION.md": "954726c68a601cd89f3bc8d197868b4594a28f6de3ac7d5d41c38aa83d011dab",
+    "programme/research/moonshot-005-program/results/coordinate-return-optimum/review-bridge/REVIEW.md": "cd88b7e03954a6abc840d8aa847cc1ca7d62395b8302859019b3f060e278cf31",
+    "programme/research/moonshot-005-program/results/coordinate-return-optimum/review-bridge/MANIFEST.json": "ea541932348fe35f438387db45e44e173c40fd5a3c1cb5d212b6089becce3c06",
+    "programme/research/moonshot-005-program/results/coordinate-return-optimum/review-bridge/OPTIMALITY-PREMISES.json": "170de5a5c2734d5c57507cd8c4a1294498b5e1d86bc0c955b7d2797214faa10a",
+    "root-work/BIT-CACHE-BUDGET-RESULT.json": "49dd9f4746e4cceed378726a7ae4dbf3da97a1ced9bafaffde3479135419aa51",
+    "programme/research/moonshot-005-program/results/bit-eight-packet-target/author/RESULT.json": "f1ec7b16a986c7b7ce7d9a3788bbea2943810cfd70386e554bd14a21759e07e2",
+    "programme/research/moonshot-005-program/results/bit-clean-source-cache-gate/fresh-budget/review/RESULT.json": "aeb08b1200c06c5ba378ead88ca2a90b90b681dfacb17b60fd399d532c57eea4",
+    "worker-c/singular-cell-review/MANIFEST.json": "617beb82a3af7763decdb98c926321588426140b3c85b51a44346bde64acbbe0"
+  },
+  "independent_review_artifacts": {
+    "worker-c/rank-one-patch-review/audit_patch_geometry_and_distance.py": "40c18d6ddca3be391ffba432c77eb8fd25af4445851b7a3acd5c57d479a39699",
+    "worker-c/rank-one-patch-review/RESULT.json": "3a4bf899025257c5faeff8873edab410735957cda5a881415993ddce1d88fb7b",
+    "worker-c/rank-one-patch-review/REVIEW.md": "88877a4511b233dfa3d4c19f163ab6f21b78d1812ad82aa2387ce5da617a5274"
+  },
+  "review_findings": {
+    "rank_one_patch": "PASS. U and V are disjoint from diagonal preservation, and UxV is contained in the actual real-orthogonality contact relation by scalar nonzero-product reasoning.",
+    "frozen_visit_bound": "PASS: |V|<=2 gives222 visits; |V|>=3 gives at least150 from75 unchanged rows against120 original visits.",
+    "sharper_single_patch_visits": {
+      "|V|<=2": 222,
+      "3<=|V|<=18": 186,
+      "|V|>=19": 210,
+      "geometry": "For 19+ roots, E8 rank4 max12 forces span(V)>=5; U lies in rank<=3 with max6 root lines."
+    },
+    "extra_arrivals_needed_q9": {"|V|<=2": 102, "3<=|V|<=18": 66, "|V|>=19": 90},
+    "extra_arrivals_needed_q8": {"|V|<=2": 103, "3<=|V|<=18": 67, "|V|>=19": 91},
+    "movement_deficits": "Directed checks show the sharpened q9 arrival counts exceed optimistic limiting room; q8 all-unit target has at most3 extra rank-one calls at the limit and one at fixed m=6.",
+    "general_fitting_distance": {
+      "q9_no_extra_copies": 619,
+      "q9_after_max11_affordable_arrivals": 532,
+      "q8_no_extra_copies": 627,
+      "q8_after_max3_limiting_arrivals": 603,
+      "scope": "Necessary Hamming distance from each fixed vertex-gauge canonical fit for any final scalar fitting, using the exact source row-support histogram and the universal 36/52 flat bounds."
+    },
+    "negative_control": "A support-valid algebraic rank-ten rectangle patch changes144 entries; it is not a physical word and does not imply all rank-ten fits are one-patch.",
+    "multi_patch_scope": "For a sum of separately support-valid patches, only the union of changed support rectangles is relevant; overlaps/cancellations are counted once. The review makes no arbitrary rank-two factorization claim."
+  }
+}

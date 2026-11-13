@@ -1,0 +1,66 @@
+{
+  "status": "PASS_INSTALLED_PATH_REVIEWS_AND_ARCHIVE_INTEGRITY",
+  "matching_receipts": {
+    "complex-source-packet-exchange/review/RESULT.json": {
+      "replay_sha256": "4e1fd46f171fbe98b3ba28b1c8f203f83615db36f13503b748e30649c33efb04",
+      "frozen_sha256": "ce443d689019a1b58e9363dec5571a203365ecfb27d8b5738e4434f03bd7cbd9",
+      "byte_identical": false,
+      "json_value_identical": true
+    },
+    "complex-mixed-colour-gate/review/RESULT.json": {
+      "replay_sha256": "fac714f5f830086745870b8ee572a6cf5e293717bc27b2c716218fef8b89a3e2",
+      "frozen_sha256": "fac714f5f830086745870b8ee572a6cf5e293717bc27b2c716218fef8b89a3e2",
+      "byte_identical": true,
+      "json_value_identical": true
+    },
+    "bit-eight-packet-target/strict-price/review/RESULT.json": {
+      "replay_sha256": "61d93d95db5460899710f054aa5230fd3569c7911b549f0b3be86494d04f8117",
+      "frozen_sha256": "61d93d95db5460899710f054aa5230fd3569c7911b549f0b3be86494d04f8117",
+      "byte_identical": true,
+      "json_value_identical": true
+    },
+    "bit-packet-downset-cut/review/RESULT.json": {
+      "replay_sha256": "cf1851c6f5f6087c829e0f184b8ec167df757ee91521b5dc613354fd29099ebe",
+      "frozen_sha256": "cf1851c6f5f6087c829e0f184b8ec167df757ee91521b5dc613354fd29099ebe",
+      "byte_identical": true,
+      "json_value_identical": true
+    },
+    "bit-historical-fitting-distance/review-adversarial/RESULT.json": {
+      "replay_sha256": "3a4bf899025257c5faeff8873edab410735957cda5a881415993ddce1d88fb7b",
+      "frozen_sha256": "3a4bf899025257c5faeff8873edab410735957cda5a881415993ddce1d88fb7b",
+      "byte_identical": true,
+      "json_value_identical": true
+    },
+    "bit-historical-fitting-distance/review-extension/RESULT.json": {
+      "replay_sha256": "aa2f0479b68d3b89a9a58c873608d3470949c10157626606dabe29549c2b6f0d",
+      "frozen_sha256": "aa2f0479b68d3b89a9a58c873608d3470949c10157626606dabe29549c2b6f0d",
+      "byte_identical": true,
+      "json_value_identical": true
+    }
+  },
+  "serialization_note": "Complex exchange JSON object insertion order differs; parsed values agree. Other five receipts are byte-identical. Frozen bytes retained.",
+  "author_only_archives": [
+    {
+      "archive": "causal-eight.tar.gz",
+      "sha256": "9af4f70c99d72d29cb0949ddbe0b188b8beb8cf7a17b5b573a71f8bc1e8df210",
+      "member_count": 17,
+      "status": "Manifest bytes verified; author-only mathematics remains unadmitted."
+    },
+    {
+      "archive": "joint-cross-cache.tar.gz",
+      "sha256": "499604d6056564b507b93c534aeef2b130bc4a51ca09859aba57588b517c9ef7",
+      "member_count": 8,
+      "status": "Manifest bytes verified; author-only mathematics remains unadmitted."
+    },
+    {
+      "archive": "mixed-cross-cache.tar.gz",
+      "sha256": "78804e21a2187659338c9863d8bc0cd963df35d06252e9e04320be09be9182de",
+      "member_count": 7,
+      "status": "Manifest bytes verified; author-only mathematics remains unadmitted."
+    }
+  ],
+  "independence": "C independently reviews/replays root downset construction; B independently replays A complex source and root colour source/argument; C independently sharpens B patch argument; root independently derives a closed-form optimization; C separately audits that extension from its already independent census. Reproduction is not another independent review.",
+  "scope": "Cut theorem all fields/all V with physical monotonicity; fitting-distance scalar no-Y-feedback interface; one-mode colour all V with scalar source coefficients; multimode count scalar receiver directions. Neither complete supplier nor new kappa.",
+  "m3_scope": "All2280 chart/lifetime trajectories and admitted block composition, not a new full2280-column coefficient replay.",
+  "launcher_correction": "Fitting review first received the wrong nested budget schema and failed before price verification. Documented fresh-budget receipt passes."
+}

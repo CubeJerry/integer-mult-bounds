@@ -1,3 +1,39 @@
+## S010 checkpoint9 — eight packets are necessary; completion requires a new code
+
+The downset-cut theorem now proves q>=8 for ALL-volume linear computation
+with ascending ordinary records and q descending packet lifetimes, allowing
+arbitrary local source/packet/Y feedback. Eight pairwise real-nonorthogonal
+source lines lie outside the union of their final-facet downsets; their eight
+target records lie inside. Each descending lifetime enters at most once.
+Thus8V independent dimensions require at least eight packets. This supersedes
+checkpoint8's weaker q>=2 bound; two through seven are no longer open in this
+model. Whole chart/value relabels do not evade physical trajectory accounting.
+
+At q8 every retained frame cut must have an invertible first-entry map.
+These necessary tests are not sufficient: an actual1070-operation eight-mode
+Gram word passes all nine tests but leaves ALL111 Y targets incomplete.
+The eight-packet coded source remains the primary construction problem.
+
+Within the narrower scalar no-Y-feedback historical-fitting interface,
+completion must differ from every canonical vertex gauge in at least627
+entries with no extra arrivals,619 with the one affordable at fixed m6,
+or603 even granting all three optimistic limiting arrivals. At least five
+individually fitting-preserving rank-one corrections are necessary. General
+factorizations with zero cancellations and all noncommuting block alternatives
+remain open; no unrestricted matrix-rank lower bound is inferred.
+
+The hypothetical complete1618-unit profile remains movement-feasible for every
+test exponent in[.005,.005006], first at even fixed m6. This is not covered
+BIT admission. An actual complex singular exchange is also independently
+verified: it acquires a genuine reverse history using a funded ascent, but
+displaces old forward delivery. A new colour-rank theorem excludes repairing
+one mixed mode by invertible local recoding alone in the pinned source quotient.
+Coordinated source acquisition or a changed earlier quotient is required.
+
+Both strict suppliers, complete native endpoints and all five foundations
+remain. Selected complete conditional kappa=.00363005817; no new complete
+kappa. The programme is ongoing and not PR-ready.
+
 ## S010 checkpoint8 — historical modes change the packet interface
 
 The next construction uses information-preserving source/packet exchanges.

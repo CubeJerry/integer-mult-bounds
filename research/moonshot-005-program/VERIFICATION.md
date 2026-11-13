@@ -857,3 +857,34 @@ reversal/source-chain reviews are included; heuristic logs are not admitted.
 C independently rederives the q8 real threshold near4.28858525225, hence first
 even m6. Strict covered/ordinary supplier distinctions were rechecked. All
 previous scientific bytes remain; no new complete endpoint or kappa.
+
+## S010 checkpoint9 — independent cut, source and distance reviews
+
+C independently checks the universal physical downset argument and replays
+the1070-operation B8 negative control on all222 inputs with exact rational
+chart inclusions and actual first-entry ranks. All nine cuts pass while all111
+Y outputs fail. The coordinate bus is a different, orthogonal-frame control.
+
+B independently reconstructs the complex source using lifetime-component
+BFS, replays all400 columns and causal snapshots, checks both new phase maps,
+wrong phase, wrong sign and omitted restoration. m3 scope is literal schedule
+and admitted composition, not a new2280-column coefficient replay. B separately
+checks root's colour proof, reversed-order source ranks20/8/28,4560 pair minors,
+and all eight decoder perturbations propagated through the full suffix.
+
+C independently sharpens B's rank-one arrival bound to186 and derives a
+fitting-distance DP. Root independently replaces it by a closed-form exchange
+argument and proves the144-area/five-valid-patch extension; C separately audits
+that proof/arithmetic using its already checked census, not a new census.
+Scope is scalar no-Y-feedback with declared generated upward copies. Root's
+named scope checks in its receipt are logical qualifications, not executed
+mutant tests. The independently checked144-entry rank-ten patch is a genuine
+algebraic negative control against overbroad classification.
+
+B independently verifies the uniform real price interval by exact rational
+derivative envelopes and its distinct integer-root/log/exp oracle. Six final
+installed-path receipts agree in every value; complex exchange differs only
+in JSON key insertion order. Prior scientific bytes remain unchanged.
+Three expensive frozen author-only archives have member/manifest hashes
+verified, with no mathematical admission. CHECKPOINT9-VALIDATION.json records
+all scopes and receipts. No complete source, supplier or new kappa.

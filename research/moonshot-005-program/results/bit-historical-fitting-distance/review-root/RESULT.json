@@ -1,0 +1,125 @@
+{
+  "status": "PASS_INDEPENDENT_SOURCE_HISTOGRAM_CLOSED_FORM_DISTANCE_AND_RECTANGLE_ARITHMETIC",
+  "source_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "foreign_support_histogram": {
+    "55": 1,
+    "56": 11,
+    "57": 16,
+    "58": 36,
+    "59": 28,
+    "60": 13,
+    "61": 5,
+    "62": 1
+  },
+  "first_marginal_cost_histogram": {
+    "3": 1,
+    "4": 11,
+    "5": 16,
+    "6": 36,
+    "7": 28,
+    "8": 13,
+    "9": 5,
+    "10": 1
+  },
+  "second_marginal_cost": 16,
+  "sum_all_first_costs": 698,
+  "cases": [
+    {
+      "q": 9,
+      "extra_arrivals": 0,
+      "required_saved_visits": 102,
+      "distance": 619,
+      "relaxation_first_costs_taken": {
+        "3": 1,
+        "4": 11,
+        "5": 16,
+        "6": 36,
+        "7": 28,
+        "8": 10
+      },
+      "support_valid_rankone_terms_required": 5
+    },
+    {
+      "q": 9,
+      "extra_arrivals": 11,
+      "required_saved_visits": 91,
+      "distance": 532,
+      "relaxation_first_costs_taken": {
+        "3": 1,
+        "4": 11,
+        "5": 16,
+        "6": 36,
+        "7": 27
+      },
+      "support_valid_rankone_terms_required": 4
+    },
+    {
+      "q": 8,
+      "extra_arrivals": 0,
+      "required_saved_visits": 103,
+      "distance": 627,
+      "relaxation_first_costs_taken": {
+        "3": 1,
+        "4": 11,
+        "5": 16,
+        "6": 36,
+        "7": 28,
+        "8": 11
+      },
+      "support_valid_rankone_terms_required": 5
+    },
+    {
+      "q": 8,
+      "extra_arrivals": 1,
+      "required_saved_visits": 102,
+      "distance": 619,
+      "relaxation_first_costs_taken": {
+        "3": 1,
+        "4": 11,
+        "5": 16,
+        "6": 36,
+        "7": 28,
+        "8": 10
+      },
+      "support_valid_rankone_terms_required": 5
+    },
+    {
+      "q": 8,
+      "extra_arrivals": 3,
+      "required_saved_visits": 100,
+      "distance": 603,
+      "relaxation_first_costs_taken": {
+        "3": 1,
+        "4": 11,
+        "5": 16,
+        "6": 36,
+        "7": 28,
+        "8": 8
+      },
+      "support_valid_rankone_terms_required": 5
+    }
+  ],
+  "root_flat_count_premises": {
+    "1": 1,
+    "2": 3,
+    "3": 6,
+    "4": 12,
+    "5": 20,
+    "6": 36,
+    "7": 111
+  },
+  "maximum_support_valid_rectangle_area": 144,
+  "dimension_pairs_attaining_area_bound": [
+    [
+      4,
+      4
+    ]
+  ],
+  "geometry_is_proved_dependency_not_new_enumeration": true,
+  "negative_controls": {
+    "at_least_one_second_saving_before_unused_first_is_cost_dominated": true,
+    "replacing_hamming_distance_with_matrix_rank_is_not_valid": true,
+    "relaxation_distance627_is_not_physical_attainment": true
+  },
+  "scope": "Source counts and arithmetic independently checked; universal support/geometry/copy proof in REVIEW.md. Scalar fitting and individually support-valid rank-one terms only. No new kappa."
+}

@@ -895,3 +895,41 @@ Complex dyadic and rational two-lane alternatives have literal m3 partial
 rooms14.326451084899253... and12.151589455482453... . Their debts differ and
 discounts cannot be stacked. Hosted96 firstY target is x+y; coupled8 firstY
 is(x+y)/2. Preserve this convention in every joint colour recoding.
+
+## S010 checkpoint9 — simultaneous source and price constraints
+
+The physical downset cut gives q>=8 even with arbitrary local Y feedback.
+For q8, all nine retained first-entry frame maps must have rank8V. Cuts alone
+do not certify a source: the literal homogeneous B8 word passes them all and
+computes y+Bx, failing every target. Historical modes, all image constraints
+and full222 endpoints must be checked in any candidate.
+
+For scalar no-Y-feedback scattering, a completed historical fitting remains
+rank>=10 and must be far from every canonical gauge: distance>=627 at q8/e0,
+>=619 at q8/e1, >=603 at q8/e3. Each separately support-valid rank-one patch
+has area<=144, hence at least five are needed. This is a restricted summand
+bound, not a rank bound or exclusion of all rank-ten fittings.
+
+For the specified complete Q={1:1618}, analytic rational envelopes give,
+uniformly for k in[.005,.005006], first profitable even m6 with
+1.0413493020838016<M6(k)<1.5263753820838018. The limiting margin is in
+(3.5593497111523552,3.9424107111523554), with negative paired moment: at most
+three extra units for any finite m, and one at m6. Exact sharper m6 values
+are1.2829145125895538 at k=.0050001 and1.229206130163722 at
+k=3112961/621875000+10^-10. These are movement TEST exponents, not established
+covered savings C. Source/cover/compiler/tail loss and atom/stock contracts
+remain. The inherited strict covered threshold and separate uniform complex
+supplier are unchanged.
+
+The actual complex exchange pays rank1+rank8-rank9 plus four ADDs and one
+INIT/CLEAR. All400-column replay proves unchanged X/B/D and firstY shift
+beta*(-h-P0), with forward debt4920->7470. Its literal m3 partial margin is
+10.310863871127134. This is a paid actual history, not completed delivery.
+Pinned parent source-X rank20 and old decoder rank8 have disjoint images.
+One new mixed B mode at two hosted ports cannot be repaired by invertible
+source/receiver colour recoding, all V under scalar B coefficients. Scalar
+coordinated modes must cover the contaminated source quotient; contaminating
+all96 needs at least20 new directions. Complete transfer with changes confined
+to the old8-space plus k new receiver directions needs k>=76. These are
+direction counts, not packet/MOVE prices; changed earlier source maps escape
+the fixed-interface premise. No costs are removed by algebraic decoding.

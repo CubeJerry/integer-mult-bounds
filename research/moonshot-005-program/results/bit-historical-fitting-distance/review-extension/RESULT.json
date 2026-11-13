@@ -1,0 +1,83 @@
+{
+  "status": "PASS_INDEPENDENT_CLOSED_FORM_PATCH_DISTANCE_EXTENSION",
+  "source_histogram_reference": {
+    "55": 1,
+    "56": 11,
+    "57": 16,
+    "58": 36,
+    "59": 28,
+    "60": 13,
+    "61": 5,
+    "62": 1
+  },
+  "first_marginal_cost_histogram": {
+    "3": 1,
+    "4": 11,
+    "5": 16,
+    "6": 36,
+    "7": 28,
+    "8": 13,
+    "9": 5,
+    "10": 1
+  },
+  "second_marginal_cost": 16,
+  "max_first_marginal": 10,
+  "closed_form_cases": [
+    {
+      "q": 9,
+      "extra_arrivals": 0,
+      "required_saved_visits": 102,
+      "minimum_changed_entries": 619,
+      "support_valid_rankone_terms_at_area_144": 5
+    },
+    {
+      "q": 9,
+      "extra_arrivals": 11,
+      "required_saved_visits": 91,
+      "minimum_changed_entries": 532,
+      "support_valid_rankone_terms_at_area_144": 4
+    },
+    {
+      "q": 8,
+      "extra_arrivals": 0,
+      "required_saved_visits": 103,
+      "minimum_changed_entries": 627,
+      "support_valid_rankone_terms_at_area_144": 5
+    },
+    {
+      "q": 8,
+      "extra_arrivals": 1,
+      "required_saved_visits": 102,
+      "minimum_changed_entries": 619,
+      "support_valid_rankone_terms_at_area_144": 5
+    },
+    {
+      "q": 8,
+      "extra_arrivals": 3,
+      "required_saved_visits": 100,
+      "minimum_changed_entries": 603,
+      "support_valid_rankone_terms_at_area_144": 5
+    }
+  ],
+  "root_line_counts_by_flat_rank": {
+    "1": 1,
+    "2": 3,
+    "3": 6,
+    "4": 12,
+    "5": 20,
+    "6": 36,
+    "7": 111
+  },
+  "orthogonality_rectangle_max_area": 144,
+  "maximizing_rank_pair": [
+    [
+      4,
+      4
+    ]
+  ],
+  "movement_allowances": {
+    "q8_limit_all_finite_m": 3,
+    "q8_fixed_m6": 1
+  },
+  "scope": "Scalar fitting matrices and sums of individually fitting-preserving rank-one terms only; no unrestricted rank-two decomposition or rank-ten classification."
+}

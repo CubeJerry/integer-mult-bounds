@@ -770,3 +770,22 @@ appending eight fresh returns fails the actual full current invoice.
 Single canonical-rank-one-patch obstruction, actual complex singular exchange,
 causal mixed consumer and joint cache screens remain frozen author evidence
 awaiting admission. Both suppliers and all foundations remain. No new kappa.
+
+## S010 checkpoint9 — decisive cuts and exact remaining interfaces
+
+| Obligation | Precise current status and dependency |
+|---|---|
+| BIT-DOWNSET-EIGHT | Proved all fields/all V: q descending physical lifetimes, ascending other generated records and arbitrary same-chart linear feedback imply q>=8. Each frame's eight inputs/outputs yields a cut. results/bit-packet-downset-cut/. Supersedes weaker q>=2 only. |
+| BIT-Q8-FRAME-ENTRIES | Proved necessary: all nine actual first-entry8V maps invertible at q8. Literal B8 word passes yet fails111 Y outputs, so sufficiency is disproved. |
+| BIT-EIGHT-CODED-FLAGS | OPEN primary: actual chronological source, all222 endpoint identities, historical kernel/image constraints and complete invoice. New charts, extra copies or nonmonotone exceptions require pricing. |
+| BIT-FITTING-DISTANCE | Proved scalar, no-Y-feedback historical interface with generated upward copies: distance from every fixed canonical gauge >=627/619/603 at q8 with0/1/3 extra arrivals. Root closed form and independent C review. results/bit-historical-fitting-distance/. |
+| BIT-VALID-PATCH-COUNT | Proved in same interface: each individually fitting-preserving rank-one term changes<=144 entries; q8 needs>=5 such terms. Arbitrary zero-cancelling decompositions and block maps excluded. |
+| BIT-Q8-STRICT-PRICE | Proved continuum profile lemma on k in[.005,.005006], first positive even m6. Completed source, covered C, atom exponent, stock/ordinary and physical admission OPEN. results/bit-eight-packet-target/strict-price/. |
+| COMPLEX-SINGULAR-HANDOFF | Proved actual partial word: all400 columns, source restored but old forward mode displaced; m3 schedule/composition checked. results/complex-source-packet-exchange/. |
+| COMPLEX-ONE-MIXED-MODE | Disproved repair by invertible colour recoding in pinned source quotient; all V with scalar B coefficients, including singular decoder blocks. Net B cancellation may escape and must be built/paid. results/complex-mixed-colour-gate/. |
+| COMPLEX-COORDINATED-ACQUISITION | OPEN: genuinely independent funded producers and decoder directions, both original forward modes and reverse endpoints preserved. Scalar quotient constraints are necessary only. |
+
+The downset cut allows Y feedback; the fitting-distance theorem does not.
+Do not silently transfer the latter to the broader cut model. Frozen causal
+and joint/mixed cache archives remain author-only WIP; storing them is not
+admission. Both suppliers and all five foundations remain open.
