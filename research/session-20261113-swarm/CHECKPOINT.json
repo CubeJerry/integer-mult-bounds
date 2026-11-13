@@ -1,12 +1,12 @@
 {
   "schema": "integer-mult-swarm-checkpoint/v1",
   "session": "2026-11-13-swarm",
-  "status": "wave-3-active-two-verified-contributions",
+  "status": "wave-4-active-three-verified-contributions",
   "base": "e54523517d0f03e58352e647c403a5af3e525a57",
   "base_tree": "1199c3d7a31fffa5ba5d41f10f1b933aacc797aa",
   "selected_kappa": "363005817/100000000000",
-  "latest_check_utc": "2026-11-13T09:00:00Z",
-  "checkpoint_utc": "2026-11-13 09:03:26 UTC",
+  "latest_check_utc": "2026-11-13 09:31:51 UTC",
+  "checkpoint_utc": "2026-11-13 09:31:51 UTC",
   "recovery_branch": "recovery/swarm-20261113",
   "local_root": "/workspace/scratch/92c9920affc2",
   "publication_rule": "Verified individual fork branches; no upstream PR submission or selected-certificate changes",
@@ -23,47 +23,53 @@
     "Nearest-up preflight independently passed; source-reachable post-round-fit counterexample verified",
     "Root independent rounded MOVE execution: 25467658 steps, 208 nonintegral final components, original signed-min input, all restored; universal proof in review",
     "Root independent exact native HOME adapter: 14495822 steps on odd real inputs with cancellation; all restored",
-    "CRT row rotor is superseded by #4024; exact source/cost notes retained, no implementation"
+    "CRT row rotor is superseded by #4024; exact source/cost notes retained, no implementation",
+    "Actual native HOME adapter independently reviewed and published: 47 matching added blobs, checked compare URL, no upstream PR"
   ],
   "active": [
     {
       "worker": "native_move",
-      "wave": 3,
+      "wave": 4,
       "track": "20-39/precision",
-      "scope": "Literal nearest-up rounded MOVE for arbitrary signed inputs; only final overflow",
-      "output": "worker-a/research/literal-once-rounded-selected-move",
-      "dependencies": [
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Finish rounded package; preflight broader native recipes on actual full-system tariff",
+      "status": "Rounded table reviewed; publication freeze pending. Generalization preflight only.",
+      "dependency": [
         "dffe132bbe16d830e2aa7367ed40a540f5c7fd64",
         "#7211"
       ],
-      "status": "Independent execution passed; completed universal proof under cross-review; publication pending",
-      "next": "Complete graph; independent domain/cost review"
+      "output": "worker-a/research/literal-once-rounded-selected-move",
+      "next": "Publish rounded result; cost gate before new implementation"
     },
     {
       "worker": "compiler_routing",
-      "wave": 3,
-      "track": "50-59/85-94",
-      "scope": "Paid complete-field native/dispatcher ABI adapter",
-      "output": "worker-b/research/source-bound-move-home-primitive",
-      "dependencies": [
-        "3a27ab1d302d13b1ce52411f8a174e7a32baab77",
-        "b4fcc9d64971fdabd0b1d82cfb749d8aac920437"
+      "wave": 4,
+      "track": "50-59/owned",
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Complete equal-packet scientific ADD/SUB primitive for actual bank1526 contacts",
+      "status": "Owned-format gate done; new primitive novelty/cost gate before coding",
+      "dependency": [
+        "13c29e2df66ba46402d4da5f1d2489ebf333e5fe",
+        "#7426",
+        "#7268"
       ],
-      "status": "Independent full execution and embedded graph checks passed; author proof/oracle correction pending",
-      "next": "Complete source/cost/history proofs and independent review"
+      "output": "worker-b/research/owned-packet-format-gate",
+      "next": "O(F) full budget and exact-contact pins; proceed only if useful and unfilled"
     },
     {
       "worker": "analytic_recovery",
-      "wave": 3,
-      "track": "60-74/analytic",
-      "scope": "Independent rounded MOVE numerical/cost/restoration review",
-      "output": "worker-c/review-rounded-final",
-      "dependencies": [
-        "#7351",
-        "#7352"
+      "wave": 4,
+      "track": "60-74/precision",
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Exact outward norm slack of full-rank affine-period rounders; source C-pair application",
+      "status": "New mathematical preflight, unverified",
+      "dependency": [
+        "#6619",
+        "#6509",
+        "#6758"
       ],
-      "status": "In progress; earlier CRT candidate superseded",
-      "next": "Conclude written review, then native HOME adapter cross-review"
+      "output": "worker-c/affine-period-slack-preflight",
+      "next": "Novelty, proof and counterexamples; unrestricted nonperiodic class remains open"
     }
   ],
   "verification": [
@@ -101,6 +107,16 @@
       "all_blobs_match": true,
       "all_additions": true,
       "upstream_pr_created": false
+    },
+    {
+      "commit": "13c29e2df66ba46402d4da5f1d2489ebf333e5fe",
+      "branch": "research/source-bound-move-home-20261113",
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "tree": "ae3db5fb3300b216c1582256d1cabc347d0181fd",
+      "files": 47,
+      "all_blobs_match": true,
+      "all_additions": true,
+      "upstream_pr_created": false
     }
   ],
   "blockers": [
@@ -109,9 +125,9 @@
     "Recursive promisor traversal stopped; top-level metadata retained",
     "Empty connector query omitted other authors; use public pulls endpoint"
   ],
-  "next": "Finish and publish rounded MOVE and actual HOME adapter after proof review; next all-recipe generalization requires separate novelty/cost gate.",
+  "next": "Publish already reviewed rounded MOVE, advance distinct wave-4 scopes through cost/novelty gates, keep all global assumptions and kappa unchanged.",
   "remote_checkpoint": {
-    "previous_sha": "41207d0805eb93e77595457051ce5ca83734ea6d",
+    "previous_sha": "a88024aeee4025d1f584dca8114acd19feb17540",
     "branch_verified": true
   },
   "latest_unadmitted_frontier": {

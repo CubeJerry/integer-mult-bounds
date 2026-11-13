@@ -1,3 +1,3 @@
-# Unpublished recovery snapshots
+# Historical unverified recovery snapshots
 
-These are unfinished wave-3 snapshots, not reviewed contributions. Exact immutable dependency files can be restored from their manifests and the two published predecessor branches. Snapshot claims remain unverified until the final independent proof/publication gate. Worker paths and next steps are in CHECKPOINT.json.
+These are unfinished snapshots, not reviewed contributions. The old adapter snapshot is superseded by verified publication 13c29e2df66ba46402d4da5f1d2489ebf333e5fe. Current remote packages and review links are in CHECKPOINT.json and notes. Rounded snapshots remain unverified publication material until their final freeze and source checks. Immutable dependency bytes can be restored from the pinned predecessor commits.
