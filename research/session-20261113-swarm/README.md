@@ -29,3 +29,7 @@ proved already explicit in prior work and is not a separate novel result.
 ## Wave 3 verified proposals
 
 Native endpoint/core at dffe132bbe16d830e2aa7367ed40a540f5c7fd64 and compiler routing at b4fcc9d64971fdabd0b1d82cfb749d8aac920437 are independently reviewed in their stated supplied-entry/primitive domains. All remote blobs match tested snapshots. Actual caller admission, full native manifest, faster recursion and all five global assumptions remain open. Active work: once-rounded MOVE, complete-field ABI adapter, and a bounded CRT row-lift preflight. Initial analytic address/payload limitation was already stated in predecessors, not a new contribution. Review URLs and descriptions are in notes/*-publication.json. No upstream PR submitted. #7481 is an unadmitted coefficient proposal.
+
+## Current recovery point: wave 8–9
+
+Seven complete verified branches and exact review links are in CHECKPOINT.json and notes/*-publication.json. Native nonleaf tariff and parametric ball-core gates are closed with explicit limitations. Pending work: source-bound BIT descent, parity-preserving bilateral slack, and a finite quotient-flow extension. Files under pending/ and names beginning pending- are snapshots, not publication approval. The R9 root checker depends on the adjacent preserved FULL-GRAPH-DEPENDENCY.py; adapt its local import path before replay. No upstream PR was created.

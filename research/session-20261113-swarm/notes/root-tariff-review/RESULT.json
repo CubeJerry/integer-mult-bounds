@@ -1,0 +1,82 @@
+{
+  "marker": "PASS_INDEPENDENT_CNOT_WRITE_COUNT",
+  "source_sha256": "d56704082b82e37d4a360b8aad7e0af63499f4160c6bbcfd338804453c46fa33",
+  "cases": [
+    {
+      "shape": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "target": 0,
+      "control": 8,
+      "V": 36864,
+      "steps": 2177093,
+      "merge_writes": 36864,
+      "column_boundaries": [
+        36864
+      ],
+      "mutant": false
+    },
+    {
+      "shape": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "target": 8,
+      "control": 0,
+      "V": 2048,
+      "steps": 146144,
+      "merge_writes": 2048,
+      "column_boundaries": [
+        2048
+      ],
+      "mutant": false
+    },
+    {
+      "shape": [
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      "target": 0,
+      "control": 8,
+      "V": 1048576,
+      "steps": 133596442,
+      "merge_writes": 2097152,
+      "column_boundaries": [
+        1048576,
+        2097152
+      ],
+      "mutant": false
+    }
+  ],
+  "negative_control": {
+    "shape": [
+      2,
+      1,
+      1,
+      1,
+      2
+    ],
+    "target": 0,
+    "control": 8,
+    "V": 1048576,
+    "steps": 70222791,
+    "merge_writes": 1048576,
+    "column_boundaries": [
+      1048576
+    ],
+    "mutant": true
+  },
+  "geometry_specializations": 74880,
+  "scope": "CNOT unit-call boundary with complete zero fields and physical unary guides; not a supplied entry producer or full selected caller",
+  "method": "separate byte-tape CPU; author Machine is not executed; exact universal count is the written column/prefix/middle invariant"
+}

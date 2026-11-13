@@ -1,0 +1,18 @@
+{
+  "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "checks": [
+    {
+      "command": "python3 -I -W error -B verify.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -I -O -W error -B verify.py",
+      "exit_code": 0
+    }
+  ],
+  "claim": "For a>=3 no N subset B_(4a^2+3) satisfies N_beta_a(N union Z_a) subset N.",
+  "finite_corroboration": "a=2..64; no matching/search or predecessor import.",
+  "scope": "Failed same-core ball-contained certificate; no general Hall impossibility or global1/2 conclusion.",
+  "status": "FROZEN_NEGATIVE_STRUCTURAL_GATE_NO_PR",
+  "symbolic_proof": "Both exact error-one affine edges and all three quadratic norm identities; universal comparison reduces to2a>5."
+}
