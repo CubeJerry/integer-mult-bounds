@@ -1,0 +1,98 @@
+{
+  "actual_occurrence": {
+    "ambient": 153,
+    "caller_event_index": 21,
+    "event": [
+      "J",
+      1,
+      [
+        1,
+        0,
+        19,
+        20
+      ],
+      [
+        39,
+        38,
+        "-1",
+        "1/2"
+      ]
+    ],
+    "frames": [
+      [
+        137
+      ],
+      [
+        75,
+        137,
+        265
+      ]
+    ],
+    "native_event": [
+      "MOVE",
+      1526,
+      601,
+      470,
+      true
+    ],
+    "native_index": 28141,
+    "owner": [
+      "owned",
+      21,
+      46
+    ]
+  },
+  "controls": [
+    "wrong rho MSB/LSB",
+    "omitted compact/unselected coordinates",
+    "omitted completed selected-root complement",
+    "unequal Gamma6 E with identical DATA volume"
+  ],
+  "coordinate_roundtrips": 2880,
+  "functional_fixture": {
+    "D_root": 306,
+    "D_total": 309,
+    "K": 3,
+    "P0": 3,
+    "S0": 5,
+    "fractional_bits": 821,
+    "initial_rows": 8,
+    "padded_rows": 9,
+    "r": 2,
+    "rho": 0,
+    "role_rows": 3,
+    "root_p": 512,
+    "root_w": 1134,
+    "scope": "Functional geometry analogue, not an admitted selected family or scientific DATA run.",
+    "within_row_bits": 924
+  },
+  "guard_component_cases": 520,
+  "header_length_difference": 16,
+  "lost_dimensions_if_compact_unselected_omitted": 618,
+  "lost_dimensions_if_selected_complement_omitted": 297,
+  "marker": "PASS_SELECTED_COMMON_ROOT_HEADER_GATE",
+  "native_headers": [
+    {
+      "E": 1872,
+      "P": 9,
+      "S_form": "5*2^915",
+      "cutoff_fixture_only": 4,
+      "f": 1,
+      "r": 2,
+      "volume_bit_length": 942,
+      "w": 1134
+    },
+    {
+      "E": 1856,
+      "P": 9,
+      "S_form": "5*2^906",
+      "cutoff_fixture_only": 4,
+      "f": 2,
+      "r": 2,
+      "volume_bit_length": 942,
+      "w": 1134
+    }
+  ],
+  "runtime_claim": "None: host integer operations are verifier calculations only.",
+  "verdict": "DATA-only F_HOME=v is source-compatible; source-indexed producer/packed-view wrapper remains unimplemented."
+}

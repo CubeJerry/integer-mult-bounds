@@ -1,1 +1,3 @@
-Implementation and root mathematical/rank4 CPU review passed. Publication metadata and isolated registered replay are pending. No new kappa or assumption discharge; supplied numerical/entry and B1/setup premises remain. Original source freeze is preserved under implementation/. Do not treat this recovery path as an upstream contribution.
+# Published verified local sublemma
+
+The original candidate and root review here are preserved. Completed registered package is on CubeJerry branch research/literal-fixed-rank-positive-native-20261113 at f2f5130ec84f6a0fc81dbfec9a287909500aa80d. All48remoteaddedblobs/ref/compare checked. See notes/positive-generic-publication.json. No upstream PR created; all five framework assumptions and kappa unchanged.
