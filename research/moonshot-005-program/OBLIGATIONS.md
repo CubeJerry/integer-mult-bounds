@@ -672,3 +672,51 @@ in results/fresh-nine-acquisition-gate/, characteristic-two-complex-parity/,
 bit-minimum-rank-nine/ and bit-rank-nine-shared-interface/. All previous scoped
 results remain valid; earlier entries calling the nine-line case open are
 superseded within the stated interface, not silently generalized.
+
+## S010 checkpoint6 — equality structure and cache-budget gates
+
+**BIT-RANK9-SUPPORT-RIGIDITY — proved scalar; partial block classification.**
+For every characteristic-two division ring, each scalar rank-nine fitting of
+the pinned111-role graph is a vertex gauge of K. For every V, the same conclusion
+holds if all27 intrinsic Schur blocks are units. Canonical formal deformations
+over arbitrary nilpotent two-sided ideals are gauge-trivial. Common commutative
+factor algebras and the reduced canonical component are classified with their
+exact additional premises. Dependencies: BIT-MINIMUM-RANK-NINE, the nine frame
+identities, K8 minus one edge seed, and76 source-bound span witnesses. Independent
+proofs/checks are in results/bit-fitting-rigidity/. An arbitrary noncommuting
+singular-Schur block fitting remains unresolved. Earlier finite F2/GF4 search
+entries are historical and no longer the strongest scalar result.
+
+**BIT-PROPER-FACET-CODE — proved all-volume code/route theorem; finite word.**
+Exactly nine proper-support words, weights56..60, form a basis of the canonical
+binary code. Their shortening theorem extends to all characteristic-two fields
+and V. In the unchanged-raw, single-birth, exactly-nine-field interface at most
+one packet is born below Hub, yielding min(P0,P56) for0<t<=1. A1307-operation
+word attains P56 at t=.995 and retains all foreign debt. Source, rational charts,
+word, price and independent review: results/bit-proper-facet-code/.
+
+**BIT-CLEAN-CACHE-PUBLIC-CODE — disproved within its stated completion scope.**
+Fix the separately executed clean-X source, stationary pure-X histories,
+initial y+Kx at0, arbitrary monotone public-Y coding and exact y restoration,
+with no additional informative moving records. Every source has at most18
+required contact ports on one receiver chain. The last incoming public-record
+interaction leaves at least12 ports outside its partner facet and suffix chain.
+The universal all-V proof and three exact path calculations are retained.
+
+**BIT-CLEAN-CACHE-FRESH-BUDGET — disproved within the extended stated scope.**
+In that initial interface, additionally allow any fresh packets assembled once
+at actual source-history charts and delivered to0 without information acquired
+en route. The full fixed-even-m caller allows at most10 additional input ports,
+below12, for every fixed even m at t=.995. Independent whole-price review and
+rounded-display correction are in results/bit-clean-source-cache-gate/fresh-budget/.
+This is not an impossibility theorem for changed decoding, mutable packets,
+different X circuits or different global codes.
+
+**BIT-MUTABLE-FUNDED-PACKETS — open constructive priority.**
+Allow the existing nine descending packets to collect actual cached X rows at
+nested charts, with receivers reading different intermediate payloads. First
+solve the exact fixed-schedule linear control problem for all111 input columns;
+then prove chart/lifecycle correctness and full fixed-even-m cost. No candidate
+solution is admitted yet. **COUPLED-SELF-RESPONSE** remains open as a source
+construction; enforce the physical half-forward convention and joint Schur
+equation, then acquire its needed observations without assuming free history.

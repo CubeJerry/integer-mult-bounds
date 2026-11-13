@@ -1,3 +1,26 @@
+# Current continuation — S010 checkpoint6
+
+Resume exact remote HEAD; this checkpoint's parent is 6588822b49ff320bf31ebc8846db8a61a3f02c5f.
+Session remains active03:27:03–13:27:03UTC on13 November2026.
+Read the three new ADMISSION.md packages listed in STATE.s010.checkpoint6.
+Scalar rank9 fitting is now globally classified, and invertible-Schur block
+fittings are gauge-canonical. Do not repeat finite scalar fitting searches.
+Only noncommuting singular-Schur block alternatives remain outside that result.
+
+The clean-X/stationary-cache/initial-K/public-Y completion route fails even
+with all affordable fresh single-birth returns: needed12 ports, affordable10.
+Do not restart that fixed-interface search. Construct packets whose contents
+change as they descend, or change the source/interface explicitly. The exact
+nine proper-facet codewords give a separate raw-source partial construction;
+its.1862525 saving cannot be stacked with the clean-X circuit.
+
+Complex coupled candidates must use c=(I-R)y/2 for forward half-updates and
+check the full joint Schur residual; kernel visibility alone is insufficient.
+Work-in-progress candidates are recorded separately, not admitted as proofs.
+Current selected conditionalκ=.00363005817; no new completeκ, both strict
+suppliers and all five foundations remain. Ongoing programme, not PR-ready.
+Earlier continuation sections are historical and superseded here.
+
 # Current continuation — S010 checkpoint5
 
 Resume exact remote HEAD; parent baseline 8533bc2640e0ec002bb16ba85997480ce3c3cac6.

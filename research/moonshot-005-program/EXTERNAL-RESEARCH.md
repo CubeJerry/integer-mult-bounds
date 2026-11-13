@@ -512,3 +512,18 @@ work, zxv and retained native authors keep explicit credit. No new upstream
 package or selected certificate change is imported. The complex and BIT
 parity certificates use different real-root contact conventions and are never
 identified. Canonical main remains the recorded baseline at this checkpoint.
+
+## S010 checkpoint6 — mid-session upstream and concurrent evidence
+
+Canonical main was rechecked at e54523517d0f03e58352e647c403a5af3e525a57.
+The20 latest PR metadata records showed no later item than CrocSwap/integer-mult-bounds#7480.
+Its open head58a9d052143f5d85295ed2d0163591c47f89a331 claims conditional
+.003646777872835 via a charged stage17 helper449 rank3+5 to2+6 replacement
+over #7334. This metadata/body check is not independent admission or a selected
+certificate change; the preserved A004 assessment documents its separate review.
+
+Concurrent A004 commit29a02657421eca85e05b122564a0e7c3813bbc9a was preserved
+before checkpoint5. Root independently replayed its three assessment receipts,
+including cross-engine intervals and source controls. It remains a supplemental
+lower-target assessment, with missing suppliers explicit, not a change of the
+permanent .005 target. No upstream branch or selected certificate is altered.

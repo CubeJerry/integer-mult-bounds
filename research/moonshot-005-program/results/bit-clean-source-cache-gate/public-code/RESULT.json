@@ -1,0 +1,930 @@
+{
+  "status": "PASS_PUBLIC_Y_LAST_INTERACTION_GATE_FIXED_K",
+  "support_result_sha256": "96530e3cb3dea91b663ea9216ee688d20d9d262e83d73304026ff43d2ba6dd75",
+  "screen_sha256": "ade07c8fdd0393f22d7a71c994af545c3d1569031b5aa617949105648ed6f77a",
+  "fixed_map_premise": "The nine packet deliveries/updates have established exactly Y=y+Kx at chart 0 before the candidate public-Y path code, or are transported through precisely the same public-row operations so this remains the net pre-correction map. The required correction is therefore F=K+I. If a different packet placement yields Y=y+Mx, this result does not apply; recompute I+M and its support geometry.",
+  "scope": "Any acyclic ADD/SWAP coding among the 111 public Y rows after the fixed K map; exact endpoint restoration of the y identity; source increments only from clean independent X-only stationary histories; every public output follows its one monotone physical lineage to its actual facet; no additional Y-bearing owned copies or new X transport.",
+  "receiver_count": 111,
+  "all_public_Y_mix_groups_with_size_ge_2_fail": true,
+  "all_unmixed_Y_outputs_fail_by_single_chain_gate": true,
+  "all_output_contact_sets_have_min_private_support_over_partners_greater_than_suffix_chain_capacity": true,
+  "aggregate_controls": {
+    "contact_count_range": [
+      55,
+      62
+    ],
+    "minimum_private_contact_count_over_receiver_partner_pairs": 21,
+    "maximum_suffix_chain_contact_capacity": 18,
+    "minimum_strict_deficit": 4,
+    "maximum_strict_deficit": 20,
+    "tight_receivers": [
+      {
+        "receiver": 3,
+        "contact_count": 58,
+        "minimum_private_contacts_against_any_partner": 22,
+        "closest_partner": 76,
+        "maximum_single_suffix_chain_contact_support": 18,
+        "strict_private_deficit": 4
+      }
+    ]
+  },
+  "proof": [
+    "Let S_i=supp(F_i), which is the actual orthogonal-contact set for receiver i.",
+    "Track each final public output through whole-label SWAPs to its last incoming public Y<-Y ADD; its y row must be e_i immediately afterward.",
+    "The ADD donor is a distinct row in a full-rank public-Y basis. Modulo e_i its nonzero y component survives to some other output h, so the ADD chart is nested in both F_i and F_h.",
+    "All source-cache increments before that interaction are supported inside its chart, hence inside S_i intersect S_h; no coordinate in S_i minus S_h is available there.",
+    "After the last incoming ADD, output i has one suffix chain. The exact support replay bounds its S_i coverage by max_suffix_i.",
+    "For every i, min_{h != i}|S_i minus S_h| > max_suffix_i. The remaining private coordinates therefore cannot be corrected.",
+    "If output i has no incoming Y-Y ADD, its whole route is the predecessor one-chain case."
+  ],
+  "per_receiver": [
+    {
+      "receiver": 0,
+      "contact_count": 56,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 25,
+      "maximum_single_suffix_chain_contact_support": 9,
+      "strict_private_deficit": 13
+    },
+    {
+      "receiver": 1,
+      "contact_count": 60,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 6,
+      "strict_private_deficit": 18
+    },
+    {
+      "receiver": 2,
+      "contact_count": 60,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 19
+    },
+    {
+      "receiver": 3,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 76,
+      "maximum_single_suffix_chain_contact_support": 18,
+      "strict_private_deficit": 4
+    },
+    {
+      "receiver": 4,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 78,
+      "maximum_single_suffix_chain_contact_support": 8,
+      "strict_private_deficit": 15
+    },
+    {
+      "receiver": 5,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 32,
+      "maximum_single_suffix_chain_contact_support": 10,
+      "strict_private_deficit": 14
+    },
+    {
+      "receiver": 6,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 79,
+      "maximum_single_suffix_chain_contact_support": 11,
+      "strict_private_deficit": 12
+    },
+    {
+      "receiver": 7,
+      "contact_count": 60,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 24,
+      "maximum_single_suffix_chain_contact_support": 11,
+      "strict_private_deficit": 13
+    },
+    {
+      "receiver": 8,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 4,
+      "strict_private_deficit": 20
+    },
+    {
+      "receiver": 9,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 11,
+      "strict_private_deficit": 12
+    },
+    {
+      "receiver": 10,
+      "contact_count": 61,
+      "minimum_private_contacts_against_any_partner": 25,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 20
+    },
+    {
+      "receiver": 11,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 11,
+      "strict_private_deficit": 12
+    },
+    {
+      "receiver": 12,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 7,
+      "maximum_single_suffix_chain_contact_support": 7,
+      "strict_private_deficit": 17
+    },
+    {
+      "receiver": 13,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 34,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 18
+    },
+    {
+      "receiver": 14,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 2,
+      "maximum_single_suffix_chain_contact_support": 4,
+      "strict_private_deficit": 20
+    },
+    {
+      "receiver": 15,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 2,
+      "maximum_single_suffix_chain_contact_support": 3,
+      "strict_private_deficit": 20
+    },
+    {
+      "receiver": 16,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 17
+    },
+    {
+      "receiver": 17,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 62,
+      "maximum_single_suffix_chain_contact_support": 3,
+      "strict_private_deficit": 19
+    },
+    {
+      "receiver": 18,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 61,
+      "maximum_single_suffix_chain_contact_support": 7,
+      "strict_private_deficit": 16
+    },
+    {
+      "receiver": 19,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 6,
+      "strict_private_deficit": 17
+    },
+    {
+      "receiver": 20,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 42,
+      "maximum_single_suffix_chain_contact_support": 6,
+      "strict_private_deficit": 16
+    },
+    {
+      "receiver": 21,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 64,
+      "maximum_single_suffix_chain_contact_support": 6,
+      "strict_private_deficit": 17
+    },
+    {
+      "receiver": 22,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 9,
+      "strict_private_deficit": 14
+    },
+    {
+      "receiver": 23,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 7,
+      "strict_private_deficit": 16
+    },
+    {
+      "receiver": 24,
+      "contact_count": 60,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 7,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 19
+    },
+    {
+      "receiver": 25,
+      "contact_count": 60,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 7,
+      "maximum_single_suffix_chain_contact_support": 4,
+      "strict_private_deficit": 20
+    },
+    {
+      "receiver": 26,
+      "contact_count": 60,
+      "minimum_private_contacts_against_any_partner": 25,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 6,
+      "strict_private_deficit": 19
+    },
+    {
+      "receiver": 27,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 7,
+      "maximum_single_suffix_chain_contact_support": 6,
+      "strict_private_deficit": 17
+    },
+    {
+      "receiver": 28,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 7,
+      "strict_private_deficit": 16
+    },
+    {
+      "receiver": 29,
+      "contact_count": 56,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 17
+    },
+    {
+      "receiver": 30,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 4,
+      "strict_private_deficit": 19
+    },
+    {
+      "receiver": 31,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 14,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 18
+    },
+    {
+      "receiver": 32,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 4,
+      "strict_private_deficit": 18
+    },
+    {
+      "receiver": 33,
+      "contact_count": 60,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 24,
+      "maximum_single_suffix_chain_contact_support": 4,
+      "strict_private_deficit": 20
+    },
+    {
+      "receiver": 34,
+      "contact_count": 60,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 13,
+      "maximum_single_suffix_chain_contact_support": 7,
+      "strict_private_deficit": 17
+    },
+    {
+      "receiver": 35,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 18
+    },
+    {
+      "receiver": 36,
+      "contact_count": 56,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 11,
+      "maximum_single_suffix_chain_contact_support": 4,
+      "strict_private_deficit": 18
+    },
+    {
+      "receiver": 37,
+      "contact_count": 56,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 6,
+      "strict_private_deficit": 16
+    },
+    {
+      "receiver": 38,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 2,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 18
+    },
+    {
+      "receiver": 39,
+      "contact_count": 55,
+      "minimum_private_contacts_against_any_partner": 21,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 16
+    },
+    {
+      "receiver": 40,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 7,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 19
+    },
+    {
+      "receiver": 41,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 2,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 19
+    },
+    {
+      "receiver": 42,
+      "contact_count": 61,
+      "minimum_private_contacts_against_any_partner": 25,
+      "closest_partner": 2,
+      "maximum_single_suffix_chain_contact_support": 8,
+      "strict_private_deficit": 17
+    },
+    {
+      "receiver": 43,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 7,
+      "maximum_single_suffix_chain_contact_support": 8,
+      "strict_private_deficit": 15
+    },
+    {
+      "receiver": 44,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 6,
+      "strict_private_deficit": 16
+    },
+    {
+      "receiver": 45,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 2,
+      "maximum_single_suffix_chain_contact_support": 6,
+      "strict_private_deficit": 18
+    },
+    {
+      "receiver": 46,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 4,
+      "strict_private_deficit": 18
+    },
+    {
+      "receiver": 47,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 4,
+      "strict_private_deficit": 18
+    },
+    {
+      "receiver": 48,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 8,
+      "maximum_single_suffix_chain_contact_support": 4,
+      "strict_private_deficit": 20
+    },
+    {
+      "receiver": 49,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 28,
+      "maximum_single_suffix_chain_contact_support": 6,
+      "strict_private_deficit": 18
+    },
+    {
+      "receiver": 50,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 2,
+      "maximum_single_suffix_chain_contact_support": 7,
+      "strict_private_deficit": 16
+    },
+    {
+      "receiver": 51,
+      "contact_count": 61,
+      "minimum_private_contacts_against_any_partner": 25,
+      "closest_partner": 19,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 20
+    },
+    {
+      "receiver": 52,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 12,
+      "maximum_single_suffix_chain_contact_support": 8,
+      "strict_private_deficit": 15
+    },
+    {
+      "receiver": 53,
+      "contact_count": 60,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 24,
+      "maximum_single_suffix_chain_contact_support": 6,
+      "strict_private_deficit": 18
+    },
+    {
+      "receiver": 54,
+      "contact_count": 56,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 7,
+      "maximum_single_suffix_chain_contact_support": 4,
+      "strict_private_deficit": 18
+    },
+    {
+      "receiver": 55,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 6,
+      "strict_private_deficit": 17
+    },
+    {
+      "receiver": 56,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 18,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 18
+    },
+    {
+      "receiver": 57,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 51,
+      "maximum_single_suffix_chain_contact_support": 9,
+      "strict_private_deficit": 14
+    },
+    {
+      "receiver": 58,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 13,
+      "maximum_single_suffix_chain_contact_support": 7,
+      "strict_private_deficit": 16
+    },
+    {
+      "receiver": 59,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 25,
+      "maximum_single_suffix_chain_contact_support": 8,
+      "strict_private_deficit": 15
+    },
+    {
+      "receiver": 60,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 14,
+      "maximum_single_suffix_chain_contact_support": 9,
+      "strict_private_deficit": 13
+    },
+    {
+      "receiver": 61,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 18,
+      "maximum_single_suffix_chain_contact_support": 3,
+      "strict_private_deficit": 20
+    },
+    {
+      "receiver": 62,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 4,
+      "strict_private_deficit": 20
+    },
+    {
+      "receiver": 63,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 34,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 17
+    },
+    {
+      "receiver": 64,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 21,
+      "maximum_single_suffix_chain_contact_support": 17,
+      "strict_private_deficit": 6
+    },
+    {
+      "receiver": 65,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 26,
+      "maximum_single_suffix_chain_contact_support": 12,
+      "strict_private_deficit": 10
+    },
+    {
+      "receiver": 66,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 25,
+      "maximum_single_suffix_chain_contact_support": 9,
+      "strict_private_deficit": 13
+    },
+    {
+      "receiver": 67,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 21,
+      "maximum_single_suffix_chain_contact_support": 11,
+      "strict_private_deficit": 12
+    },
+    {
+      "receiver": 68,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 9,
+      "strict_private_deficit": 14
+    },
+    {
+      "receiver": 69,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 24,
+      "maximum_single_suffix_chain_contact_support": 6,
+      "strict_private_deficit": 17
+    },
+    {
+      "receiver": 70,
+      "contact_count": 56,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 14,
+      "maximum_single_suffix_chain_contact_support": 8,
+      "strict_private_deficit": 14
+    },
+    {
+      "receiver": 71,
+      "contact_count": 56,
+      "minimum_private_contacts_against_any_partner": 21,
+      "closest_partner": 26,
+      "maximum_single_suffix_chain_contact_support": 14,
+      "strict_private_deficit": 7
+    },
+    {
+      "receiver": 72,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 27,
+      "maximum_single_suffix_chain_contact_support": 5,
+      "strict_private_deficit": 18
+    },
+    {
+      "receiver": 73,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 12,
+      "strict_private_deficit": 10
+    },
+    {
+      "receiver": 74,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 51,
+      "maximum_single_suffix_chain_contact_support": 10,
+      "strict_private_deficit": 13
+    },
+    {
+      "receiver": 75,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 12,
+      "strict_private_deficit": 11
+    },
+    {
+      "receiver": 76,
+      "contact_count": 60,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 3,
+      "maximum_single_suffix_chain_contact_support": 13,
+      "strict_private_deficit": 11
+    },
+    {
+      "receiver": 77,
+      "contact_count": 56,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 13,
+      "strict_private_deficit": 9
+    },
+    {
+      "receiver": 78,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 4,
+      "maximum_single_suffix_chain_contact_support": 14,
+      "strict_private_deficit": 9
+    },
+    {
+      "receiver": 79,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 6,
+      "maximum_single_suffix_chain_contact_support": 14,
+      "strict_private_deficit": 9
+    },
+    {
+      "receiver": 80,
+      "contact_count": 62,
+      "minimum_private_contacts_against_any_partner": 26,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 14,
+      "strict_private_deficit": 12
+    },
+    {
+      "receiver": 81,
+      "contact_count": 61,
+      "minimum_private_contacts_against_any_partner": 25,
+      "closest_partner": 2,
+      "maximum_single_suffix_chain_contact_support": 14,
+      "strict_private_deficit": 11
+    },
+    {
+      "receiver": 82,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 2,
+      "maximum_single_suffix_chain_contact_support": 11,
+      "strict_private_deficit": 13
+    },
+    {
+      "receiver": 83,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 2,
+      "maximum_single_suffix_chain_contact_support": 16,
+      "strict_private_deficit": 7
+    },
+    {
+      "receiver": 84,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 3,
+      "maximum_single_suffix_chain_contact_support": 13,
+      "strict_private_deficit": 11
+    },
+    {
+      "receiver": 85,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 13,
+      "strict_private_deficit": 10
+    },
+    {
+      "receiver": 86,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 53,
+      "maximum_single_suffix_chain_contact_support": 17,
+      "strict_private_deficit": 6
+    },
+    {
+      "receiver": 87,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 2,
+      "maximum_single_suffix_chain_contact_support": 13,
+      "strict_private_deficit": 10
+    },
+    {
+      "receiver": 88,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 2,
+      "maximum_single_suffix_chain_contact_support": 13,
+      "strict_private_deficit": 10
+    },
+    {
+      "receiver": 89,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 42,
+      "maximum_single_suffix_chain_contact_support": 10,
+      "strict_private_deficit": 14
+    },
+    {
+      "receiver": 90,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 51,
+      "maximum_single_suffix_chain_contact_support": 11,
+      "strict_private_deficit": 11
+    },
+    {
+      "receiver": 91,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 3,
+      "maximum_single_suffix_chain_contact_support": 16,
+      "strict_private_deficit": 8
+    },
+    {
+      "receiver": 92,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 2,
+      "maximum_single_suffix_chain_contact_support": 16,
+      "strict_private_deficit": 7
+    },
+    {
+      "receiver": 93,
+      "contact_count": 59,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 4,
+      "maximum_single_suffix_chain_contact_support": 13,
+      "strict_private_deficit": 11
+    },
+    {
+      "receiver": 94,
+      "contact_count": 57,
+      "minimum_private_contacts_against_any_partner": 21,
+      "closest_partner": 51,
+      "maximum_single_suffix_chain_contact_support": 9,
+      "strict_private_deficit": 12
+    },
+    {
+      "receiver": 95,
+      "contact_count": 61,
+      "minimum_private_contacts_against_any_partner": 25,
+      "closest_partner": 2,
+      "maximum_single_suffix_chain_contact_support": 11,
+      "strict_private_deficit": 14
+    },
+    {
+      "receiver": 96,
+      "contact_count": 60,
+      "minimum_private_contacts_against_any_partner": 25,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 17,
+      "strict_private_deficit": 8
+    },
+    {
+      "receiver": 97,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 12,
+      "strict_private_deficit": 10
+    },
+    {
+      "receiver": 98,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 51,
+      "maximum_single_suffix_chain_contact_support": 13,
+      "strict_private_deficit": 9
+    },
+    {
+      "receiver": 99,
+      "contact_count": 60,
+      "minimum_private_contacts_against_any_partner": 25,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 13,
+      "strict_private_deficit": 12
+    },
+    {
+      "receiver": 100,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 1,
+      "maximum_single_suffix_chain_contact_support": 12,
+      "strict_private_deficit": 11
+    },
+    {
+      "receiver": 101,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 10,
+      "maximum_single_suffix_chain_contact_support": 16,
+      "strict_private_deficit": 7
+    },
+    {
+      "receiver": 102,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 11,
+      "maximum_single_suffix_chain_contact_support": 11,
+      "strict_private_deficit": 12
+    },
+    {
+      "receiver": 103,
+      "contact_count": 60,
+      "minimum_private_contacts_against_any_partner": 24,
+      "closest_partner": 32,
+      "maximum_single_suffix_chain_contact_support": 14,
+      "strict_private_deficit": 10
+    },
+    {
+      "receiver": 104,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 34,
+      "maximum_single_suffix_chain_contact_support": 11,
+      "strict_private_deficit": 12
+    },
+    {
+      "receiver": 105,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 33,
+      "maximum_single_suffix_chain_contact_support": 14,
+      "strict_private_deficit": 8
+    },
+    {
+      "receiver": 106,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 51,
+      "maximum_single_suffix_chain_contact_support": 17,
+      "strict_private_deficit": 6
+    },
+    {
+      "receiver": 107,
+      "contact_count": 56,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 42,
+      "maximum_single_suffix_chain_contact_support": 12,
+      "strict_private_deficit": 10
+    },
+    {
+      "receiver": 108,
+      "contact_count": 56,
+      "minimum_private_contacts_against_any_partner": 21,
+      "closest_partner": 34,
+      "maximum_single_suffix_chain_contact_support": 11,
+      "strict_private_deficit": 10
+    },
+    {
+      "receiver": 109,
+      "contact_count": 56,
+      "minimum_private_contacts_against_any_partner": 22,
+      "closest_partner": 18,
+      "maximum_single_suffix_chain_contact_support": 17,
+      "strict_private_deficit": 5
+    },
+    {
+      "receiver": 110,
+      "contact_count": 58,
+      "minimum_private_contacts_against_any_partner": 23,
+      "closest_partner": 19,
+      "maximum_single_suffix_chain_contact_support": 12,
+      "strict_private_deficit": 11
+    }
+  ]
+}

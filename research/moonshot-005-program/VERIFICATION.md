@@ -788,3 +788,29 @@ agree. A54-root rank7 example at line473 disproves the abandoned cap35 claim.
 Five final-path receipts are byte-identical; CHECKPOINT5-VALIDATION.json records
 their hashes. Frozen bytes are preserved. The BIT path adapter changes no
 review logic. Solver leads are outside these admitted theorems. No new κ.
+
+## S010 checkpoint6 — independent rigidity, code and cache reviews
+
+Worker B's local/formal and global scalar/block fitting proofs receive root's
+separate mathematical review. Root reconstructs actual contacts and uses a
+transposed Jacobian/least-bit elimination and reversed-frame span witnesses.
+The Jacobian has1009 rank and111 factor-gauge nullity. Its noncommuting ordered
+gauge control and all76 global seed witnesses pass. No finite solver outcome is
+used as a universal proof. The reduced-variety claim is not a nonreduced-scheme
+smoothness claim.
+
+Root's511-word proper-chart census and literal1307-operation word receive
+worker C's independent prime1013/exact-normal, endpoint and price review.
+All-field/all-volume shortening and raw-route comparability are reviewed as
+proofs. New physical chart/compiler/erasure admission is still open.
+
+For the clean-cache gate, worker C enumerates33814 terminal chains, root uses
+4965 inclusion-maximal chart-poset support unions, and worker B independently
+uses7037 unpruned Hasse-path unions with2096 covers. All recover the source,
+path obstruction and strengthened12-port exception bound. Worker B independently
+recounts the full source/caller profile and uses decimal-grid integer roots,
+unlike root's144-bit binary bounds. The reviewed budget proof's original
+snapshot is retained; its downward-rounded prose ceiling is corrected and the
+inherited initial map is explicit. Six installed-path receipts are byte-identical
+in CHECKPOINT6-VALIDATION.json. These are corroborating replays of independent
+reviews, not extra independent reviewers. No new complete κ.

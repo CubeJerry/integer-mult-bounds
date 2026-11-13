@@ -1,0 +1,19 @@
+{
+  "status": "PASS_INDEPENDENT_TRANSPOSED_JACOBIAN_AND_ORDERED_PROOF_REVIEW",
+  "source_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "author_proof_sha256": "f62a6d51c321ede0c8a217073622567f3f5eab52ab2ad034d07a020b8b02e086",
+  "geometry_factor_products": 12321,
+  "variables": 1120,
+  "constraints": 5851,
+  "independent_transpose_rank": 1009,
+  "factor_gauge_kernel_dimension": 111,
+  "matrix_gauge_dimension": 110,
+  "author_square_minor_rank": 1009,
+  "negative_controls": [
+    "Repeated minor row loses rank",
+    "Non-gauge factor perturbation changes a constraint",
+    "Reversed noncommuting gauge order fails"
+  ],
+  "universal_review": "Exact eight-frame normalization, central-bit linearization on each J^n/J^(n+1), ordered vertex/factor induction and t-adic limit checked. Rational-family inverse-contact identities hold at every regular specialization.",
+  "limitation": "Canonical nilpotent/formal neighbourhood only; disconnected minimum fittings and global all-volume rigidity remain open. No new supplier or kappa."
+}

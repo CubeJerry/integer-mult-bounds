@@ -1,3 +1,36 @@
+## S010 checkpoint6 — rigidity proved; the fixed-cache BIT route is closed
+
+The BIT minimum-rank interface now has a structural classification. Every scalar
+rank-nine fitting over every characteristic-two field (indeed division ring) is
+a vertex gauge of the canonical fitting. The all-volume theorem holds when its
+27 intrinsic Schur blocks are invertible. Formal canonical deformations over
+arbitrary nilpotent associative characteristic-two rings are gauge-trivial;
+globally, the canonical block orbit is a clopen component of the reduced fitting
+variety. Noncommuting block solutions with singular Schur blocks remain open.
+These are proofs, not extrapolations from the earlier finite solver results.
+
+Exactly nine canonical codewords have support in proper real source charts;
+they form a code basis. The resulting all-volume shortening theorem and a
+literal one-facet partial rail give a sharp fresh-nine raw-source price in the
+declared interface. Its saving is only.186252503951... and does not remove the
+rank108/6470 foreign debt. That source is different from the clean-cache source;
+their apparent savings are not added together.
+
+For the separately executed clean-X source, arbitrary public-Y coding with the
+initial y+Kx interface cannot complete the receiver map using stationary caches.
+Even fresh single-birth returns within the entire remaining fixed-even-m
+budget expose at most10 input ports, while a last-interaction proof requires
+at least12. Three different source/path calculations and an independent exact
+price reconstruction support the scoped obstruction. Mutable funded packets,
+different source transformations and different packet interfaces remain open.
+
+The next constructive mechanism is information acquired and delivered by the
+same already funded packet at multiple charts. On the complex side, coupled
+entry changes must satisfy the full joint Schur equation with the actual half
+forward update; kernel visibility by itself is insufficient. Current candidates
+are explicitly unadmitted in wip/S010-NEXT-CONSTRUCTIONS.md. Both strict suppliers
+and all five foundations remain. **No new complete κ; ongoing, not PR-ready.**
+
 ## S010 checkpoint5 — complete nine-field gate and an actual BIT interface
 
 The complex fresh-return gap at eligible lines is closed through nine fields.

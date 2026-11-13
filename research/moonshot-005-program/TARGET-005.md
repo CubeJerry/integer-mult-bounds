@@ -804,3 +804,33 @@ births. At t=.995, allowing up to nine still selects the smaller sharp J8,
 leaving the existing .253110684956... limiting deficit plus d/(m-1).
 Both strict complex U>.005 and completed ordinary BIT B>.005 remain required.
 Full details and exact rational certificates are in the new result admissions.
+
+## S010 checkpoint6 — narrowed BIT and coupled interfaces
+
+The current fixed-even-m BIT complete allowance at t=199/200 remains
+Q_t<1621.750880211152355246... in the limit, with the negative paired margin
+making every finite m stricter. Retaining the exact clean-X source, minimum
+receiver movement and nine Hub returns already costs1616.0437246329968685... .
+The remaining moment is less than5.707155578155487. Fresh single-chart returns
+therefore have total birth dimension<=5 and input-support union<=10, whereas
+the initial-K/public-Y/cache completion interface requires>=12. This entire
+source/interface fails for every fixed even m, even granting ordinary costs free.
+See results/bit-clean-source-cache-gate/fresh-budget/ADMISSION.md.
+
+The alternative unchanged-raw source admits one proper-facet packet and eight
+Hub packets, profile{1:56,6:56,7:167,8:8}. It improves the original partial Q by
+.1862525039510916857..., with no residual correction. Its donor detours cannot
+be credited simultaneously with the different clean-X profile above.
+
+Scalar rank-nine alternatives cannot change canonical foreign support over any
+characteristic-two field. Block alternatives within the invertible-Schur stratum
+also cannot. A different noncommuting singular-Schur component is not excluded,
+but no admissible source construction there is known. Mutable packet interfaces
+are a separate route and need not alter minimum-rank fitting.
+
+For the complex candidate, keeping canonical cross actions while changing
+coupled entry a=x+R*y and physical initial receiver c=(I-R)y/2 gives the joint
+Schur requirement I+R=G_UU*(I-R)/2. Thus merely killing the kernel mode does
+not prove eight-return condensation. The precise construction, observation
+access and cost remain open; see the labelled work-in-progress note. All
+strict supplier and foundational inequalities remain unchanged.

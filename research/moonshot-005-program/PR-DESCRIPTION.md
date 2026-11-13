@@ -718,3 +718,30 @@ Source pins, zero-projection clarifications, reproduction commands, independent
 @CubeJerry and retained predecessors and discloses substantial AI assistance.
 **No new κ.** Both strict suppliers and all five foundations remain. The
 cumulative programme is ongoing, not PR-ready; no upstream PR is submitted.
+
+## S010 structural extension toward a complete BIT companion
+
+The [rank-nine rigidity package](results/bit-fitting-rigidity/ADMISSION.md)
+classifies every scalar minimum-rank fitting over characteristic-two fields,
+proves all-volume rigidity on the invertible-Schur stratum and formal gauge
+rigidity over nilpotent associative rings, and identifies the reduced canonical
+component. The noncommuting singular-Schur block escape remains explicit.
+This replaces earlier finite-search evidence with source-bound theorems.
+
+The [proper-facet package](results/bit-proper-facet-code/ADMISSION.md) proves the
+all-volume shortening structure and a sharp fresh-nine raw-source bound, with
+a literal1307-operation partial word and independent exact review. Its small
+price saving does not correct the6470 foreign coefficients.
+
+The [clean-cache gate](results/bit-clean-source-cache-gate/ADMISSION.md) combines
+arbitrary public-Y path coding with a full fixed-even-m price obstruction:
+at most10 affordable fresh-return input ports versus at least12 required.
+The initial map and single-birth packet restrictions are explicit. Three
+independent source/path implementations and a separate complete-price review
+are retained with source hashes, reproducible scripts and negative controls.
+These results direct the next construction toward mutable funded packets and
+coherent earlier coupled observations. They are not a completed supplier.
+Credit remains @CubeJerry and the retained native/caller/root-lineage authors;
+all new proofs and implementations disclose OpenAI assistance. **No new κ.**
+Both strict suppliers and all five foundations remain. Ongoing programme,
+not PR-ready; no upstream submission is made.

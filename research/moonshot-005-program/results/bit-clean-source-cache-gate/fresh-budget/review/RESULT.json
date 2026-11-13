@@ -1,0 +1,968 @@
+{
+  "status": "PASS_INDEPENDENT_CACHE_SUPPORT_AND_COMPLETE_PRICE_COMPOSITION",
+  "source_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "method": "Primary native replay; unpruned unions along maximal Hasse paths, rather than transitive-predecessor antichain pruning.",
+  "clean_source_paid": {
+    "1": 289,
+    "2": 244
+  },
+  "clean_source_arithmetic": {
+    "ADD": 628
+  },
+  "history_charts": 389,
+  "history_distinct_rows": 1027,
+  "hasse_edges": 2096,
+  "hasse_union_states": 7037,
+  "per_receiver_exception_minima": [
+    {
+      "receiver": 0,
+      "minimum_exception_ports": 17,
+      "partner": 25,
+      "chain_union_mask": 14230
+    },
+    {
+      "receiver": 1,
+      "minimum_exception_ports": 20,
+      "partner": 10,
+      "chain_union_mask": 27853650883921056185230295060
+    },
+    {
+      "receiver": 2,
+      "minimum_exception_ports": 20,
+      "partner": 10,
+      "chain_union_mask": 324518554905131478260746651959298
+    },
+    {
+      "receiver": 3,
+      "minimum_exception_ports": 13,
+      "partner": 5,
+      "chain_union_mask": 70367670435872
+    },
+    {
+      "receiver": 4,
+      "minimum_exception_ports": 18,
+      "partner": 31,
+      "chain_union_mask": 324518553658430187096881724653570
+    },
+    {
+      "receiver": 5,
+      "minimum_exception_ports": 18,
+      "partner": 42,
+      "chain_union_mask": 693045249
+    },
+    {
+      "receiver": 6,
+      "minimum_exception_ports": 18,
+      "partner": 18,
+      "chain_union_mask": 24948391282689
+    },
+    {
+      "receiver": 7,
+      "minimum_exception_ports": 17,
+      "partner": 24,
+      "chain_union_mask": 324518554905134938573372844408834
+    },
+    {
+      "receiver": 8,
+      "minimum_exception_ports": 21,
+      "partner": 1,
+      "chain_union_mask": 11529215046068473856
+    },
+    {
+      "receiver": 9,
+      "minimum_exception_ports": 16,
+      "partner": 30,
+      "chain_union_mask": 693045281
+    },
+    {
+      "receiver": 10,
+      "minimum_exception_ports": 21,
+      "partner": 1,
+      "chain_union_mask": 1303224045197134089076204455854336
+    },
+    {
+      "receiver": 11,
+      "minimum_exception_ports": 18,
+      "partner": 1,
+      "chain_union_mask": 380682752
+    },
+    {
+      "receiver": 12,
+      "minimum_exception_ports": 19,
+      "partner": 7,
+      "chain_union_mask": 5149830563427181943580373558272
+    },
+    {
+      "receiver": 13,
+      "minimum_exception_ports": 20,
+      "partner": 7,
+      "chain_union_mask": 24178516392292583494127872
+    },
+    {
+      "receiver": 14,
+      "minimum_exception_ports": 20,
+      "partner": 59,
+      "chain_union_mask": 20440865928680199099134372742144
+    },
+    {
+      "receiver": 15,
+      "minimum_exception_ports": 20,
+      "partner": 13,
+      "chain_union_mask": 38685626299725731923492864
+    },
+    {
+      "receiver": 16,
+      "minimum_exception_ports": 18,
+      "partner": 33,
+      "chain_union_mask": 1303224045197134089076204455862272
+    },
+    {
+      "receiver": 17,
+      "minimum_exception_ports": 19,
+      "partner": 62,
+      "chain_union_mask": 40564819207303340847894502596608
+    },
+    {
+      "receiver": 18,
+      "minimum_exception_ports": 18,
+      "partner": 10,
+      "chain_union_mask": 633825909299409076258183577600
+    },
+    {
+      "receiver": 19,
+      "minimum_exception_ports": 18,
+      "partner": 10,
+      "chain_union_mask": 9680851866343529286599168
+    },
+    {
+      "receiver": 20,
+      "minimum_exception_ports": 18,
+      "partner": 42,
+      "chain_union_mask": 1307264681485361572493572177920
+    },
+    {
+      "receiver": 21,
+      "minimum_exception_ports": 19,
+      "partner": 64,
+      "chain_union_mask": 77975790306167281120477184
+    },
+    {
+      "receiver": 22,
+      "minimum_exception_ports": 18,
+      "partner": 1,
+      "chain_union_mask": 20463767838314891309806656684032
+    },
+    {
+      "receiver": 23,
+      "minimum_exception_ports": 19,
+      "partner": 10,
+      "chain_union_mask": 27853650883921056185230295060
+    },
+    {
+      "receiver": 24,
+      "minimum_exception_ports": 20,
+      "partner": 33,
+      "chain_union_mask": 309489732205912705623719936
+    },
+    {
+      "receiver": 25,
+      "minimum_exception_ports": 21,
+      "partner": 7,
+      "chain_union_mask": 147718067846740180992
+    },
+    {
+      "receiver": 26,
+      "minimum_exception_ports": 20,
+      "partner": 42,
+      "chain_union_mask": 3133535724513176419171303424
+    },
+    {
+      "receiver": 27,
+      "minimum_exception_ports": 19,
+      "partner": 45,
+      "chain_union_mask": 27853650883921056185230819332
+    },
+    {
+      "receiver": 28,
+      "minimum_exception_ports": 17,
+      "partner": 42,
+      "chain_union_mask": 1307274353187354622887746076672
+    },
+    {
+      "receiver": 29,
+      "minimum_exception_ports": 18,
+      "partner": 34,
+      "chain_union_mask": 673748866381068214622438309888
+    },
+    {
+      "receiver": 30,
+      "minimum_exception_ports": 20,
+      "partner": 78,
+      "chain_union_mask": 147718067846472794112
+    },
+    {
+      "receiver": 31,
+      "minimum_exception_ports": 20,
+      "partner": 4,
+      "chain_union_mask": 309489732205912705623719936
+    },
+    {
+      "receiver": 32,
+      "minimum_exception_ports": 19,
+      "partner": 10,
+      "chain_union_mask": 18446744090889945088
+    },
+    {
+      "receiver": 33,
+      "minimum_exception_ports": 21,
+      "partner": 24,
+      "chain_union_mask": 24178516392292584567865600
+    },
+    {
+      "receiver": 34,
+      "minimum_exception_ports": 19,
+      "partner": 66,
+      "chain_union_mask": 1267660271930798914837942501376
+    },
+    {
+      "receiver": 35,
+      "minimum_exception_ports": 19,
+      "partner": 80,
+      "chain_union_mask": 634134787485119287260505702400
+    },
+    {
+      "receiver": 36,
+      "minimum_exception_ports": 18,
+      "partner": 11,
+      "chain_union_mask": 1307264681485361572493572177920
+    },
+    {
+      "receiver": 37,
+      "minimum_exception_ports": 18,
+      "partner": 1,
+      "chain_union_mask": 2493409505206972486525952
+    },
+    {
+      "receiver": 38,
+      "minimum_exception_ports": 19,
+      "partner": 24,
+      "chain_union_mask": 81129638584611875079098380320770
+    },
+    {
+      "receiver": 39,
+      "minimum_exception_ports": 17,
+      "partner": 25,
+      "chain_union_mask": 81129638584611875079098380320770
+    },
+    {
+      "receiver": 40,
+      "minimum_exception_ports": 20,
+      "partner": 7,
+      "chain_union_mask": 1267650600523665537052241297408
+    },
+    {
+      "receiver": 41,
+      "minimum_exception_ports": 20,
+      "partner": 2,
+      "chain_union_mask": 24178516392292583494127872
+    },
+    {
+      "receiver": 42,
+      "minimum_exception_ports": 20,
+      "partner": 13,
+      "chain_union_mask": 609259081351246861336576
+    },
+    {
+      "receiver": 43,
+      "minimum_exception_ports": 19,
+      "partner": 21,
+      "chain_union_mask": 81763773353212140120896585072640
+    },
+    {
+      "receiver": 44,
+      "minimum_exception_ports": 18,
+      "partner": 5,
+      "chain_union_mask": 324518553696205668216267759157248
+    },
+    {
+      "receiver": 45,
+      "minimum_exception_ports": 19,
+      "partner": 2,
+      "chain_union_mask": 9680851866343524991640576
+    },
+    {
+      "receiver": 46,
+      "minimum_exception_ports": 20,
+      "partner": 1,
+      "chain_union_mask": 11529215046068469760
+    },
+    {
+      "receiver": 47,
+      "minimum_exception_ports": 19,
+      "partner": 80,
+      "chain_union_mask": 2372714708280704761856
+    },
+    {
+      "receiver": 48,
+      "minimum_exception_ports": 20,
+      "partner": 84,
+      "chain_union_mask": 1267650600523665537052241297408
+    },
+    {
+      "receiver": 49,
+      "minimum_exception_ports": 19,
+      "partner": 82,
+      "chain_union_mask": 318153083506424398373864865792
+    },
+    {
+      "receiver": 50,
+      "minimum_exception_ports": 18,
+      "partner": 11,
+      "chain_union_mask": 1307264681522399175829067137024
+    },
+    {
+      "receiver": 51,
+      "minimum_exception_ports": 22,
+      "partner": 2,
+      "chain_union_mask": 9680851866344624503259136
+    },
+    {
+      "receiver": 52,
+      "minimum_exception_ports": 18,
+      "partner": 23,
+      "chain_union_mask": 324518553658725335000961565851650
+    },
+    {
+      "receiver": 53,
+      "minimum_exception_ports": 20,
+      "partner": 24,
+      "chain_union_mask": 318153083505847937621594996736
+    },
+    {
+      "receiver": 54,
+      "minimum_exception_ports": 19,
+      "partner": 26,
+      "chain_union_mask": 162259276829250400994913505248256
+    },
+    {
+      "receiver": 55,
+      "minimum_exception_ports": 19,
+      "partner": 80,
+      "chain_union_mask": 2372712456489481019392
+    },
+    {
+      "receiver": 56,
+      "minimum_exception_ports": 20,
+      "partner": 4,
+      "chain_union_mask": 42501316430595134324736
+    },
+    {
+      "receiver": 57,
+      "minimum_exception_ports": 17,
+      "partner": 5,
+      "chain_union_mask": 1307264681488821885119764627456
+    },
+    {
+      "receiver": 58,
+      "minimum_exception_ports": 19,
+      "partner": 25,
+      "chain_union_mask": 324518553658430187095782213025794
+    },
+    {
+      "receiver": 59,
+      "minimum_exception_ports": 19,
+      "partner": 41,
+      "chain_union_mask": 47850780400552032
+    },
+    {
+      "receiver": 60,
+      "minimum_exception_ports": 17,
+      "partner": 24,
+      "chain_union_mask": 147621803335854063616
+    },
+    {
+      "receiver": 61,
+      "minimum_exception_ports": 21,
+      "partner": 18,
+      "chain_union_mask": 140737488355344
+    },
+    {
+      "receiver": 62,
+      "minimum_exception_ports": 21,
+      "partner": 1,
+      "chain_union_mask": 492581209243648
+    },
+    {
+      "receiver": 63,
+      "minimum_exception_ports": 19,
+      "partner": 38,
+      "chain_union_mask": 360499076422172672
+    },
+    {
+      "receiver": 64,
+      "minimum_exception_ports": 13,
+      "partner": 21,
+      "chain_union_mask": 318162766718943121540487708768
+    },
+    {
+      "receiver": 65,
+      "minimum_exception_ports": 16,
+      "partner": 26,
+      "chain_union_mask": 2545243708628462697580316393568
+    },
+    {
+      "receiver": 66,
+      "minimum_exception_ports": 16,
+      "partner": 25,
+      "chain_union_mask": 2545243708628462697580333105248
+    },
+    {
+      "receiver": 67,
+      "minimum_exception_ports": 17,
+      "partner": 42,
+      "chain_union_mask": 1307264681523553645446045892608
+    },
+    {
+      "receiver": 68,
+      "minimum_exception_ports": 18,
+      "partner": 33,
+      "chain_union_mask": 324518553658439414971418695172098
+    },
+    {
+      "receiver": 69,
+      "minimum_exception_ports": 20,
+      "partner": 10,
+      "chain_union_mask": 609185294375501242040320
+    },
+    {
+      "receiver": 70,
+      "minimum_exception_ports": 18,
+      "partner": 13,
+      "chain_union_mask": 634134787485696310962762547200
+    },
+    {
+      "receiver": 71,
+      "minimum_exception_ports": 14,
+      "partner": 26,
+      "chain_union_mask": 318153083524340280641498660960
+    },
+    {
+      "receiver": 72,
+      "minimum_exception_ports": 20,
+      "partner": 10,
+      "chain_union_mask": 594907988958342283264
+    },
+    {
+      "receiver": 73,
+      "minimum_exception_ports": 16,
+      "partner": 48,
+      "chain_union_mask": 649037146304711136183522204581920
+    },
+    {
+      "receiver": 74,
+      "minimum_exception_ports": 17,
+      "partner": 26,
+      "chain_union_mask": 154742509522421280787137536
+    },
+    {
+      "receiver": 75,
+      "minimum_exception_ports": 16,
+      "partner": 53,
+      "chain_union_mask": 4835703278483465090107936
+    },
+    {
+      "receiver": 76,
+      "minimum_exception_ports": 16,
+      "partner": 4,
+      "chain_union_mask": 10141514896094737908978017208320
+    },
+    {
+      "receiver": 77,
+      "minimum_exception_ports": 15,
+      "partner": 1,
+      "chain_union_mask": 634134806374585255078788072448
+    },
+    {
+      "receiver": 78,
+      "minimum_exception_ports": 16,
+      "partner": 4,
+      "chain_union_mask": 649056924038333958062042891026432
+    },
+    {
+      "receiver": 79,
+      "minimum_exception_ports": 16,
+      "partner": 16,
+      "chain_union_mask": 10141207219677476717980180023297
+    },
+    {
+      "receiver": 80,
+      "minimum_exception_ports": 18,
+      "partner": 24,
+      "chain_union_mask": 147718092726143551489
+    },
+    {
+      "receiver": 81,
+      "minimum_exception_ports": 17,
+      "partner": 51,
+      "chain_union_mask": 81129638584611875104044624120352
+    },
+    {
+      "receiver": 82,
+      "minimum_exception_ports": 18,
+      "partner": 2,
+      "chain_union_mask": 24948391283200
+    },
+    {
+      "receiver": 83,
+      "minimum_exception_ports": 14,
+      "partner": 2,
+      "chain_union_mask": 327063798613778351718997168750592
+    },
+    {
+      "receiver": 84,
+      "minimum_exception_ports": 16,
+      "partner": 7,
+      "chain_union_mask": 147718092726143552000
+    },
+    {
+      "receiver": 85,
+      "minimum_exception_ports": 14,
+      "partner": 41,
+      "chain_union_mask": 1267660271930798960235746820096
+    },
+    {
+      "receiver": 86,
+      "minimum_exception_ports": 15,
+      "partner": 12,
+      "chain_union_mask": 81129641078021380311017110637056
+    },
+    {
+      "receiver": 87,
+      "minimum_exception_ports": 17,
+      "partner": 2,
+      "chain_union_mask": 24197405858260367433535744
+    },
+    {
+      "receiver": 88,
+      "minimum_exception_ports": 16,
+      "partner": 51,
+      "chain_union_mask": 164804501195028673974564110925824
+    },
+    {
+      "receiver": 89,
+      "minimum_exception_ports": 18,
+      "partner": 42,
+      "chain_union_mask": 693045249
+    },
+    {
+      "receiver": 90,
+      "minimum_exception_ports": 17,
+      "partner": 18,
+      "chain_union_mask": 1267650600228229401498157629441
+    },
+    {
+      "receiver": 91,
+      "minimum_exception_ports": 14,
+      "partner": 33,
+      "chain_union_mask": 5070680376702070851763728039938
+    },
+    {
+      "receiver": 92,
+      "minimum_exception_ports": 14,
+      "partner": 30,
+      "chain_union_mask": 20440875609532065442660057286657
+    },
+    {
+      "receiver": 93,
+      "minimum_exception_ports": 16,
+      "partner": 42,
+      "chain_union_mask": 162893102129327478092335644870657
+    },
+    {
+      "receiver": 94,
+      "minimum_exception_ports": 15,
+      "partner": 51,
+      "chain_union_mask": 1303224045197134089076204525068288
+    },
+    {
+      "receiver": 95,
+      "minimum_exception_ports": 18,
+      "partner": 2,
+      "chain_union_mask": 1237940039287632075093492224
+    },
+    {
+      "receiver": 96,
+      "minimum_exception_ports": 14,
+      "partner": 13,
+      "chain_union_mask": 25455748955689034646962618368
+    },
+    {
+      "receiver": 97,
+      "minimum_exception_ports": 15,
+      "partner": 10,
+      "chain_union_mask": 22282920707136844948877281280
+    },
+    {
+      "receiver": 98,
+      "minimum_exception_ports": 16,
+      "partner": 1,
+      "chain_union_mask": 1465721006513890245482017505792
+    },
+    {
+      "receiver": 99,
+      "minimum_exception_ports": 17,
+      "partner": 1,
+      "chain_union_mask": 1305759346699822007427192410734592
+    },
+    {
+      "receiver": 100,
+      "minimum_exception_ports": 15,
+      "partner": 1,
+      "chain_union_mask": 475368975085588277361458070016
+    },
+    {
+      "receiver": 101,
+      "minimum_exception_ports": 14,
+      "partner": 52,
+      "chain_union_mask": 1303858179982258025122030798438464
+    },
+    {
+      "receiver": 102,
+      "minimum_exception_ports": 17,
+      "partner": 40,
+      "chain_union_mask": 3094850098213450687628492801
+    },
+    {
+      "receiver": 103,
+      "minimum_exception_ports": 15,
+      "partner": 43,
+      "chain_union_mask": 344766300940978407658951292294
+    },
+    {
+      "receiver": 104,
+      "minimum_exception_ports": 17,
+      "partner": 34,
+      "chain_union_mask": 162259431571718274064120962622614
+    },
+    {
+      "receiver": 105,
+      "minimum_exception_ports": 14,
+      "partner": 40,
+      "chain_union_mask": 1303224069375687518972123444941206
+    },
+    {
+      "receiver": 106,
+      "minimum_exception_ports": 12,
+      "partner": 33,
+      "chain_union_mask": 973555662221988392139684885574934
+    },
+    {
+      "receiver": 107,
+      "minimum_exception_ports": 14,
+      "partner": 42,
+      "chain_union_mask": 1303224199939638999748738820351126
+    },
+    {
+      "receiver": 108,
+      "minimum_exception_ports": 15,
+      "partner": 34,
+      "chain_union_mask": 39614081257132168796772005142
+    },
+    {
+      "receiver": 109,
+      "minimum_exception_ports": 13,
+      "partner": 33,
+      "chain_union_mask": 334687613357841234528905507911062
+    },
+    {
+      "receiver": 110,
+      "minimum_exception_ports": 15,
+      "partner": 40,
+      "chain_union_mask": 40564843385819733140752874606998
+    }
+  ],
+  "minimum_exception_ports": 12,
+  "maximum_exception_ports": 22,
+  "minimum_no_interaction_missing_ports": 39,
+  "maximum_single_chain_support": 18,
+  "source_history_support_caps": {
+    "1": 1,
+    "2": 2,
+    "4": 9,
+    "6": 12,
+    "7": 13,
+    "8": 111
+  },
+  "native_paid": {
+    "1": 1386,
+    "3": 62,
+    "5": 9,
+    "2": 1253,
+    "4": 47,
+    "6": 104,
+    "7": 10
+  },
+  "helper_targets": {
+    "8": 410,
+    "4": 25,
+    "6": 1,
+    "2": 1
+  },
+  "paired_paid": {
+    "1": 50340,
+    "3": 2232,
+    "5": 324,
+    "2": 45108,
+    "4": 1692,
+    "6": 3744,
+    "7": 804,
+    "14": 444,
+    "21": 444,
+    "28": 444,
+    "35": 444,
+    "42": 444,
+    "49": 444,
+    "56": 444
+  },
+  "paired_targets": {
+    "8": 15204,
+    "4": 900,
+    "6": 36,
+    "2": 36,
+    "127": 222,
+    "15": 444,
+    "22": 444,
+    "29": 444,
+    "36": 444,
+    "43": 444,
+    "50": 444,
+    "57": 444,
+    "64": 444
+  },
+  "limiting_complete_Q_allowance_bounds": [
+    "9730505281266914131477476902201969918029/6000000000000000000000000000000000000",
+    "810875440105576177623123075183497493277/500000000000000000000000000000000000"
+  ],
+  "fixed_cleanX_Y_nineHub_lower_bounds": [
+    "808021862316498434251259340128407587709/500000000000000000000000000000000000",
+    "808021862316498434251259340128407587891/500000000000000000000000000000000000"
+  ],
+  "limiting_extra_return_room_bounds": [
+    "34242933468932920462364820661078863391/6000000000000000000000000000000000000",
+    "5707155578155486743727470110179811127/1000000000000000000000000000000000000"
+  ],
+  "rank6_power_bounds": [
+    "185827727457713804786796301123796319/31250000000000000000000000000000000",
+    "5946487278646841753177481635961482209/1000000000000000000000000000000000000"
+  ],
+  "original_paired_margin_bounds": [
+    "-8881264328646792819694935433287537429/20000000000000000000000000000000000",
+    "-27753951027021227561546673229023549777/62500000000000000000000000000000000"
+  ],
+  "birth_dimension_profiles_at_most5": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      9
+    ],
+    [
+      0,
+      1,
+      0,
+      2
+    ],
+    [
+      0,
+      2,
+      0,
+      4
+    ],
+    [
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      10
+    ],
+    [
+      1,
+      1,
+      0,
+      3
+    ],
+    [
+      1,
+      2,
+      0,
+      5
+    ],
+    [
+      2,
+      0,
+      0,
+      2
+    ],
+    [
+      2,
+      1,
+      0,
+      4
+    ],
+    [
+      3,
+      0,
+      0,
+      3
+    ],
+    [
+      3,
+      1,
+      0,
+      5
+    ],
+    [
+      4,
+      0,
+      0,
+      4
+    ],
+    [
+      5,
+      0,
+      0,
+      5
+    ]
+  ],
+  "maximum_affordable_extra_input_union": 10,
+  "canonical_code_minimum_weight": 48,
+  "diagonal_zero_noncontact_restriction_minima": [
+    22,
+    19,
+    19,
+    20,
+    20,
+    20,
+    20,
+    18,
+    19,
+    21,
+    18,
+    20,
+    20,
+    20,
+    19,
+    21,
+    21,
+    21,
+    20,
+    20,
+    21,
+    20,
+    20,
+    20,
+    19,
+    19,
+    19,
+    20,
+    20,
+    22,
+    20,
+    20,
+    20,
+    20,
+    19,
+    20,
+    22,
+    22,
+    19,
+    23,
+    19,
+    19,
+    18,
+    19,
+    21,
+    20,
+    21,
+    21,
+    19,
+    19,
+    21,
+    18,
+    20,
+    18,
+    22,
+    20,
+    20,
+    20,
+    20,
+    20,
+    21,
+    20,
+    19,
+    21,
+    20,
+    21,
+    20,
+    20,
+    20,
+    20,
+    22,
+    22,
+    20,
+    20,
+    20,
+    20,
+    19,
+    22,
+    20,
+    20,
+    18,
+    18,
+    19,
+    21,
+    20,
+    20,
+    20,
+    20,
+    19,
+    20,
+    21,
+    19,
+    21,
+    19,
+    21,
+    19,
+    19,
+    20,
+    20,
+    19,
+    20,
+    20,
+    20,
+    19,
+    20,
+    20,
+    20,
+    22,
+    22,
+    22,
+    20
+  ],
+  "minimum_diagonal_zero_noncontact_weight": 18,
+  "negative_controls": {
+    "pooling_incomparable_chart_supports_recovers_every_full_contact_set": true
+  },
+  "scope": "Fixed clean-X, stationary caches, nine unchanged canonical/gauge packets, monotone publicY coding, extra fresh single-birth returns. Mutable payloads/changed source excluded. Arbitrary-decoder corollary separate."
+}

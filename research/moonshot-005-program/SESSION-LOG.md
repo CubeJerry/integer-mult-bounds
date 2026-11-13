@@ -920,3 +920,23 @@ rebased over A004. Both sets of append-only research records and all scientific
 files were preserved. The supplemental .004 feasibility assessment remains
 distinct from the primary .005 construction; no selected certificate changed.
 CP5's scientific baseline is CP4, while its publication parent is A004.
+
+## 2026-11-13-S010 — checkpoint6, continuing (2026-11-13 07:51:15 UTC)
+
+Starting this checkpoint from confirmed 6588822b49ff320bf31ebc8846db8a61a3f02c5f, full tree
+222f3759ac0c92ef6f52ab148a13d5a5f0410255. The ten-hour session remains active
+toward13:27:03UTC. Proved and independently reviewed global scalar BIT rank-nine
+rigidity, invertible-Schur block rigidity, formal noncommuting gauge rigidity,
+proper-facet code shortening and the literal sharp one-facet partial rail.
+Completed the clean-source arbitrary-public-Y cache obstruction and its full
+fresh-return budget gate: required12 versus affordable10 support ports.
+The price review corrected a display ceiling; its exact certificate was sound.
+
+All prior scientific bytes are preserved. Main unchanged; #7480 remains an
+open source lead. A004's lower-target package is preserved and replayed, with
+no new supplier imported. The scalar finite-search frontier is superseded by
+proof; noncommuting singular-Schur blocks remain open. Next constructive wave:
+mutable funded BIT packets, decoder-robustness of the gate, and complex coupled
+entry/late access respecting the physical half-forward Schur equation.
+No new κ or PR readiness. Resulting remote SHA is recorded after confirmation
+in the next receipt, never self-referentially in this commit.
