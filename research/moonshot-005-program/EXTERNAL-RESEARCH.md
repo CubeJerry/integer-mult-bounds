@@ -503,3 +503,12 @@ the user's .004 milestone. Credit to Clear1nsight's #7334/#7314 and Rohan
 Arun's #7277/#7113 lineage is preserved. No source histories were merged.
 
 See the [assessment source pins](results/kappa-004-feasibility/SOURCE-PINS.json).
+
+## S010 checkpoint5 compatibility note
+
+The actual paired-query-only BIT native/E-free caller supplies the source and
+paired-profile dependency. DreamingOfClouds' root lineage, @CubeJerry's QUERY
+work, zxv and retained native authors keep explicit credit. No new upstream
+package or selected certificate change is imported. The complex and BIT
+parity certificates use different real-root contact conventions and are never
+identified. Canonical main remains the recorded baseline at this checkpoint.

@@ -1,0 +1,256 @@
+{
+  "status": "PASS_INDEPENDENT_BIT_NINE_RAIL_AND_M4_AUDIT",
+  "source_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "frozen_author_manifest_sha256": "7077d239b0795a92735f2cd8bd8a909b3c4da6c527c0b37060f8da2c536ca0d5",
+  "baseline_profile_receipt_sha256": "3fb13f8072e0d8b2ff9cead7754533cf95fe5079f144857e558da719d3a533f0",
+  "source_root_norms_before_common_scaling": {
+    "1": 8,
+    "4": 103
+  },
+  "source_projective_roots": 111,
+  "generated_full_E8_root_lines": 120,
+  "source_root_span_rank": 8,
+  "binary_gram_rank": 8,
+  "contact_plus_identity_rank": 9,
+  "fitting_encoder_source_rows": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    9,
+    14,
+    30,
+    59
+  ],
+  "all_111_decoder_masks_exact": true,
+  "receiver_facet_checks": 111,
+  "off_diagonal_contact_identity": true,
+  "contact_plus_identity_diagonal_is_not_a_self_contact": true,
+  "residual_rank": 108,
+  "residual_nonzero_coefficients": 6470,
+  "residual_nonzero_receiver_rows": 111,
+  "native_endpoint_replay": {
+    "operations": 34137,
+    "instruction_counts": {
+      "ADD": 30789,
+      "CLEAR": 237,
+      "INIT": 237,
+      "MOVE": 2871,
+      "SWAP": 3
+    },
+    "paid_profile": {
+      "1": 1386,
+      "2": 1253,
+      "3": 62,
+      "4": 47,
+      "5": 9,
+      "6": 104,
+      "7": 10
+    },
+    "move_count": 2871,
+    "retired_lifetimes": 237,
+    "peak_owned": 237,
+    "public_inputs_replayed": 659,
+    "distinct_nested_move_pairs": 2374,
+    "swaps": [
+      [
+        34127,
+        331,
+        656,
+        1,
+        506
+      ],
+      [
+        34131,
+        334,
+        657,
+        1,
+        506
+      ],
+      [
+        34136,
+        341,
+        658,
+        1,
+        374
+      ]
+    ]
+  },
+  "rail_replay": {
+    "operations": 1267,
+    "instruction_counts": {
+      "ADD": 1018,
+      "CLEAR": 9,
+      "INIT": 9,
+      "MOVE": 231
+    },
+    "paid_profile": {
+      "7": 222,
+      "8": 9
+    },
+    "move_count": 231,
+    "retired_lifetimes": 9,
+    "peak_owned": 1,
+    "public_inputs_replayed": 222,
+    "distinct_nested_move_pairs": 223,
+    "swaps": []
+  },
+  "m4_replay": {
+    "operations": 39270,
+    "instruction_counts": {
+      "ADD": 35175,
+      "CLEAR": 264,
+      "INIT": 264,
+      "MOVE": 3564,
+      "SWAP": 3
+    },
+    "paid_profile": {
+      "1": 1386,
+      "2": 1253,
+      "3": 62,
+      "4": 47,
+      "5": 9,
+      "6": 104,
+      "7": 676,
+      "8": 27
+    },
+    "move_count": 3564,
+    "retired_lifetimes": 264,
+    "peak_owned": 237,
+    "public_inputs_replayed": 1325,
+    "distinct_nested_move_pairs": 2596,
+    "swaps": [
+      [
+        34793,
+        331,
+        656,
+        1,
+        506
+      ],
+      [
+        34797,
+        334,
+        657,
+        1,
+        506
+      ],
+      [
+        34802,
+        341,
+        658,
+        1,
+        374
+      ]
+    ]
+  },
+  "m4_exact_map": "common=(F u0)+sum_{k=1..3}(F-Q)u_k; private_k=Q u_k; helpers=h",
+  "screen_history_negative_control": {
+    "X_to_nonX_ADD_count": 1702,
+    "distinct_pure_X_history_count": 1027,
+    "history_X_row_mismatches_vs_actual_native": 670,
+    "histories_with_foreign_input_contamination": 914,
+    "histories_clean_and_equal": 111,
+    "scope": "The screen's X-only subword is a valid new independent circuit; its recorded intermediate rows are not generally actual native field values. The emitted Q does not reuse them."
+  },
+  "paired_caller_profile_crosscheck": {
+    "native_paid": {
+      "1": 1386,
+      "2": 1253,
+      "3": 62,
+      "4": 47,
+      "5": 9,
+      "6": 104,
+      "7": 10
+    },
+    "helper_target": {
+      "2": 1,
+      "4": 25,
+      "6": 1,
+      "8": 410
+    },
+    "paired_paid_formula_matches_reviewed_receipt": true,
+    "paired_target_formula_matches_reviewed_receipt": true,
+    "caller_event_replay": "Not repeated: EFREE-CALLER.json.gz is absent from this checkout. The independently reviewed hash-pinned RESULT profile was checked exactly against N/H and the stated histogram formulas."
+  },
+  "moment_intervals_199_over_200": {
+    "original_paired_margin": [
+      "-4722090073441297130365094763265753343307/10633823966279326983230456482242756608",
+      "-75553441175060754085841516212252053455403/170141183460469231731687303715884105728"
+    ],
+    "Q_moment": [
+      "547925686706267440811939899290608732186781/340282366920938463463374607431768211456",
+      "136981421676566860202984974822652183046753/85070591730234615865843651857942052864"
+    ],
+    "limiting_Q_allowance": [
+      "413889921055774700078774321725911011356879/255211775190703847597530955573826158592",
+      "3311119368446197600630194573807288090856327/2041694201525630780780247644590609268736"
+    ],
+    "limiting_remaining_completion_room": [
+      "11782624104296477879277589031817848866507/1020847100762815390390123822295304634368",
+      "23565248208592955758555178063635697735587/2041694201525630780780247644590609268736"
+    ],
+    "mcopy_conditional_complete_margin": [
+      "68266896351137923870577543180234613052107/170141183460469231731687303715884105728",
+      "8533362043892240483822192897529326635305/21267647932558653966460912964485513216"
+    ]
+  },
+  "fixed_even_m_remaining_completion_room": {
+    "2": [
+      "-809616091546981135029330336890826715645/1020847100762815390390123822295304634368",
+      "-809616091546981135029330336890826708107/1020847100762815390390123822295304634368"
+    ],
+    "4": [
+      "22755632117045974623525847726744871017369/3062541302288446171170371466885913903104",
+      "2844454014630746827940730965843108878435/382817662786055771396296433360739237888"
+    ],
+    "6": [
+      "15440293441879643460693675263460189583461/1701411834604692317316873037158841057280",
+      "15440293441879643460693675263460189587689/1701411834604692317316873037158841057280"
+    ],
+    "8": [
+      "69886128534231886140636203854016266483397/7145929705339707732730866756067132440576",
+      "34943064267115943070318101927008133249327/3572964852669853866365433378033566220288"
+    ],
+    "16": [
+      "164147121368603709174856916108559057415453/15312706511442230855851857334429569515520",
+      "82073560684301854587428458054279528720501/7656353255721115427925928667214784757760"
+    ],
+    "32": [
+      "352669107037347355243298340617644639279565/31646260123647277102093838491154443665408",
+      "176334553518673677621649170308822319662849/15823130061823638551046919245577221832704"
+    ]
+  },
+  "negative_controls": {
+    "K_diagonal": "1 by J augmentation, but g_i is not orthogonal to itself; RAIL removes I before calling K+I the residual.",
+    "value_only_swap": {
+      "native_endpoint_mismatches": 0,
+      "wrong_endpoint_chart_count": 6,
+      "source_swaps": [
+        [
+          34127,
+          331,
+          656,
+          1,
+          506
+        ],
+        [
+          34131,
+          334,
+          657,
+          1,
+          506
+        ],
+        [
+          34136,
+          341,
+          658,
+          1,
+          374
+        ]
+      ]
+    },
+    "partial_Q": "6470 missing K+I coefficients and residual rank108 remain; no completion credit is included."
+  },
+  "scope": "Exact scalar source/rail and m4 partial map plus conditional even-m profile arithmetic. No completed Q, supplier, ordinary/compiler/precision bill, physical all-width admission, or new kappa."
+}

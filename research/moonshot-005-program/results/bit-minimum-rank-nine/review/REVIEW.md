@@ -1,0 +1,21 @@
+# Independent review: actual BIT rank9V fitting and chronological cut
+
+PASS. Reviewed author proof SHA256 `669c8441a7f5d65e4c483f2d444160d365f754dbe5789b5588c3c0d6dad7e1cc`. Source-bound algebra only; no complete rail or physical theorem.
+
+Source: `research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz`, SHA256 `51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78`. Its111 X entrance lines and Y exit facets use rational8-space. Foreign contact means REAL ORTHOGONALITY. This is distinct from the complex96/104 native's opposite forbidden-zero relation.
+
+The independent verifier imports no author code. Fraction arithmetic normalizes actual roots to integral v_i of norm4, checks even inner products, and reconstructs all12,210 actual offdiagonal line-to-facet contacts. Exactly6,470 are contacts. The matrix B_ij=(v_i dot v_j)/2 mod2 has rank8, and K=J+B has rank9, diagonal1, and offdiagonal1 precisely at actual contacts. Rank is unchanged over characteristic-two extension fields; K tensor I_V fits at rank9V.
+
+The root-discovered nine frames are copied literally into verify.py and RESULT.json. Each contains eight distinct actual roots, pairwise REAL NONorthogonal; hence every fitting's corresponding principal block is identity. All576 ordered entries are checked. The72 incidences use26 roots:18 occur twice,6 four times and2 six times. Every multiplicity is even. Duplicate-root and even-frame-collection mutants are rejected. No complete clique census is needed.
+
+For ANY fitting A with identity V-block diagonals, factor A=CR at its actual rank r. Every frame f gives C_f R_f=I_(8V), so P_f=R_f C_f is idempotent of rank8V. Its complement Q_f has rank r-8V. Even incidences give sum P_f=0 in characteristic two, and nine is odd, so sum Q_f=I_r. Rank subadditivity yields r<=9(r-8V), hence r>=9V. No symmetry, positivity, commuting coefficients, scalar-tensor form or divisibility of r by V is assumed. The explicit upper bound therefore proves EXACT minimum fitting rank9V for every characteristic-two field and every V>=1.
+
+The chronological cut argument is valid under its stated linear interface. Independent x_i start only at L_i; outputs at F_i have total x-map identity. Every uncut information operation must be same-chart arithmetic/copying, erasure, whole(chart,value) role renaming, or ascent to a containing chart. In particular, copying must be local; free cross-chart copies would violate the monotone-path premise. Every unlisted input-dependent side source is excluded, and other inputs are independent and fixed to zero.
+
+Replace each cut output by an independent z_e of dimension w_e. Chronology gives a well-defined open network y=M0 x+sum A_e z_e. Each coefficient block M0_ij vanishes unless a monotone chart path can connect L_j to F_i, so it vanishes whenever L_j is not contained in F_i, including the diagonal. In the actual closed word, z_e=C_e x denotes its FULL dependence on original x, including all previous cut transfers. Substituting these actual values is an identity, even with later cuts depending on earlier cuts. Consequently I-M0=sum A_e C_e is a fitting, and 9V<=rank(I-M0)<=sum w_e. No independence of actual cut values or disjoint supports is required. Each actual transfer is counted once.
+
+This is an information-dimension bound. It does not force rank8 routes, nine physical transfers, or9V newly paid capacity when the common native already funds some channels. Fragmented transfer outputs may be counted only with their actual dimensions; their tariff needs a separate proof. The theorem applies to a complete network at the declared source interface, not automatically to an isolated decoder supplied with free pre-encoded side information.
+
+The partial root rail still has residual K+I, including all6,470 foreign coefficients, and shared outputs retain the propagated residual. Physical all-width maps, owned erasure, ordinary compiler/storage recount, precision, analytic recovery and both strict suppliers remain separate.
+
+Reproduce: `python3 -I -B verify.py --repo REPO --output OUT`. Python -O is explicitly rejected. Credit: @CubeJerry and retained BIT/native authors; root's fitting, parity search and cut proof; worker B's independent exact geometry and all-volume audit; OpenAI-assisted research.

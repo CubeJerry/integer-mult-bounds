@@ -781,3 +781,26 @@ A sufficient hypothetical final .00401 specification is C=.00403,
 rho=.00404, B=.00402, U=.0041. Its wrapper A=.0040292828192 and outer
 gap 1/700000 are exact. Both new suppliers and physical admission remain
 open; this adds no complete conditional kappa and discharges no foundation.
+
+## S010 checkpoint5 — exact BIT reverse engineering and closed nine-field scope
+
+For actual BIT source profiles N,H and the pinned complete paired E-free caller
+P2,T2, a complete compatible private Q at fixed even m would give
+P_m=(m/2)P2-18(m-1)N+18(m-1)Q_paid and T_m=(m/2)T2-18(m-1)H. Thus at t=.995,
+Q_t<(N-H)_t+m*(T2-P2)_t/(36*(m-1)). The paired margin is
+-444.063216432339640984...; limiting Q allowance1621.750880211152355246... .
+Current partial Q={7:222,8:9} costs1610.208873484099834342... . Its correction
+room is7.430310278604931634... at m4, at most11.542006727052520903... in the
+limit. Productive targets remain conditional on correcting rank108/6470 foreign
+coefficients; every fixed m also needs a fresh ordinary/physical/storage recount.
+
+Actual BIT fitting dimension is exactly9V for all characteristic-two fields
+and volumes. Neither eight modes nor fractional block rank below9V can rescue
+this same fitting interface. The chronological cut theorem gives information
+dimension only; it does not force rank8 routes or newly paid capacity.
+
+The complex exactly-nine fresh-return bound is8*9^t, including eligible-line
+births. At t=.995, allowing up to nine still selects the smaller sharp J8,
+leaving the existing .253110684956... limiting deficit plus d/(m-1).
+Both strict complex U>.005 and completed ordinary BIT B>.005 remain required.
+Full details and exact rational certificates are in the new result admissions.

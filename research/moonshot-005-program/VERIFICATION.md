@@ -769,3 +769,22 @@ Expected: PASS_INTERMEDIATE_004_ASSESSMENT_THREE_PACKAGES_AND_SOURCE_CONTROLS.
 This is exact source-bound arithmetic and a scoped proof specialization,
 not a new native replay, physical provider, admitted supplier or complete
 multiplication theorem. All foundations remain.
+
+## S010 checkpoint5 — independent source, parity, word and star reviews
+
+Root checks the complex parity witness with set-intersection Gram formulas.
+Worker B reconstructs every actual BIT contact and reviews the all-V rank/cut
+proof. Worker C independently checks636 BIT frames, all659 native inputs,
+the222-input rail,1325-input m4 word and exact even-m price bounds. Controls
+cover native helper contamination and unequal-chart SWAP semantics. The paired
+caller profiles inherit a pinned prior independent receipt; absent caller
+event payloads are not claimed rerun.
+
+Root reviews both fresh-nine proofs. Explicit CLARIFICATIONS.md closes two
+zero-outer-projection branches. Independent first8 Q9 coordinates and prime1009
+minors verify48 disjoint root bases and two disjoint36-projector bases, unlike
+the author's B8/65537 certificate. All511 line ranks and96 relevant profiles
+agree. A54-root rank7 example at line473 disproves the abandoned cap35 claim.
+Five final-path receipts are byte-identical; CHECKPOINT5-VALIDATION.json records
+their hashes. Frozen bytes are preserved. The BIT path adapter changes no
+review logic. Solver leads are outside these admitted theorems. No new κ.

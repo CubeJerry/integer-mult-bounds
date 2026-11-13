@@ -1,3 +1,30 @@
+## S010 checkpoint5 — complete nine-field gate and an actual BIT interface
+
+The complex fresh-return gap at eligible lines is closed through nine fields.
+Exactly nine informative fields cost at least8*9^t for all characteristic-zero
+fields, V>=1 and0<t<=1 in the unchanged-D single-chart interface. Shared-center
+stars and all incomparable profiles are covered. At t=.995 the at-most-nine
+optimum is the earlier J8=70.872631795422..., still above complete allowance
+by.253110684956... plus the finite-m penalty. Changed current rows, multi-chart
+assembly, useful funded observations and ten or more packets remain outside.
+
+The distinct actual111-port BIT graph has exact minimum fitting rank9V over
+every characteristic-two field and V, attained by an explicit binary fitting.
+Its chronological cut corollary bounds information dimension under local-copy
+and monotone-uncut-path hypotheses. The complex graph separately has a
+characteristic-two>=9V obstruction. Their opposite real-root frame conventions
+are checked separately; no physical price follows from rank alone.
+
+The literal222-input BIT partial rail and1325-input m4 shared-native word pass
+independent all-input, chart and lifecycle review. The rank108/6470-coefficient
+residual remains. Exact conditional even-m accounting leaves7.4303102786049316...
+for completion at m4, and at most11.5420067270525209... in the limit.
+Constructive work continues on earlier coupled complex response and on genuine
+BIT donor caches/receiver coding. A finite F2 alternative-fitting UNSAT and
+GF4 timeout are unadmitted leads, not universal rigidity. See the four new
+result admissions. **No new κ; both strict suppliers and all five foundations
+remain. Active ten-hour session; ongoing programme, not PR-ready.**
+
 ## S010 checkpoint4 — actual returned information and a larger fresh-packet gate
 
 The cotangent packet-cycle interface is now independently admitted. A used

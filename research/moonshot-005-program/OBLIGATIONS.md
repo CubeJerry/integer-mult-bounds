@@ -650,3 +650,25 @@ independent input and its complete finite-m paid profile, together with the
 separate characteristic-two provider and subsequent supplier admission.
 No new complete kappa; earlier source restrictions and all five foundations
 remain explicit.
+
+## S010 checkpoint5 — updated dependency nodes
+
+* FRESH-NINE-COMPLETE: proved for every char0 field and V in the declared
+  unchanged-D single-birth interface; all eligible-line/comparability cases
+  closed. Exactly9 costs>=8*9^t; at most9 has J8 optimum only asserted at t=.995.
+* CHAR2-COMPLEX-PARITY: proved source-bound >=9V, with no rank9 attainment claim.
+* BIT-MINIMUM-RANK-NINE: proved exact9V for every char2 field and V, plus a
+  chronological cut bound requiring local copying and monotone uncut paths.
+* BIT-EVEN-M-SHARING: proved finite222/1325-input partial words; general fixed-even-m
+  completion is conditional on an actual complete Q. Profiles/intervals reviewed.
+* BIT-CURRENT-ROW-DECODER: open. Correct K+I using genuine private donor caches
+  and one compatible receiver schedule/circuit within the complete budget.
+  Clean extracted subword histories are not actual contaminated native payloads.
+* BIT-RANK9-SUPPORT-RIGIDITY: unresolved beyond finite F2 solver evidence and a
+  GF4 timeout; no arbitrary-field/block rigidity is admitted.
+
+Exact propositions, dependencies, proofs, controls and independent reviews are
+in results/fresh-nine-acquisition-gate/, characteristic-two-complex-parity/,
+bit-minimum-rank-nine/ and bit-rank-nine-shared-interface/. All previous scoped
+results remain valid; earlier entries calling the nine-line case open are
+superseded within the stated interface, not silently generalized.

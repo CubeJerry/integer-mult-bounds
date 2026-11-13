@@ -892,3 +892,31 @@ Package: [kappa-004-feasibility](results/kappa-004-feasibility/README.md). Final
 reported only after GitHub confirmation, avoiding a self-referential commit
 claim. Next: actual earlier complete joint Q and the distinct BIT provider
 inside this lower-target budget. Ongoing programme; no upstream PR.
+
+## 2026-11-13-S010 — checkpoint5, session continuing (2026-11-13 06:35:40 UTC)
+
+Confirmed parent 8533bc2640e0ec002bb16ba85997480ce3c3cac6, tree3f1a89efca35fe1d3be50782cf31649db35ab86b.
+Session remains active toward13:27:03UTC. All earlier scientific bytes survive.
+Constructed/reviewed actual BIT rank-nine Q and m4 sharing, complete conditional
+even-m budgets, exact all-volume BIT fitting rank and chronological cut proof.
+Reviewed the separate complex char2 parity obstruction. Completed the complex
+fresh-nine gate via comparable stars and robust quadratic spanning, preserving
+the sharp at-most-nine J8 distinction and54-root line counterexample.
+Two zero-projection proof branches are clarified explicitly.
+
+F2 alternative-fitting search returned UNSAT; GF4 timed out. These are unadmitted
+finite leads. Next work: coherent earlier coupled complex response, genuine
+BIT cached donor/receiver code and universal rank-nine equality structure.
+No new complete κ, supplier, foundation discharge, upstream PR or PR readiness.
+Resulting remote SHA is recorded only after confirmation in the next receipt.
+
+
+### Concurrent-update reconciliation before checkpoint5 publication
+
+The expected-parent check discovered A004 commit
+29a02657421eca85e05b122564a0e7c3813bbc9a, based on the same confirmed CP4.
+The unpublished local CP5 commit was retained at a local checkpoint ref and
+rebased over A004. Both sets of append-only research records and all scientific
+files were preserved. The supplemental .004 feasibility assessment remains
+distinct from the primary .005 construction; no selected certificate changed.
+CP5's scientific baseline is CP4, while its publication parent is A004.

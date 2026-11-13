@@ -1,3 +1,21 @@
+# Current continuation — S010 checkpoint5
+
+Resume exact remote HEAD; parent baseline 8533bc2640e0ec002bb16ba85997480ce3c3cac6.
+Session active03:27:03–13:27:03UTC on13 November2026. Read the four new result
+ADMISSION.md files listed in STATE.s010.checkpoint5. All fresh-return birth
+placements through nine fields are now closed in the unchanged-D single-chart
+class. Do not reopen that gap. Exactly9 costs>=8*9^t; at most9 has J8 optimum
+only asserted at t=.995. Changed current/multi-chart/funded interfaces remain.
+
+Actual BIT minimum fitting rank is9V for all char2 fields and V. Its literal Q
+still has rank108/6470 foreign debt; m4 room7.4303102786, limit11.5420067271.
+Next: genuine stationary donor caches and one nested receiver path/code, or
+another complete Q. The clean extracted X word is a newly executed private
+circuit, not clean native history. Complex coupled response remains primary.
+F2 solver UNSAT and GF4 timeout do not prove universal fitting rigidity.
+All five foundations and both strict suppliers remain; no new κ, not PR-ready.
+Earlier continuation sections are historical and superseded here.
+
 # Current continuation — S010 checkpoint4
 
 Resume exact remote HEAD; parent baseline is e9568f235c5544dc6dae3ac96eb7649eac2e8c7d.

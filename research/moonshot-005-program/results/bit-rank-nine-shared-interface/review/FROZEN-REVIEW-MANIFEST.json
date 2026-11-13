@@ -1,0 +1,38 @@
+{
+  "status": "PASS_INDEPENDENT_BIT_NINE_RAIL_AND_M4_AUDIT",
+  "scope": "Exact scalar rail/M4 replay, actual source E8/contact geometry, contamination negative control, and conditional even-m profile arithmetic. No complete Q or supplier claim.",
+  "reproduction": "python3 -I -B worker-c/check_bit_nine.py --repo . --output worker-c/bit-nine-review/RESULT.json",
+  "files": {
+    "worker-c/check_bit_nine.py": "094b6927d702414f53bbe58435bff1518a1be6916c2f148415eb7f8cf796a228",
+    "worker-c/bit-nine-review/RESULT.json": "31b076682a331e8647fc672276e6fa7427aee9af08bbdb00cc248c2008a69e84",
+    "worker-c/bit-nine-review/REVIEW.md": "2c67d6580297bf8c68e0a2035ffe81d1de8ffe177b5eb9e08567c55c11a32aee",
+    "root-work/bit-nine/MANIFEST.json": "7077d239b0795a92735f2cd8bd8a909b3c4da6c527c0b37060f8da2c536ca0d5",
+    "root-work/bit-nine/PROOF.md": "30020d2b26e9d9fd1453e52287514fd9a5111a8dba806f82004ecaa8441a71af",
+    "root-work/bit-nine/build_bit_nine_rail.py": "a28c7e8037ae99b6aecf21a62a4f784c906016d5e12f100826062cf3d602c5b1",
+    "root-work/bit-nine/RAIL.json.gz": "ba7abd98c398fbad14411f7da1095872258a329756ca8a0340a31f8b274556ed",
+    "root-work/bit-nine/RAIL-RESULT.json": "678e56ee045e8fb285f04886a3a2cc77b1d378076d5edb56c6499215b8e417cb",
+    "root-work/bit-nine/M4-WORD.json.gz": "5728daa47cb3867be3724d8b690ca8a00ef6de6f9369e7298ed15765496c9a32",
+    "root-work/bit-nine/M4-RESULT.json": "2e33a893a6c5421afc49284c25cf218f0b44fde101e76f30c9b853cd4ab6ba77",
+    "root-work/bit-nine/BUDGET.json": "92ab5d5cc08933f46c7eedb195f8d5f4e68a27dc189e6f8594876f70846db152",
+    "programme/research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+    "programme/research/moonshot-005-program/results/bit-query-budget/RESULT.json": "3fb13f8072e0d8b2ff9cead7754533cf95fe5079f144857e558da719d3a533f0",
+    "programme/research/moonshot-005-program/results/bit-query-budget/review/REVIEW.md": "629a02324cd249e63ee21904867710ace396983f5818251ab94e8d7531536dec",
+    "programme/research/moonshot-005-program/results/bit-query-budget/review/RESULT.json": "52c575a847d77578e0d9244c3653743d13ede01d0069ba2da164751d8f673995",
+    "programme/research/moonshot-005-program/results/bit-query-budget/review/review.py": "cb8a631f642bb07aa5b343318dc6d0264877f4e52366fa0696c2fd38a7bff0d4"
+  },
+  "exact_replay": {
+    "source_public_inputs": 659,
+    "E8_projective_lines_generated": 120,
+    "binary_Gram_rank": 8,
+    "fitting_rank": 9,
+    "rail_operations": 1267,
+    "m4_operations": 39270,
+    "m4_public_inputs": 1325,
+    "m4_paid_moves": 3564,
+    "residual_rank": 108,
+    "residual_ones": 6470,
+    "screen_history_X_row_mismatches": 670,
+    "screen_history_foreign_contamination": 914,
+    "caller_source_limit": "EFREE-CALLER.json.gz and EFREE-RESULT.json are absent; caller histograms were checked against the pinned prior receipt rather than replayed from events."
+  }
+}

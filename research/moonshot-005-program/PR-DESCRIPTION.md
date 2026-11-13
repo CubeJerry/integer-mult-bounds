@@ -699,3 +699,22 @@ review and negative controls are included. @CubeJerry and predecessor credit
 and substantial AI-assistance disclosure are retained. **No new kappa.**
 The branch remains an ongoing programme and is not declared PR-ready by this
 assessment; no upstream PR was submitted.
+
+## S010 added integrated contribution
+
+The [actual BIT interface](results/bit-rank-nine-shared-interface/ADMISSION.md)
+now includes a literal rank-nine partial rail,1325-input m4 word and exact
+conditional even-m profiles, retaining every residual and helper-credit loss.
+The [BIT rank theorem](results/bit-minimum-rank-nine/ADMISSION.md) proves exact9V
+at every char2 field/volume, with a chronological information-cut corollary.
+The [complex parity theorem](results/characteristic-two-complex-parity/ADMISSION.md)
+uses its distinct source graph. Independent source/proof reviews are retained.
+
+The [complete fresh-nine gate](results/fresh-nine-acquisition-gate/ADMISSION.md)
+handles eligible lines, shared-center stars and the final quadratic-span case.
+At t=.995 the at-most-nine optimum remains J8 and misses the full target tariff.
+Source pins, zero-projection clarifications, reproduction commands, independent
+1009-minor certificates and negative controls are included. All work credits
+@CubeJerry and retained predecessors and discloses substantial AI assistance.
+**No new κ.** Both strict suppliers and all five foundations remain. The
+cumulative programme is ongoing, not PR-ready; no upstream PR is submitted.
