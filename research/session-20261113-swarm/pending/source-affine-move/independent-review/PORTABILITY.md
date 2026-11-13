@@ -1,0 +1,1 @@
+Original independent source checker is preserved as executed. A portable derivative using a bundled pinned archive and explicit recipe argument is being prepared in publication/source-affine. Its mathematical functions must remain identical. Do not mistake these workspace-specific original paths for final portable replay.

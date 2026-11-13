@@ -1,3 +1,3 @@
-# Frozen candidate, publication review pending
+# Published verified translation primitive
 
-Author source is frozen at de2753cb42a012e07aa7ace263bedce5c4be8506ae30ab768af9e165a6edd6e0. Root proof/source review and independent physical mask292 test passed. C independent all-mask algebra review remains active. No upstream PR or selected admission.
+Independent matrix review, author normal/O and root physical execution passed. All five registered receipts match. Published branch research/literal-fixed-mask-native-translation-20261113 at28b0d1c94cb5de5acd4649dae29388cbcd499dd4; all56remote additions and full/compactprefillURLs checked. See notes/affine-generic-publication.json. No selected assumption or kappa change.
