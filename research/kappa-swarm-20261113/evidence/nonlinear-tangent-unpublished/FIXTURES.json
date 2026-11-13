@@ -1,0 +1,132 @@
+{
+  "status": "PASS_EXACT_POSITIVE_SCOPE_AND_BLOCK_FIXTURES",
+  "scalar_positive_points": 5,
+  "records": [
+    {
+      "fixture": "nonlinear_scalar_graph_two_caches_one_zero",
+      "tested_rational_points": 5,
+      "all_same_tangent_dependencies": true,
+      "retained_submersion_and_J_pivots": true
+    },
+    {
+      "fixture": "real_cubic_at_zero",
+      "counterexample_to": "fixed-point lift without locally constant observation rank",
+      "bad_observation_rank": 0,
+      "target_differential_rank": 1
+    },
+    {
+      "fixture": "complex_smooth_graph_cusp_observation",
+      "global_decoder": "z/y away from origin,0 at origin",
+      "counterexample_to": "using arbitrary critical point"
+    },
+    {
+      "fixture": "complex_conjugation_graph",
+      "real_block_factor": true,
+      "complex_scalar_tangent_inference_rejected": true,
+      "does_not_refute_real_block_lift": true
+    },
+    {
+      "fixture": "smooth_graph_t_squared_t_at_zero",
+      "counterexample_to": "funding without retained-coordinate submersion"
+    },
+    {
+      "fixture": "two_bit_exact_grid",
+      "deterministic_decoder_injective": true,
+      "continuous_linear_lift_impossible": true
+    },
+    {
+      "fixture": "nonregular_digit_graph_prefixes",
+      "prefixes_1_through_5_injective_cardinalities": [
+        4,
+        16,
+        64,
+        256,
+        1024
+      ],
+      "infinite_graph_statement_proved_in_notes": true
+    },
+    {
+      "fixture": "characteristic7_Frobenius",
+      "pointwise_bijection": true,
+      "formal_observation_derivative": 0,
+      "excluded_from_char0_theorem": true
+    },
+    {
+      "fixture": "noncommuting_block_graphs_and_partial_output_guard",
+      "cases": [
+        {
+          "D": 1,
+          "noncommuting": false,
+          "full_relation_rank": 1,
+          "actual_prefix_ranks": [
+            1,
+            1,
+            1
+          ],
+          "generic_prefix_ranks": [
+            1,
+            1,
+            1
+          ],
+          "actual_W_basis_price": "1",
+          "generic_gamma": "1",
+          "whole_debited_field_price": "4",
+          "partial_output_control_rejected": false
+        },
+        {
+          "D": 2,
+          "noncommuting": true,
+          "full_relation_rank": 2,
+          "actual_prefix_ranks": [
+            1,
+            2,
+            2
+          ],
+          "generic_prefix_ranks": [
+            2,
+            2,
+            2
+          ],
+          "actual_W_basis_price": "2",
+          "generic_gamma": "1",
+          "whole_debited_field_price": "4",
+          "partial_output_control_rejected": true
+        },
+        {
+          "D": 3,
+          "noncommuting": true,
+          "full_relation_rank": 3,
+          "actual_prefix_ranks": [
+            2,
+            3,
+            3
+          ],
+          "generic_prefix_ranks": [
+            3,
+            3,
+            3
+          ],
+          "actual_W_basis_price": "5/3",
+          "generic_gamma": "1",
+          "whole_debited_field_price": "4",
+          "partial_output_control_rejected": true
+        }
+      ]
+    },
+    {
+      "fixture": "tensor_Laplace_overlapping_helper_supports",
+      "dimensions_checked": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "fixture": "main_dependent_helper_graph",
+      "product_hypothesis_required": true
+    }
+  ],
+  "block_lift_is_mathematical_review_not_physical_admission": true,
+  "universal_claims_proved_in_notes_not_by_finite_samples": true,
+  "seconds": 0.00911144199926639
+}

@@ -1,0 +1,293 @@
+{
+  "status": "PASS_INDEPENDENT_INTEGER_POWER_FULL_MARGIN",
+  "kappa": "19/5000",
+  "price_identity": "f(r)^5000=r^4981",
+  "input_sha256": {
+    "reference/pr7481/WORD.json.gz": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+    "reference/pr7481/CALLER-EXACT.json": "255d89f38cd45e38e5770f559bc43dc217e989032359768cdc7e8cdfd64b47bc",
+    "reference/pr7481/producer54/validation_signed/adapted/CURRENT-PRICE.json": "86f71ccbc923db5d7a6753aa971c3a9c8a572680534498ed17be072cfa2aae6b"
+  },
+  "native_payload_sha256": "64fca675b91298868e12f09423b47e0c2327cba7095e35c8919c1953b4ed68b8",
+  "native_calls": 17,
+  "upper_envelope_profile": {
+    "5": 1,
+    "3": 1,
+    "1": 2,
+    "4": -2
+  },
+  "baseline": {
+    "exact": [
+      "-29620966942187450121094791/500000000000000000000000",
+      "-2369677355374996009685597/40000000000000000000000"
+    ],
+    "decimal_display_only": [
+      "-59.241933884374900242189582",
+      "-59.241933884374900242139925"
+    ]
+  },
+  "native_envelope": {
+    "exact": [
+      "249881058033378798924021/125000000000000000000000",
+      "499762116066757597848043/250000000000000000000000"
+    ],
+    "decimal_display_only": [
+      "1.999048464267030391392168",
+      "1.999048464267030391392172"
+    ]
+  },
+  "full": {
+    "exact": [
+      "-12629054995917691794261329/500000000000000000000000",
+      "-25258109991835383588473069/1000000000000000000000000"
+    ],
+    "decimal_display_only": [
+      "-25.258109991835383588522658",
+      "-25.258109991835383588473069"
+    ]
+  },
+  "threshold": "-252581/10000",
+  "threshold_slack": {
+    "exact": [
+      "9991835383588473069/1000000000000000000000000",
+      "4995917691794261329/500000000000000000000000"
+    ],
+    "decimal_display_only": [
+      "0.000009991835383588473069",
+      "0.000009991835383588522658"
+    ]
+  },
+  "integer_price_certificates": [
+    {
+      "rank": 1,
+      "lower_numerator": 1000000000000000000000000,
+      "upper_numerator": 1000000000000000000000000,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 398632
+    },
+    {
+      "rank": 2,
+      "lower_numerator": 1994739013082031402569607,
+      "upper_numerator": 1994739013082031402569608,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 403613
+    },
+    {
+      "rank": 3,
+      "lower_numerator": 2987501926082327072487717,
+      "upper_numerator": 2987501926082327072487718,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 406527
+    },
+    {
+      "rank": 4,
+      "lower_numerator": 3978983730311476647000136,
+      "upper_numerator": 3978983730311476647000137,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 408594
+    },
+    {
+      "rank": 5,
+      "lower_numerator": 4969513998807656612904725,
+      "upper_numerator": 4969513998807656612904726,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 410197
+    },
+    {
+      "rank": 6,
+      "lower_numerator": 5959286643614129034493265,
+      "upper_numerator": 5959286643614129034493266,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 411508
+    },
+    {
+      "rank": 7,
+      "lower_numerator": 6948429692266991257661147,
+      "upper_numerator": 6948429692266991257661148,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 412615
+    },
+    {
+      "rank": 8,
+      "lower_numerator": 7937034079270974725608699,
+      "upper_numerator": 7937034079270974725608700,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 413575
+    },
+    {
+      "rank": 9,
+      "lower_numerator": 8925167758345614051244775,
+      "upper_numerator": 8925167758345614051244776,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 414421
+    },
+    {
+      "rank": 16,
+      "lower_numerator": 15832311526083433921474011,
+      "upper_numerator": 15832311526083433921474012,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 418556
+    },
+    {
+      "rank": 17,
+      "lower_numerator": 16817956137672100277947626,
+      "upper_numerator": 16817956137672100277947627,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 418992
+    },
+    {
+      "rank": 24,
+      "lower_numerator": 23711904599203106448634941,
+      "upper_numerator": 23711904599203106448634942,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 421470
+    },
+    {
+      "rank": 25,
+      "lower_numerator": 24696069384345265691466911,
+      "upper_numerator": 24696069384345265691466912,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 421763
+    },
+    {
+      "rank": 32,
+      "lower_numerator": 31581329468346939456575370,
+      "upper_numerator": 31581329468346939456575371,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 423537
+    },
+    {
+      "rank": 33,
+      "lower_numerator": 32564437956870624497494194,
+      "upper_numerator": 32564437956870624497494195,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 423758
+    },
+    {
+      "rank": 40,
+      "lower_numerator": 39443201965950548594990014,
+      "upper_numerator": 39443201965950548594990015,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 425140
+    },
+    {
+      "rank": 41,
+      "lower_numerator": 40425488635599349542494180,
+      "upper_numerator": 40425488635599349542494181,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 425318
+    },
+    {
+      "rank": 48,
+      "lower_numerator": 47299061178509685935753346,
+      "upper_numerator": 47299061178509685935753347,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 426451
+    },
+    {
+      "rank": 49,
+      "lower_numerator": 48280675188377554828545565,
+      "upper_numerator": 48280675188377554828545566,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 426599
+    },
+    {
+      "rank": 56,
+      "lower_numerator": 55149923264941441208124988,
+      "upper_numerator": 55149923264941441208124989,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 427558
+    },
+    {
+      "rank": 57,
+      "lower_numerator": 56130967917583110586422217,
+      "upper_numerator": 56130967917583110586422218,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 427685
+    },
+    {
+      "rank": 64,
+      "lower_numerator": 62996509975508849504481274,
+      "upper_numerator": 62996509975508849504481275,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 428518
+    },
+    {
+      "rank": 65,
+      "lower_numerator": 63977061066141697365554049,
+      "upper_numerator": 63977061066141697365554050,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 428629
+    },
+    {
+      "rank": 73,
+      "lower_numerator": 71819476180879423475459646,
+      "upper_numerator": 71819476180879423475459647,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 429463
+    },
+    {
+      "rank": 137,
+      "lower_numerator": 134462452743412001454458486,
+      "upper_numerator": 134462452743412001454458487,
+      "denominator": 1000000000000000000000000,
+      "lower_power_le_scaled_target": true,
+      "upper_power_ge_scaled_target": true,
+      "target_bits": 433987
+    }
+  ],
+  "controls": {
+    "wrong18copies_rejected": true,
+    "wrong_target_sign_rejected": true,
+    "wrong_price_bracket_rejected": true
+  },
+  "seconds": 0.8600414030006505,
+  "scope": "Fixed .0038 upper-envelope price only. No budget_price import; Decimal is a seed, all signs use integer-power certified rational bounds. Envelope is not achievable kappa or physical supplier."
+}

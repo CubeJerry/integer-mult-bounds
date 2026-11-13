@@ -128,6 +128,91 @@ injectively to `V`, so `β_f(U)≥β_f(V)`. The zero-only groups can be charged 
 the separately verified helper-funding theorem; the mixed blocks use the
 two-case relaxation. No zero MOVE is counted in both places.
 
+## Per-new-site debit refinement
+
+The root's general second-case relaxation uses `L=Σ_E L_E`, then grants all
+cache sites in a component for one generic row from `L`. This is a valid but
+looser upper bound. A tighter bound keeps the actual subset `N` of newly
+enabled sites. For each `E∈N`, an actual proposal contains a witness
+`u_E∈L_E\Z`, so
+
+`β_f(U) ≥ β_f(Z+<u_E>) ≥ γ_E`,
+
+where `γ_E=min_{u∈L_E\Z}β_f(Z+<u>)`. Consequently the actual gain is at most
+
+`z + Σ_{E∈A(S)∪N} f(r_E) - max_{E∈N} γ_E`
+
+when `N` is nonempty; for `N=∅`, use the first-case debit `β_f(Z)`. This is
+equivalent to taking the minimum of the individual `gross-γ_E` upper bounds.
+It does not assume one row can realize several cache witnesses
+simultaneously. Enumerating hypothetical subsets `N` can only enlarge the
+relaxation; every actual enabled set is included.
+
+I independently checked the largest 14-zero/two-cache block using the fresh
+source rows and histories. Its 14 zero rows are independent, and each row's
+paid rank is at most every helper target rank in its support. Thus determinant
+matching funds every subset's zero credits by `β_f(Z)`. Its cache target
+credits are `r_35152=2` and `r_45656=1`; the fresh `L_E` support minima are 3
+and 4, respectively. Across all 16,384 zero subsets, event 35152 is never
+already enabled by `Z`; event 45656 is enabled exactly when `S` includes
+45659, 45661, 45663 and 58936. The exact witness uses coefficients
+`(-1/4,-1/4,-1/4,1)`, and removing any of those four events leaves a nonzero
+target residual.
+
+The three rank-1 zero rows 45659, 45661 and 45663 are distinct unit rows at
+helper coordinates 1344, 1347 and 1346. Each coordinate has target rank 4
+and occurs in no other zero row. The fourth required zero, 58936, has paid
+rank 5 and all its support target ranks are at least 5. Therefore, if 45656
+is already enabled by `Z`, the extra basis debit is at least `3f(4)` beyond
+the other zero-row funding, while the corresponding four zero credits and
+cache credit give the net profile `4f(1)-3f(4)<0`.
+
+If 45656 is new, its own witness lies in `L_45656`; all coordinates in
+`Z+L_45656` have target rank at least 4, so adding the witness costs at least
+`f(4)` beyond `β_f(Z)`. Granting both cache credits gives only
+`f(1)+f(2)-f(4)<0`. If 45656 is already in `A(S)` and 35152 is new, the
+incremental bound is `f(2)-f(3)<0`. If only 35152 is new, its witness costs
+at least `f(3)` while only its `f(2)` credit is added. The 35152 and 45656
+site-specific cases therefore have no positive upper branch for
+`0≤κ≤.01`; for signs, `4^(.99)>3` follows from `4^99>3^100`.
+
+This verifies the refinement for that largest block. The exact small-block
+engine also uses the safe per-new-site formula, but its interval arithmetic
+and aggregate ceiling are separate from this proof review.
+
+At κ=.0038, the three positive profiles retained by the small-block
+calculation are `f(6)-f(4)`, `f(5)+f(1)-f(6)`, and
+`f(1)+f(3)-f(4)`. I independently repriced their sum
+
+`F=f(5)+f(3)+2f(1)-2f(4)=1.99904846426703039139…`.
+
+The 17-call full signed invoice then has upper value
+`M(.0038)+17F=-25.25810999183538358849…`, while it needs
+`3.48481964025734707306…` native saving per call. This arithmetic is a
+cross-check of the displayed profiles at `.0038`; the root's all-κ derivative
+certificate and the other component searches are separate evidence.
+
+## Coarse high-κ zero-row cap
+
+The source-derived 468 main-free MOVE rows have exact-Q rank 463, hence
+nullity 5; their paid MOVE ranks are at most 8. Every nonzero row coefficient
+is on an original helper coordinate with target rank at least that MOVE's
+paid rank. For any deleted occurrence set `S`, choose an independent row
+basis `B⊆S`. A nonzero minor for a helper-column basis of `B` has a nonzero
+determinant term, matching every basis row to a supported column. Since
+`f(r)=r^(1-κ)` is increasing on `0≤κ≤1`, this funds all `B` credits. At most
+`|S|-rank(S)≤5` dependent occurrence credits remain, each at most `f(8)≤8`,
+so zero-MOVE gain is at most 40. Granting all fourteen cache savings free
+adds at most their rank sum 32. This establishes the coarse native gain cap
+72 for arbitrary surjective main-independent helper promises; it needs no
+linear cache information model.
+
+At κ=.01, the exact signed invoice plus 17·72 is at most
+`-1206.06962236490571658…`; at κ=1 it is exactly `-86834`. These endpoint
+checks alone do not prove the complete interval `M(κ)+17·72<0` on
+`[.01,1]`. I have verified the row/nullity/gain cap, not the separate
+interval argument needed for that full-range conclusion.
+
 ## Scope and wording correction
 
 The proof is valid for homogeneous scalar-linear helper promises with
@@ -137,6 +222,11 @@ not apply to nonlinear helper restrictions or changed providers. The
 source-union certificate proves the partition and ranks, not the mixed
 subset prices. No actual relation vector, schedule, supplier, or κ is
 established.
+
+The coarse `≤72` cap above is separate and does extend to arbitrary
+surjective main-independent helper promises because it uses only zero-row
+rank necessity and grants every history cache for free. Its invoice sign on
+the entire `[.01,1]` interval requires the separate root interval certificate.
 
 The draft calls these “eleven mixed components.” The exact partition has
 eleven cache-containing groups, of which ten are mixed with zero MOVE rows

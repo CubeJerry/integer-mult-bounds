@@ -1,0 +1,179 @@
+{
+  "status": "COMPLETE_14_ZERO_BLOCK_RELAXATION",
+  "source_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+  "input_sha256": {
+    "zero_rows": "15de6d0e53a846efdd5d3f9b34beb8d57fc51534967cc464b12c305ed2cf1834",
+    "L_spaces": "4a2ac624f4a86dcb89b6a92f194916c69ed8a42cd6e7187334c2df30664af3a4",
+    "targets": "a536e5ad9d0c903065ab8e344a591ea04c83e6489f0040441e6f18f7e5ba50c9",
+    "arrangement": "4aab91385390f2e4bd55eb28ddbb349cabfc3e767bcb874b5cf2cadc2a6cbcc5"
+  },
+  "requested_limit": 16384,
+  "covered_zero_subsets": 16384,
+  "total_zero_subsets": 16384,
+  "zero_events": [
+    32681,
+    39855,
+    39857,
+    39859,
+    45659,
+    45661,
+    45663,
+    45698,
+    45701,
+    45706,
+    51637,
+    57989,
+    58936,
+    76469
+  ],
+  "cache_events": [
+    35152,
+    45656
+  ],
+  "cache_ranks": {
+    "35152": 2,
+    "45656": 1
+  },
+  "L_union_dimension": 19,
+  "all_zero_rank": 14,
+  "all_helper_weights_verified": 1101,
+  "cache_quotient_dimensions": {
+    "35152": {
+      "P_rank": 9,
+      "L_dim": 4
+    },
+    "45656": {
+      "P_rank": 24,
+      "L_dim": 16
+    }
+  },
+  "minimum_L_support_target_rank": 3,
+  "minimum_zero_support_target_rank": 4,
+  "generic_beta_equals_betaZ_plus_rank3_for_all_masks_checked": true,
+  "each_independent_zero_row_credit_dominated_by_every_support_column_price": true,
+  "kappa": "19/5000",
+  "case0_best": {
+    "mask": 0,
+    "zero_events": [],
+    "rho": 0,
+    "column_prefix_ranks": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "generic_prefix_ranks": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "beta_histogram": {},
+    "generic_beta_histogram": {
+      "3": 1
+    },
+    "already_enabled_caches": [],
+    "case0_signed_native_histogram": {},
+    "case1_signed_native_histogram": {
+      "2": 1,
+      "1": 1,
+      "3": -1
+    },
+    "case0_upper": {
+      "exact": [
+        "0",
+        "0"
+      ],
+      "decimal_display_only": [
+        "0",
+        "0"
+      ]
+    },
+    "case1_upper": {
+      "exact": [
+        "36185434998521650409445726340491381727422976429/5000000000000000000000000000000000000000000000000",
+        "361854349985216504094457263404913817274229764291/50000000000000000000000000000000000000000000000000"
+      ],
+      "decimal_display_only": [
+        "0.0072370869997043300818891452680982763",
+        "0.0072370869997043300818891452680982763"
+      ]
+    }
+  },
+  "case1_best": {
+    "mask": 0,
+    "zero_events": [],
+    "rho": 0,
+    "column_prefix_ranks": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "generic_prefix_ranks": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "beta_histogram": {},
+    "generic_beta_histogram": {
+      "3": 1
+    },
+    "already_enabled_caches": [],
+    "case0_signed_native_histogram": {},
+    "case1_signed_native_histogram": {
+      "2": 1,
+      "1": 1,
+      "3": -1
+    },
+    "case0_upper": {
+      "exact": [
+        "0",
+        "0"
+      ],
+      "decimal_display_only": [
+        "0",
+        "0"
+      ]
+    },
+    "case1_upper": {
+      "exact": [
+        "36185434998521650409445726340491381727422976429/5000000000000000000000000000000000000000000000000",
+        "361854349985216504094457263404913817274229764291/50000000000000000000000000000000000000000000000000"
+      ],
+      "decimal_display_only": [
+        "0.0072370869997043300818891452680982763",
+        "0.0072370869997043300818891452680982763"
+      ]
+    }
+  },
+  "already_enabled_patterns": {
+    "()": 15360,
+    "(45656,)": 1024
+  },
+  "price_histograms_evaluated": 184,
+  "seconds": 2.7911045020009624,
+  "scope": "Optimistic generic-one-extra-row lower funding cost while granting both cache credits. Case1 need not have a direction enabling both caches. No physical candidate, complete source or kappa.",
+  "full_census_sha256": "315c2301c2104dc7933720d8be1af1eaddafac7090592d67decd332a50dd7523"
+}
