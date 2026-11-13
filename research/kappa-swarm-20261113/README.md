@@ -1,15 +1,17 @@
-# Rolling kappa research recovery checkpoint — 2026-11-13
+# Rolling integer multiplication research checkpoint — 2026-11-13
 
-Recovery only, not an upstream contribution or an accepted theorem. Read STATE.json.
-Canonical base e54523517d0f03e58352e647c403a5af3e525a57; selectedkappa
-363005817/100000000000; five assumptions retained. No new complete kappa.
-Open comparator#7481 is unselected. Wave5 isactive.
+This branch is a recovery record, not an upstream contribution or an accepted theorem.
+Read `STATE.json` for precise scopes, pins, completed work and active assignments.
+Canonical main is `e54523517d0f03e58352e647c403a5af3e525a57`; selected kappa is
+`363005817/100000000000`. All five foundational assumptions remain.
 
-The recovered selected rechart was alreadyin#7481 and must not be published
-asnovel. BIT alternate-carrier pairing has two exact methods and a blockproof.
-Jointhelperzeroing and broadframegrowth certificates areunderseparatereview.
-ASSUMPTIONS.md recordsfoundationaldependencies. evidence/ containsproofcheckpoints.
+The alternate-carrier BIT pairing package is published and independently checked.
+Two further exact negative results are being packaged: complete fixed-contact frame
+corridors and funding of helper zeroing. Fresh work tests joint neutral-helper
+zeroing, correlated helper subspaces and unchanged-history cached providers.
+No new complete kappa is claimed. The higher open comparator #7481 is unselected.
 
-Only remotecommittedfiles aredurable. Workspacepaths maybelost onrestart;
-reconstructinputsfromexactpins. Unfinishedclaims labelledreview-in-progress.
-No upstream PR has been submitted by thisrun.
+`ASSUMPTIONS.md` records the foundational dependency map. `evidence/` preserves
+intermediate proofs and review receipts; unfinished results remain labelled.
+Only remotely committed files are durable: local paths can be lost on restart.
+Reconstruct sources using the recorded exact pins. No upstream PR was submitted.
