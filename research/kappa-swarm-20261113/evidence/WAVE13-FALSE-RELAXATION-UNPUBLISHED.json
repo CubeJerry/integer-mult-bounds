@@ -1,0 +1,99 @@
+{
+  "status": "FROZEN_WAVE13_BOUNDED_CHECKPOINT",
+  "source_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+  "removed_move_bijection_verified": true,
+  "neutral_helpers": 72,
+  "joint72_zero_moves": 72,
+  "extra_joint72_zero_moves": 0,
+  "all_subset_move_target_cancellation": "For every S subset of these72, the exactly zero MOVEs are precisely the72singleton-supported positions whose helper is in S; each rank equals that helpers lost target rank. This is before recharting only.",
+  "relaxation_soundness": "After granting all72 contact deletions/endpoint relaxations and dropping neutral MOVE constraints, independently choosing min(f(new dimension gap),f(original target rank)) underprices every actual subset paid+lost-target cost. Warm branches are deliberately allowed unphysical endpoint changes.",
+  "executed_positive_witness": {
+    "helper": 115,
+    "zero_move_event": 43661,
+    "instruction": [
+      "MOVE",
+      115,
+      3,
+      189,
+      false
+    ],
+    "all_owner_touches": [
+      [
+        31309,
+        [
+          "ADD",
+          179,
+          115,
+          "-1/2",
+          3
+        ]
+      ],
+      [
+        43661,
+        [
+          "MOVE",
+          115,
+          3,
+          189,
+          false
+        ]
+      ],
+      [
+        43662,
+        [
+          "ADD",
+          764,
+          115,
+          "1/2",
+          189
+        ]
+      ],
+      [
+        43681,
+        [
+          "ADD",
+          179,
+          115,
+          "1/2",
+          189
+        ]
+      ]
+    ],
+    "deleted_contact_events": [
+      31309,
+      43662,
+      43681
+    ],
+    "original_source_chart": 3,
+    "original_target_chart": 189,
+    "source_dimension": 0,
+    "target_dimension": 8,
+    "normal_remaining_incident_edges": 0,
+    "new_source_space": "zero subspace",
+    "new_target_space": "zero subspace",
+    "chosen_effective_branch": "retain target and pay new rank0 bill",
+    "effective_edge_cost": 0,
+    "original_edge_cost": "f(8)",
+    "optimistic_gain_at_0038": "7.937034079270974725608699718183485031532788196046513786",
+    "min_tariff_gains": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      8
+    ],
+    "missing_boolean_implication": "Retaining helper115 target requires its original8-dimensional target chart. The all72-cold endpoint freedom cannot be used in the warm branch.",
+    "local_corrected_branches": "Warm: source0,target8, retained MOVE costs f(8). Cold: omitted MOVE plus lost-target debit f(8). Both give zero net gain locally."
+  },
+  "objective_relevant_isolated_vertices": 2,
+  "individual_corridor": "zero subspace to full F2^9",
+  "subspaces_per_vertex": 8283458,
+  "full_boolean_subset_solver_implemented": false,
+  "physical_word_emitted": false,
+  "next_step": "Only after fresh allocation: impose conditional endpoint pins and certified-contact implications before attempting a global subset DP. Existing relaxation is positive and cannot prove all-subset exclusion.",
+  "scope": "No all-subset frame theorem and no physical construction. No implication from joint72zero to every subset."
+}
