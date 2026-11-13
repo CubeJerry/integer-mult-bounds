@@ -216,3 +216,13 @@ in the route package gives the exact phase/rank check; inherited compiler
 assertions must remain enabled. retargeted-history-control/run_check.py takes
 the same flags and reproduces DUAL-CHECK.json. Each package keeps author
 reproduction commands, source pins, proof scope and meaningful negative controls.
+
+## S010 fresh-eight independent replay
+
+```
+python3 -I -B research/moonshot-005-program/results/fresh-eight-acquisition-optimum/review/check_fresh_eight.py --repo . --output /tmp/fresh-eight-review
+```
+
+Expected: exact511-direction distribution487/24, minimum line support43,
+minimum pair intersection15, and positive limiting deficit.25311068495571478... .
+This reruns the separately written reviewer; it is not a new independent review.

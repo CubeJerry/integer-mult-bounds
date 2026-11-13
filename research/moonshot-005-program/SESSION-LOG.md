@@ -827,3 +827,23 @@ Confirmed checkpoint1 remote f69f13ceebe54c810aaf024a287f8ce3e7ffcb15, full tree
 Proved and independently reviewed full rank8V fitting rigidity for both96 and104 source supports via exact frame relations and a Jordan-product argument. This closes singular contacts in characteristic zero and preserves an earlier conditional characteristic-not2 proof. Independently composed actualQ+31returns and literal m3; all2280 input directions and full caller accounting agree. Proved a terminal node-source obstruction for every fixed multiplicity; the current state cannot be repaired by an append-only private suffix within the limiting allowance. An explicit shared-downset-exit control clarifies the historical separated-source lemma's correct counting interface.
 
 The construction must change earlier acquisition or its representation. Mixed packet/coupled-eight redesign and overcomplete fresh-return interfaces are now active. No current result supplies a complete new kappa, either strict supplier, or a foundational discharge. Not PR-ready. All prior scientific bytes remain preserved. Resulting remote SHA will be recorded only after confirmation in the next receipt.
+
+## 2026-11-13-S010 — checkpoint3, session continuing (2026-11-13 05:29:42 UTC)
+
+Confirmed checkpoint2 remote 652003317d5b507a34a7a243f073f3ece5e547a9, full tree
+0e0359396615ea841850e1572a6b5bfefd24ddb1, is the exact parent baseline. The
+session remains active toward13:27:03UTC. Canonical source pins and selected
+conditionalκ remain unchanged; no upstream PR or selected-certificate edit.
+
+Established and independently reviewed the sharp eight-fresh-return acquisition
+optimum, including actual43-path refinement and the full all-m limiting
+comparison. Individually copied unchanged sources cannot improve it when each
+branch is charged. The proof inherits the older511-chart classification with
+explicit credit. Corrected current STATE/CONTINUATION navigation so completed
+fixed-m and full operator-rigidity obligations are not accidentally reopened.
+
+The next wave develops coherent coupled processing and tests nine/overcomplete
+returns. Packet-cycle source review and a new arbitrary-V quotient argument
+are active but not admitted by this checkpoint. The full global forward
+construction remains open. No new completeκ; not PR-ready. Resulting remote
+SHA will be recorded only after GitHub confirmation in the next receipt.

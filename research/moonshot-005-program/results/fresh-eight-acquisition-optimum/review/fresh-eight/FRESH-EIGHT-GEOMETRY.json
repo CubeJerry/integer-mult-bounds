@@ -1,0 +1,143 @@
+{
+  "H4_invoice_sha256": "b8adae359984f27f140db1fb3cf7e37f1f96a25bdb1cc586de6dca6b47534248",
+  "J8_minus_allowance_bounds": [
+    "529177208645901914191117436208105622369559/2090694862362245919518973588060783891185664",
+    "396882906484426435643338077156079216778189/1568021146771684439639230191045587918389248"
+  ],
+  "all_zero_return_price_bounds": [
+    "1550888954264108921527971163307439752113075/21778071482940061661655974875633165533184",
+    "12407111634112871372223769306459518016904601/174224571863520493293247799005065324265472"
+  ],
+  "complete_caller_sha256": "d9ba709fa5dcefffe3f3abdcf34600ce188224703cfd743e6db8b58ba4816cb7",
+  "exceptional_lines": [
+    7,
+    25,
+    42,
+    52,
+    67,
+    76,
+    81,
+    82,
+    97,
+    98,
+    104,
+    127,
+    137,
+    162,
+    164,
+    262,
+    266,
+    268,
+    273,
+    280,
+    289,
+    290,
+    448,
+    491
+  ],
+  "extra_branch_price_argument": "For k>=2 distinct line births, each j>1 shares at least15 source indices with line1. Per source, one primary route serving endpoint+one line costs excess >=1+7^t-8^t; every additional incomparable line needs another rank>=1 raw MOVE. Thus candidate price exceeds k=1 by at least (k-1)(15-(9^t-8^t))>0, even when these branches are allowed and billed.",
+  "finite_m_penalty_d_bounds": [
+    "395640315552656280051048648753131643637698811/12544169174173475517113841528364703347113984",
+    "131880105184218760017016216251043881212574923/4181389724724491839037947176121567782371328"
+  ],
+  "fresh_eight_limiting_gap_bounds": [
+    "264588604322950957095558718104052811184817/1045347431181122959759486794030391945592832",
+    "1587531625937705742573352308624316867112531/6272084587086737758556920764182351673556992"
+  ],
+  "fresh_eight_paid_profile": {
+    "1": 51,
+    "7": 43,
+    "8": 358,
+    "9": 15
+  },
+  "hosted_D_count": 96,
+  "line_rank_counts": {
+    "7": 24,
+    "8": 487
+  },
+  "minimum_intersection_pairs": [
+    [
+      81,
+      98
+    ],
+    [
+      81,
+      280
+    ]
+  ],
+  "minimum_pair_intersection": 15,
+  "minimum_support_lines": [
+    81
+  ],
+  "minimum_support_size": 43,
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "negative_controls": {
+    "included_hosted_normal_rejected": 11,
+    "line81_support_is_43": true
+  },
+  "omitted_normals": [
+    7,
+    25,
+    42,
+    52,
+    67,
+    76,
+    81,
+    82,
+    97,
+    98,
+    104,
+    127,
+    137,
+    162,
+    164,
+    262,
+    266,
+    268,
+    273,
+    280,
+    289,
+    290,
+    448,
+    491
+  ],
+  "optimistic_remaining_return_refinement_allowance_bounds": [
+    "55366451238050244387956258636768811504850031/784010573385842219819615095522793959194624",
+    "2306935468252093516164844109865367146035437/32667107224410092492483962313449748299776"
+  ],
+  "pair_count": 276,
+  "predecessor_chart_gate_sha256": "dae0ad585ad8c2d6a1d128dc32b00025388089fec08d17d9f02accae8e7ed6c4",
+  "predecessor_chart_review_sha256": "57fc50cabcba8dc8ca5b6fb7aae03a11be6617e8a7807c04c4aa2a98cd05002f",
+  "return_refinement_J8_bounds": [
+    "49391015725593295649580380155863867656212509/696898287454081973172991196020261297061888",
+    "12347753931398323912395095038965966914053139/174224571863520493293247799005065324265472"
+  ],
+  "status": "PASS_INDEPENDENT_FRESH_EIGHT_LINE_GEOMETRY",
+  "support_identity": "nonzero inner products dot(r(c),r(n_i)) exactly equal source facets containing c",
+  "support_sizes": {
+    "104": 49,
+    "127": 46,
+    "137": 49,
+    "162": 45,
+    "164": 45,
+    "25": 45,
+    "262": 45,
+    "266": 46,
+    "268": 44,
+    "273": 44,
+    "280": 44,
+    "289": 50,
+    "290": 45,
+    "42": 48,
+    "448": 52,
+    "491": 46,
+    "52": 51,
+    "67": 47,
+    "7": 50,
+    "76": 49,
+    "81": 43,
+    "82": 48,
+    "97": 47,
+    "98": 44
+  }
+}

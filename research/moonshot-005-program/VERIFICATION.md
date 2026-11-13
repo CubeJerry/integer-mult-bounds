@@ -704,3 +704,20 @@ Admitted `results/minimum-rank-fitting-rigidity/`: root read the full Jordan pro
 Admitted `results/standalone-current-row-consumer/`: C independently replayed all400Q and2280m3 input directions with fresh Fraction semantics, rebuilt the literal word, and checked current residual columns, every chart/lifecycle and complete T/P profiles. Root reviewed the composition proof and the all-m terminal node-source argument, and supplied an explicit two-facet/intersection negative control showing why downset-exit events cannot simply be counted as disjoint. Three author consumer mutants are retained; repeating C's verifier is corroboration, not an additional reviewer.
 
 Checkpoint1 was independently confirmed on GitHub at f69f13ceebe54c810aaf024a287f8ce3e7ffcb15, tree92458992f351583af6697292b0ff9235d7b0b0f7. Local equivalent-tree commit80bbe9db5c8558478cfecc37550ee7058ab6fcda is retained only as a local checkpoint. The remote commit is the programme baseline. All preceding scientific bytes remain pinned. New packet-cycle and overcomplete work is not admitted by this checkpoint.
+
+## S010 checkpoint3 — fresh-eight exact acquisition optimum
+
+Root author proof and worker C's independent Fraction geometry/chronology
+review establish the sharp price J8. The reviewer authenticates the native,
+complete caller and H4 invoice, reconstructs all511 directions, all24 eligible
+line supports and all276 pair intersections without author helpers, and uses
+140-bit integer200th-root brackets for strict signs. The511 classification is
+credited to its already-proved S008 source, not claimed anew.
+
+Root separately audited the reviewer's priced individual-D branching extension:
+q_i distinct line visits cost at least q_i entries plus a disjoint endpoint
+path tail of price7^t, so no raw refinement is double-counted. Frozen author
+and review bytes remain unchanged, with later admission in ADMISSION.md.
+Installed-path replay is corroboration of the independent reviewer, not a
+second independent implementation. No finite computation substitutes for the
+universal capacity/chronology argument. All older scientific bytes preserved.

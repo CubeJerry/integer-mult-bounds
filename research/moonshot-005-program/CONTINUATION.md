@@ -1,3 +1,30 @@
+# Current continuation — S010 checkpoint3
+
+Resume exact remote HEAD and STATE.json. The verified parent checkpoint is
+652003317d5b507a34a7a243f073f3ece5e547a9; this checkpoint records its own parent,
+not a self-referential SHA. The active session runs03:27:03–13:27:03UTC on
+13 November2026, with no claim of execution beyond an observed checkpoint.
+
+Read the standalone-cyclic-rail, minimum-rank-fitting-rigidity,
+standalone-current-row-consumer and fresh-eight-acquisition-optimum admissions.
+The fixed-m lift and rank8V block-gauge theorem are proved; do not repeat their
+old open questions. The actual terminal Q cannot be completed by a private
+suffix within any fixed-m budget. Eight fresh pure Gram returns with the
+retained eight forward and eight entry calls also fail after source chronology
+and raw refinement are charged. These are scoped results, not universal
+multiplication lower bounds.
+
+Nearest consequential work: construct the earlier coupled self-response or
+another joint current-row interface while preserving all genuine raw paths,
+then complete global forward acquisition. The nine-return no-line and more
+general mixed/line-birth cases are under investigation. Frozen packet-cycle
+words and the Schur gate await completed independent admission. No current
+local rank or positive moment supplies a strict complex or ordinary BIT
+supplier. All five foundations remain; no new complete κ and no PR readiness.
+
+The text below is retained historical S009 continuation, superseded by this
+current section and STATE.json.
+
 # Continue the distributed current-row programme
 
 ## S009 checkpoint5 — verified source interfaces and the distributed-consumer frontier

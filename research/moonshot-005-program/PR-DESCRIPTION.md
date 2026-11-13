@@ -1,3 +1,27 @@
+## S010 checkpoint3 — exact fresh-eight acquisition optimum
+
+The unchanged-source, single-chart return interface now has an exact optimum.
+At most one of eight independent Gram packets can be born above the empty
+chart. Its best eligible line needs43 genuine D-path refinements, giving
+`J8=7*9^t+8^t+43*(1+7^t-8^t)`, t=199/200, about70.872631795422.
+Independent source geometry and integer-root price review confirm the result;
+separately priced individual-D branches cannot improve the optimum.
+
+With eight rank9 forward packets and eight rank1 coupled entries retained,
+the complete fixed-m caller allows less than70.619521110467 for this return
+and refinement work. The limiting deficit is.253110684956 per native, and
+every finite m has the additional positive deficit31.539778367085.../(m-1).
+See results/fresh-eight-acquisition-optimum/ADMISSION.md. This is a scoped
+exclusion, not a bound on mixed or funded current-row interfaces.
+
+The same programme now investigates a coherent earlier coupled response and
+nine-field/mixed return acquisition. Source packet-cycle and coupled Schur
+gates are under independent review; a new arbitrary-volume nine-field
+quotient argument is also under review. None is silently accepted here.
+The full forward and reverse endpoints, both strict suppliers and all five
+foundations remain open. **No new κ; ongoing programme, not PR-ready.**
+This is an intermediate checkpoint of the active ten-hour session.
+
 ## S010 checkpoint2 — full fitting rigidity and the required earlier redesign
 
 The source now has a complete **minimum-rank operator fitting classification**:

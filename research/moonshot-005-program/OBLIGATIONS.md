@@ -571,3 +571,23 @@ Details and verification: results/s008-recovered-cut-and-entry/. Unavailable ori
 - **STANDALONE-31-CONSUMER-M3 — PROVED FINITE SOURCE.** Actual Q+31 returns has5242 operations/rank58/24 completed outputs; its literal m3 lift has83345operations/2280 independent directions. Full formal profile T31296/P155916/surplus4380 leaves10.326451084899253 per rail. Dependencies: standaloneQ, B7+24 selection, full caller and independent typed Fraction replay. Source: results/standalone-current-row-consumer/.
 - **TERMINAL-ALL-M-NODE-CUT — DISPROVED WITHIN APPEND-ONLY COMPLETION SCOPE.** After currentQ and all shared native calls are spent, every private-only linear suffix at whole-field volumeV needs96(m−1) new MOVEs, or65(m−1) after31 already-paid returns per rail. Exact current rows have distinct original D source nodes, identityB block, and no other hostedb/d-bearing fields. Limiting deficit>38.903659731558 per rail. Earlier redesign, unspent funded common processing and changed representation remain open. Root review explicitly distinguishes chart-node departures from possibly shared downset exits.
 - **EARLY-COMPLETE-Q — OPEN PRIMARY.** Supply a complete causal joint forward/reverse rail with c<129.9388553172829489..., then its complete physical/uniform services and compatible strict complex/BIT suppliers. Terminal private repair and merely changing a minimum-rank static fitting cannot supply the missing mechanism.
+
+## S010 checkpoint3 — FRESH-EIGHT-TEMPORAL-OPTIMUM
+
+**Status: proved, with independent source/proof/price review; scoped exclusion.**
+For every characteristic-zero field, every V>=1 and every fixed m>=2, consider
+exactly eight independently sufficient whole-field pure-Gram returns formed
+at one chart each from unchanged original D paths. With no useful Hub side
+observation or extra informative transport, the optimal return/refinement
+price is J8=7*9^t+8^t+43*(1+7^t-8^t). The individually branched-D extension
+charges each positive MOVE and has the same optimum. Dependencies: S008
+all511 shortening classification, actual24 line supports/all276 intersections,
+whole-field capacity, concave rank tariff, and the proved fixed-m caller.
+
+Retaining eight rank9 forward and eight rank1 coupled calls gives a positive
+limiting deficit>.25311068495571478; finite m adds d/(m-1). Verification:
+results/fresh-eight-acquisition-optimum/PROOF.md, ADMISSION.md and review/.
+This closes larger fixed multiplicity as a repair of this precise fresh-eight
+interface. It does not settle nine/overcomplete, multi-chart, mixed or funded
+returns, or a changed coupled/forward source. The next positive obligation
+remains actual earlier joint Q completion, including every forward row.

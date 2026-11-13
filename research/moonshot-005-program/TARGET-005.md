@@ -703,3 +703,26 @@ At minimum scalar fitting rank8V, both the96 hosted and104 first-X characteristi
 The current standaloneQ itself cannot be completed by an append-only private suffix at any fixed m. Actual source rows force96 new field departures per rail, against limiting room57.0963402684419...; the paid31-column variant leaves65 departures against26.0963402684419.... The common deficit is38.9036597315580... plus d/(m−1) for finite m. All forward costs were granted free in this exclusion. The gate uses original chart nodes, not overlapping facet downsets.
 
 The constructive m3+31-return source is independently real and positive in its partial invoice:83345instructions,2280input directions,31296targets,155916paid positions,4380rank surplus, remaining10.326451084899253 per rail. Its remaining endpoints and all physical costs are still owed. Continue an earlier mixed/overcomplete global mechanism; both strict suppliers and all five foundations remain.
+
+## S010 checkpoint3: exact minimal fresh-return chronology and price
+
+For exactly eight pure-target whole-field packets formed at individual birth
+charts from unchanged original D fields, no useful Hub side observations or
+other informative transport granted, the sharp acquisition-plus-refinement
+bill is `J8=7*9^t+8^t+43*(1+7^t-8^t)`, t=199/200. The inherited all511 chart
+classification allows only24 lines above zero; the new pair-support overlap
+and original-path chronology permit at most one. Individually branched raw
+copies are separately charged and cannot lower this optimum.
+
+Retain eight rank9 forward packets and eight rank1 coupled entries. Grant all
+other native duties free and all unrelated raw routes direct. The complete
+optimistic paid-Q profile is `{1:51,7:43,8:358,9:15}`. Its limiting target
+excess is the exact signed moment `[18Q-18N+18H-T+P]_t/18`, rigorously between
+.25311068495571478 and.25311068495571479. Every fixed m>=2 adds
+`d/(m-1)`, d=31.539778367085...>0. Equivalently J8 exceeds the limiting
+remaining allowance70.619521110466... . Overcomplete or mixed returns,
+changed coupled processing and altered forward acquisition remain open;
+the source assumptions cannot be transferred to actual mixed Hub rows for free.
+
+Source, proof, independent exact brackets and priced-branch review are in
+results/fresh-eight-acquisition-optimum/. No new complete κ.
