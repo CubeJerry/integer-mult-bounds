@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "-W",
+        "error",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Exact source-bound cross-check of integer and Fraction implementations; 6,561 cube cases, 60 deterministic large cases, 20 powers of two, phase-assignment mutant, F^4 counterexample, and pinned #6778 n=1 row/column obstruction control."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "-W",
+        "error",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Optimized-mode exact source-bound cross-check and explicit #6778 n=1 tensor-order control; explicit checks remain active without assertions."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "-W",
+        "error",
+        "{package}/proof/check.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Frozen doubled-half-grid integer checker, inverse, exact sum, symmetries, error and bilateral slack controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "-W",
+        "error",
+        "{package}/proof/check.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Optimized-mode frozen integer checker with explicit require checks."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "-W",
+        "error",
+        "{package}/review/root/check_candidate.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Root Fraction checker over 6,561 cube cases and 60 deterministic large cases; inverse, exact sum, phase, wire swap, error and radial checks."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "-W",
+        "error",
+        "{package}/review/root/check_candidate.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Optimized-mode root Fraction checker; explicit need checks remain active."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "task_id": "uniform-transfer-audit",
+  "original_card": {
+    "id": "uniform-transfer-audit",
+    "question": "Can one of the selected record's five inherited assumptions be proved at its actual caller?",
+    "starting_points": [
+      "docs/research/current-priorities.md",
+      "docs/research/research-family-status.md",
+      "certificates/selected-result.json",
+      "docs/research/pr-intake-evidence/pr5599-completion/PROOF-REVIEW.md"
+    ],
+    "methods": [
+      "Construct and independently check one source-bound instance of the stated first experiment.",
+      "Seek an exact counterexample or target-specific complete-budget obstruction to that same proposed change."
+    ],
+    "acceptance_gate": "Identify the proposition and what would change downstream; do not equate a finite replay with a universal proof.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_selected_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Read revision 8, the selected review and live exact-source handoffs. Then follow this card's bounded first_experiment.",
+      "scope": "Source-bound orientation only, not a supplier replay or theorem proof."
+    },
+    "first_experiment": "Choose one assumption ID (native_all_columns, owned_erasure, compiler, precision_tape, analytic_recovery), one quantified implication and exact dependency closure. Check current handoffs, including #5625 row reentry and #5707 root-prefix lowering, without treating their partial scope as the whole theorem. Prove or falsify that implication with a caller-bound argument; stop at the chosen obligation. Finite tests or root digits do not discharge an all-size statement.",
+    "bottleneck_link": "Judge the actual current supplier contract and complete signed target/paid bill; frozen-profile ceilings require an applicability proof.",
+    "allowed_variations": [
+      "One exact source head, helper/cut region or quantified proposition and changed hypothesis; check live handoffs first. Different seeds are not different scopes."
+    ],
+    "scope_change_triggers": [
+      "Changing source head, helper/cut domain, operation alphabet or caller boundary without recording the new scope.",
+      "Treating an archived proposal or local numerical pass as complete supplier admission."
+    ],
+    "overlap_terms": [
+      "native_all_columns",
+      "owned_erasure",
+      "compiler",
+      "precision_tape",
+      "analytic_recovery"
+    ],
+    "existing_checks": [
+      {
+        "scope": "PR #4100: proposed unconditional construction and finite checks, without independent acceptance.",
+        "evidence": "research/unconditional-batched-crt/README.md",
+        "remaining": "Independent proof audit of one caller-bound all-size implication; all other premises remain explicit.",
+        "status": "author-checked",
+        "source_commit": "337d04939571a637aeab54a0f58f54fde811663a",
+        "selected_record_sha256": "bb2eaa58647b353f88d0aec2eafb9d30df1be53589231b23e12ceef3e4bad129"
+      },
+      {
+        "scope": "Selected PR5599: complete helper-subspace construction and independent caller replay; five framework assumptions remain.",
+        "evidence": "docs/research/pr-intake-evidence/pr5599-completion/PROOF-REVIEW.md",
+        "remaining": "The next experiment must identify uncovered source-specific work. Successor archive intake does not transfer this admission.",
+        "status": "reviewed",
+        "source_commit": "09dd0965711ca7eeb169057a420abab1c9052137",
+        "selected_record_sha256": "2a0220e866417774606e0f991e41b9c1d26b1f43b97857238cf478dbc7d330b5"
+      }
+    ]
+  },
+  "scope_status": "changed",
+  "scope_change_reason": "The selected task card asks for a caller-bound inherited assumption. This publication candidate records a separate all-input rounding theorem: a global Gaussian-pair bijection constrained to exact-sum preservation and global i covariance, with the sharp bilateral radial constant in that restricted class. It does not claim a selected caller, supplier, or framework assumption is discharged.",
+  "actual_scope": "Prove an explicit global bijection on Gaussian integer pairs preserving the complex sum and global multiplication by i, covariant under wire swap, inverse by conjugation, error at most one, and optimal bilateral pair-radial slack 1/sqrt(2) among all exact-sum maps with error at most one.",
+  "bottleneck_link": "A constrained analytic rounding primitive potentially relevant to analytic_recovery; no selected call, tensor-stage identity, or precision provider is established.",
+  "stop_rule": "Stop at the all-input exact-sum theorem, its sharp lower bound, exact role-bounded implementations, and explicit failed identity controls. Do not infer a fixed-width or tape implementation, selected caller admission, physical tariff, or kappa change.",
+  "evidence": "proof/PROOF.md; proof/check.py and proof/RESULT.json; review/root/check_candidate.py and review/root/RESULT.json; review/root/ROOT-ARITHMETIC-AUDIT.md; verify.py; ROLE-BOUNDARIES.md.",
+  "author": "@CubeJerry",
+  "ai_assistance": "Substantial OpenAI ChatGPT/Codex assistance. The root supplied the proposed pairing formula and a separately written Fraction checker; the proof/integer-check role formalized the shared formula. This is not blind, human, or formal verification.",
+  "outcome": "completed",
+  "open_questions": [
+    {
+      "question": "Can an actual caller use this map through ordered execution, different per-axis maps, or an enlarged state/representation?",
+      "why_it_matters": "The universal #6778 theorem excludes commuting the same stateless map across row and column applications under hypotheses this map satisfies; a real caller may impose a different boundary contract.",
+      "first_step": "Pin the caller and model its required transform order, state and per-axis maps; check whether the ordered or enlarged interface matches its proof.",
+      "blocked_by": "No selected caller or alternative stateful/different-map interface is included in this package."
+    },
+    {
+      "question": "Can the map be implemented with a complete fixed-width or tape cost and precision budget?",
+      "why_it_matters": "An unbounded integer bijection does not establish finite-word execution, overflow behavior, or a physical tariff.",
+      "first_step": "Choose one signed format and explicit input boundary, then derive every temporary width, copy, return, and recursive-child cost.",
+      "blocked_by": "This package has no physical graph or precision recurrence."
+    },
+    {
+      "question": "What bilateral radial constant is optimal when exact-sum conservation is relaxed but selected symmetries are retained?",
+      "why_it_matters": "The global-half branch has a smaller bilateral constant under a different interface; this theorem lower bound applies only to exact-sum maps.",
+      "first_step": "Specify an intermediate identity class precisely and prove a lower bound or construct a matching map in that class.",
+      "blocked_by": "The current proofs establish only the exact-sum optimum and the distinct global-half construction."
+    }
+  ]
+}

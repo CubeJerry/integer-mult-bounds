@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "files": [
+    {
+      "path": "docs/research/agent-task-catalog.json",
+      "usage": "provenance",
+      "git_blob": "3404fbdd5e7529a0674eef26114b5071e4586cec",
+      "sha256": "ead6cdc9d0af6d58e8a49744d8ec8c7c15e13d2ba93c276c434bcf9b51b93a81"
+    },
+    {
+      "path": "certificates/selected-result.json",
+      "usage": "provenance",
+      "git_blob": "75d77b328ea02ded535e7f23aee5b1e55d0bb1a8",
+      "sha256": "154c3d30455d778fd3343b6b4851f0fa4665f0f7625b0adb3675e2bafbbf6bf1"
+    },
+    {
+      "path": "docs/research/pr-intake-evidence/pr7000-application/PROOF-REVIEW.md",
+      "usage": "provenance",
+      "git_blob": "3dd1af2285e597676725e85ad4f65e7ad326d695",
+      "sha256": "4501502c2ceb9759b20372435fe4beb51082c5a5e2910c1fd5dbe6edca415055"
+    },
+    {
+      "path": "research/conservative-gaussian-rounding/PROOF.md",
+      "usage": "provenance",
+      "pin": "head:a4173e810c4d34a1d13b9745af123ad0ec6cfed5:research/conservative-gaussian-rounding/PROOF.md",
+      "git_blob": "b7047476aaa5e2bb149c92a8a40a9b2ab444ef73",
+      "sha256": "122eff335674d8de1bcba47d28feb0c420be62b2b6d4e84f91c4292383753380"
+    },
+    {
+      "path": "research/rational-norm-rounding/PROOF.md",
+      "usage": "provenance",
+      "pin": "head:eaa967e7e8aa12cc53ec246a5fc00c5f8873a50b:research/rational-norm-rounding/PROOF.md",
+      "git_blob": "ffb873b2749b1590df9267e802aea5af2c2a6eb5",
+      "sha256": "231b1b322b6be2a798d1807f5c0346ac4002323384b45cd4eff2a0ef7210bc00"
+    },
+    {
+      "path": "research/global-bilateral-half-gaussian-rounding/proof/PROOF.md",
+      "usage": "provenance",
+      "pin": "head:26226aa52337e6e94bc0cdf3cf6b89d16bb42f5f:research/global-bilateral-half-gaussian-rounding/proof/PROOF.md",
+      "git_blob": "469fe11c43281e369d4aea172fe7780ca7115983",
+      "sha256": "1b7bf1e00a3b9dc44ff603222423c94bba15cc9450df6483601f328993cfdf42"
+    },
+    {
+      "path": "research/gaussian-rounding-tensor-obstruction/PROOF.md",
+      "usage": "provenance",
+      "pin": "head:f711bd201a037ba6a7e3fed72d00bfcbf4f0420a:research/gaussian-rounding-tensor-obstruction/PROOF.md",
+      "git_blob": "8da4abbf5e3b3eb7fc02fc24feeea6cff631f439",
+      "sha256": "8d5480e061b9ec00b5d9bbcf6d1c6945857606814efd526ddf4c3d2c72ec81ec"
+    }
+  ],
+  "external_primary_provenance": "PR #6509 and #6619 provide the conserved pair operator and outward-slack question. CubeJerry's PR #6778 proves universal same-map row/column noncommutation for globally Gaussian-unit-covariant maps exact on integral ideal images; our map meets those hypotheses at n=1. The current global-half branch at 26226aa52337e6e94bc0cdf3cf6b89d16bb42f5f is related work under a different, less constrained contract. Exact head pins, paths, Git blobs and SHA-256 values are listed above.",
+  "local_inputs": "All executable checkers and proof artifacts are package-local. VERIFY.json declares no external inputs or runtime dependencies.",
+  "role_boundary": "The root supplied the candidate formula and separate Fraction checker; the proof/integer checker role formalized the same formula. See ROLE-BOUNDARIES.md; this is not blind or formal review.",
+  "local_artifacts": [
+    {
+      "path": "TASK.json",
+      "sha256": "aa313d4dda30913b58266ab5508762e527871b29361cefb08cd1c660e15722cc"
+    },
+    {
+      "path": "VERIFY.json",
+      "sha256": "4c389a8507288c213ff4d76542ed3e7246ba627b85b28b472be5cc83a1db3641"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f63e6dac466a9808d73572f229e268d255b89f346125e6c260fa568349eebec0"
+    },
+    {
+      "path": "ROLE-BOUNDARIES.md",
+      "sha256": "955be469c506bc2a8b70fd44c99b06ccc0304db067aadd63246adc3f36f61f19"
+    },
+    {
+      "path": "PR-DESCRIPTION.md",
+      "sha256": "98880cda682f4910b89ebc48117d5799300cc4a7dd54df356c6e1ef0b8e366c2"
+    },
+    {
+      "path": "PR-TITLE.txt",
+      "sha256": "00e76503929eea8b25ce1cf99babd9628f20109371e2fd84a523f7c4647c62a9"
+    },
+    {
+      "path": "verify.py",
+      "sha256": "3c073f093c6a13ea5cde378438ed582828a0a81797c9250b716344a8e8c1d3e9"
+    },
+    {
+      "path": "proof/PROOF.md",
+      "sha256": "8a989e48c3e831dbfef358d62d23140ee59110421483113ae7bde9bd90866ec0"
+    },
+    {
+      "path": "proof/check.py",
+      "sha256": "eaabeae3fc486342c7d0b3358ed4f8ec2bf17c5de86d4ea3906a37015438a961"
+    },
+    {
+      "path": "proof/RESULT.json",
+      "sha256": "8e2100f789f228200bebd821c728edc8460db026491b40d72948843c9a93784f"
+    },
+    {
+      "path": "proof/SOURCES.json",
+      "sha256": "5d772ce4e25a8771ce68c2837a9debf6478e4f383025c7adccfd2e5c076f1337"
+    },
+    {
+      "path": "proof/NOTICE.md",
+      "sha256": "4be40635181e0d8e07f5952b1fcb71d64ed1fd568e2a1065afc157585908a617"
+    },
+    {
+      "path": "proof/README.md",
+      "sha256": "18124fe6711dbc5fbb6ad5e9c042629011365fad3ff7c3691f373727f9fab484"
+    },
+    {
+      "path": "proof/FREEZE.md",
+      "sha256": "cfd61ce0e5d90b5001b0941247209d40ca852f5b6e999d5a8944bbafb4bd0e99"
+    },
+    {
+      "path": "proof/CHECKSUMS.sha256",
+      "sha256": "fa2aaab2fd7165400e83076c64715c3cc8399d39ba3c5aef7af8f79d4c05ec51"
+    },
+    {
+      "path": "review/root/check_candidate.py",
+      "sha256": "54f2a4b824fd3349fd3136cedcfb380831d28c992246ae0dd82d0b15809d492b"
+    },
+    {
+      "path": "review/root/RESULT.json",
+      "sha256": "b0a77238d4b0124b0a752ecfb55f97337ab11dd224334f283f01bd14135b28c3"
+    },
+    {
+      "path": "review/root/README.md",
+      "sha256": "77ed19f82d953ff7bc36847cb8a16877655baee02fbb61303a35d3a20acb93ca"
+    },
+    {
+      "path": "review/root/ROOT-ARITHMETIC-AUDIT.md",
+      "sha256": "f7b0cd93a85bc74ba33155aba9c206c35c1982c132f9aa6a13e679b171b7675c"
+    },
+    {
+      "path": "review/CROSS-CHECK-RESULT.json",
+      "sha256": "bc20a30022f09a2aa3a0a86e0e2affac5d9decdbced9ed8f3d55b0f790ccb007"
+    },
+    {
+      "path": "PUBLICATION-CHECKS.json",
+      "sha256": "f91210d7be3af347341587db9839cf9792be55eaa00e80441bf476b1024c5e86"
+    }
+  ]
+}
