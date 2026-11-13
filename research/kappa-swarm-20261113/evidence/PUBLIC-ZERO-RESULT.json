@@ -1,0 +1,70 @@
+{
+  "status": "PASS_PUBLIC_EXACT_ZERO_REFRAME_INTERFACE",
+  "source_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+  "clifford_sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+  "source_instructions": 76475,
+  "event": 48865,
+  "instruction": [
+    "MOVE",
+    1343,
+    252,
+    127,
+    false
+  ],
+  "public_owner": 1343,
+  "specialized_helper": 1354,
+  "exact_latent_row": {
+    "1354": "-4"
+  },
+  "from_frame": [
+    45,
+    448
+  ],
+  "to_frame": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "paid_rank": 7,
+  "prefix_instructions": 48866,
+  "prefix_counts": {
+    "INIT": 72,
+    "ADD": 40158,
+    "SCALE": 2558,
+    "MOVE": 6008,
+    "CLEAR": 69,
+    "COPY": 1
+  },
+  "zero_converter_check": true,
+  "retained_public_allocation": true,
+  "wrong_helper_specialization_control": true,
+  "independent_basis_driver_cases": 6,
+  "wrong_nonzero_control": {
+    "latent_helper_basis": 0,
+    "differing_components": 512,
+    "first_difference": 0,
+    "before": [
+      "0",
+      "-2"
+    ],
+    "after": [
+      "-1/8",
+      "-1/8"
+    ]
+  },
+  "tiny_nonzero_control": true,
+  "canonical_zero_width_controls": [
+    1,
+    7,
+    65,
+    513
+  ],
+  "seconds": 6.115349831001367,
+  "scope": "Local interface equivalence under exact whole-field zero. General all-positive multiplicities proof is structural linearity; this finite test is not an all-size or precision admission. No public CLEAR/INIT, allocation change, machine alphabet extension, or kappa claim."
+}

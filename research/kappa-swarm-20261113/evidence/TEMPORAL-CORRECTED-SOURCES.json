@@ -1,0 +1,52 @@
+{
+  "status": "CORRECTED_INTERFACE_AUDIT_NO_SOURCE_ADMISSION",
+  "supersedes": "Earlier draft used the older 18-call word, retained the MOVE, applied an obsolete restricted scalar list as a universal ban, and used a flat per-route physical charge.",
+  "current_source": {
+    "path": "worker-a/inputs/pr7481-WORD.json.gz",
+    "sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+    "reported_shape": {
+      "public_fields": 1501,
+      "owned_field_ids": 68,
+      "program_events": 76475
+    },
+    "call_count": 17,
+    "call_count_note": "Current #7481 signed caller per root instruction; the compressed native word itself is one invocation."
+  },
+  "generic_fixed_rational_service": {
+    "path": "reference/docs/research/pr-intake-evidence/pr7000-application/PROOF-REVIEW.md",
+    "sha256": "4501502c2ceb9759b20372435fe4beb51082c5a5e2910c1fd5dbe6edca415055",
+    "section": "4",
+    "role": "Fixed-rational exact carry/remainder service and 2^20 per padded component-bit service reserve; fixed rational denominators are not restricted to {2,3,5} when exact division succeeds."
+  },
+  "generic_route_record_bound": {
+    "path": "reference/docs/research/pr-intake-evidence/pr7000-application/PROOF-REVIEW.md",
+    "sha256": "4501502c2ceb9759b20372435fe4beb51082c5a5e2910c1fd5dbe6edca415055",
+    "section": "6",
+    "role": "Symbolic elementary-record bound 4(n+1)^2 per n-axis binary monomial and per-record cost C_move*V*((f*log(p))^tau+1), plus setup; no flat physical-record constant."
+  },
+  "legacy_restricted_scalar_validator": {
+    "path": "worker-a/selected/independent.py",
+    "sha256": "21f46a8340331abb1486b50bd4e04453f1968b0a5950d86ff7780dd368590874",
+    "role": "Older selected #7000 word grammar provenance only. Its {2,3,5}-smooth scalar check is not the general exact fixed-rational service condition used here."
+  },
+  "local_review": {
+    "path": "REVIEW.md",
+    "sha256": "ae3afd7565aa3f6bdc27e105201ff35b17439652768f86f2a96d815cecd549fe"
+  },
+  "local_controls": {
+    "script": "controls.py",
+    "receipt": "CONTROLS.json",
+    "receipt_sha256": "ac6de4b50158c958bbad795d3aec835a8adce5749e92faf4059fdecfe147ba02",
+    "script_sha256": "092c0c1cc3e32aae72d4d795234ff1e6e15dff58eee52415ac09a69dfad45144"
+  },
+  "local_validation": {
+    "path": "VALIDATION.json",
+    "sha256": "de3c3346841580e26e1f2033c7783cb76cc28b30db88d875ced2ebf1bedbca07",
+    "role": "Normal and optimized runs; identical receipts."
+  },
+  "gaussian_phase_control": {
+    "path": "worker-a/selected/frozen/clifford_exact.py",
+    "sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "role": "Exact Clifford convention for C_v=(1+i)I/2+(1-i)X/2 used only by the nonidentity synthetic chart control."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "normal_and_optimized_stdout_identical": true,
+  "calls": 17,
+  "source_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+  "grid_scope": "synthetic Gaussian integer test grid scale 2; no current #7481 grid asserted",
+  "coverage": "exact unitary phase-sensitive C_v, cumulative B/A observations, exact denominator-7 division, wrong scalar witness, wrong chart bytes, executed rejection of nonzero CLEAR",
+  "runs": [
+    {
+      "mode": "normal",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "worker-c/temporal-two-cache-review/controls.py"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "ac6de4b50158c958bbad795d3aec835a8adce5749e92faf4059fdecfe147ba02",
+      "controls_sha256": "ac6de4b50158c958bbad795d3aec835a8adce5749e92faf4059fdecfe147ba02"
+    },
+    {
+      "mode": "optimized",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "-O",
+        "worker-c/temporal-two-cache-review/controls.py"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "ac6de4b50158c958bbad795d3aec835a8adce5749e92faf4059fdecfe147ba02",
+      "controls_sha256": "ac6de4b50158c958bbad795d3aec835a8adce5749e92faf4059fdecfe147ba02"
+    }
+  ]
+}

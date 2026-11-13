@@ -1,0 +1,51 @@
+{
+  "canonical_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "word": {
+    "path": "reference/pr7481/WORD.json.gz",
+    "sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+    "pr": 7481,
+    "instructions": 76475
+  },
+  "caller": {
+    "path": "reference/pr7481/CALLER-EXACT.json",
+    "sha256": "255d89f38cd45e38e5770f559bc43dc217e989032359768cdc7e8cdfd64b47bc",
+    "bytes": 117156,
+    "git_blob": "9451ceaf6e8e037894680b549f3ef41c21b260d7",
+    "native_calls": 17
+  },
+  "related_canonical_files": [
+    {
+      "path": "research/p104-designer-toolkit-v2/alias_core.py",
+      "sha256": "a45762852f5ed55e2ff6c3ed2ba01abf12193db9d6a2b18a4aee0aaf99105b33"
+    },
+    {
+      "path": "research/p104-designer-toolkit-v2/P104-LEMMAS.md",
+      "sha256": "54263ecdcabb067b1f77749ae60cb1f430c02fd720b63e5e39f358f6bfee78ec"
+    },
+    {
+      "path": "research/p104-designer-toolkit-v2/P104-THEORY.md",
+      "sha256": "8087ef0533d36bf234916401dbdc6a49f23cceaf088c0b417d26d0b8d347fb4d"
+    },
+    {
+      "path": "research/p104-designer-toolkit-v2/split.py",
+      "sha256": "a5103b8802542dce9eb552e7000ec9ed8821cdc5c01353c5d9592b076d0894ae"
+    },
+    {
+      "path": "research/p104-native-input-lifting/PROOF.md",
+      "sha256": "7207c047aa18aa97f304df99057978c37f612ef710f35354216b9956f906fe81"
+    }
+  ],
+  "related_PR_heads": [
+    {
+      "pr": 6170,
+      "repo": "DreamingOfClouds/integer-mult-bounds",
+      "head": "445fb9124eb3fcb5d4f342c476b9ae3637f185aa"
+    },
+    {
+      "pr": 6349,
+      "repo": "aliromman/integer-mult-bounds",
+      "head": "af7cb6c67f8fc7d82a2e4aee2dd2f07481bf6690"
+    }
+  ],
+  "note": "Related source text was inspected at the canonical commit; PR heads identify lineage, not an assertion that every later canonical byte is unchanged."
+}
