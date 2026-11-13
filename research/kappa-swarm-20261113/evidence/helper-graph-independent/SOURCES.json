@@ -1,0 +1,69 @@
+{
+  "reference_inputs": {
+    "native_word": {
+      "path": "worker-a/inputs/pr7481-WORD.json.gz",
+      "sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+      "bytes": 381925
+    },
+    "B_rows": {
+      "path": "worker-b/helper-graph/ROWS.json",
+      "sha256": "15de6d0e53a846efdd5d3f9b34beb8d57fc51534967cc464b12c305ed2cf1834",
+      "use": "Only compared after independently replaying all native rows."
+    },
+    "B_matroid_receipt": {
+      "path": "worker-b/helper-graph/MATROID-COMPONENTS.json",
+      "sha256": "32a0f298f0ace5f0ff1a91b5a9b4e0f32984abd75f56f6f9259ca5c6b4dae74b",
+      "use": "Source binding and summary cross-check after independent derivation."
+    },
+    "B_power_receipt": {
+      "path": "worker-b/helper-graph/POWER-RESULT.json",
+      "sha256": "4d933e76ea47c29c918c886599fbeef5996c366dc1f2d773e46e2b2b31494fba",
+      "use": "Read for task scope/status only; no rank or subset result imported."
+    }
+  },
+  "independent_artifacts": {
+    "rebuild_rows.py": {
+      "sha256": "236dc79cb6bc355083e1e755a28549c98bb66733e80f3175eb061dfeb0d155ac",
+      "bytes": 7703
+    },
+    "verify_structure.py": {
+      "sha256": "dfe4b0dd7a96e41f10e79651d6c6e9501ca87e69909468d9eced228d3f7ab0cc",
+      "bytes": 11967
+    },
+    "verify_subsets.py": {
+      "sha256": "eae7fd1b3ffd3db9ef256c08ef46204d45e191a8a36a24e08925d8fd2125df62",
+      "bytes": 9211
+    },
+    "REBUILT-ROWS.json": {
+      "sha256": "8311ce7de46e804bc2bc730fec6597a0cc0e848cf8985f3a27ad2927c01ae475",
+      "bytes": 303922
+    },
+    "STRUCTURE.json": {
+      "sha256": "f81f9206f852e270e0276fffbe9bbda513fe716dad6cb30d39bc0d8abc6a9cde",
+      "bytes": 15221
+    },
+    "SUBSET-RESULT.json": {
+      "sha256": "a002eb029a077e21b8c6c490eeb3e40546030d7ed4e51c60b432f699e3980120",
+      "bytes": 18785
+    },
+    "PROOF.md": {
+      "sha256": "d3b71b32e9a512b7df8cdbc8a0beb661318d47fe68ac615096fecf62ec07ea45",
+      "bytes": 9770
+    }
+  },
+  "mode_reproducibility": {
+    "rebuild_rows.py": {
+      "normal_and_python_-O_output_sha256": "8311ce7de46e804bc2bc730fec6597a0cc0e848cf8985f3a27ad2927c01ae475",
+      "identical": true
+    },
+    "verify_structure.py": {
+      "normal_and_python_-O_output_sha256": "f81f9206f852e270e0276fffbe9bbda513fe716dad6cb30d39bc0d8abc6a9cde",
+      "identical": true
+    },
+    "verify_subsets.py": {
+      "normal_and_python_-O_output_sha256": "a002eb029a077e21b8c6c490eeb3e40546030d7ed4e51c60b432f699e3980120",
+      "identical": true
+    }
+  },
+  "scope": "Independent review only: exact native-source helper rows, retained original helper coordinates, no edited supplier or changed word."
+}

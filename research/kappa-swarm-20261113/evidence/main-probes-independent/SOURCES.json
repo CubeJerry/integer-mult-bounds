@@ -1,0 +1,37 @@
+{
+  "native_word": {
+    "path": "worker-a/inputs/pr7481-WORD.json.gz",
+    "sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+    "bytes": 381925
+  },
+  "A_candidate_selector": {
+    "path": "worker-a/cache-main/RESULT.json",
+    "sha256": "45d580c2b5c691564dba5fa27cd00496178e79e34918bfa59032dfb5020481d1",
+    "use": "Only candidate MOVE event IDs and the earlier_B_hit filter were used. No projected bases, targets, or hit/survivor records were examined."
+  },
+  "independent_artifacts": {
+    "derive.py": {
+      "sha256": "dac9d97b982e6d39236e925f49a025cb68ba3dc3fe1c9903d340deab45036b22",
+      "bytes": 10160
+    },
+    "verify_probes.py": {
+      "sha256": "11736b7f0240239bddff053ef8bf57cfb2d88972fb9a986a05d0dbb6fea60bfd",
+      "bytes": 9164
+    },
+    "PROBES.json": {
+      "sha256": "440b45249eb28596d2dbcfcff5e13dd9c9f435c6f6303aff22e2207a6b1a5aa5",
+      "bytes": 14636
+    },
+    "VALIDATION.json": {
+      "sha256": "dfd982514187a21a6272afeb97c82a16534ffd4d3d39f359d658b9836d23598a",
+      "bytes": 1654
+    },
+    "REPORT.md": {
+      "sha256": "40ca18156c97df7b11184714d205c0dd0df141b65cc9e0ca856ba7f4b3e68414",
+      "bytes": 7196
+    }
+  },
+  "reproducibility": {
+    "normal_vs_optimized": "PROBES.json and VALIDATION.json were byte-identical after normal and python -O runs."
+  }
+}
