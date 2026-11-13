@@ -655,3 +655,28 @@ The current package results/s008-recovered-cut-and-entry/ proves causal retained
 The new complete-target cut removes the pureGramHub premise, but its unrestricted nested-edge price relaxation is exactly8 via zero→span511, where no original private carrier can consume. Consumer-access and continuation constraints or a genuine global current-row construction are therefore primary. The actual concurrent cyclic22/rank82 source remains a construction lead; do not assume its unfinished map isP-I or reset spent paths. No new complete kappa, not PR-ready; both strict suppliers and all five foundations remain.
 
 Verification and interruption recovery are explicit: original entry payloads recovered byte-for-byte, new gzip wrappers and proof/checker files, separately reported independent review, exact source/interval/symbolic checks and negative controls. Remaining unavailable artifacts are named. This remains an ongoing programme; no upstream PR is submitted. @CubeJerry attribution, source/predecessor/concurrent S009 credit and substantial OpenAI assistance apply.
+
+## S010 added contribution: actual packet reuse and sharp no-line acquisition
+
+The cumulative package now includes actual cotangent packet-cycle words with
+independent full-input, chronology, lifecycle and phase review, plus a proved
+mixed-observation/Schur criterion identifying the coupled self-response still
+needed. The cycle is a valid source interface, locally dominated at present;
+no missing response is omitted from its complete invoice.
+
+The at-most-nine no-line return theorem is an all-volume result with a sharp
+8*9^t optimum for0<t<=1, not a finite-search impossibility claim. Its proof
+uses an arbitrary-volume zero-born quotient reduction, root-population caps,
+primitive E6/D6 lattice completeness and independently reconstructed source
+censuses. The retained full caller fails for every fixed m. Eligible line
+births and genuinely changed/funded interfaces remain outside the result.
+
+Full proofs, frozen author manifests, independent reviews, reproduction
+scripts and negative controls are in
+[cotangent-packet-cycles](results/cotangent-packet-cycles/ADMISSION.md) and
+[nine-packet-no-line-gate](results/nine-packet-no-line-gate/ADMISSION.md).
+Credit: @CubeJerry, all pinned native/E8/current-row predecessors, worker A
+construction, worker B geometry/quotient work, worker C independent source
+review and root algebra/source review; substantial AI assistance disclosed.
+**No new κ.** Both strict suppliers and all five foundational assumptions
+remain. This is an ongoing programme; the cumulative branch is not PR-ready.

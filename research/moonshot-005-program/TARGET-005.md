@@ -726,3 +726,26 @@ the source assumptions cannot be transferred to actual mixed Hub rows for free.
 
 Source, proof, independent exact brackets and priced-branch review are in
 results/fresh-eight-acquisition-optimum/. No new complete κ.
+
+## S010 checkpoint4 — complete bills for cycles and no-line returns
+
+Set t=199/200. The exact no-line at-most-nine acquisition optimum is8*9^t,
+with all original D paths direct and every whole-field return charged. In
+the retained eight-forward/eight-entry fixed-m interface, its limiting bill
+exceeds the return allowance70.619521110466... by.593807189930... . Every
+finite m adds31.539778367085.../(m-1). The theorem assumes unchanged D values,
+single birth charts, births0 or dimension>=2, no extra informative moving
+fields and no free Hub information. It does not close eligible-line births.
+
+Actual cotangent cycles use an already-paid forward packet before retirement,
+but their return MOVEs, caches, additions and full caller are charged. The
+one-cycle m3 invoice has31296 targets and155952 paid positions, with1.424785047349716...
+remaining moment per rail. Its rank57 residual and full forward debt remain.
+The eight-cycle rank51 is locally dominated by seven coordinate returns.
+
+For a potential coupled redesign E=[[G,A],[T,I+S]], A=GC and T=DG give
+rank(E)=rank(G)+rank(I+S-DA). The actual source cross blocks have DA=G_UU,
+rank(G_UU)=7 and det(I-G_UU)=-7/64. A proposed G_UU-I self-response is a
+physical construction obligation, not a free algebraic substitution.
+Given current Hub z=n+Rs, a returned Pn+Qs contributes (Q-PR)s, so raw rows
+cannot be credited without this conditioning. No supplier or κ is inferred.

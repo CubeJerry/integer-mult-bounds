@@ -591,3 +591,34 @@ This closes larger fixed multiplicity as a repair of this precise fresh-eight
 interface. It does not settle nine/overcomplete, multi-chart, mixed or funded
 returns, or a changed coupled/forward source. The next positive obligation
 remains actual earlier joint Q completion, including every forward row.
+
+## S010 checkpoint4 — admitted packet cycles, coupled gate and nine-field scope
+
+**COTANGENT-CURRENT-RETURN — proved finite source construction.**
+For every400-input valuation the emitted one/eight-cycle rails preserve the
+parent endpoints, retained reverse completions and stated owned lifecycle;
+their exact maps have residual rank57/51. The one-cycle fixed-m3 lift is
+independently replayed on2280 inputs. Dependencies and phase maps are pinned
+in results/cotangent-packet-cycles/. These do not complete global Q.
+
+**COUPLED-SELF-RESPONSE — algebra proved; construction open primary.**
+The general mixed-observation and Schur criteria are proved for all finite
+linear interfaces. Source-specific ranks and the kernel are independently
+reconstructed. Realize the required G_UU-I response and any additional cache
+with authentic chronology while preserving earlier forward reads. The
+existing packet cycles retain eight entry calls and do not realize it.
+
+**NINE-FRESH-NO-LINE — proved all-volume scoped optimum.**
+Over characteristic zero, for every V>=1, at most nine fresh whole-V returns
+born at0 or dimension>=2 from unchanged monotone D paths need moment>=8*9^t
+for0<t<=1. The source/packet hypotheses, zero-born z>=6 dependency, primitive
+E6/D6 completeness and exact census are in results/nine-packet-no-line-gate/.
+The inherited complete tariff excludes this class for every fixed m.
+Eligible one-dimensional births, multi-chart assembly, extra moving copies
+and actual useful Hub observations remain open and are not excluded here.
+
+**BIT-JOINT-CURRENT-ROW — unresolved candidate.**
+Root is investigating the actual111-port BIT source, which has a different
+contact graph from the complex source. A rank9 binary fitting and optimistic
+even-m budget have been screened but no complete word, rigorous budget
+admission or strict BIT supplier is established at this checkpoint.

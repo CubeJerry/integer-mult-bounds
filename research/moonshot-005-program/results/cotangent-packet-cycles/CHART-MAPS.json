@@ -1,0 +1,100 @@
+{
+  "all_other_pairs_inherited_from_parent": true,
+  "engine_pins": {
+    "clifford_exact.py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "native_verify.py": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38"
+  },
+  "parent_rail_sha256": "a235a7e58f9eb96c6d409a88095fd6b59c977977baabb8735c76b2b820dcbedc",
+  "rank": 9,
+  "recipe": {
+    "left": {
+      "linear_Z4": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "matrix_rows": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "rank": 9,
+    "right": {
+      "linear_Z4": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "matrix_rows": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "offset": 511,
+      "phase": 1,
+      "quadratic_rows": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "source": 3,
+  "status": "PASS_EXACT_PACKET_CYCLE_UP_RETURN_MAP",
+  "target": 127,
+  "words": [
+    {
+      "path": "/workspace/scratch/8ecb87d11ef5/worker-a/next/cotangent-packets/one/rail-cycle.json.gz",
+      "sha256": "0fd5854058b79c31802fc1f4a17903c502e04696ac3faa6bc302d54159c4b75b"
+    },
+    {
+      "path": "/workspace/scratch/8ecb87d11ef5/worker-a/next/cotangent-packets/eight/rail-cycle.json.gz",
+      "sha256": "e5f97e22764b07700cad9da8144eb02bb35c6003aa4d236b6ce600f6e0aec218"
+    }
+  ],
+  "wrong_global_phase_rejected": true
+}

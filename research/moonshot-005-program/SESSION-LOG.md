@@ -847,3 +847,23 @@ returns. Packet-cycle source review and a new arbitrary-V quotient argument
 are active but not admitted by this checkpoint. The full global forward
 construction remains open. No new completeκ; not PR-ready. Resulting remote
 SHA will be recorded only after GitHub confirmation in the next receipt.
+
+## 2026-11-13-S010 — checkpoint4, session continuing (2026-11-13 05:56:26 UTC)
+
+Confirmed checkpoint3 remote e9568f235c5544dc6dae3ac96eb7649eac2e8c7d, full tree8ea2433335cbbbe04a27658c0f68654d9c0d01e3,
+is the parent baseline. The requested session remains active toward13:27:03UTC.
+
+Admitted actual cotangent packet returns, their independent all-input/phase
+review, and the separately proved coupled information gate. One/eight cycles
+lower rank58 to57/51; eight cycles yield only seven useful modes and are
+locally dominated. The literal one-cycle m3 keeps the complete caller bill.
+Proved and independently reviewed the at-most-nine no-line fresh-return
+optimum and all-fixed-m obstruction, including the arbitrary-volume zero-born
+lemma and primitive E6/D6 source completeness. Preserved the distinct open
+eligible-line case and all current endpoint debts.
+
+Next work constructs earlier coherent coupled response and tests an actual
+BIT rank9/current-row interface on its different source geometry. Numerical
+three-line quotient searches and incomplete arbitrary-kernel classification
+are not promoted to theorems. No new complete κ; no upstream PR; not PR-ready.
+Resulting remote SHA is recorded only after confirmation in a later receipt.

@@ -1,3 +1,33 @@
+## S010 checkpoint4 — actual returned information and a larger fresh-packet gate
+
+The cotangent packet-cycle interface is now independently admitted. A used
+forward packet can collect a genuine D functional before those inputs depart,
+pay its rank9 return, cancel its known forward part in the returned packet,
+and retain the D observation at the Hub. Literal one/eight-cycle rails preserve
+all400 inputs and the24 existing reverse completions, lowering the residual
+rank58 to57/51. Only seven of the eight observations help; seven cheaper
+coordinate returns achieve the same rank51. The actual one-cycle m3 word
+preserves2280 inputs but leaves only1.424785047349716 moment per rail. These
+are valid partial constructions, not a completed endpoint or supplier.
+
+The coupled Schur gate now identifies the missing self-response exactly.
+For the proposed native cross blocks, only the actual G_UU-I self-response
+reduces the joint correction rank to8; the eight coupled entry calls remain
+in every admitted word. Mixed returned rows must be conditioned on current
+Hub information before rank credit is assigned.
+
+The at-most-nine fresh-return interface with births at0 or dimension at
+least2 also has a sharp all-volume optimum8*9^t for0<t<=1. The proof includes
+a zero-born quotient argument, source caps and complete E6/D6 lattice census.
+At the retained eight-forward/eight-entry tariff it misses the limiting
+target by.593807189930 per rail. Eligible line births, changed current values
+and genuinely shared informative transit remain outside this theorem.
+
+The programme continues with an earlier coherent coupled response and an
+explicitly unverified BIT rank9/current-row candidate on its distinct native
+geometry. Both strict suppliers and all five foundations remain open.
+**No new complete κ; active ten-hour session; ongoing programme, not PR-ready.**
+
 ## S010 checkpoint3 — exact fresh-eight acquisition optimum
 
 The unchanged-source, single-chart return interface now has an exact optimum.

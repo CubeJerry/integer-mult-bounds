@@ -469,3 +469,13 @@ A targeted external literature lookup found E8 orthogonal-basis/Kochen-Specker a
 ## S010 checkpoint2 scope update
 
 The new minimum-rank operator fitting rigidity is a source-bound programme proof, not a theorem imported from the external E8 literature. It uses the exact pinned96/104 native support. The canonical upstream/selected certificate remains unchanged in this checkpoint; no open PR is promoted or merged. Continue targeted upstream checks later in the active session if relevant changes appear.
+
+## S010 checkpoint4 source compatibility note
+
+No new upstream result is imported at this checkpoint. The no-line theorem
+uses the already-admitted E8 coordinate-return lattice argument with its
+existing credit and source pins. The actual paired-query-only BIT native has
+111 ports and rational orthogonal-facet geometry, distinct from the complex
+104/96-port binary-chart graph. Neither minimum-rank rigidity nor a proposed
+characteristic-two graph obstruction may be transferred between them without
+checking the graph and complete interface. New BIT work remains exploratory.

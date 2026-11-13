@@ -1,3 +1,24 @@
+# Current continuation — S010 checkpoint4
+
+Resume exact remote HEAD; parent baseline is e9568f235c5544dc6dae3ac96eb7649eac2e8c7d.
+The session remains active03:27:03–13:27:03UTC on13 November2026.
+Read cotangent-packet-cycles and nine-packet-no-line-gate ADMISSION.md files.
+Their independent reviews are complete. Do not reopen fixed-m lifting,
+characteristic-zero rank8V rigidity, fresh-eight acquisition or the no-line
+at-most-nine class. Eligible line births remain open. Actual cotangent returns
+are useful interface evidence but dominated, with all endpoint debts retained.
+
+Primary construction: realize an earlier coherent coupled self-response while
+preserving genuine forward packet reads, or another complete joint current-row
+Q. Root is exploring the distinct actual BIT source's rank9 fitting and an
+even-m shared-native interface; no complete BIT code or admitted price yet.
+Worker B has a characteristic-two parity-frame lead on the COMPLEX graph,
+awaiting root review. Do not conflate that graph with the actual BIT native.
+All five foundations, both strict suppliers and global endpoint completion
+remain. No new complete κ; ongoing programme, not PR-ready.
+
+Earlier continuation sections below are retained historical evidence.
+
 # Current continuation — S010 checkpoint3
 
 Resume exact remote HEAD and STATE.json. The verified parent checkpoint is

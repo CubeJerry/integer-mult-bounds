@@ -1,0 +1,114 @@
+{
+  "author_manifest_sha256": "1acafa8b51766dafff868959026829e41b4c1682c1f0b98fe0366ae719d8caea",
+  "cycles": {
+    "eight": {
+      "bank_retiming_events": {
+        "dual": 2181,
+        "primal": 3061
+      },
+      "cache_formula_verified": true,
+      "completed_rows_after": 24,
+      "cycles": 8,
+      "forward_rows_unchanged": true,
+      "moves": 848,
+      "new_return_calls": {
+        "9": 8
+      },
+      "newly_completed_rows": [],
+      "observation_rank": 8,
+      "operations": 6477,
+      "owned_lifetimes": 410,
+      "peak": 30,
+      "previously_completed_rows": 24,
+      "rank_after": 51,
+      "rank_before": 58,
+      "stack_rank": 59,
+      "status": "PASS"
+    },
+    "one": {
+      "bank_retiming_events": {
+        "dual": 2181,
+        "primal": 3061
+      },
+      "cache_formula_verified": true,
+      "completed_rows_after": 24,
+      "cycles": 1,
+      "forward_rows_unchanged": true,
+      "moves": 841,
+      "new_return_calls": {
+        "9": 1
+      },
+      "newly_completed_rows": [],
+      "observation_rank": 1,
+      "operations": 5387,
+      "owned_lifetimes": 403,
+      "peak": 29,
+      "previously_completed_rows": 24,
+      "rank_after": 57,
+      "rank_before": 58,
+      "stack_rank": 58,
+      "status": "PASS"
+    }
+  },
+  "full_caller_sha256": "d9ba709fa5dcefffe3f3abdcf34600ce188224703cfd743e6db8b58ba4816cb7",
+  "locally_dominated_coordinate_returns": {
+    "all_facet_to_hub_pairs_inherited": true,
+    "movement_price": 7,
+    "ports": [
+      84,
+      91,
+      92,
+      94,
+      95,
+      98,
+      99
+    ],
+    "rank_sequence": [
+      57,
+      56,
+      55,
+      54,
+      53,
+      52,
+      51
+    ]
+  },
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "new_chart_map": {
+    "exact_zero_state_support": 512,
+    "global_phase_match": true,
+    "new_pair": [
+      3,
+      127
+    ],
+    "pauli_generators_checked": 18,
+    "rank": 9,
+    "wrong_phase_control_rejected": true
+  },
+  "one_cycle_m3": {
+    "all2280_rows_checked": true,
+    "input_directions": 2280,
+    "moves": 7992,
+    "operations": 83635,
+    "owned_lifetimes": 860,
+    "paid_positions": 155952,
+    "peak": 43,
+    "per_rail_moment_bounds": [
+      "677298607675902573523491908273/475368975085586025561263702016",
+      "1806129620469073529395978424509/1267650600228229401496703205376"
+    ],
+    "rank_surplus": 4056,
+    "status": "PASS",
+    "target_positions": 31296
+  },
+  "parent_rail_sha256": "a235a7e58f9eb96c6d409a88095fd6b59c977977baabb8735c76b2b820dcbedc",
+  "scope": "Actual source packet reuse and mixed current-row consumption only. No full forward off-diagonal acquisition, no absorption of coupled eight entry calls, and no supplier or kappa. Condensed-gate source rank/general algebra not re-reviewed here.",
+  "status": "PASS_INDEPENDENT_COTANGENT_PACKET_REVIEW",
+  "unretimed_negative_control": {
+    "actual_source_chart": 128,
+    "first_old_clear": 3594,
+    "first_required_D_source": 304,
+    "rejected": true,
+    "required_source_chart": 3
+  }
+}

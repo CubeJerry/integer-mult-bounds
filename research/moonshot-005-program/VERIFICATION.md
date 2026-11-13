@@ -721,3 +721,26 @@ and review bytes remain unchanged, with later admission in ADMISSION.md.
 Installed-path replay is corroboration of the independent reviewer, not a
 second independent implementation. No finite computation substitutes for the
 universal capacity/chronology argument. All older scientific bytes preserved.
+
+## S010 checkpoint4 — independent source and all-volume gate reviews
+
+Worker C independently reconstructed the cotangent retiming, one/eight-cycle
+words and one-cycle m3 word; all400/2280 input directions, current cache
+values, lifecycle/counts and new phase map agree. A wrong-phase mutant is
+rejected. Root separately reconstructed the coupled source matrices and
+proved the conditioned observation and Schur criteria, including a returned-z
+zero-information control. The frozen proof's subtraction wording is clarified
+in ADMISSION.md: the returned packet is the subtraction target, not the Hub a.
+
+Root independently enumerated43,435 binary2-subspaces,788,035 binary3-subspaces,
+1,120 E6/A2 and3,780 D6/A1^2 complements, checked the six three-direction
+cases, rebuilt a positive nine-row witness using a different basis order,
+and checked integer200th-root tariff intervals. Root reviewed the all-V and
+primitive-lattice arguments; worker B separately reviewed root's zero-born
+quotient dependency. The witness loses target containment after deletion of
+one fiber. Eligible lines are excluded from the theorem's assumptions.
+
+Final installed-path replays match all three frozen independent receipts
+byte-for-byte; CHECKPOINT4-VALIDATION.json records the hashes. This is
+corroboration, not a second independent review. Frozen author/reviewer bytes
+and all earlier scientific records remain unchanged. No new complete κ.
