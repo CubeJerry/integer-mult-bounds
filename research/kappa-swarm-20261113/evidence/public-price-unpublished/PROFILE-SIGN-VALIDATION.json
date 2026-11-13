@@ -1,0 +1,36 @@
+{
+  "all_candidates": 1066,
+  "at_kappa_1": "all profiles are zero because target and debit ranks are positive",
+  "counts": {
+    "equal": 437,
+    "negative": 253,
+    "positive": 376
+  },
+  "executed_negative_control": {
+    "equal_rank": 3,
+    "mutant_interval": [
+      "-1493750963041163536243859/500000000000000000000000",
+      "-2987501926082327072487717/1000000000000000000000000"
+    ],
+    "mutant_profile": {
+      "3": -1
+    },
+    "name": "repeated-rank dict-literal collision",
+    "rejected": true
+  },
+  "minimum_debit_ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "sign_for_kappa_in_[0,1)": "sign(target_rank - minimum_debit_rank)",
+  "source_receipt_sha256": "43115ff4f74b2c8be33f32f7c80a1bd3e9938a3ae71fd7ac83d82e4afa5372a3",
+  "status": "PASS_EXACT_PROFILE_SIGN_CROSSCHECK",
+  "zero_profiles_are_exact_equal_rank_cancellations": true
+}
