@@ -867,3 +867,28 @@ BIT rank9/current-row interface on its different source geometry. Numerical
 three-line quotient searches and incomplete arbitrary-kernel classification
 are not promoted to theorems. No new complete κ; no upstream PR; not PR-ready.
 Resulting remote SHA is recorded only after confirmation in a later receipt.
+
+## 2026-11-13-A004 — user-requested intermediate-target assessment
+
+Starting remote programme SHA 8533bc2640e0ec002bb16ba85997480ce3c3cac6;
+recorded 2026-11-13 06:30:47 UTC. This supplemental assessment preserves active S010 and the
+permanent .005 objective. It does not assert that the earlier ten-hour request
+was continuously executed or that another session's work has stopped.
+
+Three complementary workers and the lead evaluated whether current pieces
+already yield kappa>.004. Exact re-pricing proves the current private terminal
+completion still fails at .004 for every fixed m, while optimistic fresh-eight
+profiles pass even .0045 at m=6. The BIT raw gap drops to 58 rank-one units.
+Derived exact .004/.00401 wrapper thresholds and a fully explicit hypothetical
+.00401 supplier specification. Missing endpoint identities and both supplier
+admissions remain open; no complete new kappa.
+
+Reproduced three exact receipts, source-mutation controls and cross-engine
+agreement. Adversarial integration corrected one unpublished reserve sentence.
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. Rechecked open
+#7177 and read new #7480's exact proof and metadata without importing either.
+
+Package: [kappa-004-feasibility](results/kappa-004-feasibility/README.md). Final publication SHA is
+reported only after GitHub confirmation, avoiding a self-referential commit
+claim. Next: actual earlier complete joint Q and the distinct BIT provider
+inside this lower-target budget. Ongoing programme; no upstream PR.

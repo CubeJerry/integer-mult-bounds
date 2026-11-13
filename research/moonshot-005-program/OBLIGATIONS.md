@@ -622,3 +622,31 @@ Root is investigating the actual111-port BIT source, which has a different
 contact graph from the complex source. A rank9 binary fitting and optimistic
 even-m budget have been screened but no complete word, rigorous budget
 admission or strict BIT supplier is established at this checkpoint.
+
+## INTERMEDIATE-004 — exact lower-target audit, 2026-11-13
+
+Dependency: [assessment package](results/kappa-004-feasibility/README.md), the S010 fixed-m
+composition and chart-node terminal theorem, selected full caller and BIT
+histograms, completed BIT wrapper, and prior strict outer-region theorem.
+
+**Proved within the inherited terminal interface:** for every fixed integer
+m>=2 at t=249/250, the actual Q and its 31-return variant cannot be completed
+by the permitted private-only suffix within the full caller invoice. The
+limiting deficit exceeds 28.363818211591385074 and finite m is worse.
+
+**Exact finite arithmetic verified:** the optimistic fresh-eight invoice
+passes 1/240 with m=3 and .0045 with m=6; the full BIT raw invoice passes
+after 58 net rank-one credits and fails after 57. Other endpoint duties and
+the QUERY-removal provider are not constructed by these checks.
+
+**Conditionally proved arithmetic reduction; realization open:** compatible
+admitted covered C=.00403, atom rho=.00404, completed output B=.00402 and
+uniform complex U=.0041 would permit final kappa=.00401 via the retained
+wrapper and outer family. These missing suppliers are additional construction
+premises, not silently discharged foundational assumptions.
+
+Next concrete obligation: construct an earlier full Q with L=E on every
+independent input and its complete finite-m paid profile, together with the
+separate characteristic-two provider and subsequent supplier admission.
+No new complete kappa; earlier source restrictions and all five foundations
+remain explicit.

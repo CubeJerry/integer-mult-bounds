@@ -680,3 +680,22 @@ construction, worker B geometry/quotient work, worker C independent source
 review and root algebra/source review; substantial AI assistance disclosed.
 **No new κ.** Both strict suppliers and all five foundational assumptions
 remain. This is an ongoing programme; the cumulative branch is not PR-ready.
+
+## Intermediate-target contribution added on 2026-11-13
+
+The cumulative programme now includes an independently checked
+[assessment above .004](results/kappa-004-feasibility/README.md). It proves that the actual
+terminal completion obstruction survives at .004 for every fixed
+multiplicity, while exact relaxed fresh-eight invoices pass even .0045
+with six copies. The full BIT raw target requires 58 rank-one credits,
+and exact completed-wrapper thresholds and a hypothetical final .00401
+specification are supplied.
+
+These findings make the intermediate construction requirements concrete.
+They do not implement the missing global endpoints or revised BIT provider.
+Both strict suppliers and all five foundations remain. Three separate
+assessment packages, reproducible exact receipts, source pins, independent
+review and negative controls are included. @CubeJerry and predecessor credit
+and substantial AI-assistance disclosure are retained. **No new kappa.**
+The branch remains an ongoing programme and is not declared PR-ready by this
+assessment; no upstream PR was submitted.

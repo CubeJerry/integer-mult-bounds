@@ -479,3 +479,27 @@ existing credit and source pins. The actual paired-query-only BIT native has
 104/96-port binary-chart graph. Neither minimum-rank rigidity nor a proposed
 characteristic-two graph obstruction may be transferred between them without
 checking the graph and complete interface. New BIT work remains exploratory.
+
+## Intermediate-target check — 2026-11-13
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. The selected
+conditional kappa remains .00363005817. The live priority brief still contains
+older numerical examples; selected-result.json is authoritative.
+
+CrocSwap/integer-mult-bounds#7177 remains open at
+7aadacf803deffd79b14a09fd8ccef1429a7ff23. Its QUERY349 formal caller and
+source-reported raw crossings are relevant at .004: independently charging
+36 added jobs still passes that raw target, whereas 54 fails. Its missing
+physical provider, stock and compiler admission remain. No raw crossing was
+promoted to a covered supplier.
+
+New open CrocSwap/integer-mult-bounds#7480, by Rohan Arun, is at
+58a9d052143f5d85295ed2d0163591c47f89a331 and proposes conditional
+kappa=.003646777872835. The exact proof changes paid ranks 3+5 to 2+6
+after charging the high readout in the #7334 signed 17-stage lineage.
+Source proof and metadata were read; no independent full replay, selection
+or compatibility with the programme's different Q was claimed. It is below
+the user's .004 milestone. Credit to Clear1nsight's #7334/#7314 and Rohan
+Arun's #7277/#7113 lineage is preserved. No source histories were merged.
+
+See the [assessment source pins](results/kappa-004-feasibility/SOURCE-PINS.json).

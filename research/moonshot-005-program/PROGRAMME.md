@@ -619,3 +619,20 @@ The77262-operation nested source word composes seven dimension-six acquisitions 
 Parity-complement geometry and the exactly recovered odd8 cut now have their missing verification evidence. The one-arrival template requires an explicit original-support invariant; the cut requires eight informative inward fields in its fixed transport class. Neither proves sufficiency. A locally reviewed stronger retained-hub transport gate is next for integration, motivating changed funded-entry payloads or useful distributed reverse updates. Concurrent S009 distance42, rank87, coupled-frame and late-forward packages remain intact. No new complete kappa; both strict suppliers and all five foundations remain.
 
 Concurrent checkpointb2dc1cc5 was integrated before this publication. Its actual short-ghost word completes eight individual hosted outputs on its own source parent; its nested source is also preserved. Neither gain nor bill is added to cyclic22 without an emitted compatible word.
+
+## Intermediate target assessment — 2026-11-13
+
+The user's question about a complete kappa above .004 was assessed from
+programme baseline 8533bc2640e0ec002bb16ba85997480ce3c3cac6. The exact
+[assessment](results/kappa-004-feasibility/README.md) leaves the permanent .005 objective and active
+S010 construction intact. No complete new kappa is established.
+
+Lowering the target opens real numerical room: the fresh-eight relaxed
+profile passes .0045 with six fixed copies. Its remaining native endpoint
+duties are still open. The actual cyclic rail's private terminal repair
+fails even at .004 for every fixed multiplicity, and both admitted suppliers
+remain below .004. An explicit sufficient arithmetic specification for
+final .00401 uses new covered BIT C=.00403, atom rho=.00404, completed B=.00402
+and uniform complex U=.0041; these suppliers are not constructed here.
+Continue the earlier joint forward/reverse construction and the distinct BIT
+provider obligation, using this intermediate budget as a concrete milestone.

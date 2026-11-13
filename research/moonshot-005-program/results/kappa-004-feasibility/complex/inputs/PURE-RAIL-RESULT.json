@@ -1,0 +1,374 @@
+{
+  "status": "PASS_EXACT_STANDALONE_CYCLIC_RAIL",
+  "parent_source_pin": "ca493a06385fc55a1b1b2d30ddb638c7f5b021d19459aa6b0b8c85e3797510d2",
+  "native_source_pin": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "inputs": 400,
+  "exact_common_taint_candidates": [
+    1587,
+    1613,
+    1614,
+    1627,
+    1628,
+    1639
+  ],
+  "exact_common_derivative_checks": {
+    "1587": {
+      "nonzero_common_derivatives": 0,
+      "private_support": 51
+    },
+    "1613": {
+      "nonzero_common_derivatives": 0,
+      "private_support": 52
+    },
+    "1614": {
+      "nonzero_common_derivatives": 0,
+      "private_support": 51
+    },
+    "1627": {
+      "nonzero_common_derivatives": 0,
+      "private_support": 51
+    },
+    "1628": {
+      "nonzero_common_derivatives": 0,
+      "private_support": 52
+    },
+    "1639": {
+      "nonzero_common_derivatives": 0,
+      "private_support": 51
+    }
+  },
+  "ordinary_bill": {
+    "instructions": 4779,
+    "counts": {
+      "INIT": 371,
+      "ADD": 3226,
+      "MOVE": 809,
+      "CLEAR": 371,
+      "SCALE": 2
+    },
+    "moves": {
+      "1": 177,
+      "3": 96,
+      "2": 132,
+      "5": 199,
+      "4": 20,
+      "9": 8,
+      "8": 172,
+      "7": 4,
+      "6": 1
+    },
+    "peak": 29,
+    "lifetimes": 371
+  },
+  "repair_count": 6,
+  "repair_rank_histogram": {
+    "1": 6
+  },
+  "repairs": [
+    {
+      "source_role": 116,
+      "destination": 107,
+      "facet": 131,
+      "expression": {
+        "102": "1/2"
+      },
+      "ops": [
+        [
+          "INIT",
+          400,
+          127
+        ],
+        [
+          "ADD",
+          400,
+          102,
+          "1/2",
+          127
+        ],
+        [
+          "MOVE",
+          400,
+          127,
+          131,
+          true
+        ],
+        [
+          "ADD",
+          107,
+          400,
+          "1",
+          131
+        ],
+        [
+          "CLEAR",
+          400,
+          131
+        ]
+      ]
+    },
+    {
+      "source_role": 144,
+      "destination": 133,
+      "facet": 157,
+      "expression": {
+        "103": "-1/2"
+      },
+      "ops": [
+        [
+          "INIT",
+          400,
+          127
+        ],
+        [
+          "ADD",
+          400,
+          103,
+          "-1/2",
+          127
+        ],
+        [
+          "MOVE",
+          400,
+          127,
+          157,
+          true
+        ],
+        [
+          "ADD",
+          133,
+          400,
+          "1",
+          157
+        ],
+        [
+          "CLEAR",
+          400,
+          157
+        ]
+      ]
+    },
+    {
+      "source_role": 145,
+      "destination": 134,
+      "facet": 158,
+      "expression": {
+        "32": "-1/2"
+      },
+      "ops": [
+        [
+          "INIT",
+          400,
+          127
+        ],
+        [
+          "ADD",
+          400,
+          32,
+          "-1/2",
+          127
+        ],
+        [
+          "MOVE",
+          400,
+          127,
+          158,
+          true
+        ],
+        [
+          "ADD",
+          134,
+          400,
+          "1",
+          158
+        ],
+        [
+          "CLEAR",
+          400,
+          158
+        ]
+      ]
+    },
+    {
+      "source_role": 160,
+      "destination": 147,
+      "facet": 171,
+      "expression": {
+        "103": "-1/2"
+      },
+      "ops": [
+        [
+          "INIT",
+          400,
+          127
+        ],
+        [
+          "ADD",
+          400,
+          103,
+          "-1/2",
+          127
+        ],
+        [
+          "MOVE",
+          400,
+          127,
+          171,
+          true
+        ],
+        [
+          "ADD",
+          147,
+          400,
+          "1",
+          171
+        ],
+        [
+          "CLEAR",
+          400,
+          171
+        ]
+      ]
+    },
+    {
+      "source_role": 161,
+      "destination": 148,
+      "facet": 172,
+      "expression": {
+        "32": "-1/2"
+      },
+      "ops": [
+        [
+          "INIT",
+          400,
+          127
+        ],
+        [
+          "ADD",
+          400,
+          32,
+          "-1/2",
+          127
+        ],
+        [
+          "MOVE",
+          400,
+          127,
+          172,
+          true
+        ],
+        [
+          "ADD",
+          148,
+          400,
+          "1",
+          172
+        ],
+        [
+          "CLEAR",
+          400,
+          172
+        ]
+      ]
+    },
+    {
+      "source_role": 172,
+      "destination": 159,
+      "facet": 183,
+      "expression": {
+        "33": "-1/4",
+        "42": "-1/4"
+      },
+      "ops": [
+        [
+          "INIT",
+          400,
+          127
+        ],
+        [
+          "ADD",
+          400,
+          33,
+          "-1/4",
+          127
+        ],
+        [
+          "ADD",
+          400,
+          42,
+          "-1/4",
+          127
+        ],
+        [
+          "MOVE",
+          400,
+          127,
+          183,
+          true
+        ],
+        [
+          "ADD",
+          159,
+          400,
+          "1",
+          183
+        ],
+        [
+          "CLEAR",
+          400,
+          183
+        ]
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "from": 127,
+      "to": 131,
+      "in_source": false,
+      "in_parent": false
+    },
+    {
+      "from": 127,
+      "to": 157,
+      "in_source": false,
+      "in_parent": false
+    },
+    {
+      "from": 127,
+      "to": 158,
+      "in_source": false,
+      "in_parent": false
+    },
+    {
+      "from": 127,
+      "to": 171,
+      "in_source": false,
+      "in_parent": false
+    },
+    {
+      "from": 127,
+      "to": 172,
+      "in_source": false,
+      "in_parent": false
+    },
+    {
+      "from": 127,
+      "to": 183,
+      "in_source": false,
+      "in_parent": false
+    }
+  ],
+  "word_sha256": "90440c9115da1b98242113832c296faf314caf0ab7e0743119275dbfc372c9d2",
+  "word_payload_sha256": "476160732c7797857228bed4e208993218c3ed8ac13c89d7ef1208bf35c8dd7e",
+  "negative_controls": {
+    "116": "wrong coefficient rejected",
+    "144": "wrong coefficient rejected",
+    "145": "wrong coefficient rejected",
+    "160": "wrong coefficient rejected",
+    "161": "wrong coefficient rejected",
+    "172": "wrong coefficient rejected"
+  },
+  "all_volume_scope": "Scalar rational identities tensor identity_V, conditional on chart/primitive contracts.",
+  "complete_native": false,
+  "independent_review": "pending"
+}

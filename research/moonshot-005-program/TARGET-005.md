@@ -749,3 +749,35 @@ rank(G_UU)=7 and det(I-G_UU)=-7/64. A proposed G_UU-I self-response is a
 physical construction obligation, not a free algebraic substitution.
 Given current Hub z=n+Rs, a returned Pn+Qs contributes (Q-PR)s, so raw rows
 cannot be credited without this conditioning. No supplier or κ is inferred.
+
+## Intermediate .004/.00401 assessment — 2026-11-13
+
+[Exact calculations and proofs](results/kappa-004-feasibility/README.md) specialize the existing
+architecture to the user's lower target. The main .005 goal remains unchanged.
+
+For every fixed m>=2, the full profile is T_m=mT-18(m-1)H and
+P_m=m(P-18N)+18N+18(m-1)Q. With t=1-kappa, A=(N-H)_t+(T-P)_t/18 and
+d=(P-T)_t/18, the normalized margin is A-Q_t-d/(m-1). Helper credit loss
+and all paid movements remain present.
+
+At .004, actual Q has limiting additional room below 67.636181788408614926.
+The inherited 96-departure terminal requirement gives deficit above
+28.363818211591385074, even granting forward repair free; every finite m
+is worse. The 31-paid/65-remaining consumer has the same total barrier.
+Earlier recoding and funded replacement interfaces remain open.
+
+The optimistic fresh-eight invoice passes .004 at m=2, .0041 at m=3,
+1/240 at m=3 and .0045 at m=6. Its unrelated endpoint duties are still
+granted free. These exact price witnesses are not complete source words.
+
+The current complete BIT raw histogram needs 58 net rank-one credits at
+.004, versus 445 at .005. A free 111-unit QUERY deletion less 36 added
+jobs passes .004; less 54 fails. A legal revised provider remains open.
+
+One-stage ordinary reachability above .004 from b0=.00385248 needs a
+legitimate covered C>3112961/778125000. Finite depth cannot exceed the
+supplied C, and frozen rho=.004 independently enforces B<.004.
+A sufficient hypothetical final .00401 specification is C=.00403,
+rho=.00404, B=.00402, U=.0041. Its wrapper A=.0040292828192 and outer
+gap 1/700000 are exact. Both new suppliers and physical admission remain
+open; this adds no complete conditional kappa and discharges no foundation.

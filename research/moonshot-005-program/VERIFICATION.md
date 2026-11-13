@@ -744,3 +744,28 @@ Final installed-path replays match all three frozen independent receipts
 byte-for-byte; CHECKPOINT4-VALIDATION.json records the hashes. This is
 corroboration, not a second independent review. Frozen author/reviewer bytes
 and all earlier scientific records remain unchanged. No new complete κ.
+
+## Intermediate .004 assessment — 2026-11-13 06:30:47 UTC
+
+Baseline 8533bc2640e0ec002bb16ba85997480ce3c3cac6; canonical main
+e54523517d0f03e58352e647c403a5af3e525a57 was freshly confirmed unchanged.
+Three separate assessment workers checked completion/accounting, suppliers
+and adversarial scope. Two independently implemented complex integer-root
+engines agree on the .004 enclosures; the separate BIT calculation checks
+the strict thresholds and 57/58-credit distinction.
+
+The installed [runner](results/kappa-004-feasibility/run_verification.py) reproduces three frozen
+receipts byte for byte in temporary outputs, authenticates canonical selected
+supplier values, compares independent intervals and rejects changed source
+bytes. Lead [review](results/kappa-004-feasibility/REVIEW.md) and separate
+[integration review](results/kappa-004-feasibility/INTEGRATION-REVIEW.md) distinguish new checks
+from inherited terminal/geometric proofs. Adversarial review corrected one
+unpublished overbroad sentence: the minimal-m reserve is below one at .004
+and .0045, but is about 2.44132 at .0041. No numerical receipt changed.
+
+Reproduce: python3 -I -B research/moonshot-005-program/results/kappa-004-feasibility/run_verification.py
+
+Expected: PASS_INTERMEDIATE_004_ASSESSMENT_THREE_PACKAGES_AND_SOURCE_CONTROLS.
+This is exact source-bound arithmetic and a scoped proof specialization,
+not a new native replay, physical provider, admitted supplier or complete
+multiplication theorem. All foundations remain.
