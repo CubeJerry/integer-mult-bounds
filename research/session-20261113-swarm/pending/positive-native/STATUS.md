@@ -1,0 +1,1 @@
+Implementation and root mathematical/rank4 CPU review passed. Publication metadata and isolated registered replay are pending. No new kappa or assumption discharge; supplied numerical/entry and B1/setup premises remain. Original source freeze is preserved under implementation/. Do not treat this recovery path as an upstream contribution.
