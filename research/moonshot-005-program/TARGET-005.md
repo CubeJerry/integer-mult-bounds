@@ -979,3 +979,28 @@ Movement k, covered C and completed B remain distinct. No k-to-C conversion,
 strict covered/ordinary BIT or compatible uniform complex supplier is newly
 admitted. All actual ordinary, owned, precision, compiler, cover and recursive
 costs remain part of the target theorem.
+
+## S010 checkpoint12 — feedback does not waive the target inequalities
+
+For the declared monotone routes with arbitrary cocharted originalY feedback,
+rank(G_x)<=qV+sum nu_C<=8qV and sum ell_i<=111+q+sum a_i still hold.
+G means actual first-ground and proper-cell kernel history; unknowny has zero
+X projection but must still cancel in every actual output. For scalarF2 and
+specifiedq8 unit invoice, dim((rowA+C)/C)>=4. The at-most-three additional
+facet arrivals remain paid. No claim of arbitraryrank13 is introduced.
+
+The explicit fifteen-class fitting has rank15, binary intersection5 with C,
+and quotient10. Its maximum foreign support7 satisfies the coarse screen;
+72 actual support spans provide a finer conditional geometric floor. Keeping
+all transported packet boundaries in its class code forcesq>=9. Hence its
+q8 compiler must transport a nonclass X component, satisfy actual kernel/image
+relations, restore originals and meet the SAME complete invoice. Nothing
+in the algebraic fitting supplies these operations for free.
+
+The complex stripped-source residual is82, not54. Under a hypothetical new
+joint eight-rank7-observation source, strict movement margins first occur at
+fixedm21 or24, depending on retained ferry debit. They are conditional targets,
+not supplier admissions. In the unchanged restored-cut family, r paid unit
+coordinate returns lower both allowance and required departures by r, leaving
+the same limiting38.903659... deficit plus positive finite-m correction and
+actual ferry cost. A new preterminal information interface remains necessary.

@@ -847,3 +847,23 @@ minimumrank8, yet restored-cut completion needs65 source departures against
 observation interface is needed. No new kappa; both suppliers/fivefoundations
 remain. Credit @CubeJerry, predecessors, A/root/B/C contributions and
 OpenAI assistance. Ongoing cumulative programme; not PR-ready.
+
+## S010 feedback normalization and an explicit noncanonical source target
+
+The [Y-feedback bridge](results/bit-y-feedback-normalization/ADMISSION.md)
+removes the no-original-Y-feedback restriction from historical normalization
+under the exact monotone/whole-record assumptions. It retains real kernel
+coordinates, image conditions and unknown-y cancellation. The independently
+proved scalarF2 four-quotient-direction gate now applies to that feedback
+interface. Separate B/C proof audits and a distinct native222-input partial
+word support the result; no free history availability is claimed.
+
+The [fifteen-class target](results/bit-fifteen-class-target/ADMISSION.md) is
+an exact rank15 fitting, binary quotient10 beyond the canonical code. An
+independent compiler invariant requiresq>=9 if every transported X boundary
+stays in that class code, even withYfeedback. The q8 next step must carry
+nonclass history and complete all222 original endpoints. The compatible
+complex streaming lead remains WIP: literal strippedwords have rank82;
+conditionalm21/24 tariffs are not an actual source. Both suppliers/foundations
+remain, selectedkappa unchanged. No new kappa and no automatic PR submission.
+Credit @CubeJerry, predecessors, root/A/B/C and OpenAI assistance.

@@ -932,3 +932,24 @@ first-departure argument retains the no-other-D-observation cut premise.
 Intermediate suffix certificates must include all public outputs; projection
 onto B alone is insufficient. Earlier scientific bytes remain unchanged.
 See sessions/2026-11-13-S010/CHECKPOINT11-VALIDATION.json.
+
+## S010 checkpoint12 — universal feedback review and exact class geometry
+
+B and C independently reviewed the all-field/all-V Y-feedback induction,
+first-ground boundary, arbitrary singular cells, kernel/image conditions,
+symbolic-y treatment and paid-copy arrivals. B built a distinct237-operation
+native two-output word and checked all222 input columns, restored111X, two
+nonzero clears, missing-purge and order mutants. C reran the author checker
+and explicitly labels it a rerun. Author controls cover65536 binary cells,
+1048576 reconstructions and65536 mixed symbolic cases; these do not substitute
+for the universal proof. All frozen source and dependency pins are retained.
+
+A independently rebuilt the15class partition from the full120 roots, checked
+actual111 facets, rank15/9/19,32 of512 constant codewords and72 support spans,
+and audited the class-boundary q>=9 invariant. Wrong-parity control fails.
+C's independent general ferry review corrects departure direction and
+whole-V information/MOVE units without altering any published author bytes.
+Root independently checks stripped400-input maps/ranks82 and conditional
+m21/24 tariff using its disclosed existing dense interpreter; six installed
+receipts match byte for byte. WIP source construction stays unverified.
+See sessions/2026-11-13-S010/CHECKPOINT12-VALIDATION.json.

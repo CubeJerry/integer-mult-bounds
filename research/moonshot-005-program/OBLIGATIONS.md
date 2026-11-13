@@ -819,3 +819,19 @@ available escapes under their full physical/recursive costs.
 No supplier or foundation is discharged by these partial source facts. The
 next exact source/interface lemma must establish chronology and restoration,
 not just a low algebraic rank or favorable movement profile.
+
+## S010 checkpoint12 — new bridge and concrete compiler target
+
+| Obligation | Exact status and next requirement |
+|---|---|
+| BIT-Y-FEEDBACK-INTERFACE | PROVED necessary normalization for every field/V in stated monotone carrier model, including paid zero-born ascending copies. B/C independent proof audits; actual kernel/image and originaly equations retained. results/bit-y-feedback-normalization/ADMISSION.md. |
+| BIT-BINARY-FOUR-WITH-Y | PROVED scalarF2 specifiedq8unit consequence of the new normalization plus admitted fitting theorem: quotientdim>=4. Not arbitraryrank13 or all-field/block quotient claim. |
+| BIT-FIFTEEN-CLASS-FITTING | PROVED exact rank15 fitting; F2 intersection5/quotient10, verified120-to111 partition. Algebraic target only. results/bit-fifteen-class-target/ADMISSION.md. |
+| BIT-CLASS-CONSTANT-COMPILER | DISPROVED forq8 within the all-transported-boundaries-in-U model, even withYfeedback/dirtyascenders: q>=9. Nonclass transport is a necessary possible escape, not a constructed one. |
+| BIT-NONCLASS-CHRONOLOGICAL-COMPILER | OPEN: construct q8 full222 word realizing actual noncanonical histories with paid arrivals, kernel/image compatibility, unknowny cancellation and originalX restoration. |
+| COMPLEX-STRIPPED-RANK-COMPATIBILITY | COMPUTATIONALLY VERIFIED exact400-input fact: both literal strippedwords rank82. Oldrank54 needs31paidreturns; combiningrank54 with strippedinvoice is invalid. |
+| COMPLEX-PRETERMINAL-EIGHT-C2 | UNRESOLVED physical source; only conditional complete-caller tariff firstm21/24 proved by exact intervals. wip/S010-preterminal-stream/STATUS.md. |
+
+The primary source obligation is actual chronology and original endpoints,
+not another fitting-only rank reduction. Both strict supplier contracts and
+all five foundational assumptions remain independently open.

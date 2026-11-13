@@ -1,3 +1,28 @@
+## S010 checkpoint12 — a concrete noncanonical target and feedback bridge
+
+The programme now has an explicit fifteen-class fitting on the actual111 BIT
+roots: rank15 over every field, binary quotient dimension10 beyond the
+canonical nine-code, with at most seven foreign entries per row. This clears
+coarse algebraic arrival screens, but is not a physical source. A new scoped
+compiler theorem shows that keeping every transported packet's X row in this
+class code requires at least nine packets, even with Y feedback. The q8 target
+therefore requires actual nonclass transport and cancellation.
+
+The Y-feedback normalization bridge is independently proved. Under the fixed
+monotone whole-record routes, every history is global actual packet/kernel
+information plus symbolic original-y nuisance and chart-local X information.
+All image constraints remain. The scalar binary four-quotient-direction
+requirement consequently survives arbitrary cocharted original-Y feedback and
+priced extra ascending copies. Feedback remains a possible constructor of the
+needed history code, not an exemption from its arrival condition.
+
+For complex completion, literal removal of31 coordinate returns leaves rank82
+in both parent and four-pair words. The rank54 result cannot be paired with
+that stripped budget. Hypothetical eight-C2-observation tariffs first pass at
+fixedm21 (or24 with actual ferry debit), but the joint source is unconstructed.
+Both strict suppliers, every endpoint and all five foundations remain open.
+No new kappa; the programme is ongoing and not PR-ready.
+
 ## S010 checkpoint11 — actual ferries and the need for a changed access interface
 
 The scalar binary q8 source now needs at least FOUR quotient dimensions

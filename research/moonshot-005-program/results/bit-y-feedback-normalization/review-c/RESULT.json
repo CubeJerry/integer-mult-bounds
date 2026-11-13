@@ -1,0 +1,33 @@
+{
+  "status": "PASS_INDEPENDENT_PROOF_AUDIT_WITH_SCOPED_FINITE_CONTROL_RERUN",
+  "author_manifest_sha256": "d427cabd4770bdd787f8bf85e77640a16a0848264a6d9b74d4881f28e2a3cd56",
+  "author_proof_sha256": "e10044c415cc48ccc2ee9676f9947c9ad7ea24af09b1499ca2d25b73e3f74135",
+  "author_checker_sha256": "47e9dba1b8ac8ec0871ddaa4317d52370f37c2c7e9c27d379305084138493c8c",
+  "independent_proof_audit": {
+    "ground_first_arrival_boundary": "PASS; Z_p must be captured before any ground mixing, cancellation, or clearing",
+    "singular_cell_normalization": "PASS; generalized inverse identity retains actual kernel coordinates and image compatibility",
+    "Y_feedback": "PASS under stated linear, cocharted, monotone, no-preloaded-cache assumptions; y is nuisance only at the x-projection",
+    "locality_induction": "PASS on finite chart poset after identifying aliases; each local x remainder is supported on source lines contained in that chart",
+    "facet_arrivals": "PASS; at most 1+r_i+a_i+s_i proper subspaces, giving ell_i<=r_i+a_i+s_i",
+    "extra_ascending_copies": "PASS under zero-born condition; every extra nonzero arrival at a facet is a separately counted/paid physical record arrival",
+    "q8_binary_four_bridge": "PASS as an algebraic all-fitting implication once the new arrival inequality is established; quotient conclusion does not require C to be a subspace of G_x"
+  },
+  "finite_control_rerun": {
+    "kind": "AUTHOR CHECKER REEXECUTED; NOT AN INDEPENDENT IMPLEMENTATION",
+    "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+    "all_4x4_binary_cells": 65536,
+    "actual_input_reconstructions": 1048576,
+    "symbolic_mixed_XY_locality_cases": 65536,
+    "kernel_omission_negative_controls": 344064,
+    "wrong_order_negative_controls": 450560,
+    "out_of_image_rejections": 21,
+    "Y_swap_control": "PASS",
+    "first_ground control": "PASS"
+  },
+  "limitations": [
+    "No complete q8 source or kappa is constructed.",
+    "The quotient corollary is scalar F2 only; general fields and arbitrary blocks receive the normalization/rank statement, not this quotient bound.",
+    "The theorem excludes nonmonotone paths, uncounted descending copies/restarts, preloaded nonlocal records, and fractional-volume accounting.",
+    "Finite controls are not the universal proof; the cell-complement identity and poset induction are."
+  ]
+}

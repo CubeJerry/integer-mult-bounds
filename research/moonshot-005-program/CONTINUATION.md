@@ -1,3 +1,15 @@
+# Current continuation — S010 checkpoint12
+
+Baselineffc6b54108d82ee42bf1f3069d7758d437886df6; resume exact remote HEAD. Session active to13:27:03UTC.
+Latest decisive progress: Yfeedback normalizes into actual history plus
+symbolicy and chart-localX, so scalarF2 q8 stillneedsfourquotientdirections.
+Explicit15class fitting hasrank15 andquotient10; q8 must transportnonclassX
+because classconstant packetboundaries forceq>=9. Constructactualhistory with
+all222 endpoints, imageconditions, originalrestoration and fullinvoice.
+The complex strippedsource hasrank82, not54; conditionalm21/24 eight-C2 tariff
+is notphysicalconstruction. Bothstrictsuppliers/fivefoundationsremain.
+No newkappa; programmeongoing, notPRready.
+
 # Current continuation — S010 checkpoint11
 
 Resume exact remote HEAD; this checkpoint's baseline isa5adbf2da1494a84ea821a7cbe645ada4221bb08.

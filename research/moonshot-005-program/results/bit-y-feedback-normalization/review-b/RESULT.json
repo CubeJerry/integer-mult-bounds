@@ -1,0 +1,50 @@
+{
+  "status": "PASS_NATIVE_Y_FEEDBACK_UNKNOWN_INPUT_AND_HISTORICAL_CONTROL",
+  "source_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "all222_original_columns": true,
+  "completed_Y_ports": [
+    0,
+    1
+  ],
+  "other109_Y_rows_unchanged": true,
+  "all111_X_restored": true,
+  "packet_X_support_after_purge": [
+    1
+  ],
+  "first_ground_packet_has_original_y0": true,
+  "unknown_y_canceled_by_actual_stationary_ground_cache": true,
+  "scalar_ops": {
+    "INIT": 2,
+    "ADD": 8,
+    "MOVE": 225,
+    "CLEAR": 2
+  },
+  "paid_profile": {
+    "1": 2,
+    "7": 222,
+    "6": 1
+  },
+  "lifetimes": 2,
+  "peak": 2,
+  "two_nonzero_clears": true,
+  "kernel_history_necessary": true,
+  "G0_x": "x1",
+  "T_x": "x0+x1",
+  "Y0_local_x_remainder": "x1 at actualL1 subsetF0",
+  "negative_controls": [
+    {
+      "name": "omit_ground_purge",
+      "wrong_public_rows": [
+        112
+      ]
+    },
+    {
+      "name": "reverse_feedback_order",
+      "wrong_public_rows": [
+        111,
+        112
+      ]
+    }
+  ],
+  "scope": "Actual native-chart partial two-target word; supports normalization, does not evade arrival theorem or complete111 targets. Physical compiler/erasure remain."
+}

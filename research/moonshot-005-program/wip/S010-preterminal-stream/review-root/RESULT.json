@@ -1,0 +1,117 @@
+{
+  "status": "PASS_INDEPENDENT_STRIPPED_SOURCE_AND_CONDITIONAL_TARIFF",
+  "author_manifest_sha256": "d52a97c02f008eb4ec82c1cc92950f51bb0612795c9084981984ee518a303e59",
+  "all400_maps_compared": true,
+  "stripped_ranks": [
+    82,
+    82
+  ],
+  "all96_diagonals_one": true,
+  "only_eight_advertised_B_changes": true,
+  "stripped_bills": [
+    {
+      "instructions": 4779,
+      "counts": {
+        "INIT": 371,
+        "ADD": 3226,
+        "MOVE": 809,
+        "CLEAR": 371,
+        "SCALE": 2
+      },
+      "moves": {
+        "1": 177,
+        "2": 132,
+        "3": 96,
+        "4": 20,
+        "5": 199,
+        "6": 1,
+        "7": 4,
+        "8": 172,
+        "9": 8
+      },
+      "lifetimes": 371,
+      "peak": 29,
+      "nonzero_owned_clears": 363,
+      "common_rational_denominator": 32,
+      "global_rescalings": 3
+    },
+    {
+      "instructions": 5851,
+      "counts": {
+        "INIT": 371,
+        "ADD": 4282,
+        "MOVE": 825,
+        "CLEAR": 371,
+        "SCALE": 2
+      },
+      "moves": {
+        "1": 193,
+        "2": 132,
+        "3": 96,
+        "4": 20,
+        "5": 199,
+        "6": 1,
+        "7": 12,
+        "8": 172
+      },
+      "lifetimes": 371,
+      "peak": 29,
+      "nonzero_owned_clears": 363,
+      "common_rational_denominator": 128,
+      "global_rescalings": 2
+    }
+  ],
+  "variants": {
+    "without_ferry": {
+      "first_fixed_m": 21,
+      "limiting_bounds": [
+        "7373488901685312159642233/4500000000000000000000000",
+        "1638553089263402702143963/1000000000000000000000000"
+      ],
+      "adjacent_tests": [
+        {
+          "m": 20,
+          "bounds": [
+            "-3665427039726859747474489/171000000000000000000000000",
+            "-40726967108076219413331/1900000000000000000000000"
+          ]
+        },
+        {
+          "m": 21,
+          "bounds": [
+            "1846925127273960761968331/30000000000000000000000000",
+            "307820854545660127002663/5000000000000000000000000"
+          ]
+        }
+      ]
+    },
+    "with_four_ferry": {
+      "first_fixed_m": 24,
+      "limiting_bounds": [
+        "6273423947165119761460421/4500000000000000000000000",
+        "1394094210481137724770259/1000000000000000000000000"
+      ],
+      "adjacent_tests": [
+        {
+          "m": 23,
+          "bounds": [
+            "-978418953562931538702599/24750000000000000000000000",
+            "-27178304265636987185091/687500000000000000000000"
+          ]
+        },
+        {
+          "m": 24,
+          "bounds": [
+            "1573165421942262404433353/69000000000000000000000000",
+            "262194236990377067423673/11500000000000000000000000"
+          ]
+        }
+      ]
+    }
+  },
+  "coordinate_return_invariant_gap_bounds": [
+    "38903659731558040977560557/1000000000000000000000000",
+    "175066468792011184399028503/4500000000000000000000000"
+  ],
+  "scope": "Conditional tariff and literal stripping only. No rank8 source or C2 observation/decoder. All previous source costs and restoration constraints retained."
+}
