@@ -1,0 +1,637 @@
+{
+  "status": "EXACT_ONE_ADD_INJECTION_CACHE_OBSTRUCTION",
+  "source_head": "89eaa9d8cae37c1540de98f2d29a3abaabb96a2b",
+  "word_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+  "candidate_event": 40710,
+  "latest_injection_before": 35426,
+  "all_legal_one_ADD_insertion_cuts": [
+    0,
+    35426
+  ],
+  "cut_interval_inclusive": true,
+  "coefficients_covered": "all real or complex scalar coefficients by the exact rank argument",
+  "available_history_rank": 2,
+  "history_plus_old_target_rank": 3,
+  "history_plus_old_target_and_early_source_rank": 4,
+  "available_B_history": [
+    {
+      "event": 40707,
+      "owner": 1196,
+      "frame": 189,
+      "kind": "arrival",
+      "row": {
+        "3": "1/2",
+        "56": "1/4",
+        "100": "-1/4",
+        "230": "-1",
+        "278": "1",
+        "352": "1/8",
+        "377": "1/4",
+        "471": "-1/2",
+        "487": "-1",
+        "659": "1/4",
+        "679": "1/4",
+        "761": "1/2",
+        "810": "-1/4",
+        "826": "1/2",
+        "870": "-1/2",
+        "896": "1/4",
+        "933": "-1/2",
+        "943": "-1/2",
+        "976": "1/2",
+        "1018": "1",
+        "1033": "1/4",
+        "1035": "-1",
+        "1063": "1/4",
+        "1074": "1/4",
+        "1090": "-1/8",
+        "1196": "1",
+        "1210": "1/2",
+        "1221": "1/2",
+        "1222": "1/2",
+        "1240": "-1/8",
+        "1243": "-1/2",
+        "1245": "1/8",
+        "1253": "-1",
+        "1255": "1/4",
+        "1258": "1/4",
+        "1259": "1/4",
+        "1279": "-1/2",
+        "1321": "1/8"
+      },
+      "late_injection_coefficient": "0"
+    },
+    {
+      "event": 40708,
+      "owner": 705,
+      "frame": 189,
+      "kind": "arrival",
+      "row": {
+        "705": "1",
+        "943": "1"
+      },
+      "late_injection_coefficient": "1/2"
+    }
+  ],
+  "old_target": {
+    "885": "1",
+    "943": "1"
+  },
+  "early_source": {
+    "885": "1"
+  },
+  "latest_injection_snapshot": {
+    "event": 35426,
+    "source": {
+      "885": "1",
+      "943": "1"
+    },
+    "carrier": {
+      "943": "2"
+    }
+  },
+  "latest_candidate_delta_fields": {
+    "179": "-1/4",
+    "557": "1/2",
+    "663": "-1/2",
+    "665": "1/2",
+    "705": "1/2",
+    "764": "-1/4",
+    "943": "1/2",
+    "1002": "-1/2",
+    "1143": "-1/2",
+    "1196": "1/4",
+    "1229": "-1/2",
+    "1312": "-1/2",
+    "1313": "1/2",
+    "1314": "1",
+    "1315": "1",
+    "1316": "1/2"
+  },
+  "first_outward_use": {
+    "event": 35427,
+    "instruction": [
+      "ADD",
+      663,
+      943,
+      "-1/2",
+      105
+    ]
+  },
+  "carrier943_moves": [
+    {
+      "event": 35426,
+      "instruction": [
+        "MOVE",
+        943,
+        3,
+        105,
+        false
+      ]
+    },
+    {
+      "event": 41668,
+      "instruction": [
+        "MOVE",
+        943,
+        105,
+        421,
+        false
+      ]
+    },
+    {
+      "event": 41697,
+      "instruction": [
+        "MOVE",
+        943,
+        421,
+        189,
+        false
+      ]
+    }
+  ],
+  "carrier943_touches": [
+    {
+      "event": 9622,
+      "instruction": [
+        "SCALE",
+        943,
+        "2",
+        3
+      ]
+    },
+    {
+      "event": 22059,
+      "instruction": [
+        "ADD",
+        1026,
+        943,
+        "-1/4",
+        3
+      ]
+    },
+    {
+      "event": 22062,
+      "instruction": [
+        "ADD",
+        1160,
+        943,
+        "1/4",
+        3
+      ]
+    },
+    {
+      "event": 23025,
+      "instruction": [
+        "ADD",
+        1253,
+        943,
+        "-1/2",
+        3
+      ]
+    },
+    {
+      "event": 23026,
+      "instruction": [
+        "ADD",
+        1311,
+        943,
+        "1/2",
+        3
+      ]
+    },
+    {
+      "event": 23628,
+      "instruction": [
+        "ADD",
+        998,
+        943,
+        "1/2",
+        3
+      ]
+    },
+    {
+      "event": 23629,
+      "instruction": [
+        "ADD",
+        1002,
+        943,
+        "1/2",
+        3
+      ]
+    },
+    {
+      "event": 23893,
+      "instruction": [
+        "ADD",
+        811,
+        943,
+        "1/4",
+        3
+      ]
+    },
+    {
+      "event": 23900,
+      "instruction": [
+        "ADD",
+        757,
+        943,
+        "1/2",
+        3
+      ]
+    },
+    {
+      "event": 29074,
+      "instruction": [
+        "ADD",
+        1044,
+        943,
+        "-1/4",
+        3
+      ]
+    },
+    {
+      "event": 29079,
+      "instruction": [
+        "ADD",
+        1257,
+        943,
+        "1/2",
+        3
+      ]
+    },
+    {
+      "event": 29093,
+      "instruction": [
+        "ADD",
+        1214,
+        943,
+        "1/2",
+        3
+      ]
+    },
+    {
+      "event": 30715,
+      "instruction": [
+        "ADD",
+        1079,
+        943,
+        "-1/4",
+        3
+      ]
+    },
+    {
+      "event": 30772,
+      "instruction": [
+        "ADD",
+        1129,
+        943,
+        "-1/2",
+        3
+      ]
+    },
+    {
+      "event": 30780,
+      "instruction": [
+        "ADD",
+        885,
+        943,
+        "1/2",
+        3
+      ]
+    },
+    {
+      "event": 31186,
+      "instruction": [
+        "ADD",
+        1152,
+        943,
+        "1/4",
+        3
+      ]
+    },
+    {
+      "event": 35425,
+      "instruction": [
+        "ADD",
+        1310,
+        943,
+        "1",
+        3
+      ]
+    },
+    {
+      "event": 35426,
+      "instruction": [
+        "MOVE",
+        943,
+        3,
+        105,
+        false
+      ]
+    },
+    {
+      "event": 35427,
+      "instruction": [
+        "ADD",
+        663,
+        943,
+        "-1/2",
+        105
+      ]
+    },
+    {
+      "event": 38252,
+      "instruction": [
+        "ADD",
+        705,
+        943,
+        "1/2",
+        105
+      ]
+    },
+    {
+      "event": 38253,
+      "instruction": [
+        "ADD",
+        943,
+        705,
+        "-1",
+        105
+      ]
+    },
+    {
+      "event": 41667,
+      "instruction": [
+        "ADD",
+        1452,
+        943,
+        "1",
+        105
+      ]
+    },
+    {
+      "event": 41668,
+      "instruction": [
+        "MOVE",
+        943,
+        105,
+        421,
+        false
+      ]
+    },
+    {
+      "event": 41669,
+      "instruction": [
+        "ADD",
+        850,
+        943,
+        "1/2",
+        421
+      ]
+    },
+    {
+      "event": 41697,
+      "instruction": [
+        "MOVE",
+        943,
+        421,
+        189,
+        false
+      ]
+    },
+    {
+      "event": 41698,
+      "instruction": [
+        "ADD",
+        885,
+        943,
+        "-1/2",
+        189
+      ]
+    },
+    {
+      "event": 41699,
+      "instruction": [
+        "ADD",
+        705,
+        943,
+        "-1",
+        189
+      ]
+    },
+    {
+      "event": 41716,
+      "instruction": [
+        "ADD",
+        1452,
+        943,
+        "-1",
+        189
+      ]
+    },
+    {
+      "event": 41881,
+      "instruction": [
+        "ADD",
+        557,
+        943,
+        "-1",
+        189
+      ]
+    },
+    {
+      "event": 41886,
+      "instruction": [
+        "ADD",
+        943,
+        705,
+        "1/2",
+        189
+      ]
+    },
+    {
+      "event": 41895,
+      "instruction": [
+        "ADD",
+        1310,
+        943,
+        "-1",
+        189
+      ]
+    },
+    {
+      "event": 42591,
+      "instruction": [
+        "ADD",
+        1311,
+        943,
+        "-1",
+        189
+      ]
+    }
+  ],
+  "changed_dependency_MOVEs_before_candidate": [
+    {
+      "event": 35426,
+      "owner": 943,
+      "source": 3,
+      "destination": 105,
+      "rank": 1,
+      "coefficient": "1"
+    },
+    {
+      "event": 35493,
+      "owner": 764,
+      "source": 105,
+      "destination": 430,
+      "rank": 1,
+      "coefficient": "-1/4"
+    },
+    {
+      "event": 38368,
+      "owner": 705,
+      "source": 105,
+      "destination": 430,
+      "rank": 1,
+      "coefficient": "1/2"
+    },
+    {
+      "event": 38409,
+      "owner": 557,
+      "source": 105,
+      "destination": 266,
+      "rank": 2,
+      "coefficient": "1/2"
+    },
+    {
+      "event": 39634,
+      "owner": 663,
+      "source": 105,
+      "destination": 1051,
+      "rank": 4,
+      "coefficient": "-1/2"
+    },
+    {
+      "event": 40268,
+      "owner": 1143,
+      "source": 430,
+      "destination": 750,
+      "rank": 1,
+      "coefficient": "-1/2"
+    },
+    {
+      "event": 40279,
+      "owner": 1143,
+      "source": 750,
+      "destination": 243,
+      "rank": 1,
+      "coefficient": "-1/2"
+    },
+    {
+      "event": 40700,
+      "owner": 705,
+      "source": 430,
+      "destination": 802,
+      "rank": 2,
+      "coefficient": "1/2"
+    },
+    {
+      "event": 40708,
+      "owner": 705,
+      "source": 802,
+      "destination": 189,
+      "rank": 4,
+      "coefficient": "1/2"
+    }
+  ],
+  "changed_dependency_MOVEs_total": 87,
+  "latest_injection_unrepaired_final_fields": [
+    {
+      "owner": 377,
+      "frame": 127,
+      "dimension": 9,
+      "coefficient": "-1"
+    },
+    {
+      "owner": 837,
+      "frame": 127,
+      "dimension": 9,
+      "coefficient": "-1/2"
+    },
+    {
+      "owner": 885,
+      "frame": 189,
+      "dimension": 8,
+      "coefficient": "-1/2"
+    },
+    {
+      "owner": 943,
+      "frame": 189,
+      "dimension": 8,
+      "coefficient": "1/2"
+    },
+    {
+      "owner": 996,
+      "frame": 127,
+      "dimension": 9,
+      "coefficient": "-1/2"
+    },
+    {
+      "owner": 1002,
+      "frame": 127,
+      "dimension": 9,
+      "coefficient": "1"
+    },
+    {
+      "owner": 1094,
+      "frame": 127,
+      "dimension": 9,
+      "coefficient": "-1"
+    },
+    {
+      "owner": 1096,
+      "frame": 127,
+      "dimension": 9,
+      "coefficient": "1/2"
+    },
+    {
+      "owner": 1214,
+      "frame": 127,
+      "dimension": 9,
+      "coefficient": "-1/2"
+    },
+    {
+      "owner": 1253,
+      "frame": 127,
+      "dimension": 9,
+      "coefficient": "-1/2"
+    },
+    {
+      "owner": 1310,
+      "frame": 127,
+      "dimension": 9,
+      "coefficient": "-1"
+    },
+    {
+      "owner": 1311,
+      "frame": 127,
+      "dimension": 9,
+      "coefficient": "1/2"
+    }
+  ],
+  "latest_injection_unrepaired_final_count": 12,
+  "controls": [
+    {
+      "name": "six_exact_coefficients",
+      "passed": true
+    },
+    {
+      "name": "duplicate_old_history_with_different_encoding_can_enable_cache",
+      "passed": true,
+      "why": "independence/consistent temporal backing is essential"
+    }
+  ],
+  "limits": "One scalar ADD from current885 into943 at a common empty-frame cut, all other pre-cut operations fixed, no new paid import and no free demoted1459 backing. No conclusion about multiple edits, additional histories/imports, endpoint repairs, typed zero reframe or a complete supplier.",
+  "new_native_word_emitted": false
+}

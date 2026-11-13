@@ -1,0 +1,57 @@
+{
+  "all_original_history_rows_independent_over_Q": true,
+  "checks": {
+    "event40710_target_rank": 8,
+    "frame189_dimension": 8,
+    "frame3_dimension": 0,
+    "strict_provider_events": [
+      -1,
+      40708
+    ],
+    "wrong_sign_negative_control": true,
+    "zero_move_control": true
+  },
+  "exact_frame_bank_count": 979,
+  "latest_arrival_coefficient_in_U_expression": "1",
+  "latest_arrival_event": 40710,
+  "move_count": 6279,
+  "newly_reconstructible_MOVE_events": [
+    40710
+  ],
+  "observation_count": 7780,
+  "one_circuit_lemma": "Because each full exact-frame arrival bank is independent, every row has a unique representation. If U lies in the final bank span, the nonzero term with latest event is unique; only that arrival can be expressed using U and strictly earlier bank rows. Every earlier target would otherwise give a second U representation with later support removed.",
+  "promise": {
+    "1459": "-1",
+    "705": "-1",
+    "885": "1"
+  },
+  "promise_span_frames": {
+    "189": 16
+  },
+  "providers": [
+    {
+      "coefficient_in_target": "1",
+      "event": 40708,
+      "frame": 189,
+      "owner": 705,
+      "row": {
+        "705": "1",
+        "943": "1"
+      }
+    },
+    {
+      "coefficient_in_target": "1",
+      "event": -1,
+      "frame": 189,
+      "owner": 1459,
+      "row": {
+        "1459": "1"
+      }
+    }
+  ],
+  "scope_warning": "This proves same-promise history coverage and the unique event 40710 circuit, but the circuit's provider uses initial e1459. A separate preparation claim that treats the demoted e1459 initial value as unavailable must justify that model premise before its rank-eight path bound is combined with this history identity.",
+  "source_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+  "status": "PASS_INDEPENDENT_EXACTQ_SINGLE_CIRCUIT_REVIEW",
+  "target_identity_relation_coefficient": "1",
+  "zero_MOVE_count": 0
+}

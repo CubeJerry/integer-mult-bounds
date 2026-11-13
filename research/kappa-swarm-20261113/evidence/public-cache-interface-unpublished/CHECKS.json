@@ -1,0 +1,26 @@
+{
+  "normal_and_optimized_receipts_equal": true,
+  "controls": [
+    {
+      "name": "new_885_read_is_outside_fixed_history_scope",
+      "rejected": true,
+      "reason": "885 is never read or transported before candidate"
+    },
+    {
+      "name": "free_demoted_entrance_is_not_a_preparation",
+      "rejected": true,
+      "reason": "empty entrance of 885"
+    }
+  ],
+  "files": {
+    "worker-a/public-cache-interface/verify.py": "65f7dc84e83ec725c4aaf6d84179fce0aaa6666ba7d28be44517d6edd4786400",
+    "worker-a/public-cache-interface/PROOF.md": "348c198996b31d79c24c115ca4fcba8e1930ff2da066ce5a64ab71142fb75a4c",
+    "worker-a/public-cache-interface/CANDIDATE.json": "b344731ce5eac4382572cc667800e32de0c66bbb4a1afcf763f48022419d7f8b",
+    "worker-a/public-cache-interface/RECEIPT.json": "c894d3379aae13ce7e8cb146eb61dfb012a185a5920fbde43d3d976636200424",
+    "worker-a/public-cache-interface/RECEIPT-O.json": "c894d3379aae13ce7e8cb146eb61dfb012a185a5920fbde43d3d976636200424",
+    "worker-a/selected/independent.py": "21f46a8340331abb1486b50bd4e04453f1968b0a5950d86ff7780dd368590874",
+    "worker-a/selected/retained/query-only-precision-envelope/envelopes.py": "783da6b5b450fc07434946cb9ec86070dfee01df6b5fa1c385cb024def2c9a9f",
+    "reference/pr7481/NOTICE": "78e060cbd33ebc4078cabf39e50191a977fb9eb5c41104533079e22da1d9d248",
+    "budget_price.py": "527d1cb2756ac6c61bd0b08488441105b8902a20e953dce149127bebc74d32bb"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "baseline_full_signed_moment_0038": {
+    "decimal_display_only": [
+      "-59.241933884374900242189582",
+      "-59.241933884374900242139925"
+    ],
+    "exact": [
+      "-29620966942187450121094791/500000000000000000000000",
+      "-2369677355374996009685597/40000000000000000000000"
+    ]
+  },
+  "best_single_relation_saving": {
+    "beats_required_per_call": true,
+    "event": 40710,
+    "exact_interval": [
+      "6937034079270974725608699/1000000000000000000000000",
+      "69370340792709747256087/10000000000000000000000"
+    ],
+    "minimum_helper_target_rank": 1,
+    "target_rank": 8
+  },
+  "caller_sha256": "255d89f38cd45e38e5770f559bc43dc217e989032359768cdc7e8cdfd64b47bc",
+  "helper_only_move_count_separate": 468,
+  "invoice_sha256": "86f71ccbc923db5d7a6753aa971c3a9c8a572680534498ed17be072cfa2aae6b",
+  "move_count": 6279,
+  "native_calls": 17,
+  "public_full_history_hit_count": 0,
+  "public_full_history_miss_by_target_rank": {
+    "1": 611,
+    "2": 128,
+    "3": 177,
+    "4": 27,
+    "5": 111,
+    "6": 4,
+    "7": 6,
+    "8": 2
+  },
+  "public_full_history_miss_count": 1066,
+  "public_main_history_hit_count": 1066,
+  "required_net_native_saving_per_call_0038": [
+    "2369677355374996009685597/680000000000000000000000",
+    "29620966942187450121094791/8500000000000000000000000"
+  ],
+  "saving_class_counts": {
+    "negative": 253,
+    "positive": 376,
+    "zero_or_interval_overlap": 437
+  },
+  "scope_limits": "Fresh exhaustive exact screen of all #7481 public positive-rank main-history hits, under same-span normalized history pooling. Savings are optimistic rank-price only, one relation per target, and ignore public zero reframe availability, relation preparation, ordinary ADD/COPY/SCALE cost, precision/phase, storage and lifetime costs. No source extension, full system admission, or kappa gain is claimed.",
+  "screen_method": "At each coframe keep a main-projection echelon with full-row lifts and the helper-only kernel of all prior native histories. For a main-history hit target c, paired reduction gives g=c-p in helpers; full-history miss iff g is outside P\u2229H. The new cache relation space is (P\u2229H)+span(g). Its support is the union of prior kernel support and g support, so the minimum one-row target debit is the minimum fixed target-rank among those helper coordinates. If the cheapest coordinate occurs only in P\u2229H, add its kernel vector to g, avoiding cancellation; the sum remains outside P\u2229H.",
+  "source_payload_sha256": "64fca675b91298868e12f09423b47e0c2327cba7095e35c8919c1953b4ed68b8",
+  "source_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+  "status": "FRESH_EXACTQ_ALL_PUBLIC_SINGLE_RELATION_PRICE_SCREEN",
+  "complete_records_sha256": "43115ff4f74b2c8be33f32f7c80a1bd3e9938a3ae71fd7ac83d82e4afa5372a3",
+  "records": 1066
+}

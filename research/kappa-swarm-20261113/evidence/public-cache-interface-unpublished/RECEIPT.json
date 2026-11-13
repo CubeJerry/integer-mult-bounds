@@ -1,0 +1,396 @@
+{
+  "status": "PASS_SCOPED_FIXED_HISTORY_PREPARATION_OBSTRUCTION",
+  "source_head": "89eaa9d8cae37c1540de98f2d29a3abaabb96a2b",
+  "word_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+  "word_payload_sha256": "64fca675b91298868e12f09423b47e0c2327cba7095e35c8919c1953b4ed68b8",
+  "compiler_sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+  "invoice_sha256": "86f71ccbc923db5d7a6753aa971c3a9c8a572680534498ed17be072cfa2aae6b",
+  "replay": {
+    "cut": 40710,
+    "instruction": [
+      "MOVE",
+      885,
+      3,
+      189,
+      false
+    ],
+    "probe": {
+      "885": "1",
+      "1459": "1"
+    },
+    "relation_evaluation": "0",
+    "prefix_events_checked": 40710,
+    "nonzero_original_fields_at_every_prefix_cut": [
+      885,
+      1459
+    ],
+    "demoted_1459_is_not_free_backing": true,
+    "available_nonzero_frame_after_removing_demoted_entrance": 3,
+    "885_touches_before_cut": [
+      {
+        "event": 30780,
+        "instruction": [
+          "ADD",
+          885,
+          943,
+          "1/2",
+          3
+        ]
+      }
+    ],
+    "1459_touches_before_cut": [],
+    "maximum_probe_support": 2
+  },
+  "actual_child_interfaces": [
+    {
+      "source": 3,
+      "destination": 189,
+      "rank": 8,
+      "signed_tableau_equal": true,
+      "absolute_phase_equal": true,
+      "recipe": {
+        "rank": 8,
+        "left": {
+          "matrix_rows": [
+            1,
+            2,
+            4,
+            8,
+            288,
+            48,
+            16,
+            64,
+            128
+          ],
+          "offset": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            48,
+            48,
+            0,
+            0,
+            0
+          ],
+          "linear_Z4": [
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            2,
+            2,
+            0
+          ],
+          "phase": 0
+        },
+        "right": {
+          "matrix_rows": [
+            1,
+            2,
+            4,
+            8,
+            96,
+            80,
+            128,
+            256,
+            112
+          ],
+          "offset": 207,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            48,
+            48,
+            0,
+            0,
+            0
+          ],
+          "linear_Z4": [
+            2,
+            2,
+            2,
+            2,
+            1,
+            3,
+            0,
+            2,
+            2
+          ],
+          "phase": 2
+        }
+      }
+    },
+    {
+      "source": 3,
+      "destination": 105,
+      "rank": 1,
+      "signed_tableau_equal": true,
+      "absolute_phase_equal": true,
+      "recipe": {
+        "rank": 1,
+        "left": {
+          "matrix_rows": [
+            3,
+            5,
+            8,
+            16,
+            33,
+            1,
+            64,
+            128,
+            256
+          ],
+          "offset": 0,
+          "quadratic_rows": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "linear_Z4": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "right": {
+          "matrix_rows": [
+            19,
+            33,
+            34,
+            4,
+            8,
+            48,
+            64,
+            128,
+            256
+          ],
+          "offset": 0,
+          "quadratic_rows": [
+            51,
+            51,
+            0,
+            0,
+            51,
+            19,
+            0,
+            0,
+            0
+          ],
+          "linear_Z4": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "phase": 0
+        }
+      }
+    },
+    {
+      "source": 105,
+      "destination": 189,
+      "rank": 7,
+      "signed_tableau_equal": true,
+      "absolute_phase_equal": true,
+      "recipe": {
+        "rank": 7,
+        "left": {
+          "matrix_rows": [
+            129,
+            2,
+            4,
+            8,
+            275,
+            3,
+            16,
+            32,
+            64
+          ],
+          "offset": 0,
+          "quadratic_rows": [
+            16,
+            16,
+            0,
+            0,
+            19,
+            0,
+            0,
+            0,
+            0
+          ],
+          "linear_Z4": [
+            2,
+            2,
+            2,
+            2,
+            3,
+            2,
+            2,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "right": {
+          "matrix_rows": [
+            113,
+            82,
+            4,
+            8,
+            48,
+            128,
+            256,
+            32,
+            112
+          ],
+          "offset": 237,
+          "quadratic_rows": [
+            80,
+            80,
+            0,
+            0,
+            115,
+            48,
+            19,
+            0,
+            0
+          ],
+          "linear_Z4": [
+            0,
+            0,
+            2,
+            2,
+            1,
+            3,
+            2,
+            2,
+            2
+          ],
+          "phase": 0
+        }
+      }
+    }
+  ],
+  "native_paid": {
+    "1": 4001,
+    "2": 854,
+    "3": 827,
+    "4": 222,
+    "5": 344,
+    "6": 16,
+    "7": 10,
+    "8": 5
+  },
+  "full_calls": 17,
+  "native_gain_upper": "-1",
+  "budgets": [
+    {
+      "kappa": "0.00363005817",
+      "baseline": {
+        "exact": [
+          "659708950208162771055009442405366535672598985224079/100000000000000000000000000000000000000000000000000",
+          "329854475104081385527504721202683267836299492639851/50000000000000000000000000000000000000000000000000"
+        ],
+        "decimal_display_only": [
+          "6.5970895020816277105500944240536654",
+          "6.5970895020816277105500944240536654"
+        ]
+      },
+      "fixed_history_optimistic_moment_upper": {
+        "exact": [
+          "-1040291049791837228944990557594633464327401014775921/100000000000000000000000000000000000000000000000000",
+          "-520145524895918614472495278797316732163700507360149/50000000000000000000000000000000000000000000000000"
+        ],
+        "decimal_display_only": [
+          "-10.402910497918372289449905575946335",
+          "-10.402910497918372289449905575946335"
+        ]
+      }
+    },
+    {
+      "kappa": "0.003647081039689",
+      "baseline": {
+        "exact": [
+          "2318336914596505691909902651821991788529/10000000000000000000000000000000000000000000000000",
+          "23183369145965056919099026518219917940147/100000000000000000000000000000000000000000000000000"
+        ],
+        "decimal_display_only": [
+          "2.3183369145965056919099026518219918E-10",
+          "2.3183369145965056919099026518219918E-10"
+        ]
+      },
+      "fixed_history_optimistic_moment_upper": {
+        "exact": [
+          "-169999999997681663085403494308090097348178008211471/10000000000000000000000000000000000000000000000000",
+          "-1699999999976816630854034943080900973481780082059853/100000000000000000000000000000000000000000000000000"
+        ],
+        "decimal_display_only": [
+          "-16.999999999768166308540349430809010",
+          "-16.999999999768166308540349430809010"
+        ]
+      }
+    },
+    {
+      "kappa": "0.0038",
+      "baseline": {
+        "exact": [
+          "-1184838677687498004843234412780168170845987878085819/20000000000000000000000000000000000000000000000000",
+          "-5924193388437490024216172063900840854229939390372947/100000000000000000000000000000000000000000000000000"
+        ],
+        "decimal_display_only": [
+          "-59.241933884374900242161720639008409",
+          "-59.241933884374900242161720639008409"
+        ]
+      },
+      "fixed_history_optimistic_moment_upper": {
+        "exact": [
+          "-1524838677687498004843234412780168170845987878085819/20000000000000000000000000000000000000000000000000",
+          "-7624193388437490024216172063900840854229939390372947/100000000000000000000000000000000000000000000000000"
+        ],
+        "decimal_display_only": [
+          "-76.241933884374900242161720639008409",
+          "-76.241933884374900242161720639008409"
+        ]
+      }
+    }
+  ],
+  "controls": [
+    {
+      "name": "new_885_read_is_outside_fixed_history_scope",
+      "rejected": true,
+      "reason": "885 is never read or transported before candidate"
+    },
+    {
+      "name": "free_demoted_entrance_is_not_a_preparation",
+      "rejected": true,
+      "reason": "empty entrance of 885"
+    }
+  ],
+  "scope": "Whole-field scalar ADD/COPY/SCALE and nested MOVE preparation; original carrier histories fixed; original demoted input is not free; ordinary/retag/cache/erasure granted free. Not a general multiplication lower bound or a changed-producer obstruction.",
+  "physical_zero_reframe_admitted": false,
+  "changed_native_word_emitted": false
+}

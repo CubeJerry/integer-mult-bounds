@@ -1,0 +1,106 @@
+{
+  "all_eligible_MOVEs": [
+    40710
+  ],
+  "all_zero_MOVEs": [],
+  "hits": [
+    {
+      "event": 40710,
+      "literal": [
+        "MOVE",
+        885,
+        3,
+        189,
+        false
+      ],
+      "providers": [
+        {
+          "coefficient": "1",
+          "observation": {
+            "event": -1,
+            "frame": 189,
+            "kind": "initial",
+            "owner": 1459
+          },
+          "row": {
+            "1459": "1"
+          }
+        },
+        {
+          "coefficient": "1",
+          "observation": {
+            "event": 40708,
+            "frame": 189,
+            "kind": "arrival",
+            "owner": 705
+          },
+          "row": {
+            "705": "1",
+            "943": "1"
+          }
+        }
+      ],
+      "rank": 8,
+      "relation_coefficient": "1",
+      "target_row": {
+        "885": "1",
+        "943": "1"
+      },
+      "zero": false
+    }
+  ],
+  "relation": {
+    "1459": "-1",
+    "705": "-1",
+    "885": "1"
+  },
+  "relation_span_coframes": [
+    {
+      "frame_ids": [
+        189
+      ],
+      "row_count": 16,
+      "unique_expression": [
+        {
+          "coefficient": "-1",
+          "observation": {
+            "event": -1,
+            "frame": 189,
+            "kind": "initial",
+            "owner": 1459
+          },
+          "row": {
+            "1459": "1"
+          }
+        },
+        {
+          "coefficient": "-1",
+          "observation": {
+            "event": 40708,
+            "frame": 189,
+            "kind": "arrival",
+            "owner": 705
+          },
+          "row": {
+            "705": "1",
+            "943": "1"
+          }
+        },
+        {
+          "coefficient": "1",
+          "observation": {
+            "event": 40710,
+            "frame": 189,
+            "kind": "arrival",
+            "owner": 885
+          },
+          "row": {
+            "885": "1",
+            "943": "1"
+          }
+        }
+      ]
+    }
+  ],
+  "source_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9"
+}

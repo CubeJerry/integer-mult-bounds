@@ -1,0 +1,162 @@
+{
+  "crosschecked_sample_count": 16,
+  "equal_rank_cancellation_control": {
+    "dict_collision_mutant_rejected": true,
+    "exact_interval": [
+      "0",
+      "0"
+    ],
+    "profile": {},
+    "status": "PASS"
+  },
+  "method": "Fresh exact full source replay of the 16 selected histories; paired image/lift/kernel computation independently checks L_E dimension and minimum support rank, while each published helper witness is verified by its exact prior-history row identity.",
+  "sampled_events": [
+    {
+      "L_dimension": 1,
+      "event": 28367,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 8,
+      "prior_helper_history_dimension": 0,
+      "saving_class": "negative",
+      "target_rank": 1
+    },
+    {
+      "L_dimension": 3,
+      "event": 28388,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 4,
+      "prior_helper_history_dimension": 2,
+      "saving_class": "negative",
+      "target_rank": 1
+    },
+    {
+      "L_dimension": 2,
+      "event": 32222,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 3,
+      "prior_helper_history_dimension": 1,
+      "saving_class": "zero_or_interval_overlap",
+      "target_rank": 3
+    },
+    {
+      "L_dimension": 3,
+      "event": 32615,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 3,
+      "prior_helper_history_dimension": 2,
+      "saving_class": "zero_or_interval_overlap",
+      "target_rank": 3
+    },
+    {
+      "L_dimension": 2,
+      "event": 33204,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 2,
+      "prior_helper_history_dimension": 1,
+      "saving_class": "positive",
+      "target_rank": 5
+    },
+    {
+      "L_dimension": 9,
+      "event": 33779,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 4,
+      "prior_helper_history_dimension": 8,
+      "saving_class": "positive",
+      "target_rank": 5
+    },
+    {
+      "L_dimension": 2,
+      "event": 37903,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 1,
+      "prior_helper_history_dimension": 1,
+      "saving_class": "positive",
+      "target_rank": 4
+    },
+    {
+      "L_dimension": 3,
+      "event": 37906,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 1,
+      "prior_helper_history_dimension": 2,
+      "saving_class": "positive",
+      "target_rank": 4
+    },
+    {
+      "L_dimension": 6,
+      "event": 38170,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 2,
+      "prior_helper_history_dimension": 5,
+      "saving_class": "zero_or_interval_overlap",
+      "target_rank": 2
+    },
+    {
+      "L_dimension": 1,
+      "event": 38401,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 4,
+      "prior_helper_history_dimension": 0,
+      "saving_class": "negative",
+      "target_rank": 2
+    },
+    {
+      "L_dimension": 1,
+      "event": 39929,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 7,
+      "prior_helper_history_dimension": 0,
+      "saving_class": "zero_or_interval_overlap",
+      "target_rank": 7
+    },
+    {
+      "L_dimension": 2,
+      "event": 40710,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 1,
+      "prior_helper_history_dimension": 1,
+      "saving_class": "positive",
+      "target_rank": 8
+    },
+    {
+      "L_dimension": 3,
+      "event": 41697,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 1,
+      "prior_helper_history_dimension": 2,
+      "saving_class": "positive",
+      "target_rank": 6
+    },
+    {
+      "L_dimension": 1,
+      "event": 43183,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 4,
+      "prior_helper_history_dimension": 0,
+      "saving_class": "positive",
+      "target_rank": 8
+    },
+    {
+      "L_dimension": 2,
+      "event": 44603,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 9,
+      "prior_helper_history_dimension": 1,
+      "saving_class": "negative",
+      "target_rank": 6
+    },
+    {
+      "L_dimension": 186,
+      "event": 46241,
+      "full_history_miss": true,
+      "minimum_enabling_relation_rank": 1,
+      "prior_helper_history_dimension": 185,
+      "saving_class": "positive",
+      "target_rank": 7
+    }
+  ],
+  "scope": "Checks only the 16 full-L samples against the exhaustive paired price engine; the all-1,066 candidate screen is separately recorded in ALL-ONE-RELATION-PRICES.json.",
+  "source_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+  "status": "PASS"
+}
