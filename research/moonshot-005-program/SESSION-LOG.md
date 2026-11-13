@@ -940,3 +940,17 @@ mutable funded BIT packets, decoder-robustness of the gate, and complex coupled
 entry/late access respecting the physical half-forward Schur equation.
 No new κ or PR readiness. Resulting remote SHA is recorded after confirmation
 in the next receipt, never self-referentially in this commit.
+
+## 2026-11-13-S010 — checkpoint7, continuing (2026-11-13 09:12:43 UTC)
+
+Starting from confirmed 3e85cc219287839b9cd1ebcf78a838762de4f962, treee5e4a4caf51f7ea208f5cf0545a46a3484498d3e. Independently admitted actual
+early kernel receiver/observer words and the arbitrary-timing canonical-code
+completion obstruction. Strengthened necessary exceptional support to19 ports
+with independent pigeonhole review and complete fresh-price deficit>2.21009767316616.
+Both installed-path receipts are byte-identical; all earlier scientific bytes
+remain. Terminal-normalization/final-facet proof is under review, not admitted.
+Four-entry/mixed complex sources are frozen author evidence; their usefulness
+and independent admission remain separate. Continue toward13:27:03UTC.
+Next resolve the terminal gate, then affordable nonmonotone turns or changed
+source; construct useful mixed complex access within its complete invoice.
+No new κ or PR readiness. Remote SHA is recorded after confirmation.

@@ -720,3 +720,35 @@ then prove chart/lifecycle correctness and full fixed-even-m cost. No candidate
 solution is admitted yet. **COUPLED-SELF-RESPONSE** remains open as a source
 construction; enforce the physical half-forward convention and joint Schur
 equation, then acquire its needed observations without assuming free history.
+
+## S010 checkpoint7 — code robustness and early receiver evidence
+
+BIT-CODE-DECODER-ROBUSTNESS — proved in the stated code interface. For every
+characteristic-two field and V, fixed clean-X histories, nine canonical/gauged
+code payloads, arbitrary legal reads/public-Y coding and no Y-bearing copies,
+additional nonlocal support T has at least19 ports. Punctured distances18..23
+and geometric gaps give39 qualifying roles. Dependencies: canonical code and
+its all-field basis extension, exact source histories and last-interaction
+path bounds. See results/bit-code-decoder-robustness/ADMISSION.md.
+
+BIT-CODE-FRESH-PRICE — disproved within the complete stated tariff scope.
+Nine retained Hub returns plus fresh single-birth history access need at least
+8^.995 extra moment versus less than5.707155578155487 available, for every
+fixed even m. Arbitrary packet tours need their own justified price bound.
+
+EARLY-KERNEL-RECEIVER-LANE — proved finite source construction. Actual5244/5248
+operation words preserve all400 partial-parent directions; the latter obtains
+a pure coupled kernel value at Hub through a charged rank-three observation.
+The late inverse uses current rows. Six controls and exact source/chart/lifetime
+review are retained. No complete E endpoint or supplier follows; later mixed
+updates need their own inverse closure. See results/early-kernel-receiver-lane/.
+
+BIT-MUTABLE-FUNDED-PACKETS — open, monotone subcase under review. A proposed
+terminal-normalization lemma separates low-rank terminal information from
+local future cache edits. Its final-facet consequence is independently being
+checked. Nonmonotone turns and changed X sources remain concrete alternatives.
+
+COUPLED-SELF-RESPONSE — partial actual source progress. Four-entry dyadic and
+two-lane words, plus a causal eight-entry mixed consumer, are frozen author
+evidence. Independent admission and full-price usefulness remain separate;
+appending eight fresh returns fails the actual full current invoice.

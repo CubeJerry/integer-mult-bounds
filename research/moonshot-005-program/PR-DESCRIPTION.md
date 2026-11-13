@@ -745,3 +745,21 @@ Credit remains @CubeJerry and the retained native/caller/root-lineage authors;
 all new proofs and implementations disclose OpenAI assistance. **No new κ.**
 Both strict suppliers and all five foundations remain. Ongoing programme,
 not PR-ready; no upstream submission is made.
+
+## S010 decoder robustness and actual kernel receiver lane
+
+The [decoder-robust code obstruction](results/bit-code-decoder-robustness/ADMISSION.md)
+removes the initial-injection/timing premise of the earlier cache theorem.
+It proves an all-volume nineteen-port requirement in the stated canonical
+packet-code interface and a complete fixed-even-m obstruction for its fresh
+single-birth extension. Root and worker B separately review the code proof,
+exact source certificates and stronger pigeonhole consequence.
+
+The [early kernel lane](results/early-kernel-receiver-lane/ADMISSION.md) is a
+literal partial construction with a current-row inverse and a paid pure
+observation at Hub. A new dense400-input interpreter checks every output,
+chart transition, lifetime and negative control. Full mixed acquisition and
+endpoint completion remain open. Incompatible source gains are not added.
+Credit remains @CubeJerry and retained predecessor/native/caller authors;
+OpenAI assistance is disclosed. No new κ; both strict suppliers and all five
+foundations remain. Ongoing programme, not PR-ready.

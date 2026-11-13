@@ -1,0 +1,92 @@
+{
+  "all_public_rows_and_charts_unchanged": true,
+  "chart_frame": [
+    4,
+    8,
+    17,
+    34,
+    128,
+    323
+  ],
+  "chart_index": 1125,
+  "early_lane_original_row": {
+    "119": "1",
+    "121": "-1",
+    "138": "-1",
+    "139": "1"
+  },
+  "eligible_foreign_initial_X_lines": [
+    7,
+    18,
+    27,
+    46,
+    77,
+    81,
+    87,
+    103,
+    111
+  ],
+  "full_forward_packet_access_preserved": true,
+  "inputs": 400,
+  "move_increment": {
+    "2": 4,
+    "6": 4,
+    "8": -4
+  },
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "negative_controls": [
+    {
+      "name": "missing_initial_null_term",
+      "reason": "all400-input endpoint map differs",
+      "rejected": true
+    },
+    {
+      "name": "missing_late_decode_term",
+      "reason": "all400-input endpoint map differs",
+      "rejected": true
+    },
+    {
+      "name": "stale_packet_add_at0",
+      "reason": "(3548, ['ADD', 119, 451, '1/16', 3], 'cochart')",
+      "rejected": true
+    }
+  ],
+  "no_coupled_initial_X_line_reachable": true,
+  "observer_original_row": null,
+  "ordinary_bill": {
+    "counts": {
+      "ADD": 3594,
+      "CLEAR": 402,
+      "INIT": 402,
+      "MOVE": 844,
+      "SCALE": 2
+    },
+    "instructions": 5244,
+    "lifetimes": 402,
+    "moves": {
+      "1": 208,
+      "2": 136,
+      "3": 96,
+      "4": 20,
+      "5": 199,
+      "6": 5,
+      "7": 4,
+      "8": 168,
+      "9": 8
+    },
+    "peak": 29
+  },
+  "ordinary_increment": {
+    "ADD": -2,
+    "CLEAR": 0,
+    "INIT": 0,
+    "MOVE": 4,
+    "SCALE": 0
+  },
+  "owned_Hub_observer": false,
+  "parent_rail_sha256": "a235a7e58f9eb96c6d409a88095fd6b59c977977baabb8735c76b2b820dcbedc",
+  "scope": "Actual encoded forward-receiver timing interface, not coupled S implementation or entry8 removal. All old endpoint debts, coupled entry calls, strict suppliers and five foundations remain.",
+  "status": "PASS_ACTUAL_ENCODED_COUPLED_Y_NULL_LANE",
+  "word_payload_sha256": "9446b3801528d7895401b17a22f697f4c50f210fec410ba7e156210ede105b4e",
+  "word_sha256": "02abaeace9eccdd190aae71f7726f7a946106b1dc6674b4c72160d1bda986f5d"
+}

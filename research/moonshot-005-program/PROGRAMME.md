@@ -1,3 +1,28 @@
+## S010 checkpoint7 — decoder timing removed; a real early coupled lane
+
+The fixed clean-X cache obstruction now survives arbitrary packet read timing
+and arbitrary public-Y coding whenever all nine packet payloads stay in the
+canonical row code. It no longer assumes an initial injection y+Kx. Exact
+punctured-code distances and last incoming interactions imply at least19
+additional original-input ports. Under the separately stated nine-Hub tariff,
+fresh single-birth access to that many ports costs at least8^.995, exceeding
+the entire remaining caller allowance by more than2.21009767316616. This is a
+scoped theorem at all block volumes, not a universal BIT impossibility.
+
+On the complex side, an actual early receiver lane moves the coupled kernel
+combination y17-y19-y38+y40 to a genuine rank-six chart, preserves all400
+partial-parent outputs and restores the encoded receivers using current rows.
+A separate owned observation carries this pure kernel value to Hub at a paid
+rank-three cost. A different dense rational interpreter checks all160000
+matrix coefficients, lifetimes, charts, current-row inverse and six controls.
+The construction retains every forward/reverse debt of its partial parent.
+
+Mutable BIT payloads outside the code remain the nearest escape. A proposed
+terminal-normalization/final-facet obstruction for monotone paths is under
+independent review, not admitted here. Complex four-entry and mixed-observation
+words are frozen author evidence awaiting separate reviews. Both strict
+suppliers and all five foundations remain. No new complete κ; not PR-ready.
+
 ## S010 checkpoint6 — rigidity proved; the fixed-cache BIT route is closed
 
 The BIT minimum-rank interface now has a structural classification. Every scalar

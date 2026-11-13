@@ -834,3 +834,26 @@ Schur requirement I+R=G_UU*(I-R)/2. Thus merely killing the kernel mode does
 not prove eight-return condensation. The precise construction, observation
 access and cost remain open; see the labelled work-in-progress note. All
 strict supplier and foundational inequalities remain unchanged.
+
+## S010 checkpoint7 — decoder-independent port requirement
+
+For fixed pure-X histories, nine canonical/gauged code packets, arbitrary legal
+read timing and public-Y linear coding, and no Y-bearing owned copies, let T
+be the original-input support union of additional nonlocal information.
+Completion requires |T|>=19: exactly39 receiver roles have both punctured-code
+distance and last-interaction geometric gap>=19, so for |T|<=18 one qualified
+role outside T contradicts completion. This all-volume claim does not itself
+impose a nine-direct-Hub price on arbitrary tours.
+
+If that tariff is also retained, actual single-birth charts with total birth
+dimension<=7 expose at most13 ports. Thus access to19 ports costs at least
+8^(199/200), versus limiting complete allowance5.7071555781554867437... .
+The deficit exceeds2.2100976731661684179..., and every finite even m is stricter.
+Mutable payloads outside the code, changed sources, and differently proved
+packet tariffs remain outside this price corollary.
+
+The complex kernel lane has exact delta4[6]+4[2]-4[8], costing
+.089258211923689... at t=.995; literal m=3 partial room10.23719287297556... .
+Its separate rank-three observer costs3.0728242054203196... and leaves
+7.25362687947893... . These are incomplete-word allowances, not supplier
+savings. No entry-call reduction or endpoint completion follows.

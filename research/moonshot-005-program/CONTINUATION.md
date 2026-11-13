@@ -1,3 +1,19 @@
+# Current continuation — S010 checkpoint7
+
+Resume exact remote HEAD; checkpoint parent3e85cc219287839b9cd1ebcf78a838762de4f962. Session remains active
+until13:27:03UTC. Read the two ADMISSION.md files in STATE.s010.checkpoint7.
+The fixed canonical packet-code/cache route now fails without initial-injection
+assumptions: at least19 extra ports are needed, exceeding its complete fresh
+access budget. The actual early coupled kernel lane and paid observer preserve
+all400 parent directions but remove no entry calls or endpoint debt.
+
+Resolve the monotone mutable-packet terminal/final-facet proof, then seek useful
+nonmonotone funded tours or a changed source. Review four-entry/dyadic/two-lane
+and causal mixed source words separately. All physical-half, joint endpoint,
+ordinary and recursive costs remain. Selected conditionalκ=.00363005817;
+no new completeκ, both strict suppliers and five foundations remain. Not
+PR-ready. Older continuation sections are historical and superseded here.
+
 # Current continuation — S010 checkpoint6
 
 Resume exact remote HEAD; this checkpoint's parent is 6588822b49ff320bf31ebc8846db8a61a3f02c5f.

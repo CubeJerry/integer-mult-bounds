@@ -1,0 +1,11 @@
+# Pigeonhole strengthening of arbitrary-decoder cache obstruction
+
+Verified consequence of the canonical/gauge-code decoder theorem, with the same source/interface scope. Independently combine the primary-source111 rho_i values and111 last-interaction minima g_i from cache-budget-review/RESULT.json. Exactly39 roles satisfy rho_i>=19 and g_i>=19.
+
+If the extra input-port support T had size at most18, at least21 of those39 roles would lie outside T. Choose one i. The punctured-code lemma forces its total canonical-code contribution A_i to equal the reference fitting row, since rho_i>|T|. Its last incoming public-Y interaction and later cache chain miss at least g_i>=19 contact ports; T covers at most18 of them. A required nonzero foreign block remains unavailable, contradiction. If no incoming public-Y interaction exists, the39-port no-interaction bound is stronger. Thus |T|>=19 is necessary. This is not a claim that19 ports suffice.
+
+For fresh single-birth extra returns on the fixed clean-X history, every integer profile of total birth dimension at most7 has input support at most13: dimensions1,2,4,6,7 have capacities1,2,9,12,13, and8 cannot fit. Therefore the required total birth dimension is at least8. Concavity gives additional movement moment at least8^(199/200). No particular repair is claimed to attain that information lower bound.
+
+Subtracting the previously independently enclosed limiting extra allowance5.7071555781554867437... gives strict limiting movement deficit at least2.2100976731661684179...; every finite even m has a larger deficit. Exact rational endpoints and all39 roles are in RESULT.json. The simple threshold-count pigeonhole argument cannot improve beyond18 on these data: only10 roles have BOTH rho_i>=20 and g_i>=20. This observation is not an upper bound on the true required support.
+
+The price corollary keeps the retained nine Hub-to0 tariff. Arbitrary changed tour prices need their own support budget. Singular-Schur codes, mutable packets acquiring outside-code information, changed sources and Y-bearing moving copies remain open. All physical and complete-supplier obligations remain; no kappa follows. Credit: @CubeJerry/native authors; root's proposed pigeonhole strengthening; worker B's independent count and exact enclosure; OpenAI assistance disclosed.

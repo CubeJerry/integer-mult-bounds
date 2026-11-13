@@ -814,3 +814,19 @@ snapshot is retained; its downward-rounded prose ceiling is corrected and the
 inherited initial map is explicit. Six installed-path receipts are byte-identical
 in CHECKPOINT6-VALIDATION.json. These are corroborating replays of independent
 reviews, not extra independent reviewers. No new complete κ.
+
+## S010 checkpoint7 — distinct source and proof reviews
+
+Worker B independently interprets both kernel-lane words with dense400-column
+integer rows and a common dyadic denominator, without importing the author's
+rail extractor. Every output, lifetime and chart is checked, with six semantic
+controls. The disclosed shared native_verify chart predicate is not claimed
+as an independent compiler proof. Installed-path replay is byte-identical.
+
+Root independently rebuilds the BIT code from rational contacts, reversed
+roles and Gray-code enumeration: all111 punctured distances,511 codewords,
+birth-support profiles and directed complete prices. Worker B then separately
+checks root's nineteen-port pigeonhole consequence. Finite certificates
+instantiate the source-bound proof; they do not replace it. Author manifests
+and source pins are retained. CHECKPOINT7-VALIDATION.json records both
+installed-path replays. Every earlier scientific byte is unchanged. No new κ.

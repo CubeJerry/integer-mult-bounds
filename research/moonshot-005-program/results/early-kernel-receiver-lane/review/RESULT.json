@@ -1,0 +1,383 @@
+{
+  "status": "PASS_INDEPENDENT_DENSE400_KERNEL_LANE_REVIEW",
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "caller_invoice_sha256": "d9ba709fa5dcefffe3f3abdcf34600ce188224703cfd743e6db8b58ba4816cb7",
+  "author_manifest_sha256": "7b0f31383391da6dcbeb938f8b2edf52155bf3bf86922e7ed8478ae0c8d56d3b",
+  "reviewed_kernel_files": [
+    "KERNEL-LANE.md",
+    "CHART-MAPS.json",
+    "CONDITIONAL-BUDGET.json",
+    "kernel-coded/RESULT.json",
+    "kernel-observer/RESULT.json",
+    "source-evidence/rail-consumer.json.gz",
+    "kernel-coded/rail-kernel.json.gz",
+    "kernel-observer/rail-kernel.json.gz"
+  ],
+  "parent_rail_sha256": "a235a7e58f9eb96c6d409a88095fd6b59c977977baabb8735c76b2b820dcbedc",
+  "all_independent_input_directions": 400,
+  "parent_bill": {
+    "instructions": 5242,
+    "counts": {
+      "INIT": 402,
+      "ADD": 3596,
+      "MOVE": 840,
+      "CLEAR": 402,
+      "SCALE": 2
+    },
+    "moves": {
+      "1": 208,
+      "2": 132,
+      "3": 96,
+      "4": 20,
+      "5": 199,
+      "6": 1,
+      "7": 4,
+      "8": 172,
+      "9": 8
+    },
+    "lifetimes": 402,
+    "peak": 29,
+    "nonzero_owned_clears": 394,
+    "common_dyadic_exponent": 5,
+    "global_rescalings": 3
+  },
+  "words": {
+    "coded": {
+      "word_sha256": "02abaeace9eccdd190aae71f7726f7a946106b1dc6674b4c72160d1bda986f5d",
+      "bill": {
+        "instructions": 5244,
+        "counts": {
+          "INIT": 402,
+          "ADD": 3594,
+          "MOVE": 844,
+          "CLEAR": 402,
+          "SCALE": 2
+        },
+        "moves": {
+          "1": 208,
+          "2": 136,
+          "3": 96,
+          "4": 20,
+          "5": 199,
+          "6": 5,
+          "7": 4,
+          "8": 168,
+          "9": 8
+        },
+        "lifetimes": 402,
+        "peak": 29,
+        "nonzero_owned_clears": 394,
+        "common_dyadic_exponent": 5,
+        "global_rescalings": 3
+      },
+      "movement_increment": {
+        "2": 4,
+        "6": 4,
+        "8": -4
+      },
+      "all400_rows_and_native_exit_charts_preserved": true,
+      "early_pivot_event": 43,
+      "late_decoder_events": [
+        4547,
+        4548,
+        4549
+      ],
+      "pure_input_functional": {
+        "119": 1,
+        "121": -1,
+        "138": -1,
+        "139": 1
+      },
+      "new_chart_pairs": [
+        [
+          3,
+          1125
+        ],
+        [
+          1125,
+          143
+        ],
+        [
+          1125,
+          145
+        ],
+        [
+          1125,
+          162
+        ],
+        [
+          1125,
+          163
+        ]
+      ],
+      "extra_movement_per_native_bounds": [
+        "22314552980922260004839290499/250000000000000000000000000000",
+        "11157276490461130002419645251/125000000000000000000000000000"
+      ],
+      "conditional_m3_margin_bounds": [
+        "61423157237853379289905141493173/6000000000000000000000000000000",
+        "61423157237853379289905141507841/6000000000000000000000000000000"
+      ]
+    },
+    "observer": {
+      "word_sha256": "24fc1264c8d3b0345441a47dd2a50087fd416bb3e4b035a61edbbf89e02dc79e",
+      "bill": {
+        "instructions": 5248,
+        "counts": {
+          "INIT": 403,
+          "ADD": 3595,
+          "MOVE": 845,
+          "CLEAR": 403,
+          "SCALE": 2
+        },
+        "moves": {
+          "1": 208,
+          "2": 136,
+          "3": 97,
+          "4": 20,
+          "5": 199,
+          "6": 5,
+          "7": 4,
+          "8": 168,
+          "9": 8
+        },
+        "lifetimes": 403,
+        "peak": 30,
+        "nonzero_owned_clears": 395,
+        "common_dyadic_exponent": 5,
+        "global_rescalings": 3
+      },
+      "movement_increment": {
+        "2": 4,
+        "3": 1,
+        "6": 4,
+        "8": -4
+      },
+      "all400_rows_and_native_exit_charts_preserved": true,
+      "early_pivot_event": 43,
+      "late_decoder_events": [
+        4550,
+        4551,
+        4552
+      ],
+      "pure_input_functional": {
+        "119": 1,
+        "121": -1,
+        "138": -1,
+        "139": 1
+      },
+      "new_chart_pairs": [
+        [
+          3,
+          1125
+        ],
+        [
+          1125,
+          127
+        ],
+        [
+          1125,
+          143
+        ],
+        [
+          1125,
+          145
+        ],
+        [
+          1125,
+          162
+        ],
+        [
+          1125,
+          163
+        ]
+      ],
+      "actual_Hub_probe_role": 0,
+      "observer_arrival_event": 46,
+      "first_primal_packet_formation_event": 3469,
+      "probe_output_delta_is_exact_original_null": true,
+      "extra_movement_per_native_bounds": [
+        "614564841084063929013810821631/200000000000000000000000000000",
+        "384103025677539955633631763521/125000000000000000000000000000"
+      ],
+      "conditional_m3_margin_bounds": [
+        "43521761276873595659606959816213/6000000000000000000000000000000",
+        "43521761276873595659606959830887/6000000000000000000000000000000"
+      ]
+    }
+  },
+  "all8_entry_preconditions_exactly_retained": true,
+  "literal_forward_packet_coefficients": [
+    {
+      "move": 3528,
+      "clear": 3594,
+      "field": 451,
+      "pivot_add": 3544,
+      "beta": {
+        "17": "1/16",
+        "19": "1/8",
+        "38": "-1/16",
+        "40": "0"
+      }
+    },
+    {
+      "move": 3661,
+      "clear": 3727,
+      "field": 451,
+      "pivot_add": 3675,
+      "beta": {
+        "17": "-1/16",
+        "19": "0",
+        "38": "1/16",
+        "40": "1/8"
+      }
+    },
+    {
+      "move": 3794,
+      "clear": 3860,
+      "field": 451,
+      "pivot_add": 3808,
+      "beta": {
+        "17": "-1/16",
+        "19": "0",
+        "38": "-1/16",
+        "40": "0"
+      }
+    },
+    {
+      "move": 3927,
+      "clear": 3993,
+      "field": 451,
+      "pivot_add": 3941,
+      "beta": {
+        "17": "-1/16",
+        "19": "0",
+        "38": "-1/16",
+        "40": "0"
+      }
+    },
+    {
+      "move": 4060,
+      "clear": 4126,
+      "field": 451,
+      "pivot_add": 4073,
+      "beta": {
+        "17": "1/16",
+        "19": "1/8",
+        "38": "-1/16",
+        "40": "0"
+      }
+    },
+    {
+      "move": 4193,
+      "clear": 4259,
+      "field": 451,
+      "pivot_add": 4206,
+      "beta": {
+        "17": "-1/16",
+        "19": "0",
+        "38": "1/16",
+        "40": "1/8"
+      }
+    },
+    {
+      "move": 4326,
+      "clear": 4392,
+      "field": 451,
+      "pivot_add": 4339,
+      "beta": {
+        "17": "1/16",
+        "19": "0",
+        "38": "1/16",
+        "40": "0"
+      }
+    },
+    {
+      "move": 4459,
+      "clear": 4525,
+      "field": 451,
+      "pivot_add": 4472,
+      "beta": {
+        "17": "-1/16",
+        "19": "0",
+        "38": "-1/16",
+        "40": "0"
+      }
+    }
+  ],
+  "all_forward_packet_payloads_immutable": true,
+  "six_actual_new_chart_pairs": [
+    [
+      3,
+      1125
+    ],
+    [
+      1125,
+      127
+    ],
+    [
+      1125,
+      143
+    ],
+    [
+      1125,
+      145
+    ],
+    [
+      1125,
+      162
+    ],
+    [
+      1125,
+      163
+    ]
+  ],
+  "shared_phase_engine_sha256": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38",
+  "six_global_phase_recipes_pass": true,
+  "wrong_phase_rejected": true,
+  "common_chart_binary_basis": [
+    4,
+    8,
+    17,
+    34,
+    128,
+    323
+  ],
+  "common_chart_dimension": 6,
+  "eligible_original_X_lines": [
+    7,
+    18,
+    27,
+    46,
+    77,
+    81,
+    87,
+    103,
+    111
+  ],
+  "coupled_X_lines_at_common_chart": [],
+  "kernel_X_normal_span_intersection_common_chart": [
+    0,
+    51
+  ],
+  "negative_controls": [
+    {
+      "name": "missing_encoder_term",
+      "rejected_by": "complete400-input map"
+    },
+    {
+      "name": "missing_decoder_term",
+      "rejected_by": "complete400-input map"
+    },
+    {
+      "name": "stale_pivot_read_at0",
+      "rejected_by": "actual cochart"
+    },
+    {
+      "name": "zero_observer_copy",
+      "public_map_alone_passes": true,
+      "rejected_by": "pure original null observation"
+    }
+  ],
+  "scope": "Kernel-only actual partial400-input timing interface and conditional m3 invoice. Preserves parent partial map; does not complete coupledS, remove8entry calls, admit Cayley/route leads, or discharge physical all-width/owned/compiler obligations."
+}
