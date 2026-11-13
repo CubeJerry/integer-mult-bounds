@@ -33,3 +33,7 @@ Native endpoint/core at dffe132bbe16d830e2aa7367ed40a540f5c7fd64 and compiler ro
 ## Current recovery point: wave 8–9
 
 Seven complete verified branches and exact review links are in CHECKPOINT.json and notes/*-publication.json. Native nonleaf tariff and parametric ball-core gates are closed with explicit limitations. Pending work: source-bound BIT descent, parity-preserving bilateral slack, and a finite quotient-flow extension. Files under pending/ and names beginning pending- are snapshots, not publication approval. The R9 root checker depends on the adjacent preserved FULL-GRAPH-DEPENDENCY.py; adapt its local import path before replay. No upstream PR was created.
+
+## Current recovery point: wave 11
+
+Eight verified branches are now recorded. The global error-one Hadamard/Gaussian bijection with optimal bilateral slack 1/2 is published, replacing the earlier pending global candidate. The exact-sum/phase-covariant sharp 1/sqrt(2) variant is frozen and mathematically reviewed but not yet published. Active work covers the literal rank-two MOVE, an order-four alternative and parity obstruction, and four metadata-only replay-registration repairs. Earlier status paragraphs are historical. No full kappa improvement or assumption discharge is claimed.
