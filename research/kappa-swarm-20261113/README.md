@@ -5,9 +5,9 @@ Read `STATE.json` for precise scopes, pins, completed work and active assignment
 Canonical main is `e54523517d0f03e58352e647c403a5af3e525a57`; selected kappa is
 `363005817/100000000000`. All five foundational assumptions remain.
 
-The alternate-carrier BIT pairing package is published and independently checked.
-Two further exact negative results are being packaged: complete fixed-contact frame
-corridors and funding of helper zeroing. Fresh work tests joint neutral-helper
+The alternate-carrier BIT pairing and complete fixed-contact frame packages are
+published and independently checked. Helper-zeroing funding is verified locally
+and being tested for a stronger correlated-subspace extension. Fresh work tests joint neutral-helper
 zeroing, correlated helper subspaces and unchanged-history cached providers.
 No new complete kappa is claimed. The higher open comparator #7481 is unselected.
 
