@@ -1,0 +1,1 @@
+Historical draft snapshot, superseded by the independently verified published package at CubeJerry/integer-mult-bounds commit509baf4514966e4202cfdde379d7adf3085b1cc7. See JOINT-REVIEW-LINK.json. No new kappa.

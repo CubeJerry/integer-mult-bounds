@@ -1,0 +1,561 @@
+{
+  "source_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+  "candidate_event": 40710,
+  "candidate_instruction": [
+    "MOVE",
+    885,
+    3,
+    189,
+    false
+  ],
+  "relation": {
+    "1459": "-1",
+    "705": "-1",
+    "885": "1"
+  },
+  "helpers": {
+    "1459": {
+      "initial": 189,
+      "initial_basis": [
+        1,
+        2,
+        4,
+        8,
+        48,
+        80,
+        128,
+        256
+      ],
+      "final": 127,
+      "final_basis": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "target_rank": 1,
+      "first_touch": {
+        "event": 44828,
+        "instruction": [
+          "ADD",
+          1459,
+          763,
+          "1",
+          189
+        ]
+      },
+      "touches": [
+        {
+          "event": 44828,
+          "instruction": [
+            "ADD",
+            1459,
+            763,
+            "1",
+            189
+          ]
+        },
+        {
+          "event": 44829,
+          "instruction": [
+            "ADD",
+            1459,
+            557,
+            "1/4",
+            189
+          ]
+        },
+        {
+          "event": 44830,
+          "instruction": [
+            "ADD",
+            763,
+            1459,
+            "1/3",
+            189
+          ]
+        },
+        {
+          "event": 44831,
+          "instruction": [
+            "SCALE",
+            1459,
+            "4/3",
+            189
+          ]
+        },
+        {
+          "event": 45748,
+          "instruction": [
+            "MOVE",
+            1459,
+            189,
+            127,
+            false
+          ]
+        },
+        {
+          "event": 45750,
+          "instruction": [
+            "ADD",
+            1459,
+            5,
+            "-1/2",
+            127
+          ]
+        },
+        {
+          "event": 45788,
+          "instruction": [
+            "ADD",
+            777,
+            1459,
+            "-1/2",
+            127
+          ]
+        },
+        {
+          "event": 74015,
+          "instruction": [
+            "SCALE",
+            1459,
+            "3/4",
+            127
+          ]
+        },
+        {
+          "event": 74016,
+          "instruction": [
+            "ADD",
+            762,
+            1459,
+            "-2/3",
+            127
+          ]
+        },
+        {
+          "event": 74017,
+          "instruction": [
+            "ADD",
+            763,
+            1459,
+            "-1/3",
+            127
+          ]
+        },
+        {
+          "event": 74018,
+          "instruction": [
+            "ADD",
+            764,
+            1459,
+            "-2/3",
+            127
+          ]
+        },
+        {
+          "event": 74019,
+          "instruction": [
+            "ADD",
+            1459,
+            557,
+            "-1/4",
+            127
+          ]
+        },
+        {
+          "event": 74020,
+          "instruction": [
+            "ADD",
+            1459,
+            705,
+            "-1/2",
+            127
+          ]
+        },
+        {
+          "event": 74021,
+          "instruction": [
+            "ADD",
+            1459,
+            762,
+            "-1/2",
+            127
+          ]
+        }
+      ]
+    },
+    "705": {
+      "initial": 105,
+      "initial_basis": [
+        51
+      ],
+      "final": 127,
+      "final_basis": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "target_rank": 8,
+      "first_touch": {
+        "event": 33223,
+        "instruction": [
+          "ADD",
+          1452,
+          705,
+          "1/2",
+          105
+        ]
+      },
+      "touches": [
+        {
+          "event": 33223,
+          "instruction": [
+            "ADD",
+            1452,
+            705,
+            "1/2",
+            105
+          ]
+        },
+        {
+          "event": 38252,
+          "instruction": [
+            "ADD",
+            705,
+            943,
+            "1/2",
+            105
+          ]
+        },
+        {
+          "event": 38253,
+          "instruction": [
+            "ADD",
+            943,
+            705,
+            "-1",
+            105
+          ]
+        },
+        {
+          "event": 38254,
+          "instruction": [
+            "ADD",
+            557,
+            705,
+            "1",
+            105
+          ]
+        },
+        {
+          "event": 38368,
+          "instruction": [
+            "MOVE",
+            705,
+            105,
+            430,
+            false
+          ]
+        },
+        {
+          "event": 38369,
+          "instruction": [
+            "ADD",
+            1143,
+            705,
+            "-1",
+            430
+          ]
+        },
+        {
+          "event": 40700,
+          "instruction": [
+            "MOVE",
+            705,
+            430,
+            802,
+            false
+          ]
+        },
+        {
+          "event": 40701,
+          "instruction": [
+            "ADD",
+            1229,
+            705,
+            "-1",
+            802
+          ]
+        },
+        {
+          "event": 40708,
+          "instruction": [
+            "MOVE",
+            705,
+            802,
+            189,
+            false
+          ]
+        },
+        {
+          "event": 40709,
+          "instruction": [
+            "ADD",
+            1196,
+            705,
+            "1/2",
+            189
+          ]
+        },
+        {
+          "event": 40711,
+          "instruction": [
+            "ADD",
+            885,
+            705,
+            "-1/2",
+            189
+          ]
+        },
+        {
+          "event": 41699,
+          "instruction": [
+            "ADD",
+            705,
+            943,
+            "-1",
+            189
+          ]
+        },
+        {
+          "event": 41886,
+          "instruction": [
+            "ADD",
+            943,
+            705,
+            "1/2",
+            189
+          ]
+        },
+        {
+          "event": 41887,
+          "instruction": [
+            "SCALE",
+            705,
+            "-1/2",
+            189
+          ]
+        },
+        {
+          "event": 49128,
+          "instruction": [
+            "MOVE",
+            705,
+            189,
+            127,
+            false
+          ]
+        },
+        {
+          "event": 49129,
+          "instruction": [
+            "SCALE",
+            705,
+            "-1",
+            127
+          ]
+        },
+        {
+          "event": 57276,
+          "instruction": [
+            "ADD",
+            837,
+            705,
+            "1/2",
+            127
+          ]
+        },
+        {
+          "event": 57277,
+          "instruction": [
+            "ADD",
+            880,
+            705,
+            "-1/2",
+            127
+          ]
+        },
+        {
+          "event": 57934,
+          "instruction": [
+            "ADD",
+            874,
+            705,
+            "1/2",
+            127
+          ]
+        },
+        {
+          "event": 58060,
+          "instruction": [
+            "ADD",
+            858,
+            705,
+            "1/2",
+            127
+          ]
+        },
+        {
+          "event": 58105,
+          "instruction": [
+            "ADD",
+            839,
+            705,
+            "1/2",
+            127
+          ]
+        },
+        {
+          "event": 58159,
+          "instruction": [
+            "ADD",
+            818,
+            705,
+            "-1/2",
+            127
+          ]
+        },
+        {
+          "event": 58278,
+          "instruction": [
+            "ADD",
+            557,
+            705,
+            "-2",
+            127
+          ]
+        },
+        {
+          "event": 58464,
+          "instruction": [
+            "ADD",
+            47,
+            705,
+            "2",
+            127
+          ]
+        },
+        {
+          "event": 58465,
+          "instruction": [
+            "ADD",
+            1253,
+            705,
+            "1",
+            127
+          ]
+        },
+        {
+          "event": 58965,
+          "instruction": [
+            "ADD",
+            865,
+            705,
+            "-1",
+            127
+          ]
+        },
+        {
+          "event": 74020,
+          "instruction": [
+            "ADD",
+            1459,
+            705,
+            "-1/2",
+            127
+          ]
+        }
+      ]
+    },
+    "885": {
+      "initial": 3,
+      "initial_basis": [],
+      "final": 189,
+      "final_basis": [
+        1,
+        2,
+        4,
+        8,
+        48,
+        80,
+        128,
+        256
+      ],
+      "target_rank": 8,
+      "first_touch": {
+        "event": 30780,
+        "instruction": [
+          "ADD",
+          885,
+          943,
+          "1/2",
+          3
+        ]
+      },
+      "touches": [
+        {
+          "event": 30780,
+          "instruction": [
+            "ADD",
+            885,
+            943,
+            "1/2",
+            3
+          ]
+        },
+        {
+          "event": 40710,
+          "instruction": [
+            "MOVE",
+            885,
+            3,
+            189,
+            false
+          ]
+        },
+        {
+          "event": 40711,
+          "instruction": [
+            "ADD",
+            885,
+            705,
+            "-1/2",
+            189
+          ]
+        },
+        {
+          "event": 41698,
+          "instruction": [
+            "ADD",
+            885,
+            943,
+            "-1/2",
+            189
+          ]
+        }
+      ]
+    }
+  }
+}
