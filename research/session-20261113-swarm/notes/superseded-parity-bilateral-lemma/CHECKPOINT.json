@@ -1,0 +1,39 @@
+{
+  "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "claim": "Every total parity-preserving error-one rounder for H4/2 on Z4 has sup absolute radial change at least1/2; bijections have max forward/inverse outward slack at least1/2.",
+  "commands": [
+    {
+      "command": "python3 -I -W error -B verify.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -I -O -W error -B verify.py",
+      "exit_code": 0
+    }
+  ],
+  "completed_at_utc": "2026-11-13 11:40:37 UTC",
+  "independent_checks": {
+    "Gaussian_signed_transfer": true,
+    "candidate_count": 16,
+    "controls": 6,
+    "family_cases": 132,
+    "large_values_through": "10^100",
+    "maximum_radical_interval_bits": 512,
+    "parity_preserving_count": 8,
+    "small_range": [
+      2,
+      128
+    ],
+    "symbolic_polynomial_identities": 2
+  },
+  "local_minimum": "At x=(2a,1,1,1), a>=2, exact minimum is sqrt(4a^2+3)-sqrt(4a^2-2a+7), strictly increasing to1/2.",
+  "overlap": "Bounded public query19 results; primary #6509/#6619 exact proofs inspected, three additional relevant PR bodies have distinct contracts. No universal novelty claim.",
+  "status": "AUTHOR_FROZEN_READY_FOR_REVIEW_NO_PR",
+  "unclaimed": [
+    "Forward-only1/2 lower bound",
+    "Unrestricted error-one1/2 lower bound",
+    "Global attaining construction or sharp global constant",
+    "Actual selected caller/physical implementation",
+    "New kappa or discharge of framework assumptions"
+  ]
+}
