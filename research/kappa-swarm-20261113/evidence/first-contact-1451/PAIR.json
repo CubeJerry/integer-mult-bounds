@@ -1,0 +1,49 @@
+{
+  "source_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+  "upstream_subsets_sha256": "4a2ac624f4a86dcb89b6a92f194916c69ed8a42cd6e7187334c2df30664af3a4",
+  "pair": [
+    39875,
+    39884
+  ],
+  "direction": {
+    "146": "1",
+    "1451": "1"
+  },
+  "orientations": [
+    {
+      "helper": 146,
+      "entry": 3,
+      "exit": 529,
+      "target_rank": 7,
+      "first_contact": 497,
+      "instruction": [
+        "ADD",
+        146,
+        1479,
+        "-1",
+        3
+      ]
+    },
+    {
+      "helper": 1451,
+      "entry": 595,
+      "exit": 529,
+      "target_rank": 6,
+      "first_contact": 36564,
+      "instruction": [
+        "ADD",
+        1451,
+        451,
+        "-1",
+        595
+      ]
+    }
+  ],
+  "cheapest": [
+    1451
+  ],
+  "cheapest_target_rank": 6,
+  "demoted_entrance_as_linear_combination_of_other_inputs": {
+    "146": "-1"
+  }
+}

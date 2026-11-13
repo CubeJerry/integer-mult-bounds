@@ -1,0 +1,167 @@
+{
+  "status": "NONPOSITIVE_GENERAL_CONSTRAINT_FUNDING_FOR_ASSIGNED_BLOCK",
+  "source_sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+  "zero_events": [
+    32681,
+    39855,
+    39857,
+    39859,
+    45659,
+    45661,
+    45663,
+    45698,
+    45701,
+    45706,
+    51637,
+    57989,
+    58936,
+    76469
+  ],
+  "cache_events": [
+    35152,
+    45656
+  ],
+  "zero_row_rank": 14,
+  "zero_support_minimum_target_rank": 4,
+  "cache_specific_L_support_minima": {
+    "35152": 3,
+    "45656": 4
+  },
+  "zero_row_credit_dominance_checked": true,
+  "case0_cache45656_required_zero_events": [
+    45659,
+    45661,
+    45663,
+    58936
+  ],
+  "mandatory_disjoint_R4_unit_coordinates": [
+    1344,
+    1347,
+    1346
+  ],
+  "case0_cache35152_never_enabled": true,
+  "certificates": [
+    {
+      "event": 35152,
+      "minimum_L_support_target_rank": 3,
+      "full_zero_quotient_rank": 13,
+      "target_in_full_zero_quotient": false,
+      "full_zero_target_residual": {
+        "749": "1"
+      }
+    },
+    {
+      "event": 45656,
+      "minimum_L_support_target_rank": 4,
+      "full_zero_quotient_rank": 5,
+      "target_in_full_zero_quotient": true,
+      "full_zero_target_residual": {},
+      "exact_zero_quotient_witness": {
+        "45659": "-1/4",
+        "45661": "-1/4",
+        "45663": "-1/4",
+        "58936": "1"
+      },
+      "missing_required_event_nonmembership": [
+        {
+          "event": 45659,
+          "residual": {
+            "1344": "-1/4"
+          }
+        },
+        {
+          "event": 45661,
+          "residual": {
+            "1347": "-1/4"
+          }
+        },
+        {
+          "event": 45663,
+          "residual": {
+            "1346": "-1/4"
+          }
+        },
+        {
+          "event": 58936,
+          "residual": {
+            "756": "1"
+          }
+        }
+      ]
+    }
+  ],
+  "branch_signed_native_histograms": {
+    "case0_no_cache": {},
+    "case0_cache45656": {
+      "1": 4,
+      "4": -3
+    },
+    "new_cache45656_grant_both": {
+      "1": 1,
+      "2": 1,
+      "4": -1
+    },
+    "new_cache35152_extra_over_case0": {
+      "2": 1,
+      "3": -1
+    }
+  },
+  "branch_upper_bounds_at_0038": {
+    "case0_no_cache": {
+      "exact": [
+        "0",
+        "0"
+      ],
+      "decimal_display_only": [
+        "0",
+        "0"
+      ]
+    },
+    "case0_cache45656": {
+      "exact": [
+        "-198423779773360748525010248210959308394052837584313/25000000000000000000000000000000000000000000000000",
+        "-793695119093442994100040992843837233576211350337249/100000000000000000000000000000000000000000000000000"
+      ],
+      "decimal_display_only": [
+        "-7.9369511909344299410004099284383723",
+        "-7.9369511909344299410004099284383723"
+      ]
+    },
+    "new_cache45656_grant_both": {
+      "exact": [
+        "-2460611793073613111076323837667495532109702696699/2500000000000000000000000000000000000000000000000",
+        "-49212235861472262221526476753349910642194053933979/50000000000000000000000000000000000000000000000000"
+      ],
+      "decimal_display_only": [
+        "-0.98424471722944524443052953506699821",
+        "-0.98424471722944524443052953506699821"
+      ]
+    },
+    "new_cache35152_extra_over_case0": {
+      "exact": [
+        "-4963814565001478349590554273659508618272577023571/5000000000000000000000000000000000000000000000000",
+        "-49638145650014783495905542736595086182725770235709/50000000000000000000000000000000000000000000000000"
+      ],
+      "decimal_display_only": [
+        "-0.99276291300029566991811085473190172",
+        "-0.99276291300029566991811085473190172"
+      ]
+    }
+  },
+  "overall_native_upper_bound": 0,
+  "uniform_power_price_kappa_interval": [
+    "0",
+    "1/100"
+  ],
+  "constraint_dimension_unrestricted": true,
+  "preparation_cleanup_and_ordinary_work_granted_free": true,
+  "union_relaxation_positive_is_not_actual_gain": true,
+  "full_census_sha256": "315c2301c2104dc7933720d8be1af1eaddafac7090592d67decd332a50dd7523",
+  "input_sha256": {
+    "zero_rows": "15de6d0e53a846efdd5d3f9b34beb8d57fc51534967cc464b12c305ed2cf1834",
+    "L_spaces": "4a2ac624f4a86dcb89b6a92f194916c69ed8a42cd6e7187334c2df30664af3a4",
+    "targets": "a536e5ad9d0c903065ab8e344a591ea04c83e6489f0040441e6f18f7e5ba50c9",
+    "arrangement": "4aab91385390f2e4bd55eb28ddbb349cabfc3e767bcb874b5cf2cadc2a6cbcc5"
+  },
+  "scope": "Assigned14-zero/2-cache block only, general helper-row constraint space with unchanged native histories. Global block decomposition/cost allocation is parent scope. No physical source or kappa."
+}

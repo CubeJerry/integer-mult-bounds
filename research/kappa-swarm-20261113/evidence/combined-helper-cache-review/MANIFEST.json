@@ -1,0 +1,62 @@
+{
+  "status": "FROZEN_INDEPENDENT_WAVE31_REVIEW",
+  "files": {
+    "native_word": {
+      "path": "reference/pr7481/WORD.json.gz",
+      "sha256": "acee323696b18914bd863d55341f92112b48d3d1dc1443c276efb6c396fcc0a9",
+      "bytes": 381925
+    },
+    "caller": {
+      "path": "reference/pr7481/CALLER-EXACT.json",
+      "sha256": "255d89f38cd45e38e5770f559bc43dc217e989032359768cdc7e8cdfd64b47bc",
+      "bytes": 117156
+    },
+    "signed_invoice": {
+      "path": "reference/pr7481/producer54/validation_signed/adapted/CURRENT-PRICE.json",
+      "sha256": "86f71ccbc923db5d7a6753aa971c3a9c8a572680534498ed17be072cfa2aae6b",
+      "bytes": 6741
+    },
+    "directed_price_engine": {
+      "path": "budget_price.py",
+      "sha256": "527d1cb2756ac6c61bd0b08488441105b8902a20e953dce149127bebc74d32bb",
+      "bytes": 5319
+    },
+    "independent_468_row_crosscheck": {
+      "path": "worker-b/helper-graph/ROWS.json",
+      "sha256": "15de6d0e53a846efdd5d3f9b34beb8d57fc51534967cc464b12c305ed2cf1834",
+      "bytes": 307470
+    },
+    "replay_engine": {
+      "path": "worker-c/combined-one-relation-review/reconstruct_arrangement.py",
+      "sha256": "4087845d53858e3ce9ed9e4e81a34db4b3f99c5155f8dccdf093497e0ae64b57",
+      "bytes": 14213
+    },
+    "one_relation_engine": {
+      "path": "worker-c/combined-one-relation-review/verify_one_relation.py",
+      "sha256": "0b7c018b2aadaf0ca9ef64a0e87bf8ae82aae36c9633866d189a1cf5037879d1",
+      "bytes": 15050
+    },
+    "replay_receipt": {
+      "path": "worker-c/combined-one-relation-review/ARRANGEMENT-REPLAY.json",
+      "sha256": "88ea4b3ebd50f2ec93739967780b53b20444043a89b49c85b854f8a91825b7b2",
+      "bytes": 605023
+    },
+    "budget_receipt": {
+      "path": "worker-c/combined-one-relation-review/ONE-RELATION-RECHECK.json",
+      "sha256": "3c5783aa7b8bcc0e3a5b2450bf585f732059a27562112f3526e16e8691b3bc9b",
+      "bytes": 2035262
+    },
+    "review": {
+      "path": "worker-c/combined-one-relation-review/REVIEW.md",
+      "sha256": "715b0f124ae7a2734b566082eb383a4c7b5712e2789c1f106554a80c1888a13d",
+      "bytes": 9842
+    },
+    "portable_api_plan": {
+      "path": "worker-c/combined-one-relation-review/PORTABLE-PLAN.md",
+      "sha256": "baff195273ebfac881543c909682d5b0d8de622959a762672830a392c9c344a7",
+      "bytes": 1517
+    }
+  },
+  "source_payload_sha256": "64fca675b91298868e12f09423b47e0c2327cba7095e35c8919c1953b4ed68b8",
+  "scope": "Unchanged #7481 strict earlier same-chart histories; one homogeneous helper relation with separate zero-MOVE event-union census; arbitrary-codimension scalar-linear cache-only funding bound; no changed providers or cross-chart imports; no complete supplier claim."
+}

@@ -1,0 +1,56 @@
+{
+  "status": "PASS_NORMAL_OPTIMIZED_AND_FOUR_FAILURE_CONTROLS",
+  "normal_and_optimized_census_masks": 16384,
+  "normal_and_optimized_refinement_equivalent": true,
+  "pilot256_matches_full_prefix": true,
+  "ignored_nondeterministic_fields": [
+    "census.seconds",
+    "refined.full_census_sha256 (depends on seconds)"
+  ],
+  "executed_optimized_commands": [
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-I",
+      "-B",
+      "-O",
+      "/workspace/scratch/19b21bdb3d72/worker-a/mixed-cache-budget/pilot.py",
+      "--limit",
+      "16384"
+    ],
+    [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-I",
+      "-B",
+      "-O",
+      "/workspace/scratch/19b21bdb3d72/worker-a/mixed-cache-budget/refine.py"
+    ]
+  ],
+  "failure_controls": [
+    {
+      "control": "zero_credit_exceeds_support_weight",
+      "rejected": true,
+      "reason": "every zero support column dominates row credit"
+    },
+    {
+      "control": "dependent_zero_row",
+      "rejected": true,
+      "reason": "independent zero row determinant funding argument"
+    },
+    {
+      "control": "wrong_cache_target",
+      "rejected": true,
+      "reason": "45656 full-zero quotient provider"
+    },
+    {
+      "control": "wrong_R4_target_weight",
+      "rejected": true,
+      "reason": "cache-specific support minima"
+    }
+  ],
+  "normal_receipt_sha256": {
+    "PILOT.json": "39999ad23734606ea40e16be312f6dfd6e7419aef2f0245ef0982838b572858e",
+    "RESULT.json": "315c2301c2104dc7933720d8be1af1eaddafac7090592d67decd332a50dd7523",
+    "REFINED.json": "679e23de4e5f422f49b967441cf861abea05c944502521b1bc2690180c5c2336"
+  },
+  "frozen_primary_inputs_changed": false
+}
