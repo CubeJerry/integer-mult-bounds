@@ -34,3 +34,7 @@ Native and owned contracts feed compiler recursion; precision/tape realizes its 
 ## Restart
 
 Read STATE.json and SESSION-LOG.md, re-resolve canonical main and active dependency heads, then continue the recorded actions. Unfinished hypotheses remain unverified until separate proof and cross-review evidence is saved.
+
+## Evidence-status clarification
+
+Selected #7000/#7001 are incorporated under the five assumptions. Later sources such as #5829/#6719 and #6977-#6995 are partially reviewed in the canonical ledger; their stated proofs identify overlap, not fresh scientific certification by this run. A generic dirty-suspension theorem and proposed implementation are not automatically transferred to every selected backend. PR2809 scratch quotas were excluded because that physical backend is not literally the selected copied-centres dependency.
