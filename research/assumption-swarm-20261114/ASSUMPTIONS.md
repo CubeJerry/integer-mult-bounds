@@ -73,3 +73,11 @@ The canonical point predicate now has a uniform literal restored implementation.
 ## Wave6/7 obligations
 
 The actual current CRT lease now feeds a literal point consumer and original payload mover; the full row loop is the next physical gap. The actual137 donor MOVE is complete before the first owned SUB; the two other first-gap ADDs are next. Heterogeneous Gaussian symmetries are classified with a distinct fine-prime width obstruction to the specified dense cycle format, limited to matching square normalized grids and explicit error/shift contracts. This supplies no general rank or runtime lower bound. A newer descendant independent review supersedes the planned7334 mechanism audit without selecting a frontier.
+
+## Wave7 verified row controller and exclusions
+
+The full per-wire forward/inverse loop is now literal, with exact current-wire semantics and fixed workspace reuse. All-record key emission and numerical acquisition remain separate caller boundaries. The proposed aggregate tiny-phase-gap extension is unnecessary for the retained normalized source: its deliberate broad shift shrink and narrow1/rho factor already yield gap>=theta/2. All five full assumptions remain conditional.
+
+## Wave8 progress and candidate boundary
+
+The complete selected first gap now has literal signed half-copy and both public ADDs; initial acquisition and later owned-lifetime events remain open. B7 all-record key emission is author-verified but not yet independently admitted. A8 investigates whether two-sided diagonal gauges can bypass the specified Gaussian cycle obstruction; normalized pair products cancel both gauges. B8 audits whether compiler closure has a distinct uncovered implication under the exact retained contracts. Neither candidate changes any full assumption yet.

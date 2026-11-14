@@ -1,0 +1,54 @@
+{
+  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "canonical_readmes": [
+    {
+      "path": "research/crt-binary-key-port/README.md",
+      "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "bytes": 6572,
+      "sha256": "50b7e6bdc2511660541254eec89a4bf495b8bd659605ba56b33219515031057b",
+      "git_blob": "1fcd4dde025201a5dd17a9ffb56f7a4c4197304e"
+    },
+    {
+      "path": "research/crt-paid-key-service/README.md",
+      "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "bytes": 5830,
+      "sha256": "e7c684c5beee55eea4390d864278cb777d21fb9b40d2b517ecfe7684196e5242",
+      "git_blob": "9a6c5e090bf6dd738a4a8460056b856c1844ab99"
+    },
+    {
+      "path": "research/crt-transported-key-tape/README.md",
+      "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "bytes": 9344,
+      "sha256": "45d2e6b749eb9f4d16c7fd1f0a047c22b9fb51ff0721a8224fa6211dfbd74d58",
+      "git_blob": "a552817b3379cd4ac96535f12f8f2b90e6c8a5ef"
+    },
+    {
+      "path": "research/crt-binary-radix-consumer/README.md",
+      "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "bytes": 7028,
+      "sha256": "2333f9acde32817ad44a1a5fb5a973fa6a6dc02c3b274e5558b4aaab253e23eb",
+      "git_blob": "7f61d55f8274e9edbbc9db6b7722da5116ed4264"
+    },
+    {
+      "path": "research/crt-complete-repair-control/README.md",
+      "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "bytes": 4298,
+      "sha256": "e798805ecbbff83366ead5d50e9f2c1f31dbbe5bf13e81f134bf9f1789fd3bb4",
+      "git_blob": "9a7317fa419b7313eb6ae3810220d6a954a2bd4d"
+    }
+  ],
+  "live_queries": [
+    "repo:CrocSwap/integer-mult-bounds is:pr \"CRT\" \"key\" in:title",
+    "repo:CrocSwap/integer-mult-bounds is:pr \"payload\" \"literal\" in:title",
+    "repo:CrocSwap/integer-mult-bounds is:pr \"all-wire\""
+  ],
+  "relevant_prs": [
+    4982,
+    4795,
+    4739,
+    5015,
+    6629
+  ],
+  "finding": "Existing key/control services use fixed geometry or retained ROM. The uniform literal stable radix is retained prior work. The exact B5 prepare_keys all-wire host loop is not supplied by those services, and the immediate B6 predecessor explicitly leaves it open. No novelty is claimed for their key/radix primitives.",
+  "coverage_limit": "Bounded exact source/index/title/body search; not all historical diffs or unpublished work."
+}

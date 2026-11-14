@@ -45,3 +45,15 @@ Published current CRT consumer be17dd21af36a8b0546942299ebca7b1c83c4675 and firs
 Documentation follow-up: current CRT branch advanced without force to b12dfb5acc7fdf7d23bce671df0b97228be9ed87, changing only REVIEW.md command filenames. Both corrected commands match the existing independent receipt. Original scientific be17dd21 remains the frozen B6 dependency. Remote ref, tree, one-file delta, canonical52-added-file compare and short URL rechecked.
 
 C6 publication completed: be76d6ae53fc887f977a04ceaa6ef56bb9e98fb7, treec7d94f3791d9e36ae50816b549c680721a9a9af5, direct e545 parent and28 added-only files, all canonical and independent gates, short compare HTTP200/branch verified. The source square-grid/translated-shift restriction is explicit. Fourteen complete review links are now recorded.
+
+## Checkpoint10 local update: fifteenth verified branch
+
+B6 literal-current-wire-row-controller published as4ccf407db96c7797dc3c83d90b033551f7d52c76 (tree7e758e09dc0f08e7e02257fbb4eedea82fb30884), exact basee545. Four canonical commands,38origins,61-file science export plus final62-file committed tree checked. Remote ref/tree and62added-package-only paths checked; short compareHTTP200 and branch present. Full PR body retained; authenticated prefilled form not claimed. B7 all-record fixed13-bitpayload caller and C7 all first-gap events remain unverified active work. A independently reviewing C7. Main unchanged; no new PR delta.
+
+Candidate aggregate phase-gap extension not allocated: actual retained gauge identities already give polynomial theta/2 gap. This closes a speculative candidate, not a new theorem.
+
+## Checkpoint10: sixteen verified branches; wave8 active
+
+C7 complete selected first gap published as5584607a0a19c62173841df712e655ff8c0d6160, tree9da7e9ccc5926c90d7544f2733ad894412213ff1. Four registered commands,42origins,complete archive/28042-event source walk,committed bytes/modes and67-file science export/44inputs passed. Final68-file remote tree equals local; only package additions. Short compareHTTP200. One reviewer EOF blank was removed, AST equality checked, both modes rerun with unchanged receipt. No scientific source change.
+
+B7 author freeze:21135 instructions/22owners, exact added N(156h+126)+18h+203; fixed13-bit payload ABI and identity-key roundtrip boundary explicit. C independently reviewing. A8 approved for source-bound diagonal-gauge and monomial cycle theorem; narrow physical M=delta=1 and broad diagonal floor are proposed source leads, still unverified. B8 traces exact compiler assumption dependency, excluding generic dispatcher recreation.
