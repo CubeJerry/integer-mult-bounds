@@ -1,0 +1,179 @@
+{
+  "complete_sparse_passes": [
+    {
+      "a": 1,
+      "h": 1,
+      "mode": "FORWARD",
+      "outer": 785,
+      "p": 2,
+      "payload_actions": 522,
+      "s": 2,
+      "steps": 3407
+    },
+    {
+      "a": 1,
+      "h": 1,
+      "mode": "INVERSE",
+      "outer": 785,
+      "p": 2,
+      "payload_actions": 522,
+      "s": 2,
+      "steps": 3427
+    },
+    {
+      "a": 2,
+      "h": 2,
+      "mode": "FORWARD",
+      "outer": 1991,
+      "p": 3,
+      "payload_actions": 1356,
+      "s": 3,
+      "steps": 23589
+    },
+    {
+      "a": 2,
+      "h": 2,
+      "mode": "INVERSE",
+      "outer": 1991,
+      "p": 3,
+      "payload_actions": 1356,
+      "s": 3,
+      "steps": 23745
+    },
+    {
+      "a": 3,
+      "h": 3,
+      "mode": "FORWARD",
+      "outer": 5009,
+      "p": 7,
+      "payload_actions": 3492,
+      "s": 5,
+      "steps": 101829
+    },
+    {
+      "a": 3,
+      "h": 3,
+      "mode": "INVERSE",
+      "outer": 5009,
+      "p": 7,
+      "payload_actions": 3492,
+      "s": 5,
+      "steps": 102429
+    },
+    {
+      "a": 3,
+      "h": 2,
+      "mode": "FORWARD",
+      "outer": 1991,
+      "p": 97,
+      "payload_actions": 1356,
+      "s": 4,
+      "steps": 62761
+    },
+    {
+      "a": 3,
+      "h": 2,
+      "mode": "INVERSE",
+      "outer": 1991,
+      "p": 97,
+      "payload_actions": 1356,
+      "s": 4,
+      "steps": 62917
+    },
+    {
+      "a": 0,
+      "h": 2,
+      "mode": "FORWARD",
+      "outer": 1991,
+      "p": 5,
+      "payload_actions": 1356,
+      "s": 1,
+      "steps": 22935
+    },
+    {
+      "a": 0,
+      "h": 2,
+      "mode": "INVERSE",
+      "outer": 1991,
+      "p": 5,
+      "payload_actions": 1356,
+      "s": 1,
+      "steps": 23091
+    }
+  ],
+  "controls": [
+    "returning-key-complement",
+    "returning-opaque-payload-corruption",
+    "returning-unpaid-payload-rewind",
+    "returning-dirty-index-origin",
+    "physical-owner-alias"
+  ],
+  "inverse_boundary": {
+    "arbitrary_key_rollback_excluded": true,
+    "final_keys": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "original_keys": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "sorts": "Mathematical permutation oracle, not an implemented sorter."
+  },
+  "macro_counts": {
+    "cases": 39,
+    "checksum": "dd4cbc5b6297232597e4987058d569d7232fb8ad512e41d424e7e913b2d1dd15",
+    "widths": [
+      1,
+      2,
+      3,
+      7,
+      17,
+      257
+    ]
+  },
+  "retained_sources": 47,
+  "reviewed_sha256": {
+    "PROOF.md": "ea1a6ffb0f282e8805788d5ae2521b2a9658a3e963f00575c794e6c7080fbcd4",
+    "key_pass.py": "3df218d812d47c1e935715c87d716a7acf7a2bf2610c752ba409a9e29014d8f3"
+  },
+  "source_cost_vector": {
+    "actual_source_cases": [
+      "exact_7388",
+      "current_wire_sensitive"
+    ],
+    "external_marker_actions_per_leg": 382,
+    "external_payload_actions_per_leg": 156,
+    "payload_actions_included_once_per_leg": 1356,
+    "scope": "Receipt/seam audit; complete source/radix providers were not independently re-executed.",
+    "unchanged_external_components": [
+      "encoded_source_symbol_actions",
+      "radix_bit_control_instructions",
+      "radix_passes",
+      "retained_symbol_roles",
+      "retained_symbol_cells",
+      "retained_bucket_bits",
+      "retained_radix_register_bits",
+      "literal_point_instructions",
+      "literal_route_instructions"
+    ]
+  },
+  "static": {
+    "controls": [
+      "missing-child-return"
+    ],
+    "entries": {
+      "FORWARD": 0,
+      "INVERSE": 444
+    },
+    "exact_route_instructions": 20246,
+    "graph_sha256": "8f5ae62b89de8308eb021920185269d884f07f625a5b3ee10b39f27aee5a393b",
+    "only_caller_AST_change": "prepare_keys",
+    "outer_locations": 889
+  },
+  "status": "PASS"
+}

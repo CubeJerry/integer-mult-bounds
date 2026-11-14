@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/literal-all-wire-crt-keys/inputs/route/controller.py",
+    "research/literal-all-wire-crt-keys/inputs/route/hardware.py",
+    "research/literal-all-wire-crt-keys/inputs/route/join.py",
+    "research/literal-all-wire-crt-keys/inputs/route/verify.py",
+    "research/literal-all-wire-crt-keys/inputs/route/PROOF.md",
+    "research/literal-all-wire-crt-keys/inputs/route/NOTICE.md",
+    "research/literal-all-wire-crt-keys/inputs/route/SOURCE-PINS.json",
+    "research/literal-all-wire-crt-keys/inputs/route/RESULT.json",
+    "research/literal-all-wire-crt-keys/inputs/route/LICENSE",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/RESULT.json",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/verify.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/hardware.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/adapter.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/PROOF.md",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/SOURCE-PINS.json",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/caller.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/LICENSE",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/NOTICE.md",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/switch/switch.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/switch/PROOF.md",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/switch/check_batched_crt.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/switch/NOTICE.md",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/reference/rom-PROOF.md",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/reference/radix-PROOF.md",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/reference/7352-PROOF.md",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/reference/canonical-NOTICE.md",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-entry-lifecycle/entry.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/crt-binary-radix-consumer/radix.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/crt-encoded-benes-rom-producer/microcode.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/crt-current-row-query/join.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/crt-persistent-numerical-owner/owner.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/README.md",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/RESULT.json",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/replay.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/route.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/INPUT-PINS.json",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/crt-binary-key-port/binary.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/crt-paid-row-reentry/RESULT.json",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/encoded-current-crt/producer.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/crt-mixed-row-entry/bridge.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/crt-uniform-rom-query/machine.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/inverse_frontend.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/inverse_producer.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/endpoint.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/frontend.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/r437-preparation-composition/predecessor4025/source/records.py",
+    "research/literal-all-wire-crt-keys/inputs/route/inputs/point/inputs/predecessor/research/r437-preparation-composition/predecessor4025/source/words.py",
+    "research/literal-all-wire-crt-keys/LICENSE"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "47 exact inputs; 20246 unchanged route instructions; 112 complete key passes with exact costs/history/physical returns; two actual current-source sorted roundtrips; returning, ABI and source controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "-O",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "47 exact inputs; 20246 unchanged route instructions; 112 complete key passes with exact costs/history/physical returns; two actual current-source sorted roundtrips; returning, ABI and source controls. Optimized mode."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/review/independent_check.py",
+        "--package",
+        "{package}"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Separate sparse instruction engine, ten full key passes, 39 helper cases through width257, returning semantic/cleanup controls, all20246 exact child relocations and source cost-vector audit."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "-O",
+        "{package}/review/independent_check.py",
+        "--package",
+        "{package}"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Separate sparse instruction engine, ten full key passes, 39 helper cases through width257, returning semantic/cleanup controls, all20246 exact child relocations and source cost-vector audit. Optimized."
+    }
+  ]
+}
