@@ -279,3 +279,25 @@ two field and V. Total public-plus-owned downward occurrences number at least10.
 These are necessary conditions on a larger interface, not sufficient decoding
 or supplier claims. Exact statements and sharp native controls are in
 [the reviewed package](results/bit-all-route-rank-gap/ADMISSION.md).
+
+## S011 checkpoint10: static feasibility versus actual global information
+
+The canonical3-core prefix has actual profile111[7]+3[8], and its closed partial
+version222[7]+3[8]. Six static complementary modes pass every receiver-union
+cut, with a sharp216-to222 witness. This still supplies no actual decoder.
+The retained profitable-source theorem requires historyrank>=ceil(28V/3),
+so history confined to the canonical9V space cannot suffice.
+
+For a one-stage local factorization I=G+UP with zero own-cohort acquisition,
+rankG>=V ceil(sum1/(s_j+1)), including singular U. With n111,q8/9/10 fixed
+histories, maximum source-cohort support must be at least13/12/11 and total
+incidences1430/1258/1122. These are necessary in the stated factorization;
+extra acquisition rows use the rectangular bound and must be charged.
+
+The actual complex parity profile is168[1]+288[2]+360[3]+280[5]+8[6]+8[8].
+Its full fixed-m room at t199/200 is0.9541333063079446... minus the positive
+31.5397783670854.../(m-1) penalty, first positive at m35. The source remains
+incomplete, and its fixed eight-mode flow is independently excluded by the
+sharp56-mode incidence theorem. Any successful repair must change the flow
+and remove sufficient existing cost if it adds movement. No component gains
+from incompatible old sources are accumulated.

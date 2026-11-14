@@ -1,0 +1,63 @@
+{
+  "actual_correction_caches": 104,
+  "actual_forward_anchors": 8,
+  "actual_half_charts": 28,
+  "all_native_endpoint_charts": 400,
+  "all_original_coefficients": 160000,
+  "bill": {
+    "common_rational_denominator": 8,
+    "counts": {
+      "ADD": 2916,
+      "CLEAR": 136,
+      "INIT": 136,
+      "MOVE": 1112,
+      "SCALE": 314
+    },
+    "global_rescalings": 2,
+    "instructions": 4614,
+    "lifetimes": 136,
+    "moves": {
+      "1": 168,
+      "2": 288,
+      "3": 360,
+      "5": 280,
+      "6": 8,
+      "8": 8
+    },
+    "nonzero_owned_clears": 136,
+    "peak": 120
+  },
+  "current_a_debt": 4608,
+  "exact_Gram_entries": 10816,
+  "full_rank": 400,
+  "hosted_transpose_entries": 9216,
+  "independent_engine_sha256": "c4389c80322c875c4739af6ee558619f01da6112682c565e4f638a01750e5ec1",
+  "negative_controls": [
+    "missing_D_restore",
+    "missing_Y_restore",
+    "wrong_entry_Y_sign",
+    "wrong_forward_read",
+    "wrong_anchor_read",
+    "wrong_correction_read",
+    "wrong_reverse_read"
+  ],
+  "new_kappa": null,
+  "owned_profile": {
+    "1": 8,
+    "2": 8,
+    "6": 8,
+    "8": 8
+  },
+  "raw_profile": {
+    "1": 160,
+    "2": 280,
+    "3": 360,
+    "5": 280
+  },
+  "reverse_residual_rank": 56,
+  "scope": "An actual paired parity-half layer with all D restored; all within-class offdiagonals removed. Cross-class residual remains and no new complete supplier is proved.",
+  "status": "PASS_INDEPENDENT_ACTUAL_PARITY_HALF_COMPILER",
+  "structural_class_factor_rank": 56,
+  "structural_coupling_rank": 56,
+  "word_sha256": "f72c890e06437c3b6a177c71019f56e60f30712e5c09c1e241c893c1f180e42d"
+}

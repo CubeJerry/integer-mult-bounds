@@ -173,3 +173,18 @@ is being integrated separately; revised source retention remains active.
 Earlier monotone theorems keep their original hypotheses. Their public-turn
 extension is now proved separately, not obtained by weakening those hypotheses.
 Source pins and independent reviews are in the two new admission records.
+
+## S011 checkpoint10 transitions
+
+| ID | Independently reviewed result | Next constructive obligation |
+|---|---|---|
+| CANONICAL-CORE | PROVED paid3-core plus111 point copies and static6-mode complement; exact sharp cut. | Actual joint six-mode decoder with histories outside C. |
+| OLD-GAUGE-DISJOINTNESS | PROVED C intersect E_P=0 for every permitted pivot choice, dim sum12. | Use changed representation; do not repeat pivot searches for canonical alignment. |
+| COHORT-ACQUISITION | PROVED rank(I-UP)>=V max_order good, all fields/widths, singular and rectangular U. | Real multi-cohort acquisition or evolving global histories; verify actual support. |
+| PARITY-PAIRED-LAYER | PROVED actual400-input partial source, all class terms removed,430 signed maps. | Complete residual4608/rank56 through changed geometry. |
+| PARITY-FIXED-FLOW | DISPROVED WITHIN SCOPE: completion by8 fixed global modes needs at least56. | Branching pre-encoder/post-observation decoder and entire new price. |
+
+The fixed-global-mode bound counts historical row-space dimension, not packet
+identities. Its transpose counts input coefficients after encoding, not raw
+record visits. Those qualifications are part of the theorem, not exceptions
+introduced after a negative result.

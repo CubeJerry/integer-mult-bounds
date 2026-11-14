@@ -1,0 +1,54 @@
+{
+  "C_intersection_D": 6,
+  "closed_counts": {
+    "ADD": 462,
+    "CLEAR": 117,
+    "INIT": 117,
+    "MOVE": 225
+  },
+  "coordinate_rank": 4,
+  "groups": 36,
+  "literal_cut": {
+    "S": [
+      4,
+      8,
+      9,
+      14,
+      30,
+      73
+    ],
+    "augmented_rank": 222,
+    "deficit": 6,
+    "observation_rank": 216
+  },
+  "mutants_rejected": [
+    "point_copy",
+    "core_cache",
+    "encoder_read",
+    "Y_deposit",
+    "Hub_departure"
+  ],
+  "native_rank": 9,
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "new_kappa": false,
+  "pins": {
+    "worker-a/frontloaded-nine/build_nine.py": "f99bfc2896163e373224a4ce86608bf0452f49f0367db5d006aeca03a4180cbe",
+    "worker-a/half-class-point-prefix/build_point_prefix.py": "244bedc78693645fdd70ed4540689e7d047e0a6eb260c3d40403ac691d43b7e8",
+    "worker-c/canonical-core-prefix/CLOSED-PARTIAL.json.gz": "b276c7d0c2a683e8202d5e458cb73e7cb9aaa24110be97f99dad791348d2c605",
+    "worker-c/canonical-core-prefix/CODE.json": "36a1ec66ddf21c54d38153735e368125512c100428cb03fabb6dbb5be91a23df",
+    "worker-c/canonical-core-prefix/PREFIX.json.gz": "1882f258dd8bd8ef87e8bf5fb4054719e9517317acb7e5ea7668f12d81f5908b",
+    "worker-c/canonical-core-prefix/PROOF.md": "477209e53e9955cb22bb659c4f153b9050d3d8eb0d48f84e0beb201bb1eb585c",
+    "worker-c/canonical-core-prefix/build.py": "1e28371c2e35d39d2df5f1f8c70e4b620252e3f3c56e3541a6a02bdd3507cbcc"
+  },
+  "prefix_counts": {
+    "ADD": 462,
+    "CLEAR": 3,
+    "INIT": 117,
+    "MOVE": 114
+  },
+  "previous_reviewed_proof_sha256": "f201aa95480c39a791b63ab15b5c303d8d4ce814980bfa537d13ee4ea11bb711",
+  "reviewed_proof_clarification": "Author explicitly retained target-profitability hypothesis; no mathematics/source/code changed.",
+  "scope": "Independent native algebra and C literal-word replay using A prior independently reviewed geometry/replayer; no C builder import or execution; no repeated clique census.",
+  "status": "PASS_INDEPENDENT_CANONICAL_CORE_UNIVERSAL_GAUGE_REVIEW",
+  "zero_coordinate_kernel_dimension": 5
+}

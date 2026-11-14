@@ -210,3 +210,18 @@ arguments establish all fields, widths and finite routes; the fitting corollary
 is specifically characteristic two. The scientific ledger and protected
 discovery block remain unchanged. CHECKPOINT9-VALIDATION records installed
 reproduction and manifest checks.
+
+## S011 checkpoint10 checks
+
+Canonical prefix: C's exact source/census and A's separate all222-column replay,
+all512 canonical-word identities, universal pivot proof review and five mutants.
+Complex parity layer: root's independent dense160000-coefficient replay, every
+intermediate D/cache/anchor value, full native chart IDs,9216 transpose entries,
+seven mutants and2^-160 complete caller intervals. Frozen source and430 signed
+phase receipts reproduce byte-for-byte with two retained phase engines.
+Parity gate: B independently reconstructs all28 native incidences and checks
+the universal phase/rank argument. Acquisition filtration: C independently
+reviews every universal step and enumerates648 exact kernels/12976 increments,
+including579 singular decoders, plus234 prime-field sharpness controls.
+Installed reproduction, immutable scientific hashes and current source pins
+are recorded in CHECKPOINT10-VALIDATION. No partial word is promoted to supplier.

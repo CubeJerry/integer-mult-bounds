@@ -286,3 +286,25 @@ work may use paid public turns, but must still produce that larger history code
 and every actual read. Both suppliers and all five foundations remain open.
 New coupled BIT cells and a paired complex layer are under separate source
 review; favorable partial bills do not complete the target theorem.
+
+## S011 checkpoint10: canonical core and the need for richer acquisition
+
+The [actual canonical prefix](results/bit-canonical-core-prefix/ADMISSION.md)
+replaces the old halfclass gauge after all originals become available at Hub.
+Three paid canonical modes now have a literal six-mode static complement.
+The old gauge intersects C trivially for every pivot choice, so this is a
+justified representation change. Physical joint delivery and useful histories
+outside C remain the main constructive obligation.
+
+The [acquisition filtration](results/cohort-acquisition-rank/ADMISSION.md)
+shows why a cheap one-read/per-cohort decoder cannot fill that gap: one foreign
+cohort per acquisition needs56 fixed global modes on111 inputs, even with
+singular internal decoders. Actual mixed original-input encoders or genuinely
+evolving histories must supply the escape, with every operation paid.
+
+On the complex side, a[real paired parity layer](results/complex-parity-half-layer/ADMISSION.md)
+removes all within-class terms and supplies four mode effects on three carriers.
+Its actual flow nevertheless needs56 global modes to finish, versus8 present,
+and its remaining target moment is below1. The programme is therefore pursuing
+changed branching/post-observation geometry, not tuning the frozen layer.
+No new complete kappa or foundation discharge is claimed.

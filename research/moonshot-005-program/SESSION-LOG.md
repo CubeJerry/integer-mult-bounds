@@ -1264,3 +1264,26 @@ rebuilt front end, and B's paired parity layer, are under separate source review
 Root is testing their cross-class composition. Session remains active through
 11:19:23 UTC. Remote identity is recorded only after confirmation; the branch
 remains ongoing and not PR-ready.
+
+## 2026-11-14-S011 — checkpoint10: change the core, prove the acquisition gate
+
+Baseline `5a9ddf74c3aff42df5617e594c6ac3b85b1881d4`, tree `d2984ea73e20af1f816a9fb83ad1104af111b08b`. C constructs an actual canonical3-core and
+proves a six-mode static complement plus universal incompatibility of every
+old pivot gauge with the canonical code; A independently reviews. B emits
+an actual paired parity-half complex layer and a four-mode/three-carrier anchor
+interface. Root independently checks all400 inputs, intermediate caches and
+complete price, then proves a sharp56-mode frozen-flow gate; B independently
+reviews it. The target therefore requires a changed complex source.
+
+A proposed sparse local acquisition decoder leads to C's displacement idea
+and root's stronger cohort-order kernel filtration. The proved all-field,
+all-width theorem includes singular and rectangular local decoders; C supplies
+an independent exhaustive-kernel review. Proper literature credit is retained.
+This is protected structural discovery with direct architecture implications,
+not numerical optimization. The owned/public-turn BIT cells remain separate
+partial-source packages awaiting cumulative integration, and do not eliminate
+the six-future cut. Upstreammain/latest PR heads unchanged at05:24.
+
+No new kappa or foundation discharge. Session continues toward11:19:23 UTC.
+The resulting remote SHA is recorded only after GitHub confirmation; the
+programme remains ongoing, with no upstream PR submitted.

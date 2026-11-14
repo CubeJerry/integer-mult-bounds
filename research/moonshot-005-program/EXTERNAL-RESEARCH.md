@@ -71,3 +71,17 @@ recent open-PR metadata rows and exact source pins. No merge or source import oc
 Search-index queries returned empty even for the author; direct REST metadata
 was used, so empty search was not treated as absence of research. All these PRs
 remain open.
+
+## S01105:24 recheck and acyclic-method credit
+
+Canonicalmain and the15 latest-updated open PR heads are unchanged from the
+04:12 check; no new accepted supplier or foundational discharge. The#7557
+retraction remains recorded. The programme did not import that withdrawn law.
+The#6916 detailed source/cost/precision disclosure style was rechecked.
+
+The new acquisition theorem explicitly credits the standard acyclic index-
+coding method: Bar-Yossef, Birk, Jayram and Kol, IEEE TIT57(3),1479--1494(2011),
+Theorem7/SectionV.C; primary author PDF and exact relationship are in
+[the literature note](results/cohort-acquisition-rank/author/LITERATURE.md).
+The programme's matrix proof and native application are self-contained;
+no exhaustive novelty claim or external supplier assumption is imported.

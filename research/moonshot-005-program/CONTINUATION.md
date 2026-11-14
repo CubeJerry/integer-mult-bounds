@@ -111,3 +111,13 @@ extension: read bit-all-route-rank-gap. Construct a useful joint history code
 with real acquisition, access and all111 BIT targets, together with the
 compatible complex paired compiler. The sharp excursion controls complete
 only one Y each and are not candidate full suppliers.
+
+## Checkpoint10 next construction
+
+Start from bit-canonical-core-prefix, not a new pivot search: the old gauge is
+universally disjoint from the canonical code. Build a joint continuation that
+keeps and shares useful packet history across cells. Three spent plus two
+retired cell packets plus a six-future cut would require11 Hub packets and
+fails the inherited cap. The coupled fragments are useful local mechanisms,
+not a completed architecture. On the complex side leave the fixed parity flow;
+read its incidence gate before investigating square or branching collectors.

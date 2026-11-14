@@ -277,3 +277,24 @@ prove a characteristic-two historical-rank floorceil(28V/3) for arbitrary
 nested public and owned routes. Separate proof review, independent intervals
 and literal native sharpness words support this structural contribution.
 It is not a complete supplier or multiplication theorem. **No new kappa.**
+
+### Canonical core, actual paired layer and a general acquisition theorem
+
+The[canonical-core package](results/bit-canonical-core-prefix/ADMISSION.md)
+constructs paid111-point retention with three true canonical modes and proves
+an exact six-mode static complement. A universal pivot-disjointness theorem
+explains why the old halfclass gauge cannot supply that same interface.
+The physical decoder remains open.
+
+The[parity layer](results/complex-parity-half-layer/ADMISSION.md) supplies an
+actual400-input paired correction and four-mode reception on three carriers,
+with complete ownership/movement and signed-map verification. Its separately
+proved56-mode locality obstruction prevents mistaking a favorable partial
+price for a completed source.
+
+The[acquisition filtration](results/cohort-acquisition-rank/ADMISSION.md)
+extends the established acyclic method to this explicit block-local,
+singular/rectangular decoder model. Its exact support and transpose bounds
+force genuinely richer acquisition or evolving histories. Independent universal
+proof reviews, distinct replay implementations and meaningful hypothesis
+counterexamples accompany all three contributions. **No new kappa.**
