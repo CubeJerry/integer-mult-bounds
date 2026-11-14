@@ -57,3 +57,7 @@ Candidate next compiler question is unresolved: does the exact retained finite u
 ## Wave3/4 opportunity update
 
 Complete selected MOVE24472 now has a paid OLD23 physical boundary and pre-right all-prefix admission, under explicit supplied-owner/common-root premises. Source acquisition, complete caller, owned chronology and nonleaf rate remain separate. Context-depth K_star is already covered by #6901/current common-grid. PR7504 leaves a literal encoded predicate/owned-return obligation, now allocated. Orbit ordering qualifies the lexicographic generator obstruction; prime-cycle strengthening is being verified and still supplies no fast application or source-wide homogeneous-factor premise.
+
+## Wave4 verified update
+
+The complete old-coded MOVE boundary and prime/complemented orbit representations are published. The orbit theorem gives upper bounds only under its matched-factor premises, and explicit generator materialization costs Theta(T^2/P); it supplies no application-time gain. The direct predicate and nonzero owned lifetime are under independent review. The next useful missing joins are actual current descriptor/owner acquisition and paid child/caller return; these must not be hidden in supplied ABI premises.

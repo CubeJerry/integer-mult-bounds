@@ -25,3 +25,7 @@ Wave3 continues with a complete existing selected MOVE joined through the paid c
 ## Checkpoint5: wave4 and full-MOVE publication
 
 Six branches published. Complete OLD23/full MOVE passed independent review and32 exact source origins. Publication metadata/committed bytes pass; registered/export gates active. Two trailing-blank warnings belong to immutable source copies, and full-history gate remains explicitly unavailable in shallow checkout. The context-depth question is already proved by #6901 and current specialization; closed without a new package. Wave4 allocation: ROM-free encoded switch predicate, nonzero owned1526 lifetime, and stronger prime-cycle orbit representation. No new kappa or assumption discharge.
+
+## Checkpoint6: eight verified publications and live protocol review
+
+Complete old-coded MOVE published at6c76eaa; combined orbit-order representation published at8f1a09f. Exact remote refs, base parents, trees, intended-only added files and short compare pages checked. No new kappa; all five assumptions remain. Direct canonical switch2096-location14-tape program has a complete draft proof and primary controls, with independent interpreter/proof review active. Owned1526 eight-contact protocol has a successful34,069,475-transition nonzero replay on44 tapes; its9574 intervening source events remain external continuations with explicit time/history and preservation obligations. Draft snapshots are not publication-ready.

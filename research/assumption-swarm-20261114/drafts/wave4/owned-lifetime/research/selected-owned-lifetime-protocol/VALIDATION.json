@@ -1,0 +1,42 @@
+{
+  "status": "primary-passed-independent-review-pending",
+  "python": "3.12.14",
+  "runs": [
+    {
+      "name": "normal",
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 37.387,
+      "stdout": "normal.stdout.json",
+      "stderr": "normal.stderr.txt"
+    },
+    {
+      "name": "optimized",
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 32.348,
+      "stdout": "optimized.stdout.json",
+      "stderr": "optimized.stderr.txt"
+    }
+  ],
+  "normal_optimized_identical": true,
+  "separate_complete_source_archive_check": "SOURCE-ARCHIVE-CHECK.json",
+  "source_bytes_gate": "31 exact source/proof files checked; SOURCE-INTERVAL compressed/canonical bytes checked separately",
+  "independent_review": "pending",
+  "scope": "Eight literal contact programs; supplied nonzero boundary fixtures. Actual intervening source continuations remain explicit premises."
+}
