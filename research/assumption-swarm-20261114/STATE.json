@@ -5,7 +5,7 @@
   "selected_kappa": "363005817/100000000000",
   "selected_review": "docs/research/pr-intake-evidence/pr7000-application/PROOF-REVIEW.md",
   "started_utc": "2026-11-14 02:27:15 UTC",
-  "status": "wave2-results-and-wave3-cross-review",
+  "status": "six-verified-publications-wave3-active",
   "wave": 3,
   "background_execution": false,
   "requested_window_hours": 10,
@@ -36,47 +36,54 @@
     {
       "worker": "analytic_recovery",
       "wave": 3,
-      "track": "75-84",
-      "scope": "Independently review actual70-tape old-coded C composition; wave2 finite-precision generator theorem frozen pending publication.",
-      "status": "cross-review-active",
-      "dependencies": [
-        "30497f40d89f2a137a4bc31a4fee1229b9af1440",
-        "1a555e469b89af70d309bc966f8f813ac11dc887"
+      "track": "60-74/40-49",
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Determine an unbounded ordinary-generator rank lower bound or bounded-rank ordering for H_d(x,y)=q^Hamming(x,y) under arbitrary simultaneous coordinate orders. Rank>=3/noncirculant-only result stays internal.",
+      "status": "bounded exploration and proof",
+      "dependency": [
+        "326844a3e0c570fdafa4f3737095cd37154743a6",
+        "575491d5fc353eac26010e45e9ced60fc9870017"
       ],
-      "output": "worker-a; worker-c/wave2/research/selected-move-old-coded-c",
-      "next": "Check entry/return/symbol/port/history and numerical prefix obligations."
+      "output": "worker-a/wave3",
+      "next": "Challenge rank2 rigidity/cube successor seed; prove stronger statement or record exact negative coverage."
     },
     {
       "worker": "owned_recursion",
-      "wave": 2,
-      "track": "50-59",
-      "scope": "Produce a separately charged typed owned zero directly from valid OLD23 source without Gamma donor or address permutation.",
-      "status": "five full packets passed; uniform proof/metadata pending",
-      "dependencies": [
-        "30497f40d89f2a137a4bc31a4fee1229b9af1440",
-        "28fc921807f867302b2f43cb0696645f18094307"
+      "wave": 3,
+      "track": "75-84/50-59",
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "Independent same-root prefix/phase-negation admission and exact72-tape full selected MOVE join review.",
+      "status": "prefix proof and width2 endpoint-only counterexample found; final join review active",
+      "dependency": [
+        "5dd80e8ab9c989336b5e448e14147c2ba29da89b",
+        "e9b6d75397e3553af77bab81d5816e4b8708a501"
       ],
-      "output": "worker-b/research/old-source-owned-zero",
-      "next": "Verify all-size O(V_old+E), source preservation, reserved inactive size guards and paid stock boundary."
+      "output": "worker-b/wave3",
+      "next": "Preserve exact witness and review final translated graph. Then consider compiler logical-independence audit."
     },
     {
       "worker": "packed_codec",
-      "wave": 2,
+      "wave": 3,
       "track": "20-39/50-59",
-      "scope": "Execute actual positive Gaussian C between paid codec entrance and return on one70-tape graph.",
-      "status": "three full f1 packets passed; independent review and report pending",
-      "dependencies": [
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "scope": "OLD23 entrance\u2192existing same-width full selected MOVE24472 owner415 frames3\u219299\u2192OLD23 return, with no rebuilt monomial or widened endpoint-only wrapper.",
+      "status": "fixed88816location/72tape graph assembled; bounded literal verification and uniform proof active",
+      "dependency": [
         "30497f40d89f2a137a4bc31a4fee1229b9af1440",
-        "1a555e469b89af70d309bc966f8f813ac11dc887"
+        "b5e3cfbb67b6c908f0eb605a9f872af807c86dcf",
+        "5dd80e8ab9c989336b5e448e14147c2ba29da89b"
       ],
-      "output": "worker-c/wave2/research/selected-move-old-coded-c",
-      "next": "Complete all-size proof, exact numerical domain, private27guard retirement and metadata."
+      "output": "worker-c/wave3/research/selected-move-old-coded-full",
+      "next": "Direct source-frame oracle, strict-prefix counterexamples, all72 returns and29new guards, full cost/source closure."
     }
   ],
   "verified_results": [
     "Exact tensor Gaussian displacement/generator count theorem, independently proved and published",
     "Uniform typed INIT/CLEAR for all54 selected lifetimes, independently replayed and published",
-    "Complete literal OLD23/packed bridge with Theta(f V_old+E) direct cost, independently replayed and published"
+    "Complete literal OLD23/packed bridge with Theta(f V_old+E) direct cost, independently replayed and published",
+    "Uniform Cp-bit robustness for normalized-core ordinary generator count; polynomial conditioning proof and exact controls published",
+    "Direct OLD23-to-typed-owned-zero producer removes pre-existing Gamma donor at that local boundary; independent literal/proof review published",
+    "Actual positive Gaussian C through paid OLD23 entrance and inverse return on70 tapes; independent source/proof/literal review published"
   ],
   "published_contributions": [
     {
@@ -102,6 +109,30 @@
       "tree": "173f1c89f5d1277b44826d0a7205965ecc0c660d",
       "compare_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/selected-owned-gamma-init-20261114",
       "full_description_url": "https://github.com/CubeJerry/integer-mult-bounds/blob/28fc921807f867302b2f43cb0696645f18094307/research/selected-owned-gamma-init/PR-BODY.md"
+    },
+    {
+      "package": "gaussian-generator-rounding-margin",
+      "branch": "research/gaussian-generator-rounding-margin-20261114",
+      "remote_commit": "575491d5fc353eac26010e45e9ced60fc9870017",
+      "tree": "dd5c35952977063d22d864f82b2dbce6d64935c3",
+      "compare_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/gaussian-generator-rounding-margin-20261114",
+      "full_description_url": "https://github.com/CubeJerry/integer-mult-bounds/blob/575491d5fc353eac26010e45e9ced60fc9870017/research/gaussian-generator-rounding-margin/PR-DESCRIPTION.md"
+    },
+    {
+      "package": "old-source-owned-zero",
+      "branch": "research/old-source-owned-zero-20261114",
+      "remote_commit": "1ce8a1622b89f925a81815f8158eb8fc95977868",
+      "tree": "2813632eb583e1487e899151efe4d6f03a851f8f",
+      "compare_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/old-source-owned-zero-20261114",
+      "full_description_url": "https://github.com/CubeJerry/integer-mult-bounds/blob/1ce8a1622b89f925a81815f8158eb8fc95977868/research/old-source-owned-zero/PR-BODY.md"
+    },
+    {
+      "package": "selected-move-old-coded-c",
+      "branch": "research/selected-move-old-coded-c-20261114",
+      "remote_commit": "b5e3cfbb67b6c908f0eb605a9f872af807c86dcf",
+      "tree": "396dcaf7ae4a1779ad10daf61f7aead6dcf1a4a4",
+      "compare_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/selected-move-old-coded-c-20261114",
+      "full_description_url": "https://github.com/CubeJerry/integer-mult-bounds/blob/b5e3cfbb67b6c908f0eb605a9f872af807c86dcf/research/selected-move-old-coded-c/PR-DESCRIPTION.md"
     }
   ],
   "coordination": {
@@ -112,13 +143,13 @@
     "live_delta": "Main unchanged. PR7557 new addendum retracts original neutral-period Law5; corrected premise conditional outside park family. No overlap with allocated codec/zero/Gaussian-core scopes."
   },
   "next_actions": [
-    "Finish independent source/norm review and publish finite-precision generator theorem if valid",
-    "Independently review and publish direct old-source zero and actual C join if valid",
-    "Select next source-specific obligation from updated interface map",
-    "Recheck canonical/PR deltas before fresh speculative wave"
+    "Complete full selected MOVE join and independent review, publish only if all scope gates pass",
+    "Resolve arbitrary-order question or retain useful negative checkpoint with exact bounded coverage",
+    "Audit an exact missing compiler implication from other retained assumptions, avoiding source-premise circularity",
+    "Refresh canonical main, relevant PRs and dependency heads before another allocation"
   ],
-  "checkpoint_utc": "2026-11-14T03:17:40.399637+00:00",
-  "last_remote_checkpoint": "0329806696dae7739bd0cf6a658991cb923e679f",
+  "checkpoint_utc": "2026-11-14T03:40:41.219934+00:00",
+  "last_remote_checkpoint": "65facab36f973b71ef2b1b99c4349bfea620668c",
   "unverified_drafts": "drafts/ contains incomplete worker code/proof notes. Not publication-ready and not independently admitted.",
   "last_main_check": "Wave3 delta: unchanged e54523517d0f03e58352e647c403a5af3e525a57"
 }

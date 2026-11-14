@@ -45,3 +45,11 @@ Selected #7000/#7001 are incorporated under the five assumptions. Later sources 
 - owned_erasure/compiler: typed INIT/CLEAR now work for all54 exact raw-native lifetimes under common-format ownership, including arbitrary inactive correlated contents and all historical homes. Direct OLD23 production is the next narrower premise; full stock/child/global closure remains conditional.
 - analytic_recovery: exact lexicographic ordinary generator requirement is2T/n_fast for normalized tensor Gaussian kernels/inverses. A quantitative Cp-bit version is under review. This rules out a representation shortcut, not separable circuits or general fast multiplication.
 - Unresolved source-specific joins remain distinct from false claims: header-only codec replacement is false; missing full-format producer and complete physical caller are proof obligations. Finite tests are not universal proofs.
+
+## Verified second-wave deltas
+
+The OLD23 zero producer closes the pre-existing Gamma6-header-donor premise with O(V_old+E) paid work on a separately granted owner. It retains actual current source/context binding and full arena placement. The actual central Gaussian service now executes through one paid bridge with complete return on70 tapes. Its domain retains every-prefix numerical admission; complete source MOVE is the next join.
+
+The normalized Gaussian ordinary-generator obstruction now survives Cp-bit entry/factor rounding for the stated logarithmic Gaussian and polynomial phase-gap regime, with O(g log p)=o(p) logarithmic margin cost. Full paid gauges/periodicity/source recovery and arbitrary coordinate orders are still separate. No runtime lower bound follows.
+
+Candidate next compiler question is unresolved: does the exact retained finite uniform closure follow from the other four statements plus admitted finite algebra, or is an additional current-owner/descriptor/child-return proposition genuinely independent? This must be traced to exact source contracts, not proved by adding the conclusion as a new interface premise.

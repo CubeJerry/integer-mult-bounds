@@ -15,3 +15,9 @@ Published and remotely checked three separate branches; REVIEW-LINKS.json has ex
 Wave2: finite-precision ordinary-generator obstruction frozen with polynomial conditioning and independent root proof review underway; direct OLD23 zero producer and actual70-tape C composition have bounded complete runs but remain unpublished pending universal proof/cross-review. A moved immediately to complementary C composition review.
 
 Live delta: main e545 unchanged. PR7557 neutral-period Law5 was retracted with an explicit counterexample; correct charge quotient and park-family scope retained. This does not supersede current tasks.
+
+## Checkpoint4: six verified publications; full-MOVE and arbitrary-order work
+
+Three second-wave results are now separately published and remote-tree/base/compare checked: Gaussian rounding margin575491d, direct old-source zero1ce8a16, actual old-coded central C b5e3cfb. Registered primary and independent checks, exact source bytes, committed modes and export checks passed. Review links include full committed descriptions; anonymous GitHub did not expose an authenticated prefilled form, so verified short compares are the presentation route.
+
+Wave3 continues with a complete existing selected MOVE joined through the paid codec, independent common-root/phase-negation review, and arbitrary-order Gaussian generator research. A width2 input/final-output fit counterexample confirms that intermediate phase negation needs the strict prefix premise. It is not evidence against the stronger common-root admission. Canonical main remains e545; live #7563 and #7568 remain open at5dd80e8 and6c68c9d respectively. PR7557 addendum remains the only recent issue delta.
