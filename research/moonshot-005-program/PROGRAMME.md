@@ -331,3 +331,7 @@ arbitrary extra direction under the now fully charged all-route model.
 The next construction must both retain useful current code and create richer
 actual history; neither dimension nor a favorable partial moment suffices.
 No new complete kappa or foundational discharge.
+
+## S012 complementary structural advance: arbitrary operator histories
+
+The [one-width operator theorem](results/bit-operator-canonical-quotient/ADMISSION.md) closes the earlier scalar-only gap. The [proportional successor](results/bit-operator-quotient-density/ADMISSION.md) requires canonical quotient dimension at least V+ceil(V/17) for any target fitting, even with singular/noncommuting blocks. This constrains the whole relevant history, not its terminal rank or number of packets. Actual richer history and paid source completion remain the construction priority. S011 and S012 are concurrent; neither session's WIP is admitted by this update. No new kappa or foundation discharge.

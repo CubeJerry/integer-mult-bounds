@@ -132,3 +132,7 @@ coordinate and scalar gates before assuming C+e0 or C+one arbitrary mode
 can suffice. Full six/seven future-mode budgets are conditional screens.
 On the complex side, proper-chart auxiliary imports and dirty relays are
 active escapes; any locality obstruction must prove its support induction.
+
+## S012 complementary checkpoint1
+
+Read the operator quotient/density admissions before treating entangled blocks as a free escape from the scalar one-direction gate. Whole relevant history must have canonical quotient at least V+ceil(V/17). Mixed proper-chart banks and paid paired relay remain live constructive tasks. S012 runs concurrently from06:50:01 to16:50:01UTC; its checkpoint and WIP references are in STATE.s012. Preserve S011 evidence and reconcile the remote before publication.

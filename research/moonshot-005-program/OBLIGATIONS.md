@@ -202,3 +202,12 @@ introduced after a negative result.
 Coordinate deletion robustness is proved for ANY<=17 removed columns; only
 sizes0..4 yield the stated universal target exclusion. An explicit eight-
 coordinate algebraic fitting withell183 prevents extrapolation to all sizes.
+
+## S012 complementary operator obligations
+
+| ID | Exact status | Remaining construction |
+|---|---|---|
+| OPERATOR-ONE-WIDTH | PROVED arbitrary characteristic-two block quotient d<=V has ell>=205; d<V has ell222. | Genuinely larger canonical quotient, physically acquired. |
+| OPERATOR-QUOTIENT-DENSITY | PROVED target requires d>=V+ceil(V/17); weighted/field refinements. | Realize useful multi-image histories and all endpoints within full invoice. |
+
+Proofs and independent reviews: [one-width](results/bit-operator-canonical-quotient/ADMISSION.md), [density](results/bit-operator-quotient-density/ADMISSION.md). The GF(32) abstract arrangement only limits the subspace argument; it is not a native source.

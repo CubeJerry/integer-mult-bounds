@@ -315,3 +315,7 @@ proves that the simplest small-coordinate continuation still fails. The scalar
 one-direction bridge additionally applies earlier gluing mathematics to the
 new fully charged route model. Every source, cost and failure scope has a
 separate review and exact pins. **No new kappa.**
+
+### Arbitrary operator history and a proportional innovation requirement
+
+The [operator extension theorem](results/bit-operator-canonical-quotient/ADMISSION.md) removes the scalar restriction from the one-width canonical-history obstruction. Its [common-vector successor](results/bit-operator-quotient-density/ADMISSION.md) proves a uniform quotient gap V+ceil(V/17), with weighted and finite-field refinements and an abstract sharpness control. These independently reviewed necessary conditions guide the ongoing physical decoder construction. They establish no new supplier or complete kappa. The cumulative programme remains ongoing and not PR-ready.

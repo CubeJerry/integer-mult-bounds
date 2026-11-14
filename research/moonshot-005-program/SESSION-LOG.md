@@ -1324,3 +1324,9 @@ arbitrary entangled operator histories. Root handles independent review,
 whole-system consequences and reconciliation. Source pins and checked
 results will be integrated on the same permanent branch; no new remote
 branches or PRs. This starting checkpoint claims no new mathematics.
+
+## 2026-11-14-S012 — checkpoint1: operator gluing and proportional innovation
+
+Baseline `41d43439627b0d1038ac638af71cbf82743f9d06`, checkpoint prepared 2026-11-14 07:10:34 UTC. C proves a basis-free injection and sharp ell205 gate for arbitrary one-width operator extensions; root independently reviews and checks GF(4) cases. Root extends gluing to a common nonzero quotient vector, proves d>=V+ceil(V/17), and supplies weighted/field refinements. C independently reviews and checks native incidence and an abstract GF(32) sharpness arrangement. These are protected structural discovery results, not parameter optimization.
+
+Actual point-retained continuation and paid paired-relay constructions continue; their new WIP is not admitted in this checkpoint. All five foundations and both strict suppliers remain open. No new kappa, no upstream PR. S011 concurrent state is preserved; resulting remote identity will be recorded after confirmation.

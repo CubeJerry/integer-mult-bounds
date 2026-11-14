@@ -319,3 +319,7 @@ all-route targetcap194. A scalar history in C plus ONE arbitrary new direction
 givesell>=205 by the already proved17-savings bound; its old no-Y arrival
 premise is not used in this new composition. Neither bound excludes arbitrary
 rank-ten/rank-thirteen codes or general added operator modes beyond its scope.
+
+## S012 all-width canonical quotient requirement
+
+For d=dim((row(A)+C tensor k^V)/(C tensor k^V)), d<V retains every canonical contact and ell=222; d<=V forces ell>=205. Shared quotient-vector gluing strengthens the target consequence to d>=V+ceil(V/17). With b double-saving rows it gives d>=V+ceil(V/(17-min(b,9))). These are necessary code conditions under the retained all-route ell<=194 target. A history actually containing the canonical9V code needs dimension at least10V+ceil(V/17). No arbitrary fitting-rank or packet-count inference is made. [Reviewed proofs](results/bit-operator-quotient-density/ADMISSION.md).

@@ -241,3 +241,7 @@ only the predecessor's algebraic inequality, not its old no-Y physical cap.
 Installed review receipts and immutable scientific hashes are recorded in
 CHECKPOINT11-VALIDATION. The frontloaded-seven predecessor remains explicitly
 author-only as a separate artifact. No new complete kappa.
+
+## S012 checkpoint1: independently reviewed operator history theorems
+
+Worker C proves the one-width quotient theorem; root directly reviews the universal injection/gluing proof and supplies independent GF(4) noncommuting and singular controls. Root proves the proportional common-vector quotient theorem; C independently reviews every universal implication and implements native incidence and GF(32) subspace controls. Normal and optimized results agree. Earlier exceptional root geometry is explicitly pinned and reused, not relabelled as a fresh replay. Admission links contain complete commands and scope. No human/formal acceptance or new kappa.
