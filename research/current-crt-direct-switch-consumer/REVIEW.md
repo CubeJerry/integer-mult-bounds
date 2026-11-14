@@ -193,8 +193,8 @@ Portable read-only reproduction, from a package containing the frozen
 adapter/caller and inputs:
 
 ```
-python -I -W error -B independent_check.py .
-python -I -O -W error -B independent_check.py .
+python -I -W error -B check_caller_independently.py .
+python -I -O -W error -B check_caller_independently.py .
 ```
 
 The executed normal and optimized commands produce identical JSON matching
