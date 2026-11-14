@@ -1,0 +1,97 @@
+{
+  "canonical_payload_sha256": "3236baa42b0741844533dec7059d807677a6413a3ef7aca289d43a0cc67e6a2b",
+  "classification": "Author reproduction using pinned predecessor utilities; independent review and complete supplier admission remain separate. No new kappa.",
+  "commands": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/funded-prefix/check_algebra.py",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/prefix-final-replay/ALGEBRA.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/funded-prefix/build.py",
+        "--native",
+        "/workspace/scratch/82e30be26b31/worker-b/funded-prefix/dependencies/native.json.gz",
+        "--seed",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+        "--engine",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/replay.py",
+        "--codec",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/build.py",
+        "--flag",
+        "/workspace/scratch/82e30be26b31/worker-b/funded-prefix/FLAG.json",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/prefix-final-replay/output"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/funded-prefix/price.py",
+        "--full",
+        "/workspace/scratch/82e30be26b31/worker-b/funded-prefix/dependencies/FULL-RESULT.json",
+        "--engine",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/interval.py",
+        "--receipt",
+        "/workspace/scratch/82e30be26b31/worker-b/prefix-final-replay/output/RESULT.json",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/prefix-final-replay/output/PRICE.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/funded-prefix/check_maps.py",
+        "--seed",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+        "--word",
+        "/workspace/scratch/82e30be26b31/worker-b/prefix-final-replay/output/WORD.json.gz",
+        "--engines",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/prefix-final-replay/output/PHASES.json"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "first_positive_fixed_m": 6,
+  "phase_maps": 45,
+  "source_bill": {
+    "counts": {
+      "ADD": 2206,
+      "CLEAR": 33,
+      "INIT": 33,
+      "MOVE": 799,
+      "SCALE": 244
+    },
+    "instructions": 3315,
+    "lifetimes": 33,
+    "moves": {
+      "1": 149,
+      "2": 133,
+      "3": 105,
+      "4": 6,
+      "5": 206,
+      "6": 16,
+      "7": 16,
+      "8": 168
+    },
+    "peak": 13
+  },
+  "status": "PASS_ISOLATED_FUNDED_PREFIX_REPRODUCTION"
+}

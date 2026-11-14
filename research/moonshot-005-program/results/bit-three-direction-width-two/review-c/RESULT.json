@@ -1,0 +1,2673 @@
+{
+  "status": "PASS_INDEPENDENT_THREE_DIRECTION_WIDTH_TWO_ALGEBRA",
+  "proof_sha256": "2a35dcb0a8b804b3c30d3759533070d903699c0b1dbb237618586511ce9d2bb5",
+  "author_checker_imported": false,
+  "pencil_census": {
+    "binary_pencil_pairs": 262144,
+    "injective_full_envelope_pairs": 216720,
+    "regular_pairs": 209664,
+    "singular_pairs": 7056,
+    "singular_full_line_census": {
+      "1": 7056
+    },
+    "singular_example": {
+      "H0_bits": 10,
+      "H1_bits": 68,
+      "full_scalar_lines": [
+        1
+      ]
+    },
+    "dropped_envelope_control": [
+      17,
+      12
+    ],
+    "dropped_injectivity_control": [
+      17,
+      136
+    ],
+    "regular_pencil_requiring_field_extension": {
+      "H0": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "H1": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "det_polynomial_bits": 6,
+      "F4_parameter": 2
+    }
+  },
+  "jordan_cases": [
+    {
+      "field_order": 2,
+      "case": "J3",
+      "lambda": 0,
+      "mu": 0,
+      "selector_matrices": 42,
+      "identity_in_coefficient_span": 22,
+      "qualification_census": {
+        "1": 22
+      },
+      "kernel_dimension_census": {
+        "0": 20,
+        "1": 2
+      },
+      "examples": {
+        "1_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0
+          ]
+        },
+        "1_1": {
+          "U": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 2,
+      "case": "J2_same",
+      "lambda": 0,
+      "mu": 0,
+      "selector_matrices": 42,
+      "identity_in_coefficient_span": 12,
+      "qualification_census": {
+        "1": 12
+      },
+      "kernel_dimension_census": {
+        "0": 8,
+        "1": 4
+      },
+      "examples": {
+        "1_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0
+          ]
+        },
+        "1_1": {
+          "U": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 2,
+      "case": "J2_distinct",
+      "lambda": 0,
+      "mu": 1,
+      "selector_matrices": 42,
+      "identity_in_coefficient_span": 17,
+      "qualification_census": {
+        "2": 7,
+        "3": 10
+      },
+      "kernel_dimension_census": {
+        "0": 14,
+        "1": 3
+      },
+      "examples": {
+        "2_0": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "preimage_I": [
+            0,
+            1,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        },
+        "3_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_1": {
+          "U": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 2,
+      "case": "J3",
+      "lambda": 1,
+      "mu": 1,
+      "selector_matrices": 42,
+      "identity_in_coefficient_span": 22,
+      "qualification_census": {
+        "1": 22
+      },
+      "kernel_dimension_census": {
+        "0": 20,
+        "1": 2
+      },
+      "examples": {
+        "1_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "preimage_I": [
+            0,
+            1,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0
+          ]
+        },
+        "1_1": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            1,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 2,
+      "case": "J2_same",
+      "lambda": 1,
+      "mu": 1,
+      "selector_matrices": 42,
+      "identity_in_coefficient_span": 12,
+      "qualification_census": {
+        "1": 12
+      },
+      "kernel_dimension_census": {
+        "0": 8,
+        "1": 4
+      },
+      "examples": {
+        "1_0": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "preimage_I": [
+            1,
+            1,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0
+          ]
+        },
+        "1_1": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            1,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 2,
+      "case": "J2_distinct",
+      "lambda": 1,
+      "mu": 0,
+      "selector_matrices": 42,
+      "identity_in_coefficient_span": 17,
+      "qualification_census": {
+        "3": 10,
+        "2": 7
+      },
+      "kernel_dimension_census": {
+        "0": 14,
+        "1": 3
+      },
+      "examples": {
+        "3_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "preimage_I": [
+            0,
+            1,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        },
+        "2_1": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            1
+          ],
+          "kernel": [
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "qualifying_codes": [
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J3",
+      "lambda": 0,
+      "mu": 0,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 924,
+      "qualification_census": {
+        "1": 924
+      },
+      "kernel_dimension_census": {
+        "0": 912,
+        "1": 12
+      },
+      "examples": {
+        "1_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0
+          ]
+        },
+        "1_1": {
+          "U": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_same",
+      "lambda": 0,
+      "mu": 0,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 624,
+      "qualification_census": {
+        "1": 624
+      },
+      "kernel_dimension_census": {
+        "0": 576,
+        "1": 48
+      },
+      "examples": {
+        "1_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0
+          ]
+        },
+        "1_1": {
+          "U": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_distinct",
+      "lambda": 0,
+      "mu": 1,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 849,
+      "qualification_census": {
+        "2": 165,
+        "3": 684
+      },
+      "kernel_dimension_census": {
+        "0": 828,
+        "1": 21
+      },
+      "examples": {
+        "2_0": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "preimage_I": [
+            0,
+            1,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        },
+        "3_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_1": {
+          "U": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_distinct",
+      "lambda": 0,
+      "mu": 2,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 849,
+      "qualification_census": {
+        "2": 165,
+        "3": 684
+      },
+      "kernel_dimension_census": {
+        "0": 828,
+        "1": 21
+      },
+      "examples": {
+        "2_0": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              3,
+              1
+            ]
+          ],
+          "preimage_I": [
+            0,
+            1,
+            3
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        },
+        "3_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              3,
+              0
+            ]
+          ],
+          "preimage_I": [
+            2,
+            0,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_1": {
+          "U": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_distinct",
+      "lambda": 0,
+      "mu": 3,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 849,
+      "qualification_census": {
+        "2": 165,
+        "3": 684
+      },
+      "kernel_dimension_census": {
+        "0": 828,
+        "1": 21
+      },
+      "examples": {
+        "2_0": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "preimage_I": [
+            0,
+            1,
+            2
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        },
+        "3_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "preimage_I": [
+            3,
+            0,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_1": {
+          "U": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J3",
+      "lambda": 1,
+      "mu": 1,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 924,
+      "qualification_census": {
+        "1": 924
+      },
+      "kernel_dimension_census": {
+        "0": 912,
+        "1": 12
+      },
+      "examples": {
+        "1_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "preimage_I": [
+            0,
+            1,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0
+          ]
+        },
+        "1_1": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            1,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_same",
+      "lambda": 1,
+      "mu": 1,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 624,
+      "qualification_census": {
+        "1": 624
+      },
+      "kernel_dimension_census": {
+        "0": 576,
+        "1": 48
+      },
+      "examples": {
+        "1_0": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "preimage_I": [
+            1,
+            1,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0
+          ]
+        },
+        "1_1": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            1,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_distinct",
+      "lambda": 1,
+      "mu": 0,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 849,
+      "qualification_census": {
+        "3": 684,
+        "2": 165
+      },
+      "kernel_dimension_census": {
+        "0": 828,
+        "1": 21
+      },
+      "examples": {
+        "3_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "preimage_I": [
+            0,
+            1,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        },
+        "2_1": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            1
+          ],
+          "kernel": [
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "qualifying_codes": [
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_distinct",
+      "lambda": 1,
+      "mu": 2,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 849,
+      "qualification_census": {
+        "3": 684,
+        "2": 165
+      },
+      "kernel_dimension_census": {
+        "0": 828,
+        "1": 21
+      },
+      "examples": {
+        "3_0": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              3,
+              1
+            ]
+          ],
+          "preimage_I": [
+            1,
+            1,
+            3
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_1": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            1,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0,
+            1
+          ]
+        },
+        "2_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              3,
+              1
+            ]
+          ],
+          "preimage_I": [
+            0,
+            3,
+            2
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_distinct",
+      "lambda": 1,
+      "mu": 3,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 849,
+      "qualification_census": {
+        "3": 684,
+        "2": 165
+      },
+      "kernel_dimension_census": {
+        "0": 828,
+        "1": 21
+      },
+      "examples": {
+        "3_0": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "preimage_I": [
+            1,
+            1,
+            2
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_1": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            1,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0,
+            1
+          ]
+        },
+        "2_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "preimage_I": [
+            0,
+            2,
+            3
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J3",
+      "lambda": 2,
+      "mu": 2,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 924,
+      "qualification_census": {
+        "1": 924
+      },
+      "kernel_dimension_census": {
+        "0": 912,
+        "1": 12
+      },
+      "examples": {
+        "1_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "preimage_I": [
+            2,
+            2,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0
+          ]
+        },
+        "1_1": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              3,
+              0
+            ]
+          ],
+          "preimage_I": [
+            2,
+            1,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_same",
+      "lambda": 2,
+      "mu": 2,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 624,
+      "qualification_census": {
+        "1": 624
+      },
+      "kernel_dimension_census": {
+        "0": 576,
+        "1": 48
+      },
+      "examples": {
+        "1_0": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              3,
+              1
+            ]
+          ],
+          "preimage_I": [
+            2,
+            1,
+            3
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0
+          ]
+        },
+        "1_1": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              3,
+              0
+            ]
+          ],
+          "preimage_I": [
+            2,
+            1,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_distinct",
+      "lambda": 2,
+      "mu": 0,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 849,
+      "qualification_census": {
+        "3": 684,
+        "2": 165
+      },
+      "kernel_dimension_census": {
+        "0": 828,
+        "1": 21
+      },
+      "examples": {
+        "3_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              3
+            ]
+          ],
+          "preimage_I": [
+            0,
+            3,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        },
+        "2_1": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              3
+            ]
+          ],
+          "preimage_I": [
+            3,
+            0,
+            1
+          ],
+          "kernel": [
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "qualifying_codes": [
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_distinct",
+      "lambda": 2,
+      "mu": 1,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 849,
+      "qualification_census": {
+        "3": 684,
+        "2": 165
+      },
+      "kernel_dimension_census": {
+        "0": 828,
+        "1": 21
+      },
+      "examples": {
+        "3_0": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "preimage_I": [
+            2,
+            1,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_1": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              3,
+              0
+            ]
+          ],
+          "preimage_I": [
+            2,
+            1,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0,
+            1
+          ]
+        },
+        "2_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              3
+            ]
+          ],
+          "preimage_I": [
+            0,
+            2,
+            3
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_distinct",
+      "lambda": 2,
+      "mu": 3,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 849,
+      "qualification_census": {
+        "3": 684,
+        "2": 165
+      },
+      "kernel_dimension_census": {
+        "0": 828,
+        "1": 21
+      },
+      "examples": {
+        "3_0": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "preimage_I": [
+            2,
+            1,
+            2
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_1": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              3,
+              0
+            ]
+          ],
+          "preimage_I": [
+            2,
+            1,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0,
+            1
+          ]
+        },
+        "2_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              3
+            ]
+          ],
+          "preimage_I": [
+            0,
+            3,
+            2
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J3",
+      "lambda": 3,
+      "mu": 3,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 924,
+      "qualification_census": {
+        "1": 924
+      },
+      "kernel_dimension_census": {
+        "0": 912,
+        "1": 12
+      },
+      "examples": {
+        "1_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              3
+            ]
+          ],
+          "preimage_I": [
+            3,
+            3,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0
+          ]
+        },
+        "1_1": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              3,
+              2,
+              0
+            ]
+          ],
+          "preimage_I": [
+            3,
+            1,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_same",
+      "lambda": 3,
+      "mu": 3,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 624,
+      "qualification_census": {
+        "1": 624
+      },
+      "kernel_dimension_census": {
+        "0": 576,
+        "1": 48
+      },
+      "examples": {
+        "1_0": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "preimage_I": [
+            3,
+            1,
+            2
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0
+          ]
+        },
+        "1_1": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              3,
+              2,
+              0
+            ]
+          ],
+          "preimage_I": [
+            3,
+            1,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_distinct",
+      "lambda": 3,
+      "mu": 0,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 849,
+      "qualification_census": {
+        "3": 684,
+        "2": 165
+      },
+      "kernel_dimension_census": {
+        "0": 828,
+        "1": 21
+      },
+      "examples": {
+        "3_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "preimage_I": [
+            1,
+            0,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_0": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "preimage_I": [
+            0,
+            2,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        },
+        "2_1": {
+          "U": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ]
+          ],
+          "preimage_I": [
+            2,
+            0,
+            1
+          ],
+          "kernel": [
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "qualifying_codes": [
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_distinct",
+      "lambda": 3,
+      "mu": 1,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 849,
+      "qualification_census": {
+        "3": 684,
+        "2": 165
+      },
+      "kernel_dimension_census": {
+        "0": 828,
+        "1": 21
+      },
+      "examples": {
+        "3_0": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "preimage_I": [
+            3,
+            1,
+            1
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_1": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              3,
+              2,
+              0
+            ]
+          ],
+          "preimage_I": [
+            3,
+            1,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0,
+            1
+          ]
+        },
+        "2_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "preimage_I": [
+            0,
+            3,
+            2
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "J2_distinct",
+      "lambda": 3,
+      "mu": 2,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 849,
+      "qualification_census": {
+        "3": 684,
+        "2": 165
+      },
+      "kernel_dimension_census": {
+        "0": 828,
+        "1": 21
+      },
+      "examples": {
+        "3_0": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              3,
+              1
+            ]
+          ],
+          "preimage_I": [
+            3,
+            1,
+            3
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_1": {
+          "U": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              3,
+              2,
+              0
+            ]
+          ],
+          "preimage_I": [
+            3,
+            1,
+            0
+          ],
+          "kernel": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "qualifying_codes": [
+            0,
+            1
+          ]
+        },
+        "2_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              3,
+              2
+            ]
+          ],
+          "preimage_I": [
+            0,
+            2,
+            3
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "diagonal_distinct",
+      "lambda": [
+        0,
+        1,
+        2
+      ],
+      "mu": null,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 783,
+      "qualification_census": {
+        "2": 432,
+        "3": 351
+      },
+      "kernel_dimension_census": {
+        "1": 27,
+        "0": 756
+      },
+      "examples": {
+        "2_1": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              3,
+              1
+            ]
+          ],
+          "preimage_I": [
+            0,
+            3,
+            2
+          ],
+          "kernel": [
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        },
+        "3_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ]
+          ],
+          "preimage_I": [
+            3,
+            3,
+            2
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              3,
+              1
+            ]
+          ],
+          "preimage_I": [
+            0,
+            3,
+            2
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "diagonal_distinct",
+      "lambda": [
+        0,
+        1,
+        3
+      ],
+      "mu": null,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 783,
+      "qualification_census": {
+        "2": 432,
+        "3": 351
+      },
+      "kernel_dimension_census": {
+        "1": 27,
+        "0": 756
+      },
+      "examples": {
+        "2_1": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "preimage_I": [
+            0,
+            2,
+            3
+          ],
+          "kernel": [
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        },
+        "3_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              3
+            ]
+          ],
+          "preimage_I": [
+            2,
+            2,
+            3
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              2,
+              1
+            ]
+          ],
+          "preimage_I": [
+            0,
+            2,
+            3
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "diagonal_distinct",
+      "lambda": [
+        0,
+        2,
+        3
+      ],
+      "mu": null,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 783,
+      "qualification_census": {
+        "2": 432,
+        "3": 351
+      },
+      "kernel_dimension_census": {
+        "1": 27,
+        "0": 756
+      },
+      "examples": {
+        "2_1": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              3
+            ]
+          ],
+          "preimage_I": [
+            0,
+            3,
+            2
+          ],
+          "kernel": [
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        },
+        "3_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "preimage_I": [
+            2,
+            3,
+            2
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "preimage_I": [
+            0,
+            3,
+            2
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "field_order": 4,
+      "case": "diagonal_distinct",
+      "lambda": [
+        1,
+        2,
+        3
+      ],
+      "mu": null,
+      "selector_matrices": 3780,
+      "identity_in_coefficient_span": 783,
+      "qualification_census": {
+        "2": 432,
+        "3": 351
+      },
+      "kernel_dimension_census": {
+        "1": 27,
+        "0": 756
+      },
+      "examples": {
+        "2_1": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              3
+            ]
+          ],
+          "preimage_I": [
+            0,
+            3,
+            2
+          ],
+          "kernel": [
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        },
+        "3_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ]
+          ],
+          "preimage_I": [
+            3,
+            3,
+            2
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "2_0": {
+          "U": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "preimage_I": [
+            0,
+            3,
+            2
+          ],
+          "kernel": [],
+          "qualifying_codes": [
+            1,
+            2
+          ]
+        }
+      }
+    }
+  ],
+  "four_direction_chain_control": [
+    {
+      "field_order": 2,
+      "nonzero_vectors": 7,
+      "pure_tensors": 0
+    },
+    {
+      "field_order": 4,
+      "nonzero_vectors": 63,
+      "pure_tensors": 0
+    }
+  ],
+  "classification": "independent universal proof review plus finite algebra controls; native scalar205 inherited, not reproved; no new kappa",
+  "new_kappa": null
+}

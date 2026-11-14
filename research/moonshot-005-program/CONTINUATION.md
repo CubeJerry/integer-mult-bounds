@@ -6,6 +6,10 @@ PROGRAMME, TARGET-005, OBLIGATIONS and latest append-only SESSION-LOG. Check
 canonical changes since its recorded SHA. Baseline hashes are not self hashes.
 Keep the protected mathematics-first allocation in PROGRAMME active.
 
+## Latest S012 checkpoint4 frontier (supersedes older priorities below)
+
+Build distributed original-X recoding before Hub or a genuinely nonlocal paired complex history. Fixed post-Hub prefixes have severe facet caps, and the low-cardinality two-patch and seven-coordinate codes fail geometric charge. Do not repeat these families as prospective physical suppliers. The paid complex prefix is real and reviewed but leaves residualrank96. Width-two quotient3 designs need scalar envelope>=4. Review each admission for exact scope, then continue the actual acquisition/completion obligation. No new kappa; S011 remains concurrently active.
+
 ## Current mathematical frontier
 
 Do not restart W0 or any of the15 canonical rank16 candidates: each needs

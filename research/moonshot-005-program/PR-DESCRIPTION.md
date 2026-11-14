@@ -327,3 +327,11 @@ The programme now proves a [twenty-port point-retained continuation obstruction]
 ### Scalar-envelope obstruction and an optimal isolated paired stream
 
 The [generic two-direction theorem](results/bit-two-direction-envelope/ADMISSION.md), [subwidth scalarization](results/bit-subwidth-support-scalarization/ADMISSION.md) and [exact fixed-patch classification](results/bit-two-patch-proper-quotient/ADMISSION.md) constrain fractional operator histories without commutativity assumptions. The [paired stream](results/complex-streamed-paired-bridge/ADMISSION.md) supplies an actual rank-two native module with one carrier, five crossings, all400 inputs, full movement invoice and independent negative controls. Its scoped global preflight proves fresh separated bridges cannot complete this seed within retained room, motivating changed paid histories. All statements carry explicit source and review pins. **No new kappa; ongoing programme, not PR-ready.**
+
+## Additional integrated S012 contribution: physical access and paid history
+
+The cumulative programme now distinguishes cardinality savings from actual proper-chart access. Exact native quadratic certificates exclude the full two-patch operator code at charge222 and the seven-coordinate code at208, against the necessary retained cap194. Five actual coalesced prefixes also have sharply limited future facet budgets. These are source-specific theorems with explicit route premises, not lower bounds for arbitrary multiplication.
+
+A universal width-two pencil theorem excludes quotient dimension<=3 and scalar envelope<=3 at charge197 over every characteristic-two field. On the complex side, a new paid-history macro and checked400-input source remove52 paired residual coefficients while preserving the old modes, all original D fields and all24 moving lifetimes. The added movement moment is1.200300643665517; residualrank96 remains. Full source code, exact certificates, independent reviews, negative controls and reproduction commands are in the four checkpoint4 admissions.
+
+Baseline for these additions: db6e513c96cb8ceea10c1071b26a7db1de9fe008. Credit @CubeJerry, Workers A/B/C, root review and all pinned predecessors; OpenAI assistance disclosed. **No new kappa.** This remains an ongoing programme, not a completed supplier or PR-ready submission.

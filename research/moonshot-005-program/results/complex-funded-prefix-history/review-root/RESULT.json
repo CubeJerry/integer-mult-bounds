@@ -1,0 +1,67 @@
+{
+  "status": "PASS_INDEPENDENT_FUNDED_PREFIX_SOURCE_AND_HISTORY",
+  "author_proof_sha256": "a28667638b3199086f74b9d01af93a24993bfbfdde8c94fe8fb5819c46ec3130",
+  "variants": [
+    {
+      "mode": "output",
+      "word_sha256": "fd510bb9406fe12ef48d84f70e05e96704a1e23d03adcc1881deb504e225b160",
+      "all400_rows": true,
+      "all_final_charts": true,
+      "all400_rank": 400,
+      "raw": {
+        "1": 129,
+        "2": 131,
+        "3": 105,
+        "5": 206,
+        "4": 6,
+        "8": 154,
+        "7": 16,
+        "6": 16
+      },
+      "owned": {
+        "1": 20,
+        "2": 2,
+        "8": 14
+      },
+      "ordinary_counts": {
+        "INIT": 33,
+        "ADD": 2206,
+        "MOVE": 799,
+        "CLEAR": 33,
+        "SCALE": 244
+      },
+      "peak": 13,
+      "lifetimes": 33,
+      "moving_lifetimes": 24,
+      "new_stationary_lifetimes": 9,
+      "reverse_passages": 7,
+      "forward_passages": 7,
+      "reverse_history_rank": 5,
+      "forward_history_rank": 6,
+      "correction_rank": 3,
+      "paired_coefficients": 52,
+      "paired_identity_entries": 9216,
+      "residual_rank": 96,
+      "class_incidence_checks": 1456,
+      "seed_profile": {
+        "1": 120,
+        "2": 112,
+        "3": 88,
+        "5": 200,
+        "8": 216
+      },
+      "phase_checks": [
+        "all_D_restored",
+        "old_reverse_mode",
+        "all_B_compensated",
+        "old_forward_mode"
+      ],
+      "negative_controls": [
+        "Hub_compensation omission rejected",
+        "forward_augmentation omission rejected",
+        "source_shedding omission rejected"
+      ]
+    }
+  ],
+  "scope": "Independent sparse rational400-column replay, genuine mode duties and ownership; generic proof reviewed separately. Source remains partial; no new kappa."
+}

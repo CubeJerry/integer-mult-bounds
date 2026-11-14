@@ -1,0 +1,42 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_GEOMETRIC_FACET_CERTIFICATES",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "author_proof_sha256": "8fed71e8698ce84e1fa0f09deb7433f3338f21f3a35b912d08e2de046426d8ab",
+  "two_patch_integer_minors": 111,
+  "supported_integer_minors": 104,
+  "availability_census": {
+    "[]": 77,
+    "[1]": 14,
+    "[2]": 14,
+    "[1, 2, 3]": 6
+  },
+  "minimum_punctured_distance": 18,
+  "two_patch_geometric_charge": 222,
+  "supported_geometric_charge": 208,
+  "supported_cardinality_charge": 182,
+  "controls": {
+    "admitted_ell192": {
+      "cardinality": 192,
+      "geometric": 222,
+      "rank": 11
+    },
+    "admitted_ell193": {
+      "cardinality": 193,
+      "geometric": 222,
+      "rank": 11
+    },
+    "one_proper_chart": {
+      "quadratic_rank": 21,
+      "linear_rank": 6
+    },
+    "two_proper_charts": {
+      "quadratic_rank": 27,
+      "linear_rank": 7
+    }
+  },
+  "negative_controls": {
+    "duplicated_minor_row_determinant": 0,
+    "wrong_characteristic_minor_rank": 6
+  },
+  "scope": "Independent exact integer minors overQ/R and separate F2 code restrictions; universal proof reviewed separately. No new kappa."
+}

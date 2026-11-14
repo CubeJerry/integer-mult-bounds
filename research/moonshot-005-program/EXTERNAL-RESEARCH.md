@@ -89,3 +89,7 @@ no exhaustive novelty claim or external supplier assumption is imported.
 ## S012 refresh near08:10UTC
 
 Canonical main remains `e54523517d0f03e58352e647c403a5af3e525a57`. Latest-PR metadata and targeted recent-update query identified no new accepted strict supplier or selected certificate. [Exact receipt](sessions/2026-11-14-S012/upstream/REFRESH-0810.json). The connector omits some timestamps; a zero-result time query is not exhaustive assurance that no comments changed. No outside package imported. Concurrent S011 collector work remains separately pinned WIP until reviewed.
+
+## S012 checkpoint4 upstream and concurrent evidence
+
+Canonical main was rechecked around09:15 UTC and remains e54523517d0f03e58352e647c403a5af3e525a57. No new accepted strict supplier or discharged foundation was imported. Concurrent S011 changed-preload complex sources remain distinct from S012 old-Gram funded histories; their invoices and equations must not be combined without a new compatibility proof. The fixed-prefix package preserves unpublished original source pairs only as pinned inputs to independently checked coalescing/facet statements, not as automatically admitted complete constructions.
