@@ -1,0 +1,13 @@
+# Uniform normalized head period and exact old-normalizer criterion
+
+**Proved for all widths in the stated native-character model, with independent exact implementations. No new kappa.** For the actual112-port R0, any finite sequence of genuine binary character columns produces Q=diag(i^p), and (Q R0)^48=I. Every nonzero class block of every power has coefficients in(1/2)Z[i]. The least common exponent is48, witnessed by actual orders16 and24; no individual order48 is asserted.
+
+Each class is an affine three-flat with a signed two-qubit Fourier coupling. Its all-width phases form exactly2048 quadratic Z4 functions. The period follows structurally from the binary Pauli action and Gaussian dyadic units; the exhaustive census separately establishes the sharp order list and checks the denominator bound. Arbitrary independent port phases are excluded: an explicit odd quadratic phase violates the48th-power conclusion.
+
+For the retained Lambda=1/i parity normalizer, the normalized square equalsI exactly when J=Lambda Q^-1 is constant on the eight-port class. All genuine width-one patterns pass, including raw order-eight cases. A repeated nonconstant native character at width two fails. The exact2048-family census has32 passes and2016 failures. Thus raw fourth-order failure and failure of the old normalized shear are different claims.
+
+These are character-basis statements. A physical caller stage has actual port adapters, may be stage-dependent and need not commute with its body. Bounded pointwise denominators do not give a constant-cost implementation of the frequency-dependent operator. The paid two-sided normalizer reduction is a separate result.
+
+[Proof](author/PROOF.md), [author exact receipt](author/RESULT.json), [independent root review](review-root/REVIEW.md), [root receipt](review-root/RESULT.json). Reproduce the author from repository root with `python -B research/moonshot-005-program/results/port-phase-closure/author/check.py --word research/moonshot-005-program/results/logical-involution-112/author/output/R0-minimal/WORD.json.gz --output /tmp/phase-author.json`. The root review uses a separately written NumPy object-integer implementation and reconstructs all14 native conjugacies; its review gives the independent commands. Both implementations use exact Gaussian integers, not numerical eigenvalues.
+
+Credit root one-class discovery/normalizer criterion, Worker C all-class proof and independent enumeration, Worker B source, @CubeJerry and OpenAI assistance. No physical caller, supplier, precision theorem or multiplication exponent is admitted by this algebraic result.

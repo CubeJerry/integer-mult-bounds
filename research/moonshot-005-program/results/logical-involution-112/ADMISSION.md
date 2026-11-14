@@ -1,0 +1,13 @@
+# Actual dyadic paired source on the full112-port domain
+
+**Proved finite source construction and universal reflection algebra; independently verified actual map and geometry. No new kappa.** Complete the old104 root ports to112 by adding the eight pinned missing normals. If G is the full Gram matrix and D its14 class blocks, then G²=14G, D²=2D and DG=GD=2G. Consequently R0=I-D and R1=I-D+G/7 are symmetric involutions of defect ranks56 and48.
+
+The principal source realizes (x,y,b,d) -> (x,y+R0x,b-R0ᵀd,d) on448 arbitrary independent inputs. It uses896 dyadic additions and896 strict public rises, with no owned fields or erasures. Its actual rank-three source-half stations give complete movement224[2]+224[3]+224[5]+224[6], moment3557.8052853836864454 at t199/200. Every original X/D value and every paired duty is checked. This source does not use owned erasure locally. Full programme assumptions remain separate.
+
+The larger C4 variant has the same endpoint and moment3558.9638490430774385. A third source realizes R1 with128 dirty retired owners and moment3689.2134352977047759. Its target diagonal1/7 lies outside the retained exact ring Z[1/30,i]; no exact refactoring in that ring removes this new service obligation. R0 is dyadic and avoids it.
+
+The paired448-input shear is not itself an involution; only its112-by112 coupling squares toI. The old104 restriction also fails the coupling identity. A source for this changed logical operation does not automatically supply the old native, physical Q queries or productive head targets. The stipulated twelve-stage room151.5715925151256 for the smaller source is an allowance for those missing interfaces, not a certificate. The separate paid-normalizer bridge must be proved and funded.
+
+[Proof](author/PROOF.md), [manifest](author/MANIFEST.json), [literal source](author/output/R0-minimal/WORD.json.gz), [independent review](review-c/REVIEW.md), [Fourier geometry](review-c/FOURIER-STRUCTURE.md), [receipt](review-c/RESULT.json). From repository root: `python -B research/moonshot-005-program/results/logical-involution-112/review-c/check.py --author research/moonshot-005-program/results/logical-involution-112/author --repo . --output /tmp/logical112-review.json`. The receipt must match exactly. It checks448 columns,12544 paired entries, chronology and16 source/algebra controls;280 new ordered-map recipes per source are reproduced with phase controls through the retained interpreter, not a new uniform compiler proof.
+
+Credit root involution proposal, Worker B actual construction, Worker C independent review and Fourier structure, pinned native/codecs, @CubeJerry and OpenAI assistance. Both strict suppliers, complete recursive admission and all required global foundations remain open.

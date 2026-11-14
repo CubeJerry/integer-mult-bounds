@@ -288,3 +288,14 @@ Next: paid all-hosted native/fresh sources, complete decoder with preserved hist
 - **SHORT-TENSOR-SOURCE-SCREEN — proved source-specific all-arm gates.** Actual asymmetric tensor row price14 differs from orthogonal Gram8; cochart acquisition and paid h9 conversion fail their full invoices.
 
 Primary next obligation: independently certify the112-port logical involution source, then prove a physical caller and complete joint head/target invoice. Port-dependent adapters, higher-order head identities and all-stage compatibility are essential, unproved interfaces. No new complete kappa.
+
+## S012 checkpoint9 dependency update
+
+- **LOGICAL-INVOLUTION-112 — proved finite construction and universal reflection algebra.** Depends on the pinned full112 geometry and actual signed maps. The448-input paired source has no owners. Its use as a uniform supplier still requires the retained compiler/precision model and a compatible physical caller.
+- **PORT-PHASE-CLOSURE — proved all-width normalized-character theorem.** Exact2048-family classification, common period48, denominator bound and sharp old-normalizer criterion. This does not include physical stage centrality.
+- **INVOLUTIVE112-CALLER-BUDGET — proved conditional invoice and global arm optima.** Premise is the stated complete2a-call/four-query/productive-target pattern. Realization, finite recursion and every new expense remain separate.
+- **PHYSICAL-INVOLUTION-INTERFACE — proved source-bound paid reduction.** All actual boundary phases and routes yield A_s=Q R_s. Ordinary prechanges plus two N=Q^-1 R0 Q services per native recover the old common-involution caller. Constructing and pricing N remains open; the reduction is not a complete conditional kappa theorem.
+- **NORMALIZER-DEBT — proved scoped universal exclusion.** Every nonempty unchanged-word postservice deletion fails on genuine zero-frequency data. The separate completed-class-row gate has explicit geometry/no-helper-credit assumptions.
+- **INTERSTAGE-NORMALIZER-ORIENTATIONS — proved source-bound positive identity and scoped support gate.** A_s^-1 A_t is ordinary. Its opposite under the retained forward routes has16*4^V row support after all intermediate paths, requiring at least2V+4 ordinary additions. Changed inverse boundaries, adapters and paid shared service are outside the exclusion.
+
+The primary chain is now: actual R0 source -> physical boundary theorem -> either paid N realization or complete changed caller -> strict complex supplier -> compatibility with strict completed BIT supplier -> complete bootstrap and foundational dependencies. The next concrete attempt uses the owned-free source's literal inverse and mixed chronological orientations. No stage of this chain may be skipped by treating normalized Fourier algebra as a physical cost certificate.

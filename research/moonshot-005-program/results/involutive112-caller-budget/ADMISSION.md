@@ -1,0 +1,11 @@
+# Exact conditional full112 caller budgets
+
+**Proved invoice implications and a scoped doubled-caller exclusion, independently reviewed. No new kappa.** With2a native calls, four whole-bank queries and4a+2 productive banks, the complete stipulated margin is112W_a-2aQ_t-4delta_q-(4a+2)delta_r-E. Whole-bank and per-port units are not interchanged. The actual R0/R1 source profiles are authenticated separately; a physically compatible caller and every extra service remain necessary premises.
+
+Concavity and exact neighboring sign tests prove global optima over all positive arm counts. Per-native allowance is largest at12 stages. R0-at-C4 permits limiting source remainder150.4130288557; the independently checked minimal source substitution gives151.5715925151. The corresponding productive-bank and four-exceptional-query optimizations differ and cannot be spent simultaneously. The review tightens the long query-only enclosure without changing the physical scope. It is not a proposal to emit a49624-stage word.
+
+Even granting the proposed two-caller head cancellation and free queries, its stated productive pattern cannot pay four raw rank-eight routes per native for any arm count and any0<t<1. That exact exclusion does not cover different target geometry, shared native trajectories or legitimate new productive helper credit.
+
+[Proof](author/PROOF.md), [author receipt](author/RESULT.json), [independent review](review-c/REVIEW.md), [independent receipt](review-c/RESULT.json). From repository root: `python -B research/moonshot-005-program/results/involutive112-caller-budget/review-c/check.py --author research/moonshot-005-program/results/involutive112-caller-budget/author --native research/moonshot-005-program/results/logical-involution-112/author --output /tmp/involutive112-budget.json`. Integer200th-power enclosures certify all signs and a rigorous integral tail controls the large optimum.
+
+No old104 fixed-m penalty is copied into the new112 domain. Any complete baseline, direct primitive admission, finite recursion, normalizer occurrences, ordinary work, precision or helper interface must be proved and charged. Credit Worker A, Worker C independent review, root proposals and earlier short-caller work, @CubeJerry and OpenAI assistance.

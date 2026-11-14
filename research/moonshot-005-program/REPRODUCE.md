@@ -226,3 +226,7 @@ python3 -I -B research/moonshot-005-program/results/fresh-eight-acquisition-opti
 Expected: exact511-direction distribution487/24, minimum line support43,
 minimum pair intersection15, and positive limiting deficit.25311068495571478... .
 This reruns the separately written reviewer; it is not a new independent review.
+
+## S012 checkpoint9 source/interface packages
+
+Each admission page gives its relocation-safe independent command and source pins. The checkpoint receipt compares nine reproduced outputs byte-for-byte. The physical-interface wrapper supplies the frozen separately pinned budget receipt to an unchanged review module; it does not alter the proof or checker. The phase root review requires NumPy and uses exact object integers. Ordinary and optimized author/review results remain separately identified where present. No general theorem is inferred solely from running a checker.

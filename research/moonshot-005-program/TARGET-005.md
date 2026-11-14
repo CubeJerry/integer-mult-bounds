@@ -385,3 +385,18 @@ Public Gram retention has limiting rooms38.5080115230(old400)/30.2219892327(allh
 The whole-column direct-original h18 cochart source has moment>=16^t and fails every even caller under nonnegative helper net. The actual h9 conversion also fails all arms. These exclusions motivate a different logical source. Its optimistic invoice must remain separate until actual off-diagonal frames and productive target laws are proved.
 
 For BIT, chi<=111+I_o+2D_p combines directly with marked-route tariffs, giving caps138/131/124,125/124 in their specified route cases. The general chain bound S=222-chi<=6r+2 implies that width-two chains over F2,F4,F8 cannot meet these cases; F16 is only not excluded. No free canonical-rank addition or equality chi=ell=gamma is used.
+
+## S012 checkpoint9: exact112-port interface budget
+
+At t=199/200, the stipulated2a-call/four-query caller has margin
+
+    112 W_a - 2a Q_t - 4 delta_q - (4a+2) delta_r - E,
+    W_a = 2(1+16a)^t + 4 sum_{j=1}^a(1+8j)^t - 4 - 4 sum_{j=1}^{a-1}(8j)^t.
+
+Here Q_t and delta_q are whole-bank prices; delta_r is a whole productive-bank debit. The all-arm per-native optimum is a=6, allowance3709.37687789881206455. The actual R0-minimal source costs3557.8052853836864454, leaving151.5715925151256191 before every new interface expense. This is necessary accounting for that stipulated caller, not proof that the physical caller exists. Distinct query-only and target-debit optima cannot be combined into one invoice.
+
+The proved modular repair uses N=Q^-1 R0 Q twice per native, hence24 times in the twelve-stage caller. If both independent services cost sigma and there is no other new expense, it requires sigma<75.78579625756281. In general2sigma+E_native<151.57159251512562, together with the separately proved query/productive/recursive contracts. Every row of N has4^(V+1) nonzeros, excluding a fixed ordinary template, but this is not a general paid-moment lower bound.
+
+Simple deletion of any nonempty subset of the24 postservices fails the unchanged twelve-stage word; the theorem covers every arm count and width. A separately scoped completed-class-row repair costs at least112*2^t=223.2250188734. Both restrictions can be changed only by a real new construction. An encoded or mixed forward/inverse caller must derive its own complete endpoint, productive targets and all costs; it cannot inherit this optimistic budget merely from scalar cancellation.
+
+The character-model identity(QR0)^48=I holds at every width, with coefficients in(1/2)Z[i]. The retained old parity normalizer succeeds exactly when Lambda Q^-1 is constant on each class. Width-one patterns pass; a genuine repeated character at width two fails. None of these Fourier statements makes stage-dependent spatial adapters free. U>1/200 and B>1/200 remain independently necessary for the selected bootstrap route.

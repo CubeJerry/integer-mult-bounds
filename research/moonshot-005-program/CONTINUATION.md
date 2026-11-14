@@ -6,7 +6,11 @@ PROGRAMME, TARGET-005, OBLIGATIONS and latest append-only SESSION-LOG. Check
 canonical changes since its recorded SHA. Baseline hashes are not self hashes.
 Keep the protected mathematics-first allocation in PROGRAMME active.
 
-## Latest S012 checkpoint8 frontier
+## Latest S012 checkpoint9 frontier
+
+The actual112-port R0-minimal source is independently admitted:448 arbitrary inputs, no owners, complete moment3557.8052853836864454. The physical boundary proof identifies two paid N=Q^-1 R0 Q bank services per native as a sufficient modular repair, with combined allowance<151.57159251512562. No N service is constructed. Every simple postservice deletion in the unchanged caller fails. Positive ordinary transport A_s^-1 A_t=R_s R_t and the owned-free literal inverse motivate a changed chronological caller; the opposite retained transport has proved growing support after all paths. Next prove the actual mixed-orientation caller endpoint and complete target/query/recursion invoice, or implement N within its allowance. The stronger BIT supplier and all five foundations remain open. No new kappa. S013 is concurrent on a separately recorded scope; preserve both histories.
+
+## S012 checkpoint8 frontier (historical)
 
 Actual paid all-hosted conversion and public Gram retention are admitted. The two closed all-hosted Gram/C4 handoffs cannot be completed by appending a suffix in the retained nested-helper grammar at any short-caller arm count. Public pivots repair arithmetic loss but owe76 D outputs and forward duties. The active112-port dyadic involution lead changes the logical operation; its source review and literal physical caller bridge are pending. The next theorem must address actual port adapters, operator relations and paid productive targets. BIT small-field chain exclusions are stronger; a physical stronger BIT supplier remains open. No new kappa or upstream PR.
 

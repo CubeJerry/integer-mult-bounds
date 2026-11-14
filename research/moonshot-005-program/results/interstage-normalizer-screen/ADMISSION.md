@@ -1,0 +1,11 @@
+# Both actual interstage orientations, with all paths retained
+
+**Proved source-bound identity and universal support obstruction; independently reviewed. No new kappa.** The actual physical stage is A_s=Q R_s with R_s=M_s^-1 R0 M_s an ordinary involution. For distinct stages, A_s^-1 A_t=R_s R_t is a genuine ordinary change of encoded role. The opposite order is Q R_s R_t Q^-1 and has a different physical price.
+
+For the exact retained forward routes, every one of448 nonzero blocks in the opposite order contains four distinct signed affine paths. After all intermediate ports are summed, every output port has a certified spatial row with sixteen disjoint terms. At every positive width V that full row has16*4^V nonzeros, each of magnitude2^(-V-2). The original bank coefficient occurs once, outside the tensor power. Hence a fixed ordinary ADD/monomial template requires at least2V+4 additions; no constant template supplies this transport for free.
+
+This is not a paid Gaussian-moment lower bound or an exclusion of changed adapters, reversed native boundaries, shared service or a redesigned caller. The positive ordinary orientation is retained as a constructive resource. At equal stages all paths cancel to the identity, an essential control. A deleted actual path gives width-two squared norm15/16; incorrectly tensoring the bank coefficients gives1/16 instead of1.
+
+[Proof](author/PROOF.md), [frozen author certificate](author/FREEZE.json), [independent review](review-c/REVIEW.md), [receipt](review-c/RESULT.json). From repository root run `python -B research/moonshot-005-program/results/interstage-normalizer-screen/review-c/check.py --author research/moonshot-005-program/results/interstage-normalizer-screen/author --output /tmp/interstage-review.json`. The independent implementation reconstructs physical affine routes using transvections, imports no author checker, and verifies all112 support separators and448 covariance witnesses. Its receipt must match exactly.
+
+Credit Worker A proof and source certificates, Worker C independent affine reconstruction, Worker B source, root/Worker A physical bridge, pinned predecessors, @CubeJerry and OpenAI assistance. No new supplier or multiplication exponent is admitted.
