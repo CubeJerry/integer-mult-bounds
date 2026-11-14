@@ -1074,3 +1074,25 @@ thencompleteq8source, compatiblecomplexsource andstrictsuppliers. Allfive
 foundations retained. No newkappa; cumulativeprogrammeongoing/notPRready.
 No upstreamPRsubmitted andnoexecutionpromisedafterhandoff. Thisclosingcommit
 recordsparentidentity; itsresultingSHA isconfirmedseparately throughGitHub.
+
+## 2026-11-14-S011 — session opened (2026-11-14 01:19:23 UTC)
+
+Starting remote HEAD `628429f0ffbe2da62d411befb314e74219c6ea57`, including
+the protected mathematics-first governance update. Requested duration 36,000
+seconds; planned close 11:19:23 UTC. Canonical main remains
+`e54523517d0f03e58352e647c403a5af3e525a57`; selected conditional kappa remains
+0.00363005817. Prior S010 evidence and its unfinished source obligations are
+retained; no previous claim is promoted.
+
+Planned allocation: A attacks actual W0 local acquisition and restoration; B
+attacks complex preterminal mixed innovation; C is reserved for theorem-first
+discovery, initially the global noncommuting block-representation question.
+The lead coordinates source review, independent checks, full costs and durable
+integration. Discovery effort cannot be silently reassigned to numerical tuning.
+A discovery milestone and complete-bound milestone will be assessed separately.
+
+Initial upstream triage records exact open PR heads and claim scopes in
+`INITIAL-TRIAGE.json`. New structural and numerical proposals are leads only;
+no source import or independent replay is implied. The current q8 BIT source,
+compatible complex source, strict suppliers and all five foundations remain
+open. Resulting checkpoint SHA is confirmed separately after publication.

@@ -2,17 +2,17 @@
   "schema": "moonshot-005-program-state-v2-compact",
   "branch": "research/moonshot-005-program",
   "repository": "CubeJerry/integer-mult-bounds",
-  "checkpoint_baseline_sha": "01502a2c56e2e2239172caaa0f8ac812e062a10b",
+  "checkpoint_baseline_sha": "628429f0ffbe2da62d411befb314e74219c6ea57",
   "checkpoint_sha_semantics": "Parent/baseline identity; never self-referential. Resulting remote SHA is confirmed after publication and recorded in next receipt or session handoff.",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
-  "upstream_last_checked_utc": "2026-11-13 13:25:14 UTC",
-  "root_upstream_review": "Read exact7498 proof and complete7496 Lean source at pinned heads duringfinalreview; no code imported, no source/Lean replay claimed.",
-  "session": "2026-11-13-S010",
-  "session_started_utc": "2026-11-13 03:27:03 UTC",
-  "session_planned_end_utc": "2026-11-13 13:27:03 UTC",
+  "upstream_last_checked_utc": "2026-11-14 01:21:00 UTC",
+  "root_upstream_review": "Canonical SHA unchanged. Targeted metadata and written-proof triage of open PRs 7555/7557/7558/7546; no source replay or admission.",
+  "session": "2026-11-14-S011",
+  "session_started_utc": "2026-11-14 01:19:23 UTC",
+  "session_planned_end_utc": "2026-11-14 11:19:23 UTC",
   "requested_session_seconds": 36000,
-  "session_status": "closed-durable-handoff-no-background-execution",
-  "session_checkpoint_utc": "2026-11-13 13:27:04 UTC",
+  "session_status": "active-research-with-periodic-verified-checkpoints",
+  "session_checkpoint_utc": "2026-11-14 01:26:10 UTC",
   "background_execution": false,
   "phase": "construct-minimal-noncanonical-history-code-with-paid-chronology",
   "target_kappa": "1/200",
@@ -50,6 +50,13 @@
     {
       "id": "FOUNDATIONS",
       "status": "retained-open-for-unconditional-theorem"
+    },
+    {
+      "id": "PROTECTED-DISCOVERY-S011",
+      "status": "active-open",
+      "question": "Does global rank-9V block-fitting rigidity hold without commutation or invertible-Schur assumptions, or is there a new vector-code representation?",
+      "milestone_A": "A rigorous structural theorem or counterexample; no automatic kappa gain.",
+      "milestone_B": "Physical realization and complete compatible supplier/outer accounting remain separate."
     }
   ],
   "verified_results": [
@@ -202,7 +209,18 @@
     "final_handoff": "sessions/2026-11-13-S010/FINAL-HANDOFF.json"
   },
   "path_semantics": "Paths relative to research/moonshot-005-program unless stated otherwise.",
-  "publication_status": "Ongoing researchprogramme, this10hoursessionclosed andpublished. No newcompletekappa, no upstreamPR, no backgroundexecution.",
-  "session_closed_utc": "2026-11-13 13:27:04 UTC",
-  "session_elapsed_seconds": 36001.229814
+  "publication_status": "Ongoing research programme. No new complete kappa; no upstream PR submitted. Ten-hour S011 research session active; no execution promised after its handoff.",
+  "s011": {
+    "starting_remote_sha": "628429f0ffbe2da62d411befb314e74219c6ea57",
+    "requested_seconds": 36000,
+    "starting_state": "sessions/2026-11-14-S011/START-STATE.json",
+    "planned_protected_allocation": "One of three workers throughout substantive research: new structural theorem or representation; root retains independent verification and integration.",
+    "tracks": {
+      "A": "Actual BIT W0 local acquisition and restored physical handoff",
+      "B": "Complex preterminal mixed innovation with actual Hub rows and paid restoration",
+      "C_protected": "Global rigidity or noncommutative escape for minimum-rank block representations; alternatives permitted"
+    },
+    "initial_upstream_triage": "sessions/2026-11-14-S011/upstream/INITIAL-TRIAGE.json",
+    "mathematical_status": "Unchanged at session opening; all five foundations retained."
+  }
 }

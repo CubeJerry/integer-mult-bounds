@@ -1,0 +1,262 @@
+{
+  "observed_utc": "2026-11-14 01:26:10 UTC",
+  "canonical_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "scope": "Targeted metadata and body triage; open PRs are not admitted results; no source replay.",
+  "pinned_prs": [
+    {
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7555",
+      "number": 7555,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "draft": false,
+      "body": "This package states five general laws that bound changes to the P104 invoice. Each law comes with its scope and an exact checker written against the standard library only, and each checker runs controls that must fail. It makes **no κ claim** and builds no word. The census numbers are statements about Clear1nsight's #7334 word, vendored unmodified and authenticated by SHA256.\n\n## Results\n\n1. **Credit/cut law for credited public fields.**\n   - Loss identity: paid − credit = 2·Σ(descent depth) under Fourier-rank pricing d(E,F), laterals included.\n   - Two-sided cut law on every up-set U:\n     - junk_U ≤ o_in + p_out, which needs invertible T;\n     - cout_U ≤ o_out + p_out.\n   - Consequences:\n     - a zero-loss credited field supplies no cut capacity;\n     - a credited public substitute for an owned entry of depth k pays ≥ 2k, against k for the owned entry.\n   - On #7334:\n     - all 6,232 public MOVEs ascend and all 73 owned lifetimes are monotone;\n     - on every one of the 501 principal up-sets with an owned entry, need_in = o_in with zero slack (2,032 forced entry incidences).\n2. **Legality is forced by the specification.**\n   - The specification fixes the complex label space as F₂ʰ with the ordinary dot product, with terminal labels X: U_a → 𝓕 and Y: 0 → U_a^⊥. The checker matches that text verbatim.\n   - Over all Lagrangians at h = 4 and 5:\n     - the charts are exactly the Lagrangians split by (L₀, L_F);\n     - the x_p and y_t cones share a frame iff p·t = 0.\n   - Alternatives:\n     - any other symmetric Gram M costs rank(M+I);\n     - an alternating form cannot express an endpoint relation;\n     - moving a Y end costs 2 per end.\n3. **Owned-unit deletion bound.** For exact 8-term decoders in PR968's normal form on punctured E8 units:\n   - cst ≥ 56 − E(p), with E(p) = 0 for p ≤ 24, 1 at 25, 2 for 26–35, and 6 for 36–38;\n   - so cst = 48 is impossible for every n ≥ 82, and cst ≥ 54 for n ≥ 85.\n   - With Z16 kept in the puncture, E_Z = 0 up to p = 34.\n   - The checker reproduces PR968's hyperplane-normal census (440,880 normals) from scratch and runs a complete union enumeration.\n4. **Odd-rank classes of per-port contracts.**\n   - Classification: modulo q-even monomials there are 5 classes, plus 3 monomial classes.\n   - o = r everywhere: the σ-rank equals the rank of the q-odd part.\n   - Contract bills must range over q-even W.\n   - The per-J odd unit is an integer rank deficit, not a parity.\n   - Equality clause: rank-additive factorisations of a σ-factor that is −1 on Im(g − I) consist of involutions. This is proved, and checked exhaustively on small groups.\n   - Hub bound: a rank-h hub on n ports forces ≥ rank(Odd)·(n − h) transfers outside the hub, which is 96 per unit at h = 8, n = 104.\n5. **Helper-layer lower bounds on #7334.**\n   - Per-frame need Σ B_G = 681.\n   - Sound floor: helper D0 ≥ 944.07 against 9,983.73 paid. The chain cover adds nothing when endpoints are free.\n   - Conditional floor: ≥ 1,367.08 with #7334's endpoint census fixed. It is recomputed by weak duality from vendored multipliers.\n\n## Checks\n\n`python3.12 -B scripts/research_package.py --package research/p104-structure-laws` → `PASS_REGISTERED_RESEARCH_PACKAGE`. That is five commands, taking about 5 minutes locally.\n\n## Caveats\n\n- These are lower bounds and structural laws. Nothing here is a construction or an attainment claim.\n- Law 1 assumes the net-credit rule and excludes words with singular T. Lateral or net-down credit is out of scope.\n- Law 2 takes the specification's target, its terminal labels and the L₀-fixing rank-0 adapters as given.\n- Law 3 is limited to 8-term decoders and p ≤ 38. The hyperplane-flat classification is quoted as a standard fact.\n- Law 4's counts 17, 36, 104 and 8 are parameters.\n- Law 5's floors use per-frame ranks only, so they cannot certify near-optimality. The 1,367.08 floor holds only under its endpoint premise.\n- The branch carries Clear1nsight's two CI prerequisite commits (from the #7257 line), with authorship kept.\n- No human has reviewed the package.\n\nCredit: Clear1nsight (#7334), Rohan Arun (#7113 caller), ToikY (price and replay lineage), PR968's authors, and icekylinx (chart notes). See NOTICE.\n\n— DreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n",
+      "title": "P104 structure laws: credit cut law, SPEC-forced legality, owned deletion bound, contract odd-rank classes, helper floors (no κ)",
+      "base": "main",
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "head": "research/p104-structure-laws",
+      "head_sha": "7242d4bd604ac5dcfe324eb278da01ac343fa18c",
+      "head_repo_id": 1412741203,
+      "head_repo_full_name": "DreamingOfClouds/integer-mult-bounds",
+      "merge_commit_sha": "f802789ddf41e238506aa4b1cbccce835752bf88",
+      "user": {
+        "login": "DreamingOfClouds",
+        "name": "DreamingOfClouds",
+        "email": null,
+        "avatar_url": "https://avatars.githubusercontent.com/u/173691639?v=4",
+        "id": 173691639
+      },
+      "requested_reviewers": null,
+      "requested_team_reviewers": null,
+      "diff": null,
+      "comments": null,
+      "created_at": "2026-11-13T22:58:37Z",
+      "updated_at": "2026-11-13T22:58:37Z",
+      "closed_at": null,
+      "merged_at": null,
+      "commits": 3,
+      "changed_files": 18,
+      "additions": 3216,
+      "deletions": 79,
+      "display_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7555",
+      "display_title": "P104 structure laws: credit cut law, SPEC-forced legality, owned deletion bound, contract odd-rank classes, helper floors (no κ)"
+    },
+    {
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7557",
+      "number": 7557,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "draft": false,
+      "body": "Theory package `research/p104-t-minus-one-laws/`. It covers the t = −1 per-port contract on P104: M = [[1, −1], [1, 0]], X = x − y, Y = x. **No κ claim, no word.** The σ-rank o, o = rank(q-odd part), Lemma E and the hub bound come from #7555 and are cited, not repeated.\n\nTags: [P] proved in PROOF.md, [C] exact standard-library check, [cond] conditional.\n\n**Results**\n1. **Charge law [P, C].** In the relay family with charge-neutral owned deposits, settling every cell leaves the V-span deficiency at D = n − r: A3 3, A4 6, E8/P104 96.\n   - Corrected anchored law: with early (anchored) cells E and settled cells S, D = dim{(k, k′) : k′ ∈ ker G, (I + Z^S)k + Z^E k′ = 0} − dim ker G. It matches the exact model on 90/90 random sets. The per-cell form dim(ker G ∩ ker Z^E) is wrong on 8/90.\n   - σ-anchor schedule: one early cell per column on a perfect partner matching gives D = 0 on E8/P104 (3/3 matchings). The cost moves to an L-side schedule that is still open.\n2. **Carried-row law [P, C].** One owned MOVE lowers the deficiency by at most 1, so D ≥ D₀ − #owned MOVEs ≥ D₀ − owned units. It is attained, and the s − 1 control fails.\n3. **Hub additivity [P, C].**\n   - With nested hubs, the per-hub deficiencies telescope to dim K exactly; without forwarding they sum to ≥ dim K.\n   - Checked on all 4,683 A3 hub sequences, 4,000 at A4 and all 510 E8/P104 hyperplane hubs (D₁ + D_V = 96 on 510/510).\n   - Counting only the last hub gives as little as 36.\n4. **Per-J odd unit [C; gauge ledger cond].**\n   - H = [[1, −q], [q⁻¹, 0]] has o(Hⁿ) = 2, 2, 0, 2, 2, 0. SW = J·L_q has o = 1, so the t = −1 native costs 17 more odd units per port per word.\n   - The three-register lift is q-free only in a gauge that itself has o = 1.\n   - σ-fixed automorphisms preserve o.\n   - A gauge-shifted contract totals ≥ 20 odd units per port per word for every m, against 3 for the unshifted design.\n5. **Y-atom conservation [cond: Lemma A].** D ≥ dim{k ∈ ker G : k_N = 0} ≥ n − r − N_neutral − N_owned, which is 96 per call on E8/P104 with N = ∅.\n   - Checked: the counting bound holds over all column sets at A3/A4 and is tight at every |N|.\n\n**Caveats**\n- Laws 1, 3 and 5 are stated for the relay family.\n- Lemma A (PA) is open, so law 5 and the below-re-add-frame case of law 3 are conditional.\n- The gauge ledger assumes boundary σ-odd units cost at least one odd op each.\n- Not packaged here:\n  - the finite-order statement about the caller (fresh planes at every J);\n  - the 20-odd-op caller floor with its exact callers.\n- The E8/P104 Gram is computed from the pinned PR968 decoder file. No data is vendored.\n- No human has reviewed the package.\n\nValidator: `python3.12 -B scripts/research_package.py --package research/p104-t-minus-one-laws` → `PASS_REGISTERED_RESEARCH_PACKAGE`. The branch carries the two #7257 CI-prerequisite commits by Clear1nsight, cherry-picked with authorship kept.\n\n— DreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n",
+      "title": "P104 t = −1 laws: charge deficiency, one-unit owned cuts, hub additivity, the per-J odd unit (no κ)",
+      "base": "main",
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "head": "research/p104-t-minus-one-laws",
+      "head_sha": "aec6330dd752cebbc01b876e59e0bb12a1617299",
+      "head_repo_id": 1412741203,
+      "head_repo_full_name": "DreamingOfClouds/integer-mult-bounds",
+      "merge_commit_sha": "ca316d9c10fb065a751a26e6d8b528b1d924b29f",
+      "user": {
+        "login": "DreamingOfClouds",
+        "name": "DreamingOfClouds",
+        "email": null,
+        "avatar_url": "https://avatars.githubusercontent.com/u/173691639?v=4",
+        "id": 173691639
+      },
+      "requested_reviewers": null,
+      "requested_team_reviewers": null,
+      "diff": null,
+      "comments": null,
+      "created_at": "2026-11-14T00:25:35Z",
+      "updated_at": "2026-11-14T00:57:39Z",
+      "closed_at": null,
+      "merged_at": null,
+      "commits": 3,
+      "changed_files": 14,
+      "additions": 1363,
+      "deletions": 79,
+      "display_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7557",
+      "display_title": "P104 t = −1 laws: charge deficiency, one-unit owned cuts, hub additivity, the per-J odd unit (no κ)"
+    },
+    {
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7558",
+      "number": 7558,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "draft": false,
+      "body": "Package `research/p104-methods` writes down six construction methods from our P104 work. Each method comes with its scope and a standard-library exact checker. The package makes **no κ claim** and ships no new word. It builds on #7542 (helper rung merges), #7555 (structure laws) and #7557 (t = −1 laws), and does not repeat them.\n\nTags in the README: [P] proved in PROOF.md, [C] exact run in this package, [Q] lane number quoted but not reproduced here, open.\n\n1. **{0}/V re-basis** (`rebasis.py`). This is an exact test for deleting a paid helper rung while every row stays fixed. It has two parts, both proved [P]:\n   - {0} freedom: registers leaving {0} admit exactly the unitriangular mixing.\n   - V freedom: V-arrival rows only need to lie in W_V.\n\n   Combined with local slots, the test found 761@1053, the 761 half of #7542. The checker rebuilds that merge from Clear1nsight's #7334 word (vendored with the same SHA256 as in #7542) and replays it exactly. All 1,569 rows and end charts match, and 761 goes from 0→5→7 to 0→7. It also checks the {0} and V facts separately. Seven controls are rejected.\n2. **Absorption** (`absorption.py`). A helper is settled against a register's outstanding junk instead of against Y: it lumps −λ·y at {0}, does H += Σd·X_r(K), then H −= Σd·X_r^f at V.\n   - It ends clean iff λ = Σ d·ψ_r [P, C].\n   - The last-outstanding-cell rule: random absorb time gives D = 3, the rule gives D = 0 [C].\n   - Under #7557's σ-anchors, D = 0 on A3/A4, against n − r with all cells settled [C]. This is **frame-free algebra on toys**: no frame legality is checked and E8 is not simulated.\n3. **Range-G pre-loads** (`preload.py`). A span law shows that range-G y content is not excluded at any chart [P]. The owned gauge G·(x/2 + (11/2)·y) gives Y_t = x_t with no zero-Y park, exactly on all 104 columns of the PR968 Gram [C]. The charge half (carrier tokens) is open.\n4. **Signed-row helpers, Rado/LU** (`rado_lu.py`). Group feasibility is Rado's transversal condition, and it is realised by LU into elementary ADDs.\n   - One helper carrying a free signed row fixes a deficit of 2 where a pure e_k helper fails [C].\n   - Agrees with brute force on 118 seeded instances [C].\n   - The lane's full fan-out build (408.68 vs 1,692.1 D0/call) is quoted, not reproduced [Q].\n5. **O+(8,2) quotient** (`quotient.py`). All [C]:\n   - The vendored port Gram equals the PR968 Gram up to a verified permutation and ±1 switching.\n   - The ports are 104 of the 120 nonsingular points of the quadric.\n   - Two-graph sign law: product −1 exactly on the 704 c-sum triples, and one wrong cell per partner pair.\n   - 282 twelve-port 4-spaces, plus one packing of 8 port-disjoint blocks.\n   - The c-trick identity, and 33 disjoint c-sum triples. Their maximality is not claimed.\n6. **t = −1 callers** (`callers.py`).\n   - The exact MONOHUB joint caller (A: HOST(−1,1); B: Rohan Arun's #7113 verbatim) replays with bad 0 at q = 1, i, −1, −i for an *idealised* native [C].\n   - The 20-odd-op floor for one q-free plane is proved [P, via Lemma E of #7555]. Four callers meet it exactly [C].\n   - Form orbit: 3 new lines per J, and the 17 input planes span 34 [C].\n   - The 8 even fusions fail [C].\n   - No buildable native is claimed.\n\nNot reproduced here, and listed in the README: the general re-basis scan and its bilinear extension, a frame-legal E8 absorption layer, the full fan-out and U-junk builds, a HOST(−1,1) native, and Lemma A.\n\n- Validator: `python3.12 -B scripts/research_package.py --package research/p104-methods` → `PASS_REGISTERED_RESEARCH_PACKAGE`, in about 90 s.\n- The branch carries the two #7257 CI-prerequisite commits by Clear1nsight, cherry-picked with authorship kept.\n- No human has reviewed the package.\n\n— DreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n",
+      "title": "P104 methods: {0}/V re-basis, absorption, range-G pre-loads, signed-row Rado/LU helpers, O+(8,2) blocks, t = −1 callers (no κ)",
+      "base": "main",
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "head": "research/p104-methods",
+      "head_sha": "5ab919a2398bdb9a7a49110d6fbe6912cb591fac",
+      "head_repo_id": 1412741203,
+      "head_repo_full_name": "DreamingOfClouds/integer-mult-bounds",
+      "merge_commit_sha": "751bd29bc7da5f1e317c037a8578f5b41dd3b7bf",
+      "user": {
+        "login": "DreamingOfClouds",
+        "name": "DreamingOfClouds",
+        "email": null,
+        "avatar_url": "https://avatars.githubusercontent.com/u/173691639?v=4",
+        "id": 173691639
+      },
+      "requested_reviewers": null,
+      "requested_team_reviewers": null,
+      "diff": null,
+      "comments": null,
+      "created_at": "2026-11-14T00:49:31Z",
+      "updated_at": "2026-11-14T00:49:31Z",
+      "closed_at": null,
+      "merged_at": null,
+      "commits": 3,
+      "changed_files": 28,
+      "additions": 2762,
+      "deletions": 79,
+      "display_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7558",
+      "display_title": "P104 methods: {0}/V re-basis, absorption, range-G pre-loads, signed-row Rado/LU helpers, O+(8,2) blocks, t = −1 callers (no κ)"
+    },
+    {
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7546",
+      "number": 7546,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "draft": false,
+      "body": "## Result\r\n\r\nConditional κ **0.003648411294790** under the inherited all-width native action, owned erasure, compiler, precision/tape and recovery premises with the exact signed #7113 caller at `07a76c5e2738882c0cb322278e56f6cae3c9885d`.\r\n\r\n| Comparison | Exact head | κ | Absolute gain | Relative gain |\r\n|---|---|---:|---:|---:|\r\n| #7544, strongest independently reproduced comparator | `d6be7d620c9c8337104daeb09fe01196eced5fe3` | 0.003647969120276 | 0.000000442174514 | 0.0121211145% |\r\n| #7542, latest relevant peer claim at 22:19 UTC | `71f5acb0409daf208a865482f3349049dbd3251c` | 0.0036475398277 | 0.00000087146709 | 0.0238919143% |\r\n\r\n#7542’s native and declared price replay passed. The separate complete signed and outer application is beyond that PR’s verification scope. #7544's complete native and signed replay passed locally and in [hosted science](https://github.com/CrocSwap/integer-mult-bounds/actions/runs/43511250221/job/132183758807).\r\n\r\n## Construction and scope\r\n\r\nFuse hosted Y2 role902 MOVEs 40950/40951 (618→789→913) into a direct rank-four lift, with first retained read ADD40952 into 985. #7542 removed the last intervening observation. Exact frames telescope with absolute phase and adjoint preserved. The signed invoice loses 34 rank-two and adds 17 rank-four positions across 17 calls. Paid total falls to 110,468, productive total is 22,461, ordinary work falls by 17,000, and the elementary tape upper bound falls by 2,898,976. The directed threshold is bounded by [0.00364841129479084532481164992024, 0.00364841129479084532481164992025].\r\n\r\n[Same-pool screen and controls](https://github.com/ToikY/integer-mult-bounds/blob/96e4a0dd34b98388d2911fd37df70c15e70840de/research/p104-role902-direct-lift/RANKING.md). The original order by gross saving was the Type B square, role902, then helper1028. Only role902 survived exact overlap, first-read support and repair screening. Task scope is refined to this one literal pair on top of canonical main e54523517d0f03e58352e647c403a5af3e525a57. The first two commits are the existing #7257 onboarding prerequisite, separately scoped and credited.\r\n\r\n## Replay\r\n\r\nWith CPython 3.12 from a clean checkout:\r\n\r\n```sh\r\npython3.12 -B scripts/research_package.py --package research/p104-role902-direct-lift\r\n```\r\n\r\nIndependent local physical replay checked all 512 signed forward and adjoint columns, including a rejected absolute-phase mutation. Independent grid and invoice replay covered all 1,569 endpoint rows and every owned CLEAR, COPY, lifetime and MOVE. Complete local native and signed replay and an independent directed recurrence check passed, including 3,040 catalogue maps, 104 boundary pairs, ordinary, precision and tape costs, and all 58 outer predicates. The clean registered local replay passed in 461.42 seconds. The [first hosted run](https://github.com/CrocSwap/integer-mult-bounds/actions/runs/43518471602/job/132208623551) passed independent and native checks, then hit the combined command’s cap. The package now separates native and signed command budgets and checks the same scientific receipt. On exact head `99438c43df7aac1e5dbcc43c1578fcd886c119ec`, [hosted onboarding](https://github.com/CrocSwap/integer-mult-bounds/actions/runs/43521106941/job/132215291651), the historical prerequisite and the [complete scientific replay](https://github.com/CrocSwap/integer-mult-bounds/actions/runs/43521106941/job/132217523050) passed. The hosted scientific job certified κ `0.003648411294790`.\r\n\r\n## Credit and next test\r\n\r\nCredit DreamingOfClouds for #7542’s chart789 contact removal, Clear1nsight for #7481’s funded producer and #7257’s onboarding, the #7544 literal composition and complete replay, Rohan Arun for the signed #7113 caller, #7480 and #7334 for the native lineage, #7003 for chronological fusion and #7298 for directed pricing. The phase cross-check reuses the #7542 chart engine and the compiler and phase interpreter also pinned in #7526. Source notices are retained. OpenAI Codex materially assisted construction and verification.\r\n\r\nThe [fixed chart912 role496 repairs](https://github.com/CrocSwap/integer-mult-bounds/discussions/7111#discussioncomment-19601460) were ruled out independently. The [canonical discussion](https://github.com/CrocSwap/integer-mult-bounds/discussions/7111) links the current follow-up work. The replay package retains the exact relative ratios.\r\n",
+      "title": "Conditional κ = .003648411294790 (+0.0121% over #7544; +0.0239% over #7542): fuse hosted role902 moves",
+      "base": "main",
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "head": "codex/p104-role902-direct-lift",
+      "head_sha": "99438c43df7aac1e5dbcc43c1578fcd886c119ec",
+      "head_repo_id": 1416827064,
+      "head_repo_full_name": "ToikY/integer-mult-bounds",
+      "merge_commit_sha": "f2cae90ab0d9f2d4af69c2526ca44c3198c7f444",
+      "user": {
+        "login": "ToikY",
+        "name": "ToikY",
+        "email": null,
+        "avatar_url": "https://avatars.githubusercontent.com/u/27568617?v=4",
+        "id": 27568617
+      },
+      "requested_reviewers": null,
+      "requested_team_reviewers": null,
+      "diff": null,
+      "comments": null,
+      "created_at": "2026-11-13T22:20:24Z",
+      "updated_at": "2026-11-13T23:02:19Z",
+      "closed_at": null,
+      "merged_at": null,
+      "commits": 4,
+      "changed_files": 81,
+      "additions": 20677,
+      "deletions": 79,
+      "display_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7546",
+      "display_title": "Conditional κ = .003648411294790 (+0.0121% over #7544; +0.0239% over #7542): fuse hosted role902 moves"
+    }
+  ],
+  "recent_titles": [
+    {
+      "number": 7557,
+      "title": "P104 t = −1 laws: charge deficiency, one-unit owned cuts, hub additivity, the per-J odd unit (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7557"
+    },
+    {
+      "number": 7558,
+      "title": "P104 methods: {0}/V re-basis, absorption, range-G pre-loads, signed-row Rado/LU helpers, O+(8,2) blocks, t = −1 callers (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7558"
+    },
+    {
+      "number": 7556,
+      "title": "Independently verify #7544’s conditional κ gain and owned1557 erasure boundary",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7556"
+    },
+    {
+      "number": 7546,
+      "title": "Conditional κ = .003648411294790 (+0.0121% over #7544; +0.0239% over #7542): fuse hosted role902 moves",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7546"
+    },
+    {
+      "number": 7554,
+      "title": "Prove exact modular phase-cache memory (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7554"
+    },
+    {
+      "number": 7553,
+      "title": "Prove an ordinary four-cycle costs ten with restored donors (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7553"
+    },
+    {
+      "number": 7555,
+      "title": "P104 structure laws: credit cut law, SPEC-forced legality, owned deletion bound, contract odd-rank classes, helper floors (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7555"
+    },
+    {
+      "number": 7550,
+      "title": "Prove exact cactus partial-query acquisition costs (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7550"
+    },
+    {
+      "number": 7552,
+      "title": "Prove global integer dyadic-gauge optimization is NP-complete (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7552"
+    },
+    {
+      "number": 7551,
+      "title": "Prove the sharp all-rank binary dual-polar cut ceiling (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7551"
+    },
+    {
+      "number": 7548,
+      "title": "Prove sharp denominator-capped dirty commutator error (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7548"
+    },
+    {
+      "number": 7549,
+      "title": "Raise the fixed phase-B rank-16 packing from 52 to 54 batches (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7549"
+    },
+    {
+      "number": 7547,
+      "title": "Reach principal two-row demands with one restored dirty spare (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7547"
+    },
+    {
+      "number": 7545,
+      "title": "Prove universal (5q - 4 + (q mod 4) + |p|)/(4q) h error law for rounded rational Walsh shears (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7545"
+    },
+    {
+      "number": 7543,
+      "title": "Classify integer-shift cubic repairs at odd S and certify twenty general-frame arities (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7543"
+    },
+    {
+      "number": 7544,
+      "title": "Conditional κ = 0.003647969120276 (+88808058700/3647081039689% over #7481): compose helper rung merges",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7544"
+    },
+    {
+      "number": 7539,
+      "title": "Classify monic odd-S cubic repairs via 2-adic obstruction and certify 20 general-frame arities (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7539"
+    },
+    {
+      "number": 7496,
+      "title": "feat(formal): add zero-dependency Lean 4 Frontier 7000 ledger and universal rank-one fusion obstruction (no new \\kappa)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7496"
+    },
+    {
+      "number": 7542,
+      "title": "Conditional κ = .0036475398277 (+0.0126% over #7481; +0.0243% over #7334): two helper rung merges",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7542"
+    },
+    {
+      "number": 7541,
+      "title": "Exclude the fixed four-clock Type B B2 transfer",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7541"
+    }
+  ]
+}
+
