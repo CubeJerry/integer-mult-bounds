@@ -221,3 +221,15 @@ Proofs and independent reviews: [one-width](results/bit-operator-canonical-quoti
 | PAIRED-PAID-RECTANGLE | PROVED universal macro; five finite native words independently checked on400 inputs and rigorously priced. | Shared global completion, genuine all-width physical admission, remaining paired residual. |
 
 Admissions: [point handoff](results/bit-point-retained-handoff-gate/ADMISSION.md), [operator layers](results/bit-operator-invariant-filtration/ADMISSION.md), [paired rectangle](results/complex-paid-paired-relay/ADMISSION.md). No foundation, strict supplier or complete kappa obligation is discharged.
+
+## S012 checkpoint3 dependency changes
+
+| Obligation | Status and exact scope | Next dependency |
+|---|---|---|
+| SUBWIDTH-SCALARIZATION | PROVED arbitrary-field support domination for extra dimension<V; native d<2V cannot contain a whole scalar line. | Line-free quotient and actual source access. |
+| TWO-DIRECTION-ENVELOPE | PROVED d<2V and scalar envelope<=2 imply ell>=205, allowing extensions. | At least three scalar directions; native fitting open. |
+| FIXED-TWO-PATCH | PROVED exact222/205/216/192 classification of tensor subspaces. | Different geometry; compression in this family retired. |
+| PAIRED-FACTOR-STREAM | PROVED2r+1 isolated passage macro; two partial sources checked. | Global completion on paid histories or changed original routes. |
+| SEPARATED-BRIDGE-COMPLETION | DISPROVED WITHIN TARIFF: at least192 new unit movements versus room<9. | Changed histories/information must be proved and priced. |
+
+Admissions: [scalarization](results/bit-subwidth-support-scalarization/ADMISSION.md), [envelope](results/bit-two-direction-envelope/ADMISSION.md), [patches](results/bit-two-patch-proper-quotient/ADMISSION.md), [stream](results/complex-streamed-paired-bridge/ADMISSION.md). No strict supplier or foundation discharged.

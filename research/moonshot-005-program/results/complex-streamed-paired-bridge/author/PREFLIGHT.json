@@ -1,0 +1,192 @@
+{
+  "AA_transpose": [
+    [
+      "13",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "13",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "13",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "13",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "13",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "13",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "13",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "13"
+    ]
+  ],
+  "actual_forward_correction": "C(I104-G) on a_h=x_h, a_u=x_u-y_u",
+  "all_actual_forward_rows_checked": 104,
+  "credit": "Rank/tight-frame reuse from eight-packet-prefix and two-direction-terminal-completion; hosted rank96 from omitted-line Gram seed.",
+  "det_C_times_I104_minus_G": "1679616",
+  "det_I104_minus_G": 429981696,
+  "det_I8_minus_hosted_AA_transpose": "415068771/2",
+  "forward_correction_rank": 104,
+  "hosted_AA_transpose": [
+    [
+      "25/2",
+      "1/2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "1/2",
+      "45/4",
+      "1",
+      "1/4",
+      "0",
+      "-1/4",
+      "0",
+      "1/4"
+    ],
+    [
+      "0",
+      "1",
+      "12",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1/4",
+      "0",
+      "51/4",
+      "0",
+      "1/4",
+      "0",
+      "-1/4"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "49/4",
+      "1/4",
+      "1/4",
+      "-1/4"
+    ],
+    [
+      "0",
+      "-1/4",
+      "0",
+      "1/4",
+      "1/4",
+      "12",
+      "-3/4",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1/4",
+      "-3/4",
+      "47/4",
+      "-3/4"
+    ],
+    [
+      "0",
+      "1/4",
+      "0",
+      "-1/4",
+      "-1/4",
+      "0",
+      "-3/4",
+      "23/2"
+    ]
+  ],
+  "hosted_reverse_residual_rank": 96,
+  "isolated_additive_paired_rank_required_at_least": 96,
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "negative_controls": {
+    "omitting_coupled_C_mismatched_actual_rows": 8,
+    "rank_of_G_alone_does_not_imply_residual_invertibility": true,
+    "replacing_actual_a_by_x_mismatched_actual_rows": 104
+  },
+  "new_separated_paired_whole_field_movement_at_least": 192,
+  "optimistic_rank_capacity_one_clean_stream": 3,
+  "optimistic_rank_capacity_with_two_transfers_per_factor": 4,
+  "replay_engine_sha256": "045ec283e41288354bb82d2f1e8a62facfb67c23cd4f6954f4d7a5ae744bd37e",
+  "retained_seed_limiting_room_interval": [
+    "221087974075569533076312702603747261/25000000000000000000000000000000000",
+    "1989791766680125797686814323433727951/225000000000000000000000000000000000"
+  ],
+  "scope": "Only fixed-seed additive separated paired bridges with no extra correction side information and separately charged transfer rank. No bound for changed original routes, changed paid histories, free local corrective maps, or shared prior transmissions. No new kappa.",
+  "seed_sha256": "6281068be019f5f17ee9b64dd4f08323b00d1d3003b7ff3ccda6597ebe6265fc",
+  "status": "PASS_COUPLED_CORRECTION_AND_SEPARATED_BRIDGE_PREFLIGHT"
+}

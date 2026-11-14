@@ -142,3 +142,9 @@ Read the operator quotient/density admissions before treating entangled blocks a
 The static point-retained interface cannot finish with canonical history plus<=20 supported ports. Copies of the same small supported banks at proper charts do not escape this theorem; genuinely new mixed information, richer actual histories or paid public turns are required. All commuting/triangularizable target operator coefficients also need2V canonical innovation. Code existence is distinct from physical availability.
 
 Use the admitted complex paid paired relay as a local module. Do not repeat dirty echoes when a cheaper fresh-zero contract actually applies; do not silently grant its zero cache or left inverse. Next construct shared single-carrier rank-factor streaming with authentic d and accumulated output cleanup, then test joint chronology and invoice. Both strict suppliers and all foundations remain open. S011 remains concurrent; reconcile remote history before publication.
+
+## S012 checkpoint3: resume at actual acquisition
+
+The next fractional BIT fitting must evade the full-scalar-line and generic two-direction-envelope gates. Do not repeat fixed two-patch compression searches. Source-specific facet bounds and distributed original-X recoding are live next work; the former are not admitted yet. Review the proposed width-two three-direction pencil theorem before adopting its stronger conclusion.
+
+The actual complex stream is available, but fresh separated paired relays cannot finish the retained seed within its room. Review the funded old-Gram-prefix candidate, then require an optimistic all-eight-mode global budget and real mixed receiver geometry. Preserve S011's concurrent collector work and exact source differences. No new kappa.

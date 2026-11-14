@@ -1,0 +1,151 @@
+{
+  "classification": "Author theorem and exact controls; independent review pending; no new kappa.",
+  "dependency_sha256": {
+    "results/bit-all-route-rank-gap/ADMISSION.md": "871510f1d9eb76e66b4efe737274af719100e610c375343e78859ba08da062c7",
+    "results/bit-quotient-direction-savings/author/PROOF.md": "8e83d29e18e78e1b6f8e30a154b9cc84ad089c5283b2c04c807e048ffee5229b",
+    "results/bit-quotient-direction-savings/review/REVIEW.md": "60cf45eceae4f3cd3dcd658e59fcbce7a3c626decc7eaefcf4e65ea42f980612"
+  },
+  "line_free_graph_control": {
+    "all_seven_binary_full_lines_absent": true,
+    "basis_coefficients": [
+      9,
+      36,
+      26
+    ],
+    "physical_or_fitting_realization_claimed": false,
+    "quotient_dimension": 3
+  },
+  "missing_identity_diagonal_rejected": true,
+  "native_double_width_boundary": [
+    {
+      "V": 1,
+      "d": 2,
+      "ell": 192,
+      "extra_over_one_line": 1
+    },
+    {
+      "V": 2,
+      "d": 4,
+      "ell": 192,
+      "extra_over_one_line": 2
+    },
+    {
+      "V": 3,
+      "d": 6,
+      "ell": 192,
+      "extra_over_one_line": 3
+    }
+  ],
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "source_free_cases": [
+    {
+      "V": 2,
+      "extra_quotient_dimension": 1,
+      "n": 3,
+      "rowwise_witnesses": [
+        {
+          "functional_coordinate": 0,
+          "kernel_vector": 1,
+          "receiver": 0,
+          "scalar_row": "0x7"
+        },
+        {
+          "functional_coordinate": 1,
+          "kernel_vector": 2,
+          "receiver": 1,
+          "scalar_row": "0x7"
+        },
+        {
+          "functional_coordinate": 0,
+          "kernel_vector": 1,
+          "receiver": 2,
+          "scalar_row": "0x7"
+        }
+      ],
+      "scalar_code_dimension": 1,
+      "scalar_rows_hex": [
+        "0x7",
+        "0x7",
+        "0x7"
+      ]
+    },
+    {
+      "V": 3,
+      "extra_quotient_dimension": 2,
+      "n": 4,
+      "rowwise_witnesses": [
+        {
+          "functional_coordinate": 0,
+          "kernel_vector": 1,
+          "receiver": 0,
+          "scalar_row": "0x3"
+        },
+        {
+          "functional_coordinate": 0,
+          "kernel_vector": 1,
+          "receiver": 1,
+          "scalar_row": "0x3"
+        },
+        {
+          "functional_coordinate": 1,
+          "kernel_vector": 2,
+          "receiver": 2,
+          "scalar_row": "0xc"
+        },
+        {
+          "functional_coordinate": 2,
+          "kernel_vector": 4,
+          "receiver": 3,
+          "scalar_row": "0xc"
+        }
+      ],
+      "scalar_code_dimension": 2,
+      "scalar_rows_hex": [
+        "0x3",
+        "0x3",
+        "0xc",
+        "0xc"
+      ]
+    }
+  ],
+  "status": "PASS_SUBWIDTH_SUPPORT_SCALARIZATION_CONTROLS",
+  "strict_width_controls": [
+    {
+      "V": 1,
+      "delta": 1,
+      "rejected": true,
+      "row_quotient_dimensions": [
+        1,
+        1
+      ]
+    },
+    {
+      "V": 2,
+      "delta": 2,
+      "rejected": true,
+      "row_quotient_dimensions": [
+        2,
+        2
+      ]
+    },
+    {
+      "V": 3,
+      "delta": 3,
+      "rejected": true,
+      "row_quotient_dimensions": [
+        3,
+        3
+      ]
+    },
+    {
+      "V": 5,
+      "delta": 5,
+      "rejected": true,
+      "row_quotient_dimensions": [
+        5,
+        5
+      ]
+    }
+  ],
+  "universal_scope": "Support scalarization over every field and width; native corollary characteristic two. These finite checks use F2."
+}

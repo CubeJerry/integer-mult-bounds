@@ -1,0 +1,74 @@
+{
+  "status": "PASS_INDEPENDENT_STREAMING_PAIRED_SOURCE_REVIEW",
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "seed_sha256": "6281068be019f5f17ee9b64dd4f08323b00d1d3003b7ff3ccda6597ebe6265fc",
+  "author_proof_sha256": "b943bfac55b0f8124e57e8137f263ca3c560c2b7ff494a3101de0ea8537efb0f",
+  "variants": [
+    {
+      "mode": "streaming",
+      "word_sha256": "aa8455659f34ed0b10f723e8cb2ac3fb08c22a4fbf2c8761e7fd7002a828ef71",
+      "all400_rows": true,
+      "all_final_charts": true,
+      "raw": {
+        "1": 116,
+        "2": 112,
+        "3": 118,
+        "4": 4,
+        "5": 226,
+        "8": 170
+      },
+      "owned": {
+        "1": 13,
+        "8": 16
+      },
+      "ordinary_counts": {
+        "INIT": 27,
+        "ADD": 2190,
+        "MOVE": 775,
+        "CLEAR": 27,
+        "SCALE": 252
+      },
+      "peak": 11,
+      "lifetimes": 27,
+      "crossings": 5,
+      "moving_lifetimes": 1,
+      "transported_boundary_rank": 4,
+      "negative_controls": [
+        "previous_adjoint omission rejected",
+        "final_cleanup omission rejected"
+      ]
+    },
+    {
+      "mode": "independent",
+      "word_sha256": "483b4e319d36661c11ad72c89556819f4a0d46b17ebb69a391d0ea73426c58ae",
+      "all400_rows": true,
+      "all_final_charts": true,
+      "raw": {
+        "1": 116,
+        "2": 112,
+        "3": 118,
+        "4": 4,
+        "5": 226,
+        "8": 170
+      },
+      "owned": {
+        "1": 14,
+        "8": 16
+      },
+      "ordinary_counts": {
+        "INIT": 30,
+        "ADD": 2190,
+        "MOVE": 776,
+        "CLEAR": 30,
+        "SCALE": 252
+      },
+      "peak": 12,
+      "lifetimes": 30,
+      "crossings": 6,
+      "moving_lifetimes": 4,
+      "transported_boundary_rank": 4,
+      "negative_controls": []
+    }
+  ],
+  "scope": "Root rational interpreter reused with new chronology hooks; no author builder/engine imported. Universal and global-rank arguments reviewed separately; no new kappa."
+}

@@ -1,0 +1,13 @@
+# Independent review of subwidth support scalarization
+
+**Accepted: universal all-field support theorem and native scalar-line corollary. No new kappa.** Reviewed proof SHA256:4c3e02a8b34bae6abf44634cd0eb91ca8bad497ce3b0c46cbf3e424eeda70837. Root reviewed the argument independently of Worker C, for @CubeJerry with OpenAI assistance. No human or formal-kernel review claimed.
+
+For each block row, an extension quotient of dimension less than V gives a nonzero kernel vector u. The actual own block of uA_i is u because the diagonal is I. Applying a linear functional with value1 at u to every source block preserves membership in B tensor k^V and produces a scalar B row. Zero blocks remain zero. Choices may differ between receivers; no common kernel, commuting algebra or nonsingular foreign block is needed. This proves support containment and every monotone support-objective consequence over an arbitrary field.
+
+The rowwise strengthening is the exact contrapositive: absence of any scalar B row within the given support makes the row quotient map injective. It is stronger than a global dimension hypothesis and correctly identifies the full-width image forced by an improved support pattern.
+
+For the native corollary, containment of a whole scalar quotient line gives B=C+<h> with B tensor k^V inside row(A)+C tensor k^V. The remaining quotient has dimension d−V<V. Scalarization then yields a fitting in the same one-direction scalar extension, so the admitted all-characteristic-two-field205 theorem applies. Support containment has the correct inequality direction. A historical space that contains the required scalar line gives the same rowwise quotient upper bound; the actual fitting need not use all its available directions. This is not a terminal-rank or physical-packet inference.
+
+The repetition-code identity example has delta=V and disproves replacing the strict inequality by <=. The zero matrix/B=0 example correctly shows why identity diagonal is essential. The admitted native two-patch tensor at d=2V and ell192 disproves extending the native strict threshold to equality. The graph{(z,Tz)} example has no full scalar-line tensor because its first projection is injective, while any such whole line contains a nonzero vector with first channel zero. It is only an abstract scope control, not a fitting.
+
+This is direct independent mathematical review. The accompanying author controls and their optimized repetitions are author reproduction; this review does not relabel them as a separately implemented finite verifier. The new generic two-direction-envelope package independently checks related strict-boundary and extension-field phenomena. All five foundations and both strict suppliers remain open.
