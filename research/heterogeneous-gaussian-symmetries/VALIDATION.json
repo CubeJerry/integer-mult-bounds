@@ -1,0 +1,41 @@
+{
+  "status": "primary-checks-and-independent-review-passed",
+  "python": "3.12.14",
+  "runs": [
+    {
+      "name": "normal",
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.245706726,
+      "stdout": "normal.stdout.json",
+      "stderr": "normal.stderr.txt"
+    },
+    {
+      "name": "optimized",
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.32526244,
+      "stdout": "optimized.stdout.json",
+      "stderr": "optimized.stderr.txt"
+    }
+  ],
+  "normal_optimized_identical": true,
+  "source_bytes_gate": "Three retained files checked against exact bytes, SHA256 and Git blobs; seven canonical provenance pins recorded separately.",
+  "independent_review": "REVIEW.md and INDEPENDENT-RESULT.json; updated square-source/shift qualifier independently accepted. Root final registered run recorded separately.",
+  "scope": "Exact normalized heterogeneous Gaussian theorem and fine-prime ideal-tile specialization, with explicit entrywise perturbation contract. No whole current caller or arbitrary-rank/runtime lower bound."
+}

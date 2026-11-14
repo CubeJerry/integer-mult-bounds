@@ -1,0 +1,343 @@
+{
+  "classification_permutations": 888560,
+  "controls": {
+    "arbitrary_small_diagonal_errors_destroy_symmetry": true,
+    "coarse_rounding_fails_gap": true,
+    "coarse_rounding_merges_axis_levels": true,
+    "degenerate_axis_rejected": true,
+    "equal_widths_allow_order_four": true,
+    "opposite_shifts_need_signed_swap": true,
+    "square_hull_midpoint_not_grid": true,
+    "zero_width_rejected": true
+  },
+  "exact_fixtures": [
+    {
+      "group_size": 2,
+      "maximum_order": 2,
+      "minimum_cycles": 1,
+      "name": "one_axis_two",
+      "permutations_examined": 2,
+      "q": [
+        "1/2"
+      ],
+      "sides": [
+        2
+      ],
+      "v": [
+        "1"
+      ]
+    },
+    {
+      "group_size": 1,
+      "maximum_order": 1,
+      "minimum_cycles": 3,
+      "name": "one_axis_shifted_three",
+      "permutations_examined": 6,
+      "q": [
+        "1/2"
+      ],
+      "sides": [
+        3
+      ],
+      "v": [
+        "3/2"
+      ]
+    },
+    {
+      "group_size": 8,
+      "maximum_order": 4,
+      "minimum_cycles": 1,
+      "name": "equal_width_swap",
+      "permutations_examined": 24,
+      "q": [
+        "1/2",
+        "1/2"
+      ],
+      "sides": [
+        2,
+        2
+      ],
+      "v": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "group_size": 4,
+      "maximum_order": 2,
+      "minimum_cycles": 2,
+      "name": "distinct_widths",
+      "permutations_examined": 24,
+      "q": [
+        "1/2",
+        "1/3"
+      ],
+      "sides": [
+        2,
+        2
+      ],
+      "v": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "group_size": 4,
+      "maximum_order": 2,
+      "minimum_cycles": 3,
+      "name": "equal_physical_sides_unequal_counts",
+      "permutations_examined": 720,
+      "q": [
+        "1/16",
+        "1/2"
+      ],
+      "sides": [
+        2,
+        3
+      ],
+      "v": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "group_size": 4,
+      "maximum_order": 2,
+      "minimum_cycles": 3,
+      "name": "equal_width_unequal_counts",
+      "permutations_examined": 720,
+      "q": [
+        "1/2",
+        "1/2"
+      ],
+      "sides": [
+        2,
+        3
+      ],
+      "v": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "group_size": 2,
+      "maximum_order": 2,
+      "minimum_cycles": 3,
+      "name": "opposite_shifts",
+      "permutations_examined": 24,
+      "q": [
+        "1/2",
+        "1/2"
+      ],
+      "sides": [
+        2,
+        2
+      ],
+      "v": [
+        "3/2",
+        "2/3"
+      ]
+    },
+    {
+      "group_size": 8,
+      "maximum_order": 2,
+      "minimum_cycles": 4,
+      "name": "three_distinct_widths",
+      "permutations_examined": 40320,
+      "q": [
+        "1/2",
+        "2/5",
+        "1/3"
+      ],
+      "sides": [
+        2,
+        2,
+        2
+      ],
+      "v": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "group_size": 2,
+      "maximum_order": 2,
+      "minimum_cycles": 4,
+      "name": "two_nonzero_shifts",
+      "permutations_examined": 40320,
+      "q": [
+        "1/2",
+        "2/5",
+        "1/3"
+      ],
+      "sides": [
+        2,
+        2,
+        2
+      ],
+      "v": [
+        "3/2",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "group_size": 4,
+      "maximum_order": 2,
+      "minimum_cycles": 4,
+      "name": "mixed_signed_class",
+      "permutations_examined": 40320,
+      "q": [
+        "1/2",
+        "1/2",
+        "1/3"
+      ],
+      "sides": [
+        2,
+        2,
+        2
+      ],
+      "v": [
+        "3/2",
+        "2/3",
+        "1"
+      ]
+    },
+    {
+      "group_size": 8,
+      "maximum_order": 2,
+      "minimum_cycles": 4,
+      "name": "axis_diagonal_metric_coincidence",
+      "permutations_examined": 40320,
+      "q": [
+        "1/2",
+        "1/3",
+        "1/6"
+      ],
+      "sides": [
+        2,
+        2,
+        2
+      ],
+      "v": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "group_size": 4,
+      "maximum_order": 2,
+      "minimum_cycles": 5,
+      "name": "all_nine_vertices_odd_reflections",
+      "permutations_examined": 362880,
+      "q": [
+        "1/2",
+        "1/3"
+      ],
+      "sides": [
+        3,
+        3
+      ],
+      "v": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "group_size": 2,
+      "maximum_order": 2,
+      "minimum_cycles": 6,
+      "name": "all_nine_vertices_one_zero_shift",
+      "permutations_examined": 362880,
+      "q": [
+        "1/2",
+        "1/3"
+      ],
+      "sides": [
+        3,
+        3
+      ],
+      "v": [
+        "1",
+        "3/2"
+      ]
+    }
+  ],
+  "independence": "No predecessor executable imported; rational entries and exhaustive vertex permutations.",
+  "inverse": {
+    "all_permutations": 720,
+    "group_size": 1,
+    "vertices": 6
+  },
+  "rounding": [
+    {
+      "bits": 12,
+      "entry_error": "1/10240",
+      "ideal_group_size": 8,
+      "name": "fine_unshifted",
+      "pair_gap": "4/135",
+      "permutations_examined_per_matrix": 40320,
+      "sides": [
+        2,
+        2,
+        2
+      ],
+      "stored_group_size": 8
+    },
+    {
+      "bits": 12,
+      "entry_error": "13/110592",
+      "ideal_group_size": 1,
+      "name": "fine_shifted",
+      "pair_gap": "7/144",
+      "permutations_examined_per_matrix": 720,
+      "sides": [
+        2,
+        3
+      ],
+      "stored_group_size": 1
+    },
+    {
+      "bits": 12,
+      "entry_error": "1073743873/13194139545600",
+      "ideal_group_size": 2,
+      "name": "tiny_shift_lost",
+      "pair_gap": "7/144",
+      "permutations_examined_per_matrix": 24,
+      "sides": [
+        2,
+        2
+      ],
+      "stored_group_size": 4
+    }
+  ],
+  "scope": "Finite corroboration supplements the universal proof; no runtime, source admission or kappa claim.",
+  "source_format_witness": {
+    "broad_gap_b0_one": "1/64",
+    "m": [
+      59,
+      58
+    ],
+    "narrow_gap_A_one": "32/1711",
+    "p": 2,
+    "primes": [
+      59,
+      29
+    ],
+    "r": 64,
+    "targets": [
+      64,
+      32
+    ]
+  },
+  "source_sha256": {
+    "PROOF.md": "7ce68fdc614b28df6133682ee2e82f661c2d373ceb645f24f4a93d76a9d0955c",
+    "inputs/FINE-PRIME-PADDING.md": "47d1b1b4df28aadda3cd6bdeb1fbc47290595e9208cd09c1a1f338520d33fdce",
+    "inputs/GAUGEFREE-INTERIORS.md": "a7fc34302a70f8453f877a6433ffe2776457bf37b5d8bb262afcb6b198a935fc",
+    "inputs/HOMOGENEOUS-ORBIT-SCALE.md": "3d86ae5437c3415c4f8a638dcb7c6fca3c3c332486fe13cff79d845e8fb56077",
+    "verify.py": "18214b9c995512b2ef33ceaaaba6f5fbf23eaae4ed40e77355b6edb3f06dbf51"
+  },
+  "status": "PASS_INDEPENDENT_HETEROGENEOUS_REVIEW"
+}
