@@ -1247,3 +1247,20 @@ is recorded, and scoped funding and rounding/tape PRs are reviewed without
 admission. Protected discovery continues; no new kappa, all five foundations
 retained, session active through 11:19:23 UTC. The resulting remote identity is
 recorded after confirmation. Ongoing, not PR-ready; no upstream PR submitted.
+
+## 2026-11-14-S011 — checkpoint9: all physical routes retain the rank gap
+
+Baseline `15b8ccf8f1a59fbbd1843898c0d62c3fb67a7e9f`, tree `f42de87386b50cc67e04d6417b44c73c459b2ab1`. C extends actual kernel/image normalization
+to owned turns, revisits and early termination; root independently reviews the
+proof and rational controls. Root removes public monotonicity with reflected
+rank potentials and a new own-facet arrival count. C independently checks the
+full argument, sharper intervals and three native sharpness/revisit words.
+The retained target requires M_owned+2D_public<=83 and historyrank>=ceil(28V/3).
+This enlarges the rigorously understood interface while allowing paid turns.
+No new kappa or discharged foundation is claimed.
+
+Protected discovery continues on prescribed-core codes. A's coupled cells and
+rebuilt front end, and B's paired parity layer, are under separate source review.
+Root is testing their cross-class composition. Session remains active through
+11:19:23 UTC. Remote identity is recorded only after confirmation; the branch
+remains ongoing and not PR-ready.

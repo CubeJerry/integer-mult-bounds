@@ -264,3 +264,18 @@ room is8.843518963022781...−31.5397783670854.../(m−1). A completed source mu
 implement the pairedI−G correction with authenticcurrenta, originalD and
 compatibleYreads. Root verifies several positive sufficient route envelopes,
 includingXB521/Y14 withfirstm81, but no actual compiler or strictsupplier yet.
+
+## S011 checkpoint9: arbitrary-route necessary conditions
+
+For every complete linear whole-record source on arbitrary nested public and
+owned routes admitted by the retained caller, let M_o count owned positive
+MOVEs and D_p public downward MOVEs. The sharp potential bound is
+Q_t>=222*7^t+M_o+(1+8^t-7^t)D_p. Normalized monotonicity makes
+M_o+c*D_p<E* necessary throughout the retained target interval, where
+c*=1.9850298539243356... and E*=82.79728598894742... . The negative finite-m
+correction remains. Since42c*>E*, M_o+2D_p<=83 and D_p<=41. Facet incidence
+gives sum ell<=194, forcing rank history>=ceil(28V/3) over every characteristic-
+two field and V. Total public-plus-owned downward occurrences number at least10.
+These are necessary conditions on a larger interface, not sufficient decoding
+or supplier claims. Exact statements and sharp native controls are in
+[the reviewed package](results/bit-all-route-rank-gap/ADMISSION.md).

@@ -1,0 +1,77 @@
+{
+  "author_code_imported": false,
+  "cells": [
+    {
+      "kernel_dimension": 4,
+      "name": "proper_termination",
+      "rank": 0,
+      "shape": [
+        0,
+        4
+      ],
+      "symbolic_columns": 7
+    },
+    {
+      "kernel_dimension": 2,
+      "name": "two_inputs_one_exit",
+      "rank": 2,
+      "shape": [
+        2,
+        4
+      ],
+      "symbolic_columns": 7
+    },
+    {
+      "kernel_dimension": 1,
+      "name": "same_lifetime_repeated_boundary",
+      "rank": 3,
+      "shape": [
+        4,
+        4
+      ],
+      "symbolic_columns": 7
+    },
+    {
+      "kernel_dimension": 0,
+      "name": "turn_birth_only",
+      "rank": 0,
+      "shape": [
+        2,
+        0
+      ],
+      "symbolic_columns": 3
+    },
+    {
+      "kernel_dimension": 0,
+      "name": "new_output_retains_old_input",
+      "rank": 2,
+      "shape": [
+        4,
+        2
+      ],
+      "symbolic_columns": 5
+    }
+  ],
+  "field": "Q; exact symbolic independent columns",
+  "negative_controls": [
+    "proper_termination:omitted_kernel_rejected",
+    "two_inputs_one_exit:omitted_kernel_rejected",
+    "same_lifetime_repeated_boundary:omitted_kernel_rejected",
+    "same_lifetime_repeated_boundary:free_birth_rejected",
+    "turn_birth_only:free_birth_rejected",
+    "new_output_retains_old_input:free_birth_rejected",
+    "collapse_ground_occurrences_to_first_rejected",
+    "collapse_ground_occurrences_to_last_rejected",
+    "arbitrary_Y_erasure_rejected"
+  ],
+  "new_kappa": null,
+  "proof_sha256": "4a354728308afa0d6f6926f5c64cfc8f7e13640ad9e54fb3930ebeba9de2c0a6",
+  "repeated_ground_example": {
+    "downward_occurrences": 2,
+    "history_x_rank": 4,
+    "one_owned_lifetime": true,
+    "width": 2
+  },
+  "status": "PASS_INDEPENDENT_RATIONAL_OWNED_ROUTE_CELLS",
+  "universal_review": "Reviewed occurrence-indexed rectangular cells, spatial induction, facet-MOVE injectivity and target-wide normalized monotonicity separately. Finite controls do not supply universal quantifiers."
+}

@@ -1,0 +1,152 @@
+{
+  "author_code_imported": false,
+  "controls": [
+    "charge2 instead of sharp c is false",
+    "weighted count83 is not excluded",
+    "collapse same record to first visit fails",
+    "collapse same record to last visit fails",
+    "Y own-facet upward anchor may be absent"
+  ],
+  "input_columns": 222,
+  "native_words": {
+    "same_public_record_repeated_facet": {
+      "X_down": 2,
+      "Y_down": 0,
+      "down": [
+        {
+          "destination": 547,
+          "event": 111,
+          "field": 0,
+          "value": 1
+        },
+        {
+          "destination": 547,
+          "event": 116,
+          "field": 0,
+          "value": 2
+        }
+      ],
+      "facet_departures": 0,
+      "profile": {
+        "1": 4,
+        "7": 222
+      },
+      "public_down": 2,
+      "sha256": "01d55cdca9f087a6883d2954c071115411c6067cd41074c7aec5cdeee5b59d1d",
+      "upward_own_Y_anchors": 111
+    },
+    "sharp_X_public_descent": {
+      "X_down": 1,
+      "Y_down": 0,
+      "down": [
+        {
+          "destination": 0,
+          "event": 0,
+          "field": 0,
+          "value": 1
+        }
+      ],
+      "facet_departures": 0,
+      "profile": {
+        "1": 1,
+        "7": 221,
+        "8": 1
+      },
+      "public_down": 1,
+      "sha256": "451247c9b17ea6e915540ea0c6d48db5349ec10088644ddfe828a6735da23a52",
+      "upward_own_Y_anchors": 111
+    },
+    "sharp_Y_public_descent": {
+      "X_down": 0,
+      "Y_down": 1,
+      "down": [
+        {
+          "destination": 525,
+          "event": 113,
+          "field": 111,
+          "value": 2596148429267413814265248164610049
+        }
+      ],
+      "facet_departures": 0,
+      "profile": {
+        "1": 1,
+        "7": 221,
+        "8": 1
+      },
+      "public_down": 1,
+      "sha256": "d5e257154b86966837325834b94d3b51843f9878c617399bc7b6ea4df3d9f9e5",
+      "upward_own_Y_anchors": 110
+    }
+  },
+  "numerical": {
+    "E": [
+      "23791213420098685094224482275962564736310867442345328281/287342913912354160942190067590682971928513585409425408",
+      "47582426840197370188448964551925129472621734884690659189/574685827824708321884380135181365943857027170818850816"
+    ],
+    "M_plus_2D_at_most": 83,
+    "c": [
+      "190128087476544441973575484165777397501294941214903797/95780971304118053647396689196894323976171195136475136",
+      "190128087476544441973575484165777397501294941214903799/95780971304118053647396689196894323976171195136475136"
+    ],
+    "caps_owned_by_public_down": [
+      82,
+      80,
+      78,
+      76,
+      74,
+      72,
+      70,
+      68,
+      66,
+      64,
+      62,
+      60,
+      58,
+      56,
+      55,
+      53,
+      51,
+      49,
+      47,
+      45,
+      43,
+      41,
+      39,
+      37,
+      35,
+      33,
+      31,
+      29,
+      27,
+      25,
+      23,
+      21,
+      19,
+      17,
+      15,
+      13,
+      11,
+      9,
+      7,
+      5,
+      3,
+      1
+    ],
+    "dyadic_bits": 176,
+    "ell_at_most": 194,
+    "potential_equalities": 18,
+    "strict_potential_edges": 126
+  },
+  "reviewed_files": {
+    "MANIFEST.json": "a1d6b2371dd2779b67dbd99cff2439017de368a14b3a4f60ed326e5d9fcf8533",
+    "PROOF.md": "9ad275dbbee218bb1ea50bf76438b1f1805c56784afe1715f2c30f6196b82c82",
+    "REPRODUCE.md": "37db5cacea7b0dc8099ea5ff5eda70608c7107da4817e04f5e516b51e3008865",
+    "RESULT-OPTIMIZED.json": "bf09557b69325a6ac1ae89c4b9cfba67da01d5da742cb1d087a5a02b0e60e674",
+    "RESULT.json": "bf09557b69325a6ac1ae89c4b9cfba67da01d5da742cb1d087a5a02b0e60e674",
+    "check.py": "67adc953d5132e70f57d01fe95a44534e675388363097faf671ac8436b11609a",
+    "engine.py": "2a8cc8c05a1d17bd65cc6feb9df6fe36fef7a8a18ecbd27dd2228aa7c69b978d",
+    "native_controls.py": "5138f5e0790f8f9779f036e6af70bb63d1986cc7c5a2cfe98255e82cf6bb5eda"
+  },
+  "scope": "Universal argument independently read; finite exact controls; retained-caller conditional rank floor; no new kappa.",
+  "status": "PASS_INDEPENDENT_ALL_ROUTE_RANK_GAP_REVIEW"
+}

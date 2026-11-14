@@ -197,3 +197,16 @@ byte-identically using retained independent engines; the adapter is not claimed
 to be a third implementation. The mid-session upstream review is selective and
 read-only; no external package is admitted. CHECKPOINT8-VALIDATION records installed
 checks, manifests and integrity of the prior scientific evidence.
+
+## S011 checkpoint9 checks
+
+C's owned-route theorem passes root review of every universal step and five
+independent rational symbolic cells with nine controls. Root's all-route
+extension passes C's written review, fresh2^-176 intervals inside the author's
+2^-160 intervals, all42 integer caps and144 potential-edge checks. All three
+native sharpness/revisit words receive independent222-column rational-chart
+and endpoint replay. Author and reviewer normal/-O receipts agree. Universal
+arguments establish all fields, widths and finite routes; the fitting corollary
+is specifically characteristic two. The scientific ledger and protected
+discovery block remain unchanged. CHECKPOINT9-VALIDATION records installed
+reproduction and manifest checks.

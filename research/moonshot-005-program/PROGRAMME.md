@@ -273,3 +273,16 @@ The [omitted-line Gram seed](results/complex-omitted-line-gram/ADMISSION.md)
 realizes both mode directions with originalD restored and a coherent reciprocal
 invariant. Actual compiler construction is now the complex frontier; favorable
 movement envelopes do not prove its existence.
+
+## S011 checkpoint9: the rank gap survives all nested routes
+
+The [owned occurrence theorem](results/bit-owned-route-normalization/ADMISSION.md)
+handles turns, revisits and early retirement without free history inputs.
+The [all-route extension](results/bit-all-route-rank-gap/ADMISSION.md) removes
+public monotonicity too. Sharp reflected rank potentials charge each public
+descent by c*=1.985029853924... at the target. Complete-caller composition gives
+M_owned+2D_public<=83, sum ell<=194 and rank history>=ceil(28V/3). Constructive
+work may use paid public turns, but must still produce that larger history code
+and every actual read. Both suppliers and all five foundations remain open.
+New coupled BIT cells and a paired complex layer are under separate source
+review; favorable partial bills do not complete the target theorem.

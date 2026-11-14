@@ -266,3 +266,14 @@ an exact paired invariant, 302 phase maps and complete invoices. A precise
 conditional compiler interface isolates the missing whole-source construction.
 Its favorable limiting room of 8.8435 does not establish existence of that
 compiler. No new kappa; all foundations and strict supplier gaps remain explicit.
+
+### Arbitrary routes with a sharp public-excursion price
+
+The [all-route theorem](results/bit-all-route-rank-gap/ADMISSION.md) extends the
+programme beyond monotone original records. Actual boundary occurrences retain
+unknown Y and every kernel/image equation. Reflected potentials give the sharp
+charge1+8^t-7^t per public descent. Complete-caller and facet accounting then
+prove a characteristic-two historical-rank floorceil(28V/3) for arbitrary
+nested public and owned routes. Separate proof review, independent intervals
+and literal native sharpness words support this structural contribution.
+It is not a complete supplier or multiplication theorem. **No new kappa.**

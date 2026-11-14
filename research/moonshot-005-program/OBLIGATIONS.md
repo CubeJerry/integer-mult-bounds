@@ -160,3 +160,16 @@ is being integrated separately; revised source retention remains active.
 | OMITTED-LINE-GRAM | PROVED actual400-input seed, allD restored,16rank8 mode transfers, hostedR+Ltranspose=0. | Full pairedoffdiagonal compiler and all target values. |
 | PAIRED-GLOBAL-SLOT | CONDITIONALLY PROVED source composition identity with explicit cochart/cache/read premises. | Supply one actual word within8.8435189630 limiting movementroom. |
 | UPSTREAM-Y-LAW5 | Original#7557 neutral-period statement WITHDRAWN by author. Never a programme dependency. | Corrected scoped hypotheses only; no freeL-side realization. |
+
+## S011 checkpoint9 transitions
+
+| ID | Reviewed proposition and status | Remaining construction |
+|---|---|---|
+| OWNED-ROUTE-OCCURRENCES | PROVED all-field rank(G_x)<=D_owned V for arbitrary owned turns/revisits/termination; public routes monotone. | No gap within scope; public extension separately below. |
+| ALL-ROUTE-NORMALIZATION | PROVED all-field occurrence/image/Y normalization for arbitrary nested public and owned trajectories, rank(G_x)<=(D_public+D_owned)V. | Useful actual histories and chronological reads. |
+| SHARP-PUBLIC-EXCURSION | PROVED Q_t>=222*7^t+M_owned+(1+8^t-7^t)D_public; two native words attain the charge. | Sharpness words leave110 targets incomplete. |
+| ALL-ROUTE-TARGET-RANK | CONDITIONALLY PROVED retained-caller weighted count<=83, sum ell<=194 and all-block characteristic-two rank>=ceil(28V/3). | Strict suppliers, complete endpoints, all costs and foundations. |
+
+Earlier monotone theorems keep their original hypotheses. Their public-turn
+extension is now proved separately, not obtained by weakening those hypotheses.
+Source pins and independent reviews are in the two new admission records.

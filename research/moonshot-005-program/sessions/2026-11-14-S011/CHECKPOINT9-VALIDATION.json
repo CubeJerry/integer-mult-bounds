@@ -1,0 +1,45 @@
+{
+  "status": "PASS_S011_CHECKPOINT9_INTEGRATION",
+  "baseline_sha": "15b8ccf8f1a59fbbd1843898c0d62c3fb67a7e9f",
+  "confirmed_parent_tree": "f42de87386b50cc67e04d6417b44c73c459b2ab1",
+  "time_utc": "2026-11-14 04:47:38 UTC",
+  "packages": [
+    "bit-owned-route-normalization",
+    "bit-all-route-rank-gap"
+  ],
+  "manifest_entry_checks": 46,
+  "old_scientific_entries": 2518,
+  "old_present_unchanged": 2517,
+  "known_missing_unchanged": [
+    {
+      "path": "results/four-call-dyadic-entry/review/replay.log",
+      "sha256": "e63a2e88a6d947210bfd4a0d216b036a3421500048a300461e8b17d69da3dcca",
+      "bytes": 1607
+    }
+  ],
+  "new_scientific_entries": 29,
+  "total_scientific_entries": 2547,
+  "installed_exact_matches": [
+    {
+      "installed": "CP9-OWNED-AUTHOR.json",
+      "frozen": "bit-owned-route-normalization/author/RESULT.json"
+    },
+    {
+      "installed": "CP9-OWNED-REVIEW.json",
+      "frozen": "bit-owned-route-normalization/review-root/RESULT.json"
+    },
+    {
+      "installed": "CP9-ALL-AUTHOR.json",
+      "frozen": "bit-all-route-rank-gap/author/RESULT.json"
+    },
+    {
+      "installed": "CP9-ALL-REVIEW.json",
+      "frozen": "bit-all-route-rank-gap/review-c/RESULT.json"
+    }
+  ],
+  "native_three_words_independently_reproduced": true,
+  "session_log_append_only": true,
+  "protected_discovery_policy_unchanged": true,
+  "new_kappa": null,
+  "session_continues": true
+}
