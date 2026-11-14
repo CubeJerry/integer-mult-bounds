@@ -26,8 +26,8 @@ def prepare(row,data):
  refs=list(dict.fromkeys(re.findall(r'(?<![A-Za-z0-9])#\d+',row['body'])))[:2]
  prior=' Predecessors: '+', '.join(refs)+'.' if refs else ' Exact predecessor pins are linked below.'
  body=('## Result\n'+claim+'\n\n## Checks\n`python3 -B scripts/research_package.py --package research/'+row['package']+'`\nIndependent review and negative controls passed. Base `e54523517d0f03e58352e647c403a5af3e525a57`.'+prior+'\n\n## Limits and credit\nNo new kappa; all five full assumptions remain. '+limit+' Prepared for @CubeJerry; credit to cited predecessors and substantial OpenAI assistance.\n\n[Full result, novelty, exact pins, checks and PR draft]('+row['description_url']+')')
- url=row['compare_url']+'?'+urllib.parse.urlencode({'expand':'1','title':row['title'],'body':body})
- assert urllib.parse.parse_qs(urllib.parse.urlsplit(url).query)=={'expand':['1'],'title':[row['title']],'body':[body]}
+ url=row['compare_url']+'?'+urllib.parse.urlencode({'quick_pull':'1','title':row['title'],'body':body})
+ assert urllib.parse.parse_qs(urllib.parse.urlsplit(url).query)=={'quick_pull':['1'],'title':[row['title']],'body':[body]}
  row.update(short_pr_body=body,short_prefilled_url=url,short_prefill_chars=len(url),short_prefill_validation={'encoding':'urllib.parse.urlencode exactly once; exact query roundtrip','target':'CrocSwap/main...CubeJerry:'+row['branch'],'authenticated_form_rendered':False})
  return row
 
@@ -36,7 +36,7 @@ def check(row):
  with urllib.request.urlopen(req,timeout=30) as response:
   raw=response.read().decode();parsed=urllib.parse.urlsplit(response.url);q=urllib.parse.parse_qs(parsed.query)
   assert response.status==200 and row['branch'] in raw
-  assert q['title']==[row['title']] and q['body']==[row['short_pr_body']]
+  assert q['quick_pull']==['1'] and q['title']==[row['title']] and q['body']==[row['short_pr_body']]
   assert parsed.path.endswith('/compare/main...CubeJerry:'+row['branch'])
   row['short_prefill_validation'].update(http_status=response.status,branch_seen=True,redirect_query_preserved=True,html_sha256=hashlib.sha256(raw.encode()).hexdigest())
  return row

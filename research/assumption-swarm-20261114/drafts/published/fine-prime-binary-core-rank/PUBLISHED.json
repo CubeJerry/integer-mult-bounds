@@ -1,0 +1,23 @@
+{
+  "package": "fine-prime-binary-core-rank",
+  "branch": "research/fine-prime-binary-core-rank-20261114",
+  "remote_commit": "da06a3d10e06870a0279e33dd5056ded8d7e7a38",
+  "local_commit": "536916e32f6aae43e694de78172fe60af0ed0293",
+  "tree": "a90ac44b0d9ed81576cb61e9d9b9a6c48b0f263a",
+  "title": "Remove the generic-parameter premise for all-order Stein-rank bounds at exact fine-prime narrow-core widths",
+  "compare_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/fine-prime-binary-core-rank-20261114",
+  "description_url": "https://github.com/CubeJerry/integer-mult-bounds/blob/da06a3d10e06870a0279e33dd5056ded8d7e7a38/research/fine-prime-binary-core-rank/PR-DESCRIPTION.md",
+  "short_pr_body": "## Result\nRemove genericity for exact fine-prime binary narrow cores: every order and inverse has rank at least min(2 ceil((N+3)/5),s_min-1), using bounded-degree CRT separation.\n\n## Checks\n`python3 -B scripts/research_package.py --package research/fine-prime-binary-core-rank`\nIndependent review and negative controls passed. Base `e54523517d0f03e58352e647c403a5af3e525a57`. Exact predecessor pins are linked below.\n\n## Limits and credit\nNo new kappa; all five full assumptions remain. Both shift and chirp are removed; physical/rounded rank, minor magnitude and full costs remain open. Prepared for @CubeJerry; credit to cited predecessors and substantial OpenAI assistance.\n\n[Full result, novelty, exact pins, checks and PR draft](https://github.com/CubeJerry/integer-mult-bounds/blob/da06a3d10e06870a0279e33dd5056ded8d7e7a38/research/fine-prime-binary-core-rank/PR-DESCRIPTION.md)",
+  "short_prefilled_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/fine-prime-binary-core-rank-20261114?quick_pull=1&title=Remove+the+generic-parameter+premise+for+all-order+Stein-rank+bounds+at+exact+fine-prime+narrow-core+widths&body=%23%23+Result%0ARemove+genericity+for+exact+fine-prime+binary+narrow+cores%3A+every+order+and+inverse+has+rank+at+least+min%282+ceil%28%28N%2B3%29%2F5%29%2Cs_min-1%29%2C+using+bounded-degree+CRT+separation.%0A%0A%23%23+Checks%0A%60python3+-B+scripts%2Fresearch_package.py+--package+research%2Ffine-prime-binary-core-rank%60%0AIndependent+review+and+negative+controls+passed.+Base+%60e54523517d0f03e58352e647c403a5af3e525a57%60.+Exact+predecessor+pins+are+linked+below.%0A%0A%23%23+Limits+and+credit%0ANo+new+kappa%3B+all+five+full+assumptions+remain.+Both+shift+and+chirp+are+removed%3B+physical%2Frounded+rank%2C+minor+magnitude+and+full+costs+remain+open.+Prepared+for+%40CubeJerry%3B+credit+to+cited+predecessors+and+substantial+OpenAI+assistance.%0A%0A%5BFull+result%2C+novelty%2C+exact+pins%2C+checks+and+PR+draft%5D%28https%3A%2F%2Fgithub.com%2FCubeJerry%2Finteger-mult-bounds%2Fblob%2Fda06a3d10e06870a0279e33dd5056ded8d7e7a38%2Fresearch%2Ffine-prime-binary-core-rank%2FPR-DESCRIPTION.md%29",
+  "short_prefill_chars": 1247,
+  "short_prefill_validation": {
+    "encoding": "urllib.parse.urlencode exactly once; exact query roundtrip",
+    "target": "CrocSwap/main...CubeJerry:research/fine-prime-binary-core-rank-20261114",
+    "authenticated_form_rendered": false,
+    "documentation": "https://docs.github.com/en/pull-requests/reference/using-query-parameters-to-create-a-pull-request",
+    "http_status": 200,
+    "branch_seen": true,
+    "redirect_query_preserved": true,
+    "html_sha256": "3406c4c9578c0877afded030be50f3dd6c917639421b313f2835a038947d8284"
+  }
+}

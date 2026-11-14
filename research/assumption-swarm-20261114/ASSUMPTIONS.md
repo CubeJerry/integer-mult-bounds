@@ -89,3 +89,7 @@ All-record fixed-ABI CRT key emission now composes literally with the per-wire c
 ## Wave10 opportunity map
 
 A9 removes the ordering restriction for a generic binary Gaussian family, including inverses, but not the prescribed fine-prime sequence. A10 now tests exact pointwise nonvanishing for a phase-removed core, retaining the missing physical-gauge and rounded-error interfaces. B9 removes supplied-header construction from the fixed-ABI current key caller. Actual numerical result production remains a separate provider; B10 must establish real allocator/owner correspondence before a literal arithmetic kernel counts as progress. All five full assumptions remain as stated above.
+
+## Wave11/12 opportunity update
+
+A10 removes genericity at exact unshifted fine-prime cores; A11 retains physical phase/chirp at a positive density of selected adjacent pairs. Neither gives a rounding margin, periodic/full-tile rank transfer or complete analytic recovery. A12 tests a universal g2 source-bound quantitative margin at deterministic extremal phases. B10 addresses one actual numeric macro with source/allocator correspondence and explicit mixed tariffs; grants, bounded metadata control, other arithmetic and whole producer remain premises. Compiler reduction and old setup-precision audits stay closed as superseded, without duplicate PRs.

@@ -71,3 +71,11 @@ A9 proposes a material generic all-order rank lower bound2ceil((T+3)/5), with ro
 A9 published085b30f8e036f69421d5953d0993ac4974ec3f24,tree547ecf1409e2c3738218cd7678c931c4110bda43,20 package additions. B9 published4c7cee36538bb48dc2598806af2ca42554fa63c0,tree3c6911cad4953c87c38dd2062b5ccb8476785ce3,82 package additions. Remote full trees equal gated local commits; exact canonical parents and package-only diffs checked. A9 four registered commands; B9 five,56 source origins,57 declared export inputs. All20 concise prefilled URLs passedHTTP200 and exact query/branch checks.
 
 A10 proposes pointwise all-order narrow-core rank floor min(2ceil((2^g+3)/5),s_min-1), using bounded-degree CRT injection and a classical transcendence theorem; shifted/chirped/rounded/physical matrices are explicitly excluded. C independently reviews. B10 first audits a useful actual divmod allocation/caller boundary, with a stop if only a generic standalone routine can be delivered. No new kappa and no full foundational assumption discharged.
+
+## Checkpoint13: twenty-two verified packages; physical phases and actual numerical binding
+
+A10 published da06a3d10e06870a0279e33dd5056ded8d7e7a38,26 added files. A11 published0a6315b71a47b37a4faa2a4f555c5bc4e9e87811,27 added files. Canonical-parent, full-tree equality and package-only remote diff checks passed. Four canonical commands and separate independent review for each. A11 retains physical phase/chirp at selected pairs and proves at least s-1-delta-2r^2-r good starting indices; it is not about distinct phase cells, rounded coefficients or the full source.
+
+All22 concise links use documented quick_pull=1, urllib.parse.urlencode once, HTTP200, exact query roundtrip and intended branch checked. Authenticated form rendering was not tested; no upstream PR submitted. Complete PR drafts remain in immutable published packages; recovery link metadata is compacted.
+
+B10 author checks cover a336150-location68-role literal divider at the actual sixth current-leaf divmod, six full roundtrips and a64-slot weak simulation. Independent C review, root corrections and final gates remain open; unpublished. A12 starts a bounded g2 quantitative margin investigation, narrowed to an extremal-phase selector after initial symbolic factorization; no verified result. All five assumptions and selected kappa unchanged.

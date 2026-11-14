@@ -1,0 +1,1 @@
+Recovery snapshot only. Author-checked candidate; independent review and final proof wording/metadata remain pending. No publication. Reconstruct retained inputs from exact published B9 commit4c7cee36538bb48dc2598806af2ca42554fa63c0. Root identified wording clarifications in primitive byte preservation and the separate metadata tariff.
