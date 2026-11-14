@@ -1,0 +1,42 @@
+{
+  "status": "primary-checks-and-independent-review-passed",
+  "python": "3.12.14",
+  "runs": [
+    {
+      "name": "normal",
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 23.372,
+      "stdout": "normal.stdout.json",
+      "stderr": "normal.stderr.txt"
+    },
+    {
+      "name": "optimized",
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 23.615,
+      "stdout": "optimized.stdout.json",
+      "stderr": "optimized.stderr.txt"
+    }
+  ],
+  "normal_optimized_identical": true,
+  "separate_complete_source_archive_check": "SOURCE-ARCHIVE-CHECK.json",
+  "source_bytes_gate": "36 exact immediate C4 source/proof/fixture files plus authenticated SOURCE-EVENT witness; original nested pins unchanged.",
+  "independent_review": "DONOR-REVIEW.md; independent static/algebra checker and exact archive extraction, with matching normal/optimized light receipts. Root publication replays recorded separately.",
+  "scope": "Actual donor MOVE28039 and unchanged first SUB with literal INIT. Supplied pre-MOVE fixture; two unrelated ADDs remain paid continuations. No later rank-two admission."
+}

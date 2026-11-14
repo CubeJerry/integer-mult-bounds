@@ -1,0 +1,156 @@
+{
+  "algebra": {
+    "all_512_columns": true,
+    "cnot_gates_each_direction": 21,
+    "endpoint_witnesses": [
+      {
+        "complete_components": [
+          [
+            -1,
+            -1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "input_real": -2,
+        "native_address": 129,
+        "packed_address": 258,
+        "unrepresentable_first_phase": 2,
+        "width": 2
+      },
+      {
+        "complete_components": [
+          [
+            -2,
+            -2
+          ],
+          [
+            2,
+            -2
+          ]
+        ],
+        "input_real": -4,
+        "native_address": 129,
+        "packed_address": 258,
+        "unrepresentable_first_phase": 4,
+        "width": 3
+      },
+      {
+        "complete_components": [
+          [
+            -16,
+            -16
+          ],
+          [
+            16,
+            -16
+          ]
+        ],
+        "input_real": -32,
+        "native_address": 129,
+        "packed_address": 258,
+        "unrepresentable_first_phase": 32,
+        "width": 6
+      },
+      {
+        "complete_components": [
+          [
+            -536870912,
+            -536870912
+          ],
+          [
+            536870912,
+            -536870912
+          ]
+        ],
+        "input_real": -1073741824,
+        "native_address": 129,
+        "packed_address": 258,
+        "unrepresentable_first_phase": 1073741824,
+        "width": 31
+      }
+    ],
+    "matrix_rows": [
+      3,
+      4,
+      8,
+      17,
+      32,
+      64,
+      128,
+      1,
+      256
+    ],
+    "quadratic_rows": [
+      128,
+      0,
+      0,
+      128,
+      0,
+      0,
+      0,
+      9,
+      0
+    ]
+  },
+  "factor_and_scan_linkage": {
+    "all_native_instructions_relocated": 75391,
+    "exact_scan_states": 155,
+    "factor_instructions_checked": 75326,
+    "native_commit_pc": 75357,
+    "native_header_readonly": true,
+    "no_original_DATA_write_before_commit": true
+  },
+  "joined_graph": {
+    "all_edges_retained_after_pruning": true,
+    "deleted_return_edge_detected": true,
+    "exact_cost_envelopes": true,
+    "joined_states": 71524,
+    "producer_ports": [
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      43
+    ],
+    "producer_states": 66597,
+    "public_donor_write_only_after_adapter_return": true,
+    "retained_C4_states": 4927,
+    "unchanged_C4_rules": true
+  },
+  "producer_sha256": "e183c38866223a8b896c8210f65e6531f89b0836b88541cb45b27e7ebc672c2f",
+  "scope": "Independent algebra, exact instruction/port/scan linkage, pruning and costs; no full native packet replay.",
+  "status": "PASS",
+  "wrong_frame_binding_rejected": true
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "command": "verify.source_check(PINNED_SELECTED_ARCHIVE)",
+  "source_binding": {
+    "exact_event": [
+      "MOVE",
+      1349,
+      3,
+      601,
+      false
+    ],
+    "index": 28039,
+    "frames": {
+      "3": [],
+      "601": [
+        137
+      ]
+    },
+    "pre_MOVE_frames": {
+      "1349": 3,
+      "1526": 601
+    },
+    "two_unimplemented_paid_events": [
+      28038,
+      28040
+    ],
+    "complete_archive_reextracted_this_run": true,
+    "binding_controls": [
+      "wrong-frame239",
+      "wrong-source-owner",
+      "stale-pre-MOVE-frame",
+      "deleted-unrelated-chronology"
+    ]
+  },
+  "prefix_frame_events_checked": 28039,
+  "no_literal_contact_replay_in_this_command": true
+}
