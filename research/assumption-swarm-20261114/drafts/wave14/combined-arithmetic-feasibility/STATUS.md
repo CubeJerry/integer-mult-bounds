@@ -1,3 +1,3 @@
-# Unverified combined arithmetic construction
+# Superseded by verified combined arithmetic publication
 
-Approved09:29UTC after saved feasibility/source audit. No new graph/joined-source result is admitted by this checkpoint. Author:worker-b/wave12; complementary source/count review:worker-a/review-combined-arithmetic; graph/owner review:worker-c. Candidate10:35UTC; publication decision11:30UTC.
+The completed B12 package is published at ee6005fe241ab947e511fe9f6d86f5f4fa58478b after author and two complementary reviews, all12 checks under8 bounded entries, export/committed-byte gates and remote checks. This old feasibility snapshot remains only as historical provenance. Use the immutable research/all-current-crt-arithmetic package and final HANDOFF.md.

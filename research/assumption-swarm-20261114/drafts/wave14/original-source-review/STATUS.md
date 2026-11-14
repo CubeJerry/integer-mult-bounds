@@ -1,3 +1,3 @@
-# Verified original-source milestone; combined replacement still pending
+# Completed review integrated in verified publication
 
-Separate original-source-only check:14cases/6189 outer calls/4519473 Word actions. Independent action-depth and outermost interval bills agree; inclusive nested subtraction overcounts. This snapshot does not admit the unfinished B12 graph/binder join. Exact source pins are inside the checker.
+This original-source milestone became the complementary source/count/cost review in published ee6005fe241ab947e511fe9f6d86f5f4fa58478b. Its independent14-case/6189-call evidence is preserved in that package alongside the separate graph/owner review. This earlier snapshot is historical, not a standalone full-package admission.

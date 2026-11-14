@@ -539,5 +539,25 @@
       "redirect_query_preserved": true,
       "html_sha256": "e54eff7c02efb3c2aec5d3c02aaf6367cbf688fb6e58e01503d0b12dae2ed13f"
     }
+  },
+  {
+    "package": "all-current-crt-arithmetic",
+    "branch": "research/all-current-crt-arithmetic-20261114",
+    "remote_commit": "ee6005fe241ab947e511fe9f6d86f5f4fa58478b",
+    "tree": "a020dc2b1fb80fcbf17007c233aa601bd40bbc78",
+    "local_commit": "de8b2f4261f98c00c555d744c827c28a18ff6e49",
+    "title": "Close the current CRT raw arithmetic interface with literal comparison, addition, subtraction and division",
+    "compare_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/all-current-crt-arithmetic-20261114",
+    "description_url": "https://github.com/CubeJerry/integer-mult-bounds/blob/ee6005fe241ab947e511fe9f6d86f5f4fa58478b/research/all-current-crt-arithmetic/PR-DESCRIPTION.md",
+    "short_prefilled_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/all-current-crt-arithmetic-20261114?quick_pull=1&title=Close+the+current+CRT+raw+arithmetic+interface+with+literal+comparison%2C+addition%2C+subtraction+and+division&body=%23%23+Result%0AClose+every+raw+compare%2Fadd%2Fsubtract%2Fdivide+call+of+the+admitted+current+CRT+producer%2C+with+literal+aliases%2C+finite+flags%2C+owners+and+a+proved+quartic+subset+bill.%0A%0A%23%23+Checks%0A%60python3+-B+scripts%2Fresearch_package.py+--package+research%2Fall-current-crt-arithmetic%60%0AIndependent+review+and+negative+controls+passed.+Base+%60e54523517d0f03e58352e647c403a5af3e525a57%60.+Predecessors%3A+%235053%2C+%235219.%0A%0A%23%23+Limits+and+credit%0ANo+new+kappa%3B+all+five+full+assumptions+remain.+Word+lifecycle%2C+higher+controllers%2C+owner+metadata%2C+grants+and+a+common+whole-caller+tariff+remain+open.+Prepared+for+%40CubeJerry%3B+credit+to+cited+predecessors+and+substantial+OpenAI+assistance.%0A%0A%5BFull+result%2C+novelty%2C+exact+pins%2C+checks+and+PR+draft%5D%28https%3A%2F%2Fgithub.com%2FCubeJerry%2Finteger-mult-bounds%2Fblob%2Fee6005fe241ab947e511fe9f6d86f5f4fa58478b%2Fresearch%2Fall-current-crt-arithmetic%2FPR-DESCRIPTION.md%29",
+    "short_prefill_validation": {
+      "encoding": "urllib.parse.urlencode exactly once; exact query roundtrip",
+      "target": "CrocSwap/main...CubeJerry:research/all-current-crt-arithmetic-20261114",
+      "authenticated_form_rendered": false,
+      "http_status": 200,
+      "branch_seen": true,
+      "redirect_query_preserved": true,
+      "html_sha256": "4fed22881c8a691889d2a44cfb569438ae6be3d12005db3beed256e4ac1fd833"
+    }
   }
 ]

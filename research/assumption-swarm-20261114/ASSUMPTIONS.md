@@ -109,3 +109,9 @@ The four-call encoded extremal coefficient adapter has passed author and indepen
 ## Published extremal table construction
 
 A13 is now published8df9a7c57aaf87873556867f96658c2474518238 after four registered executions, exact origin/nested-runtime checks and a six-input export. The previously conditional *local* entry-table premise in A12 is supplied under the retained scalar/runtime and source-admission contracts. All five full foundational assumptions remain. The next useful analytic target must bind actual selector/table use into a complete caller or establish new larger-dimensional margins; it must not repeat isolated exponential construction or silently extend the g2 box theorem past the proved g3 obstruction. No new such speculative task is allocated in the final phase.
+
+## Final verified boundary after all raw arithmetic providers
+
+B12 published ee6005fe241ab947e511fe9f6d86f5f4fa58478b closes all actual raw compare/add/subtract/divide calls at the exact admitted current numerical producer. It preserves aliased heads, finite flags, one/two-output ownership and complete history/meter accounting; literal subset<2^16(P+2)^4. Word lifecycle/higher controllers, encoded metadata, grants and a common caller tariff remain. The general numerical P theorem does not change the fixed13-bit payload boundary. All27 contributions retain the original five full assumptions and complete selected kappa.
+
+NEXT-OBLIGATIONS.md gives exact source-pinned Word/template/head, metadata and grant/tariff successor boundaries. Its guide allocated-cell versus terminator-access distinction is a future grant interface, not a claimed error in the old allocated-cap theorem. No further theorem is asserted by the consolidation.

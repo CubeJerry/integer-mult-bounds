@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_AGGREGATE_CHECK_PASS",
+  "status": "PASS27_VERIFIED_PUBLICATION_TREES",
   "canonical_base": "e54523517d0f03e58352e647c403a5af3e525a57",
   "scope": "Each current publication worktree matches its individually verified immutable remote tree; every diff adds only its own package. Final fresh remote ref check is separate.",
   "contributions": [
@@ -288,6 +288,18 @@
       "whole_tree_matches_published": true,
       "only_intended_package_additions": true,
       "tracked_worktree_clean": true
+    },
+    {
+      "package": "all-current-crt-arithmetic",
+      "remote_commit": "ee6005fe241ab947e511fe9f6d86f5f4fa58478b",
+      "tree": "a020dc2b1fb80fcbf17007c233aa601bd40bbc78",
+      "local_commit": "de8b2f4261f98c00c555d744c827c28a18ff6e49",
+      "worktree": "pub-all-arithmetic",
+      "added_files": 131,
+      "whole_tree_matches_published": true,
+      "only_intended_package_additions": true,
+      "tracked_worktree_clean": true
     }
-  ]
+  ],
+  "final_remote_evidence": "publication-review preserves independent26-ref audit; all-arithmetic-remote.json records final root ref/tree/parent/package-only check."
 }
