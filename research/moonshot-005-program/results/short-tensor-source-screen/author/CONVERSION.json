@@ -1,0 +1,71 @@
+{
+  "counts": {
+    "COUPLED": 1,
+    "IDLE": 2,
+    "QUERY": 2,
+    "SCALE": 4
+  },
+  "events": [
+    [
+      "SCALE",
+      1,
+      "1/2"
+    ],
+    [
+      "QUERY",
+      0,
+      1,
+      1
+    ],
+    [
+      "COUPLED",
+      0,
+      1
+    ],
+    [
+      "SCALE",
+      1,
+      "2"
+    ],
+    [
+      "SCALE",
+      2,
+      "-1"
+    ],
+    [
+      "QUERY",
+      2,
+      3,
+      1
+    ],
+    [
+      "SCALE",
+      2,
+      "-1"
+    ],
+    [
+      "IDLE",
+      2
+    ],
+    [
+      "IDLE",
+      3
+    ]
+  ],
+  "exact_endpoint": "D*(X, Y+Q^-1 X, U-Q V, V)",
+  "native_helper_count": 1080,
+  "negative_controls": {
+    "0": true,
+    "1": true,
+    "2": true,
+    "5": true,
+    "7": true
+  },
+  "paid_addition_per_B_port_per_stage": {
+    "1": 2,
+    "8": 2
+  },
+  "scope": "Caller-level ordinary/QUERY/body-idle simulation of one coupled native contact. Not a native word conversion or free native HOST2 assertion.",
+  "source_sha256": "3828d53e80ea97e8b866320f081af20b6b93bfebd58b95b56b85a7afe151af5e",
+  "status": "PASS_CALLER_LEVEL_B_CONVERSION"
+}

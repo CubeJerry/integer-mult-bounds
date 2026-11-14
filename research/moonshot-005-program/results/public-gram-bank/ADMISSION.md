@@ -1,0 +1,11 @@
+# Actual public retention of the Gram information
+
+**Proved triangular information repair and independently verified partial source words. No new kappa.** An actual orthogonal pivot frame stores eight genuine Gram directions in public outputs. The update q=d_I+G_IS d_S, r=-d_S+G_SI q has an explicit dyadic inverse. The literal400/T20 and416/T28 words retain every original input, have terminal D determinant-1, and restore20/28 D fields. Eight original-D pivot reads are paid before overwrite. The all-hosted bank is acquired from all104 independent D inputs.
+
+Their limiting rooms are38.5080115230 and30.2219892327, first positive fixed m2/3. Both leave76 D outputs, reverse rank8 and all forward work unfinished. A separate open word preserves the eight old ground owners with unchanged public map and movement profile; it is explicitly not a closed native source. All lifetimes and alias controls are recorded.
+
+A source-bound next service, checked at the actual pre-erasure cut, completes the reverse B duties using the seven live bank records and one genuine q0 copy at L0, for7[2]+[8]. It is a proved interface lemma, not a separately emitted complete extension. The remaining D and forward debts survive. Adding eight fresh full rank-eight forward routes already exceeds the available allowance, so useful continuation must share actual paid history or change the logical interface.
+
+[Proof](author/PROOF.md), [manifest](author/MANIFEST.json), [independent review](review-c/REVIEW.md), [receipt](review-c/RESULT.json). Reproduce from the repository root with `python -B research/moonshot-005-program/results/public-gram-bank/review-c/check.py --author research/moonshot-005-program/results/public-gram-bank/author --repo . --native-review research/moonshot-005-program/results/native-repartition/review-c/RESULT.json --output /tmp/public-bank-review.json`. The replay kernel's explicit allowed-final-owner map is empty by default and populated only for the open variant; closure is not silently weakened.
+
+The algebraic inverse is not a free distributed decoder. No numerical gains from incompatible source histories are added. Credit Worker B, independent Worker C, root replay kernel, recovered relay and coefficient-ring work, @CubeJerry and OpenAI assistance. Every full supplier and foundational obligation remains.

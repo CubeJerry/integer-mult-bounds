@@ -385,3 +385,11 @@ The parity-uniform chain identity is proved for every positive arm count. Litera
 The C4 parity chronology performs full D decoding before C4 and full Y decoding before half splitting. It retains all paired duties, residual56 and limiting room1.1069741784; a real paid coupled import leaves0.1069741784, first sufficient m296. Singular Gram export is a separate actual paired partial construction; exported11/16 modes are not the104 forward arithmetic states. These mechanisms need an actual new word to compose.
 
 Two unpublished S011 packages were authenticated and reproduced: the sharp marked-route tariff and correctly scoped inverse-preload gate. An unrestricted auxiliary-import extension is explicitly withdrawn. Recovered changed-preload relay remains under review, including coefficient-ring continuation. Next constructive direction: paid all-hosted interface and preserved relay history. No new kappa.
+
+## S012 checkpoint8: preserve history or change the logical service
+
+Paid conversion now supplies an honest416-input all-hosted interface. Its Gram/C4 partial sources are correct, but a new helper-aware rank cut proves that neither exact closed handoff can be completed within the target budget by appending a suffix in the retained nested-helper grammar, even after optimizing every short-caller length. This rules out a continuation strategy, not a general native construction.
+
+The recovered proper-chart relay has precise arithmetic loss over the retained scalar ring. A new actual public-pivot construction repairs it: eight genuine Gram directions remain in public outputs, with a dyadic inverse and determinant-1. This preserves information but still owes76 D outputs and forward service. Merely appending eight fresh full-rank forward modes is too expensive.
+
+The active architectural lead is therefore a cheaper logical paired operation on112 ports. Its author-checked dyadic involution word uses no owners; independent review and its actual caller/operator bridge are pending. Scalar involution does not imply physical head commutation. A successful new interface must pay queries, normalization, productive targets and all recursive duties. Both strict suppliers, all five foundations and target kappa remain open.

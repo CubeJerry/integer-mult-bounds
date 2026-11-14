@@ -1,0 +1,11 @@
+# Helper-aware exclusion of the actual closed paired sources
+
+**Proved in the linear whole-chart continuation model with independent clean nested productive helpers. No new kappa.** If the required completion has directional information ranks r_HP and r_PH, its movement minus new helper credit is at least (1+h^t-(h-1)^t)(r_HP+r_PH)/2. The proof allows feedback, arbitrary value mixing and additional zero-owned records. It retains the spatial rank quantum V and one pure invertible independent input/output job per helper.
+
+For the genuine all-hosted Gram and C4 handoffs, residual ranks104 and56 each way force completion moments at least206.3789297677 and111.1271160288. The largest remaining allowances over every even short-caller length are only17.6447975897 and9.5987910137. Exact concavity and integer-root signs prove the twelve-stage optimum. The complete native's positive finite-m penalty only worsens the result. Thus appending a continuation in this helper grammar cannot reach the target for these exact closed handoffs.
+
+The theorem does not exclude redesigned acquisition history, open retained records, nonnested productive jobs under a separately justified interface, or a different spatial rank scale. A precise two-facet counterexample prevents extending the tariff to hypothetical rank-two nonnested credit. Dirty erasure and all other foundations remain explicit.
+
+[Proof](author/PROOF.md), [independent source replay](author/REPLAY.json), [source budget](author/BUDGET.json), [root proof review](review-root/REVIEW.md), [independent arithmetic](review-root/RESULT.json). Root arithmetic reproduction: `python -B research/moonshot-005-program/results/closed-handoff-cut/review-root/check.py --author research/moonshot-005-program/results/closed-handoff-cut/author --output /tmp/closed-cut-review.json`. The source replay is independent of Worker B's builder and complements Worker C's separate source audit; the root does not claim a third source interpreter.
+
+Credit Worker A, Worker B sources, Worker C source/all-arm reviews, root review, @CubeJerry and OpenAI assistance. This obstruction motivates changed retained history and the new logical-involution construction; it is not a general multiplication lower bound.

@@ -375,3 +375,13 @@ C4 source delta is200(1+3^t+4^t-8^t)+epsilon, epsilon0/1 for base/import. Remain
 Recovered route tariff: each continuous owned Hub-to-ground portion costs at least7^t+I, including turns. For q disjoint portions and b fixed rank3drops, Q>=(222+q)7^t+b3^t+I_o+c(t)D_p. The complete caller implies ell<=138/131/124 for q8/9/10,125 for q9+b2,124 with56fixed captures. Exact chi composition is separately pending; ell,chi,gamma are distinct.
 
 Fixed inverse-preload terminal tours require proper-chart locality; actual auxiliary import can break it. Changed preloads and all-hosted promotion must preserve arbitrary new D inputs, coefficient ring, paired duties and all costs. No new kappa.
+
+## S012 checkpoint8: exact exclusions and surviving constructive interfaces
+
+The closed-source tariff is Q-H_added >=(1+h^t-(h-1)^t)(r_HP+r_PH)/2 for independent pure nested helper jobs and retained whole-chart rank quantum. At t199/200, all-hosted Gram/C4 completion costs at least206.3789297677/111.1271160288; the globally best12-stage allowances are17.6447975897/9.5987910137. The finite-m penalty is additionally positive54.5285937074 at that optimum. Nonnested jobs, finer spatial scales and earlier retained information are explicit boundaries.
+
+Public Gram retention has limiting rooms38.5080115230(old400)/30.2219892327(allhosted416), first positive m2/3. The actual pre-erasure B service costs7[2]+[8]; remaining D/forward duties are unpaid. The recovered20 source needs at least2V scalar old-input history even over Z[1/30,i];44 has a unit determinant there but already negative movement room. Arithmetic invertibility is necessary here, not sufficient for spatial completion.
+
+The whole-column direct-original h18 cochart source has moment>=16^t and fails every even caller under nonnegative helper net. The actual h9 conversion also fails all arms. These exclusions motivate a different logical source. Its optimistic invoice must remain separate until actual off-diagonal frames and productive target laws are proved.
+
+For BIT, chi<=111+I_o+2D_p combines directly with marked-route tariffs, giving caps138/131/124,125/124 in their specified route cases. The general chain bound S=222-chi<=6r+2 implies that width-two chains over F2,F4,F8 cannot meet these cases; F16 is only not excluded. No free canonical-rank addition or equality chi=ell=gamma is used.

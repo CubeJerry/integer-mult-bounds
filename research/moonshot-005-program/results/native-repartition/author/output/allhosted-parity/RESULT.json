@@ -1,0 +1,904 @@
+{
+  "Gram_residual_determinant": 429981696,
+  "all_input_rank": 416,
+  "all_original_D_restored": true,
+  "all_original_X_restored": true,
+  "all_scalars_dyadic": true,
+  "exported_mode_history_rank": 8,
+  "forward_offdiagonal_debt": 4608,
+  "hosted_adjoint_entries_checked": 10816,
+  "negative_controls": [
+    "wrong_forward_read",
+    "wrong_reverse_consumer",
+    "omit_D_decoder",
+    "omit_Y_decoder",
+    "wrong_C4_forward_source",
+    "omit_C4_reverse_read",
+    "omit_C4_cache_delivery",
+    "promoted_original_D_cannot_be_specialized_to_zero"
+  ],
+  "owned_histogram": {
+    "8": 16
+  },
+  "owner_retirements": [
+    {
+      "chart": 127,
+      "nonzero": true,
+      "operation": 2507,
+      "role": 416,
+      "support": 52
+    },
+    {
+      "chart": 127,
+      "nonzero": true,
+      "operation": 2561,
+      "role": 417,
+      "support": 52
+    },
+    {
+      "chart": 127,
+      "nonzero": true,
+      "operation": 2615,
+      "role": 418,
+      "support": 52
+    },
+    {
+      "chart": 127,
+      "nonzero": true,
+      "operation": 2669,
+      "role": 419,
+      "support": 52
+    },
+    {
+      "chart": 127,
+      "nonzero": true,
+      "operation": 2723,
+      "role": 420,
+      "support": 52
+    },
+    {
+      "chart": 127,
+      "nonzero": true,
+      "operation": 2777,
+      "role": 421,
+      "support": 52
+    },
+    {
+      "chart": 127,
+      "nonzero": true,
+      "operation": 2831,
+      "role": 422,
+      "support": 52
+    },
+    {
+      "chart": 127,
+      "nonzero": true,
+      "operation": 2885,
+      "role": 423,
+      "support": 52
+    },
+    {
+      "chart": 1143,
+      "nonzero": true,
+      "operation": 3395,
+      "role": 424,
+      "support": 3
+    },
+    {
+      "chart": 1143,
+      "nonzero": true,
+      "operation": 3399,
+      "role": 430,
+      "support": 3
+    },
+    {
+      "chart": 1143,
+      "nonzero": true,
+      "operation": 3403,
+      "role": 448,
+      "support": 3
+    },
+    {
+      "chart": 1143,
+      "nonzero": true,
+      "operation": 3407,
+      "role": 476,
+      "support": 3
+    },
+    {
+      "chart": 1144,
+      "nonzero": true,
+      "operation": 3411,
+      "role": 498,
+      "support": 4
+    },
+    {
+      "chart": 1144,
+      "nonzero": true,
+      "operation": 3415,
+      "role": 504,
+      "support": 4
+    },
+    {
+      "chart": 1144,
+      "nonzero": true,
+      "operation": 3419,
+      "role": 509,
+      "support": 4
+    },
+    {
+      "chart": 1145,
+      "nonzero": true,
+      "operation": 3496,
+      "role": 425,
+      "support": 3
+    },
+    {
+      "chart": 1145,
+      "nonzero": true,
+      "operation": 3500,
+      "role": 429,
+      "support": 3
+    },
+    {
+      "chart": 1145,
+      "nonzero": true,
+      "operation": 3504,
+      "role": 449,
+      "support": 3
+    },
+    {
+      "chart": 1145,
+      "nonzero": true,
+      "operation": 3508,
+      "role": 477,
+      "support": 3
+    },
+    {
+      "chart": 1146,
+      "nonzero": true,
+      "operation": 3512,
+      "role": 493,
+      "support": 4
+    },
+    {
+      "chart": 1146,
+      "nonzero": true,
+      "operation": 3516,
+      "role": 499,
+      "support": 4
+    },
+    {
+      "chart": 1146,
+      "nonzero": true,
+      "operation": 3520,
+      "role": 503,
+      "support": 4
+    },
+    {
+      "chart": 1148,
+      "nonzero": true,
+      "operation": 3594,
+      "role": 450,
+      "support": 4
+    },
+    {
+      "chart": 1147,
+      "nonzero": true,
+      "operation": 3598,
+      "role": 451,
+      "support": 4
+    },
+    {
+      "chart": 1148,
+      "nonzero": true,
+      "operation": 3602,
+      "role": 478,
+      "support": 4
+    },
+    {
+      "chart": 1147,
+      "nonzero": true,
+      "operation": 3606,
+      "role": 479,
+      "support": 4
+    },
+    {
+      "chart": 1148,
+      "nonzero": true,
+      "operation": 3610,
+      "role": 491,
+      "support": 4
+    },
+    {
+      "chart": 1147,
+      "nonzero": true,
+      "operation": 3614,
+      "role": 492,
+      "support": 4
+    },
+    {
+      "chart": 1147,
+      "nonzero": true,
+      "operation": 3618,
+      "role": 500,
+      "support": 4
+    },
+    {
+      "chart": 1148,
+      "nonzero": true,
+      "operation": 3622,
+      "role": 501,
+      "support": 4
+    },
+    {
+      "chart": 1149,
+      "nonzero": true,
+      "operation": 3681,
+      "role": 426,
+      "support": 4
+    },
+    {
+      "chart": 1149,
+      "nonzero": true,
+      "operation": 3685,
+      "role": 432,
+      "support": 4
+    },
+    {
+      "chart": 1149,
+      "nonzero": true,
+      "operation": 3689,
+      "role": 446,
+      "support": 4
+    },
+    {
+      "chart": 1150,
+      "nonzero": true,
+      "operation": 3693,
+      "role": 490,
+      "support": 3
+    },
+    {
+      "chart": 1150,
+      "nonzero": true,
+      "operation": 3697,
+      "role": 496,
+      "support": 3
+    },
+    {
+      "chart": 1150,
+      "nonzero": true,
+      "operation": 3701,
+      "role": 506,
+      "support": 3
+    },
+    {
+      "chart": 1150,
+      "nonzero": true,
+      "operation": 3705,
+      "role": 510,
+      "support": 3
+    },
+    {
+      "chart": 1152,
+      "nonzero": true,
+      "operation": 3779,
+      "role": 433,
+      "support": 4
+    },
+    {
+      "chart": 1151,
+      "nonzero": true,
+      "operation": 3783,
+      "role": 434,
+      "support": 4
+    },
+    {
+      "chart": 1152,
+      "nonzero": true,
+      "operation": 3787,
+      "role": 480,
+      "support": 4
+    },
+    {
+      "chart": 1151,
+      "nonzero": true,
+      "operation": 3791,
+      "role": 481,
+      "support": 4
+    },
+    {
+      "chart": 1152,
+      "nonzero": true,
+      "operation": 3795,
+      "role": 488,
+      "support": 4
+    },
+    {
+      "chart": 1151,
+      "nonzero": true,
+      "operation": 3799,
+      "role": 489,
+      "support": 4
+    },
+    {
+      "chart": 1151,
+      "nonzero": true,
+      "operation": 3803,
+      "role": 507,
+      "support": 4
+    },
+    {
+      "chart": 1152,
+      "nonzero": true,
+      "operation": 3807,
+      "role": 508,
+      "support": 4
+    },
+    {
+      "chart": 1154,
+      "nonzero": true,
+      "operation": 3889,
+      "role": 427,
+      "support": 4
+    },
+    {
+      "chart": 1153,
+      "nonzero": true,
+      "operation": 3893,
+      "role": 428,
+      "support": 4
+    },
+    {
+      "chart": 1154,
+      "nonzero": true,
+      "operation": 3897,
+      "role": 482,
+      "support": 4
+    },
+    {
+      "chart": 1153,
+      "nonzero": true,
+      "operation": 3901,
+      "role": 483,
+      "support": 4
+    },
+    {
+      "chart": 1154,
+      "nonzero": true,
+      "operation": 3905,
+      "role": 486,
+      "support": 4
+    },
+    {
+      "chart": 1153,
+      "nonzero": true,
+      "operation": 3909,
+      "role": 487,
+      "support": 4
+    },
+    {
+      "chart": 1153,
+      "nonzero": true,
+      "operation": 3913,
+      "role": 512,
+      "support": 4
+    },
+    {
+      "chart": 1154,
+      "nonzero": true,
+      "operation": 3917,
+      "role": 513,
+      "support": 4
+    },
+    {
+      "chart": 1155,
+      "nonzero": true,
+      "operation": 3992,
+      "role": 431,
+      "support": 4
+    },
+    {
+      "chart": 1155,
+      "nonzero": true,
+      "operation": 3996,
+      "role": 447,
+      "support": 4
+    },
+    {
+      "chart": 1156,
+      "nonzero": true,
+      "operation": 4000,
+      "role": 484,
+      "support": 3
+    },
+    {
+      "chart": 1155,
+      "nonzero": true,
+      "operation": 4004,
+      "role": 485,
+      "support": 4
+    },
+    {
+      "chart": 1156,
+      "nonzero": true,
+      "operation": 4008,
+      "role": 497,
+      "support": 3
+    },
+    {
+      "chart": 1156,
+      "nonzero": true,
+      "operation": 4012,
+      "role": 505,
+      "support": 3
+    },
+    {
+      "chart": 1156,
+      "nonzero": true,
+      "operation": 4016,
+      "role": 511,
+      "support": 3
+    },
+    {
+      "chart": 1158,
+      "nonzero": true,
+      "operation": 4081,
+      "role": 440,
+      "support": 4
+    },
+    {
+      "chart": 1157,
+      "nonzero": true,
+      "operation": 4085,
+      "role": 441,
+      "support": 3
+    },
+    {
+      "chart": 1157,
+      "nonzero": true,
+      "operation": 4089,
+      "role": 459,
+      "support": 3
+    },
+    {
+      "chart": 1158,
+      "nonzero": true,
+      "operation": 4093,
+      "role": 473,
+      "support": 4
+    },
+    {
+      "chart": 1157,
+      "nonzero": true,
+      "operation": 4097,
+      "role": 474,
+      "support": 3
+    },
+    {
+      "chart": 1157,
+      "nonzero": true,
+      "operation": 4101,
+      "role": 517,
+      "support": 3
+    },
+    {
+      "chart": 1158,
+      "nonzero": true,
+      "operation": 4105,
+      "role": 518,
+      "support": 4
+    },
+    {
+      "chart": 1159,
+      "nonzero": true,
+      "operation": 4183,
+      "role": 435,
+      "support": 4
+    },
+    {
+      "chart": 1159,
+      "nonzero": true,
+      "operation": 4187,
+      "role": 439,
+      "support": 4
+    },
+    {
+      "chart": 1159,
+      "nonzero": true,
+      "operation": 4191,
+      "role": 452,
+      "support": 4
+    },
+    {
+      "chart": 1159,
+      "nonzero": true,
+      "operation": 4195,
+      "role": 458,
+      "support": 4
+    },
+    {
+      "chart": 1160,
+      "nonzero": true,
+      "operation": 4199,
+      "role": 475,
+      "support": 4
+    },
+    {
+      "chart": 1160,
+      "nonzero": true,
+      "operation": 4203,
+      "role": 494,
+      "support": 4
+    },
+    {
+      "chart": 1160,
+      "nonzero": true,
+      "operation": 4207,
+      "role": 516,
+      "support": 4
+    },
+    {
+      "chart": 1160,
+      "nonzero": true,
+      "operation": 4211,
+      "role": 519,
+      "support": 4
+    },
+    {
+      "chart": 1161,
+      "nonzero": true,
+      "operation": 4277,
+      "role": 436,
+      "support": 4
+    },
+    {
+      "chart": 1161,
+      "nonzero": true,
+      "operation": 4281,
+      "role": 438,
+      "support": 4
+    },
+    {
+      "chart": 1162,
+      "nonzero": true,
+      "operation": 4285,
+      "role": 462,
+      "support": 4
+    },
+    {
+      "chart": 1161,
+      "nonzero": true,
+      "operation": 4289,
+      "role": 463,
+      "support": 4
+    },
+    {
+      "chart": 1161,
+      "nonzero": true,
+      "operation": 4293,
+      "role": 470,
+      "support": 4
+    },
+    {
+      "chart": 1162,
+      "nonzero": true,
+      "operation": 4297,
+      "role": 495,
+      "support": 4
+    },
+    {
+      "chart": 1162,
+      "nonzero": true,
+      "operation": 4301,
+      "role": 515,
+      "support": 4
+    },
+    {
+      "chart": 1162,
+      "nonzero": true,
+      "operation": 4305,
+      "role": 520,
+      "support": 4
+    },
+    {
+      "chart": 1163,
+      "nonzero": true,
+      "operation": 4370,
+      "role": 437,
+      "support": 3
+    },
+    {
+      "chart": 1164,
+      "nonzero": true,
+      "operation": 4374,
+      "role": 460,
+      "support": 4
+    },
+    {
+      "chart": 1163,
+      "nonzero": true,
+      "operation": 4378,
+      "role": 461,
+      "support": 3
+    },
+    {
+      "chart": 1164,
+      "nonzero": true,
+      "operation": 4382,
+      "role": 471,
+      "support": 4
+    },
+    {
+      "chart": 1163,
+      "nonzero": true,
+      "operation": 4386,
+      "role": 472,
+      "support": 3
+    },
+    {
+      "chart": 1163,
+      "nonzero": true,
+      "operation": 4390,
+      "role": 521,
+      "support": 3
+    },
+    {
+      "chart": 1164,
+      "nonzero": true,
+      "operation": 4394,
+      "role": 522,
+      "support": 4
+    },
+    {
+      "chart": 1166,
+      "nonzero": true,
+      "operation": 4460,
+      "role": 445,
+      "support": 4
+    },
+    {
+      "chart": 1165,
+      "nonzero": true,
+      "operation": 4464,
+      "role": 453,
+      "support": 4
+    },
+    {
+      "chart": 1165,
+      "nonzero": true,
+      "operation": 4468,
+      "role": 455,
+      "support": 4
+    },
+    {
+      "chart": 1165,
+      "nonzero": true,
+      "operation": 4472,
+      "role": 464,
+      "support": 4
+    },
+    {
+      "chart": 1165,
+      "nonzero": true,
+      "operation": 4476,
+      "role": 467,
+      "support": 4
+    },
+    {
+      "chart": 1166,
+      "nonzero": true,
+      "operation": 4480,
+      "role": 502,
+      "support": 4
+    },
+    {
+      "chart": 1166,
+      "nonzero": true,
+      "operation": 4484,
+      "role": 514,
+      "support": 4
+    },
+    {
+      "chart": 1166,
+      "nonzero": true,
+      "operation": 4488,
+      "role": 523,
+      "support": 4
+    },
+    {
+      "chart": 1168,
+      "nonzero": true,
+      "operation": 4567,
+      "role": 443,
+      "support": 3
+    },
+    {
+      "chart": 1167,
+      "nonzero": true,
+      "operation": 4571,
+      "role": 444,
+      "support": 4
+    },
+    {
+      "chart": 1168,
+      "nonzero": true,
+      "operation": 4575,
+      "role": 454,
+      "support": 3
+    },
+    {
+      "chart": 1168,
+      "nonzero": true,
+      "operation": 4579,
+      "role": 468,
+      "support": 3
+    },
+    {
+      "chart": 1167,
+      "nonzero": true,
+      "operation": 4583,
+      "role": 469,
+      "support": 4
+    },
+    {
+      "chart": 1167,
+      "nonzero": true,
+      "operation": 4587,
+      "role": 524,
+      "support": 4
+    },
+    {
+      "chart": 1168,
+      "nonzero": true,
+      "operation": 4591,
+      "role": 525,
+      "support": 3
+    },
+    {
+      "chart": 1170,
+      "nonzero": true,
+      "operation": 4658,
+      "role": 442,
+      "support": 3
+    },
+    {
+      "chart": 1170,
+      "nonzero": true,
+      "operation": 4662,
+      "role": 456,
+      "support": 3
+    },
+    {
+      "chart": 1169,
+      "nonzero": true,
+      "operation": 4666,
+      "role": 457,
+      "support": 4
+    },
+    {
+      "chart": 1170,
+      "nonzero": true,
+      "operation": 4670,
+      "role": 465,
+      "support": 3
+    },
+    {
+      "chart": 1169,
+      "nonzero": true,
+      "operation": 4674,
+      "role": 466,
+      "support": 4
+    },
+    {
+      "chart": 1169,
+      "nonzero": true,
+      "operation": 4678,
+      "role": 526,
+      "support": 4
+    },
+    {
+      "chart": 1170,
+      "nonzero": true,
+      "operation": 4682,
+      "role": 527,
+      "support": 3
+    },
+    {
+      "chart": 593,
+      "nonzero": true,
+      "operation": 4684,
+      "role": 416,
+      "support": 52
+    },
+    {
+      "chart": 594,
+      "nonzero": true,
+      "operation": 4685,
+      "role": 417,
+      "support": 52
+    },
+    {
+      "chart": 1125,
+      "nonzero": true,
+      "operation": 4686,
+      "role": 418,
+      "support": 52
+    },
+    {
+      "chart": 595,
+      "nonzero": true,
+      "operation": 4687,
+      "role": 419,
+      "support": 52
+    },
+    {
+      "chart": 1126,
+      "nonzero": true,
+      "operation": 4688,
+      "role": 420,
+      "support": 52
+    },
+    {
+      "chart": 597,
+      "nonzero": true,
+      "operation": 4689,
+      "role": 421,
+      "support": 52
+    },
+    {
+      "chart": 1127,
+      "nonzero": true,
+      "operation": 4690,
+      "role": 422,
+      "support": 52
+    },
+    {
+      "chart": 1128,
+      "nonzero": true,
+      "operation": 4691,
+      "role": 423,
+      "support": 52
+    }
+  ],
+  "public": 416,
+  "raw_histogram": {
+    "1": 320,
+    "2": 112,
+    "3": 304,
+    "4": 208,
+    "5": 208
+  },
+  "reverse_residual_rank": 56,
+  "scope": "Actual fresh416-input source under converted all-hosted interface. Incomplete endpoint; no supplier and no new kappa.",
+  "source_bill": {
+    "counts": {
+      "ADD": 3036,
+      "CLEAR": 120,
+      "INIT": 120,
+      "MOVE": 1168,
+      "SCALE": 248
+    },
+    "instructions": 4692,
+    "lifetimes": 120,
+    "moves": {
+      "1": 320,
+      "2": 112,
+      "3": 304,
+      "4": 208,
+      "5": 208,
+      "8": 16
+    },
+    "peak": 112
+  },
+  "source_pins": {
+    "codec": "4cb31f8f1c5b2e069afbbb3a3f028c787b677684a558bc12c2f31f51a4871297",
+    "engine": "045ec283e41288354bb82d2f1e8a62facfb67c23cd4f6954f4d7a5ae744bd37e",
+    "native": "3dec380d820ed631636bdc77adb4a4c3e35abdb31d2b312f8f41edadff389d96",
+    "seed": "6281068be019f5f17ee9b64dd4f08323b00d1d3003b7ff3ccda6597ebe6265fc"
+  },
+  "status": "PASS_FRESH_ALL104_HOSTED_SOURCE",
+  "variant": "parity",
+  "word_sha256": "f212f5fb73979e4c9842883e84435805d3ea87147e53afe322015019f6d21d22"
+}

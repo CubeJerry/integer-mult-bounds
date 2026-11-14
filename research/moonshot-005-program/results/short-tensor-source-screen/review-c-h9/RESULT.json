@@ -1,0 +1,159 @@
+{
+  "invoice": {
+    "actual_coupled_events_authenticated": 18,
+    "all_arms_extension": {
+      "exact_H5": [
+        "49975240866051304611245720924489/200000000000000000000000000000000",
+        "312345255412820653820285755778069/1250000000000000000000000000000000"
+      ],
+      "exact_H6": [
+        "-198971456188776430296891521790693/2500000000000000000000000000000000",
+        "-15917716495102114423751321743253/200000000000000000000000000000000"
+      ],
+      "free_extra_queries_maximum_gap_per_native": [
+        "-915857811222930815239997326826280599/30000000000000000000000000000000000",
+        "-915857811222930815239997326826259743/30000000000000000000000000000000000"
+      ],
+      "illicit_free_body_idles_false_positive_margin": [
+        "2404423749411463662342693952791064201/30000000000000000000000000000000000",
+        "2404423749411463662342693952791085153/30000000000000000000000000000000000"
+      ],
+      "paid_conversion_maximum_gap_per_native": [
+        "-1395857811222930815239997326826280647/30000000000000000000000000000000000",
+        "-1395857811222930815239997326826259743/30000000000000000000000000000000000"
+      ],
+      "proof": "W_a has strictly decreasing first differences, hence H_a=aW_(a+1)-(a+1)W_a strictly decreases; exact signs H5>0,H6<0 locate the global ratio maximum. The maximum remains below both fixed source prices.",
+      "stages": 12,
+      "wrapper_allowance_ceiling": [
+        "25833160399652441163849433117542676391/7500000000000000000000000000000000",
+        "2152763366637703430320786093128556393/625000000000000000000000000000000"
+      ],
+      "wrapper_per_native_maximum_arms": 6
+    },
+    "conversion_cost_per_native": [
+      "89172532513216551616306068325361351/625000000000000000000000000000000",
+      "89172532513216551616306068325361353/625000000000000000000000000000000"
+    ],
+    "displayed_cases": [
+      {
+        "arms": 3,
+        "complete_paid_gap": [
+          "-393096230219558773234482796251247621/1250000000000000000000000000000000",
+          "-157238492087823509293793118500496959/500000000000000000000000000000000"
+        ],
+        "extra_queries_granted_free_gap": [
+          "-273096230219558773234482796251247609/1250000000000000000000000000000000",
+          "-109238492087823509293793118500496959/500000000000000000000000000000000"
+        ],
+        "stages": 6
+      },
+      {
+        "arms": 4,
+        "complete_paid_gap": [
+          "-242344338732299661723493395287262299/625000000000000000000000000000000",
+          "-242344338732299661723493395287258821/625000000000000000000000000000000"
+        ],
+        "extra_queries_granted_free_gap": [
+          "-162344338732299661723493395287262291/625000000000000000000000000000000",
+          "-162344338732299661723493395287258821/625000000000000000000000000000000"
+        ],
+        "stages": 8
+      },
+      {
+        "arms": 9,
+        "complete_paid_gap": [
+          "-4278580053037687218138328169003394073/5000000000000000000000000000000000",
+          "-855716010607537443627665633800666241/1000000000000000000000000000000000"
+        ],
+        "extra_queries_granted_free_gap": [
+          "-2838580053037687218138328169003393929/5000000000000000000000000000000000",
+          "-567716010607537443627665633800666241/1000000000000000000000000000000000"
+        ],
+        "stages": 18
+      }
+    ],
+    "native_independent_helpers": 1080,
+    "native_main_fields": 400,
+    "native_net": [
+      "33482739283066100331018346172459873869/10000000000000000000000000000000000",
+      "33482739283066100331018346172459880473/10000000000000000000000000000000000"
+    ],
+    "native_public_fields": 1480,
+    "scope": "Fixed retained h9 native with this paid caller conversion, every positive integer arm count. Other roots, conversions, natives or independently justified changes remain open."
+  },
+  "local": {
+    "arbitrary_inputs": 4,
+    "counts": {
+      "COUPLED": 1,
+      "IDLE": 2,
+      "QUERY": 2,
+      "SCALE": 4
+    },
+    "event_deletion_controls": [
+      {
+        "event": 0,
+        "opcode": "SCALE",
+        "rejected": true
+      },
+      {
+        "event": 1,
+        "opcode": "QUERY",
+        "rejected": true
+      },
+      {
+        "event": 2,
+        "opcode": "COUPLED",
+        "rejected": true
+      },
+      {
+        "event": 3,
+        "opcode": "SCALE",
+        "rejected": true
+      },
+      {
+        "event": 4,
+        "opcode": "SCALE",
+        "rejected": true
+      },
+      {
+        "event": 5,
+        "opcode": "QUERY",
+        "rejected": true
+      },
+      {
+        "event": 6,
+        "opcode": "SCALE",
+        "rejected": true
+      },
+      {
+        "event": 7,
+        "opcode": "IDLE",
+        "rejected": true
+      },
+      {
+        "event": 8,
+        "opcode": "IDLE",
+        "rejected": true
+      }
+    ],
+    "paid_addition_per_coupled_port": {
+      "1": 2,
+      "8": 2
+    },
+    "positive_query_translation_identity": true,
+    "scope": "Caller-level conversion. Not a native endpoint wrapper; all whole-body idles remain paid.",
+    "status": "PASS_EXACT_OPERATOR_MATRIX"
+  },
+  "new_kappa": null,
+  "source_pins": {
+    "BUDGET-OPTIMIZED.json": "41a892eb0c0eeae0f7b94601375c7bafd44a0c2181e82cd5537eb37297cd12cc",
+    "BUDGET.json": "41a892eb0c0eeae0f7b94601375c7bafd44a0c2181e82cd5537eb37297cd12cc",
+    "CONVERSION.json": "91af17b7df4c79707da7a65ef943a2980326c55a91032cba3230f714a2de89b8",
+    "H9-CONVERSION.md": "b18b1fd912640071e7f2ab2d530c6fc4abedd9b44ee1fad810bc272f5674b6cd",
+    "budget.py": "12d9628903eb427568c3415fa920f66d34590ebe28cbb907c69c6c19be8ff356",
+    "source/retained-FULL-RESULT.json": "d9ba709fa5dcefffe3f3abdcf34600ce188224703cfd743e6db8b58ba4816cb7",
+    "source/retained-caller.json": "3828d53e80ea97e8b866320f081af20b6b93bfebd58b95b56b85a7afe151af5e",
+    "verify_conversion.py": "53ceb90fe5defb32819c16fe3c553b425f64b8cc3ee71bccde4d499e689d65b6"
+  },
+  "status": "PASS_INDEPENDENT_H9_CONVERSION_AND_ALL_ARMS_SCREEN"
+}

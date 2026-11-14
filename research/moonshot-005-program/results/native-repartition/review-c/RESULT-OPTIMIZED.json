@@ -1,0 +1,782 @@
+{
+  "complete_conversions": [
+    {
+      "caller_P": {
+        "1": 74126,
+        "16": 416,
+        "2": 14904,
+        "24": 416,
+        "3": 14598,
+        "32": 416,
+        "4": 4338,
+        "40": 416,
+        "48": 416,
+        "5": 5760,
+        "56": 416,
+        "6": 306,
+        "64": 416,
+        "7": 216,
+        "8": 992
+      },
+      "caller_T": {
+        "1": 234,
+        "145": 208,
+        "17": 416,
+        "2": 324,
+        "25": 416,
+        "3": 792,
+        "33": 416,
+        "4": 3870,
+        "41": 416,
+        "49": 416,
+        "5": 1224,
+        "57": 416,
+        "6": 756,
+        "65": 416,
+        "7": 324,
+        "73": 416,
+        "8": 1206,
+        "9": 11126
+      },
+      "composition": {
+        "all_public_columns": 1480,
+        "all_public_rows": 1480,
+        "helpers": 1080,
+        "inherited_body_operations": 71261,
+        "inherited_body_scope": "Exact literal operation equality plus admitted original complete native target; old source arithmetic is not relabelled as a fresh independent proof.",
+        "new_main_inputs": 0,
+        "zero_extension_outputs": 10
+      },
+      "negative_controls": [
+        {
+          "mutation": "A_to_B_entries",
+          "rejected_by": "all independent public input/output entries after actual adapters and inherited complete body"
+        },
+        {
+          "mutation": "B_to_A_entries",
+          "rejected_by": "all independent public input/output entries after actual adapters and inherited complete body"
+        },
+        {
+          "mutation": "new_dual_entries",
+          "rejected_by": "all independent public input/output entries after actual adapters and inherited complete body"
+        },
+        {
+          "mutation": "B_to_A_output_repairs",
+          "rejected_by": "all independent public input/output entries after actual adapters and inherited complete body"
+        },
+        {
+          "mutation": "dirty_zero_extension",
+          "rejected_by": "all removed old dual outputs truly zero before retirement"
+        }
+      ],
+      "ordinary": {
+        "caller_rest": 599605216,
+        "classification": "Inherited ordinary accounting conventions independently enumerated; no new precision theorem.",
+        "conservative_total": 829505256,
+        "old_odd_division_operations": 4143,
+        "routing_upper": 10036000,
+        "scalar_upper": 1777860
+      },
+      "phase_certificates": {
+        "inherited_used_maps": 2971,
+        "introduced_maps": 15,
+        "phase_mutation_rejected": true,
+        "scope": "Retained-interpreter certificate reproduction; zero-new-map case inherits exact pinned parent evidence."
+      },
+      "physical": {
+        "counts": {
+          "ADD": 61220,
+          "CLEAR": 84,
+          "COPY": 1,
+          "INIT": 84,
+          "MOVE": 6340,
+          "SCALE": 3672
+        },
+        "helpers": {
+          "1": 13,
+          "2": 18,
+          "3": 44,
+          "4": 215,
+          "5": 68,
+          "6": 42,
+          "7": 18,
+          "8": 67,
+          "9": 595
+        },
+        "lifetimes": 84,
+        "main": 400,
+        "owned": {
+          "1": 66,
+          "2": 18,
+          "3": 3,
+          "4": 15,
+          "5": 7,
+          "6": 1
+        },
+        "paid": {
+          "1": 4095,
+          "2": 828,
+          "3": 811,
+          "4": 241,
+          "5": 320,
+          "6": 17,
+          "7": 12,
+          "8": 16
+        },
+        "peak": 53,
+        "public": 1480,
+        "raw": {
+          "1": 4029,
+          "2": 810,
+          "3": 808,
+          "4": 226,
+          "5": 313,
+          "6": 16,
+          "7": 12,
+          "8": 16
+        }
+      },
+      "signed_caller_change": {
+        "1": -360,
+        "8": -180
+      },
+      "variant": "orthogonal"
+    },
+    {
+      "caller_P": {
+        "1": 74198,
+        "16": 416,
+        "2": 14904,
+        "24": 416,
+        "3": 14598,
+        "32": 416,
+        "4": 4338,
+        "40": 416,
+        "48": 416,
+        "5": 5760,
+        "56": 416,
+        "6": 306,
+        "64": 416,
+        "7": 216,
+        "8": 812
+      },
+      "caller_T": {
+        "1": 234,
+        "145": 208,
+        "17": 416,
+        "2": 324,
+        "25": 416,
+        "3": 792,
+        "33": 416,
+        "4": 3870,
+        "41": 416,
+        "49": 416,
+        "5": 1224,
+        "57": 416,
+        "6": 756,
+        "65": 416,
+        "7": 324,
+        "73": 416,
+        "8": 1206,
+        "9": 11126
+      },
+      "composition": {
+        "all_public_columns": 1496,
+        "all_public_rows": 1496,
+        "helpers": 1080,
+        "inherited_body_operations": 71261,
+        "inherited_body_scope": "Exact literal operation equality plus admitted original complete native target; old source arithmetic is not relabelled as a fresh independent proof.",
+        "new_main_inputs": 16,
+        "zero_extension_outputs": 0
+      },
+      "negative_controls": [
+        {
+          "mutation": "B_to_A_entries",
+          "rejected_by": "all independent public input/output entries after actual adapters and inherited complete body"
+        },
+        {
+          "mutation": "new_dual_entries",
+          "rejected_by": "all independent public input/output entries after actual adapters and inherited complete body"
+        },
+        {
+          "mutation": "B_to_A_output_repairs",
+          "rejected_by": "all independent public input/output entries after actual adapters and inherited complete body"
+        }
+      ],
+      "ordinary": {
+        "caller_rest": 585492960,
+        "classification": "Inherited ordinary accounting conventions independently enumerated; no new precision theorem.",
+        "conservative_total": 816530592,
+        "old_odd_division_operations": 4143,
+        "routing_upper": 10070000,
+        "scalar_upper": 1777840
+      },
+      "phase_certificates": {
+        "inherited_used_maps": 2971,
+        "introduced_maps": 24,
+        "phase_mutation_rejected": true,
+        "scope": "Retained-interpreter certificate reproduction; zero-new-map case inherits exact pinned parent evidence."
+      },
+      "physical": {
+        "counts": {
+          "ADD": 61228,
+          "CLEAR": 78,
+          "COPY": 1,
+          "INIT": 78,
+          "MOVE": 6350,
+          "SCALE": 3662
+        },
+        "helpers": {
+          "1": 13,
+          "2": 18,
+          "3": 44,
+          "4": 215,
+          "5": 68,
+          "6": 42,
+          "7": 18,
+          "8": 67,
+          "9": 595
+        },
+        "lifetimes": 78,
+        "main": 416,
+        "owned": {
+          "1": 44,
+          "2": 9,
+          "3": 2,
+          "4": 13,
+          "5": 2,
+          "6": 1
+        },
+        "paid": {
+          "1": 4099,
+          "2": 828,
+          "3": 811,
+          "4": 241,
+          "5": 320,
+          "6": 17,
+          "7": 12,
+          "8": 22
+        },
+        "peak": 43,
+        "public": 1496,
+        "raw": {
+          "1": 4055,
+          "2": 819,
+          "3": 809,
+          "4": 228,
+          "5": 318,
+          "6": 16,
+          "7": 12,
+          "8": 22
+        }
+      },
+      "signed_caller_change": {
+        "1": -432
+      },
+      "variant": "allhosted"
+    }
+  ],
+  "invoice": {
+    "C4_extra": [
+      "2011501644002190576700411021118577/250000000000000000000000000000000",
+      "50287541100054764417510275527964477/6250000000000000000000000000000000"
+    ],
+    "classification": "Actual partial-source allowance only; every remaining paired endpoint and all five foundations retained.",
+    "complete_variants": [
+      {
+        "finite_m_penalty": [
+          "19606846632045294772676457197143110193/150000000000000000000000000000000000",
+          "3267807772007549128779409532857186777/25000000000000000000000000000000000"
+        ],
+        "variant": "orthogonal"
+      },
+      {
+        "finite_m_penalty": [
+          "8330966755062812030230546948338907453/150000000000000000000000000000000000",
+          "2776988918354270676743515649446305981/50000000000000000000000000000000000"
+        ],
+        "variant": "allhosted"
+      }
+    ],
+    "exponent": "199/200",
+    "formula": "remaining_room(m)=limiting_room-finite_m_penalty/(m-1), fixed m>=2",
+    "full_source_Gram_gain": [
+      "3043005455861351189002290793199477/390625000000000000000000000000000",
+      "24344043646890809512018326345595817/3125000000000000000000000000000000"
+    ],
+    "partial_sources": [
+      {
+        "first_positive_fixed_m": 5,
+        "limiting_room": [
+          "74851258185125281651042676406332479/4500000000000000000000000000000000",
+          "935640727314066020638033455079156651/56250000000000000000000000000000000"
+        ],
+        "variant": "gram"
+      },
+      {
+        "first_positive_fixed_m": 8,
+        "limiting_room": [
+          "966105714827146281760881950654951623/112500000000000000000000000000000000",
+          "483052857413573140880440975327476709/56250000000000000000000000000000000"
+        ],
+        "variant": "parity"
+      }
+    ],
+    "unchanged_raw_oracle_allowance": [
+      "16856195558722037427906176764793332357/112500000000000000000000000000000000",
+      "8428097779361018713953088382396666653/56250000000000000000000000000000000"
+    ]
+  },
+  "partial_sources": [
+    {
+      "Q": {
+        "1": 112,
+        "2": 112,
+        "3": 96,
+        "5": 208,
+        "8": 224
+      },
+      "actual_reads": {
+        "forward": 56,
+        "reverse": 416
+      },
+      "chronology_checks": 31,
+      "codecs": [
+        {
+          "determinant": "-1",
+          "modes": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "ports": 7
+        },
+        {
+          "determinant": "1",
+          "modes": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "ports": 7
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            0,
+            1,
+            6,
+            7
+          ],
+          "ports": 8
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            0,
+            2,
+            4,
+            6
+          ],
+          "ports": 7
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            0,
+            2,
+            5,
+            7
+          ],
+          "ports": 8
+        },
+        {
+          "determinant": "-1/2",
+          "modes": [
+            0,
+            3,
+            4,
+            7
+          ],
+          "ports": 8
+        },
+        {
+          "determinant": "-1/2",
+          "modes": [
+            0,
+            3,
+            5,
+            6
+          ],
+          "ports": 7
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            1,
+            2,
+            4,
+            7
+          ],
+          "ports": 7
+        },
+        {
+          "determinant": "-1",
+          "modes": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "ports": 8
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            1,
+            3,
+            4,
+            6
+          ],
+          "ports": 8
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "ports": 7
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "ports": 8
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            2,
+            3,
+            6,
+            7
+          ],
+          "ports": 7
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "ports": 7
+        }
+      ],
+      "counts": {
+        "ADD": 2164,
+        "CLEAR": 16,
+        "INIT": 16,
+        "MOVE": 752,
+        "SCALE": 248
+      },
+      "dirty_retirements": 16,
+      "lifetimes": 16,
+      "negative_controls": [
+        {
+          "instruction": 1271,
+          "mutation": "reverse_consumers",
+          "rejected_by": "actual full reverse delivery"
+        },
+        {
+          "instruction": 2165,
+          "mutation": "forward_reads",
+          "rejected_by": "actual full Gram Y decoded before local correction"
+        },
+        {
+          "instruction": 82,
+          "mutation": "D_inverse_codec",
+          "rejected_by": "all original independent D restored at C3"
+        },
+        {
+          "mutation": "suppress_promoted_independent_D",
+          "rejected_by": "all original independent D restored at C3"
+        }
+      ],
+      "offdiagonal_debt": 4992,
+      "owned": {
+        "8": 16
+      },
+      "paired_entries": 10816,
+      "peak": 8,
+      "phase_certificates": {
+        "inherited_used_maps": 302,
+        "introduced_maps": 0,
+        "phase_mutation_rejected": null,
+        "scope": "Retained-interpreter certificate reproduction; zero-new-map case inherits exact pinned parent evidence."
+      },
+      "public_rank": 416,
+      "raw": {
+        "1": 112,
+        "2": 112,
+        "3": 96,
+        "5": 208,
+        "8": 208
+      },
+      "residual_rank": 104,
+      "variant": "gram"
+    },
+    {
+      "Q": {
+        "1": 320,
+        "2": 112,
+        "3": 304,
+        "4": 208,
+        "5": 208,
+        "8": 16
+      },
+      "actual_reads": {
+        "correction": 104,
+        "forward": 56,
+        "local_forward": 384,
+        "local_reverse": 384,
+        "reverse": 416
+      },
+      "chronology_checks": 59,
+      "codecs": [
+        {
+          "determinant": "-1",
+          "modes": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "ports": 7
+        },
+        {
+          "determinant": "1",
+          "modes": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "ports": 7
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            0,
+            1,
+            6,
+            7
+          ],
+          "ports": 8
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            0,
+            2,
+            4,
+            6
+          ],
+          "ports": 7
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            0,
+            2,
+            5,
+            7
+          ],
+          "ports": 8
+        },
+        {
+          "determinant": "-1/2",
+          "modes": [
+            0,
+            3,
+            4,
+            7
+          ],
+          "ports": 8
+        },
+        {
+          "determinant": "-1/2",
+          "modes": [
+            0,
+            3,
+            5,
+            6
+          ],
+          "ports": 7
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            1,
+            2,
+            4,
+            7
+          ],
+          "ports": 7
+        },
+        {
+          "determinant": "-1",
+          "modes": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "ports": 8
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            1,
+            3,
+            4,
+            6
+          ],
+          "ports": 8
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "ports": 7
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "ports": 8
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            2,
+            3,
+            6,
+            7
+          ],
+          "ports": 7
+        },
+        {
+          "determinant": "1/2",
+          "modes": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "ports": 7
+        }
+      ],
+      "counts": {
+        "ADD": 3036,
+        "CLEAR": 120,
+        "INIT": 120,
+        "MOVE": 1168,
+        "SCALE": 248
+      },
+      "dirty_retirements": 120,
+      "lifetimes": 120,
+      "negative_controls": [
+        {
+          "instruction": 2455,
+          "mutation": "reverse_consumers",
+          "rejected_by": "actual full reverse delivery"
+        },
+        {
+          "instruction": 3349,
+          "mutation": "forward_reads",
+          "rejected_by": "actual full Gram Y decoded before local correction"
+        },
+        {
+          "instruction": 1069,
+          "mutation": "local_forward_sources",
+          "rejected_by": "actual original-X local source"
+        },
+        {
+          "instruction": 1084,
+          "mutation": "local_reverse_reads",
+          "rejected_by": "actual original-D transpose service"
+        },
+        {
+          "instruction": 3394,
+          "mutation": "correction_reads",
+          "rejected_by": "actual cached correction after Gram decoder"
+        },
+        {
+          "instruction": 82,
+          "mutation": "D_inverse_codec",
+          "rejected_by": "all original independent D restored at C3"
+        },
+        {
+          "mutation": "suppress_promoted_independent_D",
+          "rejected_by": "all original independent D restored at C3"
+        }
+      ],
+      "offdiagonal_debt": 4608,
+      "owned": {
+        "8": 16
+      },
+      "paired_entries": 10816,
+      "peak": 112,
+      "phase_certificates": {
+        "inherited_used_maps": 94,
+        "introduced_maps": 264,
+        "phase_mutation_rejected": true,
+        "scope": "Retained-interpreter certificate reproduction; zero-new-map case inherits exact pinned parent evidence."
+      },
+      "public_rank": 416,
+      "raw": {
+        "1": 320,
+        "2": 112,
+        "3": 304,
+        "4": 208,
+        "5": 208
+      },
+      "residual_rank": 56,
+      "variant": "parity"
+    }
+  ],
+  "pins": {
+    "MANIFEST.json": "8ded0e2e0679c9205e5e81b46939bc214feae1d7e8587c9abedb3eb1a671181b",
+    "PROOF.md": "54281240fda5fef8b12417c8e89520d83fc322bc2a663108a6de2b7ebcddf969",
+    "dependencies/FULL-RESULT.json": "d9ba709fa5dcefffe3f3abdcf34600ce188224703cfd743e6db8b58ba4816cb7",
+    "dependencies/caller.json": "3828d53e80ea97e8b866320f081af20b6b93bfebd58b95b56b85a7afe151af5e",
+    "dependencies/native.json.gz": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+    "output/allhosted-gram/WORD.json.gz": "721949af97ebb48344437477c99b7b1dcc8f1e52811a1ed80c8b683b3ef46f0d",
+    "output/allhosted-parity/WORD.json.gz": "f212f5fb73979e4c9842883e84435805d3ea87147e53afe322015019f6d21d22",
+    "output/allhosted/CALLER.json": "31187aead2a665412177ee24110f9fc383f0bdb5b8fc6b728ad9b646ec4de608",
+    "output/allhosted/WORD.json.gz": "3dec380d820ed631636bdc77adb4a4c3e35abdb31d2b312f8f41edadff389d96",
+    "output/orthogonal/CALLER.json": "f8d9031e8ea020f04d71f6db654cb397acfcb70018087573139980ab817c8a4d",
+    "output/orthogonal/WORD.json.gz": "210dcdbb6aad3a5634b056ce336701b44eae5e5182ce8ea4f374ad2729693566"
+  },
+  "scope": "Complete interface conversions inherit pinned old native correctness via exact body equality; new adapters, all1496 symbolic entries, chronology, fresh416 sources and signed accounting independently checked. All five foundations retained. No new kappa.",
+  "status": "PASS_INDEPENDENT_PAID_REPARTITION_AND_ALL_HOSTED_SOURCE_REVIEW"
+}

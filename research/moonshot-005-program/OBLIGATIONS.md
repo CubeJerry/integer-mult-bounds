@@ -276,3 +276,15 @@ Next consequential obligations are actual source completion with reusable funded
 - **COMPLEX-FIXED-PRELOAD-DECODER — proved in corrected scope.** Decoder rigidity and proper-local terminal tours; unrestricted auxiliary imports excluded from claim. Preserve SCOPE-CORRECTION.md. Evidence: results/complex-fixed-preload-decoder.
 
 Next: paid all-hosted native/fresh sources, complete decoder with preserved history, and proper-cover/chain composition. Recovered relay remains pending independent review. Both strict suppliers and five foundations remain open.
+
+## S012 checkpoint8 dependency update
+
+- **NATIVE-REPARTITION-ALLHOSTED — proved conditional finite conversion.** Depends on pinned old native target; every old operation and discarded zero output retained/checked. Fresh416-input partial words independently replayed. Full uniform foundation remains.
+- **CLOSED-HANDOFF-NESTED-HELPER-CUT — proved scoped exclusion.** Depends on actual all-hosted source matrices, clean independent nested jobs and rank quantum. It blocks appending a completion to those closed words; earlier history or a justified new interface is outside its scope.
+- **PROPER-CHART-RELAY-RECOVERED — proved partial words and sharp dyadic retention theorem.** Historical uncommitted source is now independently reviewed. Rational rank alone does not give retained-ring continuation.
+- **PROPER-CHART-RELAY-SMOOTH-RING — proved refinement.** Actual scalar ring Z[1/30,i] blocks20, admits an abstract inverse for44. Physical repair remains open.
+- **PUBLIC-GRAM-BANK-RETENTION — proved constructive information repair.** Genuine public pivot acquisition, dyadic inverse, closed/open partial words and source-bound B service. All D/forward completion is not established.
+- **BIT-MARKED-CHAIN-BUDGET — proved universal capacity and conditional price composition.** Requires the exact chain and marked-route hypotheses. F16 is the first small field not excluded, not a fitting construction.
+- **SHORT-TENSOR-SOURCE-SCREEN — proved source-specific all-arm gates.** Actual asymmetric tensor row price14 differs from orthogonal Gram8; cochart acquisition and paid h9 conversion fail their full invoices.
+
+Primary next obligation: independently certify the112-port logical involution source, then prove a physical caller and complete joint head/target invoice. Port-dependent adapters, higher-order head identities and all-stage compatibility are essential, unproved interfaces. No new complete kappa.

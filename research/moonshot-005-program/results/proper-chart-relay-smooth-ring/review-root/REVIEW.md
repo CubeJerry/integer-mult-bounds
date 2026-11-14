@@ -1,0 +1,11 @@
+# Independent review of the retained smooth-ring continuation theorem
+
+Accepted with its exact coefficient-ring scope. The root read the universal proof, the preceding dyadic theorem, the independent literal source review, the actual retained scalar guard and the frozen source receipt. A separately written checker recomputes determinant factorizations and the non-inverted-prime cases without importing the author corollary code.
+
+The retained ADD/COPY/SCALE denominator contract confines all exact scalar entries to S=Z[1/30]; Gaussian chart maps lie in S[i]. For p not2,3,5 there is a homomorphism S[i] to a finite extension of F_p. A terminal kernel vector cannot be separated by any later linear operation, even with fresh independent helpers: extend the old vector by zero on their independent inputs. The explicit original-D component makes exact recovery impossible. Tensoring by I_V multiplies the kernel dimension and hence the required amount of retained information by V.
+
+For20, the actual terminal determinant has non-inverted factors7 and127. Its mod127 deficiency is2. The independently replayed q1/q4 augmentation has full rank at every nonunit prime divisor. The localized integer ring is a PID; the finite torsion quotient of the ambient row module is killed by the determinant, and the displayed reductions exclude every remaining prime divisor. Thus two records suffice for global arithmetic recoverability and fewer cannot. This is not a placement, bounded-coefficient or movement theorem.
+
+For44, the determinant2^8*3*5^4 is a unit of S, so the adjugate supplies an S-inverse. Reductions modulo3 or5 cannot be applied to S because those primes are inverted. The narrower dyadic theorem remains true, but it must not be cited as a smooth-ring exclusion. The word separately has negative complete movement allowance and no physical decoder.
+
+The seven retained bank rows suffice arithmetically over S for20 even though they fail the dyadic mod3 test. The missing rho448 direction therefore diagnoses the dyadic loss, not the stronger smooth-ring obstruction. This distinction is preserved. All finite matrix facts are explicitly inherited from Worker C's independent replay, not relabeled as a new root source audit. Credit Worker C, recovered Worker B, @CubeJerry and OpenAI assistance. No new kappa.

@@ -6,7 +6,11 @@ PROGRAMME, TARGET-005, OBLIGATIONS and latest append-only SESSION-LOG. Check
 canonical changes since its recorded SHA. Baseline hashes are not self hashes.
 Keep the protected mathematics-first allocation in PROGRAMME active.
 
-## Latest S012 checkpoint7 frontier
+## Latest S012 checkpoint8 frontier
+
+Actual paid all-hosted conversion and public Gram retention are admitted. The two closed all-hosted Gram/C4 handoffs cannot be completed by appending a suffix in the retained nested-helper grammar at any short-caller arm count. Public pivots repair arithmetic loss but owe76 D outputs and forward duties. The active112-port dyadic involution lead changes the logical operation; its source review and literal physical caller bridge are pending. The next theorem must address actual port adapters, operator relations and paid productive targets. BIT small-field chain exclusions are stronger; a physical stronger BIT supplier remains open. No new kappa or upstream PR.
+
+## S012 checkpoint7 frontier (historical)
 
 Actual6/8-stage4query callers, C4/import paired sources and singular export are admitted. Residual56, native acquisition and full costs still prevent a complete supplier. Recovered marked-route tariffs impose stricter BIT source caps; chi/chain composition is pending review. Paid all-hosted source and history-preserving relay repair are active. Fixed-preload gates retain locality. S011 evidence is recovered without a claimed remote checkpoint12 or live execution. Both strict suppliers and five foundations remain open. No new kappa.
 

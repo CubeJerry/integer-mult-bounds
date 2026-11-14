@@ -1,0 +1,375 @@
+{
+  "independent_native_review_sha256": "c293166010b906749a48afb6828909b5b83a6679bfb89eece05c36d0d67fd6f9",
+  "invoice": {
+    "eight_fresh_full_rank8_forward_modes": [
+      "158345065026433103232612136650722703/2500000000000000000000000000000000",
+      "197931331283041379040765170813403379/3125000000000000000000000000000000"
+    ],
+    "exponent": "199/200",
+    "formula": "remaining_room(m)=limiting_room-finite_m_penalty/(m-1), fixed integer m>=2",
+    "scope": "Incomplete sources only. The shared B service has no separately emitted extended word. Open owner storage/transport/closure and every remaining paired endpoint stay unpaid.",
+    "separated_completion_excluded": true,
+    "shared_B_service_increment": [
+      "2186881693091180484083635824206586127/100000000000000000000000000000000000",
+      "437376338618236096816727164841317227/20000000000000000000000000000000000"
+    ],
+    "variants": [
+      {
+        "after_source_bound_B_service": [
+          "14975275132892452610715733737104997149/900000000000000000000000000000000000",
+          "1871909391611556576339466717138125803/112500000000000000000000000000000000"
+        ],
+        "finite_m_penalty": [
+          "4730966755062812030230546948338907453/150000000000000000000000000000000000",
+          "1576988918354270676743515649446305969/50000000000000000000000000000000000"
+        ],
+        "first_positive_fixed_m": 2,
+        "limiting_room": [
+          "8664302592678269241867114038741068091/225000000000000000000000000000000000",
+          "34657210370713076967468456154964281567/900000000000000000000000000000000000"
+        ],
+        "variant": "retained"
+      },
+      {
+        "after_source_bound_B_service": [
+          "7517855071651449293637485430037928669/900000000000000000000000000000000000",
+          "93973188395643116170468567875474227/11250000000000000000000000000000000"
+        ],
+        "finite_m_penalty": [
+          "8330966755062812030230546948338907453/150000000000000000000000000000000000",
+          "2776988918354270676743515649446305981/50000000000000000000000000000000000"
+        ],
+        "first_positive_fixed_m": 3,
+        "limiting_room": [
+          "6799947577368018412597551961974300971/225000000000000000000000000000000000",
+          "27199790309472073650390207847897213303/900000000000000000000000000000000000"
+        ],
+        "variant": "allhosted"
+      },
+      {
+        "finite_m_penalty": [
+          "4730966755062812030230546948338907453/150000000000000000000000000000000000",
+          "1576988918354270676743515649446305969/50000000000000000000000000000000000"
+        ],
+        "first_positive_fixed_m": 2,
+        "limiting_room": [
+          "10464302592678269241867114038741068109/225000000000000000000000000000000000",
+          "41857210370713076967468456154964281567/900000000000000000000000000000000000"
+        ],
+        "variant": "open-retained"
+      }
+    ]
+  },
+  "pins": {
+    "MANIFEST.json": "a339abf1a41f52cb9158bdaa235791793bffcadbcaebd8afb47104d9680ef75b",
+    "PROOF.md": "9f840d32c9176762beaf2f3a3d124da6b544842187bc5d95f9ce728bdb10698a",
+    "dependencies/full-receipt.json": "d9ba709fa5dcefffe3f3abdcf34600ce188224703cfd743e6db8b58ba4816cb7",
+    "dependencies/native-allhosted.json.gz": "3dec380d820ed631636bdc77adb4a4c3e35abdb31d2b312f8f41edadff389d96",
+    "dependencies/native-retained.json.gz": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+    "dependencies/old-relay-20.json.gz": "0edf81ca8f6a7e60e5a01d4acdcaefdb74882180b8d12c408513bc91cd625b1c",
+    "output/allhosted/WORD.json.gz": "bf2956313fc0bbbcade57f557eac7791b771b1b46444df804704baa2c8e09b62",
+    "output/open-retained/WORD.json.gz": "35f0cdf91e5abce2d7bfb05b4af521fe4019f16d09347f288d3b31f6cc27e389",
+    "output/retained/WORD.json.gz": "8157c7c8a2e64c179ef0ae7afab2c94bb44b69f1fc9e03c8d24096e4bfc9e540"
+  },
+  "scope": "Exact closed-owned partial public repairs and a deliberately open-owned alternative. No completed paired source or new kappa.",
+  "status": "PASS_INDEPENDENT_PUBLIC_PIVOT_AND_OPEN_OWNER_REPAIR_REVIEW",
+  "variants": [
+    {
+      "Q": {
+        "1": 151,
+        "2": 20,
+        "5": 20,
+        "6": 1,
+        "7": 83,
+        "8": 304
+      },
+      "actual_reads": {
+        "B": 96,
+        "mu": 28,
+        "pivot": 8,
+        "q": 352,
+        "r": 352
+      },
+      "chronology_checks": 46,
+      "counts": {
+        "ADD": 1290,
+        "CLEAR": 24,
+        "INIT": 24,
+        "MOVE": 579,
+        "SCALE": 222
+      },
+      "dirty_retirements": 24,
+      "lifetimes": 24,
+      "negative_controls": [
+        {
+          "instruction": 43,
+          "mutation": "omit_paid_pivot_subtraction",
+          "rejected_by": "genuine paid original pivot-D subtraction before overwrite"
+        },
+        {
+          "instruction": 80,
+          "mutation": "corrupt_public_q",
+          "rejected_by": "original nonpivot D used to form q"
+        },
+        {
+          "instruction": 433,
+          "mutation": "corrupt_public_r",
+          "rejected_by": "actual retained q used to form r"
+        },
+        {
+          "instruction": 873,
+          "mutation": "corrupt_pure_bank_mode",
+          "rejected_by": "bank reads pure actual q, not new r_u"
+        },
+        {
+          "instruction": 1284,
+          "mutation": "omit_actual_B_read",
+          "rejected_by": "actual original-line B read of its assigned payload"
+        },
+        {
+          "instruction": 1587,
+          "mutation": "corrupt_original_D_decode",
+          "rejected_by": "actual original D decoded at bank"
+        },
+        {
+          "instruction": 1590,
+          "mutation": "break_singular_swap",
+          "rejected_by": "actual singular swap restores public D and next r"
+        }
+      ],
+      "next_service_cut": {
+        "bank": 1143,
+        "bank_payloads": 7,
+        "cut": 1848,
+        "q0_carrier": 379,
+        "q0_line": 0
+      },
+      "owned": {
+        "1": 55,
+        "6": 1,
+        "7": 7
+      },
+      "peak": 8,
+      "phase_certificates": {
+        "inherited_used_maps": 112,
+        "introduced_maps": 357,
+        "phase_mutation_rejected": true,
+        "scope": "Retained-interpreter certificate reproduction; zero-new-map case inherits exact pinned parent evidence."
+      },
+      "public_rank": 400,
+      "raw": {
+        "1": 96,
+        "2": 20,
+        "5": 20,
+        "7": 76,
+        "8": 304
+      },
+      "recovery": {
+        "determinant": "-1",
+        "inverse_ring": "Z[1/2]",
+        "inverse_rows": 96,
+        "old_r_replacement_mod3_rank": 94,
+        "original_coordinate_forward_debt": 112,
+        "prime_D_ranks": {
+          "127": 96,
+          "3": 96,
+          "5": 96,
+          "7": 96
+        },
+        "reverse_residual_rank": 8,
+        "scope": "Algebraic inverse from literal final outputs; future cochart acquisition and complete endpoint remain unpaid."
+      },
+      "restored_D": 20,
+      "source_bound_B_service": {
+        "actual_cut": {
+          "bank": 1143,
+          "bank_payloads": 7,
+          "cut": 1848,
+          "q0_carrier": 379,
+          "q0_line": 0
+        },
+        "additional_paid_profile": {
+          "2": 7,
+          "8": 1
+        },
+        "basis_determinant": "-1/16",
+        "consumer_rows": 104,
+        "extended_literal_word_emitted": false,
+        "scope": "Existing paid seven bank modes extend to Hub; actual public q0 is copied at its line before final ascent. Forward and76 D restorations remain open.",
+        "source_bound_B_service_proved": true
+      },
+      "unfinished_D": 76,
+      "variant": "retained"
+    },
+    {
+      "Q": {
+        "1": 167,
+        "2": 28,
+        "5": 28,
+        "6": 1,
+        "7": 83,
+        "8": 312
+      },
+      "actual_reads": {
+        "B": 104,
+        "mu": 28,
+        "pivot": 8,
+        "q": 384,
+        "r": 384
+      },
+      "chronology_checks": 62,
+      "counts": {
+        "ADD": 1404,
+        "CLEAR": 16,
+        "INIT": 16,
+        "MOVE": 619,
+        "SCALE": 254
+      },
+      "dirty_retirements": 16,
+      "lifetimes": 16,
+      "negative_controls": [
+        {
+          "instruction": 3,
+          "mutation": "omit_paid_pivot_subtraction",
+          "rejected_by": "genuine paid original pivot-D subtraction before overwrite"
+        },
+        {
+          "instruction": 40,
+          "mutation": "corrupt_public_q",
+          "rejected_by": "original nonpivot D used to form q"
+        },
+        {
+          "instruction": 425,
+          "mutation": "corrupt_public_r",
+          "rejected_by": "actual retained q used to form r"
+        },
+        {
+          "instruction": 905,
+          "mutation": "corrupt_pure_bank_mode",
+          "rejected_by": "bank reads pure actual q, not new r_u"
+        },
+        {
+          "instruction": 1348,
+          "mutation": "omit_actual_B_read",
+          "rejected_by": "actual original-line B read of its assigned payload"
+        },
+        {
+          "instruction": 1675,
+          "mutation": "corrupt_original_D_decode",
+          "rejected_by": "actual original D decoded at bank"
+        },
+        {
+          "instruction": 1678,
+          "mutation": "break_singular_swap",
+          "rejected_by": "actual singular swap restores public D and next r"
+        }
+      ],
+      "next_service_cut": {
+        "bank": 1143,
+        "bank_payloads": 7,
+        "cut": 2018,
+        "q0_carrier": 379,
+        "q0_line": 0
+      },
+      "owned": {
+        "1": 63,
+        "6": 1,
+        "7": 7
+      },
+      "peak": 8,
+      "phase_certificates": {
+        "inherited_used_maps": 112,
+        "introduced_maps": 389,
+        "phase_mutation_rejected": true,
+        "scope": "Retained-interpreter certificate reproduction; zero-new-map case inherits exact pinned parent evidence."
+      },
+      "public_rank": 416,
+      "raw": {
+        "1": 104,
+        "2": 28,
+        "5": 28,
+        "7": 76,
+        "8": 312
+      },
+      "recovery": {
+        "determinant": "-1",
+        "inverse_ring": "Z[1/2]",
+        "inverse_rows": 104,
+        "old_r_replacement_mod3_rank": 102,
+        "original_coordinate_forward_debt": 104,
+        "prime_D_ranks": {
+          "127": 104,
+          "3": 104,
+          "5": 104,
+          "7": 104
+        },
+        "reverse_residual_rank": 8,
+        "scope": "Algebraic inverse from literal final outputs; future cochart acquisition and complete endpoint remain unpaid."
+      },
+      "restored_D": 28,
+      "source_bound_B_service": {
+        "actual_cut": {
+          "bank": 1143,
+          "bank_payloads": 7,
+          "cut": 2018,
+          "q0_carrier": 379,
+          "q0_line": 0
+        },
+        "additional_paid_profile": {
+          "2": 7,
+          "8": 1
+        },
+        "basis_determinant": "-1/16",
+        "consumer_rows": 104,
+        "extended_literal_word_emitted": false,
+        "scope": "Existing paid seven bank modes extend to Hub; actual public q0 is copied at its line before final ascent. Forward and76 D restorations remain open.",
+        "source_bound_B_service_proved": true
+      },
+      "unfinished_D": 76,
+      "variant": "allhosted"
+    },
+    {
+      "Q": {
+        "1": 143,
+        "2": 20,
+        "5": 20,
+        "6": 1,
+        "7": 83,
+        "8": 304
+      },
+      "actual_retirements": 16,
+      "all_source_maps_inherited": true,
+      "counts": {
+        "ADD": 1338,
+        "CLEAR": 16,
+        "INIT": 24,
+        "MOVE": 571,
+        "SCALE": 230
+      },
+      "inverse_rows": 96,
+      "lifetimes": 24,
+      "native_admissible": false,
+      "negative_control": {
+        "unrenamed_active_owner": "fresh owner"
+      },
+      "open_owned_chart": 3,
+      "open_owned_outputs": 8,
+      "owned": {
+        "1": 47,
+        "6": 1,
+        "7": 7
+      },
+      "peak": 16,
+      "public_rank_over_Q": 400,
+      "raw": {
+        "1": 96,
+        "2": 20,
+        "5": 20,
+        "7": 76,
+        "8": 304
+      },
+      "scope": "Open continuation with eight extra correlated outputs; future storage, transport and closure remain real obligations.",
+      "variant": "open-retained"
+    }
+  ]
+}
