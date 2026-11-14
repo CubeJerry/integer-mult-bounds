@@ -55,3 +55,12 @@ control/capture completion is excluded by74/66 protected columns and full
 invoice. Pursue transient D recoding or a genuine distributing record with
 restored endpoints, not passive target-code changes in that grammar. The
 BIT triple is verified; the retained-halfclass decoder remains under review.
+
+## Checkpoint5 continuation
+
+Do not repeat scalar one-row U searches: all are excluded atq12. Arbitrary
+operator16V spaces remain distinct. The verified15-packet staircase is a
+chronology scaffold, not a target candidate. Joint histories/paid local descents
+are active. Publish the retained-halfclass cuts and test revised full source
+retention by actual decoding, not global rank alone. Complex transient recoding
+now has an actual partial word under review. Both strict suppliers remain open.

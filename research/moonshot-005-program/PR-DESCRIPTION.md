@@ -211,3 +211,15 @@ prevents hidden-history credit;74/66 dimensions exceed the complete tariff.
 Transient recoding remains open. A separate [BIT triple](results/bit-mixed-triple/ADMISSION.md)
 gives a verified cyclic shared-acquisition module. No new kappa; PR readiness
 false, all strict suppliers/foundations retained.
+
+### S011 extension geometry and complete logical scaffold
+
+The [projective arrangement](results/bit-class-enabling-arrangement/ADMISSION.md)
+classifies arbitrary scalar one-row extensions and gives a scopedq12 gate,
+operator support theorem and higher-rank coverage counterexample. Independent
+source reconstruction is included. A [complete masked staircase](results/bit-orthogonal-staircase/ADMISSION.md)
+restores111 X and finishes111 Y on222 columns, but15 packets fail target; its
+isolated-module theorem proves repetition cannot suffice. Arrival/rank
+corollaries retain their Hub-only scope. No new kappa; ongoing/not PR-ready,
+with strict suppliers and all five foundations open. Credit and AI-assistance
+disclosures remain in every proof/admission.

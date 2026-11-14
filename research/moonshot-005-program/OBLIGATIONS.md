@@ -118,3 +118,16 @@ success proves an unbounded supplier or discharges any of the five foundations.
 
 The complex gate does not outlaw a partial target relation; it excludes whole
 completion by sufficient passive returns. No supplier/foundation is promoted.
+
+## S011 checkpoint5 transitions
+
+| Obligation | Verified change | Remaining work |
+|---|---|---|
+| ARBITRARY-ONE-CLASS-EXTENSION | Arbitrary-fieldPG(3,2) theorem; scalar/fixed-tensorq12 gate. | Higher-dimensional/non-tensor histories or changed interface. |
+| COMPLETE-ORTHOGONAL-SCAFFOLD | Full logical word;15 packets fail, isolated modules need14. | Coupled histories with complete target invoice. |
+| TARGET-ARRIVAL-RANK | Hub-only caps19/11/3 andceil(28V/3) history floor. | Actual feasible history/compiler. |
+| PROPER-BORN-DESCENT | Legal nested grammar, no completed source claimed. | Paid acquisition, new normalization, location cuts and all endpoints. |
+
+The retained halfclass prefix is not promoted: exact regions require8 and12
+future incoming directions. Three donor drops alone fail. Its frozen cut audit
+is being integrated separately; revised source retention remains active.

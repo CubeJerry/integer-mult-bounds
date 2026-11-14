@@ -214,3 +214,17 @@ rank1-return deficits16.90365973156.../9.14811861034..., with finite-m penalty
 this grammar and need their own full invoices. The real82to81 target relation
 costs[3]+54ADD+one lifetime, and its C2 alternative is more expensive, not
 additional gain. The1578[1]/391ADD BIT triple completes only three targets.
+
+## S011 checkpoint5: arrival and interface scope
+
+The Hub-only target model permits19/11/3 extra positive ascending facet arrivals
+forq8/9/10, giving sum ell<=138 and rank(A),rank(G_x)>=ceil(28V/3). A fitting
+inside an8V space plus at most9 atomic source columns is impossible. All scalar
+one-row U extensions requireq>=12; isolated orthogonal modules needatleast14.
+
+Proper-born owned descents are permitted nested logical moves, but actual
+acquisition, compiler and complete cost contracts remain. A source-line-to-zero
+copy pays rank1 plus INIT, ADD, storage and CLEAR. Hubq<=10 remains necessary
+when these costs are added; the earlier Hubq>=8 endpoint does not. General
+downset cuts count every incoming descending lifetime. No new normalization
+or complete construction is assumed for this interface under investigation.

@@ -91,7 +91,8 @@ chronological source code with paid transport and restored original inputs.
 Algebraic rank does not make separated information physically available.
 
 For the actual111-root BIT source, a physical cut requires at least eight
-persistent descending packets. The specified q8 movement envelope is positive
+descending information lifetimes in the declared monotone model. If all are
+born at Hub and descend to zero, these are full Hub packets. The specified q8 movement envelope is positive
 at fixed even multiplicity6, but no source yet restores111 X and completes111 Y
 within the full contract. Singular packet/source cells retain actual historical
 kernel modes beyond first-ground values. Arbitrary cocharted original-Y
@@ -122,7 +123,9 @@ all X and complete two Y outputs; masks avoid an upward pure-cache duplicate.
 Their coordinate-only history cannot fit the103 noncoordinate ports. The
 active construction therefore seeks lower-chart sign-sensitive modes and a
 single paid chronology covering all111 targets. A halfclass-local/global-
-quotient decomposition is an unverified candidate under investigation.
+quotient decomposition has exact rank3 algebra, but its retained handoff fails
+stronger receiver-location cuts. Revised retention and proper-born descents
+are being tested; they are not a completed source.
 
 On the complex track, literal compensated funded ferries preserve old forward
 maps and lower reverse residual58 to57 or54. Exact400-input maps, phases and
@@ -217,3 +220,15 @@ The [BIT triple](results/bit-mixed-triple/ADMISSION.md) extends actual shared
 acquisition. Its108 remaining outputs and the new halfclass candidate's
 retained information/access/decoder obligations remain open. That revised
 prefix is under separate review, not admitted by this checkpoint.
+
+## S011 checkpoint5: extension geometry and a complete scaffold
+
+The [arbitrary-extension theorem](results/bit-class-enabling-arrangement/ADMISSION.md)
+reveals PG(3,2) intersections and excludes every scalar one-row U extension
+atq12. Its operator support gate and higher-dimensional counterexample prevent
+false dimension extrapolations. The [complete staircase](results/bit-orthogonal-staircase/ADMISSION.md)
+gives an actual222-column chronology, but15 packets fail; isolated modules
+needatleast14. Joint histories or a changed paid interface are necessary.
+[Arrival corollaries](results/bit-target-arrival-corollaries/ADMISSION.md) extend
+the rank floor across the Hub-only target envelope. Proper-born local descents
+are a new interface: neither free transport nor eight-rank cost is assumed.

@@ -151,3 +151,12 @@ every source-control premise. Independent2^-140 integer roots prove both full
 tariffs; no author control/price code is imported. The BIT triple uses a separate
 222-column sparse-set checker, exact charts and16 mutants. Installed receipts,
 manifests and unchanged prior scientific bytes are in CHECKPOINT4-VALIDATION.
+
+## S011 checkpoint5 checks
+
+Lead DSU equality reconstruction checks105 pairs/455 triples and independent
+4096-case group recognition. C separately replays the root-authored complete
+staircase on222 columns with exact charts/eight mutants, and reviews the two
+target/rank corollaries with exact intervals. Finite verification and universal
+proof are separately classified. Installed receipts and prior scientific-file
+immutability are recorded in CHECKPOINT5-VALIDATION.

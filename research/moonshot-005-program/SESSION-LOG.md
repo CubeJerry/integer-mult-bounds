@@ -1182,3 +1182,20 @@ halfclass candidate. A bare prefix fails; paid retention and actual decoding
 are being developed and are not admitted here. All suppliers/foundations
 remain, No new kappa, ongoing/not PR-ready. Session continues to11:19:23UTC;
 the resulting remote SHA is recorded only after separate confirmation.
+
+## 2026-11-14-S011 — checkpoint5: projective extensions and complete scaffold
+
+Baseline02b6b6fbec31b350fd05146adad2a9acd571537c, tree
+24ae676c3c74475131487677b8362ae6a3ce1a21. Protected discovery classifies arbitrary
+scalar one-row extensions byPG(3,2), provesq12 and a support gate, and refutes
+binary direction counting for higher-dimensional E. Lead rebuilds the source
+combinatorics. Root's masked-tail staircase finishes every logical endpoint;
+C independently verifies it. Its15 packets fail target, and isolated modules
+needatleast14. Target-wide arrival/rank corollaries also pass separate review.
+
+Live work finds stronger halfclass location defects; donor drops alone fail.
+Revised retention and properly charged local descents are being constructed.
+Old Hub-only lower caps are not silently extended. Complex transient D/Y
+recoding supplies a new actual partial mechanism under review. No new kappa,
+both strict suppliers/all five foundations retained. Session active through
+11:19:23UTC; resulting remote SHA recorded only after separate confirmation.
