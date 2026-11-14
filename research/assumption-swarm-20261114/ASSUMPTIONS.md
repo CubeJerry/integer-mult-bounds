@@ -65,3 +65,7 @@ The complete old-coded MOVE boundary and prime/complemented orbit representation
 ## Wave5 allocation and status
 
 Owned1526 now has a verified same-owner eight-contact protocol. Its9574 source-gap events, current producer values and global allocation remain substantive caller premises. The first missing value producer is exactly MOVE28039, public1349 from empty frame to[137], followed by SUB28041; the source algebra is confirmed, physical join active. The canonical direct switch point predicate is independently verified under its supplied ABI, with actual CRT header/lease consumption now active. The Gaussian orbit certificate is being optimized across exact simultaneous kernel symmetries; this may close a representation-class question, while arbitrary orders, implicit generators and full runtime remain excluded. All five full statements remain retained.
+
+## Wave5 verified and wave6 open
+
+The canonical point predicate now has a uniform literal restored implementation. Its actual current CRT source/consumption adapter and the owned first donor producer are in independent review, with full-controller and external-gap costs explicit. Homogeneous Gaussian symmetries are now completely classified and their dense cycle-boundary format has optimalTheta(T^2/g(d)) size; this is not a general rank/runtime bound. Actual distinct fine-prime widths may invalidate the matched-factor premise; wave6 is testing that precise source-specific implication. The selected kappa and all five assumptions remain unchanged.

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/r437-preparation-composition/predecessor4025/source/words.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/r437-preparation-composition/predecessor4025/source/records.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/encoded-crt-entry-lifecycle/entry.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/encoded-current-crt/producer.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/crt-persistent-numerical-owner/owner.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/crt-mixed-row-entry/bridge.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/crt-current-row-query/join.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/crt-encoded-benes-rom-producer/microcode.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/crt-uniform-rom-query/machine.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/crt-binary-key-port/binary.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/crt-binary-radix-consumer/radix.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/crt-paid-row-reentry/RESULT.json",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/frontend.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/endpoint.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/inverse_frontend.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/inverse_producer.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/encoded-crt-leaf-payload/route.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/encoded-crt-leaf-payload/replay.py",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/encoded-crt-leaf-payload/INPUT-PINS.json",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/encoded-crt-leaf-payload/README.md",
+    "research/current-crt-direct-switch-consumer/inputs/predecessor/research/encoded-crt-leaf-payload/RESULT.json",
+    "research/current-crt-direct-switch-consumer/inputs/switch/switch.py",
+    "research/current-crt-direct-switch-consumer/inputs/switch/PROOF.md",
+    "research/current-crt-direct-switch-consumer/inputs/switch/NOTICE.md",
+    "research/current-crt-direct-switch-consumer/inputs/switch/check_batched_crt.py",
+    "research/current-crt-direct-switch-consumer/inputs/reference/7352-PROOF.md",
+    "research/current-crt-direct-switch-consumer/inputs/reference/radix-PROOF.md",
+    "research/current-crt-direct-switch-consumer/inputs/reference/rom-PROOF.md",
+    "research/current-crt-direct-switch-consumer/inputs/reference/canonical-NOTICE.md",
+    "research/current-crt-direct-switch-consumer/LICENSE"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Exact retained sources;2111 literal point queries and exact complete costs;five actual current source/payload roundtrips;fourteen controls;fresh original same-workload baseline."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "-O",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Exact retained sources;2111 literal point queries and exact complete costs;five actual current source/payload roundtrips;fourteen controls;fresh original same-workload baseline;optimized."
+    }
+  ]
+}

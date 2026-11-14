@@ -33,3 +33,7 @@ Complete old-coded MOVE published at6c76eaa; combined orbit-order representation
 ## Checkpoint7: nine publications and three fresh wave5 objectives
 
 Owned lifetime protocol is published at53e0a6d with exact remote tree/base/diff and short compare check. Direct switch has independent universal review and separate sparse interpreter/canonical coloring evidence, including a returning wrong-answer mutant; publication gates active. Three fresh tasks: actual CRT query consumption, actual donor1349 source MOVE feeding first SUB, and optimal orbit-certificate scale over exact Gaussian symmetries. No new kappa. Main refreshed unchanged at e545; bounded live overlap searches and exact #7388/#7390/#7504/#7561 heads recorded.
+
+## Checkpoint8: eleven publications; actual callers and heterogeneous source
+
+Main remains e545. Direct switch56335a406469fad85e88ff72820d506d8bea6f63 and Gaussian certificate-scale2ae2fa14eeefe301652f62313b137a97036ab13d passed remote tree/ref/compare and HTTP branch checks. All eleven short compare links are in REVIEW-LINKS. B5 actual CRT query/consume and C5 actual donor1349 producer are primary-verified, separate cross-review pending. Top-level proof/code/receipt snapshots are explicitly unverified drafts. C6 now tests unequal-width Gaussian source symmetries; no conclusion yet. PR7334 is still open at aaeec8c0acf01e99a5f331ef363a698d9c084ace; audit scope being assessed, not allocated or accepted.

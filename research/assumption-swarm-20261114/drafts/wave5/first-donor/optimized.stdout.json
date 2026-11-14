@@ -1,0 +1,157 @@
+{
+  "status": "PASS_SELECTED_FIRST_DONOR_PRODUCER",
+  "fixed_tapes": 44,
+  "states": 71524,
+  "native_locations_before_static_pruning": 75391,
+  "graph_sha256": "fec60dd4653c6c06846850b2d318d9eec0b7d9856af6b65bae2d336d5c5f99a0",
+  "producer_sha256": "e183c38866223a8b896c8210f65e6531f89b0836b88541cb45b27e7ebc672c2f",
+  "authenticated_sources": 36,
+  "source_binding": {
+    "exact_event": [
+      "MOVE",
+      1349,
+      3,
+      601,
+      false
+    ],
+    "index": 28039,
+    "frames": {
+      "3": [],
+      "601": [
+        137
+      ]
+    },
+    "pre_MOVE_frames": {
+      "1349": 3,
+      "1526": 601
+    },
+    "two_unimplemented_paid_events": [
+      28038,
+      28040
+    ],
+    "complete_archive_reextracted_this_run": false,
+    "binding_controls": [
+      "wrong-frame239",
+      "wrong-source-owner",
+      "stale-pre-MOVE-frame",
+      "deleted-unrelated-chronology"
+    ]
+  },
+  "source_algebra": {
+    "all512_columns": "original sparse source, separate dense source, closed Pauli formula and five fixed factors agree",
+    "fixed_G_word_length": 21,
+    "inverse_word_length": 21,
+    "native_xor": 137,
+    "native_sign_mask": 9,
+    "packed_f1_xor": 290,
+    "packed_f1_sign_mask": 288,
+    "wrong239_source_column_separated": true
+  },
+  "unchanged_reachable_C4_states": 4927,
+  "producer_footprint": {
+    "reachable_states": 66597,
+    "physical_ports": [
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      43
+    ],
+    "owned1526_never_touched": true
+  },
+  "positive_fixture": {
+    "f": 1,
+    "r": 1,
+    "P": 1,
+    "S": 1,
+    "width": 6,
+    "cutoff": 1,
+    "V_old": 21504,
+    "E_old": 131,
+    "V": 6144,
+    "E_gamma": 10,
+    "F": 6154,
+    "contact_costs": [
+      {
+        "event": 28037,
+        "transitions": 2277713
+      },
+      {
+        "event": 28039,
+        "transitions": 18991921
+      },
+      {
+        "event": 28041,
+        "transitions": 168304
+      }
+    ],
+    "total_literal_transitions": 21437938,
+    "history_increment": 143240,
+    "no_nonzero_host_writes_after_entry": true,
+    "source_pre_MOVE_packet_only": true,
+    "same_donor_and_owned_HOME": true,
+    "all44_heads_and_private_bodies_at_C4_service_return": true,
+    "owned1526_still_live_after_first_SUB": true,
+    "later_rank_two_cutoff_admitted": false
+  },
+  "negative_controls": [
+    {
+      "control": "wrong-phase",
+      "literal_transitions": 19172257,
+      "returns_all_capabilities": true,
+      "direct_source_then_SUB_oracle_detected": true
+    },
+    {
+      "control": "stale-donor",
+      "literal_transitions": 340805,
+      "returns_all_capabilities": true,
+      "direct_source_then_SUB_oracle_detected": true
+    },
+    {
+      "control": "endpoint-only-first-phase-overflow",
+      "literal_transitions": 308372,
+      "complete_source_endpoint_fits": true
+    },
+    "aliased-private-owner",
+    {
+      "control": "f2-cutoff1-actual-central-header-probe",
+      "literal_transitions": 591,
+      "scope": "header-only inherited C entry, no f2 DATA"
+    }
+  ],
+  "two_unrelated_ADDs_implemented": false,
+  "whole_gap_implemented": false,
+  "full_f2_packet_executed": false,
+  "later_rank_two_prefix_admission_claimed": false,
+  "assumptions_discharged": [],
+  "new_kappa": false
+}

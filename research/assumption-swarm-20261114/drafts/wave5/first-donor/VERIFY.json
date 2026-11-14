@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/selected-first-donor-producer/SOURCE-EVENT.json",
+    "research/selected-first-donor-producer/inputs/lifetime/NOTICE.md",
+    "research/selected-first-donor-producer/inputs/lifetime/PROOF.md",
+    "research/selected-first-donor-producer/inputs/lifetime/SOURCE-PINS.json",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/add/PROOF.md",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/add/SOURCE-CONTACTS.json",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/add/add.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/add/inputs/machine.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/add/inputs/selected-application-review.md",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/add/inputs/tape_graph.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/NOTICE.md",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/PROOF.md",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/RECIPE.json",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/SOURCES.json",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/adapter.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/machine.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/rank2.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/reference/home/NOTICE.md",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/reference/home/parent_adapter.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/reference/home/tape_graph.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/reference/leaf/NOTICE.md",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/reference/leaf/inputs/controller_reference.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/reference/leaf/leaf.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/reference/linear/NOTICE.md",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/reference/linear/inputs/controller_reference.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/reference/linear/linear.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/reference/phase/NOTICE",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/reference/phase/inputs/controller_reference.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/reference/phase/phase.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/reference/source/clifford_exact.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/move/reference/source/native_verify.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/zero/NOTICE.md",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/zero/PROOF.md",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/zero/inputs/codec-guide.py",
+    "research/selected-first-donor-producer/inputs/lifetime/inputs/zero/zero.py",
+    "research/selected-first-donor-producer/inputs/lifetime/protocol.py",
+    "research/selected-first-donor-producer/inputs/lifetime/verify.py"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Literal INIT, actual source-specific137 producer from its pre-MOVE packet and unchanged first SUB; same-owner/capability restoration, direct source kernel, returning phase/stale mutations and source/prefix/guard controls. No unrelated gap execution or later admission."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Literal INIT, actual source-specific137 producer from its pre-MOVE packet and unchanged first SUB; same-owner/capability restoration, direct source kernel, returning phase/stale mutations and source/prefix/guard controls. No unrelated gap execution or later admission."
+    }
+  ]
+}
