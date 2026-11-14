@@ -42,8 +42,11 @@ def check(row):
  return row
 
 if __name__=='__main__':
- p=Path('review-links.json');rows=json.loads(p.read_text());assert len(rows)==len(DATA)
- rows=[prepare(r,d) for r,d in zip(rows,DATA)]
+ p=Path('review-links.json');rows=json.loads(p.read_text())
+ for i,r in enumerate(rows):
+  if 'short_prefilled_url' not in r:
+   if i>=len(DATA):raise ValueError('A checked concise description is required for '+r['package'])
+   rows[i]=prepare(r,DATA[i])
  with ThreadPoolExecutor(max_workers=3) as pool:rows=list(pool.map(check,rows))
  p.write_text(json.dumps(rows,indent=2)+'\n')
  Path('PREFILLED-REVIEW-LINKS.md').write_text('# Verified prefilled review links\n\nRemote refs, tested trees and package diffs were checked before publication. Each link returned HTTP200, preserved its encoded title and body, and named the intended branch. The signed-in PR form was not rendered; no upstream PR was submitted.\n\n'+'\n'.join('- ['+r['title']+']('+r['short_prefilled_url']+')' for r in rows)+'\n')

@@ -85,3 +85,7 @@ The complete selected first gap now has literal signed half-copy and both public
 ## Wave9 exact opportunity update
 
 All-record fixed-ABI CRT key emission now composes literally with the per-wire controller. Source headers, numerical acquisition and radix remain separate; B9 targets exactly the physical header/retirement seam, including arbitrary long skipped prefixes. A8 closes the diagonal-gauge and finite-inverse-error symmetry interfaces on matching physical square blocks, not global source production or arbitrary rank. The compiler reduction is already proved under retained primitive hypotheses; the next missing work must bind actual families, not repeat generic finite scheduling. The apparent full-cell rounding gap is superseded by paid setup precision in1786/1797. Generic all-order Gaussian rank is a fresh candidate; actual constrained source parameters and quantitative margins remain open.
+
+## Wave10 opportunity map
+
+A9 removes the ordering restriction for a generic binary Gaussian family, including inverses, but not the prescribed fine-prime sequence. A10 now tests exact pointwise nonvanishing for a phase-removed core, retaining the missing physical-gauge and rounded-error interfaces. B9 removes supplied-header construction from the fixed-ABI current key caller. Actual numerical result production remains a separate provider; B10 must establish real allocator/owner correspondence before a literal arithmetic kernel counts as progress. All five full assumptions remain as stated above.

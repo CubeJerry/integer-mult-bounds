@@ -65,3 +65,9 @@ B7 published f789e7318ef89b26c2e358c4c1eb09ce93d21f73,72 package additions; A8 p
 B8 compiler audit found the scoped reduction already present in6878/current7000 and generic7565; no duplicate PR. C9 precision audit found1786/1797 already distinguish high-precision setup from onlineCp, resolving the apparent old full-cell bound mismatch; no negative theorem claimed. B9 meter audit confirms all592 prior native header actions were included.
 
 A9 proposes a material generic all-order rank lower bound2ceil((T+3)/5), with root counting and inverse-Schur-complement checks; formal package and independent C review remain pending. B9 literal headers21513/27 are under primary and independent root verification. Neither unfinished candidate is published. All five assumptions and selected kappa remain unchanged.
+
+## Checkpoint12: twenty verified branches; source-bound tenth wave
+
+A9 published085b30f8e036f69421d5953d0993ac4974ec3f24,tree547ecf1409e2c3738218cd7678c931c4110bda43,20 package additions. B9 published4c7cee36538bb48dc2598806af2ca42554fa63c0,tree3c6911cad4953c87c38dd2062b5ccb8476785ce3,82 package additions. Remote full trees equal gated local commits; exact canonical parents and package-only diffs checked. A9 four registered commands; B9 five,56 source origins,57 declared export inputs. All20 concise prefilled URLs passedHTTP200 and exact query/branch checks.
+
+A10 proposes pointwise all-order narrow-core rank floor min(2ceil((2^g+3)/5),s_min-1), using bounded-degree CRT injection and a classical transcendence theorem; shifted/chirped/rounded/physical matrices are explicitly excluded. C independently reviews. B10 first audits a useful actual divmod allocation/caller boundary, with a stop if only a generic standalone routine can be delivered. No new kappa and no full foundational assumption discharged.
