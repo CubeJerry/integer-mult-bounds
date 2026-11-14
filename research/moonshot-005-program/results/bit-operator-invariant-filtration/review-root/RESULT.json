@@ -1,0 +1,75 @@
+{
+  "status": "PASS_INDEPENDENT_INVARIANT_FILTRATION_REVIEW",
+  "author_proof_sha256": "921ad61780a6a2ef252db5160d8791366226d053308d9848e05d654a697c0c5a",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "scalar_ell": 193,
+  "tensor_controls": [
+    {
+      "width": 1,
+      "rank": 11,
+      "quotient": 2,
+      "ell": 193
+    },
+    {
+      "width": 2,
+      "rank": 22,
+      "quotient": 4,
+      "ell": 193
+    },
+    {
+      "width": 3,
+      "rank": 33,
+      "quotient": 6,
+      "ell": 193
+    },
+    {
+      "width": 5,
+      "rank": 55,
+      "quotient": 10,
+      "ell": 193
+    },
+    {
+      "width": 8,
+      "rank": 88,
+      "quotient": 16,
+      "ell": 193
+    }
+  ],
+  "operator_controls": [
+    {
+      "name": "noncommuting_triangular",
+      "width": 3,
+      "layers": [
+        1,
+        1,
+        1
+      ],
+      "layer_quotients": [
+        2,
+        2,
+        2
+      ],
+      "quotient": 8
+    },
+    {
+      "name": "invariant_layers_2_plus_3",
+      "width": 5,
+      "layers": [
+        2,
+        3
+      ],
+      "layer_quotients": [
+        6,
+        9
+      ],
+      "quotient": 15
+    }
+  ],
+  "rectangular_rank_controls": 300,
+  "negative_controls": [
+    "nonzero lower block invalidates diagonal rank sum",
+    "opposite nilpotents have no common invariant line",
+    "repeated rows do not add rank"
+  ],
+  "universal_status": "Direct mathematical proof reviewed separately; finite controls are not the theorem."
+}

@@ -245,3 +245,9 @@ author-only as a separate artifact. No new complete kappa.
 ## S012 checkpoint1: independently reviewed operator history theorems
 
 Worker C proves the one-width quotient theorem; root directly reviews the universal injection/gluing proof and supplies independent GF(4) noncommuting and singular controls. Root proves the proportional common-vector quotient theorem; C independently reviews every universal implication and implements native incidence and GF(32) subspace controls. Normal and optimized results agree. Earlier exceptional root geometry is explicitly pinned and reused, not relabelled as a fresh replay. Admission links contain complete commands and scope. No human/formal acceptance or new kappa.
+
+## S012 checkpoint2: three independently reviewed packages
+
+The point-retained theorem has separate native reconstruction and universal review by C; root also checked its X-history separation and last-interaction argument. The invariant-filtration theorem has independent root proof review, reconstruction of the ell193/rank11 code, tensor/operator controls and rectangular-minor counterexamples. The paired relay has a root-written rational400-column interpreter and separate integer200th-root interval implementation; all five public maps, locations, ownership states, movement/ordinary profiles and amplification thresholds agree. A public-preserving but dirty-owner mutation is rejected. Phase engines are explicitly reused, not recast as independent all-columns proof.
+
+Relocated author/review reproductions pass; exact receipt: sessions/2026-11-14-S012/CHECKPOINT2-VALIDATION.json. Source WIP attached to the point theorem is pinned unadmitted context only. Every inherited foundation and mathematical scope remains visible in admissions.

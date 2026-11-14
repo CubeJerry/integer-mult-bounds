@@ -1,0 +1,77 @@
+{
+  "all400_input_rank": 400,
+  "all_final_charts_equal_seed": true,
+  "all_original_D_restored": true,
+  "current_a_forward_offdiagonal_coefficients": 4976,
+  "donors": [
+    32,
+    48,
+    85,
+    98
+  ],
+  "hosted_R_plus_L_transpose_zero": true,
+  "mode": "zero_output_cleanup",
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "negative_controls": [
+    "omit_last_source_feedback",
+    "wrong_receiver_pair_sign",
+    "omit_relay_restoration",
+    "omit_forward_output_cleanup",
+    "wrong_relay_terminal_chart",
+    "premature_D_departure"
+  ],
+  "new_complete_public_target_rows": 0,
+  "original_coordinate_forward_debt": 5360,
+  "owned_histogram": {
+    "1": 11,
+    "8": 16
+  },
+  "payload_sha256": "5add4f1a0a79a0ba3b5e98096efe1331506d21a3bda7334d8a7114fc4f6e554e",
+  "rank_one_coefficients_removed_each_side": 16,
+  "raw_histogram": {
+    "1": 112,
+    "2": 120,
+    "3": 104,
+    "5": 200,
+    "8": 192
+  },
+  "raw_rank_mass": 3200,
+  "receivers": [
+    0,
+    7,
+    87,
+    92
+  ],
+  "relay_contents_restored": true,
+  "relay_final_location_contract": "r:D,s:D",
+  "relay_home_return_claimed": false,
+  "relay_initial_rows": {
+    "408": {},
+    "409": {}
+  },
+  "replay_engine_sha256": "045ec283e41288354bb82d2f1e8a62facfb67c23cd4f6954f4d7a5ae744bd37e",
+  "reverse_residual_rank": 96,
+  "scope": "Actual partial complex source with a paid rectangular rank-one bridge; exact owner-restoration and terminal-chart status stated per mode. Sixteen paired coefficients removed; no new full target endpoint, complete supplier, new kappa or foundational discharge.",
+  "seed_word_sha256": "6281068be019f5f17ee9b64dd4f08323b00d1d3003b7ff3ccda6597ebe6265fc",
+  "source_bill": {
+    "counts": {
+      "ADD": 2145,
+      "CLEAR": 30,
+      "INIT": 30,
+      "MOVE": 755,
+      "SCALE": 252
+    },
+    "instructions": 3212,
+    "lifetimes": 30,
+    "moves": {
+      "1": 123,
+      "2": 120,
+      "3": 104,
+      "5": 200,
+      "8": 208
+    },
+    "peak": 14
+  },
+  "status": "PASS_ACTUAL_NATIVE_PAIRED_ECHO_RECTANGLE",
+  "word_sha256": "e78b35f482482d2241d301207b95fd2df05635835d7ad999a64121e981aa98ef"
+}

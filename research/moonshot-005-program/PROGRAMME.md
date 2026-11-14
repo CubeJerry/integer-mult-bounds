@@ -335,3 +335,9 @@ No new complete kappa or foundational discharge.
 ## S012 complementary structural advance: arbitrary operator histories
 
 The [one-width operator theorem](results/bit-operator-canonical-quotient/ADMISSION.md) closes the earlier scalar-only gap. The [proportional successor](results/bit-operator-quotient-density/ADMISSION.md) requires canonical quotient dimension at least V+ceil(V/17) for any target fitting, even with singular/noncommuting blocks. This constrains the whole relevant history, not its terminal rank or number of packets. Actual richer history and paid source completion remain the construction priority. S011 and S012 are concurrent; neither session's WIP is admitted by this update. No new kappa or foundation discharge.
+
+## S012 checkpoint2: actual local information and operator structure
+
+The [point-retained handoff theorem](results/bit-point-retained-handoff-gate/ADMISSION.md) excludes static canonical-plus-twenty-supported-port histories under monotone public trajectories and stationary point-only outside reads. A passing arrival code still needs physical local information. Actual retained proper-chart mixed banks are the next construction; old halfclass and new all-point handoffs are distinct. The [operator filtration theorem](results/bit-operator-invariant-filtration/ADMISSION.md) requires two full innovation widths for every commuting or simultaneously triangularizable target code. Fractional-width work needs genuinely different operator geometry.
+
+The [paid paired relay](results/complex-paid-paired-relay/ADMISSION.md) is an actual complex compiler module: five source variants remove sixteen paired residual coefficients while preserving all400 directions, endpoints and duties. Its positive full movement margin funds only that partial source. Shared rank-factor chronology and larger cocharted rectangles remain open. No new kappa or foundational discharge.

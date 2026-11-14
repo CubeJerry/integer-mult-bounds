@@ -1,0 +1,405 @@
+{
+  "classification": "Author reproduction, not independent mathematical review or a new complete multiplication theorem.",
+  "commands": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/check_algebra.py",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/ALGEBRA.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/build.py",
+        "--seed",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+        "--native",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/dependencies/native.json.gz",
+        "--engine",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/replay.py",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/dirty-echo",
+        "--mode",
+        "dirty_echo"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/price.py",
+        "--full",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/dependencies/FULL-RESULT.json",
+        "--engine",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/interval.py",
+        "--receipt",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/dirty-echo/RESULT.json",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/dirty-echo/PRICE.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/check_maps.py",
+        "--seed",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+        "--word",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/dirty-echo/WORD.json.gz",
+        "--engines",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/dirty-echo/PHASES.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/build.py",
+        "--seed",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+        "--native",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/dependencies/native.json.gz",
+        "--engine",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/replay.py",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-echo",
+        "--mode",
+        "zero_echo"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/price.py",
+        "--full",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/dependencies/FULL-RESULT.json",
+        "--engine",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/interval.py",
+        "--receipt",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-echo/RESULT.json",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-echo/PRICE.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/check_maps.py",
+        "--seed",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+        "--word",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-echo/WORD.json.gz",
+        "--engines",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-echo/PHASES.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/build.py",
+        "--seed",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+        "--native",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/dependencies/native.json.gz",
+        "--engine",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/replay.py",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-roundtrip",
+        "--mode",
+        "zero_roundtrip"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/price.py",
+        "--full",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/dependencies/FULL-RESULT.json",
+        "--engine",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/interval.py",
+        "--receipt",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-roundtrip/RESULT.json",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-roundtrip/PRICE.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/check_maps.py",
+        "--seed",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+        "--word",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-roundtrip/WORD.json.gz",
+        "--engines",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-roundtrip/PHASES.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/build.py",
+        "--seed",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+        "--native",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/dependencies/native.json.gz",
+        "--engine",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/replay.py",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-erasure",
+        "--mode",
+        "zero_erasure"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/price.py",
+        "--full",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/dependencies/FULL-RESULT.json",
+        "--engine",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/interval.py",
+        "--receipt",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-erasure/RESULT.json",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-erasure/PRICE.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/check_maps.py",
+        "--seed",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+        "--word",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-erasure/WORD.json.gz",
+        "--engines",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-erasure/PHASES.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/build.py",
+        "--seed",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+        "--native",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/dependencies/native.json.gz",
+        "--engine",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/replay.py",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-output-cleanup",
+        "--mode",
+        "zero_output_cleanup"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/price.py",
+        "--full",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/dependencies/FULL-RESULT.json",
+        "--engine",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/interval.py",
+        "--receipt",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-output-cleanup/RESULT.json",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-output-cleanup/PRICE.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/worker-b/paired-echo/check_maps.py",
+        "--seed",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+        "--word",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-output-cleanup/WORD.json.gz",
+        "--engines",
+        "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies",
+        "--output",
+        "/workspace/scratch/82e30be26b31/worker-b/echo-final-replay/zero-output-cleanup/PHASES.json"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "source_checks": [
+    {
+      "mode": "dirty_echo",
+      "payload_sha256": "19c5d34e5634e0a9583fa877af4ec134637742f58a94b01ef178c56a26e1a534",
+      "phase_maps": 15,
+      "source_bill": {
+        "counts": {
+          "ADD": 2156,
+          "CLEAR": 28,
+          "INIT": 28,
+          "MOVE": 760,
+          "SCALE": 252
+        },
+        "instructions": 3224,
+        "lifetimes": 28,
+        "moves": {
+          "1": 126,
+          "2": 120,
+          "3": 106,
+          "4": 2,
+          "5": 200,
+          "8": 206
+        },
+        "peak": 12
+      }
+    },
+    {
+      "mode": "zero_echo",
+      "payload_sha256": "0c11a6f36d5e290c42dd710407c1de1db3fec54f96beb6e94f97c74cb387e0e9",
+      "phase_maps": 12,
+      "source_bill": {
+        "counts": {
+          "ADD": 2156,
+          "CLEAR": 30,
+          "INIT": 30,
+          "MOVE": 758,
+          "SCALE": 252
+        },
+        "instructions": 3226,
+        "lifetimes": 30,
+        "moves": {
+          "1": 126,
+          "2": 120,
+          "3": 104,
+          "5": 200,
+          "8": 208
+        },
+        "peak": 14
+      }
+    },
+    {
+      "mode": "zero_roundtrip",
+      "payload_sha256": "d44339dcfe79322ae068a22f5b19fdfa43410dafcea03f71e3b37a2ab3064865",
+      "phase_maps": 12,
+      "source_bill": {
+        "counts": {
+          "ADD": 2148,
+          "CLEAR": 30,
+          "INIT": 30,
+          "MOVE": 756,
+          "SCALE": 252
+        },
+        "instructions": 3216,
+        "lifetimes": 30,
+        "moves": {
+          "1": 124,
+          "2": 120,
+          "3": 104,
+          "5": 200,
+          "8": 208
+        },
+        "peak": 14
+      }
+    },
+    {
+      "mode": "zero_erasure",
+      "payload_sha256": "8303fc23a4cd00892322b7432d73be126b288cbe09dcc3676f9a5658f7d264c1",
+      "phase_maps": 12,
+      "source_bill": {
+        "counts": {
+          "ADD": 2140,
+          "CLEAR": 30,
+          "INIT": 30,
+          "MOVE": 754,
+          "SCALE": 252
+        },
+        "instructions": 3206,
+        "lifetimes": 30,
+        "moves": {
+          "1": 122,
+          "2": 120,
+          "3": 104,
+          "5": 200,
+          "8": 208
+        },
+        "peak": 14
+      }
+    },
+    {
+      "mode": "zero_output_cleanup",
+      "payload_sha256": "5add4f1a0a79a0ba3b5e98096efe1331506d21a3bda7334d8a7114fc4f6e554e",
+      "phase_maps": 12,
+      "source_bill": {
+        "counts": {
+          "ADD": 2145,
+          "CLEAR": 30,
+          "INIT": 30,
+          "MOVE": 755,
+          "SCALE": 252
+        },
+        "instructions": 3212,
+        "lifetimes": 30,
+        "moves": {
+          "1": 123,
+          "2": 120,
+          "3": 104,
+          "5": 200,
+          "8": 208
+        },
+        "peak": 14
+      }
+    }
+  ],
+  "status": "PASS_ISOLATED_PAIRED_RELAY_REPRODUCTION"
+}

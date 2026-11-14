@@ -1,0 +1,448 @@
+{
+  "baseline_sha": "9435687de849e93af4d5ed2f748a27b1ac81ce6d",
+  "prepared_utc": "2026-11-14T07:37:56.683336+00:00",
+  "status": "PASS_THREE_PACKAGE_RELOCATION_AND_INDEPENDENT_REVIEW",
+  "checks": [
+    {
+      "result": "bit-point-retained-handoff-gate/author/RESULT.json",
+      "exact_json_equal": true,
+      "sha256": "cb3b8433cba0dcb9801449737db38d223e0b3ae4e3a5aa05cc84f35df9d164eb"
+    },
+    {
+      "result": "bit-point-retained-handoff-gate/review-c/RESULT.json",
+      "exact_json_equal": true,
+      "sha256": "d4d9bfddc5beed08ee3602af18b534aa7c6a50bc76afc8fa8a762eece4a5c6eb"
+    },
+    {
+      "result": "bit-operator-invariant-filtration/author/RESULT.json",
+      "exact_json_equal": true,
+      "sha256": "2ba91cd69533a5e0684dab46d7744e6667f56f470f7df9f0aee5c6fab2ba0636"
+    },
+    {
+      "result": "bit-operator-invariant-filtration/author/SCALAR-FITTING.json",
+      "exact_json_equal": true,
+      "sha256": "249192360fe31cecf848958cb4c9f060c8789b9c368ae3384634e0e6ca9fa0e5"
+    },
+    {
+      "result": "bit-operator-invariant-filtration/review-root/RESULT.json",
+      "exact_json_equal": true,
+      "sha256": "d43437180d9ac41abf2348522265c89848ed4ba5f5ced9f9c21869359fa7508c"
+    },
+    {
+      "result": "complex-paid-paired-relay/review-root/RESULT.json",
+      "exact_json_equal": true,
+      "sha256": "dfffe1ec65dad22c8b23cf26027a07fe06499f3c10c19e8e92411e19881ab872"
+    },
+    {
+      "result": "complex-paid-paired-relay/review-root/PRICE.json",
+      "exact_json_equal": true,
+      "sha256": "9ce9c0dd10016252a244e0e14cf5f8781cbc85030e5f650b71373e9b793060a5"
+    }
+  ],
+  "relay_author_reproduction": {
+    "classification": "Author reproduction, not independent mathematical review or a new complete multiplication theorem.",
+    "commands": [
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/check_algebra.py",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/ALGEBRA.json"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/build.py",
+          "--seed",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+          "--native",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/dependencies/native.json.gz",
+          "--engine",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/replay.py",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/dirty-echo",
+          "--mode",
+          "dirty_echo"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/price.py",
+          "--full",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/dependencies/FULL-RESULT.json",
+          "--engine",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/interval.py",
+          "--receipt",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/dirty-echo/RESULT.json",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/dirty-echo/PRICE.json"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/check_maps.py",
+          "--seed",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+          "--word",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/dirty-echo/WORD.json.gz",
+          "--engines",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/dirty-echo/PHASES.json"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/build.py",
+          "--seed",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+          "--native",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/dependencies/native.json.gz",
+          "--engine",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/replay.py",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-echo",
+          "--mode",
+          "zero_echo"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/price.py",
+          "--full",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/dependencies/FULL-RESULT.json",
+          "--engine",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/interval.py",
+          "--receipt",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-echo/RESULT.json",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-echo/PRICE.json"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/check_maps.py",
+          "--seed",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+          "--word",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-echo/WORD.json.gz",
+          "--engines",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-echo/PHASES.json"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/build.py",
+          "--seed",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+          "--native",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/dependencies/native.json.gz",
+          "--engine",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/replay.py",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-roundtrip",
+          "--mode",
+          "zero_roundtrip"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/price.py",
+          "--full",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/dependencies/FULL-RESULT.json",
+          "--engine",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/interval.py",
+          "--receipt",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-roundtrip/RESULT.json",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-roundtrip/PRICE.json"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/check_maps.py",
+          "--seed",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+          "--word",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-roundtrip/WORD.json.gz",
+          "--engines",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-roundtrip/PHASES.json"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/build.py",
+          "--seed",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+          "--native",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/dependencies/native.json.gz",
+          "--engine",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/replay.py",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-erasure",
+          "--mode",
+          "zero_erasure"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/price.py",
+          "--full",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/dependencies/FULL-RESULT.json",
+          "--engine",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/interval.py",
+          "--receipt",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-erasure/RESULT.json",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-erasure/PRICE.json"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/check_maps.py",
+          "--seed",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+          "--word",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-erasure/WORD.json.gz",
+          "--engines",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-erasure/PHASES.json"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/build.py",
+          "--seed",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+          "--native",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/dependencies/native.json.gz",
+          "--engine",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/replay.py",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-output-cleanup",
+          "--mode",
+          "zero_output_cleanup"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/price.py",
+          "--full",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/dependencies/FULL-RESULT.json",
+          "--engine",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies/interval.py",
+          "--receipt",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-output-cleanup/RESULT.json",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-output-cleanup/PRICE.json"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-I",
+          "-B",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-paid-paired-relay/author/check_maps.py",
+          "--seed",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/output/WORD.json.gz",
+          "--word",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-output-cleanup/WORD.json.gz",
+          "--engines",
+          "/workspace/scratch/82e30be26b31/programme/research/moonshot-005-program/results/complex-omitted-line-gram/author/dependencies",
+          "--output",
+          "/workspace/scratch/82e30be26b31/checkpoint2-replay/relay-author/zero-output-cleanup/PHASES.json"
+        ],
+        "exit_code": 0
+      }
+    ],
+    "source_checks": [
+      {
+        "mode": "dirty_echo",
+        "payload_sha256": "19c5d34e5634e0a9583fa877af4ec134637742f58a94b01ef178c56a26e1a534",
+        "phase_maps": 15,
+        "source_bill": {
+          "counts": {
+            "ADD": 2156,
+            "CLEAR": 28,
+            "INIT": 28,
+            "MOVE": 760,
+            "SCALE": 252
+          },
+          "instructions": 3224,
+          "lifetimes": 28,
+          "moves": {
+            "1": 126,
+            "2": 120,
+            "3": 106,
+            "4": 2,
+            "5": 200,
+            "8": 206
+          },
+          "peak": 12
+        }
+      },
+      {
+        "mode": "zero_echo",
+        "payload_sha256": "0c11a6f36d5e290c42dd710407c1de1db3fec54f96beb6e94f97c74cb387e0e9",
+        "phase_maps": 12,
+        "source_bill": {
+          "counts": {
+            "ADD": 2156,
+            "CLEAR": 30,
+            "INIT": 30,
+            "MOVE": 758,
+            "SCALE": 252
+          },
+          "instructions": 3226,
+          "lifetimes": 30,
+          "moves": {
+            "1": 126,
+            "2": 120,
+            "3": 104,
+            "5": 200,
+            "8": 208
+          },
+          "peak": 14
+        }
+      },
+      {
+        "mode": "zero_roundtrip",
+        "payload_sha256": "d44339dcfe79322ae068a22f5b19fdfa43410dafcea03f71e3b37a2ab3064865",
+        "phase_maps": 12,
+        "source_bill": {
+          "counts": {
+            "ADD": 2148,
+            "CLEAR": 30,
+            "INIT": 30,
+            "MOVE": 756,
+            "SCALE": 252
+          },
+          "instructions": 3216,
+          "lifetimes": 30,
+          "moves": {
+            "1": 124,
+            "2": 120,
+            "3": 104,
+            "5": 200,
+            "8": 208
+          },
+          "peak": 14
+        }
+      },
+      {
+        "mode": "zero_erasure",
+        "payload_sha256": "8303fc23a4cd00892322b7432d73be126b288cbe09dcc3676f9a5658f7d264c1",
+        "phase_maps": 12,
+        "source_bill": {
+          "counts": {
+            "ADD": 2140,
+            "CLEAR": 30,
+            "INIT": 30,
+            "MOVE": 754,
+            "SCALE": 252
+          },
+          "instructions": 3206,
+          "lifetimes": 30,
+          "moves": {
+            "1": 122,
+            "2": 120,
+            "3": 104,
+            "5": 200,
+            "8": 208
+          },
+          "peak": 14
+        }
+      },
+      {
+        "mode": "zero_output_cleanup",
+        "payload_sha256": "5add4f1a0a79a0ba3b5e98096efe1331506d21a3bda7334d8a7114fc4f6e554e",
+        "phase_maps": 12,
+        "source_bill": {
+          "counts": {
+            "ADD": 2145,
+            "CLEAR": 30,
+            "INIT": 30,
+            "MOVE": 755,
+            "SCALE": 252
+          },
+          "instructions": 3212,
+          "lifetimes": 30,
+          "moves": {
+            "1": 123,
+            "2": 120,
+            "3": 104,
+            "5": 200,
+            "8": 208
+          },
+          "peak": 14
+        }
+      }
+    ],
+    "status": "PASS_ISOLATED_PAIRED_RELAY_REPRODUCTION"
+  },
+  "classification": "Author reproduction and independently written source/price/proof reviews are distinguished in admissions. No complete supplier or new kappa."
+}

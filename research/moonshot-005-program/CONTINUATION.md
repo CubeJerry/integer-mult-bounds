@@ -136,3 +136,9 @@ active escapes; any locality obstruction must prove its support induction.
 ## S012 complementary checkpoint1
 
 Read the operator quotient/density admissions before treating entangled blocks as a free escape from the scalar one-direction gate. Whole relevant history must have canonical quotient at least V+ceil(V/17). Mixed proper-chart banks and paid paired relay remain live constructive tasks. S012 runs concurrently from06:50:01 to16:50:01UTC; its checkpoint and WIP references are in STATE.s012. Preserve S011 evidence and reconcile the remote before publication.
+
+## S012 checkpoint2: mixed local acquisition and paired streaming
+
+The static point-retained interface cannot finish with canonical history plus<=20 supported ports. Copies of the same small supported banks at proper charts do not escape this theorem; genuinely new mixed information, richer actual histories or paid public turns are required. All commuting/triangularizable target operator coefficients also need2V canonical innovation. Code existence is distinct from physical availability.
+
+Use the admitted complex paid paired relay as a local module. Do not repeat dirty echoes when a cheaper fresh-zero contract actually applies; do not silently grant its zero cache or left inverse. Next construct shared single-carrier rank-factor streaming with authentic d and accumulated output cleanup, then test joint chronology and invoice. Both strict suppliers and all foundations remain open. S011 remains concurrent; reconcile remote history before publication.

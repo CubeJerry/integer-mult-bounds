@@ -323,3 +323,9 @@ rank-ten/rank-thirteen codes or general added operator modes beyond its scope.
 ## S012 all-width canonical quotient requirement
 
 For d=dim((row(A)+C tensor k^V)/(C tensor k^V)), d<V retains every canonical contact and ell=222; d<=V forces ell>=205. Shared quotient-vector gluing strengthens the target consequence to d>=V+ceil(V/17). With b double-saving rows it gives d>=V+ceil(V/(17-min(b,9))). These are necessary code conditions under the retained all-route ell<=194 target. A history actually containing the canonical9V code needs dimension at least10V+ceil(V/17). No arbitrary fitting-rank or packet-count inference is made. [Reviewed proofs](results/bit-operator-quotient-density/ADMISSION.md).
+
+## S012 checkpoint2: requirements beyond the arrival proxy
+
+At ell<=194, a common operator flag of layer widths v_a forces canonical quotient d>=V+sum ceil(v_a/17), with denominator17-min(b,9) when b rows save twice. Commuting or otherwise simultaneously triangularizable coefficients force d>=2V; an explicit ell193 scalar fitting makes this sharp algebraically. That fitting is not a decoder. Under the retained point-only handoff, histories inside(C+span of at most20 coordinate directions) tensor k^V cannot complete111 outputs, regardless of arrival score. [Filtration](results/bit-operator-invariant-filtration/ADMISSION.md); [handoff](results/bit-point-retained-handoff-gate/ADMISSION.md).
+
+The actual complex rectangle has limiting signed movement room4.422479424557809...,4.499844872404047...,5.499844872404047...,6.499844872404047...,2.499844872404047... under its five distinct relay contracts. Exact intervals and common31.539778367.../(m-1) penalty are retained. Current-a forward debt4976 and reverse residual rank96 remain. These partial-source margins cannot certify U>.005. [Full local invoices](results/complex-paid-paired-relay/author/PROOF.md).

@@ -211,3 +211,13 @@ coordinate algebraic fitting withell183 prevents extrapolation to all sizes.
 | OPERATOR-QUOTIENT-DENSITY | PROVED target requires d>=V+ceil(V/17); weighted/field refinements. | Realize useful multi-image histories and all endpoints within full invoice. |
 
 Proofs and independent reviews: [one-width](results/bit-operator-canonical-quotient/ADMISSION.md), [density](results/bit-operator-quotient-density/ADMISSION.md). The GF(32) abstract arrangement only limits the subspace argument; it is not a native source.
+
+## S012 checkpoint2 dependency changes
+
+| Obligation | Verified status and dependency | Remaining work |
+|---|---|---|
+| POINT-RETAINED-STATIC-HISTORY | DISPROVED WITHIN SCOPE for<=20 supported innovations; exact native distance and one-point-suffix proof. | Actual mixed bank outside W_T, richer history, or paid public turn with full source account. |
+| OPERATOR-INVARIANT-LAYERS | PROVED d>=V+sum ceil(v_a/17), hence commuting target d>=2V; depends on admitted quotient-density theorem. | Nontriangularizable fitting or changed physical history, then acquisition/decoder. |
+| PAIRED-PAID-RECTANGLE | PROVED universal macro; five finite native words independently checked on400 inputs and rigorously priced. | Shared global completion, genuine all-width physical admission, remaining paired residual. |
+
+Admissions: [point handoff](results/bit-point-retained-handoff-gate/ADMISSION.md), [operator layers](results/bit-operator-invariant-filtration/ADMISSION.md), [paired rectangle](results/complex-paid-paired-relay/ADMISSION.md). No foundation, strict supplier or complete kappa obligation is discharged.

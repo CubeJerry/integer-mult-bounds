@@ -2,7 +2,7 @@
   "schema": "moonshot-005-program-state-v2-compact",
   "branch": "research/moonshot-005-program",
   "repository": "CubeJerry/integer-mult-bounds",
-  "checkpoint_baseline_sha": "41d43439627b0d1038ac638af71cbf82743f9d06",
+  "checkpoint_baseline_sha": "9435687de849e93af4d5ed2f748a27b1ac81ce6d",
   "checkpoint_sha_semantics": "Parent/baseline identity; never self-referential. Resulting remote SHA is confirmed after publication and recorded in next receipt or session handoff.",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
   "upstream_last_checked_utc": "2026-11-14 05:24 UTC",
@@ -61,6 +61,11 @@
       "id": "S012-OPERATOR-HISTORY",
       "status": "proved necessary gates; constructive escape remains open",
       "current": "Canonical quotient d>=V+ceil(V/17) at target; no inference from terminal rank or packet identities."
+    },
+    {
+      "id": "S012-MIXED-LOCAL-PAIRED-SOURCE",
+      "status": "necessary structural gates and partial source proved",
+      "current": "Actual mixed proper banks and joint BIT continuation; paired factor streaming and global complex residual remain open."
     }
   ],
   "verified_results": [
@@ -327,11 +332,29 @@
       "status": "proved common-vector gluing, proportional quotient gap V+ceil(V/17), weighted and finite-field refinements",
       "source": "results/bit-operator-quotient-density/ADMISSION.md",
       "complete_kappa": false
+    },
+    {
+      "id": "BIT-POINT-RETAINED-HANDOFF",
+      "status": "proved all-field/all-width twenty-port exclusion in monotone point-retained interface",
+      "source": "results/bit-point-retained-handoff-gate/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "BIT-OPERATOR-INVARIANT-FILTRATION",
+      "status": "proved additive operator-layer innovation; commuting target requires2V, sharp",
+      "source": "results/bit-operator-invariant-filtration/ADMISSION.md",
+      "complete_kappa": false
+    },
+    {
+      "id": "COMPLEX-PAID-PAIRED-RELAY",
+      "status": "proved paired macro; five actual partial native words independently replayed and priced;16 paired coefficients removed",
+      "source": "results/complex-paid-paired-relay/ADMISSION.md",
+      "complete_kappa": false
     }
   ],
   "registered_results_index": {
     "path": "REGISTERED-RESULTS.json",
-    "records": 178,
+    "records": 181,
     "scope": "Preserved classifications includingpartial,conditional,scopednegative andfinite results; no automatic promotion."
   },
   "completed_milestones": [
@@ -394,8 +417,8 @@
     "complete_complex_caller_sha256": "d9ba709fa5dcefffe3f3abdcf34600ce188224703cfd743e6db8b58ba4816cb7",
     "selected_index_sha256": "154c3d30455d778fd3343b6b4851f0fa4665f0f7625b0adb3675e2bafbbf6bf1"
   },
-  "last_verified_scientific_commit": "b184be6060be439f534d88e1b540415c4e9307c5",
-  "last_verified_scientific_tree": "4faa32de75a5760ba2e3ad4e01b5c8d7d92b9625",
+  "last_verified_scientific_commit": "9435687de849e93af4d5ed2f748a27b1ac81ce6d",
+  "last_verified_scientific_tree": "417f8b97a955bc6392992386dbd6d1e75960aa23",
   "archived_state": {
     "path": "sessions/2026-11-13-S010/logical-records-at-cp12/STATE.json",
     "source_commit": "35237fd8d59aeb3b0a21c9a427daca2f1eee9a60",
@@ -440,7 +463,7 @@
     "final_handoff": "sessions/2026-11-13-S010/FINAL-HANDOFF.json"
   },
   "path_semantics": "Paths relative to research/moonshot-005-program unless stated otherwise.",
-  "publication_status": "Ongoing research programme. No new complete kappa; no upstream PR submitted. Ten-hour S011 research session active; no execution promised after its handoff.",
+  "publication_status": "Ongoing programme, concurrent S011 and S012 sessions. No new complete kappa or upstream PR. No execution promised after a handoff.",
   "s011": {
     "starting_remote_sha": "628429f0ffbe2da62d411befb314e74219c6ea57",
     "requested_seconds": 36000,
@@ -492,14 +515,20 @@
     "checkpoint1_utc": "2026-11-14 07:10:34 UTC",
     "completed_milestones": [
       "BIT-OPERATOR-CANONICAL-QUOTIENT",
-      "BIT-OPERATOR-QUOTIENT-DENSITY"
+      "BIT-OPERATOR-QUOTIENT-DENSITY",
+      "BIT-POINT-RETAINED-HANDOFF",
+      "BIT-OPERATOR-INVARIANT-FILTRATION",
+      "COMPLEX-PAID-PAIRED-RELAY"
     ],
-    "mathematical_status": "Two independently reviewed operator-history theorems; no source/supplier/foundation discharge. Actual mixed-bank and paid paired-relay constructions continue.",
+    "mathematical_status": "Point-retained static histories excluded for<=20 supported innovations; commuting target needs2V innovation; paid complex rectangle admitted as partial source. Mixed-bank decoder and streaming-factor constructions continue.",
     "next_actions": [
-      "Physically acquire and retain useful richer history consistent with proportional canonical quotient gate.",
-      "Review point-retained handoff gate and actual paired relay; continue mixed-bank/relay construction.",
-      "Protected next theorem: common invariant flags and irreducible operator layers."
-    ]
+      "Acquire actual stationary mixed banks and construct a joint continuation preserving the retained canonical pivot.",
+      "Complete paid single-carrier rank-factor streaming with authentic source/adjoint availability and output cleanup.",
+      "Seek genuinely nontriangularizable fractional canonical-quotient fitting or a precisely scoped obstruction."
+    ],
+    "checkpoint2_baseline": "9435687de849e93af4d5ed2f748a27b1ac81ce6d",
+    "checkpoint2_utc": "2026-11-14T07:38:13.015226+00:00",
+    "primary_obligation": "Extend the actual retained canonical pivot into a joint decoder that preserves useful current modes and creates enough genuinely new history to overcome the all-route support gate; complete all111 Y/restore111 X within the entire signed caller, ordinary, ownership and compiler contract."
   },
   "latest_checkpoint_session": "2026-11-14-S012"
 }

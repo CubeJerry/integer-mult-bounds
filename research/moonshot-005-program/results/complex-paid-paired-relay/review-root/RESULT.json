@@ -1,0 +1,149 @@
+{
+  "status": "PASS_INDEPENDENT_PAIRED_ECHO_SOURCE_REPLAY",
+  "seed_sha256": "6281068be019f5f17ee9b64dd4f08323b00d1d3003b7ff3ccda6597ebe6265fc",
+  "proof_sha256": "38263a53edd3bfa486bd6ae3cccce821123724804b7036768f36a804cb67b9fc",
+  "variants": [
+    {
+      "mode": "dirty_echo",
+      "word_sha256": "0e8f675f8d4687ca3a66606f7655003c6e6d1c3748c0f1083700561e07e20006",
+      "all400_rows": true,
+      "final_locations": true,
+      "raw": {
+        "1": 112,
+        "2": 120,
+        "3": 104,
+        "5": 200,
+        "8": 192
+      },
+      "owned": {
+        "1": 14,
+        "3": 2,
+        "4": 2,
+        "8": 14
+      },
+      "ordinary_counts": {
+        "INIT": 28,
+        "ADD": 2156,
+        "MOVE": 760,
+        "CLEAR": 28,
+        "SCALE": 252
+      },
+      "peak": 12,
+      "lifetimes": 28,
+      "controls": [
+        "inverse-feedback mutation rejected"
+      ]
+    },
+    {
+      "mode": "zero_roundtrip",
+      "word_sha256": "083592943544998cc8fbe20c8079d612deffd502a9783a7080789e2b62dc49a0",
+      "all400_rows": true,
+      "final_locations": true,
+      "raw": {
+        "1": 112,
+        "2": 120,
+        "3": 104,
+        "5": 200,
+        "8": 192
+      },
+      "owned": {
+        "1": 12,
+        "8": 16
+      },
+      "ordinary_counts": {
+        "INIT": 30,
+        "ADD": 2148,
+        "MOVE": 756,
+        "CLEAR": 30,
+        "SCALE": 252
+      },
+      "peak": 14,
+      "lifetimes": 30,
+      "controls": []
+    },
+    {
+      "mode": "zero_output_cleanup",
+      "word_sha256": "e78b35f482482d2241d301207b95fd2df05635835d7ad999a64121e981aa98ef",
+      "all400_rows": true,
+      "final_locations": true,
+      "raw": {
+        "1": 112,
+        "2": 120,
+        "3": 104,
+        "5": 200,
+        "8": 192
+      },
+      "owned": {
+        "1": 11,
+        "8": 16
+      },
+      "ordinary_counts": {
+        "INIT": 30,
+        "ADD": 2145,
+        "MOVE": 755,
+        "CLEAR": 30,
+        "SCALE": 252
+      },
+      "peak": 14,
+      "lifetimes": 30,
+      "controls": [
+        "public-preserving-dirty-owner mutation rejected"
+      ]
+    },
+    {
+      "mode": "zero_erasure",
+      "word_sha256": "04302f11ba8224fc0348648d57362f92325761ce9fbfb1a35c75921bd3c97b2f",
+      "all400_rows": true,
+      "final_locations": true,
+      "raw": {
+        "1": 112,
+        "2": 120,
+        "3": 104,
+        "5": 200,
+        "8": 192
+      },
+      "owned": {
+        "1": 10,
+        "8": 16
+      },
+      "ordinary_counts": {
+        "INIT": 30,
+        "ADD": 2140,
+        "MOVE": 754,
+        "CLEAR": 30,
+        "SCALE": 252
+      },
+      "peak": 14,
+      "lifetimes": 30,
+      "controls": []
+    },
+    {
+      "mode": "zero_echo",
+      "word_sha256": "0ebb05164dd00496f9bfdd71287a96fc495498cb9cdf45414f41a4c829f6bf0d",
+      "all400_rows": true,
+      "final_locations": true,
+      "raw": {
+        "1": 112,
+        "2": 120,
+        "3": 104,
+        "5": 200,
+        "8": 192
+      },
+      "owned": {
+        "1": 14,
+        "8": 16
+      },
+      "ordinary_counts": {
+        "INIT": 30,
+        "ADD": 2156,
+        "MOVE": 758,
+        "CLEAR": 30,
+        "SCALE": 252
+      },
+      "peak": 14,
+      "lifetimes": 30,
+      "controls": []
+    }
+  ],
+  "scope": "Exact400-column rational replay and binary chart chronology. Introduced phases reproduced separately with retained engine; no all-column foundation discharge."
+}
