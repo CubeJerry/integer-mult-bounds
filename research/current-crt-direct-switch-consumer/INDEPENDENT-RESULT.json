@@ -1,0 +1,312 @@
+{
+  "actual_input": [
+    3,
+    2,
+    1,
+    1
+  ],
+  "actual_moduli": [
+    5,
+    7,
+    2,
+    3
+  ],
+  "actual_offset": 2,
+  "both_retained_symbol_cells": 2126,
+  "both_retained_symbol_owners": 200,
+  "forward": {
+    "direction": "forward",
+    "encoded_source_symbol_actions": 118045,
+    "literal_core_instructions": 14926,
+    "literal_query_calls": 12,
+    "literal_query_instructions": 21938,
+    "observed_headers": {
+      "h": "L01000R",
+      "modulus": "L11000R",
+      "offsets": "L01000|R",
+      "selected_layer": "L00000R",
+      "width": "L11R"
+    },
+    "outer_adapter_symbol_actions": 1294,
+    "payload_adapter_bit_actions": 1694,
+    "query_symbol_actions_included_in_literal_bill": 17234,
+    "radix_bit_control_instructions": 43162,
+    "radix_passes": 2,
+    "retained_bucket_bits": 208,
+    "retained_radix_register_bits": 144,
+    "retained_symbol_cells": 873,
+    "retained_symbol_roles": 100,
+    "selected_nodes": 1,
+    "skipped_nodes": 1
+  },
+  "forward_chronology": [
+    "open",
+    "close_skipped",
+    "open",
+    "stage",
+    "close_selected",
+    "commit"
+  ],
+  "forward_destinations": [
+    2,
+    0,
+    1,
+    3
+  ],
+  "forward_payload": [
+    [
+      0,
+      730
+    ],
+    [
+      1,
+      905
+    ],
+    [
+      2,
+      293
+    ],
+    [
+      3,
+      3681
+    ]
+  ],
+  "full_source_payload_key_bytes_and_identities_restored": true,
+  "graph_sha256": "2257055b689e0f88dca29532548639323dc3fa27a6e5150ea6652ed5636e07a2",
+  "independent_oracle": "parity-union-find canonical network; modular inverse and independent 13-bit tag parser",
+  "independent_semantics": "separate sparse state/PC engine checks and issues every actual Tape action",
+  "inverse": {
+    "direction": "inverse",
+    "encoded_source_symbol_actions": 360151,
+    "literal_core_instructions": 14926,
+    "literal_query_calls": 12,
+    "literal_query_instructions": 21938,
+    "observed_headers": {
+      "h": "L01000R",
+      "modulus": "L11000R",
+      "offsets": "L01000|R",
+      "selected_layer": "L00000R",
+      "width": "L11R"
+    },
+    "outer_adapter_symbol_actions": 1602,
+    "payload_adapter_bit_actions": 1694,
+    "query_symbol_actions_included_in_literal_bill": 17234,
+    "radix_bit_control_instructions": 43162,
+    "radix_passes": 2,
+    "retained_bucket_bits": 208,
+    "retained_radix_register_bits": 144,
+    "retained_symbol_cells": 1253,
+    "retained_symbol_roles": 100,
+    "selected_nodes": 1,
+    "skipped_nodes": 2
+  },
+  "inverse_chronology": [
+    "open",
+    "close_skipped",
+    "open",
+    "close_skipped",
+    "open",
+    "stage",
+    "close_selected",
+    "commit"
+  ],
+  "literal_core_embedding_checked_instructions": 2096,
+  "locations": 2500,
+  "payload_retained_extent": 183,
+  "returning_controls": [
+    {
+      "all_owned_histories_and_heads_retired": true,
+      "canonical_predicate_mismatches": [],
+      "events": [
+        "open",
+        "close_skipped",
+        "open",
+        "stage",
+        "close_selected",
+        "commit"
+      ],
+      "fault": "stale_offset",
+      "live_lease_header_mismatches": 12,
+      "queries": 12,
+      "returned_payload": [
+        [
+          0,
+          293
+        ],
+        [
+          1,
+          730
+        ],
+        [
+          2,
+          905
+        ],
+        [
+          3,
+          3681
+        ]
+      ]
+    },
+    {
+      "all_owned_histories_and_heads_retired": true,
+      "canonical_predicate_mismatches": [
+        {
+          "a": 2,
+          "expected": 0,
+          "h": 2,
+          "j": 2,
+          "returned": 1,
+          "s": 3,
+          "x": 2
+        },
+        {
+          "a": 2,
+          "expected": 1,
+          "h": 2,
+          "j": 2,
+          "returned": 0,
+          "s": 3,
+          "x": 0
+        }
+      ],
+      "events": [
+        "open",
+        "close_skipped",
+        "open",
+        "stage",
+        "close_selected",
+        "commit"
+      ],
+      "fault": "stale_wire",
+      "live_lease_header_mismatches": 0,
+      "queries": 12,
+      "returned_payload": [
+        [
+          0,
+          730
+        ],
+        [
+          0,
+          905
+        ],
+        [
+          3,
+          293
+        ],
+        [
+          3,
+          3681
+        ]
+      ]
+    },
+    {
+      "all_owned_histories_and_heads_retired": true,
+      "fault": "forward_rows_in_inverse",
+      "payload_fully_restored": false,
+      "queries": 12,
+      "source_fully_restored": true
+    },
+    {
+      "fault": "unit_modulus_source",
+      "message": "CRT modulus exceeds one",
+      "point_calls": 0,
+      "scope": "point permits unit modulus; actual source excludes it"
+    }
+  ],
+  "scope": "Uniform point proof plus bounded actual caller review. Source and radix providers are pinned retained code, not independently reimplemented. Mixed cost vector; no new kappa.",
+  "source_retained_cells": 57,
+  "standalone_point_fixtures": [
+    {
+      "a": 0,
+      "core_instructions": 837,
+      "h": 1,
+      "instructions": 1248,
+      "j": 0,
+      "k": 1,
+      "p": 2,
+      "produced": 0,
+      "retained_private_cells": 62,
+      "s": 1,
+      "status": "DONE",
+      "symbol_actions": 1007,
+      "x": 1
+    },
+    {
+      "a": 7,
+      "core_instructions": 1479,
+      "h": 3,
+      "instructions": 2104,
+      "j": 4,
+      "k": 1,
+      "p": 4,
+      "produced": 1,
+      "retained_private_cells": 87,
+      "s": 8,
+      "status": "DONE",
+      "symbol_actions": 1639,
+      "x": 7
+    },
+    {
+      "a": 9,
+      "core_instructions": 2961,
+      "h": 5,
+      "instructions": 11350,
+      "j": 6,
+      "k": 3,
+      "p": 257,
+      "produced": 1,
+      "retained_private_cells": 1299,
+      "s": 17,
+      "status": "DONE",
+      "symbol_actions": 8210,
+      "x": 23
+    },
+    {
+      "a": 1,
+      "core_instructions": 1704,
+      "h": 3,
+      "instructions": 2409,
+      "j": 1,
+      "k": 3,
+      "p": 6,
+      "produced": 1,
+      "retained_private_cells": 90,
+      "s": 5,
+      "status": "DONE",
+      "symbol_actions": 1876,
+      "x": 5
+    },
+    {
+      "a": 65536,
+      "core_instructions": 21445,
+      "h": 17,
+      "instructions": 23704,
+      "j": 16,
+      "k": 17,
+      "p": 18,
+      "produced": 1,
+      "retained_private_cells": 258,
+      "s": 131072,
+      "status": "DONE",
+      "symbol_actions": 17872,
+      "x": 131071
+    },
+    {
+      "a": 0,
+      "core_instructions": 940,
+      "h": 2,
+      "instructions": 1504,
+      "j": 0,
+      "k": 1,
+      "p": 5,
+      "produced": null,
+      "retained_private_cells": 77,
+      "s": 0,
+      "status": "REJECT",
+      "symbol_actions": 1193,
+      "x": 0
+    }
+  ],
+  "status": "PASS",
+  "tapes": 20
+}
