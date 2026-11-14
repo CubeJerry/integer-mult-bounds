@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Read-only exact alternating-component/minor/characteristic-two checks for every normalized order through d=3, literal small polynomial coefficients, rational forward/inverse exceptions and semantic controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-W",
+        "error",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Read-only exact alternating-component/minor/characteristic-two checks for every normalized order through d=3, literal small polynomial coefficients, rational forward/inverse exceptions and semantic controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/review/independent_check.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Separate symbolic polynomial expansion, 35299 exhaustive small translation graphs, 872 larger samples, 33 exact rational rank/minor checks, full exceptional determinant identity and seven controls. Normal."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "-O",
+        "{package}/review/independent_check.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Separate symbolic polynomial expansion, 35299 exhaustive small translation graphs, 872 larger samples, 33 exact rational rank/minor checks, full exceptional determinant identity and seven controls. Optimized."
+    }
+  ]
+}

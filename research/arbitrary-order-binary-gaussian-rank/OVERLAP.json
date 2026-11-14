@@ -1,0 +1,78 @@
+{
+  "checked_at_utc": "2026-11-14 07:26 UTC",
+  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "queries": [
+    {
+      "query": "repo:CrocSwap/integer-mult-bounds is:pr \"displacement\" in:title",
+      "total": 3,
+      "returned": 3
+    },
+    {
+      "query": "repo:CrocSwap/integer-mult-bounds is:pr \"Stein\" in:title",
+      "total": 4,
+      "returned": 4
+    },
+    {
+      "query": "repo:CrocSwap/integer-mult-bounds is:pr \"arbitrary-order\"",
+      "total": 69,
+      "returned": 30
+    }
+  ],
+  "exact_relevant_prs": [
+    {
+      "number": 1754,
+      "title": "Conditional κ = 0.001678344171736538: structured (displacement-rank) boundary solves and radix-distributed sparse-union schedule on PR1673's capped phase-cell fusion outer, pivot-566+554 T74 supplier",
+      "state": "open",
+      "merged": false,
+      "head": "d8046736d984645a6f79159b2a7454d1919d24b3",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/1754"
+    },
+    {
+      "number": 4198,
+      "title": "Generate exact bounded rational Stein coefficients",
+      "state": "closed",
+      "merged": true,
+      "head": "e457d5e912a27307d725827aeca7198169320b84",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/4198"
+    },
+    {
+      "number": 6228,
+      "title": "Construct near-unit rational Stein generators: factor 9/8 (no κ)",
+      "state": "closed",
+      "merged": true,
+      "head": "d85df7f7524e41799a6db2d6c082f6cadbd5cc84",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6228"
+    },
+    {
+      "number": 6239,
+      "title": "Bind a near-unit Stein row to the rounded child at unchanged precision",
+      "state": "closed",
+      "merged": true,
+      "head": "80c537689f297b19dcd435d71623d2c743856650",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6239"
+    },
+    {
+      "number": 7263,
+      "title": "Attain exact factor-one Stein bounds with at most 2r terms (no κ)",
+      "state": "open",
+      "merged": false,
+      "head": "d9219ca07e69ca08c6cc7ec9dc805955fe87d857",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7263"
+    }
+  ],
+  "coverage": "Bounded title/body search plus exact relevant PR metadata. Broad arbitrary-order query returned only the first 30 of 69 records; not complete history, Discussion or unpublished coverage.",
+  "literature": [
+    {
+      "title": "Tensor properties of multilevel Toeplitz and related matrices",
+      "authors": [
+        "Vadim Olshevsky",
+        "Ivan Oseledets",
+        "Eugene Tyrtyshnikov"
+      ],
+      "year": 2006,
+      "doi": "10.1016/j.laa.2005.03.040",
+      "url": "https://doi.org/10.1016/j.laa.2005.03.040",
+      "scope": "Classical tensor/displacement background; not a source of the stated all-order binary rank theorem."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "controls": [
+    "zero translation mask rejected",
+    "cyclic replacement loses the open-path boundary and rank certificate",
+    "removing only one cycle vertex makes the principal minor singular",
+    "equal positive parameters make Gray-order rank 2, below generic bound 4",
+    "distinct positive parameters can have rank 6 instead of full rank 8",
+    "zero parameter boundary lies outside the generic positive-domain claim",
+    "nonzero x^2+x vanishes at every F2 point; formal genericity is not finite-field existence"
+  ],
+  "exact_symbolic_minors": {
+    "cases": 22,
+    "isolated_coefficients": "all +1 or -1; all odd modulo 2",
+    "nonzero_terms_total": 316
+  },
+  "exceptional_determinant_factorization": {
+    "dimension": 8,
+    "exact_identity": "prod_i(1-q_i^2)^2 * (ab-ac-bc)^2 * (ab+ac+bc)^2",
+    "method": "full subset-DP determinant equals separately multiplied polynomial dictionaries",
+    "nonzero_terms": 134
+  },
+  "exhaustive_combinatorics": [
+    {
+      "N": 2,
+      "minimum_best_certificate": 2,
+      "normalized_orders": 1,
+      "translation_graphs": 1
+    },
+    {
+      "N": 4,
+      "minimum_best_certificate": 4,
+      "normalized_orders": 6,
+      "translation_graphs": 18
+    },
+    {
+      "N": 8,
+      "minimum_best_certificate": 8,
+      "normalized_orders": 5040,
+      "translation_graphs": 35280
+    }
+  ],
+  "independent_dense_graph_rank_checks": 33,
+  "larger_combinatorics": {
+    "cases": [
+      {
+        "N": 16,
+        "minimum_best_certificate": 16,
+        "orders": 8,
+        "translation_graphs": 120
+      },
+      {
+        "N": 32,
+        "minimum_best_certificate": 32,
+        "orders": 8,
+        "translation_graphs": 248
+      },
+      {
+        "N": 64,
+        "minimum_best_certificate": 64,
+        "orders": 8,
+        "translation_graphs": 504
+      }
+    ],
+    "seed": 91377
+  },
+  "method": "Independent multigraph components, Fraction elimination and multivariate subset-DP; no author imports.",
+  "scope": "Finite corroboration of the universal proof review; no fine-prime or rounded-source admission.",
+  "status": "PASS_INDEPENDENT_ARBITRARY_ORDER_REVIEW"
+}

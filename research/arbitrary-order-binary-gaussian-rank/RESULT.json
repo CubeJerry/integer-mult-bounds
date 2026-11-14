@@ -1,0 +1,150 @@
+{
+  "all_dimension_proof": "PROOF.md; finite checks are corroboration",
+  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "claim": "generic forward/inverse rank >= 2 ceil((N+3)/5) for every order",
+  "higher_dimension_criterion_failures": [
+    {
+      "best_coefficient_rank": 14,
+      "minimum_closed_cycles": 1,
+      "order": [
+        11,
+        9,
+        3,
+        15,
+        1,
+        7,
+        2,
+        10,
+        13,
+        6,
+        4,
+        8,
+        12,
+        14,
+        5,
+        0
+      ],
+      "theorem_bound": 8
+    },
+    {
+      "best_coefficient_rank": 30,
+      "minimum_closed_cycles": 1,
+      "order": [
+        0,
+        26,
+        11,
+        12,
+        2,
+        9,
+        19,
+        24,
+        25,
+        3,
+        14,
+        29,
+        31,
+        20,
+        10,
+        13,
+        28,
+        23,
+        30,
+        15,
+        22,
+        27,
+        4,
+        17,
+        16,
+        21,
+        8,
+        1,
+        5,
+        7,
+        18,
+        6
+      ],
+      "theorem_bound": 14
+    }
+  ],
+  "literal_polynomial_coefficient_checks": 19,
+  "negative_controls": [
+    "uncancelled_parallel_pair",
+    "one_vertex_cycle_deletion",
+    "cyclic_instead_of_nilpotent_shift",
+    "dropped_determinant_entry",
+    "all_parameters_0",
+    "all_parameters_1",
+    "positive_homogeneous_rank_two",
+    "axis_only_connected_criterion",
+    "malformed_order_8",
+    "malformed_order_9",
+    "malformed_order_10"
+  ],
+  "normalized_finite_coverage": [
+    {
+      "axis_connected": 1,
+      "best_coefficient_rank_histogram": {
+        "2": 1
+      },
+      "dimension": 1,
+      "orders": 1,
+      "some_mask_connected": 1
+    },
+    {
+      "axis_connected": 6,
+      "best_coefficient_rank_histogram": {
+        "4": 6
+      },
+      "dimension": 2,
+      "orders": 6,
+      "some_mask_connected": 6
+    },
+    {
+      "axis_connected": 4368,
+      "best_coefficient_rank_histogram": {
+        "8": 5040
+      },
+      "dimension": 3,
+      "orders": 5040,
+      "some_mask_connected": 5040
+    }
+  ],
+  "ordinary_generator_identity_cases": 3,
+  "positive_exact_fixtures": [
+    {
+      "inverse_rank": 6,
+      "name": "exceptional_order",
+      "rank": 6,
+      "reversed_rank": 6,
+      "tuple": "exceptional"
+    },
+    {
+      "inverse_rank": 8,
+      "name": "exceptional_order",
+      "rank": 8,
+      "reversed_rank": 8,
+      "tuple": "nonexceptional"
+    },
+    {
+      "inverse_rank": 6,
+      "name": "gray_order",
+      "rank": 6,
+      "reversed_rank": 6,
+      "tuple": "exceptional"
+    },
+    {
+      "inverse_rank": 8,
+      "name": "gray_order",
+      "rank": 8,
+      "reversed_rank": 8,
+      "tuple": "nonexceptional"
+    }
+  ],
+  "scientific_hashes": {
+    "PROOF.md": "3e87c32b9cb3695dc42c2ef10da9c05e74d1742a37e49ce0fe5890ea093463dc",
+    "verify.py": "b31af543109bb544442cc246b8e51e2818e710d052e45d061e3fddea27864c4f"
+  },
+  "scope": "No full generic rank theorem, source admission, rounding margin, runtime or new kappa",
+  "status": "PASS_ARBITRARY_ORDER_BINARY_GAUSSIAN_RANK",
+  "translation_masks_checked": 35299
+}
