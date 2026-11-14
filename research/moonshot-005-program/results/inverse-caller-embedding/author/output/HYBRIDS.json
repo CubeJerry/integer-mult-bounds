@@ -1,0 +1,69 @@
+{
+  "source_pins": {
+    "source/FORWARD-PHASES.json": "465a759e6e4e14d29d9b8cda8fed51c8e6440926d699f3a088c0507b2ec9ae55",
+    "source/FORWARD.json.gz": "c06724af5a2c414e62887ea78124d268cad2cabf500f9963ad5d0e9758c8a336",
+    "source/INTERFACE-PROOF.md": "d7c9374323ba3e4fdb2cc4781b1b3c41ad7890426db308328946d327968022d8",
+    "source/INVERSE-PHASES.json": "c2b9e20782d6aa0cdddd9d11e64ec5b03bd14188aebe9cbc2068a918863f8300",
+    "source/INVERSE-PRICE.json": "fd4c994264959efdeac9c5a4336bcdf932b987ee33ec707d8e57017802dee671",
+    "source/INVERSE.json.gz": "3c5e0af6debb0c435520b0711f87f413da35336f6d996e0afea7063dbc4ef948",
+    "source/NORMALIZERS.json": "90a5e01b3df62af3bbdb5cb0c616a3f85728766b2bc7277bd53564fb77bbbbde",
+    "source/ROUTES.json": "ff3464b51b7240c97294c9a843dace84f17e717db1c7299a85646cd9c70f6c3a",
+    "source/clifford_exact.py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "source/native_verify.py": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38"
+  },
+  "sources": {
+    "inverse-UV": {
+      "all12544_hybrid_coefficient_entries": true,
+      "all448_independent_inputs_and_endpoints": true,
+      "counts": {
+        "ADD": 896,
+        "MOVE": 896
+      },
+      "movement_profile": {
+        "2": 224,
+        "3": 224,
+        "5": 224,
+        "6": 224
+      },
+      "new_phase_recipe_needed": 0,
+      "old_opposite_adjoint_contract_not_claimed": true,
+      "owned_fields": 0,
+      "raw_ascending_moves": 448,
+      "raw_descending_moves": 448,
+      "signed_phase_pairs_covered": 560,
+      "standard_same_A_HOST2": false,
+      "status": "PASS_ACTUAL_INDEPENDENTLY_ORIENTED_PLANES",
+      "variant": "inverse-UV",
+      "whole_caller_or_new_kappa": false,
+      "word_sha256": "0b3fcccd926ffe4c727b5665aff180f2f083e138244f9cc48c4ff649903aede6",
+      "wrong_mixed_sign_rejected": true
+    },
+    "inverse-XY": {
+      "all12544_hybrid_coefficient_entries": true,
+      "all448_independent_inputs_and_endpoints": true,
+      "counts": {
+        "ADD": 896,
+        "MOVE": 896
+      },
+      "movement_profile": {
+        "2": 224,
+        "3": 224,
+        "5": 224,
+        "6": 224
+      },
+      "new_phase_recipe_needed": 0,
+      "old_opposite_adjoint_contract_not_claimed": true,
+      "owned_fields": 0,
+      "raw_ascending_moves": 448,
+      "raw_descending_moves": 448,
+      "signed_phase_pairs_covered": 560,
+      "standard_same_A_HOST2": false,
+      "status": "PASS_ACTUAL_INDEPENDENTLY_ORIENTED_PLANES",
+      "variant": "inverse-XY",
+      "whole_caller_or_new_kappa": false,
+      "word_sha256": "06be0f968984eaa11f3da8011ba4c451c3411e7e39557fb47e90152dcbeafb4c",
+      "wrong_mixed_sign_rejected": true
+    }
+  },
+  "status": "PASS_BOTH_ACTUAL_MIXED_BOUNDARY_WORDS"
+}

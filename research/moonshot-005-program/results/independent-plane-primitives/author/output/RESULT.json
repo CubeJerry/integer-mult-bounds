@@ -1,0 +1,113 @@
+{
+  "arbitrary_order_preserving_interleaving_allowed_by_disjoint_support": true,
+  "both_inverse_compositions_each_plane": true,
+  "source_pins": {
+    "source/EMBEDDING-MANIFEST.json": "97d6beb6e5759e331ea08eadbca60f982f417f6608e5393520cf25a8d27aa6ca",
+    "source/EMBEDDING-PROOF.md": "69679612fb55d3e61906f3927d44e2ecd59a15da4de26ac55a89553057c6417e",
+    "source/EMBEDDING-ROUTES.json": "3fce56de46c3821ca5d70daf48748893a9fd1b556f12457f1d8f417ee078dbab",
+    "source/FORWARD-PHASES.json": "465a759e6e4e14d29d9b8cda8fed51c8e6440926d699f3a088c0507b2ec9ae55",
+    "source/FORWARD.json.gz": "c06724af5a2c414e62887ea78124d268cad2cabf500f9963ad5d0e9758c8a336",
+    "source/INVERSE-PHASES.json": "c2b9e20782d6aa0cdddd9d11e64ec5b03bd14188aebe9cbc2068a918863f8300",
+    "source/INVERSE.json.gz": "3c5e0af6debb0c435520b0711f87f413da35336f6d996e0afea7063dbc4ef948",
+    "source/interval.py": "82634fc558ec4eef0bb675b44c2eacb88f2e551d8093262ccbb004b7ef86eff1"
+  },
+  "sources": {
+    "forward-UV": {
+      "all12544_signal_coefficients": true,
+      "all224_initial_and_final_charts": true,
+      "all224_input_columns": true,
+      "authenticated_ordered_phase_pairs": 280,
+      "counts": {
+        "ADD": 448,
+        "MOVE": 448
+      },
+      "movement_profile": {
+        "2": 112,
+        "3": 112,
+        "5": 112,
+        "6": 112
+      },
+      "name": "forward-UV",
+      "new_kappa": false,
+      "new_phase_recipes": 0,
+      "no_owned_fields_or_helpers": true,
+      "no_reads_or_writes_of_other_plane": true,
+      "status": "PASS_LITERAL_INDEPENDENT224_PLANE",
+      "word_sha256": "546e6dfb08df2770477bab832b67a7e2645f525a4092ca3e92c09dfa79c1425c",
+      "wrong_sign_control_rejected": true
+    },
+    "forward-XY": {
+      "all12544_signal_coefficients": true,
+      "all224_initial_and_final_charts": true,
+      "all224_input_columns": true,
+      "authenticated_ordered_phase_pairs": 280,
+      "counts": {
+        "ADD": 448,
+        "MOVE": 448
+      },
+      "movement_profile": {
+        "2": 112,
+        "3": 112,
+        "5": 112,
+        "6": 112
+      },
+      "name": "forward-XY",
+      "new_kappa": false,
+      "new_phase_recipes": 0,
+      "no_owned_fields_or_helpers": true,
+      "no_reads_or_writes_of_other_plane": true,
+      "status": "PASS_LITERAL_INDEPENDENT224_PLANE",
+      "word_sha256": "c5b2e88068ca85b3e236cd7b614742b8b3b0cb1b21c1e83f92fdf0e4f4473f01",
+      "wrong_sign_control_rejected": true
+    },
+    "inverse-UV": {
+      "all12544_signal_coefficients": true,
+      "all224_initial_and_final_charts": true,
+      "all224_input_columns": true,
+      "authenticated_ordered_phase_pairs": 280,
+      "counts": {
+        "ADD": 448,
+        "MOVE": 448
+      },
+      "movement_profile": {
+        "2": 112,
+        "3": 112,
+        "5": 112,
+        "6": 112
+      },
+      "name": "inverse-UV",
+      "new_kappa": false,
+      "new_phase_recipes": 0,
+      "no_owned_fields_or_helpers": true,
+      "no_reads_or_writes_of_other_plane": true,
+      "status": "PASS_LITERAL_INDEPENDENT224_PLANE",
+      "word_sha256": "de60ea28031f6c49b61578a0a1b05726fd02d61c1937c5d20bb77a74f3f0697a",
+      "wrong_sign_control_rejected": true
+    },
+    "inverse-XY": {
+      "all12544_signal_coefficients": true,
+      "all224_initial_and_final_charts": true,
+      "all224_input_columns": true,
+      "authenticated_ordered_phase_pairs": 280,
+      "counts": {
+        "ADD": 448,
+        "MOVE": 448
+      },
+      "movement_profile": {
+        "2": 112,
+        "3": 112,
+        "5": 112,
+        "6": 112
+      },
+      "name": "inverse-XY",
+      "new_kappa": false,
+      "new_phase_recipes": 0,
+      "no_owned_fields_or_helpers": true,
+      "no_reads_or_writes_of_other_plane": true,
+      "status": "PASS_LITERAL_INDEPENDENT224_PLANE",
+      "word_sha256": "915fa10530ce6484bc65d6692bebc05bc7a64104c2c1804fac07503af2916599",
+      "wrong_sign_control_rejected": true
+    }
+  },
+  "status": "PASS_FOUR_INDEPENDENT_PLANES"
+}

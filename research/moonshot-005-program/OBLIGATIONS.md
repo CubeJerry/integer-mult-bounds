@@ -309,3 +309,14 @@ The primary chain is now: actual R0 source -> physical boundary theorem -> eithe
 - **BIT-COMMON-PRELOAD-STAIRCASE — proved exact interface rank.** Required common preload is bV for a fixed order and(s-omega)V optimally. Genuinely interleaved active histories remain open.
 
 Next S013 construction: a fully paid continuation from actually acquired quadratic-history modes. The separately active S012112-port caller obligation remains preserved. No new kappa.
+
+## S012 checkpoint10 dependency update
+
+- **INVERSE-LOGICAL-112 — proved reversed-boundary service.** All448 arbitrary inputs, signed inverse maps and full price; old ascent-only schema explicitly not inherited.
+- **INVERSE-CALLER-EMBEDDING — proved actual source/route bridge.** Two mixed words, both body-square placements, K exchanges and productive endpoint identities. New C/B translation-gauge lemma has separate root review. Equal coefficients do not imply a common involution.
+- **COMMON-Q-SHORT-CALLERS — proved complete formal controls.** Two natives/two queries and three natives/no queries have four arbitrary outputs and no idles. The actual noncentral source transfer is open.
+- **INDEPENDENT-PLANE-PRIMITIVES — proved literal decomposition and chronology freedom.** Four224-input sources, complete half prices and disjoint interleaving. Reusing a caller register requires a new history proof.
+- **UNITARY-NORMALIZER-ENTROPY — proved scoped rank-mass/moment gate.** Full-unitary evolution, o(V) port entropy, no productive credits, independent target banks; clean ancillary fields allowed. Nonunitary circuits remain outside the theorem.
+- **TWO-STAGE-ELIMINATION — proved conditional extraction and scoped source-specific gate.** The unique correction in the declared template is actual C; all affine paths and collision systems imply the unitary price exclusion. Different templates and interleaved sources remain open.
+
+Primary next edge: independently schedulable actual half-sources -> genuine kernel/body chronology -> independent productive targets and paid full invoice -> strict complex supplier. Opposite-slope public words are under independent review. The parallel strict BIT edge remains open, with concurrent S013 evidence preserved separately. No complete conditional kappa theorem follows from these component lemmas.

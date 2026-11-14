@@ -1,0 +1,121 @@
+{
+  "additional_translation_gauge": {
+    "L": "O_s M_s is a pure coordinate translation commuting with D_s,Q",
+    "complementary_XY_output_gauge": [
+      "L Q^2",
+      "L"
+    ],
+    "complementary_both_shear_coefficients": "A_s^-",
+    "extra_monomial_applications": 448,
+    "input_gauges": "inverse of stated output gauges",
+    "preferred_XY_output_gauge": [
+      "L^-1",
+      "Q^2 L^-1"
+    ],
+    "preferred_both_shear_coefficients": "A_s^+",
+    "relation": "A_s^- = L_s (A_s^+)^-1 Q^2 L_s^-1",
+    "status": "Additional independently derived source-bound lemma, proved separately in TRANSLATION-GAUGE.md; not a complete caller."
+  },
+  "author_manifest": "97d6beb6e5759e331ea08eadbca60f982f417f6608e5393520cf25a8d27aa6ca",
+  "author_proof": "69679612fb55d3e61906f3927d44e2ecd59a15da4de26ac55a89553057c6417e",
+  "hybrid_sources": [
+    {
+      "all_input_columns": 448,
+      "coefficient_entries": 12544,
+      "counts": {
+        "ADD": 896,
+        "MOVE": 896
+      },
+      "opposite_adjoint_contract_rejected": true,
+      "orientations": {
+        "ascending": 448,
+        "descending": 448
+      },
+      "owners": 0,
+      "profile": {
+        "2": 224,
+        "3": 224,
+        "5": 224,
+        "6": 224
+      },
+      "signed_pairs": 560,
+      "variant": "inverse-XY",
+      "wrong_sign_rejected": true
+    },
+    {
+      "all_input_columns": 448,
+      "coefficient_entries": 12544,
+      "counts": {
+        "ADD": 896,
+        "MOVE": 896
+      },
+      "opposite_adjoint_contract_rejected": true,
+      "orientations": {
+        "ascending": 448,
+        "descending": 448
+      },
+      "owners": 0,
+      "profile": {
+        "2": 224,
+        "3": 224,
+        "5": 224,
+        "6": 224
+      },
+      "signed_pairs": 560,
+      "variant": "inverse-UV",
+      "wrong_sign_rejected": true
+    }
+  ],
+  "ordinary_hybrid_inventory": {
+    "body_square_translations": 224,
+    "boundary_monomials": 1344,
+    "extra_signs": 224
+  },
+  "ordinary_inverse_inventory": {
+    "body_square_translations": 448,
+    "extra_signs": 448,
+    "input_NY_inverse": 224,
+    "input_O_inverse": 448,
+    "output_M_inverse": 448,
+    "output_NX_inverse": 224
+  },
+  "ordinary_ordered_products": {
+    "all_ordered_products_ordinary": true,
+    "intermediate_paths": 1792,
+    "retained_scalar_coefficients": true,
+    "summed_blocks": 448
+  },
+  "route_algebra": {
+    "actual_nonzero_blocks": 896,
+    "additional_translation_gauge_identities": 1792,
+    "cross_and_endpoint_identities": 10752,
+    "diagonal_ports": 224,
+    "first_wrong_same_A": [
+      1,
+      0,
+      118
+    ],
+    "method": "Exact binary linear maps and canonical degree-two Z4 phase polynomials; no author route routine imported.",
+    "same_A_replacement_failures": 896
+  },
+  "scope": "Actual arbitrary-input mixed-boundary sources, correct body placement, exact K_s endpoint transport. Original ascent-only schema and same-A HOST2 admission remain absent. No complete caller or new kappa. Grouped-one-call gate is separately scoped.",
+  "signed_phases": {
+    "all_inherited_forward_inverse_pairs_reproduced": 560,
+    "new_rank_zero_boundary_recipes": 224,
+    "scope": "Pinned retained exact signed-interpreter reproduction, distinct from the independently written Z4 route algebra and arbitrary-input source replay.",
+    "wrong_global_phase_rejected": true
+  },
+  "source_pins": {
+    "source/FORWARD-PHASES.json": "465a759e6e4e14d29d9b8cda8fed51c8e6440926d699f3a088c0507b2ec9ae55",
+    "source/FORWARD.json.gz": "c06724af5a2c414e62887ea78124d268cad2cabf500f9963ad5d0e9758c8a336",
+    "source/INTERFACE-PROOF.md": "d7c9374323ba3e4fdb2cc4781b1b3c41ad7890426db308328946d327968022d8",
+    "source/INVERSE-PHASES.json": "c2b9e20782d6aa0cdddd9d11e64ec5b03bd14188aebe9cbc2068a918863f8300",
+    "source/INVERSE-PRICE.json": "fd4c994264959efdeac9c5a4336bcdf932b987ee33ec707d8e57017802dee671",
+    "source/INVERSE.json.gz": "3c5e0af6debb0c435520b0711f87f413da35336f6d996e0afea7063dbc4ef948",
+    "source/NORMALIZERS.json": "90a5e01b3df62af3bbdb5cb0c616a3f85728766b2bc7277bd53564fb77bbbbde",
+    "source/ROUTES.json": "ff3464b51b7240c97294c9a843dace84f17e717db1c7299a85646cd9c70f6c3a",
+    "source/clifford_exact.py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "source/native_verify.py": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38"
+  },
+  "status": "PASS_INDEPENDENT_INVERSE_PLACEMENT_AND_MIXED_BOUNDARY_REVIEW"
+}

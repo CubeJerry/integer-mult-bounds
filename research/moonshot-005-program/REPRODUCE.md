@@ -234,3 +234,7 @@ Each admission page gives its relocation-safe independent command and source pin
 ## S013 checkpoint1
 
 Exact author/reviewer commands and exit codes are recorded in `sessions/2026-11-14-S013/CHECKPOINT1-VALIDATION.json`. Run from the repository root, redirecting output paths to a temporary directory. The scalar-family proof has separate interpolation/intertwiner checks; the anisotropic source has author400-input replay plus an independent compositional check; BIT has independent native reconstruction and written universal proof reviews. `CHECKPOINT1-INTEGRITY.json` preserves the two already documented historical missing entries instead of silently changing their hashes. The old global verifier still lacks that historical-absence handling and is not represented as passing. These are partial source and scoped theorem checks, not a complete supplier verification.
+
+## S012 checkpoint10
+
+Admission pages provide relocation-safe commands for six new packages. Eight source/review receipts, including the separately new translation-gauge review and independent noncommuting extraction control, reproduce byte-for-byte. Common-Q and root extraction reviews pin SymPy1.14.0. The full source inverse and embedding reproduce inherited signed interpreters with their exact pins; new rational/affine engines are identified separately. Ledger verification preserves S013's intervening additions and both qualified historical absences.

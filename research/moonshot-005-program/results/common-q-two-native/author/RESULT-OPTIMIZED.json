@@ -1,0 +1,172 @@
+{
+  "constructions": {
+    "three_native_zero_query": {
+      "all_input_columns": 4,
+      "counts": {
+        "HOST2": 3,
+        "LAMBDA": 16,
+        "SCALE": 8,
+        "SWAP": 2
+      },
+      "idle_calls": 0,
+      "instructions": 29,
+      "native_stages": [
+        1,
+        2,
+        3
+      ],
+      "new_helper_roles": 0,
+      "outputs": [
+        [
+          {
+            "D_powers": [
+              1,
+              1,
+              1
+            ],
+            "coefficient": [
+              "1",
+              "0"
+            ],
+            "input": 0,
+            "q_power": 3
+          }
+        ],
+        [
+          {
+            "D_powers": [
+              1,
+              1,
+              1
+            ],
+            "coefficient": [
+              "1",
+              "0"
+            ],
+            "input": 1,
+            "q_power": 3
+          }
+        ],
+        [
+          {
+            "D_powers": [
+              1,
+              1,
+              1
+            ],
+            "coefficient": [
+              "1",
+              "0"
+            ],
+            "input": 2,
+            "q_power": 3
+          }
+        ],
+        [
+          {
+            "D_powers": [
+              1,
+              1,
+              1
+            ],
+            "coefficient": [
+              "1",
+              "0"
+            ],
+            "input": 3,
+            "q_power": 3
+          }
+        ]
+      ]
+    },
+    "two_native_two_query": {
+      "all_input_columns": 4,
+      "counts": {
+        "HOST2": 2,
+        "LAMBDA": 16,
+        "QUERY": 2,
+        "SCALE": 6,
+        "SWAP": 2
+      },
+      "idle_calls": 0,
+      "instructions": 28,
+      "native_stages": [
+        1,
+        2
+      ],
+      "new_helper_roles": 0,
+      "outputs": [
+        [
+          {
+            "D_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": [
+              "1",
+              "0"
+            ],
+            "input": 0,
+            "q_power": 3
+          }
+        ],
+        [
+          {
+            "D_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": [
+              "1",
+              "0"
+            ],
+            "input": 1,
+            "q_power": 3
+          }
+        ],
+        [
+          {
+            "D_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": [
+              "1",
+              "0"
+            ],
+            "input": 2,
+            "q_power": 3
+          }
+        ],
+        [
+          {
+            "D_powers": [
+              1,
+              1,
+              0
+            ],
+            "coefficient": [
+              "1",
+              "0"
+            ],
+            "input": 3,
+            "q_power": 3
+          }
+        ]
+      ]
+    }
+  },
+  "negative_controls": [
+    "omit_one_query",
+    "wrong_second_native_sign",
+    "omit_query_source_restoration",
+    "wrong_query_orientation",
+    "repeat_fresh_stage",
+    "self_query"
+  ],
+  "scope": "Exact formal common-Q identity with retained ordinary lambda service. All D variables remain unrestricted; no D inverse, idle, helper or input promise. Actual R0 variable port couplings are not admitted. No new kappa.",
+  "status": "PASS_FULL_FOUR_INPUT_COMMON_Q_CALLERS"
+}

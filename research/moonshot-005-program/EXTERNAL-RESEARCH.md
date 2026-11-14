@@ -127,3 +127,7 @@ At13:45UTC canonical main remained e54523517d0f03e58352e647c403a5af3e525a57; the
 - Localized lattice/Smith analysis yields an explicit small modal preconditioner. Generic fixed-rational transducers already occur in the selected application. A Gaussian banded-inverse idea was checked against existing upstream beatty-run-gaussian-inverse work and not duplicated; its stronger Word-RAM and supplier-interface limits remain.
 
 Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57 at the reconciled checkpoint. Initial open7584..7601 triage is preserved in the session folder. No open PR is promoted to a supplier. Programme commit5cc65874 was fast-forwarded without rewriting its evidence.
+
+## S012 checkpoint10: integrate concurrent S013 without resetting the caller
+
+Concurrent checkpoint df78594ab1aa37220f354860d55e17fc6b7a8143 adds five reviewed packages: scalar S-unit obstruction, an actual anisotropic relay/module repair with remaining physical forward debt, a Kronecker quotient gate, common-preload staircase rank, and quadratic/exterior native structure. S012 inspected their admission scopes and preserved every source/review/ledger byte. S013's independent BIT/history obligation remains active. These results do not supply an admitted complete BIT or complex supplier and are not added as free credits to the112-port caller. Canonical upstream and the selected bound remain at the previously checked pins.

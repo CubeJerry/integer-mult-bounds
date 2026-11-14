@@ -1,0 +1,9 @@
+# Four independently schedulable complete half-sources
+
+**Proved literal source decomposition and chronological separability; independently reviewed. No new kappa.** The full448-input owned-free R0 word splits into register-disjoint X/Y and U/V planes. Their forward/inverse restrictions give four actual224-input words on arbitrary baselines. Each has448 ADDs,448 MOVEs, no owner, complete profile112([2]+[3]+[5]+[6]) and half moment1778.9026426918432227. All280 ordered maps per word inherit authenticated signed recipes; both inverse compositions and every input coefficient are independently checked.
+
+Any order-preserving interleaving of the disjoint planes has their product map and summed price. Reusing the same bank in a caller still needs an actual chart/history proof. Descending boundaries retain their new contract and do not claim the old ascent-only schema.
+
+The abstract P,P^-1,P extraction and residual P shear are verified for arbitrary invertible P. A proposed three-half-call schedule with six paid body idles and one head-query bank has target224[25]+224[24] and paid112[1]+336([2]+[3]+[5]+[6])+672[8], leaving approximately32.7398238815. Physical kernel alignment, source restoration and endpoints remain unproved; one extra head bank already exceeds the margin.
+
+[Proof](author/PROOF.md), [independent review](review-c/REVIEW.md), [receipt](review-c/RESULT.json). Reproduce `python -B research/moonshot-005-program/results/independent-plane-primitives/review-c/check.py --author research/moonshot-005-program/results/independent-plane-primitives/author --output /tmp/plane-review.json`. Inherited phase coverage is distinguished from the new arbitrary-input replay. All ordinary, compiler, precision and stronger-supplier obligations remain. Credit Worker B source, Worker C independent review, root/Worker A caller motivation, native/Clifford predecessors, @CubeJerry and OpenAI assistance.

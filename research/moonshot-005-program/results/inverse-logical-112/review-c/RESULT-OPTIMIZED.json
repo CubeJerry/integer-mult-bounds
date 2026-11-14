@@ -1,0 +1,64 @@
+{
+  "independent_source": {
+    "adjoint_entries": 12544,
+    "all_input_columns": 448,
+    "controls": [
+      "wrong_add_sign",
+      "wrong_move_direction",
+      "wrong_input_boundary",
+      "silent_forward_orientation"
+    ],
+    "instructions": 1792,
+    "literal_compositions": 2,
+    "moves": {
+      "2": 224,
+      "3": 224,
+      "5": 224,
+      "6": 224
+    },
+    "ordinary_operations": {
+      "ADD": 896,
+      "MOVE": 896
+    },
+    "owned_fields": 0,
+    "owner_lifetimes": 0,
+    "peak_owned": 0,
+    "public": 448,
+    "public_paths_reversed": 448
+  },
+  "invoice": {
+    "display": 3557.8052853836866,
+    "moment_interval": [
+      "111181415168240201419497239312246219139/31250000000000000000000000000000000",
+      "111181415168240201419497239312246219167/31250000000000000000000000000000000"
+    ],
+    "no_caller_allowance_inferred": true,
+    "t": "199/200"
+  },
+  "old_schema": {
+    "actual_error": "nested MOVE",
+    "original_schema_rejects": true,
+    "scope": "New reversed-boundary service is explicit; rejection is not bypassed or relabelled as old native admission.",
+    "unchanged_old_validator": true
+  },
+  "phase_reproduction": {
+    "controls": [
+      "wrong_global_phase",
+      "wrong_rank",
+      "reversed_recipe_target"
+    ],
+    "ordered_recipes": 280,
+    "scope": "Pinned retained independent-interpreter reproduction, separate from the newly implemented rational source replay.",
+    "signed_inverse_forward_compositions": 560
+  },
+  "scope": "Literal source inverse for448 arbitrary inputs at reversed physical boundaries. No erasure inverted or clean input assumed. No old native/caller admission and no new kappa; all retained uniform compiler/precision/ordinary hypotheses remain.",
+  "source_pins": {
+    "MANIFEST.json": "7c476ba0f7c2f2032124b9b3a9c54debd233c79bedb912aee635689ae71dc552",
+    "PROOF.md": "b0e996addbec83542d329fc3c5a3a5c0b5b1d975a6ef0f9d24a30c3d9963bba4",
+    "dependencies/FORWARD.json.gz": "c06724af5a2c414e62887ea78124d268cad2cabf500f9963ad5d0e9758c8a336",
+    "output/PHASES.json": "c2b9e20782d6aa0cdddd9d11e64ec5b03bd14188aebe9cbc2068a918863f8300",
+    "output/RESULT.json": "9e89ba5a4cd5ee12bbc81e89daef30babf8bbcfb7f28321a4c618b1cc6ad8948",
+    "output/WORD.json.gz": "3c5e0af6debb0c435520b0711f87f413da35336f6d996e0afea7063dbc4ef948"
+  },
+  "status": "PASS_INDEPENDENT_REVERSED_ARBITRARY_BOUNDARY_SOURCE"
+}

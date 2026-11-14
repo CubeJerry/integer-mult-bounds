@@ -6,7 +6,11 @@ PROGRAMME, TARGET-005, OBLIGATIONS and latest append-only SESSION-LOG. Check
 canonical changes since its recorded SHA. Baseline hashes are not self hashes.
 Keep the protected mathematics-first allocation in PROGRAMME active.
 
-## Latest S012 checkpoint9 frontier
+## Latest S012 checkpoint10 frontier
+
+Actual inverse, mixed-boundary and four independent224-input plane services are admitted. New ordinary translation gauges yield equal Aplus/Aminus shear coefficients without centrality. Two complete common-Q short callers are positive controls only. Modular unitary N/C corrections exceed their full allowances even with joint banks and clean ancillas. The active construction changes the source chronology using independent planes and opposite field directions; its full physical kernel/body alignment and exact productive endpoints remain open. The three-half padded proposal has only32.7398238815 conditional room. Preserve concurrent S013 checkpoint1 and its separate BIT/history advances. No new kappa or upstream PR.
+
+## S012 checkpoint9 frontier (historical)
 
 The actual112-port R0-minimal source is independently admitted:448 arbitrary inputs, no owners, complete moment3557.8052853836864454. The physical boundary proof identifies two paid N=Q^-1 R0 Q bank services per native as a sufficient modular repair, with combined allowance<151.57159251512562. No N service is constructed. Every simple postservice deletion in the unchanged caller fails. Positive ordinary transport A_s^-1 A_t=R_s R_t and the owned-free literal inverse motivate a changed chronological caller; the opposite retained transport has proved growing support after all paths. Next prove the actual mixed-orientation caller endpoint and complete target/query/recursion invoice, or implement N within its allowance. The stronger BIT supplier and all five foundations remain open. No new kappa. S013 is concurrent on a separately recorded scope; preserve both histories.
 

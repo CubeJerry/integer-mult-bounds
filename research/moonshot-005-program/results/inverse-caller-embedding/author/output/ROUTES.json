@@ -1,0 +1,141 @@
+{
+  "K_definition": "K_s=Q D_s",
+  "ambient_bits_checked": 25,
+  "exact_identity_counts": {
+    "Dtotal_forward_endpoint": 896,
+    "Dtotal_inverse_reverse_endpoint": 896,
+    "K_Rprime_equals_Rs_K": 896,
+    "K_Rs_equals_Rprime_K": 896,
+    "K_square_to_common_head_square": 224,
+    "M_body_square_M_inverse": 224,
+    "M_inverse": 224,
+    "O_inverse": 224,
+    "actual_O_B_M": 224,
+    "actual_forward_U_block": 896,
+    "actual_forward_Y_block": 896,
+    "cross_stage_body_commutes": 896,
+    "inverse_U_block": 896,
+    "inverse_Y_block": 896,
+    "inverse_all_role_diagonal": 224,
+    "ordinary_reverse_forward_path": 1792,
+    "post_square_U_block": 896,
+    "post_square_Y_block": 896,
+    "post_square_diagonal": 224,
+    "pre_square_U_block": 896,
+    "pre_square_Y_block": 896,
+    "pre_square_diagonal": 224,
+    "reverse_coupling_transport": 896
+  },
+  "exact_source_moment": [
+    "2223628303364804028389944786244924379/625000000000000000000000000000000",
+    "11118141516824020141949723931224621923/3125000000000000000000000000000000"
+  ],
+  "identity_sha256": {
+    "Dtotal_forward_endpoint": "bead77e57bcbd58204f696350ccec9a84f346609e6fc65e6b4091a32417a7da2",
+    "Dtotal_inverse_reverse_endpoint": "68a601674762c117bdf749a202806d8bde1663a9d9fee9d850bf9c5f22390b2b",
+    "K_Rprime_equals_Rs_K": "38c638c612c5a516e6df7dc5528c39e50862c61ba1ec387eecb1f75bffd036c2",
+    "K_Rs_equals_Rprime_K": "506f1c8d6a140b777af834ff068fb43df43908b35f225cbf06cf7fd15bced513",
+    "K_square_to_common_head_square": "fe9c24e750aafe81fe935c0e856da2160118e1232479ecd62aa1e73c3f11ae4f",
+    "M_body_square_M_inverse": "c787163af87b688e558564b96a3fb4bfb7c42fd61331abace95523aaa6b99f76",
+    "M_inverse": "563f8a2f9021f84f463dae0fd77a50de2d917f8a6353c6a3e63671b40bd4d603",
+    "O_inverse": "563f8a2f9021f84f463dae0fd77a50de2d917f8a6353c6a3e63671b40bd4d603",
+    "actual_O_B_M": "29923a37f75b9d215f7d5b95337b1494b9b8a26797d350d2b23c699c7da901a9",
+    "actual_forward_U_block": "506f1c8d6a140b777af834ff068fb43df43908b35f225cbf06cf7fd15bced513",
+    "actual_forward_Y_block": "d2df8e21fc9b398caffc6e7da62349feb1055716ae8b646a99fe339c460042bf",
+    "cross_stage_body_commutes": "5e265ff2a94c66b8c7c8f7a6cae09b33e83443a6d4ba42cc7bcc92cc8859a543",
+    "inverse_U_block": "f1b2290ab53587e171efc3665257ae3003415a30e20a18a94b999f8e8b9dd44a",
+    "inverse_Y_block": "3310b730a052e8bc5cd7162a07e0f59102847d886bcc40868840f1959f49eee4",
+    "inverse_all_role_diagonal": "db75d5f49be6ac09c63f4db136659e38dc4f7adcfc174ae9132109e93811c817",
+    "ordinary_reverse_forward_path": "325d32de64f884410f730115f64dc57460cf33c281a46fed70ed178a03672446",
+    "post_square_U_block": "e595b1f48881354b992600d260e770f7fb6874884c7c919e71b524a87a48ab52",
+    "post_square_Y_block": "c89f6baf3c2d3677ca15960cd92fd1caac2129062299e145f33e4066ef5f17e4",
+    "post_square_diagonal": "29923a37f75b9d215f7d5b95337b1494b9b8a26797d350d2b23c699c7da901a9",
+    "pre_square_U_block": "34ec786dd61ad2a53e559d12ab4f0dfbfc48e77eb974f47b90ac5e8a41eca22c",
+    "pre_square_Y_block": "a0c4ca0b1f6da34bc85d50875b058e14c008db366d6d64977750535576b13db1",
+    "pre_square_diagonal": "29923a37f75b9d215f7d5b95337b1494b9b8a26797d350d2b23c699c7da901a9",
+    "reverse_coupling_transport": "a50569cc4eeebf1e838632c861ebdfa8517b73602ea851be59ff69021f9a3b3e"
+  },
+  "negative_controls": {
+    "omit_pre_Dsquare": {
+      "actual": [
+        49163,
+        1
+      ],
+      "frequency": 512,
+      "wrong_target": [
+        49163,
+        3
+      ]
+    },
+    "replace_reverse_by_forward": {
+      "actual": [
+        126986,
+        3
+      ],
+      "frequency": 64,
+      "wrong_target": [
+        126986,
+        2
+      ]
+    },
+    "wrong_inverse_U_Q_sign": {
+      "actual": [
+        126986,
+        0
+      ],
+      "frequency": 64,
+      "wrong_target": [
+        126986,
+        2
+      ]
+    },
+    "wrong_same_A_hybrid_target": {
+      "actual": [
+        126986,
+        3
+      ],
+      "frequency": 64,
+      "wrong_target": [
+        126986,
+        2
+      ]
+    }
+  },
+  "ordinary_inventory_per_hybrid_embedded_call": {
+    "all_forward_or_inverse_port_monomial_applications": 1344,
+    "inverse_plane_destination_scalar_negations": 224,
+    "inverse_plane_post_body_square_translations": 224
+  },
+  "ordinary_inventory_per_inverse_embedded_call": {
+    "destination_sign_conjugation_scalar_negations": 448,
+    "input_O_inverse_port_monomials": 448,
+    "input_YV_NY_inverse_monomials": 224,
+    "one_pre_or_post_body_square_translations": 448,
+    "output_M_inverse_port_monomials": 448,
+    "output_XU_NX_inverse_monomials": 224
+  },
+  "ordinary_reverse_forward_paths": 1792,
+  "phase_polynomial_test_frequencies": 326,
+  "quadratic_phase_identity_not_sampling": true,
+  "scope": "Actual signed boundary/route identities for both inverse placements. Ordinary work remains paid by the retained tape model; no extra Gaussian job, owned field or erased information. Complete mixed caller endpoint and invoice remain separate.",
+  "source_gaussian_profile": {
+    "2": 224,
+    "3": 224,
+    "5": 224,
+    "6": 224
+  },
+  "source_pins": {
+    "source/FORWARD-PHASES.json": "465a759e6e4e14d29d9b8cda8fed51c8e6440926d699f3a088c0507b2ec9ae55",
+    "source/FORWARD.json.gz": "c06724af5a2c414e62887ea78124d268cad2cabf500f9963ad5d0e9758c8a336",
+    "source/INTERFACE-PROOF.md": "d7c9374323ba3e4fdb2cc4781b1b3c41ad7890426db308328946d327968022d8",
+    "source/INVERSE-PHASES.json": "c2b9e20782d6aa0cdddd9d11e64ec5b03bd14188aebe9cbc2068a918863f8300",
+    "source/INVERSE-PRICE.json": "fd4c994264959efdeac9c5a4336bcdf932b987ee33ec707d8e57017802dee671",
+    "source/INVERSE.json.gz": "3c5e0af6debb0c435520b0711f87f413da35336f6d996e0afea7063dbc4ef948",
+    "source/NORMALIZERS.json": "90a5e01b3df62af3bbdb5cb0c616a3f85728766b2bc7277bd53564fb77bbbbde",
+    "source/ROUTES.json": "ff3464b51b7240c97294c9a843dace84f17e717db1c7299a85646cd9c70f6c3a",
+    "source/clifford_exact.py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "source/native_verify.py": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38"
+  },
+  "status": "PASS_ACTUAL_INVERSE_PLACEMENTS_AND_ENDPOINT_TRANSPORT",
+  "whole_caller_or_new_kappa": false
+}

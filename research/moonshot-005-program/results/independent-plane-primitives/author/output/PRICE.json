@@ -1,0 +1,46 @@
+{
+  "conditional_three_half_caller": {
+    "assumptions": [
+      "three actual half-source embeddings in three fresh rank8 stages",
+      "six paid whole-body idles per port",
+      "common P,P^-1,P coefficient and complete body/history alignment",
+      "one physical rank1 head bank closes the residual Pd",
+      "two rank25 and two rank24 independent original-input productive targets with ordinary adapters"
+    ],
+    "gap": [
+      "204623899259496077826134901252259847/6250000000000000000000000000000000",
+      "204623899259496077826134901252260001/6250000000000000000000000000000000"
+    ],
+    "one_extra_head_bank_gap": [
+      "-495376100740503922173865098747740153/6250000000000000000000000000000000",
+      "-495376100740503922173865098747739999/6250000000000000000000000000000000"
+    ],
+    "paid": {
+      "1": 112,
+      "2": 336,
+      "3": 336,
+      "5": 336,
+      "6": 336,
+      "8": 672
+    },
+    "physical_caller_constructed": false,
+    "productive_targets": {
+      "24": 224,
+      "25": 224
+    },
+    "uniform_precision_or_supplier_admission": false
+  },
+  "half_moment": [
+    "2223628303364804028389944786244924379/1250000000000000000000000000000000",
+    "11118141516824020141949723931224621923/6250000000000000000000000000000000"
+  ],
+  "half_profile": {
+    "2": 112,
+    "3": 112,
+    "5": 112,
+    "6": 112
+  },
+  "new_kappa": false,
+  "status": "PASS_EXACT_HALF_TARIFF_AND_CONDITIONAL_BUDGET",
+  "t": "199/200"
+}

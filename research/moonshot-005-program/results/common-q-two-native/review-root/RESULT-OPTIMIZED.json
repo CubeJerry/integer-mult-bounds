@@ -1,0 +1,92 @@
+{
+  "author_manifest": "16ffa4019dde4b75c2310db74c1af9184fca7ada9f6c1ee589dd0946471fb7bf",
+  "controls": {
+    "mutants": [
+      "missing_query",
+      "repeat_body"
+    ],
+    "noncommuting_body_counterexample_rejected": true
+  },
+  "faithfulness": "q^4-1 has four distinct roots; exact identities in all four sectors prove the commuting operator polynomial identity",
+  "implementation": "SymPy1.14 exact Gaussian algebra; formal D exponents; no author imports",
+  "reviewed_proof": "effcfc36589a2f977922f9dceb98cdcf3bb538bab583592e06fdedd12ad46de1",
+  "scope": "Common-Q controls only. Actual R0 replacement and every physical expense remain open. Conditional prices are not supplier certificates. No new kappa.",
+  "status": "PASS_ROOT_INDEPENDENT_COMMON_Q_CALLER_REVIEW",
+  "words": [
+    {
+      "census": {
+        "HOST2": 2,
+        "LAMBDA": 16,
+        "QUERY": 2,
+        "SCALE": 6,
+        "SWAP": 2
+      },
+      "conditional_R0_profile_margin": [
+        "52894140336344207763854322219/312500000000000000000000000",
+        "6611767542043025970481790287/39062500000000000000000000"
+      ],
+      "events": 28,
+      "sectors": [
+        {
+          "diagonal": "D1*D2",
+          "off_diagonal_zero": true,
+          "q": "1"
+        },
+        {
+          "diagonal": "-D1*D2",
+          "off_diagonal_zero": true,
+          "q": "-1"
+        },
+        {
+          "diagonal": "-I*D1*D2",
+          "off_diagonal_zero": true,
+          "q": "I"
+        },
+        {
+          "diagonal": "I*D1*D2",
+          "off_diagonal_zero": true,
+          "q": "-I"
+        }
+      ],
+      "sha256": "9d30ee04a83d8863a4bd0468c476eab2cd336cac682e28af08b8cf2c7bb0b3ff",
+      "word": "two_native_two_query"
+    },
+    {
+      "census": {
+        "HOST2": 3,
+        "LAMBDA": 16,
+        "SCALE": 8,
+        "SWAP": 2
+      },
+      "conditional_R0_profile_margin": [
+        "108678096724895567252531228913/312500000000000000000000000",
+        "108678096724895567252531229011/312500000000000000000000000"
+      ],
+      "events": 29,
+      "sectors": [
+        {
+          "diagonal": "D1*D2*D3",
+          "off_diagonal_zero": true,
+          "q": "1"
+        },
+        {
+          "diagonal": "-D1*D2*D3",
+          "off_diagonal_zero": true,
+          "q": "-1"
+        },
+        {
+          "diagonal": "-I*D1*D2*D3",
+          "off_diagonal_zero": true,
+          "q": "I"
+        },
+        {
+          "diagonal": "I*D1*D2*D3",
+          "off_diagonal_zero": true,
+          "q": "-I"
+        }
+      ],
+      "sha256": "9b3736d7150f1b169fe3f5b5b19bdbe5cb333d7a9bab38acd21e8ef0a24a67f2",
+      "word": "three_native_zero_query"
+    }
+  ]
+}

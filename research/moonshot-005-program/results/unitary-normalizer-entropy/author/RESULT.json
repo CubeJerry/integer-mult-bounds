@@ -1,0 +1,96 @@
+{
+  "cap_free_asymptotic_moment": "liminf sum r^t >= (224*b)^t when C_port=o(V)",
+  "moment_bounds": [
+    {
+      "asymptotic_rank_mass": 224,
+      "cap_free_display": 218.0202223577417,
+      "cap_free_moment_interval": [
+        "109010111178870838292712697724411398381/500000000000000000000000000000000000",
+        "218020222357741676585425395448822796763/1000000000000000000000000000000000000"
+      ],
+      "conditional_allowance_display": 75.78579625756281,
+      "conditional_allowance_interval": [
+        "1184153066524418899443964502515165727067396227/15625000000000000000000000000000000000000000",
+        "56839347193172107173310296120727954899235019393/750000000000000000000000000000000000000000000"
+      ],
+      "exact_comparison_passed": true,
+      "independent_N_banks": 1,
+      "rank_at_most9_display": 221.55257693456625,
+      "rank_at_most9_moment_interval": [
+        "224000000000000000000000000000000000000/1011046691937853590655660045445767379",
+        "16000000000000000000000000000000000000/72217620852703827903975717531840527"
+      ]
+    },
+    {
+      "asymptotic_rank_mass": 448,
+      "cap_free_display": 434.5318593803482,
+      "cap_free_moment_interval": [
+        "434531859380348154828367647080844045821/1000000000000000000000000000000000000",
+        "217265929690174077414183823540422022911/500000000000000000000000000000000000"
+      ],
+      "conditional_allowance_display": 151.57159251512562,
+      "conditional_allowance_interval": [
+        "1184153066524418899443964502515165727067396227/7812500000000000000000000000000000000000000",
+        "56839347193172107173310296120727954899235019393/375000000000000000000000000000000000000000000"
+      ],
+      "exact_comparison_passed": true,
+      "independent_N_banks": 2,
+      "rank_at_most9_display": 443.1051538691325,
+      "rank_at_most9_moment_interval": [
+        "448000000000000000000000000000000000000/1011046691937853590655660045445767379",
+        "32000000000000000000000000000000000000/72217620852703827903975717531840527"
+      ]
+    }
+  ],
+  "ordinary_budget_boundary_control": {
+    "Gaussian_calls": 0,
+    "all_width_N_countercontrol_C_port": "1792*V+224",
+    "exact_clean_ancilla_one_column_Cq": true,
+    "omitted_final_W_rejected": true,
+    "port_entropy_allowance_per_column": 8,
+    "scope": "Countercontrol only when linear-in-V ordinary port work is allowed; violates the theorem's o(V) hypothesis.",
+    "two_port_unitary_occurrences_per_column": 4
+  },
+  "proof_status": "Universal entropy and clean-ancilla argument in PROOF.md; this checker authenticates finite source premises, exact controls and rational comparisons.",
+  "scope": "Unitary Gaussian/monomial/port gates, zero restored direct-sum ancillas, absolute paid moment, no productive helper credits. Arbitrary nonunitary arithmetic and redesigned caller endpoints are not excluded. No new kappa.",
+  "source_controls": {
+    "R0_orthogonal": true,
+    "all112_distinct_normals": true,
+    "all448_neighbor_pairs_independent": true,
+    "finite_width_rows": [
+      {
+        "V": 1,
+        "all_rows": 112,
+        "entries_per_row": 16,
+        "normalized_main_entropy_bits": 448,
+        "row_entropy_bits": 4
+      },
+      {
+        "V": 2,
+        "all_rows": 112,
+        "entries_per_row": 64,
+        "normalized_main_entropy_bits": 672,
+        "row_entropy_bits": 6
+      },
+      {
+        "V": 3,
+        "all_rows": 112,
+        "entries_per_row": 256,
+        "normalized_main_entropy_bits": 896,
+        "row_entropy_bits": 8
+      }
+    ],
+    "four_port_unitary_blocks": 28,
+    "ordinary_R0_entropy_allowance": 224,
+    "sharp_positive_moment": 224,
+    "sharp_positive_rank_mass": 224,
+    "wrong_tensor_scalar_norm_at_V2": "1/4"
+  },
+  "source_pins": {
+    "budget": "c86ce38b4339215bc730a658c1116c94e0f1e6cc973b6e13470192db02e2bfe7",
+    "interface": "d7c9374323ba3e4fdb2cc4781b1b3c41ad7890426db308328946d327968022d8",
+    "source": "c06724af5a2c414e62887ea78124d268cad2cabf500f9963ad5d0e9758c8a336"
+  },
+  "status": "PASS_EXACT_UNITARY_NORMALIZER_ENTROPY_PREMISES_AND_CONTROLS",
+  "universal_inequality": "V*S_V+C_port(V)>=224*b*(V+1)"
+}

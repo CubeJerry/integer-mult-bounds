@@ -1,0 +1,131 @@
+{
+  "author_manifest": "e741e3cb2a091052efee4548ff4f7cab6271826f6aa3d63b81af5967c23748d1",
+  "author_proof": "462a69b0d237deb340c9ace1f55ef34245d2312573826aca2ea2451e9dce6bea",
+  "interleaving_status": "Proved for disjoint register sets and order-preserving interleavings. Reuse on the same caller bank requires a new actual history proof.",
+  "invoice": {
+    "conditional_gap_display": 32.73982388151937,
+    "conditional_gap_interval": [
+      "255779874074370097282668626565324877/7812500000000000000000000000000000",
+      "2046238992594960778261349012522599177/62500000000000000000000000000000000"
+    ],
+    "conditional_targets": {
+      "24": 224,
+      "25": 224
+    },
+    "conditional_three_half_profile": {
+      "1": 112,
+      "2": 336,
+      "3": 336,
+      "5": 336,
+      "6": 336,
+      "8": 672
+    },
+    "extra_query_gap_display": -79.26017611848063,
+    "half_moment_display": 1778.9026426918433,
+    "half_moment_interval": [
+      "111181415168240201419497239312246219139/62500000000000000000000000000000000",
+      "111181415168240201419497239312246219167/62500000000000000000000000000000000"
+    ],
+    "half_profile": {
+      "2": 112,
+      "3": 112,
+      "5": 112,
+      "6": 112
+    },
+    "physical_caller_constructed": false,
+    "scope": "Exact arithmetic implication only, retaining coefficient/body alignment and physical final-head service assumptions."
+  },
+  "literal_inverse_compositions": 4,
+  "ordinary_embedded_plane_inventory": {
+    "entry_routes": 224,
+    "exit_routes": 224,
+    "extra_inverse_body_square_translations": 224,
+    "extra_inverse_signs": 224,
+    "native_input_normalizers": 112,
+    "native_output_normalizers": 112,
+    "total": 672
+  },
+  "planes": [
+    {
+      "counts": {
+        "ADD": 448,
+        "MOVE": 448
+      },
+      "input_columns": 224,
+      "name": "forward-XY",
+      "owners": 0,
+      "profile": {
+        "2": 112,
+        "3": 112,
+        "5": 112,
+        "6": 112
+      },
+      "signal_coefficients": 12544,
+      "signed_map_pairs": 280,
+      "wrong_sign_rejected": true
+    },
+    {
+      "counts": {
+        "ADD": 448,
+        "MOVE": 448
+      },
+      "input_columns": 224,
+      "name": "inverse-XY",
+      "owners": 0,
+      "profile": {
+        "2": 112,
+        "3": 112,
+        "5": 112,
+        "6": 112
+      },
+      "signal_coefficients": 12544,
+      "signed_map_pairs": 280,
+      "wrong_sign_rejected": true
+    },
+    {
+      "counts": {
+        "ADD": 448,
+        "MOVE": 448
+      },
+      "input_columns": 224,
+      "name": "forward-UV",
+      "owners": 0,
+      "profile": {
+        "2": 112,
+        "3": 112,
+        "5": 112,
+        "6": 112
+      },
+      "signal_coefficients": 12544,
+      "signed_map_pairs": 280,
+      "wrong_sign_rejected": true
+    },
+    {
+      "counts": {
+        "ADD": 448,
+        "MOVE": 448
+      },
+      "input_columns": 224,
+      "name": "inverse-UV",
+      "owners": 0,
+      "profile": {
+        "2": 112,
+        "3": 112,
+        "5": 112,
+        "6": 112
+      },
+      "signal_coefficients": 12544,
+      "signed_map_pairs": 280,
+      "wrong_sign_rejected": true
+    }
+  ],
+  "scope": "Four actual independent224-input source interfaces and complete tariffs. Signed maps and A\u00b1 embedding inherited from independently reviewed exact predecessors. No common P/body alignment, new caller, supplier, or kappa.",
+  "status": "PASS_INDEPENDENT_FOUR_PLANE_SOURCE_REVIEW",
+  "universal_extraction_control": {
+    "all_four_inputs_checked": true,
+    "operator_ring": "Q[P,P^-1]",
+    "physical_alignment_or_rank_one_P_not_asserted": true,
+    "remaining_P_shear": 1,
+    "three_half_shears": 3
+  }
+}
