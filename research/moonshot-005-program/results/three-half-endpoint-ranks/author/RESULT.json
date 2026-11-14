@@ -1,0 +1,33 @@
+{
+  "every_triple_kernel_is_projection": true,
+  "examples": {
+    "21": [
+      0,
+      81,
+      0,
+      81
+    ]
+  },
+  "first_output_path_ranks": {
+    "23": 448
+  },
+  "negative_controls": {
+    "nonorthogonal_diagonal_edge_eigenvalue": 0,
+    "repeated_stage_rank": 24
+  },
+  "ports": 112,
+  "row_support_bounds": {
+    "both_max_for_V_ge_2": "4 * 2^(23 V)",
+    "first": "4 * 2^(23 V)",
+    "second": "64 * 2^(21 V)"
+  },
+  "scope": "Exact individual path ranks and universal union support bounds. Cancellations can only lower support. No claim of exact full summed row support, Gaussian endpoint admission, arbitrary ordinary lower bound or new kappa.",
+  "second_output_path_ranks": {
+    "21": 7168
+  },
+  "source_pins": {
+    "R0-WORD.json.gz": "d27892c4934f9b6fa08fd10b53a665f455020e6711db9378ab01f439ede2c56c",
+    "ROUTES.json": "ff3464b51b7240c97294c9a843dace84f17e717db1c7299a85646cd9c70f6c3a"
+  },
+  "status": "PASS_ALL112_FRESH_INVERSE_ENDPOINT_RANKS"
+}

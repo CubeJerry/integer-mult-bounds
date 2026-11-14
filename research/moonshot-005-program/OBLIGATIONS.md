@@ -332,3 +332,17 @@ Primary next edge: independently schedulable actual half-sources -> genuine kern
 - **RELAY-RANK-TWO-SKEW-REPAIR — proved source-specific minimum repair and partial physical service.** Two real ground moment lifetimes implement the nonunit modal matrix; two actual rank9 descents supply every new skew forward term. Smooth-ring arithmetic recovery is proved, physical76D restoration and the remaining caller are open.
 
 Next consequential S013 obligation: a complete chronological BIT source using shared proper-chart caches or cubic histories, with enough actual information-changing stages to satisfy the strict transfer theorem inside the full target invoice. The separate112-port caller obligation and all foundational dependencies are preserved.
+
+## S012 checkpoint11 dependency update
+
+- **MIXED-SLOPE-PLANE** — proved actual224-input opposite-public-slope sources, full signed half tariff; not old HOST2. [Admission](results/mixed-slope-plane/ADMISSION.md).
+- **FORMAL-MIXED-BODY-GATE** — proved unique incomplete-body coefficient in an explicit independent central grading; physical applicability separate. [Admission](results/formal-mixed-body-gate/ADMISSION.md).
+- **MIXED-SLOPE-ACTUAL-FIBRES** — proved actual four-fibre representation forV>=2 and restricted two-source obstruction; raw spatial routes outside. [Admission](results/mixed-slope-fibre-gate/ADMISSION.md).
+- **THREE-HALF-SIX-IDLE-GATE** — proved all six idles necessary in the formal common-P/even-role three-half template; physical matching open. [Admission](results/plane-padding-synthesis/ADMISSION.md).
+- **FRESH-INVERSE-CHAIN-RANK** — proved distinct-stage inverse-path rank8m-r and rank23/21 coded-endpoint support. [Admission](results/three-half-endpoint-ranks/ADMISSION.md).
+- **NONUNITARY-QUERY-DEPTH** — proved exact nonunitary linear support/depth bound with sublinear ordinary branching; no aggregate price inference. [Admission](results/nonunitary-query-depth/ADMISSION.md).
+- **THREE-HALF-CODED-CONSTRUCTION** — proved actual coded three-half composition, ordinary codecs and canonical eight-choice modular correction gate. [Admission](results/three-half-source-reduction/ADMISSION.md).
+- **SIGNED-CHAIN-ALTERNATING-TARGETS** — proved signed-run path rank8m-r+2p and exact ordinary odd-head/even-body target interfaces; whole caller open. [Admission](results/signed-inverse-forward-runs/ADMISSION.md).
+- **TWO-BANK-HALF-CALLER-ENVELOPE** — proved all-stage two-bank half-source stage/query window and inherited scoped modular-service exclusion. [Admission](results/half-caller-budget-envelope/ADMISSION.md).
+
+Central open edge: actual half-source chronology -> simultaneous alternating Gaussian jobs within Delta>0 -> strict complex supplier. Three-half mixed-orientation residual cancellation and redesigned five-half synthesis are active. Strict BIT remains an independent necessary edge, with S013 acquired-history evidence preserved.

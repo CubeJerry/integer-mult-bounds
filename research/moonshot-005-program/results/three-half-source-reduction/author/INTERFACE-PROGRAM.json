@@ -1,0 +1,87 @@
+{
+  "Dtot": "D1 D2 D3",
+  "G_definition": "G_s=Rprime_s Q",
+  "R0_codec_sha256": "d0d1a6d881e15ff8067fc7225f8e757c44fd5bd69510db95d6c01174732dd8a8",
+  "exact_target": [
+    "G2^-1 Dtot y",
+    "-G3^-1 G2^-1 G1^-1 Dtot x"
+  ],
+  "gaussian_child_profile": {
+    "2": 336,
+    "3": 336,
+    "5": 336,
+    "6": 336
+  },
+  "half_contract": "(U,V)->(D_s(U-F_s V),D_s V), F_s=Q R_s",
+  "half_source_pin": "546e6dfb08df2770477bab832b67a7e2645f525a4092ca3e92c09dfa79c1425c",
+  "idle_calls": 0,
+  "new_kappa": false,
+  "old_native_caller_schema_admission": false,
+  "ordinary_R_definition": "R_s=M_s^-1 R M_s; Rprime_s=O_s R O_s^-1",
+  "ordinary_product_order": "written leftmost acts last",
+  "owned_or_zero_fields": 0,
+  "ports_per_bank": 112,
+  "productive_rank25_target_claimed": false,
+  "program": [
+    [
+      "SIGN_BANK",
+      0,
+      -1
+    ],
+    [
+      "HALF_FORWARD_UV",
+      1,
+      0,
+      1
+    ],
+    [
+      "SIGN_BANK",
+      0,
+      -1
+    ],
+    [
+      "ORDINARY_BANK",
+      0,
+      [
+        "R2",
+        "Q_squared",
+        "Rprime1"
+      ]
+    ],
+    [
+      "HALF_FORWARD_UV",
+      2,
+      1,
+      0
+    ],
+    [
+      "ORDINARY_BANK",
+      1,
+      [
+        "R3",
+        "Q_squared",
+        "Rprime2"
+      ]
+    ],
+    [
+      "SIGN_BANK",
+      0,
+      -1
+    ],
+    [
+      "HALF_FORWARD_UV",
+      3,
+      0,
+      1
+    ],
+    [
+      "SIGN_BANK",
+      0,
+      -1
+    ]
+  ],
+  "public_banks": 2,
+  "query_calls": 0,
+  "route_receipt_sha256": "20b03576f972fcd92c6e0cafb8ead2cf79df021f052ab30d481675eac763c917",
+  "schema": "moonshot-S012-three-half-physical-interface-program-v1"
+}

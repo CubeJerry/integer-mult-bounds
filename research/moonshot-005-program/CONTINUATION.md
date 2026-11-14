@@ -6,7 +6,11 @@ PROGRAMME, TARGET-005, OBLIGATIONS and latest append-only SESSION-LOG. Check
 canonical changes since its recorded SHA. Baseline hashes are not self hashes.
 Keep the protected mathematics-first allocation in PROGRAMME active.
 
-## Latest S012 checkpoint10 frontier
+## Latest S012 checkpoint11 frontier
+
+Actual mixed-slope sources and a coded three-half caller are admitted, but the latter has inverse-chain rank23/21 outputs. The positive signed-run theorem gives exact ordinary alternating odd-head/even-body target adapters. Construct their complete joint chronology, currently by a three-half mixed-orientation/one-query attempt or redesigned five-half word. The exact two-bank envelope permits h2 through8 stages (one full query only through5), h1 through5 with no query, and no body-only solution. Do not retry the scoped excluded modular N/C or one-layer coded postrepair. Preserve S013 checkpoint2 and its separate acquired BIT-history programme. No new kappa or PR.
+
+## S012 checkpoint10 frontier (historical)
 
 Actual inverse, mixed-boundary and four independent224-input plane services are admitted. New ordinary translation gauges yield equal Aplus/Aminus shear coefficients without centrality. Two complete common-Q short callers are positive controls only. Modular unitary N/C corrections exceed their full allowances even with joint banks and clean ancillas. The active construction changes the source chronology using independent planes and opposite field directions; its full physical kernel/body alignment and exact productive endpoints remain open. The three-half padded proposal has only32.7398238815 conditional room. Preserve concurrent S013 checkpoint1 and its separate BIT/history advances. No new kappa or upstream PR.
 

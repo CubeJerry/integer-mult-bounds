@@ -1,0 +1,3253 @@
+{
+  "accepted": [
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        true,
+        true,
+        true
+      ],
+      "idle_bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "idle_count": 6,
+      "joint_masks": {
+        "111": {
+          "projector": [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "rank": 4
+        }
+      },
+      "projectors": [
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "actual_Rs_caller_claimed": false,
+  "all64": [
+    {
+      "commuting_pairs": [
+        false,
+        false,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "idle_count": 0,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        false,
+        true,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "idle_count": 1,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        false,
+        false,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "idle_count": 1,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        false,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        false,
+        true
+      ],
+      "idle_bits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "idle_count": 2,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        false,
+        false,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "idle_count": 1,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        false,
+        true,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "idle_count": 2,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        false,
+        false,
+        true
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "idle_count": 2,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        false,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        false,
+        true
+      ],
+      "idle_bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "idle_count": 1,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "idle_count": 2,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "idle_count": 2,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        false,
+        true
+      ],
+      "idle_bits": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        true
+      ],
+      "even_projectors": [
+        false,
+        true,
+        false
+      ],
+      "idle_bits": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "idle_count": 2,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        true,
+        false
+      ],
+      "idle_bits": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        true
+      ],
+      "even_projectors": [
+        false,
+        true,
+        false
+      ],
+      "idle_bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        true,
+        true
+      ],
+      "idle_bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "idle_count": 4,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        false,
+        false,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "idle_count": 1,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        false,
+        true,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "idle_count": 2,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        false,
+        false,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "idle_count": 2,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        false,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        false,
+        true
+      ],
+      "idle_bits": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        false,
+        false,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "idle_count": 2,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        false,
+        true,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        false,
+        false,
+        true
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        false,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        false,
+        true
+      ],
+      "idle_bits": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "idle_count": 4,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "idle_count": 2,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        false,
+        true
+      ],
+      "idle_bits": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "idle_count": 4,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        true
+      ],
+      "even_projectors": [
+        false,
+        true,
+        false
+      ],
+      "idle_bits": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        true,
+        false
+      ],
+      "idle_bits": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "idle_count": 4,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        true
+      ],
+      "even_projectors": [
+        false,
+        true,
+        false
+      ],
+      "idle_bits": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "idle_count": 4,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        true,
+        true
+      ],
+      "idle_bits": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "idle_count": 5,
+      "parity_counterexample": {
+        "column": 2,
+        "p1_minus_pminus1": "-2",
+        "row": 1,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "idle_count": 1,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "idle_count": 2,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "idle_count": 2,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        false,
+        true
+      ],
+      "idle_bits": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "idle_count": 2,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        true
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        false,
+        true
+      ],
+      "idle_bits": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "idle_count": 4,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "idle_count": 2,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        false
+      ],
+      "even_projectors": [
+        false,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        false,
+        true
+      ],
+      "idle_bits": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "idle_count": 4,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        true
+      ],
+      "even_projectors": [
+        false,
+        true,
+        false
+      ],
+      "idle_bits": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        true,
+        false
+      ],
+      "idle_bits": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "idle_count": 4,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        false,
+        true
+      ],
+      "even_projectors": [
+        false,
+        true,
+        false
+      ],
+      "idle_bits": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "idle_count": 4,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        false,
+        true,
+        true
+      ],
+      "idle_bits": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "idle_count": 5,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 1
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        false
+      ],
+      "even_projectors": [
+        true,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "idle_count": 2,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 2
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        false
+      ],
+      "even_projectors": [
+        true,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 2
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        false
+      ],
+      "even_projectors": [
+        true,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 2
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        true,
+        false,
+        true
+      ],
+      "idle_bits": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "idle_count": 4,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 2
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        false
+      ],
+      "even_projectors": [
+        true,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "-2",
+        "row": 2,
+        "stage": 2
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        false
+      ],
+      "even_projectors": [
+        true,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "idle_count": 4,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "-2",
+        "row": 2,
+        "stage": 2
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        true,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "idle_count": 4,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "-2",
+        "row": 2,
+        "stage": 2
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        true,
+        false,
+        true
+      ],
+      "idle_bits": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "idle_count": 5,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "-2",
+        "row": 2,
+        "stage": 2
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        false
+      ],
+      "even_projectors": [
+        true,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "idle_count": 3,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 2
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        true,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "idle_count": 4,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 2
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        false
+      ],
+      "even_projectors": [
+        true,
+        false,
+        false
+      ],
+      "idle_bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "idle_count": 4,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 2
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        true,
+        false,
+        true
+      ],
+      "idle_bits": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "idle_count": 5,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "2",
+        "row": 0,
+        "stage": 2
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        true,
+        true,
+        false
+      ],
+      "idle_bits": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "idle_count": 4,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "-2",
+        "row": 0,
+        "stage": 3
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        true,
+        true,
+        false
+      ],
+      "idle_bits": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "idle_count": 5,
+      "parity_counterexample": {
+        "column": 3,
+        "p1_minus_pminus1": "-2",
+        "row": 0,
+        "stage": 3
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        true,
+        true,
+        false
+      ],
+      "idle_bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "idle_count": 5,
+      "parity_counterexample": {
+        "column": 1,
+        "p1_minus_pminus1": "2",
+        "row": 2,
+        "stage": 3
+      },
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "commuting_pairs": [
+        true,
+        true,
+        true
+      ],
+      "even_projectors": [
+        true,
+        true,
+        true
+      ],
+      "idle_bits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "idle_count": 6,
+      "joint_masks": {
+        "111": {
+          "projector": [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "rank": 4
+        }
+      },
+      "projectors": [
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      "stage_raw_roles": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "cleanup_query_included_in_output_map": true,
+  "closed_projectors_with_two_stage_idle_parameters": [
+    [
+      [
+        "1",
+        "0",
+        "0",
+        "-p*(w - 1)"
+      ],
+      [
+        "0",
+        "u",
+        "(u - 1)/p",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "w"
+      ]
+    ],
+    [
+      [
+        "1",
+        "0",
+        "0",
+        "-p*(w - 1)"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "u - 1",
+        "0",
+        "u",
+        "p*(u - 1)"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "w"
+      ]
+    ],
+    [
+      [
+        "u",
+        "0",
+        "u - 1",
+        "p*(u - 1)"
+      ],
+      [
+        "0",
+        "w",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-p*(w - 1)",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "w - 1",
+        "0",
+        "1"
+      ]
+    ]
+  ],
+  "common_P_only": true,
+  "complete_full_padding_map": [
+    [
+      "d1*d2*d3*p",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "d1*d2*d3/p",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "d1*d2*d3",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "d1*d2*d3"
+    ]
+  ],
+  "conditional_full_invoice": {
+    "P": {
+      "1": 112,
+      "2": 336,
+      "3": 336,
+      "5": 336,
+      "6": 336,
+      "8": 672
+    },
+    "T": {
+      "24": 224,
+      "25": 224
+    },
+    "exact_gap": [
+      "5115597481487401945653372531306497699691/156250000000000000000000000000000000000",
+      "10231194962974803891306745062612995399459/312500000000000000000000000000000000000"
+    ],
+    "extra_rank1_bank_gap": [
+      "-12384402518512598054346627468693502300309/156250000000000000000000000000000000000",
+      "-24768805037025196108693254937387004600541/312500000000000000000000000000000000000"
+    ],
+    "kappa": "1/200"
+  },
+  "half_source_pins": {
+    "HALF-MANIFEST.json": "e741e3cb2a091052efee4548ff4f7cab6271826f6aa3d63b81af5967c23748d1",
+    "HALF-PRICE.json": "150dbeb51d2797a0566530f1597af658716639e37b3d69bf0fa36b76474c703f"
+  },
+  "head_endpoint": [
+    [
+      "p",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1/p",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "new_kappa": false,
+  "patterns_commuting_at1": 23,
+  "patterns_even_at_plusminus1": 1,
+  "root_source_pin": "def77abe23de8373e6e2bc4fd2ae05f6ca1bee6d3df79996d4b232f99b6031b8",
+  "status": "PASS_EXACT64_PADDING_SUBSETS",
+  "sympy_version": "1.14.0",
+  "unique_target_masks": [
+    "111",
+    "111",
+    "111",
+    "111"
+  ]
+}

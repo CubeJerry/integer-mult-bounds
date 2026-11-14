@@ -139,3 +139,7 @@ Gow, Contraction of Exterior Powers in Characteristic2 and the Spin Module, Geom
 The principal-minor/spinor map of van Geemen--Marrani, SIGMA15(2019),064, DOI10.3842/SIGMA.2019.064, is a targeted constructive lead for sharing these local modes. No theorem from that paper is claimed to instantiate the required native fitting or transport interface yet.
 
 Concurrent programme commit7ff42586 was inspected and fast-forwarded. Its literal inverse/mixed112 sources, independent plane primitives, common-Q short-caller controls and unitary-normalizer/two-stage entropy gates are preserved. Actual physical stage-kernel alignment remains its main missing step. These results are not imported as a free caller for the new20-relay or for a prospective full120-root symmetry.
+
+## S012 checkpoint11 upstream and concurrent evidence
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57 at the15:00 targeted check; updated PRs after13:45 returned none. Concurrent S013 commit2e9a91a502139fdea35025950ec9bccd84d4e15c adds seven reviewed packages: actual quadratic/cubic histories, strict future-transfer capacity, pivot-filter/cubic exterior structure, operator Gram rigidity and a rank-two skew relay with paid forward moments. Their admission scopes were read and all files preserved. No complete supplier or free caller credit was imported.

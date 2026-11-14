@@ -242,3 +242,7 @@ Admission pages provide relocation-safe commands for six new packages. Eight sou
 ## S013 checkpoint2
 
 From the repository root run `python -B research/moonshot-005-program/sessions/2026-11-14-S013/reproduce_checkpoint2.py --repo . --out /tmp/s013-checkpoint2`. Use a fresh output directory. The runner performs seven bounded jobs, reproduces author source/price evidence, invokes separate independent implementations, and writes VALIDATION.json plus logs. Expected top-level status PASS; no complete supplier or new kappa is certified. The original frozen result files are read, never overwritten. Historical integrity exceptions described in earlier receipts remain visible.
+
+## S012 checkpoint11
+
+Each new admission has `reproduce.py --output /absolute/scratch/receipt.json`, selecting the frozen independent checker and authenticating its output. The session runner invokes all nine packages. Version2 changes repair only relocation/file-list defects and retain original mathematical evidence. All-width proofs remain distinct from finite checks. Both qualified historical absences remain unchanged.

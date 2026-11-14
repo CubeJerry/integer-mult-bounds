@@ -1,0 +1,128 @@
+{
+  "C_collision_codimension_histogram": {
+    "3": 320,
+    "4": 480,
+    "7": 1080,
+    "8": 168,
+    "9": 32,
+    "11": 608
+  },
+  "C_good_support": "16*4^V for V>=2",
+  "N_support": "4^(V+1)",
+  "actual_N_blocks_checked": 448,
+  "finite_width_controls": [
+    {
+      "C_good_row_support": 256,
+      "N_row_support": 64,
+      "V": 2,
+      "fraction_lower": "5/8",
+      "one_query_support_before_ordinary": 5
+    },
+    {
+      "C_good_row_support": 1024,
+      "N_row_support": 256,
+      "V": 3,
+      "fraction_lower": "61/64",
+      "one_query_support_before_ordinary": 9
+    },
+    {
+      "C_good_row_support": 4096,
+      "N_row_support": 1024,
+      "V": 4,
+      "fraction_lower": "509/512",
+      "one_query_support_before_ordinary": 17
+    },
+    {
+      "C_good_row_support": 16384,
+      "N_row_support": 4096,
+      "V": 5,
+      "fraction_lower": "4093/4096",
+      "one_query_support_before_ordinary": 33
+    },
+    {
+      "C_good_row_support": 65536,
+      "N_row_support": 16384,
+      "V": 6,
+      "fraction_lower": "32765/32768",
+      "one_query_support_before_ordinary": 65
+    },
+    {
+      "C_good_row_support": 262144,
+      "N_row_support": 65536,
+      "V": 7,
+      "fraction_lower": "262141/262144",
+      "one_query_support_before_ordinary": 129
+    },
+    {
+      "C_good_row_support": 1048576,
+      "N_row_support": 262144,
+      "V": 8,
+      "fraction_lower": "2097149/2097152",
+      "one_query_support_before_ordinary": 257
+    },
+    {
+      "C_good_row_support": 4194304,
+      "N_row_support": 1048576,
+      "V": 9,
+      "fraction_lower": "16777213/16777216",
+      "one_query_support_before_ordinary": 513
+    },
+    {
+      "C_good_row_support": 16777216,
+      "N_row_support": 4194304,
+      "V": 10,
+      "fraction_lower": "134217725/134217728",
+      "one_query_support_before_ordinary": 1025
+    }
+  ],
+  "linear_ordinary_countercontrols": [
+    {
+      "V": 1,
+      "ordinary_log_degree_allowance": 1,
+      "support": 2
+    },
+    {
+      "V": 2,
+      "ordinary_log_degree_allowance": 2,
+      "support": 4
+    },
+    {
+      "V": 3,
+      "ordinary_log_degree_allowance": 3,
+      "support": 8
+    },
+    {
+      "V": 4,
+      "ordinary_log_degree_allowance": 4,
+      "support": 16
+    },
+    {
+      "V": 5,
+      "ordinary_log_degree_allowance": 5,
+      "support": 32
+    },
+    {
+      "V": 6,
+      "ordinary_log_degree_allowance": 6,
+      "support": 64
+    },
+    {
+      "V": 7,
+      "ordinary_log_degree_allowance": 7,
+      "support": 128
+    }
+  ],
+  "new_kappa": false,
+  "rectangular_nonunitary_product_controls": 120,
+  "scope": "Exact linear circuits; paid depth and ordinary branching only, no aggregate Gaussian-moment conclusion.",
+  "source_pins": {
+    "C-PROOF.md": "9043ca62424f5e18d389c3c6479f6a238125b2d3a1d037d8cc2db19ff3b2c731",
+    "C-RESULT.json": "f9308586c8841908cb79e92d76755a5efe0cb1a2d375c95e533e5b6dfb04514c",
+    "C-REVIEW.md": "cb752179d9ab89464cbe246ced06410f12f409f109ff87e73128a669239cbc7c",
+    "GEOMETRY.json": "e8e48d62be188293677d5c2f7c9a1b104e944bff8ac97669fbaa9a70b41613c6",
+    "N-PROOF.md": "e35f396d7ceea64cde50fe03351609c9fb54ed3e073721ebf2edcc30ca6cd523",
+    "R0-WORD.json.gz": "c06724af5a2c414e62887ea78124d268cad2cabf500f9963ad5d0e9758c8a336"
+  },
+  "status": "PASS_NONUNITARY_SUPPORT_DEPTH_CONTROLS",
+  "universal_proof": "Row-support union inequality in PROOF.md, not finite extrapolation."
+}
