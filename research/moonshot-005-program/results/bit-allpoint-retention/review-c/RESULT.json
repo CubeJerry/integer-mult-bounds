@@ -1,0 +1,78 @@
+{
+  "status": "PASS_INDEPENDENT_ALL_RECEIVER_UNION_CUT_REDUCTION",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "pivot_assignment_sha256": "8c11ca368995bc6a77f8d0425ac259384a7edf6164bc4254dfc0c7d780e26e19",
+  "author_code_imported": false,
+  "core_basis_hex": [
+    "0x55cca94b30e611f30f0ccf0000",
+    "0x6180cccd32b575297c0cccc02300",
+    "0x7ccaacc7800e6100f0cea8cf200"
+  ],
+  "nonempty_clique_count": 485330,
+  "cliques_by_size": {
+    "1": 111,
+    "2": 2870,
+    "3": 24689,
+    "4": 87601,
+    "5": 160810,
+    "6": 147246,
+    "7": 57630,
+    "8": 4373
+  },
+  "nontrivial_rank_cases": 62003,
+  "deficits_by_size7_or8_clique": {
+    "4": 29026,
+    "5": 30663,
+    "6": 2314
+  },
+  "maximum_deficit": 6,
+  "witness": {
+    "targets": [
+      0,
+      14,
+      15,
+      30,
+      38,
+      39,
+      59
+    ],
+    "unknown_inputs": [
+      0,
+      14,
+      15,
+      30,
+      38,
+      39,
+      59,
+      60
+    ],
+    "nuisance_inputs": [
+      60
+    ],
+    "core_unknown_rank": 2,
+    "core_nuisance_rank": 1,
+    "deficit": 6
+  },
+  "negative_controls": {
+    "ignoring_nuisance_would_underestimate": {
+      "naive": 5,
+      "actual": 6
+    },
+    "only_one_pure_core_mode": {
+      "frame": [
+        0,
+        14,
+        15,
+        30,
+        38,
+        39,
+        59,
+        60
+      ],
+      "deficit": 8
+    },
+    "no_pure_core_mode_deficit": 8
+  },
+  "scope": "all original input copies at their actual lines, pure core atground; necessary cut test only",
+  "new_kappa": null
+}

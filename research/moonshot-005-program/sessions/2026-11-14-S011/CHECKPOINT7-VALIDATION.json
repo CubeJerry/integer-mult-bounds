@@ -1,0 +1,49 @@
+{
+  "status": "PASS_S011_CHECKPOINT7_INTEGRATION",
+  "baseline_sha": "a425127dd5cd68363a6d01418cc3aebc54853263",
+  "confirmed_parent_tree": "3000f0d4eb091f94474c50d00e3807f67060403b",
+  "time_utc": "2026-11-14T03:51:31.661688+00:00",
+  "packages": [
+    "bit-allpoint-retention",
+    "bit-commutative-two-channel"
+  ],
+  "manifest_entry_checks": 69,
+  "old_scientific_entries": 2431,
+  "old_present_unchanged": 2430,
+  "known_missing_unchanged": [
+    {
+      "path": "results/four-call-dyadic-entry/review/replay.log",
+      "sha256": "e63a2e88a6d947210bfd4a0d216b036a3421500048a300461e8b17d69da3dcca",
+      "bytes": 1607
+    }
+  ],
+  "new_scientific_entries": 46,
+  "total_scientific_entries": 2477,
+  "installed_exact_matches": [
+    {
+      "installed": "CP7-POINT-SOURCE.json",
+      "frozen": "bit-allpoint-retention/review-root/SOURCE.json"
+    },
+    {
+      "installed": "CP7-POINT-CUTS.json",
+      "frozen": "bit-allpoint-retention/review-c/RESULT.json"
+    },
+    {
+      "installed": "CP7-POINT-BUDGET.json",
+      "frozen": "bit-allpoint-retention/review-root/BUDGET.json"
+    },
+    {
+      "installed": "CP7-TWO-CHANNEL-NATIVE.json",
+      "frozen": "bit-commutative-two-channel/review-root/RESULT.json"
+    },
+    {
+      "installed": "CP7-TWO-CHANNEL-AUTHOR.json",
+      "frozen": "bit-commutative-two-channel/author/RESULT.json"
+    }
+  ],
+  "coalesced_word_reproductions_exact": true,
+  "session_log_append_only": true,
+  "protected_discovery_policy_unchanged": true,
+  "new_kappa": null,
+  "session_continues": true
+}

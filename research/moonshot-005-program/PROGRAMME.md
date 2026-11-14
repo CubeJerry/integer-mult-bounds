@@ -123,9 +123,13 @@ all X and complete two Y outputs; masks avoid an upward pure-cache duplicate.
 Their coordinate-only history cannot fit the103 noncoordinate ports. The
 active construction therefore seeks lower-chart sign-sensitive modes and a
 single paid chronology covering all111 targets. A halfclass-local/global-
-quotient decomposition has exact rank3 algebra, but its retained handoff fails
-stronger receiver-location cuts. Revised retention and proper-born descents
-are being tested; they are not a completed source.
+quotient decomposition has exact rank3 algebra. The older74-copy handoff fails
+stronger receiver-location cuts; a verified111-point stationary-copy revision
+now passes EVERY receiver-union cut, with sharp6V future deficit and no donor
+descents. Actual X-only MOVE coalescence is realized. The nearest obligation is
+a genuine six-further-packet joint decoder, with every read/stop/erasure paid.
+Two independent commutative channels cannot decode a native odd cycle; coupled
+packet/Y histories and noncommuting blocks remain open mechanisms.
 
 On the complex track, literal compensated funded ferries preserve old forward
 maps and lower reverse residual58 to57 or54. Exact400-input maps, phases and
@@ -247,3 +251,12 @@ temporarily changes20D/Y pairs, makes40 paired corrections and restores everyD.
 A separate aligned source gives an actual hosted Gram invariant. This realizes
 an escape from stationary-D controls. Global shared chronology and cheap reverse
 observations remain; eight fresh global returns already fail an optimistic budget.
+
+## S011 checkpoint7: all-point retention and a structural decoder boundary
+
+The [new handoff](results/bit-allpoint-retention/ADMISSION.md) repairs actual
+placement and passes every receiver-union necessary cut with sharp deficit6V.
+It supplies a partial source and actual coalesced X paths, not decoder
+sufficiency. The [odd-cycle theorem](results/bit-commutative-two-channel/ADMISSION.md)
+excludes independent commutative two-channel mechanisms while retaining coupled
+and noncommuting alternatives. Both advances constrain one ongoing construction.

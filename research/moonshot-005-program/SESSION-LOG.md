@@ -1214,3 +1214,17 @@ returns fail an optimistic full budget; shared acquisition is next. Protected
 discovery continues on joint decoding and changed-route structural laws.
 No new kappa, all five foundations retained, session active through11:19:23UTC.
 Remote identity is recorded after confirmation. Ongoing/not PR-ready; no PR filed.
+
+## 2026-11-14-S011 — checkpoint7: repaired cuts and independent-channel boundary
+
+Starting baselinea425127dd5cd68363a6d01418cc3aebc54853263, tree3000f0d4eb091f94474c50d00e3807f67060403b. A's revised prefix retains all111 source-line
+copies and3pure ground core records, with no donor descents. C independently
+proves reduction of all2^111 receiver subsets to cliques and verifies sharp
+max6V; root checks the literal source and constructs actual X-only coalescence.
+Conditional unitY/q9 room is0.9134314327..., first evenm16; decoder is open.
+C's universal commutative two-channel odd-cycle theorem survives A/root review,
+including resets/zero divisors and precise coupled/noncommuting exclusions.
+Protected discovery continues on genuine coupled codes and changed-route
+normalization. No new kappa, all five foundations retained. Root separately
+reviews a new complex line-Gram seed. Session remains active through11:19:23UTC;
+resulting remote identity is recorded after confirmation. Ongoing/not PR-ready.

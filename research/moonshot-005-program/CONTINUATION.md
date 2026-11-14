@@ -76,3 +76,15 @@ Use the restored complex receiver codec and explicit Gram-aligned alternative
 as construction tools, without adding alternative gains. Need globally shared
 cohorts and cheap reverse capture; independent forty-term patches/fresh global8
 returns cannot simply be repeated into a complete target source.
+
+## Checkpoint7 current frontier
+
+Resume the verified no-drop all111-point prefix inbit-allpoint-retention.
+The old74-copy location failure is repaired, including every receiver-union cut;
+its sharp deficit is6V and three broadcasts are already spent. Construct an
+actual coupled six-packet decoder or establish/repair its next decisive local
+obligation. Do not repeat the oldS12 cut or search independent commutative
+2-channel odd cycles: both statuses are settled in their stated scopes.
+All new interactions must preserve/reprice the actual X coalescence and owned
+lifetimes. A complex omitted-line Gram seed is being independently reviewed;
+no new complete bound is available. S011 continues through11:19:23UTC.

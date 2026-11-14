@@ -1,0 +1,93 @@
+{
+  "actual_decoder_supplied": false,
+  "all222_columns_and_live_owned_rows": true,
+  "new_kappa": null,
+  "receipts": {
+    "CLOSED-WORD.json.gz": {
+      "after": {
+        "X_profile": {
+          "1": 4,
+          "2": 15,
+          "3": 84,
+          "4": 84,
+          "5": 15,
+          "6": 4,
+          "7": 8
+        },
+        "counts": {
+          "ADD": 571,
+          "CLEAR": 117,
+          "INIT": 117,
+          "MOVE": 1015
+        },
+        "nested_pairs": 575,
+        "other_profile": {
+          "1": 801
+        }
+      },
+      "before": {
+        "X_profile": {
+          "1": 777
+        },
+        "counts": {
+          "ADD": 571,
+          "CLEAR": 117,
+          "INIT": 117,
+          "MOVE": 1578
+        },
+        "nested_pairs": 719,
+        "other_profile": {
+          "1": 801
+        }
+      },
+      "coalesced_chains": 210,
+      "input_sha256": "3cfc771872c2d5d656f62ac1d59fd771bb73e748eb8ef0ce04d6e0979782d393",
+      "output_sha256": "3e326e2b0f9dfc78c8be87b929ca04b5ce876371b32dab25bfdade8c5918beab",
+      "removed_moves": 563
+    },
+    "PREFIX.json.gz": {
+      "after": {
+        "X_profile": {
+          "1": 4,
+          "2": 15,
+          "3": 84,
+          "4": 63,
+          "5": 10,
+          "6": 2,
+          "7": 8
+        },
+        "counts": {
+          "ADD": 496,
+          "CLEAR": 3,
+          "INIT": 117,
+          "MOVE": 210
+        },
+        "nested_pairs": 140,
+        "other_profile": {
+          "1": 24
+        }
+      },
+      "before": {
+        "X_profile": {
+          "1": 656
+        },
+        "counts": {
+          "ADD": 496,
+          "CLEAR": 3,
+          "INIT": 117,
+          "MOVE": 680
+        },
+        "nested_pairs": 290,
+        "other_profile": {
+          "1": 24
+        }
+      },
+      "coalesced_chains": 182,
+      "input_sha256": "a19e5d28edc7cbd0eea9a636233cf99a7b83693d955b4959f16fb59fc0299869",
+      "output_sha256": "339a754daa4522b7901bbcc14f6ac4ccda824f0be0a73ca41f87099ebbf4f20b",
+      "removed_moves": 470
+    }
+  },
+  "scope": "Fixed prefix and its non-target closed preconditioner only; new decoder reads can split these chains.",
+  "status": "PASS_EXACT_X_ONLY_MOVE_COALESCENCE"
+}

@@ -171,3 +171,15 @@ lineage and twelve mutants. Separate2^-140 roots price actual profiles. Author
 25-map phase adapter is read/reproduced with retained independent engines,
 explicitly not a third phase implementation. Installed receipts, manifests and
 unchanged prior scientific files are recorded in CHECKPOINT6-VALIDATION.
+
+## S011 checkpoint7 checks
+
+C reconstructs all485330 native nonorthogonality cliques and62003 exact cut
+cases with nuisance/zero-core controls. Lead separately replays all222 columns,
+live-owned rows, actual rational charts and five source mutants; constructs
+and replays actual X-only coalesced words; checks the budget with distinct
+2^-144 bisection and the native ordinary invoice including3SWAPs. A independently
+reviews the universal odd-cycle proof; lead verifies unchanged reviewed sections,
+native selected-input premises and all blocks of a noncommuting scope control.
+Author reproduction is not relabeled independent proof. CHECKPOINT7-VALIDATION
+records installed reproductions, manifests and unchanged prior scientific bytes.

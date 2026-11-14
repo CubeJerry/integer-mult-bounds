@@ -141,3 +141,12 @@ is being integrated separately; revised source retention remains active.
 | TRANSIENT-RECEIVER-CODEC | Actual20-pair word restoresD;40 paired terms, no new whole endpoint. | Globally shared cocharted schedule. |
 | HOSTED-GRAM-INVARIANT | Separate aligned source/codec preserveR+L^T=G, rank8. | Hosted/coupled forward completion and actual reverse information. |
 | GLOBAL-EIGHT-RETURNS | Optimistic complete margin negative0.593807.... | Cheaper preterminal returns or changed architecture. |
+
+## S011 checkpoint7 transitions
+
+| ID | Exact result and dependencies | Remaining obligation |
+|---|---|---|
+| ALLPOINT-HANDOFF | PROVED scalar all-width partial source, actual retained placements, independent222-column/native-chart checks. | Actual six-further-packet decoder and all endpoints. |
+| ALL-RECEIVER-UNION-CUTS | PROVED every subset reduces to a clique; exact62003 nontrivial ranks, max6V. Depends on native111 roots, repaired core and actual pure copies. | Passed necessity is not simultaneous-code sufficiency. |
+| X-COALESCENCE | PROVED unread same-record MOVE rule; actual partial words with required214-X-MOVE profile. | Decoder must preserve or reprice mandatory stops. |
+| TWO-COMMUTATIVE-CHANNELS | PROVED universal odd-cycle obstruction including zero resets/zero divisors; native application. | Genuine coupling or noncommuting-block construction; no generic impossibility claimed. |

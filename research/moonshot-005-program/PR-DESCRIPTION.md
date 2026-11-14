@@ -237,3 +237,16 @@ A separate verified alternative establishes a hosted Gram invariant; complete
 budget still excludes eight fresh global returns. Provenance, source/phase
 classifications, all costs/assumptions and independent checks remain explicit.
 No new kappa; cumulative programme ongoing, not PR-ready.
+
+### S011 all-point retention and the universal independent-channel boundary
+
+The [repaired prefix](results/bit-allpoint-retention/ADMISSION.md) retains all111
+inputs at real source lines and3pure global modes. A general all-subsets-to-clique
+reduction and independent485330-clique census prove every receiver-union cut
+needs at most6V further capacity, with an exact sharp witness and outside-nuisance
+control. Actual coalesced source words and full ordinary/owned obligations are
+provided; a complete six-packet decoder remains open. The
+[commutative odd-cycle theorem](results/bit-commutative-two-channel/ADMISSION.md)
+rules out two independent mutable channels over every nonzero characteristic-two
+commutative ring, while explicitly preserving coupled and noncommuting escapes.
+These are coherent source and structural contributions, not a new completeκ.

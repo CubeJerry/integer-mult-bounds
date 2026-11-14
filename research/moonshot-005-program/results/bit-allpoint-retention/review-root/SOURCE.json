@@ -1,0 +1,48 @@
+{
+  "closed_target": "X=x andY=y+Rx, NOT the requiredY=y+x",
+  "core_rank": 3,
+  "negative_controls": [
+    "missing_point_copy",
+    "missing_pure_core_copy",
+    "missing_pivot_restoration",
+    "wrong_initial_native_chart",
+    "unknown_original_Y_assumed_zero"
+  ],
+  "new_kappa": null,
+  "receipts": {
+    "CLOSED-WORD.json.gz": {
+      "all222_columns_checked": true,
+      "counts": {
+        "ADD": 571,
+        "CLEAR": 117,
+        "INIT": 117,
+        "MOVE": 1578
+      },
+      "exact_nested_pairs": 719,
+      "native_endpoint_chart_ids_checked": 224,
+      "nonzero_erasures": 117,
+      "owned_live_at_end": 0,
+      "peak_owned": 115
+    },
+    "PREFIX.json.gz": {
+      "all222_columns_checked": true,
+      "counts": {
+        "ADD": 496,
+        "CLEAR": 3,
+        "INIT": 117,
+        "MOVE": 680
+      },
+      "exact_nested_pairs": 290,
+      "native_endpoint_chart_ids_checked": 117,
+      "nonzero_erasures": 3,
+      "owned_live_at_end": 114,
+      "peak_owned": 115
+    }
+  },
+  "scope": "Exact finite native source and scalar characteristic-two identity lift; all receiver-region cut sufficiency is NOT claimed; actual decoder remains open.",
+  "status": "PASS_INDEPENDENT_ALL_POINT_SOURCE_AND_CLOSURE",
+  "word_pins": {
+    "CLOSED-WORD.json.gz": "3cfc771872c2d5d656f62ac1d59fd771bb73e748eb8ef0ce04d6e0979782d393",
+    "PREFIX.json.gz": "a19e5d28edc7cbd0eea9a636233cf99a7b83693d955b4959f16fb59fc0299869"
+  }
+}

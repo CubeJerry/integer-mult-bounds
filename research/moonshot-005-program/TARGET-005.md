@@ -239,3 +239,15 @@ Complex recoding costs8[1]+36[2]+40[6]-40[8], moment0.9202600166139477...,
 preservesR+L^T=G but reopens debt. Even400[8]+16[9]+8[1] has limiting margin
 -0.593807189930..., with finite penalty31.5397783670854.../(m-1). Actual cheaper
 reverse acquisition is necessary; rank8 alone is not an invoice. No new supplier.
+
+## S011 checkpoint7: verified retention and conditional narrow room
+
+All111 source-line copies and3pure core caches now give every receiver-union
+cut deficit<=6V, attained. With only further Hub packets, q>=9 for this handoff;
+q10 remains potentially within the retained target envelope. No donor drops are
+required. Actual X-only coalescence plus hypothetical unitY/all9packet paths
+has limiting margin0.91343143274848..., first evenm16. Idealq9/q10 profiles
+first passm4/m12 but are lower-bound screens. Every decoder stop, transport,
+owned lifetime and ordinary operation must be bound to an actual source.
+The two-channel odd-cycle theorem is scoped to independent commutative updates;
+it does not exclude six coupled packets or provide a complete supplier.

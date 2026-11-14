@@ -1,0 +1,110 @@
+{
+  "status": "PASS_COMMUTATIVE_TWO_CHANNEL_THEOREM_CHECKS",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "pivot_assignment_sha256": "8c11ca368995bc6a77f8d0425ac259384a7edf6164bc4254dfc0c7d780e26e19",
+  "orthogonality_cycle": [
+    92,
+    36,
+    54,
+    38,
+    55
+  ],
+  "nonorthogonality_cycle": [
+    92,
+    38,
+    36,
+    55,
+    54
+  ],
+  "Gram_in_orthogonality_order": [
+    [
+      "4",
+      "0",
+      "2",
+      "2",
+      "0"
+    ],
+    [
+      "0",
+      "4",
+      "0",
+      "2",
+      "-2"
+    ],
+    [
+      "2",
+      "0",
+      "4",
+      "0",
+      "-2"
+    ],
+    [
+      "2",
+      "2",
+      "0",
+      "4",
+      "0"
+    ],
+    [
+      "0",
+      "-2",
+      "-2",
+      "0",
+      "4"
+    ]
+  ],
+  "real_rank": 5,
+  "local_information_deadline_distinct_receivers": 3,
+  "ring_checks": {
+    "F2": {
+      "ring_size": 2,
+      "reciprocal_edge_matrices": 10,
+      "valid_edge_decoders_checked": 30,
+      "odd_cycle_weight_assignments": 0
+    },
+    "F4": {
+      "ring_size": 4,
+      "reciprocal_edge_matrices": 76,
+      "valid_edge_decoders_checked": 3636,
+      "odd_cycle_weight_assignments": 0
+    },
+    "F2_dual_numbers": {
+      "ring_size": 4,
+      "reciprocal_edge_matrices": 88,
+      "valid_edge_decoders_checked": 1920,
+      "odd_cycle_weight_assignments": 0
+    }
+  },
+  "bipartite_positive_control_seeds": [
+    5,
+    10
+  ],
+  "noncommuting_pair_control": {
+    "own_contributions": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "sum": [
+      0,
+      0
+    ],
+    "identity": [
+      1,
+      2
+    ],
+    "full_two_target_map_verified": true,
+    "pentagon_claimed": false
+  },
+  "negative_controls": [
+    "nonlocal coefficient invention violates reciprocity",
+    "arbitrary block extrapolation fails on an exact two-target decoder"
+  ],
+  "classification": "universal commutative-ring proof with exact native premises; coupled and noncommuting cases open",
+  "new_kappa": null
+}

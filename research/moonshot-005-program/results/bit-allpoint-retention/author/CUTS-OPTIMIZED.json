@@ -1,0 +1,97 @@
+{
+  "builder_sha256": "244bedc78693645fdd70ed4540689e7d047e0a6eb260c3d40403ac691d43b7e8",
+  "completed_decoder": false,
+  "exact_reduced_enumeration": {
+    "cliques_visited": 305073,
+    "deficit_counts": {
+      "4": 29026,
+      "5": 30663,
+      "6": 2314
+    },
+    "maximum_conditional_target_deficit": 6,
+    "maximum_noncoordinate_clique_size": 8,
+    "nontrivial_cuts_checked": 62003,
+    "witness": {
+      "coordinates": [],
+      "deficit": 6,
+      "noncoordinate_clique": [
+        8,
+        9,
+        14,
+        15,
+        30,
+        31,
+        59
+      ],
+      "outside_core_rank": 2,
+      "outside_nuisance_core_rank": 1,
+      "outside_nuisance_inputs": [
+        60
+      ]
+    }
+  },
+  "model": "All111 pure input copies at original source lines; three pure B caches at zero; arbitrary independent Y preloaded by E; original halfbanks at exact local spans.",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "negative_controls": {
+    "minimum_index_pivots": {
+      "cliques_visited": 305073,
+      "deficit_counts": {
+        "4": 23689,
+        "5": 31611,
+        "6": 5906,
+        "7": 766,
+        "8": 31
+      },
+      "maximum_conditional_target_deficit": 8,
+      "maximum_noncoordinate_clique_size": 8,
+      "nontrivial_cuts_checked": 62003,
+      "witness": {
+        "coordinates": [],
+        "deficit": 8,
+        "noncoordinate_clique": [
+          8,
+          9,
+          14,
+          15,
+          30,
+          31,
+          59,
+          60
+        ],
+        "outside_core_rank": 0,
+        "outside_nuisance_core_rank": 0,
+        "outside_nuisance_inputs": []
+      }
+    },
+    "zero_core": {
+      "cliques_visited": 305073,
+      "deficit_counts": {
+        "7": 57630,
+        "8": 4373
+      },
+      "maximum_conditional_target_deficit": 8,
+      "maximum_noncoordinate_clique_size": 8,
+      "nontrivial_cuts_checked": 62003,
+      "witness": {
+        "coordinates": [],
+        "deficit": 8,
+        "noncoordinate_clique": [
+          8,
+          9,
+          14,
+          15,
+          30,
+          31,
+          59,
+          60
+        ],
+        "outside_core_rank": 0,
+        "outside_nuisance_core_rank": 0,
+        "outside_nuisance_inputs": []
+      }
+    }
+  },
+  "new_kappa": false,
+  "status": "PASS_EXACT_ALL_RECEIVER_SUBSET_REDUCTION_NO_LOCAL_DROPS",
+  "universal_scope": "The proof reduces every receiver subset to the enumerated clique domain or a demand set of at most6. This is necessary communication-cut feasibility only."
+}
