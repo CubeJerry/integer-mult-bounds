@@ -1,0 +1,2078 @@
+{
+  "status": "PASS_OPERATOR_SHORTENING_FINITE_PREMISES",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "certificate_sha256": "5532ef6538d9d706bc4039a413b44cbf78e68d0ab1d3c894d1eb4dde132da0a1",
+  "parity_family": {
+    "configurations": 30,
+    "frames": 270,
+    "frame_size": 8,
+    "ordered_real_inner_product_checks": 15120,
+    "aggregate_incidence_by_role": [
+      22,
+      18,
+      20,
+      18,
+      22,
+      20,
+      18,
+      20,
+      18,
+      18,
+      16,
+      20,
+      18,
+      18,
+      16,
+      18,
+      22,
+      20,
+      24,
+      20,
+      20,
+      18,
+      16,
+      24,
+      20,
+      20,
+      16,
+      20,
+      18,
+      20,
+      24,
+      18,
+      24,
+      24,
+      20,
+      22,
+      16,
+      22,
+      16,
+      18,
+      22,
+      20,
+      18,
+      20,
+      18,
+      18,
+      20,
+      18,
+      22,
+      18,
+      14,
+      22,
+      22,
+      18,
+      22,
+      18,
+      20,
+      18,
+      22,
+      18,
+      24,
+      24,
+      18,
+      18,
+      20,
+      20,
+      20,
+      18,
+      18,
+      20,
+      22,
+      18,
+      22,
+      20,
+      18,
+      18,
+      18,
+      18,
+      18,
+      20,
+      18,
+      20,
+      16,
+      20,
+      22,
+      24,
+      20,
+      24,
+      20,
+      18,
+      20,
+      20,
+      20,
+      18,
+      20,
+      18,
+      14,
+      20,
+      20,
+      20,
+      20,
+      18,
+      20,
+      22,
+      22,
+      16,
+      16,
+      16,
+      20,
+      16,
+      20
+    ],
+    "maximum_incidence": 24,
+    "rank_bound_any_d_omissions": "(9-d/10)V",
+    "rank_bound_eight_omissions": "41/5"
+  },
+  "full_code_shortening": {
+    "classes": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        8,
+        10,
+        12,
+        13,
+        103,
+        106,
+        108,
+        109
+      ],
+      [
+        9,
+        11,
+        104,
+        105,
+        107,
+        110
+      ],
+      [
+        14,
+        17,
+        19,
+        20,
+        96,
+        99,
+        101,
+        102
+      ],
+      [
+        15,
+        16,
+        18,
+        21,
+        97,
+        98,
+        100
+      ],
+      [
+        22,
+        25,
+        27,
+        28,
+        88,
+        91,
+        93,
+        94
+      ],
+      [
+        23,
+        24,
+        26,
+        29,
+        89,
+        90,
+        92,
+        95
+      ],
+      [
+        30,
+        33,
+        35,
+        36,
+        81,
+        83,
+        85,
+        86
+      ],
+      [
+        31,
+        32,
+        34,
+        37,
+        82,
+        84,
+        87
+      ],
+      [
+        38,
+        41,
+        43,
+        44,
+        73,
+        76,
+        78,
+        79
+      ],
+      [
+        39,
+        40,
+        42,
+        45,
+        74,
+        75,
+        77,
+        80
+      ],
+      [
+        46,
+        50,
+        68,
+        70,
+        71
+      ],
+      [
+        47,
+        48,
+        49,
+        51,
+        66,
+        67,
+        69,
+        72
+      ],
+      [
+        52,
+        53,
+        55,
+        58,
+        60,
+        62,
+        65
+      ],
+      [
+        54,
+        56,
+        57,
+        59,
+        61,
+        63,
+        64
+      ]
+    ],
+    "canonical_dimension": 9,
+    "class_dimension": 15,
+    "sum_dimension": 19,
+    "facet_checks": [
+      {
+        "receiver": 0,
+        "class_by_minimum_member": 0,
+        "local_generator_hex": "0x7ffffffe0007ffc00000003f00",
+        "support_size": 49,
+        "independent_real_support_roles": [
+          8,
+          9,
+          10,
+          11,
+          46,
+          47,
+          73
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 1,
+        "class_by_minimum_member": 0,
+        "local_generator_hex": "0x7f80fffe01fc07f03fc0003fc000",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          14,
+          15,
+          16,
+          18,
+          38,
+          39,
+          66
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 2,
+        "class_by_minimum_member": 0,
+        "local_generator_hex": "0x7fff0001fffc07f0003fffc00000",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          22,
+          23,
+          24,
+          26,
+          30,
+          31,
+          66
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 3,
+        "class_by_minimum_member": 0,
+        "local_generator_hex": "0x7ffffffffffff00",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          8,
+          9,
+          10,
+          11,
+          14,
+          15,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 4,
+        "class_by_minimum_member": 0,
+        "local_generator_hex": "0x7fff00fe0003f80fffc03fc00000",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          22,
+          23,
+          24,
+          26,
+          38,
+          40,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 5,
+        "class_by_minimum_member": 0,
+        "local_generator_hex": "0xfffffff80000003fffff00",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          8,
+          9,
+          10,
+          11,
+          14,
+          15,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 6,
+        "class_by_minimum_member": 0,
+        "local_generator_hex": "0x7fff0001fff8003fffc0003f00",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          8,
+          9,
+          10,
+          11,
+          30,
+          31,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 7,
+        "class_by_minimum_member": 0,
+        "local_generator_hex": "0x7f80ff01fe03f80fc03fc03fc000",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          14,
+          15,
+          16,
+          18,
+          30,
+          31,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 8,
+        "class_by_minimum_member": 8,
+        "local_generator_hex": "0x4b2acca998cce55e168f168f0069",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          3,
+          5,
+          6,
+          16,
+          23,
+          32
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 9,
+        "class_by_minimum_member": 9,
+        "local_generator_hex": "0x34d5cc579930e2ae294f294f0069",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          3,
+          5,
+          6,
+          16,
+          22,
+          32
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 10,
+        "class_by_minimum_member": 8,
+        "local_generator_hex": "0x4b55335666cce55e2970e970c069",
+        "support_size": 54,
+        "independent_real_support_roles": [
+          0,
+          3,
+          5,
+          6,
+          14,
+          22,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 11,
+        "class_by_minimum_member": 9,
+        "local_generator_hex": "0x34aa335798cf1d51e94f16b0c069",
+        "support_size": 54,
+        "independent_real_support_roles": [
+          0,
+          3,
+          5,
+          6,
+          14,
+          23,
+          32
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 12,
+        "class_by_minimum_member": 8,
+        "local_generator_hex": "0x4b5533a999331aa1d68f2970c069",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          3,
+          5,
+          6,
+          14,
+          22,
+          32
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 13,
+        "class_by_minimum_member": 8,
+        "local_generator_hex": "0x4b2acc5667331aa1e970d68f0069",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          3,
+          5,
+          6,
+          16,
+          23,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 14,
+        "class_by_minimum_member": 14,
+        "local_generator_hex": "0x5516cccccd9b2666bc3333001caa",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          1,
+          3,
+          5,
+          7,
+          10,
+          24,
+          32
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 15,
+        "class_by_minimum_member": 15,
+        "local_generator_hex": "0x2ae9cc33339b21997c330cc01caa",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          1,
+          3,
+          5,
+          7,
+          10,
+          22,
+          32
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 16,
+        "class_by_minimum_member": 15,
+        "local_generator_hex": "0x556933cd32672196bc0cf30023aa",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          1,
+          3,
+          5,
+          7,
+          8,
+          24,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 17,
+        "class_by_minimum_member": 14,
+        "local_generator_hex": "0x2a963332cc6726697c0cccc023aa",
+        "support_size": 50,
+        "independent_real_support_roles": [
+          1,
+          3,
+          5,
+          7,
+          8,
+          22,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 18,
+        "class_by_minimum_member": 15,
+        "local_generator_hex": "0x55693332cd98de6943f3330023aa",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          1,
+          3,
+          5,
+          7,
+          8,
+          24,
+          32
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 19,
+        "class_by_minimum_member": 14,
+        "local_generator_hex": "0x2a9633cd3398d99683f30cc023aa",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          1,
+          3,
+          5,
+          7,
+          8,
+          22,
+          32
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 20,
+        "class_by_minimum_member": 14,
+        "local_generator_hex": "0x5516cc333264d99943ccf3001caa",
+        "support_size": 50,
+        "independent_real_support_roles": [
+          1,
+          3,
+          5,
+          7,
+          10,
+          24,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 21,
+        "class_by_minimum_member": 15,
+        "local_generator_hex": "0x2ae9cccccc64de6683ccccc01caa",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          1,
+          3,
+          5,
+          7,
+          10,
+          22,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 22,
+        "class_by_minimum_member": 22,
+        "local_generator_hex": "0x552a96655557c338aabc002a963c",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          2,
+          3,
+          4,
+          5,
+          9,
+          15,
+          34
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 23,
+        "class_by_minimum_member": 23,
+        "local_generator_hex": "0x5555699b54abc4c8957c002aa93c",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          2,
+          3,
+          4,
+          5,
+          8,
+          15,
+          34
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 24,
+        "class_by_minimum_member": 23,
+        "local_generator_hex": "0x2aaa699aab57c4c76abc0015563c",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          2,
+          3,
+          4,
+          5,
+          9,
+          14,
+          34
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 25,
+        "class_by_minimum_member": 22,
+        "local_generator_hex": "0x2ad59664aaabc337557c0015693c",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          2,
+          3,
+          4,
+          5,
+          8,
+          14,
+          34
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 26,
+        "class_by_minimum_member": 23,
+        "local_generator_hex": "0x55556964ab543b376a83c02aa93c",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          2,
+          3,
+          4,
+          5,
+          8,
+          15,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 27,
+        "class_by_minimum_member": 22,
+        "local_generator_hex": "0x552a969aaaa83cc75543c02a963c",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          2,
+          3,
+          4,
+          5,
+          9,
+          15,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 28,
+        "class_by_minimum_member": 22,
+        "local_generator_hex": "0x2ad5969b55543cc8aa83c015693c",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          2,
+          3,
+          4,
+          5,
+          8,
+          14,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 29,
+        "class_by_minimum_member": 23,
+        "local_generator_hex": "0x2aaa696554a83b389543c015563c",
+        "support_size": 49,
+        "independent_real_support_roles": [
+          2,
+          3,
+          4,
+          5,
+          9,
+          14,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 30,
+        "class_by_minimum_member": 30,
+        "local_generator_hex": "0x664c6695999bc78d33003c3324cc",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          2,
+          3,
+          6,
+          7,
+          10,
+          16,
+          40
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 31,
+        "class_by_minimum_member": 31,
+        "local_generator_hex": "0x19b3996b999bc072ccc03c3324cc",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          2,
+          3,
+          6,
+          7,
+          10,
+          16,
+          38
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 32,
+        "class_by_minimum_member": 31,
+        "local_generator_hex": "0x664c996a6667c07d33003c0cdbcc",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          2,
+          3,
+          6,
+          7,
+          8,
+          14,
+          40
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 33,
+        "class_by_minimum_member": 30,
+        "local_generator_hex": "0x19b366946667c782ccc03c0cdbcc",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          2,
+          3,
+          6,
+          7,
+          8,
+          14,
+          38
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 34,
+        "class_by_minimum_member": 31,
+        "local_generator_hex": "0x6633666a67983f82f30003f31bcc",
+        "support_size": 54,
+        "independent_real_support_roles": [
+          2,
+          3,
+          6,
+          7,
+          8,
+          16,
+          40
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 35,
+        "class_by_minimum_member": 30,
+        "local_generator_hex": "0x19cc99946798387d0cc003f31bcc",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          2,
+          3,
+          6,
+          7,
+          8,
+          16,
+          38
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 36,
+        "class_by_minimum_member": 30,
+        "local_generator_hex": "0x6633999598643872f30003cce4cc",
+        "support_size": 49,
+        "independent_real_support_roles": [
+          2,
+          3,
+          6,
+          7,
+          10,
+          14,
+          40
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 37,
+        "class_by_minimum_member": 31,
+        "local_generator_hex": "0x19cc666b98643f8d0cc003cce4cc",
+        "support_size": 50,
+        "independent_real_support_roles": [
+          2,
+          3,
+          6,
+          7,
+          10,
+          14,
+          38
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 38,
+        "class_by_minimum_member": 38,
+        "local_generator_hex": "0x6666aaa92d5722d3002aaabc2e5a",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          1,
+          3,
+          4,
+          6,
+          9,
+          18,
+          31
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 39,
+        "class_by_minimum_member": 39,
+        "local_generator_hex": "0x6619aa56d2ab2523002a957c115a",
+        "support_size": 48,
+        "independent_real_support_roles": [
+          1,
+          3,
+          4,
+          6,
+          8,
+          18,
+          31
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 40,
+        "class_by_minimum_member": 39,
+        "local_generator_hex": "0x199955a8d357252cc0156abc2e5a",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          1,
+          3,
+          4,
+          6,
+          9,
+          18,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 41,
+        "class_by_minimum_member": 38,
+        "local_generator_hex": "0x19e655572cab22dcc015557c115a",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          1,
+          3,
+          4,
+          6,
+          8,
+          18,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 42,
+        "class_by_minimum_member": 39,
+        "local_generator_hex": "0x66665556d354dadcc02aaa83d15a",
+        "support_size": 54,
+        "independent_real_support_roles": [
+          1,
+          3,
+          4,
+          6,
+          8,
+          14,
+          31
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 43,
+        "class_by_minimum_member": 38,
+        "local_generator_hex": "0x661955a92ca8dd2cc02a9543ee5a",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          1,
+          3,
+          4,
+          6,
+          9,
+          14,
+          31
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 44,
+        "class_by_minimum_member": 38,
+        "local_generator_hex": "0x1999aa572d54dd2300156a83d15a",
+        "support_size": 50,
+        "independent_real_support_roles": [
+          1,
+          3,
+          4,
+          6,
+          8,
+          14,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 45,
+        "class_by_minimum_member": 39,
+        "local_generator_hex": "0x19e6aaa8d2a8dad300155543ee5a",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          1,
+          3,
+          4,
+          6,
+          9,
+          14,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 46,
+        "class_by_minimum_member": 46,
+        "local_generator_hex": "0x334caacd552ce1e00f168f16b899",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          0,
+          3,
+          4,
+          7,
+          11,
+          15,
+          31
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 47,
+        "class_by_minimum_member": 47,
+        "local_generator_hex": "0x4cccaa32aad0e6100f16b0e97899",
+        "support_size": 50,
+        "independent_real_support_roles": [
+          0,
+          3,
+          4,
+          7,
+          11,
+          14,
+          31
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 48,
+        "class_by_minimum_member": 47,
+        "local_generator_hex": "0x4cb355cd54d0e61030e94f16b899",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          3,
+          4,
+          7,
+          11,
+          15,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 49,
+        "class_by_minimum_member": 47,
+        "local_generator_hex": "0x334c553354d319e030d68f294799",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          3,
+          4,
+          7,
+          8,
+          14,
+          31
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 50,
+        "class_by_minimum_member": 46,
+        "local_generator_hex": "0x4cb3aa33552f1e100f294f294799",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          0,
+          3,
+          4,
+          7,
+          8,
+          14,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 51,
+        "class_by_minimum_member": 47,
+        "local_generator_hex": "0x3333aaccaad319e00f2970d68799",
+        "support_size": 54,
+        "independent_real_support_roles": [
+          0,
+          3,
+          4,
+          7,
+          8,
+          15,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 52,
+        "class_by_minimum_member": 52,
+        "local_generator_hex": "0x3319669acd31a805a659a6598d0f",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          1,
+          2,
+          3,
+          8,
+          15,
+          31
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 53,
+        "class_by_minimum_member": 52,
+        "local_generator_hex": "0x4ce6669b32cda80a5999a666720f",
+        "support_size": 54,
+        "independent_real_support_roles": [
+          0,
+          1,
+          2,
+          3,
+          9,
+          14,
+          31
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 54,
+        "class_by_minimum_member": 54,
+        "local_generator_hex": "0x4c9966653332500a665999a64d0f",
+        "support_size": 50,
+        "independent_real_support_roles": [
+          0,
+          1,
+          2,
+          3,
+          8,
+          14,
+          31
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 55,
+        "class_by_minimum_member": 52,
+        "local_generator_hex": "0x4c999964cccda80a66665999b20f",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          1,
+          2,
+          3,
+          9,
+          15,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 56,
+        "class_by_minimum_member": 54,
+        "local_generator_hex": "0x4ce6999acd32500a59a666598d0f",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          1,
+          2,
+          3,
+          8,
+          15,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 57,
+        "class_by_minimum_member": 54,
+        "local_generator_hex": "0x3319999b32ce5005a6666666720f",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          1,
+          2,
+          3,
+          9,
+          14,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 58,
+        "class_by_minimum_member": 52,
+        "local_generator_hex": "0x336699653331a80599a659a64d0f",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          1,
+          2,
+          3,
+          8,
+          14,
+          30
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 59,
+        "class_by_minimum_member": 54,
+        "local_generator_hex": "0x7870f0f1e1e004be3c3c3c3c38f0",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          4,
+          5,
+          6,
+          7,
+          11,
+          18,
+          69
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 60,
+        "class_by_minimum_member": 52,
+        "local_generator_hex": "0x78f0f0e1e1c034e3c3c3c3c38f0",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          4,
+          5,
+          6,
+          7,
+          11,
+          18,
+          66
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 61,
+        "class_by_minimum_member": 54,
+        "local_generator_hex": "0x78ff0f01e1c04b1c3fc3c03c7f0",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          14,
+          66
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 62,
+        "class_by_minimum_member": 52,
+        "local_generator_hex": "0x780ff0f01fe00341fc03c3fc07f0",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          18,
+          69
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 63,
+        "class_by_minimum_member": 54,
+        "local_generator_hex": "0x7f00f0fe01c04b1fc03c3fc07f0",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          18,
+          66
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 64,
+        "class_by_minimum_member": 54,
+        "local_generator_hex": "0x780f0f0e1fe004be03c3c3c3f8f0",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          4,
+          5,
+          6,
+          7,
+          11,
+          14,
+          69
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 65,
+        "class_by_minimum_member": 52,
+        "local_generator_hex": "0x7f0f0f1e01c034e03c3c3c3f8f0",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          4,
+          5,
+          6,
+          7,
+          11,
+          14,
+          66
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 66,
+        "class_by_minimum_member": 47,
+        "local_generator_hex": "0x78253ca67802b2a4557315730d66",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          1,
+          2,
+          5,
+          6,
+          8,
+          16,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 67,
+        "class_by_minimum_member": 47,
+        "local_generator_hex": "0x785ac3598602b2a46a8cea8ccd66",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          1,
+          2,
+          5,
+          6,
+          8,
+          14,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 68,
+        "class_by_minimum_member": 46,
+        "local_generator_hex": "0x7825c3a78602b55b954cd54cf266",
+        "support_size": 54,
+        "independent_real_support_roles": [
+          1,
+          2,
+          5,
+          6,
+          9,
+          14,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 69,
+        "class_by_minimum_member": 47,
+        "local_generator_hex": "0x7a5c3a786014d546ab32ab33266",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          1,
+          2,
+          5,
+          6,
+          9,
+          16,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 70,
+        "class_by_minimum_member": 46,
+        "local_generator_hex": "0x7dac35986014aab957315730d66",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          1,
+          2,
+          5,
+          6,
+          8,
+          16,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 71,
+        "class_by_minimum_member": 46,
+        "local_generator_hex": "0x7a53ca678014aabaa8cea8ccd66",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          1,
+          2,
+          5,
+          6,
+          8,
+          14,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 72,
+        "class_by_minimum_member": 47,
+        "local_generator_hex": "0x7da3c5878014d54554cd54cf266",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          1,
+          2,
+          5,
+          6,
+          9,
+          14,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 73,
+        "class_by_minimum_member": 38,
+        "local_generator_hex": "0x2d703c3c00797668a58f0f19a4a5",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          0,
+          2,
+          5,
+          7,
+          10,
+          15,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 74,
+        "class_by_minimum_member": 39,
+        "local_generator_hex": "0x52f03cc2007971975a4f30e664a5",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          0,
+          2,
+          5,
+          7,
+          10,
+          14,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 75,
+        "class_by_minimum_member": 39,
+        "local_generator_hex": "0x2d70c33c018571989a70cf265ba5",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          0,
+          2,
+          5,
+          7,
+          8,
+          14,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 76,
+        "class_by_minimum_member": 38,
+        "local_generator_hex": "0x52f0c3c20185766765b0f0d99ba5",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          0,
+          2,
+          5,
+          7,
+          8,
+          15,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 77,
+        "class_by_minimum_member": 39,
+        "local_generator_hex": "0x528fc3c201868e689a4f0f19a4a5",
+        "support_size": 49,
+        "independent_real_support_roles": [
+          0,
+          2,
+          5,
+          7,
+          10,
+          15,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 78,
+        "class_by_minimum_member": 38,
+        "local_generator_hex": "0x2d0fc33c01868997658f30e664a5",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          0,
+          2,
+          5,
+          7,
+          10,
+          14,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 79,
+        "class_by_minimum_member": 38,
+        "local_generator_hex": "0x528f3cc2007a8998a5b0cf265ba5",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          0,
+          2,
+          5,
+          7,
+          8,
+          14,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 80,
+        "class_by_minimum_member": 39,
+        "local_generator_hex": "0x2d0f3c3c007a8e675a70f0d99ba5",
+        "support_size": 55,
+        "independent_real_support_roles": [
+          0,
+          2,
+          5,
+          7,
+          8,
+          15,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 81,
+        "class_by_minimum_member": 30,
+        "local_generator_hex": "0x2d5af000b4b5933696a59996ae33",
+        "support_size": 54,
+        "independent_real_support_roles": [
+          0,
+          1,
+          4,
+          5,
+          9,
+          15,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 82,
+        "class_by_minimum_member": 31,
+        "local_generator_hex": "0x52daf0014ab594c9569a66696e33",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          0,
+          1,
+          4,
+          5,
+          9,
+          14,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 83,
+        "class_by_minimum_member": 30,
+        "local_generator_hex": "0x52a5f0014b499339696599a95133",
+        "support_size": 50,
+        "independent_real_support_roles": [
+          0,
+          1,
+          4,
+          5,
+          8,
+          14,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 84,
+        "class_by_minimum_member": 31,
+        "local_generator_hex": "0x52a50f014b4a6b36969a5996ae33",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          0,
+          1,
+          4,
+          5,
+          9,
+          15,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 85,
+        "class_by_minimum_member": 30,
+        "local_generator_hex": "0x52da0f014ab66cc6a965a6569133",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          1,
+          4,
+          5,
+          8,
+          15,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 86,
+        "class_by_minimum_member": 30,
+        "local_generator_hex": "0x2d250f00b54a6cc956a5a6696e33",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          1,
+          4,
+          5,
+          9,
+          14,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 87,
+        "class_by_minimum_member": 31,
+        "local_generator_hex": "0x2d5a0f00b4b66b39695a59a95133",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          0,
+          1,
+          4,
+          5,
+          8,
+          14,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 88,
+        "class_by_minimum_member": 22,
+        "local_generator_hex": "0x1e3c00f0787997830f19a58f1cc3",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          1,
+          6,
+          7,
+          10,
+          31,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 89,
+        "class_by_minimum_member": 23,
+        "local_generator_hex": "0x61c300f07879907cf0e65a4f1cc3",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          1,
+          6,
+          7,
+          10,
+          30,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 90,
+        "class_by_minimum_member": 23,
+        "local_generator_hex": "0x1e3c00f1878590730f265a70e3c3",
+        "support_size": 50,
+        "independent_real_support_roles": [
+          0,
+          1,
+          6,
+          7,
+          8,
+          30,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 91,
+        "class_by_minimum_member": 22,
+        "local_generator_hex": "0x61c300f18785978cf0d9a5b0e3c3",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          1,
+          6,
+          7,
+          8,
+          31,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 92,
+        "class_by_minimum_member": 23,
+        "local_generator_hex": "0x61c3000f87866f830f199a4f1cc3",
+        "support_size": 50,
+        "independent_real_support_roles": [
+          0,
+          1,
+          6,
+          7,
+          10,
+          31,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 93,
+        "class_by_minimum_member": 22,
+        "local_generator_hex": "0x1e3c000f8786687cf0e6658f1cc3",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          1,
+          6,
+          7,
+          10,
+          30,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 94,
+        "class_by_minimum_member": 22,
+        "local_generator_hex": "0x61c3000e787a68730f2665b0e3c3",
+        "support_size": 50,
+        "independent_real_support_roles": [
+          0,
+          1,
+          6,
+          7,
+          8,
+          30,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 95,
+        "class_by_minimum_member": 23,
+        "local_generator_hex": "0x1e3c000e787a6f8cf0d99a70e3c3",
+        "support_size": 54,
+        "independent_real_support_roles": [
+          0,
+          1,
+          6,
+          7,
+          8,
+          31,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 96,
+        "class_by_minimum_member": 14,
+        "local_generator_hex": "0x1e005a59e0b572dd199696a59655",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          0,
+          2,
+          4,
+          6,
+          9,
+          31,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 97,
+        "class_by_minimum_member": 15,
+        "local_generator_hex": "0x1e005aa7e149752d2656a95a6955",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          31,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 98,
+        "class_by_minimum_member": 15,
+        "local_generator_hex": "0x6180a559e0b57522e669569a5655",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          2,
+          4,
+          6,
+          9,
+          30,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 99,
+        "class_by_minimum_member": 14,
+        "local_generator_hex": "0x6180a5a7e14972d2d9a96965a955",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          30,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 100,
+        "class_by_minimum_member": 15,
+        "local_generator_hex": "0x6180a5a61f4a8add1996969a5655",
+        "support_size": 52,
+        "independent_real_support_roles": [
+          0,
+          2,
+          4,
+          6,
+          9,
+          31,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 101,
+        "class_by_minimum_member": 14,
+        "local_generator_hex": "0x6180a5581eb68d2d2656a965a955",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          31,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 102,
+        "class_by_minimum_member": 14,
+        "local_generator_hex": "0x1e005aa61f4a8d22e66956a59655",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          0,
+          2,
+          4,
+          6,
+          9,
+          30,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 103,
+        "class_by_minimum_member": 8,
+        "local_generator_hex": "0x3c5a3cb5e2b1e5b32ab32a8a96",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          1,
+          2,
+          4,
+          7,
+          15,
+          31,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 104,
+        "class_by_minimum_member": 9,
+        "local_generator_hex": "0x3c5ac34be2b61a732a8cd57596",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          1,
+          2,
+          4,
+          7,
+          14,
+          31,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 105,
+        "class_by_minimum_member": 9,
+        "local_generator_hex": "0x43a53cb5e2b61a4cd5732ab596",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          1,
+          2,
+          4,
+          7,
+          15,
+          30,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 106,
+        "class_by_minimum_member": 8,
+        "local_generator_hex": "0x43a5c34be2b1e58cd54cd54a96",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          1,
+          2,
+          4,
+          7,
+          14,
+          30,
+          60
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 107,
+        "class_by_minimum_member": 9,
+        "local_generator_hex": "0x43a5c34a1d49e5b32ab32ab596",
+        "support_size": 51,
+        "independent_real_support_roles": [
+          1,
+          2,
+          4,
+          7,
+          15,
+          31,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 108,
+        "class_by_minimum_member": 8,
+        "local_generator_hex": "0x43a53cb41d4e1a732a8cd54a96",
+        "support_size": 49,
+        "independent_real_support_roles": [
+          1,
+          2,
+          4,
+          7,
+          14,
+          31,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 109,
+        "class_by_minimum_member": 8,
+        "local_generator_hex": "0x3c5ac34a1d4e1a4cd5732a8a96",
+        "support_size": 49,
+        "independent_real_support_roles": [
+          1,
+          2,
+          4,
+          7,
+          15,
+          30,
+          59
+        ],
+        "facet_local_dimension": 1
+      },
+      {
+        "receiver": 110,
+        "class_by_minimum_member": 9,
+        "local_generator_hex": "0x3c5a3cb41d49e58cd54cd57596",
+        "support_size": 53,
+        "independent_real_support_roles": [
+          1,
+          2,
+          4,
+          7,
+          14,
+          30,
+          59
+        ],
+        "facet_local_dimension": 1
+      }
+    ],
+    "proper_subfacet_intersection": "zero by rank7 support and one-dimensional full-facet kernel"
+  },
+  "non_tensor_quotient_example": {
+    "whole_width": 2,
+    "historical_space_dimension": 3,
+    "shortening_dimension": 1,
+    "represented_history_counts": [
+      16,
+      32,
+      64
+    ],
+    "nested_projection_tests": 48,
+    "raw_W_projection_would_be_ambiguous": true
+  },
+  "negative_controls": [
+    "native source alteration",
+    "missing parity frame",
+    "duplicated parity frame",
+    "understated aggregate incidence ceiling",
+    "deleted port falsely retained in identity frame",
+    "six-root support falsely called rank7"
+  ],
+  "universal_shortening_lower_bound_for_q8": "dim Q_D >= V/5",
+  "universal_proof": "PROOF.md; finite computations certify source premises only",
+  "complete_source": false,
+  "new_kappa": null
+}

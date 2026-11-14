@@ -118,3 +118,25 @@ dense engine is reused and pinned; the new author sparse engine is not
 imported. Independent outward rational1e-24 intervals confirm the complete
 nine-return deficit and positive finite-m penalty. [Review and commands](results/complex-c2-history-obstruction/review-root/REVIEW.md).
 No human/formal-kernel verification, complete source or newkappa is claimed.
+
+## S011 checkpoint3: four coherent admissions
+
+The receiver-downset proof has separate Worker C and lead reviews; independent
+native restriction computations agree on111 facets and67 quotient subspaces.
+The lead's monotone-cap argument is independently reviewed by C with a distinct
+dyadic interval implementation and complete signed-profile reconstruction.
+The author decimal and reviewer dyadic inequalities agree with strict containment.
+
+The lead separately proves the multicast cut lemma and replays both actual
+joint words using sparse sets on222 formal columns and exact rational charts.
+Pure/mixed invoices and endpoints match, with7/6 rejected word mutations.
+The operator-shortening projector/quotient proof is independently read; a
+separate checker rebuilds all30 parity configurations and270 frames, maximum
+incidence24, deletion controls and111 proper-predecessor geometry premises.
+
+Installed-path receipts reproduce the frozen independent receipts. Package
+manifests and CHECKPOINT3-VALIDATION.json authenticate admissions, frozen
+author/reviewer files and all prior scientific bytes except the one previously
+annotated missing historical log. Old pending-review author headers remain
+as historical bytes and are superseded by separate admissions. No human or
+formal-kernel verification, source completeness or new kappa is claimed.

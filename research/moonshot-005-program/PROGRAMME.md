@@ -107,12 +107,22 @@ stays in the class span. Exact-target scalarq8 therefore needs at least16
 historical X modes and total proper-cell kernel nullity8. General blocks give
 only15V+1 and7V+1, not16V.
 
-The fifteen nonzero canonical-code cosets identify fifteen explicit rank16
-binary candidates W_c=U+<K_i>, one per class. Each contains canonical rows
-exactly from its selected class. Exact local repair identities are available,
-but a joint acquisition schedule is not. S011 now supplies one paid L0
-acquisition and restored singular handoff. Extend it without restarting original
-routes, then complete all222 endpoints and the full invoice.
+The fifteen canonical rank16 extensions are now excluded: each requires
+at least14 packets by receiver-region projection. The complete retained
+budget excludes q>=11 even with arbitrary monotone rank jumps, leaving only
+q8, q9 or q10. For q8, the full fixed canonical-plus-class code C+U is also
+excluded. Every successful historical code must contain positive-dimensional
+shortenings on strict receiver predecessors; local forms appearing only at
+the final facets cannot suffice. These are scoped obstructions, not general
+integer-multiplication lower bounds.
+
+The constructive mechanism retained from W0 is actual shared acquisition
+and singular exchange. Two-target pure and original-Y masked words now restore
+all X and complete two Y outputs; masks avoid an upward pure-cache duplicate.
+Their coordinate-only history cannot fit the103 noncoordinate ports. The
+active construction therefore seeks lower-chart sign-sensitive modes and a
+single paid chronology covering all111 targets. A halfclass-local/global-
+quotient decomposition is an unverified candidate under investigation.
 
 On the complex track, literal compensated funded ferries preserve old forward
 maps and lower reverse residual58 to57 or54. Exact400-input maps, phases and

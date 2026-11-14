@@ -177,3 +177,29 @@ m21/24 arithmetic is not realizable by this fixed-history Gram continuation.
 It remains a valid conditional arithmetic envelope, not a source theorem.
 Changed local source operations, target codes, relays or invoices need a new
 complete analysis; no general complex impossibility is claimed.
+
+## S011 checkpoint3: architecture-level necessary conditions
+
+The [complete monotone packet cap](results/bit-monotone-packet-cap/ADMISSION.md)
+uses the entire retained paired caller: q>=11 fails for every k in[.005,1],
+every fixed even m>=2 and arbitrary monotone rank jumps. The optimistic
+limiting q10 margin is+3.624753475730866..., q11 is-4.292499775590789... at
+t=199/200; finite m adds the negative term-12.335089345342768.../(m-1).
+Together with the physical cut, only q8/9/10 survive this necessary screen.
+
+[Receiver projection](results/bit-receiver-downset-gate/ADMISSION.md) forces
+q>=14 for every W_c. Scalar U+canonical quotient dimension h needs
+q>=16-2^h, so h<=2 is excluded even without a unit-jump restriction.
+This is not a general operator-valued18V lower bound.
+
+[Operator shortening](results/bit-operator-shortening/ADMISSION.md) requires
+dim sum(W intersect Local(C))>=ceil(V/5) over strict receiver predecessors
+for every q8 source. All such shortenings vanish in the fixed(C+U) tensor
+space, excluding its entire q8 family. q9/10 and other codes remain open.
+
+[Joint words](results/bit-joint-multicast/ADMISSION.md) prove paid two-target
+availability: pure1571 and masked1570 unit MOVEs, with respective ADD296/292,
+owned lifetimes4/2 and peak3/1. These are partial alternative invoices, not
+complete budgets. Masking removes pure-demand multicast redundancy, but its
+coordinate-only history fails all103 other ports. Actual sign-sensitive
+predecessor histories, full endpoints and strict supplier admission remain.

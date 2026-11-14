@@ -1,0 +1,1258 @@
+{
+  "status": "PASS_REVERSIBLE_MULTICAST_CUT_FINITE_PREMISES",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "source": {
+    "facets": [
+      525,
+      526,
+      527,
+      528,
+      529,
+      530,
+      531,
+      532
+    ],
+    "pair_cut": {
+      "inside_X": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "inside_Y_count": 111,
+      "baseline_outward_records": 139,
+      "common_X": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "extra_capacity_in_units_of_V": 1
+    },
+    "eight_cut": {
+      "baseline_outward_records": 222,
+      "demand_rows": [
+        "0x7ffffffe0007ffc00000003f00",
+        "0x7f80fffe01fc07f03fc0003fc000",
+        "0x7fff0001fffc07f0003fffc00000",
+        "0x7ffffffffffff00",
+        "0x7fff00fe0003f80fffc03fc00000",
+        "0xfffffff80000003fffff00",
+        "0x7fff0001fff8003fffc0003f00",
+        "0x7f80ff01fe03f80fc03fc03fc000"
+      ],
+      "basis_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "joint_rank": 4,
+      "nonzero_relation_masks": [
+        15,
+        51,
+        60,
+        85,
+        90,
+        102,
+        105,
+        150,
+        153,
+        165,
+        170,
+        195,
+        204,
+        240,
+        255
+      ],
+      "extra_capacity_in_units_of_V": 4
+    },
+    "mixed_history": {
+      "K_rank": 4,
+      "H_rank": 8,
+      "combined_rank": 12,
+      "basis_indices_in_K_then_H": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "pair_rank": 4,
+      "masked_full_input_rank": 8,
+      "admitted_fitting_receivers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "excluded_receiver_witnesses": [
+        {
+          "receiver": 8,
+          "noncontact": 9,
+          "real_support": [
+            1,
+            2,
+            4,
+            7
+          ]
+        },
+        {
+          "receiver": 9,
+          "noncontact": 8,
+          "real_support": [
+            1,
+            2,
+            4,
+            7
+          ]
+        },
+        {
+          "receiver": 10,
+          "noncontact": 9,
+          "real_support": [
+            1,
+            2,
+            4,
+            7
+          ]
+        },
+        {
+          "receiver": 11,
+          "noncontact": 8,
+          "real_support": [
+            1,
+            2,
+            4,
+            7
+          ]
+        },
+        {
+          "receiver": 12,
+          "noncontact": 9,
+          "real_support": [
+            1,
+            2,
+            4,
+            7
+          ]
+        },
+        {
+          "receiver": 13,
+          "noncontact": 9,
+          "real_support": [
+            1,
+            2,
+            4,
+            7
+          ]
+        },
+        {
+          "receiver": 14,
+          "noncontact": 15,
+          "real_support": [
+            0,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 15,
+          "noncontact": 14,
+          "real_support": [
+            0,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 16,
+          "noncontact": 14,
+          "real_support": [
+            0,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 17,
+          "noncontact": 15,
+          "real_support": [
+            0,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 18,
+          "noncontact": 14,
+          "real_support": [
+            0,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 19,
+          "noncontact": 15,
+          "real_support": [
+            0,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 20,
+          "noncontact": 15,
+          "real_support": [
+            0,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 21,
+          "noncontact": 14,
+          "real_support": [
+            0,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 22,
+          "noncontact": 23,
+          "real_support": [
+            0,
+            1,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 23,
+          "noncontact": 22,
+          "real_support": [
+            0,
+            1,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 24,
+          "noncontact": 22,
+          "real_support": [
+            0,
+            1,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 25,
+          "noncontact": 23,
+          "real_support": [
+            0,
+            1,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 26,
+          "noncontact": 22,
+          "real_support": [
+            0,
+            1,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 27,
+          "noncontact": 23,
+          "real_support": [
+            0,
+            1,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 28,
+          "noncontact": 23,
+          "real_support": [
+            0,
+            1,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 29,
+          "noncontact": 22,
+          "real_support": [
+            0,
+            1,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 30,
+          "noncontact": 31,
+          "real_support": [
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 31,
+          "noncontact": 30,
+          "real_support": [
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 32,
+          "noncontact": 30,
+          "real_support": [
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 33,
+          "noncontact": 31,
+          "real_support": [
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 34,
+          "noncontact": 30,
+          "real_support": [
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 35,
+          "noncontact": 31,
+          "real_support": [
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 36,
+          "noncontact": 31,
+          "real_support": [
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 37,
+          "noncontact": 30,
+          "real_support": [
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 38,
+          "noncontact": 39,
+          "real_support": [
+            0,
+            2,
+            5,
+            7
+          ]
+        },
+        {
+          "receiver": 39,
+          "noncontact": 38,
+          "real_support": [
+            0,
+            2,
+            5,
+            7
+          ]
+        },
+        {
+          "receiver": 40,
+          "noncontact": 38,
+          "real_support": [
+            0,
+            2,
+            5,
+            7
+          ]
+        },
+        {
+          "receiver": 41,
+          "noncontact": 39,
+          "real_support": [
+            0,
+            2,
+            5,
+            7
+          ]
+        },
+        {
+          "receiver": 42,
+          "noncontact": 38,
+          "real_support": [
+            0,
+            2,
+            5,
+            7
+          ]
+        },
+        {
+          "receiver": 43,
+          "noncontact": 39,
+          "real_support": [
+            0,
+            2,
+            5,
+            7
+          ]
+        },
+        {
+          "receiver": 44,
+          "noncontact": 39,
+          "real_support": [
+            0,
+            2,
+            5,
+            7
+          ]
+        },
+        {
+          "receiver": 45,
+          "noncontact": 38,
+          "real_support": [
+            0,
+            2,
+            5,
+            7
+          ]
+        },
+        {
+          "receiver": 46,
+          "noncontact": 47,
+          "real_support": [
+            1,
+            2,
+            5,
+            6
+          ]
+        },
+        {
+          "receiver": 47,
+          "noncontact": 46,
+          "real_support": [
+            1,
+            2,
+            5,
+            6
+          ]
+        },
+        {
+          "receiver": 48,
+          "noncontact": 46,
+          "real_support": [
+            1,
+            2,
+            5,
+            6
+          ]
+        },
+        {
+          "receiver": 49,
+          "noncontact": 46,
+          "real_support": [
+            1,
+            2,
+            5,
+            6
+          ]
+        },
+        {
+          "receiver": 50,
+          "noncontact": 47,
+          "real_support": [
+            1,
+            2,
+            5,
+            6
+          ]
+        },
+        {
+          "receiver": 51,
+          "noncontact": 46,
+          "real_support": [
+            1,
+            2,
+            5,
+            6
+          ]
+        },
+        {
+          "receiver": 52,
+          "noncontact": 54,
+          "real_support": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 53,
+          "noncontact": 54,
+          "real_support": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 54,
+          "noncontact": 52,
+          "real_support": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 55,
+          "noncontact": 54,
+          "real_support": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 56,
+          "noncontact": 52,
+          "real_support": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 57,
+          "noncontact": 52,
+          "real_support": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 58,
+          "noncontact": 54,
+          "real_support": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 59,
+          "noncontact": 60,
+          "real_support": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "receiver": 60,
+          "noncontact": 59,
+          "real_support": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "receiver": 61,
+          "noncontact": 60,
+          "real_support": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "receiver": 62,
+          "noncontact": 59,
+          "real_support": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "receiver": 63,
+          "noncontact": 60,
+          "real_support": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "receiver": 64,
+          "noncontact": 60,
+          "real_support": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "receiver": 65,
+          "noncontact": 59,
+          "real_support": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "receiver": 66,
+          "noncontact": 68,
+          "real_support": [
+            0,
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "receiver": 67,
+          "noncontact": 68,
+          "real_support": [
+            0,
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "receiver": 68,
+          "noncontact": 66,
+          "real_support": [
+            0,
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "receiver": 69,
+          "noncontact": 68,
+          "real_support": [
+            0,
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "receiver": 70,
+          "noncontact": 66,
+          "real_support": [
+            0,
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "receiver": 71,
+          "noncontact": 66,
+          "real_support": [
+            0,
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "receiver": 72,
+          "noncontact": 68,
+          "real_support": [
+            0,
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "receiver": 73,
+          "noncontact": 74,
+          "real_support": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 74,
+          "noncontact": 73,
+          "real_support": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 75,
+          "noncontact": 73,
+          "real_support": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 76,
+          "noncontact": 74,
+          "real_support": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 77,
+          "noncontact": 73,
+          "real_support": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 78,
+          "noncontact": 74,
+          "real_support": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 79,
+          "noncontact": 74,
+          "real_support": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 80,
+          "noncontact": 73,
+          "real_support": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "receiver": 81,
+          "noncontact": 82,
+          "real_support": [
+            2,
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 82,
+          "noncontact": 81,
+          "real_support": [
+            2,
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 83,
+          "noncontact": 82,
+          "real_support": [
+            2,
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 84,
+          "noncontact": 81,
+          "real_support": [
+            2,
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 85,
+          "noncontact": 82,
+          "real_support": [
+            2,
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 86,
+          "noncontact": 82,
+          "real_support": [
+            2,
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 87,
+          "noncontact": 81,
+          "real_support": [
+            2,
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "receiver": 88,
+          "noncontact": 89,
+          "real_support": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 89,
+          "noncontact": 88,
+          "real_support": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 90,
+          "noncontact": 88,
+          "real_support": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 91,
+          "noncontact": 89,
+          "real_support": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 92,
+          "noncontact": 88,
+          "real_support": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 93,
+          "noncontact": 89,
+          "real_support": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 94,
+          "noncontact": 89,
+          "real_support": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 95,
+          "noncontact": 88,
+          "real_support": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "receiver": 96,
+          "noncontact": 97,
+          "real_support": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        {
+          "receiver": 97,
+          "noncontact": 96,
+          "real_support": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        {
+          "receiver": 98,
+          "noncontact": 96,
+          "real_support": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        {
+          "receiver": 99,
+          "noncontact": 97,
+          "real_support": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        {
+          "receiver": 100,
+          "noncontact": 96,
+          "real_support": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        {
+          "receiver": 101,
+          "noncontact": 97,
+          "real_support": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        {
+          "receiver": 102,
+          "noncontact": 97,
+          "real_support": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        {
+          "receiver": 103,
+          "noncontact": 104,
+          "real_support": [
+            0,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "receiver": 104,
+          "noncontact": 103,
+          "real_support": [
+            0,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "receiver": 105,
+          "noncontact": 103,
+          "real_support": [
+            0,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "receiver": 106,
+          "noncontact": 104,
+          "real_support": [
+            0,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "receiver": 107,
+          "noncontact": 103,
+          "real_support": [
+            0,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "receiver": 108,
+          "noncontact": 104,
+          "real_support": [
+            0,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "receiver": 109,
+          "noncontact": 104,
+          "real_support": [
+            0,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "receiver": 110,
+          "noncontact": 103,
+          "real_support": [
+            0,
+            3,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    "symbolic_exchanges": [
+      {
+        "port": 0,
+        "incoming_packet": "0x7ffffffe0007ffc00000003fff",
+        "Y_input": "0x807ffffffe0007ffc00000003ffe",
+        "Y_output": "0x8000000000000000000000000001",
+        "packet_output": "0x807ffffffe0007ffc00000003ffe"
+      },
+      {
+        "port": 1,
+        "incoming_packet": "0x7f80fffe01fc07f03fc0003fc0ff",
+        "Y_input": "0x17f80fffe01fc07f03fc0003fc0fd",
+        "Y_output": "0x10000000000000000000000000002",
+        "packet_output": "0x17f80fffe01fc07f03fc0003fc0fd"
+      },
+      {
+        "port": 2,
+        "incoming_packet": "0x7fff0001fffc07f0003fffc000ff",
+        "Y_input": "0x27fff0001fffc07f0003fffc000fb",
+        "Y_output": "0x20000000000000000000000000004",
+        "packet_output": "0x27fff0001fffc07f0003fffc000fb"
+      },
+      {
+        "port": 3,
+        "incoming_packet": "0x7ffffffffffffff",
+        "Y_input": "0x400000000000007fffffffffffff7",
+        "Y_output": "0x40000000000000000000000000008",
+        "packet_output": "0x400000000000007fffffffffffff7"
+      },
+      {
+        "port": 4,
+        "incoming_packet": "0x7fff00fe0003f80fffc03fc000ff",
+        "Y_input": "0x87fff00fe0003f80fffc03fc000ef",
+        "Y_output": "0x80000000000000000000000000010",
+        "packet_output": "0x87fff00fe0003f80fffc03fc000ef"
+      },
+      {
+        "port": 5,
+        "incoming_packet": "0xfffffff80000003fffffff",
+        "Y_input": "0x10000000fffffff80000003fffffdf",
+        "Y_output": "0x100000000000000000000000000020",
+        "packet_output": "0x10000000fffffff80000003fffffdf"
+      },
+      {
+        "port": 6,
+        "incoming_packet": "0x7fff0001fff8003fffc0003fff",
+        "Y_input": "0x20007fff0001fff8003fffc0003fbf",
+        "Y_output": "0x200000000000000000000000000040",
+        "packet_output": "0x20007fff0001fff8003fffc0003fbf"
+      },
+      {
+        "port": 7,
+        "incoming_packet": "0x7f80ff01fe03f80fc03fc03fc0ff",
+        "Y_input": "0x407f80ff01fe03f80fc03fc03fc07f",
+        "Y_output": "0x400000000000000000000000000080",
+        "packet_output": "0x407f80ff01fe03f80fc03fc03fc07f"
+      }
+    ],
+    "controls": [
+      "native source byte alteration",
+      "silently zeroed original Y",
+      "omitted packet reload ADD",
+      "omitted independent Y columns"
+    ]
+  },
+  "abstract_examples": {
+    "random_full_rank_cases_by_field": {
+      "2": 140,
+      "3": 140,
+      "5": 140
+    },
+    "maximum_tested_demand_redundancy": 3,
+    "sharp_extra_scalar_capacity": 1,
+    "masked_extra_scalar_capacity": 0,
+    "negative_controls": [
+      "one shared outward row falsely called disjoint",
+      "missing restored input direction",
+      "unavailable duplicate pure demand"
+    ]
+  },
+  "universal_proof": "PROOF.md Sections1-3; finite examples do not prove it",
+  "complete_source": false,
+  "new_kappa": null
+}

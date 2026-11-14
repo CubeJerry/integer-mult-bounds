@@ -1,0 +1,46 @@
+{
+  "status": "PASS_S011_CHECKPOINT3_INTEGRATION",
+  "baseline_sha": "4b7eff5a9d0abee84824a74c67133ee7546ecfff",
+  "confirmed_parent_tree": "de323770a8ffd258acc7d38a6d97bb71119a23da",
+  "time_utc": "2026-11-14T02:29:24.164323+00:00",
+  "packages": [
+    "bit-receiver-downset-gate",
+    "bit-monotone-packet-cap",
+    "bit-joint-multicast",
+    "bit-operator-shortening"
+  ],
+  "manifest_entry_checks": 89,
+  "old_scientific_entries": 2236,
+  "old_present_and_unchanged": 2235,
+  "known_missing_unchanged": [
+    {
+      "path": "results/four-call-dyadic-entry/review/replay.log",
+      "sha256": "e63a2e88a6d947210bfd4a0d216b036a3421500048a300461e8b17d69da3dcca",
+      "bytes": 1607
+    }
+  ],
+  "new_scientific_entries": 63,
+  "total_scientific_entries": 2299,
+  "installed_receipt_matches": [
+    {
+      "installed": "CP3-GEOMETRY.json",
+      "frozen": "bit-receiver-downset-gate/review-root/GEOMETRY-RESULT.json"
+    },
+    {
+      "installed": "CP3-CAP.json",
+      "frozen": "bit-monotone-packet-cap/review-c/RESULT.json"
+    },
+    {
+      "installed": "CP3-PURE.json",
+      "frozen": "bit-joint-multicast/review-root/PURE-RESULT.json"
+    },
+    {
+      "installed": "CP3-MIXED.json",
+      "frozen": "bit-joint-multicast/review-root/MIXED-RESULT.json"
+    }
+  ],
+  "operator_installed_status": "PASS_INDEPENDENT_OPERATOR_SHORTENING_PREMISES",
+  "protected_governance_byte_identical": true,
+  "complete_kappa": null,
+  "session_continues": true
+}

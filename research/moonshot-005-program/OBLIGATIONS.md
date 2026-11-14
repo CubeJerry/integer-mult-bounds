@@ -91,3 +91,19 @@ model. No complete source, supplier or foundational premise is promoted.
 
 COMPLEX-PRETERMINAL remains open in general; its prior eight-C2 fixed-history
 subcase is closed. The full endpoint/supplier/foundational graph is unchanged.
+
+## S011 checkpoint3: retire canonical extensions, retain actual exchange
+
+| ID | Result/status | Next obligation |
+|---|---|---|
+| BIT-RECEIVER-DOWNSET | PROVED q>=14 for all15 W_c; scalar canonical hierarchy q>=16-2^h. [Admission](results/bit-receiver-downset-gate/ADMISSION.md). | Leave the ruled-out family; arbitrary extensions need their own analysis. |
+| BIT-MONOTONE-CAP | PROVED q>=11 fails complete retained target test for all monotone rank jumps and fixed even m. [Admission](results/bit-monotone-packet-cap/ADMISSION.md). | Complete source must use q8/9/10 or change and fully price the interface. |
+| BIT-JOINT-MULTICAST | PROVED disjoint-demand redundancy bound; pure coordinate rank4 implies four extra records in scoped unit case. | Mixed masks or different sharing can escape this particular demand hypothesis. |
+| BIT-JOINT-PAID-PAIR | COMPUTATIONALLY VERIFIED exact pure/masked222-column words, two Y complete, all X restored. [Admission](results/bit-joint-multicast/ADMISSION.md). |109 Y, all-width physical phases and complete invoice. |
+| BIT-OPERATOR-SHORTENING | PROVED all-width q8 requires proper-predecessor shortened span>=ceil(V/5), arbitrary operator-valued W. [Admission](results/bit-operator-shortening/ADMISSION.md). | Construct and physically acquire such directions. |
+| BIT-CANONICAL-CLASS-Q8 | DISPROVED within fixed(C+U) tensor space, including arbitrary history subspaces and noncommuting operations. | q9/10 and genuinely different history codes remain open. |
+| BIT-SIGN-HISTORY | OPEN primary: actual lower-chart sign-sensitive code and one joint all222-endpoint chronology within q8/9/10 invoice. | Halfclass decomposition under investigation; no availability or complete source admitted. |
+
+Earlier W0/joint guidance is superseded only as a complete-code strategy.
+Its exact local modules, costs and proofs remain valid. No finite mixed-word
+success proves an unbounded supplier or discharges any of the five foundations.

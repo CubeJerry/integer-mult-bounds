@@ -1141,3 +1141,28 @@ accounting proves their deficit at every fixedm. Therefore that old candidate
 continuation is excluded; changed source/residual code remains active. Other
 new words and BIT joint/downset leads remain under review. Allfoundations
 retained, no newkappa, ongoingprogramme/notPRready. Session continues.
+
+## 2026-11-14-S011 — checkpoint3: receiver geometry changes the code strategy
+
+Baseline4b7eff5a9d0abee84824a74c67133ee7546ecfff, confirmed checkpoint2 tree
+de323770a8ffd258acc7d38a6d97bb71119a23da. Four reviewed results are integrated.
+A's receiver-downset projection excludes all15 rank16 canonical candidates
+with q>=14; C and lead independently review exact geometry and universal proof.
+The lead's complete monotone-packet cap, independently checked by C, excludes
+q>=11 even with arbitrary jumps throughout the target interval and every m.
+
+C's protected structural work proves a reversible-cut redundancy theorem and
+an arbitrary-operator receiver-shortening theorem. The latter requires positive
+proper-predecessor shortening for q8 and excludes the entire fixed(C+U) tensor
+family. The programme therefore leaves that failed complete-code architecture,
+while retaining its valid local modules. A's actual pure and masked joint
+two-target words pass separate lead222-column, real-chart and negative-control
+checks. Original-Y masks avoid the upward pure-cache duplicate, but the
+coordinate-only code still fails103 other targets. No complete source claimed.
+
+Primary research advances to actual lower-chart sign-sensitive histories;
+a halfclass-local/global-quotient candidate is under adversarial construction.
+Complex changed-source work continues; new packages there are not admitted
+by this checkpoint. All five foundations and both strict suppliers remain,
+No new kappa, ongoing/not PR-ready. Session remains active toward11:19:23UTC.
+Resulting remote SHA is recorded only after confirmation in the next receipt.

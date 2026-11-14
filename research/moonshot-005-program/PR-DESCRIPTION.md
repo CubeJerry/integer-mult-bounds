@@ -176,3 +176,25 @@ returns; the retained complete invoice excludes them at the target exponent.
 This closes one precise continuation and motivates changed local histories
 or target codes. No general source impossibility, supplier or new kappa;
 publication readiness remains false.
+
+### S011 receiver geometry and actual masked acquisition — No new kappa
+
+The [receiver-region theorem](results/bit-receiver-downset-gate/ADMISSION.md)
+excludes all15 canonical rank16 candidates with q>=14. A separate
+[complete monotone-budget theorem](results/bit-monotone-packet-cap/ADMISSION.md)
+excludes q>=11 throughout k>=.005, even with arbitrary monotone rank jumps.
+Both are independently reviewed, source-bound necessary conditions.
+
+The [operator-shortening theorem](results/bit-operator-shortening/ADMISSION.md)
+requires positive locally supported history at strict receiver predecessors,
+and excludes q8 in the entire fixed canonical-plus-class tensor code. It
+allows arbitrary noncommuting blocks and Y feedback; it does not exclude
+all q8 codes or q9/10. This materially changes the constructive architecture.
+
+Two [actual joint modules](results/bit-joint-multicast/ADMISSION.md), pure and
+original-Y masked, restore all111 X and complete two arbitrary Y targets.
+Independent222-column interpreters verify every chart, endpoint and paid
+operation. The mixed word avoids one upward pure-cache duplicate, explained
+by a new disjoint-demand cut theorem. The109 remaining targets, uniform
+physical compiler, strict suppliers and all foundations remain open. The
+cumulative branch remains ongoing and is not being submitted automatically.
