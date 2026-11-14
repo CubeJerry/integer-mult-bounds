@@ -1,0 +1,1 @@
+UNVERIFIED ACTIVE SNAPSHOTS. Row controller primary tests pass but independent review/publication gates were pending at capture. Exact retained inputs are reconstructible from SOURCE-PINS and published B5. First-gap task has approved optimistic bill and is starting implementation; no completed result is asserted. Follow STATE.json and actual worker freeze files.

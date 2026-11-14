@@ -5,8 +5,8 @@
   "selected_kappa": "363005817/100000000000",
   "selected_review": "docs/research/pr-intake-evidence/pr7000-application/PROOF-REVIEW.md",
   "started_utc": "2026-11-14 02:27:15 UTC",
-  "status": "eleven-published-two-actual-caller-joins-in-cross-review-wave6-started",
-  "wave": 6,
+  "status": "fourteen-published-B6-cross-review-B7-and-C7-active",
+  "wave": 7,
   "background_execution": false,
   "requested_window_hours": 10,
   "recovery_branch": "recovery/assumption-swarm-20261114",
@@ -35,44 +35,44 @@
   "workers": [
     {
       "worker": "analytic_recovery",
-      "wave": 5,
+      "wave": 7,
       "track": "75-84",
       "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
-      "scope": "Independent exact macro/physical/current-wire review of B5 actual CRT point-consumption caller",
-      "status": "Macro proof reviewed; separate sparse interpreter and actual modulus3 controls executing",
+      "scope": "Independent complete first-gap source, half-copy and public endpoint review",
+      "status": "B6 review frozen PASS; C7 complementary review active",
       "dependency": [
         "56335a406469fad85e88ff72820d506d8bea6f63",
         "d6f4a69202ad0bba4a915f4d4f3eaba1fe431c86"
       ],
-      "output": "worker-a/review-crt-caller",
-      "next": "Freeze independent receipt; new assignment only after review closes"
+      "output": "worker-a/review-first-gap",
+      "next": "Complete scoped proof/review and freeze before publication"
     },
     {
       "worker": "owned_recursion",
-      "wave": 5,
+      "wave": 7,
       "track": "75-84/50-59",
       "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
-      "scope": "B5 author package frozen; independently review C5 exact137 source producer, adapters, pruning and bills",
-      "status": "B5 primary verified; C5 small-surface cross-review active",
+      "scope": "Literal all-wire current CRT key-emission pass, including exact payload-width contract",
+      "status": "B7 exact fixed-payload all-wire feasibility approved; implementation active",
       "dependency": [
         "53e0a6d689d8c3a840a055eedc59f7f2e9c14022"
       ],
-      "output": "worker-b/wave5/direct-crt-switch; worker-b/review-first-donor",
-      "next": "Close C5 review without unnecessary heavy replay"
+      "output": "worker-b/wave7",
+      "next": "Complete scoped proof/review and freeze before publication"
     },
     {
       "worker": "packed_codec",
-      "wave": 6,
+      "wave": 7,
       "track": "60-74/20-39",
       "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
-      "scope": "Heterogeneous Gaussian exact symmetry classification and distinct fine-prime source applicability; optional Cp-bit separation",
-      "status": "Allocated; targeted source/overlap and feasibility checks starting",
+      "scope": "Complete selected first gap28037..28041 and all public endpoints",
+      "status": "C7 complete first-gap optimistic bill approved; implementation active",
       "dependency": [
         "2ae2fa14eeefe301652f62313b137a97036ab13d",
         "canonical GAUGEFREE-INTERIORS and FINE-PRIME-PADDING"
       ],
-      "output": "worker-c/wave6",
-      "next": "Prove/refute metric-to-grid classification and actual width distinctness; exclude spectators/full-source overclaims"
+      "output": "worker-c/wave7",
+      "next": "Complete scoped proof/review and freeze before publication"
     }
   ],
   "verified_results": [
@@ -86,7 +86,10 @@
     "Exact orbit-order generator upper bounds, complemented rotations and coprime prime blocks, with explicit quadratic materialization cost and independent exact checks, published",
     "Eight selected owned1526 contacts on one physical HOME, with actual nonzero rank-two child, full dirty erase and explicit paid continuations; independently reviewed and published",
     "Literal canonical padded-rotation switch on14 tapes with quadratic bit cost, independent canonical-network oracle and interpreter; published",
-    "All homogeneous Gaussian vertex symmetries classified, optimal cycle-boundary certificate scale Theta(T/g(d)) and dense materialization limit proved with rounding conditions; published"
+    "All homogeneous Gaussian vertex symmetries classified, optimal cycle-boundary certificate scale Theta(T/g(d)) and dense materialization limit proved with rounding conditions; published",
+    "Actual current CRT lease/current-wire consumption and original payload return independently reviewed and published",
+    "Actual donor1349 frame137 producer before unchanged owned first SUB independently reviewed and published",
+    "Complete heterogeneous Gaussian symmetry theorem, distinct fine-prime width and rounding obstruction for the specified square normalized dense cycle format, independently reviewed and published"
   ],
   "published_contributions": [
     {
@@ -176,6 +179,30 @@
       "tree": "f2d511f129d2d75caf976b6e58d8c82162586917",
       "compare_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/gaussian-orbit-certificate-scale-20261114",
       "description_url": "https://github.com/CubeJerry/integer-mult-bounds/blob/2ae2fa14eeefe301652f62313b137a97036ab13d/research/gaussian-orbit-certificate-scale/PR-DESCRIPTION.md"
+    },
+    {
+      "package": "current-crt-direct-switch-consumer",
+      "branch": "research/current-crt-direct-switch-consumer-20261114",
+      "remote_commit": "b12dfb5acc7fdf7d23bce671df0b97228be9ed87",
+      "tree": "1410789d95c701972069d34a75d0c0426f97431f",
+      "compare_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/current-crt-direct-switch-consumer-20261114",
+      "description_url": "https://github.com/CubeJerry/integer-mult-bounds/blob/b12dfb5acc7fdf7d23bce671df0b97228be9ed87/research/current-crt-direct-switch-consumer/PR-BODY.md"
+    },
+    {
+      "package": "selected-first-donor-producer",
+      "branch": "research/selected-first-donor-producer-20261114",
+      "remote_commit": "a94e3f2ee0360202943b577ff8cd76245f6aa9ed",
+      "tree": "854c8c4453e30949605b2f3b22731b162c90e2a8",
+      "compare_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/selected-first-donor-producer-20261114",
+      "description_url": "https://github.com/CubeJerry/integer-mult-bounds/blob/a94e3f2ee0360202943b577ff8cd76245f6aa9ed/research/selected-first-donor-producer/PR-DESCRIPTION.md"
+    },
+    {
+      "package": "heterogeneous-gaussian-symmetries",
+      "branch": "research/heterogeneous-gaussian-symmetries-20261114",
+      "remote_commit": "be76d6ae53fc887f977a04ceaa6ef56bb9e98fb7",
+      "tree": "c7d94f3791d9e36ae50816b549c680721a9a9af5",
+      "compare_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/heterogeneous-gaussian-symmetries-20261114",
+      "description_url": "https://github.com/CubeJerry/integer-mult-bounds/blob/be76d6ae53fc887f977a04ceaa6ef56bb9e98fb7/research/heterogeneous-gaussian-symmetries/PR-DESCRIPTION.md"
     }
   ],
   "coordination": {
@@ -186,15 +213,25 @@
     "live_delta": "Main unchanged. PR7557 new addendum retracts original neutral-period Law5; corrected premise conditional outside park family. No overlap with allocated codec/zero/Gaussian-core scopes."
   },
   "next_actions": [
-    "Publish B5 and C5 only after independent review and canonical gates",
-    "Prove/refute heterogeneous Gaussian source symmetry scope in wave6",
-    "Assess unclaimed full conditional candidate7334 review versus current predecessor work",
-    "Continue fresh waves while supported; final25percent reserved for verification/handoff"
+    "Finish B6 review and publication",
+    "Verify B7 all-wire feasibility and C7 first-gap implementation",
+    "Continue distinct fresh work with final25percent reserved for verification"
   ],
-  "checkpoint_utc": "2026-11-14T05:23:20.288022+00:00",
-  "last_remote_checkpoint": "bfa0cba6b7ca3da239a2c6a1f1a136c76ddff39d",
+  "checkpoint_utc": "2026-11-14T06:09:57.279390+00:00",
+  "last_remote_checkpoint": "12abbd7b172b4af41dbb4dd8031a6953d8834a95",
   "unverified_drafts": "drafts/ contains incomplete worker code/proof notes. Not publication-ready and not independently admitted.",
-  "last_main_check": "2026-11-14 around05:20 UTC: exact e545 unchanged; PR7334 remains open at aaeec8c0acf01e99a5f331ef363a698d9c084ace",
+  "last_main_check": "2026-11-14 around05:41 UTC: exact e545 unchanged; narrow first-gap overlap complete",
   "closed_duplicate": "K_star context-depth bound already proved by merged #6901 and current odd-native-common-grid specialization.",
-  "draft_recovery": "Wave5 top-level authored files/receipts are snapshotted below. Exact retained inputs are reconstructible from SOURCE-PINS and published predecessors; prior source archive and C4 inputs are already in earlier checkpoints. These snapshots are not publication-ready."
+  "draft_recovery": "Wave5 top-level authored files/receipts are snapshotted below. Exact retained inputs are reconstructible from SOURCE-PINS and published predecessors; prior source archive and C4 inputs are already in earlier checkpoints. These snapshots are not publication-ready.",
+  "superseded_review": {
+    "candidate": "7334 aaeec8c0acf01e99a5f331ef363a698d9c084ace",
+    "review": "7556 e04613f0cdd715e4d6f44687234259d1b26368cc",
+    "scope": "Descendant public-map and retained physical/application review subsumes proposed helper319 task at mechanism level, not byte-identical certification. No new contribution.",
+    "evidence": "drafts/wave6/helper319-supersession/"
+  },
+  "pending_verified_publication": {
+    "package": "literal-current-wire-row-controller",
+    "output": "worker-b/wave6/direct-row-controller",
+    "status": "Primary and independent checks pass; root publication gates next."
+  }
 }

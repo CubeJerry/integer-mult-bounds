@@ -1,0 +1,241 @@
+{
+  "status": "PASS_HETEROGENEOUS_GAUSSIAN_SYMMETRIES",
+  "verifier_sha256": "18214b9c995512b2ef33ceaaaba6f5fbf23eaae4ed40e77355b6edb3f06dbf51",
+  "authenticated_sources": [
+    {
+      "local": "inputs/GAUGEFREE-INTERIORS.md",
+      "sha256": "a7fc34302a70f8453f877a6433ffe2776457bf37b5d8bb262afcb6b198a935fc"
+    },
+    {
+      "local": "inputs/FINE-PRIME-PADDING.md",
+      "sha256": "47d1b1b4df28aadda3cd6bdeb1fbc47290595e9208cd09c1a1f338520d33fdce"
+    },
+    {
+      "local": "inputs/HOMOGENEOUS-ORBIT-SCALE.md",
+      "sha256": "3d86ae5437c3415c4f8a638dcb7c6fca3c3c332486fe13cff79d845e8fb56077"
+    }
+  ],
+  "exact_complete_enumerations": [
+    {
+      "name": "two-distinct-zero",
+      "vertices": 4,
+      "all_vertex_permutations": 24,
+      "symmetries": 4,
+      "orders": [
+        1,
+        2
+      ],
+      "minimum_cycles": 2
+    },
+    {
+      "name": "two-distinct-nonzero",
+      "vertices": 4,
+      "all_vertex_permutations": 24,
+      "symmetries": 1,
+      "orders": [
+        1
+      ],
+      "minimum_cycles": 4
+    },
+    {
+      "name": "coincident-physical-sides",
+      "vertices": 6,
+      "all_vertex_permutations": 720,
+      "symmetries": 4,
+      "orders": [
+        1,
+        2
+      ],
+      "minimum_cycles": 3
+    },
+    {
+      "name": "one-odd-zero-axis",
+      "vertices": 6,
+      "all_vertex_permutations": 720,
+      "symmetries": 2,
+      "orders": [
+        1,
+        2
+      ],
+      "minimum_cycles": 4
+    },
+    {
+      "name": "two-point-equal-zero",
+      "vertices": 8,
+      "all_vertex_permutations": 40320,
+      "symmetries": 48,
+      "orders": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "minimum_cycles": 2
+    },
+    {
+      "name": "equal-widths-signed-shifts",
+      "vertices": 8,
+      "all_vertex_permutations": 40320,
+      "symmetries": 6,
+      "orders": [
+        1,
+        2,
+        3
+      ],
+      "minimum_cycles": 4
+    },
+    {
+      "name": "equal-width-zero-block",
+      "vertices": 8,
+      "all_vertex_permutations": 40320,
+      "symmetries": 8,
+      "orders": [
+        1,
+        2,
+        4
+      ],
+      "minimum_cycles": 2
+    },
+    {
+      "name": "mixed-width-opposite-shifts",
+      "vertices": 8,
+      "all_vertex_permutations": 40320,
+      "symmetries": 4,
+      "orders": [
+        1,
+        2
+      ],
+      "minimum_cycles": 4
+    },
+    {
+      "name": "axis-diagonal-length-collision",
+      "vertices": 8,
+      "all_vertex_permutations": 40320,
+      "symmetries": 8,
+      "orders": [
+        1,
+        2
+      ],
+      "minimum_cycles": 4
+    },
+    {
+      "name": "three-distinct-nonzero",
+      "vertices": 8,
+      "all_vertex_permutations": 40320,
+      "symmetries": 1,
+      "orders": [
+        1
+      ],
+      "minimum_cycles": 8
+    },
+    {
+      "name": "odd-single-axis",
+      "vertices": 3,
+      "all_vertex_permutations": 6,
+      "symmetries": 2,
+      "orders": [
+        1,
+        2
+      ],
+      "minimum_cycles": 2
+    }
+  ],
+  "all_vertex_permutations_checked": 243414,
+  "additional_nine_vertex_reflection_fixtures": 2,
+  "fine_prime_checks": {
+    "p_range": [
+      2,
+      8
+    ],
+    "dyadic_r": [
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "target_intervals": 70,
+    "distinct_prime_pairs": 13,
+    "sharp_broad_example": {
+      "p": 2,
+      "r": 64,
+      "target": [
+        64,
+        32
+      ],
+      "source": [
+        59,
+        29
+      ],
+      "m": [
+        59,
+        58
+      ]
+    },
+    "all_size_prime_existence_reproved": false
+  },
+  "rigorous_rounding_enumerations": [
+    {
+      "name": "fine-prime-broad",
+      "bits": 16,
+      "vertices": 6,
+      "all_vertex_permutations": 720,
+      "rounded_symmetries": 1,
+      "guard": {
+        "epsilon": "1/131072",
+        "pair_product_error": "262145/17179869184",
+        "strict_edge_and_color_gaps_certified": true
+      }
+    },
+    {
+      "name": "fine-prime-narrow",
+      "bits": 16,
+      "vertices": 6,
+      "all_vertex_permutations": 720,
+      "rounded_symmetries": 4,
+      "guard": {
+        "epsilon": "1/131072",
+        "pair_product_error": "262145/17179869184",
+        "strict_edge_and_color_gaps_certified": true
+      }
+    },
+    {
+      "name": "tiny-shifts-may-disappear",
+      "bits": 12,
+      "vertices": 4,
+      "all_vertex_permutations": 24,
+      "rounded_symmetries": 4,
+      "guard": {
+        "epsilon": "1/8192",
+        "pair_product_error": "16385/67108864",
+        "strict_edge_and_color_gaps_certified": true
+      }
+    }
+  ],
+  "negative_controls": {
+    "equal_width_long_orbit": {
+      "vertices": 16,
+      "order": 4,
+      "cycles": 6
+    },
+    "coarse_rounding_identity": {
+      "vertices": 4,
+      "symmetries": 24,
+      "minimum_cycles": 1
+    },
+    "rejected_domains": [
+      "degenerate-axis",
+      "zero-width",
+      "coarse-error-guard"
+    ],
+    "coincident_side_corner_swap_fails_on_midpoint": true,
+    "tiny_nonzero_shift_can_gain_reflections": true,
+    "bounded_nonuniform_perturbation_can_destroy_reflections": true,
+    "uniform_pointwise_rounding_claimed_to_destroy_exact_symmetries": false
+  },
+  "dense_format": "exactly 2cT scalar slots; distinct widths force T^2<=2cT<=2T^2",
+  "proof_scope": "Universal written classification plus bounded exact checks; no whole-caller ancestry, arbitrary-rank or runtime lower bound.",
+  "new_kappa": false,
+  "assumptions_discharged": []
+}

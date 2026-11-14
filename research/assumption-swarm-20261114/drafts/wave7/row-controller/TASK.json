@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "task_id": "uniform-transfer-audit",
+  "priority_revision": 8,
+  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "original_card": {
+    "id": "uniform-transfer-audit",
+    "question": "Can one of the selected record's five inherited assumptions be proved at its actual caller?",
+    "starting_points": [
+      "docs/research/current-priorities.md",
+      "docs/research/research-family-status.md",
+      "certificates/selected-result.json",
+      "docs/research/pr-intake-evidence/pr5599-completion/PROOF-REVIEW.md"
+    ],
+    "methods": [
+      "Construct and independently check one source-bound instance of the stated first experiment.",
+      "Seek an exact counterexample or target-specific complete-budget obstruction to that same proposed change."
+    ],
+    "acceptance_gate": "Identify the proposition and what would change downstream; do not equate a finite replay with a universal proof.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_selected_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Read revision 8, the selected review and live exact-source handoffs. Then follow this card's bounded first_experiment.",
+      "scope": "Source-bound orientation only, not a supplier replay or theorem proof."
+    },
+    "first_experiment": "Choose one assumption ID (native_all_columns, owned_erasure, compiler, precision_tape, analytic_recovery), one quantified implication and exact dependency closure. Check current handoffs, including #5625 row reentry and #5707 root-prefix lowering, without treating their partial scope as the whole theorem. Prove or falsify that implication with a caller-bound argument; stop at the chosen obligation. Finite tests or root digits do not discharge an all-size statement.",
+    "bottleneck_link": "Judge the actual current supplier contract and complete signed target/paid bill; frozen-profile ceilings require an applicability proof.",
+    "allowed_variations": [
+      "One exact source head, helper/cut region or quantified proposition and changed hypothesis; check live handoffs first. Different seeds are not different scopes."
+    ],
+    "scope_change_triggers": [
+      "Changing source head, helper/cut domain, operation alphabet or caller boundary without recording the new scope.",
+      "Treating an archived proposal or local numerical pass as complete supplier admission."
+    ],
+    "overlap_terms": [
+      "native_all_columns",
+      "owned_erasure",
+      "compiler",
+      "precision_tape",
+      "analytic_recovery"
+    ],
+    "existing_checks": [
+      {
+        "scope": "PR #4100: proposed unconditional construction and finite checks, without independent acceptance.",
+        "evidence": "research/unconditional-batched-crt/README.md",
+        "remaining": "Independent proof audit of one caller-bound all-size implication; all other premises remain explicit.",
+        "status": "author-checked",
+        "source_commit": "337d04939571a637aeab54a0f58f54fde811663a",
+        "selected_record_sha256": "bb2eaa58647b353f88d0aec2eafb9d30df1be53589231b23e12ceef3e4bad129"
+      },
+      {
+        "scope": "Selected PR5599: complete helper-subspace construction and independent caller replay; five framework assumptions remain.",
+        "evidence": "docs/research/pr-intake-evidence/pr5599-completion/PROOF-REVIEW.md",
+        "remaining": "The next experiment must identify uncovered source-specific work. Successor archive intake does not transfer this admission.",
+        "status": "reviewed",
+        "source_commit": "09dd0965711ca7eeb169057a420abab1c9052137",
+        "selected_record_sha256": "2a0220e866417774606e0f991e41b9c1d26b1f43b97857238cf478dbc7d330b5"
+      }
+    ]
+  },
+  "scope_status": "refined",
+  "actual_scope": "Uniform literal complete forward/inverse per-wire row controller for the exact B5 point-consumer, plus a bounded actual four-tag payload join.",
+  "scope_change_reason": "Wave6 refines B5 open question1: lower only the remaining per-wire row loop. Parent approved four fixed point copies on the same twenty owners after bounded overlap and complete-budget feasibility.",
+  "bottleneck_link": "Remove the outer symbol-controller premise for row initialization, query sequencing, target traversal and retirement at this exact point interface. Actual source/header production, all-wire enumeration and common complete supplier tariff remain open.",
+  "budget_minutes": 90,
+  "stop_rule": "Stop if the same direct-consumer physical row controller is already supplied, if a decoded runtime integer or growing role dispatcher is required, or if history/restoration fails. Do not claim a full source caller, assumption discharge or new kappa.",
+  "outcome": "author normal and optimized verified; independent review in progress",
+  "evidence": "PROOF.md, controller.py, hardware.py, join.py, verify.py, SOURCE-PINS.json, RESULT.json and RESULT-O.json; both author modes pass with identical receipts; independent review pending.",
+  "author": "Jerry Chen / @CubeJerry",
+  "ai_assistance": "Substantial OpenAI assistance in research, implementation, proof, independent model-assisted review and publication packaging.",
+  "result_summary": "One fixed10123-instruction20-owner graph with four unchanged point copies. Exactly2h-1 current-wire queries; exact additional controller bills14p+36h-12-7popcount(2h-2) forward and14p+72h-38-14popcount(2h-2) inverse. Fixed per-role history union; no new kappa.",
+  "open_questions": [
+    {
+      "question": "Lower the actual encoded numerical lease and header-production controller to the same literal interface.",
+      "why_it_matters": "The new literal row controller still receives actual caller-produced compatible headers and granted physical owners.",
+      "first_step": "Choose one source lease acquisition/return, name every encoded role and action, and compile its finite controller without a host numeric decode.",
+      "blocked_by": "Current source ABI, staging, numerical kernels, acquisition and the common complete tariff remain inherited."
+    },
+    {
+      "question": "Execute uniform all-wire key creation and multi-target traversal using the literal per-wire service.",
+      "why_it_matters": "Outer payload enumeration and the selected four-tag calibration are not a complete variable-geometry CRT stage.",
+      "first_step": "Lower B5 prepare_keys using the actual encoded index, record delimiters and fixed per-wire entry, with a complete payload/history bill.",
+      "blocked_by": "Uniform all-wire record ABI, source acquisition and multiple-target ordering are outside this package."
+    },
+    {
+      "question": "Compare admitted repeated direct routes with physically retained ROM reuse under one model.",
+      "why_it_matters": "The full route still pays2h-1 quadratic point queries; removal of a ROM does not prove a complete saving.",
+      "first_step": "Fix one actual repeated workload and price source reads, queries, histories and disposal on both sides.",
+      "blocked_by": "No common all-caller tariff or validated global reuse schedule is established."
+    }
+  ]
+}

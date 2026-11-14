@@ -1,0 +1,66 @@
+{
+  "states": 71793,
+  "tapes": 45,
+  "graph_sha256": "dbe04f2f719bf7c48ce02477871944a6c8ee1a6e1e73c331dc6c06d2de84ace7",
+  "meta": {
+    "entries": {
+      "28037": "OLD23-zero.88",
+      "28041": "jump.4988",
+      "28039": "jump.196886",
+      "28038": "jump.197155",
+      "28040": "jump.196986"
+    },
+    "returns": {
+      "28037": "RETURN-28037.0",
+      "28041": "RETURN-28041.1",
+      "28039": "RETURN-28039.121322",
+      "28038": "RETURN-28038.196987",
+      "28040": "RETURN-28040.196887"
+    },
+    "new_stages": {
+      "28038": {
+        "scalar": {
+          "overflow": "true-overflow.197005",
+          "component_entry": "next-component.197004",
+          "entry": "jump.197072",
+          "return": "jump.196997"
+        },
+        "half": {
+          "component_entry": "half-next-component.197079",
+          "odd_reject": "half-odd-source.197080",
+          "entry": "jump.197141",
+          "return": "jump.197072"
+        },
+        "scatter": "jump.196997"
+      },
+      "28040": {
+        "scalar": {
+          "overflow": "true-overflow.196905",
+          "component_entry": "next-component.196904",
+          "entry": "jump.196972",
+          "return": "jump.196897"
+        },
+        "half": {},
+        "scatter": "jump.196897"
+      }
+    },
+    "replaced_C5_returns": [
+      "RETURN-28037.0",
+      "RETURN-28039.121322"
+    ],
+    "retained_C5_graph_sha256": "fec60dd4653c6c06846850b2d318d9eec0b7d9856af6b65bae2d336d5c5f99a0",
+    "fixed_tapes": 45,
+    "new_public_bank_owners": [
+      124,
+      212,
+      449
+    ],
+    "events": [
+      28037,
+      28038,
+      28039,
+      28040,
+      28041
+    ]
+  }
+}

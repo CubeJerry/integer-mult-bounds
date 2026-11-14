@@ -69,3 +69,7 @@ Owned1526 now has a verified same-owner eight-contact protocol. Its9574 source-g
 ## Wave5 verified and wave6 open
 
 The canonical point predicate now has a uniform literal restored implementation. Its actual current CRT source/consumption adapter and the owned first donor producer are in independent review, with full-controller and external-gap costs explicit. Homogeneous Gaussian symmetries are now completely classified and their dense cycle-boundary format has optimalTheta(T^2/g(d)) size; this is not a general rank/runtime bound. Actual distinct fine-prime widths may invalidate the matched-factor premise; wave6 is testing that precise source-specific implication. The selected kappa and all five assumptions remain unchanged.
+
+## Wave6/7 obligations
+
+The actual current CRT lease now feeds a literal point consumer and original payload mover; the full row loop is the next physical gap. The actual137 donor MOVE is complete before the first owned SUB; the two other first-gap ADDs are next. Heterogeneous Gaussian symmetries are classified with a distinct fine-prime width obstruction to the specified dense cycle format, limited to matching square normalized grids and explicit error/shift contracts. This supplies no general rank or runtime lower bound. A newer descendant independent review supersedes the planned7334 mechanism audit without selecting a frontier.

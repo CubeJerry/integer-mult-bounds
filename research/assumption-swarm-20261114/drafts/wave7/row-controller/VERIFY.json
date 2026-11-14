@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/literal-current-wire-row-controller/inputs/point/adapter.py",
+    "research/literal-current-wire-row-controller/inputs/point/caller.py",
+    "research/literal-current-wire-row-controller/inputs/point/hardware.py",
+    "research/literal-current-wire-row-controller/inputs/point/verify.py",
+    "research/literal-current-wire-row-controller/inputs/point/PROOF.md",
+    "research/literal-current-wire-row-controller/inputs/point/NOTICE.md",
+    "research/literal-current-wire-row-controller/inputs/point/SOURCE-PINS.json",
+    "research/literal-current-wire-row-controller/inputs/point/LICENSE",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/switch/switch.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/switch/PROOF.md",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/switch/check_batched_crt.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/switch/NOTICE.md",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/reference/rom-PROOF.md",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/reference/radix-PROOF.md",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/reference/7352-PROOF.md",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/reference/canonical-NOTICE.md",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/encoded-crt-entry-lifecycle/entry.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/crt-binary-radix-consumer/radix.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/crt-encoded-benes-rom-producer/microcode.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/crt-current-row-query/join.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/crt-persistent-numerical-owner/owner.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/README.md",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/RESULT.json",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/replay.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/route.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/INPUT-PINS.json",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/crt-binary-key-port/binary.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/crt-paid-row-reentry/RESULT.json",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/encoded-current-crt/producer.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/crt-mixed-row-entry/bridge.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/crt-uniform-rom-query/machine.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/inverse_frontend.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/inverse_producer.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/endpoint.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/frontend.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/r437-preparation-composition/predecessor4025/source/records.py",
+    "research/literal-current-wire-row-controller/inputs/point/inputs/predecessor/research/r437-preparation-composition/predecessor4025/source/words.py",
+    "research/literal-current-wire-row-controller/inputs/point/RESULT.json",
+    "research/literal-current-wire-row-controller/LICENSE"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Exact38sources and all10000point instruction relocations;1764completeforward/inverse routes with exact costs and full history;twoactual source/payload roundtrips;17returning/domain/source controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "-O",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Exact38sources and all10000point instruction relocations;1764completeforward/inverse routes with exact costs and full history;twoactual source/payload roundtrips;17returning/domain/source controls; optimized."
+    }
+  ]
+}
