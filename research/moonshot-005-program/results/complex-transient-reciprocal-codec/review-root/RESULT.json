@@ -1,0 +1,373 @@
+{
+  "engine_sha256": "c4389c80322c875c4739af6ee558619f01da6112682c565e4f638a01750e5ec1",
+  "new_kappa": null,
+  "results": {
+    "balanced": {
+      "Gram_rank": 8,
+      "bill": {
+        "common_rational_denominator": 32,
+        "counts": {
+          "ADD": 3141,
+          "CLEAR": 365,
+          "INIT": 365,
+          "MOVE": 803,
+          "SCALE": 2
+        },
+        "global_rescalings": 3,
+        "instructions": 4676,
+        "lifetimes": 365,
+        "moves": {
+          "1": 171,
+          "2": 132,
+          "3": 96,
+          "4": 20,
+          "5": 199,
+          "6": 1,
+          "7": 4,
+          "8": 172,
+          "9": 8
+        },
+        "nonzero_owned_clears": 357,
+        "peak": 29
+      },
+      "current_a_identity_rows": 104,
+      "forward_debt": 4928,
+      "full_public_rank": 400,
+      "move_delta": {
+        "1": -6
+      },
+      "negative_controls": [
+        "retain_one_D_read",
+        "retain_one_forward_repair"
+      ],
+      "removed_actual_D_reads": 72,
+      "removed_repair_packets": 6,
+      "reverse_rank": 88,
+      "word_sha256": "7cfefc12e666f1fa39a311f13ba5e919c307bfb8264d933a71d2abf2b2de55f2"
+    },
+    "balanced-codec": {
+      "all400_rows_checked": true,
+      "all_original_D_restored_at_common_plane": true,
+      "bill": {
+        "common_rational_denominator": 32,
+        "counts": {
+          "ADD": 3227,
+          "CLEAR": 367,
+          "INIT": 367,
+          "MOVE": 847,
+          "SCALE": 6
+        },
+        "global_rescalings": 3,
+        "instructions": 4814,
+        "lifetimes": 367,
+        "moves": {
+          "1": 179,
+          "2": 168,
+          "3": 96,
+          "4": 20,
+          "5": 199,
+          "6": 41,
+          "7": 4,
+          "8": 132,
+          "9": 8
+        },
+        "nonzero_owned_clears": 359,
+        "peak": 31
+      },
+      "complete_forward_ports": [
+        5,
+        56,
+        65,
+        69,
+        77,
+        96,
+        100,
+        103
+      ],
+      "encoder_determinant": "-1/2",
+      "forward_debt": 4888,
+      "full_public_rank": 400,
+      "hosted_invariant_preserved": true,
+      "move_delta": {
+        "1": 8,
+        "2": 36,
+        "6": 40,
+        "8": -40
+      },
+      "negative_controls": [
+        "omit_D_decode",
+        "omit_Y_decode",
+        "omit_actual_X_cache",
+        "omit_B_transpose_update",
+        "wrong_branch_chart"
+      ],
+      "new_ordered_maps": [
+        [
+          0,
+          1125
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          1125
+        ],
+        [
+          6,
+          1125
+        ],
+        [
+          1125,
+          139
+        ],
+        [
+          1125,
+          140
+        ],
+        [
+          1125,
+          141
+        ],
+        [
+          1125,
+          150
+        ],
+        [
+          1125,
+          190
+        ],
+        [
+          1125,
+          192
+        ],
+        [
+          1125,
+          193
+        ],
+        [
+          1125,
+          194
+        ],
+        [
+          1125,
+          195
+        ],
+        [
+          1125,
+          196
+        ],
+        [
+          1125,
+          197
+        ],
+        [
+          1125,
+          201
+        ],
+        [
+          1125,
+          202
+        ],
+        [
+          1125,
+          203
+        ],
+        [
+          1125,
+          204
+        ],
+        [
+          1125,
+          205
+        ],
+        [
+          1125,
+          206
+        ],
+        [
+          1125,
+          218
+        ],
+        [
+          1125,
+          219
+        ],
+        [
+          1125,
+          221
+        ]
+      ],
+      "reverse_rank": 89,
+      "word_sha256": "79bf4bd0ce0d6e2c0bd44c3134141314bea0b8c5b77ea486d8496e17ddd7beb3"
+    },
+    "parent-codec": {
+      "all400_rows_checked": true,
+      "all_original_D_restored_at_common_plane": true,
+      "bill": {
+        "common_rational_denominator": 32,
+        "counts": {
+          "ADD": 3312,
+          "CLEAR": 373,
+          "INIT": 373,
+          "MOVE": 853,
+          "SCALE": 6
+        },
+        "global_rescalings": 3,
+        "instructions": 4917,
+        "lifetimes": 373,
+        "moves": {
+          "1": 185,
+          "2": 168,
+          "3": 96,
+          "4": 20,
+          "5": 199,
+          "6": 41,
+          "7": 4,
+          "8": 132,
+          "9": 8
+        },
+        "nonzero_owned_clears": 365,
+        "peak": 31
+      },
+      "complete_forward_ports": [
+        5,
+        56,
+        65,
+        69,
+        77,
+        96,
+        100,
+        103
+      ],
+      "encoder_determinant": "-1/2",
+      "forward_debt": 4880,
+      "full_public_rank": 400,
+      "hosted_invariant_preserved": true,
+      "move_delta": {
+        "1": 8,
+        "2": 36,
+        "6": 40,
+        "8": -40
+      },
+      "negative_controls": [
+        "omit_D_decode",
+        "omit_Y_decode",
+        "omit_actual_X_cache",
+        "omit_B_transpose_update",
+        "wrong_branch_chart"
+      ],
+      "new_ordered_maps": [
+        [
+          0,
+          1125
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          1125
+        ],
+        [
+          6,
+          1125
+        ],
+        [
+          1125,
+          139
+        ],
+        [
+          1125,
+          140
+        ],
+        [
+          1125,
+          141
+        ],
+        [
+          1125,
+          150
+        ],
+        [
+          1125,
+          190
+        ],
+        [
+          1125,
+          192
+        ],
+        [
+          1125,
+          193
+        ],
+        [
+          1125,
+          194
+        ],
+        [
+          1125,
+          195
+        ],
+        [
+          1125,
+          196
+        ],
+        [
+          1125,
+          197
+        ],
+        [
+          1125,
+          201
+        ],
+        [
+          1125,
+          202
+        ],
+        [
+          1125,
+          203
+        ],
+        [
+          1125,
+          204
+        ],
+        [
+          1125,
+          205
+        ],
+        [
+          1125,
+          206
+        ],
+        [
+          1125,
+          218
+        ],
+        [
+          1125,
+          219
+        ],
+        [
+          1125,
+          221
+        ]
+      ],
+      "reverse_rank": 83,
+      "word_sha256": "777be9c2991cb9755e82ee43251d906831d1d08e303d8e2bbf89d53e6962c4be"
+    }
+  },
+  "source_scope": "Fixed source maps and all-width scalar identity lifts; no uniform physical/compiler or complete supplier. Alternatives are separately costed.",
+  "status": "PASS_INDEPENDENT_RESTORED_TRANSIENT_RECIPROCAL_CODEC"
+}

@@ -232,3 +232,18 @@ needatleast14. Joint histories or a changed paid interface are necessary.
 [Arrival corollaries](results/bit-target-arrival-corollaries/ADMISSION.md) extend
 the rank floor across the Hub-only target envelope. Proper-born local descents
 are a new interface: neither free transport nor eight-rank cost is assumed.
+
+## S011 checkpoint6: placement law and restored receiver recoding
+
+The [halfclass package](results/bit-halfclass-retention-cuts/ADMISSION.md) proves
+rank3 algebra, full unknown-Y retention and dynamic downset capacity. Its actual
+rank105 handoff still needs12 future fields in one region; donor-only drops fail.
+Revised point retention/short descents are separate work, not a decoder. Old
+scalar-extension exclusions remain scoped to their Hub-only models; changed
+paid routes justify revisiting a premise only after it is rederived.
+
+The [complex codec](results/complex-transient-reciprocal-codec/ADMISSION.md)
+temporarily changes20D/Y pairs, makes40 paired corrections and restores everyD.
+A separate aligned source gives an actual hosted Gram invariant. This realizes
+an escape from stationary-D controls. Global shared chronology and cheap reverse
+observations remain; eight fresh global returns already fail an optimistic budget.

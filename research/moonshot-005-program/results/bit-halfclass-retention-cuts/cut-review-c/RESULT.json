@@ -1,0 +1,115 @@
+{
+  "status": "PASS_INDEPENDENT_LITERAL_RETAINED_DOWNSET_CUTS",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "prefix_sha256": "afa3e7d08904fcfad2e55babcdff14e6961b3e19ee4aa1df0e42e2f509191d0a",
+  "author_code_imported": false,
+  "input_columns": 222,
+  "prefix_receipt": {
+    "counts": {
+      "INIT": 80,
+      "ADD": 459,
+      "MOVE": 680,
+      "CLEAR": 3
+    },
+    "peak_owned": 78,
+    "actual_pure_retained_rank": 105,
+    "distinct_nested_MOVE_pairs": 290
+  },
+  "S8": {
+    "targets": [
+      0,
+      14,
+      15,
+      30,
+      38,
+      39,
+      59,
+      60
+    ],
+    "inside_original_X": 14,
+    "inside_original_Y": 111,
+    "inside_owned": 72,
+    "pure_X_rank": 86,
+    "full_input_observation_rank": 197,
+    "rank_with_targets": 205,
+    "future_capacity_required": 8,
+    "all_pure_rows_zero_on_targets": false
+  },
+  "S12": {
+    "targets": [
+      108,
+      107,
+      20,
+      21,
+      28,
+      24,
+      36,
+      37,
+      38,
+      39,
+      49,
+      55
+    ],
+    "inside_original_X": 15,
+    "inside_original_Y": 111,
+    "inside_owned": 77,
+    "pure_X_rank": 92,
+    "full_input_observation_rank": 203,
+    "rank_with_targets": 215,
+    "future_capacity_required": 12,
+    "all_pure_rows_zero_on_targets": true
+  },
+  "hypothetical_information_relaxations_not_emitted_words": {
+    "S8_with_hypothetical_three_donor_observations": {
+      "targets": [
+        0,
+        14,
+        15,
+        30,
+        38,
+        39,
+        59,
+        60
+      ],
+      "inside_original_X": 14,
+      "inside_original_Y": 111,
+      "inside_owned": 72,
+      "pure_X_rank": 88,
+      "full_input_observation_rank": 199,
+      "rank_with_targets": 205,
+      "future_capacity_required": 6,
+      "all_pure_rows_zero_on_targets": false
+    },
+    "S12_with_hypothetical_three_donor_observations": {
+      "targets": [
+        108,
+        107,
+        20,
+        21,
+        28,
+        24,
+        36,
+        37,
+        38,
+        39,
+        49,
+        55
+      ],
+      "inside_original_X": 15,
+      "inside_original_Y": 111,
+      "inside_owned": 77,
+      "pure_X_rank": 92,
+      "full_input_observation_rank": 203,
+      "rank_with_targets": 215,
+      "future_capacity_required": 12,
+      "all_pure_rows_zero_on_targets": true
+    }
+  },
+  "negative_controls": [
+    "global rank105 grants every cut six-message completion",
+    "three donor observations repair every placement cut",
+    "inside pure state carries selected pivot information"
+  ],
+  "classification": "proved scoped dynamic cut; exact finite literal prefix; no completed decoder",
+  "new_kappa": null
+}

@@ -228,3 +228,14 @@ copy pays rank1 plus INIT, ADD, storage and CLEAR. Hubq<=10 remains necessary
 when these costs are added; the earlier Hubq>=8 endpoint does not. General
 downset cuts count every incoming descending lifetime. No new normalization
 or complete construction is assumed for this interface under investigation.
+
+## S011 checkpoint6: source budgets and placement
+
+Halfspan capture leaves optimisticq9 room9.1813550598..., but the actual old
+handoff needs12 future arrivals, not6. Revised retention/short descents must pay
+all real routes and erasures; global input rank does not imply receiver access.
+Complex recoding costs8[1]+36[2]+40[6]-40[8], moment0.9202600166139477...,
+86ADD/4SCALE/2lifetimes, for40 paired coefficients. The aligned alternative
+preservesR+L^T=G but reopens debt. Even400[8]+16[9]+8[1] has limiting margin
+-0.593807189930..., with finite penalty31.5397783670854.../(m-1). Actual cheaper
+reverse acquisition is necessary; rank8 alone is not an invoice. No new supplier.

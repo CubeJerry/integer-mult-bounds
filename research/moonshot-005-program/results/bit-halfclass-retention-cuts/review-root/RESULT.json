@@ -1,0 +1,48 @@
+{
+  "closed_target": "X=x andY=y+Rx, NOT the requiredY=y+x",
+  "core_rank": 3,
+  "negative_controls": [
+    "missing_point_copy",
+    "missing_pure_core_copy",
+    "missing_pivot_restoration",
+    "wrong_initial_native_chart",
+    "unknown_original_Y_assumed_zero"
+  ],
+  "new_kappa": null,
+  "receipts": {
+    "CLOSED-WORD.json.gz": {
+      "all222_columns_checked": true,
+      "counts": {
+        "ADD": 534,
+        "CLEAR": 80,
+        "INIT": 80,
+        "MOVE": 1578
+      },
+      "exact_nested_pairs": 719,
+      "native_endpoint_chart_ids_checked": 224,
+      "nonzero_erasures": 80,
+      "owned_live_at_end": 0,
+      "peak_owned": 78
+    },
+    "PREFIX.json.gz": {
+      "all222_columns_checked": true,
+      "counts": {
+        "ADD": 459,
+        "CLEAR": 3,
+        "INIT": 80,
+        "MOVE": 680
+      },
+      "exact_nested_pairs": 290,
+      "native_endpoint_chart_ids_checked": 117,
+      "nonzero_erasures": 3,
+      "owned_live_at_end": 77,
+      "peak_owned": 78
+    }
+  },
+  "scope": "Exact finite native source and scalar characteristic-two identity lift; old continuation excluded by separate dynamic cuts.",
+  "status": "PASS_INDEPENDENT_RETAINED_HALFCLASS_SOURCE_AND_CLOSURE",
+  "word_pins": {
+    "CLOSED-WORD.json.gz": "ca4fca03a1fcd55aa4e8a817029226b99d86f026590148bc68cafd2dfe2600b5",
+    "PREFIX.json.gz": "afa3e7d08904fcfad2e55babcdff14e6961b3e19ee4aa1df0e42e2f509191d0a"
+  }
+}

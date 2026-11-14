@@ -1199,3 +1199,18 @@ Old Hub-only lower caps are not silently extended. Complex transient D/Y
 recoding supplies a new actual partial mechanism under review. No new kappa,
 both strict suppliers/all five foundations retained. Session active through
 11:19:23UTC; resulting remote SHA recorded only after separate confirmation.
+
+## 2026-11-14-S011 — checkpoint6: dynamic placement and restored recoding
+
+Baselinea7fe7bba037affacc6457d3c1c364cb50ad57993, tree
+e32e95abeedb768064d330441c15d671386834cf. Halfclass source passes independent
+checks but rootS8 needs8 future fields and A'sS12 needs12; donor-only drops fail.
+C proves/replays dynamic full-input cuts; root adds native-chart and closed-word
+checks. Revised full-point retention/short descents remain uncompleted.
+B's receiver recoding restores transientD and escapes old stationary-D controls.
+Root checks400 inputs, uncomputation,40 paired terms, actual invoices/ranks and
+the reciprocal-aligned alternative. Phase reproduction is distinct. Global8
+returns fail an optimistic full budget; shared acquisition is next. Protected
+discovery continues on joint decoding and changed-route structural laws.
+No new kappa, all five foundations retained, session active through11:19:23UTC.
+Remote identity is recorded after confirmation. Ongoing/not PR-ready; no PR filed.

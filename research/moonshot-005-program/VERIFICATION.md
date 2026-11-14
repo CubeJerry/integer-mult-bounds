@@ -160,3 +160,14 @@ staircase on222 columns with exact charts/eight mutants, and reviews the two
 target/rank corollaries with exact intervals. Finite verification and universal
 proof are separately classified. Installed receipts and prior scientific-file
 immutability are recorded in CHECKPOINT5-VALIDATION.
+
+## S011 checkpoint6 checks
+
+C independently rebuilds halfclasses,4373 frames, full-input ranks and two222-
+column location cuts. Lead additionally verifies native charts/A-B pairs and
+prefix/closed words with five mutations. New lead dense400-column review checks
+both complex codecs, exact decode boundaries, all reciprocal entries, balanced
+lineage and twelve mutants. Separate2^-140 roots price actual profiles. Author
+25-map phase adapter is read/reproduced with retained independent engines,
+explicitly not a third phase implementation. Installed receipts, manifests and
+unchanged prior scientific files are recorded in CHECKPOINT6-VALIDATION.

@@ -223,3 +223,17 @@ isolated-module theorem proves repetition cannot suffice. Arrival/rank
 corollaries retain their Hub-only scope. No new kappa; ongoing/not PR-ready,
 with strict suppliers and all five foundations open. Credit and AI-assistance
 disclosures remain in every proof/admission.
+
+### S011 dynamic placement and restored complex recoding
+
+The [halfclass theorem](results/bit-halfclass-retention-cuts/ADMISSION.md)
+separates quotient algebra, actual retained rank and receiver access. A dynamic
+all-input downset law and independent12-direction cut reject a plausible prefix,
+explicitly superseding its optimistic status. The
+[complex receiver codec](results/complex-transient-reciprocal-codec/ADMISSION.md)
+is a constructive escape from fixed-D control:20 donor pairs are temporarily
+recoded/restored and40 forward coefficients corrected with matching transposes.
+A separate verified alternative establishes a hosted Gram invariant; complete
+budget still excludes eight fresh global returns. Provenance, source/phase
+classifications, all costs/assumptions and independent checks remain explicit.
+No new kappa; cumulative programme ongoing, not PR-ready.

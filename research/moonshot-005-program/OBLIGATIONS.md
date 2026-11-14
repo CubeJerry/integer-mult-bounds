@@ -131,3 +131,13 @@ completion by sufficient passive returns. No supplier/foundation is promoted.
 The retained halfclass prefix is not promoted: exact regions require8 and12
 future incoming directions. Three donor drops alone fail. Its frozen cut audit
 is being integrated separately; revised source retention remains active.
+
+## S011 checkpoint6 transitions
+
+| ID | Verified result | Next obligation |
+|---|---|---|
+| HALFCLASS-QUOTIENT | C9/D36/intersection6/quotient3; complete4373-frame audit. | Actual useful joint history. |
+| RETAINED-HANDOFF | Literal word checked;12-direction dynamic cut excludes old continuation. | New paid retention AND decoder. |
+| TRANSIENT-RECEIVER-CODEC | Actual20-pair word restoresD;40 paired terms, no new whole endpoint. | Globally shared cocharted schedule. |
+| HOSTED-GRAM-INVARIANT | Separate aligned source/codec preserveR+L^T=G, rank8. | Hosted/coupled forward completion and actual reverse information. |
+| GLOBAL-EIGHT-RETURNS | Optimistic complete margin negative0.593807.... | Cheaper preterminal returns or changed architecture. |

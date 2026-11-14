@@ -64,3 +64,15 @@ chronology scaffold, not a target candidate. Joint histories/paid local descents
 are active. Publish the retained-halfclass cuts and test revised full source
 retention by actual decoding, not global rank alone. Complex transient recoding
 now has an actual partial word under review. Both strict suppliers remain open.
+
+## Checkpoint6 current frontier
+
+Published retained-halfclass prefix is blocked byS12. Preserve its algebra and
+source evidence, not its old six-packet objective. A's full point-copy revision
+changes the handoff and is under independent review; actual joint decoding stays
+open. Proper-born descents introduce new paid interfaces. Earlier scalar U gates
+are not universal outside their Hub-only premises.
+Use the restored complex receiver codec and explicit Gram-aligned alternative
+as construction tools, without adding alternative gains. Need globally shared
+cohorts and cheap reverse capture; independent forty-term patches/fresh global8
+returns cannot simply be repeated into a complete target source.

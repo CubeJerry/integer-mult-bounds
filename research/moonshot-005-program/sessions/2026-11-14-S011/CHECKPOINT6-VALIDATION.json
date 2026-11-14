@@ -1,0 +1,54 @@
+{
+  "status": "PASS_S011_CHECKPOINT6_INTEGRATION",
+  "baseline_sha": "a7fe7bba037affacc6457d3c1c364cb50ad57993",
+  "confirmed_parent_tree": "e32e95abeedb768064d330441c15d671386834cf",
+  "time_utc": "2026-11-14T03:30:55.783240+00:00",
+  "packages": [
+    "bit-halfclass-retention-cuts",
+    "complex-transient-reciprocal-codec"
+  ],
+  "manifest_entry_checks": 84,
+  "old_scientific_entries": 2376,
+  "old_present_unchanged": 2375,
+  "known_missing_unchanged": [
+    {
+      "path": "results/four-call-dyadic-entry/review/replay.log",
+      "sha256": "e63a2e88a6d947210bfd4a0d216b036a3421500048a300461e8b17d69da3dcca",
+      "bytes": 1607
+    }
+  ],
+  "new_scientific_entries": 55,
+  "total_scientific_entries": 2431,
+  "installed_exact_matches": [
+    {
+      "installed": "CP6-HALF-SOURCE.json",
+      "frozen": "bit-halfclass-retention-cuts/review-root/RESULT.json"
+    },
+    {
+      "installed": "CP6-HALF-CUTS.json",
+      "frozen": "bit-halfclass-retention-cuts/cut-review-c/RESULT.json"
+    },
+    {
+      "installed": "CP6-HALF-ALGEBRA.json",
+      "frozen": "bit-halfclass-retention-cuts/algebra-review-c/RESULT.json"
+    },
+    {
+      "installed": "CP6-HALF-BUDGET.json",
+      "frozen": "bit-halfclass-retention-cuts/algebra-review-c/BUDGET.json"
+    },
+    {
+      "installed": "CP6-TRANSIENT.json",
+      "frozen": "complex-transient-reciprocal-codec/review-root/RESULT.json"
+    },
+    {
+      "installed": "CP6-TRANSIENT-PRICE.json",
+      "frozen": "complex-transient-reciprocal-codec/review-root/PRICE.json"
+    }
+  ],
+  "phase_reproductions_and_new_map_censuses_match": true,
+  "phase_classification": "Read/reproduced author adapter with retained exact engines, not a third phase implementation",
+  "session_log_append_only": true,
+  "protected_discovery_policy_unchanged": true,
+  "new_kappa": null,
+  "session_continues": true
+}
