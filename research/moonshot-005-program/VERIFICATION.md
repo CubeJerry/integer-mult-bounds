@@ -102,3 +102,19 @@ no replacement receipt is fabricated. The source, verifier, structured receipts
 and proof remain present. Earlier claims that all2,169 files were remotely
 recoverable must be qualified by this one missing console log. No new result
 uses it, and no mathematical claim is promoted on its basis.
+
+## S011 checkpoint2: proportional rank gap and complete C2-history census
+
+The lead independently rebuilt all275 K7 source configurations and3019
+contacts, verified the exact LR nonnegative combination and read the
+all-width nonzero-support arrival bridge. The rank floor is proved, not an
+extrapolation from finite widths. [Review](results/bit-uniform-rank-gap/review-root/REVIEW.md).
+
+For both complex variants a separate dense400-input history reconstruction
+checks all43435 C2 pools,1788/2308 historical Hub rows,298 projective rows,
+2062 exact mixed-rank cases and40963 clean cases. All minor witnesses pass at
+a different prime104729, with exact rational upper ranks. The same prior
+dense engine is reused and pinned; the new author sparse engine is not
+imported. Independent outward rational1e-24 intervals confirm the complete
+nine-return deficit and positive finite-m penalty. [Review and commands](results/complex-c2-history-obstruction/review-root/REVIEW.md).
+No human/formal-kernel verification, complete source or newkappa is claimed.

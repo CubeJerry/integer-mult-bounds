@@ -159,3 +159,21 @@ outputs and restores every X. Support maxima prove three proper channels
 necessary for each coordinate L_i; they do not imply that the eight separate
 acquisitions compose. Joint chronology, full invoice, strict U and B, and
 all five foundations remain open. See the two S011 admissions.
+
+## S011 checkpoint2: a new necessary rank floor and closed fixed-source path
+
+For arbitrary characteristic-two V-block fittings with sum ell<=196,
+rank>=9V+ceil(V/3). Theq8 unit model has sum ell<=122 and consequently
+sum kernel nullities>=V+ceil(V/3). No new movement, coveredBIT or completedBIT
+price follows. Scalar class-target requirements remain separate.
+
+For either exact stripped complex source, all43,435 relaxed C2 histories
+intersect canonical Gram demand trivially modulo actual Hub. The free
+initial B-preload covariance and causal rank-tight argument force>=9 whole-V
+rank7 returns. Retained limiting room57.096340268441956... minus their
+62.390010576575875... cost is negative5.293670308133917..., with every fixed
+finite m worse by31.539778367085413.../(m-1). Thus the previously favorable
+m21/24 arithmetic is not realizable by this fixed-history Gram continuation.
+It remains a valid conditional arithmetic envelope, not a source theorem.
+Changed local source operations, target codes, relays or invoices need a new
+complete analysis; no general complex impossibility is claimed.

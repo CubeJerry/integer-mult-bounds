@@ -176,3 +176,21 @@ for L0 support, but the word has four X arrivals at F0 including its coordinate
 preload. Its1,562 unit MOVEs are a partial invoice, not a q8 source. The next
 construction is joint acquisition of correlated forms on shared original
 routes, followed by full target completion and supplier admission.
+
+## S011 quantitative and complex-source consequences
+
+The [uniform gap](results/bit-uniform-rank-gap/ADMISSION.md) strengthens
+minimum-rank rigidity: every arrival-sparse fitting with sum ell<=196 has
+rank>=ceil(28V/3), for arbitrary characteristic-two fields and blocks. In the
+specifiedq8/three-extra-arrival model the history kernel total is>=ceil(4V/3).
+This quantifies the required departure from minimum rank without constructing
+its information or asserting rank16V.
+
+The [complete C2-history census](results/complex-c2-history-obstruction/ADMISSION.md)
+closes the old eight-Gram-return continuation of both stripped complex words.
+Every passive C2 history space has zero Gram intersection modulo the actual
+Hub, even after a free initial B-from-D preload. Causal rank-tight recovery
+needs at leastnine returns, exceeding the retained complete allowance. This
+is a fixed-source/target-code obstruction. The next complex construction must
+change local histories or its residual code; arbitrary new recoding remains
+open. The old rank82 residual is never identified with Gram rank8.

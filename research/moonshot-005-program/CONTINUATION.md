@@ -55,3 +55,13 @@ seek a general shared-cut construction for all eight coordinate forms. Price
 any extra upward copy and keep unknown-Y restoration, all original-X paths,
 old modes and uncompleted target outputs explicit. Quantitative rank excess
 and changed complex histories are concurrent investigations, not admitted yet.
+
+## S011 checkpoint2 corrections to the active frontier
+
+Use the all-width floorceil(28V/3) and kernel floorceil(4V/3) for the scopedq8
+arrival interface. Do not search minimum-rank singular blocks or interpret the
+floor as a physical record supply. The old eight-C2 canonical Gram continuation
+is now excluded for the exact stripped source histories, including free
+initial B-from-D preload and causal Hub feedback. Pursue a genuinely changed
+complex history/residual code. New target-relation words and the BIT joint-
+acquisition/downset leads are still under review at this checkpoint.

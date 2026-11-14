@@ -159,3 +159,20 @@ real geometry proves its three-channel support requirement; an independent
 222-column interpreter verifies the paid word and four negative controls.
 The remaining110 Y, all-width native phases, joint q8 chronology and strict
 supplier contracts remain open. The cumulative branch is not PR-ready.
+
+### S011 proportional rank gap and source-history obstruction
+
+[The new block theorem](results/bit-uniform-rank-gap/ADMISSION.md) proves an
+arrival-sparse rank floorceil(28V/3) at every width, with no commuting-block
+restriction. A complete-seven star defect argument and275 independently
+checked source witnesses supply the universal proof. Its history consequence
+requires additional actual kernel information, not free packet capacity.
+
+[The complex theorem](results/complex-c2-history-obstruction/ADMISSION.md)
+checks every possible C2 refinement of the two exact stripped sources and
+proves zero effective Gram intersection, including prior Hub information.
+Initial preload covariance and saturated causal message rank force nine
+returns; the retained complete invoice excludes them at the target exponent.
+This closes one precise continuation and motivates changed local histories
+or target codes. No general source impossibility, supplier or new kappa;
+publication readiness remains false.

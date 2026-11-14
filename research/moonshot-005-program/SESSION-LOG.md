@@ -1124,3 +1124,20 @@ no replacement receipt is fabricated. The source, verifier, structured receipts
 and proof remain present. Earlier claims that all2,169 files were remotely
 recoverable must be qualified by this one missing console log. No new result
 uses it, and no mathematical claim is promoted on its basis.
+
+## 2026-11-14-S011 — checkpoint2: rank gap and fixed complex-history gate
+
+Baseline `ce413740299df6b1f89a67dbeeb84d5f404f9f7f`, verified checkpoint1 treea9fc1d55459441e512fbaac37e241508ab768647.
+Protected discovery's K7 defect theorem now gives all-width sparse-arrival
+rank>=ceil(28V/3); lead independently rebuilds all275 witnesses and reviews
+its actual-history bridge. This is a proportional information requirement,
+not an asymptotic supplier gain.
+
+The lead independently reconstructs both stripped complex histories, all43435
+C2 refinements and every exact rank/minor premise using a separate dense
+engine. Free initial preload does not remove zero Gram intersection; causal
+rank-tight completion needs9 returns. Independent complete-caller interval
+accounting proves their deficit at every fixedm. Therefore that old candidate
+continuation is excluded; changed source/residual code remains active. Other
+new words and BIT joint/downset leads remain under review. Allfoundations
+retained, no newkappa, ongoingprogramme/notPRready. Session continues.

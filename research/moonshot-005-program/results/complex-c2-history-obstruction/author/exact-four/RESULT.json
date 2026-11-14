@@ -1,0 +1,66 @@
+{
+  "actual_Hub_rank": 200,
+  "actual_reverse_residual_rank": 82,
+  "all_Hub_history_contained_in_final_Hub": true,
+  "all_effective_local_Gram_intersections_zero": true,
+  "clean_minors": 40963,
+  "distinct_reduced_rows": 298,
+  "historical_Hub_rows_checked": 2308,
+  "maximum_clean_D_positions": 35,
+  "mixed_exact_rank_distribution": {
+    "(1, 1)": 1824,
+    "(2, 2)": 237,
+    "(4, 2)": 1
+  },
+  "mixed_minors": 2062,
+  "mixed_population_distribution": {
+    "0": 41373,
+    "1": 1824,
+    "2": 237,
+    "4": 1
+  },
+  "native_sha256": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+  "negative_controls": {
+    "duplicate_Gram_minor_rejected": true,
+    "free_Gram_row_breaks_augmented_independence": true,
+    "free_Gram_row_creates_intersection": true,
+    "raw_D_credit_without_Hub_conditioning_rejected": true
+  },
+  "nonempty_pools": 43180,
+  "parent_sha256": "a235a7e58f9eb96c6d409a88095fd6b59c977977baabb8735c76b2b820dcbedc",
+  "prime": 1000003,
+  "row_types": {
+    "D": 96,
+    "M": 98,
+    "Y": 104
+  },
+  "scope": "Exact source histories and arbitrary C2 refinements of original MOVEs, with immortal local caches and all mutually incompatible refinements jointly granted. No changed source mixing or arbitrary gauges are included. Characteristic-zero consequence follows from exact rational dependencies and nonzero modular minors. Actual source remains rank82, incomplete, and not a supplier.",
+  "source_bill": {
+    "counts": {
+      "ADD": 4282,
+      "CLEAR": 371,
+      "INIT": 371,
+      "MOVE": 825,
+      "SCALE": 2
+    },
+    "instructions": 5851,
+    "lifetimes": 371,
+    "moves": {
+      "1": 193,
+      "2": 132,
+      "3": 96,
+      "4": 20,
+      "5": 199,
+      "6": 1,
+      "7": 12,
+      "8": 172
+    },
+    "peak": 29
+  },
+  "status": "PASS_C2_PASSIVE_HISTORY_ZERO_GRAM_INTERSECTION",
+  "stripped_program_operations": 5851,
+  "target_Gram_rank": 8,
+  "total_C2_charts": 43435,
+  "variant": "four",
+  "word_sha256": "20a5c2c3eccd000b757f65e2cd6bed7f8a9ec39f0b8f88a66716e4b818a2521f"
+}

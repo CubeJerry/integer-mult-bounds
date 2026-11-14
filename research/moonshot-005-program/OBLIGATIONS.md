@@ -80,3 +80,14 @@ oldmode andrestore originals within q8 invoice; do not treat support49 as
 
 The earlier W0-localization next step is resolved only in the stated partial
 model. No complete source, supplier or foundational premise is promoted.
+
+## S011 checkpoint2 admitted transitions
+
+| ID | Exact result/status | Remaining construction |
+|---|---|---|
+| BIT-UNIFORM-RANK-GAP | PROVED sum ell<=196 impliesrank>=ceil(28V/3), all characteristic-two fields/V and noncommuting blocks. [Admission](results/bit-uniform-rank-gap/ADMISSION.md). | Realize sufficient higher history rank with actual cell images and paid routes. |
+| COMPLEX-C2-FIXED-HISTORY | DISPROVED WITHIN SCOPE: eight canonical Gram returns from either exact stripped history family, even after free initial B-from-D shear and causal Hub feedback. [Admission](results/complex-c2-history-obstruction/ADMISSION.md). | Change source histories/residual code, not just a covariant boundary matrix. |
+| COMPLEX-C2-TARIFF | PROVED at leastnine charged rank7 returns exceed retained full-caller limit; all fixedm>=2 worse. | New source/return interface and full invoice. |
+
+COMPLEX-PRETERMINAL remains open in general; its prior eight-C2 fixed-history
+subcase is closed. The full endpoint/supplier/foundational graph is unchanged.
