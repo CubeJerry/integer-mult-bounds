@@ -29,3 +29,7 @@ Six branches published. Complete OLD23/full MOVE passed independent review and32
 ## Checkpoint6: eight verified publications and live protocol review
 
 Complete old-coded MOVE published at6c76eaa; combined orbit-order representation published at8f1a09f. Exact remote refs, base parents, trees, intended-only added files and short compare pages checked. No new kappa; all five assumptions remain. Direct canonical switch2096-location14-tape program has a complete draft proof and primary controls, with independent interpreter/proof review active. Owned1526 eight-contact protocol has a successful34,069,475-transition nonzero replay on44 tapes; its9574 intervening source events remain external continuations with explicit time/history and preservation obligations. Draft snapshots are not publication-ready.
+
+## Checkpoint7: nine publications and three fresh wave5 objectives
+
+Owned lifetime protocol is published at53e0a6d with exact remote tree/base/diff and short compare check. Direct switch has independent universal review and separate sparse interpreter/canonical coloring evidence, including a returning wrong-answer mutant; publication gates active. Three fresh tasks: actual CRT query consumption, actual donor1349 source MOVE feeding first SUB, and optimal orbit-certificate scale over exact Gaussian symmetries. No new kappa. Main refreshed unchanged at e545; bounded live overlap searches and exact #7388/#7390/#7504/#7561 heads recorded.

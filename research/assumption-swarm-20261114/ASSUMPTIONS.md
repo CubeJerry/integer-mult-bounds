@@ -61,3 +61,7 @@ Complete selected MOVE24472 now has a paid OLD23 physical boundary and pre-right
 ## Wave4 verified update
 
 The complete old-coded MOVE boundary and prime/complemented orbit representations are published. The orbit theorem gives upper bounds only under its matched-factor premises, and explicit generator materialization costs Theta(T^2/P); it supplies no application-time gain. The direct predicate and nonzero owned lifetime are under independent review. The next useful missing joins are actual current descriptor/owner acquisition and paid child/caller return; these must not be hidden in supplied ABI premises.
+
+## Wave5 allocation and status
+
+Owned1526 now has a verified same-owner eight-contact protocol. Its9574 source-gap events, current producer values and global allocation remain substantive caller premises. The first missing value producer is exactly MOVE28039, public1349 from empty frame to[137], followed by SUB28041; the source algebra is confirmed, physical join active. The canonical direct switch point predicate is independently verified under its supplied ABI, with actual CRT header/lease consumption now active. The Gaussian orbit certificate is being optimized across exact simultaneous kernel symmetries; this may close a representation-class question, while arbitrary orders, implicit generators and full runtime remain excluded. All five full statements remain retained.
