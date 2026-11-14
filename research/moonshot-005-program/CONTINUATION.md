@@ -172,3 +172,7 @@ Use the admitted complex paid paired relay as a local module. Do not repeat dirt
 The next fractional BIT fitting must evade the full-scalar-line and generic two-direction-envelope gates. Do not repeat fixed two-patch compression searches. Source-specific facet bounds and distributed original-X recoding are live next work; the former are not admitted yet. Review the proposed width-two three-direction pencil theorem before adopting its stronger conclusion.
 
 The actual complex stream is available, but fresh separated paired relays cannot finish the retained seed within its room. Review the funded old-Gram-prefix candidate, then require an optimistic all-eight-mode global budget and real mixed receiver geometry. Preserve S011's concurrent collector work and exact source differences. No new kappa.
+
+## Concurrent S013 checkpoint1
+
+Read STATE.json.s013 and sessions/2026-11-14-S013/CHECKPOINT1-VALIDATION.json. Five reviewed packages add the scalar/matrix relay distinction, Kronecker quotient gate, exact common-preload staircase rank and native quadratic/exterior geometry. The next actual-source attempt is a quadratic-history BIT pivot and its paid continuation; its current author evidence is not promoted by these admissions. S012 retains the112-port physical caller through its stated deadline. No new kappa; preserve both tracks and reconcile the remote head before pushing.

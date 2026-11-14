@@ -230,3 +230,7 @@ This reruns the separately written reviewer; it is not a new independent review.
 ## S012 checkpoint9 source/interface packages
 
 Each admission page gives its relocation-safe independent command and source pins. The checkpoint receipt compares nine reproduced outputs byte-for-byte. The physical-interface wrapper supplies the frozen separately pinned budget receipt to an unchanged review module; it does not alter the proof or checker. The phase root review requires NumPy and uses exact object integers. Ordinary and optimized author/review results remain separately identified where present. No general theorem is inferred solely from running a checker.
+
+## S013 checkpoint1
+
+Exact author/reviewer commands and exit codes are recorded in `sessions/2026-11-14-S013/CHECKPOINT1-VALIDATION.json`. Run from the repository root, redirecting output paths to a temporary directory. The scalar-family proof has separate interpolation/intertwiner checks; the anisotropic source has author400-input replay plus an independent compositional check; BIT has independent native reconstruction and written universal proof reviews. `CHECKPOINT1-INTEGRITY.json` preserves the two already documented historical missing entries instead of silently changing their hashes. The old global verifier still lacks that historical-absence handling and is not represented as passing. These are partial source and scoped theorem checks, not a complete supplier verification.

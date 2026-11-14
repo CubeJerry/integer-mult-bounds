@@ -299,3 +299,13 @@ Primary next obligation: independently certify the112-port logical involution so
 - **INTERSTAGE-NORMALIZER-ORIENTATIONS — proved source-bound positive identity and scoped support gate.** A_s^-1 A_t is ordinary. Its opposite under the retained forward routes has16*4^V row support after all intermediate paths, requiring at least2V+4 ordinary additions. Changed inverse boundaries, adapters and paid shared service are outside the exclusion.
 
 The primary chain is now: actual R0 source -> physical boundary theorem -> either paid N realization or complete changed caller -> strict complex supplier -> compatibility with strict completed BIT supplier -> complete bootstrap and foundational dependencies. The next concrete attempt uses the owned-free source's literal inverse and mixed chronological orientations. No stage of this chain may be skipped by treating normalized Fourier algebra as a physical cost certificate.
+
+## S013 checkpoint1 dependency additions
+
+- **RELAY-SCALAR-S-UNIT-GATE — proved for the fixed20-relay nonzero scalar family.** Pinned geometry, smooth arithmetic and the complete17-orbit S-unit theorem imply the universal gate. Zero, matrix preloads and changed contracts remain outside it.
+- **RELAY-ANISOTROPIC-LATTICE — proved partial source.** The actual22-gate insertion gives determinant3375/128. Physical inverse/restoration, compatible changed forward service, grid closure and full price remain open.
+- **BIT-KRONECKER-QUOTIENT-GATE — proved scoped target restriction.** Canonical rigidity, scalar14/equality, envelope-three and classical pencil decomposition imply only pure left-chain types at width2, quotient<=3, chi<=194. Regular families have chi>=195.
+- **BIT-QUADRATIC-EXTERIOR — proved native identification and all-width implication.** Q2/C is an exterior square modulo a rank8 form; pair-local lines and injection imply chi>=220 when dimE<2V and E has no pure tensor. The width-two target exclusion additionally uses the pencil gate.
+- **BIT-COMMON-PRELOAD-STAIRCASE — proved exact interface rank.** Required common preload is bV for a fixed order and(s-omega)V optimally. Genuinely interleaved active histories remain open.
+
+Next S013 construction: a fully paid continuation from actually acquired quadratic-history modes. The separately active S012112-port caller obligation remains preserved. No new kappa.

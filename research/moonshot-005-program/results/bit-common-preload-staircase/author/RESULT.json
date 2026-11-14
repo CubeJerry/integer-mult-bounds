@@ -1,0 +1,93 @@
+{
+  "status": "PASS_EXACT_SEEDED_STAIRCASE_SOURCE_AND_CONTROLS",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "native": {
+    "targets": 111,
+    "maximum_orthogonal_set": 8,
+    "minimum_common_preload_dimensions_per_V": 103,
+    "total_channels_in_interface": 104
+  },
+  "pentagon": {
+    "indices": [
+      92,
+      36,
+      54,
+      38,
+      55
+    ],
+    "orthogonality": [
+      [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "bad_position_distribution": {
+      "3": 80,
+      "4": 40
+    },
+    "minimum_common_preload_dimensions_per_V": 3,
+    "total_channels_in_interface": 4,
+    "scalar_local_completions": 720,
+    "arbitrary_width2_local_completions": 480,
+    "witness": {
+      "order": [
+        92,
+        36,
+        54,
+        38,
+        55
+      ],
+      "bad_positions": [
+        3,
+        4,
+        5
+      ],
+      "local_masks": [
+        18,
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_preload_rank": 3
+    }
+  },
+  "negative_controls": [
+    "Illegal local-input grants destroy the lower bound and must be rejected geometrically",
+    "The isolated multi-bus staircase is outside the single-final-bus premise"
+  ],
+  "positive_control": "Eight coordinate roots need zero common preloads",
+  "classification": "Written all-field/block theorem; exact finite source verification; not a supplier",
+  "new_kappa": null
+}

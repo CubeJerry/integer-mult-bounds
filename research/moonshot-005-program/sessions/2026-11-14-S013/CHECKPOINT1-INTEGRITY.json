@@ -1,0 +1,16 @@
+{
+  "status": "PASS_PRESENT_BYTES_WITH_EXPLICIT_HISTORICAL_ABSENCES",
+  "baseline_sha": "5cc65874375a14e91ff617db02fa596c23751a8f",
+  "preserved_scientific_entries": 3615,
+  "new_scientific_entries": 41,
+  "verified_import_files": 80,
+  "verified_json_files": 1884,
+  "new_reviewed_file_pins": 36,
+  "retained_historical_absences": [
+    "results/bit-joint-multicast/mixed-author/__pycache__/build_mixed.cpython-312.pyc",
+    "results/four-call-dyadic-entry/review/replay.log"
+  ],
+  "frozen_nonresults_entries_checked": 30,
+  "original_verify_checkpoint": "The old verifier lacks historical-absence handling and assumes every ledger entry lies under results, whereas30 frozen session/WIP entries are also retained. It is not represented as passing. No historical hash or check was silently removed.",
+  "scope": "Byte identity and syntax, not mathematical verification."
+}

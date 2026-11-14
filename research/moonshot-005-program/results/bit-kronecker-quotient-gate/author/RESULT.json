@@ -1,0 +1,469 @@
+{
+  "status": "PASS_AUTHOR_KRONECKER_QUOTIENT_CONTROLS",
+  "proof_status": "universal proof in PROOF.md; independent review pending",
+  "KCF_block_size_classification": {
+    "larger_envelope_patterns": [
+      {
+        "blocks": [
+          "C3"
+        ],
+        "D": 4
+      },
+      {
+        "blocks": [
+          "C1",
+          "C2"
+        ],
+        "D": 5
+      },
+      {
+        "blocks": [
+          "C1",
+          "R2"
+        ],
+        "D": 4
+      },
+      {
+        "blocks": [
+          "C2",
+          "R1"
+        ],
+        "D": 4
+      },
+      {
+        "blocks": [
+          "C1",
+          "C1",
+          "C1"
+        ],
+        "D": 6
+      },
+      {
+        "blocks": [
+          "C1",
+          "C1",
+          "R1"
+        ],
+        "D": 5
+      },
+      {
+        "blocks": [
+          "C1",
+          "R1",
+          "R1"
+        ],
+        "D": 4
+      }
+    ],
+    "right_singular_patterns": [
+      {
+        "blocks": [
+          "D2"
+        ],
+        "D": 2
+      },
+      {
+        "blocks": [
+          "C1",
+          "D1"
+        ],
+        "D": 3
+      },
+      {
+        "blocks": [
+          "D1",
+          "R1"
+        ],
+        "D": 2
+      }
+    ]
+  },
+  "source": {
+    "native_path": "research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz",
+    "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+    "canonical_rank": 9,
+    "minimum_global_weight": 48,
+    "forbidden_distance_histogram": {
+      "18": 7,
+      "19": 24,
+      "20": 52,
+      "21": 16,
+      "22": 11,
+      "23": 1
+    },
+    "foreign_degree_histogram": {
+      "55": 1,
+      "56": 11,
+      "57": 16,
+      "58": 36,
+      "59": 28,
+      "60": 13,
+      "61": 5,
+      "62": 1
+    },
+    "orthogonal_clique_counts": {
+      "1": 111,
+      "2": 3235,
+      "3": 29939,
+      "4": 90079,
+      "5": 77003,
+      "6": 35667,
+      "7": 9443,
+      "8": 1094
+    },
+    "credited_dimension_four_boundary": {
+      "supports": [
+        [
+          54,
+          56,
+          57,
+          59,
+          61,
+          63,
+          64
+        ],
+        [
+          52,
+          53,
+          55,
+          58,
+          60,
+          62,
+          65
+        ]
+      ],
+      "quotient_dimension": 4,
+      "proper_cover_charge": 194,
+      "scope": "Six independent foreign roots at changed rows; inherited canonical chi2 at the other rows. No physical word."
+    }
+  },
+  "finite_algebra_controls": [
+    {
+      "order": 2,
+      "regular_family_checks": {
+        "C1_R2_repeated": {
+          "rank_two_selectors": 42,
+          "identity_admissible": 12,
+          "kernel_dimension_histogram": {
+            "1": 12
+          },
+          "dominator_index_coverage": {
+            "(0,)": 12
+          }
+        },
+        "C1_R2_Jordan": {
+          "rank_two_selectors": 42,
+          "identity_admissible": 30,
+          "kernel_dimension_histogram": {
+            "0": 24,
+            "1": 4,
+            "2": 2
+          },
+          "dominator_index_coverage": {
+            "(0,)": 2,
+            "(0, 1)": 20,
+            "(1,)": 8
+          }
+        },
+        "C1_R1_R1_distinct": {
+          "rank_two_selectors": 42,
+          "identity_admissible": 21,
+          "kernel_dimension_histogram": {
+            "0": 12,
+            "1": 8,
+            "2": 1
+          },
+          "dominator_index_coverage": {
+            "(0,)": 8,
+            "(0, 1)": 5,
+            "(1,)": 8
+          }
+        },
+        "C2_R1": {
+          "rank_two_selectors": 42,
+          "identity_admissible": 26,
+          "kernel_dimension_histogram": {
+            "0": 12,
+            "1": 14
+          },
+          "dominator_index_coverage": {
+            "(0,)": 4,
+            "(0, 1)": 6,
+            "(1,)": 16
+          }
+        },
+        "C1_C1_R1": {
+          "rank_two_selectors": 42,
+          "identity_admissible": 30,
+          "kernel_dimension_histogram": {
+            "1": 24,
+            "2": 6
+          },
+          "dominator_index_coverage": {
+            "(0,)": 6,
+            "(1,)": 24
+          }
+        }
+      },
+      "Jordan_one_code_negative_control": {
+        "U": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "Phi": [
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "identity_preimage": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "kernel": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "pure_chain_controls": {
+        "C3": {
+          "nonzero_vectors_checked": 7,
+          "all_scalar_pair_ranks": 2,
+          "envelope_dimension": 4
+        },
+        "C2_C1": {
+          "nonzero_vectors_checked": 7,
+          "all_scalar_pair_ranks": 2,
+          "envelope_dimension": 5
+        },
+        "C1_C1_C1": {
+          "nonzero_vectors_checked": 7,
+          "all_scalar_pair_ranks": 2,
+          "envelope_dimension": 6
+        }
+      }
+    },
+    {
+      "order": 4,
+      "regular_family_checks": {
+        "C1_R2_repeated": {
+          "rank_two_selectors": 3780,
+          "identity_admissible": 720,
+          "kernel_dimension_histogram": {
+            "1": 720
+          },
+          "dominator_index_coverage": {
+            "(0,)": 720
+          }
+        },
+        "C1_R2_Jordan": {
+          "rank_two_selectors": 3780,
+          "identity_admissible": 3036,
+          "kernel_dimension_histogram": {
+            "0": 2880,
+            "1": 144,
+            "2": 12
+          },
+          "dominator_index_coverage": {
+            "(0,)": 12,
+            "(0, 1)": 2448,
+            "(1,)": 576
+          }
+        },
+        "C1_R1_R1_distinct": {
+          "rank_two_selectors": 3780,
+          "identity_admissible": 2457,
+          "kernel_dimension_histogram": {
+            "0": 2160,
+            "1": 288,
+            "2": 9
+          },
+          "dominator_index_coverage": {
+            "(0,)": 576,
+            "(0, 1)": 1305,
+            "(1,)": 576
+          }
+        },
+        "C2_R1": {
+          "rank_two_selectors": 3780,
+          "identity_admissible": 2532,
+          "kernel_dimension_histogram": {
+            "0": 2160,
+            "1": 372
+          },
+          "dominator_index_coverage": {
+            "(0,)": 144,
+            "(0, 1)": 1620,
+            "(1,)": 768
+          }
+        },
+        "C1_C1_R1": {
+          "rank_two_selectors": 3780,
+          "identity_admissible": 3060,
+          "kernel_dimension_histogram": {
+            "1": 2880,
+            "2": 180
+          },
+          "dominator_index_coverage": {
+            "(0,)": 180,
+            "(1,)": 2880
+          }
+        }
+      },
+      "Jordan_one_code_negative_control": {
+        "U": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "Phi": [
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "identity_preimage": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "kernel": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "pure_chain_controls": {
+        "C3": {
+          "nonzero_vectors_checked": 63,
+          "all_scalar_pair_ranks": 2,
+          "envelope_dimension": 4
+        },
+        "C2_C1": {
+          "nonzero_vectors_checked": 63,
+          "all_scalar_pair_ranks": 2,
+          "envelope_dimension": 5
+        },
+        "C1_C1_C1": {
+          "nonzero_vectors_checked": 63,
+          "all_scalar_pair_ranks": 2,
+          "envelope_dimension": 6
+        }
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/moonshot-005-program/results/bit-three-direction-width-two/author/PROOF.md",
+      "sha256": "2a35dcb0a8b804b3c30d3759533070d903699c0b1dbb237618586511ce9d2bb5"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-one-extra-coset/author/PROOF.md",
+      "sha256": "a6b0a34517fd550c1565be4af47c975c464c5373bf52f0aea5a487a68fdc04fd"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-monotone-arrival-gate/PROOF.md",
+      "sha256": "d9cf390a4300c47d786141b2013d1a2f2d60e5eb692473c910a8ffcfd043da43"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-operator-canonical-quotient/author/PROOF.md",
+      "sha256": "00a49d2f43440b6b95be1ba0df9b898fa35a415eef8fcd178a77d1032d7ef43a"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-scalar-proper-cover-fourteen/author/PROOF.md",
+      "sha256": "fb861bffc473928cd872a8248096b092e85c657969459147b0cef5821ab83da2"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-scalar-proper-cover-equality/author/PROOF.md",
+      "sha256": "758f1a14d992387881ec14e837bc5c8b8c81cc4459e24b4b5a9f39c194ed7af9"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-quotient-direction-savings/author/PROOF.md",
+      "sha256": "8e83d29e18e78e1b6f8e30a154b9cc84ad089c5283b2c04c807e048ffee5229b"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-full-halfclass-width-two-gate/author/PROOF.md",
+      "sha256": "90d856cc8bc55b9bb501a89b7a11f72e134cd952f0ff03a24854eee06923a398"
+    }
+  ],
+  "claim": "Every native width2 quotient dim<=3 at chi<=194 is geometrically completely entangled and has pure left-chain type C3, C2+C1, or C1+C1+C1.",
+  "new_complete_kappa": false,
+  "physical_source_constructed": false
+}

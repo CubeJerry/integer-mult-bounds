@@ -117,3 +117,13 @@ The remaining unpublished S011 proper-chart relay is recovered with its own mani
 ## S012 checkpoint9: shared-branch coordination
 
 At13:45UTC canonical main remained e54523517d0f03e58352e647c403a5af3e525a57; the targeted updated-PR query since12:40 returned no entries. The selected conditional bound is unchanged. S013 independently registered at512f8e4fb63e0f28aacd0670f1dc407ea1f4391b from the previous S012 checkpoint and explicitly avoided the112-port/caller track. Its source triage and registration are preserved under sessions/2026-11-14-S013, including unadmitted PR7601 and scoped foundations packages7584..7600. Registration or an open PR is not an accepted mathematical supplier.
+
+## S013 checkpoint1: selective mathematical intake
+
+- von Kaenel--Matschke, arXiv:1605.06079v1 TheoremA, crediting de Weger: complete {2,3,5}-unit classification makes the scalar-relay obstruction universal. Witnesses are independently generated; no external code/database is copied.
+- Verdier, arXiv:1205.1138 section8, and Chitambar--Miller--Shi, arXiv:0911.1803: matrix pencils classify width-two quotients; the native regular-family exclusions are new source-specific arguments, not a new Kronecker theorem or quantum algorithm.
+- Randriambololona, arXiv:1312.0022 and1912.06627: Schur products and quadratic hulls motivate the actual quadric/exterior identification and common-flat acquisition attempt. Encoding and physical costs remain separate.
+- Forney, arXiv:0910.4336, and Blasiak--Kleinberg, arXiv:1001.1373: state dimension and serializability motivate the exact common-preload theorem; endpoint feasibility alone is not chronology.
+- Localized lattice/Smith analysis yields an explicit small modal preconditioner. Generic fixed-rational transducers already occur in the selected application. A Gaussian banded-inverse idea was checked against existing upstream beatty-run-gaussian-inverse work and not duplicated; its stronger Word-RAM and supplier-interface limits remain.
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57 at the reconciled checkpoint. Initial open7584..7601 triage is preserved in the session folder. No open PR is promoted to a supplier. Programme commit5cc65874 was fast-forwarded without rewriting its evidence.

@@ -1,0 +1,304 @@
+{
+  "status": "PASS_AUTHOR_QUADRATIC_EXTERIOR_CONTROLS",
+  "claim": "In the native quadratic reservoir, a completely entangled canonical quotient of dimension d<2V allows at most one contact-deleting row; chi>=220.",
+  "proof_status": "Universal proof in PROOF.md; independent review pending",
+  "source": {
+    "source_path": "research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz",
+    "source_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+    "binary_frame_indices": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      14,
+      30,
+      59
+    ],
+    "binary_gram_rows": [
+      224,
+      208,
+      176,
+      112,
+      238,
+      221,
+      187,
+      119
+    ],
+    "binary_native_points": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      11,
+      13,
+      14,
+      16,
+      30,
+      22,
+      20,
+      26,
+      28,
+      32,
+      45,
+      40,
+      37,
+      36,
+      41,
+      44,
+      33,
+      60,
+      50,
+      49,
+      63,
+      62,
+      48,
+      51,
+      61,
+      64,
+      75,
+      72,
+      67,
+      66,
+      73,
+      74,
+      65,
+      90,
+      84,
+      81,
+      95,
+      94,
+      80,
+      85,
+      91,
+      105,
+      100,
+      98,
+      109,
+      102,
+      107,
+      113,
+      114,
+      124,
+      116,
+      122,
+      121,
+      119,
+      128,
+      135,
+      131,
+      130,
+      133,
+      134,
+      129,
+      152,
+      158,
+      144,
+      145,
+      159,
+      153,
+      151,
+      165,
+      168,
+      173,
+      160,
+      162,
+      175,
+      170,
+      167,
+      191,
+      178,
+      188,
+      184,
+      182,
+      181,
+      187,
+      195,
+      200,
+      203,
+      192,
+      196,
+      207,
+      204,
+      199,
+      223,
+      209,
+      212,
+      218,
+      216,
+      214,
+      211,
+      239,
+      226,
+      228,
+      233,
+      232,
+      229,
+      227,
+      238
+    ],
+    "missing_anisotropic_points": [
+      18,
+      24,
+      96,
+      111,
+      127,
+      132,
+      150,
+      177,
+      221
+    ],
+    "anisotropic_count": 120,
+    "canonical_dimension": 9,
+    "quadratic_dimension": 36,
+    "quadratic_quotient_dimension": 27,
+    "local_literal_dimensions": {
+      "8": 111
+    },
+    "pair_quotient_intersections": {
+      "1": 6105
+    },
+    "common_flat_support_histogram": [
+      {
+        "orthogonal": false,
+        "size": 29,
+        "real_rank": 6,
+        "pairs": 1
+      },
+      {
+        "orthogonal": false,
+        "size": 30,
+        "real_rank": 6,
+        "pairs": 41
+      },
+      {
+        "orthogonal": false,
+        "size": 31,
+        "real_rank": 6,
+        "pairs": 161
+      },
+      {
+        "orthogonal": false,
+        "size": 32,
+        "real_rank": 6,
+        "pairs": 521
+      },
+      {
+        "orthogonal": false,
+        "size": 33,
+        "real_rank": 6,
+        "pairs": 830
+      },
+      {
+        "orthogonal": false,
+        "size": 34,
+        "real_rank": 6,
+        "pairs": 846
+      },
+      {
+        "orthogonal": false,
+        "size": 35,
+        "real_rank": 6,
+        "pairs": 385
+      },
+      {
+        "orthogonal": false,
+        "size": 36,
+        "real_rank": 6,
+        "pairs": 85
+      },
+      {
+        "orthogonal": true,
+        "size": 23,
+        "real_rank": 6,
+        "pairs": 1
+      },
+      {
+        "orthogonal": true,
+        "size": 24,
+        "real_rank": 6,
+        "pairs": 18
+      },
+      {
+        "orthogonal": true,
+        "size": 25,
+        "real_rank": 6,
+        "pairs": 108
+      },
+      {
+        "orthogonal": true,
+        "size": 26,
+        "real_rank": 6,
+        "pairs": 332
+      },
+      {
+        "orthogonal": true,
+        "size": 27,
+        "real_rank": 6,
+        "pairs": 796
+      },
+      {
+        "orthogonal": true,
+        "size": 28,
+        "real_rank": 6,
+        "pairs": 1060
+      },
+      {
+        "orthogonal": true,
+        "size": 29,
+        "real_rank": 6,
+        "pairs": 742
+      },
+      {
+        "orthogonal": true,
+        "size": 30,
+        "real_rank": 6,
+        "pairs": 178
+      }
+    ],
+    "pure_tensor_positive_control": {
+      "changed_rows": [
+        0,
+        1
+      ],
+      "scalar_quotient_dimension": 1,
+      "block_quotient_dimension": "V",
+      "deleted_rows": 2,
+      "proper_cover_charge": 220
+    }
+  },
+  "rank_four_negative_control": {
+    "ambient_dimension": 4,
+    "polar_rank": 4,
+    "pair_intersection_dimension": 2,
+    "omega_wedge_mask": 33,
+    "pure_chain": [
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        8
+      ]
+    ],
+    "scope": "Abstract local geometry; not a native fitting or physical source."
+  },
+  "dependencies": [
+    {
+      "path": "research/moonshot-005-program/results/bit-operator-canonical-quotient/author/PROOF.md",
+      "sha256": "00a49d2f43440b6b95be1ba0df9b898fa35a415eef8fcd178a77d1032d7ef43a"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-monotone-arrival-gate/PROOF.md",
+      "sha256": "d9cf390a4300c47d786141b2013d1a2f2d60e5eb692473c910a8ffcfd043da43"
+    }
+  ],
+  "new_complete_kappa": false,
+  "physical_source_constructed": false
+}
