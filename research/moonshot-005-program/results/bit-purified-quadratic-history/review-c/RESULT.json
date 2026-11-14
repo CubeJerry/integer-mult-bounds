@@ -1,0 +1,117 @@
+{
+  "status": "PASS_INDEPENDENT_PURIFIED_PIVOT_CUT_REVIEW",
+  "source_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "prefix_sha256": "074bdf752f03f6060ebf7e9fb548d78a94f866c4425395693388dc43e7c30f47",
+  "parity_certificate_sha256": "977eedcdd197d36967f646385fe07f32bae06b37a08f06dd986d8fbccccba001",
+  "prefix_counts": {
+    "INIT": 114,
+    "ADD": 234,
+    "MOVE": 174,
+    "CLEAR": 1
+  },
+  "prefix_move_profile": {
+    "5": 32,
+    "2": 32,
+    "6": 27,
+    "1": 29,
+    "7": 54
+  },
+  "cache_access_facets": [
+    54,
+    84,
+    92
+  ],
+  "independent_quadric_basis": [
+    2,
+    8,
+    9,
+    14,
+    15,
+    60,
+    92,
+    93
+  ],
+  "cuts": [
+    {
+      "receivers": [
+        2,
+        8,
+        9,
+        14,
+        15,
+        60,
+        93
+      ],
+      "observation_rank": 213,
+      "target_augmented_rank": 220,
+      "deficit": 7
+    },
+    {
+      "receivers": [
+        2,
+        8,
+        14,
+        21,
+        46,
+        48,
+        81,
+        84
+      ],
+      "observation_rank": 214,
+      "target_augmented_rank": 221,
+      "deficit": 7
+    }
+  ],
+  "negative_without_purification": {
+    "receivers": [
+      2,
+      8,
+      14,
+      21,
+      46,
+      48,
+      81,
+      84
+    ],
+    "observation_rank": 214,
+    "target_augmented_rank": 222,
+    "deficit": 8
+  },
+  "witness_roles": [
+    0,
+    1,
+    8,
+    9,
+    16,
+    17,
+    30,
+    32,
+    36,
+    37,
+    38,
+    39,
+    46,
+    47,
+    62,
+    63,
+    64,
+    65,
+    67,
+    68,
+    71,
+    72,
+    73,
+    74,
+    77,
+    78
+  ],
+  "witness_multiplicity_histogram": {
+    "4": 6,
+    "2": 18,
+    "6": 2
+  },
+  "all_union_deficit": 7,
+  "future_downward_capacity_lower_bound": "8V",
+  "proof": "REVIEW.md",
+  "new_complete_kappa": false
+}

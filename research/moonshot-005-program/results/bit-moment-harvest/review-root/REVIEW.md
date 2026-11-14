@@ -1,0 +1,11 @@
+# Independent review of the acquired-section harvest interface
+
+**Passed symbolic proof review and separate222-column replay. No new kappa.**
+
+The general lemma is a valid extension of the already admitted orthogonal staircase. A source in the common section can reach a stationary cache there by genuine monotone ascent before reaching Hub. The selected original X values are outside that support, so these acquisitions do not interfere with the staircase preload. The previous staircase returns the sum of selected original Y values at the common section. Three actual ADDs exchange that record with the acquired section sum, leaving the old Y mask at the section and the pure acquired history on the same packet for its final descent. No arbitrary Y value is set to zero, and no second downward packet is smuggled into the construction.
+
+The root review's independent engine imports no author code. It verifies new rational chart ranks and annihilators, all nested moves and cochart ADDs, actual fresh owners, every original input column, complete original X restoration, all111 true point copies and both retained histories. It then replays the closed partial words and their113 dirty retirements. The exact profiles, rank length1562, and142/148 ADD counts agree. Deleting an actual cache acquisition changes the advertised retained ground history.
+
+For the cubic triple the retained13-point history increases Q2 plus its eleven coordinate patches from rank47 to48. For the D4 quartet the12-point history increases Q2 plus twelve patches from48 to49. These are exact binary facts that persist over characteristic-two field extensions. The D4 example is correctly described as the same cubic section modulo another completed-coordinate correction, not as an independent quartic direction.
+
+The symbolic lemma is universal in width and characteristic-two field under the stated linear interface. The literal words are fixed-source computational certificates, with the compiler and all other foundational assumptions retained. Their favorable price rows include only hypothetical bare future routes. No actual continuation, finite-m complete supplier or compatible complex service follows. Repeating isolated modules remains subject to the prior packet bound. Credit the staircase authors, the construction worker, @CubeJerry, and OpenAI assistance.

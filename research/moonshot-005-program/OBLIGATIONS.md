@@ -320,3 +320,15 @@ Next S013 construction: a fully paid continuation from actually acquired quadrat
 - **TWO-STAGE-ELIMINATION — proved conditional extraction and scoped source-specific gate.** The unique correction in the declared template is actual C; all affine paths and collision systems imply the unitary price exclusion. Different templates and interleaved sources remain open.
 
 Primary next edge: independently schedulable actual half-sources -> genuine kernel/body chronology -> independent productive targets and paid full invoice -> strict complex supplier. Opposite-slope public words are under independent review. The parallel strict BIT edge remains open, with concurrent S013 evidence preserved separately. No complete conditional kappa theorem follows from these component lemmas.
+
+## S013 checkpoint2 dependency changes
+
+- **BIT-QUADRATIC-HISTORY-PIVOT — proved partial construction.** Genuine quadratic acquisition, all222 columns, all X restored and one Y complete. The actual eight-cut is independently reproduced.
+- **BIT-PURIFIED-QUADRATIC-HISTORY — proved source-specific separation.** Five paid operations purify the cache; quadric identities prove every receiver-union deficit<=7V, with equality. The retained26-role parity witness gives future capacity>=8V; the surviving35-role saturated-star seed,73anchors and canonical distance46 versus history support32 strengthen this to>8V. Exact dependencies are pinned in ADMISSION. Whole-width event count>=9 is not a lifetime count.
+- **BIT-MOMENT-HARVEST — proved symbolic interface and actual partial words.** Existing staircase plus genuine section acquisition yields a pure higher-degree history on the same descending lifetime. Three/four Y endpoints are complete; remaining108/107 are open.
+- **BIT-PIVOT-FILTER-GEOMETRY — proved static construction.** Rank15/enlargement16 and chi120 follow from102 explicit covers and9 quadratic-form obstructions. Physical shared implementation remains open.
+- **BIT-CUBIC-KOSZUL — proved constructive local reservoir.** Classical exterior-complex cohomology yields native Q3 duality and local28+8=36. A shared target quotient satisfying the Kronecker gate is still open.
+- **RELAY-GRAM-FITTING-RIGIDITY — proved operator-block compatibility gate.** All old off-diagonal contacts force I tensor T; all diagonal equations force identity. Changed modal repair requires a changed forward service.
+- **RELAY-RANK-TWO-SKEW-REPAIR — proved source-specific minimum repair and partial physical service.** Two real ground moment lifetimes implement the nonunit modal matrix; two actual rank9 descents supply every new skew forward term. Smooth-ring arithmetic recovery is proved, physical76D restoration and the remaining caller are open.
+
+Next consequential S013 obligation: a complete chronological BIT source using shared proper-chart caches or cubic histories, with enough actual information-changing stages to satisfy the strict transfer theorem inside the full target invoice. The separate112-port caller obligation and all foundational dependencies are preserved.

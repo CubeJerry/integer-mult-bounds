@@ -238,3 +238,7 @@ Exact author/reviewer commands and exit codes are recorded in `sessions/2026-11-
 ## S012 checkpoint10
 
 Admission pages provide relocation-safe commands for six new packages. Eight source/review receipts, including the separately new translation-gauge review and independent noncommuting extraction control, reproduce byte-for-byte. Common-Q and root extraction reviews pin SymPy1.14.0. The full source inverse and embedding reproduce inherited signed interpreters with their exact pins; new rational/affine engines are identified separately. Ledger verification preserves S013's intervening additions and both qualified historical absences.
+
+## S013 checkpoint2
+
+From the repository root run `python -B research/moonshot-005-program/sessions/2026-11-14-S013/reproduce_checkpoint2.py --repo . --out /tmp/s013-checkpoint2`. Use a fresh output directory. The runner performs seven bounded jobs, reproduces author source/price evidence, invokes separate independent implementations, and writes VALIDATION.json plus logs. Expected top-level status PASS; no complete supplier or new kappa is certified. The original frozen result files are read, never overwritten. Historical integrity exceptions described in earlier receipts remain visible.

@@ -1,0 +1,49 @@
+{
+  "status": "PASS_INDEPENDENT_ACTUAL_QUADRATIC_PIVOT",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "prefix_sha256": "763ef1dafa697d814d28807f247cd5382540e3a8109bff346a897f2b7ef99fd4",
+  "closure_sha256": "e52b9f97207d9005aa1921461e540bb199bb0a7ba8d92bdbaa0024b202cea3dd",
+  "independent_engine_sha256": "97fe30e49171a3859531007c93b4c9075eaaea095e1201e86baff31afe157da4",
+  "prefix": {
+    "events": 518,
+    "operations": {
+      "INIT": 113,
+      "ADD": 232,
+      "MOVE": 173
+    },
+    "moves": {
+      "1": 28,
+      "2": 32,
+      "5": 32,
+      "6": 27,
+      "7": 54
+    },
+    "peak_owned": 113,
+    "dirty_clears": 0
+  },
+  "closure": {
+    "events": 741,
+    "operations": {
+      "INIT": 113,
+      "ADD": 232,
+      "MOVE": 283,
+      "CLEAR": 113
+    },
+    "moves": {
+      "1": 28,
+      "2": 32,
+      "5": 32,
+      "6": 27,
+      "7": 164
+    },
+    "peak_owned": 113,
+    "dirty_clears": 113
+  },
+  "cut_ranks": [
+    214,
+    222
+  ],
+  "completed_targets": 1,
+  "input_columns": 222,
+  "no_new_kappa": true
+}

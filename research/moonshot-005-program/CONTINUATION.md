@@ -180,3 +180,9 @@ The actual complex stream is available, but fresh separated paired relays cannot
 ## Concurrent S013 checkpoint1
 
 Read STATE.json.s013 and sessions/2026-11-14-S013/CHECKPOINT1-VALIDATION.json. Five reviewed packages add the scalar/matrix relay distinction, Kronecker quotient gate, exact common-preload staircase rank and native quadratic/exterior geometry. The next actual-source attempt is a quadratic-history BIT pivot and its paid continuation; its current author evidence is not promoted by these admissions. S012 retains the112-port physical caller through its stated deadline. No new kappa; preserve both tracks and reconcile the remote head before pushing.
+
+## S013 checkpoint2 continuation
+
+Read the seven new ADMISSION files and s013 in STATE. The nearest S013 construction step is a fully paid BIT continuation using shared proper-chart caches or higher-degree acquired histories. The purified quadratic state has two modes at different charts, max receiver-union deficit7V, but future transfer capacity>8V; do not retry eight bare transfers or confuse events with lifetimes. The static chi120 pivot code and the eight new local cubic modes are design targets, not source certificates. The actual cubic/D4 harvest words complete3/4 targets on one descending lifetime and provide concrete alternative retained states.
+
+For complex arithmetic, the rank-two skew source supersedes the larger repair as the smallest known perturbation of the fixed20-relay module. It preserves diagonals and pays two rank9 forward descents, but still leaves76D and old forward/residual/caller work. Concurrent S012112-plane caller work is preserved separately and remains open. Do not rerun the scalar S-unit or quadratic-reservoir obstructions already proved.

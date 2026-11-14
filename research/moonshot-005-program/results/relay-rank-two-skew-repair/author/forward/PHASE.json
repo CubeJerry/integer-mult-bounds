@@ -1,0 +1,103 @@
+{
+  "engine_pins": {
+    "clifford_exact.py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "native_verify.py": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38"
+  },
+  "literal_occurrences": 2,
+  "rank": 9,
+  "recipe": {
+    "left": {
+      "linear_Z4": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "matrix_rows": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "offset": 0,
+      "phase": 0,
+      "quadratic_rows": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "rank": 9,
+    "right": {
+      "linear_Z4": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "matrix_rows": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "offset": 0,
+      "phase": 3,
+      "quadratic_rows": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "scope": "Exact finite signed Clifford map using retained engines; physical uniform supplier foundations remain.",
+  "source_chart": 127,
+  "source_frame": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "status": "PASS_NEW_RANK_NINE_SIGNED_CHART_MAP",
+  "target_chart": 3,
+  "target_frame": [],
+  "word_sha256": "b32bffe0f86e12257ebb29f019b25b4c421d7ba31b8c260458937ac27a7b324c",
+  "wrong_global_phase_rejected": true
+}

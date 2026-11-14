@@ -1,0 +1,70 @@
+{
+  "status": "PASS_INDEPENDENT_RANK_TWO_SOURCE_AND_FORWARD_REPLAY",
+  "pins": {
+    "old": "0edf81ca8f6a7e60e5a01d4acdcaefdb74882180b8d12c408513bc91cd625b1c",
+    "core": "66815ff5d01f76f19e61b3f14cb12bf90ceef07c17801b6c681dacb628e19f12",
+    "extended": "b32bffe0f86e12257ebb29f019b25b4c421d7ba31b8c260458937ac27a7b324c"
+  },
+  "core": {
+    "events": 2219,
+    "operations": {
+      "INIT": 26,
+      "ADD": 1366,
+      "MOVE": 571,
+      "CLEAR": 26,
+      "SCALE": 230
+    },
+    "public_moves": {
+      "1": 96,
+      "8": 304,
+      "5": 20,
+      "2": 20,
+      "7": 76
+    },
+    "owned_moves": {
+      "1": 47,
+      "7": 7,
+      "6": 1
+    },
+    "dirty_clears": 26,
+    "peak_owned": 15,
+    "max_binary_height": 4,
+    "max_row_l1": "757/2"
+  },
+  "extended": {
+    "events": 2569,
+    "operations": {
+      "INIT": 28,
+      "ADD": 1710,
+      "MOVE": 573,
+      "CLEAR": 28,
+      "SCALE": 230
+    },
+    "public_moves": {
+      "1": 96,
+      "8": 304,
+      "5": 20,
+      "2": 20,
+      "7": 76
+    },
+    "owned_moves": {
+      "1": 47,
+      "7": 7,
+      "6": 1,
+      "9": 2
+    },
+    "dirty_clears": 28,
+    "peak_owned": 15,
+    "max_binary_height": 4,
+    "max_row_l1": "757/2"
+  },
+  "input_columns_checked_each": 400,
+  "small_determinant": "3200000000",
+  "Lambda_determinant": "209/2",
+  "old_residue_rank_mod127": 6,
+  "perturbation_rank": 2,
+  "remaining_D": 76,
+  "wrong_capture_control_rejected": true,
+  "phase_scope": "Old MOVE phases inherited by literal identity; two new rank9 maps have separate pinned dual-engine evidence, not a new uniform compiler proof.",
+  "no_new_kappa": true
+}

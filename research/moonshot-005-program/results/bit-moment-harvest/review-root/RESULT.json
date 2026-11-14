@@ -1,0 +1,143 @@
+{
+  "status": "PASS_INDEPENDENT_CUBIC_AND_D4_SOURCE_REPLAY",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "cases": [
+    {
+      "name": "cubic",
+      "prefix_sha256": "d5046796435eae4627d2c17129873b4523fa7ea1b073e73ea695692e0336c63c",
+      "closure_sha256": "9ce960e99223f263a6d65c86d6b77943d25c820eef4388036c8d81b457d06305",
+      "completed": [
+        8,
+        10,
+        12
+      ],
+      "history_support": [
+        0,
+        3,
+        5,
+        6,
+        13,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "prefix": {
+        "events": 391,
+        "operations": {
+          "INIT": 113,
+          "ADD": 142,
+          "MOVE": 136
+        },
+        "moves": {
+          "1": 7,
+          "2": 1,
+          "3": 13,
+          "4": 13,
+          "5": 3,
+          "6": 2,
+          "7": 97
+        },
+        "peak_owned": 113,
+        "dirty_clears": 0
+      },
+      "closure": {
+        "events": 612,
+        "operations": {
+          "INIT": 113,
+          "ADD": 142,
+          "MOVE": 244,
+          "CLEAR": 113
+        },
+        "moves": {
+          "1": 7,
+          "2": 1,
+          "3": 13,
+          "4": 13,
+          "5": 3,
+          "6": 2,
+          "7": 205
+        },
+        "peak_owned": 113,
+        "dirty_clears": 113
+      },
+      "quadratic_with_patches_rank": 47,
+      "with_history_rank": 48,
+      "missing_acquisition_rejected": true
+    },
+    {
+      "name": "d4",
+      "prefix_sha256": "dc8c779ca9902e88af4cbf5a99eb0c2198f38e0d729d887af92d6817ec77ce46",
+      "closure_sha256": "80ef73330b7c566e4af124d97e9b99ed6a3855ac551649c885b903231422c51e",
+      "completed": [
+        8,
+        10,
+        12,
+        13
+      ],
+      "history_support": [
+        0,
+        3,
+        5,
+        6,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "prefix": {
+        "events": 401,
+        "operations": {
+          "INIT": 113,
+          "ADD": 148,
+          "MOVE": 140
+        },
+        "moves": {
+          "1": 9,
+          "2": 2,
+          "3": 13,
+          "4": 15,
+          "5": 2,
+          "6": 2,
+          "7": 97
+        },
+        "peak_owned": 113,
+        "dirty_clears": 0
+      },
+      "closure": {
+        "events": 621,
+        "operations": {
+          "INIT": 113,
+          "ADD": 148,
+          "MOVE": 247,
+          "CLEAR": 113
+        },
+        "moves": {
+          "1": 9,
+          "2": 2,
+          "3": 13,
+          "4": 15,
+          "5": 2,
+          "6": 2,
+          "7": 204
+        },
+        "peak_owned": 113,
+        "dirty_clears": 113
+      },
+      "quadratic_with_patches_rank": 48,
+      "with_history_rank": 49,
+      "missing_acquisition_rejected": true
+    }
+  ],
+  "all_input_columns": 222,
+  "only_partial_sources": true,
+  "no_new_kappa": true
+}

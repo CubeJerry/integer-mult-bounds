@@ -1,0 +1,415 @@
+{
+  "utc": "2026-11-14T14:55:19.973163+00:00",
+  "baseline_sha": "7ff42586f6405428990867eaf42a2924bf851308",
+  "status": "PASS",
+  "classification": "Author reproduction, distinct independent mathematical/source implementations, and inherited phase engines are explicitly separated. No new kappa.",
+  "jobs": [
+    {
+      "name": "cubic-koszul",
+      "status": "PASS",
+      "steps": [
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-cubic-koszul/author/check.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--geometry-check",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-quadratic-exterior/author/check.py",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/cubic-author.json"
+          ],
+          "exit": 0,
+          "log_sha256": "9fbab5e86ff8a3dbdb5c41031dfe394187c324af4f362496dc3f617f01d34322",
+          "log_bytes": 743
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-cubic-koszul/review-root/check.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/cubic-independent.json"
+          ],
+          "exit": 0,
+          "log_sha256": "621505208bec11e0fa09861a2c48371c327763cdf7083551932762030225b782",
+          "log_bytes": 1252
+        }
+      ],
+      "seconds": 6.874
+    },
+    {
+      "name": "gram-rigidity",
+      "status": "PASS",
+      "steps": [
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/relay-gram-fitting-rigidity/author/check.py",
+            "--source",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/proper-chart-relay/author/20/WORD.json.gz",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/gram-author.json"
+          ],
+          "exit": 0,
+          "log_sha256": "34d0f88806b002405234db074dded2acfa52f767599f83287e380b460af1b276",
+          "log_bytes": 1178
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/relay-gram-fitting-rigidity/review-root/check.py",
+            "--source",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/proper-chart-relay/author/20/WORD.json.gz",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/gram-independent.json"
+          ],
+          "exit": 0,
+          "log_sha256": "a6ef0868fb33cb4e1bdac8944eb12ae5bf5eac23292117c809e7e73998c57eea",
+          "log_bytes": 580
+        }
+      ],
+      "seconds": 2.724
+    },
+    {
+      "name": "moment-harvest",
+      "status": "PASS",
+      "steps": [
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-moment-harvest/author/build.py",
+            "--native",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz",
+            "--selected",
+            "8,10,12",
+            "--outdir",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/harvest/cubic"
+          ],
+          "exit": 0,
+          "log_sha256": "0a22dd34083071e4b6846f95652855af813ccb8ae298b79e1c6b641f8988fa40",
+          "log_bytes": 651
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-moment-harvest/author/build.py",
+            "--native",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz",
+            "--selected",
+            "8,10,12,13",
+            "--outdir",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/harvest/d4"
+          ],
+          "exit": 0,
+          "log_sha256": "32c970c0e5fc04e2550a4b4c58df2bbd11a720519c275c0e1716a560d2db52b2",
+          "log_bytes": 744
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-moment-harvest/author/price.py",
+            "--cubic",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/harvest/cubic/RESULT.json",
+            "--d4",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/harvest/d4/RESULT.json",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/harvest/BUDGET.json"
+          ],
+          "exit": 0,
+          "log_sha256": "ba2d6e4025149fbd612864acecac884da807f5096d20b3d17908a7e98c7991e1",
+          "log_bytes": 398
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-moment-harvest/review-root/check.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--package",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-moment-harvest/author",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/harvest-independent.json"
+          ],
+          "exit": 0,
+          "log_sha256": "10bf1d0a7deb6574b840ecf42bccebdbf788cf655c892e232a2261bdaa33a2a0",
+          "log_bytes": 1803
+        }
+      ],
+      "seconds": 1.59
+    },
+    {
+      "name": "pivot-filter-geometry",
+      "status": "PASS",
+      "steps": [
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pivot-filter-geometry/author/check_geometry.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/pivot-filter-author.json"
+          ],
+          "exit": 0,
+          "log_sha256": "e213c171560514d3bf69713812a129fd3d17e97171e7a2f3ea1fb44e51903de8",
+          "log_bytes": 467
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pivot-filter-geometry/review-root/check.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--certificate",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pivot-filter-geometry/author/GEOMETRY.json",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/pivot-filter-independent.json"
+          ],
+          "exit": 0,
+          "log_sha256": "6a5a59b40eeb61c02a77d246aeb6546a7e1ace432f2d537dd2d1a64ab4ca76f1",
+          "log_bytes": 456
+        }
+      ],
+      "seconds": 0.292
+    },
+    {
+      "name": "purified-pivot",
+      "status": "PASS",
+      "steps": [
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-purified-quadratic-history/author/build.py",
+            "--native",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz",
+            "--pivot",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-quadratic-history-pivot/author/output/PREFIX.json.gz",
+            "--rank-certificate",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-minimum-rank-nine/CERTIFICATE.json",
+            "--rigidity-certificate",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-fitting-rigidity/global/CERTIFICATE.json",
+            "--outdir",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/purified"
+          ],
+          "exit": 0,
+          "log_sha256": "cc5d8bea29c6de6c9b781a3b62d04c9d4dd54be00e2809c1db97259c4d52594a",
+          "log_bytes": 630
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-purified-quadratic-history/author/price.py",
+            "--result",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/purified/RESULT.json",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/purified/BUDGET.json"
+          ],
+          "exit": 0,
+          "log_sha256": "4c3f25bfedca30866886479dfd70fd2585d3537a6c689b3365671acf69fe50a0",
+          "log_bytes": 346
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-purified-quadratic-history/review-c/check.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--prefix",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-purified-quadratic-history/author/output/PREFIX.json.gz",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/purified-independent.json"
+          ],
+          "exit": 0,
+          "log_sha256": "82c28eecc1fc7e4820d8d404d6902a45fa2adacaeed1630dee1b65a717370a42",
+          "log_bytes": 742
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-purified-quadratic-history/review-c/check_strict.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/strict-independent.json"
+          ],
+          "exit": 0,
+          "log_sha256": "52de4a68f8f0c33d55c133f6b7a183d90adb84e4ab1ee90a3b815e3dce070bb7",
+          "log_bytes": 852
+        }
+      ],
+      "seconds": 1.768
+    },
+    {
+      "name": "quadratic-pivot",
+      "status": "PASS",
+      "steps": [
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-quadratic-history-pivot/author/build.py",
+            "--native",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz",
+            "--outdir",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/pivot"
+          ],
+          "exit": 0,
+          "log_sha256": "fb7a592d06f34839b93879f5b2220d60c5cb2820d724589f483772fce4e6555c",
+          "log_bytes": 1180
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-quadratic-history-pivot/author/price.py",
+            "--result",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/pivot/RESULT.json",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/pivot/BUDGET.json"
+          ],
+          "exit": 0,
+          "log_sha256": "e63f3dd380fb86376eb8164008d769dbac07ad8e5172b9638b0f36776398b524",
+          "log_bytes": 351
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-quadratic-history-pivot/review-root/check.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--package",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-quadratic-history-pivot/author",
+            "--engine",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-moment-harvest/review-root/check.py",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/pivot-independent.json"
+          ],
+          "exit": 0,
+          "log_sha256": "204a2999f546fb189dd261515a08a142138723ff7ccbc765550bae84c0490fc3",
+          "log_bytes": 868
+        }
+      ],
+      "seconds": 13.467
+    },
+    {
+      "name": "rank-two-skew",
+      "status": "PASS",
+      "steps": [
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/relay-rank-two-skew-repair/author/build.py",
+            "--source",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/proper-chart-relay/author/20/WORD.json.gz",
+            "--out",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/skew"
+          ],
+          "exit": 0,
+          "log_sha256": "e3d59faf72993db67c99b14212d3774cbb7b66d078c328a6acbb61701c11f0b8",
+          "log_bytes": 2175
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/relay-rank-two-skew-repair/author/algebra.py",
+            "--source",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/proper-chart-relay/author/20/WORD.json.gz",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/skew/ARITHMETIC.json"
+          ],
+          "exit": 0,
+          "log_sha256": "ea936fc7caef531b09e6495ea547ea7205396bf5194e26e3438406cfe484dabd",
+          "log_bytes": 208
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/relay-rank-two-skew-repair/author/forward.py",
+            "--source",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/skew/WORD.json.gz",
+            "--out",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/skew/forward"
+          ],
+          "exit": 0,
+          "log_sha256": "1916e073419f2862676f7212cb4b9b30c165360123639b904cf11754d5c0fc59",
+          "log_bytes": 1469
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/relay-rank-two-skew-repair/author/phase.py",
+            "--engines",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/proper-chart-relay/author/dependencies",
+            "--word",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/skew/forward/WORD.json.gz",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/skew/PHASE.json"
+          ],
+          "exit": 0,
+          "log_sha256": "d0dc153252d50756ca8793cc76d49f201535d2353230233815bb930ccb17afb5",
+          "log_bytes": 36
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/relay-rank-two-skew-repair/author/price.py",
+            "--old-price",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/proper-chart-relay/author/20/PRICE.json",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/skew/PRICE.json"
+          ],
+          "exit": 0,
+          "log_sha256": "c7a721c9984d5eed5be7e2628f52ee5d525d74b3c09c4c27b25e604de850ca93",
+          "log_bytes": 1054
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/relay-rank-two-skew-repair/review-root/check.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--package",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/relay-rank-two-skew-repair/author",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint2-validation/skew-independent.json"
+          ],
+          "exit": 0,
+          "log_sha256": "c81f3fb8eb56731b5995a72444399fc269525594b218ac0052d9c31ea6e3721f",
+          "log_bytes": 1312
+        }
+      ],
+      "seconds": 6.257
+    }
+  ]
+}

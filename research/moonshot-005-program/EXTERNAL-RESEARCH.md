@@ -131,3 +131,11 @@ Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57 at the reconcile
 ## S012 checkpoint10: integrate concurrent S013 without resetting the caller
 
 Concurrent checkpoint df78594ab1aa37220f354860d55e17fc6b7a8143 adds five reviewed packages: scalar S-unit obstruction, an actual anisotropic relay/module repair with remaining physical forward debt, a Kronecker quotient gate, common-preload staircase rank, and quadratic/exterior native structure. S012 inspected their admission scopes and preserved every source/review/ledger byte. S013's independent BIT/history obligation remains active. These results do not supply an admitted complete BIT or complex supplier and are not added as free credits to the112-port caller. Canonical upstream and the selected bound remain at the previously checked pins.
+
+## S013 checkpoint2: cubic/spin geometry and concurrent caller evidence
+
+Gow, Contraction of Exterior Powers in Characteristic2 and the Spin Module, Geometriae Dedicata64(1997), DOI10.1023/A:1004961421891, and Sin's2004 lecture https://people.clas.ufl.edu/sin/files/mobile.pdf, provide the classical middle-cohomology interpretation. The new programme application identifies eight explicit additional local cubic modes for the pinned BIT source. Schur-code duality on the120-point quadric and genuine cubic section acquisition are now connected by source-bound proofs, without treating abstract modes as physical registers.
+
+The principal-minor/spinor map of van Geemen--Marrani, SIGMA15(2019),064, DOI10.3842/SIGMA.2019.064, is a targeted constructive lead for sharing these local modes. No theorem from that paper is claimed to instantiate the required native fitting or transport interface yet.
+
+Concurrent programme commit7ff42586 was inspected and fast-forwarded. Its literal inverse/mixed112 sources, independent plane primitives, common-Q short-caller controls and unitary-normalizer/two-stage entropy gates are preserved. Actual physical stage-kernel alignment remains its main missing step. These results are not imported as a free caller for the new20-relay or for a prospective full120-root symmetry.
