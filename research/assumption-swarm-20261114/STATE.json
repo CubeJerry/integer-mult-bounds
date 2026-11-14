@@ -5,8 +5,8 @@
   "selected_kappa": "363005817/100000000000",
   "selected_review": "docs/research/pr-intake-evidence/pr7000-application/PROOF-REVIEW.md",
   "started_utc": "2026-11-14 02:27:15 UTC",
-  "status": "wave1-construction-and-proof",
-  "wave": 1,
+  "status": "wave2-results-and-wave3-cross-review",
+  "wave": 3,
   "background_execution": false,
   "requested_window_hours": 10,
   "recovery_branch": "recovery/assumption-swarm-20261114",
@@ -35,44 +35,90 @@
   "workers": [
     {
       "worker": "analytic_recovery",
-      "track": "60-74",
-      "scope": "Exact ordinary-shift displacement rank of tensor Toeplitz kernels/inverses; source-scoped grouped-generator obstruction.",
-      "status": "proof-derived-independently-controls-and-package-pending",
-      "output": "worker-a",
-      "next": "Check uniform theorem and source applicability; no general batching/runtime impossibility."
+      "wave": 3,
+      "track": "75-84",
+      "scope": "Independently review actual70-tape old-coded C composition; wave2 finite-precision generator theorem frozen pending publication.",
+      "status": "cross-review-active",
+      "dependencies": [
+        "30497f40d89f2a137a4bc31a4fee1229b9af1440",
+        "1a555e469b89af70d309bc966f8f813ac11dc887"
+      ],
+      "output": "worker-a; worker-c/wave2/research/selected-move-old-coded-c",
+      "next": "Check entry/return/symbol/port/history and numerical prefix obligations."
     },
     {
       "worker": "owned_recursion",
-      "track": "50-59/60-74",
-      "scope": "Literal typed zero INIT and full CLEAR for selected owner1526, donor728 at INIT28037; compatible current-value contacts.",
-      "status": "literal-graph-drafted",
-      "output": "worker-b",
-      "next": "Verify uniform allocation/retirement and reject wrong donor/frame/alias; whole interleaved caller remains open."
+      "wave": 2,
+      "track": "50-59",
+      "scope": "Produce a separately charged typed owned zero directly from valid OLD23 source without Gamma donor or address permutation.",
+      "status": "five full packets passed; uniform proof/metadata pending",
+      "dependencies": [
+        "30497f40d89f2a137a4bc31a4fee1229b9af1440",
+        "28fc921807f867302b2f43cb0696645f18094307"
+      ],
+      "output": "worker-b/research/old-source-owned-zero",
+      "next": "Verify all-size O(V_old+E), source preservation, reserved inactive size guards and paid stock boundary."
     },
     {
       "worker": "packed_codec",
+      "wave": 2,
       "track": "20-39/50-59",
-      "scope": "All23-header old-coded to Gamma6 packed codec, 9f stable partitions, inverse and old-owner commit.",
-      "status": "literal-graph-first-f1-packet-passed-author-only",
-      "output": "worker-c",
-      "next": "Uniform tape/cost proof, independent direct-index tests and mutation controls; no nonleaf-rate claim."
+      "scope": "Execute actual positive Gaussian C between paid codec entrance and return on one70-tape graph.",
+      "status": "three full f1 packets passed; independent review and report pending",
+      "dependencies": [
+        "30497f40d89f2a137a4bc31a4fee1229b9af1440",
+        "1a555e469b89af70d309bc966f8f813ac11dc887"
+      ],
+      "output": "worker-c/wave2/research/selected-move-old-coded-c",
+      "next": "Complete all-size proof, exact numerical domain, private27guard retirement and metadata."
     }
   ],
-  "verified_results": [],
-  "published_contributions": [],
+  "verified_results": [
+    "Exact tensor Gaussian displacement/generator count theorem, independently proved and published",
+    "Uniform typed INIT/CLEAR for all54 selected lifetimes, independently replayed and published",
+    "Complete literal OLD23/packed bridge with Theta(f V_old+E) direct cost, independently replayed and published"
+  ],
+  "published_contributions": [
+    {
+      "package": "tensor-gaussian-displacement-rank",
+      "branch": "research/tensor-gaussian-displacement-rank-20261114",
+      "remote_commit": "326844a3e0c570fdafa4f3737095cd37154743a6",
+      "tree": "2cf23480826bc26711909bee3e48028f97a6e869",
+      "compare_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/tensor-gaussian-displacement-rank-20261114",
+      "full_description_url": "https://github.com/CubeJerry/integer-mult-bounds/blob/326844a3e0c570fdafa4f3737095cd37154743a6/research/tensor-gaussian-displacement-rank/PR-DESCRIPTION.md"
+    },
+    {
+      "package": "selected-move-packed-codec",
+      "branch": "research/selected-move-packed-codec-20261114",
+      "remote_commit": "30497f40d89f2a137a4bc31a4fee1229b9af1440",
+      "tree": "77c99f23e4ab7d70f6e82b881cc0fb1cfb92b6e7",
+      "compare_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/selected-move-packed-codec-20261114",
+      "full_description_url": "https://github.com/CubeJerry/integer-mult-bounds/blob/30497f40d89f2a137a4bc31a4fee1229b9af1440/research/selected-move-packed-codec/PR-DESCRIPTION.md"
+    },
+    {
+      "package": "selected-owned-gamma-init",
+      "branch": "research/selected-owned-gamma-init-20261114",
+      "remote_commit": "28fc921807f867302b2f43cb0696645f18094307",
+      "tree": "173f1c89f5d1277b44826d0a7205965ecc0c660d",
+      "compare_url": "https://github.com/CrocSwap/integer-mult-bounds/compare/main...CubeJerry:research/selected-owned-gamma-init-20261114",
+      "full_description_url": "https://github.com/CubeJerry/integer-mult-bounds/blob/28fc921807f867302b2f43cb0696645f18094307/research/selected-owned-gamma-init/PR-BODY.md"
+    }
+  ],
   "coordination": {
     "recent_prs_through": 7581,
     "sprint_issue": "No open sprint issue returned.",
     "discussion_coverage": "Read #1163 and newest-page #1166; incomplete coverage.",
-    "separate_moonshot": "Active S011 read-only here."
+    "separate_moonshot": "Active S011 read-only here.",
+    "live_delta": "Main unchanged. PR7557 new addendum retracts original neutral-period Law5; corrected premise conditional outside park family. No overlap with allocated codec/zero/Gaussian-core scopes."
   },
   "next_actions": [
-    "Freeze precise scopes after targeted source/overlap checks.",
-    "Prove and independently challenge claims.",
-    "Recheck main and dependencies at every wave/publication.",
-    "Publish verified packages separately; no upstream PR submission."
+    "Finish independent source/norm review and publish finite-precision generator theorem if valid",
+    "Independently review and publish direct old-source zero and actual C join if valid",
+    "Select next source-specific obligation from updated interface map",
+    "Recheck canonical/PR deltas before fresh speculative wave"
   ],
-  "checkpoint_utc": "2026-11-14 02:44 UTC",
-  "last_remote_checkpoint": "f6b5ece5644a1cad6277edc672c8036dc42db543",
-  "unverified_drafts": "drafts/ contains incomplete worker code/proof notes. Not publication-ready and not independently admitted."
+  "checkpoint_utc": "2026-11-14T03:17:40.399637+00:00",
+  "last_remote_checkpoint": "0329806696dae7739bd0cf6a658991cb923e679f",
+  "unverified_drafts": "drafts/ contains incomplete worker code/proof notes. Not publication-ready and not independently admitted.",
+  "last_main_check": "Wave3 delta: unchanged e54523517d0f03e58352e647c403a5af3e525a57"
 }

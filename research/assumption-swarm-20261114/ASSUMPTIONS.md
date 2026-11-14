@@ -38,3 +38,10 @@ Read STATE.json and SESSION-LOG.md, re-resolve canonical main and active depende
 ## Evidence-status clarification
 
 Selected #7000/#7001 are incorporated under the five assumptions. Later sources such as #5829/#6719 and #6977-#6995 are partially reviewed in the canonical ledger; their stated proofs identify overlap, not fresh scientific certification by this run. A generic dirty-suspension theorem and proposed implementation are not automatically transferred to every selected backend. PR2809 scratch quotas were excluded because that physical backend is not literally the selected copied-centres dependency.
+
+## Verified first-wave deltas and next weakest interfaces
+
+- precision_tape/native_all_columns: the paid OLD23/Gamma6 codec and inverse are now constructed at the supplied-owner boundary, with complete Theta(f V_old+E) bill. Actual positive-C composition is being reviewed; complete MOVE and fast nonleaf tariff remain unresolved.
+- owned_erasure/compiler: typed INIT/CLEAR now work for all54 exact raw-native lifetimes under common-format ownership, including arbitrary inactive correlated contents and all historical homes. Direct OLD23 production is the next narrower premise; full stock/child/global closure remains conditional.
+- analytic_recovery: exact lexicographic ordinary generator requirement is2T/n_fast for normalized tensor Gaussian kernels/inverses. A quantitative Cp-bit version is under review. This rules out a representation shortcut, not separable circuits or general fast multiplication.
+- Unresolved source-specific joins remain distinct from false claims: header-only codec replacement is false; missing full-format producer and complete physical caller are proof obligations. Finite tests are not universal proofs.
