@@ -1,0 +1,479 @@
+{
+  "status": "PASS_EXACT_CLASS_RESERVOIR_OPERATOR_GATE",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "C_dimension": 9,
+  "U_dimension": 15,
+  "C_plus_U_dimension": 19,
+  "quotient_dimension": 10,
+  "groups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      54,
+      56,
+      57,
+      59,
+      61,
+      63,
+      64
+    ],
+    [
+      52,
+      53,
+      55,
+      58,
+      60,
+      62,
+      65
+    ],
+    [
+      30,
+      33,
+      35,
+      36,
+      81,
+      83,
+      85,
+      86
+    ],
+    [
+      31,
+      32,
+      34,
+      37,
+      82,
+      84,
+      87
+    ],
+    [
+      22,
+      25,
+      27,
+      28,
+      88,
+      91,
+      93,
+      94
+    ],
+    [
+      23,
+      24,
+      26,
+      29,
+      89,
+      90,
+      92,
+      95
+    ],
+    [
+      14,
+      17,
+      19,
+      20,
+      96,
+      99,
+      101,
+      102
+    ],
+    [
+      15,
+      16,
+      18,
+      21,
+      97,
+      98,
+      100
+    ],
+    [
+      38,
+      41,
+      43,
+      44,
+      73,
+      76,
+      78,
+      79
+    ],
+    [
+      39,
+      40,
+      42,
+      45,
+      74,
+      75,
+      77,
+      80
+    ],
+    [
+      46,
+      50,
+      68,
+      70,
+      71
+    ],
+    [
+      47,
+      48,
+      49,
+      51,
+      66,
+      67,
+      69,
+      72
+    ],
+    [
+      8,
+      10,
+      12,
+      13,
+      103,
+      106,
+      108,
+      109
+    ],
+    [
+      9,
+      11,
+      104,
+      105,
+      107,
+      110
+    ]
+  ],
+  "class_indicators_hex": [
+    "0xff",
+    "0x1ab40000000000000",
+    "0x254b0000000000000",
+    "0x6a00000000001a40000000",
+    "0x9400000000002580000000",
+    "0x69000000000000001a400000",
+    "0x960000000000000025800000",
+    "0x690000000000000000001a4000",
+    "0x16000000000000000000258000",
+    "0xd20000001a4000000000",
+    "0x12c000000258000000000",
+    "0xd00004400000000000",
+    "0x12c000b800000000000",
+    "0x3480000000000000000000003500",
+    "0x4b00000000000000000000000a00"
+  ],
+  "quotient_remainders_hex": [
+    "0xff",
+    "0x1ab40000000000000",
+    "0x2534fffffffffffff",
+    "0x6a00000000001a40000000",
+    "0x6bfffff8000025bfffffff",
+    "0x69000000000000001a400000",
+    "0x6901fffc000fffc01a4000ff",
+    "0x160001fe03f80fc03fffda7f00",
+    "0x16000000000000000000258000",
+    "0xd20000001a4000000000",
+    "0x12c000000258000000000",
+    "0xd00004400000000000",
+    "0x12c000b800000000000",
+    "0x16696b2cd2534b9a65a59a7f00",
+    "0x16696b2d2dab4ba59a5a658000"
+  ],
+  "forbidden_restriction_rank_census": {
+    "17": 111
+  },
+  "distinct_nonzero_class_quotient_lines": 15,
+  "subsets_checked": 32768,
+  "subset_rank_census": {
+    "0": 1,
+    "1": 15,
+    "2": 105,
+    "3": 455,
+    "4": 1365,
+    "5": 3003,
+    "6": 5020,
+    "7": 6555,
+    "8": 6825,
+    "9": 5740,
+    "10": 3684
+  },
+  "smallest_dependent_class_subset": 7,
+  "rank_cap_table": [
+    {
+      "rank_cap": 0,
+      "maximum_covered_receivers": 0,
+      "minimum_ell": 222,
+      "maximizing_classes": [],
+      "actual_scalar_quotient": 0
+    },
+    {
+      "rank_cap": 1,
+      "maximum_covered_receivers": 8,
+      "minimum_ell": 206,
+      "maximizing_classes": [
+        0
+      ],
+      "actual_scalar_quotient": 1
+    },
+    {
+      "rank_cap": 2,
+      "maximum_covered_receivers": 16,
+      "minimum_ell": 190,
+      "maximizing_classes": [
+        0,
+        3
+      ],
+      "actual_scalar_quotient": 2
+    },
+    {
+      "rank_cap": 3,
+      "maximum_covered_receivers": 24,
+      "minimum_ell": 174,
+      "maximizing_classes": [
+        0,
+        3,
+        5
+      ],
+      "actual_scalar_quotient": 3
+    },
+    {
+      "rank_cap": 4,
+      "maximum_covered_receivers": 32,
+      "minimum_ell": 158,
+      "maximizing_classes": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "actual_scalar_quotient": 4
+    },
+    {
+      "rank_cap": 5,
+      "maximum_covered_receivers": 40,
+      "minimum_ell": 142,
+      "maximizing_classes": [
+        0,
+        3,
+        5,
+        6,
+        7
+      ],
+      "actual_scalar_quotient": 5
+    },
+    {
+      "rank_cap": 6,
+      "maximum_covered_receivers": 54,
+      "minimum_ell": 114,
+      "maximizing_classes": [
+        2,
+        3,
+        6,
+        8,
+        9,
+        12,
+        13
+      ],
+      "actual_scalar_quotient": 6
+    },
+    {
+      "rank_cap": 7,
+      "maximum_covered_receivers": 63,
+      "minimum_ell": 96,
+      "maximizing_classes": [
+        0,
+        1,
+        3,
+        6,
+        7,
+        10,
+        12,
+        13
+      ],
+      "actual_scalar_quotient": 7
+    },
+    {
+      "rank_cap": 8,
+      "maximum_covered_receivers": 71,
+      "minimum_ell": 80,
+      "maximizing_classes": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7,
+        10,
+        12,
+        13
+      ],
+      "actual_scalar_quotient": 8
+    },
+    {
+      "rank_cap": 9,
+      "maximum_covered_receivers": 85,
+      "minimum_ell": 52,
+      "maximizing_classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        12,
+        13
+      ],
+      "actual_scalar_quotient": 9
+    },
+    {
+      "rank_cap": 10,
+      "maximum_covered_receivers": 111,
+      "minimum_ell": 0,
+      "maximizing_classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "actual_scalar_quotient": 10
+    }
+  ],
+  "tensor_attainments": [
+    {
+      "scalar_rank_cap": 0,
+      "V": 1,
+      "quotient": 0,
+      "ell": 222
+    },
+    {
+      "scalar_rank_cap": 0,
+      "V": 2,
+      "quotient": 0,
+      "ell": 222
+    },
+    {
+      "scalar_rank_cap": 0,
+      "V": 3,
+      "quotient": 0,
+      "ell": 222
+    },
+    {
+      "scalar_rank_cap": 0,
+      "V": 5,
+      "quotient": 0,
+      "ell": 222
+    },
+    {
+      "scalar_rank_cap": 1,
+      "V": 1,
+      "quotient": 1,
+      "ell": 206
+    },
+    {
+      "scalar_rank_cap": 1,
+      "V": 2,
+      "quotient": 2,
+      "ell": 206
+    },
+    {
+      "scalar_rank_cap": 1,
+      "V": 3,
+      "quotient": 3,
+      "ell": 206
+    },
+    {
+      "scalar_rank_cap": 1,
+      "V": 5,
+      "quotient": 5,
+      "ell": 206
+    },
+    {
+      "scalar_rank_cap": 2,
+      "V": 1,
+      "quotient": 2,
+      "ell": 190
+    },
+    {
+      "scalar_rank_cap": 2,
+      "V": 2,
+      "quotient": 4,
+      "ell": 190
+    },
+    {
+      "scalar_rank_cap": 2,
+      "V": 3,
+      "quotient": 6,
+      "ell": 190
+    },
+    {
+      "scalar_rank_cap": 2,
+      "V": 5,
+      "quotient": 10,
+      "ell": 190
+    },
+    {
+      "scalar_rank_cap": 10,
+      "V": 1,
+      "quotient": 10,
+      "ell": 0
+    },
+    {
+      "scalar_rank_cap": 10,
+      "V": 2,
+      "quotient": 20,
+      "ell": 0
+    },
+    {
+      "scalar_rank_cap": 10,
+      "V": 3,
+      "quotient": 30,
+      "ell": 0
+    },
+    {
+      "scalar_rank_cap": 10,
+      "V": 5,
+      "quotient": 50,
+      "ell": 0
+    }
+  ],
+  "line_free_control": {
+    "quotient_dimension": 3,
+    "enabled_classes": [],
+    "ell": 222,
+    "receiver_matrix_cases": 1776,
+    "nonzero_singular_cases": 999
+  },
+  "partial_second_line_control": {
+    "quotient_dimension": 3,
+    "enabled_classes": [
+      0
+    ],
+    "ell": 206,
+    "receiver_matrix_cases": 1776,
+    "nonzero_singular_cases": 999
+  },
+  "negative_controls": [
+    "nonzero singular M does not erase a whole block",
+    "one class line cannot cover16 receivers",
+    "206 does not extend to d=2V"
+  ],
+  "classification": "fixed native rank certificate supporting the universal proof; no physical source or new kappa",
+  "new_kappa": null
+}

@@ -335,3 +335,11 @@ The cumulative programme now distinguishes cardinality savings from actual prope
 A universal width-two pencil theorem excludes quotient dimension<=3 and scalar envelope<=3 at charge197 over every characteristic-two field. On the complex side, a new paid-history macro and checked400-input source remove52 paired residual coefficients while preserving the old modes, all original D fields and all24 moving lifetimes. The added movement moment is1.200300643665517; residualrank96 remains. Full source code, exact certificates, independent reviews, negative controls and reproduction commands are in the four checkpoint4 admissions.
 
 Baseline for these additions: db6e513c96cb8ceea10c1071b26a7db1de9fe008. Credit @CubeJerry, Workers A/B/C, root review and all pinned predecessors; OpenAI assistance disclosed. **No new kappa.** This remains an ongoing programme, not a completed supplier or PR-ready submission.
+
+## Integrated sharp proper-cover capacity and operator consequences
+
+The cumulative contribution now proves sharp scalar proper-cover saving14 on the native111-port source, over every characteristic-two field. Complete finite geometry resolves the universal gluing cases; independent methods verify8,737 exact minors. A separate generic-functional bridge yields operator incidence and filtration bounds and excludes near-width/MDS pure-tensor target quotients below2V. Other non-MDS and entangled cases remain open. The native entangled chain and class reservoir provide exact controls, including the essential distinction ell216/gamma219/chi220 and the rank11 class boundary.
+
+On the complex source, canonical Gram plus one V-row field can complete at most eight receivers with one proper local chart each. A narrowly stated rank8/no-refund route family then exceeds the full movement allowance. Proper-born paired source changes remain outside that obstruction and are being developed separately. All proofs, reviews, exact certificates, costs, negative controls and reproduction instructions are linked in the seven checkpoint5 admissions.
+
+Baseline:7a2077783c3e4a7bb879475d65a6623b6618b452. Credit @CubeJerry, Workers A/B/C, root and all pinned scalar/native/rigidity predecessors; OpenAI assistance disclosed. **No new kappa.** Both suppliers and five foundations remain open. The branch remains an ongoing programme, not a ready upstream submission.

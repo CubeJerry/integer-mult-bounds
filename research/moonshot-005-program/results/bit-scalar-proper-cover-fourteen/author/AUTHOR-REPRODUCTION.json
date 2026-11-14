@@ -1,0 +1,51 @@
+{
+  "status": "PASS_ISOLATED_SHARP_FOURTEEN_AUTHOR_REPRODUCTION",
+  "commands": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/root-work/scalar-proper-cover-fourteen/author/census_rank3.py",
+        "--repo",
+        "/workspace/scratch/82e30be26b31/programme",
+        "--output",
+        "/workspace/scratch/82e30be26b31/root-work/scalar-fourteen-author-replay/census"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/root-work/scalar-proper-cover-fourteen/author/census_cliques.py",
+        "--native",
+        "/workspace/scratch/82e30be26b31/programme/research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz",
+        "--output",
+        "/workspace/scratch/82e30be26b31/root-work/scalar-fourteen-author-replay/census/CLIQUE-CASES.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-I",
+        "-B",
+        "/workspace/scratch/82e30be26b31/root-work/scalar-proper-cover-fourteen/author/certify.py",
+        "--native",
+        "/workspace/scratch/82e30be26b31/programme/research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz",
+        "--rank3",
+        "/workspace/scratch/82e30be26b31/root-work/scalar-fourteen-author-replay/census/RANK3-CASES.json",
+        "--cliques",
+        "/workspace/scratch/82e30be26b31/root-work/scalar-fourteen-author-replay/census/CLIQUE-CASES.json",
+        "--output",
+        "/workspace/scratch/82e30be26b31/root-work/scalar-fourteen-author-replay/output"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "exact_minors": 8737,
+  "canonical_payloads_identical": true,
+  "scope": "Author reproduction, not independent review; gzip containers may vary by runtime."
+}

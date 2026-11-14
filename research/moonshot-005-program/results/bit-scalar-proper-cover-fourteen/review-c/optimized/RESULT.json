@@ -1,0 +1,115 @@
+{
+  "status": "PASS_INDEPENDENT_SHARP_PROPER_COVER_FOURTEEN",
+  "reviewed_proof_sha256": "fb861bffc473928cd872a8248096b092e85c657969459147b0cef5821ab83da2",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "author_cases_sha256": "7567810dd8eab8add727a5d2e4371cb6af588d4e61630e62c43a07f7f5b45932",
+  "author_minors_sha256": "50672f8b51043afd72b9f35d3880a94e253679995a9eb03970c809aad7dc19fc",
+  "analytic_parameter_cases": 569,
+  "ten_critical_cases": [
+    [
+      3,
+      5,
+      0,
+      20
+    ],
+    [
+      3,
+      6,
+      0,
+      20
+    ],
+    [
+      4,
+      4,
+      2,
+      16
+    ],
+    [
+      4,
+      4,
+      3,
+      18
+    ],
+    [
+      4,
+      4,
+      4,
+      20
+    ],
+    [
+      4,
+      5,
+      2,
+      16
+    ],
+    [
+      5,
+      5,
+      5,
+      16
+    ],
+    [
+      6,
+      6,
+      6,
+      15
+    ],
+    [
+      7,
+      7,
+      7,
+      15
+    ],
+    [
+      8,
+      8,
+      8,
+      16
+    ]
+  ],
+  "independent_rank3_census": {
+    "independent_triples": 220934,
+    "actual_rank3_flats": 74396,
+    "width_cases": 11761,
+    "threshold15_cases": 94
+  },
+  "independent_clique_and_mixed_census": {
+    "orthogonal_counts": {
+      "1": 111,
+      "2": 3235,
+      "3": 29939,
+      "4": 90079,
+      "5": 77003,
+      "6": 35667,
+      "7": 9443,
+      "8": 1094
+    },
+    "max_common": {
+      "5": 3,
+      "6": 2
+    },
+    "mixed_configurations": 663805,
+    "mixed_max_common": 6,
+    "mixed_witness": [
+      1,
+      3,
+      0,
+      14
+    ]
+  },
+  "exact_integer_determinants_verified": 8737,
+  "CRT_primes": [
+    1000000007,
+    1000000009
+  ],
+  "determinant_absolute_Hadamard_bound": "72057594037927936",
+  "independent_facet_minors_sha256": "f0d4e38ebf4114a8f7942d4bec04ff63aa2fe445702435dd2883d542477e69a5",
+  "canonical_quadratic_rank28_cases": 111,
+  "sharp_positive_chi_saving": 14,
+  "negative_controls": [
+    "duplicated source row",
+    "altered claimed determinant"
+  ],
+  "classification": "complete independent finite source premises plus separately reviewed all-field proof; no new kappa",
+  "new_kappa": null
+}

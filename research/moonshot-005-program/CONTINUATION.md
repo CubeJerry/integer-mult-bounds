@@ -6,7 +6,11 @@ PROGRAMME, TARGET-005, OBLIGATIONS and latest append-only SESSION-LOG. Check
 canonical changes since its recorded SHA. Baseline hashes are not self hashes.
 Keep the protected mathematics-first allocation in PROGRAMME active.
 
-## Latest S012 checkpoint4 frontier (supersedes older priorities below)
+## Latest S012 checkpoint5 frontier
+
+Sharp scalar proper-cover capacity is14. Near-width and MDS pure-tensor quotients below2V cannot reach the retained target; other non-MDS and genuinely entangled spaces remain open. Binary four-direction chains are excluded, while larger-field exceptional types are under structural investigation. Class boundaries must pass actual fitting-rank and acquisition bills. Continue funded changed-history complex construction and actual original-route acquisition; independently review the proper-born cohort sources next. The higher-label tensor-native idea from open PR7583 is only a complete-budget preflight, not an adopted supplier. Both strict suppliers and all five foundations remain open.
+
+## S012 checkpoint4 frontier (historical, refined below and above)
 
 Build distributed original-X recoding before Hub or a genuinely nonlocal paired complex history. Fixed post-Hub prefixes have severe facet caps, and the low-cardinality two-patch and seven-coordinate codes fail geometric charge. Do not repeat these families as prospective physical suppliers. The paid complex prefix is real and reviewed but leaves residualrank96. Width-two quotient3 designs need scalar envelope>=4. Review each admission for exact scope, then continue the actual acquisition/completion obligation. No new kappa; S011 remains concurrently active.
 

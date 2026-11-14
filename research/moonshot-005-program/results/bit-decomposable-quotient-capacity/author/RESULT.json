@@ -1,0 +1,232 @@
+{
+  "status": "PASS_DECOMPOSABLE_QUOTIENT_CAPACITY_CONTROLS",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "binary_near_width_exhaustion": [
+    {
+      "V": 3,
+      "r": 4,
+      "value_family": "MDS",
+      "cases": 4096,
+      "identity_span_cases": {
+        "3": 4,
+        "4": 32
+      }
+    },
+    {
+      "V": 3,
+      "r": 4,
+      "value_family": "non_MDS_distinct",
+      "cases": 4096,
+      "identity_span_cases": {
+        "3": 3,
+        "4": 26
+      }
+    }
+  ],
+  "MDS_F4": {
+    "field_order": 4,
+    "V": 3,
+    "r": 5,
+    "right_inverses": 4096,
+    "active_count_census": {
+      "3": 10,
+      "4": 300,
+      "5": 3786
+    },
+    "values": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "boundary_V2_r4": {
+      "values": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "left_columns": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "coefficient_rank": 3,
+      "identity_in_span": true
+    }
+  },
+  "further_widths": [
+    {
+      "V": 2,
+      "r": 3,
+      "right_inverses_checked": 4,
+      "exhaustive_right_inverse_family": true,
+      "saving_cap": 25
+    },
+    {
+      "V": 3,
+      "r": 4,
+      "right_inverses_checked": 8,
+      "exhaustive_right_inverse_family": true,
+      "saving_cap": 22
+    },
+    {
+      "V": 4,
+      "r": 5,
+      "right_inverses_checked": 16,
+      "exhaustive_right_inverse_family": true,
+      "saving_cap": 21
+    },
+    {
+      "V": 8,
+      "r": 9,
+      "right_inverses_checked": 256,
+      "exhaustive_right_inverse_family": true,
+      "saving_cap": 19
+    },
+    {
+      "V": 17,
+      "r": 18,
+      "right_inverses_checked": 98,
+      "exhaustive_right_inverse_family": false,
+      "saving_cap": 18
+    }
+  ],
+  "native_all_width_controls": {
+    "shared_patch": [
+      2,
+      3,
+      4,
+      5,
+      14,
+      16,
+      18,
+      20,
+      34,
+      35,
+      36,
+      37,
+      46,
+      48,
+      49,
+      50,
+      62,
+      63,
+      64,
+      65,
+      73,
+      75,
+      77,
+      79,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      103
+    ],
+    "tips": [
+      105,
+      107,
+      109
+    ],
+    "controls": [
+      {
+        "V": 2,
+        "quotient_dimension": 3,
+        "ell": 216,
+        "scalar_envelope_dimension": 3,
+        "indexed_scalar_charge_sum": 12,
+        "actual_saving": 6,
+        "scalar_modes_are_dependent": false
+      },
+      {
+        "V": 3,
+        "quotient_dimension": 4,
+        "ell": 216,
+        "scalar_envelope_dimension": 4,
+        "indexed_scalar_charge_sum": 18,
+        "actual_saving": 6,
+        "scalar_modes_are_dependent": false
+      },
+      {
+        "V": 4,
+        "quotient_dimension": 5,
+        "ell": 216,
+        "scalar_envelope_dimension": 4,
+        "indexed_scalar_charge_sum": 24,
+        "actual_saving": 6,
+        "scalar_modes_are_dependent": true
+      },
+      {
+        "V": 8,
+        "quotient_dimension": 9,
+        "ell": 216,
+        "scalar_envelope_dimension": 4,
+        "indexed_scalar_charge_sum": 48,
+        "actual_saving": 6,
+        "scalar_modes_are_dependent": true
+      },
+      {
+        "V": 17,
+        "quotient_dimension": 18,
+        "ell": 216,
+        "scalar_envelope_dimension": 4,
+        "indexed_scalar_charge_sum": 102,
+        "actual_saving": 6,
+        "scalar_modes_are_dependent": true
+      }
+    ]
+  },
+  "classification": "exact finite controls for all-field proofs; no physical source or new kappa",
+  "new_kappa": null
+}
