@@ -81,3 +81,7 @@ The full per-wire forward/inverse loop is now literal, with exact current-wire s
 ## Wave8 progress and candidate boundary
 
 The complete selected first gap now has literal signed half-copy and both public ADDs; initial acquisition and later owned-lifetime events remain open. B7 all-record key emission is author-verified but not yet independently admitted. A8 investigates whether two-sided diagonal gauges can bypass the specified Gaussian cycle obstruction; normalized pair products cancel both gauges. B8 audits whether compiler closure has a distinct uncovered implication under the exact retained contracts. Neither candidate changes any full assumption yet.
+
+## Wave9 exact opportunity update
+
+All-record fixed-ABI CRT key emission now composes literally with the per-wire controller. Source headers, numerical acquisition and radix remain separate; B9 targets exactly the physical header/retirement seam, including arbitrary long skipped prefixes. A8 closes the diagonal-gauge and finite-inverse-error symmetry interfaces on matching physical square blocks, not global source production or arbitrary rank. The compiler reduction is already proved under retained primitive hypotheses; the next missing work must bind actual families, not repeat generic finite scheduling. The apparent full-cell rounding gap is superseded by paid setup precision in1786/1797. Generic all-order Gaussian rank is a fresh candidate; actual constrained source parameters and quantitative margins remain open.

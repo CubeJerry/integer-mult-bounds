@@ -57,3 +57,11 @@ Candidate aggregate phase-gap extension not allocated: actual retained gauge ide
 C7 complete selected first gap published as5584607a0a19c62173841df712e655ff8c0d6160, tree9da7e9ccc5926c90d7544f2733ad894412213ff1. Four registered commands,42origins,complete archive/28042-event source walk,committed bytes/modes and67-file science export/44inputs passed. Final68-file remote tree equals local; only package additions. Short compareHTTP200. One reviewer EOF blank was removed, AST equality checked, both modes rerun with unchanged receipt. No scientific source change.
 
 B7 author freeze:21135 instructions/22owners, exact added N(156h+126)+18h+203; fixed13-bit payload ABI and identity-key roundtrip boundary explicit. C independently reviewing. A8 approved for source-bound diagonal-gauge and monomial cycle theorem; narrow physical M=delta=1 and broad diagonal floor are proposed source leads, still unverified. B8 traces exact compiler assumption dependency, excluding generic dispatcher recreation.
+
+## Checkpoint11: eighteen verified branches; wave9 active
+
+B7 published f789e7318ef89b26c2e358c4c1eb09ce93d21f73,72 package additions; A8 published85c29864062620f16e428c12f291f63632dd5a66,21 package additions. Each remote full tree matches its gated local tree, exact canonical parent verified, no unrelated deletions. All18 concise prefilled title/body URLs now return200 with preserved queries and intended branch. Signed-in form rendering was not tested.
+
+B8 compiler audit found the scoped reduction already present in6878/current7000 and generic7565; no duplicate PR. C9 precision audit found1786/1797 already distinguish high-precision setup from onlineCp, resolving the apparent old full-cell bound mismatch; no negative theorem claimed. B9 meter audit confirms all592 prior native header actions were included.
+
+A9 proposes a material generic all-order rank lower bound2ceil((T+3)/5), with root counting and inverse-Schur-complement checks; formal package and independent C review remain pending. B9 literal headers21513/27 are under primary and independent root verification. Neither unfinished candidate is published. All five assumptions and selected kappa remain unchanged.
