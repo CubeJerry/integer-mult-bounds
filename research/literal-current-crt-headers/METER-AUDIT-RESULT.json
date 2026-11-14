@@ -1,0 +1,195 @@
+{
+  "status": "PASS_NO_HEADER_METER_OMISSION",
+  "scientific_predecessor": "f789e7318ef89b26c2e358c4c1eb09ce93d21f73",
+  "cause": "Bank.open supplies adapter.Port=Bank.take; guide is bank[0], result is bank[62], both included in numerical tuple.",
+  "cases": [
+    {
+      "bank_indices": {
+        "source": null,
+        "axis": null,
+        "guide": 0,
+        "result": 62,
+        "scratch_width": null
+      },
+      "header_actions": {
+        "source": {
+          "reads": 98,
+          "writes": 0,
+          "moves": 94
+        },
+        "axis": {
+          "reads": 8,
+          "writes": 0,
+          "moves": 6
+        },
+        "guide": {
+          "reads": 52,
+          "writes": 0,
+          "moves": 48
+        },
+        "result": {
+          "reads": 15,
+          "writes": 0,
+          "moves": 16
+        },
+        "scratch_width": {
+          "reads": 115,
+          "writes": 22,
+          "moves": 118
+        }
+      },
+      "included_in_old_source_meter": {
+        "source": true,
+        "axis": true,
+        "guide": true,
+        "result": true,
+        "scratch_width": true
+      },
+      "omitted_header_native_actions": 0,
+      "case": "exact_7388",
+      "direction": "forward",
+      "old_encoded_source_symbol_actions": 113295
+    },
+    {
+      "bank_indices": {
+        "source": null,
+        "axis": null,
+        "guide": 0,
+        "result": 62,
+        "scratch_width": null
+      },
+      "header_actions": {
+        "source": {
+          "reads": 98,
+          "writes": 0,
+          "moves": 94
+        },
+        "axis": {
+          "reads": 8,
+          "writes": 0,
+          "moves": 6
+        },
+        "guide": {
+          "reads": 52,
+          "writes": 0,
+          "moves": 48
+        },
+        "result": {
+          "reads": 15,
+          "writes": 0,
+          "moves": 16
+        },
+        "scratch_width": {
+          "reads": 115,
+          "writes": 22,
+          "moves": 118
+        }
+      },
+      "included_in_old_source_meter": {
+        "source": true,
+        "axis": true,
+        "guide": true,
+        "result": true,
+        "scratch_width": true
+      },
+      "omitted_header_native_actions": 0,
+      "case": "exact_7388",
+      "direction": "inverse",
+      "old_encoded_source_symbol_actions": 372489
+    },
+    {
+      "bank_indices": {
+        "source": null,
+        "axis": null,
+        "guide": 0,
+        "result": 62,
+        "scratch_width": null
+      },
+      "header_actions": {
+        "source": {
+          "reads": 98,
+          "writes": 0,
+          "moves": 94
+        },
+        "axis": {
+          "reads": 8,
+          "writes": 0,
+          "moves": 6
+        },
+        "guide": {
+          "reads": 52,
+          "writes": 0,
+          "moves": 48
+        },
+        "result": {
+          "reads": 15,
+          "writes": 0,
+          "moves": 16
+        },
+        "scratch_width": {
+          "reads": 115,
+          "writes": 22,
+          "moves": 118
+        }
+      },
+      "included_in_old_source_meter": {
+        "source": true,
+        "axis": true,
+        "guide": true,
+        "result": true,
+        "scratch_width": true
+      },
+      "omitted_header_native_actions": 0,
+      "case": "current_wire_sensitive",
+      "direction": "forward",
+      "old_encoded_source_symbol_actions": 118045
+    },
+    {
+      "bank_indices": {
+        "source": null,
+        "axis": null,
+        "guide": 0,
+        "result": 62,
+        "scratch_width": null
+      },
+      "header_actions": {
+        "source": {
+          "reads": 98,
+          "writes": 0,
+          "moves": 94
+        },
+        "axis": {
+          "reads": 8,
+          "writes": 0,
+          "moves": 6
+        },
+        "guide": {
+          "reads": 52,
+          "writes": 0,
+          "moves": 48
+        },
+        "result": {
+          "reads": 15,
+          "writes": 0,
+          "moves": 16
+        },
+        "scratch_width": {
+          "reads": 115,
+          "writes": 22,
+          "moves": 118
+        }
+      },
+      "included_in_old_source_meter": {
+        "source": true,
+        "axis": true,
+        "guide": true,
+        "result": true,
+        "scratch_width": true
+      },
+      "omitted_header_native_actions": 0,
+      "case": "current_wire_sensitive",
+      "direction": "inverse",
+      "old_encoded_source_symbol_actions": 360151
+    }
+  ]
+}

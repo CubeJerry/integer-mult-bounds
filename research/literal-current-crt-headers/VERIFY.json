@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/literal-current-crt-headers/inputs/keypass/key_pass.py",
+    "research/literal-current-crt-headers/inputs/keypass/hardware.py",
+    "research/literal-current-crt-headers/inputs/keypass/join.py",
+    "research/literal-current-crt-headers/inputs/keypass/verify.py",
+    "research/literal-current-crt-headers/inputs/keypass/RESULT.json",
+    "research/literal-current-crt-headers/inputs/keypass/SOURCE-PINS.json",
+    "research/literal-current-crt-headers/inputs/keypass/NOTICE.md",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/RESULT.json",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/verify.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/join.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/hardware.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/controller.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/PROOF.md",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/SOURCE-PINS.json",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/LICENSE",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/NOTICE.md",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/RESULT.json",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/verify.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/hardware.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/adapter.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/PROOF.md",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/SOURCE-PINS.json",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/caller.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/LICENSE",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/NOTICE.md",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/switch/switch.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/switch/PROOF.md",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/switch/check_batched_crt.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/switch/NOTICE.md",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/reference/rom-PROOF.md",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/reference/radix-PROOF.md",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/reference/7352-PROOF.md",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/reference/canonical-NOTICE.md",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-entry-lifecycle/entry.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/crt-binary-radix-consumer/radix.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/crt-encoded-benes-rom-producer/microcode.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/crt-current-row-query/join.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/crt-persistent-numerical-owner/owner.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/README.md",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/RESULT.json",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/replay.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/route.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/INPUT-PINS.json",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/crt-binary-key-port/binary.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/crt-paid-row-reentry/RESULT.json",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/encoded-current-crt/producer.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/crt-mixed-row-entry/bridge.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/crt-uniform-rom-query/machine.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/inverse_frontend.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/inverse_producer.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/endpoint.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/frontend.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/r437-preparation-composition/predecessor4025/source/records.py",
+    "research/literal-current-crt-headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/r437-preparation-composition/predecessor4025/source/words.py",
+    "research/literal-current-crt-headers/inputs/keypass/PROOF.md",
+    "research/literal-current-crt-headers/inputs/keypass/LICENSE",
+    "research/literal-current-crt-headers/LICENSE"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "56 exact inputs;21135 unchanged child instructions;61 header packets with exact source outputs/cost/history;two actual full source/payload sorted roundtrips;21 returning/ABI/source controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "-O",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "56 exact inputs;21135 unchanged child instructions;61 header packets with exact source outputs/cost/history;two actual full source/payload sorted roundtrips;21 returning/ABI/source controls. Optimized mode."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/meter_audit.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Exact retained guide/result Bank.take aliases, four original caller legs,592 included old header actions and zero omission."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/review/independent_check.py",
+        "--package",
+        "{package}"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Separate sparse engine,14 header cases, four complete child joins, exact native/history invoices,56 pins,21135 relocation rows and11 returning/binding controls. Normal."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "-O",
+        "{package}/review/independent_check.py",
+        "--package",
+        "{package}"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Separate sparse engine,14 header cases, four complete child joins, exact native/history invoices,56 pins,21135 relocation rows and11 returning/binding controls. Optimized."
+    }
+  ]
+}
