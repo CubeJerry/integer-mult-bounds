@@ -103,3 +103,7 @@ The five-row result relies on a pinned large lane enumeration and an orbit state
 ## S012 checkpoint6: consequence of the P104 tensor lead
 
 The row-model tensor observation in open CrocSwap#7583 was used as a lead, not imported as an accepted supplier. The programme independently derives exact retained-caller and rectangular-rank constraints that exclude its direct square tensor budget and the retained18-stage direct factor family. The legal two-label factor motivates a shorter actual caller; no shared-ascent or changed-source impossibility is inferred. Canonical/source pins remain distinct, and the selected certificate is unchanged.
+
+## S012 checkpoint7: predecessor recovery
+
+Two authenticated but unpublished S011checkpoint12 packages are recovered with original credit and scope correction. The unfinished relay remains under review. A planned session end was not evidence of continuing execution; state now distinguishes confirmed remote commits from recovered local evidence. Stale S011 top-level files were not merged. The short caller retains its credited chain, whole-idle and three-query predecessors. Current canonical/source pins and selected certificate are unchanged.

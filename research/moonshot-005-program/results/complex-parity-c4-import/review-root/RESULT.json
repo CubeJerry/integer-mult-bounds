@@ -1,0 +1,1373 @@
+{
+  "status": "PASS_INDEPENDENT_C4_AND_REAL_IMPORT_REVIEW",
+  "proof_sha256": "0ca673d3c07db694d24180c992ec73c19975594717a50ac4fc1cbeafcd8e04ce",
+  "variants": [
+    {
+      "variant": "base",
+      "word_sha256": "24962e2c3ee68dac4398bd6e5d63ce0607805ed164219d205b33455cf9691718",
+      "all400_rows": true,
+      "all_endpoint_ids": true,
+      "input_rank": 400,
+      "paired_entries": 9216,
+      "raw": {
+        "1": 312,
+        "2": 112,
+        "3": 288,
+        "5": 200,
+        "4": 200
+      },
+      "owned": {
+        "1": 8,
+        "8": 16
+      },
+      "counts": {
+        "INIT": 128,
+        "ADD": 2932,
+        "MOVE": 1136,
+        "CLEAR": 128,
+        "SCALE": 252
+      },
+      "peak": 112,
+      "lifetimes": 128,
+      "dirty_retirements": 128,
+      "geometric_stations": [
+        {
+          "half": [
+            0,
+            7,
+            27,
+            57
+          ],
+          "sources": [
+            81,
+            87,
+            92
+          ],
+          "receivers": [
+            0,
+            7,
+            27,
+            57
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            81,
+            87,
+            92
+          ],
+          "sources": [
+            0,
+            7,
+            27,
+            57
+          ],
+          "receivers": [
+            81,
+            87,
+            92
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            1,
+            6,
+            28,
+            58
+          ],
+          "sources": [
+            75,
+            82,
+            86
+          ],
+          "receivers": [
+            1,
+            6,
+            28,
+            58
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            75,
+            82,
+            86
+          ],
+          "sources": [
+            1,
+            6,
+            28,
+            58
+          ],
+          "receivers": [
+            75,
+            82,
+            86
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            30,
+            60,
+            74,
+            83
+          ],
+          "sources": [
+            29,
+            59,
+            73,
+            84
+          ],
+          "receivers": [
+            30,
+            60,
+            74,
+            83
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            29,
+            59,
+            73,
+            84
+          ],
+          "sources": [
+            30,
+            60,
+            74,
+            83
+          ],
+          "receivers": [
+            29,
+            59,
+            73,
+            84
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            2,
+            9,
+            25
+          ],
+          "sources": [
+            72,
+            79,
+            89,
+            94
+          ],
+          "receivers": [
+            2,
+            9,
+            25
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            72,
+            79,
+            89,
+            94
+          ],
+          "sources": [
+            2,
+            9,
+            25
+          ],
+          "receivers": [
+            72,
+            79,
+            89,
+            94
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            11,
+            63,
+            71,
+            90
+          ],
+          "sources": [
+            10,
+            62,
+            70,
+            91
+          ],
+          "receivers": [
+            11,
+            63,
+            71,
+            90
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            10,
+            62,
+            70,
+            91
+          ],
+          "sources": [
+            11,
+            63,
+            71,
+            90
+          ],
+          "receivers": [
+            10,
+            62,
+            70,
+            91
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            5,
+            65,
+            69,
+            96
+          ],
+          "sources": [
+            4,
+            64,
+            68,
+            97
+          ],
+          "receivers": [
+            5,
+            65,
+            69,
+            96
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            4,
+            64,
+            68,
+            97
+          ],
+          "sources": [
+            5,
+            65,
+            69,
+            96
+          ],
+          "receivers": [
+            4,
+            64,
+            68,
+            97
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            8,
+            26,
+            67
+          ],
+          "sources": [
+            66,
+            80,
+            88,
+            95
+          ],
+          "receivers": [
+            8,
+            26,
+            67
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            66,
+            80,
+            88,
+            95
+          ],
+          "sources": [
+            8,
+            26,
+            67
+          ],
+          "receivers": [
+            66,
+            80,
+            88,
+            95
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            19,
+            40,
+            55,
+            101
+          ],
+          "sources": [
+            18,
+            54,
+            102
+          ],
+          "receivers": [
+            19,
+            40,
+            55,
+            101
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            18,
+            54,
+            102
+          ],
+          "sources": [
+            19,
+            40,
+            55,
+            101
+          ],
+          "receivers": [
+            18,
+            54,
+            102
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            12,
+            17,
+            31,
+            38
+          ],
+          "sources": [
+            56,
+            77,
+            100,
+            103
+          ],
+          "receivers": [
+            12,
+            17,
+            31,
+            38
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            56,
+            77,
+            100,
+            103
+          ],
+          "sources": [
+            12,
+            17,
+            31,
+            38
+          ],
+          "receivers": [
+            56,
+            77,
+            100,
+            103
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            13,
+            16,
+            44,
+            51
+          ],
+          "sources": [
+            43,
+            78,
+            99,
+            104
+          ],
+          "receivers": [
+            13,
+            16,
+            44,
+            51
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            43,
+            78,
+            99,
+            104
+          ],
+          "sources": [
+            13,
+            16,
+            44,
+            51
+          ],
+          "receivers": [
+            43,
+            78,
+            99,
+            104
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            15,
+            42,
+            53,
+            105
+          ],
+          "sources": [
+            41,
+            52,
+            106
+          ],
+          "receivers": [
+            15,
+            42,
+            53,
+            105
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            41,
+            52,
+            106
+          ],
+          "sources": [
+            15,
+            42,
+            53,
+            105
+          ],
+          "receivers": [
+            41,
+            52,
+            106
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            32,
+            35,
+            45,
+            48
+          ],
+          "sources": [
+            24,
+            85,
+            98,
+            107
+          ],
+          "receivers": [
+            32,
+            35,
+            45,
+            48
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            24,
+            85,
+            98,
+            107
+          ],
+          "sources": [
+            32,
+            35,
+            45,
+            48
+          ],
+          "receivers": [
+            24,
+            85,
+            98,
+            107
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            23,
+            50,
+            108
+          ],
+          "sources": [
+            22,
+            33,
+            49,
+            109
+          ],
+          "receivers": [
+            23,
+            50,
+            108
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            22,
+            33,
+            49,
+            109
+          ],
+          "sources": [
+            23,
+            50,
+            108
+          ],
+          "receivers": [
+            22,
+            33,
+            49,
+            109
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            37,
+            47,
+            110
+          ],
+          "sources": [
+            20,
+            36,
+            46,
+            111
+          ],
+          "receivers": [
+            37,
+            47,
+            110
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            20,
+            36,
+            46,
+            111
+          ],
+          "sources": [
+            37,
+            47,
+            110
+          ],
+          "receivers": [
+            20,
+            36,
+            46,
+            111
+          ],
+          "rank": 4
+        }
+      ],
+      "codec_determinants": [
+        "-1",
+        "-1",
+        "1",
+        "1",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "-1/2",
+        "-1/2",
+        "-1/2",
+        "-1/2",
+        "-1/2",
+        "-1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "before_chronology_checks": {
+        "correction_sources": 384,
+        "local_reverse": 324,
+        "reverse_consumers": 384,
+        "forward_consumers": 56,
+        "cache_reads": 104
+      },
+      "after_chronology_checks": {
+        "D_class_restore": 14,
+        "reverse_bank": 1,
+        "half_caches": 28,
+        "X_D_endpoints": 1,
+        "forward_bank": 1,
+        "Y_class_decode": 14
+      },
+      "current_a_debt": 4608,
+      "original_coordinate_debt": 4962,
+      "hosted_residual_rank": 56,
+      "specified_exported_history_rank": 8,
+      "new_ordered_chart_pairs": 264,
+      "phase_reproduction": {
+        "interpreter_sha256": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38",
+        "wrong_global_phase_rejected": true,
+        "classification": "retained interpreter reproduction, not a new independent phase algorithm"
+      },
+      "negative_controls": [
+        "correction_sources",
+        "local_reverse_reads",
+        "old_reverse_consumers",
+        "old_forward_reads",
+        "correction_reads"
+      ]
+    },
+    {
+      "variant": "imported",
+      "word_sha256": "ffb3b895a928c13dc62e9ce73cf41e7db821cdb24eb5f8769369ebb20571120c",
+      "all400_rows": true,
+      "all_endpoint_ids": true,
+      "input_rank": 400,
+      "paired_entries": 9216,
+      "raw": {
+        "1": 312,
+        "2": 112,
+        "3": 288,
+        "5": 200,
+        "4": 200
+      },
+      "owned": {
+        "1": 9,
+        "8": 16
+      },
+      "counts": {
+        "INIT": 128,
+        "ADD": 2978,
+        "MOVE": 1137,
+        "CLEAR": 128,
+        "SCALE": 252
+      },
+      "peak": 112,
+      "lifetimes": 128,
+      "dirty_retirements": 128,
+      "geometric_stations": [
+        {
+          "half": [
+            0,
+            7,
+            27,
+            57
+          ],
+          "sources": [
+            81,
+            87,
+            92
+          ],
+          "receivers": [
+            0,
+            7,
+            27,
+            57
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            81,
+            87,
+            92
+          ],
+          "sources": [
+            0,
+            7,
+            27,
+            57
+          ],
+          "receivers": [
+            81,
+            87,
+            92
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            1,
+            6,
+            28,
+            58
+          ],
+          "sources": [
+            75,
+            82,
+            86
+          ],
+          "receivers": [
+            1,
+            6,
+            28,
+            58
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            75,
+            82,
+            86
+          ],
+          "sources": [
+            1,
+            6,
+            28,
+            58
+          ],
+          "receivers": [
+            75,
+            82,
+            86
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            30,
+            60,
+            74,
+            83
+          ],
+          "sources": [
+            29,
+            59,
+            73,
+            84
+          ],
+          "receivers": [
+            30,
+            60,
+            74,
+            83
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            29,
+            59,
+            73,
+            84
+          ],
+          "sources": [
+            30,
+            60,
+            74,
+            83
+          ],
+          "receivers": [
+            29,
+            59,
+            73,
+            84
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            2,
+            9,
+            25
+          ],
+          "sources": [
+            72,
+            79,
+            89,
+            94
+          ],
+          "receivers": [
+            2,
+            9,
+            25
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            72,
+            79,
+            89,
+            94
+          ],
+          "sources": [
+            2,
+            9,
+            25
+          ],
+          "receivers": [
+            72,
+            79,
+            89,
+            94
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            11,
+            63,
+            71,
+            90
+          ],
+          "sources": [
+            10,
+            62,
+            70,
+            91
+          ],
+          "receivers": [
+            11,
+            63,
+            71,
+            90
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            10,
+            62,
+            70,
+            91
+          ],
+          "sources": [
+            11,
+            63,
+            71,
+            90
+          ],
+          "receivers": [
+            10,
+            62,
+            70,
+            91
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            5,
+            65,
+            69,
+            96
+          ],
+          "sources": [
+            4,
+            64,
+            68,
+            97
+          ],
+          "receivers": [
+            5,
+            65,
+            69,
+            96
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            4,
+            64,
+            68,
+            97
+          ],
+          "sources": [
+            5,
+            65,
+            69,
+            96
+          ],
+          "receivers": [
+            4,
+            64,
+            68,
+            97
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            8,
+            26,
+            67
+          ],
+          "sources": [
+            66,
+            80,
+            88,
+            95
+          ],
+          "receivers": [
+            8,
+            26,
+            67
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            66,
+            80,
+            88,
+            95
+          ],
+          "sources": [
+            8,
+            26,
+            67
+          ],
+          "receivers": [
+            66,
+            80,
+            88,
+            95
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            19,
+            40,
+            55,
+            101
+          ],
+          "sources": [
+            18,
+            54,
+            102
+          ],
+          "receivers": [
+            19,
+            40,
+            55,
+            101
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            18,
+            54,
+            102
+          ],
+          "sources": [
+            19,
+            40,
+            55,
+            101
+          ],
+          "receivers": [
+            18,
+            54,
+            102
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            12,
+            17,
+            31,
+            38
+          ],
+          "sources": [
+            56,
+            77,
+            100,
+            103
+          ],
+          "receivers": [
+            12,
+            17,
+            31,
+            38
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            56,
+            77,
+            100,
+            103
+          ],
+          "sources": [
+            12,
+            17,
+            31,
+            38
+          ],
+          "receivers": [
+            56,
+            77,
+            100,
+            103
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            13,
+            16,
+            44,
+            51
+          ],
+          "sources": [
+            43,
+            78,
+            99,
+            104
+          ],
+          "receivers": [
+            13,
+            16,
+            44,
+            51
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            43,
+            78,
+            99,
+            104
+          ],
+          "sources": [
+            13,
+            16,
+            44,
+            51
+          ],
+          "receivers": [
+            43,
+            78,
+            99,
+            104
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            15,
+            42,
+            53,
+            105
+          ],
+          "sources": [
+            41,
+            52,
+            106
+          ],
+          "receivers": [
+            15,
+            42,
+            53,
+            105
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            41,
+            52,
+            106
+          ],
+          "sources": [
+            15,
+            42,
+            53,
+            105
+          ],
+          "receivers": [
+            41,
+            52,
+            106
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            32,
+            35,
+            45,
+            48
+          ],
+          "sources": [
+            24,
+            85,
+            98,
+            107
+          ],
+          "receivers": [
+            32,
+            35,
+            45,
+            48
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            24,
+            85,
+            98,
+            107
+          ],
+          "sources": [
+            32,
+            35,
+            45,
+            48
+          ],
+          "receivers": [
+            24,
+            85,
+            98,
+            107
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            23,
+            50,
+            108
+          ],
+          "sources": [
+            22,
+            33,
+            49,
+            109
+          ],
+          "receivers": [
+            23,
+            50,
+            108
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            22,
+            33,
+            49,
+            109
+          ],
+          "sources": [
+            23,
+            50,
+            108
+          ],
+          "receivers": [
+            22,
+            33,
+            49,
+            109
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            37,
+            47,
+            110
+          ],
+          "sources": [
+            20,
+            36,
+            46,
+            111
+          ],
+          "receivers": [
+            37,
+            47,
+            110
+          ],
+          "rank": 4
+        },
+        {
+          "half": [
+            20,
+            36,
+            46,
+            111
+          ],
+          "sources": [
+            37,
+            47,
+            110
+          ],
+          "receivers": [
+            20,
+            36,
+            46,
+            111
+          ],
+          "rank": 4
+        }
+      ],
+      "codec_determinants": [
+        "-1",
+        "-1",
+        "1",
+        "1",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "-1/2",
+        "-1/2",
+        "-1/2",
+        "-1/2",
+        "-1/2",
+        "-1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "before_chronology_checks": {
+        "ground_import_reads": 44,
+        "correction_sources": 384,
+        "local_reverse": 324,
+        "reverse_consumers": 384,
+        "forward_consumers": 56,
+        "cache_reads": 104
+      },
+      "after_chronology_checks": {
+        "all_coupled_entries": 1,
+        "original_x_pickup": 1,
+        "ground_a": 1,
+        "D_class_restore": 14,
+        "reverse_bank": 1,
+        "half_caches": 28,
+        "X_D_endpoints": 1,
+        "forward_bank": 1,
+        "Y_class_decode": 14
+      },
+      "current_a_debt": 4564,
+      "original_coordinate_debt": 4874,
+      "hosted_residual_rank": 56,
+      "specified_exported_history_rank": 9,
+      "new_ordered_chart_pairs": 265,
+      "phase_reproduction": {
+        "interpreter_sha256": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38",
+        "wrong_global_phase_rejected": true,
+        "classification": "retained interpreter reproduction, not a new independent phase algorithm"
+      },
+      "negative_controls": [
+        "correction_sources",
+        "local_reverse_reads",
+        "old_reverse_consumers",
+        "old_forward_reads",
+        "correction_reads",
+        "entry_pickup",
+        "import_cleanup",
+        "import_receiver_reads",
+        "actual_import_move"
+      ]
+    }
+  ],
+  "prices": [
+    {
+      "variant": "base",
+      "increment": [
+        "19341361961559524775965490587/2500000000000000000000000000",
+        "19341361961559524775965490589/2500000000000000000000000000"
+      ],
+      "limiting_room": [
+        "51889414612451784968733368809/46875000000000000000000000000",
+        "1245345950698842839249600853193/1125000000000000000000000000000"
+      ],
+      "room_decimal": 1.1069741783989715,
+      "first_positive_m": 30
+    },
+    {
+      "variant": "imported",
+      "increment": [
+        "21841361961559524775965490587/2500000000000000000000000000",
+        "8736544784623809910386196235601/1000000000000000000000000000000"
+      ],
+      "limiting_room": [
+        "320922535196914237998935603773/3000000000000000000000000000000",
+        "120345950698842839249600853193/1125000000000000000000000000000"
+      ],
+      "room_decimal": 0.10697417839897141,
+      "first_positive_m": 296
+    }
+  ],
+  "finite_m_penalty": [
+    "2217640666435693139170568881927/70312500000000000000000000000",
+    "14192900265188436090691640847469/450000000000000000000000000000"
+  ],
+  "seed_room": [
+    "3316319611133542996144690538747/375000000000000000000000000000",
+    "310904963543769655888564738049/35156250000000000000000000000"
+  ],
+  "refund_from_old_parity": [
+    "19105109011378350750112671191/125000000000000000000000000000",
+    "9552554505689175375056335639/62500000000000000000000000000"
+  ],
+  "two_extra_unit_returns_room": [
+    "-267907746480308576200106439623/300000000000000000000000000000",
+    "-1004654049301157160750399146807/1125000000000000000000000000000"
+  ],
+  "scope": "Independent exact source chronology and complete paired maps, universal vector-linear proof review and independent integer-power prices. Phase interpretation is separate retained-engine reproduction. All foundations and remaining cross-class source completion retained; no new kappa."
+}

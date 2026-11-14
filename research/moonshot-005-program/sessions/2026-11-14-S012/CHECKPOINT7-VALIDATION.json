@@ -1,0 +1,41 @@
+{
+  "status": "PASS_FIVE_ADMISSIONS_THREE_RELOCATED_AND_TWO_RECOVERY_REPLAYS",
+  "baseline_sha": "f43a862d4a98a881a052fbac3b94cad7ce62d4e4",
+  "prepared_utc": "2026-11-14 12:10:00 UTC",
+  "relocated_receipts": [
+    {
+      "package": "complex-singular-gram-history",
+      "exact_json_equal": true,
+      "sha256": "cbca3e520dabc79fb88bcb62f82f0bf27ba30efc84fb6af7ff9f1b0f7046ebad"
+    },
+    {
+      "package": "complex-parity-c4-import",
+      "exact_json_equal": true,
+      "sha256": "9362318dbf87f7336e14ba151667667eeb6bec05f0bf6fa47acd0c057d30a9be"
+    },
+    {
+      "package": "short-rectangular-caller",
+      "exact_json_equal": true,
+      "sha256": "7624a6f51b88200d5a61456f73a33f8a0d4ef8f4ed1306932500a7bfb871f37e"
+    }
+  ],
+  "recovered_reproduction": {
+    "status": "PASS_RECOVERED_S011_CP12_EXACT_REVIEW_REPRODUCTION",
+    "checks": [
+      {
+        "package": "bit-marked-route-facet-budget",
+        "original_independent_receipt_sha256": "079eda1f8c1a0ef381c7989264a8afc1128a18cf6e1f996f26b67a2621cdbbab",
+        "reproduced_receipt_sha256": "079eda1f8c1a0ef381c7989264a8afc1128a18cf6e1f996f26b67a2621cdbbab",
+        "exact_json_equal": true
+      },
+      {
+        "package": "complex-fixed-preload-decoder",
+        "original_independent_receipt_sha256": "3419087705d4ab549b58577f5ceac287c293b3bd72d4eebd50cb458b5b2df22a",
+        "reproduced_receipt_sha256": "3419087705d4ab549b58577f5ceac287c293b3bd72d4eebd50cb458b5b2df22a",
+        "exact_json_equal": true
+      }
+    ],
+    "classification": "Earlier independent algorithms reproduced; direct proof re-review and original provenance preserved."
+  },
+  "scope": "Universal proof review, independent implementation and reproduction distinguished. No new kappa."
+}

@@ -266,3 +266,13 @@ The actual source-completion and both strict-supplier obligations remain primary
 - **RECTANGULAR-TENSOR-ROW-GATE — proved characteristic-zero direct-row theorem.** Exact rectangle ranks yield factor density floors, excluding the direct P104 tensor family under the retained18-caller. It does not exclude shared ascents or changed decoder geometry. Evidence: results/rectangular-tensor-row-gate.
 
 Next consequential obligations are actual source completion with reusable funded history and a compatible short-caller native construction. Singular exported mode capture, the C4 paired schedule with actual input import and the explicit eight-stage caller are currently under independent review, not admitted by this update. Both strict suppliers and five foundations remain open.
+
+## S012 checkpoint7 dependency update
+
+- **SHORT-RECTANGULAR-CALLER — proved identity and actual6/8-stage words.** All-positive-arm identity; literal arbitrary-input words with4queries and signed geometry. Compatible native/helper supply remains open. Evidence: results/short-rectangular-caller.
+- **COMPLEX-PARITY-C4-IMPORT — proved partial paired sources.** Changed chronology and paid coupled import preserve400-input map/9216paired entries; residual56 remains. Evidence: results/complex-parity-c4-import.
+- **COMPLEX-SINGULAR-GRAM-HISTORY — proved partial transformation.** Actual basis capture/export with paired duties, distinguished from total arithmetic history. Evidence: results/complex-singular-gram-history.
+- **BIT-MARKED-ROUTE-FACET-TARIFF — proved conditional budget.** Sharp arbitrary-turn tariff and actual disjoint-route composition give source-specific ell caps. Recovered S011 evidence independently reauthenticated/reproduced. Evidence: results/bit-marked-route-facet-budget.
+- **COMPLEX-FIXED-PRELOAD-DECODER — proved in corrected scope.** Decoder rigidity and proper-local terminal tours; unrestricted auxiliary imports excluded from claim. Preserve SCOPE-CORRECTION.md. Evidence: results/complex-fixed-preload-decoder.
+
+Next: paid all-hosted native/fresh sources, complete decoder with preserved history, and proper-cover/chain composition. Recovered relay remains pending independent review. Both strict suppliers and five foundations remain open.

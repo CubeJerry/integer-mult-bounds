@@ -365,3 +365,13 @@ For a proper-born clique of size k<=8, the exact change at t=199/200 is Delta_k=
 With the retained caller helper grammar and endpoint movement, define f_a(b)=2(1+2ab)^t+4 sum_(j=1..a)(1+jb)^t-4-4 sum_(j=1..a-1)(jb)^t-8ab^t, h=b+1, and subtract4a rho for decoder density rho. The actual18-stage caller is a9: free-decoder price fails for h>=38. Stage concavity and exact monotonicity imply all positive even-family stages fail free for h>=136, with the adjacent h135 two-stage control positive. These are stated caller-family bounds, not universal multiplication lower bounds.
 
 Characteristic-zero rectangular Hadamard rank gives direct tensor factor row-mass lower bounds n,3n/4,2n/3 at label dimensions2,3,4. Combined with the retained18-stage caller they exclude every direct P104 tensor factor dimension g>=2; larger g is already excluded free. The legal g2/J2 factor at h18 has eight-stage relaxed surplus0.4457069135 per port. An actual native construction, helpers and chart transport must fit that amount. No source is inferred from the row decomposition, and no other even stage count is treated as an actual caller until constructed.
+
+## S012 checkpoint7: actual caller and stricter route interfaces
+
+For a genuine all-type-A h18native N and legitimate helper H, T=208*T_wrapper+2aH and P=208*P_wrapper+2aN. Literal a3/a4 words have403/601 events,4queries and8/12 whole idles. All inputs remain arbitrary; favorable rank14 row arithmetic is not native acquisition.
+
+C4 source delta is200(1+3^t+4^t-8^t)+epsilon, epsilon0/1 for base/import. Remaining allowances at199/200 are1.106974178398971 and0.106974178398971 less31.539778367085413/(m-1), first m30/296. Residual56 remains. Singular export has full source bills and104 forward arithmetic states, despite small exported history.
+
+Recovered route tariff: each continuous owned Hub-to-ground portion costs at least7^t+I, including turns. For q disjoint portions and b fixed rank3drops, Q>=(222+q)7^t+b3^t+I_o+c(t)D_p. The complete caller implies ell<=138/131/124 for q8/9/10,125 for q9+b2,124 with56fixed captures. Exact chi composition is separately pending; ell,chi,gamma are distinct.
+
+Fixed inverse-preload terminal tours require proper-chart locality; actual auxiliary import can break it. Changed preloads and all-hosted promotion must preserve arbitrary new D inputs, coefficient ring, paired duties and all costs. No new kappa.

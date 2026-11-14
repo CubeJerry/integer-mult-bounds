@@ -1,0 +1,31 @@
+# Independent review of minimal C4 parity chronology and actual source import
+
+**Accepted as a proved partial source construction under the retained source contracts. No new kappa.** Reviewed author proof SHA256:0ca673d3c07db694d24180c992ec73c19975594717a50ac4fc1cbeafcd8e04ce. The base and imported words are pinned in the independent receipt. The earlier384 cancellations and hosted residual rank56 remain credited to the admitted parity-half package; the new contribution is the complete changed chronology, its refund and a genuine paid nonlocal input import.
+
+## Mathematical argument and composition
+
+For each actual parity half T, the new station is exactly C3_J plus the native lines of the opposite half. Its dimension is4; it is contained properly in every receiving facet, and its source and receiver incidences are exactly the opposite and receiving halves. This is a minimal span statement for the specified old reunion and required source lines, not a claim of globally optimal decoder geometry.
+
+The full-class D codec restores every original D before its C4 visit. The opposite-half X/B fields pass through the same station on their original monotone ascents. Thus the local forward caches and reciprocal B corrections use actual original fields. All old reverse modes and every original D endpoint remain correct. The full-class Y decoder executes before its parity split: it preserves every unknown original Y baseline and all old Gram duties. Only then does Y visit C4 and read its stationary correction cache. This avoids the deficient-half anchor requirement through a real schedule change. It does not assume a three-field half can invert a four-mode codec.
+
+The imported variant composes an actual additional service with that base word. Port17 is one of the eight genuine coupled ports. Its existing entry owner first carries original y17 to the line, where X17 becomes a17=x17-y17. Adding that X into the owner gives original x17; a paid rank-one descent to ground followed by subtracting still-original Y17 gives a17. All eight coupled entries precede any changed Y baseline. The actual ground owner then supplies all44 nonzero cross-class column reads before any Y codec. No oracle, hidden copy or extra owner lifetime is used.
+
+The imported column has no hosted B/D pair. Consequently the H-by-H matrix is unchanged and every hosted transpose entry remains valid. The same omission at a hosted port would require additional reverse service and is not admitted here. The full endpoint follows from the displayed linear operations for arbitrary positive vector volume. Its algebraic inverse proves information retention, not physical uncomputation or erasure.
+
+The exported information statement is deliberately narrow: the eight old forward Gram values, together with the one actually delivered a17, span dimension9V. It is not an upper bound on intermediate Hub arithmetic history or all raw fields. The existing opposite-half incidence theorem still requires56 global dimensions for completion in that information-flow class. The residual remains rank56;44 coefficient cancellations are not a completed supplier.
+
+## Independent implementation and verification
+
+Root's `check.py` imports no author builder, scalar checker, codec compiler or interval engine. It reuses the earlier root-authored sparse rational replay and elementary rank/root helpers, with explicit credit. From pinned native roots it independently reconstructs all14 classes,28 parity halves, the real Gram coefficients, the credited full parity endpoint, every minimal C4 span and complete source/receiver incidence sets. Hosted-first ordering in each codec is checked separately from the set-valued class partition.
+
+The checker replays both words over400 independent original columns. It checks actual cochart reads, strict nested moves, original X, all96 D restorations, all28 invertible retained codecs, every old mode consumer and each stationary correction cache. It checks all18,432 hosted paired entries across the two words, all400 final chart IDs and full information rank. Chronological hooks check full-class Y decoding before splitting and the original x17/a17 import boundaries. Fourteen actual source/transport omission controls fail, including omission of the paid descent.
+
+Every original field remains on a monotone route, with total public rank mass3200. The base raw profile is {1:312,2:112,3:288,4:200,5:200}; its owned profile is {1:8,8:16}. The import adds exactly one owned rank1 move and46 ADDs. Both have128 lifetimes and peak112 owners; all128 retirements are nonzero and remain under inherited owned erasure. The whole ordinary-operation bill is recounted from instructions, and every scalar is dyadic.
+
+The exact new ordered chart-pair sets contain264 and265 pairs. Root independently checks complete certificate coverage, actual frames and ranks, and reproduces every signed map using the pinned retained Gaussian-dyadic interpreter. Wrong global phase is rejected for each word. This is retained-interpreter certificate reproduction, not a new independent phase algorithm or a uniform native theorem.
+
+The independent integer200th-root routine reconstructs the signed caller allowance and actual source profiles. The base delta is200(1+3^t+4^t-8^t), t=199/200; the import adds1. The limiting margins are1.106974178398971... and0.106974178398971..., with first positive fixed m30 and296 respectively. Exact intervals also prove the preceding m fails, the real refund from the old parity chronology is positive, and two added unit returns exceed the limiting allowance. The positive finite-m margin prices a partial source, leaving completion work unpaid.
+
+Evidence: `RESULT.json`, independent checker and credited helpers in this directory. Reproduce with `python check.py --package <author package> --repo <programme repository> --output <fresh RESULT.json>`. The universal vector-linear proof and source-specific finite geometry are distinguished; compiler, all-width native lifting, precision, erasure and analytic recovery remain explicit. This package is not composed with the singular-Gram or proper-born-clique words.
+
+Credit Worker B, @CubeJerry, root review, original shared-wire/native authors and the admitted omitted-line/parity/codec predecessors. Prepared with OpenAI assistance.

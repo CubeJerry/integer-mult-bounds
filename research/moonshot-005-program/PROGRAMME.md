@@ -377,3 +377,11 @@ The BIT geometry is more sharply resolved. Scalar saving14 is attained only by s
 The higher-label tensor lead has passed an exact complete-caller preflight and fails several natural versions. The retained18-stage caller fails at h>=38 even with a free decoder. The relaxed even-stage family fails free at every h>=136; the square tensor at h81 fails with its stated direct row decoder at all positive even stages. A legal two-label tensor has positive relaxed eight-stage room, motivating an actual short caller and a compatible native source. The caller is currently under independent review; favorable arithmetic alone does not admit the tensor source.
 
 The active constructive direction is funded history change: singular mode capture, changed lower-dimensional paired meeting charts and a real paid coupled-input import. Those new words remain outside this checkpoint's admitted results until independent review. Both strict suppliers and all five foundations remain open. No new kappa.
+
+## S012 checkpoint7: actual callers and changed paired sources
+
+The parity-uniform chain identity is proved for every positive arm count. Literal six/eight-stage callers use14/18 arbitrary roles, exactly4queries and8/12 whole idles, with independently checked group algebra and208-label geometry. A compatible native construction remains required.
+
+The C4 parity chronology performs full D decoding before C4 and full Y decoding before half splitting. It retains all paired duties, residual56 and limiting room1.1069741784; a real paid coupled import leaves0.1069741784, first sufficient m296. Singular Gram export is a separate actual paired partial construction; exported11/16 modes are not the104 forward arithmetic states. These mechanisms need an actual new word to compose.
+
+Two unpublished S011 packages were authenticated and reproduced: the sharp marked-route tariff and correctly scoped inverse-preload gate. An unrestricted auxiliary-import extension is explicitly withdrawn. Recovered changed-preload relay remains under review, including coefficient-ring continuation. Next constructive direction: paid all-hosted interface and preserved relay history. No new kappa.

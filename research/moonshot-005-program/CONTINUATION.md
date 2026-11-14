@@ -6,7 +6,11 @@ PROGRAMME, TARGET-005, OBLIGATIONS and latest append-only SESSION-LOG. Check
 canonical changes since its recorded SHA. Baseline hashes are not self hashes.
 Keep the protected mathematics-first allocation in PROGRAMME active.
 
-## Latest S012 checkpoint6 frontier
+## Latest S012 checkpoint7 frontier
+
+Actual6/8-stage4query callers, C4/import paired sources and singular export are admitted. Residual56, native acquisition and full costs still prevent a complete supplier. Recovered marked-route tariffs impose stricter BIT source caps; chi/chain composition is pending review. Paid all-hosted source and history-preserving relay repair are active. Fixed-preload gates retain locality. S011 evidence is recovered without a claimed remote checkpoint12 or live execution. Both strict suppliers and five foundations remain open. No new kappa.
+
+## S012 checkpoint6 frontier (historical)
 
 Actual funded history is the primary construction task. Proper-born paired k4 source is proved with positive margin and residual92; full fresh repetition fails. Singular exported mode capture and changed C4 paid-import schedules are under independent review. BIT width2/dim3 in the entire halfclass reservoir now provably misses the coarse194 gate; dimension4 has only a code-level witness. Scalar equality/parity is settled in its stated scope. Direct higher-label tensor/retained18-caller options fail exact budgets; an actual eight-stage caller and compatible native source are being developed. Both strict suppliers and all five foundations remain open. No new kappa.
 
