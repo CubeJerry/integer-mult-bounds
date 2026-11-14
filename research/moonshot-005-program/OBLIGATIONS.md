@@ -346,3 +346,15 @@ Next consequential S013 obligation: a complete chronological BIT source using sh
 - **TWO-BANK-HALF-CALLER-ENVELOPE** — proved all-stage two-bank half-source stage/query window and inherited scoped modular-service exclusion. [Admission](results/half-caller-budget-envelope/ADMISSION.md).
 
 Central open edge: actual half-source chronology -> simultaneous alternating Gaussian jobs within Delta>0 -> strict complex supplier. Three-half mixed-orientation residual cancellation and redesigned five-half synthesis are active. Strict BIT remains an independent necessary edge, with S013 acquired-history evidence preserved.
+
+
+## S013 checkpoint3 dependency update
+
+- **EISENSTEIN-CYCLE-NATIVE** — proved actual480-input owned-free full120 native, phase-exact cross law N^3=W, and scoped all-arm budget gates. [Admission](results/eisenstein-cycle-native/ADMISSION.md); dependencies, precise scope and independent evidence are linked there.
+- **BIT-PIVOT-POINT-PUNCTURE** — proved actual two-paid-coordinate prefix, exact rank17 chi52 static fitting, and strict future capacity greater than8V in the stated monotone interface. [Admission](results/bit-pivot-point-puncture/ADMISSION.md); dependencies, precise scope and independent evidence are linked there.
+- **BIT-PROPER-FLAT-CUBIC-GENERATORS** — proved exact84-element cubic basis supported on proper real rank-four flats; individual acquisition only. [Admission](results/bit-proper-flat-cubic-generators/ADMISSION.md); dependencies, precise scope and independent evidence are linked there.
+- **BIT-PROPER-SIXTEEN-CLASS** — proved actual chi-zero16-class partition and sharpness within class partitions; no chronological supplier. [Admission](results/bit-proper-sixteen-class/ADMISSION.md); dependencies, precise scope and independent evidence are linked there.
+- **BIT-CANONICAL-PAIR-GATE** — proved for all characteristic-two fields and widths: canonical quotient dimension below2V forces proper-cover charge at least165. [Admission](results/bit-canonical-pair-gate/ADMISSION.md); dependencies, precise scope and independent evidence are linked there.
+- **BIT-PENTAGON-HISTORY-FORK** — proved actual five-output history fork with two moving lifetimes and five stationary caches; live-source continuation interface admitted. [Admission](results/bit-pentagon-history-fork/ADMISSION.md); dependencies, precise scope and independent evidence are linked there.
+
+**Next central BIT edge (open):** compose the actual live-source five-cycle fork with further original-source acquisition and shared proper-chart history, completing all111 outputs and restoring every original/owned endpoint inside the strict covered-BIT invoice. A local saving or static chi is not sufficient. Parallel constructive work at canonical quotient2V must supply native locality and chronology, not only disjoint receiver planes. The complex edge remains a complete compatible actual caller, with112-port and120-port interfaces kept distinct.

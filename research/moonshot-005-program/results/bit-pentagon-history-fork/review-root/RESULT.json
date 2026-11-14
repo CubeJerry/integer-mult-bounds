@@ -1,0 +1,170 @@
+{
+  "status": "PASS_INDEPENDENT_TWO_PACKET_PENTAGON_FORK",
+  "source_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "prefix_sha256": "a9523217704ae5395a6070af88d662de94b7de5f25ad457e23cd2f954cc03d86",
+  "closure_sha256": "1f2993e083c51ca3605277be60dad2169a726ec6c2f778521d55b68274e5fab9",
+  "all_input_columns": 222,
+  "completed_targets": [
+    92,
+    36,
+    54,
+    38,
+    55
+  ],
+  "initial_packet_rank": 2,
+  "downward_history_rank": 4,
+  "descending_lifetimes": 2,
+  "stationary_caches": 5,
+  "prefix": {
+    "operations": {
+      "INIT": 7,
+      "MOVE": 129,
+      "ADD": 32
+    },
+    "movement": {
+      "1": 9,
+      "2": 2,
+      "5": 2,
+      "6": 7,
+      "7": 109
+    },
+    "downward": [
+      {
+        "owner": 227,
+        "from_dimension": 8,
+        "to_dimension": 7,
+        "history": [
+          36,
+          55,
+          92
+        ]
+      },
+      {
+        "owner": 228,
+        "from_dimension": 8,
+        "to_dimension": 7,
+        "history": [
+          36,
+          38,
+          54,
+          55,
+          92
+        ]
+      },
+      {
+        "owner": 227,
+        "from_dimension": 7,
+        "to_dimension": 6,
+        "history": [
+          38,
+          54
+        ]
+      },
+      {
+        "owner": 227,
+        "from_dimension": 6,
+        "to_dimension": 0,
+        "history": [
+          36
+        ]
+      },
+      {
+        "owner": 228,
+        "from_dimension": 7,
+        "to_dimension": 6,
+        "history": [
+          38,
+          54
+        ]
+      },
+      {
+        "owner": 228,
+        "from_dimension": 6,
+        "to_dimension": 0,
+        "history": [
+          55
+        ]
+      }
+    ],
+    "dirty_clears": 0,
+    "peak_owners": 7
+  },
+  "closure": {
+    "operations": {
+      "INIT": 7,
+      "MOVE": 235,
+      "ADD": 32,
+      "CLEAR": 7
+    },
+    "movement": {
+      "1": 9,
+      "2": 2,
+      "5": 2,
+      "6": 7,
+      "7": 215
+    },
+    "downward": [
+      {
+        "owner": 227,
+        "from_dimension": 8,
+        "to_dimension": 7,
+        "history": [
+          36,
+          55,
+          92
+        ]
+      },
+      {
+        "owner": 228,
+        "from_dimension": 8,
+        "to_dimension": 7,
+        "history": [
+          36,
+          38,
+          54,
+          55,
+          92
+        ]
+      },
+      {
+        "owner": 227,
+        "from_dimension": 7,
+        "to_dimension": 6,
+        "history": [
+          38,
+          54
+        ]
+      },
+      {
+        "owner": 227,
+        "from_dimension": 6,
+        "to_dimension": 0,
+        "history": [
+          36
+        ]
+      },
+      {
+        "owner": 228,
+        "from_dimension": 7,
+        "to_dimension": 6,
+        "history": [
+          38,
+          54
+        ]
+      },
+      {
+        "owner": 228,
+        "from_dimension": 6,
+        "to_dimension": 0,
+        "history": [
+          55
+        ]
+      }
+    ],
+    "dirty_clears": 7,
+    "peak_owners": 7
+  },
+  "missing_retained_history_control": true,
+  "complete_source": false,
+  "no_new_kappa": true
+}

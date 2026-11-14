@@ -1,0 +1,360 @@
+{
+  "status": "PASS",
+  "baseline_sha": "5f4f9a1be068937d0e3ae1a78e81bf7f6b0a6e9d",
+  "utc": "2026-11-14T15:59:06.232944+00:00",
+  "classification": "Author reproduction, independent source/premise implementations, written universal proofs and retained phase-engine evidence are distinct. No new kappa.",
+  "jobs": [
+    {
+      "name": "canonical-pair-gate",
+      "status": "PASS",
+      "steps": [
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-canonical-pair-gate/author/check.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--geometry-check",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-quadratic-exterior/author/check.py",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/PAIR-AUTHOR.json"
+          ],
+          "exit": 0,
+          "log_sha256": "71f5c9840f9d610b4070de9d624b647fa20799b659d2e913ac57c83ac3c9c77c"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-canonical-pair-gate/review-root/check.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--certificate",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-canonical-pair-gate/author/RESULT.json",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/PAIR-INDEPENDENT.json"
+          ],
+          "exit": 0,
+          "log_sha256": "6bd6a99c88f0342c50386b106a7186d06f5852585b7319cc009863a469b51c9b"
+        }
+      ],
+      "seconds": 1.684
+    },
+    {
+      "name": "flat-cubic",
+      "status": "PASS",
+      "steps": [
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-proper-flat-cubic-generators/author/check.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--geometry-check",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-quadratic-exterior/author/check.py",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/flat-cubic-AUTHOR.json"
+          ],
+          "exit": 0,
+          "log_sha256": "1e957a3a403bec5b6b3c00fde02dcba65dc9149e2e748cac2c21062d6d195949"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-proper-flat-cubic-generators/review-root/check.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--certificate",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-proper-flat-cubic-generators/author/RESULT.json",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/flat-cubic-INDEPENDENT.json"
+          ],
+          "exit": 0,
+          "log_sha256": "d2f40f6b471953b6fd8333b8457bd6b4dd5a333a3ce369bd759910a0b1465202"
+        }
+      ],
+      "seconds": 1.621
+    },
+    {
+      "name": "full120-cycle",
+      "status": "PASS",
+      "steps": [
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/eisenstein/symmetry.py"
+          ],
+          "exit": 0,
+          "log_sha256": "ce0fb4816db5bfb2b5f858da5dfbca577e6d36a8bf0cd6c61cfff591137551d3"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/eisenstein-cycle-native/author/build.py",
+            "--symmetry",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/eisenstein/SYMMETRY.json",
+            "--output-dir",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/eisenstein"
+          ],
+          "exit": 0,
+          "log_sha256": "134e484575646d1e416c6c408b34572dde5a43a8f8f6d6a63df5e20375e83a5b"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/eisenstein-cycle-native/author/operators.py",
+            "--word",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/eisenstein/WORD.json.gz",
+            "--symmetry",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/eisenstein/SYMMETRY.json",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/eisenstein/OPERATORS.json"
+          ],
+          "exit": 0,
+          "log_sha256": "5473e90b64bffc19b772c49e0287c8f3a8b73797940db1cb1ede56dce7e1f5c5"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/eisenstein-cycle-native/author/budget.py",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/eisenstein/BUDGET.json"
+          ],
+          "exit": 0,
+          "log_sha256": "2eac993c332cc11afaa9681e9ffa70512c1f5580ddce046e261d3d6b29664a51"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/eisenstein-cycle-native/author/phase.py",
+            "--engines",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/proper-chart-relay/author/dependencies",
+            "--word",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/eisenstein/WORD.json.gz",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/eisenstein/PHASE.json"
+          ],
+          "exit": 0,
+          "log_sha256": "fe6cf48e5096ffd283b723cc3ad50f4c367bafdb99a1bd5d73d1e450a5810a06"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/eisenstein-cycle-native/review-root/check.py",
+            "--package",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/eisenstein-cycle-native/author",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/eisenstein/INDEPENDENT.json"
+          ],
+          "exit": 0,
+          "log_sha256": "8a1f57de964b686008d8ba5dedab3229d968d2b36ed680e62d071ef772b4b464"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/eisenstein-cycle-native/review-root/budget_check.py",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/eisenstein/INDEPENDENT-BUDGET.json"
+          ],
+          "exit": 0,
+          "log_sha256": "c000c61199b8253764b2b4e8b6155726da00e435cc274d680ad5fe81c1010aa9"
+        }
+      ],
+      "seconds": 20.246
+    },
+    {
+      "name": "pentagon-history-fork",
+      "status": "PASS",
+      "steps": [
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pentagon-history-fork/author/build.py",
+            "--native",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz",
+            "--outdir",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/fork"
+          ],
+          "exit": 0,
+          "log_sha256": "d47cf15f41d3d4a7fd8b0bed3ac33edd9d9ab03723ab905570c412bbc88827cd"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pentagon-history-fork/author/price.py",
+            "--result",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/fork/RESULT.json",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/fork/BUDGET.json"
+          ],
+          "exit": 0,
+          "log_sha256": "14904f3ac23c4d158b1602d5e5516879926460fbac9223b296b0bf17d6c79daf"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pentagon-history-fork/review-root/check.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--package",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pentagon-history-fork/author/output",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/FORK-INDEPENDENT.json"
+          ],
+          "exit": 0,
+          "log_sha256": "a76e0794da795b0d6fb9b2d650151853ecdcdbaa1af5934d00a1ce974cd5cca5"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pentagon-history-fork/review-root/check_continuable.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--package",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pentagon-history-fork/author/output",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/FORK-LIVE-INDEPENDENT.json"
+          ],
+          "exit": 0,
+          "log_sha256": "c01cede7257056c0840b932641127230e0adf2a3c91f7b57c76de9be7a6e5e29"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pentagon-history-fork/review-root/price_check.py",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/FORK-PRICE-INDEPENDENT.json"
+          ],
+          "exit": 0,
+          "log_sha256": "a59a8c44fbabdcd990b8ab6b7e648a093ae54305e78af605e68e2e80942ebc06"
+        }
+      ],
+      "seconds": 0.826
+    },
+    {
+      "name": "point-puncture",
+      "status": "PASS",
+      "steps": [
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pivot-point-puncture/author/build.py",
+            "--native",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz",
+            "--prefix",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-purified-quadratic-history/author/output/PREFIX.json.gz",
+            "--pivot-geometry",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pivot-filter-geometry/author/GEOMETRY.json",
+            "--outdir",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/point-puncture"
+          ],
+          "exit": 0,
+          "log_sha256": "53faf9832d61d99c3b8dddbcb4a9fea89ef040bafebe2e4b6c27431ca6f5d155"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pivot-point-puncture/author/price.py",
+            "--result",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/point-puncture/RESULT.json",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/point-puncture/BUDGET.json"
+          ],
+          "exit": 0,
+          "log_sha256": "3a8f428491feac28036fbfed85c722362b174fe3ed1ea8f0169cb22b986f1821"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pivot-point-puncture/review-c/check.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--prefix",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pivot-point-puncture/author/output/PREFIX.json.gz",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/POINT-INDEPENDENT.json"
+          ],
+          "exit": 0,
+          "log_sha256": "dd7b940606dcea9e47c38ca084d37b416bd790450d3b0b12e657b6bef928d964"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-pivot-point-puncture/review-c/check_strict.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/POINT-STRICT.json"
+          ],
+          "exit": 0,
+          "log_sha256": "0a6221df62f6f0a5427e30a4ec6ada52fe73a86b24855fde8d207c78ab051152"
+        }
+      ],
+      "seconds": 1.458
+    },
+    {
+      "name": "sixteen-class",
+      "status": "PASS",
+      "steps": [
+        {
+          "command": [
+            "python",
+            "-B",
+            "-O",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-proper-sixteen-class/author/check.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--geometry-check",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-quadratic-exterior/author/check.py",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/sixteen-class-AUTHOR.json"
+          ],
+          "exit": 0,
+          "log_sha256": "7de1d4766e45d7d797ba14f8b23f31df47b8dae5206681ee67fd9dfbc860f824"
+        },
+        {
+          "command": [
+            "python",
+            "-B",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-proper-sixteen-class/review-root/check.py",
+            "--repo",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds",
+            "--certificate",
+            "/workspace/scratch/84408c21c900/integer-mult-bounds/research/moonshot-005-program/results/bit-proper-sixteen-class/author/RESULT.json",
+            "--output",
+            "/workspace/scratch/84408c21c900/work/root/checkpoint3-validation/sixteen-class-INDEPENDENT.json"
+          ],
+          "exit": 0,
+          "log_sha256": "f9527a6e008117f41089ca4add7f70d482e6d4c1b6a53df33c9ed54fc56079b6"
+        }
+      ],
+      "seconds": 0.433
+    }
+  ]
+}

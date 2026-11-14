@@ -246,3 +246,8 @@ From the repository root run `python -B research/moonshot-005-program/sessions/2
 ## S012 checkpoint11
 
 Each new admission has `reproduce.py --output /absolute/scratch/receipt.json`, selecting the frozen independent checker and authenticating its output. The session runner invokes all nine packages. Version2 changes repair only relocation/file-list defects and retain original mathematical evidence. All-width proofs remain distinct from finite checks. Both qualified historical absences remain unchanged.
+
+
+## S013 checkpoint3
+
+Run `python -B research/moonshot-005-program/sessions/2026-11-14-S013/reproduce_checkpoint3.py --repo . --out /tmp/s013-checkpoint3` from the repository root with a fresh output path. Expected six PASS jobs and top-level PASS in VALIDATION.json. The runner copies the symmetry discovery script before running it so no frozen package is mutated. Separate reviewers, literal source builders, retained signed interpreters and exact price checks have distinct logs. Historical ledger exceptions remain visible and the old global verifier is not represented as passing.

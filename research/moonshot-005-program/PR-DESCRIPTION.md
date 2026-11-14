@@ -391,3 +391,10 @@ For the complex relay,17 actual ports prove operator metric rigidity. A source-s
 ## Opposite-slope sources and alternating Gaussian targets
 
 The cumulative package now includes actual mixed-direction words, an exact coded three-half construction, in-place dyadic ordinary codecs and positive alternating odd/even target interfaces. Source-specific Fourier/rank theorems delimit failed completions, while nonunitary support and exact all-stage accounting constrain further repairs. Nine checkpoint11 admissions retain proofs, source pins, programs, independent reviews and relocated evidence. The missing result is a complete chronological caller realizing the joint independent Gaussian jobs. No new kappa, selected certificate change or upstream PR is claimed. @CubeJerry, predecessor and OpenAI-assistance attribution are retained.
+
+
+## S013 checkpoint3 cumulative addition
+
+Six further reviewed packages add an actual two-lifetime/five-cache pentagon decoder, a universal canonical-quotient/proper-cover theorem, proper-flat cubic and16-class finite-geometric representations, two paid pivot punctures with strict chronological capacity, and an owned-free full120 order-three complex native. The pentagon has both a closed local control and a separately reviewed live-source interface, so the remaining inputs are not silently stranded at Hub. Its local movement gain is exact; no complete supplier gain follows yet.
+
+The pair theorem holds over every characteristic-two field and block width, excludes d<2V at the actual marked route budgets, and has independent source checks. Full source pins, proofs, limitations, negative controls and exact reproduction commands are linked through the six ADMISSION pages and session checkpoint3 receipts. The source/phase/code results are distinct; their costs are not added as if automatically compatible. @CubeJerry attribution, predecessor credit and substantial OpenAI assistance remain explicit. **No new kappa. The cumulative programme remains ongoing and is not submitted as an upstream PR.**

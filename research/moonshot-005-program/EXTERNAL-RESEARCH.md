@@ -143,3 +143,12 @@ Concurrent programme commit7ff42586 was inspected and fast-forwarded. Its litera
 ## S012 checkpoint11 upstream and concurrent evidence
 
 Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57 at the15:00 targeted check; updated PRs after13:45 returned none. Concurrent S013 commit2e9a91a502139fdea35025950ec9bccd84d4e15c adds seven reviewed packages: actual quadratic/cubic histories, strict future-transfer capacity, pivot-filter/cubic exterior structure, operator Gram rigidity and a rank-two skew relay with paid forward moments. Their admission scopes were read and all files preserved. No complete supplier or free caller credit was imported.
+
+
+## S013 checkpoint3: E8, finite geometry and acquired cubic histories
+
+Wilson's [An eightfold path to E8](https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/E8notes2.pdf), section3.3, motivated the Eisenstein order-three structure. The programme independently reconstructs its actual root symmetry, binary action and native contacts; a lattice symmetry alone is not a caller. Waegell and Aravind's [E8 parity proofs](https://arxiv.org/abs/1502.04350) supply context for the2025 orthogonal frames. Explicit frame differences now give84 proper-flat cubic generators, with independent verification of the sufficient witnesses.
+
+Schmidt's [Quantum isomorphic strongly regular graphs from E8](https://arxiv.org/abs/2209.14906) and Vlasov's [Quantum entanglement and contextuality with complexifications of E8](https://arxiv.org/abs/2210.15338) are further primary leads. Their projectors, complex coefficient rings and quantum interfaces are not native source certificates; denominators and characteristic-two compatibility must be proved. In particular, orbit rank is not matrix rank, and Witting/other complex ray configurations do not supply free physical contacts.
+
+The admitted chi-zero16-class partition uses a maximal singular subspace and orthogonal transversal, while the new canonical-pair gate uses block quotient intersections and a real quadratic obstruction. These are concrete applications of finite geometry, not imported algorithmic claims. Concurrent S012 checkpoint11 at5f4f9a1be068937d0e3ae1a78e81bf7f6b0a6e9d was inspected and retained; its alternating target endpoints and short-stage envelope remain open at complete caller synthesis. Upstream last examined SHA and selected certificate are unchanged.
