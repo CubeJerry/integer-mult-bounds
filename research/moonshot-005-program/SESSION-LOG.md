@@ -1287,3 +1287,26 @@ the six-future cut. Upstreammain/latest PR heads unchanged at05:24.
 No new kappa or foundation discharge. Session continues toward11:19:23 UTC.
 The resulting remote SHA is recorded only after GitHub confirmation; the
 programme remains ongoing, with no upstream PR submitted.
+
+## 2026-11-14-S011 — checkpoint11: preserve the useful mode
+
+Starting baseline `b184be6060be439f534d88e1b540415c4e9307c5`, tree `4faa32de75a5760ba2e3ad4e01b5c8d7d92b9625`. Integrate the previously verified
+coupled five/seven/nine-target family, including the actual original-source
+front end and two pair-bank refills. A replaces owned reflection with one paid
+public-Y turn; root independently reviews both gauge/canonical variants and
+normalizes their actual historical information. All retain a six-future cut.
+
+A constructs a nonterminal canonical pivot that finishes Y0 while retaining
+lambda0 in the same packet; C independently verifies all source/code/cut
+claims and root independently checks its whole caller. Root proves uniform
+forbidden-code deletion robustness and the resulting all-width four-coordinate
+support exclusion; C independently reviews. An earlier scalar17-savings theorem
+is composed with the new all-route cap, excluding one arbitrary extra scalar
+canonical direction without reusing its former no-Y assumption.
+
+No new kappa. Main next task is actual richer retained history, not a repeated
+static rank or local-completion count. Protected discovery continues with
+paid-punctured codes/native deletion constraints; complex work pursues proper-
+chart imports and records an invalid unrestricted auxiliary-tour inference
+before any admission. Session continues toward11:19:23 UTC. The next checkpoint
+records the resulting SHA only after GitHub confirms publication.

@@ -301,3 +301,21 @@ incomplete, and its fixed eight-mode flow is independently excluded by the
 sharp56-mode incidence theorem. Any successful repair must change the flow
 and remove sufficient existing cost if it adds movement. No component gains
 from incompatible old sources are accumulated.
+
+## S011 checkpoint11: actual retained pivot and precise history exclusions
+
+The retained-pivot closed partial profile is57[1]+56[6]+167[7]+2[8]. With six
+hypothetical additional direct Hub modes its199/200 moment is
+1611.022620980148742657..., leaving10.728259231003612589... limiting signed
+caller room and first positive fixed evenm4. Seven modes leave2.81100597968...
+and first positive evenm6. These do not pay any missing decoder stops, copies,
+restorations or new routes. Ordinary work remains575+A_cont ADDs and117+L_cont
+owned lifetimes per complete private source, with all114 retained retirements.
+
+Actual prefix historyrank4, prospective C+e0 rank10, current pure-core rank3
+and six-mode static residual are distinct. The natural full fitting hasell220.
+EVERY history in C+<=4 coordinate directions givesell>=202, contradicting the
+all-route targetcap194. A scalar history in C plus ONE arbitrary new direction
+givesell>=205 by the already proved17-savings bound; its old no-Y arrival
+premise is not used in this new composition. Neither bound excludes arbitrary
+rank-ten/rank-thirteen codes or general added operator modes beyond its scope.

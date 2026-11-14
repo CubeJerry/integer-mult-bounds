@@ -225,3 +225,19 @@ reviews every universal step and enumerates648 exact kernels/12976 increments,
 including579 singular decoders, plus234 prime-field sharpness controls.
 Installed reproduction, immutable scientific hashes and current source pins
 are recorded in CHECKPOINT10-VALIDATION. No partial word is promoted to supplier.
+
+## S011 checkpoint11 checks
+
+C independently replays five/seven/nine coupled sources with10/15/29 semantic
+controls; root additionally extracts actual five-source history. Root checks
+both public-Y variants on every original and retained column,20 mutations,
+actual occurrence normalization and independent rational coalesced price.
+C independently reconstructs/replays the retained pivot with15 controls,
+normal/-O equality and the entire fixed-m caller; root separately rederives
+its full signed intervals. C verifies the coordinate theorem using all512
+words,111 restrictions, seven sharp18-deletion witnesses and12617-deletion
+controls. Its separate proof review confirms the new scalar composition uses
+only the predecessor's algebraic inequality, not its old no-Y physical cap.
+Installed review receipts and immutable scientific hashes are recorded in
+CHECKPOINT11-VALIDATION. The frontloaded-seven predecessor remains explicitly
+author-only as a separate artifact. No new complete kappa.

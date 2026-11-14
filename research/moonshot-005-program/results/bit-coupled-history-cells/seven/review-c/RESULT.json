@@ -1,0 +1,160 @@
+{
+  "author_code_imported": false,
+  "closed": {
+    "counts": {
+      "ADD": 632,
+      "CLEAR": 122,
+      "INIT": 122,
+      "MOVE": 1598
+    },
+    "distinct_MOVE_pairs": 759,
+    "erased_nonzero_values": 122,
+    "nonmonotone_owned": {
+      "343": [
+        [
+          5,
+          6,
+          1411
+        ],
+        [
+          6,
+          5,
+          1415
+        ]
+      ]
+    },
+    "owned_live": 0,
+    "peak_owned": 117
+  },
+  "input_columns": 222,
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "negative_controls": [
+    {
+      "name": "local_copy_ascent",
+      "reason": "actual cochart ADD",
+      "rejected": true
+    },
+    {
+      "name": "reflection_ascent",
+      "reason": "actual cochart ADD",
+      "rejected": true
+    },
+    {
+      "name": "reflection_descent",
+      "reason": "actual cochart ADD",
+      "rejected": true
+    },
+    {
+      "name": "core_undo",
+      "reason": "exact arbitrary-Y endpoint 92",
+      "rejected": true
+    },
+    {
+      "name": "arbitrary_Y_precode",
+      "reason": "exact arbitrary-Y endpoint 110",
+      "rejected": true
+    },
+    {
+      "name": "Y4_history_recoding",
+      "reason": "exact arbitrary-Y endpoint 36",
+      "rejected": true
+    },
+    {
+      "name": "remaining_X_restore",
+      "reason": "all original X restored at Hub",
+      "rejected": true
+    },
+    {
+      "name": "Y2_decode",
+      "reason": "exact arbitrary-Y endpoint 23",
+      "rejected": true
+    },
+    {
+      "name": "refill_feedback_0",
+      "reason": "exact arbitrary-Y endpoint 110",
+      "rejected": true
+    },
+    {
+      "name": "refill_feedback_1",
+      "reason": "exact arbitrary-Y endpoint 110",
+      "rejected": true
+    },
+    {
+      "name": "refill_feedback_2",
+      "reason": "exact arbitrary-Y endpoint 23",
+      "rejected": true
+    },
+    {
+      "name": "actual_point_refill_110",
+      "reason": "exact arbitrary-Y endpoint 110",
+      "rejected": true
+    },
+    {
+      "name": "actual_point_refill_23",
+      "reason": "exact arbitrary-Y endpoint 23",
+      "rejected": true
+    },
+    {
+      "name": "reverse_ordered_exchange",
+      "reason": "exact arbitrary-Y endpoint 36",
+      "rejected": true
+    },
+    {
+      "name": "uncharged_erasure_relocation",
+      "reason": "owned erasure at actual chart",
+      "rejected": true
+    }
+  ],
+  "partial": {
+    "counts": {
+      "ADD": 571,
+      "CLEAR": 8,
+      "INIT": 122,
+      "MOVE": 770
+    },
+    "distinct_MOVE_pairs": 354,
+    "erased_nonzero_values": 8,
+    "nonmonotone_owned": {
+      "343": [
+        [
+          5,
+          6,
+          1411
+        ],
+        [
+          6,
+          5,
+          1415
+        ]
+      ]
+    },
+    "owned_live": 114,
+    "peak_owned": 117
+  },
+  "pivot_sha256": "8c11ca368995bc6a77f8d0425ac259384a7edf6164bc4254dfc0c7d780e26e19",
+  "residual_cut": {
+    "augmented_rank": 215,
+    "completed_Y_inside": 0,
+    "deficit": 6,
+    "inside_fields": 216,
+    "observation_rank": 209,
+    "receivers": [
+      8,
+      9,
+      14,
+      15,
+      30,
+      31,
+      59
+    ]
+  },
+  "reviewed_pins": {
+    "CLOSED-WORD.json.gz": "b70e238823b51ccaa18fe82ad00d8bcebdc945d1a1a6b3ab140f1067bc68cad9",
+    "PARTIAL-WORD.json.gz": "e7b4aaddd72d2f306ebbbbdc30e2abd2beca0821d66fe3175a1191f1b5d17553",
+    "PROOF.md": "1dfbbf33b11368eb7db817d4e7a28d7a06ea0677752faf77c66641aede11edab",
+    "RESULT.json": "d67998ec9161cf18882a4b1cb06cece2c70cf95465f4bedfdc7281cccdfb8f0b",
+    "build_refill.py": "78dcc665a16566d672c7f8465c3fbeb0778efd8e10b06db20c60ebd26a8d5750"
+  },
+  "scope": "Paid reflected partial source; six future inward channels still necessary in stated continuation; no full supplier or kappa.",
+  "status": "PASS_INDEPENDENT_ACTUAL_SEVEN_TARGET_REFILL"
+}

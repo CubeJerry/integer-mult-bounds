@@ -308,3 +308,26 @@ Its actual flow nevertheless needs56 global modes to finish, versus8 present,
 and its remaining target moment is below1. The programme is therefore pursuing
 changed branching/post-observation geometry, not tuning the frozen layer.
 No new complete kappa or foundation discharge is claimed.
+
+## S011 checkpoint11: retain useful code across target completion
+
+The [retained canonical pivot](results/bit-retained-canonical-pivot/ADMISSION.md)
+is now the active nonterminal prefix. It completes Y0 and keeps the same
+packet as pure lambda0=K0+e0 at ground, together with two H modes and111 point
+copies. Three Hub modes have been spent, with a genuine static six-mode
+complement. Its known source and signed caller margin are independently checked.
+
+This repairs the information-retirement problem in the [coupled cells](results/bit-coupled-history-cells/ADMISSION.md)
+and [public-output feedback variants](results/bit-public-y-turn/ADMISSION.md):
+those complete up to nine targets but still need six future channels after
+their two cell packets retire. They remain useful local mechanisms, not a
+complete three-plus-two-plus-six source.
+
+The pivot's simplest C+e0 continuation is nevertheless excluded. The new
+[canonical support gate](results/bit-canonical-coordinate-gate/ADMISSION.md)
+excludes whole histories in C plus up to four coordinate directions, including
+arbitrary operator blocks. A separate scalar bridge excludes C plus one
+arbitrary extra direction under the now fully charged all-route model.
+The next construction must both retain useful current code and create richer
+actual history; neither dimension nor a favorable partial moment suffices.
+No new complete kappa or foundational discharge.

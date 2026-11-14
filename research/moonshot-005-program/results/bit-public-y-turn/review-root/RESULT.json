@@ -1,0 +1,828 @@
+{
+  "engine_sha256": "2a8cc8c05a1d17bd65cc6feb9df6fe36fef7a8a18ecbd27dd2228aa7c69b978d",
+  "moment": {
+    "grid": "2^-176",
+    "lower": "18927867248566909707381739701649093193321819575242655163/11972621413014756705924586149611790497021399392059392",
+    "upper": "18927867248566909707381739701649093193321819575242655195/11972621413014756705924586149611790497021399392059392"
+  },
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "negative_controls": [
+    "gauge:public_down",
+    "gauge:feedback_first",
+    "gauge:feedback_completion",
+    "gauge:feedback_restore_packet",
+    "gauge:bank_copy",
+    "gauge:bank_refill",
+    "gauge:second_bank_refill",
+    "gauge:point_copy",
+    "gauge:core_cache",
+    "gauge:core_encoder",
+    "canonical:public_down",
+    "canonical:feedback_first",
+    "canonical:feedback_completion",
+    "canonical:feedback_restore_packet",
+    "canonical:bank_copy",
+    "canonical:bank_refill",
+    "canonical:second_bank_refill",
+    "canonical:point_copy",
+    "canonical:core_cache",
+    "canonical:core_encoder"
+  ],
+  "new_kappa": false,
+  "proof_sha256": "7ba0054cc011404f2950d946c250c8d93a39a53e5c4814a8f798659b8c33276f",
+  "receipts": {
+    "canonical": {
+      "residual_cut": {
+        "all_Y_granted_deficit": 6,
+        "deficit": 6,
+        "inside_rank": 207,
+        "receivers": [
+          4,
+          8,
+          9,
+          14,
+          30,
+          73
+        ],
+        "target_augmented_rank": 213
+      },
+      "words": {
+        "CLOSED-WORD.json.gz": {
+          "coalesced_profile": {
+            "1": 26,
+            "2": 3,
+            "3": 2,
+            "4": 2,
+            "5": 3,
+            "6": 8,
+            "7": 209,
+            "8": 3
+          },
+          "counts": {
+            "ADD": 514,
+            "CLEAR": 121,
+            "INIT": 121,
+            "MOVE": 1596
+          },
+          "normalization": {
+            "actual_proper_histories_checked": 2152,
+            "all_downward_moves": 41,
+            "cells": [
+              {
+                "dimension": 1,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              },
+              {
+                "dimension": 1,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 1,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              },
+              {
+                "dimension": 2,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 1,
+                "rank": 1
+              },
+              {
+                "dimension": 2,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 2,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 1,
+                "rank": 1
+              },
+              {
+                "dimension": 3,
+                "incoming": 2,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 2,
+                "rank": 1
+              },
+              {
+                "dimension": 3,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 4,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 4,
+                "incoming": 2,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 2,
+                "rank": 1
+              },
+              {
+                "dimension": 5,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 5,
+                "incoming": 3,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 2,
+                "rank": 2
+              },
+              {
+                "dimension": 6,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 2,
+                "rank": 1
+              },
+              {
+                "dimension": 6,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 1,
+                "rank": 1
+              },
+              {
+                "dimension": 6,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 7,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              },
+              {
+                "dimension": 7,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 7,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              }
+            ],
+            "ground_arrivals": 5,
+            "historical_coordinates": 12,
+            "historical_full_rank": 12,
+            "historical_x_rank": 12,
+            "owned_downward_moves": 40,
+            "owned_facet_incidences": 5,
+            "owned_moves": 40,
+            "public_downward_moves": 1
+          },
+          "owned_coalesced_profile": {
+            "1": 12,
+            "2": 2,
+            "8": 3
+          },
+          "owned_live": 0,
+          "peak": 118,
+          "public_downward_profile": {
+            "1": 1
+          }
+        },
+        "PARTIAL-WORD.json.gz": {
+          "coalesced_profile": {
+            "1": 26,
+            "2": 3,
+            "3": 2,
+            "4": 2,
+            "5": 3,
+            "6": 8,
+            "7": 107,
+            "8": 3
+          },
+          "counts": {
+            "ADD": 514,
+            "CLEAR": 5,
+            "INIT": 121,
+            "MOVE": 882
+          },
+          "normalization": {
+            "actual_proper_histories_checked": 1438,
+            "all_downward_moves": 41,
+            "cells": [
+              {
+                "dimension": 1,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              },
+              {
+                "dimension": 1,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 1,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              },
+              {
+                "dimension": 2,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 1,
+                "rank": 1
+              },
+              {
+                "dimension": 2,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 2,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 1,
+                "rank": 1
+              },
+              {
+                "dimension": 3,
+                "incoming": 2,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 2,
+                "rank": 1
+              },
+              {
+                "dimension": 3,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 4,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 4,
+                "incoming": 2,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 2,
+                "rank": 1
+              },
+              {
+                "dimension": 5,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 5,
+                "incoming": 3,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 2,
+                "rank": 2
+              },
+              {
+                "dimension": 6,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 2,
+                "rank": 1
+              },
+              {
+                "dimension": 6,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 1,
+                "rank": 1
+              },
+              {
+                "dimension": 6,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 7,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              },
+              {
+                "dimension": 7,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 7,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              }
+            ],
+            "ground_arrivals": 5,
+            "historical_coordinates": 12,
+            "historical_full_rank": 12,
+            "historical_x_rank": 12,
+            "owned_downward_moves": 40,
+            "owned_facet_incidences": 5,
+            "owned_moves": 40,
+            "public_downward_moves": 1
+          },
+          "owned_coalesced_profile": {
+            "1": 12,
+            "2": 2,
+            "8": 3
+          },
+          "owned_live": 116,
+          "peak": 118,
+          "public_downward_profile": {
+            "1": 1
+          }
+        }
+      }
+    },
+    "gauge": {
+      "residual_cut": {
+        "all_Y_granted_deficit": 6,
+        "deficit": 6,
+        "inside_rank": 207,
+        "receivers": [
+          8,
+          9,
+          14,
+          15,
+          30,
+          31,
+          59
+        ],
+        "target_augmented_rank": 213
+      },
+      "words": {
+        "CLOSED-WORD.json.gz": {
+          "coalesced_profile": {
+            "1": 26,
+            "2": 3,
+            "3": 2,
+            "4": 2,
+            "5": 3,
+            "6": 8,
+            "7": 209,
+            "8": 3
+          },
+          "counts": {
+            "ADD": 463,
+            "CLEAR": 121,
+            "INIT": 121,
+            "MOVE": 1596
+          },
+          "normalization": {
+            "actual_proper_histories_checked": 2149,
+            "all_downward_moves": 41,
+            "cells": [
+              {
+                "dimension": 1,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              },
+              {
+                "dimension": 1,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 1,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              },
+              {
+                "dimension": 2,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 1,
+                "rank": 1
+              },
+              {
+                "dimension": 2,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 2,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 1,
+                "rank": 1
+              },
+              {
+                "dimension": 3,
+                "incoming": 2,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 2,
+                "rank": 1
+              },
+              {
+                "dimension": 3,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 4,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 4,
+                "incoming": 2,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 2,
+                "rank": 1
+              },
+              {
+                "dimension": 5,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 5,
+                "incoming": 3,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 2,
+                "rank": 2
+              },
+              {
+                "dimension": 6,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 2,
+                "rank": 1
+              },
+              {
+                "dimension": 6,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 1,
+                "rank": 1
+              },
+              {
+                "dimension": 6,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 7,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              },
+              {
+                "dimension": 7,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 7,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              }
+            ],
+            "ground_arrivals": 5,
+            "historical_coordinates": 12,
+            "historical_full_rank": 12,
+            "historical_x_rank": 12,
+            "owned_downward_moves": 40,
+            "owned_facet_incidences": 5,
+            "owned_moves": 40,
+            "public_downward_moves": 1
+          },
+          "owned_coalesced_profile": {
+            "1": 12,
+            "2": 2,
+            "8": 3
+          },
+          "owned_live": 0,
+          "peak": 118,
+          "public_downward_profile": {
+            "1": 1
+          }
+        },
+        "PARTIAL-WORD.json.gz": {
+          "coalesced_profile": {
+            "1": 26,
+            "2": 3,
+            "3": 2,
+            "4": 2,
+            "5": 3,
+            "6": 8,
+            "7": 107,
+            "8": 3
+          },
+          "counts": {
+            "ADD": 463,
+            "CLEAR": 5,
+            "INIT": 121,
+            "MOVE": 882
+          },
+          "normalization": {
+            "actual_proper_histories_checked": 1435,
+            "all_downward_moves": 41,
+            "cells": [
+              {
+                "dimension": 1,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              },
+              {
+                "dimension": 1,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 1,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              },
+              {
+                "dimension": 2,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 1,
+                "rank": 1
+              },
+              {
+                "dimension": 2,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 2,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 1,
+                "rank": 1
+              },
+              {
+                "dimension": 3,
+                "incoming": 2,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 2,
+                "rank": 1
+              },
+              {
+                "dimension": 3,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 4,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 4,
+                "incoming": 2,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 2,
+                "rank": 1
+              },
+              {
+                "dimension": 5,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 5,
+                "incoming": 3,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 2,
+                "rank": 2
+              },
+              {
+                "dimension": 6,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 2,
+                "rank": 1
+              },
+              {
+                "dimension": 6,
+                "incoming": 1,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 1,
+                "rank": 1
+              },
+              {
+                "dimension": 6,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 7,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              },
+              {
+                "dimension": 7,
+                "incoming": 3,
+                "kernel_dimension": 0,
+                "kernel_x_rank": 0,
+                "outgoing": 3,
+                "rank": 3
+              },
+              {
+                "dimension": 7,
+                "incoming": 1,
+                "kernel_dimension": 1,
+                "kernel_x_rank": 1,
+                "outgoing": 1,
+                "rank": 0
+              }
+            ],
+            "ground_arrivals": 5,
+            "historical_coordinates": 12,
+            "historical_full_rank": 12,
+            "historical_x_rank": 12,
+            "owned_downward_moves": 40,
+            "owned_facet_incidences": 5,
+            "owned_moves": 40,
+            "public_downward_moves": 1
+          },
+          "owned_coalesced_profile": {
+            "1": 12,
+            "2": 2,
+            "8": 3
+          },
+          "owned_live": 116,
+          "peak": 118,
+          "public_downward_profile": {
+            "1": 1
+          }
+        }
+      }
+    }
+  },
+  "scope": "Independent replay of all222 original columns,116 actual retained fields, real rational geometry and every paid public/owned occurrence, explicit six-channel residual cut, actual coalesced invoice. Producer code is neither executed nor imported. Scalar source tensors with identity for all characteristic-two fields and widths; no complete decoder.",
+  "status": "PASS_INDEPENDENT_PUBLIC_Y_TURN_NINE_TARGET_SOURCE",
+  "word_pins": {
+    "canonical": {
+      "CLOSED-WORD.json.gz": "24647446fa276637768abeedc89ba0f5c047231c00435fc681183e325925e833",
+      "PARTIAL-WORD.json.gz": "9198bb8e7ecbb5f1a47393cfb2340f79a2e0e3038c660bb81700ec57024db65c"
+    },
+    "gauge": {
+      "CLOSED-WORD.json.gz": "8da6974eedf7637381b2190c12bca1b68051214951bff73df59eb192685db89b",
+      "PARTIAL-WORD.json.gz": "2821160a7f62985e86e52ad022722502b84e535b3f79074b21cb769dac059ae1"
+    }
+  }
+}

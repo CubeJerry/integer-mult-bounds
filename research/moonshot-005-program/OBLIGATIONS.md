@@ -188,3 +188,17 @@ The fixed-global-mode bound counts historical row-space dimension, not packet
 identities. Its transpose counts input coefficients after encoding, not raw
 record visits. Those qualifications are part of the theorem, not exceptions
 introduced after a negative result.
+
+## S011 checkpoint11 transitions
+
+| Obligation | Status and exact scope | Remaining task |
+|---|---|---|
+| COUPLED-FEEDBACK | PROVED five/seven/nine-target actual sources, arbitrary Y and real retained point/pair banks. | Share global information before cell packets retire; residual deficit remains6V. |
+| PUBLIC-Y-TURN | PROVED paid rank6→5 original-Y feedback; two core variants independently replayed. | No gain to a complete supplier from this partial cost difference alone. |
+| RETAINED-PIVOT | PROVED actual lambda0 retained in the same packet, one Y finished, static six-mode complement. | Actual continuation with sufficiently new histories and all expenses. |
+| CANONICAL-COORDINATE | DISPROVED WITHIN SCOPE: whole history(C+<=4 coordinate directions)tensor k^V cannot meet target. | Noncoordinate histories or at least five coordinate directions; neither is shown sufficient. |
+| SCALAR-ONE-DIRECTION | DISPROVED WITHIN SCOPE: whole scalar historyC+span(h), any h, fails all-route target. | At least two nonzero projective quotient directions or a genuinely different operator/interface. |
+
+Coordinate deletion robustness is proved for ANY<=17 removed columns; only
+sizes0..4 yield the stated universal target exclusion. An explicit eight-
+coordinate algebraic fitting withell183 prevents extrapolation to all sizes.

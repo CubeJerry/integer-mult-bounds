@@ -1,0 +1,135 @@
+{
+  "author_code_imported": false,
+  "closed": {
+    "counts": {
+      "ADD": 616,
+      "CLEAR": 122,
+      "INIT": 122,
+      "MOVE": 1598
+    },
+    "distinct_MOVE_pairs": 761,
+    "erased_nonzero_values": 122,
+    "nonmonotone_owned": {
+      "343": [
+        [
+          5,
+          6,
+          1402
+        ],
+        [
+          6,
+          5,
+          1406
+        ]
+      ]
+    },
+    "owned_live": 0,
+    "peak_owned": 117
+  },
+  "input_columns": 222,
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "negative_controls": [
+    {
+      "name": "local_copy_ascent",
+      "reason": "actual cochart ADD",
+      "rejected": true
+    },
+    {
+      "name": "reflection_ascent",
+      "reason": "actual cochart ADD",
+      "rejected": true
+    },
+    {
+      "name": "reflection_descent",
+      "reason": "actual cochart ADD",
+      "rejected": true
+    },
+    {
+      "name": "core_undo",
+      "reason": "exact arbitrary-Y endpoint 92",
+      "rejected": true
+    },
+    {
+      "name": "arbitrary_Y_precode",
+      "reason": "exact arbitrary-Y endpoint 36",
+      "rejected": true
+    },
+    {
+      "name": "Y4_history_recoding",
+      "reason": "exact arbitrary-Y endpoint 36",
+      "rejected": true
+    },
+    {
+      "name": "remaining_X_restore",
+      "reason": "all original X restored at Hub",
+      "rejected": true
+    },
+    {
+      "name": "Y2_decode",
+      "reason": "exact arbitrary-Y endpoint 36",
+      "rejected": true
+    },
+    {
+      "name": "reverse_ordered_exchange",
+      "reason": "exact arbitrary-Y endpoint 36",
+      "rejected": true
+    },
+    {
+      "name": "uncharged_erasure_relocation",
+      "reason": "owned erasure at actual chart",
+      "rejected": true
+    }
+  ],
+  "partial": {
+    "counts": {
+      "ADD": 555,
+      "CLEAR": 8,
+      "INIT": 122,
+      "MOVE": 756
+    },
+    "distinct_MOVE_pairs": 342,
+    "erased_nonzero_values": 8,
+    "nonmonotone_owned": {
+      "343": [
+        [
+          5,
+          6,
+          1402
+        ],
+        [
+          6,
+          5,
+          1406
+        ]
+      ]
+    },
+    "owned_live": 114,
+    "peak_owned": 117
+  },
+  "pivot_sha256": "8c11ca368995bc6a77f8d0425ac259384a7edf6164bc4254dfc0c7d780e26e19",
+  "residual_cut": {
+    "augmented_rank": 217,
+    "completed_Y_inside": 0,
+    "deficit": 6,
+    "inside_fields": 218,
+    "observation_rank": 211,
+    "receivers": [
+      8,
+      9,
+      14,
+      15,
+      30,
+      31,
+      59
+    ]
+  },
+  "reviewed_pins": {
+    "CLOSED-WORD.json.gz": "2d533e3c061f829e67e5611d05a5e2297ec9a298a35b45f9d1cb221b983f126b",
+    "PARTIAL-WORD.json.gz": "6fce4f192725a564acde67081570f1cc0bc96ded56695a1197e6bee70ab0313a",
+    "PROOF.md": "212a13093033cfff99298b69b495181c462037fbd529e6f21d2bdd2df729ec9d",
+    "RESULT.json": "c44933107c23467fe0806b5f26bacf494e42ecdf05080ac56c50b40fb3f5af19",
+    "build_braid.py": "dca078ffa8036a6eb5f7a3710980040525963464fca88ed34237e9e9d673164c"
+  },
+  "scope": "Paid reflected partial source; six future inward channels still necessary in stated continuation; no full supplier or kappa.",
+  "status": "PASS_INDEPENDENT_ACTUAL_C5_PARTIAL_SOURCE"
+}

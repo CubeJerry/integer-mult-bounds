@@ -298,3 +298,20 @@ singular/rectangular decoder model. Its exact support and transpose bounds
 force genuinely richer acquisition or evolving histories. Independent universal
 proof reviews, distinct replay implementations and meaningful hypothesis
 counterexamples accompany all three contributions. **No new kappa.**
+
+### Coupled histories, a retained canonical pivot and support robustness
+
+The cumulative[actual cell family](results/bit-coupled-history-cells/ADMISSION.md)
+uses paid coupled feedback, original-source acquisition and real retained pair
+banks. A[public-Y turn](results/bit-public-y-turn/ADMISSION.md) replaces owned
+reflection with an independently charged chronology. Their six-future cuts
+are explicit, preventing an invalid composition from local target counts.
+
+The[retained pivot](results/bit-retained-canonical-pivot/ADMISSION.md) instead
+keeps its useful transformed global mode after completing one target. It has
+a true static six-mode interface and an exact full-caller screen, but the
+[coordinate support theorem](results/bit-canonical-coordinate-gate/ADMISSION.md)
+proves that the simplest small-coordinate continuation still fails. The scalar
+one-direction bridge additionally applies earlier gluing mathematics to the
+new fully charged route model. Every source, cost and failure scope has a
+separate review and exact pins. **No new kappa.**

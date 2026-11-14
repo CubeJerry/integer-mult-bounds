@@ -1,0 +1,251 @@
+{
+  "author_code_imported_or_run": false,
+  "closed": {
+    "counts": {
+      "ADD": 467,
+      "CLEAR": 122,
+      "INIT": 122,
+      "MOVE": 1596
+    },
+    "distinct_MOVE_pairs": 842,
+    "erased_nonzero_values": 122,
+    "nonmonotone_owned": {
+      "341": [
+        [
+          5,
+          6,
+          1397
+        ],
+        [
+          6,
+          5,
+          1401
+        ]
+      ]
+    },
+    "owned_live": 0,
+    "peak_owned": 119
+  },
+  "coalesced_MOVE_profile": {
+    "1": 28,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 3,
+    "6": 8,
+    "7": 209,
+    "8": 3
+  },
+  "independent_moment_intervals_t_199_over_200": {
+    "0": {
+      "lower_rational": "75711800371254442611039760233472245167907242641623382725/47890485652059026823698344598447161988085597568237568",
+      "upper_rational": "151423600742508885222079520466944490335814485283246765679/95780971304118053647396689196894323976171195136475136"
+    },
+    "6": {
+      "lower_rational": "9748345873833908381530072448935667842921147048496997513/5986310706507378352962293074805895248510699696029696",
+      "upper_rational": "155973533981342534104481159182970685486738352775951960443/95780971304118053647396689196894323976171195136475136"
+    }
+  },
+  "input_columns": 222,
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "negative_controls": [
+    {
+      "name": "reflection_ascent",
+      "reason": "actual cochart ADD",
+      "rejected": true
+    },
+    {
+      "name": "reflection_descent",
+      "reason": "actual cochart ADD",
+      "rejected": true
+    },
+    {
+      "name": "arbitrary_Y_precode",
+      "reason": "exact arbitrary-Y endpoint 110",
+      "rejected": true
+    },
+    {
+      "name": "cycle_Y_precode",
+      "reason": "exact arbitrary-Y endpoint 36",
+      "rejected": true
+    },
+    {
+      "name": "Y4_history_recoding",
+      "reason": "exact arbitrary-Y endpoint 36",
+      "rejected": true
+    },
+    {
+      "name": "Y2_decode",
+      "reason": "exact arbitrary-Y endpoint 23",
+      "rejected": true
+    },
+    {
+      "name": "actual_core_deposit",
+      "reason": "exact arbitrary-Y endpoint 8",
+      "rejected": true
+    },
+    {
+      "name": "Y4_original_read",
+      "reason": "exact arbitrary-Y endpoint 36",
+      "rejected": true
+    },
+    {
+      "name": "common_original_read_1",
+      "reason": "exact arbitrary-Y endpoint 36",
+      "rejected": true
+    },
+    {
+      "name": "private_original_read_1",
+      "reason": "exact arbitrary-Y endpoint 36",
+      "rejected": true
+    },
+    {
+      "name": "common_original_read_3",
+      "reason": "exact arbitrary-Y endpoint 38",
+      "rejected": true
+    },
+    {
+      "name": "private_original_read_3",
+      "reason": "exact arbitrary-Y endpoint 38",
+      "rejected": true
+    },
+    {
+      "name": "pair_bank_0_aggregate",
+      "reason": "exact arbitrary-Y endpoint 8",
+      "rejected": true
+    },
+    {
+      "name": "pair_bank_0_copy",
+      "reason": "exact arbitrary-Y endpoint 23",
+      "rejected": true
+    },
+    {
+      "name": "pair_bank_0_restore",
+      "reason": "exact arbitrary-Y endpoint 8",
+      "rejected": true
+    },
+    {
+      "name": "pair_bank_1_aggregate",
+      "reason": "exact arbitrary-Y endpoint 8",
+      "rejected": true
+    },
+    {
+      "name": "pair_bank_1_copy",
+      "reason": "exact arbitrary-Y endpoint 41",
+      "rejected": true
+    },
+    {
+      "name": "pair_bank_1_restore",
+      "reason": "exact arbitrary-Y endpoint 8",
+      "rejected": true
+    },
+    {
+      "name": "completed_Y_feedback_0",
+      "reason": "exact arbitrary-Y endpoint 23",
+      "rejected": true
+    },
+    {
+      "name": "completed_Y_feedback_1",
+      "reason": "exact arbitrary-Y endpoint 23",
+      "rejected": true
+    },
+    {
+      "name": "completed_Y_feedback_2",
+      "reason": "exact arbitrary-Y endpoint 41",
+      "rejected": true
+    },
+    {
+      "name": "pair_refill_0_read",
+      "reason": "exact arbitrary-Y endpoint 23",
+      "rejected": true
+    },
+    {
+      "name": "pair_refill_0_local_read",
+      "reason": "exact arbitrary-Y endpoint 23",
+      "rejected": true
+    },
+    {
+      "name": "pair_refill_0_returned_history",
+      "reason": "exact arbitrary-Y endpoint 110",
+      "rejected": true
+    },
+    {
+      "name": "pair_refill_1_read",
+      "reason": "exact arbitrary-Y endpoint 41",
+      "rejected": true
+    },
+    {
+      "name": "pair_refill_1_local_read",
+      "reason": "exact arbitrary-Y endpoint 41",
+      "rejected": true
+    },
+    {
+      "name": "pair_refill_1_returned_history",
+      "reason": "exact arbitrary-Y endpoint 61",
+      "rejected": true
+    },
+    {
+      "name": "reverse_ordered_exchange",
+      "reason": "exact arbitrary-Y endpoint 36",
+      "rejected": true
+    },
+    {
+      "name": "uncharged_erasure_relocation",
+      "reason": "owned erasure at actual chart",
+      "rejected": true
+    }
+  ],
+  "partial": {
+    "counts": {
+      "ADD": 467,
+      "CLEAR": 6,
+      "INIT": 122,
+      "MOVE": 882
+    },
+    "distinct_MOVE_pairs": 441,
+    "erased_nonzero_values": 6,
+    "nonmonotone_owned": {
+      "341": [
+        [
+          5,
+          6,
+          1397
+        ],
+        [
+          6,
+          5,
+          1401
+        ]
+      ]
+    },
+    "owned_live": 116,
+    "peak_owned": 119
+  },
+  "pivot_sha256": "8c11ca368995bc6a77f8d0425ac259384a7edf6164bc4254dfc0c7d780e26e19",
+  "residual_cut": {
+    "augmented_rank": 213,
+    "completed_Y_inside": 0,
+    "deficit": 6,
+    "inside_fields": 210,
+    "observation_rank": 207,
+    "receivers": [
+      8,
+      9,
+      14,
+      15,
+      30,
+      31,
+      59
+    ]
+  },
+  "reviewed_pins": {
+    "BUDGET.json": "febcc8d560d8e74c291327fcfc7e92d571b5561948ab48b58bef3888746fd728",
+    "CLOSED-WORD.json.gz": "7826f694048e9c28f7d25edd8c2aa206b8dbe8458b4c65a05123791c053039cc",
+    "PARTIAL-WORD.json.gz": "8936e50a3b637e788876da2802c0d11bf85f0339dc51e9169f6c42eabe2d9919",
+    "PROOF.md": "75eaa422f9dfef3701ae93dad0a3ea558644bfcc5f197b91e9159401cf1b9596",
+    "RESULT.json": "990ebb50e4e2d525fe128cb5bace1cd43d2be27b1620349e3af1d9f8a99417cb",
+    "build_nine.py": "f99bfc2896163e373224a4ce86608bf0452f49f0367db5d006aeca03a4180cbe"
+  },
+  "scope": "Paid reflected partial source with actual pair banks; six future inward channels still necessary in stated continuation. No full supplier or kappa.",
+  "status": "PASS_INDEPENDENT_FRONTLOADED_NINE_TARGET_REVIEW"
+}

@@ -121,3 +121,14 @@ retired cell packets plus a six-future cut would require11 Hub packets and
 fails the inherited cap. The coupled fragments are useful local mechanisms,
 not a completed architecture. On the complex side leave the fixed parity flow;
 read its incidence gate before investigating square or branching collectors.
+
+## Checkpoint11 current construction
+
+Resume the exact retained-pivot source and code. Do not discard its pure
+lambda0 or spend two retired coupled-cell packets before a six-future cut.
+Use actual joint original-source acquisition or proper-chart mixed banks to
+produce new histories while preserving current useful modes. Read the
+coordinate and scalar gates before assuming C+e0 or C+one arbitrary mode
+can suffice. Full six/seven future-mode budgets are conditional screens.
+On the complex side, proper-chart auxiliary imports and dirty relays are
+active escapes; any locality obstruction must prove its support induction.
