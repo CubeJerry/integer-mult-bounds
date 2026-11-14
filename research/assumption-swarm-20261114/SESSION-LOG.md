@@ -95,3 +95,9 @@ B11 published9700fc89e2582a1fb358a4c6d0d0387076192adc,tree95fbe21e6c7720bd0e8542
 A13 final proofc2743b821b0fd522adf82db35ead7f0e8e3db3b8a5833a61e0d89b2b5840fff2 corrects fresh/bounded-history stock and shared-pool lifetime. Retained clear costs5ell+7 independent of old blank capacity; old stock remains. Canonical execution runs at local900802e5b00fad8d9cd7d9beddf5f3e64f00dd0d. No verified remote publication yet.
 
 B12 approved09:29UTC: remaining raw compare/add/subtract providers at the same source ABI, literal alias/finite flags, one-output reservation and outermost meter subtraction. Author construction, source/count review and graph/owner review are distinct. No new speculative start after09:57UTC. Candidate10:35UTC; publication decision11:30UTC. All five full assumptions and selected kappa unchanged.
+
+## Checkpoint16: twenty-six verified publications; final combined arithmetic only
+
+A13 published8df9a7c57aaf87873556867f96658c2474518238, treedf912654d0ed716cee01e0a7ad4058e910935a25,35 package additions. Local publicationa940cc1438d4683ffb3628638ccfeb04aa9c20d7 preserves tested science900802e5b00fad8d9cd7d9beddf5f3e64f00dd0d. Four canonical commands passed;40 exported files include six existing canonical runtime inputs, which are unchanged and not branch additions. Root checked14 canonical paths,5 retained dependencies and8 nested runtime paths; C supplied independent exact history/lifecycle controls. Remote full tree, ref, canonical parent and package-only diff match. Concise prefillHTTP200/query/branch checked; no upstream PR.
+
+All26 published contributions are indexed with immutable full descriptions. B12 remains the final unpublished approved construction with complementary source/count and graph/ownership review. New speculation ends09:57UTC; publication decision11:30UTC. No complete-kappa or full-assumption change.
