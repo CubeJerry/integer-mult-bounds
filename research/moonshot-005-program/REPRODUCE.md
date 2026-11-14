@@ -251,3 +251,8 @@ Each new admission has `reproduce.py --output /absolute/scratch/receipt.json`, s
 ## S013 checkpoint3
 
 Run `python -B research/moonshot-005-program/sessions/2026-11-14-S013/reproduce_checkpoint3.py --repo . --out /tmp/s013-checkpoint3` from the repository root with a fresh output path. Expected six PASS jobs and top-level PASS in VALIDATION.json. The runner copies the symmetry discovery script before running it so no frozen package is mutated. Separate reviewers, literal source builders, retained signed interpreters and exact price checks have distinct logs. Historical ledger exceptions remain visible and the old global verifier is not represented as passing.
+
+
+## S013 checkpoint4
+
+Use results/quadratic-sign-query-gate/README.md to run the dependency-free JavaScript function. The exact body was executed in orchestration V8 after local execution became unavailable; no post-outage Node/Python run is claimed. The finite checks supplement the all-d/all-width-qualified/all-exponent written proof. Read the session workspace-loss record before using any unavailable local-path reference.

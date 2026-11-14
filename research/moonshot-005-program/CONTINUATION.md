@@ -208,3 +208,10 @@ For complex arithmetic, the rank-two skew source supersedes the larger repair as
 Read bit-pentagon-history-fork/ADMISSION.md and use CONTINUABLE-PREFIX, not the all-Hub core, for future construction. The two packets complete five outputs while retaining four independent historical modes; all106 unserved inputs remain on their source lines. Compose paid acquisitions and overlapping caches; do not multiply a local saving into a global bound without a new word. The canonical pair gate now excludes every d<2V block quotient in the marked q8/q9 interfaces, including formerly unexcluded small-field pencils. The d=2V boundary, noncanonical histories and cubic proper-flat modes are live research directions.
 
 The chi-zero16-class fitting is static and all pairwise whole-class spans are full rank; it requires a different joint acquisition. The two-point pivot's chi52 also does not remove its strict>8V future transfer requirement. On the complex side, full120 order-three symmetry is admitted but the actual diagonal/reverse service and caller remain. Preserve the separate112-port concurrent track. Every relevant admission says exactly which finite checks and all-width arguments are established.
+
+
+## S013 checkpoint4: continue without confusing evidence classes
+
+S013 is still active. The local executor is unavailable, while pureJavaScript computation and GitHub access work. Read the session workspace-loss record and cloud/SOURCE-RECOVERY.json. The new quadratic-sign package is admitted with explicit scope; the old moving-gauge/determinant/Hermitian local files are not magically recovered by that admission.
+
+Next construct across the actual three-facetA2 geometryF92,F15,F106, or fuse the live pentagon into a larger source. Preserve all source access and every movement. Complex work should exploit changed spatial/source structure, including S012's reconstructed complementary involutive channels, instead of the excluded commuting chain. Recheck the remote head before any publication.

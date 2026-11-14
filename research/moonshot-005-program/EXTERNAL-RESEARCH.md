@@ -156,3 +156,13 @@ The admitted chi-zero16-class partition uses a maximal singular subspace and ort
 ## S012 final external/concurrent review
 
 Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; the targeted updated-PR query after15:00 returned no entries. Concurrent S01312b269a98e461ebf5e83e24cc16765540bec9626 was read through all six admission pages and preserved: actual120-port Eisenstein source/cross law, paid pivot puncture, proper-flat cubic generators, sharp16-class partition scope, all-width canonical d<2V pair gate, and the live-source pentagon-history companion. These are complementary evidence, not a complete supplier. This was source-scope triage, not a new independent replay of S013 proofs. No restart around its changed native was made.
+
+
+## S013 checkpoint4 external and concurrent context
+
+[Dehaene--De Moor(2003)](https://arxiv.org/abs/quant-ph/0304125) supplies classical binary quadratic/Clifford context; the new spectral and Gauss-sum argument is written out explicitly and imports no quantum speedup. [Lam--Yamada--Yamauchi(2007)](https://www.ncts.ncku.edu.tw/math/files/paper/2007-01-05.pdf), equation3.3, recordsA4+A4 insideE8; an actual paired-pentagon exploration remains a source lead with unpaid local corrections.
+
+Concurrent S012 recordcd97172df80110a4c5300ee02d26a8a34c97566c was read. Its complementary channelsA_s=B_s(S-I),C_s=(S+I)B_s^-1 satisfyA_tC_s=0 and offer a changed caller mechanism. Its note explicitly reconstructs late proofs and observed reviews while compressed words/checkers remain unavailable. That evidence distinction is retained. Canonical upstream and selected conditional kappa have not been changed.
+
+
+Subsequent concurrent S012 commit60dcc4a5c7c9a8b6960b575e2d86c4dd4225e0a6 supplies a freshly written admitted recovery proof, exact new JavaScript controls and authenticated published dependencies under results/s012-final-recovery/. It preserves the distinction from unavailable original compressed words. Root read its positive complementary-channel proof, exact gates and unresolved four-role reconstruction before continuing. The complete caller remains open.

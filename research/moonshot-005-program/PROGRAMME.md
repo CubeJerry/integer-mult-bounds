@@ -444,3 +444,10 @@ A new actual-source interface has one common S²=I despite varying stage routes:
 The canonical three-half shared-middle sign cannot supply two head gains. New joint max-entry/norm arguments exclude bounded finite ordinary repairs of the fixed completed maps; uniform-rank complete-bank paid pre/post repair also exceeds its available price. Heterogeneous/partial services, interstage queries, different histories and extra fields remain outside those specific theorems.
 
 The environment failed around16:22 before the local checkpoint12 packages were pushed. The [recovery package](results/s012-final-recovery/ADMISSION.md) supplies complete recovered mathematical proofs, independent-review provenance, newly executed exact JavaScript controls and five freshly authenticated published dependencies. It explicitly distinguishes unavailable original compressed words/Python evidence and unreviewed WIP. Concurrent S013 checkpoint3 at12b269a98e461ebf5e83e24cc16765540bec9626 is preserved. No new kappa; both strict suppliers and all five foundations remain open.
+
+
+## S013 checkpoint4: a structural caller gate and a global acquisition direction
+
+The two-head/body-seven canonical control cannot fund the retained chain for ANY0<t<1, even with arbitrary translation-diagonal Gaussian queries. The proof uses actual quadratic tensor-spectrum signs and exact majorization, with fixed-d/large-width and commuting-coefficient hypotheses explicit. This closes the apparent nonaxis-query escape within that algebra. Changed spatial operations, body incidence and joint source structure remain open.
+
+The constructive BIT direction now investigates the three actual facetsF92,F15,F106 sharing one rank6 chart. This could replace row-dependent correction carriers by a common acquisition geometry. Its complete chronology and price remain open; the already admitted live pentagon remains an actual module. Local workspace loss did not erase the programme: cloud exact computation and GitHub persistence continue, with unverified local artifacts separately recorded.

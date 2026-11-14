@@ -408,3 +408,8 @@ The canonical three-half shared-middle sign cannot supply two head gains. New jo
 The environment failed around16:22 before the local checkpoint12 packages were pushed. The [recovery package](results/s012-final-recovery/ADMISSION.md) supplies complete recovered mathematical proofs, independent-review provenance, newly executed exact JavaScript controls and five freshly authenticated published dependencies. It explicitly distinguishes unavailable original compressed words/Python evidence and unreviewed WIP. Concurrent S013 checkpoint3 at12b269a98e461ebf5e83e24cc16765540bec9626 is preserved. No new kappa; both strict suppliers and all five foundations remain open.
 
 The cumulative branch remains an ongoing research programme, not PR-ready. The last local verification wave suffered an environment loss; the committed recovery clearly identifies which original artifact packages remain unavailable. A complete conditional target theorem, or a fully reconciled coherent partial package with all required artifacts, is still needed before submission. No upstream PR is created.
+
+
+## S013 checkpoint4 addition
+
+A new independently text-reviewed theorem rules out the specified commuting two-head chain for every0<t<1, including arbitrary translation-diagonal Gaussian queries. Actual quadratic tensor-spectrum witnesses, symmetric-matrix Gaussian ranks and two explicit majorizations replace a target-specific numerical screen. PureJavaScript exact controls and the full scope are published. The result does not exclude arbitrary spatial ordinary operations or other callers. Workspace-loss provenance and authenticated certificate-based source recovery are preserved separately. **No new kappa. Ongoing research programme; no upstream PR submitted.**

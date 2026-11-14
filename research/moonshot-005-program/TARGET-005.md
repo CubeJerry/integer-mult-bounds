@@ -447,3 +447,8 @@ For either stated fixed completed map, a unit row has support<=64·2^(23V). A wh
 Aggregate pricing additionally requires UNIFORM-RANK complete112-port banks or an independently proved equivalent invoice bound. Under that premise two-head repair costs at least223.2250188734 against room173.8849547598; head/body repair costs112 against64.2130403471. Merely being a heterogeneous complete layer does not justify112 times its maximum-rank price. The corrected scope and exact new integer-root enclosures are in the recovery package.
 
 The positive remaining interface is shared-S complementary channels. It needs a whole simultaneous S-body caller; applying ordinary lambda afterward gives the target Q-body jobs with its real linear cost. Existing two-bank stage/query limits and the conditional four-role6-idle budget remain unchanged. Strict compatible U>.005 and completed B>.005 remain necessary.
+
+
+## S013 checkpoint4: all-exponent two-head chain exclusion
+
+For the explicit canonical two-head control and retained chain body profile, arbitrary translation-diagonal Gaussian queries obey queryprice>=2^(t-1)(e0+e1) under the stated ordinary coefficient model. Quadratic spectral patterns are physically realized forV>=2d+5*binomial(d,2). The favorable all-arm allowance is maximized at arm1 and equals14^t+2*9^t, strictly below2(1+7^t+8^t) for every0<t<1 by majorization. At t=199/200 the previous exact gap is0.0791417694912... perport/native. No scalar or nonaxis commuting query optimization can repair this caller class. General spatial permutations, different body incidence, productive helpers and improved query suppliers are outside the theorem. Both strict supplier requirements and all foundations are unchanged.

@@ -372,3 +372,12 @@ The environment failed around16:22 before the local checkpoint12 packages were p
 - Computationally verified: fresh exact JS controls and five remote source hashes.
 - Open: simultaneous productive S extraction, full suppliers and foundations.
 - Pending evidence recovery: original late Python packages and compressed cocharted words. Their unavailable bytes are not marked reproduced.
+
+
+## S013 checkpoint4 dependency update
+
+- **COMPLEX-QUADRATIC-SIGN-QUERY-GATE** — proved in its explicit model for all0<t<1. [Admission](results/quadratic-sign-query-gate/ADMISSION.md). Actual tensor-spectrum realization, true Gaussian query rank, averaged cuts and both majorizations are proved; finite checks and independent text review are distinct.
+- **BIT-A2-COMMON-CARRIER-SOURCE** — open. Construct a chronological source usingF92,F15,F106 and their commonrank6 chart. Native geometry is being independently derived from authenticated certificates; actual shared acquisition, receiver corrections, original access, erasure and whole-system budget are still owed.
+- **S013-LOCAL-EVIDENCE-RECOVERY** — open/qualified. See the workspace-loss record for unavailable moving-gauge, determinant and Hermitian artifacts. Observed checks do not substitute for missing bytes; new cloud reproductions receive separate provenance.
+
+The retained112-port source/caller and five foundational obligations remain. Concurrent S012's complementary channel mechanism is preserved as an explicitly reconstructed lead, not a newly admitted compressed source package.
