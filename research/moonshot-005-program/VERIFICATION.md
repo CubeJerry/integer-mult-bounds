@@ -383,3 +383,12 @@ Four additional packages have independent mathematical reviews and separate exac
 All four author receipts were freshly reproduced in cloud JavaScript, including the preferred literal injection fixtures/code certificate/price. Root checks are not merely author replays. All universal claims depend on the written quantified arguments. Local Node wrappers were syntax-checked but not represented as locally executed; no fresh native gzip or unavailable global verifier is claimed.
 
 Registry270; ledger4363; new scientific files43; all4320 predecessor entries and qualified historical absences preserved. Detailed evidence: sessions/2026-11-14-S013/CHECKPOINT8-VALIDATION.json. The previous confirmed publication is4bf5bc1f28c87fe6120bd053d8202e40b425d6fb. Candidate readback and leased remote confirmation follow separately. No new kappa.
+
+
+## S013 checkpoint9
+
+The ledger has4456 scientific entries, preserving all4363 predecessors and both qualified historical absences. The registry has278 results. Eight packages have source/dependency pins, proof classifications, reviews and reproduction commands. Root independently reconstructed native geometry, checked literal222-column operations and five fresh mutants, enumerated15 common-chart matchings, established the singular split and evaluated exact integer-root prices. C independently audited the complex signed and two-sided kernel arguments with separate code. Root's ordinary-kernel proposal is not labelled independent of its authoring; C supplied the separate proof audit.
+
+Author functions were freshly replayed in cloud V8. Universal theorems rest on quantified written proofs, including scalar extension and block scaling where claimed. The two-bank frozen receipt projects full marker snapshots to its documented core; fresh replay checked that projection and every other field. Node wrappers were syntax-checked, not locally executed. No fresh gzip replay or unavailable global verifier is claimed.
+
+Compact logical records link a byte-authenticated archive of checkpoint8 versions. Details and root receipt hashes: sessions/2026-11-14-S013/CHECKPOINT9-VALIDATION.json. The prior remote identity is recorded in CHECKPOINT8-PUBLISHED.json. Candidate file readback, exact changed-path inspection and a fresh remote lease precede publication. No selected certificate changes and no new kappa.

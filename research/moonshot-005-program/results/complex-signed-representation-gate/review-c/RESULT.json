@@ -1,0 +1,96 @@
+{
+  "signed": {
+    "status": "PASS_INDEPENDENT_SIGNED_CALLER_REVIEW",
+    "group": 192,
+    "ordinary": 24,
+    "coset_reconstruction": "Eight products of Qa,Qb,Qc modulo actual four translations; no author sign formula imported",
+    "homomorphism_checks": 73728,
+    "rank_census_from_Fourier_support": {
+      "0,0": 24,
+      "2,3": 24,
+      "1,1": 72,
+      "2,2": 72
+    },
+    "native_cases": [
+      {
+        "sigma": -1,
+        "epsilon": -1,
+        "c": -1,
+        "rank": 2
+      },
+      {
+        "sigma": -1,
+        "epsilon": -1,
+        "c": 1,
+        "rank": 2
+      },
+      {
+        "sigma": -1,
+        "epsilon": 1,
+        "c": -1,
+        "rank": 2
+      },
+      {
+        "sigma": -1,
+        "epsilon": 1,
+        "c": 1,
+        "rank": 2
+      },
+      {
+        "sigma": 1,
+        "epsilon": -1,
+        "c": -1,
+        "rank": 2
+      },
+      {
+        "sigma": 1,
+        "epsilon": -1,
+        "c": 1,
+        "rank": 2
+      },
+      {
+        "sigma": 1,
+        "epsilon": 1,
+        "c": -1,
+        "rank": 2
+      },
+      {
+        "sigma": 1,
+        "epsilon": 1,
+        "c": 1,
+        "rank": 2
+      }
+    ],
+    "tensor_independence": {
+      "width": 6,
+      "prime": 137,
+      "imaginary": 37,
+      "rank": 192,
+      "det": 32
+    },
+    "raw_invoice": {
+      "scale": "10000000000000000000000000",
+      "margin": [
+        "9302175408765793434332219",
+        "9302175408765793434332226"
+      ]
+    },
+    "scope": "Fixed collective G192/H24; all V>=6 by tensor independence. No caller and no new kappa."
+  },
+  "lambda": {
+    "status": "PASS_INDEPENDENT_LAMBDA_SOURCE_REVIEW",
+    "algebra": "Exact Gaussian-dyadic coefficients in the abstract commuting phase group; collective identities hold at every tensor width",
+    "literal_source_entries_checked": 16,
+    "arbitrary_inputs": 4,
+    "lambda_identities_checked": 8,
+    "butterfly_operations": 5,
+    "ordinary_services": {
+      "full_source": 8,
+      "per_half": 4,
+      "per_pair_add": 3,
+      "per_pair_scale": 2,
+      "helper_storage": 0
+    },
+    "scope": "No new Gaussian MOVE; layout and finite precision/scalar costs remain paid. This is not a caller."
+  }
+}

@@ -1,0 +1,9 @@
+function reviewConservationPriceAndSharpness(){
+ const S=10n**30n,cache={},need=(x,m)=>{if(!x)throw Error(m)};function root(n){if(cache[n])return cache[n];const target=BigInt(n)**199n*S**200n;let a=0n,b=BigInt(n)*S;while(a<b){const c=(a+b+1n)>>1n;if(c**200n<=target)a=c;else b=c-1n}return cache[n]=[a,a**200n===target?a:a+1n]}function sum(terms){let a=0n,b=0n;for(const[n,c]of terms){const[u,v]=root(n),q=BigInt(c);a+=q>=0n?q*u:q*v;b+=q>=0n?q*v:q*u}return[a,b]}
+ const floor=sum([[1,1],[7,1],[8,-1]]),query2=sum([[2,1],[7,2],[8,-2]]),twohalf=sum([[16,4],[1,-3],[7,-6],[8,-2],[2,-1]]);need(floor[0]>0n&&query2[0]>0n&&twohalf[0]>0n,"exact signs");
+ const zero=()=>Array(6).fill(0),mono=(e,c=1)=>{const v=zero();v[(e%6+6)%6]=c;return v},add=(a,b)=>a.map((x,i)=>x+b[i]),mul=(a,b)=>{const c=zero();a.forEach((x,i)=>b.forEach((y,j)=>c[(i+j)%6]+=x*y));return c},mm=(a,b)=>a.map((r,i)=>b[0].map((_,j)=>r.reduce((s,x,k)=>add(s,mul(x,b[k][j])),zero())));
+ const native=c=>[[mono(1),mono(2,c)],[zero(),mono(1)]],out=mm(native(1),native(-1)),bad=mm(native(1),native(1));need(JSON.stringify(out)===JSON.stringify([[mono(2),zero()],[zero(),mono(2)]]),"sharp source pair");need(bad[0][1][3]===2,"same-sign fails cancellation");
+ return{status:"PASS_ROOT_CONSERVATION_PRICE_SHARPNESS",scale:String(S),universal_target_gap_lower:floor.map(String),rank2_query_extra_lower:query2.map(String),excluded_two_half_raw_margin:twohalf.map(String),sharp_formal_endpoint:"N(+)*N(-)=diag(A^2,A^2) in C[A]/(A^6-1)",negative_same_sign_cross_coefficient:2,universal_scope:"Written two-sided kernel proof; finite controls only authenticate exact source and target-price arithmetic",new_kappa:false};
+}
+if(typeof module!=="undefined")module.exports={reviewConservationPriceAndSharpness};
+if(typeof require!=="undefined"&&require.main===module)console.log(JSON.stringify(reviewConservationPriceAndSharpness(),null,2));

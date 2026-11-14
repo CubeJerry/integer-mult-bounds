@@ -1,0 +1,46 @@
+{
+  "baseline_sha": "efe6a53276960e1a6c0dfea0b9f4be6c63312d23",
+  "dependencies": [
+    "complex-signed-representation-gate",
+    "complex-ordinary-kernel-gate",
+    "complex-tensor-rank-components",
+    "complex-common-cubic-head"
+  ],
+  "author_transfers": [
+    {
+      "file": "author/PROOF.md",
+      "git_blob": "5a82f920439b78a6aa891933c5d45757fc2097ae",
+      "sha256": "f168260e196503dcd2649cf016411320882c69516e0f0804086333993dd54763"
+    },
+    {
+      "file": "author/check.js",
+      "git_blob": "d8d8621df874021d40bdb0ee85c595bcb0c9fcf7",
+      "sha256": "efbc8a0d2afd96f2ad02a8395c998d51b56ae9ae97625e429dde586549031498"
+    },
+    {
+      "file": "author/RESULT.json",
+      "git_blob": "ccf633a5bb778ccd3f8fde2036ffedfc91ba79f6",
+      "sha256": "83c2c39eceb79bb5519546e30fcc8982433e9e78a20c3889f91ea9a05b44c2bd"
+    }
+  ],
+  "independent_c_transfers": [
+    {
+      "file": "review-c/REVIEW.md",
+      "git_blob": "1f2fbd9194e4bedee5b9f027997504832e147479",
+      "sha256": "b9239e414062190f915877b1eac786eb13138513b8b78706f6253801c3c5aa25"
+    },
+    {
+      "file": "review-c/check.mjs",
+      "git_blob": "990082bc371e9c7141f83f3f19c7175142073c57",
+      "sha256": "d4c2878cc6971010f84ffa1bac318372bd341a7abe39205d8f1260bf0093c298"
+    },
+    {
+      "file": "review-c/RESULT.json",
+      "git_blob": "df41248153ec547679cb1ef7576f13c2fcc5ee0e",
+      "sha256": "ead19678066c5be30db6f7fdf912300eaa2fd763fc9f43b1b3496334685a8ed0"
+    }
+  ],
+  "source_qualification": "Fixed exact G192/H24; eventual tensor faithfulness. Cloud exact execution, not local Node replay.",
+  "foundational_assumptions_retained": true,
+  "new_complete_kappa": false
+}

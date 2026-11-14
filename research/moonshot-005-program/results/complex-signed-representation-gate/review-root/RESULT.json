@@ -1,0 +1,272 @@
+{
+  "status": "PASS_ROOT_PROOF_REVIEW_AND_REPRODUCTION",
+  "independent_c_receipt": {
+    "signed": {
+      "status": "PASS_INDEPENDENT_SIGNED_CALLER_REVIEW",
+      "group": 192,
+      "ordinary": 24,
+      "coset_reconstruction": "Eight products of Qa,Qb,Qc modulo actual four translations; no author sign formula imported",
+      "homomorphism_checks": 73728,
+      "rank_census_from_Fourier_support": {
+        "0,0": 24,
+        "2,3": 24,
+        "1,1": 72,
+        "2,2": 72
+      },
+      "native_cases": [
+        {
+          "sigma": -1,
+          "epsilon": -1,
+          "c": -1,
+          "rank": 2
+        },
+        {
+          "sigma": -1,
+          "epsilon": -1,
+          "c": 1,
+          "rank": 2
+        },
+        {
+          "sigma": -1,
+          "epsilon": 1,
+          "c": -1,
+          "rank": 2
+        },
+        {
+          "sigma": -1,
+          "epsilon": 1,
+          "c": 1,
+          "rank": 2
+        },
+        {
+          "sigma": 1,
+          "epsilon": -1,
+          "c": -1,
+          "rank": 2
+        },
+        {
+          "sigma": 1,
+          "epsilon": -1,
+          "c": 1,
+          "rank": 2
+        },
+        {
+          "sigma": 1,
+          "epsilon": 1,
+          "c": -1,
+          "rank": 2
+        },
+        {
+          "sigma": 1,
+          "epsilon": 1,
+          "c": 1,
+          "rank": 2
+        }
+      ],
+      "tensor_independence": {
+        "width": 6,
+        "prime": 137,
+        "imaginary": 37,
+        "rank": 192,
+        "det": 32
+      },
+      "raw_invoice": {
+        "scale": "10000000000000000000000000",
+        "margin": [
+          "9302175408765793434332219",
+          "9302175408765793434332226"
+        ]
+      },
+      "scope": "Fixed collective G192/H24; all V>=6 by tensor independence. No caller and no new kappa."
+    },
+    "lambda": {
+      "status": "PASS_INDEPENDENT_LAMBDA_SOURCE_REVIEW",
+      "algebra": "Exact Gaussian-dyadic coefficients in the abstract commuting phase group; collective identities hold at every tensor width",
+      "literal_source_entries_checked": 16,
+      "arbitrary_inputs": 4,
+      "lambda_identities_checked": 8,
+      "butterfly_operations": 5,
+      "ordinary_services": {
+        "full_source": 8,
+        "per_half": 4,
+        "per_pair_add": 3,
+        "per_pair_scale": 2,
+        "helper_storage": 0
+      },
+      "scope": "No new Gaussian MOVE; layout and finite precision/scalar costs remain paid. This is not a caller."
+    }
+  },
+  "author_receipt": {
+    "gate": {
+      "status": "PASS_SIGNED_PERMUTATION_CALLER_GATE",
+      "source_group": 192,
+      "ordinary_subgroup": 24,
+      "quotient": "C2^3 semidirect S3, after the four ordinary translations",
+      "exact_representation_multiplication_checks": 73728,
+      "census_gaussian_rank_and_difference_rank": {
+        "0,0": 24,
+        "2,3": 24,
+        "1,1": 72,
+        "2,2": 72
+      },
+      "native_controls": [
+        {
+          "sigma": -1,
+          "epsilon": -1,
+          "coupling": -1,
+          "difference_rank": 2
+        },
+        {
+          "sigma": -1,
+          "epsilon": -1,
+          "coupling": 1,
+          "difference_rank": 2
+        },
+        {
+          "sigma": -1,
+          "epsilon": 1,
+          "coupling": -1,
+          "difference_rank": 2
+        },
+        {
+          "sigma": -1,
+          "epsilon": 1,
+          "coupling": 1,
+          "difference_rank": 2
+        },
+        {
+          "sigma": 1,
+          "epsilon": -1,
+          "coupling": -1,
+          "difference_rank": 2
+        },
+        {
+          "sigma": 1,
+          "epsilon": -1,
+          "coupling": 1,
+          "difference_rank": 2
+        },
+        {
+          "sigma": 1,
+          "epsilon": 1,
+          "coupling": -1,
+          "difference_rank": 2
+        },
+        {
+          "sigma": 1,
+          "epsilon": 1,
+          "coupling": 1,
+          "difference_rank": 2
+        }
+      ],
+      "rank1_query_types_checked": 72,
+      "query_modes": [
+        "in-place",
+        "distinct-bank shear"
+      ],
+      "ordinary_lambda_translation_controls": [
+        102,
+        30,
+        120
+      ],
+      "universal_inequality": "h1 + 2*h2_nonalt + 3*h2_Z <= 2*m + q1 + 2*q2_nonalt + 3*q2_Z",
+      "closed_targets": [
+        {
+          "halves": 3,
+          "rank1_queries": 1,
+          "head_targets": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "minimum_difference_rank": 8,
+          "available": 7
+        },
+        {
+          "halves": 3,
+          "rank1_queries": 0,
+          "head_targets": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "minimum_difference_rank": 7,
+          "available": 6
+        }
+      ],
+      "surviving_changed_query_target": {
+        "halves": 1,
+        "rank1_queries": 1,
+        "rank2_Z_queries": 1,
+        "head_targets": [
+          "rank2_nonalt",
+          "rank2_nonalt",
+          "rank2_nonalt"
+        ],
+        "required_difference_rank": 6,
+        "available_difference_rank": 6,
+        "caller_unconstructed": true
+      },
+      "scope": "Fixed collective tensor G192 with ordinary matrix coefficients in C[H24]; exact phases retained. No claim for larger ordinary quadratic-phase Clifford operators, column-specific encodings, approximate degeneration, changed native/body source, or all algorithms.",
+      "new_kappa": false
+    },
+    "changed_query_budget": {
+      "t": "199/200",
+      "scale": "1000000000000000000000000000000",
+      "native_halves": 1,
+      "rank7_idles": 1,
+      "rank2_Z_queries": 1,
+      "rank1_queries": 1,
+      "target_gaussian_ranks": [
+        9,
+        9,
+        9
+      ],
+      "paid_interval": [
+        "25774780571772029910162443101907",
+        "25774780571772029910162443101913"
+      ],
+      "raw_margin_interval": [
+        "930217540876579343433222072802",
+        "930217540876579343433222072811"
+      ],
+      "head_circuit": "OPEN: raw price and representation inequality only"
+    },
+    "lambda": {
+      "status": "PASS_EXACT_FIVE_OPERATION_LAMBDA",
+      "pair_algorithm": [
+        "u <- u-v",
+        "u <- ((1-i)/2)u",
+        "v <- v+u",
+        "u <- (-1+i)u",
+        "u <- u+v"
+      ],
+      "scalar_adds_per_pair": 3,
+      "scalar_scales_per_pair": 2,
+      "extra_scalar_or_field_storage": 0,
+      "restoration": "No helper is acquired; inverse is the reversed five-step word with inverse scales.",
+      "denominator_per_service": 2,
+      "source_normalization_services_per_half": 4,
+      "scalar_adds_per_half_per_field_dimension": "6D",
+      "scalar_scales_per_half_per_field_dimension": "4D",
+      "layout": "If translation-paired coordinates are not directly accessible, charge one explicit ordinary pairing permutation and its inverse per lambda; at most8 such layout permutations per half, plus the2 head-swap gauge permutations. Their bit/tape implementation remains an inherited ordinary compiler obligation.",
+      "gaussian_rank_moves_added": 0,
+      "compiler_status": "Fixed finite Gaussian-dyadic coefficients and bounded local prefixes; no precision-dependent degeneration. Full finite compiler constants must include these services."
+    },
+    "literal_normalization": {
+      "status": "PASS_LITERAL_LAMBDA_NORMALIZED_SOURCE",
+      "normalization": "pre lambda_a on X,U; post lambda_a^-1 lambda_b^-1 on X,U and lambda_a^-1 on Y,V",
+      "exact_source_matrix_denominator": 8,
+      "arbitrary_input_columns_checked": 4,
+      "normalized_head": "A=S_b P, P swaps a,b; A^2=S_a S_b; A^4=I",
+      "all_gaussian_input_coefficients_retained": true,
+      "common_source_verified": true,
+      "not_a_caller": true
+    }
+  },
+  "universal_proof_review": true,
+  "qualification": "C's checker is independent; root replay of it is reproduction, not a third independent code implementation.",
+  "new_kappa": false
+}

@@ -1,0 +1,58 @@
+{
+  "status": "PASS_COMMON_HEAD_CONSERVATION_CONTROLS",
+  "second_representation_homomorphism_checks": 36864,
+  "sharp_two_native_endpoint": true,
+  "group_order": 192,
+  "ordinary_subgroup": 24,
+  "second_representation_census": {
+    "0,0": 24,
+    "2,0": 24,
+    "1,2": 72,
+    "2,2": 72
+  },
+  "second_representation_native_cases": 8,
+  "kernel_controls": {
+    "field_prime": 101,
+    "representation": "signed3D permutation quotient; finite checks validate telescoping/constraint identities, not a substitute for faithful tensor proof",
+    "words": 96,
+    "right_constraint_checks": 96,
+    "left_constraint_checks": 96,
+    "sylvester_checks": 96,
+    "wrong_left_shear_bank_rejections": 9,
+    "omitted_even_query_constraint_rejections": 10
+  },
+  "price_controls": {
+    "t": "199/200",
+    "scale": "1000000000000000000000000",
+    "m_range": [
+      1,
+      6
+    ],
+    "R_range": [
+      2,
+      8
+    ],
+    "x_z_w_range": [
+      0,
+      3
+    ],
+    "cases": 2688,
+    "heads": "Worst balanced rank0/1/2 profile consistent with conservation; every smaller rank sum has less target credit.",
+    "minimum_paid_minus_target": {
+      "m": 1,
+      "R": 8,
+      "x": 0,
+      "z": 0,
+      "w": 0,
+      "H": 2,
+      "lower": "14970146075664378406321",
+      "upper": "14970146075664378406338"
+    },
+    "rejected_positive_margin_two_half_four_role": [
+      "697965674892023834131550",
+      "697965674892023834131566"
+    ]
+  },
+  "universal_theorem": "H_tot <=2m+x+2z+2w; all completed common-body invoices have paid>target for every0<t<1 andm>=1.",
+  "no_new_kappa": true
+}
