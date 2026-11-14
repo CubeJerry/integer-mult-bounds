@@ -1,0 +1,37 @@
+{
+  "status": "PASS_ROOT_TWO_HALF_REVIEW",
+  "finite_cross_rank_controls": {
+    "prime": 5,
+    "p1_arbitrary_active_corners": 625,
+    "p2_arbitrary_active_corners": 625
+  },
+  "prices": {
+    "method": "integer Newton200th root with exact final bracketing",
+    "scale": "1000000000000000000000000",
+    "two_half_no_query": [
+      "794311539283477491260825",
+      "794311539283477491260834"
+    ],
+    "three_half_mixed_no_query": [
+      "447518888099525587399659",
+      "447518888099525587399675"
+    ],
+    "three_half_full_one_query": [
+      "427149500270861347848391",
+      "427149500270861347848407"
+    ],
+    "all_one_query_mixed_allocations": 150,
+    "best_one_query_mixed": {
+      "ranks": [
+        16,
+        9,
+        9,
+        15
+      ],
+      "idle": 0,
+      "lower": "-167109511435532061120491",
+      "upper": "-167109511435532061120481"
+    }
+  },
+  "new_complete_kappa": false
+}

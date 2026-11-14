@@ -374,3 +374,12 @@ Four packages were independently reviewed and checked: degree-four star rigidity
 Both payload alternatives have live and closed variants. Four full replays, original-y and cache deletion controls, all dirty retirement endpoints and the scoped rank2 third-chart obstruction are verified. Price decisions use independent bisection integer roots; author functions and finer receipts also match. The complex head circuit is unconstructed; the V5 wing relaxation is not a fitting. No local Node wrapper, fresh gzip source or unavailable global verifier is represented as executed.
 
 New scientific files47; registered results266; ledger4320. All4273 predecessor entries and both qualified historical absences are preserved. Source pins and detailed statuses are in sessions/2026-11-14-S013/CHECKPOINT7-VALIDATION.json and each manifest. The preceding publication receipt confirms d7db0beb74828c7bc27b305b526db62355439048. Candidate readback and leased confirmation follow separately.
+
+
+## S013 checkpoint8
+
+Four additional packages have independent mathematical reviews and separate exact root computations. The D5 review reconstructs roots from84 signatures and uses prime107 for all111 outside-contact quadratic ranks. The injector review uses rational chart bases, all222 original columns,31 modes,496 code-family pairs and six literal deletion controls. Tensor components are checked from explicit physical Walsh matrices and a width-six Gram determinant97mod109. The two-half rank proof is checked separately, with1250 finite cross-rank controls and150 exact optimistic budget exclusions.
+
+All four author receipts were freshly reproduced in cloud JavaScript, including the preferred literal injection fixtures/code certificate/price. Root checks are not merely author replays. All universal claims depend on the written quantified arguments. Local Node wrappers were syntax-checked but not represented as locally executed; no fresh native gzip or unavailable global verifier is claimed.
+
+Registry270; ledger4363; new scientific files43; all4320 predecessor entries and qualified historical absences preserved. Detailed evidence: sessions/2026-11-14-S013/CHECKPOINT8-VALIDATION.json. The previous confirmed publication is4bf5bc1f28c87fe6120bd053d8202e40b425d6fb. Candidate readback and leased remote confirmation follow separately. No new kappa.

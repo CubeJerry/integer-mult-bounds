@@ -1,0 +1,3254 @@
+{
+  "status": "PASS_ROOT_CUBIC_HISTORY_INJECTION_PACKAGE",
+  "preferred": {
+    "prefix": {
+      "status": "PASS_ROOT_CUBIC_INJECTION_REPLAY",
+      "field_columns": 222,
+      "mode": "prefix",
+      "support": [
+        1,
+        11,
+        18,
+        23,
+        35,
+        41,
+        57
+      ],
+      "extra_sources": [
+        11,
+        35,
+        41,
+        57
+      ],
+      "completed_targets": [
+        92,
+        54,
+        38
+      ],
+      "operations": 142,
+      "counts": {
+        "INIT": 19,
+        "ADD": 69,
+        "MOVE": 47,
+        "CLEAR": 7
+      },
+      "profile": {
+        "1": 24,
+        "2": 5,
+        "3": 7,
+        "4": 4,
+        "5": 3,
+        "6": 3,
+        "7": 1
+      },
+      "rank_length": 111,
+      "peak_owners": 19,
+      "live_owners": [
+        {
+          "name": "NH",
+          "chart": "N0",
+          "value": "0"
+        },
+        {
+          "name": "NS1",
+          "chart": "N02",
+          "value": "800000"
+        },
+        {
+          "name": "NS4",
+          "chart": "N03",
+          "value": "40000"
+        },
+        {
+          "name": "NS3",
+          "chart": "N2",
+          "value": "2"
+        },
+        {
+          "name": "NS2",
+          "chart": "G3",
+          "value": "80000000000000"
+        },
+        {
+          "name": "Z",
+          "chart": "D",
+          "value": "200020800840802"
+        },
+        {
+          "name": "R11",
+          "chart": "L11",
+          "value": "800"
+        },
+        {
+          "name": "R35",
+          "chart": "L35",
+          "value": "800000000"
+        },
+        {
+          "name": "R41",
+          "chart": "L41",
+          "value": "20000000000"
+        },
+        {
+          "name": "R57",
+          "chart": "L57",
+          "value": "200000000000000"
+        },
+        {
+          "name": "P",
+          "chart": "D",
+          "value": "200021800000802"
+        },
+        {
+          "name": "Q",
+          "chart": "D",
+          "value": "280020800840800"
+        }
+      ],
+      "retirements": [
+        {
+          "role": "H",
+          "chart": "F92",
+          "rank": 7,
+          "dirty": true,
+          "value": "1000000000c0005000000000",
+          "birth": 0,
+          "birth_chart": "F92",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "W",
+          "chart": "F92",
+          "rank": 7,
+          "dirty": true,
+          "value": "80001000840002",
+          "birth": 1,
+          "birth_chart": "F92",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "p",
+          "chart": "D",
+          "rank": 5,
+          "dirty": true,
+          "value": "840002",
+          "birth": 2,
+          "birth_chart": "D",
+          "path": [
+            5
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S1",
+          "chart": "E_A",
+          "rank": 6,
+          "dirty": true,
+          "value": "40004000840002",
+          "birth": 3,
+          "birth_chart": "E_A",
+          "path": [
+            6
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S4",
+          "chart": "E_B",
+          "rank": 6,
+          "dirty": true,
+          "value": "40004000840002",
+          "birth": 4,
+          "birth_chart": "E_B",
+          "path": [
+            6
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S3",
+          "chart": "F54",
+          "rank": 7,
+          "dirty": true,
+          "value": "4000000000",
+          "birth": 5,
+          "birth_chart": "F54",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S2",
+          "chart": "F38",
+          "rank": 7,
+          "dirty": true,
+          "value": "40000000000000",
+          "birth": 6,
+          "birth_chart": "F38",
+          "path": [
+            7
+          ],
+          "moves": 0
+        }
+      ],
+      "packet_paths": {
+        "P": [
+          8,
+          7,
+          6,
+          5
+        ],
+        "Q": [
+          8,
+          7,
+          6,
+          5
+        ]
+      },
+      "X_projection_history_rank": 4,
+      "packets_always_pure_X": true,
+      "snapshots": {
+        "packets_loaded": {
+          "after": 109,
+          "completed": [],
+          "packet_values": {
+            "P": "100000000080001000840002",
+            "Q": "1000000000c0005000000000"
+          },
+          "live_owners": [
+            {
+              "name": "H",
+              "chart": "F92",
+              "value": "0"
+            },
+            {
+              "name": "W",
+              "chart": "F92",
+              "value": "80001000840002"
+            },
+            {
+              "name": "p",
+              "chart": "D",
+              "value": "840002"
+            },
+            {
+              "name": "S1",
+              "chart": "E_A",
+              "value": "200021800000802"
+            },
+            {
+              "name": "S4",
+              "chart": "E_B",
+              "value": "280020800840800"
+            },
+            {
+              "name": "S3",
+              "chart": "F54",
+              "value": "4000000000"
+            },
+            {
+              "name": "S2",
+              "chart": "F38",
+              "value": "40000000000000"
+            },
+            {
+              "name": "NH",
+              "chart": "N0",
+              "value": "0"
+            },
+            {
+              "name": "NS1",
+              "chart": "N02",
+              "value": "800000"
+            },
+            {
+              "name": "NS4",
+              "chart": "N03",
+              "value": "40000"
+            },
+            {
+              "name": "NS3",
+              "chart": "N2",
+              "value": "2"
+            },
+            {
+              "name": "NS2",
+              "chart": "G3",
+              "value": "80000000000000"
+            },
+            {
+              "name": "Z",
+              "chart": "D",
+              "value": "200020800840802"
+            },
+            {
+              "name": "R11",
+              "chart": "L11",
+              "value": "800"
+            },
+            {
+              "name": "R35",
+              "chart": "L35",
+              "value": "800000000"
+            },
+            {
+              "name": "R41",
+              "chart": "L41",
+              "value": "20000000000"
+            },
+            {
+              "name": "R57",
+              "chart": "L57",
+              "value": "200000000000000"
+            },
+            {
+              "name": "P",
+              "chart": "Hub",
+              "value": "100000000080001000840002"
+            },
+            {
+              "name": "Q",
+              "chart": "Hub",
+              "value": "1000000000c0005000000000"
+            }
+          ],
+          "history_rank": 0
+        },
+        "three_targets_complete": {
+          "after": 133,
+          "completed": [
+            38,
+            54,
+            92
+          ],
+          "packet_values": {
+            "P": "200021800000802",
+            "Q": "280020800840800"
+          },
+          "live_owners": [
+            {
+              "name": "H",
+              "chart": "F92",
+              "value": "1000000000c0005000000000"
+            },
+            {
+              "name": "W",
+              "chart": "F92",
+              "value": "80001000840002"
+            },
+            {
+              "name": "p",
+              "chart": "D",
+              "value": "840002"
+            },
+            {
+              "name": "S1",
+              "chart": "E_A",
+              "value": "40004000840002"
+            },
+            {
+              "name": "S4",
+              "chart": "E_B",
+              "value": "40004000840002"
+            },
+            {
+              "name": "S3",
+              "chart": "F54",
+              "value": "4000000000"
+            },
+            {
+              "name": "S2",
+              "chart": "F38",
+              "value": "40000000000000"
+            },
+            {
+              "name": "NH",
+              "chart": "N0",
+              "value": "0"
+            },
+            {
+              "name": "NS1",
+              "chart": "N02",
+              "value": "800000"
+            },
+            {
+              "name": "NS4",
+              "chart": "N03",
+              "value": "40000"
+            },
+            {
+              "name": "NS3",
+              "chart": "N2",
+              "value": "2"
+            },
+            {
+              "name": "NS2",
+              "chart": "G3",
+              "value": "80000000000000"
+            },
+            {
+              "name": "Z",
+              "chart": "D",
+              "value": "200020800840802"
+            },
+            {
+              "name": "R11",
+              "chart": "L11",
+              "value": "800"
+            },
+            {
+              "name": "R35",
+              "chart": "L35",
+              "value": "800000000"
+            },
+            {
+              "name": "R41",
+              "chart": "L41",
+              "value": "20000000000"
+            },
+            {
+              "name": "R57",
+              "chart": "L57",
+              "value": "200000000000000"
+            },
+            {
+              "name": "P",
+              "chart": "E_A",
+              "value": "200021800000802"
+            },
+            {
+              "name": "Q",
+              "chart": "E_B",
+              "value": "280020800840800"
+            }
+          ],
+          "history_rank": 4
+        },
+        "injected_handoff": {
+          "after": 142,
+          "completed": [
+            38,
+            54,
+            92
+          ],
+          "packet_values": {
+            "P": "200021800000802",
+            "Q": "280020800840800"
+          },
+          "live_owners": [
+            {
+              "name": "NH",
+              "chart": "N0",
+              "value": "0"
+            },
+            {
+              "name": "NS1",
+              "chart": "N02",
+              "value": "800000"
+            },
+            {
+              "name": "NS4",
+              "chart": "N03",
+              "value": "40000"
+            },
+            {
+              "name": "NS3",
+              "chart": "N2",
+              "value": "2"
+            },
+            {
+              "name": "NS2",
+              "chart": "G3",
+              "value": "80000000000000"
+            },
+            {
+              "name": "Z",
+              "chart": "D",
+              "value": "200020800840802"
+            },
+            {
+              "name": "R11",
+              "chart": "L11",
+              "value": "800"
+            },
+            {
+              "name": "R35",
+              "chart": "L35",
+              "value": "800000000"
+            },
+            {
+              "name": "R41",
+              "chart": "L41",
+              "value": "20000000000"
+            },
+            {
+              "name": "R57",
+              "chart": "L57",
+              "value": "200000000000000"
+            },
+            {
+              "name": "P",
+              "chart": "D",
+              "value": "200021800000802"
+            },
+            {
+              "name": "Q",
+              "chart": "D",
+              "value": "280020800840800"
+            }
+          ],
+          "history_rank": 4
+        }
+      },
+      "exact_chart_method": "rational row bases and nullspaces",
+      "new_complete_kappa": false
+    },
+    "control": {
+      "status": "PASS_ROOT_CUBIC_INJECTION_REPLAY",
+      "field_columns": 222,
+      "mode": "control",
+      "support": [
+        1,
+        11,
+        18,
+        23,
+        35,
+        41,
+        57
+      ],
+      "extra_sources": [
+        11,
+        35,
+        41,
+        57
+      ],
+      "completed_targets": [
+        92,
+        36,
+        54,
+        38,
+        55,
+        23,
+        1,
+        18
+      ],
+      "operations": 194,
+      "counts": {
+        "INIT": 19,
+        "ADD": 92,
+        "MOVE": 64,
+        "CLEAR": 19
+      },
+      "profile": {
+        "1": 31,
+        "2": 5,
+        "3": 15,
+        "4": 4,
+        "5": 3,
+        "6": 3,
+        "7": 3
+      },
+      "rank_length": 156,
+      "peak_owners": 19,
+      "live_owners": [],
+      "retirements": [
+        {
+          "role": "H",
+          "chart": "F92",
+          "rank": 7,
+          "dirty": true,
+          "value": "1000000000c0005000000000",
+          "birth": 0,
+          "birth_chart": "F92",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "W",
+          "chart": "F92",
+          "rank": 7,
+          "dirty": true,
+          "value": "80001000840002",
+          "birth": 1,
+          "birth_chart": "F92",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "p",
+          "chart": "D",
+          "rank": 5,
+          "dirty": true,
+          "value": "840002",
+          "birth": 2,
+          "birth_chart": "D",
+          "path": [
+            5
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S1",
+          "chart": "E_A",
+          "rank": 6,
+          "dirty": true,
+          "value": "40004000840002",
+          "birth": 3,
+          "birth_chart": "E_A",
+          "path": [
+            6
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S4",
+          "chart": "E_B",
+          "rank": 6,
+          "dirty": true,
+          "value": "40004000840002",
+          "birth": 4,
+          "birth_chart": "E_B",
+          "path": [
+            6
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S3",
+          "chart": "F54",
+          "rank": 7,
+          "dirty": true,
+          "value": "4000000000",
+          "birth": 5,
+          "birth_chart": "F54",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S2",
+          "chart": "F38",
+          "rank": 7,
+          "dirty": true,
+          "value": "40000000000000",
+          "birth": 6,
+          "birth_chart": "F38",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "Z",
+          "chart": "D",
+          "rank": 5,
+          "dirty": true,
+          "value": "200020800840802",
+          "birth": 12,
+          "birth_chart": "D",
+          "path": [
+            5
+          ],
+          "moves": 0
+        },
+        {
+          "role": "R11",
+          "chart": "L11",
+          "rank": 1,
+          "dirty": true,
+          "value": "800",
+          "birth": 13,
+          "birth_chart": "L11",
+          "path": [
+            1
+          ],
+          "moves": 0
+        },
+        {
+          "role": "R35",
+          "chart": "L35",
+          "rank": 1,
+          "dirty": true,
+          "value": "800000000",
+          "birth": 15,
+          "birth_chart": "L35",
+          "path": [
+            1
+          ],
+          "moves": 0
+        },
+        {
+          "role": "R41",
+          "chart": "L41",
+          "rank": 1,
+          "dirty": true,
+          "value": "20000000000",
+          "birth": 17,
+          "birth_chart": "L41",
+          "path": [
+            1
+          ],
+          "moves": 0
+        },
+        {
+          "role": "R57",
+          "chart": "L57",
+          "rank": 1,
+          "dirty": true,
+          "value": "200000000000000",
+          "birth": 19,
+          "birth_chart": "L57",
+          "path": [
+            1
+          ],
+          "moves": 0
+        },
+        {
+          "role": "P",
+          "chart": "zero",
+          "rank": 0,
+          "dirty": true,
+          "value": "800000",
+          "birth": 96,
+          "birth_chart": "Hub",
+          "path": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            0
+          ],
+          "moves": 6
+        },
+        {
+          "role": "Q",
+          "chart": "zero",
+          "rank": 0,
+          "dirty": true,
+          "value": "40000",
+          "birth": 97,
+          "birth_chart": "Hub",
+          "path": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            0
+          ],
+          "moves": 6
+        },
+        {
+          "role": "NH",
+          "chart": "N0",
+          "rank": 4,
+          "dirty": true,
+          "value": "80001000840002",
+          "birth": 7,
+          "birth_chart": "N0",
+          "path": [
+            4
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS1",
+          "chart": "N02",
+          "rank": 3,
+          "dirty": true,
+          "value": "80000000000002",
+          "birth": 8,
+          "birth_chart": "N02",
+          "path": [
+            3
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS4",
+          "chart": "N03",
+          "rank": 3,
+          "dirty": true,
+          "value": "80000000000002",
+          "birth": 9,
+          "birth_chart": "N03",
+          "path": [
+            3
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS3",
+          "chart": "N2",
+          "rank": 4,
+          "dirty": true,
+          "value": "2",
+          "birth": 10,
+          "birth_chart": "N2",
+          "path": [
+            4
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS2",
+          "chart": "G3",
+          "rank": 4,
+          "dirty": true,
+          "value": "80000000000000",
+          "birth": 11,
+          "birth_chart": "G3",
+          "path": [
+            4
+          ],
+          "moves": 0
+        }
+      ],
+      "packet_paths": {
+        "P": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          0
+        ],
+        "Q": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          0
+        ]
+      },
+      "X_projection_history_rank": 7,
+      "packets_always_pure_X": true,
+      "snapshots": {
+        "packets_loaded": {
+          "after": 109,
+          "completed": [],
+          "packet_values": {
+            "P": "100000000080001000840002",
+            "Q": "1000000000c0005000000000"
+          },
+          "live_owners": [
+            {
+              "name": "H",
+              "chart": "F92",
+              "value": "0"
+            },
+            {
+              "name": "W",
+              "chart": "F92",
+              "value": "80001000840002"
+            },
+            {
+              "name": "p",
+              "chart": "D",
+              "value": "840002"
+            },
+            {
+              "name": "S1",
+              "chart": "E_A",
+              "value": "200021800000802"
+            },
+            {
+              "name": "S4",
+              "chart": "E_B",
+              "value": "280020800840800"
+            },
+            {
+              "name": "S3",
+              "chart": "F54",
+              "value": "4000000000"
+            },
+            {
+              "name": "S2",
+              "chart": "F38",
+              "value": "40000000000000"
+            },
+            {
+              "name": "NH",
+              "chart": "N0",
+              "value": "0"
+            },
+            {
+              "name": "NS1",
+              "chart": "N02",
+              "value": "800000"
+            },
+            {
+              "name": "NS4",
+              "chart": "N03",
+              "value": "40000"
+            },
+            {
+              "name": "NS3",
+              "chart": "N2",
+              "value": "2"
+            },
+            {
+              "name": "NS2",
+              "chart": "G3",
+              "value": "80000000000000"
+            },
+            {
+              "name": "Z",
+              "chart": "D",
+              "value": "200020800840802"
+            },
+            {
+              "name": "R11",
+              "chart": "L11",
+              "value": "800"
+            },
+            {
+              "name": "R35",
+              "chart": "L35",
+              "value": "800000000"
+            },
+            {
+              "name": "R41",
+              "chart": "L41",
+              "value": "20000000000"
+            },
+            {
+              "name": "R57",
+              "chart": "L57",
+              "value": "200000000000000"
+            },
+            {
+              "name": "P",
+              "chart": "Hub",
+              "value": "100000000080001000840002"
+            },
+            {
+              "name": "Q",
+              "chart": "Hub",
+              "value": "1000000000c0005000000000"
+            }
+          ],
+          "history_rank": 0
+        },
+        "three_targets_complete": {
+          "after": 133,
+          "completed": [
+            38,
+            54,
+            92
+          ],
+          "packet_values": {
+            "P": "200021800000802",
+            "Q": "280020800840800"
+          },
+          "live_owners": [
+            {
+              "name": "H",
+              "chart": "F92",
+              "value": "1000000000c0005000000000"
+            },
+            {
+              "name": "W",
+              "chart": "F92",
+              "value": "80001000840002"
+            },
+            {
+              "name": "p",
+              "chart": "D",
+              "value": "840002"
+            },
+            {
+              "name": "S1",
+              "chart": "E_A",
+              "value": "40004000840002"
+            },
+            {
+              "name": "S4",
+              "chart": "E_B",
+              "value": "40004000840002"
+            },
+            {
+              "name": "S3",
+              "chart": "F54",
+              "value": "4000000000"
+            },
+            {
+              "name": "S2",
+              "chart": "F38",
+              "value": "40000000000000"
+            },
+            {
+              "name": "NH",
+              "chart": "N0",
+              "value": "0"
+            },
+            {
+              "name": "NS1",
+              "chart": "N02",
+              "value": "800000"
+            },
+            {
+              "name": "NS4",
+              "chart": "N03",
+              "value": "40000"
+            },
+            {
+              "name": "NS3",
+              "chart": "N2",
+              "value": "2"
+            },
+            {
+              "name": "NS2",
+              "chart": "G3",
+              "value": "80000000000000"
+            },
+            {
+              "name": "Z",
+              "chart": "D",
+              "value": "200020800840802"
+            },
+            {
+              "name": "R11",
+              "chart": "L11",
+              "value": "800"
+            },
+            {
+              "name": "R35",
+              "chart": "L35",
+              "value": "800000000"
+            },
+            {
+              "name": "R41",
+              "chart": "L41",
+              "value": "20000000000"
+            },
+            {
+              "name": "R57",
+              "chart": "L57",
+              "value": "200000000000000"
+            },
+            {
+              "name": "P",
+              "chart": "E_A",
+              "value": "200021800000802"
+            },
+            {
+              "name": "Q",
+              "chart": "E_B",
+              "value": "280020800840800"
+            }
+          ],
+          "history_rank": 4
+        },
+        "injected_handoff": {
+          "after": 142,
+          "completed": [
+            38,
+            54,
+            92
+          ],
+          "packet_values": {
+            "P": "200021800000802",
+            "Q": "280020800840800"
+          },
+          "live_owners": [
+            {
+              "name": "NH",
+              "chart": "N0",
+              "value": "0"
+            },
+            {
+              "name": "NS1",
+              "chart": "N02",
+              "value": "800000"
+            },
+            {
+              "name": "NS4",
+              "chart": "N03",
+              "value": "40000"
+            },
+            {
+              "name": "NS3",
+              "chart": "N2",
+              "value": "2"
+            },
+            {
+              "name": "NS2",
+              "chart": "G3",
+              "value": "80000000000000"
+            },
+            {
+              "name": "Z",
+              "chart": "D",
+              "value": "200020800840802"
+            },
+            {
+              "name": "R11",
+              "chart": "L11",
+              "value": "800"
+            },
+            {
+              "name": "R35",
+              "chart": "L35",
+              "value": "800000000"
+            },
+            {
+              "name": "R41",
+              "chart": "L41",
+              "value": "20000000000"
+            },
+            {
+              "name": "R57",
+              "chart": "L57",
+              "value": "200000000000000"
+            },
+            {
+              "name": "P",
+              "chart": "D",
+              "value": "200021800000802"
+            },
+            {
+              "name": "Q",
+              "chart": "D",
+              "value": "280020800840800"
+            }
+          ],
+          "history_rank": 4
+        }
+      },
+      "exact_chart_method": "rational row bases and nullspaces",
+      "new_complete_kappa": false
+    },
+    "closed": {
+      "status": "PASS_ROOT_CUBIC_INJECTION_REPLAY",
+      "field_columns": 222,
+      "mode": "closed",
+      "support": [
+        1,
+        11,
+        18,
+        23,
+        35,
+        41,
+        57
+      ],
+      "extra_sources": [
+        11,
+        35,
+        41,
+        57
+      ],
+      "completed_targets": [
+        92,
+        36,
+        54,
+        38,
+        55,
+        23,
+        1,
+        18
+      ],
+      "operations": 396,
+      "counts": {
+        "INIT": 19,
+        "ADD": 92,
+        "MOVE": 266,
+        "CLEAR": 19
+      },
+      "profile": {
+        "1": 31,
+        "2": 5,
+        "3": 15,
+        "4": 4,
+        "5": 3,
+        "6": 3,
+        "7": 205
+      },
+      "rank_length": 1570,
+      "peak_owners": 19,
+      "live_owners": [],
+      "retirements": [
+        {
+          "role": "H",
+          "chart": "F92",
+          "rank": 7,
+          "dirty": true,
+          "value": "1000000000c0005000000000",
+          "birth": 0,
+          "birth_chart": "F92",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "W",
+          "chart": "F92",
+          "rank": 7,
+          "dirty": true,
+          "value": "80001000840002",
+          "birth": 1,
+          "birth_chart": "F92",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "p",
+          "chart": "D",
+          "rank": 5,
+          "dirty": true,
+          "value": "840002",
+          "birth": 2,
+          "birth_chart": "D",
+          "path": [
+            5
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S1",
+          "chart": "E_A",
+          "rank": 6,
+          "dirty": true,
+          "value": "40004000840002",
+          "birth": 3,
+          "birth_chart": "E_A",
+          "path": [
+            6
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S4",
+          "chart": "E_B",
+          "rank": 6,
+          "dirty": true,
+          "value": "40004000840002",
+          "birth": 4,
+          "birth_chart": "E_B",
+          "path": [
+            6
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S3",
+          "chart": "F54",
+          "rank": 7,
+          "dirty": true,
+          "value": "4000000000",
+          "birth": 5,
+          "birth_chart": "F54",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S2",
+          "chart": "F38",
+          "rank": 7,
+          "dirty": true,
+          "value": "40000000000000",
+          "birth": 6,
+          "birth_chart": "F38",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "Z",
+          "chart": "D",
+          "rank": 5,
+          "dirty": true,
+          "value": "200020800840802",
+          "birth": 12,
+          "birth_chart": "D",
+          "path": [
+            5
+          ],
+          "moves": 0
+        },
+        {
+          "role": "R11",
+          "chart": "L11",
+          "rank": 1,
+          "dirty": true,
+          "value": "800",
+          "birth": 13,
+          "birth_chart": "L11",
+          "path": [
+            1
+          ],
+          "moves": 0
+        },
+        {
+          "role": "R35",
+          "chart": "L35",
+          "rank": 1,
+          "dirty": true,
+          "value": "800000000",
+          "birth": 15,
+          "birth_chart": "L35",
+          "path": [
+            1
+          ],
+          "moves": 0
+        },
+        {
+          "role": "R41",
+          "chart": "L41",
+          "rank": 1,
+          "dirty": true,
+          "value": "20000000000",
+          "birth": 17,
+          "birth_chart": "L41",
+          "path": [
+            1
+          ],
+          "moves": 0
+        },
+        {
+          "role": "R57",
+          "chart": "L57",
+          "rank": 1,
+          "dirty": true,
+          "value": "200000000000000",
+          "birth": 19,
+          "birth_chart": "L57",
+          "path": [
+            1
+          ],
+          "moves": 0
+        },
+        {
+          "role": "P",
+          "chart": "zero",
+          "rank": 0,
+          "dirty": true,
+          "value": "800000",
+          "birth": 96,
+          "birth_chart": "Hub",
+          "path": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            0
+          ],
+          "moves": 6
+        },
+        {
+          "role": "Q",
+          "chart": "zero",
+          "rank": 0,
+          "dirty": true,
+          "value": "40000",
+          "birth": 97,
+          "birth_chart": "Hub",
+          "path": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            0
+          ],
+          "moves": 6
+        },
+        {
+          "role": "NH",
+          "chart": "N0",
+          "rank": 4,
+          "dirty": true,
+          "value": "80001000840002",
+          "birth": 7,
+          "birth_chart": "N0",
+          "path": [
+            4
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS1",
+          "chart": "N02",
+          "rank": 3,
+          "dirty": true,
+          "value": "80000000000002",
+          "birth": 8,
+          "birth_chart": "N02",
+          "path": [
+            3
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS4",
+          "chart": "N03",
+          "rank": 3,
+          "dirty": true,
+          "value": "80000000000002",
+          "birth": 9,
+          "birth_chart": "N03",
+          "path": [
+            3
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS3",
+          "chart": "N2",
+          "rank": 4,
+          "dirty": true,
+          "value": "2",
+          "birth": 10,
+          "birth_chart": "N2",
+          "path": [
+            4
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS2",
+          "chart": "G3",
+          "rank": 4,
+          "dirty": true,
+          "value": "80000000000000",
+          "birth": 11,
+          "birth_chart": "G3",
+          "path": [
+            4
+          ],
+          "moves": 0
+        }
+      ],
+      "packet_paths": {
+        "P": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          0
+        ],
+        "Q": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          0
+        ]
+      },
+      "X_projection_history_rank": 7,
+      "packets_always_pure_X": true,
+      "snapshots": {
+        "packets_loaded": {
+          "after": 109,
+          "completed": [],
+          "packet_values": {
+            "P": "100000000080001000840002",
+            "Q": "1000000000c0005000000000"
+          },
+          "live_owners": [
+            {
+              "name": "H",
+              "chart": "F92",
+              "value": "0"
+            },
+            {
+              "name": "W",
+              "chart": "F92",
+              "value": "80001000840002"
+            },
+            {
+              "name": "p",
+              "chart": "D",
+              "value": "840002"
+            },
+            {
+              "name": "S1",
+              "chart": "E_A",
+              "value": "200021800000802"
+            },
+            {
+              "name": "S4",
+              "chart": "E_B",
+              "value": "280020800840800"
+            },
+            {
+              "name": "S3",
+              "chart": "F54",
+              "value": "4000000000"
+            },
+            {
+              "name": "S2",
+              "chart": "F38",
+              "value": "40000000000000"
+            },
+            {
+              "name": "NH",
+              "chart": "N0",
+              "value": "0"
+            },
+            {
+              "name": "NS1",
+              "chart": "N02",
+              "value": "800000"
+            },
+            {
+              "name": "NS4",
+              "chart": "N03",
+              "value": "40000"
+            },
+            {
+              "name": "NS3",
+              "chart": "N2",
+              "value": "2"
+            },
+            {
+              "name": "NS2",
+              "chart": "G3",
+              "value": "80000000000000"
+            },
+            {
+              "name": "Z",
+              "chart": "D",
+              "value": "200020800840802"
+            },
+            {
+              "name": "R11",
+              "chart": "L11",
+              "value": "800"
+            },
+            {
+              "name": "R35",
+              "chart": "L35",
+              "value": "800000000"
+            },
+            {
+              "name": "R41",
+              "chart": "L41",
+              "value": "20000000000"
+            },
+            {
+              "name": "R57",
+              "chart": "L57",
+              "value": "200000000000000"
+            },
+            {
+              "name": "P",
+              "chart": "Hub",
+              "value": "100000000080001000840002"
+            },
+            {
+              "name": "Q",
+              "chart": "Hub",
+              "value": "1000000000c0005000000000"
+            }
+          ],
+          "history_rank": 0
+        },
+        "three_targets_complete": {
+          "after": 133,
+          "completed": [
+            38,
+            54,
+            92
+          ],
+          "packet_values": {
+            "P": "200021800000802",
+            "Q": "280020800840800"
+          },
+          "live_owners": [
+            {
+              "name": "H",
+              "chart": "F92",
+              "value": "1000000000c0005000000000"
+            },
+            {
+              "name": "W",
+              "chart": "F92",
+              "value": "80001000840002"
+            },
+            {
+              "name": "p",
+              "chart": "D",
+              "value": "840002"
+            },
+            {
+              "name": "S1",
+              "chart": "E_A",
+              "value": "40004000840002"
+            },
+            {
+              "name": "S4",
+              "chart": "E_B",
+              "value": "40004000840002"
+            },
+            {
+              "name": "S3",
+              "chart": "F54",
+              "value": "4000000000"
+            },
+            {
+              "name": "S2",
+              "chart": "F38",
+              "value": "40000000000000"
+            },
+            {
+              "name": "NH",
+              "chart": "N0",
+              "value": "0"
+            },
+            {
+              "name": "NS1",
+              "chart": "N02",
+              "value": "800000"
+            },
+            {
+              "name": "NS4",
+              "chart": "N03",
+              "value": "40000"
+            },
+            {
+              "name": "NS3",
+              "chart": "N2",
+              "value": "2"
+            },
+            {
+              "name": "NS2",
+              "chart": "G3",
+              "value": "80000000000000"
+            },
+            {
+              "name": "Z",
+              "chart": "D",
+              "value": "200020800840802"
+            },
+            {
+              "name": "R11",
+              "chart": "L11",
+              "value": "800"
+            },
+            {
+              "name": "R35",
+              "chart": "L35",
+              "value": "800000000"
+            },
+            {
+              "name": "R41",
+              "chart": "L41",
+              "value": "20000000000"
+            },
+            {
+              "name": "R57",
+              "chart": "L57",
+              "value": "200000000000000"
+            },
+            {
+              "name": "P",
+              "chart": "E_A",
+              "value": "200021800000802"
+            },
+            {
+              "name": "Q",
+              "chart": "E_B",
+              "value": "280020800840800"
+            }
+          ],
+          "history_rank": 4
+        },
+        "injected_handoff": {
+          "after": 142,
+          "completed": [
+            38,
+            54,
+            92
+          ],
+          "packet_values": {
+            "P": "200021800000802",
+            "Q": "280020800840800"
+          },
+          "live_owners": [
+            {
+              "name": "NH",
+              "chart": "N0",
+              "value": "0"
+            },
+            {
+              "name": "NS1",
+              "chart": "N02",
+              "value": "800000"
+            },
+            {
+              "name": "NS4",
+              "chart": "N03",
+              "value": "40000"
+            },
+            {
+              "name": "NS3",
+              "chart": "N2",
+              "value": "2"
+            },
+            {
+              "name": "NS2",
+              "chart": "G3",
+              "value": "80000000000000"
+            },
+            {
+              "name": "Z",
+              "chart": "D",
+              "value": "200020800840802"
+            },
+            {
+              "name": "R11",
+              "chart": "L11",
+              "value": "800"
+            },
+            {
+              "name": "R35",
+              "chart": "L35",
+              "value": "800000000"
+            },
+            {
+              "name": "R41",
+              "chart": "L41",
+              "value": "20000000000"
+            },
+            {
+              "name": "R57",
+              "chart": "L57",
+              "value": "200000000000000"
+            },
+            {
+              "name": "P",
+              "chart": "D",
+              "value": "200021800000802"
+            },
+            {
+              "name": "Q",
+              "chart": "D",
+              "value": "280020800840800"
+            }
+          ],
+          "history_rank": 4
+        }
+      },
+      "exact_chart_method": "rational row bases and nullspaces",
+      "new_complete_kappa": false
+    }
+  },
+  "all31_modes": [
+    {
+      "mode": "1298074833608448916868583286376448",
+      "support": [
+        11,
+        23,
+        31,
+        49,
+        72,
+        89,
+        110
+      ],
+      "extra_sources": [
+        11,
+        31,
+        49,
+        72,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 21,
+        "ADD": 72,
+        "MOVE": 51,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 21,
+        "ADD": 95,
+        "MOVE": 268,
+        "CLEAR": 21
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 17,
+        "4": 6,
+        "5": 3,
+        "6": 3,
+        "7": 203
+      }
+    },
+    {
+      "mode": "1298074833608448916305665671037952",
+      "support": [
+        10,
+        27,
+        35,
+        72,
+        89,
+        110
+      ],
+      "extra_sources": [
+        10,
+        27,
+        35,
+        72,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 21,
+        "ADD": 70,
+        "MOVE": 51,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 21,
+        "ADD": 93,
+        "MOVE": 268,
+        "CLEAR": 21
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 17,
+        "4": 6,
+        "5": 3,
+        "6": 3,
+        "7": 203
+      }
+    },
+    {
+      "mode": "562986603252736",
+      "support": [
+        10,
+        11,
+        23,
+        27,
+        31,
+        35,
+        49
+      ],
+      "extra_sources": [
+        10,
+        11,
+        27,
+        31,
+        35,
+        49
+      ],
+      "prefix_counts": {
+        "INIT": 21,
+        "ADD": 72,
+        "MOVE": 51,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 21,
+        "ADD": 95,
+        "MOVE": 268,
+        "CLEAR": 21
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 17,
+        "4": 6,
+        "5": 3,
+        "6": 3,
+        "7": 203
+      }
+    },
+    {
+      "mode": "14169549971957349351424",
+      "support": [
+        31,
+        41,
+        49,
+        57,
+        61,
+        72,
+        73
+      ],
+      "extra_sources": [
+        31,
+        41,
+        49,
+        57,
+        61,
+        72,
+        73
+      ],
+      "prefix_counts": {
+        "INIT": 22,
+        "ADD": 73,
+        "MOVE": 53,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 22,
+        "ADD": 96,
+        "MOVE": 269,
+        "CLEAR": 22
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 18,
+        "4": 7,
+        "5": 3,
+        "6": 3,
+        "7": 202
+      }
+    },
+    {
+      "mode": "1298074833613173732748897143490560",
+      "support": [
+        11,
+        23,
+        41,
+        57,
+        61,
+        73,
+        89,
+        110
+      ],
+      "extra_sources": [
+        11,
+        41,
+        57,
+        61,
+        73,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 22,
+        "ADD": 75,
+        "MOVE": 53,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 22,
+        "ADD": 98,
+        "MOVE": 269,
+        "CLEAR": 22
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 18,
+        "4": 7,
+        "5": 3,
+        "6": 3,
+        "7": 202
+      }
+    },
+    {
+      "mode": "1298074833613173733311883729961984",
+      "support": [
+        10,
+        27,
+        31,
+        35,
+        41,
+        49,
+        57,
+        61,
+        73,
+        89,
+        110
+      ],
+      "extra_sources": [
+        10,
+        27,
+        31,
+        35,
+        41,
+        49,
+        57,
+        61,
+        73,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 26,
+        "ADD": 85,
+        "MOVE": 61,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 26,
+        "ADD": 108,
+        "MOVE": 273,
+        "CLEAR": 26
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 22,
+        "4": 11,
+        "5": 3,
+        "6": 3,
+        "7": 198
+      }
+    },
+    {
+      "mode": "14169549409039750794240",
+      "support": [
+        10,
+        11,
+        23,
+        27,
+        35,
+        41,
+        57,
+        61,
+        72,
+        73
+      ],
+      "extra_sources": [
+        10,
+        11,
+        27,
+        35,
+        41,
+        57,
+        61,
+        72,
+        73
+      ],
+      "prefix_counts": {
+        "INIT": 24,
+        "ADD": 81,
+        "MOVE": 57,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 24,
+        "ADD": 104,
+        "MOVE": 271,
+        "CLEAR": 24
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 20,
+        "4": 9,
+        "5": 3,
+        "6": 3,
+        "7": 200
+      }
+    },
+    {
+      "mode": "1213685223703067697872896",
+      "support": [
+        35,
+        41,
+        57,
+        65,
+        72,
+        80
+      ],
+      "extra_sources": [
+        35,
+        41,
+        57,
+        65,
+        72,
+        80
+      ],
+      "prefix_counts": {
+        "INIT": 21,
+        "ADD": 70,
+        "MOVE": 51,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 21,
+        "ADD": 93,
+        "MOVE": 268,
+        "CLEAR": 21
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 17,
+        "4": 6,
+        "5": 3,
+        "6": 3,
+        "7": 203
+      }
+    },
+    {
+      "mode": "1298074834812689407605911693821952",
+      "support": [
+        11,
+        23,
+        31,
+        35,
+        41,
+        49,
+        57,
+        65,
+        80,
+        89,
+        110
+      ],
+      "extra_sources": [
+        11,
+        31,
+        35,
+        41,
+        49,
+        57,
+        65,
+        80,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 25,
+        "ADD": 84,
+        "MOVE": 59,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 25,
+        "ADD": 107,
+        "MOVE": 272,
+        "CLEAR": 25
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 21,
+        "4": 10,
+        "5": 3,
+        "6": 3,
+        "7": 199
+      }
+    },
+    {
+      "mode": "1298074834812689407042925359006720",
+      "support": [
+        10,
+        27,
+        41,
+        57,
+        65,
+        80,
+        89,
+        110
+      ],
+      "extra_sources": [
+        10,
+        27,
+        41,
+        57,
+        65,
+        80,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 23,
+        "ADD": 76,
+        "MOVE": 55,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 23,
+        "ADD": 99,
+        "MOVE": 270,
+        "CLEAR": 23
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 19,
+        "4": 8,
+        "5": 3,
+        "6": 3,
+        "7": 201
+      }
+    },
+    {
+      "mode": "1213685224265985581648896",
+      "support": [
+        10,
+        11,
+        23,
+        27,
+        31,
+        41,
+        49,
+        57,
+        65,
+        72,
+        80
+      ],
+      "extra_sources": [
+        10,
+        11,
+        27,
+        31,
+        41,
+        49,
+        57,
+        65,
+        72,
+        80
+      ],
+      "prefix_counts": {
+        "INIT": 25,
+        "ADD": 84,
+        "MOVE": 59,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 25,
+        "ADD": 107,
+        "MOVE": 272,
+        "CLEAR": 25
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 21,
+        "4": 10,
+        "5": 3,
+        "6": 3,
+        "7": 199
+      }
+    },
+    {
+      "mode": "1218409752474511558574080",
+      "support": [
+        31,
+        35,
+        49,
+        61,
+        65,
+        73,
+        80
+      ],
+      "extra_sources": [
+        31,
+        35,
+        49,
+        61,
+        65,
+        73,
+        80
+      ],
+      "prefix_counts": {
+        "INIT": 22,
+        "ADD": 73,
+        "MOVE": 53,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 22,
+        "ADD": 96,
+        "MOVE": 269,
+        "CLEAR": 22
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 18,
+        "4": 7,
+        "5": 3,
+        "6": 3,
+        "7": 202
+      }
+    },
+    {
+      "mode": "1298074834826858668217190643140608",
+      "support": [
+        11,
+        23,
+        35,
+        61,
+        65,
+        72,
+        73,
+        80,
+        89,
+        110
+      ],
+      "extra_sources": [
+        11,
+        35,
+        61,
+        65,
+        72,
+        73,
+        80,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 24,
+        "ADD": 81,
+        "MOVE": 57,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 24,
+        "ADD": 104,
+        "MOVE": 271,
+        "CLEAR": 24
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 20,
+        "4": 9,
+        "5": 3,
+        "6": 3,
+        "7": 200
+      }
+    },
+    {
+      "mode": "1298074834826858668780108510135296",
+      "support": [
+        10,
+        27,
+        31,
+        49,
+        61,
+        65,
+        72,
+        73,
+        80,
+        89,
+        110
+      ],
+      "extra_sources": [
+        10,
+        27,
+        31,
+        49,
+        61,
+        65,
+        72,
+        73,
+        80,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 26,
+        "ADD": 85,
+        "MOVE": 61,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 26,
+        "ADD": 108,
+        "MOVE": 273,
+        "CLEAR": 26
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 22,
+        "4": 11,
+        "5": 3,
+        "6": 3,
+        "7": 198
+      }
+    },
+    {
+      "mode": "1218409751911525240540160",
+      "support": [
+        10,
+        11,
+        23,
+        27,
+        61,
+        65,
+        73,
+        80
+      ],
+      "extra_sources": [
+        10,
+        11,
+        27,
+        61,
+        65,
+        73,
+        80
+      ],
+      "prefix_counts": {
+        "INIT": 22,
+        "ADD": 75,
+        "MOVE": 53,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 22,
+        "ADD": 98,
+        "MOVE": 269,
+        "CLEAR": 22
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 18,
+        "4": 7,
+        "5": 3,
+        "6": 3,
+        "7": 202
+      }
+    },
+    {
+      "mode": "1298074833608449060986004737097730",
+      "support": [
+        1,
+        18,
+        31,
+        35,
+        41,
+        49,
+        57,
+        72,
+        89,
+        110
+      ],
+      "extra_sources": [
+        31,
+        35,
+        41,
+        49,
+        57,
+        72,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 23,
+        "ADD": 79,
+        "MOVE": 55,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 23,
+        "ADD": 102,
+        "MOVE": 270,
+        "CLEAR": 23
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 19,
+        "4": 8,
+        "5": 3,
+        "6": 3,
+        "7": 201
+      }
+    },
+    {
+      "mode": "144117421467502594",
+      "support": [
+        1,
+        11,
+        18,
+        23,
+        35,
+        41,
+        57
+      ],
+      "extra_sources": [
+        11,
+        35,
+        41,
+        57
+      ],
+      "prefix_counts": {
+        "INIT": 19,
+        "ADD": 69,
+        "MOVE": 47,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 19,
+        "ADD": 92,
+        "MOVE": 266,
+        "CLEAR": 19
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 15,
+        "4": 4,
+        "5": 3,
+        "6": 3,
+        "7": 205
+      }
+    },
+    {
+      "mode": "144680339334497282",
+      "support": [
+        1,
+        10,
+        18,
+        27,
+        31,
+        41,
+        49,
+        57
+      ],
+      "extra_sources": [
+        10,
+        27,
+        31,
+        41,
+        49,
+        57
+      ],
+      "prefix_counts": {
+        "INIT": 21,
+        "ADD": 73,
+        "MOVE": 51,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 21,
+        "ADD": 96,
+        "MOVE": 268,
+        "CLEAR": 21
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 17,
+        "4": 6,
+        "5": 3,
+        "6": 3,
+        "7": 203
+      }
+    },
+    {
+      "mode": "1298074833608449060423018419063810",
+      "support": [
+        1,
+        10,
+        11,
+        18,
+        23,
+        27,
+        41,
+        57,
+        72,
+        89,
+        110
+      ],
+      "extra_sources": [
+        10,
+        11,
+        27,
+        41,
+        57,
+        72,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 23,
+        "ADD": 81,
+        "MOVE": 55,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 23,
+        "ADD": 104,
+        "MOVE": 270,
+        "CLEAR": 23
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 19,
+        "4": 8,
+        "5": 3,
+        "6": 3,
+        "7": 201
+      }
+    },
+    {
+      "mode": "1298074833613173588631544395988994",
+      "support": [
+        1,
+        18,
+        35,
+        61,
+        73,
+        89,
+        110
+      ],
+      "extra_sources": [
+        35,
+        61,
+        73,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 20,
+        "ADD": 70,
+        "MOVE": 49,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 20,
+        "ADD": 93,
+        "MOVE": 267,
+        "CLEAR": 20
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 16,
+        "4": 5,
+        "5": 3,
+        "6": 3,
+        "7": 204
+      }
+    },
+    {
+      "mode": "14169405854604618631170",
+      "support": [
+        1,
+        11,
+        18,
+        23,
+        31,
+        35,
+        49,
+        61,
+        72,
+        73
+      ],
+      "extra_sources": [
+        11,
+        31,
+        35,
+        49,
+        61,
+        72,
+        73
+      ],
+      "prefix_counts": {
+        "INIT": 22,
+        "ADD": 78,
+        "MOVE": 53,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 22,
+        "ADD": 101,
+        "MOVE": 269,
+        "CLEAR": 22
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 18,
+        "4": 7,
+        "5": 3,
+        "6": 3,
+        "7": 202
+      }
+    },
+    {
+      "mode": "14169405291618283815938",
+      "support": [
+        1,
+        10,
+        18,
+        27,
+        61,
+        72,
+        73
+      ],
+      "extra_sources": [
+        10,
+        27,
+        61,
+        72,
+        73
+      ],
+      "prefix_counts": {
+        "INIT": 20,
+        "ADD": 70,
+        "MOVE": 49,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 20,
+        "ADD": 93,
+        "MOVE": 267,
+        "CLEAR": 20
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 16,
+        "4": 5,
+        "5": 3,
+        "6": 3,
+        "7": 204
+      }
+    },
+    {
+      "mode": "1298074833613173589194462279764994",
+      "support": [
+        1,
+        10,
+        11,
+        18,
+        23,
+        27,
+        31,
+        49,
+        61,
+        73,
+        89,
+        110
+      ],
+      "extra_sources": [
+        10,
+        11,
+        27,
+        31,
+        49,
+        61,
+        73,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 24,
+        "ADD": 84,
+        "MOVE": 57,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 24,
+        "ADD": 107,
+        "MOVE": 271,
+        "CLEAR": 24
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 20,
+        "4": 9,
+        "5": 3,
+        "6": 3,
+        "7": 200
+      }
+    },
+    {
+      "mode": "1298074834812689263488490226843650",
+      "support": [
+        1,
+        18,
+        31,
+        49,
+        65,
+        80,
+        89,
+        110
+      ],
+      "extra_sources": [
+        31,
+        49,
+        65,
+        80,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 21,
+        "ADD": 73,
+        "MOVE": 51,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 21,
+        "ADD": 96,
+        "MOVE": 268,
+        "CLEAR": 21
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 17,
+        "4": 6,
+        "5": 3,
+        "6": 3,
+        "7": 203
+      }
+    },
+    {
+      "mode": "1213685079585646247675906",
+      "support": [
+        1,
+        11,
+        18,
+        23,
+        65,
+        72,
+        80
+      ],
+      "extra_sources": [
+        11,
+        65,
+        72,
+        80
+      ],
+      "prefix_counts": {
+        "INIT": 19,
+        "ADD": 69,
+        "MOVE": 47,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 19,
+        "ADD": 92,
+        "MOVE": 266,
+        "CLEAR": 19
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 15,
+        "4": 4,
+        "5": 3,
+        "6": 3,
+        "7": 205
+      }
+    },
+    {
+      "mode": "1213685080148632834147330",
+      "support": [
+        1,
+        10,
+        18,
+        27,
+        31,
+        35,
+        49,
+        65,
+        72,
+        80
+      ],
+      "extra_sources": [
+        10,
+        27,
+        31,
+        35,
+        49,
+        65,
+        72,
+        80
+      ],
+      "prefix_counts": {
+        "INIT": 23,
+        "ADD": 79,
+        "MOVE": 55,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 23,
+        "ADD": 102,
+        "MOVE": 270,
+        "CLEAR": 23
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 19,
+        "4": 8,
+        "5": 3,
+        "6": 3,
+        "7": 201
+      }
+    },
+    {
+      "mode": "1298074834812689262925572628286466",
+      "support": [
+        1,
+        10,
+        11,
+        18,
+        23,
+        27,
+        35,
+        65,
+        80,
+        89,
+        110
+      ],
+      "extra_sources": [
+        10,
+        11,
+        27,
+        35,
+        65,
+        80,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 23,
+        "ADD": 81,
+        "MOVE": 55,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 23,
+        "ADD": 104,
+        "MOVE": 270,
+        "CLEAR": 23
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 19,
+        "4": 8,
+        "5": 3,
+        "6": 3,
+        "7": 201
+      }
+    },
+    {
+      "mode": "1298074834826858812334543374385154",
+      "support": [
+        1,
+        18,
+        41,
+        57,
+        61,
+        65,
+        72,
+        73,
+        80,
+        89,
+        110
+      ],
+      "extra_sources": [
+        41,
+        57,
+        61,
+        65,
+        72,
+        73,
+        80,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 24,
+        "ADD": 82,
+        "MOVE": 57,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 24,
+        "ADD": 105,
+        "MOVE": 271,
+        "CLEAR": 24
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 20,
+        "4": 9,
+        "5": 3,
+        "6": 3,
+        "7": 200
+      }
+    },
+    {
+      "mode": "1218409896591864306599938",
+      "support": [
+        1,
+        11,
+        18,
+        23,
+        31,
+        41,
+        49,
+        57,
+        61,
+        65,
+        73,
+        80
+      ],
+      "extra_sources": [
+        11,
+        31,
+        41,
+        49,
+        57,
+        61,
+        65,
+        73,
+        80
+      ],
+      "prefix_counts": {
+        "INIT": 24,
+        "ADD": 84,
+        "MOVE": 57,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 24,
+        "ADD": 107,
+        "MOVE": 271,
+        "CLEAR": 24
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 20,
+        "4": 9,
+        "5": 3,
+        "6": 3,
+        "7": 200
+      }
+    },
+    {
+      "mode": "1218409896028946691261442",
+      "support": [
+        1,
+        10,
+        18,
+        27,
+        35,
+        41,
+        57,
+        61,
+        65,
+        73,
+        80
+      ],
+      "extra_sources": [
+        10,
+        27,
+        35,
+        41,
+        57,
+        61,
+        65,
+        73,
+        80
+      ],
+      "prefix_counts": {
+        "INIT": 24,
+        "ADD": 82,
+        "MOVE": 57,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 24,
+        "ADD": 105,
+        "MOVE": 271,
+        "CLEAR": 24
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 20,
+        "4": 9,
+        "5": 3,
+        "6": 3,
+        "7": 200
+      }
+    },
+    {
+      "mode": "1298074834826858812897529977637890",
+      "support": [
+        1,
+        10,
+        11,
+        18,
+        23,
+        27,
+        31,
+        35,
+        41,
+        49,
+        57,
+        61,
+        65,
+        72,
+        73,
+        80,
+        89,
+        110
+      ],
+      "extra_sources": [
+        10,
+        11,
+        27,
+        31,
+        35,
+        41,
+        49,
+        57,
+        61,
+        65,
+        72,
+        73,
+        80,
+        89,
+        110
+      ],
+      "prefix_counts": {
+        "INIT": 30,
+        "ADD": 102,
+        "MOVE": 69,
+        "CLEAR": 7
+      },
+      "closed_counts": {
+        "INIT": 30,
+        "ADD": 125,
+        "MOVE": 277,
+        "CLEAR": 30
+      },
+      "closed_profile": {
+        "1": 31,
+        "2": 5,
+        "3": 26,
+        "4": 15,
+        "5": 3,
+        "6": 3,
+        "7": 194
+      }
+    }
+  ],
+  "code_family": {
+    "choices": 32,
+    "individual_dimension": 4,
+    "common_dimension": 3,
+    "pairwise_intersection_dimension": 3,
+    "pairs_checked": 496,
+    "ambient_dimension": 9
+  },
+  "negative_controls": [
+    {
+      "label": "carrier_one",
+      "index": 43,
+      "rejected": true,
+      "reason": "all originals restored before Hub packet"
+    },
+    {
+      "label": "carrier_eighteen",
+      "index": 42,
+      "rejected": true,
+      "reason": "all originals restored before Hub packet"
+    },
+    {
+      "label": "source_capture",
+      "index": 35,
+      "rejected": true,
+      "reason": "all originals restored before Hub packet"
+    },
+    {
+      "label": "retained_point_copy",
+      "index": 14,
+      "rejected": true,
+      "reason": "actual retained owner R11"
+    },
+    {
+      "label": "restore_shear",
+      "index": 62,
+      "rejected": true,
+      "reason": "all originals restored before Hub packet"
+    },
+    {
+      "label": "uninject_packet",
+      "index": 142,
+      "rejected": true,
+      "reason": "Y coefficient 36"
+    }
+  ],
+  "price": {
+    "status": "PASS_INDEPENDENT_PARTIAL_FORK_INVOICE",
+    "method": "bisection integer200th roots, independently derived limiting paired-caller profile",
+    "t": "199/200",
+    "limiting_allowance": {
+      "lower": "9730505281266914131477476902201436",
+      "upper": "9730505281266914131477476902202731",
+      "denominator": "6000000000000000000000000000000"
+    },
+    "alternatives": {
+      "injection": {
+        "moment": {
+          "lower": "1555433407295959919337971473188850",
+          "upper": "1555433407295959919337971473189085",
+          "denominator": "1000000000000000000000000000000"
+        },
+        "partial_saving_vs_three_isolated": {
+          "lower": "7271946680209984035120115143584",
+          "upper": "7271946680209984035120115143634",
+          "denominator": "1000000000000000000000000000000"
+        },
+        "optimistic_remaining": {
+          "7": {
+            "lower": "65380200935645098661162576100414",
+            "upper": "65380200935645098661162576103077",
+            "denominator": "6000000000000000000000000000000"
+          },
+          "8": {
+            "lower": "17876681427715167691378935105198",
+            "upper": "17876681427715167691378935107855",
+            "denominator": "6000000000000000000000000000000"
+          }
+        }
+      }
+    },
+    "costs_not_added": true,
+    "no_complete_supplier": true,
+    "no_new_kappa": true
+  },
+  "source_qualification": "Independent recovery from84 flat signatures; no fresh native gzip replay",
+  "productive_decoder": false,
+  "new_complete_kappa": false
+}

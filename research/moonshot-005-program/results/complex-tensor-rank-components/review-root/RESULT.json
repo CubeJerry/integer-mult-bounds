@@ -1,0 +1,40 @@
+{
+  "status": "PASS_ROOT_TENSOR_SEPARATION_REVIEW",
+  "explicit_Walsh_monomials": 192,
+  "physical_rank_counts": [
+    24,
+    72,
+    96
+  ],
+  "ordinary_size": 24,
+  "all_pair_maximum_trace_squared": 8,
+  "ordinary_rank_contacts": 9216,
+  "independent_Gram_prime": 109,
+  "imaginary_root": 33,
+  "witnesses": [
+    {
+      "V": 1,
+      "rank": 10,
+      "det": 0
+    },
+    {
+      "V": 5,
+      "rank": 191,
+      "det": 0
+    },
+    {
+      "V": 6,
+      "rank": 192,
+      "det": 97
+    }
+  ],
+  "all_width_consequence": "Independence at6 and every larger width by contraction on the common fixed zero-frequency vector.",
+  "negative_controls": {
+    "nonordinary_multiplier_changes_rank": true,
+    "one_column_sum_does_not_tensor_linearly": {
+      "actual_width2_eigenvalue": -1,
+      "claimed_linear_sum_eigenvalue": 1
+    }
+  },
+  "new_complete_kappa": false
+}

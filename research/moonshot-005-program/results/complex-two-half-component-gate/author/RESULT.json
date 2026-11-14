@@ -1,0 +1,139 @@
+{
+  "status": "PASS_TWO_HALF_THREE_ROLE_COMPONENT_GATE",
+  "model": "Fixed finite tensor Clifford algebra with exact phases and ordinary rank-preserving subgroup; all three input fields arbitrary; no extra owner, discarded field or nonordinary interstage service.",
+  "group_order": 192,
+  "finite_component_controls": {
+    "cases": 128,
+    "full_column_inverse_witnesses": 128,
+    "full_row_inverse_witnesses": 128
+  },
+  "universal_proof": "If pi0(N2 C N1)=0 and C is invertible ordinary then C_idle,idle=0; the rank1 component has an injective cross column and a surjective cross row, hence rank at least two bank dimensions. A(2,2,1) target has only one.",
+  "negative_controls": {
+    "nonordinary_paid_query_evades_component_obstruction": true,
+    "nonzero_idle_corner_detected": true,
+    "singular_middle_invalidates_rank_bound": true
+  },
+  "exact_budget": {
+    "t": "199/200",
+    "scale": "1000000000000000000000000000000",
+    "two_half_three_role_no_query": [
+      "794311539283477491260828198991",
+      "794311539283477491260828199002"
+    ],
+    "two_half_three_role_one_rank1": [
+      "-205688460716522508739171801010",
+      "-205688460716522508739171800998"
+    ],
+    "three_half_four_role_no_query": [
+      "447518888099525587399663229708",
+      "447518888099525587399663229727"
+    ],
+    "three_half_four_role_one_rank1": [
+      "-552481111900474412600336770293",
+      "-552481111900474412600336770273"
+    ],
+    "optimistic_one_query_three_full_one_partial": [
+      {
+        "rank7_idles": 0,
+        "profiles_checked": 44,
+        "maximizing_profile": [
+          9,
+          9,
+          16,
+          15
+        ],
+        "maximum_margin_interval": [
+          "-167109511435532061120487269015",
+          "-167109511435532061120487269001"
+        ]
+      },
+      {
+        "rank7_idles": 1,
+        "profiles_checked": 40,
+        "maximizing_profile": [
+          9,
+          16,
+          16,
+          15
+        ],
+        "maximum_margin_interval": [
+          "-221275674488641252504556908643",
+          "-221275674488641252504556908628"
+        ]
+      },
+      {
+        "rank7_idles": 2,
+        "profiles_checked": 31,
+        "maximizing_profile": [
+          16,
+          16,
+          16,
+          15
+        ],
+        "maximum_margin_interval": [
+          "-275441837541750443888626548271",
+          "-275441837541750443888626548255"
+        ]
+      },
+      {
+        "rank7_idles": 3,
+        "profiles_checked": 20,
+        "maximizing_profile": [
+          16,
+          16,
+          16,
+          22
+        ],
+        "maximum_margin_interval": [
+          "-343330977136052512739743980510",
+          "-343330977136052512739743980493"
+        ]
+      },
+      {
+        "rank7_idles": 4,
+        "profiles_checked": 10,
+        "maximizing_profile": [
+          16,
+          16,
+          23,
+          22
+        ],
+        "maximum_margin_interval": [
+          "-413047688724193146026608243771",
+          "-413047688724193146026608243753"
+        ]
+      },
+      {
+        "rank7_idles": 5,
+        "profiles_checked": 4,
+        "maximizing_profile": [
+          16,
+          23,
+          23,
+          22
+        ],
+        "maximum_margin_interval": [
+          "-482764400312333779313472507032",
+          "-482764400312333779313472507013"
+        ]
+      },
+      {
+        "rank7_idles": 6,
+        "profiles_checked": 1,
+        "maximizing_profile": [
+          23,
+          23,
+          23,
+          22
+        ],
+        "maximum_margin_interval": [
+          "-552481111900474412600336770293",
+          "-552481111900474412600336770273"
+        ]
+      }
+    ]
+  },
+  "status_of_three_half_four_role": "Both one-query(2,2,2,2) and no-query(2,2,2,1) sufficient head-synthesis alternatives remain open.",
+  "complete_supplier": false,
+  "new_kappa": false
+}

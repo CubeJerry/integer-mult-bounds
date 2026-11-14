@@ -1,0 +1,76 @@
+{
+  "status": "PASS_S013_CHECKPOINT8_PREPUBLICATION",
+  "baseline_sha": "4bf5bc1f28c87fe6120bd053d8202e40b425d6fb",
+  "canonical_upstream_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "checked_utc": "2026-11-14 19:01:51 UTC",
+  "counts": {
+    "registry": 270,
+    "ledger": 4363,
+    "newScientific": 43,
+    "oldScientific": 4320
+  },
+  "packages": [
+    {
+      "id": "BIT-D5-CUBIC-LOCAL-HISTORY",
+      "path": "results/bit-d5-cubic-local-history/ADMISSION.md",
+      "classification": "proved all characteristic-two fields and widths; canonical plus one local cubic reservoir has chi222",
+      "root_result_sha256": "36617472193fe7876779f7a4d47a0a3a4d7e8f39bdf2366dd28d2d4c02044369",
+      "independent_review": "results/bit-d5-cubic-local-history/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-D5-CUBIC-HISTORY-INJECTION",
+      "path": "results/bit-d5-cubic-history-injection/ADMISSION.md",
+      "classification": "proved31 source-bound partial words and exact complete incremental invoices; productive global decoding open",
+      "root_result_sha256": "cc12499eea0e45de2534175e9df27113f161493f42eb84094fbfa6ba6f38735c",
+      "independent_review": "results/bit-d5-cubic-history-injection/review-root/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-TENSOR-RANK-COMPONENTS",
+      "path": "results/complex-tensor-rank-components/ADMISSION.md",
+      "classification": "proved fixed-family all-width algebraic reduction; concrete group faithful at every width at least6",
+      "root_result_sha256": "5af320cbbddc63ad5b5200199bbe3e9282a13956514a3ea94d45194cb8df36d1",
+      "independent_review": "results/complex-tensor-rank-components/review-root/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-TWO-HALF-COMPONENT-GATE",
+      "path": "results/complex-two-half-component-gate/ADMISSION.md",
+      "classification": "proved fixed-tensor ordinary obstruction with arbitrary invertible encodings; both three-half targets remain open",
+      "root_result_sha256": "9eb8ecf30220a7e2ae5d249490dc7987d692db243aa41e0508e8a5a342d0b212",
+      "independent_review": "results/complex-two-half-component-gate/review-root/REVIEW.md"
+    }
+  ],
+  "fresh_author_receipts": {
+    "d5": "exact_match",
+    "tensor_separation": "exact_match",
+    "two_half": "exact_match",
+    "injection": {
+      "status": "PASS_FRESH_AUTHOR_CUBIC_INJECTION",
+      "checks": [
+        "prefix",
+        "control",
+        "closed"
+      ],
+      "code_certificate": true,
+      "price": true
+    }
+  },
+  "independent_controls": {
+    "d5_quadratic_prime": 107,
+    "tensor_Gram_prime": 109,
+    "tensor_width6_determinant": 97,
+    "injection_modes": 31,
+    "injection_columns": 222,
+    "injection_family_pairs": 496,
+    "injection_deletion_controls": 6,
+    "two_half_cross_rank_controls": 1250,
+    "optimistic_allocations": 150
+  },
+  "all_predecessor_scientific_entries_unchanged": true,
+  "root_wrapper_syntax_checked": true,
+  "execution": "Cloud V8 functions; no local Node CLI, fresh native gzip, or unavailable global verifier execution claimed.",
+  "source_qualification": "Native source recovered from the authenticated84-signature flat certificate; provenance retained.",
+  "selected_certificate_changed": false,
+  "new_complete_kappa": false,
+  "pr_submitted": false,
+  "session_active": true
+}

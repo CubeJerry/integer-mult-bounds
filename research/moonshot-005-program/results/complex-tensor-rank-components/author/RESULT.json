@@ -1,0 +1,60 @@
+{
+  "status": "PASS_FINITE_HEAD_RANK_COMPONENTS",
+  "group": {
+    "order": 192,
+    "ordinary_subgroup": 24,
+    "rank_counts": [
+      24,
+      72,
+      96
+    ],
+    "nontrivial_scalar_operators": 0,
+    "maximum_nonidentity_trace_squared": 8,
+    "dimension": 4
+  },
+  "tensor_separation": {
+    "analytic_all_width_threshold": 16,
+    "strict_Gram_row_bound_at16": "191/256",
+    "finite_exact_Gram_prime": 101,
+    "finite_exact_Gram_imaginary": 10,
+    "finite_Gram_ranks": [
+      {
+        "V": 1,
+        "rank_mod101": 10
+      },
+      {
+        "V": 2,
+        "rank_mod101": 37
+      },
+      {
+        "V": 3,
+        "rank_mod101": 88
+      },
+      {
+        "V": 4,
+        "rank_mod101": 155
+      },
+      {
+        "V": 5,
+        "rank_mod101": 191
+      },
+      {
+        "V": 6,
+        "rank_mod101": 192
+      }
+    ],
+    "certified_all_width_threshold": 6,
+    "monotonicity_reason": "Every group element fixes the zero Walsh basis vector, so width-V independence implies width-(V+1) independence."
+  },
+  "rank_bimodule": {
+    "left_and_right_multiplications_checked": 9216,
+    "exact_matrix_component_controls": 48
+  },
+  "negative_controls": {
+    "one_column_false_ordinary": true,
+    "two_column_rejection": true,
+    "nonordinary_left_multiplier_changes_rank": true
+  },
+  "scope": "Fixed finite one-column unitary/Clifford family and ordinary subgroup; tensor lifts and exact global scalar phases retained. No all-head-circuit impossibility, rank-only target sufficiency, movement lower bound, or new kappa.",
+  "new_kappa": false
+}

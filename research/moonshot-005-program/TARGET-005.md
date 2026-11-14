@@ -476,3 +476,12 @@ The nested BIT partial source closes at Q=31[1]+5[2]+11[3]+3[5]+3[6]+209[7]. At 
 The complex common-A reduction requires a four-role head circuit with three native halves and at most one rank-one Gaussian query. With six paid rank7 body idles it would yield target4[23], paid4[1]+9[7]+3[8], and raw margin0.42714950027086134784839... at the target exponent. A rank-two query already makes this specific budget negative. The head circuit, full supplier admission and ordinary/compiler/precision/recursive obligations are open; this favorable arithmetic is only a conditional design test.
 
 For the actual76-wing graph, rank>=44V/5 is now proved. Widths1-4 and all common-flag modules with quotient widths<=4 need9V. A fractional improvement cannot be a larger scalar field or a commuting-block lift. No general9V theorem or width-five fitting is claimed. All strict supplier inequalities at the start of this document are unchanged.
+
+
+## S013 checkpoint8: local-code cost and two surviving complex targets
+
+The preferred cubic injection consumes four extra original source paths and retains their four point copies. Its closed endpoint control adds4([4]+[3]-[7])=0.0948503113898... to the previous nested control, for moment1555.4334072959599.... Ordinary increments are23 ADD and five INIT/CLEAR; all dirty ownership duties remain. Eight additional bare full routes leave only2.9794469046191... before every missing expense. The control uninjects the mode and earns no new decoding credit.
+
+For all characteristic-two fields and widths, row(A) contained in C tensor k^V plus this one local cubic reservoir implies chi222. Even unrestricted innovation supported on its eighteen native coordinates implies chi>=186. Both miss the marked q8/q9 caps138/131. These are support restrictions, not lifetime bounds.
+
+At t=199/200 the common-body three-half no-query target(23,23,23,22) has exact raw margin0.4475188880995255873996632297.... The four-rank23 one-query alternative retains margin0.4271495002708613478483948993.... The no-query two-half target(16,16,15) has favourable arithmetic but is excluded within the fixed tensor ordinary algebra. Its paid-query realization has margin-0.2056884607165.... All150 stated optimistic three-half mixed-head one-query body allocations are negative. Changed body-sharing mechanisms require new accounting. Strict complex and completed-BIT supplier conditions remain unchanged.

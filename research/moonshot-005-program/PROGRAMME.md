@@ -477,3 +477,12 @@ The BIT construction now contains a genuine second fork using the same two desce
 The complex source has an exact common head A with A^3=Z and A^6=I. A paid rank-one conjugacy exposes its order-three part. A specific four-role head circuit using three actual half calls and at most one rank-one query would fit the raw4[23] versus4[1]+9[7]+3[8] budget. This is now a concrete missing synthesis problem, not a constructed supplier. Every body idle, head power and ordinary adapter remains visible.
 
 The structural wing bound improves to44V/5 over every field, with exact characteristic-two minimum9V at widths1-4. Commuting blocks cannot improve9V; a surviving fractional code needs an irreducible quotient of width at least5. The sharp abstract degree-four saturated-star theorem explains the equality mechanism. These constraints guide construction but do not replace it. No new complete kappa; all five foundations remain.
+
+
+## S013 checkpoint8: reversible local codes and exact caller components
+
+The acquired-payload construction now has a source-bound code-changing interface. Every nonzero mode of a five-dimensional D5-local cubic code can be inserted into the same two fork carriers while all original X values are restored. The code is exactly a punctured doubled R10 cycle code. The literal prefix changes one carried direction while retaining rank4; it does not create five simultaneous transmissions.
+
+Independent geometry shows why this alone cannot finish: canonical history plus this one local reservoir still forces chi222, even with arbitrary noncommuting blocks. Multiple compatible reservoirs or a genuinely global history are necessary within this interface. The current constructive task is to join actual local acquisitions so that they change global receiver support, with consumed source paths fully retained.
+
+For the complex caller, fixed projective tensor operators separate at sufficiently large width, and ordinary encodings preserve Gaussian-rank components. The concrete192-element head algebra is faithful for every width>=6. This yields an exact finite synthesis gate and a two-half obstruction. Two three-half alternatives remain: four rank-two heads with one paid rank-one query, or three rank-two heads plus one rank-one head with no query. Both have positive raw invoices; neither circuit is constructed. No complete supplier or new kappa follows.

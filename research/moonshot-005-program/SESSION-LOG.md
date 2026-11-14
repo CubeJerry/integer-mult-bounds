@@ -1451,3 +1451,12 @@ New mathematics: actual acquired payloads let the same two descending lifetimes 
 The complex control now has common A with A^3=Z,A^6=I, paid rank-one cyclic conjugacy, both baseline slopes and a precise three-half/four-role head-circuit obligation. Its complete raw body/query budget is favorable only if that circuit is synthesized. Structural progress proves the sharp minimum-degree-four saturated-star theorem and44V/5 wing bound; commuting and small common-flag blocks cannot beat9V.
 
 All four packages have separate proof reviews and independent exact checks.47 new scientific files are hashed; all4273 prior records and historical qualifications remain. No new kappa, complete supplier or PR. Next: finite head synthesis and global BIT history composition, with the noncommuting wing gap as a distinct structural question. The ten-hour session remains active. Resulting commit identity will be confirmed separately after leased publication.
+
+
+## 2026-11-14-S013 checkpoint8 (2026-11-14 19:01:51 UTC)
+
+Session start3dc8e992ef59f4b8db1c173263a646b618ecf1e1; checkpoint parent4bf5bc1f28c87fe6120bd053d8202e40b425d6fb. Canonical main unchanged; targeted PR updates since18:18UTC returned zero.
+
+New mathematics: exact R10 identification of the D5 cubic shortening; all31 actual mode-acquisition/injection words with full restoration and costs; universal canonical-plus-local chi222 obstruction; phase-exact tensor independence and ordinary rank components; a general two-half endpoint obstruction and two exact surviving three-half invoices. Separate root algorithms recover native geometry, verify222 input columns and all496 code-family pairs, and use distinct primes107/109 and integer-root calculations. Single-local mode availability is not global decoding, and a rank-preserving code switch is not five transmissions.
+
+Next: finish the actual two-overlapping-reservoir decoder witness, with source access and effective quotient dimension explicit, and use exact component/character gates to synthesize a complex caller. New worker claims remain pending. No new kappa, complete supplier or PR. The requested ten-hour session remains active. Resulting commit SHA is confirmed after leased publication and recorded separately.

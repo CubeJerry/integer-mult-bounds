@@ -188,3 +188,12 @@ Rashmi--Shah--Ramchandran, [arXiv1302.5872v1](https://arxiv.org/html/1302.5872v1
 The sharp star theorem and44V/5 bound are internally proved, with inherited LR credit. The common-head cyclic conjugacy is an explicit calculation, not an imported Hilbert90 existence claim. No external theorem is assumed to close a source or supplier gap.
 
 At 2026-11-14 18:18:11 UTC, canonical main remained e54523517d0f03e58352e647c403a5af3e525a57. The targeted GitHub PR query updated since2026-11-14T16:58:00Z returned zero items. No upstream branch, selected certificate or PR was changed.
+
+
+## S013 checkpoint8: the local code is R10
+
+Primary source read: P. D. Seymour, [Decomposition of Regular Matroids](https://web.math.princeton.edu/~pds/papers/regular/paper.pdf), JCTB28(1980), p328. Its ten weight-three binary5-vectors define R10. The root review gives a direct identity Hx=(sum x)1+incidence(x), identifying our even-Eulerian K5 code with ker H, then checks the native doubling/puncturing. This suggests studying code joins through matroid interfaces; no global regularity, decomposition, source chronology or cost theorem is imported.
+
+The original retained compiler files were checked directly: SPECIALIZATION.md blob7ee84b30892f7354e1c36611f1a5e9b082dc6147 and FINITE-PRECOMPILATION.md blob4badb40f0919c515823cb07e44c6470d4d6469ca. Their finite scalar catalogues, denominator heights and prefix norms are fixed before input length varies. New border-degeneration ideas must state a separate bridge rather than treating these constants as free input-dependent quantities.
+
+At 2026-11-14 19:01:51 UTC, canonical main remained e54523517d0f03e58352e647c403a5af3e525a57; a targeted PR query updated since18:18UTC returned zero items. No upstream merge, selected certificate or PR was changed.

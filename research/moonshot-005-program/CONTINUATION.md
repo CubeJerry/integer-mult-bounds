@@ -237,3 +237,14 @@ Next construct across the actual three-facetA2 geometryF92,F15,F106, or fuse the
 ## Resume after S013 checkpoint5
 
 Read STATE.s013 and the three new admissions. Full rank3 group-cache acquisition blocks later wing-facet visits even with point copies. Use partial acquisition with original paths chosen first. Review the forthcoming76-wing strict >8V certificate and complex correction-rank minors; keep block rank between8V and9V open until proved. Continue the actual changed-role common-coupling caller. Local execution is unavailable, but cloud exact functions and leased GitHub publication work. S013 remains active toward23:21:59UTC; no background continuation is promised.
+
+
+## Resume after S013 checkpoint8
+
+Current checkpoint baseline4bf5bc1f28c87fe6120bd053d8202e40b425d6fb; resulting identity is confirmed separately. S013 remains active until the requested23:21:59UTC boundary. Cloud exact computation and GitHub publication work; local execution remains unavailable.
+
+The actual BIT construction can reversibly inject any of31 R10-local cubic modes through the existing two carrier branches. This preserves carried rank4 while changing one direction. Its endpoint control removes the mode and does not earn global decoding credit. The independent single-D5 screen gives chi222; arbitrary innovation supported on those18 coordinates still gives chi>=186. Next investigate overlapping acquired reservoirs with an actual decoded output and preserved continuation access. Worker candidates are not yet admitted here.
+
+The complex finite192-group component reduction and two-half gate are proved. Two three-half raw targets survive in the larger group: no-query(2,2,2,1) and one-query(2,2,2,2). An involutive normalization and smaller dihedral synthesis are under investigation, with actual ordinary lambda operations and query semantics still to be verified. Do not treat them as completed callers.
+
+Read the four checkpoint8 admissions, STATE.s013 and the verification receipt. No supplier or kappa claim has changed.
