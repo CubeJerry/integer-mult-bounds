@@ -1,0 +1,114 @@
+{
+  "engine_pins": {
+    "clifford_exact.py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "native_verify.py": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38"
+  },
+  "introduced_pairs": [],
+  "maps": [
+    {
+      "destination": 127,
+      "rank": 3,
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            9,
+            17,
+            34,
+            68,
+            128,
+            256,
+            4,
+            2,
+            7
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            6,
+            5,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 3,
+        "right": {
+          "linear_Z4": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            257,
+            260,
+            264,
+            448,
+            450,
+            128,
+            64,
+            16,
+            32
+          ],
+          "offset": 119,
+          "phase": 0,
+          "quadratic_rows": [
+            192,
+            0,
+            384,
+            320,
+            0,
+            0,
+            9,
+            5,
+            12
+          ]
+        }
+      },
+      "source": 1095,
+      "source_frame": [
+        3,
+        16,
+        32,
+        72,
+        132,
+        269
+      ],
+      "target_frame": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256
+      ]
+    }
+  ],
+  "scope": "All introduced finite chart maps and the map for the new return operation, including inherited map reuse; other old maps inherit predecessor verification.",
+  "status": "PASS_ALL_INTRODUCED_MIXED_RETURN_PHASE_MAPS",
+  "word_sha256": "ca599b344d422248d89f1e8595b61032b117f4f0ddee3d6d474a2619ea66a3e9",
+  "wrong_global_phase_rejected": true
+}

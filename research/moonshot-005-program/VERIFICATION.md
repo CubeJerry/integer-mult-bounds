@@ -140,3 +140,14 @@ author/reviewer files and all prior scientific bytes except the one previously
 annotated missing historical log. Old pending-review author headers remain
 as historical bytes and are superseded by separate admissions. No human or
 formal-kernel verification, source completeness or new kappa is claimed.
+
+## S011 checkpoint4 checks
+
+New lead drivers reuse the pinned independent dense400-input engine to verify
+both relation words, fraction-free ranks and eight mutants. The author's exact
+phase adapter is read and reproduced, distinguished from independent source
+review. A new dense96-adjoint sweep and200-formal-arrival interpreter verify
+every source-control premise. Independent2^-140 integer roots prove both full
+tariffs; no author control/price code is imported. The BIT triple uses a separate
+222-column sparse-set checker, exact charts and16 mutants. Installed receipts,
+manifests and unchanged prior scientific bytes are in CHECKPOINT4-VALIDATION.

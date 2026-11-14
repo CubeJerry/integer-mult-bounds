@@ -204,3 +204,16 @@ needs at leastnine returns, exceeding the retained complete allowance. This
 is a fixed-source/target-code obstruction. The next complex construction must
 change local histories or its residual code; arbitrary new recoding remains
 open. The old rank82 residual is never identified with Gram rank8.
+
+## S011 changed-source boundary
+
+An [actual complex target relation](results/complex-target-relation/ADMISSION.md)
+reduces82to81 using an existing C6 chart and one paid rank3 return;4920 forward
+coefficients remain. The [all-time station gate](results/complex-station-control/ADMISSION.md)
+excludes passive old D-station insertions followed by capture/returns, regardless
+of target code:74/66 fields are required and exceed the full budget. Transient
+donor recoding or a distributing moving field is the next complex construction.
+The [BIT triple](results/bit-mixed-triple/ADMISSION.md) extends actual shared
+acquisition. Its108 remaining outputs and the new halfclass candidate's
+retained information/access/decoder obligations remain open. That revised
+prefix is under separate review, not admitted by this checkpoint.

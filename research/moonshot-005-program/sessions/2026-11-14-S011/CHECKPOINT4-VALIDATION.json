@@ -1,0 +1,45 @@
+{
+  "status": "PASS_S011_CHECKPOINT4_INTEGRATION",
+  "baseline_sha": "8dd03a92cb0f8eefd68a70d3251b35e1b1c5639c",
+  "confirmed_parent_tree": "ace158570c5e6fb10d05b2934a7c916f1f77519e",
+  "time_utc": "2026-11-14T02:48:13.519568+00:00",
+  "packages": [
+    "complex-target-relation",
+    "complex-station-control",
+    "bit-mixed-triple"
+  ],
+  "manifest_entry_checks": 69,
+  "old_scientific_entries": 2299,
+  "old_present_unchanged": 2298,
+  "known_missing_unchanged": [
+    {
+      "path": "results/four-call-dyadic-entry/review/replay.log",
+      "sha256": "e63a2e88a6d947210bfd4a0d216b036a3421500048a300461e8b17d69da3dcca",
+      "bytes": 1607
+    }
+  ],
+  "new_scientific_entries": 47,
+  "total_scientific_entries": 2346,
+  "installed_exact_matches": [
+    {
+      "installed": "CP4-RELATION.json",
+      "frozen": "complex-target-relation/review-root/RESULT.json"
+    },
+    {
+      "installed": "CP4-CONTROL.json",
+      "frozen": "complex-station-control/review-root/RESULT.json"
+    },
+    {
+      "installed": "CP4-CONTROL-PRICE.json",
+      "frozen": "complex-station-control/review-root/PRICE.json"
+    },
+    {
+      "installed": "CP4-TRIPLE.json",
+      "frozen": "bit-mixed-triple/review-root/RESULT.json"
+    }
+  ],
+  "phase_adapter_reproductions_match": true,
+  "phase_review_classification": "Author adapter and retained exact engines reproduced; not a new independent phase implementation.",
+  "new_kappa": null,
+  "session_continues": true
+}

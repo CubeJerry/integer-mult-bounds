@@ -198,3 +198,16 @@ operation. The mixed word avoids one upward pure-cache duplicate, explained
 by a new disjoint-demand cut theorem. The109 remaining targets, uniform
 physical compiler, strict suppliers and all foundations remain open. The
 cumulative branch remains ongoing and is not being submitted automatically.
+
+### S011 actual relation and whole-word control limit
+
+The [paid mixed relation](results/complex-target-relation/ADMISSION.md) lowers
+82to81 with every other public row unchanged; independent400-column checks,
+exact ranks/costs and phase reproduction are documented. The
+[all-time control theorem](results/complex-station-control/ADMISSION.md) then
+excludes completing either old source with D-station insertions and passive
+returns, even for arbitrary operators/target codes. An invertible Hub map
+prevents hidden-history credit;74/66 dimensions exceed the complete tariff.
+Transient recoding remains open. A separate [BIT triple](results/bit-mixed-triple/ADMISSION.md)
+gives a verified cyclic shared-acquisition module. No new kappa; PR readiness
+false, all strict suppliers/foundations retained.

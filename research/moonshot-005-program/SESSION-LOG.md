@@ -1166,3 +1166,19 @@ Complex changed-source work continues; new packages there are not admitted
 by this checkpoint. All five foundations and both strict suppliers remain,
 No new kappa, ongoing/not PR-ready. Session remains active toward11:19:23UTC.
 Resulting remote SHA is recorded only after confirmation in the next receipt.
+
+## 2026-11-14-S011 — checkpoint4: paid relation and whole-word control gate
+
+Baseline8dd03a92cb0f8eefd68a70d3251b35e1b1c5639c, confirmed tree
+ace158570c5e6fb10d05b2934a7c916f1f77519e. Lead independently checks B's actual
+target-sum words:82to81,399 other public rows unchanged,4920 forward debt.
+C6/C2 are alternatives; phase reproduction and independent source review are
+distinguished. Dense adjoints/formal Hub maps independently prove the74/66
+old D-station gate and full tariff deficits. B pursues transient recoding.
+A's cyclic three-target BIT word passes separate222-column checks.
+
+Protected discovery/construction expose retention and cut constraints in the
+halfclass candidate. A bare prefix fails; paid retention and actual decoding
+are being developed and are not admitted here. All suppliers/foundations
+remain, No new kappa, ongoing/not PR-ready. Session continues to11:19:23UTC;
+the resulting remote SHA is recorded only after separate confirmation.

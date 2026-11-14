@@ -47,3 +47,11 @@ preserve older scientific bytes and scoped conclusions. The historical missing
 console log remains annotated in SCIENTIFIC-FILES; do not fabricate it.
 One ongoing programme, not PR-ready. S011 is active with planned close
 2026-11-14 11:19:23 UTC; state fields do not imply execution after a handoff.
+
+## Checkpoint4 complex update
+
+The paid C6/C2 relation alternatives are admitted:82to81 only. Old D-station
+control/capture completion is excluded by74/66 protected columns and full
+invoice. Pursue transient D recoding or a genuine distributing record with
+restored endpoints, not passive target-code changes in that grammar. The
+BIT triple is verified; the retained-halfclass decoder remains under review.

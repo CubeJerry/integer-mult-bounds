@@ -107,3 +107,14 @@ subcase is closed. The full endpoint/supplier/foundational graph is unchanged.
 Earlier W0/joint guidance is superseded only as a complete-code strategy.
 Its exact local modules, costs and proofs remain valid. No finite mixed-word
 success proves an unbounded supplier or discharges any of the five foundations.
+
+## S011 checkpoint4 transitions
+
+| ID | Exact status | Next work |
+|---|---|---|
+| COMPLEX-TARGET-RELATION | PROVED identity; finite400-column82to81 alternatives verified,4920 forward debt. [Admission](results/complex-target-relation/ADMISSION.md). | Compatible relations/innovations completing all endpoints. |
+| COMPLEX-STATION-CONTROL | DISPROVED WITHIN SCOPE: old D-station insertions plus capture/returns;74/66 fields exceed full invoice. [Admission](results/complex-station-control/ADMISSION.md). | Restored transient D recoding or moving distributor. |
+| BIT-MIXED-TRIPLE | Verified joint cyclic word, three Y complete/all X restored, no extra owned ascent. [Admission](results/bit-mixed-triple/ADMISSION.md). |108 targets, retained input information and actual decoder access. |
+
+The complex gate does not outlaw a partial target relation; it excludes whole
+completion by sufficient passive returns. No supplier/foundation is promoted.

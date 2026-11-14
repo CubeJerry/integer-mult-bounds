@@ -203,3 +203,14 @@ owned lifetimes4/2 and peak3/1. These are partial alternative invoices, not
 complete budgets. Masking removes pure-demand multicast redundancy, but its
 coordinate-only history fails all103 other ports. Actual sign-sensitive
 predecessor histories, full endpoints and strict supplier admission remain.
+
+## S011 checkpoint4: complex control boundary
+
+Original-D station controls in the exact stripped sources require74/66
+capture/returns, for arbitrary characteristic-zero operators and every width.
+Limiting full-caller allowances57.09634026844.../56.85188138966... yield even
+rank1-return deficits16.90365973156.../9.14811861034..., with finite-m penalty
+31.53977836709.../(m-1). Transient recoding/distributing histories lie outside
+this grammar and need their own full invoices. The real82to81 target relation
+costs[3]+54ADD+one lifetime, and its C2 alternative is more expensive, not
+additional gain. The1578[1]/391ADD BIT triple completes only three targets.
