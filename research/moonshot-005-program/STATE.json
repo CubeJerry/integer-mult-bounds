@@ -2,17 +2,17 @@
   "schema": "moonshot-005-program-state-v2-compact",
   "branch": "research/moonshot-005-program",
   "repository": "CubeJerry/integer-mult-bounds",
-  "checkpoint_baseline_sha": "60dcc4a5c7c9a8b6960b575e2d86c4dd4225e0a6",
+  "checkpoint_baseline_sha": "83f65d544b43608eade0658083048ce0b615a933",
   "checkpoint_sha_semantics": "Parent/baseline identity; never self-referential. Resulting remote SHA is confirmed after publication and recorded in next receipt or session handoff.",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
-  "upstream_last_checked_utc": "2026-11-14 15:00:44 UTC",
-  "root_upstream_review": "Canonical main unchanged at15:00; updated-PR query after13:45 returned no entries. S013 checkpoint2 at2e9a91a5 inspected and fast-forwarded; its seven additional BIT/relay packages and state preserved.",
+  "upstream_last_checked_utc": "2026-11-14 16:44:10 UTC",
+  "root_upstream_review": "Final canonical-main ref check at2026-11-14 16:44:10 UTC found e54523517d0f03e58352e647c403a5af3e525a57 unchanged. Concurrent S013 checkpoint3 at12b269a98e461ebf5e83e24cc16765540bec9626 was read and preserved; its source replay remains S013 evidence, not a new root reproduction. During closing, concurrent S013 checkpoint4 at83f65d544b43608eade0658083048ce0b615a933 was inspected and preserved. Its quadratic-sign gate admission was read for scope; no new independent replay or universal-proof review is claimed.",
   "session": "2026-11-14-S012",
   "session_started_utc": "2026-11-14 06:50:01 UTC",
   "session_planned_end_utc": "2026-11-14 16:50:01 UTC",
   "requested_session_seconds": 36000,
-  "session_status": "closing-final-review",
-  "session_checkpoint_utc": "2026-11-14 16:38:10 UTC",
+  "session_status": "closed",
+  "session_checkpoint_utc": "2026-11-14 16:47:16 UTC",
   "background_execution": false,
   "phase": "complementary-channel-caller-synthesis",
   "target_kappa": "1/200",
@@ -764,8 +764,8 @@
     "complete_complex_caller_sha256": "d9ba709fa5dcefffe3f3abdcf34600ce188224703cfd743e6db8b58ba4816cb7",
     "selected_index_sha256": "154c3d30455d778fd3343b6b4851f0fa4665f0f7625b0adb3675e2bafbbf6bf1"
   },
-  "last_verified_scientific_commit": "5f4f9a1be068937d0e3ae1a78e81bf7f6b0a6e9d",
-  "last_verified_scientific_tree": "03b93f6f121331406973e171b9d160664aeb4507",
+  "last_verified_scientific_commit": "60dcc4a5c7c9a8b6960b575e2d86c4dd4225e0a6",
+  "last_verified_scientific_tree": "e91f111ca28f6f5078347e1fe0f1ea421e129af2",
   "archived_state": {
     "path": "sessions/2026-11-13-S010/logical-records-at-cp12/STATE.json",
     "source_commit": "35237fd8d59aeb3b0a21c9a427daca2f1eee9a60",
@@ -788,11 +788,13 @@
     },
     {
       "id": "2026-11-14-S012",
-      "status": "closing-final-review",
+      "status": "closed",
       "started_utc": "2026-11-14 06:50:01 UTC",
       "planned_end_utc": "2026-11-14 16:50:01 UTC",
       "focus": "Common-involution extraction from complementary actual source channels, with exact joint-repair gates.",
-      "local_workspace": "/workspace/scratch/82e30be26b31"
+      "local_workspace": "/workspace/scratch/82e30be26b31",
+      "closed_scientific_checkpoint_utc": "2026-11-14 16:47:16 UTC",
+      "final_handoff": "sessions/2026-11-14-S012/FINAL-HANDOFF.md"
     },
     {
       "id": "2026-11-14-S013",
@@ -818,7 +820,7 @@
     "final_handoff": "sessions/2026-11-13-S010/FINAL-HANDOFF.json"
   },
   "path_semantics": "Paths relative to research/moonshot-005-program unless stated otherwise.",
-  "publication_status": "S013 remains active through23:21:59UTC using cloud V8 and GitHub after local workspace loss. Nineteen admitted S013 packages. No new kappa or upstream PR.",
+  "publication_status": "S012 final mathematical recovery confirmed at60dcc4a5c7c9a8b6960b575e2d86c4dd4225e0a6; published files and fresh exact core read back, three independent transcription/algebra reviews accepted. Original late local packages remain unavailable. Programme ongoing, no new kappa, not PR-ready. S013 active state preserved. Concurrent S013 checkpoint4 and its complete active state are preserved.",
   "s011": {
     "starting_remote_sha": "628429f0ffbe2da62d411befb314e74219c6ea57",
     "requested_seconds": 36000,
@@ -869,7 +871,7 @@
   },
   "s012": {
     "id": "2026-11-14-S012",
-    "status": "closing-final-review",
+    "status": "closed",
     "starting_remote_sha": "a22f6932c7a57328f92bcf7a6f373c1433ec52f8",
     "started_utc": "2026-11-14 06:50:01 UTC",
     "planned_end_utc": "2026-11-14 16:50:01 UTC",
@@ -987,9 +989,16 @@
     "checkpoint11_confirmed_remote_sha": "5f4f9a1be068937d0e3ae1a78e81bf7f6b0a6e9d",
     "checkpoint12_recovery_baseline": "cd97172df80110a4c5300ee02d26a8a34c97566c",
     "checkpoint12_recovery_utc": "2026-11-14 16:38:10 UTC",
-    "workspace_loss": "Environment unavailable approximately16:22; GitHub connector used for durable recovery; missing original artifacts explicitly catalogued."
+    "workspace_loss": "Environment unavailable approximately16:22; GitHub connector used for durable recovery; missing original artifacts explicitly catalogued.",
+    "closed_scientific_checkpoint_utc": "2026-11-14 16:47:16 UTC",
+    "checkpoint12_recovery_confirmed_remote_sha": "60dcc4a5c7c9a8b6960b575e2d86c4dd4225e0a6",
+    "final_handoff": "sessions/2026-11-14-S012/FINAL-HANDOFF.md",
+    "final_validation": "sessions/2026-11-14-S012/FINAL-VALIDATION.json",
+    "final_published_text_reviews": "sessions/2026-11-14-S012/FINAL-REVIEWS.json",
+    "closure_note": "Scientific checkpoint closed at the recorded actual time; final publication/readback and user handoff complete the requested ten-hour session window. Programme remains ongoing; no background continuation promised.",
+    "concurrent_s013_checkpoint4_preserved": "83f65d544b43608eade0658083048ce0b615a933"
   },
-  "latest_checkpoint_session": "2026-11-14-S013",
+  "latest_checkpoint_session": "2026-11-14-S012",
   "s013": {
     "status": "active",
     "starting_remote_sha": "3dc8e992ef59f4b8db1c173263a646b618ecf1e1",
@@ -1044,8 +1053,8 @@
     "workspace_loss_record": "sessions/2026-11-14-S013/WORKSPACE-LOSS-AND-CONTINUATION.md",
     "concurrent_s012_final_recovery_preserved": "60dcc4a5c7c9a8b6960b575e2d86c4dd4225e0a6"
   },
-  "last_reconciled_remote_sha": "60dcc4a5c7c9a8b6960b575e2d86c4dd4225e0a6",
-  "reconciled_concurrent_scientific_commit": "60dcc4a5c7c9a8b6960b575e2d86c4dd4225e0a6",
+  "last_reconciled_remote_sha": "83f65d544b43608eade0658083048ce0b615a933",
+  "reconciled_concurrent_scientific_commit": "83f65d544b43608eade0658083048ce0b615a933",
   "programme_status": "ongoing",
   "workspace_recovery": {
     "status": "execution_environment_unavailable",
@@ -1054,6 +1063,9 @@
     "emergency_commit": "cd97172df80110a4c5300ee02d26a8a34c97566c",
     "new_package": "results/s012-final-recovery/ADMISSION.md",
     "original_artifact_status": "results/s012-final-recovery/RECOVERY-STATUS.json",
-    "fresh_controls": "results/s012-final-recovery/FRESH-CONTROLS.mjs"
+    "fresh_controls": "results/s012-final-recovery/FRESH-CONTROLS.mjs",
+    "final_proof_commit": "60dcc4a5c7c9a8b6960b575e2d86c4dd4225e0a6",
+    "published_core_replayed": true,
+    "original_artifacts_recovered": false
   }
 }
