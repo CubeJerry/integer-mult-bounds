@@ -1,0 +1,104 @@
+{
+  "status": "PASS_INDEPENDENT_ORBIT_EXACT",
+  "sympy": "1.14.0",
+  "cases": [
+    {
+      "n": 2,
+      "d": 1,
+      "q": "1/2",
+      "ell": 1,
+      "orbits": 1,
+      "ranks": [
+        2,
+        2
+      ],
+      "bound": 2
+    },
+    {
+      "n": 2,
+      "d": 2,
+      "q": "1/2",
+      "ell": 2,
+      "orbits": 1,
+      "ranks": [
+        2,
+        2
+      ],
+      "bound": 2
+    },
+    {
+      "n": 2,
+      "d": 3,
+      "q": "1/2",
+      "ell": 2,
+      "orbits": 2,
+      "ranks": [
+        4,
+        4
+      ],
+      "bound": 4
+    },
+    {
+      "n": 2,
+      "d": 4,
+      "q": "1/2",
+      "ell": 4,
+      "orbits": 2,
+      "ranks": [
+        4,
+        4
+      ],
+      "bound": 4
+    },
+    {
+      "n": 4,
+      "d": 2,
+      "q": "1/2",
+      "ell": 2,
+      "orbits": 4,
+      "ranks": [
+        8,
+        8
+      ],
+      "bound": 8
+    },
+    {
+      "n": 2,
+      "d": 4,
+      "q": "2/3",
+      "ell": 4,
+      "orbits": 2,
+      "ranks": [
+        4,
+        4
+      ],
+      "bound": 4
+    }
+  ],
+  "controls": [
+    {
+      "control": "nonpower cycle",
+      "lengths": [
+        2,
+        6
+      ],
+      "detected": true
+    },
+    {
+      "control": "odd alphabet",
+      "lengths": [
+        1,
+        4
+      ],
+      "detected": true
+    },
+    {
+      "control": "unequal factors",
+      "detected": true
+    },
+    {
+      "control": "interior order mutation",
+      "detected": true
+    }
+  ]
+}

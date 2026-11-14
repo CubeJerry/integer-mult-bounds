@@ -53,3 +53,7 @@ The OLD23 zero producer closes the pre-existing Gamma6-header-donor premise with
 The normalized Gaussian ordinary-generator obstruction now survives Cp-bit entry/factor rounding for the stated logarithmic Gaussian and polynomial phase-gap regime, with O(g log p)=o(p) logarithmic margin cost. Full paid gauges/periodicity/source recovery and arbitrary coordinate orders are still separate. No runtime lower bound follows.
 
 Candidate next compiler question is unresolved: does the exact retained finite uniform closure follow from the other four statements plus admitted finite algebra, or is an additional current-owner/descriptor/child-return proposition genuinely independent? This must be traced to exact source contracts, not proved by adding the conclusion as a new interface premise.
+
+## Wave3/4 opportunity update
+
+Complete selected MOVE24472 now has a paid OLD23 physical boundary and pre-right all-prefix admission, under explicit supplied-owner/common-root premises. Source acquisition, complete caller, owned chronology and nonleaf rate remain separate. Context-depth K_star is already covered by #6901/current common-grid. PR7504 leaves a literal encoded predicate/owned-return obligation, now allocated. Orbit ordering qualifies the lexicographic generator obstruction; prime-cycle strengthening is being verified and still supplies no fast application or source-wide homogeneous-factor premise.
