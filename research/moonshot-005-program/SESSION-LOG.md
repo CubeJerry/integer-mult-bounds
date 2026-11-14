@@ -1228,3 +1228,22 @@ Protected discovery continues on genuine coupled codes and changed-route
 normalization. No new kappa, all five foundations retained. Root separately
 reviews a new complex line-Gram seed. Session remains active through11:19:23UTC;
 resulting remote identity is recorded after confirmation. Ongoing/not PR-ready.
+
+## 2026-11-14-S011 — checkpoint8: acquired births and an actual duplex Gram seed
+
+Baseline `6d20da3170f5f5032ccdcad1b3082b2a1131f465`, tree
+`ab5e896b765988803e203f1f1d8c7d06e4b4cde5`. C proves rectangular proper-birth
+normalization with actual image constraints; root reviews the all-field argument
+and distinct rational symbolic cells. Root combines the complete budget with the
+uniform rank gap; C independently reviews and brackets all caps. Target-feasible
+ground-ending mixtures still need history rank ceil(28V/3), without a Hub-eight
+assumption. Proper termination and owned turns remain the next structural work.
+
+B builds an actual 400-input omitted-line Gram duplex. Root checks all rows and
+charts, D restoration, the paired invariant, invoices and five controls. All 302
+phase maps reproduce exactly. Compiler room 8.8435189630 is retained, but the
+paired slot is unbuilt. Canonical main is unchanged. The #7557 Law 5 retraction
+is recorded, and scoped funding and rounding/tape PRs are reviewed without
+admission. Protected discovery continues; no new kappa, all five foundations
+retained, session active through 11:19:23 UTC. The resulting remote identity is
+recorded after confirmation. Ongoing, not PR-ready; no upstream PR submitted.

@@ -150,3 +150,13 @@ is being integrated separately; revised source retention remains active.
 | ALL-RECEIVER-UNION-CUTS | PROVED every subset reduces to a clique; exact62003 nontrivial ranks, max6V. Depends on native111 roots, repaired core and actual pure copies. | Passed necessity is not simultaneous-code sufficiency. |
 | X-COALESCENCE | PROVED unread same-record MOVE rule; actual partial words with required214-X-MOVE profile. | Decoder must preserve or reprice mandatory stops. |
 | TWO-COMMUTATIVE-CHANNELS | PROVED universal odd-cycle obstruction including zero resets/zero divisors; native application. | Genuine coupling or noncommuting-block construction; no generic impossibility claimed. |
+
+## S011 checkpoint8 transitions
+
+| ID | Exact admitted result | Remaining dependency |
+|---|---|---|
+| PROPER-BIRTH-IMAGE | PROVED all-field rectangular reconstruction plus actual birth-image equations; ground termination only. | Paid proper termination/turning extension, if used. |
+| MIXED-TARGET-RANK | PROVED complete-caller endpoint necessity for alltargetκ;ell<=193 impliesceil(28V/3) all-operator history floor. | Construct actual histories and satisfy everyimage/Y equation. |
+| OMITTED-LINE-GRAM | PROVED actual400-input seed, allD restored,16rank8 mode transfers, hostedR+Ltranspose=0. | Full pairedoffdiagonal compiler and all target values. |
+| PAIRED-GLOBAL-SLOT | CONDITIONALLY PROVED source composition identity with explicit cochart/cache/read premises. | Supply one actual word within8.8435189630 limiting movementroom. |
+| UPSTREAM-Y-LAW5 | Original#7557 neutral-period statement WITHDRAWN by author. Never a programme dependency. | Corrected scoped hypotheses only; no freeL-side realization. |

@@ -56,3 +56,18 @@ and A read and independently checked the rank argument. Equality saturation
 closes this programme's previously open singular-Schur stratum. The PR remains
 open; other claims in it are not imported. New #7555/#7557/#7558/#7546 remain
 initial triage only. Canonical main and selected conditional kappa unchanged.
+
+## S011 mid-session targeted review — 2026-11-14 04:12 UTC
+
+Canonical main remains `e54523517d0f03e58352e647c403a5af3e525a57`.
+The [receipt](sessions/2026-11-14-S011/upstream/MIDSESSION-0412.json) records 15
+recent open-PR metadata rows and exact source pins. No merge or source import occurred.
+
+- [#7557](https://github.com/CrocSwap/integer-mult-bounds/pull/7557), head `31842e1de2004fb9a339c16a8ca6333a5339e13b`: the author retracts the original Law 5 and neutral-period premise. Root reads the [addendum](https://github.com/DreamingOfClouds/integer-mult-bounds/blob/31842e1de2004fb9a339c16a8ca6333a5339e13b/research/p104-t-minus-one-laws/ADDENDUM.md). Source-contaminated park examples defeat the general 96-deficiency claim; their L-side geometry remains unbuilt. Corrected park-family and time-difference hypotheses are scoped. The programme never adopted the withdrawn law.
+- [#7577](https://github.com/CrocSwap/integer-mult-bounds/pull/7577), head `509baf4514966e4202cfdde379d7adf3085b1cc7`: the full written proof is read, but its source evidence is not reproduced. The joint fixed-producer helper/cache ceiling on #7481 with the 17-call #7113 caller is below .0038. It does not exclude rebuilt producers or the new Gram seed. It supports pursuing structural source changes.
+- [#7569](https://github.com/CrocSwap/integer-mult-bounds/pull/7569), head `26226aa52337e6e94bc0cdf3cf6b89d16bb42f5f`: result and independent review/limits are read. The claimed global Z4 rounding bijection has bilateral norm slack 1/2, but sum, conjugation and order identities and the selected tape tariff do not follow. This is a potential precision/native sublemma. Its universal proof and kernel are not reproduced here; no foundation is discharged.
+- [#7568](https://github.com/CrocSwap/integer-mult-bounds/pull/7568), head `6c68c9d55b518c997fe5f53d127810e4009e9903`: body-only triage of a literal 54-tape once-rounded selected MOVE. Packed entry, cutoff and the caller/error proof remain premises. It is not composed with the current construction.
+
+Search-index queries returned empty even for the author; direct REST metadata
+was used, so empty search was not treated as absence of research. All these PRs
+remain open.

@@ -1,0 +1,54 @@
+{
+  "status": "PASS_S011_CHECKPOINT8_INTEGRATION",
+  "baseline_sha": "6d20da3170f5f5032ccdcad1b3082b2a1131f465",
+  "confirmed_parent_tree": "ab5e896b765988803e203f1f1d8c7d06e4b4cde5",
+  "time_utc": "2026-11-14 04:21 UTC",
+  "packages": [
+    "bit-proper-birth-normalization",
+    "complex-omitted-line-gram"
+  ],
+  "manifest_entry_checks": 61,
+  "old_scientific_entries": 2477,
+  "old_present_unchanged": 2476,
+  "known_missing_unchanged": [
+    {
+      "path": "results/four-call-dyadic-entry/review/replay.log",
+      "sha256": "e63a2e88a6d947210bfd4a0d216b036a3421500048a300461e8b17d69da3dcca",
+      "bytes": 1607
+    }
+  ],
+  "new_scientific_entries": 41,
+  "total_scientific_entries": 2518,
+  "installed_exact_matches": [
+    {
+      "installed": "CP8-PROPER-ROOT.json",
+      "frozen": "bit-proper-birth-normalization/normalization-review-root/RESULT.json"
+    },
+    {
+      "installed": "CP8-PROPER-AUTHOR.json",
+      "frozen": "bit-proper-birth-normalization/normalization-author/RESULT.json"
+    },
+    {
+      "installed": "CP8-TARGET-AUTHOR.json",
+      "frozen": "bit-proper-birth-normalization/target-author/RESULT.json"
+    },
+    {
+      "installed": "CP8-TARGET-REVIEW.json",
+      "frozen": "bit-proper-birth-normalization/target-review-c/RESULT.json"
+    },
+    {
+      "installed": "CP8-LINE-PRICE.json",
+      "frozen": "complex-omitted-line-gram/review-root/PRICE.json"
+    },
+    {
+      "installed": "CP8-LINE-SOURCE.json",
+      "frozen": "complex-omitted-line-gram/review-root/SOURCE.json"
+    }
+  ],
+  "phase_receipt_reproduction_exact": true,
+  "phase_map_count": 302,
+  "session_log_append_only": true,
+  "protected_discovery_policy_unchanged": true,
+  "new_kappa": null,
+  "session_continues": true
+}

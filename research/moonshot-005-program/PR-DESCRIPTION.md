@@ -250,3 +250,19 @@ provided; a complete six-packet decoder remains open. The
 rules out two independent mutable channels over every nonzero characteristic-two
 commutative ring, while explicitly preserving coupled and noncommuting escapes.
 These are coherent source and structural contributions, not a new completeκ.
+
+### S011 acquired proper births and an actual bidirectional omitted-line source
+
+The [new normalization](results/bit-proper-birth-normalization/ADMISSION.md)
+uses actual rectangular kernel/image equations for proper-born packets and
+retains unknown Y values. Complete target-wide cost composition preserves the
+ceil(28V/3) history-rank floor for every target-feasible ground-ending mixture,
+with independent reviews in both proof directions.
+
+The [complex Gram source](results/complex-omitted-line-gram/ADMISSION.md) provides
+a literal construction on 400 inputs: eight true reverse Gram observations,
+all D values restored, eight forward modes, correctly weighted coupled Y values,
+an exact paired invariant, 302 phase maps and complete invoices. A precise
+conditional compiler interface isolates the missing whole-source construction.
+Its favorable limiting room of 8.8435 does not establish existence of that
+compiler. No new kappa; all foundations and strict supplier gaps remain explicit.

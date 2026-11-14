@@ -1,0 +1,61 @@
+{
+  "status": "PASS_RECTANGULAR_PROPER_BIRTH_NORMALIZATION_CONTROLS",
+  "field_for_computational_cases": "F2",
+  "matrix_cases": 543,
+  "coefficient_reconstruction_and_image_checks": 121476,
+  "exhaustive_shapes": "0<=incoming<=2, incoming<=outgoing<=3",
+  "additional_fixed_seed_shapes": [
+    "3x3",
+    "4x3"
+  ],
+  "birth_rank_mode_counts": {
+    "1": {
+      "first_ground_coordinates": 1,
+      "maximum_incoming_proper_visits": 0,
+      "total_width_units": 1
+    },
+    "2": {
+      "first_ground_coordinates": 1,
+      "maximum_incoming_proper_visits": 1,
+      "total_width_units": 2
+    },
+    "3": {
+      "first_ground_coordinates": 1,
+      "maximum_incoming_proper_visits": 2,
+      "total_width_units": 3
+    },
+    "4": {
+      "first_ground_coordinates": 1,
+      "maximum_incoming_proper_visits": 3,
+      "total_width_units": 4
+    },
+    "5": {
+      "first_ground_coordinates": 1,
+      "maximum_incoming_proper_visits": 4,
+      "total_width_units": 5
+    },
+    "6": {
+      "first_ground_coordinates": 1,
+      "maximum_incoming_proper_visits": 5,
+      "total_width_units": 6
+    },
+    "7": {
+      "first_ground_coordinates": 1,
+      "maximum_incoming_proper_visits": 6,
+      "total_width_units": 7
+    },
+    "8": {
+      "first_ground_coordinates": 1,
+      "maximum_incoming_proper_visits": 7,
+      "total_width_units": 8
+    }
+  },
+  "negative_controls": [
+    "birth-only nonlocal value violates image condition",
+    "suppressing independent Y changes actual acquired output",
+    "terminal-only reconstruction loses a genuine kernel input",
+    "old diagonal zero does not imply joint rectangular kernel"
+  ],
+  "universal_claim_source": "PROOF.md, not finite tests",
+  "new_kappa": null
+}

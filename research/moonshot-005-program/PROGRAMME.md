@@ -131,14 +131,15 @@ a genuine six-further-packet joint decoder, with every read/stop/erasure paid.
 Two independent commutative channels cannot decode a native odd cycle; coupled
 packet/Y histories and noncommuting blocks remain open mechanisms.
 
-On the complex track, literal compensated funded ferries preserve old forward
-maps and lower reverse residual58 to57 or54. Exact400-input maps, phases and
-2280-input m3 lifts are checked. They still owe4920 forward coefficients and
-remaining reverse endpoints. Even free legal orthogonal corrections down to
-rank8 leave65 source-facet departures against26.096340... limiting allowance
-at the restored cut. Informative mixed records must survive earlier, or the
-source interface must change. Stripping31 paid returns leaves rank82 in both
-words, so rank54 cannot be paired with the stripped budget.
+On the complex track, a standalone source now assembles eight genuine reverse
+Gram records at omitted-root lines, restores every D, and receives eight forward
+modes by inverse-transpose Y coding. It pays eight rank8 transfers in EACH
+direction, retains all400 input directions and satisfiesR+L_HH^T=0. Its remaining
+movement room is8.8435189630... in the retained caller. The next obligation is
+an actual global paired offdiagonal compiler meeting the stated source slot,
+including coupledY, every later read and all original restorations. Earlier
+compensated/ferry words, rank82/54 results and their scoped obstructions remain
+verified predecessors; their gains are not added to this rebuilt architecture.
 
 ## Model, costs and foundations
 
@@ -260,3 +261,15 @@ It supplies a partial source and actual coalesced X paths, not decoder
 sufficiency. The [odd-cycle theorem](results/bit-commutative-two-channel/ADMISSION.md)
 excludes independent commutative two-channel mechanisms while retaining coupled
 and noncommuting alternatives. Both advances constrain one ongoing construction.
+
+## S011 checkpoint8: acquired proper births and a rebuilt complex source
+
+The [proper-birth theorem](results/bit-proper-birth-normalization/ADMISSION.md)
+retains explicit image constraints and proves that every target-feasible
+mixture still needs historyrankceil(28V/3). This is a stronger interface law,
+not a reason to discard coupled constructions. Proper early termination and
+owned turning routes are separate active investigations.
+The [omitted-line Gram seed](results/complex-omitted-line-gram/ADMISSION.md)
+realizes both mode directions with originalD restored and a coherent reciprocal
+invariant. Actual compiler construction is now the complex frontier; favorable
+movement envelopes do not prove its existence.

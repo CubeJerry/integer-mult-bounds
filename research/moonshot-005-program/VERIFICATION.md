@@ -183,3 +183,17 @@ reviews the universal odd-cycle proof; lead verifies unchanged reviewed sections
 native selected-input premises and all blocks of a noncommuting scope control.
 Author reproduction is not relabeled independent proof. CHECKPOINT7-VALIDATION
 records installed reproductions, manifests and unchanged prior scientific bytes.
+
+## S011 checkpoint8 checks
+
+Root independently reviews C's arbitrary-field proper-birth proof and verifies
+five exact rational symbolic cells. C independently reviews root's target-wide
+composition with tighter 2^-160 brackets for all 11 q_H cases. The complex source
+has an independent dense replay of 160,000 coefficients, all 400 native initial
+and final charts, 96 D restorations, actual eight-mode captures, 9,216 transpose
+entries and five mutants. Separate 2^-144 complete-caller prices agree with the
+author and retain a cheaper-Y-refinement control. All 302 new phase maps reproduce
+byte-identically using retained independent engines; the adapter is not claimed
+to be a third implementation. The mid-session upstream review is selective and
+read-only; no external package is admitted. CHECKPOINT8-VALIDATION records installed
+checks, manifests and integrity of the prior scientific evidence.

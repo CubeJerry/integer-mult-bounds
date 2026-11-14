@@ -251,3 +251,16 @@ first passm4/m12 but are lower-bound screens. Every decoder stop, transport,
 owned lifetime and ordinary operation must be bound to an actual source.
 The two-channel odd-cycle theorem is scoped to independent commutative updates;
 it does not exclude six coupled packets or provide a complete supplier.
+
+## S011 checkpoint8: mixed-source gate and omitted-line compiler budget
+
+For ground-terminating proper births, the exact endpoint remaining allowance
+before extra traffic is82.79728598894742... . Normalized monotonicity makes
+sum p_r*r^(199/200)+a<E*−q_H*8^(199/200) necessary for every retainedκ>=.005.
+It yieldsell<=193 andrankhistory>=ceil(28V/3) withoutassumingq_H>=8. Proper
+termination/turning variants are outside this newly admitted scope.
+The actual complex Gram seed paysQ={1:120,2:112,3:88,5:200,8:216}. Its remaining
+room is8.843518963022781...−31.5397783670854.../(m−1). A completed source must
+implement the pairedI−G correction with authenticcurrenta, originalD and
+compatibleYreads. Root verifies several positive sufficient route envelopes,
+includingXB521/Y14 withfirstm81, but no actual compiler or strictsupplier yet.

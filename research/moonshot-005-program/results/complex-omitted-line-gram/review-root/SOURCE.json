@@ -1,0 +1,52 @@
+{
+  "all_native_endpoint_charts": 400,
+  "all_original_coefficients": 160000,
+  "bill": {
+    "common_rational_denominator": 4,
+    "counts": {
+      "ADD": 2120,
+      "CLEAR": 24,
+      "INIT": 24,
+      "MOVE": 736,
+      "SCALE": 252
+    },
+    "global_rescalings": 2,
+    "instructions": 3156,
+    "lifetimes": 24,
+    "moves": {
+      "1": 120,
+      "2": 112,
+      "3": 88,
+      "5": 200,
+      "8": 216
+    },
+    "nonzero_owned_clears": 24,
+    "peak": 8
+  },
+  "exact_Gram_entries": 10816,
+  "full_rank": 400,
+  "hosted_transpose_entries": 9216,
+  "independent_engine_sha256": "c4389c80322c875c4739af6ee558619f01da6112682c565e4f638a01750e5ec1",
+  "negative_controls": [
+    "missing_D_restore",
+    "missing_Y_restore",
+    "wrong_entry_Y_sign",
+    "wrong_forward_read",
+    "wrong_reverse_read"
+  ],
+  "new_kappa": null,
+  "owned_profile": {
+    "1": 8,
+    "8": 16
+  },
+  "raw_profile": {
+    "1": 112,
+    "2": 112,
+    "3": 88,
+    "5": 200,
+    "8": 200
+  },
+  "scope": "An explicit partial Gram duplex with all D restored. Missing paired offdiagonal compiler and complete endpoints/supplier; no old compensated-source gains added.",
+  "status": "PASS_INDEPENDENT_ACTUAL_LINE_GRAM_DUPLEX_SEED",
+  "word_sha256": "6281068be019f5f17ee9b64dd4f08323b00d1d3003b7ff3ccda6597ebe6265fc"
+}

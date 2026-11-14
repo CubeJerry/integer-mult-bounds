@@ -88,3 +88,17 @@ obligation. Do not repeat the oldS12 cut or search independent commutative
 All new interactions must preserve/reprice the actual X coalescence and owned
 lifetimes. A complex omitted-line Gram seed is being independently reviewed;
 no new complete bound is available. S011 continues through11:19:23UTC.
+
+## Checkpoint8 current frontier
+
+Continue constructing the same all-point BIT decoder. The new proper-birth
+normal form keeps acquisition constraints explicit while allowing paid short
+descents; the proportional rank floor survives every target-feasible mixture
+in its scope. Do not extend the ground-ending theorem to proper erasures or
+owned turning routes without a separate proof.
+
+For complex, use the actual omitted-line Gram seed as the current architecture.
+Its paired compiler slot is precise and unfilled. Partial cohorts and actual
+intermediate reads of paid reverse owners are active leads. Every extra Y stop
+and whole-class collection must be verified. Earlier source gains are alternatives.
+Canonical main remains unchanged; the original Law 5 in #7557 is retracted.
