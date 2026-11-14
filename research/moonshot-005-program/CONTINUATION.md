@@ -44,3 +44,14 @@ the eightcoordinate l_i; the all-local-span quotient is6, so thisscreen permits
 q8. Build actual l0 availability and old-global-mode retention, with unknownY
 andoriginalX restoration. Do not infer availability fromsupport, or restrict
 all singular kernels to thesefacets. See bit-coordinate-history-localization.
+
+## S011 supersedes the single-L0 starting obligation
+
+The paid L0 partial word and arbitrary-block minimum-rank rigidity are now
+admitted; use their ADMISSION files and independent receipts. Do not repeat
+single-form availability or search a singular minimum-rank component.
+Construct joint L0/L1 acquisition without restarting an original path; then
+seek a general shared-cut construction for all eight coordinate forms. Price
+any extra upward copy and keep unknown-Y restoration, all original-X paths,
+old modes and uncompleted target outputs explicit. Quantitative rank excess
+and changed complex histories are concurrent investigations, not admitted yet.

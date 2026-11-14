@@ -142,3 +142,20 @@ pattern and forced shortbit; the shared proof method is disclosed. This is a
 concrete possible escape from the closed-class code obstruction, but none of
 the support49..53 localforms is physically supplied. Actual acquisition and
 all endpoints/costs remain. No new kappa; no change to PR readiness.
+
+## S011 cumulative additions — No new kappa
+
+The programme now proves unrestricted minimum-rank block rigidity on the
+actual111-port BIT graph: every characteristic-two rank9V fitting is a
+canonical vertex gauge, including noncommuting and initially singular-Schur
+blocks. This derives a new equality classification from DreamingOfClouds
+#7114's credited LR inequality and the programme's existing ordered anchors.
+[Full proof, exact source pin and independent reviews](results/bit-saturated-star-rigidity/ADMISSION.md).
+
+A second [partial construction](results/bit-w0-paid-local-acquisition/ADMISSION.md)
+physically acquires the previously hypothetical local L0 at the scalar logical
+word level, restores all111 X, retains displaced K0 and completes Y0. Exact
+real geometry proves its three-channel support requirement; an independent
+222-column interpreter verifies the paid word and four negative controls.
+The remaining110 Y, all-width native phases, joint q8 chronology and strict
+supplier contracts remain open. The cumulative branch is not PR-ready.

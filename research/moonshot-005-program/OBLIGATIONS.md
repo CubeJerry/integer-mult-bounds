@@ -20,7 +20,7 @@ and [registered index](REGISTERED-RESULTS.json) preserve prior findings.
 | ID | Exact proposition/status | Dependency and next step |
 |---|---|---|
 | BIT-DOWNSET-EIGHT | PROVEDq>=8, allfields/V, monotone physical model withYfeedback. | [Cut](results/bit-packet-downset-cut/ADMISSION.md). Equality cuts do not certify endpoints. |
-| BIT-MINRANK-NINE | PROVED characteristic-two fittingrank>=9V on actual111graph. | [Minrank](results/bit-minimum-rank-nine/ADMISSION.md). General singular noncommuting blockrigidity remainsopen. |
+| BIT-MINRANK-NINE | PROVED characteristic-two fittingrank>=9V on actual111graph. | [Minrank](results/bit-minimum-rank-nine/ADMISSION.md). All minimum-rank blocks are now canonical by BIT-SATURATED-STAR below. |
 | BIT-HISTORY | PROVED H=LambdaG+Ey+Bx, localB; rankG_x<=qV+sum nu<=8qV. | [Y bridge](results/bit-y-feedback-normalization/ADMISSION.md), actual boundary/kernel/image identities. Build modes physically. |
 | BIT-ARRIVAL | PROVED sumell<=111+q+sum a, thresholds36/52. | [E7 geometry](results/bit-monotone-arrival-gate/ADMISSION.md) plusBIT-HISTORY. Pay arrivals. |
 | BIT-BINARY-FOUR | PROVED scalarF2 specifiedq8unit quotientdim>=4; Y bridge included. | [Fitting theorem](results/bit-binary-four-quotients/ADMISSION.md):123>122. Not arbitraryrank13 or all-field/block quotient. |
@@ -55,7 +55,7 @@ unchanged donor contacts, fixed historical cuts, isolated owned-rank shaving
 and shared-core calendars have scoped gates. Consult the registered index
 before repeating them. Fragmentation/H4 and recharting remain in
 [SUPPORTING-RESULTS.md](SUPPORTING-RESULTS.md), with native realizability open.
-Changed global codes and singular noncommuting block mechanisms remain possible,
+Higher-rank global codes and changed interfaces remain possible; singular block mechanisms at minimum rank are now excluded,
 with new full costs required. Failed finite searches are not impossibility.
 
 ## W0-LOCALIZATION — proved exact scalarF2 source geometry
@@ -68,3 +68,15 @@ The resulting quotientrank6 is an optimistic necessary-screen calculation,
 not a source orprice. OPEN next: physically acquire l0 at actualF0, retain
 oldmode andrestore originals within q8 invoice; do not treat support49 as
 49 cocharted originalinputs or a free observer.
+
+## S011 admitted transitions
+
+| ID | Precise result/status | Next dependency |
+|---|---|---|
+| BIT-SATURATED-STAR | PROVED every rank9V fitting on actual111 graph is a canonical vertex gauge, all characteristic-two fields/V, arbitrary noncommuting blocks. [Admission](results/bit-saturated-star-rigidity/ADMISSION.md). | Higher-rank or changed-mask source; quantitative gap separate. |
+| BIT-W0-LOCAL-COVER | PROVED all proper real two-flat support maxima44,47,47,45,45,45,45,47, below each L_i support. | Does not exclude nonlocal histories. |
+| BIT-W0-PAID-L0 | COMPUTATIONALLY VERIFIED full222-column partial logical word, with proved support/acquisition argument. [Admission](results/bit-w0-paid-local-acquisition/ADMISSION.md). | Native physical phases/all-width compilation and110 remaining Y outputs. |
+| BIT-JOINT-ACQUISITION | OPEN primary: acquire multiple required forms in one monotone original-route timeline with all originals restored and every extra mover paid. | Start L0/L1; preserve arbitrary Y and displaced modes; then fullq8 source. |
+
+The earlier W0-localization next step is resolved only in the stated partial
+model. No complete source, supplier or foundational premise is promoted.

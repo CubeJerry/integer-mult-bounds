@@ -110,9 +110,9 @@ only15V+1 and7V+1, not16V.
 The fifteen nonzero canonical-code cosets identify fifteen explicit rank16
 binary candidates W_c=U+<K_i>, one per class. Each contains canonical rows
 exactly from its selected class. Exact local repair identities are available,
-but their values, acquisition word and schedule are not. The next attempt
-should start with one candidate, construct a genuine cross-class handoff,
-then extend it to a complete222-endpoint source and full invoice.
+but a joint acquisition schedule is not. S011 now supplies one paid L0
+acquisition and restored singular handoff. Extend it without restarting original
+routes, then complete all222 endpoints and the full invoice.
 
 On the complex track, literal compensated funded ferries preserve old forward
 maps and lower reverse residual58 to57 or54. Exact400-input maps, phases and
@@ -158,3 +158,21 @@ Thus this optimistic local-code screen does not excludeq8 (the physicalcut
 stillrequires8). The concrete next step is actual acquisition of l0, support49,
 atF0 while preserving the displaced global mode. Algebraic support supplies
 no cache, chronology or price. [Proof and checks](results/bit-coordinate-history-localization/ADMISSION.md).
+
+## S011: minimum-rank closure and first paid local block
+
+[Global block rigidity](results/bit-saturated-star-rigidity/ADMISSION.md)
+now proves every rank9V fitting canonical over every characteristic-two field,
+without symmetry, commutation or invertible-Schur premises. The protected
+track has established a structural discovery; it has not improved kappa.
+Higher-rank representations and changed interfaces remain the constructive
+options. Quantitative rank excess is a separate active investigation.
+
+[Paid local acquisition](results/bit-w0-paid-local-acquisition/ADMISSION.md)
+constructs L0 at F0, restores all111 X before packet birth, retains the old
+K0 mode and completes Y0. All222 input columns are checked. The other110 Y
+remain uncompleted. Three proper local channels are necessary and sufficient
+for L0 support, but the word has four X arrivals at F0 including its coordinate
+preload. Its1,562 unit MOVEs are a partial invoice, not a q8 source. The next
+construction is joint acquisition of correlated forms on shared original
+routes, followed by full target completion and supplier admission.

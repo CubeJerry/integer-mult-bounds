@@ -1096,3 +1096,31 @@ Initial upstream triage records exact open PR heads and claim scopes in
 no source import or independent replay is implied. The current q8 BIT source,
 compatible complex source, strict suppliers and all five foundations remain
 open. Resulting checkpoint SHA is confirmed separately after publication.
+
+## 2026-11-14-S011 — checkpoint1: rigidity and paid local acquisition
+
+Baseline `66caee29c1293a5c3ad9836c6438e9a157a98a82`. Protected discovery proves global saturated-star rigidity,
+closing arbitrary noncommuting/singular minimum-rank BIT fittings. Credited
+#7114 LR is rederived and independently reviewed by A and lead; separate
+source checkers reconstruct every seed/anchor premise. No new kappa.
+
+The lead independently checks A's all-proper-subspace support theorem and
+actual L0 partial word on222 input columns. Three local groups acquire L0,
+all X are restored before packet birth, old K0 retained, Y0 completed.
+Other110 Y remain uncompleted. Costs1,562 unit MOVEs/163 ADD/2 INIT/2 nonzero
+CLEAR; no native uniform phase or supplier claim. Primary obligation advances
+to joint acquisition without original-route restarts. C continues structural
+discovery; B investigates changed complex histories. Session remains active
+until planned11:19:23UTC. Remote result SHA will be confirmed separately.
+
+### Historical ledger correction discovered in S011 checkpoint1
+
+Of2,169 old indexed scientific paths,2,168 are present and hash-identical.
+`results/four-call-dyadic-entry/review/replay.log` (1,607 bytes; recorded hash
+ e63a2e88a6d947210bfd4a0d216b036a3421500048a300461e8b17d69da3dcca)
+is absent from the programme Git tree, predecessor checkout and available
+path history. Its old manifest entry is retained with an unavailable annotation;
+no replacement receipt is fabricated. The source, verifier, structured receipts
+and proof remain present. Earlier claims that all2,169 files were remotely
+recoverable must be qualified by this one missing console log. No new result
+uses it, and no mathematical claim is promoted on its basis.

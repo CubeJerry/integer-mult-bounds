@@ -72,3 +72,33 @@ and rootreceipt matchbyteforbyte. Classification covers anyproperreal subspace,
 not just existingchartIDs; noavailability orcost conclusion follows.
 [Package](results/bit-coordinate-history-localization/ADMISSION.md) and
 [checkpoint14 receipt](sessions/2026-11-13-S010/CHECKPOINT14-VALIDATION.json).
+
+## S011 checkpoint1: two independent admissions
+
+[Global rigidity](results/bit-saturated-star-rigidity/ADMISSION.md): A and lead
+read the universal proof independently; separate native reconstructions use
+Schur-diagonal and pivot factorizations respectively. All27 seed edges,
+76 anchors,12,321 scalar products,6,470 contacts and residual rank108 checked.
+Lead controls include noncommuting gauges at V2/3/4. All-width validity is
+proved algebraically, not inferred from these controls.
+
+[Paid L0](results/bit-w0-paid-local-acquisition/ADMISSION.md): lead separately
+constructs all8,821 real maximal-parabolic masks, verifies all eight support
+maxima and replays the finite word on all222 inputs with sparse sets and
+exact rational charts. Four corrupted words are rejected. Installed-path
+receipts match their frozen originals. No author implementation is imported
+by these independent checks. Commands and detailed reviews are in admissions.
+All previously indexed scientific bytes are retained; no historical suite
+was rerun merely to repeat accepted evidence.
+
+### Historical ledger correction discovered in S011 checkpoint1
+
+Of2,169 old indexed scientific paths,2,168 are present and hash-identical.
+`results/four-call-dyadic-entry/review/replay.log` (1,607 bytes; recorded hash
+ e63a2e88a6d947210bfd4a0d216b036a3421500048a300461e8b17d69da3dcca)
+is absent from the programme Git tree, predecessor checkout and available
+path history. Its old manifest entry is retained with an unavailable annotation;
+no replacement receipt is fabricated. The source, verifier, structured receipts
+and proof remain present. Earlier claims that all2,169 files were remotely
+recoverable must be qualified by this one missing console log. No new result
+uses it, and no mathematical claim is promoted on its basis.

@@ -46,3 +46,13 @@ head501ce9eadc0e5662e9e64176701ec1912659d95c, concerns fixed-bank chart431
 owned-transport repairs. Finalmetadata/bodytriage only; no independent source
 replay, proofadmission or codeimport. Recheck relevance in the nextsession if
 that fixed source/interface is adopted. It is not a selected bound.
+
+## S011 credited structural input
+
+DreamingOfClouds [#7114](https://github.com/CrocSwap/integer-mult-bounds/pull/7114),
+head fc90dc68b54d613a0600e5bddd8e4f557a4b4eda, supplies Proposition10/LR.
+Its exact theorem source is pinned in the saturated-star package. The lead
+and A read and independently checked the rank argument. Equality saturation
+closes this programme's previously open singular-Schur stratum. The PR remains
+open; other claims in it are not imported. New #7555/#7557/#7558/#7546 remain
+initial triage only. Canonical main and selected conditional kappa unchanged.

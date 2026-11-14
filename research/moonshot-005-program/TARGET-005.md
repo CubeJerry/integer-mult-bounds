@@ -144,3 +144,18 @@ the targetU image hasdimension6, compared with the earlier U/Tshort rank9.
 This relaxes that particular algebraic seed screen; the independentphysical
 q>=8 gate and completecosts remain. It does not place every kernel at these
 facets or make the dense localforms available. [Localization](results/bit-coordinate-history-localization/ADMISSION.md).
+
+## S011 structural update
+
+Every rank9V actual BIT block fitting is canonical; minimum-rank noncommuting
+or singular-Schur recoding cannot lower its foreign support. Under a scoped
+arrival contradiction this yields rank>=9V+1, not10V. The class-specific
+rank16 scalar history requirement remains separate. No movement or supplier
+exponent changes.
+
+The first L0 form is now acquired by an exact paid partial word:1,562 unit
+MOVEs,163 ADD,2 INIT,2 nonzero CLEAR,peak2 owned. It completes one of111 Y
+outputs and restores every X. Support maxima prove three proper channels
+necessary for each coordinate L_i; they do not imply that the eight separate
+acquisitions compose. Joint chronology, full invoice, strict U and B, and
+all five foundations remain open. See the two S011 admissions.
