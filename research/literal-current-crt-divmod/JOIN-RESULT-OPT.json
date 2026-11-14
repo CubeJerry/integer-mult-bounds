@@ -1,0 +1,7924 @@
+{
+  "actual_cases": [
+    {
+      "baseline_B9_directions": [
+        {
+          "direction": "forward",
+          "encoded_source_symbol_actions": 188265,
+          "literal_core_instructions": 13440,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 24357,
+          "observed_headers": {
+            "h": "L01000R",
+            "modulus": "L11000R",
+            "offsets": "L00000|R",
+            "selected_layer": "L00000R",
+            "width": "L11R"
+          },
+          "outer_adapter_symbol_actions": 14,
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17187,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_source_symbol_actions": 187574,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1179,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 1
+        },
+        {
+          "direction": "inverse",
+          "encoded_source_symbol_actions": 594578,
+          "literal_core_instructions": 13440,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 24513,
+          "observed_headers": {
+            "h": "L01000R",
+            "modulus": "L11000R",
+            "offsets": "L00000|R",
+            "selected_layer": "L00000R",
+            "width": "L11R"
+          },
+          "outer_adapter_symbol_actions": 14,
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17311,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_source_symbol_actions": 593887,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1582,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 2
+        }
+      ],
+      "directions": [
+        {
+          "actual_division_calls": [
+            {
+              "instructions": 60141,
+              "numeric_actions": 1933,
+              "selector_actions": 42910,
+              "slots": [
+                23,
+                9,
+                13,
+                18
+              ]
+            },
+            {
+              "instructions": 16011,
+              "numeric_actions": 505,
+              "selector_actions": 11494,
+              "slots": [
+                19,
+                9,
+                13,
+                18
+              ]
+            }
+          ],
+          "boundary_query_actions": 16,
+          "direction": "forward",
+          "explicit_grant_extra_cells": 28,
+          "finite_binding_invoice": 33504,
+          "finite_source_invocations": 2,
+          "finite_source_raw_calls": 26,
+          "literal_core_instructions": 13440,
+          "literal_divider_instructions": 76489,
+          "literal_numerical_actions": 2438,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 24357,
+          "literal_selector_actions": 54732,
+          "observed_headers": {
+            "h": "L01000R",
+            "modulus": "L11000R",
+            "offsets": "L00000|R",
+            "selected_layer": "L00000R",
+            "width": "L11R"
+          },
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17187,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_outer_adapter_symbol_actions": 14,
+          "remaining_source_symbol_actions": 181124,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1189,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 1
+        },
+        {
+          "actual_division_calls": [
+            {
+              "instructions": 60141,
+              "numeric_actions": 1933,
+              "selector_actions": 42910,
+              "slots": [
+                23,
+                9,
+                13,
+                18
+              ]
+            },
+            {
+              "instructions": 16011,
+              "numeric_actions": 505,
+              "selector_actions": 11494,
+              "slots": [
+                19,
+                9,
+                13,
+                18
+              ]
+            }
+          ],
+          "boundary_query_actions": 24,
+          "direction": "inverse",
+          "explicit_grant_extra_cells": 28,
+          "finite_binding_invoice": 33920,
+          "finite_source_invocations": 3,
+          "finite_source_raw_calls": 50,
+          "literal_core_instructions": 13440,
+          "literal_divider_instructions": 76489,
+          "literal_numerical_actions": 2438,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 24513,
+          "literal_selector_actions": 54732,
+          "observed_headers": {
+            "h": "L01000R",
+            "modulus": "L11000R",
+            "offsets": "L00000|R",
+            "selected_layer": "L00000R",
+            "width": "L11R"
+          },
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17311,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_outer_adapter_symbol_actions": 14,
+          "remaining_source_symbol_actions": 587445,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1592,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 2
+        }
+      ],
+      "moduli": [
+        17,
+        19,
+        2,
+        3
+      ],
+      "retained_symbol_cells": 2781,
+      "source_payload_roundtrip": true,
+      "values": [
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "baseline_B9_directions": [
+        {
+          "direction": "forward",
+          "encoded_source_symbol_actions": 188530,
+          "literal_core_instructions": 13440,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 24357,
+          "observed_headers": {
+            "h": "L01000R",
+            "modulus": "L11000R",
+            "offsets": "L00000|R",
+            "selected_layer": "L00000R",
+            "width": "L11R"
+          },
+          "outer_adapter_symbol_actions": 14,
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17187,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_source_symbol_actions": 187839,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1179,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 1
+        },
+        {
+          "direction": "inverse",
+          "encoded_source_symbol_actions": 585211,
+          "literal_core_instructions": 13440,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 24513,
+          "observed_headers": {
+            "h": "L01000R",
+            "modulus": "L11000R",
+            "offsets": "L00000|R",
+            "selected_layer": "L00000R",
+            "width": "L11R"
+          },
+          "outer_adapter_symbol_actions": 14,
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17311,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_source_symbol_actions": 584520,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1583,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 2
+        }
+      ],
+      "directions": [
+        {
+          "actual_division_calls": [
+            {
+              "instructions": 60141,
+              "numeric_actions": 1933,
+              "selector_actions": 42910,
+              "slots": [
+                23,
+                9,
+                13,
+                18
+              ]
+            },
+            {
+              "instructions": 16011,
+              "numeric_actions": 505,
+              "selector_actions": 11494,
+              "slots": [
+                19,
+                9,
+                13,
+                14
+              ]
+            }
+          ],
+          "boundary_query_actions": 16,
+          "direction": "forward",
+          "explicit_grant_extra_cells": 28,
+          "finite_binding_invoice": 33504,
+          "finite_source_invocations": 2,
+          "finite_source_raw_calls": 26,
+          "literal_core_instructions": 13440,
+          "literal_divider_instructions": 76489,
+          "literal_numerical_actions": 2438,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 24357,
+          "literal_selector_actions": 54732,
+          "observed_headers": {
+            "h": "L01000R",
+            "modulus": "L11000R",
+            "offsets": "L00000|R",
+            "selected_layer": "L00000R",
+            "width": "L11R"
+          },
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17187,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_outer_adapter_symbol_actions": 14,
+          "remaining_source_symbol_actions": 181389,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1189,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 1
+        },
+        {
+          "actual_division_calls": [
+            {
+              "instructions": 60141,
+              "numeric_actions": 1933,
+              "selector_actions": 42910,
+              "slots": [
+                23,
+                9,
+                13,
+                18
+              ]
+            },
+            {
+              "instructions": 16011,
+              "numeric_actions": 505,
+              "selector_actions": 11494,
+              "slots": [
+                19,
+                9,
+                13,
+                14
+              ]
+            }
+          ],
+          "boundary_query_actions": 24,
+          "direction": "inverse",
+          "explicit_grant_extra_cells": 28,
+          "finite_binding_invoice": 33904,
+          "finite_source_invocations": 3,
+          "finite_source_raw_calls": 49,
+          "literal_core_instructions": 13440,
+          "literal_divider_instructions": 76489,
+          "literal_numerical_actions": 2438,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 24513,
+          "literal_selector_actions": 54732,
+          "observed_headers": {
+            "h": "L01000R",
+            "modulus": "L11000R",
+            "offsets": "L00000|R",
+            "selected_layer": "L00000R",
+            "width": "L11R"
+          },
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17311,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_outer_adapter_symbol_actions": 14,
+          "remaining_source_symbol_actions": 578078,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1593,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 2
+        }
+      ],
+      "moduli": [
+        17,
+        19,
+        2,
+        3
+      ],
+      "retained_symbol_cells": 2782,
+      "source_payload_roundtrip": true,
+      "values": [
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "baseline_B9_directions": [
+        {
+          "direction": "forward",
+          "encoded_source_symbol_actions": 200098,
+          "literal_core_instructions": 14926,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 26393,
+          "observed_headers": {
+            "h": "L010000R",
+            "modulus": "L110000R",
+            "offsets": "L010000|R",
+            "selected_layer": "L000000R",
+            "width": "L11R"
+          },
+          "outer_adapter_symbol_actions": 14,
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 18677,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_source_symbol_actions": 199357,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1187,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 1
+        },
+        {
+          "direction": "inverse",
+          "encoded_source_symbol_actions": 715170,
+          "literal_core_instructions": 14926,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 26549,
+          "observed_headers": {
+            "h": "L010000R",
+            "modulus": "L110000R",
+            "offsets": "L010000|R",
+            "selected_layer": "L000000R",
+            "width": "L11R"
+          },
+          "outer_adapter_symbol_actions": 14,
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 18801,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_source_symbol_actions": 714429,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1669,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 2
+        }
+      ],
+      "directions": [
+        {
+          "actual_division_calls": [
+            {
+              "instructions": 60141,
+              "numeric_actions": 1933,
+              "selector_actions": 42910,
+              "slots": [
+                23,
+                9,
+                13,
+                18
+              ]
+            },
+            {
+              "instructions": 23269,
+              "numeric_actions": 740,
+              "selector_actions": 16664,
+              "slots": [
+                19,
+                9,
+                21,
+                14
+              ]
+            }
+          ],
+          "boundary_query_actions": 16,
+          "direction": "forward",
+          "explicit_grant_extra_cells": 28,
+          "finite_binding_invoice": 33504,
+          "finite_source_invocations": 2,
+          "finite_source_raw_calls": 26,
+          "literal_core_instructions": 14926,
+          "literal_divider_instructions": 83747,
+          "literal_numerical_actions": 2673,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 26393,
+          "literal_selector_actions": 59902,
+          "observed_headers": {
+            "h": "L010000R",
+            "modulus": "L110000R",
+            "offsets": "L010000|R",
+            "selected_layer": "L000000R",
+            "width": "L11R"
+          },
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 18677,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_outer_adapter_symbol_actions": 14,
+          "remaining_source_symbol_actions": 192254,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1196,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 1
+        },
+        {
+          "actual_division_calls": [
+            {
+              "instructions": 60141,
+              "numeric_actions": 1933,
+              "selector_actions": 42910,
+              "slots": [
+                23,
+                9,
+                13,
+                18
+              ]
+            },
+            {
+              "instructions": 23269,
+              "numeric_actions": 740,
+              "selector_actions": 16664,
+              "slots": [
+                19,
+                9,
+                21,
+                14
+              ]
+            }
+          ],
+          "boundary_query_actions": 24,
+          "direction": "inverse",
+          "explicit_grant_extra_cells": 28,
+          "finite_binding_invoice": 33984,
+          "finite_source_invocations": 3,
+          "finite_source_raw_calls": 54,
+          "literal_core_instructions": 14926,
+          "literal_divider_instructions": 83747,
+          "literal_numerical_actions": 2673,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 26549,
+          "literal_selector_actions": 59902,
+          "observed_headers": {
+            "h": "L010000R",
+            "modulus": "L110000R",
+            "offsets": "L010000|R",
+            "selected_layer": "L000000R",
+            "width": "L11R"
+          },
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 18801,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_outer_adapter_symbol_actions": 14,
+          "remaining_source_symbol_actions": 707334,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1678,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 2
+        }
+      ],
+      "moduli": [
+        17,
+        19,
+        5,
+        3
+      ],
+      "retained_symbol_cells": 2874,
+      "source_payload_roundtrip": true,
+      "values": [
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "baseline_B9_directions": [
+        {
+          "direction": "forward",
+          "encoded_source_symbol_actions": 200019,
+          "literal_core_instructions": 13440,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 24907,
+          "observed_headers": {
+            "h": "L010000R",
+            "modulus": "L110000R",
+            "offsets": "L000000|R",
+            "selected_layer": "L000000R",
+            "width": "L11R"
+          },
+          "outer_adapter_symbol_actions": 14,
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17527,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_source_symbol_actions": 199278,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1187,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 1
+        },
+        {
+          "direction": "inverse",
+          "encoded_source_symbol_actions": 704318,
+          "literal_core_instructions": 13440,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 25063,
+          "observed_headers": {
+            "h": "L010000R",
+            "modulus": "L110000R",
+            "offsets": "L000000|R",
+            "selected_layer": "L000000R",
+            "width": "L11R"
+          },
+          "outer_adapter_symbol_actions": 14,
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17651,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_source_symbol_actions": 703577,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1671,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 2
+        }
+      ],
+      "directions": [
+        {
+          "actual_division_calls": [
+            {
+              "instructions": 60141,
+              "numeric_actions": 1933,
+              "selector_actions": 42910,
+              "slots": [
+                23,
+                9,
+                13,
+                18
+              ]
+            },
+            {
+              "instructions": 23269,
+              "numeric_actions": 740,
+              "selector_actions": 16664,
+              "slots": [
+                19,
+                9,
+                21,
+                22
+              ]
+            }
+          ],
+          "boundary_query_actions": 16,
+          "direction": "forward",
+          "explicit_grant_extra_cells": 28,
+          "finite_binding_invoice": 33504,
+          "finite_source_invocations": 2,
+          "finite_source_raw_calls": 26,
+          "literal_core_instructions": 13440,
+          "literal_divider_instructions": 83747,
+          "literal_numerical_actions": 2673,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 24907,
+          "literal_selector_actions": 59902,
+          "observed_headers": {
+            "h": "L010000R",
+            "modulus": "L110000R",
+            "offsets": "L000000|R",
+            "selected_layer": "L000000R",
+            "width": "L11R"
+          },
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17527,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_outer_adapter_symbol_actions": 14,
+          "remaining_source_symbol_actions": 192175,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1196,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 1
+        },
+        {
+          "actual_division_calls": [
+            {
+              "instructions": 60141,
+              "numeric_actions": 1933,
+              "selector_actions": 42910,
+              "slots": [
+                23,
+                9,
+                13,
+                18
+              ]
+            },
+            {
+              "instructions": 23269,
+              "numeric_actions": 740,
+              "selector_actions": 16664,
+              "slots": [
+                19,
+                9,
+                21,
+                22
+              ]
+            }
+          ],
+          "boundary_query_actions": 24,
+          "direction": "inverse",
+          "explicit_grant_extra_cells": 28,
+          "finite_binding_invoice": 33968,
+          "finite_source_invocations": 3,
+          "finite_source_raw_calls": 53,
+          "literal_core_instructions": 13440,
+          "literal_divider_instructions": 83747,
+          "literal_numerical_actions": 2673,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 25063,
+          "literal_selector_actions": 59902,
+          "observed_headers": {
+            "h": "L010000R",
+            "modulus": "L110000R",
+            "offsets": "L000000|R",
+            "selected_layer": "L000000R",
+            "width": "L11R"
+          },
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17651,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_outer_adapter_symbol_actions": 14,
+          "remaining_source_symbol_actions": 696482,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1680,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 2
+        }
+      ],
+      "moduli": [
+        17,
+        19,
+        5,
+        3
+      ],
+      "retained_symbol_cells": 2876,
+      "source_payload_roundtrip": true,
+      "values": [
+        1,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "baseline_B9_directions": [
+        {
+          "direction": "forward",
+          "encoded_source_symbol_actions": 194302,
+          "literal_core_instructions": 13440,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 24907,
+          "observed_headers": {
+            "h": "L010000R",
+            "modulus": "L110000R",
+            "offsets": "L000000|R",
+            "selected_layer": "L000000R",
+            "width": "L11R"
+          },
+          "outer_adapter_symbol_actions": 14,
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17527,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_source_symbol_actions": 193561,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1187,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 1
+        },
+        {
+          "direction": "inverse",
+          "encoded_source_symbol_actions": 681183,
+          "literal_core_instructions": 13440,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 25063,
+          "observed_headers": {
+            "h": "L010000R",
+            "modulus": "L110000R",
+            "offsets": "L000000|R",
+            "selected_layer": "L000000R",
+            "width": "L11R"
+          },
+          "outer_adapter_symbol_actions": 14,
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17651,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_source_symbol_actions": 680442,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1671,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 2
+        }
+      ],
+      "directions": [
+        {
+          "actual_division_calls": [
+            {
+              "instructions": 60141,
+              "numeric_actions": 1933,
+              "selector_actions": 42910,
+              "slots": [
+                23,
+                9,
+                13,
+                18
+              ]
+            },
+            {
+              "instructions": 23269,
+              "numeric_actions": 740,
+              "selector_actions": 16664,
+              "slots": [
+                18,
+                9,
+                20,
+                14
+              ]
+            }
+          ],
+          "boundary_query_actions": 16,
+          "direction": "forward",
+          "explicit_grant_extra_cells": 28,
+          "finite_binding_invoice": 33472,
+          "finite_source_invocations": 2,
+          "finite_source_raw_calls": 24,
+          "literal_core_instructions": 13440,
+          "literal_divider_instructions": 83747,
+          "literal_numerical_actions": 2673,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 24907,
+          "literal_selector_actions": 59902,
+          "observed_headers": {
+            "h": "L010000R",
+            "modulus": "L110000R",
+            "offsets": "L000000|R",
+            "selected_layer": "L000000R",
+            "width": "L11R"
+          },
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17527,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_outer_adapter_symbol_actions": 14,
+          "remaining_source_symbol_actions": 186458,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1196,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 1
+        },
+        {
+          "actual_division_calls": [
+            {
+              "instructions": 60141,
+              "numeric_actions": 1933,
+              "selector_actions": 42910,
+              "slots": [
+                23,
+                9,
+                13,
+                18
+              ]
+            },
+            {
+              "instructions": 23269,
+              "numeric_actions": 740,
+              "selector_actions": 16664,
+              "slots": [
+                18,
+                9,
+                20,
+                14
+              ]
+            }
+          ],
+          "boundary_query_actions": 24,
+          "direction": "inverse",
+          "explicit_grant_extra_cells": 28,
+          "finite_binding_invoice": 33920,
+          "finite_source_invocations": 3,
+          "finite_source_raw_calls": 50,
+          "literal_core_instructions": 13440,
+          "literal_divider_instructions": 83747,
+          "literal_numerical_actions": 2673,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 25063,
+          "literal_selector_actions": 59902,
+          "observed_headers": {
+            "h": "L010000R",
+            "modulus": "L110000R",
+            "offsets": "L000000|R",
+            "selected_layer": "L000000R",
+            "width": "L11R"
+          },
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 17651,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_outer_adapter_symbol_actions": 14,
+          "remaining_source_symbol_actions": 673347,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1680,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 2
+        }
+      ],
+      "moduli": [
+        17,
+        19,
+        7,
+        3
+      ],
+      "retained_symbol_cells": 2876,
+      "source_payload_roundtrip": true,
+      "values": [
+        1,
+        2,
+        6,
+        1
+      ]
+    },
+    {
+      "baseline_B9_directions": [
+        {
+          "direction": "forward",
+          "encoded_source_symbol_actions": 212560,
+          "literal_core_instructions": 14926,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 26943,
+          "observed_headers": {
+            "h": "L0100000R",
+            "modulus": "L1100000R",
+            "offsets": "L0100000|R",
+            "selected_layer": "L0000000R",
+            "width": "L11R"
+          },
+          "outer_adapter_symbol_actions": 14,
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 19017,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_source_symbol_actions": 211769,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1195,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 1
+        },
+        {
+          "direction": "inverse",
+          "encoded_source_symbol_actions": 787529,
+          "literal_core_instructions": 14926,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 27099,
+          "observed_headers": {
+            "h": "L0100000R",
+            "modulus": "L1100000R",
+            "offsets": "L0100000|R",
+            "selected_layer": "L0000000R",
+            "width": "L11R"
+          },
+          "outer_adapter_symbol_actions": 14,
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 19141,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_source_symbol_actions": 786738,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1758,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 2
+        }
+      ],
+      "directions": [
+        {
+          "actual_division_calls": [
+            {
+              "instructions": 60141,
+              "numeric_actions": 1933,
+              "selector_actions": 42910,
+              "slots": [
+                23,
+                9,
+                13,
+                18
+              ]
+            },
+            {
+              "instructions": 29696,
+              "numeric_actions": 948,
+              "selector_actions": 21240,
+              "slots": [
+                19,
+                9,
+                13,
+                18
+              ]
+            }
+          ],
+          "boundary_query_actions": 16,
+          "direction": "forward",
+          "explicit_grant_extra_cells": 28,
+          "finite_binding_invoice": 33504,
+          "finite_source_invocations": 2,
+          "finite_source_raw_calls": 26,
+          "literal_core_instructions": 14926,
+          "literal_divider_instructions": 90174,
+          "literal_numerical_actions": 2881,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 26943,
+          "literal_selector_actions": 64478,
+          "observed_headers": {
+            "h": "L0100000R",
+            "modulus": "L1100000R",
+            "offsets": "L0100000|R",
+            "selected_layer": "L0000000R",
+            "width": "L11R"
+          },
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 19017,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_outer_adapter_symbol_actions": 14,
+          "remaining_source_symbol_actions": 204121,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1204,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 1
+        },
+        {
+          "actual_division_calls": [
+            {
+              "instructions": 60141,
+              "numeric_actions": 1933,
+              "selector_actions": 42910,
+              "slots": [
+                23,
+                9,
+                13,
+                18
+              ]
+            },
+            {
+              "instructions": 29696,
+              "numeric_actions": 948,
+              "selector_actions": 21240,
+              "slots": [
+                19,
+                9,
+                13,
+                18
+              ]
+            }
+          ],
+          "boundary_query_actions": 24,
+          "direction": "inverse",
+          "explicit_grant_extra_cells": 28,
+          "finite_binding_invoice": 33984,
+          "finite_source_invocations": 3,
+          "finite_source_raw_calls": 54,
+          "literal_core_instructions": 14926,
+          "literal_divider_instructions": 90174,
+          "literal_numerical_actions": 2881,
+          "literal_query_calls": 12,
+          "literal_query_instructions": 27099,
+          "literal_selector_actions": 64478,
+          "observed_headers": {
+            "h": "L0100000R",
+            "modulus": "L1100000R",
+            "offsets": "L0100000|R",
+            "selected_layer": "L0000000R",
+            "width": "L11R"
+          },
+          "payload_adapter_bit_actions": 1512,
+          "query_symbol_actions_included_in_literal_bill": 19141,
+          "radix_bit_control_instructions": 43162,
+          "radix_passes": 2,
+          "remaining_outer_adapter_symbol_actions": 14,
+          "remaining_source_symbol_actions": 779098,
+          "retained_bucket_bits": 208,
+          "retained_radix_register_bits": 144,
+          "retained_symbol_cells": 1767,
+          "retained_symbol_roles": 100,
+          "selected_nodes": 1,
+          "skipped_nodes": 2
+        }
+      ],
+      "moduli": [
+        17,
+        19,
+        8,
+        3
+      ],
+      "retained_symbol_cells": 2971,
+      "source_payload_roundtrip": true,
+      "values": [
+        1,
+        2,
+        7,
+        1
+      ]
+    }
+  ],
+  "counterfactual_relations": [
+    {
+      "arena_action_delta": 1933,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        23,
+        9,
+        17,
+        15,
+        20,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 1933,
+      "old_outputs": [
+        18,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 505,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        19,
+        9,
+        17,
+        15,
+        21,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          15
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 505,
+      "old_outputs": [
+        18,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 1933,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        23,
+        9,
+        17,
+        15,
+        20,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 1933,
+      "old_outputs": [
+        18,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 505,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        19,
+        9,
+        17,
+        15,
+        21,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          15
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 505,
+      "old_outputs": [
+        18,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 1933,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        23,
+        9,
+        17,
+        15,
+        20,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 1933,
+      "old_outputs": [
+        18,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 505,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        19,
+        9,
+        17,
+        15,
+        21,
+        14,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          14,
+          13
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          15
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        14
+      ],
+      "numeric_actions": 505,
+      "old_outputs": [
+        14,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 1933,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        23,
+        9,
+        17,
+        15,
+        20,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 1933,
+      "old_outputs": [
+        18,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 505,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        19,
+        9,
+        17,
+        15,
+        21,
+        14,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          14,
+          13
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          15
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        14
+      ],
+      "numeric_actions": 505,
+      "old_outputs": [
+        14,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 1933,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        23,
+        9,
+        17,
+        15,
+        20,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 1933,
+      "old_outputs": [
+        18,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 740,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        19,
+        9,
+        17,
+        13,
+        16,
+        14,
+        21
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          16,
+          13
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          16
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        21,
+        14
+      ],
+      "numeric_actions": 740,
+      "old_outputs": [
+        14,
+        13
+      ]
+    },
+    {
+      "arena_action_delta": 1933,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        23,
+        9,
+        17,
+        15,
+        20,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 1933,
+      "old_outputs": [
+        18,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 740,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        19,
+        9,
+        17,
+        13,
+        16,
+        14,
+        21
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          16,
+          13
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          16
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        21,
+        14
+      ],
+      "numeric_actions": 740,
+      "old_outputs": [
+        14,
+        13
+      ]
+    },
+    {
+      "arena_action_delta": 1933,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        23,
+        9,
+        17,
+        15,
+        20,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 1933,
+      "old_outputs": [
+        18,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 740,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        19,
+        9,
+        17,
+        13,
+        16,
+        22,
+        21
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          22
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          16,
+          13
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          16
+        ],
+        [
+          22,
+          21
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        21,
+        22
+      ],
+      "numeric_actions": 740,
+      "old_outputs": [
+        22,
+        13
+      ]
+    },
+    {
+      "arena_action_delta": 1933,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        23,
+        9,
+        17,
+        15,
+        20,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 1933,
+      "old_outputs": [
+        18,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 740,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        19,
+        9,
+        17,
+        13,
+        16,
+        22,
+        21
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          22
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          16,
+          13
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          16
+        ],
+        [
+          22,
+          21
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        21,
+        22
+      ],
+      "numeric_actions": 740,
+      "old_outputs": [
+        22,
+        13
+      ]
+    },
+    {
+      "arena_action_delta": 1933,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        23,
+        9,
+        17,
+        15,
+        20,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 1933,
+      "old_outputs": [
+        18,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 740,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        18,
+        9,
+        17,
+        13,
+        16,
+        14,
+        20
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          16,
+          13
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        20,
+        14
+      ],
+      "numeric_actions": 740,
+      "old_outputs": [
+        14,
+        13
+      ]
+    },
+    {
+      "arena_action_delta": 1933,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        23,
+        9,
+        17,
+        15,
+        20,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 1933,
+      "old_outputs": [
+        18,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 740,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        18,
+        9,
+        17,
+        13,
+        16,
+        14,
+        20
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          16,
+          13
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        20,
+        14
+      ],
+      "numeric_actions": 740,
+      "old_outputs": [
+        14,
+        13
+      ]
+    },
+    {
+      "arena_action_delta": 1933,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        23,
+        9,
+        17,
+        15,
+        20,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 1933,
+      "old_outputs": [
+        18,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 948,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        19,
+        9,
+        17,
+        15,
+        21,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          18
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 948,
+      "old_outputs": [
+        18,
+        21
+      ]
+    },
+    {
+      "arena_action_delta": 1933,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        23,
+        9,
+        17,
+        15,
+        20,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 1933,
+      "old_outputs": [
+        18,
+        15
+      ]
+    },
+    {
+      "arena_action_delta": 948,
+      "backing_port_action_delta": 0,
+      "entry_fingerprint": [
+        19,
+        9,
+        17,
+        15,
+        21,
+        18,
+        13
+      ],
+      "free_stack_bijection": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          18
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "live_input_count": 14,
+      "new_outputs": [
+        13,
+        18
+      ],
+      "numeric_actions": 948,
+      "old_outputs": [
+        18,
+        21
+      ]
+    }
+  ],
+  "distinct_fingerprints": [
+    [
+      18,
+      9,
+      17,
+      13,
+      16,
+      14,
+      20
+    ],
+    [
+      19,
+      9,
+      17,
+      13,
+      16,
+      14,
+      21
+    ],
+    [
+      19,
+      9,
+      17,
+      13,
+      16,
+      22,
+      21
+    ],
+    [
+      19,
+      9,
+      17,
+      15,
+      21,
+      14,
+      13
+    ],
+    [
+      19,
+      9,
+      17,
+      15,
+      21,
+      18,
+      13
+    ],
+    [
+      23,
+      9,
+      17,
+      15,
+      20,
+      18,
+      13
+    ]
+  ],
+  "graph": "d36e8220def8efb2baed793d0bea6f0a19b0903b5b005b730652b5bb7d121194",
+  "status": "PASS"
+}

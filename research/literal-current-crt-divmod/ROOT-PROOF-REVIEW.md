@@ -1,0 +1,13 @@
+# Lead proof and interface review
+
+Reviewed final scientific core, binder and PROOF.md, including the exact64-Word physical inventory, the actual singleton half's sixth raw-call derivation and the separate source/literal/metadata tariffs. Initial wording was corrected to exclude output Q/R from the incoming-byte-preservation claim and to keep bounded metadata binding outside the literal lifecycle tariff. The Python execution watchdog is verifier instrumentation, not part of the emitted graph's all-P theorem.
+
+The restoring-division invariant is v_k=D q_k+r_k with0<=r_k<D. The reserve D<2^(P-1) makes2r_k+b fit in P digits. Low-to-high comparison records the last differing pair; subtraction occurs exactly when needed and leaves remainder below D. Inputs and their physical backing/head identities are preserved. Every64-way selector traversal is a fixed literal decision tree; its return moves and branches are paid.
+
+Old division's allocation trace differs from the replacement. The reviewed relation fixes incoming live/protected words, pairs the two output roles and then pairs actual free stacks by position. Retained ordered arithmetic respects value, alias and ownership relations. Unordered final cleanup requires commuting disjoint erasures followed by a newly paired free-stack relation; a step-by-step cleanup permutation was not assumed. Histories stay attached to their physical owners and are charged by actual unions, not transferred by proof renaming.
+
+The actual phase counter follows the five source-derived calls before s divmod t. Existing preparation supplies the active numerical frames. Four explicit selector grants extend fresh one-cell private owners to eight cells; acquisition and full later history are paid. The bounded64-slot source binder and grant cost remain external components, without hidden numerical division.
+
+The root checked the metering distinction: HostedWord numerical actions charge arena.meter and do not charge backing Port meters; descriptor actions charge marker Tape methods. Their exact overlaps are subtracted once before adding literal instruction counts. The complete caller remains a vector of explicit provider units, not an asserted common bit tariff or speedup. Independent execution and negative controls are recorded in the separate review assets; the lead does not relabel primary replays as independent proof.
+
+All five full assumptions and the selected kappa remain unchanged. Other arithmetic, whole source control, physical binder/grant lowering and complete assembly are open. This review is AI-assisted mathematical/source review, not formal-kernel or human acceptance.
