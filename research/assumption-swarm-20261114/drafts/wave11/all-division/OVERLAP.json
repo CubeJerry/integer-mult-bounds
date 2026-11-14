@@ -1,0 +1,157 @@
+{
+  "queries": [
+    "repo:CrocSwap/integer-mult-bounds divmod",
+    "repo:CrocSwap/integer-mult-bounds \"encoded-current-crt\" \"literal\"",
+    "repo:CrocSwap/integer-mult-bounds \"all\" \"division\" \"current\""
+  ],
+  "results": [
+    {
+      "query": 0,
+      "issues": [
+        {
+          "number": 7348,
+          "title": "Map every source row to its whole complement invocation and child input slot without expanding replicas",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7348",
+          "excerpt": "## Result\nConstruct exact inverse row-to-complement-invocation/slot mapping by true job-rank bucket. With S_s fresh sources and replication a, x=b*S_s+j and divmod(x,B_(N-s)) pick the whole child call; s=N receives NoComplement.\n\n## Novelty and prede"
+        },
+        {
+          "number": 6573,
+          "title": "Give native output prefixes optimal unbiased variance (no κ)",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6573",
+          "excerpt": "## Summary\n\nScoped mathematical proof with exact finite corroboration. The Gaussian native coarse-grid codec can give every fixed output prefix its minimum possible unbiased variance, at most `h^2/4`, with the same seed length and residue capacity as"
+        },
+        {
+          "number": 6429,
+          "title": "Bound once-rounded rational gate temporaries by B+4C+2 bits (no κ)",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6429",
+          "excerpt": "## Summary\n\nConstruct a once-rounded two-coordinate Gaussian rational gate with a smaller sufficient arithmetic-word width. Claim type: scoped arithmetic construction and written proof with exact finite corroboration. For signed B-bit input grid nume"
+        },
+        {
+          "number": 6304,
+          "title": "Sharpen reversible phase squared error from 1 to 4/5 (no κ)",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6304",
+          "excerpt": "## Summary\n\nScoped proof with exact finite corroboration. For the rational phase `(3+4i)/5`, changing one half-integer tie rule reduces the sharp all-grid squared error while preserving an exact two-sided inverse:\n\n```diff\n- final shear: u -= ceil(v/"
+        },
+        {
+          "number": 5363,
+          "title": "Audit QQ16 high-count scratch and exact installation costs",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/5363",
+          "excerpt": "## Change and mathematical scope\n\nThe QQ16 Context lifecycle handoff leaves the numerical `new_context` producer separate from finite-handle restoration. This package proves and checks one exact part of that producer: the temporary high count uses **"
+        },
+        {
+          "number": 2129,
+          "title": "Prove sharp concave tariffs for rank-capped UT3 block calls",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/2129",
+          "excerpt": "## Summary\n\nComplete the nonlinear-pricing gap in Arham Tahir's #1919, head `f5610483cab0b5547be778a4e8983faf78aefa69`, without changing its formal UT3 alphabet.\n\n```text\nK = min(rank_cap, central_targets)\nq, remainder = divmod(2*central_targets, K)\n"
+        },
+        {
+          "number": 399,
+          "title": "Conditional κ = 1.002661106042177·10⁻³: our #394 padding fusion on #398's R781 signed-prefix E8 complex program (+0.0166 % over #398)",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/399",
+          "excerpt": "## e8-clean-r781: our #394 padding fusion on #398's signed target-prefix R781 E8 complex program; conditional κ = 1.002661106042177e-3\n\n**κ = 1002661106042177/10¹⁸ ≈ 1.002661106042177 × 10⁻³**, complex-bound.\n\n- **vs #398** (Dugongue, 1.0024946596298"
+        },
+        {
+          "number": 690,
+          "title": "Independent verification: signed packed Gaussian convolution (no kappa claim)",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/690",
+          "excerpt": "## Result\n\n**Independent verification / scoped arithmetic proof; no new kappa.** This audits `packed_lower` from Chafik Boukhalfa / chafreaky's PR #489 at `8922e3b3f0fd7772b0fb42028eb2532984c3ab42`. An independently written integer-dot-product/divmod"
+        }
+      ]
+    },
+    {
+      "query": 1,
+      "issues": [
+        {
+          "number": 5219,
+          "title": "research: encoded CRT entry initialization and complete lifecycle",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/5219",
+          "excerpt": "The retained encoded current-child CRT producer starts from a host-initialized arena and P-bit padded descriptors. This package supplies that missing entry/lifecycle boundary from a unary width guide, canonical paired streams and eight protected call"
+        },
+        {
+          "number": 5053,
+          "title": "Produce encoded CRT offsets from actual current child coordinates",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/5053",
+          "excerpt": "The actual balanced CRT caller reconstructs a left integer from **current transformed child coordinates**. Existing encoded triangular offsets use original lower coordinates, and the fixed key port consumes supplied ROM data. This adds the missing en"
+        }
+      ]
+    },
+    {
+      "query": 2,
+      "issues": [
+        {
+          "number": 7463,
+          "title": "Prove least denominator 12,480 for the A1 zero spectral projector (no κ)",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7463",
+          "excerpt": "## Summary\n\nExact finite certificate with a scoped arithmetic obstruction, produced by Nick Petalas. The zero spectral projector of unpaidmoon's historical `A_1` joint `(+1,+1)` 216-dimensional block has least integral denominator **12,480 = 2^6 · 3 "
+        },
+        {
+          "number": 7269,
+          "title": "Prove exact helper capacity under odd-denominator budgets (no κ)",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7269",
+          "excerpt": "## Summary\n\nScoped written algebraic proof with exact finite corroboration, produced by Nick Petalas. For any finite dyadic helper-cut pairing K with positive odd Smith factors h_1 | ... | h_r:\n\n```text\nmax { t : X K Y = I_t, aX and bY dyadic } = #{i"
+        },
+        {
+          "number": 6990,
+          "title": "Research: Compact rounded ADD",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6990",
+          "excerpt": "## Summary\n\nThe literal rounded scalar predecessor leaves the current large-numerator\nADD class unbuilt because its direct carry graph grows with numerical\ncoefficient size. This package supplies a compact two-bank fixed-rational\nADD table, an all-si"
+        },
+        {
+          "number": 6988,
+          "title": "Research: Rounded scalar tables",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6988",
+          "excerpt": "## What changed and why\n\nThe current odd word's exact scalar service rejects off-grid rational\nresults, including a permitted one-grid child defect immediately before\nSCALE37480 by -2/3. A total rounded-child contract therefore requires a\ndifferent n"
+        },
+        {
+          "number": 6969,
+          "title": "Research: Core/halo source bridge",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6969",
+          "excerpt": "## Problem\n\nThe actual complete finite Core returns an unnormalized global tensor on its\nnative two's-complement grid. The source-bound first-face halo of\nCrocSwap/integer-mult-bounds#6904 uses normalized sign-magnitude records and\nimmutable pre-Core"
+        },
+        {
+          "number": 6900,
+          "title": "Prove deterministic precision cuts for the current selected caller (no new κ)",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6900",
+          "excerpt": "## Change and mathematical scope\n\nProves deterministic quantizer transparency for the complete selected #6030 caller, for every integer f>=1 and arbitrary correlated finite spectators. If input real/imaginary components lie on the p-grid with magnitu"
+        },
+        {
+          "number": 6547,
+          "title": "Prove a complete caller zero fiber requiring 86N retained bits",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6547",
+          "excerpt": "The complete selected same-grid stochastic caller has a family of `2^(86*N)` distinct public inputs with the same public output for every fixed retained seed, where `N=512^f`. Its [PR #6546](https://github.com/CrocSwap/integer-mult-bounds/pull/6546) "
+        },
+        {
+          "number": 6168,
+          "title": "Prove exact cyclic query tariffs and all-width caller obstructions",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6168",
+          "excerpt": "This contribution proves exact query tariffs and scoped caller obstructions. It does not improve kappa.\n\nFor every field K and every p >= 2, independent targets z^d_j in K[z]/(z^p-1) need total forward-query rank at least sum d_j, with 0 <= d_j < p. "
+        },
+        {
+          "number": 6280,
+          "title": "Add division-free dual-pair exchange: 134 to 64 scalar units (no κ)",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6280",
+          "excerpt": "## Summary\n\nScoped constructive proof and an explicit compiler improvement. One arbitrary common-chart spare realizes the dyadic dual-pair exchange\n\n```text\nab = 1\nS = [[I-ba,b],[a,0]], S^2 = I\nS; G_on_spare; S: (x,z) -> (x+b(G-I)ax,z)\n```\n\nThe compi"
+        },
+        {
+          "number": 6277,
+          "title": "Prove an exact integer dirty-fanout shortening gap (no κ)",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6277",
+          "excerpt": "## Summary\n\nScoped proof with exact finite corroboration. With exactly two arbitrary dirty integer rows, one preserved source, integer scaled ADDs only and positive coefficient-independent prices, demand (5,12) has the exact tariff\n\n```text\nOPT = min"
+        },
+        {
+          "number": 6176,
+          "title": "Prove the sharp universal axis cutoff for the CRT reservoir envelope (no κ)",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6176",
+          "excerpt": "## Summary\n\nScoped mathematical proof with exact finite corroboration. For fixed ambient parameter p and allowed dyadic axis count d, the inherited conservative CRT reservoir envelope fits the printed repair allowance for every accepted precision and"
+        },
+        {
+          "number": 5943,
+          "title": "Prove a smaller equal-energy packing radix: 726 versus 1024",
+          "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/5943",
+          "excerpt": "## Summary\n\nScoped written proof with exact finite corroboration. Equal-energy Gaussian-integer rows admit a smaller sufficient even packing radix. At R=512, use 726 instead of 1024; the largest input at 512 columns shrinks by 254 bits. No new kappa "
+        }
+      ]
+    }
+  ],
+  "limits": "Targeted current GitHub PR text search only; not an exhaustive private/unpublished-code search."
+}

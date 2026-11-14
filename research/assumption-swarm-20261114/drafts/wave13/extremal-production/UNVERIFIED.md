@@ -1,0 +1,1 @@
+Scalar admission reduction accepted provisionally; actual encoded adapter, ownership/error/cost proof and executable review not yet complete. New exponential backend rejected as duplicate of6085. Runtime archive already shared locally; do not redownload or republish it.

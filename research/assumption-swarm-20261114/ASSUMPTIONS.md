@@ -93,3 +93,9 @@ A9 removes the ordering restriction for a generic binary Gaussian family, includ
 ## Wave11/12 opportunity update
 
 A10 removes genericity at exact unshifted fine-prime cores; A11 retains physical phase/chirp at a positive density of selected adjacent pairs. Neither gives a rounding margin, periodic/full-tile rank transfer or complete analytic recovery. A12 tests a universal g2 source-bound quantitative margin at deterministic extremal phases. B10 addresses one actual numeric macro with source/allocator correspondence and explicit mixed tariffs; grants, bounded metadata control, other arithmetic and whole producer remain premises. Compiler reduction and old setup-precision audits stay closed as superseded, without duplicate PRs.
+
+## Wave12/13 progress and weakest remaining joins
+
+The fixed two-axis extremal source case now has an explicit Cp-bit all-order forward/inverse margin and matched periodic alias bound. Its entry-table production premise remains separate; canonical6085 can potentially supply the four scalar calls without6099's incompatible domain, provided actual encoded arguments, B_f bit cost and ownership are bound. This does not address arbitrary good phases, growing dimensions, scheduled large tiles or complete recovery.
+
+One actual source division is fully literal with a weak allocator continuation and paid physical histories. The next useful join is all raw divisions in the current producer; denominator admission and source32-slot peak are already prior results, so only actual physical substitution/cost closure is new. Other arithmetic, metadata/grants and full compiler/tape realization remain open. No complete multiplication improvement is claimed.

@@ -1,0 +1,71 @@
+{
+  "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "source_sha256": "88dab4ca02a92164a67826db361214fa1405e4b4a588f8c4279a21bcee95ab76",
+  "calls": [
+    {
+      "line": 20,
+      "call": "self.raw.divmod(value, modulus)",
+      "enclosing_context": "remainder"
+    },
+    {
+      "line": 58,
+      "call": "self.raw.divmod(r0, r1)",
+      "enclosing_context": "inverse"
+    },
+    {
+      "line": 59,
+      "call": "self.remainder(quotient, modulus)",
+      "enclosing_context": "inverse"
+    },
+    {
+      "line": 119,
+      "call": "a.remainder(prefix, modulus)",
+      "enclosing_context": "produce"
+    },
+    {
+      "line": 120,
+      "call": "a.inverse(base, modulus)",
+      "enclosing_context": "produce"
+    },
+    {
+      "line": 122,
+      "call": "a.remainder(lower, modulus)",
+      "enclosing_context": "produce"
+    },
+    {
+      "line": 124,
+      "call": "a.remainder(value, modulus)",
+      "enclosing_context": "produce"
+    },
+    {
+      "line": 141,
+      "call": "a.remainder(prefix, modulus)",
+      "enclosing_context": "produce"
+    },
+    {
+      "line": 142,
+      "call": "a.inverse(base, modulus)",
+      "enclosing_context": "produce"
+    },
+    {
+      "line": 144,
+      "call": "a.remainder(lower, modulus)",
+      "enclosing_context": "produce"
+    },
+    {
+      "line": 148,
+      "call": "a.remainder(left_product, modulus)",
+      "enclosing_context": "produce"
+    },
+    {
+      "line": 149,
+      "call": "a.inverse(original_base, modulus)",
+      "enclosing_context": "produce"
+    },
+    {
+      "line": 153,
+      "call": "a.remainder(value, modulus)",
+      "enclosing_context": "produce"
+    }
+  ]
+}

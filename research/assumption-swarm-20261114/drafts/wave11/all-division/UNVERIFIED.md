@@ -1,0 +1,1 @@
+Active author candidate, not independently reviewed or published. Positive235-call run is a bounded result, not proof. B10 exact dependency c4ab5dab6914a04cb86d1fe54eb763b35cc7eeb1. Full nonleaf endpoint, final proof and review remain pending.
