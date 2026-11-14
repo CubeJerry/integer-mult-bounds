@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/fine-prime-binary-core-rank/inputs/GAUGEFREE-INTERIORS.md",
+    "research/fine-prime-binary-core-rank/inputs/FINE-PRIME-PADDING.md",
+    "research/fine-prime-binary-core-rank/inputs/A9-PROOF.md"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Read-only input authentication, exact full exponent boxes, even-path trimming and literal polynomial specialization, source coefficient identities and thirteen semantic/domain controls. Transcendence is a cited theorem, not numerically tested."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-W",
+        "error",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Read-only input authentication, exact full exponent boxes, even-path trimming and literal polynomial specialization, source coefficient identities and thirteen semantic/domain controls. Transcendence is a cited theorem, not numerically tested."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/review/independent_check.py",
+        "--package",
+        "{package}"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Independent symbolic minors,119 even trims,730 exponent-box values, source identities and11 controls. Transcendence is cited, not numerically tested. Normal."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "-O",
+        "{package}/review/independent_check.py",
+        "--package",
+        "{package}"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Independent symbolic minors,119 even trims,730 exponent-box values, source identities and11 controls. Transcendence is cited, not numerically tested. Optimized."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "status": "author_and_independent_review_frozen_pass",
+  "canonical_base": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "predecessor_commit": "085b30f8e036f69421d5953d0993ac4974ec3f24",
+  "package": "worker-a/wave10/research/fine-prime-binary-core-rank",
+  "files": {
+    "DEPENDENCIES.json": "45c5fb31452281261bf07d9c360e35eac6c19f9a24c45209c965403ba71b4809",
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "OVERLAP.json": "35c99b7b441c850a7845c69d0eba75689baa0ee88481068adda0330535c4e62e",
+    "OVERLAP.md": "3517d0b049722594969d6c58d028cb3cacbba46aa71c364cc51743b22569e833",
+    "PR-DESCRIPTION.md": "2d0603936abf54b0928585ba1bf3cbc016f47627a6ffb9d643287fe14e60d708",
+    "PROOF.md": "d9b2029c6e65e715563be10ae4cf41e12491281bb44e0cfdf7167a3b6dff3b45",
+    "README.md": "e36fa9496a1c0281852f25356f2a9712bf50ccd71c1a7af2170ab998da6a2aae",
+    "RESULT.json": "725cc9bd0b5ca3dd04f47314437a3465c61fdf15622c8f37e397a82aad396ef1",
+    "SOURCES.json": "113fa691c7080c51eeaa04ce7c1de2042a5fc9b63026500d2a7ccaacbc90d938",
+    "TASK.json": "88040b732723be65bd908c2b2ebf31db0af3d2afa238028b43190dd84e7dd319",
+    "VERIFY.json": "a83772587b7aa78eec58453ea2570b722240530b8d3e35fa2b0e4d10a1ceae7a",
+    "inputs/A9-PROOF.md": "3e87c32b9cb3695dc42c2ef10da9c05e74d1742a37e49ce0fe5890ea093463dc",
+    "inputs/FINE-PRIME-PADDING.md": "47d1b1b4df28aadda3cd6bdeb1fbc47290595e9208cd09c1a1f338520d33fdce",
+    "inputs/GAUGEFREE-INTERIORS.md": "a7fc34302a70f8453f877a6433ffe2776457bf37b5d8bb262afcb6b198a935fc",
+    "verify.py": "bec38f536a6419713f88962336f355c4b9dc73b1d3d5555261732a989733fe33"
+  },
+  "normal_optimized_identical": true,
+  "canonical_source_pins": 6,
+  "independent_review": "worker-c/review-prime-specialization",
+  "verified_claim": "Every-order exact unshifted normalized narrow binary-core rank >= min(2 ceil((2^g+3)/5),s_min-1), forward and inverse",
+  "limits": [
+    "No physical diagonal-similarity rank transfer",
+    "No Cp error margin or coefficient-production theorem",
+    "No runtime or kappa claim"
+  ],
+  "next_action": "root canonical gates, integrate separate reviews and publish verified branch"
+}

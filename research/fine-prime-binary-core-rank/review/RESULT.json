@@ -1,0 +1,96 @@
+{
+  "controls": [
+    "Q1^3-Q2^5 vanishes after (3,5)/(8,8) substitution; degree guard is essential",
+    "distinct odd denominators9,27 collide already at Q1-Q2^3",
+    "repeated source prime rejected",
+    "nonunit targets5,7 make Q1=Q2 despite distinct denominators5,7",
+    "odd requested trim rejected",
+    "common alpha105 shares every prime but preserves all105 exponent-box values",
+    "homogeneous binary Gray core changes Stein rank2->4 under diag(1,2,3,4) similarity",
+    "3x3 Gaussian similarity has exact determinant q^2(1-q^4)/12",
+    "Gaussian Toeplitz5x5 rank2 has irregular4x4 section with Stein rank4; no section lifting",
+    "exact rational exponents show both shift and chirp must be removed",
+    "alpha10,s5/7,t8/8 permits all offdiagonals below2^-16; downward16-bit rounding gives rank1"
+  ],
+  "exponent_box_total": 730,
+  "exponent_boxes": [
+    {
+      "complete_box_size": 15,
+      "moduli": [
+        3,
+        5
+      ],
+      "targets": [
+        8,
+        16
+      ]
+    },
+    {
+      "complete_box_size": 105,
+      "moduli": [
+        3,
+        5,
+        7
+      ],
+      "targets": [
+        8,
+        16,
+        8
+      ]
+    },
+    {
+      "complete_box_size": 385,
+      "moduli": [
+        5,
+        7,
+        11
+      ],
+      "targets": [
+        8,
+        16,
+        8
+      ]
+    },
+    {
+      "complete_box_size": 225,
+      "moduli": [
+        9,
+        25
+      ],
+      "targets": [
+        8,
+        32
+      ]
+    }
+  ],
+  "limitations": "Finite algebra corroboration only; no floating transcendence/rank test, no physical/rounded/global source rank claim.",
+  "method": "Independent signed-matrix path extraction, Fraction determinants, full multivariate/univariate subset-DP and CRT boxes.",
+  "minor_cases": 53,
+  "polynomial_terms": 1409,
+  "rank_floor_counts": {
+    "2": 17,
+    "4": 16,
+    "6": 20
+  },
+  "seed": 10703,
+  "source_interval_fixture": {
+    "p": 3,
+    "primes": [
+      971,
+      977,
+      487
+    ],
+    "targets": [
+      1024,
+      1024,
+      512
+    ]
+  },
+  "source_sha256": {
+    "inputs/A9-PROOF.md": "3e87c32b9cb3695dc42c2ef10da9c05e74d1742a37e49ce0fe5890ea093463dc",
+    "inputs/FINE-PRIME-PADDING.md": "47d1b1b4df28aadda3cd6bdeb1fbc47290595e9208cd09c1a1f338520d33fdce",
+    "inputs/GAUGEFREE-INTERIORS.md": "a7fc34302a70f8453f877a6433ffe2776457bf37b5d8bb262afcb6b198a935fc"
+  },
+  "status": "PASS_INDEPENDENT_PRIME_SPECIALIZATION",
+  "trimmed_minor_checks": 119
+}

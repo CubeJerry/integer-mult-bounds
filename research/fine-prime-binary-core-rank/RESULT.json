@@ -1,0 +1,432 @@
+{
+  "authenticated_inputs": {
+    "inputs/A9-PROOF.md": "3e87c32b9cb3695dc42c2ef10da9c05e74d1742a37e49ce0fe5890ea093463dc",
+    "inputs/FINE-PRIME-PADDING.md": "47d1b1b4df28aadda3cd6bdeb1fbc47290595e9208cd09c1a1f338520d33fdce",
+    "inputs/GAUGEFREE-INTERIORS.md": "a7fc34302a70f8453f877a6433ffe2776457bf37b5d8bb262afcb6b198a935fc"
+  },
+  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "exact_narrow_exponent_identities": 48,
+  "exponent_box_checks": [
+    {
+      "box_vectors": 3,
+      "denominators": [
+        3
+      ],
+      "targets": [
+        4
+      ]
+    },
+    {
+      "box_vectors": 15,
+      "denominators": [
+        3,
+        5
+      ],
+      "targets": [
+        8,
+        8
+      ]
+    },
+    {
+      "box_vectors": 105,
+      "denominators": [
+        3,
+        5,
+        7
+      ],
+      "targets": [
+        4,
+        8,
+        8
+      ]
+    },
+    {
+      "box_vectors": 385,
+      "denominators": [
+        5,
+        7,
+        11
+      ],
+      "targets": [
+        16,
+        16,
+        8
+      ]
+    },
+    {
+      "box_vectors": 1001,
+      "denominators": [
+        7,
+        11,
+        13
+      ],
+      "targets": [
+        16,
+        8,
+        32
+      ]
+    },
+    {
+      "box_vectors": 1155,
+      "denominators": [
+        3,
+        5,
+        7,
+        11
+      ],
+      "targets": [
+        8,
+        8,
+        16,
+        16
+      ]
+    },
+    {
+      "box_vectors": 11025,
+      "denominators": [
+        9,
+        25,
+        49
+      ],
+      "targets": [
+        16,
+        32,
+        64
+      ]
+    }
+  ],
+  "literal_source_specialized_polynomials": [
+    {
+      "alpha": 3,
+      "capacity": 2,
+      "maximum_z_exponent": 8,
+      "minor_size": 2,
+      "nonzero_terms": 1,
+      "order": [
+        0,
+        1
+      ],
+      "primes": [
+        3
+      ],
+      "targets": [
+        4
+      ]
+    },
+    {
+      "alpha": 3,
+      "capacity": 4,
+      "maximum_z_exponent": 80,
+      "minor_size": 2,
+      "nonzero_terms": 1,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "primes": [
+        3,
+        5
+      ],
+      "targets": [
+        8,
+        8
+      ]
+    },
+    {
+      "alpha": 5,
+      "capacity": 4,
+      "maximum_z_exponent": 224,
+      "minor_size": 4,
+      "nonzero_terms": 3,
+      "order": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "primes": [
+        5,
+        7
+      ],
+      "targets": [
+        8,
+        8
+      ]
+    },
+    {
+      "alpha": 3,
+      "capacity": 8,
+      "maximum_z_exponent": 1792,
+      "minor_size": 2,
+      "nonzero_terms": 1,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        5,
+        6,
+        4
+      ],
+      "primes": [
+        3,
+        5,
+        7
+      ],
+      "targets": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "alpha": 5,
+      "capacity": 8,
+      "maximum_z_exponent": 8448,
+      "minor_size": 4,
+      "nonzero_terms": 3,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        5,
+        6,
+        4
+      ],
+      "primes": [
+        5,
+        7,
+        11
+      ],
+      "targets": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "alpha": 7,
+      "capacity": 8,
+      "maximum_z_exponent": 27392,
+      "minor_size": 6,
+      "nonzero_terms": 82,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        5,
+        6,
+        4
+      ],
+      "primes": [
+        7,
+        11,
+        13
+      ],
+      "targets": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "alpha": 3,
+      "capacity": 8,
+      "maximum_z_exponent": 1792,
+      "minor_size": 2,
+      "nonzero_terms": 1,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        5,
+        7
+      ],
+      "primes": [
+        3,
+        5,
+        7
+      ],
+      "targets": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "alpha": 5,
+      "capacity": 8,
+      "maximum_z_exponent": 8448,
+      "minor_size": 4,
+      "nonzero_terms": 3,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        5,
+        7
+      ],
+      "primes": [
+        5,
+        7,
+        11
+      ],
+      "targets": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "alpha": 7,
+      "capacity": 8,
+      "maximum_z_exponent": 27392,
+      "minor_size": 6,
+      "nonzero_terms": 70,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        5,
+        7
+      ],
+      "primes": [
+        7,
+        11,
+        13
+      ],
+      "targets": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "alpha": 3,
+      "capacity": 8,
+      "maximum_z_exponent": 1120,
+      "minor_size": 2,
+      "nonzero_terms": 1,
+      "order": [
+        0,
+        1,
+        3,
+        2,
+        6,
+        7,
+        5,
+        4
+      ],
+      "primes": [
+        3,
+        5,
+        7
+      ],
+      "targets": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "alpha": 5,
+      "capacity": 8,
+      "maximum_z_exponent": 4928,
+      "minor_size": 4,
+      "nonzero_terms": 3,
+      "order": [
+        0,
+        1,
+        3,
+        2,
+        6,
+        7,
+        5,
+        4
+      ],
+      "primes": [
+        5,
+        7,
+        11
+      ],
+      "targets": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "alpha": 7,
+      "capacity": 8,
+      "maximum_z_exponent": 24480,
+      "minor_size": 6,
+      "nonzero_terms": 15,
+      "order": [
+        0,
+        1,
+        3,
+        2,
+        6,
+        7,
+        5,
+        4
+      ],
+      "primes": [
+        7,
+        11,
+        13
+      ],
+      "targets": [
+        16,
+        16,
+        16
+      ]
+    }
+  ],
+  "negative_controls": [
+    "individual_prime_degree_threshold",
+    "distinct_odd_noncoprime_denominators",
+    "nonunit_numerators",
+    "common_alpha_divisible_by_source_prime_is_allowed",
+    "source_domain_rejection_4",
+    "source_domain_rejection_5",
+    "source_domain_rejection_6",
+    "source_domain_rejection_7",
+    "algebraic_surrogate_root",
+    "nonprefix_vertex_deletion",
+    "diagonal_similarity_changes_rank",
+    "compressing_before_shift",
+    "coarse_rounding_changes_rank"
+  ],
+  "pointwise_bound": "min(2 ceil((2^g+3)/5), min_i(s_i)-1)",
+  "predecessor_commit": "085b30f8e036f69421d5953d0993ac4974ec3f24",
+  "scientific_hashes": {
+    "PROOF.md": "d9b2029c6e65e715563be10ae4cf41e12491281bb44e0cfdf7167a3b6dff3b45",
+    "verify.py": "bec38f536a6419713f88962336f355c4b9dc73b1d3d5555261732a989733fe33"
+  },
+  "scope": "Exact unshifted normalized binary core only; no physical or rounding transfer; no kappa",
+  "status": "PASS_FINE_PRIME_BINARY_CORE_RANK",
+  "transcendence": "Cited Gelfond-Schneider theorem; no numerical transcendence oracle",
+  "trimmed_minor_checks": {
+    "coverage": "all normalized d<=2, three fixed d3, 32 sampled d3, fixed d4/d5",
+    "orders": 44,
+    "seed": 20261114,
+    "unit_minors": 219
+  }
+}
