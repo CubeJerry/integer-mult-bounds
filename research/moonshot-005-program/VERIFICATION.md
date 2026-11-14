@@ -358,3 +358,10 @@ At exact commit60dcc4a5c7c9a8b6960b575e2d86c4dd4225e0a6, root refetched all ten 
 ## S013 checkpoint5
 
 Five fresh cloud executions reproduced the exact receipts: rank4 author and independent reflection review; A2/Hesse author and independent real-Coxeter review; three-carrier checker. Inputs were authenticated against admitted SHA-256 pins. Different independent algorithms and text-review scopes are documented in each package. New scientific entries:25; registry:259; scientific ledger:4243. All 4218 prior ledger entries, including qualified absences, remain. No unavailable local/global verifier is represented as rerun. Full details: sessions/2026-11-14-S013/CHECKPOINT5-VALIDATION.json.
+
+
+## S013 checkpoint6
+
+At 2026-11-14 17:52:41 UTC, six fresh cloud mathematical executions reproduced all frozen author and independent-review receipts. The new 27-role wing obstruction has both root and adversary text review; the augmented-star proof includes a root-supplied exact LR equality point and an independent weighted-coefficient audit. The correction proof has independent exact dual-pencil, forced-minor and ambient-kernel checks. Status and scopes are in the three admissions. No all-width9V wing lower bound, physical movement lower bound, complete supplier or new kappa is claimed.
+
+Registry262; scientific ledger4273;30 new scientific files; all4243 predecessor records and both qualified historical absences retained unchanged. See sessions/2026-11-14-S013/CHECKPOINT6-VALIDATION.json. The predecessor publication receipt records verified remote commit46ccd1acf5294fa161824d12ef4681b8c22b6712. Candidate readback and leased remote confirmation follow commit creation.

@@ -260,3 +260,8 @@ Use results/quadratic-sign-query-gate/README.md to run the dependency-free JavaS
 ## S013 checkpoint5 cloud-reproduced packages
 
 Read the package READMEs and authenticated checker wrappers. Rank4: run author/check.js with the pinned SYMMETRY.json, then review/check.js with that source and author/RESULT.json. A2: import author/check.mjs and call checkA2Geometry(flat,quad); review/check.js accepts flat,quad,author/GEOMETRY.json and checks all hashes. Three-carrier: author/check.js accepts the same admitted flat-cubic RESULT.json. All five mathematical functions actually ran in cloud V8 and matched receipts exactly; local Node execution after the outage is not claimed. Preserve the source-recovery qualification and both historical ledger exceptions.
+
+
+## S013 checkpoint6
+
+Six mathematical functions were freshly executed in cloud V8 and matched frozen receipts: wing author/review, fractional-gap author/review, correction author/review. The wrappers are provided for normal Node reproduction; they were not executed through local Node after the executor outage. See each README for authenticated input order. The root-recovery source is sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json, not a fresh native gzip replay. The two independent wing reviews derive native roots again from the admitted84 flat-cubic signatures. The correction review uses separate dual-neighbor reconstruction, exact BigInt determinants, and prime103 elimination. Written proofs establish the stated all-field/all-width conclusions; finite checks alone do not.

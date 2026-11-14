@@ -459,3 +459,12 @@ The actual111-root BIT source now has a verified A2/E6 decomposition:27 matched 
 The three-axis puncture gives common carriers F92,F15,F106 for all unfinished corrections, with57 one-cover and51 two-cover supports. Static rank18/joint19 and chi51 do not supply a packet bank. The canonical code splits into three totals and six E6 moments.
 
 The complex Eisenstein form has rank4 for every section, but ninety edge-disjoint pencils force at least ninety forbidden nonzero contacts. That is a correction obligation, not ninety MOVEs. Both strict supplier thresholds, all recursive costs and the five foundations remain. **No new kappa.** Details: results/eisenstein-rank-four-contact/, results/bit-a2-hesse-shared-charts/, results/bit-three-carrier-puncture/.
+
+
+## S013 checkpoint6: nontrivial wing information and complex repair costs
+
+The native 76-wing problem has an all-field, all-width fitting lower bound rank(M) >= 161V/19. A separate 27-role characteristic-two certificate gives strict rank(M)>8V, and widths one and two have exact minimum 9V. The quantitative proof uses augmented star constraints, not full-111 rigidity. It still permits a fractional gap below 9V at larger widths and makes no packet-lifetime inference.
+
+Repairing the unchanged rank-four Eisenstein form with zero correction diagonal requires added rank at least 4V for every section. In the canonical section the lower bound is 6V; restricting the correction to the eight-coordinate ambient bilinear model forces rank 8V. Rescaling the base changes this contract and remains a separate alternative. None of these ranks are physical MOVE counts.
+
+The positive task remains a chronological source. A decoder-aligned piggyback extension of the live pentagon is under construction; its new source coefficients must enter before original paths are lost. A common-coupling complex caller must retain every head and body operation. No complete supplier or new kappa follows from these lower bounds.

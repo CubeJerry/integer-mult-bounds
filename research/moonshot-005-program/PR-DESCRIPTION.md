@@ -421,3 +421,8 @@ The actual111-root BIT source now has a verified A2/E6 decomposition:27 matched 
 The three-axis puncture gives common carriers F92,F15,F106 for all unfinished corrections, with57 one-cover and51 two-cover supports. Static rank18/joint19 and chi51 do not supply a packet bank. The canonical code splits into three totals and six E6 moments.
 
 The complex Eisenstein form has rank4 for every section, but ninety edge-disjoint pencils force at least ninety forbidden nonzero contacts. That is a correction obligation, not ninety MOVEs. Both strict supplier thresholds, all recursive costs and the five foundations remain. **No new kappa.** Details: results/eisenstein-rank-four-contact/, results/bit-a2-hesse-shared-charts/, results/bit-three-carrier-puncture/.
+
+
+## S013 checkpoint6 contribution
+
+Three linked proof packages establish an actual 76-wing obstruction to eight-mode fittings, the stronger all-field lower bound 161V/19 with exact characteristic-two widths one and two, and rank costs for correcting the forty-line Eisenstein form. The latter distinguishes a universal 4V lower bound, a canonical 6V minor and restricted ambient 8V rigidity. Independent exact source reconstructions, adversarial controls and all-width arguments are included. Formal relaxation equality points are explicitly not matrix constructions. All source, caller, recursive and foundational obligations remain. **No new kappa; the cumulative programme is not submitted.**

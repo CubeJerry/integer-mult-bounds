@@ -1,0 +1,51 @@
+{
+  "status": "PASS_S013_CHECKPOINT6_NEW_PACKAGE_CHECKS",
+  "baseline_sha": "46ccd1acf5294fa161824d12ef4681b8c22b6712",
+  "utc": "2026-11-14 17:52:41 UTC",
+  "execution": "fresh pure-JavaScript cloud V8; no local runtime or fresh gzip replay",
+  "runs": [
+    {
+      "name": "wing_author",
+      "status": "PASS_NATIVE_76_WING_NO_EIGHT_MODE_CERTIFICATE",
+      "exact_receipt_match": true
+    },
+    {
+      "name": "wing_review",
+      "status": "PASS_INDEPENDENT_WING_SEED_AND_ISOTROPIC_REVIEW",
+      "exact_receipt_match": true
+    },
+    {
+      "name": "fractional_author",
+      "status": "PASS_WEIGHTED_WING_FRACTIONAL_GAP",
+      "exact_receipt_match": true
+    },
+    {
+      "name": "fractional_review",
+      "status": "PASS_INDEPENDENT_WEIGHTED_WING_GAP_REVIEW",
+      "exact_receipt_match": true
+    },
+    {
+      "name": "correction_author",
+      "status": "PASS_DUAL_PENCIL_CORRECTION_RANK",
+      "exact_receipt_match": true
+    },
+    {
+      "name": "correction_review",
+      "status": "PASS_INDEPENDENT_CORRECTION_RANK_REVIEW",
+      "exact_receipt_match": true
+    }
+  ],
+  "source_pins": {
+    "flat": "4ac3933fb2393c62a96ec9e931ef4936e61d0e6c912c7ce0a94398a5f19addfc",
+    "root_recovery": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+    "symmetry": "ffe061f5986a5982a18fca2ff479447db06cf22b5a8db6bd305c8de3c11315cf",
+    "rank4": "3576da5c2c7254cf38beb551bec076d625cbede9a463f92f00fed57852df856e"
+  },
+  "registered_results": 262,
+  "scientific_files": 4273,
+  "new_scientific_files": 30,
+  "prior_entries_preserved": 4243,
+  "legacy_exceptions_preserved": true,
+  "new_kappa": false,
+  "remote_candidate_readback": "required before leased update; result recorded separately"
+}

@@ -460,3 +460,10 @@ The actual111-root BIT source now has a verified A2/E6 decomposition:27 matched 
 The three-axis puncture gives common carriers F92,F15,F106 for all unfinished corrections, with57 one-cover and51 two-cover supports. Static rank18/joint19 and chi51 do not supply a packet bank. The canonical code splits into three totals and six E6 moments.
 
 The complex Eisenstein form has rank4 for every section, but ninety edge-disjoint pencils force at least ninety forbidden nonzero contacts. That is a correction obligation, not ninety MOVEs. Both strict supplier thresholds, all recursive costs and the five foundations remain. **No new kappa.** Details: results/eisenstein-rank-four-contact/, results/bit-a2-hesse-shared-charts/, results/bit-three-carrier-puncture/.
+
+
+## S013 checkpoint6: additional necessary information costs
+
+The 76-wing fitting restriction alone costs at least ceil(161V/19) dimensions over every field; its characteristic-two minimum is exactly 9V for V=1,2. The all-width minimum 9V is still open at this checkpoint. These are static fitting constraints and cannot be substituted for a number of packet lifetimes or a movement price.
+
+For an unchanged rank-four Eisenstein base with correction diagonal zero, added correction rank is at least 4V in every section, at least 6V in the canonical section, and 8V in the restricted canonical ambient bilinear model. A rank-four correction after halving the base is not a counterexample: it changes the diagonal contract. Productive corrections, acquisition, transport and recursion still require complete cost accounting. The strict supplier inequalities above are unchanged.

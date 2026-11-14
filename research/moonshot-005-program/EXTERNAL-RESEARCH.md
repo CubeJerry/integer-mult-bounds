@@ -174,3 +174,8 @@ Wilson, *An eightfold path to E8* (2012, section3.3), https://webspace.maths.qmu
 Bukh--Cox, *On a fractional version of Haemers' bound*, https://arxiv.org/abs/1802.00476v2, provides the block-fitting/subspace formulation and multiplicativity, and proves fractional bound5/2 for C5 over every field. This is a relevant fractional-history lead, not a76-wing construction. The same-wing27-point geometry is GQ(2,4), complement of the degree16 Schlaefli graph. Canonical rank7 is checked internally; no general minimum-rank equality is imported from snippets.
 
 Canonical main remained e54523517d0f03e58352e647c403a5af3e525a57 at16:58UTC. S012 closure7a69a5fe48fc1f593e7368c30c0cf7f0f7a95ee0 follows S013 checkpoint4 and only changes its final records; it is preserved as the new parent.
+
+
+## S013 checkpoint6: fractional representation and dual-pencil use
+
+The Bukh--Cox block-fitting perspective now leads to an internal all-field 161V/19 bound on the actual76-wing graph. This is a source-specific proof, not a rank value imported from a table. The formal rank-inequality equality point is explicitly not a vector-linear code. The Eisenstein contact package also yields dual-pencil forced minors for correction rank; its contract keeps the base unchanged. Neither connection supplies a complete multiplication algorithm. Canonical source and selected certificate remain unchanged; this checkpoint adds no upstream merge or PR.

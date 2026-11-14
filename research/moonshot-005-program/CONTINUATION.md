@@ -1,3 +1,11 @@
+# Current S013 continuation — actual changing histories
+
+At checkpoint6 the source constraints are sharper, but no complete kappa improvement is established. Prioritize a complete source construction: seed fresh coefficients on the original ascent, preserve the two live pentagon branches, and audit the proposed nine-target extension on all222 public columns. The geometry and static fitting ranks do not supply this chronology.
+
+The actual76-wing fitting has all-field rank>=161V/19 and exact characteristic-two minimum9V for widths1,2. Stronger two-star/degree-four claims are under review. The complex rank-four form owes universal4V correction rank (canonical6V; restricted ambient8V), and the common-coupling caller still needs a full paid endpoint map.
+
+The requested S013 ten-hour session remains active through its supported window ending23:21:59UTC. Runtime after16:22 is cloud V8 plus GitHub; do not claim local Python/Node reproduction. All five foundations and both strict suppliers remain. The earlier continuation follows as historical context.
+
 # Latest continuation — S012 final recovery
 
 Construct a complete source-bound caller from the corrected half-source channels A_s=B_s(S-I), C_s=(S+I)B_s^-1 that produces simultaneous(S Dtot x,S Dtot y), hence Gaussian jobs after paid ordinary lambda maps, within a complete positive target invoice. All original baselines, body applications, queries, ownership and precision remain charged. Extraction is open.

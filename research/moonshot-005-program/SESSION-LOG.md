@@ -1433,3 +1433,10 @@ Starting session SHA3dc8e992ef59f4b8db1c173263a646b618ecf1e1; checkpoint parent7
 Admitted three linked mathematics-first results: native A2/E6 and nine-cell/twelve-line Hesse acquisition geometry; rank4 Eisenstein form with universal ninety-contact debt; fixed three-carrier pivot covers with rank18/joint19 and chi51. The parked-source limitation was caught before admission: point copies repair an information cut but not original acquisition access. Independent root reconstructions and construction-worker proof review are retained. Five exact cloud executions matched receipts,25 new scientific files were hashed. No new kappa and no upstream PR.
 
 Next: review actual76-wing >8V certificate and complex correction-rank theorem; quantify the fractional gap and construct decoder-aligned partial acquisitions and a changed-role complex caller. These new wave claims are pending, not counted among the admitted results. Requested10-hour session remains active. Resulting commit SHA will be confirmed separately after leased publication; no self-referential hash is embedded.
+
+
+## 2026-11-14-S013 checkpoint6 (2026-11-14 17:52:41 UTC)
+
+Session start3dc8e992ef59f4b8db1c173263a646b618ecf1e1; checkpoint baseline46ccd1acf5294fa161824d12ef4681b8c22b6712. The exact remote head was rechecked and unchanged. Admitted the actual-wing strict eight-mode obstruction, all-field161V/19 fractional gap with exact characteristic-two widths1,2, and universal/canonical/restricted Eisenstein correction-rank bounds4V/6V/8V. Six fresh cloud executions matched receipts; independent proof and source checks are retained. All predecessor scientific records remain. No new kappa or PR.
+
+The next constructive step is the proposed nine-target pentagon piggyback word, which must acquire fresh coefficients before source paths disappear. A common-A complex interface is also being built with every head/body operation retained. Stronger two-star wing and degree-four rigidity packages await independent admission. Requested ten-hour session remains active. The resulting commit SHA is confirmed after publication and recorded separately; it is not embedded self-referentially.

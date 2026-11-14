@@ -1,0 +1,886 @@
+{
+  "status": "PASS_WEIGHTED_WING_FRACTIONAL_GAP",
+  "recovered_geometry_git_blob": "8eba43d142c819c206dce5df87ea4571aaead287",
+  "native_source_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "recovery_certificate_sha256": "4ac3933fb2393c62a96ec9e931ef4936e61d0e6c912c7ce0a94398a5f19addfc",
+  "wing_roles": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    13,
+    14,
+    17,
+    19,
+    20,
+    21,
+    24,
+    25,
+    28,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35,
+    37,
+    38,
+    39,
+    40,
+    41,
+    44,
+    45,
+    46,
+    47,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    57,
+    58,
+    59,
+    60,
+    62,
+    63,
+    64,
+    66,
+    67,
+    68,
+    69,
+    70,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    91,
+    93,
+    94,
+    98,
+    99,
+    100,
+    101,
+    104,
+    105,
+    107,
+    108,
+    110
+  ],
+  "frame": [
+    0,
+    14,
+    30,
+    31,
+    60,
+    69,
+    70
+  ],
+  "edges": [
+    {
+      "role": 4,
+      "ends": [
+        0,
+        4
+      ]
+    },
+    {
+      "role": 8,
+      "ends": [
+        0,
+        6
+      ]
+    },
+    {
+      "role": 9,
+      "ends": [
+        0,
+        5
+      ]
+    },
+    {
+      "role": 19,
+      "ends": [
+        1,
+        4
+      ]
+    },
+    {
+      "role": 24,
+      "ends": [
+        1,
+        6
+      ]
+    },
+    {
+      "role": 25,
+      "ends": [
+        1,
+        5
+      ]
+    },
+    {
+      "role": 34,
+      "ends": [
+        3,
+        4
+      ]
+    },
+    {
+      "role": 35,
+      "ends": [
+        2,
+        4
+      ]
+    },
+    {
+      "role": 38,
+      "ends": [
+        3,
+        6
+      ]
+    },
+    {
+      "role": 39,
+      "ends": [
+        3,
+        5
+      ]
+    },
+    {
+      "role": 40,
+      "ends": [
+        2,
+        6
+      ]
+    },
+    {
+      "role": 41,
+      "ends": [
+        2,
+        5
+      ]
+    },
+    {
+      "role": 59,
+      "ends": [
+        5,
+        6
+      ]
+    },
+    {
+      "role": 63,
+      "ends": [
+        2,
+        3
+      ]
+    },
+    {
+      "role": 66,
+      "ends": [
+        4,
+        5
+      ]
+    },
+    {
+      "role": 78,
+      "ends": [
+        0,
+        1
+      ]
+    },
+    {
+      "role": 93,
+      "ends": [
+        0,
+        2
+      ]
+    },
+    {
+      "role": 108,
+      "ends": [
+        1,
+        3
+      ]
+    },
+    {
+      "role": 110,
+      "ends": [
+        1,
+        2
+      ]
+    }
+  ],
+  "degree": [
+    5,
+    6,
+    6,
+    5,
+    5,
+    6,
+    5
+  ],
+  "loops": [
+    {
+      "role": 77,
+      "point": 0
+    },
+    {
+      "role": 107,
+      "point": 3
+    }
+  ],
+  "categories": [
+    "A",
+    "C",
+    "C",
+    "A",
+    "B",
+    "C",
+    "B"
+  ],
+  "incidence_weights": [
+    {
+      "edge": 0,
+      "role": 4,
+      "from": 0,
+      "to": 4,
+      "weight": 3
+    },
+    {
+      "edge": 0,
+      "role": 4,
+      "from": 4,
+      "to": 0,
+      "weight": 1
+    },
+    {
+      "edge": 1,
+      "role": 8,
+      "from": 0,
+      "to": 6,
+      "weight": 3
+    },
+    {
+      "edge": 1,
+      "role": 8,
+      "from": 6,
+      "to": 0,
+      "weight": 1
+    },
+    {
+      "edge": 2,
+      "role": 9,
+      "from": 0,
+      "to": 5,
+      "weight": 4
+    },
+    {
+      "edge": 2,
+      "role": 9,
+      "from": 5,
+      "to": 0,
+      "weight": 0
+    },
+    {
+      "edge": 3,
+      "role": 19,
+      "from": 1,
+      "to": 4,
+      "weight": 2
+    },
+    {
+      "edge": 3,
+      "role": 19,
+      "from": 4,
+      "to": 1,
+      "weight": 2
+    },
+    {
+      "edge": 4,
+      "role": 24,
+      "from": 1,
+      "to": 6,
+      "weight": 2
+    },
+    {
+      "edge": 4,
+      "role": 24,
+      "from": 6,
+      "to": 1,
+      "weight": 2
+    },
+    {
+      "edge": 5,
+      "role": 25,
+      "from": 1,
+      "to": 5,
+      "weight": 2
+    },
+    {
+      "edge": 5,
+      "role": 25,
+      "from": 5,
+      "to": 1,
+      "weight": 2
+    },
+    {
+      "edge": 6,
+      "role": 34,
+      "from": 3,
+      "to": 4,
+      "weight": 3
+    },
+    {
+      "edge": 6,
+      "role": 34,
+      "from": 4,
+      "to": 3,
+      "weight": 1
+    },
+    {
+      "edge": 7,
+      "role": 35,
+      "from": 2,
+      "to": 4,
+      "weight": 2
+    },
+    {
+      "edge": 7,
+      "role": 35,
+      "from": 4,
+      "to": 2,
+      "weight": 2
+    },
+    {
+      "edge": 8,
+      "role": 38,
+      "from": 3,
+      "to": 6,
+      "weight": 3
+    },
+    {
+      "edge": 8,
+      "role": 38,
+      "from": 6,
+      "to": 3,
+      "weight": 1
+    },
+    {
+      "edge": 9,
+      "role": 39,
+      "from": 3,
+      "to": 5,
+      "weight": 4
+    },
+    {
+      "edge": 9,
+      "role": 39,
+      "from": 5,
+      "to": 3,
+      "weight": 0
+    },
+    {
+      "edge": 10,
+      "role": 40,
+      "from": 2,
+      "to": 6,
+      "weight": 2
+    },
+    {
+      "edge": 10,
+      "role": 40,
+      "from": 6,
+      "to": 2,
+      "weight": 2
+    },
+    {
+      "edge": 11,
+      "role": 41,
+      "from": 2,
+      "to": 5,
+      "weight": 2
+    },
+    {
+      "edge": 11,
+      "role": 41,
+      "from": 5,
+      "to": 2,
+      "weight": 2
+    },
+    {
+      "edge": 12,
+      "role": 59,
+      "from": 5,
+      "to": 6,
+      "weight": 2
+    },
+    {
+      "edge": 12,
+      "role": 59,
+      "from": 6,
+      "to": 5,
+      "weight": 2
+    },
+    {
+      "edge": 13,
+      "role": 63,
+      "from": 2,
+      "to": 3,
+      "weight": 0
+    },
+    {
+      "edge": 13,
+      "role": 63,
+      "from": 3,
+      "to": 2,
+      "weight": 4
+    },
+    {
+      "edge": 14,
+      "role": 66,
+      "from": 4,
+      "to": 5,
+      "weight": 2
+    },
+    {
+      "edge": 14,
+      "role": 66,
+      "from": 5,
+      "to": 4,
+      "weight": 2
+    },
+    {
+      "edge": 15,
+      "role": 78,
+      "from": 0,
+      "to": 1,
+      "weight": 4
+    },
+    {
+      "edge": 15,
+      "role": 78,
+      "from": 1,
+      "to": 0,
+      "weight": 0
+    },
+    {
+      "edge": 16,
+      "role": 93,
+      "from": 0,
+      "to": 2,
+      "weight": 4
+    },
+    {
+      "edge": 16,
+      "role": 93,
+      "from": 2,
+      "to": 0,
+      "weight": 0
+    },
+    {
+      "edge": 17,
+      "role": 108,
+      "from": 1,
+      "to": 3,
+      "weight": 0
+    },
+    {
+      "edge": 17,
+      "role": 108,
+      "from": 3,
+      "to": 1,
+      "weight": 4
+    },
+    {
+      "edge": 18,
+      "role": 110,
+      "from": 1,
+      "to": 2,
+      "weight": 2
+    },
+    {
+      "edge": 18,
+      "role": 110,
+      "from": 2,
+      "to": 1,
+      "weight": 2
+    }
+  ],
+  "star_weight_sums": [
+    18,
+    8,
+    8,
+    18,
+    8,
+    8,
+    8
+  ],
+  "gamma_coefficients": [
+    {
+      "edge": 0,
+      "from": 0,
+      "coefficient": 10
+    },
+    {
+      "edge": 0,
+      "from": 4,
+      "coefficient": 0
+    },
+    {
+      "edge": 1,
+      "from": 0,
+      "coefficient": 10
+    },
+    {
+      "edge": 1,
+      "from": 6,
+      "coefficient": 0
+    },
+    {
+      "edge": 2,
+      "from": 0,
+      "coefficient": 10
+    },
+    {
+      "edge": 2,
+      "from": 5,
+      "coefficient": 0
+    },
+    {
+      "edge": 3,
+      "from": 1,
+      "coefficient": 0
+    },
+    {
+      "edge": 3,
+      "from": 4,
+      "coefficient": 0
+    },
+    {
+      "edge": 4,
+      "from": 1,
+      "coefficient": 0
+    },
+    {
+      "edge": 4,
+      "from": 6,
+      "coefficient": 0
+    },
+    {
+      "edge": 5,
+      "from": 1,
+      "coefficient": 0
+    },
+    {
+      "edge": 5,
+      "from": 5,
+      "coefficient": 0
+    },
+    {
+      "edge": 6,
+      "from": 3,
+      "coefficient": 10
+    },
+    {
+      "edge": 6,
+      "from": 4,
+      "coefficient": 0
+    },
+    {
+      "edge": 7,
+      "from": 2,
+      "coefficient": 0
+    },
+    {
+      "edge": 7,
+      "from": 4,
+      "coefficient": 0
+    },
+    {
+      "edge": 8,
+      "from": 3,
+      "coefficient": 10
+    },
+    {
+      "edge": 8,
+      "from": 6,
+      "coefficient": 0
+    },
+    {
+      "edge": 9,
+      "from": 3,
+      "coefficient": 10
+    },
+    {
+      "edge": 9,
+      "from": 5,
+      "coefficient": 0
+    },
+    {
+      "edge": 10,
+      "from": 2,
+      "coefficient": 0
+    },
+    {
+      "edge": 10,
+      "from": 6,
+      "coefficient": 0
+    },
+    {
+      "edge": 11,
+      "from": 2,
+      "coefficient": 0
+    },
+    {
+      "edge": 11,
+      "from": 5,
+      "coefficient": 0
+    },
+    {
+      "edge": 12,
+      "from": 5,
+      "coefficient": 0
+    },
+    {
+      "edge": 12,
+      "from": 6,
+      "coefficient": 0
+    },
+    {
+      "edge": 13,
+      "from": 2,
+      "coefficient": 0
+    },
+    {
+      "edge": 13,
+      "from": 3,
+      "coefficient": 10
+    },
+    {
+      "edge": 14,
+      "from": 4,
+      "coefficient": 0
+    },
+    {
+      "edge": 14,
+      "from": 5,
+      "coefficient": 0
+    },
+    {
+      "edge": 15,
+      "from": 0,
+      "coefficient": 10
+    },
+    {
+      "edge": 15,
+      "from": 1,
+      "coefficient": 0
+    },
+    {
+      "edge": 16,
+      "from": 0,
+      "coefficient": 10
+    },
+    {
+      "edge": 16,
+      "from": 2,
+      "coefficient": 0
+    },
+    {
+      "edge": 17,
+      "from": 1,
+      "coefficient": 0
+    },
+    {
+      "edge": 17,
+      "from": 3,
+      "coefficient": 10
+    },
+    {
+      "edge": 18,
+      "from": 1,
+      "coefficient": 0
+    },
+    {
+      "edge": 18,
+      "from": 2,
+      "coefficient": 0
+    }
+  ],
+  "weighted_identity": {
+    "h_coefficient": 76,
+    "V_coefficient": 36,
+    "remaining": "10*(G_0+G_3)",
+    "bound": "rank(M) >= (161/19)*V"
+  },
+  "all_fields_lower_bound": true,
+  "characteristic_two_upper_bound": "9V",
+  "width_two_result": "minimum rank18 over every characteristic-two field; rank>=18 over every field",
+  "formal_relaxation_point": {
+    "V": 38,
+    "h": 18,
+    "j": 56,
+    "G": [
+      0,
+      38,
+      38,
+      0,
+      38,
+      38,
+      38
+    ],
+    "directed_gamma": [
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "all_38_LR_equalities": true,
+    "not_a_block_fitting": true
+  },
+  "predecessor_independent_geometry_review": {
+    "seed_roles": [
+      0,
+      14,
+      30,
+      31,
+      60,
+      69,
+      70,
+      4,
+      8,
+      9,
+      19,
+      24,
+      25,
+      34,
+      35,
+      38,
+      39,
+      40,
+      41,
+      59,
+      63,
+      66,
+      78,
+      93,
+      108,
+      110
+    ],
+    "isotropic_extra_role": 3,
+    "anchor_roles": [
+      60,
+      69,
+      70,
+      59,
+      63,
+      78,
+      93
+    ],
+    "anchor_vectors": [
+      16,
+      32,
+      64,
+      224,
+      140,
+      131,
+      133
+    ],
+    "anchor_rank": 7,
+    "annihilator": 15,
+    "canonical_rank": 9
+  },
+  "controls": {
+    "removed_anchor_rank": 6,
+    "frame0_is_invalid_role3_zero": true
+  },
+  "no_new_kappa": true,
+  "no_packet_lifetime_or_MOVE_lower_bound_claimed": true
+}

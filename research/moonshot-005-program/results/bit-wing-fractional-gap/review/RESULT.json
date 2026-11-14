@@ -1,0 +1,235 @@
+{
+  "status": "PASS_INDEPENDENT_WEIGHTED_WING_GAP_REVIEW",
+  "source_geometry_review": "PASS_INDEPENDENT_WING_SEED_AND_ISOTROPIC_REVIEW",
+  "certificate_roles": 28,
+  "all_fields": true,
+  "lower_bound": "161V/19",
+  "integer_form": "19 rank(M) >= 161V",
+  "weighted_coefficients": [
+    {
+      "from": 0,
+      "to": 4,
+      "coefficient": 10
+    },
+    {
+      "from": 4,
+      "to": 0,
+      "coefficient": 0
+    },
+    {
+      "from": 0,
+      "to": 6,
+      "coefficient": 10
+    },
+    {
+      "from": 6,
+      "to": 0,
+      "coefficient": 0
+    },
+    {
+      "from": 0,
+      "to": 5,
+      "coefficient": 10
+    },
+    {
+      "from": 5,
+      "to": 0,
+      "coefficient": 0
+    },
+    {
+      "from": 1,
+      "to": 4,
+      "coefficient": 0
+    },
+    {
+      "from": 4,
+      "to": 1,
+      "coefficient": 0
+    },
+    {
+      "from": 1,
+      "to": 6,
+      "coefficient": 0
+    },
+    {
+      "from": 6,
+      "to": 1,
+      "coefficient": 0
+    },
+    {
+      "from": 1,
+      "to": 5,
+      "coefficient": 0
+    },
+    {
+      "from": 5,
+      "to": 1,
+      "coefficient": 0
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "coefficient": 10
+    },
+    {
+      "from": 4,
+      "to": 3,
+      "coefficient": 0
+    },
+    {
+      "from": 2,
+      "to": 4,
+      "coefficient": 0
+    },
+    {
+      "from": 4,
+      "to": 2,
+      "coefficient": 0
+    },
+    {
+      "from": 3,
+      "to": 6,
+      "coefficient": 10
+    },
+    {
+      "from": 6,
+      "to": 3,
+      "coefficient": 0
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "coefficient": 10
+    },
+    {
+      "from": 5,
+      "to": 3,
+      "coefficient": 0
+    },
+    {
+      "from": 2,
+      "to": 6,
+      "coefficient": 0
+    },
+    {
+      "from": 6,
+      "to": 2,
+      "coefficient": 0
+    },
+    {
+      "from": 2,
+      "to": 5,
+      "coefficient": 0
+    },
+    {
+      "from": 5,
+      "to": 2,
+      "coefficient": 0
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "coefficient": 0
+    },
+    {
+      "from": 6,
+      "to": 5,
+      "coefficient": 0
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "coefficient": 0
+    },
+    {
+      "from": 3,
+      "to": 2,
+      "coefficient": 10
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "coefficient": 0
+    },
+    {
+      "from": 5,
+      "to": 4,
+      "coefficient": 0
+    },
+    {
+      "from": 0,
+      "to": 1,
+      "coefficient": 10
+    },
+    {
+      "from": 1,
+      "to": 0,
+      "coefficient": 0
+    },
+    {
+      "from": 0,
+      "to": 2,
+      "coefficient": 10
+    },
+    {
+      "from": 2,
+      "to": 0,
+      "coefficient": 0
+    },
+    {
+      "from": 1,
+      "to": 3,
+      "coefficient": 0
+    },
+    {
+      "from": 3,
+      "to": 1,
+      "coefficient": 10
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "coefficient": 0
+    },
+    {
+      "from": 2,
+      "to": 1,
+      "coefficient": 0
+    }
+  ],
+  "total_weight": 76,
+  "singleton_weight": 36,
+  "remaining_term": "10(G0+G3)",
+  "width_two": {
+    "lower_rank": 18,
+    "characteristic_two_minimum": 18,
+    "contradiction": [
+      19,
+      18
+    ]
+  },
+  "formal_LR_boundary": {
+    "V": 38,
+    "h": 18,
+    "j": 56,
+    "rank": 322,
+    "G": [
+      0,
+      38,
+      38,
+      0,
+      38,
+      38,
+      38
+    ],
+    "all38_equalities": true,
+    "is_matrix_representation": false
+  },
+  "negative_controls": {
+    "one_gamma_decrease_violates_LR": true,
+    "one_loop_removed_V_coefficient": 18
+  },
+  "canonical_upper_in_characteristic_two": "9V",
+  "no_lifetime_or_movement_bound": true,
+  "no_new_kappa": true
+}

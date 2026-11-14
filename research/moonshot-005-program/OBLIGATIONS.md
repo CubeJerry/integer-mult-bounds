@@ -389,3 +389,12 @@ The retained112-port source/caller and five foundational obligations remain. Con
 - **Proved static / conditional bridge:** BIT-THREE-CARRIER-PUNCTURE. Paid axes92,15,106 give rank18/joint19 and chi51 with three fixed carriers. Missing: legal code acquisition, correction sums, owners and full invoice. Old two-loan transfer bounds are not automatically inherited.
 - **Open primary construction:** decoder-aligned partial acquisition through the shared charts. The induced76-wing fitting question is distinct from full111 rigidity. A new strict >8V certificate is reported but awaits independent review; it is not admitted here.
 - **Open complex bridge:** actual changed-role/coupling caller with complete arbitrary-input endpoints. New contact-correction rank claims also await review. No optimistic target arithmetic is a completed caller.
+
+
+## S013 checkpoint6 dependencies and status changes
+
+- **PROVED — BIT-WING-NO-EIGHT-MODES.** For every characteristic-two field and positive block width V, a fitting of the actual 76-wing induced graph has rank>8V. The 27-role witness depends on authenticated root recovery and the saturated-star theorem. Exact scalar minimum is nine. See results/bit-wing-no-eight-modes/ADMISSION.md.
+- **PROVED — BIT-WING-FRACTIONAL-GAP.** Every field and V>=1 satisfy 19 rank(M)>=161V. Augmented star inequalities on 28 actual roles imply the bound. Width two additionally forces rank>=18. The characteristic-two upper bound is9V. A formal LR equality solution is not a fitting representation. See results/bit-wing-fractional-gap/ADMISSION.md.
+- **PROVED within contracts — EISENSTEIN-CONTACT-CORRECTION-RANK.** Unchanged base and zero correction diagonal give universal4V, canonical6V and restricted canonical ambient8V bounds. Dependencies: rank-four contact package, dual-pencil incidence, exact forced minors. No transport lower bound is claimed. See results/eisenstein-contact-correction-rank/ADMISSION.md.
+- **OPEN — fractional wing closure.** Close the remaining interval or construct an actual noncommuting block fitting. Stronger new star claims are pending review, not admitted by this checkpoint.
+- **OPEN — actual piggyback source and common-coupling caller.** Emit complete arbitrary-input maps, source-access chronology, owner restoration and full invoices. Static covers and ranks do not discharge these tasks.
