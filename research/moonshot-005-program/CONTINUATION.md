@@ -1,3 +1,14 @@
+# Latest continuation — S012 final recovery
+
+Construct a complete source-bound caller from the corrected half-source channels A_s=B_s(S-I), C_s=(S+I)B_s^-1 that produces simultaneous(S Dtot x,S Dtot y), hence Gaussian jobs after paid ordinary lambda maps, within a complete positive target invoice. All original baselines, body applications, queries, ownership and precision remain charged. Extraction is open.
+
+- Exploit cross-stage A_t C_s=0 in a changed role graph or polarization/interleaved-query chronology; prove the full arbitrary-input endpoint map before claiming the two-head target credit.
+- Use the exact short-stage envelope. Do not retry the fixed completed-map uniform-bank pre/post repairs excluded by the new induced-norm theorem; partial/heterogeneous/interstage services require their own complete bills.
+- Recover original unpublished late S012 source words/checkers using the recorded hashes if the workspace returns; distinguish that from the supplied new mathematical recovery and fresh JavaScript checks.
+- Preserve S013's live-source pentagon/cubic BIT work and its exact source pins. Both strict U>1/200 and B>1/200 remain necessary; no local interface alone supplies either.
+
+See [proof and fresh checks](results/s012-final-recovery/ADMISSION.md), [unresolved concrete chronologies](results/s012-final-recovery/CONSTRUCTION-WIP.md), and [missing original evidence](results/s012-final-recovery/RECOVERY-STATUS.json). Historical continuation follows.
+
 # Resume the permanent programme
 
 Read exact GitHub HEAD of CubeJerry/integer-mult-bounds,

@@ -358,3 +358,17 @@ Central open edge: actual half-source chronology -> simultaneous alternating Gau
 - **BIT-PENTAGON-HISTORY-FORK** — proved actual five-output history fork with two moving lifetimes and five stationary caches; live-source continuation interface admitted. [Admission](results/bit-pentagon-history-fork/ADMISSION.md); dependencies, precise scope and independent evidence are linked there.
 
 **Next central BIT edge (open):** compose the actual live-source five-cycle fork with further original-source acquisition and shared proper-chart history, completing all111 outputs and restoring every original/owned endpoint inside the strict covered-BIT invoice. A local saving or static chi is not sufficient. Parallel constructive work at canonical quotient2V must supply native locality and chronology, not only disjoint receiver planes. The complex edge remains a complete compatible actual caller, with112-port and120-port interfaces kept distinct.
+
+## S012 final recovery: common-involution source channels
+
+A new actual-source interface has one common S²=I despite varying stage routes: A_s=B_s(S-I), C_s=(S+I)B_s^-1 and A_t C_s=0. Explicit ordinary postservices restore the source bank and add no Gaussian movement. Since Q=lambda S, the next exact task is simultaneous(S Dtot x,S Dtot y) extraction with every original baseline and complete invoice retained. This is a construction problem, not a claimed supplier.
+
+The canonical three-half shared-middle sign cannot supply two head gains. New joint max-entry/norm arguments exclude bounded finite ordinary repairs of the fixed completed maps; uniform-rank complete-bank paid pre/post repair also exceeds its available price. Heterogeneous/partial services, interstage queries, different histories and extra fields remain outside those specific theorems.
+
+The environment failed around16:22 before the local checkpoint12 packages were pushed. The [recovery package](results/s012-final-recovery/ADMISSION.md) supplies complete recovered mathematical proofs, independent-review provenance, newly executed exact JavaScript controls and five freshly authenticated published dependencies. It explicitly distinguishes unavailable original compressed words/Python evidence and unreviewed WIP. Concurrent S013 checkpoint3 at12b269a98e461ebf5e83e24cc16765540bec9626 is preserved. No new kappa; both strict suppliers and all five foundations remain open.
+
+- Proved under inherited source contracts: common complementary-channel interface and source restoration.
+- Proved within exact scopes: canonical sign complementarity, joint max-entry/condition-number requirements, fixed-template paid-depth and uniform-bank price gate.
+- Computationally verified: fresh exact JS controls and five remote source hashes.
+- Open: simultaneous productive S extraction, full suppliers and foundations.
+- Pending evidence recovery: original late Python packages and compressed cocharted words. Their unavailable bytes are not marked reproduced.

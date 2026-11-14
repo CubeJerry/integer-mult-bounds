@@ -1,0 +1,101 @@
+{
+  "status": "PASS_FRESH_RECOVERY_EXACT_CONTROLS",
+  "execution": "Pure JavaScript exact dyadic complex arithmetic and BigInt integer-root enclosures; original Python receipts are not reproduced.",
+  "complementary": {
+    "restored_programs": 6,
+    "cross_stage_pairs": 9,
+    "nonzero_reverse_pairs": 6,
+    "head_only_events": 7,
+    "lambda_LDU": true
+  },
+  "canonical_sign_cases": [
+    {
+      "sigma": [
+        -1,
+        -1,
+        -1
+      ],
+      "single": 23,
+      "three": 21
+    },
+    {
+      "sigma": [
+        -1,
+        -1,
+        1
+      ],
+      "single": 23,
+      "three": 23
+    },
+    {
+      "sigma": [
+        -1,
+        1,
+        -1
+      ],
+      "single": 25,
+      "three": 23
+    },
+    {
+      "sigma": [
+        -1,
+        1,
+        1
+      ],
+      "single": 25,
+      "three": 23
+    },
+    {
+      "sigma": [
+        1,
+        -1,
+        -1
+      ],
+      "single": 23,
+      "three": 23
+    },
+    {
+      "sigma": [
+        1,
+        -1,
+        1
+      ],
+      "single": 23,
+      "three": 25
+    },
+    {
+      "sigma": [
+        1,
+        1,
+        -1
+      ],
+      "single": 25,
+      "three": 23
+    },
+    {
+      "sigma": [
+        1,
+        1,
+        1
+      ],
+      "single": 25,
+      "three": 23
+    }
+  ],
+  "unitary_controls": 64,
+  "nonunitary_controls": 48,
+  "norm_negative_control": {
+    "incorrect": "1+0i / 2^1",
+    "corrected": "4+0i / 2^0"
+  },
+  "prices": {
+    "denominator": "1000000000000000000000000",
+    "two_head_room_upper": "173884954759832907604051024",
+    "two_head_repair_lower": "223225018873442394867291968",
+    "one_head_room_upper": "64213040347070986466041968",
+    "one_head_repair_lower": "112000000000000000000000000",
+    "maximal_sign_pair_gap_upper": "-45481731395120704859873824"
+  },
+  "scope": "Formal exact controls for the recovered proofs. No compressed source-word recreation, independent Python replay, completed productive caller or new kappa.",
+  "new_kappa": false
+}

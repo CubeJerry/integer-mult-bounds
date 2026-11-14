@@ -2,7 +2,7 @@
   "schema": "moonshot-005-program-state-v2-compact",
   "branch": "research/moonshot-005-program",
   "repository": "CubeJerry/integer-mult-bounds",
-  "checkpoint_baseline_sha": "5f4f9a1be068937d0e3ae1a78e81bf7f6b0a6e9d",
+  "checkpoint_baseline_sha": "cd97172df80110a4c5300ee02d26a8a34c97566c",
   "checkpoint_sha_semantics": "Parent/baseline identity; never self-referential. Resulting remote SHA is confirmed after publication and recorded in next receipt or session handoff.",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
   "upstream_last_checked_utc": "2026-11-14 15:00:44 UTC",
@@ -11,20 +11,20 @@
   "session_started_utc": "2026-11-14 06:50:01 UTC",
   "session_planned_end_utc": "2026-11-14 16:50:01 UTC",
   "requested_session_seconds": 36000,
-  "session_status": "active",
-  "session_checkpoint_utc": "2026-11-14T15:28:18.176506+00:00",
+  "session_status": "closing-final-review",
+  "session_checkpoint_utc": "2026-11-14 16:38:10 UTC",
   "background_execution": false,
-  "phase": "alternating-gaussian-target-caller-synthesis",
+  "phase": "complementary-channel-caller-synthesis",
   "target_kappa": "1/200",
   "selected_conditional_kappa": "363005817/100000000000",
   "programme_new_complete_kappa": false,
   "pr_ready": false,
-  "primary_obligation": "Construct a complete actual two-bank caller from the112-port half sources with simultaneous alternating Gaussian target interfaces. Preserve every original baseline and real stage kernel within the exact stage/query envelope. Current attempts: three-half mixed orientations with at most one full head-query bank, or a redesigned five-half word. Endpoint identities alone do not establish chronology; modular N/C gates retain their stated scopes.",
+  "primary_obligation": "Construct a complete source-bound caller from the corrected half-source channels A_s=B_s(S-I), C_s=(S+I)B_s^-1 that produces simultaneous(S Dtot x,S Dtot y), hence Gaussian jobs after paid ordinary lambda maps, within a complete positive target invoice. All original baselines, body applications, queries, ownership and precision remain charged. Extraction is open.",
   "next_actions": [
-    "Resolve the three-half mixed-orientation residual matrix with one admitted query and invertible ordinary encodings, or construct a genuinely redesigned five-half prefix.",
-    "Compose actual odd-output/even-input target adapters with a joint original-input proof. In the declared two-bank family h2 allowsm<=8 and one complete query onlym<=5; h1 allowsm<=5 with no query; body-only targets never pay.",
-    "Do not retry the fixed all-inverse coded endpoint with only ordinary or one-layer postrepair. Raw spatial routes, nonunitary fusion, partial services and changed histories remain possible mechanisms requiring full cost proofs.",
-    "Preserve the strict BIT supplier obligation and concurrent S013 acquired cubic/shared-cache work; no partial history is a completed supplier."
+    "Exploit cross-stage A_t C_s=0 in a changed role graph or polarization/interleaved-query chronology; prove the full arbitrary-input endpoint map before claiming the two-head target credit.",
+    "Use the exact short-stage envelope. Do not retry the fixed completed-map uniform-bank pre/post repairs excluded by the new induced-norm theorem; partial/heterogeneous/interstage services require their own complete bills.",
+    "Recover original unpublished late S012 source words/checkers using the recorded hashes if the workspace returns; distinguish that from the supplied new mathematical recovery and fresh JavaScript checks.",
+    "Preserve S013's live-source pentagon/cubic BIT work and its exact source pins. Both strict U>1/200 and B>1/200 remain necessary; no local interface alone supplies either."
   ],
   "active_subproblems": [
     {
@@ -74,8 +74,8 @@
     },
     {
       "id": "S012-LOGICAL-INVOLUTION-CALLER",
-      "status": "exact alternating target interface proved; complete caller synthesis open",
-      "current": "Actual three-half coded map has inverse-path rank23/21 endpoints. Signed-run theorem gives productive alternating odd/even interfaces and in-place ordinary codecs. Three/five-half redesigned chronology is active; scoped fibre, support-depth and modular-service gates retained."
+      "status": "common complementary-channel interface proved; simultaneous S extraction open",
+      "current": "Construct a complete source-bound caller from the corrected half-source channels A_s=B_s(S-I), C_s=(S+I)B_s^-1 that produces simultaneous(S Dtot x,S Dtot y), hence Gaussian jobs after paid ordinary lambda maps, within a complete positive target invoice. All original baselines, body applications, queries, ownership and precision remain charged. Extraction is open."
     }
   ],
   "verified_results": [
@@ -690,11 +690,17 @@
       "status": "proved all-stage two-bank half-source stage/query window and inherited scoped modular-service exclusion",
       "source": "results/half-caller-budget-envelope/ADMISSION.md",
       "complete_kappa": false
+    },
+    {
+      "id": "COMPLEMENTARY-CHANNELS-AND-JOINT-REPAIR-RECOVERY",
+      "status": "proved source-bound common-S complementary interface and scoped canonical/joint-repair theorems; fresh exact JS controls with authenticated published dependencies; original late Python/source artifacts unavailable",
+      "source": "results/s012-final-recovery/ADMISSION.md",
+      "complete_kappa": false
     }
   ],
   "registered_results_index": {
     "path": "REGISTERED-RESULTS.json",
-    "records": 248,
+    "records": 255,
     "scope": "Preserved classifications includingpartial,conditional,scopednegative andfinite results; no automatic promotion."
   },
   "completed_milestones": [
@@ -758,7 +764,7 @@
     "complete_complex_caller_sha256": "d9ba709fa5dcefffe3f3abdcf34600ce188224703cfd743e6db8b58ba4816cb7",
     "selected_index_sha256": "154c3d30455d778fd3343b6b4851f0fa4665f0f7625b0adb3675e2bafbbf6bf1"
   },
-  "last_verified_scientific_commit": "7ff42586f6405428990867eaf42a2924bf851308",
+  "last_verified_scientific_commit": "5f4f9a1be068937d0e3ae1a78e81bf7f6b0a6e9d",
   "last_verified_scientific_tree": "03b93f6f121331406973e171b9d160664aeb4507",
   "archived_state": {
     "path": "sessions/2026-11-13-S010/logical-records-at-cp12/STATE.json",
@@ -782,10 +788,10 @@
     },
     {
       "id": "2026-11-14-S012",
-      "status": "active",
+      "status": "closing-final-review",
       "started_utc": "2026-11-14 06:50:01 UTC",
       "planned_end_utc": "2026-11-14 16:50:01 UTC",
-      "focus": "Actual alternating Gaussian endpoint caller synthesis within exact short-stage budgets.",
+      "focus": "Common-involution extraction from complementary actual source channels, with exact joint-repair gates.",
       "local_workspace": "/workspace/scratch/82e30be26b31"
     },
     {
@@ -812,7 +818,7 @@
     "final_handoff": "sessions/2026-11-13-S010/FINAL-HANDOFF.json"
   },
   "path_semantics": "Paths relative to research/moonshot-005-program unless stated otherwise.",
-  "publication_status": "Ongoing S013 through23:21:59UTC; concurrent S012 state preserved. Eighteen reviewed S013 packages, including a live-source pentagon fork and universal canonical pair gate. No new kappa or upstream PR.",
+  "publication_status": "Ongoing programme; S012 final recovery preserves S013 checkpoint3. Published proof reconstruction and new exact JS checks are distinct from unavailable original late local packages. No new kappa or upstream PR.",
   "s011": {
     "starting_remote_sha": "628429f0ffbe2da62d411befb314e74219c6ea57",
     "requested_seconds": 36000,
@@ -863,12 +869,12 @@
   },
   "s012": {
     "id": "2026-11-14-S012",
-    "status": "active",
+    "status": "closing-final-review",
     "starting_remote_sha": "a22f6932c7a57328f92bcf7a6f373c1433ec52f8",
     "started_utc": "2026-11-14 06:50:01 UTC",
     "planned_end_utc": "2026-11-14 16:50:01 UTC",
     "requested_seconds": 36000,
-    "focus": "Actual alternating Gaussian endpoint caller synthesis within exact short-stage budgets.",
+    "focus": "Common-involution extraction from complementary actual source channels, with exact joint-repair gates.",
     "protected_allocation": "Worker C structural discovery throughout research; additional construction/bridge tracks are theorem-first.",
     "local_workspace": "/workspace/scratch/82e30be26b31",
     "initial_upstream_triage": "sessions/2026-11-14-S012/upstream/INITIAL-TRIAGE.json",
@@ -936,18 +942,19 @@
       "NONUNITARY-QUERY-DEPTH",
       "THREE-HALF-CODED-CONSTRUCTION",
       "SIGNED-CHAIN-ALTERNATING-TARGETS",
-      "TWO-BANK-HALF-CALLER-ENVELOPE"
+      "TWO-BANK-HALF-CALLER-ENVELOPE",
+      "COMPLEMENTARY-CHANNELS-AND-JOINT-REPAIR-RECOVERY"
     ],
-    "mathematical_status": "Nine reviewed source/interface/gate packages. Actual opposite-slope sources and coded three-half construction; exact alternating target decoders; rank, fibre, nonunitary-depth and all-stage budget gates. Complete chronological caller and both strict suppliers open. No new kappa.",
+    "mathematical_status": "proved source-bound common-S complementary interface and scoped canonical/joint-repair theorems; fresh exact JS controls with authenticated published dependencies; original late Python/source artifacts unavailable. No new kappa.",
     "next_actions": [
-      "Resolve the three-half mixed-orientation residual matrix with one admitted query and invertible ordinary encodings, or construct a genuinely redesigned five-half prefix.",
-      "Compose actual odd-output/even-input target adapters with a joint original-input proof. In the declared two-bank family h2 allowsm<=8 and one complete query onlym<=5; h1 allowsm<=5 with no query; body-only targets never pay.",
-      "Do not retry the fixed all-inverse coded endpoint with only ordinary or one-layer postrepair. Raw spatial routes, nonunitary fusion, partial services and changed histories remain possible mechanisms requiring full cost proofs.",
-      "Preserve the strict BIT supplier obligation and concurrent S013 acquired cubic/shared-cache work; no partial history is a completed supplier."
+      "Exploit cross-stage A_t C_s=0 in a changed role graph or polarization/interleaved-query chronology; prove the full arbitrary-input endpoint map before claiming the two-head target credit.",
+      "Use the exact short-stage envelope. Do not retry the fixed completed-map uniform-bank pre/post repairs excluded by the new induced-norm theorem; partial/heterogeneous/interstage services require their own complete bills.",
+      "Recover original unpublished late S012 source words/checkers using the recorded hashes if the workspace returns; distinguish that from the supplied new mathematical recovery and fresh JavaScript checks.",
+      "Preserve S013's live-source pentagon/cubic BIT work and its exact source pins. Both strict U>1/200 and B>1/200 remain necessary; no local interface alone supplies either."
     ],
     "checkpoint2_baseline": "9435687de849e93af4d5ed2f748a27b1ac81ce6d",
     "checkpoint2_utc": "2026-11-14T07:38:13.015226+00:00",
-    "primary_obligation": "Construct a complete actual two-bank caller from the112-port half sources with simultaneous alternating Gaussian target interfaces. Preserve every original baseline and real stage kernel within the exact stage/query envelope. Current attempts: three-half mixed orientations with at most one full head-query bank, or a redesigned five-half word. Endpoint identities alone do not establish chronology; modular N/C gates retain their stated scopes.",
+    "primary_obligation": "Construct a complete source-bound caller from the corrected half-source channels A_s=B_s(S-I), C_s=(S+I)B_s^-1 that produces simultaneous(S Dtot x,S Dtot y), hence Gaussian jobs after paid ordinary lambda maps, within a complete positive target invoice. All original baselines, body applications, queries, ownership and precision remain charged. Extraction is open.",
     "checkpoint3_baseline": "880a5ad38f77b15a1e5c7f889a0233b8c83a7ca0",
     "checkpoint3_utc": "2026-11-14T08:43:23.283861+00:00",
     "checkpoint3_confirmed_remote_sha": "db6e513c96cb8ceea10c1071b26a7db1de9fe008",
@@ -977,7 +984,10 @@
     "checkpoint11_baseline": "2e9a91a502139fdea35025950ec9bccd84d4e15c",
     "checkpoint11_utc": "2026-11-14T15:28:18.176506+00:00",
     "concurrent_s013_checkpoint2_preserved": "2e9a91a502139fdea35025950ec9bccd84d4e15c",
-    "checkpoint11_confirmed_remote_sha": "5f4f9a1be068937d0e3ae1a78e81bf7f6b0a6e9d"
+    "checkpoint11_confirmed_remote_sha": "5f4f9a1be068937d0e3ae1a78e81bf7f6b0a6e9d",
+    "checkpoint12_recovery_baseline": "cd97172df80110a4c5300ee02d26a8a34c97566c",
+    "checkpoint12_recovery_utc": "2026-11-14 16:38:10 UTC",
+    "workspace_loss": "Environment unavailable approximately16:22; GitHub connector used for durable recovery; missing original artifacts explicitly catalogued."
   },
   "latest_checkpoint_session": "2026-11-14-S013",
   "s013": {
@@ -1027,6 +1037,16 @@
     "checkpoint3_utc": "2026-11-14T16:06:29.153355+00:00",
     "latest_validation": "sessions/2026-11-14-S013/CHECKPOINT3-VALIDATION.json"
   },
-  "last_reconciled_remote_sha": "5f4f9a1be068937d0e3ae1a78e81bf7f6b0a6e9d",
-  "reconciled_concurrent_scientific_commit": "5f4f9a1be068937d0e3ae1a78e81bf7f6b0a6e9d"
+  "last_reconciled_remote_sha": "cd97172df80110a4c5300ee02d26a8a34c97566c",
+  "reconciled_concurrent_scientific_commit": "12b269a98e461ebf5e83e24cc16765540bec9626",
+  "programme_status": "ongoing",
+  "workspace_recovery": {
+    "status": "execution_environment_unavailable",
+    "observed_utc": "2026-11-14 16:22 UTC",
+    "original_checkpoint12_published": false,
+    "emergency_commit": "cd97172df80110a4c5300ee02d26a8a34c97566c",
+    "new_package": "results/s012-final-recovery/ADMISSION.md",
+    "original_artifact_status": "results/s012-final-recovery/RECOVERY-STATUS.json",
+    "fresh_controls": "results/s012-final-recovery/FRESH-CONTROLS.mjs"
+  }
 }
