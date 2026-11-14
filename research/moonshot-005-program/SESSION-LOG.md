@@ -1310,3 +1310,17 @@ paid-punctured codes/native deletion constraints; complex work pursues proper-
 chart imports and records an invalid unrestricted auxiliary-tour inference
 before any admission. Session continues toward11:19:23 UTC. The next checkpoint
 records the resulting SHA only after GitHub confirms publication.
+
+## 2026-11-14-S012 — resume and complementary active allocation
+
+Starting remote `a22f6932c7a57328f92bcf7a6f373c1433ec52f8`; canonical
+`e54523517d0f03e58352e647c403a5af3e525a57` remains unchanged. Requested
+window 06:50:01–16:50:01 UTC. S011 is concurrently active; its uncommitted
+two-bank source and complex collectors are observed as WIP, not admitted
+evidence. The three tracks are: A, a complementary continuation from the
+retained-bank handoff; B, paired acquisition/echo or clean-diagonal bridge;
+C, protected mathematics-first extension of scalar quotient obstruction to
+arbitrary entangled operator histories. Root handles independent review,
+whole-system consequences and reconciliation. Source pins and checked
+results will be integrated on the same permanent branch; no new remote
+branches or PRs. This starting checkpoint claims no new mathematics.
