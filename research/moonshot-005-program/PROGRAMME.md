@@ -13,6 +13,75 @@ There is no materialized uniform multiplier or formal-kernel acceptance here.
 The first milestone is a complete conditional target theorem with all remaining
 foundations explicit. An unconditional result must prove or bypass each one.
 
+## Protected Mathematics-First Discovery Track
+
+This standing rule supplements the cumulative roadmap; construction-specific
+next actions in STATE, CONTINUATION and the sections below must not displace it.
+
+**Guaranteed allocation.** Every substantial moonshot research session must
+include at least one active investigation seeking to discover or prove a
+genuinely new mathematical mechanism. Under the default three-track or
+three-agent model, reserve at least one track for mathematics-first discovery.
+With fewer agents, reserve a meaningful portion of research effort; record the
+planned allocation, actual effort and any justified deviation in SESSION-LOG.
+The allocation must not be silently reassigned to local kappa optimisation,
+certificate polishing, parameter tuning or implementation because these offer
+easier measurable progress. Documentation-only maintenance is not a substantial
+research session.
+
+**Architectural independence.** Ask: what new mathematical theorem, structural
+principle, representation, decomposition or algorithmic construction could make
+a substantially stronger complete integer-multiplication bound possible?
+The protected track may question or replace the supplier, decoder, recursion,
+transfer model, representation and intermediate computational architecture.
+It need not preserve the selected construction or immediately improve its cost
+certificate. Existing results provide inspiration, comparisons and constraints
+within their proved scope, not artificial limits on the search space.
+
+**Theorem-first investigation.** For each substantive investigation, record a
+precise conjecture, proposed theorem or structural question; its relevance to
+a stronger complete multiplication bound; critical proof obligations and
+potential obstructions; and an actual mathematical construction or proof attempt.
+Numerical optimisation alone does not satisfy this requirement. Distinguish
+proved results, conditional statements, plausible conjectures, experiments and
+failed approaches. Evaluate numerical kappa after a discovery when appropriate;
+immediate numerical gain must not be the sole criterion for pursuing it.
+
+**Two independent progress milestones.**
+
+- **Milestone A — Mathematical discovery:** establish a new lemma, theorem,
+  structural decomposition, impossibility result or algorithmic mechanism that
+  materially changes the available mathematical possibilities. Retain a
+  legitimate A result even without B or an improved selected certificate.
+- **Milestone B — Complete bound improvement:** integrate a mechanism into a
+  rigorously costed multiplication construction and prove a stronger complete
+  conditional or unconditional kappa. A alone is not an established kappa gain.
+
+These progress milestones complement the existing conditional-target and
+unconditional-target theorem goals; they do not replace them.
+
+**Mandatory optimisation-drift review.** At the end of every substantial session,
+the lead, with adversarial review where available, must check the actual work
+against the protected allocation and theorem-first requirements. Append to
+SESSION-LOG: the architecture-independent question investigated; the allocation
+and evidence of the construction/proof attempt; what was proved, refuted or
+remains open; whether and how it changed the mathematical research landscape;
+and the further theorem or construction needed for a complete kappa improvement.
+Explicitly assess whether this was genuine discovery work or merely relabelled
+local optimisation. Record any shortfall and the next session's corrective
+allocation. No breakthrough is an acceptable outcome: require neither successful
+theorem quotas nor fabricated progress.
+
+**Integration and safeguards.** Actively seek a route from discovery to explicit
+computational models, interfaces, complexity analyses and complete asymptotic
+bounds for integer multiplication. Alternative intermediate models require a
+justified, fully costed connection to the programme's computational model.
+Retain rigorous verification, adversarial review, full cost accounting, explicit
+assumptions, honest conditional/unconditional classification and all existing
+publication gates. This protection permits substantive mathematical exploration,
+not unsupported speculation. Keep one permanent branch, the cumulative evidence
+and roadmap, and the unchanged kappa = 0.005 target.
+
 ## The evolving construction
 
 The architecture shares one common native execution across fixed independent
