@@ -1440,3 +1440,14 @@ Next: review actual76-wing >8V certificate and complex correction-rank theorem; 
 Session start3dc8e992ef59f4b8db1c173263a646b618ecf1e1; checkpoint baseline46ccd1acf5294fa161824d12ef4681b8c22b6712. The exact remote head was rechecked and unchanged. Admitted the actual-wing strict eight-mode obstruction, all-field161V/19 fractional gap with exact characteristic-two widths1,2, and universal/canonical/restricted Eisenstein correction-rank bounds4V/6V/8V. Six fresh cloud executions matched receipts; independent proof and source checks are retained. All predecessor scientific records remain. No new kappa or PR.
 
 The next constructive step is the proposed nine-target pentagon piggyback word, which must acquire fresh coefficients before source paths disappear. A common-A complex interface is also being built with every head/body operation retained. Stronger two-star wing and degree-four rigidity packages await independent admission. Requested ten-hour session remains active. The resulting commit SHA is confirmed after publication and recorded separately; it is not embedded self-referentially.
+
+
+## 2026-11-14-S013 checkpoint7 (2026-11-14 18:19:30 UTC)
+
+Session start3dc8e992ef59f4b8db1c173263a646b618ecf1e1; checkpoint parentd7db0beb74828c7bc27b305b526db62355439048. Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; a targeted PR query for updates since16:58UTC returned zero items.
+
+New mathematics: actual acquired payloads let the same two descending lifetimes execute two successive forks; an off-D chart supplies the missing old-input correction. Eight-target nested and nine-target staircase alternatives have independent all222-column, real-chart, dirty-owner and exact-price reviews. They do not complete the other103/102 targets. The same local third-fork template fails its specific fresh-line requirement at a rank2 chart; changed handoffs remain open.
+
+The complex control now has common A with A^3=Z,A^6=I, paid rank-one cyclic conjugacy, both baseline slopes and a precise three-half/four-role head-circuit obligation. Its complete raw body/query budget is favorable only if that circuit is synthesized. Structural progress proves the sharp minimum-degree-four saturated-star theorem and44V/5 wing bound; commuting and small common-flag blocks cannot beat9V.
+
+All four packages have separate proof reviews and independent exact checks.47 new scientific files are hashed; all4273 prior records and historical qualifications remain. No new kappa, complete supplier or PR. Next: finite head synthesis and global BIT history composition, with the noncommuting wing gap as a distinct structural question. The ten-hour session remains active. Resulting commit identity will be confirmed separately after leased publication.

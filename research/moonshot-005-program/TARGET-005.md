@@ -467,3 +467,12 @@ The complex Eisenstein form has rank4 for every section, but ninety edge-disjoin
 The 76-wing fitting restriction alone costs at least ceil(161V/19) dimensions over every field; its characteristic-two minimum is exactly 9V for V=1,2. The all-width minimum 9V is still open at this checkpoint. These are static fitting constraints and cannot be substituted for a number of packet lifetimes or a movement price.
 
 For an unchanged rank-four Eisenstein base with correction diagonal zero, added correction rank is at least 4V in every section, at least 6V in the canonical section, and 8V in the restricted canonical ambient bilinear model. A rank-four correction after halving the base is not a counterexample: it changes the diagonal contract. Productive corrections, acquisition, transport and recursion still require complete cost accounting. The strict supplier inequalities above are unchanged.
+
+
+## S013 checkpoint7: two concrete interfaces and their complete raw budgets
+
+The nested BIT partial source closes at Q=31[1]+5[2]+11[3]+3[5]+3[6]+209[7]. At t=199/200 its moment is1555.338556984570100653389065498788... . The retained limiting paired-caller allowance is1621.750880211152355246246150366994... . Seven further bare full routes leave only10.991550467330668... before every missing source-route fragment and continuation expense; eight leave3.074297216009013... . No decoder for the other103 targets is supplied. Proper births and different interfaces need their own accounting. The nine-target alternative has a distinct profile and cannot be added to this credit.
+
+The complex common-A reduction requires a four-role head circuit with three native halves and at most one rank-one Gaussian query. With six paid rank7 body idles it would yield target4[23], paid4[1]+9[7]+3[8], and raw margin0.42714950027086134784839... at the target exponent. A rank-two query already makes this specific budget negative. The head circuit, full supplier admission and ordinary/compiler/precision/recursive obligations are open; this favorable arithmetic is only a conditional design test.
+
+For the actual76-wing graph, rank>=44V/5 is now proved. Widths1-4 and all common-flag modules with quotient widths<=4 need9V. A fractional improvement cannot be a larger scalar field or a commuting-block lift. No general9V theorem or width-five fitting is claimed. All strict supplier inequalities at the start of this document are unchanged.

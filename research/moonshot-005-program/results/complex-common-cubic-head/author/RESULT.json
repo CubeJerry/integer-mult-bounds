@@ -1,0 +1,105 @@
+{
+  "status": "PASS_EXACT_COMMON_CUBIC_CONTROL",
+  "source": {
+    "commit": "83f65d544b43608eade0658083048ce0b615a933",
+    "path": "research/moonshot-005-program/results/quadratic-sign-query-gate/author/PROOF.md",
+    "git_blob": "8cddb0aff69b91ae648422f2cd5e77a12883ebe7",
+    "section": 1
+  },
+  "group": {
+    "size": 192,
+    "ordinary_permutation_translation_subgroup": 24,
+    "representation": "D_u P with u in (Z/4)^3 of even coordinate sum; permutation of three nonzero two-bit Walsh frequencies",
+    "A": {
+      "u": [
+        0,
+        3,
+        3
+      ],
+      "p": 4
+    },
+    "P": {
+      "u": [
+        0,
+        0,
+        0
+      ],
+      "p": 4
+    },
+    "Z": {
+      "u": [
+        2,
+        2,
+        2
+      ],
+      "p": 0
+    },
+    "U": {
+      "u": [
+        1,
+        3,
+        2
+      ],
+      "p": 0
+    }
+  },
+  "literal_source": {
+    "events": 8,
+    "moves": 6,
+    "adds": 2,
+    "owners": 0,
+    "move_profile": {
+      "1": 2,
+      "7": 2,
+      "8": 2
+    },
+    "new_ordinary_permutations": 4
+  },
+  "common_source": "F A^-1 diag(L(A),U(-A^-1))",
+  "inverse_positive_body": "F A diag(L(A),U(-A^-1)) after literal inversion, ordinary F^2, and two destination sign conjugations",
+  "A_power_gaussian_ranks": [
+    0,
+    1,
+    2,
+    2,
+    2,
+    1
+  ],
+  "hilbert90": "A^2=U P^2 U^-1; A=U (Z P) U^-1; U=Q_b^2 Q_c is a PAID rank-one Gaussian up to an ordinary translation",
+  "controls": {
+    "raw_four_column_identity": true,
+    "common_coupling": true,
+    "both_inverse_compositions": true,
+    "missing_post_permutation_rejected": true,
+    "wrong_order_two_permutation_rejected": true,
+    "missing_Hilbert90_translation_rejected": true
+  },
+  "conditional_four_role_invoice": {
+    "native_halves": 3,
+    "rank7_idles": 6,
+    "desired_targets": {
+      "23": 4
+    },
+    "unconstructed": true,
+    "scale": "1000000000000000000000000000000",
+    "native_half_interval": [
+      "15849476648718974701667542723684",
+      "15849476648718974701667542723687"
+    ],
+    "room_before_queries": [
+      "1427149500270861347848394899301",
+      "1427149500270861347848394899320"
+    ],
+    "room_after_one_rank1": [
+      "427149500270861347848394899300",
+      "427149500270861347848394899320"
+    ],
+    "room_after_one_rank2": [
+      "-565931025384874320609569587775",
+      "-565931025384874320609569587755"
+    ]
+  },
+  "full120_linkage": "Not asserted or needed: this theorem starts from the committed canonical eight-event control.",
+  "complete_caller": false,
+  "new_kappa": false
+}

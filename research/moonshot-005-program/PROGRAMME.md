@@ -468,3 +468,12 @@ The native 76-wing problem has an all-field, all-width fitting lower bound rank(
 Repairing the unchanged rank-four Eisenstein form with zero correction diagonal requires added rank at least 4V for every section. In the canonical section the lower bound is 6V; restricting the correction to the eight-coordinate ambient bilinear model forces rank 8V. Rescaling the base changes this contract and remains a separate alternative. None of these ranks are physical MOVE counts.
 
 The positive task remains a chronological source. A decoder-aligned piggyback extension of the live pentagon is under construction; its new source coefficients must enter before original paths are lost. A common-coupling complex caller must retain every head and body operation. No complete supplier or new kappa follows from these lower bounds.
+
+
+## S013 checkpoint7: actual nested reuse and a finite complex caller obligation
+
+The BIT construction now contains a genuine second fork using the same two descending packet lifetimes. Fresh payloads were acquired on original source ascents, and a rank4 correction chart outside the common rank5 space lets X55 supply a later decoder without a new descending helper. One literal word completes eight targets; an alternative staircase word completes nine. Both preserve unserved inputs in their live forms and have independently verified closed partial rank length1570. Their savings are alternatives. The remaining103/102 targets need a global code; local repetition cannot meet the target packet cap.
+
+The complex source has an exact common head A with A^3=Z and A^6=I. A paid rank-one conjugacy exposes its order-three part. A specific four-role head circuit using three actual half calls and at most one rank-one query would fit the raw4[23] versus4[1]+9[7]+3[8] budget. This is now a concrete missing synthesis problem, not a constructed supplier. Every body idle, head power and ordinary adapter remains visible.
+
+The structural wing bound improves to44V/5 over every field, with exact characteristic-two minimum9V at widths1-4. Commuting blocks cannot improve9V; a surviving fractional code needs an irreducible quotient of width at least5. The sharp abstract degree-four saturated-star theorem explains the equality mechanism. These constraints guide construction but do not replace it. No new complete kappa; all five foundations remain.

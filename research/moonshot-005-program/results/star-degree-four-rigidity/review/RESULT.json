@@ -1,0 +1,23 @@
+{
+  "status": "PASS_INDEPENDENT_DEGREE_FOUR_EQUALITY_CONTROLS",
+  "idempotent_check": {
+    "field": 5,
+    "dimension": 2,
+    "matrices": 625,
+    "idempotents": 32
+  },
+  "positive_control": {
+    "graph": "K5",
+    "minimum_degree": 4,
+    "width": 2,
+    "field": 5,
+    "rank": 12,
+    "expected_rank": 12,
+    "noncommuting_vertex_gauges": true,
+    "forced_zero_blocks": 140,
+    "all_intrinsic_S": "-I"
+  },
+  "negative_control": "nonzero nilpotent [[0,1],[0,0]] has rank1 plus complement rank2, so does not meet the idempotent equality",
+  "universal_status": "written proof independently reviewed; finite controls are supplementary",
+  "no_new_kappa": true
+}

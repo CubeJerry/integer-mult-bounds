@@ -426,3 +426,12 @@ The complex Eisenstein form has rank4 for every section, but ninety edge-disjoin
 ## S013 checkpoint6 contribution
 
 Three linked proof packages establish an actual 76-wing obstruction to eight-mode fittings, the stronger all-field lower bound 161V/19 with exact characteristic-two widths one and two, and rank costs for correcting the forty-line Eisenstein form. The latter distinguishes a universal 4V lower bound, a canonical 6V minor and restricted ambient 8V rigidity. Independent exact source reconstructions, adversarial controls and all-width arguments are included. Formal relaxation equality points are explicitly not matrix constructions. All source, caller, recursive and foundational obligations remain. **No new kappa; the cumulative programme is not submitted.**
+
+
+## S013 checkpoint7: acquired-payload chronology and a common cubic head
+
+The programme now proves actual second-fork reuse with two Hub-born descending lifetimes. A decoder-aligned rank4 chart supplies the missing old input on its original ascent. Separate eight- and nine-target words retain all222 arbitrary input columns, original-y masks, dirty ownership endpoints, exact closed invoices and live-source continuation states. These are partial alternatives, not an assembled111-target supplier.
+
+A complementary complex package constructs one common order-six head A, its paid rank-one cyclic conjugacy, both source orientations and a precise four-role sufficient circuit obligation. The raw invoice has a positive target margin if that circuit exists; it has not been synthesized. Structural support includes the sharp degree-four saturated-star theorem and the stronger44V/5 native-wing bound, including a noncommuting-width requirement for any fractional improvement.
+
+Independent exact implementations and proof reviews are linked in each admission. Source pins, predecessor and @CubeJerry credit, AI-assistance disclosure, reproducible functions and destructive controls are preserved. **No new kappa. The cumulative programme remains unfinished and no PR is submitted.**

@@ -365,3 +365,12 @@ Five fresh cloud executions reproduced the exact receipts: rank4 author and inde
 At 2026-11-14 17:52:41 UTC, six fresh cloud mathematical executions reproduced all frozen author and independent-review receipts. The new 27-role wing obstruction has both root and adversary text review; the augmented-star proof includes a root-supplied exact LR equality point and an independent weighted-coefficient audit. The correction proof has independent exact dual-pencil, forced-minor and ambient-kernel checks. Status and scopes are in the three admissions. No all-width9V wing lower bound, physical movement lower bound, complete supplier or new kappa is claimed.
 
 Registry262; scientific ledger4273;30 new scientific files; all4243 predecessor records and both qualified historical absences retained unchanged. See sessions/2026-11-14-S013/CHECKPOINT6-VALIDATION.json. The predecessor publication receipt records verified remote commit46ccd1acf5294fa161824d12ef4681b8c22b6712. Candidate readback and leased remote confirmation follow commit creation.
+
+
+## S013 checkpoint7
+
+Four packages were independently reviewed and checked: degree-four star rigidity;44V/5 wing fitting; common cubic-head interface; acquired-payload fork composition. Root checks use different exact representations: field-five noncommuting gauges, independent native signature/inequality reconstruction, actual four-frequency monomial group algebra, and rational reduced chart bases with all222 original columns. Written universal proofs and finite controls are distinguished in each review.
+
+Both payload alternatives have live and closed variants. Four full replays, original-y and cache deletion controls, all dirty retirement endpoints and the scoped rank2 third-chart obstruction are verified. Price decisions use independent bisection integer roots; author functions and finer receipts also match. The complex head circuit is unconstructed; the V5 wing relaxation is not a fitting. No local Node wrapper, fresh gzip source or unavailable global verifier is represented as executed.
+
+New scientific files47; registered results266; ledger4320. All4273 predecessor entries and both qualified historical absences are preserved. Source pins and detailed statuses are in sessions/2026-11-14-S013/CHECKPOINT7-VALIDATION.json and each manifest. The preceding publication receipt confirms d7db0beb74828c7bc27b305b526db62355439048. Candidate readback and leased confirmation follow separately.

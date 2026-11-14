@@ -1,0 +1,29 @@
+function checkPayloadFork(word, geometry, options={}) {
+ const R=geometry.native_roots,n=111,charts=word.charts,ops=word.operations;
+ const gcd=(a,b)=>{a=a<0n?-a:a;b=b<0n?-b:b;while(b){const c=a%b;a=b;b=c;}return a;};
+ const rank=M=>{M=M.map(r=>r.map(BigInt));let z=0;for(let c=0;c<8&&z<M.length;c++){let p=z;while(p<M.length&&!M[p][c])p++;if(p===M.length)continue;[M[p],M[z]]=[M[z],M[p]];for(let i=z+1;i<M.length;i++)if(M[i][c]){let a=M[z][c],b=M[i][c];for(let j=c;j<8;j++)M[i][j]=a*M[i][j]-b*M[z][j];let g=0n;for(const x of M[i])g=gcd(g,x);if(g>1n)M[i]=M[i].map(x=>x/g);}z++;}return z;};
+ const rank2=rows=>{const p=new Map();for(let x of rows){while(x){let k=x.toString(2).length-1;if(p.has(k))x^=p.get(k);else{p.set(k,x);break;}}}return p.size;};
+ const dot=(a,b)=>a.reduce((s,x,k)=>s+BigInt(x)*BigInt(b[k]),0n);
+ const dims={};for(const [id,c] of Object.entries(charts)){for(const row of c.rows)if(row.length!==8||row.some(x=>!Number.isSafeInteger(x)))throw Error("invalid chart");dims[id]=c.kind==="span"?rank(c.rows):8-rank(c.rows);if(c.source_expressions&&JSON.stringify(c.rows)!==JSON.stringify(c.source_expressions.map(ex=>Array.from({length:8},(_,k)=>ex.reduce((s,[i,v])=>s+v*R[i][k],0)))))throw Error("expression source mismatch");if(c.normal_roles&&JSON.stringify(c.rows)!==JSON.stringify(c.normal_roles.map(i=>R[i])))throw Error("normal source mismatch");if(c.source_roles&&JSON.stringify(c.rows)!==JSON.stringify(c.source_roles.map(i=>R[i])))throw Error("span source mismatch");}
+ const subset=(a,b)=>{a=charts[a];b=charts[b];if(a.kind==="span"&&b.kind==="span")return rank([...a.rows,...b.rows])===rank(b.rows);if(a.kind==="span"&&b.kind==="ann")return a.rows.every(x=>b.rows.every(y=>dot(x,y)===0n));if(a.kind==="ann"&&b.kind==="ann")return rank([...a.rows,...b.rows])===rank(a.rows);if(a.kind==="ann"&&b.kind==="span"&&!b.rows.length)return rank(a.rows)===8;throw Error("unsupported inclusion");};
+ const rec={},counts={},profile={},paths={P:[],Q:[]},carried=[],xmask=(1n<<111n)-1n;let live=0,peak=0;const retired=[];
+ for(let i=0;i<n;i++){rec["X"+i]={chart:"L"+i,value:1n<<BigInt(i),owned:false};rec["Y"+i]={chart:"zero",value:1n<<BigInt(n+i),owned:false};}
+ let frontier=null; const markerSnapshots={};
+ for(let index=0;index<ops.length;index++){
+  const op=ops[index],[name,a,b]=op;counts[name]=(counts[name]||0)+1;
+  if(name==="INIT"){if(rec[a])throw Error("duplicate role");if(!charts[b])throw Error("missing chart");rec[a]={chart:b,value:0n,owned:true};live++;peak=Math.max(peak,live);if(a==="P"||a==="Q"){for(const i of word.targets)if(rec["X"+i].chart!=="Hub"||rec["X"+i].value!==(1n<<BigInt(i)))throw Error("X not restored before packet");paths[a].push(dims[b]);}}
+  else if(name==="MOVE"){const u=rec[a];if(!u||!charts[b])throw Error("missing move role/chart");const from=u.chart,ok=u.owned?subset(b,from):subset(from,b);if(!ok)throw Error("illegal nested move "+index+" "+a+" "+from+" "+b);const d=Math.abs(dims[from]-dims[b]);if(!d)throw Error("zero rank move");profile[d]=(profile[d]||0)+1;u.chart=b;if(a==="P"||a==="Q")paths[a].push(dims[b]);}
+  else if(name==="ADD"){if(!rec[a]||!rec[b]||a===b||rec[a].chart!==rec[b].chart)throw Error("unavailable ADD "+index+" "+a+" "+b);rec[b].value^=rec[a].value;}
+  else if(name==="CLEAR"){if(!rec[a]?.owned)throw Error("invalid clear");retired.push({role:a,chart:rec[a].chart,value:rec[a].value.toString(16)});delete rec[a];live--;}
+  else throw Error("unknown operation");
+  for(const pkt of ["P","Q"])if(rec[pkt]&&rec[pkt].chart!=="Hub")carried.push(rec[pkt].value&xmask);
+  for(const [label,count]of Object.entries(word.markers||{}))if(index+1===count)markerSnapshots[label]={after_operation:index+1,records:Object.fromEntries(Object.entries(rec).filter(([id,v])=>v.owned||word.targets.some(i=>id==="X"+i||id==="Y"+i)).map(([id,v])=>[id,{chart:v.chart,value:v.value.toString(16)}])),profile:{...profile},counts:{...counts},carried_x_rank:rank2(carried)};if(index+1<ops.length&&JSON.stringify(ops[index+1])===JSON.stringify(["MOVE","P","A1"])){frontier={after_operation:index+1,records:Object.fromEntries(Object.entries(rec).filter(([id,v])=>v.owned||word.targets.some(i=>id==="X"+i||id==="Y"+i)).map(([id,v])=>[id,{chart:v.chart,value:v.value.toString(16)}])),profile:{...profile},counts:{...counts},carried_x_rank:rank2(carried)};}
+ }
+ if(!options.partial){
+ if(live)throw Error("owners remain");
+ for(let i=0;i<n;i++){const served=word.targets.includes(i),xi=rec["X"+i],yi=rec["Y"+i];if(xi.value!==(1n<<BigInt(i)))throw Error("X value "+i);if(yi.value!==((1n<<BigInt(n+i))^(served?1n<<BigInt(i):0n)))throw Error("Y value "+i);if(xi.chart!==((served||word.closed_partial)?"Hub":"L"+i))throw Error("X chart "+i);if(yi.chart!==((served||word.closed_partial)?"F"+i:"zero"))throw Error("Y chart "+i);}
+ }
+ return {status:"PASS",all_original_input_columns:222,served_targets:word.targets,closed_partial:word.closed_partial,counts,movement_profile:profile,rank_length:Object.entries(profile).reduce((s,[r,c])=>s+Number(r)*c,0),owned_peak:peak,retirements:retired,packet_rank_paths:paths,carried_x_rank:rank2(carried),initial_packet_x_rank:2,frontier,markerSnapshots,final_owned:live,chart_ranks:Object.fromEntries(Object.entries(dims).filter(([id])=>!/^L\d+$|^F\d+$/.test(id)))};
+}
+
+if(typeof module!=="undefined")module.exports={checkPayloadFork};

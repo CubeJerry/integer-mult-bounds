@@ -1,0 +1,1394 @@
+{
+  "status": "PASS_INDEPENDENT_PIGGYBACK_PACKAGE",
+  "runs": {
+    "nested_live": {
+      "status": "PASS_INDEPENDENT_EXACT_NESTED_FORK_REPLAY",
+      "field_columns": 222,
+      "targets": [
+        1,
+        18,
+        23,
+        36,
+        38,
+        54,
+        55,
+        92
+      ],
+      "closed_partial": false,
+      "operations": 153,
+      "counts": {
+        "INIT": 14,
+        "MOVE": 56,
+        "ADD": 69,
+        "CLEAR": 14
+      },
+      "profile": {
+        "1": 31,
+        "2": 5,
+        "3": 11,
+        "5": 3,
+        "6": 3,
+        "7": 3
+      },
+      "rank_length": 128,
+      "peak_owners": 14,
+      "retirements": [
+        {
+          "role": "H",
+          "chart": "F92",
+          "rank": 7,
+          "dirty": true,
+          "value": "1000000000c0005000000000",
+          "birth": 0,
+          "birth_chart": "F92",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "W",
+          "chart": "F92",
+          "rank": 7,
+          "dirty": true,
+          "value": "80001000840002",
+          "birth": 1,
+          "birth_chart": "F92",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "p",
+          "chart": "D",
+          "rank": 5,
+          "dirty": true,
+          "value": "840002",
+          "birth": 2,
+          "birth_chart": "D",
+          "path": [
+            5
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S1",
+          "chart": "E_A",
+          "rank": 6,
+          "dirty": true,
+          "value": "40004000840002",
+          "birth": 3,
+          "birth_chart": "E_A",
+          "path": [
+            6
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S4",
+          "chart": "E_B",
+          "rank": 6,
+          "dirty": true,
+          "value": "40004000840002",
+          "birth": 4,
+          "birth_chart": "E_B",
+          "path": [
+            6
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S3",
+          "chart": "F54",
+          "rank": 7,
+          "dirty": true,
+          "value": "4000000000",
+          "birth": 5,
+          "birth_chart": "F54",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S2",
+          "chart": "F38",
+          "rank": 7,
+          "dirty": true,
+          "value": "40000000000000",
+          "birth": 6,
+          "birth_chart": "F38",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "P",
+          "chart": "zero",
+          "rank": 0,
+          "dirty": true,
+          "value": "800000",
+          "birth": 62,
+          "birth_chart": "Hub",
+          "path": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            0
+          ],
+          "moves": 6
+        },
+        {
+          "role": "Q",
+          "chart": "zero",
+          "rank": 0,
+          "dirty": true,
+          "value": "40000",
+          "birth": 63,
+          "birth_chart": "Hub",
+          "path": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            0
+          ],
+          "moves": 6
+        },
+        {
+          "role": "NH",
+          "chart": "N0",
+          "rank": 4,
+          "dirty": true,
+          "value": "80001000840002",
+          "birth": 7,
+          "birth_chart": "N0",
+          "path": [
+            4
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS1",
+          "chart": "N02",
+          "rank": 3,
+          "dirty": true,
+          "value": "80000000000002",
+          "birth": 8,
+          "birth_chart": "N02",
+          "path": [
+            3
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS4",
+          "chart": "N03",
+          "rank": 3,
+          "dirty": true,
+          "value": "80000000000002",
+          "birth": 9,
+          "birth_chart": "N03",
+          "path": [
+            3
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS3",
+          "chart": "N2",
+          "rank": 4,
+          "dirty": true,
+          "value": "2",
+          "birth": 10,
+          "birth_chart": "N2",
+          "path": [
+            4
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS2",
+          "chart": "G3",
+          "rank": 4,
+          "dirty": true,
+          "value": "80000000000000",
+          "birth": 11,
+          "birth_chart": "G3",
+          "path": [
+            4
+          ],
+          "moves": 0
+        }
+      ],
+      "packet_paths": {
+        "P": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          0
+        ],
+        "Q": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          0
+        ]
+      },
+      "X_projection_history_rank": 6,
+      "packets_always_pure_X": true,
+      "snapshots": {
+        "first_fork_complete": {
+          "after": 99,
+          "completed": [
+            38,
+            54,
+            92
+          ],
+          "packet_values": {
+            "P": "1000840000",
+            "Q": "80000000000002"
+          },
+          "live_owners": [
+            {
+              "name": "H",
+              "chart": "F92",
+              "value": "1000000000c0005000000000"
+            },
+            {
+              "name": "W",
+              "chart": "F92",
+              "value": "80001000840002"
+            },
+            {
+              "name": "p",
+              "chart": "D",
+              "value": "840002"
+            },
+            {
+              "name": "S1",
+              "chart": "E_A",
+              "value": "40004000840002"
+            },
+            {
+              "name": "S4",
+              "chart": "E_B",
+              "value": "40004000840002"
+            },
+            {
+              "name": "S3",
+              "chart": "F54",
+              "value": "4000000000"
+            },
+            {
+              "name": "S2",
+              "chart": "F38",
+              "value": "40000000000000"
+            },
+            {
+              "name": "NH",
+              "chart": "N0",
+              "value": "0"
+            },
+            {
+              "name": "NS1",
+              "chart": "N02",
+              "value": "800000"
+            },
+            {
+              "name": "NS4",
+              "chart": "N03",
+              "value": "40000"
+            },
+            {
+              "name": "NS3",
+              "chart": "N2",
+              "value": "2"
+            },
+            {
+              "name": "NS2",
+              "chart": "G3",
+              "value": "80000000000000"
+            },
+            {
+              "name": "P",
+              "chart": "E_A",
+              "value": "1000840000"
+            },
+            {
+              "name": "Q",
+              "chart": "E_B",
+              "value": "80000000000002"
+            }
+          ],
+          "history_rank": 4
+        },
+        "common_rank5": {
+          "after": 108,
+          "completed": [
+            38,
+            54,
+            92
+          ],
+          "packet_values": {
+            "P": "1000840000",
+            "Q": "80000000000002"
+          },
+          "live_owners": [
+            {
+              "name": "NH",
+              "chart": "N0",
+              "value": "0"
+            },
+            {
+              "name": "NS1",
+              "chart": "N02",
+              "value": "800000"
+            },
+            {
+              "name": "NS4",
+              "chart": "N03",
+              "value": "40000"
+            },
+            {
+              "name": "NS3",
+              "chart": "N2",
+              "value": "2"
+            },
+            {
+              "name": "NS2",
+              "chart": "G3",
+              "value": "80000000000000"
+            },
+            {
+              "name": "P",
+              "chart": "D",
+              "value": "1000840000"
+            },
+            {
+              "name": "Q",
+              "chart": "D",
+              "value": "80000000000002"
+            }
+          ],
+          "history_rank": 4
+        },
+        "second_fork_complete": {
+          "after": 146,
+          "completed": [
+            1,
+            18,
+            23,
+            36,
+            38,
+            54,
+            55,
+            92
+          ],
+          "packet_values": {
+            "P": "800000",
+            "Q": "40000"
+          },
+          "live_owners": [
+            {
+              "name": "NH",
+              "chart": "N0",
+              "value": "80001000840002"
+            },
+            {
+              "name": "NS1",
+              "chart": "N02",
+              "value": "80000000000002"
+            },
+            {
+              "name": "NS4",
+              "chart": "N03",
+              "value": "80000000000002"
+            },
+            {
+              "name": "NS3",
+              "chart": "N2",
+              "value": "2"
+            },
+            {
+              "name": "NS2",
+              "chart": "G3",
+              "value": "80000000000000"
+            },
+            {
+              "name": "P",
+              "chart": "zero",
+              "value": "800000"
+            },
+            {
+              "name": "Q",
+              "chart": "zero",
+              "value": "40000"
+            }
+          ],
+          "history_rank": 6
+        }
+      },
+      "exact_chart_method": "rational reduced row bases and nullspaces",
+      "untouched_original_pairs": 103,
+      "all_owners_retired": true,
+      "dirty_erasure_foundation_retained": true,
+      "no_new_kappa": true
+    },
+    "nested_closed": {
+      "status": "PASS_INDEPENDENT_EXACT_NESTED_FORK_REPLAY",
+      "field_columns": 222,
+      "targets": [
+        1,
+        18,
+        23,
+        36,
+        38,
+        54,
+        55,
+        92
+      ],
+      "closed_partial": true,
+      "operations": 359,
+      "counts": {
+        "INIT": 14,
+        "MOVE": 262,
+        "ADD": 69,
+        "CLEAR": 14
+      },
+      "profile": {
+        "1": 31,
+        "2": 5,
+        "3": 11,
+        "5": 3,
+        "6": 3,
+        "7": 209
+      },
+      "rank_length": 1570,
+      "peak_owners": 14,
+      "retirements": [
+        {
+          "role": "H",
+          "chart": "F92",
+          "rank": 7,
+          "dirty": true,
+          "value": "1000000000c0005000000000",
+          "birth": 0,
+          "birth_chart": "F92",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "W",
+          "chart": "F92",
+          "rank": 7,
+          "dirty": true,
+          "value": "80001000840002",
+          "birth": 1,
+          "birth_chart": "F92",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "p",
+          "chart": "D",
+          "rank": 5,
+          "dirty": true,
+          "value": "840002",
+          "birth": 2,
+          "birth_chart": "D",
+          "path": [
+            5
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S1",
+          "chart": "E_A",
+          "rank": 6,
+          "dirty": true,
+          "value": "40004000840002",
+          "birth": 3,
+          "birth_chart": "E_A",
+          "path": [
+            6
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S4",
+          "chart": "E_B",
+          "rank": 6,
+          "dirty": true,
+          "value": "40004000840002",
+          "birth": 4,
+          "birth_chart": "E_B",
+          "path": [
+            6
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S3",
+          "chart": "F54",
+          "rank": 7,
+          "dirty": true,
+          "value": "4000000000",
+          "birth": 5,
+          "birth_chart": "F54",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S2",
+          "chart": "F38",
+          "rank": 7,
+          "dirty": true,
+          "value": "40000000000000",
+          "birth": 6,
+          "birth_chart": "F38",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "P",
+          "chart": "zero",
+          "rank": 0,
+          "dirty": true,
+          "value": "800000",
+          "birth": 62,
+          "birth_chart": "Hub",
+          "path": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            0
+          ],
+          "moves": 6
+        },
+        {
+          "role": "Q",
+          "chart": "zero",
+          "rank": 0,
+          "dirty": true,
+          "value": "40000",
+          "birth": 63,
+          "birth_chart": "Hub",
+          "path": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            0
+          ],
+          "moves": 6
+        },
+        {
+          "role": "NH",
+          "chart": "N0",
+          "rank": 4,
+          "dirty": true,
+          "value": "80001000840002",
+          "birth": 7,
+          "birth_chart": "N0",
+          "path": [
+            4
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS1",
+          "chart": "N02",
+          "rank": 3,
+          "dirty": true,
+          "value": "80000000000002",
+          "birth": 8,
+          "birth_chart": "N02",
+          "path": [
+            3
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS4",
+          "chart": "N03",
+          "rank": 3,
+          "dirty": true,
+          "value": "80000000000002",
+          "birth": 9,
+          "birth_chart": "N03",
+          "path": [
+            3
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS3",
+          "chart": "N2",
+          "rank": 4,
+          "dirty": true,
+          "value": "2",
+          "birth": 10,
+          "birth_chart": "N2",
+          "path": [
+            4
+          ],
+          "moves": 0
+        },
+        {
+          "role": "NS2",
+          "chart": "G3",
+          "rank": 4,
+          "dirty": true,
+          "value": "80000000000000",
+          "birth": 11,
+          "birth_chart": "G3",
+          "path": [
+            4
+          ],
+          "moves": 0
+        }
+      ],
+      "packet_paths": {
+        "P": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          0
+        ],
+        "Q": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          0
+        ]
+      },
+      "X_projection_history_rank": 6,
+      "packets_always_pure_X": true,
+      "snapshots": {
+        "first_fork_complete": {
+          "after": 99,
+          "completed": [
+            38,
+            54,
+            92
+          ],
+          "packet_values": {
+            "P": "1000840000",
+            "Q": "80000000000002"
+          },
+          "live_owners": [
+            {
+              "name": "H",
+              "chart": "F92",
+              "value": "1000000000c0005000000000"
+            },
+            {
+              "name": "W",
+              "chart": "F92",
+              "value": "80001000840002"
+            },
+            {
+              "name": "p",
+              "chart": "D",
+              "value": "840002"
+            },
+            {
+              "name": "S1",
+              "chart": "E_A",
+              "value": "40004000840002"
+            },
+            {
+              "name": "S4",
+              "chart": "E_B",
+              "value": "40004000840002"
+            },
+            {
+              "name": "S3",
+              "chart": "F54",
+              "value": "4000000000"
+            },
+            {
+              "name": "S2",
+              "chart": "F38",
+              "value": "40000000000000"
+            },
+            {
+              "name": "NH",
+              "chart": "N0",
+              "value": "0"
+            },
+            {
+              "name": "NS1",
+              "chart": "N02",
+              "value": "800000"
+            },
+            {
+              "name": "NS4",
+              "chart": "N03",
+              "value": "40000"
+            },
+            {
+              "name": "NS3",
+              "chart": "N2",
+              "value": "2"
+            },
+            {
+              "name": "NS2",
+              "chart": "G3",
+              "value": "80000000000000"
+            },
+            {
+              "name": "P",
+              "chart": "E_A",
+              "value": "1000840000"
+            },
+            {
+              "name": "Q",
+              "chart": "E_B",
+              "value": "80000000000002"
+            }
+          ],
+          "history_rank": 4
+        },
+        "common_rank5": {
+          "after": 108,
+          "completed": [
+            38,
+            54,
+            92
+          ],
+          "packet_values": {
+            "P": "1000840000",
+            "Q": "80000000000002"
+          },
+          "live_owners": [
+            {
+              "name": "NH",
+              "chart": "N0",
+              "value": "0"
+            },
+            {
+              "name": "NS1",
+              "chart": "N02",
+              "value": "800000"
+            },
+            {
+              "name": "NS4",
+              "chart": "N03",
+              "value": "40000"
+            },
+            {
+              "name": "NS3",
+              "chart": "N2",
+              "value": "2"
+            },
+            {
+              "name": "NS2",
+              "chart": "G3",
+              "value": "80000000000000"
+            },
+            {
+              "name": "P",
+              "chart": "D",
+              "value": "1000840000"
+            },
+            {
+              "name": "Q",
+              "chart": "D",
+              "value": "80000000000002"
+            }
+          ],
+          "history_rank": 4
+        },
+        "second_fork_complete": {
+          "after": 146,
+          "completed": [
+            1,
+            18,
+            23,
+            36,
+            38,
+            54,
+            55,
+            92
+          ],
+          "packet_values": {
+            "P": "800000",
+            "Q": "40000"
+          },
+          "live_owners": [
+            {
+              "name": "NH",
+              "chart": "N0",
+              "value": "80001000840002"
+            },
+            {
+              "name": "NS1",
+              "chart": "N02",
+              "value": "80000000000002"
+            },
+            {
+              "name": "NS4",
+              "chart": "N03",
+              "value": "80000000000002"
+            },
+            {
+              "name": "NS3",
+              "chart": "N2",
+              "value": "2"
+            },
+            {
+              "name": "NS2",
+              "chart": "G3",
+              "value": "80000000000000"
+            },
+            {
+              "name": "P",
+              "chart": "zero",
+              "value": "800000"
+            },
+            {
+              "name": "Q",
+              "chart": "zero",
+              "value": "40000"
+            }
+          ],
+          "history_rank": 6
+        }
+      },
+      "exact_chart_method": "rational reduced row bases and nullspaces",
+      "untouched_original_pairs": 103,
+      "all_owners_retired": true,
+      "dirty_erasure_foundation_retained": true,
+      "no_new_kappa": true
+    },
+    "nine_live": {
+      "status": "PASS_INDEPENDENT_EXACT_NESTED_FORK_REPLAY",
+      "field_columns": 222,
+      "targets": [
+        1,
+        10,
+        36,
+        38,
+        41,
+        49,
+        54,
+        55,
+        92
+      ],
+      "closed_partial": false,
+      "operations": 146,
+      "counts": {
+        "INIT": 9,
+        "ADD": 67,
+        "MOVE": 61,
+        "CLEAR": 9
+      },
+      "profile": {
+        "1": 33,
+        "2": 4,
+        "3": 12,
+        "4": 2,
+        "5": 4,
+        "6": 5,
+        "7": 1
+      },
+      "rank_length": 142,
+      "peak_owners": 9,
+      "retirements": [
+        {
+          "role": "P",
+          "chart": "zero",
+          "rank": 0,
+          "dirty": true,
+          "value": "10008000002000000000000000000000000000000",
+          "birth": 73,
+          "birth_chart": "Hub",
+          "path": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            0
+          ],
+          "moves": 6
+        },
+        {
+          "role": "Q",
+          "chart": "zero",
+          "rank": 0,
+          "dirty": true,
+          "value": "400100000000010000000000000000000000000000",
+          "birth": 74,
+          "birth_chart": "Hub",
+          "path": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            0
+          ],
+          "moves": 6
+        },
+        {
+          "role": "H",
+          "chart": "F92",
+          "rank": 7,
+          "dirty": true,
+          "value": "1000000000c0005000000000",
+          "birth": 0,
+          "birth_chart": "F92",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "W",
+          "chart": "F92",
+          "rank": 7,
+          "dirty": true,
+          "value": "82021000000402",
+          "birth": 1,
+          "birth_chart": "F92",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "p",
+          "chart": "D",
+          "rank": 5,
+          "dirty": true,
+          "value": "2020000000402",
+          "birth": 2,
+          "birth_chart": "D",
+          "path": [
+            5
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S1",
+          "chart": "E_A",
+          "rank": 6,
+          "dirty": true,
+          "value": "42024000000402",
+          "birth": 3,
+          "birth_chart": "E_A",
+          "path": [
+            6
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S4",
+          "chart": "E_B",
+          "rank": 6,
+          "dirty": true,
+          "value": "42024000000402",
+          "birth": 4,
+          "birth_chart": "E_B",
+          "path": [
+            6
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S3",
+          "chart": "F54",
+          "rank": 7,
+          "dirty": true,
+          "value": "4000000000",
+          "birth": 5,
+          "birth_chart": "F54",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S2",
+          "chart": "F38",
+          "rank": 7,
+          "dirty": true,
+          "value": "40000000000000",
+          "birth": 6,
+          "birth_chart": "F38",
+          "path": [
+            7
+          ],
+          "moves": 0
+        }
+      ],
+      "packet_paths": {
+        "P": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          0
+        ],
+        "Q": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          0
+        ]
+      },
+      "X_projection_history_rank": 8,
+      "packets_always_pure_X": false,
+      "snapshots": {},
+      "exact_chart_method": "rational reduced row bases and nullspaces",
+      "untouched_original_pairs": 102,
+      "all_owners_retired": true,
+      "dirty_erasure_foundation_retained": true,
+      "no_new_kappa": true
+    },
+    "nine_closed": {
+      "status": "PASS_INDEPENDENT_EXACT_NESTED_FORK_REPLAY",
+      "field_columns": 222,
+      "targets": [
+        1,
+        10,
+        36,
+        38,
+        41,
+        49,
+        54,
+        55,
+        92
+      ],
+      "closed_partial": true,
+      "operations": 350,
+      "counts": {
+        "INIT": 9,
+        "ADD": 67,
+        "MOVE": 265,
+        "CLEAR": 9
+      },
+      "profile": {
+        "1": 33,
+        "2": 4,
+        "3": 12,
+        "4": 2,
+        "5": 4,
+        "6": 5,
+        "7": 205
+      },
+      "rank_length": 1570,
+      "peak_owners": 9,
+      "retirements": [
+        {
+          "role": "P",
+          "chart": "zero",
+          "rank": 0,
+          "dirty": true,
+          "value": "10008000002000000000000000000000000000000",
+          "birth": 73,
+          "birth_chart": "Hub",
+          "path": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            0
+          ],
+          "moves": 6
+        },
+        {
+          "role": "Q",
+          "chart": "zero",
+          "rank": 0,
+          "dirty": true,
+          "value": "400100000000010000000000000000000000000000",
+          "birth": 74,
+          "birth_chart": "Hub",
+          "path": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            0
+          ],
+          "moves": 6
+        },
+        {
+          "role": "H",
+          "chart": "F92",
+          "rank": 7,
+          "dirty": true,
+          "value": "1000000000c0005000000000",
+          "birth": 0,
+          "birth_chart": "F92",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "W",
+          "chart": "F92",
+          "rank": 7,
+          "dirty": true,
+          "value": "82021000000402",
+          "birth": 1,
+          "birth_chart": "F92",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "p",
+          "chart": "D",
+          "rank": 5,
+          "dirty": true,
+          "value": "2020000000402",
+          "birth": 2,
+          "birth_chart": "D",
+          "path": [
+            5
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S1",
+          "chart": "E_A",
+          "rank": 6,
+          "dirty": true,
+          "value": "42024000000402",
+          "birth": 3,
+          "birth_chart": "E_A",
+          "path": [
+            6
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S4",
+          "chart": "E_B",
+          "rank": 6,
+          "dirty": true,
+          "value": "42024000000402",
+          "birth": 4,
+          "birth_chart": "E_B",
+          "path": [
+            6
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S3",
+          "chart": "F54",
+          "rank": 7,
+          "dirty": true,
+          "value": "4000000000",
+          "birth": 5,
+          "birth_chart": "F54",
+          "path": [
+            7
+          ],
+          "moves": 0
+        },
+        {
+          "role": "S2",
+          "chart": "F38",
+          "rank": 7,
+          "dirty": true,
+          "value": "40000000000000",
+          "birth": 6,
+          "birth_chart": "F38",
+          "path": [
+            7
+          ],
+          "moves": 0
+        }
+      ],
+      "packet_paths": {
+        "P": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          0
+        ],
+        "Q": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          0
+        ]
+      },
+      "X_projection_history_rank": 8,
+      "packets_always_pure_X": false,
+      "snapshots": {},
+      "exact_chart_method": "rational reduced row bases and nullspaces",
+      "untouched_original_pairs": 102,
+      "all_owners_retired": true,
+      "dirty_erasure_foundation_retained": true,
+      "no_new_kappa": true
+    }
+  },
+  "price": {
+    "status": "PASS_INDEPENDENT_PARTIAL_FORK_INVOICE",
+    "method": "bisection integer200th roots, independently derived limiting paired-caller profile",
+    "t": "199/200",
+    "limiting_allowance": {
+      "lower": "9730505281266914131477476902201436",
+      "upper": "9730505281266914131477476902202731",
+      "denominator": "6000000000000000000000000000000"
+    },
+    "alternatives": {
+      "nested": {
+        "moment": {
+          "lower": "1555338556984570100653389065498598",
+          "upper": "1555338556984570100653389065498829",
+          "denominator": "1000000000000000000000000000000"
+        },
+        "partial_saving_vs_three_isolated": {
+          "lower": "7366796991599802719702522833844",
+          "upper": "7366796991599802719702522833882",
+          "denominator": "1000000000000000000000000000000"
+        },
+        "optimistic_remaining": {
+          "7": {
+            "lower": "65949302803984010768657022241950",
+            "upper": "65949302803984010768657022244589",
+            "denominator": "6000000000000000000000000000000"
+          },
+          "8": {
+            "lower": "18445783296054079798873381246734",
+            "upper": "18445783296054079798873381249367",
+            "denominator": "6000000000000000000000000000000"
+          }
+        }
+      },
+      "nine_target": {
+        "moment": {
+          "lower": "1555397788895561080324553876232669",
+          "upper": "1555397788895561080324553876232901",
+          "denominator": "1000000000000000000000000000000"
+        },
+        "partial_saving_vs_three_isolated": {
+          "lower": "7307565080608823048537712099768",
+          "upper": "7307565080608823048537712099815",
+          "denominator": "1000000000000000000000000000000"
+        },
+        "optimistic_remaining": {
+          "7": {
+            "lower": "65593911338038132741668157837518",
+            "upper": "65593911338038132741668157840163",
+            "denominator": "6000000000000000000000000000000"
+          },
+          "8": {
+            "lower": "18090391830108201771884516842302",
+            "upper": "18090391830108201771884516844941",
+            "denominator": "6000000000000000000000000000000"
+          }
+        }
+      }
+    },
+    "costs_not_added": true,
+    "no_complete_supplier": true,
+    "no_new_kappa": true
+  },
+  "third_chart": {
+    "normal_rank": 6,
+    "normal_rank_lower_certificate_prime": 101,
+    "normal_rank_upper": "six supplied vectors",
+    "common_chart_dimension": 2,
+    "native_source_roles": [
+      41,
+      110
+    ],
+    "gram": [
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "scope": "same common-local three-fresh-input template only; changed/off-D handoffs remain open"
+  },
+  "negative_controls": [
+    {
+      "name": "omit acquired X55 correction",
+      "rejected": true,
+      "error": "Y coefficient 1"
+    },
+    {
+      "name": "use D intersection F1 instead of off-D G3",
+      "rejected": true,
+      "error": "illegal X55 L55 -> G3 at 41"
+    },
+    {
+      "name": "omit original Y mask",
+      "rejected": true,
+      "error": "Y coefficient 10"
+    },
+    {
+      "name": "replace D by E_A",
+      "rejected": true,
+      "error": "positive MOVE rank"
+    }
+  ],
+  "source_scope": "authenticated84-signature native recovery, not fresh gzip",
+  "all_dirty_clear_costs_and_foundations_retained": true,
+  "no_new_kappa": true
+}

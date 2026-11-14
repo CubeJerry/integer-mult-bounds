@@ -179,3 +179,12 @@ Canonical main remained e54523517d0f03e58352e647c403a5af3e525a57 at16:58UTC. S01
 ## S013 checkpoint6: fractional representation and dual-pencil use
 
 The Bukh--Cox block-fitting perspective now leads to an internal all-field 161V/19 bound on the actual76-wing graph. This is a source-specific proof, not a rank value imported from a table. The formal rank-inequality equality point is explicitly not a vector-linear code. The Eisenstein contact package also yields dual-pencil forced minors for correction rank; its contract keeps the base unchanged. Neither connection supplies a complete multiplication algorithm. Canonical source and selected certificate remain unchanged; this checkpoint adds no upstream merge or PR.
+
+
+## S013 checkpoint7: storage-code mechanisms used with actual access proofs
+
+Rashmi--Shah--Ramchandran, [arXiv1302.5872v1](https://arxiv.org/html/1302.5872v1), SectionII and Theorem1, motivates adding carefully chosen functions of one data instance to another. Sasidharan--Vajha--Kumar, [arXiv1607.07335v3](https://arxiv.org/html/1607.07335v3), SectionsII.E-F andV, motivates coupled layers and decoding in a justified order. Root read the primary texts. The author's metadata calls the first framework SectionIII; SectionII is the precise primary-text location. These papers supply neither physical source access nor transport prices in this programme. The admitted payload words establish their own original-input acquisitions.
+
+The sharp star theorem and44V/5 bound are internally proved, with inherited LR credit. The common-head cyclic conjugacy is an explicit calculation, not an imported Hilbert90 existence claim. No external theorem is assumed to close a source or supplier gap.
+
+At 2026-11-14 18:18:11 UTC, canonical main remained e54523517d0f03e58352e647c403a5af3e525a57. The targeted GitHub PR query updated since2026-11-14T16:58:00Z returned zero items. No upstream branch, selected certificate or PR was changed.

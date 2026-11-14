@@ -265,3 +265,10 @@ Read the package READMEs and authenticated checker wrappers. Rank4: run author/c
 ## S013 checkpoint6
 
 Six mathematical functions were freshly executed in cloud V8 and matched frozen receipts: wing author/review, fractional-gap author/review, correction author/review. The wrappers are provided for normal Node reproduction; they were not executed through local Node after the executor outage. See each README for authenticated input order. The root-recovery source is sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json, not a fresh native gzip replay. The two independent wing reviews derive native roots again from the admitted84 flat-cubic signatures. The correction review uses separate dual-neighbor reconstruction, exact BigInt determinants, and prime103 elimination. Written proofs establish the stated all-field/all-width conclusions; finite checks alone do not.
+
+
+## S013 checkpoint7
+
+Use the exact Node commands in each new README: star-degree-four-rigidity, bit-wing-two-star-gap, complex-common-cubic-head and bit-piggyback-fork-composition. Each author and independent function actually ran in cloud V8. The fork author replay rebuilds frozen words and compares all222-column receipts; its independent checker reads authenticated frozen words, uses rational chart bases and rederives the invoice. Expected counts and statuses are frozen in the review receipts. Local filesystem wrappers are provided but were not executed after the outage.
+
+The common-head check requires the pinned canonical-control proof. Wing and fork checks use the admitted flat-cubic certificate or exact root-recovery JSON, with the published recovery qualification. General all-width proof statements are established in the written arguments, not inferred from finite tests.

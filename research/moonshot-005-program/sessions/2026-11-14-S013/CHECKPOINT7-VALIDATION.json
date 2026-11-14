@@ -1,0 +1,68 @@
+{
+  "status": "PASS_S013_CHECKPOINT7_NEW_PACKAGE_CHECKS",
+  "baseline_sha": "d7db0beb74828c7bc27b305b526db62355439048",
+  "utc": "2026-11-14 18:19:30 UTC",
+  "execution": "exact cloud V8 mathematical functions; local wrappers not executed",
+  "runs": [
+    {
+      "name": "degree4",
+      "status": "PASS_DEGREE_FOUR_STAR_CONTROLS",
+      "exact_receipt_match": true
+    },
+    {
+      "name": "two_star",
+      "status": "PASS_TWO_AUGMENTED_STARS_WING_GAP",
+      "exact_receipt_match": true
+    },
+    {
+      "name": "degree4_independent",
+      "status": "PASS_INDEPENDENT_DEGREE_FOUR_EQUALITY_CONTROLS"
+    },
+    {
+      "name": "two_star_independent",
+      "status": "PASS_INDEPENDENT_TWO_STAR_GEOMETRY_AND_RANK_REVIEW"
+    },
+    {
+      "name": "common_A_author",
+      "status": "PASS_EXACT_COMMON_CUBIC_CONTROL",
+      "exact_receipt_match": true,
+      "source_sha256": "1bc214b889a5d9ecee6fa887966dd828a4aeee95b5584379e5d249d9ceddea01"
+    },
+    {
+      "name": "common_A_independent",
+      "status": "PASS_INDEPENDENT_COMMON_CUBIC_INTERFACE"
+    },
+    {
+      "name": "piggyback_author",
+      "alternatives": [
+        {
+          "alternative": "nine_target",
+          "original_columns": 222,
+          "author_exact_price_match": true,
+          "deleted_operation_controls_rejected": 8
+        },
+        {
+          "alternative": "nested",
+          "original_columns": 222,
+          "author_exact_price_match": true,
+          "deleted_operation_controls_rejected": 8
+        }
+      ]
+    },
+    {
+      "name": "piggyback_independent",
+      "status": "PASS_INDEPENDENT_PIGGYBACK_PACKAGE",
+      "arbitrary_original_columns": 222,
+      "words": 4,
+      "controls": 4,
+      "third_chart_dimension": 2
+    }
+  ],
+  "registered_results": 266,
+  "scientific_files": 4320,
+  "new_scientific_files": 47,
+  "prior_entries_preserved": 4273,
+  "legacy_exceptions_preserved": true,
+  "new_kappa": false,
+  "remote_candidate_readback": "required before leased update, receipt recorded separately"
+}

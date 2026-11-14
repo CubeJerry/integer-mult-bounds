@@ -1,3 +1,13 @@
+# Current S013 continuation — shared histories and a finite head-circuit problem
+
+The latest verified source contains actual acquired payloads and two nested forks in the same two descending lifetimes. Start from operation108 of results/bit-piggyback-fork-composition/author/NESTED.json to retain its rank5 handoff; do not reuse its cleared endpoint or its closed accounting variant. Eight targets can be completed, but103 still need a global decoder. The available complete-caller budget rules out treating local repetition as a solution.
+
+The complex interface has one A with A^3=Z,A^6=I. Resolve Section7 of results/complex-common-cubic-head/author/PROOF.md: three half calls on four arbitrary inputs, at most one rank1 query, four rank2 head jobs with complete ordinary encodings and no unpaid owner. Six paid rank7 idles then supply the three fresh bodies and the exact raw budget. The head circuit is open.
+
+The76-wing lower bound is44V/5; characteristic-two widths1-4 and commuting blocks cannot beat9V. Any fractional improvement needs a genuinely noncommuting irreducible quotient of width at least5. The rank44,width5 numerical relaxation is not a construction.
+
+Requested S013 research remains active through the supported session window ending23:21:59UTC. GitHub is authoritative. After16:22UTC exact execution uses cloud V8; no local Python/Node replay is claimed. No new kappa and all five foundations retained. Earlier continuation follows as historical context.
+
 # Current S013 continuation — actual changing histories
 
 At checkpoint6 the source constraints are sharper, but no complete kappa improvement is established. Prioritize a complete source construction: seed fresh coefficients on the original ascent, preserve the two live pentagon branches, and audit the proposed nine-target extension on all222 public columns. The geometry and static fitting ranks do not supply this chronology.

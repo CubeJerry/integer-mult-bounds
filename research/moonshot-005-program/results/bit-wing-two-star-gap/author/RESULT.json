@@ -1,0 +1,974 @@
+{
+  "status": "PASS_TWO_AUGMENTED_STARS_WING_GAP",
+  "source_geometry_git_blob": "8eba43d142c819c206dce5df87ea4571aaead287",
+  "native_source_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "recovery_certificate_sha256": "4ac3933fb2393c62a96ec9e931ef4936e61d0e6c912c7ce0a94398a5f19addfc",
+  "wing_roles": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    13,
+    14,
+    17,
+    19,
+    20,
+    21,
+    24,
+    25,
+    28,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35,
+    37,
+    38,
+    39,
+    40,
+    41,
+    44,
+    45,
+    46,
+    47,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    57,
+    58,
+    59,
+    60,
+    62,
+    63,
+    64,
+    66,
+    67,
+    68,
+    69,
+    70,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    91,
+    93,
+    94,
+    98,
+    99,
+    100,
+    101,
+    104,
+    105,
+    107,
+    108,
+    110
+  ],
+  "frame": [
+    0,
+    14,
+    39,
+    41,
+    60,
+    63,
+    70
+  ],
+  "edges": [
+    {
+      "role": 2,
+      "ends": [
+        0,
+        6
+      ]
+    },
+    {
+      "role": 9,
+      "ends": [
+        0,
+        5
+      ]
+    },
+    {
+      "role": 13,
+      "ends": [
+        0,
+        4
+      ]
+    },
+    {
+      "role": 17,
+      "ends": [
+        1,
+        6
+      ]
+    },
+    {
+      "role": 25,
+      "ends": [
+        1,
+        5
+      ]
+    },
+    {
+      "role": 29,
+      "ends": [
+        1,
+        4
+      ]
+    },
+    {
+      "role": 30,
+      "ends": [
+        3,
+        5
+      ]
+    },
+    {
+      "role": 31,
+      "ends": [
+        2,
+        5
+      ]
+    },
+    {
+      "role": 34,
+      "ends": [
+        3,
+        4
+      ]
+    },
+    {
+      "role": 35,
+      "ends": [
+        2,
+        4
+      ]
+    },
+    {
+      "role": 38,
+      "ends": [
+        3,
+        6
+      ]
+    },
+    {
+      "role": 40,
+      "ends": [
+        2,
+        6
+      ]
+    },
+    {
+      "role": 59,
+      "ends": [
+        5,
+        6
+      ]
+    },
+    {
+      "role": 62,
+      "ends": [
+        4,
+        6
+      ]
+    },
+    {
+      "role": 66,
+      "ends": [
+        4,
+        5
+      ]
+    },
+    {
+      "role": 69,
+      "ends": [
+        2,
+        3
+      ]
+    },
+    {
+      "role": 87,
+      "ends": [
+        0,
+        1
+      ]
+    },
+    {
+      "role": 93,
+      "ends": [
+        0,
+        2
+      ]
+    },
+    {
+      "role": 108,
+      "ends": [
+        1,
+        3
+      ]
+    },
+    {
+      "role": 110,
+      "ends": [
+        1,
+        2
+      ]
+    }
+  ],
+  "degree": [
+    5,
+    6,
+    6,
+    5,
+    6,
+    6,
+    6
+  ],
+  "loops": [
+    {
+      "role": 85,
+      "point": 0
+    },
+    {
+      "role": 107,
+      "point": 3
+    }
+  ],
+  "classes": {
+    "A": [
+      0,
+      3
+    ],
+    "B": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ]
+  },
+  "weights": [
+    {
+      "edge": 0,
+      "from": 0,
+      "to": 6,
+      "weight": 2
+    },
+    {
+      "edge": 0,
+      "from": 6,
+      "to": 0,
+      "weight": 0
+    },
+    {
+      "edge": 1,
+      "from": 0,
+      "to": 5,
+      "weight": 2
+    },
+    {
+      "edge": 1,
+      "from": 5,
+      "to": 0,
+      "weight": 0
+    },
+    {
+      "edge": 2,
+      "from": 0,
+      "to": 4,
+      "weight": 2
+    },
+    {
+      "edge": 2,
+      "from": 4,
+      "to": 0,
+      "weight": 0
+    },
+    {
+      "edge": 3,
+      "from": 1,
+      "to": 6,
+      "weight": 1
+    },
+    {
+      "edge": 3,
+      "from": 6,
+      "to": 1,
+      "weight": 1
+    },
+    {
+      "edge": 4,
+      "from": 1,
+      "to": 5,
+      "weight": 1
+    },
+    {
+      "edge": 4,
+      "from": 5,
+      "to": 1,
+      "weight": 1
+    },
+    {
+      "edge": 5,
+      "from": 1,
+      "to": 4,
+      "weight": 1
+    },
+    {
+      "edge": 5,
+      "from": 4,
+      "to": 1,
+      "weight": 1
+    },
+    {
+      "edge": 6,
+      "from": 3,
+      "to": 5,
+      "weight": 2
+    },
+    {
+      "edge": 6,
+      "from": 5,
+      "to": 3,
+      "weight": 0
+    },
+    {
+      "edge": 7,
+      "from": 2,
+      "to": 5,
+      "weight": 1
+    },
+    {
+      "edge": 7,
+      "from": 5,
+      "to": 2,
+      "weight": 1
+    },
+    {
+      "edge": 8,
+      "from": 3,
+      "to": 4,
+      "weight": 2
+    },
+    {
+      "edge": 8,
+      "from": 4,
+      "to": 3,
+      "weight": 0
+    },
+    {
+      "edge": 9,
+      "from": 2,
+      "to": 4,
+      "weight": 1
+    },
+    {
+      "edge": 9,
+      "from": 4,
+      "to": 2,
+      "weight": 1
+    },
+    {
+      "edge": 10,
+      "from": 3,
+      "to": 6,
+      "weight": 2
+    },
+    {
+      "edge": 10,
+      "from": 6,
+      "to": 3,
+      "weight": 0
+    },
+    {
+      "edge": 11,
+      "from": 2,
+      "to": 6,
+      "weight": 1
+    },
+    {
+      "edge": 11,
+      "from": 6,
+      "to": 2,
+      "weight": 1
+    },
+    {
+      "edge": 12,
+      "from": 5,
+      "to": 6,
+      "weight": 1
+    },
+    {
+      "edge": 12,
+      "from": 6,
+      "to": 5,
+      "weight": 1
+    },
+    {
+      "edge": 13,
+      "from": 4,
+      "to": 6,
+      "weight": 1
+    },
+    {
+      "edge": 13,
+      "from": 6,
+      "to": 4,
+      "weight": 1
+    },
+    {
+      "edge": 14,
+      "from": 4,
+      "to": 5,
+      "weight": 1
+    },
+    {
+      "edge": 14,
+      "from": 5,
+      "to": 4,
+      "weight": 1
+    },
+    {
+      "edge": 15,
+      "from": 2,
+      "to": 3,
+      "weight": 0
+    },
+    {
+      "edge": 15,
+      "from": 3,
+      "to": 2,
+      "weight": 2
+    },
+    {
+      "edge": 16,
+      "from": 0,
+      "to": 1,
+      "weight": 2
+    },
+    {
+      "edge": 16,
+      "from": 1,
+      "to": 0,
+      "weight": 0
+    },
+    {
+      "edge": 17,
+      "from": 0,
+      "to": 2,
+      "weight": 2
+    },
+    {
+      "edge": 17,
+      "from": 2,
+      "to": 0,
+      "weight": 0
+    },
+    {
+      "edge": 18,
+      "from": 1,
+      "to": 3,
+      "weight": 0
+    },
+    {
+      "edge": 18,
+      "from": 3,
+      "to": 1,
+      "weight": 2
+    },
+    {
+      "edge": 19,
+      "from": 1,
+      "to": 2,
+      "weight": 1
+    },
+    {
+      "edge": 19,
+      "from": 2,
+      "to": 1,
+      "weight": 1
+    }
+  ],
+  "star_weight_sums": [
+    10,
+    4,
+    4,
+    10,
+    4,
+    4,
+    4
+  ],
+  "weighted_gamma_coefficients": [
+    {
+      "edge": 0,
+      "from": 0,
+      "coefficient": 6
+    },
+    {
+      "edge": 0,
+      "from": 6,
+      "coefficient": 0
+    },
+    {
+      "edge": 1,
+      "from": 0,
+      "coefficient": 6
+    },
+    {
+      "edge": 1,
+      "from": 5,
+      "coefficient": 0
+    },
+    {
+      "edge": 2,
+      "from": 0,
+      "coefficient": 6
+    },
+    {
+      "edge": 2,
+      "from": 4,
+      "coefficient": 0
+    },
+    {
+      "edge": 3,
+      "from": 1,
+      "coefficient": 0
+    },
+    {
+      "edge": 3,
+      "from": 6,
+      "coefficient": 0
+    },
+    {
+      "edge": 4,
+      "from": 1,
+      "coefficient": 0
+    },
+    {
+      "edge": 4,
+      "from": 5,
+      "coefficient": 0
+    },
+    {
+      "edge": 5,
+      "from": 1,
+      "coefficient": 0
+    },
+    {
+      "edge": 5,
+      "from": 4,
+      "coefficient": 0
+    },
+    {
+      "edge": 6,
+      "from": 3,
+      "coefficient": 6
+    },
+    {
+      "edge": 6,
+      "from": 5,
+      "coefficient": 0
+    },
+    {
+      "edge": 7,
+      "from": 2,
+      "coefficient": 0
+    },
+    {
+      "edge": 7,
+      "from": 5,
+      "coefficient": 0
+    },
+    {
+      "edge": 8,
+      "from": 3,
+      "coefficient": 6
+    },
+    {
+      "edge": 8,
+      "from": 4,
+      "coefficient": 0
+    },
+    {
+      "edge": 9,
+      "from": 2,
+      "coefficient": 0
+    },
+    {
+      "edge": 9,
+      "from": 4,
+      "coefficient": 0
+    },
+    {
+      "edge": 10,
+      "from": 3,
+      "coefficient": 6
+    },
+    {
+      "edge": 10,
+      "from": 6,
+      "coefficient": 0
+    },
+    {
+      "edge": 11,
+      "from": 2,
+      "coefficient": 0
+    },
+    {
+      "edge": 11,
+      "from": 6,
+      "coefficient": 0
+    },
+    {
+      "edge": 12,
+      "from": 5,
+      "coefficient": 0
+    },
+    {
+      "edge": 12,
+      "from": 6,
+      "coefficient": 0
+    },
+    {
+      "edge": 13,
+      "from": 4,
+      "coefficient": 0
+    },
+    {
+      "edge": 13,
+      "from": 6,
+      "coefficient": 0
+    },
+    {
+      "edge": 14,
+      "from": 4,
+      "coefficient": 0
+    },
+    {
+      "edge": 14,
+      "from": 5,
+      "coefficient": 0
+    },
+    {
+      "edge": 15,
+      "from": 2,
+      "coefficient": 0
+    },
+    {
+      "edge": 15,
+      "from": 3,
+      "coefficient": 6
+    },
+    {
+      "edge": 16,
+      "from": 0,
+      "coefficient": 6
+    },
+    {
+      "edge": 16,
+      "from": 1,
+      "coefficient": 0
+    },
+    {
+      "edge": 17,
+      "from": 0,
+      "coefficient": 6
+    },
+    {
+      "edge": 17,
+      "from": 2,
+      "coefficient": 0
+    },
+    {
+      "edge": 18,
+      "from": 1,
+      "coefficient": 0
+    },
+    {
+      "edge": 18,
+      "from": 3,
+      "coefficient": 6
+    },
+    {
+      "edge": 19,
+      "from": 1,
+      "coefficient": 0
+    },
+    {
+      "edge": 19,
+      "from": 2,
+      "coefficient": 0
+    }
+  ],
+  "cross_paths": [
+    {
+      "a": 0,
+      "b": 1,
+      "c": 3,
+      "first_edge": 16,
+      "second_edge": 18,
+      "first_role": 87,
+      "second_role": 108
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "c": 3,
+      "first_edge": 17,
+      "second_edge": 15,
+      "first_role": 93,
+      "second_role": 69
+    },
+    {
+      "a": 0,
+      "b": 4,
+      "c": 3,
+      "first_edge": 2,
+      "second_edge": 8,
+      "first_role": 13,
+      "second_role": 34
+    },
+    {
+      "a": 0,
+      "b": 5,
+      "c": 3,
+      "first_edge": 1,
+      "second_edge": 6,
+      "first_role": 9,
+      "second_role": 30
+    },
+    {
+      "a": 0,
+      "b": 6,
+      "c": 3,
+      "first_edge": 0,
+      "second_edge": 10,
+      "first_role": 2,
+      "second_role": 38
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "c": 0,
+      "first_edge": 18,
+      "second_edge": 16,
+      "first_role": 108,
+      "second_role": 87
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "c": 0,
+      "first_edge": 15,
+      "second_edge": 17,
+      "first_role": 69,
+      "second_role": 93
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "c": 0,
+      "first_edge": 8,
+      "second_edge": 2,
+      "first_role": 34,
+      "second_role": 13
+    },
+    {
+      "a": 3,
+      "b": 5,
+      "c": 0,
+      "first_edge": 6,
+      "second_edge": 1,
+      "first_role": 30,
+      "second_role": 9
+    },
+    {
+      "a": 3,
+      "b": 6,
+      "c": 0,
+      "first_edge": 10,
+      "second_edge": 0,
+      "first_role": 38,
+      "second_role": 2
+    }
+  ],
+  "theorem": {
+    "all_fields": true,
+    "all_positive_widths": true,
+    "rank_lower": "44V/5",
+    "characteristic_two_upper": "9V",
+    "exact_minimum_at_widths": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "minimum_at_these_widths": "9V",
+    "first_unexcluded_fractional_candidate": "V=5, rank44"
+  },
+  "inequalities": [
+    "40h >= 20V+6(G_0+G_3)",
+    "G_0+G_3 >= 10(V-h)",
+    "100h >= 80V"
+  ],
+  "formal_relaxation_point": {
+    "V": 5,
+    "h": 4,
+    "j": 9,
+    "G": [
+      5,
+      8,
+      8,
+      5,
+      8,
+      8,
+      8
+    ],
+    "directed_gamma": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "LR_slacks": [
+      0,
+      2,
+      0,
+      2,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      2,
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "cross_inequalities_checked": 50,
+    "all_cross_equalities": true,
+    "not_an_actual_fitting": true
+  },
+  "no_packet_lifetime_or_MOVE_bound": true,
+  "no_new_kappa": true
+}
