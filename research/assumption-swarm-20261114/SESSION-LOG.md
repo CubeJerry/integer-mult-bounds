@@ -87,3 +87,11 @@ B10 publishedc4ab5dab6914a04cb86d1fe54eb763b35cc7eeb1,97 added files, eight regi
 B11 targets all raw divisions in general admitted current-producer groups. Its two-site source-domain proof is inherited from5053; the new provider substitution is under construction. A235-call author run has zero fallback calls; final nonleaf endpoint/proof and independent review are pending. A13 rejects a duplicate scalar backend:6085 already supplies isolated encoded exponential calls. The active task is the exact four-call source adapter with rational bit-length and lifecycle/cost binding. Both remain unpublished.
 
 Main rechecked at08:58:56UTC: e545 unchanged; no PR delta since08:37. All24 concise quick_pull title/body links returnedHTTP200 and match verified branches/trees. No upstream PR submitted. All five full assumptions and kappa unchanged.
+
+## Checkpoint15: twenty-five published; corrected scalar adapter and final combined arithmetic
+
+B11 published9700fc89e2582a1fb358a4c6d0d0387076192adc,tree95fbe21e6c7720bd0e85423be02753b5b63d68c3,104 added files. Six registered commands,76 retained origin paths,77-input export and committed-byte/mode gates passed. Remote ref/tree/canonical parent/package-only compare checked; concise prefill returnedHTTP200 with exact branch/query. Independent run:192 divisions,28 unit divisors and returning descriptor/fallback controls; primary:355.
+
+A13 final proofc2743b821b0fd522adf82db35ead7f0e8e3db3b8a5833a61e0d89b2b5840fff2 corrects fresh/bounded-history stock and shared-pool lifetime. Retained clear costs5ell+7 independent of old blank capacity; old stock remains. Canonical execution runs at local900802e5b00fad8d9cd7d9beddf5f3e64f00dd0d. No verified remote publication yet.
+
+B12 approved09:29UTC: remaining raw compare/add/subtract providers at the same source ABI, literal alias/finite flags, one-output reservation and outermost meter subtraction. Author construction, source/count review and graph/owner review are distinct. No new speculative start after09:57UTC. Candidate10:35UTC; publication decision11:30UTC. All five full assumptions and selected kappa unchanged.

@@ -1,0 +1,224 @@
+{
+  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "divider_predecessor": "c4ab5dab6914a04cb86d1fe54eb763b35cc7eeb1",
+  "files": [
+    {
+      "path": "encoded-current-crt/producer.py",
+      "sha256": "88dab4ca02a92164a67826db361214fa1405e4b4a588f8c4279a21bcee95ab76",
+      "git_blob": "a327b0161eca57a1cc44ec2aa8e3defed2167ddc",
+      "raw_calls": [
+        {
+          "line": 15,
+          "method": "compare",
+          "call": "self.raw.compare(modulus, self.one)"
+        },
+        {
+          "line": 20,
+          "method": "divmod",
+          "call": "self.raw.divmod(value, modulus)"
+        },
+        {
+          "line": 25,
+          "method": "add",
+          "call": "self.raw.add(left, right)"
+        },
+        {
+          "line": 27,
+          "method": "compare",
+          "call": "self.raw.compare(total, modulus)"
+        },
+        {
+          "line": 28,
+          "method": "subtract_exact",
+          "call": "self.raw.subtract_exact(total, modulus)"
+        },
+        {
+          "line": 33,
+          "method": "compare",
+          "call": "self.raw.compare(left, right)"
+        },
+        {
+          "line": 34,
+          "method": "subtract_exact",
+          "call": "self.raw.subtract_exact(left, right)"
+        },
+        {
+          "line": 35,
+          "method": "add",
+          "call": "self.raw.add(left, modulus)"
+        },
+        {
+          "line": 37,
+          "method": "subtract_exact",
+          "call": "self.raw.subtract_exact(larger, right)"
+        },
+        {
+          "line": 58,
+          "method": "divmod",
+          "call": "self.raw.divmod(r0, r1)"
+        },
+        {
+          "line": 64,
+          "method": "compare",
+          "call": "self.raw.compare(r0, self.one)"
+        },
+        {
+          "line": 74,
+          "method": "add",
+          "call": "self.raw.add(result, result)"
+        },
+        {
+          "line": 78,
+          "method": "add",
+          "call": "self.raw.add(result, left)"
+        },
+        {
+          "line": 118,
+          "method": "compare",
+          "call": "a.raw.compare(value, modulus)"
+        },
+        {
+          "line": 127,
+          "method": "add",
+          "call": "a.raw.add(lower, term)"
+        },
+        {
+          "line": 152,
+          "method": "compare",
+          "call": "a.raw.compare(value, modulus)"
+        }
+      ]
+    },
+    {
+      "path": "encoded-crt-leaf-payload/frozen/inverse_producer.py",
+      "sha256": "6acdebee7134fbc8e2d121060286bd05e7282900da8a28a78c80937dde7ea178",
+      "git_blob": "46bf6ef4e2dfa53bca17ac668914b1a842eaba9e",
+      "raw_calls": [
+        {
+          "line": 17,
+          "method": "compare",
+          "call": "self.raw.compare(modulus, self.one)"
+        },
+        {
+          "line": 22,
+          "method": "divmod",
+          "call": "self.raw.divmod(value, modulus)"
+        },
+        {
+          "line": 27,
+          "method": "add",
+          "call": "self.raw.add(left, right)"
+        },
+        {
+          "line": 29,
+          "method": "compare",
+          "call": "self.raw.compare(total, modulus)"
+        },
+        {
+          "line": 30,
+          "method": "subtract_exact",
+          "call": "self.raw.subtract_exact(total, modulus)"
+        },
+        {
+          "line": 35,
+          "method": "compare",
+          "call": "self.raw.compare(left, right)"
+        },
+        {
+          "line": 36,
+          "method": "subtract_exact",
+          "call": "self.raw.subtract_exact(left, right)"
+        },
+        {
+          "line": 37,
+          "method": "add",
+          "call": "self.raw.add(left, modulus)"
+        },
+        {
+          "line": 39,
+          "method": "subtract_exact",
+          "call": "self.raw.subtract_exact(larger, right)"
+        },
+        {
+          "line": 60,
+          "method": "divmod",
+          "call": "self.raw.divmod(r0, r1)"
+        },
+        {
+          "line": 66,
+          "method": "compare",
+          "call": "self.raw.compare(r0, self.one)"
+        },
+        {
+          "line": 76,
+          "method": "add",
+          "call": "self.raw.add(result, result)"
+        },
+        {
+          "line": 80,
+          "method": "add",
+          "call": "self.raw.add(result, left)"
+        },
+        {
+          "line": 120,
+          "method": "compare",
+          "call": "a.raw.compare(value, modulus)"
+        },
+        {
+          "line": 129,
+          "method": "add",
+          "call": "a.raw.add(lower, term)"
+        },
+        {
+          "line": 154,
+          "method": "compare",
+          "call": "a.raw.compare(value, modulus)"
+        }
+      ]
+    },
+    {
+      "path": "r437-preparation-composition/predecessor4025/source/words.py",
+      "sha256": "5c37f57708ba3131bdcb03139f9dbc29886bee44569c09cbba51b68f75acd7f9",
+      "git_blob": "8d4ba37e2778acb35b34e0719df2caf138fbeb50",
+      "raw_calls": [],
+      "unsigned_methods": {
+        "__init__": {
+          "first": 170,
+          "last": 171
+        },
+        "compare": {
+          "first": 173,
+          "last": 190
+        },
+        "add": {
+          "first": 192,
+          "last": 210
+        },
+        "subtract": {
+          "first": 212,
+          "last": 230
+        },
+        "subtract_exact": {
+          "first": 232,
+          "last": 235
+        },
+        "shift_add_bit": {
+          "first": 237,
+          "last": 251
+        },
+        "divmod": {
+          "first": 253,
+          "last": 279
+        },
+        "times_small": {
+          "first": 281,
+          "last": 295
+        },
+        "increment_in_place": {
+          "first": 297,
+          "last": 305
+        }
+      }
+    }
+  ]
+}
