@@ -1,0 +1,2382 @@
+{
+  "binding_sha256": "1b62577836ffc5906bd749b3705cfb3873cf9b15380224648fff924315efc8c9",
+  "controls": [
+    "outside-producer",
+    "foreign-arena",
+    "returning-swapped-source-binding",
+    "old-provider-fallback",
+    "omitted-numerical-overlap-subtraction",
+    "omitted-selector-overlap-subtraction"
+  ],
+  "core_graph": "d36e8220def8efb2baed793d0bea6f0a19b0903b5b005b730652b5bb7d121194",
+  "full_source": {
+    "baseline": [
+      {
+        "calls": 60,
+        "native": 694658,
+        "old_divisions": 366980
+      },
+      {
+        "calls": 60,
+        "native": 694736,
+        "old_divisions": 366980
+      }
+    ],
+    "legs": [
+      {
+        "calls": [
+          {
+            "bijection": "dc141a8018ed10bd1b454d3a05d472a56342b0c236405de12b2536dd23cab03f",
+            "d": 5,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "e6dd55bad0106b751cefd538b45139df583f1a146c3a84f318d8c5f9650f1344",
+            "d": 1,
+            "instructions": 32011,
+            "max_history": 9,
+            "n": 5,
+            "numeric_actions": 1019,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "2d517d4e0b47cae64975d418f10632d66e325753c4169cd4fb058102fed8402c",
+            "d": 5,
+            "instructions": 29820,
+            "max_history": 9,
+            "n": 5,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "faeebcf8948bd9c6219a15f436371115843ce4c043c07e4e080046b4c3a25c16",
+            "d": 5,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 0,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "1ac198a34d8fc4710fc23a398ace262d5009ab7acee06539da4cc7652bca97ac",
+            "d": 5,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "fa425dc5aa7322825d1f4ed7c0f441ce447aa6976ab540f1a158bec6080a018c",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 5,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "9a3cb47ea5fa3b449001ee90e4d096e5939ef83e23511ca066475c55ce2683ba",
+            "d": 5,
+            "instructions": 29820,
+            "max_history": 9,
+            "n": 7,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "367dfbd16a8884a2cde4d19282d04b730ecc73ca5f6613599de8aa5c495b22e2",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "bf52de07082c5ff9bfc7146afb7a4561ff17f919d711ea3a158c076a96d454b4",
+            "d": 2,
+            "instructions": 29820,
+            "max_history": 9,
+            "n": 5,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "c430041a82dec668f217383dd53b1809ad7d269241f97da8db89808e9db2ee2c",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 2,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "8c4bb2ce6827014d51a5df15e577be7707c846a4676a0532724097c3b5f45414",
+            "d": 1,
+            "instructions": 29820,
+            "max_history": 9,
+            "n": 2,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "77e3a3bdbca2d2bd00315f11e8299678715606cf17b9bddf557bd795fb4acbd8",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 2,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "bd2c37e176ed4a8bfa4f69512d98a1a011778466992cd65bd46037c09127c67f",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "929569dac4741d7f298968fc00cf0fc14a73125cf5d66cccfe8b2ac779803752",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 2,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "dc141a8018ed10bd1b454d3a05d472a56342b0c236405de12b2536dd23cab03f",
+            "d": 13,
+            "instructions": 42339,
+            "max_history": 11,
+            "n": 1,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "bf52de07082c5ff9bfc7146afb7a4561ff17f919d711ea3a158c076a96d454b4",
+            "d": 1,
+            "instructions": 50580,
+            "max_history": 11,
+            "n": 13,
+            "numeric_actions": 1620,
+            "p": 9,
+            "site": "inverse"
+          },
+          {
+            "bijection": "2d517d4e0b47cae64975d418f10632d66e325753c4169cd4fb058102fed8402c",
+            "d": 13,
+            "instructions": 45086,
+            "max_history": 11,
+            "n": 13,
+            "numeric_actions": 1442,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "faeebcf8948bd9c6219a15f436371115843ce4c043c07e4e080046b4c3a25c16",
+            "d": 13,
+            "instructions": 42339,
+            "max_history": 11,
+            "n": 0,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "1ac198a34d8fc4710fc23a398ace262d5009ab7acee06539da4cc7652bca97ac",
+            "d": 13,
+            "instructions": 42339,
+            "max_history": 11,
+            "n": 12,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "1e0ba2dbd3337c36c48cba482a9f96694af21721a13a32b8a181afe2b3941ad1",
+            "d": 8,
+            "instructions": 45086,
+            "max_history": 11,
+            "n": 13,
+            "numeric_actions": 1442,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "9a3cb47ea5fa3b449001ee90e4d096e5939ef83e23511ca066475c55ce2683ba",
+            "d": 5,
+            "instructions": 45086,
+            "max_history": 11,
+            "n": 8,
+            "numeric_actions": 1442,
+            "p": 9,
+            "site": "inverse"
+          },
+          {
+            "bijection": "a95b8cd734af992e5cec72bbf224a2345de5b1c5d0fa69c28129bbfbb03f7575",
+            "d": 8,
+            "instructions": 42339,
+            "max_history": 11,
+            "n": 1,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "9699588b3d1b7387561f296400db21a7911af182bc83f1cabe8d61b780af6f97",
+            "d": 3,
+            "instructions": 45086,
+            "max_history": 11,
+            "n": 5,
+            "numeric_actions": 1442,
+            "p": 9,
+            "site": "inverse"
+          },
+          {
+            "bijection": "e5477981ac6eee38f7a9fa61e3dfcdeb2a945387fb9a1efe482476318d18b668",
+            "d": 8,
+            "instructions": 42339,
+            "max_history": 11,
+            "n": 1,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "89e98f733fd7324ebfeaf0bab1608fde6f09ebc400f56e60529b43db8587396c",
+            "d": 2,
+            "instructions": 45086,
+            "max_history": 11,
+            "n": 3,
+            "numeric_actions": 1442,
+            "p": 9,
+            "site": "inverse"
+          },
+          {
+            "bijection": "94d28fb96749eea5ce55b724abfdb01bef57b992923c8232ad1a0156f6d686f4",
+            "d": 8,
+            "instructions": 42339,
+            "max_history": 11,
+            "n": 1,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "b6807250f9b6136d5462b3c96b7a0a0bf4423ea5c36fa56d4eb4736b7550cb83",
+            "d": 1,
+            "instructions": 45086,
+            "max_history": 11,
+            "n": 2,
+            "numeric_actions": 1442,
+            "p": 9,
+            "site": "inverse"
+          },
+          {
+            "bijection": "b4ab868b9eaf0a2bb987542eac4a8f621cdd13d0861e69b15642d6473bda74b1",
+            "d": 8,
+            "instructions": 42339,
+            "max_history": 11,
+            "n": 2,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "76a53861e5dd15fd439457b8e0b969d440d82ca727fe018824a6585259951251",
+            "d": 8,
+            "instructions": 45086,
+            "max_history": 11,
+            "n": 12,
+            "numeric_actions": 1442,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "6c0de2ee1eb025608a34a40eb808f767d7a33106f3d1aadaba4eac237b44d432",
+            "d": 8,
+            "instructions": 42339,
+            "max_history": 11,
+            "n": 7,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "dc141a8018ed10bd1b454d3a05d472a56342b0c236405de12b2536dd23cab03f",
+            "d": 5,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "e6dd55bad0106b751cefd538b45139df583f1a146c3a84f318d8c5f9650f1344",
+            "d": 1,
+            "instructions": 114595,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 3691,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "2d517d4e0b47cae64975d418f10632d66e325753c4169cd4fb058102fed8402c",
+            "d": 5,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "faeebcf8948bd9c6219a15f436371115843ce4c043c07e4e080046b4c3a25c16",
+            "d": 5,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 0,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "1ac198a34d8fc4710fc23a398ace262d5009ab7acee06539da4cc7652bca97ac",
+            "d": 5,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "12817fa09fdef5add4809ca28b4b82e57bf9c92cec127b448c5762f764e88a3b",
+            "d": 7,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "ddc022683a68ebc5b2cb6221aa67063035111691b6844fbc67d480b49ad040b8",
+            "d": 5,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 7,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "fd871d1e0f4cccb146f7550e602e230f9bb38d2f987f499f5e2501b9ed891bdb",
+            "d": 7,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "c81dfe2313aa4a3125645d3d1ef68e582b564fce8450adf317c7e7ab67313cc4",
+            "d": 2,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "57d8ef5aa61ea92ef6139b9623958257b6ee496f9b48b7318f0d37ee9292e413",
+            "d": 7,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 2,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "cbb6b4fb8318b977bd5624cabd261f9352a6c232f0ae3e92e24936ab2fd89ac0",
+            "d": 1,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 2,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "3bbaaea80d621fde2e1b95169fccf80aac62fe03d1e1a4e750f0380666278a14",
+            "d": 7,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 2,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "e8d195f915311ca62bd21be76ad407f2d3d29d7edf3a3182e1e1ca279105ad73",
+            "d": 7,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "c099a7f9ae1e7a53553ea461a1163edfb864cdf1ad11e0e74b9598dbf62b5db8",
+            "d": 7,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "c3ec479df3afba080c41dcb4c63459a90194aaa250b60762f78ce9c6e9f1ae95",
+            "d": 13,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 35,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "7c1f4196f73cee6cc58d9caf01c1571b17d107b246a103be6d671fb51a27b6cb",
+            "d": 9,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 13,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "96f1534e0f96beeb266fc0273f193223e68e015abef27f899fa846dd23c3c5b0",
+            "d": 13,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "60b39521344e678350da3ad5d74e213731d0dba4aa3ec0bb1a932d1e8c5b2703",
+            "d": 4,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 9,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "d66334ca2c09cc17a04cd3ca3185d86b11508c7d9d90fbb332158234f502866d",
+            "d": 13,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 2,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "c185d13caee0faf17fe741ab5adcc455d0e438f085635f83319773d31c8c23b1",
+            "d": 1,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 4,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "6299209b481b09d33b435d9904d23107634f6c6914728d916a14262a5cb8052c",
+            "d": 13,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 4,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "0f60d1fb0c73d1cc4ae15c75f1b0a98c8d355970a05c105596a0b94b7ed55c9a",
+            "d": 13,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 11,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "b3a8d116f8556dfd71d58778bce3052b3d8f7610a196fc068f3ee8ab7cf16138",
+            "d": 13,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 12,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "e304ddab3274ea0dc18596415ee247f465f6b99a19621b6d5f936aa49fbfb54f",
+            "d": 8,
+            "instructions": 119010,
+            "max_history": 17,
+            "n": 455,
+            "numeric_actions": 3834,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "27774cec9636845058e2b5b5271460c93f1d762e8a69ca474506358805ff72fa",
+            "d": 7,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 8,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "a0c51a237b47e193e039874d15510074e821c62d30dea9d4b17f63069995c1fa",
+            "d": 8,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "805331ca346b8357b5053967acd80d13e9eead3544cb2a6bf1859fe1db76fd53",
+            "d": 1,
+            "instructions": 119010,
+            "max_history": 17,
+            "n": 7,
+            "numeric_actions": 3834,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "83c39ad1d30fba07c1160c06cfcf9862c2d8bddcbf8ec5dc23cc90aa525fb6b4",
+            "d": 8,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 7,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "43bfd312bdd2e95dec1444125e509821b3e670eb00f7a401aae9faeb1a0aa3c5",
+            "d": 8,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 11,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "3489fdf86f6beb33a268777f116703b486cde6c07a2acc7b7db5c7607d30114c",
+            "d": 8,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 3,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          }
+        ],
+        "grant_cells": 28,
+        "instructions": 4357355,
+        "metadata": 984352,
+        "numeric": 139966,
+        "owner_count": 83,
+        "producers": [
+          {
+            "calls": 14,
+            "euclidean": 4,
+            "expected": [
+              [
+                3,
+                5
+              ]
+            ],
+            "left": [
+              [
+                5,
+                1
+              ]
+            ],
+            "lower": 1,
+            "p": 7,
+            "product": 5,
+            "right": [
+              [
+                7,
+                2
+              ]
+            ],
+            "start": 0,
+            "valid_right": 1
+          },
+          {
+            "calls": 16,
+            "euclidean": 5,
+            "expected": [
+              [
+                4,
+                3
+              ]
+            ],
+            "left": [
+              [
+                13,
+                12
+              ]
+            ],
+            "lower": 12,
+            "p": 9,
+            "product": 13,
+            "right": [
+              [
+                8,
+                7
+              ]
+            ],
+            "start": 14,
+            "valid_right": 1
+          },
+          {
+            "calls": 30,
+            "euclidean": 9,
+            "expected": [
+              [
+                7,
+                6
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "left": [
+              [
+                5,
+                1
+              ],
+              [
+                7,
+                5
+              ]
+            ],
+            "lower": 11,
+            "p": 15,
+            "product": 35,
+            "right": [
+              [
+                13,
+                12
+              ],
+              [
+                8,
+                3
+              ]
+            ],
+            "start": 30,
+            "valid_right": 2
+          }
+        ],
+        "raw_calls": 60,
+        "remaining_source": 327678,
+        "retained_cells": 1500,
+        "reverse": false,
+        "selectors": 3109580,
+        "unit_divisors": 8
+      },
+      {
+        "calls": [
+          {
+            "bijection": "dc141a8018ed10bd1b454d3a05d472a56342b0c236405de12b2536dd23cab03f",
+            "d": 5,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "e6dd55bad0106b751cefd538b45139df583f1a146c3a84f318d8c5f9650f1344",
+            "d": 1,
+            "instructions": 114595,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 3691,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "2d517d4e0b47cae64975d418f10632d66e325753c4169cd4fb058102fed8402c",
+            "d": 5,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "faeebcf8948bd9c6219a15f436371115843ce4c043c07e4e080046b4c3a25c16",
+            "d": 5,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 0,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "1ac198a34d8fc4710fc23a398ace262d5009ab7acee06539da4cc7652bca97ac",
+            "d": 5,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "12817fa09fdef5add4809ca28b4b82e57bf9c92cec127b448c5762f764e88a3b",
+            "d": 7,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "ddc022683a68ebc5b2cb6221aa67063035111691b6844fbc67d480b49ad040b8",
+            "d": 5,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 7,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "fd871d1e0f4cccb146f7550e602e230f9bb38d2f987f499f5e2501b9ed891bdb",
+            "d": 7,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "c81dfe2313aa4a3125645d3d1ef68e582b564fce8450adf317c7e7ab67313cc4",
+            "d": 2,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "57d8ef5aa61ea92ef6139b9623958257b6ee496f9b48b7318f0d37ee9292e413",
+            "d": 7,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 2,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "cbb6b4fb8318b977bd5624cabd261f9352a6c232f0ae3e92e24936ab2fd89ac0",
+            "d": 1,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 2,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "3bbaaea80d621fde2e1b95169fccf80aac62fe03d1e1a4e750f0380666278a14",
+            "d": 7,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 2,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "e8d195f915311ca62bd21be76ad407f2d3d29d7edf3a3182e1e1ca279105ad73",
+            "d": 7,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "c099a7f9ae1e7a53553ea461a1163edfb864cdf1ad11e0e74b9598dbf62b5db8",
+            "d": 7,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "c3ec479df3afba080c41dcb4c63459a90194aaa250b60762f78ce9c6e9f1ae95",
+            "d": 13,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 35,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "7c1f4196f73cee6cc58d9caf01c1571b17d107b246a103be6d671fb51a27b6cb",
+            "d": 9,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 13,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "96f1534e0f96beeb266fc0273f193223e68e015abef27f899fa846dd23c3c5b0",
+            "d": 13,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "60b39521344e678350da3ad5d74e213731d0dba4aa3ec0bb1a932d1e8c5b2703",
+            "d": 4,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 9,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "d66334ca2c09cc17a04cd3ca3185d86b11508c7d9d90fbb332158234f502866d",
+            "d": 13,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 2,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "c185d13caee0faf17fe741ab5adcc455d0e438f085635f83319773d31c8c23b1",
+            "d": 1,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 4,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "6299209b481b09d33b435d9904d23107634f6c6914728d916a14262a5cb8052c",
+            "d": 13,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 4,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "0f60d1fb0c73d1cc4ae15c75f1b0a98c8d355970a05c105596a0b94b7ed55c9a",
+            "d": 13,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 11,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "b3a8d116f8556dfd71d58778bce3052b3d8f7610a196fc068f3ee8ab7cf16138",
+            "d": 13,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 6,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "e304ddab3274ea0dc18596415ee247f465f6b99a19621b6d5f936aa49fbfb54f",
+            "d": 8,
+            "instructions": 119010,
+            "max_history": 17,
+            "n": 455,
+            "numeric_actions": 3834,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "27774cec9636845058e2b5b5271460c93f1d762e8a69ca474506358805ff72fa",
+            "d": 7,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 8,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "a0c51a237b47e193e039874d15510074e821c62d30dea9d4b17f63069995c1fa",
+            "d": 8,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "805331ca346b8357b5053967acd80d13e9eead3544cb2a6bf1859fe1db76fd53",
+            "d": 1,
+            "instructions": 119010,
+            "max_history": 17,
+            "n": 7,
+            "numeric_actions": 3834,
+            "p": 15,
+            "site": "inverse"
+          },
+          {
+            "bijection": "83c39ad1d30fba07c1160c06cfcf9862c2d8bddcbf8ec5dc23cc90aa525fb6b4",
+            "d": 8,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 7,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "43bfd312bdd2e95dec1444125e509821b3e670eb00f7a401aae9faeb1a0aa3c5",
+            "d": 8,
+            "instructions": 110180,
+            "max_history": 17,
+            "n": 11,
+            "numeric_actions": 3548,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "3489fdf86f6beb33a268777f116703b486cde6c07a2acc7b7db5c7607d30114c",
+            "d": 8,
+            "instructions": 105765,
+            "max_history": 17,
+            "n": 0,
+            "numeric_actions": 3405,
+            "p": 15,
+            "site": "remainder"
+          },
+          {
+            "bijection": "dc141a8018ed10bd1b454d3a05d472a56342b0c236405de12b2536dd23cab03f",
+            "d": 5,
+            "instructions": 27629,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "e6dd55bad0106b751cefd538b45139df583f1a146c3a84f318d8c5f9650f1344",
+            "d": 1,
+            "instructions": 32011,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 1019,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "2d517d4e0b47cae64975d418f10632d66e325753c4169cd4fb058102fed8402c",
+            "d": 5,
+            "instructions": 29820,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "faeebcf8948bd9c6219a15f436371115843ce4c043c07e4e080046b4c3a25c16",
+            "d": 5,
+            "instructions": 27629,
+            "max_history": 17,
+            "n": 0,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "1ac198a34d8fc4710fc23a398ace262d5009ab7acee06539da4cc7652bca97ac",
+            "d": 5,
+            "instructions": 27629,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "fa425dc5aa7322825d1f4ed7c0f441ce447aa6976ab540f1a158bec6080a018c",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "9a3cb47ea5fa3b449001ee90e4d096e5939ef83e23511ca066475c55ce2683ba",
+            "d": 5,
+            "instructions": 29820,
+            "max_history": 17,
+            "n": 7,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "367dfbd16a8884a2cde4d19282d04b730ecc73ca5f6613599de8aa5c495b22e2",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "bf52de07082c5ff9bfc7146afb7a4561ff17f919d711ea3a158c076a96d454b4",
+            "d": 2,
+            "instructions": 29820,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "c430041a82dec668f217383dd53b1809ad7d269241f97da8db89808e9db2ee2c",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 17,
+            "n": 2,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "8c4bb2ce6827014d51a5df15e577be7707c846a4676a0532724097c3b5f45414",
+            "d": 1,
+            "instructions": 29820,
+            "max_history": 17,
+            "n": 2,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "77e3a3bdbca2d2bd00315f11e8299678715606cf17b9bddf557bd795fb4acbd8",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 17,
+            "n": 2,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "bd2c37e176ed4a8bfa4f69512d98a1a011778466992cd65bd46037c09127c67f",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "929569dac4741d7f298968fc00cf0fc14a73125cf5d66cccfe8b2ac779803752",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "dc141a8018ed10bd1b454d3a05d472a56342b0c236405de12b2536dd23cab03f",
+            "d": 13,
+            "instructions": 42339,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "bf52de07082c5ff9bfc7146afb7a4561ff17f919d711ea3a158c076a96d454b4",
+            "d": 1,
+            "instructions": 50580,
+            "max_history": 17,
+            "n": 13,
+            "numeric_actions": 1620,
+            "p": 9,
+            "site": "inverse"
+          },
+          {
+            "bijection": "2d517d4e0b47cae64975d418f10632d66e325753c4169cd4fb058102fed8402c",
+            "d": 13,
+            "instructions": 45086,
+            "max_history": 17,
+            "n": 13,
+            "numeric_actions": 1442,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "faeebcf8948bd9c6219a15f436371115843ce4c043c07e4e080046b4c3a25c16",
+            "d": 13,
+            "instructions": 42339,
+            "max_history": 17,
+            "n": 0,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "1ac198a34d8fc4710fc23a398ace262d5009ab7acee06539da4cc7652bca97ac",
+            "d": 13,
+            "instructions": 42339,
+            "max_history": 17,
+            "n": 12,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "1e0ba2dbd3337c36c48cba482a9f96694af21721a13a32b8a181afe2b3941ad1",
+            "d": 8,
+            "instructions": 45086,
+            "max_history": 17,
+            "n": 13,
+            "numeric_actions": 1442,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "9a3cb47ea5fa3b449001ee90e4d096e5939ef83e23511ca066475c55ce2683ba",
+            "d": 5,
+            "instructions": 45086,
+            "max_history": 17,
+            "n": 8,
+            "numeric_actions": 1442,
+            "p": 9,
+            "site": "inverse"
+          },
+          {
+            "bijection": "a95b8cd734af992e5cec72bbf224a2345de5b1c5d0fa69c28129bbfbb03f7575",
+            "d": 8,
+            "instructions": 42339,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "9699588b3d1b7387561f296400db21a7911af182bc83f1cabe8d61b780af6f97",
+            "d": 3,
+            "instructions": 45086,
+            "max_history": 17,
+            "n": 5,
+            "numeric_actions": 1442,
+            "p": 9,
+            "site": "inverse"
+          },
+          {
+            "bijection": "e5477981ac6eee38f7a9fa61e3dfcdeb2a945387fb9a1efe482476318d18b668",
+            "d": 8,
+            "instructions": 42339,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "89e98f733fd7324ebfeaf0bab1608fde6f09ebc400f56e60529b43db8587396c",
+            "d": 2,
+            "instructions": 45086,
+            "max_history": 17,
+            "n": 3,
+            "numeric_actions": 1442,
+            "p": 9,
+            "site": "inverse"
+          },
+          {
+            "bijection": "94d28fb96749eea5ce55b724abfdb01bef57b992923c8232ad1a0156f6d686f4",
+            "d": 8,
+            "instructions": 42339,
+            "max_history": 17,
+            "n": 1,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "b6807250f9b6136d5462b3c96b7a0a0bf4423ea5c36fa56d4eb4736b7550cb83",
+            "d": 1,
+            "instructions": 45086,
+            "max_history": 17,
+            "n": 2,
+            "numeric_actions": 1442,
+            "p": 9,
+            "site": "inverse"
+          },
+          {
+            "bijection": "b4ab868b9eaf0a2bb987542eac4a8f621cdd13d0861e69b15642d6473bda74b1",
+            "d": 8,
+            "instructions": 42339,
+            "max_history": 17,
+            "n": 2,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "76a53861e5dd15fd439457b8e0b969d440d82ca727fe018824a6585259951251",
+            "d": 8,
+            "instructions": 45086,
+            "max_history": 17,
+            "n": 12,
+            "numeric_actions": 1442,
+            "p": 9,
+            "site": "remainder"
+          },
+          {
+            "bijection": "6c0de2ee1eb025608a34a40eb808f767d7a33106f3d1aadaba4eac237b44d432",
+            "d": 8,
+            "instructions": 42339,
+            "max_history": 17,
+            "n": 3,
+            "numeric_actions": 1353,
+            "p": 9,
+            "site": "remainder"
+          }
+        ],
+        "grant_cells": 28,
+        "instructions": 4357355,
+        "metadata": 984352,
+        "numeric": 139966,
+        "owner_count": 83,
+        "producers": [
+          {
+            "calls": 30,
+            "euclidean": 9,
+            "expected": [
+              [
+                7,
+                12
+              ],
+              [
+                5,
+                3
+              ]
+            ],
+            "left": [
+              [
+                5,
+                1
+              ],
+              [
+                7,
+                5
+              ]
+            ],
+            "lower": 11,
+            "p": 15,
+            "product": 35,
+            "right": [
+              [
+                13,
+                6
+              ],
+              [
+                8,
+                0
+              ]
+            ],
+            "start": 0,
+            "valid_right": 2
+          },
+          {
+            "calls": 14,
+            "euclidean": 4,
+            "expected": [
+              [
+                3,
+                2
+              ]
+            ],
+            "left": [
+              [
+                5,
+                1
+              ]
+            ],
+            "lower": 1,
+            "p": 7,
+            "product": 5,
+            "right": [
+              [
+                7,
+                5
+              ]
+            ],
+            "start": 30,
+            "valid_right": 1
+          },
+          {
+            "calls": 16,
+            "euclidean": 5,
+            "expected": [
+              [
+                4,
+                7
+              ]
+            ],
+            "left": [
+              [
+                13,
+                12
+              ]
+            ],
+            "lower": 12,
+            "p": 9,
+            "product": 13,
+            "right": [
+              [
+                8,
+                3
+              ]
+            ],
+            "start": 44,
+            "valid_right": 1
+          }
+        ],
+        "raw_calls": 60,
+        "remaining_source": 327756,
+        "retained_cells": 1498,
+        "reverse": true,
+        "selectors": 3109580,
+        "unit_divisors": 8
+      }
+    ],
+    "roundtrip": true
+  },
+  "independence": "Frozen separately written CPU, CRT-idempotent sum, integer quotient/remainder and allocation-only boundary model; old source only supplies a separate regression/cost baseline.",
+  "literal_instructions": 11287911,
+  "original_provider_used_by_actual_execution": false,
+  "payload": {
+    "baseline": [
+      {
+        "calls": 25,
+        "markers": 14,
+        "native": 115384,
+        "old_divisions": 50599
+      },
+      {
+        "calls": 47,
+        "markers": 14,
+        "native": 348654,
+        "old_divisions": 169931
+      }
+    ],
+    "legs": [
+      {
+        "calls": [
+          {
+            "bijection": "dc141a8018ed10bd1b454d3a05d472a56342b0c236405de12b2536dd23cab03f",
+            "d": 5,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "e6dd55bad0106b751cefd538b45139df583f1a146c3a84f318d8c5f9650f1344",
+            "d": 1,
+            "instructions": 32011,
+            "max_history": 9,
+            "n": 5,
+            "numeric_actions": 1019,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "2d517d4e0b47cae64975d418f10632d66e325753c4169cd4fb058102fed8402c",
+            "d": 5,
+            "instructions": 29820,
+            "max_history": 9,
+            "n": 5,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "faeebcf8948bd9c6219a15f436371115843ce4c043c07e4e080046b4c3a25c16",
+            "d": 5,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 0,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "1ac198a34d8fc4710fc23a398ace262d5009ab7acee06539da4cc7652bca97ac",
+            "d": 5,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "fa425dc5aa7322825d1f4ed7c0f441ce447aa6976ab540f1a158bec6080a018c",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 5,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "9a3cb47ea5fa3b449001ee90e4d096e5939ef83e23511ca066475c55ce2683ba",
+            "d": 5,
+            "instructions": 29820,
+            "max_history": 9,
+            "n": 7,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "367dfbd16a8884a2cde4d19282d04b730ecc73ca5f6613599de8aa5c495b22e2",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "bf52de07082c5ff9bfc7146afb7a4561ff17f919d711ea3a158c076a96d454b4",
+            "d": 2,
+            "instructions": 29820,
+            "max_history": 9,
+            "n": 5,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "c430041a82dec668f217383dd53b1809ad7d269241f97da8db89808e9db2ee2c",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 2,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "8c4bb2ce6827014d51a5df15e577be7707c846a4676a0532724097c3b5f45414",
+            "d": 1,
+            "instructions": 29820,
+            "max_history": 9,
+            "n": 2,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "77e3a3bdbca2d2bd00315f11e8299678715606cf17b9bddf557bd795fb4acbd8",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 2,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "bd2c37e176ed4a8bfa4f69512d98a1a011778466992cd65bd46037c09127c67f",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "929569dac4741d7f298968fc00cf0fc14a73125cf5d66cccfe8b2ac779803752",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 9,
+            "n": 2,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "dc141a8018ed10bd1b454d3a05d472a56342b0c236405de12b2536dd23cab03f",
+            "d": 2,
+            "instructions": 16135,
+            "max_history": 9,
+            "n": 1,
+            "numeric_actions": 505,
+            "p": 5,
+            "site": "remainder"
+          },
+          {
+            "bijection": "bf52de07082c5ff9bfc7146afb7a4561ff17f919d711ea3a158c076a96d454b4",
+            "d": 1,
+            "instructions": 17770,
+            "max_history": 9,
+            "n": 2,
+            "numeric_actions": 558,
+            "p": 5,
+            "site": "inverse"
+          },
+          {
+            "bijection": "2d517d4e0b47cae64975d418f10632d66e325753c4169cd4fb058102fed8402c",
+            "d": 2,
+            "instructions": 17770,
+            "max_history": 9,
+            "n": 2,
+            "numeric_actions": 558,
+            "p": 5,
+            "site": "remainder"
+          },
+          {
+            "bijection": "faeebcf8948bd9c6219a15f436371115843ce4c043c07e4e080046b4c3a25c16",
+            "d": 2,
+            "instructions": 16135,
+            "max_history": 9,
+            "n": 0,
+            "numeric_actions": 505,
+            "p": 5,
+            "site": "remainder"
+          },
+          {
+            "bijection": "99d54a73e39c2b3fdd80b067ccad3cb2b80f3e2389f9489d20e0d908397f1c4f",
+            "d": 2,
+            "instructions": 17770,
+            "max_history": 9,
+            "n": 2,
+            "numeric_actions": 558,
+            "p": 5,
+            "site": "remainder"
+          },
+          {
+            "bijection": "fa425dc5aa7322825d1f4ed7c0f441ce447aa6976ab540f1a158bec6080a018c",
+            "d": 3,
+            "instructions": 16135,
+            "max_history": 9,
+            "n": 2,
+            "numeric_actions": 505,
+            "p": 5,
+            "site": "remainder"
+          },
+          {
+            "bijection": "9a3cb47ea5fa3b449001ee90e4d096e5939ef83e23511ca066475c55ce2683ba",
+            "d": 2,
+            "instructions": 17770,
+            "max_history": 9,
+            "n": 3,
+            "numeric_actions": 558,
+            "p": 5,
+            "site": "inverse"
+          },
+          {
+            "bijection": "a95b8cd734af992e5cec72bbf224a2345de5b1c5d0fa69c28129bbfbb03f7575",
+            "d": 3,
+            "instructions": 16135,
+            "max_history": 9,
+            "n": 1,
+            "numeric_actions": 505,
+            "p": 5,
+            "site": "remainder"
+          },
+          {
+            "bijection": "9699588b3d1b7387561f296400db21a7911af182bc83f1cabe8d61b780af6f97",
+            "d": 1,
+            "instructions": 17770,
+            "max_history": 9,
+            "n": 2,
+            "numeric_actions": 558,
+            "p": 5,
+            "site": "inverse"
+          },
+          {
+            "bijection": "e5477981ac6eee38f7a9fa61e3dfcdeb2a945387fb9a1efe482476318d18b668",
+            "d": 3,
+            "instructions": 16135,
+            "max_history": 9,
+            "n": 2,
+            "numeric_actions": 505,
+            "p": 5,
+            "site": "remainder"
+          },
+          {
+            "bijection": "2842fce866327993a6aec1917bca4fab8280a01cb722a9a19df86fd5635c2198",
+            "d": 3,
+            "instructions": 16135,
+            "max_history": 9,
+            "n": 0,
+            "numeric_actions": 505,
+            "p": 5,
+            "site": "remainder"
+          }
+        ],
+        "grant_cells": 28,
+        "instructions": 585701,
+        "metadata": 410320,
+        "numeric": 18524,
+        "producers": [
+          {
+            "calls": 14,
+            "euclidean": 4,
+            "expected": [
+              [
+                3,
+                5
+              ]
+            ],
+            "left": [
+              [
+                5,
+                1
+              ]
+            ],
+            "lower": 1,
+            "p": 7,
+            "product": 5,
+            "right": [
+              [
+                7,
+                2
+              ]
+            ],
+            "start": 0,
+            "valid_right": 1
+          },
+          {
+            "calls": 11,
+            "euclidean": 3,
+            "expected": [
+              [
+                0,
+                3
+              ]
+            ],
+            "left": [
+              [
+                2,
+                2
+              ]
+            ],
+            "lower": 0,
+            "p": 5,
+            "product": 2,
+            "right": [
+              [
+                3,
+                3
+              ]
+            ],
+            "start": 14,
+            "valid_right": 0
+          }
+        ],
+        "raw_calls": 25,
+        "remaining_markers": 14,
+        "remaining_source": 64785,
+        "reverse": false,
+        "selectors": 420216,
+        "unit_divisors": 4
+      },
+      {
+        "calls": [
+          {
+            "bijection": "dc141a8018ed10bd1b454d3a05d472a56342b0c236405de12b2536dd23cab03f",
+            "d": 5,
+            "instructions": 60265,
+            "max_history": 13,
+            "n": 1,
+            "numeric_actions": 1933,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "e6dd55bad0106b751cefd538b45139df583f1a146c3a84f318d8c5f9650f1344",
+            "d": 1,
+            "instructions": 66871,
+            "max_history": 13,
+            "n": 5,
+            "numeric_actions": 2147,
+            "p": 11,
+            "site": "inverse"
+          },
+          {
+            "bijection": "2d517d4e0b47cae64975d418f10632d66e325753c4169cd4fb058102fed8402c",
+            "d": 5,
+            "instructions": 63568,
+            "max_history": 13,
+            "n": 5,
+            "numeric_actions": 2040,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "faeebcf8948bd9c6219a15f436371115843ce4c043c07e4e080046b4c3a25c16",
+            "d": 5,
+            "instructions": 60265,
+            "max_history": 13,
+            "n": 0,
+            "numeric_actions": 1933,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "1ac198a34d8fc4710fc23a398ace262d5009ab7acee06539da4cc7652bca97ac",
+            "d": 5,
+            "instructions": 60265,
+            "max_history": 13,
+            "n": 1,
+            "numeric_actions": 1933,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "12817fa09fdef5add4809ca28b4b82e57bf9c92cec127b448c5762f764e88a3b",
+            "d": 7,
+            "instructions": 60265,
+            "max_history": 13,
+            "n": 5,
+            "numeric_actions": 1933,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "ddc022683a68ebc5b2cb6221aa67063035111691b6844fbc67d480b49ad040b8",
+            "d": 5,
+            "instructions": 63568,
+            "max_history": 13,
+            "n": 7,
+            "numeric_actions": 2040,
+            "p": 11,
+            "site": "inverse"
+          },
+          {
+            "bijection": "fd871d1e0f4cccb146f7550e602e230f9bb38d2f987f499f5e2501b9ed891bdb",
+            "d": 7,
+            "instructions": 60265,
+            "max_history": 13,
+            "n": 1,
+            "numeric_actions": 1933,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "c81dfe2313aa4a3125645d3d1ef68e582b564fce8450adf317c7e7ab67313cc4",
+            "d": 2,
+            "instructions": 63568,
+            "max_history": 13,
+            "n": 5,
+            "numeric_actions": 2040,
+            "p": 11,
+            "site": "inverse"
+          },
+          {
+            "bijection": "57d8ef5aa61ea92ef6139b9623958257b6ee496f9b48b7318f0d37ee9292e413",
+            "d": 7,
+            "instructions": 60265,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 1933,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "cbb6b4fb8318b977bd5624cabd261f9352a6c232f0ae3e92e24936ab2fd89ac0",
+            "d": 1,
+            "instructions": 63568,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 2040,
+            "p": 11,
+            "site": "inverse"
+          },
+          {
+            "bijection": "3bbaaea80d621fde2e1b95169fccf80aac62fe03d1e1a4e750f0380666278a14",
+            "d": 7,
+            "instructions": 60265,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 1933,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "e8d195f915311ca62bd21be76ad407f2d3d29d7edf3a3182e1e1ca279105ad73",
+            "d": 7,
+            "instructions": 60265,
+            "max_history": 13,
+            "n": 1,
+            "numeric_actions": 1933,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "c099a7f9ae1e7a53553ea461a1163edfb864cdf1ad11e0e74b9598dbf62b5db8",
+            "d": 7,
+            "instructions": 60265,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 1933,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "ae659c129b817a7248b899e0e39999f998a9c85db33bfaa0fbccf605538da4e6",
+            "d": 2,
+            "instructions": 66871,
+            "max_history": 13,
+            "n": 35,
+            "numeric_actions": 2147,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "7c1f4196f73cee6cc58d9caf01c1571b17d107b246a103be6d671fb51a27b6cb",
+            "d": 1,
+            "instructions": 63568,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 2040,
+            "p": 11,
+            "site": "inverse"
+          },
+          {
+            "bijection": "6810980946af11af58d8510f2ef14ac150f905c249e7967545a181106f70e8b5",
+            "d": 2,
+            "instructions": 63568,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 2040,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "8cbbd74c9050f450d8734d2fcd5471000e388d2acd60e75221e8beafc065e965",
+            "d": 2,
+            "instructions": 73477,
+            "max_history": 13,
+            "n": 31,
+            "numeric_actions": 2361,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "4ede91f3cee7664de8f24e2b9dca7e10c94d611ed0addf2821aaaa55649b75c5",
+            "d": 3,
+            "instructions": 73477,
+            "max_history": 13,
+            "n": 70,
+            "numeric_actions": 2361,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "34a13a4cb707218a2148b6ffa4d58221e10c0187cc6672b41fef277e4a707c9f",
+            "d": 1,
+            "instructions": 66871,
+            "max_history": 13,
+            "n": 3,
+            "numeric_actions": 2147,
+            "p": 11,
+            "site": "inverse"
+          },
+          {
+            "bijection": "31791952d3981ac6f134ccb7cfbba53cb469df9572573909785a6e751405b3fa",
+            "d": 3,
+            "instructions": 63568,
+            "max_history": 13,
+            "n": 3,
+            "numeric_actions": 2040,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "e84c380b07a5b52dc8bde988382abd9d5b4de6ed2b3010102549750851471e65",
+            "d": 3,
+            "instructions": 66871,
+            "max_history": 13,
+            "n": 31,
+            "numeric_actions": 2147,
+            "p": 11,
+            "site": "remainder"
+          },
+          {
+            "bijection": "dc141a8018ed10bd1b454d3a05d472a56342b0c236405de12b2536dd23cab03f",
+            "d": 5,
+            "instructions": 27629,
+            "max_history": 13,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "e6dd55bad0106b751cefd538b45139df583f1a146c3a84f318d8c5f9650f1344",
+            "d": 1,
+            "instructions": 32011,
+            "max_history": 13,
+            "n": 5,
+            "numeric_actions": 1019,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "2d517d4e0b47cae64975d418f10632d66e325753c4169cd4fb058102fed8402c",
+            "d": 5,
+            "instructions": 29820,
+            "max_history": 13,
+            "n": 5,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "faeebcf8948bd9c6219a15f436371115843ce4c043c07e4e080046b4c3a25c16",
+            "d": 5,
+            "instructions": 27629,
+            "max_history": 13,
+            "n": 0,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "1ac198a34d8fc4710fc23a398ace262d5009ab7acee06539da4cc7652bca97ac",
+            "d": 5,
+            "instructions": 27629,
+            "max_history": 13,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "fa425dc5aa7322825d1f4ed7c0f441ce447aa6976ab540f1a158bec6080a018c",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 13,
+            "n": 5,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "9a3cb47ea5fa3b449001ee90e4d096e5939ef83e23511ca066475c55ce2683ba",
+            "d": 5,
+            "instructions": 29820,
+            "max_history": 13,
+            "n": 7,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "367dfbd16a8884a2cde4d19282d04b730ecc73ca5f6613599de8aa5c495b22e2",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 13,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "bf52de07082c5ff9bfc7146afb7a4561ff17f919d711ea3a158c076a96d454b4",
+            "d": 2,
+            "instructions": 29820,
+            "max_history": 13,
+            "n": 5,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "c430041a82dec668f217383dd53b1809ad7d269241f97da8db89808e9db2ee2c",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "8c4bb2ce6827014d51a5df15e577be7707c846a4676a0532724097c3b5f45414",
+            "d": 1,
+            "instructions": 29820,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 948,
+            "p": 7,
+            "site": "inverse"
+          },
+          {
+            "bijection": "77e3a3bdbca2d2bd00315f11e8299678715606cf17b9bddf557bd795fb4acbd8",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "bd2c37e176ed4a8bfa4f69512d98a1a011778466992cd65bd46037c09127c67f",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 13,
+            "n": 1,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "929569dac4741d7f298968fc00cf0fc14a73125cf5d66cccfe8b2ac779803752",
+            "d": 7,
+            "instructions": 27629,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 877,
+            "p": 7,
+            "site": "remainder"
+          },
+          {
+            "bijection": "dc141a8018ed10bd1b454d3a05d472a56342b0c236405de12b2536dd23cab03f",
+            "d": 2,
+            "instructions": 16135,
+            "max_history": 13,
+            "n": 1,
+            "numeric_actions": 505,
+            "p": 5,
+            "site": "remainder"
+          },
+          {
+            "bijection": "bf52de07082c5ff9bfc7146afb7a4561ff17f919d711ea3a158c076a96d454b4",
+            "d": 1,
+            "instructions": 17770,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 558,
+            "p": 5,
+            "site": "inverse"
+          },
+          {
+            "bijection": "2d517d4e0b47cae64975d418f10632d66e325753c4169cd4fb058102fed8402c",
+            "d": 2,
+            "instructions": 17770,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 558,
+            "p": 5,
+            "site": "remainder"
+          },
+          {
+            "bijection": "faeebcf8948bd9c6219a15f436371115843ce4c043c07e4e080046b4c3a25c16",
+            "d": 2,
+            "instructions": 16135,
+            "max_history": 13,
+            "n": 0,
+            "numeric_actions": 505,
+            "p": 5,
+            "site": "remainder"
+          },
+          {
+            "bijection": "99d54a73e39c2b3fdd80b067ccad3cb2b80f3e2389f9489d20e0d908397f1c4f",
+            "d": 2,
+            "instructions": 17770,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 558,
+            "p": 5,
+            "site": "remainder"
+          },
+          {
+            "bijection": "fa425dc5aa7322825d1f4ed7c0f441ce447aa6976ab540f1a158bec6080a018c",
+            "d": 3,
+            "instructions": 16135,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 505,
+            "p": 5,
+            "site": "remainder"
+          },
+          {
+            "bijection": "9a3cb47ea5fa3b449001ee90e4d096e5939ef83e23511ca066475c55ce2683ba",
+            "d": 2,
+            "instructions": 17770,
+            "max_history": 13,
+            "n": 3,
+            "numeric_actions": 558,
+            "p": 5,
+            "site": "inverse"
+          },
+          {
+            "bijection": "a95b8cd734af992e5cec72bbf224a2345de5b1c5d0fa69c28129bbfbb03f7575",
+            "d": 3,
+            "instructions": 16135,
+            "max_history": 13,
+            "n": 1,
+            "numeric_actions": 505,
+            "p": 5,
+            "site": "remainder"
+          },
+          {
+            "bijection": "9699588b3d1b7387561f296400db21a7911af182bc83f1cabe8d61b780af6f97",
+            "d": 1,
+            "instructions": 17770,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 558,
+            "p": 5,
+            "site": "inverse"
+          },
+          {
+            "bijection": "e5477981ac6eee38f7a9fa61e3dfcdeb2a945387fb9a1efe482476318d18b668",
+            "d": 3,
+            "instructions": 16135,
+            "max_history": 13,
+            "n": 2,
+            "numeric_actions": 505,
+            "p": 5,
+            "site": "remainder"
+          },
+          {
+            "bijection": "2842fce866327993a6aec1917bca4fab8280a01cb722a9a19df86fd5635c2198",
+            "d": 3,
+            "instructions": 16135,
+            "max_history": 13,
+            "n": 0,
+            "numeric_actions": 505,
+            "p": 5,
+            "site": "remainder"
+          }
+        ],
+        "grant_cells": 28,
+        "instructions": 1987500,
+        "metadata": 771152,
+        "numeric": 63511,
+        "producers": [
+          {
+            "calls": 22,
+            "euclidean": 6,
+            "expected": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "left": [
+              [
+                5,
+                1
+              ],
+              [
+                7,
+                2
+              ]
+            ],
+            "lower": 31,
+            "p": 11,
+            "product": 35,
+            "right": [
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "start": 0,
+            "valid_right": 0
+          },
+          {
+            "calls": 14,
+            "euclidean": 4,
+            "expected": [
+              [
+                3,
+                6
+              ]
+            ],
+            "left": [
+              [
+                5,
+                1
+              ]
+            ],
+            "lower": 1,
+            "p": 7,
+            "product": 5,
+            "right": [
+              [
+                7,
+                2
+              ]
+            ],
+            "start": 22,
+            "valid_right": 1
+          },
+          {
+            "calls": 11,
+            "euclidean": 3,
+            "expected": [
+              [
+                0,
+                3
+              ]
+            ],
+            "left": [
+              [
+                2,
+                2
+              ]
+            ],
+            "lower": 0,
+            "p": 5,
+            "product": 2,
+            "right": [
+              [
+                3,
+                3
+              ]
+            ],
+            "start": 36,
+            "valid_right": 0
+          }
+        ],
+        "raw_calls": 47,
+        "remaining_markers": 14,
+        "remaining_source": 178723,
+        "reverse": true,
+        "selectors": 1421018,
+        "unit_divisors": 8
+      }
+    ],
+    "roundtrip": true
+  },
+  "proof_sha256": "cc65e3f5d559501fa854e263a46b647be18ef0bdbd6eab0e0e57d803f0714b11",
+  "quartic_difference_coefficients_low_to_high": [
+    667419,
+    1105492,
+    742629,
+    259354,
+    29048
+  ],
+  "raw_calls": 192,
+  "review_core_sha256": "316aace11634045aa0381cb96a22e393f6f9bf857794cf1f6223b9dcfcdf5f2e",
+  "status": "PASS",
+  "unit_divisors": 28
+}

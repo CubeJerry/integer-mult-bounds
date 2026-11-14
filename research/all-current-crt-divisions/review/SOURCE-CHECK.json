@@ -1,0 +1,42 @@
+{
+  "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "entry_sha256": "0537ec98f306270c8ff6a424841886cf53f675d9947029347090c7dc779616d7",
+  "new_binding_sha256": "1b62577836ffc5906bd749b3705cfb3873cf9b15380224648fff924315efc8c9",
+  "physical_abi": "Exactly8 protected borrowed roles0..7 and56 owned roles8..63 in eager Entry.",
+  "published_core": "c4ab5dab6914a04cb86d1fe54eb763b35cc7eeb1",
+  "sources": [
+    {
+      "direction": "forward",
+      "raw_sites": [
+        {
+          "expression": "self.raw.divmod(value, modulus)",
+          "function": "remainder",
+          "line": 20
+        },
+        {
+          "expression": "self.raw.divmod(r0, r1)",
+          "function": "inverse",
+          "line": 58
+        }
+      ],
+      "sha256": "88dab4ca02a92164a67826db361214fa1405e4b4a588f8c4279a21bcee95ab76"
+    },
+    {
+      "direction": "inverse",
+      "raw_sites": [
+        {
+          "expression": "self.raw.divmod(value, modulus)",
+          "function": "remainder",
+          "line": 22
+        },
+        {
+          "expression": "self.raw.divmod(r0, r1)",
+          "function": "inverse",
+          "line": 60
+        }
+      ],
+      "sha256": "6acdebee7134fbc8e2d121060286bd05e7282900da8a28a78c80937dde7ea178"
+    }
+  ],
+  "status": "PASS"
+}

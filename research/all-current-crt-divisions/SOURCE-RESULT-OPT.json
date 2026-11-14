@@ -1,0 +1,41 @@
+{
+  "fallback_source_mutant_rejected": true,
+  "graph": "d36e8220def8efb2baed793d0bea6f0a19b0903b5b005b730652b5bb7d121194",
+  "locations": 336150,
+  "old_provider_call_expressions": 0,
+  "phase_selectors": 0,
+  "source_objects": 76,
+  "source_sites": [
+    {
+      "sites": [
+        {
+          "expression": "self.raw.divmod(value, modulus)",
+          "function": "remainder",
+          "line": 20
+        },
+        {
+          "expression": "self.raw.divmod(r0, r1)",
+          "function": "inverse",
+          "line": 58
+        }
+      ],
+      "source": "inputs/divider/inputs/headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/encoded-current-crt/producer.py"
+    },
+    {
+      "sites": [
+        {
+          "expression": "self.raw.divmod(value, modulus)",
+          "function": "remainder",
+          "line": 22
+        },
+        {
+          "expression": "self.raw.divmod(r0, r1)",
+          "function": "inverse",
+          "line": 60
+        }
+      ],
+      "source": "inputs/divider/inputs/headers/inputs/keypass/inputs/route/inputs/point/inputs/predecessor/research/encoded-crt-leaf-payload/frozen/inverse_producer.py"
+    }
+  ],
+  "status": "PASS"
+}
