@@ -452,3 +452,11 @@ The positive remaining interface is shared-S complementary channels. It needs a 
 ## S013 checkpoint4: all-exponent two-head chain exclusion
 
 For the explicit canonical two-head control and retained chain body profile, arbitrary translation-diagonal Gaussian queries obey queryprice>=2^(t-1)(e0+e1) under the stated ordinary coefficient model. Quadratic spectral patterns are physically realized forV>=2d+5*binomial(d,2). The favorable all-arm allowance is maximized at arm1 and equals14^t+2*9^t, strictly below2(1+7^t+8^t) for every0<t<1 by majorization. At t=199/200 the previous exact gap is0.0791417694912... perport/native. No scalar or nonaxis commuting query optimization can repair this caller class. General spatial permutations, different body incidence, productive helpers and improved query suppliers are outside the theorem. Both strict supplier requirements and all foundations are unchanged.
+
+## S013 checkpoint5: shared lattice geometry
+
+The actual111-root BIT source now has a verified A2/E6 decomposition:27 matched triples, nine rank4 D4 cells and twelve rank6 Hesse charts. Four ternary families carry a rank7 fitting over every characteristic-two field. The retained-copy acquisition is only partial: parking originals at the group charts prevents later wing-facet visits, so paths must be chosen before acquisition.
+
+The three-axis puncture gives common carriers F92,F15,F106 for all unfinished corrections, with57 one-cover and51 two-cover supports. Static rank18/joint19 and chi51 do not supply a packet bank. The canonical code splits into three totals and six E6 moments.
+
+The complex Eisenstein form has rank4 for every section, but ninety edge-disjoint pencils force at least ninety forbidden nonzero contacts. That is a correction obligation, not ninety MOVEs. Both strict supplier thresholds, all recursive costs and the five foundations remain. **No new kappa.** Details: results/eisenstein-rank-four-contact/, results/bit-a2-hesse-shared-charts/, results/bit-three-carrier-puncture/.

@@ -354,3 +354,7 @@ New scientific SHA256 values are computed over exact UTF8 strings; the implement
 ### S012 published recovery readback and final reviews
 
 At exact commit60dcc4a5c7c9a8b6960b575e2d86c4dd4225e0a6, root refetched all ten new recovery files plus STATE.json, SCIENTIFIC-FILES.json and SESSION-LOG.md; all13 hashes matched the intended bytes. The pure exact core extracted from the published FRESH-CONTROLS.mjs was executed again and matched FRESH-RESULT.json. Five predecessor source pins were separately authenticated. The Node filesystem wrapper and unavailable original Python/native artifacts were not executed/recovered. Each of the three workers independently fetched and reviewed the published mathematics and scope; all accepted with no material correction. See sessions/2026-11-14-S012/FINAL-REVIEWS.json and FINAL-VALIDATION.json. These are fresh published-transcription/algebra reviews, not substitute receipts for missing original files.
+
+## S013 checkpoint5
+
+Five fresh cloud executions reproduced the exact receipts: rank4 author and independent reflection review; A2/Hesse author and independent real-Coxeter review; three-carrier checker. Inputs were authenticated against admitted SHA-256 pins. Different independent algorithms and text-review scopes are documented in each package. New scientific entries:25; registry:259; scientific ledger:4243. All 4218 prior ledger entries, including qualified absences, remain. No unavailable local/global verifier is represented as rerun. Full details: sessions/2026-11-14-S013/CHECKPOINT5-VALIDATION.json.

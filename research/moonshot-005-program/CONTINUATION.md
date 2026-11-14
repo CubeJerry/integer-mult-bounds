@@ -215,3 +215,7 @@ The chi-zero16-class fitting is static and all pairwise whole-class spans are fu
 S013 is still active. The local executor is unavailable, while pureJavaScript computation and GitHub access work. Read the session workspace-loss record and cloud/SOURCE-RECOVERY.json. The new quadratic-sign package is admitted with explicit scope; the old moving-gauge/determinant/Hermitian local files are not magically recovered by that admission.
 
 Next construct across the actual three-facetA2 geometryF92,F15,F106, or fuse the live pentagon into a larger source. Preserve all source access and every movement. Complex work should exploit changed spatial/source structure, including S012's reconstructed complementary involutive channels, instead of the excluded commuting chain. Recheck the remote head before any publication.
+
+## Resume after S013 checkpoint5
+
+Read STATE.s013 and the three new admissions. Full rank3 group-cache acquisition blocks later wing-facet visits even with point copies. Use partial acquisition with original paths chosen first. Review the forthcoming76-wing strict >8V certificate and complex correction-rank minors; keep block rank between8V and9V open until proved. Continue the actual changed-role common-coupling caller. Local execution is unavailable, but cloud exact functions and leased GitHub publication work. S013 remains active toward23:21:59UTC; no background continuation is promised.

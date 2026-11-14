@@ -451,3 +451,11 @@ The environment failed around16:22 before the local checkpoint12 packages were p
 The two-head/body-seven canonical control cannot fund the retained chain for ANY0<t<1, even with arbitrary translation-diagonal Gaussian queries. The proof uses actual quadratic tensor-spectrum signs and exact majorization, with fixed-d/large-width and commuting-coefficient hypotheses explicit. This closes the apparent nonaxis-query escape within that algebra. Changed spatial operations, body incidence and joint source structure remain open.
 
 The constructive BIT direction now investigates the three actual facetsF92,F15,F106 sharing one rank6 chart. This could replace row-dependent correction carriers by a common acquisition geometry. Its complete chronology and price remain open; the already admitted live pentagon remains an actual module. Local workspace loss did not erase the programme: cloud exact computation and GitHub persistence continue, with unverified local artifacts separately recorded.
+
+## S013 checkpoint5: shared lattice geometry
+
+The actual111-root BIT source now has a verified A2/E6 decomposition:27 matched triples, nine rank4 D4 cells and twelve rank6 Hesse charts. Four ternary families carry a rank7 fitting over every characteristic-two field. The retained-copy acquisition is only partial: parking originals at the group charts prevents later wing-facet visits, so paths must be chosen before acquisition.
+
+The three-axis puncture gives common carriers F92,F15,F106 for all unfinished corrections, with57 one-cover and51 two-cover supports. Static rank18/joint19 and chi51 do not supply a packet bank. The canonical code splits into three totals and six E6 moments.
+
+The complex Eisenstein form has rank4 for every section, but ninety edge-disjoint pencils force at least ninety forbidden nonzero contacts. That is a correction obligation, not ninety MOVEs. Both strict supplier thresholds, all recursive costs and the five foundations remain. **No new kappa.** Details: results/eisenstein-rank-four-contact/, results/bit-a2-hesse-shared-charts/, results/bit-three-carrier-puncture/.

@@ -256,3 +256,7 @@ Run `python -B research/moonshot-005-program/sessions/2026-11-14-S013/reproduce_
 ## S013 checkpoint4
 
 Use results/quadratic-sign-query-gate/README.md to run the dependency-free JavaScript function. The exact body was executed in orchestration V8 after local execution became unavailable; no post-outage Node/Python run is claimed. The finite checks supplement the all-d/all-width-qualified/all-exponent written proof. Read the session workspace-loss record before using any unavailable local-path reference.
+
+## S013 checkpoint5 cloud-reproduced packages
+
+Read the package READMEs and authenticated checker wrappers. Rank4: run author/check.js with the pinned SYMMETRY.json, then review/check.js with that source and author/RESULT.json. A2: import author/check.mjs and call checkA2Geometry(flat,quad); review/check.js accepts flat,quad,author/GEOMETRY.json and checks all hashes. Three-carrier: author/check.js accepts the same admitted flat-cubic RESULT.json. All five mathematical functions actually ran in cloud V8 and matched receipts exactly; local Node execution after the outage is not claimed. Preserve the source-recovery qualification and both historical ledger exceptions.

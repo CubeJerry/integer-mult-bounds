@@ -166,3 +166,11 @@ Concurrent S012 recordcd97172df80110a4c5300ee02d26a8a34c97566c was read. Its com
 
 
 Subsequent concurrent S012 commit60dcc4a5c7c9a8b6960b575e2d86c4dd4225e0a6 supplies a freshly written admitted recovery proof, exact new JavaScript controls and authenticated published dependencies under results/s012-final-recovery/. It preserves the distinction from unavailable original compressed words. Root read its positive complementary-channel proof, exact gates and unresolved four-role reconstruction before continuing. The complete caller remains open.
+
+## S013 checkpoint5: lattice and graph-rank connections
+
+Wilson, *An eightfold path to E8* (2012, section3.3), https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/E8notes2.pdf, motivates A2^4/Eisenstein structure. The new package supplies actual native indexing and chart proofs from admitted certificates. Waegell--Aravind, https://arxiv.org/abs/1701.06512v2, identifies the forty Witting rays with the Penrose configuration; it does not price a physical rank4 source.
+
+Bukh--Cox, *On a fractional version of Haemers' bound*, https://arxiv.org/abs/1802.00476v2, provides the block-fitting/subspace formulation and multiplicativity, and proves fractional bound5/2 for C5 over every field. This is a relevant fractional-history lead, not a76-wing construction. The same-wing27-point geometry is GQ(2,4), complement of the degree16 Schlaefli graph. Canonical rank7 is checked internally; no general minimum-rank equality is imported from snippets.
+
+Canonical main remained e54523517d0f03e58352e647c403a5af3e525a57 at16:58UTC. S012 closure7a69a5fe48fc1f593e7368c30c0cf7f0f7a95ee0 follows S013 checkpoint4 and only changes its final records; it is preserved as the new parent.

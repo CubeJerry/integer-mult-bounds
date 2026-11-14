@@ -381,3 +381,11 @@ The environment failed around16:22 before the local checkpoint12 packages were p
 - **S013-LOCAL-EVIDENCE-RECOVERY** — open/qualified. See the workspace-loss record for unavailable moving-gauge, determinant and Hermitian artifacts. Observed checks do not substitute for missing bytes; new cloud reproductions receive separate provenance.
 
 The retained112-port source/caller and five foundational obligations remain. Concurrent S012's complementary channel mechanism is preserved as an explicitly reconstructed lead, not a newly admitted compressed source package.
+
+## S013 checkpoint5 dependencies
+
+- **Proved:** EISENSTEIN-RANK-FOUR-CONTACT. Rank4 for every40-cycle section; ninety forced contacts. Depends on the pinned isometry and actual phase/contact convention. Missing: paid correction and physical source. Explicit complementary rank16 is only one candidate.
+- **Proved / partial construction:** BIT-A2-HESSE-SHARED-CHARTS. Exact native geometry, ternary rank7 and retained-copy acquisition. Depends on authenticated flat-cubic and quadratic certificates. No output is completed. Omitting copies owes76V; retention does not restore lost original acquisition paths.
+- **Proved static / conditional bridge:** BIT-THREE-CARRIER-PUNCTURE. Paid axes92,15,106 give rank18/joint19 and chi51 with three fixed carriers. Missing: legal code acquisition, correction sums, owners and full invoice. Old two-loan transfer bounds are not automatically inherited.
+- **Open primary construction:** decoder-aligned partial acquisition through the shared charts. The induced76-wing fitting question is distinct from full111 rigidity. A new strict >8V certificate is reported but awaits independent review; it is not admitted here.
+- **Open complex bridge:** actual changed-role/coupling caller with complete arbitrary-input endpoints. New contact-correction rank claims also await review. No optimistic target arithmetic is a completed caller.

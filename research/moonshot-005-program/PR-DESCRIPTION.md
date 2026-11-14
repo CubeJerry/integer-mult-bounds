@@ -413,3 +413,11 @@ The cumulative branch remains an ongoing research programme, not PR-ready. The l
 ## S013 checkpoint4 addition
 
 A new independently text-reviewed theorem rules out the specified commuting two-head chain for every0<t<1, including arbitrary translation-diagonal Gaussian queries. Actual quadratic tensor-spectrum witnesses, symmetric-matrix Gaussian ranks and two explicit majorizations replace a target-specific numerical screen. PureJavaScript exact controls and the full scope are published. The result does not exclude arbitrary spatial ordinary operations or other callers. Workspace-loss provenance and authenticated certificate-based source recovery are preserved separately. **No new kappa. Ongoing research programme; no upstream PR submitted.**
+
+## S013 checkpoint5: shared lattice geometry
+
+The actual111-root BIT source now has a verified A2/E6 decomposition:27 matched triples, nine rank4 D4 cells and twelve rank6 Hesse charts. Four ternary families carry a rank7 fitting over every characteristic-two field. The retained-copy acquisition is only partial: parking originals at the group charts prevents later wing-facet visits, so paths must be chosen before acquisition.
+
+The three-axis puncture gives common carriers F92,F15,F106 for all unfinished corrections, with57 one-cover and51 two-cover supports. Static rank18/joint19 and chi51 do not supply a packet bank. The canonical code splits into three totals and six E6 moments.
+
+The complex Eisenstein form has rank4 for every section, but ninety edge-disjoint pencils force at least ninety forbidden nonzero contacts. That is a correction obligation, not ninety MOVEs. Both strict supplier thresholds, all recursive costs and the five foundations remain. **No new kappa.** Details: results/eisenstein-rank-four-contact/, results/bit-a2-hesse-shared-charts/, results/bit-three-carrier-puncture/.
