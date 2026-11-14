@@ -1,0 +1,176 @@
+{
+  "status": "PASS_INDEPENDENT_PAIRED_CLIQUE_SOURCE_REVIEW",
+  "proof_sha256": "283856e52457e1b62fcfc7d8afe42b61d7d601af81bba00baef5e5746abecc93",
+  "hosted_determinant": "415068771/2",
+  "variants": [
+    {
+      "size": 2,
+      "word_sha256": "2e949071a82e0b9a94cc488c053250ceb6d6a4a2801e317ceb005a52b5301207",
+      "all400_rows": true,
+      "all_endpoint_ids": true,
+      "input_rank": 400,
+      "paired_entries": 9216,
+      "residual_rank": 94,
+      "global_history_rank": 9,
+      "raw": {
+        "1": 120,
+        "2": 112,
+        "3": 84,
+        "5": 196,
+        "7": 8,
+        "8": 196
+      },
+      "owned": {
+        "1": 8,
+        "2": 2,
+        "8": 16
+      },
+      "counts": {
+        "INIT": 28,
+        "ADD": 2106,
+        "MOVE": 742,
+        "CLEAR": 28,
+        "SCALE": 252
+      },
+      "peak": 11,
+      "lifetimes": 28,
+      "moving_lifetimes": 26,
+      "stationary_lifetimes": 2,
+      "nonzero_new_retirements": 4,
+      "cyclic_chart_checks": 4,
+      "codec_determinants": 28,
+      "old_source_checks": [
+        "reverse_modes",
+        "D_endpoints",
+        "selected_Y",
+        "forward_modes"
+      ],
+      "seed_profile": {
+        "1": 120,
+        "2": 112,
+        "3": 88,
+        "5": 200,
+        "8": 216
+      },
+      "negative_controls": [
+        "W_sources",
+        "new_q_sources",
+        "local_B_adds",
+        "local_Y_subtractions",
+        "old_reverse_consumers"
+      ]
+    },
+    {
+      "size": 4,
+      "word_sha256": "c1f96047984841600ebc513d98e41387309d1f7a291fbf086b773711be3b25de",
+      "all400_rows": true,
+      "all_endpoint_ids": true,
+      "input_rank": 400,
+      "paired_entries": 9216,
+      "residual_rank": 92,
+      "global_history_rank": 9,
+      "raw": {
+        "1": 160,
+        "2": 112,
+        "3": 80,
+        "5": 208,
+        "8": 192
+      },
+      "owned": {
+        "1": 8,
+        "4": 2,
+        "8": 16
+      },
+      "counts": {
+        "INIT": 38,
+        "ADD": 2120,
+        "MOVE": 778,
+        "CLEAR": 38,
+        "SCALE": 252
+      },
+      "peak": 21,
+      "lifetimes": 38,
+      "moving_lifetimes": 26,
+      "stationary_lifetimes": 12,
+      "nonzero_new_retirements": 14,
+      "cyclic_chart_checks": 16,
+      "codec_determinants": 28,
+      "old_source_checks": [
+        "reverse_modes",
+        "D_endpoints",
+        "selected_Y",
+        "forward_modes"
+      ],
+      "seed_profile": {
+        "1": 120,
+        "2": 112,
+        "3": 88,
+        "5": 200,
+        "8": 216
+      },
+      "negative_controls": [
+        "W_sources",
+        "new_q_sources",
+        "local_B_adds",
+        "local_Y_subtractions",
+        "old_reverse_consumers"
+      ]
+    },
+    {
+      "size": 8,
+      "word_sha256": "c93baaa30860b9dee5190e8b8e87c8c4712f01979db1a47555d6fd5c31c94141",
+      "all400_rows": true,
+      "all_endpoint_ids": true,
+      "input_rank": 400,
+      "paired_entries": 9216,
+      "residual_rank": 88,
+      "global_history_rank": 9,
+      "raw": {
+        "1": 368,
+        "2": 112,
+        "3": 72,
+        "5": 184,
+        "8": 184
+      },
+      "owned": {
+        "1": 8,
+        "8": 18
+      },
+      "counts": {
+        "INIT": 82,
+        "ADD": 2212,
+        "MOVE": 946,
+        "CLEAR": 82,
+        "SCALE": 252
+      },
+      "peak": 65,
+      "lifetimes": 82,
+      "moving_lifetimes": 26,
+      "stationary_lifetimes": 56,
+      "nonzero_new_retirements": 58,
+      "cyclic_chart_checks": 64,
+      "codec_determinants": 28,
+      "old_source_checks": [
+        "reverse_modes",
+        "D_endpoints",
+        "selected_Y",
+        "forward_modes"
+      ],
+      "seed_profile": {
+        "1": 120,
+        "2": 112,
+        "3": 88,
+        "5": 200,
+        "8": 216
+      },
+      "negative_controls": [
+        "W_sources",
+        "new_q_sources",
+        "local_B_adds",
+        "local_Y_subtractions",
+        "old_reverse_consumers"
+      ]
+    }
+  ],
+  "scope": "Exact native rational source and reviewed all-volume chronology; owned erasure and all other foundations retained. Partial words only; no new kappa."
+}

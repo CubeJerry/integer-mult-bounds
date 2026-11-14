@@ -1,0 +1,11 @@
+# Complete caller movement blocks the direct high-label tensor lead
+
+**Proved under the stated caller and route interfaces; no larger native or new κ.** The retained eighteen-stage caller fails at target1/200 for every native label dimension h>=38 even with decoder and other excess costs granted free, under its helper endpoint-credit grammar. The exact type-B whole idles cancel its two fewer public mains. The tensor-square label dimension is81, distinct from its real Gram rank64; deleting every decoder charge cannot repair the retained caller.
+
+Within the separately stated hypothetical even-stage invoice family, the direct complex square fails every even stage count. Only a different two-stage source remains arithmetically open, requiring decoder moment per plane below2029.647596..., over34.00735 percent below the direct rows, before other costs. Higher tensor powers fail even with a free decoder. The separate BIT product/packet interface is kept distinct.
+
+Root independently checks the exact caller inventory and directed signed moments and reviews the universal stage/geometry/exponent monotonicity. A further root lemma proves every h>=136 fails all positive even-stage invoices with free decoder; h135 is the adjacent positive two-stage relaxation. Worker A independently reviews that extension. Other stage counts are NOT thereby certified callers. Helper changes, new public boundary representations and arbitrary callers are outside the exclusions.
+
+[Author proof](author/PROOF.md), [independent review](review-root/REVIEW.md), [root extension](review-root/ROOT-EXTENSION.md), [extension review](review-root/EXTENSION-INDEPENDENT-REVIEW.md), [receipt](review-root/RESULT.json). Reproduce root check.py with --package this author directory and --output a fresh JSON path. Exact source/certificate pins are retained in author/source/PINS.json. A mandatory-query omission deliberately yields a false favorable sign.
+
+Credit Worker A, root, DreamingOfClouds' open PR7583 as a scoped algebraic lead, native/caller/compiler predecessors, @CubeJerry and OpenAI assistance. No open-PR lane/orbit claim or complete supplier is imported. Both strict suppliers and five foundations remain open.

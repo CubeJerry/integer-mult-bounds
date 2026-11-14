@@ -1,0 +1,686 @@
+{
+  "status": "PASS_DISJOINT_SPARSE_OPERATOR_GATE",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "canonical_basis_hex": [
+    "0x7ffffffe0007ffc00000003fff",
+    "0x7f80fffe01fc07f03fc0003fc0ff",
+    "0x7ffffffffffffff",
+    "0xfffffff80000003fffffff",
+    "0x2a33579930e2ae294f16b0f596",
+    "0xff01fffc000fffc03fc000ff",
+    "0x2aff3332cc67219683f333259c55",
+    "0x19cc99019867c07d0cda7c0ce433",
+    "0x7f00f0fe01da80e03fc3c03f80f"
+  ],
+  "forbidden_distance_census": {
+    "18": 7,
+    "19": 24,
+    "20": 52,
+    "21": 16,
+    "22": 11,
+    "23": 1
+  },
+  "all_restriction_distances": [
+    {
+      "receiver": 0,
+      "distance": 22,
+      "minimum_word_hex": "0x130e00016b0e94f0000"
+    },
+    {
+      "receiver": 1,
+      "distance": 19,
+      "minimum_word_hex": "0x3f80fc00000003f00"
+    },
+    {
+      "receiver": 2,
+      "distance": 19,
+      "minimum_word_hex": "0x3f80fc00000003f00"
+    },
+    {
+      "receiver": 3,
+      "distance": 20,
+      "minimum_word_hex": "0x1999aaa800ab2000000000000000"
+    },
+    {
+      "receiver": 4,
+      "distance": 20,
+      "minimum_word_hex": "0x1fc07f0000000003f00"
+    },
+    {
+      "receiver": 5,
+      "distance": 20,
+      "minimum_word_hex": "0x2aaa0000000004c8957c00000000"
+    },
+    {
+      "receiver": 6,
+      "distance": 20,
+      "minimum_word_hex": "0x198000a8000005230000157c0000"
+    },
+    {
+      "receiver": 7,
+      "distance": 18,
+      "minimum_word_hex": "0x7000c20184019000000f002400"
+    },
+    {
+      "receiver": 8,
+      "distance": 19,
+      "minimum_word_hex": "0x1331aa1c00000000a96"
+    },
+    {
+      "receiver": 9,
+      "distance": 21,
+      "minimum_word_hex": "0x2210860851051109080002182"
+    },
+    {
+      "receiver": 10,
+      "distance": 18,
+      "minimum_word_hex": "0x200c8109020881400006090084"
+    },
+    {
+      "receiver": 11,
+      "distance": 20,
+      "minimum_word_hex": "0x130e2ae000000003596"
+    },
+    {
+      "receiver": 12,
+      "distance": 20,
+      "minimum_word_hex": "0xcce55e000000000a96"
+    },
+    {
+      "receiver": 13,
+      "distance": 20,
+      "minimum_word_hex": "0xcce55e000000000a96"
+    },
+    {
+      "receiver": 14,
+      "distance": 19,
+      "minimum_word_hex": "0x2200112000200101024448818150"
+    },
+    {
+      "receiver": 15,
+      "distance": 21,
+      "minimum_word_hex": "0x884420c440814c12104241"
+    },
+    {
+      "receiver": 16,
+      "distance": 21,
+      "minimum_word_hex": "0x2044881a280143084a0841"
+    },
+    {
+      "receiver": 17,
+      "distance": 21,
+      "minimum_word_hex": "0x4423101880817021208814"
+    },
+    {
+      "receiver": 18,
+      "distance": 20,
+      "minimum_word_hex": "0x4422230080a800c8504814"
+    },
+    {
+      "receiver": 19,
+      "distance": 20,
+      "minimum_word_hex": "0x2088442448140c21208814"
+    },
+    {
+      "receiver": 20,
+      "distance": 21,
+      "minimum_word_hex": "0xcc03200680330cc02300"
+    },
+    {
+      "receiver": 21,
+      "distance": 20,
+      "minimum_word_hex": "0x20231020881430210a2114"
+    },
+    {
+      "receiver": 22,
+      "distance": 20,
+      "minimum_word_hex": "0x20c1009082801043050240050800"
+    },
+    {
+      "receiver": 23,
+      "distance": 20,
+      "minimum_word_hex": "0x88800200000221460828a015042"
+    },
+    {
+      "receiver": 24,
+      "distance": 19,
+      "minimum_word_hex": "0x64000038089540002aa900"
+    },
+    {
+      "receiver": 25,
+      "distance": 19,
+      "minimum_word_hex": "0x11080088000024000a0145280681"
+    },
+    {
+      "receiver": 26,
+      "distance": 19,
+      "minimum_word_hex": "0x2082009104818040052400051400"
+    },
+    {
+      "receiver": 27,
+      "distance": 20,
+      "minimum_word_hex": "0x640003c008aa8000156900"
+    },
+    {
+      "receiver": 28,
+      "distance": 20,
+      "minimum_word_hex": "0x4102000482824034506400208200"
+    },
+    {
+      "receiver": 29,
+      "distance": 22,
+      "minimum_word_hex": "0xab5404c0003c002aa900"
+    },
+    {
+      "receiver": 30,
+      "distance": 20,
+      "minimum_word_hex": "0x2211000020202208450280d112"
+    },
+    {
+      "receiver": 31,
+      "distance": 20,
+      "minimum_word_hex": "0x82200002025011210414c0a21"
+    },
+    {
+      "receiver": 32,
+      "distance": 20,
+      "minimum_word_hex": "0x660000003802ccc000332400"
+    },
+    {
+      "receiver": 33,
+      "distance": 20,
+      "minimum_word_hex": "0x99000000380d330000332400"
+    },
+    {
+      "receiver": 34,
+      "distance": 19,
+      "minimum_word_hex": "0x4411000023002108506800c012"
+    },
+    {
+      "receiver": 35,
+      "distance": 20,
+      "minimum_word_hex": "0x4221060108424480610024084000"
+    },
+    {
+      "receiver": 36,
+      "distance": 22,
+      "minimum_word_hex": "0x822000110c50104a0a8030a21"
+    },
+    {
+      "receiver": 37,
+      "distance": 22,
+      "minimum_word_hex": "0x118800008b0022121054300a21"
+    },
+    {
+      "receiver": 38,
+      "distance": 19,
+      "minimum_word_hex": "0x8440000201820c48514030084"
+    },
+    {
+      "receiver": 39,
+      "distance": 23,
+      "minimum_word_hex": "0x1086148000508a4440052081a400"
+    },
+    {
+      "receiver": 40,
+      "distance": 19,
+      "minimum_word_hex": "0x4260824200805090000a05024000"
+    },
+    {
+      "receiver": 41,
+      "distance": 19,
+      "minimum_word_hex": "0x4210828001045100000a0a026400"
+    },
+    {
+      "receiver": 42,
+      "distance": 18,
+      "minimum_word_hex": "0x888002000002400105405282824"
+    },
+    {
+      "receiver": 43,
+      "distance": 19,
+      "minimum_word_hex": "0x6600000003200300156a801100"
+    },
+    {
+      "receiver": 44,
+      "distance": 21,
+      "minimum_word_hex": "0x6060508000a0000c18281400605"
+    },
+    {
+      "receiver": 45,
+      "distance": 20,
+      "minimum_word_hex": "0x811000047002c084a280c0021"
+    },
+    {
+      "receiver": 46,
+      "distance": 21,
+      "minimum_word_hex": "0x3300320000061030c030c00700"
+    },
+    {
+      "receiver": 47,
+      "distance": 21,
+      "minimum_word_hex": "0x11220044000300c020814a140124"
+    },
+    {
+      "receiver": 48,
+      "distance": 19,
+      "minimum_word_hex": "0x1240820282011180000600204442"
+    },
+    {
+      "receiver": 49,
+      "distance": 19,
+      "minimum_word_hex": "0xc03280c28008010000900062042"
+    },
+    {
+      "receiver": 50,
+      "distance": 21,
+      "minimum_word_hex": "0x3044184820040a0104490448800"
+    },
+    {
+      "receiver": 51,
+      "distance": 18,
+      "minimum_word_hex": "0x888002000002400105405282824"
+    },
+    {
+      "receiver": 52,
+      "distance": 20,
+      "minimum_word_hex": "0x22882110000200508610860290"
+    },
+    {
+      "receiver": 53,
+      "distance": 18,
+      "minimum_word_hex": "0x12010904490000412040000901c0"
+    },
+    {
+      "receiver": 54,
+      "distance": 22,
+      "minimum_word_hex": "0x999a0000000599800019b200"
+    },
+    {
+      "receiver": 55,
+      "distance": 20,
+      "minimum_word_hex": "0x3300000001300345800000000df0"
+    },
+    {
+      "receiver": 56,
+      "distance": 20,
+      "minimum_word_hex": "0x12010605024804812040002050c0"
+    },
+    {
+      "receiver": 57,
+      "distance": 20,
+      "minimum_word_hex": "0x40e04240c1000098000909000450"
+    },
+    {
+      "receiver": 58,
+      "distance": 20,
+      "minimum_word_hex": "0x8448888000200460906090290"
+    },
+    {
+      "receiver": 59,
+      "distance": 20,
+      "minimum_word_hex": "0x18309000604100103024003040c"
+    },
+    {
+      "receiver": 60,
+      "distance": 21,
+      "minimum_word_hex": "0x184090018061800100c24000c403"
+    },
+    {
+      "receiver": 61,
+      "distance": 20,
+      "minimum_word_hex": "0x18100a0800a2000c24028280100a"
+    },
+    {
+      "receiver": 62,
+      "distance": 19,
+      "minimum_word_hex": "0x3100904c0100004026418018800"
+    },
+    {
+      "receiver": 63,
+      "distance": 21,
+      "minimum_word_hex": "0x180360001980100200d800032003"
+    },
+    {
+      "receiver": 64,
+      "distance": 20,
+      "minimum_word_hex": "0x190a0a0000a0000e4282800010a"
+    },
+    {
+      "receiver": 65,
+      "distance": 21,
+      "minimum_word_hex": "0x4806090412c00000582418240200"
+    },
+    {
+      "receiver": 66,
+      "distance": 20,
+      "minimum_word_hex": "0x5500041048009100000ca08a081"
+    },
+    {
+      "receiver": 67,
+      "distance": 20,
+      "minimum_word_hex": "0x18128a000810050052200031018"
+    },
+    {
+      "receiver": 68,
+      "distance": 20,
+      "minimum_word_hex": "0x4c814105000420020920a210800"
+    },
+    {
+      "receiver": 69,
+      "distance": 20,
+      "minimum_word_hex": "0x50000c1048422080014004484188"
+    },
+    {
+      "receiver": 70,
+      "distance": 22,
+      "minimum_word_hex": "0x200ca019221000028c028c0290"
+    },
+    {
+      "receiver": 71,
+      "distance": 22,
+      "minimum_word_hex": "0xc3580002b000154000333200"
+    },
+    {
+      "receiver": 72,
+      "distance": 20,
+      "minimum_word_hex": "0x1801410600809020209100030181"
+    },
+    {
+      "receiver": 73,
+      "distance": 20,
+      "minimum_word_hex": "0x1089828000820103001050640a00"
+    },
+    {
+      "receiver": 74,
+      "distance": 20,
+      "minimum_word_hex": "0x909822800820420001045180a00"
+    },
+    {
+      "receiver": 75,
+      "distance": 20,
+      "minimum_word_hex": "0x3cc20002880740000019a400"
+    },
+    {
+      "receiver": 76,
+      "distance": 19,
+      "minimum_word_hex": "0x3c3c00028808800000266400"
+    },
+    {
+      "receiver": 77,
+      "distance": 22,
+      "minimum_word_hex": "0x200c1442486081400020605148"
+    },
+    {
+      "receiver": 78,
+      "distance": 20,
+      "minimum_word_hex": "0x1090288000292420001045180a00"
+    },
+    {
+      "receiver": 79,
+      "distance": 20,
+      "minimum_word_hex": "0x20031509006441400020490048"
+    },
+    {
+      "receiver": 80,
+      "distance": 18,
+      "minimum_word_hex": "0x7000c20184019000000f002400"
+    },
+    {
+      "receiver": 81,
+      "distance": 18,
+      "minimum_word_hex": "0x200c8109020881400006090084"
+    },
+    {
+      "receiver": 82,
+      "distance": 19,
+      "minimum_word_hex": "0x20034291006110800009060048"
+    },
+    {
+      "receiver": 83,
+      "distance": 21,
+      "minimum_word_hex": "0x50038090846080800006062448"
+    },
+    {
+      "receiver": 84,
+      "distance": 20,
+      "minimum_word_hex": "0x50302890848448000020604084"
+    },
+    {
+      "receiver": 85,
+      "distance": 20,
+      "minimum_word_hex": "0x20301491008228000010a06484"
+    },
+    {
+      "receiver": 86,
+      "distance": 20,
+      "minimum_word_hex": "0xa301508308110800009060048"
+    },
+    {
+      "receiver": 87,
+      "distance": 20,
+      "minimum_word_hex": "0x2030430900808600000610a484"
+    },
+    {
+      "receiver": 88,
+      "distance": 19,
+      "minimum_word_hex": "0x2840981020820d08600000214"
+    },
+    {
+      "receiver": 89,
+      "distance": 20,
+      "minimum_word_hex": "0x28480981020a81060900000214"
+    },
+    {
+      "receiver": 90,
+      "distance": 21,
+      "minimum_word_hex": "0x43000e0078078030c000001c00"
+    },
+    {
+      "receiver": 91,
+      "distance": 19,
+      "minimum_word_hex": "0x1230820250006010000600060418"
+    },
+    {
+      "receiver": 92,
+      "distance": 21,
+      "minimum_word_hex": "0x62441a00029002010444000c118"
+    },
+    {
+      "receiver": 93,
+      "distance": 19,
+      "minimum_word_hex": "0x43000078019003001980002300"
+    },
+    {
+      "receiver": 94,
+      "distance": 21,
+      "minimum_word_hex": "0x1484a007008500e04900000828"
+    },
+    {
+      "receiver": 95,
+      "distance": 19,
+      "minimum_word_hex": "0x2215181008022090600001414"
+    },
+    {
+      "receiver": 96,
+      "distance": 19,
+      "minimum_word_hex": "0x2210619008022204900002182"
+    },
+    {
+      "receiver": 97,
+      "distance": 20,
+      "minimum_word_hex": "0xa55800028802d98000001600"
+    },
+    {
+      "receiver": 98,
+      "distance": 20,
+      "minimum_word_hex": "0x4148a007008051090600000828"
+    },
+    {
+      "receiver": 99,
+      "distance": 19,
+      "minimum_word_hex": "0xa0200400a140c08045404800028"
+    },
+    {
+      "receiver": 100,
+      "distance": 20,
+      "minimum_word_hex": "0x12210a1140006400604020400188"
+    },
+    {
+      "receiver": 101,
+      "distance": 20,
+      "minimum_word_hex": "0x12101824c10002408020508004a0"
+    },
+    {
+      "receiver": 102,
+      "distance": 20,
+      "minimum_word_hex": "0x2840980311281108600000882"
+    },
+    {
+      "receiver": 103,
+      "distance": 19,
+      "minimum_word_hex": "0x2848108110a00448504850000"
+    },
+    {
+      "receiver": 104,
+      "distance": 20,
+      "minimum_word_hex": "0x22114901040a4084512208000"
+    },
+    {
+      "receiver": 105,
+      "distance": 20,
+      "minimum_word_hex": "0x144880421040a4122088450000"
+    },
+    {
+      "receiver": 106,
+      "distance": 20,
+      "minimum_word_hex": "0x9180a2800090402120011280021"
+    },
+    {
+      "receiver": 107,
+      "distance": 22,
+      "minimum_word_hex": "0x14121425221200485048504000"
+    },
+    {
+      "receiver": 108,
+      "distance": 22,
+      "minimum_word_hex": "0x5ac20002b0058cc0002a8000"
+    },
+    {
+      "receiver": 109,
+      "distance": 22,
+      "minimum_word_hex": "0x221149120a0a4210a04904000"
+    },
+    {
+      "receiver": 110,
+      "distance": 20,
+      "minimum_word_hex": "0x2848109221200520a120a0000"
+    }
+  ],
+  "restricted_codes_enumerated": 111,
+  "binary_words_per_restriction": 512,
+  "nine_point_boundary": {
+    "receiver": 7,
+    "first_support": [
+      10,
+      13,
+      24,
+      25,
+      26,
+      27,
+      52,
+      55,
+      56
+    ],
+    "second_support": [
+      66,
+      71,
+      72,
+      81,
+      86,
+      87,
+      100,
+      101,
+      102
+    ],
+    "common_nonzero_residual_hex": "0x19000000f002400"
+  },
+  "halfclass_sizes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    4,
+    2,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    2,
+    4,
+    4,
+    3,
+    4,
+    3,
+    4,
+    3,
+    4,
+    4,
+    4,
+    3,
+    4,
+    4,
+    4,
+    3,
+    4,
+    4
+  ],
+  "named_locality_census": {
+    "7": 75,
+    "8": 24,
+    "9": 4,
+    "22": 8
+  },
+  "GF4_width_two_matrix_cases": 9216,
+  "GF4_cancellation_cases": 18,
+  "higher_width_matrix_controls": [
+    {
+      "width": 3,
+      "cases": 576,
+      "whole_block_cancellations": 0
+    },
+    {
+      "width": 4,
+      "cases": 4096,
+      "whole_block_cancellations": 0
+    }
+  ],
+  "native_width_two_control": {
+    "receiver": 39,
+    "removed_contacts": [
+      1,
+      3,
+      4
+    ],
+    "foreign_support": 52,
+    "ell": 221,
+    "actual_canonical_quotient": 2
+  },
+  "overlap_control": {
+    "width": 3,
+    "receiver": 0,
+    "ell": 220,
+    "actual_canonical_quotient": 3,
+    "violated_hypothesis": "three scalar component supports share the same point"
+  },
+  "universal_claim": "proved in PROOF.md, not inferred from finite matrix controls",
+  "new_kappa": null
+}

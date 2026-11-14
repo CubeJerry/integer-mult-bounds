@@ -1,0 +1,98 @@
+{
+  "status": "PASS_INDEPENDENT_RECTANGULAR_TENSOR_GATE",
+  "rectangle_certificates": [
+    {
+      "g": 2,
+      "ordered_rectangles": 16,
+      "sharp_lambda": "1",
+      "witness": {
+        "D": [
+          0
+        ],
+        "S": [
+          0
+        ],
+        "rational_rank": 1,
+        "binary_rank": 1
+      },
+      "rank_method": "exact integer elimination with row gcd normalization"
+    },
+    {
+      "g": 3,
+      "ordered_rectangles": 256,
+      "sharp_lambda": "4/3",
+      "witness": {
+        "D": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "S": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rational_rank": 4,
+        "binary_rank": 3
+      },
+      "rank_method": "exact integer elimination with row gcd normalization"
+    },
+    {
+      "g": 4,
+      "ordered_rectangles": 65536,
+      "sharp_lambda": "3/2",
+      "witness": {
+        "D": [
+          0,
+          1,
+          2
+        ],
+        "S": [
+          5,
+          6,
+          7
+        ],
+        "rational_rank": 3,
+        "binary_rank": 2
+      },
+      "rank_method": "exact integer elimination with row gcd normalization"
+    }
+  ],
+  "budgets": [
+    {
+      "g": 2,
+      "h": 18,
+      "upper_gap": [
+        "-4492412605152771317057722497209/3250000000000000000000000000000",
+        "-449241260515277131705772249673/325000000000000000000000000000"
+      ],
+      "upper_gap_decimal": -1.3822808015854682
+    },
+    {
+      "g": 3,
+      "h": 27,
+      "upper_gap": [
+        "-30372065988262813626759007081303/6500000000000000000000000000000",
+        "-60744131976525627253518014160699/13000000000000000000000000000000"
+      ],
+      "upper_gap_decimal": -4.672625536655818
+    },
+    {
+      "g": 4,
+      "h": 36,
+      "upper_gap": [
+        "-36165398462721929571697645817051/3250000000000000000000000000000",
+        "-1446615938508877182867905832663/130000000000000000000000000000"
+      ],
+      "upper_gap_decimal": -11.127814911606748
+    }
+  ],
+  "changed_eight_stage_interval": [
+    "2897094937911353279400057683793/6500000000000000000000000000000",
+    "1448547468955676639700028842113/3250000000000000000000000000000"
+  ],
+  "negative_control": "three nonzero forbidden Gram pairs despite correct diagonal",
+  "scope": "Direct tensor rows and retained18-stage caller; g>=5 uses separately reviewed free-decoder dimension gate. Changed callers and shared ascents remain open; no new kappa."
+}

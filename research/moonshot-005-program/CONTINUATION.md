@@ -6,7 +6,11 @@ PROGRAMME, TARGET-005, OBLIGATIONS and latest append-only SESSION-LOG. Check
 canonical changes since its recorded SHA. Baseline hashes are not self hashes.
 Keep the protected mathematics-first allocation in PROGRAMME active.
 
-## Latest S012 checkpoint5 frontier
+## Latest S012 checkpoint6 frontier
+
+Actual funded history is the primary construction task. Proper-born paired k4 source is proved with positive margin and residual92; full fresh repetition fails. Singular exported mode capture and changed C4 paid-import schedules are under independent review. BIT width2/dim3 in the entire halfclass reservoir now provably misses the coarse194 gate; dimension4 has only a code-level witness. Scalar equality/parity is settled in its stated scope. Direct higher-label tensor/retained18-caller options fail exact budgets; an actual eight-stage caller and compatible native source are being developed. Both strict suppliers and all five foundations remain open. No new kappa.
+
+## S012 checkpoint5 frontier (historical)
 
 Sharp scalar proper-cover capacity is14. Near-width and MDS pure-tensor quotients below2V cannot reach the retained target; other non-MDS and genuinely entangled spaces remain open. Binary four-direction chains are excluded, while larger-field exceptional types are under structural investigation. Class boundaries must pass actual fitting-rank and acquisition bills. Continue funded changed-history complex construction and actual original-route acquisition; independently review the proper-born cohort sources next. The higher-label tensor-native idea from open PR7583 is only a complete-budget preflight, not an adopted supplier. Both strict suppliers and all five foundations remain open.
 

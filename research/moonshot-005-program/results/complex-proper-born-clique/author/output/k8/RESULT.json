@@ -1,0 +1,795 @@
+{
+  "all400_input_rank": 400,
+  "all96_D_original_at_final_facets": true,
+  "all_scalars_dyadic": true,
+  "clique": [
+    48,
+    50,
+    71,
+    80,
+    87,
+    98,
+    103,
+    105
+  ],
+  "codec_determinants": [
+    {
+      "D_determinant": "-1",
+      "Y_determinant": "-1",
+      "class_ports": [
+        0,
+        7,
+        27,
+        57,
+        81,
+        87,
+        92
+      ],
+      "pivot_ports": [
+        0,
+        7,
+        27,
+        57
+      ],
+      "removed": [
+        87
+      ]
+    },
+    {
+      "D_determinant": "1",
+      "Y_determinant": "1",
+      "class_ports": [
+        1,
+        6,
+        28,
+        58,
+        75,
+        82,
+        86
+      ],
+      "pivot_ports": [
+        1,
+        6,
+        28,
+        58
+      ],
+      "removed": []
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        29,
+        59,
+        73,
+        74,
+        83,
+        84,
+        30,
+        60
+      ],
+      "pivot_ports": [
+        29,
+        59,
+        73,
+        74
+      ],
+      "removed": []
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        2,
+        9,
+        25,
+        72,
+        79,
+        89,
+        94
+      ],
+      "pivot_ports": [
+        2,
+        9,
+        25,
+        72
+      ],
+      "removed": []
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        10,
+        11,
+        62,
+        63,
+        70,
+        71,
+        90,
+        91
+      ],
+      "pivot_ports": [
+        10,
+        11,
+        62,
+        70
+      ],
+      "removed": [
+        71
+      ]
+    },
+    {
+      "D_determinant": "-1/2",
+      "Y_determinant": "-1/2",
+      "class_ports": [
+        4,
+        5,
+        64,
+        65,
+        68,
+        69,
+        96,
+        97
+      ],
+      "pivot_ports": [
+        4,
+        5,
+        64,
+        68
+      ],
+      "removed": []
+    },
+    {
+      "D_determinant": "-1/2",
+      "Y_determinant": "-1/2",
+      "class_ports": [
+        8,
+        26,
+        66,
+        67,
+        80,
+        88,
+        95
+      ],
+      "pivot_ports": [
+        8,
+        26,
+        66,
+        67
+      ],
+      "removed": [
+        80
+      ]
+    },
+    {
+      "D_determinant": "-1/2",
+      "Y_determinant": "-1/2",
+      "class_ports": [
+        18,
+        54,
+        55,
+        101,
+        102,
+        19,
+        40
+      ],
+      "pivot_ports": [
+        18,
+        54,
+        55,
+        101
+      ],
+      "removed": []
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        12,
+        31,
+        56,
+        77,
+        100,
+        103,
+        17,
+        38
+      ],
+      "pivot_ports": [
+        12,
+        31,
+        56,
+        77
+      ],
+      "removed": [
+        103
+      ]
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        13,
+        16,
+        43,
+        44,
+        51,
+        78,
+        99,
+        104
+      ],
+      "pivot_ports": [
+        13,
+        16,
+        43,
+        44
+      ],
+      "removed": []
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        15,
+        41,
+        42,
+        53,
+        105,
+        106,
+        52
+      ],
+      "pivot_ports": [
+        15,
+        41,
+        42,
+        53
+      ],
+      "removed": [
+        105
+      ]
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        24,
+        32,
+        35,
+        45,
+        48,
+        85,
+        98,
+        107
+      ],
+      "pivot_ports": [
+        24,
+        32,
+        35,
+        45
+      ],
+      "removed": [
+        48,
+        98
+      ]
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        22,
+        23,
+        33,
+        49,
+        50,
+        108,
+        109
+      ],
+      "pivot_ports": [
+        22,
+        23,
+        33,
+        49
+      ],
+      "removed": [
+        50
+      ]
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        20,
+        36,
+        37,
+        46,
+        110,
+        111,
+        47
+      ],
+      "pivot_ports": [
+        20,
+        36,
+        37,
+        46
+      ],
+      "removed": []
+    }
+  ],
+  "current_a_forward_offdiagonal_coefficients": 4608,
+  "forward_global_history_rank": 9,
+  "hosted_I_minus_Gram_determinant": "415068771/2",
+  "hosted_transpose_entries_checked": 9216,
+  "negative_controls": [
+    "wrong_new_forward_row",
+    "wrong_new_reverse_row",
+    "omit_local_forward_subtraction",
+    "omit_local_reverse_addition",
+    "copy_original_D_instead_of_X",
+    "wrong_old_reverse_consumer",
+    "false_new_mode_destination"
+  ],
+  "new_nonzero_owned_retirements": [
+    {
+      "chart": 1143,
+      "input_support": 8,
+      "nonzero": true,
+      "operation": 1342,
+      "role": 408
+    },
+    {
+      "chart": 3,
+      "input_support": 8,
+      "nonzero": true,
+      "operation": 1361,
+      "role": 409
+    },
+    {
+      "chart": 46,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1364,
+      "role": 410
+    },
+    {
+      "chart": 66,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1367,
+      "role": 418
+    },
+    {
+      "chart": 74,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1370,
+      "role": 426
+    },
+    {
+      "chart": 81,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1373,
+      "role": 434
+    },
+    {
+      "chart": 91,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1376,
+      "role": 442
+    },
+    {
+      "chart": 96,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1379,
+      "role": 450
+    },
+    {
+      "chart": 98,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1382,
+      "role": 458
+    },
+    {
+      "chart": 44,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1385,
+      "role": 459
+    },
+    {
+      "chart": 1144,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1388,
+      "role": 411
+    },
+    {
+      "chart": 1150,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1391,
+      "role": 419
+    },
+    {
+      "chart": 1156,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1394,
+      "role": 427
+    },
+    {
+      "chart": 1162,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1397,
+      "role": 435
+    },
+    {
+      "chart": 1168,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1400,
+      "role": 443
+    },
+    {
+      "chart": 1174,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1403,
+      "role": 451
+    },
+    {
+      "chart": 1180,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1406,
+      "role": 452
+    },
+    {
+      "chart": 1186,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1409,
+      "role": 460
+    },
+    {
+      "chart": 1145,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1412,
+      "role": 412
+    },
+    {
+      "chart": 1151,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1415,
+      "role": 420
+    },
+    {
+      "chart": 1157,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1418,
+      "role": 428
+    },
+    {
+      "chart": 1163,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1421,
+      "role": 436
+    },
+    {
+      "chart": 1169,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1424,
+      "role": 444
+    },
+    {
+      "chart": 1175,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1427,
+      "role": 445
+    },
+    {
+      "chart": 1181,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1430,
+      "role": 453
+    },
+    {
+      "chart": 1187,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1433,
+      "role": 461
+    },
+    {
+      "chart": 1146,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1436,
+      "role": 413
+    },
+    {
+      "chart": 1152,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1439,
+      "role": 421
+    },
+    {
+      "chart": 1158,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1442,
+      "role": 429
+    },
+    {
+      "chart": 1164,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1445,
+      "role": 437
+    },
+    {
+      "chart": 1170,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1448,
+      "role": 438
+    },
+    {
+      "chart": 1176,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1451,
+      "role": 446
+    },
+    {
+      "chart": 1182,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1454,
+      "role": 454
+    },
+    {
+      "chart": 1188,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1457,
+      "role": 462
+    },
+    {
+      "chart": 1147,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1460,
+      "role": 414
+    },
+    {
+      "chart": 1153,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1463,
+      "role": 422
+    },
+    {
+      "chart": 1159,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1466,
+      "role": 430
+    },
+    {
+      "chart": 1165,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1469,
+      "role": 431
+    },
+    {
+      "chart": 1171,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1472,
+      "role": 439
+    },
+    {
+      "chart": 1177,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1475,
+      "role": 447
+    },
+    {
+      "chart": 1183,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1478,
+      "role": 455
+    },
+    {
+      "chart": 1189,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1481,
+      "role": 463
+    },
+    {
+      "chart": 1148,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1484,
+      "role": 415
+    },
+    {
+      "chart": 1154,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1487,
+      "role": 423
+    },
+    {
+      "chart": 1160,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1490,
+      "role": 424
+    },
+    {
+      "chart": 1166,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1493,
+      "role": 432
+    },
+    {
+      "chart": 1172,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1496,
+      "role": 440
+    },
+    {
+      "chart": 1178,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1499,
+      "role": 448
+    },
+    {
+      "chart": 1184,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1502,
+      "role": 456
+    },
+    {
+      "chart": 1190,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1505,
+      "role": 464
+    },
+    {
+      "chart": 1149,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1508,
+      "role": 416
+    },
+    {
+      "chart": 1155,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1511,
+      "role": 417
+    },
+    {
+      "chart": 1161,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1514,
+      "role": 425
+    },
+    {
+      "chart": 1167,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1517,
+      "role": 433
+    },
+    {
+      "chart": 1173,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1520,
+      "role": 441
+    },
+    {
+      "chart": 1179,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1523,
+      "role": 449
+    },
+    {
+      "chart": 1185,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1526,
+      "role": 457
+    },
+    {
+      "chart": 1191,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1529,
+      "role": 465
+    }
+  ],
+  "old_forward_modes_preserved": true,
+  "old_reverse_modes_exactly_omit_selected_D": true,
+  "original_coordinate_forward_debt": 4961,
+  "owned_erasure_assumption_retained": true,
+  "owned_histogram": {
+    "1": 8,
+    "8": 18
+  },
+  "payload_sha256": "796ce8cc626c371774177beade93fcbfeae31d1c995348e59daa841b40d3b16a",
+  "raw_histogram": {
+    "1": 368,
+    "2": 112,
+    "3": 72,
+    "5": 184,
+    "8": 184
+  },
+  "reverse_residual_rank": 88,
+  "scope": "Actual partial source for every field volume by its stated linear identities; inherited owned erasure and all uniform physical/foundational duties remain. No new kappa.",
+  "selected_Y_completed": [
+    48,
+    50,
+    71,
+    80,
+    87,
+    98,
+    103,
+    105
+  ],
+  "size": 8,
+  "source_bill": {
+    "counts": {
+      "ADD": 2212,
+      "CLEAR": 82,
+      "INIT": 82,
+      "MOVE": 946,
+      "SCALE": 252
+    },
+    "instructions": 3574,
+    "lifetimes": 82,
+    "moves": {
+      "1": 376,
+      "2": 112,
+      "3": 72,
+      "5": 184,
+      "8": 202
+    },
+    "peak": 65
+  },
+  "source_pins": {
+    "codec": "4cb31f8f1c5b2e069afbbb3a3f028c787b677684a558bc12c2f31f51a4871297",
+    "native": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+    "replay": "045ec283e41288354bb82d2f1e8a62facfb67c23cd4f6954f4d7a5ae744bd37e",
+    "seed": "6281068be019f5f17ee9b64dd4f08323b00d1d3003b7ff3ccda6597ebe6265fc"
+  },
+  "status": "PASS_ACTUAL_PAIRED_PROPER_BORN_CLIQUE_SOURCE",
+  "word_sha256": "c93baaa30860b9dee5190e8b8e87c8c4712f01979db1a47555d6fd5c31c94141"
+}

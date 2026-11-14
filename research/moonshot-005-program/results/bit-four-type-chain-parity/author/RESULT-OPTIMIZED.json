@@ -1,0 +1,75 @@
+{
+  "status": "PASS_FOUR_TYPE_CHAIN_PARITY_CONTROLS",
+  "field": "F4 with alpha^2=alpha+1",
+  "identity_admitting_selectors": 3120,
+  "selector_type_census": {
+    "0": 48,
+    "nonexceptional": 2880,
+    "4": 48,
+    "1": 48,
+    "3": 48,
+    "2": 48
+  },
+  "four_type_sets": 5,
+  "selector_set_checks": 15600,
+  "generic_cover_histogram": {
+    "3": 960,
+    "5": 3510,
+    "6": 10890,
+    "0": 240
+  },
+  "unique_weight_solution_without_evenness": [
+    [
+      7,
+      7,
+      7,
+      7
+    ]
+  ],
+  "even_weight_solution_count": 0,
+  "omitted_type_boundary": {
+    "chosen_types": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "omitted_type": 4,
+    "U": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "identity_preimage": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "coverage": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "abstract_five_type_weights": [
+    6,
+    6,
+    6,
+    6,
+    4
+  ],
+  "universal_proof": "PROOF.md; finite field controls do not prove the all-field statement",
+  "claim": "At most four exceptional types imply chi>=195, using the scalar equality classification",
+  "new_kappa": null
+}

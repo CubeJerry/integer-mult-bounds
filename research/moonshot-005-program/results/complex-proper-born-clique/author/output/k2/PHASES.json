@@ -1,0 +1,828 @@
+{
+  "clique": [
+    48,
+    50
+  ],
+  "engine_pins": {
+    "clifford_exact.py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "native_verify.py": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38"
+  },
+  "map_count": 9,
+  "recipes": [
+    {
+      "rank": 1,
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            2,
+            4,
+            9,
+            16,
+            33,
+            64,
+            1,
+            128,
+            256
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 1,
+        "right": {
+          "linear_Z4": [
+            0,
+            0,
+            3,
+            0,
+            3,
+            0,
+            2,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            84,
+            1,
+            2,
+            68,
+            8,
+            80,
+            32,
+            128,
+            256
+          ],
+          "offset": 1,
+          "phase": 1,
+          "quadratic_rows": [
+            0,
+            0,
+            20,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source": 3,
+      "source_frame": [],
+      "target": 44,
+      "target_frame": [
+        84
+      ]
+    },
+    {
+      "rank": 1,
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            2,
+            4,
+            9,
+            16,
+            33,
+            64,
+            128,
+            256,
+            1
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 1,
+        "right": {
+          "linear_Z4": [
+            0,
+            0,
+            3,
+            0,
+            3,
+            0,
+            0,
+            0,
+            2
+          ],
+          "matrix_rows": [
+            276,
+            1,
+            2,
+            260,
+            8,
+            272,
+            32,
+            64,
+            128
+          ],
+          "offset": 1,
+          "phase": 1,
+          "quadratic_rows": [
+            0,
+            0,
+            20,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source": 3,
+      "source_frame": [],
+      "target": 46,
+      "target_frame": [
+        276
+      ]
+    },
+    {
+      "rank": 2,
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            3,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            4,
+            8,
+            18,
+            32,
+            66,
+            128,
+            3,
+            256,
+            1
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            3,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 2,
+        "right": {
+          "linear_Z4": [
+            0,
+            0,
+            3,
+            0,
+            3,
+            0,
+            3,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            320,
+            84,
+            1,
+            2,
+            324,
+            8,
+            336,
+            32,
+            128
+          ],
+          "offset": 2,
+          "phase": 1,
+          "quadratic_rows": [
+            0,
+            0,
+            276,
+            0,
+            276,
+            0,
+            320,
+            0,
+            84
+          ]
+        }
+      },
+      "source": 3,
+      "source_frame": [],
+      "target": 1143,
+      "target_frame": [
+        276,
+        84
+      ]
+    },
+    {
+      "rank": 7,
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            144,
+            8,
+            276,
+            32,
+            20,
+            64,
+            4
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 7,
+        "right": {
+          "linear_Z4": [
+            2,
+            2,
+            1,
+            2,
+            3,
+            2,
+            2,
+            2,
+            0
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            272,
+            8,
+            324,
+            32,
+            128,
+            340,
+            64
+          ],
+          "offset": 107,
+          "phase": 1,
+          "quadratic_rows": [
+            0,
+            0,
+            20,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source": 44,
+      "source_frame": [
+        84
+      ],
+      "target": 173,
+      "target_frame": [
+        1,
+        2,
+        8,
+        20,
+        32,
+        64,
+        128,
+        260
+      ]
+    },
+    {
+      "rank": 1,
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            2,
+            4,
+            9,
+            16,
+            33,
+            64,
+            128,
+            256,
+            1
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 1,
+        "right": {
+          "linear_Z4": [
+            0,
+            0,
+            3,
+            0,
+            3,
+            0,
+            0,
+            0,
+            2
+          ],
+          "matrix_rows": [
+            276,
+            1,
+            2,
+            260,
+            8,
+            272,
+            32,
+            64,
+            128
+          ],
+          "offset": 1,
+          "phase": 1,
+          "quadratic_rows": [
+            0,
+            0,
+            20,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source": 44,
+      "source_frame": [
+        84
+      ],
+      "target": 1143,
+      "target_frame": [
+        276,
+        84
+      ]
+    },
+    {
+      "rank": 7,
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            144,
+            8,
+            276,
+            32,
+            4,
+            64,
+            20
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 7,
+        "right": {
+          "linear_Z4": [
+            2,
+            2,
+            1,
+            2,
+            3,
+            2,
+            0,
+            2,
+            2
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            80,
+            8,
+            324,
+            32,
+            128,
+            340,
+            256
+          ],
+          "offset": 107,
+          "phase": 1,
+          "quadratic_rows": [
+            0,
+            0,
+            20,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source": 46,
+      "source_frame": [
+        276
+      ],
+      "target": 171,
+      "target_frame": [
+        1,
+        2,
+        8,
+        20,
+        32,
+        68,
+        128,
+        256
+      ]
+    },
+    {
+      "rank": 1,
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            2,
+            4,
+            9,
+            16,
+            33,
+            64,
+            1,
+            128,
+            256
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 1,
+        "right": {
+          "linear_Z4": [
+            0,
+            0,
+            3,
+            0,
+            3,
+            0,
+            2,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            84,
+            1,
+            2,
+            68,
+            8,
+            80,
+            32,
+            128,
+            256
+          ],
+          "offset": 1,
+          "phase": 1,
+          "quadratic_rows": [
+            0,
+            0,
+            20,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source": 46,
+      "source_frame": [
+        276
+      ],
+      "target": 1143,
+      "target_frame": [
+        276,
+        84
+      ]
+    },
+    {
+      "rank": 2,
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            3,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            4,
+            8,
+            18,
+            32,
+            66,
+            128,
+            3,
+            256,
+            1
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            3,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 2,
+        "right": {
+          "linear_Z4": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            3,
+            0,
+            2
+          ],
+          "matrix_rows": [
+            320,
+            84,
+            1,
+            2,
+            324,
+            8,
+            336,
+            32,
+            128
+          ],
+          "offset": 0,
+          "phase": 2,
+          "quadratic_rows": [
+            0,
+            0,
+            276,
+            0,
+            276,
+            0,
+            320,
+            0,
+            84
+          ]
+        }
+      },
+      "source": 1143,
+      "source_frame": [
+        276,
+        84
+      ],
+      "target": 3,
+      "target_frame": []
+    },
+    {
+      "rank": 7,
+      "recipe": {
+        "left": {
+          "linear_Z4": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            0,
+            0
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            132,
+            8,
+            16,
+            32,
+            276,
+            64,
+            20
+          ],
+          "offset": 0,
+          "phase": 0,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rank": 7,
+        "right": {
+          "linear_Z4": [
+            2,
+            2,
+            0,
+            2,
+            0,
+            2,
+            0,
+            2,
+            2
+          ],
+          "matrix_rows": [
+            1,
+            2,
+            260,
+            8,
+            16,
+            32,
+            128,
+            256,
+            320
+          ],
+          "offset": 239,
+          "phase": 1,
+          "quadratic_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source": 1143,
+      "source_frame": [
+        276,
+        84
+      ],
+      "target": 127,
+      "target_frame": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256
+      ]
+    }
+  ],
+  "scope": "Exact finite source chart recipes via retained engines; reproduction, not independent review or uniform supplier admission.",
+  "status": "PASS_ALL_PROPER_BORN_CLIQUE_INTRODUCED_MAPS",
+  "word_sha256": "2e949071a82e0b9a94cc488c053250ceb6d6a4a2801e317ceb005a52b5301207",
+  "wrong_global_phase_rejected": true
+}

@@ -1,0 +1,13 @@
+# Full halfclass reservoir: width-two quotient threshold4
+
+**Proved for the pinned111-port source over every characteristic-two field. No new kappa.** Let C be the canonical rank9 scalar code and U the full36-dimensional halfclass indicator span. In the actual quotient D=U/(C intersect U), of dimension30, every width-two native fitting with quotient contained in E subset D tensor k^2 and dim(E)<=3 has proper-cover charge chi>=196. Arbitrary overlapping combinations and block operators are allowed. No decomposable, commuting, fixed-chain or rank-one-free hypothesis is used.
+
+The retained two-seven-clique fitting has chi194 and quotient dimension4 in this reservoir. Thus the least quotient dimension for chi<=194 is exactly4. This does not assert that196 is attainable at dimension3. Acquisition and physical cost of the dimension4 fitting remain open.
+
+The proof combines all111 local kernel identities, canonical distance48, restricted distance18, literal intersections below distance48 and saving-row plane incidence in dimension3. Its decisive geometric step excludes two-proper-subspace covers even where quadratic evaluation rank is27 or26: rank7 unique quadratic forms and two exact nonfactorable pencils rule out products of two linear forms. The real chart geometry and characteristic-two coefficient field are kept distinct.
+
+[Author proof](author/PROOF.md), [independent review](review-root/REVIEW.md), [independent receipt](review-root/RESULT.json), [fresh minor certificates](review-root/INDEPENDENT-MINORS.json.gz). Root reconstructs all5253 local unions,4543 cross-family pairs,501 six-cliques,56 coordinate/family subcodes and270 geometric forced sets, using fresh reverse-order minors modulo523. It imports no author checker. Reproduce with `python review-root/check.py --native <pinned BIT-NATIVE-WORD.json.gz> --package author --output <fresh directory>`; expected status PASS_INDEPENDENT_FULL_HALFCLASS_WIDTH2_GATE. The native path from the repository root is `research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz`.
+
+The frozen author header's pending-review status is superseded by this separate admission. Canonical quotient dimension is not an arbitrary fitting-rank or physical packet count; adding9V requires actual canonical containment. The scoped chi194 boundary is algebraic and does not discharge stronger source-route budgets. Both strict suppliers, full recursion and all five foundations remain open. The GF4 search's UNKNOWN outcome is separate and is not proof evidence.
+
+Credit Worker C, root independent review, @CubeJerry and the named native-code, scalar-cover and class-reservoir predecessors. Prepared with OpenAI assistance.

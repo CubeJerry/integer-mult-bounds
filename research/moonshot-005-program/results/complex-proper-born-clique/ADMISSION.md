@@ -1,0 +1,11 @@
+# Cyclic paired source flags complete actual rows and expose the fresh-cohort limit
+
+**Proved all-volume linear construction, exact partial native words, and scoped movement results. No new κ.** A nonorthogonal native clique uses cyclic interval flags to acquire actual X caches and paired original-D updates. Fresh forward and reverse sums move between the genuine clique plane and ground. Frozen k=2,4,8 words preserve all400 inputs and endpoints, restore all96 D, and satisfy all9,216 hosted transpose entries. They complete k forward rows and leave reverse residual rank(96-k)V.
+
+The four-port word completes ports48,50,71,80 and leaves residual92. Its complete retained caller movement room is0.425928862477643... before the finite-m penalty; first positive fixed m is76. The two-port word first passes at m8. The eight-port word attains the eight-proper-receiver interface cap with actual access but fails the budget. Formula values for k3/5/6/7 describe the proved general construction without separately frozen words.
+
+Every new sum/cache retires nonzero under the retained owned-erasure premise. All raw refinements, new transfers, old encoder deletions, ordinary opcodes and storage are counted. Root imports no author replay and independently checks the full rational source, authentic old/new values, all28 codec determinants, geometry, profiles and targeted omissions. Separate integer-root accounting agrees with the author; an isolated author reproduction also matches ten artifacts including retained signed-phase checks.
+
+Repeating disjoint fresh cohorts cannot complete the source: paired owned movement alone is at least24*8^(199/200)=190.014078..., exceeding the149.832849... direct-public-route oracle even after refunding all old Gram charges. This excludes only that fresh disjoint grammar; changed paid histories and other geometry remain open.
+
+[Proof](author/PROOF.md), [independent review](review-root/REVIEW.md), [source receipt](review-root/RESULT.json), [full price](review-root/PRICE.json), [reproduction](author/README.md). Credit Worker B, root, omitted-Gram/native/paired predecessors, @CubeJerry and OpenAI assistance. Ordinary uniformity, completion, strict complex/BIT suppliers and all five foundations remain open.

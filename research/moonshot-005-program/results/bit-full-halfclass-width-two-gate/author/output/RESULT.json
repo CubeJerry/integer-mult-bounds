@@ -1,0 +1,85 @@
+{
+  "status": "PASS_FULL_HALFCLASS_QUOTIENT3_GATE_PREMISES",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "dimensions": {
+    "C": 9,
+    "U": 36,
+    "C_plus_U": 39,
+    "C_intersect_U": 6,
+    "reservoir_quotient": 30
+  },
+  "canonical_minimum_distance": 48,
+  "forbidden_distance_histogram": {
+    "18": 7,
+    "19": 24,
+    "20": 52,
+    "21": 16,
+    "22": 11,
+    "23": 1
+  },
+  "noncoordinate_local_support_maximum": 20,
+  "noncoordinate_pair_union_maximum": 34,
+  "noncoordinate_pairs": 5253,
+  "cross_family_pairs": 4543,
+  "small_support_X": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    11,
+    46,
+    50
+  ],
+  "family_support_sizes": [
+    26,
+    27,
+    28,
+    27,
+    28,
+    23,
+    24
+  ],
+  "common_six_cases": 501,
+  "coordinate_family_subcode_cases": 56,
+  "quadratic_certificates": 270,
+  "noncoordinate_quadratic_rank": 27,
+  "outside_X_quadratic_rank": 28,
+  "coordinate_family_quadratic_rank_census": {
+    "26": 2,
+    "27": 54
+  },
+  "nonfactorable_pencils": 2,
+  "controls": {
+    "duplicate_full_minor_is_zero": true,
+    "forced_gamma1_support_has_exact_chi2": true,
+    "quotient4_target_boundary": {
+      "first_clique": [
+        54,
+        56,
+        57,
+        59,
+        61,
+        63,
+        64
+      ],
+      "second_clique": [
+        52,
+        53,
+        55,
+        58,
+        60,
+        62,
+        65
+      ],
+      "canonical_quotient_dimension": 4,
+      "exact_chi": 194
+    }
+  },
+  "claim": "Every native width2 fitting with canonical quotient dimension<=3 inside the full halfclass reservoir has chi>=196; universal proof in PROOF.md; independent review pending",
+  "new_kappa": null
+}

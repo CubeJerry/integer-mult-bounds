@@ -1,0 +1,105 @@
+{
+  "status": "PASS_SCALAR_EQUALITY14_SOURCE_PREMISES",
+  "native_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+  "sharp14_cases_sha256": "7567810dd8eab8add727a5d2e4371cb6af588d4e61630e62c43a07f7f5b45932",
+  "new_envelope_equal14_cases": [
+    [
+      3,
+      4,
+      1,
+      14
+    ],
+    [
+      4,
+      4,
+      1,
+      14
+    ],
+    [
+      4,
+      5,
+      1,
+      14
+    ],
+    [
+      4,
+      6,
+      1,
+      14
+    ],
+    [
+      4,
+      7,
+      1,
+      14
+    ],
+    [
+      5,
+      5,
+      4,
+      14
+    ],
+    [
+      8,
+      8,
+      7,
+      14
+    ]
+  ],
+  "rank3": {
+    "independent_triples": 220934,
+    "rank3_flats": 74396,
+    "flat_width_cases": 11761,
+    "equal14_cases": 94,
+    "equal14_width_histogram": {
+      "6": 94
+    },
+    "inherited_larger_cases": 94
+  },
+  "cliques": {
+    "clique_counts": {
+      "1": 111,
+      "2": 3235,
+      "3": 29939,
+      "4": 90079,
+      "5": 77003,
+      "6": 35667,
+      "7": 9443,
+      "8": 1094
+    },
+    "equal14_orthogonal4": 9,
+    "full_native_D4": 1121,
+    "six_with_two_outside": 30632,
+    "nonorthogonal_outside_pairs": 0,
+    "old_seven_links": 31472
+  },
+  "new_quad28_minors": 103,
+  "low_degree_rank": 7,
+  "controls": {
+    "duplicate_minor_rank_defect": true,
+    "seven_support": [
+      54,
+      56,
+      57,
+      59,
+      61,
+      63,
+      64
+    ],
+    "seven_exact_chi": 208,
+    "six_used_rows_exact_chi": 210,
+    "eight_support": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "eight_exact_chi": 214
+  },
+  "claim": "Every scalar proper-cover saving14 fitting has exactly seven double-saving rows on an orthogonal7 support; universal proof in PROOF.md; independent review pending",
+  "new_kappa": null
+}

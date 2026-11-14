@@ -1,0 +1,474 @@
+{
+  "all400_input_rank": 400,
+  "all96_D_original_at_final_facets": true,
+  "all_scalars_dyadic": true,
+  "clique": [
+    48,
+    50,
+    71,
+    80
+  ],
+  "codec_determinants": [
+    {
+      "D_determinant": "-1",
+      "Y_determinant": "-1",
+      "class_ports": [
+        0,
+        7,
+        27,
+        57,
+        81,
+        87,
+        92
+      ],
+      "pivot_ports": [
+        0,
+        7,
+        27,
+        57
+      ],
+      "removed": []
+    },
+    {
+      "D_determinant": "1",
+      "Y_determinant": "1",
+      "class_ports": [
+        1,
+        6,
+        28,
+        58,
+        75,
+        82,
+        86
+      ],
+      "pivot_ports": [
+        1,
+        6,
+        28,
+        58
+      ],
+      "removed": []
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        29,
+        59,
+        73,
+        74,
+        83,
+        84,
+        30,
+        60
+      ],
+      "pivot_ports": [
+        29,
+        59,
+        73,
+        74
+      ],
+      "removed": []
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        2,
+        9,
+        25,
+        72,
+        79,
+        89,
+        94
+      ],
+      "pivot_ports": [
+        2,
+        9,
+        25,
+        72
+      ],
+      "removed": []
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        10,
+        11,
+        62,
+        63,
+        70,
+        71,
+        90,
+        91
+      ],
+      "pivot_ports": [
+        10,
+        11,
+        62,
+        70
+      ],
+      "removed": [
+        71
+      ]
+    },
+    {
+      "D_determinant": "-1/2",
+      "Y_determinant": "-1/2",
+      "class_ports": [
+        4,
+        5,
+        64,
+        65,
+        68,
+        69,
+        96,
+        97
+      ],
+      "pivot_ports": [
+        4,
+        5,
+        64,
+        68
+      ],
+      "removed": []
+    },
+    {
+      "D_determinant": "-1/2",
+      "Y_determinant": "-1/2",
+      "class_ports": [
+        8,
+        26,
+        66,
+        67,
+        80,
+        88,
+        95
+      ],
+      "pivot_ports": [
+        8,
+        26,
+        66,
+        67
+      ],
+      "removed": [
+        80
+      ]
+    },
+    {
+      "D_determinant": "-1/2",
+      "Y_determinant": "-1/2",
+      "class_ports": [
+        18,
+        54,
+        55,
+        101,
+        102,
+        19,
+        40
+      ],
+      "pivot_ports": [
+        18,
+        54,
+        55,
+        101
+      ],
+      "removed": []
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        12,
+        31,
+        56,
+        77,
+        100,
+        103,
+        17,
+        38
+      ],
+      "pivot_ports": [
+        12,
+        31,
+        56,
+        77
+      ],
+      "removed": []
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        13,
+        16,
+        43,
+        44,
+        51,
+        78,
+        99,
+        104
+      ],
+      "pivot_ports": [
+        13,
+        16,
+        43,
+        44
+      ],
+      "removed": []
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        15,
+        41,
+        42,
+        53,
+        105,
+        106,
+        52
+      ],
+      "pivot_ports": [
+        15,
+        41,
+        42,
+        53
+      ],
+      "removed": []
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        24,
+        32,
+        35,
+        45,
+        48,
+        85,
+        98,
+        107
+      ],
+      "pivot_ports": [
+        24,
+        32,
+        35,
+        45
+      ],
+      "removed": [
+        48
+      ]
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        22,
+        23,
+        33,
+        49,
+        50,
+        108,
+        109
+      ],
+      "pivot_ports": [
+        22,
+        23,
+        33,
+        49
+      ],
+      "removed": [
+        50
+      ]
+    },
+    {
+      "D_determinant": "1/2",
+      "Y_determinant": "1/2",
+      "class_ports": [
+        20,
+        36,
+        37,
+        46,
+        110,
+        111,
+        47
+      ],
+      "pivot_ports": [
+        20,
+        36,
+        37,
+        46
+      ],
+      "removed": []
+    }
+  ],
+  "current_a_forward_offdiagonal_coefficients": 4800,
+  "forward_global_history_rank": 9,
+  "hosted_I_minus_Gram_determinant": "415068771/2",
+  "hosted_transpose_entries_checked": 9216,
+  "negative_controls": [
+    "wrong_new_forward_row",
+    "wrong_new_reverse_row",
+    "omit_local_forward_subtraction",
+    "omit_local_reverse_addition",
+    "copy_original_D_instead_of_X",
+    "wrong_old_reverse_consumer",
+    "false_new_mode_destination"
+  ],
+  "new_nonzero_owned_retirements": [
+    {
+      "chart": 1143,
+      "input_support": 4,
+      "nonzero": true,
+      "operation": 1102,
+      "role": 408
+    },
+    {
+      "chart": 3,
+      "input_support": 4,
+      "nonzero": true,
+      "operation": 1113,
+      "role": 409
+    },
+    {
+      "chart": 46,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1116,
+      "role": 410
+    },
+    {
+      "chart": 66,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1119,
+      "role": 414
+    },
+    {
+      "chart": 74,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1122,
+      "role": 418
+    },
+    {
+      "chart": 44,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1125,
+      "role": 419
+    },
+    {
+      "chart": 1144,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1128,
+      "role": 411
+    },
+    {
+      "chart": 1146,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1131,
+      "role": 415
+    },
+    {
+      "chart": 1148,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1134,
+      "role": 416
+    },
+    {
+      "chart": 1150,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1137,
+      "role": 420
+    },
+    {
+      "chart": 1145,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1140,
+      "role": 412
+    },
+    {
+      "chart": 1147,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1143,
+      "role": 413
+    },
+    {
+      "chart": 1149,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1146,
+      "role": 417
+    },
+    {
+      "chart": 1151,
+      "input_support": 1,
+      "nonzero": true,
+      "operation": 1149,
+      "role": 421
+    }
+  ],
+  "old_forward_modes_preserved": true,
+  "old_reverse_modes_exactly_omit_selected_D": true,
+  "original_coordinate_forward_debt": 5172,
+  "owned_erasure_assumption_retained": true,
+  "owned_histogram": {
+    "1": 8,
+    "4": 2,
+    "8": 16
+  },
+  "payload_sha256": "59f7948ea878060746aefd45f255d255aba8355d0b7dbcabc433888c7fe80f80",
+  "raw_histogram": {
+    "1": 160,
+    "2": 112,
+    "3": 80,
+    "5": 208,
+    "8": 192
+  },
+  "reverse_residual_rank": 92,
+  "scope": "Actual partial source for every field volume by its stated linear identities; inherited owned erasure and all uniform physical/foundational duties remain. No new kappa.",
+  "selected_Y_completed": [
+    48,
+    50,
+    71,
+    80
+  ],
+  "size": 4,
+  "source_bill": {
+    "counts": {
+      "ADD": 2120,
+      "CLEAR": 38,
+      "INIT": 38,
+      "MOVE": 778,
+      "SCALE": 252
+    },
+    "instructions": 3226,
+    "lifetimes": 38,
+    "moves": {
+      "1": 168,
+      "2": 112,
+      "3": 80,
+      "4": 2,
+      "5": 208,
+      "8": 208
+    },
+    "peak": 21
+  },
+  "source_pins": {
+    "codec": "4cb31f8f1c5b2e069afbbb3a3f028c787b677684a558bc12c2f31f51a4871297",
+    "native": "2b94953dc14a122e3ef089633f05b58ec689ec5156feb7c784ed3e137dc01883",
+    "replay": "045ec283e41288354bb82d2f1e8a62facfb67c23cd4f6954f4d7a5ae744bd37e",
+    "seed": "6281068be019f5f17ee9b64dd4f08323b00d1d3003b7ff3ccda6597ebe6265fc"
+  },
+  "status": "PASS_ACTUAL_PAIRED_PROPER_BORN_CLIQUE_SOURCE",
+  "word_sha256": "c1f96047984841600ebc513d98e41387309d1f7a291fbf086b773711be3b25de"
+}

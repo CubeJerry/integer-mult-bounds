@@ -1,0 +1,82 @@
+{
+  "status": "PASS_INDEPENDENT_DISJOINT_SPARSE_GATE_PREMISES",
+  "canonical_words": 512,
+  "restricted_rank": 8,
+  "forbidden_distance_histogram": {
+    "22": 11,
+    "19": 24,
+    "20": 52,
+    "18": 7,
+    "21": 16,
+    "23": 1
+  },
+  "nine_point_threshold_counterexample": {
+    "receiver": 7,
+    "restriction_word": [
+      10,
+      13,
+      24,
+      25,
+      26,
+      27,
+      52,
+      55,
+      56,
+      66,
+      71,
+      72,
+      81,
+      86,
+      87,
+      100,
+      101,
+      102
+    ],
+    "first": [
+      10,
+      13,
+      24,
+      25,
+      26,
+      27,
+      52,
+      55,
+      56
+    ],
+    "second": [
+      66,
+      71,
+      72,
+      81,
+      86,
+      87,
+      100,
+      101,
+      102
+    ]
+  },
+  "matrix_controls": {
+    "(2, 4)": {
+      "checked": 3072,
+      "erasures": 6
+    },
+    "(3, 2)": {
+      "checked": 576,
+      "erasures": 0
+    },
+    "(4, 2)": {
+      "checked": 4096,
+      "erasures": 0
+    }
+  },
+  "width2_positive_control": {
+    "receiver": 39,
+    "three_deleted_contacts": [
+      1,
+      3,
+      4
+    ],
+    "foreign_support": 52
+  },
+  "scope": "Finite exact source premises plus separately reviewed all-field sparse-residual proof. Overlapping components and arbitrary halfclass linear combinations remain outside the theorem; no new kappa."
+}
