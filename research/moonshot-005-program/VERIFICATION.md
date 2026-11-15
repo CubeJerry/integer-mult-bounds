@@ -686,3 +686,17 @@ Manifests, source pins and reproduced outcomes are bound in
 sessions/2026-11-16-S016/CHECKPOINT1-VALIDATION.json. Finite checks do not supply
 universal proof. Direct point controls, incomplete endpoints, integral inverses
 and collective-algebra restrictions are retained. No new kappa.
+
+## S016 checkpoint2
+
+Root's independent interpreter replayed omitted-cache and valid late-helper
+words, with five semantic mutants and exact price intervals (first even m12).
+D4 source recovered independently: root minor determinant-5, author minor1;
+twelve omitted-target controls and11-arrival price relaxation preserve the
+information/price distinction. Stable canonical9 remains a premise.
+Root independently checked the complex identity in the free-product algebra
+<a,k | k²=1>, h=aka^-1, and reconstructed actual head ranks symplectically.
+The author's width1/2 physical tests were separately rerun. The component-rank
+census follows from the admitted bimodule theorem and physical rank invariance.
+Packaged reproduction commands passed. No full supplier or foundation is
+proved; precise evidence is in both new package admission pages.

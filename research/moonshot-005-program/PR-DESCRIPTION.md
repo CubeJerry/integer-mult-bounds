@@ -1,5 +1,17 @@
 # Construct chronological shared-facet decoders and prove source and Gaussian-rank constraints toward κ = 0.005
 
+## Latest verified extension (S016 checkpoint2)
+
+The source quotient now has a literal six-output word and an exact scoped
+D4 single-meet limit. The complex track adds an actual dyadic quadratic-sector
+source and the independent component-rank census that prevents overcrediting
+its mixed output. All proofs, literal invoices and independent reviews are
+linked in the two new admission packages. These contributions strengthen the
+ongoing programme; **No new κ**. Candidate8-seed and nonlinear-head extensions
+are unfinished and are not included as established results. The branch remains
+an ongoing programme, not a newly PR-ready multiplication theorem.
+
+
 **Cumulative draft; ongoing programme, not PR-ready. No new κ.** No upstream
 pull request is submitted automatically. The selected conditional bound remains
 κ=0.00363005817. The targetκ≥1/200 is open, and all five foundational assumptions

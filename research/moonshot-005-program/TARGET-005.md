@@ -1,5 +1,23 @@
 # Exact requirements for κ = 1/200
 
+## S016 checkpoint2 update
+
+The exact cache quotient reduces the six-word to Q=1620.387286928434341397...,
+with limiting room1.363593282718013848... and first hypothetical even m12.
+It remains more expensive than direct point copies. A stable canonical9,
+one-meet D4 extension needs12 paid incoming modes, so its floor
+222[7]+9[8]+12[1] already exceeds B_infinity by0.457993272947479096....
+The source premise must change; the active8-seed W15/dual-use point construction
+is pending physical replay, not an admitted Q certificate.
+
+For the admitted quadratic-sector complex word, Gaussian profile remains
+3[1]+6[7]+3[8]. Its mixed rank2/rank3 content is not an independent(3,2,2)
+endpoint. The component-rank sum is4D on3 banks; ordinary boundary encodings
+preserve each component's physical rank, excluding such endpoint conversion.
+A nonlinear monomial source/physical tariff is being investigated. No movement
+margin is credited to an unbuilt endpoint or unproved physical service.
+
+
 ## S016 current extension and economic screen
 
 Actual cross-chart four/six source words are proved and independently replayed:

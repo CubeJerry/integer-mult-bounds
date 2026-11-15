@@ -1,5 +1,24 @@
 # Current proof-dependency map
 
+## S016 checkpoint2 changes
+
+- **Proved:** literal A3 cache-quotient word, with independent all-column replay.
+- **Disproved within scope:**12-root D4 continuation using stable canonical9
+  and only one common meet; private inputs/multiple meets remain outside.
+- **Proved:** actual three-native dyadic quadratic-sector partial source.
+- **Proved necessary condition:** independent Gaussian endpoints require the
+  physical rank census sum_r rank(pi_r M)=R D. The fixed mixed source fails it.
+- **Open primary:** acquire the8 W15-compatible D4 seeds and actual local modes,
+  complete the candidate12 outputs and extend to all111. Static decomposition
+  alone is insufficient.
+- **Open complementary:** nonlinear monomial source admission, compact-control
+  physical specialization and profitable independent complex endpoints.
+
+Exact claims and reviews: [BIT](results/bit-quotient-funnel-d4-gate/ADMISSION.md),
+[complex](results/complex-quadratic-sector-source/ADMISSION.md).
+All earlier scoped results remain evidence; no full supplier or new kappa.
+
+
 ## S016 active frontier
 
 **BIT-HIERARCHICAL-SOURCE / open, primary.** Construct an actual multiple-meet

@@ -332,3 +332,14 @@ improves certification gates but retains ordinary BIT cap.00385248 below target.
 caller/native/contact laws; only metadata and scope were read. No theorem or
 incompatibility is imported. Public discussion checks have pagination limits.
 No upstream posts or PRs were made.
+
+### S016 targeted scope reading
+
+Read #7619 README/proof metadata at b04b27d50f48a51b9ef8a7821b09b509429f97a9.
+Its dying/slack, relay and compiler laws are P104/source-family scoped. Fresh
+one-hop public-helper credit belongs to that complete invoice and cannot
+simply offset our owned-source Q. Arbitrary-token restoration remains relevant
+for future source interfaces; no PR theorem/code is admitted here.
+Reviewed @CubeJerry #6916's accepted detailed description and dependency,
+validation and credit structure as a quality reference. Its result is
+historical, not the target or current selected certificate.

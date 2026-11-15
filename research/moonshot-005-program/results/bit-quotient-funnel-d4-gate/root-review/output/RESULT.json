@@ -1,0 +1,230 @@
+{
+  "status": "PASS_ROOT_QUOTIENT_AND_D4_REVIEW",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "quotient_word": {
+    "six": {
+      "columns": 222,
+      "targets": [
+        1,
+        3,
+        73,
+        76,
+        77,
+        80
+      ],
+      "counts": {
+        "INIT": 18,
+        "ADD": 594,
+        "MOVE": 344,
+        "CLEAR": 18
+      },
+      "movement_profile": {
+        "1": 18,
+        "2": 75,
+        "3": 20,
+        "4": 20,
+        "5": 75,
+        "6": 6,
+        "7": 125,
+        "8": 5
+      },
+      "peak_owners": 18,
+      "dirty_clears": 18,
+      "canonical_cut": {
+        "canonical_rank": 9,
+        "arrival_rank": 11,
+        "literal_principal_history_rank": 111
+      },
+      "word_sha256": "638df03d1676b8ba98a405c9eb0888baa6974012d98859dc7062deecfa764aed",
+      "budget": {
+        "moment": {
+          "lower_fraction": "810193643464217170698673132809133/500000000000000000000000000000",
+          "upper_fraction": "50637102716513573168667070800581/31250000000000000000000000000",
+          "display_lower": "1620.3872869284343778",
+          "display_upper": "1620.3872869284343778"
+        },
+        "limiting_room": {
+          "lower_fraction": "1363593282718013848899884748319/1000000000000000000000000000000",
+          "upper_fraction": "1636311939261616618679861698621/1200000000000000000000000000000",
+          "display_lower": "1.3635932827180139",
+          "display_upper": "1.3635932827180139"
+        },
+        "first_positive_even_m": 12,
+        "first_margin": {
+          "lower_fraction": "191839447047987686359215177291/4000000000000000000000000000",
+          "upper_fraction": "23979930880998460794901897232781/500000000000000000000000000000",
+          "display_lower": "47.9598617619969190",
+          "display_upper": "47.9598617619969190"
+        },
+        "method": "integer bisection of200th roots at scale10^30; displays noncertifying"
+      }
+    },
+    "late-control": {
+      "columns": 222,
+      "targets": [
+        1,
+        3,
+        73,
+        76,
+        77,
+        80
+      ],
+      "counts": {
+        "INIT": 18,
+        "MOVE": 344,
+        "ADD": 594,
+        "CLEAR": 18
+      },
+      "movement_profile": {
+        "1": 16,
+        "2": 75,
+        "3": 20,
+        "4": 20,
+        "5": 75,
+        "6": 6,
+        "7": 127,
+        "8": 5
+      },
+      "peak_owners": 18,
+      "dirty_clears": 18,
+      "canonical_cut": {},
+      "word_sha256": "778252340e51dc87967c8f231513edc34be7636de87958806359816862f9243f",
+      "budget": {
+        "moment": {
+          "lower_fraction": "816125866861614490238710068700281/500000000000000000000000000000",
+          "upper_fraction": "163225173372322898047742013740089/100000000000000000000000000000",
+          "display_lower": "1632.2517337232288810",
+          "display_upper": "1632.2517337232288810"
+        },
+        "limiting_room": {
+          "lower_fraction": "-10500853512076625231173987033979/1000000000000000000000000000000",
+          "upper_fraction": "-63005121072459751387043922200671/6000000000000000000000000000000",
+          "display_lower": "-10.5008535120766258",
+          "display_upper": "-10.5008535120766258"
+        },
+        "first_positive_even_m": null,
+        "first_margin": null,
+        "method": "integer bisection of200th roots at scale10^30; displays noncertifying"
+      }
+    }
+  },
+  "triangle_relation_support": 58,
+  "independent_semantic_controls": [
+    {
+      "name": "retained cache read",
+      "rejected": "Y endpoint"
+    },
+    {
+      "name": "changed ground preload",
+      "rejected": "Y endpoint"
+    },
+    {
+      "name": "early source capture",
+      "rejected": "Y endpoint"
+    },
+    {
+      "name": "original restoration",
+      "rejected": "X restoration"
+    },
+    {
+      "name": "owner retirement",
+      "rejected": "retirement"
+    }
+  ],
+  "D4": {
+    "targets": [
+      1,
+      3,
+      4,
+      6,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "free_local_sources": [
+      0,
+      2,
+      5,
+      7,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "canonical_basis_rows": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      9,
+      14,
+      30,
+      59
+    ],
+    "minor_columns": [
+      110,
+      109,
+      108,
+      106,
+      102,
+      101,
+      95,
+      87,
+      58
+    ],
+    "minor_determinant": -5,
+    "canonical_grant_rank": 21,
+    "with_targets_rank": 33,
+    "target_omission_controls": 12,
+    "movement_floor": {
+      "moment": {
+        "lower_fraction": "5069402729637811982321485091649/3125000000000000000000000000",
+        "upper_fraction": "1622208873484099834342875229327911/1000000000000000000000000000000",
+        "display_lower": "1622.2088734840997404",
+        "display_upper": "1622.2088734840997404"
+      },
+      "limiting_room": {
+        "lower_fraction": "-114498318236869774157269740249/250000000000000000000000000000",
+        "upper_fraction": "-2747959637684874579774473763403/6000000000000000000000000000000",
+        "display_lower": "-0.4579932729474791",
+        "display_upper": "-0.4579932729474791"
+      },
+      "first_positive_even_m": null,
+      "first_margin": null,
+      "method": "integer bisection of200th roots at scale10^30; displays noncertifying"
+    },
+    "eleven_arrival_relaxation": {
+      "moment": {
+        "lower_fraction": "5066277729637811982321485091649/3125000000000000000000000000",
+        "upper_fraction": "1621208873484099834342875229327911/1000000000000000000000000000000",
+        "display_lower": "1621.2088734840997404",
+        "display_upper": "1621.2088734840997404"
+      },
+      "limiting_room": {
+        "lower_fraction": "135501681763130225842730259751/250000000000000000000000000000",
+        "upper_fraction": "3252040362315125420225526236597/6000000000000000000000000000000",
+        "display_lower": "0.5420067270525210",
+        "display_upper": "0.5420067270525210"
+      },
+      "first_positive_even_m": 24,
+      "first_margin": {
+        "lower_fraction": "589794195893458375796981075811/250000000000000000000000000000",
+        "upper_fraction": "235917678357383350318792451829/100000000000000000000000000000",
+        "display_lower": "2.3591767835738335",
+        "display_upper": "2.3591767835738335"
+      },
+      "method": "integer bisection of200th roots at scale10^30; displays noncertifying"
+    }
+  },
+  "new_complete_kappa": false
+}

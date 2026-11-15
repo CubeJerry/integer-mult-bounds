@@ -1,5 +1,17 @@
 # Resume hierarchical source delivery and a dyadic complex caller
 
+## Active S016 checkpoint2
+
+Resume baseline b09e94f920c2940d7d6c0581fb9a94add0d0a9b2, then inspect newer
+remote commits. This is still the same five-hour session ending03:44:34UTC.
+The next concrete BIT candidate has8 W15-compatible seeds and six dual-use
+point fields; its proposed12-output word needs independent replay. Complete
+source-cut information and remaining99 endpoints are essential. The complex
+track is moving from a proved but endpoint-inseparable quadratic-sector source
+to nonlinear monomial heads and a fully priced compact-control bridge.
+No new complete kappa; do not restart either track or retest the fixed gates.
+
+
 S016 is active, begun from remote4743ad65eff2ce1a63bf8572e4e2bf0751b0426d.
 Window2026-11-15T22:44:34Z through2026-11-16T03:44:34Z. Read exact remote HEAD
 and STATE before continuing; no scheduled background work exists. Selected

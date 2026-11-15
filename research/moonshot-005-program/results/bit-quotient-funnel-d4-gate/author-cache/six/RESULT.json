@@ -1,0 +1,163 @@
+{
+  "status": "PASS_ACTUAL_CACHE_QUOTIENT_FUNNEL_SOURCE",
+  "targets": [
+    1,
+    3,
+    73,
+    76,
+    77,
+    80
+  ],
+  "columns": 222,
+  "counts": {
+    "INIT": 18,
+    "ADD": 594,
+    "MOVE": 344,
+    "CLEAR": 18
+  },
+  "movement_profile": {
+    "1": 18,
+    "2": 75,
+    "3": 20,
+    "4": 20,
+    "5": 75,
+    "6": 6,
+    "7": 125,
+    "8": 5
+  },
+  "peak_owners": 18,
+  "dirty_clears": 18,
+  "events": {
+    "source_cut": {
+      "held_originals": [
+        1,
+        3,
+        73,
+        76,
+        77,
+        80
+      ],
+      "Hub_original_rank": 105
+    },
+    "canonical9_before_Y": {
+      "held_originals": [
+        1,
+        3,
+        73,
+        76,
+        77,
+        80
+      ],
+      "Hub_original_rank": 105,
+      "ground_canonical_rank": 9,
+      "first_acquisition_history_rank": 111
+    },
+    "completed_1": {
+      "actual_endpoint": true
+    },
+    "completed_3": {
+      "actual_endpoint": true
+    },
+    "completed_73": {
+      "actual_endpoint": true
+    },
+    "completed_76": {
+      "actual_endpoint": true
+    },
+    "completed_77": {
+      "actual_endpoint": true
+    },
+    "completed_80": {
+      "actual_endpoint": true
+    }
+  },
+  "new_complete_kappa": false,
+  "semantic_negative_controls": [
+    {
+      "name": "omit_actual_cache_capture",
+      "rejected": true,
+      "reason": "('Y_endpoint', 1)"
+    },
+    {
+      "name": "omit_cache_descent",
+      "rejected": true,
+      "reason": "('bad_ADD', 780, ['ADD', 'A0', 'Y1'], 'C0', 'Meet')"
+    },
+    {
+      "name": "omit_true_Hub_seed",
+      "rejected": true,
+      "reason": "('Y_endpoint', 1)"
+    },
+    {
+      "name": "omit_actual_held_query",
+      "rejected": true,
+      "reason": "('Y_endpoint', 1)"
+    },
+    {
+      "name": "omit_query_chart_visit",
+      "rejected": true,
+      "reason": "('bad_ADD', 355, ['ADD', 'X3', 'P0'], 'F1', 'Hub')"
+    },
+    {
+      "name": "omit_funnel_read_1",
+      "rejected": true,
+      "reason": "('Y_endpoint', 1)"
+    },
+    {
+      "name": "omit_funnel_read_3",
+      "rejected": true,
+      "reason": "('Y_endpoint', 3)"
+    },
+    {
+      "name": "omit_funnel_read_73",
+      "rejected": true,
+      "reason": "('Y_endpoint', 73)"
+    },
+    {
+      "name": "omit_funnel_read_76",
+      "rejected": true,
+      "reason": "('Y_endpoint', 76)"
+    },
+    {
+      "name": "omit_funnel_read_77",
+      "rejected": true,
+      "reason": "('Y_endpoint', 77)"
+    },
+    {
+      "name": "omit_funnel_read_80",
+      "rejected": true,
+      "reason": "('Y_endpoint', 80)"
+    },
+    {
+      "name": "omit_singleton_delivery",
+      "rejected": true,
+      "reason": "('Y_endpoint', 1)"
+    },
+    {
+      "name": "omit_owner_retirement",
+      "rejected": true,
+      "reason": "('owned_lifetime', {'P0'})"
+    },
+    {
+      "name": "omit_early_point_capture",
+      "rejected": true,
+      "reason": "('Y_endpoint', 1)"
+    },
+    {
+      "name": "omit_early_ground_correction",
+      "rejected": true,
+      "reason": "('Y_endpoint', 1)"
+    },
+    {
+      "name": "false_free_point_source",
+      "rejected": true,
+      "reason": "('bad_ADD', 1, ['ADD', 'X1', 'E0'], 'L1', 'Hub')"
+    },
+    {
+      "name": "omit_adjusted_canonical_preload",
+      "rejected": true,
+      "reason": "('Y_endpoint', 3)"
+    }
+  ],
+  "word_sha256": "638df03d1676b8ba98a405c9eb0888baa6974012d98859dc7062deecfa764aed"
+}

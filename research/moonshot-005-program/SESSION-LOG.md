@@ -1937,3 +1937,17 @@ strict suppliers and all five foundations are retained.
 Checkpoint1 confirmed parent4743ad65eff2ce1a63bf8572e4e2bf0751b0426d; resulting remote
 SHA is confirmed separately. Validation: sessions/2026-11-16-S016/CHECKPOINT1-VALIDATION.json.
 Session active; branch not PR-ready.
+
+### S016 checkpoint2 — source quotient and actual quadratic-sector source
+
+Parent b09e94f920c2940d7d6c0581fb9a94add0d0a9b2. Admitted literal six-output
+cache deletion, stable canonical/single-meet D4 gate, exact dyadic quadratic-
+sector source and component-rank census. Independent chart/all-column replay
+and a distinct odd minor support BIT; independent free-product algebra checks
+complex identity/inverse. No new complete kappa. Canonical upstream remains
+at the recorded e54523517d0f03e58352e647c403a5af3e525a57 session check.
+Targeted #7619 source reading preserves its P104 scopes and does not import
+fresh-helper credit into our caller. Next: review8-seed/12-output source,
+acquire its seven missing W15 directions, and prove nonlinear compact-control
+specialization. Resulting commit identity is confirmed separately. Session
+remains active until03:44:34UTC.
