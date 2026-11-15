@@ -139,3 +139,9 @@ The cumulative programme is not yet PR-ready.
 The full singular fitting history is now acquired chronologically and composed with public-Y feedback and two literal receiver completions. A separately exact nine-output word comes with a3V causal-cut proof that its frozen remaining budget cannot complete. The central construction is therefore jointly coded exports from the earlier two-output source, with actual access and full costs.
 
 The inverse-native rank, mixed-query band and complementary-corner arguments exclude all at-most-two-query three-head common-body callers and constrain the three-query alternative to one side and a nonordinary input representation. Fixed marked columns, ordinary zero divisors, source phases and all five foundations remain explicit. Exact words, full partial invoices, separate proof reviews, source pins and semantic negatives are included. **No new κ.** This cumulative branch is not PR-ready.
+
+## Final S014 constructive interfaces and their limits
+
+Three actual mixed-cache descents form a shared reservoir and meet one exact information cut, but a complete chart-aware receiver audit proves the chosen destination adds no fitting role. The unspent two-output source and its uncoupled alternative remain the starting construction. A concrete receiver26 rerouting/correction lead is preserved without claiming a decoder.
+
+An explicit Clifford first-query row realizes the nonordinary input representation required by the surviving three-query caller. Its simplest next completion is rigorously excluded by a coefficient-preimage argument. Both packages have exact source pins, full partial invoices where applicable, separate implementations and written independent reviews. These are cohesive enabling and obstruction results; **No new κ**, no discharged foundation, and no PR-readiness claim.

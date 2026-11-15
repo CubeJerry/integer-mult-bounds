@@ -1,0 +1,204 @@
+{
+  "status": "PASS_THREE_MIXED_EXPORT_DIMENSIONS_REQUIRED",
+  "source_pins": {
+    "source_recovery_git_blob": "8eba43d142c819c206dce5df87ea4571aaead287",
+    "source_recovery_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+    "native_gzip_sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78",
+    "native_gzip_replayed_by_this_checker": false
+  },
+  "nine_output_word_sha256": "d62e487fe2b191f4ecf6846696d17686061a6892b1bc4b0ed4d47612855b4e36",
+  "nine_output_closed_sha256": "43814e1b64d7509d28fc8db7f728d3fc47fdef52387d94c67b8237826d7a9c6f",
+  "completed_targets": [
+    16,
+    17,
+    19,
+    34,
+    38,
+    49,
+    50,
+    56,
+    57
+  ],
+  "G_rows_hex": [
+    "0x57ffcdcfd0905dfc14cc444b377",
+    "0x5003031201a0000800c0c24040a",
+    "0x7fff3320ef7423b602b3f7a0887d",
+    "0x110011322398260283048c048422",
+    "0x663366fe67983f82f32183f31bcc",
+    "0x2aff0000cc6400097c00001a6300",
+    "0xcccc0000d8097c00001a6300",
+    "0x2870c0c0c06089983c3030182050",
+    "0x10000",
+    "0x80000",
+    "0x4000000000",
+    "0x2000000000000",
+    "0x4000000000000",
+    "0x100000000000000",
+    "0x200000000000000"
+  ],
+  "rank_G": 15,
+  "rank_W": 15,
+  "rank_C": 9,
+  "rank_G_plus_W": 23,
+  "rank_G_plus_C": 24,
+  "fixed_W_additional_dimensions": 8,
+  "fixed_C_additional_dimensions": 9,
+  "frame": [
+    0,
+    15,
+    31,
+    35,
+    40,
+    41,
+    106,
+    110
+  ],
+  "frame_gram": [
+    [
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4
+    ]
+  ],
+  "G_restricted_binary_rows": [
+    95,
+    72,
+    231,
+    54,
+    244,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "G_restricted_rank": 5,
+  "dual_columns_in_frame_bits": [
+    49,
+    90,
+    146
+  ],
+  "dual_columns_in_111_bits_hex": [
+    "0x30000000001",
+    "0x400000000000000010800008000",
+    "0x4000000000000000010000008000"
+  ],
+  "dual_column_rank": 3,
+  "all_field_all_block_additional_information_lower_bound": "3V",
+  "closed_profile": {
+    "1": 149,
+    "2": 19,
+    "3": 49,
+    "4": 66,
+    "5": 22,
+    "6": 22,
+    "7": 112,
+    "8": 1
+  },
+  "closed_moment": {
+    "lower": "161950703761710994544277988582322124902041676823/100000000000000000000000000000000000000000000",
+    "upper": "1619507037617109945442779885823221249020416768521/1000000000000000000000000000000000000000000000",
+    "lower_decimal": "1619.50703761710994544277988582322124902041677",
+    "upper_decimal": "1619.50703761710994544277988582322124902041677"
+  },
+  "limiting_room": {
+    "lower": "6731527782127229410398793631321212282496321903/3000000000000000000000000000000000000000000000",
+    "upper": "897537037616963921386505817509494970999509789/400000000000000000000000000000000000000000000",
+    "lower_decimal": "2.24384259404240980346626454377373742749877397",
+    "upper_decimal": "2.24384259404240980346626454377373742749877447"
+  },
+  "minimum_missing_movement_margin": {
+    "lower": "302462962383036078613494182490505029000490211/400000000000000000000000000000000000000000000",
+    "upper": "2268472217872770589601206368678787717503678097/3000000000000000000000000000000000000000000000",
+    "lower_decimal": "0.756157405957590196533735456226262572501225528",
+    "upper_decimal": "0.756157405957590196533735456226262572501226032"
+  },
+  "negative_controls": {
+    "corrupt_dual": true,
+    "claim_four_independent_duals": true,
+    "use_completed_receiver": true,
+    "ignore_seventh_point_export": true
+  },
+  "scope": "Immutable nine-output handoff and retained caller invoice. Every new positive-rank owned descent carries at most one whole-V payload. Arbitrary mixed payloads and future Y feedback are allowed. Prefix redesign, compensating earlier savings, fractional-volume fields and different computational interfaces are not excluded. Fixed-W/C gaps are sufficient representation costs, not arbitrary-fitting lower bounds.",
+  "new_complete_kappa": false
+}

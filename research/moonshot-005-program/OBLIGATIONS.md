@@ -124,3 +124,16 @@ Every remaining strict-supplier, physical-cost and foundational obligation stays
 | COMPLEX-THREE-QUERY-CALLER | OPEN: all three rank-one queries on one side; intermediate E2 row must lack an ordinary independent-input factorization. | Exact identity and full physical/recursive invoice. |
 
 The previously open mixed(2,1) proposal is superseded by its obstruction. Final reservoir/row-seed artifacts are under review, not silently admitted here.
+
+## S014 checkpoint5: final source/interface refinements
+
+| Obligation | Status | Exact next step |
+|---|---|---|
+| BIT-SHARED-RESERVOIR | PROVED actual3-MOVE cochart source, source restoration and exact invoice; first cut filled. | [Construction/access package](results/bit-shared-export-reservoir/ADMISSION.md). |
+| BIT-SHARED-H0-DELIVERY | DISPROVED for the stated chart-aware relaxation: onlyF0/F63 reachable and neither fits; no added role. | Jointly redesign payload and destination; a second frame still requires3V. |
+| BIT-SOURCE-VARIANTS | PROVED fixed-code comparison: coupled W8/C9, uncoupled W7/C8, same movement and rank-five displayed frames. | Do not assume physical dominance; retain both histories. |
+| BIT-RECEIVER26-ROUTE | OPEN: DC1_2 to D6 intersect F26 plus correction inputs5,15,41,57,89,110. | Emit actual compatible source/receiver operations and full invoice; then establish scalable sharing. |
+| COMPLEX-NONORDINARY-ROW | PROVED exact first-query row in inverse-native proof representation; no ordinary independent-input factorization. | [Seed and independent review](results/complex-nonordinary-row-seed/ADMISSION.md). |
+| COMPLEX-DIRECT-ROW-COMPLETION | DISPROVED for this seed, q=A^-1 and arbitrary ordinary O_lambda family. | Change seed/query to permit the required rank-three coefficient preimage; full caller open. |
+
+All previous end-to-end and foundational obligations remain. No author-only claim is silently promoted: the seed's admission is supported by the explicit new Root review and separate exact matrix implementation.

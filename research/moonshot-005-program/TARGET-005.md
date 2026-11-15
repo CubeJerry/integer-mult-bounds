@@ -193,3 +193,11 @@ Two-output Q2=142[1]+19[2]+49[3]+66[4]+22[5]+22[6]+112[7]+[8], moment1612.507037
 The global relative-fitting gap3<=r_min(G)<=8 separates an arbitrary-fitting lower bound from fixed-W/C enlargement costs. A physical decoder must also respect all actual charts and time order. Reseeding eight fields alone fails the credited8.1V shortening bound after nine omitted ports.
 
 For complex callers, the inverse-native gate gives H<=4 for two rank-one queries and deficit>=3(1-(8^t-7^t))>0. The general pure-endpoint theorem h<=s+min(a,b) and six concavity cases exclude every at-most-two-query three-head inventory for0<t<1. Three rank-one queries retain optimistic price4[1]+[7]+[8] against2[10], but all must be on one side of the F1 source. No caller or strict supplier is constructed.
+
+## S014 checkpoint5: sufficient ingress is not sufficient delivery
+
+The actual three-cache reservoir costs[1]+2[2]=4.986161051311... beyond Q2, has18 moving owners and completes no new Y. Granting its payloads globally admits only one new fitting role26; actual destination access admits none. Another nonorthogonal frame remains rank5. Thus the globally necessary3V ingress bound is not a sufficient decoder condition.
+
+The unspent two-output family has9.243842594... room. Coupled global relative minrank lies between3 and8; the uncoupled control has the same rank-five frame premise and fixed-W upper bound7, hence global gap3 to7. These relaxations do not account for physical availability. DC1_2 alone fits26 modulo six local terms, with a proposed rank-one descent to D6 intersect F26; the correction chronology and any scalable shared completion remain open.
+
+The complex nonordinary-input condition now has an exact initial row G=A^-2,H=A^-1 P A^-1. Its relative K=A P A^-1 has rank1. The natural ordinary O_lambda followed by q=A^-1 cannot make the required intermediate, since the residual's unique preimage G K^-1 has rank2 rather than3. Changing the seed or second query is a precise surviving obligation; no uniform physical caller or new kappa follows.

@@ -1,0 +1,36 @@
+{
+  "baseline_sha": "3f7d2489d569c27dfe3f936c29669c6d716620ff",
+  "commands": [
+    {
+      "label": "reservoir-author",
+      "command": "python research/moonshot-005-program/results/bit-shared-export-reservoir/worker-a/shared_export_construction.py",
+      "status": "PASS after documented dependency relocation fix"
+    },
+    {
+      "label": "reservoir-independent",
+      "command": "python research/moonshot-005-program/results/bit-shared-export-reservoir/worker-c/review-a/shared_suffix_check.py",
+      "status": "PASS after documented dependency relocation fix"
+    },
+    {
+      "label": "reservoir-root",
+      "command": "python research/moonshot-005-program/results/bit-shared-export-reservoir/root-review/check.py --prefix research/moonshot-005-program/results/bit-shared-export-reservoir/worker-a/two-receiver-output/COUPLED-WORD.json --word research/moonshot-005-program/results/bit-shared-export-reservoir/worker-a/shared-export-output/WORD.json --source research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json --output research/moonshot-005-program/results/bit-shared-export-reservoir/root-review/RESULT.json",
+      "status": "PASS after documented dependency relocation fix"
+    },
+    {
+      "label": "seed-author",
+      "command": "python research/moonshot-005-program/results/complex-nonordinary-row-seed/worker-b/check_row_seed.py",
+      "status": "PASS after documented dependency relocation fix"
+    },
+    {
+      "label": "source-comparison",
+      "command": "python research/moonshot-005-program/results/bit-shared-export-reservoir/root-review/compare_source_variants.py",
+      "status": "PASS after documented dependency relocation fix"
+    },
+    {
+      "label": "seed-root",
+      "command": "python research/moonshot-005-program/results/complex-nonordinary-row-seed/root-review/check.py",
+      "status": "PASS after documented dependency relocation fix"
+    }
+  ],
+  "note": "The first reservoir-author run found a missing pinned local JSON dependency; supplied byte-identically, then full author reproduction passed. No scientific source changed."
+}

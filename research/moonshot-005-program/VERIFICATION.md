@@ -456,3 +456,11 @@ All18 coupled author JSONs, three independent coupled/control receipts, three re
 The mixed/three-query proofs have B/C/Root reviews. Finite diagnostics cover65,536 exact products in a stated256-element symplectic catalogue,48 complementary-corner controls, actual width1/2 source inverses, and two different exact projector implementations. The catalogue is not a full group enumeration; universal claims use written proofs. No foundation is discharged.
 
 New scientific files97; registry290; ledger4698, retaining all4601 predecessors. See CHECKPOINT4-VALIDATION.json and CHECKPOINT4-REPRODUCTION.json. No full multiplier/native-global suite is claimed.
+
+## S014 checkpoint5 verification
+
+The final reservoir has fresh independent full-prefix replay, both literal suffix words, all222 inputs, owners, rational charts, exact prices, four semantic mutants and receiver duals. Root independently reconstructs payloads, all111 fitting tests, reachable facets0/63, both frame ranks and source-variant gaps. All five author reservoir JSON files, both independent suffix receipts and the row-seed receipt reproduce exactly. The initial relocation run exposed a missing pinned SHARED-EXPORT-GATE.json dependency; it was supplied unchanged and the full author run then passed.
+
+The complex row seed and every-ordinary-lambda completion gate received a separate Root proof derivation, including why the residual multiplier C is ordinary. A new SymPy implementation independently verifies widths1/2 and the phase-free control; the author's distinct Gaussian-dyadic implementation agrees. Faithful tensor coefficient arguments, not low-width tests, establish the universal statements.
+
+New scientific files41; registry292; ledger4739, retaining all4698 prior entries. Source/helper bytes are preserved, including the known harmless EOF blank in the copied reviewed utility. No full multiplier or new kappa is certified.

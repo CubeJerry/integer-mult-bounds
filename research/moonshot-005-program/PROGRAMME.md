@@ -182,3 +182,11 @@ The preferred construction is the full-W two-output source: eight principal pack
 The global additional-fitting gap is3 to8 dimensions; fixed W needs8, canonical C9. This does not grant physical receiver access. A final actual three-cache reservoir is under review and already has a documented destination limitation. The central next construction jointly chooses payloads, destination charts and receiver routes.
 
 The complex inverse-native and mixed-query gates exclude every at-most-two-query three-head common-body inventory. Three rank-one queries survive only on one side of the F1 source and through a nonordinary intermediate input row. Complete suppliers and all five foundations remain open.
+
+## S014 checkpoint5: actual export geometry and an explicit complex row seed
+
+The shared-export suffix is now a literal construction: three existing raw-cache owners descend by2,1,2 to one dimension-five chart, supplying all three directions missing from the earlier frame cut. Its moment1617.493198668421... leaves4.257681542731... room. Yet that chart lies below onlyF0/F63, neither fits, and a second frame still has rank5. This is a verified mechanism plus access obstruction, not improved delivery. Continue from the two-output family BEFORE this suffix or the budget-blocked nine-output suffix.
+
+Coupled and uncoupled variants have the same movement invoice. Their fixed-W/C gaps are8/9 and7/8 respectively; both displayed cut restrictions have rank5. Preserve both. A concrete next joint-design attempt sends DC1_2 to D6 intersect F26 and acquires its six local correction terms without breaking the existing source schedule. It is not yet an emitted decoder or a scalable completion.
+
+For the complex partner, an explicit first-query E2 row(G,H) has rank-one relative operator G^-1 H, so it cannot factor through an ordinary independent input role. The direct q=A^-1 next completion is excluded by a unique-preimage coefficient argument. The same-side three-query identity and physical supplier remain open.
