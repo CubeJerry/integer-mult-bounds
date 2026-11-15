@@ -1,4 +1,4 @@
-# Construct shared packet sources and prove source-sensitive decoder and Gaussian-rank constraints toward κ = 0.005
+# Construct chronological shared-facet decoders and prove source and Gaussian-rank constraints toward κ = 0.005
 
 **Cumulative draft; ongoing programme, not PR-ready. No new κ.** No upstream
 pull request is submitted automatically. The selected conditional bound remains
@@ -190,6 +190,37 @@ lower bounds. [MDS](results/bit-shared-facet-mds/ADMISSION.md),
 [one-hop gate](results/bit-shared-facet-one-hop-gate/ADMISSION.md),
 [relay](results/bit-paired-nonlocal-relay/ADMISSION.md),
 [single-cell gate](results/bit-paired-single-cell-gate/ADMISSION.md).
+
+## Chronological MDS and actual entangling source contribution
+
+Two exact four-copy words acquire all36 canonical modes before any original Y
+moves, complete Y3 in all four copies and restore X. A common-intersection
+patch costs44owners/4181ADD/1204MOVE; adapting the canonical basis to actual
+held pivots gives40owners/3602ADD/1168MOVE,Q1611.4577645247274248.... Terminal36,
+completed transport history40 and transient Hub span444 are authenticated
+separately. Independent replay tests all888 columns, rational geometry and
+nine semantic mutations with invoice matching disabled.
+
+A general uniform theorem covers every chosen receiver in80 paid banks.
+One foreign root supplies60 distinct held original pivots; the canonical720
+basis has660Hub-only rows and60unit-pivot rows. Each exceptional query reads
+its actual pivot before ground. Counts:800owners,≤23640MOVEs,conservative
+7,249,420ADD bound; worstQ1611.53358657872736138.... Independent review
+reconstructs all111 geometries and actual80-by80 binary inverses. **One
+receiver per word is the theorem; simultaneous111-source formation remains
+open.** Full proofs: [chronological MDS](results/bit-canonical-mds-chronology/ADMISSION.md).
+
+A clipped rectangular source filtration now excludes canonical9b even with
+all X/Y couriers under fixed disjoint common-chart cohorts. Retained-memory
+injectivity is proved and actual cached one-/two-cohort sources give positive
+controls. [Clipped theorem](results/bit-clipped-rectangular-source/ADMISSION.md),
+[memory](results/bit-early-hub-memory/ADMISSION.md),
+[cached words](results/bit-cached-early-hub/ADMISSION.md).
+
+Actual order9 and entangling order15 common native heads have complete
+phase-aware ordinary gauges. A general monomial admission theorem and scoped
+local-wreath/scalarC15 conservation delimit possible profitable callers.
+No strict complex supplier follows. [Source package](results/complex-entangling-native-source/ADMISSION.md).
 
 ## Evidence, provenance and reproduction
 

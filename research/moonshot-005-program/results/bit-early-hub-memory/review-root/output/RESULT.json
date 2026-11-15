@@ -1,0 +1,70 @@
+{
+  "status": "PASS_INDEPENDENT_CHRONOLOGY_AND_RETAINED_MEMORY_TEST",
+  "word_sha256": "831ac2f8ba647a50866af61461f9f378c76a443801f372154745520b4caa96fa",
+  "method": "Recompute complete444-dimensional inverse by augmented Gaussian elimination at each cut, not author incremental inverse updates.",
+  "cuts": [
+    {
+      "milestone": "all_chart_aggregates_formed",
+      "Hub_X_rank": 440,
+      "held_X": 4,
+      "canonical_Hub_intersection": 32,
+      "held_original_Y_groups": [
+        {
+          "chart": "C2",
+          "held": [
+            "X1_2",
+            "X1_3"
+          ],
+          "inverse_columns_hex": [
+            "0x90",
+            "0xe0"
+          ],
+          "earlier_Y_restriction_rank": 0,
+          "required_side_rank": 2,
+          "actual_stationary_pivot_copies_pass_necessary_rank": 2,
+          "drop_one_of_these_cache_copies_rank": 1
+        },
+        {
+          "chart": "C3",
+          "held": [
+            "X2_2",
+            "X2_3"
+          ],
+          "inverse_columns_hex": [
+            "0xd00",
+            "0x600"
+          ],
+          "earlier_Y_restriction_rank": 0,
+          "required_side_rank": 2,
+          "actual_stationary_pivot_copies_pass_necessary_rank": 2,
+          "drop_one_of_these_cache_copies_rank": 1
+        }
+      ],
+      "canonical_intersection_with_actual_held_rows": 0,
+      "rank_canonical_plus_held": 40,
+      "minimum_Hub_space_given_all_held_rows": 36
+    },
+    {
+      "milestone": "local_correction_completed_sources_not_yet_restored",
+      "Hub_X_rank": 444,
+      "held_X": 0,
+      "canonical_Hub_intersection": 36,
+      "held_original_Y_groups": [],
+      "canonical_intersection_with_actual_held_rows": 0,
+      "rank_canonical_plus_held": 36,
+      "minimum_Hub_space_given_all_held_rows": 36
+    },
+    {
+      "milestone": "all_original_sources_restored",
+      "Hub_X_rank": 444,
+      "held_X": 0,
+      "canonical_Hub_intersection": 36,
+      "held_original_Y_groups": [],
+      "canonical_intersection_with_actual_held_rows": 0,
+      "rank_canonical_plus_held": 36,
+      "minimum_Hub_space_given_all_held_rows": 36
+    }
+  ],
+  "scope": "Necessary cache injectivity, not source sufficiency. Actual earlier Y copies fail at this cut. Four actual pivot copies pass only this necessary test. Canonical plus held rows require40 global modes, with at least36 from Hub.",
+  "new_complete_kappa": false
+}

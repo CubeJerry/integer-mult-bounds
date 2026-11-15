@@ -585,3 +585,32 @@ Source scripts, proof pins, admission scopes and all negative controls remain
 beside the results. Universal proof and finite authentication are distinguished.
 The optimistic MDS global budget is conditional and its strict one-hop source
 is excluded; no complete newκ is claimed. [Validation](sessions/2026-11-15-S015/CHECKPOINT7-VALIDATION.json).
+
+## S015 checkpoint8: independently reviewed chronology and noncommuting sources
+
+Five packages preserve exact source pins, author proofs and separately written
+reviews. Literal MDS replay covers888 independent original columns, rational
+charts, restoration and semantic mutations; the parametric review reconstructs
+all111 geometries and actual80-by80 binary inverses. Clipped filtration has
+separate all-field proof and F2/F3 rectangular controls. Chronology reviewers
+reconstruct the full444-dimensional inverse. Complex reviewers independently
+reconstruct exact matrices/Pauli action; root checks10752 actual monomial
+gauges and256 phase controls without author helpers.
+
+```sh
+python research/moonshot-005-program/sessions/2026-11-15-S015/reproduce-checkpoint8-bit.py --repo . --out /tmp/moonshot-s015-cp8-bit
+python research/moonshot-005-program/sessions/2026-11-15-S015/reproduce-checkpoint8-complex.py --repo . --out /tmp/moonshot-s015-cp8-complex
+```
+
+See CHECKPOINT8-VALIDATION.json in the session directory for executed commands,
+exact receipt comparisons and manifest authentication. Reproduction is distinct
+from independent proof review. No111 huge80-copy literal words were emitted;
+no complete native orκ is claimed. Two qualified unavailable historical files
+remain unavailable and are not proof inputs.
+
+Checkpoint8 inventory correction: two earlier S015 logs were locally present
+and already hash-indexed but ignored by Git: `bit-four-axis-feedback/independent-a/run.log`
+and `bit-joint-kernel-puncture/six-axis/author/run.log` under results/. Their
+bytes match their existing frozen hashes and are now deliberately published.
+No mathematical result or prior scientific hash changes. The two explicitly
+qualified historical missing artifacts remain unavailable.

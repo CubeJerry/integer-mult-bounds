@@ -1,0 +1,135 @@
+{
+  "status": "INDEPENDENT_LITERAL_CANONICAL_MDS_CHRONOLOGY_PASS",
+  "source_word_sha256": "bf62d128591fab4b29ed5a56debae6702e666c36edc265e05cae00f586a85a02",
+  "source_proof_sha256": "87cc950cb5f9a203ff05c7a532919dc58dba26e011144972e830483f8bb7b45d",
+  "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "word": {
+    "counts": {
+      "INIT": 44,
+      "ADD": 4181,
+      "MOVE": 1204,
+      "CLEAR": 44
+    },
+    "profile": {
+      "1": 16,
+      "2": 228,
+      "3": 36,
+      "5": 268,
+      "6": 4,
+      "7": 652
+    },
+    "dirty_clears": 44,
+    "observations": {
+      "cached_source_aggregate_cut": {
+        "Hub_X_rank": 440,
+        "held_X": [
+          "X1_2",
+          "X1_3",
+          "X2_2",
+          "X2_3"
+        ],
+        "Hub_canonical_intersection": 32,
+        "held_canonical_intersection": 0
+      },
+      "four_actual_proper_imports_at_I": {
+        "Hub_X_rank": 440,
+        "held_X": [
+          "X1_2",
+          "X1_3",
+          "X2_2",
+          "X2_3"
+        ],
+        "Hub_canonical_intersection": 32,
+        "held_canonical_intersection": 0
+      },
+      "actual_canonical36_at_ground_with_D4_retained_at_I": {
+        "Hub_X_rank": 440,
+        "held_X": [
+          "X1_2",
+          "X1_3",
+          "X2_2",
+          "X2_3"
+        ],
+        "Hub_canonical_intersection": 32,
+        "held_canonical_intersection": 0,
+        "ground_canonical_rank": 36,
+        "completed_Hub_seed_rank": 36,
+        "completed_seed_transport_rank": 40,
+        "literal_partial_history_rank": 444
+      },
+      "canonical_preload_and_anchor_reads_completed": {
+        "Hub_X_rank": 440,
+        "held_X": [
+          "X1_2",
+          "X1_3",
+          "X2_2",
+          "X2_3"
+        ]
+      },
+      "original_local_correction_completed_sources_not_yet_restored": {
+        "Hub_X_rank": 444,
+        "held_X": [],
+        "actual_four_copy_receiver3_completed": true
+      },
+      "original_all_original_sources_restored": {
+        "Hub_X_rank": 444,
+        "held_X": []
+      }
+    },
+    "completed_seed_rank": 36,
+    "transport_rank": 40,
+    "all_partial_history_rank": 444,
+    "columns": 888,
+    "actual_completed_roles": [
+      3
+    ],
+    "physical_binary_copies": 4
+  },
+  "negative_controls": [
+    {
+      "name": "wrong_held_binary_bank",
+      "rejected": true,
+      "reason": "('Y endpoint', 'Y3_0')"
+    },
+    {
+      "name": "wrong_canonical_patch_bank",
+      "rejected": true,
+      "reason": "('Y endpoint', 'Y3_0')"
+    },
+    {
+      "name": "wrong_Hub_seed_source_bank",
+      "rejected": true,
+      "reason": "('Y endpoint', 'Y3_0')"
+    },
+    {
+      "name": "no_proper_common_descent",
+      "rejected": true,
+      "reason": "('ADD chart', 1365, ['ADD', 'D0', 'P0_0'], 'zero', 'I')"
+    },
+    {
+      "name": "preload_wrong_receiver",
+      "rejected": true,
+      "reason": "('Y endpoint', 'Y3_0')"
+    },
+    {
+      "name": "swap_stationary_anchor_bank",
+      "rejected": true,
+      "reason": "('Y endpoint', 'Y3_0')"
+    },
+    {
+      "name": "Y_leaves_before_canonical_read",
+      "rejected": true,
+      "reason": "('ADD chart', 4497, ['ADD', 'P0_0', 'Y3_0'], 'zero', 'C0')"
+    },
+    {
+      "name": "wrong_patch_chart",
+      "rejected": true,
+      "reason": "('MOVE direction', 1273, ['MOVE', 'D2', 'I'], 'C3')"
+    },
+    {
+      "name": "missing_actual_source_inverse",
+      "rejected": true,
+      "reason": "('X endpoint', 'X58_2')"
+    }
+  ]
+}

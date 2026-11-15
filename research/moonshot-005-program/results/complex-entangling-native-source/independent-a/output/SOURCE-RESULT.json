@@ -1,0 +1,265 @@
+{
+  "status": "PASS_INDEPENDENT_ORDER9_AND_ENTANGLING_ORDER15",
+  "arithmetic": "Separate sparse Gaussian-rational matrices and actual Pauli conjugation; no author implementation imported.",
+  "pins": {
+    "PROOF.md": "44bb8a9d23bff2e521dd84533a43e067c7f1959866bfd6685ca75a071d6ca170",
+    "ENTANGLING-ORDER-FIFTEEN-SOURCE.md": "ffa89a5d54178633b703668161acec34e72b5a9b8f8f56c2325250c15388d355",
+    "LOCAL-WREATH-CONSERVATION.md": "178a1ded27a316770bfb289e19b262628cf9cebf0dba068ff208107c3460250d",
+    "LOCAL-WREATH-SCOPE.md": "7502af0fe2f15d4cf4529265d1bd8a6aa66f0b5518fc630afe9268d69e87048e"
+  },
+  "order9": {
+    "order": 9,
+    "Gaussian_power_ranks_via_independent_Pauli_mixing_block": [
+      0,
+      1,
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      1
+    ],
+    "power_traces": [
+      8,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "actual_symplectic_columns": [
+      4,
+      1,
+      16,
+      32,
+      8,
+      18
+    ],
+    "actual_symplectic_order": 9,
+    "boundary_tables": {
+      "pre_first": {
+        "permutation": [
+          0,
+          4,
+          1,
+          5,
+          2,
+          6,
+          3,
+          7
+        ],
+        "phase_mod4": [
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "pre_second": {
+        "permutation": [
+          0,
+          2,
+          4,
+          6,
+          1,
+          3,
+          5,
+          7
+        ],
+        "phase_mod4": [
+          2,
+          3,
+          2,
+          3,
+          3,
+          0,
+          3,
+          0
+        ]
+      },
+      "post_second": {
+        "permutation": [
+          0,
+          2,
+          4,
+          6,
+          1,
+          3,
+          5,
+          7
+        ],
+        "phase_mod4": [
+          3,
+          3,
+          2,
+          2,
+          3,
+          3,
+          2,
+          2
+        ]
+      }
+    },
+    "widths": [
+      {
+        "V": 1,
+        "head_dimension": 8,
+        "all_four_independent_role_input_columns_verified": true,
+        "all_six_nonzero_coefficient_blocks_verified": true
+      },
+      {
+        "V": 2,
+        "head_dimension": 64,
+        "all_four_independent_role_input_columns_verified": true,
+        "all_six_nonzero_coefficient_blocks_verified": true
+      }
+    ],
+    "width2_cyclic_projector_rank": 8
+  },
+  "order15": {
+    "order": 15,
+    "Gaussian_power_ranks_via_independent_Pauli_mixing_block": [
+      0,
+      1,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      2,
+      1
+    ],
+    "power_traces": [
+      8,
+      1,
+      1,
+      -2,
+      1,
+      -4,
+      -2,
+      1,
+      1,
+      -2,
+      -4,
+      1,
+      -2,
+      1,
+      1
+    ],
+    "actual_symplectic_columns": [
+      12,
+      33,
+      16,
+      32,
+      8,
+      18
+    ],
+    "actual_symplectic_order": 15,
+    "boundary_tables": {
+      "pre_first": {
+        "permutation": [
+          0,
+          4,
+          1,
+          5,
+          2,
+          6,
+          3,
+          7
+        ],
+        "phase_mod4": [
+          0,
+          0,
+          0,
+          2,
+          1,
+          1,
+          1,
+          3
+        ]
+      },
+      "pre_second": {
+        "permutation": [
+          0,
+          2,
+          5,
+          7,
+          1,
+          3,
+          4,
+          6
+        ],
+        "phase_mod4": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          2,
+          0,
+          3
+        ]
+      },
+      "post_second": {
+        "permutation": [
+          0,
+          2,
+          4,
+          6,
+          1,
+          3,
+          5,
+          7
+        ],
+        "phase_mod4": [
+          0,
+          0,
+          3,
+          3,
+          0,
+          2,
+          3,
+          1
+        ]
+      }
+    },
+    "widths": [
+      {
+        "V": 1,
+        "head_dimension": 8,
+        "all_four_independent_role_input_columns_verified": true,
+        "all_six_nonzero_coefficient_blocks_verified": true
+      },
+      {
+        "V": 2,
+        "head_dimension": 64,
+        "all_four_independent_role_input_columns_verified": true,
+        "all_six_nonzero_coefficient_blocks_verified": true
+      }
+    ],
+    "width2_cyclic_projector_rank": 8
+  },
+  "negative_controls": [
+    "drop_i_from_order9_G1",
+    "width_independent_order9_G2_minus",
+    "put_field_cross_minus_inside_tensor",
+    "invert_D_in_order9_bridge",
+    "omit_order15_controlled_J",
+    "order15_width1_cyclotomic_relation_at_width2"
+  ],
+  "new_complete_kappa": false
+}

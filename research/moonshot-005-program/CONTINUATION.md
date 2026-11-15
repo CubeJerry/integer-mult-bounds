@@ -1,31 +1,36 @@
-# Continue actual global source formation for the shared-facet decoder
+# Continue simultaneous chronological shared-facet source composition
 
-Resume exact remote HEAD and STATE.json. S015 is active through12:23:42UTC
+Resume exact remote HEAD and STATE.json. S015 remains active through12:23:42UTC
 on2026-11-15. Selected conditional0.00363005817; target1/200 remains open.
 
-The local shared-facet MDS construction is now independently admitted:
-28 E6 charts/16-fold incidence, local n>=b+2 bound,888-column four-copy word,
-fully paid late-K completion, and80-copy parametric GF32 algorithm. Its global
-movement envelope1614.6750836050235... is conditional. The strict one-hop
-within-root source requiresceil(111b/4) global modes, exceeding canonical9b.
-Next: actual source mixing/retained memory and chronological canonical access
-for simultaneous receivers, with original-Y preservation and X restoration.
-A local code is no longer the missing lemma; complete source formation is.
+Chronological MDS correction is now proved for every native receiver choice
+individually. Two exact four-copy words bring36 canonical modes to ground
+before any Y moves, complete all four Y3 copies and restore X. Direct version:
+40owners/3602ADD/1168MOVE,Q1611.4577645.... The general80-bank recipe uses one
+foreign root's60held pivots and an adapted720-row canonical basis; all111
+receiver choices have an independently reviewed uniform proof. Worst movement
+1611.5335866.... Every word still completes only one selected receiver role.
 
-The paired-tail nonlocal relay is also admitted: actual ascending Y59 import,
-six completed outputs,235owners/866ADD/490MOVE, moment1608.5857473076052....
-Its fixed two-kernel template fails puncture; every single-effective-cell
-repair at all12 paired charts fails even with arbitrary block through map.
-Retaining two effective locations is a genuine still-open changed premise.
-Do not reattempt excluded one-cell or frozen packed two-copy completions.
+PRIMARY NEXT PROOF: receiver groups must use the SAME actual original-X prefix
+and one chronological canonical source, then extend toward all111 without
+resets, uncharged duplication or changed productivity. A two-receiver common-
+prefix word is under construction in the final wave; rely on it only after a
+later checkpoint admits independent review. Source coexistence, not another
+individually valid local decoder, is now the central missing interface.
 
-Complex: commuting all-call and fixed-head at-most-five-native conservation
-remain. New actual order9 and entangling order15 sources are under independent
-review, as is a local-wreath rank potential. They do not yet supply profitable
-callers. Follow the next checkpoint for admission before relying on them.
-Chronological early-Hub inverse-column locality is also under active review;
-retained side memory and actual caches remain essential candidate mechanisms.
+The clipped source theorem excludes all222b original X/Y couriers under fixed
+disjoint common-chart cohorts and≤3 other acquisition cohorts per channel:
+globalrank>=ceil(13209b/1250)>9b. Retained memory must be injective on held
+inverse columns. Earlier cached one-/two-cohort words are positive but partial.
+Do not repeat excluded fixed-cohort, one-cell or packed-source continuations.
 
-All strict supplier, recursive, ordinary/compiler/precision and five-foundation
-obligations persist. No new completeκ, no upstreamPR, ongoing/notPRready.
-Protected discovery rule unchanged; final mandatory drift review remains due.
+Complex order9/order15 sources and the exact monomial admission criterion are
+independently admitted. Local-wreath all-call and scalarC15 native-only
+conservation remain. A positive complex step needs a profitable caller with
+noncommuting ordinary interstages and fully charged body,phases,spectators,
+idles and recursion. Failed bounded searches are not universal no-go results.
+
+Strict suppliers, ordinary/compiler/precision/recursive costs and all five
+foundations remain. No new completeκ, no upstreamPR, ongoing/notPRready.
+Protected discovery rule unchanged; independent final discovery review has
+been prepared for integration with the final session checkpoint.

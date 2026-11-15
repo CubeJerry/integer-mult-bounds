@@ -1,0 +1,261 @@
+{
+  "actual_native_inverses_checked": true,
+  "all_input_column_tensor_widths": [
+    1,
+    2
+  ],
+  "complete_optimistic_movement_budgets": [
+    {
+      "denominator": "1000000000000000000000000000000",
+      "heads": [
+        3,
+        2,
+        2
+      ],
+      "margin_numerators": [
+        "561007339600891538672434298712",
+        "561007339600891538672434298724"
+      ],
+      "natives": 3,
+      "price": {
+        "1": 3,
+        "7": 6,
+        "8": 3
+      },
+      "rank7_idles": 3,
+      "roles": 3,
+      "strict_positive": true,
+      "target": {
+        "23": 2,
+        "24": 1
+      }
+    },
+    {
+      "denominator": "1000000000000000000000000000000",
+      "heads": [
+        3,
+        3,
+        3
+      ],
+      "margin_numerators": [
+        "2519842549282886026635216959262",
+        "2519842549282886026635216959274"
+      ],
+      "natives": 3,
+      "price": {
+        "1": 3,
+        "7": 6,
+        "8": 3
+      },
+      "rank7_idles": 3,
+      "roles": 3,
+      "strict_positive": true,
+      "target": {
+        "24": 3
+      }
+    },
+    {
+      "denominator": "1000000000000000000000000000000",
+      "heads": [
+        2,
+        2,
+        2
+      ],
+      "margin_numerators": [
+        "-418410265240105705308957031563",
+        "-418410265240105705308957031551"
+      ],
+      "natives": 3,
+      "price": {
+        "1": 3,
+        "7": 6,
+        "8": 3
+      },
+      "rank7_idles": 3,
+      "roles": 3,
+      "strict_positive": false,
+      "target": {
+        "23": 3
+      }
+    }
+  ],
+  "cyclic_faithfulness_for_all_V_at_least": 2,
+  "negative_controls": [
+    "omitted normalization phase changes ninth power to -iI",
+    "width-independent i fails at V=2",
+    "omitted local phase loses rank-three fourth power",
+    "tensoring the native cross minus fails at even width",
+    "one-column cyclic sum identity fails at V=2"
+  ],
+  "ordinary_extra_services_per_half": {
+    "head_permutations": 3,
+    "new_gaussian_calls": 0,
+    "new_owners": 0,
+    "unit_phase_passes": 3
+  },
+  "ordinary_monomial_tables": {
+    "D": {
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "phase_exponents_mod4": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "G1": {
+      "permutation": [
+        0,
+        4,
+        1,
+        5,
+        2,
+        6,
+        3,
+        7
+      ],
+      "phase_exponents_mod4": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "G2": {
+      "permutation": [
+        0,
+        2,
+        4,
+        6,
+        1,
+        3,
+        5,
+        7
+      ],
+      "phase_exponents_mod4": [
+        2,
+        3,
+        2,
+        3,
+        3,
+        0,
+        3,
+        0
+      ]
+    },
+    "H2": {
+      "permutation": [
+        0,
+        2,
+        4,
+        6,
+        1,
+        3,
+        5,
+        7
+      ],
+      "phase_exponents_mod4": [
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "bridge": {
+      "permutation": [
+        0,
+        2,
+        4,
+        6,
+        1,
+        3,
+        5,
+        7
+      ],
+      "phase_exponents_mod4": [
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        2,
+        2
+      ]
+    }
+  },
+  "ordinary_power_transport": [
+    3,
+    4
+  ],
+  "power_gaussian_ranks": [
+    0,
+    1,
+    2,
+    3,
+    3,
+    3,
+    3,
+    2,
+    1,
+    0
+  ],
+  "power_traces": [
+    8,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "proof_sha256": "44bb8a9d23bff2e521dd84533a43e067c7f1959866bfd6685ca75a071d6ca170",
+  "scope": "Exact source and uniform tensor construction; no caller, supplier admission or new kappa. The source-independent rank gates remain applicable.",
+  "source_dependencies": {
+    "programme_start": "eefa411ebab86271d50b56b6953af3a157366bdb",
+    "sources": [
+      {
+        "path": "research/moonshot-005-program/results/complex-three-head-source/author/THREE-HEAD-SOURCE-AND-ONE-QUERY-GATE.md",
+        "sha256": "4ac72e17dacdcc6b88fb0074fe0c1e85dea8f7d8ee496310d8dce80edb4ae07d"
+      },
+      {
+        "path": "research/moonshot-005-program/results/quadratic-sign-query-gate/author/PROOF.md",
+        "sha256": "1bc214b889a5d9ecee6fa887966dd828a4aeee95b5584379e5d249d9ceddea01"
+      },
+      {
+        "path": "research/moonshot-005-program/results/complex-pentagonal-phase-head/author/PROOF.md",
+        "sha256": "744c540be4af799068449a68ace20c8c505b7a32bc76010a113800429f77d5d0"
+      },
+      {
+        "path": "research/moonshot-005-program/results/complex-nonordinary-row-seed/worker-b/check.py",
+        "sha256": "1d3c798c43b46e1983f4dc80d68e694b93d9cdee206ad4fe4d408e5f5e29ed91"
+      }
+    ]
+  },
+  "spectator_volume_multiplier": "2^V",
+  "status": "PASS_EXACT_ORDER_NINE_SOURCE_AND_NONDIHEDRAL_TRANSPORT",
+  "width2_cyclic_projector_rank": 8
+}

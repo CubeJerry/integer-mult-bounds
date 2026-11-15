@@ -289,3 +289,13 @@ PR updates since10:36:05UTC. Programme parent cd3a06fa... remains current.
 [Exact snapshot](sessions/2026-11-15-S015/UPSTREAM-CP7.json). No external merge,
 selected change or upstreamPR. New results apply prior cohort/star theorems
 with exact attribution; no renamed novelty claim for those inherited results.
+
+## S015 checkpoint8 remote/compatibility check
+
+At2026-11-15T11:35:54.218909+00:00, GitHub main remains
+`e54523517d0f03e58352e647c403a5af3e525a57`; programme remote was `c4816d03cc5ace9ed04a5a933f05bb58d07bd998`.
+Targeted PR search `updated:>2026-11-15T10:57:21Z` returned no entries. Evidence:
+[snapshot](sessions/2026-11-15-S015/UPSTREAM-CP8.json). No new external theorem
+was assumed. Admitted chronology/entangling sources retain predecessor pins,
+computational contracts and credit. One-receiver MDS and an actual complex head
+do not supersede the selected complete conditional bound.

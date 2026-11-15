@@ -1,0 +1,77 @@
+{
+  "status": "PASS_INDEPENDENT_INVERSE_COLUMN_LOCALITY_CONTROLS",
+  "word_sha256": "831ac2f8ba647a50866af61461f9f378c76a443801f372154745520b4caa96fa",
+  "original_X_columns": 444,
+  "X_X_ADD_updates": 894,
+  "original_role_incidence_checks": 1874,
+  "cuts": [
+    {
+      "milestone": "all_chart_aggregates_formed",
+      "Hub_X_rank": 440,
+      "held_X_count": 4,
+      "canonical_rank": 36,
+      "canonical_Hub_intersection": 32,
+      "held_dual_columns": [
+        {
+          "record": "X1_2",
+          "chart": "C2",
+          "inverse_column_hex": "0x90",
+          "original_role_support": [
+            1
+          ],
+          "canonical_projection_rank_nonzero": true,
+          "inside_chart": true
+        },
+        {
+          "record": "X1_3",
+          "chart": "C2",
+          "inverse_column_hex": "0xe0",
+          "original_role_support": [
+            1
+          ],
+          "canonical_projection_rank_nonzero": true,
+          "inside_chart": true
+        },
+        {
+          "record": "X2_2",
+          "chart": "C3",
+          "inverse_column_hex": "0xd00",
+          "original_role_support": [
+            2
+          ],
+          "canonical_projection_rank_nonzero": true,
+          "inside_chart": true
+        },
+        {
+          "record": "X2_3",
+          "chart": "C3",
+          "inverse_column_hex": "0x600",
+          "original_role_support": [
+            2
+          ],
+          "canonical_projection_rank_nonzero": true,
+          "inside_chart": true
+        }
+      ]
+    },
+    {
+      "milestone": "local_correction_completed_sources_not_yet_restored",
+      "Hub_X_rank": 444,
+      "held_X_count": 0,
+      "canonical_rank": 36,
+      "canonical_Hub_intersection": 36,
+      "held_dual_columns": []
+    },
+    {
+      "milestone": "all_original_sources_restored",
+      "Hub_X_rank": 444,
+      "held_X_count": 0,
+      "canonical_rank": 36,
+      "canonical_Hub_intersection": 36,
+      "held_dual_columns": []
+    }
+  ],
+  "scope": "The tested word already copies X into Y before its useful Hub cut; it is a positive example outside the new no-side-memory premise, not a rejected local word.",
+  "universal_claim_proved_separately": true,
+  "new_complete_kappa": false
+}

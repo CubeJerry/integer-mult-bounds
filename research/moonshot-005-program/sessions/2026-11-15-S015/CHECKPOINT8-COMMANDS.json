@@ -1,0 +1,476 @@
+[
+  {
+    "group": "rectangular",
+    "label": "author",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/rectangular/root/rectangular-chart-source-gate/check.py",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/rectangular/root/rectangular-chart-source-gate/output"
+    ],
+    "exit_code": 0,
+    "seconds": 0.187,
+    "log": "rectangular/author.log"
+  },
+  {
+    "group": "rectangular",
+    "label": "independent-a",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/rectangular/worker-a/review-rectangular-filtration/check.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.069,
+    "log": "rectangular/independent-a.log"
+  },
+  {
+    "group": "memory",
+    "label": "author",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/memory/author/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/memory/deps/shared-facet-coding"
+    ],
+    "exit_code": 0,
+    "seconds": 0.254,
+    "log": "memory/author.log"
+  },
+  {
+    "group": "memory",
+    "label": "root-review",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/memory/review-root/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/memory/deps/shared-facet-coding",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/memory/review-root/output"
+    ],
+    "exit_code": 0,
+    "seconds": 0.458,
+    "log": "memory/root-review.log"
+  },
+  {
+    "group": "memory",
+    "label": "independent-c",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/memory/independent-c/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/memory/deps/shared-facet-coding"
+    ],
+    "exit_code": 0,
+    "seconds": 0.116,
+    "log": "memory/independent-c.log"
+  },
+  {
+    "group": "early",
+    "label": "one-build",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/early/one/build.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 0.076,
+    "log": "early/one-build.log"
+  },
+  {
+    "group": "early",
+    "label": "one-author",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/early/one/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 2.327,
+    "log": "early/one-author.log"
+  },
+  {
+    "group": "early",
+    "label": "one-price",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/early/one/price.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.299,
+    "log": "early/one-price.log"
+  },
+  {
+    "group": "early",
+    "label": "two-build",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/early/two/build.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 0.046,
+    "log": "early/two-build.log"
+  },
+  {
+    "group": "early",
+    "label": "two-author",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/early/two/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 2.651,
+    "log": "early/two-author.log"
+  },
+  {
+    "group": "early",
+    "label": "two-price",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/early/two/price.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.293,
+    "log": "early/two-price.log"
+  },
+  {
+    "group": "early",
+    "label": "independent-b",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/early/independent-b/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--one",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/early/one",
+      "--two",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/early/two",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/early/independent-b/RESULT.json"
+    ],
+    "exit_code": 0,
+    "seconds": 1.757,
+    "log": "early/independent-b.log"
+  },
+  {
+    "group": "common",
+    "label": "build",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/common/common-author/build.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--local",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/common/deps/shared-facet-coding/four-chart-word/WORD.json"
+    ],
+    "exit_code": 0,
+    "seconds": 0.106,
+    "log": "common/build.log"
+  },
+  {
+    "group": "common",
+    "label": "author",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/common/common-author/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 3.703,
+    "log": "common/author.log"
+  },
+  {
+    "group": "common",
+    "label": "price",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/common/common-author/price.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.337,
+    "log": "common/price.log"
+  },
+  {
+    "group": "common",
+    "label": "independent-word",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/common/common-review/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/common/common-author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/common/common-review/output"
+    ],
+    "exit_code": 0,
+    "seconds": 1.384,
+    "log": "common/independent-word.log"
+  },
+  {
+    "group": "common",
+    "label": "independent-budget",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/common/common-review/check_budget.py",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/common/common-author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/common/common-review/output"
+    ],
+    "exit_code": 0,
+    "seconds": 2.401,
+    "log": "common/independent-budget.log"
+  },
+  {
+    "group": "direct",
+    "label": "build",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/direct/direct-author/build.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--local",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/direct/deps/shared-facet-coding/four-chart-word/WORD.json"
+    ],
+    "exit_code": 0,
+    "seconds": 0.09,
+    "log": "direct/build.log"
+  },
+  {
+    "group": "direct",
+    "label": "author",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/direct/direct-author/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 2.873,
+    "log": "direct/author.log"
+  },
+  {
+    "group": "direct",
+    "label": "price",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/direct/direct-author/price.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.268,
+    "log": "direct/price.log"
+  },
+  {
+    "group": "direct",
+    "label": "independent-word",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/direct/direct-review/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/direct/direct-author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/direct/direct-review/output"
+    ],
+    "exit_code": 0,
+    "seconds": 1.203,
+    "log": "direct/independent-word.log"
+  },
+  {
+    "group": "direct",
+    "label": "independent-basis",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/direct/direct-review/check_basis.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/direct/direct-author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/direct/direct-review/output"
+    ],
+    "exit_code": 0,
+    "seconds": 0.362,
+    "log": "direct/independent-basis.log"
+  },
+  {
+    "group": "direct",
+    "label": "independent-budget",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/direct/direct-review/check_budget.py",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/direct/direct-author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/direct/direct-review/output"
+    ],
+    "exit_code": 0,
+    "seconds": 2.649,
+    "log": "direct/independent-budget.log"
+  },
+  {
+    "group": "parametric",
+    "label": "root-certificate-price",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/parametric/parametric-root/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/parametric/parametric-root/output"
+    ],
+    "exit_code": 0,
+    "seconds": 0.722,
+    "log": "parametric/root-certificate-price.log"
+  },
+  {
+    "group": "parametric",
+    "label": "independent-a",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/parametric/parametric-review/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--proof",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/parametric/parametric-root/PROOF.md",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-bit/parametric/parametric-review/output"
+    ],
+    "exit_code": 0,
+    "seconds": 3.933,
+    "log": "parametric/independent-a.log"
+  },
+  {
+    "label": "order9",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-complex/package/author/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 0.999
+  },
+  {
+    "label": "order15",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-complex/package/author/check_entangling_source.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 2.475
+  },
+  {
+    "label": "admission",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-complex/package/author/check_source_admission.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 1.711
+  },
+  {
+    "label": "wreath",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-complex/package/author/check_local_wreath.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.422
+  },
+  {
+    "label": "independent-source",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-complex/package/independent-a/check_source.py",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-complex/package/author",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 4.213
+  },
+  {
+    "label": "independent-wreath",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-complex/package/independent-a/check_wreath.py",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-complex/package/author"
+    ],
+    "exit_code": 0,
+    "seconds": 0.208
+  },
+  {
+    "label": "independent-budget",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-complex/package/independent-a/check_budget.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.195
+  },
+  {
+    "label": "independent-admission",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-complex/package/review-root/check.py",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp8-complex/package/review-root/output"
+    ],
+    "exit_code": 0,
+    "seconds": 0.429
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "status": "PASS_LITERAL_TWO_COHORT_EARLY_HUB_SOURCE",
+  "columns": 222,
+  "counts": {
+    "INIT": 16,
+    "MOVE": 331,
+    "ADD": 640,
+    "CLEAR": 16
+  },
+  "movement_profile": {
+    "1": 68,
+    "2": 26,
+    "3": 6,
+    "4": 10,
+    "5": 20,
+    "6": 60,
+    "7": 132,
+    "8": 9
+  },
+  "dirty_clears": 16,
+  "events": {
+    "early_Hub_canonical_cut": {
+      "Hub_X_rank": 109,
+      "held_original_X": [
+        0,
+        4
+      ],
+      "canonical_Hub_intersection": 9,
+      "proper_cache_restriction_ranks": [
+        1,
+        1
+      ]
+    },
+    "canonical_nine_and_two_paid_partial_fields_delivered": {
+      "Hub_X_rank": 109,
+      "held_original_X": [
+        0,
+        4
+      ],
+      "canonical_Hub_intersection": 9,
+      "proper_cache_restriction_ranks": [
+        1,
+        1
+      ],
+      "actual_ground_information_rank": 11
+    },
+    "Y0_Y4_completed_with_two_X_held": {
+      "Hub_X_rank": 109,
+      "held_original_X": [
+        0,
+        4
+      ],
+      "canonical_Hub_intersection": 9,
+      "proper_cache_restriction_ranks": [
+        1,
+        1
+      ],
+      "actual_completed_targets": [
+        0,
+        4
+      ]
+    },
+    "all_X_restored": {
+      "Hub_X_rank": 111,
+      "held_original_X": [],
+      "canonical_Hub_intersection": 9
+    }
+  },
+  "completed_targets": [
+    0,
+    4
+  ],
+  "new_complete_kappa": false,
+  "negative_controls": [
+    {
+      "name": "omit_A0_capture",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_A4_capture",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_G0_route",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_G4_read",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_shared_Z_read",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_canonical_term",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_last_restore",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_retirement",
+      "rejected": true,
+      "reason": ""
+    }
+  ],
+  "word_sha256": "d9cf77b7af5a80bfd7d260d632d1e53ed95f7939b417e8905b88cc737ad67baf"
+}

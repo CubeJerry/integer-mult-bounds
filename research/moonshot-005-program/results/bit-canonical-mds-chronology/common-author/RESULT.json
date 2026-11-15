@@ -1,0 +1,127 @@
+{
+  "status": "PASS_CACHED_MDS_CANONICAL_EARLY_SOURCE",
+  "columns": 888,
+  "counts": {
+    "INIT": 44,
+    "ADD": 4181,
+    "MOVE": 1204,
+    "CLEAR": 44
+  },
+  "movement_profile": {
+    "1": 16,
+    "2": 228,
+    "3": 36,
+    "5": 268,
+    "6": 4,
+    "7": 652
+  },
+  "dirty_clears": 44,
+  "events": {
+    "cached_source_aggregate_cut": {
+      "Hub_X_rank": 440,
+      "held_original_X": [
+        "X1_2",
+        "X1_3",
+        "X2_2",
+        "X2_3"
+      ],
+      "canonical_Hub_intersection": 32
+    },
+    "four_actual_proper_imports_at_I": {
+      "Hub_X_rank": 440,
+      "held_original_X": [
+        "X1_2",
+        "X1_3",
+        "X2_2",
+        "X2_3"
+      ],
+      "canonical_Hub_intersection": 32
+    },
+    "actual_canonical36_at_ground_with_D4_retained_at_I": {
+      "Hub_X_rank": 440,
+      "held_original_X": [
+        "X1_2",
+        "X1_3",
+        "X2_2",
+        "X2_3"
+      ],
+      "canonical_Hub_intersection": 32,
+      "ground_canonical_rank": 36,
+      "completed_Hub_seed_rank": 36,
+      "completed_seed_and_transport_rank": 40,
+      "canonical_plus_retained_proper_D_rank": 40,
+      "all_partial_Hub_seed_and_transport_history_rank": 444
+    },
+    "canonical_preload_and_anchor_reads_completed": {
+      "Hub_X_rank": 440,
+      "held_original_X": [
+        "X1_2",
+        "X1_3",
+        "X2_2",
+        "X2_3"
+      ],
+      "canonical_Hub_intersection": 32
+    },
+    "original_local_correction_completed_sources_not_yet_restored": {
+      "Hub_X_rank": 444,
+      "held_original_X": [],
+      "canonical_Hub_intersection": 36,
+      "four_actual_Y3_targets_completed": true
+    },
+    "original_all_original_sources_restored": {
+      "Hub_X_rank": 444,
+      "held_original_X": [],
+      "canonical_Hub_intersection": 36
+    }
+  },
+  "completed_native_roles": [
+    3
+  ],
+  "physical_copies": 4,
+  "all_partial_Hub_seed_and_transport_history_rank": 444,
+  "completed_seed_and_transport_history_rank": 40,
+  "new_complete_kappa": false,
+  "negative_controls": [
+    {
+      "name": "omit_anchor_capture",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_D_capture",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_D_descent",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_packet_patch",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_ground_preload",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_anchor_read",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_inverse",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_D_retirement",
+      "rejected": true,
+      "reason": ""
+    }
+  ],
+  "word_sha256": "bf62d128591fab4b29ed5a56debae6702e666c36edc265e05cae00f586a85a02"
+}

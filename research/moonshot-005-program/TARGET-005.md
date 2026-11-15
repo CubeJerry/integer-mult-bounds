@@ -250,6 +250,41 @@ changed actual source is necessary within that continuation.
 [Relay](results/bit-paired-nonlocal-relay/ADMISSION.md),
 [single-cell gate](results/bit-paired-single-cell-gate/ADMISSION.md).
 
+## Chronological local MDS: exact remaining gap
+
+For one selected receiver in B80 paid banks,h60 held pivots,r720 canonical
+fields and800owners, the exact normalized movement is
+
+    Q_i=2.5[1]+f_i[2]+f_i[5]+1.75[6]+(221−f_i)[7]+8.25[8].
+
+Actual f_i55..62 gives worstQ1611.53358657872736138... and limiting room
+10.21729363242499387.... The ADD bound7,249,420 is finite,width-uniform and
+charged. Literal four-copy versions cost1612.671594258865811... (common patch)
+and1611.4577645247274248... (direct pivots). Favorable m4 movement is conditional
+on complete-native endpoints. Repeating111 local words changes source cost
+and productivity. [Construction](results/bit-canonical-mds-chronology/ADMISSION.md).
+
+For every field,width,rectangular source factors with m≤λn channels,no own-
+cohort acquisition and≤d other cohorts per channel obey
+rank(I−UP)≥V ceil(n integral_0^1(1−λ+λu^d)_+du). Atλ2,d3 the integral exceeds
+119/1250. With111b target blocks and all222b original X/Y couriers, globalrank
+exceeds9bV. Fixed disjoint larger cohorts obey the same theorem under common-
+chart recoding before exit; overlapping interaction/nonlocal history changes
+the premise. [Proof](results/bit-clipped-rectangular-source/ADMISSION.md).
+
+Necessary retained side information at a cocharted held-X cut is
+rank(SW_A)=hV. The old cut's canonical-Hub intersection32 does not permit a
+32+4 invoice: actual Hub projection36 and canonical-plus-held rank40 are
+required. The direct-pivot source has36 final modes,40 completed-history
+directions and444 transient Hub directions, each charged at actual locations.
+[Memory theorem](results/bit-early-hub-memory/ADMISSION.md).
+
+Complex source admission is iff v=e_a,w_a=0 for actual monomial Clifford S
+with S X_b S^-1=εi^(v·w)X_vZ_w. This supplies actual order9/order15 sources,
+not profitable callers. All-call local-wreath and scalarC15 native-only
+conservation retain m≥1 pricing scope and exact phases.
+[Admission](results/complex-entangling-native-source/ADMISSION.md).
+
 ## 7. Sufficient end-to-end theorem still missing
 
 Actual arbitrary-input source → chart/chronology/ownership and all endpoints →

@@ -1,0 +1,112 @@
+{
+  "status": "PASS_DIRECT_QUERY_ADAPTED_CANONICAL_MDS_SOURCE",
+  "columns": 888,
+  "counts": {
+    "INIT": 40,
+    "ADD": 3602,
+    "MOVE": 1168,
+    "CLEAR": 40
+  },
+  "movement_profile": {
+    "1": 12,
+    "2": 232,
+    "5": 232,
+    "6": 8,
+    "7": 652,
+    "8": 32
+  },
+  "dirty_clears": 40,
+  "events": {
+    "cached_source_aggregate_cut": {
+      "Hub_X_rank": 440,
+      "held_original_X": [
+        "X1_2",
+        "X1_3",
+        "X2_2",
+        "X2_3"
+      ],
+      "canonical_Hub_intersection": 32
+    },
+    "actual_adapted_canonical36_at_ground": {
+      "Hub_X_rank": 440,
+      "held_original_X": [
+        "X1_2",
+        "X1_3",
+        "X2_2",
+        "X2_3"
+      ],
+      "canonical_Hub_intersection": 32,
+      "ground_canonical_rank": 36,
+      "completed_Hub_seed_rank": 36,
+      "completed_seed_and_transport_rank": 40,
+      "canonical_plus_held_original_rank": 40,
+      "all_partial_Hub_seed_and_transport_history_rank": 444
+    },
+    "canonical_preload_and_anchor_reads_completed": {
+      "Hub_X_rank": 440,
+      "held_original_X": [
+        "X1_2",
+        "X1_3",
+        "X2_2",
+        "X2_3"
+      ],
+      "canonical_Hub_intersection": 32
+    },
+    "original_local_correction_completed_sources_not_yet_restored": {
+      "Hub_X_rank": 444,
+      "held_original_X": [],
+      "canonical_Hub_intersection": 36,
+      "four_actual_Y3_targets_completed": true
+    },
+    "original_all_original_sources_restored": {
+      "Hub_X_rank": 444,
+      "held_original_X": [],
+      "canonical_Hub_intersection": 36
+    }
+  },
+  "completed_native_roles": [
+    3
+  ],
+  "physical_copies": 4,
+  "all_partial_Hub_seed_and_transport_history_rank": 444,
+  "completed_seed_and_transport_history_rank": 40,
+  "new_complete_kappa": false,
+  "negative_controls": [
+    {
+      "name": "omit_anchor_capture",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_direct_original_read",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_query_chart_visit",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_ground_preload",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_anchor_read",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_inverse",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_packet_retirement",
+      "rejected": true,
+      "reason": ""
+    }
+  ],
+  "word_sha256": "335d5d98e97ca14b0b0a50bf36aacb3cfde941b9fe8105e948d365993d7c1b0e"
+}

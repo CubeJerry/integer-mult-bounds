@@ -67,6 +67,19 @@ and source-specific earlier export limits. Their exact premises remain in
 [TARGET-005](TARGET-005.md) and individual admissions. Never transfer a frozen-
 source obstruction to changed chronology without rechecking its hypotheses.
 
+## Chronological source obligations admitted at checkpoint8
+
+| Proposition, quantifiers and dependencies | Status / remaining gap | Evidence |
+|---|---|---|
+| Rectangular source factors, every field,V, m≤2n channels, ≤3 other cohorts per channel | Proved rank(I−UP)≥V ceil(119n/1250), excludes canonical9b at n111b with all X/Y couriers. Fixed disjoint common-chart cohorts included; overlapping interactions outside. | [Proof/review](results/bit-clipped-rectangular-source/ADMISSION.md) |
+| Invertible monotone cocharted X prefix, no side-memory feedback to X | Proved inverse-column locality and necessary rank(SW_A)=hV at each common-chart held group. Joint sufficiency open. | [Memory](results/bit-early-hub-memory/ADMISSION.md) |
+| Actual one-/two-cohort cached words, arbitrary originals | Proved partial constructions, restored X, one/two completed Y and paid caches. Two-cohort version uses rank11 ground information. | [Cached sources](results/bit-cached-early-hub/ADMISSION.md) |
+| Canonical-before-Y MDS, four paid copies | Proved two literal888-column words; one completed receiver, terminal36/completed40/transient444. | [Admission](results/bit-canonical-mds-chronology/ADMISSION.md) |
+| Every chosen native i,positive width,char2 field | Proved80-bank single-receiver algorithm, one foreign root's60pivots and adapted canonical720basis; finite complete local invoice. | [Theorem](results/bit-canonical-mds-chronology/parametric-root/PROOF.md), [review](results/bit-canonical-mds-chronology/parametric-review/REVIEW.md) |
+| Same original trajectories serve all111 receiver roles | **Open, primary:** compatible overlapping common-prefix caches and chronological canonical acquisition; no free restart/reset or altered productivity, all X restored, arbitrary Y preserved, complete invoice. | [Scope](results/bit-canonical-mds-chronology/ADMISSION.md) |
+| Order9/order15 actual heads,everyV | Proved source identities,ordinary gauges and V≥2 cyclic faithfulness. General admission iff v=e_a,w_a=0,all fixed d. No caller. | [Sources](results/complex-entangling-native-source/ADMISSION.md) |
+| Local-wreath caller,fixed d,arbitrary call count | Proved H≤2m+sum(query ranks),strict full-body deficit m≥1. ScalarC15 native-only still H≤2m; genuine entangling interstages outside. | [Scopes](results/complex-entangling-native-source/ADMISSION.md) |
+
 ## Complex bridge and complete theorem
 
 **COMPLEX-COMPLETE-CALLER / open.** Produce an authenticated all-column,

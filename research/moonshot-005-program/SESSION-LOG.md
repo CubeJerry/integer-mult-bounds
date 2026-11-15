@@ -1750,3 +1750,35 @@ are retained. No new completeκ or foundational discharge. Upstream unchanged
 at10:57:21UTC. New complex sources and an early-Hub chronology theorem remain
 under independent review for a later checkpoint. Final discovery/drift review
 is still due. Resulting commit identity is confirmed separately after publication.
+
+### S015 checkpoint8 — chronological MDS and actual entangling source admission
+
+Baseline confirmed checkpoint7 `c4816d03cc5ace9ed04a5a933f05bb58d07bd998`; prepared2026-11-15T11:35:54.218909+00:00.
+Independent reviews admit the clipped rectangular all-X/Y source bound,
+early-Hub inverse-column/retained-memory necessity, one-/two-cohort actual
+cached sources, both four-copy chronological MDS words and the all111-choice
+single-receiver80-bank theorem. The last uses one foreign root's60pivots and
+an adapted720-mode canonical basis. Original endpoints, ordinary work and
+history distinctions are explicit. Simultaneous111-source formation remains
+open; the final wave is testing a genuine two-receiver common prefix.
+
+The complex package admits actual order9/order15 sources, phase-faithfulness,
+the general monomial ordinary-gauge iff criterion, all-call local-wreath
+conservation and the scalarC15 dominating-cut correction. No profitable caller,
+strict supplier or new completeκ follows. Frozen author pending-review labels
+remain historical; admissions and independent reviews record current status.
+
+Portable isolated reproductions and exact comparisons are recorded in
+CHECKPOINT8-VALIDATION.json. No old scientific hash or protected discovery
+instruction changed. The canonical remote remains e545235... and targeted PR
+updates since10:57:21UTC are empty. Next: independent review of a common-prefix
+multi-receiver source, protected discovery review and final publication.
+Resulting checkpointSHA is confirmed separately and recorded at the next
+checkpoint, never self-embedded.
+
+Checkpoint8 inventory correction: two earlier S015 logs were locally present
+and already hash-indexed but ignored by Git: `bit-four-axis-feedback/independent-a/run.log`
+and `bit-joint-kernel-puncture/six-axis/author/run.log` under results/. Their
+bytes match their existing frozen hashes and are now deliberately published.
+No mathematical result or prior scientific hash changes. The two explicitly
+qualified historical missing artifacts remain unavailable.

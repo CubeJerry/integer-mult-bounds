@@ -1,0 +1,132 @@
+{
+  "status": "INDEPENDENT_LITERAL_DIRECT_QUERY_CANONICAL_MDS_PASS",
+  "source_word_sha256": "335d5d98e97ca14b0b0a50bf36aacb3cfde941b9fe8105e948d365993d7c1b0e",
+  "source_proof_sha256": "be6dfbeaf6e319745a4eda585a1f662770c79dae8695eab7780ad210a7afec3a",
+  "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "word": {
+    "counts": {
+      "INIT": 40,
+      "ADD": 3602,
+      "MOVE": 1168,
+      "CLEAR": 40
+    },
+    "profile": {
+      "1": 12,
+      "2": 232,
+      "5": 232,
+      "6": 8,
+      "7": 652,
+      "8": 32
+    },
+    "dirty_clears": 40,
+    "observations": {
+      "cached_source_aggregate_cut": {
+        "Hub_X_rank": 440,
+        "held_X": [
+          "X1_2",
+          "X1_3",
+          "X2_2",
+          "X2_3"
+        ],
+        "Hub_canonical_intersection": 32,
+        "held_canonical_intersection": 0
+      },
+      "actual_adapted_canonical36_at_ground": {
+        "Hub_X_rank": 440,
+        "held_X": [
+          "X1_2",
+          "X1_3",
+          "X2_2",
+          "X2_3"
+        ],
+        "Hub_canonical_intersection": 32,
+        "held_canonical_intersection": 0,
+        "ground_canonical_rank": 36,
+        "completed_Hub_seed_rank": 36,
+        "completed_seed_transport_rank": 40,
+        "literal_partial_history_rank": 444,
+        "held_projection_identity_verified": true,
+        "new_K3_witness_lengths": [
+          7,
+          7,
+          10,
+          8
+        ]
+      },
+      "canonical_preload_and_anchor_reads_completed": {
+        "Hub_X_rank": 440,
+        "held_X": [
+          "X1_2",
+          "X1_3",
+          "X2_2",
+          "X2_3"
+        ]
+      },
+      "original_local_correction_completed_sources_not_yet_restored": {
+        "Hub_X_rank": 444,
+        "held_X": [],
+        "actual_four_copy_receiver3_completed": true
+      },
+      "original_all_original_sources_restored": {
+        "Hub_X_rank": 444,
+        "held_X": []
+      }
+    },
+    "completed_seed_rank": 36,
+    "transport_rank": 40,
+    "all_partial_history_rank": 444,
+    "columns": 888,
+    "actual_completed_roles": [
+      3
+    ],
+    "physical_binary_copies": 4
+  },
+  "negative_controls": [
+    {
+      "name": "wrong_direct_held_binary_bank",
+      "rejected": true,
+      "reason": "('Y endpoint', 'Y3_0')"
+    },
+    {
+      "name": "wrong_Hub_source_bank",
+      "rejected": true,
+      "reason": "('Y endpoint', 'Y3_0')"
+    },
+    {
+      "name": "skip_required_query_chart",
+      "rejected": true,
+      "reason": "('ADD chart', 1330, ['ADD', 'X1_2', 'P0'], 'C2', 'zero')"
+    },
+    {
+      "name": "wrong_new_preload_basis_field",
+      "rejected": true,
+      "reason": "('Y endpoint', 'Y3_0')"
+    },
+    {
+      "name": "preload_wrong_receiver",
+      "rejected": true,
+      "reason": "('Y endpoint', 'Y3_0')"
+    },
+    {
+      "name": "swap_stationary_anchor_bank",
+      "rejected": true,
+      "reason": "('Y endpoint', 'Y3_0')"
+    },
+    {
+      "name": "Y_leaves_before_new_canonical_read",
+      "rejected": true,
+      "reason": "('ADD chart', 3858, ['ADD', 'P0', 'Y3_0'], 'zero', 'C0')"
+    },
+    {
+      "name": "missing_actual_source_inverse",
+      "rejected": true,
+      "reason": "('X endpoint', 'X58_2')"
+    },
+    {
+      "name": "principal_owner_not_retired",
+      "rejected": true,
+      "reason": "('unretired', ['P0'])"
+    }
+  ],
+  "actual_Hub_seed_reads": 2512
+}

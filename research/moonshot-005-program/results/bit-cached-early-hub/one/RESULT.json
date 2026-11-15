@@ -1,0 +1,98 @@
+{
+  "status": "PASS_LITERAL_CACHED_EARLY_HUB_SOURCE",
+  "columns": 222,
+  "counts": {
+    "INIT": 11,
+    "MOVE": 292,
+    "ADD": 594,
+    "CLEAR": 11
+  },
+  "movement_profile": {
+    "1": 56,
+    "2": 3,
+    "3": 2,
+    "4": 5,
+    "6": 53,
+    "7": 164,
+    "8": 9
+  },
+  "dirty_clears": 11,
+  "events": {
+    "early_Hub_canonical_cut": {
+      "Hub_X_rank": 110,
+      "held_original_X": [
+        0
+      ],
+      "canonical_Hub_intersection": 9,
+      "held_inverse_column_hex": "0xf",
+      "actual_T_cache_restricted_rank": 1
+    },
+    "canonical_nine_fields_delivered_with_X0_held": {
+      "Hub_X_rank": 110,
+      "held_original_X": [
+        0
+      ],
+      "canonical_Hub_intersection": 9,
+      "held_inverse_column_hex": "0xf",
+      "actual_T_cache_restricted_rank": 1,
+      "nine_actual_canonical_ground_fields": true
+    },
+    "Y0_completed_with_X0_held": {
+      "Hub_X_rank": 110,
+      "held_original_X": [
+        0
+      ],
+      "canonical_Hub_intersection": 9,
+      "held_inverse_column_hex": "0xf",
+      "actual_T_cache_restricted_rank": 1,
+      "Y0_actual_target_completed": true
+    },
+    "all_X_restored": {
+      "Hub_X_rank": 111,
+      "held_original_X": [],
+      "canonical_Hub_intersection": 9
+    }
+  },
+  "completed_targets": [
+    0
+  ],
+  "new_complete_kappa": false,
+  "negative_controls": [
+    {
+      "name": "omit_axis_cache_capture",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_early_recoding",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_canonical_seed_term",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_proper_cache_read",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_full_facet_cache_read",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_restoration",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_cache_retirement",
+      "rejected": true,
+      "reason": ""
+    }
+  ],
+  "word_sha256": "d426e61b0d2d4727822a9925e4c76335b395d920477d0b1989bfe6b59538ea3c"
+}

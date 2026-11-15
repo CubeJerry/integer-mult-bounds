@@ -26,9 +26,10 @@ The complete architecture requires compatible U>1/200 and B>1/200, then the
 retained outer assembly. Its BIT mechanism shares stationary sums and descending
 packet histories. Information must be acquired where originals exist, delivered
 at actual receiver charts, and retired/restored under the endpoint contract.
-The algebraic target is the h9 singular fitting W15 on the111-root native,
-with canonical enlargement16 and proper-cover charge106. It is a target code,
-not a delivered decoder.
+An older retained alternative is the h9 singular fitting W15 on the111-root
+native, with canonical enlargement16 and proper-cover charge106. The current
+canonical shared-facet construction need not reproduce W15 history. Neither
+target code alone is a delivered simultaneous decoder.
 
 The source has now changed its flag geometry as well as its representation.
 Paired query paths genuinely share their descending tails; two paid axis
@@ -64,6 +65,30 @@ The central frontier is therefore a shared-facet decoder with a stronger
 actual source, chronological canonical acquisition and fully paid restoration.
 Local correction is constructed; simultaneous global supply remains missing.
 
+## Current frontier: chronological local MDS composition
+
+Chronology is now resolved for each receiver individually. Two literal
+four-copy words acquire all36 canonical modes before any original Y moves,
+complete Y3 in all four copies and restore X. The adapted direct-pivot version
+has40owners/3602ADD/1168MOVE,Q1611.4577645247274248.... Terminal36,completed
+history40 and transient Hub span444 remain distinct. A general single-root
+pivot recipe covers any of111 receiver choices in80 paid banks:720 canonical
+modes,60held pivots,800owners,worstQ1611.5335865787273614..., conservative
+7,249,420ADD bound. This is one selected receiver per word, not simultaneous111
+productivity. [Proofs/reviews](results/bit-canonical-mds-chronology/ADMISSION.md).
+
+The clipped rectangular filtration strengthens the source gate to include
+all X and Y couriers: under fixed disjoint common-chart cohorts and one-E6
+acquisition per channel, globalrank>=V ceil(13209b/1250)>9bV. Uneven channels
+and arbitrary blocks are included. Larger fixed disjoint cohorts do not escape.
+Earlier retained memory must be injective on cocharted held inverse columns;
+actual cached one-/two-cohort words give positive controls. The primary next
+construction is compatible overlapping receiver sources from the SAME actual
+prefix, with chronological canonical access, caches, endpoints and full costs.
+[Clipped theorem](results/bit-clipped-rectangular-source/ADMISSION.md),
+[memory](results/bit-early-hub-memory/ADMISSION.md),
+[cached words](results/bit-cached-early-hub/ADMISSION.md).
+
 ## Complex supplier and retained constraints
 
 The actual K(a)^3=a²I3 identity and full invoice are proved but unprofitable.
@@ -86,6 +111,17 @@ Minimum-rank rigidity, target rank9V+ceil(V/3), canonical quotient/cover limits,
 localized normalization and sharp seed bounds retain their exact scopes. None
 is a general multiplication lower bound. Earlier evidence remains in
 [REGISTERED-RESULTS.json](REGISTERED-RESULTS.json).
+
+## Admitted noncommuting complex sources
+
+Actual order9 and entangling order15 common heads now have fully paid ordinary
+boundary gauges and an exact monomial source-admission criterion. All admitted
+heads retain rank(A)=1,rank(A²)=2. Local-wreath conservation excludes all call
+counts in its precise family; the order15 source lies outside it. Scalar
+order15 native-only callers remain blocked by a dominating cyclic cut. The
+next positive step is an actual profitable caller with noncommuting ordinary
+interstages, all body/idles, phases and spectator volumes charged.
+[Sources and scope](results/complex-entangling-native-source/ADMISSION.md).
 
 ## Continuity, verification and success
 
