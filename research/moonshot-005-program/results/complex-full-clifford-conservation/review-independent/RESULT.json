@@ -1,0 +1,208 @@
+{
+  "status": "PASS_INDEPENDENT_FULL_CLIFFORD_MATCHING_CONSERVATION",
+  "engine": "independent odd-form enumeration and SymPy exact rational ranks; no author imports",
+  "sympy_version": "1.14.0",
+  "odd_forms": [
+    5,
+    7,
+    10,
+    11,
+    13,
+    14
+  ],
+  "matching": [
+    1,
+    0,
+    3,
+    2,
+    5,
+    4
+  ],
+  "group_order": 720,
+  "ordinary_order": 48,
+  "rank_histogram": {
+    "(0, 0)": 48,
+    "(1, 2)": 288,
+    "(2, 4)": 384
+  },
+  "B_columns": [
+    13,
+    11,
+    10,
+    14
+  ],
+  "B_permutation": [
+    0,
+    5,
+    4,
+    1,
+    3,
+    2
+  ],
+  "native_ranks": [
+    [
+      -1,
+      -1,
+      -1,
+      4
+    ],
+    [
+      -1,
+      -1,
+      1,
+      4
+    ],
+    [
+      -1,
+      1,
+      -1,
+      4
+    ],
+    [
+      -1,
+      1,
+      1,
+      4
+    ],
+    [
+      1,
+      -1,
+      -1,
+      4
+    ],
+    [
+      1,
+      -1,
+      1,
+      4
+    ],
+    [
+      1,
+      1,
+      -1,
+      4
+    ],
+    [
+      1,
+      1,
+      1,
+      4
+    ]
+  ],
+  "pair_correspondence": [
+    {
+      "pauli_vector": 1,
+      "odd_form_pair": [
+        2,
+        5
+      ]
+    },
+    {
+      "pauli_vector": 2,
+      "odd_form_pair": [
+        0,
+        4
+      ]
+    },
+    {
+      "pauli_vector": 3,
+      "odd_form_pair": [
+        1,
+        3
+      ]
+    },
+    {
+      "pauli_vector": 4,
+      "odd_form_pair": [
+        2,
+        3
+      ]
+    },
+    {
+      "pauli_vector": 5,
+      "odd_form_pair": [
+        3,
+        5
+      ]
+    },
+    {
+      "pauli_vector": 6,
+      "odd_form_pair": [
+        1,
+        5
+      ]
+    },
+    {
+      "pauli_vector": 7,
+      "odd_form_pair": [
+        1,
+        2
+      ]
+    },
+    {
+      "pauli_vector": 8,
+      "odd_form_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "pauli_vector": 9,
+      "odd_form_pair": [
+        3,
+        4
+      ]
+    },
+    {
+      "pauli_vector": 10,
+      "odd_form_pair": [
+        1,
+        4
+      ]
+    },
+    {
+      "pauli_vector": 11,
+      "odd_form_pair": [
+        0,
+        3
+      ]
+    },
+    {
+      "pauli_vector": 12,
+      "odd_form_pair": [
+        4,
+        5
+      ]
+    },
+    {
+      "pauli_vector": 13,
+      "odd_form_pair": [
+        2,
+        4
+      ]
+    },
+    {
+      "pauli_vector": 14,
+      "odd_form_pair": [
+        0,
+        5
+      ]
+    },
+    {
+      "pauli_vector": 15,
+      "odd_form_pair": [
+        0,
+        2
+      ]
+    }
+  ],
+  "native_factorization_verified": true,
+  "group_column_list_sha256": "2c3330b6a01335a2dacfe83a75c17788785aab04a6a30b81cf95f2874938e88f",
+  "sharp_two_native_rank": 8,
+  "negative_controls": {
+    "incorrect_width_one_algebra_transfer_rejected_aux_trace": "20",
+    "paid_B_cannot_be_declared_ordinary": true
+  },
+  "full_all_width_proof": "finite matching identity plus faithful Clifford tensor algebra and auxiliary representation; computational controls are separated from universal invoice proof",
+  "new_kappa": false
+}

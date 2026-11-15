@@ -1,0 +1,77 @@
+{
+  "status": "PASS_EXACT_PENTAGON_CUT_CONSERVATION",
+  "arithmetic": "Python integers and exact Fraction elimination",
+  "group_products_checked": 100,
+  "difference_ranks": {
+    "0,0": 0,
+    "0,1": 0,
+    "1,0": 2,
+    "1,1": 2,
+    "2,0": 4,
+    "2,1": 4,
+    "3,0": 4,
+    "3,1": 4,
+    "4,0": 2,
+    "4,1": 2
+  },
+  "native_checks": [
+    [
+      -1,
+      -1,
+      -1,
+      4
+    ],
+    [
+      -1,
+      -1,
+      1,
+      4
+    ],
+    [
+      -1,
+      1,
+      -1,
+      4
+    ],
+    [
+      -1,
+      1,
+      1,
+      4
+    ],
+    [
+      1,
+      -1,
+      -1,
+      4
+    ],
+    [
+      1,
+      -1,
+      1,
+      4
+    ],
+    [
+      1,
+      1,
+      -1,
+      4
+    ],
+    [
+      1,
+      1,
+      1,
+      4
+    ]
+  ],
+  "query_mode_checks": 20,
+  "sharp_control": {
+    "native_halves": 2,
+    "total_endpoint_rank": 4,
+    "difference_rank": 8
+  },
+  "ordinary_agreement_on_inverter": true,
+  "false_free_rotation_rejected": true,
+  "scope": "D10 coefficients and Mat(C[T]) ordinary encodings only; full monomial Clifford ordinary family remains open.",
+  "new_kappa": false
+}

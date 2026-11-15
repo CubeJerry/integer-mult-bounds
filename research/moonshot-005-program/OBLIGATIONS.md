@@ -71,3 +71,22 @@ The previous COMPLEX-ENLARGED-PHASE interface is now partially discharged by an
 actual gauge; its complete caller/supplier statement remains OPEN. The prior
 S013 pending localization claim was not recovered: S014 supplies a fresh proof.
 Every remaining strict-supplier, physical-cost and foundational obligation stays.
+
+## S014 checkpoint2 changes
+
+- **COMPLEX-FULL-CLIFFORD-CONSERVATION: proved.** Every fixed two-head Clifford
+  caller with retained roles, arbitrary invertible ordinary matrices over the
+  computational-monomial subgroup and the stated one-role queries satisfies
+  H<=2m+q1+2q2. Exact pentagonal gauge, finite tensor separation, matching
+  representation and complete common-body price are explicit dependencies.
+  Every0<t<1 invoice fails; see its result admission and independent review.
+- **BIT-FIRST-EXIT-SOURCE-GATE: proved within its grammar.** An original-only
+  monotone source cannot export a singleton common-chart input to all required
+  distinct facets, even with arbitrary recoding. All64 fixed seven-mode
+  choices fail; a changed basis passes a necessary test only. Exact witnesses,
+  source pins and independent proof are in its result package.
+- **BIT-ACTUAL-RECEIVER-COMPOSITION: pending admission.** A literal eight-packet
+  source plus three output completions is being independently checked.
+- **COMPLEX-CHANGED-HEAD/BODY: open.** Actual spectator embedding, source gauge,
+  caller identity and all costs must be proved. A favorable inventory is not
+  an algorithm. Fresh-body and three-head component gates are under review.

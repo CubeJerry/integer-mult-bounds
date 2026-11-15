@@ -142,3 +142,18 @@ proves h2<=q for one native and q one-role queries in the enlarged fixed
 Clifford family. Thus the old one-native/two-query proposal is also excluded
 here. One-native/three-query and three-native/four-role callers remain open.
 The exact admissions are indexed in OBLIGATIONS and VERIFICATION. No new kappa.
+
+## S014 checkpoint2: a necessary architecture change
+
+The full two-head computational-monomial Clifford ordinary algebra now obeys
+H<=2m+q1+2q2, and the complete common-body invoice fails for every0<t<1.
+The non-diagonal matching representation includes arbitrary ordinary role
+mixing and scalar phases. Further two-head quadratic-phase caller searches
+under these premises are closed. The positive order-five source remains
+reusable; changed body incidence or head dimension is now the complex frontier.
+
+On BIT, arbitrary original recoding cannot prepare all seven fixed modes:
+first-exit excludes all64 complementary choices under stationary-cache,
+original-only preprocessing. A changed basis passes the necessary screen.
+The live construction has progressed to an actual three-receiver composition
+under independent review; historical span alone is not receiver access.

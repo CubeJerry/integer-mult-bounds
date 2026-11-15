@@ -1,27 +1,21 @@
-# Resume the S014 shared-source and pentagonal programme
+# Continue the actual-source and changed-head programme
 
-Read exact remote HEAD and STATE first. The scientific checkpoint parent is
-a5c9072217d4f743da3d923e9dec7c4713827109; its resulting commit is recorded after
-publication. Target 1/200 remains open, selected conditional 0.00363005817 and
-all five foundations remain. No new complete kappa.
+Read exact remote HEAD and STATE first. Checkpoint2 parent is
+d9c50ed2856810003aa5c6cdc080bcc6b825786a; resulting SHA is confirmed separately.
+Target1/200 remains open, selected conditional0.00363005817 and all five
+foundations remain. Session runs02:07:18--04:07:18UTC; no background promise.
 
-The next BIT obligation is a compatible shared multi-facet acquisition and
-receiver-delivery network. Two actual innovations now use restored original
-carriers, donor masks and continuous 8->7->1->0 packets. They complete zero Y
-targets and consume source paths. Do not concatenate pair words for free.
-The complete singular localization proves rank 15V fitting rigidity and the
-scoped direct-code q>=12 gate; outside-W histories and actual recoding remain
-the intended escape. Three-facet acquisition and fixed-basis first-exit claims
-are pending independent review, not admitted at this checkpoint.
+The full two-head Clifford common-body repair is now closed within its precise
+model. Read results/complex-full-clifford-conservation/ADMISSION.md. Do not
+repeat scalar, dihedral or larger two-head quadratic-phase caller searches.
+The order-five source is valid; construct a genuinely changed head/body
+interface. Three-head inventories and graph-local bodies require proof.
 
-The complex enlargement is now an actual exact pentagonal source B^5=I. Read
-its all-width phase and physical ordinary-service invoice. The former one-
-native/two-query three-role proposal is excluded by h2<=q in the enlarged
-fixed Clifford ordinary algebra. Continue one-native/three-query or multiple-
-native caller construction; no favorable raw invoice is a built endpoint.
+BIT fixed64 seven-mode preprocessing families fail first-exit even with
+original recoding. A changed-basis control passes a necessary test only.
+An actual eight-packet, three-receiver composition is under independent review.
+Continue actual source and receiver access, not historical rank alone.
 
-Local Python/Node execution is available. CLI Git push has no credentials;
-connected Git Data API publication uses exact-tree comparison and expected-
-HEAD nonforced updates. Preserve original S012 missing-evidence qualifiers.
-Current two-hour session runs 02:07:18--04:07:18 UTC; no background work promised.
-Read current admissions and VERIFICATION before redoing proved work.
+Local execution is available. Git CLI push lacks credentials; connected Git
+Data API publication uses exact-tree comparison and expected-HEAD nonforced
+updates. Preserve S012 missing-evidence qualifications.

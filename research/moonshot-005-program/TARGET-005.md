@@ -153,3 +153,17 @@ h2<=q. One native plus three rank-one queries has raw invoice
 P=2[7]+[8]+4[1], T=3[9], subject to an unconstructed exact endpoint and every
 ordinary/body/compiler/precision/recursive cost. Three-native/four-role options
 remain similarly unconstructed. Both strict suppliers are still missing.
+
+## S014 full two-head Clifford closure
+
+With the full ordinary monomial Clifford algebra, H<=2m+q1+2q2. For paid
+common body rank7m and inactive rank-seven idles, let d=8^t-7^t. Then
+P-T >= (m+q1)(1-d)+q2(2^t-2d)>0 for every0<t<1. No ordinary phase or query
+count tuning inside this model reaches the target. This does not cover extra
+head coordinates, body mixing, non-Clifford ordinary maps or changed sources.
+The order-five source and all five foundational assumptions remain.
+
+The fixed BIT seven-mode family also fails original-only preprocessing, even
+with recoding; a changed basis or actual interleaved transport is necessary.
+The emerging three-output word remains partial and under review here. Every
+remaining receiver, source, ownership and complete supplier cost is retained.

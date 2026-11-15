@@ -102,3 +102,18 @@ queries even under noncommuting fixed Clifford ordinary mixing. The complete
 pentagonal caller, shared global BIT source and both strict suppliers remain
 open. Independent proof reviews and distinct exact implementations accompany
 these linked contributions. No new kappa; cumulative PR readiness remains false.
+
+### Full Clifford and first-exit contribution (S014 checkpoint2)
+
+The cumulative branch now proves head-rank conservation for the full two-head
+ordinary monomial Clifford algebra: H<=2m+q1+2q2, under retained-role and
+one-role-query contracts. A non-diagonal matching representation with a
+phase-exact tensor lift closes every common-body ordinary-phase repair for
+0<t<1. Separate exact implementations and mathematical reviews accompany the
+720/48 census. The exact order-five native interface remains reusable.
+
+The arbitrary-recoding first-exit theorem excludes all64 fixed seven-mode BIT
+preprocessing families, with exact witnesses and a changed-basis negative
+control. Actual source/receiver composition continues. **No new kappa.**
+Neither theorem is a general multiplication lower bound. All five foundations
+remain, and the cumulative branch is an ongoing programme, not PR-ready.

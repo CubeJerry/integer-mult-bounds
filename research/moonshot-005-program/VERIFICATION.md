@@ -414,3 +414,19 @@ and historical qualified absences. Registry282; ledger4495.
 Local executor is available; no full selected multiplier/native-global suite
 was rerun for these isolated source results. No new kappa or assumption
 discharge. See sessions/2026-11-15-S014/CHECKPOINT1-VALIDATION.json.
+
+## S014 checkpoint2 verification
+
+Root and Worker B independently derive the six-odd-form matching action and
+check all720 symplectic images,48 ordinary stabilizers and eight native
+orientations. B obtains the actual source via Gaussian-dyadic Pauli conjugation;
+root uses binary source composition, exact SymPy ranks, matching-edge labels
+and a structural block factorization. Root's one-column negative control shows
+why faithful tensor algebra is necessary. The phase-safe auxiliary tensor lift
+and all-t invoice are independently reviewed mathematical arguments.
+
+Worker C independently rebuilds A's first-exit theorem and all64 orientation
+cases. Root reviewed the proof and reran author/independent controls; receipts
+match. The changed seven-mode basis is separately independently verified for
+support, rank and necessary singleton screening only. Geometry recovery is
+not relabelled as a fresh full native-program replay. See both admissions.

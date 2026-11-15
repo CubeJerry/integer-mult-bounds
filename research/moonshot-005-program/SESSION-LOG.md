@@ -1512,3 +1512,18 @@ This is discovery/source-interface work, not relabelled local optimization.
 The next theorem must compose acquisition/delivery or build the new caller
 with full accounting. Session continues toward 04:07:18 UTC. Resulting remote
 commit will be confirmed separately; no self-referential SHA is embedded.
+
+### S014 checkpoint2 — 2026-11-15 02:48 UTC
+
+Parent d9c50ed2856810003aa5c6cdc080bcc6b825786a, confirmed checkpoint1 remote
+and exact tree. Admitted full two-head Clifford conservation and strict all-t
+common-body invoice failure. The matching representation and phase-safe
+physical tensor lift close the larger-ordinary-phase repair. The positive
+source remains; construction pivots to a changed head/body premise.
+
+Also admitted the first-exit theorem and all64 fixed seven-mode exclusions,
+preserving five six-mode exceptions and the independently checked changed
+basis. A literal three-output BIT composition, decoder-closure analysis and
+fresh-body/three-head complex investigations remain under review. No new
+supplier, kappa or foundation discharge. Resulting remote SHA is confirmed
+separately. Session continues toward04:07:18UTC.
