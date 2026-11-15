@@ -1,0 +1,194 @@
+{
+  "status": "PASS_INDEPENDENT_NONLOCAL_RELAY",
+  "word_pins": {
+    "WORD": "12c176f8621156d571441240329e5defe15c9b4322d5e0a3b2c08133334a7b71",
+    "CLOSED-WORD": "e6eea78f02d382bbd2fddd9578dcad45478a84f98ba2c6969c9101ef37b0f389"
+  },
+  "new_complete_kappa": false,
+  "WORD": {
+    "counts": {
+      "INIT": 235,
+      "ADD": 866,
+      "MOVE": 385
+    },
+    "dirty": 0,
+    "profile": {
+      "1": 159,
+      "2": 26,
+      "3": 128,
+      "4": 70,
+      "5": 2
+    },
+    "rank_length": 885,
+    "D_rank": 44,
+    "D_W_intersection": 10,
+    "history_rank": 52,
+    "pure_X_history_rank": 50,
+    "terminal_rank": 7,
+    "normalized_rank": 9,
+    "completed": [
+      0,
+      4,
+      5,
+      6,
+      7,
+      59
+    ],
+    "through_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "nonlocal_preload": "0x7800f001e001a0003c003c0038f0",
+    "kernel_plus_preload": "0x800000000000000",
+    "exchange_trace": [
+      [
+        "preload",
+        1276,
+        "0x7800f001e001a0003c003c0038f0"
+      ],
+      [
+        "exchange",
+        "P0",
+        1304,
+        "0x31006a000000044000000000ff",
+        "0x80000000000000000000000000f0"
+      ],
+      [
+        "exchange",
+        "P1",
+        1317,
+        "0x7800f001e001a8003c003c0038f0",
+        "0x4000000000000007800f001e001a0003c003c0038f0"
+      ]
+    ]
+  },
+  "CLOSED-WORD": {
+    "counts": {
+      "INIT": 235,
+      "ADD": 866,
+      "MOVE": 490,
+      "CLEAR": 235
+    },
+    "dirty": 234,
+    "profile": {
+      "1": 159,
+      "2": 26,
+      "3": 128,
+      "4": 70,
+      "5": 2,
+      "7": 105
+    },
+    "rank_length": 1620,
+    "D_rank": 44,
+    "D_W_intersection": 10,
+    "history_rank": 52,
+    "pure_X_history_rank": 50,
+    "terminal_rank": 7,
+    "normalized_rank": 9,
+    "completed": [
+      0,
+      4,
+      5,
+      6,
+      7,
+      59
+    ],
+    "through_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "nonlocal_preload": "0x7800f001e001a0003c003c0038f0",
+    "kernel_plus_preload": "0x800000000000000",
+    "exchange_trace": [
+      [
+        "preload",
+        1276,
+        "0x7800f001e001a0003c003c0038f0"
+      ],
+      [
+        "exchange",
+        "P0",
+        1304,
+        "0x31006a000000044000000000ff",
+        "0x80000000000000000000000000f0"
+      ],
+      [
+        "exchange",
+        "P1",
+        1317,
+        "0x7800f001e001a8003c003c0038f0",
+        "0x4000000000000007800f001e001a0003c003c0038f0"
+      ]
+    ]
+  },
+  "puncture": {
+    "retained_roles": 99,
+    "actual_punctured_rank": 6,
+    "arbitrary_seed_upper_per_width": 7,
+    "all_field_star_lower_per_width": 9,
+    "degrees": [
+      6,
+      7,
+      7,
+      7,
+      7,
+      5,
+      6,
+      5
+    ],
+    "edge_count": 25
+  },
+  "independent_controls": [
+    {
+      "name": "preload",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "relay_exchange",
+      "rejected": true,
+      "reason": "handoff"
+    },
+    {
+      "name": "relay_mask",
+      "rejected": true,
+      "reason": "handoff"
+    },
+    {
+      "name": "axis_bank",
+      "rejected": true,
+      "reason": "Y endpoint"
+    },
+    {
+      "name": "old_feedback",
+      "rejected": true,
+      "reason": "handoff"
+    },
+    {
+      "name": "axis_helper",
+      "rejected": true,
+      "reason": "handoff"
+    },
+    {
+      "name": "spare_retirement",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "false_star_edge",
+      "rejected": true
+    }
+  ]
+}

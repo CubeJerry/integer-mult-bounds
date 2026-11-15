@@ -1,0 +1,244 @@
+[
+  {
+    "group": "relay",
+    "label": "build",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/relay/author/build.py",
+      "--base",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-paired-flag-source/author/output/WORD.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/relay/author/output"
+    ],
+    "exit_code": 0,
+    "seconds": 0.088
+  },
+  {
+    "group": "relay",
+    "label": "author",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/relay/author/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--package",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/relay/author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/relay/author/verification"
+    ],
+    "exit_code": 0,
+    "seconds": 2.331
+  },
+  {
+    "group": "relay",
+    "label": "puncture",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/relay/author/check_puncture.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--package",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/relay/author"
+    ],
+    "exit_code": 0,
+    "seconds": 0.033
+  },
+  {
+    "group": "relay",
+    "label": "review",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/review-root/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--package",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/relay/author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/relay/review"
+    ],
+    "exit_code": 0,
+    "seconds": 0.873
+  },
+  {
+    "group": "relay",
+    "label": "price",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/review-root/price.py",
+      "--review",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/relay/review/RESULT.json",
+      "--author",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/relay/author/verification/RESULT.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/relay/review/PRICE.json"
+    ],
+    "exit_code": 0,
+    "seconds": 4.322
+  },
+  {
+    "group": "mds",
+    "label": "build",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/mds/author/build.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 0.074
+  },
+  {
+    "group": "mds",
+    "label": "word",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/mds/author/check_word.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 2.5
+  },
+  {
+    "group": "mds",
+    "label": "mds",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/mds/author/certify_mds.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.639
+  },
+  {
+    "group": "mds",
+    "label": "word-review",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/mds/author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/mds/review"
+    ],
+    "exit_code": 0,
+    "seconds": 1.714
+  },
+  {
+    "group": "mds",
+    "label": "cover-review",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/check_cover.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/mds/author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/mds/review"
+    ],
+    "exit_code": 0,
+    "seconds": 0.146
+  },
+  {
+    "group": "mds",
+    "label": "mds-review",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/check_mds.py",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/mds/author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/mds/review"
+    ],
+    "exit_code": 0,
+    "seconds": 0.192
+  },
+  {
+    "group": "mds",
+    "label": "budget-review",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/check_budget.py",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/mds/author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/mds/review"
+    ],
+    "exit_code": 0,
+    "seconds": 2.384
+  },
+  {
+    "group": "onehop",
+    "label": "root",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-shared-facet-one-hop-gate/author-root/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/onehop/root"
+    ],
+    "exit_code": 0,
+    "seconds": 0.347
+  },
+  {
+    "group": "onehop",
+    "label": "independent-c",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/onehop/independent-c/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 3.869
+  },
+  {
+    "group": "singlecell",
+    "label": "author",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/singlecell/author/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--base",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-paired-flag-source/author/output/WORD.json"
+    ],
+    "exit_code": 0,
+    "seconds": 0.138
+  },
+  {
+    "group": "singlecell",
+    "label": "review",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-paired-single-cell-gate/review-root/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/singlecell/author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp7-bit/singlecell/root"
+    ],
+    "exit_code": 0,
+    "seconds": 0.944
+  }
+]

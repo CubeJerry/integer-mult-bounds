@@ -34,9 +34,12 @@ The source has now changed its flag geometry as well as its representation.
 Paired query paths genuinely share their descending tails; two paid axis
 helpers and112 private caches attain D44/W10 at scalar width, and exactly10V
 for this new fixed run interface. All W15 remains in literal history, with
-234owners/845ADD/479MOVE and moment1608.426337331951985.... Only Y0 is
-completed. This construction improves the acquired subspace and permits
-actual joint packet cells; it is the current constructive source frontier.
+234owners/845ADD/479MOVE and moment1608.426337331951985.... The subsequent actual nonlocal Y59 relay completes0,4,5,6,7,59 at moment
+1608.5857473076052333..., with all source/history/owner costs. Its fixed
+two-kernel template is puncture-obstructed, and every arbitrary single-cell
+repair at the12 shared charts is now excluded. Multiple effective cells and
+changed source access remain open. These exact partial words are retained
+constructive primitives, not a complete native decoder.
 
 The earlier fully paid two-copy source remains an alternative: D80/W19,
 W30 history,400owners/2126ADD/990MOVE and twice the old scalar movement.
@@ -50,9 +53,16 @@ bound218 remains proved. Root's integration audit found that the scalar
 physical cap194 does not automatically transfer to multiple output banks at
 one facet. The author and independent review preserve and correct that
 inference. This opens a substantive shared-facet coding question rather than
-establishing a generic two-copy impossibility. An exact28-chart/16-fold
-incidence is being developed into a local coding interface; global source
-formation and chronological composition remain unresolved.
+establishing a generic two-copy impossibility. The exact28-chart/16-fold incidence and a genuine MDS local decoder are now
+proved. Its four-copy ordinary-bank word corrects one facet with1050ADD and
+1128MOVE, restores all X, and has an explicitly paid late-K completion.
+The rank-sensitive local bound n>=b+2 replaces an unjustified multiplication
+of scalar cover charge. The80-copy GF32 construction gives a target-feasible
+optimistic allocation Q=1614.6750836050235274..., but the one-hop source
+interface needs at leastceil(111b/4) global modes, exceeding canonical9b.
+The central frontier is therefore a shared-facet decoder with a stronger
+actual source, chronological canonical acquisition and fully paid restoration.
+Local correction is constructed; simultaneous global supply remains missing.
 
 ## Complex supplier and retained constraints
 

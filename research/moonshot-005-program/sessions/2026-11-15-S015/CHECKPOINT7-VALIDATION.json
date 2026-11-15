@@ -1,0 +1,610 @@
+{
+  "status": "PASS_INDEPENDENT_LOCAL_MDS_AND_SOURCE_GATES",
+  "baseline_sha": "cd3a06fad13938ab425cd14dc9a0e9b6ee68964a",
+  "checked_utc": "2026-11-15T10:59:13.336226+00:00",
+  "new_results": [
+    {
+      "id": "BIT-PAIRED-NONLOCAL-RELAY",
+      "status": "proved actual six-output source with ascending nonlocal import, restored X and complete partial-source invoice",
+      "path": "results/bit-paired-nonlocal-relay/ADMISSION.md",
+      "review": "results/bit-paired-nonlocal-relay/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-PAIRED-NONLOCAL-PUNCTURE",
+      "status": "proved fixed full-zero two-kernel completion obstruction; changed sources not excluded",
+      "path": "results/bit-paired-nonlocal-relay/ADMISSION.md",
+      "review": "results/bit-paired-nonlocal-relay/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-SHARED-FACET-LOCAL-RANK",
+      "status": "proved n>=b+2 under source-local/no-two-cover premises, arbitrary fields and blocks",
+      "path": "results/bit-shared-facet-mds/ADMISSION.md",
+      "review": "results/bit-shared-facet-mds/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-SHARED-FACET-MDS",
+      "status": "proved exact28/16 atlas, four-copy literal correction, paid one-receiver completion and parametric80-copy local algorithm",
+      "path": "results/bit-shared-facet-mds/ADMISSION.md",
+      "review": "results/bit-shared-facet-mds/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-SHARED-FACET-GLOBAL-ENVELOPE",
+      "status": "conditionally computed Q1614.675 and first m4; simultaneous source and chronology missing, strict one-hop model excluded",
+      "path": "results/bit-shared-facet-mds/ADMISSION.md",
+      "review": "results/bit-shared-facet-mds/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-SHARED-FACET-ONE-HOP-GATE",
+      "status": "proved rankG>=V ceil(111b/4), arbitrary within-root blocks, precise monotone single-chart scope",
+      "path": "results/bit-shared-facet-one-hop-gate/ADMISSION.md",
+      "review": "results/bit-shared-facet-one-hop-gate/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-SHARED-FACET-SPREADING",
+      "status": "proved necessary1258b incidences and one support>=12 retaining zero own-cohort blocks",
+      "path": "results/bit-shared-facet-one-hop-gate/ADMISSION.md",
+      "review": "results/bit-shared-facet-one-hop-gate/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-PAIRED-SINGLE-CELL-GATE",
+      "status": "proved all12 single-effective-cell arbitrary-through-map puncture exclusions over every field and width",
+      "path": "results/bit-paired-single-cell-gate/ADMISSION.md",
+      "review": "results/bit-paired-single-cell-gate/review-root/REVIEW.md"
+    }
+  ],
+  "reproduction_commands": 16,
+  "json_comparisons": [
+    {
+      "group": "relay",
+      "committed": "research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/output/WORD.json",
+      "reproduced": "relay/author/output/WORD.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "12c176f8621156d571441240329e5defe15c9b4322d5e0a3b2c08133334a7b71"
+    },
+    {
+      "group": "relay",
+      "committed": "research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/output/CLOSED-WORD.json",
+      "reproduced": "relay/author/output/CLOSED-WORD.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "e6eea78f02d382bbd2fddd9578dcad45478a84f98ba2c6969c9101ef37b0f389"
+    },
+    {
+      "group": "relay",
+      "committed": "research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/verification/RESULT.json",
+      "reproduced": "relay/author/verification/RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "89008e6cc6e8c473667a631175131a7eaa418759c2f54c50d49c2f7b4721ab5a"
+    },
+    {
+      "group": "relay",
+      "committed": "research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/verification/PUNCTURE-RESULT.json",
+      "reproduced": "relay/author/verification/PUNCTURE-RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "b07d285b038ee7b2f3e4eb640e9711f654f54b8aebd78e8cba54ac0cc55c6334"
+    },
+    {
+      "group": "relay",
+      "committed": "research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/verification/WORD-HISTORY.json",
+      "reproduced": "relay/author/verification/WORD-HISTORY.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "ba83648971c7a11017f1c4cc968956da27111afef8ced8a34bee3cbf97311791"
+    },
+    {
+      "group": "relay",
+      "committed": "research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/verification/CLOSED-WORD-HISTORY.json",
+      "reproduced": "relay/author/verification/CLOSED-WORD-HISTORY.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "ba83648971c7a11017f1c4cc968956da27111afef8ced8a34bee3cbf97311791"
+    },
+    {
+      "group": "relay",
+      "committed": "research/moonshot-005-program/results/bit-paired-nonlocal-relay/review-root/output/RESULT.json",
+      "reproduced": "relay/review/RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "a8a1afb8ae2bef42153444347c9e10c87df24aaa279a697740acdb179a4f55f9"
+    },
+    {
+      "group": "relay",
+      "committed": "research/moonshot-005-program/results/bit-paired-nonlocal-relay/review-root/output/WORD-HISTORY.json",
+      "reproduced": "relay/review/WORD-HISTORY.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "17482af62137d38615ec064c905f362e56a14d915ab2a29e547d7b7a1ce79c55"
+    },
+    {
+      "group": "relay",
+      "committed": "research/moonshot-005-program/results/bit-paired-nonlocal-relay/review-root/output/CLOSED-WORD-HISTORY.json",
+      "reproduced": "relay/review/CLOSED-WORD-HISTORY.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "17482af62137d38615ec064c905f362e56a14d915ab2a29e547d7b7a1ce79c55"
+    },
+    {
+      "group": "relay",
+      "committed": "research/moonshot-005-program/results/bit-paired-nonlocal-relay/review-root/output/PRICE.json",
+      "reproduced": "relay/review/PRICE.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "b84143d6d11b03c3082ff110ff567a1a6a9448e62b6952a7e4c37aaff0b10f3b"
+    },
+    {
+      "group": "mds",
+      "committed": "research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word/WORD.json",
+      "reproduced": "mds/author/four-chart-word/WORD.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "831ac2f8ba647a50866af61461f9f378c76a443801f372154745520b4caa96fa"
+    },
+    {
+      "group": "mds",
+      "committed": "research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word/COMPLETED-CONTROL-WORD.json",
+      "reproduced": "mds/author/four-chart-word/COMPLETED-CONTROL-WORD.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "aa907d184b701bf7eb8cb885aeb35dfbb6aba77e6eaac91fe3efaa6d6924b34b"
+    },
+    {
+      "group": "mds",
+      "committed": "research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word/verification/LOCAL-RESULT.json",
+      "reproduced": "mds/author/four-chart-word/verification/LOCAL-RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "39244b94737852fa2070cb33f3549d277d726992ea7445d845231009f659b368"
+    },
+    {
+      "group": "mds",
+      "committed": "research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word/verification/COMPLETED-CONTROL-RESULT.json",
+      "reproduced": "mds/author/four-chart-word/verification/COMPLETED-CONTROL-RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "7eddbaed145f47da0a6efd0fcfceec5e4ff5aac8982c95a3abfac7fc1708aa9d"
+    },
+    {
+      "group": "mds",
+      "committed": "research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word/verification/NEGATIVE-CONTROLS.json",
+      "reproduced": "mds/author/four-chart-word/verification/NEGATIVE-CONTROLS.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "b73c2b810bfa6b9999f0d6f0e3fe585dbf430a4642b7267678b650608a8d0748"
+    },
+    {
+      "group": "mds",
+      "committed": "research/moonshot-005-program/results/bit-shared-facet-mds/author/MDS-CERTIFICATE.json",
+      "reproduced": "mds/author/MDS-CERTIFICATE.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "e77f9bfe34f31c5ff7adf08d5462e3df7c2b08f0bbb4f97a1d1431acaaea841d"
+    },
+    {
+      "group": "mds",
+      "committed": "research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/output/RESULT.json",
+      "reproduced": "mds/review/RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "d2861c092aa100cf42153f345f592ec0eb4079e379a626c69c24c4f1e9030320"
+    },
+    {
+      "group": "mds",
+      "committed": "research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/output/COVER-RESULT.json",
+      "reproduced": "mds/review/COVER-RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "36adbe2362a3a74df649aa15fc68d8f06e9b64e94f0128ca6260a130dc1e8109"
+    },
+    {
+      "group": "mds",
+      "committed": "research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/output/MDS-RESULT.json",
+      "reproduced": "mds/review/MDS-RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "46a4f46ff7c4945479f124808f7e80aba6e161b558b1a4463a7f3f9daba0277a"
+    },
+    {
+      "group": "mds",
+      "committed": "research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/output/BUDGET-RESULT.json",
+      "reproduced": "mds/review/BUDGET-RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "a095a981bf9423864783a8fb8d9e9ddf0d93363b95ad667de45745048ad63313"
+    },
+    {
+      "group": "onehop",
+      "committed": "research/moonshot-005-program/results/bit-shared-facet-one-hop-gate/author-root/output/RESULT.json",
+      "reproduced": "onehop/root/RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "1d918753ccee2409b55ddcb447b06979fcc7a881f683198a347bcb49d6424012"
+    },
+    {
+      "group": "onehop",
+      "committed": "research/moonshot-005-program/results/bit-shared-facet-one-hop-gate/author-root/output/GEOMETRY.json",
+      "reproduced": "onehop/root/GEOMETRY.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "4e0653d14264a3fc4e655eca1fb49b45188a1657832f6705c5687bca18fabc19"
+    },
+    {
+      "group": "onehop",
+      "committed": "research/moonshot-005-program/results/bit-shared-facet-one-hop-gate/author-root/output/MATRIX-CONTROLS.json",
+      "reproduced": "onehop/root/MATRIX-CONTROLS.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "3eff8cd7fc420fd2b6c9230e829d49d73dfd877bdf1e36ec57d846358dfea33c"
+    },
+    {
+      "group": "onehop",
+      "committed": "research/moonshot-005-program/results/bit-shared-facet-one-hop-gate/independent-c/RESULT.json",
+      "reproduced": "onehop/independent-c/RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "fd3e2e0fdd1c17367a67504351bfbb65f5a35ccb0931953cc1fa1cb40d469125"
+    },
+    {
+      "group": "singlecell",
+      "committed": "research/moonshot-005-program/results/bit-paired-single-cell-gate/author/RESULT.json",
+      "reproduced": "singlecell/author/RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "3dd0c0acbd1fac5f0c4a7ef8e2b13e92b61a8beda27428db6d7d9568c488b091"
+    },
+    {
+      "group": "singlecell",
+      "committed": "research/moonshot-005-program/results/bit-paired-single-cell-gate/review-root/output/RESULT.json",
+      "reproduced": "singlecell/root/RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "f70546447b0fbcc649bae6f6445e0391422bf142f16435c5a03a9aebedab7181"
+    }
+  ],
+  "byte_identical_json": 26,
+  "authenticated_source_pins": [
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/review-root/REVIEW.md",
+      "sha256": "13efa9ed9c0687242af2662658313f1a6195f559e09eaf22dd3a240bd9171c6f"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/review-root/check.py",
+      "sha256": "5c5b080636d5fdba278211a25e3e4da2bfc856df7dd6a0d2650146f70e8471e1"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/review-root/output/CLOSED-WORD-HISTORY.json",
+      "sha256": "17482af62137d38615ec064c905f362e56a14d915ab2a29e547d7b7a1ce79c55"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/review-root/output/PRICE.json",
+      "sha256": "b84143d6d11b03c3082ff110ff567a1a6a9448e62b6952a7e4c37aaff0b10f3b"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/review-root/output/RESULT.json",
+      "sha256": "a8a1afb8ae2bef42153444347c9e10c87df24aaa279a697740acdb179a4f55f9"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/review-root/output/WORD-HISTORY.json",
+      "sha256": "17482af62137d38615ec064c905f362e56a14d915ab2a29e547d7b7a1ce79c55"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/review-root/price.py",
+      "sha256": "1767855ca0e41db4769cdf857e5488f3ea1e85076051114e2fe5391c16bef0f0"
+    },
+    {
+      "path": "worker-a/paired-nonlocal-relay/PROOF.md",
+      "sha256": "93d4868fa911e8cd4ecf88a04dead7255fc72b5cdfabe06ba407b17823ce9368"
+    },
+    {
+      "path": "worker-a/paired-nonlocal-relay/PUNCTURE.json",
+      "sha256": "50803c7194608a62c0df44d6db11a9eb21243f606f5ee9db0627dd61a3bc3397"
+    },
+    {
+      "path": "worker-a/paired-nonlocal-relay/output/WORD.json",
+      "sha256": "12c176f8621156d571441240329e5defe15c9b4322d5e0a3b2c08133334a7b71"
+    },
+    {
+      "path": "worker-a/paired-nonlocal-relay/output/CLOSED-WORD.json",
+      "sha256": "e6eea78f02d382bbd2fddd9578dcad45478a84f98ba2c6969c9101ef37b0f389"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-joint-kernel-puncture/author/PROOF.md",
+      "sha256": "2814689d5087c2bfdbc3ee4c74af2fea4e4b867b065bb489cb5de5585a80d691"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json",
+      "sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/PROOF.md",
+      "sha256": "93d4868fa911e8cd4ecf88a04dead7255fc72b5cdfabe06ba407b17823ce9368"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/PUNCTURE.json",
+      "sha256": "50803c7194608a62c0df44d6db11a9eb21243f606f5ee9db0627dd61a3bc3397"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/build.py",
+      "sha256": "02923013f021200484033f530f3314aa2f470df25136d86031f984c89ad8b61a"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/check.py",
+      "sha256": "529dcc242f937f1e5420a7099b6f7328544fc93a4ac9937ff110f35a60b8b9ec"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/check_puncture.py",
+      "sha256": "a929aff4a2d8e9f7e4e5bb0c393bb4a5c925bbe125004b0be9904a7f254a092d"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/output/CLOSED-WORD.json",
+      "sha256": "e6eea78f02d382bbd2fddd9578dcad45478a84f98ba2c6969c9101ef37b0f389"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/output/WORD.json",
+      "sha256": "12c176f8621156d571441240329e5defe15c9b4322d5e0a3b2c08133334a7b71"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/replay.log",
+      "sha256": "4042f4fe65644f35ea25954e4365463727b1737916fc0d72c697168b6e4fccbc"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/verification/CLOSED-WORD-HISTORY.json",
+      "sha256": "ba83648971c7a11017f1c4cc968956da27111afef8ced8a34bee3cbf97311791"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/verification/PUNCTURE-RESULT.json",
+      "sha256": "b07d285b038ee7b2f3e4eb640e9711f654f54b8aebd78e8cba54ac0cc55c6334"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/verification/RESULT.json",
+      "sha256": "89008e6cc6e8c473667a631175131a7eaa418759c2f54c50d49c2f7b4721ab5a"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-nonlocal-relay/author/verification/WORD-HISTORY.json",
+      "sha256": "ba83648971c7a11017f1c4cc968956da27111afef8ced8a34bee3cbf97311791"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/REVIEW.md",
+      "sha256": "1ee8fd45566256dcc430065b0e8f07856e427eb21040cc7df734ae0e45110c10"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/check.py",
+      "sha256": "152d48e9bffe9ac48e82cee08df98e54a4a9d7146ee8173a88b7faed9bafcf9f"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/check_budget.py",
+      "sha256": "90f2daca562cdf716a7d432680713a9da8d6b01e293fdbb4880fadc172954df5"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/check_cover.py",
+      "sha256": "f298bfe528d6e674140d7a5f7b0b79cf3fbd37dd58d2ac2a2d69eabf41ef40fb"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/check_mds.py",
+      "sha256": "6270ee82dbfe7db80699f9118e23d20d09ab74fda60271592905b8ff7b9e691c"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/output/BUDGET-RESULT.json",
+      "sha256": "a095a981bf9423864783a8fb8d9e9ddf0d93363b95ad667de45745048ad63313"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/output/COVER-RESULT.json",
+      "sha256": "36adbe2362a3a74df649aa15fc68d8f06e9b64e94f0128ca6260a130dc1e8109"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/output/MDS-RESULT.json",
+      "sha256": "46a4f46ff7c4945479f124808f7e80aba6e161b558b1a4463a7f3f9daba0277a"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/output/RESULT.json",
+      "sha256": "d2861c092aa100cf42153f345f592ec0eb4079e379a626c69c24c4f1e9030320"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/independent-a/replay.log",
+      "sha256": "3e0aacb34adff4e978ba6c85349f90a2437b6a3d70920b3a3e877765566e15bc"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/PROOF.md",
+      "sha256": "ac7953cef0230ac0e129d18f5c781d33310d3b3dfd7a70bdf5ce86def06c2e27"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/MANIFEST.json",
+      "sha256": "0881477ee9acc346e927e24fd9df5085bba655c41d6a8a2b08342ef71db57434"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/GEOMETRY.json",
+      "sha256": "8852f93c2fdfe49a2f143b2cf5167f70a16a2b6addd819e32e86e5b604b110ab"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/NO-TWO-COVER.json",
+      "sha256": "50c14dfaf451a3e4397d87c11e8adadb742d5519af02ab1017a310b7393d9245"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/MDS-CERTIFICATE.json",
+      "sha256": "e77f9bfe34f31c5ff7adf08d5462e3df7c2b08f0bbb4f97a1d1431acaaea841d"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/OPTIMISTIC-BUDGET.json",
+      "sha256": "f849439c71e6cd4dd17e404a393fc9bde8213ee9abe8e23ad4df6b9dcdbe4aaa"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word/WORD.json",
+      "sha256": "831ac2f8ba647a50866af61461f9f378c76a443801f372154745520b4caa96fa"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word/COMPLETED-CONTROL-WORD.json",
+      "sha256": "aa907d184b701bf7eb8cb885aeb35dfbb6aba77e6eaac91fe3efaa6d6924b34b"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/GEOMETRY.json",
+      "sha256": "8852f93c2fdfe49a2f143b2cf5167f70a16a2b6addd819e32e86e5b604b110ab"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/MDS-CERTIFICATE.json",
+      "sha256": "e77f9bfe34f31c5ff7adf08d5462e3df7c2b08f0bbb4f97a1d1431acaaea841d"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/NO-TWO-COVER.json",
+      "sha256": "50c14dfaf451a3e4397d87c11e8adadb742d5519af02ab1017a310b7393d9245"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/OPTIMISTIC-BUDGET.json",
+      "sha256": "f849439c71e6cd4dd17e404a393fc9bde8213ee9abe8e23ad4df6b9dcdbe4aaa"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/PROOF.md",
+      "sha256": "ac7953cef0230ac0e129d18f5c781d33310d3b3dfd7a70bdf5ce86def06c2e27"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/build.py",
+      "sha256": "1a7e1434f2040bbfc8cb0e2942f2a01701caa19e42d3555d5cad17457bc2dd22"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/build_v1.py",
+      "sha256": "9f6393cfd37f365a52b4e5e413b345e5de287918348fae91802bd759d89b0ab5"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/certify_cover.py",
+      "sha256": "419784a7b11706dcdfb7d1ee95ca423ba168eefb817331a5909dded54fb39d00"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/certify_mds.py",
+      "sha256": "3b0ca59ebfa9db8486d4ccd74f9f45d30c70d69dba7f9113cd78ace2996a6ac3"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/check_word.py",
+      "sha256": "73f551fd75b395011912c48ef3da4f767c8181546c87162cfe8d2a15bf8bf804"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/check_word_v1.py",
+      "sha256": "3eff9c440e4c1a4f7505134ccc9c8f9f78dc4db98d84f52443a2b1d04600e505"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/field.py",
+      "sha256": "2f25f287f04eac237315a74e97a0ce365c58b4de90e53485297a98b39045e0a9"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word/COMPLETED-CONTROL-WORD.json",
+      "sha256": "aa907d184b701bf7eb8cb885aeb35dfbb6aba77e6eaac91fe3efaa6d6924b34b"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word/WORD.json",
+      "sha256": "831ac2f8ba647a50866af61461f9f378c76a443801f372154745520b4caa96fa"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word/verification/COMPLETED-CONTROL-RESULT.json",
+      "sha256": "7eddbaed145f47da0a6efd0fcfceec5e4ff5aac8982c95a3abfac7fc1708aa9d"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word/verification/LOCAL-RESULT.json",
+      "sha256": "39244b94737852fa2070cb33f3549d277d726992ea7445d845231009f659b368"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word/verification/NEGATIVE-CONTROLS.json",
+      "sha256": "b73c2b810bfa6b9999f0d6f0e3fe585dbf430a4642b7267678b650608a8d0748"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word-v1/COMPLETED-CONTROL-WORD.json",
+      "sha256": "7301a4b3e3e48f9cbe7dfe6c7d071e611161aa2f5d6fdca7b341c0c83b6ada5f"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word-v1/WORD.json",
+      "sha256": "3b984c1799265ffd77b89ed2331f8cee848c2caf27ddc592af514eb0d5e700ed"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word-v1/verification/COMPLETED-CONTROL-RESULT.json",
+      "sha256": "ca8dcc397600f658ff39605910ed6f66ff88d52eef4674e87a5f31f0f22131c9"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word-v1/verification/LOCAL-RESULT.json",
+      "sha256": "0bc18802e0a63c53871975fc122765c4e4aa7eba4e7caf7f856eac564f4a14e1"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/four-chart-word-v1/verification/NEGATIVE-CONTROLS.json",
+      "sha256": "f27843f0f8a6a74409f53fe9e9c36522cdebcc2ec08112fd926a841333895db9"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/price.py",
+      "sha256": "00c7dcff55baa8ce3cb6c4cc0380795271665f46ebfb51f3823fa51a72948507"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-mds/author/search.py",
+      "sha256": "3f67599a9e7095c354c7ecbe101e994af194f420a64db43e1ae6c49f2a3833b1"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-one-hop-gate/author-root/PROOF.md",
+      "sha256": "3f9f52946d1aedcbdcdce8bab3fd0bc78e5025d3a9655eca5dde3a3885ebb8ac"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-one-hop-gate/author-root/check.py",
+      "sha256": "249c2b46a56543f81e23f9a6330a5eaca997ff79b7d8581a5be862eb6105c979"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-one-hop-gate/author-root/output/GEOMETRY.json",
+      "sha256": "4e0653d14264a3fc4e655eca1fb49b45188a1657832f6705c5687bca18fabc19"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-one-hop-gate/author-root/output/MATRIX-CONTROLS.json",
+      "sha256": "3eff8cd7fc420fd2b6c9230e829d49d73dfd877bdf1e36ec57d846358dfea33c"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-one-hop-gate/author-root/output/RESULT.json",
+      "sha256": "1d918753ccee2409b55ddcb447b06979fcc7a881f683198a347bcb49d6424012"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-one-hop-gate/independent-c/REVIEW.md",
+      "sha256": "3dfc59ae909e78c5bf7c25d3b064d3b2f073a3ad9a5c0e555fc8d4075c8f6602"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-one-hop-gate/independent-c/RESULT.json",
+      "sha256": "fd3e2e0fdd1c17367a67504351bfbb65f5a35ccb0931953cc1fa1cb40d469125"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-shared-facet-one-hop-gate/independent-c/check.py",
+      "sha256": "1f1d1b8c1b71844ba69983b0af640abd39b3ae9f56bf5f1680cb3b9f27edcd5c"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-single-cell-gate/review-root/REVIEW.md",
+      "sha256": "858655d6797ec5265750c257b039434dd7cf52eced724d058031aa39e73262d5"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-single-cell-gate/review-root/check.py",
+      "sha256": "59d1e99434299f2f2b5e5006db0c9676e98af0d7f3744f885664cd88ae1a4b98"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-single-cell-gate/review-root/output/RESULT.json",
+      "sha256": "f70546447b0fbcc649bae6f6445e0391422bf142f16435c5a03a9aebedab7181"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-single-cell-gate/author/PROOF.md",
+      "sha256": "6706d8817130914eb08ceefee65ea85aa2a272e97eb7365e583dd92fa455f2dc"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-single-cell-gate/author/SCAN.json",
+      "sha256": "5347119a393a60651c795cd7c628aa1e936ff9f415a56184212b7bdd9b649986"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-single-cell-gate/author/MANIFEST.json",
+      "sha256": "0cdb6456a58ea26011d68f68ceadc3be49c137f577390d94375ab0fa69992ab4"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-single-cell-gate/author/PROOF.md",
+      "sha256": "6706d8817130914eb08ceefee65ea85aa2a272e97eb7365e583dd92fa455f2dc"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-single-cell-gate/author/RESULT.json",
+      "sha256": "3dd0c0acbd1fac5f0c4a7ef8e2b13e92b61a8beda27428db6d7d9568c488b091"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-single-cell-gate/author/SCAN.json",
+      "sha256": "5347119a393a60651c795cd7c628aa1e936ff9f415a56184212b7bdd9b649986"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-single-cell-gate/author/check.py",
+      "sha256": "a023aa4de712c3b594fdde567b654e26d61449e7da657dd7369cc7f7ec4ff59b"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-single-cell-gate/author/scan.log",
+      "sha256": "251e72d27326a43be90063eb7c7c6538fb82ff876fe255656cc08cc93e5a3b6c"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-paired-single-cell-gate/author/scan.py",
+      "sha256": "bb8b0899cb197af8d013906fef2bfc97e7b237ec972901d808bd52113ff5e9b9"
+    }
+  ],
+  "prior_scientific_entries": 5250,
+  "added_scientific_files": 94,
+  "scientific_entries_after": 5344,
+  "registered_results_after": 342,
+  "retained_unavailable_historical_entries": [
+    {
+      "path": "results/four-call-dyadic-entry/review/replay.log",
+      "discovered_session": "2026-11-14-S011",
+      "status": "Absent from programme Git tree, predecessor checkout and available path history; old indexed hash retained, not independently reauthenticated. Not cited as proof evidence."
+    },
+    {
+      "path": "results/bit-joint-multicast/mixed-author/__pycache__/build_mixed.cpython-312.pyc",
+      "discovered_session": "2026-11-14-S012",
+      "status": "Generated bytecode entry absent from confirmed baseline db6e513c96cb8ceea10c1071b26a7db1de9fe008. Old hash retained; not proof evidence."
+    }
+  ],
+  "protected_rule_preserved_verbatim": true,
+  "global_budget_status": "Optimistic conditional arithmetic; strict within-root one-hop supply disproved. Local MDS remains proved.",
+  "new_complete_kappa": false
+}

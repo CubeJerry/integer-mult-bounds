@@ -56,7 +56,10 @@ Additional current admissions:
 | Fixed packed three-duty completion | Proved p>=21 for fixed D80/B and seeds inside A91, all fields/blocks; exceeds actual movement room. | [Admission](results/bit-packed-three-duty-gate/ADMISSION.md) |
 | Facet collector source | Proved three canonical kernels, C18 history, G22 and full physical invoice;83 fixed visibility failures. | [Admission](results/bit-facet-collector-source/ADMISSION.md) |
 | Shared-facet physical cover bridge | Open. Scalar cap194 does not automatically transfer to paired output banks; the218 intrinsic code bound remains valid. | [Author correction](results/bit-facet-collector-source/author/SCOPE-CORRECTION.md), [independent qualification](results/bit-facet-collector-source/independent-a/SCOPE-SUPPLEMENT.md) |
-| Shared-facet chart coding | Active: exact28-chart/16-fold incidence motivates a batched local code; global formation, delivery and full invoice unproved. | Next session checkpoint will admit only independently verified components. |
+| Shared-facet local rank/MDS construction | Proved n>=b+2 under source-local/no-two-cover premises; exact28/16 atlas, four-copy888-column correction and paid one-receiver completion. Global source remains open. | [Admission](results/bit-shared-facet-mds/ADMISSION.md) |
+| One-hop shared-facet source | Disproved within scope for canonical9b supply: rankG>=V ceil(111b/4); arbitrary within-root block preencoding included. A changed source must satisfy the exact support/history requirements. | [Admission](results/bit-shared-facet-one-hop-gate/ADMISSION.md) |
+| Actual nonlocal shared-tail relay | Proved six-output source and full invoice; its fixed two-kernel completion puncture fails. | [Admission](results/bit-paired-nonlocal-relay/ADMISSION.md) |
+| Arbitrary one-cell through maps | Disproved within scope at all12 paired charts, every field/width, by8V versus9V puncture. Multiple effective cells remain open. | [Admission](results/bit-paired-single-cell-gate/ADMISSION.md) |
 
 Other retained gates: target arrival rank≥9V+ceil(V/3); full native rank9V
 rigidity; canonical quotient/cover requirements; actual cuts, receiver duals

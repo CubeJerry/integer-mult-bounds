@@ -220,6 +220,36 @@ directions with overlapping relations. This is necessary, not sufficient.
 Noncommuting head transport remains a separate alternative.
 [Conservation and source package](results/complex-commuting-rank-conservation/ADMISSION.md).
 
+## Shared-facet local construction and source requirement
+
+The actual four-copy local word charges12[1]+228[2]+232[5]+4[6]+652[7],
+1050ADD and1128MOVE, and restores all original X. It corrects only foreign
+sum M3; four actual late Ki imports give the separate paid completion.
+For the80-copy b16/n28 GF32 allocation, the hypothesized simultaneous profile
+normalizes to
+
+    Q_opt=(555/2)[1]+(111/4)[2]+111[5]+111[6]+9[8]
+         =1614.6750836050235274... .
+
+Limiting room7.0757966061288278... and first even m4 are conditional arithmetic,
+not a complete source. Fixed batching scales every source AND caller term.
+The exact one-hop factorization I=G+UP, with within-root P and U columns in
+at most3 other receiver cohorts, forces rankG>=V ceil(111b/4)>9bV. Any escaping
+source under zero own-cohort support and cohort-diagonal preencoding needs
+at least1258b coefficient-support incidences and one support>=12. Extra source
+interactions/global histories must change these premises and be fully charged.
+[Local construction](results/bit-shared-facet-mds/ADMISSION.md),
+[source gate](results/bit-shared-facet-one-hop-gate/ADMISSION.md).
+
+The actual nonlocal paired-tail relay hasQ=1608.5857473076052333... and six
+completed outputs. Its fixed full-zero two-kernel completion remains puncture-
+obstructed. More generally a single effective cell at any paired chart, even
+with arbitrary block through map and counted nonlocal ground imports, yields
+only8V after local puncture, versus9V required. A second effective location or
+changed actual source is necessary within that continuation.
+[Relay](results/bit-paired-nonlocal-relay/ADMISSION.md),
+[single-cell gate](results/bit-paired-single-cell-gate/ADMISSION.md).
+
 ## 7. Sufficient end-to-end theorem still missing
 
 Actual arbitrary-input source → chart/chronology/ownership and all endpoints →

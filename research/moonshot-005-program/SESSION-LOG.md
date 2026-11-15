@@ -1717,3 +1717,36 @@ coding primitive and its global-source chronology, and complex constructions
 beyond the proved conserved class. The protected discovery track remains
 active; final drift review is still due. Resulting commit SHA is verified
 after publication and recorded in the next receipt/handoff, not self-embedded.
+
+### S015 checkpoint7 — actual local MDS coding and source-spreading theorem
+
+Confirmed parent cd3a06fad13938ab425cd14dc9a0e9b6ee68964a, tree
+8b4f89f04586dfd5eed6a53d71753858f1758a81. The session remains active through
+12:23:42UTC. C constructs an actual ordinary-bank shared-facet decoder after
+root's repeated-facet scope correction: rank-sensitive n>=b+2, exact28/16
+native geometry, four-copy GF4 literal correction and paid late canonical
+completion. A independently reconstructs all geometry, quadratic rank and
+GF32 synthesis; replays all888 columns and nine semantic mutants. The b16/n28
+80-copy parametric algorithm is certified, without claiming an emitted word.
+Its optimistic all-receiver moment1614.6750836050235... is conditional.
+
+Root proves the precise one-hop source obstruction using the admitted
+cohort-order filtration: rankG>=V ceil(111b/4), so canonical9bV is insufficient.
+C independently reconstructs geometry and checks the universal factorization,
+including zero own-cohort blocks; separate arbitrary-block controls use
+F2/F3/F5. Source spreading and chronological canonical availability become
+the primary construction obligation. The local MDS mechanism survives.
+
+A's actual nonlocal shared-tail relay completes0/4/5/6/7/59 at full invoice;
+root independently replays all columns and exact price. Its fixed two-kernel
+completion fails a rank9V puncture. A additionally proves that arbitrary
+through-map repairs at any single paired chart give at most8V after local
+puncture; root independently validates all12 retained native stars. Multiple
+effective cells and changed nonlocal source histories remain open.
+
+Portable replay runs16 commands with26 byte-identical JSON/word comparisons.
+All source/review pins, prior scientific hashes and missing-history qualifiers
+are retained. No new completeκ or foundational discharge. Upstream unchanged
+at10:57:21UTC. New complex sources and an early-Hub chronology theorem remain
+under independent review for a later checkpoint. Final discovery/drift review
+is still due. Resulting commit identity is confirmed separately after publication.

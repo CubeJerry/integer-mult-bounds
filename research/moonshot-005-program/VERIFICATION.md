@@ -568,3 +568,20 @@ all other fields byte/JSON identical. Frozen receipts are not rewritten.
 Actual command counts, comparisons, pins and prior-hash preservation are in
 [CHECKPOINT6-VALIDATION.json](sessions/2026-11-15-S015/CHECKPOINT6-VALIDATION.json).
 Independent agent review is not human or proof-kernel certification. No new κ.
+
+## S015 checkpoint7: constructed local code, exact global-source obstruction
+
+Four reviewed packages are admitted: nonlocal paired relay, shared-facet MDS,
+one-hop source gate, arbitrary single-cell gate. The portable runner executes
+16 author/independent commands and reproduces26 JSON/word receipts byte for
+byte. It creates temporary copies and never rewrites frozen evidence.
+
+Independent work includes rational all-column relay replay and a different
+price interval scale; signed-support E8 reconstruction, all111 no-two-cover
+quadratic witnesses, GF4/GF32 coefficient/synthesis and888-column geometry;
+a separately derived transposed cohort argument and240 multi-field controls;
+and rational augmented-rank punctures plus12 credited all-field star witnesses.
+Source scripts, proof pins, admission scopes and all negative controls remain
+beside the results. Universal proof and finite authentication are distinguished.
+The optimistic MDS global budget is conditional and its strict one-hop source
+is excluded; no complete newκ is claimed. [Validation](sessions/2026-11-15-S015/CHECKPOINT7-VALIDATION.json).

@@ -281,3 +281,11 @@ no PR updates since10:02:45UTC were returned. Programme HEAD reconfirmed
 No upstream merge, source intake, selected change or PR submission. The
 new scope correction concerns this programme's shared-facet composition,
 not a claim that the distinct-facet upstream theorem is invalid.
+
+### S015 checkpoint7 refresh —2026-11-15 10:57:21 UTC
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; no targeted
+PR updates since10:36:05UTC. Programme parent cd3a06fa... remains current.
+[Exact snapshot](sessions/2026-11-15-S015/UPSTREAM-CP7.json). No external merge,
+selected change or upstreamPR. New results apply prior cohort/star theorems
+with exact attribution; no renamed novelty claim for those inherited results.

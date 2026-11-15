@@ -168,6 +168,29 @@ Original proof/review bytes and explicit author/reviewer corrections are
 preserved. A shared-facet rank-weighted/coding interface is the constructive
 next obligation, with global information acquisition still fully charged.
 
+## A constructed shared-facet decoder and its exact source gap
+
+The programme now proves the rank-sensitive local bound n>=b+2 and constructs
+an MDS chart correction with28 proper charts and16-fold native incidence.
+The four-copy literal implementation has888 independent columns,1050ADD,
+1128MOVE, restored X, and one corrected foreign sum. Its four separately paid
+late canonical imports complete that receiver. The80-copy GF32 parametric
+algorithm and every coefficient/synthesis count are independently checked.
+The optimistic simultaneous profile1614.6750836050235274... is explicitly
+conditional: a new one-hop source theorem forcesceil(111b/4) global modes,
+exceeding canonical9b. The missing theorem is global source formation and
+chronological composition, not the local MDS identity.
+
+A separate nonlocal shared-tail relay completes six outputs at full moment
+1608.5857473076052333..., with235owners,866ADD and490MOVE. Its fixed completion
+is excluded by a puncture theorem. All12 single-cell arbitrary-through-map
+repairs are also excluded; multiple effective locations remain open. These
+source-specific gates guide the same programme and do not imply multiplication
+lower bounds. [MDS](results/bit-shared-facet-mds/ADMISSION.md),
+[one-hop gate](results/bit-shared-facet-one-hop-gate/ADMISSION.md),
+[relay](results/bit-paired-nonlocal-relay/ADMISSION.md),
+[single-cell gate](results/bit-paired-single-cell-gate/ADMISSION.md).
+
 ## Evidence, provenance and reproduction
 
 All current package admissions, proofs, scripts, source pins, independent reviews
@@ -194,7 +217,7 @@ addition to its all-field complement argument.
 
 Canonical main last examined: `e54523517d0f03e58352e647c403a5af3e525a57`.
 S015 starting programme: `eefa411ebab86271d50b56b6953af3a157366bdb`.
-This checkpoint's confirmed parent: `0cdf503087595de74016d8a9dbdfa0b8e975e5ce`.
+This checkpoint's confirmed parent: `cd3a06fad13938ab425cd14dc9a0e9b6ee68964a`.
 The resulting remote commit is confirmed after publication and recorded in the
 next receipt, never self-embedded. Native SOURCE-RECOVERY SHA256:
 `8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e`.
