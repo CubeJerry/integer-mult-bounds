@@ -131,3 +131,33 @@ Only then do retained strict outer rows supply the conditional target theorem.
 compiler, precision_tape and analytic_recovery. No new result here discharges
 one. The unconditional target needs each proved or legitimately bypassed.
 Every conditional implication is separate from the existence of its premises.
+
+## Optimal chartwise repair: the next constructive interface
+
+The canonical-only separability obstruction now has an exact paid repair.
+For actual held projection P of code K, c=dim K and
+Δ=Σ_a dim π_a(P)−dim P, minimum first-ground-arrival span is c+Δ.
+A chart-supported quotient complement realizes it with c principal packets
+and Δ helpers born at their actual held charts. All source reads, ground
+corrections, movement and retirements remain charged. This is not a peak
+storage or full-history lower bound. The hypothetical ten-pivot/four-bank
+five-receiver interface needs exactly four helpers and canonical movement
+9[2]+10[6]. An actual compatible source for those receivers is still missing.
+[Proof and independent review](results/bit-chartwise-query-repair/ADMISSION.md).
+
+The next construction should use this explicit repair while extending the
+actual A2 common prefix across distinct shared charts with overlapping source
+originals. Prove source availability, chronological canonical delivery,
+restoration and every receiver endpoint before claiming a complete invoice.
+Earlier Y acquisition remains a possible source mechanism. No new κ.
+
+## Final complex representation finding
+
+The full-parabolic135-Lagrangian radial sign-cut, scalar-diagonal and arbitrary
+matrix-block commutator families cannot supply the required linear native-rank
+calibration: q2≤q1 and4q3≤5q1. The Hilbert-valued analogue has sharp q2≤3q1/2.
+Independent enumerations and universal proofs are admitted in
+[the potential-family package](results/complex-parabolic-potential-limits/ADMISSION.md).
+These are scoped representation obstructions; the profitable entangling caller
+and non-diagonal/new representation mechanisms remain open. No additional
+physical caller impossibility or stronger multiplication theorem is claimed.

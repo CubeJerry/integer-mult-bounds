@@ -1,0 +1,202 @@
+{
+  "status": "INDEPENDENT_BLOCK_RADIAL_REVIEW_PASS",
+  "isotropic_subspace_counts": [
+    1,
+    63,
+    315,
+    135
+  ],
+  "orbit_sizes": [
+    1,
+    14,
+    56,
+    64
+  ],
+  "intersection_matrices": [
+    [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        14,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        56,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        64
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        12,
+        0
+      ],
+      [
+        0,
+        12,
+        12,
+        32
+      ],
+      [
+        0,
+        0,
+        32,
+        32
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        3,
+        3,
+        8
+      ],
+      [
+        1,
+        3,
+        28,
+        24
+      ],
+      [
+        0,
+        8,
+        24,
+        32
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        7,
+        7
+      ],
+      [
+        0,
+        7,
+        21,
+        28
+      ],
+      [
+        1,
+        7,
+        28,
+        28
+      ]
+    ]
+  ],
+  "q_coefficients_pair_order": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "q_coefficients": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      12,
+      0,
+      32
+    ],
+    [
+      0,
+      1,
+      0,
+      3,
+      8,
+      24
+    ],
+    [
+      0,
+      0,
+      1,
+      7,
+      7,
+      28
+    ]
+  ],
+  "exhaustive_F2_2x2_matrix_quadruples": 65536,
+  "F3_3x3_matrix_quadruples": 512,
+  "scalar_equality_patterns": 15,
+  "scalar_level_set_identity": "Verified combinatorially for all 15 equality patterns; universal proof reviewed.",
+  "Pauli_point_orbit_sizes": [
+    7,
+    56
+  ],
+  "Pauli_half_crossings": [
+    0,
+    4,
+    6,
+    7
+  ],
+  "controls": [
+    "constant blocks give zero",
+    "nonmetric shell assignment reverses R2<=R1",
+    "nonradial singleton fails H invariance",
+    "all 15 scalar equality patterns agree with independent C certificate"
+  ],
+  "scope": "All fields and all finite block widths follow from the rank pseudometric proof, not finite matrix tests. Block diagonal shell-constant operators only; off-diagonal intertwiners remain open. No new kappa."
+}

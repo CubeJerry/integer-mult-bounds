@@ -1,0 +1,346 @@
+{
+  "status": "INDEPENDENT_RREF_ENUMERATION",
+  "all_three_subspaces": 1395,
+  "lagrangians": 135,
+  "radial_orbit_sizes": [
+    1,
+    14,
+    56,
+    64
+  ],
+  "cuts": [
+    {
+      "cut_mask": 0,
+      "selected_distances": [],
+      "size": 0,
+      "h": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "deficit2": 0,
+      "deficit3": 0
+    },
+    {
+      "cut_mask": 1,
+      "selected_distances": [
+        1
+      ],
+      "size": 14,
+      "h": [
+        0,
+        13,
+        11,
+        14
+      ],
+      "deficit2": 15,
+      "deficit3": 25
+    },
+    {
+      "cut_mask": 2,
+      "selected_distances": [
+        2
+      ],
+      "size": 56,
+      "h": [
+        0,
+        44,
+        28,
+        35
+      ],
+      "deficit2": 60,
+      "deficit3": 97
+    },
+    {
+      "cut_mask": 3,
+      "selected_distances": [
+        1,
+        2
+      ],
+      "size": 70,
+      "h": [
+        0,
+        33,
+        33,
+        35
+      ],
+      "deficit2": 33,
+      "deficit3": 64
+    },
+    {
+      "cut_mask": 4,
+      "selected_distances": [
+        3
+      ],
+      "size": 64,
+      "h": [
+        0,
+        32,
+        32,
+        36
+      ],
+      "deficit2": 32,
+      "deficit3": 60
+    },
+    {
+      "cut_mask": 5,
+      "selected_distances": [
+        1,
+        3
+      ],
+      "size": 78,
+      "h": [
+        0,
+        45,
+        27,
+        36
+      ],
+      "deficit2": 63,
+      "deficit3": 99
+    },
+    {
+      "cut_mask": 6,
+      "selected_distances": [
+        2,
+        3
+      ],
+      "size": 120,
+      "h": [
+        0,
+        12,
+        12,
+        15
+      ],
+      "deficit2": 12,
+      "deficit3": 21
+    },
+    {
+      "cut_mask": 7,
+      "selected_distances": [
+        1,
+        2,
+        3
+      ],
+      "size": 134,
+      "h": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "deficit2": 1,
+      "deficit3": 2
+    }
+  ],
+  "full_parabolic_generators": [
+    "GL_transvection_0_1",
+    "GL_transvection_0_2",
+    "GL_transvection_1_0",
+    "GL_transvection_1_2",
+    "GL_transvection_2_0",
+    "GL_transvection_2_1",
+    "symmetric_shear_0_0",
+    "symmetric_shear_0_1",
+    "symmetric_shear_0_2",
+    "symmetric_shear_1_1",
+    "symmetric_shear_1_2",
+    "symmetric_shear_2_2"
+  ],
+  "verified_parabolic_orbits": [
+    {
+      "distance": 0,
+      "size": 1
+    },
+    {
+      "distance": 1,
+      "size": 14
+    },
+    {
+      "distance": 2,
+      "size": 56
+    },
+    {
+      "distance": 3,
+      "size": 64
+    }
+  ],
+  "exact_cone_separator": "h2 <= h1, and4h3 <=5h1 for every nonnegative combination; every nontrivial cut has h1>0.",
+  "positive_controls": [
+    "complement invariance",
+    "all rank0 parabolic generators have zero length"
+  ],
+  "negative_control": "A singleton off L0 fails full-parabolic invariance.",
+  "orbit_intersection_matrices": [
+    [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        14,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        56,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        64
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        12,
+        0
+      ],
+      [
+        0,
+        12,
+        12,
+        32
+      ],
+      [
+        0,
+        0,
+        32,
+        32
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        3,
+        3,
+        8
+      ],
+      [
+        1,
+        3,
+        28,
+        24
+      ],
+      [
+        0,
+        8,
+        24,
+        32
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        7,
+        7
+      ],
+      [
+        0,
+        7,
+        21,
+        28
+      ],
+      [
+        1,
+        7,
+        28,
+        28
+      ]
+    ]
+  ],
+  "Hilbert_Gram_identity": {
+    "A": [
+      1,
+      -3,
+      2,
+      0
+    ],
+    "B": [
+      0,
+      1,
+      -3,
+      2
+    ],
+    "formula": "3Q1-2Q2=A*A^T+8B*B^T",
+    "sharp_orbit_values": [
+      7,
+      3,
+      1,
+      0
+    ],
+    "sharp_q1_q2": [
+      96,
+      144
+    ]
+  },
+  "three_space_mixed_difference_certificate": [
+    {
+      "basis_vectors": [
+        1,
+        2,
+        4
+      ],
+      "distance_tuple": [
+        0,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "basis_vectors": [
+        1,
+        2,
+        32
+      ],
+      "distance_tuple": [
+        1,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "basis_vectors": [
+        3,
+        4,
+        24
+      ],
+      "distance_tuple": [
+        1,
+        2,
+        2,
+        1
+      ]
+    }
+  ]
+}

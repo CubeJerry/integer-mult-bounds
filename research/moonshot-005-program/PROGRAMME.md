@@ -145,6 +145,25 @@ programme, not PR-ready. No upstream PR or selected change is made. A decisive
 enabling theorem counts as mathematical discovery without becoming a claimed
 complete bound improvement. The following standing allocation remains unchanged.
 
+## Optimal chartwise repair: the next constructive interface
+
+The canonical-only separability obstruction now has an exact paid repair.
+For actual held projection P of code K, c=dim K and
+Δ=Σ_a dim π_a(P)−dim P, minimum first-ground-arrival span is c+Δ.
+A chart-supported quotient complement realizes it with c principal packets
+and Δ helpers born at their actual held charts. All source reads, ground
+corrections, movement and retirements remain charged. This is not a peak
+storage or full-history lower bound. The hypothetical ten-pivot/four-bank
+five-receiver interface needs exactly four helpers and canonical movement
+9[2]+10[6]. An actual compatible source for those receivers is still missing.
+[Proof and independent review](results/bit-chartwise-query-repair/ADMISSION.md).
+
+The next construction should use this explicit repair while extending the
+actual A2 common prefix across distinct shared charts with overlapping source
+originals. Prove source availability, chronological canonical delivery,
+restoration and every receiver endpoint before claiming a complete invoice.
+Earlier Y acquisition remains a possible source mechanism. No new κ.
+
 ## Protected Mathematics-First Discovery Track
 
 This standing rule supplements the cumulative roadmap; construction-specific

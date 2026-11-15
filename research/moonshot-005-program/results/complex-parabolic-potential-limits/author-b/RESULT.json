@@ -1,0 +1,184 @@
+{
+  "status": "SCOPED_FAILURE_OF_FULL_H_RADIAL_LAGRANGIAN_SIGN_CUTS",
+  "lagrangians": 135,
+  "unordered_isotropic_bases": 3780,
+  "shell_sizes": [
+    1,
+    14,
+    56,
+    64
+  ],
+  "H_generators": 12,
+  "H_orbits": [
+    1,
+    14,
+    56,
+    64
+  ],
+  "H_order": 10752,
+  "faithful_group_action_line_checks": 63,
+  "cut_table": [
+    {
+      "plus_shells": [
+        0
+      ],
+      "h": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "rank2_deficit": 1,
+      "rank3_deficit": 2
+    },
+    {
+      "plus_shells": [
+        0,
+        1
+      ],
+      "h": [
+        0,
+        12,
+        12,
+        15
+      ],
+      "rank2_deficit": 12,
+      "rank3_deficit": 21
+    },
+    {
+      "plus_shells": [
+        0,
+        2
+      ],
+      "h": [
+        0,
+        45,
+        27,
+        36
+      ],
+      "rank2_deficit": 63,
+      "rank3_deficit": 99
+    },
+    {
+      "plus_shells": [
+        0,
+        1,
+        2
+      ],
+      "h": [
+        0,
+        32,
+        32,
+        36
+      ],
+      "rank2_deficit": 32,
+      "rank3_deficit": 60
+    },
+    {
+      "plus_shells": [
+        0,
+        3
+      ],
+      "h": [
+        0,
+        33,
+        33,
+        35
+      ],
+      "rank2_deficit": 33,
+      "rank3_deficit": 64
+    },
+    {
+      "plus_shells": [
+        0,
+        1,
+        3
+      ],
+      "h": [
+        0,
+        44,
+        28,
+        35
+      ],
+      "rank2_deficit": 60,
+      "rank3_deficit": 97
+    },
+    {
+      "plus_shells": [
+        0,
+        2,
+        3
+      ],
+      "h": [
+        0,
+        13,
+        11,
+        14
+      ],
+      "rank2_deficit": 15,
+      "rank3_deficit": 25
+    },
+    {
+      "plus_shells": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "h": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "rank2_deficit": 0,
+      "rank3_deficit": 0
+    }
+  ],
+  "cone_separator": [
+    "h2 <= h1",
+    "4 h3 <= 5 h1"
+  ],
+  "pauli63_cut": [
+    0,
+    4,
+    6,
+    7
+  ],
+  "combined_separator": [
+    "2 h2 <= 3 h1",
+    "4 h3 <= 7 h1"
+  ],
+  "hilbert_three_space_tuples": [
+    [
+      0,
+      1,
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      2,
+      1
+    ]
+  ],
+  "controls": [
+    "135 isotropic spaces enumerated",
+    "12 generators symplectic and Z preserving",
+    "four full H orbits",
+    "63 line recovery intersections",
+    "cut complements agree",
+    "nonradial singleton fails H invariance",
+    "constant cut zero",
+    "rank representatives preserve spaces"
+  ],
+  "certificate_sha256": "0481063b5f853bf9729915c425a8681dc3bc8a78cc85af80b5c8aaa22f29f458",
+  "scope": "Only the stated permutation representation and potential families. No general caller obstruction and no new kappa."
+}

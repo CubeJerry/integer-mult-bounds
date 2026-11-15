@@ -1,0 +1,116 @@
+[
+  {
+    "label": "core",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/author-b/check.py",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/author-b/RESULT.json",
+      "--spaces-out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/author-b/LAGRANGIANS.json"
+    ],
+    "exit_code": 0,
+    "seconds": 0.051
+  },
+  {
+    "label": "independent-enumeration",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/independent-c/enumerate.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.08
+  },
+  {
+    "label": "independent-core",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/independent-c/check_author.py",
+      "--author",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/author-b"
+    ],
+    "exit_code": 0,
+    "seconds": 0.071
+  },
+  {
+    "label": "hilbert-review",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/author-b/check_hilbert.py",
+      "--spaces",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/author-b/LAGRANGIANS.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/author-b/HILBERT-RESULT.json"
+    ],
+    "exit_code": 0,
+    "seconds": 0.037
+  },
+  {
+    "label": "diagonal",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/independent-c/diagonal.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.022
+  },
+  {
+    "label": "block-root",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/block-root/check.py",
+      "--table",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/independent-c/TABLE.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/block-root/output"
+    ],
+    "exit_code": 0,
+    "seconds": 0.052
+  },
+  {
+    "label": "block-independent",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/block-review-a/check.py",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/block-root",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp10/package/block-review-a/output"
+    ],
+    "exit_code": 0,
+    "seconds": 0.691
+  },
+  {
+    "label": "author",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-chartwise-query-repair/author-root/check.py",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-query-repair/author"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "independent",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-chartwise-query-repair/independent-a/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-chartwise-query-repair/author-root",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-query-repair/independent"
+    ],
+    "exit_code": 0
+  }
+]

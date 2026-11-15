@@ -635,3 +635,22 @@ Compressed bounded-exploration receipts retain compressed/uncompressed hashes;
 those searches remain author-only WIP. Historical logical inputs in B's final
 review are pinned to the stated earlier snapshot,not asserted identical to
 subsequently updated current records. No complete native or newκ follows.
+
+## S015 checkpoint10: optimal helper repair and radial potential limits
+
+The exact c+Δ theorem has an independent universal review and508 independent
+finite binary cases; its author418 controls are not counted as independent.
+The first-arrival/peak-storage distinction has an explicit negative control.
+The arbitrary-block potential proof is independently reviewed over all fields;
+A separately enumerates135 Lagrangians,65536 binary and512 ternary matrix
+quadruples and15 scalar patterns. B/C cross-review the cut and Hilbert results.
+
+```sh
+python research/moonshot-005-program/sessions/2026-11-15-S015/reproduce-checkpoint10.py --repo . --out /tmp/moonshot-s015-cp10
+python research/moonshot-005-program/sessions/2026-11-15-S015/reproduce-query-repair.py --repo . --out /tmp/moonshot-s015-repair
+```
+
+Expected: seven/eight and two/two command/byte-identical comparison counts.
+CHECKPOINT10-VALIDATION.json records exact pins, scope and publication checks.
+Frozen author status labels are superseded by admissions/reviews without
+rewriting historical evidence. No finite test is treated as an asymptotic proof.

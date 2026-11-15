@@ -308,3 +308,11 @@ e54523517d0f03e58352e647c403a5af3e525a57. No open PR is assumed a supplier.
 Old h9/W15 evidence remains a retained alternative; the new canonical/MDS
 history60 is not that old code. New source proofs preserve native,finite-bank,
 source-access and credit pins. The selected conditionalκ remains unchanged.
+
+## S015 final targeted upstream check
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57.
+The GitHub query for PRs updated after2026-11-15T11:36:00Z returned none.
+UPSTREAM-FINAL.json records the exact responses. Current proof and source
+pins remain distinct from canonical main; no external PR has been silently
+promoted to an accepted supplier. The permanent programme alone was advanced.

@@ -1,0 +1,70 @@
+{
+  "status": "INDEPENDENT_CHARTWISE_HELPER_REPAIR_PASS",
+  "exhaustive_binary_subspaces": 508,
+  "subspace_domains": {
+    "(1, [1, 1, 1])": 67,
+    "(1, [2, 2])": 374,
+    "(2, [1, 1])": 67
+  },
+  "positive_controls": [
+    {
+      "c": 1,
+      "p": 1,
+      "t": 2,
+      "delta": 1,
+      "acquisition_rank": 2
+    },
+    {
+      "c": 1,
+      "p": 1,
+      "t": 2,
+      "delta": 1,
+      "acquisition_rank": 2
+    },
+    {
+      "c": 2,
+      "p": 1,
+      "t": 2,
+      "delta": 1,
+      "acquisition_rank": 3
+    },
+    {
+      "c": 2,
+      "p": 2,
+      "t": 4,
+      "delta": 2,
+      "acquisition_rank": 4
+    }
+  ],
+  "ten_root_interface": {
+    "native_roles": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      9,
+      14,
+      30,
+      59,
+      3
+    ],
+    "c": 36,
+    "p": 36,
+    "t": 40,
+    "delta": 4,
+    "acquisition_rank": 40,
+    "helper_move_profile": {
+      "6": 4
+    },
+    "qualification": "An abstract held-chart interface example, not an actual five-receiver source."
+  },
+  "peak_owner_negative_control": {
+    "c": 2,
+    "delta": 2,
+    "acquisition_rank": 4,
+    "sequential_peak_owner_upper_bound": 3,
+    "qualification": "The theorem lower-bounds acquisition span and hence total acquisitions, not peak live owner count."
+  },
+  "universal_status": "The all-field result follows from the written direct-sum/complement proof; finite binary controls are supplementary."
+}

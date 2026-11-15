@@ -1840,3 +1840,38 @@ compatible acquisition across distinct shared charts with overlapping sources,
 or earlier Y acquisition plus later actual canonical delivery,with all111
 outputs and complete costs. The next session must preserve a mathematics-first
 track even if this construction stalls. All five foundations remain visible.
+
+### S015 checkpoint10 — optimal helper repair and final complex-potential scope
+
+Starting from confirmed aa6cdb5f9f9869c28c587cc5026a44f86a3c0144, root resolves
+the precise paid relaxation of the one-chart query obstruction: minimum
+first-arrival span c+Δ, attained by c principal fields and Δ proper-born
+helpers. A independently reviews the universal proof and508 full subspace
+instances, including a peak-ownership counterexample and native rank9 case.
+The ten-pivot/four-bank proposed interface needs four helpers. This is a
+constructive interface theorem, not an actual five-receiver source.
+
+B/C finish the135-Lagrangian full-parabolic cut obstruction and sharp
+Hilbert-valued extension. Root proves its arbitrary-field/matrix-multiplicity
+rank extension; A independently verifies all universal steps and rebuilds
+the geometry. Scope is radial diagonal/block potential representations,
+not every physical caller. The phase-aware profitable caller stays open.
+
+Seven complex commands/eight outputs and two helper commands/two outputs
+are reproduced byte for byte; all old scientific hashes remain preserved.
+The final targeted upstream check finds the same canonical SHA and no PR
+updated after11:36UTC. No upstream merge or PR submission occurs.
+
+The session's final constructive frontier is an actual simultaneous A2 source
+plus an optimal paid canonical-delivery repair. Next: build compatible
+acquisition across distinct shared charts and overlapping private originals,
+with source chronology and complete costs. The frozen triple cannot simply
+finish its other108 receivers unchanged. All strict suppliers and five
+foundations remain open; no newκ. This closes the planned five-hour S015
+execution after publication/readback; no background research is scheduled.
+The resulting commit SHA is confirmed externally after this record is committed,
+avoiding self-reference, and is available from the permanent branch HEAD.
+
+The final discovery review adds the new optimal repair and the independently
+reviewed potential-family limits to MilestoneA. MilestoneB is still unmet.
+No further speculative wave was launched during final evidence integration.

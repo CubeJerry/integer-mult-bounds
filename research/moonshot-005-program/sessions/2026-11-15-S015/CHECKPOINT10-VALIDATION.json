@@ -1,0 +1,491 @@
+{
+  "status": "PASS_OPTIMAL_QUERY_REPAIR_AND_SCOPED_COMPLEX_POTENTIAL_THEOREMS",
+  "baseline_sha": "aa6cdb5f9f9869c28c587cc5026a44f86a3c0144",
+  "checked_utc": "2026-11-15T12:09:36Z",
+  "new_results": [
+    {
+      "id": "COMPLEX-FULL-PARABOLIC-RADIAL-CUT",
+      "status": "proved all135-Lagrangian full-parabolic radial cut calibrations fail linear native rank within stated family",
+      "path": "results/complex-parabolic-potential-limits/ADMISSION.md",
+      "review": "results/complex-parabolic-potential-limits/independent-c/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-RADIAL-HILBERT-IDENTITY",
+      "status": "proved sharp all-Hilbert-valued radial identity and q2<=3q1/2; cost subadditivity not implied",
+      "path": "results/complex-parabolic-potential-limits/ADMISSION.md",
+      "review": "results/complex-parabolic-potential-limits/author-b/REVIEW-HILBERT-SUPPLEMENT.md"
+    },
+    {
+      "id": "COMPLEX-RADIAL-ARBITRARY-BLOCK-RANK",
+      "status": "proved every-field/arbitrary-multiplicity radial matrix block commutator calibration obstruction; off-diagonal intertwiners outside",
+      "path": "results/complex-parabolic-potential-limits/ADMISSION.md",
+      "review": "results/complex-parabolic-potential-limits/block-review-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-OPTIMAL-CHARTWISE-HELPER-REPAIR",
+      "status": "proved minimum first-ground-arrival span c+Delta, attained with proper-born helpers; source assembly and peak-owner optimization outside",
+      "path": "results/bit-chartwise-query-repair/ADMISSION.md",
+      "review": "results/bit-chartwise-query-repair/independent-a/REVIEW.md"
+    }
+  ],
+  "reproduction_commands": 9,
+  "comparisons": [
+    {
+      "committed": "research/moonshot-005-program/results/complex-parabolic-potential-limits/author-b/RESULT.json",
+      "reproduced": "package/author-b/RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "04a51f738ce7a298143a023fb1b50b566ac062d39277de04343b77ddfa6329e3"
+    },
+    {
+      "committed": "research/moonshot-005-program/results/complex-parabolic-potential-limits/author-b/LAGRANGIANS.json",
+      "reproduced": "package/author-b/LAGRANGIANS.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "0481063b5f853bf9729915c425a8681dc3bc8a78cc85af80b5c8aaa22f29f458"
+    },
+    {
+      "committed": "research/moonshot-005-program/results/complex-parabolic-potential-limits/independent-c/TABLE.json",
+      "reproduced": "package/independent-c/TABLE.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "b61e133e1de39a4c6731097c4b5a6126c486473e886d2023abcf08273f36727d"
+    },
+    {
+      "committed": "research/moonshot-005-program/results/complex-parabolic-potential-limits/independent-c/RESULT.json",
+      "reproduced": "package/independent-c/RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "212554ab6190aa64fa8f087bbee2afbadc118ddf35175b933d79e7db2d5dd997"
+    },
+    {
+      "committed": "research/moonshot-005-program/results/complex-parabolic-potential-limits/author-b/HILBERT-RESULT.json",
+      "reproduced": "package/author-b/HILBERT-RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "f803bd3456e46ae14ce2396c7e3f28a12cb9a1734f6791ae0aded2161ffc8283"
+    },
+    {
+      "committed": "research/moonshot-005-program/results/complex-parabolic-potential-limits/independent-c/DIAGONAL-RESULT.json",
+      "reproduced": "package/independent-c/DIAGONAL-RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "9052ac24c70a00569bcc6589706686cff65d6325255bf0987bb52add2e397c3e"
+    },
+    {
+      "committed": "research/moonshot-005-program/results/complex-parabolic-potential-limits/block-root/output/RESULT.json",
+      "reproduced": "package/block-root/output/RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "5f92008401f4ff868eb2a89d5abcf86ec3eb41f4a816a4bb69c38a7f2f68139c"
+    },
+    {
+      "committed": "research/moonshot-005-program/results/complex-parabolic-potential-limits/block-review-a/output/RESULT.json",
+      "reproduced": "package/block-review-a/output/RESULT.json",
+      "comparison": "byte_identical",
+      "committed_sha256": "5a6c36e066ca24bb0e0ec6426f53ecc1a5ace5b542ead3ba2bb61bdb6accdb43"
+    },
+    {
+      "committed": "research/moonshot-005-program/results/bit-chartwise-query-repair/author-root/output/RESULT.json",
+      "sha256": "ba9d75d6fc14728271f676cc3bd09f6eed3ab3afb8a04af95e055a6c0030983d",
+      "comparison": "byte_identical"
+    },
+    {
+      "committed": "research/moonshot-005-program/results/bit-chartwise-query-repair/independent-a/output/RESULT.json",
+      "sha256": "cfa0be51f687b491552441519fa6d86ca4b8687b8cd3e1789d8f731a5f489a3e",
+      "comparison": "byte_identical"
+    }
+  ],
+  "byte_identical": 10,
+  "authenticated_manifest_pins": [
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-review-a/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/block-review-a/REVIEW.md",
+      "sha256": "86054e8d12bf958eca57312aaa44adda98d98c44bfa281904709ae87a073bec9"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-review-a/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/block-review-a/check.py",
+      "sha256": "76455fe471e53d0feb1a8daa26a5db444d65d2b8183f18a36615ae50fe7edcff"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-review-a/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/block-review-a/output/RESULT.json",
+      "sha256": "5a6c36e066ca24bb0e0ec6426f53ecc1a5ace5b542ead3ba2bb61bdb6accdb43"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/author-b/PROOF.md",
+      "sha256": "930eecd13fbb0bcdab1fe0bd5662d76b025016cb731b7902f7287832e47217ea"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/author-b/check.py",
+      "sha256": "f39f3cb9829280612ff7368d8351212fba816563dc3d4fb9bbec859d484ee299"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/author-b/RESULT.json",
+      "sha256": "04a51f738ce7a298143a023fb1b50b566ac062d39277de04343b77ddfa6329e3"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/author-b/LAGRANGIANS.json",
+      "sha256": "0481063b5f853bf9729915c425a8681dc3bc8a78cc85af80b5c8aaa22f29f458"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/HILBERT-REVIEW-MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/author-b/check_hilbert.py",
+      "sha256": "fdbf81e68ec69be8da8bd97aabec4d039ab49cfa3c6e3d581c88fcc5599051eb"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/HILBERT-REVIEW-MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/author-b/HILBERT-RESULT.json",
+      "sha256": "f803bd3456e46ae14ce2396c7e3f28a12cb9a1734f6791ae0aded2161ffc8283"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/HILBERT-REVIEW-MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/author-b/REVIEW-HILBERT-SUPPLEMENT.md",
+      "sha256": "14c6cb8176cfa502db2e8f12e6d2a19cc53e68345254e5b185d93acb6051d230"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-root/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/block-root/DEPENDENCIES.json",
+      "sha256": "cdc574a05fd6edbacc7cc0ce018d8fe763f2d02e07b535acb18984d736ea786a"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-root/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/block-root/check.py",
+      "sha256": "336be094250fe9afbb50ef7e891eefae969d5f39f37b32c657db4549e229626d"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-root/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/block-root/PROOF.md",
+      "sha256": "d17f439fec8a24f75ba6402f8bc32a7a213ee11dcc30afb5408b14f31b120959"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-root/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/block-root/output/RESULT.json",
+      "sha256": "5f92008401f4ff868eb2a89d5abcf86ec3eb41f4a816a4bb69c38a7f2f68139c"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/independent-c/REVIEW.md",
+      "sha256": "d74417239f54e5f9b75ce7a5c4f22acb46f06ec154bce72bef7db46d449eaf0d"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/independent-c/enumerate.py",
+      "sha256": "166647d0100f5d954577e73d7c0669fd6120f57db4b2ae432202076d5bc3e06e"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/independent-c/check_author.py",
+      "sha256": "5855c1b180711d5197d677fc10e5103cfd925f04e2b15f9e0181db5ec5c3a4c2"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/independent-c/TABLE.json",
+      "sha256": "b61e133e1de39a4c6731097c4b5a6126c486473e886d2023abcf08273f36727d"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/independent-c/RESULT.json",
+      "sha256": "212554ab6190aa64fa8f087bbee2afbadc118ddf35175b933d79e7db2d5dd997"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/independent-c/HILBERT-SUPPLEMENT.md",
+      "sha256": "2f9dba12b9d8b2d9f24754f100c965e816f422e75d264c0e2f0648aaefd29dc5"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/DIAGONAL-MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/independent-c/DIAGONAL-RANK-COROLLARY.md",
+      "sha256": "7829b804ddee4d5d85028770d21bfc48963c4111e51e13df8ce37aebcb88beec"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/DIAGONAL-MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/independent-c/diagonal.py",
+      "sha256": "097f1193118e66790286f9f3cdb4ec7be1dac2b04d01e6528d956b82247b9d22"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/DIAGONAL-MANIFEST.json",
+      "path": "results/complex-parabolic-potential-limits/independent-c/DIAGONAL-RESULT.json",
+      "sha256": "9052ac24c70a00569bcc6589706686cff65d6325255bf0987bb52add2e397c3e"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/author-root/MANIFEST.json",
+      "path": "results/bit-chartwise-query-repair/author-root/check.py",
+      "sha256": "f673ed9c51f0d8932f1e6124a71b7128f1d2400adc0ad92b73d5474c7eeb7c74"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/author-root/MANIFEST.json",
+      "path": "results/bit-chartwise-query-repair/author-root/PROOF.md",
+      "sha256": "fbc3c1d974444062c5f45f4c7a4fee75fd085fcdc50b670d1f95e2b06092fe3b"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/author-root/MANIFEST.json",
+      "path": "results/bit-chartwise-query-repair/author-root/output/RESULT.json",
+      "sha256": "ba9d75d6fc14728271f676cc3bd09f6eed3ab3afb8a04af95e055a6c0030983d"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/independent-a/MANIFEST.json",
+      "path": "results/bit-chartwise-query-repair/independent-a/REVIEW.md",
+      "sha256": "efc88fb3725c8a991f54f0ec1fee1a9ad1dc686310bcebb8ca73c056e4351e84"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/independent-a/MANIFEST.json",
+      "path": "results/bit-chartwise-query-repair/independent-a/check.py",
+      "sha256": "c1fb2553d4b79cd76df105db702d34cf7a1e92028a1f648bb565bfa6fdc88e3a"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/independent-a/MANIFEST.json",
+      "path": "results/bit-chartwise-query-repair/independent-a/output/RESULT.json",
+      "sha256": "cfa0be51f687b491552441519fa6d86ca4b8687b8cd3e1789d8f731a5f489a3e"
+    }
+  ],
+  "authenticated_source_and_review_hashes": [
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-review-a/MANIFEST.json",
+      "sha256": "86054e8d12bf958eca57312aaa44adda98d98c44bfa281904709ae87a073bec9",
+      "authenticated_at": "results/complex-parabolic-potential-limits/block-review-a/REVIEW.md"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-review-a/MANIFEST.json",
+      "sha256": "76455fe471e53d0feb1a8daa26a5db444d65d2b8183f18a36615ae50fe7edcff",
+      "authenticated_at": "results/complex-parabolic-potential-limits/block-review-a/check.py"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-review-a/MANIFEST.json",
+      "sha256": "5a6c36e066ca24bb0e0ec6426f53ecc1a5ace5b542ead3ba2bb61bdb6accdb43",
+      "authenticated_at": "results/complex-parabolic-potential-limits/block-review-a/output/RESULT.json"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-review-a/MANIFEST.json",
+      "sha256": "d17f439fec8a24f75ba6402f8bc32a7a213ee11dcc30afb5408b14f31b120959",
+      "authenticated_at": "results/complex-parabolic-potential-limits/block-root/PROOF.md"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-review-a/MANIFEST.json",
+      "sha256": "336be094250fe9afbb50ef7e891eefae969d5f39f37b32c657db4549e229626d",
+      "authenticated_at": "results/complex-parabolic-potential-limits/block-root/check.py"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-review-a/MANIFEST.json",
+      "sha256": "cdc574a05fd6edbacc7cc0ce018d8fe763f2d02e07b535acb18984d736ea786a",
+      "authenticated_at": "results/complex-parabolic-potential-limits/block-root/DEPENDENCIES.json"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-review-a/MANIFEST.json",
+      "sha256": "5f92008401f4ff868eb2a89d5abcf86ec3eb41f4a816a4bb69c38a7f2f68139c",
+      "authenticated_at": "results/complex-parabolic-potential-limits/block-root/output/RESULT.json"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-review-a/MANIFEST.json",
+      "sha256": "7829b804ddee4d5d85028770d21bfc48963c4111e51e13df8ce37aebcb88beec",
+      "authenticated_at": "results/complex-parabolic-potential-limits/independent-c/DIAGONAL-RANK-COROLLARY.md"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-review-a/MANIFEST.json",
+      "sha256": "9052ac24c70a00569bcc6589706686cff65d6325255bf0987bb52add2e397c3e",
+      "authenticated_at": "results/complex-parabolic-potential-limits/independent-c/DIAGONAL-RESULT.json"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-review-a/MANIFEST.json",
+      "sha256": "b61e133e1de39a4c6731097c4b5a6126c486473e886d2023abcf08273f36727d",
+      "authenticated_at": "results/complex-parabolic-potential-limits/independent-c/TABLE.json"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/MANIFEST.json",
+      "sha256": "930eecd13fbb0bcdab1fe0bd5662d76b025016cb731b7902f7287832e47217ea",
+      "authenticated_at": "results/complex-parabolic-potential-limits/author-b/PROOF.md"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/MANIFEST.json",
+      "sha256": "f39f3cb9829280612ff7368d8351212fba816563dc3d4fb9bbec859d484ee299",
+      "authenticated_at": "results/complex-parabolic-potential-limits/author-b/check.py"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/MANIFEST.json",
+      "sha256": "04a51f738ce7a298143a023fb1b50b566ac062d39277de04343b77ddfa6329e3",
+      "authenticated_at": "results/complex-parabolic-potential-limits/author-b/RESULT.json"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/MANIFEST.json",
+      "sha256": "0481063b5f853bf9729915c425a8681dc3bc8a78cc85af80b5c8aaa22f29f458",
+      "authenticated_at": "results/complex-parabolic-potential-limits/author-b/LAGRANGIANS.json"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/HILBERT-REVIEW-MANIFEST.json",
+      "sha256": "2f9dba12b9d8b2d9f24754f100c965e816f422e75d264c0e2f0648aaefd29dc5",
+      "authenticated_at": "results/complex-parabolic-potential-limits/independent-c/HILBERT-SUPPLEMENT.md"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/HILBERT-REVIEW-MANIFEST.json",
+      "sha256": "0481063b5f853bf9729915c425a8681dc3bc8a78cc85af80b5c8aaa22f29f458",
+      "authenticated_at": "results/complex-parabolic-potential-limits/author-b/LAGRANGIANS.json"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/HILBERT-REVIEW-MANIFEST.json",
+      "sha256": "fdbf81e68ec69be8da8bd97aabec4d039ab49cfa3c6e3d581c88fcc5599051eb",
+      "authenticated_at": "results/complex-parabolic-potential-limits/author-b/check_hilbert.py"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/HILBERT-REVIEW-MANIFEST.json",
+      "sha256": "f803bd3456e46ae14ce2396c7e3f28a12cb9a1734f6791ae0aded2161ffc8283",
+      "authenticated_at": "results/complex-parabolic-potential-limits/author-b/HILBERT-RESULT.json"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/author-b/HILBERT-REVIEW-MANIFEST.json",
+      "sha256": "14c6cb8176cfa502db2e8f12e6d2a19cc53e68345254e5b185d93acb6051d230",
+      "authenticated_at": "results/complex-parabolic-potential-limits/author-b/REVIEW-HILBERT-SUPPLEMENT.md"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-root/MANIFEST.json",
+      "sha256": "cdc574a05fd6edbacc7cc0ce018d8fe763f2d02e07b535acb18984d736ea786a",
+      "authenticated_at": "results/complex-parabolic-potential-limits/block-root/DEPENDENCIES.json"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-root/MANIFEST.json",
+      "sha256": "336be094250fe9afbb50ef7e891eefae969d5f39f37b32c657db4549e229626d",
+      "authenticated_at": "results/complex-parabolic-potential-limits/block-root/check.py"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-root/MANIFEST.json",
+      "sha256": "d17f439fec8a24f75ba6402f8bc32a7a213ee11dcc30afb5408b14f31b120959",
+      "authenticated_at": "results/complex-parabolic-potential-limits/block-root/PROOF.md"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/block-root/MANIFEST.json",
+      "sha256": "5f92008401f4ff868eb2a89d5abcf86ec3eb41f4a816a4bb69c38a7f2f68139c",
+      "authenticated_at": "results/complex-parabolic-potential-limits/block-root/output/RESULT.json"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/MANIFEST.json",
+      "sha256": "930eecd13fbb0bcdab1fe0bd5662d76b025016cb731b7902f7287832e47217ea",
+      "authenticated_at": "results/complex-parabolic-potential-limits/author-b/PROOF.md"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/MANIFEST.json",
+      "sha256": "d74417239f54e5f9b75ce7a5c4f22acb46f06ec154bce72bef7db46d449eaf0d",
+      "authenticated_at": "results/complex-parabolic-potential-limits/independent-c/REVIEW.md"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/MANIFEST.json",
+      "sha256": "166647d0100f5d954577e73d7c0669fd6120f57db4b2ae432202076d5bc3e06e",
+      "authenticated_at": "results/complex-parabolic-potential-limits/independent-c/enumerate.py"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/MANIFEST.json",
+      "sha256": "5855c1b180711d5197d677fc10e5103cfd925f04e2b15f9e0181db5ec5c3a4c2",
+      "authenticated_at": "results/complex-parabolic-potential-limits/independent-c/check_author.py"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/MANIFEST.json",
+      "sha256": "b61e133e1de39a4c6731097c4b5a6126c486473e886d2023abcf08273f36727d",
+      "authenticated_at": "results/complex-parabolic-potential-limits/independent-c/TABLE.json"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/MANIFEST.json",
+      "sha256": "212554ab6190aa64fa8f087bbee2afbadc118ddf35175b933d79e7db2d5dd997",
+      "authenticated_at": "results/complex-parabolic-potential-limits/independent-c/RESULT.json"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/MANIFEST.json",
+      "sha256": "2f9dba12b9d8b2d9f24754f100c965e816f422e75d264c0e2f0648aaefd29dc5",
+      "authenticated_at": "results/complex-parabolic-potential-limits/independent-c/HILBERT-SUPPLEMENT.md"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/DIAGONAL-MANIFEST.json",
+      "sha256": "7829b804ddee4d5d85028770d21bfc48963c4111e51e13df8ce37aebcb88beec",
+      "authenticated_at": "results/complex-parabolic-potential-limits/independent-c/DIAGONAL-RANK-COROLLARY.md"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/DIAGONAL-MANIFEST.json",
+      "sha256": "097f1193118e66790286f9f3cdb4ec7be1dac2b04d01e6528d956b82247b9d22",
+      "authenticated_at": "results/complex-parabolic-potential-limits/independent-c/diagonal.py"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/DIAGONAL-MANIFEST.json",
+      "sha256": "9052ac24c70a00569bcc6589706686cff65d6325255bf0987bb52add2e397c3e",
+      "authenticated_at": "results/complex-parabolic-potential-limits/independent-c/DIAGONAL-RESULT.json"
+    },
+    {
+      "manifest": "results/complex-parabolic-potential-limits/independent-c/DIAGONAL-MANIFEST.json",
+      "sha256": "b61e133e1de39a4c6731097c4b5a6126c486473e886d2023abcf08273f36727d",
+      "authenticated_at": "results/complex-parabolic-potential-limits/independent-c/TABLE.json"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/author-root/MANIFEST.json",
+      "sha256": "f673ed9c51f0d8932f1e6124a71b7128f1d2400adc0ad92b73d5474c7eeb7c74",
+      "authenticated_at": "results/bit-chartwise-query-repair/author-root/check.py"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/author-root/MANIFEST.json",
+      "sha256": "fbc3c1d974444062c5f45f4c7a4fee75fd085fcdc50b670d1f95e2b06092fe3b",
+      "authenticated_at": "results/bit-chartwise-query-repair/author-root/PROOF.md"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/author-root/MANIFEST.json",
+      "sha256": "ba9d75d6fc14728271f676cc3bd09f6eed3ab3afb8a04af95e055a6c0030983d",
+      "authenticated_at": "results/bit-chartwise-query-repair/author-root/output/RESULT.json"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/independent-a/MANIFEST.json",
+      "sha256": "efc88fb3725c8a991f54f0ec1fee1a9ad1dc686310bcebb8ca73c056e4351e84",
+      "authenticated_at": "results/bit-chartwise-query-repair/independent-a/REVIEW.md"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/independent-a/MANIFEST.json",
+      "sha256": "c1fb2553d4b79cd76df105db702d34cf7a1e92028a1f648bb565bfa6fdc88e3a",
+      "authenticated_at": "results/bit-chartwise-query-repair/independent-a/check.py"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/independent-a/MANIFEST.json",
+      "sha256": "cfa0be51f687b491552441519fa6d86ca4b8687b8cd3e1789d8f731a5f489a3e",
+      "authenticated_at": "results/bit-chartwise-query-repair/independent-a/output/RESULT.json"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/independent-a/MANIFEST.json",
+      "sha256": "fbc3c1d974444062c5f45f4c7a4fee75fd085fcdc50b670d1f95e2b06092fe3b",
+      "authenticated_at": "results/bit-chartwise-query-repair/author-root/PROOF.md"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/independent-a/MANIFEST.json",
+      "sha256": "f673ed9c51f0d8932f1e6124a71b7128f1d2400adc0ad92b73d5474c7eeb7c74",
+      "authenticated_at": "results/bit-chartwise-query-repair/author-root/check.py"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/independent-a/MANIFEST.json",
+      "sha256": "ba9d75d6fc14728271f676cc3bd09f6eed3ab3afb8a04af95e055a6c0030983d",
+      "authenticated_at": "results/bit-chartwise-query-repair/author-root/output/RESULT.json"
+    },
+    {
+      "manifest": "results/bit-chartwise-query-repair/independent-a/MANIFEST.json",
+      "sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+      "authenticated_at": "results/bit-two-d5-reservoir-decoder/author/SOURCE-GEOMETRY.json"
+    }
+  ],
+  "prior_scientific_entries": 5577,
+  "added_scientific_files": 46,
+  "scientific_entries_after": 5623,
+  "registered_results_after": 364,
+  "retained_unavailable_historical_entries": [
+    {
+      "path": "results/four-call-dyadic-entry/review/replay.log",
+      "discovered_session": "2026-11-14-S011",
+      "status": "Absent from programme Git tree, predecessor checkout and available path history; old indexed hash retained, not independently reauthenticated. Not cited as proof evidence."
+    },
+    {
+      "path": "results/bit-joint-multicast/mixed-author/__pycache__/build_mixed.cpython-312.pyc",
+      "discovered_session": "2026-11-14-S012",
+      "status": "Generated bytecode entry absent from confirmed baseline db6e513c96cb8ceea10c1071b26a7db1de9fe008. Old hash retained; not proof evidence."
+    }
+  ],
+  "protected_rule_preserved_verbatim": true,
+  "scope": "Optimal first-arrival-span repair, not peak storage or actual five-receiver source. Complex radial representation obstructions, not all physical callers.",
+  "new_complete_kappa": false,
+  "publication_index_checks": {
+    "scientific_tracked": 5621,
+    "qualified_missing": [
+      "results/bit-joint-multicast/mixed-author/__pycache__/build_mixed.cpython-312.pyc",
+      "results/four-call-dyadic-entry/review/replay.log"
+    ],
+    "intentional_ignored_evidence_force_added": [],
+    "frozen_trailing_blank_lines_preserved": [],
+    "other_whitespace_findings": []
+  }
+}
