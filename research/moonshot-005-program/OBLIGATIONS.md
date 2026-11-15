@@ -137,3 +137,7 @@ The previously open mixed(2,1) proposal is superseded by its obstruction. Final 
 | COMPLEX-DIRECT-ROW-COMPLETION | DISPROVED for this seed, q=A^-1 and arbitrary ordinary O_lambda family. | Change seed/query to permit the required rank-three coefficient preimage; full caller open. |
 
 All previous end-to-end and foundational obligations remain. No author-only claim is silently promoted: the seed's admission is supported by the explicit new Root review and separate exact matrix implementation.
+
+## S014 closing inventory refinement
+
+The independently reviewed [inventory exhaustion corollary](results/complex-inverse-native-query-gate/supplements/INVENTORY-EXHAUSTION.md) proves that exactly three rank-one queries with independent(3,3) endpoints are the only potentially profitable inventory in the fixed one-native, two-retained-role, three-head, common-seven-body model. The placement gate forces one side. This is a necessary condition; the caller and physical admission remain open. Fourteen S014 packages plus this proof supplement; no new complete kappa.

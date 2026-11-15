@@ -145,3 +145,7 @@ The inverse-native rank, mixed-query band and complementary-corner arguments exc
 Three actual mixed-cache descents form a shared reservoir and meet one exact information cut, but a complete chart-aware receiver audit proves the chosen destination adds no fitting role. The unspent two-output source and its uncoupled alternative remain the starting construction. A concrete receiver26 rerouting/correction lead is preserved without claiming a decoder.
 
 An explicit Clifford first-query row realizes the nonordinary input representation required by the surviving three-query caller. Its simplest next completion is rigorously excluded by a coefficient-preimage argument. Both packages have exact source pins, full partial invoices where applicable, separate implementations and written independent reviews. These are cohesive enabling and obstruction results; **No new κ**, no discharged foundation, and no PR-readiness claim.
+
+## S014 closing inventory refinement
+
+The independently reviewed [inventory exhaustion corollary](results/complex-inverse-native-query-gate/supplements/INVENTORY-EXHAUSTION.md) proves that exactly three rank-one queries with independent(3,3) endpoints are the only potentially profitable inventory in the fixed one-native, two-retained-role, three-head, common-seven-body model. The placement gate forces one side. This is a necessary condition; the caller and physical admission remain open. Fourteen S014 packages plus this proof supplement; no new complete kappa.

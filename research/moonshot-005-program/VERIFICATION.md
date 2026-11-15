@@ -464,3 +464,7 @@ The final reservoir has fresh independent full-prefix replay, both literal suffi
 The complex row seed and every-ordinary-lambda completion gate received a separate Root proof derivation, including why the residual multiplier C is ordinary. A new SymPy implementation independently verifies widths1/2 and the phase-free control; the author's distinct Gaussian-dyadic implementation agrees. Faithful tensor coefficient arguments, not low-width tests, establish the universal statements.
 
 New scientific files41; registry292; ledger4739, retaining all4698 prior entries. Source/helper bytes are preserved, including the known harmless EOF blank in the copied reviewed utility. No full multiplier or new kappa is certified.
+
+## S014 closing inventory refinement
+
+The independently reviewed [inventory exhaustion corollary](results/complex-inverse-native-query-gate/supplements/INVENTORY-EXHAUSTION.md) proves that exactly three rank-one queries with independent(3,3) endpoints are the only potentially profitable inventory in the fixed one-native, two-retained-role, three-head, common-seven-body model. The placement gate forces one side. This is a necessary condition; the caller and physical admission remain open. Fourteen S014 packages plus this proof supplement; no new complete kappa.

@@ -2,27 +2,42 @@
   "schema": "moonshot-005-program-state-v3-current",
   "branch": "research/moonshot-005-program",
   "repository": "CubeJerry/integer-mult-bounds",
-  "checkpoint_baseline_sha": "3f7d2489d569c27dfe3f936c29669c6d716620ff",
+  "checkpoint_baseline_sha": "b3ddb6449d6f31d3dea94366c84d8d8f92ebb030",
   "checkpoint_sha_semantics": "Parent/baseline identity; never self-referential. Resulting remote SHA is confirmed after publication and recorded in next receipt or session handoff.",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
-  "upstream_last_checked_utc": "2026-11-15 03:36:02 UTC",
+  "upstream_last_checked_utc": "2026-11-15 03:58:43 UTC",
   "root_upstream_review": {
     "main_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
-    "targeted_updates_since_utc": "2026-11-14 19:01:51 UTC",
-    "new_updated_prs": [
-      7605
+    "historical_s013_review": {
+      "main_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "targeted_updates_since_utc": "2026-11-14 19:01:51 UTC",
+      "new_updated_prs": [
+        7605
+      ],
+      "pr7605_head": "e1d2756eecf03e146338239fee81772a99ba8d4c",
+      "disposition": "Open; proof and source-specific timing identity read, no full replay/admission or selected change.",
+      "s014_evidence": "sessions/2026-11-15-S014/UPSTREAM-START.json",
+      "s014_final_evidence": "sessions/2026-11-15-S014/UPSTREAM-END.json"
+    },
+    "s014_open_prs_reviewed": [
+      7606,
+      7607,
+      7608,
+      7609,
+      7610
     ],
-    "pr7605_head": "e1d2756eecf03e146338239fee81772a99ba8d4c",
-    "disposition": "Open; proof and source-specific timing identity read, no full replay/admission or selected change.",
-    "s014_evidence": "sessions/2026-11-15-S014/UPSTREAM-START.json",
-    "s014_final_evidence": "sessions/2026-11-15-S014/UPSTREAM-END.json"
+    "disposition": "No admission or selected certificate change. Source-selective versus metadata-only review is recorded in external research.",
+    "start_evidence": "sessions/2026-11-15-S014/UPSTREAM-START.json",
+    "end_evidence": "sessions/2026-11-15-S014/UPSTREAM-END.json",
+    "final_check_utc": "2026-11-15 03:58:43 UTC",
+    "final_check": "Main unchanged; no PR updates since03:36:02 UTC"
   },
   "session": "2026-11-15-S014",
   "session_started_utc": "2026-11-15T02:07:18Z",
   "session_planned_end_utc": "2026-11-15T04:07:18Z",
   "requested_session_seconds": 7200,
-  "session_status": "active",
-  "session_checkpoint_utc": "2026-11-15T03:50:59.445943+00:00",
+  "session_status": "closed",
+  "session_checkpoint_utc": "2026-11-15T04:03:51.785353+00:00",
   "background_execution": false,
   "phase": "joint-export-destination-decoder-and-nonordinary-complex-row",
   "target_kappa": "1/200",
@@ -55,7 +70,7 @@
     },
     {
       "id": "COMPLEX-THREE-QUERY-CALLER",
-      "status": "open: all three rank-one queries on one side; actual full caller/ordinary compilation missing"
+      "status": "open: exactly three rank-one queries, all on one side, independent(3,3); every other fixed-model inventory excluded"
     }
   ],
   "verified_results": [
@@ -162,8 +177,9 @@
     },
     {
       "id": "COMPLEX-INVERSE-NATIVE-QUERY-GATE",
-      "status": "proved inverse/mixed-query gates and three-query placement; all at-most-two-query three-head inventories excluded",
-      "path": "results/complex-inverse-native-query-gate/ADMISSION.md"
+      "status": "proved fixed-inventory exhaustion: only exactly three same-side rank-one queries and independent(3,3) remain possible; caller open",
+      "path": "results/complex-inverse-native-query-gate/ADMISSION.md",
+      "supplement": "results/complex-inverse-native-query-gate/supplements/INVENTORY-EXHAUSTION.md"
     },
     {
       "id": "BIT-SHARED-EXPORT-RESERVOIR",
@@ -178,7 +194,7 @@
   ],
   "registered_results_index": {
     "path": "REGISTERED-RESULTS.json",
-    "records": 288,
+    "records": 292,
     "scope": "Preserved classifications including partial, conditional, scoped negative and finite results; no automatic promotion."
   },
   "completed_milestones": [
@@ -232,17 +248,21 @@
     "BIT-CYCLIC-THREE-RECEIVER",
     "BIT-FULL-SINGULAR-HISTORY",
     "COMPLEX-FRESH-BODY-TAG-GATE",
-    "COMPLEX-THREE-HEAD-SOURCE"
+    "COMPLEX-THREE-HEAD-SOURCE",
+    "BIT-COUPLED-SINGULAR-DELIVERY",
+    "COMPLEX-INVERSE-NATIVE-QUERY-GATE",
+    "BIT-SHARED-EXPORT-RESERVOIR",
+    "COMPLEX-NONORDINARY-ROW-SEED"
   ],
   "unverified_hypotheses": [
     "A shared physical BIT acquisition/receiver network can meet the complete budget.",
     "A changed head/body complex interface has a profitable compatible caller."
   ],
   "pending": [
-    "Admit/review the coupled full-W one-output word, explicitly separating its five paid moving masks from its Y-through-zero exchange and uncoupled control.",
-    "Extend a compatible receiver family within the complete movement/ownership/recursive budget; existing invertible-through normalization rules out a stops-only repair.",
-    "Review the new pure-rank-three two-query theorem; seek an actual mixed(3,2) three-head caller or another legitimate escape.",
-    "Preserve all five foundations and strict supplier thresholds; no favorable partial invoice is a new kappa."
+    "Start from the two-output coupled/uncoupled family before optional suffixes; preserve source pins and both alternatives.",
+    "Attempt the receiver26 destination/correction composition, then determine whether the mechanism can share data across enough remaining receivers to meet the complete target invoice.",
+    "Solve the surviving three-query complex caller using the admitted nonordinary row seed or a repaired seed/query; direct q=A^-1 completion is excluded.",
+    "Keep complete covered/ordinary BIT and complex supplier admission, all physical/recursive costs and five foundations explicit."
   ],
   "retained_assumptions": [
     "native_all_columns",
@@ -257,8 +277,8 @@
     "complete_complex_caller_sha256": "d9ba709fa5dcefffe3f3abdcf34600ce188224703cfd743e6db8b58ba4816cb7",
     "selected_index_sha256": "154c3d30455d778fd3343b6b4851f0fa4665f0f7625b0adb3675e2bafbbf6bf1"
   },
-  "last_verified_scientific_commit": "d9494d28ac9f094ba16f2b0476e66110e03f5427",
-  "last_verified_scientific_tree": "c58e8b8351ab101196eb24b5f9a5ccc8e78e7400",
+  "last_verified_scientific_commit": "b3ddb6449d6f31d3dea94366c84d8d8f92ebb030",
+  "last_verified_scientific_tree": "1c12979f96d98f6310546508faeb358a72aa99fa",
   "archived_state": {
     "path": "sessions/2026-11-14-S013/logical-records-at-cp8/STATE.json",
     "source_commit": "efe6a53276960e1a6c0dfea0b9f4be6c63312d23",
@@ -280,13 +300,15 @@
     },
     {
       "id": "2026-11-15-S014",
-      "status": "active",
+      "status": "closed",
       "started_utc": "2026-11-15T02:07:18Z",
-      "planned_end_utc": "2026-11-15T04:07:18Z"
+      "planned_end_utc": "2026-11-15T04:07:18Z",
+      "closed_utc": "2026-11-15T04:03:51.785353+00:00",
+      "scientific_checkpoint5_sha": "b3ddb6449d6f31d3dea94366c84d8d8f92ebb030"
     }
   ],
   "path_semantics": "Paths relative to research/moonshot-005-program unless stated otherwise.",
-  "publication_status": "S014 checkpoint5 prepared; remote identity confirmed separately",
+  "publication_status": "S014 final closure prepared against confirmed checkpoint5; resulting closure SHA confirmed externally, never self-embedded",
   "s012": {
     "id": "2026-11-14-S012",
     "status": "closed",
@@ -401,7 +423,7 @@
     "checkpoint9_baseline_sha": "efe6a53276960e1a6c0dfea0b9f4be6c63312d23",
     "checkpoint9_utc": "2026-11-14 20:10:58 UTC"
   },
-  "last_reconciled_remote_sha": "3f7d2489d569c27dfe3f936c29669c6d716620ff",
+  "last_reconciled_remote_sha": "b3ddb6449d6f31d3dea94366c84d8d8f92ebb030",
   "reconciled_concurrent_scientific_commit": "83f65d544b43608eade0658083048ce0b615a933",
   "programme_status": "ongoing; no new complete kappa",
   "workspace_recovery": {
@@ -414,7 +436,8 @@
     "fresh_controls": "results/s012-final-recovery/FRESH-CONTROLS.mjs",
     "final_proof_commit": "60dcc4a5c7c9a8b6960b575e2d86c4dd4225e0a6",
     "published_core_replayed": true,
-    "original_artifacts_recovered": false
+    "original_artifacts_recovered": false,
+    "historical_scope": "S012/S013 incident; not current S014 runtime status. Original missing artifacts remain qualified."
   },
   "previous_milestones_archive": "sessions/2026-11-14-S013/logical-records-at-cp8/STATE.json",
   "s014": {
@@ -422,7 +445,7 @@
     "started_utc": "2026-11-15T02:07:18Z",
     "planned_end_utc": "2026-11-15T04:07:18Z",
     "requested_seconds": 7200,
-    "status": "active",
+    "status": "closed",
     "starting_state": "sessions/2026-11-15-S014/START-STATE.json",
     "protected_allocation": "A: constructive shared BIT sources; B: enlarged complex phases; C: independent localization/trellis and escapes. All three are mathematics-first; root reviews and integrates.",
     "previous_session_recovery": "S013 remote record remained active at checkpoint9; no later localization/phase package was found. Unpublished pending claims are not admitted.",
@@ -459,7 +482,11 @@
     "checkpoint4_confirmed_remote_sha": "3f7d2489d569c27dfe3f936c29669c6d716620ff",
     "checkpoint5_baseline_sha": "3f7d2489d569c27dfe3f936c29669c6d716620ff",
     "checkpoint5_utc": "2026-11-15T03:50:59.445943+00:00",
-    "latest_validation": "sessions/2026-11-15-S014/CHECKPOINT5-VALIDATION.json"
+    "latest_validation": "sessions/2026-11-15-S014/FINAL-VALIDATION.json",
+    "closed_utc": "2026-11-15T04:03:51.785353+00:00",
+    "checkpoint5_confirmed_remote_sha": "b3ddb6449d6f31d3dea94366c84d8d8f92ebb030",
+    "final_handoff": "sessions/2026-11-15-S014/FINAL-HANDOFF.md",
+    "final_cost_supplement": "results/complex-inverse-native-query-gate/supplements/INVENTORY-EXHAUSTION.md"
   },
   "runtime_current": {
     "local_executor": "available",
@@ -467,5 +494,6 @@
     "git_read": "available",
     "git_cli_push": "no credentials",
     "publication": "connected Git Data API, exact-tree and expected-HEAD nonforced update"
-  }
+  },
+  "session_closed_utc": "2026-11-15T04:03:51.785353+00:00"
 }

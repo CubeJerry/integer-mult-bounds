@@ -13,6 +13,12 @@ There is no materialized uniform multiplier or formal-kernel acceptance here.
 The first milestone is a complete conditional target theorem with all remaining
 foundations explicit. An unconditional result must prove or bypass each one.
 
+## Current construction at S014 closure
+
+The singular BIT source is now acquired on eight principal packet histories with seven paid moving masks, while restoring all original inputs and completing two outputs. Delivery is the main missing theorem. Resume from this two-output family before its optional suffixes: the nine-output prefix fails a proved 3V export cut, and the three-cache shared reservoir has an exact destination/access obstruction. Its unused limiting movement room is9.243842594, a necessary movement-only margin, not full supplier admission. Preserve both coupled and uncoupled controls.
+
+The complementary complex construction has moved to three heads. A complete fixed-model invoice exhaustion leaves exactly three rank-one queries, all on one side, with independent rank-three endpoints as the only potentially positive inventory. An exact nonordinary initial row is constructed; its simplest next completion is excluded. The actual caller, uniform ordinary compilation, complete suppliers and all five foundations remain open. See [final handoff](sessions/2026-11-15-S014/FINAL-HANDOFF.md) and [STATE.json](STATE.json).
+
 ## Protected Mathematics-First Discovery Track
 
 This standing rule supplements the cumulative roadmap; construction-specific

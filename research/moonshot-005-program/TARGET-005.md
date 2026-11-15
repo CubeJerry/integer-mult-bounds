@@ -201,3 +201,7 @@ The actual three-cache reservoir costs[1]+2[2]=4.986161051311... beyond Q2, has1
 The unspent two-output family has9.243842594... room. Coupled global relative minrank lies between3 and8; the uncoupled control has the same rank-five frame premise and fixed-W upper bound7, hence global gap3 to7. These relaxations do not account for physical availability. DC1_2 alone fits26 modulo six local terms, with a proposed rank-one descent to D6 intersect F26; the correction chronology and any scalable shared completion remain open.
 
 The complex nonordinary-input condition now has an exact initial row G=A^-2,H=A^-1 P A^-1. Its relative K=A P A^-1 has rank1. The natural ordinary O_lambda followed by q=A^-1 cannot make the required intermediate, since the residual's unique preimage G K^-1 has rank2 rather than3. Changing the seed or second query is a precise surviving obligation; no uniform physical caller or new kappa follows.
+
+## S014 closing inventory refinement
+
+The independently reviewed [inventory exhaustion corollary](results/complex-inverse-native-query-gate/supplements/INVENTORY-EXHAUSTION.md) proves that exactly three rank-one queries with independent(3,3) endpoints are the only potentially profitable inventory in the fixed one-native, two-retained-role, three-head, common-seven-body model. The placement gate forces one side. This is a necessary condition; the caller and physical admission remain open. Fourteen S014 packages plus this proof supplement; no new complete kappa.
