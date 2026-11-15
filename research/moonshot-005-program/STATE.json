@@ -2,7 +2,7 @@
   "schema": "moonshot-005-program-state-v3-current",
   "branch": "research/moonshot-005-program",
   "repository": "CubeJerry/integer-mult-bounds",
-  "checkpoint_baseline_sha": "efe6a53276960e1a6c0dfea0b9f4be6c63312d23",
+  "checkpoint_baseline_sha": "9fb0a34adad2f5903d3169fee7f7a7fcb6f03e3a",
   "checkpoint_sha_semantics": "Parent/baseline identity; never self-referential. Resulting remote SHA is confirmed after publication and recorded in next receipt or session handoff.",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
   "upstream_last_checked_utc": "2026-11-14 20:10:58 UTC",
@@ -15,12 +15,12 @@
     "pr7605_head": "e1d2756eecf03e146338239fee81772a99ba8d4c",
     "disposition": "Open; proof and source-specific timing identity read, no full replay/admission or selected change."
   },
-  "session": "2026-11-14-S013",
-  "session_started_utc": "2026-11-14T13:21:59Z",
-  "session_planned_end_utc": "2026-11-14T23:21:59Z",
-  "requested_session_seconds": 36000,
+  "session": "2026-11-15-S014",
+  "session_started_utc": "2026-11-15T02:07:18Z",
+  "session_planned_end_utc": "2026-11-15T04:07:18Z",
+  "requested_session_seconds": 7200,
   "session_status": "active",
-  "session_checkpoint_utc": "2026-11-14 20:10:58 UTC",
+  "session_checkpoint_utc": "2026-11-15T02:11:26.322846+00:00",
   "background_execution": false,
   "phase": "global-singular-history-and-enlarged-ordinary-phase-construction",
   "target_kappa": "1/200",
@@ -193,10 +193,16 @@
       "started_utc": "2026-11-14T13:21:59Z",
       "planned_end_utc": "2026-11-14T23:21:59Z",
       "execution": "cloud V8/GitHub after local executor loss"
+    },
+    {
+      "id": "2026-11-15-S014",
+      "status": "active",
+      "started_utc": "2026-11-15T02:07:18Z",
+      "planned_end_utc": "2026-11-15T04:07:18Z"
     }
   ],
   "path_semantics": "Paths relative to research/moonshot-005-program unless stated otherwise.",
-  "publication_status": "checkpoint9 prepared against exact checkpoint8 parent; resulting commit confirmed separately",
+  "publication_status": "S014 resumed exact remote checkpoint; new mathematics pending review",
   "s012": {
     "id": "2026-11-14-S012",
     "status": "closed",
@@ -205,7 +211,7 @@
     "final_validation": "sessions/2026-11-14-S012/FINAL-VALIDATION.json",
     "complete_record_in_archive": "sessions/2026-11-14-S013/logical-records-at-cp8/STATE.json"
   },
-  "latest_checkpoint_session": "2026-11-14-S013",
+  "latest_checkpoint_session": "2026-11-15-S014",
   "s013": {
     "status": "active",
     "starting_remote_sha": "3dc8e992ef59f4b8db1c173263a646b618ecf1e1",
@@ -311,7 +317,7 @@
     "checkpoint9_baseline_sha": "efe6a53276960e1a6c0dfea0b9f4be6c63312d23",
     "checkpoint9_utc": "2026-11-14 20:10:58 UTC"
   },
-  "last_reconciled_remote_sha": "efe6a53276960e1a6c0dfea0b9f4be6c63312d23",
+  "last_reconciled_remote_sha": "9fb0a34adad2f5903d3169fee7f7a7fcb6f03e3a",
   "reconciled_concurrent_scientific_commit": "83f65d544b43608eade0658083048ce0b615a933",
   "programme_status": "ongoing; no new complete kappa",
   "workspace_recovery": {
@@ -326,5 +332,17 @@
     "published_core_replayed": true,
     "original_artifacts_recovered": false
   },
-  "previous_milestones_archive": "sessions/2026-11-14-S013/logical-records-at-cp8/STATE.json"
+  "previous_milestones_archive": "sessions/2026-11-14-S013/logical-records-at-cp8/STATE.json",
+  "s014": {
+    "starting_remote_sha": "9fb0a34adad2f5903d3169fee7f7a7fcb6f03e3a",
+    "started_utc": "2026-11-15T02:07:18Z",
+    "planned_end_utc": "2026-11-15T04:07:18Z",
+    "requested_seconds": 7200,
+    "status": "active",
+    "starting_state": "sessions/2026-11-15-S014/START-STATE.json",
+    "protected_allocation": "A: constructive shared BIT sources; B: enlarged complex phases; C: independent localization/trellis and escapes. All three are mathematics-first; root reviews and integrates.",
+    "previous_session_recovery": "S013 remote record remained active at checkpoint9; no later localization/phase package was found. Unpublished pending claims are not admitted.",
+    "execution_mode": "local Python/Node and connected GitHub available; prior S012 missing evidence remains qualified",
+    "background_execution": false
+  }
 }

@@ -1473,3 +1473,22 @@ Signed representations, actual-prefix parity kernels, ordinary projectors and tw
 Independent root BIT algorithms and a separately implemented C complex audit supplement author replays. The two-reservoir frozen marker snapshots are a documented projection of fresh full replay, not a claimed byte-identical complete receipt. All4363 prior scientific entries remain unchanged;93 new entries give4456, and the registry has278 results. Six logical records are archived byte-for-byte at this parent and replaced by current summaries; this log remains append-only.
 
 Next: acquire half-spinor modes jointly from53 shared original inputs with legal chronology/restoration, and resolve the enlarged phase caller's complete cost. No new kappa, complete supplier or PR. The ten-hour session remains active. Resulting commit identity is confirmed after leased publication and recorded separately.
+
+
+## 2026-11-15-S014 — two-hour continuation, startup
+
+Started 2026-11-15 02:07:18 UTC at exact remote programme HEAD
+9fb0a34adad2f5903d3169fee7f7a7fcb6f03e3a; planned end 04:07:18 UTC.
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57.
+Recovered checkpoint9 and its source-specific singular-code acquisition and
+enlarged complex-phase obligations. The previous S013 state still says active;
+no later published localization/phase package was found, so pending claims
+remain unverified. Original S012 recovery qualifications are preserved.
+
+Three live complementary workers investigate shared chronological BIT source
+construction, enlarged ordinary complex phases, and independent singular-code
+localization/trellis plus constructive escapes. All three allocations protect
+mathematics-first discovery; no task is assigned incremental kappa tuning.
+Root checks source scope, new upstream PRs and independent proofs. Final quarter
+is reserved for verification, integration and durable publication. Target open,
+selected conditional kappa unchanged, no upstream PR authorized for submission.
