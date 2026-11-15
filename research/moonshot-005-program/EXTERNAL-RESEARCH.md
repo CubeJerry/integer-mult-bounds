@@ -232,3 +232,9 @@ unselected and not admitted here. None changes the programme's selected bound.
 Discussion start/handoff/mechanism pages and active board were inspected;
 rendered pages have partial/paginated coverage, not an exhaustive novelty scan.
 No messages, upstream PRs, merges or selected-certificate edits were made.
+
+## S014 final targeted upstream check
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57 and selected κ is unchanged. Open [#7609](https://github.com/CrocSwap/integer-mult-bounds/pull/7609), head04c0476cea2e647e46f03ba860aed3d0b4075f85, has a pinned proof read (blob a3f016465b589165a5f3f90f0ec121b0b2953162), especially its full-state rank/CLEAR argument. Its logical observation is compatible; the physical owned-erasure interpretation is not newly adopted or discharged. No full package replay/intake.
+
+Open [#7610](https://github.com/CrocSwap/integer-mult-bounds/pull/7610), head93fded4340bb08bc1f99d6f18e47a198456a41df, claims conditional κ0.003650971539360618... via a local hop merge and inherited CLEAR-content premise. Metadata/body reviewed, no source admission. Neither PR is merged/selected. UPSTREAM-END.json pins the check. No upstream changes or PR submission.

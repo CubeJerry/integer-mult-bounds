@@ -1,0 +1,24 @@
+{
+  "status": "PASS_EXACT_FINITE_DIAGNOSTICS",
+  "source_inverse": [
+    {
+      "V": 1,
+      "inverse_both_sides": true,
+      "wrong_cross_sign_rejected": true
+    },
+    {
+      "V": 2,
+      "inverse_both_sides": true,
+      "wrong_cross_sign_rejected": true
+    }
+  ],
+  "formal_noncommuting_ordinary_zero_divisors": true,
+  "query_placement_coefficient_checks": 48,
+  "negative_controls": {
+    "two_bank_query_can_make_two_rank3_jobs": true,
+    "shared_input_rank_components_do_not_make_two_independent_jobs": true,
+    "rank2_query_invalidates_rank1_gate_and_allows_32_in_formal_model": true
+  },
+  "scope": "Exact finite diagnostics of source and filtration mechanisms; universal theorem is INVERSE-NATIVE-TWO-QUERY-GATE.md",
+  "new_kappa": false
+}

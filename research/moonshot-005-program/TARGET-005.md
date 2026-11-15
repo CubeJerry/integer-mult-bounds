@@ -185,3 +185,11 @@ retains the common2^V array-volume multiplier. Its head ranks cycle0,1,2,3,2,1.
 One native+one rank-one query cannot realize(3,1); one rank-two query cannot
 realize(3,2), by the high-rank-job count. Multiple-query identities remain
 construction obligations; the nonlinear potential is necessary only.
+
+## S014 checkpoint4 quantitative update
+
+Two-output Q2=142[1]+19[2]+49[3]+66[4]+22[5]+22[6]+112[7]+[8], moment1612.507037617109945..., room9.243842594042410... at t=199/200. For actual terminal-plus-donor G, dimG=15, dim(G+W)=23, dim(G+C)=24. The nonorthogonal frame(0,15,31,35,40,41,106,110) sees rank5, forcing3V additional information for ANY fitting. Its actual cut forces three whole-V owned ingresses. Nine-output Q9 leaves2.243842594... and fails by at least0.756157405957590... for every even caller m>=2. These are fixed-prefix source theorems, not a general multiplication lower bound.
+
+The global relative-fitting gap3<=r_min(G)<=8 separates an arbitrary-fitting lower bound from fixed-W/C enlargement costs. A physical decoder must also respect all actual charts and time order. Reseeding eight fields alone fails the credited8.1V shortening bound after nine omitted ports.
+
+For complex callers, the inverse-native gate gives H<=4 for two rank-one queries and deficit>=3(1-(8^t-7^t))>0. The general pure-endpoint theorem h<=s+min(a,b) and six concavity cases exclude every at-most-two-query three-head inventory for0<t<1. Three rank-one queries retain optimistic price4[1]+[7]+[8] against2[10], but all must be on one side of the F1 source. No caller or strict supplier is constructed.

@@ -1,0 +1,71 @@
+{
+  "checkpoint_parent": "43bca63ce457585c852d4b236819842270e8ab22",
+  "commands": [
+    {
+      "label": "coupled",
+      "command": "python research/moonshot-005-program/results/bit-coupled-singular-delivery/worker-c/review-a/coupled_history_check.py --source research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json --words research/moonshot-005-program/results/bit-coupled-singular-delivery/worker-a/coupled-output --output /workspace/scratch/dc3f0d23267d/cp4-coupled.json",
+      "status": "completed_successfully",
+      "classification": "reproduction; independence identified in written reviews"
+    },
+    {
+      "label": "local",
+      "command": "python research/moonshot-005-program/results/bit-coupled-singular-delivery/worker-c/review-a/coupled_history_check.py --source research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json --words research/moonshot-005-program/results/bit-coupled-singular-delivery/worker-a/local-mask-output --localized --output /workspace/scratch/dc3f0d23267d/cp4-local.json",
+      "status": "completed_successfully",
+      "classification": "reproduction; independence identified in written reviews"
+    },
+    {
+      "label": "two",
+      "command": "python research/moonshot-005-program/results/bit-coupled-singular-delivery/worker-c/review-a/coupled_history_check.py --source research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json --words research/moonshot-005-program/results/bit-coupled-singular-delivery/worker-a/two-receiver-output --localized --second-receiver --output /workspace/scratch/dc3f0d23267d/cp4-two.json",
+      "status": "completed_successfully",
+      "classification": "reproduction; independence identified in written reviews"
+    },
+    {
+      "label": "nine",
+      "command": "python research/moonshot-005-program/results/bit-coupled-singular-delivery/worker-c/review-a/donor_outputs.py --source research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json --prefix research/moonshot-005-program/results/bit-coupled-singular-delivery/worker-a/two-receiver-output/COUPLED-WORD.json --output-directory /workspace/scratch/dc3f0d23267d/cp4-nine-reproduction",
+      "status": "completed_successfully",
+      "classification": "reproduction; independence identified in written reviews"
+    },
+    {
+      "label": "nine-review",
+      "command": "python research/moonshot-005-program/results/bit-coupled-singular-delivery/worker-a/review_nine_output.py",
+      "status": "completed_successfully",
+      "classification": "reproduction; independence identified in written reviews"
+    },
+    {
+      "label": "shared-author",
+      "command": "python research/moonshot-005-program/results/bit-coupled-singular-delivery/worker-a/shared_export_gate.py",
+      "status": "completed_successfully",
+      "classification": "reproduction; independence identified in written reviews"
+    },
+    {
+      "label": "shared-independent",
+      "command": "python research/moonshot-005-program/results/bit-coupled-singular-delivery/worker-c/review-a/shared_export_check.py",
+      "status": "completed_successfully",
+      "classification": "reproduction; independence identified in written reviews"
+    },
+    {
+      "label": "mixed",
+      "command": "python research/moonshot-005-program/results/complex-inverse-native-query-gate/worker-b/check_mixed_query_gate.py",
+      "status": "completed_successfully",
+      "classification": "reproduction; independence identified in written reviews"
+    },
+    {
+      "label": "three",
+      "command": "python research/moonshot-005-program/results/complex-inverse-native-query-gate/worker-b/check_threequery_placement.py",
+      "status": "completed_successfully",
+      "classification": "reproduction; independence identified in written reviews"
+    },
+    {
+      "label": "marked-independent",
+      "command": "python research/moonshot-005-program/results/complex-inverse-native-query-gate/worker-b/check_marked_control.py",
+      "status": "completed_successfully",
+      "classification": "reproduction; independence identified in written reviews"
+    },
+    {
+      "label": "root",
+      "command": "python research/moonshot-005-program/results/bit-coupled-singular-delivery/root-review/check_continuation.py --source research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json --word research/moonshot-005-program/results/bit-coupled-singular-delivery/worker-a/two-receiver-output/COUPLED-WORD.json --gate research/moonshot-005-program/results/bit-coupled-singular-delivery/worker-a/TWO-RECEIVER-STATIC-GATE.json --output research/moonshot-005-program/results/bit-coupled-singular-delivery/root-review/CONTINUATION-RESULT.json",
+      "status": "completed_successfully",
+      "classification": "reproduction; independence identified in written reviews"
+    }
+  ]
+}

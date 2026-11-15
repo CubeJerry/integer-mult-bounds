@@ -1,0 +1,20 @@
+{
+  "status": "PASS_INDEPENDENT_MARKED_CONTROL",
+  "implementation": "integer Gaussian-dyadic matrices; does not import root SymPy checker",
+  "rows": [
+    {
+      "width": 1,
+      "marked_corner_zero": true,
+      "ordinary_boundaries_unitary": true,
+      "collective_flip_corner_zero": true
+    },
+    {
+      "width": 2,
+      "marked_corner_zero": true,
+      "ordinary_boundaries_unitary": true,
+      "collective_flip_corner_zero": false
+    }
+  ],
+  "phase_control": "collective flip fails at even width; marked first-column flip succeeds",
+  "new_kappa": false
+}

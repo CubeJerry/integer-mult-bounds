@@ -111,3 +111,16 @@ Every remaining strict-supplier, physical-cost and foundational obligation stays
 - **BIT-COUPLED-DELIVERY: under review.** The next word explicitly adds five
   moving masks and public-Y feedback. Neither its full bill nor its distinction
   from the uncoupled control may be omitted.
+
+## S014 checkpoint4 dependency update
+
+| Obligation | Status and quantifiers | Next dependency |
+|---|---|---|
+| BIT-COUPLED-SOURCE | PROVED for every characteristic-two field/width: literal two-output source, original restoration, full W15 history and paid masks. | [Source package](results/bit-coupled-singular-delivery/ADMISSION.md); compiler/erasure retained. |
+| BIT-SHARED-EXPORT-CUT | PROVED: actual downset starts at5V, identity outputs need8V, so three new whole-V owned ingresses; arbitrary mixed payloads/Y feedback allowed. | Joint payload/destination construction. |
+| BIT-NINE-OUTPUT-CONTINUATION | DISPROVED in immutable-prefix model at every even caller m>=2. | Redesign prefix; preserve exact word as control. |
+| BIT-RELATIVE-FITTING | PARTIAL:3<=r_min(G)<=8 globally; fixedW8/C9; reseeding-only excluded by prior shortening. | Physical access is not granted. |
+| COMPLEX-AT-MOST-TWO-QUERIES | PROVED strict deficit for all stated one-native/two-role/three-head common-body inventories. | [Gates](results/complex-inverse-native-query-gate/ADMISSION.md), faithful rank bimodules, actual phase sector. |
+| COMPLEX-THREE-QUERY-CALLER | OPEN: all three rank-one queries on one side; intermediate E2 row must lack an ordinary independent-input factorization. | Exact identity and full physical/recursive invoice. |
+
+The previously open mixed(2,1) proposal is superseded by its obstruction. Final reservoir/row-seed artifacts are under review, not silently admitted here.

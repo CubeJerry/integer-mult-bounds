@@ -133,3 +133,9 @@ explicit collective-translation contract and constructs an exact three-head
 spectator interface. Its nonlinear potential and one-query gates are proved;
 a complete caller remains open. **No new kappa**, all five foundations retained.
 The cumulative programme is not yet PR-ready.
+
+## S014 actual shared sources and inverse-native gates
+
+The full singular fitting history is now acquired chronologically and composed with public-Y feedback and two literal receiver completions. A separately exact nine-output word comes with a3V causal-cut proof that its frozen remaining budget cannot complete. The central construction is therefore jointly coded exports from the earlier two-output source, with actual access and full costs.
+
+The inverse-native rank, mixed-query band and complementary-corner arguments exclude all at-most-two-query three-head common-body callers and constrain the three-query alternative to one side and a nonordinary input representation. Fixed marked columns, ordinary zero divisors, source phases and all five foundations remain explicit. Exact words, full partial invoices, separate proof reviews, source pins and semantic negatives are included. **No new κ.** This cumulative branch is not PR-ready.

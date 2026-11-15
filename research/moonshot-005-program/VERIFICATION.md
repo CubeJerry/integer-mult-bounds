@@ -448,3 +448,11 @@ exact ranks. The fresh-body proof receives independent sign-point, tag, kernel
 and concavity review; a per-column translation counterexample fixes its scope.
 See CHECKPOINT3-VALIDATION.json and each package manifest. No finite test is
 used as an asymptotic supplier certificate.
+
+## S014 checkpoint4 verification
+
+All18 coupled author JSONs, three independent coupled/control receipts, three reconstructed nine-output files, independent suffix receipt and four complex receipts reproduce byte-for-byte. Separate C and Root arguments check all222 inputs,101 static duals, the frame rank/duals and the3V causal cut; C directly checks236 handoff records and every finite even caller. Root freshly reproduces the credited30-configuration/270-frame shortening certificate from the native gzip.
+
+The mixed/three-query proofs have B/C/Root reviews. Finite diagnostics cover65,536 exact products in a stated256-element symplectic catalogue,48 complementary-corner controls, actual width1/2 source inverses, and two different exact projector implementations. The catalogue is not a full group enumeration; universal claims use written proofs. No foundation is discharged.
+
+New scientific files97; registry290; ledger4698, retaining all4601 predecessors. See CHECKPOINT4-VALIDATION.json and CHECKPOINT4-REPRODUCTION.json. No full multiplier/native-global suite is claimed.

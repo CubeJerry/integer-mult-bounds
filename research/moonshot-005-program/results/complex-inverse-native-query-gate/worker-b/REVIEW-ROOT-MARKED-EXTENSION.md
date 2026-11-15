@@ -1,0 +1,11 @@
+# Independent audit of Root's fixed-marked-column extension
+
+Worker B independently reviewed `root-two-query/ROOT-REVIEW-AND-MARKED-EXTENSION.md` and reimplemented the projector control using the integer Gaussian-dyadic arithmetic in `check.py`, without importing Root's SymPy checker. **Review passed within the stated fixed-factor scope. No new kappa.**
+
+The algebra E'_r=Mat_D0(C) tensor E_r^(v) is direct because each matrix-unit coefficient has the faithful bulk direct decomposition. Its ordinary algebra is finite and unital, and E'_r is an ordinary bimodule. Both the upper rank filtration and the lower band used by the mixed-query theorem inherit entry by entry from the bulk: F'_b E'_h and E'_h F'_b have no component below h-b. Cayley-Hamilton gives inverse closure. Consequently all the author query gates, including the mixed-query and three-query-placement extensions, remain valid whenever the explicit bulk source/query/endpoint ranks hold.
+
+The finite factor is not silently discarded. A scalar tensor phase is zeta^k zeta^v, and each bulk residue retains its own faithful representation. A marked first-column flip is contained in the enlarged ordinary algebra; collective parity projectors are finite sums of marked-factor and bulk-ordinary tensors. Enlarging to all Mat_D0(C) only strengthens an obstruction and does not assert free physical implementation of those matrices.
+
+The independent exact controls at widths1 and2 verify the Pauli transport identities, unitary ordinary boundaries and zero native corner. They also verify a useful negative control not supplied by merely replaying the author code: using a collective flip instead of a marked first-column flip works at odd width1 and fails at even width2. The marked construction works at both widths. Its k2 remains a singular parity projector, so the zero compression cannot be promoted to an invertible pure-rank-three output.
+
+`check_marked_control.py` and `MARKED-CONTROL-REVIEW.json` contain these controls. The all-width claim follows from the written Pauli conjugation and fixed-factor proof, not extrapolation from two widths. A number of exceptional columns growing with V, arbitrary per-column bulk actions, changed body incidence and ranks not defined on a faithful bulk remain outside this review.

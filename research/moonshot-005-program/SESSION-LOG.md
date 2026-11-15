@@ -1544,3 +1544,9 @@ separate quotient/phase/tag checks. Three workers continue constructive and
 adversarial work; a stronger two-query complex gate is pending review. No new
 complete bound or foundation discharge. Resulting remote SHA is recorded
 separately. Session continues to04:07:18UTC.
+
+### S014 checkpoint4 — shared-export cut and inverse-native query gates
+
+Session start9fb0a34adad2f5903d3169fee7f7a7fcb6f03e3a; checkpoint baseline43bca63ce457585c852d4b236819842270e8ab22, confirmed checkpoint3. Two-output full-W source and locally placed masks are proved. The nine-output suffix is exactly replayed but its immutable budget is excluded by a3V actual cut. Global additional-fitting gap3–8; reseeding-only excluded by credited shortening. Complex at-most-two-query inventories are closed; three rank-one queries require one-side placement and a nonordinary intermediate input row.
+
+Two packages bring S014 to12 and registry290. 97 new scientific files are pinned with exact replays and independent reviews. Final cochart reservoir and complex row seed are under review for the next checkpoint. Upstream main unchanged; open7609/7610 examined without admission. No new κ. Resulting remote checkpoint identity is recorded after publication, not self-embedded.

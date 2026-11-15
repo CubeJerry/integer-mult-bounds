@@ -174,3 +174,11 @@ Fresh one-shot body tags also cannot repair the two-head complex architecture
 by omitting idles, under the proved collective-translation scope. An exact
 three-head spectator gauge now has rank pattern0,1,2,3,2,1 and a nonlinear
 odd-reflection potential. Its complete profitable caller remains open.
+
+## S014 checkpoint4: shared delivery, with actual source and obstructions
+
+The preferred construction is the full-W two-output source: eight principal packets plus seven paid moving masks, all111 X restored, actual Y17/Y34 completed, and full222-column history containing W15. Its partial moment is1612.507037617110..., leaving9.243842594... of necessary movement allowance. A nine-output suffix is exact but cannot complete unchanged: an actual eight-facet cut requires3V further information and three paid ingresses, exceeding its2.243842594... room. Output count is therefore not the selected frontier.
+
+The global additional-fitting gap is3 to8 dimensions; fixed W needs8, canonical C9. This does not grant physical receiver access. A final actual three-cache reservoir is under review and already has a documented destination limitation. The central next construction jointly chooses payloads, destination charts and receiver routes.
+
+The complex inverse-native and mixed-query gates exclude every at-most-two-query three-head common-body inventory. Three rank-one queries survive only on one side of the F1 source and through a nonordinary intermediate input row. Complete suppliers and all five foundations remain open.
