@@ -1,0 +1,60 @@
+{
+  "status": "PASS_EXACT_THREE_HEAD_SPECTATOR_SOURCE",
+  "ordinary_cycle": [
+    0,
+    4,
+    1,
+    5,
+    2,
+    6,
+    3,
+    7
+  ],
+  "head_rank_pattern_mod6": [
+    0,
+    1,
+    2,
+    3,
+    2,
+    1
+  ],
+  "source_move_ranks": [
+    1,
+    7,
+    8
+  ],
+  "sixth_power": "X_a X_b X_c, ordinary translation, not identity",
+  "twelfth_power_identity": true,
+  "width_checks": [
+    {
+      "width": 1,
+      "independent_inputs": 4,
+      "all_columns": true,
+      "head_power_ranks": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "width": 2,
+      "independent_inputs": 4,
+      "all_columns": true,
+      "head_power_ranks": [
+        0,
+        2,
+        4,
+        6,
+        4,
+        2
+      ]
+    }
+  ],
+  "additional_forward_half_ordinary_permutations": 3,
+  "array_volume_multiplier": "2^V for both source and targets, retained in physical compilation",
+  "scope": "Exact direct-sum source and all-column head gauge only; no completed caller or supplier.",
+  "new_kappa": false
+}

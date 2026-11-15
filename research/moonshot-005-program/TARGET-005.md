@@ -167,3 +167,21 @@ The fixed BIT seven-mode family also fails original-only preprocessing, even
 with recoding; a changed basis or actual interleaved transport is necessary.
 The emerging three-output word remains partial and under review here. Every
 remaining receiver, source, ownership and complete supplier cost is retained.
+
+## S014 full-history budget and three-head interface
+
+The actual eight-packet4+3 source has profile98[1]+42[2]+21[3]+27[4]+52[5]
++32[6]+115[7]+[8], ranklength1618 and moment1604.94492093825074967... at
+t=199/200. Remaining limiting movement room16.80595927290160557... is
+necessary extension information only. Its zero outputs and invertible-through
+normalization prevent treating that margin as a complete source certificate.
+The earlier three-output word has moment1604.47894341866510... but different
+paths/caches. Do not combine their benefits without a literal compatible word.
+
+For fresh one-shot two-head body tags the paid invoice deficit is at least
+m(1+7^t-8^t)>0, even with optional idles omitted. The new three-head source
+retains half tariff[1]+[7]+[8], adds three actual ordinary permutations and
+retains the common2^V array-volume multiplier. Its head ranks cycle0,1,2,3,2,1.
+One native+one rank-one query cannot realize(3,1); one rank-two query cannot
+realize(3,2), by the high-rank-job count. Multiple-query identities remain
+construction obligations; the nonlinear potential is necessary only.

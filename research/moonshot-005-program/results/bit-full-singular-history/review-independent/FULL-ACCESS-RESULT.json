@@ -1,0 +1,1859 @@
+{
+  "every_accessible_history_equal_to_terminal_mod_local": true,
+  "existing_theorem_applied": "results/bit-source-packet-scattering/author/PROOF.md Theorem1; current D_C=I",
+  "feasible_receivers": [
+    17,
+    59
+  ],
+  "global_small_cache_subset_tests": {
+    "1": {
+      "best_fitted_count": 5,
+      "complete_subsets": 0,
+      "each_failed_subset_has_checked_dual_counterinput": true,
+      "fitted_count_histogram": {
+        "2": 10,
+        "3": 9,
+        "4": 1,
+        "5": 2
+      },
+      "leaders": [
+        {
+          "caches": [
+            "DC2_3"
+          ],
+          "feasible_receivers": [
+            17,
+            35,
+            38,
+            54,
+            59
+          ]
+        },
+        {
+          "caches": [
+            "DC3_3"
+          ],
+          "feasible_receivers": [
+            5,
+            15,
+            17,
+            26,
+            59
+          ]
+        }
+      ],
+      "subsets_checked": 22
+    },
+    "2": {
+      "best_fitted_count": 9,
+      "complete_subsets": 0,
+      "each_failed_subset_has_checked_dual_counterinput": true,
+      "fitted_count_histogram": {
+        "2": 43,
+        "3": 91,
+        "4": 46,
+        "5": 29,
+        "6": 17,
+        "7": 2,
+        "8": 2,
+        "9": 1
+      },
+      "leaders": [
+        {
+          "caches": [
+            "DC2_3",
+            "DC3_2"
+          ],
+          "feasible_receivers": [
+            17,
+            34,
+            35,
+            38,
+            40,
+            47,
+            54,
+            58,
+            59
+          ]
+        }
+      ],
+      "subsets_checked": 231
+    },
+    "3": {
+      "best_fitted_count": 12,
+      "complete_subsets": 0,
+      "each_failed_subset_has_checked_dual_counterinput": true,
+      "fitted_count_histogram": {
+        "2": 103,
+        "3": 396,
+        "4": 405,
+        "5": 263,
+        "6": 203,
+        "7": 92,
+        "8": 35,
+        "9": 27,
+        "10": 11,
+        "11": 3,
+        "12": 2
+      },
+      "leaders": [
+        {
+          "caches": [
+            "DC2_2",
+            "DC2_3",
+            "DC3_2"
+          ],
+          "feasible_receivers": [
+            17,
+            34,
+            35,
+            38,
+            39,
+            40,
+            47,
+            53,
+            54,
+            58,
+            59,
+            77
+          ]
+        },
+        {
+          "caches": [
+            "DC2_3",
+            "DC3_2",
+            "DC3_3"
+          ],
+          "feasible_receivers": [
+            5,
+            15,
+            17,
+            26,
+            34,
+            35,
+            38,
+            40,
+            47,
+            54,
+            58,
+            59
+          ]
+        }
+      ],
+      "subsets_checked": 1540
+    }
+  },
+  "infeasible_receiver_count": 109,
+  "new_complete_kappa": false,
+  "nonzero_nonpoint_caches": [
+    {
+      "chart": "D1",
+      "chart_dimension": 7,
+      "coefficient_hex": "0x1010090440814c00441002",
+      "name": "DC0_1",
+      "owned": true
+    },
+    {
+      "chart": "D3",
+      "chart_dimension": 6,
+      "coefficient_hex": "0x400200000000002000084008020",
+      "name": "DC0_2",
+      "owned": true
+    },
+    {
+      "chart": "D7",
+      "chart_dimension": 5,
+      "coefficient_hex": "0x100100000000004000040000000",
+      "name": "DC0_3",
+      "owned": true
+    },
+    {
+      "chart": "D15",
+      "chart_dimension": 4,
+      "coefficient_hex": "0x21000000000000000000",
+      "name": "DC0_4",
+      "owned": true
+    },
+    {
+      "chart": "D2",
+      "chart_dimension": 7,
+      "coefficient_hex": "0x4400220000000202020084008020",
+      "name": "DC1_1",
+      "owned": true
+    },
+    {
+      "chart": "D6",
+      "chart_dimension": 6,
+      "coefficient_hex": "0x100102002102004000040a00808",
+      "name": "DC1_2",
+      "owned": true
+    },
+    {
+      "chart": "D14",
+      "chart_dimension": 5,
+      "coefficient_hex": "0x1000010021000020008000000000",
+      "name": "DC1_3",
+      "owned": true
+    },
+    {
+      "chart": "D4",
+      "chart_dimension": 7,
+      "coefficient_hex": "0x100103002182004002040e01808",
+      "name": "DC2_1",
+      "owned": true
+    },
+    {
+      "chart": "D12",
+      "chart_dimension": 6,
+      "coefficient_hex": "0x1000010221800020008000010080",
+      "name": "DC2_2",
+      "owned": true
+    },
+    {
+      "chart": "D13",
+      "chart_dimension": 5,
+      "coefficient_hex": "0x40004800000000",
+      "name": "DC2_3",
+      "owned": true
+    },
+    {
+      "chart": "D8",
+      "chart_dimension": 7,
+      "coefficient_hex": "0x50000303218202a0028008010480",
+      "name": "DC3_1",
+      "owned": true
+    },
+    {
+      "chart": "D9",
+      "chart_dimension": 6,
+      "coefficient_hex": "0x440814c00000000",
+      "name": "DC3_2",
+      "owned": true
+    },
+    {
+      "chart": "D11",
+      "chart_dimension": 5,
+      "coefficient_hex": "0x4008020",
+      "name": "DC3_3",
+      "owned": true
+    },
+    {
+      "chart": "D15",
+      "chart_dimension": 4,
+      "coefficient_hex": "0x2000000000",
+      "name": "DM37",
+      "owned": true
+    },
+    {
+      "chart": "D15",
+      "chart_dimension": 4,
+      "coefficient_hex": "0x80000000000000",
+      "name": "DM55",
+      "owned": true
+    },
+    {
+      "chart": "S1",
+      "chart_dimension": 7,
+      "coefficient_hex": "0x884420c0000000210a2114",
+      "name": "SC0_1",
+      "owned": true
+    },
+    {
+      "chart": "S3",
+      "chart_dimension": 6,
+      "coefficient_hex": "0x12104241",
+      "name": "SC0_2",
+      "owned": true
+    },
+    {
+      "chart": "S7",
+      "chart_dimension": 5,
+      "coefficient_hex": "0x4488441800000000000000",
+      "name": "SC0_3",
+      "owned": true
+    },
+    {
+      "chart": "S2",
+      "chart_dimension": 7,
+      "coefficient_hex": "0x111680312104241",
+      "name": "SC1_1",
+      "owned": true
+    },
+    {
+      "chart": "S6",
+      "chart_dimension": 6,
+      "coefficient_hex": "0x2aaa004488441800000000000000",
+      "name": "SC1_2",
+      "owned": true
+    },
+    {
+      "chart": "S4",
+      "chart_dimension": 7,
+      "coefficient_hex": "0x2affcc4488441800000000000000",
+      "name": "SC2_1",
+      "owned": true
+    },
+    {
+      "chart": "S5",
+      "chart_dimension": 6,
+      "coefficient_hex": "0x884420c000000000000000",
+      "name": "SC2_2",
+      "owned": true
+    }
+  ],
+  "positive_control_all22_cache_values_and_T_fitted_receivers": 111,
+  "positive_control_all22_cache_values_and_T_rank": 29,
+  "receivers": [
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x5400000000000000000000000001",
+      "dual_input_support": [
+        0,
+        106,
+        108,
+        110
+      ],
+      "receiver": 0,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x20000020000008000000000002",
+      "dual_input_support": [
+        1,
+        51,
+        77,
+        101
+      ],
+      "receiver": 1,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0xf80000000000000000000004",
+      "dual_input_support": [
+        2,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "receiver": 2,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x1000000000000000000000000008",
+      "dual_input_support": [
+        3,
+        108
+      ],
+      "receiver": 3,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0xb00000000000000000000010",
+      "dual_input_support": [
+        4,
+        92,
+        93,
+        95
+      ],
+      "receiver": 4,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 18,
+      "available_history_rank": 12,
+      "downset_feasible": false,
+      "dual_input_hex": "0x400000000000000000000000020",
+      "dual_input_support": [
+        5,
+        106
+      ],
+      "receiver": 5,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x5e00000000000000000000000040",
+      "dual_input_support": [
+        6,
+        105,
+        106,
+        107,
+        108,
+        110
+      ],
+      "receiver": 6,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x48009000000000000000000080",
+      "dual_input_support": [
+        7,
+        84,
+        87,
+        99,
+        102
+      ],
+      "receiver": 7,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x54300000000000000000000100",
+      "dual_input_support": [
+        8,
+        92,
+        93,
+        98,
+        100,
+        102
+      ],
+      "receiver": 8,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2300000000000000000000200",
+      "dual_input_support": [
+        9,
+        92,
+        93,
+        97
+      ],
+      "receiver": 9,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x8800000200000000000000400",
+      "dual_input_support": [
+        10,
+        69,
+        95,
+        99
+      ],
+      "receiver": 10,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 18,
+      "available_history_rank": 12,
+      "downset_feasible": false,
+      "dual_input_hex": "0x44800020000000000008000800",
+      "dual_input_support": [
+        11,
+        27,
+        77,
+        95,
+        98,
+        102
+      ],
+      "receiver": 11,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x804200000400000000001000",
+      "dual_input_support": [
+        12,
+        58,
+        81,
+        86,
+        95
+      ],
+      "receiver": 12,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x40300000000000000000002000",
+      "dual_input_support": [
+        13,
+        92,
+        93,
+        102
+      ],
+      "receiver": 13,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2a00300000000000000000004000",
+      "dual_input_support": [
+        14,
+        92,
+        93,
+        105,
+        107,
+        109
+      ],
+      "receiver": 14,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x400000000000000000000008000",
+      "dual_input_support": [
+        15,
+        106
+      ],
+      "receiver": 15,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2000001040000000000000010000",
+      "dual_input_support": [
+        16,
+        78,
+        84,
+        109
+      ],
+      "receiver": 16,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": true,
+      "fitting_row_hex": "0x2aff0000cc6400097c00001a6300",
+      "receiver": 17,
+      "terminal_coefficient_mask": 16,
+      "terminal_feasible": true
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x800020000100000000040000",
+      "dual_input_support": [
+        18,
+        56,
+        77,
+        95
+      ],
+      "receiver": 18,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x5400000080000000000000080000",
+      "dual_input_support": [
+        19,
+        79,
+        106,
+        108,
+        110
+      ],
+      "receiver": 19,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2000300000000000000000100000",
+      "dual_input_support": [
+        20,
+        92,
+        93,
+        109
+      ],
+      "receiver": 20,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 18,
+      "available_history_rank": 12,
+      "downset_feasible": false,
+      "dual_input_hex": "0x1000000000000000000000200000",
+      "dual_input_support": [
+        21,
+        108
+      ],
+      "receiver": 21,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x240008200000400000000400000",
+      "dual_input_support": [
+        22,
+        58,
+        81,
+        87,
+        102,
+        105
+      ],
+      "receiver": 22,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2200004020000000000000800000",
+      "dual_input_support": [
+        23,
+        77,
+        86,
+        105,
+        109
+      ],
+      "receiver": 23,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x5000000000000000000001000000",
+      "dual_input_support": [
+        24,
+        108,
+        110
+      ],
+      "receiver": 24,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x5422008000000000000002000000",
+      "dual_input_support": [
+        25,
+        87,
+        97,
+        101,
+        106,
+        108,
+        110
+      ],
+      "receiver": 25,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2820000040000400000004000000",
+      "dual_input_support": [
+        26,
+        58,
+        78,
+        101,
+        107,
+        109
+      ],
+      "receiver": 26,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2040000010000000000008000000",
+      "dual_input_support": [
+        27,
+        76,
+        102,
+        109
+      ],
+      "receiver": 27,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x5428000020800000000010000000",
+      "dual_input_support": [
+        28,
+        71,
+        77,
+        99,
+        101,
+        106,
+        108,
+        110
+      ],
+      "receiver": 28,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x5014000000000000000020000000",
+      "dual_input_support": [
+        29,
+        98,
+        100,
+        108,
+        110
+      ],
+      "receiver": 29,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x20000000000040000000",
+      "dual_input_support": [
+        30,
+        77
+      ],
+      "receiver": 30,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x4608000000000400000080000000",
+      "dual_input_support": [
+        31,
+        58,
+        99,
+        105,
+        106,
+        110
+      ],
+      "receiver": 31,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x980400000000000000100000000",
+      "dual_input_support": [
+        32,
+        94,
+        103,
+        104,
+        107
+      ],
+      "receiver": 32,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x208100000000000000200000000",
+      "dual_input_support": [
+        33,
+        92,
+        99,
+        105
+      ],
+      "receiver": 33,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x880800000000000000400000000",
+      "dual_input_support": [
+        34,
+        95,
+        103,
+        107
+      ],
+      "receiver": 34,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2230000000000100000800000000",
+      "dual_input_support": [
+        35,
+        56,
+        100,
+        101,
+        105,
+        109
+      ],
+      "receiver": 35,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x980200000000000001000000000",
+      "dual_input_support": [
+        36,
+        93,
+        103,
+        104,
+        107
+      ],
+      "receiver": 36,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x210100000000000002000000000",
+      "dual_input_support": [
+        37,
+        92,
+        100,
+        105
+      ],
+      "receiver": 37,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x1000000000004000000000",
+      "dual_input_support": [
+        38,
+        84
+      ],
+      "receiver": 38,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x9e0400000000000008000000000",
+      "dual_input_support": [
+        39,
+        94,
+        101,
+        102,
+        103,
+        104,
+        107
+      ],
+      "receiver": 39,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x801000000080010000000000",
+      "dual_input_support": [
+        40,
+        55,
+        84,
+        95
+      ],
+      "receiver": 40,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x20000000000",
+      "dual_input_support": [
+        41
+      ],
+      "receiver": 41,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x988000000000000040000000000",
+      "dual_input_support": [
+        42,
+        99,
+        103,
+        104,
+        107
+      ],
+      "receiver": 42,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x140000000000000080000000000",
+      "dual_input_support": [
+        43,
+        102,
+        104
+      ],
+      "receiver": 43,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x20100000000000100000000000",
+      "dual_input_support": [
+        44,
+        92,
+        101
+      ],
+      "receiver": 44,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x10100000000000200000000000",
+      "dual_input_support": [
+        45,
+        92,
+        100
+      ],
+      "receiver": 45,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0xc00500000000000400000000000",
+      "dual_input_support": [
+        46,
+        92,
+        94,
+        106,
+        107
+      ],
+      "receiver": 46,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2200008000000000800000000000",
+      "dual_input_support": [
+        47,
+        87,
+        105,
+        109
+      ],
+      "receiver": 47,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x340000080000001000000000000",
+      "dual_input_support": [
+        48,
+        79,
+        102,
+        104,
+        105
+      ],
+      "receiver": 48,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x4c20000000000402000000000000",
+      "dual_input_support": [
+        49,
+        58,
+        101,
+        106,
+        107,
+        110
+      ],
+      "receiver": 49,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x20000004000000000000",
+      "dual_input_support": [
+        50,
+        77
+      ],
+      "receiver": 50,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x800100000000008000000000000",
+      "dual_input_support": [
+        51,
+        92,
+        107
+      ],
+      "receiver": 51,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x4c0100000000010000000000000",
+      "dual_input_support": [
+        52,
+        92,
+        102,
+        103,
+        106
+      ],
+      "receiver": 52,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2300004000000020000000000000",
+      "dual_input_support": [
+        53,
+        86,
+        104,
+        105,
+        109
+      ],
+      "receiver": 53,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x1000000040000000000000",
+      "dual_input_support": [
+        54,
+        84
+      ],
+      "receiver": 54,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2140008000000080000000000000",
+      "dual_input_support": [
+        55,
+        87,
+        102,
+        104,
+        109
+      ],
+      "receiver": 55,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2300000000000100000000000000",
+      "dual_input_support": [
+        56,
+        104,
+        105,
+        109
+      ],
+      "receiver": 56,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x200000000000000",
+      "dual_input_support": [
+        57
+      ],
+      "receiver": 57,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 21,
+      "available_history_rank": 14,
+      "downset_feasible": false,
+      "dual_input_hex": "0xc80001000000500000000000000",
+      "dual_input_support": [
+        56,
+        58,
+        84,
+        103,
+        106,
+        107
+      ],
+      "receiver": 58,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": true,
+      "fitting_row_hex": "0x2870c0c0c06089983c3030182050",
+      "receiver": 59,
+      "terminal_coefficient_mask": 128,
+      "terminal_feasible": true
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x60000000001000000000000000",
+      "dual_input_support": [
+        60,
+        101,
+        102
+      ],
+      "receiver": 60,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x6860000200002000000000000000",
+      "dual_input_support": [
+        61,
+        81,
+        101,
+        102,
+        107,
+        109,
+        110
+      ],
+      "receiver": 61,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x4000000000000000",
+      "dual_input_support": [
+        62
+      ],
+      "receiver": 62,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2004200000008000000000000000",
+      "dual_input_support": [
+        63,
+        93,
+        98,
+        109
+      ],
+      "receiver": 63,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x6e0000000010000000000000000",
+      "dual_input_support": [
+        64,
+        101,
+        102,
+        103,
+        105,
+        106
+      ],
+      "receiver": 64,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x400c000000020000000000000000",
+      "dual_input_support": [
+        65,
+        98,
+        99,
+        110
+      ],
+      "receiver": 65,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x200000000040000000000000000",
+      "dual_input_support": [
+        66,
+        105
+      ],
+      "receiver": 66,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x500000000080400000000000000",
+      "dual_input_support": [
+        58,
+        67,
+        104,
+        106
+      ],
+      "receiver": 67,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x500000000100000000000000000",
+      "dual_input_support": [
+        68,
+        104,
+        106
+      ],
+      "receiver": 68,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x40080000200000000000000000",
+      "dual_input_support": [
+        69,
+        91,
+        102
+      ],
+      "receiver": 69,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2000000000400000000000000000",
+      "dual_input_support": [
+        70,
+        109
+      ],
+      "receiver": 70,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x6040001000800000000000000000",
+      "dual_input_support": [
+        71,
+        84,
+        102,
+        109,
+        110
+      ],
+      "receiver": 71,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x3824800001000000000000000000",
+      "dual_input_support": [
+        72,
+        95,
+        98,
+        101,
+        107,
+        108,
+        109
+      ],
+      "receiver": 72,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x400c000202000000000000000000",
+      "dual_input_support": [
+        73,
+        81,
+        98,
+        99,
+        110
+      ],
+      "receiver": 73,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x4000004000000000000000000",
+      "dual_input_support": [
+        74,
+        98
+      ],
+      "receiver": 74,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x288000008000000000000000000",
+      "dual_input_support": [
+        75,
+        99,
+        103,
+        105
+      ],
+      "receiver": 75,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x40c000010000000000000000000",
+      "dual_input_support": [
+        76,
+        98,
+        99,
+        106
+      ],
+      "receiver": 76,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x20000004000000000000",
+      "dual_input_support": [
+        50,
+        77
+      ],
+      "receiver": 77,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x40000040000000000000000000",
+      "dual_input_support": [
+        78,
+        102
+      ],
+      "receiver": 78,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x20000080000000000000000000",
+      "dual_input_support": [
+        79,
+        101
+      ],
+      "receiver": 79,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x42e0000100000000000000000000",
+      "dual_input_support": [
+        80,
+        101,
+        102,
+        103,
+        105,
+        110
+      ],
+      "receiver": 80,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x4204001200000000000000000000",
+      "dual_input_support": [
+        81,
+        84,
+        98,
+        105,
+        110
+      ],
+      "receiver": 81,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x400000400000000000000000000",
+      "dual_input_support": [
+        82,
+        106
+      ],
+      "receiver": 82,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x80800000000000000000000",
+      "dual_input_support": [
+        83,
+        91
+      ],
+      "receiver": 83,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x500001000000400000000000000",
+      "dual_input_support": [
+        58,
+        84,
+        104,
+        106
+      ],
+      "receiver": 84,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x500002000000000000000000000",
+      "dual_input_support": [
+        85,
+        104,
+        106
+      ],
+      "receiver": 85,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x240004000000000000000000000",
+      "dual_input_support": [
+        86,
+        102,
+        105
+      ],
+      "receiver": 86,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0xa0008000000000000000000000",
+      "dual_input_support": [
+        87,
+        101,
+        103
+      ],
+      "receiver": 87,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x6140010000000000000000000000",
+      "dual_input_support": [
+        88,
+        102,
+        104,
+        109,
+        110
+      ],
+      "receiver": 88,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0xc20020100000000000000000000",
+      "dual_input_support": [
+        80,
+        89,
+        101,
+        106,
+        107
+      ],
+      "receiver": 89,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2102040000000100000000000000",
+      "dual_input_support": [
+        56,
+        90,
+        97,
+        104,
+        109
+      ],
+      "receiver": 90,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x820080000000000000000000000",
+      "dual_input_support": [
+        91,
+        101,
+        107
+      ],
+      "receiver": 91,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x400102000000000000000000000",
+      "dual_input_support": [
+        85,
+        92,
+        106
+      ],
+      "receiver": 92,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2040200000000000000000000000",
+      "dual_input_support": [
+        93,
+        102,
+        109
+      ],
+      "receiver": 93,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x220400000000000000000000000",
+      "dual_input_support": [
+        94,
+        101,
+        105
+      ],
+      "receiver": 94,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x808000000000000000000000",
+      "dual_input_support": [
+        87,
+        95
+      ],
+      "receiver": 95,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x93800000000000000000000000",
+      "dual_input_support": [
+        95,
+        96,
+        97,
+        100,
+        103
+      ],
+      "receiver": 96,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2062004000000000000000000000",
+      "dual_input_support": [
+        86,
+        97,
+        101,
+        102,
+        109
+      ],
+      "receiver": 97,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x604000000000000000000000000",
+      "dual_input_support": [
+        98,
+        105,
+        106
+      ],
+      "receiver": 98,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x808400000000000000000000000",
+      "dual_input_support": [
+        94,
+        99,
+        107
+      ],
+      "receiver": 99,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0xc10000000000000000000000000",
+      "dual_input_support": [
+        100,
+        106,
+        107
+      ],
+      "receiver": 100,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x220400000000000000000000000",
+      "dual_input_support": [
+        94,
+        101,
+        105
+      ],
+      "receiver": 101,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2052800000000000000000000000",
+      "dual_input_support": [
+        95,
+        97,
+        100,
+        102,
+        109
+      ],
+      "receiver": 102,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0xac0200000000000000000000000",
+      "dual_input_support": [
+        93,
+        102,
+        103,
+        105,
+        107
+      ],
+      "receiver": 103,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x500002000000000000000000000",
+      "dual_input_support": [
+        85,
+        104,
+        106
+      ],
+      "receiver": 104,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2690000000000000000000000000",
+      "dual_input_support": [
+        100,
+        103,
+        105,
+        106,
+        109
+      ],
+      "receiver": 105,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0xc10000000000000000000000000",
+      "dual_input_support": [
+        100,
+        106,
+        107
+      ],
+      "receiver": 106,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0xc10000000000000000000000000",
+      "dual_input_support": [
+        100,
+        106,
+        107
+      ],
+      "receiver": 107,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x5910000000000000000000000000",
+      "dual_input_support": [
+        100,
+        104,
+        107,
+        108,
+        110
+      ],
+      "receiver": 108,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x2040200000000000000000000000",
+      "dual_input_support": [
+        93,
+        102,
+        109
+      ],
+      "receiver": 109,
+      "terminal_feasible": false
+    },
+    {
+      "available_event_count": 8,
+      "available_history_rank": 8,
+      "downset_feasible": false,
+      "dual_input_hex": "0x4482000100000000000000000000",
+      "dual_input_support": [
+        80,
+        97,
+        103,
+        106,
+        110
+      ],
+      "receiver": 110,
+      "terminal_feasible": false
+    }
+  ],
+  "scope": "Frozen flags/values; no new nonlocal cache movements or coupled feedback. Small-cache tests grant selected current rows globally and exclude only subsets of at most three such rows.",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "stationary_caches_source_local_at_literal_charts": true,
+  "status": "PASS_EXACT_FULL_HISTORY_ACCESS_GATE",
+  "word_sha256": "4baa938423f1fce3a439a0622108053edd5ac285d1fc9d0b284589f03a8cee84"
+}

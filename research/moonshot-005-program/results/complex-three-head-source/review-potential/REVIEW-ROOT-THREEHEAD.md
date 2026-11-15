@@ -1,0 +1,11 @@
+# Independent audit of root's three-head partition potential
+
+Worker B independently read the written 28-form argument and checked its finite geometry without importing root's verifier. This review concerns root's additional potential, rather than reclassifying the author's own source-gauge proof as independent.
+
+The computational restriction partition has seven nonzero labels, each represented by four odd quadratic refinements. For a canonical relative Lagrangian distance r, the two partition-constant subspaces intersect in the functions constant on connected components of the bipartite incidence graph. For r>=1 the nonzero shared tails give complete bipartite components, while the zero-tail graph alpha dot beta=1 on nonzero r-bit labels is connected: two distinct alpha admit a common beta solving two independent equations, and r=1 is one edge. This yields 2^(3-r) components. The r=0 exception has seven components, not eight.
+
+For equal-rank orthogonal projections E,F of rank seven, ker(E-F) is the direct sum of im(E) intersection im(F) and ker(E) intersection ker(F); hence rank(E-F)=2(7-dim(intersection)). The resulting ranks are 0,6,10,12, giving f=(0,3,5,6). Conjugation by the partition reflection is a genuine auxiliary representation. Its agreement on the full ordinary stabilizer follows from partition preservation, and the physical-tensor factor correctly retains scalar-centre phases. The native square-cross factorization doubles the rank-one difference without adding another query.
+
+The independent integer/Fraction script `check_threehead_potential.py` constructs all 28 refinements, the four canonical partitions, their incidence components and exact projection-difference ranks. It confirms component counts 7,4,2,1 and ranks 0,6,10,12. The source SHA-256 of the reviewed root proof is recorded in `THREE-HEAD-POTENTIAL-REVIEW.json`.
+
+**Disposition:** the stated necessary potential inequality is proved in the fixed finite three-head Clifford model with full monomial ordinary encodings. It is weaker than linear Gaussian-rank conservation and does not itself construct a supplier or prove a saving. The (3,3) two-query budget saturates it but remains an unsynthesized endpoint. No new kappa.

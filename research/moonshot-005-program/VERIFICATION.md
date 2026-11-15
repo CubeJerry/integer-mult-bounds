@@ -430,3 +430,21 @@ cases. Root reviewed the proof and reran author/independent controls; receipts
 match. The changed seven-mode basis is separately independently verified for
 support, rank and necessary singleton screening only. Geometry recovery is
 not relabelled as a fresh full native-program replay. See both admissions.
+
+## S014 checkpoint3 evidence
+
+C independently reconstructs the triple/eight/three-output and full-W source
+words on all222 columns with exact rational charts, genuine arbitrary donor
+masks, full owner counts and semantic negative controls. Root reruns author
+source generation and verifies identical frozen bytes. Root separately
+reconstructs G/T, all111 fitting equations, quotient forcing dimensions4/2/5,
+the explicit receiver8 dual input and all511 canonical codewords. The source
+normalization limitation credits the existing scattering theorem.
+
+The three-head source has separate Gaussian-dyadic and SymPy checks, actual
+volume accounting and a field-level-minus negative control. Root proves the
+28-form reflection potential; B independently audits its incidence proof and
+exact ranks. The fresh-body proof receives independent sign-point, tag, kernel
+and concavity review; a per-column translation counterexample fixes its scope.
+See CHECKPOINT3-VALIDATION.json and each package manifest. No finite test is
+used as an asymptotic supplier certificate.

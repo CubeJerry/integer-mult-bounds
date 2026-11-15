@@ -1,21 +1,22 @@
-# Continue the actual-source and changed-head programme
+# Continue full singular acquisition into actual coupled delivery
 
-Read exact remote HEAD and STATE first. Checkpoint2 parent is
-d9c50ed2856810003aa5c6cdc080bcc6b825786a; resulting SHA is confirmed separately.
-Target1/200 remains open, selected conditional0.00363005817 and all five
-foundations remain. Session runs02:07:18--04:07:18UTC; no background promise.
+Read exact remote HEAD and STATE. Checkpoint3 parent is
+d9494d28ac9f094ba16f2b0476e66110e03f5427; resulting SHA is confirmed separately.
+Target1/200 remains open, selected conditional0.00363005817; all five
+foundations retained. Current session ends04:07:18UTC, with no background task.
 
-The full two-head Clifford common-body repair is now closed within its precise
-model. Read results/complex-full-clifford-conservation/ADMISSION.md. Do not
-repeat scalar, dihedral or larger two-head quadratic-phase caller searches.
-The order-five source is valid; construct a genuinely changed head/body
-interface. Three-head inventories and graph-local bodies require proof.
+The full4+3 source genuinely acquires W15 on8 principal packets, history29
+and terminal8, but zero outputs. Existing invertible-through scattering
+normalizes its accessible history; only17/59 fit. Do not try a stops-only
+repair. An explicit extension with5 paid moving masks and public-Y feedback
+is under audit. Compare coupled/uncoupled controls and include every copy.
+The older three-output construction is separate and not automatically composable.
 
-BIT fixed64 seven-mode preprocessing families fail first-exit even with
-original recoding. A changed-basis control passes a necessary test only.
-An actual eight-packet, three-receiver composition is under independent review.
-Continue actual source and receiver access, not historical rank alone.
+Two-head full-Clifford common-body and fresh one-shot body-tag repairs are
+closed in their stated scopes. The exact three-head spectator source and
+f=(0,3,5,6) potential are admitted; a complete caller is open. Review pending
+two-query obstructions before repeating synthesis. Every strict supplier,
+ordinary/physical/precision cost and full recursive admission remains.
 
-Local execution is available. Git CLI push lacks credentials; connected Git
-Data API publication uses exact-tree comparison and expected-HEAD nonforced
-updates. Preserve S012 missing-evidence qualifications.
+Use connected Git Data API with exact-tree and expected-HEAD verification;
+CLI push lacks credentials. Preserve historical missing-evidence qualifiers.

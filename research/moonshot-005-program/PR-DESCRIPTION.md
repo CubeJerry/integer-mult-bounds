@@ -117,3 +117,19 @@ preprocessing families, with exact witnesses and a changed-basis negative
 control. Actual source/receiver composition continues. **No new kappa.**
 Neither theorem is a general multiplication lower bound. All five foundations
 remain, and the cumulative branch is an ongoing programme, not PR-ready.
+
+### Full singular acquisition and a higher-head source
+
+A jointly compatible four-D8/three-spinor source now acquires all15 singular
+code directions on eight actual packet histories, with restored originals,
+full ownership/movement bill and independent222-column replay. It delivers
+zero outputs; the existing scattering theorem explains why a true nonlocal
+feedback extension is required. A distinct earlier source completes three
+receivers, with exact historical/terminal information gaps independently
+proved. Their paths are not silently combined.
+
+The complex contribution also closes one-shot fresh-body fission under its
+explicit collective-translation contract and constructs an exact three-head
+spectator interface. Its nonlinear potential and one-query gates are proved;
+a complete caller remains open. **No new kappa**, all five foundations retained.
+The cumulative programme is not yet PR-ready.

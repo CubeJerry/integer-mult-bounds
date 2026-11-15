@@ -90,3 +90,24 @@ Every remaining strict-supplier, physical-cost and foundational obligation stays
 - **COMPLEX-CHANGED-HEAD/BODY: open.** Actual spectator embedding, source gauge,
   caller identity and all costs must be proved. A favorable inventory is not
   an algorithm. Fresh-body and three-head component gates are under review.
+
+## S014 checkpoint3 admitted dependencies
+
+- **BIT-FULL-SINGULAR-HISTORY: proved.** For every characteristic-two field and
+  positive width, the literal4+3 source gives history29V containing W15V,
+  restored111 X inputs and eight terminal packets. Its delivery is incomplete;
+  existing bit-source-packet-scattering applies. See exact admission/review.
+- **BIT-CYCLIC-THREE-RECEIVER: proved partial.** The separate literal word
+  completes Y1/Y3/Y5, with all other inputs preserved and full cost recorded.
+  Historical/terminal completion quotients4V,2V,5V are proved under their
+  exact source and enlargement restrictions; they are not packet counts.
+- **COMPLEX-FRESH-BODY-TAG-GATE: proved scoped obstruction.** One-shot disjoint
+  seven-axis body tags, whole-block endpoints and collective ordinary body
+  translations force P-T>=m(1+7^t-8^t)>0. Reused/noncollective/mixed bodies
+  are outside scope. Physical sign points and query-only bounds are checked.
+- **COMPLEX-THREE-HEAD-SOURCE: proved interface.** Spectator chart lift and
+  ordinary cycle give the exact source, with volume2^V retained. The f=(0,3,5,6)
+  potential and one-query constraints are independently proved. Caller open.
+- **BIT-COUPLED-DELIVERY: under review.** The next word explicitly adds five
+  moving masks and public-Y feedback. Neither its full bill nor its distinction
+  from the uncoupled control may be omitted.

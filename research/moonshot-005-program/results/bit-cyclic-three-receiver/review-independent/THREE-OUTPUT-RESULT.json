@@ -1,0 +1,317 @@
+{
+  "author_code_imported": false,
+  "negative_controls": {
+    "remove_D8_facet_read": {
+      "reason": "three exact Y targets; all other Y unchanged",
+      "rejected": true
+    },
+    "remove_D8_pair_cache_deposit": {
+      "reason": "independently derived complete owned handoff",
+      "rejected": true
+    },
+    "remove_D8_pair_carrier_restoration": {
+      "reason": "all sources restored before every packet birth",
+      "rejected": true
+    },
+    "remove_D8_pair_read": {
+      "reason": "three exact Y targets; all other Y unchanged",
+      "rejected": true
+    },
+    "remove_D8_triple_read": {
+      "reason": "three exact Y targets; all other Y unchanged",
+      "rejected": true
+    },
+    "remove_ground_packet_read": {
+      "reason": "three exact Y targets; all other Y unchanged",
+      "rejected": true
+    },
+    "remove_reused_mask": {
+      "reason": "independently derived complete owned handoff",
+      "rejected": true
+    },
+    "skip_required_receiver_meeting": {
+      "reason": "literal cochart read at operation 1112",
+      "rejected": true
+    }
+  },
+  "new_complete_kappa": false,
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "status": "PASS_INDEPENDENT_EIGHT_PACKET_THREE_OUTPUT_REVIEW",
+  "variants": {
+    "CLOSED-WORD.json": {
+      "D8_incidence_counts": {
+        "1": 8,
+        "2": 7,
+        "3": 9,
+        "4": 7,
+        "5": 8,
+        "6": 8,
+        "7": 5
+      },
+      "all_222_columns_replayed": true,
+      "all_original_X_restored_before_packet_birth": true,
+      "closed_partial": true,
+      "completed_targets": [
+        1,
+        3,
+        5
+      ],
+      "dirty_clears_under_retained_contract": 136,
+      "history_W_intersection": 11,
+      "history_basis": [
+        "0x7f80fffe01fc07f03fc0003fc0ff",
+        "0x2a80cccc00640000000000010000",
+        "0x1903c0000000000",
+        "0x1a4055",
+        "0x10000",
+        "0x7ffffffffffffff",
+        "0x9403300000080",
+        "0x33002300",
+        "0x80",
+        "0xfffffff80000003fffffff",
+        "0xcc00d80000003300a300",
+        "0x33339b200000000cff5cff",
+        "0x8000",
+        "0x55cca86730e2ae16b0e94f3596",
+        "0x2acca999331aa1d68f168f0a96",
+        "0x132032196bc0cccdb5c55",
+        "0x19cc99019867c07d0cda7c0ce433",
+        "0xcccd3203f996803fffc01c55"
+      ],
+      "history_rank": 18,
+      "live_owned": 0,
+      "moment": {
+        "decimal_lower": "1604.478943418665101636512904239692",
+        "decimal_upper": "1604.478943418665101636512904239975",
+        "lower_numerator": "1604478943418665101636512904239692",
+        "scale": "1000000000000000000000000000000",
+        "upper_numerator": "1604478943418665101636512904239975"
+      },
+      "movement_profile": {
+        "1": 75,
+        "2": 43,
+        "3": 10,
+        "4": 13,
+        "5": 52,
+        "6": 45,
+        "7": 115,
+        "8": 5
+      },
+      "new_complete_kappa": false,
+      "operations": {
+        "ADD": 744,
+        "CLEAR": 136,
+        "INIT": 136,
+        "MOVE": 358
+      },
+      "other_108_Y_unchanged": true,
+      "outside_W_dimension": 7,
+      "packet_paths": {
+        "P0": [
+          8,
+          7,
+          6,
+          5,
+          0
+        ],
+        "P1": [
+          8,
+          7,
+          6,
+          5,
+          0
+        ],
+        "P2": [
+          8,
+          7,
+          6,
+          5,
+          0
+        ],
+        "P3": [
+          8,
+          0
+        ],
+        "P4": [
+          8,
+          0
+        ],
+        "P5": [
+          8,
+          0
+        ],
+        "P6": [
+          8,
+          0
+        ],
+        "P7": [
+          8,
+          0
+        ]
+      },
+      "peak_owned": 136,
+      "rank_length": 1618,
+      "remaining_unserved_targets": 108,
+      "served_Y_paths": {
+        "Y1": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "Y3": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "Y5": [
+          0,
+          5,
+          6,
+          7
+        ]
+      },
+      "status": "PASS_INDEPENDENT_THREE_OUTPUT_SOURCE"
+    },
+    "WORD.json": {
+      "D8_incidence_counts": {
+        "1": 8,
+        "2": 7,
+        "3": 9,
+        "4": 7,
+        "5": 8,
+        "6": 8,
+        "7": 5
+      },
+      "all_222_columns_replayed": true,
+      "all_original_X_restored_before_packet_birth": true,
+      "closed_partial": false,
+      "completed_targets": [
+        1,
+        3,
+        5
+      ],
+      "dirty_clears_under_retained_contract": 0,
+      "history_W_intersection": 11,
+      "history_basis": [
+        "0x7f80fffe01fc07f03fc0003fc0ff",
+        "0x2a80cccc00640000000000010000",
+        "0x1903c0000000000",
+        "0x1a4055",
+        "0x10000",
+        "0x7ffffffffffffff",
+        "0x9403300000080",
+        "0x33002300",
+        "0x80",
+        "0xfffffff80000003fffffff",
+        "0xcc00d80000003300a300",
+        "0x33339b200000000cff5cff",
+        "0x8000",
+        "0x55cca86730e2ae16b0e94f3596",
+        "0x2acca999331aa1d68f168f0a96",
+        "0x132032196bc0cccdb5c55",
+        "0x19cc99019867c07d0cda7c0ce433",
+        "0xcccd3203f996803fffc01c55"
+      ],
+      "history_rank": 18,
+      "live_owned": 136,
+      "moment": {
+        "decimal_lower": "855.798816499754591312523827995708",
+        "decimal_upper": "855.798816499754591312523827995883",
+        "lower_numerator": "855798816499754591312523827995708",
+        "scale": "1000000000000000000000000000000",
+        "upper_numerator": "855798816499754591312523827995883"
+      },
+      "movement_profile": {
+        "1": 75,
+        "2": 43,
+        "3": 10,
+        "4": 13,
+        "5": 52,
+        "6": 45,
+        "7": 7,
+        "8": 5
+      },
+      "new_complete_kappa": false,
+      "operations": {
+        "ADD": 744,
+        "INIT": 136,
+        "MOVE": 250
+      },
+      "other_108_Y_unchanged": true,
+      "outside_W_dimension": 7,
+      "packet_paths": {
+        "P0": [
+          8,
+          7,
+          6,
+          5,
+          0
+        ],
+        "P1": [
+          8,
+          7,
+          6,
+          5,
+          0
+        ],
+        "P2": [
+          8,
+          7,
+          6,
+          5,
+          0
+        ],
+        "P3": [
+          8,
+          0
+        ],
+        "P4": [
+          8,
+          0
+        ],
+        "P5": [
+          8,
+          0
+        ],
+        "P6": [
+          8,
+          0
+        ],
+        "P7": [
+          8,
+          0
+        ]
+      },
+      "peak_owned": 136,
+      "rank_length": 862,
+      "remaining_unserved_targets": 108,
+      "served_Y_paths": {
+        "Y1": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "Y3": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "Y5": [
+          0,
+          5,
+          6,
+          7
+        ]
+      },
+      "status": "PASS_INDEPENDENT_THREE_OUTPUT_SOURCE"
+    }
+  },
+  "word_sha256": {
+    "CLOSED-WORD.json": "1f41ee0ed03a5ce4bff6480a2a1de0e1cbba210b04640f2886fc7a5203377fb2",
+    "WORD.json": "fff68634f3053929a4fb471eb20eac66be8e6f27a8dfa3592b0950bd446ab4fb"
+  }
+}

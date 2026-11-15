@@ -1,0 +1,27 @@
+{
+  "negative_controls": {
+    "added_packet_does_not_reach_ground": {
+      "reason": "independently derived triple handoff",
+      "rejected": true
+    },
+    "omit_actual_seed_term_P3": {
+      "reason": "independently derived triple handoff",
+      "rejected": true
+    },
+    "omit_actual_seed_term_P7": {
+      "reason": "independently derived triple handoff",
+      "rejected": true
+    },
+    "packet_birth_precedes_source_restoration": {
+      "reason": "source restoration before packet birth",
+      "rejected": true
+    },
+    "restarted_owned_packet_lifetime": {
+      "reason": "fresh owned zero birth",
+      "rejected": true
+    }
+  },
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "status": "PASS_INDEPENDENT_EIGHT_PACKET_NEGATIVE_CONTROLS",
+  "word_sha256": "f68f3c84b3fffad91f628d2941089f50491287499236d83249260302c416c4dd"
+}

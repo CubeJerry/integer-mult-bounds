@@ -1,0 +1,1 @@
+The independent potential checker originally located the root proof at sibling root-three-head/REVIEW.md in the S014 work area. Its sole integration edit changes that relative location to sibling review-independent/REVIEW.md. Mathematical code and the pinned proof bytes are unchanged; reproduction must match the frozen receipt. Original provenance is retained in MANIFEST.json.

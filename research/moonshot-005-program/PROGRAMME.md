@@ -157,3 +157,20 @@ first-exit excludes all64 complementary choices under stationary-cache,
 original-only preprocessing. A changed basis passes the necessary screen.
 The live construction has progressed to an actual three-receiver composition
 under independent review; historical span alone is not receiver access.
+
+## S014 checkpoint3: full acquisition and the required feedback boundary
+
+A compatible4+3 cohort source now acquires all rank15 singular W on eight
+actual packet histories, restoring all111 originals. Historyrank29 is
+explicitly distinct from terminalrank8; no outputs are delivered. The existing
+invertible-through scattering theorem applies, and only17/59 fit under the
+fixed access relaxation. This completes the historical acquisition obligation,
+while proving that delivery must change the information interface. Actual
+paid moving-mask/public-Y feedback is the current construction, under review.
+A separate earlier word completes three outputs; its routes do not compose
+with the new source automatically.
+
+Fresh one-shot body tags also cannot repair the two-head complex architecture
+by omitting idles, under the proved collective-translation scope. An exact
+three-head spectator gauge now has rank pattern0,1,2,3,2,1 and a nonlinear
+odd-reflection potential. Its complete profitable caller remains open.
