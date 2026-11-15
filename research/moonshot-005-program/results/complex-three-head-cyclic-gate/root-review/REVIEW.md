@@ -1,0 +1,11 @@
+# Independent review of cyclic three-head conservation
+
+**Accepted within the cyclic ordinary model.** Root independently checks the representation and complete movement argument. Failed numerical searches are not proof, and noncommuting ordinary Clifford services remain outside scope.
+
+The six-cycle with a three-versus-three sign cut has difference rank twice circular distance, exactly2r_k for every power. Tensoring with physical a^k retains a^6 and both phase sectors. The two representations agree on C[a^6]. Faithfulness of the twelve nonproportional physical powers at sufficiently large widths follows by strict Gram diagonal dominance. An all-width identity holds there, even with width-dependent ordinary coefficients. A unit in the finite ordinary matrix algebra has a polynomial inverse, so its common auxiliary image is invertible. This grants no free physical inverse.
+
+For E=X-Y, the square-cross native difference is [[E,-XE-EY],[0,E]]. Left multiplication by the elementary block matrix with off-diagonal X, then right multiplication by the one with off-diagonal Y, reduces it to diag(E,E). No inverse of E or commutation of X,Y is used. Actual lower/upper halves each contribute4D difference rank, rank-r queries contribute2rD, and telescoping gives H<=2m+q1+2q2+3q3 for independent endpoints. The lower orientation comes from ordinary swaps of the actual forward source, not an uncharged inverse.
+
+For m fresh rank-seven bodies, every retained role starts at rank7m. Concavity bounds head increments by delta=8^t-7^t; subadditivity gives (7m)^t<=m7^t. Including all m(R-2) inactive-role idles yields deficit at least m(1-delta)+sum_r q_r(r^t-r delta). Since delta<t7^(t-1)<r^(t-1) for0<t<1 and1<=r<=3, every coefficient is positive. Additional ordinary/physical/recursive costs worsen the deficit.
+
+The exact author controls authenticate source orientations and tensor phases. Root reruns are reproduction, not separate code verification; the independent evidence here is the mathematical derivation and premise audit. Fixed internal source gauges are not silently added to the cyclic interstage algebra. General quadratic phases and changed body contracts remain open. All five foundations remain; no new kappa. Credit @CubeJerry, retained authors, Worker B and Root; substantial OpenAI assistance.

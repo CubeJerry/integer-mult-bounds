@@ -1,5 +1,13 @@
 # Exact requirements for kappa = 1/200
 
+## S015 checkpoint2: source feedback and a sharp seed interface
+
+The actual four-D/three-S serial source now completes Y9,Y17,Y34, restores all111 X and retains W15 in intermediate history. Its partial movement moment is1606.998014987781958..., leaving14.752865223370397... against the limiting complete allowance;150 owners,394 MOVE,629 ADD and145 dirty clears remain explicit. The preceding four-D/four-S point source proves how an off-code seed can replace a source query through actual public-Y feedback. These are source constructions, not complete suppliers.
+
+A sharp all-field quotient theorem governs reseeding. For fixed history increments D, compulsory terminals N⊂D and target W, let n=dim N,r=dim((D+W)/D),k=dim(N∩E),z=dim(E∩(D+W))−dim(E∩D). Feasibility is q≥n+r and the exact maximum dim(T∩E) is min(dim E,k+z+q−n−r). On the serial template this gives at most5V canonical terminal directions while retaining W15V; an actual equality word has750 ADD and unchanged movement/owners. Arbitrary block seeds are included. Thirteen algebraic receiver fits are not thirteen delivered outputs.
+
+The cyclic three-head complex family obeys H≤2m+q1+2q2+3q3 and has a strict full fresh-body/idle movement deficit for every0<t<1. The coset proof also excludes q≥3 rank-one-query results whose entire Gaussian support has rank≥q. These are scoped gates; genuinely noncommuting ordinary interstages and changed native/role patterns remain open. The primary next step is actual correction delivery from a changed full-chart source. No new κ; all five foundations remain.
+
 **Target open; no new complete kappa.** The selected conditional result remains0.00363005817. Earlier calculations and scopes are preserved in the [checkpoint8 blueprint](sessions/2026-11-14-S013/logical-records-at-cp8/TARGET-005.md). Arithmetic feasibility is not an algorithm.
 
 ## S015 current feasibility update

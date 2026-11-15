@@ -1,0 +1,55 @@
+{
+  "status": "PASS_EXACT_THREE_HEAD_CYCLIC_CONSERVATION_DIAGNOSTICS",
+  "power_gaussian_ranks": [
+    0,
+    1,
+    2,
+    3,
+    2,
+    1,
+    0,
+    1,
+    2,
+    3,
+    2,
+    1
+  ],
+  "auxiliary_difference_ranks": [
+    0,
+    2,
+    4,
+    6,
+    4,
+    2,
+    0,
+    2,
+    4,
+    6,
+    4,
+    2
+  ],
+  "native_auxiliary_difference_rank": 4,
+  "all_column_source_checks": [
+    {
+      "width": 1,
+      "all_columns": 16,
+      "role_swap_actual_lower_half": true,
+      "physical_inverse_identity_only": true,
+      "nontrivial_sixth_power": true
+    },
+    {
+      "width": 2,
+      "all_columns": 128,
+      "role_swap_actual_lower_half": true,
+      "physical_inverse_identity_only": true,
+      "nontrivial_sixth_power": true
+    }
+  ],
+  "negative_controls": [
+    "A^6 replaced by identity rejected at widths1,2",
+    "field minus tensoring rejected at width2"
+  ],
+  "proof_scope": "C[A^6] ordinary interstages and cyclic Gaussian endpoint/query powers; all-width result is written tensor separation plus exact rank telescoping",
+  "dependency_helper_reuse": "Exact dyadic arithmetic only; these author checks are not independent review",
+  "new_kappa": false
+}

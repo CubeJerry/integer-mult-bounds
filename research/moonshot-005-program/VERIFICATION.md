@@ -1,5 +1,11 @@
 # Verification ledger and reproduction map
 
+## S015 checkpoint2 — independent source and quotient review
+
+Confirmed parent `e1c9fb81d27d4a226bcafeeddeffa5a19ad20195`. Eight author/reviewer reproduction commands pass; all29 reproduced JSON artifacts equal frozen evidence. Worker C separately replays all222 columns and rational geometry, derives history identities and directed prices for point, serial and reseeded sources; it does not import the author checker. The all-field quotient argument received a separate written proof review plus67,584 finite subspace cases (39,888 feasible), and a sixth-canonical-direction mutation loses one required history direction. Root independently reviewed the cyclic representation/telescoping proof and minimum-rank induction. Repeated author diagnostics are identified as reproduction, not independent verification.
+
+All4,790 prior scientific entries were authenticated with exactly the two previously recorded unavailable-file qualifications retained. New manifests cover 63 added scientific files. Full details and reproduction comparisons: sessions/2026-11-15-S015/CHECKPOINT2-VALIDATION.json. No finite experiment is promoted to an asymptotic theorem and no new κ is claimed.
+
 The ledger distinguishes written universal arguments, exact finite-source
 certificates, independent mathematical/code review, and later reruns.
 Rerunning an author's checker is not an independent proof. All original

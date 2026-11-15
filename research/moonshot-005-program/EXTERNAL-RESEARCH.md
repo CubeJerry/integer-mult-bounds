@@ -252,3 +252,7 @@ metadata and descriptions, not a full application replay. They do not supply
 a new singular BIT decoder or complex caller for this programme and are not
 admitted or merged here. Their legal contact/rechart principles may be reused
 only after checking actual source/interface compatibility and full costs.
+
+### S015 targeted refresh 2026-11-15T08:31:09.983714+00:00
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; targeted PR updated-since07:25:09UTC search returned no new records. No adoption or selected-certificate change.

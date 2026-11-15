@@ -1,0 +1,5 @@
+# Minimum-rank strengthening excludes four-query pure-four endpoints
+
+**PROVED within the main fixed-group/native/query premises. No new kappa.** Every invertible three-query operator has a nonzero Gaussian group-basis component of rank at most two. Inductively q>=3 rank-one queries cannot produce an invertible result supported entirely in ranks at least q. In particular four queries cannot give independent pure(4,4) endpoints. The(4,3) case and multiple-native architectures remain outside this conclusion.
+
+Read [supplement](MINIMUM-RANK-SUPPLEMENT.md), [independent root review](MINIMUM-RANK-ROOT-REVIEW.md), and the main [dependencies](DEPENDENCIES.json). The supplement's PROOF.md reference means the companion coset proof in this same directory. Root checks the relaxed premise against both same-side normal forms and the retained mixed-placement complementary-corner argument. This is a written strengthening, not a new finite search. All original phase/faithfulness/invertibility and marked-factor premises remain, and no foundation or supplier is completed. Credit @CubeJerry, predecessor authors, Worker B and Root; substantial OpenAI assistance.

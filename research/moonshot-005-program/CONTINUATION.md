@@ -1,15 +1,11 @@
-# Continue changed source feedback and interacting receiver delivery
+# Continue full-chart source construction and actual joint corrections
 
-Read exact remote HEAD and STATE.json. S015 is active, with requested window07:23:42–12:23:42 UTC on2026-11-15; no background execution is promised. Target1/200 remains open, selected conditional0.00363005817 and all five foundations remain.
+Read exact remote HEAD and STATE.json. S015 remains active until its planned12:23:42UTC checkpoint on2026-11-15; no background execution is promised. Target1/200 is open; selected conditional0.00363005817 and all five foundations remain.
 
-## Primary construction
+The admitted serial four-D/three-S source completes9/17/34 with W15 history and14.752865 limiting partial movement room. It replaces the older three-S failed variant; do not repeat that obsolete failure as the current frontier. A sharp quotient theorem caps canonical terminal directions at5V for this fixed history target and gives an actual equality source. The serial facet geometry is too narrow for a complete decoder.
 
-The admitted S014 two-output source retains W15 in actual packet history, restores111 X and completes Y17/Y34. Preserve both coupled and uncoupled variants. Receiver26's correction is now proved but costs more than direct point delivery; do not repeat it as an unbuilt lead. The gates in bit-single-local-export-gate and bit-common-ground-export-cut exclude isolated local sharing and independent ground completion within exact fixed-source premises. They do not exclude changed chronology or interacting intermediate deliveries.
+A colored eight-normal source now has independent all222-column/chart/history verification and111 receiver-facet coverage, but awaits root admission. Its one actual feedback output and fifteen-dimensional history do not deliver the remaining110 outputs. Prioritize actual shared corrections along freed original trajectories and moving feedback to a deeper chart; adversarially test whether first-facet feedback still reduces all other receivers to an eight-terminal bank. Preserve failed uncolored pivot-scan evidence as invalid: fixed offsets were incorrectly counted as seed-independent increments; corrected D uses actual state-minus-terminal differences.
 
-An off-code point seed at receiver34, erased through actual public-Y feedback, has a four-D/four-S candidate under independent review. Admit it only after all222 columns, chart legality, every W15 witness, source access and full partial invoice are checked. Then pursue joint destination-sensitive decoding from actual rows, not a globally granted history. The unreviewed three-S variant loses two W directions and is not a source.
+For complex callers, cyclic ordinary C[A^6] interstages are excluded by a complete all-t conservation theorem. The minimum-rank extension strengthens the old query gate but leaves mixed-rank/four-query cases. Current constructive focus is three natives/three roles with genuinely noncommuting ordinary interstages and head ranks(3,2,2); its favourable full movement budget is only a design screen. Require an actual all-width word, ordinary compilation, precision, every body/idle and recursion.
 
-## Complex construction after three-query closure
-
-The coset theorem closes the former pure(3,3) same-side candidate. The total-head theorem gives h+k<=5 for three rank-one queries at any fixed head count, with strict complete common-body movement deficit. The nonordinary seed remains correct but cannot complete that family. Construct a changed query/role/native mechanism and test its complete optimistic invoice first. Keep spectator factors, scalar/tensor phases, ordinary compilation, precision and recursion explicit.
-
-New proof packages are bit-receiver26-correction, bit-single-local-export-gate, bit-common-ground-export-cut, complex-three-query-coset-gate and complex-three-query-total-head-gate under results/. Use exact-tree/expected-HEAD nonforced Git Data API publication. Preserve historical missing-evidence qualifiers. This is an ongoing programme, not PR-ready.
+Root alone integrates on the permanent branch with exact-tree and expected-HEAD nonforced publication. No upstream PR, selected change or new κ. The programme remains ongoing and not PR-ready.

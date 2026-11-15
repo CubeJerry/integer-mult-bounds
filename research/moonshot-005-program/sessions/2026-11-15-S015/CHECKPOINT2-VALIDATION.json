@@ -1,0 +1,210 @@
+{
+  "status": "PASS_REVIEWED_CP2",
+  "baseline_sha": "e1c9fb81d27d4a226bcafeeddeffa5a19ad20195",
+  "checked_utc": "2026-11-15T08:31:09.983714+00:00",
+  "new_results": [
+    {
+      "id": "BIT-POINT-SEEDED-SOURCE",
+      "status": "proved actual four-D/four-S two-output source with full W15 history",
+      "path": "results/bit-point-seeded-source/ADMISSION.md",
+      "review": "results/bit-point-seeded-source/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-SERIAL-POINT-SOURCE",
+      "status": "proved actual four-D/three-S three-output source with full W15 history",
+      "path": "results/bit-serial-point-source/ADMISSION.md",
+      "review": "results/bit-serial-point-source/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-TERMINAL-SEED-QUOTIENT",
+      "status": "proved sharp all-field quotient bound and actual five-canonical-direction equality source",
+      "path": "results/bit-terminal-seed-quotient/ADMISSION.md",
+      "review": "results/bit-terminal-seed-quotient/independent-c/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-THREE-HEAD-CYCLIC-GATE",
+      "status": "proved scoped all-t conservation for cyclic three-head callers with full body/idles invoice",
+      "path": "results/complex-three-head-cyclic-gate/ADMISSION.md",
+      "review": "results/complex-three-head-cyclic-gate/root-review/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-QUERY-MINIMUM-RANK-GATE",
+      "status": "proved q>=3 rank-one queries cannot produce invertible result supported only at Gaussian ranks at least q in stated one-native/two-role model",
+      "path": "results/complex-three-query-coset-gate/MINIMUM-RANK-ADMISSION.md",
+      "review": "results/complex-three-query-coset-gate/MINIMUM-RANK-ROOT-REVIEW.md"
+    }
+  ],
+  "reproduction_commands": 8,
+  "frozen_json_comparisons": [
+    {
+      "reproduction": "point-author/COUPLED-CLOSED-WORD.json",
+      "frozen": "bit-point-seeded-source/output/COUPLED-CLOSED-WORD.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "point-author/COUPLED-HISTORY.json",
+      "frozen": "bit-point-seeded-source/output/COUPLED-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "point-author/COUPLED-WORD.json",
+      "frozen": "bit-point-seeded-source/output/COUPLED-WORD.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "point-author/PRICE.json",
+      "frozen": "bit-point-seeded-source/output/PRICE.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "point-author/RESULT.json",
+      "frozen": "bit-point-seeded-source/output/RESULT.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "point-author/UNCOUPLED-CLOSED-WORD.json",
+      "frozen": "bit-point-seeded-source/output/UNCOUPLED-CLOSED-WORD.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "point-author/UNCOUPLED-HISTORY.json",
+      "frozen": "bit-point-seeded-source/output/UNCOUPLED-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "point-author/UNCOUPLED-WORD.json",
+      "frozen": "bit-point-seeded-source/output/UNCOUPLED-WORD.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "point-c/COUPLED-CLOSED-WORD-HISTORY.json",
+      "frozen": "bit-point-seeded-source/independent-c/output/COUPLED-CLOSED-WORD-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "point-c/COUPLED-WORD-HISTORY.json",
+      "frozen": "bit-point-seeded-source/independent-c/output/COUPLED-WORD-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "point-c/RESULT.json",
+      "frozen": "bit-point-seeded-source/independent-c/output/RESULT.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "point-c/UNCOUPLED-CLOSED-WORD-HISTORY.json",
+      "frozen": "bit-point-seeded-source/independent-c/output/UNCOUPLED-CLOSED-WORD-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "point-c/UNCOUPLED-WORD-HISTORY.json",
+      "frozen": "bit-point-seeded-source/independent-c/output/UNCOUPLED-WORD-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "serial-author/CLOSED-WORD.json",
+      "frozen": "bit-serial-point-source/output/CLOSED-WORD.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "serial-author/HISTORY.json",
+      "frozen": "bit-serial-point-source/output/HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "serial-author/PRICE.json",
+      "frozen": "bit-serial-point-source/output/PRICE.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "serial-author/RESULT.json",
+      "frozen": "bit-serial-point-source/output/RESULT.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "serial-author/WORD.json",
+      "frozen": "bit-serial-point-source/output/WORD.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "serial-c/CLOSED-WORD-HISTORY.json",
+      "frozen": "bit-serial-point-source/independent-c/output/CLOSED-WORD-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "serial-c/RESULT.json",
+      "frozen": "bit-serial-point-source/independent-c/output/RESULT.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "serial-c/WORD-HISTORY.json",
+      "frozen": "bit-serial-point-source/independent-c/output/WORD-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "reseed-root/CLOSED-WORD.json",
+      "frozen": "bit-terminal-seed-quotient/output/CLOSED-WORD.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "reseed-root/RESULT.json",
+      "frozen": "bit-terminal-seed-quotient/output/RESULT.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "reseed-root/WORD.json",
+      "frozen": "bit-terminal-seed-quotient/output/WORD.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "reseed-c/CLOSED-WORD-HISTORY.json",
+      "frozen": "bit-terminal-seed-quotient/independent-c/output/CLOSED-WORD-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "reseed-c/RESULT.json",
+      "frozen": "bit-terminal-seed-quotient/independent-c/output/RESULT.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "reseed-c/WORD-HISTORY.json",
+      "frozen": "bit-terminal-seed-quotient/independent-c/output/WORD-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "quotient-c.json",
+      "frozen": "bit-terminal-seed-quotient/independent-c/LEMMA-CONTROLS.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "cyclic-author/RESULT.json",
+      "frozen": "complex-three-head-cyclic-gate/RESULT.json",
+      "same_json": true
+    }
+  ],
+  "prior_scientific_entries": 4790,
+  "retained_unavailable_historical_entries": [
+    {
+      "path": "results/four-call-dyadic-entry/review/replay.log",
+      "discovered_session": "2026-11-14-S011",
+      "status": "Absent from programme Git tree, predecessor checkout and available path history; old indexed hash retained, not independently reauthenticated. Not cited as proof evidence."
+    },
+    {
+      "path": "results/bit-joint-multicast/mixed-author/__pycache__/build_mixed.cpython-312.pyc",
+      "discovered_session": "2026-11-14-S012",
+      "status": "Generated bytecode entry absent from confirmed baseline db6e513c96cb8ceea10c1071b26a7db1de9fe008. Old hash retained; not proof evidence."
+    }
+  ],
+  "added_scientific_files": 63,
+  "scientific_entries_after": 4853,
+  "registered_results_after": 302,
+  "negative_control_scope": "See separate C source/quotient reviews and root cyclic/minimum-rank proof reviews; finite controls support but do not replace universal proofs.",
+  "new_complete_kappa": false,
+  "intentional_whitespace_qualification": {
+    "files": [
+      "results/bit-point-seeded-source/construct.py",
+      "results/bit-serial-point-source/construct.py"
+    ],
+    "issue": "Author-frozen scripts contain an extra blank line at EOF. Preserved to retain independently reviewed byte pins; no semantic effect. All other staged whitespace checks pass."
+  }
+}

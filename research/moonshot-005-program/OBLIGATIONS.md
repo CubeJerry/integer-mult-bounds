@@ -1,5 +1,15 @@
 # Current proof-dependency map
 
+## S015 checkpoint2 dependency update
+
+- **BIT-POINT-SEEDED-SOURCE / proved partial.** Every characteristic-two field and block width: pinned four-D/four-S literal source has all222 columns, two outputs and W15 history. Dependencies: native geometry, actual local captures, off-code seed and public-Y feedback. See results/bit-point-seeded-source/ADMISSION.md.
+- **BIT-SERIAL-POINT-SOURCE / proved partial.** Pinned four-D/three-S source restores originals, completes9/17/34 and retains W15, with all operations priced. Depends on the credited orthogonal-staircase mechanism plus new actual captures/query deletion. See results/bit-serial-point-source/ADMISSION.md. Other108 outputs remain open.
+- **BIT-TERMINAL-SEED-QUOTIENT / proved.** All-field sharp theorem and arbitrary-block five-canonical-direction cap, attained by an actual word retaining the same history/outputs. See results/bit-terminal-seed-quotient/PROOF.md. Canonical dimension alone does not supply proper covers; retain the canonical-quotient charge obstruction.
+- **COMPLEX-THREE-HEAD-CYCLIC-GATE / disproved within stated subclass.** Actual U/L natives, cyclic queries/endpoints and C[A^6] ordinary interstages satisfy all-t strict full-invoice deficit. See results/complex-three-head-cyclic-gate/ADMISSION.md. Noncommuting ordinary phases remain open.
+- **COMPLEX-QUERY-MINIMUM-RANK-GATE / proved scoped.** One native, two roles and q≥3 rank-one queries cannot yield an invertible operator supported only at Gaussian ranks≥q. See results/complex-three-query-coset-gate/MINIMUM-RANK-SUPPLEMENT.md. This does not exclude four-query endpoint(4,3).
+
+**Primary open edge:** all111 facet coverage → actual jointly shared corrections → full BIT supplier → strict completed ordinary saving; compatible uniform complex supplier remains a parallel necessary edge. The new colored source and changed-pivot covers are pending root admission. A prototype pivot scan counted seed-dependent offsets as invariants and is invalid; only state-minus-actual-terminal increments may define fixed D. It is not used by any admitted proof.
+
 Statuses mean PROVED within the stated quantifiers, CONDITIONALLY PROVED from named premises, COMPUTATIONALLY VERIFIED on a finite domain, DISPROVED WITHIN SCOPE, or OPEN. Source-specific obstructions are not multiplication lower bounds. The [exact earlier map](sessions/2026-11-14-S013/logical-records-at-cp8/OBLIGATIONS.md) and [registered result index](REGISTERED-RESULTS.json) preserve all earlier obligations and conclusions.
 
 ## S015 current dependency update
