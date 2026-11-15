@@ -238,3 +238,17 @@ No messages, upstream PRs, merges or selected-certificate edits were made.
 Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57 and selected κ is unchanged. Open [#7609](https://github.com/CrocSwap/integer-mult-bounds/pull/7609), head04c0476cea2e647e46f03ba860aed3d0b4075f85, has a pinned proof read (blob a3f016465b589165a5f3f90f0ec121b0b2953162), especially its full-state rank/CLEAR argument. Its logical observation is compatible; the physical owned-erasure interpretation is not newly adopted or discharged. No full package replay/intake.
 
 Open [#7610](https://github.com/CrocSwap/integer-mult-bounds/pull/7610), head93fded4340bb08bc1f99d6f18e47a198456a41df, claims conditional κ0.003650971539360618... via a local hop merge and inherited CLEAR-content premise. Metadata/body reviewed, no source admission. Neither PR is merged/selected. UPSTREAM-END.json pins the check. No upstream changes or PR submission.
+
+
+## S015 startup: three newer conditional source edits
+
+Canonical main and selected conditional0.00363005817 remain unchanged.
+[Exact metadata and descriptions](sessions/2026-11-15-S015/UPSTREAM-START.json)
+pin open PRs7611 (bbdbc8ae),7612 (e814828e),7613 (bde25de3). They report
+four stay drops and two contact rechartings on the7608 source lineage, with
+claimed conditional crossings approximately.00365242,.00365274,.00365306.
+All preserve an explicit inherited CLEAR44 content/service premise. Root read
+metadata and descriptions, not a full application replay. They do not supply
+a new singular BIT decoder or complex caller for this programme and are not
+admitted or merged here. Their legal contact/rechart principles may be reused
+only after checking actual source/interface compatibility and full costs.

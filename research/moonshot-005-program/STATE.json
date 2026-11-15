@@ -2,10 +2,10 @@
   "schema": "moonshot-005-program-state-v3-current",
   "branch": "research/moonshot-005-program",
   "repository": "CubeJerry/integer-mult-bounds",
-  "checkpoint_baseline_sha": "b4e3eb5f0fa7e73044628d6224142aca4eaa8a64",
+  "checkpoint_baseline_sha": "eefa411ebab86271d50b56b6953af3a157366bdb",
   "checkpoint_sha_semantics": "Parent/baseline identity; never self-referential. Resulting remote SHA is confirmed after publication and recorded in next receipt or session handoff.",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
-  "upstream_last_checked_utc": "2026-11-15 03:58:43 UTC",
+  "upstream_last_checked_utc": "2026-11-15T07:25:09Z",
   "root_upstream_review": {
     "main_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
     "historical_s013_review": {
@@ -30,14 +30,20 @@
     "start_evidence": "sessions/2026-11-15-S014/UPSTREAM-START.json",
     "end_evidence": "sessions/2026-11-15-S014/UPSTREAM-END.json",
     "final_check_utc": "2026-11-15 03:58:43 UTC",
-    "final_check": "Main unchanged; no PR updates since03:36:02 UTC"
+    "final_check": "Main unchanged; no PR updates since03:36:02 UTC",
+    "s015_start_evidence": "sessions/2026-11-15-S015/UPSTREAM-START.json",
+    "s015_open_prs_metadata_reviewed": [
+      7611,
+      7612,
+      7613
+    ]
   },
-  "session": "2026-11-15-S014",
-  "session_started_utc": "2026-11-15T02:07:18Z",
-  "session_planned_end_utc": "2026-11-15T04:07:18Z",
-  "requested_session_seconds": 7200,
-  "session_status": "closed",
-  "session_checkpoint_utc": "2026-11-15T04:03:51.785353+00:00",
+  "session": "2026-11-15-S015",
+  "session_started_utc": "2026-11-15T07:23:42Z",
+  "session_planned_end_utc": "2026-11-15T12:23:42Z",
+  "requested_session_seconds": 18000,
+  "session_status": "active",
+  "session_checkpoint_utc": "2026-11-15T07:26:45.963481+00:00",
   "background_execution": false,
   "phase": "joint-export-destination-decoder-and-nonordinary-complex-row",
   "target_kappa": "1/200",
@@ -317,7 +323,7 @@
     "final_validation": "sessions/2026-11-14-S012/FINAL-VALIDATION.json",
     "complete_record_in_archive": "sessions/2026-11-14-S013/logical-records-at-cp8/STATE.json"
   },
-  "latest_checkpoint_session": "2026-11-15-S014",
+  "latest_checkpoint_session": "2026-11-15-S015",
   "s013": {
     "status": "last published record active at checkpoint9; continuation recovered in S014",
     "starting_remote_sha": "3dc8e992ef59f4b8db1c173263a646b618ecf1e1",
@@ -497,5 +503,17 @@
     "git_cli_push": "no credentials",
     "publication": "connected Git Data API, exact-tree and expected-HEAD nonforced update"
   },
-  "session_closed_utc": "2026-11-15T04:03:51.785353+00:00"
+  "session_closed_utc": null,
+  "s015": {
+    "starting_remote_sha": "eefa411ebab86271d50b56b6953af3a157366bdb",
+    "started_utc": "2026-11-15T07:23:42Z",
+    "planned_end_utc": "2026-11-15T12:23:42Z",
+    "requested_seconds": 18000,
+    "status": "active",
+    "starting_state": "sessions/2026-11-15-S015/START-STATE.json",
+    "protected_allocation": "A: actual receiver26 and shared BIT decoder construction; B: surviving three-query complex caller and changed architecture; C: independent shared-access theorem and adversarial decoder review. All three mathematics-first; root whole-system proof review and integration.",
+    "background_execution": false,
+    "new_packages": [],
+    "mathematical_status": "Resumed verified S014 frontier; no new result admitted at startup."
+  }
 }

@@ -1,0 +1,77 @@
+{
+  "session": "2026-11-15-S015",
+  "checked_utc": "2026-11-15T07:25:09Z",
+  "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "programme_start": "eefa411ebab86271d50b56b6953af3a157366bdb",
+  "targeted_updates_since": "2026-11-15T03:58:43Z",
+  "guidance": [
+    {
+      "path": "AGENTS.md",
+      "blob": "ff81117fca368042f6092964d1f54eb4e6e08fb9",
+      "equals_programme": true
+    },
+    {
+      "path": "autoresearch.md",
+      "blob": "2fe84a7b30b1e26e60ce0ec4775894eb1831c5d6",
+      "equals_programme": true
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "blob": "5185786f2ec00f215019fb5777d70979429690a9",
+      "equals_programme": true
+    },
+    {
+      "path": "docs/research/current-priorities.md",
+      "blob": "6f5d40d13d8f3bdc12ce7954c8c3eb4ab1f8be91",
+      "equals_programme": true
+    },
+    {
+      "path": "docs/research/bottleneck-brief.md",
+      "blob": "df5b2001ceedde599cf18d7362cebe3bf7c7e00b",
+      "equals_programme": true
+    }
+  ],
+  "prs": [
+    {
+      "number": 7611,
+      "title": "P104: four stay drops on #7608 (mains 185, 82 at F1062; main 46 at F914+F245), conditional kappa 0.00365242381187 (CLEAR-content premise)",
+      "state": "open",
+      "merged": false,
+      "head_sha": "bbdbc8aea2f4fd94a927f6d8c438372c0c69ae6c",
+      "head_repository": "DreamingOfClouds/integer-mult-bounds",
+      "head_ref": "research/p104-four-stay-drops",
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "updated_at": "2026-11-15T04:49:07Z",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7611",
+      "body": "## Result\n\nConditional κ = **0.00365242381186666478…**, ×1.0003978 (+0.03978%) over #7610 (κ 0.00365097153936). This word contains #7610's main-46 drop at the 245 stay and supersedes it. Base: the word of #7608 (vendored in `data/`), which is aliromman's #7605 with one edit, on FanPUYen's #7604, SYLforge's #7603, ToikY's #7546 and our #7601.\n\nFour non-owned stays are dropped: mains 185 and 82 at chart 1062, and main 46 at charts 914 and 245 (main 46 now goes 513→127 directly). One joint exact repair (5 corrections) and 40 premix ops at chart 3 (frame {0}; 38 ADDs and 2 SCALEs) keep all 1,569 rows, end charts, owned MOVEs, lifetimes (74), peak (50), header, caller data and grid equal #7608's. Three new public chart pairs, each a strictly nested ascent: (401,922) 2→7, (513,127) 3→9, (740,1071) 3→6. Native paid delta is {1:−3, 2:−2, 4:−1, 5:+1, 6:+1}, charged 17 times; paid positions are 110,349 → 110,281 with S = 1,424.\n\n## Official tools\n\n- `compare_recursive_invoices.py` #7608 → new: `uniformly_better`, strictly negative for r^(1−C), paid {1:−51, 2:−34, 4:−17, 5:+17, 6:+17}, targets unchanged.\n- `evaluate_recursive_power.py` (256 bits): `new_cost_lower` at C = 0.0036524238118 (and at #7610's 0.0036509715393 and #7608's 0.003650749565983); `new_cost_higher` at C = 0.0036524238119.\n- `scripts/research_package.py --package research/p104-four-stay-drops`: PASS (`check.py` and `price.py` included).\n\n## Premise: CONDITIONAL\n\nThis word inherits #7608's CLEAR #44 content premise and adds none: CLEAR #44 (owned 1557) erases `{451:−1, 1495:1}`, and all 74 CLEARs erase exactly #7608's content (checked by `check.py`). If #7608's premise is refused, this word is void with #7608 (and #7610).\n\nNot rerun: signed #7113 caller, outer predicates, precision/tape. Header, rows, grid and owned data are unchanged. An independent read-only audit found the word sound relative to #7608; no upstream maintainer has reviewed it.\n\nCredit: DreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code. Builds on #7610, #7608 and aliromman's #7605.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n"
+    },
+    {
+      "number": 7612,
+      "title": "Conditional κ = 0.003652740309 (+>3.16496849e-7 over #7611)",
+      "state": "open",
+      "merged": false,
+      "head_sha": "e814828ee5b869c9468282d57ba28c364b07d130",
+      "head_repository": "Clear1nsight/integer-mult-bounds",
+      "head_ref": "kappa-contact134329-7611-20261115",
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "updated_at": "2026-11-15T06:32:32Z",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7612",
+      "body": "## Change and mathematical scope\n\nConditional κ = **0.003652740309**, a certified improvement of **more than 3.16496849×10⁻⁷ above #7611’s raw upper bound**, from one occurrence-bound contact rechart. Fields 134 and 329 meet at chart 373 instead of 618. Their incident ranks `(3,1,1,4)` become `(2,0,2,5)`; the zero leg is omitted. Both arbitrary arrays, including absolute phase, return to the immediate source’s required outgoing charts before any exterior observer.\n\nAcross the unchanged 17-call signed caller, `ΔP={1:-34,2:+34,3:-17,4:-17,5:+17}` and `ΔT={}`. Paid positions fall **110,281→110,264**; productive positions remain **22,461**, surplus **1,424**. No extra paid MOVE or owned lifetime is introduced. The scalar operation stream, external endpoints and all 74 ordered erased rows agree with #7611.\n\nThis is a conditional successor for substantive review. The five inherited framework assumptions remain; the #7608/#7611 CLEAR44 service/content interpretation remains explicit. This PR adds no changed erased row relative to #7611 and does not change the selected frontier.\n\n## Task and overlap\n\nBase: current canonical main `e54523517d0f03e58352e647c403a5af3e525a57`, priority revision 8, task `p104-side-correction`. Scope changed from the frozen card to this exact public 134/329 contact on the newer published word, with the reason recorded in TASK.json.\n\nImmediate source #7611: `bbdbc8aea2f4fd94a927f6d8c438372c0c69ae6c`. Retained source/application lineage: #7608 `24b082992cf2d7774bc3567540cc36ff58755334` and #7605 `e1d2756eecf03e146338239fee81772a99ba8d4c`. All 166 retained files are authenticated and byte-preserved; no unmerged external Git object is needed for replay. #7610 is a credited historical predecessor, not the comparison word.\n\n[Canonical scoped claim and handoff](https://github.com/CrocSwap/integer-mult-bounds/discussions/7111#discussioncomment-19624227). Latest open PRs through #7611 and relevant live Discussions were checked; related all-state searches and source audits are documented. Numeric searches, unpublished work and non-atomic coverage do not establish novelty. The ongoing dual scan, network compiler and R3TILE regions were excluded.\n\n## Validation\n\nAll six required checks passed against unchanged frozen mathematical source. The original guarded job completed build, physical, independent rows, directed price and native validation, then hit its signed 380s cap during the catalogue sweep. One separately user-approved signed-only completion passed in 493.136s (502.909s controller wall), consuming the successful hash-bound native receipt. The original 1048.028s stop is preserved, not reported as a pass. Both jobs verified 2 GiB, one CPU, no swap before source release and returned empty cgroups.\n\nFinal coverage: **1,569 final rows, 74 erased rows, 66 affected physical pairs, all 3,044 catalogue maps, 104 main-boundary pairs, 17 native calls, and 54 strict + 4 functional outer predicates**. The signed ordinary bound is **782,610,540 < 10⁹**, precision factor **2430**; complete grid, scalar, fixed-tape and compiler counts are recomputed. `evidence/NATIVE.json` and `SIGNED.json`, their original hash-bound receipts, rejecting controls and failed/successful operational records are included. The native engine retains its inherited 18-call diagnostic invoice; the frontier claim uses the reconstructed 17-call `SIGNED.price.after`, whose paid and target histograms independently match `data/invoice-new.json` exactly.\n\nPublication checks passed metadata/pins, all 209 committed byte identities, regular-file modes and base source-history validation. All 166 retained public source files remain exact; their original CRLF formatting is preserved.\n\nReproduce with Python 3.12, assertions enabled and standard library:\n\n```sh\npython3 -B scripts/research_package.py --package research/p104-contact134-329-on7611\n```\n\nThat generic hook runs four checks with 270s declared total. Full reproduction additionally requires both application commands from `APPLICATION-REPLAY.json`, in the dedicated Python 3.12 / 2 GiB / one CPU / no swap environment (550s/595s per-command caps; 1200s application job):\n\n```sh\npython3 -I -B research/p104-contact134-329-on7611/application.py --stage native --work .contact134329-native-ff380ae0\npython3 -I -B research/p104-contact134-329-on7611/application.py --stage signed --work .contact134329-signed-ff380ae0 --native-result .contact134329-native-ff380ae0/producer54/validation_native/NATIVE-RESULT.json --native-adapters .contact134329-native-ff380ae0/CONTACT-ADAPTERS.json\n```\n\nStart with fresh native/signed work directories. Signed validation requires the freshly generated, hash-bound native receipt and counted adapter ledger; the old #7605 receipt is rejected.\n\nExact rational forward and reverse audits cover all 1,569 final rows and 74 erased rows. Six pairs receive all 512 forward and 512 adjoint Gaussian columns, with exact phases. The complete 66-pair affected union receives all 18 signed Pauli generators and an exact basis-zero phase column, forward and adjoint; the Clifford commutant proof is in PROOF.md. The other 60 pairs are not reported as densely executed columns. Both directed pricing engines, comparator rejection, complete native and signed application, grids, ownership, COPY guards, ordinary work, precision/tape/compiler and all 58 outer predicates passed. The generic hook alone does not run the two dedicated application stages; the full six-check sequence was executed across the two guarded jobs, not rerun after evidence assembly.\n\nThe certified fixed-invoice crossing is in `[0.00365274031102657318115234375, 0.00365274031162261962890625]`; remaining raw headroom over the claim is between 2.02657318115234375×10⁻¹² and 2.62261962890625×10⁻¹². This ceiling concerns this invoice and caller, not other constructions. Earlier #7610 timed stops remain preserved and are not qualified gains. Author-side finite checks and AI reviews are separate from independent human/formal acceptance.\n\n## Credit\n\nAli Romman (#7605 and full application); DreamingOfClouds (#7601/#7607/#7608/#7609/#7610/#7611); SYLforge (#7603); Hao Yan (#7604); ToikY (#7546/#7544); Rohan Arun (#7113 caller and #7122/#7124 rechart methods); Clear1nsight, dillona, CubeJerry and all nested source authors retain their credit and licenses. Substantial OpenAI Codex, verified ChatGPT Pro and 20 scoped GPT-6.1-Terra-high source/feasibility agents assisted this author-side work. Classical conjugation, Clifford equality and concave-order methods are credited as retained methods.\n\n## Open next questions\n\nRequest **independent substantive and frontier review** of this conditional successor. First inspect the five literal edits, then reproduce all six checks (four registered and two dedicated application commands) and examine the phase-bearing compiler quotient, complete signed invoice, inherited CLEAR44 service and fresh native-to-signed receipt chain. Independent acceptance and the five framework assumptions remain blockers to admission. No follow-on region is reserved; no merge or selected-record change is requested by this contribution.\n"
+    },
+    {
+      "number": 7613,
+      "title": "P104: contact 902/1091 rechart on #7612 (618→373), conditional kappa 0.00365305686569 (CLEAR-content premise)",
+      "state": "open",
+      "merged": false,
+      "head_sha": "bde25de30596406f5bcbc41cbce8fe37462d97c2",
+      "head_repository": "DreamingOfClouds/integer-mult-bounds",
+      "head_ref": "research/p104-contact902-1091-on7612",
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "updated_at": "2026-11-15T06:47:11Z",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7613",
+      "body": "**Conditional κ = 0.003653056865686921592…, ×1.0000867 (+0.00867%) over #7612** (exact crossing 0.00365274031123). Official `evaluate_recursive_power` bracket [0.0036530568656, 0.0036530568657].\n\nThis applies the contact-rechart move of Clear1nsight's #7612 (the move pattern is theirs) to a second public pair, 902/1091. #7612 is built on our #7611 and #7608.\n\n**Edit.** On #7612's word, `ADD 1091 += 1/2·902` is retagged from chart 618 to 373. Field 902 goes 3→373→913 (was 3→618→913), field 1091 goes 373→733 (the hop 373→618 is deleted), and two adjacent MOVEs of different registers are swapped (they commute). No new chart pair; all rows, end charts, owned MOVEs, lifetimes, header and CLEAR content equal #7612's. Paid 110,264 → 110,247, rank surplus S = 1,424 unchanged, native paid delta {1:−2, 2:+2, 3:−1, 4:−1, 5:+1}.\n\n**Official tools.** `compare_recursive_invoices` against #7612: `uniformly_better`, strictly negative, paid {1:−34, 2:+34, 3:−17, 4:−17, 5:+17}. `evaluate_recursive_power` (256 bits): `new_cost_lower` at C = 0.0036530568656, `new_cost_higher` at 0.0036530568657.\n\n**Checks.** `python3.12 -B scripts/research_package.py --package research/p104-contact902-1091-on7612` passes (`check.py`: exact rational replay, legality, rows/CLEARs equal #7612, 12 rejecting controls; `price.py`). Strictification gate run offline: γ 0.941030, δ 0.908151 (< 31/32). An independent read-only audit found the word sound relative to #7612.\n\n**Premise (conditional, inherited, nothing new).** Owned CLEAR #44 (field 1557, chart 595) erases `{451:−1, 1495:1}` and `owned_erasure` must admit it, exactly as for #7608/#7612. All 74 CLEARs here erase #7612's content. If that premise is refused, this word is void with #7612. The signed caller, outer predicates and precision/tape counts are not rerun (header, rows, grid and owned data unchanged).\n\nCredit: Clear1nsight's #7612 (base word and move pattern), #7611, #7608 and the lineage in the package NOTICE. DreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n"
+    }
+  ],
+  "disposition": "PR metadata and full descriptions read. All are open, unmerged source-bound incremental successors; no full replay, supplier admission or selected change. No immediate joint-source/caller obligation is discharged.",
+  "discussion_coverage": "Public start-here, handoff thread and current discussion list inspected via web. Paginated handoff comments are partial coverage; no no-overlap guarantee."
+}

@@ -1564,3 +1564,31 @@ Starting remote9fb0a34adad2f5903d3169fee7f7a7fcb6f03e3a; last confirmed scientif
 Three agents worked complementary mathematics-first construction, bridge and adversarial roles throughout successive waves; root reviewed, independently checked and integrated. Final source/manifests/ledger audit preserves all predecessor entries and qualifications. The next single main obligation is the joint BIT payload/destination/receiver decoder from the two-output family; receiver26 is the concrete unbuilt lead. Canonical main unchanged; open7606–7610 selectively reviewed without admission. Programme ongoing, not PR-ready, no background execution. Final closure SHA is confirmed separately after publication; see FINAL-HANDOFF.md and FINAL-VALIDATION.json.
 
 Final scientific closure was confirmed as b4e3eb5f0fa7e73044628d6224142aca4eaa8a64. A final routing-only child synchronizes CONTINUATION.md with the already proved frontier and records this exact receipt; no scientific classification changes.
+
+
+## 2026-11-15-S015 — five-hour continuation, startup
+
+Started 2026-11-15 07:23:42 UTC at exact remote HEAD
+eefa411ebab86271d50b56b6953af3a157366bdb; planned end 12:23:42 UTC.
+The latest user instruction extends the planning budget to five hours.
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; root
+authenticated current instructions against canonical blobs. S014 is closed;
+its verified two-output source and nonordinary-row frontier are resumed.
+Untracked historical work-in-progress files are not admitted dependencies.
+
+Three live workers protect mathematics-first discovery: A constructs the
+receiver26 route and seeks shared delivery; B attacks the surviving same-side
+three-query caller or a decisive architectural replacement; C investigates
+joint payload/destination/correction geometry and independently challenges
+construction claims. Root reviews complete budgets, proofs and source pins.
+The final quarter is reserved for verification, integration and publication.
+New open PRs7611–7613 were inspected at exact heads; their descriptions report
+incremental conditional source edits with inherited CLEAR-content premises.
+No full replay or scientific admission was performed, and none changes the
+selected record. Discussion coverage is explicitly partial.
+
+Primary next step: realize DC1_2 delivery to receiver26 with actual six local
+corrections, then prove or construct sharing across enough receivers. Complete
+BIT/complex suppliers, target1/200 and all five foundations remain open.
+No new kappa, no upstream PR, no asynchronous/background continuation.
+The startup resulting remote SHA is recorded after confirmation.
