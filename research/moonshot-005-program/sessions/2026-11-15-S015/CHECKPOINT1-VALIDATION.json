@@ -1,0 +1,74 @@
+{
+  "session": "2026-11-15-S015",
+  "baseline_sha": "23bc313445661f58daa957fb7fa340672c8912e0",
+  "status": "PASS_NINE_S015_CHECKPOINT1_REPRODUCTIONS",
+  "jobs": [
+    {
+      "id": "receiver_author",
+      "command": "python3 -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-receiver26-correction/receiver26.py --repo /workspace/scratch/37aefc7b5f05/programme --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/receiver-author > /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/receiver-author.log",
+      "exit_code": 0
+    },
+    {
+      "id": "receiver_root",
+      "command": "python3 -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-receiver26-correction/root-review/check.py --repo /workspace/scratch/37aefc7b5f05/programme --words /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-receiver26-correction/receiver26-output --output /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/receiver-root.json > /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/receiver-root.log",
+      "exit_code": 0
+    },
+    {
+      "id": "export_author",
+      "command": "python3 -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-single-local-export-gate/check.py --repo /workspace/scratch/37aefc7b5f05/programme --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/export-author > /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/export-author.log",
+      "exit_code": 0
+    },
+    {
+      "id": "export_root",
+      "command": "python3 -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-single-local-export-gate/root-review/check.py --repo /workspace/scratch/37aefc7b5f05/programme --certificate /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-single-local-export-gate/CERTIFICATE.json --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/export-root.json > /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/export-root.log",
+      "exit_code": 0
+    },
+    {
+      "id": "ground_author",
+      "command": "python3 -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-common-ground-export-cut/check.py --repo /workspace/scratch/37aefc7b5f05/programme --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/ground-author.json > /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/ground-author.log",
+      "exit_code": 0
+    },
+    {
+      "id": "ground_root",
+      "command": "python3 -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-common-ground-export-cut/root-review/check.py --repo /workspace/scratch/37aefc7b5f05/programme --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/ground-root.json > /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/ground-root.log",
+      "exit_code": 0
+    },
+    {
+      "id": "coset_author",
+      "command": "python3 -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/complex-three-query-coset-gate/check.py --repo /workspace/scratch/37aefc7b5f05/programme --output /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/coset-author.json > /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/coset-author.log",
+      "exit_code": 0
+    },
+    {
+      "id": "coset_c",
+      "command": "python3 -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/complex-three-query-coset-gate/independent-c/check_independent.py --repo /workspace/scratch/37aefc7b5f05/programme --package /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/complex-three-query-coset-gate --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/coset-c > /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/coset-c.log",
+      "exit_code": 0
+    },
+    {
+      "id": "total_author",
+      "command": "python3 -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/complex-three-query-total-head-gate/check.py --repo /workspace/scratch/37aefc7b5f05/programme --output /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/total-author.json > /workspace/scratch/37aefc7b5f05/reproduction-s015-cp1/total-author.log",
+      "exit_code": 0
+    }
+  ],
+  "independence": "Root/C proof reviews and separately authored checkers are independent evidence; root reruns of author programs are reproduction only.",
+  "new_complete_kappa": false,
+  "checked_utc": "2026-11-15T07:55:03.442526+00:00",
+  "python": "3.12.14",
+  "old_scientific_entries_checked": 4742,
+  "new_scientific_entries": 48,
+  "scientific_entries_total": 4790,
+  "qualified_absent_historical_entries": [
+    {
+      "path": "results/four-call-dyadic-entry/review/replay.log",
+      "discovered_session": "2026-11-14-S011",
+      "status": "Absent from programme Git tree, predecessor checkout and available path history; old indexed hash retained, not independently reauthenticated. Not cited as proof evidence."
+    },
+    {
+      "path": "results/bit-joint-multicast/mixed-author/__pycache__/build_mixed.cpython-312.pyc",
+      "discovered_session": "2026-11-14-S012",
+      "status": "Generated bytecode entry absent from confirmed baseline db6e513c96cb8ceea10c1071b26a7db1de9fe008. Old hash retained; not proof evidence."
+    }
+  ],
+  "all_reproduced_json_artifacts_byte_identical": true,
+  "old_scientific_hash_mismatches": [],
+  "unqualified_missing_files": []
+}

@@ -2,6 +2,15 @@
 
 **Target open; no new complete kappa.** The selected conditional result remains0.00363005817. Earlier calculations and scopes are preserved in the [checkpoint8 blueprint](sessions/2026-11-14-S013/logical-records-at-cp8/TARGET-005.md). Arithmetic feasibility is not an algorithm.
 
+## S015 current feasibility update
+
+Receiver26 has Q26=152[1]+20[2]+56[3]+60[4]+22[5]+22[6]+111[7]+[8], moment1614.618636809355914... and limiting room7.132243401796441.... Its point-copy control is cheaper by1.1115991922..., so isolated correction collection is not selected. [Proof/invoice](results/bit-receiver26-correction/ADMISSION.md).
+
+For the frozen Q2 source, one source-local rank-one export can complete at most one missing role even under a free G15 grant. Four frame deficits force independent ground exports to have total descent rank at least10 and movement>9.89, exceeding room9.243842595; finite even m is stricter. These are necessary inequalities for declared grammars, not unrestricted decoder lower bounds. [Local gate](results/bit-single-local-export-gate/ADMISSION.md); [ground cut](results/bit-common-ground-export-cut/ADMISSION.md).
+
+For one-native/two-role complex callers, the last three-head inventory is excluded by coset support. Exactly three rank-one queries give h+k<=5 at every fixed head count. For every b>=1 and0<t<1, put a=(b+1)^t-b^t. Then P=4+2b^t+a, T<=2b^t+5a and P-T>=4(1-a)>0. [Coset proof](results/complex-three-query-coset-gate/ADMISSION.md); [Gaussian-Schur extension](results/complex-three-query-total-head-gate/ADMISSION.md). Four-query or changed native/role architectures require fresh complete accounting. Historical S014 open statuses below are superseded within these scopes.
+
+
 ## 1. Strict supplier conditions
 
 The retained nine outer rows require compatible uniform complex U>1/200 and completed ordinary BIT B>1/200. Equality is insufficient. The historical a/(1+a) conversion is not this mixed assembly's rule.

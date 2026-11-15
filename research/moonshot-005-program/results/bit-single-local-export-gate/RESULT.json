@@ -1,0 +1,58 @@
+{
+  "classification": "Source-specific universal linear/block gate with exact finite geometric premises; no decoder construction or new kappa.",
+  "new_complete_kappa": false,
+  "source_pins": {
+    "results/bit-coupled-singular-delivery/worker-a/two-receiver-output/COUPLED-WORD.json": "506b2e5be90448548e5e71d9757028962ed3c74806b328792e6e0b69a8f20ba5",
+    "results/bit-coupled-singular-delivery/worker-a/two-receiver-output/UNCOPLED-WORD.json": "f06ea0a429fe0a2a059fec76ed390383c3ec05b93327fe4d15c1cbf00c9cdac2",
+    "sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e"
+  },
+  "status": "PASS_SINGLE_RANK_ONE_LOCAL_EXPORT_NO_TWO_NEW_RECEIVERS",
+  "variants": {
+    "COUPLED": {
+      "exception": {
+        "equal_local_restriction_hex": "0x122000000000000000000000",
+        "q13_hex": "0x50122000000000000000000004",
+        "q2_hex": "0xd22000000000000000000004",
+        "roles": [
+          2,
+          13
+        ],
+        "source_chart": "D4",
+        "u13_hex": "0x5412a000000000000000002000"
+      },
+      "maximum_new_receivers_per_single_rank_one_export": 1,
+      "missing_receivers": 100,
+      "negative_control_count": 4,
+      "source_charts": 33,
+      "statistics": {
+        "destination_groups": 1774,
+        "groups_with_0_individually_possible_roles": 920,
+        "groups_with_1_individually_possible_roles": 853,
+        "groups_with_2_individually_possible_roles": 1
+      }
+    },
+    "UNCOPLED": {
+      "exception": {
+        "equal_local_restriction_hex": "0x122000000000000000000000",
+        "q13_hex": "0x50122000000000000000000004",
+        "q2_hex": "0xd22000000000000000000004",
+        "roles": [
+          2,
+          13
+        ],
+        "source_chart": "D4",
+        "u13_hex": "0x5412a000000000000000002000"
+      },
+      "maximum_new_receivers_per_single_rank_one_export": 1,
+      "missing_receivers": 100,
+      "negative_control_count": 4,
+      "source_charts": 33,
+      "statistics": {
+        "destination_groups": 1774,
+        "groups_with_0_individually_possible_roles": 918,
+        "groups_with_1_individually_possible_roles": 855,
+        "groups_with_2_individually_possible_roles": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "status": "PASS_EXACT_TOTAL_HEAD_AND_GAUSSIAN_SCHUR_CONTROLS",
+  "helper_sha256": "1d3c798c43b46e1983f4dc80d68e694b93d9cdee206ad4fe4d408e5f5e29ed91",
+  "four_head_source": {
+    "one_column_size": 16,
+    "rank_powers_mod16": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      3,
+      2,
+      1
+    ],
+    "width2_fourth_power_rank": 8,
+    "cycle_gauge_identities": true,
+    "spectator_volume_factor": "4^V relative to two-head source; not a free compiled supplier"
+  },
+  "schur": {
+    "ordinary_partition_ranks": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "rank_of_pure_E2_block": 16,
+    "mutant_rank_with_extra_independent_E2_corner": 32,
+    "reconstructed_high_residual_max_rank": 3,
+    "all_columns_checked": 32
+  },
+  "negative_controls": {
+    "omit_one_query_high_component_rank_gate_rejected": true,
+    "nonhomogeneous_H_needs_prior_Gaussian_normalization": true,
+    "rank3_cross_entry_violates_F2_preword": true,
+    "outer_shear_preserves_isolated_rank4_column": true,
+    "outer_inplace_can_reduce_rank4_to3": true,
+    "duplicate_rank4_outputs_have_only_half_required_rank": true
+  },
+  "scope": "Exact finite source/Schur controls; written universal proof separate. No exhaustive caller search, four-head supplier or new kappa.",
+  "new_kappa": false
+}

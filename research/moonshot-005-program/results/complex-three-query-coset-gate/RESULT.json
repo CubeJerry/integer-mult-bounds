@@ -1,0 +1,212 @@
+{
+  "status": "PASS_EXACT_THREE_QUERY_COSET_DIAGNOSTICS",
+  "cosets": {
+    "ordinary_symplectic_group_size": 10752,
+    "rank_one_queries": [
+      {
+        "query_columns": [
+          2,
+          4,
+          1,
+          16,
+          36,
+          8
+        ],
+        "gH_size": 10752,
+        "gHa_size": 10752,
+        "intersections": [
+          0,
+          0
+        ]
+      },
+      {
+        "query_columns": [
+          2,
+          4,
+          9,
+          16,
+          36,
+          8
+        ],
+        "gH_size": 10752,
+        "gHa_size": 10752,
+        "intersections": [
+          0,
+          0
+        ]
+      },
+      {
+        "query_columns": [
+          4,
+          10,
+          17,
+          32,
+          26,
+          8
+        ],
+        "gH_size": 10752,
+        "gHa_size": 10752,
+        "intersections": [
+          0,
+          0
+        ]
+      },
+      {
+        "query_columns": [
+          3,
+          4,
+          25,
+          16,
+          36,
+          24
+        ],
+        "gH_size": 10752,
+        "gHa_size": 10752,
+        "intersections": [
+          0,
+          0
+        ]
+      },
+      {
+        "query_columns": [
+          2,
+          12,
+          33,
+          16,
+          44,
+          8
+        ],
+        "gH_size": 10752,
+        "gHa_size": 10752,
+        "intersections": [
+          0,
+          0
+        ]
+      },
+      {
+        "query_columns": [
+          2,
+          5,
+          41,
+          16,
+          37,
+          40
+        ],
+        "gH_size": 10752,
+        "gHa_size": 10752,
+        "intersections": [
+          0,
+          0
+        ]
+      },
+      {
+        "query_columns": [
+          6,
+          10,
+          49,
+          32,
+          58,
+          8
+        ],
+        "gH_size": 10752,
+        "gHa_size": 10752,
+        "intersections": [
+          0,
+          0
+        ]
+      },
+      {
+        "query_columns": [
+          3,
+          5,
+          57,
+          16,
+          37,
+          56
+        ],
+        "gH_size": 10752,
+        "gHa_size": 10752,
+        "intersections": [
+          0,
+          0
+        ]
+      }
+    ],
+    "two_sided_products": 256,
+    "negative_controls": [
+      "a=I makes gHa=gH",
+      "g=I makes gHa=Ha"
+    ],
+    "phase_scope": "symplectic quotient checks; exact scalar phases addressed by source identities and written twisted-algebra proof"
+  },
+  "source": {
+    "helper_sha256": "1d3c798c43b46e1983f4dc80d68e694b93d9cdee206ad4fe4d408e5f5e29ed91",
+    "source_rows": [
+      {
+        "width": 1,
+        "p": "phase",
+        "first_shear_normal_form": true,
+        "first_inplace_normal_form": true,
+        "all_columns": 16
+      },
+      {
+        "width": 1,
+        "p": "singular_projector",
+        "first_shear_normal_form": true,
+        "first_inplace_normal_form": true,
+        "all_columns": 16
+      },
+      {
+        "width": 1,
+        "p": "zero",
+        "first_shear_normal_form": true,
+        "first_inplace_normal_form": true,
+        "all_columns": 16
+      },
+      {
+        "width": 1,
+        "singular_w1_and_z1_rank": 4,
+        "pure_E2_row_rank": 8,
+        "whole_intermediate_rank": 16,
+        "nonindependent_fake_output_rank": 8
+      },
+      {
+        "width": 2,
+        "p": "phase",
+        "first_shear_normal_form": true,
+        "first_inplace_normal_form": true,
+        "all_columns": 128
+      },
+      {
+        "width": 2,
+        "p": "singular_projector",
+        "first_shear_normal_form": true,
+        "first_inplace_normal_form": true,
+        "all_columns": 128
+      },
+      {
+        "width": 2,
+        "p": "zero",
+        "first_shear_normal_form": true,
+        "first_inplace_normal_form": true,
+        "all_columns": 128
+      },
+      {
+        "width": 2,
+        "singular_w1_and_z1_rank": 32,
+        "pure_E2_row_rank": 64,
+        "whole_intermediate_rank": 128,
+        "nonindependent_fake_output_rank": 64
+      }
+    ],
+    "negative_controls": [
+      "singular w1,z1 are legal and not divided by",
+      "nonindependent duplicate endpoints have only half the required rank",
+      "one-column Gaussian expansion fails collectively at width2",
+      "minus sign inside tensor is wrong at even width"
+    ],
+    "finite_scope": "widths1,2, exact Gaussian dyadics; modular rank uses Q(i)->F101 with i=10 for exact nonzero minors; universal proof separate"
+  },
+  "scope": "Finite diagnostics accompanying PROOF.md; not an exhaustive caller search or a new multiplier",
+  "new_kappa": false
+}

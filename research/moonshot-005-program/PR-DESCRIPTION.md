@@ -2,6 +2,13 @@
 
 **Cumulative draft; not ready for submission. No new kappa.** This permanent branch is an ongoing programme. It creates no upstream PR and changes no selected certificate. The user will review and submit any eventual contribution.
 
+## S015 extension: source access and three-query closure
+
+Receiver26 now has an actual all-column correction composition and a cheaper point-copy control that prevents a spurious improvement claim. Two field/width-universal gates sharpen the fixed BIT interface: one local rank-one export serves at most one missing receiver, and independent ground completion needs movement>9.89 against9.243842595 of allowance. Source chronology or intermediate sharing must change within this route.
+
+Exact coset support closes the previously surviving pure(3,3) complex caller, including noncommuting ordinary zero divisors. A distinct Gaussian-corner/Schur argument proves h+k<=5 for three rank-one queries at any fixed head count, with strict complete common-body deficit. Proofs, dependency pins, independent reviews and meaningful controls accompany all five packages in [the registry](REGISTERED-RESULTS.json). **No new kappa.** Changed-source/query constructions, complete uniform suppliers and all five foundations remain open. The branch is not PR-ready.
+
+
 ## Motivation and architecture
 
 The retained framework requires compatible uniform complex and completed ordinary BIT suppliers both strictly above1/200. A cheap local source, small residual rank or positive finite moment does not establish either supplier. Information must exist at its actual charts, survive a legal chronology, reach every receiver and be erased or restored with all recursive and ordinary expenses paid.

@@ -13,11 +13,11 @@ There is no materialized uniform multiplier or formal-kernel acceptance here.
 The first milestone is a complete conditional target theorem with all remaining
 foundations explicit. An unconditional result must prove or bypass each one.
 
-## Current construction at S014 closure
+## Current construction at S015 checkpoint1
 
-The singular BIT source is now acquired on eight principal packet histories with seven paid moving masks, while restoring all original inputs and completing two outputs. Delivery is the main missing theorem. Resume from this two-output family before its optional suffixes: the nine-output prefix fails a proved 3V export cut, and the three-cache shared reservoir has an exact destination/access obstruction. Its unused limiting movement room is9.243842594, a necessary movement-only margin, not full supplier admission. Preserve both coupled and uncoupled controls.
+The singular BIT source retains eight packet histories, seven paid masks and two completed outputs. Its fixed-source continuation has two new obstructions: one source-local rank-one export cannot complete two missing roles, and independent direct-to-ground exports cost more than9.89 against9.243842595 of limiting movement room. Receiver26's correction chronology is valid but dearer than its direct point control. These results justify changing source chronology or using intermediate interaction. An off-code point-seed/public-Y-feedback source is undergoing independent review; it is not admitted at this checkpoint.
 
-The complementary complex construction has moved to three heads. A complete fixed-model invoice exhaustion leaves exactly three rank-one queries, all on one side, with independent rank-three endpoints as the only potentially positive inventory. An exact nonordinary initial row is constructed; its simplest next completion is excluded. The actual caller, uniform ordinary compilation, complete suppliers and all five foundations remain open. See [final handoff](sessions/2026-11-15-S014/FINAL-HANDOFF.md) and [STATE.json](STATE.json).
+The complex coset obstruction closes the last three-head inventory. A separate Gaussian-Schur theorem proves h+k<=5 for any fixed head count with exactly three rank-one queries around the one-native/two-role source. Its complete common-body movement invoice is strictly unprofitable. Construction now seeks a changed query/native/role structure. Complete suppliers, physical/recursive admission and five foundations remain open. See [STATE.json](STATE.json) and [current continuation](CONTINUATION.md). Dated sections below preserve prior development; former open candidates are superseded by the current status above.
 
 ## Protected Mathematics-First Discovery Track
 

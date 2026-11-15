@@ -2,6 +2,21 @@
 
 Statuses mean PROVED within the stated quantifiers, CONDITIONALLY PROVED from named premises, COMPUTATIONALLY VERIFIED on a finite domain, DISPROVED WITHIN SCOPE, or OPEN. Source-specific obstructions are not multiplication lower bounds. The [exact earlier map](sessions/2026-11-14-S013/logical-records-at-cp8/OBLIGATIONS.md) and [registered result index](REGISTERED-RESULTS.json) preserve all earlier obligations and conclusions.
 
+## S015 current dependency update
+
+| Obligation | Status and quantified result | Dependencies / next step |
+|---|---|---|
+| BIT-RECEIVER26-COMPOSITION | PROVED all characteristic-two fields/V: correction chronology restores111 X and completes17/26/34; dearer than direct point control. | [Admission](results/bit-receiver26-correction/ADMISSION.md), exact sources/geometry. Joint sharing remains open. |
+| BIT-SINGLE-LOCAL-EXPORT-GATE | PROVED: both fixed variants, one source-local whole-V payload through one rank-one destination completes at most one missing role. | [Dual proof](results/bit-single-local-export-gate/ADMISSION.md);33 charts, free G15, arbitrary blocks. Multiple interaction/new information outside scope. |
+| BIT-COMMON-GROUND-EXPORT-CUT | DISPROVED WITHIN SCOPE: independent actual-handoff ground completion under retained invoice. | [Four-frame cut](results/bit-common-ground-export-cut/ADMISSION.md); rank>=10, movement>9.89>room. Change chronology/interaction. |
+| COMPLEX-THREE-QUERY-CALLER | DISPROVED WITHIN SCOPE, superseding S014 OPEN: independent pure(3,3) caller cannot exist. | [Coset proof](results/complex-three-query-coset-gate/ADMISSION.md), faithful group/native/ordinary two-role model. |
+| COMPLEX-THREE-QUERY-TOTAL-HEAD | PROVED: exactly3 rank-one queries imply h+k<=5 at any fixed head count, with strict complete movement deficit. | [Gaussian-Schur proof](results/complex-three-query-total-head-gate/ADMISSION.md), coset gate and rank triangles. |
+| BIT-CHANGED-POINT-SEED-SOURCE | UNDER REVIEW: point seed/public-Y cancellation may remove a query while preserving W15 history. | Exact222-column replay/history/price/independent review required; no admission here. |
+| BIT-JOINT-DECODER / COMPLEX-CHANGED-CALLER | OPEN primary constructions. | Actual chronology, changed query/native/role graph, strict uniform suppliers and every physical/recursive cost. |
+
+Dated maps below preserve earlier results and former open questions. This section gives current status without erasing earlier conclusions or extending their scopes.
+
+
 ## End-to-end chain
 
 | ID | Proposition and current status | Dependencies / missing proof |

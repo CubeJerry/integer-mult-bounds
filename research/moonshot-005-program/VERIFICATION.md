@@ -6,6 +6,13 @@ Rerunning an author's checker is not an independent proof. All original
 scientific bytes are authenticated by [SCIENTIFIC-FILES.json](SCIENTIFIC-FILES.json).
 The full historical ledger is preserved [byte exactly](sessions/2026-11-13-S010/logical-records-at-cp12/VERIFICATION.md).
 
+## S015 checkpoint1 independent verification
+
+Five packages are admitted with nine successful author/reviewer reproduction commands. All reproduced JSON bytes match the reviewed artifacts. Receiver26 has a separate root rational-chart/all222-column replay and exact price check; local export has a separate root quotient-normal/dual check; ground export has a separate root cell/frame/invoice proof. The coset theorem has independent root and Worker C mathematical reviews plus C controls. The total-head theorem has root's detailed independent mathematical review; its finite checks reuse a disclosed pinned helper and are author diagnostics. See [ledger](sessions/2026-11-15-S015/CHECKPOINT1-VALIDATION.json) and each ADMISSION/MANIFEST.
+
+All dependency hashes and the companion proof are authenticated. Receiver semantic mutants, local dual mutants, ground cell/cut controls and complex support/rank/endpoint controls delimit the claims. Exact finite certificates and universal written arguments are distinguished. The two qualified absent historical files remain excluded from proof evidence. No foundation is silently discharged.
+
+
 ## Primary pins
 
 | Input | SHA256 |

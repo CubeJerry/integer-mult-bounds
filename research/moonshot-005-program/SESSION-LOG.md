@@ -1592,3 +1592,9 @@ corrections, then prove or construct sharing across enough receivers. Complete
 BIT/complex suppliers, target1/200 and all five foundations remain open.
 No new kappa, no upstream PR, no asynchronous/background continuation.
 The startup resulting remote SHA is recorded after confirmation.
+
+### S015 checkpoint1 — reviewed access gates and complete three-query closure
+
+Starting programme SHA eefa411ebab86271d50b56b6953af3a157366bdb; this scientific checkpoint uses verified startup parent23bc313445661f58daa957fb7fa340672c8912e0. Five packages are admitted: actual receiver26 correction (valid but more expensive than direct point delivery); all-field/block single-local-export gate; four-frame independent-ground movement obstruction; exact three-query coset gate; and h+k<=5 Gaussian-Schur extension for arbitrary fixed head count. The latter closes the old complex three-head caller and its unequal higher-head three-query escape. These are scoped partial/negative results, not a new kappa.
+
+Nine author/reviewer reproduction commands pass, all reproduced JSON matches reviewed bytes, all prior scientific hashes remain intact with the two retained absent-file qualifications, and critical claims have separate root/C mathematical review. Changed-source point seeding with public-Y cancellation is under review as the next constructive direction; the old fixed-source obstructions do not apply automatically. Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; startup PR7611/7612/7613 were open, not adopted. Resulting remote SHA will be recorded only after GitHub confirms publication, in the following receipt/checkpoint; no self-referential SHA is embedded. Next: admit or reject changed source from actual chronology, then build its joint receiver decoder and a changed complex caller.
