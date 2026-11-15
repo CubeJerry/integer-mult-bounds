@@ -18,13 +18,14 @@ actual acquisition, normalized information, every receiver correction, strict
 supplier admission and all five retained foundations. Raw W15 history alone
 and few-output words do not establish this proposition.
 
-The current actual construction changes query flags to create shared packet
-tails and attains D44/W10 in one copy. A fixed two-copy representation remains
-available, with fully scaled costs and direct-sum caller endpoints required.
-The principal missing theorem is joint source formation and receiver delivery
-with actual chronological availability at shared facets. Existing full-history
-sources and a few completed outputs do not establish it. W15/30 is sufficient
-for a retained decoder, not necessary for every new code.
+The current actual source completes3/76/80 together in four paid copies,
+with one shared A2 cache and one chronological canonical bank. Its optimal
+chartwise repair now gives an explicit way to pay for nonseparable held
+projections. The principal missing theorem is compatible acquisition across
+distinct shared charts and overlapping private originals, preserving source
+availability, all endpoints and the complete target invoice. The paired-tail
+D44/W10 and two-copy alternatives remain verified predecessors below.
+Raw histories or a few completed outputs do not establish the complete native.
 
 ## Proven enabling results and exact constraints
 

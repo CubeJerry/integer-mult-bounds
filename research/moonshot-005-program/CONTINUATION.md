@@ -1,7 +1,8 @@
 # Resume the actual shared source through its optimal query repair
 
-S015 mathematical milestones are complete; final publication and handoff
-verification close its planned five-hour execution.
+S015 mathematical work and independent review are complete. Mathematical
+checkpoint41839f674ba33770acb31689d40f672b3a9d91de is remotely confirmed;
+the closing recovery receipt is committed on that exact parent.
 Read exact remote HEAD, STATE.json and latest validation. Selected conditional
 κ=.00363005817; target1/200, complete suppliers and all five foundations remain
 open. No background execution; ongoing/notPRready; no upstreamPR submitted.

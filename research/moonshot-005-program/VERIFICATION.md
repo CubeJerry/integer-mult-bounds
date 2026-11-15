@@ -654,3 +654,18 @@ Expected: seven/eight and two/two command/byte-identical comparison counts.
 CHECKPOINT10-VALIDATION.json records exact pins, scope and publication checks.
 Frozen author status labels are superseded by admissions/reviews without
 rewriting historical evidence. No finite test is treated as an asymptotic proof.
+
+## S015 final remote and review closure
+
+GitHub confirmed mathematical commit `41839f674ba33770acb31689d40f672b3a9d91de` and exact tree `c8b383de4d6584ce612467306f90d67eb08683c0` after
+expected-HEAD, nonforced publication. Local Git matches that remote snapshot.
+The closing reviews preserve four B input pins, including two exact historical
+summary snapshots, and five C input pins authenticated at that commit.
+C supplies an additional independent written helper-proof audit, not a second
+run of A's checker. Both summary wording corrections are resolved. See
+[closing review manifest](sessions/2026-11-15-S015/closing-reviews/MANIFEST.json)
+and [final validation](sessions/2026-11-15-S015/FINAL-VALIDATION.json).
+
+All prior available scientific files retain their exact hashes and Git
+tracking; the same two explicitly qualified historical absences remain.
+The final receipt introduces no changed proof or new theorem claim. No newκ.

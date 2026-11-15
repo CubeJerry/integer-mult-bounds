@@ -129,6 +129,14 @@ next positive step is an actual profitable caller with noncommuting ordinary
 interstages, all body/idles, phases and spectator volumes charged.
 [Sources and scope](results/complex-entangling-native-source/ADMISSION.md).
 
+The final full-parabolic radial potential investigation is resolved within
+its exact representation scope. On135 Lagrangians, arbitrary-field radial
+matrix-block commutator half-ranks satisfy q2≤q1 and4q3≤5q1; the Hilbert-valued
+analogue has sharp q2≤3q1/2. These exclude the proposed linear calibration in
+those families, not a profitable physical caller. Off-diagonal intertwiners
+and other representations remain open.
+[Proofs and independent reviews](results/complex-parabolic-potential-limits/ADMISSION.md).
+
 ## Continuity, verification and success
 
 Read [STATE](STATE.json), [continuation](CONTINUATION.md), [target inequalities](TARGET-005.md)

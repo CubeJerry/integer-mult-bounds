@@ -1875,3 +1875,35 @@ avoiding self-reference, and is available from the permanent branch HEAD.
 The final discovery review adds the new optimal repair and the independently
 reviewed potential-family limits to MilestoneA. MilestoneB is still unmet.
 No further speculative wave was launched during final evidence integration.
+
+### S015 closing recovery receipt
+
+At 2026-11-15T12:17:08Z, final mathematical checkpoint10 is confirmed on GitHub:
+`41839f674ba33770acb31689d40f672b3a9d91de`, exact tree `c8b383de4d6584ce612467306f90d67eb08683c0`. The session began at07:23:42UTC
+from eefa411ebab86271d50b56b6953af3a157366bdb and used its planned five-hour
+window through12:23:42UTC for successive construction, adversarial review,
+verification and nonforced publication. The final receipt itself records its
+confirmed parent; its resulting SHA is checked separately and reported in the
+user handoff, avoiding a self-referential commit field.
+
+B's closing claim/scope review is preserved with its exact pre-correction
+snapshots. Its two wording corrections are applied: noncommuting order9 versus
+entangling order15, and movement-only labeling of the hypothetical helper
+module. C's additional independent written-proof audit accepts the exact helper
+construction and scope. Nine reviewer input pins are authenticated, and every
+previously available scientific hash remains unchanged. These reviews add no
+new computational experiment or duplicate theorem record.
+
+The source has progressed from the S014 two-output/fixed three-query frontier
+to the actual common-prefix A2 decoder and optimal paid query repair. Seventy-
+two S015 registered results retain their own scopes, dependencies and reviews;
+none is a new completeκ. Historical repaired inferences remain explicitly
+qualified, including the scalar-cover batching correction. No upstream PR was
+submitted and no selected certificate changed. All workers are finished;
+there is no scheduled background continuation.
+
+Next single obligation: actual cross-chart source acquisition extending the
+shared A2 source, with overlapping private originals and the proved helper
+repair where needed. Build an actual next receiver extension, then prove and
+price the complete source/receiver/canonical/restoration interface. Complete111,
+strict compatible BIT/complex suppliers and all five foundations remain open.
