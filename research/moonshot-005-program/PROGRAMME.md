@@ -65,35 +65,38 @@ The central frontier is therefore a shared-facet decoder with a stronger
 actual source, chronological canonical acquisition and fully paid restoration.
 Local correction is constructed; simultaneous global supply remains missing.
 
-## Current frontier: one actual shared-source A2 composition
+## Current frontier: earlier source access and hierarchical delivery
 
-One actual source now jointly completes native3,76,80 in four paid copies.
-Their A2 normal relation gives one common cache chart,36 common roots and
-disjoint private22/24/26. One canonical36 bank reaches ground before any Y
-moves; all444 X restore. Counts:40owners,5012ADD,1416MOVE,40dirtyCLEAR;
-normalized movement1612.6715944342428174.... This is one common prefix, not
-three reset local words. Independent A and B reviews check888 original columns.
-The remaining108 receiver groups are unfinished.
-[Source](results/bit-joint-a2-mds-source/ADMISSION.md).
+The actual cross-chart source obligation has its first constructive solution.
+One source completes0/3/76/80; a separate A3 source completes1/3/73/76/77/80.
+Owned sums are captured once at incomparable source charts and descend to a
+common meet. The six-source captures two pivot originals at their native lines
+before recoding, repairing the canonical query deficit at rank1 rather than
+rank7. All111 X restore, all arbitrary Y columns are tracked and every owner
+retires. [Source and independent replay](results/bit-shared-meet-funnel/ADMISSION.md).
 
-The earlier80-bank theorem for every individual receiver remains useful.
-Terminal36,completed-history60 and transient Hub444 are distinct. History60
-is not the old fixedW15 code: its canonical enlargement would need64 physical
-dimensions. Develop the new source on its actual canonical/MDS interface.
+The new universal early-lift theorem permits the earlier helper to have a real
+Hub component, provided the principal seed compensates it. The first-arrival
+span remains c+Delta. An exact triangle relation also removes one redundant
+A3 cache modulo the actual canonical code; its literal new word is pending
+review. [Bridge and scope](results/bit-early-helper-lift/ADMISSION.md).
 
-From the triple's pure-Y canonical cut onward, its frozen X/owned suffix
-cannot finish another receiver by arbitrary linear Y relays:432 duals prove
-a4V gap at every other role. Earlier Y acquisition or changed source paths
-remain outside this scope. A canonical query basis reading at most one held
-chart per field exists iff its held image splits into chart-local subspaces.
-The current disjoint private-pivot recipe fails beyond four receiver groups.
-[Interface proofs](results/bit-a2-source-interface/ADMISSION.md).
+The economic comparison changes the next research direction. Present four/six
+funnels cost more than direct point-copy controls for those partial endpoints.
+Moreover a complete linear all-information-at-ground continuation costs at
+least222[7]+111, above the target allowance. The source must preserve or deliver
+information at useful intermediate charts. Construct a multiple-meet hierarchy
+or changed moving canonical history with a complete feasible invoice; simply
+extending the flat funnel is not the current plan.
 
-The primary next construction is compatible acquisition across distinct
-shared charts with overlapping private inputs, or earlier Y acquisition with
-actual later canonical delivery at proper charts. Retain one source execution,
-all endpoints and full costs. Clipped disjoint-cohort/all-X/Y source gates and
-all strict supplier/foundation obligations remain. No complete native is admitted.
+The older shared A2/MDS triple remains a valid alternative and historical source
+tool. Its frozen suffix and separability gates keep their precise scopes.
+The new fixed-cut cost theorem proves (c-p)A+pB+tC exactly for transverse targets
+and equal held-chart dimensions, even with redundant messages; earlier source
+capture changes that premise. [Cost theorem](results/bit-chartwise-movement-optimum/ADMISSION.md).
+
+No source completes all111 outputs, no complete supplier is admitted and no new
+kappa follows. All strict complex/BIT/outer and foundational obligations remain.
 
 ## Complex supplier and retained constraints
 
@@ -137,6 +140,17 @@ those families, not a profitable physical caller. Off-diagonal intertwiners
 and other representations remain open.
 [Proofs and independent reviews](results/complex-parabolic-potential-limits/ADMISSION.md).
 
+## Modular complex boundary and positive escape
+
+A phase-safe residue-characteristic2 filtration now proves H<=2m+sum query ranks
+for every fixed head/call count in the collective Clifford algebra when ordinary
+coefficients AND inverses are integral at a prime above2. The complete invoice
+excludes native-only and query-rank<=7 callers in that scope. Conditional bank
+permutations can have physical0/1 entries but essential half-integral collective
+coefficients and escape the theorem. The positive task is an actual quadratic-
+sector caller with complete phases/body/ordinary accounting.
+[Proof and independent audit](results/complex-modular-parabolic-gate/ADMISSION.md).
+
 ## Continuity, verification and success
 
 Read [STATE](STATE.json), [continuation](CONTINUATION.md), [target inequalities](TARGET-005.md)
@@ -153,7 +167,7 @@ programme, not PR-ready. No upstream PR or selected change is made. A decisive
 enabling theorem counts as mathematical discovery without becoming a claimed
 complete bound improvement. The following standing allocation remains unchanged.
 
-## Optimal chartwise repair: the next constructive interface
+## Retained S015 chartwise repair interface
 
 The canonical-only separability obstruction now has an exact paid repair.
 For actual held projection P of code K, c=dim K and
@@ -166,11 +180,10 @@ five-receiver interface needs exactly four helpers and canonical movement
 9[2]+10[6]. An actual compatible source for those receivers is still missing.
 [Proof and independent review](results/bit-chartwise-query-repair/ADMISSION.md).
 
-The next construction should use this explicit repair while extending the
-actual A2 common prefix across distinct shared charts with overlapping source
-originals. Prove source availability, chronological canonical delivery,
-restoration and every receiver endpoint before claiming a complete invoice.
-Earlier Y acquisition remains a possible source mechanism. No new κ.
+S016 realizes a changed cross-chart source with genuinely earlier helper
+acquisition, as described above. Its hierarchical delivery obligations supersede
+this older proposed next step. Source availability, chronological canonical
+delivery, restoration and every receiver endpoint remain necessary. No new κ.
 
 ## Protected Mathematics-First Discovery Track
 

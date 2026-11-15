@@ -6,6 +6,22 @@ pull request is submitted automatically. The selected conditional bound remains
 remain. This draft describes verified partial mathematics, not a complete
 integer-multiplication algorithm or acceptance certificate.
 
+## Latest extension: earlier acquisition and its limits
+
+Actual cross-chart four/six source words, a source-aware early-helper lift,
+exact fixed-cut movement optimum and canonical cache relations are now proved.
+Independent replay tracks all222 X/Y columns and actual charts. Direct point
+copies are cheaper for these partial endpoint sets: the advance is compatibility
+and chronology, not a price claim. Flat ground-only continuation fails, motivating
+above-ground/private-original sharing.
+
+A new phase-safe modular representation proves all-head/all-call conservation
+under integral collective coefficients AND inverses. Essential quadratic-sector
+conditional permutations remain a constructive escape. See the four S016 packages
+and reviews linked from PROGRAMME.md; exact baseline4743ad65eff2ce1a63bf8572e4e2bf0751b0426d.
+No selected certificate or foundation changes; no new kappa. The cumulative branch
+still needs a complete coherence/admission audit before one substantive PR.
+
 ## Motivation and one evolving architecture
 
 A low-charge algebraic fitting is useful only if its information can be acquired

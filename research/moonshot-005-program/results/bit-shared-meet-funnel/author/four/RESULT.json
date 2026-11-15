@@ -1,0 +1,127 @@
+{
+  "status": "PASS_ACTUAL_MEET_FUNNEL_SOURCE",
+  "targets": [
+    0,
+    3,
+    76,
+    80
+  ],
+  "columns": 222,
+  "counts": {
+    "INIT": 14,
+    "MOVE": 354,
+    "ADD": 609,
+    "CLEAR": 14
+  },
+  "movement_profile": {
+    "1": 45,
+    "2": 63,
+    "3": 15,
+    "4": 15,
+    "5": 63,
+    "6": 37,
+    "7": 111,
+    "8": 5
+  },
+  "peak_owners": 14,
+  "dirty_clears": 14,
+  "events": {
+    "source_cut": {
+      "held_originals": [
+        3,
+        14,
+        59,
+        60
+      ],
+      "Hub_original_rank": 107
+    },
+    "canonical9_before_Y": {
+      "held_originals": [
+        3,
+        14,
+        59,
+        60
+      ],
+      "Hub_original_rank": 107,
+      "ground_canonical_rank": 9,
+      "first_acquisition_history_rank": 111
+    },
+    "completed_0": {
+      "actual_endpoint": true
+    },
+    "completed_3": {
+      "actual_endpoint": true
+    },
+    "completed_76": {
+      "actual_endpoint": true
+    },
+    "completed_80": {
+      "actual_endpoint": true
+    },
+    "all_X_restored": {}
+  },
+  "new_complete_kappa": false,
+  "semantic_negative_controls": [
+    {
+      "name": "omit_actual_cache_capture",
+      "rejected": true,
+      "reason": "('Y_endpoint', 0)"
+    },
+    {
+      "name": "omit_cache_descent",
+      "rejected": true,
+      "reason": "('bad_ADD', 796, ['ADD', 'A0', 'Y0'], 'C0', 'Meet')"
+    },
+    {
+      "name": "omit_true_Hub_seed",
+      "rejected": true,
+      "reason": "('Y_endpoint', 0)"
+    },
+    {
+      "name": "omit_actual_held_query",
+      "rejected": true,
+      "reason": "('Y_endpoint', 0)"
+    },
+    {
+      "name": "omit_query_chart_visit",
+      "rejected": true,
+      "reason": "('bad_ADD', 382, ['ADD', 'X3', 'P0'], 'F0', 'Hub')"
+    },
+    {
+      "name": "omit_funnel_read_0",
+      "rejected": true,
+      "reason": "('Y_endpoint', 0)"
+    },
+    {
+      "name": "omit_funnel_read_3",
+      "rejected": true,
+      "reason": "('Y_endpoint', 3)"
+    },
+    {
+      "name": "omit_funnel_read_76",
+      "rejected": true,
+      "reason": "('Y_endpoint', 76)"
+    },
+    {
+      "name": "omit_funnel_read_80",
+      "rejected": true,
+      "reason": "('Y_endpoint', 80)"
+    },
+    {
+      "name": "omit_singleton_delivery",
+      "rejected": true,
+      "reason": "('Y_endpoint', 0)"
+    },
+    {
+      "name": "omit_pivot_restoration",
+      "rejected": true,
+      "reason": "('X_restore', 59)"
+    },
+    {
+      "name": "omit_owner_retirement",
+      "rejected": true,
+      "reason": "('owned_lifetime', {'P0'})"
+    }
+  ],
+  "word_sha256": "edb243b4f16558c3445b17b96b82d27f779f81d4c1be1680f0f8ee17fa33c478"
+}

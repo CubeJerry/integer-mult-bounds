@@ -1,0 +1,225 @@
+{
+  "status": "PASS_INDEPENDENT_MEET_FUNNEL_REPLAY",
+  "reports": {
+    "four": {
+      "columns": 222,
+      "targets": [
+        0,
+        3,
+        76,
+        80
+      ],
+      "counts": {
+        "INIT": 14,
+        "MOVE": 354,
+        "ADD": 609,
+        "CLEAR": 14
+      },
+      "movement_profile": {
+        "1": 45,
+        "2": 63,
+        "3": 15,
+        "4": 15,
+        "5": 63,
+        "6": 37,
+        "7": 111,
+        "8": 5
+      },
+      "peak_owners": 14,
+      "dirty_clears": 14,
+      "canonical_cut": {
+        "canonical_rank": 9,
+        "arrival_rank": 9,
+        "literal_principal_history_rank": 111
+      },
+      "word_sha256": "edb243b4f16558c3445b17b96b82d27f779f81d4c1be1680f0f8ee17fa33c478",
+      "budget": {
+        "moment": {
+          "lower_fraction": "808230756337719278497360354476447/500000000000000000000000000000",
+          "upper_fraction": "1616461512675438556994720708953203/1000000000000000000000000000000",
+          "display_lower": "1616.4615126754385983",
+          "display_upper": "1616.4615126754385983"
+        },
+        "limiting_room": {
+          "lower_fraction": "1322341883928449562881360353427/250000000000000000000000000000",
+          "upper_fraction": "31736205214282789509152648485337/6000000000000000000000000000000",
+          "display_lower": "5.2893675357137981",
+          "display_upper": "5.2893675357137981"
+        },
+        "first_positive_even_m": 4,
+        "first_margin": {
+          "lower_fraction": "3179711935618764254500022524791/50000000000000000000000000000",
+          "upper_fraction": "6359423871237528509000045056113/100000000000000000000000000000",
+          "display_lower": "63.5942387123752866",
+          "display_upper": "63.5942387123752866"
+        },
+        "method": "integer bisection of200th roots at scale10^30; displays noncertifying"
+      },
+      "independent_semantic_controls": [
+        {
+          "control": "cache capture",
+          "rejected": "Y endpoint"
+        },
+        {
+          "control": "cache descent",
+          "rejected": "nonlocal ADD"
+        },
+        {
+          "control": "canonical source",
+          "rejected": "Y endpoint"
+        },
+        {
+          "control": "held query",
+          "rejected": "Y endpoint"
+        },
+        {
+          "control": "singleton delivery",
+          "rejected": "Y endpoint"
+        },
+        {
+          "control": "retirement",
+          "rejected": "retirement"
+        }
+      ]
+    },
+    "six": {
+      "columns": 222,
+      "targets": [
+        1,
+        3,
+        73,
+        76,
+        77,
+        80
+      ],
+      "counts": {
+        "INIT": 19,
+        "ADD": 607,
+        "MOVE": 361,
+        "CLEAR": 19
+      },
+      "movement_profile": {
+        "1": 19,
+        "2": 91,
+        "3": 20,
+        "4": 20,
+        "5": 91,
+        "6": 6,
+        "7": 109,
+        "8": 5
+      },
+      "peak_owners": 19,
+      "dirty_clears": 19,
+      "canonical_cut": {
+        "canonical_rank": 9,
+        "arrival_rank": 11,
+        "literal_principal_history_rank": 111
+      },
+      "word_sha256": "4aba011186b60097e48cbb5e3bd14228605ce62bb6b5f758d384d8b22679828e",
+      "budget": {
+        "moment": {
+          "lower_fraction": "810859904585879637134842776236973/500000000000000000000000000000",
+          "upper_fraction": "101357488073234954641855347029643/62500000000000000000000000000",
+          "display_lower": "1621.7198091717593798",
+          "display_upper": "1621.7198091717593798"
+        },
+        "limiting_room": {
+          "lower_fraction": "31071039393080976560597892623/1000000000000000000000000000000",
+          "upper_fraction": "7457049454339434374543494361/240000000000000000000000000000",
+          "display_lower": "0.0310710393930810",
+          "display_upper": "0.0310710393930810"
+        },
+        "first_positive_even_m": 398,
+        "first_margin": {
+          "lower_fraction": "1019643393419004829577419773/500000000000000000000000000000",
+          "upper_fraction": "31863856044343900924356123/15625000000000000000000000000",
+          "display_lower": "0.0020392867868380",
+          "display_upper": "0.0020392867868380"
+        },
+        "method": "integer bisection of200th roots at scale10^30; displays noncertifying"
+      },
+      "independent_semantic_controls": [
+        {
+          "control": "cache capture",
+          "rejected": "Y endpoint"
+        },
+        {
+          "control": "cache descent",
+          "rejected": "nonlocal ADD"
+        },
+        {
+          "control": "canonical source",
+          "rejected": "Y endpoint"
+        },
+        {
+          "control": "held query",
+          "rejected": "Y endpoint"
+        },
+        {
+          "control": "singleton delivery",
+          "rejected": "Y endpoint"
+        },
+        {
+          "control": "retirement",
+          "rejected": "retirement"
+        },
+        {
+          "control": "early capture",
+          "rejected": "Y endpoint"
+        },
+        {
+          "control": "ground repair",
+          "rejected": "Y endpoint"
+        }
+      ],
+      "valid_late_helper_control": {
+        "columns": 222,
+        "targets": [
+          1,
+          3,
+          73,
+          76,
+          77,
+          80
+        ],
+        "counts": {
+          "INIT": 19,
+          "MOVE": 361,
+          "ADD": 607,
+          "CLEAR": 19
+        },
+        "movement_profile": {
+          "1": 17,
+          "2": 91,
+          "3": 20,
+          "4": 20,
+          "5": 91,
+          "6": 6,
+          "7": 111,
+          "8": 5
+        },
+        "peak_owners": 19,
+        "dirty_clears": 19,
+        "canonical_cut": {},
+        "budget": {
+          "moment": {
+            "lower_fraction": "816792127983276956674879712128121/500000000000000000000000000000",
+            "upper_fraction": "816792127983276956674879712128293/500000000000000000000000000000",
+            "display_lower": "1633.5842559665538829",
+            "display_upper": "1633.5842559665538829"
+          },
+          "limiting_room": {
+            "lower_fraction": "-473335030216062324140530955587/40000000000000000000000000000",
+            "upper_fraction": "-71000254532409348621079643334751/6000000000000000000000000000000",
+            "display_lower": "-11.8333757554015584",
+            "display_upper": "-11.8333757554015584"
+          },
+          "first_positive_even_m": null,
+          "first_margin": null,
+          "method": "integer bisection of200th roots at scale10^30; displays noncertifying"
+        }
+      }
+    }
+  },
+  "new_complete_kappa": false
+}

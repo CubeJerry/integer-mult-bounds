@@ -1907,3 +1907,33 @@ shared A2 source, with overlapping private originals and the proved helper
 repair where needed. Build an actual next receiver extension, then prove and
 price the complete source/receiver/canonical/restoration interface. Complete111,
 strict compatible BIT/complex suppliers and all five foundations remain open.
+
+
+## 2026-11-16-S016 — checkpoint1, active five-hour session
+
+Start2026-11-15T22:44:34Z from remote4743ad65eff2ce1a63bf8572e4e2bf0751b0426d;
+planned end2026-11-16T03:44:34Z. Canonical main e54523517d0f03e58352e647c403a5af3e525a57
+is unchanged. Three mathematics-first agents plus root continue one programme.
+
+Proved/reviewed: actual cross-chart four/six source words, early-helper lift,
+A3 canonical cache relation and fixed subset classification, flat-ground linear
+gate, exact fixed-cut concave query cost, and phase-safe modular complex theorem
+for integral coefficients/inverses. Root independently replays222 columns/charts,
+prices six first-even m398, and constructs a valid but over-budget late-helper
+control. C independently verifies the query-cost proof and544 finite optima.
+Root independently audits the bridge/modular proofs; author-checker reruns are
+labelled separately.
+
+Economic screening prevents a false gain claim: direct point copies beat these
+partial funnels. Their advance is actual source access, not a better complete
+or partial price. Next wave pursues private-facet carriers/multiple meets and
+quadratic-sector complex routing. New cache-deletion word/D4 gate await review.
+
+Protected discovery remains active: a different-characteristic representation
+and changed source chronology are genuine new mechanisms. No local parameter
+optimisation displaced this allocation. Complete-bound milestone remains unmet;
+strict suppliers and all five foundations are retained.
+
+Checkpoint1 confirmed parent4743ad65eff2ce1a63bf8572e4e2bf0751b0426d; resulting remote
+SHA is confirmed separately. Validation: sessions/2026-11-16-S016/CHECKPOINT1-VALIDATION.json.
+Session active; branch not PR-ready.

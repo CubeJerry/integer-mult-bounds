@@ -1,0 +1,107 @@
+{
+  "status": "PASS_MODULAR_PARABOLIC_CONTROLS",
+  "checks": 2160,
+  "native_checks": 534,
+  "query_checks": 541,
+  "word_cases": 144,
+  "dimensions": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "actual_order15_ranks": [
+    0,
+    1,
+    2,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    2,
+    1
+  ],
+  "lattice": {
+    "C_integral_basis": [
+      [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ]
+    ],
+    "D_integral_basis": [
+      [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ]
+    ],
+    "residue_columns": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "naive_standard_basis_reduction_rejected": true
+  },
+  "routing": {
+    "conditional_permutation": true,
+    "omitting_half_rejected": true,
+    "permutation": [
+      0,
+      1,
+      2,
+      7,
+      4,
+      5,
+      6,
+      3
+    ]
+  },
+  "negative_controls": [
+    "nonordinary uncharged stage",
+    "naive Gaussian standard-basis reduction",
+    "routing without 1/2"
+  ],
+  "scope": "finite controls for written all-field/all-call theorem; no profitable caller or new kappa"
+}

@@ -316,3 +316,19 @@ The GitHub query for PRs updated after2026-11-15T11:36:00Z returned none.
 UPSTREAM-FINAL.json records the exact responses. Current proof and source
 pins remain distinct from canonical main; no external PR has been silently
 promoted to an accepted supplier. The permanent programme alone was advanced.
+
+
+## S016 initial upstream check
+
+Canonical main e54523517d0f03e58352e647c403a5af3e525a57 is unchanged; selected
+conditional kappa remains.00363005817. Exact metadata/source heads are in
+[snapshot](sessions/2026-11-16-S016/UPSTREAM-START.json).
+[PR7620](https://github.com/CrocSwap/integer-mult-bounds/pull/7620), head b1356c84a0733843ce59855f02511c49c6a44133,
+claims conditional.003661102618151; no replay/admission here.
+[PR7618](https://github.com/CrocSwap/integer-mult-bounds/pull/7618), head5c7b96af66acc625e0f8497d6faf060c84770cdf,
+improves certification gates but retains ordinary BIT cap.00385248 below target.
+[PR7619](https://github.com/CrocSwap/integer-mult-bounds/pull/7619) and
+[PR7614](https://github.com/CrocSwap/integer-mult-bounds/pull/7614) declare scoped
+caller/native/contact laws; only metadata and scope were read. No theorem or
+incompatibility is imported. Public discussion checks have pagination limits.
+No upstream posts or PRs were made.

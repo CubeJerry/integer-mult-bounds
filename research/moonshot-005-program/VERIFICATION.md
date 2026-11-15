@@ -669,3 +669,20 @@ and [final validation](sessions/2026-11-15-S015/FINAL-VALIDATION.json).
 All prior available scientific files retain their exact hashes and Git
 tracking; the same two explicitly qualified historical absences remain.
 The final receipt introduces no changed proof or new theorem claim. No newκ.
+
+
+## S016 checkpoint1: earlier acquisition and modular algebra
+
+New packages: bit-shared-meet-funnel, bit-early-helper-lift,
+bit-chartwise-movement-optimum and complex-modular-parabolic-gate under results/.
+Independent222-column rational-chart replay and14 omission controls pass; a valid
+late-helper word passes endpoints but fails budget. Independent integer bisection
+establishes first-even m398 for six. C's distinct weighted-basis optimizer verifies
+544 nonzero transverse query instances after proof review. Root independently
+checks bridge geometry/subsets and audits modular phase/lattice arguments. Author
+modular reruns are not independent computational verification.
+
+Manifests, source pins and reproduced outcomes are bound in
+sessions/2026-11-16-S016/CHECKPOINT1-VALIDATION.json. Finite checks do not supply
+universal proof. Direct point controls, incomplete endpoints, integral inverses
+and collective-algebra restrictions are retained. No new kappa.

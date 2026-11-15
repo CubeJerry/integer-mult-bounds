@@ -1,5 +1,38 @@
 # Exact requirements for κ = 1/200
 
+## S016 current extension and economic screen
+
+Actual cross-chart four/six source words are proved and independently replayed:
+Q4=1616.46151267543855699..., Q6=1621.71980917175927427.... Their limiting
+rooms are5.2893675357... and0.03107103939.... The first positive hypothetical
+complete-native even multiplicities are4 and398 respectively; these are partial
+words with107/105 missing endpoints, not admitted suppliers. All owner/ADD/
+retirement and remaining implementation costs remain explicit.
+
+The early-lift identity replaces Delta late facet acquisitions by actual early
+native-point acquisitions, saving Delta*([7]-[1]). At a fixed transverse cut
+with equal held-chart dimensions, (c-p)A+pB+tC is already the exact minimum
+movement even with redundant allowed queries; earlier capture changes its
+premise. [Source](results/bit-shared-meet-funnel/ADMISSION.md),
+[lift](results/bit-early-helper-lift/ADMISSION.md),
+[cost](results/bit-chartwise-movement-optimum/ADMISSION.md).
+
+The direct point-copy partial control is Q_base+q, with
+Q_base=222[7]+9[8]=1610.2088734841... . It beats the present four/six funnels.
+For all111 receivers the linear all-information-at-ground continuation obeys
+Q>=222[7]+111, strictly above B_infinity. Above-ground source observations,
+retained proper-chart originals and multiple delivery meets change that scope.
+The next useful positive family should beat the point control and complete a
+larger simultaneous set with all costs, then extend to the full native.
+
+The integral collective complex algebra now obeys H<=2m+sum(query ranks) for
+all fixed heads/call counts, under integral ordinary coefficients AND inverses
+at a prime above2. Essential half-integral sector routing, changed sources or
+different bodies remain open. Native-only and query-rank<=7 common-body callers
+in the proved class have a strict complete movement deficit; arbitrary larger
+queries retain their actual signed terms.
+[Proof and audit](results/complex-modular-parabolic-gate/ADMISSION.md).
+
 **Target open; no new complete κ.** Selected conditional0.00363005817 remains.
 This current blueprint distinguishes necessary source screens from sufficient
 complete supplier/outer conditions. Exact earlier calculations and their scopes

@@ -1,5 +1,36 @@
 # Current proof-dependency map
 
+## S016 active frontier
+
+**BIT-HIERARCHICAL-SOURCE / open, primary.** Construct an actual multiple-meet
+or retained-proper-original source on the fixed111 native, for all positive
+whole-record widths and characteristic-two fields, with arbitrary X/Y,
+restored X, correct endpoints and a complete target-feasible invoice. First
+seek a simultaneous family of at least12 receivers that beats direct point
+copying; ultimately every111 endpoint is required. Single flat-ground delivery
+is now excluded within its explicit linear source premise.
+
+The previous cross-chart partial-source obligation is achieved by actual four/
+six words and the source-aware early helper theorem. Their partial prices are
+not competitive with direct point copying, so no whole-supplier progress is
+inferred merely from the endpoint count. Current verified dependencies:
+
+| Proposition | Status and exact scope | Evidence |
+|---|---|---|
+| Four/six overlapping source words | Proved for all char2 fields and positive widths;107/105 endpoints missing | [Source](results/bit-shared-meet-funnel/ADMISSION.md) |
+| Earlier actual helper lifts | Proved c+Delta arrival span and paid Hub compensation; requires genuine earlier access | [Lift](results/bit-early-helper-lift/ADMISSION.md) |
+| A3 cache quotient | Proved58-root identity and fixed7-of8 subset classification; new literal deletion word pending review | [Bridge](results/bit-early-helper-lift/ADMISSION.md) |
+| Complete flat-ground continuation | Disproved in linear all-source-at-ground scope; above-ground/private access outside | [Gate](results/bit-early-helper-lift/ADMISSION.md) |
+| Uniform-chart fixed-cut movement | Proved exact(c-p)A+pB+tC for transverse K; earlier access/unequal charts outside | [Cost](results/bit-chartwise-movement-optimum/ADMISSION.md) |
+| Integral collective complex caller | Proved all-head/all-call H<=2m+query ranks with integral inverse hypothesis; dyadic sector routing outside | [Modular theorem](results/complex-modular-parabolic-gate/ADMISSION.md) |
+
+**COMPLEX-DYADIC-SECTOR-CALLER / open.** Construct a phase-exact caller outside
+the modular coefficient/inverse class, beginning with actual quadratic-parity
+conditional bank operations. All ordinary/tape/compiler costs, body/idles,
+independent endpoints and strict complex margin remain required. Finite searches
+are WIP, not impossibility proofs. Five foundations and strict BIT/outer gates
+remain open. Earlier graph entries below retain historical/source-specific scope.
+
 **No new complete κ.** The full [registered result index](REGISTERED-RESULTS.json)
 and [prior graph](sessions/2026-11-15-S015/logical-records-before-cp4/OBLIGATIONS.md)
 retain every historical proposition and scope. This graph lists the active

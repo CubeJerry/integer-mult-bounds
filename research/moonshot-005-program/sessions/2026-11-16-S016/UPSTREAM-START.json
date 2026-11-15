@@ -1,0 +1,148 @@
+{
+  "checked_utc": "2026-11-15 22:53:29 UTC",
+  "programme_head": "4743ad65eff2ce1a63bf8572e4e2bf0751b0426d",
+  "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "previous_upstream_check": "2026-11-15T12:09:36Z",
+  "canonical_changed": false,
+  "selected_conditional_kappa": "363005817/100000000000",
+  "query": "repo:CrocSwap/integer-mult-bounds updated:>=2026-11-15",
+  "search_results": [
+    {
+      "number": 7620,
+      "title": "P104: stationary primal/dual composition with 167 CLEAR certificates (conditional κ 0.003661102618151)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7620"
+    },
+    {
+      "number": 7619,
+      "title": "P104 findings (Nov 15): caller dying-role proofs, native lock laws, spec ledger",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7619"
+    },
+    {
+      "number": 7618,
+      "title": "P104 tooling: lift the input-lift and BIT-pin gate ceilings (signed curvature + admitted BIT pin), Lean lemma",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7618"
+    },
+    {
+      "number": 7617,
+      "title": "P104: two courier moves on #7616, conditional kappa 0.00365760025222",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7617"
+    },
+    {
+      "number": 7615,
+      "title": "P104: four courier (funded-return) moves on #7613, conditional kappa 0.00365455370060 (CLEAR-content premise)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7615"
+    },
+    {
+      "number": 7603,
+      "title": "P104: two additional chart contractions over #7601 (conditional κ 0.003650000454083)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7603"
+    },
+    {
+      "number": 7616,
+      "title": "P104: W2 stationary-lifetime composition (conditional κ 0.003656628302607)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7616"
+    },
+    {
+      "number": 7614,
+      "title": "P104: audit +0.001 κ target with contact-frame and BIT bounds (no gain)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7614"
+    },
+    {
+      "number": 7613,
+      "title": "P104: contact 902/1091 rechart on #7612 (618→373), conditional kappa 0.00365305686569 (CLEAR-content premise)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7613"
+    },
+    {
+      "number": 7612,
+      "title": "Conditional κ = 0.003652740309 (+>3.16496849e-7 over #7611)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7612"
+    },
+    {
+      "number": 7611,
+      "title": "P104: four stay drops on #7608 (mains 185, 82 at F1062; main 46 at F914+F245), conditional kappa 0.00365242381187 (CLEAR-content premise)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7611"
+    },
+    {
+      "number": 7610,
+      "title": "P104: hosted main 46 merges its final unit hop on #7608, conditional kappa 0.00365097153936 (CLEAR-content premise)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7610"
+    },
+    {
+      "number": 7607,
+      "title": "P104 toolkit v3: token-settled drop engine, frame-perp duality, fast exact replay, κ(k) caller law (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7607"
+    },
+    {
+      "number": 7606,
+      "title": "P104: the odd unit, paid per grading — one cost behind the decoder wall and the t = −1 park (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7606"
+    },
+    {
+      "number": 7609,
+      "title": "P104 follow-up: κ(k) caller law, cut/pocket lemmas, radix-3 and spec-challenge results, CLEAR-content freedom (no κ)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7609"
+    },
+    {
+      "number": 7608,
+      "title": "P104: hosted main 902 skips F595 on #7605 — conditional κ 0.00365074956598 (CLEAR-content premise)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7608"
+    }
+  ],
+  "targeted_prs": [
+    {
+      "number": 7619,
+      "title": "P104 findings (Nov 15): caller dying-role proofs, native lock laws, spec ledger",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7619",
+      "state": "open",
+      "merged": false,
+      "head": "b04b27d50f48a51b9ef8a7821b09b509429f97a9",
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "updated_at": "2026-11-15T19:35:18Z",
+      "body": "This package collects the proofs and laws our lanes logged on Nov 15, after #7606, #7607 and #7609. It makes **no κ claim** and ships no word. Credit: DreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code.\n\nIt builds on the Nov 15 frontier words (our #7615 and #7617, lineage through Clear1nsight's #7612 and SYLforge's #7616), on the funded-return/courier conventions of the crowd chain #7480/#7481, and on the retag/slide edit family that goes back to #7277.\n\n**Caller (rho = 2 two-arm):**\n- **DYINGPAIR [P].** No root has a dying role pair or single under the tight counts T1/T2. The Floor matrix is nonsingular without nesting, and the triangular recursion never meets eigenvalue 2.\n- **SLACK [P].** The interval-capped line price corrects the pricer (nested B unchanged; lone extra roles price at most 0 and are closed). Extended Crossing Lemma. A rank drop across a death forces b_K > 0 on both sides.\n- **GAPLEMMA [P].** The Δ-Floor lemma kills every pair layout and every k = 0 layout (102 of 117). The 15 single-role layouts left have a proved ceiling of +1.15%. One standalone open question (the HANDOFF) decides them.\n\n**Native side (words of #7615/#7617):**\n- Laws: RELAY-DIAMOND, lattice lock, the dim-8 non-nesting tails law, and the compiler laws JOINT-SUPPLY, FRAME-FANOUT and ROUTE-DEMAND-IS-UNIT-LEVEL.\n- Bounds: the exact single-main reroute bound (equal to actual on 400/400 mains; forced D 1,811 of 3,950 D0/call), the helper-layer floor 944 (1,366 with the endpoint census), the zero-need relay census, and the D ledger by bucket.\n\n**Spec ledger (rounds 1 to 3):** which clauses are SPEC and which are verifier-only; new public registers are legal and a one-hop helper costs 0 κ; the fresh-register meet-twice (Sandwich) rule; S = 2·(104·16 − 17·56); mains are S-neutral.\n\n**Checks.** The validator re-runs four checkers (`dfloor_count.py`, `icap_check.py`, `dyingpair/step1.py`, `spec/shuttle.py`) against the vendored #7546 word and #7113 caller, and passes. The native census scripts are lane code shipped so each number is traceable; CI does not re-run them (they read frontier words as data). No other author's code is run.\n\nCaveats: the slack/dying results are model prices [C-param] and proofs in the NESTPROOF root model; no root of any slack layout has been built. The native laws are scoped to the stated frontier words.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n",
+      "review_scope": "Metadata and declared mathematical scope read; no proof replay or admission."
+    },
+    {
+      "number": 7614,
+      "title": "P104: audit +0.001 κ target with contact-frame and BIT bounds (no gain)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7614",
+      "state": "open",
+      "merged": false,
+      "head": "d100a01821de6185f9dc75f4118d8a81c3945520",
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "updated_at": "2026-11-15T13:52:18Z",
+      "body": "The requested absolute +0.001 improvement was **not achieved**. This contribution retains two reproducible, source-bound obstructions so that the same unsuccessful routes need not be repeated. No selected result, supplier invoice or predecessor word is changed.\n\nFor exact #7613, an optimistic all-dimension contact relaxation still has a strictly negative full signed moment at C=.0046502223357 (#7604 +.001): upper bound about **−362.9625** with fixed endpoints and **−306.0163** even with jointly free helper input/output frames and their coupled new target credit. A second explicitly tested point, .0046530568657, also fails. This permits arbitrary F2^9 contact subspaces and extra moves inside old stays; scalar dependencies, owned trajectories and caller remain fixed. It is not a global ceiling or an impossibility claim for all larger κ.\n\nSeparately, promoting nine rank-seven owned BIT caches cannot recover any nonzero joint new-input combination using additional chart0-only linear repair under the fixed original chart trace. Nine explicit kernel witnesses, checked backwards and forwards, prove this including arbitrary interleaving. The hypothetical target credit is therefore not booked.\n\nValidation: four bounded Python 3.12 standard-library commands registered in VERIFY.json; authenticated self-contained sources; independently implemented contact DAG/reverse DP and rational interval engine; exhaustive coupled-credit controls; direct BIT dual-witness and joint-stock controls. This does not rerun or claim full physical/native/caller/precision/compiler/outer supplier admission. #7613's inherited CLEAR-content premise is preserved as a premise, not discharged.\n\nOverlap checked against #7574/#7582 (old stays/finite contact palette), #7577 (fixed helper histories), #7122/#7124 (endpoint recharts), #7304 (fixed-bank BIT splits), #6726 and #7162/#7163. The distinct enlarged scopes and open next questions are in the package README and proofs. Canonical base: e54523517d0f03e58352e647c403a5af3e525a57.\n\nCredit: DreamingOfClouds #7613, Clear1nsight #7612, FanPUYen #7604, SYLforge #7603, ToikY #7546, Rohan Arun #7113 and all retained native/arithmetic authors. Prepared by Hao Yan (@FanPUYen) with substantial OpenAI Codex assistance, including separately scoped checking agents. No independent human or formal-kernel verification is claimed.\n",
+      "review_scope": "Metadata and declared mathematical scope read; no proof replay or admission."
+    },
+    {
+      "number": 7618,
+      "title": "P104 tooling: lift the input-lift and BIT-pin gate ceilings (signed curvature + admitted BIT pin), Lean lemma",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7618",
+      "state": "open",
+      "merged": false,
+      "head": "5c7b96af66acc625e0f8497d6faf060c84770cdf",
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "updated_at": "2026-11-15T18:09:03Z",
+      "body": "Tooling/framework only. No word, no kappa claim. Package: `research/p104-gate-ceiling-lift`.\n\n## Problem\nThe official complex-word gate cannot certify any word above two ceilings just over the #7617 frontier (kappa .00365760025222):\n- input-lift check: absolute curvature 94.216 caps kappa at -d1/94.216 = .0037765 (+3.24%);\n- default BIT pin .00376669 (+2.98%).\n\n## Fix\nA patched copy `interval_gate_signed.py` (the pinned `shared-wire-split-composition/interval_gate.py` is not edited; its sha256 is pinned in `frontier7000-source.json`), plus `interval_gate.diff`:\n- signed (negative-coefficient) curvature N = 51.137, lift ceiling -d1/N = .006957747;\n- default BIT pin = admitted ordinary BIT saving .00385248 (12039/3125000 in `certificates/frontier7000/CLAIM.json`; #7001 admission, README.md:36-37, PROOF-REVIEW.md:389), with `assert cap <= F(BIT_PIN)`.\n\nCertifiable up to kappa < .00385248 - 7g (+5.33% over #7617), instead of .00376669 (+2.98%). The premise keeps the same conditional status (same five assumptions).\n\n## Proof\nSince r^-k <= 1, L'' >= -N, so L' >= -d1 - kN > 0 on [0, cap] and L(k) > L(0) = 0; interval upper ends are in the safe direction (README.md).\n\n## Lean\n`LiftPositivity.lean`: 0 sorry, standard axioms only. Checked under Lean v4.33 / Mathlib 55b7917; not yet built under the repo pin (v4.21 / Mathlib 308445d). The file carries the repo-pin import `Mathlib.Data.Complex.ExponentialBounds`.\n\n## Tests\n`tests/gate_test.py`: 32/32 expected outcomes (original reproduces the #7000 recorded fields; signed gate passes #7000/#7617/#7615; rejects corrupted invoices, tested >= pin, pin above the admitted saving, lift caps above -d1/N, three mutants). `scripts/research_package.py --package research/p104-gate-ceiling-lift` passes. An independent audit found the patch sound; its caveats are applied.\n\n## Caveats\nHard-coded input-lift histogram {7,3,5}/{9,4,1,1} and the five conditional assumptions are inherited; a word that changes its input lifts is not covered. Synthetic invoices test gate logic only. #7617 itself did not run this gate, so claim/tested parameters in the test are ours.\n\nDreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n",
+      "review_scope": "Metadata and declared mathematical scope read; no proof replay or admission."
+    },
+    {
+      "number": 7620,
+      "title": "P104: stationary primal/dual composition with 167 CLEAR certificates (conditional κ 0.003661102618151)",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7620",
+      "state": "open",
+      "merged": false,
+      "head": "b1356c84a0733843ce59855f02511c49c6a44133",
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "updated_at": "2026-11-15T21:55:44Z",
+      "body": "## Contribution and scope\nStationary primal/dual bypass composition, fixed 167-CLEAR checkpoint. Conditional signed κ = 0.003661102618151; native ingredient κ = 0.003660347316298. Not an unconditional theorem, selected-frontier update, practical speedup or maintainer acceptance.\n\n26 files exclusively under research/p104-stationary-primal-dual, based on main e54523517d0f03e58352e647c403a5af3e525a57. Scope refined: p104-side-correction, see TASK.json. No existing research package or shared checker changed. Later 173-CLEAR research checkpoint is not covered.\n\n## Provenance and overlap\nBuilds on SYLforge #7616, adding 532/1464 and 226/990 funded-return/courier moves, tight auxiliary lifetimes and stationary primal/dual bypasses. Couriers overlap DreamingOfClouds #7617 and earlier #7615; no exclusive novelty or priority claim for them. Full composition has 167 = 74 original + 93 added CLEAR lifetimes, 54 more than #7616. #7618 is separate gate tooling and #7619 separate findings; their changes are not incorporated or claimed here.\n\nCandidate generation was performed in Antigravity. Independent snapshot verification, adaptation and integration used OpenAI assistance. #7616 itself composes #7605 (Ali Romman/Codex), #7611 (DreamingOfClouds/Claude), #7612 (Clear1nsight/OpenAI). Retain #7603, Hao Yan/FanPUYen, ToikY, Rohan Arun, dillona, CubeJerry and all nested-source authors and Apache-2.0 notices.\n\n## Validation\nFull candidate-adapted native and signed applications passed: 3093 catalogue cases and assembly, finite physical replay, fresh grid/envelope and fixed-tape checks. 837 affected chart pairs across 160 public fields each receive 512 forward + 512 adjoint Gaussian column checks, rank/absolute phase and wrong-phase controls. All 167 exact CLEAR certificates pass, including coefficient and wrong-field rejection controls.\n\nPaid 110145; productive 22461; ordinary 788917744 < 1e9; precision 2430. Original 195 owned events retain order; peak 50, declared labels 68, fixed allocation 17*68=1156 banks. Tape: 44233824 scalar services, 25413787840 elementary records.\n\n504 word reconstruction splices are not 504 checker relaxations. Expected hashes, complete affected-pair census, invoice and price probes are explicitly adapted; negative controls are retained. Exact runners, adapter records, audit, logs, receipts and package hashes included. No original-unmodified acceptance, Linux run or hosted CI pass claimed.\n\n## Remaining premises\nnative_all_columns, owned_erasure, compiler, precision_tape, analytic_recovery. Algebraic CLEAR certificates and lifetime accounting do not themselves implement universal erasure/compiler services. These premises still require independent review.\n\n## Reproduction\nPython 3.12, assertions enabled. Supply immutable #7616 package at 22b310ba50a554b6111804824782793beb41073f and #7605 source at e1d2756eecf03e146338239fee81772a99ba8d4c:\n\n    python reproduce.py --w2 /path/to/p104-w2-stationary-followup --source /path/to/p104-timed-helper757 --work /short/new-work --stage all\n    python verify_certificates.py data/word.json.gz evidence/certs.json\n\nRegistered VERIFY covers exact CLEAR certificates only; full replay requires authenticated source closure. Portable preparation reproduces tested runner bytes. Windows path normalization is explicit and hash-pinned; originals unchanged.\n\nPinned compressed word SHA256: 2eb2cf1d29529c68a6cb1c0639de3065a805858d3492068e76b70c5a5e80a81c. See README, PINS, BASE-NOTICE and evidence for full scope.\n\n## Open next questions\nIndependently reproduce the pinned full application, review adapter substitutions and the five remaining framework premises. Exact algebraic checks alone are not independent human acceptance.",
+      "review_scope": "Metadata and declared mathematical scope read; no proof replay or admission."
+    }
+  ],
+  "discussions": {
+    "start_here": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1163",
+    "handoffs": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1166?sort=new",
+    "mechanisms": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1167",
+    "coverage": "Public paginated view checked; newest visible handoff Nov14; not exhaustive discussion archive."
+  },
+  "disposition": "No selected change. 7618 gate ceiling is below1/200 and preserves BIT dependency. 7620 larger pending conditional word does not supply moonshot BIT or prove five foundations. 7614 contact and fixed-BIT obstructions do not transfer to changed shared source. 7619 prospective caller/native laws are scoped and not yet reviewed here."
+}
