@@ -1,0 +1,13 @@
+# Scope correction: block support charge is not a doubled physical invoice
+
+This supplement qualifies the earlier independent review without rewriting its frozen evidence. Root's subsequent audit identified a physical-accounting gap in the author's sentence comparing the proved block charge218 with the retained scalar coarse cap194.
+
+The following independently checked conclusions remain valid: the literal two-copy word and all444-column endpoints; its exact physical operation/movement invoice; D80 equality, canonical C18 history and normalized G22; the all-field/all-width **block-support** lower bound χ_block≥218 for fittings in the fixed G; and the83 actual visibility failures even granting every receiver all local originals freely. Those visibility failures alone show that the frozen source and its presently placed kernels do not supply the claimed full decoder.
+
+The inequality218>194 does **not**, by itself, exclude every future two-copy realization of that global code. The retained194 bound was derived with scalar physical receiver duties. Here two separately owned original receiver banks share each geometric facet, and a boundary event may serve both banks. A conversion from block-support charge to actual physical boundary charges must therefore be proved in the doubled model; it cannot be inherited by copying a scalar threshold or simply doubling it.
+
+A proposed repair observes that the100 receivers with local quotient dimension zero force each bank's fitting row to be canonical, suggesting a400-bank support charge. This observation still does not establish a400>388 physical obstruction: the all-route facet-injection proof used distinct facets, whereas these two-copy duties share facets. An explicit rank-weighted or otherwise correct physical charging theorem is required. This review does not accept that provisional repair.
+
+Accordingly, classify the source as **a verified partial construction with a proved block-cover lower bound and an excluded frozen placement**, not as a proof of generic two-copy target infeasibility. Changed physical delivery, shared boundary operations, different code spaces and new packet/caller interfaces remain outside the established negative result. No complete supplier or new κ is claimed. Root is tracking the missing doubled physical charging obligation.
+
+The earlier `REVIEW.md`, checker, source pins and output files are preserved unchanged. This supplement supersedes any reading of “fixed-code exclusion” or “no discrepancy” that would extend to the unsupported block-charge/physical-cap comparison. Credit root for detecting and refining this scope issue; Worker A's independent review is corrected accordingly.

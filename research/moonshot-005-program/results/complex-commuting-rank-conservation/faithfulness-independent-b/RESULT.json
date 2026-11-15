@@ -1,0 +1,62 @@
+{
+  "finite_checks": [
+    {
+      "exact_Gram_row_bound": "3/4",
+      "generated_actual_phase_group": 4,
+      "heads": 1,
+      "sufficient_width": 4,
+      "trace_squared_histogram": {
+        "0": 1,
+        "2": 2,
+        "4": 1
+      }
+    },
+    {
+      "exact_Gram_row_bound": "31/32",
+      "generated_actual_phase_group": 32,
+      "heads": 2,
+      "sufficient_width": 10,
+      "trace_squared_histogram": {
+        "0": 9,
+        "4": 16,
+        "8": 6,
+        "16": 1
+      }
+    },
+    {
+      "exact_Gram_row_bound": "511/512",
+      "generated_actual_phase_group": 512,
+      "heads": 3,
+      "sufficient_width": 18,
+      "trace_squared_histogram": {
+        "0": 161,
+        "8": 224,
+        "16": 112,
+        "32": 14,
+        "64": 1
+      }
+    },
+    {
+      "exact_Gram_row_bound": "16383/16384",
+      "generated_actual_phase_group": 16384,
+      "heads": 4,
+      "sufficient_width": 28,
+      "trace_squared_histogram": {
+        "0": 5265,
+        "16": 7168,
+        "32": 3360,
+        "64": 560,
+        "128": 30,
+        "256": 1
+      }
+    }
+  ],
+  "independent_algorithm": "Two-bit Walsh-phase generator BFS; exact integer residue counts for traces; rational Gram row sums. No author verifier imports.",
+  "negative_control": {
+    "using_V16_in_the_uniform_three_head_Gram_estimate_fails_strict_dominance": true
+  },
+  "new_kappa": false,
+  "reviewed_proof_sha256": "509d4c0e1ba5a796a9185e99a7782a9e1e3556e6eb0cf4ac6275918129d6d5da",
+  "status": "PASS_INDEPENDENT_GENERAL_PHASE_FAITHFULNESS_REVIEW",
+  "universal_conclusion": "Accepted from the independently reviewed differencing and Gram proof for every fixed d>=1 and V>=d(d+3), not inferred from finite enumeration."
+}

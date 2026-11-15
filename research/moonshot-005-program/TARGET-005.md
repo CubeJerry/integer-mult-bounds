@@ -54,10 +54,19 @@ Finite m is stricter. Positive movement margin is only one admission condition; 
 | Full Hub-to-ground portions in the complete retained caller | q>=11 fails in the proved target interval | q8/q9/q10 only survive a necessary screen. |
 | Arbitrary nested retained routes | Q_t>=222[7]+M_o+(1+[8]-[7])D_p | M_o: owned positive MOVEs; D_p: public downward MOVEs. |
 | At t199/200 | M_o+cD_p<E*, c=1+[8]-[7]=1.9850298539243356..., E*=82.79728598894742... | Finite multiplicity worsens this; M_o+2D_p<=83. |
-| Proper-cover charge chi | chi<=194 in the coarse all-route model | chi, cardinality ell and quadratic gamma are distinct. |
+| Proper-cover charge chi | chi<=194 in the coarse one-output-per-facet all-route model | Shared-facet batches require a new physical charging bridge; chi, cardinality ell and quadratic gamma are distinct. |
 | Marked full-route q8/q9/q10 | chi<=138/131/124 | Retain exact route premises and fixed-drop corrections. |
 | Native characteristic-two fitting | rank>=9V; equality canonical | Arbitrary noncommuting blocks included. |
 | Canonical quotient d=dim((row A+C_V)/C_V) | d<2V implies chi>=165 | Marked q8/q9 require d>=2V; add9V only with actual canonical containment. |
+
+**Replication scope correction.** For b separately paid native copies the
+reflected potential does scale: Q>=222b[7]+M_o+cD_p and a valid full batched
+caller requires M_o+cD_p<bE*. The support-cover injection does not simply
+scale, because b output banks share each facet and one boundary occurrence
+can contribute to several rows. Neither a scalar cap194 nor a naively doubled
+388 cap is admitted for such jointly coded banks. A rank-weighted shared-facet
+bridge is open. The collector's block chi>=218 and83 fixed-placement dual
+failures remain valid independent facts. [Correction](results/bit-facet-collector-source/author/SCOPE-CORRECTION.md).
 
 Sources: [all-route gate](results/bit-all-route-rank-gap/ADMISSION.md), [minimum-rank rigidity](results/bit-saturated-star-rigidity/ADMISSION.md), and the exact entries in [OBLIGATIONS.md](OBLIGATIONS.md). Passing cuts does not satisfy acquisition.
 
@@ -111,6 +120,8 @@ Q0=1606.544161951791215... and limiting room15.206718259361139....
 | Two actual facet acquisitions | 42 / 9 | 202 / 960 / 505, spare variant | Q0+10([3]+[1]-[4]) |
 | Reprogrammed scalar cohorts | 40 / 9 | 200 / 805 / 495 | Q0 |
 | Joint two-copy cohorts | 80 / 19 | 400 / 2126 / 990 | 2Q0, with twice all native/productive/caller terms |
+| Paired flags, private caches | 44 / 10 | 234 / 845 / 479 | 149[1]+26[2]+127[3]+67[4]+110[7] |
+| Two-copy facet collectors | 80 / 19 | 325 / 2095 / 871 | Normalized Q=1617.724361214245831..., canonical history18, W history25 |
 
 The exact fixed independent-cohort/run optimum is9V+floor(V/2), with residual
 W demand ceil(11V/2). The scalar and two-copy patterns have literal ordinary
@@ -118,6 +129,21 @@ words. The two-copy construction completes only its two Y0 outputs, with
 terminal rank13,W-terminal intersection11,normalized rank15 and W30 history.
 Its400 CLEARs include397 dirty states. This is actual joint coding between
 separately paid records, not free masked access to one array.
+
+The paired source has exact new-interface capacity10V, full W15 history,
+terminal rank6 and normalized rank7. Its necessary limiting movement room is
+13.324542879200370.... Two packet pairs actually share six positive charts;
+private caches are essential (aggregation would leave D36/W5).
+[Source and independent review](results/bit-paired-flag-source/ADMISSION.md).
+
+For the old two-copy D80/A91 interface, fixed P0 plus the specified class-zero
+q7 feedback at depth1/2/3 forces three independent2s duties in residual seed
+space. Seeds confined to A require at least21 physical principal fields;
+20 or fewer cannot fit. Five extra rank-eight fields cost more than39.5,
+above whole room30.414. Even a generous complete movement table with a
+second Y chain admits at most19 fields (first even m6). This is a fixed
+information obstruction, not a bound on changed paired sources.
+[Three-duty gate](results/bit-packed-three-duty-gate/ADMISSION.md).
 
 For a fixed bank count b, the reviewed complete-unit batching bridge scales
 (N,H,P2,T2,Q) by b, hence P'_m=bP_m,T'_m=bT_m and B'_infinity=bB_infinity.
@@ -183,7 +209,16 @@ zero ordinary component, but a universal ordinary-left-kernel theorem excludes
 the literal four-K target a³I. Changed endpoint encoders and head gauges are
 therefore consequential, rather than wider search for the same excluded word.
 [Middle construction and gate](results/complex-zero-ordinary-middle/ADMISSION.md).
-The new Pauli-split synthesis reduction is pending independent admission.
+The Pauli-split reduction and physical inverse are now admitted, but the
+three-head scalar-sector synthesis target is excluded for EVERY native count:
+H<=2m and complete deficit at least m*(1-(8^t-7^t))>0. Actual independent
+phase-group operators are faithful for all V>=18, more generally V>=d(d+3)
+for d heads. At arbitrary fixed head count the same conservation holds with
+at most one dyad relation; all words with at most five natives satisfy it.
+A commuting escape therefore needs at least six natives and eleven distinct
+directions with overlapping relations. This is necessary, not sufficient.
+Noncommuting head transport remains a separate alternative.
+[Conservation and source package](results/complex-commuting-rank-conservation/ADMISSION.md).
 
 ## 7. Sufficient end-to-end theorem still missing
 

@@ -272,3 +272,12 @@ was reconfirmed `2d4422afa86ad8a2ece116a0ce2bfc62c89af21a`. No upstream merge,
 selected-certificate change or open-PR admission was made. Evidence:
 [snapshot](sessions/2026-11-15-S015/UPSTREAM-CP5.json). The startup review of
 PR7611–7613 and prior #6916 style remains the relevant external checkpoint.
+
+### S015 checkpoint6 refresh —2026-11-15 10:36:05 UTC
+
+Canonical main remains `e54523517d0f03e58352e647c403a5af3e525a57`;
+no PR updates since10:02:45UTC were returned. Programme HEAD reconfirmed
+`0cdf503087595de74016d8a9dbdfa0b8e975e5ce`. [Exact snapshot](sessions/2026-11-15-S015/UPSTREAM-CP6.json).
+No upstream merge, source intake, selected change or PR submission. The
+new scope correction concerns this programme's shared-facet composition,
+not a claim that the distinct-facet upstream theorem is invalid.

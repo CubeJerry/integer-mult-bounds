@@ -18,12 +18,13 @@ actual acquisition, normalized information, every receiver correction, strict
 supplier admission and all five retained foundations. Raw W15 history alone
 and few-output words do not establish this proposition.
 
-The current representation is a fixed two-copy unit with222 receivers and444
-original X/Y columns. Its existing-alphabet source attains cohort average9.5,
-with every physical owner/MOVE doubled. The remaining task is all222 outputs,
-the direct-sum caller interface and full cost. Changed cache selectors and
-new seed quotient directions are active. W15/30 is a sufficient retained code,
-not a necessity for every alternative architecture.
+The current actual construction changes query flags to create shared packet
+tails and attains D44/W10 in one copy. A fixed two-copy representation remains
+available, with fully scaled costs and direct-sum caller endpoints required.
+The principal missing theorem is joint source formation and receiver delivery
+with actual chronological availability at shared facets. Existing full-history
+sources and a few completed outputs do not establish it. W15/30 is sufficient
+for a retained decoder, not necessary for every new code.
 
 ## Proven enabling results and exact constraints
 
@@ -51,6 +52,12 @@ Additional current admissions:
 | Fixed-bank translation and batching | Proved existing-alphabet translation; full caller replacement requires complete direct-sum endpoints and all scaled costs. | [Theorem](results/bit-two-copy-cohort-source/bank-expansion-root/PROOF.md) |
 | Actual two-copy source | Proved400owners/2126ADD/990MOVE,D80/W19,W30history,two Y0 outputs; decoder open. | [Admission](results/bit-two-copy-cohort-source/ADMISSION.md) |
 
+| Paired-flag source and capacity, all char2 fields/widths | Proved D44/W10, exact10V new-interface optimum, full W15 history and actual common tails; only Y0 complete. | [Admission](results/bit-paired-flag-source/ADMISSION.md) |
+| Fixed packed three-duty completion | Proved p>=21 for fixed D80/B and seeds inside A91, all fields/blocks; exceeds actual movement room. | [Admission](results/bit-packed-three-duty-gate/ADMISSION.md) |
+| Facet collector source | Proved three canonical kernels, C18 history, G22 and full physical invoice;83 fixed visibility failures. | [Admission](results/bit-facet-collector-source/ADMISSION.md) |
+| Shared-facet physical cover bridge | Open. Scalar cap194 does not automatically transfer to paired output banks; the218 intrinsic code bound remains valid. | [Author correction](results/bit-facet-collector-source/author/SCOPE-CORRECTION.md), [independent qualification](results/bit-facet-collector-source/independent-a/SCOPE-SUPPLEMENT.md) |
+| Shared-facet chart coding | Active: exact28-chart/16-fold incidence motivates a batched local code; global formation, delivery and full invoice unproved. | Next session checkpoint will admit only independently verified components. |
+
 Other retained gates: target arrival rank≥9V+ceil(V/3); full native rank9V
 rigidity; canonical quotient/cover requirements; actual cuts, receiver duals
 and source-specific earlier export limits. Their exact premises remain in
@@ -68,9 +75,16 @@ giving an all-t deficit with full body/idles and spectators. [Dihedral theorem
 and corollary](results/complex-dihedral-interstage/ADMISSION.md).
 A positive zero-ordinary KQK middle is constructed, but its ordinary-left-kernel
 rigidity excludes literal four-K a³I. [Construction and gate](results/complex-zero-ordinary-middle/ADMISSION.md).
-The current task is an actual four-native caller with changed endpoint encoders,
-head gauges or orientations, then uniform physical admission. The new Pauli-
-split synthesis reduction is pending review. No target-solving word is known.
+The exact Pauli-split source and physical inverse are now admitted. Total
+Gaussian rank H<=2m for arbitrary call/role counts in its three-head commuting
+sector model, forcing an all-t complete fresh-body deficit. The one-relation
+extension excludes at most five calls at every fixed head count. Its precise
+faithfulness dependency is proved at V>=d(d+3). [Package](results/complex-commuting-rank-conservation/ADMISSION.md).
+The next construction must use overlapping relations (at least six natives,
+eleven directions), noncommuting head transport, or a changed source/body
+interface. Endpoint inventories passing only physical character cuts remain
+unproved; odd-coset consistency can still reject them. No target-solving word
+or uniform supplier is known.
 
 **ORDINARY-UNIT-IMPLEMENTATION / conditional bridge.** In a finite unital
 algebra, two interstages reduce exactly to a linear intersection containing a

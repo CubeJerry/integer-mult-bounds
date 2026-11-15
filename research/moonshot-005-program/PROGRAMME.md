@@ -30,23 +30,29 @@ The algebraic target is the h9 singular fitting W15 on the111-root native,
 with canonical enlargement16 and proper-cover charge106. It is a target code,
 not a delivered decoder.
 
-The source now jointly recodes two independently paid native copies. A scalar
-systematic cohort transform raised acquired W from8 to9 at unchanged movement.
-The exact fixed-run capacity is9V+floor(V/2), proved by local dual intersections
-and an attaining two-lane construction. A representation change realizes its
-even pattern with separately owned records; no lane mask is added to the grammar.
+The source has now changed its flag geometry as well as its representation.
+Paired query paths genuinely share their descending tails; two paid axis
+helpers and112 private caches attain D44/W10 at scalar width, and exactly10V
+for this new fixed run interface. All W15 remains in literal history, with
+234owners/845ADD/479MOVE and moment1608.426337331951985.... Only Y0 is
+completed. This construction improves the acquired subspace and permits
+actual joint packet cells; it is the current constructive source frontier.
 
-The actual two-copy word has D80, acquired W19, W30 literal history,400 owners,
-2126 ADDs and990 MOVEs. It restores222 original X records and completes both
-Y0 copies. Terminal rank13 and normalized rank15 are distinct from full history.
-Its movement profile doubles, as do every native/productive/caller term in the
-proved bounded-batching bridge. The complete decoder remains missing.
+The earlier fully paid two-copy source remains an alternative: D80/W19,
+W30 history,400owners/2126ADD/990MOVE and twice the old scalar movement.
+Its fixed q7 feedback/inside-A completion now requires at least21 physical
+principal fields and exceeds budget. Changed feedback, outside-A seeds and
+the new paired paths remain outside that obstruction.
 
-Earlier four-/six-output words remain valid but cannot be completed under their
-fixed information premises: arbitrary punctures leave8V against a native9V
-requirement. New arbitrary-lift and virtual-demand theorems exclude precise
-frozen source/feedback classes. Current construction changes actual cache
-selectors or introduces seed directions outside the inherited D+W space.
+A second actual collector realizes three canonical kernels and G22 containing
+C18, but its current placement fails83 receivers. Its intrinsic block-cover
+bound218 remains proved. Root's integration audit found that the scalar
+physical cap194 does not automatically transfer to multiple output banks at
+one facet. The author and independent review preserve and correct that
+inference. This opens a substantive shared-facet coding question rather than
+establishing a generic two-copy impossibility. An exact28-chart/16-fold
+incidence is being developed into a local coding interface; global source
+formation and chronological composition remain unresolved.
 
 ## Complex supplier and retained constraints
 
@@ -56,11 +62,15 @@ class at every fixed cyclic head count, including Pauli-algebra endpoint units:
 H<=6 and a strict all-t full-cost deficit. Its linear bimodule, unit deformation
 and faithful phase quotient are explicitly proved and independently reviewed.
 
-Four natives/three interstages have a favorable complete movement screen.
-An actual ordinary Q makes KQK have zero ordinary component; a left-kernel
-theorem nevertheless excludes literal four-K a³I. Nontrivial endpoint encoders,
-changed head gauges and mixed orientations remain the constructive problem.
-No complete complex supplier is built.
+The exact commuting-direction split source is now proved, retaining every
+Pauli sector and paid physical inverse. A determinantal rounding theorem
+proves H<=2m for every call count in the three-head translation-algebra model,
+with strict full-body deficit m*(1-(8^t-7^t)). At any fixed head count, at
+most five calls are also excluded by the minimum weight-seven dyad relation.
+Root's faithful phase-algebra threshold V>=d(d+3) legitimizes this all-width
+comparison. The next complex mechanism must use overlapping relations with
+at least eleven directions/six natives, genuine noncommuting head transport,
+or another changed source/body interface. No strict supplier is built.
 
 Minimum-rank rigidity, target rank9V+ceil(V/3), canonical quotient/cover limits,
 localized normalization and sharp seed bounds retain their exact scopes. None

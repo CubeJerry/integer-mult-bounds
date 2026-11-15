@@ -1675,3 +1675,45 @@ The complete decoder and strict suppliers are still open. Resulting checkpoint
 SHA is confirmed after publication and recorded in the next receipt/handoff,
 not self-embedded. The protected mathematical-discovery track remains active;
 final session drift review is still due at the actual session end.
+
+### S015 checkpoint6 — shared packet tails, conserved Gaussian rank, corrected batching scope
+
+Starting/confirmed parent `0cdf503087595de74016d8a9dbdfa0b8e975e5ce`, tree
+`16ba228243ca5e3a479fd460a1d8fcfc348f74c4`. The session remains active toward
+12:23:42UTC. New verified construction: paired query flags, two paid axis
+helpers and112 private caches attain D44/W10 and sharp10V for the new run
+interface. Actual shared tails, full W15 history, restored X and one completed
+Y are independently replayed with234owners/845ADD/479MOVE. The old fixed
+packed q7/inside-A completion now requires21 principal fields; its independent
+movement comparison permits only19. Changed D/B/seed interfaces remain open.
+
+C's facet collector realizes three actual canonical kernels and C18 inside
+G22, with325owners/2095ADD/871MOVE and three completed outputs. A independently
+reviews all444 columns and83 actual visibility failures. Root catches a scope
+gap in comparing its proved block-cover charge218 to scalar cap194: duplicated
+Y banks share facets, so the occurrence injection does not simply replicate.
+Author and reviewer preserve their original files and publish explicit
+corrections. Intrinsic code bounds and fixed-placement failure remain proved;
+generic two-copy budget rejection from those cover counts is withdrawn.
+This leads to a genuinely new shared-facet coding investigation, with exact
+28-chart/16-fold incidence reported but not yet admitted in this checkpoint.
+
+B proves actual commuting split/inverse gauges and total rank H<=2m for all
+call counts on three heads. A determinantal simultaneous rounding lemma and
+off-relation word evaluation give a strict complete fresh-body deficit.
+The one-relation extension excludes at most five natives at every fixed head
+count. Root independently reviews source and argument, and proves explicit
+phase-algebra faithfulness for V>=d(d+3); B independently reviews that proof
+and reconstructs phase groups through d4. Overlap inventories remain WIP;
+passing only character cuts is not synthesis. No new complete κ.
+
+Reproduction, frozen pins and the only coverage-list ordering qualification
+are in CHECKPOINT6-VALIDATION.json and its portable script. All prior scientific
+hashes and the two historical missing-evidence qualifications are preserved.
+Upstream at10:36:05UTC remains unchanged with no targeted PR updates since
+10:02:45. No upstream PR or selected change. Immediate next mathematics:
+actual nonlocal shared-tail relays, a rigorously costed shared-facet local
+coding primitive and its global-source chronology, and complex constructions
+beyond the proved conserved class. The protected discovery track remains
+active; final drift review is still due. Resulting commit SHA is verified
+after publication and recorded in the next receipt/handoff, not self-embedded.

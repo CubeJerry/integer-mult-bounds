@@ -1,0 +1,26 @@
+{
+  "claim": "All-native-count total Gaussian-rank conservation H<=2m for the actual three-head commuting/translation-sector source; no new kappa",
+  "excluded_from_this_manifest": "All overlap targets, MILP discovery, full-affine bounded searches and scalar synthesis scans remain WIP; do not integrate them as established callers.",
+  "external_helper_pin": {
+    "path": "research/moonshot-005-program/results/complex-nonordinary-row-seed/worker-b/check.py",
+    "sha256": "1d3c798c43b46e1983f4dc80d68e694b93d9cdee206ad4fe4d408e5f5e29ed91"
+  },
+  "files": {
+    "COMMUTING-PHASE-CONSERVATION.md": "8ba39b062b9814f33aa04164e699a0f581b47f66db4bb0f63576beb27e2ff6fd",
+    "CONSERVATION-RESULT.json": "77e96205870ce9e5f8e70f06290a62742ff6bdbcfa11fcbf1662598f87c016de",
+    "INVERSE-SPLIT-SOURCE-GAUGE.md": "80e7ec45ca1d1287527043ab6e35f96b4790c441a30a0234a6c0ff5a16192f10",
+    "PAULI-SPLIT-GAUGED-SOURCE.md": "002e7f4b2e0218e9c4f83758dce55d3d23ba43f2f3b0bc88b6d11e4448bbc394",
+    "PAULI-SPLIT-RESULT.json": "e423c50858ae650f564936466f77bc9709307c525d34c74291ec730c4036b037",
+    "check_conservation.py": "b48627b2b6405712c90666e2c82850558ca13d24ee46ffcd4f91665c3c50682b",
+    "check_pauli_split.py": "5239d2fb3f7410d477330540ed69a776c1f43532bb4b23505f3e4c1b88eace24",
+    "walsh_group.py": "31f3b797d2f1ea7ce3be4cc0b7622cccb6afc89137824ec3fe74641505821963"
+  },
+  "representation_note": "C2^6 is the abstract64-dimensional Pauli sector algebra; small physical sectors need not be faithful.",
+  "reproduction_commands": [
+    "python check_pauli_split.py --repo /path/to/programme",
+    "python check_conservation.py --repo /path/to/programme"
+  ],
+  "source_orientation_note": "Pinned lower half is conjugated by two paid role swaps before applying upper ordinary-cross split gauges; upper half directly supplies inverse split orientation.",
+  "status": "FROZEN_AUTHOR_CORE_READY_FOR_INDEPENDENT_REVIEW",
+  "supersession_note": "The original scalar finite synthesis target in the source-gauge proof is now ruled out by the conservation theorem; the source identities and sufficiency lifting remain valid."
+}

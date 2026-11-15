@@ -1,4 +1,4 @@
-# Realize optimal two-copy cohort acquisition and prove decoder and interstage obstructions toward κ = 0.005
+# Construct shared packet sources and prove source-sensitive decoder and Gaussian-rank constraints toward κ = 0.005
 
 **Cumulative draft; ongoing programme, not PR-ready. No new κ.** No upstream
 pull request is submitted automatically. The selected conditional bound remains
@@ -79,7 +79,7 @@ all native bodies, productive jobs, boundaries, live state and caller terms,
 so P'_m=2P_m,T'_m=2T_m. The normalized movement comparison is unchanged and
 expanded ordinary/stock/precision constants remain charged. This is a finite
 two-input-copy native unit, not free masking, padding or an accounting change.
-The220 unfinished Y outputs remain the central obligation.
+The220 unfinished Y outputs remain open for that fixed two-copy source.
 
 Arbitrary seed offsets are included in new source-bound obstructions. Two
 explicit duals exclude minimal raw-query lifts on old D40. On fixed augmented
@@ -126,17 +126,47 @@ actual spectator volume remain explicit. Root independently checked10752
 ordinary maps and322236 double-coset basis images; B separately reviewed root's
 all-fixed-head/Pauli corollary.
 
-The constructive target is four natives/three interstages, with full prospective
-price4[1]+8[7]+4[8] against3[31]. An actual ordinary Q(I,I), using4 ADDs,3 head
-permutations and1 role swap, gives a two-native middle KQK with zero ordinary
-component. A universal block classification and ordinary-left-kernel argument
-nevertheless exclude literal four-K a³I. Nontrivial endpoint encoders and
-changed head gauges are the continuing synthesis problem. No completed
-four-call word or strict uniform complex supplier is claimed.
+The exact commuting-direction split source and its physical inverse are now
+admitted, retaining all Pauli sectors. A determinantal rank-rounding theorem
+proves total Gaussian endpoint rank H<=2m for every call count and fixed role
+count on three commuting heads. The full fresh-body deficit is at least
+m*(1-(8^t-7^t))>0, closing that synthesis family. The one-relation extension
+excludes at most five natives at every fixed head count. Larger overlapping
+relations or genuine noncommuting head transport are the remaining mechanisms;
+no favorable endpoint inventory is promoted to a source word.
 
-The earlier finite-algebra unit criterion and conditional ordinary implementation
-bridge retain their scopes and costs. A new phase-faithful Pauli-split reduction
-is under review and is not promoted by this draft to an admitted construction.
+Root's explicit phase-group faithfulness theorem gives V>=d(d+3), including
+V>=18 for three heads. An independent reciprocal review enumerates the actual
+groups through d4 and checks the universal trace/Gram argument. Small physical
+Pauli sectors are not assumed faithful. All ordinary compilation, precision,
+body/spectator and recursive costs remain explicit.
+
+## Shared tails and the corrected repeated-facet interface
+
+Changing two query flags creates two genuine shared packet tails, each with
+six positive common charts. Two paid original-axis copies repair scarce
+cohorts;112 private caches preserve actual acquired information. The resulting
+source attains D44/W10 and exactly10V capacity for its new run interface,
+with full W15 literal history,234owners/845ADD/479MOVE and moment
+1608.426337331951985.... It completes only Y0. Aggregating the caches would
+lose the gain; source and independent chronological controls reject that
+shortcut and endpoint-preserving serialization.
+
+The fixed old two-copy q7/inside-A completion is now excluded by three virtual
+duties requiring six residual directions per width, hence at least21 physical
+principal fields. Exact independent budget enclosures permit at most19 in
+that interface. Changed sources and outside-A seeds remain outside the proof.
+
+A separate actual facet collector uses325owners/2095ADD/871MOVE, realizes three
+canonical kernels, and has C18 inside G22 at normalized movement
+1617.724361214245831.... Its current kernel placement has83 exact dual
+failures. Its intrinsic block-cover lower bound218 is proved, but root found
+and corrected the attempted comparison with scalar cap194: several physical
+output banks share a facet, so one boundary event may feed several rows.
+Neither that cap nor a naive doubled cap is admitted for the new model.
+Original proof/review bytes and explicit author/reviewer corrections are
+preserved. A shared-facet rank-weighted/coding interface is the constructive
+next obligation, with global information acquisition still fully charged.
 
 ## Evidence, provenance and reproduction
 
@@ -144,6 +174,8 @@ All current package admissions, proofs, scripts, source pins, independent review
 and negative controls are published under the permanent [programme directory](https://github.com/CubeJerry/integer-mult-bounds/tree/research/moonshot-005-program/research/moonshot-005-program).
 Key entry points:
 
+- [Shared packet tails and exact10V capacity](results/bit-paired-flag-source/ADMISSION.md), [fixed packed three-duty gate](results/bit-packed-three-duty-gate/ADMISSION.md).
+- [Facet collector and corrected repeated-facet scope](results/bit-facet-collector-source/ADMISSION.md), [commuting conservation and faithful phase groups](results/complex-commuting-rank-conservation/ADMISSION.md).
 - [Exact cohort capacity and scalar recoding](results/bit-reprogrammed-cohort/ADMISSION.md), [fully paid two-copy source and batching](results/bit-two-copy-cohort-source/ADMISSION.md).
 - [Arbitrary raw-query lifts](results/bit-raw-query-lift-gate/ADMISSION.md), [two-demand slack theorem](results/bit-two-demand-slack/ADMISSION.md), [lane-service boundary](results/bit-lane-service-boundary/ADMISSION.md).
 - [Dihedral/fixed-head obstruction](results/complex-dihedral-interstage/ADMISSION.md), [constructed middle and literal four-K gate](results/complex-zero-ordinary-middle/ADMISSION.md).
@@ -162,7 +194,7 @@ addition to its all-field complement argument.
 
 Canonical main last examined: `e54523517d0f03e58352e647c403a5af3e525a57`.
 S015 starting programme: `eefa411ebab86271d50b56b6953af3a157366bdb`.
-This checkpoint's confirmed parent: `2d4422afa86ad8a2ece116a0ce2bfc62c89af21a`.
+This checkpoint's confirmed parent: `0cdf503087595de74016d8a9dbdfa0b8e975e5ce`.
 The resulting remote commit is confirmed after publication and recorded in the
 next receipt, never self-embedded. Native SOURCE-RECOVERY SHA256:
 `8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e`.

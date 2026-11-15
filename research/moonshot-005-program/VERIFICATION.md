@@ -540,3 +540,31 @@ qualification. Semantic negative controls include omitted source/inverse work,
 second-copy movement/feedback/retirement, and one-copy undercharging. Lane
 controls distinguish projector commutation from full bank-unit commutation.
 No unreviewed packed three-duty or Pauli-split claim is admitted here.
+
+## S015 checkpoint6: new source geometry and algebraic conservation
+
+- Paired flags: author all222-column/rational replay and independent C replay,
+  explicit private-cache and simultaneous-tail controls, exact10V proof.
+- Fixed packed gate: A's universal six-slack argument and root's independently
+  rebuilt D/B/W spaces on444 columns at all three depths. Root's exact
+  principal-bank budget is independently enclosed by A with a different fixed-point
+  denominator; the bound is movement-only, with every replicated caller term.
+- Facet collectors: C's source and A's independent444-column/geometry review,
+  nine semantic mutants, exact profile, canonical quotient ranks and83 delivery
+  duals. Root's composition audit rejects the unsupported218>194 physical
+  comparison; author and reviewer corrections are mandatory dependencies.
+- Commuting complex source: B's actual forward/inverse gauges and universal
+  rank-rounding proof independently reviewed by root. Root reconstructs512
+  phases,42 source pairs,280 exact matrices and1312 sign comparisons. The
+  general-head one-relation proof is reviewed separately from WIP searches.
+- Faithfulness: root's universal quadratic-phase/Gram proof, B's independent
+  mathematical review and exact group enumeration at d1..4. Sufficient
+  thresholds d(d+3) are not claimed minimal.
+
+The portable checkpoint6 runner rebuilds words and receipts. Two independent
+paired-source histories enumerate the same111 coverage lists in a different
+Python-set order; the runner accepts only identical sorted lists and requires
+all other fields byte/JSON identical. Frozen receipts are not rewritten.
+Actual command counts, comparisons, pins and prior-hash preservation are in
+[CHECKPOINT6-VALIDATION.json](sessions/2026-11-15-S015/CHECKPOINT6-VALIDATION.json).
+Independent agent review is not human or proof-kernel certification. No new κ.

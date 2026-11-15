@@ -1,0 +1,109 @@
+{
+  "status": "PASS_INDEPENDENT_THREE_DUTY_GATE",
+  "cases": [
+    {
+      "depth": 1,
+      "dimensions": [
+        54,
+        58,
+        54,
+        42,
+        70,
+        46
+      ],
+      "controls": [
+        {
+          "ports": [
+            1
+          ],
+          "free_demand_quotient_dimension": 0
+        },
+        {
+          "ports": [
+            8,
+            11
+          ],
+          "free_demand_quotient_dimension": 0
+        },
+        {
+          "ports": [
+            22,
+            23
+          ],
+          "free_demand_quotient_dimension": 0
+        }
+      ]
+    },
+    {
+      "depth": 2,
+      "dimensions": [
+        54,
+        58,
+        54,
+        42,
+        70,
+        46
+      ],
+      "controls": [
+        {
+          "ports": [
+            1
+          ],
+          "free_demand_quotient_dimension": 0
+        },
+        {
+          "ports": [
+            8,
+            11
+          ],
+          "free_demand_quotient_dimension": 0
+        },
+        {
+          "ports": [
+            22,
+            23
+          ],
+          "free_demand_quotient_dimension": 0
+        }
+      ]
+    },
+    {
+      "depth": 3,
+      "dimensions": [
+        52,
+        56,
+        52,
+        40,
+        68,
+        44
+      ],
+      "controls": [
+        {
+          "ports": [
+            1
+          ],
+          "free_demand_quotient_dimension": 0
+        },
+        {
+          "ports": [
+            8,
+            11
+          ],
+          "free_demand_quotient_dimension": 0
+        },
+        {
+          "ports": [
+            22,
+            23
+          ],
+          "free_demand_quotient_dimension": 0
+        }
+      ]
+    }
+  ],
+  "all_444_source_columns_replayed": true,
+  "all_222_X_restored": true,
+  "proof_conclusion": "p >= 21, for the stated fixed D/B and seed subspace inside A, all characteristic-two fields and all tensor widths",
+  "budget_control": "five rank8 banks cost >39.5, above full two-copy room <30.414",
+  "new_complete_kappa": false
+}
