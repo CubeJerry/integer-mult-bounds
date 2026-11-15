@@ -1,0 +1,73 @@
+{
+  "status": "PASS_ARBITRARY_LIFT_RAW_QUERY_GATE",
+  "source_word_sha256": "4cea047c9f28a17c3379d3073a88b3a5d00e6e749214661c9d330a289824d060",
+  "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "rank_D": 40,
+  "rank_A": 47,
+  "rank_B": 11,
+  "B_rows_hex": [
+    "0x7f0000000000000",
+    "0x7f00fe0000000f4000000000ff",
+    "0xff",
+    "0x7ffffffe0007ff400000003dfe",
+    "0x7f80fffe01fc07f03f40003fc0fd",
+    "0x7ffd0001fbfc07f0003fffc000fb",
+    "0x7ffffffffff7bf7",
+    "0x7efb00fa0003f80fffc03fc000ef",
+    "0xfbf7f7f80000003ffeffdf",
+    "0x77ff0001f7f8003eff40003fbf",
+    "0x7d80ff01fe03f80f403f403dc07f"
+  ],
+  "pairs": [
+    {
+      "pair": [
+        8,
+        11
+      ],
+      "dual_hex": "0x40000000002000000100",
+      "dual_support": [
+        8,
+        37,
+        78
+      ],
+      "W_difference_hex": "0xff000003f8003fc000003f00",
+      "ambient_local_dimensions": [
+        15,
+        16
+      ]
+    },
+    {
+      "pair": [
+        22,
+        23
+      ],
+      "dual_hex": "0x2000000200400000",
+      "dual_support": [
+        22,
+        33,
+        61
+      ],
+      "W_difference_hex": "0x7f03fc03fc03f00",
+      "ambient_local_dimensions": [
+        16,
+        13
+      ]
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "erase_demand_bit",
+      "rejected": true
+    },
+    {
+      "name": "add_unpriced_point",
+      "rejected": true
+    },
+    {
+      "name": "second_erased_demand",
+      "rejected": true
+    }
+  ],
+  "positive_control_full_W_grant_fits_all": true,
+  "positive_control_extra_demand_point_breaks_dual": true
+}

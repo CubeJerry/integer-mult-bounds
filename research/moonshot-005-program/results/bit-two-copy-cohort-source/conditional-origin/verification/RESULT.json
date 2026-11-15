@@ -1,0 +1,77 @@
+{
+  "negative_controls": {
+    "claim_retained_scalar_compiler_admission": {
+      "reason": "ADD_LANE is absent from the pinned scalar compiler grammar; the exhibited repeated-input state violates its constant-record invariant.",
+      "rejected": true
+    },
+    "omit_actual_feedback": {
+      "reason": "handoff chart or value mismatch",
+      "rejected": true
+    },
+    "omit_lane_formation": {
+      "reason": "original source not restored at Hub",
+      "rejected": true
+    },
+    "omit_lane_restoration": {
+      "reason": "original source not restored at Hub",
+      "rejected": true
+    }
+  },
+  "new_complete_kappa": false,
+  "receipt": {
+    "actual_cache_W_intersection": 19,
+    "actual_cache_increment_rank": 80,
+    "actual_history_W_intersection": 30,
+    "actual_history_rank": 93,
+    "actual_history_y_rank": 2,
+    "bit_XOR_work_at_V_equals_2s": {
+      "coefficient_of_s": 2126,
+      "full_record_ADD_count": 674,
+      "lane_XOR_count": 778,
+      "selector_access_overhead": "Unadmitted and separately owed; no zero-cost masking claim."
+    },
+    "conditional_seed_lane_operations": 208,
+    "conditional_source_lane_operations": 570,
+    "counts": {
+      "ADD": 674,
+      "ADD_LANE": 778,
+      "CLEAR": 200,
+      "INIT": 200,
+      "MOVE": 495
+    },
+    "dirty_clears": 199,
+    "first_escape_from_constant_record_invariant": {
+      "chart": "A15",
+      "operation": [
+        "ADD_LANE",
+        "X58",
+        1,
+        "X52",
+        1
+      ],
+      "operation_index": 309,
+      "repeated_input_lane_rows_hex": [
+        "0x10000000000000",
+        "0x410000000000000"
+      ]
+    },
+    "independent_original_columns": 444,
+    "movement_profile": {
+      "1": 183,
+      "2": 12,
+      "3": 119,
+      "4": 71,
+      "7": 110
+    },
+    "new_complete_kappa": false,
+    "owned_peak": 200,
+    "rank_length": 1618,
+    "record_lanes": 2,
+    "retained_compiler_admitted": false,
+    "status": "PASS_CONDITIONAL_LANE_SEMANTICS_ONLY",
+    "terminal_W_intersection": 11,
+    "terminal_rank": 13
+  },
+  "status": "PASS_CONDITIONAL_LANE_SEMANTICS_ONLY",
+  "word_sha256": "088be7c297f35b7085d585849c0bab65f42ccd417249bf5b3fde6c2a90d4b015"
+}

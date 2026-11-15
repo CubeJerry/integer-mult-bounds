@@ -1,0 +1,338 @@
+[
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-raw-query-lift-gate/author/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-delayed-mixed-feedback/author/output/WORD.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/raw/author.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-augmented-acquisition/author/build.py",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-delayed-mixed-feedback/author/output/WORD.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/aug/output"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-reprogrammed-cohort/author/build.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--base",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-delayed-mixed-feedback/author/output/WORD.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/cohort/output"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-raw-query-lift-gate/review-root/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-delayed-mixed-feedback/author/output/WORD.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/raw/root.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-two-demand-slack/author/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-augmented-acquisition/author/output/SPARE-WORD.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/q9/author.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-two-demand-slack/review-root/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-augmented-acquisition/author/output/SPARE-WORD.json",
+      "--certificate",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/q9/author.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/q9/root.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-lane-service-boundary/independent-c/check.py",
+      "--proof",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-lane-service-boundary/author/PROOF.md",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/lane/RESULT.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-two-copy-cohort-source/conditional-origin/build.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--base",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-delayed-mixed-feedback/author/output/WORD.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/two-copy/conditional"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-two-copy-cohort-source/conditional-origin/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--word",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/two-copy/conditional/CLOSED-WORD.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/two-copy/conditional-check"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-two-copy-cohort-source/author/expand.py",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/two-copy/conditional",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/two-copy/output"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-two-copy-cohort-source/author/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--word",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/two-copy/output/CLOSED-WORD.json",
+      "--conditional",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/two-copy/conditional/CLOSED-WORD.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/two-copy/author-check"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-reprogrammed-cohort/author/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--word",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/cohort/output/CLOSED-WORD.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/cohort/author-check"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-reprogrammed-cohort/author/capacity.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--word",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/cohort/output/WORD.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/cohort/CAPACITY.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/complex-dihedral-interstage/author/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/dihedral/author.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-two-copy-cohort-source/independent-a/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--package",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/two-copy",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/two-copy/review"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-reprogrammed-cohort/independent-a/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--package",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/cohort",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/cohort/review"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-augmented-acquisition/author/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--word",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/aug/output/PRESERVED-CLOSED-WORD.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/aug/preserved-verification"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/cohort/structure-code/structure.py",
+      "--package",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/cohort"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-reprogrammed-cohort/capacity-review-root/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--word",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/cohort/output/WORD.json",
+      "--certificate",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/cohort/CAPACITY.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/cohort/root.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/middle/author/check_middle_gate.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/middle/root/check.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/dihedral/check.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/dihedral/check_all_heads.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/complex-dihedral-interstage/corollary-independent-b/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--proof",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/complex-dihedral-interstage/review-root/ALL-HEAD-CYCLIC-COROLLARY.md",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/dihedral/corollary.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-augmented-acquisition/author/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--word",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/aug/output/SPARE-CLOSED-WORD.json",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/aug/spare-verification"
+    ],
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-augmented-acquisition/independent-a/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--package",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/aug",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp5-portable/aug/review"
+    ],
+    "exit_code": 0
+  }
+]

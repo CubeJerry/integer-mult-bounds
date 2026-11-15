@@ -98,23 +98,40 @@ acquisition or additional paid channels.
 
 ## 5. Source and seed budgets
 
-The h9 target has rank15, dim(W+C)=16 and exact chi106. Actual colored D has
-rank40 and dim(D∩W)=8. Raw W15 history, normalized information and physical
-receiver delivery are three different properties. Every extra seed/helper
-must be acquired and charged, and benefits from alternative words cannot be
-added at a fictional combined price.
+The h9 target has rank15,dim(W+C)=16 and exact chi106. It is sufficient,
+not a universal requirement on every changed decoder. Raw history, normalized
+information and physical receiver delivery are distinct.
 
-The admitted delayed source has200 owners,943 ADD,495 MOVE and200 dirty CLEAR,
-with Q=183[1]+12[2]+119[3]+71[4]+110[7], moment1606.544161951791215... and
-limiting movement room15.206718259361139.... It completes only0.
-The four-/six-output words both have
+The common one-copy profile is Q0=183[1]+12[2]+119[3]+71[4]+110[7], with
+Q0=1606.544161951791215... and limiting room15.206718259361139....
 
-    Q=190[1]+12[2]+119[3]+72[4]+2[5]+107[7],
-    Q_(199/200)=1606.6397127652461848001265469...,
-    B_infinity−Q=15.1111674459061704461196034....
+| Actual source | Acquired D / W intersection | Owners / ADD / MOVE | Complete movement |
+|---|---:|---:|---|
+| Delayed mixed source | 40 / 8 | 200 / 943 / 495 | Q0 |
+| Two actual facet acquisitions | 42 / 9 | 202 / 960 / 505, spare variant | Q0+10([3]+[1]-[4]) |
+| Reprogrammed scalar cohorts | 40 / 9 | 200 / 805 / 495 | Q0 |
+| Joint two-copy cohorts | 80 / 19 | 400 / 2126 / 990 | 2Q0, with twice all native/productive/caller terms |
 
-Their distinct ordinary/ownership invoices remain owed. These positive partial
-movement margins do not defeat the information obstructions or prove suppliers.
+The exact fixed independent-cohort/run optimum is9V+floor(V/2), with residual
+W demand ceil(11V/2). The scalar and two-copy patterns have literal ordinary
+words. The two-copy construction completes only its two Y0 outputs, with
+terminal rank13,W-terminal intersection11,normalized rank15 and W30 history.
+Its400 CLEARs include397 dirty states. This is actual joint coding between
+separately paid records, not free masked access to one array.
+
+For a fixed bank count b, the reviewed complete-unit batching bridge scales
+(N,H,P2,T2,Q) by b, hence P'_m=bP_m,T'_m=bT_m and B'_infinity=bB_infinity.
+The interface must have b independent input families and complete direct-sum
+endpoints; each suspended inventory, ordinary operation and precision constant
+is counted. Partial sources do not yet qualify for a complete caller replacement.
+[Two-copy source and bridge](results/bit-two-copy-cohort-source/ADMISSION.md).
+
+Fixed-source limits remain: the D40 whole-query family fails even for arbitrary
+minimal seven-field lifts; all49 D42 two-feedback cases with seeds in A=D+W
+require at least2V extra D slack. Changed selectors, outside-A seeds and the new
+cohort source require fresh checks. The earlier four-/six-output positive
+movement margins remain valid but their fixed completion templates are excluded
+by the joint puncture theorem. No partial margin establishes a supplier.
 
 For fixed acquisition D, mandatory N⊂D, target W and comparison space E, set
 n=dimN,r=dim((D+W)/D),z=dim(E∩(D+W))−dim(E∩D). Feasibility of dimT≤q,
@@ -152,11 +169,21 @@ An ordinary unit in a finite algebra needs its actual uniform implementation,
 scalar/bit costs, source layout and precision proof; its algebraic inverse is
 not a free physical call.
 
-Earlier common-head and full two-head conservation, one-native inventory and
-two-native H≤4 gates remain in force within their exact scopes. Three same-
-orientation/four-role(3,3,1,1) is also excluded. Stronger two-interstage dihedral
-shadow work is pending independent admission. No complete complex supplier is
-constructed by any favorable prospective price.
+The admitted dihedral shadow strengthens the fixed three-native/two-interstage
+scope to H<=6 for every fixed cyclic head count d>=2 and Pauli-algebra endpoint
+units. Full common-body price exceeds target for every0<t<1 by at least
+3(1-(8^t-7^t)). The actual spectator volume is retained on both sides. General
+ordinary endpoint gauges and additional interstages are outside this theorem.
+[Proof and fixed-head corollary](results/complex-dihedral-interstage/ADMISSION.md).
+
+The current four-native/three-role target has complete prospective price
+4[1]+8[7]+4[8] against3[31], leaving approximately0.2900261546767265 at t199/200.
+No caller is asserted to attain it. An explicit ordinary Q constructs KQK with
+zero ordinary component, but a universal ordinary-left-kernel theorem excludes
+the literal four-K target a³I. Changed endpoint encoders and head gauges are
+therefore consequential, rather than wider search for the same excluded word.
+[Middle construction and gate](results/complex-zero-ordinary-middle/ADMISSION.md).
+The new Pauli-split synthesis reduction is pending independent admission.
 
 ## 7. Sufficient end-to-end theorem still missing
 

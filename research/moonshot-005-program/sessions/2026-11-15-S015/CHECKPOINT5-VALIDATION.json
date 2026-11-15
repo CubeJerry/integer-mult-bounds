@@ -1,0 +1,853 @@
+{
+  "status": "PASS_REVIEWED_CP5",
+  "baseline_sha": "2d4422afa86ad8a2ece116a0ce2bfc62c89af21a",
+  "checked_utc": "2026-11-15T10:06:47.731039+00:00",
+  "new_results": [
+    {
+      "id": "BIT-RAW-QUERY-LIFT-GATE",
+      "status": "proved arbitrary-lift dual obstruction for fixed raw-query grants",
+      "path": "results/bit-raw-query-lift-gate/ADMISSION.md",
+      "review": "results/bit-raw-query-lift-gate/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-AUGMENTED-ACQUISITION",
+      "status": "proved actual D42/W9 acquisition with complete partial-source invoice",
+      "path": "results/bit-augmented-acquisition/ADMISSION.md",
+      "review": "results/bit-augmented-acquisition/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-TWO-DEMAND-SLACK",
+      "status": "proved2V slack lower bound in49 fixed D42 cases",
+      "path": "results/bit-two-demand-slack/ADMISSION.md",
+      "review": "results/bit-two-demand-slack/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-REPROGRAMMED-COHORT",
+      "status": "proved scalar W9 source at unchanged movement",
+      "path": "results/bit-reprogrammed-cohort/ADMISSION.md",
+      "review": "results/bit-reprogrammed-cohort/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-EXACT-COHORT-CAPACITY",
+      "status": "proved all-field exact9V+floor(V/2) fixed-run capacity",
+      "path": "results/bit-reprogrammed-cohort/ADMISSION.md",
+      "review": "results/bit-reprogrammed-cohort/capacity-review-root/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-DIHEDRAL-INTERSTAGE",
+      "status": "proved H<=6 three-native two-interstage obstruction and all-t deficit",
+      "path": "results/complex-dihedral-interstage/ADMISSION.md",
+      "review": "results/complex-dihedral-interstage/review-root/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-ALL-FIXED-HEAD-SHADOW",
+      "status": "proved fixed-d and Pauli-endpoint extension with actual spectator factor",
+      "path": "results/complex-dihedral-interstage/ADMISSION.md",
+      "review": "results/complex-dihedral-interstage/corollary-independent-b/REVIEW.md"
+    },
+    {
+      "id": "BIT-LANE-SERVICE-BOUNDARY",
+      "status": "proved restricted constant-record invariant; conditional stream service",
+      "path": "results/bit-lane-service-boundary/ADMISSION.md",
+      "review": "results/bit-lane-service-boundary/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-TWO-COPY-COHORT-SOURCE",
+      "status": "proved ordinary400-owner two-copy source attaining W19/D80",
+      "path": "results/bit-two-copy-cohort-source/ADMISSION.md",
+      "review": "results/bit-two-copy-cohort-source/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-FIXED-BANK-EXPANSION",
+      "status": "proved fixed-bank translation and conditional complete-caller batching homogeneity",
+      "path": "results/bit-two-copy-cohort-source/ADMISSION.md",
+      "review": "results/bit-two-copy-cohort-source/bank-expansion-independent-a/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-ZERO-ORDINARY-MIDDLE",
+      "status": "proved actual middle construction and literal four-K target exclusion",
+      "path": "results/complex-zero-ordinary-middle/ADMISSION.md",
+      "review": "results/complex-zero-ordinary-middle/review-root/REVIEW.md"
+    }
+  ],
+  "reproduction_commands": 26,
+  "json_comparisons": [
+    {
+      "expected": "bit-raw-query-lift-gate/author/CERTIFICATE.json",
+      "sha256": "730dec6deee01a12f2b774f60d13b5cd49e32a6defb693dc1b74368f43ac8ee0",
+      "reproduced": "raw/author.json",
+      "reproduced_sha256": "730dec6deee01a12f2b774f60d13b5cd49e32a6defb693dc1b74368f43ac8ee0",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-augmented-acquisition/author/output/PRESERVED-WORD.json",
+      "sha256": "33cc2f49629c8fc9892aa42d37fb3ef2bfa6c543e9f223701aa3790960f994a0",
+      "reproduced": "aug/output/PRESERVED-WORD.json",
+      "reproduced_sha256": "33cc2f49629c8fc9892aa42d37fb3ef2bfa6c543e9f223701aa3790960f994a0",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-reprogrammed-cohort/author/output/WORD.json",
+      "sha256": "19bc8db62e930e0bc3333ca0aaeca4b1703f924f747372c0413ff45e618c081c",
+      "reproduced": "cohort/output/WORD.json",
+      "reproduced_sha256": "19bc8db62e930e0bc3333ca0aaeca4b1703f924f747372c0413ff45e618c081c",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-augmented-acquisition/author/output/PRESERVED-CLOSED-WORD.json",
+      "sha256": "7514430644cc85c9a13d8594adeb29fc0e211ea24c528a317eee421c4c155eae",
+      "reproduced": "aug/output/PRESERVED-CLOSED-WORD.json",
+      "reproduced_sha256": "7514430644cc85c9a13d8594adeb29fc0e211ea24c528a317eee421c4c155eae",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-reprogrammed-cohort/author/output/CLOSED-WORD.json",
+      "sha256": "ed8509fb615ebbd321122bdf093bf7d12fca794648065b9f42e07863db2b32f8",
+      "reproduced": "cohort/output/CLOSED-WORD.json",
+      "reproduced_sha256": "ed8509fb615ebbd321122bdf093bf7d12fca794648065b9f42e07863db2b32f8",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-augmented-acquisition/author/output/SPARE-WORD.json",
+      "sha256": "8939d815b7e1b1dfa89e3e0a6812e5b427f98ddf3020a3300c6232aaa803db52",
+      "reproduced": "aug/output/SPARE-WORD.json",
+      "reproduced_sha256": "8939d815b7e1b1dfa89e3e0a6812e5b427f98ddf3020a3300c6232aaa803db52",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-augmented-acquisition/author/output/SPARE-CLOSED-WORD.json",
+      "sha256": "57c47bcb25dffbb2c99f12b63c6caa5ea8b8ea15428679f45861ba755c1c2d5b",
+      "reproduced": "aug/output/SPARE-CLOSED-WORD.json",
+      "reproduced_sha256": "57c47bcb25dffbb2c99f12b63c6caa5ea8b8ea15428679f45861ba755c1c2d5b",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-raw-query-lift-gate/review-root/RESULT.json",
+      "sha256": "84d39b346429f9e24c812fd2530afb5b7edca48d4dba941e3ae059715e2a6162",
+      "reproduced": "raw/root.json",
+      "reproduced_sha256": "84d39b346429f9e24c812fd2530afb5b7edca48d4dba941e3ae059715e2a6162",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-two-demand-slack/author/CERTIFICATE.json",
+      "sha256": "839fb1dfc525cc21420ef2f10125a02e8afe34c0690fe7d9af658358f1d7c4e6",
+      "reproduced": "q9/author.json",
+      "reproduced_sha256": "839fb1dfc525cc21420ef2f10125a02e8afe34c0690fe7d9af658358f1d7c4e6",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-two-demand-slack/review-root/RESULT.json",
+      "sha256": "d7ad5c548096d380a85cf911717b10ba2046579525a6551aabd65081f28ffbe8",
+      "reproduced": "q9/root.json",
+      "reproduced_sha256": "d7ad5c548096d380a85cf911717b10ba2046579525a6551aabd65081f28ffbe8",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-lane-service-boundary/independent-c/RESULT.json",
+      "sha256": "4ca61a500987c15c57ca61c766bb62de049cdcdd954de1e858a173fd75602274",
+      "reproduced": "lane/RESULT.json",
+      "reproduced_sha256": "4ca61a500987c15c57ca61c766bb62de049cdcdd954de1e858a173fd75602274",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-two-copy-cohort-source/conditional-origin/output/WORD.json",
+      "sha256": "915c72ad64a259e201c17772d9a7bc1880e4baf733db955af9405553527aca87",
+      "reproduced": "two-copy/conditional/WORD.json",
+      "reproduced_sha256": "915c72ad64a259e201c17772d9a7bc1880e4baf733db955af9405553527aca87",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-two-copy-cohort-source/conditional-origin/output/CLOSED-WORD.json",
+      "sha256": "088be7c297f35b7085d585849c0bab65f42ccd417249bf5b3fde6c2a90d4b015",
+      "reproduced": "two-copy/conditional/CLOSED-WORD.json",
+      "reproduced_sha256": "088be7c297f35b7085d585849c0bab65f42ccd417249bf5b3fde6c2a90d4b015",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-two-copy-cohort-source/conditional-origin/verification/RESULT.json",
+      "sha256": "b6bebe48ae131ade99dfd716321e06716f5caeb0aec5a6875e1e23c10e772387",
+      "reproduced": "two-copy/conditional-check/RESULT.json",
+      "reproduced_sha256": "b6bebe48ae131ade99dfd716321e06716f5caeb0aec5a6875e1e23c10e772387",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-two-copy-cohort-source/conditional-origin/verification/HISTORY.json",
+      "sha256": "ed45cd7e8835c637b34dd81143c66e31ed345fa72957fe8fd249946ee4ab67a7",
+      "reproduced": "two-copy/conditional-check/HISTORY.json",
+      "reproduced_sha256": "ed45cd7e8835c637b34dd81143c66e31ed345fa72957fe8fd249946ee4ab67a7",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-two-copy-cohort-source/author/output/WORD.json",
+      "sha256": "aa9d17693c1f976625ee420e1367680e86cfec0195259d609f7eddc258eda01e",
+      "reproduced": "two-copy/output/WORD.json",
+      "reproduced_sha256": "aa9d17693c1f976625ee420e1367680e86cfec0195259d609f7eddc258eda01e",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-two-copy-cohort-source/author/output/CLOSED-WORD.json",
+      "sha256": "24c253e49e42ab38e00dabd1b1c99d33ae7b1bfdc501d3ade1648e202bf4b989",
+      "reproduced": "two-copy/output/CLOSED-WORD.json",
+      "reproduced_sha256": "24c253e49e42ab38e00dabd1b1c99d33ae7b1bfdc501d3ade1648e202bf4b989",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-two-copy-cohort-source/author/verification/RESULT.json",
+      "sha256": "65f2aae23d4096e261cbe46ca742336279501ed018544ca5649ad1ef9d5f4d9a",
+      "reproduced": "two-copy/author-check/RESULT.json",
+      "reproduced_sha256": "65f2aae23d4096e261cbe46ca742336279501ed018544ca5649ad1ef9d5f4d9a",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-two-copy-cohort-source/author/verification/HISTORY.json",
+      "sha256": "946bca404c9ce1744a6e4352b97b2ca3201c26036056f6e79f26142078195fe2",
+      "reproduced": "two-copy/author-check/HISTORY.json",
+      "reproduced_sha256": "946bca404c9ce1744a6e4352b97b2ca3201c26036056f6e79f26142078195fe2",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-reprogrammed-cohort/author/verification/RESULT.json",
+      "sha256": "7a2b9c35f7b133a62fc30674b1540556c2233b1d7c8c59afcac574d0f00c74a3",
+      "reproduced": "cohort/author-check/RESULT.json",
+      "reproduced_sha256": "7a2b9c35f7b133a62fc30674b1540556c2233b1d7c8c59afcac574d0f00c74a3",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-reprogrammed-cohort/author/verification/HISTORY.json",
+      "sha256": "6eae01b51cb0132dfda0857e9d27fb66208f7ee9608f935e09c41244a7d8e699",
+      "reproduced": "cohort/author-check/HISTORY.json",
+      "reproduced_sha256": "6eae01b51cb0132dfda0857e9d27fb66208f7ee9608f935e09c41244a7d8e699",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-reprogrammed-cohort/author/CAPACITY.json",
+      "sha256": "d2af5e0aa3f602abbac432d2672b631763095d0757ddeb7fdf43752ca46e72b5",
+      "reproduced": "cohort/CAPACITY.json",
+      "reproduced_sha256": "d2af5e0aa3f602abbac432d2672b631763095d0757ddeb7fdf43752ca46e72b5",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "complex-dihedral-interstage/author/RESULT.json",
+      "sha256": "405526aaf1744140a6e584f177adf11b5c329a8e7c83a164014ec49f13284a50",
+      "reproduced": "dihedral/author.json",
+      "reproduced_sha256": "405526aaf1744140a6e584f177adf11b5c329a8e7c83a164014ec49f13284a50",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-two-copy-cohort-source/independent-a/output/RESULT.json",
+      "sha256": "469136db4580f941d746819b72ad7448efed8f9617b68ae15eed42da13f9e88e",
+      "reproduced": "two-copy/review/RESULT.json",
+      "reproduced_sha256": "469136db4580f941d746819b72ad7448efed8f9617b68ae15eed42da13f9e88e",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-two-copy-cohort-source/independent-a/output/WORD-HISTORY.json",
+      "sha256": "a72e26f5b5422f42f85050906d4e90e4f599d9651e5b9a78cb0e9ec2c1a696e0",
+      "reproduced": "two-copy/review/WORD-HISTORY.json",
+      "reproduced_sha256": "a36e989c211078521f2746b10bb2041012034a8e76008061f00dcdfecfda263f",
+      "comparison": "basis_order_equivalent_with_exact_witness_validation",
+      "reindexed_fields": [
+        "actual_raw_increment_rows_hex",
+        "actual_raw_increment_witnesses_hex"
+      ]
+    },
+    {
+      "expected": "bit-two-copy-cohort-source/independent-a/output/CLOSED-WORD-HISTORY.json",
+      "sha256": "a72e26f5b5422f42f85050906d4e90e4f599d9651e5b9a78cb0e9ec2c1a696e0",
+      "reproduced": "two-copy/review/CLOSED-WORD-HISTORY.json",
+      "reproduced_sha256": "a36e989c211078521f2746b10bb2041012034a8e76008061f00dcdfecfda263f",
+      "comparison": "basis_order_equivalent_with_exact_witness_validation",
+      "reindexed_fields": [
+        "actual_raw_increment_rows_hex",
+        "actual_raw_increment_witnesses_hex"
+      ]
+    },
+    {
+      "expected": "bit-reprogrammed-cohort/independent-a/output/RESULT.json",
+      "sha256": "d0341917ec9b68532f83c68ab3ea83c9db14ced7b331ae514810450bfb73c891",
+      "reproduced": "cohort/review/RESULT.json",
+      "reproduced_sha256": "42ce249c2c956b3c70171ffa07578b415fc73e471060ee3410c7c36d34105d27",
+      "comparison": "basis_order_equivalent_with_exact_witness_validation",
+      "reindexed_fields": [
+        "CLOSED-WORD/W66_from_increments_and_six_W_witness",
+        "WORD/W66_from_increments_and_six_W_witness"
+      ]
+    },
+    {
+      "expected": "bit-reprogrammed-cohort/independent-a/output/WORD-HISTORY.json",
+      "sha256": "c8da7351c79ceb8e11dda4bf058422cc16a991b0caab3e54fc2e5534e23fb841",
+      "reproduced": "cohort/review/WORD-HISTORY.json",
+      "reproduced_sha256": "23aa65050dd05388a92c1ea072d3d33b73e87abb9da99dce06c55a97464c3891",
+      "comparison": "basis_order_equivalent_with_exact_witness_validation",
+      "reindexed_fields": [
+        "actual_raw_increment_rows_hex",
+        "actual_raw_increment_witnesses_hex"
+      ]
+    },
+    {
+      "expected": "bit-reprogrammed-cohort/independent-a/output/CLOSED-WORD-HISTORY.json",
+      "sha256": "c8da7351c79ceb8e11dda4bf058422cc16a991b0caab3e54fc2e5534e23fb841",
+      "reproduced": "cohort/review/CLOSED-WORD-HISTORY.json",
+      "reproduced_sha256": "23aa65050dd05388a92c1ea072d3d33b73e87abb9da99dce06c55a97464c3891",
+      "comparison": "basis_order_equivalent_with_exact_witness_validation",
+      "reindexed_fields": [
+        "actual_raw_increment_rows_hex",
+        "actual_raw_increment_witnesses_hex"
+      ]
+    },
+    {
+      "expected": "bit-augmented-acquisition/author/preserved-verification/RESULT.json",
+      "sha256": "9a4010d97d6aaa647d20580e3b1dde6000bfecf0b43748e91ffcaeb780221e26",
+      "reproduced": "aug/preserved-verification/RESULT.json",
+      "reproduced_sha256": "9a4010d97d6aaa647d20580e3b1dde6000bfecf0b43748e91ffcaeb780221e26",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-augmented-acquisition/author/preserved-verification/HISTORY.json",
+      "sha256": "97db1b9a68d830d4c33be10c396ec6072c58a07cb9da2132dc53ea10fad0b877",
+      "reproduced": "aug/preserved-verification/HISTORY.json",
+      "reproduced_sha256": "97db1b9a68d830d4c33be10c396ec6072c58a07cb9da2132dc53ea10fad0b877",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-reprogrammed-cohort/independent-a/output/STRUCTURE.json",
+      "sha256": "e74e6f2b8b7996ea4d27a1ffd18be0f2fc7c73b2e78edb071c097c8500d6ff6c",
+      "reproduced": "cohort/structure-code/output/STRUCTURE.json",
+      "reproduced_sha256": "e74e6f2b8b7996ea4d27a1ffd18be0f2fc7c73b2e78edb071c097c8500d6ff6c",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-reprogrammed-cohort/capacity-review-root/RESULT.json",
+      "sha256": "5b828e683f80a2db53bb6883215bf161d977ec4b93cd044d5a74d5a8b2c7c207",
+      "reproduced": "cohort/root.json",
+      "reproduced_sha256": "5b828e683f80a2db53bb6883215bf161d977ec4b93cd044d5a74d5a8b2c7c207",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "complex-zero-ordinary-middle/author/MIDDLE-GATE-RESULT.json",
+      "sha256": "f6b6732dcda503b875c3cacfae06263f87faf81aa274f47f0410937a5f1652e2",
+      "reproduced": "middle/author/MIDDLE-GATE-RESULT.json",
+      "reproduced_sha256": "f6b6732dcda503b875c3cacfae06263f87faf81aa274f47f0410937a5f1652e2",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "complex-zero-ordinary-middle/review-root/RESULT.json",
+      "sha256": "8bc8c2dc882922182c75bc4356b0fa5d154193fab15654249c34b817f2477e0e",
+      "reproduced": "middle/root/RESULT.json",
+      "reproduced_sha256": "8bc8c2dc882922182c75bc4356b0fa5d154193fab15654249c34b817f2477e0e",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "complex-dihedral-interstage/review-root/RESULT.json",
+      "sha256": "98db099cbf5014270fa4fb6728339efd4915198870de6ccfd3f57f3be0efd342",
+      "reproduced": "dihedral/RESULT.json",
+      "reproduced_sha256": "98db099cbf5014270fa4fb6728339efd4915198870de6ccfd3f57f3be0efd342",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "complex-dihedral-interstage/review-root/ALL-HEAD-RESULT.json",
+      "sha256": "859245fd99e25b5f42e21739827cb223c7267667f060945c9775bed5f771f2d6",
+      "reproduced": "dihedral/ALL-HEAD-RESULT.json",
+      "reproduced_sha256": "859245fd99e25b5f42e21739827cb223c7267667f060945c9775bed5f771f2d6",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "complex-dihedral-interstage/corollary-independent-b/RESULT.json",
+      "sha256": "ab232913bd2d49277e5855d88caec852899b3e80e5b7da5a9f7833505596d297",
+      "reproduced": "dihedral/corollary.json",
+      "reproduced_sha256": "ab232913bd2d49277e5855d88caec852899b3e80e5b7da5a9f7833505596d297",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-augmented-acquisition/author/spare-verification/RESULT.json",
+      "sha256": "0a6a1de2d2bc081946d7388c6ce638b03cc018dd3301f5350be4e7442f25c914",
+      "reproduced": "aug/spare-verification/RESULT.json",
+      "reproduced_sha256": "0a6a1de2d2bc081946d7388c6ce638b03cc018dd3301f5350be4e7442f25c914",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-augmented-acquisition/author/spare-verification/HISTORY.json",
+      "sha256": "a6770e4253a24a6baebe6da24625f41c4341e2f70d5fbedb40627270c2525b84",
+      "reproduced": "aug/spare-verification/HISTORY.json",
+      "reproduced_sha256": "a6770e4253a24a6baebe6da24625f41c4341e2f70d5fbedb40627270c2525b84",
+      "comparison": "byte_identical",
+      "reindexed_fields": []
+    },
+    {
+      "expected": "bit-augmented-acquisition/independent-a/output/RESULT.json",
+      "sha256": "b870b6923b45f0d11779b83daee34a48663dbd7a930abf9b360f0026bbf832de",
+      "reproduced": "aug/review/RESULT.json",
+      "reproduced_sha256": "038b3ec5a6a5f5ad27c4779aae589634930ad93524bb8dec5adc9f4609c436bd",
+      "comparison": "basis_order_equivalent_with_exact_witness_validation",
+      "reindexed_fields": [
+        "PRESERVED-CLOSED-WORD/W14_plus_W66_increment_witness",
+        "PRESERVED-WORD/W14_plus_W66_increment_witness",
+        "SPARE-CLOSED-WORD/W14_plus_W66_increment_witness",
+        "SPARE-WORD/W14_plus_W66_increment_witness"
+      ]
+    },
+    {
+      "expected": "bit-augmented-acquisition/independent-a/output/SPARE-WORD-HISTORY.json",
+      "sha256": "327dcbe405ba2b931d56eb2d42f6735d75d39de1df2653f41ccb7f4d2ef9a00f",
+      "reproduced": "aug/review/SPARE-WORD-HISTORY.json",
+      "reproduced_sha256": "fb28ba37fb76d68e6e702c5b40df13df9af6a65f2a65e6fc4e1e84e3eb483e47",
+      "comparison": "basis_order_equivalent_with_exact_witness_validation",
+      "reindexed_fields": [
+        "actual_raw_increment_rows_hex",
+        "actual_raw_increment_witnesses_hex"
+      ]
+    },
+    {
+      "expected": "bit-augmented-acquisition/independent-a/output/PRESERVED-CLOSED-WORD-HISTORY.json",
+      "sha256": "8d53991cd62bea841b0128674a9c13923b2e0ab2d30fe4294c6f447ed6312825",
+      "reproduced": "aug/review/PRESERVED-CLOSED-WORD-HISTORY.json",
+      "reproduced_sha256": "c4fae5403bb6c463fcc00c039a2d42ed4c16f7feb03d105b2ec00ce360dce9ce",
+      "comparison": "basis_order_equivalent_with_exact_witness_validation",
+      "reindexed_fields": [
+        "actual_raw_increment_rows_hex",
+        "actual_raw_increment_witnesses_hex"
+      ]
+    },
+    {
+      "expected": "bit-augmented-acquisition/independent-a/output/SPARE-CLOSED-WORD-HISTORY.json",
+      "sha256": "327dcbe405ba2b931d56eb2d42f6735d75d39de1df2653f41ccb7f4d2ef9a00f",
+      "reproduced": "aug/review/SPARE-CLOSED-WORD-HISTORY.json",
+      "reproduced_sha256": "fb28ba37fb76d68e6e702c5b40df13df9af6a65f2a65e6fc4e1e84e3eb483e47",
+      "comparison": "basis_order_equivalent_with_exact_witness_validation",
+      "reindexed_fields": [
+        "actual_raw_increment_rows_hex",
+        "actual_raw_increment_witnesses_hex"
+      ]
+    },
+    {
+      "expected": "bit-augmented-acquisition/independent-a/output/PRESERVED-WORD-HISTORY.json",
+      "sha256": "8d53991cd62bea841b0128674a9c13923b2e0ab2d30fe4294c6f447ed6312825",
+      "reproduced": "aug/review/PRESERVED-WORD-HISTORY.json",
+      "reproduced_sha256": "c4fae5403bb6c463fcc00c039a2d42ed4c16f7feb03d105b2ec00ce360dce9ce",
+      "comparison": "basis_order_equivalent_with_exact_witness_validation",
+      "reindexed_fields": [
+        "actual_raw_increment_rows_hex",
+        "actual_raw_increment_witnesses_hex"
+      ]
+    }
+  ],
+  "byte_identical_json": 35,
+  "basis_order_note": "CERTIFICATE-ORDER-NOTE.md",
+  "authenticated_source_pins": [
+    {
+      "source_path": "worker-a/delayed-correction-source/PROOF.md",
+      "sha256": "d89bd2bdc51a1004dd9fe2b5dfdfaed118ba14ebfb5d769a7a0ef722097abc8b"
+    },
+    {
+      "source_path": "worker-a/delayed-correction-source/output/WORD.json",
+      "sha256": "4cea047c9f28a17c3379d3073a88b3a5d00e6e749214661c9d330a289824d060"
+    },
+    {
+      "source_path": "worker-c/augmented-acquisition-source/ACQUISITION.json",
+      "sha256": "02f90d76dba1b204419232c31af5d06d9d28f70182f461f757d9e38e96406c16"
+    },
+    {
+      "source_path": "worker-c/augmented-acquisition-source/PROOF.md",
+      "sha256": "0d8875aec1b510f84387cc29043d02349b1302f7aa99820fdad97bcd0cf33c63"
+    },
+    {
+      "source_path": "worker-c/augmented-acquisition-source/build.py",
+      "sha256": "f572e557c048ad2d31b1643a2817ab93032674995f743a7bfc0a79d64fbd0d89"
+    },
+    {
+      "source_path": "worker-c/augmented-acquisition-source/check.py",
+      "sha256": "3158f32bd07630d89740c823996dfe97cf5433af7bdc0ea74974cb12b25288c8"
+    },
+    {
+      "source_path": "worker-c/augmented-acquisition-source/output/PRESERVED-CLOSED-WORD.json",
+      "sha256": "7514430644cc85c9a13d8594adeb29fc0e211ea24c528a317eee421c4c155eae"
+    },
+    {
+      "source_path": "worker-c/augmented-acquisition-source/output/PRESERVED-WORD.json",
+      "sha256": "33cc2f49629c8fc9892aa42d37fb3ef2bfa6c543e9f223701aa3790960f994a0"
+    },
+    {
+      "source_path": "worker-c/augmented-acquisition-source/output/SPARE-CLOSED-WORD.json",
+      "sha256": "57c47bcb25dffbb2c99f12b63c6caa5ea8b8ea15428679f45861ba755c1c2d5b"
+    },
+    {
+      "source_path": "worker-c/augmented-acquisition-source/output/SPARE-WORD.json",
+      "sha256": "8939d815b7e1b1dfa89e3e0a6812e5b427f98ddf3020a3300c6232aaa803db52"
+    },
+    {
+      "source_path": "worker-c/augmented-acquisition-source/preserved-verification/HISTORY.json",
+      "sha256": "97db1b9a68d830d4c33be10c396ec6072c58a07cb9da2132dc53ea10fad0b877"
+    },
+    {
+      "source_path": "worker-c/augmented-acquisition-source/preserved-verification/RESULT.json",
+      "sha256": "9a4010d97d6aaa647d20580e3b1dde6000bfecf0b43748e91ffcaeb780221e26"
+    },
+    {
+      "source_path": "worker-c/augmented-acquisition-source/spare-verification/HISTORY.json",
+      "sha256": "a6770e4253a24a6baebe6da24625f41c4341e2f70d5fbedb40627270c2525b84"
+    },
+    {
+      "source_path": "worker-c/augmented-acquisition-source/spare-verification/RESULT.json",
+      "sha256": "0a6a1de2d2bc081946d7388c6ce638b03cc018dd3301f5350be4e7442f25c914"
+    },
+    {
+      "source_path": "programme/research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json",
+      "sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e"
+    },
+    {
+      "source_path": "worker-a/delayed-correction-source/output/WORD.json",
+      "sha256": "4cea047c9f28a17c3379d3073a88b3a5d00e6e749214661c9d330a289824d060"
+    },
+    {
+      "source_path": "worker-c/reprogrammed-cohort-source/CAPACITY.json",
+      "sha256": "d2af5e0aa3f602abbac432d2672b631763095d0757ddeb7fdf43752ca46e72b5"
+    },
+    {
+      "source_path": "worker-c/reprogrammed-cohort-source/CAPACITY.md",
+      "sha256": "3cf2de2f54e8e455329e08a37461e9e030cadc1057e7c5eb3693a2b9467d7cb6"
+    },
+    {
+      "source_path": "worker-c/reprogrammed-cohort-source/PROOF.md",
+      "sha256": "498f06255375117afa8d71a4dc3c8b4489f3d7c4c1f3a6e249041124260c8392"
+    },
+    {
+      "source_path": "worker-c/reprogrammed-cohort-source/build.py",
+      "sha256": "2705f540a0f2afba2e723aa699f1860ead9717390e163055cc1f7f9ce0dcc07f"
+    },
+    {
+      "source_path": "worker-c/reprogrammed-cohort-source/capacity.py",
+      "sha256": "eca4d73257b194a469c195a3ef290cbd7fed61ed23b84afe12ec4579518a90bc"
+    },
+    {
+      "source_path": "worker-c/reprogrammed-cohort-source/check.py",
+      "sha256": "aeacfdfa1c935de2edb47294e2cc96324adf1842fd612c4fe17562822367fe40"
+    },
+    {
+      "source_path": "worker-c/reprogrammed-cohort-source/output/CLOSED-WORD.json",
+      "sha256": "ed8509fb615ebbd321122bdf093bf7d12fca794648065b9f42e07863db2b32f8"
+    },
+    {
+      "source_path": "worker-c/reprogrammed-cohort-source/output/WORD.json",
+      "sha256": "19bc8db62e930e0bc3333ca0aaeca4b1703f924f747372c0413ff45e618c081c"
+    },
+    {
+      "source_path": "worker-c/reprogrammed-cohort-source/verification/HISTORY.json",
+      "sha256": "6eae01b51cb0132dfda0857e9d27fb66208f7ee9608f935e09c41244a7d8e699"
+    },
+    {
+      "source_path": "worker-c/reprogrammed-cohort-source/verification/RESULT.json",
+      "sha256": "7a2b9c35f7b133a62fc30674b1540556c2233b1d7c8c59afcac574d0f00c74a3"
+    },
+    {
+      "source_path": "root/lane-interface/PROOF.md",
+      "sha256": "c5eb472260fb3d42f786e7268b4dcab5e1fb00ed0131e82ca79e8f53ea5d0952"
+    },
+    {
+      "source_path": "root/lane-interface/retained/FINITE-PRECOMPILATION.md",
+      "sha256": "4cb32f6b8e388ecf6ed41b5bbdeeb4539cb40c8424f194974afea58f7e0921e8"
+    },
+    {
+      "source_path": "root/lane-interface/retained/SPECIALIZATION.md",
+      "sha256": "70430114f744108223bc1d44b98bc25b696c4b408b7b044c2a8bbdfdb434ac5c"
+    },
+    {
+      "source_path": "worker-c/review-lane-interface/RESULT.json",
+      "sha256": "4ca61a500987c15c57ca61c766bb62de049cdcdd954de1e858a173fd75602274"
+    },
+    {
+      "source_path": "worker-c/review-lane-interface/REVIEW.md",
+      "sha256": "13a58d2e89adc7f8f86d4525a9f4a7668d1acf6097821f63c6a0fcd1277d2115"
+    },
+    {
+      "source_path": "worker-c/review-lane-interface/check.py",
+      "sha256": "342d1741f849072782d2e5e3de6e326ad859aaef820e58ceb14ef7969ca73b9b"
+    },
+    {
+      "source_path": "worker-a/delayed-correction-source/output/WORD.json",
+      "sha256": "4cea047c9f28a17c3379d3073a88b3a5d00e6e749214661c9d330a289824d060"
+    },
+    {
+      "source_path": "worker-c/conditional-packed-cohort/PROOF.md",
+      "sha256": "2f6eae870d7ca8e492f0acad7ca98a4cdbc39cd42b0d5ad4c67462ed21ebb5b5"
+    },
+    {
+      "source_path": "worker-c/conditional-packed-cohort/build.py",
+      "sha256": "a4f3dfe0be33bc2052eab46fbab58861713dbf458597384c888e64dfbd5c4842"
+    },
+    {
+      "source_path": "worker-c/conditional-packed-cohort/check.py",
+      "sha256": "fcca699ce90c9c32b90220e047af68e3ba2a0673562036efde5940bb7d80db75"
+    },
+    {
+      "source_path": "worker-c/conditional-packed-cohort/output/CLOSED-WORD.json",
+      "sha256": "088be7c297f35b7085d585849c0bab65f42ccd417249bf5b3fde6c2a90d4b015"
+    },
+    {
+      "source_path": "worker-c/conditional-packed-cohort/output/WORD.json",
+      "sha256": "915c72ad64a259e201c17772d9a7bc1880e4baf733db955af9405553527aca87"
+    },
+    {
+      "source_path": "worker-c/conditional-packed-cohort/verification/HISTORY.json",
+      "sha256": "ed45cd7e8835c637b34dd81143c66e31ed345fa72957fe8fd249946ee4ab67a7"
+    },
+    {
+      "source_path": "worker-c/conditional-packed-cohort/verification/RESULT.json",
+      "sha256": "b6bebe48ae131ade99dfd716321e06716f5caeb0aec5a6875e1e23c10e772387"
+    },
+    {
+      "source_path": "worker-c/reprogrammed-cohort-source/CAPACITY.json",
+      "sha256": "d2af5e0aa3f602abbac432d2672b631763095d0757ddeb7fdf43752ca46e72b5"
+    },
+    {
+      "source_path": "worker-c/reprogrammed-cohort-source/CAPACITY.md",
+      "sha256": "3cf2de2f54e8e455329e08a37461e9e030cadc1057e7c5eb3693a2b9467d7cb6"
+    },
+    {
+      "source_path": "worker-c/conditional-packed-cohort/output/CLOSED-WORD.json",
+      "sha256": "088be7c297f35b7085d585849c0bab65f42ccd417249bf5b3fde6c2a90d4b015"
+    },
+    {
+      "source_path": "worker-c/conditional-packed-cohort/output/WORD.json",
+      "sha256": "915c72ad64a259e201c17772d9a7bc1880e4baf733db955af9405553527aca87"
+    },
+    {
+      "source_path": "worker-c/reprogrammed-cohort-source/CAPACITY.md",
+      "sha256": "3cf2de2f54e8e455329e08a37461e9e030cadc1057e7c5eb3693a2b9467d7cb6"
+    },
+    {
+      "source_path": "worker-c/two-copy-packed-source/PROOF.md",
+      "sha256": "b6feece30b6f6d16908a03311279aa2b802c7eb9f88e25fa52ac47b17261338c"
+    },
+    {
+      "source_path": "worker-c/two-copy-packed-source/check.py",
+      "sha256": "0357ca19b9150cb7f3169ab18e7a661696c41a353fdd36ab351652ec32adc44b"
+    },
+    {
+      "source_path": "worker-c/two-copy-packed-source/expand.py",
+      "sha256": "e21a39ba63f81c899112e77ca2695c65383edcfd485ac0bc13b46f2db7cf73da"
+    },
+    {
+      "source_path": "worker-c/two-copy-packed-source/output/CLOSED-WORD.json",
+      "sha256": "24c253e49e42ab38e00dabd1b1c99d33ae7b1bfdc501d3ade1648e202bf4b989"
+    },
+    {
+      "source_path": "worker-c/two-copy-packed-source/output/WORD.json",
+      "sha256": "aa9d17693c1f976625ee420e1367680e86cfec0195259d609f7eddc258eda01e"
+    },
+    {
+      "source_path": "worker-c/two-copy-packed-source/verification/HISTORY.json",
+      "sha256": "946bca404c9ce1744a6e4352b97b2ca3201c26036056f6e79f26142078195fe2"
+    },
+    {
+      "source_path": "worker-c/two-copy-packed-source/verification/RESULT.json",
+      "sha256": "65f2aae23d4096e261cbe46ca742336279501ed018544ca5649ad1ef9d5f4d9a"
+    },
+    {
+      "source_path": "worker-a/raw-query-lift-gate/PROOF.md",
+      "sha256": "df4591627c53769398981de4e9a38495081b67c594d8a4c1ef2aea98b8cdd638"
+    },
+    {
+      "source_path": "worker-a/raw-query-lift-gate/check.py",
+      "sha256": "8401c050bee8d8c1371dd03a2e0f5361c32d32d49524667650d868f73d4ee980"
+    },
+    {
+      "source_path": "worker-a/raw-query-lift-gate/CERTIFICATE.json",
+      "sha256": "730dec6deee01a12f2b774f60d13b5cd49e32a6defb693dc1b74368f43ac8ee0"
+    },
+    {
+      "source_path": "worker-a/q9-one-slack-gate/BUDGET.json",
+      "sha256": "fecd68ec3c5472082d0760d1c46d455da26533f28a6b2c897fe85d109a15863f"
+    },
+    {
+      "source_path": "worker-a/q9-one-slack-gate/CASES.json",
+      "sha256": "88906e9d9a43964f168cc93d9b3d700d9ab8698c18a2c067c5cc6a00cd70c9fa"
+    },
+    {
+      "source_path": "worker-a/q9-one-slack-gate/CERTIFICATE.json",
+      "sha256": "839fb1dfc525cc21420ef2f10125a02e8afe34c0690fe7d9af658358f1d7c4e6"
+    },
+    {
+      "source_path": "worker-a/q9-one-slack-gate/PROOF.md",
+      "sha256": "767f6e124db0b1822efe9179497bc48b2867590347446e88ad53d0157f18ae8c"
+    },
+    {
+      "source_path": "worker-a/q9-one-slack-gate/check.py",
+      "sha256": "599739e216596490489cfb0482252cc50feefc6809b8eaf8b7db0ebe365beaa3"
+    },
+    {
+      "source_path": "worker-a/q9-one-slack-gate/linear.py",
+      "sha256": "38afeeb9ee45f9fddec02a0370ec1219701c5dd88c2f4e371affe75feed4c68d"
+    },
+    {
+      "source_path": "worker-a/q9-one-slack-gate/STRENGTHENING.md",
+      "sha256": "955647b235a8789f952bbb4f5964435ef345d0211883b829ffcb939eba3ba036"
+    },
+    {
+      "source_path": "worker-a/review-augmented-acquisition/REVIEW.md",
+      "sha256": "64e471465e09604ddbb2a468ee51995e1979d6c99925a60a9488eb93b9b6e4ee"
+    },
+    {
+      "source_path": "worker-a/review-augmented-acquisition/check.py",
+      "sha256": "99c1666e57eea88113498ec967aa684c45aef68879d1ae7d5402624f80b07c32"
+    },
+    {
+      "source_path": "worker-a/review-augmented-acquisition/output/PRESERVED-CLOSED-WORD-HISTORY.json",
+      "sha256": "8d53991cd62bea841b0128674a9c13923b2e0ab2d30fe4294c6f447ed6312825"
+    },
+    {
+      "source_path": "worker-a/review-augmented-acquisition/output/PRESERVED-WORD-HISTORY.json",
+      "sha256": "8d53991cd62bea841b0128674a9c13923b2e0ab2d30fe4294c6f447ed6312825"
+    },
+    {
+      "source_path": "worker-a/review-augmented-acquisition/output/RESULT.json",
+      "sha256": "b870b6923b45f0d11779b83daee34a48663dbd7a930abf9b360f0026bbf832de"
+    },
+    {
+      "source_path": "worker-a/review-augmented-acquisition/output/SPARE-CLOSED-WORD-HISTORY.json",
+      "sha256": "327dcbe405ba2b931d56eb2d42f6735d75d39de1df2653f41ccb7f4d2ef9a00f"
+    },
+    {
+      "source_path": "worker-a/review-augmented-acquisition/output/SPARE-WORD-HISTORY.json",
+      "sha256": "327dcbe405ba2b931d56eb2d42f6735d75d39de1df2653f41ccb7f4d2ef9a00f"
+    },
+    {
+      "source_path": "worker-a/review-reprogrammed-cohort/REVIEW.md",
+      "sha256": "e993b7164ffe70406a0b63d6d5331d56cdb49e36df66745689e1fca8edac1bf1"
+    },
+    {
+      "source_path": "worker-a/review-reprogrammed-cohort/check.py",
+      "sha256": "b93b3a74690ac30e6e594b6436ed624cfd1474973f07c6f488c3d5b85758253e"
+    },
+    {
+      "source_path": "worker-a/review-reprogrammed-cohort/output/CLOSED-WORD-HISTORY.json",
+      "sha256": "c8da7351c79ceb8e11dda4bf058422cc16a991b0caab3e54fc2e5534e23fb841"
+    },
+    {
+      "source_path": "worker-a/review-reprogrammed-cohort/output/RESULT.json",
+      "sha256": "d0341917ec9b68532f83c68ab3ea83c9db14ced7b331ae514810450bfb73c891"
+    },
+    {
+      "source_path": "worker-a/review-reprogrammed-cohort/output/STRUCTURE.json",
+      "sha256": "e74e6f2b8b7996ea4d27a1ffd18be0f2fc7c73b2e78edb071c097c8500d6ff6c"
+    },
+    {
+      "source_path": "worker-a/review-reprogrammed-cohort/output/WORD-HISTORY.json",
+      "sha256": "c8da7351c79ceb8e11dda4bf058422cc16a991b0caab3e54fc2e5534e23fb841"
+    },
+    {
+      "source_path": "worker-a/review-reprogrammed-cohort/structure.py",
+      "sha256": "4a6569dc96053dea051cc27d155bf3f8eb8151cb9461117ee2c4572d00afab10"
+    },
+    {
+      "source_path": "worker-c/two-copy-packed-source/PROOF.md",
+      "sha256": "b6feece30b6f6d16908a03311279aa2b802c7eb9f88e25fa52ac47b17261338c"
+    },
+    {
+      "source_path": "worker-c/two-copy-packed-source/output/WORD.json",
+      "sha256": "aa9d17693c1f976625ee420e1367680e86cfec0195259d609f7eddc258eda01e"
+    },
+    {
+      "source_path": "worker-c/two-copy-packed-source/output/CLOSED-WORD.json",
+      "sha256": "24c253e49e42ab38e00dabd1b1c99d33ae7b1bfdc501d3ade1648e202bf4b989"
+    },
+    {
+      "source_path": "worker-a/review-two-copy-packed/REVIEW.md",
+      "sha256": "834cd932e095861a8b4df1864a50fb91d4cec80fd0fab8ee4ef312d0d5f9b4a1"
+    },
+    {
+      "source_path": "worker-a/review-two-copy-packed/check.py",
+      "sha256": "c38b4cf3073a54cba80df8a47826382cd29ab23539ac358fafff73cc32db92a6"
+    },
+    {
+      "source_path": "worker-a/review-two-copy-packed/output/RESULT.json",
+      "sha256": "469136db4580f941d746819b72ad7448efed8f9617b68ae15eed42da13f9e88e"
+    },
+    {
+      "source_path": "root/bank-expansion/PROOF.md",
+      "sha256": "cbccd8249c45abb53b8456146fdf07d2ed0041b34a0949bcb1ec85d76cb484ee"
+    },
+    {
+      "source_path": "worker-a/review-bank-expansion/source/SPECIALIZATION.md",
+      "sha256": "70430114f744108223bc1d44b98bc25b696c4b408b7b044c2a8bbdfdb434ac5c"
+    },
+    {
+      "source_path": "worker-a/review-bank-expansion/source/FINITE-PRECOMPILATION.md",
+      "sha256": "4cb32f6b8e388ecf6ed41b5bbdeeb4539cb40c8424f194974afea58f7e0921e8"
+    },
+    {
+      "source_path": "programme/research/moonshot-005-program/results/complex-three-head-source/author/THREE-HEAD-SOURCE-AND-ONE-QUERY-GATE.md",
+      "sha256": "4ac72e17dacdcc6b88fb0074fe0c1e85dea8f7d8ee496310d8dce80edb4ae07d"
+    },
+    {
+      "source_path": "programme/research/moonshot-005-program/results/complex-full-clifford-conservation/author/FULL-CLIFFORD-CONSERVATION.md",
+      "sha256": "7d4a63f282acb41e1125f9d8ad81a1146d821ee2132f9ab105c485e9331a769f"
+    },
+    {
+      "source_path": "programme/research/moonshot-005-program/results/complex-nonordinary-row-seed/worker-b/check.py",
+      "sha256": "1d3c798c43b46e1983f4dc80d68e694b93d9cdee206ad4fe4d408e5f5e29ed91"
+    },
+    {
+      "source_path": "programme/research/moonshot-005-program/results/complex-tensor-rank-components/author/PROOF.md",
+      "sha256": "ccbaf510a55c188a224f1c56fcf96f55fe6cc23ea10cded142ff6fbad3e0a6a9"
+    }
+  ],
+  "prior_scientific_entries": 5019,
+  "added_scientific_files": 141,
+  "scientific_entries_after": 5160,
+  "registered_results_after": 323,
+  "retained_unavailable_historical_entries": [
+    {
+      "path": "results/four-call-dyadic-entry/review/replay.log",
+      "discovered_session": "2026-11-14-S011",
+      "status": "Absent from programme Git tree, predecessor checkout and available path history; old indexed hash retained, not independently reauthenticated. Not cited as proof evidence."
+    },
+    {
+      "path": "results/bit-joint-multicast/mixed-author/__pycache__/build_mixed.cpython-312.pyc",
+      "discovered_session": "2026-11-14-S012",
+      "status": "Generated bytecode entry absent from confirmed baseline db6e513c96cb8ceea10c1071b26a7db1de9fe008. Old hash retained; not proof evidence."
+    }
+  ],
+  "protected_rule_preserved_verbatim": true,
+  "new_complete_kappa": false,
+  "intentional_exclusions": [
+    "Unused unpinned author prelude.tmp omitted before publication"
+  ],
+  "whitespace_qualifications": [
+    "Frozen authored bit-augmented-acquisition/author/check.py EOF blank",
+    "Frozen authored bit-reprogrammed-cohort/author/check.py EOF blank"
+  ]
+}

@@ -1635,3 +1635,43 @@ mathematics-first discovery; these are structural constructions/proofs rather
 than nonbinding parameter tuning. Session continues toward12:23:42UTC.
 Resulting checkpoint SHA is confirmed after publication and recorded in the
 next receipt; never self-referential. No new complete κ; programme ongoing.
+
+### S015 checkpoint5 — exact cohort capacity and paid multicopy realization
+
+Starting checkpoint `2d4422afa86ad8a2ece116a0ce2bfc62c89af21a` was reconfirmed
+remotely. This session remains active toward12:23:42UTC. The preceding
+checkpoint's remote tree is9a72cf2f03237a1596857e1f24ec83be18f449e2.
+
+New mathematics: reversible cohort recoding physically acquires W9 at the old
+movement profile. The exact independent-cohort/run optimum is9V+floor(V/2)
+over every characteristic-two field and block width. A restricted constant-
+record invariant exposes the one-array packing gap. Root's fixed-bank expansion
+and bounded batching theorem bypass it by using separate fully paid records.
+C's actual two-copy source, independently replayed by A on444 columns and exact
+rational charts, has400owners/2126ADD/990MOVE/397dirty clears,D80/W19,W30history
+and two actual Y0 outputs. Every native/productive/caller term doubles.
+
+Other admitted advances: actual D42 facet acquisition; arbitrary-lift raw-query
+duals; all49 fixed D42 two-feedback cases requiring2V slack; the three-native
+ordinary-interstage dihedral shadow and its all-fixed-head/Pauli extension;
+an explicit zero-ordinary KQK middle and a universal ordinary-left-kernel gate
+excluding literal four-K a³I. These are scoped theorems/partial constructions,
+not a complete BIT or complex supplier. No new κ; all five foundations remain.
+
+Verification:26 portable reproduction commands,45 JSON comparisons,35 exact
+byte matches and10 raw-cache-basis-order equivalents with exact coefficient
+recombination.89 source/review pins authenticate; all5019 prior scientific
+entries retain their hashes, with the two already-qualified missing artifacts.
+The registry now has323 records and scientific index5160 entries. Independent
+proof reviews are distinct from author/reviewer reruns. Details and the order
+qualification are in CHECKPOINT5-VALIDATION.json and CERTIFICATE-ORDER-NOTE.md.
+
+Upstream at10:02:45UTC remains e54523517d0f03e58352e647c403a5af3e525a57; no PR
+updates since09:25:59 were found. No upstream merge or selected change.
+Immediate work: outside-A seed information and broader actual cache selectors
+on the new source; independent admission of the reported packed three-duty
+gate; phase-faithful Pauli-split synthesis of a changed four-native caller.
+The complete decoder and strict suppliers are still open. Resulting checkpoint
+SHA is confirmed after publication and recorded in the next receipt/handoff,
+not self-embedded. The protected mathematical-discovery track remains active;
+final session drift review is still due at the actual session end.

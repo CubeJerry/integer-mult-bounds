@@ -30,40 +30,42 @@ The algebraic target is the h9 singular fitting W15 on the111-root native,
 with canonical enlargement16 and proper-cover charge106. It is a target code,
 not a delivered decoder.
 
-The colored eight-packet word acquires a40-dimensional seed-independent D with
-dim(D∩W)=8. Seven actual Hub seeds complete W15 in raw history. Every receiver
-facet contains a positive visited packet chart. Delayed class correction
-supplies a mixed proper-cell kernel and completes Y0. These are independently
-admitted facts, distinguishing raw history from normalized useful information.
+The source now jointly recodes two independently paid native copies. A scalar
+systematic cohort transform raised acquired W from8 to9 at unchanged movement.
+The exact fixed-run capacity is9V+floor(V/2), proved by local dual intersections
+and an attaining two-lane construction. A representation change realizes its
+even pattern with separately owned records; no lane mask is added to the grammar.
 
-A retained aggregate composes a second mixed cell and physically completes
-0,5,6,7. Two further cells give actual0,1,2,5,6,7, with206 owners,966 ADD,502 MOVE,
-206 dirty CLEAR and unchanged four-output movement. The joint placement and
-arbitrary-puncture theorem excludes completing either fixed template: deleting
-mandatory terminal supports leaves at most8V information on a native puncture
-requiring9V. Output count is not the frontier; the source information must change.
+The actual two-copy word has D80, acquired W19, W30 literal history,400 owners,
+2126 ADDs and990 MOVEs. It restores222 original X records and completes both
+Y0 copies. Terminal rank13 and normalized rank15 are distinct from full history.
+Its movement profile doubles, as do every native/productive/caller term in the
+proved bounded-batching bridge. The complete decoder remains missing.
 
-The next construction investigates actual extra captures reducing the W seed
-quotient, arbitrary D-offset seed lifts, interacting class-selective feedback,
-and fully priced changes to packet count. Pending augmented-acquisition and
-stronger complex-shadow claims require their own independent admissions.
+Earlier four-/six-output words remain valid but cannot be completed under their
+fixed information premises: arbitrary punctures leave8V against a native9V
+requirement. New arbitrary-lift and virtual-demand theorems exclude precise
+frozen source/feedback classes. Current construction changes actual cache
+selectors or introduces seed directions outside the inherited D+W space.
 
 ## Complex supplier and retained constraints
 
-The actual three-native/three-role identity K(a)^3=a²I3 produces three independent
-rank-two heads with full Gaussian price3[1]+6[7]+3[8]. Its target margin is
-negative. An unbuilt(3,2,2) upgrade has positive movement margin; paying a
-rank-one query makes it negative. One interstage modification and two unrestricted
-interstages at the literal endpoint are excluded. The exact linear-intersection
-and unit criterion isolates the changed-gauge problem; physical implementation
-is conditional, not free. Every body, idle role, phase and independent input remains.
+The actual K(a)^3=a²I3 identity and full invoice are proved but unprofitable.
+A dihedral shadow excludes the stated three-native/two-ordinary-interstage
+class at every fixed cyclic head count, including Pauli-algebra endpoint units:
+H<=6 and a strict all-t full-cost deficit. Its linear bimodule, unit deformation
+and faithful phase quotient are explicitly proved and independently reviewed.
 
-Earlier cyclic/full two-head conservation, one-native inventory gates and
-other complex obstructions remain valid only in their recorded scopes. BIT
-minimum-rank rigidity, target rank9V+ceil(V/3), canonical quotient/cover limits
-and the sharp terminal-seed theorem remain essential. They do not exclude every
-possible source or multiplication model. Alternatives and rejected mechanisms
-are preserved in [REGISTERED-RESULTS.json](REGISTERED-RESULTS.json).
+Four natives/three interstages have a favorable complete movement screen.
+An actual ordinary Q makes KQK have zero ordinary component; a left-kernel
+theorem nevertheless excludes literal four-K a³I. Nontrivial endpoint encoders,
+changed head gauges and mixed orientations remain the constructive problem.
+No complete complex supplier is built.
+
+Minimum-rank rigidity, target rank9V+ceil(V/3), canonical quotient/cover limits,
+localized normalization and sharp seed bounds retain their exact scopes. None
+is a general multiplication lower bound. Earlier evidence remains in
+[REGISTERED-RESULTS.json](REGISTERED-RESULTS.json).
 
 ## Continuity, verification and success
 

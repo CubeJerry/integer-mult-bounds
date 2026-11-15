@@ -1,0 +1,143 @@
+{
+  "status": "PASS_EXACT_TWO_INTERSTAGE_DIHEDRAL_SHADOW_CONTROLS",
+  "proof_sha256": "bef5d49b1aae7b8efa02ae16722f5f7be40291678744165f461526b1d046588d",
+  "actual_source_symplectic_columns": [
+    4,
+    1,
+    2,
+    32,
+    8,
+    18
+  ],
+  "source_cycle_gaussian_ranks": [
+    0,
+    1,
+    2,
+    3,
+    2,
+    1
+  ],
+  "partial_cycle_encodings_checked": 93,
+  "distinct_partial_cycle_maps_checked": 62,
+  "ordinary_stabilizer_elements": 10752,
+  "partial_cycle_census": [
+    {
+      "domain_size": 1,
+      "allowed_orientations": [
+        1,
+        -1
+      ],
+      "count": 7330
+    },
+    {
+      "domain_size": 2,
+      "allowed_orientations": [
+        -1
+      ],
+      "count": 1444
+    },
+    {
+      "domain_size": 2,
+      "allowed_orientations": [
+        1
+      ],
+      "count": 1444
+    },
+    {
+      "domain_size": 2,
+      "allowed_orientations": [
+        1,
+        -1
+      ],
+      "count": 34
+    },
+    {
+      "domain_size": 3,
+      "allowed_orientations": [
+        -1
+      ],
+      "count": 214
+    },
+    {
+      "domain_size": 3,
+      "allowed_orientations": [
+        1
+      ],
+      "count": 214
+    },
+    {
+      "domain_size": 4,
+      "allowed_orientations": [
+        -1
+      ],
+      "count": 30
+    },
+    {
+      "domain_size": 4,
+      "allowed_orientations": [
+        1
+      ],
+      "count": 30
+    },
+    {
+      "domain_size": 5,
+      "allowed_orientations": [
+        -1
+      ],
+      "count": 5
+    },
+    {
+      "domain_size": 5,
+      "allowed_orientations": [
+        1
+      ],
+      "count": 5
+    },
+    {
+      "domain_size": 6,
+      "allowed_orientations": [
+        -1
+      ],
+      "count": 1
+    },
+    {
+      "domain_size": 6,
+      "allowed_orientations": [
+        1
+      ],
+      "count": 1
+    }
+  ],
+  "cyclic_double_cosets_meeting_ordinary": 8955,
+  "covered_group_basis_elements": 322236,
+  "ordinary_basis_elements_covered_once": 10752,
+  "bimodule_covariance_checked": true,
+  "dihedral_power_difference_ranks": [
+    0,
+    2,
+    4,
+    6,
+    4,
+    2
+  ],
+  "native_difference_checks": [
+    {
+      "orientation": "L",
+      "forward_difference_rank": 4,
+      "inverse_difference_rank": 4
+    },
+    {
+      "orientation": "U",
+      "forward_difference_rank": 4,
+      "inverse_difference_rank": 4
+    }
+  ],
+  "unit_deformation_negative_and_positive_controls": true,
+  "negative_controls": [
+    "wrong reflection fails sign-potential agreement",
+    "nonisometric partial map rejected",
+    "augmentation alone need not make both ordinary character blocks units",
+    "nontrivial central phase cannot be quotiented before a compatible width is chosen"
+  ],
+  "scope": "Finite geometry diagnostics plus universal written group-algebra proof. This does not construct a caller, justify arbitrary ordinary endpoint gauges, or improve kappa."
+}

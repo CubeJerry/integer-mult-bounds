@@ -1,0 +1,232 @@
+{
+  "status": "PASS_INDEPENDENT_ALL_FIXED_HEAD_SHADOW_COROLLARY_CONTROLS",
+  "reviewed_proof_sha256": "badaa718685c53c771b236023cd6ad5aeb6afdfe0376ba6d7fe6fece82bcb81b",
+  "helper_sha256": "1d3c798c43b46e1983f4dc80d68e694b93d9cdee206ad4fe4d408e5f5e29ed91",
+  "actual_source_checks": [
+    {
+      "heads": 2,
+      "all_source_columns": 4,
+      "actual_gauge": true,
+      "physical_power_identities": true,
+      "gaussian_rank_cycle": [
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "heads": 3,
+      "all_source_columns": 8,
+      "actual_gauge": true,
+      "physical_power_identities": true,
+      "gaussian_rank_cycle": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "heads": 4,
+      "all_source_columns": 16,
+      "actual_gauge": true,
+      "physical_power_identities": true,
+      "gaussian_rank_cycle": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "heads": 5,
+      "all_source_columns": 32,
+      "actual_gauge": true,
+      "physical_power_identities": true,
+      "gaussian_rank_cycle": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        4,
+        3,
+        2,
+        1
+      ]
+    }
+  ],
+  "dihedral_checks": [
+    {
+      "heads": 2,
+      "auxiliary_dimension": 4,
+      "power_difference_ranks": [
+        0,
+        2,
+        4,
+        2
+      ]
+    },
+    {
+      "heads": 3,
+      "auxiliary_dimension": 6,
+      "power_difference_ranks": [
+        0,
+        2,
+        4,
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "heads": 4,
+      "auxiliary_dimension": 8,
+      "power_difference_ranks": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "heads": 5,
+      "auxiliary_dimension": 10,
+      "power_difference_ranks": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        8,
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "heads": 6,
+      "auxiliary_dimension": 12,
+      "power_difference_ranks": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "heads": 7,
+      "auxiliary_dimension": 14,
+      "power_difference_ranks": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "heads": 8,
+      "auxiliary_dimension": 16,
+      "power_difference_ranks": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "heads": 9,
+      "auxiliary_dimension": 18,
+      "power_difference_ranks": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "heads": 10,
+      "auxiliary_dimension": 20,
+      "power_difference_ranks": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ]
+    }
+  ],
+  "scope": "Independent universal proof review plus finite exact source/rank diagnostics; fixed d only, full spectator volume retained, no new kappa."
+}

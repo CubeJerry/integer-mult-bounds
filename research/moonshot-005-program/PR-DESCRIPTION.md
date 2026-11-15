@@ -1,4 +1,4 @@
-# Construct chronological historical-code sources and prove joint kernel/puncture limits toward κ = 0.005
+# Realize optimal two-copy cohort acquisition and prove decoder and interstage obstructions toward κ = 0.005
 
 **Cumulative draft; ongoing programme, not PR-ready. No new κ.** No upstream
 pull request is submitted automatically. The selected conditional bound remains
@@ -52,6 +52,41 @@ multiplicity remains stricter. Every missing decoder, ordinary operation,
 compiler, precision and recursive cost remains owed. Partial movement room
 is not a complete saving certificate.
 
+## Exact capacity and a new physical representation
+
+For the fixed22-cohort/40-run source interface, the maximum acquired subspace
+of W^(V) is exactly9V+floor(V/2) over every characteristic-two field and every
+positive width. The class-one contribution is at most4V by a rank-six
+projection on two one-run cohorts. Three class-zero local duals have zero
+triple intersection; codimension subadditivity forces an annihilator of
+at leastceil(3V/2), giving floor(11V/2). A common three-space placed in half
+the coordinates attains the even bound; a scalar plane supplies the odd remainder.
+This proof allows arbitrary block subspaces, not merely scalar enumeration.
+
+A literal scalar recoding first realizes W9 from D40 with200 owners,805 ADDs
+and495 MOVEs at the same Q0 profile. The stronger two-lane coefficient pattern
+initially appeared to need a new masked operation. A constant-record invariant
+proves it cannot be packed into the restricted one-array grammar. The programme
+then changes representation: each bank becomes a separately owned complete
+ordinary record. Every conditional bank ADD becomes an existing cocharted ADD;
+every original MOVE, INIT and CLEAR is charged once for each bank.
+
+The independently replayed two-copy word has400 owners,2126 ADDs,990 MOVEs and
+400 CLEARs,397 dirty. Its444 arbitrary original columns give D80,W intersection19,
+W30 history and two actual Y0 outputs. All original X values restore. Its actual
+price is2Q0, not Q0. A separately reviewed bounded-batching theorem duplicates
+all native bodies, productive jobs, boundaries, live state and caller terms,
+so P'_m=2P_m,T'_m=2T_m. The normalized movement comparison is unchanged and
+expanded ordinary/stock/precision constants remain charged. This is a finite
+two-input-copy native unit, not free masking, padding or an accounting change.
+The220 unfinished Y outputs remain the central obligation.
+
+Arbitrary seed offsets are included in new source-bound obstructions. Two
+explicit duals exclude minimal raw-query lifts on old D40. On fixed augmented
+D42, all49 two-feedback query/depth cases require2V seed slack, proved by two
+disjoint virtual-demand fitting subspaces. Both gates preserve changed-source,
+outside-history seed and different-feedback escape mechanisms.
+
 ## New structural theorem and the precise architecture change
 
 Localized inverse-cell normalization retains the locations of singular packet
@@ -81,26 +116,37 @@ retain acquisition constraints when reseeding is considered.
 
 ## Compatible complex research
 
-The exact source-bound identity K(a)^3=a²I3 gives three independent rank-two
-heads. Its full Gaussian price3[1]+6[7]+3[8] exceeds3[23] at the target exponent.
-The unbuilt(3,2,2) target[24]+2[23] has a positive prospective margin, but an
-explicit paid rank-one upgrade costs more than that margin. One ordinary
-interstage modification cannot upgrade the base; two unrestricted full ordinary
-interstages cannot realize the literal endpoint gauge. General head-dependent
-endpoint encodings remain outside these scoped proofs.
+The exact K(a)^3=a²I3 base is unprofitable at its full price3[1]+6[7]+3[8].
+A new dihedral-shadow theorem excludes the stated three-native/two-interstage
+class at every fixed cyclic head count, including Pauli-algebra endpoint units:
+H<=6 and full paid-minus-target cost is at least3(1-(8^t-7^t))>0 for0<t<1.
+The proof uses a linear cyclic bimodule map and generic unit deformation, not
+a false multiplicative projection. The faithful all-width phase quotient and
+actual spectator volume remain explicit. Root independently checked10752
+ordinary maps and322236 double-coset basis images; B separately reviewed root's
+all-fixed-head/Pauli corollary.
 
-An exact linear-intersection reduction and unit criterion isolate the next
-algebraic problem. The abelian character-determinant criterion is proved; its
-uniform diagonal implementation is explicitly conditional on the retained
-ordinary scan/scalar/layout service. No target-solving unit or free physical
-inverse is assumed. Earlier cyclic and two-head conservation, native inventory
-and component gates remain linked at their exact scopes in the result index.
+The constructive target is four natives/three interstages, with full prospective
+price4[1]+8[7]+4[8] against3[31]. An actual ordinary Q(I,I), using4 ADDs,3 head
+permutations and1 role swap, gives a two-native middle KQK with zero ordinary
+component. A universal block classification and ordinary-left-kernel argument
+nevertheless exclude literal four-K a³I. Nontrivial endpoint encoders and
+changed head gauges are the continuing synthesis problem. No completed
+four-call word or strict uniform complex supplier is claimed.
+
+The earlier finite-algebra unit criterion and conditional ordinary implementation
+bridge retain their scopes and costs. A new phase-faithful Pauli-split reduction
+is under review and is not promoted by this draft to an admitted construction.
 
 ## Evidence, provenance and reproduction
 
 All current package admissions, proofs, scripts, source pins, independent reviews
 and negative controls are published under the permanent [programme directory](https://github.com/CubeJerry/integer-mult-bounds/tree/research/moonshot-005-program/research/moonshot-005-program).
 Key entry points:
+
+- [Exact cohort capacity and scalar recoding](results/bit-reprogrammed-cohort/ADMISSION.md), [fully paid two-copy source and batching](results/bit-two-copy-cohort-source/ADMISSION.md).
+- [Arbitrary raw-query lifts](results/bit-raw-query-lift-gate/ADMISSION.md), [two-demand slack theorem](results/bit-two-demand-slack/ADMISSION.md), [lane-service boundary](results/bit-lane-service-boundary/ADMISSION.md).
+- [Dihedral/fixed-head obstruction](results/complex-dihedral-interstage/ADMISSION.md), [constructed middle and literal four-K gate](results/complex-zero-ordinary-middle/ADMISSION.md).
 
 - [Delayed mixed source](results/bit-delayed-mixed-feedback/ADMISSION.md), [four-output composition](results/bit-four-axis-feedback/ADMISSION.md), [joint theorem and six-output control](results/bit-joint-kernel-puncture/ADMISSION.md).
 - [Punctured first-facet gate](results/bit-punctured-first-facet-gate/ADMISSION.md), [fixed-kernel quotient](results/bit-fixed-kernel-quotient/ADMISSION.md).
@@ -116,7 +162,7 @@ addition to its all-field complement argument.
 
 Canonical main last examined: `e54523517d0f03e58352e647c403a5af3e525a57`.
 S015 starting programme: `eefa411ebab86271d50b56b6953af3a157366bdb`.
-This checkpoint's confirmed parent: `c19be258a396e7fc92ee963433d4f7c3b3969dc7`.
+This checkpoint's confirmed parent: `2d4422afa86ad8a2ece116a0ce2bfc62c89af21a`.
 The resulting remote commit is confirmed after publication and recorded in the
 next receipt, never self-embedded. Native SOURCE-RECOVERY SHA256:
 `8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e`.

@@ -263,3 +263,12 @@ Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. Targeted PR
 updates since09:09:06UTC returned none at09:25:59UTC. Evidence:
 [snapshot](sessions/2026-11-15-S015/UPSTREAM-CP4.json). No external package
 admission or selected certificate change.
+
+### S015 checkpoint5 refresh —2026-11-15 10:02:45 UTC
+
+Canonical main remains `e54523517d0f03e58352e647c403a5af3e525a57`.
+Targeted PR search found no updates since09:25:59UTC. Permanent programme HEAD
+was reconfirmed `2d4422afa86ad8a2ece116a0ce2bfc62c89af21a`. No upstream merge,
+selected-certificate change or open-PR admission was made. Evidence:
+[snapshot](sessions/2026-11-15-S015/UPSTREAM-CP5.json). The startup review of
+PR7611–7613 and prior #6916 style remains the relevant external checkpoint.

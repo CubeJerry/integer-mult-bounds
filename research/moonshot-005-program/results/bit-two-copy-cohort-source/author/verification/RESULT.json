@@ -1,0 +1,88 @@
+{
+  "conditional_source_sha256": "088be7c297f35b7085d585849c0bab65f42ccd417249bf5b3fde6c2a90d4b015",
+  "negative_controls": {
+    "count_only_one_physical_copy": {
+      "reason": "physical copy accounting",
+      "rejected": true
+    },
+    "omit_Hub_inverse": {
+      "reason": "original source not restored at Hub",
+      "rejected": true
+    },
+    "omit_cross_bank_source_ADD": {
+      "reason": "original source not restored at Hub",
+      "rejected": true
+    },
+    "omit_second_bank_MOVE": {
+      "reason": "noncochart scalar ADD",
+      "rejected": true
+    },
+    "omit_second_bank_feedback": {
+      "reason": "actual scalar handoff mismatch",
+      "rejected": true
+    },
+    "omit_second_bank_retirement": {
+      "reason": "owner endpoint mismatch",
+      "rejected": true
+    }
+  },
+  "new_complete_kappa": false,
+  "receipt": {
+    "actual_cache_W_intersection": 19,
+    "actual_cache_increment_rank": 80,
+    "actual_first_ground_rows_hex": {
+      "P0_b0": "0x40000000000000000000000000155500000000000000000000000000",
+      "P0_b1": "0x800000000000000000000000002aaa00000000000000000000000000",
+      "P1_b0": "0x15554000505000014140000054111100011440000114400005110000",
+      "P1_b1": "0x2aaa8000a0a0000282800000a822220002288000022880000a220000",
+      "P2_b0": "0x1555000050500001414000000014400005050000014410004444",
+      "P2_b1": "0x11110000555500011110000550050500044440000144100001140000",
+      "P3_b0": "0x22220000aaaa00022220000aa00a0a00088880000288200002280000",
+      "P3_b1": "0x1050000055540001414000000051000001441000050500005050",
+      "P4_b0": "0x14140000444400015554000504045100014410000444400004540000",
+      "P4_b1": "0x2828000088880002aaa8000a0808a200028820000888800008a80000",
+      "P5_b0": "0x15400000550000015400000144555500055000000550000005400000",
+      "P5_b1": "0x2a800000aa000002a800000288aaaa000aa000000aa000000a800000",
+      "P6_b0": "0x411000044140001045000000055500005050000050500001414",
+      "P6_b1": "0x0",
+      "P7_b0": "0x0",
+      "P7_b1": "0x0"
+    },
+    "actual_history_W_intersection": 30,
+    "actual_history_rank": 93,
+    "actual_history_y_rank": 2,
+    "counts": {
+      "ADD": 2126,
+      "CLEAR": 400,
+      "INIT": 400,
+      "MOVE": 990
+    },
+    "dirty_clears": 397,
+    "independent_original_columns": 444,
+    "movement_profile": {
+      "1": 366,
+      "2": 24,
+      "3": 238,
+      "4": 142,
+      "7": 220
+    },
+    "new_complete_kappa": false,
+    "original_X_records": 222,
+    "original_Y_records": 222,
+    "owned_peak": 400,
+    "physical_copies": 2,
+    "physical_packet_lifetimes": 16,
+    "rank_length": 3236,
+    "status": "PASS_TWO_COPY_SCALAR_SOURCE",
+    "terminal_W_intersection": 11,
+    "terminal_rank": 13,
+    "zero_terminal_fields": [
+      "P6_b1",
+      "P7_b0",
+      "P7_b1"
+    ]
+  },
+  "scalar_expansion_boundaries_checked": 2347,
+  "status": "PASS_TWO_COPY_SCALAR_SOURCE",
+  "word_sha256": "24c253e49e42ab38e00dabd1b1c99d33ae7b1bfdc501d3ade1648e202bf4b989"
+}

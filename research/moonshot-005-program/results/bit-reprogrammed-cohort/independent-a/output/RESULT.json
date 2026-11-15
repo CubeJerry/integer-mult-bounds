@@ -1,0 +1,190 @@
+{
+  "CLOSED-WORD": {
+    "W66_from_increments_and_six_W_witness": "0x4408c0000800240000c",
+    "W_history_dimension": 15,
+    "actual_completed": [
+      0
+    ],
+    "actual_increment_W_intersection": 9,
+    "actual_increment_rank": 40,
+    "actual_pure_deposits": {},
+    "counts": {
+      "ADD": 805,
+      "CLEAR": 200,
+      "INIT": 200,
+      "MOVE": 495
+    },
+    "dirty_clears": 199,
+    "global_free_access_fits": [
+      0,
+      4,
+      8,
+      14,
+      19,
+      22,
+      30,
+      35,
+      38,
+      59
+    ],
+    "history_pure_X_dimension": 46,
+    "history_rank": 47,
+    "history_rows": 90,
+    "kernels_hex": {
+      "P0": "0x2100a6000000008000000000ff"
+    },
+    "normalized_W_intersection": 6,
+    "normalized_canonical_intersection": 0,
+    "normalized_rank": 8,
+    "profile": {
+      "1": 183,
+      "2": 12,
+      "3": 119,
+      "4": 71,
+      "7": 110
+    },
+    "rank_length": 1618,
+    "terminal_W_intersection": 6,
+    "terminal_hex": {
+      "P0": "0x7f0000000000000",
+      "P1": "0x7f80cc019800e550168016803500",
+      "P2": "0x7f00cc019800068033001a40aa",
+      "P3": "0x5500ff015403c3302a801a401600",
+      "P4": "0x4c00fe0198000d001a403300cc",
+      "P5": "0x6600aa01fe0322d01a402a802e00",
+      "P6": "0x7800f001e001aff03c003c003800",
+      "P7": "0x0"
+    },
+    "terminal_rank": 7
+  },
+  "WORD": {
+    "W66_from_increments_and_six_W_witness": "0x4408c0000800240000c",
+    "W_history_dimension": 15,
+    "actual_completed": [
+      0
+    ],
+    "actual_increment_W_intersection": 9,
+    "actual_increment_rank": 40,
+    "actual_pure_deposits": {},
+    "counts": {
+      "ADD": 805,
+      "INIT": 200,
+      "MOVE": 385
+    },
+    "dirty_clears": 0,
+    "global_free_access_fits": [
+      0,
+      4,
+      8,
+      14,
+      19,
+      22,
+      30,
+      35,
+      38,
+      59
+    ],
+    "history_pure_X_dimension": 46,
+    "history_rank": 47,
+    "history_rows": 90,
+    "kernels_hex": {
+      "P0": "0x2100a6000000008000000000ff"
+    },
+    "normalized_W_intersection": 6,
+    "normalized_canonical_intersection": 0,
+    "normalized_rank": 8,
+    "profile": {
+      "1": 183,
+      "2": 12,
+      "3": 119,
+      "4": 71
+    },
+    "rank_length": 848,
+    "terminal_W_intersection": 6,
+    "terminal_hex": {
+      "P0": "0x7f0000000000000",
+      "P1": "0x7f80cc019800e550168016803500",
+      "P2": "0x7f00cc019800068033001a40aa",
+      "P3": "0x5500ff015403c3302a801a401600",
+      "P4": "0x4c00fe0198000d001a403300cc",
+      "P5": "0x6600aa01fe0322d01a402a802e00",
+      "P6": "0x7800f001e001aff03c003c003800",
+      "P7": "0x0"
+    },
+    "terminal_rank": 7
+  },
+  "independent_negative_controls": [
+    {
+      "name": "lost_source_formation",
+      "reason": "('source-not-restored', 879)",
+      "rejected": true
+    },
+    {
+      "name": "lost_source_restoration",
+      "reason": "('source-not-restored', 879)",
+      "rejected": true
+    },
+    {
+      "name": "lost_raw_read",
+      "reason": "('Y-value', 0, '0x21000000000000800000000002')",
+      "rejected": true
+    },
+    {
+      "name": "lost_second_query_read",
+      "reason": "('handoff-mismatch', set())",
+      "rejected": true
+    },
+    {
+      "name": "lost_feedback",
+      "reason": "('handoff-mismatch', set())",
+      "rejected": true
+    },
+    {
+      "name": "lost_y0_unmask",
+      "reason": "('handoff-mismatch', set())",
+      "rejected": true
+    },
+    {
+      "name": "lost_source_deposit",
+      "reason": "('handoff-mismatch', set())",
+      "rejected": true
+    },
+    {
+      "name": "lost_owner_retirement",
+      "reason": "('owner-end', 1)",
+      "rejected": true
+    }
+  ],
+  "price": {
+    "Q": {
+      "decimal_lower": "1606.5441619517912154619041600604417240125826419444155339870161897",
+      "decimal_upper": "1606.5441619517912154619041600604417240125826419447542267310790727",
+      "lower": "586991730784236531973183402116757023085425813926823/365375409332725729550921208179070754913983135744",
+      "upper": "2347966923136946127892733608467028092341703255707787/1461501637330902918203684832716283019655932542976"
+    },
+    "limiting_cap": {
+      "decimal_lower": "1621.7508802111523552462461503669949864479155426039548882794746329",
+      "decimal_upper": "1621.7508802111523552462461503669949864479155426086378571464585695",
+      "lower": "7110574700314296515130177342309480278337520511531299/4384504911992708754611054498148849058967797628928",
+      "upper": "4740383133542864343420118228206320185558347007701221/2923003274661805836407369665432566039311865085952"
+    },
+    "m2_margin": {
+      "decimal_lower": "51.689320452330695625782439685770310280737665532414363583408463020",
+      "decimal_upper": "51.689320452330695625782439685770310280737665666356054102143272852",
+      "lower": "37772013236801519550035706339849821845507820623497/730750818665451459101842416358141509827966271488",
+      "upper": "37772013236801519550035706339849821845507820721375/730750818665451459101842416358141509827966271488"
+    },
+    "room": {
+      "decimal_lower": "15.206718259361139784341990306553262435332900659200661548395560172",
+      "decimal_upper": "15.206718259361139784341990306553262435332900664222323159442379810",
+      "lower": "33336965451729065725988258454198000656205372203969/2192252455996354377305527249074424529483898814464",
+      "upper": "44449287268972087634651011272264000874940496286637/2923003274661805836407369665432566039311865085952"
+    }
+  },
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "status": "PASS_INDEPENDENT_REPROGRAMMED_COHORT_REVIEW",
+  "word_file_sha256": {
+    "CLOSED-WORD": "ed8509fb615ebbd321122bdf093bf7d12fca794648065b9f42e07863db2b32f8",
+    "WORD": "19bc8db62e930e0bc3333ca0aaeca4b1703f924f747372c0413ff45e618c081c"
+  }
+}

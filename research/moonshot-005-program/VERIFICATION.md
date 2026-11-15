@@ -515,3 +515,28 @@ New scientific files41; registry292; ledger4739, retaining all4698 prior entries
 ## S014 closing inventory refinement
 
 The independently reviewed [inventory exhaustion corollary](results/complex-inverse-native-query-gate/supplements/INVENTORY-EXHAUSTION.md) proves that exactly three rank-one queries with independent(3,3) endpoints are the only potentially profitable inventory in the fixed one-native, two-retained-role, three-head, common-seven-body model. The placement gate forces one side. This is a necessary condition; the caller and physical admission remain open. Fourteen S014 packages plus this proof supplement; no new complete kappa.
+
+## S015 checkpoint5 — independent capacity, source and interstage review
+
+Baseline2d4422afa86ad8a2ece116a0ce2bfc62c89af21a. Eleven new result records in
+eight coherent packages are admitted, including the all-field exact cohort
+capacity,400-owner ordinary two-copy source, fixed-bank/batching bridge,
+source-specific virtual-demand gates and the dihedral/fixed-head complex gate.
+The explicit zero-ordinary middle is a partial construction; its literal
+four-call endpoint is excluded. No complete κ or foundation is established.
+
+The [portable runner](sessions/2026-11-15-S015/reproduce-checkpoint5.py) executes
+26 commands and validates45 JSON artifacts.35 are byte-identical;10 have only
+permuted raw-cache basis indices, with every coefficient witness independently
+recombined and all other fields equal. The [qualification](sessions/2026-11-15-S015/CERTIFICATE-ORDER-NOTE.md)
+retains exact frozen originals and describes the strict allowed comparison.
+This is not promoted to a universal theorem or independent mathematical review.
+Those reviews are separate, pinned package documents and independent engines.
+
+[Validation](sessions/2026-11-15-S015/CHECKPOINT5-VALIDATION.json) records89 source
+pins, all5019 previous scientific entries preserved,141 new entries,5160 total
+and323 result records. The two historical missing entries retain their original
+qualification. Semantic negative controls include omitted source/inverse work,
+second-copy movement/feedback/retirement, and one-copy undercharging. Lane
+controls distinguish projector commutation from full bank-unit commutation.
+No unreviewed packed three-duty or Pauli-split claim is admitted here.

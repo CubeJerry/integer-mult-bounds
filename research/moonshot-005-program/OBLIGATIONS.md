@@ -18,11 +18,12 @@ actual acquisition, normalized information, every receiver correction, strict
 supplier admission and all five retained foundations. Raw W15 history alone
 and few-output words do not establish this proposition.
 
-The immediate attempt changes acquired D and mixed cells or explicitly pays
-for a changed interface. Extra captures, arbitrary D-offset seed lifts,
-interacting class corrections and q9 with its full extra lifetime are under
-investigation. Augmented-acquisition and broad-suffix dual claims are not yet
-admitted at this checkpoint. Two fixed sparse-terminal templates are excluded.
+The current representation is a fixed two-copy unit with222 receivers and444
+original X/Y columns. Its existing-alphabet source attains cohort average9.5,
+with every physical owner/MOVE doubled. The remaining task is all222 outputs,
+the direct-sum caller interface and full cost. Changed cache selectors and
+new seed quotient directions are active. W15/30 is a sufficient retained code,
+not a necessity for every alternative architecture.
 
 ## Proven enabling results and exact constraints
 
@@ -37,6 +38,19 @@ admitted at this checkpoint. Two fixed sparse-terminal templates are excluded.
 | Punctured110 and point-kernel normalization | Proved all-field rank9V; q8 with sole F0 singularity or kernels equal x0 modulo own local data fails other110 outputs. Mixed kernels outside latter premise. | [Admission](results/bit-punctured-first-facet-gate/ADMISSION.md) |
 | Sharp terminal/seed optimization, arbitrary field/block subspace | Proved exact quotient maximum and fixed G⊂D extension. Fixed canonical cap3V is not an all-gauge/all-code exclusion. | [Base](results/bit-terminal-seed-quotient/ADMISSION.md), [extension](results/bit-fixed-kernel-quotient/ADMISSION.md) |
 
+Additional current admissions:
+
+| Proposition and quantifiers | Status and exact scope | Evidence |
+|---|---|---|
+| Minimal raw-query lifts, all char2 fields/widths | Proved dual exclusion for fixed D40/whole-query grants; arbitrary D offsets included. | [Admission](results/bit-raw-query-lift-gate/ADMISSION.md) |
+| Two actual facet captures | Proved D42/W9,six quotient rows,all costs,Y0; recoding later avoids its detours. | [Admission](results/bit-augmented-acquisition/ADMISSION.md) |
+| Two virtual demands, all fields/blocks | Proved2V slack lower bound for49 fixed D42 cases with seeds inside A. | [Admission](results/bit-two-demand-slack/ADMISSION.md) |
+| Scalar cohort recoding | Proved D40/W9,200owners/805ADD/495MOVE; all-column identities. | [Admission](results/bit-reprogrammed-cohort/ADMISSION.md) |
+| Independent cohort/run capacity | Proved exact9V+floor(V/2),arbitrary char2 blocks; not changed run interfaces. | [Theorem](results/bit-reprogrammed-cohort/author/CAPACITY.md) |
+| Restricted full-record packing grammar | Proved constant-record invariant; richer lane service conditional on full access/commutation. | [Admission](results/bit-lane-service-boundary/ADMISSION.md) |
+| Fixed-bank translation and batching | Proved existing-alphabet translation; full caller replacement requires complete direct-sum endpoints and all scaled costs. | [Theorem](results/bit-two-copy-cohort-source/bank-expansion-root/PROOF.md) |
+| Actual two-copy source | Proved400owners/2126ADD/990MOVE,D80/W19,W30history,two Y0 outputs; decoder open. | [Admission](results/bit-two-copy-cohort-source/ADMISSION.md) |
+
 Other retained gates: target arrival rank≥9V+ceil(V/3); full native rank9V
 rigidity; canonical quotient/cover requirements; actual cuts, receiver duals
 and source-specific earlier export limits. Their exact premises remain in
@@ -48,14 +62,15 @@ source obstruction to changed chronology without rechecking its hypotheses.
 **COMPLEX-COMPLETE-CALLER / open.** Produce an authenticated all-column,
 phase-exact, independent-input caller and uniform supplier U>1/200, with every
 fresh body, idle role, ordinary operation, precision service and recursive call
-charged. The source-bound exact K³=a²I3 base is proved but unprofitable.
-The prospective(3,2,2) invoice is positive before unconstructed operations;
-a paid rank-one upgrade is unprofitable. One interstage modification is
-excluded; two unrestricted ordinary interstages fail at the literal endpoint.
-Dependencies: actual three-head source, faithful Gaussian-rank components and
-full independent-input endpoints. General head-dependent endpoint gauges remain
-open. [Three-role package](results/complex-three-role-cyclic-base/ADMISSION.md).
-A stronger dihedral-shadow claim is under independent review, not admitted here.
+charged. The exact K³=a²I3 base is proved but unprofitable. Three natives with two
+ordinary interstages satisfy H<=6 in the fixed cyclic head/Pauli-endpoint class,
+giving an all-t deficit with full body/idles and spectators. [Dihedral theorem
+and corollary](results/complex-dihedral-interstage/ADMISSION.md).
+A positive zero-ordinary KQK middle is constructed, but its ordinary-left-kernel
+rigidity excludes literal four-K a³I. [Construction and gate](results/complex-zero-ordinary-middle/ADMISSION.md).
+The current task is an actual four-native caller with changed endpoint encoders,
+head gauges or orientations, then uniform physical admission. The new Pauli-
+split synthesis reduction is pending review. No target-solving word is known.
 
 **ORDINARY-UNIT-IMPLEMENTATION / conditional bridge.** In a finite unital
 algebra, two interstages reduce exactly to a linear intersection containing a
