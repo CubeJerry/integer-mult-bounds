@@ -1,5 +1,13 @@
 # Exact requirements for kappa = 1/200
 
+## S015 checkpoint3: current physical and information budgets
+
+The colored partial profile is Q=183[1]+12[2]+119[3]+71[4]+110[7], [r]=r^(199/200). Its moment1606.544161951791215... leaves15.206718259361139... against B_infinity; exact m2 partial movement margin51.689320452330695.... All944 ordinary ADDs,200 owners/dirty clears and missing receiver/recursive operations remain owed. The older three-output serial word is an alternative; its room cannot be added to this one-output word's room.
+
+The h9 fitting has rank15, canonical enlargement16 and exact chi106. This is a cover target, not a decoder. The retained normalization/arrival theorem gives rank(A)≥9V+ceil(V/3) whenever sum ell≤196. For q8 its actual proper-cell kernel nullities must total at leastV+ceil(V/3). One whole-record singular cell cannot complete that target. Two cells pass only the necessary count: their actual kernels, image constraints, timing, corrections and costs must still compose.
+
+For source-bound complex natives with rank(a)=1 and rank(a²)=2, two calls have H≤4 for any fixed head dimension and retained-role count, including rank-zero independent jobs. Complete price−target≥2(1−(8^t−7^t))>0 for all0<t<1. Three-native candidates remain. Cyclic ordinary interstages are excluded, as is the four-role same-orientation(3,3,1,1) target. The smaller noncommuting three-role(3,2,2) design is a favourable movement screen only; no target caller is admitted.
+
 ## S015 checkpoint2: source feedback and a sharp seed interface
 
 The actual four-D/three-S serial source now completes Y9,Y17,Y34, restores all111 X and retains W15 in intermediate history. Its partial movement moment is1606.998014987781958..., leaving14.752865223370397... against the limiting complete allowance;150 owners,394 MOVE,629 ADD and145 dirty clears remain explicit. The preceding four-D/four-S point source proves how an off-code seed can replace a source query through actual public-Y feedback. These are source constructions, not complete suppliers.

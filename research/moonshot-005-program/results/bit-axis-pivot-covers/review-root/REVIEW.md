@@ -1,0 +1,11 @@
+# Independent root audit of the seven native axis pivots
+
+**Accepted fixed-fitting specialization.** The general singular-pivot mechanism was proved earlier and is credited. Root independently rebuilt each class mask directly from real dot products with actual carrier axes r0 and r_axis, reconstructed the111 fitting rows, and checked their rank15 and joint canonical rank16. No author checker, binary-coordinate implementation or cover search was imported.
+
+The separate SymPy rational audit verifies all777 receiver/pivot foreign supports, every actual chart inclusion and dimension, every cover union and each foreign-support rank. A rank-seven support cannot fit one proper subspace of its seven-dimensional receiver facet, whereas a rank-six support itself is a proper chart. The explicit covers use at most two charts. These facts establish the exact minima rather than just an upper bound. The seven charges108,108,104,106,110,108,110 and the five one-chart roles46,50,70,84,98 for pivot9 agree independently.
+
+For h-zero roles, the partner x_i+s is anisotropic; other same-class foreign roots are orthogonal to both receiver and partner, with a possible native partner singleton treated separately. For h-one roles, exactly one pairing with the two carrier axes vanishes; neither carrier is in that class. These binary distinctions guarantee real orthogonality because self-pairing is excluded explicitly. Every cover is proper. The missing ambient partner is only a geometric normal, never a granted input.
+
+All-field ranks follow from binary row identities and nonzero binary minors; tensoring gives the whole-record lift. The finite777-source audit establishes the exact native premises, not an asymptotic extrapolation. Three root controls separately attack own entries, carrier incidence and one-chart minimality. Author controls also reject an anisotropic pivot. Source pins and exact reproduction are in check.py and RESULT.json.
+
+This gives a target fitting of chi106 for the new source. It does not construct physical corrections, source access or any decoder. The invalid uncolored seed scan is not a dependency. All five foundations remain and no new kappa is claimed. Credit @CubeJerry, singular-pivot/native predecessors, Worker C and Root; substantial OpenAI assistance.

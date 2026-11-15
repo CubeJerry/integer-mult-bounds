@@ -1,5 +1,16 @@
 # Current proof-dependency map
 
+## S015 checkpoint3 dependency update
+
+| Obligation | Status and precise scope | Evidence |
+|---|---|---|
+| BIT-COLORED-EIGHT-SOURCE | Proved partial for every characteristic-two field/width: all222 columns, W15 history,111 positive chart inclusions, Y0 only | results/bit-colored-eight-source/ADMISSION.md |
+| BIT-AXIS-PIVOT-COVERS | Proved seven native singular fittings and exact proper-cover minima; h9 chi106 | results/bit-axis-pivot-covers/ADMISSION.md |
+| COMPLEX-TWO-NATIVE-TOTAL-HEAD-GATE | Scoped exclusion, arbitrary fixed head/role count with actual rank1 a and rank2 a²; H≤4 and all-t full-body deficit | results/complex-two-native-total-head-gate/ADMISSION.md |
+| COMPLEX-MIDDLE-PIVOT-GATE | Proved Schur lemma and three same-orientation/four-role(3,3,1,1) exclusion; mixed orientations open | results/complex-middle-pivot-gate/ADMISSION.md |
+
+The existing uniform rank-gap theorem already requires kernel total≥V+ceil(V/3) for q8 under its target arrival premises; do not relabel it as new. The next construction is delayed correction yielding a mixed kernel, then another compatible cell or ascending-Y relay. The new punctured110/first-facet theorem and fixed-kernel quotient extension await root integration. The fixed uncolored seed-offset scan remains invalid; actual state differences define D. A complete decoder, strict ordinary/covered BIT supplier, compatible uniform complex supplier and every foundation remain open.
+
 ## S015 checkpoint2 dependency update
 
 - **BIT-POINT-SEEDED-SOURCE / proved partial.** Every characteristic-two field and block width: pinned four-D/four-S literal source has all222 columns, two outputs and W15 history. Dependencies: native geometry, actual local captures, off-code seed and public-Y feedback. See results/bit-point-seeded-source/ADMISSION.md.

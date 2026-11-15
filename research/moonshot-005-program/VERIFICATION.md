@@ -1,5 +1,11 @@
 # Verification ledger and reproduction map
 
+## S015 checkpoint3 verification
+
+Confirmed parent451b8bf963879f86da22d3226927340597ea4cc4. Six reproduction commands pass and24 reproduced JSON artifacts equal frozen receipts. C separately verifies the colored source on all222 columns, rational charts,111 W identities and111 actual chart witnesses;20 manifest entries are authenticated. Root independently reconstructs all777 pivot/receiver cover premises with SymPy and no author checker. Root independently reviews the two-native rank/stable-cancellation proof and middle-pivot noncommutative Schur proof. Author complex diagnostics are reproduction, not independent code verification.
+
+All4,853 predecessor scientific hashes are retained, with exactly the two historical unavailable-file qualifications. Added54 scientific files, total4,907; registry306. Details: sessions/2026-11-15-S015/CHECKPOINT3-VALIDATION.json. No complete supplier or new κ.
+
 ## S015 checkpoint2 — independent source and quotient review
 
 Confirmed parent `e1c9fb81d27d4a226bcafeeddeffa5a19ad20195`. Eight author/reviewer reproduction commands pass; all29 reproduced JSON artifacts equal frozen evidence. Worker C separately replays all222 columns and rational geometry, derives history identities and directed prices for point, serial and reseeded sources; it does not import the author checker. The all-field quotient argument received a separate written proof review plus67,584 finite subspace cases (39,888 feasible), and a sixth-canonical-direction mutation loses one required history direction. Root independently reviewed the cyclic representation/telescoping proof and minimum-rank induction. Repeated author diagnostics are identified as reproduction, not independent verification.

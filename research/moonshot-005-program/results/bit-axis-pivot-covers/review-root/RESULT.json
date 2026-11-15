@@ -1,0 +1,122 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_NATIVE_PIVOT_COVERS",
+  "pairs_checked": 777,
+  "pivots": [
+    {
+      "pivot": 3,
+      "carriers": [
+        0,
+        1
+      ],
+      "chi": 108,
+      "one_chart_receivers": [
+        54,
+        60,
+        82
+      ],
+      "W_rank": 15,
+      "canonical_joint_rank": 16
+    },
+    {
+      "pivot": 5,
+      "carriers": [
+        0,
+        2
+      ],
+      "chi": 108,
+      "one_chart_receivers": [
+        56,
+        65,
+        100
+      ],
+      "W_rank": 15,
+      "canonical_joint_rank": 16
+    },
+    {
+      "pivot": 6,
+      "carriers": [
+        0,
+        3
+      ],
+      "chi": 104,
+      "one_chart_receivers": [
+        9,
+        11,
+        46,
+        50,
+        57,
+        62,
+        68
+      ],
+      "W_rank": 15,
+      "canonical_joint_rank": 16
+    },
+    {
+      "pivot": 9,
+      "carriers": [
+        0,
+        4
+      ],
+      "chi": 106,
+      "one_chart_receivers": [
+        46,
+        50,
+        70,
+        84,
+        98
+      ],
+      "W_rank": 15,
+      "canonical_joint_rank": 16
+    },
+    {
+      "pivot": 10,
+      "carriers": [
+        0,
+        5
+      ],
+      "chi": 110,
+      "one_chart_receivers": [
+        87
+      ],
+      "W_rank": 15,
+      "canonical_joint_rank": 16
+    },
+    {
+      "pivot": 12,
+      "carriers": [
+        0,
+        6
+      ],
+      "chi": 108,
+      "one_chart_receivers": [
+        9,
+        11,
+        97
+      ],
+      "W_rank": 15,
+      "canonical_joint_rank": 16
+    },
+    {
+      "pivot": 15,
+      "carriers": [
+        0,
+        7
+      ],
+      "chi": 110,
+      "one_chart_receivers": [
+        71
+      ],
+      "W_rank": 15,
+      "canonical_joint_rank": 16
+    }
+  ],
+  "negative_controls": [
+    "Removing own coefficient invalidates fitting",
+    "Assigning both h-one pieces to first carrier fails actual inclusion",
+    "Rank7 support cannot have one proper chart"
+  ],
+  "proof_scope": "Exact fixed-native support/minimum-cover certificates plus reviewed all-field tensor lift; no physical decoder or supplier.",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "sympy_version": "1.14.0",
+  "new_complete_kappa": false
+}

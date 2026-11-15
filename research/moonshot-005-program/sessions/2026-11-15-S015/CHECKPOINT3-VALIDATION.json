@@ -1,0 +1,177 @@
+{
+  "status": "PASS_REVIEWED_CP3",
+  "baseline_sha": "451b8bf963879f86da22d3226927340597ea4cc4",
+  "checked_utc": "2026-11-15T08:48:43.137951+00:00",
+  "new_results": [
+    {
+      "id": "BIT-COLORED-EIGHT-SOURCE",
+      "status": "proved actual W15 source with all111 facet coverage and one output; decoder open",
+      "path": "results/bit-colored-eight-source/ADMISSION.md",
+      "review": "results/bit-colored-eight-source/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-AXIS-PIVOT-COVERS",
+      "status": "proved exact covers for seven singular native axis pivots; h9 chi106",
+      "path": "results/bit-axis-pivot-covers/ADMISSION.md",
+      "review": "results/bit-axis-pivot-covers/review-root/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-TWO-NATIVE-TOTAL-HEAD-GATE",
+      "status": "proved H<=4 for two source-bound native halves with all-t full common-body deficit",
+      "path": "results/complex-two-native-total-head-gate/ADMISSION.md",
+      "review": "results/complex-two-native-total-head-gate/review-root/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-MIDDLE-PIVOT-GATE",
+      "status": "proved block pivot lemma and three same-orientation/four-role exclusion",
+      "path": "results/complex-middle-pivot-gate/ADMISSION.md",
+      "review": "results/complex-middle-pivot-gate/review-root/REVIEW.md"
+    }
+  ],
+  "reproduction_commands": 6,
+  "frozen_json_comparisons": [
+    {
+      "reproduction": "colored-author/COUPLED-CLOSED-WORD.json",
+      "frozen": "bit-colored-eight-source/output/COUPLED-CLOSED-WORD.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "colored-author/COUPLED-HISTORY.json",
+      "frozen": "bit-colored-eight-source/output/COUPLED-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "colored-author/COUPLED-WORD.json",
+      "frozen": "bit-colored-eight-source/output/COUPLED-WORD.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "colored-author/PRICE.json",
+      "frozen": "bit-colored-eight-source/output/PRICE.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "colored-author/RESULT.json",
+      "frozen": "bit-colored-eight-source/output/RESULT.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "colored-author/UNCOUPLED-CLOSED-WORD.json",
+      "frozen": "bit-colored-eight-source/output/UNCOUPLED-CLOSED-WORD.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "colored-author/UNCOUPLED-HISTORY.json",
+      "frozen": "bit-colored-eight-source/output/UNCOUPLED-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "colored-author/UNCOUPLED-WORD.json",
+      "frozen": "bit-colored-eight-source/output/UNCOUPLED-WORD.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "colored-c/COUPLED-CLOSED-WORD-HISTORY.json",
+      "frozen": "bit-colored-eight-source/independent-c/output/COUPLED-CLOSED-WORD-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "colored-c/COUPLED-WORD-HISTORY.json",
+      "frozen": "bit-colored-eight-source/independent-c/output/COUPLED-WORD-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "colored-c/RESULT.json",
+      "frozen": "bit-colored-eight-source/independent-c/output/RESULT.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "colored-c/UNCOUPLED-CLOSED-WORD-HISTORY.json",
+      "frozen": "bit-colored-eight-source/independent-c/output/UNCOUPLED-CLOSED-WORD-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "colored-c/UNCOUPLED-WORD-HISTORY.json",
+      "frozen": "bit-colored-eight-source/independent-c/output/UNCOUPLED-WORD-HISTORY.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "pivot-author/PIVOT-10-COVERS.json",
+      "frozen": "bit-axis-pivot-covers/output/PIVOT-10-COVERS.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "pivot-author/PIVOT-12-COVERS.json",
+      "frozen": "bit-axis-pivot-covers/output/PIVOT-12-COVERS.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "pivot-author/PIVOT-15-COVERS.json",
+      "frozen": "bit-axis-pivot-covers/output/PIVOT-15-COVERS.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "pivot-author/PIVOT-3-COVERS.json",
+      "frozen": "bit-axis-pivot-covers/output/PIVOT-3-COVERS.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "pivot-author/PIVOT-5-COVERS.json",
+      "frozen": "bit-axis-pivot-covers/output/PIVOT-5-COVERS.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "pivot-author/PIVOT-6-COVERS.json",
+      "frozen": "bit-axis-pivot-covers/output/PIVOT-6-COVERS.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "pivot-author/PIVOT-9-COVERS.json",
+      "frozen": "bit-axis-pivot-covers/output/PIVOT-9-COVERS.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "pivot-author/RESULT.json",
+      "frozen": "bit-axis-pivot-covers/output/RESULT.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "pivot-root.json",
+      "frozen": "bit-axis-pivot-covers/review-root/RESULT.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "complex-two-native-total-head-gate/RESULT.json",
+      "frozen": "complex-two-native-total-head-gate/RESULT.json",
+      "same_json": true
+    },
+    {
+      "reproduction": "complex-middle-pivot-gate/MIDDLE-PIVOT-RESULT.json",
+      "frozen": "complex-middle-pivot-gate/MIDDLE-PIVOT-RESULT.json",
+      "same_json": true
+    }
+  ],
+  "independent_colored_manifest_entries": 20,
+  "independent_pivot_pairs": 777,
+  "prior_scientific_entries": 4853,
+  "retained_unavailable_historical_entries": [
+    {
+      "path": "results/four-call-dyadic-entry/review/replay.log",
+      "discovered_session": "2026-11-14-S011",
+      "status": "Absent from programme Git tree, predecessor checkout and available path history; old indexed hash retained, not independently reauthenticated. Not cited as proof evidence."
+    },
+    {
+      "path": "results/bit-joint-multicast/mixed-author/__pycache__/build_mixed.cpython-312.pyc",
+      "discovered_session": "2026-11-14-S012",
+      "status": "Generated bytecode entry absent from confirmed baseline db6e513c96cb8ceea10c1071b26a7db1de9fe008. Old hash retained; not proof evidence."
+    }
+  ],
+  "added_scientific_files": 54,
+  "scientific_entries_after": 4907,
+  "registered_results_after": 306,
+  "new_complete_kappa": false,
+  "intentional_whitespace_qualification": {
+    "file": "results/bit-colored-eight-source/independent-c/check_independent.py",
+    "issue": "Extra blank line at EOF retained to preserve reviewed verifier byte pin; all other staged whitespace checks pass."
+  }
+}

@@ -1,5 +1,13 @@
 # Persistent programme toward kappa = 0.005
 
+## S015 checkpoint3: full facet geometry and useful feedback
+
+The admitted colored eight-query source uses80 stationary raw caches split by the h9 singular class. Their actual increments have rank40 and W intersection8; seven paid Hub seeds supply the remaining quotient. The literal word has W15 history, a positive packet chart inside every receiver facet, restored originals and one actual Y0 completion. Its200 owners,944 ADD,495 MOVE and200 dirty CLEAR remain explicit. The separate h9 fitting has exact proper-cover charge106, but those106 correction duties are not implemented by historical containment. See results/bit-colored-eight-source/ADMISSION.md and results/bit-axis-pivot-covers/ADMISSION.md.
+
+Total historical span, normalized nonlocal information and actual receiver access are distinct. Under the existing target arrival premises, q8 plus one V-wide critical cell gives at most9V normalized information, below the proved9V+ceil(V/3) floor. A complete source needs more useful critical information or a paid changed interface. Root's delayed-correction schedule captures a mixed packet row at a lower chart and lets Y acquire its correction later at larger charts. An actual word has author replay and awaits independent admission; multiple cells or an ascending-Y relay remain the next construction. The serial three-output source is preserved as an alternative, not combined at a fictional summed price.
+
+On the complex side, two actual source-bound natives with arbitrary retained roles have total independent head rank at most4 and a strict full-body deficit. Three same-orientation natives on four roles cannot reach(3,3,1,1). See results/complex-two-native-total-head-gate/ADMISSION.md and results/complex-middle-pivot-gate/ADMISSION.md. A reported exact three-native/three-role rank(2,2,2) identity is under review; a genuinely noncommuting upgrade to(3,2,2) remains unbuilt. No complete strict supplier, new κ or foundational discharge is claimed. Programme ongoing, not PR-ready.
+
 ## S015 checkpoint2: source feedback and a sharp seed interface
 
 The actual four-D/three-S serial source now completes Y9,Y17,Y34, restores all111 X and retains W15 in intermediate history. Its partial movement moment is1606.998014987781958..., leaving14.752865223370397... against the limiting complete allowance;150 owners,394 MOVE,629 ADD and145 dirty clears remain explicit. The preceding four-D/four-S point source proves how an off-code seed can replace a source query through actual public-Y feedback. These are source constructions, not complete suppliers.

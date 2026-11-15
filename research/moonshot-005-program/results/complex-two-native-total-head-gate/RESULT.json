@@ -1,0 +1,40 @@
+{
+  "status": "PASS_EXACT_TWO_NATIVE_TOTAL_HEAD_DIAGNOSTICS",
+  "source_factorizations": [
+    {
+      "width": 1,
+      "head_inverse_sign": 1,
+      "all_input_columns": 16,
+      "two_query_factorizations": 3
+    },
+    {
+      "width": 1,
+      "head_inverse_sign": -1,
+      "all_input_columns": 16,
+      "two_query_factorizations": 3
+    },
+    {
+      "width": 2,
+      "head_inverse_sign": 1,
+      "all_input_columns": 128,
+      "two_query_factorizations": 3
+    },
+    {
+      "width": 2,
+      "head_inverse_sign": -1,
+      "all_input_columns": 128,
+      "two_query_factorizations": 3
+    }
+  ],
+  "rational_block_rank_cases": 32,
+  "cases_with_singular_idle_block": 6,
+  "explicit_zero_divisor_idle_rank": 1,
+  "negative_controls": [
+    "rank-zero jobs cannot be deleted from the idle-block count",
+    "unrelated rank-two cross invalidates the missing-rank-two implication even with invertible F1 preword",
+    "two high components on one input row do not give two independent endpoint jobs"
+  ],
+  "physical_changed_cross_example": "[[G_rank3,I],[I,0]], with no rank2 component, is not an actual square-cross native",
+  "scope": "Universal theorem is the written component proof, stable cancellation and pinned two-query gate; finite tests are diagnostics, not independent review",
+  "new_kappa": false
+}
