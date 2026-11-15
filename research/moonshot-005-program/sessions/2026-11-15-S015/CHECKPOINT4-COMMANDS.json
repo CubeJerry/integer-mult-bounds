@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "jobs": [
+    {
+      "name": "delayed-author",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-delayed-mixed-feedback/author/run.py --repo /workspace/scratch/37aefc7b5f05/programme --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/delayed-author"
+    },
+    {
+      "name": "four-build",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-four-axis-feedback/author/build.py --source /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-delayed-mixed-feedback/author/output/CLOSED-WORD.json --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/four-build"
+    },
+    {
+      "name": "delayed-independent",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-delayed-mixed-feedback/independent-c/check.py --repo /workspace/scratch/37aefc7b5f05/programme --word /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-delayed-mixed-feedback/author/output/CLOSED-WORD.json --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/delayed-independent"
+    },
+    {
+      "name": "fixed-independent",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-fixed-kernel-quotient/independent-c/check.py --repo /workspace/scratch/37aefc7b5f05/programme --word /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-colored-eight-source/output/COUPLED-WORD.json --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/fixed-independent.json"
+    },
+    {
+      "name": "four-independent",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-four-axis-feedback/independent-a/check.py --repo /workspace/scratch/37aefc7b5f05/programme --package /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-four-axis-feedback/author --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/four-independent"
+    },
+    {
+      "name": "punctured-author",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-punctured-first-facet-gate/author/check.py --repo /workspace/scratch/37aefc7b5f05/programme --word /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-colored-eight-source/output/COUPLED-WORD.json --deep-word /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-punctured-first-facet-gate/scope-controls/DEEP-POINT-WORD.json --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/punctured-author"
+    },
+    {
+      "name": "punctured-root",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-punctured-first-facet-gate/review-root/check.py --repo /workspace/scratch/37aefc7b5f05/programme --word /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-colored-eight-source/output/COUPLED-WORD.json --certificate /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-punctured-first-facet-gate/author/output/RESULT.json --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/punctured-root.json"
+    },
+    {
+      "name": "complex-base",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/complex-three-role-cyclic-base/author/check_source_base.py --repo /workspace/scratch/37aefc7b5f05/programme"
+    },
+    {
+      "name": "complex-budget",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/complex-three-role-cyclic-base/author/check_budget.py"
+    },
+    {
+      "name": "complex-one",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/complex-three-role-cyclic-base/author/check_one_interstage.py --repo /workspace/scratch/37aefc7b5f05/programme"
+    },
+    {
+      "name": "complex-literal",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/complex-three-role-cyclic-base/author/check_linear_gate.py --repo /workspace/scratch/37aefc7b5f05/programme"
+    },
+    {
+      "name": "four-author",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-four-axis-feedback/author/check.py --repo /workspace/scratch/37aefc7b5f05/programme --package /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/four-build --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/four-author"
+    },
+    {
+      "name": "complex-root",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/complex-three-role-cyclic-base/review-root/check.py"
+    },
+    {
+      "name": "complex-root-literal",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/complex-three-role-cyclic-base/review-root/check_literal.py"
+    },
+    {
+      "name": "bridge-independent",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/complex-three-role-cyclic-base/linear-bridge/independent-b/check.py --proof /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/complex-three-role-cyclic-base/linear-bridge/PROOF.md --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/bridge-independent.json"
+    },
+    {
+      "name": "six-build",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-joint-kernel-puncture/six-axis/author/build.py --source /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-four-axis-feedback/author/output/WORD.json --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/six-build"
+    },
+    {
+      "name": "six-author",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-joint-kernel-puncture/six-axis/author/check.py --repo /workspace/scratch/37aefc7b5f05/programme --package /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-joint-kernel-puncture/six-axis/author --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/six-author"
+    },
+    {
+      "name": "joint-author",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-joint-kernel-puncture/author/check.py --repo /workspace/scratch/37aefc7b5f05/programme --four /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-four-axis-feedback/author/output/WORD.json --six /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-joint-kernel-puncture/six-axis/author/output/WORD.json --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/joint-author"
+    },
+    {
+      "name": "joint-root",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-joint-kernel-puncture/review-root/check.py --repo /workspace/scratch/37aefc7b5f05/programme --four /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-four-axis-feedback/author/output/WORD.json --six /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-joint-kernel-puncture/six-axis/author/output/WORD.json --certificate /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-joint-kernel-puncture/author/output/RESULT.json --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/joint-root.json"
+    },
+    {
+      "name": "six-root",
+      "command": "python -B /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-joint-kernel-puncture/review-root/check_six_source.py --repo /workspace/scratch/37aefc7b5f05/programme --word /workspace/scratch/37aefc7b5f05/programme/research/moonshot-005-program/results/bit-joint-kernel-puncture/six-axis/author/output/CLOSED-WORD.json --out /workspace/scratch/37aefc7b5f05/reproduction-s015-cp4/six-root.json"
+    }
+  ],
+  "note": "Twenty final commands. Two initial invocation-path errors were corrected before comparison: four-author requires the word directory; four-build pins the delayed closed source. All33 final reproduced JSON artifacts are byte-identical."
+}

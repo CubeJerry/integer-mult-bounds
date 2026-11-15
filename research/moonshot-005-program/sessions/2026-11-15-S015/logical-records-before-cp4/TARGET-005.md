@@ -1,0 +1,232 @@
+# Exact requirements for kappa = 1/200
+
+## S015 checkpoint3: current physical and information budgets
+
+The colored partial profile is Q=183[1]+12[2]+119[3]+71[4]+110[7], [r]=r^(199/200). Its moment1606.544161951791215... leaves15.206718259361139... against B_infinity; exact m2 partial movement margin51.689320452330695.... All944 ordinary ADDs,200 owners/dirty clears and missing receiver/recursive operations remain owed. The older three-output serial word is an alternative; its room cannot be added to this one-output word's room.
+
+The h9 fitting has rank15, canonical enlargement16 and exact chi106. This is a cover target, not a decoder. The retained normalization/arrival theorem gives rank(A)≥9V+ceil(V/3) whenever sum ell≤196. For q8 its actual proper-cell kernel nullities must total at leastV+ceil(V/3). One whole-record singular cell cannot complete that target. Two cells pass only the necessary count: their actual kernels, image constraints, timing, corrections and costs must still compose.
+
+For source-bound complex natives with rank(a)=1 and rank(a²)=2, two calls have H≤4 for any fixed head dimension and retained-role count, including rank-zero independent jobs. Complete price−target≥2(1−(8^t−7^t))>0 for all0<t<1. Three-native candidates remain. Cyclic ordinary interstages are excluded, as is the four-role same-orientation(3,3,1,1) target. The smaller noncommuting three-role(3,2,2) design is a favourable movement screen only; no target caller is admitted.
+
+## S015 checkpoint2: source feedback and a sharp seed interface
+
+The actual four-D/three-S serial source now completes Y9,Y17,Y34, restores all111 X and retains W15 in intermediate history. Its partial movement moment is1606.998014987781958..., leaving14.752865223370397... against the limiting complete allowance;150 owners,394 MOVE,629 ADD and145 dirty clears remain explicit. The preceding four-D/four-S point source proves how an off-code seed can replace a source query through actual public-Y feedback. These are source constructions, not complete suppliers.
+
+A sharp all-field quotient theorem governs reseeding. For fixed history increments D, compulsory terminals N⊂D and target W, let n=dim N,r=dim((D+W)/D),k=dim(N∩E),z=dim(E∩(D+W))−dim(E∩D). Feasibility is q≥n+r and the exact maximum dim(T∩E) is min(dim E,k+z+q−n−r). On the serial template this gives at most5V canonical terminal directions while retaining W15V; an actual equality word has750 ADD and unchanged movement/owners. Arbitrary block seeds are included. Thirteen algebraic receiver fits are not thirteen delivered outputs.
+
+The cyclic three-head complex family obeys H≤2m+q1+2q2+3q3 and has a strict full fresh-body/idle movement deficit for every0<t<1. The coset proof also excludes q≥3 rank-one-query results whose entire Gaussian support has rank≥q. These are scoped gates; genuinely noncommuting ordinary interstages and changed native/role patterns remain open. The primary next step is actual correction delivery from a changed full-chart source. No new κ; all five foundations remain.
+
+**Target open; no new complete kappa.** The selected conditional result remains0.00363005817. Earlier calculations and scopes are preserved in the [checkpoint8 blueprint](sessions/2026-11-14-S013/logical-records-at-cp8/TARGET-005.md). Arithmetic feasibility is not an algorithm.
+
+## S015 current feasibility update
+
+Receiver26 has Q26=152[1]+20[2]+56[3]+60[4]+22[5]+22[6]+111[7]+[8], moment1614.618636809355914... and limiting room7.132243401796441.... Its point-copy control is cheaper by1.1115991922..., so isolated correction collection is not selected. [Proof/invoice](results/bit-receiver26-correction/ADMISSION.md).
+
+For the frozen Q2 source, one source-local rank-one export can complete at most one missing role even under a free G15 grant. Four frame deficits force independent ground exports to have total descent rank at least10 and movement>9.89, exceeding room9.243842595; finite even m is stricter. These are necessary inequalities for declared grammars, not unrestricted decoder lower bounds. [Local gate](results/bit-single-local-export-gate/ADMISSION.md); [ground cut](results/bit-common-ground-export-cut/ADMISSION.md).
+
+For one-native/two-role complex callers, the last three-head inventory is excluded by coset support. Exactly three rank-one queries give h+k<=5 at every fixed head count. For every b>=1 and0<t<1, put a=(b+1)^t-b^t. Then P=4+2b^t+a, T<=2b^t+5a and P-T>=4(1-a)>0. [Coset proof](results/complex-three-query-coset-gate/ADMISSION.md); [Gaussian-Schur extension](results/complex-three-query-total-head-gate/ADMISSION.md). Four-query or changed native/role architectures require fresh complete accounting. Historical S014 open statuses below are superseded within these scopes.
+
+
+## 1. Strict supplier conditions
+
+The retained nine outer rows require compatible uniform complex U>1/200 and completed ordinary BIT B>1/200. Equality is insufficient. The historical a/(1+a) conversion is not this mixed assembly's rule.
+
+For covered C, existing completed b and a source-valid atom rho,
+
+\[
+ B<\min\{\rho,(1-\rho)C+\rho b,1-\rho\}.
+\]
+
+In the applicable region its one-stage strict supremum is C/(1+C-b). Starting from b0=.00385248, one stage can exceed.005 only if
+
+\[
+ C>\frac{3112961}{621875000}=.005005766432160804\ldots.
+\]
+
+This is relaxation feasibility, not a construction of C or rho. Selected rho=.004 cannot supply B>.005. Finite acyclic iteration from b<C never reaches C. The hypothetical two-stage witness C=.0050001,rho=.0051,b1=.00499424,B=.00500007 satisfies the strict arithmetic, but its changed supplier/stock/high-digit contracts remain missing. See [bootstrap](../bit-target-bootstrap/PROOF.md) and [strict bridge audit](results/bit-eight-packet-target/strict-price/bridge-audit/ADMISSION.md).
+
+Movement saving, covered saving, completed saving and uniform complex saving are distinct interfaces. No unproved conversion is used.
+
+## 2. Complete BIT invoice
+
+Write [r]=r^t, t=1-k. The frozen paired-caller profiles are
+
+    N={1:1386,2:1253,3:62,4:47,5:9,6:104,7:10}
+    H={2:1,4:25,6:1,8:410}
+    P2=36N+444[1]+444 sum(j=1..8)[7j]
+    T2=36H+222[127]+444 sum(j=1..9)[1+7j]
+    P_m=(m/2)P2-18(m-1)N+18(m-1)Q
+    T_m=(m/2)T2-18(m-1)H.
+
+Here m is fixed even and Q is the actual complete source profile. At t=199/200 its limiting allowable moment is
+
+\[
+ B_\infty=
+ \frac{37[127]+74[64]-74[1]+74\sum_{j=1}^{8}([1+7j]-[7j])}{6}
+ =1621.750880211152355246246150366995\ldots.
+\]
+
+Finite m is stricter. Positive movement margin is only one admission condition; ordinary, precision, compiler, ownership and recursion remain. The hypothetical q8 unit profile1618[1] first passes at m6. Its limiting margin3.750880211152355... pays at most three extra unit arrivals, not four. This is an assumed profile, not a universal bound for larger jumps.
+
+## 3. Structural necessary gates
+
+| Model or quantity | Proved condition | Scope |
+|---|---|---|
+| Declared monotone source, including Y feedback | At least eight incoming descending lifetimes across the physical cut | They need not all be Hub births in a changed proper-birth model. |
+| Full Hub-to-ground portions in the complete retained caller | q>=11 fails in the proved target interval | q8/q9/q10 only survive a necessary screen. |
+| Arbitrary nested retained routes | Q_t>=222[7]+M_o+(1+[8]-[7])D_p | M_o: owned positive MOVEs; D_p: public downward MOVEs. |
+| At t199/200 | M_o+cD_p<E*, c=1+[8]-[7]=1.9850298539243356..., E*=82.79728598894742... | Finite multiplicity worsens this; M_o+2D_p<=83. |
+| Proper-cover charge chi | chi<=194 in the coarse all-route model | chi, cardinality ell and quadratic gamma are distinct. |
+| Marked full-route q8/q9/q10 | chi<=138/131/124 | Retain exact route premises and fixed-drop corrections. |
+| Native characteristic-two fitting | rank>=9V; equality canonical | Arbitrary noncommuting blocks included. |
+| Canonical quotient d=dim((row A+C_V)/C_V) | d<2V implies chi>=165 | Marked q8/q9 require d>=2V; add9V only with actual canonical containment. |
+
+Sources: [all-route gate](results/bit-all-route-rank-gap/ADMISSION.md), [minimum-rank rigidity](results/bit-saturated-star-rigidity/ADMISSION.md), and the exact entries in [OBLIGATIONS.md](OBLIGATIONS.md). Passing cuts does not satisfy acquisition.
+
+At a proper cell retain actual ascending inputs U_in, incoming packets P_in, outgoing packets P_out and local kernel modes. The admitted normalization is
+
+    P_out=C_C U_in+D_C P_in,
+    T_C=h_C P_in,
+    (I-D_C R_C)(P_out-C_C U_in)=0,
+    H=Lambda G+E y+B x, supp(B) inside its chart,
+    rank(G_x)<=qV+sum nu_C<=8qV.
+
+Every original-y coefficient must cancel; every read occurs at its actual chart; every copied or recoded original is restored under the complete endpoint contract.
+
+## 4. Current BIT global target
+
+The singular-pivot fitting has rank15, canonical enlargement16 and chi107. Its source identity extends over every characteristic-two field and width. The exact code is
+
+\[
+ W=C_s+hC,\qquad \dim W=15,\quad \dim(W+C)=16.
+\]
+
+It passes the stated charge screens algebraically. It is not the older fifteen-class fitting, whose canonical intersection and historical closure differ.
+
+Eight initial seeds and seven proper-chart additions span W. Six additions are hK_r for r=1,3,5,10,30,61; the seventh is K_b for an omitted geometric root normal. That normal supplies a chart, not an input. The six supports have sizes30,29,30,31,30,30 and share53 native inputs across incomparable facets.
+
+Independent ground-terminating buses fail even with optimistic acquisition:8[8]+7[7]>111.5>83. Changed retirement, original carriers and shared chronology are outside this bus screen. A competitive construction must resolve these overlaps and deliver111 fitting rows without granting seven free lifetimes.
+
+The actual two-D5 partial decoder has profile
+
+    1[1]+18[2]+39[3]+35[4]+16[5]+1[6]+170[7],
+
+moment1556.050745596738300220890384484021....
+Adding seven/eight bare full lifetimes leaves10.279361855162.../2.362108603841..., before every missing source, decoder and retirement expense. It computes only receiver72. Its ten-dimensional C-plus-one-direction fitting family is canonical elsewhere and has rank9V+rank(Z). Repeating the unchanged direction cannot complete the target.
+
+The fixed-common-chart matched-cubic alternative has chi>=197 even with three local codes and shared-point repair, exceeding the coarse cap194. Arbitrary raw or overlapping reservoirs are outside that theorem.
+
+Sources: [singular target](results/bit-singular-pivot-split/ADMISSION.md), [actual word](results/bit-two-d5-reservoir-decoder/ADMISSION.md), [direction classification](results/bit-coupled-d5-global-row/ADMISSION.md), and [matched-bank gate](results/bit-matched-d5-cubic-gate/ADMISSION.md).
+
+## 5. Complex common-head conservation
+
+The exact cubic head has A^3=Z,A^6=I. Its native half is
+
+\[
+ N_{\sigma,\epsilon,c}=
+ \begin{pmatrix}A^\sigma&cA^{\sigma+\epsilon}\\0&A^\sigma\end{pmatrix},
+ \quad \sigma,\epsilon,c\in\{-1,1\},
+\]
+
+with its actual fresh rank7 body and paid inactive-role idles.
+
+In the fixed collective G192/H24 family, finite ordinary combinations and invertible interstage/outer encodings conserve total target head rank. If m halves, x rank1 queries, z odd Z-type rank2 queries and w even nonalternating rank2 queries produce heads of total rank H, then
+
+\[
+ H\le2m+x+2z+2w.
+\]
+
+With common body7m on R roles, the paid invoice is
+
+\[
+ P_t=mR[7]+(m+x)[1]+m([8]-[7])+(z+w)[2].
+\]
+
+Concavity gives T_t<=mR[7]+dH, d=[8]-[7]. For every0<t<1,m>=1,
+
+\[
+ P_t-T_t\ge(m+x)(1-d)+(z+w)([2]-2d)>0.
+\]
+
+There is no favourable saving in this specified common-body family, regardless of query count. The earlier raw margins .42714950027..., .44751888810... and .93021754088... cannot be realized by their proposed endpoints within it. See [conservation proof](results/complex-common-head-conservation/ADMISSION.md).
+
+Larger ordinary quadratic phases, column-dependent encodings, changed native/body sharing, approximate degenerations or changed input retention are outside the theorem. Each needs a genuine source and full invoice. Exact one-column products may tensor with their phases; additive one-column identities do not automatically tensor.
+
+## 6. Complete theorem still missing
+
+Actual arbitrary-input source → chart/chronology/ownership and endpoints → full recursive/ordinary/precision/physical invoices → strict compatible uniform complex U and covered BIT C → valid completed BIT B → strict outer rows → conditional target theorem.
+
+Every arrow is an obligation. Fixed finite templates and bounded scalar catalogues are selected before n varies; unbounded uniformity does not follow from finite experiments. The five foundations remain native_all_columns, owned_erasure, compiler, precision_tape and analytic_recovery. An unconditional theorem additionally proves or bypasses all of them.
+
+## S014 source-bound additions
+
+The exact singular code cannot reduce its fitting dimension below15V by changing
+coefficients within W. Proper unchanged-input innovations have capacity3V in
+the disjoint direct-acquisition model, so q>=12 there; the retained full-descent
+price screen excludes that model. This is not a lower bound for recoded sources.
+
+The admitted two-facet partial source has complete closed movement profile
+37[1]+15[2]+17[5]+31[6]+176[7], moment1555.627365167956035415575121016... .
+Adding six bare full lifetimes leaves less than18.619995535267 in the limiting
+allowance, before all missing acquisition, decoder, ordinary, ownership and
+precision work. It completes zero Y targets; this arithmetic grants no source.
+
+The new pentagonal native retains half tariff1+7^t+8^t and adds three ordinary
+permutation plus three unit-phase services. The proposed one-native/two-query
+three-role caller is excluded even with noncommuting ordinary Clifford phases:
+h2<=q. One native plus three rank-one queries has raw invoice
+P=2[7]+[8]+4[1], T=3[9], subject to an unconstructed exact endpoint and every
+ordinary/body/compiler/precision/recursive cost. Three-native/four-role options
+remain similarly unconstructed. Both strict suppliers are still missing.
+
+## S014 full two-head Clifford closure
+
+With the full ordinary monomial Clifford algebra, H<=2m+q1+2q2. For paid
+common body rank7m and inactive rank-seven idles, let d=8^t-7^t. Then
+P-T >= (m+q1)(1-d)+q2(2^t-2d)>0 for every0<t<1. No ordinary phase or query
+count tuning inside this model reaches the target. This does not cover extra
+head coordinates, body mixing, non-Clifford ordinary maps or changed sources.
+The order-five source and all five foundational assumptions remain.
+
+The fixed BIT seven-mode family also fails original-only preprocessing, even
+with recoding; a changed basis or actual interleaved transport is necessary.
+The emerging three-output word remains partial and under review here. Every
+remaining receiver, source, ownership and complete supplier cost is retained.
+
+## S014 full-history budget and three-head interface
+
+The actual eight-packet4+3 source has profile98[1]+42[2]+21[3]+27[4]+52[5]
++32[6]+115[7]+[8], ranklength1618 and moment1604.94492093825074967... at
+t=199/200. Remaining limiting movement room16.80595927290160557... is
+necessary extension information only. Its zero outputs and invertible-through
+normalization prevent treating that margin as a complete source certificate.
+The earlier three-output word has moment1604.47894341866510... but different
+paths/caches. Do not combine their benefits without a literal compatible word.
+
+For fresh one-shot two-head body tags the paid invoice deficit is at least
+m(1+7^t-8^t)>0, even with optional idles omitted. The new three-head source
+retains half tariff[1]+[7]+[8], adds three actual ordinary permutations and
+retains the common2^V array-volume multiplier. Its head ranks cycle0,1,2,3,2,1.
+One native+one rank-one query cannot realize(3,1); one rank-two query cannot
+realize(3,2), by the high-rank-job count. Multiple-query identities remain
+construction obligations; the nonlinear potential is necessary only.
+
+## S014 checkpoint4 quantitative update
+
+Two-output Q2=142[1]+19[2]+49[3]+66[4]+22[5]+22[6]+112[7]+[8], moment1612.507037617109945..., room9.243842594042410... at t=199/200. For actual terminal-plus-donor G, dimG=15, dim(G+W)=23, dim(G+C)=24. The nonorthogonal frame(0,15,31,35,40,41,106,110) sees rank5, forcing3V additional information for ANY fitting. Its actual cut forces three whole-V owned ingresses. Nine-output Q9 leaves2.243842594... and fails by at least0.756157405957590... for every even caller m>=2. These are fixed-prefix source theorems, not a general multiplication lower bound.
+
+The global relative-fitting gap3<=r_min(G)<=8 separates an arbitrary-fitting lower bound from fixed-W/C enlargement costs. A physical decoder must also respect all actual charts and time order. Reseeding eight fields alone fails the credited8.1V shortening bound after nine omitted ports.
+
+For complex callers, the inverse-native gate gives H<=4 for two rank-one queries and deficit>=3(1-(8^t-7^t))>0. The general pure-endpoint theorem h<=s+min(a,b) and six concavity cases exclude every at-most-two-query three-head inventory for0<t<1. Three rank-one queries retain optimistic price4[1]+[7]+[8] against2[10], but all must be on one side of the F1 source. No caller or strict supplier is constructed.
+
+## S014 checkpoint5: sufficient ingress is not sufficient delivery
+
+The actual three-cache reservoir costs[1]+2[2]=4.986161051311... beyond Q2, has18 moving owners and completes no new Y. Granting its payloads globally admits only one new fitting role26; actual destination access admits none. Another nonorthogonal frame remains rank5. Thus the globally necessary3V ingress bound is not a sufficient decoder condition.
+
+The unspent two-output family has9.243842594... room. Coupled global relative minrank lies between3 and8; the uncoupled control has the same rank-five frame premise and fixed-W upper bound7, hence global gap3 to7. These relaxations do not account for physical availability. DC1_2 alone fits26 modulo six local terms, with a proposed rank-one descent to D6 intersect F26; the correction chronology and any scalable shared completion remain open.
+
+The complex nonordinary-input condition now has an exact initial row G=A^-2,H=A^-1 P A^-1. Its relative K=A P A^-1 has rank1. The natural ordinary O_lambda followed by q=A^-1 cannot make the required intermediate, since the residual's unique preimage G K^-1 has rank2 rather than3. Changing the seed or second query is a precise surviving obligation; no uniform physical caller or new kappa follows.
+
+## S014 closing inventory refinement
+
+The independently reviewed [inventory exhaustion corollary](results/complex-inverse-native-query-gate/supplements/INVENTORY-EXHAUSTION.md) proves that exactly three rank-one queries with independent(3,3) endpoints are the only potentially profitable inventory in the fixed one-native, two-retained-role, three-head, common-seven-body model. The placement gate forces one side. This is a necessary condition; the caller and physical admission remain open. Fourteen S014 packages plus this proof supplement; no new complete kappa.

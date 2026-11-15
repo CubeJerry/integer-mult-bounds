@@ -1,11 +1,33 @@
-# Continue delayed correction and interacting nonlocal feedback
+# Continue source acquisition beyond sparse-terminal feedback
 
-Resume exact remote HEAD and STATE.json. S015 is active, planned07:23:42–12:23:42UTC on2026-11-15. No background execution is promised. Selected conditional0.00363005817, target1/200 open, all five foundations retained.
+Resume exact remote HEAD and STATE.json. S015 remains active, planned
+07:23:42–12:23:42UTC on2026-11-15. No background execution is promised.
+Selected conditional0.00363005817, target1/200 open; all five foundations remain.
 
-Current admitted source: bit-colored-eight-source, eight cyclic flags,80 literal color caches,W15 history,111 positive receiver-chart inclusions,Y0 only,moment1606.544161951791... and15.206718... limiting movement room. The h9 fitting has chi106, independently checked; its correction duties have not been executed. The serial three-output source is an alternative, not combined at a fictional cost.
+Latest admitted mathematical change: localized kernel normalization applies to
+every input/receiver puncture. Fixed four-/six-output templates have actual
+rank10/12 information but project to8 on native punctures requiring9V. Better
+decoding or reseeding their remaining free slots cannot complete those templates.
+The literal six outputs and exact invoices remain valid partial constructions.
 
-One V-wide singular cell cannot meet the existing q8 kernel requirement V+ceil(V/3) under target arrival premises. Root's immediate schedule puts feedback at a deeper chart, then lets Y collect its correction later, producing a mixed kernel modulo the feedback chart. Author replay exists; independently audit it, then build another useful cell or ascending-Y relay. Mere point completions and global W containment are insufficient. C's punctured110/first-facet theorem and root/C fixed-kernel quotient are ready for integration with their exact scopes.
+Primary task: change actual acquisition/mixed information. C has an author-
+verified two-sum acquisition extension using ten priced original detours,
+raising D40/Wcap8 to D42/Wcap9; A is independently reviewing it. A is also
+checking arbitrary D-offset seed lifts and scoped duals. A second minimal
+class-selective feedback may still fail axis constraints. Consider interacting
+cells, extra genuine acquisition, changed fitting, or a fully priced ninth
+principal lifetime; recompute complete movement and normalized rank, not just
+kernel count. These pending claims are not admitted by this checkpoint.
 
-Complex construction now needs at least three natives in the specified no-query common-body family. Two-native H≤4 and cyclic conservation are proved; four-role same-orientation(3,3,1,1) is excluded. B reports an actual three-native/three-role(2,2,2) identity whose full movement margin remains negative. Review it and seek a noncommuting upgrade to(3,2,2); a positive optimistic budget is not a caller.
+Complex base K³=a²I3 and its full invoice are admitted. One interstage upgrade
+and two full interstages at the literal endpoint are excluded. B's stronger
+dihedral-shadow theorem is frozen for root review, with all-width phase-quotient
+and unit-deformation steps essential. Head-dependent ordinary endpoint gauges
+remain a possible escape. No source/strict supplier follows from optimistic
+(3,2,2) arithmetic or the linear-intersection criterion.
 
-Root alone integrates with exact-tree and expected-HEAD nonforced publication. No upstream PR or selected change. Programme ongoing, not PR-ready. Historical missing evidence and the invalidated offset scan remain qualified.
+Three workers retain mathematics-first construction/bridge/adversarial roles.
+Root alone integrates reviewed evidence, preserves exact pins and pushes by
+expected-HEAD nonforced update. No upstream PR or selected change. Read the
+new admissions, current target/dependency map and append-only session log.
+The standing protected discovery allocation in PROGRAMME.md is unchanged.

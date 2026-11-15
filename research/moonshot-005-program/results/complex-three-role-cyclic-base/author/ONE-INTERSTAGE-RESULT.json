@@ -1,0 +1,49 @@
+{
+  "status": "PASS_EXACT_ONE_INTERSTAGE_FORMULA_AND_INDEPENDENCE_CONTROLS",
+  "cases": [
+    {
+      "width": 1,
+      "ordinary_case": 0,
+      "all_input_columns": 24
+    },
+    {
+      "width": 1,
+      "ordinary_case": 1,
+      "all_input_columns": 24
+    },
+    {
+      "width": 1,
+      "ordinary_case": 2,
+      "all_input_columns": 24
+    },
+    {
+      "width": 1,
+      "ordinary_case": 3,
+      "all_input_columns": 24
+    },
+    {
+      "width": 2,
+      "ordinary_case": 0,
+      "all_input_columns": 192
+    },
+    {
+      "width": 2,
+      "ordinary_case": 1,
+      "all_input_columns": 192
+    },
+    {
+      "width": 2,
+      "ordinary_case": 2,
+      "all_input_columns": 192
+    },
+    {
+      "width": 2,
+      "ordinary_case": 3,
+      "all_input_columns": 192
+    }
+  ],
+  "zero_divisor_control": "A conditional active-idle swap is invertible with singular diagonal ordinary blocks; its forbidden low-rank idle-input entry remains nonzero.",
+  "independence_control": "P=I+e31 I gives M=[[a\u00b2,0,0],[0,a\u00b2,0],[a\u00b3,a\u00b2,a\u00b2]], with pi3 rankD but pi2 invertible of rank3D. It is not independent endpoint ranks(3,2,2).",
+  "scope": "The universal obstruction is the written row-space proof. Exact finite matrix controls validate its source formula, tensor phases and adversarial cases; they are not independent review.",
+  "new_kappa": false
+}

@@ -1,174 +1,143 @@
-# Construct reversible historical-code sources and prove their structural limits toward kappa = 0.005
-
-## S015 checkpoint3: full facet geometry and useful feedback
-
-The admitted colored eight-query source uses80 stationary raw caches split by the h9 singular class. Their actual increments have rank40 and W intersection8; seven paid Hub seeds supply the remaining quotient. The literal word has W15 history, a positive packet chart inside every receiver facet, restored originals and one actual Y0 completion. Its200 owners,944 ADD,495 MOVE and200 dirty CLEAR remain explicit. The separate h9 fitting has exact proper-cover charge106, but those106 correction duties are not implemented by historical containment. See results/bit-colored-eight-source/ADMISSION.md and results/bit-axis-pivot-covers/ADMISSION.md.
-
-Total historical span, normalized nonlocal information and actual receiver access are distinct. Under the existing target arrival premises, q8 plus one V-wide critical cell gives at most9V normalized information, below the proved9V+ceil(V/3) floor. A complete source needs more useful critical information or a paid changed interface. Root's delayed-correction schedule captures a mixed packet row at a lower chart and lets Y acquire its correction later at larger charts. An actual word has author replay and awaits independent admission; multiple cells or an ascending-Y relay remain the next construction. The serial three-output source is preserved as an alternative, not combined at a fictional summed price.
-
-On the complex side, two actual source-bound natives with arbitrary retained roles have total independent head rank at most4 and a strict full-body deficit. Three same-orientation natives on four roles cannot reach(3,3,1,1). See results/complex-two-native-total-head-gate/ADMISSION.md and results/complex-middle-pivot-gate/ADMISSION.md. A reported exact three-native/three-role rank(2,2,2) identity is under review; a genuinely noncommuting upgrade to(3,2,2) remains unbuilt. No complete strict supplier, new κ or foundational discharge is claimed. Programme ongoing, not PR-ready.
-
-## S015 checkpoint2: source feedback and a sharp seed interface
-
-The actual four-D/three-S serial source now completes Y9,Y17,Y34, restores all111 X and retains W15 in intermediate history. Its partial movement moment is1606.998014987781958..., leaving14.752865223370397... against the limiting complete allowance;150 owners,394 MOVE,629 ADD and145 dirty clears remain explicit. The preceding four-D/four-S point source proves how an off-code seed can replace a source query through actual public-Y feedback. These are source constructions, not complete suppliers.
-
-A sharp all-field quotient theorem governs reseeding. For fixed history increments D, compulsory terminals N⊂D and target W, let n=dim N,r=dim((D+W)/D),k=dim(N∩E),z=dim(E∩(D+W))−dim(E∩D). Feasibility is q≥n+r and the exact maximum dim(T∩E) is min(dim E,k+z+q−n−r). On the serial template this gives at most5V canonical terminal directions while retaining W15V; an actual equality word has750 ADD and unchanged movement/owners. Arbitrary block seeds are included. Thirteen algebraic receiver fits are not thirteen delivered outputs.
-
-The cyclic three-head complex family obeys H≤2m+q1+2q2+3q3 and has a strict full fresh-body/idle movement deficit for every0<t<1. The coset proof also excludes q≥3 rank-one-query results whose entire Gaussian support has rank≥q. These are scoped gates; genuinely noncommuting ordinary interstages and changed native/role patterns remain open. The primary next step is actual correction delivery from a changed full-chart source. No new κ; all five foundations remain.
-
-**Cumulative draft; not ready for submission. No new kappa.** This permanent branch is an ongoing programme. It creates no upstream PR and changes no selected certificate. The user will review and submit any eventual contribution.
-
-## S015 extension: source access and three-query closure
-
-Receiver26 now has an actual all-column correction composition and a cheaper point-copy control that prevents a spurious improvement claim. Two field/width-universal gates sharpen the fixed BIT interface: one local rank-one export serves at most one missing receiver, and independent ground completion needs movement>9.89 against9.243842595 of allowance. Source chronology or intermediate sharing must change within this route.
-
-Exact coset support closes the previously surviving pure(3,3) complex caller, including noncommuting ordinary zero divisors. A distinct Gaussian-corner/Schur argument proves h+k<=5 for three rank-one queries at any fixed head count, with strict complete common-body deficit. Proofs, dependency pins, independent reviews and meaningful controls accompany all five packages in [the registry](REGISTERED-RESULTS.json). **No new kappa.** Changed-source/query constructions, complete uniform suppliers and all five foundations remain open. The branch is not PR-ready.
-
-
-## Motivation and architecture
-
-The retained framework requires compatible uniform complex and completed ordinary BIT suppliers both strictly above1/200. A cheap local source, small residual rank or positive finite moment does not establish either supplier. Information must exist at its actual charts, survive a legal chronology, reach every receiver and be erased or restored with all recursive and ordinary expenses paid.
-
-This is one evolving source-code architecture combining exact native geometry, coding theory, historical-kernel interfaces and reversible words. Scoped obstructions identify premises that must change. [PROGRAMME.md](PROGRAMME.md), [SESSION-LOG.md](SESSION-LOG.md) and [REGISTERED-RESULTS.json](REGISTERED-RESULTS.json) retain the complete history. The previous cumulative description is [archived exactly](sessions/2026-11-14-S013/logical-records-at-cp8/PR-DESCRIPTION.md).
-
-## Current mathematical contribution
-
-### Global D8/half-spinor target and actual acquisition
-
-The singular-pivot native fitting has rank15, canonical enlargement16 and proper-cover charge107. Its code is C_s+hC, dimensions8+8−1. Full geometry splits into56 D8 and64 even half-spinor lines; native classes have52 and59. All111 covers are explicit. Eight seeds and seven proper-chart additions span the fitting. This is a global target with an exact acquisition interface, not a supplied decoder.
-
-The D5 cubic shortening is a punctured doubled even-Eulerian K5/R10 code. All31 nonzero modes have literal reversible acquisition/injection words, restored originals and full incremental profiles. Two coupled reservoirs yield an actual partial decoder: two packets on8→5→2→0 restore111 X and compute Y72 while preserving the other Y fields. Root independently replays all222 columns using rational charts.
-
-The paired history direction is classified over every characteristic-two field and width: every fitting is canonical outside72 and has rank9V+rank(Z). Its unchanged surviving packet fits only five receivers, each charge2. A fixed-common-chart family of three disjoint-cohort cubic banks is also excluded: even shared-point repairs leave chi>=197, above the cap194.
-
-Global continuation needs new history. Fifty-three originals occur in multiple incomparable singular-mode supports; separate buses exceed the budget. Reversible recoding, original carriers or coupled histories must resolve this specific obstacle.
-
-### Complete scoped closure of the common-body complex family
-
-The exact source head A satisfies A^3=Z,A^6=I. Tensor separation makes the192-element collective algebra faithful at every widthV>=6; Gaussian-rank components are bimodules over its24-element ordinary algebra. Signed representations exclude the two three-half targets. An ordinary-kernel theorem closes the changed one-half/Z/rank1 target.
-
-The final two-sided theorem handles arbitrary permitted query inventories and mixed Gaussian endpoints. Common left/right kernel projectors, Sylvester and the signed representation give
-
-    H_tot <= 2m+x+2z+2w,
-
-for m native halves, x rank1 queries, z Z-type rank2 queries and w nonalternating rank2 queries. The actual native, idle and query invoice then strictly exceeds common-body7m target credit for every0<t<1. This is a scoped architectural theorem, not a failed search or a multiplication lower bound.
-
-An exact lambda normalization is retained: a five-operation in-place scalar butterfly, all four source columns checked, with ordinary/layout/grid costs explicit. Larger ordinary quadratic phases and changed source/body interfaces are outside the no-go theorem. Their implementation and tensor phases must be proved.
-
-### Retained structural foundations
-
-Earlier packages establish all-field historical/Y-feedback normalization, arbitrary-route prices, minimum-rank9V rigidity, canonical quotient/support gates, fractional wing bounds, nested source forks and compensated complex words. Their hypotheses and costs remain. The singular target is distinct from the older fifteen-class target; class-specific restrictions are not transferred without proof. Alternative partial gains are not added as if they formed one word.
-
-## Complete costs and kappa status
-
-From completed b0=.00385248, one-stage completion above.005 requires covered C>3112961/621875000 and a compatible atom. Multiple stages do not grant a covered supplier; old rho=.004 cannot reach the target.
-
-At t199/200 the limiting complete BIT allowance is1621.750880211152355246.... The actual closed two-D5 partial source costs
-
-    1[1]+18[2]+39[3]+35[4]+16[5]+1[6]+170[7]
-    =1556.050745596738300221....
-
-Seven/eight additional bare lifetimes leave10.279361855162.../2.362108603841..., before all missing acquisition, correction, retirement and restoration. No completed BIT saving is claimed.
-
-For the common-body complex family, d=8^t−7^t gives
-
-    paid−target >= (m+x)(1−d)+(z+w)(2^t−2d) > 0.
-
-Older favourable raw prices are excluded within that family. Any phase-enlarged construction needs a new complete caller and invoice.
-
-**No new kappa.** Selected conditional saving remains0.00363005817. Native all-columns, owned erasure, compiler, precision/tape and analytic/recovery foundations remain. Neither a materialized uniform multiplier nor independent human/formal-kernel acceptance is claimed.
-
-## Pins, verification and reproduction
-
-Canonical main examined: e54523517d0f03e58352e647c403a5af3e525a57.
-Checkpoint9 parent: efe6a53276960e1a6c0dfea0b9f4be6c63312d23.
-Resulting commit identity is confirmed after publication.
-
-Native BIT gzip SHA256:
-51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78.
-Authenticated geometry recovery blob:
-8eba43d142c819c206dce5df87ea4571aaead287.
-Canonical complex control blob:
-8cddb0aff69b91ae648422f2cd5e77a12883ebe7.
-
-Every package has source pins, written proof, independent review and receipts. [VERIFICATION.md](VERIFICATION.md) and [SCIENTIFIC-FILES.json](SCIENTIFIC-FILES.json) give the full evidence map. Representative repository-root commands:
-
-    node research/moonshot-005-program/results/bit-singular-pivot-split/review-root/check.js research/moonshot-005-program/results/bit-proper-flat-cubic-generators/author/RESULT.json research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json
-    node research/moonshot-005-program/results/bit-two-d5-reservoir-decoder/review-root/check.js research/moonshot-005-program/results/bit-proper-flat-cubic-generators/author/RESULT.json research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json
-    node research/moonshot-005-program/results/complex-common-head-conservation/review-root/check.js
-
-Expected statuses appear in admissions. JavaScript actually ran in the cloud after local executor loss. Supplied Node commands are not misreported as local executions; authenticated geometry recovery is distinguished from a fresh gzip replay.
-
-Independent checks use separate incidence reconstruction, rational chart replay, distinct primes103/107/109/137, formal group algebra and different integer-root engines. Negative controls remove actual reads, violate source/chart availability, alter phases, confuse left/right shear banks, omit even-query constraints and change input-retention hypotheses. Author reruns are labelled reproduction.
-
-## Provenance and publication gate
-
-Credit @CubeJerry/Jerry Chen; DreamingOfClouds, Ali Romman, Rohan Arun, Hao Yan, SYLforge, ToikY, Clear1nsight and every retained native, BIT, compiler, caller and analytic predecessor named in source packages. The selected #7000/#7001 lineage and earlier contributor files are preserved. New #7605 is an open source-specific development, not an adopted theorem or selected result.
-
-Substantial OpenAI assistance is disclosed. Independent reviews refer to separate research-agent arguments and implementations, not independent human certification.
-
-Before submission, the cumulative package must pass a whole-contribution composition and source/verification review. The complete source, strict suppliers and outer target remain open. These partial results are not presented as a complete kappa=.005 theorem.
-
-## S014 extension: actual shared acquisition and a new complex head
-
-The cumulative package now includes exact singular-code localization and
-full-rank15V fitting rigidity, a scoped direct-acquisition q>=12 gate, and a
-literal two-facet construction that escapes it with restored original carriers
-and two outside-code mask directions. Two continuous packets acquire two W
-innovations; no Y target is completed. Its fully counted partial movement
-profile is37[1]+15[2]+17[5]+31[6]+176[7], not a complete supplier invoice.
-
-An explicit ordinary quadratic phase gives a new pentagonal native head B^5=I
-with all-width scalar phases, original columns and ordinary permutation costs
-retained. A separate broad theorem proves h2<=q for one native and q one-role
-queries even under noncommuting fixed Clifford ordinary mixing. The complete
-pentagonal caller, shared global BIT source and both strict suppliers remain
-open. Independent proof reviews and distinct exact implementations accompany
-these linked contributions. No new kappa; cumulative PR readiness remains false.
-
-### Full Clifford and first-exit contribution (S014 checkpoint2)
-
-The cumulative branch now proves head-rank conservation for the full two-head
-ordinary monomial Clifford algebra: H<=2m+q1+2q2, under retained-role and
-one-role-query contracts. A non-diagonal matching representation with a
-phase-exact tensor lift closes every common-body ordinary-phase repair for
-0<t<1. Separate exact implementations and mathematical reviews accompany the
-720/48 census. The exact order-five native interface remains reusable.
-
-The arbitrary-recoding first-exit theorem excludes all64 fixed seven-mode BIT
-preprocessing families, with exact witnesses and a changed-basis negative
-control. Actual source/receiver composition continues. **No new kappa.**
-Neither theorem is a general multiplication lower bound. All five foundations
-remain, and the cumulative branch is an ongoing programme, not PR-ready.
-
-### Full singular acquisition and a higher-head source
-
-A jointly compatible four-D8/three-spinor source now acquires all15 singular
-code directions on eight actual packet histories, with restored originals,
-full ownership/movement bill and independent222-column replay. It delivers
-zero outputs; the existing scattering theorem explains why a true nonlocal
-feedback extension is required. A distinct earlier source completes three
-receivers, with exact historical/terminal information gaps independently
-proved. Their paths are not silently combined.
-
-The complex contribution also closes one-shot fresh-body fission under its
-explicit collective-translation contract and constructs an exact three-head
-spectator interface. Its nonlinear potential and one-query gates are proved;
-a complete caller remains open. **No new kappa**, all five foundations retained.
-The cumulative programme is not yet PR-ready.
-
-## S014 actual shared sources and inverse-native gates
-
-The full singular fitting history is now acquired chronologically and composed with public-Y feedback and two literal receiver completions. A separately exact nine-output word comes with a3V causal-cut proof that its frozen remaining budget cannot complete. The central construction is therefore jointly coded exports from the earlier two-output source, with actual access and full costs.
-
-The inverse-native rank, mixed-query band and complementary-corner arguments exclude all at-most-two-query three-head common-body callers and constrain the three-query alternative to one side and a nonordinary input representation. Fixed marked columns, ordinary zero divisors, source phases and all five foundations remain explicit. Exact words, full partial invoices, separate proof reviews, source pins and semantic negatives are included. **No new κ.** This cumulative branch is not PR-ready.
-
-## Final S014 constructive interfaces and their limits
-
-Three actual mixed-cache descents form a shared reservoir and meet one exact information cut, but a complete chart-aware receiver audit proves the chosen destination adds no fitting role. The unspent two-output source and its uncoupled alternative remain the starting construction. A concrete receiver26 rerouting/correction lead is preserved without claiming a decoder.
-
-An explicit Clifford first-query row realizes the nonordinary input representation required by the surviving three-query caller. Its simplest next completion is rigorously excluded by a coefficient-preimage argument. Both packages have exact source pins, full partial invoices where applicable, separate implementations and written independent reviews. These are cohesive enabling and obstruction results; **No new κ**, no discharged foundation, and no PR-readiness claim.
-
-## S014 closing inventory refinement
-
-The independently reviewed [inventory exhaustion corollary](results/complex-inverse-native-query-gate/supplements/INVENTORY-EXHAUSTION.md) proves that exactly three rank-one queries with independent(3,3) endpoints are the only potentially profitable inventory in the fixed one-native, two-retained-role, three-head, common-seven-body model. The placement gate forces one side. This is a necessary condition; the caller and physical admission remain open. Fourteen S014 packages plus this proof supplement; no new complete kappa.
+# Construct chronological historical-code sources and prove joint kernel/puncture limits toward κ = 0.005
+
+**Cumulative draft; ongoing programme, not PR-ready. No new κ.** No upstream
+pull request is submitted automatically. The selected conditional bound remains
+κ=0.00363005817. The targetκ≥1/200 is open, and all five foundational assumptions
+remain. This draft describes verified partial mathematics, not a complete
+integer-multiplication algorithm or acceptance certificate.
+
+## Motivation and one evolving architecture
+
+A low-charge algebraic fitting is useful only if its information can be acquired
+from arbitrary original inputs, transported through actual source charts and
+delivered to every receiver within the complete recursive budget. The programme
+builds one such historical-code architecture on the111-root native. It combines
+reversible original recoding, stationary shared sums, monotone descending packets
+and original-Y feedback. The h9 singular fitting has rank15, canonical enlargement16
+and exact proper-cover charge106, but these algebraic properties are not a decoder.
+
+The cumulative branch contains the foundational target-price analysis, actual
+source mechanisms, all-field structural gates and independent reviews needed
+to continue that construction. Earlier unsuccessful mechanisms are retained
+with exact scope so they are not repeatedly rediscovered. All results compose
+only when their source, field, width, ownership and endpoint premises match.
+
+## Exact constructive contribution
+
+The colored eight-packet source acquires a40-dimensional actual increment space
+D, with W intersection8. Seven paid Hub seeds give full W15 in packet history,
+and every receiver facet contains a positive visited packet chart. Original X
+records restore at Hub; arbitrary original Y values are tracked as independent
+columns. Delaying class correction until after a deeper exchange produces an
+actual mixed proper-cell kernel while completing Y0. Its incoming boundary
+coordinate is checked explicitly and is not x0 modulo chart-local data.
+
+A second retained mixed cell, together with three actual pure acquisitions,
+completes0,5,6,7. Two further retained point-ending cells give actual0,1,2,5,6,7.
+All222 original columns, chart inclusions, owner lifetimes, packet histories and
+endpoint identities are replayed independently. The scalar identities lift to
+every characteristic-two field and positive whole-record width. These are
+partial words, not uniform complete suppliers.
+
+| Actual word | Owners / dirty clears | ADD | MOVE | Moment at t=199/200 |
+|---|---:|---:|---:|---:|
+| Delayed mixed source, output0 | 200 / 200 | 943 | 495 | 1606.544161951791215… |
+| Four-output, two-cell composition | 204 / 204 | 960 | 502 | 1606.639712765246185… |
+| Six-output, four-cell extension | 206 / 206 | 966 | 502 | same four-output moment |
+
+The complete four-/six-output movement profile is
+`190[1]+12[2]+119[3]+72[4]+2[5]+107[7]`, with `[r]=r^(199/200)`.
+The limiting retained caller allowance is1621.750880211152355…; finite caller
+multiplicity remains stricter. Every missing decoder, ordinary operation,
+compiler, precision and recursive cost remains owed. Partial movement room
+is not a complete saving certificate.
+
+## New structural theorem and the precise architecture change
+
+Localized inverse-cell normalization retains the locations of singular packet
+cells. A receiver can use only kernels at charts contained in its own facet.
+For **every** receiver subset J, a complete fitting on J must factor through
+J-restricted first-ground fields and visible kernel X-coefficients. The deleted
+coordinates need not be already completed outputs. This is an all-field,
+arbitrary-block theorem, with independent original-Y terms and cell image
+constraints retained.
+
+The four-/six-output words have normalized ranks10/12, but their mandatory
+terminal supports can be deleted with11/13 input coordinates. The remaining
+information has rank at most8V even if all their kernels are freely granted.
+Explicit actual native stars in the remaining100/98-role instances require9V;
+characteristic-two canonical fittings attain9V. The four-output source also
+fails a separate99-role kernel-visibility test. Thus those fixed templates
+cannot be completed merely by reseeding other packets or improving decoding.
+The six-output word is a useful positive control: weaker completed-port and
+visibility checks miss its arbitrary-puncture failure.
+
+This proof redirects construction toward changed acquisition, interacting mixed
+feedback and fully priced interface changes. It does not establish a general
+multiplication lower bound. A separate exact110-port puncture closes first-facet
+and point-kernel continuations; genuinely mixed kernels lie outside its premise.
+The sharp terminal-seed quotient theorem and fixed acquired-grant extension
+retain acquisition constraints when reseeding is considered.
+
+## Compatible complex research
+
+The exact source-bound identity K(a)^3=a²I3 gives three independent rank-two
+heads. Its full Gaussian price3[1]+6[7]+3[8] exceeds3[23] at the target exponent.
+The unbuilt(3,2,2) target[24]+2[23] has a positive prospective margin, but an
+explicit paid rank-one upgrade costs more than that margin. One ordinary
+interstage modification cannot upgrade the base; two unrestricted full ordinary
+interstages cannot realize the literal endpoint gauge. General head-dependent
+endpoint encodings remain outside these scoped proofs.
+
+An exact linear-intersection reduction and unit criterion isolate the next
+algebraic problem. The abelian character-determinant criterion is proved; its
+uniform diagonal implementation is explicitly conditional on the retained
+ordinary scan/scalar/layout service. No target-solving unit or free physical
+inverse is assumed. Earlier cyclic and two-head conservation, native inventory
+and component gates remain linked at their exact scopes in the result index.
+
+## Evidence, provenance and reproduction
+
+All current package admissions, proofs, scripts, source pins, independent reviews
+and negative controls are published under the permanent [programme directory](https://github.com/CubeJerry/integer-mult-bounds/tree/research/moonshot-005-program/research/moonshot-005-program).
+Key entry points:
+
+- [Delayed mixed source](results/bit-delayed-mixed-feedback/ADMISSION.md), [four-output composition](results/bit-four-axis-feedback/ADMISSION.md), [joint theorem and six-output control](results/bit-joint-kernel-puncture/ADMISSION.md).
+- [Punctured first-facet gate](results/bit-punctured-first-facet-gate/ADMISSION.md), [fixed-kernel quotient](results/bit-fixed-kernel-quotient/ADMISSION.md).
+- [Three-role complex base and gates](results/complex-three-role-cyclic-base/ADMISSION.md).
+- [Complete result registry](REGISTERED-RESULTS.json), [dependency graph](OBLIGATIONS.md), [target accounting](TARGET-005.md), [verification ledger](VERIFICATION.md).
+
+Each package has a reproduction guide and manifest. Independently implemented
+all-column/rational-geometry checks, exact integer-root intervals, punctured
+star certificates and rejecting semantic mutations are distinguished from
+rerunning author code. Universal proofs are not inferred from finite searches.
+The fixed-grant corollary has471,040 independent finite subspace controls in
+addition to its all-field complement argument.
+
+Canonical main last examined: `e54523517d0f03e58352e647c403a5af3e525a57`.
+S015 starting programme: `eefa411ebab86271d50b56b6953af3a157366bdb`.
+This checkpoint's confirmed parent: `c19be258a396e7fc92ee963433d4f7c3b3969dc7`.
+The resulting remote commit is confirmed after publication and recorded in the
+next receipt, never self-embedded. Native SOURCE-RECOVERY SHA256:
+`8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e`.
+All exact source/dependency/certificate hashes are in the scientific manifest.
+Historical missing artifacts and reconstructed evidence retain explicit status.
+
+## Remaining assumptions and publication status
+
+Both strict suppliers remain missing: compatible uniform complex U>1/200 and
+completed ordinary BIT B>1/200, with actual covered supplier and bootstrap
+contracts, then every strict outer row. A complete conditional theorem retains
+native_all_columns, owned_erasure, compiler, precision_tape and analytic_recovery.
+An unconditional theorem additionally proves or legitimately bypasses each.
+This branch changes neither the selected certificate nor accepted κ.
+
+Prepared for **@CubeJerry** with substantial OpenAI AI assistance. Credit is
+retained for all source, historical-fork, tensor-separation and normalization
+predecessors; the punctured star arguments explicitly credit DreamingOfClouds
+and CrocSwap/integer-mult-bounds#7114. The programme follows the detailed
+technical style of prior @CubeJerry contributions including
+CrocSwap/integer-mult-bounds#6916. Worker construction, separate agent reviews
+and root checks are labelled accurately; no human or formal-kernel review is
+claimed. The full cumulative package must pass composition/readiness review
+before a single substantive upstream PR is proposed. **Ongoing; no new κ.**

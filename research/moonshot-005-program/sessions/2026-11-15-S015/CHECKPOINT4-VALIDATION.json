@@ -1,0 +1,512 @@
+{
+  "status": "PASS_REVIEWED_CP4",
+  "baseline_sha": "c19be258a396e7fc92ee963433d4f7c3b3969dc7",
+  "checked_utc": "2026-11-15T09:31:56.978253+00:00",
+  "new_results": [
+    {
+      "id": "BIT-DELAYED-MIXED-FEEDBACK",
+      "status": "proved actual mixed kernel and delayed Y0 correction; complete supplier open",
+      "path": "results/bit-delayed-mixed-feedback/ADMISSION.md",
+      "review": "results/bit-delayed-mixed-feedback/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-FOUR-AXIS-FEEDBACK",
+      "status": "proved actual four-output two-cell composition; fixed completion excluded",
+      "path": "results/bit-four-axis-feedback/ADMISSION.md",
+      "review": "results/bit-four-axis-feedback/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-PUNCTURED-FIRST-FACET-GATE",
+      "status": "proved110-port rank9V and first-facet/point-kernel exclusions",
+      "path": "results/bit-punctured-first-facet-gate/ADMISSION.md",
+      "review": "results/bit-punctured-first-facet-gate/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-FIXED-KERNEL-QUOTIENT",
+      "status": "proved sharp all-field acquired-grant capacity identity",
+      "path": "results/bit-fixed-kernel-quotient/ADMISSION.md",
+      "review": "results/bit-fixed-kernel-quotient/independent-c/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-THREE-ROLE-CYCLIC-BASE",
+      "status": "proved actual K3 base, full invoice, one-stage/literal two-stage gates and conditional unit bridge",
+      "path": "results/complex-three-role-cyclic-base/ADMISSION.md",
+      "review": "results/complex-three-role-cyclic-base/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-JOINT-KERNEL-PUNCTURE",
+      "status": "proved all-field localized/punctured rank gate, two fixed-template exclusions and actual six-output control",
+      "path": "results/bit-joint-kernel-puncture/ADMISSION.md",
+      "review": "results/bit-joint-kernel-puncture/review-root/REVIEW.md"
+    }
+  ],
+  "reproduction_commands": 20,
+  "frozen_json_comparisons": {
+    "files": [
+      {
+        "frozen": "bit-delayed-mixed-feedback/author/output/CLOSED-WORD.json",
+        "reproduced": "delayed-author/CLOSED-WORD.json",
+        "byte_identical": true,
+        "sha256": "130b17d6820bbac8ee5c7dd3bfb6bac98dea14f2782a855a96451a8bc88a15d1"
+      },
+      {
+        "frozen": "bit-delayed-mixed-feedback/author/output/HISTORY.json",
+        "reproduced": "delayed-author/HISTORY.json",
+        "byte_identical": true,
+        "sha256": "a88d1396b584a7fcf8d4fa81fe2c5833b62af4966ffce0e88bca982c751f6620"
+      },
+      {
+        "frozen": "bit-delayed-mixed-feedback/author/output/PRICE.json",
+        "reproduced": "delayed-author/PRICE.json",
+        "byte_identical": true,
+        "sha256": "72fa0302dd0acbf2036ed0b4e9e1aec888a4c6f6346588ae4a8fed392ef70387"
+      },
+      {
+        "frozen": "bit-delayed-mixed-feedback/author/output/RESULT.json",
+        "reproduced": "delayed-author/RESULT.json",
+        "byte_identical": true,
+        "sha256": "c820f3ee4c624b792d2867c323843431df91977f36fc156b391d2a2dd609efb2"
+      },
+      {
+        "frozen": "bit-delayed-mixed-feedback/author/output/WORD.json",
+        "reproduced": "delayed-author/WORD.json",
+        "byte_identical": true,
+        "sha256": "4cea047c9f28a17c3379d3073a88b3a5d00e6e749214661c9d330a289824d060"
+      },
+      {
+        "frozen": "bit-delayed-mixed-feedback/independent-c/closed-output/HISTORY.json",
+        "reproduced": "delayed-independent/HISTORY.json",
+        "byte_identical": true,
+        "sha256": "31c9c04347a60cb89a3db710b2756bfe678564fce44f4cbc7cdcf42e52afbc3f"
+      },
+      {
+        "frozen": "bit-delayed-mixed-feedback/independent-c/closed-output/RESULT.json",
+        "reproduced": "delayed-independent/RESULT.json",
+        "byte_identical": true,
+        "sha256": "d2b30596ad9f7a376ab7ac5da769358bd9c5c4515707a87e94c6aec2ac947f69"
+      },
+      {
+        "frozen": "bit-four-axis-feedback/author/output/CLOSED-WORD.json",
+        "reproduced": "four-build/CLOSED-WORD.json",
+        "byte_identical": true,
+        "sha256": "6141d785619fbf271fad8cee7dad96bd5b11b17b3adfda3a057da8b6ee81747a"
+      },
+      {
+        "frozen": "bit-four-axis-feedback/author/output/WORD.json",
+        "reproduced": "four-build/WORD.json",
+        "byte_identical": true,
+        "sha256": "2b13e0b8d534b90b3284ac93a49b5c3d7e79a6cfe0591ac7a8a1889a29fb856b"
+      },
+      {
+        "frozen": "bit-four-axis-feedback/author/verification/CLOSED-WORD-HISTORY.json",
+        "reproduced": "four-author/CLOSED-WORD-HISTORY.json",
+        "byte_identical": true,
+        "sha256": "114d455ed3e9832b551ebc7d6b6a6f670ebc26f6f1c7080cbb2002b2d36e1bcf"
+      },
+      {
+        "frozen": "bit-four-axis-feedback/author/verification/RESULT.json",
+        "reproduced": "four-author/RESULT.json",
+        "byte_identical": true,
+        "sha256": "5e6f425361c5c2354c38d29e91325b83a9cfcb5e871c4e114c2b31ce59d09ca1"
+      },
+      {
+        "frozen": "bit-four-axis-feedback/author/verification/WORD-HISTORY.json",
+        "reproduced": "four-author/WORD-HISTORY.json",
+        "byte_identical": true,
+        "sha256": "114d455ed3e9832b551ebc7d6b6a6f670ebc26f6f1c7080cbb2002b2d36e1bcf"
+      },
+      {
+        "frozen": "bit-four-axis-feedback/independent-a/output/CLOSED-WORD-HISTORY.json",
+        "reproduced": "four-independent/CLOSED-WORD-HISTORY.json",
+        "byte_identical": true,
+        "sha256": "7808f7257fef610480244807928e83e08bc796f3906f650407ac4ba4c2f511bb"
+      },
+      {
+        "frozen": "bit-four-axis-feedback/independent-a/output/RESULT.json",
+        "reproduced": "four-independent/RESULT.json",
+        "byte_identical": true,
+        "sha256": "c2c0be75b6637dca78d2cf16b1ea85383dc6a4bd16737b95e2ce9a8d3925417b"
+      },
+      {
+        "frozen": "bit-four-axis-feedback/independent-a/output/WORD-HISTORY.json",
+        "reproduced": "four-independent/WORD-HISTORY.json",
+        "byte_identical": true,
+        "sha256": "7808f7257fef610480244807928e83e08bc796f3906f650407ac4ba4c2f511bb"
+      },
+      {
+        "frozen": "bit-punctured-first-facet-gate/author/output/RESULT.json",
+        "reproduced": "punctured-author/RESULT.json",
+        "byte_identical": true,
+        "sha256": "ad36e83ebd064f5ec3a788a63c504d8c5a092ff92294a5929685c91b046898e3"
+      },
+      {
+        "frozen": "bit-punctured-first-facet-gate/review-root/RESULT.json",
+        "reproduced": "punctured-root.json",
+        "byte_identical": true,
+        "sha256": "85893f29b061af92c1dc793c77dd9ab3490fb6d4edbc4553633b05bcc3e68e89"
+      },
+      {
+        "frozen": "bit-fixed-kernel-quotient/independent-c/RESULT.json",
+        "reproduced": "fixed-independent.json",
+        "byte_identical": true,
+        "sha256": "d1891f046d043b9fae6b6933473209fa9353ce35e6e9f7ea19a9d64a606731ee"
+      },
+      {
+        "frozen": "complex-three-role-cyclic-base/linear-bridge/independent-b/RESULT.json",
+        "reproduced": "bridge-independent.json",
+        "byte_identical": true,
+        "sha256": "27245a57655204f5f900ce1d107a8e827ca1585ab157bfec75506aa4ac6525a0"
+      },
+      {
+        "frozen": "complex-three-role-cyclic-base/author/SOURCE-BASE-RESULT.json",
+        "reproduced": "complex-three-role-cyclic-base/author/SOURCE-BASE-RESULT.json",
+        "byte_identical": true,
+        "sha256": "5ed10fe8be14548b5af4f67ff3d4204c995b00d9c45fe625c5e99abdeff2d172"
+      },
+      {
+        "frozen": "complex-three-role-cyclic-base/author/BUDGET-RESULT.json",
+        "reproduced": "complex-three-role-cyclic-base/author/BUDGET-RESULT.json",
+        "byte_identical": true,
+        "sha256": "07d6eeccd006460d4d46bb1ac491f797fd3135bdbc849de641deea65e4a94831"
+      },
+      {
+        "frozen": "complex-three-role-cyclic-base/author/ONE-INTERSTAGE-RESULT.json",
+        "reproduced": "complex-three-role-cyclic-base/author/ONE-INTERSTAGE-RESULT.json",
+        "byte_identical": true,
+        "sha256": "55748687afd6064d149faca036535cfdaf91c541c01fc2c00186f75485f275c6"
+      },
+      {
+        "frozen": "complex-three-role-cyclic-base/author/LINEAR-GATE-RESULT.json",
+        "reproduced": "complex-three-role-cyclic-base/author/LINEAR-GATE-RESULT.json",
+        "byte_identical": true,
+        "sha256": "149cf5ad9fc93913821a815f67a1015909ac5beb03bfaad0e594d38935628412"
+      },
+      {
+        "frozen": "complex-three-role-cyclic-base/review-root/RESULT.json",
+        "reproduced": "complex-three-role-cyclic-base/review-root/RESULT.json",
+        "byte_identical": true,
+        "sha256": "6f6ef7b441671e36c67ea9964efafdf5473e2500f7f3af6541ad8b57e23168e4"
+      },
+      {
+        "frozen": "complex-three-role-cyclic-base/review-root/LITERAL-RESULT.json",
+        "reproduced": "complex-three-role-cyclic-base/review-root/LITERAL-RESULT.json",
+        "byte_identical": true,
+        "sha256": "e2a06fdbe2cce754b516f1c040bd7f90a57b0b61e91af26484cc2a24fc4e017d"
+      },
+      {
+        "frozen": "bit-joint-kernel-puncture/six-axis/author/output/WORD.json",
+        "reproduced": "six-build/WORD.json",
+        "byte_identical": true,
+        "sha256": "c95aea6b5f1023cb028395de0bd76b477284b4737cec9130a934a065fdb654c0"
+      },
+      {
+        "frozen": "bit-joint-kernel-puncture/six-axis/author/output/CLOSED-WORD.json",
+        "reproduced": "six-build/CLOSED-WORD.json",
+        "byte_identical": true,
+        "sha256": "df90f28b7273eec6d878560db1d2b387760a4deb6b1ce738044af2ffcc0b9d79"
+      },
+      {
+        "frozen": "bit-joint-kernel-puncture/six-axis/author/output/RESULT.json",
+        "reproduced": "six-author/RESULT.json",
+        "byte_identical": true,
+        "sha256": "e38a202ee21a354098c4bdae6d4d9f91c9fea5a11a3dfe771c47633175e7e0ce"
+      },
+      {
+        "frozen": "bit-joint-kernel-puncture/six-axis/author/output/WORD-HISTORY.json",
+        "reproduced": "six-author/WORD-HISTORY.json",
+        "byte_identical": true,
+        "sha256": "f3415195853fca5508b7cc7f4e142f58549433ad3a5318de6220d5f0df06fb85"
+      },
+      {
+        "frozen": "bit-joint-kernel-puncture/six-axis/author/output/CLOSED-WORD-HISTORY.json",
+        "reproduced": "six-author/CLOSED-WORD-HISTORY.json",
+        "byte_identical": true,
+        "sha256": "f3415195853fca5508b7cc7f4e142f58549433ad3a5318de6220d5f0df06fb85"
+      },
+      {
+        "frozen": "bit-joint-kernel-puncture/author/output/RESULT.json",
+        "reproduced": "joint-author/RESULT.json",
+        "byte_identical": true,
+        "sha256": "8d2e42fd6af0b1620fc4a9aed74ca841a55786313a52cb614de0859ab71fc74d"
+      },
+      {
+        "frozen": "bit-joint-kernel-puncture/review-root/RESULT.json",
+        "reproduced": "joint-root.json",
+        "byte_identical": true,
+        "sha256": "874427d03ef8641a680e0c5c651816c53527904377ab912063e8cd5a9a5d0370"
+      },
+      {
+        "frozen": "bit-joint-kernel-puncture/review-root/SIX-SOURCE-RESULT.json",
+        "reproduced": "six-root.json",
+        "byte_identical": true,
+        "sha256": "7087d2de8fd61603a8e97d392637da5c1ad9b548381e465c85990663991ea942"
+      }
+    ],
+    "all_identical": true
+  },
+  "authenticated_review_source_pins": [
+    {
+      "path": "worker-a/delayed-correction-source/PROOF.md",
+      "sha256": "d89bd2bdc51a1004dd9fe2b5dfdfaed118ba14ebfb5d769a7a0ef722097abc8b"
+    },
+    {
+      "path": "worker-a/delayed-correction-source/delayed.py",
+      "sha256": "83df0b962e127b08eb96df1ef6e3e36041169fb03add6efeb549365c8270917c"
+    },
+    {
+      "path": "worker-a/delayed-correction-source/output/CLOSED-WORD.json",
+      "sha256": "130b17d6820bbac8ee5c7dd3bfb6bac98dea14f2782a855a96451a8bc88a15d1"
+    },
+    {
+      "path": "worker-a/delayed-correction-source/output/WORD.json",
+      "sha256": "4cea047c9f28a17c3379d3073a88b3a5d00e6e749214661c9d330a289824d060"
+    },
+    {
+      "path": "worker-a/delayed-correction-source/run.py",
+      "sha256": "6a68b0eb093e8b1ef3bd55f14c502cf61932f4151805813638c4e79890f46455"
+    },
+    {
+      "path": "worker-c/review-delayed-correction/REVIEW.md",
+      "sha256": "0109db0dbe8a75d6f83b4d7dca1fe4ea959497ea15d2fdf6bf56677dc2c15722"
+    },
+    {
+      "path": "worker-c/review-delayed-correction/check.py",
+      "sha256": "341ed3a27447b4e08c0b2980442ab1e6823cdafdcaf0c13387f4a00d6728b118"
+    },
+    {
+      "path": "worker-c/review-delayed-correction/closed-output/HISTORY.json",
+      "sha256": "31c9c04347a60cb89a3db710b2756bfe678564fce44f4cbc7cdcf42e52afbc3f"
+    },
+    {
+      "path": "worker-c/review-delayed-correction/closed-output/RESULT.json",
+      "sha256": "d2b30596ad9f7a376ab7ac5da769358bd9c5c4515707a87e94c6aec2ac947f69"
+    },
+    {
+      "path": "worker-c/review-delayed-correction/live-output/HISTORY.json",
+      "sha256": "31c9c04347a60cb89a3db710b2756bfe678564fce44f4cbc7cdcf42e52afbc3f"
+    },
+    {
+      "path": "worker-c/review-delayed-correction/live-output/RESULT.json",
+      "sha256": "c813b3596a863b145eb0455dcc71ec470b91975085297d3e34ba9fbe833ffc01"
+    },
+    {
+      "path": "root/delayed-feedback/FIXED-KERNEL-QUOTIENT.md",
+      "sha256": "366fddcf987b691432cc4301b0e53370776f85e5c3518e4dbb0682144ee93c33"
+    },
+    {
+      "path": "root/point-source-interface/PROOF.md",
+      "sha256": "1aac009a6719b016403fd9aa8cb94fece4075d4fb57467b4c5f18f6059c9d51f"
+    },
+    {
+      "path": "worker-a/colored-eight-source/output/COUPLED-WORD.json",
+      "sha256": "2586e9eb28e25b241305d4237ffd59914cd2a7ed30bd2aacc193d45107b6e8ac"
+    },
+    {
+      "path": "worker-c/review-fixed-kernel/RESULT.json",
+      "sha256": "d1891f046d043b9fae6b6933473209fa9353ce35e6e9f7ea19a9d64a606731ee"
+    },
+    {
+      "path": "worker-c/review-fixed-kernel/REVIEW.md",
+      "sha256": "d8b25fa4e309a25a7a1145d5cad4f4929fe97040d155d584236b7f71fea9f773"
+    },
+    {
+      "path": "worker-c/review-fixed-kernel/check.py",
+      "sha256": "a17e6f4d577fc458917f07d00046d6f17504a0ad8aea018d8de0d15c0330c964"
+    },
+    {
+      "path": "worker-a/review-four-axis/REVIEW.md",
+      "sha256": "6e9a205dcc4ab070a421264b56cbbf76128c84af8adbc944c4642d0dffd8a6af"
+    },
+    {
+      "path": "worker-a/review-four-axis/check.py",
+      "sha256": "a88c0f9fc3e8eb187d1ea1ad77224d458f7bdd8478f87e87b2d86da4218b732a"
+    },
+    {
+      "path": "worker-a/review-four-axis/output/CLOSED-WORD-HISTORY.json",
+      "sha256": "7808f7257fef610480244807928e83e08bc796f3906f650407ac4ba4c2f511bb"
+    },
+    {
+      "path": "worker-a/review-four-axis/output/RESULT.json",
+      "sha256": "c2c0be75b6637dca78d2cf16b1ea85383dc6a4bd16737b95e2ce9a8d3925417b"
+    },
+    {
+      "path": "worker-a/review-four-axis/output/WORD-HISTORY.json",
+      "sha256": "7808f7257fef610480244807928e83e08bc796f3906f650407ac4ba4c2f511bb"
+    },
+    {
+      "path": "worker-a/colored-six-axis-source/PROOF.md",
+      "sha256": "f9d4f92c22850fd5a6d1ff2c8029ed13b9337d0e9eb06f94bce34c9065429eee"
+    },
+    {
+      "path": "worker-a/colored-six-axis-source/build.py",
+      "sha256": "90caac93d124960a162485f5bc13325ae8d386c795bf2fdd6fe158dc39a3857f"
+    },
+    {
+      "path": "worker-a/colored-six-axis-source/check.py",
+      "sha256": "a304d79fd5c82d712885960715a03774716223cf7ff787bd96b7a62e7022ebe9"
+    },
+    {
+      "path": "worker-a/colored-six-axis-source/output/CLOSED-WORD-HISTORY.json",
+      "sha256": "f3415195853fca5508b7cc7f4e142f58549433ad3a5318de6220d5f0df06fb85"
+    },
+    {
+      "path": "worker-a/colored-six-axis-source/output/CLOSED-WORD.json",
+      "sha256": "df90f28b7273eec6d878560db1d2b387760a4deb6b1ce738044af2ffcc0b9d79"
+    },
+    {
+      "path": "worker-a/colored-six-axis-source/output/RESULT.json",
+      "sha256": "e38a202ee21a354098c4bdae6d4d9f91c9fea5a11a3dfe771c47633175e7e0ce"
+    },
+    {
+      "path": "worker-a/colored-six-axis-source/output/WORD-HISTORY.json",
+      "sha256": "f3415195853fca5508b7cc7f4e142f58549433ad3a5318de6220d5f0df06fb85"
+    },
+    {
+      "path": "worker-a/colored-six-axis-source/output/WORD.json",
+      "sha256": "c95aea6b5f1023cb028395de0bd76b477284b4737cec9130a934a065fdb654c0"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-pentagon-history-fork/ADMISSION.md",
+      "sha256": "aa34542eace4f290d1aa858f8c952d3de7343a9b416f21382b816d25b599fbb5"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-pentagon-history-fork/author/PROOF.md",
+      "sha256": "f5b52ca6f9e0b4e4d2c4a0fda767a42307d4241f5431418e76710ca54bd7adc6"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-uniform-rank-gap/author/PROOF.md",
+      "sha256": "d9c3aaece90e5e2dfd084932b18bf8245e87aa37afb87d406cf64ab6b4a14e58"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-y-feedback-normalization/author/PROOF.md",
+      "sha256": "e10044c415cc48ccc2ee9676f9947c9ad7ea24af09b1499ca2d25b73e3f74135"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json",
+      "sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e"
+    },
+    {
+      "path": "worker-a/colored-eight-source/PROOF.md",
+      "sha256": "38510080f7bda1662445af19b0f8ff460cbf1f784b5f9c9ca0d36dcd818917e1"
+    },
+    {
+      "path": "worker-a/delayed-correction-source/PROOF.md",
+      "sha256": "d89bd2bdc51a1004dd9fe2b5dfdfaed118ba14ebfb5d769a7a0ef722097abc8b"
+    },
+    {
+      "path": "worker-a/delayed-correction-source/delayed.py",
+      "sha256": "83df0b962e127b08eb96df1ef6e3e36041169fb03add6efeb549365c8270917c"
+    },
+    {
+      "path": "worker-a/delayed-correction-source/output/CLOSED-WORD.json",
+      "sha256": "130b17d6820bbac8ee5c7dd3bfb6bac98dea14f2782a855a96451a8bc88a15d1"
+    },
+    {
+      "path": "worker-c/colored-four-axis-source/PROOF.md",
+      "sha256": "52d0e6fa4a3b72ee98093f68c52802dd3f8e549a8205a3b696d941ff168c337f"
+    },
+    {
+      "path": "worker-c/colored-four-axis-source/build.py",
+      "sha256": "4413d157f077f77d2d295ff905d096b20ee08cfdfd35dbb65503700bedd0d05d"
+    },
+    {
+      "path": "worker-c/colored-four-axis-source/check.py",
+      "sha256": "2a5217daad6fd22c6ef39cd6d3ee4071692c50db521c2fc43474f85a3aae65f8"
+    },
+    {
+      "path": "worker-c/colored-four-axis-source/output/CLOSED-WORD.json",
+      "sha256": "6141d785619fbf271fad8cee7dad96bd5b11b17b3adfda3a057da8b6ee81747a"
+    },
+    {
+      "path": "worker-c/colored-four-axis-source/output/WORD.json",
+      "sha256": "2b13e0b8d534b90b3284ac93a49b5c3d7e79a6cfe0591ac7a8a1889a29fb856b"
+    },
+    {
+      "path": "worker-c/colored-four-axis-source/verification/CLOSED-WORD-HISTORY.json",
+      "sha256": "114d455ed3e9832b551ebc7d6b6a6f670ebc26f6f1c7080cbb2002b2d36e1bcf"
+    },
+    {
+      "path": "worker-c/colored-four-axis-source/verification/RESULT.json",
+      "sha256": "5e6f425361c5c2354c38d29e91325b83a9cfcb5e871c4e114c2b31ce59d09ca1"
+    },
+    {
+      "path": "worker-c/colored-four-axis-source/verification/WORD-HISTORY.json",
+      "sha256": "114d455ed3e9832b551ebc7d6b6a6f670ebc26f6f1c7080cbb2002b2d36e1bcf"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-saturated-star-rigidity/ADMISSION.md",
+      "sha256": "4100ffa8e8dbfd413f6e1432902a400d0ba8525d3400973af5c289fa97fae5d5"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-saturated-star-rigidity/author/PROOF.md",
+      "sha256": "bc93c7ef2b853c21f4f20541eda7bbd81ccf51da4a2d7b00ef0dc84ae585befe"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-y-feedback-normalization/ADMISSION.md",
+      "sha256": "6a066bbe29fb439485aae8e9bcc6f3f0747efb5e8bb1191704277b5dcc6d3efa"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/results/bit-y-feedback-normalization/author/PROOF.md",
+      "sha256": "e10044c415cc48ccc2ee9676f9947c9ad7ea24af09b1499ca2d25b73e3f74135"
+    },
+    {
+      "path": "programme/research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json",
+      "sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e"
+    },
+    {
+      "path": "worker-a/colored-six-axis-source/PROOF.md",
+      "sha256": "f9d4f92c22850fd5a6d1ff2c8029ed13b9337d0e9eb06f94bce34c9065429eee"
+    },
+    {
+      "path": "worker-a/colored-six-axis-source/build.py",
+      "sha256": "90caac93d124960a162485f5bc13325ae8d386c795bf2fdd6fe158dc39a3857f"
+    },
+    {
+      "path": "worker-a/colored-six-axis-source/output/WORD.json",
+      "sha256": "c95aea6b5f1023cb028395de0bd76b477284b4737cec9130a934a065fdb654c0"
+    },
+    {
+      "path": "worker-c/colored-four-axis-source/PROOF.md",
+      "sha256": "52d0e6fa4a3b72ee98093f68c52802dd3f8e549a8205a3b696d941ff168c337f"
+    },
+    {
+      "path": "worker-c/colored-four-axis-source/output/WORD.json",
+      "sha256": "2b13e0b8d534b90b3284ac93a49b5c3d7e79a6cfe0591ac7a8a1889a29fb856b"
+    },
+    {
+      "path": "worker-c/joint-kernel-gates/PROOF.md",
+      "sha256": "2814689d5087c2bfdbc3ee4c74af2fea4e4b867b065bb489cb5de5585a80d691"
+    },
+    {
+      "path": "worker-c/joint-kernel-gates/check.py",
+      "sha256": "522165708b74730f66ab6244e951153d7e2834d3858f7b650136c64d2fed1975"
+    },
+    {
+      "path": "worker-c/joint-kernel-gates/output/RESULT.json",
+      "sha256": "8d2e42fd6af0b1620fc4a9aed74ca841a55786313a52cb614de0859ab71fc74d"
+    }
+  ],
+  "prior_scientific_entries": 4907,
+  "retained_unavailable_historical_entries": [
+    {
+      "path": "results/four-call-dyadic-entry/review/replay.log",
+      "discovered_session": "2026-11-14-S011",
+      "status": "Absent from programme Git tree, predecessor checkout and available path history; old indexed hash retained, not independently reauthenticated. Not cited as proof evidence."
+    },
+    {
+      "path": "results/bit-joint-multicast/mixed-author/__pycache__/build_mixed.cpython-312.pyc",
+      "discovered_session": "2026-11-14-S012",
+      "status": "Generated bytecode entry absent from confirmed baseline db6e513c96cb8ceea10c1071b26a7db1de9fe008. Old hash retained; not proof evidence."
+    }
+  ],
+  "added_scientific_files": 112,
+  "scientific_entries_after": 5019,
+  "registered_results_after": 312,
+  "logical_records_consolidated_with_exact_archive": true,
+  "protected_discovery_rule_preserved_verbatim": true,
+  "new_complete_kappa": false,
+  "whitespace_review": {
+    "only_exceptions": "Five extra EOF blank lines: four frozen independently reviewed Python sources and the exactly preserved protected PROGRAMME rule suffix. No source bytes changed to satisfy formatting.",
+    "other_paths_check": "PASS"
+  }
+}

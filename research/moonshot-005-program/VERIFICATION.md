@@ -1,5 +1,33 @@
 # Verification ledger and reproduction map
 
+## S015 checkpoint4: mixed cells, arbitrary punctures and the exact complex base
+
+Confirmed parent c19be258a396e7fc92ee963433d4f7c3b3969dc7. Twenty final reproduction
+commands pass;33 reproduced JSON artifacts are byte-identical to frozen evidence.
+Sixty author/reviewer/dependency pins are authenticated. C independently reviews
+the delayed source, A independently reviews the four-output composition, and
+root independently replays the six-output extension and formal whole cells.
+Root certifies three native stars with145/123/123 incident-edge checks. The
+joint arbitrary-puncture proof is independently rederived, not inferred from
+finite ranks. C separately proves/reviews the fixed-grant corollary with471040
+finite controls. Root separately checks complex free-polynomial/Laurent
+identities, full integer-root invoices and scope controls; B reviews the root
+linear/unit/conditional-implementation bridge.
+
+All4907 predecessor scientific entries retain their exact hashes and two
+historical unavailable-file qualifications. Added112 entries, including exact
+pre-consolidation logical records; total5019 and registry312. Frozen author
+proof labels retain their original review state; admissions record completed
+independent gates. Root checker development corrected empty annihilator geometry
+and owned YM0 name classification before passing the full final replay; no
+scientific source or claim was changed by those checker fixes.
+
+Details and exact commands: [validation](sessions/2026-11-15-S015/CHECKPOINT4-VALIDATION.json),
+[commands](sessions/2026-11-15-S015/CHECKPOINT4-COMMANDS.json). Current roadmap
+records are consolidated, with previous bytes archived and the protected
+mathematics-first rule preserved verbatim. No complete supplier or new κ.
+
+
 ## S015 checkpoint3 verification
 
 Confirmed parent451b8bf963879f86da22d3226927340597ea4cc4. Six reproduction commands pass and24 reproduced JSON artifacts equal frozen receipts. C separately verifies the colored source on all222 columns, rational charts,111 W identities and111 actual chart witnesses;20 manifest entries are authenticated. Root independently reconstructs all777 pivot/receiver cover premises with SymPy and no author checker. Root independently reviews the two-native rank/stable-cancellation proof and middle-pivot noncommutative Schur proof. Author complex diagnostics are reproduction, not independent code verification.

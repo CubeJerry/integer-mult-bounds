@@ -1610,3 +1610,28 @@ Eight reproduction commands and29 frozen JSON comparisons pass. Historical hashe
 Checkpoint2 was confirmed as451b8bf963879f86da22d3226927340597ea4cc4. Added four packages: actual colored eight-query source with W15 history/all111 facet coverage/Y0 only; exact seven-pivot covers, h9 chi106; two-native H≤4 with all independent idle roles and complete all-t deficit; middle-pivot exclusion of three same-orientation/four-role callers. Six reproductions and24 frozen comparisons pass; root/C methods are separated and all predecessor hashes preserved.
 
 The remaining step is useful nonlocal information and actual corrections. The existing uniform rank-gap theorem already excludes q8 plus only one V-kernel under target arrival premises. Root proposes delayed correction at a deeper chart, then multiple actual cells or an ascending-Y relay; a literal first mixed-kernel word has author replay. C's punctured110 and fixed-kernel results await next admission. B's actual three-native/three-role base is under review and still has a negative full invoice. No new κ. Resulting SHA is confirmed separately. Timing correction: checkpoint2's upstream refresh preceded its08:31:09 record; its informal08:33 log label was approximate, not an exact timestamp.
+
+### S015 checkpoint4 — mixed feedback, arbitrary punctures and exact source bridges
+
+Parent/last confirmed programme SHA c19be258a396e7fc92ee963433d4f7c3b3969dc7.
+Admitted delayed mixed exchange, four actual outputs, six-output control,
+localized kernel/puncture theorem,110-port point-kernel gate, sharp fixed-grant
+quotient and exact three-role complex base/upgrade limits. The four-/six-cell
+fixed completion templates are excluded by8V supply versus9V native stars;
+partial outputs remain valid. Complex K³ base has a negative full invoice;
+literal two-interstage and one-interstage upgrades fail within their scopes.
+Twenty commands/33 byte-identical JSON artifacts,60 pins and independent
+proof/code reviews are recorded in CHECKPOINT4-VALIDATION.json. Prior scientific
+hashes and historical missing-evidence qualifications remain unchanged.
+
+The current logical records are consolidated, with exact prior bytes archived;
+SESSION-LOG remains append-only and the protected discovery rule unchanged.
+Upstream main unchanged at e54523517d0f03e58352e647c403a5af3e525a57, no PR updates
+in the targeted09:09:06–09:25:59 interval. No selected change or upstream PR.
+Next: actual augmented acquisition, arbitrary seed-lift duals, interacting
+feedback/paid q9 slack and independently reviewed complex dihedral shadow.
+Those pending results are not admitted here. All three workers remain on
+mathematics-first discovery; these are structural constructions/proofs rather
+than nonbinding parameter tuning. Session continues toward12:23:42UTC.
+Resulting checkpoint SHA is confirmed after publication and recorded in the
+next receipt; never self-referential. No new complete κ; programme ongoing.

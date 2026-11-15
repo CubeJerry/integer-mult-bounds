@@ -1,0 +1,96 @@
+{
+  "status": "PASS_EXACT_THREE_NATIVE_THREE_ROLE_SOURCE_BASE",
+  "source_sha256": "4ac72e17dacdcc6b88fb0074fe0c1e85dea8f7d8ee496310d8dce80edb4ae07d",
+  "helper_sha256": "1d3c798c43b46e1983f4dc80d68e694b93d9cdee206ad4fe4d408e5f5e29ed91",
+  "universal_noncommutative_expansion_checked": true,
+  "actual_lower_native_orientation": true,
+  "T0": [
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      -1
+    ]
+  ],
+  "T0_inverse": [
+    [
+      -1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "ordinary_services_per_T0": {
+    "inplace_field_adds": 2,
+    "bank_cycles": 1,
+    "new_fields": 0,
+    "erasures": 0
+  },
+  "base_complete_gaussian_histogram": {
+    "1": 3,
+    "7": 6,
+    "8": 3
+  },
+  "paid_upgrade_histogram": {
+    "1": 4,
+    "7": 6,
+    "8": 3
+  },
+  "all_column_checks": [
+    {
+      "width": 1,
+      "independent_input_fields": 3,
+      "all_input_columns": 24,
+      "head_endpoint_ranks": [
+        2,
+        2,
+        2
+      ],
+      "paid_upgrade_head_ranks": [
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "width": 2,
+      "independent_input_fields": 3,
+      "all_input_columns": 192,
+      "head_endpoint_ranks": [
+        4,
+        4,
+        4
+      ],
+      "paid_upgrade_head_ranks": [
+        6,
+        4,
+        4
+      ]
+    }
+  ],
+  "negative_controls": [
+    "omit third native rejected",
+    "omit updated subtraction in second T0 ADD rejected",
+    "tensor field minus rejected at even width",
+    "rank3 upgrade requires the explicitly charged extra query in this control"
+  ],
+  "scope": "All-width identity is the written polynomial proof; common-body dimensions/costs require the retained source/compiler contracts. Base and paid upgrade both fail the target movement invoice. No new kappa."
+}

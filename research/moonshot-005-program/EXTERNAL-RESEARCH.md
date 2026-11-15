@@ -256,3 +256,10 @@ only after checking actual source/interface compatibility and full costs.
 ### S015 targeted refresh 2026-11-15T08:31:09.983714+00:00
 
 Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; targeted PR updated-since07:25:09UTC search returned no new records. No adoption or selected-certificate change.
+
+## S015 checkpoint4 upstream refresh
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. Targeted PR
+updates since09:09:06UTC returned none at09:25:59UTC. Evidence:
+[snapshot](sessions/2026-11-15-S015/UPSTREAM-CP4.json). No external package
+admission or selected certificate change.

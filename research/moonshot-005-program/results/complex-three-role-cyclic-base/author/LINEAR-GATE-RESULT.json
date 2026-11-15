@@ -1,0 +1,24 @@
+{
+  "status": "PASS_EXACT_LITERAL_TARGET_LINEAR_GATE_DIAGNOSTICS",
+  "proof_sha256": "4648990d2b7f0317e94f891a939fd1b158397ea521a70245371cd75b2ec0569d",
+  "helper_sha256": "1d3c798c43b46e1983f4dc80d68e694b93d9cdee206ad4fe4d408e5f5e29ed91",
+  "formal_laurent_identities": true,
+  "physical_all_column_checks": [
+    {
+      "width": 1,
+      "all_columns": 24,
+      "laurent_inverse_identity": true,
+      "literal_target_B_identity": true,
+      "base_222_positive_control": true
+    },
+    {
+      "width": 2,
+      "all_columns": 192,
+      "laurent_inverse_identity": true,
+      "literal_target_B_identity": true,
+      "base_222_positive_control": true
+    }
+  ],
+  "ordinary_square_negative_control_nonzero_ordinary_preimage": true,
+  "scope": "The coset argument proves the all-width obstruction in the faithful group-span model. Small-width checks validate identities only. Arbitrary outer ordinary endpoint encodings are not excluded. No new kappa."
+}
