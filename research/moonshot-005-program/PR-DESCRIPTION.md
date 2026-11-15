@@ -222,6 +222,28 @@ phase-aware ordinary gauges. A general monomial admission theorem and scoped
 local-wreath/scalarC15 conservation delimit possible profitable callers.
 No strict complex supplier follows. [Source package](results/complex-entangling-native-source/ADMISSION.md).
 
+## One actual source now completes an A2 triple
+
+The simultaneous-source test is achieved for3,76,80 in four physically paid
+copies. One actual prefix,one shared four-bank cache and one canonical36 bank
+use common36/private22/24/26 roots. All twelve selected outputs complete,
+all444 X restore,other Y preserve their values and all40 owners retire.
+Invoice:5012ADD,1416MOVE,40dirtyCLEAR,Q1612.6715944342428174...,limiting movement
+room9.0792857769095378.... Independent A/B implementations verify888 columns,
+real charts,actual inverses and full costs. [Full source](results/bit-joint-a2-mds-source/ADMISSION.md).
+
+Only three of111 roles are complete. The unchanged suffix cannot finish another
+role through Y-only relays after its pure-Y canonical cut:432 exact duals prove
+4V missing dimensions at each remaining role. An exact canonical one-chart
+query criterion limits the current disjoint-private recipe beyond four receiver
+groups. Earlier Y acquisition,shared/moved pivots,noncanonical helpers or
+changed source geometry remain legitimate mechanisms to construct and cost.
+[Interface proofs](results/bit-a2-source-interface/ADMISSION.md).
+
+Terminal36,completed60 and transient444 dimensions retain their distinct
+meanings;60/4=15 is not the old fixedW15 code. **No newκ,no complete strict BIT
+or complex supplier,and all five foundational assumptions retained.**
+
 ## Evidence, provenance and reproduction
 
 All current package admissions, proofs, scripts, source pins, independent reviews

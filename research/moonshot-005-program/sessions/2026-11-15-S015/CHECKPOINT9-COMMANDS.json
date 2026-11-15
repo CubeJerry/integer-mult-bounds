@@ -1,0 +1,206 @@
+[
+  {
+    "group": "two",
+    "label": "build",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/two/two-author/build.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 0.159,
+    "log": "two/build.log"
+  },
+  {
+    "group": "two",
+    "label": "author",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/two/two-author/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 3.385,
+    "log": "two/author.log"
+  },
+  {
+    "group": "two",
+    "label": "price",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/two/two-author/price.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.261,
+    "log": "two/price.log"
+  },
+  {
+    "group": "two",
+    "label": "independent-b",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/two/two-review-b/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/two/two-author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/two/two-review-b/RESULT.json"
+    ],
+    "exit_code": 0,
+    "seconds": 4.982,
+    "log": "two/independent-b.log"
+  },
+  {
+    "group": "three",
+    "label": "build",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/three/three-author/build.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 0.129,
+    "log": "three/build.log"
+  },
+  {
+    "group": "three",
+    "label": "author",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/three/three-author/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme"
+    ],
+    "exit_code": 0,
+    "seconds": 4.337,
+    "log": "three/author.log"
+  },
+  {
+    "group": "three",
+    "label": "price",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/three/three-author/price.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.283,
+    "log": "three/price.log"
+  },
+  {
+    "group": "three",
+    "label": "independent-b",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/three/three-review-b/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/three/three-author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/three/three-review-b/RESULT.json"
+    ],
+    "exit_code": 0,
+    "seconds": 6.772,
+    "log": "three/independent-b.log"
+  },
+  {
+    "group": "three",
+    "label": "independent-a-word",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/three/three-review-a/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/three/three-author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/three/three-review-a/output"
+    ],
+    "exit_code": 0,
+    "seconds": 1.751,
+    "log": "three/independent-a-word.log"
+  },
+  {
+    "group": "three",
+    "label": "independent-a-basis",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/three/three-review-a/check_basis.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/three/three-author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/three/three-review-a/output"
+    ],
+    "exit_code": 0,
+    "seconds": 0.412,
+    "log": "three/independent-a-basis.log"
+  },
+  {
+    "group": "three",
+    "label": "independent-a-price",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/three/three-review-a/check_budget.py",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/three/three-author",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/three/three-review-a/output"
+    ],
+    "exit_code": 0,
+    "seconds": 2.401,
+    "log": "three/independent-a-price.log"
+  },
+  {
+    "group": "interface",
+    "label": "root-source-interface",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/interface/author-root/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--source",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/interface/source-three",
+      "--out",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/interface/author-root/output"
+    ],
+    "exit_code": 0,
+    "seconds": 0.554,
+    "log": "interface/root-source-interface.log"
+  },
+  {
+    "group": "interface",
+    "label": "independent-c",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-B",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/interface/independent-c/check.py",
+      "--repo",
+      "/workspace/scratch/37aefc7b5f05/programme",
+      "--word",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/interface/source-three/WORD.json",
+      "--certificate",
+      "/workspace/scratch/37aefc7b5f05/reproduction-s015-cp9/interface/author-root/output/RESULT.json"
+    ],
+    "exit_code": 0,
+    "seconds": 0.846,
+    "log": "interface/independent-c.log"
+  }
+]

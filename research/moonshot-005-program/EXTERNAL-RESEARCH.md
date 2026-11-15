@@ -299,3 +299,12 @@ Targeted PR search `updated:>2026-11-15T10:57:21Z` returned no entries. Evidence
 was assumed. Admitted chronology/entangling sources retain predecessor pins,
 computational contracts and credit. One-receiver MDS and an actual complex head
 do not supersede the selected complete conditional bound.
+
+## S015 checkpoint9 composition status
+
+The programme's internal A2 common-prefix test is now achieved,with no external
+merge or changed source base. Canonical upstream remains the last examined
+e54523517d0f03e58352e647c403a5af3e525a57. No open PR is assumed a supplier.
+Old h9/W15 evidence remains a retained alternative; the new canonical/MDS
+history60 is not that old code. New source proofs preserve native,finite-bank,
+source-access and credit pins. The selected conditionalκ remains unchanged.

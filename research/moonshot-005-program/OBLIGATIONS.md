@@ -80,6 +80,15 @@ source obstruction to changed chronology without rechecking its hypotheses.
 | Order9/order15 actual heads,everyV | Proved source identities,ordinary gauges and V≥2 cyclic faithfulness. General admission iff v=e_a,w_a=0,all fixed d. No caller. | [Sources](results/complex-entangling-native-source/ADMISSION.md) |
 | Local-wreath caller,fixed d,arbitrary call count | Proved H≤2m+sum(query ranks),strict full-body deficit m≥1. ScalarC15 native-only still H≤2m; genuine entangling interstages outside. | [Scopes](results/complex-entangling-native-source/ADMISSION.md) |
 
+## Current shared-source frontier
+
+| Proposition | Status / dependency | Evidence |
+|---|---|---|
+| One prefix for3/76 and3/76/80,all char2 fields/positive widths,four paid copies | Proved canonical-before-Y,shared cache,private MDS,selected endpoints,restoration and full partial invoice. Triple leaves108 roles. | [Source/reviews](results/bit-joint-a2-mds-source/ADMISSION.md) |
+| Frozen triple suffix from pure-Y canonical cut,arbitrary linear upward Y relays | Proved4V gap at all108 others,432dual witnesses. Earlier acquisition and changed source paths excluded from scope. | [Gate](results/bit-a2-source-interface/author-root/PROOF.md) |
+| One-chart canonical queries at actual invertible cut | Proved iff held-image separability; current disjoint private-pivot recipe q≥5 fails. Helpers/changed chronology outside. | [Criterion](results/bit-a2-source-interface/ADMISSION.md) |
+| Distinct shared charts with overlapping private sources,or earlier Y acquisition plus later proper canonical delivery | **Open,primary:** compatible actual source and query bases,all111 endpoints,restoration and complete target-feasible invoice. Same-A2 common-prefix test is achieved. | [Continuation](CONTINUATION.md) |
+
 ## Complex bridge and complete theorem
 
 **COMPLEX-COMPLETE-CALLER / open.** Produce an authenticated all-column,

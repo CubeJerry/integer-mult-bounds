@@ -1,36 +1,41 @@
-# Continue simultaneous chronological shared-facet source composition
+# Continue beyond one actual shared A2 source
 
 Resume exact remote HEAD and STATE.json. S015 remains active through12:23:42UTC
-on2026-11-15. Selected conditional0.00363005817; target1/200 remains open.
+on2026-11-15. Selected conditionalκ=.00363005817; target1/200 remains open.
 
-Chronological MDS correction is now proved for every native receiver choice
-individually. Two exact four-copy words bring36 canonical modes to ground
-before any Y moves, complete all four Y3 copies and restore X. Direct version:
-40owners/3602ADD/1168MOVE,Q1611.4577645.... The general80-bank recipe uses one
-foreign root's60held pivots and an adapted720-row canonical basis; all111
-receiver choices have an independently reviewed uniform proof. Worst movement
-1611.5335866.... Every word still completes only one selected receiver role.
+NEW FRONTIER: one four-copy source jointly completes3,76,80. Their A2 relation
+gives one common cache over36 roots,disjoint private22/24/26,and one canonical36
+bank before Y movement. All444 X restore;40owners/5012ADD/1416MOVE/40dirtyCLEAR;
+Q1612.6715944342428174.... Independent A and B reviews accept all888 columns,
+real charts and full invoice. Do not reattempt the solved local pair/triple.
 
-PRIMARY NEXT PROOF: receiver groups must use the SAME actual original-X prefix
-and one chronological canonical source, then extend toward all111 without
-resets, uncharged duplication or changed productivity. A two-receiver common-
-prefix word is under construction in the final wave; rely on it only after a
-later checkpoint admits independent review. Source coexistence, not another
-individually valid local decoder, is now the central missing interface.
+PRIMARY NEXT THEOREM: compose distinct shared charts with overlapping private
+originals into one compatible actual acquisition and decoder, eventually all111
+roles. A concrete alternative is earlier Y acquisition followed by canonical
+data delivered later at proper charts. Establish an actual source/query
+invariant and full invoice. No free reset,duplicate source or altered native
+productivity; preserve arbitrary Y and restore X.
 
-The clipped source theorem excludes all222b original X/Y couriers under fixed
-disjoint common-chart cohorts and≤3 other acquisition cohorts per channel:
-globalrank>=ceil(13209b/1250)>9b. Retained memory must be injective on held
-inverse columns. Earlier cached one-/two-cohort words are positive but partial.
-Do not repeat excluded fixed-cohort, one-cell or packed-source continuations.
+The frozen triple suffix from its pure-Y canonical cut cannot finish another
+receiver through only linear Y relays: all108 others miss4V under generous
+future-source grants. Earlier Y information or changed X/owned history changes
+that premise. One-chart canonical queries exist iff the held projection splits
+by actual query chart. Beyond four disjoint private receiver groups the current
+rank36/four-chart recipe fails. Shared pivots,merged query charts,paid
+noncanonical histories or changed acquisition are genuine possible escapes.
 
-Complex order9/order15 sources and the exact monomial admission criterion are
-independently admitted. Local-wreath all-call and scalarC15 native-only
-conservation remain. A positive complex step needs a profitable caller with
-noncommuting ordinary interstages and fully charged body,phases,spectators,
-idles and recursion. Failed bounded searches are not universal no-go results.
+Terminal36,completed60 and transient444 are distinct. History60 is not the old
+fixedW15 target; canonical enlargement would require64. h9/W15 remains an
+alternative, not a mandatory output of the current construction. Fixed-cohort,
+all-X/Y courier and single-cell exclusions retain their exact scopes.
 
-Strict suppliers, ordinary/compiler/precision/recursive costs and all five
-foundations remain. No new completeκ, no upstreamPR, ongoing/notPRready.
-Protected discovery rule unchanged; independent final discovery review has
-been prepared for integration with the final session checkpoint.
+Complex order9/order15 sources and monomial admission are proved; a profitable
+entangling caller remains open. A final bounded full-parabolic signed-cut
+representation attempt is active; use only a later reviewed checkpoint for
+its status. Earlier bounded caller searches are preserved explicitly unreviewed
+under wip/entangling-caller-S015.
+
+All strict supplier,complete recursive/ordinary/precision/compiler and five
+foundational obligations remain. No newκ,no upstreamPR,ongoing/notPRready.
+The protected-discovery review and A2 addendum are preserved under
+sessions/2026-11-15-S015/final-review-b/.

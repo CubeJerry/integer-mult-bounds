@@ -65,29 +65,35 @@ The central frontier is therefore a shared-facet decoder with a stronger
 actual source, chronological canonical acquisition and fully paid restoration.
 Local correction is constructed; simultaneous global supply remains missing.
 
-## Current frontier: chronological local MDS composition
+## Current frontier: one actual shared-source A2 composition
 
-Chronology is now resolved for each receiver individually. Two literal
-four-copy words acquire all36 canonical modes before any original Y moves,
-complete Y3 in all four copies and restore X. The adapted direct-pivot version
-has40owners/3602ADD/1168MOVE,Q1611.4577645247274248.... Terminal36,completed
-history40 and transient Hub span444 remain distinct. A general single-root
-pivot recipe covers any of111 receiver choices in80 paid banks:720 canonical
-modes,60held pivots,800owners,worstQ1611.5335865787273614..., conservative
-7,249,420ADD bound. This is one selected receiver per word, not simultaneous111
-productivity. [Proofs/reviews](results/bit-canonical-mds-chronology/ADMISSION.md).
+One actual source now jointly completes native3,76,80 in four paid copies.
+Their A2 normal relation gives one common cache chart,36 common roots and
+disjoint private22/24/26. One canonical36 bank reaches ground before any Y
+moves; all444 X restore. Counts:40owners,5012ADD,1416MOVE,40dirtyCLEAR;
+normalized movement1612.6715944342428174.... This is one common prefix, not
+three reset local words. Independent A and B reviews check888 original columns.
+The remaining108 receiver groups are unfinished.
+[Source](results/bit-joint-a2-mds-source/ADMISSION.md).
 
-The clipped rectangular filtration strengthens the source gate to include
-all X and Y couriers: under fixed disjoint common-chart cohorts and one-E6
-acquisition per channel, globalrank>=V ceil(13209b/1250)>9bV. Uneven channels
-and arbitrary blocks are included. Larger fixed disjoint cohorts do not escape.
-Earlier retained memory must be injective on cocharted held inverse columns;
-actual cached one-/two-cohort words give positive controls. The primary next
-construction is compatible overlapping receiver sources from the SAME actual
-prefix, with chronological canonical access, caches, endpoints and full costs.
-[Clipped theorem](results/bit-clipped-rectangular-source/ADMISSION.md),
-[memory](results/bit-early-hub-memory/ADMISSION.md),
-[cached words](results/bit-cached-early-hub/ADMISSION.md).
+The earlier80-bank theorem for every individual receiver remains useful.
+Terminal36,completed-history60 and transient Hub444 are distinct. History60
+is not the old fixedW15 code: its canonical enlargement would need64 physical
+dimensions. Develop the new source on its actual canonical/MDS interface.
+
+From the triple's pure-Y canonical cut onward, its frozen X/owned suffix
+cannot finish another receiver by arbitrary linear Y relays:432 duals prove
+a4V gap at every other role. Earlier Y acquisition or changed source paths
+remain outside this scope. A canonical query basis reading at most one held
+chart per field exists iff its held image splits into chart-local subspaces.
+The current disjoint private-pivot recipe fails beyond four receiver groups.
+[Interface proofs](results/bit-a2-source-interface/ADMISSION.md).
+
+The primary next construction is compatible acquisition across distinct
+shared charts with overlapping private inputs, or earlier Y acquisition with
+actual later canonical delivery at proper charts. Retain one source execution,
+all endpoints and full costs. Clipped disjoint-cohort/all-X/Y source gates and
+all strict supplier/foundation obligations remain. No complete native is admitted.
 
 ## Complex supplier and retained constraints
 

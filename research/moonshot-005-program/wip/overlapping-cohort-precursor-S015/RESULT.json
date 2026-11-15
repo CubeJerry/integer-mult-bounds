@@ -1,0 +1,163 @@
+{
+  "status": "PASS_ACTUAL_OVERLAPPING_COHORT_EARLY_EXIT",
+  "word_pins": {
+    "WORD": "e389cc62a002d985bed7d6ba30ebdca3e9ffbc27919a85bf30509e92ce2db8b8",
+    "COMPLETED-CONTROL-WORD": "bcea918aa415e1d27d7a5e00d78d6e8faaa2c1868d9fbe62c5e0788899f7b3e2"
+  },
+  "WORD": {
+    "counts": {
+      "MOVE": 230,
+      "ADD": 6
+    },
+    "profile": {
+      "1": 5,
+      "2": 3,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 2,
+      "7": 217
+    },
+    "rank_length": 1554,
+    "dirty_clears": 0,
+    "early_exit_source_coefficients": {
+      "X52": [
+        "Hub",
+        "0x50000000000000"
+      ],
+      "X54": [
+        "Hub",
+        "0x40000000000001"
+      ],
+      "X0": [
+        "Hub",
+        "0x1"
+      ]
+    },
+    "all222_original_columns_verified": true,
+    "price": {
+      "lower": "1124684375453591358584830079460973822404541455329319/730750818665451459101842416358141509827966271488",
+      "upper": "562342187726795679292415039730486911202270727664717/365375409332725729550921208179070754913983135744",
+      "decimal_lower": "1539.0805548566733970870266597587206471668992065845",
+      "decimal_upper": "1539.0805548566733970870266597587206471668992065847"
+    }
+  },
+  "COMPLETED-CONTROL-WORD": {
+    "counts": {
+      "MOVE": 232,
+      "ADD": 14,
+      "INIT": 2,
+      "CLEAR": 2
+    },
+    "profile": {
+      "1": 7,
+      "2": 3,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 2,
+      "7": 217
+    },
+    "rank_length": 1556,
+    "dirty_clears": 2,
+    "early_exit_source_coefficients": {
+      "X52": [
+        "Hub",
+        "0x50000000000000"
+      ],
+      "X54": [
+        "Hub",
+        "0x40000000000001"
+      ],
+      "X0": [
+        "Hub",
+        "0x1"
+      ]
+    },
+    "all222_original_columns_verified": true,
+    "price": {
+      "lower": "1126145877090922261503033764293690105424197387872295/730750818665451459101842416358141509827966271488",
+      "upper": "1126145877090922261503033764293690105424197387872411/730750818665451459101842416358141509827966271488",
+      "decimal_lower": "1541.0805548566733970870266597587206471668992065845",
+      "decimal_upper": "1541.0805548566733970870266597587206471668992065847"
+    }
+  },
+  "fixed_regrouping": {
+    "source_order": [
+      52,
+      54,
+      0
+    ],
+    "P": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "nonzero_source_edges": [
+      [
+        52,
+        54
+      ],
+      [
+        54,
+        0
+      ]
+    ],
+    "forced_common_cohort": [
+      0,
+      52,
+      54
+    ],
+    "actual_own_cohort_U_entry": {
+      "receiver": 0,
+      "encoded_original": "X52",
+      "coefficient": 1
+    },
+    "no_partition_has_both_block_diagonal_P_and_zero_own_cohort_U": true
+  },
+  "negative_controls": [
+    {
+      "name": "first_encoding",
+      "rejected": true,
+      "reason": "('Y', 0)"
+    },
+    {
+      "name": "second_encoding",
+      "rejected": true,
+      "reason": "('Y', 1)"
+    },
+    {
+      "name": "first_delivery",
+      "rejected": true,
+      "reason": "('Y', 0)"
+    },
+    {
+      "name": "second_delivery",
+      "rejected": true,
+      "reason": "('Y', 1)"
+    },
+    {
+      "name": "force_early_bank_through_full_common_cohort",
+      "rejected": true,
+      "reason": "('direction', 4, ['MOVE', 'X52', 'C0'], 'J')"
+    },
+    {
+      "name": "omit_paid_proper_ending_import",
+      "rejected": true,
+      "reason": "('cochart', 240, ['ADD', 'K0', 'Y0'])"
+    }
+  ],
+  "new_complete_kappa": false
+}

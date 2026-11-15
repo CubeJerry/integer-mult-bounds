@@ -1,0 +1,261 @@
+{
+  "Y_preload_ADD_count": 110,
+  "actual_completed_Hub_seed_ADD_count": 3276,
+  "actual_completed_outputs": 12,
+  "actual_shared_cache_owners": 4,
+  "classification": "Actual joint three-port/four-copy source; no complete111-port decoder or new kappa.",
+  "completed_native_roles": [
+    3,
+    76,
+    80
+  ],
+  "counts": {
+    "ADD": 5012,
+    "CLEAR": 40,
+    "INIT": 40,
+    "MOVE": 1416
+  },
+  "dirty_retirements": 40,
+  "events": {
+    "actual_receiver_3_completed": {
+      "Hub_rank": 428,
+      "actual_completed_receiver": 3,
+      "canonical_Hub_intersection": 20,
+      "held_originals": [
+        "X59_0",
+        "X59_1",
+        "X59_2",
+        "X59_3",
+        "X60_0",
+        "X60_1",
+        "X60_2",
+        "X60_3",
+        "X63_0",
+        "X63_1",
+        "X63_2",
+        "X63_3",
+        "X64_0",
+        "X64_1",
+        "X64_2",
+        "X64_3"
+      ],
+      "step": 5177
+    },
+    "actual_receiver_76_completed": {
+      "Hub_rank": 436,
+      "actual_completed_receiver": 76,
+      "canonical_Hub_intersection": 28,
+      "held_originals": [
+        "X59_0",
+        "X59_1",
+        "X59_2",
+        "X59_3",
+        "X63_0",
+        "X63_1",
+        "X63_2",
+        "X63_3"
+      ],
+      "step": 5257
+    },
+    "actual_receiver_80_completed": {
+      "Hub_rank": 444,
+      "actual_completed_receiver": 80,
+      "canonical_Hub_intersection": 36,
+      "held_originals": [],
+      "step": 5337
+    },
+    "all_X_restored": {
+      "Hub_rank": 444,
+      "canonical_Hub_intersection": 36,
+      "held_originals": [],
+      "step": 6036
+    },
+    "canonical36_at_ground_before_all_Y_moves": {
+      "Hub_rank": 420,
+      "all_live_owned_source_rank": 40,
+      "all_principal_transients": 444,
+      "canonical_Hub_intersection": 12,
+      "completed_Hub_seed": 36,
+      "completed_seed_transport": 60,
+      "held_originals": [
+        "X1_0",
+        "X1_1",
+        "X1_2",
+        "X1_3",
+        "X4_0",
+        "X4_1",
+        "X4_2",
+        "X4_3",
+        "X59_0",
+        "X59_1",
+        "X59_2",
+        "X59_3",
+        "X60_0",
+        "X60_1",
+        "X60_2",
+        "X60_3",
+        "X63_0",
+        "X63_1",
+        "X63_2",
+        "X63_3",
+        "X64_0",
+        "X64_1",
+        "X64_2",
+        "X64_3"
+      ],
+      "step": 5095,
+      "terminal_canonical_ground": 36
+    },
+    "joint_source_aggregate_cut": {
+      "Hub_rank": 420,
+      "canonical_Hub_intersection": 12,
+      "canonical_held_projection_rank": 24,
+      "declared_tensor_candidates": 7665,
+      "held_originals": [
+        "X1_0",
+        "X1_1",
+        "X1_2",
+        "X1_3",
+        "X4_0",
+        "X4_1",
+        "X4_2",
+        "X4_3",
+        "X59_0",
+        "X59_1",
+        "X59_2",
+        "X59_3",
+        "X60_0",
+        "X60_1",
+        "X60_2",
+        "X60_3",
+        "X63_0",
+        "X63_1",
+        "X63_2",
+        "X63_3",
+        "X64_0",
+        "X64_1",
+        "X64_2",
+        "X64_3"
+      ],
+      "independent_inverse_columns_checked": 444,
+      "scalar_pivot_evaluation_rank": 6,
+      "step": 1699,
+      "zero_projection_tensor_candidates": 105
+    }
+  },
+  "first_original_Y_touch": 5096,
+  "independent_implementation": "No author imports; rational chart RREF, explicit GF4 arithmetic, all888 columns, independent444 inverse and native root reflection closure.",
+  "movement_profile": {
+    "1": 60,
+    "2": 432,
+    "5": 432,
+    "6": 36,
+    "7": 444,
+    "8": 12
+  },
+  "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "negative_controls": [
+    {
+      "name": "omit_shared_capture",
+      "reason": "shared cache not actual common sum",
+      "rejected": true
+    },
+    {
+      "name": "omit_second_receiver_shared_read",
+      "reason": "joint native output incomplete",
+      "rejected": true
+    },
+    {
+      "name": "omit_private_source_encoding",
+      "reason": "actual private MDS aggregate incorrect",
+      "rejected": true
+    },
+    {
+      "name": "omit_direct_canonical_pivot_read",
+      "reason": "actual canonical ground field missing",
+      "rejected": true
+    },
+    {
+      "name": "omit_second_canonical_preload",
+      "reason": "joint native output incomplete",
+      "rejected": true
+    },
+    {
+      "name": "omit_second_private_decoder_term",
+      "reason": "joint native output incomplete",
+      "rejected": true
+    },
+    {
+      "name": "omit_first_receiver_private_decoder_term",
+      "reason": "joint native output incomplete",
+      "rejected": true
+    },
+    {
+      "name": "omit_source_inverse",
+      "reason": "original source inverse/restoration failed",
+      "rejected": true
+    },
+    {
+      "name": "omit_shared_cache_retirement",
+      "reason": "live owner remains",
+      "rejected": true
+    },
+    {
+      "name": "omit_third_receiver_shared_read",
+      "reason": "joint native output incomplete",
+      "rejected": true
+    },
+    {
+      "name": "omit_third_canonical_preload",
+      "reason": "joint native output incomplete",
+      "rejected": true
+    },
+    {
+      "name": "omit_third_private_decoder_term",
+      "reason": "joint native output incomplete",
+      "rejected": true
+    },
+    {
+      "name": "Y76_leaves_before_canonical_preload",
+      "reason": "Y modified before canonical preload availability",
+      "rejected": true
+    },
+    {
+      "name": "reset_shared_source_for_a_second_visit",
+      "reason": "wrong directional MOVE X0_0:Hub->CC",
+      "rejected": true
+    }
+  ],
+  "original_X_and_Y_columns": 888,
+  "physical_binary_copies": 4,
+  "price": {
+    "first_positive_even_m": 4,
+    "limiting_allowance": {
+      "lower_fraction": "19461010562533828262954953804403939837374986511275574774559/12000000000000000000000000000000000000000000000000000000",
+      "upper_fraction": "3243501760422304710492492300733989972895831085212595795803/2000000000000000000000000000000000000000000000000000000"
+    },
+    "limiting_room": {
+      "lower_fraction": "108951429322914453916534184499592814599166259800105895251/12000000000000000000000000000000000000000000000000000000",
+      "upper_fraction": "45396428884547689131889243541497006082985941583377456629/5000000000000000000000000000000000000000000000000000000"
+    },
+    "moment": {
+      "lower_fraction": "8063357972171214087099341508293477926156591771448112032877/5000000000000000000000000000000000000000000000000000000",
+      "upper_fraction": "16126715944342428174198683016586955852313183542896224066093/10000000000000000000000000000000000000000000000000000000"
+    },
+    "positive_affine_slope_for_later_even_m": true
+  },
+  "private_family_sizes": [
+    22,
+    24,
+    26
+  ],
+  "proper_original_reads": 24,
+  "same_cache_read_by_all_three_groups": true,
+  "shared_capture_source_rows": 36,
+  "single_original_X_trajectories": 444,
+  "source_geometry_sha256": "96009567d90f621ab61860ec846f9406554ad73caf1bdf27435ed9295ed4ebde",
+  "source_proof_sha256": "94c8a77f5b812a68663eaf1f6699315e2b2de060bdf84e6c0ffa76dce273acad",
+  "source_word_sha256": "1f9aa12022272c61f831b4fae4463168f927f2e1660f513051cd0af5842a84f1",
+  "status": "PASS_INDEPENDENT_JOINT_THREE_RECEIVER_MDS",
+  "uncompleted_outputs": 432
+}

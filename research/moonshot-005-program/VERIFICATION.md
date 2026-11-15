@@ -614,3 +614,24 @@ and `bit-joint-kernel-puncture/six-axis/author/run.log` under results/. Their
 bytes match their existing frozen hashes and are now deliberately published.
 No mathematical result or prior scientific hash changes. The two explicitly
 qualified historical missing artifacts remain unavailable.
+
+## S015 checkpoint9: actual joint source and exact extension limits
+
+Pair author/independent B and triple author/independent A/B packages are frozen.
+All888 original columns,real charts,source single trajectories,canonical-before-Y,
+restoration and complete owner/movement/ordinary counts are checked. Triple
+independent13/14 semantic controls disable invoice matching. Root's frozen-
+source certificate has432 explicit duals; C separately reconstructs the full
+source and every suffix grant,and checks1097 query-separability controls.
+
+```sh
+python research/moonshot-005-program/sessions/2026-11-15-S015/reproduce-checkpoint9.py --repo . --out /tmp/moonshot-s015-cp9
+```
+
+CHECKPOINT9-VALIDATION.json records exact commands and comparisons. Corroborating
+C criterion files are preserved as a separate derivation of the SAME theorem,
+not independent new results. The exact two/three words are regenerated.
+Compressed bounded-exploration receipts retain compressed/uncompressed hashes;
+those searches remain author-only WIP. Historical logical inputs in B's final
+review are pinned to the stated earlier snapshot,not asserted identical to
+subsequently updated current records. No complete native or newκ follows.

@@ -1,0 +1,605 @@
+{
+  "status": "PASS_REVIEWED_ACTUAL_A2_SOURCE_AND_EXTENSION_INTERFACES",
+  "baseline_sha": "fb7d355e040005aaeac162b090c9a96372857d17",
+  "checked_utc": "2026-11-15T11:53:13.531370+00:00",
+  "new_results": [
+    {
+      "id": "BIT-JOINT-TWO-RECEIVER",
+      "status": "proved one actual common prefix and canonical source completes3/76 in four paid copies",
+      "path": "results/bit-joint-a2-mds-source/ADMISSION.md",
+      "review": "results/bit-joint-a2-mds-source/two-review-b/REVIEW.md"
+    },
+    {
+      "id": "BIT-JOINT-A2-TRIPLE",
+      "status": "proved simultaneous3/76/80 source with complete partial invoice, arbitrary originals and restoration",
+      "path": "results/bit-joint-a2-mds-source/ADMISSION.md",
+      "review": "results/bit-joint-a2-mds-source/three-review-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-A2-FROZEN-CONTINUATION",
+      "status": "proved all108 other receivers miss4V under frozen suffix from pure-Y canonical cut; earlier acquisition outside",
+      "path": "results/bit-a2-source-interface/ADMISSION.md",
+      "review": "results/bit-a2-source-interface/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-CHARTWISE-CANONICAL-QUERY",
+      "status": "proved exact one-chart separability iff and fixed disjoint private-pivot q>=5 obstruction; changed source outside",
+      "path": "results/bit-a2-source-interface/ADMISSION.md",
+      "review": "results/bit-a2-source-interface/independent-c/REVIEW.md"
+    }
+  ],
+  "reproduction_commands": 13,
+  "comparisons": [
+    {
+      "group": "two",
+      "committed": "research/moonshot-005-program/results/bit-joint-a2-mds-source/two-author/GEOMETRY.json",
+      "reproduced": "two/two-author/GEOMETRY.json",
+      "kind": "frozen_geometry",
+      "comparison": "byte_identical",
+      "committed_sha256": "c1289beac624650c8338213f9ca553aec6cee7eebd39eb538c235d0fe70dec58",
+      "reproduced_sha256": "c1289beac624650c8338213f9ca553aec6cee7eebd39eb538c235d0fe70dec58"
+    },
+    {
+      "group": "two",
+      "committed": "research/moonshot-005-program/results/bit-joint-a2-mds-source/two-author/WORD.json",
+      "reproduced": "two/two-author/WORD.json",
+      "kind": "word",
+      "comparison": "byte_identical",
+      "committed_sha256": "6928713061cb7d8c5fd16d65b1a2529a5751c301e9edd0c4302be7ed20d46bd5",
+      "reproduced_sha256": "6928713061cb7d8c5fd16d65b1a2529a5751c301e9edd0c4302be7ed20d46bd5"
+    },
+    {
+      "group": "two",
+      "committed": "research/moonshot-005-program/results/bit-joint-a2-mds-source/two-author/RESULT.json",
+      "reproduced": "two/two-author/RESULT.json",
+      "kind": "stable_receipt",
+      "comparison": "byte_identical",
+      "committed_sha256": "7939b28e8d05d87d307ccb93685bb98fdf757427c6d7dab889da9582323b7fb9",
+      "reproduced_sha256": "7939b28e8d05d87d307ccb93685bb98fdf757427c6d7dab889da9582323b7fb9"
+    },
+    {
+      "group": "two",
+      "committed": "research/moonshot-005-program/results/bit-joint-a2-mds-source/two-author/PRICE.json",
+      "reproduced": "two/two-author/PRICE.json",
+      "kind": "stable_receipt",
+      "comparison": "byte_identical",
+      "committed_sha256": "ad9f853bd09e5d65e21158c10a82a1f399f8335440f1153cc60f998c444e1965",
+      "reproduced_sha256": "ad9f853bd09e5d65e21158c10a82a1f399f8335440f1153cc60f998c444e1965"
+    },
+    {
+      "group": "two",
+      "committed": "research/moonshot-005-program/results/bit-joint-a2-mds-source/two-review-b/RESULT.json",
+      "reproduced": "two/two-review-b/RESULT.json",
+      "kind": "stable_receipt",
+      "comparison": "byte_identical",
+      "committed_sha256": "5b55d10722da038c2cc2a045e52b6004b49e96e95165af57ba23eab512d1e74c",
+      "reproduced_sha256": "5b55d10722da038c2cc2a045e52b6004b49e96e95165af57ba23eab512d1e74c"
+    },
+    {
+      "group": "three",
+      "committed": "research/moonshot-005-program/results/bit-joint-a2-mds-source/three-author/GEOMETRY.json",
+      "reproduced": "three/three-author/GEOMETRY.json",
+      "kind": "frozen_geometry",
+      "comparison": "byte_identical",
+      "committed_sha256": "96009567d90f621ab61860ec846f9406554ad73caf1bdf27435ed9295ed4ebde",
+      "reproduced_sha256": "96009567d90f621ab61860ec846f9406554ad73caf1bdf27435ed9295ed4ebde"
+    },
+    {
+      "group": "three",
+      "committed": "research/moonshot-005-program/results/bit-joint-a2-mds-source/three-author/WORD.json",
+      "reproduced": "three/three-author/WORD.json",
+      "kind": "word",
+      "comparison": "byte_identical",
+      "committed_sha256": "1f9aa12022272c61f831b4fae4463168f927f2e1660f513051cd0af5842a84f1",
+      "reproduced_sha256": "1f9aa12022272c61f831b4fae4463168f927f2e1660f513051cd0af5842a84f1"
+    },
+    {
+      "group": "three",
+      "committed": "research/moonshot-005-program/results/bit-joint-a2-mds-source/three-author/RESULT.json",
+      "reproduced": "three/three-author/RESULT.json",
+      "kind": "stable_receipt",
+      "comparison": "byte_identical",
+      "committed_sha256": "cc504be250f0d8e68ee3879c32bafad3b4f55fadc06253dc6fd0895ce0e479a7",
+      "reproduced_sha256": "cc504be250f0d8e68ee3879c32bafad3b4f55fadc06253dc6fd0895ce0e479a7"
+    },
+    {
+      "group": "three",
+      "committed": "research/moonshot-005-program/results/bit-joint-a2-mds-source/three-author/PRICE.json",
+      "reproduced": "three/three-author/PRICE.json",
+      "kind": "stable_receipt",
+      "comparison": "byte_identical",
+      "committed_sha256": "c00f9ee546c7fad75b55528e2ca8aa869d190ccc28b656de0561958be0592d8f",
+      "reproduced_sha256": "c00f9ee546c7fad75b55528e2ca8aa869d190ccc28b656de0561958be0592d8f"
+    },
+    {
+      "group": "three",
+      "committed": "research/moonshot-005-program/results/bit-joint-a2-mds-source/three-review-b/RESULT.json",
+      "reproduced": "three/three-review-b/RESULT.json",
+      "kind": "stable_receipt",
+      "comparison": "byte_identical",
+      "committed_sha256": "d3c99aace682fb5a66974fd930489ea85465b908f42adabad794f6e5ee7bc832",
+      "reproduced_sha256": "d3c99aace682fb5a66974fd930489ea85465b908f42adabad794f6e5ee7bc832"
+    },
+    {
+      "group": "three",
+      "committed": "research/moonshot-005-program/results/bit-joint-a2-mds-source/three-review-a/output/RESULT.json",
+      "reproduced": "three/three-review-a/output/RESULT.json",
+      "kind": "stable_receipt",
+      "comparison": "byte_identical",
+      "committed_sha256": "931896611904da423f88ebbcdcd91b7aaa1f0e1de41670728083e461b50e26a6",
+      "reproduced_sha256": "931896611904da423f88ebbcdcd91b7aaa1f0e1de41670728083e461b50e26a6"
+    },
+    {
+      "group": "three",
+      "committed": "research/moonshot-005-program/results/bit-joint-a2-mds-source/three-review-a/output/BASIS-RESULT.json",
+      "reproduced": "three/three-review-a/output/BASIS-RESULT.json",
+      "kind": "stable_receipt",
+      "comparison": "byte_identical",
+      "committed_sha256": "301283006b48d337b88f0448eb601122519e6eb8482973e343ab319877427c82",
+      "reproduced_sha256": "301283006b48d337b88f0448eb601122519e6eb8482973e343ab319877427c82"
+    },
+    {
+      "group": "three",
+      "committed": "research/moonshot-005-program/results/bit-joint-a2-mds-source/three-review-a/output/BUDGET-RESULT.json",
+      "reproduced": "three/three-review-a/output/BUDGET-RESULT.json",
+      "kind": "stable_receipt",
+      "comparison": "byte_identical",
+      "committed_sha256": "9cbb572f2456037500c4a3c62255fadeb26bbfea82e62604d1dbd578e7b8cd15",
+      "reproduced_sha256": "9cbb572f2456037500c4a3c62255fadeb26bbfea82e62604d1dbd578e7b8cd15"
+    },
+    {
+      "group": "interface",
+      "committed": "research/moonshot-005-program/results/bit-a2-source-interface/author-root/output/RESULT.json",
+      "reproduced": "interface/author-root/output/RESULT.json",
+      "kind": "stable_receipt",
+      "comparison": "byte_identical",
+      "committed_sha256": "d12a21dc73edf1365cca356dba1a892cccdfe61ddf77166115b9cde941ca4b94",
+      "reproduced_sha256": "d12a21dc73edf1365cca356dba1a892cccdfe61ddf77166115b9cde941ca4b94"
+    },
+    {
+      "group": "interface",
+      "committed": "research/moonshot-005-program/results/bit-a2-source-interface/independent-c/RESULT.json",
+      "reproduced": "interface/independent-c/RESULT.json",
+      "kind": "stable_receipt",
+      "comparison": "byte_identical",
+      "committed_sha256": "deb04498c7b5798426ebec030d43021ce1fdbc6a1b89d51152119dfba6511b67",
+      "reproduced_sha256": "deb04498c7b5798426ebec030d43021ce1fdbc6a1b89d51152119dfba6511b67"
+    },
+    {
+      "group": "interface",
+      "committed": "research/moonshot-005-program/results/bit-a2-source-interface/corroborating-c/PROOF.md",
+      "reproduced": "interface/corroborating-c/PROOF.md",
+      "kind": "corroborating_pin_only",
+      "comparison": "byte_identical",
+      "committed_sha256": "c1ee5142cfd8e0e3d6dc888fc5c502a31a93717bc9f4e01a209ff6400dd61cf2",
+      "reproduced_sha256": "c1ee5142cfd8e0e3d6dc888fc5c502a31a93717bc9f4e01a209ff6400dd61cf2"
+    },
+    {
+      "group": "interface",
+      "committed": "research/moonshot-005-program/results/bit-a2-source-interface/corroborating-c/check.py",
+      "reproduced": "interface/corroborating-c/check.py",
+      "kind": "corroborating_pin_only",
+      "comparison": "byte_identical",
+      "committed_sha256": "9b276feb416ed8158705a1a2607269d7b33df15bec929645aa7cad94f7655af8",
+      "reproduced_sha256": "9b276feb416ed8158705a1a2607269d7b33df15bec929645aa7cad94f7655af8"
+    },
+    {
+      "group": "interface",
+      "committed": "research/moonshot-005-program/results/bit-a2-source-interface/corroborating-c/RESULT.json",
+      "reproduced": "interface/corroborating-c/RESULT.json",
+      "kind": "corroborating_pin_only",
+      "comparison": "byte_identical",
+      "committed_sha256": "d13c7d81a73bf7e9f81345aba95734673756800608aa759048e663cb96e10ee0",
+      "reproduced_sha256": "d13c7d81a73bf7e9f81345aba95734673756800608aa759048e663cb96e10ee0"
+    }
+  ],
+  "byte_identical": 18,
+  "corroborating_criterion_pin_only_comparisons": 3,
+  "authenticated_manifest_pins": [
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-author/PROOF.md",
+      "sha256": "94c8a77f5b812a68663eaf1f6699315e2b2de060bdf84e6c0ffa76dce273acad"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-author/build.py",
+      "sha256": "4f680390f48f5f7f0cd10d24bf7dc5502b92151df766bdc950eb03d9ba31381d"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-author/choose_basis.py",
+      "sha256": "fa87b2662573a99c1d259ad2c9b591e7310bd4999ce8b0c8aca01d1fdf28a57a"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-author/field.py",
+      "sha256": "2f25f287f04eac237315a74e97a0ce365c58b4de90e53485297a98b39045e0a9"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-author/check.py",
+      "sha256": "7af5a2b3b6c9396d4bf9e6f31f6c5a04294bd73813b9edfee6ff0715e79fd416"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-author/price.py",
+      "sha256": "0e395f5b8c66372f47271d973ac8c1987ba54ce01d55b002d391d758c244dbb3"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-author/WORD.json",
+      "sha256": "1f9aa12022272c61f831b4fae4463168f927f2e1660f513051cd0af5842a84f1"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-author/GEOMETRY.json",
+      "sha256": "96009567d90f621ab61860ec846f9406554ad73caf1bdf27435ed9295ed4ebde"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-author/RESULT.json",
+      "sha256": "cc504be250f0d8e68ee3879c32bafad3b4f55fadc06253dc6fd0895ce0e479a7"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-author/PRICE.json",
+      "sha256": "c00f9ee546c7fad75b55528e2ca8aa869d190ccc28b656de0561958be0592d8f"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/two-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/two-author/PROOF.md",
+      "sha256": "40687de7444ac033535be8885f2ed84b2b4f00ff53de76392956f9c6653cf86e"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/two-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/two-author/build.py",
+      "sha256": "5130e925876bc32ac9ffb508a994f3df7ff40f561a1f8e799a6732eaf2458ed2"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/two-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/two-author/choose_basis.py",
+      "sha256": "fa87b2662573a99c1d259ad2c9b591e7310bd4999ce8b0c8aca01d1fdf28a57a"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/two-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/two-author/field.py",
+      "sha256": "2f25f287f04eac237315a74e97a0ce365c58b4de90e53485297a98b39045e0a9"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/two-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/two-author/check.py",
+      "sha256": "ee5d8390fa3e4e4ac3151eab2a24d09fc9a2842a552ba133041bebfc52630c1b"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/two-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/two-author/price.py",
+      "sha256": "41ea0b33baf8e997127cf3b9ef68975d2a77afaa43ef38c36096b9cd2046698d"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/two-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/two-author/WORD.json",
+      "sha256": "6928713061cb7d8c5fd16d65b1a2529a5751c301e9edd0c4302be7ed20d46bd5"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/two-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/two-author/GEOMETRY.json",
+      "sha256": "c1289beac624650c8338213f9ca553aec6cee7eebd39eb538c235d0fe70dec58"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/two-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/two-author/RESULT.json",
+      "sha256": "7939b28e8d05d87d307ccb93685bb98fdf757427c6d7dab889da9582323b7fb9"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/two-author/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/two-author/PRICE.json",
+      "sha256": "ad9f853bd09e5d65e21158c10a82a1f399f8335440f1153cc60f998c444e1965"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-review-b/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-review-b/RESULT.json",
+      "sha256": "d3c99aace682fb5a66974fd930489ea85465b908f42adabad794f6e5ee7bc832"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-review-b/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-review-b/REVIEW.md",
+      "sha256": "d62fe13daee24d11bbf5d9596b0daecb92aed373cf6f8bd47df146c49d4fcf23"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-review-b/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-review-b/check.py",
+      "sha256": "3cbdc1d834ecf74ed580043b34abc9a9ab59db65a862b0c2ea985c6fa05650c6"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-review-a/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-review-a/REVIEW.md",
+      "sha256": "6965c04f16ac9fa82edc1790ce6c3a3918397d43a1099a076c2f2b9ad17328c0"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-review-a/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-review-a/check.py",
+      "sha256": "1bdf0381969624b019c5e61e651bdfe24f3ed1fff6d122b4c10aa3c546aeae55"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-review-a/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-review-a/check_basis.py",
+      "sha256": "fc06a7f3ac123373ae3ff165a13b63d3a89701a732db5f2a75e43dc2f851d974"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-review-a/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-review-a/check_budget.py",
+      "sha256": "5a76f7a0fe94c437ad0c04fedd4c718db6a862fac2e584db0ec3881830a13a6f"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-review-a/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-review-a/output/RESULT.json",
+      "sha256": "931896611904da423f88ebbcdcd91b7aaa1f0e1de41670728083e461b50e26a6"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-review-a/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-review-a/output/BASIS-RESULT.json",
+      "sha256": "301283006b48d337b88f0448eb601122519e6eb8482973e343ab319877427c82"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/three-review-a/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/three-review-a/output/BUDGET-RESULT.json",
+      "sha256": "9cbb572f2456037500c4a3c62255fadeb26bbfea82e62604d1dbd578e7b8cd15"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/two-review-b/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/two-review-b/RESULT.json",
+      "sha256": "5b55d10722da038c2cc2a045e52b6004b49e96e95165af57ba23eab512d1e74c"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/two-review-b/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/two-review-b/REVIEW.md",
+      "sha256": "cd29f067effbf1e9d6a386947cdf062c8916cddc0772863baa2a9b0fc091b221"
+    },
+    {
+      "manifest": "results/bit-joint-a2-mds-source/two-review-b/MANIFEST.json",
+      "path": "results/bit-joint-a2-mds-source/two-review-b/check.py",
+      "sha256": "bac98b866acac7d6b416e7f9f5afb538f37959824c378bc22751cd31e73250d0"
+    },
+    {
+      "manifest": "results/bit-a2-source-interface/corroborating-c/MANIFEST.json",
+      "path": "results/bit-a2-source-interface/corroborating-c/PROOF.md",
+      "sha256": "c1ee5142cfd8e0e3d6dc888fc5c502a31a93717bc9f4e01a209ff6400dd61cf2"
+    },
+    {
+      "manifest": "results/bit-a2-source-interface/corroborating-c/MANIFEST.json",
+      "path": "results/bit-a2-source-interface/corroborating-c/check.py",
+      "sha256": "9b276feb416ed8158705a1a2607269d7b33df15bec929645aa7cad94f7655af8"
+    },
+    {
+      "manifest": "results/bit-a2-source-interface/corroborating-c/MANIFEST.json",
+      "path": "results/bit-a2-source-interface/corroborating-c/RESULT.json",
+      "sha256": "d13c7d81a73bf7e9f81345aba95734673756800608aa759048e663cb96e10ee0"
+    },
+    {
+      "manifest": "results/bit-a2-source-interface/author-root/MANIFEST.json",
+      "path": "results/bit-a2-source-interface/author-root/ONE-CHART-QUERY.md",
+      "sha256": "a6e87ea43b8fef81d162ce2d2f833b25ea6d915b4d309bc6ba5f48f3687cfba7"
+    },
+    {
+      "manifest": "results/bit-a2-source-interface/author-root/MANIFEST.json",
+      "path": "results/bit-a2-source-interface/author-root/check.py",
+      "sha256": "bbcc3ac9f5a34c8195d948d5d94f3666e925a35db765e2a77fd032355f13eae9"
+    },
+    {
+      "manifest": "results/bit-a2-source-interface/author-root/MANIFEST.json",
+      "path": "results/bit-a2-source-interface/author-root/PROOF.md",
+      "sha256": "f6fd225e1f6d796624884abee23d8559b24659f8663a01fa87c426723bfe141e"
+    },
+    {
+      "manifest": "results/bit-a2-source-interface/author-root/MANIFEST.json",
+      "path": "results/bit-a2-source-interface/author-root/output/RESULT.json",
+      "sha256": "d12a21dc73edf1365cca356dba1a892cccdfe61ddf77166115b9cde941ca4b94"
+    },
+    {
+      "manifest": "results/bit-a2-source-interface/independent-c/MANIFEST.json",
+      "path": "results/bit-a2-source-interface/independent-c/REVIEW.md",
+      "sha256": "2bffb78729030933a153563815f99d1fa434c4c5a113c42b5d4e55a337b3380d"
+    },
+    {
+      "manifest": "results/bit-a2-source-interface/independent-c/MANIFEST.json",
+      "path": "results/bit-a2-source-interface/independent-c/check.py",
+      "sha256": "765e0fcd42d1ebf0f66c1eefb86d3b700cd9ebe50161b3d361baf148ed24d345"
+    },
+    {
+      "manifest": "results/bit-a2-source-interface/independent-c/MANIFEST.json",
+      "path": "results/bit-a2-source-interface/independent-c/RESULT.json",
+      "sha256": "deb04498c7b5798426ebec030d43021ce1fdbc6a1b89d51152119dfba6511b67"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/FULL-ENDPOINT-GAUGES.json",
+      "sha256": "b74be02239fc614515a4fbbb1f92996bd80f35abbfdd4ba2cf005d2578af4ed3"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/FULL-FOUR-CNOT-DIAG-344.json",
+      "sha256": "4fdeb4e0e1a4c1da8e20407b3a74529be74bb3a74a453253707b68544d23e037"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/FULL-FOUR-CNOT-SHEAR-444.json",
+      "sha256": "4844c31f6eff89435d8df61aea419b90756f1a16d59eec2b04ff8c25c5c624cb"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/FULL-FOUR-CZ-SHEAR-344.json",
+      "sha256": "c2bf2414a0ba847f3b6c5d696eb47cb7fc6b6001c26925e7ac149d3429a8a81b"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/FULL-PARABOLIC-FOUR.json",
+      "sha256": "7a1ff78d08874c81d9f49239665b34c46af30464638f3d1fbe6de3755fdd442e"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/PARABOLIC-222.json",
+      "sha256": "b92f7c598af124967bcf672c352e91b00b24b0a08aff296167a13d05d9e43320"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/PARABOLIC-378.json.gz",
+      "sha256": "7f68d256f986d6750700a07810d98383daa6b5976447e24c5e1aae00e3a7481e"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/PARABOLIC-422.json.gz",
+      "sha256": "2688249ad1f1073eae311c868e8ee59a718d70f6ddfec1348ca1e58f3fe95d7e"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/PARABOLIC-444.json.gz",
+      "sha256": "e412231ec0b7273f2a5b028064c1d5429bfa68b4a9881a42d7ac16d41201d9cb"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/PORTABLE-REPLAY.json",
+      "sha256": "6b6b88985e4d40f7cf106b2a3b1a7ab37ea4fb8bc33c15724a0ab9f821b7d4fd"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/PURE3-CNOT-SHEAR-QII.json",
+      "sha256": "e158852555ddb5833627355422c8b003e0a887fa2cf2d8836428823a2fba1621"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/SEARCH-STATUS.md",
+      "sha256": "984c3734046540ac30c31d85832dbe060d3a7afeec773fc724bde316f90174e2"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/exploration_support.py",
+      "sha256": "1f7702e2098cd77ec9626c0c598252a9f3929679a8ddf2ab10a10432eb440420"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/full_parabolic_four.py",
+      "sha256": "a6a9fad21bd995962370c36e40a25ca355f94e3bc895a1fc0d7ad085133964c9"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/full_parabolic_intersection.py",
+      "sha256": "677c9b92b9a9bd0dd966c65b18b3f92a42951ca3d7e116be7c4ce1416da751b6"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/full_pure_three_component.py",
+      "sha256": "0146de0ca9bd14a61ee9c4de229d50f9ec4fb258b4ffff3411e6c378e7ebade5"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/portable-replay.log",
+      "sha256": "34cd79a19245107fc9076b3c534f021f5fda26e6ac2b49049a7019edc213ad45"
+    },
+    {
+      "manifest": "wip/entangling-caller-S015/MANIFEST.json",
+      "path": "wip/entangling-caller-S015/search_full_endpoint_gauges.py",
+      "sha256": "c19cdaf7077a9c80bf4130e376d06fff4841da08f2c4059a86fab6ed743de7c6"
+    },
+    {
+      "manifest": "wip/overlapping-cohort-precursor-S015/MANIFEST.json",
+      "path": "wip/overlapping-cohort-precursor-S015/PROOF.md",
+      "sha256": "b5d8e7ff03b8a4b03591c0448dd051290e3a74f3f18c4f1f220c25eb9fe4ead8"
+    },
+    {
+      "manifest": "wip/overlapping-cohort-precursor-S015/MANIFEST.json",
+      "path": "wip/overlapping-cohort-precursor-S015/RESULT.json",
+      "sha256": "ad618b9d2b178457472860239b039802af790f54de5fd28d33c4deb3b88b80ed"
+    },
+    {
+      "manifest": "wip/overlapping-cohort-precursor-S015/MANIFEST.json",
+      "path": "wip/overlapping-cohort-precursor-S015/build.py",
+      "sha256": "88a81f6b565b1ea5c3385a36b6e0b6815cd04a46fe5284440b28a78edd2bbe57"
+    },
+    {
+      "manifest": "wip/overlapping-cohort-precursor-S015/MANIFEST.json",
+      "path": "wip/overlapping-cohort-precursor-S015/check.py",
+      "sha256": "cfe9243534c055c6ebaa75f50878d7a5b993b359bf9b369289f40083fe3b9487"
+    },
+    {
+      "manifest": "wip/overlapping-cohort-precursor-S015/MANIFEST.json",
+      "path": "wip/overlapping-cohort-precursor-S015/output/COMPLETED-CONTROL-WORD.json",
+      "sha256": "bcea918aa415e1d27d7a5e00d78d6e8faaa2c1868d9fbe62c5e0788899f7b3e2"
+    },
+    {
+      "manifest": "wip/overlapping-cohort-precursor-S015/MANIFEST.json",
+      "path": "wip/overlapping-cohort-precursor-S015/output/WORD.json",
+      "sha256": "e389cc62a002d985bed7d6ba30ebdca3e9ffbc27919a85bf30509e92ce2db8b8"
+    },
+    {
+      "manifest": "sessions/2026-11-15-S015/final-review-b/supporting-cached-mds/MANIFEST.json",
+      "path": "sessions/2026-11-15-S015/final-review-b/supporting-cached-mds/RESULT.json",
+      "sha256": "dcf8c64ae37248542b39e2f6cb6d39ede3a707a194f1b349998017ff1d207f5e"
+    },
+    {
+      "manifest": "sessions/2026-11-15-S015/final-review-b/supporting-cached-mds/MANIFEST.json",
+      "path": "sessions/2026-11-15-S015/final-review-b/supporting-cached-mds/REVIEW.md",
+      "sha256": "d87ad58528dd1c90dbe470a3e498ae1681a3bf8035df5123bed6e9db0031ab59"
+    },
+    {
+      "manifest": "sessions/2026-11-15-S015/final-review-b/supporting-cached-mds/MANIFEST.json",
+      "path": "sessions/2026-11-15-S015/final-review-b/supporting-cached-mds/check.py",
+      "sha256": "07c6d18e834f0fa905063440cfa05ad983ee9c97204e0273054559ff8eda8f1b"
+    }
+  ],
+  "lossless_compressed_wip_receipts": [
+    {
+      "path": "wip/entangling-caller-S015/PARABOLIC-378.json.gz",
+      "uncompressed_sha256": "5864284b141dfbdf1516acdcb1dce84213b1db3da2ca57bf8071017036d29557",
+      "bytes": 1153922
+    },
+    {
+      "path": "wip/entangling-caller-S015/PARABOLIC-422.json.gz",
+      "uncompressed_sha256": "20374106d96da9815bfb9eb2f85ace92ad16afc15fc56e98395b9283e79f72bf",
+      "bytes": 1153922
+    },
+    {
+      "path": "wip/entangling-caller-S015/PARABOLIC-444.json.gz",
+      "uncompressed_sha256": "42af7cf0d225760b81b28fb3d063a1d2536600c73d356d4f90831eb4d65fda39",
+      "bytes": 1153922
+    }
+  ],
+  "historical_scientific_review_inputs_authenticated": 18,
+  "prior_scientific_entries": 5476,
+  "added_scientific_files": 101,
+  "scientific_entries_after": 5577,
+  "registered_results_after": 360,
+  "retained_unavailable_historical_entries": [
+    {
+      "path": "results/four-call-dyadic-entry/review/replay.log",
+      "discovered_session": "2026-11-14-S011",
+      "status": "Absent from programme Git tree, predecessor checkout and available path history; old indexed hash retained, not independently reauthenticated. Not cited as proof evidence."
+    },
+    {
+      "path": "results/bit-joint-multicast/mixed-author/__pycache__/build_mixed.cpython-312.pyc",
+      "discovered_session": "2026-11-14-S012",
+      "status": "Generated bytecode entry absent from confirmed baseline db6e513c96cb8ceea10c1071b26a7db1de9fe008. Old hash retained; not proof evidence."
+    }
+  ],
+  "protected_rule_preserved_verbatim": true,
+  "discovery_review_status": "MilestoneA substantive discovery,MilestoneB not reached; append-only independent review and A2 addendum preserved.",
+  "scope": "Triple partial source,not111 native; frozen continuation starts at pure-Y canonical cut,not before. WIP searches unreviewed.",
+  "new_complete_kappa": false,
+  "publication_index_checks": {
+    "scientific_tracked": 5575,
+    "qualified_missing": [
+      "results/bit-joint-multicast/mixed-author/__pycache__/build_mixed.cpython-312.pyc",
+      "results/four-call-dyadic-entry/review/replay.log"
+    ],
+    "intentional_ignored_evidence_force_added": [
+      "research/moonshot-005-program/results/bit-joint-a2-mds-source/three-author/check.log",
+      "research/moonshot-005-program/results/bit-joint-a2-mds-source/two-author/check.log",
+      "research/moonshot-005-program/wip/entangling-caller-S015/portable-replay.log"
+    ],
+    "frozen_trailing_blank_lines_preserved": [
+      "research/moonshot-005-program/results/bit-joint-a2-mds-source/three-review-a/check.py:310: new blank line at EOF.",
+      "research/moonshot-005-program/wip/entangling-caller-S015/exploration_support.py:92: new blank line at EOF."
+    ],
+    "other_whitespace_findings": []
+  }
+}

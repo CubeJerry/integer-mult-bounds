@@ -1,0 +1,199 @@
+{
+  "status": "PASS_JOINT_THREE_RECEIVER_CANONICAL_MDS_SOURCE",
+  "columns": 888,
+  "counts": {
+    "INIT": 40,
+    "MOVE": 1416,
+    "ADD": 5012,
+    "CLEAR": 40
+  },
+  "movement_profile": {
+    "1": 60,
+    "2": 432,
+    "5": 432,
+    "6": 36,
+    "7": 444,
+    "8": 12
+  },
+  "dirty_clears": 40,
+  "events": {
+    "joint_source_aggregate_cut": {
+      "Hub_X_rank": 420,
+      "held_original_X": [
+        "X1_0",
+        "X1_1",
+        "X1_2",
+        "X1_3",
+        "X4_0",
+        "X4_1",
+        "X4_2",
+        "X4_3",
+        "X59_0",
+        "X59_1",
+        "X59_2",
+        "X59_3",
+        "X60_0",
+        "X60_1",
+        "X60_2",
+        "X60_3",
+        "X63_0",
+        "X63_1",
+        "X63_2",
+        "X63_3",
+        "X64_0",
+        "X64_1",
+        "X64_2",
+        "X64_3"
+      ],
+      "canonical_Hub_intersection": 12
+    },
+    "canonical36_at_ground_before_all_Y_moves": {
+      "Hub_X_rank": 420,
+      "held_original_X": [
+        "X1_0",
+        "X1_1",
+        "X1_2",
+        "X1_3",
+        "X4_0",
+        "X4_1",
+        "X4_2",
+        "X4_3",
+        "X59_0",
+        "X59_1",
+        "X59_2",
+        "X59_3",
+        "X60_0",
+        "X60_1",
+        "X60_2",
+        "X60_3",
+        "X63_0",
+        "X63_1",
+        "X63_2",
+        "X63_3",
+        "X64_0",
+        "X64_1",
+        "X64_2",
+        "X64_3"
+      ],
+      "canonical_Hub_intersection": 12,
+      "ground_canonical_rank": 36,
+      "completed_Hub_seed_rank": 36,
+      "completed_seed_and_transport_rank": 60,
+      "canonical_plus_held_original_rank": 60,
+      "canonical_held_intersection": 0,
+      "all_partial_Hub_seed_and_transport_history_rank": 444
+    },
+    "actual_receiver_3_completed": {
+      "Hub_X_rank": 428,
+      "held_original_X": [
+        "X59_0",
+        "X59_1",
+        "X59_2",
+        "X59_3",
+        "X60_0",
+        "X60_1",
+        "X60_2",
+        "X60_3",
+        "X63_0",
+        "X63_1",
+        "X63_2",
+        "X63_3",
+        "X64_0",
+        "X64_1",
+        "X64_2",
+        "X64_3"
+      ],
+      "canonical_Hub_intersection": 20,
+      "four_actual_targets_completed": true
+    },
+    "actual_receiver_76_completed": {
+      "Hub_X_rank": 436,
+      "held_original_X": [
+        "X59_0",
+        "X59_1",
+        "X59_2",
+        "X59_3",
+        "X63_0",
+        "X63_1",
+        "X63_2",
+        "X63_3"
+      ],
+      "canonical_Hub_intersection": 28,
+      "four_actual_targets_completed": true
+    },
+    "actual_receiver_80_completed": {
+      "Hub_X_rank": 444,
+      "held_original_X": [],
+      "canonical_Hub_intersection": 36,
+      "four_actual_targets_completed": true
+    },
+    "all_X_restored": {
+      "Hub_X_rank": 444,
+      "held_original_X": [],
+      "canonical_Hub_intersection": 36
+    }
+  },
+  "completed_native_roles": [
+    3,
+    76,
+    80
+  ],
+  "physical_copies": 4,
+  "all_partial_Hub_seed_and_transport_history_rank": 444,
+  "completed_seed_and_transport_history_rank": 60,
+  "completed_Hub_seed_rank": 36,
+  "new_complete_kappa": false,
+  "negative_controls": [
+    {
+      "name": "omit_common_capture",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_direct_original_query",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_query_chart_visit",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_new_ground_preload",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_common_read_first_receiver",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_common_read_second_receiver",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_common_read_third_receiver",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_private_MDS_contribution",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_source_inverse",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_owner_retirement",
+      "rejected": true,
+      "reason": ""
+    }
+  ],
+  "word_sha256": "1f9aa12022272c61f831b4fae4463168f927f2e1660f513051cd0af5842a84f1"
+}

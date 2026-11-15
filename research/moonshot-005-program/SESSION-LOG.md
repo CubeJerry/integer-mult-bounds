@@ -1782,3 +1782,61 @@ and `bit-joint-kernel-puncture/six-axis/author/run.log` under results/. Their
 bytes match their existing frozen hashes and are now deliberately published.
 No mathematical result or prior scientific hash changes. The two explicitly
 qualified historical missing artifacts remain unavailable.
+
+### S015 checkpoint9 — actual shared A2 source and exact continuation interface
+
+Prepared2026-11-15T11:51:55.287453+00:00 on confirmed checkpoint8
+`fb7d355e040005aaeac162b090c9a96372857d17`. The closing construction wave extends
+one local decoder to an actual simultaneous pair and then the native A2 triple
+3/76/80. Common36/private22/24/26 sources share one real acquisition and
+canonical36 bank. Independent A/B reviews accept every888-column endpoint,
+actual source path,inverse,owner and cost. Triple40owners/5012ADD/1416MOVE,
+Q1612.6715944342428174.... It leaves108 receiver groups unfinished.
+
+Root proves that the frozen suffix from its pure-Y canonical cut cannot finish
+any other receiver even with arbitrary linear upward Y relays and generous
+future-source grants;432dual witnesses give4V missing directions each. C
+independently verifies all grants/duals and the causal proof. Earlier Y
+acquisition is explicitly outside scope. Root and C independently derive the
+same exact one-chart canonical-query separability criterion; one shared-credit
+result,not duplicated novelty. Current disjoint private-pivot extension beyond
+four groups fails; changed queries/source histories remain open.
+
+Both literal words and all independent controls are portably reproduced in
+CHECKPOINT9-VALIDATION.json. B's main scientific review and append-only A2
+addendum are preserved. Bounded complex synthesis attempts and A's overlapping
+precursor are saved in wip/ with explicit unreviewed/no-κ labels; no finite
+failure is promoted to a universal theorem. Resulting commit identity will be
+verified remotely and reported separately.
+
+### S015 protected-discovery / optimisation-drift review, closing assessment
+
+Planned allocation reserved at least one of three research tracks for new
+mathematical mechanisms. In the actual main research waves, B continuously
+investigated new phase/source representations and conservation, while C and
+root developed changed BIT acquisition,shared-facet coding and chronology;
+A supplied constructions and adversarial independent reviews. Exact per-agent
+CPU time was not measured. Integration never replaced the protected track
+with certificate polishing or a κ parameter search.
+
+Architecture-independent questions: can information be shared across output
+banks at a common facet rather than charged by a scalar cover count; can
+actual chronological acquisition supply a canonical decoder; and can changed
+noncommuting/entangling source representations escape earlier conservation?
+Evidence includes the corrected scalar-cover inference,the exact local MDS
+construction,source filtration and retained-memory proofs,the chronological
+one-/two-/three-receiver words,and actual order9/order15 sources with general
+admission and scoped conservation. The A2 common-prefix test was actually
+achieved; fixed disjoint-cohort and frozen-source continuation models were
+rigorously ruled out in their precise scopes. The entangling caller is still
+unconstructed. A final bounded parabolic-potential investigation is active and
+will receive its own separate status if completed.
+
+This is substantive MilestoneA mathematical discovery, not relabelled local
+optimisation. MilestoneB remains unmet: no stronger completeκ,strict supplier
+pair or foundational discharge. B's independent review concurs; it does not
+count B's own source author checks as independent review. The next theorem is
+compatible acquisition across distinct shared charts with overlapping sources,
+or earlier Y acquisition plus later actual canonical delivery,with all111
+outputs and complete costs. The next session must preserve a mathematics-first
+track even if this construction stalls. All five foundations remain visible.

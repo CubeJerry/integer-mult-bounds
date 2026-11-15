@@ -285,6 +285,27 @@ not profitable callers. All-call local-wreath and scalarC15 native-only
 conservation retain m≥1 pricing scope and exact phases.
 [Admission](results/complex-entangling-native-source/ADMISSION.md).
 
+## Actual A2 shared-source budget and access gap
+
+The literal triple has Q=15[1]+108[2]+108[5]+9[6]+111[7]+3[8]
+=1612.67159443424281741986...,room9.07928577690953782637.... Counts40owners,
+5012ADD,1416MOVE,40dirtyCLEAR include every source and inverse,3276Hub reads,
+24pivot queries and110preloads. Normalize by four paid native copies,never
+by twelve completed outputs. The m4 complete-native comparison stays
+conditional because108 receiver groups remain unfinished.
+[Proof/reviews](results/bit-joint-a2-mds-source/ADMISSION.md).
+
+After the fixed pure-Y canonical cut, every uncompleted receiver misses4V
+under even all eligible future-source grants and arbitrary linear Y relays.
+Earlier acquisition or changed source/canonical routes are outside this gate.
+For H⊕D,D=⊕D_c and held image P of desired K, one-chart canonical acquisition
+exists iff Delta=Σdim(π_(D_c)P)−dim(P)=0. Current q-receiver private-pivot
+layout has Delta≥8q−36; q≥5 needs a changed source/query mechanism. Equivalently
+full separated native pivot blocks require independent rank9 canonical
+evaluations, at most nine such roots. These are interface restrictions,
+not a general five-receiver impossibility.
+[Theorems](results/bit-a2-source-interface/ADMISSION.md).
+
 ## 7. Sufficient end-to-end theorem still missing
 
 Actual arbitrary-input source → chart/chronology/ownership and all endpoints →
