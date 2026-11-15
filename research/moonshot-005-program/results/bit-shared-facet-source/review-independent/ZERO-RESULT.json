@@ -1,0 +1,220 @@
+{
+  "author_code_imported": false,
+  "closed": {
+    "all_111_X_restored": true,
+    "all_111_Y_unchanged": true,
+    "all_222_columns_replayed": true,
+    "carried_X_history_rank": 4,
+    "closed_partial": true,
+    "completed_target_count": 0,
+    "dirty_clears_under_retained_contract": 51,
+    "donors": [
+      5,
+      7
+    ],
+    "facets": [
+      1,
+      3
+    ],
+    "history_intersection_W_dimension": 2,
+    "history_plus_W_rank": 17,
+    "movement_moment_199_over_200": {
+      "decimal_lower": "1555.627365167956035415575121016365",
+      "decimal_upper": "1555.627365167956035415575121016604",
+      "lower_numerator": "1555627365167956035415575121016365",
+      "scale": "1000000000000000000000000000000",
+      "upper_numerator": "1555627365167956035415575121016604"
+    },
+    "movement_profile": {
+      "1": 37,
+      "2": 15,
+      "5": 17,
+      "6": 31,
+      "7": 176
+    },
+    "movement_rank_length": 1570,
+    "new_complete_kappa": false,
+    "operations": {
+      "ADD": 128,
+      "CLEAR": 51,
+      "INIT": 51,
+      "MOVE": 276
+    },
+    "outside_W_dimension": 2,
+    "outside_W_examples": [
+      {
+        "X_row_hex": "0x2a80cccc006401903c00001a4075",
+        "chart": "Fa",
+        "operation": 270,
+        "packet": "Pa"
+      },
+      {
+        "X_row_hex": "0x2a80cccc006401903c00001a4075",
+        "chart": "L5",
+        "operation": 271,
+        "packet": "Pa"
+      },
+      {
+        "X_row_hex": "0x1997c33331a63d5",
+        "chart": "Fb",
+        "operation": 276,
+        "packet": "Pb"
+      },
+      {
+        "X_row_hex": "0x1997c33331a63d5",
+        "chart": "L7",
+        "operation": 277,
+        "packet": "Pb"
+      }
+    ],
+    "owned_peak": 51,
+    "owned_remaining": 0,
+    "packet_paths": {
+      "Pa": [
+        8,
+        7,
+        1,
+        0
+      ],
+      "Pb": [
+        8,
+        7,
+        1,
+        0
+      ]
+    },
+    "seed_kind": "zero",
+    "source_supports": {
+      "common": 15,
+      "modes": [
+        30,
+        29
+      ],
+      "moved_originals": 46
+    },
+    "status": "PASS_INDEPENDENT_MASKED_FACET_REPLAY"
+  },
+  "closed_word_sha256": "75c00e4e637fdbd5dab5ea08452ac7ade6337b3503987648236a94c40a766954",
+  "live": {
+    "all_111_X_restored": true,
+    "all_111_Y_unchanged": true,
+    "all_222_columns_replayed": true,
+    "carried_X_history_rank": 4,
+    "closed_partial": false,
+    "completed_target_count": 0,
+    "dirty_clears_under_retained_contract": 0,
+    "donors": [
+      5,
+      7
+    ],
+    "facets": [
+      1,
+      3
+    ],
+    "history_intersection_W_dimension": 2,
+    "history_plus_W_rank": 17,
+    "movement_moment_199_over_200": {
+      "decimal_lower": "335.556047226027796369074404174317",
+      "decimal_upper": "335.556047226027796369074404174380",
+      "lower_numerator": "335556047226027796369074404174317",
+      "scale": "1000000000000000000000000000000",
+      "upper_numerator": "335556047226027796369074404174380"
+    },
+    "movement_profile": {
+      "1": 37,
+      "2": 15,
+      "5": 17,
+      "6": 31
+    },
+    "movement_rank_length": 338,
+    "new_complete_kappa": false,
+    "operations": {
+      "ADD": 128,
+      "INIT": 51,
+      "MOVE": 100
+    },
+    "outside_W_dimension": 2,
+    "outside_W_examples": [
+      {
+        "X_row_hex": "0x2a80cccc006401903c00001a4075",
+        "chart": "Fa",
+        "operation": 270,
+        "packet": "Pa"
+      },
+      {
+        "X_row_hex": "0x2a80cccc006401903c00001a4075",
+        "chart": "L5",
+        "operation": 271,
+        "packet": "Pa"
+      },
+      {
+        "X_row_hex": "0x1997c33331a63d5",
+        "chart": "Fb",
+        "operation": 276,
+        "packet": "Pb"
+      },
+      {
+        "X_row_hex": "0x1997c33331a63d5",
+        "chart": "L7",
+        "operation": 277,
+        "packet": "Pb"
+      }
+    ],
+    "owned_peak": 51,
+    "owned_remaining": 51,
+    "packet_paths": {
+      "Pa": [
+        8,
+        7,
+        1,
+        0
+      ],
+      "Pb": [
+        8,
+        7,
+        1,
+        0
+      ]
+    },
+    "seed_kind": "zero",
+    "source_supports": {
+      "common": 15,
+      "modes": [
+        30,
+        29
+      ],
+      "moved_originals": 46
+    },
+    "status": "PASS_INDEPENDENT_MASKED_FACET_REPLAY"
+  },
+  "live_word_sha256": "85913adfa32edd7f41afd0db45854fb8a711d4c284d412e664d301e943a23eba",
+  "negative_controls": {
+    "erase_shared_bank_before_second_donor": {
+      "reason": "independently derived complete handoff",
+      "rejected": true
+    },
+    "omit_Hub_original_restoration": {
+      "reason": "original restoration precedes packet birth",
+      "rejected": true
+    },
+    "omit_mask_cancellation": {
+      "reason": "independently derived complete handoff",
+      "rejected": true
+    },
+    "omit_mask_correction_line_visit": {
+      "reason": "cochart ADD at 271",
+      "rejected": true
+    },
+    "omit_shared_capture": {
+      "reason": "original restoration precedes packet birth",
+      "rejected": true
+    },
+    "read_departed_donor_original": {
+      "reason": "cochart ADD at 272",
+      "rejected": true
+    }
+  },
+  "new_complete_kappa": false,
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "status": "PASS_INDEPENDENT_SHARED_FACET_SOURCE_REVIEW"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS_INDEPENDENT_PENTAGONAL_NATIVE_GAUGE",
+  "engine": "independent SymPy matrices; no author imports",
+  "sympy_version": "1.14.0",
+  "width_controls": [
+    {
+      "V": 1,
+      "dimension": 4,
+      "all_four_input_columns": true
+    },
+    {
+      "V": 2,
+      "dimension": 16,
+      "all_four_input_columns": true
+    },
+    {
+      "V": 3,
+      "dimension": 64,
+      "all_four_input_columns": true
+    }
+  ],
+  "cyclic_width2_projector_rank": 4,
+  "source_minus_tensored_control_rejected": true,
+  "quadratic_phase_omission_rejected": true,
+  "phase_lift": "whole-field source minus retained outside tensor power",
+  "no_new_kappa": true
+}

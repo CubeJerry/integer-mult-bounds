@@ -392,3 +392,25 @@ The ledger has4456 scientific entries, preserving all4363 predecessors and both 
 Author functions were freshly replayed in cloud V8. Universal theorems rest on quantified written proofs, including scalar extension and block scaling where claimed. The two-bank frozen receipt projects full marker snapshots to its documented core; fresh replay checked that projection and every other field. Node wrappers were syntax-checked, not locally executed. No fresh gzip replay or unavailable global verifier is claimed.
 
 Compact logical records link a byte-authenticated archive of checkpoint8 versions. Details and root receipt hashes: sessions/2026-11-14-S013/CHECKPOINT9-VALIDATION.json. The prior remote identity is recorded in CHECKPOINT8-PUBLISHED.json. Candidate file readback, exact changed-path inspection and a fresh remote lease precede publication. No selected certificate changes and no new kappa.
+
+## S014 checkpoint1 — fresh local source verification
+
+Four packages are admitted after written proof review. Root independently
+reconstructed singular locality directly from the original native gzip using
+prime107 and exact full-root facet tests; the author's distinct prime103
+reconstruction and frozen receipt were freshly reproduced. Worker C separately
+replayed both masked source variants over all222 columns, rational chart
+containment, six mutations, history ranks and exact integer-root prices; root
+reproduced all30 author pair/seed variants and matched allfour literal words.
+The phase source has independent symbolic-matrix checks at widths1,2,3 and
+author integer Gaussian-dyadic replay; all phases and the cyclic projector
+control agree. The universal claims use the written proofs. The broad
+one-native query gate has root proof review plus a separately derived exact
+scalar-C5 eight-case determinant certificate; that special case is not
+misrepresented as computational proof of the full Clifford theorem.
+
+39 new scientific files are pinned, preserving all4456 prior entries
+and historical qualified absences. Registry282; ledger4495.
+Local executor is available; no full selected multiplier/native-global suite
+was rerun for these isolated source results. No new kappa or assumption
+discharge. See sessions/2026-11-15-S014/CHECKPOINT1-VALIDATION.json.

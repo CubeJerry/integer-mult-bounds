@@ -132,3 +132,24 @@ Larger ordinary quadratic phases, column-dependent encodings, changed native/bod
 Actual arbitrary-input source → chart/chronology/ownership and endpoints → full recursive/ordinary/precision/physical invoices → strict compatible uniform complex U and covered BIT C → valid completed BIT B → strict outer rows → conditional target theorem.
 
 Every arrow is an obligation. Fixed finite templates and bounded scalar catalogues are selected before n varies; unbounded uniformity does not follow from finite experiments. The five foundations remain native_all_columns, owned_erasure, compiler, precision_tape and analytic_recovery. An unconditional theorem additionally proves or bypasses all of them.
+
+## S014 source-bound additions
+
+The exact singular code cannot reduce its fitting dimension below15V by changing
+coefficients within W. Proper unchanged-input innovations have capacity3V in
+the disjoint direct-acquisition model, so q>=12 there; the retained full-descent
+price screen excludes that model. This is not a lower bound for recoded sources.
+
+The admitted two-facet partial source has complete closed movement profile
+37[1]+15[2]+17[5]+31[6]+176[7], moment1555.627365167956035415575121016... .
+Adding six bare full lifetimes leaves less than18.619995535267 in the limiting
+allowance, before all missing acquisition, decoder, ordinary, ownership and
+precision work. It completes zero Y targets; this arithmetic grants no source.
+
+The new pentagonal native retains half tariff1+7^t+8^t and adds three ordinary
+permutation plus three unit-phase services. The proposed one-native/two-query
+three-role caller is excluded even with noncommuting ordinary Clifford phases:
+h2<=q. One native plus three rank-one queries has raw invoice
+P=2[7]+[8]+4[1], T=3[9], subject to an unconstructed exact endpoint and every
+ordinary/body/compiler/precision/recursive cost. Three-native/four-role options
+remain similarly unconstructed. Both strict suppliers are still missing.

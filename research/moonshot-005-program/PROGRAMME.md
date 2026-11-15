@@ -121,3 +121,24 @@ Resume [STATE.json](STATE.json), [CONTINUATION.md](CONTINUATION.md), [OBLIGATION
 The compact current records replace a sequence of appended snapshots. Their exact preimages at checkpoint8 are [archived](sessions/2026-11-14-S013/logical-records-at-cp8/MANIFEST.json); no earlier scientific conclusion or session entry is discarded. Historical reconstruction, independently recovered geometry and fresh execution remain separately labelled.
 
 The branch remains an ongoing programme and is not ready for an upstream PR. Success is a complete, compatible, uniformly costed conditional kappa>=.005 construction, followed by resolution of its foundations. The immediate measure of progress is a decisive new source or interface theorem that brings that construction closer.
+
+## S014 current refinement
+
+The singular code now has a complete real-support localization theorem:69
+proper binary words on61 rank-seven facets. Every fitting contained in this
+code has rank15V over every characteristic-two field and width, while direct
+disjoint unchanged-input acquisition supplies at most3V new directions. The
+scoped q>=12 gate directs the construction toward actual recoding. A new
+two-facet word does precisely that: two restored D8 original carriers, actual
+point masks and two continuous8->7->1->0 packets acquire two W innovations.
+Its histories include two outside-W directions and it completes zero Y targets.
+Shared multi-facet acquisition and receiver delivery remain the central gap.
+
+On the complex side the proposed enlargement is now an actual source interface:
+three explicit ordinary monomials give B^5=I and power ranks(0,1,2,2,1). The
+cyclic algebra is faithful at width>=2; all boundary phases and physical
+permutation charges are retained. A new two-sided ordinary-kernel theorem
+proves h2<=q for one native and q one-role queries in the enlarged fixed
+Clifford family. Thus the old one-native/two-query proposal is also excluded
+here. One-native/three-query and three-native/four-role callers remain open.
+The exact admissions are indexed in OBLIGATIONS and VERIFICATION. No new kappa.

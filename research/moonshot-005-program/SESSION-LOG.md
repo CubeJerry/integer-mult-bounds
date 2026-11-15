@@ -1492,3 +1492,23 @@ mathematics-first discovery; no task is assigned incremental kappa tuning.
 Root checks source scope, new upstream PRs and independent proofs. Final quarter
 is reserved for verification, integration and durable publication. Target open,
 selected conditional kappa unchanged, no upstream PR authorized for submission.
+
+### S014 checkpoint1 — 2026-11-15T02:31:03.812683+00:00
+
+Parent a5c9072217d4f743da3d923e9dec7c4713827109, whose startup tree was GitHub-confirmed. Four linked packages
+are proved and independently reviewed: singular proper-support classification
+and rank15V rigidity/direct3V capacity; actual two-facet masked acquisition
+with restored originals and full invoice; exact order-five complex source
+gauge; and h2<=q for one native under enlarged Clifford ordinary mixing.
+The unsupported terminal-span inference was explicitly refuted by a two-ADD
+Y export. No new complete source, supplier, kappa or foundation discharge.
+
+All three workers made mathematics-first contributions; construction proceeds
+to shared three-facet branching and a caller surviving the new query gate.
+Root reviewed proofs, reran exact author artifacts and supplied separate
+original-gzip localization, symbolic phase and C5 determinant checks.
+39 scientific entries added, predecessor evidence untouched.
+This is discovery/source-interface work, not relabelled local optimization.
+The next theorem must compose acquisition/delivery or build the new caller
+with full accounting. Session continues toward 04:07:18 UTC. Resulting remote
+commit will be confirmed separately; no self-referential SHA is embedded.

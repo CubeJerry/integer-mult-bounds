@@ -212,3 +212,23 @@ Root read its exact [proof](https://github.com/aliromman/integer-mult-bounds/blo
 [Kubischta–Teixeira, arXiv2409.14624v1](https://arxiv.org/pdf/2409.14624), sectionsII andIV.A, gives explicit phase/CNOT/CZ generators and distinguishes projective group orders from scalar lifts. Its largest listed monomial two-qubit subgroup has projective order768 with phase lift retained. This provides a useful exact generator catalogue for enlarging H24 after the common-head conservation obstruction. Our physical ordinary compiler and tensor phases must be checked separately; quantum irrelevance of global phase is not applicable to an exact arithmetic source.
 
 These sources motivate precise mathematical interfaces. They establish no new multiplication exponent and do not replace the programme's own source-bound proofs.
+
+## S014 startup delta, 15 November2026
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. Current root
+instructions and the selected certificate were reread. Historical brief and
+priority prose still name older selected values; the selected record controls.
+Targeted PR updates since2026-11-14T20:10:58Z found open #7606, #7607 and #7608;
+exact heads and metadata are in this session's UPSTREAM-START.json.
+
+#7606 at860711dd482ceb7c4834d23a29528e40538ad2f4 contains odd-unit, cut and
+same-frame commutation arguments. Root read its proof selectively. Its up-set
+cut induction is relevant conceptual context, but no source-price or general
+commutation claim is imported into this programme and no full package replay
+is asserted. #7607 at60bd20aaf4945d50bef6b3b630ebf856edd08c2c is a toolkit;
+metadata triage only. #7608 at24b082992cf2d7774bc3567540cc36ff58755334 reports
+conditional0.00365074956598 with a changed erased-row premise; it is open,
+unselected and not admitted here. None changes the programme's selected bound.
+Discussion start/handoff/mechanism pages and active board were inspected;
+rendered pages have partial/paginated coverage, not an exhaustive novelty scan.
+No messages, upstream PRs, merges or selected-certificate edits were made.

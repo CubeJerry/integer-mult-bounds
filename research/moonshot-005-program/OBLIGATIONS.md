@@ -57,3 +57,17 @@ A mathematical source identity must be matched to its actual interface before be
 All new code needs named computational model, complete original endpoints, real chart containment, actual source access, independent-bank accounting, dirty-owner retirement, fixed scalar/phase/grid data and full recursion. A theorem in an abstract operator algebra does not grant an unpriced physical projector or basis change.
 
 The protected mathematics-first investigation remains active. Current structural directions are the D8/half-spinor shared-history realization, coding/trellis interfaces with actual chart constraints, and enlarged ordinary Clifford phases. Previous lattice, R10, wing and quadratic obstructions remain available through the registry. A change of architecture is justified by a proved obstruction or a stronger concrete mechanism; it does not restart the permanent branch.
+
+## S014 admitted refinements and continuation
+
+| Obligation | New proved result | Next missing implication |
+|---|---|---|
+| BIT-SINGULAR-LOCALIZATION | [69 proper words/61 facets; full-rank15V fitting rigidity](results/bit-singular-localization/ADMISSION.md). Direct disjoint acquisition capacity3V; q>=12 only under the declared direct-code model. | Recoding/outside-code histories, with actual shared source access. A terminal-span shortcut is explicitly refuted. |
+| BIT-SHARED-FACET-SOURCE | [Two exact shared W innovations](results/bit-shared-facet-source/ADMISSION.md), restored originals, all222 input columns, two continuous packets and full partial bill. | Multi-facet composition without reused original paths, then all111 receivers. Zero Y targets currently completed. |
+| COMPLEX-PENTAGONAL-PHASE | [Actual B^5=I source gauge](results/complex-pentagonal-phase-head/ADMISSION.md), all-width phases and ordinary service invoice. | Complete caller and full ordinary/tape/precision supplier admission. |
+| COMPLEX-ONE-NATIVE-GATE | [h2<=q](results/complex-one-native-rank-two-gate/ADMISSION.md) with arbitrary fixed Clifford ordinary mixing, all query orders and ranks. | Construct with at least3 queries for3 rank2 targets or use multiple natives/another justified architecture. |
+
+The previous COMPLEX-ENLARGED-PHASE interface is now partially discharged by an
+actual gauge; its complete caller/supplier statement remains OPEN. The prior
+S013 pending localization claim was not recovered: S014 supplies a fresh proof.
+Every remaining strict-supplier, physical-cost and foundational obligation stays.

@@ -85,3 +85,20 @@ Credit @CubeJerry/Jerry Chen; DreamingOfClouds, Ali Romman, Rohan Arun, Hao Yan,
 Substantial OpenAI assistance is disclosed. Independent reviews refer to separate research-agent arguments and implementations, not independent human certification.
 
 Before submission, the cumulative package must pass a whole-contribution composition and source/verification review. The complete source, strict suppliers and outer target remain open. These partial results are not presented as a complete kappa=.005 theorem.
+
+## S014 extension: actual shared acquisition and a new complex head
+
+The cumulative package now includes exact singular-code localization and
+full-rank15V fitting rigidity, a scoped direct-acquisition q>=12 gate, and a
+literal two-facet construction that escapes it with restored original carriers
+and two outside-code mask directions. Two continuous packets acquire two W
+innovations; no Y target is completed. Its fully counted partial movement
+profile is37[1]+15[2]+17[5]+31[6]+176[7], not a complete supplier invoice.
+
+An explicit ordinary quadratic phase gives a new pentagonal native head B^5=I
+with all-width scalar phases, original columns and ordinary permutation costs
+retained. A separate broad theorem proves h2<=q for one native and q one-role
+queries even under noncommuting fixed Clifford ordinary mixing. The complete
+pentagonal caller, shared global BIT source and both strict suppliers remain
+open. Independent proof reviews and distinct exact implementations accompany
+these linked contributions. No new kappa; cumulative PR readiness remains false.
