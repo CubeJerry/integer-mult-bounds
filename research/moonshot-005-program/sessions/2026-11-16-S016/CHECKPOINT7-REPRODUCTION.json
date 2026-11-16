@@ -1,0 +1,314 @@
+{
+  "status": "PASS_CP7_REPRODUCTION",
+  "commands": [
+    {
+      "name": "build17",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-two-retention-source/author/build.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-canonical-history-source/author/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/rebuilt"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "root17",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-two-retention-source/root-review/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/rebuilt/WORD.json",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/root17.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "author17",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-two-retention-source/author/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/rebuilt"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "complex-root",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-four-bit-cubic-source/root-review/check.py",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-boolean-sign-family/root-review/check.py",
+        "--price-engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review/budget.py",
+        "--proof",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-four-bit-cubic-source/author/PROOF.md",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/complex-root.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "complex-author",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/complex-author/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "concentration-root",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-four-bit-concentration/root-review/check.py",
+        "--proof",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-four-bit-concentration/author/PROOF.md",
+        "--price-engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review/budget.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/concentration-root.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "independent-a17",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-two-retention-source/independent-a/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/independent-a"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "concentration-author",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/concentration-author/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "price17",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-two-retention-source/author/price.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/rebuilt"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "build21",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-one/build.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-canonical-history-source/author/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/word21"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "build27",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-seven/build.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/word21/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/word27"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "history21",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-one/history.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/word21"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "independent-c21",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/independent-c/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/word21/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/independent-c/21"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "root21",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/root-review/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/word21/WORD.json",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review",
+        "--certificate",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/independent-c/output/21/RESULT.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/root21.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "author21",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-one/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/word21"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "history27",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-seven/history.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/word27"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "independent-c27",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/independent-c/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/word27/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/independent-c/27"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "author27",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-seven/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/word27"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "root27",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/root-review/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/word27/WORD.json",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review",
+        "--certificate",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/independent-c/output/27/RESULT.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/root27.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "price21",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-one/price.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/word21"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "price27",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-seven/price.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/word27"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "independent-c-price",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/independent-c/price.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp7-reproduction/independent-c"
+      ],
+      "returncode": 0
+    }
+  ],
+  "byte_identical_rebuilt_words": 3,
+  "byte_identical_complex_source_result": true,
+  "new_complete_kappa": false
+}

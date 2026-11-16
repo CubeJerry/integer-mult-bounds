@@ -1,0 +1,30 @@
+{
+  "status": "PASS_INDEPENDENT_FOUR_BIT_SOURCE_AND_CONCENTRATION",
+  "proof_sha256": "6ea08c509a1560aa334640eeb45bcdcd4649412d40292380f771cd623eee570c",
+  "matrix_dimension": 16,
+  "fourth_kernel_entries": 256,
+  "cube_trace": "3(1-i)/2",
+  "exact_square_and_fourth_gauges": true,
+  "fresh_inverse_phase": "-i",
+  "generic_LUL_concentration": true,
+  "negative_controls": 5,
+  "gaussian_margin_intervals": {
+    "42_two_roles": {
+      "lower": "-152669452183779180733489967961/500000000000000000000000000000",
+      "upper": "-152669452183779180733489967957/500000000000000000000000000000"
+    },
+    "43_two_roles": {
+      "lower": "674078700473438882514411394353/1000000000000000000000000000000",
+      "upper": "674078700473438882514411394361/1000000000000000000000000000000"
+    },
+    "421_three_roles": {
+      "lower": "70073781121509116405205040669/125000000000000000000000000000",
+      "upper": "140147562243018232810410081341/250000000000000000000000000000"
+    },
+    "422_three_roles": {
+      "lower": "308044172228681738338074398989/200000000000000000000000000000",
+      "upper": "1540220861143408691690371994957/1000000000000000000000000000000"
+    }
+  },
+  "scope": "All-width identities by tensoring exact base matrices; generic LUL block identity over any associative unital algebra. No profitable caller, complete supplier, or new kappa."
+}

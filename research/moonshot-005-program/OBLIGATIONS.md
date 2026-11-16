@@ -1,6 +1,19 @@
 # Current proof-dependency map
 
-## Primary: simultaneous affordable delivery from the changed source
+## Primary: new acquisition beyond the27-output closure
+
+**BIT-NONLOCAL-DELIVERY — open.** For every characteristic-two field and positive whole-record width, complete all111 arbitrary X-to-Y increments with restored X, legal chart chronology/ownership and the complete target-feasible supplier invoice. The verified27 word leaves84 outputs and movement room7.187448430892129... under a necessary limiting comparison. Eighty-four exact annihilators exclude fixed-stock decoding even with rawlocals, accessible history and decoded-point feedback. A newly acquired row, port or chronology must change this interface. [Proofs and reviews](results/bit-six-channel-retention/ADMISSION.md).
+
+**BIT-ACQUISITION-BANK-ENVELOPE — under review.** Quantify all rows from the two actual common-chart banks, first at the six fixed low ports, then with global access and decoded-point feedback. Distinguish row reselection, changed placement and genuinely new higher-chart acquisition. No finite failed search is a universal obstruction.
+
+**COMPLEX-EARLY-COUPLED421 — open.** The actual four-bit source and LUL base supply heads(4,2). Construct an ordinary coupling before the square-cross call producing a third independent rank1 job, with actual endpoint gauges and all costs. In the fixed ordinary tensor interface, L U Q L is excluded for every invertible ordinary Q and arbitrary ordinary outer encodings. L C U Q L with a genuine earlier coupling remains open. [Exact base and gate](results/complex-four-bit-concentration/ADMISSION.md).
+
+New proved dependencies:17 two-cell word;21 shared-correction and27 six-channel words; complete ledgers and21/27 feedback closure; four-bit rank1/2/4 source with infinite projective order and paid inverse; actual(4,2) concentration with all-t invoice loss; last-interstage-only gate. Exact quantifiers, pins, proofs and independent reviews are in the admission packages. No complete supplier or new κ follows.
+
+The old BIT-TWO-CELL-NONLOCAL entry below is now resolved as a partial construction. The global all111 obligation, both strict suppliers, complete recursion and all five foundations remain open. Earlier sections retain the predecessor's proved constraints.
+
+
+## Retained predecessor delivery constraints
 
 **BIT-U8-DELIVERY — open.** For every characteristic-two field and positive whole-record width, extend the literal111-port U8 source to all111 X-to-Y increments with arbitrary original X/Y, restored X, legal charts and ownership, and a complete target-feasible invoice. The existing word completes15 and restores all X. Its necessary limiting movement room is7.7437844022657188...; all ordinary, source, storage, precision and recursive costs remain. Dependencies: actual changed source, actual timeline, strict supplier admission, and the retained outer framework. Next attempt: coordinated recoding of proper caches and their ground preloads, new coded acquisition, or genuinely nonlocal receiver delivery.
 

@@ -1,5 +1,20 @@
 # Persistent programme toward κ = 0.005
 
+## Current frontier — S016 checkpoint7
+
+**No new complete κ.** The primary admitted BIT source is [the six-channel27-output word](results/bit-six-channel-retention/ADMISSION.md), SHA256d28b6ae55b9d3c3cab440c24af971babbe7fb2413180ec1cb3d5e2fa4c77bb71. Six existing principal descents retain their old preloads, acquire new actual rows, retain those nonlocally and finish with real point terminals. Shared corrections and interleaved passing-packet reads preserve compatible original routes. Every X is restored and all222 arbitrary input columns survive.
+
+The word uses96 INIT,843 ADD,425 MOVE and96 dirty CLEAR. Its complete partial movement moment is1614.56343178026022626828376038084..., leaving7.18744843089212897796238998615... under the necessary limiting allowance. Eighty-four outputs and every other complete supplier expense remain open. The admitted17 and21 predecessors explain the mechanism and composition; the changed U8 source remains the exact static-completion benchmark.
+
+The complete owned nonlocal inventory has15 fields, including all three old descending Q caches. Ground rank is14; combined rank29. The234 actual P0-through-P7 observations have rank74 containing W15+C9. Exact annihilators prove that this source still fits only27 after granting all raw geometric locals, every accessible principal history and free iterative rebroadcast of decoded raw outputs. This fixed-interface exclusion includes arbitrary exact nonlinear decoders. New acquisition, placement or chronology is required. The next quantitative question is the envelope of all rows available from the present acquisition banks.
+
+The [four-bit cubic complex source](results/complex-four-bit-cubic-source/ADMISSION.md) has actual Gaussian rank1/2/4 endpoint gauges, a fresh paid inverse and infinite projective order. The [three-native concentration](results/complex-four-bit-concentration/ADMISSION.md) gives independent heads(4,2), whose complete two-role Gaussian margin is-0.30533890436755836.... A hypothetical three-role(4,2,1) has margin0.56059024897207293... after all three body idles and before ordinary costs. One extra paid rank1 query loses. A proved fixed-tensor-interface gate excludes changing only the final interstage; a genuine coupling before the square-cross native is necessary for this base.
+
+Four new packages have separate proofs, independent reviews, exact invoices, semantic controls and22 reproduction commands. The complete nonlocal ledger corrects a discarded scratch puncture argument. Original Y noise is never treated as raw global information. The21/27 review records a diagnostic principal-name correction, which changed neither the final words nor final author history pins.
+
+Both strict suppliers, complete recursion and all five foundations remain open. The selected accepted conditional κ remains363005817/10^11. Ongoing programme, not PR-ready. Confirmed parent000a7e6b5fcda70c54df984f236e864ba4a0c8e2; resulting SHA recorded separately after remote confirmation. Earlier sections below are historical verified stages and constraints, superseded as current next-action descriptions.
+
+
 ## Current construction: changed preload and actual canonical history
 
 **No new complete κ.** Selected conditional κ remains363005817/10^11. All five foundations and the original complete cost model remain.

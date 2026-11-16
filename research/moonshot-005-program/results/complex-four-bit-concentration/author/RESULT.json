@@ -1,0 +1,66 @@
+{
+  "status": "PASS_EXACT_FOUR_BIT_CONCENTRATION_BASE",
+  "width_checks": [
+    {
+      "V": 1,
+      "two_role_matrix_dimension": 32,
+      "all_columns": true,
+      "source_embedding_checked": true
+    },
+    {
+      "V": 2,
+      "two_role_matrix_dimension": 512,
+      "all_columns": true,
+      "source_embedding_checked": false
+    }
+  ],
+  "head_endpoint": [
+    4,
+    2
+  ],
+  "retained_idle_extension": [
+    4,
+    2,
+    0
+  ],
+  "source_and_endpoint_monomial_services": 12,
+  "source_and_endpoint_recipe": {
+    "coordinate_SWAPS": 26,
+    "Toffoli": 6,
+    "phase_passes": 12
+  },
+  "ordinary_base_invoice": {
+    "native_add_subtract": 3,
+    "input_bank_SWAP": 1,
+    "output_unit_sign": 1
+  },
+  "gaussian_margin_intervals": {
+    "two_role42": {
+      "lo": "-3053389043675583614669799359174053368401",
+      "hi": "-3053389043675583614669799359174053368393",
+      "scale": "10000000000000000000000000000000000000000"
+    },
+    "three_role420": {
+      "lo": "-4192631087631953923800871591202715864771",
+      "hi": "-4192631087631953923800871591202715864759",
+      "scale": "10000000000000000000000000000000000000000"
+    },
+    "two_role43_with_paid_query": {
+      "lo": "-3259212995265611174855886056422520414669",
+      "hi": "-3259212995265611174855886056422520414661",
+      "scale": "10000000000000000000000000000000000000000"
+    },
+    "three_role421_with_paid_query": {
+      "lo": "-4394097510279270687583596746423491983034",
+      "hi": "-4394097510279270687583596746423491983022",
+      "scale": "10000000000000000000000000000000000000000"
+    }
+  },
+  "negative_controls": {
+    "omitted_P0_factors_rejected": true,
+    "paid_query_repairs_fail_price": true
+  },
+  "universal_last_interstage_gate": "Written pi0/pi1/pi3 block-rank proof, not a finite search conclusion",
+  "no_profitable_caller": true,
+  "new_kappa": false
+}

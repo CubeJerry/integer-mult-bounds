@@ -1,0 +1,2089 @@
+{
+  "status": "PASS_INDEPENDENT_MULTI_RETENTION_SOURCE",
+  "word_sha256": "d28b6ae55b9d3c3cab440c24af971babbe7fb2413180ec1cb3d5e2fa4c77bb71",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "engine_sha256": "c934d8ff2f80970fa7db3dbf98e2d5a96e728b00cf314aa4a8e5d79dce632f29",
+  "columns": 222,
+  "targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    11,
+    12,
+    16,
+    21,
+    22,
+    23,
+    28,
+    43,
+    44,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "early_completed_targets": [
+    16,
+    22,
+    23
+  ],
+  "counts": {
+    "INIT": 96,
+    "ADD": 843,
+    "MOVE": 425,
+    "CLEAR": 96
+  },
+  "profile": {
+    "1": 96,
+    "2": 72,
+    "3": 53,
+    "4": 13,
+    "5": 71,
+    "6": 20,
+    "7": 99,
+    "8": 1
+  },
+  "dirty_CLEAR": 96,
+  "actual_P_snapshot_count": 234,
+  "actual_P_history_rank": 74,
+  "actual_P_history_contains_W15_and_C9": true,
+  "all111_W_witnesses": [
+    "0x2088000208444000104222000042084464000a840002a1000150284",
+    "0xa00000280000040a00",
+    "0x2800020244640010120a000412020540000000000000000000000",
+    "0x100000",
+    "0x400004400000000000000000000000",
+    "0x24000224000089000044224",
+    "0x20a000000a0024000050280000500a0524000a840002a1000150284",
+    "0x24000824000209000104824",
+    "0x2000000000052400000000000400004424000a840002a1000150284",
+    "0x88000008444000004222000042084440000000000000000000000",
+    "0xaa00002a8000054aa0",
+    "0x240008a00002280001140a0",
+    "0x24000884000221000110884",
+    "0x202800020241400010120a000412020564000a840002a1000150284",
+    "0x2800002281124001140a0000140281400000000000000000000000",
+    "0x24000224000089000044224",
+    "0x24000824000209000104824",
+    "0x2220000222110000111088000510225524000a840002a1000150284",
+    "0xa00000280000040a00",
+    "0x2208000020556400010282000502201464000a840002a1000150284",
+    "0x2a800002a5540000152aa0001522a5540000000000000000000000",
+    "0x100000",
+    "0x24000884000221000110884",
+    "0x240008a00002280001140a0",
+    "0x208000020504000010282000502201440000000000000000000000",
+    "0x22800000281124000140a0000140281424000a840002a1000150284",
+    "0xa840002a1000050284",
+    "0xaa00002a8000054aa0",
+    "0x22a800022a5540001152aa0001522a5564000a840002a1000150284",
+    "0x220000222142400111088000510225500000000000000000000000",
+    "0x24000080000020000010880",
+    "0x24000aa40002a9000154aa4",
+    "0x220000002040640001022a000450204540000000000000000000000",
+    "0x2228000022012400011020000442220400000000000000000000000",
+    "0x2800000a0000150280",
+    "0x8a40002290000140a4",
+    "0x2a000022a4564001152020000002a0464000a840002a1000150284",
+    "0x288000228042400114008000012284524000a840002a1000150284",
+    "0x24000004000001000000004",
+    "0x24000020000008000004820",
+    "0x24000a20000288000144220",
+    "0x24000a04000281000140a04",
+    "0x2288000028042400014008000012284500000000000000000000000",
+    "0x20000002045400001022a000450204564000a840002a1000150284",
+    "0x22a000002a4564000152020000002a0440000000000000000000000",
+    "0x228000022040000011020000442220424000a840002a1000150284",
+    "0x80000001500000000a8000552001524000a840002a1000150284",
+    "0x2800000a0000150280",
+    "0x200000025440000012a2000540025464000a840002a1000150284",
+    "0x24000aa40002a9000154aa4",
+    "0x24000080000020000010880",
+    "0x20a800020a1000001050800001020a5400000000000000000000000",
+    "0x20080000001024000000a8000552001500000000000000000000000",
+    "0x24000020000008000004820",
+    "0x24000004000001000000004",
+    "0xa800000a1000000050800001020a5424000a840002a1000150284",
+    "0x20200000025164000012a2000540025440000000000000000000000",
+    "0x24000a04000281000140a04",
+    "0x24000a20000288000144220",
+    "0x2800002281100000140a0000540285000000000000000000000000",
+    "0x2800000281424001140a0000540285000000000000000000000000",
+    "0xa00000080000140a00",
+    "0x2220000022140000111088000110221124000a840002a1000150284",
+    "0x2220000222112400011088000110221124000a840002a1000150284",
+    "0x200000000000",
+    "0x24000800000000000000000",
+    "0x22800002281424000140a0000540285024000a840002a1000150284",
+    "0x240002840002a1000150284",
+    "0x240002a00002a8000154aa0",
+    "0x208000020506400110282000102205040000000000000000000000",
+    "0x22800000281100001140a0000540285024000a840002a1000150284",
+    "0xa840000a1000150284",
+    "0xaa00000a8000154aa0",
+    "0xa00000080000140a00",
+    "0x2400100000000000000000000000000000000000000",
+    "0x20a000000a0000001050280004500a4124000a840002a1000150284",
+    "0x200000000000",
+    "0x24000200000280000140a00",
+    "0x200050000000000000000000000000000000000000000000",
+    "0x20a000020a0524000050280004500a4124000a840002a1000150284",
+    "0x24000800000000000000000",
+    "0xa840000a1000150284",
+    "0xa000020a0000000050280004500a4100000000000000000000000",
+    "0x202800020241640000120a000012024164000a840002a1000150284",
+    "0x240002840002a1000150284",
+    "0x240002a00002a8000154aa0",
+    "0xa000000a0524001050280004500a4100000000000000000000000",
+    "0x202800000244400010120a000012024164000a840002a1000150284",
+    "0x2800002a0000050280",
+    "0x8a40000290001140a4",
+    "0x20a800020a1024000050800005020a1000000000000000000000000",
+    "0x208000020851640000428a000510085140000000000000000000000",
+    "0x24000a800000a0000050280",
+    "0x240000a40002290001140a4",
+    "0x20a800000a1500001050800005020a1000000000000000000000000",
+    "0x208000000854400010428a000510085140000000000000000000000",
+    "0x8000000851640010428a000510085164000a840002a1000150284",
+    "0x20080000001000001000a8000152005100000000000000000000000",
+    "0xa800000a1024001050800005020a1024000a840002a1000150284",
+    "0x20200000025140001012a2000140021040000000000000000000000",
+    "0x8000020854400000428a000510085164000a840002a1000150284",
+    "0x20080002001524000000a8000152005100000000000000000000000",
+    "0xa800020a1500000050800005020a1024000a840002a1000150284",
+    "0x220000022045640001022a000050200140000000000000000000000",
+    "0x24000a800000a0000050280",
+    "0x2228000222042400011020000042224000000000000000000000000",
+    "0x240000a40002290001140a4",
+    "0x220000002040400011022a000050200140000000000000000000000",
+    "0x2800002a0000050280",
+    "0x2228000022010000111020000042224000000000000000000000000",
+    "0x8a40000290001140a4"
+  ],
+  "all111_C_witnesses": [
+    "0x20000200000025164000012a2000140021064000820000208000104820",
+    "0x2a800002a5540000152aa0005522a1140000a00000280000040a00",
+    "0x200208000000851400000428a0005100851400008a40002290001140a4",
+    "0x2208000020556400010282000102205064000a840002a1000050284",
+    "0x20020a800020a1524001050800005020a1024000a800002a0000050280",
+    "0x22200002221100001110880001102211000008a00002280001140a0",
+    "0x20000080002001500001000a8000152005100000a04000281000040a04",
+    "0x2800002281124001140a0000540285024000824000209000104824",
+    "0x20000a800020a1000001050800005020a10240002800000a0000050280",
+    "0x20020200002025164001012a2000140021040000820000208000104820",
+    "0x22800002281400001140a0000540285024000024000009000104824",
+    "0x2200000221100000110880001102211240008a00002280001140a0",
+    "0x22a800002a5064000152aa0005522a1140000200000080000040a00",
+    "0x200008000000854640000428a0005100851400000a40000290001140a4",
+    "0x2002228000022040000011020000042224024000aa40002a9000054aa4",
+    "0x2800000241400000120a000012024164000224000089000044224",
+    "0x20880000084164000042220004420800400002a00000a8000054aa0",
+    "0x2000288000028042400014008000412280100000a20000288000044220",
+    "0x20a000020a0500001050280004500a4124000084000021000110884",
+    "0x20002a000022a4040001152020004002a4064000804000201000100004",
+    "0x200220000022040640011022a000050200140000880000220000110880",
+    "0x200052400100000000000000000000000000000000100000",
+    "0xa000020a0024001050280004500a4124000884000221000110884",
+    "0x202800020241400010120a000012024140000224000089000044224",
+    "0x20022a000022a4564001152020004002a4064000004000001000100004",
+    "0x2000228000222040000111020000042224000000aa40002a9000054aa4",
+    "0x2000000000052400000000000000000024000000000000000100000",
+    "0x88000008444000004222000442080040000aa00002a8000054aa0",
+    "0x200020000002040640001022a000050200164000880000220000110880",
+    "0x2002288000028010000014008000412280100000220000088000044220",
+    "0x80002001024001000a8000152005100000a04000281000140a04",
+    "0x200002025164001012a2000140021040000020000008000004820",
+    "0x20002a800022a5540001152aa0005522a1164000200000080000140a00",
+    "0x20002800002281400001140a0000540285024000824000209000004824",
+    "0x20a800000a1524000050800005020a10000002800000a0000150280",
+    "0x208000000854640000428a0005100851400008a40002290000140a4",
+    "0x2002208000020504000010282000102205064000a840002a1000150284",
+    "0x20022200000221100000110880001102211240000a00000280000140a0",
+    "0xa800000a1000000050800005020a1000000a800002a0000150280",
+    "0x20200000025164000012a2000140021064000020000008000004820",
+    "0x8000000851400000428a0005100851400000a40000290000140a4",
+    "0x20080000001024000000a8000152005124000a04000281000140a04",
+    "0x20002200002221100001110880001102211000000a00000280000140a0",
+    "0x20022a800022a5064001152aa0005522a1164000a00000280000140a00",
+    "0x2000208000220504000110282000102205040000a840002a1000150284",
+    "0x20022800002281124001140a0000540285024000024000009000004824",
+    "0x20020a000020a0024001050280004500a4124000084000021000010884",
+    "0x2a000022a4564001152020004002a4064000804000201000000004",
+    "0x2002088000208416400104222000442080064000aa00002a8000154aa0",
+    "0x2228000022012400011020000042224024000aa40002a9000154aa4",
+    "0x220000002040640001022a000050200164000080000020000010880",
+    "0x2000000000000052400000000000000000024000800000200000000000",
+    "0x20000a000020a0500001050280004500a4124000884000221000010884",
+    "0x228000222012400111020000042224000000aa40002a9000154aa4",
+    "0x22a000022a4040001152020004002a4064000004000001000000004",
+    "0x2002000000200052400100000000000000000000800000200000000000",
+    "0x20000880002084440001042220004420800640002a00000a8000154aa0",
+    "0x20000022040640011022a000050200140000080000020000010880",
+    "0x2288000228010000114008000412280124000a20000288000144220",
+    "0x20022280000220424001110200004422204000002a40002a9000154aa4",
+    "0x2002228000222010000011020000442220424000aa40000a9000154aa4",
+    "0x20a000000a0000001050280000500a0524000084000221000010884",
+    "0x2000288000228012400014008000012284500000a20000088000144220",
+    "0x2000288000028040000114008000012284524000220000288000144220",
+    "0x2400100000000400004400000000000200000000000",
+    "0x200050000000000000400004424000800000000000000000",
+    "0x2000228000022010000111020000442220400000aa40000a9000154aa4",
+    "0x2000000000050000100000000400004400000800000000000000000",
+    "0x880000084464001042220000420844640002a00002a8000154aa0",
+    "0x20022a000022a4540000152020000002a0440000804000001000000004",
+    "0x20002280002220424000110200004422204240002a40002a9000154aa4",
+    "0x2000000200002400000000000400004424000000000200000000000",
+    "0x88000208414000004222000042084440000aa00000a8000154aa0",
+    "0x2a800022a5040000152aa0001522a5540000a00000080000140a00",
+    "0x20020a800020a1500000050800001020a54000002800002a0000150280",
+    "0x20000080002001524000000a8000552001524000204000281000140a04",
+    "0x2208000220506400010282000502201464000a840000a1000150284",
+    "0x2a800002a5564001152aa0001522a5564000200000280000140a00",
+    "0x20020a800000a1024001050800001020a5424000a800000a0000150280",
+    "0x20000080000001000001000a8000552001500000a04000081000140a04",
+    "0x22080000205540001102820005022014400002840002a1000150284",
+    "0x208000020506400110282000502201440000a840000a1000150284",
+    "0x20020080000001524001000a8000552001500000204000281000140a04",
+    "0x200008000000854400010428a0001100815640008a40000290000140a4",
+    "0x2080002205540000102820005022014640002840002a1000150284",
+    "0x22800002281424000140a0000140281400000824000009000004824",
+    "0x20020080002001000000000a8000552001524000a04000081000140a04",
+    "0x200008000020851640000428a0001100815400000a40002290000140a4",
+    "0x2a000002a4064001152020000002a0464000804000001000100004",
+    "0x288000028012400114008000012284524000220000288000044220",
+    "0x2000000000000050000100000000400004400000000000200000100000",
+    "0x200002800000244400010120a000412020540000a24000089000044224",
+    "0x2a000022a4540000152020000002a0440000004000201000100004",
+    "0x288000228040000014008000012284500000a20000088000044220",
+    "0x2000000000200002400000000000400004424000800000000000100000",
+    "0x200002800020241640000120a000412020564000224000289000044224",
+    "0x200202800020244400000120a000412020564000a24000089000044224",
+    "0x20000a000020a0524000050280000500a0500000084000221000110884",
+    "0x2002000000200050000000000000400004424000000000200000100000",
+    "0x2000088000208446400004222000042084440000aa00000a8000054aa0",
+    "0x200202800000241640010120a000412020540000224000289000044224",
+    "0x20000a000000a0000001050280000500a0524000884000021000110884",
+    "0x2002000000000002400100000000400004400000800000000000100000",
+    "0x20002a800002a5040001152aa0001522a5564000200000280000040a00",
+    "0x20a800000a1500001050800001020a5424000a800000a0000050280",
+    "0x20002800000281100001140a0000140281424000824000009000104824",
+    "0x208000000854400010428a0001100815640000a40002290001140a4",
+    "0x20002a800022a5564000152aa0001522a5540000a00000080000040a00",
+    "0x20a800020a1024000050800001020a54000002800002a0000050280",
+    "0x20002800002281424000140a0000140281400000024000209000104824",
+    "0x208000020851640000428a0001100815400008a40000290001140a4"
+  ],
+  "ground_rank": 14,
+  "full_nonlocal_normalized_rank": 29,
+  "normalized_rank_with_all_Y_nuisance": 140,
+  "proper_nonlocal_inventory": [
+    {
+      "name": "ZFIRST3",
+      "chart": "M1",
+      "row_hex": "0x2aff00cc0000d8097c0033000015"
+    },
+    {
+      "name": "ZKEEP2",
+      "chart": "L0",
+      "row_hex": "0x30000005"
+    },
+    {
+      "name": "ZFIRST4",
+      "chart": "M1",
+      "row_hex": "0x2f00cc0046051917c0330026005"
+    },
+    {
+      "name": "ZKEEP43",
+      "chart": "L28",
+      "row_hex": "0x580010000000"
+    },
+    {
+      "name": "ZFIRST5",
+      "chart": "M1",
+      "row_hex": "0x280fc00c400489917c0330026005"
+    },
+    {
+      "name": "ZKEEP48",
+      "chart": "L44",
+      "row_hex": "0x1300000000001"
+    },
+    {
+      "name": "KEEP_C0",
+      "chart": "C0",
+      "row_hex": "0x66683cccce59caa"
+    },
+    {
+      "name": "KEEP_M16",
+      "chart": "L7",
+      "row_hex": "0x60000c00180a0"
+    },
+    {
+      "name": "KEEP_C1",
+      "chart": "C0",
+      "row_hex": "0x500003021381266603c0c0c198a0"
+    },
+    {
+      "name": "KEEP_M23",
+      "chart": "L11",
+      "row_hex": "0x440014000808820"
+    },
+    {
+      "name": "KEEP_C2",
+      "chart": "C0",
+      "row_hex": "0x5003031001a066603c0c0c198a0"
+    },
+    {
+      "name": "KEEP_M22",
+      "chart": "L12",
+      "row_hex": "0x220028000409020"
+    },
+    {
+      "name": "Q1",
+      "chart": "M1",
+      "row_hex": "0x2f000c000005000000000000000"
+    },
+    {
+      "name": "Q3",
+      "chart": "M1",
+      "row_hex": "0x280f000c00008800000000000000"
+    },
+    {
+      "name": "Q4",
+      "chart": "M1",
+      "row_hex": "0x190000300026000"
+    }
+  ],
+  "actual_stock_and_history_visible": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    11,
+    12,
+    16,
+    21,
+    22,
+    23,
+    28,
+    43,
+    44,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "raw_local_relaxed_fitting": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    11,
+    12,
+    16,
+    21,
+    22,
+    23,
+    28,
+    43,
+    44,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "free_point_feedback_actual_stock": {
+    "waves": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        11,
+        12,
+        16,
+        21,
+        22,
+        23,
+        28,
+        43,
+        44,
+        48,
+        64,
+        65,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ]
+    ],
+    "closure": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      11,
+      12,
+      16,
+      21,
+      22,
+      23,
+      28,
+      43,
+      44,
+      48,
+      64,
+      65,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ]
+  },
+  "free_point_feedback_raw_local": {
+    "waves": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        11,
+        12,
+        16,
+        21,
+        22,
+        23,
+        28,
+        43,
+        44,
+        48,
+        64,
+        65,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ]
+    ],
+    "closure": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      11,
+      12,
+      16,
+      21,
+      22,
+      23,
+      28,
+      43,
+      44,
+      48,
+      64,
+      65,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ]
+  },
+  "raw_local_feedback_exclusion_duals": [
+    {
+      "receiver": 5,
+      "annihilator_hex": "0xc140000020"
+    },
+    {
+      "receiver": 8,
+      "annihilator_hex": "0x1000300"
+    },
+    {
+      "receiver": 9,
+      "annihilator_hex": "0x2300"
+    },
+    {
+      "receiver": 10,
+      "annihilator_hex": "0x20400"
+    },
+    {
+      "receiver": 13,
+      "annihilator_hex": "0x1002000"
+    },
+    {
+      "receiver": 14,
+      "annihilator_hex": "0x4000"
+    },
+    {
+      "receiver": 15,
+      "annihilator_hex": "0xc040008300"
+    },
+    {
+      "receiver": 17,
+      "annihilator_hex": "0x20400"
+    },
+    {
+      "receiver": 18,
+      "annihilator_hex": "0x40400"
+    },
+    {
+      "receiver": 19,
+      "annihilator_hex": "0x1080000"
+    },
+    {
+      "receiver": 20,
+      "annihilator_hex": "0x100200"
+    },
+    {
+      "receiver": 24,
+      "annihilator_hex": "0x1002000"
+    },
+    {
+      "receiver": 25,
+      "annihilator_hex": "0x2000000"
+    },
+    {
+      "receiver": 26,
+      "annihilator_hex": "0x4000000"
+    },
+    {
+      "receiver": 27,
+      "annihilator_hex": "0x8002000"
+    },
+    {
+      "receiver": 29,
+      "annihilator_hex": "0x20000100"
+    },
+    {
+      "receiver": 30,
+      "annihilator_hex": "0x40000220"
+    },
+    {
+      "receiver": 31,
+      "annihilator_hex": "0x80000020"
+    },
+    {
+      "receiver": 32,
+      "annihilator_hex": "0x100000400"
+    },
+    {
+      "receiver": 33,
+      "annihilator_hex": "0x200002000"
+    },
+    {
+      "receiver": 34,
+      "annihilator_hex": "0x400002000"
+    },
+    {
+      "receiver": 35,
+      "annihilator_hex": "0x800000400"
+    },
+    {
+      "receiver": 36,
+      "annihilator_hex": "0x1000000000"
+    },
+    {
+      "receiver": 37,
+      "annihilator_hex": "0x2000000200"
+    },
+    {
+      "receiver": 38,
+      "annihilator_hex": "0x4000008100"
+    },
+    {
+      "receiver": 39,
+      "annihilator_hex": "0x8000000020"
+    },
+    {
+      "receiver": 40,
+      "annihilator_hex": "0x10000000120"
+    },
+    {
+      "receiver": 41,
+      "annihilator_hex": "0x20000000220"
+    },
+    {
+      "receiver": 42,
+      "annihilator_hex": "0x40000000200"
+    },
+    {
+      "receiver": 45,
+      "annihilator_hex": "0x200000080000"
+    },
+    {
+      "receiver": 46,
+      "annihilator_hex": "0x400000000300"
+    },
+    {
+      "receiver": 47,
+      "annihilator_hex": "0x800000000100"
+    },
+    {
+      "receiver": 49,
+      "annihilator_hex": "0x2000000008000"
+    },
+    {
+      "receiver": 50,
+      "annihilator_hex": "0x4000000000020"
+    },
+    {
+      "receiver": 51,
+      "annihilator_hex": "0x2008000000002000"
+    },
+    {
+      "receiver": 52,
+      "annihilator_hex": "0x10000000002000"
+    },
+    {
+      "receiver": 53,
+      "annihilator_hex": "0x20000000008000"
+    },
+    {
+      "receiver": 54,
+      "annihilator_hex": "0x40000000002220"
+    },
+    {
+      "receiver": 55,
+      "annihilator_hex": "0x100080000000000100"
+    },
+    {
+      "receiver": 56,
+      "annihilator_hex": "0x100000000002200"
+    },
+    {
+      "receiver": 57,
+      "annihilator_hex": "0x200000000000020"
+    },
+    {
+      "receiver": 58,
+      "annihilator_hex": "0x400000000002020"
+    },
+    {
+      "receiver": 59,
+      "annihilator_hex": "0x800000000000100"
+    },
+    {
+      "receiver": 60,
+      "annihilator_hex": "0x1000000000000100"
+    },
+    {
+      "receiver": 61,
+      "annihilator_hex": "0x2000000000040000"
+    },
+    {
+      "receiver": 62,
+      "annihilator_hex": "0x4000000000000000"
+    },
+    {
+      "receiver": 63,
+      "annihilator_hex": "0x8000000000000000"
+    },
+    {
+      "receiver": 66,
+      "annihilator_hex": "0x40000000000002200"
+    },
+    {
+      "receiver": 67,
+      "annihilator_hex": "0x80000000000000000"
+    },
+    {
+      "receiver": 68,
+      "annihilator_hex": "0x100000000000100100"
+    },
+    {
+      "receiver": 69,
+      "annihilator_hex": "0x200000000000080100"
+    },
+    {
+      "receiver": 70,
+      "annihilator_hex": "0x400000000000002200"
+    },
+    {
+      "receiver": 71,
+      "annihilator_hex": "0x800000000000000000"
+    },
+    {
+      "receiver": 72,
+      "annihilator_hex": "0x1000000000000100100"
+    },
+    {
+      "receiver": 81,
+      "annihilator_hex": "0x200000000000000080100"
+    },
+    {
+      "receiver": 82,
+      "annihilator_hex": "0x400000000000000000100"
+    },
+    {
+      "receiver": 83,
+      "annihilator_hex": "0x800000000000000000200"
+    },
+    {
+      "receiver": 84,
+      "annihilator_hex": "0x1000000000000000080100"
+    },
+    {
+      "receiver": 85,
+      "annihilator_hex": "0x2000000000000000000400"
+    },
+    {
+      "receiver": 86,
+      "annihilator_hex": "0x4000000000000000000100"
+    },
+    {
+      "receiver": 87,
+      "annihilator_hex": "0x8000000000000000000200"
+    },
+    {
+      "receiver": 88,
+      "annihilator_hex": "0x10000000000000000000100"
+    },
+    {
+      "receiver": 89,
+      "annihilator_hex": "0x20000000000000000000300"
+    },
+    {
+      "receiver": 90,
+      "annihilator_hex": "0x40000000000000000080000"
+    },
+    {
+      "receiver": 91,
+      "annihilator_hex": "0x80000000000000000000400"
+    },
+    {
+      "receiver": 92,
+      "annihilator_hex": "0x100000000000000000000100"
+    },
+    {
+      "receiver": 93,
+      "annihilator_hex": "0x200000000000000000000300"
+    },
+    {
+      "receiver": 94,
+      "annihilator_hex": "0x400000000000000000080000"
+    },
+    {
+      "receiver": 95,
+      "annihilator_hex": "0x800000000000000000000400"
+    },
+    {
+      "receiver": 96,
+      "annihilator_hex": "0x1000000000000000000000100"
+    },
+    {
+      "receiver": 97,
+      "annihilator_hex": "0x2000000000000000000000200"
+    },
+    {
+      "receiver": 98,
+      "annihilator_hex": "0x4000000000000000000002000"
+    },
+    {
+      "receiver": 99,
+      "annihilator_hex": "0x8000000000000000000000000"
+    },
+    {
+      "receiver": 100,
+      "annihilator_hex": "0x10000000000000000000000100"
+    },
+    {
+      "receiver": 101,
+      "annihilator_hex": "0x20000000000000000000000200"
+    },
+    {
+      "receiver": 102,
+      "annihilator_hex": "0x40000000000000000000002000"
+    },
+    {
+      "receiver": 103,
+      "annihilator_hex": "0x80000000000000000000000000"
+    },
+    {
+      "receiver": 104,
+      "annihilator_hex": "0x100000000000000000000028020"
+    },
+    {
+      "receiver": 105,
+      "annihilator_hex": "0x200000000000000000000100000"
+    },
+    {
+      "receiver": 106,
+      "annihilator_hex": "0x400000000000000000000020000"
+    },
+    {
+      "receiver": 107,
+      "annihilator_hex": "0x800000000000000000000000000"
+    },
+    {
+      "receiver": 108,
+      "annihilator_hex": "0x1000000000000000000000028020"
+    },
+    {
+      "receiver": 109,
+      "annihilator_hex": "0x2000000000000000000000100000"
+    },
+    {
+      "receiver": 110,
+      "annihilator_hex": "0x4000000000000000000000020000"
+    }
+  ],
+  "receiver_access": [
+    {
+      "receiver": 0,
+      "proper_nonlocal_fields": [
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 17,
+      "raw_local_relaxation_rank": 64
+    },
+    {
+      "receiver": 1,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 73
+    },
+    {
+      "receiver": 2,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 3,
+      "proper_nonlocal_fields": [
+        "ZFIRST3",
+        "ZKEEP2",
+        "ZFIRST4",
+        "ZKEEP43",
+        "ZFIRST5",
+        "ZKEEP48",
+        "KEEP_C0",
+        "KEEP_M16",
+        "KEEP_C1",
+        "KEEP_M23",
+        "KEEP_C2",
+        "KEEP_M22",
+        "Q1",
+        "Q3",
+        "Q4"
+      ],
+      "actual_stock_plus_history_rank": 52,
+      "raw_local_relaxation_rank": 71
+    },
+    {
+      "receiver": 4,
+      "proper_nonlocal_fields": [
+        "ZFIRST3",
+        "ZKEEP2",
+        "ZFIRST4",
+        "ZKEEP43",
+        "ZFIRST5",
+        "ZKEEP48",
+        "KEEP_M16",
+        "Q1",
+        "Q3",
+        "Q4"
+      ],
+      "actual_stock_plus_history_rank": 39,
+      "raw_local_relaxation_rank": 71
+    },
+    {
+      "receiver": 5,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 20,
+      "raw_local_relaxation_rank": 65
+    },
+    {
+      "receiver": 6,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 20,
+      "raw_local_relaxation_rank": 71
+    },
+    {
+      "receiver": 7,
+      "proper_nonlocal_fields": [
+        "ZKEEP2"
+      ],
+      "actual_stock_plus_history_rank": 16,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 8,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 9,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 17,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 10,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 72
+    },
+    {
+      "receiver": 11,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 12,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 13,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 14,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 20,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 15,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 16,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 20,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 17,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 17,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 18,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 19,
+      "proper_nonlocal_fields": [
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 15,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 20,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 21,
+      "proper_nonlocal_fields": [
+        "KEEP_C0",
+        "KEEP_M16",
+        "KEEP_C1",
+        "KEEP_M23",
+        "KEEP_C2",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 30,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 22,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 72
+    },
+    {
+      "receiver": 23,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 72
+    },
+    {
+      "receiver": 24,
+      "proper_nonlocal_fields": [
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 15,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 25,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 26,
+      "proper_nonlocal_fields": [
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 16,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 27,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 28,
+      "proper_nonlocal_fields": [
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 15,
+      "raw_local_relaxation_rank": 72
+    },
+    {
+      "receiver": 29,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 16,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 30,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 31,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 17,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 32,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 20,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 33,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 34,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 71
+    },
+    {
+      "receiver": 35,
+      "proper_nonlocal_fields": [
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 17,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 36,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 17,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 37,
+      "proper_nonlocal_fields": [
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 15,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 38,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 16,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 39,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 16,
+      "raw_local_relaxation_rank": 63
+    },
+    {
+      "receiver": 40,
+      "proper_nonlocal_fields": [
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 15,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 41,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 66
+    },
+    {
+      "receiver": 42,
+      "proper_nonlocal_fields": [
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 15,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 43,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 44,
+      "proper_nonlocal_fields": [
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 15,
+      "raw_local_relaxation_rank": 65
+    },
+    {
+      "receiver": 45,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 16,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 46,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 71
+    },
+    {
+      "receiver": 47,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 20,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 48,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 20,
+      "raw_local_relaxation_rank": 73
+    },
+    {
+      "receiver": 49,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 72
+    },
+    {
+      "receiver": 50,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 16,
+      "raw_local_relaxation_rank": 71
+    },
+    {
+      "receiver": 51,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 71
+    },
+    {
+      "receiver": 52,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 17,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 53,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 54,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 55,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 56,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 57,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 17,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 58,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 59,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 20,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 60,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 20,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 61,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 62,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 17,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 63,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 17,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 64,
+      "proper_nonlocal_fields": [
+        "KEEP_C0",
+        "KEEP_M16",
+        "KEEP_C1",
+        "KEEP_M23",
+        "KEEP_C2",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 30,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 65,
+      "proper_nonlocal_fields": [
+        "KEEP_C0",
+        "KEEP_M16",
+        "KEEP_C1",
+        "KEEP_M23",
+        "KEEP_C2",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 30,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 66,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 67,
+      "proper_nonlocal_fields": [
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 16,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 68,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 69,
+      "proper_nonlocal_fields": [
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 15,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 70,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 66
+    },
+    {
+      "receiver": 71,
+      "proper_nonlocal_fields": [
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 16,
+      "raw_local_relaxation_rank": 66
+    },
+    {
+      "receiver": 72,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 73,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 71
+    },
+    {
+      "receiver": 74,
+      "proper_nonlocal_fields": [
+        "ZFIRST3",
+        "ZKEEP2",
+        "ZFIRST4",
+        "ZKEEP43",
+        "ZFIRST5",
+        "ZKEEP48",
+        "KEEP_M16",
+        "Q1",
+        "Q3",
+        "Q4"
+      ],
+      "actual_stock_plus_history_rank": 40,
+      "raw_local_relaxation_rank": 71
+    },
+    {
+      "receiver": 75,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 20,
+      "raw_local_relaxation_rank": 71
+    },
+    {
+      "receiver": 76,
+      "proper_nonlocal_fields": [
+        "ZFIRST3",
+        "ZKEEP2",
+        "ZFIRST4",
+        "ZKEEP43",
+        "ZFIRST5",
+        "ZKEEP48",
+        "KEEP_C0",
+        "KEEP_M16",
+        "KEEP_C1",
+        "KEEP_M23",
+        "KEEP_C2",
+        "KEEP_M22",
+        "Q1",
+        "Q3",
+        "Q4"
+      ],
+      "actual_stock_plus_history_rank": 52,
+      "raw_local_relaxation_rank": 73
+    },
+    {
+      "receiver": 77,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 78,
+      "proper_nonlocal_fields": [
+        "ZFIRST3",
+        "ZKEEP2",
+        "ZFIRST4",
+        "ZKEEP43",
+        "ZFIRST5",
+        "ZKEEP48",
+        "KEEP_M16",
+        "Q1",
+        "Q3",
+        "Q4"
+      ],
+      "actual_stock_plus_history_rank": 39,
+      "raw_local_relaxation_rank": 71
+    },
+    {
+      "receiver": 79,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 20,
+      "raw_local_relaxation_rank": 71
+    },
+    {
+      "receiver": 80,
+      "proper_nonlocal_fields": [
+        "ZFIRST3",
+        "ZKEEP2",
+        "ZFIRST4",
+        "ZKEEP43",
+        "ZFIRST5",
+        "ZKEEP48",
+        "KEEP_C0",
+        "KEEP_M16",
+        "KEEP_C1",
+        "KEEP_M23",
+        "KEEP_C2",
+        "KEEP_M22",
+        "Q1",
+        "Q3",
+        "Q4"
+      ],
+      "actual_stock_plus_history_rank": 52,
+      "raw_local_relaxation_rank": 75
+    },
+    {
+      "receiver": 81,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 72
+    },
+    {
+      "receiver": 82,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 83,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 84,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 85,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 86,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 87,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 88,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 20,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 89,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 23,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 90,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 91,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 21,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 92,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 20,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 93,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 23,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 94,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 95,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16"
+      ],
+      "actual_stock_plus_history_rank": 21,
+      "raw_local_relaxation_rank": 71
+    },
+    {
+      "receiver": 96,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 71
+    },
+    {
+      "receiver": 97,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 17,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 98,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 99,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 100,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 101,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "KEEP_M23"
+      ],
+      "actual_stock_plus_history_rank": 17,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 102,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 18,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 103,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 20,
+      "raw_local_relaxation_rank": 70
+    },
+    {
+      "receiver": 104,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 105,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 68
+    },
+    {
+      "receiver": 106,
+      "proper_nonlocal_fields": [
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 17,
+      "raw_local_relaxation_rank": 69
+    },
+    {
+      "receiver": 107,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 20,
+      "raw_local_relaxation_rank": 66
+    },
+    {
+      "receiver": 108,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 67
+    },
+    {
+      "receiver": 109,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 19,
+      "raw_local_relaxation_rank": 66
+    },
+    {
+      "receiver": 110,
+      "proper_nonlocal_fields": [
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ],
+      "actual_stock_plus_history_rank": 17,
+      "raw_local_relaxation_rank": 69
+    }
+  ],
+  "semantic_negative_controls": [
+    "omit_early_nonlocal_read",
+    "omit_first_retention_capture",
+    "omit_first_reset",
+    "omit_low_line_capture",
+    "omit_low_line_reset",
+    "omit_shared_actual_source",
+    "omit_paid_nonlocal_Q_descent",
+    "omit_old_endpoint_replacement",
+    "omit_retention_clear",
+    "omit_M1_first_reset",
+    "omit_M1_line_capture",
+    "omit_M1_line_reset",
+    "omit_M1_cross_donor_preload",
+    "omit_M1_nonlocal_read",
+    "omit_M1_local_correction",
+    "false_untouched_Y_seedcut_claim"
+  ],
+  "negative_controls_disable_all_milestones_source_cut_and_invoice": true,
+  "scope": "Literal finite source tensor-lifts over characteristic two. History and feedback are optimistic access analyses, not extra physical deliveries. All paid Q descents and Y nuisance columns retained. No new kappa."
+}

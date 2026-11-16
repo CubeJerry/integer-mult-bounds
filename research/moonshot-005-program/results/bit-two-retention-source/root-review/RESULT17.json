@@ -1,0 +1,200 @@
+{
+  "full_222_column_static_fits": [
+    1,
+    3,
+    4,
+    6,
+    7,
+    16,
+    21,
+    51,
+    55,
+    64,
+    65,
+    67,
+    71,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "full_222_column_static_fit_count": 21,
+  "status": "PASS_INDEPENDENT_ALL_COLUMN_NONLOCAL_STOCK_AUDIT",
+  "word_sha256": "1560ba7586802dac2393d8e2c6ed2aa0df54d712bad6ef8296789fe9da527cfe",
+  "replay": {
+    "columns": 222,
+    "targets": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      16,
+      21,
+      64,
+      65,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "counts": {
+      "INIT": 75,
+      "ADD": 748,
+      "MOVE": 391,
+      "CLEAR": 75
+    },
+    "movement_profile": {
+      "1": 67,
+      "2": 63,
+      "3": 39,
+      "4": 24,
+      "5": 73,
+      "6": 20,
+      "7": 104,
+      "8": 1
+    },
+    "peak_owners": 75,
+    "dirty_clears": 75,
+    "canonical_cut": {}
+  },
+  "budget": {
+    "moment": {
+      "lower_fraction": "1614132820950520738501312605414691/1000000000000000000000000000000",
+      "upper_fraction": "322826564190104147700262521083003/200000000000000000000000000000",
+      "display_lower": "1614.1328209505206814",
+      "display_upper": "1614.1328209505206814"
+    },
+    "limiting_room": {
+      "lower_fraction": "1904514815157904186233386237973/250000000000000000000000000000",
+      "upper_fraction": "45708355563789700469601269714579/6000000000000000000000000000000",
+      "display_lower": "7.6180592606316164",
+      "display_upper": "7.6180592606316164"
+    },
+    "first_positive_even_m": 4,
+    "first_margin": {
+      "lower_fraction": "47335897964484370933509510389439/250000000000000000000000000000",
+      "upper_fraction": "47335897964484370933509510406077/250000000000000000000000000000",
+      "display_lower": "189.3435918579374970",
+      "display_upper": "189.3435918579374970"
+    },
+    "method": "integer bisection of200th roots at scale10^30; displays noncertifying"
+  },
+  "source_cut": 996,
+  "ground_rank": 14,
+  "ground_plus_nonlocal_rank": 19,
+  "proper_nonlocal_stock": {
+    "KEEP_C0": {
+      "chart": "C0",
+      "row": "0x66683cccce59caa"
+    },
+    "KEEP_L7": {
+      "chart": "L7",
+      "row": "0x60000c00180a0"
+    },
+    "Q1": {
+      "chart": "M1",
+      "row": "0x2f000c000005000000000000000"
+    },
+    "Q3": {
+      "chart": "M1",
+      "row": "0x280f000c00008800000000000000"
+    },
+    "Q4": {
+      "chart": "M1",
+      "row": "0x190000300026000"
+    }
+  },
+  "local_stock_count": 65,
+  "optimistic_fit_count": 21,
+  "optimistic_fits": [
+    1,
+    3,
+    4,
+    6,
+    7,
+    16,
+    21,
+    51,
+    55,
+    64,
+    65,
+    67,
+    71,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "puncture_audit": {
+    "E6_plus_7": {
+      "removed": [
+        1,
+        6,
+        7,
+        73,
+        75,
+        77,
+        79
+      ],
+      "full_inventory_rank": 12,
+      "two_new_retentions_only_rank": 9
+    },
+    "E6_plus_h_support": {
+      "removed": [
+        1,
+        5,
+        6,
+        7,
+        15,
+        16,
+        30,
+        31,
+        49,
+        50,
+        73,
+        75,
+        77,
+        79
+      ],
+      "full_inventory_rank": 11,
+      "two_new_retentions_only_rank": 8
+    }
+  },
+  "semantic_controls": [
+    {
+      "control": "high capture",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "nonlocal capture",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "raw correction",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "raw early source",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "retirement",
+      "rejected": "retirement"
+    }
+  ],
+  "scope": "Actual source-cut fields plus freely granted geometric raw locals. Does not prove any full-extension impossibility.",
+  "new_complete_kappa": false
+}

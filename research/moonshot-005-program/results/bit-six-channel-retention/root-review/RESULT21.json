@@ -1,0 +1,191 @@
+{
+  "actual_P_snapshot_count": 197,
+  "actual_P_history_rank": 70,
+  "raw_plus_all_actual_history_fits": [
+    1,
+    3,
+    4,
+    6,
+    7,
+    11,
+    12,
+    16,
+    21,
+    22,
+    23,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "independently_checked_feedback_duals": 90,
+  "full_222_column_static_fits": [
+    1,
+    3,
+    4,
+    6,
+    7,
+    11,
+    12,
+    16,
+    21,
+    22,
+    23,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "full_222_column_static_fit_count": 21,
+  "status": "PASS_INDEPENDENT_ALL_COLUMN_NONLOCAL_STOCK_AUDIT",
+  "word_sha256": "1253ce71d23750d912ca9b43837c9b0193c61ecebf967fe44287d2bdc195522d",
+  "replay": {
+    "columns": 222,
+    "targets": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      11,
+      12,
+      16,
+      21,
+      22,
+      23,
+      64,
+      65,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "counts": {
+      "INIT": 84,
+      "ADD": 787,
+      "MOVE": 413,
+      "CLEAR": 84
+    },
+    "movement_profile": {
+      "1": 84,
+      "2": 72,
+      "3": 50,
+      "4": 13,
+      "5": 71,
+      "6": 20,
+      "7": 102,
+      "8": 1
+    },
+    "peak_owners": 84,
+    "dirty_clears": 84,
+    "canonical_cut": {}
+  },
+  "budget": {
+    "moment": {
+      "lower_fraction": "1614409403991962293073245477215641/1000000000000000000000000000000",
+      "upper_fraction": "161440940399196229307324547721597/100000000000000000000000000000",
+      "display_lower": "1614.4094039919623356",
+      "display_upper": "1614.4094039919623356"
+    },
+    "limiting_room": {
+      "lower_fraction": "7341476219190062173000673150937/1000000000000000000000000000000",
+      "upper_fraction": "44048857315140373038004038908879/6000000000000000000000000000000",
+      "display_lower": "7.3414762191900618",
+      "display_upper": "7.3414762191900618"
+    },
+    "first_positive_even_m": 4,
+    "first_margin": {
+      "lower_fraction": "87204053810046768424831482153093/500000000000000000000000000000",
+      "upper_fraction": "10900506726255846053103935273313/62500000000000000000000000000",
+      "display_lower": "174.4081076200935456",
+      "display_upper": "174.4081076200935456"
+    },
+    "method": "integer bisection of200th roots at scale10^30; displays noncertifying"
+  },
+  "source_cut": 1068,
+  "ground_rank": 14,
+  "ground_plus_nonlocal_rank": 23,
+  "proper_nonlocal_stock": {
+    "KEEP_C0": {
+      "chart": "C0",
+      "row": "0x66683cccce59caa"
+    },
+    "KEEP_M16": {
+      "chart": "L7",
+      "row": "0x60000c00180a0"
+    },
+    "KEEP_C1": {
+      "chart": "C0",
+      "row": "0x500003021381266603c0c0c198a0"
+    },
+    "KEEP_M23": {
+      "chart": "L11",
+      "row": "0x440014000808820"
+    },
+    "KEEP_C2": {
+      "chart": "C0",
+      "row": "0x5003031001a066603c0c0c198a0"
+    },
+    "KEEP_M22": {
+      "chart": "L12",
+      "row": "0x220028000409020"
+    },
+    "Q1": {
+      "chart": "M1",
+      "row": "0x2f000c000005000000000000000"
+    },
+    "Q3": {
+      "chart": "M1",
+      "row": "0x280f000c00008800000000000000"
+    },
+    "Q4": {
+      "chart": "M1",
+      "row": "0x190000300026000"
+    }
+  },
+  "local_stock_count": 70,
+  "optimistic_fit_count": 21,
+  "optimistic_fits": [
+    1,
+    3,
+    4,
+    6,
+    7,
+    11,
+    12,
+    16,
+    21,
+    22,
+    23,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "puncture_audit": {},
+  "semantic_controls": [],
+  "scope": "Actual source-cut fields plus freely granted geometric raw locals. Does not prove any full-extension impossibility.",
+  "new_complete_kappa": false
+}

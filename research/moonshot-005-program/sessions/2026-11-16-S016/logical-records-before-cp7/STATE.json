@@ -1,0 +1,889 @@
+{
+  "schema": "moonshot-005-program-state-v4-compact",
+  "branch": "research/moonshot-005-program",
+  "repository": "CubeJerry/integer-mult-bounds",
+  "checkpoint_baseline_sha": "cb34adfb866e0d84a0f620c1ec9849168fe20a32",
+  "checkpoint_sha_semantics": "Exact confirmed parent/baseline; resulting remote commit confirmed after publication and recorded in next receipt/handoff, never self-embedded.",
+  "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "upstream_last_checked_utc": "2026-11-16T01:28:37Z",
+  "upstream_evidence": "sessions/2026-11-16-S016/UPSTREAM-REFRESH-CP5.json",
+  "session": "2026-11-16-S016",
+  "session_started_utc": "2026-11-15T22:44:34Z",
+  "session_planned_end_utc": "2026-11-16T03:44:34Z",
+  "requested_session_seconds": 18000,
+  "session_checkpoint_utc": "2026-11-16T01:41:48.700694+00:00",
+  "session_status": "active",
+  "background_execution": false,
+  "phase": "actual-nonlocal-cell-and-clocked-three-native-caller",
+  "target_kappa": "1/200",
+  "selected_conditional_kappa": "363005817/100000000000",
+  "programme_new_complete_kappa": false,
+  "pr_ready": false,
+  "primary_obligation": "Construct a real nonlocal receiver channel or extra effective source direction within the complete BIT budget.",
+  "next_actions": [
+    "Build and independently verify the two-cell nonlocal retention candidate on current source.",
+    "Check arbitrary-puncture and kernel-placement requirements before scaling the new cell.",
+    "Construct paid clock/inverse three-native caller with independent Gaussian endpoints.",
+    "Assemble strict suppliers and complete recursive/foundational proof."
+  ],
+  "active_subproblems": [
+    {
+      "id": "BIT-TWO-CELL-NONLOCAL",
+      "status": "concrete candidate under construction; not admitted atCP6"
+    },
+    {
+      "id": "COMPLEX-THREE-NATIVE-CLOCK",
+      "status": "inverse capability and lower-call gates proved; caller open"
+    },
+    {
+      "id": "STRICT-SUPPLIERS-FOUNDATIONS",
+      "status": "open; no new complete kappa"
+    }
+  ],
+  "verified_results": [
+    {
+      "id": "BIT-RECEIVER26-COMPOSITION",
+      "status": "proved partial chronological correction; direct point control cheaper",
+      "path": "results/bit-receiver26-correction/ADMISSION.md"
+    },
+    {
+      "id": "BIT-SINGLE-LOCAL-EXPORT-GATE",
+      "status": "proved single source-local rank-one export serves at most one missing role",
+      "path": "results/bit-single-local-export-gate/ADMISSION.md"
+    },
+    {
+      "id": "BIT-COMMON-GROUND-EXPORT-CUT",
+      "status": "proved fixed-source independent ground exports exceed target movement",
+      "path": "results/bit-common-ground-export-cut/ADMISSION.md"
+    },
+    {
+      "id": "COMPLEX-THREE-QUERY-COSET-GATE",
+      "status": "proved exact coset obstruction closes three-head fixed caller",
+      "path": "results/complex-three-query-coset-gate/ADMISSION.md"
+    },
+    {
+      "id": "COMPLEX-THREE-QUERY-TOTAL-HEAD-GATE",
+      "status": "proved h+k<=5 for exactly three rank-one queries at any fixed head count",
+      "path": "results/complex-three-query-total-head-gate/ADMISSION.md"
+    },
+    {
+      "id": "BIT-POINT-SEEDED-SOURCE",
+      "status": "proved actual four-D/four-S two-output source with full W15 history",
+      "path": "results/bit-point-seeded-source/ADMISSION.md",
+      "review": "results/bit-point-seeded-source/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-SERIAL-POINT-SOURCE",
+      "status": "proved actual four-D/three-S three-output source with full W15 history",
+      "path": "results/bit-serial-point-source/ADMISSION.md",
+      "review": "results/bit-serial-point-source/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-TERMINAL-SEED-QUOTIENT",
+      "status": "proved sharp all-field quotient bound and actual five-canonical-direction equality source",
+      "path": "results/bit-terminal-seed-quotient/ADMISSION.md",
+      "review": "results/bit-terminal-seed-quotient/independent-c/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-THREE-HEAD-CYCLIC-GATE",
+      "status": "proved scoped all-t conservation for cyclic three-head callers with full body/idles invoice",
+      "path": "results/complex-three-head-cyclic-gate/ADMISSION.md",
+      "review": "results/complex-three-head-cyclic-gate/root-review/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-QUERY-MINIMUM-RANK-GATE",
+      "status": "proved q>=3 rank-one queries cannot produce invertible result supported only at Gaussian ranks at least q in stated one-native/two-role model",
+      "path": "results/complex-three-query-coset-gate/MINIMUM-RANK-ADMISSION.md",
+      "review": "results/complex-three-query-coset-gate/MINIMUM-RANK-ROOT-REVIEW.md"
+    },
+    {
+      "id": "BIT-COLORED-EIGHT-SOURCE",
+      "status": "proved actual W15 source with all111 facet coverage and one output; decoder open",
+      "path": "results/bit-colored-eight-source/ADMISSION.md",
+      "review": "results/bit-colored-eight-source/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-AXIS-PIVOT-COVERS",
+      "status": "proved exact covers for seven singular native axis pivots; h9 chi106",
+      "path": "results/bit-axis-pivot-covers/ADMISSION.md",
+      "review": "results/bit-axis-pivot-covers/review-root/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-TWO-NATIVE-TOTAL-HEAD-GATE",
+      "status": "proved H<=4 for two source-bound native halves with all-t full common-body deficit",
+      "path": "results/complex-two-native-total-head-gate/ADMISSION.md",
+      "review": "results/complex-two-native-total-head-gate/review-root/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-MIDDLE-PIVOT-GATE",
+      "status": "proved block pivot lemma and three same-orientation/four-role exclusion",
+      "path": "results/complex-middle-pivot-gate/ADMISSION.md",
+      "review": "results/complex-middle-pivot-gate/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-DELAYED-MIXED-FEEDBACK",
+      "status": "proved actual mixed kernel and delayed Y0 correction; complete supplier open",
+      "path": "results/bit-delayed-mixed-feedback/ADMISSION.md",
+      "review": "results/bit-delayed-mixed-feedback/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-FOUR-AXIS-FEEDBACK",
+      "status": "proved actual four-output two-cell composition; fixed completion excluded",
+      "path": "results/bit-four-axis-feedback/ADMISSION.md",
+      "review": "results/bit-four-axis-feedback/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-PUNCTURED-FIRST-FACET-GATE",
+      "status": "proved110-port rank9V and first-facet/point-kernel exclusions",
+      "path": "results/bit-punctured-first-facet-gate/ADMISSION.md",
+      "review": "results/bit-punctured-first-facet-gate/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-FIXED-KERNEL-QUOTIENT",
+      "status": "proved sharp all-field acquired-grant capacity identity",
+      "path": "results/bit-fixed-kernel-quotient/ADMISSION.md",
+      "review": "results/bit-fixed-kernel-quotient/independent-c/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-THREE-ROLE-CYCLIC-BASE",
+      "status": "proved actual K3 base, full invoice, one-stage/literal two-stage gates and conditional unit bridge",
+      "path": "results/complex-three-role-cyclic-base/ADMISSION.md",
+      "review": "results/complex-three-role-cyclic-base/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-JOINT-KERNEL-PUNCTURE",
+      "status": "proved all-field localized/punctured rank gate, two fixed-template exclusions and actual six-output control",
+      "path": "results/bit-joint-kernel-puncture/ADMISSION.md",
+      "review": "results/bit-joint-kernel-puncture/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-RAW-QUERY-LIFT-GATE",
+      "status": "proved arbitrary-lift dual obstruction for fixed raw-query grants",
+      "path": "results/bit-raw-query-lift-gate/ADMISSION.md",
+      "review": "results/bit-raw-query-lift-gate/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-AUGMENTED-ACQUISITION",
+      "status": "proved actual D42/W9 acquisition with complete partial-source invoice",
+      "path": "results/bit-augmented-acquisition/ADMISSION.md",
+      "review": "results/bit-augmented-acquisition/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-TWO-DEMAND-SLACK",
+      "status": "proved2V slack lower bound in49 fixed D42 cases",
+      "path": "results/bit-two-demand-slack/ADMISSION.md",
+      "review": "results/bit-two-demand-slack/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-REPROGRAMMED-COHORT",
+      "status": "proved scalar W9 source at unchanged movement",
+      "path": "results/bit-reprogrammed-cohort/ADMISSION.md",
+      "review": "results/bit-reprogrammed-cohort/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-EXACT-COHORT-CAPACITY",
+      "status": "proved all-field exact9V+floor(V/2) fixed-run capacity",
+      "path": "results/bit-reprogrammed-cohort/ADMISSION.md",
+      "review": "results/bit-reprogrammed-cohort/capacity-review-root/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-DIHEDRAL-INTERSTAGE",
+      "status": "proved H<=6 three-native two-interstage obstruction and all-t deficit",
+      "path": "results/complex-dihedral-interstage/ADMISSION.md",
+      "review": "results/complex-dihedral-interstage/review-root/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-ALL-FIXED-HEAD-SHADOW",
+      "status": "proved fixed-d and Pauli-endpoint extension with actual spectator factor",
+      "path": "results/complex-dihedral-interstage/ADMISSION.md",
+      "review": "results/complex-dihedral-interstage/corollary-independent-b/REVIEW.md"
+    },
+    {
+      "id": "BIT-LANE-SERVICE-BOUNDARY",
+      "status": "proved restricted constant-record invariant; conditional stream service",
+      "path": "results/bit-lane-service-boundary/ADMISSION.md",
+      "review": "results/bit-lane-service-boundary/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-TWO-COPY-COHORT-SOURCE",
+      "status": "proved ordinary400-owner two-copy source attaining W19/D80",
+      "path": "results/bit-two-copy-cohort-source/ADMISSION.md",
+      "review": "results/bit-two-copy-cohort-source/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-FIXED-BANK-EXPANSION",
+      "status": "proved fixed-bank translation and conditional complete-caller batching homogeneity",
+      "path": "results/bit-two-copy-cohort-source/ADMISSION.md",
+      "review": "results/bit-two-copy-cohort-source/bank-expansion-independent-a/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-ZERO-ORDINARY-MIDDLE",
+      "status": "proved actual middle construction and literal four-K target exclusion",
+      "path": "results/complex-zero-ordinary-middle/ADMISSION.md",
+      "review": "results/complex-zero-ordinary-middle/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-PAIRED-FLAG-SOURCE",
+      "status": "proved actual shared-tail D44/W10 source with full W15 history",
+      "path": "results/bit-paired-flag-source/ADMISSION.md",
+      "review": "results/bit-paired-flag-source/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-PAIRED-FLAG-CAPACITY",
+      "status": "proved exact10V acquired capacity for changed fixed-run interface",
+      "path": "results/bit-paired-flag-source/ADMISSION.md",
+      "review": "results/bit-paired-flag-source/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-PACKED-THREE-DUTY-GATE",
+      "status": "proved p>=21 for fixed D80/B, inside-A seeds and full W30 history",
+      "path": "results/bit-packed-three-duty-gate/ADMISSION.md",
+      "review": "results/bit-packed-three-duty-gate/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-TWO-COPY-BANK-BUDGET",
+      "status": "proved movement-only19-bank ceiling with both secondY routes fully paid",
+      "path": "results/bit-packed-three-duty-gate/ADMISSION.md",
+      "review": "results/bit-packed-three-duty-gate/budget-independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-FACET-COLLECTOR-SOURCE",
+      "status": "proved three canonical kernels and actual D80/G22 partial source",
+      "path": "results/bit-facet-collector-source/ADMISSION.md",
+      "review": "results/bit-facet-collector-source/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-FACET-COLLECTOR-VISIBILITY",
+      "status": "proved intrinsic block chi>=218 and83 fixed-placement failures; no generic repeated-facet budget exclusion",
+      "path": "results/bit-facet-collector-source/ADMISSION.md",
+      "review": "results/bit-facet-collector-source/independent-a/SCOPE-SUPPLEMENT.md"
+    },
+    {
+      "id": "BIT-MULTICOPY-COVER-SCOPE",
+      "status": "corrected unsupported scalar-cap transfer; repeated-facet physical charging bridge open",
+      "path": "results/bit-facet-collector-source/ADMISSION.md",
+      "review": "results/bit-facet-collector-source/independent-a/SCOPE-SUPPLEMENT.md"
+    },
+    {
+      "id": "COMPLEX-COMMUTING-SPLIT-SOURCE",
+      "status": "proved actual forward and physical inverse gauges with all phase sectors",
+      "path": "results/complex-commuting-rank-conservation/ADMISSION.md",
+      "review": "results/complex-commuting-rank-conservation/review-root/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-COMMUTING-TOTAL-RANK",
+      "status": "proved all-call H<=2m three-head conservation and strict full-body deficit",
+      "path": "results/complex-commuting-rank-conservation/ADMISSION.md",
+      "review": "results/complex-commuting-rank-conservation/review-root/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-SINGLE-RELATION-CONSERVATION",
+      "status": "proved one-relation conservation and at-most-five-native exclusion for arbitrary fixed head count",
+      "path": "results/complex-commuting-rank-conservation/ADMISSION.md",
+      "review": "results/complex-commuting-rank-conservation/review-root/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-PHASE-TENSOR-FAITHFULNESS",
+      "status": "proved phase group faithful at every V>=d(d+3)",
+      "path": "results/complex-commuting-rank-conservation/ADMISSION.md",
+      "review": "results/complex-commuting-rank-conservation/faithfulness-independent-b/REVIEW.md"
+    },
+    {
+      "id": "BIT-PAIRED-NONLOCAL-RELAY",
+      "status": "proved actual six-output source with ascending nonlocal import, restored X and complete partial-source invoice",
+      "path": "results/bit-paired-nonlocal-relay/ADMISSION.md",
+      "review": "results/bit-paired-nonlocal-relay/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-PAIRED-NONLOCAL-PUNCTURE",
+      "status": "proved fixed full-zero two-kernel completion obstruction; changed sources not excluded",
+      "path": "results/bit-paired-nonlocal-relay/ADMISSION.md",
+      "review": "results/bit-paired-nonlocal-relay/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-SHARED-FACET-LOCAL-RANK",
+      "status": "proved n>=b+2 under source-local/no-two-cover premises, arbitrary fields and blocks",
+      "path": "results/bit-shared-facet-mds/ADMISSION.md",
+      "review": "results/bit-shared-facet-mds/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-SHARED-FACET-MDS",
+      "status": "proved exact28/16 atlas, four-copy literal correction, paid one-receiver completion and parametric80-copy local algorithm",
+      "path": "results/bit-shared-facet-mds/ADMISSION.md",
+      "review": "results/bit-shared-facet-mds/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-SHARED-FACET-GLOBAL-ENVELOPE",
+      "status": "conditionally computed Q1614.675 and first m4; simultaneous source and chronology missing, strict one-hop model excluded",
+      "path": "results/bit-shared-facet-mds/ADMISSION.md",
+      "review": "results/bit-shared-facet-mds/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-SHARED-FACET-ONE-HOP-GATE",
+      "status": "proved rankG>=V ceil(111b/4), arbitrary within-root blocks, precise monotone single-chart scope",
+      "path": "results/bit-shared-facet-one-hop-gate/ADMISSION.md",
+      "review": "results/bit-shared-facet-one-hop-gate/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-SHARED-FACET-SPREADING",
+      "status": "proved necessary1258b incidences and one support>=12 retaining zero own-cohort blocks",
+      "path": "results/bit-shared-facet-one-hop-gate/ADMISSION.md",
+      "review": "results/bit-shared-facet-one-hop-gate/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-PAIRED-SINGLE-CELL-GATE",
+      "status": "proved all12 single-effective-cell arbitrary-through-map puncture exclusions over every field and width",
+      "path": "results/bit-paired-single-cell-gate/ADMISSION.md",
+      "review": "results/bit-paired-single-cell-gate/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-CLIPPED-RECTANGULAR",
+      "status": "proved all-field clipped rank integral and all-X/Y channel obstruction",
+      "path": "results/bit-clipped-rectangular-source/ADMISSION.md",
+      "review": "results/bit-clipped-rectangular-source/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-DISJOINT-COHORT-EXTENSION",
+      "status": "proved extension to fixed disjoint common-chart cohorts; overlap outside",
+      "path": "results/bit-clipped-rectangular-source/ADMISSION.md",
+      "review": "results/bit-clipped-rectangular-source/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-EARLY-HUB-LOCALITY",
+      "status": "proved inverse-column locality and no-side-memory completion obstruction",
+      "path": "results/bit-early-hub-memory/ADMISSION.md",
+      "review": "results/bit-early-hub-memory/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-RETAINED-MEMORY",
+      "status": "proved necessary cocharted held-column injectivity; actual cut projection36+4",
+      "path": "results/bit-early-hub-memory/ADMISSION.md",
+      "review": "results/bit-early-hub-memory/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-CACHED-EARLY-HUB",
+      "status": "proved actual one-target early-Hub source with retained memory and canonical9",
+      "path": "results/bit-cached-early-hub/ADMISSION.md",
+      "review": "results/bit-cached-early-hub/independent-b/REVIEW.md"
+    },
+    {
+      "id": "BIT-CACHED-TWO-COHORT",
+      "status": "proved actual two-target early-Hub source with paid rank11 ground information",
+      "path": "results/bit-cached-early-hub/ADMISSION.md",
+      "review": "results/bit-cached-early-hub/independent-b/REVIEW.md"
+    },
+    {
+      "id": "BIT-MDS-CANONICAL-PATCH",
+      "status": "proved literal canonical-before-Y four-copy one-receiver MDS composition",
+      "path": "results/bit-canonical-mds-chronology/ADMISSION.md",
+      "review": "results/bit-canonical-mds-chronology/common-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-MDS-DIRECT-PIVOT",
+      "status": "proved literal adapted canonical basis and direct held-pivot reads; one receiver",
+      "path": "results/bit-canonical-mds-chronology/ADMISSION.md",
+      "review": "results/bit-canonical-mds-chronology/direct-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-MDS-PARAMETRIC-CHRONOLOGY",
+      "status": "proved uniform80-bank chronological algorithm for each of111 receiver choices separately",
+      "path": "results/bit-canonical-mds-chronology/ADMISSION.md",
+      "review": "results/bit-canonical-mds-chronology/parametric-review/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-ORDER9-SOURCE",
+      "status": "proved actual noncommuting source, phases, all-width cyclic faithfulness",
+      "path": "results/complex-entangling-native-source/ADMISSION.md",
+      "review": "results/complex-entangling-native-source/independent-a/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-ORDER15-SOURCE",
+      "status": "proved actual entangling source outside local wreath; no profitable caller",
+      "path": "results/complex-entangling-native-source/ADMISSION.md",
+      "review": "results/complex-entangling-native-source/independent-a/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-MONOMIAL-ADMISSION",
+      "status": "proved exact ordinary gauge iff criterion for every fixed head dimension",
+      "path": "results/complex-entangling-native-source/ADMISSION.md",
+      "review": "results/complex-entangling-native-source/review-root/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-LOCAL-WREATH-CONSERVATION",
+      "status": "proved all-call scoped conservation; strict pricing requires positive native count",
+      "path": "results/complex-entangling-native-source/ADMISSION.md",
+      "review": "results/complex-entangling-native-source/independent-a/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-C15-DOMINATING-CUT",
+      "status": "proved scalarC15 native-only conservation despite failure of exact cut matching",
+      "path": "results/complex-entangling-native-source/ADMISSION.md",
+      "review": "results/complex-entangling-native-source/review-root/REVIEW.md"
+    },
+    {
+      "id": "BIT-JOINT-TWO-RECEIVER",
+      "status": "proved one actual common prefix and canonical source completes3/76 in four paid copies",
+      "path": "results/bit-joint-a2-mds-source/ADMISSION.md",
+      "review": "results/bit-joint-a2-mds-source/two-review-b/REVIEW.md"
+    },
+    {
+      "id": "BIT-JOINT-A2-TRIPLE",
+      "status": "proved simultaneous3/76/80 source with complete partial invoice, arbitrary originals and restoration",
+      "path": "results/bit-joint-a2-mds-source/ADMISSION.md",
+      "review": "results/bit-joint-a2-mds-source/three-review-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-A2-FROZEN-CONTINUATION",
+      "status": "proved all108 other receivers miss4V under frozen suffix from pure-Y canonical cut; earlier acquisition outside",
+      "path": "results/bit-a2-source-interface/ADMISSION.md",
+      "review": "results/bit-a2-source-interface/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-CHARTWISE-CANONICAL-QUERY",
+      "status": "proved exact one-chart separability iff and fixed disjoint private-pivot q>=5 obstruction; changed source outside",
+      "path": "results/bit-a2-source-interface/ADMISSION.md",
+      "review": "results/bit-a2-source-interface/independent-c/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-FULL-PARABOLIC-RADIAL-CUT",
+      "status": "proved all135-Lagrangian full-parabolic radial cut calibrations fail linear native rank within stated family",
+      "path": "results/complex-parabolic-potential-limits/ADMISSION.md",
+      "review": "results/complex-parabolic-potential-limits/independent-c/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-RADIAL-HILBERT-IDENTITY",
+      "status": "proved sharp all-Hilbert-valued radial identity and q2<=3q1/2; cost subadditivity not implied",
+      "path": "results/complex-parabolic-potential-limits/ADMISSION.md",
+      "review": "results/complex-parabolic-potential-limits/author-b/REVIEW-HILBERT-SUPPLEMENT.md"
+    },
+    {
+      "id": "COMPLEX-RADIAL-ARBITRARY-BLOCK-RANK",
+      "status": "proved every-field/arbitrary-multiplicity radial matrix block commutator calibration obstruction; off-diagonal intertwiners outside",
+      "path": "results/complex-parabolic-potential-limits/ADMISSION.md",
+      "review": "results/complex-parabolic-potential-limits/block-review-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-OPTIMAL-CHARTWISE-HELPER-REPAIR",
+      "status": "proved minimum first-ground-arrival span c+Delta, attained with proper-born helpers; source assembly and peak-owner optimization outside",
+      "path": "results/bit-chartwise-query-repair/ADMISSION.md",
+      "review": "results/bit-chartwise-query-repair/independent-a/REVIEW.md"
+    },
+    {
+      "id": "BIT-MEET-FOUR",
+      "status": "proved actual four-receiver source; not price-competitive with direct points",
+      "path": "results/bit-shared-meet-funnel/ADMISSION.md",
+      "review": "results/bit-shared-meet-funnel/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-MEET-SIX-EARLY-HELPERS",
+      "status": "proved actual six-receiver source and early point repair; full decoder open",
+      "path": "results/bit-shared-meet-funnel/ADMISSION.md",
+      "review": "results/bit-shared-meet-funnel/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-EARLY-HELPER-LIFT",
+      "status": "proved actual-source lift and complete partial funnel formula",
+      "path": "results/bit-early-helper-lift/ADMISSION.md",
+      "review": "results/bit-early-helper-lift/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-FUNNEL-CACHE-QUOTIENT",
+      "status": "proved58-root relation and exact fixed7-of8 cache classification",
+      "path": "results/bit-early-helper-lift/ADMISSION.md",
+      "review": "results/bit-early-helper-lift/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-FLAT-GROUND-GATE",
+      "status": "proved linear all-information-at-ground target exclusion; above-ground sharing outside",
+      "path": "results/bit-early-helper-lift/ADMISSION.md",
+      "review": "results/bit-early-helper-lift/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-UNIFORM-QUERY-COST",
+      "status": "proved exact concave acquisition movement for transverse uniform-chart fixed cut",
+      "path": "results/bit-chartwise-movement-optimum/ADMISSION.md",
+      "review": "results/bit-chartwise-movement-optimum/independent-c/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-MODULAR-PARABOLIC",
+      "status": "proved scoped integral-coefficient/inverse all-head all-call conservation; dyadic routing outside",
+      "path": "results/complex-modular-parabolic-gate/ADMISSION.md",
+      "review": "results/complex-modular-parabolic-gate/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-CACHE-QUOTIENT-WORD",
+      "status": "proved six-output cache deletion word; full native remains open",
+      "path": "results/bit-quotient-funnel-d4-gate/ADMISSION.md",
+      "review": "results/bit-quotient-funnel-d4-gate/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-D4-SINGLE-MEET-GATE",
+      "status": "proved stable canonical/single-meet12-mode floor; changed source interfaces outside",
+      "path": "results/bit-quotient-funnel-d4-gate/ADMISSION.md",
+      "review": "results/bit-quotient-funnel-d4-gate/root-review/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-QUADRATIC-SECTOR-SOURCE",
+      "status": "proved exact three-native mixed-rank source with literal dyadic ordinary circuit",
+      "path": "results/complex-quadratic-sector-source/ADMISSION.md",
+      "review": "results/complex-quadratic-sector-source/root-review/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-COMPONENT-RANK-CENSUS",
+      "status": "proved necessary endpoint rank census; fixed source cannot become3 independent Clifford jobs",
+      "path": "results/complex-quadratic-sector-source/ADMISSION.md",
+      "review": "results/complex-quadratic-sector-source/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-SINGULAR-EIGHT-SEED",
+      "status": "proved source-specific S8 plus seven proper-supported complement modes",
+      "path": "results/bit-singular-eight-seed-source/ADMISSION.md",
+      "review": "results/bit-singular-eight-seed-source/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-SINGULAR-TWELVE-SOURCE",
+      "status": "proved actual twelve-output source with dual-use point repair and same-interface saving",
+      "path": "results/bit-singular-eight-seed-source/ADMISSION.md",
+      "review": "results/bit-singular-eight-seed-source/independent-c/REVIEW.md"
+    },
+    {
+      "id": "NONLINEAR-COMPACT-CONTROL",
+      "status": "conditionally proved physical Toffoli with dirty fields and exact repair",
+      "path": "results/nonlinear-compact-control/ADMISSION.md",
+      "review": "results/nonlinear-compact-control/independent-c/REVIEW.md"
+    },
+    {
+      "id": "FIXED-MONOMIAL-COMPACT-BRIDGE",
+      "status": "conditionally proved lowering for every fixed finite Z4 monomial table",
+      "path": "results/fixed-monomial-compact-bridge/ADMISSION.md",
+      "review": "results/fixed-monomial-compact-bridge/root-review/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-NONCLIFFORD-NATIVE",
+      "status": "proved algebraic nonlinear source with rank-two/three powers; physical admission conditional",
+      "path": "results/complex-nonclifford-native-source/ADMISSION.md",
+      "review": "results/complex-nonclifford-native-source/root-review/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-NONCLIFFORD-LATTICE-GATE",
+      "status": "proved infinite projective order and no full stable dyadic integral lattice at any positive width",
+      "path": "results/complex-nonclifford-native-source/ADMISSION.md",
+      "review": "results/complex-nonclifford-native-source/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-REVERSIBLE-FIFTEEN-FORK",
+      "status": "proved actual15-output fork with transformed source and same S8",
+      "path": "results/bit-forked-shared-history/ADMISSION.md",
+      "review": "results/bit-forked-shared-history/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-FILTERED-W15-HISTORY",
+      "status": "proved actual fullW15 principal histories for12 and15 outputs",
+      "path": "results/bit-forked-shared-history/ADMISSION.md",
+      "review": "results/bit-forked-shared-history/independent-c/REVIEW.md"
+    },
+    {
+      "id": "BIT-FROZEN-HISTORY-VISIBILITY",
+      "status": "proved scoped stationary visibility bounds for frozen12/15 histories",
+      "path": "results/bit-forked-shared-history/ADMISSION.md",
+      "review": "results/bit-forked-shared-history/independent-c/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-BOOLEAN-SIGN-FAMILY",
+      "status": "proved fixed-d Gaussian square/cube family and three-bit order classification",
+      "path": "results/complex-boolean-sign-family/ADMISSION.md",
+      "review": "results/complex-boolean-sign-family/root-review/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-FOUR-SOURCE-CLASSES",
+      "status": "proved four projective source classes every width; eight exact odd/four even",
+      "path": "results/complex-four-source-normalization/ADMISSION.md",
+      "review": "results/complex-four-source-normalization/independent-b/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-LITERAL-NATIVE-SIGN-BRIDGE",
+      "status": "proved actual K sign adapter with two unit ADDs and two sign passes",
+      "path": "results/complex-four-source-normalization/ADMISSION.md",
+      "review": "results/complex-four-source-normalization/final-review-b/REVIEW.md"
+    },
+    {
+      "id": "BIT-S8-POINT-CLOSURE",
+      "status": "proved17-point closure and94 duals",
+      "path": "results/bit-prescribed-code-completion/ADMISSION.md",
+      "review": "results/bit-prescribed-code-completion/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-S8-POINT-BOOTSTRAP",
+      "status": "proved adaptive14-point lower bound",
+      "path": "results/bit-prescribed-code-completion/ADMISSION.md",
+      "review": "results/bit-prescribed-code-completion/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-S8-SHARP-COMPLETION",
+      "status": "proved exact5V static linear completion",
+      "path": "results/bit-prescribed-code-completion/ADMISSION.md",
+      "review": "results/bit-prescribed-code-completion/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-S8-NONLINEAR-BROADCAST",
+      "status": "proved exact5V finite-field fixed-length nonlinear requirement",
+      "path": "results/bit-prescribed-code-completion/ADMISSION.md",
+      "review": "results/bit-prescribed-code-completion/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-PRESCRIBED-SEED-ENVELOPE",
+      "status": "proved one-row blockers and full-code gauge intersections with explicit scope correction",
+      "path": "results/bit-prescribed-code-completion/ADMISSION.md",
+      "review": "results/bit-prescribed-code-completion/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-S8-STATIC-COST",
+      "status": "proved frozen static import cost4+5^t; no further free feedback",
+      "path": "results/bit-prescribed-code-completion/ADMISSION.md",
+      "review": "results/bit-prescribed-code-completion/static-cost-gate/PROOF.md"
+    },
+    {
+      "id": "BIT-CHANGED-U8-SOURCE",
+      "status": "proved actual15-output source and W15+C9 history",
+      "path": "results/bit-canonical-history-source/ADMISSION.md",
+      "review": "results/bit-canonical-history-source/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-CHANGED-U8-FOUR",
+      "status": "proved exact4V static completion including finite-field nonlinear messages",
+      "path": "results/bit-canonical-history-source/ADMISSION.md",
+      "review": "results/bit-canonical-history-source/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-CHANGED-U8-CLOSURE",
+      "status": "proved24-point closure and87 duals",
+      "path": "results/bit-canonical-history-source/ADMISSION.md",
+      "review": "results/bit-canonical-history-source/root-review/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-RANK-DEGREE",
+      "status": "proved scoped head-sum6 and all-t common-body loss",
+      "path": "results/complex-rank-degree-gate/ADMISSION.md",
+      "review": "results/complex-rank-degree-gate/root-review/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-CLOCK-REWIND",
+      "status": "proved literal paid quarter-phase rank collision",
+      "path": "results/complex-rank-degree-gate/ADMISSION.md",
+      "review": "results/complex-rank-degree-gate/root-review/REVIEW.md"
+    },
+    {
+      "id": "BIT-ACTUAL-E6-RANK9-FLOOR",
+      "status": "proved inherited-star application excludes every static8 linear ground code plus actualE6",
+      "path": "results/bit-actual-six-grant-puncture/ADMISSION.md",
+      "review": "results/bit-actual-six-grant-puncture/root-review/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-INVERSE-NATIVE",
+      "status": "proved algebraic inverse-head wrappers; physical tariff conditional",
+      "path": "results/complex-inverse-native-coset/ADMISSION.md",
+      "review": "results/complex-inverse-native-coset/root-review/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-NONCLIFFORD-TWO-NATIVE",
+      "status": "proved totalH<=4 in fixed finite ordinary tensor interface",
+      "path": "results/complex-inverse-native-coset/ADMISSION.md",
+      "review": "results/complex-inverse-native-coset/root-review/REVIEW.md"
+    },
+    {
+      "id": "COMPLEX-FIXED-BOUNDARY-PREIMAGE",
+      "status": "proved zero ordinary preimage for two exact three-call endpoints, all four sources",
+      "path": "results/complex-inverse-native-coset/ADMISSION.md",
+      "review": "results/complex-inverse-native-coset/root-review/REVIEW.md"
+    }
+  ],
+  "registered_results_index": {
+    "path": "REGISTERED-RESULTS.json",
+    "records": 387,
+    "scope": "Complete cumulative results; current state lists session-active evidence."
+  },
+  "scientific_files_index": "SCIENTIFIC-FILES.json",
+  "foundational_assumptions": [
+    "native_all_columns",
+    "owned_erasure",
+    "compiler",
+    "precision_tape",
+    "analytic_recovery"
+  ],
+  "unverified_hypotheses_and_blockers": [
+    "Complete111-receiver target-feasible BIT source/decoder",
+    "Uniform complex supplier strictly above1/200",
+    "Source-valid covered/ordinary BIT bootstrap and compatible strict outer rows",
+    "Every foundational discharge for an unconditional theorem"
+  ],
+  "pending_integration": [
+    "Seventeen-point feedback closure",
+    "Prescribed-S8 extension criterion",
+    "Single nonlinear-sector gate",
+    "Adjacent-sector caller"
+  ],
+  "historical_record_archive": "sessions/2026-11-15-S015/logical-records-before-cp4/MANIFEST.json",
+  "historical_missing_evidence": [
+    {
+      "path": "results/four-call-dyadic-entry/review/replay.log",
+      "discovered_session": "2026-11-14-S011",
+      "status": "Absent from programme Git tree, predecessor checkout and available path history; old indexed hash retained, not independently reauthenticated. Not cited as proof evidence."
+    },
+    {
+      "path": "results/bit-joint-multicast/mixed-author/__pycache__/build_mixed.cpython-312.pyc",
+      "discovered_session": "2026-11-14-S012",
+      "status": "Generated bytecode entry absent from confirmed baseline db6e513c96cb8ceea10c1071b26a7db1de9fe008. Old hash retained; not proof evidence."
+    }
+  ],
+  "runtime_current": {
+    "local_executor": "available",
+    "git_read": "available",
+    "publication": "connected Git Data API, exact-tree and expected-HEAD nonforced update"
+  },
+  "last_reconciled_remote_sha": "b8d03fe19506e4b7fd93f0f72f4f17a71c2fe89f",
+  "publication_status": "Checkpoint4 prepared against confirmed checkpoint3; resulting remote identity recorded separately.",
+  "s015": {
+    "starting_remote_sha": "eefa411ebab86271d50b56b6953af3a157366bdb",
+    "started_utc": "2026-11-15T07:23:42Z",
+    "planned_end_utc": "2026-11-15T12:23:42Z",
+    "requested_seconds": 18000,
+    "status": "closed",
+    "starting_state": "sessions/2026-11-15-S015/START-STATE.json",
+    "protected_allocation": "A: actual receiver26 and shared BIT decoder construction; B: surviving three-query complex caller and changed architecture; C: independent shared-access theorem and adversarial decoder review. All three mathematics-first; root whole-system proof review and integration.",
+    "background_execution": false,
+    "new_packages": [
+      "bit-receiver26-correction",
+      "bit-single-local-export-gate",
+      "bit-common-ground-export-cut",
+      "complex-three-query-coset-gate",
+      "complex-three-query-total-head-gate",
+      "bit-point-seeded-source",
+      "bit-serial-point-source",
+      "bit-terminal-seed-quotient",
+      "complex-three-head-cyclic-gate",
+      "complex-three-query-coset-gate/MINIMUM-RANK-SUPPLEMENT.md",
+      "bit-colored-eight-source",
+      "bit-axis-pivot-covers",
+      "complex-two-native-total-head-gate",
+      "complex-middle-pivot-gate",
+      "bit-delayed-mixed-feedback",
+      "bit-four-axis-feedback",
+      "bit-punctured-first-facet-gate",
+      "bit-fixed-kernel-quotient",
+      "complex-three-role-cyclic-base",
+      "bit-joint-kernel-puncture",
+      "bit-raw-query-lift-gate",
+      "bit-augmented-acquisition",
+      "bit-two-demand-slack",
+      "bit-reprogrammed-cohort",
+      "complex-dihedral-interstage",
+      "bit-lane-service-boundary",
+      "bit-two-copy-cohort-source",
+      "complex-zero-ordinary-middle",
+      "bit-paired-flag-source",
+      "bit-facet-collector-source",
+      "bit-packed-three-duty-gate",
+      "complex-commuting-rank-conservation",
+      "bit-paired-nonlocal-relay",
+      "bit-shared-facet-mds",
+      "bit-shared-facet-one-hop-gate",
+      "bit-paired-single-cell-gate",
+      "bit-clipped-rectangular-source",
+      "bit-early-hub-memory",
+      "bit-cached-early-hub",
+      "bit-canonical-mds-chronology",
+      "complex-entangling-native-source",
+      "bit-joint-a2-mds-source",
+      "bit-a2-source-interface",
+      "complex-parabolic-potential-limits",
+      "bit-chartwise-query-repair"
+    ],
+    "mathematical_status": "Actual shared A2 source and optimal proper-born-helper query repair proved and independently reviewed. Radial complex-potential families resolved within scope. Cross-chart source assembly, profitable complex caller, strict suppliers and foundations remain open; no new complete kappa.",
+    "checkpoint1_baseline_sha": "23bc313445661f58daa957fb7fa340672c8912e0",
+    "checkpoint1_verification": "sessions/2026-11-15-S015/CHECKPOINT1-VALIDATION.json",
+    "checkpoint1_confirmed_remote_sha": "e1c9fb81d27d4a226bcafeeddeffa5a19ad20195",
+    "checkpoint2_baseline_sha": "e1c9fb81d27d4a226bcafeeddeffa5a19ad20195",
+    "checkpoint2_verification": "sessions/2026-11-15-S015/CHECKPOINT2-VALIDATION.json",
+    "checkpoint2_confirmed_remote_sha": "451b8bf963879f86da22d3226927340597ea4cc4",
+    "checkpoint3_baseline_sha": "451b8bf963879f86da22d3226927340597ea4cc4",
+    "checkpoint3_verification": "sessions/2026-11-15-S015/CHECKPOINT3-VALIDATION.json",
+    "checkpoint3_confirmed_remote_sha": "c19be258a396e7fc92ee963433d4f7c3b3969dc7",
+    "checkpoint4_baseline_sha": "c19be258a396e7fc92ee963433d4f7c3b3969dc7",
+    "checkpoint4_verification": "sessions/2026-11-15-S015/CHECKPOINT4-VALIDATION.json",
+    "checkpoint4_confirmed_remote_sha": "2d4422afa86ad8a2ece116a0ce2bfc62c89af21a",
+    "checkpoint5_baseline_sha": "2d4422afa86ad8a2ece116a0ce2bfc62c89af21a",
+    "checkpoint5_verification": "sessions/2026-11-15-S015/CHECKPOINT5-VALIDATION.json",
+    "checkpoint5_confirmed_remote_sha": "0cdf503087595de74016d8a9dbdfa0b8e975e5ce",
+    "checkpoint6_baseline_sha": "0cdf503087595de74016d8a9dbdfa0b8e975e5ce",
+    "checkpoint6_verification": "sessions/2026-11-15-S015/CHECKPOINT6-VALIDATION.json",
+    "checkpoint6_confirmed_remote_sha": "cd3a06fad13938ab425cd14dc9a0e9b6ee68964a",
+    "checkpoint7_baseline_sha": "cd3a06fad13938ab425cd14dc9a0e9b6ee68964a",
+    "checkpoint7_verification": "sessions/2026-11-15-S015/CHECKPOINT7-VALIDATION.json",
+    "checkpoint7_confirmed_remote_sha": "c4816d03cc5ace9ed04a5a933f05bb58d07bd998",
+    "checkpoint8_baseline_sha": "c4816d03cc5ace9ed04a5a933f05bb58d07bd998",
+    "checkpoint8_verification": "sessions/2026-11-15-S015/CHECKPOINT8-VALIDATION.json",
+    "checkpoint8_confirmed_remote_sha": "fb7d355e040005aaeac162b090c9a96372857d17",
+    "checkpoint9_baseline_sha": "fb7d355e040005aaeac162b090c9a96372857d17",
+    "checkpoint9_verification": "sessions/2026-11-15-S015/CHECKPOINT9-VALIDATION.json",
+    "protected_discovery_review": "sessions/2026-11-15-S015/final-review-b/S015-FINAL-REVIEW.md",
+    "protected_discovery_addendum": "sessions/2026-11-15-S015/final-review-b/S015-FINAL-REVIEW-ADDENDUM.md",
+    "checkpoint9_confirmed_remote_sha": "aa6cdb5f9f9869c28c587cc5026a44f86a3c0144",
+    "checkpoint10_baseline_sha": "aa6cdb5f9f9869c28c587cc5026a44f86a3c0144",
+    "checkpoint10_verification": "sessions/2026-11-15-S015/CHECKPOINT10-VALIDATION.json",
+    "checkpoint10_confirmed_remote_sha": "41839f674ba33770acb31689d40f672b3a9d91de",
+    "final_mathematical_commit_sha": "41839f674ba33770acb31689d40f672b3a9d91de",
+    "final_mathematical_tree_sha": "c8b383de4d6584ce612467306f90d67eb08683c0",
+    "closing_checkpoint_utc": "2026-11-15T12:17:08Z",
+    "closing_scope_reviews": "sessions/2026-11-15-S015/closing-reviews/MANIFEST.json",
+    "final_handoff": "sessions/2026-11-15-S015/FINAL-HANDOFF.md",
+    "final_validation": "sessions/2026-11-15-S015/FINAL-VALIDATION.json",
+    "new_registered_results": 72,
+    "final_scientific_entries": 5630,
+    "scientific_work_continues_in_background": false,
+    "research_and_review_completed_utc": "2026-11-15T12:17:08Z"
+  },
+  "s016": {
+    "status": "active",
+    "starting_remote_sha": "4743ad65eff2ce1a63bf8572e4e2bf0751b0426d",
+    "started_utc": "2026-11-15T22:44:34Z",
+    "planned_end_utc": "2026-11-16T03:44:34Z",
+    "requested_seconds": 18000,
+    "background_execution": false,
+    "starting_state": "sessions/2026-11-16-S016/START-STATE.json",
+    "protected_allocation": "Three mathematics-first tracks plus root physical-cost theorem, proof audits and integration.",
+    "checkpoint1_baseline_sha": "4743ad65eff2ce1a63bf8572e4e2bf0751b0426d",
+    "checkpoint1_verification": "sessions/2026-11-16-S016/CHECKPOINT1-VALIDATION.json",
+    "new_results": [
+      "BIT-MEET-FOUR",
+      "BIT-MEET-SIX-EARLY-HELPERS",
+      "BIT-EARLY-HELPER-LIFT",
+      "BIT-FUNNEL-CACHE-QUOTIENT",
+      "BIT-FLAT-GROUND-GATE",
+      "BIT-UNIFORM-QUERY-COST",
+      "COMPLEX-MODULAR-PARABOLIC",
+      "BIT-CACHE-QUOTIENT-WORD",
+      "BIT-D4-SINGLE-MEET-GATE",
+      "COMPLEX-QUADRATIC-SECTOR-SOURCE",
+      "COMPLEX-COMPONENT-RANK-CENSUS",
+      "BIT-SINGULAR-EIGHT-SEED",
+      "BIT-SINGULAR-TWELVE-SOURCE",
+      "NONLINEAR-COMPACT-CONTROL",
+      "FIXED-MONOMIAL-COMPACT-BRIDGE",
+      "COMPLEX-NONCLIFFORD-NATIVE",
+      "COMPLEX-NONCLIFFORD-LATTICE-GATE",
+      "BIT-REVERSIBLE-FIFTEEN-FORK",
+      "BIT-FILTERED-W15-HISTORY",
+      "BIT-FROZEN-HISTORY-VISIBILITY",
+      "COMPLEX-BOOLEAN-SIGN-FAMILY",
+      "COMPLEX-FOUR-SOURCE-CLASSES",
+      "COMPLEX-LITERAL-NATIVE-SIGN-BRIDGE"
+    ],
+    "checkpoint2_baseline_sha": "b09e94f920c2940d7d6c0581fb9a94add0d0a9b2",
+    "checkpoint2_confirmed_remote_sha": "430aa1d7e50e544b8635c0a876d628c0ef4f7ae4",
+    "checkpoint3_baseline_sha": "430aa1d7e50e544b8635c0a876d628c0ef4f7ae4",
+    "checkpoint3_verification": "sessions/2026-11-16-S016/CHECKPOINT3-VALIDATION.json",
+    "checkpoint3_confirmed_remote_sha": "b8d03fe19506e4b7fd93f0f72f4f17a71c2fe89f",
+    "checkpoint4_baseline_sha": "b8d03fe19506e4b7fd93f0f72f4f17a71c2fe89f",
+    "checkpoint4_verification": "sessions/2026-11-16-S016/CHECKPOINT4-VALIDATION.json"
+  }
+}

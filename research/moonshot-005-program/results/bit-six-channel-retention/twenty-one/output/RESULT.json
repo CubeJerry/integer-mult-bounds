@@ -1,0 +1,349 @@
+{
+  "status": "PASS_ACTUAL_THREE_DOUBLE_RETENTIONS_TWENTYONE",
+  "columns": 222,
+  "targets": [
+    1,
+    3,
+    4,
+    6,
+    7,
+    11,
+    12,
+    16,
+    21,
+    22,
+    23,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "counts": {
+    "INIT": 84,
+    "ADD": 787,
+    "MOVE": 413,
+    "CLEAR": 84
+  },
+  "movement_profile": {
+    "1": 84,
+    "2": 72,
+    "3": 50,
+    "4": 13,
+    "5": 71,
+    "6": 20,
+    "7": 102,
+    "8": 1
+  },
+  "peak_owners": 84,
+  "dirty_clears": 84,
+  "new_complete_kappa": false,
+  "semantic_negative_controls": [
+    {
+      "name": "first_capture_0",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_C0')"
+    },
+    {
+      "name": "first_reset_0",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_M16')"
+    },
+    {
+      "name": "second_capture_0",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_M16')"
+    },
+    {
+      "name": "second_reset_0",
+      "rejected": true,
+      "reason": "('seed_contract', 'P0')"
+    },
+    {
+      "name": "raw_query_0",
+      "rejected": true,
+      "reason": "('seed_contract', 'P0')"
+    },
+    {
+      "name": "nonlocal_delivery_16",
+      "rejected": true,
+      "reason": "('Y_endpoint', 16)"
+    },
+    {
+      "name": "private_capture_16",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'PRIVATE16')"
+    },
+    {
+      "name": "shared_read_16",
+      "rejected": true,
+      "reason": "('Y_endpoint', 16)"
+    },
+    {
+      "name": "first_capture_1",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_C1')"
+    },
+    {
+      "name": "first_reset_1",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_M23')"
+    },
+    {
+      "name": "second_capture_1",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_M23')"
+    },
+    {
+      "name": "second_reset_1",
+      "rejected": true,
+      "reason": "('seed_contract', 'P1')"
+    },
+    {
+      "name": "raw_query_1",
+      "rejected": true,
+      "reason": "('seed_contract', 'P1')"
+    },
+    {
+      "name": "nonlocal_delivery_23",
+      "rejected": true,
+      "reason": "('Y_endpoint', 23)"
+    },
+    {
+      "name": "private_capture_23",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'PRIVATE23')"
+    },
+    {
+      "name": "shared_read_23",
+      "rejected": true,
+      "reason": "('Y_endpoint', 23)"
+    },
+    {
+      "name": "first_capture_2",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_C2')"
+    },
+    {
+      "name": "first_reset_2",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_M22')"
+    },
+    {
+      "name": "second_capture_2",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_M22')"
+    },
+    {
+      "name": "second_reset_2",
+      "rejected": true,
+      "reason": "('seed_contract', 'P2')"
+    },
+    {
+      "name": "raw_query_2",
+      "rejected": true,
+      "reason": "('seed_contract', 'P2')"
+    },
+    {
+      "name": "nonlocal_delivery_22",
+      "rejected": true,
+      "reason": "('Y_endpoint', 22)"
+    },
+    {
+      "name": "private_capture_22",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'PRIVATE22')"
+    },
+    {
+      "name": "shared_read_22",
+      "rejected": true,
+      "reason": "('Y_endpoint', 22)"
+    },
+    {
+      "name": "shared_raw_capture",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "masked_first_retention_80",
+      "rejected": true,
+      "reason": "('Y_endpoint', 80)"
+    },
+    {
+      "name": "omit_new_X8_raw_capture",
+      "rejected": true,
+      "reason": "('seed_contract', 'P6')"
+    },
+    {
+      "name": "omit_new_displaced_filter_query",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_C0')"
+    },
+    {
+      "name": "omit_filtered_raw_capture",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_C0')"
+    },
+    {
+      "name": "omit_filtered_actual_query",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_C0')"
+    },
+    {
+      "name": "omit_filtered_retirement",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_early_donor_copy",
+      "rejected": true,
+      "reason": "('point_contract', 'E1')"
+    },
+    {
+      "name": "omit_early_donor_ground_arrival",
+      "rejected": true,
+      "reason": "('bad_ADD', 1064, ['ADD', 'E1', 'P7'], 'L1', 'zero')"
+    },
+    {
+      "name": "omit_actual_common_capture",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_M16')"
+    },
+    {
+      "name": "omit_h1_pair_descent",
+      "rejected": true,
+      "reason": "('bad_ADD', 1127, ['ADD', 'Q1', 'Y4'], 'C1', 'M1')"
+    },
+    {
+      "name": "omit_fork_donor_1",
+      "rejected": true,
+      "reason": "('X_restoration', 1)"
+    },
+    {
+      "name": "omit_old_endpoint_aggregate_21",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_C0')"
+    },
+    {
+      "name": "omit_actual_cross_facet_source_3",
+      "rejected": true,
+      "reason": "('X_restoration', 1)"
+    },
+    {
+      "name": "omit_donor_mask_21",
+      "rejected": true,
+      "reason": "('Y_endpoint', 21)"
+    },
+    {
+      "name": "omit_new_delivery_21",
+      "rejected": true,
+      "reason": "('Y_endpoint', 21)"
+    },
+    {
+      "name": "omit_fork_donor_73",
+      "rejected": true,
+      "reason": "('X_restoration', 61)"
+    },
+    {
+      "name": "omit_old_endpoint_aggregate_64",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_C1')"
+    },
+    {
+      "name": "omit_actual_cross_facet_source_76",
+      "rejected": true,
+      "reason": "('X_restoration', 61)"
+    },
+    {
+      "name": "omit_donor_mask_64",
+      "rejected": true,
+      "reason": "('Y_endpoint', 64)"
+    },
+    {
+      "name": "omit_new_delivery_64",
+      "rejected": true,
+      "reason": "('Y_endpoint', 64)"
+    },
+    {
+      "name": "omit_fork_donor_77",
+      "rejected": true,
+      "reason": "('Y_endpoint', 65)"
+    },
+    {
+      "name": "omit_old_endpoint_aggregate_65",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_C2')"
+    },
+    {
+      "name": "omit_actual_cross_facet_source_80",
+      "rejected": true,
+      "reason": "('Y_endpoint', 65)"
+    },
+    {
+      "name": "omit_donor_mask_65",
+      "rejected": true,
+      "reason": "('Y_endpoint', 65)"
+    },
+    {
+      "name": "omit_new_delivery_65",
+      "rejected": true,
+      "reason": "('Y_endpoint', 65)"
+    },
+    {
+      "name": "omit_actual_held_query_21",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_C0')"
+    },
+    {
+      "name": "omit_actual_held_query_64",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_C1')"
+    },
+    {
+      "name": "omit_actual_held_query_65",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_C2')"
+    },
+    {
+      "name": "omit_compensated_Hub_seed",
+      "rejected": true,
+      "reason": "('new_owner_contract', 'KEEP_C0')"
+    },
+    {
+      "name": "omit_point_seed_correction",
+      "rejected": true,
+      "reason": "('seed_contract', 'P2')"
+    },
+    {
+      "name": "omit_donor_restoration",
+      "rejected": true,
+      "reason": "('X_restoration', 1)"
+    },
+    {
+      "name": "omit_carrier_restoration",
+      "rejected": true,
+      "reason": "('X_restoration', 10)"
+    },
+    {
+      "name": "omit_owner_retirement",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "false_early_point_Hub_birth",
+      "rejected": true,
+      "reason": "('bad_ADD', 70, ['ADD', 'X1', 'E1'], 'L1', 'Hub')"
+    },
+    {
+      "name": "false_rank6_common_chart_for_new_receivers",
+      "rejected": true,
+      "reason": ""
+    }
+  ],
+  "word_sha256": "1253ce71d23750d912ca9b43837c9b0193c61ecebf967fe44287d2bdc195522d"
+}
