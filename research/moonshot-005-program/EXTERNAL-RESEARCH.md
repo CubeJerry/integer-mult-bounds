@@ -370,3 +370,7 @@ No upstream commits or external candidate certificates merged. New source/bank p
 ## Final refresh at03:37:23UTC
 
 Main remains e54523517d0f03e58352e647c403a5af3e525a57. New open [#7625](https://github.com/CrocSwap/integer-mult-bounds/pull/7625), head33a84ab4622a5130e0dbca7bee207aee12f905e6, states conditional.003663028410 under a stronger common finite-tariff whole-private-extent supplierU. Its description explicitly saysU is unimplemented and no implication from the original erasure premise or same-original-premise dominance is established. Metadata/stated scope reviewed; no source replay/admission here. It does not replace the selected benchmark. #7624 remains open with its own unresolved extra erasure applicability. No upstream branch/certificate changed.
+
+## S017 initial upstream refresh
+
+At06:26:24UTC, main remains e54523517d0f03e58352e647c403a5af3e525a57. Targeted PR search sinceS016 final03:37:23UTC finds no updates. #7625/#7624 retain their previously recorded stronger-supplier/extra-erasure limitations; neither is admitted or selected. Exact receipt: sessions/2026-11-16-S017/UPSTREAM-RECONNAISSANCE.json. The bottleneck brief's old opening is superseded by the selected record. No external source theorem was imported.

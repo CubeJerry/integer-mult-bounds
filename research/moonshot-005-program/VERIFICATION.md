@@ -768,3 +768,9 @@ Eighteen reproduction commands pass, with four byte-identical rebuilt words. Sep
 ## Closing source-selection audit
 
 The exact live Hub rank102 and59 oldqueries were independently reproduced with audit_source_selection_cut.py. This is inherited source mathematics, credited to the earlier forked/canonical-history proofs, not a new rank breakthrough. Current Hub-plus-C9 rank109/intersection2 and nonvisibility ofC0/D3_21 to24/42/69 are exact fixed-source audit data. A selected new recipe and its history/custody/erasure invoice remain unintegrated. The closing hash audit retains the two previously documented unavailable historical files without upgrading them to verified evidence.
+
+## S017 checkpoint1
+
+Actual36 author word and frozen closure are reproduced from integrated scripts. A separately written SymPy rational-chart/full222 interpreter checks source custody, unchanged X moves, common-space inclusion14→15,117/916/437/117 costs,12 semantic omissions and75 duals against all record histories. Independent decimal-scale exact200th-root bounds enclose the author's binary-scale prices.
+
+The leaf-capacity author and root use independent geometry/coefficient implementations. Root audits the quotient/feedback proof and exact side ranks(0,0,0,0,0,1,1,0), including the real donor leaks. No unsupported cost corollary is admitted. See per-package reviews, manifests and sessions/2026-11-16-S017/CHECKPOINT1-VALIDATION.json. No new complete κ, formal-kernel acceptance, or foundational discharge.

@@ -1,0 +1,601 @@
+{
+  "status": "PASS_INDEPENDENT_ACTUAL36_SOURCE_AND_PRICE",
+  "base_word_sha256": "e4d451886a134c648f71fadac5b7f6f8693e5495b60416d137cfe0d0e563e050",
+  "new_word_sha256": "af51d0d7c872dbf3fa3744b582769d4c7763e0747e57c74005d091d19b7da474",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "independent_engine_sha256": "b5402a2dbdd8f49efac3fee678d88ca653bb5d1d6b80ae6fd47372c777db2762",
+  "replay": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 117,
+      "ADD": 916,
+      "MOVE": 437,
+      "CLEAR": 117
+    },
+    "movement_profile": {
+      "1": 110,
+      "2": 66,
+      "3": 57,
+      "4": 13,
+      "5": 73,
+      "6": 25,
+      "7": 93
+    },
+    "dirty_CLEAR": 117,
+    "peak_owned": 117,
+    "historical_record_states": 1692
+  },
+  "all_original_X_MOVE_operations_identical": true,
+  "old_seed_cut_value_changes": {
+    "ZKEEP2": [
+      "0x2f000c000005000000000000000",
+      "0x400000000000"
+    ],
+    "P3": [
+      "0x41",
+      "0x20000000040"
+    ]
+  },
+  "old_seed_cut_charts_unchanged": true,
+  "new_actual_source_events": [
+    {
+      "step": 2,
+      "operation": [
+        "ADD",
+        "X41",
+        "RAW41"
+      ],
+      "source_value_hex": "0x20000000000",
+      "source_chart": "L41",
+      "destination_chart": "L41"
+    },
+    {
+      "step": 577,
+      "operation": [
+        "ADD",
+        "X46",
+        "CAP46"
+      ],
+      "source_value_hex": "0x400000000000",
+      "source_chart": "C2",
+      "destination_chart": "M1"
+    },
+    {
+      "step": 989,
+      "operation": [
+        "ADD",
+        "CAP46",
+        "P3"
+      ],
+      "source_value_hex": "0x400000000000",
+      "source_chart": "M1",
+      "destination_chart": "M1"
+    },
+    {
+      "step": 994,
+      "operation": [
+        "ADD",
+        "RAW41",
+        "P3"
+      ],
+      "source_value_hex": "0x20000000000",
+      "source_chart": "L41",
+      "destination_chart": "L41"
+    }
+  ],
+  "common_rank_before": 14,
+  "common_rank_after": 15,
+  "old_common_space_retained": true,
+  "exact_profile_delta": {
+    "1": 1,
+    "6": 1,
+    "7": -1
+  },
+  "new_endpoints": [
+    41,
+    46
+  ],
+  "independent_directed_price": {
+    "method": "integer200th roots, scale10^32, exact fractions",
+    "moment": {
+      "lower": "1618.68090638173975539397030090850603",
+      "upper": "1618.6809063817397553939703009085093",
+      "lower_fraction": "161868090638173975539397030090850603/100000000000000000000000000000000",
+      "upper_fraction": "16186809063817397553939703009085093/10000000000000000000000000000000"
+    },
+    "limiting_allowance": {
+      "lower": "1621.750880211152355246246150366993875",
+      "upper": "1621.75088021115235524624615036699603333333333333",
+      "lower_fraction": "12974007041689218841969969202935951/8000000000000000000000000000000",
+      "upper_fraction": "48652526406334570657387384511009881/30000000000000000000000000000000"
+    },
+    "limiting_room": {
+      "lower": "3.069973829412599852275849458484575",
+      "upper": "3.06997382941259985227584945849000333333333333333",
+      "lower_fraction": "122798953176503994091033978339383/40000000000000000000000000000000",
+      "upper_fraction": "920992148823779955682754837547001/300000000000000000000000000000000"
+    },
+    "increment": {
+      "lower": "0.0142638812495222131405457448126",
+      "upper": "0.01426388124952221314054574481262",
+      "lower_fraction": "71319406247611065702728724063/5000000000000000000000000000000",
+      "upper_fraction": "713194062476110657027287240631/50000000000000000000000000000000"
+    }
+  },
+  "author_price_interval_contained_in_independent_interval": true,
+  "independently_checked_75_closure_duals": [
+    {
+      "receiver": 5,
+      "dual_hex": "0x20",
+      "independently_checked_measurements": 415
+    },
+    {
+      "receiver": 8,
+      "dual_hex": "0x100",
+      "independently_checked_measurements": 395
+    },
+    {
+      "receiver": 9,
+      "dual_hex": "0x200",
+      "independently_checked_measurements": 380
+    },
+    {
+      "receiver": 13,
+      "dual_hex": "0x2000",
+      "independently_checked_measurements": 382
+    },
+    {
+      "receiver": 14,
+      "dual_hex": "0x4000",
+      "independently_checked_measurements": 407
+    },
+    {
+      "receiver": 15,
+      "dual_hex": "0x8000",
+      "independently_checked_measurements": 394
+    },
+    {
+      "receiver": 17,
+      "dual_hex": "0x20000",
+      "independently_checked_measurements": 385
+    },
+    {
+      "receiver": 18,
+      "dual_hex": "0x40000",
+      "independently_checked_measurements": 391
+    },
+    {
+      "receiver": 24,
+      "dual_hex": "0x1000000",
+      "independently_checked_measurements": 370
+    },
+    {
+      "receiver": 25,
+      "dual_hex": "0x2000000",
+      "independently_checked_measurements": 393
+    },
+    {
+      "receiver": 26,
+      "dual_hex": "0x4000000",
+      "independently_checked_measurements": 390
+    },
+    {
+      "receiver": 29,
+      "dual_hex": "0x20000000",
+      "independently_checked_measurements": 354
+    },
+    {
+      "receiver": 31,
+      "dual_hex": "0x80000000",
+      "independently_checked_measurements": 378
+    },
+    {
+      "receiver": 32,
+      "dual_hex": "0x100000000",
+      "independently_checked_measurements": 423
+    },
+    {
+      "receiver": 33,
+      "dual_hex": "0x200000000",
+      "independently_checked_measurements": 409
+    },
+    {
+      "receiver": 34,
+      "dual_hex": "0x400000000",
+      "independently_checked_measurements": 400
+    },
+    {
+      "receiver": 35,
+      "dual_hex": "0x800000000",
+      "independently_checked_measurements": 373
+    },
+    {
+      "receiver": 36,
+      "dual_hex": "0x1000000000",
+      "independently_checked_measurements": 383
+    },
+    {
+      "receiver": 37,
+      "dual_hex": "0x2000000000",
+      "independently_checked_measurements": 360
+    },
+    {
+      "receiver": 40,
+      "dual_hex": "0x10000000000",
+      "independently_checked_measurements": 381
+    },
+    {
+      "receiver": 42,
+      "dual_hex": "0x40000000000",
+      "independently_checked_measurements": 376
+    },
+    {
+      "receiver": 45,
+      "dual_hex": "0x200000000000",
+      "independently_checked_measurements": 372
+    },
+    {
+      "receiver": 47,
+      "dual_hex": "0x800000000000",
+      "independently_checked_measurements": 409
+    },
+    {
+      "receiver": 49,
+      "dual_hex": "0x2000000000000",
+      "independently_checked_measurements": 385
+    },
+    {
+      "receiver": 50,
+      "dual_hex": "0x4000000000000",
+      "independently_checked_measurements": 376
+    },
+    {
+      "receiver": 51,
+      "dual_hex": "0x8000000000000",
+      "independently_checked_measurements": 390
+    },
+    {
+      "receiver": 52,
+      "dual_hex": "0x10000000000000",
+      "independently_checked_measurements": 382
+    },
+    {
+      "receiver": 53,
+      "dual_hex": "0x20000000000000",
+      "independently_checked_measurements": 377
+    },
+    {
+      "receiver": 54,
+      "dual_hex": "0x40000000000000",
+      "independently_checked_measurements": 385
+    },
+    {
+      "receiver": 55,
+      "dual_hex": "0x80000000000000",
+      "independently_checked_measurements": 398
+    },
+    {
+      "receiver": 56,
+      "dual_hex": "0x100000000000000",
+      "independently_checked_measurements": 382
+    },
+    {
+      "receiver": 57,
+      "dual_hex": "0x200000000000000",
+      "independently_checked_measurements": 373
+    },
+    {
+      "receiver": 58,
+      "dual_hex": "0x400000000000000",
+      "independently_checked_measurements": 384
+    },
+    {
+      "receiver": 59,
+      "dual_hex": "0x800000000000000",
+      "independently_checked_measurements": 416
+    },
+    {
+      "receiver": 60,
+      "dual_hex": "0x1000000000000000",
+      "independently_checked_measurements": 412
+    },
+    {
+      "receiver": 61,
+      "dual_hex": "0x2000000000000000",
+      "independently_checked_measurements": 400
+    },
+    {
+      "receiver": 62,
+      "dual_hex": "0x4000000000000000",
+      "independently_checked_measurements": 380
+    },
+    {
+      "receiver": 63,
+      "dual_hex": "0x8000000000000000",
+      "independently_checked_measurements": 376
+    },
+    {
+      "receiver": 66,
+      "dual_hex": "0x40000000000000000",
+      "independently_checked_measurements": 380
+    },
+    {
+      "receiver": 67,
+      "dual_hex": "0x80000000000000000",
+      "independently_checked_measurements": 395
+    },
+    {
+      "receiver": 68,
+      "dual_hex": "0x100000000000000000",
+      "independently_checked_measurements": 400
+    },
+    {
+      "receiver": 69,
+      "dual_hex": "0x200000000000000000",
+      "independently_checked_measurements": 375
+    },
+    {
+      "receiver": 70,
+      "dual_hex": "0x400000000000000000",
+      "independently_checked_measurements": 376
+    },
+    {
+      "receiver": 71,
+      "dual_hex": "0x800000000000000000",
+      "independently_checked_measurements": 391
+    },
+    {
+      "receiver": 72,
+      "dual_hex": "0x1000000000000000000",
+      "independently_checked_measurements": 400
+    },
+    {
+      "receiver": 81,
+      "dual_hex": "0x200000000000000000000",
+      "independently_checked_measurements": 410
+    },
+    {
+      "receiver": 82,
+      "dual_hex": "0x400000000000000000000",
+      "independently_checked_measurements": 393
+    },
+    {
+      "receiver": 83,
+      "dual_hex": "0x800000000000000000000",
+      "independently_checked_measurements": 387
+    },
+    {
+      "receiver": 84,
+      "dual_hex": "0x1000000000000000000000",
+      "independently_checked_measurements": 406
+    },
+    {
+      "receiver": 85,
+      "dual_hex": "0x2000000000000000000000",
+      "independently_checked_measurements": 377
+    },
+    {
+      "receiver": 86,
+      "dual_hex": "0x4000000000000000000000",
+      "independently_checked_measurements": 393
+    },
+    {
+      "receiver": 87,
+      "dual_hex": "0x8000000000000000000000",
+      "independently_checked_measurements": 391
+    },
+    {
+      "receiver": 88,
+      "dual_hex": "0x10000000000000000000000",
+      "independently_checked_measurements": 422
+    },
+    {
+      "receiver": 89,
+      "dual_hex": "0x20000000000000000000000",
+      "independently_checked_measurements": 432
+    },
+    {
+      "receiver": 90,
+      "dual_hex": "0x40000000000000000000000",
+      "independently_checked_measurements": 391
+    },
+    {
+      "receiver": 91,
+      "dual_hex": "0x80000000000000000000000",
+      "independently_checked_measurements": 405
+    },
+    {
+      "receiver": 92,
+      "dual_hex": "0x100000000000000000000000",
+      "independently_checked_measurements": 418
+    },
+    {
+      "receiver": 93,
+      "dual_hex": "0x200000000000000000000000",
+      "independently_checked_measurements": 432
+    },
+    {
+      "receiver": 94,
+      "dual_hex": "0x400000000000000000000000",
+      "independently_checked_measurements": 391
+    },
+    {
+      "receiver": 95,
+      "dual_hex": "0x800000000000000000000000",
+      "independently_checked_measurements": 409
+    },
+    {
+      "receiver": 96,
+      "dual_hex": "0x1000000000000000000000000",
+      "independently_checked_measurements": 388
+    },
+    {
+      "receiver": 97,
+      "dual_hex": "0x2000000000000000000000000",
+      "independently_checked_measurements": 391
+    },
+    {
+      "receiver": 98,
+      "dual_hex": "0x4000000000000000000000000",
+      "independently_checked_measurements": 389
+    },
+    {
+      "receiver": 99,
+      "dual_hex": "0x8000000000000000000000000",
+      "independently_checked_measurements": 395
+    },
+    {
+      "receiver": 100,
+      "dual_hex": "0x10000000000000000000000000",
+      "independently_checked_measurements": 384
+    },
+    {
+      "receiver": 101,
+      "dual_hex": "0x20000000000000000000000000",
+      "independently_checked_measurements": 391
+    },
+    {
+      "receiver": 102,
+      "dual_hex": "0x40000000000000000000000000",
+      "independently_checked_measurements": 389
+    },
+    {
+      "receiver": 103,
+      "dual_hex": "0x80000000000000000000000000",
+      "independently_checked_measurements": 418
+    },
+    {
+      "receiver": 104,
+      "dual_hex": "0x100000000000000000000000000",
+      "independently_checked_measurements": 405
+    },
+    {
+      "receiver": 105,
+      "dual_hex": "0x200000000000000000000000000",
+      "independently_checked_measurements": 396
+    },
+    {
+      "receiver": 106,
+      "dual_hex": "0x400000000000000000000000000",
+      "independently_checked_measurements": 382
+    },
+    {
+      "receiver": 107,
+      "dual_hex": "0x800000000000000000000000000",
+      "independently_checked_measurements": 410
+    },
+    {
+      "receiver": 108,
+      "dual_hex": "0x1000000000000000000000000000",
+      "independently_checked_measurements": 401
+    },
+    {
+      "receiver": 109,
+      "dual_hex": "0x2000000000000000000000000000",
+      "independently_checked_measurements": 392
+    },
+    {
+      "receiver": 110,
+      "dual_hex": "0x4000000000000000000000000000",
+      "independently_checked_measurements": 382
+    }
+  ],
+  "closure_scope": "Even all record histories with original-Y X-parts, geometric raw locals and free decoded-point feedback remain closed at36.",
+  "semantic_omissions_rejected_without_invoice_or_metadata_checks": [
+    {
+      "removed": [
+        "ADD",
+        "X41",
+        "RAW41"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X46",
+        "CAP46"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "CAP46",
+        "P3"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "RAW41",
+        "P3"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P3",
+        "Y41"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "E6",
+        "Y41"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "ZKEEP2",
+        "Y46"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "Y46",
+        "L41"
+      ],
+      "failure": "(1410, ['ADD', 'ZKEEP2', 'Y46'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "ZRAW0",
+        "Y2"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "E6",
+        "Y2"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "CLEAR",
+        "RAW41"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "CLEAR",
+        "CAP46"
+      ],
+      "failure": ""
+    }
+  ],
+  "scope": "Exact all222-column formal whole-record identities and rational geometry, all characteristic-two fields/widths. Physical erasure applicability, compiler, precision, complete suppliers and recursion remain open. No new kappa."
+}

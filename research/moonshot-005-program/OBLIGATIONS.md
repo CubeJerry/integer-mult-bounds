@@ -1,5 +1,13 @@
 # Current proof-dependency map
 
+## Current S017 checkpoint1 obligations
+
+**BIT-COMMON-TERMINAL-REUSE / proved:** an actually redundant terminal can be replaced after all old readers are reencoded from stable cocharted records; the new value still requires actual acquisition and transport. **BIT-ACTUAL36 / proved:** literal characteristic-two whole-record source, all222 original columns,36 endpoints, common rank15, exact costs and independent source/closure review. [Admission](results/bit-common-terminal-reuse/ADMISSION.md).
+
+**BIT-LEAF-CAPACITY13 / proved within the declared fixed interface:** all-width linear and finite-field fixed-length nonlinear codes need capacities(1,1,3,1,1,2,3,1)V at the eight specified ports, even with the stated history/local/feedback grants. Neither sufficiency nor a general movement floor follows. [Admission](results/bit-leaf-capacity-quotient/ADMISSION.md).
+
+**BIT-COUPLED-CODED-DELIVERY / open:** complete75 remaining endpoints by genuinely changed common codes, upper histories, source coupling or port assignment, with actual chronology and full costs. The two new point directions do not by themselves defeat the13-capacity witnesses. **COMPLEX-EARLY-COUPLED421**, both strict suppliers, complete conditional005 and all five foundations remain open. Older next-action paragraphs below are historical and superseded by this entry and STATE.
+
 ## Final S016 dependency update
 
 BIT-SEPARATED-PORT108 is proved only for fixed source-bank assignments/ports/terminal pointspan. Actual port29 is proved, but its coarse envelope is110; actual protected port41 and its arbitrary fixed binary recipes from the real rank9 M1 inventory are proved. BIT-ZERO-MOVE-CROSS-BANK requires actual stable donor custody, unchanged intermediate addends and all capture-reader corrections; its literal instance adds3 ADD. The two transformations compose as exactly commuting operation words, independently checked on222 columns. Source availability, lower-chart placement and complete physical expense are now explicit. The OPEN primary theorem is a full77-output continuation of this actual architecture. Full-bank111 coverage, changed erased-row span membership and historical rank alone do not prove it. Existing strict complex/BIT interfaces and all five foundations remain. Older primary sections are historical; this paragraph and STATE define the current frontier.

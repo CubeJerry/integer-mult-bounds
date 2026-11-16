@@ -1,0 +1,177 @@
+{
+  "status": "PASS_ACTUAL_NEW_COMMON_TERMINAL36",
+  "word_sha256": "af51d0d7c872dbf3fa3744b582769d4c7763e0747e57c74005d091d19b7da474",
+  "base_word_sha256": "e4d451886a134c648f71fadac5b7f6f8693e5495b60416d137cfe0d0e563e050",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "input_columns": 222,
+  "targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    30,
+    38,
+    39,
+    41,
+    43,
+    44,
+    46,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "counts": {
+    "INIT": 117,
+    "ADD": 916,
+    "MOVE": 437,
+    "CLEAR": 117
+  },
+  "movement_profile": {
+    "1": 110,
+    "2": 66,
+    "3": 57,
+    "4": 13,
+    "5": 73,
+    "6": 25,
+    "7": 93
+  },
+  "dirty_CLEAR": 117,
+  "new_targets": [
+    41,
+    46
+  ],
+  "old_terminal_was_redundant_with_actual_ground": [
+    "ZRAW0",
+    "E6"
+  ],
+  "common_rank_before": 14,
+  "common_rank_after": 15,
+  "old_common_space_preserved": true,
+  "ground_row_change": "P3: X0+X6 to X41+X6",
+  "new_nonlocal_leaf_row": "ZKEEP2: X46",
+  "only_old_seed_cut_values_changed": [
+    "P3",
+    "ZKEEP2"
+  ],
+  "exact_movement_increment": "[1]+[6]-[7]",
+  "semantic_negative_controls": [
+    {
+      "removed": [
+        "ADD",
+        "X41",
+        "RAW41"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X46",
+        "CAP46"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "CAP46",
+        "P3"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "RAW41",
+        "P3"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P3",
+        "Y41"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "E6",
+        "Y41"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "ZKEEP2",
+        "Y46"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "Y46",
+        "L41"
+      ],
+      "rejected": "(1410, ['ADD', 'ZKEEP2', 'Y46'])"
+    },
+    {
+      "removed": [
+        "ADD",
+        "ZRAW0",
+        "Y2"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "E6",
+        "Y2"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "CLEAR",
+        "RAW41"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "CLEAR",
+        "CAP46"
+      ],
+      "rejected": ""
+    }
+  ],
+  "controls_disable_invoice_source_cut_and_milestones": true,
+  "scope": "Literal whole-record binary source and receiver construction for every characteristic-two field/width; all physical framework assumptions retained.36/111 partial endpoints; no newkappa."
+}

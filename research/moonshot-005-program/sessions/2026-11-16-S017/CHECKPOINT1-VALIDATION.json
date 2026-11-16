@@ -1,0 +1,110 @@
+{
+  "status": "PASS_CHECKPOINT1_REPRODUCTION",
+  "baseline_sha": "3057acc9311101cfedfcfacf7f68fb0866507871",
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-common-terminal-reuse/author/build_reprogram36.py",
+        "--repo",
+        "/workspace/scratch/5b84182f4f70/programme",
+        "--out",
+        "/workspace/scratch/5b84182f4f70/verification/cp1/author"
+      ],
+      "exit_code": 0,
+      "seconds": 1.2264135039986286,
+      "last_output": "PASS_ACTUAL_NEW_COMMON_TERMINAL36 af51d0d7c872dbf3fa3744b582769d4c7763e0747e57c74005d091d19b7da474 {'INIT': 117, 'ADD': 916, 'MOVE': 437, 'CLEAR': 117} rank 14 15\n"
+    },
+    {
+      "command": [
+        "python3",
+        "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-common-terminal-reuse/author/closure36.py",
+        "--repo",
+        "/workspace/scratch/5b84182f4f70/programme",
+        "--out",
+        "/workspace/scratch/5b84182f4f70/verification/cp1/author"
+      ],
+      "exit_code": 0,
+      "seconds": 9.92418113599706,
+      "last_output": "PASS_ACTUAL36_FROZEN_INFORMATION_AUDIT closure 36 newly admitted information [] duals 75 common 15\n"
+    },
+    {
+      "command": [
+        "python3",
+        "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-common-terminal-reuse/independent-review/check.py",
+        "--repo",
+        "/workspace/scratch/5b84182f4f70/programme",
+        "--base",
+        "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-composed-coded-source/author/output/WORD.json",
+        "--word",
+        "/workspace/scratch/5b84182f4f70/verification/cp1/author/WORD.json",
+        "--engine",
+        "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py",
+        "--author-price",
+        "/workspace/scratch/5b84182f4f70/verification/cp1/author/PRICE.json",
+        "--closure",
+        "/workspace/scratch/5b84182f4f70/verification/cp1/author/CLOSURE.json",
+        "--out",
+        "/workspace/scratch/5b84182f4f70/verification/cp1/independent36.json"
+      ],
+      "exit_code": 0,
+      "seconds": 7.125489774000016,
+      "last_output": "{\"status\": \"PASS_INDEPENDENT_ACTUAL36_SOURCE_AND_PRICE\", \"counts\": {\"INIT\": 117, \"ADD\": 916, \"MOVE\": 437, \"CLEAR\": 117}, \"moment\": {\"lower\": \"1618.68090638173975539397030090850603\", \"upper\": \"1618.6809063817397553939703009085093\", \"lower_fraction\": \"161868090638173975539397030090850603/100000000000000000000000000000000\", \"upper_fraction\": \"16186809063817397553939703009085093/10000000000000000000000000000000\"}, \"room\": {\"lower\": \"3.069973829412599852275849458484575\", \"upper\": \"3.06997382941259985227584945849000333333333333333\", \"lower_fraction\": \"122798953176503994091033978339383/40000000000000000000000000000000\", \"upper_fraction\": \"920992148823779955682754837547001/300000000000000000000000000000000\"}, \"controls\": 12}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py",
+        "--repo",
+        "/workspace/scratch/5b84182f4f70/programme",
+        "--word",
+        "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-composed-coded-source/author/output/WORD.json",
+        "--out",
+        "/workspace/scratch/5b84182f4f70/verification/cp1/leaf34.json"
+      ],
+      "exit_code": 0,
+      "seconds": 1.7869684060024156,
+      "last_output": "{\"status\": \"PASS_EXACT_LEAF_CAPACITY_THIRTEEN_QUOTIENT\", \"word_sha256\": \"e4d451886a134c648f71fadac5b7f6f8693e5495b60416d137cfe0d0e563e050\", \"history_states\": 1681, \"capacity_floor\": [1, 1, 3, 1, 1, 2, 3, 1], \"whole_bank_closure\": 111, \"controls\": 3}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py",
+        "--repo",
+        "/workspace/scratch/5b84182f4f70/programme",
+        "--word",
+        "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-common-terminal-reuse/author/WORD.json",
+        "--expected-word-sha",
+        "af51d0d7c872dbf3fa3744b582769d4c7763e0747e57c74005d091d19b7da474",
+        "--out",
+        "/workspace/scratch/5b84182f4f70/verification/cp1/leaf36.json"
+      ],
+      "exit_code": 0,
+      "seconds": 1.8420291139991605,
+      "last_output": "{\"status\": \"PASS_EXACT_LEAF_CAPACITY_THIRTEEN_QUOTIENT\", \"word_sha256\": \"af51d0d7c872dbf3fa3744b582769d4c7763e0747e57c74005d091d19b7da474\", \"history_states\": 1692, \"capacity_floor\": [1, 1, 3, 1, 1, 2, 3, 1], \"whole_bank_closure\": 111, \"controls\": 3}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-leaf-capacity-quotient/root-review/check.py",
+        "--repo",
+        "/workspace/scratch/5b84182f4f70/programme",
+        "--word",
+        "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-common-terminal-reuse/author/WORD.json",
+        "--out",
+        "/workspace/scratch/5b84182f4f70/verification/cp1/leafroot36.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.4672653769994213,
+      "last_output": "PASS_ROOT_INDEPENDENT_LEAF_CAPACITY_HYPOTHESES 13 1692\n"
+    }
+  ],
+  "byte_identical_author_files": [
+    "WORD.json",
+    "RESULT.json",
+    "CLOSURE.json",
+    "PRICE.json",
+    "HISTORY-SNAPSHOTS.json"
+  ],
+  "new_complete_kappa": false
+}
