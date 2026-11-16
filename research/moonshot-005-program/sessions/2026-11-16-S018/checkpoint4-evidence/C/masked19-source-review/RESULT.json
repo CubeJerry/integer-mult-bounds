@@ -1,0 +1,765 @@
+{
+  "status": "PASS_INDEPENDENT_ACTUAL_M0_MASKED19_SOURCE_AND_FAMILY",
+  "word_sha256": "fd9ce4903aab198d234e6956a877e97241ed7268c7dba657064fa8ebf8cba84c",
+  "base_word_sha256": "12ccd57ba43a8d4902c04724c70489a348266690d20ce2269ff68eec34b4835e",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "before": {
+    "counts": {
+      "MOVE": 437,
+      "INIT": 136,
+      "ADD": 388,
+      "CLEAR": 136
+    },
+    "movement_profile": {
+      "1": 173,
+      "2": 14,
+      "3": 40,
+      "4": 44,
+      "5": 13,
+      "6": 6,
+      "7": 147
+    },
+    "dirty_CLEAR": 136,
+    "peak_owned": 136,
+    "all_222_endpoints": true
+  },
+  "after": {
+    "counts": {
+      "MOVE": 469,
+      "INIT": 136,
+      "ADD": 448,
+      "CLEAR": 136
+    },
+    "movement_profile": {
+      "1": 211,
+      "2": 14,
+      "3": 34,
+      "4": 35,
+      "5": 35,
+      "6": 9,
+      "7": 131
+    },
+    "dirty_CLEAR": 136,
+    "peak_owned": 133,
+    "all_222_endpoints": true
+  },
+  "actual_mask_partition": [
+    [
+      31,
+      57,
+      58,
+      82,
+      87,
+      97,
+      105
+    ],
+    [
+      13,
+      33,
+      59,
+      83,
+      96,
+      109
+    ],
+    [
+      14,
+      52,
+      60,
+      86,
+      100,
+      101
+    ]
+  ],
+  "exact_eligible_native_sources": [
+    [
+      31,
+      57,
+      58,
+      59,
+      60,
+      82,
+      83,
+      86,
+      87,
+      96,
+      97,
+      100,
+      101,
+      105,
+      109
+    ],
+    [
+      13,
+      14,
+      31,
+      33,
+      52,
+      57,
+      58,
+      59,
+      82,
+      83,
+      96,
+      97,
+      109
+    ],
+    [
+      13,
+      14,
+      31,
+      33,
+      52,
+      57,
+      58,
+      60,
+      86,
+      87,
+      100,
+      101,
+      105
+    ]
+  ],
+  "feedback_cells": [
+    {
+      "primary": 21,
+      "target": 34,
+      "feedback": 550,
+      "purification": 554,
+      "capture": 555,
+      "reset": 556,
+      "snapshot_CLEAR": 557,
+      "shared_descent": 932
+    },
+    {
+      "primary": 64,
+      "target": 108,
+      "feedback": 583,
+      "purification": 587,
+      "capture": 588,
+      "reset": 589,
+      "snapshot_CLEAR": 590,
+      "shared_descent": 933
+    },
+    {
+      "primary": 65,
+      "target": 104,
+      "feedback": 616,
+      "purification": 620,
+      "capture": 621,
+      "reset": 622,
+      "snapshot_CLEAR": 623,
+      "shared_descent": 934
+    }
+  ],
+  "all25_named_ground_fields_unchanged": [
+    "ADDED_RAW36",
+    "ADDED_RAW37",
+    "ADDED_RAW50",
+    "ADDED_RAW8",
+    "ADDED_RAW9",
+    "COMMON_RAW2",
+    "DIRECT_RAW10",
+    "DIRECT_RAW20",
+    "E1",
+    "E6",
+    "E73",
+    "E75",
+    "E77",
+    "E79",
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "ZRAW0",
+    "ZRAW28",
+    "ZRAW44"
+  ],
+  "unaffected_core_state_comparisons": 245508,
+  "actual_live_owner_count": 133,
+  "actual_live_owner_rank": 57,
+  "actual_owner_Y_rank": 0,
+  "full_cut_nonidentity_X_support": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    31,
+    33,
+    34,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    57,
+    58,
+    59,
+    60,
+    61,
+    64,
+    65,
+    67,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    82,
+    83,
+    86,
+    87,
+    88,
+    90,
+    92,
+    94,
+    96,
+    97,
+    100,
+    101,
+    104,
+    105,
+    108,
+    109
+  ],
+  "full_cut_nonidentity_X_support_count": 76,
+  "reset_coordinate_set_S57": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    34,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    61,
+    64,
+    65,
+    67,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    88,
+    90,
+    92,
+    94,
+    104,
+    108
+  ],
+  "new_owned_X_rank_modulo_S57": 3,
+  "S57_scope": "This is a comparison coordinate set, not an assertion that raw S57 is already at ground in A word. A reset must acquire it physically.",
+  "retained_raw_native_originals": [
+    0,
+    2,
+    5,
+    7,
+    8,
+    9,
+    11,
+    12,
+    15,
+    17,
+    18,
+    19,
+    20,
+    24,
+    25,
+    26,
+    27,
+    28,
+    32,
+    35,
+    36,
+    37,
+    44,
+    50,
+    53,
+    54,
+    55,
+    56,
+    62,
+    63,
+    66,
+    68,
+    69,
+    70,
+    71,
+    72,
+    81,
+    84,
+    85,
+    89,
+    91,
+    93,
+    95,
+    98,
+    99,
+    102,
+    103,
+    106,
+    107,
+    110
+  ],
+  "remaining_raw_ground_Y_count": 56,
+  "complete_owned_MOVE_profile_before": {
+    "1": 49,
+    "3": 6,
+    "2": 3
+  },
+  "complete_owned_MOVE_profile_after": {
+    "1": 49,
+    "3": 6,
+    "2": 3
+  },
+  "formal_family": {
+    "parameters": 19,
+    "added_formal_columns": 19,
+    "raw_parameter_read_events": [
+      {
+        "index": 6,
+        "source": 31,
+        "destination": "MASK_SOURCE_0"
+      },
+      {
+        "index": 8,
+        "source": 31,
+        "destination": "Y21"
+      },
+      {
+        "index": 542,
+        "source": 31,
+        "destination": "P0"
+      },
+      {
+        "index": 11,
+        "source": 57,
+        "destination": "MASK_SOURCE_0"
+      },
+      {
+        "index": 13,
+        "source": 57,
+        "destination": "Y21"
+      },
+      {
+        "index": 543,
+        "source": 57,
+        "destination": "P0"
+      },
+      {
+        "index": 16,
+        "source": 58,
+        "destination": "MASK_SOURCE_0"
+      },
+      {
+        "index": 18,
+        "source": 58,
+        "destination": "Y21"
+      },
+      {
+        "index": 544,
+        "source": 58,
+        "destination": "P0"
+      },
+      {
+        "index": 21,
+        "source": 82,
+        "destination": "MASK_SOURCE_0"
+      },
+      {
+        "index": 23,
+        "source": 82,
+        "destination": "Y21"
+      },
+      {
+        "index": 545,
+        "source": 82,
+        "destination": "P0"
+      },
+      {
+        "index": 26,
+        "source": 87,
+        "destination": "MASK_SOURCE_0"
+      },
+      {
+        "index": 28,
+        "source": 87,
+        "destination": "Y21"
+      },
+      {
+        "index": 546,
+        "source": 87,
+        "destination": "P0"
+      },
+      {
+        "index": 31,
+        "source": 97,
+        "destination": "MASK_SOURCE_0"
+      },
+      {
+        "index": 33,
+        "source": 97,
+        "destination": "Y21"
+      },
+      {
+        "index": 547,
+        "source": 97,
+        "destination": "P0"
+      },
+      {
+        "index": 36,
+        "source": 105,
+        "destination": "MASK_SOURCE_0"
+      },
+      {
+        "index": 38,
+        "source": 105,
+        "destination": "Y21"
+      },
+      {
+        "index": 548,
+        "source": 105,
+        "destination": "P0"
+      },
+      {
+        "index": 50,
+        "source": 13,
+        "destination": "MASK_SOURCE_1"
+      },
+      {
+        "index": 52,
+        "source": 13,
+        "destination": "Y64"
+      },
+      {
+        "index": 576,
+        "source": 13,
+        "destination": "P1"
+      },
+      {
+        "index": 55,
+        "source": 33,
+        "destination": "MASK_SOURCE_1"
+      },
+      {
+        "index": 57,
+        "source": 33,
+        "destination": "Y64"
+      },
+      {
+        "index": 577,
+        "source": 33,
+        "destination": "P1"
+      },
+      {
+        "index": 60,
+        "source": 59,
+        "destination": "MASK_SOURCE_1"
+      },
+      {
+        "index": 62,
+        "source": 59,
+        "destination": "Y64"
+      },
+      {
+        "index": 578,
+        "source": 59,
+        "destination": "P1"
+      },
+      {
+        "index": 65,
+        "source": 83,
+        "destination": "MASK_SOURCE_1"
+      },
+      {
+        "index": 67,
+        "source": 83,
+        "destination": "Y64"
+      },
+      {
+        "index": 579,
+        "source": 83,
+        "destination": "P1"
+      },
+      {
+        "index": 70,
+        "source": 96,
+        "destination": "MASK_SOURCE_1"
+      },
+      {
+        "index": 72,
+        "source": 96,
+        "destination": "Y64"
+      },
+      {
+        "index": 580,
+        "source": 96,
+        "destination": "P1"
+      },
+      {
+        "index": 75,
+        "source": 109,
+        "destination": "MASK_SOURCE_1"
+      },
+      {
+        "index": 77,
+        "source": 109,
+        "destination": "Y64"
+      },
+      {
+        "index": 581,
+        "source": 109,
+        "destination": "P1"
+      },
+      {
+        "index": 89,
+        "source": 14,
+        "destination": "MASK_SOURCE_2"
+      },
+      {
+        "index": 91,
+        "source": 14,
+        "destination": "Y65"
+      },
+      {
+        "index": 609,
+        "source": 14,
+        "destination": "P2"
+      },
+      {
+        "index": 94,
+        "source": 52,
+        "destination": "MASK_SOURCE_2"
+      },
+      {
+        "index": 96,
+        "source": 52,
+        "destination": "Y65"
+      },
+      {
+        "index": 610,
+        "source": 52,
+        "destination": "P2"
+      },
+      {
+        "index": 99,
+        "source": 60,
+        "destination": "MASK_SOURCE_2"
+      },
+      {
+        "index": 101,
+        "source": 60,
+        "destination": "Y65"
+      },
+      {
+        "index": 611,
+        "source": 60,
+        "destination": "P2"
+      },
+      {
+        "index": 104,
+        "source": 86,
+        "destination": "MASK_SOURCE_2"
+      },
+      {
+        "index": 106,
+        "source": 86,
+        "destination": "Y65"
+      },
+      {
+        "index": 612,
+        "source": 86,
+        "destination": "P2"
+      },
+      {
+        "index": 109,
+        "source": 100,
+        "destination": "MASK_SOURCE_2"
+      },
+      {
+        "index": 111,
+        "source": 100,
+        "destination": "Y65"
+      },
+      {
+        "index": 613,
+        "source": 100,
+        "destination": "P2"
+      },
+      {
+        "index": 114,
+        "source": 101,
+        "destination": "MASK_SOURCE_2"
+      },
+      {
+        "index": 116,
+        "source": 101,
+        "destination": "Y65"
+      },
+      {
+        "index": 614,
+        "source": 101,
+        "destination": "P2"
+      }
+    ],
+    "parameter_monomials_cancel_at_all222_endpoints": true,
+    "actual_cut_mask_forms_exact": true,
+    "argument": "All parameter-dependent instructions read immutable raw originals, so the exact affine formal theta_i*x_i identity proves every binary mask selection. MOVE/INIT/CLEAR schedule is fixed. Three nonempty disjoint chosen forms give quotient rank3, not19."
+  },
+  "whole_moment": {
+    "rational": [
+      "1614614363984349927831692754956317360158319279/1000000000000000000000000000000000000000000",
+      "1614614363984349927831692754956317360158319537/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1614.614363984349927831692754956317360158319279",
+      "1614.614363984349927831692754956317360158319537"
+    ]
+  },
+  "moment_increment": {
+    "rational": [
+      "389522943756964407651611480744967988858171/1000000000000000000000000000000000000000000",
+      "389522943756964407651611480744967988858693/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "0.389522943756964407651611480744967988858171",
+      "0.389522943756964407651611480744967988858693"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "7136516226802427414553395410677626289595913/1000000000000000000000000000000000000000000",
+      "42819097360814564487320372464065757737578321/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "7.136516226802427414553395410677626289595913",
+      "7.1365162268024274145533954106776262895963868333333333333333333333333333333333333"
+    ]
+  },
+  "controls": [
+    {
+      "control": "omit true rank6 mask capture",
+      "rejected": true,
+      "reason": "('Y endpoint', 34)"
+    },
+    {
+      "control": "omit primary local mask observation",
+      "rejected": true,
+      "reason": "('Y endpoint', 21)"
+    },
+    {
+      "control": "omit actual Hub mask coefficient",
+      "rejected": true,
+      "reason": "('Y endpoint', 21)"
+    },
+    {
+      "control": "omit arbitrary original-Y snapshot",
+      "rejected": true,
+      "reason": "('Y endpoint', 34)"
+    },
+    {
+      "control": "omit actual Y purification",
+      "rejected": true,
+      "reason": "('Y endpoint', 34)"
+    },
+    {
+      "control": "omit changed packet reset",
+      "rejected": true,
+      "reason": "('Y endpoint', 16)"
+    },
+    {
+      "control": "omit actual retained-field descent",
+      "rejected": true,
+      "reason": "(935, 'co-location', ['ADD', 'KEEP_C0', 'Y34'], 'C0', 'M0_PAIR_COMMON')"
+    },
+    {
+      "control": "omit correction source retirement",
+      "rejected": true,
+      "reason": "complete lifetimes"
+    },
+    {
+      "control": "omit original-Y snapshot retirement",
+      "rejected": true,
+      "reason": "complete lifetimes"
+    },
+    {
+      "control": "changed unknown common source after all decoder reads",
+      "rejected": true,
+      "reason": "('actual retained masked field', 0)"
+    }
+  ],
+  "scope": "Actual native rank6 acquisition, original-Y purification, true common descent, unchanged owned MOVE profile and all222 formal endpoint columns. All five global foundations remain open; no additional endpoints, all111 supplier or kappa."
+}

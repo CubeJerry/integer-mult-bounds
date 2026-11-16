@@ -2111,3 +2111,26 @@ Parent `9efd07cdf070d84130b38a8db42be48de0f6accf` is the confirmed checkpoint2. 
 Root and B prove complementary first-interface exclusions permitting arbitrary ordinary second interstages: injective rank3 first-column stacks with idle-preserving C, and clean middle-first-column pivots with arbitrary remaining blocks. Separate reviews reconstruct the formal equations and noncommuting projector controls. Root proves a sufficient literal finite-group split compiler with explicit matrix units/common determinants and paid forward/inverse words. C independently checks source, group products, all primitives, a Gaussian exterior-i control and hidden-irrep width-one failure. No finite unit test is promoted to an all-width certificate.
 
 Reproduction and byte integrity are recorded separately. No new complete κ, strict supplier or foundation discharge. Workers continue unknown-mask acquisition along paid BIT descents and genuinely nonresidual complex interfaces. Resulting remote SHA is recorded only after confirmation.
+
+### S018 checkpoint4 — unknown masks, liberated source and complete clean-first gate
+
+Baseline7121dfd063b06d9958433e6459019453b162be77. C extends pure52 to55 with
+three actual M0 pairs. A carries three masks from19 actual rank6 donors
+through changing primary-Y histories without extra owned moves; C verifies
+all2^19 choices symbolically and root replays full222 columns. C constructs
+a mask-preserving same-interface reset with a real nonidentity Hub inverse;
+root verifies it and a distinct liberated55-output92-native source of moment
+1602.3277059631205026795. Source contracts and every adapter remain explicit.
+
+B and root establish clean-first normal form and progressively stronger
+whole-square/u=0/all-clean gates. B proves the inverse-support cut; root
+extends it to all clean C00,C10 with arbitrary C20,Q, and B independently
+reconstructs that extension. A valid paid rank1-isolation wrapper is preserved
+but its independent42 remainder is ruled out by the same cut. Future complex
+work must change C00 or C10 transport or architecture.13 reproduction commands
+and24 byte-identical outputs pass. The short runtime disconnection was recovered
+without file loss; remote checkpoint3 remained authoritative throughout.
+
+No new complete κ or foundation discharge. Session continues toward17:00:55UTC;
+paid59/locality work awaits independent review. Resulting remote SHA is recorded
+only after GitHub confirms the commit.

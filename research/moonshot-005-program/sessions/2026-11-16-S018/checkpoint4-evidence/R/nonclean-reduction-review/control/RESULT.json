@@ -1,0 +1,61 @@
+{
+  "status": "PASS_ROOT_NONCLEAN_TWO_BANK_REDUCTION_AND_PAID_WRAPPERS",
+  "proof_sha256": "417456d81d6180c33bf37736e49299411925e551d54dd1101d182c55d866adb7",
+  "free_noncommuting_exact_isolated_middle_row": true,
+  "remaining_two_bank_equation_exact": true,
+  "actual_b_beta": [
+    "D_c",
+    "D_d"
+  ],
+  "actual_u": "S^-1 D_b",
+  "actual_f": "X_a",
+  "nonclean_forward_u_support": [
+    4
+  ],
+  "outside_square_beta_support": [
+    2
+  ],
+  "C_counts": {
+    "MONOMIAL": 5,
+    "ADD": 6,
+    "SCALE": 3
+  },
+  "C_inverse_counts": {
+    "MONOMIAL": 5,
+    "SCALE": 9,
+    "ADD": 6
+  },
+  "Q_counts_including_two_shear_QA": {
+    "MONOMIAL": 6,
+    "ADD": 4,
+    "SCALE": 4
+  },
+  "Q_inverse_counts_including_two_shear_QA": {
+    "ADD": 4,
+    "MONOMIAL": 6,
+    "SCALE": 4
+  },
+  "width_independent_coefficient_bound_by_triangle_inequality": {
+    "C": 8,
+    "C_inverse": 13,
+    "Q": 6,
+    "Q_inverse": 3
+  },
+  "word_sha256": {
+    "C": "af75eef709867db3f9cd16210403bdfbc90b321ee93b98e92b6d5777a2ff21d0",
+    "C-INVERSE": "4baeafcb56de1d0d116a883ddf7c658bfc089d84807f74d235de1e0584ac7ed9",
+    "Q": "5c8bd1ea55a0caf8df4282d0f064fa698b5b30128179bf2f92b2840c7727aae4",
+    "Q-INVERSE": "ee8fbdf78d9cb4d76f56dae3070fd76fdbfce6b9d0ec80d2ea52bd7f062031e0"
+  },
+  "negative_controls": [
+    {
+      "word": "C",
+      "omitted_ADD_rejected": true
+    },
+    {
+      "word": "Q",
+      "omitted_ADD_rejected": true
+    }
+  ],
+  "scope": "Formal identities reviewed for every width; literal48-dimensional controls and actual primitive words are not a42 endpoint. The separately reviewed inverse-support cut excludes any independent rank4 remainder for every ordinary B and Q_A in this wrapper. All foundations and costs remain."
+}

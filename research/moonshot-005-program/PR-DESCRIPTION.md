@@ -1,44 +1,39 @@
 # Construct chronological shared-facet decoders and prove source and Gaussian-rank constraints toward κ = 0.005
 
-## Current frontier — S018 checkpoint3
+## Current frontier — S018 checkpoint4
 
 **No new complete κ.** Selected conditional κ remains363005817/10^11.
-The [shared D4 construction](results/bit-d4-shared-receiver-source/ADMISSION.md)
-uses three actual retained fields for twelve receivers and completes52 outputs.
-Its changing-history variant uses arbitrary initial Y values with real precoats,
-completes three primaries at existing facet visits, and resets the changed
-packets before all old lower readers. It uses18 stationary caches instead of36.
-The pruned version costs Q1610.7474629717359241 and has nonidentity cut support54;
-the paid source-rich version costs Q1615.5518964662126601 and has support111.
-Their source contracts cannot be interchanged. Direct known54 reset is cheaper
-than pruned52, while direct111 reset exceeds the necessary allowance. This is a
-shared physical mechanism, not an improved numerical endpoint-price frontier.
+The [actual masked histories](results/bit-unknown-mask-histories/ADMISSION.md)
+complete55 outputs and carry three independent combinations of19 unknown
+donors through real rank6 acquisition, primary-Y feedback, Hub packets and
+rank4 retention. The19 binary parameters are not19 simultaneous dimensions.
+All222 native columns, original-Y purification and physical reset chronology
+are independently verified. The representative costs Q1614.61436398435.
 
-The [homogeneous-Y reset](results/bit-homogeneous-signature-reset/ADMISSION.md)
-extends known-source reset to Y-bearing owners. A legal replacement must preserve
-every live cut Y column; initial preloads then propagate through the same
-signature, fix outputs and leave the final original map unchanged. An actual
-Hub inverse remains required. A physical control includes transient Y feedback
-into X, a nonidentity inverse and a legal late-preload negative. Known-coordinate
-and removable Y-nuisance information alone do not evade this comparison. The
-primary BIT task is useful unknown combinations along already-paid routes,
-followed by actual receiver decoding, restoration and the full all111 invoice.
+The [mask-preserving reset](results/bit-mask-preserving-reset/ADMISSION.md)
+preserves every unknown X and every Y cut column, with actual57-coordinate
+ground acquisition, duplicate mask transport and a nontrivial paid Hub inverse.
+Its cheaper liberated contract completes55 outputs, retains three unknown
+modes at two proper charts and leaves92 raw native originals. It costs
+Q1602.3277059631205026795, leaving necessary room19.4231742480318525668.
+The old named cut and liberated source differ; every adapter must be physical
+and priced. The primary BIT task is useful unknown decoding of the remaining
+56 receivers, preserving the complete source/ownership/restoration invoice.
 
-On the complex side, [two first-interface gates](results/complex-first-interface-gates/ADMISSION.md)
-exclude broad classes for every ordinary second interstage: idle-preserving first
-interfaces with injective forbidden-component stack, and clean middle-first-
-column pivots even with arbitrary remaining idle coupling. The previous residual
-square-control attempt is closed, not every three-native architecture. The
-[split noncommuting compiler](results/complex-noncommuting-ordinary-compiler/ADMISSION.md)
-gives actual ordinary recipes from explicit matrix units and a common component
-determinant certificate. Literal phases, full field-volume cost and all-width
-certificates are essential. A full source-valid independent(4,2,1) caller remains
-open, as do both strict suppliers, full recursion and all five foundations.
+The [inverse-support cut](results/complex-clean-first-column-exclusion/ADMISSION.md)
+now excludes EVERY first interface whose C00 and C10 are both clean under
+forward source conjugation, for arbitrary ordinary C20, Q and endpoint gauges
+at faithful fixed-template widths. The exact ordinary rank1-isolation wrapper
+has an F2/F1 cut and cannot supply rank4 in its remaining two-bank equation.
+This closes the earlier outside-square-Q escape within the clean-first-two
+family. A surviving three-native caller must change C00 or C10 clean transport
+or change the native/source/endpoint architecture; none is supplied yet.
 
-Session S018 remains active through17:00:55UTC. This is an interruption-safe
-checkpoint in the same five-hour session. The programme remains ongoing and
-not PR-ready. Older priorities below are historical unless retained here; the
-seven prior logical records are archived for continuity.
+Both strict suppliers, full recursion, target theorem and all five foundations
+remain open. Session S018 remains active through17:00:55UTC. This is an
+interruption-safe checkpoint, not a completed programme or PR-ready result.
+Earlier priorities below are historical unless retained here; prior logical
+records are archived without replacing their scientific evidence.
 
 ## Earlier verified extension (S016 checkpoint5)
 

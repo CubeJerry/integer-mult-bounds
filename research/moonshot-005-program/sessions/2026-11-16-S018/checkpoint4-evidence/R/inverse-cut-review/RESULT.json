@@ -1,0 +1,60 @@
+{
+  "status": "PASS_ROOT_INVERSE_SUPPORT_CUT_AND_CLEAN_FIRST_TWO_EXCLUSION",
+  "proof_sha256": "b2732db2a174fa22de13df8610f0c4b5da4b0b34bc96a73f82bf887290d42d7b",
+  "ordered_two_sided_native_inverses": true,
+  "formal_top_bottom_quotient": true,
+  "ordinary_B_inverse_available_from_permuted_C_inverse": true,
+  "prefix_inverse_degree": 2,
+  "suffix_degree": 1,
+  "maximum_independent_Gaussian_rank": 3,
+  "sharp_original_LUL_rank4": true,
+  "sharp_original_prefix_inverse_degree": 3,
+  "literal_support_controls": [
+    {
+      "control": 0,
+      "inverse_max_support": 4,
+      "product_min_support": 4
+    },
+    {
+      "control": 1,
+      "inverse_max_support": 4,
+      "product_min_support": 4
+    },
+    {
+      "control": 2,
+      "inverse_max_support": 4,
+      "product_min_support": 4
+    },
+    {
+      "control": 3,
+      "inverse_max_support": 4,
+      "product_min_support": 4
+    },
+    {
+      "control": 4,
+      "inverse_max_support": 4,
+      "product_min_support": 4
+    },
+    {
+      "control": 5,
+      "inverse_max_support": 4,
+      "product_min_support": 4
+    },
+    {
+      "control": 6,
+      "inverse_max_support": 4,
+      "product_min_support": 4
+    },
+    {
+      "control": 7,
+      "inverse_max_support": 4,
+      "product_min_support": 4
+    }
+  ],
+  "negative_scope_control": "Allowing a third inverse rank1 factor reduces A^-3 A^4 to support2, so the claimed F2/F1 separation cannot be applied to the original LUL.",
+  "source_pins": {
+    "results/complex-inverse-native-coset/two-native/PROOF.md": "2020d6e83658ef34c1175a207afe7192a9e784dfccb9d39329aa7a4df8c97aef",
+    "results/complex-four-bit-cubic-source/author/PROOF.md": "6ea08c509a1560aa334640eeb45bcdcd4649412d40292380f771cd623eee570c"
+  },
+  "review_scope": "Universal finite-catalogue tensor-separation proof independently read. Fixed finite ordinary recipes and faithful width threshold retained. Controls are not the all-width proof. No author execution code imported, no full arbitrary-three-native exclusion and no new kappa."
+}

@@ -1,0 +1,1063 @@
+{
+  "status": "PASS_AUTHOR_ACTUAL_M0_PAIR_EXTENSION_TO55",
+  "base_word_sha256": "dd0af2d4467b722c1692fb60b883407b4a95a8ea10b112fca0683dfc4a930edf",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "before": {
+    "counts": {
+      "MOVE": 422,
+      "INIT": 130,
+      "ADD": 423,
+      "CLEAR": 130
+    },
+    "movement_profile": {
+      "1": 167,
+      "2": 11,
+      "3": 34,
+      "4": 32,
+      "5": 16,
+      "6": 9,
+      "7": 153
+    },
+    "dirty_CLEAR": 130,
+    "peak_owned": 130,
+    "all_222_endpoints": true
+  },
+  "after": {
+    "counts": {
+      "MOVE": 437,
+      "INIT": 136,
+      "ADD": 388,
+      "CLEAR": 136
+    },
+    "movement_profile": {
+      "1": 173,
+      "2": 14,
+      "3": 40,
+      "4": 44,
+      "5": 13,
+      "6": 6,
+      "7": 147
+    },
+    "dirty_CLEAR": 136,
+    "peak_owned": 136,
+    "all_222_endpoints": true
+  },
+  "new_targets": [
+    34,
+    104,
+    108
+  ],
+  "all_targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    34,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    88,
+    90,
+    92,
+    94,
+    104,
+    108
+  ],
+  "actual_new_source_fields": [
+    "KEEP_C0",
+    "KEEP_C1",
+    "KEEP_C2"
+  ],
+  "pairs": [
+    [
+      21,
+      34
+    ],
+    [
+      64,
+      108
+    ],
+    [
+      65,
+      104
+    ]
+  ],
+  "retained_native_originals": [
+    0,
+    2,
+    5,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    20,
+    24,
+    25,
+    26,
+    27,
+    28,
+    31,
+    32,
+    33,
+    35,
+    36,
+    37,
+    44,
+    50,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    62,
+    63,
+    66,
+    68,
+    69,
+    70,
+    71,
+    72,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    89,
+    91,
+    93,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    105,
+    106,
+    107,
+    109,
+    110
+  ],
+  "native_count": 69,
+  "unfinished_ground_Y_count": 56,
+  "new_interface": 836,
+  "unaffected_old_state_comparisons": 336549,
+  "removed_operations": [
+    {
+      "old_index": 325,
+      "operation": [
+        "MOVE",
+        "X21",
+        "F3"
+      ]
+    },
+    {
+      "old_index": 326,
+      "operation": [
+        "ADD",
+        "X10",
+        "X21"
+      ]
+    },
+    {
+      "old_index": 338,
+      "operation": [
+        "MOVE",
+        "X64",
+        "F76"
+      ]
+    },
+    {
+      "old_index": 339,
+      "operation": [
+        "ADD",
+        "X61",
+        "X64"
+      ]
+    },
+    {
+      "old_index": 352,
+      "operation": [
+        "MOVE",
+        "X65",
+        "F80"
+      ]
+    },
+    {
+      "old_index": 353,
+      "operation": [
+        "ADD",
+        "X67",
+        "X65"
+      ]
+    },
+    {
+      "old_index": 424,
+      "operation": [
+        "ADD",
+        "X23",
+        "P0"
+      ]
+    },
+    {
+      "old_index": 425,
+      "operation": [
+        "ADD",
+        "X38",
+        "P0"
+      ]
+    },
+    {
+      "old_index": 426,
+      "operation": [
+        "ADD",
+        "X41",
+        "P0"
+      ]
+    },
+    {
+      "old_index": 427,
+      "operation": [
+        "ADD",
+        "X49",
+        "P0"
+      ]
+    },
+    {
+      "old_index": 429,
+      "operation": [
+        "ADD",
+        "X21",
+        "P0"
+      ]
+    },
+    {
+      "old_index": 431,
+      "operation": [
+        "ADD",
+        "H0_0",
+        "P0"
+      ]
+    },
+    {
+      "old_index": 432,
+      "operation": [
+        "ADD",
+        "H0_1",
+        "P0"
+      ]
+    },
+    {
+      "old_index": 433,
+      "operation": [
+        "ADD",
+        "H0_2",
+        "P0"
+      ]
+    },
+    {
+      "old_index": 434,
+      "operation": [
+        "ADD",
+        "Hnew0_0",
+        "P0"
+      ]
+    },
+    {
+      "old_index": 436,
+      "operation": [
+        "ADD",
+        "H1_0",
+        "P0"
+      ]
+    },
+    {
+      "old_index": 437,
+      "operation": [
+        "ADD",
+        "H1_1",
+        "P0"
+      ]
+    },
+    {
+      "old_index": 438,
+      "operation": [
+        "ADD",
+        "H1_2",
+        "P0"
+      ]
+    },
+    {
+      "old_index": 439,
+      "operation": [
+        "ADD",
+        "Hnew1_0",
+        "P0"
+      ]
+    },
+    {
+      "old_index": 455,
+      "operation": [
+        "MOVE",
+        "X21",
+        "Hub"
+      ]
+    },
+    {
+      "old_index": 456,
+      "operation": [
+        "ADD",
+        "E1",
+        "Y21"
+      ]
+    },
+    {
+      "old_index": 457,
+      "operation": [
+        "MOVE",
+        "Y21",
+        "M0"
+      ]
+    },
+    {
+      "old_index": 458,
+      "operation": [
+        "ADD",
+        "KEEP_C0",
+        "Y21"
+      ]
+    },
+    {
+      "old_index": 459,
+      "operation": [
+        "ADD",
+        "Q0",
+        "Y21"
+      ]
+    },
+    {
+      "old_index": 460,
+      "operation": [
+        "MOVE",
+        "Y21",
+        "F21"
+      ]
+    },
+    {
+      "old_index": 461,
+      "operation": [
+        "ADD",
+        "X1",
+        "Y21"
+      ]
+    },
+    {
+      "old_index": 464,
+      "operation": [
+        "ADD",
+        "X10",
+        "X21"
+      ]
+    },
+    {
+      "old_index": 466,
+      "operation": [
+        "ADD",
+        "X16",
+        "P1"
+      ]
+    },
+    {
+      "old_index": 467,
+      "operation": [
+        "ADD",
+        "X22",
+        "P1"
+      ]
+    },
+    {
+      "old_index": 468,
+      "operation": [
+        "ADD",
+        "X23",
+        "P1"
+      ]
+    },
+    {
+      "old_index": 469,
+      "operation": [
+        "ADD",
+        "X30",
+        "P1"
+      ]
+    },
+    {
+      "old_index": 470,
+      "operation": [
+        "ADD",
+        "X38",
+        "P1"
+      ]
+    },
+    {
+      "old_index": 471,
+      "operation": [
+        "ADD",
+        "X39",
+        "P1"
+      ]
+    },
+    {
+      "old_index": 472,
+      "operation": [
+        "ADD",
+        "X40",
+        "P1"
+      ]
+    },
+    {
+      "old_index": 473,
+      "operation": [
+        "ADD",
+        "X41",
+        "P1"
+      ]
+    },
+    {
+      "old_index": 474,
+      "operation": [
+        "ADD",
+        "X49",
+        "P1"
+      ]
+    },
+    {
+      "old_index": 476,
+      "operation": [
+        "ADD",
+        "X64",
+        "P1"
+      ]
+    },
+    {
+      "old_index": 478,
+      "operation": [
+        "ADD",
+        "H2_1",
+        "P1"
+      ]
+    },
+    {
+      "old_index": 479,
+      "operation": [
+        "ADD",
+        "H2_2",
+        "P1"
+      ]
+    },
+    {
+      "old_index": 496,
+      "operation": [
+        "MOVE",
+        "X64",
+        "Hub"
+      ]
+    },
+    {
+      "old_index": 497,
+      "operation": [
+        "ADD",
+        "E73",
+        "Y64"
+      ]
+    },
+    {
+      "old_index": 498,
+      "operation": [
+        "MOVE",
+        "Y64",
+        "M0"
+      ]
+    },
+    {
+      "old_index": 499,
+      "operation": [
+        "ADD",
+        "KEEP_C1",
+        "Y64"
+      ]
+    },
+    {
+      "old_index": 500,
+      "operation": [
+        "ADD",
+        "Q0",
+        "Y64"
+      ]
+    },
+    {
+      "old_index": 501,
+      "operation": [
+        "MOVE",
+        "Y64",
+        "F64"
+      ]
+    },
+    {
+      "old_index": 502,
+      "operation": [
+        "ADD",
+        "X73",
+        "Y64"
+      ]
+    },
+    {
+      "old_index": 505,
+      "operation": [
+        "ADD",
+        "X61",
+        "X64"
+      ]
+    },
+    {
+      "old_index": 507,
+      "operation": [
+        "ADD",
+        "X16",
+        "P2"
+      ]
+    },
+    {
+      "old_index": 508,
+      "operation": [
+        "ADD",
+        "X22",
+        "P2"
+      ]
+    },
+    {
+      "old_index": 509,
+      "operation": [
+        "ADD",
+        "X23",
+        "P2"
+      ]
+    },
+    {
+      "old_index": 510,
+      "operation": [
+        "ADD",
+        "X30",
+        "P2"
+      ]
+    },
+    {
+      "old_index": 511,
+      "operation": [
+        "ADD",
+        "X38",
+        "P2"
+      ]
+    },
+    {
+      "old_index": 512,
+      "operation": [
+        "ADD",
+        "X39",
+        "P2"
+      ]
+    },
+    {
+      "old_index": 513,
+      "operation": [
+        "ADD",
+        "X40",
+        "P2"
+      ]
+    },
+    {
+      "old_index": 514,
+      "operation": [
+        "ADD",
+        "X41",
+        "P2"
+      ]
+    },
+    {
+      "old_index": 515,
+      "operation": [
+        "ADD",
+        "X49",
+        "P2"
+      ]
+    },
+    {
+      "old_index": 516,
+      "operation": [
+        "ADD",
+        "X67",
+        "P2"
+      ]
+    },
+    {
+      "old_index": 518,
+      "operation": [
+        "ADD",
+        "X65",
+        "P2"
+      ]
+    },
+    {
+      "old_index": 520,
+      "operation": [
+        "ADD",
+        "H3_0",
+        "P2"
+      ]
+    },
+    {
+      "old_index": 521,
+      "operation": [
+        "ADD",
+        "H3_1",
+        "P2"
+      ]
+    },
+    {
+      "old_index": 522,
+      "operation": [
+        "ADD",
+        "H3_2",
+        "P2"
+      ]
+    },
+    {
+      "old_index": 523,
+      "operation": [
+        "ADD",
+        "Hnew3_0",
+        "P2"
+      ]
+    },
+    {
+      "old_index": 542,
+      "operation": [
+        "MOVE",
+        "X65",
+        "Hub"
+      ]
+    },
+    {
+      "old_index": 543,
+      "operation": [
+        "ADD",
+        "E77",
+        "Y65"
+      ]
+    },
+    {
+      "old_index": 544,
+      "operation": [
+        "ADD",
+        "E77",
+        "Y65"
+      ]
+    },
+    {
+      "old_index": 545,
+      "operation": [
+        "MOVE",
+        "Y65",
+        "M0"
+      ]
+    },
+    {
+      "old_index": 546,
+      "operation": [
+        "ADD",
+        "KEEP_C2",
+        "Y65"
+      ]
+    },
+    {
+      "old_index": 547,
+      "operation": [
+        "ADD",
+        "Q0",
+        "Y65"
+      ]
+    },
+    {
+      "old_index": 548,
+      "operation": [
+        "MOVE",
+        "Y65",
+        "F65"
+      ]
+    },
+    {
+      "old_index": 549,
+      "operation": [
+        "ADD",
+        "X77",
+        "Y65"
+      ]
+    },
+    {
+      "old_index": 552,
+      "operation": [
+        "ADD",
+        "X67",
+        "X65"
+      ]
+    },
+    {
+      "old_index": 867,
+      "operation": [
+        "MOVE",
+        "X34",
+        "Hub"
+      ]
+    },
+    {
+      "old_index": 909,
+      "operation": [
+        "MOVE",
+        "X104",
+        "Hub"
+      ]
+    },
+    {
+      "old_index": 913,
+      "operation": [
+        "MOVE",
+        "X108",
+        "Hub"
+      ]
+    },
+    {
+      "old_index": 1022,
+      "operation": [
+        "MOVE",
+        "Y34",
+        "F34"
+      ]
+    },
+    {
+      "old_index": 1062,
+      "operation": [
+        "MOVE",
+        "Y104",
+        "F104"
+      ]
+    },
+    {
+      "old_index": 1066,
+      "operation": [
+        "MOVE",
+        "Y108",
+        "F108"
+      ]
+    }
+  ],
+  "mutable_original_dead_reads": [
+    {
+      "index": 429,
+      "operation": [
+        "ADD",
+        "X21",
+        "P0"
+      ]
+    },
+    {
+      "index": 476,
+      "operation": [
+        "ADD",
+        "X64",
+        "P1"
+      ]
+    },
+    {
+      "index": 518,
+      "operation": [
+        "ADD",
+        "X65",
+        "P2"
+      ]
+    }
+  ],
+  "mutable_original_removed_writes": [
+    {
+      "index": 326,
+      "operation": [
+        "ADD",
+        "X10",
+        "X21"
+      ]
+    },
+    {
+      "index": 339,
+      "operation": [
+        "ADD",
+        "X61",
+        "X64"
+      ]
+    },
+    {
+      "index": 353,
+      "operation": [
+        "ADD",
+        "X67",
+        "X65"
+      ]
+    },
+    {
+      "index": 464,
+      "operation": [
+        "ADD",
+        "X10",
+        "X21"
+      ]
+    },
+    {
+      "index": 505,
+      "operation": [
+        "ADD",
+        "X61",
+        "X64"
+      ]
+    },
+    {
+      "index": 552,
+      "operation": [
+        "ADD",
+        "X67",
+        "X65"
+      ]
+    }
+  ],
+  "all25_named_ground_fields_unchanged": [
+    "ADDED_RAW36",
+    "ADDED_RAW37",
+    "ADDED_RAW50",
+    "ADDED_RAW8",
+    "ADDED_RAW9",
+    "COMMON_RAW2",
+    "DIRECT_RAW10",
+    "DIRECT_RAW20",
+    "E1",
+    "E6",
+    "E73",
+    "E75",
+    "E77",
+    "E79",
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "ZRAW0",
+    "ZRAW28",
+    "ZRAW44"
+  ],
+  "first_D4_fields_unchanged": [
+    "ZFIRST3",
+    "ZFIRST4",
+    "ZFIRST5"
+  ],
+  "live_owner_count": 136,
+  "live_owner_rank": 57,
+  "actual_source_coordinate_support": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    34,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    61,
+    64,
+    65,
+    67,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    88,
+    90,
+    92,
+    94,
+    104,
+    108
+  ],
+  "source_coordinate_support_count": 57,
+  "whole_moment": {
+    "rational": [
+      "403556210260148240856010285868893098042365211/250000000000000000000000000000000000000000",
+      "403556210260148240856010285868893098042365277/250000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1614.224841040592963424041143475572392169460844",
+      "1614.224841040592963424041143475572392169461108"
+    ]
+  },
+  "moment_increment": {
+    "rational": [
+      "1618249281376047440605787398186371486895341/500000000000000000000000000000000000000000",
+      "3236498562752094881211574796372742973791201/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "3.236498562752094881211574796372742973790682",
+      "3.236498562752094881211574796372742973791201"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "3763019585279695911102503445711297139227171/500000000000000000000000000000000000000000",
+      "45156235023356350933230041348535565670728931/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "7.526039170559391822205006891422594278454342",
+      "7.5260391705593918222050068914225942784548218333333333333333333333333333333333333"
+    ]
+  },
+  "conditional_raw_source_reset_reference": {
+    "rational": [
+      "398988398555551234472049941958762608909046609/250000000000000000000000000000000000000000",
+      "797976797111102468944099883917525217818093329/500000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1595.953594222204937888199767835050435636186436",
+      "1595.953594222204937888199767835050435636186658"
+    ]
+  },
+  "controls": [
+    {
+      "control": "omit new raw cache",
+      "rejected": true,
+      "reason": "('Y endpoint', 34)"
+    },
+    {
+      "control": "omit actual pair source coefficient",
+      "rejected": true,
+      "reason": "('Y endpoint', 21)"
+    },
+    {
+      "control": "omit actual shared descent",
+      "rejected": true,
+      "reason": "(806, 'co-location', ['ADD', 'KEEP_C0', 'Y21'], 'C0', 'M0_PAIR_COMMON')"
+    },
+    {
+      "control": "omit changed source reset",
+      "rejected": true,
+      "reason": "('Y endpoint', 16)"
+    },
+    {
+      "control": "omit owned retirement",
+      "rejected": true,
+      "reason": "complete lifetimes"
+    },
+    {
+      "control": "obsolete original restoration retained",
+      "rejected": true,
+      "reason": "('X endpoint', 21)"
+    }
+  ],
+  "scope": "Preserves the frozen pure52 endpoints and completes34,104,108 using three actual M0 pair sums. Releases three mutable original routes only after every old content reader is removed with the replaced source encoders. All costs and arbitrary222 columns remain. No all111 supplier or kappa.",
+  "word_sha256": "12ccd57ba43a8d4902c04724c70489a348266690d20ce2269ff68eec34b4835e"
+}

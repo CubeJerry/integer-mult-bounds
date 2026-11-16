@@ -818,3 +818,16 @@ All19 packaged commands passed and30 frozen outputs reproduced byte-for-byte. Se
 ## S018 checkpoint3 verification
 
 C independently replays pure/mixed D4 words with its rational native/full222 engine; root reviews the universal cyclic mechanism and actual reset comparisons. Root independently reviews C's same-H reset proof and native geometry,54 actual ground sources, literal251-operation continuation, nonidentity inverse and legal timing negative. B independently reviews root's stacked-first-column gate; root independently reviews B's allordinary middle-pivot gate. C reconstructs root's D8 compiler without importing execution code, including every matrix-unit product, all four primitive words, a separate Gaussian control and hidden-component width2 failure. Engine reuse and finite versus universal scopes are explicit. See sessions/2026-11-16-S018/reproduce_cp3.py and CHECKPOINT3-REPRODUCTION.json for command and byte coverage. Both strict suppliers and all five global foundations remain open.
+
+## S018 checkpoint4 — actual unknown source and inverse-support cuts
+
+Thirteen reproduction commands and24 byte comparisons pass; see
+[CHECKPOINT4-REPRODUCTION.json](sessions/2026-11-16-S018/CHECKPOINT4-REPRODUCTION.json).
+C independently proves A's19-parameter physical mask family with formal222+19
+columns and ten controls. Root independently replays pair55 and six reset
+words, exact source signatures,92-native custody and nontrivial inverse.
+Root/B separately review the clean-first normal form, whole-square, u=0,
+all-clean and stronger inverse-support cut proofs. Exact primitive wrappers
+are retained, with their42 remainder now proved impossible. Fixed finite
+catalogue widths, literal phases, full invoices and five foundations remain.
+Paid59/descent-floor work is still pending independent review, not admitted.

@@ -1,0 +1,34 @@
+{
+  "status": "PASS_ROOT_CLEAN_FIRST_COLUMN_SQUARE_ALGEBRA_REVIEW",
+  "proof_sha256": "1a5afd8249cfb15f1ce9018e47f9f8b8e7e15b3ad924c31d22a65a0f17567903",
+  "formal_noncommuting_product_and_component_degree_equations": true,
+  "literal_R2_formula": "(a,b,c,d)->(c xor ab,d,a,b), phase i^(ab)*(-1)^(ab(c+d))",
+  "independent_four_path_cases": 49152,
+  "four_path_integer_denominator": 4,
+  "all_four_path_amplitudes_abs": "1/2",
+  "noncommuting_normal_form_control": {
+    "two_sided_unit": true,
+    "both_clean_first_blocks": true,
+    "actual_idle_coupling": true,
+    "not_a_positive_endpoint": true
+  },
+  "outside_square_control": {
+    "ordinary": "S^-1",
+    "support_AqA": [
+      1
+    ],
+    "support_A2qA": [
+      2
+    ],
+    "support_A2qAinv2": [
+      4
+    ],
+    "not_a_positive_endpoint": true
+  },
+  "source_pins": {
+    "results/complex-source-square-controls/ADMISSION.md": "84becba2de76261194b972985a9dc96cb7ff0e4e9067b353dd4c0e393e14c881",
+    "results/complex-first-interface-gates/ADMISSION.md": "7cbc247baa4dd3d7cd81a713422b59346a8261001d419561a0ec5b20eed516ba",
+    "results/complex-four-bit-cubic-source/author/PROOF.md": "6ea08c509a1560aa334640eeb45bcdcd4649412d40292380f771cd623eee570c"
+  },
+  "scope": "Universal direct-image and word-class proof reviewed separately. No B execution code imported. Finite path census is a control. Fixed catalogue, phases, physical costs and all global foundations retained."
+}
