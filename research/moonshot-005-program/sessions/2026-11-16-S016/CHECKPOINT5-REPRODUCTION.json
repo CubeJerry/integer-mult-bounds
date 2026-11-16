@@ -1,0 +1,283 @@
+{
+  "status": "PASS_CP5_REPRODUCTION",
+  "rebuilt_words": 1,
+  "commands": [
+    {
+      "name": "changed-build",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-canonical-history-source/author/build.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/author/fifteen/output/WORD.json",
+        "--filters",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/author/history-fifteen/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/changed"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "point-closure",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-prescribed-code-completion/point-closure/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/point-closure"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "point-threshold",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-prescribed-code-completion/point-threshold/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/point-threshold"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "seed-screen",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-prescribed-code-completion/author/screen.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--seed",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-prescribed-code-completion/author/SEED-SOURCE.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/seed-screen"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "seed-saturation",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-prescribed-code-completion/author/certify_saturation.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--seed",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-prescribed-code-completion/author/SEED-SOURCE.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/seed-saturation"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "changed-history",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-canonical-history-source/author/history.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/changed"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "changed-completion",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-canonical-history-source/completion/certify.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--source",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-canonical-history-source/completion/SOURCE.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/changed-completion"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "changed-point-closure",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-canonical-history-source/completion/check_point_closure.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--source",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-canonical-history-source/completion/SOURCE.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/changed-point-closure"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "complex-author",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-rank-degree-gate/author/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/complex-author.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "nonlinear-receipt",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-prescribed-code-completion/author/check_nonlinear_family.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--seed",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-prescribed-code-completion/author/SEED-SOURCE.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/nonlinear-receipt"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "complex-root",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-rank-degree-gate/root-review/check.py",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-boolean-sign-family/root-review/check.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/complex-root.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "changed-author",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-canonical-history-source/author/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/changed"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "seed-certify",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-prescribed-code-completion/author/certify.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--seed",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-prescribed-code-completion/author/SEED-SOURCE.json",
+        "--screen",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/seed-screen/RESULT.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/seed-certify"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "seed-root",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-prescribed-code-completion/root-review/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--seed",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-prescribed-code-completion/author/SEED-SOURCE.json",
+        "--closure",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/point-closure/RESULT.json",
+        "--threshold",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/point-threshold/THRESHOLD-CERTIFICATE.json",
+        "--completion",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/seed-screen/RESULT.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/seed-root.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "static-cost",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-prescribed-code-completion/static-cost-gate/check.py",
+        "--word",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/author/history-fifteen/output/WORD.json",
+        "--seed",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-prescribed-code-completion/author/SEED-SOURCE.json",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/static-cost.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "changed-price",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-canonical-history-source/author/price.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/changed"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "changed-root",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-canonical-history-source/root-review/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/changed/WORD.json",
+        "--source",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-canonical-history-source/completion/SOURCE.json",
+        "--closure",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/changed-point-closure/POINT-CLOSURE.json",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/changed-root.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "changed-independent-c",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-canonical-history-source/independent-c/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/changed/WORD.json",
+        "--snapshots",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/changed/HISTORY-SNAPSHOTS.json",
+        "--code",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-canonical-history-source/completion/SOURCE.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp5-reproduction/changed-independent-c"
+      ],
+      "returncode": 0
+    }
+  ],
+  "scope": "Author rebuild/checks and independent source/geometry/proof-witness checks separately labelled; no complete supplier."
+}

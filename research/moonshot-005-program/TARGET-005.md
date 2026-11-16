@@ -1,62 +1,14 @@
 # Exact requirements for κ = 1/200
 
-## S016 checkpoint4: complete-history room and source normalization
+## Current necessary native budget
 
-The actual fifteen-output fork costs Q=1613.648962289119435370..., saving
-3.642657943658743811... against the same-S8 direct15-point control. The full
-W15-history composition costs Q=1614.00488655802050530..., leaving only
-7.74599365313... below the retained limiting allowance. Its first hypothetical
-even complete-native comparison is m4. All96 missing endpoints, actual delivery
-of history combinations, ordinary/compiler/precision/recursive expenses remain.
-The frozen history is not a set of free co-located W15 records.
+The changed U8 source preserves15 outputs with moment1614.00709580888663640879949082844..., leaving7.74378440226571883744665953855... below the retained limiting allowance. Its71/730/381/71 invoice includes all new filters and X8 routing. Static completion needs exactly4V new dimensions even with24 raw point grants; four rank-two arrivals cost more than the room. All96 missing endpoints and actual delivery costs remain. See [source and reviews](results/bit-canonical-history-source/ADMISSION.md).
 
-The Boolean-sign complex family retains the formal Gaussian profile
-3[1]+6[7]+3[8] for a hypothetical(3,2,2) caller. Three native and four endpoint
-adapters have an explicit conservative invoice22 SWAPs,5 NOTs,13 CNOTs,
-7 Toffolis,13 phase passes, plus caller operations. Every odd source reduces
-to one of four genuinely different types. Its negative global sign costs two
-unit ADDs and two SCALE(-1) passes in the literal native adapter; frame services
-are additionally paid. This preserves Gaussian counts, not an unproved full
-supplier budget. All strict interface inequalities below remain unchanged.
+The old S8 static extension needs5V, and its frozen static mixed-import gate costs at least4+5^t. Free further feedback is excluded from that gate. Neither abstract completion bound prices acquisition or changes the covered/completed supplier interface.
 
+The complex three-common-body optimistic (3,2,2) profile has margin0.5610073396008915... before ordinary costs. Cleanly transported path-graded callers are now excluded by determinant degree and complete body accounting. A paid quarter-phase clock breaks the premise; an actual profitable endpoint and complete physical/recursive invoice remain open. The fixed monomial bridge, four source types and all five foundations are retained.
 
-## S016 current extension and economic screen
-
-Actual cross-chart four/six source words are proved and independently replayed:
-Q4=1616.46151267543855699..., Q6=1621.71980917175927427.... Their limiting
-rooms are5.2893675357... and0.03107103939.... The first positive hypothetical
-complete-native even multiplicities are4 and398 respectively; these are partial
-words with107/105 missing endpoints, not admitted suppliers. All owner/ADD/
-retirement and remaining implementation costs remain explicit.
-
-The early-lift identity replaces Delta late facet acquisitions by actual early
-native-point acquisitions, saving Delta*([7]-[1]). At a fixed transverse cut
-with equal held-chart dimensions, (c-p)A+pB+tC is already the exact minimum
-movement even with redundant allowed queries; earlier capture changes its
-premise. [Source](results/bit-shared-meet-funnel/ADMISSION.md),
-[lift](results/bit-early-helper-lift/ADMISSION.md),
-[cost](results/bit-chartwise-movement-optimum/ADMISSION.md).
-
-The direct point-copy partial control is Q_base+q, with
-Q_base=222[7]+9[8]=1610.2088734841... . It beats the present four/six funnels.
-For all111 receivers the linear all-information-at-ground continuation obeys
-Q>=222[7]+111, strictly above B_infinity. Above-ground source observations,
-retained proper-chart originals and multiple delivery meets change that scope.
-The next useful positive family should beat the point control and complete a
-larger simultaneous set with all costs, then extend to the full native.
-
-The integral collective complex algebra now obeys H<=2m+sum(query ranks) for
-all fixed heads/call counts, under integral ordinary coefficients AND inverses
-at a prime above2. Essential half-integral sector routing, changed sources or
-different bodies remain open. Native-only and query-rank<=7 common-body callers
-in the proved class have a strict complete movement deficit; arbitrary larger
-queries retain their actual signed terms.
-[Proof and audit](results/complex-modular-parabolic-gate/ADMISSION.md).
-
-**Target open; no new complete κ.** Selected conditional0.00363005817 remains.
-This current blueprint distinguishes necessary source screens from sufficient
-complete supplier/outer conditions. Exact earlier calculations and their scopes
-are preserved in [the pre-checkpoint4 blueprint](sessions/2026-11-15-S015/logical-records-before-cp4/TARGET-005.md).
+The earlier numerical screens remain in the [archived blueprint](sessions/2026-11-16-S016/logical-records-before-cp5/TARGET-005.md). No new complete κ.
 
 ## 1. Strict supplier conditions
 

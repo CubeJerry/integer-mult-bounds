@@ -1993,3 +1993,13 @@ Next: verify the17-point feedback closure and replace unused seed directions or
 acquire new nonpoint information; solve the four-source adjacent-sector caller
 interface. Resulting remote SHA will be recorded in the next confirmed receipt.
 This remains the same active five-hour session, planned end03:44:34UTC.
+
+## 2026-11-16-S016 checkpoint5 — changed preload and exact completion requirements
+
+Starting confirmed checkpoint79658dea2624d4a8eef2f7fb0d1cbf6a2f464282. Proved S8's exact5V static completion minimum, its finite-field nonlinear version, closed17-point feedback set, and14-fresh-point bootstrap bound. Independent review corrected a full-gauged-envelope overstatement and removed free later feedback from the mixed movement-cut theorem; the resulting static gate costs at least4+5^t and excludes the frozen extension only.
+
+Constructed and independently replayed an actual changed U8 source:15 endpoints retained, all X restored,71/730/381/71 invoice, only0.00220925086613... more movement, room7.7437844022657188.... Its exact static deficit is4V;159 real observations contain W15+C9, but frozen visibility is15 and the24 ground-compatible points are feedback-closed. This is a genuine source/code change, not free historical information. Full96-output continuation remains open.
+
+Complex determinant deformation proves head sum6 and complete common-body loss for clean single/adjacent-sector templates. A literal quarter-phase clock breaks the premise. All four source types and actual phases were checked independently. No profitable caller or new κ.
+
+Eighteen reproduction commands pass, including byte-identical source rebuild and independent all-column, geometry, history, price and witness checks. Main remains e54523517d0f03e58352e647c403a5af3e525a57. Open #7622 changes a supplier premise; #7623 adds a stationary-snapshot engine. Their claimed small conditional gains are metadata-triaged, not replayed or admitted. Next: actual coded/nonlocal delivery; independently review the archived-star application and inverse/two-native packages; construct a complete clocked caller. Resulting remote SHA is recorded in the next publication receipt, avoiding self-reference. Session continues until03:44:34UTC.

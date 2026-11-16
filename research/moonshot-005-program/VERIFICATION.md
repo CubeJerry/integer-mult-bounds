@@ -734,3 +734,9 @@ all-width spectral separation and literal polynomial K sign bridge; a separate
 receipt pins the final root proof. Actual sign overhead is2 unit ADDs+2 sign
 passes, not a free coefficient-2 ADD. All proofs retain physical source and
 foundational conditions. See CHECKPOINT4-VALIDATION.json and the CP4 runner.
+
+## S016 checkpoint5
+
+Baseline79658dea2624d4a8eef2f7fb0d1cbf6a2f464282. See CHECKPOINT5-REPRODUCTION.json and reproduce_cp5.py:18 successful commands, one byte-identical rebuilt native word. Root independently reconstructs94 S8 duals, all94 activation minima,574 one-row blockers, canonical forced lines, saturation witnesses and F2 nonlinear family. C separately exhausts F2/F4. Changed U8 source has independent root/C222-column interpreters and independent159-observation/visibility replay; semantic mutants fail with metadata checks disabled. Root separately checks exact4 theorem and87 closure duals. Complex source reductions have independent1024/2048 exact pattern checks and a written universal determinant proof.
+
+Scope corrections are evidence: full-code vertex-gauge retention does not imply every partial-envelope fitting; free later feedback invalidated an unpublished mixed-cut argument and was removed. The static gate has separate A review. No complete supplier, new κ, human review or formal-kernel acceptance is inferred. All frozen evidence and source dependencies are hashed in each publication manifest and SCIENTIFIC-FILES.

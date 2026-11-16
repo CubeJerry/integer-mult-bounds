@@ -1,0 +1,86 @@
+{
+  "status": "PASS_RANK_DEGREE_DEFORMATION_GATE",
+  "single_sector_path_factorizations": 1024,
+  "adjacent_sector_path_factorizations": 2048,
+  "adjacent_groups": [
+    {
+      "source_mask": 128,
+      "ordinary_group_order": 16,
+      "two_forward_transports": true
+    },
+    {
+      "source_mask": 64,
+      "ordinary_group_order": 16,
+      "two_forward_transports": true
+    },
+    {
+      "source_mask": 112,
+      "ordinary_group_order": 16,
+      "two_forward_transports": true
+    },
+    {
+      "source_mask": 176,
+      "ordinary_group_order": 16,
+      "two_forward_transports": true
+    }
+  ],
+  "finite_width_controls": [
+    {
+      "mask": 128,
+      "V": 1,
+      "dimension": 8,
+      "baseline_and_clock": true
+    },
+    {
+      "mask": 128,
+      "V": 2,
+      "dimension": 64,
+      "baseline_and_clock": true
+    },
+    {
+      "mask": 64,
+      "V": 1,
+      "dimension": 8,
+      "baseline_and_clock": true
+    },
+    {
+      "mask": 64,
+      "V": 2,
+      "dimension": 64,
+      "baseline_and_clock": true
+    },
+    {
+      "mask": 112,
+      "V": 1,
+      "dimension": 8,
+      "baseline_and_clock": true
+    },
+    {
+      "mask": 112,
+      "V": 2,
+      "dimension": 64,
+      "baseline_and_clock": true
+    },
+    {
+      "mask": 176,
+      "V": 1,
+      "dimension": 8,
+      "baseline_and_clock": true
+    },
+    {
+      "mask": 176,
+      "V": 2,
+      "dimension": 64,
+      "baseline_and_clock": true
+    }
+  ],
+  "universal_proof": "faithful finite-word rank projections plus actual z-determinant polynomial",
+  "sharp_head_sum": 6,
+  "Gaussian_price_failure": "strict for every0<t<1 under complete three-common-body accounting",
+  "negative_controls": [
+    "wrong quarter phase changed to sign",
+    "wrong paired addresses across spectator",
+    "clock rewind violates rank-by-length hypothesis"
+  ],
+  "scope": "fixed ordinary tensor catalogue; invertible independent three-bank endpoints; no supplier or new kappa"
+}

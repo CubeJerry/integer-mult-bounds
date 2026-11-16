@@ -1,22 +1,14 @@
 # Construct chronological shared-facet decoders and prove source and Gaussian-rank constraints toward κ = 0.005
 
-## Latest verified extension (S016 checkpoint4)
+## Latest verified extension (S016 checkpoint5)
 
-The source now includes a reversible15-output BIT fork and separately rebuilt
-full-W15 chronological history. Independent replay and visibility bounds distinguish
-acquired history from actual delivery. The Boolean-sign complex family admits
-constructive square/cube forms and an exact finite/infinite-order classification.
-Its128 nonlinear tables reduce to four projective types at every width, with
-paid adapters through the actual native bank word.
+A changed eight-field source preserves15 actual endpoints and restores every X input while reducing its exact static completion deficit from5V to4V. Its movement rises only0.00220925086613...; independent all222-column and159-observation replays distinguish real source histories from receiver delivery. The new24-point raw-feedback set is closed. The old S8 interface has sharp linear/nonlinear completion bounds and an adaptive14-point obstruction, with scope corrections retained.
 
-The complete111-output decoder and profitable nonlinear caller remain open.
-**No new κ.** All five foundations remain. This is an ongoing integrated
-programme, not a newly PR-ready multiplication theorem. Admission packages
-retain pins, operation invoices, independent AI reviews, negative controls,
-@CubeJerry/predecessor credit and OpenAI disclosure.
+The nonlinear complex programme now has a determinant-deformation obstruction covering clean single/adjacent-sector callers and an exact paid quarter-phase clock that escapes its premise. No complete profitable caller is claimed. See the three checkpoint5 admission packages, their full proofs, source pins and independent reviews, and sessions/2026-11-16-S016/reproduce_cp5.py (18 successful reproduction commands).
 
+**No new κ.** Both strict suppliers,96 remaining BIT outputs, complete recursion and all five foundations remain open. Ongoing cumulative programme, not PR-ready. @CubeJerry and predecessor credit, OpenAI assistance, exact cost accounting and negative controls are retained. Current base checkpoint79658dea2624d4a8eef2f7fb0d1cbf6a2f464282; canonical main e54523517d0f03e58352e647c403a5af3e525a57.
 
-## Latest extension: earlier acquisition and its limits
+## Earlier S016 extension: acquisition and its limits
 
 Actual cross-chart four/six source words, a source-aware early-helper lift,
 exact fixed-cut movement optimum and canonical cache relations are now proved.

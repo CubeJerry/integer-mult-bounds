@@ -1,0 +1,130 @@
+{
+  "status": "PASS_EXACT_FIVE_DIRECTION_COMPLETION_MINIMUM",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "seed_source_sha256": "71c260d339b216eb010e7410bed02237df20366f1a3bf95fe66e9d5921531cb0",
+  "frame": [
+    0,
+    14,
+    22,
+    23,
+    30,
+    31,
+    59,
+    60
+  ],
+  "frame_gram": [
+    [
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4
+    ]
+  ],
+  "frame_restriction_rank": 4,
+  "source_seed_index": 7,
+  "source_row": "0xcc00cc6400097c0033000055",
+  "source_frame_restriction": 1,
+  "functional_support": [
+    0,
+    24,
+    32
+  ],
+  "functional_native_products_with_receiver_0": [
+    4,
+    2,
+    2
+  ],
+  "functional_annihilates_all_seed_rows": true,
+  "functional_annihilates_all_17_point_grants": true,
+  "canonical_intersection_at_empty_and_full_point_grants": [
+    4,
+    4
+  ],
+  "additional_dimension_lower_and_upper_per_record_width": [
+    5,
+    5
+  ],
+  "negative_controls_rejected": [
+    "functional_missing_own_coefficient",
+    "duplicate_frame_port",
+    "wrong_baseline_source_row",
+    "out_of_scope_free_point_24",
+    "out_of_scope_local_coordinate_24"
+  ],
+  "quantifiers": "Every characteristic-two field, every positive record width V, arbitrary linear added rows and block operators, any subset of the listed 17 raw point grants",
+  "scope": "Prescribed S8 static ground code and geometric foreign-coordinate local information; abstract fitting dimension only; no acquisition, transport or complete kappa claim"
+}

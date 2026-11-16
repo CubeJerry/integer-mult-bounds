@@ -354,3 +354,7 @@ Its metadata and described full-cost changes were read; its word was not replaye
 or admitted here. It does not remove the programme's strict BIT or nonlinear
 complex-caller obligations. No canonical certificate or upstream branch changed.
 The pinned metadata is in sessions/2026-11-16-S016/UPSTREAM-REFRESH-CP3.json.
+
+## S016 checkpoint5 upstream refresh
+
+At01:07UTC main is unchanged e54523517d0f03e58352e647c403a5af3e525a57. Open CrocSwap/integer-mult-bounds#7622 headfb03f3a4bbc288fe264f5ce708364ddcbb7245d2 claims conditional.003661727792 under a new common whole-private-extent supplier U; its description explicitly does not derive U from the old erasure premise. Open #7623 head2ee2f0b61f7d123e8862482b966699cca578be6d claims.0036624027915 and publishes a loan/stationary-snapshot engine on #7621. These are relevant source mechanisms, but no scientific replay or incorporation is claimed. Neither supplies the current missing U8 delivery/strict-supplier theorem. Metadata and scope preserved in the session refresh receipt; selected certificate unchanged.

@@ -1,216 +1,39 @@
 # Current proof-dependency map
 
-## S016 checkpoint4 changes
+## Primary: simultaneous affordable delivery from the changed source
 
-- **Proved:** reversible15-output fork, transformed-Hub acquisition, three
-  held queries, original S8 interface and all-X restoration.
-- **Proved:** literal full-W15 principal histories for12 and15 outputs with
-  actual times/charts; their frozen stationary captures do not add receivers.
-- **Proved:** fixed-d Boolean-sign native squares/cubes;128/128 finite/infinite
-  projective-order dichotomy in three bits.
-- **Proved:** four nonlinear projective types at every width, eight exact classes
-  at odd widths/four at even, and a literal paid K sign bridge.
-- **Open primary:** new nonpoint information or shared nonlocal access completing
-  all111 BIT outputs within the complete native and caller budget.
-- **Open complementary:** profitable nonlinear caller, both strict suppliers,
-  full recursive assembly and all five foundations.
+**BIT-U8-DELIVERY — open.** For every characteristic-two field and positive whole-record width, extend the literal111-port U8 source to all111 X-to-Y increments with arbitrary original X/Y, restored X, legal charts and ownership, and a complete target-feasible invoice. The existing word completes15 and restores all X. Its necessary limiting movement room is7.7437844022657188...; all ordinary, source, storage, precision and recursive costs remain. Dependencies: actual changed source, actual timeline, strict supplier admission, and the retained outer framework. Next attempt: coordinated recoding of proper caches and their ground preloads, new coded acquisition, or genuinely nonlocal receiver delivery.
 
-History15 was rebuilt from both changed words, not inferred from incompatible
-inventories. Complex normalization uses actual Boolean sources and the retained
-physical bridge, with explicit ordinary sign/frame charges. The17-point closure
-and single-sector caller gate are active investigations, not admitted here.
+The four-direction static code bound is a necessary information requirement for retaining U8, not a constructive tariff. Four rank-two arrivals already exceed the room. The old fixed-S8 obstruction does not apply to a changed preload; the new U8 closure still excludes raw-output-only cascades within that fixed interface.
 
+## New established propositions
 
-## S016 active frontier
-
-**BIT-HIERARCHICAL-SOURCE / open, primary.** Construct an actual multiple-meet
-or retained-proper-original source on the fixed111 native, for all positive
-whole-record widths and characteristic-two fields, with arbitrary X/Y,
-restored X, correct endpoints and a complete target-feasible invoice. First
-seek a simultaneous family of at least12 receivers that beats direct point
-copying; ultimately every111 endpoint is required. Single flat-ground delivery
-is now excluded within its explicit linear source premise.
-
-The previous cross-chart partial-source obligation is achieved by actual four/
-six words and the source-aware early helper theorem. Their partial prices are
-not competitive with direct point copying, so no whole-supplier progress is
-inferred merely from the endpoint count. Current verified dependencies:
-
-| Proposition | Status and exact scope | Evidence |
+| Obligation | Exact proposition and status | Evidence / remaining interface |
 |---|---|---|
-| Four/six overlapping source words | Proved for all char2 fields and positive widths;107/105 endpoints missing | [Source](results/bit-shared-meet-funnel/ADMISSION.md) |
-| Earlier actual helper lifts | Proved c+Delta arrival span and paid Hub compensation; requires genuine earlier access | [Lift](results/bit-early-helper-lift/ADMISSION.md) |
-| A3 cache quotient | Proved58-root identity and fixed7-of8 subset classification; new literal deletion word pending review | [Bridge](results/bit-early-helper-lift/ADMISSION.md) |
-| Complete flat-ground continuation | Disproved in linear all-source-at-ground scope; above-ground/private access outside | [Gate](results/bit-early-helper-lift/ADMISSION.md) |
-| Uniform-chart fixed-cut movement | Proved exact(c-p)A+pB+tC for transverse K; earlier access/unequal charts outside | [Cost](results/bit-chartwise-movement-optimum/ADMISSION.md) |
-| Integral collective complex caller | Proved all-head/all-call H<=2m+query ranks with integral inverse hypothesis; dyadic sector routing outside | [Modular theorem](results/complex-modular-parabolic-gate/ADMISSION.md) |
+| BIT-U8-SOURCE | **Proved.** One literal word for every characteristic-two field/width preserves15 endpoints and all222 input columns;71/730/381/71 operations. | [Source](results/bit-canonical-history-source/ADMISSION.md);96 outputs and uniform supplier remain. |
+| BIT-U8-HISTORY | **Proved.**159 actual observations have rank66 containing W15+C9; live inventory rank70. Frozen stationary access completes only15. | Independent C replay in the source package; no free co-location or transport. |
+| BIT-U8-COMPLETION | **Proved.** Any static linear fitting containing U8 and any subset of T24 needs exactly4V extra dimensions over every characteristic-two field. | Frame saturation plus canonical upper bound; actual acquisition open. |
+| BIT-U8-NONLINEAR | **Proved.** Finite-field exact deterministic fixed-length new common broadcasts need exactly4V symbols with the same static local interface. | Nine-parameter injection; interactive/local-interface changes outside. |
+| BIT-U8-POINT-CLOSURE | **Proved.** Phi(E6)=Phi(T24)=T24, with87 duals; unlimited feedback of already decoded raw outputs cannot leave T24. | [Closure](results/bit-canonical-history-source/completion/POINT-FEEDBACK.md); new coded/nonlocal data outside. |
+| BIT-S8-SHARP-COMPLETION | **Proved.** Old S8 needs exactly5V extra linear dimensions, and5V nonlinear fixed-length symbols over finite fields, with any T17 grants. | [Saturation](results/bit-prescribed-code-completion/author/FRAME-SATURATION.md); source acquisition separate. |
+| BIT-S8-POINT-BOOTSTRAP | **Proved.** T17 is closed; completing all111 through fresh raw grants and free point feedback needs at least14 grants. | [Proof](results/bit-prescribed-code-completion/point-threshold/PROOF.md),94 duals and exact5/7 thresholds. |
+| BIT-S8-STATIC-COST | **Proved in scope.** Frozen paid routes/values, static new common messages from points or heights>=5 cost at least4+5^t, exceeding old room. | [Gate](results/bit-prescribed-code-completion/static-cost-gate/PROOF.md). Further free feedback explicitly excluded after review correction. |
+| BIT-S6-COMPLETION | **Partial.** Active S6 unrestricted additional dimension lies between5V and6V. Full gauged canonical retention needs6V; a proper gauged sub-envelope is not excluded. | [Scope correction](results/bit-prescribed-code-completion/author/SCOPE-ADDENDUM.md). Lower priority than actual delivery. |
+| COMPLEX-RANK-DEGREE | **Proved in scope.** Fixed finite rank-by-path-length K(a)Q1K(a)Q2K(a) templates with invertible three-bank endpoints have head sum6 and lose under the full common-body price for all0<t<1. | [Deformation](results/complex-rank-degree-gate/ADMISSION.md); clock/orientation changes outside. |
+| COMPLEX-CLOCK | **Proved capability.** Actual paid quarter-phase clock collapses A H A to ordinary-A-ordinary at every width. | Same package; no profitable complete caller follows. |
 
-**COMPLEX-DYADIC-SECTOR-CALLER / open.** Construct a phase-exact caller outside
-the modular coefficient/inverse class, beginning with actual quadratic-parity
-conditional bank operations. All ordinary/tape/compiler costs, body/idles,
-independent endpoints and strict complex margin remain required. Finite searches
-are WIP, not impossibility proofs. Five foundations and strict BIT/outer gates
-remain open. Earlier graph entries below retain historical/source-specific scope.
+## Complete theorem and foundational dependencies
 
-**No new complete κ.** The full [registered result index](REGISTERED-RESULTS.json)
-and [prior graph](sessions/2026-11-15-S015/logical-records-before-cp4/OBLIGATIONS.md)
-retain every historical proposition and scope. This graph lists the active
-construction and necessary end-to-end dependencies. A finite verifier does
-not by itself establish a universal proposition.
+**COMPLEX-NONLINEAR-CALLER — open.** Construct a fixed uniform actual native caller outside the admitted clean-transport gates, with independent exact Gaussian endpoints, all original banks retained, and a complete favorable price at saving strictly above1/200. Role-dependent clocks and native orientations are current candidates. Required dependencies: paid fixed monomials, exact source normal forms, complete body/idle/query invoice, precision and recursion. Finite word scans are not universal obstructions or supplier proofs.
 
-## Primary construction obligation
+**STRICT-BIT-SUPPLIER — open.** Turn a complete source into the quantified covered interface C, choose an admissible source-valid atom rho, and establish completed B>1/200 with the actual recurrence and high-digit/stock contracts. The one-stage necessary threshold from b0=.00385248 is C>3112961/621875000. Equality and movement-only savings do not suffice. [Exact blueprint](TARGET-005.md).
 
-**BIT-COMPLETE-CHRONOLOGICAL-SOURCE / open.** For every characteristic-two field
-and positive whole-record width V, construct the actual111-input/111-output
-native source with arbitrary original X,Y, restored X, outputs y_i+x_i at
-F_i, valid chart chronology/ownership and a complete target-feasible invoice.
-The construction must extend uniformly to unbounded multiplication sizes.
-It may use the h9 W15 fitting or an equally effective changed code. Dependencies:
-actual acquisition, normalized information, every receiver correction, strict
-supplier admission and all five retained foundations. Raw W15 history alone
-and few-output words do not establish this proposition.
+**STRICT-COMPLEX-SUPPLIER — open.** Establish a compatible uniform complex U>1/200 on the entire required precision/input domain, with all cost terms. The algebraic source family and physical monomial bridge are enabling lemmas, not this supplier.
 
-The current actual source completes3/76/80 together in four paid copies,
-with one shared A2 cache and one chronological canonical bank. Its optimal
-chartwise repair now gives an explicit way to pay for nonseparable held
-projections. The principal missing theorem is compatible acquisition across
-distinct shared charts and overlapping private originals, preserving source
-availability, all endpoints and the complete target invoice. The paired-tail
-D44/W10 and two-copy alternatives remain verified predecessors below.
-Raw histories or a few completed outputs do not establish the complete native.
+**COMPLETE-CONDITIONAL-005 — open.** Given compatible strict suppliers and every retained framework premise, assemble all recursive calls and prove T(n)=O(n(log n)^(199/200)) for unbounded n. No complete new conditional κ is currently established.
 
-## Proven enabling results and exact constraints
+The five global foundations remain individually open: native_all_columns (unbounded source contract), owned_erasure (arbitrary live values/junk and complete cost), compiler (uniform legal lowering), precision_tape (all finite precision/storage/tape error budgets), and analytic_recovery (exact result from approximations). Local coefficient identities or physical sublemmas do not prove these global statements. An unconditional target theorem additionally proves or legitimately bypasses every needed foundation.
 
-| Proposition and quantifiers | Status, dependencies and consequence | Evidence |
-|---|---|---|
-| Actual colored source over every char2 field/width | Proved partial: D40,W∩D8,W15 raw history,111 facet inclusions,Y0 only. Native geometry and actual stationary acquisitions. | [Admission](results/bit-colored-eight-source/ADMISSION.md) |
-| Delayed proper-cell exchange over every char2 field/width | Proved partial: mixed kernel survives deletion0; actual Y0 correction and original-y cancellation; normalized rank9. Depends on colored source. | [Admission](results/bit-delayed-mixed-feedback/ADMISSION.md) |
-| Four-axis composition over every char2 field/width | Proved actual0/5/6/7 and two mixed cells, normalized10. No complete decoder. Depends on delayed source and actual three pure captures. | [Admission](results/bit-four-axis-feedback/ADMISSION.md) |
-| Six-axis extension over every char2 field/width | Proved actual0/1/2/5/6/7, four cells, normalized12, unchanged movement. Its fixed completion template is excluded. | [Source and review](results/bit-joint-kernel-puncture/ADMISSION.md) |
-| Localized normalization for every field,V and receiver subset J | Proved: only kernels below J facets contribute; mr(J)≤rank of their J-projected first-ground/kernel X rows. Dependencies: inverse-cell normalization, exact cell coordinates and local support. | [Joint theorem](results/bit-joint-kernel-puncture/author/PROOF.md) |
-| E4/E6 native punctures | Proved all-field lower9V, char2 attainment; fixed four-/six-cell upper8V contradicts complete fitting. Free reseeding of other slots does not repair mandatory-support premises. | [Certificates](results/bit-joint-kernel-puncture/author/output/RESULT.json) |
-| Punctured110 and point-kernel normalization | Proved all-field rank9V; q8 with sole F0 singularity or kernels equal x0 modulo own local data fails other110 outputs. Mixed kernels outside latter premise. | [Admission](results/bit-punctured-first-facet-gate/ADMISSION.md) |
-| Sharp terminal/seed optimization, arbitrary field/block subspace | Proved exact quotient maximum and fixed G⊂D extension. Fixed canonical cap3V is not an all-gauge/all-code exclusion. | [Base](results/bit-terminal-seed-quotient/ADMISSION.md), [extension](results/bit-fixed-kernel-quotient/ADMISSION.md) |
+## Retained dependency graph and audit history
 
-Additional current admissions:
-
-| Proposition and quantifiers | Status and exact scope | Evidence |
-|---|---|---|
-| Minimal raw-query lifts, all char2 fields/widths | Proved dual exclusion for fixed D40/whole-query grants; arbitrary D offsets included. | [Admission](results/bit-raw-query-lift-gate/ADMISSION.md) |
-| Two actual facet captures | Proved D42/W9,six quotient rows,all costs,Y0; recoding later avoids its detours. | [Admission](results/bit-augmented-acquisition/ADMISSION.md) |
-| Two virtual demands, all fields/blocks | Proved2V slack lower bound for49 fixed D42 cases with seeds inside A. | [Admission](results/bit-two-demand-slack/ADMISSION.md) |
-| Scalar cohort recoding | Proved D40/W9,200owners/805ADD/495MOVE; all-column identities. | [Admission](results/bit-reprogrammed-cohort/ADMISSION.md) |
-| Independent cohort/run capacity | Proved exact9V+floor(V/2),arbitrary char2 blocks; not changed run interfaces. | [Theorem](results/bit-reprogrammed-cohort/author/CAPACITY.md) |
-| Restricted full-record packing grammar | Proved constant-record invariant; richer lane service conditional on full access/commutation. | [Admission](results/bit-lane-service-boundary/ADMISSION.md) |
-| Fixed-bank translation and batching | Proved existing-alphabet translation; full caller replacement requires complete direct-sum endpoints and all scaled costs. | [Theorem](results/bit-two-copy-cohort-source/bank-expansion-root/PROOF.md) |
-| Actual two-copy source | Proved400owners/2126ADD/990MOVE,D80/W19,W30history,two Y0 outputs; decoder open. | [Admission](results/bit-two-copy-cohort-source/ADMISSION.md) |
-
-| Paired-flag source and capacity, all char2 fields/widths | Proved D44/W10, exact10V new-interface optimum, full W15 history and actual common tails; only Y0 complete. | [Admission](results/bit-paired-flag-source/ADMISSION.md) |
-| Fixed packed three-duty completion | Proved p>=21 for fixed D80/B and seeds inside A91, all fields/blocks; exceeds actual movement room. | [Admission](results/bit-packed-three-duty-gate/ADMISSION.md) |
-| Facet collector source | Proved three canonical kernels, C18 history, G22 and full physical invoice;83 fixed visibility failures. | [Admission](results/bit-facet-collector-source/ADMISSION.md) |
-| Shared-facet physical cover bridge | Open. Scalar cap194 does not automatically transfer to paired output banks; the218 intrinsic code bound remains valid. | [Author correction](results/bit-facet-collector-source/author/SCOPE-CORRECTION.md), [independent qualification](results/bit-facet-collector-source/independent-a/SCOPE-SUPPLEMENT.md) |
-| Shared-facet local rank/MDS construction | Proved n>=b+2 under source-local/no-two-cover premises; exact28/16 atlas, four-copy888-column correction and paid one-receiver completion. Global source remains open. | [Admission](results/bit-shared-facet-mds/ADMISSION.md) |
-| One-hop shared-facet source | Disproved within scope for canonical9b supply: rankG>=V ceil(111b/4); arbitrary within-root block preencoding included. A changed source must satisfy the exact support/history requirements. | [Admission](results/bit-shared-facet-one-hop-gate/ADMISSION.md) |
-| Actual nonlocal shared-tail relay | Proved six-output source and full invoice; its fixed two-kernel completion puncture fails. | [Admission](results/bit-paired-nonlocal-relay/ADMISSION.md) |
-| Arbitrary one-cell through maps | Disproved within scope at all12 paired charts, every field/width, by8V versus9V puncture. Multiple effective cells remain open. | [Admission](results/bit-paired-single-cell-gate/ADMISSION.md) |
-
-Other retained gates: target arrival rank≥9V+ceil(V/3); full native rank9V
-rigidity; canonical quotient/cover requirements; actual cuts, receiver duals
-and source-specific earlier export limits. Their exact premises remain in
-[TARGET-005](TARGET-005.md) and individual admissions. Never transfer a frozen-
-source obstruction to changed chronology without rechecking its hypotheses.
-
-## Chronological source obligations admitted at checkpoint8
-
-| Proposition, quantifiers and dependencies | Status / remaining gap | Evidence |
-|---|---|---|
-| Rectangular source factors, every field,V, m≤2n channels, ≤3 other cohorts per channel | Proved rank(I−UP)≥V ceil(119n/1250), excludes canonical9b at n111b with all X/Y couriers. Fixed disjoint common-chart cohorts included; overlapping interactions outside. | [Proof/review](results/bit-clipped-rectangular-source/ADMISSION.md) |
-| Invertible monotone cocharted X prefix, no side-memory feedback to X | Proved inverse-column locality and necessary rank(SW_A)=hV at each common-chart held group. Joint sufficiency open. | [Memory](results/bit-early-hub-memory/ADMISSION.md) |
-| Actual one-/two-cohort cached words, arbitrary originals | Proved partial constructions, restored X, one/two completed Y and paid caches. Two-cohort version uses rank11 ground information. | [Cached sources](results/bit-cached-early-hub/ADMISSION.md) |
-| Canonical-before-Y MDS, four paid copies | Proved two literal888-column words; one completed receiver, terminal36/completed40/transient444. | [Admission](results/bit-canonical-mds-chronology/ADMISSION.md) |
-| Every chosen native i,positive width,char2 field | Proved80-bank single-receiver algorithm, one foreign root's60pivots and adapted canonical720basis; finite complete local invoice. | [Theorem](results/bit-canonical-mds-chronology/parametric-root/PROOF.md), [review](results/bit-canonical-mds-chronology/parametric-review/REVIEW.md) |
-| Same original trajectories serve all111 receiver roles | **Open, primary:** compatible overlapping common-prefix caches and chronological canonical acquisition; no free restart/reset or altered productivity, all X restored, arbitrary Y preserved, complete invoice. | [Scope](results/bit-canonical-mds-chronology/ADMISSION.md) |
-| Order9/order15 actual heads,everyV | Proved source identities,ordinary gauges and V≥2 cyclic faithfulness. General admission iff v=e_a,w_a=0,all fixed d. No caller. | [Sources](results/complex-entangling-native-source/ADMISSION.md) |
-| Local-wreath caller,fixed d,arbitrary call count | Proved H≤2m+sum(query ranks),strict full-body deficit m≥1. ScalarC15 native-only still H≤2m; genuine entangling interstages outside. | [Scopes](results/complex-entangling-native-source/ADMISSION.md) |
-
-## Current shared-source frontier
-
-| Proposition | Status / dependency | Evidence |
-|---|---|---|
-| One prefix for3/76 and3/76/80,all char2 fields/positive widths,four paid copies | Proved canonical-before-Y,shared cache,private MDS,selected endpoints,restoration and full partial invoice. Triple leaves108 roles. | [Source/reviews](results/bit-joint-a2-mds-source/ADMISSION.md) |
-| Frozen triple suffix from pure-Y canonical cut,arbitrary linear upward Y relays | Proved4V gap at all108 others,432dual witnesses. Earlier acquisition and changed source paths excluded from scope. | [Gate](results/bit-a2-source-interface/author-root/PROOF.md) |
-| One-chart canonical queries at actual invertible cut | Proved iff held-image separability; current disjoint private-pivot recipe q≥5 fails. Helpers/changed chronology outside. | [Criterion](results/bit-a2-source-interface/ADMISSION.md) |
-| Distinct shared charts with overlapping private sources,or earlier Y acquisition plus later proper canonical delivery | **Open,primary:** compatible actual source and query bases,all111 endpoints,restoration and complete target-feasible invoice. Same-A2 common-prefix test is achieved. | [Continuation](CONTINUATION.md) |
-
-## Complex bridge and complete theorem
-
-**COMPLEX-COMPLETE-CALLER / open.** Produce an authenticated all-column,
-phase-exact, independent-input caller and uniform supplier U>1/200, with every
-fresh body, idle role, ordinary operation, precision service and recursive call
-charged. The exact K³=a²I3 base is proved but unprofitable. Three natives with two
-ordinary interstages satisfy H<=6 in the fixed cyclic head/Pauli-endpoint class,
-giving an all-t deficit with full body/idles and spectators. [Dihedral theorem
-and corollary](results/complex-dihedral-interstage/ADMISSION.md).
-A positive zero-ordinary KQK middle is constructed, but its ordinary-left-kernel
-rigidity excludes literal four-K a³I. [Construction and gate](results/complex-zero-ordinary-middle/ADMISSION.md).
-The exact Pauli-split source and physical inverse are now admitted. Total
-Gaussian rank H<=2m for arbitrary call/role counts in its three-head commuting
-sector model, forcing an all-t complete fresh-body deficit. The one-relation
-extension excludes at most five calls at every fixed head count. Its precise
-faithfulness dependency is proved at V>=d(d+3). [Package](results/complex-commuting-rank-conservation/ADMISSION.md).
-The next construction must use overlapping relations (at least six natives,
-eleven directions), noncommuting head transport, or a changed source/body
-interface. Endpoint inventories passing only physical character cuts remain
-unproved; odd-coset consistency can still reject them. No target-solving word
-or uniform supplier is known.
-
-**ORDINARY-UNIT-IMPLEMENTATION / conditional bridge.** In a finite unital
-algebra, two interstages reduce exactly to a linear intersection containing a
-unit. For a split abelian ordinary algebra, all character determinant polynomials
-must be nonzero; over an infinite field this is sufficient for a unit. Actual
-finite diagonal-catalogue implementation additionally assumes the stated
-ordinary scan/scalar/layout service, with compiler/precision costs retained.
-No unit solving the target caller is constructed by the criterion itself.
-[Reviewed bridge](results/complex-three-role-cyclic-base/linear-bridge/PROOF.md).
-
-**STRICT-COVERED-TO-COMPLETED-BIT / conditional, supplier missing.** The exact
-one-stage threshold from b0=.00385248 is C>3112961/621875000, with valid rho
-and every stock/high-digit contract. Iterated arithmetic alone is not a
-source. **COMPATIBLE-OUTER-ASSEMBLY / open:** U>1/200 and B>1/200 must share
-actual domains, uniformity, precision, units and complete recursive costs.
-Only then do retained strict outer rows supply the conditional target theorem.
-
-**FOUNDATIONS / retained assumptions:** native_all_columns, owned_erasure,
-compiler, precision_tape and analytic_recovery. No new result here discharges
-one. The unconditional target needs each proved or legitimately bypassed.
-Every conditional implication is separate from the existence of its premises.
-
-## Optimal chartwise repair: the next constructive interface
-
-The canonical-only separability obstruction now has an exact paid repair.
-For actual held projection P of code K, c=dim K and
-Δ=Σ_a dim π_a(P)−dim P, minimum first-ground-arrival span is c+Δ.
-A chart-supported quotient complement realizes it with c principal packets
-and Δ helpers born at their actual held charts. All source reads, ground
-corrections, movement and retirements remain charged. This is not a peak
-storage or full-history lower bound. The hypothetical ten-pivot/four-bank
-five-receiver interface needs exactly four helpers and canonical movement
-9[2]+10[6]. An actual compatible source for those receivers is still missing.
-[Proof and independent review](results/bit-chartwise-query-repair/ADMISSION.md).
-
-The next construction should use this explicit repair while extending the
-actual A2 common prefix across distinct shared charts with overlapping source
-originals. Prove source availability, chronological canonical delivery,
-restoration and every receiver endpoint before claiming a complete invoice.
-Earlier Y acquisition remains a possible source mechanism. No new κ.
-
-## Final complex representation finding
-
-The full-parabolic135-Lagrangian radial sign-cut, scalar-diagonal and arbitrary
-matrix-block commutator families cannot supply the required linear native-rank
-calibration: q2≤q1 and4q3≤5q1. The Hilbert-valued analogue has sharp q2≤3q1/2.
-Independent enumerations and universal proofs are admitted in
-[the potential-family package](results/complex-parabolic-potential-limits/ADMISSION.md).
-These are scoped representation obstructions; the profitable entangling caller
-and non-diagonal/new representation mechanisms remain open. No additional
-physical caller impossibility or stronger multiplication theorem is claimed.
+Earlier detailed quantified obligations, failed constructions and source pins are preserved in [the pre-checkpoint5 dependency map](sessions/2026-11-16-S016/logical-records-before-cp5/OBLIGATIONS.md), the append-only SESSION-LOG, and REGISTERED-RESULTS. They remain valid in their stated scope unless a linked correction says otherwise. Current directions above supersede older next-action labels. In particular, global flat-ground access, fixed joint-cell/puncture templates and frozen stationary histories must not be re-investigated as if untested.
