@@ -1,0 +1,586 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_CANONICAL_COMMON_LOWERING",
+  "base_word_sha256": "7d2fea44d7bdf8b3a63807f88371cad28f9303649db66b7d4ccbb56e9c180ada",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "method": "Separate Fraction native geometry and all222 replay, independent actual-source snapshots and binary fixed-point integer-root invoice; author builder/trace/checker not imported.",
+  "reports": [
+    {
+      "word_sha256": "72317dffe82063e4db958c7b4025c490276d8339cbf11fd7041bc183ba991155",
+      "all222_replay": {
+        "counts": {
+          "INIT": 133,
+          "ADD": 1079,
+          "MOVE": 481,
+          "CLEAR": 133
+        },
+        "movement_profile": {
+          "1": 185,
+          "2": 40,
+          "3": 60,
+          "4": 9,
+          "5": 69,
+          "6": 22,
+          "7": 96
+        },
+        "dirty_CLEAR": 133,
+        "peak_owners": 133,
+        "all_222_endpoints": true
+      },
+      "actual_live_common_cut": 1693,
+      "other_old_fields_checked": 350,
+      "deliberately_changed_old_fields": [
+        "P5",
+        "P5_RET"
+      ],
+      "actual_canonical_common_rows_hex": [
+        "0x6619aaa80154dd2325aaaa83eea5"
+      ],
+      "canonical_intersection_before_and_after": [
+        0,
+        1
+      ],
+      "unfinished_common_quotient_before_and_after": [
+        0,
+        1
+      ],
+      "native_raw_capture_custody": [
+        {
+          "point": 45,
+          "source_step": 1,
+          "owner": "CANON_OLD_RAW45"
+        },
+        {
+          "point": 48,
+          "source_step": 4,
+          "owner": "CANON_OLD_RAW48"
+        },
+        {
+          "point": 49,
+          "source_step": 7,
+          "owner": "CANON_OLD_RAW49"
+        }
+      ],
+      "three_M1_canonical_and_three_raw_import_contracts_preserved": true,
+      "real_common_read_unread_probes": 1,
+      "exact_signed_movement_difference": {
+        "1": -3,
+        "5": -3,
+        "7": 3
+      },
+      "independent_invoice": {
+        "exponent": "199/200",
+        "directed_method": "binary fixed-point scale2^160 and exact integer200th root",
+        "moment": {
+          "lower": "1618.03953707664181006085860704815850557014055298852476068587",
+          "upper": "1618.03953707664181006085860704815850557014055298872729210456",
+          "lower_fraction": "2364767432703648204454188000854151068130251165967259/1461501637330902918203684832716283019655932542976",
+          "upper_fraction": "2364767432703648204454188000854151068130251165967555/1461501637330902918203684832716283019655932542976"
+        },
+        "limiting_allowance": {
+          "lower": "1621.75088021115235524624615036699498644791554260622675253779",
+          "upper": "1621.75088021115235524624615036699498644791554260637443169725",
+          "lower_fraction": "1777643675078574128782544335577370069584380127885315/1096126227998177188652763624537212264741949407232",
+          "upper_fraction": "4740383133542864343420118228206320185558347007694605/2923003274661805836407369665432566039311865085952"
+        },
+        "limiting_room": {
+          "lower": "3.71134313451054518538754331883648087777498961749946043324664",
+          "upper": "3.71134313451054518538754331883648087777498961784967101136689",
+          "lower_fraction": "16272402203351901767613339747027073946767013638595/4384504911992708754611054498148849058967797628928",
+          "upper_fraction": "10848268135567934511742226498018049297844675760087/2923003274661805836407369665432566039311865085952"
+        },
+        "finite_even_m_checks": [
+          {
+            "m": 2,
+            "target_minus_paid": {
+              "lower": "-155.227431794980007155397606093131757755304733200652708930328",
+              "upper": "-155.227431794980007155397606093131757755304733168684219257386",
+              "lower_fraction": "-14179071607939646187881728143032120031427921458963/91343852333181432387730302044767688728495783936",
+              "upper_fraction": "-113432572863517169503053825144256960251423371648343/730750818665451459101842416358141509827966271488"
+            },
+            "strictly_positive": false
+          },
+          {
+            "m": 4,
+            "target_minus_paid": {
+              "lower": "-21.6190789526003804814460466150184461554051069706721333334487",
+              "upper": "-21.6190789526003804814460466150184461554051069260960628481785",
+              "lower_fraction": "-7899079821702879448686893331047258285410644920067/365375409332725729550921208179070754913983135744",
+              "upper_fraction": "-1974769955425719862171723332761814571352661225945/91343852333181432387730302044767688728495783936"
+            },
+            "strictly_positive": false
+          },
+          {
+            "m": 6,
+            "target_minus_paid": {
+              "lower": "111.989273889779246192505512863094865444494519259308442263430",
+              "upper": "111.989273889779246192505512863094865444494519316492093561030",
+              "lower_fraction": "20459063394176412927076562955016981777445197997859/182687704666362864775460604089535377456991567872",
+              "upper_fraction": "81836253576705651708306251820067927109780792033223/730750818665451459101842416358141509827966271488"
+            },
+            "strictly_positive": true
+          },
+          {
+            "m": 8,
+            "target_minus_paid": {
+              "lower": "245.597626732158872866457072341208177044394145489289017860309",
+              "upper": "245.597626732158872866457072341208177044394145559080249970238",
+              "lower_fraction": "89735333398408531156993145151115185395191436911503/365375409332725729550921208179070754913983135744",
+              "upper_fraction": "89735333398408531156993145151115185395191436937003/365375409332725729550921208179070754913983135744"
+            },
+            "strictly_positive": true
+          },
+          {
+            "m": 10,
+            "target_minus_paid": {
+              "lower": "379.205979574538499540408631819321488644293771719269593457189",
+              "upper": "379.205979574538499540408631819321488644293771801668406379446",
+              "lower_fraction": "17319067501058029557479145549024550904436559728411/45671926166590716193865151022383844364247891968",
+              "upper_fraction": "277105080016928472919666328784392814470984955714789/730750818665451459101842416358141509827966271488"
+            },
+            "strictly_positive": true
+          },
+          {
+            "m": 12,
+            "target_minus_paid": {
+              "lower": "512.814332416918126214360191297434800244193397949250169054068",
+              "upper": "512.814332416918126214360191297434800244193398044256562788653",
+              "lower_fraction": "187369746618519941762673183633277629075793518743073/365375409332725729550921208179070754913983135744",
+              "upper_fraction": "93684873309259970881336591816638814537896759388893/182687704666362864775460604089535377456991567872"
+            },
+            "strictly_positive": true
+          }
+        ],
+        "first_positive_even_m_in_2_to_200": 6,
+        "scope": "movement-only necessary interface; all remaining supplier costs retained",
+        "new_complete_kappa": false
+      },
+      "controls": [
+        {
+          "omitted": [
+            "ADD",
+            "X45",
+            "CANON_OLD_RAW45"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": [
+            "MOVE",
+            "CANON_OLD_RAW45",
+            "zero"
+          ],
+          "rejected": "(1629, 'CANON_OLD_RAW45', ['Y45'])"
+        },
+        {
+          "omitted": [
+            "ADD",
+            "CANON_OLD_RAW45",
+            "Y45"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": [
+            "ADD",
+            "X48",
+            "CANON_OLD_RAW48"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": [
+            "MOVE",
+            "CANON_OLD_RAW48",
+            "zero"
+          ],
+          "rejected": "(1637, 'CANON_OLD_RAW48', ['Y48'])"
+        },
+        {
+          "omitted": [
+            "ADD",
+            "CANON_OLD_RAW48",
+            "Y48"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": [
+            "ADD",
+            "X49",
+            "CANON_OLD_RAW49"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": [
+            "MOVE",
+            "CANON_OLD_RAW49",
+            "zero"
+          ],
+          "rejected": "(1639, 'CANON_OLD_RAW49', ['Y49'])"
+        },
+        {
+          "omitted": [
+            "ADD",
+            "CANON_OLD_RAW49",
+            "Y49"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": "second M1 read",
+          "packet": "P5",
+          "endpoints_still_correct": true,
+          "common_and_proper_canonical_source_contract_rejected": true
+        },
+        {
+          "omitted": "proper retention capture",
+          "packet": "P5",
+          "endpoints_and_common_row_still_correct": true,
+          "proper_retention_contract_rejected": true
+        }
+      ]
+    },
+    {
+      "word_sha256": "d2be3d2eb240377c3b42b4535fcf2b2977ef49b3a26f80dc5c296727fe72bd56",
+      "all222_replay": {
+        "counts": {
+          "INIT": 136,
+          "ADD": 1073,
+          "MOVE": 478,
+          "CLEAR": 136
+        },
+        "movement_profile": {
+          "1": 182,
+          "2": 40,
+          "3": 60,
+          "4": 9,
+          "5": 66,
+          "6": 22,
+          "7": 99
+        },
+        "dirty_CLEAR": 136,
+        "peak_owners": 136,
+        "all_222_endpoints": true
+      },
+      "actual_live_common_cut": 1687,
+      "other_old_fields_checked": 348,
+      "deliberately_changed_old_fields": [
+        "P4",
+        "P4_RET",
+        "P5",
+        "P5_RET"
+      ],
+      "actual_canonical_common_rows_hex": [
+        "0x6619aaa80154dd2325aaaa83eea5",
+        "0x55cca86730e551e94f16b0ca69"
+      ],
+      "canonical_intersection_before_and_after": [
+        0,
+        2
+      ],
+      "unfinished_common_quotient_before_and_after": [
+        0,
+        2
+      ],
+      "native_raw_capture_custody": [
+        {
+          "point": 45,
+          "source_step": 10,
+          "owner": "CANON_OLD_RAW45"
+        },
+        {
+          "point": 48,
+          "source_step": 13,
+          "owner": "CANON_OLD_RAW48"
+        },
+        {
+          "point": 49,
+          "source_step": 16,
+          "owner": "CANON_OLD_RAW49"
+        },
+        {
+          "point": 29,
+          "source_step": 1,
+          "owner": "CANON_OLD_RAW29"
+        },
+        {
+          "point": 40,
+          "source_step": 4,
+          "owner": "CANON_OLD_RAW40"
+        },
+        {
+          "point": 42,
+          "source_step": 7,
+          "owner": "CANON_OLD_RAW42"
+        }
+      ],
+      "three_M1_canonical_and_three_raw_import_contracts_preserved": true,
+      "real_common_read_unread_probes": 2,
+      "exact_signed_movement_difference": {
+        "1": -6,
+        "5": -6,
+        "7": 6
+      },
+      "independent_invoice": {
+        "exponent": "199/200",
+        "directed_method": "binary fixed-point scale2^160 and exact integer200th root",
+        "moment": {
+          "lower": "1620.95643073298559215266888422394580797410949059461343075572",
+          "upper": "1620.95643073298559215266888422394580797410949059481596217440",
+          "lower_fraction": "1184515238779157383019556989470883841181559381991575/730750818665451459101842416358141509827966271488",
+          "upper_fraction": "1184515238779157383019556989470883841181559381991723/730750818665451459101842416358141509827966271488"
+        },
+        "limiting_allowance": {
+          "lower": "1621.75088021115235524624615036699498644791554260622675253779",
+          "upper": "1621.75088021115235524624615036699498644791554260637443169725",
+          "lower_fraction": "1777643675078574128782544335577370069584380127885315/1096126227998177188652763624537212264741949407232",
+          "upper_fraction": "4740383133542864343420118228206320185558347007694605/2923003274661805836407369665432566039311865085952"
+        },
+        "limiting_room": {
+          "lower": "0.794449478166763093577266143049178473806052011410790363400347",
+          "upper": "0.794449478166763093577266143049178473806052011761000941520588",
+          "lower_fraction": "1741633819676108506417702742088615624082109795461/2192252455996354377305527249074424529483898814464",
+          "upper_fraction": "2322178426234811341890270322784820832109479728305/2923003274661805836407369665432566039311865085952"
+        },
+        "finite_even_m_checks": [
+          {
+            "m": 2,
+            "target_minus_paid": {
+              "lower": "-207.731517609168084807982595257303201026745610110248770187562",
+              "upper": "-207.731517609168084807982595257303201026745610078280280514619",
+              "lower_fraction": "-151799976555516223767387627932806488347231753814723/730750818665451459101842416358141509827966271488",
+              "upper_fraction": "-75899988277758111883693813966403244173615876895681/365375409332725729550921208179070754913983135744"
+            },
+            "strictly_positive": false
+          },
+          {
+            "m": 4,
+            "target_minus_paid": {
+              "lower": "-179.131336395164613439201014107532775969727737699460317105149",
+              "upper": "-179.131336395164613439201014107532775969727737654884246619878",
+              "lower_fraction": "-130900370719402921690375195027743100858246436269191/730750818665451459101842416358141509827966271488",
+              "upper_fraction": "-130900370719402921690375195027743100858246436236617/730750818665451459101842416358141509827966271488"
+            },
+            "strictly_positive": false
+          },
+          {
+            "m": 6,
+            "target_minus_paid": {
+              "lower": "-150.531155181161142070419432957762350912709865288671864022737",
+              "upper": "-150.531155181161142070419432957762350912709865231488212725137",
+              "lower_fraction": "-110000764883289619613362762122679713369261118723659/730750818665451459101842416358141509827966271488",
+              "upper_fraction": "-6875047805205601225835172632667482085578819917617/45671926166590716193865151022383844364247891968"
+            },
+            "strictly_positive": false
+          },
+          {
+            "m": 8,
+            "target_minus_paid": {
+              "lower": "-121.930973967157670701637851807991925855691992877883410940324",
+              "upper": "-121.930973967157670701637851807991925855691992808092178830396",
+              "lower_fraction": "-89101159047176317536350329217616325880275801178127/730750818665451459101842416358141509827966271488",
+              "upper_fraction": "-89101159047176317536350329217616325880275801127127/730750818665451459101842416358141509827966271488"
+            },
+            "strictly_positive": false
+          },
+          {
+            "m": 10,
+            "target_minus_paid": {
+              "lower": "-93.3307927531541993328562706582215007986741204670949578579113",
+              "upper": "-93.3307927531541993328562706582215007986741203846961449356551",
+              "lower_fraction": "-68201553211063015459337896312552938391290483632595/730750818665451459101842416358141509827966271488",
+              "upper_fraction": "-34100776605531507729668948156276469195645241786191/365375409332725729550921208179070754913983135744"
+            },
+            "strictly_positive": false
+          },
+          {
+            "m": 12,
+            "target_minus_paid": {
+              "lower": "-64.7306115391507279640746895084510757416562480563065047754988",
+              "upper": "-64.7306115391507279640746895084510757416562479613001110409140",
+              "lower_fraction": "-47301947374949713382325463407489550902305166087063/730750818665451459101842416358141509827966271488",
+              "upper_fraction": "-47301947374949713382325463407489550902305166017637/730750818665451459101842416358141509827966271488"
+            },
+            "strictly_positive": false
+          }
+        ],
+        "first_positive_even_m_in_2_to_200": 18,
+        "scope": "movement-only necessary interface; all remaining supplier costs retained",
+        "new_complete_kappa": false
+      },
+      "controls": [
+        {
+          "omitted": [
+            "ADD",
+            "X45",
+            "CANON_OLD_RAW45"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": [
+            "MOVE",
+            "CANON_OLD_RAW45",
+            "zero"
+          ],
+          "rejected": "(1623, 'CANON_OLD_RAW45', ['Y45'])"
+        },
+        {
+          "omitted": [
+            "ADD",
+            "CANON_OLD_RAW45",
+            "Y45"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": [
+            "ADD",
+            "X48",
+            "CANON_OLD_RAW48"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": [
+            "MOVE",
+            "CANON_OLD_RAW48",
+            "zero"
+          ],
+          "rejected": "(1631, 'CANON_OLD_RAW48', ['Y48'])"
+        },
+        {
+          "omitted": [
+            "ADD",
+            "CANON_OLD_RAW48",
+            "Y48"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": [
+            "ADD",
+            "X49",
+            "CANON_OLD_RAW49"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": [
+            "MOVE",
+            "CANON_OLD_RAW49",
+            "zero"
+          ],
+          "rejected": "(1633, 'CANON_OLD_RAW49', ['Y49'])"
+        },
+        {
+          "omitted": [
+            "ADD",
+            "CANON_OLD_RAW49",
+            "Y49"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": "second M1 read",
+          "packet": "P5",
+          "endpoints_still_correct": true,
+          "common_and_proper_canonical_source_contract_rejected": true
+        },
+        {
+          "omitted": "proper retention capture",
+          "packet": "P5",
+          "endpoints_and_common_row_still_correct": true,
+          "proper_retention_contract_rejected": true
+        },
+        {
+          "omitted": [
+            "ADD",
+            "X29",
+            "CANON_OLD_RAW29"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": [
+            "MOVE",
+            "CANON_OLD_RAW29",
+            "zero"
+          ],
+          "rejected": "(1584, 'CANON_OLD_RAW29', ['Y29'])"
+        },
+        {
+          "omitted": [
+            "ADD",
+            "CANON_OLD_RAW29",
+            "Y29"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": [
+            "ADD",
+            "X40",
+            "CANON_OLD_RAW40"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": [
+            "MOVE",
+            "CANON_OLD_RAW40",
+            "zero"
+          ],
+          "rejected": "(1604, 'CANON_OLD_RAW40', ['Y40'])"
+        },
+        {
+          "omitted": [
+            "ADD",
+            "CANON_OLD_RAW40",
+            "Y40"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": [
+            "ADD",
+            "X42",
+            "CANON_OLD_RAW42"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": [
+            "MOVE",
+            "CANON_OLD_RAW42",
+            "zero"
+          ],
+          "rejected": "(1613, 'CANON_OLD_RAW42', ['Y42'])"
+        },
+        {
+          "omitted": [
+            "ADD",
+            "CANON_OLD_RAW42",
+            "Y42"
+          ],
+          "rejected": ""
+        },
+        {
+          "omitted": "second M1 read",
+          "packet": "P4",
+          "endpoints_still_correct": true,
+          "common_and_proper_canonical_source_contract_rejected": true
+        },
+        {
+          "omitted": "proper retention capture",
+          "packet": "P4",
+          "endpoints_and_common_row_still_correct": true,
+          "proper_retention_contract_rejected": true
+        }
+      ]
+    }
+  ],
+  "scope": "Actual canonical source information is common with all46 old outputs paid and preserved. No additional receiver or complete supplier follows without its real proper correction. Binary identities lift to all characteristic-two fields and positive whole-record widths.",
+  "new_complete_kappa": false
+}

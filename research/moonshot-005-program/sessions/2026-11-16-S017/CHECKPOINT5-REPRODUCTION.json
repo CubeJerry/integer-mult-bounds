@@ -1,0 +1,230 @@
+{
+  "status": "PASS",
+  "executions": [
+    {
+      "name": "early-paid46",
+      "exit_code": 0,
+      "seconds": 0.719
+    },
+    {
+      "name": "masked-M1",
+      "exit_code": 0,
+      "seconds": 2.824
+    },
+    {
+      "name": "masked-review",
+      "exit_code": 0,
+      "seconds": 13.04
+    },
+    {
+      "name": "canonical-common-one",
+      "exit_code": 0,
+      "seconds": 1.627
+    },
+    {
+      "name": "canonical-common-two",
+      "exit_code": 0,
+      "seconds": 2.506
+    },
+    {
+      "name": "lower-review",
+      "exit_code": 0,
+      "seconds": 6.718
+    },
+    {
+      "name": "decoder34",
+      "exit_code": 0,
+      "seconds": 1.398
+    },
+    {
+      "name": "decoder-review",
+      "exit_code": 0,
+      "seconds": 2.211
+    },
+    {
+      "name": "closure-author",
+      "exit_code": 0,
+      "seconds": 10.251
+    },
+    {
+      "name": "closure-review",
+      "exit_code": 0,
+      "seconds": 1.077
+    },
+    {
+      "name": "transport-author",
+      "exit_code": 0,
+      "seconds": 0.251
+    },
+    {
+      "name": "transport-review",
+      "exit_code": 0,
+      "seconds": 1.052
+    },
+    {
+      "name": "coherent-author",
+      "exit_code": 0,
+      "seconds": 0.044
+    },
+    {
+      "name": "coherent-review",
+      "exit_code": 0,
+      "seconds": 0.41
+    }
+  ],
+  "comparisons": [
+    {
+      "job": "early-paid46",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/early-paid46/WORD.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-mask-source/author/early-paid46/WORD.json",
+      "expected_sha256": "27dc6c36eec067acd2fe4679a81c95ea9db8fd6377784a0bbfc060ca52a121fd",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "27dc6c36eec067acd2fe4679a81c95ea9db8fd6377784a0bbfc060ca52a121fd"
+    },
+    {
+      "job": "early-paid46",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/early-paid46/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-mask-source/author/early-paid46/RESULT.json",
+      "expected_sha256": "5522a585757f8dc8753e7dec71a410abe082c55577d4399afc36751150f13a57",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "5522a585757f8dc8753e7dec71a410abe082c55577d4399afc36751150f13a57"
+    },
+    {
+      "job": "masked-M1",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/masked-M1/WORD.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-mask-source/author/masked-M1/WORD.json",
+      "expected_sha256": "7d2fea44d7bdf8b3a63807f88371cad28f9303649db66b7d4ccbb56e9c180ada",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "7d2fea44d7bdf8b3a63807f88371cad28f9303649db66b7d4ccbb56e9c180ada"
+    },
+    {
+      "job": "masked-M1",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/masked-M1/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-mask-source/author/masked-M1/RESULT.json",
+      "expected_sha256": "ca57d7cc2ab2b8b2029adae6ba5d6d660c25aa8c38af97816becb370ed1d127f",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "ca57d7cc2ab2b8b2029adae6ba5d6d660c25aa8c38af97816becb370ed1d127f"
+    },
+    {
+      "job": "masked-review",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/masked-review/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-mask-source/independent-review/RESULT.json",
+      "expected_sha256": "c2acb2cfc32ec7c9f26604a138205210fb1ccbb804d193fb3016121a1877d1d9",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "c2acb2cfc32ec7c9f26604a138205210fb1ccbb804d193fb3016121a1877d1d9"
+    },
+    {
+      "job": "canonical-common-one",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/canonical-common-one/WORD.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-common-delivery/author/canonical-common-one/WORD.json",
+      "expected_sha256": "72317dffe82063e4db958c7b4025c490276d8339cbf11fd7041bc183ba991155",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "72317dffe82063e4db958c7b4025c490276d8339cbf11fd7041bc183ba991155"
+    },
+    {
+      "job": "canonical-common-one",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/canonical-common-one/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-common-delivery/author/canonical-common-one/RESULT.json",
+      "expected_sha256": "7dcdf4327ef59a849c1a6d33b65e9e6d6bb95c463c3d0cfd9c91f9391a043f9b",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "7dcdf4327ef59a849c1a6d33b65e9e6d6bb95c463c3d0cfd9c91f9391a043f9b"
+    },
+    {
+      "job": "canonical-common-two",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/canonical-common-two/WORD.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-common-delivery/author/canonical-common-two/WORD.json",
+      "expected_sha256": "d2be3d2eb240377c3b42b4535fcf2b2977ef49b3a26f80dc5c296727fe72bd56",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "d2be3d2eb240377c3b42b4535fcf2b2977ef49b3a26f80dc5c296727fe72bd56"
+    },
+    {
+      "job": "canonical-common-two",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/canonical-common-two/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-common-delivery/author/canonical-common-two/RESULT.json",
+      "expected_sha256": "54de12598796063ec82013ec6a4312840410ffa155223e5d060d91aeec2aa8f3",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "54de12598796063ec82013ec6a4312840410ffa155223e5d060d91aeec2aa8f3"
+    },
+    {
+      "job": "lower-review",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/lower-review.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-common-delivery/root-review/RESULT.json",
+      "expected_sha256": "954e1860fab42c64be1a0de3e94c27413ed0ade919b8d9a86a4a1c6d28d8174b",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "954e1860fab42c64be1a0de3e94c27413ed0ade919b8d9a86a4a1c6d28d8174b"
+    },
+    {
+      "job": "decoder34",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/decoder34/WORD.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-decoder34/author/WORD.json",
+      "expected_sha256": "a910bb4504cf2a96303e8d560f076463268c4cb3ad4e6631d5f598c895db0567",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "a910bb4504cf2a96303e8d560f076463268c4cb3ad4e6631d5f598c895db0567"
+    },
+    {
+      "job": "decoder34",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/decoder34/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-decoder34/author/RESULT.json",
+      "expected_sha256": "e3814689556c5cc3527fb4dbe527322084bcb56c5200964be5e2e4b80bc0ec16",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "e3814689556c5cc3527fb4dbe527322084bcb56c5200964be5e2e4b80bc0ec16"
+    },
+    {
+      "job": "decoder-review",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/decoder-review.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-decoder34/root-review/RESULT.json",
+      "expected_sha256": "eb1e7e9024cfdb5bab913a107cdecb58ef40c50a5079a1843eb4e75090810211",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "eb1e7e9024cfdb5bab913a107cdecb58ef40c50a5079a1843eb4e75090810211"
+    },
+    {
+      "job": "closure-author",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/closure-author/CLOSURE.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-decoder34/author/CLOSURE.json",
+      "expected_sha256": "63befd308c8c384593a0de3eee8c9db908d6f2f7b5e0bbc717a0536049d69a34",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "63befd308c8c384593a0de3eee8c9db908d6f2f7b5e0bbc717a0536049d69a34"
+    },
+    {
+      "job": "closure-review",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/closure-review.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-decoder34/root-review/CLOSURE.json",
+      "expected_sha256": "56528adebd94ec47c72366069b97796de3ea2b7bc96ddf77c3776dc587fd1c22",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "56528adebd94ec47c72366069b97796de3ea2b7bc96ddf77c3776dc587fd1c22"
+    },
+    {
+      "job": "transport-author",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/complex-author/SOURCE-TRANSPORT-RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/complex-source-transport/author/SOURCE-TRANSPORT-RESULT.json",
+      "expected_sha256": "eb626bb9d0d86f43eb90539a399d60c46e4ccaeeb74a1782d879b9fee68a5513",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "eb626bb9d0d86f43eb90539a399d60c46e4ccaeeb74a1782d879b9fee68a5513"
+    },
+    {
+      "job": "transport-review",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/transport-review.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/complex-source-transport/root-review/source-transport/RESULT.json",
+      "expected_sha256": "0a99ad2a768685c261fde3b0b55fc580f39d5229757a3cac4bab7780f034d328",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "0a99ad2a768685c261fde3b0b55fc580f39d5229757a3cac4bab7780f034d328"
+    },
+    {
+      "job": "coherent-author",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/complex-author/COHERENT-PIVOT-RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/complex-source-transport/author/COHERENT-PIVOT-RESULT.json",
+      "expected_sha256": "d4b160a1903874863591439691e6d067e6f0555a6b34c3a9740ac34e03cd1ac8",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "d4b160a1903874863591439691e6d067e6f0555a6b34c3a9740ac34e03cd1ac8"
+    },
+    {
+      "job": "coherent-review",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint5/coherent-review.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/complex-source-transport/root-review/coherent-pivot/RESULT.json",
+      "expected_sha256": "276278a00222f5fc3641fbb9fbb6e48e069000a759537ee441b1beba855c0b46",
+      "status": "BYTE_IDENTICAL",
+      "actual_sha256": "276278a00222f5fc3641fbb9fbb6e48e069000a759537ee441b1beba855c0b46"
+    }
+  ],
+  "scope": "Fresh portable author and independent checker reproduction; author reruns are not new independent reviews."
+}

@@ -1,0 +1,369 @@
+{
+  "status": "PASS_SOURCE_TRANSPORTED_ROUTING_AND_SCOPED_OBSTRUCTION",
+  "baseline": "3057acc9311101cfedfcfacf7f68fb0866507871",
+  "scope": "Analytic obstruction for quarter-sector bank-permutation first interface followed by one active clock and arbitrary diagonal second algebra; exact constructive decoder for reversed first order. No actual independent421 caller.",
+  "unique_path_support_checks": [
+    {
+      "head_count": 1,
+      "column_support": 2,
+      "row_support": 2,
+      "all_paths_unique": true
+    },
+    {
+      "head_count": 2,
+      "column_support": 4,
+      "row_support": 4,
+      "all_paths_unique": true
+    },
+    {
+      "head_count": 3,
+      "column_support": 8,
+      "row_support": 8,
+      "all_paths_unique": true
+    },
+    {
+      "head_count": 4,
+      "column_support": 16,
+      "row_support": 16,
+      "all_paths_unique": true
+    }
+  ],
+  "joint_quarter_source_types": {
+    "1": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "2": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "3": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ]
+  },
+  "clock_support_bounds": [
+    {
+      "theta": 0,
+      "joint_samples": 16,
+      "maximum_row_support": 2
+    },
+    {
+      "theta": 1,
+      "joint_samples": 16,
+      "maximum_row_support": 2
+    },
+    {
+      "theta": 2,
+      "joint_samples": 16,
+      "maximum_row_support": 2
+    },
+    {
+      "theta": 3,
+      "joint_samples": 16,
+      "maximum_row_support": 2
+    }
+  ],
+  "all_phase_pair_controls": [
+    {
+      "phases": [
+        0,
+        0
+      ],
+      "row_supports": [
+        1
+      ]
+    },
+    {
+      "phases": [
+        0,
+        1
+      ],
+      "row_supports": [
+        2
+      ]
+    },
+    {
+      "phases": [
+        0,
+        2
+      ],
+      "row_supports": [
+        1
+      ]
+    },
+    {
+      "phases": [
+        0,
+        3
+      ],
+      "row_supports": [
+        2
+      ]
+    },
+    {
+      "phases": [
+        1,
+        0
+      ],
+      "row_supports": [
+        2
+      ]
+    },
+    {
+      "phases": [
+        1,
+        1
+      ],
+      "row_supports": [
+        1
+      ]
+    },
+    {
+      "phases": [
+        1,
+        2
+      ],
+      "row_supports": [
+        2
+      ]
+    },
+    {
+      "phases": [
+        1,
+        3
+      ],
+      "row_supports": [
+        1
+      ]
+    },
+    {
+      "phases": [
+        2,
+        0
+      ],
+      "row_supports": [
+        1
+      ]
+    },
+    {
+      "phases": [
+        2,
+        1
+      ],
+      "row_supports": [
+        2
+      ]
+    },
+    {
+      "phases": [
+        2,
+        2
+      ],
+      "row_supports": [
+        1
+      ]
+    },
+    {
+      "phases": [
+        2,
+        3
+      ],
+      "row_supports": [
+        2
+      ]
+    },
+    {
+      "phases": [
+        3,
+        0
+      ],
+      "row_supports": [
+        2
+      ]
+    },
+    {
+      "phases": [
+        3,
+        1
+      ],
+      "row_supports": [
+        1
+      ]
+    },
+    {
+      "phases": [
+        3,
+        2
+      ],
+      "row_supports": [
+        2
+      ]
+    },
+    {
+      "phases": [
+        3,
+        3
+      ],
+      "row_supports": [
+        1
+      ]
+    }
+  ],
+  "universal_associative_block_formulas": true,
+  "universal_highest_degree_path": true,
+  "joint_sector_counts": {
+    "1": [
+      [
+        4,
+        4,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "2": [
+      [
+        16,
+        32,
+        16,
+        0
+      ],
+      [
+        32,
+        64,
+        32,
+        0
+      ],
+      [
+        16,
+        32,
+        16,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "3": [
+      [
+        64,
+        192,
+        192,
+        64
+      ],
+      [
+        192,
+        576,
+        576,
+        192
+      ],
+      [
+        192,
+        576,
+        576,
+        192
+      ],
+      [
+        64,
+        192,
+        192,
+        64
+      ]
+    ],
+    "4": [
+      [
+        1024,
+        2048,
+        3072,
+        2048
+      ],
+      [
+        2048,
+        4096,
+        6144,
+        4096
+      ],
+      [
+        3072,
+        6144,
+        9216,
+        6144
+      ],
+      [
+        2048,
+        4096,
+        6144,
+        4096
+      ]
+    ]
+  },
+  "negative_control": "An invertible hidden scalar sector can have zero active row pair, destroying full rank4 at V>=3.",
+  "source_sha256": {
+    "research/moonshot-005-program/results/complex-four-bit-cubic-source/author/PROOF.md": "6ea08c509a1560aa334640eeb45bcdcd4649412d40292380f771cd623eee570c",
+    "research/moonshot-005-program/results/complex-four-bit-concentration/author/PROOF.md": "25d0aa55745a2019df938174d602316c8ac277618f100a2be3e9344f09484be1"
+  },
+  "source_helper_sha256": "9a06b7b99bff037f86dbb824bbb8cc3af40b173bc5713a2c179da6ddcd8d3127"
+}

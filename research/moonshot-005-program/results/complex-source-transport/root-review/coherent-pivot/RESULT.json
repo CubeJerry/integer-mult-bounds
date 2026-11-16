@@ -1,0 +1,37 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_COHERENT_FIRST_PIVOT",
+  "author_proof_sha256": "d3f6c1478d1a61871ab99ee5c1da457ba5b39f34655549ac239723b88577a697",
+  "author_result_sha256": "d4b160a1903874863591439691e6d067e6f0555a6b34c3a9740ac34e03cd1ac8",
+  "support_proof_sha256": "fd9727036033a198de0d73a215ebb0f95503d8c602ff056633b377024be9a75d",
+  "independent_support_review_sha256": "0a99ad2a768685c261fde3b0b55fc580f39d5229757a3cac4bab7780f034d328",
+  "method": "Independent exact SymPy literal source/all-sector transport models and noncommutative block formulas; no author code imported. The general normalization and support/rank proof are reviewed in writing.",
+  "exact_transport_normalizations": [
+    {
+      "model": "literal16_native",
+      "normalization": true,
+      "cross_unit_nontrivial": true,
+      "leading_lower_shear_is_output_gauge": true
+    },
+    {
+      "model": "all16_joint_phase_pairs",
+      "normalization": true,
+      "cross_unit_nontrivial": true,
+      "leading_lower_shear_is_output_gauge": true
+    }
+  ],
+  "ordered_coherent_block_formulas": true,
+  "conditional_first_pivot_counterexample_to_unit_premise": {
+    "sector_pivots": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "all_sector_matrices_invertible": true
+  },
+  "negative_controls": [
+    "For the nonconstant scalar unit s, replacing w by I changes the actual normalized native.",
+    "Invertibility of the full conditional routing does not imply its first entry is a unit."
+  ],
+  "scope": "R20=0, unit R00 in all four sectors, one declared clock, arbitrary fixed diagonal Q and ordinary outer encodings. Other first pivots and non-diagonal Q remain open. No new complete kappa."
+}

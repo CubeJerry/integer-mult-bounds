@@ -1,0 +1,215 @@
+{
+  "status": "PASS_ACTUAL_CANONICAL_COMMON_WITH_PAID_OLD_READERS",
+  "word_sha256": "72317dffe82063e4db958c7b4025c490276d8339cbf11fd7041bc183ba991155",
+  "base_word_sha256": "7d2fea44d7bdf8b3a63807f88371cad28f9303649db66b7d4ccbb56e9c180ada",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "before": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 130,
+      "ADD": 1093,
+      "MOVE": 484,
+      "CLEAR": 130
+    },
+    "movement_profile": {
+      "1": 188,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 72,
+      "6": 22,
+      "7": 93
+    },
+    "dirty_CLEAR": 130,
+    "peak_owned": 130,
+    "historical_record_states": 1929
+  },
+  "after": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 133,
+      "ADD": 1079,
+      "MOVE": 481,
+      "CLEAR": 133
+    },
+    "movement_profile": {
+      "1": 185,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 69,
+      "6": 22,
+      "7": 96
+    },
+    "dirty_CLEAR": 133,
+    "peak_owned": 133,
+    "historical_record_states": 1915
+  },
+  "canonical_common_fields": [
+    {
+      "packet": "P5",
+      "field": "ZFIRST5",
+      "retention": "P5_RET",
+      "targets": [
+        45,
+        48,
+        49
+      ],
+      "row_hex": "0x6619aaa80154dd2325aaaa83eea5",
+      "retained_chart": "P5_K"
+    }
+  ],
+  "all_other_old_owned_fields_and_charts_preserved": true,
+  "protected_source_contracts": {
+    "IMPORT_E8": {
+      "value_hex": "0x100",
+      "chart": "M1"
+    },
+    "IMPORT_E9": {
+      "value_hex": "0x200",
+      "chart": "M1"
+    },
+    "IMPORT_E36": {
+      "value_hex": "0x1000000000",
+      "chart": "M1"
+    }
+  },
+  "old46_endpoints_preserved": true,
+  "new_completed_outputs": 0,
+  "common_canonical_intersection_rank_before": 0,
+  "common_canonical_intersection_rank_after": 1,
+  "common_unfinished_quotient_rank_before": 0,
+  "common_unfinished_quotient_rank_after": 1,
+  "unfinished_points_with_new_common_own_coefficient": [
+    5,
+    13,
+    14,
+    15,
+    17,
+    25,
+    31,
+    33,
+    35,
+    53,
+    56,
+    58,
+    59,
+    60,
+    62,
+    63,
+    66,
+    68,
+    70,
+    72,
+    83,
+    85,
+    87,
+    89,
+    91,
+    93,
+    95,
+    96,
+    99,
+    100,
+    105,
+    106,
+    109,
+    110
+  ],
+  "exact_movement_increment": "3[7]-3[5]-3[1]",
+  "price": {
+    "moment": {
+      "lower": "1618.03953707664181006085860704815679",
+      "upper": "1618.03953707664181006085860704815975",
+      "lower_fraction": "161803953707664181006085860704815679/100000000000000000000000000000000",
+      "upper_fraction": "6472158148306567240243434428192639/4000000000000000000000000000000"
+    },
+    "limiting_room": {
+      "lower": "3.711343134510545185387543318834125",
+      "upper": "3.71134313451054518538754331883924333333333333333",
+      "lower_fraction": "29690745076084361483100346550673/8000000000000000000000000000000",
+      "upper_fraction": "1113402940353163555616262995651773/300000000000000000000000000000000"
+    }
+  },
+  "controls": [
+    {
+      "removed": [
+        "ADD",
+        "X45",
+        "CANON_OLD_RAW45"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "CANON_OLD_RAW45",
+        "zero"
+      ],
+      "failure": "(1629, ['ADD', 'CANON_OLD_RAW45', 'Y45'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "CANON_OLD_RAW45",
+        "Y45"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X48",
+        "CANON_OLD_RAW48"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "CANON_OLD_RAW48",
+        "zero"
+      ],
+      "failure": "(1637, ['ADD', 'CANON_OLD_RAW48', 'Y48'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "CANON_OLD_RAW48",
+        "Y48"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X49",
+        "CANON_OLD_RAW49"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "CANON_OLD_RAW49",
+        "zero"
+      ],
+      "failure": "(1639, ['ADD', 'CANON_OLD_RAW49', 'Y49'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "CANON_OLD_RAW49",
+        "Y49"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": "second actual canonical read at M1",
+      "packet": "P5",
+      "all46_endpoints_still_pass": true,
+      "common_canonical_contract_fails": true
+    }
+  ],
+  "scope": "Actual one or two independent canonical rows carried from M1 to common by existing principal descents; every old46 endpoint and all three M1 canonical/import contracts retained. Old lower readers receive explicitly paid native returns. No new completed output or full supplier."
+}

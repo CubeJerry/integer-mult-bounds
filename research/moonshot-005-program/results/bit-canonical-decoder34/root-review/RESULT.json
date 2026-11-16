@@ -1,0 +1,280 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_ACTUAL_CANONICAL_DECODER34",
+  "word_sha256": "a910bb4504cf2a96303e8d560f076463268c4cb3ad4e6631d5f598c895db0567",
+  "base_word_sha256": "72317dffe82063e4db958c7b4025c490276d8339cbf11fd7041bc183ba991155",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "method": "Independent Fraction native charts, full222-column word replay, exact actual-source snapshots and binary fixed-point200th-root invoice; no author builder/checker imported.",
+  "before": {
+    "counts": {
+      "INIT": 133,
+      "ADD": 1079,
+      "MOVE": 481,
+      "CLEAR": 133
+    },
+    "movement_profile": {
+      "1": 185,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 69,
+      "6": 22,
+      "7": 96
+    },
+    "dirty_CLEAR": 133,
+    "peak_owners": 133,
+    "all_222_endpoints": true
+  },
+  "after": {
+    "counts": {
+      "INIT": 134,
+      "ADD": 1143,
+      "MOVE": 482,
+      "CLEAR": 134
+    },
+    "movement_profile": {
+      "1": 186,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 69,
+      "6": 22,
+      "7": 96
+    },
+    "dirty_CLEAR": 134,
+    "peak_owners": 134,
+    "all_222_endpoints": true
+  },
+  "completed_outputs": 47,
+  "K34_hex": "0x663366fe67983f82f32583f31bcc",
+  "N34_hex": "0x663366fe67983f82f32183f31bcc",
+  "actual_neighbors": [
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    16,
+    17,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    31,
+    32,
+    37,
+    40,
+    41,
+    44,
+    45,
+    46,
+    47,
+    49,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    67,
+    68,
+    71,
+    72,
+    73,
+    74,
+    77,
+    78,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    89,
+    90,
+    93,
+    94,
+    96,
+    97,
+    100,
+    101,
+    105,
+    106,
+    109,
+    110
+  ],
+  "actual_source_cuts": {
+    "M1_departure": 1436,
+    "raw_Hub_auxiliary_birth": 1592,
+    "facet_correction_departure": 1653,
+    "native_receiver_move": 1655
+  },
+  "all111_originals_raw_at_actual_correction_birth": true,
+  "old_final_live_fields_changed": [
+    "P5",
+    "P5_RET",
+    "Y34"
+  ],
+  "all_old_MOVEs_retained_in_order": true,
+  "all_other_old_scalar_operations_retained_in_order": true,
+  "three_canonical_and_three_raw_M1_contracts_preserved": true,
+  "exact_movement_increment": {
+    "1": 1
+  },
+  "independent_invoice": {
+    "exponent": "199/200",
+    "directed_method": "binary fixed-point scale2^160 and exact integer200th root",
+    "moment": {
+      "lower": "1619.03953707664181006085860704815850557014055298852476068587",
+      "upper": "1619.03953707664181006085860704815850557014055298872729210456",
+      "lower_fraction": "2366228934340979107372391685686867351149907098510235/1461501637330902918203684832716283019655932542976",
+      "upper_fraction": "2366228934340979107372391685686867351149907098510531/1461501637330902918203684832716283019655932542976"
+    },
+    "limiting_allowance": {
+      "lower": "1621.75088021115235524624615036699498644791554260622675253779",
+      "upper": "1621.75088021115235524624615036699498644791554260637443169725",
+      "lower_fraction": "1777643675078574128782544335577370069584380127885315/1096126227998177188652763624537212264741949407232",
+      "upper_fraction": "4740383133542864343420118228206320185558347007694605/2923003274661805836407369665432566039311865085952"
+    },
+    "limiting_room": {
+      "lower": "2.71134313451054518538754331883648087777498961749946043324664",
+      "upper": "2.71134313451054518538754331883648087777498961784967101136689",
+      "lower_fraction": "11887897291359193013002285248878224887799216009667/4384504911992708754611054498148849058967797628928",
+      "upper_fraction": "7925264860906128675334856832585483258532810674135/2923003274661805836407369665432566039311865085952"
+    },
+    "finite_even_m_checks": [
+      {
+        "m": 2,
+        "target_minus_paid": {
+          "lower": "-173.227431794980007155397606093131757755304733200652708930328",
+          "upper": "-173.227431794980007155397606093131757755304733168684219257386",
+          "lower_fraction": "-15823260949936911970860873579837938428540845569811/91343852333181432387730302044767688728495783936",
+          "upper_fraction": "-126586087599495295766886988638703507428326764535127/730750818665451459101842416358141509827966271488"
+        },
+        "strictly_positive": false
+      },
+      {
+        "m": 4,
+        "target_minus_paid": {
+          "lower": "-75.6190789526003804814460466150184461554051069706721333334487",
+          "upper": "-75.6190789526003804814460466150184461554051069260960628481785",
+          "lower_fraction": "-27629351925670068844436638572717079050765734250243/365375409332725729550921208179070754913983135744",
+          "upper_fraction": "-6907337981417517211109159643179269762691433558489/91343852333181432387730302044767688728495783936"
+        },
+        "strictly_positive": false
+      },
+      {
+        "m": 6,
+        "target_minus_paid": {
+          "lower": "21.9892738897792461925055128630948654444945192593084422634305",
+          "upper": "21.9892738897792461925055128630948654444945193164920935610294",
+          "lower_fraction": "4017169974203755097285108586958797806315956889379/182687704666362864775460604089535377456991567872",
+          "upper_fraction": "16068679896815020389140434347835191225263827599303/730750818665451459101842416358141509827966271488"
+        },
+        "strictly_positive": true
+      },
+      {
+        "m": 8,
+        "target_minus_paid": {
+          "lower": "119.597626732158872866457072341208177044394145489289017860309",
+          "upper": "119.597626732158872866457072341208177044394145559080249970238",
+          "lower_fraction": "43698031822485089233577072920552270276029561807759/365375409332725729550921208179070754913983135744",
+          "upper_fraction": "43698031822485089233577072920552270276029561833259/365375409332725729550921208179070754913983135744"
+        },
+        "strictly_positive": true
+      },
+      {
+        "m": 10,
+        "target_minus_paid": {
+          "lower": "217.205979574538499540408631819321488644293771719269593457189",
+          "upper": "217.205979574538499540408631819321488644293771801668406379446",
+          "lower_fraction": "9920215462070333534072991083398368117428401229595/45671926166590716193865151022383844364247891968",
+          "upper_fraction": "158723447393125336545167857334373889878854419733733/730750818665451459101842416358141509827966271488"
+        },
+        "strictly_positive": true
+      },
+      {
+        "m": 12,
+        "target_minus_paid": {
+          "lower": "314.814332416918126214360191297434800244193397949250169054068",
+          "upper": "314.814332416918126214360191297434800244193398044256562788653",
+          "lower_fraction": "115025415570640247311590784413821619602824857865761/365375409332725729550921208179070754913983135744",
+          "upper_fraction": "57512707785320123655795392206910809801412428950237/182687704666362864775460604089535377456991567872"
+        },
+        "strictly_positive": true
+      }
+    ],
+    "first_positive_even_m_in_2_to_200": 6,
+    "scope": "movement-only necessary interface; all remaining supplier costs retained",
+    "new_complete_kappa": false
+  },
+  "negative_controls": [
+    {
+      "omitted": [
+        "ADD",
+        "ZFIRST3",
+        "P5"
+      ],
+      "rejected": ""
+    },
+    {
+      "omitted": [
+        "ADD",
+        "ZFIRST4",
+        "P5"
+      ],
+      "rejected": ""
+    },
+    {
+      "omitted": [
+        "ADD",
+        "X2",
+        "CANON_SIDE34"
+      ],
+      "rejected": ""
+    },
+    {
+      "omitted": [
+        "MOVE",
+        "CANON_SIDE34",
+        "F34"
+      ],
+      "rejected": "(1656, 'CANON_SIDE34', ['Y34'])"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "P5",
+        "Y34"
+      ],
+      "rejected": ""
+    },
+    {
+      "omitted": [
+        "ADD",
+        "CANON_SIDE34",
+        "Y34"
+      ],
+      "rejected": ""
+    },
+    {
+      "omitted": [
+        "CLEAR",
+        "CANON_SIDE34"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": "both new receiver reads and target34",
+      "all46_old_endpoints_still_correct": true
+    }
+  ],
+  "universal_scope": "The written binary K34+N34=e34 identity and literal lawful word hold over every characteristic-two field and positive whole-record width. Actual source/delivery witness; not an improved endpoint-price frontier or a full supplier.",
+  "new_complete_kappa": false
+}

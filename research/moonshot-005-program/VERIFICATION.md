@@ -1,5 +1,11 @@
 # Verification ledger and reproduction map
 
+## S017 checkpoint5 — actual canonical sources, physical decoder and transported complex interface
+
+Parent13aa322c88560492aa59ffe3a513747efd09413d. Fourteen commands pass;19 artifacts reproduce byte-for-byte. Independent reviews reconstruct actual native geometry, all222 columns, changed inherited source reads, simultaneous live sources, preserved contracts, every operation and integer-root prices. Fresh actual47 closure receives a separate root reconstruction and192 dual checks. Complex review uses literal matrices, exact source transport, unique-path support and noncommutative blocks without author imports; the written all-width separation/rank proof is reviewed separately.
+
+The canonical M1 source, common lowering and one physically paid decoder are admitted as mechanism progress. No cost dominance or full supplier follows. Changed-source histories invalidate the old own-zero premise; new scoped dual witnesses are retained. The complex obstructions explicitly require their stated first-interface and diagonal-Q hypotheses. Conditional pivots and non-diagonal Q remain open. See [validation](sessions/2026-11-16-S017/CHECKPOINT5-VALIDATION.json), [reproduction](sessions/2026-11-16-S017/CHECKPOINT5-REPRODUCTION.json), and package admissions/reviews. No new complete κ.
+
 ## S017 checkpoint4 — coordinated sources, real comparisons and earlier release
 
 Confirmed parentf8d88ec53a44e0beaefc96248b114b7072ccc3db. Seventeen commands pass;32 artifacts are byte-identical and one comparison differs only in three explicitly rebased path strings. The root source-wide review uses a separate Fraction geometry/all222 interpreter and integer-root invoice. The late-injection review uses three additional symbolic columns and checks the nonlinear collision proof. Worker C independently verifies actual custody, per-record histories, chronological access probes, price enclosures, noncontainment witnesses and each own-coordinate cut. The complex review checks exact primitive inverses, literal native matrices, determinant normalization and the written all-width identities without author code.

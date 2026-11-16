@@ -1,5 +1,11 @@
 # Relevant external research and compatibility
 
+## S017 mid-session check — upstream PR7626
+
+At2026-11-16 08:41:30 UTC canonical main remained e54523517d0f03e58352e647c403a5af3e525a57. Open [CrocSwap/integer-mult-bounds#7626](https://github.com/CrocSwap/integer-mult-bounds/pull/7626), authorClear1nsight, head5987b208bc05d066f01f800a3d88538cb216eccd, advertises conditional κ≥0.003665370499. Its pinned proof moves contact902/1091 from chart618 to373, deleting one MOVE per call: paid17-call total110060→110043, with22461 targets and1424 surplus unchanged. This is under the explicitly stronger, unimplemented common U contract, including full private extent/residuals/atomic return, nonaliasing, tariff4000 lifecycle,32 scalar services, coefficient2^20 and precision cap4096. It does not prove implication from the selected premise or dominance under identical premises. Inherited changed-CLEAR applicability remains unresolved.
+
+The PR body and pinned proof were read; the first100 file metadata entries were inspected, not an exhaustive fresh cold replay. Author staged runs and integrity assertions are not independent proof. No code or frontier is adopted. Selected conditional κ and all five foundations remain unchanged. Exact reconnaissance is retained in [UPSTREAM-MIDSESSION.json](sessions/2026-11-16-S017/UPSTREAM-MIDSESSION.json).
+
 Canonical main last examined: `e54523517d0f03e58352e647c403a5af3e525a57`.
 The selected conditional certificate remains .00363005817. No upstream branch,
 selected certificate or open PR has been changed by this programme.

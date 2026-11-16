@@ -1,0 +1,15 @@
+# Admission: source transport and scoped routing obstructions
+
+**Proved within the fixed finite monomial tensor interface, independently reviewed. No actual independent(4,2,1) caller or complete κ.**
+
+Use the retained four-bit source a=A^(tensor V), natives L,U, and clock h_theta=(S^-1 D_b^theta)^(tensor V). Coefficient templates are fixed before width grows, and tensor phases are retained. Faithful-width separation applies to each fixed finite projective-unitary catalogue; it is not a width-one or width-growing-catalogue claim.
+
+1. For C=diag(I,h_theta,I)R_b, with R_b a quarter-sector bank permutation, no invertible second interface Q in a fixed diagonal root-four algebra gives independent(4,2,1), even with ordinary outer encodings. Unique-path support forces Q zeros. Invertibility and ordinary-component cancellation then force an invertible2D minor in a component required to have rankD.
+2. For C=R_b diag(I,h_theta,I), with its first routing column in the active banks, the rank-four contribution has the explicit output decoder R_a^-1, using a D_b=D_a a. The untransported R_b^-1 is not substituted. In the joint D_b,D_c quarter algebra, full rank requires the active row pair to be nonzero in each occupied sector; all16 sectors occur for V>=3. This decodes only the rank-four component.
+3. For coherent R_b with R20=0 and R00 a unit in every quarter sector, normalize the first column(s_b,t_b,0) by G_b. Exactly G_a^-1 L G_b=L_w, where w=s_a^-1 s_b. The shear t cancels, but w does not. The support/rank argument again excludes independent(4,2,1) with diagonal Q. The explicit conditional first pivot(1,0,1,1) is outside the theorem although its full routing matrix is invertible.
+
+Root independently builds the literal16-address source and noncommutative blocks. It verifies arbitrary-diagonal unique paths, clock supports, all48 phase-preserving source gauges, transported routing, coherent normalization and controls against an untransported decoder, missing w, or false unit-pivot inference. Four-support words are not assumed Gaussian from support alone: the proposed endpoint's absence of non-Gaussian components is explicitly required in the contradiction.
+
+All ordinary interfaces, inverses, gauges, scalar recipes, precision and tapes remain paid. Conditional pivot changes, idle-bank routing, different clock placements and genuinely non-diagonal second interfaces remain outside the corresponding obstruction. Failed finite searches are not admitted as general theorems.
+
+See author proofs [transport](author/SOURCE-TRANSPORTED-ROUTING.md) and [pivot](author/COHERENT-FIRST-PIVOT.md), reviews [transport](root-review/source-transport/REVIEW.md) and [pivot](root-review/coherent-pivot/REVIEW.md), [reproduction](REPRODUCE.md), and manifests. PATH-ADAPTATION.json documents repository-path-only parameterization; proof, helper and result bytes are preserved. Author: Worker B. Review: root. Credit @CubeJerry and retained source, tensor-separation and compiler contributors, with substantial OpenAI assistance.

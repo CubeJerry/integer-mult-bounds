@@ -1,0 +1,212 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_SOURCE_TRANSPORT_ROUTING_REVIEW",
+  "proof_sha256": "fd9727036033a198de0d73a215ebb0f95503d8c602ff056633b377024be9a75d",
+  "author_result_sha256": "eb626bb9d0d86f43eb90539a399d60c46e4ccaeeb74a1782d879b9fee68a5513",
+  "method": "Independent SymPy literal16-address source and formal noncommutative block identities; author code is not imported. Written tensor-separation and rank argument reviewed separately.",
+  "arbitrary_diagonal_unique_path_proof": [
+    {
+      "word": "A^1 d A",
+      "nonzero_intermediate_paths_per_entry": 1,
+      "row_and_column_support": 4,
+      "scope": "Every diagonal d with all entries nonzero, by unique intermediate paths."
+    },
+    {
+      "word": "A^2 d A",
+      "nonzero_intermediate_paths_per_entry": 1,
+      "row_and_column_support": 8,
+      "scope": "Every diagonal d with all entries nonzero, by unique intermediate paths."
+    },
+    {
+      "word": "A^3 d A",
+      "nonzero_intermediate_paths_per_entry": 1,
+      "row_and_column_support": 16,
+      "scope": "Every diagonal d with all entries nonzero, by unique intermediate paths."
+    }
+  ],
+  "explicit_joint_source_gauges": [
+    {
+      "power": 1,
+      "left_phase_bit": 1,
+      "right_phase_bit": 8,
+      "literal_quarter_pairs": 16
+    },
+    {
+      "power": 2,
+      "left_phase_bit": 8,
+      "right_phase_bit": 8,
+      "literal_quarter_pairs": 16
+    },
+    {
+      "power": 3,
+      "left_phase_bit": 4,
+      "right_phase_bit": 8,
+      "literal_quarter_pairs": 16
+    }
+  ],
+  "clock_support_checks": [
+    {
+      "theta": 0,
+      "arbitrary_diagonal_support_bound": 2,
+      "literal_joint_controls": 16
+    },
+    {
+      "theta": 1,
+      "arbitrary_diagonal_support_bound": 2,
+      "literal_joint_controls": 16
+    },
+    {
+      "theta": 2,
+      "arbitrary_diagonal_support_bound": 2,
+      "literal_joint_controls": 16
+    },
+    {
+      "theta": 3,
+      "arbitrary_diagonal_support_bound": 2,
+      "literal_joint_controls": 16
+    }
+  ],
+  "forced_block_formulas_and_triangular_unit_pattern": true,
+  "reversed_order_highest_degree_formula": true,
+  "active_sector_permutation_cases": 4,
+  "joint_quarter_sector_counts": {
+    "1": [
+      [
+        4,
+        4,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "2": [
+      [
+        16,
+        32,
+        16,
+        0
+      ],
+      [
+        32,
+        64,
+        32,
+        0
+      ],
+      [
+        16,
+        32,
+        16,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "3": [
+      [
+        64,
+        192,
+        192,
+        64
+      ],
+      [
+        192,
+        576,
+        576,
+        192
+      ],
+      [
+        192,
+        576,
+        576,
+        192
+      ],
+      [
+        64,
+        192,
+        192,
+        64
+      ]
+    ],
+    "4": [
+      [
+        1024,
+        2048,
+        3072,
+        2048
+      ],
+      [
+        2048,
+        4096,
+        6144,
+        4096
+      ],
+      [
+        3072,
+        6144,
+        9216,
+        6144
+      ],
+      [
+        2048,
+        4096,
+        6144,
+        4096
+      ]
+    ],
+    "7": [
+      [
+        21233664,
+        16515072,
+        16515072,
+        21233664
+      ],
+      [
+        16515072,
+        12845056,
+        12845056,
+        16515072
+      ],
+      [
+        16515072,
+        12845056,
+        12845056,
+        16515072
+      ],
+      [
+        21233664,
+        16515072,
+        16515072,
+        21233664
+      ]
+    ]
+  },
+  "negative_controls": [
+    "Invertible scalar sector with zero active row pair loses the full rank-four component.",
+    "Untransported Db output control fails the literal source identity."
+  ],
+  "source_pins": {
+    "research/moonshot-005-program/results/complex-four-bit-cubic-source/author/PROOF.md": "6ea08c509a1560aa334640eeb45bcdcd4649412d40292380f771cd623eee570c",
+    "research/moonshot-005-program/results/complex-middle-native-interface/author/PROOF.md": "f4bd8b8827c355187d052e8a27cd3ddab004162bb6fcf5ca03318e266bc9e4b6"
+  },
+  "scope": "Scoped all-width clock-after-routing obstruction and explicit transported output decoder for the opposite order. No general ordinary-interface impossibility, no actual421 endpoint, no new complete kappa."
+}

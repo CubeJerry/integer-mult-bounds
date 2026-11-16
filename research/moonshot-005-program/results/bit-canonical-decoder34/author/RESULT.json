@@ -1,0 +1,642 @@
+{
+  "status": "PASS_ACTUAL_CANONICAL_DECODER34_WITH_PAID_FACET_CORRECTION",
+  "word_sha256": "a910bb4504cf2a96303e8d560f076463268c4cb3ad4e6631d5f598c895db0567",
+  "base_word_sha256": "72317dffe82063e4db958c7b4025c490276d8339cbf11fd7041bc183ba991155",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "before": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 133,
+      "ADD": 1079,
+      "MOVE": 481,
+      "CLEAR": 133
+    },
+    "movement_profile": {
+      "1": 185,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 69,
+      "6": 22,
+      "7": 96
+    },
+    "dirty_CLEAR": 133,
+    "peak_owned": 133,
+    "historical_record_states": 1915
+  },
+  "after": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 134,
+      "ADD": 1143,
+      "MOVE": 482,
+      "CLEAR": 134
+    },
+    "movement_profile": {
+      "1": 186,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 69,
+      "6": 22,
+      "7": 96
+    },
+    "dirty_CLEAR": 134,
+    "peak_owned": 134,
+    "historical_record_states": 1981
+  },
+  "target_count": 47,
+  "new_target": 34,
+  "canonical_row_equals_K34": true,
+  "K34_hex": "0x663366fe67983f82f32583f31bcc",
+  "N34_hex": "0x663366fe67983f82f32183f31bcc",
+  "neighbours": [
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    16,
+    17,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    31,
+    32,
+    37,
+    40,
+    41,
+    44,
+    45,
+    46,
+    47,
+    49,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    67,
+    68,
+    71,
+    72,
+    73,
+    74,
+    77,
+    78,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    89,
+    90,
+    93,
+    94,
+    96,
+    97,
+    100,
+    101,
+    105,
+    106,
+    109,
+    110
+  ],
+  "actual_Hub_source_cut_all111_raw": true,
+  "actual_M1_combination_cut": {
+    "old_operation_index": 1434,
+    "actual_fields": {
+      "ZFIRST3": "0x7f00fe01fc07f03fc03fc03f00",
+      "ZFIRST4": "0x55cca86730e551e94f16b0ca69",
+      "ZFIRST5": "0x6619aaa80154dd2325aaaa83eea5"
+    },
+    "packet_value_after_combination_hex": "0x663366fe67983f82f32583f31bcc"
+  },
+  "actual_receiver_cut": {
+    "new_MOVE_Y34_index": 1655,
+    "common_packet_row_hex": "0x663366fe67983f82f32583f31bcc",
+    "facet_correction_row_hex": "0x663366fe67983f82f32183f31bcc",
+    "Y34_before_move_hex": "0x200000000663366fe67983f82f32583f31bcc"
+  },
+  "old_final_live_fields_changed": [
+    "P5",
+    "P5_RET",
+    "Y34"
+  ],
+  "all_other_old_final_live_values_and_charts_preserved": true,
+  "protected_raw_M1_contracts": {
+    "IMPORT_E8": {
+      "value_hex": "0x100",
+      "chart": "M1"
+    },
+    "IMPORT_E9": {
+      "value_hex": "0x200",
+      "chart": "M1"
+    },
+    "IMPORT_E36": {
+      "value_hex": "0x1000000000",
+      "chart": "M1"
+    }
+  },
+  "canonical_M1_rows_unchanged": true,
+  "introduced_operations": [
+    [
+      "ADD",
+      "ZFIRST3",
+      "P5"
+    ],
+    [
+      "ADD",
+      "ZFIRST4",
+      "P5"
+    ],
+    [
+      "INIT",
+      "CANON_SIDE34",
+      "Hub"
+    ],
+    [
+      "ADD",
+      "X2",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X3",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X6",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X7",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X8",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X9",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X11",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X12",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X16",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X17",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X20",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X21",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X22",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X23",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X24",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X25",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X31",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X32",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X37",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X40",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X41",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X44",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X45",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X46",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X47",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X49",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X55",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X56",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X57",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X58",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X59",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X60",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X61",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X67",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X68",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X71",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X72",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X73",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X74",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X77",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X78",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X81",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X82",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X83",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X84",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X85",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X86",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X87",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X89",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X90",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X93",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X94",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X96",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X97",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X100",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X101",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X105",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X106",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X109",
+      "CANON_SIDE34"
+    ],
+    [
+      "ADD",
+      "X110",
+      "CANON_SIDE34"
+    ],
+    [
+      "MOVE",
+      "CANON_SIDE34",
+      "F34"
+    ],
+    [
+      "ADD",
+      "P5",
+      "Y34"
+    ],
+    [
+      "ADD",
+      "CANON_SIDE34",
+      "Y34"
+    ],
+    [
+      "CLEAR",
+      "CANON_SIDE34"
+    ]
+  ],
+  "new_operation_indices_by_role": {
+    "M1_common_combination": [
+      1434,
+      1435
+    ],
+    "source_and_common_read": [
+      1592,
+      1593,
+      1594,
+      1595,
+      1596,
+      1597,
+      1598,
+      1599,
+      1600,
+      1601,
+      1602,
+      1603,
+      1604,
+      1605,
+      1606,
+      1607,
+      1608,
+      1609,
+      1610,
+      1611,
+      1612,
+      1613,
+      1614,
+      1615,
+      1616,
+      1617,
+      1618,
+      1619,
+      1620,
+      1621,
+      1622,
+      1623,
+      1624,
+      1625,
+      1626,
+      1627,
+      1628,
+      1629,
+      1630,
+      1631,
+      1632,
+      1633,
+      1634,
+      1635,
+      1636,
+      1637,
+      1638,
+      1639,
+      1640,
+      1641,
+      1642,
+      1643,
+      1644,
+      1645,
+      1646,
+      1647,
+      1648,
+      1649,
+      1650,
+      1651,
+      1652,
+      1653,
+      1654
+    ],
+    "facet_correction_read": [
+      1656
+    ],
+    "clear": [
+      1892
+    ]
+  },
+  "exact_movement_increment": "1[1]",
+  "price": {
+    "moment": {
+      "lower_fraction": "809519768538320905030429303524079252785061/500000000000000000000000000000000000000",
+      "upper_fraction": "4047598842691604525152146517620396263925379/2500000000000000000000000000000000000000",
+      "lower": "1619.039537076641810060858607048158505570122",
+      "upper": "1619.0395370766418100608586070481585055701516"
+    },
+    "limiting_room": {
+      "lower_fraction": "10845372538042180741550173275345923511011/4000000000000000000000000000000000000000",
+      "upper_fraction": "40670147017658177780813149782547213167059/15000000000000000000000000000000000000000",
+      "lower": "2.71134313451054518538754331883648087775275",
+      "upper": "2.711343134510545185387543318836480877803933333333333333"
+    }
+  },
+  "controls": [
+    {
+      "omitted": [
+        "ADD",
+        "ZFIRST3",
+        "P5"
+      ],
+      "rejected": ""
+    },
+    {
+      "omitted": [
+        "ADD",
+        "ZFIRST4",
+        "P5"
+      ],
+      "rejected": ""
+    },
+    {
+      "omitted": [
+        "ADD",
+        "X2",
+        "CANON_SIDE34"
+      ],
+      "rejected": ""
+    },
+    {
+      "omitted": [
+        "MOVE",
+        "CANON_SIDE34",
+        "F34"
+      ],
+      "rejected": "(1656, ['ADD', 'CANON_SIDE34', 'Y34'], 'colocation')"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "P5",
+        "Y34"
+      ],
+      "rejected": ""
+    },
+    {
+      "omitted": [
+        "ADD",
+        "CANON_SIDE34",
+        "Y34"
+      ],
+      "rejected": ""
+    },
+    {
+      "omitted": [
+        "CLEAR",
+        "CANON_SIDE34"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": "both new receiver reads and point34 target",
+      "all46_old_endpoints_still_pass": true
+    }
+  ],
+  "scope": "Actual47 endpoints with K34 carried to common by P5 and a paid Hub-to-F34 neighbour-sum correction. Retains three canonical M1 fields and three raw M1 imports. A source/delivery mechanism witness, not a cheaper endpoint frontier than raw point returns or a full supplier."
+}
