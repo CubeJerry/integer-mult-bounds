@@ -764,3 +764,7 @@ Twenty-two reproduction commands pass, including four byte-identical words, exac
 ## Final S016 mathematical checkpoint
 
 Eighteen reproduction commands pass, with four byte-identical rebuilt words. Separate independent engines verify the108 bank envelope,2,913 field/6,465 history incidences, port29 custody and77 duals, port41 full222 source and actual recipe-cut rank9, cross-bank full222 chronology and root77-dual history audit, and the exact composed source with unchanged live M1 inventory. Source/payload negative controls distinguish changed row content from preserved endpoints. Complete new artifacts and dependency pins are in publication manifests. Main claims are proved source identities or scoped information theorems; full111, dirty-erasure applicability and complete suppliers remain open.
+
+## Closing source-selection audit
+
+The exact live Hub rank102 and59 oldqueries were independently reproduced with audit_source_selection_cut.py. This is inherited source mathematics, credited to the earlier forked/canonical-history proofs, not a new rank breakthrough. Current Hub-plus-C9 rank109/intersection2 and nonvisibility ofC0/D3_21 to24/42/69 are exact fixed-source audit data. A selected new recipe and its history/custody/erasure invoice remain unintegrated. The closing hash audit retains the two previously documented unavailable historical files without upgrading them to verified evidence.

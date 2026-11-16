@@ -17,7 +17,7 @@ The information gates now guide the source design: the frozen cheaper source clo
 
 The four-bit complex family is proved, but a profitable earlier-coupled(4,2,1) caller is open. Both strict suppliers, complete recursion and all five foundations remain open. Selected conditional κ stays363005817/10^11. Main remains e54523517d0f03e58352e647c403a5af3e525a57 at03:37:23UTC. Open #7625 explicitly changes to an unimplemented common supplier U; #7624 retains unresolved extra erasure applicability. Neither is an admitted equal-premise frontier. Programme ongoing, not PR-ready; no upstream PR submitted.
 
-## Current construction: changed preload and actual canonical history
+## Historical U8-stage construction: retained source dependency
 
 **No new complete κ.** Selected conditional κ remains363005817/10^11. All five foundations and the original complete cost model remain.
 

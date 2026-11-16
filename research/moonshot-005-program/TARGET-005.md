@@ -17,7 +17,7 @@ The information gates now guide the source design: the frozen cheaper source clo
 
 The four-bit complex family is proved, but a profitable earlier-coupled(4,2,1) caller is open. Both strict suppliers, complete recursion and all five foundations remain open. Selected conditional κ stays363005817/10^11. Main remains e54523517d0f03e58352e647c403a5af3e525a57 at03:37:23UTC. Open #7625 explicitly changes to an unimplemented common supplier U; #7624 retains unresolved extra erasure applicability. Neither is an admitted equal-premise frontier. Programme ongoing, not PR-ready; no upstream PR submitted.
 
-## Current necessary native budget
+## Historical U8-stage budget: retained necessary comparisons
 
 The changed U8 source preserves15 outputs with moment1614.00709580888663640879949082844..., leaving7.74378440226571883744665953855... below the retained limiting allowance. Its71/730/381/71 invoice includes all new filters and X8 routing. Static completion needs exactly4V new dimensions even with24 raw point grants; four rank-two arrivals cost more than the room. All96 missing endpoints and actual delivery costs remain. See [source and reviews](results/bit-canonical-history-source/ADMISSION.md).
 

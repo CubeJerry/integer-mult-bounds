@@ -1,6 +1,10 @@
 # Current proof-dependency map
 
-## Primary: new acquisition beyond the27-output closure
+## Final S016 dependency update
+
+BIT-SEPARATED-PORT108 is proved only for fixed source-bank assignments/ports/terminal pointspan. Actual port29 is proved, but its coarse envelope is110; actual protected port41 and its arbitrary fixed binary recipes from the real rank9 M1 inventory are proved. BIT-ZERO-MOVE-CROSS-BANK requires actual stable donor custody, unchanged intermediate addends and all capture-reader corrections; its literal instance adds3 ADD. The two transformations compose as exactly commuting operation words, independently checked on222 columns. Source availability, lower-chart placement and complete physical expense are now explicit. The OPEN primary theorem is a full77-output continuation of this actual architecture. Full-bank111 coverage, changed erased-row span membership and historical rank alone do not prove it. Existing strict complex/BIT interfaces and all five foundations remain. Older primary sections are historical; this paragraph and STATE define the current frontier.
+
+## Historical checkpoint7 frontier: acquisition beyond27
 
 **BIT-NONLOCAL-DELIVERY — open.** For every characteristic-two field and positive whole-record width, complete all111 arbitrary X-to-Y increments with restored X, legal chart chronology/ownership and the complete target-feasible supplier invoice. The verified27 word leaves84 outputs and movement room7.187448430892129... under a necessary limiting comparison. Eighty-four exact annihilators exclude fixed-stock decoding even with rawlocals, accessible history and decoded-point feedback. A newly acquired row, port or chronology must change this interface. [Proofs and reviews](results/bit-six-channel-retention/ADMISSION.md).
 
@@ -66,7 +70,3 @@ BIT-THIRD-CELL30 is proved for every characteristic-two field and positive recor
 ## S016 checkpoint9 dependencies
 
 The39/72 acquisition families are proved for every binary parameter choice, characteristic-two field and positive width. Actual32/34 delivery is proved in the formal native instruction model; old coded terminal rows are replaced. The77 exact duals exclude only frozen34 stock/history/point feedback. Private83 closure and positive four-bank global availability are proved separately. Sharp direct-canonical compression costs13V for rank80 side information or9V for rank88; nonlinear strengthening requires finite fields and bounded alphabets. Exact dependencies, quantified propositions and independent reviews are linked from current admissions. Main OPEN obligation: one actual all111 coded acquisition/delivery construction with real custody, original restoration, erasure applicability, ordinary/precision/compiler and complete recursive costs. Noncanonical codes, coupled banks and new paid feedback remain possible escapes.
-
-## Final S016 dependency update
-
-BIT-SEPARATED-PORT108 is proved only for fixed source-bank assignments/ports/terminal pointspan. Actual port29 is proved, but its coarse envelope is110; actual protected port41 and its arbitrary fixed binary recipes from the real rank9 M1 inventory are proved. BIT-ZERO-MOVE-CROSS-BANK requires actual stable donor custody, unchanged intermediate addends and all capture-reader corrections; its literal instance adds3 ADD. The two transformations compose as exactly commuting operation words, independently checked on222 columns. Source availability, lower-chart placement and complete physical expense are now explicit. The OPEN primary theorem is a full77-output continuation of this actual architecture. Full-bank111 coverage, changed erased-row span membership and historical rank alone do not prove it. Existing strict complex/BIT interfaces and all five foundations remain. Older primary sections are historical; this paragraph and STATE define the current frontier.
