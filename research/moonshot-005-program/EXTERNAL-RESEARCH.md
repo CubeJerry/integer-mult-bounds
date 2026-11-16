@@ -358,3 +358,7 @@ The pinned metadata is in sessions/2026-11-16-S016/UPSTREAM-REFRESH-CP3.json.
 ## S016 checkpoint5 upstream refresh
 
 At01:07UTC main is unchanged e54523517d0f03e58352e647c403a5af3e525a57. Open CrocSwap/integer-mult-bounds#7622 headfb03f3a4bbc288fe264f5ce708364ddcbb7245d2 claims conditional.003661727792 under a new common whole-private-extent supplier U; its description explicitly does not derive U from the old erasure premise. Open #7623 head2ee2f0b61f7d123e8862482b966699cca578be6d claims.0036624027915 and publishes a loan/stationary-snapshot engine on #7621. These are relevant source mechanisms, but no scientific replay or incorporation is claimed. Neither supplies the current missing U8 delivery/strict-supplier theorem. Metadata and scope preserved in the session refresh receipt; selected certificate unchanged.
+
+## S016 refresh02:27:59UTC
+
+Main unchanged at e54523517d0f03e58352e647c403a5af3e525a57. Open [#7624](https://github.com/CrocSwap/integer-mult-bounds/pull/7624), head3f231831e0bff0cc5241ec89e122d99132bddf52, proposes204 CLEAR with unresolved exact-Q erasure applicability. Public row-span membership does not implement physical erasure; final packaged launcher lacks a clean end-to-end rerun. Metadata/stated scope only triaged. Not an equal-premise selected frontier or admitted theorem. Our dirty-erasure applicability remains open.

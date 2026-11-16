@@ -1,0 +1,13 @@
+# Independent trace, conjugacy and compatibility audit
+
+**Accepted with the stated physical premises and caller-scope limits. No new kappa.** Root independently reconstructed actual cubes, fifth powers and conjugacies using its earlier Gaussian-integer engine. The complete16-monomial trace-parity basis and literal controls pass without author imports.
+
+The diagonal cube path starts at(a,b,b,d), with forced source signs f(b,b,d,a),f(d,d,a,b),f(a,a,b,d). Gaussian flips are zero for000/111 and two otherwise. The cubic coefficient of this three-variable phase is c_acd+c_bcd+c_abcd. When it is1, T=2 modulo4 and v_(1+i)(alpha^3 T)=-3+2=-1. The determinant is(-1)^eta. Finite projective order would make eigenvalues roots of unity and the cube trace integral. A full stable lattice also makes traces integral. Both contradict the negative valuation. Tensor traces have valuation-V; finite extension preserves negativity.
+
+Conjugation by D_acd commutes with C_b and changes the rotated sign by acd+bcd. All q+epsilon(acd+bcd), degree(q)<=2, are therefore Clifford-conjugate. A Clifford operator permutes the finite Pauli group modulo scalars, and its root-of-unity determinant fixes its scalar to finite order. A finite cyclic group preserves a full lattice by summing the finitely many translates of a standard lattice. This proves the4096-source finite counterfamily. Exact controls verify A_(acd+bcd)^16=I and tr(A_abc^5)=5(1+i)/2 despite the latter's inconclusive cube test.
+
+The16384 quartic-free sources with k=1 are certified infinite. The other12288 are not classified as a family by these two tests; abc is an individually known infinite member. Finite source order does not make a caller group finite when nonlinear ordinary interstages are allowed. Old modular gates retain their complete coefficient-algebra and integral-unit/inverse premises.
+
+The fixed-table compiler supports a fixed number of controls. Its Gray-path transposition bound gives15*7=105 three-control gates per four-bit permutation, with at most six surrounding bit translations each, plus the phase service. The acd short recipe cannot replace this generic invoice. One fixed selected-bit offset, dirty-field restoration, exceptional-stream repair, width regime, precision, body/idles and source-specific inverse costs remain explicit premises.
+
+The discovery archive is bounded exploratory evidence: finite spans, one phase residue, modular solves and three sampled nullspace vectors are not an exhaustive all-width unit search. Root did not relabel those runs as independent proof. Credit @CubeJerry, Worker B, root and retained predecessors; substantial OpenAI assistance.

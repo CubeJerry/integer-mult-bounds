@@ -752,3 +752,7 @@ The actual-six-grant puncture has an independent27-edge native incidence check a
 Three separate17-word interpreters and independent21/27 replays retain all222 columns and actual geometry. Root verifies the complete nonlocal stocks and all174 outsider annihilators against the union of actual accessible stock, every principal snapshot, all geometric raw locals and all decoded raw points. Original Y nuisance remains explicit. Correct principal observations are197/rank70 and234/rank74. Reduced-ledger17 puncture ranks9/8 become12/11 in the full ledger; no false obstruction is admitted.
 
 All256 four-bit fourth-power coefficients, literal source/inverse/endpoint tables, universal LUL/K embedding and complete losing base/query invoices are independently reconstructed. The last-interstage theorem has a separate projection/rank proof review. Twenty-two reproduction commands rebuild all three words byte-for-byte and reproduce both complex packages. See CHECKPOINT7-REPRODUCTION/VALIDATION and publication manifests. All claims retain their exact fixed-source/tensor scopes; no search failure is promoted into a theorem.
+
+## S016 checkpoint8
+
+Ten reproduction commands pass: byte-identical30 rebuild, all222 columns,81 closure duals,15 root semantic controls,576 bank duals, independently derived symbolic normalizers/actual Gaussian phases/tensor rank, and trace/conjugacy/physical compiler review. See sessions/2026-11-16-S016/reproduce_cp8.py and CHECKPOINT8-VALIDATION.json. Finite incomplete discovery remains finite evidence. No new κ.

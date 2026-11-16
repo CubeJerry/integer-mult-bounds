@@ -1,0 +1,324 @@
+{
+  "actual_P_snapshot_count": 252,
+  "actual_P_history_rank": 79,
+  "raw_plus_all_actual_history_fits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    11,
+    12,
+    16,
+    21,
+    22,
+    23,
+    28,
+    30,
+    38,
+    39,
+    43,
+    44,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "independently_checked_feedback_duals": 81,
+  "full_222_column_static_fits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    11,
+    12,
+    16,
+    21,
+    22,
+    23,
+    28,
+    30,
+    38,
+    39,
+    43,
+    44,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "full_222_column_static_fit_count": 30,
+  "status": "PASS_INDEPENDENT_ALL_COLUMN_NONLOCAL_STOCK_AUDIT",
+  "word_sha256": "5566738ce7b2706c0094654fce0e4c1c438e82395dee2e6885ef917f2d4498f3",
+  "replay": {
+    "columns": 222,
+    "targets": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      11,
+      12,
+      16,
+      21,
+      22,
+      23,
+      28,
+      30,
+      38,
+      39,
+      43,
+      44,
+      48,
+      64,
+      65,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "counts": {
+      "INIT": 102,
+      "ADD": 858,
+      "MOVE": 425,
+      "CLEAR": 102
+    },
+    "movement_profile": {
+      "1": 96,
+      "2": 69,
+      "3": 56,
+      "4": 13,
+      "5": 71,
+      "6": 23,
+      "7": 96,
+      "8": 1
+    },
+    "peak_owners": 102,
+    "dirty_clears": 102,
+    "canonical_cut": {}
+  },
+  "budget": {
+    "moment": {
+      "lower_fraction": "322915535965506295543496118998473/200000000000000000000000000000",
+      "upper_fraction": "807288839913765738858740297496347/500000000000000000000000000000",
+      "display_lower": "1614.5776798275314832",
+      "display_upper": "1614.5776798275314832"
+    },
+    "limiting_room": {
+      "lower_fraction": "7173200383620877528765555374213/1000000000000000000000000000000",
+      "upper_fraction": "8607840460345053034518666449707/1200000000000000000000000000000",
+      "display_lower": "7.1732003836208778",
+      "display_upper": "7.1732003836208778"
+    },
+    "first_positive_even_m": 4,
+    "first_margin": {
+      "lower_fraction": "16532121249935756606096660436309/100000000000000000000000000000",
+      "upper_fraction": "20665151562419695757620825553739/125000000000000000000000000000",
+      "display_lower": "165.3212124993575571",
+      "display_upper": "165.3212124993575571"
+    },
+    "method": "integer bisection of200th roots at scale10^30; displays noncertifying"
+  },
+  "source_cut": 1115,
+  "ground_rank": 14,
+  "ground_plus_nonlocal_rank": 32,
+  "proper_nonlocal_stock": {
+    "TRIAD16": {
+      "chart": "J16",
+      "row": "0x18020"
+    },
+    "TRIAD23": {
+      "chart": "J23",
+      "row": "0x808020"
+    },
+    "TRIAD22": {
+      "chart": "J22",
+      "row": "0x408020"
+    },
+    "ZFIRST3": {
+      "chart": "M1",
+      "row": "0x2aff00cc0000d8097c0033000015"
+    },
+    "ZKEEP2": {
+      "chart": "L0",
+      "row": "0x30000005"
+    },
+    "ZFIRST4": {
+      "chart": "M1",
+      "row": "0x2f00cc0046051917c0330026005"
+    },
+    "ZKEEP43": {
+      "chart": "L28",
+      "row": "0x580010000000"
+    },
+    "ZFIRST5": {
+      "chart": "M1",
+      "row": "0x280fc00c400489917c0330026005"
+    },
+    "ZKEEP48": {
+      "chart": "L44",
+      "row": "0x1300000000001"
+    },
+    "KEEP_C0": {
+      "chart": "C0",
+      "row": "0x66683cccce59caa"
+    },
+    "KEEP_M16": {
+      "chart": "L7",
+      "row": "0x40000000"
+    },
+    "KEEP_C1": {
+      "chart": "C0",
+      "row": "0x500003021381266603c0c0c198a0"
+    },
+    "KEEP_M23": {
+      "chart": "L11",
+      "row": "0x4000000000"
+    },
+    "KEEP_C2": {
+      "chart": "C0",
+      "row": "0x5003031001a066603c0c0c198a0"
+    },
+    "KEEP_M22": {
+      "chart": "L12",
+      "row": "0x8000000000"
+    },
+    "Q1": {
+      "chart": "M1",
+      "row": "0x2f000c000005000000000000000"
+    },
+    "Q3": {
+      "chart": "M1",
+      "row": "0x280f000c00008800000000000000"
+    },
+    "Q4": {
+      "chart": "M1",
+      "row": "0x190000300026000"
+    }
+  },
+  "local_stock_count": 79,
+  "optimistic_fit_count": 30,
+  "optimistic_fits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    11,
+    12,
+    16,
+    21,
+    22,
+    23,
+    28,
+    30,
+    38,
+    39,
+    43,
+    44,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "puncture_audit": {},
+  "semantic_controls": [
+    {
+      "control": "local conversion 30",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "third retention 30",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "actual new source 30",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "new low delivery 30",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "new retirement 30",
+      "rejected": "retirement"
+    },
+    {
+      "control": "local conversion 38",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "third retention 38",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "actual new source 38",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "new low delivery 38",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "new retirement 38",
+      "rejected": "retirement"
+    },
+    {
+      "control": "local conversion 39",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "third retention 39",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "actual new source 39",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "new low delivery 39",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "new retirement 39",
+      "rejected": "retirement"
+    }
+  ],
+  "scope": "Actual source-cut fields plus freely granted geometric raw locals. Does not prove any full-extension impossibility.",
+  "new_complete_kappa": false
+}

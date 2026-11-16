@@ -1,0 +1,153 @@
+{
+  "status": "PASS_CP8_REPRODUCTION",
+  "commands": [
+    {
+      "name": "build30",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-three-cell-retention/author/build.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-seven/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp8-reproduction/word30"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "bank-author",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-acquisition-bank-envelope/author/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-seven/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp8-reproduction/bank-author"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "bank-root",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-acquisition-bank-envelope/root-review/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-seven/output/WORD.json",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review",
+        "--certificate",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-acquisition-bank-envelope/author/output/RESULT.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp8-reproduction/bank-root.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "classification-author",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/cp8-reproduction/classification/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "classification-root",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-four-bit-family/root-classification/check.py",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-boolean-sign-family/root-review/check.py",
+        "--proof",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-four-bit-family/classification/PROOF.md",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp8-reproduction/classification-root.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "audit-author",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/cp8-reproduction/audit/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "audit-root",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-four-bit-family/root-audit/check.py",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-boolean-sign-family/root-review/check.py",
+        "--audit",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-four-bit-family/audit/AUDIT.md",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp8-reproduction/audit-root.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "author30",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-three-cell-retention/author/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-seven/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp8-reproduction/word30"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "root30",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-three-cell-retention/root-review/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp8-reproduction/word30/WORD.json",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review",
+        "--certificate",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-three-cell-retention/author/output/RESULT.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp8-reproduction/root30.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "price30",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-three-cell-retention/author/price.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp8-reproduction/word30"
+      ],
+      "returncode": 0
+    }
+  ],
+  "byte_identical_rebuilt_words": 1,
+  "new_complete_kappa": false
+}

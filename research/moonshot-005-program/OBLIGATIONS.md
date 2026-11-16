@@ -58,3 +58,7 @@ The five global foundations remain individually open: native_all_columns (unboun
 ## Retained dependency graph and audit history
 
 Earlier detailed quantified obligations, failed constructions and source pins are preserved in [the pre-checkpoint5 dependency map](sessions/2026-11-16-S016/logical-records-before-cp5/OBLIGATIONS.md), the append-only SESSION-LOG, and REGISTERED-RESULTS. They remain valid in their stated scope unless a linked correction says otherwise. Current directions above supersede older next-action labels. In particular, global flat-ground access, fixed joint-cell/puncture templates and frozen stationary histories must not be re-investigated as if untested.
+
+## S016 checkpoint8 admitted obligations
+
+BIT-THIRD-CELL30 is proved for every characteristic-two field and positive record width by literal coefficients and81 exact closure duals. BIT-ACQUISITION-BANK-ENVELOPE is proved only for the declared bank grants/point feedback, with576 duals. COMPLEX-BOOLEAN-FOURTH-POWER proves every fixed Boolean f and tensor width using actual phases. Compiler contract and physical costs remain explicit. Source dependencies and complete quantifiers are in current admissions. Next: higher-bank coded acquisition and legal delivery. The earlier27 frontier is superseded by30.32/34 packages await final admission.

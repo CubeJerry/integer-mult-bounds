@@ -1,0 +1,41 @@
+{
+  "programme_initial_baseline": "4743ad65eff2ce1a63bf8572e4e2bf0751b0426d",
+  "programme_last_confirmed_checkpoint": "c94f822a54094e379502989d3dfc2deff9b6d770",
+  "dependencies": [
+    {
+      "package": "boolean-signed-native-family",
+      "proof_sha256": "5d0f673af13ca1769bdd5b79a5960a5665655dda1359d55b1f01eed00c498b9d"
+    },
+    {
+      "package": "four-bit-cubic-native-source",
+      "proof_sha256": "6ea08c509a1560aa334640eeb45bcdcd4649412d40292380f771cd623eee570c"
+    },
+    {
+      "package": "four-bit-fourth-power-classification",
+      "proof_sha256": "e346e60bfd87a4d9f1d084f73619cd7f8d7ba676ce58a1d642501b96d4825e4c"
+    },
+    {
+      "package": "four-bit-concentration-base",
+      "proof_sha256": "25d0aa55745a2019df938174d602316c8ac277618f100a2be3e9344f09484be1"
+    },
+    {
+      "package": "fixed-monomial-bridge",
+      "proof_sha256": "71383358c9b38e91f827932dda429c165fb0bce934b14b6da83e44f30efff98d"
+    },
+    {
+      "package": "nonlinear-compact-control",
+      "proof_sha256": "680d933b8254b43f6f6e5eef02e37c2d786973f45f2dbc98b625515ff27b1b12"
+    },
+    {
+      "package": "rank-degree-deformation-gate",
+      "proof_sha256": "2a53e2e56b9818675a41a3f9253367a2e52d32b93b5b6d9a356aa0afcce0b1fe"
+    }
+  ],
+  "exact_arithmetic_helper": {
+    "path": "research/moonshot-005-program/results/complex-nonordinary-row-seed/worker-b/check.py",
+    "sha256": "1d3c798c43b46e1983f4dc80d68e694b93d9cdee206ad4fe4d408e5f5e29ed91"
+  },
+  "independent_review": "pending for new trace certificate and this audit; classification/source dependencies separately reviewed",
+  "reproduce": "python <author package>/check.py --repo <programme checkout>",
+  "classification": "Whole-system scope audit plus proved trace/conjugacy certificates; no profitable caller, strict supplier, or kappa"
+}

@@ -1,0 +1,161 @@
+{
+  "status": "FINITE_DISCOVERY_ONLY_NO_CANDIDATE_THEOREM",
+  "source": "A=C_b D_acd P; truth mask40960; four bits fixed",
+  "orientation": [
+    0,
+    2,
+    0
+  ],
+  "template": "K0 Q1 K2 Q2 K0",
+  "Q1": "P0 E1 E2 or P0 E2 E1",
+  "P0": [
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      -1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "E1": "I + E_(2,j) h^e, j in {0,1}, e in {-1,1}, h=S^-1 D_b, D_b=diag(1,i)",
+  "E2": "I + s E_(r,t) g, (r,t) in {(0,2),(1,2),(2,0),(2,1)}, s in {-1,1}, g in {I,T,R4}",
+  "Q2_basis": "Each entry is a scalar span of D_b^u D_c^v g, u,v in {0,1,2,3}, g in {I,S,S^-1,R2,R2^-1,L4,R4,T};128 actual tables",
+  "scalar_field": 65537,
+  "sqrt_minus_one": 256,
+  "width_phase_residue": 1,
+  "random_seed": 2026111601,
+  "samples_per_nonzero_nullspace": 3,
+  "pure_conditions": "Six permutations of output-row pure ranks(4,2,1)",
+  "loose_conditions": "Two row assignments(1,None,2),(2,None,1);None admits ranks1,2,4",
+  "mixed_conditions": "Every path class rank belongs to {1,2,4}, with separate width-one component ranks recorded",
+  "records": [
+    {
+      "mode": "pure",
+      "source_result_name": "fourbit_421_40960_False_False_1_False_False_False_False_0_False_False_010_True_True.json",
+      "source_result_sha256": "4079a47166c0ee23d968d8f2d7ee3520e2695d777a1241ec8ce7212f55516eea",
+      "basis_size": 128,
+      "first_interstage_templates": 192,
+      "linear_scopes": 1152,
+      "nullity_counts": {
+        "0": 674,
+        "32": 16,
+        "2": 4,
+        "80": 48,
+        "48": 4,
+        "40": 48,
+        "128": 136,
+        "160": 92,
+        "130": 8,
+        "129": 12,
+        "16": 76,
+        "162": 4,
+        "42": 4,
+        "18": 4,
+        "8": 8,
+        "20": 2,
+        "132": 12
+      },
+      "sampled_modular_units": 0,
+      "component_rank_histogram": {},
+      "runtime_seconds_recorded": 261.2890124320984,
+      "archived_complete_result": "pure-RESULT.json"
+    },
+    {
+      "mode": "loose",
+      "source_result_name": "fourbit_421_40960_False_False_1_False_False_False_False_0_False_False_010_True_True_True.json",
+      "source_result_sha256": "3bd110f064e8e196341eecd530424dae786978e3b67f65064ad0ad383364f798",
+      "basis_size": 128,
+      "first_interstage_templates": 192,
+      "linear_scopes": 384,
+      "nullity_counts": {
+        "0": 128,
+        "32": 12,
+        "2": 4,
+        "128": 32,
+        "100": 4,
+        "120": 6,
+        "104": 2,
+        "112": 14,
+        "96": 8,
+        "160": 42,
+        "130": 8,
+        "129": 8,
+        "232": 44,
+        "16": 24,
+        "132": 14,
+        "234": 4,
+        "180": 2,
+        "176": 4,
+        "145": 4,
+        "144": 20
+      },
+      "sampled_modular_units": 0,
+      "component_rank_histogram": {},
+      "runtime_seconds_recorded": 238.5410144329071,
+      "archived_complete_result": "loose-RESULT.json"
+    },
+    {
+      "mode": "mixed",
+      "source_result_name": "fourbit_421_40960_False_False_1_True_False_False_False_0_False_False_010_True_True.json",
+      "source_result_sha256": "2aedf9260c7092a5c7ed8678fe9a075faed9429252e41b6080cb7c7de9b385f0",
+      "basis_size": 128,
+      "first_interstage_templates": 192,
+      "linear_scopes": 192,
+      "nullity_counts": {
+        "320": 28,
+        "288": 14,
+        "272": 4,
+        "324": 2,
+        "292": 2,
+        "352": 24,
+        "338": 8,
+        "337": 8,
+        "336": 20,
+        "361": 16,
+        "365": 6,
+        "331": 2,
+        "304": 8,
+        "377": 4,
+        "381": 2,
+        "373": 4,
+        "341": 2,
+        "312": 2,
+        "340": 12,
+        "394": 4,
+        "393": 20
+      },
+      "sampled_modular_units": 92,
+      "component_rank_histogram": {
+        "(48, 43, 16)": 4,
+        "(48, 45, 16)": 4,
+        "(48, 47, 16)": 12,
+        "(48, 48, 0)": 32,
+        "(48, 48, 16)": 40
+      },
+      "runtime_seconds_recorded": 250.13970565795898,
+      "archive_note": "Compact census retained; candidate vectors are exploratory and reproducible from the pinned generator/seed, not proof artifacts."
+    }
+  ],
+  "script_snapshot_note": "Current final script snapshot is pinned. The optional loose flag was added after the pure/mixed runs; no immutable original script hash was captured at the start of those exploratory runs. Arithmetic branches for their existing options were preserved. Replaying final snapshot is needed for a byte-versioned reproduction claim.",
+  "limitations": [
+    "No exhaustive unit search, only three seeded samples.",
+    "Linear systems and matrix-unit screens are over one finite field; no rational or complex coefficient lift established.",
+    "No all-width invertible ordinary word or complete independent endpoint certificate established.",
+    "Only one width-phase residue examined.",
+    "Modular singularity does not prove complex singularity.",
+    "The bounded basis is not the full ordinary algebra.",
+    "No finite failure is promoted into a caller impossibility."
+  ],
+  "script_sha256": {
+    "four_bit_caller_search.py": "d81ecbd98e08cb86fe10804bbf1d66bc818ceb035d484ad3383f94aabdd8d2de",
+    "nonclifford_sector_search.py": "54b4ceb504ff96fb167243093ec5d0caefb31c92c42536762f4b1164bf5d576d"
+  }
+}
