@@ -1,0 +1,640 @@
+{
+  "status": "PASS_63_CHANGING_HISTORY_SEMANTIC_CONTROLS",
+  "word_sha256": "c7e48e002da3ce642707b25d74dc15d0915945f319053eb97f2016045afe4615",
+  "baseline": {
+    "input_columns": 222,
+    "counts": {
+      "ADD": 408,
+      "MOVE": 404,
+      "INIT": 112,
+      "CLEAR": 112
+    },
+    "movement_profile": {
+      "1": 149,
+      "2": 11,
+      "3": 34,
+      "4": 26,
+      "5": 16,
+      "6": 9,
+      "7": 159
+    },
+    "dirty_CLEAR": 112,
+    "peak_owned": 112,
+    "historical_record_states": 1146
+  },
+  "rejected": [
+    {
+      "kind": "initial_y_precoat",
+      "index": 0,
+      "operation": [
+        "ADD",
+        "Y4",
+        "Y3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "initial_y_precoat",
+      "index": 1,
+      "operation": [
+        "ADD",
+        "Y4",
+        "Y47"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "initial_y_precoat",
+      "index": 2,
+      "operation": [
+        "ADD",
+        "Y4",
+        "Y51"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "initial_y_precoat",
+      "index": 3,
+      "operation": [
+        "ADD",
+        "Y74",
+        "Y80"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "initial_y_precoat",
+      "index": 4,
+      "operation": [
+        "ADD",
+        "Y74",
+        "Y90"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "initial_y_precoat",
+      "index": 5,
+      "operation": [
+        "ADD",
+        "Y74",
+        "Y92"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "initial_y_precoat",
+      "index": 6,
+      "operation": [
+        "ADD",
+        "Y78",
+        "Y76"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "initial_y_precoat",
+      "index": 7,
+      "operation": [
+        "ADD",
+        "Y78",
+        "Y88"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "initial_y_precoat",
+      "index": 8,
+      "operation": [
+        "ADD",
+        "Y78",
+        "Y94"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_source",
+      "index": 17,
+      "operation": [
+        "ADD",
+        "X3",
+        "Y4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_source",
+      "index": 26,
+      "operation": [
+        "ADD",
+        "X47",
+        "Y4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_source",
+      "index": 35,
+      "operation": [
+        "ADD",
+        "X51",
+        "Y4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_source",
+      "index": 46,
+      "operation": [
+        "ADD",
+        "X80",
+        "Y74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_source",
+      "index": 55,
+      "operation": [
+        "ADD",
+        "X90",
+        "Y74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_source",
+      "index": 64,
+      "operation": [
+        "ADD",
+        "X92",
+        "Y74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_source",
+      "index": 75,
+      "operation": [
+        "ADD",
+        "X76",
+        "Y78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_source",
+      "index": 84,
+      "operation": [
+        "ADD",
+        "X88",
+        "Y78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_source",
+      "index": 93,
+      "operation": [
+        "ADD",
+        "X94",
+        "Y78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "feedback_cell",
+      "index": 535,
+      "operation": [
+        "ADD",
+        "P3",
+        "Y4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "feedback_cell",
+      "index": 536,
+      "operation": [
+        "ADD",
+        "Y4",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "feedback_cell",
+      "index": 554,
+      "operation": [
+        "ADD",
+        "P4",
+        "Y74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "feedback_cell",
+      "index": 555,
+      "operation": [
+        "ADD",
+        "Y74",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "feedback_cell",
+      "index": 573,
+      "operation": [
+        "ADD",
+        "P5",
+        "Y78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "feedback_cell",
+      "index": 574,
+      "operation": [
+        "ADD",
+        "Y78",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 12,
+      "operation": [
+        "ADD",
+        "X3",
+        "D4_FB_RAW_3_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 15,
+      "operation": [
+        "ADD",
+        "X3",
+        "D4_FB_RAW_3_2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 21,
+      "operation": [
+        "ADD",
+        "X47",
+        "D4_FB_RAW_47_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 24,
+      "operation": [
+        "ADD",
+        "X47",
+        "D4_FB_RAW_47_2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 30,
+      "operation": [
+        "ADD",
+        "X51",
+        "D4_FB_RAW_51_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 33,
+      "operation": [
+        "ADD",
+        "X51",
+        "D4_FB_RAW_51_2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 41,
+      "operation": [
+        "ADD",
+        "X80",
+        "D4_FB_RAW_80_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 44,
+      "operation": [
+        "ADD",
+        "X80",
+        "D4_FB_RAW_80_2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 50,
+      "operation": [
+        "ADD",
+        "X90",
+        "D4_FB_RAW_90_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 53,
+      "operation": [
+        "ADD",
+        "X90",
+        "D4_FB_RAW_90_2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 59,
+      "operation": [
+        "ADD",
+        "X92",
+        "D4_FB_RAW_92_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 62,
+      "operation": [
+        "ADD",
+        "X92",
+        "D4_FB_RAW_92_2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 70,
+      "operation": [
+        "ADD",
+        "X76",
+        "D4_FB_RAW_76_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 73,
+      "operation": [
+        "ADD",
+        "X76",
+        "D4_FB_RAW_76_2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 79,
+      "operation": [
+        "ADD",
+        "X88",
+        "D4_FB_RAW_88_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 82,
+      "operation": [
+        "ADD",
+        "X88",
+        "D4_FB_RAW_88_2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 88,
+      "operation": [
+        "ADD",
+        "X94",
+        "D4_FB_RAW_94_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_flag_capture",
+      "index": 91,
+      "operation": [
+        "ADD",
+        "X94",
+        "D4_FB_RAW_94_2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "principal_reset",
+      "index": 539,
+      "operation": [
+        "ADD",
+        "ZFIRST3",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "principal_reset",
+      "index": 558,
+      "operation": [
+        "ADD",
+        "ZFIRST4",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "principal_reset",
+      "index": 577,
+      "operation": [
+        "ADD",
+        "ZFIRST5",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "shared_field_descent",
+      "index": 727,
+      "operation": [
+        "MOVE",
+        "ZFIRST3",
+        "D4_COMMON_MEET"
+      ],
+      "failure": "(731, ['ADD', 'ZFIRST3', 'Y3'], 'colocation')"
+    },
+    {
+      "kind": "shared_field_descent",
+      "index": 728,
+      "operation": [
+        "MOVE",
+        "ZFIRST4",
+        "D4_COMMON_MEET"
+      ],
+      "failure": "(752, ['ADD', 'ZFIRST4', 'Y80'], 'colocation')"
+    },
+    {
+      "kind": "shared_field_descent",
+      "index": 729,
+      "operation": [
+        "MOVE",
+        "ZFIRST5",
+        "D4_COMMON_MEET"
+      ],
+      "failure": "(773, ['ADD', 'ZFIRST5', 'Y76'], 'colocation')"
+    },
+    {
+      "kind": "source_quartet_term",
+      "index": 530,
+      "operation": [
+        "ADD",
+        "X3",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "index": 531,
+      "operation": [
+        "ADD",
+        "X4",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "index": 532,
+      "operation": [
+        "ADD",
+        "X47",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "index": 533,
+      "operation": [
+        "ADD",
+        "X51",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "index": 549,
+      "operation": [
+        "ADD",
+        "X74",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "index": 550,
+      "operation": [
+        "ADD",
+        "X80",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "index": 551,
+      "operation": [
+        "ADD",
+        "X90",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "index": 552,
+      "operation": [
+        "ADD",
+        "X92",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "index": 568,
+      "operation": [
+        "ADD",
+        "X76",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "index": 569,
+      "operation": [
+        "ADD",
+        "X78",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "index": 570,
+      "operation": [
+        "ADD",
+        "X88",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "index": 571,
+      "operation": [
+        "ADD",
+        "X94",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "reversed_feedback_cell",
+      "index": 535
+    },
+    {
+      "kind": "reversed_feedback_cell",
+      "index": 554
+    },
+    {
+      "kind": "reversed_feedback_cell",
+      "index": 573
+    }
+  ],
+  "scope": "Author controls with credited retained native interpreter; all222 input columns, including independent original y."
+}

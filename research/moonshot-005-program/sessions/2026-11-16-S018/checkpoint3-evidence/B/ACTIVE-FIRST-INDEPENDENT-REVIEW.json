@@ -1,0 +1,26 @@
+{
+  "status": "PASS_B_INDEPENDENT_STACKED_ACTIVE_FIRST_GATE_REVIEW",
+  "root_proof_sha256": "3035b08b1ce557b2de528e2e842e38a83778ceebdcad2144a7d05f7742fa9367",
+  "formal_checks": [
+    "whole_last_column_degree3_is_negative_stack_times_q12",
+    "full_idle_output_row",
+    "zero_w_unit_top_column1",
+    "zero_w_pure2_last_column_shape"
+  ],
+  "source_checks": {
+    "direct_input_phase_source": true,
+    "individual_projector_traces": [
+      8,
+      8
+    ],
+    "stack_Gram_equals_identity": true,
+    "stack_injective": true,
+    "both_individual_pivots_singular": true,
+    "literal_forward_phase_transport": true,
+    "conditional_swap_involution": true,
+    "failed_hypothesis_unit_clock_support": [
+      4
+    ]
+  },
+  "scope": "Independent proof review and separate exact source/formal controls. Universal faithful-width argument is mathematical; no finite search conclusion and no supplier/kappa."
+}

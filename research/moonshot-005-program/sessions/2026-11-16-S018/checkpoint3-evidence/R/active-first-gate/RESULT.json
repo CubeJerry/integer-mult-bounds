@@ -1,0 +1,38 @@
+{
+  "status": "PASS_ROOT_STACKED_FIRST_COLUMN_GATE_CONTROLS",
+  "proof_sha256": "3035b08b1ce557b2de528e2e842e38a83778ceebdcad2144a7d05f7742fa9367",
+  "formal_noncommutative_identities": [
+    "full_active_LCU",
+    "full_idle_output_row",
+    "last_column_after_q12_q21_q22_zero",
+    "zero_w_top_column1",
+    "zero_w_rank2_last_column"
+  ],
+  "literal_source_cube_support": 8,
+  "nontriangular_complementary_projector_control": {
+    "active_interface_involution": true,
+    "individual_T_ranks": [
+      8,
+      8
+    ],
+    "stack_rank": 16,
+    "both_individual_pivots_singular": true,
+    "literal_forward_sign_transport": true,
+    "all_width_stack_injectivity_identity": "diag(a,a)[w;g]a\u00b2; complementary actual projectors"
+  },
+  "negative_controls": {
+    "either_pivot_alone_not_injective": true,
+    "ordinary_clock_first_column_has_zero_rank3_component": true,
+    "clock_word_row_supports": [
+      4
+    ],
+    "clock_is_an_actual_unit": true,
+    "not_a_positive_caller": true
+  },
+  "source_pins": {
+    "results/complex-four-bit-cubic-source/author/PROOF.md": "6ea08c509a1560aa334640eeb45bcdcd4649412d40292380f771cd623eee570c",
+    "results/complex-middle-native-interface/author/PROOF.md": "f4bd8b8827c355187d052e8a27cd3ddab004162bb6fcf5ca03318e266bc9e4b6",
+    "results/complex-source-square-controls/ADMISSION.md": "84becba2de76261194b972985a9dc96cb7ff0e4e9067b353dd4c0e393e14c881"
+  },
+  "scope": "Universal fixed-template proof separately reviewed; finite controls do not establish faithful-width separation. Arbitrary ordinary second interface; idle-preserving first interface and injective forbidden-component stack required. No new supplier or kappa."
+}

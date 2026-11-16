@@ -1,0 +1,153 @@
+{
+  "status": "PASS_INDEPENDENT_SPLIT_NONCOMMUTING_COMPILER",
+  "proof_sha256": "d3ed2ad13a986486ce558f1afa8093f8b06c0fa6d0917aa175415b2cc62c3704",
+  "word_pins": {
+    "EXAMPLE-WORD": "1b09448f5c8121c3160b7bc9db9c54076a9f5d9d317fd2bea9485eea452ee57f",
+    "EXAMPLE-INVERSE-WORD": "b9efaf869029ca7d0dd096b8f5022c4cbb620cff0d36b261d821a455083566e7",
+    "GENERAL-WORD": "8af896d0f46c0dde492bcb8c826ace44f3f8e0cfbb5755d7111f45c783e8a63f",
+    "GENERAL-INVERSE-WORD": "d8c8dfa4c14a8bc2c518708a16d3f0dae2d7957eca5e9f0f88e8ec9fb71751f7"
+  },
+  "literal_group_table_compositions": 64,
+  "all_matrix_unit_products": 64,
+  "matrix_unit_basis_rank": 8,
+  "literal_A_source_and_R2_swap_verified": true,
+  "actual_general_component_determinants": [
+    "2",
+    "2",
+    "2",
+    "2",
+    "4"
+  ],
+  "words": {
+    "EXAMPLE-WORD": {
+      "counts": {
+        "MONOMIAL": 28,
+        "SCALE": 32,
+        "ADD": 16
+      },
+      "prefix_coefficient_l1_bound": "3",
+      "owner_births": 0,
+      "Gaussian_queries": 0
+    },
+    "EXAMPLE-INVERSE-WORD": {
+      "counts": {
+        "SCALE": 32,
+        "ADD": 16,
+        "MONOMIAL": 28
+      },
+      "prefix_coefficient_l1_bound": "2",
+      "owner_births": 0,
+      "Gaussian_queries": 0
+    },
+    "GENERAL-WORD": {
+      "counts": {
+        "SCALE": 1253,
+        "ADD": 628,
+        "MONOMIAL": 1098
+      },
+      "prefix_coefficient_l1_bound": "111",
+      "owner_births": 0,
+      "Gaussian_queries": 0
+    },
+    "GENERAL-INVERSE-WORD": {
+      "counts": {
+        "SCALE": 1253,
+        "ADD": 628,
+        "MONOMIAL": 1098
+      },
+      "prefix_coefficient_l1_bound": "6293/18",
+      "owner_births": 0,
+      "Gaussian_queries": 0
+    }
+  },
+  "tensor_width_controls": [
+    {
+      "V": 1,
+      "multiplicities": [
+        4,
+        0,
+        4,
+        0,
+        4
+      ]
+    },
+    {
+      "V": 2,
+      "multiplicities": [
+        48,
+        16,
+        48,
+        16,
+        64
+      ]
+    },
+    {
+      "V": 3,
+      "multiplicities": [
+        640,
+        384,
+        640,
+        384,
+        1024
+      ]
+    },
+    {
+      "V": 4,
+      "multiplicities": [
+        9216,
+        7168,
+        9216,
+        7168,
+        16384
+      ]
+    }
+  ],
+  "negative_controls": [
+    {
+      "omitted": [
+        "ADD",
+        0,
+        1
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "MONOMIAL",
+        0,
+        1
+      ],
+      "rejected": true
+    },
+    {
+      "naive_ADD_reversal_is_not_free": true
+    },
+    {
+      "hidden_component_width1_identity_width2_singular": true,
+      "width2_kernel_dimension_on_three_banks": 48
+    },
+    {
+      "exterior_i_vs_literal_one_column_i_at_width2": [
+        "i",
+        "-1"
+      ],
+      "distinct": true
+    }
+  ],
+  "source_pins": {
+    "results/complex-source-square-controls/ADMISSION.md": "84becba2de76261194b972985a9dc96cb7ff0e4e9067b353dd4c0e393e14c881",
+    "results/complex-nondiagonal-cyclic/author/NONDIAGONAL-CYCLIC-IMPLEMENTATION.md": "b68879d307458e5e22c336b8e48317fb5c31a0076cfaf1ada628831b287c54d5",
+    "results/fixed-monomial-compact-bridge/author/PROOF.md": "71383358c9b38e91f827932dda429c165fb0bce934b14b6da83e44f30efff98d"
+  },
+  "independent_Gaussian_control": {
+    "word_sha256": "4f8ad9fb7cc94e8ed46494339c0c1db7dfad2eeaa75f06f3129fc52a082e8990",
+    "target": "I+i E00 tensor e12_std",
+    "counts": {
+      "MONOMIAL": 28,
+      "SCALE": 32,
+      "ADD": 16
+    },
+    "borrowed_banks_restored": true
+  },
+  "scope": "Independent exact ordinary primitive/group-algebra replay and universal proof review. Group coefficients and table phases remain literal; tensor width tests are controls only. All five global foundations remain open. No421 caller, complete supplier or kappa."
+}

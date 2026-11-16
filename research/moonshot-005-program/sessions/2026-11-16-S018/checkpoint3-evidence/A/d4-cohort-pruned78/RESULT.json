@@ -1,0 +1,1129 @@
+{
+  "status": "PASS_THREE_RETAINED_FIELDS_D4_TWELVE_RECEIVERS",
+  "word_sha256": "dd0af2d4467b722c1692fb60b883407b4a95a8ea10b112fca0683dfc4a930edf",
+  "base_sha256": "c7cf9a565d5dd6613342274979a9aa5de1bbb209cc3704a2a19e60eecb034245",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "credited_interpreter_sha256": "b5402a2dbdd8f49efac3fee678d88ca653bb5d1d6b80ae6fd47372c777db2762",
+  "before": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 94,
+      "ADD": 386,
+      "MOVE": 356,
+      "CLEAR": 94
+    },
+    "movement_profile": {
+      "1": 95,
+      "2": 17,
+      "3": 34,
+      "4": 8,
+      "5": 22,
+      "6": 12,
+      "7": 168
+    },
+    "dirty_CLEAR": 94,
+    "peak_owned": 94,
+    "historical_record_states": 1058
+  },
+  "after": {
+    "input_columns": 222,
+    "counts": {
+      "MOVE": 422,
+      "INIT": 130,
+      "ADD": 423,
+      "CLEAR": 130
+    },
+    "movement_profile": {
+      "1": 167,
+      "2": 11,
+      "3": 34,
+      "4": 32,
+      "5": 16,
+      "6": 9,
+      "7": 153
+    },
+    "dirty_CLEAR": 130,
+    "peak_owned": 130,
+    "historical_record_states": 1197
+  },
+  "cohort": {
+    "meet": "D4_COMMON_MEET",
+    "targets": [
+      3,
+      4,
+      47,
+      51,
+      74,
+      76,
+      78,
+      80,
+      88,
+      90,
+      92,
+      94
+    ],
+    "frames": [
+      [
+        3,
+        4,
+        47,
+        51
+      ],
+      [
+        74,
+        80,
+        90,
+        92
+      ],
+      [
+        76,
+        78,
+        88,
+        94
+      ]
+    ],
+    "fields": [
+      "ZFIRST3",
+      "ZFIRST4",
+      "ZFIRST5"
+    ],
+    "donor_projection_coordinates": [
+      3,
+      4,
+      47,
+      51,
+      74,
+      76,
+      78,
+      80,
+      88,
+      90,
+      92,
+      94
+    ],
+    "source_programs": [
+      {
+        "packet": "P3",
+        "before_old_operation": 472,
+        "new_program_after": 558,
+        "frame": [
+          3,
+          4,
+          47,
+          51
+        ]
+      },
+      {
+        "packet": "P4",
+        "before_old_operation": 504,
+        "new_program_after": 575,
+        "frame": [
+          74,
+          80,
+          90,
+          92
+        ]
+      },
+      {
+        "packet": "P5",
+        "before_old_operation": 532,
+        "new_program_after": 592,
+        "frame": [
+          76,
+          78,
+          88,
+          94
+        ]
+      }
+    ],
+    "prelude_end": 120,
+    "decode_begin": 745,
+    "continuation_before_operation": 844
+  },
+  "old_targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    48,
+    49,
+    50,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "new_targets": [
+    47,
+    51,
+    88,
+    90,
+    92,
+    94
+  ],
+  "all_targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    88,
+    90,
+    92,
+    94
+  ],
+  "continuation_index": 844,
+  "retained_native_carriers": [
+    0,
+    2,
+    5,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    20,
+    24,
+    25,
+    26,
+    27,
+    28,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    44,
+    50,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    62,
+    63,
+    66,
+    68,
+    69,
+    70,
+    71,
+    72,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    89,
+    91,
+    93,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "unfinished_Y_at_ground": [
+    5,
+    13,
+    14,
+    15,
+    17,
+    18,
+    24,
+    25,
+    26,
+    31,
+    32,
+    33,
+    34,
+    35,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    89,
+    91,
+    93,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "preserved_individual_ground_fields": [
+    "ADDED_RAW36",
+    "ADDED_RAW37",
+    "ADDED_RAW50",
+    "ADDED_RAW8",
+    "ADDED_RAW9",
+    "COMMON_RAW2",
+    "DIRECT_RAW10",
+    "DIRECT_RAW20",
+    "E1",
+    "E6",
+    "E73",
+    "E75",
+    "E77",
+    "E79",
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "ZRAW0",
+    "ZRAW28",
+    "ZRAW44"
+  ],
+  "preserved_ground_rank": 25,
+  "all_live_owner_X_support": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    61,
+    64,
+    65,
+    67,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    88,
+    90,
+    92,
+    94
+  ],
+  "all_live_owner_X_support_count": 54,
+  "all_live_owner_X_row_rank": 54,
+  "projection_state_comparisons": 200382,
+  "live_owners": [
+    {
+      "name": "D4_RAW_3_1",
+      "chart": "D4_FLAG_3_1",
+      "value_hex": "0x8"
+    },
+    {
+      "name": "D4_RAW_3_2",
+      "chart": "D4_FLAG_3_2",
+      "value_hex": "0x8"
+    },
+    {
+      "name": "D4_RAW_3_3",
+      "chart": "D4_FLAG_3_3",
+      "value_hex": "0x8"
+    },
+    {
+      "name": "D4_RAW_4_1",
+      "chart": "D4_FLAG_4_1",
+      "value_hex": "0x10"
+    },
+    {
+      "name": "D4_RAW_4_2",
+      "chart": "D4_FLAG_4_2",
+      "value_hex": "0x10"
+    },
+    {
+      "name": "D4_RAW_4_3",
+      "chart": "D4_FLAG_4_3",
+      "value_hex": "0x10"
+    },
+    {
+      "name": "D4_RAW_47_1",
+      "chart": "D4_FLAG_47_1",
+      "value_hex": "0x800000000000"
+    },
+    {
+      "name": "D4_RAW_47_2",
+      "chart": "D4_FLAG_47_2",
+      "value_hex": "0x800000000000"
+    },
+    {
+      "name": "D4_RAW_47_3",
+      "chart": "D4_FLAG_47_3",
+      "value_hex": "0x800000000000"
+    },
+    {
+      "name": "D4_RAW_51_1",
+      "chart": "D4_FLAG_51_1",
+      "value_hex": "0x8000000000000"
+    },
+    {
+      "name": "D4_RAW_51_2",
+      "chart": "D4_FLAG_51_2",
+      "value_hex": "0x8000000000000"
+    },
+    {
+      "name": "D4_RAW_51_3",
+      "chart": "D4_FLAG_51_3",
+      "value_hex": "0x8000000000000"
+    },
+    {
+      "name": "D4_RAW_74_1",
+      "chart": "D4_FLAG_74_1",
+      "value_hex": "0x4000000000000000000"
+    },
+    {
+      "name": "D4_RAW_74_2",
+      "chart": "D4_FLAG_74_2",
+      "value_hex": "0x4000000000000000000"
+    },
+    {
+      "name": "D4_RAW_74_3",
+      "chart": "D4_FLAG_74_3",
+      "value_hex": "0x4000000000000000000"
+    },
+    {
+      "name": "D4_RAW_80_1",
+      "chart": "D4_FLAG_80_1",
+      "value_hex": "0x100000000000000000000"
+    },
+    {
+      "name": "D4_RAW_80_2",
+      "chart": "D4_FLAG_80_2",
+      "value_hex": "0x100000000000000000000"
+    },
+    {
+      "name": "D4_RAW_80_3",
+      "chart": "D4_FLAG_80_3",
+      "value_hex": "0x100000000000000000000"
+    },
+    {
+      "name": "D4_RAW_90_1",
+      "chart": "D4_FLAG_90_1",
+      "value_hex": "0x40000000000000000000000"
+    },
+    {
+      "name": "D4_RAW_90_2",
+      "chart": "D4_FLAG_90_2",
+      "value_hex": "0x40000000000000000000000"
+    },
+    {
+      "name": "D4_RAW_90_3",
+      "chart": "D4_FLAG_90_3",
+      "value_hex": "0x40000000000000000000000"
+    },
+    {
+      "name": "D4_RAW_92_1",
+      "chart": "D4_FLAG_92_1",
+      "value_hex": "0x100000000000000000000000"
+    },
+    {
+      "name": "D4_RAW_92_2",
+      "chart": "D4_FLAG_92_2",
+      "value_hex": "0x100000000000000000000000"
+    },
+    {
+      "name": "D4_RAW_92_3",
+      "chart": "D4_FLAG_92_3",
+      "value_hex": "0x100000000000000000000000"
+    },
+    {
+      "name": "D4_RAW_76_1",
+      "chart": "D4_FLAG_76_1",
+      "value_hex": "0x10000000000000000000"
+    },
+    {
+      "name": "D4_RAW_76_2",
+      "chart": "D4_FLAG_76_2",
+      "value_hex": "0x10000000000000000000"
+    },
+    {
+      "name": "D4_RAW_76_3",
+      "chart": "D4_FLAG_76_3",
+      "value_hex": "0x10000000000000000000"
+    },
+    {
+      "name": "D4_RAW_78_1",
+      "chart": "D4_FLAG_78_1",
+      "value_hex": "0x40000000000000000000"
+    },
+    {
+      "name": "D4_RAW_78_2",
+      "chart": "D4_FLAG_78_2",
+      "value_hex": "0x40000000000000000000"
+    },
+    {
+      "name": "D4_RAW_78_3",
+      "chart": "D4_FLAG_78_3",
+      "value_hex": "0x40000000000000000000"
+    },
+    {
+      "name": "D4_RAW_88_1",
+      "chart": "D4_FLAG_88_1",
+      "value_hex": "0x10000000000000000000000"
+    },
+    {
+      "name": "D4_RAW_88_2",
+      "chart": "D4_FLAG_88_2",
+      "value_hex": "0x10000000000000000000000"
+    },
+    {
+      "name": "D4_RAW_88_3",
+      "chart": "D4_FLAG_88_3",
+      "value_hex": "0x10000000000000000000000"
+    },
+    {
+      "name": "D4_RAW_94_1",
+      "chart": "D4_FLAG_94_1",
+      "value_hex": "0x400000000000000000000000"
+    },
+    {
+      "name": "D4_RAW_94_2",
+      "chart": "D4_FLAG_94_2",
+      "value_hex": "0x400000000000000000000000"
+    },
+    {
+      "name": "D4_RAW_94_3",
+      "chart": "D4_FLAG_94_3",
+      "value_hex": "0x400000000000000000000000"
+    },
+    {
+      "name": "ADDED_RAW8",
+      "chart": "zero",
+      "value_hex": "0x100"
+    },
+    {
+      "name": "ADDED_RAW9",
+      "chart": "zero",
+      "value_hex": "0x200"
+    },
+    {
+      "name": "ADDED_RAW36",
+      "chart": "zero",
+      "value_hex": "0x1000000000"
+    },
+    {
+      "name": "ADDED_RAW37",
+      "chart": "zero",
+      "value_hex": "0x2000000000"
+    },
+    {
+      "name": "ADDED_RAW50",
+      "chart": "zero",
+      "value_hex": "0x4000000000000"
+    },
+    {
+      "name": "DIRECT_RAW10",
+      "chart": "zero",
+      "value_hex": "0x400"
+    },
+    {
+      "name": "DIRECT_RAW20",
+      "chart": "zero",
+      "value_hex": "0x100000"
+    },
+    {
+      "name": "COMMON_RAW2",
+      "chart": "zero",
+      "value_hex": "0x4"
+    },
+    {
+      "name": "RAW40",
+      "chart": "L40",
+      "value_hex": "0x10000000000"
+    },
+    {
+      "name": "RAW49",
+      "chart": "L49",
+      "value_hex": "0x2000000000000"
+    },
+    {
+      "name": "P4_RET",
+      "chart": "P4_K",
+      "value_hex": "0x40020000000"
+    },
+    {
+      "name": "P4_RAW29",
+      "chart": "P4_A",
+      "value_hex": "0x20000000"
+    },
+    {
+      "name": "P4_RAW42",
+      "chart": "P4_B",
+      "value_hex": "0x40000000000"
+    },
+    {
+      "name": "P5_RET",
+      "chart": "P5_K",
+      "value_hex": "0x1200000000000"
+    },
+    {
+      "name": "P5_RAW45",
+      "chart": "P5_A",
+      "value_hex": "0x200000000000"
+    },
+    {
+      "name": "P5_RAW48",
+      "chart": "P5_B",
+      "value_hex": "0x1000000000000"
+    },
+    {
+      "name": "PAIR_RAW43",
+      "chart": "J41_PAIR",
+      "value_hex": "0x80000000000"
+    },
+    {
+      "name": "PAIR_RAW46",
+      "chart": "J43_PAIR",
+      "value_hex": "0x400000000000"
+    },
+    {
+      "name": "RAW48",
+      "chart": "L48",
+      "value_hex": "0x1000000000000"
+    },
+    {
+      "name": "RAW43_LOCAL",
+      "chart": "L43",
+      "value_hex": "0x80000000000"
+    },
+    {
+      "name": "RAW29",
+      "chart": "L29",
+      "value_hex": "0x20000000"
+    },
+    {
+      "name": "RAW42",
+      "chart": "L42",
+      "value_hex": "0x40000000000"
+    },
+    {
+      "name": "CAP2942",
+      "chart": "M1",
+      "value_hex": "0x40020000000"
+    },
+    {
+      "name": "RAW41",
+      "chart": "L41",
+      "value_hex": "0x20000000000"
+    },
+    {
+      "name": "CAP46",
+      "chart": "M1",
+      "value_hex": "0x480000000000"
+    },
+    {
+      "name": "HRAW19",
+      "chart": "L19",
+      "value_hex": "0x80000"
+    },
+    {
+      "name": "HRAW27",
+      "chart": "L27",
+      "value_hex": "0x8000000"
+    },
+    {
+      "name": "TRIAD16",
+      "chart": "J16",
+      "value_hex": "0x10000"
+    },
+    {
+      "name": "RAW_J30",
+      "chart": "J16",
+      "value_hex": "0x40000000"
+    },
+    {
+      "name": "TRIAD23",
+      "chart": "J23",
+      "value_hex": "0x800000"
+    },
+    {
+      "name": "RAW_J38",
+      "chart": "J23",
+      "value_hex": "0x4000000000"
+    },
+    {
+      "name": "TRIAD22",
+      "chart": "J22",
+      "value_hex": "0x400000"
+    },
+    {
+      "name": "RAW_J39",
+      "chart": "J22",
+      "value_hex": "0x8000000000"
+    },
+    {
+      "name": "ZRAW0",
+      "chart": "zero",
+      "value_hex": "0x1"
+    },
+    {
+      "name": "ZFIRST3",
+      "chart": "D4_COMMON_MEET",
+      "value_hex": "0x8800000000018"
+    },
+    {
+      "name": "ZKEEP2",
+      "chart": "K46_PAIR",
+      "value_hex": "0x480000000000"
+    },
+    {
+      "name": "ZRAW28",
+      "chart": "zero",
+      "value_hex": "0x10000000"
+    },
+    {
+      "name": "ZCORR43",
+      "chart": "Jnew43",
+      "value_hex": "0x400000000000"
+    },
+    {
+      "name": "ZFIRST4",
+      "chart": "D4_COMMON_MEET",
+      "value_hex": "0x140104000000000000000000"
+    },
+    {
+      "name": "ZRAW44",
+      "chart": "zero",
+      "value_hex": "0x100000000000"
+    },
+    {
+      "name": "ZCORR48",
+      "chart": "L45",
+      "value_hex": "0x200000000000"
+    },
+    {
+      "name": "ZFIRST5",
+      "chart": "D4_COMMON_MEET",
+      "value_hex": "0x410050000000000000000000"
+    },
+    {
+      "name": "RAW7",
+      "chart": "L7",
+      "value_hex": "0x80"
+    },
+    {
+      "name": "PRIVATE16",
+      "chart": "J16",
+      "value_hex": "0x2000040000000"
+    },
+    {
+      "name": "KEEP_C0",
+      "chart": "C0",
+      "value_hex": "0x203c040e10402"
+    },
+    {
+      "name": "KEEP_M16",
+      "chart": "L7",
+      "value_hex": "0x40000000"
+    },
+    {
+      "name": "RAW11",
+      "chart": "L11",
+      "value_hex": "0x800"
+    },
+    {
+      "name": "PRIVATE23",
+      "chart": "J23",
+      "value_hex": "0x14000000000"
+    },
+    {
+      "name": "KEEP_C1",
+      "chart": "C0",
+      "value_hex": "0x201200203c040c10000"
+    },
+    {
+      "name": "KEEP_M23",
+      "chart": "L11",
+      "value_hex": "0x4000000000"
+    },
+    {
+      "name": "RAW12",
+      "chart": "L12",
+      "value_hex": "0x1000"
+    },
+    {
+      "name": "PRIVATE22",
+      "chart": "J22",
+      "value_hex": "0x28000000000"
+    },
+    {
+      "name": "KEEP_C2",
+      "chart": "C0",
+      "value_hex": "0xa000203c040c10000"
+    },
+    {
+      "name": "KEEP_M22",
+      "chart": "L12",
+      "value_hex": "0x8000000000"
+    },
+    {
+      "name": "H0_0",
+      "chart": "D3_21",
+      "value_hex": "0x400"
+    },
+    {
+      "name": "H0_1",
+      "chart": "D3_21",
+      "value_hex": "0x402"
+    },
+    {
+      "name": "H0_2",
+      "chart": "D3_21",
+      "value_hex": "0x402"
+    },
+    {
+      "name": "H1_0",
+      "chart": "C0",
+      "value_hex": "0x3c000c00000"
+    },
+    {
+      "name": "H1_1",
+      "chart": "C0",
+      "value_hex": "0x2028040410000"
+    },
+    {
+      "name": "H1_2",
+      "chart": "C0",
+      "value_hex": "0xc040000000"
+    },
+    {
+      "name": "H2_1",
+      "chart": "D76_64",
+      "value_hex": "0x2002000000000000000"
+    },
+    {
+      "name": "H2_2",
+      "chart": "D76_64",
+      "value_hex": "0x2002000000000000000"
+    },
+    {
+      "name": "H3_0",
+      "chart": "D80_65",
+      "value_hex": "0x80000000000000000"
+    },
+    {
+      "name": "H3_1",
+      "chart": "D80_65",
+      "value_hex": "0x20000000000000000000"
+    },
+    {
+      "name": "H3_2",
+      "chart": "D80_65",
+      "value_hex": "0x20080000000000000000"
+    },
+    {
+      "name": "H4_1",
+      "chart": "F4",
+      "value_hex": "0x40"
+    },
+    {
+      "name": "H4_3",
+      "chart": "F4",
+      "value_hex": "0x40"
+    },
+    {
+      "name": "H6_0",
+      "chart": "C2",
+      "value_hex": "0x16c0000000000"
+    },
+    {
+      "name": "H6_1",
+      "chart": "C2",
+      "value_hex": "0x1440020000000"
+    },
+    {
+      "name": "H6_2",
+      "chart": "C2",
+      "value_hex": "0x2c0020000000"
+    },
+    {
+      "name": "H6_3",
+      "chart": "C2",
+      "value_hex": "0x600000000000"
+    },
+    {
+      "name": "H8_1",
+      "chart": "F74",
+      "value_hex": "0x8000000000000000000"
+    },
+    {
+      "name": "H8_3",
+      "chart": "F74",
+      "value_hex": "0x8000000000000000000"
+    },
+    {
+      "name": "H10_1",
+      "chart": "F78",
+      "value_hex": "0x80000000000000000000"
+    },
+    {
+      "name": "H10_3",
+      "chart": "F78",
+      "value_hex": "0x80000000000000000000"
+    },
+    {
+      "name": "Hnew0_0",
+      "chart": "D3_21",
+      "value_hex": "0x400"
+    },
+    {
+      "name": "Hnew1_0",
+      "chart": "C0",
+      "value_hex": "0x2000040c00000"
+    },
+    {
+      "name": "Hnew3_0",
+      "chart": "D80_65",
+      "value_hex": "0x80000000000000000"
+    },
+    {
+      "name": "E1",
+      "chart": "zero",
+      "value_hex": "0x2"
+    },
+    {
+      "name": "E6",
+      "chart": "zero",
+      "value_hex": "0x40"
+    },
+    {
+      "name": "E73",
+      "chart": "zero",
+      "value_hex": "0x2000000000000000000"
+    },
+    {
+      "name": "E75",
+      "chart": "zero",
+      "value_hex": "0x8000000000000000000"
+    },
+    {
+      "name": "E77",
+      "chart": "zero",
+      "value_hex": "0x20000000000000000000"
+    },
+    {
+      "name": "E79",
+      "chart": "zero",
+      "value_hex": "0x80000000000000000000"
+    },
+    {
+      "name": "Q0",
+      "chart": "C0",
+      "value_hex": "0x203c040c10000"
+    },
+    {
+      "name": "Q2",
+      "chart": "C2",
+      "value_hex": "0x16c0020000000"
+    },
+    {
+      "name": "P7",
+      "chart": "zero",
+      "value_hex": "0x8a000000000008000002"
+    },
+    {
+      "name": "P0",
+      "chart": "zero",
+      "value_hex": "0x80"
+    },
+    {
+      "name": "P1",
+      "chart": "zero",
+      "value_hex": "0x800"
+    },
+    {
+      "name": "P2",
+      "chart": "zero",
+      "value_hex": "0x20000000000000001000"
+    },
+    {
+      "name": "P3",
+      "chart": "zero",
+      "value_hex": "0x4a0000000040"
+    },
+    {
+      "name": "P4",
+      "chart": "zero",
+      "value_hex": "0x8000000050020000000"
+    },
+    {
+      "name": "P5",
+      "chart": "zero",
+      "value_hex": "0x80000003200000000000"
+    },
+    {
+      "name": "P6",
+      "chart": "zero",
+      "value_hex": "0xa8000000000000080000"
+    }
+  ],
+  "scope": "Completes 52 native receivers using 3 actual retained quartet fields, one shared rank4 meet and cyclic raw-cache flags. All222 columns and all X restoration checked. Changed old first-retention/source contracts. No all111 completion or new kappa."
+}

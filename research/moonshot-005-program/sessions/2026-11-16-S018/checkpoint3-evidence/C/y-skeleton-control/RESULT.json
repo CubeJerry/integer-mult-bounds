@@ -1,0 +1,292 @@
+{
+  "status": "PASS_AUTHOR_ACTUAL_HOMOGENEOUS_Y_SKELETON_RESET",
+  "source_word_sha256": "c7e48e002da3ce642707b25d74dc15d0915945f319053eb97f2016045afe4615",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "source_S": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    61,
+    64,
+    65,
+    67,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    88,
+    90,
+    92,
+    94
+  ],
+  "source_count": 54,
+  "targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    88,
+    90,
+    92,
+    94
+  ],
+  "old_cut": 793,
+  "new_cut": 423,
+  "same_named_cut_Y_columns": true,
+  "same_named_cut_X_columns_outside_S": true,
+  "old_owned_Y_signature": {
+    "ZFIRST3": 4,
+    "ZFIRST4": 74,
+    "ZFIRST5": 78
+  },
+  "old_continuation": {
+    "counts": {
+      "ADD": 414,
+      "MOVE": 406,
+      "INIT": 112,
+      "CLEAR": 112
+    },
+    "movement_profile": {
+      "1": 150,
+      "2": 11,
+      "3": 36,
+      "4": 26,
+      "5": 16,
+      "6": 9,
+      "7": 158
+    },
+    "dirty_CLEAR": 112,
+    "peak_owned": 112,
+    "all_222_endpoints": true
+  },
+  "reset": {
+    "counts": {
+      "INIT": 166,
+      "ADD": 119,
+      "MOVE": 281,
+      "CLEAR": 166
+    },
+    "movement_profile": {
+      "1": 55,
+      "3": 5,
+      "4": 3,
+      "7": 218
+    },
+    "dirty_CLEAR": 57,
+    "peak_owned": 166,
+    "all_222_endpoints": true
+  },
+  "literal_continuation_length": 251,
+  "old_continuation_X0_transient": "0x80000000000000008800000000009",
+  "reset_X0_before_Hub_inverse": "0x8800000000019",
+  "final_original_matrix_rank": 111,
+  "actual_Hub_inverse": [
+    [
+      "ADD",
+      "X3",
+      "X0"
+    ],
+    [
+      "ADD",
+      "X4",
+      "X0"
+    ],
+    [
+      "ADD",
+      "X47",
+      "X0"
+    ],
+    [
+      "ADD",
+      "X51",
+      "X0"
+    ]
+  ],
+  "initial_ground_preload_count": 52,
+  "whole_moment": {
+    "rational": [
+      "796529820272671621785849515801953898904331113/500000000000000000000000000000000000000000",
+      "398264910136335810892924757900976949452165613/250000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1593.059640545343243571699031603907797808662226",
+      "1593.059640545343243571699031603907797808662452"
+    ]
+  },
+  "old_moment": {
+    "rational": [
+      "12886258972490654926530532774575589015459173/8000000000000000000000000000000000000000",
+      "1610782371561331865816316596821948626932396881/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1610.782371561331865816316596821948626932396625",
+      "1610.782371561331865816316596821948626932396881"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "14345619832904555837273559381543594319626499/500000000000000000000000000000000000000000",
+      "172147437994854670047282712578523131835520639/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "28.691239665809111674547118763087188639252998",
+      "28.691239665809111674547118763087188639253439833333333333333333333333333333333333"
+    ]
+  },
+  "skeleton_direct_closure_reference": {
+    "rational": [
+      "796512365977873650950818286801369142689907681/500000000000000000000000000000000000000000",
+      "1593024731955747301901636573602738285379815587/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1593.024731955747301901636573602738285379815362",
+      "1593.024731955747301901636573602738285379815587"
+    ]
+  },
+  "controls": [
+    {
+      "control": "omit actual owned original-Y copy",
+      "rejected": true,
+      "reason": "('X endpoint', 0)"
+    },
+    {
+      "control": "omit actual raw ground acquisition",
+      "rejected": true,
+      "reason": "('Y endpoint', 3)"
+    },
+    {
+      "control": "omit initial ground endpoint preload",
+      "rejected": true,
+      "reason": "('Y endpoint', 3)"
+    },
+    {
+      "control": "omit actual Y copy visit",
+      "rejected": true,
+      "reason": "(215, 'co-location', ['ADD', 'Y4', 'ZFIRST3'], 'zero', 'D4_COMMON_MEET')"
+    },
+    {
+      "control": "omit ground source retirement",
+      "rejected": true,
+      "reason": "complete lifetimes"
+    },
+    {
+      "control": "omit actual nontrivial Hub original inverse",
+      "rejected": true,
+      "reason": "('X endpoint', 0)"
+    },
+    {
+      "control": "legal late preload fails to propagate into owned Y copy",
+      "rejected": true,
+      "reason": "('X endpoint', 0)"
+    }
+  ],
+  "legal_late_preload_control": {
+    "all_Y_endpoints_correct": true,
+    "X0_error": "x4",
+    "cost": {
+      "counts": {
+        "INIT": 167,
+        "ADD": 120,
+        "MOVE": 282,
+        "CLEAR": 167
+      },
+      "movement_profile": {
+        "1": 56,
+        "3": 5,
+        "4": 3,
+        "7": 218
+      },
+      "dirty_CLEAR": 58,
+      "peak_owned": 167
+    }
+  },
+  "scope": "Author actual52-output physical reset with dirty owner read, arbitrary-Y feedback, paid S54 acquisition, identical cut Y signature and nontrivial Hub inverse. Not all111, not a supplier, no kappa. Five foundations remain.",
+  "old-word_sha256": "8ccbe6b77cccd404e529a86eb073eada9094fe647db4909a30a2ef29235975be",
+  "reset-word_sha256": "82753e515ed84953f3807cb3614e4ed29d583d852e4fb7ba223f68cc56a52c7a",
+  "unprepared-word_sha256": "c6c5fe7507485216da0bcb651aff9eb08025106b9188dc5f8109e053ffd3e57e",
+  "late-preload-negative_sha256": "c20154cc0daee8cce5d9aca207e5fefcace25e00b138f64d5f759f1dcbe00227",
+  "proof_sha256": "eee97e0e3f1c9b080940fe92b7d0723ccd57a652b4de540e63ae098fb2f2cc52"
+}

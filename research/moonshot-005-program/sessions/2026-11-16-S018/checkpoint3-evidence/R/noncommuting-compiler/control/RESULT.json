@@ -1,0 +1,234 @@
+{
+  "status": "PASS_ROOT_NONCOMMUTING_SPLIT_COMPILER_CONTROLS",
+  "proof_sha256": "d3ed2ad13a986486ce558f1afa8093f8b06c0fa6d0917aa175415b2cc62c3704",
+  "group_order": 8,
+  "component_dimensions": [
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "all64_matrix_unit_products": true,
+  "matrix_unit_basis_rank": 8,
+  "literal_source_and_group_tables_verified": true,
+  "matrix_units": {
+    "(0, 0, 0)": [
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8"
+    ],
+    "(1, 0, 0)": [
+      "1/8",
+      "-1/8",
+      "1/8",
+      "-1/8",
+      "1/8",
+      "-1/8",
+      "1/8",
+      "-1/8"
+    ],
+    "(2, 0, 0)": [
+      "1/8",
+      "1/8",
+      "-1/8",
+      "-1/8",
+      "-1/8",
+      "-1/8",
+      "1/8",
+      "1/8"
+    ],
+    "(3, 0, 0)": [
+      "1/8",
+      "-1/8",
+      "-1/8",
+      "1/8",
+      "-1/8",
+      "1/8",
+      "1/8",
+      "-1/8"
+    ],
+    "(4, 0, 0)": [
+      "1/4",
+      "0",
+      "-1/4",
+      "0",
+      "1/4",
+      "0",
+      "-1/4",
+      "0"
+    ],
+    "(4, 0, 1)": [
+      "0",
+      "1/4",
+      "0",
+      "-1/4",
+      "0",
+      "1/4",
+      "0",
+      "-1/4"
+    ],
+    "(4, 1, 0)": [
+      "0",
+      "1/4",
+      "0",
+      "1/4",
+      "0",
+      "-1/4",
+      "0",
+      "-1/4"
+    ],
+    "(4, 1, 1)": [
+      "1/4",
+      "0",
+      "1/4",
+      "0",
+      "-1/4",
+      "0",
+      "-1/4",
+      "0"
+    ]
+  },
+  "tensor_width_controls": [
+    {
+      "V": 1,
+      "component_multiplicities": [
+        4,
+        0,
+        4,
+        0,
+        4
+      ]
+    },
+    {
+      "V": 2,
+      "component_multiplicities": [
+        48,
+        16,
+        48,
+        16,
+        64
+      ]
+    },
+    {
+      "V": 3,
+      "component_multiplicities": [
+        640,
+        384,
+        640,
+        384,
+        1024
+      ]
+    },
+    {
+      "V": 4,
+      "component_multiplicities": [
+        9216,
+        7168,
+        9216,
+        7168,
+        16384
+      ]
+    }
+  ],
+  "example": {
+    "counts": {
+      "ADD": 16,
+      "SCALE": 32,
+      "MONOMIAL": 28
+    },
+    "inverse_counts": {
+      "ADD": 16,
+      "SCALE": 32,
+      "MONOMIAL": 28
+    },
+    "prefix_coefficient_l1_norm_bound": "3",
+    "inverse_prefix_bound": "2",
+    "borrowed_banks_restored": true,
+    "single_bank_nonmonomial": true,
+    "coefficient_heights": {
+      "max_abs_numerator": 4,
+      "max_denominator": 4
+    }
+  },
+  "general": {
+    "delta": "2",
+    "component_determinants": [
+      "2",
+      "2",
+      "2",
+      "2",
+      "4"
+    ],
+    "scalar_factor_counts": [
+      18,
+      12,
+      18,
+      16,
+      20
+    ],
+    "cross_bank_shears": 93,
+    "counts": {
+      "ADD": 628,
+      "SCALE": 1253,
+      "MONOMIAL": 1098
+    },
+    "inverse_counts": {
+      "ADD": 628,
+      "SCALE": 1253,
+      "MONOMIAL": 1098
+    },
+    "prefix_coefficient_l1_norm_bound": "111",
+    "inverse_prefix_bound": "6293/18",
+    "conservative_L_bound": 684,
+    "coefficient_heights": {
+      "max_abs_numerator": 128,
+      "max_denominator": 128
+    }
+  },
+  "negative_controls": [
+    {
+      "omitted": [
+        "ADD",
+        0,
+        1
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "MONOMIAL",
+        0,
+        1
+      ],
+      "rejected": true
+    },
+    {
+      "unequal_component_determinants": "unit but rejected by this sufficient compiler condition",
+      "rejected": true
+    },
+    {
+      "hidden_component_singular_candidate": "I minus the scalar component1 projector on every bank",
+      "width1_physical_map": "identity",
+      "width2_kernel_dimension": 48,
+      "abstract_component_unit_test_rejects": true
+    }
+  ],
+  "word_hashes": {
+    "EXAMPLE-WORD.json": "1b09448f5c8121c3160b7bc9db9c54076a9f5d9d317fd2bea9485eea452ee57f",
+    "EXAMPLE-INVERSE-WORD.json": "b9efaf869029ca7d0dd096b8f5022c4cbb620cff0d36b261d821a455083566e7",
+    "GENERAL-WORD.json": "8af896d0f46c0dde492bcb8c826ace44f3f8e0cfbb5755d7111f45c783e8a63f",
+    "GENERAL-INVERSE-WORD.json": "d8c8dfa4c14a8bc2c518708a16d3f0dae2d7957eca5e9f0f88e8ec9fb71751f7"
+  },
+  "source_pins": {
+    "results/complex-source-square-controls/ADMISSION.md": "84becba2de76261194b972985a9dc96cb7ff0e4e9067b353dd4c0e393e14c881",
+    "results/complex-nondiagonal-cyclic/author/NONDIAGONAL-CYCLIC-IMPLEMENTATION.md": "b68879d307458e5e22c336b8e48317fb5c31a0076cfaf1ada628831b287c54d5",
+    "results/fixed-monomial-compact-bridge/author/PROOF.md": "71383358c9b38e91f827932dda429c165fb0bce934b14b6da83e44f30efff98d"
+  },
+  "scope": "Exact rational D8 implementation controls for the general Q(i) proof. Every all-width identity follows from the literal group algebra; finite tensor multiplicity checks are controls only. Explicit determinant condition, full physical costs and all five foundations remain. No421 endpoint or supplier."
+}

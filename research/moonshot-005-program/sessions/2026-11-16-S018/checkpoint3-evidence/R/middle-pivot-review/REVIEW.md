@@ -1,0 +1,13 @@
+# Root independent review of the all-ordinary middle-pivot gate
+
+Accepted in the stated eventual fixed-template scope. The final proof is bound by the companion result's SHA256. I reconstructed the full ordered product independently and reviewed the universal argument, including the inference from component ranks to complete operator rank.
+
+The clean-forward pivot gives a t a=j a² and a t a²=j a³, withj ordinary invertible. The last input column has only one possible rank-three term,−j a³ q12 in the middle output; all remaining words have at most two source factors. Thus q12=0. Its remaining ordinary components are c q22 and g q22. Injectivity of[c;g] follows directly from the kernel vector(−t^-1 e z,0,z) ofC, not from inverses of individual c or g. Consequently q22=0 and full Q invertibility forces q02 invertible.
+
+The last endpoint column is then a pure rank-two unit in the middle output bank. The target's rank-two component has exactly dimensionD, so its image is this whole bank. Every rank-four word is also confined to that bank: after the final L, the top row has at most three source factors and the bottom row at most two. With all other classes prohibited, rank(E) is at most the rank-one imageD plus the shared middle bankD. This contradicts invertibility on3D. No assumption that individual components are themselves invertible, or that their ranks would suffice for a positive endpoint, enters the proof.
+
+Wordwise support is used only after faithful tensor separation for the complete fixed finite catalogue. It does not bound the numerical support of a finite sum at widthone. Literal phases and all width residues remain. The quantified clean-forward premise is material and the proof explicitly leaves other first-column shapes or sources open.
+
+The root checker imports no B arithmetic/checker. It uses a separately written noncommuting polynomial calculation and reconstructs A from the output cubic phase and rotation, whereas B uses input phaseabd. Root's distinct control inserts a noncommuting Da factor into the complementary-projector block, gives a literal two-sided48×48 inverse, verifies both c,g have rank8 but their stack rank16, checks the clean rank2/rank3 words, and rejects an ordinary unit whose forward conjugate is nonmonomial. The exact formal row-degree bounds are3,4,2. These controls support the proof; they do not prove tensor faithfulness by enumeration.
+
+This replaces the narrower residual diagonal/square-normalizer discussions in the stated middle-pivot shape. It is not a general three-native impossibility theorem and supplies no cost reduction, strict supplier or κ. Credit B, @CubeJerry, the retained source/component/tensor work and substantial OpenAI assistance.

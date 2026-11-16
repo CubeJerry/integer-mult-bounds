@@ -1,12 +1,72 @@
 # Exact requirements for κ = 1/200
 
-## Current frontier — S018 checkpoint2
+## Current frontier — S018 checkpoint3
 
-**No new complete κ.** Selected conditional κ remains363005817/10^11. The current construction work uses three separately verified BIT interface transformations. [Protected conduits and pruning](results/bit-protected-conduit-source/ADMISSION.md) leave78 raw originals at native lines, preserve46 completed outputs and all25 common fields, and close at Q1607.1923119384165074231. The [known-source cut reset](results/bit-known-source-cut-reset/ADMISSION.md) replaces a prefix supported on known coordinates by actual raw ground copies and zero owners at the same cut charts, provided the fixed continuation's final original map is invertible. It permits arbitrary intermediate Y feedback and emits the actual final Hub inverse. The current source needs48 known coordinates, giving reference222[7]+48 and necessary limiting room34.7972859889474173580; future unknown acquisition and delivery are still due. [Actual-ground normalization](results/bit-ground-output-normalization/ADMISSION.md) gives the exact iff for correcting output mixing using the currently available ground rowspace. These are constructive source/preparation reductions, not all111 endpoints.
+**No new complete κ.** Selected conditional κ remains363005817/10^11.
+The [shared D4 construction](results/bit-d4-shared-receiver-source/ADMISSION.md)
+uses three actual retained fields for twelve receivers and completes52 outputs.
+Its changing-history variant uses arbitrary initial Y values with real precoats,
+completes three primaries at existing facet visits, and resets the changed
+packets before all old lower readers. It uses18 stationary caches instead of36.
+The pruned version costs Q1610.7474629717359241 and has nonidentity cut support54;
+the paid source-rich version costs Q1615.5518964662126601 and has support111.
+Their source contracts cannot be interchanged. Direct known54 reset is cheaper
+than pruned52, while direct111 reset exceeds the necessary allowance. This is a
+shared physical mechanism, not an improved numerical endpoint-price frontier.
 
-The complex [source-square control classification](results/complex-source-square-controls/ADMISSION.md) identifies every root-four monomial with monomial pullback through the literal source square:24*384^4=521838526464 literal controls. The Boolean diagonal subfamily has4096 members and a short paid implementation. Nontrivial spectator permutations yield noncommuting pullbacks beyond the earlier preserved-address family. An explicit conditional bank swap uses4 ADD+3 SCALE+1 monomial service per direction, with no new owner. The inherited monomial tariff scales with full physical field volume, at least16^V, not tensor widthV. No independent(4,2,1) caller has yet been obtained.
+The [homogeneous-Y reset](results/bit-homogeneous-signature-reset/ADMISSION.md)
+extends known-source reset to Y-bearing owners. A legal replacement must preserve
+every live cut Y column; initial preloads then propagate through the same
+signature, fix outputs and leave the final original map unchanged. An actual
+Hub inverse remains required. A physical control includes transient Y feedback
+into X, a nonidentity inverse and a legal late-preload negative. Known-coordinate
+and removable Y-nuisance information alone do not evade this comparison. The
+primary BIT task is useful unknown combinations along already-paid routes,
+followed by actual receiver decoding, restoration and the full all111 invoice.
 
-Primary task: construct actual shared receiver/source histories that deliver the missing BIT increments within the full invoice, then complete a compatible strict complex supplier. A multi-receiver D4 route and noncommuting complex interstages are active candidates, not admitted results. The raw111-Hub alternative, collective restoration criterion, canonical47 mechanism and earlier scoped exclusions remain available under their own source contracts. Both strict suppliers, full recursion and all five foundations remain open. Session S018 is active through the supported17:00:55UTC planning window; the programme is not PR-ready. Earlier checkpoint priorities below are historical unless retained here.
+On the complex side, [two first-interface gates](results/complex-first-interface-gates/ADMISSION.md)
+exclude broad classes for every ordinary second interstage: idle-preserving first
+interfaces with injective forbidden-component stack, and clean middle-first-
+column pivots even with arbitrary remaining idle coupling. The previous residual
+square-control attempt is closed, not every three-native architecture. The
+[split noncommuting compiler](results/complex-noncommuting-ordinary-compiler/ADMISSION.md)
+gives actual ordinary recipes from explicit matrix units and a common component
+determinant certificate. Literal phases, full field-volume cost and all-width
+certificates are essential. A full source-valid independent(4,2,1) caller remains
+open, as do both strict suppliers, full recursion and all five foundations.
+
+Session S018 remains active through17:00:55UTC. This is an interruption-safe
+checkpoint in the same five-hour session. The programme remains ongoing and
+not PR-ready. Older priorities below are historical unless retained here; the
+seven prior logical records are archived for continuity.
+
+## S018 checkpoint3 source and movement comparison
+
+At t=199/200 the necessary limiting allowance is1621.7508802111523552462.
+All listed words include their actual public closures and owned movements.
+
+| Source/control | Outputs | Q | Necessary room |
+|---|---:|---:|---:|
+| Pure pruned D4 |52|1610.9883424778408685428|10.7625377333114867034|
+| Changing-Y pruned |52|1610.7474629717359241|11.0034172394164311|
+| Pure paid D4 |52|1615.7927759723176045412|5.9581042388347507050|
+| Changing-Y paid |52|1615.5518964662126601|6.1989837449396951|
+| Actual direct known54 reset |54|1592.9535942222049378882|28.7972859889474173580|
+| Actual direct known111 reset |111|1649.9535942222049378882|-28.2027140110525826420|
+| Actual Y skeleton and nonidentity inverse |52|1593.0596405453432435717|28.6912396658091116745|
+
+Known54 reset is cheaper than pruned52 in the endpoint-only comparison. The paid
+source retains a different111-coordinate information contract. Under the narrow
+fresh-fixed-quartet restriction,57 unseen coordinates need at least15 new unit
+descents, exceeding pruned52's necessary room. Changing payloads along paid
+routes remains outside that stop. Measure useful unknown quotient information
+and actual decoding, not just output count or owned rank.
+
+Complex body price remains3[1]+6[7]+3[8] against prospective heads[25]+[23]+[22],
+with no421 endpoint. The new ordinary compiler has explicit counts, coefficient
+heights and prefix norms; full field-volume, caller and recursive expenses remain.
+Necessary movement rooms are not sufficient suppliers. The retained covered
+condition C>3112961/621875000 and strict B>1/200,U>1/200 remain unestablished.
 
 ## S018 checkpoint2 preparation budgets
 

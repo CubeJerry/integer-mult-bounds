@@ -1,0 +1,432 @@
+{
+  "status": "PASS_INDEPENDENT_D4_SHARED_TWELVE_RECEIVER_COMPOSITION",
+  "base_kind": "pruned78",
+  "base_sha256": "c7cf9a565d5dd6613342274979a9aa5de1bbb209cc3704a2a19e60eecb034245",
+  "word_sha256": "dd0af2d4467b722c1692fb60b883407b4a95a8ea10b112fca0683dfc4a930edf",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "frames": [
+    [
+      3,
+      4,
+      47,
+      51
+    ],
+    [
+      74,
+      80,
+      90,
+      92
+    ],
+    [
+      76,
+      78,
+      88,
+      94
+    ]
+  ],
+  "exact_common_facet_cohort": [
+    3,
+    4,
+    47,
+    51,
+    74,
+    76,
+    78,
+    80,
+    88,
+    90,
+    92,
+    94
+  ],
+  "common_chart_rank": 4,
+  "actual_stationary_raw_caches": 36,
+  "actual_programmed_source_fields": [
+    {
+      "packet": "P3",
+      "capture": 560,
+      "reset": 561,
+      "down": 745,
+      "row_hex": "0x8800000000018"
+    },
+    {
+      "packet": "P4",
+      "capture": 577,
+      "reset": 578,
+      "down": 746,
+      "row_hex": "0x140104000000000000000000"
+    },
+    {
+      "packet": "P5",
+      "capture": 594,
+      "reset": 595,
+      "down": 747,
+      "row_hex": "0x410050000000000000000000"
+    }
+  ],
+  "before": {
+    "counts": {
+      "INIT": 94,
+      "ADD": 386,
+      "MOVE": 356,
+      "CLEAR": 94
+    },
+    "movement_profile": {
+      "1": 95,
+      "2": 17,
+      "3": 34,
+      "4": 8,
+      "5": 22,
+      "6": 12,
+      "7": 168
+    },
+    "dirty_CLEAR": 94,
+    "peak_owned": 94,
+    "all_222_endpoints": true
+  },
+  "after": {
+    "counts": {
+      "MOVE": 422,
+      "INIT": 130,
+      "ADD": 423,
+      "CLEAR": 130
+    },
+    "movement_profile": {
+      "1": 167,
+      "2": 11,
+      "3": 34,
+      "4": 32,
+      "5": 16,
+      "6": 9,
+      "7": 153
+    },
+    "dirty_CLEAR": 130,
+    "peak_owned": 130,
+    "all_222_endpoints": true
+  },
+  "all222_endpoints": true,
+  "targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    88,
+    90,
+    92,
+    94
+  ],
+  "new_targets": [
+    47,
+    51,
+    88,
+    90,
+    92,
+    94
+  ],
+  "interface_index": 844,
+  "preserved_individual_ground_fields": [
+    "ADDED_RAW36",
+    "ADDED_RAW37",
+    "ADDED_RAW50",
+    "ADDED_RAW8",
+    "ADDED_RAW9",
+    "COMMON_RAW2",
+    "DIRECT_RAW10",
+    "DIRECT_RAW20",
+    "E1",
+    "E6",
+    "E73",
+    "E75",
+    "E77",
+    "E79",
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "ZRAW0",
+    "ZRAW28",
+    "ZRAW44"
+  ],
+  "preserved_ground_rank": 25,
+  "retained_raw_native_count": 72,
+  "retained_raw_native_roles": [
+    0,
+    2,
+    5,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    20,
+    24,
+    25,
+    26,
+    27,
+    28,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    44,
+    50,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    62,
+    63,
+    66,
+    68,
+    69,
+    70,
+    71,
+    72,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    89,
+    91,
+    93,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "unfinished_ground_Y_count": 59,
+  "actual_live_owner_count": 130,
+  "actual_live_owner_rank": 54,
+  "source_coordinate_support": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    61,
+    64,
+    65,
+    67,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    88,
+    90,
+    92,
+    94
+  ],
+  "source_coordinate_support_size": 54,
+  "whole_moment": {
+    "rational": [
+      "1610988342477840868542829568679199649195669907/1000000000000000000000000000000000000000000",
+      "805494171238920434271414784339599824597835081/500000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1610.988342477840868542829568679199649195669907",
+      "1610.988342477840868542829568679199649195670162"
+    ]
+  },
+  "base_moment": {
+    "rational": [
+      "321438462387683301484615343810166955150797033/200000000000000000000000000000000000000000",
+      "803596155969208253711538359525417387876992713/500000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1607.192311938416507423076719050834775753985165",
+      "1607.192311938416507423076719050834775753985426"
+    ]
+  },
+  "moment_change": {
+    "rational": [
+      "3796030539424361119752849628364873441684481/1000000000000000000000000000000000000000000",
+      "3796030539424361119752849628364873441684997/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "3.796030539424361119752849628364873441684481",
+      "3.796030539424361119752849628364873441684997"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "1345317216663935837927072710974417156530661/125000000000000000000000000000000000000000",
+      "64575226399868920220499490126772023513474553/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "10.762537733311486703416581687795337252245288",
+      "10.762537733311486703416581687795337252245758833333333333333333333333333333333333"
+    ]
+  },
+  "controls": [
+    {
+      "control": "omit stationary raw capture",
+      "rejected": true,
+      "reason": "('Y endpoint', 4)"
+    },
+    {
+      "control": "omit true Hub source input",
+      "rejected": true,
+      "reason": "('Y endpoint', 3)"
+    },
+    {
+      "control": "omit actual common descent",
+      "rejected": true,
+      "reason": "(748, 'co-location', ['ADD', 'ZFIRST3', 'Y3'], 'M1', 'D4_COMMON_MEET')"
+    },
+    {
+      "control": "omit first packet reset",
+      "rejected": true,
+      "reason": "('Y endpoint', 41)"
+    },
+    {
+      "control": "omit local cache retirement",
+      "rejected": true,
+      "reason": "complete lifetimes"
+    },
+    {
+      "control": "changed quartet field after decoder",
+      "rejected": true,
+      "reason": "('actual retained quartet field', 'ZFIRST3')"
+    },
+    {
+      "control": "changed named ground field after decoder",
+      "rejected": true,
+      "reason": "('individual common field', 'P0')"
+    },
+    {
+      "control": "native original closes before advertised interface",
+      "rejected": true,
+      "reason": "('raw native custody', 5)"
+    },
+    {
+      "control": "unfinished output departs before advertised interface",
+      "rejected": true,
+      "reason": "('available unfinished Y', 5)"
+    }
+  ],
+  "scope": "Independent actual source/co-location, all222 endpoint, common-field, stationary-cache, source-retention, native-custody and complete movement checks. Changed history contracts; no all111 construction or kappa.",
+  "conditional_direct54_reset_reference": {
+    "rational": [
+      "398238398555551234472049941958762608909046609/250000000000000000000000000000000000000000",
+      "796476797111102468944099883917525217818093329/500000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1592.953594222204937888199767835050435636186436",
+      "1592.953594222204937888199767835050435636186658"
+    ]
+  },
+  "reset_scope": "Known-source reset applies to a fixed future continuation only with its actual original-restoration condition. This raw54 price does not execute that continuation for free."
+}

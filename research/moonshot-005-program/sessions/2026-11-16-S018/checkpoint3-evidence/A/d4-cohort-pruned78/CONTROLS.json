@@ -1,0 +1,569 @@
+{
+  "status": "PASS_COHORT_54_SEMANTIC_OMISSIONS",
+  "word_sha256": "dd0af2d4467b722c1692fb60b883407b4a95a8ea10b112fca0683dfc4a930edf",
+  "baseline_replay": {
+    "input_columns": 222,
+    "counts": {
+      "MOVE": 422,
+      "INIT": 130,
+      "ADD": 423,
+      "CLEAR": 130
+    },
+    "movement_profile": {
+      "1": 167,
+      "2": 11,
+      "3": 34,
+      "4": 32,
+      "5": 16,
+      "6": 9,
+      "7": 153
+    },
+    "dirty_CLEAR": 130,
+    "peak_owned": 130,
+    "historical_record_states": 1197
+  },
+  "rejected_count": 54,
+  "rejected": [
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 2,
+      "omitted_operation": [
+        "ADD",
+        "X3",
+        "D4_RAW_3_1"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 5,
+      "omitted_operation": [
+        "ADD",
+        "X3",
+        "D4_RAW_3_2"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 8,
+      "omitted_operation": [
+        "ADD",
+        "X3",
+        "D4_RAW_3_3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 12,
+      "omitted_operation": [
+        "ADD",
+        "X4",
+        "D4_RAW_4_1"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 15,
+      "omitted_operation": [
+        "ADD",
+        "X4",
+        "D4_RAW_4_2"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 18,
+      "omitted_operation": [
+        "ADD",
+        "X4",
+        "D4_RAW_4_3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 22,
+      "omitted_operation": [
+        "ADD",
+        "X47",
+        "D4_RAW_47_1"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 25,
+      "omitted_operation": [
+        "ADD",
+        "X47",
+        "D4_RAW_47_2"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 28,
+      "omitted_operation": [
+        "ADD",
+        "X47",
+        "D4_RAW_47_3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 32,
+      "omitted_operation": [
+        "ADD",
+        "X51",
+        "D4_RAW_51_1"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 35,
+      "omitted_operation": [
+        "ADD",
+        "X51",
+        "D4_RAW_51_2"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 38,
+      "omitted_operation": [
+        "ADD",
+        "X51",
+        "D4_RAW_51_3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 42,
+      "omitted_operation": [
+        "ADD",
+        "X74",
+        "D4_RAW_74_1"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 45,
+      "omitted_operation": [
+        "ADD",
+        "X74",
+        "D4_RAW_74_2"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 48,
+      "omitted_operation": [
+        "ADD",
+        "X74",
+        "D4_RAW_74_3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 52,
+      "omitted_operation": [
+        "ADD",
+        "X80",
+        "D4_RAW_80_1"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 55,
+      "omitted_operation": [
+        "ADD",
+        "X80",
+        "D4_RAW_80_2"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 58,
+      "omitted_operation": [
+        "ADD",
+        "X80",
+        "D4_RAW_80_3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 62,
+      "omitted_operation": [
+        "ADD",
+        "X90",
+        "D4_RAW_90_1"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 65,
+      "omitted_operation": [
+        "ADD",
+        "X90",
+        "D4_RAW_90_2"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 68,
+      "omitted_operation": [
+        "ADD",
+        "X90",
+        "D4_RAW_90_3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 72,
+      "omitted_operation": [
+        "ADD",
+        "X92",
+        "D4_RAW_92_1"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 75,
+      "omitted_operation": [
+        "ADD",
+        "X92",
+        "D4_RAW_92_2"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 78,
+      "omitted_operation": [
+        "ADD",
+        "X92",
+        "D4_RAW_92_3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 82,
+      "omitted_operation": [
+        "ADD",
+        "X76",
+        "D4_RAW_76_1"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 85,
+      "omitted_operation": [
+        "ADD",
+        "X76",
+        "D4_RAW_76_2"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 88,
+      "omitted_operation": [
+        "ADD",
+        "X76",
+        "D4_RAW_76_3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 92,
+      "omitted_operation": [
+        "ADD",
+        "X78",
+        "D4_RAW_78_1"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 95,
+      "omitted_operation": [
+        "ADD",
+        "X78",
+        "D4_RAW_78_2"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 98,
+      "omitted_operation": [
+        "ADD",
+        "X78",
+        "D4_RAW_78_3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 102,
+      "omitted_operation": [
+        "ADD",
+        "X88",
+        "D4_RAW_88_1"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 105,
+      "omitted_operation": [
+        "ADD",
+        "X88",
+        "D4_RAW_88_2"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 108,
+      "omitted_operation": [
+        "ADD",
+        "X88",
+        "D4_RAW_88_3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 112,
+      "omitted_operation": [
+        "ADD",
+        "X94",
+        "D4_RAW_94_1"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 115,
+      "omitted_operation": [
+        "ADD",
+        "X94",
+        "D4_RAW_94_2"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "raw_cache_capture",
+      "operation_index": 118,
+      "omitted_operation": [
+        "ADD",
+        "X94",
+        "D4_RAW_94_3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "operation_index": 554,
+      "omitted_operation": [
+        "ADD",
+        "X3",
+        "P3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "operation_index": 555,
+      "omitted_operation": [
+        "ADD",
+        "X4",
+        "P3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "operation_index": 556,
+      "omitted_operation": [
+        "ADD",
+        "X47",
+        "P3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "operation_index": 557,
+      "omitted_operation": [
+        "ADD",
+        "X51",
+        "P3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "operation_index": 571,
+      "omitted_operation": [
+        "ADD",
+        "X74",
+        "P4"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "operation_index": 572,
+      "omitted_operation": [
+        "ADD",
+        "X80",
+        "P4"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "operation_index": 573,
+      "omitted_operation": [
+        "ADD",
+        "X90",
+        "P4"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "operation_index": 574,
+      "omitted_operation": [
+        "ADD",
+        "X92",
+        "P4"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "operation_index": 588,
+      "omitted_operation": [
+        "ADD",
+        "X76",
+        "P5"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "operation_index": 589,
+      "omitted_operation": [
+        "ADD",
+        "X78",
+        "P5"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "operation_index": 590,
+      "omitted_operation": [
+        "ADD",
+        "X88",
+        "P5"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "source_quartet_term",
+      "operation_index": 591,
+      "omitted_operation": [
+        "ADD",
+        "X94",
+        "P5"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "proper_field_descent",
+      "operation_index": 745,
+      "omitted_operation": [
+        "MOVE",
+        "ZFIRST3",
+        "D4_COMMON_MEET"
+      ],
+      "failure": "(749, ['ADD', 'ZFIRST3', 'Y3'], 'colocation')"
+    },
+    {
+      "kind": "proper_field_descent",
+      "operation_index": 746,
+      "omitted_operation": [
+        "MOVE",
+        "ZFIRST4",
+        "D4_COMMON_MEET"
+      ],
+      "failure": "(781, ['ADD', 'ZFIRST4', 'Y74'], 'colocation')"
+    },
+    {
+      "kind": "proper_field_descent",
+      "operation_index": 747,
+      "omitted_operation": [
+        "MOVE",
+        "ZFIRST5",
+        "D4_COMMON_MEET"
+      ],
+      "failure": "(813, ['ADD', 'ZFIRST5', 'Y76'], 'colocation')"
+    },
+    {
+      "kind": "principal_reset",
+      "operation_index": 561,
+      "omitted_operation": [
+        "ADD",
+        "ZFIRST3",
+        "P3"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "principal_reset",
+      "operation_index": 578,
+      "omitted_operation": [
+        "ADD",
+        "ZFIRST4",
+        "P4"
+      ],
+      "failure": "native endpoint identity"
+    },
+    {
+      "kind": "principal_reset",
+      "operation_index": 595,
+      "omitted_operation": [
+        "ADD",
+        "ZFIRST5",
+        "P5"
+      ],
+      "failure": "native endpoint identity"
+    }
+  ],
+  "scope": "Author validation using the retained native interpreter; independent review is separate. Omission controls complement the all-field symbolic construction proof."
+}

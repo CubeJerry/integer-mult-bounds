@@ -1,0 +1,535 @@
+{
+  "status": "PASS_S018_CHECKPOINT3_REPRODUCTION",
+  "commands": [
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/build_d4_cohort.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--base",
+        "pruned78",
+        "--out",
+        "$OUT/d4-cohort-pruned78"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/check_d4_cohort_controls.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--word",
+        "$OUT/d4-cohort-pruned78/WORD.json",
+        "--out",
+        "$OUT/d4-cohort-pruned78/CONTROLS.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/price_d4_cohort.py",
+      "args": [
+        "--result",
+        "$OUT/d4-cohort-pruned78/RESULT.json",
+        "--out",
+        "$OUT/d4-cohort-pruned78/PRICE.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/review_d4_cohort.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--work",
+        "$REPO/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence",
+        "--base",
+        "pruned78",
+        "--out",
+        "$OUT/d4-pruned78-review"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/build_d4_reset_benchmark.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--word",
+        "$OUT/d4-cohort-pruned78/WORD.json",
+        "--out",
+        "$OUT/d4-reset54"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/root-review/review_current.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--word",
+        "$OUT/d4-reset54/WORD.json",
+        "--out",
+        "$OUT/d4-reset54-review.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/build_d4_feedback.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--word",
+        "$OUT/d4-cohort-pruned78/WORD.json",
+        "--out",
+        "$OUT/d4-feedback-pruned78"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/check_d4_feedback.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--word",
+        "$OUT/d4-feedback-pruned78/WORD.json",
+        "--out",
+        "$OUT/d4-feedback-pruned78-controls"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/review_d4_feedback.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--work",
+        "$REPO/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence",
+        "--base",
+        "pruned78",
+        "--out",
+        "$OUT/d4-feedback-pruned78-review"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/build_d4_cohort.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--base",
+        "paid46",
+        "--out",
+        "$OUT/d4-cohort-paid46"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/check_d4_cohort_controls.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--word",
+        "$OUT/d4-cohort-paid46/WORD.json",
+        "--out",
+        "$OUT/d4-cohort-paid46/CONTROLS.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/price_d4_cohort.py",
+      "args": [
+        "--result",
+        "$OUT/d4-cohort-paid46/RESULT.json",
+        "--out",
+        "$OUT/d4-cohort-paid46/PRICE.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/review_d4_cohort.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--work",
+        "$REPO/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence",
+        "--base",
+        "paid46",
+        "--out",
+        "$OUT/d4-paid46-review"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/build_d4_reset_benchmark.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--word",
+        "$OUT/d4-cohort-paid46/WORD.json",
+        "--out",
+        "$OUT/d4-reset111"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/root-review/review_current.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--word",
+        "$OUT/d4-reset111/WORD.json",
+        "--out",
+        "$OUT/d4-reset111-review.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/build_d4_feedback.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--word",
+        "$OUT/d4-cohort-paid46/WORD.json",
+        "--out",
+        "$OUT/d4-feedback-paid46"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/check_d4_feedback.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--word",
+        "$OUT/d4-feedback-paid46/WORD.json",
+        "--out",
+        "$OUT/d4-feedback-paid46-controls"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/review_d4_feedback.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--work",
+        "$REPO/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence",
+        "--base",
+        "paid46",
+        "--out",
+        "$OUT/d4-feedback-paid46-review"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/build_y_skeleton_control.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--work",
+        "$REPO/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence",
+        "--out",
+        "$OUT/y-skeleton-control"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/y-skeleton-review/check.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--work",
+        "$REPO/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence",
+        "--out",
+        "$OUT/y-skeleton-review.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/active-first-gate/check.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--proof",
+        "$REPO/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/active-first-gate/PROOF.md",
+        "--out",
+        "$OUT/active-first.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/B/review_active_first_gate.py",
+      "args": [
+        "--root-package",
+        "$REPO/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/active-first-gate",
+        "--out",
+        "$OUT/active-first-review.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/B/check_middle_pivot_all_ordinary.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--out",
+        "$OUT/middle-pivot.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/middle-pivot-review/check.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--proof",
+        "$REPO/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/B/MIDDLE-PIVOT-ALL-ORDINARY-GATE.md",
+        "--out",
+        "$OUT/middle-pivot-review.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/noncommuting-compiler/check.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--proof",
+        "$REPO/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/noncommuting-compiler/PROOF.md",
+        "--out",
+        "$OUT/noncommuting-compiler"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/review_noncommuting_compiler.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--work",
+        "$REPO/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence",
+        "--out",
+        "$OUT/noncommuting-compiler-review"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "byte_comparisons": [
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-cohort-pruned78/WORD.json",
+      "sha256": "dd0af2d4467b722c1692fb60b883407b4a95a8ea10b112fca0683dfc4a930edf",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-cohort-pruned78/RESULT.json",
+      "sha256": "1bcb44b907374edc20c87c2ace28f0097a8eaacb854eb576196dae0ab656a020",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-cohort-pruned78/CONTROLS.json",
+      "sha256": "d4dda8a3cbbe9e3c1d4cd22c5e97c1d6ffe62c5ade5864b8ff73dbc502c8e928",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-cohort-pruned78/PRICE.json",
+      "sha256": "9a4a942bde92cf3b66ffebd1e5b140c3874f68ca58abda963e43ac24ff096fd1",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/d4-pruned78-review/RESULT.json",
+      "sha256": "28aa4b4f658c44fcd9e295202e7d338238ca9a83e796d1f46e2d916935a947c0",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-reset54/WORD.json",
+      "sha256": "5b2c60bde44ea0f5ced0140a3182b296c562216f70ccc35a07205a3183dc17fc",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-reset54/RESULT.json",
+      "sha256": "77c45617647ddebef3922a7a7dc249f7a0709fb475025abb4f686ba38fbd77ee",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/D4-RESET54-REVIEW.json",
+      "sha256": "2b3e340104c658cedfea60e7d2bed3a03b24363d50c88dcb1f2a0659ae61bf2a",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-feedback-pruned78/WORD.json",
+      "sha256": "c7e48e002da3ce642707b25d74dc15d0915945f319053eb97f2016045afe4615",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-feedback-pruned78/RESULT.json",
+      "sha256": "1a1f1a761604db2c53963e860f54572fb14b5f0a4a4a345b8663017d6a76e50b",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-feedback-pruned78/CONTROLS.json",
+      "sha256": "c495d9537ceb65a13cf488f031699d9339f30c18dee42842c7ac57a14902ff5a",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-feedback-pruned78/PRICE.json",
+      "sha256": "d1b1204fde9df5e69df640251bd36044e0424ae538637315dc2a7a2e0d5c5b2d",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/d4-feedback-pruned78-review/RESULT.json",
+      "sha256": "0234b7b750ea113e792fb39554ec22b0ccb3104264b338798da0d34af2ad801c",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-cohort-paid46/WORD.json",
+      "sha256": "bd7fd31ba6cfe1bc92d26619e513184e6ce5864653cf58be7e9b68668be0d987",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-cohort-paid46/RESULT.json",
+      "sha256": "01f9f59c6ca533291bb727c7c0f4d486f53f3a5f531efa01e4e630bfc7af9c1a",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-cohort-paid46/CONTROLS.json",
+      "sha256": "5942af4a7a7a4797c3ba398e35324ae18bef81818886a62dcdf2bbd92697dabc",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-cohort-paid46/PRICE.json",
+      "sha256": "d40a1c0023a2f5bbfe8bd4a01b1528ee30da8362a2dd02a05787aebb965cb31d",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/d4-paid46-review/RESULT.json",
+      "sha256": "f10fd9199f709a0fa9afa6a62d036f7955d28808d2db1949fb2dc70b4e1cdde9",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-reset111/WORD.json",
+      "sha256": "4434731daf14f068486005019515ee2a08d894d354f26eb4492df01f4769ab5b",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-reset111/RESULT.json",
+      "sha256": "04aa13a554a4bd9328340cdf3738cbdbe5444f60164e9404774d2df8be009d47",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/D4-RESET111-REVIEW.json",
+      "sha256": "1202b44390eed79cc0a229bea9af4ffe40554cdfc7fb4ede379ea123283d6233",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-feedback-paid46/WORD.json",
+      "sha256": "2d285de61add9fd9eb23bfaa3b9723a70382f56eb4faa5e4dc886a09e74f56f0",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-feedback-paid46/RESULT.json",
+      "sha256": "17d3f277520b0100be9e1e82648bc6c671da11ca5b089c0a599dbf2867aa9bb0",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-feedback-paid46/CONTROLS.json",
+      "sha256": "acce6f94dc594c79b05852dfbfc0cfdbf499e3f26d8ad21148a4db852060ba52",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/A/d4-feedback-paid46/PRICE.json",
+      "sha256": "45486e49201947478645a942675d0db0b84e16d8739d780a1cad40ab96992ee3",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/d4-feedback-paid46-review/RESULT.json",
+      "sha256": "620c1de91b2e410515c34e83b925ca7647053bc5af0cda5e3f8f6f537b6d3148",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/y-skeleton-control/OLD-WORD.json",
+      "sha256": "8ccbe6b77cccd404e529a86eb073eada9094fe647db4909a30a2ef29235975be",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/y-skeleton-control/RESET-WORD.json",
+      "sha256": "82753e515ed84953f3807cb3614e4ed29d583d852e4fb7ba223f68cc56a52c7a",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/y-skeleton-control/UNPREPARED-WORD.json",
+      "sha256": "c6c5fe7507485216da0bcb651aff9eb08025106b9188dc5f8109e053ffd3e57e",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/y-skeleton-control/LATE-PRELOAD-NEGATIVE.json",
+      "sha256": "c20154cc0daee8cce5d9aca207e5fefcace25e00b138f64d5f759f1dcbe00227",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/y-skeleton-control/RESULT.json",
+      "sha256": "2f3adac30b913ddeb8de432c87ca59a66ea32d3c9067573ba06d31f534a3248f",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/y-skeleton-review/RESULT.json",
+      "sha256": "128fc0d0c49f38c1c0e8f792cb08bfe0138d757d0474a28f40d6aa2896b4c501",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/active-first-gate/RESULT.json",
+      "sha256": "500a012efa0b02238474800f1b8159248f6b56d9d666ff4f2ae72c3d98a678d3",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/B/ACTIVE-FIRST-INDEPENDENT-REVIEW.json",
+      "sha256": "8965852e60602ee76e9074122c0b8a0c29cdcbd3365f2a2f591eefd64aeb6461",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/B/MIDDLE-PIVOT-ALL-ORDINARY-RESULT.json",
+      "sha256": "dfb722315902fb6a2d4f1dac51d2b26f1bd47defa014223b4344ca5c2cea7afc",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/middle-pivot-review/RESULT.json",
+      "sha256": "934edee9f15a2f1630ece1fea0209094e240bc054b41407d3592b73b381bca10",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/noncommuting-compiler/control/RESULT.json",
+      "sha256": "8ae1520ddf1a7b4df4f78c2015c5861e7a7fefcc0b7b67db275fd8c880985a8b",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/noncommuting-compiler/control/EXAMPLE-WORD.json",
+      "sha256": "1b09448f5c8121c3160b7bc9db9c54076a9f5d9d317fd2bea9485eea452ee57f",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/noncommuting-compiler/control/EXAMPLE-INVERSE-WORD.json",
+      "sha256": "b9efaf869029ca7d0dd096b8f5022c4cbb620cff0d36b261d821a455083566e7",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/noncommuting-compiler/control/GENERAL-WORD.json",
+      "sha256": "8af896d0f46c0dde492bcb8c826ace44f3f8e0cfbb5755d7111f45c783e8a63f",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/R/noncommuting-compiler/control/GENERAL-INVERSE-WORD.json",
+      "sha256": "d8c8dfa4c14a8bc2c518708a16d3f0dae2d7957eca5e9f0f88e8ec9fb71751f7",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/noncommuting-compiler-review/RESULT.json",
+      "sha256": "663d4a4c537bfdc6a7379b3040dc2e7cae62009f3f640cfaff9f1dc05642fc42",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint3-evidence/C/noncommuting-compiler-review/GAUSSIAN-CONTROL-WORD.json",
+      "sha256": "4f8ad9fb7cc94e8ed46494339c0c1db7dfad2eeaa75f06f3129fc52a082e8990",
+      "byte_identical": true
+    }
+  ],
+  "scope": "Universal proofs separately reviewed. Native all222-column words, exact custody and geometry, full partial invoices, literal complex phases, all-width algebraic certificates and paid ordinary words checked. No complete supplier or new kappa."
+}
