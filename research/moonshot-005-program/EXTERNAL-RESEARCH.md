@@ -384,3 +384,7 @@ At06:26:24UTC, main remains e54523517d0f03e58352e647c403a5af3e525a57. Targeted P
 ## S017 checkpoint2 compatibility
 
 No new upstream revision is asserted since the06:26:24UTC reconnaissance. Canonical source pins remain unchanged. The new literal-source and complex-interface results are internal programme advances and do not alter the selected conditional certificate. Current proper-birth information must be reaudited before importing any earlier source-bank or closure theorem.
+
+## S018 startup — unchanged canonical source, new metadata-only common-U lead
+
+Canonical main remains`e54523517d0f03e58352e647c403a5af3e525a57`, selected conditional κ363005817/10^11. Targeted startup evidence is in sessions/2026-11-16-S018/UPSTREAM-RECONNAISSANCE.json. [CrocSwap/integer-mult-bounds#7627](https://github.com/CrocSwap/integer-mult-bounds/pull/7627), source head`f9bdd00d3869ef6e82227a9acf4633f102540f54`, advertises conditional κ≥0.003665731276 over#7626 under a common-U premise. This session inspected metadata/body, not a complete source certificate or universal supplier. It is not accepted here, does not fill the programme's missing strict U>1/200 interface, and changes neither the canonical selected certificate nor the programme's proof status. The older#7626 lead remains separately labelled. No discussion or PR was posted.

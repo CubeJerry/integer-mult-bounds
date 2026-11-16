@@ -272,3 +272,7 @@ Six mathematical functions were freshly executed in cloud V8 and matched frozen 
 Use the exact Node commands in each new README: star-degree-four-rigidity, bit-wing-two-star-gap, complex-common-cubic-head and bit-piggyback-fork-composition. Each author and independent function actually ran in cloud V8. The fork author replay rebuilds frozen words and compares all222-column receipts; its independent checker reads authenticated frozen words, uses rational chart bases and rederives the invoice. Expected counts and statuses are frozen in the review receipts. Local filesystem wrappers are provided but were not executed after the outage.
 
 The common-head check requires the pinned canonical-control proof. Wing and fork checks use the admitted flat-cubic certificate or exact root-recovery JSON, with the published recovery qualification. General all-width proof statements are established in the written arguments, not inferred from finite tests.
+
+## S018 checkpoint1
+
+Run the12-command packaged reproduction in [sessions/2026-11-16-S018/REPRODUCE.md](sessions/2026-11-16-S018/REPRODUCE.md). It rebuilds three native words and checks15 byte-identical outputs, exact source interfaces, formal mask propagation, prices, simultaneous restoration controls and the literal complex ordered product. Written universal reviews remain separate proof evidence.

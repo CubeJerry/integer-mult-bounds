@@ -2083,3 +2083,15 @@ Fourteen commands and19 byte-identical artifacts; eight scoped propositions regi
 ## S017 inventory correction — 2026-11-16T09:11:32Z
 
 The checkpoint5 supplementary inventory omitted C2 records although C2=M1 geometrically. Two independent reviews give actual final-live M1 rank13, not8; canonical intersection0→3, all words, prices and endpoints remain unchanged. The immutable original files are qualified by [the correction](results/bit-semantic-chart-inventory/ADMISSION.md). Both new results reproduce byte-for-byte. No new complete κ.
+
+## 2026-11-16 S018 checkpoint1 — source release and complete coherent-diagonal gate
+
+Started12:00:55UTC from programme `9ba6deb5211d55d8a07153f24caf3090403e5617`; requested five-hour supported planning window through17:00:55UTC. Remote canonical main remains`e54523517d0f03e58352e647c403a5af3e525a57`, selected conditional κ363005817/10^11. S017's uncommitted carrier lead was recovered as unfinished rather than assumed proved.
+
+Three concurrent workers continue the same architecture. C proves protected multi-coordinate projection and constructs73 released raw native carriers with46 endpoints and identical ground rank25. A proves actual raw111-Hub availability by ten paid stationary snapshots and the universal six-first-retention family with nine charged repairs. Root proves the exact simultaneous-carrier restoration criterion, independently reviewed by C over the universal argument and8276 finite controls. B proves the full stated coherent-R/diagonal-Q exclusion, including conditional first pivots, and gives an actual non-diagonal projector escape from its propagation lemma. Root separately reconstructs source/geometry/ordered products and reviews all new proofs.
+
+Twelve packaged commands pass, with15 byte-identical rebuilt evidence files. Three native words have all222 columns, actual rational geometry, restored originals, arbitrary initial Y preservation, lifetimes and complete movement prices. Formal independent masks prove the666-bit family with228 columns. New source gates are explicit:73-native and111-Hub freedoms are incompatible without physical acquisition; former M1 imports vanish after projection. Old higher histories are not inherited.
+
+Relevant upstream PR7627 is recorded at source headf9bdd00d3869ef6e82227a9acf4633f102540f54 as metadata-only common-U conditional work; no source replay, mathematical admission or selected-frontier change is inferred. No messages or upstream PR were posted.
+
+This checkpoint's parent is the startingSHA above; resulting remoteSHA is recorded only after confirmation in a separate receipt. Session remains active. Next: actual many-receiver shared corrections with source-preserving carrier pruning/conduits and simultaneous restoration, and genuinely non-diagonal complex421. No new complete κ; no strict supplier or foundational discharge; not PR-ready.

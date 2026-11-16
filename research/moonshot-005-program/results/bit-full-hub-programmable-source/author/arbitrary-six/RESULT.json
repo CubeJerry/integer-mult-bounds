@@ -1,0 +1,713 @@
+{
+  "status": "PASS_ARBITRARY_SIX_FIRST_RETENTIONS",
+  "word_sha256": "6a5348136b370992b8175016182d36c4e16a9feee626ccdd0e4ce86d46c8cb27",
+  "base_sha256": "da54215a2eb4744089bbed49fcb723b8d79a1da1295841398b84e3544d9a13b2",
+  "representative_canonical_roots": [
+    5,
+    13,
+    14,
+    15,
+    17,
+    18
+  ],
+  "canonical_rank": 6,
+  "before": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 137,
+      "ADD": 829,
+      "MOVE": 481,
+      "CLEAR": 137
+    },
+    "movement_profile": {
+      "1": 185,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 72,
+      "6": 22,
+      "7": 93
+    },
+    "dirty_CLEAR": 137,
+    "peak_owned": 137,
+    "historical_record_states": 1669
+  },
+  "after": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 146,
+      "ADD": 1722,
+      "MOVE": 490,
+      "CLEAR": 146
+    },
+    "movement_profile": {
+      "1": 194,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 72,
+      "6": 22,
+      "7": 93
+    },
+    "dirty_CLEAR": 146,
+    "peak_owned": 146,
+    "historical_record_states": 2580
+  },
+  "family_dimension_bits": 666,
+  "new_owners": 9,
+  "new_MOVEs": 9,
+  "new_ADDs": 893,
+  "family_ADD_upper_bound": 1674,
+  "retentions": [
+    {
+      "packet": "P0",
+      "field": "KEEP_C0",
+      "chart": "M0",
+      "old_row_hex": "0x66683cccce59caa",
+      "new_row_hex": "0xfffffff80000003fffffff",
+      "mask_hex": "0xfffffffe6683ccf31a6355",
+      "donors": [
+        "X0",
+        "X2",
+        "X4",
+        "X6",
+        "X8",
+        "X9",
+        "X13",
+        "X14",
+        "X17",
+        "X19",
+        "X20",
+        "X24",
+        "X25",
+        "X28",
+        "X29",
+        "X30",
+        "X31",
+        "X34",
+        "X35",
+        "X38",
+        "X39",
+        "X40",
+        "X41",
+        "X47",
+        "X49",
+        "X50",
+        "X53",
+        "X54",
+        "X57",
+        "X58",
+        "X59",
+        "X60",
+        "X61",
+        "X62",
+        "X63",
+        "X64",
+        "X65",
+        "X66",
+        "X67",
+        "X68",
+        "X69",
+        "X70",
+        "X71",
+        "X72",
+        "X73",
+        "X74",
+        "X75",
+        "X76",
+        "X77",
+        "X78",
+        "X79",
+        "X80",
+        "X81",
+        "X82",
+        "X83",
+        "X84",
+        "X85",
+        "X86",
+        "X87"
+      ],
+      "readers": [
+        3,
+        21
+      ],
+      "owners": [
+        "ARBITRARY_P0_REPAIR3",
+        "ARBITRARY_P0_REPAIR21"
+      ]
+    },
+    {
+      "packet": "P1",
+      "field": "KEEP_C1",
+      "chart": "M0",
+      "old_row_hex": "0x500003021381266603c0c0c198a0",
+      "new_row_hex": "0x7faacc5667331aa1e970d68f3569",
+      "mask_hex": "0x2faacf5474b23cc7eab0164eadc9",
+      "donors": [
+        "X0",
+        "X3",
+        "X6",
+        "X7",
+        "X8",
+        "X10",
+        "X11",
+        "X13",
+        "X15",
+        "X17",
+        "X18",
+        "X19",
+        "X22",
+        "X25",
+        "X26",
+        "X28",
+        "X36",
+        "X37",
+        "X39",
+        "X41",
+        "X43",
+        "X45",
+        "X46",
+        "X47",
+        "X48",
+        "X49",
+        "X50",
+        "X54",
+        "X55",
+        "X58",
+        "X59",
+        "X60",
+        "X61",
+        "X65",
+        "X68",
+        "X69",
+        "X71",
+        "X74",
+        "X76",
+        "X77",
+        "X78",
+        "X82",
+        "X84",
+        "X86",
+        "X88",
+        "X89",
+        "X90",
+        "X91",
+        "X94",
+        "X95",
+        "X97",
+        "X99",
+        "X101",
+        "X103",
+        "X104",
+        "X105",
+        "X106",
+        "X107",
+        "X109"
+      ],
+      "readers": [
+        76,
+        64
+      ],
+      "owners": [
+        "ARBITRARY_P1_REPAIR76",
+        "ARBITRARY_P1_REPAIR64"
+      ]
+    },
+    {
+      "packet": "P2",
+      "field": "KEEP_C2",
+      "chart": "M0",
+      "old_row_hex": "0x5003031001a066603c0c0c198a0",
+      "new_row_hex": "0x557fcccccd9b2666bc33331a5caa",
+      "mask_hex": "0x507ffcfdcd812000bff3f3dbc40a",
+      "donors": [
+        "X1",
+        "X3",
+        "X10",
+        "X14",
+        "X15",
+        "X16",
+        "X17",
+        "X19",
+        "X20",
+        "X22",
+        "X23",
+        "X24",
+        "X25",
+        "X28",
+        "X29",
+        "X30",
+        "X31",
+        "X32",
+        "X33",
+        "X36",
+        "X37",
+        "X38",
+        "X39",
+        "X40",
+        "X41",
+        "X42",
+        "X43",
+        "X44",
+        "X45",
+        "X47",
+        "X61",
+        "X64",
+        "X71",
+        "X72",
+        "X74",
+        "X75",
+        "X78",
+        "X79",
+        "X80",
+        "X82",
+        "X83",
+        "X84",
+        "X85",
+        "X86",
+        "X87",
+        "X90",
+        "X91",
+        "X92",
+        "X93",
+        "X94",
+        "X95",
+        "X96",
+        "X97",
+        "X98",
+        "X99",
+        "X100",
+        "X101",
+        "X102",
+        "X108",
+        "X110"
+      ],
+      "readers": [
+        80,
+        65
+      ],
+      "owners": [
+        "ARBITRARY_P2_REPAIR80",
+        "ARBITRARY_P2_REPAIR65"
+      ]
+    },
+    {
+      "packet": "P3",
+      "field": "ZFIRST3",
+      "chart": "M1",
+      "old_row_hex": "0x2aff00cc0000d8097c0033000015",
+      "new_row_hex": "0x2affcc33339b21997c330ce59caa",
+      "mask_hex": "0xccff339bf99000333fe59cbf",
+      "donors": [
+        "X0",
+        "X1",
+        "X2",
+        "X3",
+        "X4",
+        "X5",
+        "X7",
+        "X10",
+        "X11",
+        "X12",
+        "X15",
+        "X16",
+        "X18",
+        "X21",
+        "X22",
+        "X23",
+        "X24",
+        "X25",
+        "X26",
+        "X27",
+        "X28",
+        "X29",
+        "X32",
+        "X33",
+        "X36",
+        "X37",
+        "X52",
+        "X55",
+        "X56",
+        "X59",
+        "X60",
+        "X61",
+        "X62",
+        "X63",
+        "X64",
+        "X65",
+        "X67",
+        "X68",
+        "X71",
+        "X72",
+        "X73",
+        "X76",
+        "X77",
+        "X80",
+        "X81",
+        "X82",
+        "X83",
+        "X84",
+        "X85",
+        "X86",
+        "X87",
+        "X90",
+        "X91",
+        "X94",
+        "X95"
+      ],
+      "readers": [
+        4
+      ],
+      "owners": [
+        "ARBITRARY_P3_REPAIR4"
+      ]
+    },
+    {
+      "packet": "P4",
+      "field": "ZFIRST4",
+      "chart": "M1",
+      "old_row_hex": "0x2f00cc0046051917c0330026005",
+      "new_row_hex": "0x2aff3332cc6726697c0cccda63aa",
+      "mask_hex": "0x280f3ff2c80777f8000ffcd803af",
+      "donors": [
+        "X0",
+        "X1",
+        "X2",
+        "X3",
+        "X5",
+        "X7",
+        "X8",
+        "X9",
+        "X19",
+        "X20",
+        "X22",
+        "X23",
+        "X26",
+        "X27",
+        "X28",
+        "X29",
+        "X30",
+        "X31",
+        "X32",
+        "X33",
+        "X34",
+        "X35",
+        "X51",
+        "X52",
+        "X53",
+        "X54",
+        "X55",
+        "X56",
+        "X57",
+        "X58",
+        "X60",
+        "X61",
+        "X62",
+        "X64",
+        "X65",
+        "X66",
+        "X75",
+        "X78",
+        "X79",
+        "X81",
+        "X84",
+        "X85",
+        "X86",
+        "X87",
+        "X88",
+        "X89",
+        "X90",
+        "X91",
+        "X92",
+        "X93",
+        "X96",
+        "X97",
+        "X98",
+        "X99",
+        "X107",
+        "X109"
+      ],
+      "readers": [
+        74
+      ],
+      "owners": [
+        "ARBITRARY_P4_REPAIR74"
+      ]
+    },
+    {
+      "packet": "P5",
+      "field": "ZFIRST5",
+      "chart": "M1",
+      "old_row_hex": "0x280fc00c400489917c0330026005",
+      "new_row_hex": "0x557f3332cd98de6943f33325a3aa",
+      "mask_hex": "0x7d70f33e8d9c57f83ff00327c3af",
+      "donors": [
+        "X0",
+        "X1",
+        "X2",
+        "X3",
+        "X5",
+        "X7",
+        "X8",
+        "X9",
+        "X14",
+        "X15",
+        "X16",
+        "X17",
+        "X18",
+        "X21",
+        "X24",
+        "X25",
+        "X36",
+        "X37",
+        "X38",
+        "X39",
+        "X40",
+        "X41",
+        "X42",
+        "X43",
+        "X44",
+        "X45",
+        "X51",
+        "X52",
+        "X53",
+        "X54",
+        "X55",
+        "X56",
+        "X57",
+        "X58",
+        "X60",
+        "X62",
+        "X66",
+        "X67",
+        "X68",
+        "X71",
+        "X72",
+        "X74",
+        "X75",
+        "X79",
+        "X81",
+        "X82",
+        "X83",
+        "X84",
+        "X85",
+        "X88",
+        "X89",
+        "X92",
+        "X93",
+        "X94",
+        "X95",
+        "X100",
+        "X101",
+        "X102",
+        "X104",
+        "X106",
+        "X107",
+        "X108",
+        "X109",
+        "X110"
+      ],
+      "readers": [
+        78
+      ],
+      "owners": [
+        "ARBITRARY_P5_REPAIR78"
+      ]
+    }
+  ],
+  "boundary_controls": [
+    "all_zero",
+    "all_ones",
+    "held_raw",
+    "equal_unfinished"
+  ],
+  "omission_controls": [
+    {
+      "omitted": [
+        "MOVE",
+        "ARBITRARY_P0_REPAIR3",
+        "F3"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "ADD",
+        "ARBITRARY_P0_REPAIR3",
+        "Y3"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "CLEAR",
+        "ARBITRARY_P0_REPAIR3"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "ADD",
+        "X0",
+        "ARBITRARY_P0_REPAIR3"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "MOVE",
+        "ARBITRARY_P1_REPAIR76",
+        "F76"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "ADD",
+        "ARBITRARY_P1_REPAIR76",
+        "Y76"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "CLEAR",
+        "ARBITRARY_P1_REPAIR76"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "ADD",
+        "X0",
+        "ARBITRARY_P1_REPAIR76"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "MOVE",
+        "ARBITRARY_P2_REPAIR80",
+        "F80"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "ADD",
+        "ARBITRARY_P2_REPAIR80",
+        "Y80"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "CLEAR",
+        "ARBITRARY_P2_REPAIR80"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "ADD",
+        "X1",
+        "ARBITRARY_P2_REPAIR80"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "MOVE",
+        "ARBITRARY_P3_REPAIR4",
+        "F4"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "ADD",
+        "ARBITRARY_P3_REPAIR4",
+        "Y4"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "CLEAR",
+        "ARBITRARY_P3_REPAIR4"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "ADD",
+        "X0",
+        "ARBITRARY_P3_REPAIR4"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "MOVE",
+        "ARBITRARY_P4_REPAIR74",
+        "F74"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "ADD",
+        "ARBITRARY_P4_REPAIR74",
+        "Y74"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "CLEAR",
+        "ARBITRARY_P4_REPAIR74"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "ADD",
+        "X0",
+        "ARBITRARY_P4_REPAIR74"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "MOVE",
+        "ARBITRARY_P5_REPAIR78",
+        "F78"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "ADD",
+        "ARBITRARY_P5_REPAIR78",
+        "Y78"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "CLEAR",
+        "ARBITRARY_P5_REPAIR78"
+      ],
+      "rejected": true
+    },
+    {
+      "omitted": [
+        "ADD",
+        "X0",
+        "ARBITRARY_P5_REPAIR78"
+      ],
+      "rejected": true
+    }
+  ],
+  "claim_scope": "Any six binary111 rows are actual first retentions in the stated M0/M1 fields with all46 old endpoints and all originals restored. All9 receiver repairs are paid. Source family only, no complete supplier."
+}

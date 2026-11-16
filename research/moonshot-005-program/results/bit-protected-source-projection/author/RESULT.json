@@ -1,0 +1,6512 @@
+{
+  "status": "PASS_PROTECTED_PROJECTION_ORIGINAL_CARRIER_RELEASE",
+  "base_word_sha256": "27dc6c36eec067acd2fe4679a81c95ea9db8fd6377784a0bbfc060ca52a121fd",
+  "word_sha256": "01f93ac753a468829921a7a41fc4f49122c6e94e5a1ede0b2352459de13fca80",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "released_carriers": [
+    0,
+    2,
+    5,
+    8,
+    9,
+    13,
+    14,
+    15,
+    17,
+    18,
+    20,
+    24,
+    25,
+    26,
+    28,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    44,
+    47,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    62,
+    63,
+    66,
+    68,
+    69,
+    70,
+    71,
+    72,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "protected_backups": {
+    "0": "ZRAW0",
+    "2": "COMMON_RAW2",
+    "8": "ADDED_RAW8",
+    "9": "ADDED_RAW9",
+    "20": "DIRECT_RAW20",
+    "28": "ZRAW28",
+    "36": "ADDED_RAW36",
+    "37": "ADDED_RAW37",
+    "44": "ZRAW44",
+    "50": "ADDED_RAW50"
+  },
+  "before": {
+    "counts": {
+      "INIT": 127,
+      "ADD": 819,
+      "MOVE": 481,
+      "CLEAR": 127
+    },
+    "movement_profile": {
+      "1": 185,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 72,
+      "6": 22,
+      "7": 93
+    },
+    "dirty_CLEAR": 127,
+    "peak_owned": 127,
+    "all_222_endpoints": true
+  },
+  "after": {
+    "counts": {
+      "INIT": 127,
+      "ADD": 443,
+      "MOVE": 375,
+      "CLEAR": 127
+    },
+    "movement_profile": {
+      "1": 113,
+      "2": 18,
+      "3": 40,
+      "4": 5,
+      "5": 23,
+      "6": 12,
+      "7": 164
+    },
+    "dirty_CLEAR": 94,
+    "peak_owned": 127,
+    "all_222_endpoints": true
+  },
+  "target_count": 46,
+  "covariant_actual_state_comparisons": 241109,
+  "carrier_interface_before_operation": 872,
+  "carrier_interface": {
+    "X0": {
+      "row_hex": "0x1",
+      "chart": "L0"
+    },
+    "X2": {
+      "row_hex": "0x4",
+      "chart": "L2"
+    },
+    "X5": {
+      "row_hex": "0x20",
+      "chart": "L5"
+    },
+    "X8": {
+      "row_hex": "0x100",
+      "chart": "L8"
+    },
+    "X9": {
+      "row_hex": "0x200",
+      "chart": "L9"
+    },
+    "X13": {
+      "row_hex": "0x2000",
+      "chart": "L13"
+    },
+    "X14": {
+      "row_hex": "0x4000",
+      "chart": "L14"
+    },
+    "X15": {
+      "row_hex": "0x8000",
+      "chart": "L15"
+    },
+    "X17": {
+      "row_hex": "0x20000",
+      "chart": "L17"
+    },
+    "X18": {
+      "row_hex": "0x40000",
+      "chart": "L18"
+    },
+    "X20": {
+      "row_hex": "0x100000",
+      "chart": "L20"
+    },
+    "X24": {
+      "row_hex": "0x1000000",
+      "chart": "L24"
+    },
+    "X25": {
+      "row_hex": "0x2000000",
+      "chart": "L25"
+    },
+    "X26": {
+      "row_hex": "0x4000000",
+      "chart": "L26"
+    },
+    "X28": {
+      "row_hex": "0x10000000",
+      "chart": "L28"
+    },
+    "X31": {
+      "row_hex": "0x80000000",
+      "chart": "L31"
+    },
+    "X32": {
+      "row_hex": "0x100000000",
+      "chart": "L32"
+    },
+    "X33": {
+      "row_hex": "0x200000000",
+      "chart": "L33"
+    },
+    "X34": {
+      "row_hex": "0x400000000",
+      "chart": "L34"
+    },
+    "X35": {
+      "row_hex": "0x800000000",
+      "chart": "L35"
+    },
+    "X36": {
+      "row_hex": "0x1000000000",
+      "chart": "L36"
+    },
+    "X37": {
+      "row_hex": "0x2000000000",
+      "chart": "L37"
+    },
+    "X44": {
+      "row_hex": "0x100000000000",
+      "chart": "L44"
+    },
+    "X47": {
+      "row_hex": "0x800000000000",
+      "chart": "L47"
+    },
+    "X50": {
+      "row_hex": "0x4000000000000",
+      "chart": "L50"
+    },
+    "X51": {
+      "row_hex": "0x8000000000000",
+      "chart": "L51"
+    },
+    "X52": {
+      "row_hex": "0x10000000000000",
+      "chart": "L52"
+    },
+    "X53": {
+      "row_hex": "0x20000000000000",
+      "chart": "L53"
+    },
+    "X54": {
+      "row_hex": "0x40000000000000",
+      "chart": "L54"
+    },
+    "X55": {
+      "row_hex": "0x80000000000000",
+      "chart": "L55"
+    },
+    "X56": {
+      "row_hex": "0x100000000000000",
+      "chart": "L56"
+    },
+    "X57": {
+      "row_hex": "0x200000000000000",
+      "chart": "L57"
+    },
+    "X58": {
+      "row_hex": "0x400000000000000",
+      "chart": "L58"
+    },
+    "X59": {
+      "row_hex": "0x800000000000000",
+      "chart": "L59"
+    },
+    "X60": {
+      "row_hex": "0x1000000000000000",
+      "chart": "L60"
+    },
+    "X62": {
+      "row_hex": "0x4000000000000000",
+      "chart": "L62"
+    },
+    "X63": {
+      "row_hex": "0x8000000000000000",
+      "chart": "L63"
+    },
+    "X66": {
+      "row_hex": "0x40000000000000000",
+      "chart": "L66"
+    },
+    "X68": {
+      "row_hex": "0x100000000000000000",
+      "chart": "L68"
+    },
+    "X69": {
+      "row_hex": "0x200000000000000000",
+      "chart": "L69"
+    },
+    "X70": {
+      "row_hex": "0x400000000000000000",
+      "chart": "L70"
+    },
+    "X71": {
+      "row_hex": "0x800000000000000000",
+      "chart": "L71"
+    },
+    "X72": {
+      "row_hex": "0x1000000000000000000",
+      "chart": "L72"
+    },
+    "X81": {
+      "row_hex": "0x200000000000000000000",
+      "chart": "L81"
+    },
+    "X82": {
+      "row_hex": "0x400000000000000000000",
+      "chart": "L82"
+    },
+    "X83": {
+      "row_hex": "0x800000000000000000000",
+      "chart": "L83"
+    },
+    "X84": {
+      "row_hex": "0x1000000000000000000000",
+      "chart": "L84"
+    },
+    "X85": {
+      "row_hex": "0x2000000000000000000000",
+      "chart": "L85"
+    },
+    "X86": {
+      "row_hex": "0x4000000000000000000000",
+      "chart": "L86"
+    },
+    "X87": {
+      "row_hex": "0x8000000000000000000000",
+      "chart": "L87"
+    },
+    "X88": {
+      "row_hex": "0x10000000000000000000000",
+      "chart": "L88"
+    },
+    "X89": {
+      "row_hex": "0x20000000000000000000000",
+      "chart": "L89"
+    },
+    "X90": {
+      "row_hex": "0x40000000000000000000000",
+      "chart": "L90"
+    },
+    "X91": {
+      "row_hex": "0x80000000000000000000000",
+      "chart": "L91"
+    },
+    "X92": {
+      "row_hex": "0x100000000000000000000000",
+      "chart": "L92"
+    },
+    "X93": {
+      "row_hex": "0x200000000000000000000000",
+      "chart": "L93"
+    },
+    "X94": {
+      "row_hex": "0x400000000000000000000000",
+      "chart": "L94"
+    },
+    "X95": {
+      "row_hex": "0x800000000000000000000000",
+      "chart": "L95"
+    },
+    "X96": {
+      "row_hex": "0x1000000000000000000000000",
+      "chart": "L96"
+    },
+    "X97": {
+      "row_hex": "0x2000000000000000000000000",
+      "chart": "L97"
+    },
+    "X98": {
+      "row_hex": "0x4000000000000000000000000",
+      "chart": "L98"
+    },
+    "X99": {
+      "row_hex": "0x8000000000000000000000000",
+      "chart": "L99"
+    },
+    "X100": {
+      "row_hex": "0x10000000000000000000000000",
+      "chart": "L100"
+    },
+    "X101": {
+      "row_hex": "0x20000000000000000000000000",
+      "chart": "L101"
+    },
+    "X102": {
+      "row_hex": "0x40000000000000000000000000",
+      "chart": "L102"
+    },
+    "X103": {
+      "row_hex": "0x80000000000000000000000000",
+      "chart": "L103"
+    },
+    "X104": {
+      "row_hex": "0x100000000000000000000000000",
+      "chart": "L104"
+    },
+    "X105": {
+      "row_hex": "0x200000000000000000000000000",
+      "chart": "L105"
+    },
+    "X106": {
+      "row_hex": "0x400000000000000000000000000",
+      "chart": "L106"
+    },
+    "X107": {
+      "row_hex": "0x800000000000000000000000000",
+      "chart": "L107"
+    },
+    "X108": {
+      "row_hex": "0x1000000000000000000000000000",
+      "chart": "L108"
+    },
+    "X109": {
+      "row_hex": "0x2000000000000000000000000000",
+      "chart": "L109"
+    },
+    "X110": {
+      "row_hex": "0x4000000000000000000000000000",
+      "chart": "L110"
+    }
+  },
+  "other_originals_raw_at_Hub": 38,
+  "all10_protected_backups_raw_at_ground": true,
+  "actual_common_source_rank_before": 25,
+  "actual_common_source_rank_after": 25,
+  "actual_common_source_rowspace_identical": true,
+  "uncompleted_mutable_originals_not_released": [
+    61,
+    67
+  ],
+  "actual_source_cuts": [
+    {
+      "packet": "P0",
+      "cut": "before first actual Hub source ADD",
+      "new_operation_index": 381,
+      "actual_Hub_original_count": 29,
+      "actual_Hub_original_rank": 29,
+      "actual_Hub_originals_all_raw": false,
+      "held_nonreleased_originals": {
+        "X1": {
+          "chart": "F21",
+          "row_hex": "0x8000408"
+        },
+        "X6": {
+          "chart": "F4",
+          "row_hex": "0x40"
+        },
+        "X21": {
+          "chart": "F3",
+          "row_hex": "0x8200402"
+        },
+        "X64": {
+          "chart": "F76",
+          "row_hex": "0x2012000000000000000"
+        },
+        "X65": {
+          "chart": "F80",
+          "row_hex": "0x200a0000000000000000"
+        },
+        "X73": {
+          "chart": "F64",
+          "row_hex": "0x10002000000000000000"
+        },
+        "X75": {
+          "chart": "F74",
+          "row_hex": "0x8000000000000000000"
+        },
+        "X77": {
+          "chart": "F65",
+          "row_hex": "0x100080000000000000000"
+        },
+        "X79": {
+          "chart": "F78",
+          "row_hex": "0x80000000000000000000"
+        }
+      },
+      "released_originals_still_raw_native": true
+    },
+    {
+      "packet": "P1",
+      "cut": "before first actual Hub source ADD",
+      "new_operation_index": 432,
+      "actual_Hub_original_count": 31,
+      "actual_Hub_original_rank": 31,
+      "actual_Hub_originals_all_raw": false,
+      "held_nonreleased_originals": {
+        "X6": {
+          "chart": "F4",
+          "row_hex": "0x40"
+        },
+        "X64": {
+          "chart": "F76",
+          "row_hex": "0x2012000000000000000"
+        },
+        "X65": {
+          "chart": "F80",
+          "row_hex": "0x200a0000000000000000"
+        },
+        "X73": {
+          "chart": "F64",
+          "row_hex": "0x10002000000000000000"
+        },
+        "X75": {
+          "chart": "F74",
+          "row_hex": "0x8000000000000000000"
+        },
+        "X77": {
+          "chart": "F65",
+          "row_hex": "0x100080000000000000000"
+        },
+        "X79": {
+          "chart": "F78",
+          "row_hex": "0x80000000000000000000"
+        }
+      },
+      "released_originals_still_raw_native": true
+    },
+    {
+      "packet": "P2",
+      "cut": "before first actual Hub source ADD",
+      "new_operation_index": 485,
+      "actual_Hub_original_count": 33,
+      "actual_Hub_original_rank": 33,
+      "actual_Hub_originals_all_raw": false,
+      "held_nonreleased_originals": {
+        "X6": {
+          "chart": "F4",
+          "row_hex": "0x40"
+        },
+        "X65": {
+          "chart": "F80",
+          "row_hex": "0x200a0000000000000000"
+        },
+        "X75": {
+          "chart": "F74",
+          "row_hex": "0x8000000000000000000"
+        },
+        "X77": {
+          "chart": "F65",
+          "row_hex": "0x100080000000000000000"
+        },
+        "X79": {
+          "chart": "F78",
+          "row_hex": "0x80000000000000000000"
+        }
+      },
+      "released_originals_still_raw_native": true
+    },
+    {
+      "packet": "P3",
+      "cut": "before first actual Hub source ADD",
+      "new_operation_index": 543,
+      "actual_Hub_original_count": 35,
+      "actual_Hub_original_rank": 35,
+      "actual_Hub_originals_all_raw": true,
+      "held_nonreleased_originals": {
+        "X6": {
+          "chart": "F4",
+          "row_hex": "0x40"
+        },
+        "X75": {
+          "chart": "F74",
+          "row_hex": "0x8000000000000000000"
+        },
+        "X79": {
+          "chart": "F78",
+          "row_hex": "0x80000000000000000000"
+        }
+      },
+      "released_originals_still_raw_native": true
+    },
+    {
+      "packet": "P4",
+      "cut": "before first actual Hub source ADD",
+      "new_operation_index": 583,
+      "actual_Hub_original_count": 36,
+      "actual_Hub_original_rank": 36,
+      "actual_Hub_originals_all_raw": true,
+      "held_nonreleased_originals": {
+        "X75": {
+          "chart": "F74",
+          "row_hex": "0x8000000000000000000"
+        },
+        "X79": {
+          "chart": "F78",
+          "row_hex": "0x80000000000000000000"
+        }
+      },
+      "released_originals_still_raw_native": true
+    },
+    {
+      "packet": "P5",
+      "cut": "before first actual Hub source ADD",
+      "new_operation_index": 622,
+      "actual_Hub_original_count": 37,
+      "actual_Hub_original_rank": 37,
+      "actual_Hub_originals_all_raw": true,
+      "held_nonreleased_originals": {
+        "X79": {
+          "chart": "F78",
+          "row_hex": "0x80000000000000000000"
+        }
+      },
+      "released_originals_still_raw_native": true
+    }
+  ],
+  "actual_open_interface_M1_fields": {
+    "IMPORT_E8": "0x0",
+    "IMPORT_E9": "0x0",
+    "IMPORT_E36": "0x0",
+    "CAP2942": "0x40020000000",
+    "CAP46": "0x480000000000",
+    "ZFIRST3": "0x16c0020000010",
+    "ZFIRST4": "0x40000016c0020000000",
+    "ZFIRST5": "0x400000016c0020000000",
+    "H6_0": "0x16c0000000000",
+    "H6_1": "0x1440020000000",
+    "H6_2": "0x2c0020000000",
+    "H6_3": "0x600000000000",
+    "Q2": "0x16c0020000000"
+  },
+  "actual_open_interface_M1_rank": 8,
+  "actual_open_interface_owned_rank": 45,
+  "actual_open_interface_nonprotected_owned_rank": 35,
+  "old_imports": {
+    "IMPORT_E8": "0x100",
+    "IMPORT_E9": "0x200",
+    "IMPORT_E36": "0x1000000000"
+  },
+  "new_imports": {
+    "IMPORT_E8": "0x0",
+    "IMPORT_E9": "0x0",
+    "IMPORT_E36": "0x0"
+  },
+  "removed_operations": [
+    {
+      "index": 166,
+      "operation": [
+        "MOVE",
+        "X5",
+        "SH2"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 167,
+      "operation": [
+        "ADD",
+        "X5",
+        "SHARED"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 168,
+      "operation": [
+        "MOVE",
+        "X5",
+        "C0"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 169,
+      "operation": [
+        "ADD",
+        "X5",
+        "H1_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 170,
+      "operation": [
+        "ADD",
+        "X5",
+        "Q0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 171,
+      "operation": [
+        "MOVE",
+        "X5",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 193,
+      "operation": [
+        "MOVE",
+        "X15",
+        "SH2"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 194,
+      "operation": [
+        "ADD",
+        "X15",
+        "SHARED"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 195,
+      "operation": [
+        "MOVE",
+        "X15",
+        "C0"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 196,
+      "operation": [
+        "ADD",
+        "X15",
+        "H1_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 197,
+      "operation": [
+        "ADD",
+        "X15",
+        "Q0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 198,
+      "operation": [
+        "MOVE",
+        "X15",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 223,
+      "operation": [
+        "MOVE",
+        "X31",
+        "J16"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 224,
+      "operation": [
+        "ADD",
+        "X31",
+        "PRIVATE16"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 225,
+      "operation": [
+        "MOVE",
+        "X31",
+        "C0"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 226,
+      "operation": [
+        "ADD",
+        "X31",
+        "H1_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 227,
+      "operation": [
+        "ADD",
+        "X31",
+        "Hnew1_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 228,
+      "operation": [
+        "ADD",
+        "X31",
+        "Q0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 229,
+      "operation": [
+        "MOVE",
+        "X31",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 267,
+      "operation": [
+        "MOVE",
+        "X50",
+        "J16"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 268,
+      "operation": [
+        "ADD",
+        "X50",
+        "PRIVATE16"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 269,
+      "operation": [
+        "MOVE",
+        "X50",
+        "C0"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 270,
+      "operation": [
+        "ADD",
+        "X50",
+        "H1_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 271,
+      "operation": [
+        "ADD",
+        "X50",
+        "H1_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 272,
+      "operation": [
+        "ADD",
+        "X50",
+        "Hnew1_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 273,
+      "operation": [
+        "ADD",
+        "X50",
+        "Q0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 274,
+      "operation": [
+        "MOVE",
+        "X50",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 275,
+      "operation": [
+        "MOVE",
+        "X53",
+        "J22"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 276,
+      "operation": [
+        "ADD",
+        "X53",
+        "PRIVATE22"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 277,
+      "operation": [
+        "MOVE",
+        "X53",
+        "C0"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 278,
+      "operation": [
+        "ADD",
+        "X53",
+        "H1_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 279,
+      "operation": [
+        "ADD",
+        "X53",
+        "H1_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 280,
+      "operation": [
+        "ADD",
+        "X53",
+        "H1_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 281,
+      "operation": [
+        "ADD",
+        "X53",
+        "Q0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 282,
+      "operation": [
+        "MOVE",
+        "X53",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 283,
+      "operation": [
+        "MOVE",
+        "X54",
+        "J23"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 284,
+      "operation": [
+        "ADD",
+        "X54",
+        "PRIVATE23"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 285,
+      "operation": [
+        "MOVE",
+        "X54",
+        "C0"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 286,
+      "operation": [
+        "ADD",
+        "X54",
+        "H1_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 287,
+      "operation": [
+        "ADD",
+        "X54",
+        "H1_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 288,
+      "operation": [
+        "ADD",
+        "X54",
+        "Q0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 289,
+      "operation": [
+        "MOVE",
+        "X54",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 290,
+      "operation": [
+        "MOVE",
+        "X57",
+        "J22"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 291,
+      "operation": [
+        "ADD",
+        "X57",
+        "PRIVATE22"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 292,
+      "operation": [
+        "MOVE",
+        "X57",
+        "C0"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 293,
+      "operation": [
+        "ADD",
+        "X57",
+        "H1_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 294,
+      "operation": [
+        "ADD",
+        "X57",
+        "H1_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 295,
+      "operation": [
+        "ADD",
+        "X57",
+        "Q0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 296,
+      "operation": [
+        "MOVE",
+        "X57",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 297,
+      "operation": [
+        "MOVE",
+        "X58",
+        "J23"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 298,
+      "operation": [
+        "ADD",
+        "X58",
+        "PRIVATE23"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 299,
+      "operation": [
+        "MOVE",
+        "X58",
+        "C0"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 300,
+      "operation": [
+        "ADD",
+        "X58",
+        "H1_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 301,
+      "operation": [
+        "ADD",
+        "X58",
+        "Q0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 302,
+      "operation": [
+        "MOVE",
+        "X58",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 311,
+      "operation": [
+        "MOVE",
+        "X18",
+        "D3_21"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 312,
+      "operation": [
+        "ADD",
+        "X18",
+        "H0_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 313,
+      "operation": [
+        "ADD",
+        "X18",
+        "H0_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 314,
+      "operation": [
+        "MOVE",
+        "X26",
+        "D3_21"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 315,
+      "operation": [
+        "ADD",
+        "X26",
+        "H0_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 316,
+      "operation": [
+        "ADD",
+        "X26",
+        "H0_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 317,
+      "operation": [
+        "ADD",
+        "X26",
+        "Hnew0_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 323,
+      "operation": [
+        "MOVE",
+        "X34",
+        "D3_21"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 324,
+      "operation": [
+        "ADD",
+        "X34",
+        "Hnew0_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 325,
+      "operation": [
+        "MOVE",
+        "X35",
+        "D3_21"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 326,
+      "operation": [
+        "ADD",
+        "X35",
+        "H0_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 327,
+      "operation": [
+        "ADD",
+        "X35",
+        "Hnew0_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 328,
+      "operation": [
+        "MOVE",
+        "X47",
+        "D3_21"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 329,
+      "operation": [
+        "ADD",
+        "X47",
+        "Hnew0_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 331,
+      "operation": [
+        "ADD",
+        "X18",
+        "X10"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 332,
+      "operation": [
+        "ADD",
+        "X26",
+        "X10"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 334,
+      "operation": [
+        "ADD",
+        "X34",
+        "X10"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 335,
+      "operation": [
+        "ADD",
+        "X35",
+        "X10"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 336,
+      "operation": [
+        "ADD",
+        "X47",
+        "X10"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 338,
+      "operation": [
+        "MOVE",
+        "X18",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 339,
+      "operation": [
+        "MOVE",
+        "X26",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 341,
+      "operation": [
+        "MOVE",
+        "X34",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 342,
+      "operation": [
+        "MOVE",
+        "X35",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 343,
+      "operation": [
+        "MOVE",
+        "X47",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 355,
+      "operation": [
+        "MOVE",
+        "X71",
+        "D76_64"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 356,
+      "operation": [
+        "ADD",
+        "X71",
+        "H2_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 357,
+      "operation": [
+        "ADD",
+        "X71",
+        "H2_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 358,
+      "operation": [
+        "ADD",
+        "X71",
+        "Hnew2_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 359,
+      "operation": [
+        "MOVE",
+        "X72",
+        "D76_64"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 360,
+      "operation": [
+        "ADD",
+        "X72",
+        "H2_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 361,
+      "operation": [
+        "ADD",
+        "X72",
+        "H2_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 362,
+      "operation": [
+        "ADD",
+        "X72",
+        "H2_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 363,
+      "operation": [
+        "ADD",
+        "X72",
+        "Hnew2_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 367,
+      "operation": [
+        "MOVE",
+        "X81",
+        "D76_64"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 368,
+      "operation": [
+        "ADD",
+        "X81",
+        "H2_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 369,
+      "operation": [
+        "ADD",
+        "X81",
+        "H2_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 370,
+      "operation": [
+        "ADD",
+        "X81",
+        "Hnew2_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 371,
+      "operation": [
+        "MOVE",
+        "X88",
+        "D76_64"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 372,
+      "operation": [
+        "ADD",
+        "X88",
+        "Hnew2_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 373,
+      "operation": [
+        "MOVE",
+        "X89",
+        "D76_64"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 374,
+      "operation": [
+        "ADD",
+        "X89",
+        "H2_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 375,
+      "operation": [
+        "ADD",
+        "X89",
+        "Hnew2_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 376,
+      "operation": [
+        "MOVE",
+        "X108",
+        "D76_64"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 377,
+      "operation": [
+        "ADD",
+        "X108",
+        "Hnew2_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 378,
+      "operation": [
+        "MOVE",
+        "X110",
+        "D76_64"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 379,
+      "operation": [
+        "ADD",
+        "X110",
+        "H2_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 380,
+      "operation": [
+        "ADD",
+        "X110",
+        "Hnew2_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 381,
+      "operation": [
+        "ADD",
+        "X71",
+        "X61"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 382,
+      "operation": [
+        "ADD",
+        "X72",
+        "X61"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 384,
+      "operation": [
+        "ADD",
+        "X81",
+        "X61"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 385,
+      "operation": [
+        "ADD",
+        "X88",
+        "X61"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 386,
+      "operation": [
+        "ADD",
+        "X89",
+        "X61"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 387,
+      "operation": [
+        "ADD",
+        "X108",
+        "X61"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 388,
+      "operation": [
+        "ADD",
+        "X110",
+        "X61"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 390,
+      "operation": [
+        "MOVE",
+        "X71",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 391,
+      "operation": [
+        "MOVE",
+        "X72",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 392,
+      "operation": [
+        "MOVE",
+        "X81",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 393,
+      "operation": [
+        "MOVE",
+        "X88",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 394,
+      "operation": [
+        "MOVE",
+        "X89",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 395,
+      "operation": [
+        "MOVE",
+        "X108",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 396,
+      "operation": [
+        "MOVE",
+        "X110",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 409,
+      "operation": [
+        "MOVE",
+        "X68",
+        "D80_65"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 410,
+      "operation": [
+        "ADD",
+        "X68",
+        "H3_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 411,
+      "operation": [
+        "ADD",
+        "X68",
+        "H3_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 412,
+      "operation": [
+        "ADD",
+        "X68",
+        "H3_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 413,
+      "operation": [
+        "ADD",
+        "X68",
+        "Hnew3_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 417,
+      "operation": [
+        "MOVE",
+        "X84",
+        "D80_65"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 418,
+      "operation": [
+        "ADD",
+        "X84",
+        "H3_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 419,
+      "operation": [
+        "ADD",
+        "X84",
+        "H3_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 420,
+      "operation": [
+        "ADD",
+        "X84",
+        "Hnew3_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 421,
+      "operation": [
+        "MOVE",
+        "X85",
+        "D80_65"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 422,
+      "operation": [
+        "ADD",
+        "X85",
+        "H3_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 423,
+      "operation": [
+        "ADD",
+        "X85",
+        "H3_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 424,
+      "operation": [
+        "ADD",
+        "X85",
+        "H3_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 425,
+      "operation": [
+        "ADD",
+        "X85",
+        "Hnew3_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 426,
+      "operation": [
+        "MOVE",
+        "X92",
+        "D80_65"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 427,
+      "operation": [
+        "ADD",
+        "X92",
+        "Hnew3_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 428,
+      "operation": [
+        "MOVE",
+        "X93",
+        "D80_65"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 429,
+      "operation": [
+        "ADD",
+        "X93",
+        "H3_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 430,
+      "operation": [
+        "ADD",
+        "X93",
+        "Hnew3_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 431,
+      "operation": [
+        "MOVE",
+        "X104",
+        "D80_65"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 432,
+      "operation": [
+        "ADD",
+        "X104",
+        "Hnew3_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 433,
+      "operation": [
+        "MOVE",
+        "X106",
+        "D80_65"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 434,
+      "operation": [
+        "ADD",
+        "X106",
+        "H3_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 435,
+      "operation": [
+        "ADD",
+        "X106",
+        "Hnew3_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 436,
+      "operation": [
+        "ADD",
+        "X68",
+        "X67"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 438,
+      "operation": [
+        "ADD",
+        "X84",
+        "X67"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 439,
+      "operation": [
+        "ADD",
+        "X85",
+        "X67"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 440,
+      "operation": [
+        "ADD",
+        "X92",
+        "X67"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 441,
+      "operation": [
+        "ADD",
+        "X93",
+        "X67"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 442,
+      "operation": [
+        "ADD",
+        "X104",
+        "X67"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 443,
+      "operation": [
+        "ADD",
+        "X106",
+        "X67"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 445,
+      "operation": [
+        "MOVE",
+        "X68",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 446,
+      "operation": [
+        "MOVE",
+        "X84",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 447,
+      "operation": [
+        "MOVE",
+        "X85",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 448,
+      "operation": [
+        "MOVE",
+        "X92",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 449,
+      "operation": [
+        "MOVE",
+        "X93",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 450,
+      "operation": [
+        "MOVE",
+        "X104",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 451,
+      "operation": [
+        "MOVE",
+        "X106",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 461,
+      "operation": [
+        "MOVE",
+        "X8",
+        "Extra6"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 462,
+      "operation": [
+        "ADD",
+        "X8",
+        "IMPORT_E8"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 464,
+      "operation": [
+        "MOVE",
+        "X8",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 465,
+      "operation": [
+        "MOVE",
+        "X9",
+        "Extra6"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 466,
+      "operation": [
+        "ADD",
+        "X9",
+        "IMPORT_E9"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 468,
+      "operation": [
+        "MOVE",
+        "X9",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 470,
+      "operation": [
+        "MOVE",
+        "X20",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 471,
+      "operation": [
+        "MOVE",
+        "X36",
+        "Extra6"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 472,
+      "operation": [
+        "ADD",
+        "X36",
+        "IMPORT_E36"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 474,
+      "operation": [
+        "MOVE",
+        "X36",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 475,
+      "operation": [
+        "MOVE",
+        "X37",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 481,
+      "operation": [
+        "MOVE",
+        "X24",
+        "F4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 482,
+      "operation": [
+        "ADD",
+        "X24",
+        "H4_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 483,
+      "operation": [
+        "ADD",
+        "X24",
+        "H4_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 484,
+      "operation": [
+        "ADD",
+        "X24",
+        "H4_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 485,
+      "operation": [
+        "MOVE",
+        "X25",
+        "F4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 486,
+      "operation": [
+        "ADD",
+        "X25",
+        "H4_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 487,
+      "operation": [
+        "ADD",
+        "X25",
+        "H4_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 488,
+      "operation": [
+        "MOVE",
+        "X51",
+        "F4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 489,
+      "operation": [
+        "ADD",
+        "X51",
+        "H4_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 490,
+      "operation": [
+        "ADD",
+        "X24",
+        "X6"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 491,
+      "operation": [
+        "MOVE",
+        "X24",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 492,
+      "operation": [
+        "ADD",
+        "X25",
+        "X6"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 493,
+      "operation": [
+        "MOVE",
+        "X25",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 494,
+      "operation": [
+        "ADD",
+        "X51",
+        "X6"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 495,
+      "operation": [
+        "MOVE",
+        "X51",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 496,
+      "operation": [
+        "MOVE",
+        "X60",
+        "C1"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 497,
+      "operation": [
+        "ADD",
+        "X60",
+        "H5_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 498,
+      "operation": [
+        "ADD",
+        "X60",
+        "H5_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 499,
+      "operation": [
+        "ADD",
+        "X60",
+        "Q1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 500,
+      "operation": [
+        "MOVE",
+        "X60",
+        "F74"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 501,
+      "operation": [
+        "ADD",
+        "X60",
+        "Q1_F74"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 502,
+      "operation": [
+        "MOVE",
+        "X60",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 503,
+      "operation": [
+        "MOVE",
+        "X62",
+        "C1"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 504,
+      "operation": [
+        "ADD",
+        "X62",
+        "H5_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 505,
+      "operation": [
+        "ADD",
+        "X62",
+        "H5_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 506,
+      "operation": [
+        "ADD",
+        "X62",
+        "Q1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 507,
+      "operation": [
+        "MOVE",
+        "X62",
+        "F74"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 508,
+      "operation": [
+        "ADD",
+        "X62",
+        "Q1_F74"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 509,
+      "operation": [
+        "MOVE",
+        "X62",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 510,
+      "operation": [
+        "MOVE",
+        "X86",
+        "C1"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 511,
+      "operation": [
+        "ADD",
+        "X86",
+        "H5_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 512,
+      "operation": [
+        "ADD",
+        "X86",
+        "H5_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 513,
+      "operation": [
+        "ADD",
+        "X86",
+        "Hnew5_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 514,
+      "operation": [
+        "ADD",
+        "X86",
+        "Q1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 515,
+      "operation": [
+        "MOVE",
+        "X86",
+        "F74"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 516,
+      "operation": [
+        "ADD",
+        "X86",
+        "Q1_F74"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 517,
+      "operation": [
+        "MOVE",
+        "X86",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 518,
+      "operation": [
+        "MOVE",
+        "X87",
+        "C1"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 519,
+      "operation": [
+        "ADD",
+        "X87",
+        "H5_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 520,
+      "operation": [
+        "ADD",
+        "X87",
+        "Hnew5_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 521,
+      "operation": [
+        "ADD",
+        "X87",
+        "Q1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 522,
+      "operation": [
+        "MOVE",
+        "X87",
+        "F74"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 523,
+      "operation": [
+        "ADD",
+        "X87",
+        "Q1_F74"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 524,
+      "operation": [
+        "MOVE",
+        "X87",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 525,
+      "operation": [
+        "MOVE",
+        "X100",
+        "C1"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 526,
+      "operation": [
+        "ADD",
+        "X100",
+        "H5_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 527,
+      "operation": [
+        "ADD",
+        "X100",
+        "H5_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 528,
+      "operation": [
+        "ADD",
+        "X100",
+        "Q1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 529,
+      "operation": [
+        "MOVE",
+        "X100",
+        "F74"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 530,
+      "operation": [
+        "ADD",
+        "X100",
+        "Q1_F74"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 531,
+      "operation": [
+        "MOVE",
+        "X100",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 532,
+      "operation": [
+        "MOVE",
+        "X101",
+        "C1"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 533,
+      "operation": [
+        "ADD",
+        "X101",
+        "H5_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 534,
+      "operation": [
+        "ADD",
+        "X101",
+        "H5_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 535,
+      "operation": [
+        "ADD",
+        "X101",
+        "H5_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 536,
+      "operation": [
+        "ADD",
+        "X101",
+        "Q1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 537,
+      "operation": [
+        "MOVE",
+        "X101",
+        "F74"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 538,
+      "operation": [
+        "ADD",
+        "X101",
+        "Q1_F74"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 539,
+      "operation": [
+        "MOVE",
+        "X101",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 540,
+      "operation": [
+        "MOVE",
+        "X102",
+        "C1"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 541,
+      "operation": [
+        "ADD",
+        "X102",
+        "H5_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 542,
+      "operation": [
+        "ADD",
+        "X102",
+        "Q1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 543,
+      "operation": [
+        "MOVE",
+        "X102",
+        "F74"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 544,
+      "operation": [
+        "ADD",
+        "X102",
+        "Q1_F74"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 545,
+      "operation": [
+        "MOVE",
+        "X102",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 546,
+      "operation": [
+        "MOVE",
+        "X103",
+        "C1"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 547,
+      "operation": [
+        "ADD",
+        "X103",
+        "H5_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 548,
+      "operation": [
+        "ADD",
+        "X103",
+        "H5_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 549,
+      "operation": [
+        "ADD",
+        "X103",
+        "Hnew5_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 550,
+      "operation": [
+        "ADD",
+        "X103",
+        "Q1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 551,
+      "operation": [
+        "MOVE",
+        "X103",
+        "F74"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 552,
+      "operation": [
+        "ADD",
+        "X103",
+        "Q1_F74"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 553,
+      "operation": [
+        "MOVE",
+        "X103",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 554,
+      "operation": [
+        "MOVE",
+        "X105",
+        "C1"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 555,
+      "operation": [
+        "ADD",
+        "X105",
+        "H5_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 556,
+      "operation": [
+        "ADD",
+        "X105",
+        "H5_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 557,
+      "operation": [
+        "ADD",
+        "X105",
+        "H5_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 558,
+      "operation": [
+        "ADD",
+        "X105",
+        "Hnew5_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 559,
+      "operation": [
+        "ADD",
+        "X105",
+        "Q1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 560,
+      "operation": [
+        "MOVE",
+        "X105",
+        "F74"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 561,
+      "operation": [
+        "ADD",
+        "X105",
+        "Q1_F74"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 562,
+      "operation": [
+        "MOVE",
+        "X105",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 563,
+      "operation": [
+        "MOVE",
+        "X0",
+        "C2"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 564,
+      "operation": [
+        "ADD",
+        "X0",
+        "H6_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 565,
+      "operation": [
+        "ADD",
+        "X0",
+        "Q2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 566,
+      "operation": [
+        "MOVE",
+        "X0",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 567,
+      "operation": [
+        "MOVE",
+        "X2",
+        "C2"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 568,
+      "operation": [
+        "ADD",
+        "X2",
+        "H6_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 569,
+      "operation": [
+        "ADD",
+        "X2",
+        "Q2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 570,
+      "operation": [
+        "MOVE",
+        "X2",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 571,
+      "operation": [
+        "MOVE",
+        "X28",
+        "C2"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 572,
+      "operation": [
+        "ADD",
+        "X28",
+        "H6_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 573,
+      "operation": [
+        "ADD",
+        "X28",
+        "Q2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 574,
+      "operation": [
+        "MOVE",
+        "X28",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 600,
+      "operation": [
+        "MOVE",
+        "X44",
+        "C2"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 601,
+      "operation": [
+        "ADD",
+        "X44",
+        "H6_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 602,
+      "operation": [
+        "ADD",
+        "X44",
+        "H6_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 603,
+      "operation": [
+        "ADD",
+        "X44",
+        "H6_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 604,
+      "operation": [
+        "ADD",
+        "X44",
+        "H6_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 605,
+      "operation": [
+        "ADD",
+        "X44",
+        "Q2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 606,
+      "operation": [
+        "MOVE",
+        "X44",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 633,
+      "operation": [
+        "MOVE",
+        "X59",
+        "C3"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 634,
+      "operation": [
+        "ADD",
+        "X59",
+        "H7_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 635,
+      "operation": [
+        "ADD",
+        "X59",
+        "H7_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 636,
+      "operation": [
+        "ADD",
+        "X59",
+        "Q3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 637,
+      "operation": [
+        "MOVE",
+        "X59",
+        "F4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 638,
+      "operation": [
+        "ADD",
+        "X59",
+        "Q3_F4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 639,
+      "operation": [
+        "MOVE",
+        "X59",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 640,
+      "operation": [
+        "MOVE",
+        "X63",
+        "C3"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 641,
+      "operation": [
+        "ADD",
+        "X63",
+        "H7_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 642,
+      "operation": [
+        "ADD",
+        "X63",
+        "H7_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 643,
+      "operation": [
+        "ADD",
+        "X63",
+        "Q3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 644,
+      "operation": [
+        "MOVE",
+        "X63",
+        "F4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 645,
+      "operation": [
+        "ADD",
+        "X63",
+        "Q3_F4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 646,
+      "operation": [
+        "MOVE",
+        "X63",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 647,
+      "operation": [
+        "MOVE",
+        "X82",
+        "C3"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 648,
+      "operation": [
+        "ADD",
+        "X82",
+        "H7_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 649,
+      "operation": [
+        "ADD",
+        "X82",
+        "H7_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 650,
+      "operation": [
+        "ADD",
+        "X82",
+        "Hnew7_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 651,
+      "operation": [
+        "ADD",
+        "X82",
+        "Q3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 652,
+      "operation": [
+        "MOVE",
+        "X82",
+        "F4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 653,
+      "operation": [
+        "ADD",
+        "X82",
+        "Q3_F4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 654,
+      "operation": [
+        "MOVE",
+        "X82",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 655,
+      "operation": [
+        "MOVE",
+        "X83",
+        "C3"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 656,
+      "operation": [
+        "ADD",
+        "X83",
+        "H7_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 657,
+      "operation": [
+        "ADD",
+        "X83",
+        "Hnew7_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 658,
+      "operation": [
+        "ADD",
+        "X83",
+        "Q3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 659,
+      "operation": [
+        "MOVE",
+        "X83",
+        "F4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 660,
+      "operation": [
+        "ADD",
+        "X83",
+        "Q3_F4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 661,
+      "operation": [
+        "MOVE",
+        "X83",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 662,
+      "operation": [
+        "MOVE",
+        "X96",
+        "C3"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 663,
+      "operation": [
+        "ADD",
+        "X96",
+        "H7_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 664,
+      "operation": [
+        "ADD",
+        "X96",
+        "H7_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 665,
+      "operation": [
+        "ADD",
+        "X96",
+        "Q3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 666,
+      "operation": [
+        "MOVE",
+        "X96",
+        "F4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 667,
+      "operation": [
+        "ADD",
+        "X96",
+        "Q3_F4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 668,
+      "operation": [
+        "MOVE",
+        "X96",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 669,
+      "operation": [
+        "MOVE",
+        "X97",
+        "C3"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 670,
+      "operation": [
+        "ADD",
+        "X97",
+        "H7_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 671,
+      "operation": [
+        "ADD",
+        "X97",
+        "H7_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 672,
+      "operation": [
+        "ADD",
+        "X97",
+        "H7_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 673,
+      "operation": [
+        "ADD",
+        "X97",
+        "Q3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 674,
+      "operation": [
+        "MOVE",
+        "X97",
+        "F4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 675,
+      "operation": [
+        "ADD",
+        "X97",
+        "Q3_F4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 676,
+      "operation": [
+        "MOVE",
+        "X97",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 677,
+      "operation": [
+        "MOVE",
+        "X98",
+        "C3"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 678,
+      "operation": [
+        "ADD",
+        "X98",
+        "H7_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 679,
+      "operation": [
+        "ADD",
+        "X98",
+        "Q3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 680,
+      "operation": [
+        "MOVE",
+        "X98",
+        "F4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 681,
+      "operation": [
+        "ADD",
+        "X98",
+        "Q3_F4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 682,
+      "operation": [
+        "MOVE",
+        "X98",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 683,
+      "operation": [
+        "MOVE",
+        "X99",
+        "C3"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 684,
+      "operation": [
+        "ADD",
+        "X99",
+        "H7_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 685,
+      "operation": [
+        "ADD",
+        "X99",
+        "H7_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 686,
+      "operation": [
+        "ADD",
+        "X99",
+        "Q3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 687,
+      "operation": [
+        "MOVE",
+        "X99",
+        "F4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 688,
+      "operation": [
+        "ADD",
+        "X99",
+        "Q3_F4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 689,
+      "operation": [
+        "MOVE",
+        "X99",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 690,
+      "operation": [
+        "MOVE",
+        "X107",
+        "C3"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 691,
+      "operation": [
+        "ADD",
+        "X107",
+        "H7_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 692,
+      "operation": [
+        "ADD",
+        "X107",
+        "H7_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 693,
+      "operation": [
+        "ADD",
+        "X107",
+        "Hnew7_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 694,
+      "operation": [
+        "ADD",
+        "X107",
+        "Q3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 695,
+      "operation": [
+        "MOVE",
+        "X107",
+        "F4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 696,
+      "operation": [
+        "ADD",
+        "X107",
+        "Q3_F4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 697,
+      "operation": [
+        "MOVE",
+        "X107",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 698,
+      "operation": [
+        "MOVE",
+        "X109",
+        "C3"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 699,
+      "operation": [
+        "ADD",
+        "X109",
+        "H7_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 700,
+      "operation": [
+        "ADD",
+        "X109",
+        "H7_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 701,
+      "operation": [
+        "ADD",
+        "X109",
+        "H7_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 702,
+      "operation": [
+        "ADD",
+        "X109",
+        "Hnew7_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 703,
+      "operation": [
+        "ADD",
+        "X109",
+        "Q3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 704,
+      "operation": [
+        "MOVE",
+        "X109",
+        "F4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 705,
+      "operation": [
+        "ADD",
+        "X109",
+        "Q3_F4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 706,
+      "operation": [
+        "MOVE",
+        "X109",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 707,
+      "operation": [
+        "MOVE",
+        "X69",
+        "F74"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 708,
+      "operation": [
+        "ADD",
+        "X69",
+        "H8_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 709,
+      "operation": [
+        "ADD",
+        "X69",
+        "H8_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 710,
+      "operation": [
+        "ADD",
+        "X69",
+        "H8_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 711,
+      "operation": [
+        "MOVE",
+        "X70",
+        "F74"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 712,
+      "operation": [
+        "ADD",
+        "X70",
+        "H8_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 713,
+      "operation": [
+        "ADD",
+        "X70",
+        "H8_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 717,
+      "operation": [
+        "MOVE",
+        "X90",
+        "F74"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 718,
+      "operation": [
+        "ADD",
+        "X90",
+        "H8_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 719,
+      "operation": [
+        "MOVE",
+        "X91",
+        "F74"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 720,
+      "operation": [
+        "ADD",
+        "X91",
+        "H8_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 721,
+      "operation": [
+        "ADD",
+        "X91",
+        "H8_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 722,
+      "operation": [
+        "ADD",
+        "X69",
+        "X75"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 723,
+      "operation": [
+        "MOVE",
+        "X69",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 724,
+      "operation": [
+        "ADD",
+        "X70",
+        "X75"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 725,
+      "operation": [
+        "MOVE",
+        "X70",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 726,
+      "operation": [
+        "ADD",
+        "X90",
+        "X75"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 727,
+      "operation": [
+        "MOVE",
+        "X90",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 728,
+      "operation": [
+        "ADD",
+        "X91",
+        "X75"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 729,
+      "operation": [
+        "MOVE",
+        "X91",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 730,
+      "operation": [
+        "MOVE",
+        "X13",
+        "C4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 731,
+      "operation": [
+        "ADD",
+        "X13",
+        "H9_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 732,
+      "operation": [
+        "ADD",
+        "X13",
+        "Hnew9_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 733,
+      "operation": [
+        "ADD",
+        "X13",
+        "Q4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 734,
+      "operation": [
+        "MOVE",
+        "X13",
+        "F78"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 735,
+      "operation": [
+        "ADD",
+        "X13",
+        "Q4_F78"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 736,
+      "operation": [
+        "MOVE",
+        "X13",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 737,
+      "operation": [
+        "MOVE",
+        "X14",
+        "C4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 738,
+      "operation": [
+        "ADD",
+        "X14",
+        "H9_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 739,
+      "operation": [
+        "ADD",
+        "X14",
+        "H9_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 740,
+      "operation": [
+        "ADD",
+        "X14",
+        "Q4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 741,
+      "operation": [
+        "MOVE",
+        "X14",
+        "F78"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 742,
+      "operation": [
+        "ADD",
+        "X14",
+        "Q4_F78"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 743,
+      "operation": [
+        "MOVE",
+        "X14",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 744,
+      "operation": [
+        "MOVE",
+        "X17",
+        "C4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 745,
+      "operation": [
+        "ADD",
+        "X17",
+        "H9_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 746,
+      "operation": [
+        "ADD",
+        "X17",
+        "H9_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 747,
+      "operation": [
+        "ADD",
+        "X17",
+        "Q4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 748,
+      "operation": [
+        "MOVE",
+        "X17",
+        "F78"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 749,
+      "operation": [
+        "ADD",
+        "X17",
+        "Q4_F78"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 750,
+      "operation": [
+        "MOVE",
+        "X17",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 751,
+      "operation": [
+        "MOVE",
+        "X32",
+        "C4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 752,
+      "operation": [
+        "ADD",
+        "X32",
+        "H9_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 753,
+      "operation": [
+        "ADD",
+        "X32",
+        "H9_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 754,
+      "operation": [
+        "ADD",
+        "X32",
+        "Hnew9_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 755,
+      "operation": [
+        "ADD",
+        "X32",
+        "Q4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 756,
+      "operation": [
+        "MOVE",
+        "X32",
+        "F78"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 757,
+      "operation": [
+        "ADD",
+        "X32",
+        "Q4_F78"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 758,
+      "operation": [
+        "MOVE",
+        "X32",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 759,
+      "operation": [
+        "MOVE",
+        "X33",
+        "C4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 760,
+      "operation": [
+        "ADD",
+        "X33",
+        "H9_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 761,
+      "operation": [
+        "ADD",
+        "X33",
+        "H9_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 762,
+      "operation": [
+        "ADD",
+        "X33",
+        "H9_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 763,
+      "operation": [
+        "ADD",
+        "X33",
+        "Hnew9_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 764,
+      "operation": [
+        "ADD",
+        "X33",
+        "Q4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 765,
+      "operation": [
+        "MOVE",
+        "X33",
+        "F78"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 766,
+      "operation": [
+        "ADD",
+        "X33",
+        "Q4_F78"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 767,
+      "operation": [
+        "MOVE",
+        "X33",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 768,
+      "operation": [
+        "MOVE",
+        "X52",
+        "C4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 769,
+      "operation": [
+        "ADD",
+        "X52",
+        "H9_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 770,
+      "operation": [
+        "ADD",
+        "X52",
+        "H9_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 771,
+      "operation": [
+        "ADD",
+        "X52",
+        "H9_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 772,
+      "operation": [
+        "ADD",
+        "X52",
+        "Q4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 773,
+      "operation": [
+        "MOVE",
+        "X52",
+        "F78"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 774,
+      "operation": [
+        "ADD",
+        "X52",
+        "Q4_F78"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 775,
+      "operation": [
+        "MOVE",
+        "X52",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 776,
+      "operation": [
+        "MOVE",
+        "X55",
+        "C4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 777,
+      "operation": [
+        "ADD",
+        "X55",
+        "H9_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 778,
+      "operation": [
+        "ADD",
+        "X55",
+        "Q4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 779,
+      "operation": [
+        "MOVE",
+        "X55",
+        "F78"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 780,
+      "operation": [
+        "ADD",
+        "X55",
+        "Q4_F78"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 781,
+      "operation": [
+        "MOVE",
+        "X55",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 782,
+      "operation": [
+        "MOVE",
+        "X56",
+        "C4"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 783,
+      "operation": [
+        "ADD",
+        "X56",
+        "H9_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 784,
+      "operation": [
+        "ADD",
+        "X56",
+        "H9_1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 785,
+      "operation": [
+        "ADD",
+        "X56",
+        "Q4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 786,
+      "operation": [
+        "MOVE",
+        "X56",
+        "F78"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 787,
+      "operation": [
+        "ADD",
+        "X56",
+        "Q4_F78"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 788,
+      "operation": [
+        "MOVE",
+        "X56",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 789,
+      "operation": [
+        "MOVE",
+        "X66",
+        "F78"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 790,
+      "operation": [
+        "ADD",
+        "X66",
+        "H10_2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 791,
+      "operation": [
+        "ADD",
+        "X66",
+        "H10_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 795,
+      "operation": [
+        "MOVE",
+        "X94",
+        "F78"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 796,
+      "operation": [
+        "ADD",
+        "X94",
+        "H10_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 797,
+      "operation": [
+        "MOVE",
+        "X95",
+        "F78"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 798,
+      "operation": [
+        "ADD",
+        "X95",
+        "H10_0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 799,
+      "operation": [
+        "ADD",
+        "X95",
+        "H10_3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 800,
+      "operation": [
+        "ADD",
+        "X66",
+        "X79"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 801,
+      "operation": [
+        "MOVE",
+        "X66",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 802,
+      "operation": [
+        "ADD",
+        "X94",
+        "X79"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 803,
+      "operation": [
+        "MOVE",
+        "X94",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 804,
+      "operation": [
+        "ADD",
+        "X95",
+        "X79"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 805,
+      "operation": [
+        "MOVE",
+        "X95",
+        "Hub"
+      ],
+      "why": "released original route"
+    },
+    {
+      "index": 817,
+      "operation": [
+        "ADD",
+        "X26",
+        "P0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 818,
+      "operation": [
+        "ADD",
+        "X31",
+        "P0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 819,
+      "operation": [
+        "ADD",
+        "X34",
+        "P0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 822,
+      "operation": [
+        "ADD",
+        "X47",
+        "P0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 824,
+      "operation": [
+        "ADD",
+        "X54",
+        "P0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 825,
+      "operation": [
+        "ADD",
+        "X57",
+        "P0"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 870,
+      "operation": [
+        "ADD",
+        "X18",
+        "X10"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 871,
+      "operation": [
+        "ADD",
+        "X26",
+        "X10"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 873,
+      "operation": [
+        "ADD",
+        "X34",
+        "X10"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 874,
+      "operation": [
+        "ADD",
+        "X35",
+        "X10"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 875,
+      "operation": [
+        "ADD",
+        "X47",
+        "X10"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 876,
+      "operation": [
+        "ADD",
+        "X5",
+        "P1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 880,
+      "operation": [
+        "ADD",
+        "X15",
+        "P1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 885,
+      "operation": [
+        "ADD",
+        "X31",
+        "P1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 891,
+      "operation": [
+        "ADD",
+        "X50",
+        "P1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 892,
+      "operation": [
+        "ADD",
+        "X53",
+        "P1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 893,
+      "operation": [
+        "ADD",
+        "X54",
+        "P1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 894,
+      "operation": [
+        "ADD",
+        "X57",
+        "P1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 895,
+      "operation": [
+        "ADD",
+        "X58",
+        "P1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 896,
+      "operation": [
+        "ADD",
+        "X71",
+        "P1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 898,
+      "operation": [
+        "ADD",
+        "X81",
+        "P1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 899,
+      "operation": [
+        "ADD",
+        "X88",
+        "P1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 900,
+      "operation": [
+        "ADD",
+        "X108",
+        "P1"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 940,
+      "operation": [
+        "ADD",
+        "X71",
+        "X61"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 941,
+      "operation": [
+        "ADD",
+        "X72",
+        "X61"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 943,
+      "operation": [
+        "ADD",
+        "X81",
+        "X61"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 944,
+      "operation": [
+        "ADD",
+        "X88",
+        "X61"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 945,
+      "operation": [
+        "ADD",
+        "X89",
+        "X61"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 946,
+      "operation": [
+        "ADD",
+        "X108",
+        "X61"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 947,
+      "operation": [
+        "ADD",
+        "X110",
+        "X61"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 948,
+      "operation": [
+        "ADD",
+        "X5",
+        "P2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 952,
+      "operation": [
+        "ADD",
+        "X15",
+        "P2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 957,
+      "operation": [
+        "ADD",
+        "X31",
+        "P2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 963,
+      "operation": [
+        "ADD",
+        "X50",
+        "P2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 964,
+      "operation": [
+        "ADD",
+        "X53",
+        "P2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 965,
+      "operation": [
+        "ADD",
+        "X54",
+        "P2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 966,
+      "operation": [
+        "ADD",
+        "X57",
+        "P2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 967,
+      "operation": [
+        "ADD",
+        "X58",
+        "P2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 969,
+      "operation": [
+        "ADD",
+        "X68",
+        "P2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 971,
+      "operation": [
+        "ADD",
+        "X85",
+        "P2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 972,
+      "operation": [
+        "ADD",
+        "X93",
+        "P2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 973,
+      "operation": [
+        "ADD",
+        "X106",
+        "P2"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1017,
+      "operation": [
+        "ADD",
+        "X68",
+        "X67"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1019,
+      "operation": [
+        "ADD",
+        "X84",
+        "X67"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1020,
+      "operation": [
+        "ADD",
+        "X85",
+        "X67"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1021,
+      "operation": [
+        "ADD",
+        "X92",
+        "X67"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1022,
+      "operation": [
+        "ADD",
+        "X93",
+        "X67"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1023,
+      "operation": [
+        "ADD",
+        "X104",
+        "X67"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1024,
+      "operation": [
+        "ADD",
+        "X106",
+        "X67"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1026,
+      "operation": [
+        "ADD",
+        "X25",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1029,
+      "operation": [
+        "ADD",
+        "X44",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1031,
+      "operation": [
+        "ADD",
+        "X59",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1032,
+      "operation": [
+        "ADD",
+        "X60",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1033,
+      "operation": [
+        "ADD",
+        "X62",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1034,
+      "operation": [
+        "ADD",
+        "X63",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1035,
+      "operation": [
+        "ADD",
+        "X82",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1036,
+      "operation": [
+        "ADD",
+        "X83",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1037,
+      "operation": [
+        "ADD",
+        "X87",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1038,
+      "operation": [
+        "ADD",
+        "X96",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1039,
+      "operation": [
+        "ADD",
+        "X97",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1040,
+      "operation": [
+        "ADD",
+        "X98",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1041,
+      "operation": [
+        "ADD",
+        "X99",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1042,
+      "operation": [
+        "ADD",
+        "X100",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1043,
+      "operation": [
+        "ADD",
+        "X105",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1044,
+      "operation": [
+        "ADD",
+        "X107",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1045,
+      "operation": [
+        "ADD",
+        "X109",
+        "P3"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1082,
+      "operation": [
+        "ADD",
+        "X24",
+        "X6"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1083,
+      "operation": [
+        "ADD",
+        "X25",
+        "X6"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1084,
+      "operation": [
+        "ADD",
+        "X51",
+        "X6"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1085,
+      "operation": [
+        "ADD",
+        "X0",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1086,
+      "operation": [
+        "ADD",
+        "X2",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1087,
+      "operation": [
+        "ADD",
+        "X13",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1088,
+      "operation": [
+        "ADD",
+        "X14",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1089,
+      "operation": [
+        "ADD",
+        "X17",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1090,
+      "operation": [
+        "ADD",
+        "X28",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1092,
+      "operation": [
+        "ADD",
+        "X33",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1095,
+      "operation": [
+        "ADD",
+        "X44",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1099,
+      "operation": [
+        "ADD",
+        "X56",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1100,
+      "operation": [
+        "ADD",
+        "X60",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1101,
+      "operation": [
+        "ADD",
+        "X62",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1102,
+      "operation": [
+        "ADD",
+        "X70",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1104,
+      "operation": [
+        "ADD",
+        "X86",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1105,
+      "operation": [
+        "ADD",
+        "X87",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1106,
+      "operation": [
+        "ADD",
+        "X91",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1107,
+      "operation": [
+        "ADD",
+        "X100",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1108,
+      "operation": [
+        "ADD",
+        "X101",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1109,
+      "operation": [
+        "ADD",
+        "X102",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1110,
+      "operation": [
+        "ADD",
+        "X103",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1111,
+      "operation": [
+        "ADD",
+        "X105",
+        "P4"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1144,
+      "operation": [
+        "ADD",
+        "X69",
+        "X75"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1145,
+      "operation": [
+        "ADD",
+        "X70",
+        "X75"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1146,
+      "operation": [
+        "ADD",
+        "X90",
+        "X75"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1147,
+      "operation": [
+        "ADD",
+        "X91",
+        "X75"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1148,
+      "operation": [
+        "ADD",
+        "X0",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1149,
+      "operation": [
+        "ADD",
+        "X2",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1150,
+      "operation": [
+        "ADD",
+        "X13",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1151,
+      "operation": [
+        "ADD",
+        "X14",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1152,
+      "operation": [
+        "ADD",
+        "X17",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1153,
+      "operation": [
+        "ADD",
+        "X28",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1155,
+      "operation": [
+        "ADD",
+        "X32",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1156,
+      "operation": [
+        "ADD",
+        "X33",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1159,
+      "operation": [
+        "ADD",
+        "X44",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1163,
+      "operation": [
+        "ADD",
+        "X52",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1164,
+      "operation": [
+        "ADD",
+        "X55",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1165,
+      "operation": [
+        "ADD",
+        "X56",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1166,
+      "operation": [
+        "ADD",
+        "X59",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1167,
+      "operation": [
+        "ADD",
+        "X63",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1168,
+      "operation": [
+        "ADD",
+        "X66",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1170,
+      "operation": [
+        "ADD",
+        "X83",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1171,
+      "operation": [
+        "ADD",
+        "X95",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1172,
+      "operation": [
+        "ADD",
+        "X96",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1173,
+      "operation": [
+        "ADD",
+        "X99",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1174,
+      "operation": [
+        "ADD",
+        "X109",
+        "P5"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1219,
+      "operation": [
+        "ADD",
+        "ZRAW0",
+        "Y0"
+      ],
+      "why": "projected protected-backup use"
+    },
+    {
+      "index": 1222,
+      "operation": [
+        "ADD",
+        "ZRAW28",
+        "Y28"
+      ],
+      "why": "projected protected-backup use"
+    },
+    {
+      "index": 1225,
+      "operation": [
+        "ADD",
+        "ZRAW44",
+        "Y44"
+      ],
+      "why": "projected protected-backup use"
+    },
+    {
+      "index": 1254,
+      "operation": [
+        "ADD",
+        "X66",
+        "X79"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1255,
+      "operation": [
+        "ADD",
+        "X94",
+        "X79"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1256,
+      "operation": [
+        "ADD",
+        "X95",
+        "X79"
+      ],
+      "why": "projected raw donor"
+    },
+    {
+      "index": 1258,
+      "operation": [
+        "ADD",
+        "COMMON_RAW2",
+        "Y2"
+      ],
+      "why": "projected protected-backup use"
+    },
+    {
+      "index": 1262,
+      "operation": [
+        "ADD",
+        "ADDED_RAW8",
+        "Y8"
+      ],
+      "why": "projected protected-backup use"
+    },
+    {
+      "index": 1264,
+      "operation": [
+        "ADD",
+        "ADDED_RAW9",
+        "Y9"
+      ],
+      "why": "projected protected-backup use"
+    },
+    {
+      "index": 1280,
+      "operation": [
+        "ADD",
+        "DIRECT_RAW20",
+        "Y20"
+      ],
+      "why": "projected protected-backup use"
+    },
+    {
+      "index": 1307,
+      "operation": [
+        "ADD",
+        "ADDED_RAW36",
+        "Y36"
+      ],
+      "why": "projected protected-backup use"
+    },
+    {
+      "index": 1309,
+      "operation": [
+        "ADD",
+        "ADDED_RAW37",
+        "Y37"
+      ],
+      "why": "projected protected-backup use"
+    },
+    {
+      "index": 1346,
+      "operation": [
+        "ADD",
+        "ZRAW0",
+        "Y45"
+      ],
+      "why": "projected protected-backup use"
+    },
+    {
+      "index": 1347,
+      "operation": [
+        "ADD",
+        "ZRAW44",
+        "Y45"
+      ],
+      "why": "projected protected-backup use"
+    },
+    {
+      "index": 1359,
+      "operation": [
+        "ADD",
+        "ZRAW0",
+        "Y48"
+      ],
+      "why": "projected protected-backup use"
+    },
+    {
+      "index": 1360,
+      "operation": [
+        "ADD",
+        "ZRAW44",
+        "Y48"
+      ],
+      "why": "projected protected-backup use"
+    },
+    {
+      "index": 1368,
+      "operation": [
+        "ADD",
+        "ZRAW0",
+        "Y49"
+      ],
+      "why": "projected protected-backup use"
+    },
+    {
+      "index": 1369,
+      "operation": [
+        "ADD",
+        "ZRAW44",
+        "Y49"
+      ],
+      "why": "projected protected-backup use"
+    },
+    {
+      "index": 1375,
+      "operation": [
+        "ADD",
+        "ADDED_RAW50",
+        "Y50"
+      ],
+      "why": "projected protected-backup use"
+    }
+  ],
+  "inserted_operations": [
+    {
+      "index": 705,
+      "operation": [
+        "ADD",
+        "ZRAW0",
+        "Y0"
+      ],
+      "why": "actual ground endpoint repair"
+    },
+    {
+      "index": 707,
+      "operation": [
+        "ADD",
+        "COMMON_RAW2",
+        "Y2"
+      ],
+      "why": "actual ground endpoint repair"
+    },
+    {
+      "index": 711,
+      "operation": [
+        "ADD",
+        "ADDED_RAW8",
+        "Y8"
+      ],
+      "why": "actual ground endpoint repair"
+    },
+    {
+      "index": 713,
+      "operation": [
+        "ADD",
+        "ADDED_RAW9",
+        "Y9"
+      ],
+      "why": "actual ground endpoint repair"
+    },
+    {
+      "index": 729,
+      "operation": [
+        "ADD",
+        "DIRECT_RAW20",
+        "Y20"
+      ],
+      "why": "actual ground endpoint repair"
+    },
+    {
+      "index": 740,
+      "operation": [
+        "ADD",
+        "ZRAW28",
+        "Y28"
+      ],
+      "why": "actual ground endpoint repair"
+    },
+    {
+      "index": 757,
+      "operation": [
+        "ADD",
+        "ADDED_RAW36",
+        "Y36"
+      ],
+      "why": "actual ground endpoint repair"
+    },
+    {
+      "index": 759,
+      "operation": [
+        "ADD",
+        "ADDED_RAW37",
+        "Y37"
+      ],
+      "why": "actual ground endpoint repair"
+    },
+    {
+      "index": 793,
+      "operation": [
+        "ADD",
+        "ZRAW44",
+        "Y44"
+      ],
+      "why": "actual ground endpoint repair"
+    },
+    {
+      "index": 820,
+      "operation": [
+        "ADD",
+        "ADDED_RAW50",
+        "Y50"
+      ],
+      "why": "actual ground endpoint repair"
+    },
+    {
+      "index": 872,
+      "operation": [
+        "MOVE",
+        "X0",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 873,
+      "operation": [
+        "MOVE",
+        "X2",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 874,
+      "operation": [
+        "MOVE",
+        "X5",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 875,
+      "operation": [
+        "MOVE",
+        "X8",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 876,
+      "operation": [
+        "MOVE",
+        "X9",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 877,
+      "operation": [
+        "MOVE",
+        "X13",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 878,
+      "operation": [
+        "MOVE",
+        "X14",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 879,
+      "operation": [
+        "MOVE",
+        "X15",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 880,
+      "operation": [
+        "MOVE",
+        "X17",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 881,
+      "operation": [
+        "MOVE",
+        "X18",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 882,
+      "operation": [
+        "MOVE",
+        "X20",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 883,
+      "operation": [
+        "MOVE",
+        "X24",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 884,
+      "operation": [
+        "MOVE",
+        "X25",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 885,
+      "operation": [
+        "MOVE",
+        "X26",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 886,
+      "operation": [
+        "MOVE",
+        "X28",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 887,
+      "operation": [
+        "MOVE",
+        "X31",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 888,
+      "operation": [
+        "MOVE",
+        "X32",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 889,
+      "operation": [
+        "MOVE",
+        "X33",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 890,
+      "operation": [
+        "MOVE",
+        "X34",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 891,
+      "operation": [
+        "MOVE",
+        "X35",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 892,
+      "operation": [
+        "MOVE",
+        "X36",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 893,
+      "operation": [
+        "MOVE",
+        "X37",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 894,
+      "operation": [
+        "MOVE",
+        "X44",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 895,
+      "operation": [
+        "MOVE",
+        "X47",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 896,
+      "operation": [
+        "MOVE",
+        "X50",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 897,
+      "operation": [
+        "MOVE",
+        "X51",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 898,
+      "operation": [
+        "MOVE",
+        "X52",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 899,
+      "operation": [
+        "MOVE",
+        "X53",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 900,
+      "operation": [
+        "MOVE",
+        "X54",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 901,
+      "operation": [
+        "MOVE",
+        "X55",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 902,
+      "operation": [
+        "MOVE",
+        "X56",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 903,
+      "operation": [
+        "MOVE",
+        "X57",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 904,
+      "operation": [
+        "MOVE",
+        "X58",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 905,
+      "operation": [
+        "MOVE",
+        "X59",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 906,
+      "operation": [
+        "MOVE",
+        "X60",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 907,
+      "operation": [
+        "MOVE",
+        "X62",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 908,
+      "operation": [
+        "MOVE",
+        "X63",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 909,
+      "operation": [
+        "MOVE",
+        "X66",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 910,
+      "operation": [
+        "MOVE",
+        "X68",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 911,
+      "operation": [
+        "MOVE",
+        "X69",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 912,
+      "operation": [
+        "MOVE",
+        "X70",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 913,
+      "operation": [
+        "MOVE",
+        "X71",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 914,
+      "operation": [
+        "MOVE",
+        "X72",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 915,
+      "operation": [
+        "MOVE",
+        "X81",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 916,
+      "operation": [
+        "MOVE",
+        "X82",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 917,
+      "operation": [
+        "MOVE",
+        "X83",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 918,
+      "operation": [
+        "MOVE",
+        "X84",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 919,
+      "operation": [
+        "MOVE",
+        "X85",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 920,
+      "operation": [
+        "MOVE",
+        "X86",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 921,
+      "operation": [
+        "MOVE",
+        "X87",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 922,
+      "operation": [
+        "MOVE",
+        "X88",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 923,
+      "operation": [
+        "MOVE",
+        "X89",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 924,
+      "operation": [
+        "MOVE",
+        "X90",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 925,
+      "operation": [
+        "MOVE",
+        "X91",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 926,
+      "operation": [
+        "MOVE",
+        "X92",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 927,
+      "operation": [
+        "MOVE",
+        "X93",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 928,
+      "operation": [
+        "MOVE",
+        "X94",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 929,
+      "operation": [
+        "MOVE",
+        "X95",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 930,
+      "operation": [
+        "MOVE",
+        "X96",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 931,
+      "operation": [
+        "MOVE",
+        "X97",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 932,
+      "operation": [
+        "MOVE",
+        "X98",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 933,
+      "operation": [
+        "MOVE",
+        "X99",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 934,
+      "operation": [
+        "MOVE",
+        "X100",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 935,
+      "operation": [
+        "MOVE",
+        "X101",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 936,
+      "operation": [
+        "MOVE",
+        "X102",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 937,
+      "operation": [
+        "MOVE",
+        "X103",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 938,
+      "operation": [
+        "MOVE",
+        "X104",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 939,
+      "operation": [
+        "MOVE",
+        "X105",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 940,
+      "operation": [
+        "MOVE",
+        "X106",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 941,
+      "operation": [
+        "MOVE",
+        "X107",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 942,
+      "operation": [
+        "MOVE",
+        "X108",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 943,
+      "operation": [
+        "MOVE",
+        "X109",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    },
+    {
+      "index": 944,
+      "operation": [
+        "MOVE",
+        "X110",
+        "Hub"
+      ],
+      "why": "closed raw carrier control"
+    }
+  ],
+  "negative_controls": [
+    {
+      "control": "omit protected capture",
+      "rejected": "('Y endpoint', 50)"
+    },
+    {
+      "control": "omit actual ground endpoint repair",
+      "rejected": "('Y endpoint', 50)"
+    },
+    {
+      "control": "omit carrier Hub closure",
+      "rejected": "('X endpoint', 50)"
+    },
+    {
+      "control": "omit protected owner retirement",
+      "rejected": "complete lifetimes"
+    },
+    {
+      "control": "unprojected old raw-backup reader",
+      "operation": [
+        "ADD",
+        "ZRAW0",
+        "Y45"
+      ],
+      "rejected": "('Y endpoint', 45)"
+    },
+    {
+      "control": "release mutable original X10",
+      "rejected": "release requires immutable X donors"
+    }
+  ],
+  "scope": "All46 endpoints preserved; 73 immutable originals are completely detached from old source computation, with independent native backups for the 10 released old targets. Their actual raw values stay at their native lines until the declared interface; 73 direct Hub returns close this control. Old higher source rows and histories are projected, not inherited. All original111 X and arbitrary111 Y columns are retained. This is a route-release interface, not a completed supplier or new kappa.",
+  "new_complete_kappa": false
+}

@@ -1,0 +1,218 @@
+{
+  "status": "PASS_S018_CHECKPOINT1_REPRODUCTION",
+  "commands": [
+    {
+      "script": "research/moonshot-005-program/results/bit-protected-source-projection/author/release_projection.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--out",
+        "$OUT/projection",
+        "--maximal"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/results/bit-protected-source-projection/author/price_projection.py",
+      "args": [
+        "--result",
+        "$OUT/projection/RESULT.json",
+        "--out",
+        "$OUT/projection/PRICE.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/results/bit-full-hub-programmable-source/author/build_full_hub.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--out",
+        "$OUT/full-hub"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/results/bit-full-hub-programmable-source/author/build_arbitrary_retention.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--base",
+        "$OUT/full-hub/WORD.json",
+        "--out",
+        "$OUT/arbitrary-six"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/root-review/review_current.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--word",
+        "$REPO/research/moonshot-005-program/results/bit-protected-source-projection/author/WORD.json",
+        "--out",
+        "$OUT/projection-root.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/root-review/review_current.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--word",
+        "$REPO/research/moonshot-005-program/results/bit-full-hub-programmable-source/author/full-hub/WORD.json",
+        "--out",
+        "$OUT/full-hub-root.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/root-review/review_current.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--word",
+        "$REPO/research/moonshot-005-program/results/bit-full-hub-programmable-source/author/arbitrary-six/WORD.json",
+        "--out",
+        "$OUT/arbitrary-six-root.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/root-review/review_projection.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--word",
+        "$REPO/research/moonshot-005-program/results/bit-protected-source-projection/author/WORD.json",
+        "--out",
+        "$OUT/interface.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/root-review/review_source_families.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--hub",
+        "$REPO/research/moonshot-005-program/results/bit-full-hub-programmable-source/author/full-hub/WORD.json",
+        "--family",
+        "$REPO/research/moonshot-005-program/results/bit-full-hub-programmable-source/author/arbitrary-six/WORD.json",
+        "--out",
+        "$OUT/source-family.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/results/bit-collective-carrier-restoration/independent-review/check.py",
+      "args": [
+        "--proof",
+        "$REPO/research/moonshot-005-program/results/bit-collective-carrier-restoration/PROOF.md",
+        "--out",
+        "$OUT/restoration.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/results/complex-coherent-diagonal-exclusion/author/check_pivot_propagation.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--out",
+        "$OUT/complex-author.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/root-review/review_pivot.py",
+      "args": [
+        "--proof",
+        "$REPO/research/moonshot-005-program/results/complex-coherent-diagonal-exclusion/author/PIVOT-PROPAGATION.md",
+        "--out",
+        "$OUT/complex-root.json"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "byte_comparisons": [
+    {
+      "frozen": "research/moonshot-005-program/results/bit-protected-source-projection/author/WORD.json",
+      "sha256": "01f93ac753a468829921a7a41fc4f49122c6e94e5a1ede0b2352459de13fca80",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/results/bit-protected-source-projection/author/RESULT.json",
+      "sha256": "0957ba2fd2a90cce91ebff18bb9d303a50fd602ae6671cb92067ca4d1f2e9735",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/results/bit-protected-source-projection/author/PRICE.json",
+      "sha256": "c606922c724462eeef67bea9c2aca48b9404add72a1accdef35ab7c9bee810dc",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/results/bit-full-hub-programmable-source/author/full-hub/WORD.json",
+      "sha256": "da54215a2eb4744089bbed49fcb723b8d79a1da1295841398b84e3544d9a13b2",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/results/bit-full-hub-programmable-source/author/full-hub/RESULT.json",
+      "sha256": "b31431841a9f48d2252b102591c6c1d8d74368f42d488a11a670d99a4d676441",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/results/bit-full-hub-programmable-source/author/arbitrary-six/WORD.json",
+      "sha256": "6a5348136b370992b8175016182d36c4e16a9feee626ccdd0e4ce86d46c8cb27",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/results/bit-full-hub-programmable-source/author/arbitrary-six/RESULT.json",
+      "sha256": "98faaa8989689c0c24a689a1ac03d217d5cb5317fad24343536b23bc7c1a48e2",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/results/bit-protected-source-projection/root-review/REPLAY.json",
+      "sha256": "eacaccbcd904ebfaf6b61bd0b137d9fba58f1d90bc42789bc2dce1237c0676d0",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/results/bit-full-hub-programmable-source/root-review/FULL-HUB.json",
+      "sha256": "0fe62d2de5be9c8c342c10c974b66633bf827bc840defb6fbd4438cc1e9bacc8",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/results/bit-full-hub-programmable-source/root-review/ARBITRARY-SIX.json",
+      "sha256": "5846223843240e9fc6472fb6344f1d648a7439881d13ae7a4785a1e4c129882c",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/results/bit-protected-source-projection/root-review/INTERFACE.json",
+      "sha256": "330f711b8c268bc1d99ebbaa27164f64678f4fa5a8e3c7c83a6ed9dd27c17eee",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/results/bit-full-hub-programmable-source/root-review/SOURCE-FAMILY.json",
+      "sha256": "5da92f5fcaaafa981f80409d3080789d726ac8f20a9f436464fc61376194b3e2",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/results/bit-collective-carrier-restoration/independent-review/RESULT.json",
+      "sha256": "968f9875035c7eb98e4d57df6895443bc39184439cfb26647dd1060560edc55b",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/results/complex-coherent-diagonal-exclusion/author/RESULT.json",
+      "sha256": "bb83bd19a5d98268e9e6bd397d108123369c045c6d2a23272c9b6d1c6cf6d0e9",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/results/complex-coherent-diagonal-exclusion/root-review/RESULT.json",
+      "sha256": "b4dff8bfe4e23e182a17f1ce64dfac0f041bf19177530b583bac0f931548f8e4",
+      "byte_identical": true
+    }
+  ],
+  "claims": "Universal proofs separately reviewed; command execution alone is not an independent theorem. Three literal words, source interfaces, masks and prices checked; restoration and complex proofs reviewed; no supplier or new kappa."
+}

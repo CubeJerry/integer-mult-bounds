@@ -1,0 +1,69 @@
+{
+  "status": "PASS_INDEPENDENT_RESTORATION_INTERFACE_CONTROLS",
+  "proof_sha256": "510d116271a9a177077f5a71297016ce2d87a9e0be7268223907b6c24b44231e",
+  "method": "Independent exhaustive binary matrices, canonical side subspaces and invertibleU search; explicit nuisance coefficient replay for every positive case and nonzero input-collision witnesses for every negative case. No author code imported.",
+  "census": [
+    {
+      "h": 1,
+      "matrices": 2,
+      "side_subspaces": 2,
+      "invertible_candidate_U": 1,
+      "positive": 3,
+      "negative": 1,
+      "all_cases": 4
+    },
+    {
+      "h": 2,
+      "matrices": 16,
+      "side_subspaces": 5,
+      "invertible_candidate_U": 6,
+      "positive": 58,
+      "negative": 22,
+      "all_cases": 80
+    },
+    {
+      "h": 3,
+      "matrices": 512,
+      "side_subspaces": 16,
+      "invertible_candidate_U": 168,
+      "positive": 6168,
+      "negative": 2024,
+      "all_cases": 8192
+    }
+  ],
+  "cases": 8276,
+  "essential_examples": [
+    {
+      "A": [
+        3,
+        3
+      ],
+      "C": [],
+      "criterion": false,
+      "U_V": null,
+      "collision": 3
+    },
+    {
+      "A": [
+        3,
+        3
+      ],
+      "C": [
+        1
+      ],
+      "criterion": true,
+      "U_V": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collision": null
+    }
+  ],
+  "scope": "Finite controls only. The all-field and all-width claims rely on the separately reviewed universal proof, not enumeration. Actual side-information custody and paid ordinary implementation remain application obligations."
+}

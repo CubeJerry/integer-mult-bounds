@@ -1,0 +1,636 @@
+{
+  "status": "PASS_LITERAL_FULL111_HUB_SOURCE_RELEASE",
+  "base_sha256": "27dc6c36eec067acd2fe4679a81c95ea9db8fd6377784a0bbfc060ca52a121fd",
+  "word_sha256": "da54215a2eb4744089bbed49fcb723b8d79a1da1295841398b84e3544d9a13b2",
+  "before": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 127,
+      "ADD": 819,
+      "MOVE": 481,
+      "CLEAR": 127
+    },
+    "movement_profile": {
+      "1": 185,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 72,
+      "6": 22,
+      "7": 93
+    },
+    "dirty_CLEAR": 127,
+    "peak_owned": 127,
+    "historical_record_states": 1649
+  },
+  "after": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 137,
+      "ADD": 829,
+      "MOVE": 481,
+      "CLEAR": 137
+    },
+    "movement_profile": {
+      "1": 185,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 72,
+      "6": 22,
+      "7": 93
+    },
+    "dirty_CLEAR": 137,
+    "peak_owned": 137,
+    "historical_record_states": 1669
+  },
+  "old_cut": 814,
+  "held": {
+    "X1": "F21",
+    "X6": "F4",
+    "X10": "Hub",
+    "X21": "F3",
+    "X61": "Hub",
+    "X64": "F76",
+    "X65": "F80",
+    "X67": "Hub",
+    "X73": "F64",
+    "X75": "F74",
+    "X77": "F65",
+    "X79": "F78"
+  },
+  "snapshots": {
+    "X1": "F21",
+    "X6": "F4",
+    "X21": "F3",
+    "X64": "F76",
+    "X65": "F80",
+    "X67": "Hub",
+    "X73": "F64",
+    "X75": "F74",
+    "X77": "F65",
+    "X79": "F78"
+  },
+  "retimed_operations": [
+    [
+      858,
+      [
+        "MOVE",
+        "X21",
+        "Hub"
+      ]
+    ],
+    [
+      865,
+      [
+        "MOVE",
+        "X1",
+        "Hub"
+      ]
+    ],
+    [
+      866,
+      [
+        "ADD",
+        "X3",
+        "X1"
+      ]
+    ],
+    [
+      867,
+      [
+        "ADD",
+        "X10",
+        "X1"
+      ]
+    ],
+    [
+      868,
+      [
+        "ADD",
+        "X10",
+        "X21"
+      ]
+    ],
+    [
+      869,
+      [
+        "ADD",
+        "X1",
+        "X10"
+      ]
+    ],
+    [
+      870,
+      [
+        "ADD",
+        "X18",
+        "X10"
+      ]
+    ],
+    [
+      871,
+      [
+        "ADD",
+        "X26",
+        "X10"
+      ]
+    ],
+    [
+      872,
+      [
+        "ADD",
+        "X27",
+        "X10"
+      ]
+    ],
+    [
+      873,
+      [
+        "ADD",
+        "X34",
+        "X10"
+      ]
+    ],
+    [
+      874,
+      [
+        "ADD",
+        "X35",
+        "X10"
+      ]
+    ],
+    [
+      875,
+      [
+        "ADD",
+        "X47",
+        "X10"
+      ]
+    ],
+    [
+      929,
+      [
+        "MOVE",
+        "X64",
+        "Hub"
+      ]
+    ],
+    [
+      936,
+      [
+        "MOVE",
+        "X73",
+        "Hub"
+      ]
+    ],
+    [
+      937,
+      [
+        "ADD",
+        "X76",
+        "X73"
+      ]
+    ],
+    [
+      938,
+      [
+        "ADD",
+        "X61",
+        "X73"
+      ]
+    ],
+    [
+      939,
+      [
+        "ADD",
+        "X61",
+        "X64"
+      ]
+    ],
+    [
+      940,
+      [
+        "ADD",
+        "X71",
+        "X61"
+      ]
+    ],
+    [
+      941,
+      [
+        "ADD",
+        "X72",
+        "X61"
+      ]
+    ],
+    [
+      942,
+      [
+        "ADD",
+        "X73",
+        "X61"
+      ]
+    ],
+    [
+      943,
+      [
+        "ADD",
+        "X81",
+        "X61"
+      ]
+    ],
+    [
+      944,
+      [
+        "ADD",
+        "X88",
+        "X61"
+      ]
+    ],
+    [
+      945,
+      [
+        "ADD",
+        "X89",
+        "X61"
+      ]
+    ],
+    [
+      946,
+      [
+        "ADD",
+        "X108",
+        "X61"
+      ]
+    ],
+    [
+      947,
+      [
+        "ADD",
+        "X110",
+        "X61"
+      ]
+    ],
+    [
+      1005,
+      [
+        "MOVE",
+        "X65",
+        "Hub"
+      ]
+    ],
+    [
+      1013,
+      [
+        "MOVE",
+        "X77",
+        "Hub"
+      ]
+    ],
+    [
+      1014,
+      [
+        "ADD",
+        "X80",
+        "X77"
+      ]
+    ],
+    [
+      1015,
+      [
+        "ADD",
+        "X67",
+        "X77"
+      ]
+    ],
+    [
+      1016,
+      [
+        "ADD",
+        "X67",
+        "X65"
+      ]
+    ],
+    [
+      1017,
+      [
+        "ADD",
+        "X68",
+        "X67"
+      ]
+    ],
+    [
+      1018,
+      [
+        "ADD",
+        "X77",
+        "X67"
+      ]
+    ],
+    [
+      1019,
+      [
+        "ADD",
+        "X84",
+        "X67"
+      ]
+    ],
+    [
+      1020,
+      [
+        "ADD",
+        "X85",
+        "X67"
+      ]
+    ],
+    [
+      1021,
+      [
+        "ADD",
+        "X92",
+        "X67"
+      ]
+    ],
+    [
+      1022,
+      [
+        "ADD",
+        "X93",
+        "X67"
+      ]
+    ],
+    [
+      1023,
+      [
+        "ADD",
+        "X104",
+        "X67"
+      ]
+    ],
+    [
+      1024,
+      [
+        "ADD",
+        "X106",
+        "X67"
+      ]
+    ],
+    [
+      1081,
+      [
+        "MOVE",
+        "X6",
+        "Hub"
+      ]
+    ],
+    [
+      1082,
+      [
+        "ADD",
+        "X24",
+        "X6"
+      ]
+    ],
+    [
+      1083,
+      [
+        "ADD",
+        "X25",
+        "X6"
+      ]
+    ],
+    [
+      1084,
+      [
+        "ADD",
+        "X51",
+        "X6"
+      ]
+    ],
+    [
+      1143,
+      [
+        "MOVE",
+        "X75",
+        "Hub"
+      ]
+    ],
+    [
+      1144,
+      [
+        "ADD",
+        "X69",
+        "X75"
+      ]
+    ],
+    [
+      1145,
+      [
+        "ADD",
+        "X70",
+        "X75"
+      ]
+    ],
+    [
+      1146,
+      [
+        "ADD",
+        "X90",
+        "X75"
+      ]
+    ],
+    [
+      1147,
+      [
+        "ADD",
+        "X91",
+        "X75"
+      ]
+    ],
+    [
+      1253,
+      [
+        "MOVE",
+        "X79",
+        "Hub"
+      ]
+    ],
+    [
+      1254,
+      [
+        "ADD",
+        "X66",
+        "X79"
+      ]
+    ],
+    [
+      1255,
+      [
+        "ADD",
+        "X94",
+        "X79"
+      ]
+    ],
+    [
+      1256,
+      [
+        "ADD",
+        "X95",
+        "X79"
+      ]
+    ]
+  ],
+  "redirected_readers": [
+    {
+      "old_index": 827,
+      "old_operation": [
+        "ADD",
+        "X21",
+        "P0"
+      ],
+      "snapshot": "RELEASE_X21"
+    },
+    {
+      "old_index": 857,
+      "old_operation": [
+        "ADD",
+        "X21",
+        "Y3"
+      ],
+      "snapshot": "RELEASE_X21"
+    },
+    {
+      "old_index": 864,
+      "old_operation": [
+        "ADD",
+        "X1",
+        "Y21"
+      ],
+      "snapshot": "RELEASE_X1"
+    },
+    {
+      "old_index": 902,
+      "old_operation": [
+        "ADD",
+        "X64",
+        "P1"
+      ],
+      "snapshot": "RELEASE_X64"
+    },
+    {
+      "old_index": 928,
+      "old_operation": [
+        "ADD",
+        "X64",
+        "Y76"
+      ],
+      "snapshot": "RELEASE_X64"
+    },
+    {
+      "old_index": 935,
+      "old_operation": [
+        "ADD",
+        "X73",
+        "Y64"
+      ],
+      "snapshot": "RELEASE_X73"
+    },
+    {
+      "old_index": 968,
+      "old_operation": [
+        "ADD",
+        "X67",
+        "P2"
+      ],
+      "snapshot": "RELEASE_X67"
+    },
+    {
+      "old_index": 975,
+      "old_operation": [
+        "ADD",
+        "X65",
+        "P2"
+      ],
+      "snapshot": "RELEASE_X65"
+    },
+    {
+      "old_index": 1004,
+      "old_operation": [
+        "ADD",
+        "X65",
+        "Y80"
+      ],
+      "snapshot": "RELEASE_X65"
+    },
+    {
+      "old_index": 1012,
+      "old_operation": [
+        "ADD",
+        "X77",
+        "Y65"
+      ],
+      "snapshot": "RELEASE_X77"
+    },
+    {
+      "old_index": 1080,
+      "old_operation": [
+        "ADD",
+        "X6",
+        "Y4"
+      ],
+      "snapshot": "RELEASE_X6"
+    },
+    {
+      "old_index": 1142,
+      "old_operation": [
+        "ADD",
+        "X75",
+        "Y74"
+      ],
+      "snapshot": "RELEASE_X75"
+    },
+    {
+      "old_index": 1252,
+      "old_operation": [
+        "ADD",
+        "X79",
+        "Y78"
+      ],
+      "snapshot": "RELEASE_X79"
+    }
+  ],
+  "actual_Hub_cuts": [
+    {
+      "packet": "P0",
+      "actual_index": 885,
+      "raw_rank": 111
+    },
+    {
+      "packet": "P1",
+      "actual_index": 935,
+      "raw_rank": 111
+    },
+    {
+      "packet": "P2",
+      "actual_index": 994,
+      "raw_rank": 111
+    },
+    {
+      "packet": "P3",
+      "actual_index": 1058,
+      "raw_rank": 111
+    },
+    {
+      "packet": "P4",
+      "actual_index": 1114,
+      "raw_rank": 111
+    },
+    {
+      "packet": "P5",
+      "actual_index": 1172,
+      "raw_rank": 111
+    }
+  ],
+  "claim_scope": "Source scheduling changes actual Hub availability to all111 raw originals before every principal P0-P5 load; same46 endpoints, unchanged MOVE multiset, paid stationary snapshots. Partial source, no complete supplier."
+}

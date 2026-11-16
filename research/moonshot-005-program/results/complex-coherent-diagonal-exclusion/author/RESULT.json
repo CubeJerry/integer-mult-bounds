@@ -1,0 +1,243 @@
+{
+  "status": "PASS_AUTHOR_COMPLETE_COHERENT_DIAGONAL_Q_EXCLUSION",
+  "scope": "Universal proof in PIVOT-PROPAGATION.md; finite checks are supporting source/formula evidence, not independently reviewed. No caller or kappa.",
+  "local_square_column_support": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      8,
+      9,
+      10,
+      11
+    ],
+    [
+      12,
+      13,
+      14,
+      15
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      8,
+      9,
+      10,
+      11
+    ],
+    [
+      12,
+      13,
+      14,
+      15
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      8,
+      9,
+      10,
+      11
+    ],
+    [
+      12,
+      13,
+      14,
+      15
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      8,
+      9,
+      10,
+      11
+    ],
+    [
+      12,
+      13,
+      14,
+      15
+    ]
+  ],
+  "joint_sector_counts_at_widths1_to8": {
+    "1": 4,
+    "2": 9,
+    "3": 16,
+    "4": 16,
+    "5": 16,
+    "6": 16,
+    "7": 16,
+    "8": 16
+  },
+  "all_width_proof": "Every tensor column has all2^(2V) independent a/b choices, so both mod4 sums attain all16 pairs for everyV>=3.",
+  "ordered_eight_and_sixteen_support_formulas": true,
+  "literal_clock_support_and_unique_paths": [
+    {
+      "theta": 0,
+      "H_exact_Dc_theta_Cc": true,
+      "v_support": 1,
+      "H_d_A_unique_paths_support4": true,
+      "v_d_A_unique_paths_support": 2
+    },
+    {
+      "theta": 1,
+      "H_exact_Dc_theta_Cc": true,
+      "v_support": 2,
+      "H_d_A_unique_paths_support4": true,
+      "v_d_A_unique_paths_support": 4
+    },
+    {
+      "theta": 2,
+      "H_exact_Dc_theta_Cc": true,
+      "v_support": 1,
+      "H_d_A_unique_paths_support4": true,
+      "v_d_A_unique_paths_support": 2
+    },
+    {
+      "theta": 3,
+      "H_exact_Dc_theta_Cc": true,
+      "v_support": 2,
+      "H_d_A_unique_paths_support4": true,
+      "v_d_A_unique_paths_support": 4
+    }
+  ],
+  "residual_ordinary_and_four_support_formulas": true,
+  "forced_sector_determinants": true,
+  "non_diagonal_ordinary_escape": {
+    "rank": 8,
+    "annihilation": true,
+    "involution_table": [
+      [
+        4,
+        0,
+        "I"
+      ],
+      [
+        5,
+        1,
+        "I"
+      ],
+      [
+        6,
+        2,
+        "I"
+      ],
+      [
+        7,
+        3,
+        "I"
+      ],
+      [
+        0,
+        4,
+        "-I"
+      ],
+      [
+        1,
+        5,
+        "-I"
+      ],
+      [
+        2,
+        6,
+        "-I"
+      ],
+      [
+        3,
+        7,
+        "-I"
+      ],
+      [
+        12,
+        8,
+        "I"
+      ],
+      [
+        13,
+        9,
+        "I"
+      ],
+      [
+        14,
+        10,
+        "I"
+      ],
+      [
+        15,
+        11,
+        "I"
+      ],
+      [
+        8,
+        12,
+        "-I"
+      ],
+      [
+        9,
+        13,
+        "-I"
+      ],
+      [
+        10,
+        14,
+        "-I"
+      ],
+      [
+        11,
+        15,
+        "-I"
+      ]
+    ]
+  },
+  "negative_controls": [
+    "V1/V2 miss sector3: a nonzero four-sector function need not give column propagation.",
+    "A non-diagonal ordinary projector of rank8 annihilates the projected source square; diagonality is essential."
+  ],
+  "source_pins": {
+    "results/complex-four-bit-cubic-source/author/PROOF.md": "6ea08c509a1560aa334640eeb45bcdcd4649412d40292380f771cd623eee570c",
+    "results/complex-source-transport/author/SOURCE-TRANSPORTED-ROUTING.md": "fd9727036033a198de0d73a215ebb0f95503d8c602ff056633b377024be9a75d",
+    "results/complex-source-transport/author/COHERENT-FIRST-PIVOT.md": "d3f6c1478d1a61871ab99ee5c1da457ba5b39f34655549ac239723b88577a697",
+    "results/complex-middle-native-interface/author/PROOF.md": "f4bd8b8827c355187d052e8a27cd3ddab004162bb6fcf5ca03318e266bc9e4b6"
+  },
+  "proof_sha256": "a920f79c9f80f816dfa4bd5fa965e5dc464dd5a90899e64bacc49e887f136f0c"
+}
