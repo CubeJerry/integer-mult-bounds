@@ -1,0 +1,129 @@
+{
+  "status": "PASS_INDEPENDENT_ORDINARY_ROW_RANGE_AND_SPECTATOR_BRIDGE",
+  "source_package_pins": {
+    "PROOF.md": "8abf5fd5bb57256dcc3fbe0b52cde5badea1fbe343e6e28cdef3938d87d85510",
+    "WORDS.json": "9b1449bb67c14e0c86cf9c65d5ade5f844d09d29860c967594b85418306c23cd",
+    "GAUSSIAN-GAUGES.json": "7c654a4de1a78f582781edd216bb863d93f0047c27e343005554b2a06e8dee02",
+    "D8-RANGE-CERTIFICATE.json": "3b9e2f377a04ec703c8284d038b5d8ffb0575944a36e047fe993c1d34530aa22",
+    "RESULT.json": "82cba1b2d8d924a9e4960a417de0d352851ff9c0e44b69eb1d886f2b28ffa44f"
+  },
+  "engine": "Independent SymPy DomainMatrix over QQ(i); no author engine imported",
+  "D8_literal_order": 8,
+  "D8_exact_traces": [
+    "16",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "all_width_D8_row_rank": "3D/8 per active bank;3D/4 total",
+  "without_Zc_negative_control_row_ranks": [
+    "8",
+    "8"
+  ],
+  "literal_source_identities": {
+    "backward_once": true,
+    "backward_twice": true,
+    "output_decoder": true,
+    "quartic_lower_component": true,
+    "commutes_F": true,
+    "commutes_J": true,
+    "decoder_commutes_output_sign": true
+  },
+  "spectator_collective_prefix_rank": "(16^V+8^V)/2",
+  "spectator_collective_kernel_rank": "(16^V-8^V)/2",
+  "width_controls": {
+    "V1_prefix": 12,
+    "V1_kernel": 4,
+    "V2_collective_prefix": 160,
+    "wrong_tensor_of_one_column_projector_rank": 144,
+    "wrong_half_D_at_V2": 128
+  },
+  "exact_Gaussian_gauges": 20,
+  "both_ordinary_kernel_factorizations": true,
+  "wrong_kernel_controls_rejected": 2,
+  "quartic_rank4_and_rank2_components_full_D": true,
+  "literal_interface_receipts": {
+    "C_new": {
+      "counts": {
+        "ADD": 8,
+        "SCALE": 8,
+        "MONO": 3
+      },
+      "prefix_bound": "22"
+    },
+    "C_new_inverse": {
+      "counts": {
+        "MONO": 3,
+        "ADD": 8,
+        "SCALE": 8
+      },
+      "prefix_bound": "22"
+    },
+    "C_swapped12": {
+      "counts": {
+        "ADD": 11,
+        "SCALE": 11,
+        "MONO": 3
+      },
+      "prefix_bound": "74"
+    },
+    "C_swapped12_inverse": {
+      "counts": {
+        "MONO": 3,
+        "ADD": 11,
+        "SCALE": 11
+      },
+      "prefix_bound": "43"
+    },
+    "Drow": {
+      "counts": {
+        "MONO": 1
+      },
+      "prefix_bound": "1"
+    },
+    "Drow_inverse": {
+      "counts": {
+        "MONO": 1
+      },
+      "prefix_bound": "1"
+    },
+    "O": {
+      "counts": {
+        "ADD": 4,
+        "SCALE": 4,
+        "MONO": 1
+      },
+      "prefix_bound": "14"
+    },
+    "O_inverse": {
+      "counts": {
+        "ADD": 4,
+        "SCALE": 4,
+        "MONO": 1
+      },
+      "prefix_bound": "14"
+    },
+    "Q_kernel": {
+      "counts": {
+        "ADD": 4,
+        "SCALE": 4,
+        "MONO": 1
+      },
+      "prefix_bound": "14"
+    },
+    "Q_kernel_inverse": {
+      "counts": {
+        "ADD": 4,
+        "SCALE": 4,
+        "MONO": 1
+      },
+      "prefix_bound": "14"
+    }
+  },
+  "omitted_ADD_controls_rejected": 54,
+  "scope": "Universal active-swap row-range exclusion in a fixed finite root-four tensor catalogue; actual spectator ordinary source/kernel bridge, not a full independent421 caller, supplier, or new kappa."
+}

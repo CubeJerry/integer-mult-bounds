@@ -1,0 +1,864 @@
+{
+  "status": "PASS_INDEPENDENT_LAST_SHARED_CHART_NATIVE_ONLY_OBSTRUCTION",
+  "word_sha256": "f5acfcb454d6d50dfdb7d66acd2c33980e4aed17826afafbb67fbeb2168f58c1",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "source_cut": 1502,
+  "unfinished_receivers": [
+    0,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    74,
+    75,
+    78,
+    79,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "initial_inaccessible_proper_fields": [
+    "COMMON_SUM",
+    "MASK_1",
+    "FACET_SUM_1",
+    "MASK_3",
+    "FACET_SUM_3",
+    "MASK_73",
+    "FACET_SUM_73",
+    "MASK_76",
+    "FACET_SUM_76",
+    "MASK_77",
+    "FACET_SUM_77",
+    "MASK_80",
+    "FACET_SUM_80",
+    "COHORT_SUM_0",
+    "COHORT_SUM_1",
+    "COHORT_SUM_2",
+    "COHORT_SUM_3",
+    "COHORT_SUM_4",
+    "COHORT_SUM_5",
+    "COHORT_SUM_6"
+  ],
+  "canonical_alternative_support_gap": {
+    "0": 22,
+    "2": 19,
+    "4": 20,
+    "5": 20,
+    "6": 20,
+    "7": 18,
+    "8": 19,
+    "9": 21,
+    "10": 18,
+    "11": 20,
+    "12": 20,
+    "13": 20,
+    "14": 19,
+    "15": 21,
+    "16": 21,
+    "17": 21,
+    "18": 20,
+    "19": 20,
+    "20": 21,
+    "21": 20,
+    "22": 20,
+    "23": 20,
+    "24": 19,
+    "25": 19,
+    "26": 19,
+    "27": 20,
+    "28": 20,
+    "29": 22,
+    "30": 20,
+    "31": 20,
+    "32": 20,
+    "33": 20,
+    "34": 19,
+    "35": 20,
+    "36": 22,
+    "37": 22,
+    "38": 19,
+    "39": 23,
+    "40": 19,
+    "41": 19,
+    "42": 18,
+    "43": 19,
+    "44": 21,
+    "45": 20,
+    "46": 21,
+    "47": 21,
+    "48": 19,
+    "49": 19,
+    "50": 21,
+    "51": 18,
+    "52": 20,
+    "53": 18,
+    "54": 22,
+    "55": 20,
+    "56": 20,
+    "57": 20,
+    "58": 20,
+    "59": 20,
+    "60": 21,
+    "61": 20,
+    "62": 19,
+    "63": 21,
+    "64": 20,
+    "65": 21,
+    "66": 20,
+    "67": 20,
+    "68": 20,
+    "69": 20,
+    "70": 22,
+    "71": 22,
+    "72": 20,
+    "74": 20,
+    "75": 20,
+    "78": 20,
+    "79": 20,
+    "81": 18,
+    "82": 19,
+    "83": 21,
+    "84": 20,
+    "85": 20,
+    "86": 20,
+    "87": 20,
+    "88": 19,
+    "89": 20,
+    "90": 21,
+    "91": 19,
+    "92": 21,
+    "93": 19,
+    "94": 21,
+    "95": 19,
+    "96": 19,
+    "97": 20,
+    "98": 20,
+    "99": 19,
+    "100": 20,
+    "101": 20,
+    "102": 20,
+    "103": 19,
+    "104": 20,
+    "105": 20,
+    "106": 20,
+    "107": 22,
+    "108": 22,
+    "109": 22,
+    "110": 20
+  },
+  "ordered_unfinished_receiver_pairs": 10920,
+  "neighborhood_difference_histogram": {
+    "21": 9,
+    "22": 86,
+    "23": 396,
+    "24": 1248,
+    "25": 1753,
+    "26": 1310,
+    "27": 379,
+    "28": 223,
+    "29": 846,
+    "30": 1622,
+    "31": 1743,
+    "32": 1055,
+    "33": 250
+  },
+  "minimum_neighborhood_difference": 21,
+  "per_receiver_minimum_difference": [
+    {
+      "receiver": 0,
+      "other_receiver": 25,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 2,
+      "other_receiver": 10,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 4,
+      "other_receiver": 78,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 5,
+      "other_receiver": 32,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 6,
+      "other_receiver": 79,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 7,
+      "other_receiver": 24,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 8,
+      "other_receiver": 2,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 9,
+      "other_receiver": 2,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 10,
+      "other_receiver": 2,
+      "minimum_difference": 25
+    },
+    {
+      "receiver": 11,
+      "other_receiver": 10,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 12,
+      "other_receiver": 7,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 13,
+      "other_receiver": 34,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 14,
+      "other_receiver": 2,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 15,
+      "other_receiver": 2,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 16,
+      "other_receiver": 10,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 17,
+      "other_receiver": 62,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 18,
+      "other_receiver": 61,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 19,
+      "other_receiver": 10,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 20,
+      "other_receiver": 42,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 21,
+      "other_receiver": 64,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 22,
+      "other_receiver": 26,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 23,
+      "other_receiver": 10,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 24,
+      "other_receiver": 7,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 25,
+      "other_receiver": 7,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 26,
+      "other_receiver": 7,
+      "minimum_difference": 25
+    },
+    {
+      "receiver": 27,
+      "other_receiver": 7,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 28,
+      "other_receiver": 24,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 29,
+      "other_receiver": 25,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 30,
+      "other_receiver": 34,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 31,
+      "other_receiver": 14,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 32,
+      "other_receiver": 10,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 33,
+      "other_receiver": 24,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 34,
+      "other_receiver": 13,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 35,
+      "other_receiver": 10,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 36,
+      "other_receiver": 11,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 37,
+      "other_receiver": 33,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 38,
+      "other_receiver": 2,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 39,
+      "other_receiver": 10,
+      "minimum_difference": 21
+    },
+    {
+      "receiver": 40,
+      "other_receiver": 7,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 41,
+      "other_receiver": 2,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 42,
+      "other_receiver": 2,
+      "minimum_difference": 25
+    },
+    {
+      "receiver": 43,
+      "other_receiver": 7,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 44,
+      "other_receiver": 10,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 45,
+      "other_receiver": 2,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 46,
+      "other_receiver": 51,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 47,
+      "other_receiver": 10,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 48,
+      "other_receiver": 8,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 49,
+      "other_receiver": 28,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 50,
+      "other_receiver": 2,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 51,
+      "other_receiver": 19,
+      "minimum_difference": 25
+    },
+    {
+      "receiver": 52,
+      "other_receiver": 12,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 53,
+      "other_receiver": 24,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 54,
+      "other_receiver": 7,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 55,
+      "other_receiver": 10,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 56,
+      "other_receiver": 18,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 57,
+      "other_receiver": 51,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 58,
+      "other_receiver": 13,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 59,
+      "other_receiver": 25,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 60,
+      "other_receiver": 14,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 61,
+      "other_receiver": 18,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 62,
+      "other_receiver": 2,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 63,
+      "other_receiver": 34,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 64,
+      "other_receiver": 21,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 65,
+      "other_receiver": 26,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 66,
+      "other_receiver": 25,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 67,
+      "other_receiver": 21,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 68,
+      "other_receiver": 10,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 69,
+      "other_receiver": 24,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 70,
+      "other_receiver": 14,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 71,
+      "other_receiver": 26,
+      "minimum_difference": 21
+    },
+    {
+      "receiver": 72,
+      "other_receiver": 27,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 74,
+      "other_receiver": 51,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 75,
+      "other_receiver": 10,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 78,
+      "other_receiver": 4,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 79,
+      "other_receiver": 6,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 81,
+      "other_receiver": 2,
+      "minimum_difference": 25
+    },
+    {
+      "receiver": 82,
+      "other_receiver": 2,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 83,
+      "other_receiver": 2,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 84,
+      "other_receiver": 7,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 85,
+      "other_receiver": 10,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 86,
+      "other_receiver": 53,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 87,
+      "other_receiver": 2,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 88,
+      "other_receiver": 2,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 89,
+      "other_receiver": 42,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 90,
+      "other_receiver": 51,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 91,
+      "other_receiver": 10,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 92,
+      "other_receiver": 2,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 93,
+      "other_receiver": 4,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 94,
+      "other_receiver": 51,
+      "minimum_difference": 21
+    },
+    {
+      "receiver": 95,
+      "other_receiver": 2,
+      "minimum_difference": 25
+    },
+    {
+      "receiver": 96,
+      "other_receiver": 7,
+      "minimum_difference": 25
+    },
+    {
+      "receiver": 97,
+      "other_receiver": 10,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 98,
+      "other_receiver": 51,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 99,
+      "other_receiver": 7,
+      "minimum_difference": 25
+    },
+    {
+      "receiver": 100,
+      "other_receiver": 42,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 101,
+      "other_receiver": 10,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 102,
+      "other_receiver": 11,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 103,
+      "other_receiver": 32,
+      "minimum_difference": 24
+    },
+    {
+      "receiver": 104,
+      "other_receiver": 34,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 105,
+      "other_receiver": 33,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 106,
+      "other_receiver": 51,
+      "minimum_difference": 23
+    },
+    {
+      "receiver": 107,
+      "other_receiver": 42,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 108,
+      "other_receiver": 34,
+      "minimum_difference": 21
+    },
+    {
+      "receiver": 109,
+      "other_receiver": 18,
+      "minimum_difference": 22
+    },
+    {
+      "receiver": 110,
+      "other_receiver": 19,
+      "minimum_difference": 23
+    }
+  ],
+  "explicit_maximal_grant_collision": {
+    "receiver": 39,
+    "last_co_visit_other_receiver": 10,
+    "seventeen_globally_granted_native_inputs": [
+      1,
+      4,
+      18,
+      19,
+      26,
+      28,
+      33,
+      35,
+      42,
+      48,
+      53,
+      64,
+      65,
+      69,
+      75,
+      76,
+      79
+    ],
+    "one_extra_native_suffix_input": 80,
+    "missing_indispensable_input": 91,
+    "difference_support": [
+      39,
+      57,
+      91,
+      101,
+      102,
+      107
+    ],
+    "all_ground_code_and_every_other_orthogonal_input_unchanged": true
+  },
+  "theorem": {
+    "maximum_global_native_grants_excluded": 17,
+    "necessary_distinct_native_descent_origins_for_completion": 18,
+    "scope": "Every future owned MOVE starts at a native line and ends at ground; arbitrary local nonlinear computation, original Y feedback, Y-bearing stationary owners, and fixed schedules. Exact source cut retained.",
+    "last_shared_chart_definition": "The last chart on Y_i own ascending route that any different unfinished Y visits at any time, even at disjoint times."
+  },
+  "movement_lower_bound": {
+    "baseline": {
+      "rational": [
+        "64518229628180690634606627648352389129/40000000000000000000000000000000000",
+        "1612955740704517265865165691208809728549/1000000000000000000000000000000000000"
+      ],
+      "decimal": [
+        "1612.955740704517265865165691208809728225",
+        "1612.955740704517265865165691208809728549"
+      ]
+    },
+    "additional_native_ports_at_least": 18,
+    "necessary_allowance": {
+      "rational": [
+        "9730505281266914131477476902201969918029/6000000000000000000000000000000000000",
+        "810875440105576177623123075183497493277/500000000000000000000000000000000000"
+      ],
+      "decimal": [
+        "1621.75088021115235524624615036699498633816666666666666666667",
+        "1621.750880211152355246246150366994986554"
+      ]
+    },
+    "strict_excess": {
+      "rational": [
+        "9204860493364910618919540841814741671/1000000000000000000000000000000000000",
+        "11045832592037892742703449010177690653/1200000000000000000000000000000000000"
+      ],
+      "decimal": [
+        "9.204860493364910618919540841814741671",
+        "9.20486049336491061891954084181474221083333333333333333333333"
+      ]
+    }
+  },
+  "controls": {
+    "all_native_neighbors_granted_decodes": true,
+    "granting_all21_missing_neighbors_is_outside_scope_and_decodes": true
+  },
+  "classification": "Independent mathematical verification of root last-co-visit argument, with freshly recomputed exact finite source premises. No new kappa; nonnative descending sources and earlier source changes remain open."
+}

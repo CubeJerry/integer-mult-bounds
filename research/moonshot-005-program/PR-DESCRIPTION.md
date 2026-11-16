@@ -1,12 +1,16 @@
 # Construct chronological shared-facet decoders and prove source and Gaussian-rank constraints toward κ = 0.005
 
-## Current frontier — S019 checkpoint1,17 November2026 Melbourne
+## Current frontier — S019 checkpoint2
 
-S018 checkpoint6 was recovered from its exact staged tree at the confirmed parent and independently reviewed. The early-F74 canonical9 source is valid, but a new Petersen-plus-four-isolates argument forces **nine further downward records, including nonlinear co-chart processing**. Its unchanged prefix exceeds the necessary κ=1/200 movement allowance by0.506502803416551758166075613595.... The static native-neighbor broadcast optimum is exactly nine; physical delivery remains missing.
+This cumulative programme develops physical information delivery through reversible original carriers and establishes source-specific geometric and ordinary-module constraints toward κ=0.005. S019 admits two new actual partial BIT words, a nonlinear last-shared-chart lower bound, a stronger source-location lower bound, exact ordinary character/component gates, and a spectator-swap complex kernel interface. These results compose as construction tools and restrictions, not as a complete multiplication theorem.
 
-The primary task is earlier proper-chart acquisition and original-carrier histories with actual receiver routes, restoration and full cost accounting. The complex supplier still needs an independent421 endpoint beyond the admitted range gates. An ordinary rank-D projector is not automatically a free one-bank image; see the S019 clarification.
+The six- and twelve-output source words restore all original inputs and retain full arbitrary Y columns. Their invoices and independent reviews show why later completion is too expensive under the stated cuts. The next architecture must use carrier routes earlier. The complex bridge supplies both ordinary kernel channels and a full-rank aligned Gaussian4 component with Gaussian2 residue; the independent (4,2,1) endpoint is still open. Every failed construction is delimited by its actual source, timing and ordinary-catalogue assumptions.
 
-**No new complete κ. The programme remains ongoing and is not PR-ready.** Selected upstream conditional κ remains363005817/100000000000; all five foundations remain. New evidence: results/bit-petersen-transcript-gate/ADMISSION.md and sessions/2026-11-17-S019/.
+Base for this checkpoint: `f4638d22816c96904442b5d4739cc1015279f131`; canonical main examined: `e54523517d0f03e58352e647c403a5af3e525a57`. Full evidence, portable checks, negative controls, exact source pins and independent agent reviews are under `sessions/2026-11-17-S019/checkpoint2-evidence/`. Reproduction: `python -B research/moonshot-005-program/sessions/2026-11-17-S019/reproduce_cp2.py --repo . --out /tmp/moonshot-S019-cp2`.
+
+Credit @CubeJerry, the preserved native/canonical/arrival and complex source predecessors, and the cited classical Petersen index-coding result. Prepared with substantial OpenAI assistance; independent agent review is not human or proof-kernel certification. No upstream PR has been submitted. A prefilled compare link will be prepared only after the whole cumulative contribution passes a separate PR-readiness review.
+
+**No new complete κ.** The selected upstream conditional bound remains `363005817/100000000000`; both strict suppliers, complete recursion and all five foundational assumptions remain open. The programme is ongoing and is not PR-ready.
 
 ## Retained S018 checkpoint6 context
 

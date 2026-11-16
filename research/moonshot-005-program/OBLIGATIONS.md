@@ -1,12 +1,23 @@
 # Current proof-dependency map
 
-## Current frontier — S019 checkpoint1,17 November2026 Melbourne
+## Current frontier — S019 checkpoint2
 
-S018 checkpoint6 was recovered from its exact staged tree at the confirmed parent and independently reviewed. The early-F74 canonical9 source is valid, but a new Petersen-plus-four-isolates argument forces **nine further downward records, including nonlinear co-chart processing**. Its unchanged prefix exceeds the necessary κ=1/200 movement allowance by0.506502803416551758166075613595.... The static native-neighbor broadcast optimum is exactly nine; physical delivery remains missing.
+The current dependency chain is **actual earlier source → reversible carrier delivery → all 111 BIT endpoints and restoration → completed strict BIT supplier**, in parallel with **ordinary spectator kernels → independent complex (4,2,1) caller → strict uniform complex supplier**, followed by the retained complete assembly. None of the last three supplier/assembly arrows is established.
 
-The primary task is earlier proper-chart acquisition and original-carrier histories with actual receiver routes, restoration and full cost accounting. The complex supplier still needs an independent421 endpoint beyond the admitted range gates. An ordinary rank-D projector is not automatically a free one-bank image; see the S019 clarification.
+| Obligation, quantifiers and dependencies | Status | Next concrete action |
+|---|---|---|
+| Common-meet and routed donor-pivot identities, all characteristic-two fields and whole-record widths, actual co-chart reads and restoration | Proved; two literal partial words, all 222 columns and full invoices independently checked | Compose before originals finish ascending; do not append to a cut already excluded. |
+| Nonlinear fixed-schedule six-source continuation using only native-origin descents | Disproved within target budget by last shared real chart and exact canonical support gaps | Change departure sources or earlier histories. |
+| Arbitrary fixed-schedule continuation of the exact D4 twelve cut | Disproved within target budget by normal span, one-descent destination and kernel-pair arguments | Reuse routing lemma at an earlier cut. |
+| M1-containing departures from the earlier local canonical9 source | Disproved within target budget by exact rank-flat census and downset transcript proof | A proposed escape must actually depart from a lower or different chart. |
+| Repeated-plus, JZa and active-swap complex prefixes in the fixed finite ordinary tensor catalogue | Excluded by their respective character, kernel, component and row-range hypotheses | Do not transfer these obstructions without checking their hypotheses. |
+| Spectator swap ordinary kernels and aligned quartic components, every positive width | Proved constructive interface; exact collective ranks retained | Find full invertible C,Q and independent endpoints with actual inverses and costs. |
+| Spectator two-bank pencil simplification and early-Y BIT composition | Active unverified next work; not incorporated into a claimed caller | Independently review any completed identity/source word before admission. |
+| Strict suppliers, complete recursive theorem and five foundations | Open | Preserve every interface and source dependency; no κ update until the assembled proof is complete. |
 
-**No new complete κ. The programme remains ongoing and is not PR-ready.** Selected upstream conditional κ remains363005817/100000000000; all five foundations remain. New evidence: results/bit-petersen-transcript-gate/ADMISSION.md and sessions/2026-11-17-S019/.
+Precise propositions, source pins, written proofs and independently implemented checks are linked from the four new admissions: [carrier routing](results/bit-routed-original-fanout/ADMISSION.md), [last shared chart](results/bit-last-shared-chart/ADMISSION.md), [source location](results/bit-source-location-gate/ADMISSION.md), and [complex ordinary kernels](results/complex-ordinary-kernel-architecture/ADMISSION.md). The result registry retains every earlier classification. The cp1 logical state is archived under `sessions/2026-11-17-S019/logical-records-before-cp2/`.
+
+**No new complete κ.** The selected upstream conditional bound remains `363005817/100000000000`; both strict suppliers, complete recursion and all five foundational assumptions remain open. The programme is ongoing and is not PR-ready.
 
 ## Retained S018 checkpoint6 context
 

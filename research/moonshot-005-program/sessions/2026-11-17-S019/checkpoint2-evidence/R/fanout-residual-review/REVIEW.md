@@ -1,0 +1,3 @@
+# Independent fixed-source native-exposure review
+
+The actual six-target source and all222 columns, code rows, inaccessible proper owners and complete source field count were reconstructed separately from C. All512 codewords,105 receiver uniqueness conditions and111 explicit missing-native-input kernel collisions pass exact checks. The native-only six-port movement floor and the seven/eight boundary were checked with a separate128-bit integer-root implementation. The stronger last-shared-chart theorem subsequently closes all affordable native-only continuations; these earlier necessity calculations remain valid. The unrestricted construction remains partial.

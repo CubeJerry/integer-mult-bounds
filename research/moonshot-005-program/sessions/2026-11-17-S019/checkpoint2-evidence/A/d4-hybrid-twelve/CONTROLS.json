@@ -1,0 +1,170 @@
+{
+  "status": "PASS_D4_ROUTING_AND_13_DESTRUCTIVE_CONTROL_CLASSES",
+  "word_sha256": "20b6e4e1488bcbe475f19461517d5ad3e4be565b823fc9a1017d8581ca4bd336",
+  "verifier_sha256": "b5402a2dbdd8f49efac3fee678d88ca653bb5d1d6b80ae6fd47372c777db2762",
+  "stats": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 217,
+      "ADD": 1193,
+      "MOVE": 456,
+      "CLEAR": 217
+    },
+    "movement_profile": {
+      "1": 144,
+      "3": 93,
+      "4": 111,
+      "7": 99,
+      "8": 9
+    },
+    "dirty_CLEAR": 217,
+    "peak_owned": 217,
+    "historical_record_states": 2088
+  },
+  "controls": [
+    {
+      "kind": "native_captures",
+      "deleted_index": 1,
+      "deleted_operation": [
+        "ADD",
+        "X0",
+        "NATIVE_RAW_0"
+      ],
+      "rejected": true,
+      "reason": "('native cache cut', 0)"
+    },
+    {
+      "kind": "common_captures",
+      "deleted_index": 224,
+      "deleted_operation": [
+        "ADD",
+        "X0",
+        "COMMON_SUM"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "kind": "mask_captures",
+      "deleted_index": 226,
+      "deleted_operation": [
+        "ADD",
+        "X0",
+        "RAW_MASK_0"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "kind": "group_captures",
+      "deleted_index": 273,
+      "deleted_operation": [
+        "ADD",
+        "X51",
+        "GROUP_SUM_0"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "kind": "pivot_coding",
+      "deleted_index": 331,
+      "deleted_operation": [
+        "ADD",
+        "X14",
+        "X13"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "kind": "cohort_descents",
+      "deleted_index": 302,
+      "deleted_operation": [
+        "MOVE",
+        "GROUP_SUM_2",
+        "D4_COMMON"
+      ],
+      "rejected": true,
+      "reason": "(1577, ['ADD', 'GROUP_SUM_2', 'Y3'], 'colocation')"
+    },
+    {
+      "kind": "masked_injections",
+      "deleted_index": 779,
+      "deleted_operation": [
+        "ADD",
+        "GROUP_SUM_5",
+        "X0"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "kind": "route_deposits",
+      "deleted_index": 618,
+      "deleted_operation": [
+        "ADD",
+        "X51",
+        "ROUTE_0_PLANE"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "kind": "carrier_restorations",
+      "deleted_index": 644,
+      "deleted_operation": [
+        "ADD",
+        "X14",
+        "X13"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "kind": "canonical_loads",
+      "deleted_index": 971,
+      "deleted_operation": [
+        "ADD",
+        "X0",
+        "CANONICAL_0"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "kind": "canonical_descents",
+      "deleted_index": 1028,
+      "deleted_operation": [
+        "MOVE",
+        "CANONICAL_0",
+        "zero"
+      ],
+      "rejected": true,
+      "reason": "(1029, ['ADD', 'CANONICAL_0', 'Y3'], 'colocation')"
+    },
+    {
+      "kind": "canonical_preloads",
+      "deleted_index": 1029,
+      "deleted_operation": [
+        "ADD",
+        "CANONICAL_0",
+        "Y3"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "kind": "receiver_reads",
+      "deleted_index": 1576,
+      "deleted_operation": [
+        "ADD",
+        "COMMON_SUM",
+        "Y3"
+      ],
+      "rejected": true,
+      "reason": ""
+    }
+  ],
+  "scope": "Author-side exact replay and omissions; independent proof review remains separate."
+}

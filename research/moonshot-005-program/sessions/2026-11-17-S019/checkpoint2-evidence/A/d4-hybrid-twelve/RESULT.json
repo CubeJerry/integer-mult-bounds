@@ -1,0 +1,74 @@
+{
+  "status": "PASS_D4_ROUTED_COHORT_HYBRID",
+  "word_sha256": "20b6e4e1488bcbe475f19461517d5ad3e4be565b823fc9a1017d8581ca4bd336",
+  "targets": [
+    3,
+    4,
+    47,
+    51,
+    74,
+    76,
+    78,
+    80,
+    88,
+    90,
+    92,
+    94
+  ],
+  "completed_outputs": 12,
+  "unfinished_outputs": 99,
+  "descended_groups": [
+    15,
+    14,
+    3,
+    2,
+    13,
+    12
+  ],
+  "common_carriers_used": 12,
+  "unmasked_pivots_used": 18,
+  "total_routes": 30,
+  "stats": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 217,
+      "ADD": 1193,
+      "MOVE": 456,
+      "CLEAR": 217
+    },
+    "movement_profile": {
+      "1": 144,
+      "3": 93,
+      "4": 111,
+      "7": 99,
+      "8": 9
+    },
+    "dirty_CLEAR": 217,
+    "peak_owned": 217,
+    "historical_record_states": 2088
+  },
+  "all222_columns": true,
+  "all_X_restored_before_nine_canonical_loads": true,
+  "source_cut": 1767,
+  "moment": {
+    "rational": [
+      "1619950100973460117468699267007674088125177827/1000000000000000000000000000000000000000000",
+      "1619950100973460117468699267007674088125178139/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1619.950100973460117468699267007674088125177827",
+      "1619.950100973460117468699267007674088125178139"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "1800779237692237777546883359320898322737311/1000000000000000000000000000000000000000000",
+      "10804675426153426665281300155925389936427033/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1.800779237692237777546883359320898322737311",
+      "1.8007792376922377775468833593208983227378388333333333333333333333"
+    ]
+  },
+  "scope": "Literal partial 12-target source with six unit cohort descents plus nine canonical ground descents; reversible own-donor and common masked original fanout across rank5/6/7 charts. All99 unfinished Y raw atground atcut. No complete supplier; no new kappa."
+}

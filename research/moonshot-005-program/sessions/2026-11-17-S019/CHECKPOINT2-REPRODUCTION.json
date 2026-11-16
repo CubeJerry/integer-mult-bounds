@@ -1,0 +1,158 @@
+{
+  "status": "PASS_S019_CP2_FOCUSED_REPRODUCTION",
+  "scope": "New source words, exact premises, independent proofs and controls; not a rerun of all inherited supplier/frontier suites.",
+  "checks": [
+    {
+      "name": "A-six",
+      "status": "PASS",
+      "comparison": "byte-identical-word",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/A/build_common_carrier_fanout.py",
+      "script_sha256": "949595c7b2420a24c53a0ccd7b8a27621b9224be26157a2798383b9915f09a52",
+      "result_sha256": "f5acfcb454d6d50dfdb7d66acd2c33980e4aed17826afafbb67fbeb2168f58c1"
+    },
+    {
+      "name": "A-twelve",
+      "status": "PASS",
+      "comparison": "byte-identical-word",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/A/build_d4_hybrid.py",
+      "script_sha256": "c2f66870e6d2203ac21f9af9cdeb282ccbcd216a7e2d44f271a19b1b47375fab",
+      "result_sha256": "20b6e4e1488bcbe475f19461517d5ad3e4be565b823fc9a1017d8581ca4bd336"
+    },
+    {
+      "name": "C-six",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/C/fanout-review/check.py",
+      "script_sha256": "0695255111c8bb5708394c68801850a9dbf698eb40934d568e9b5bbd5636b865",
+      "result_sha256": "c6b0301e074f32905cc24798aa9c36b0de60c3d5c391bd9253240ca55cf61f58"
+    },
+    {
+      "name": "C-twelve",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/C/d4-review/check.py",
+      "script_sha256": "3bc07c56c5f5b6b024a53bc0eae854ffd9dfc41e284384656d27550cb643c90c",
+      "result_sha256": "252bc87d02b4dc5a2adbe6022dfeb6f3ed786d5e93567afb79cd017645496770"
+    },
+    {
+      "name": "C-native-residual",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/C/fanout-residual/check_residual.py",
+      "script_sha256": "26ff5f169edc12afca0a0c8fcd494131d2fc2b6732d8610c0c3d17a147cdfcf5",
+      "result_sha256": "a51f77b1901f34414b6abb988e22acf8163c700c91eb85d448cf9a12e1eec52e"
+    },
+    {
+      "name": "C-last-shared",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/C/fanout-last-meeting-review/check_last_meeting.py",
+      "script_sha256": "2f8348a872c74b178c5f75dafde1a0d3b5902ac87818614f223097a4952940df",
+      "result_sha256": "dfb537845f9213510018e08ab55defefc24a73a4a788bce330bc67b6e86d4d32"
+    },
+    {
+      "name": "C-facet-application",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/C/facet-source-gate/check_facet_source.py",
+      "script_sha256": "a9623d04e55938e74b3fca6bb114f3601b089cf07bd488d83b107c796c92595c",
+      "result_sha256": "95f9f7a8e1cc39dea2580336ab200792e8ef62bec8d525c11f5c957885be7de6"
+    },
+    {
+      "name": "C-location",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/C/wave2/check_location_gate.py",
+      "script_sha256": "cef3be2a9694620c51c463f41536dcbd375c95b8fb40c4387bf53b1b1b4ea858",
+      "result_sha256": "15e478be1f7a5e120512e41169d8c8e5b4dc0836cac7b7370cf1e5d428379bef"
+    },
+    {
+      "name": "B-ordinary-character-gate",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/B/ordinary-character-gate/check.py",
+      "script_sha256": "5688e5a2dc6c92686b5a290badf3af0d28bf7fd86f24d4771aadc7f91c411cef",
+      "result_sha256": "2e07e6a167010e124bc4dea8636f56b6505489799d05651cc3ba899c4dedfe8b"
+    },
+    {
+      "name": "B-correct-character-prefix",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/B/correct-character-prefix/check.py",
+      "script_sha256": "f358b06357e367b92bbbb9f56848d4ad9d05ddfa591631fc5bcc4040393623f1",
+      "result_sha256": "b83b87a42f5604fda3fd03c793eb0df30b7b85612c8d42bf0b5785261023628a"
+    },
+    {
+      "name": "B-component-augmentation-gate",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/B/component-augmentation-gate/check.py",
+      "script_sha256": "714de7763ab6f2c7b7693a6ddeeb79b7324bf5e04ce3c2ec1d2d787d431b646c",
+      "result_sha256": "2ad629be7b9678583ec24a9ffa6465764c6c444cb5a1fd3e2cfb99273232e1cf"
+    },
+    {
+      "name": "B-forward-row-range-and-spectator-kernels",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/B/forward-row-range-and-spectator-kernels/check.py",
+      "script_sha256": "874f353c21538bb954a8dd2ab0a62c221e74c20f728eb47a19da1787ec9151b2",
+      "result_sha256": "82cba1b2d8d924a9e4960a417de0d352851ff9c0e44b69eb1d886f2b28ffa44f"
+    },
+    {
+      "name": "R-character-review",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/R/character-review/check.py",
+      "script_sha256": "6ac614af49530f5326e19288384eec5d3528186c9dc506db78cb565b0d5f7c81",
+      "result_sha256": "44d794b4c615814e28570ea36ae541f226ff41bdc2201f317ed7f87adeffe495"
+    },
+    {
+      "name": "R-kernel-review",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/R/kernel-review/check.py",
+      "script_sha256": "f35aa17d48ca9a6858fcde97af8253c148a7c778ad053a6539222555c33fefd5",
+      "result_sha256": "75343ea31b6315d59f70de5f4286235cb972cc0717e62075c0e04d6a17010b7e"
+    },
+    {
+      "name": "R-augmentation-review",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/R/augmentation-review/check.py",
+      "script_sha256": "1035dec656c45094322dba86b0ebfca35c33ba8e4f59a99a560bdb66088ae463",
+      "result_sha256": "24a7defec7d0df8db5d7d3a8118116645e54ed857d77abab221ab3279b7e4ef6"
+    },
+    {
+      "name": "R-fanout-residual-review",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/R/fanout-residual-review/check.py",
+      "script_sha256": "e6546953ce6a9ec21002a6192a4c4730bc68229a879f394e056334a4bbb605c2",
+      "result_sha256": "a7fb388851bc69efd09908a2cdbdbb5b15e812fd9fb5ba736ae250940b883717"
+    },
+    {
+      "name": "R-last-shared-chart",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/R/last-shared-chart/check.py",
+      "script_sha256": "591d0ae973b35072beb20da61d2f45e3dfcd9bc7ddbb5a070119cced9751c954",
+      "result_sha256": "5df776cf3a3b177920d1511048d980a3fac65fdf7434884b0ffa104680780344"
+    },
+    {
+      "name": "R-location",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/R/location-review/check.py",
+      "script_sha256": "421d8cdcc4676b2a5cbaee7d9cf3b922a3b4ec5e4befc49a1d83696e71048161",
+      "result_sha256": "981a24857e82e9a47ac6afb6378f44a7c4a90c145df993b56dd9e3bfc9feeb81"
+    },
+    {
+      "name": "C-spectator",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint2-evidence/C/spectator-review/check.py",
+      "script_sha256": "ebc24960b2cb9ba68ba8f924ff9e1229852fdd400882ea8432c6e73fcdd5e291",
+      "result_sha256": "3d79a28734fc8ece75a9d8e804f6ff0fcd07dd57e86e8a187fcdaeffaa16f174"
+    }
+  ]
+}

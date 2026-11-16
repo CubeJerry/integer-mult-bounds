@@ -1,0 +1,9 @@
+# Receiver geometry charges common-source delivery beyond the nine-message bound
+
+**Proved fixed-source placement theorem. No new κ.** For the authenticated early-F74 canonical9 word immediately before operation783, require every later owned descent to depart a chart containing initial M1. All63 unfinished own-input coordinates are initially absent from their receiver downsets. Their restricted normals give20 projective classes in the dual of rank-five M1. Exact flat capacities for ranks1,2,3,4 are1,3,7,12.
+
+The first-differing-arrival argument applies to arbitrary fixed-schedule nonlinear local computation and Y feedback. It gives at least20 unit descents. With the independently proved nine-record transcript bound, arbitrary rank drops have total moment at least8+4^(199/200)=11.972369981748... . The source plus this floor exceeds the necessary target allowance by3.478872785164... . The nine-location coverage witness is only geometry; it supplies no decoder or source payload.
+
+[Quantified proof](../../sessions/2026-11-17-S019/checkpoint2-evidence/C/wave2/PROOF.md), [exact complete flat census](../../sessions/2026-11-17-S019/checkpoint2-evidence/C/wave2/output/EXACT-FLAT-CENSUS.json), and [root's independent incremental-lattice review](../../sessions/2026-11-17-S019/checkpoint2-evidence/R/location-review/REVIEW.md) give all source pins, sharp positive controls and scope counterexamples. Hub departures are covered. Native-line and other lower-chart departures do not satisfy the premise and are not excluded. The earlier acquisition remains a valid partial word.
+
+Reproduce the focused session bundle with `python -B research/moonshot-005-program/sessions/2026-11-17-S019/reproduce_cp2.py --repo . --out /tmp/moonshot-S019-cp2`. All supplier and foundational gaps remain. Credit @CubeJerry, predecessor source/transcript authors, Worker C's source-location proof and root's independent geometry/price review; substantial OpenAI assistance.

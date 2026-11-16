@@ -1,0 +1,760 @@
+{
+  "status": "PASS_INDEPENDENT_COMMON_MEET_SIX_RECEIVER_FANOUT",
+  "word_sha256": "f5acfcb454d6d50dfdb7d66acd2c33980e4aed17826afafbb67fbeb2168f58c1",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "stats": {
+    "counts": {
+      "INIT": 140,
+      "ADD": 1083,
+      "MOVE": 384,
+      "CLEAR": 140
+    },
+    "movement_profile": {
+      "1": 60,
+      "2": 91,
+      "3": 2,
+      "4": 20,
+      "5": 91,
+      "6": 6,
+      "7": 105,
+      "8": 9
+    },
+    "dirty_clear": 140,
+    "peak_owned": 140,
+    "completed_outputs": [
+      1,
+      3,
+      73,
+      76,
+      77,
+      80
+    ],
+    "all_222_column_endpoints": true
+  },
+  "common_chart_dimension": 5,
+  "common_native_roles": [
+    0,
+    2,
+    5,
+    7,
+    15,
+    16,
+    19,
+    20,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    53,
+    54,
+    57,
+    58
+  ],
+  "target_roles": [
+    1,
+    3,
+    73,
+    76,
+    77,
+    80
+  ],
+  "complete_mixed_cohorts": [
+    {
+      "group": [
+        1,
+        3
+      ],
+      "inputs": [
+        4,
+        6,
+        14,
+        17,
+        18,
+        21,
+        52,
+        55,
+        56
+      ]
+    },
+    {
+      "group": [
+        1,
+        73,
+        80
+      ],
+      "inputs": [
+        67,
+        68,
+        69,
+        70,
+        82,
+        83,
+        84,
+        85,
+        90,
+        91,
+        92,
+        93,
+        104,
+        106,
+        107,
+        109
+      ]
+    },
+    {
+      "group": [
+        1,
+        76,
+        77
+      ],
+      "inputs": [
+        66,
+        71,
+        72,
+        81,
+        86,
+        87,
+        88,
+        89,
+        94,
+        95,
+        103,
+        105,
+        108,
+        110
+      ]
+    },
+    {
+      "group": [
+        3,
+        73,
+        77
+      ],
+      "inputs": [
+        10,
+        13,
+        24,
+        25,
+        26,
+        27,
+        32,
+        33,
+        34,
+        35,
+        47,
+        51
+      ]
+    },
+    {
+      "group": [
+        3,
+        76,
+        80
+      ],
+      "inputs": [
+        8,
+        9,
+        11,
+        12,
+        22,
+        23,
+        28,
+        29,
+        30,
+        31,
+        36,
+        37,
+        46,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "group": [
+        73,
+        76
+      ],
+      "inputs": [
+        60,
+        61,
+        62,
+        64,
+        78,
+        79,
+        100,
+        101,
+        102
+      ]
+    },
+    {
+      "group": [
+        77,
+        80
+      ],
+      "inputs": [
+        59,
+        63,
+        65,
+        74,
+        75,
+        96,
+        97,
+        98,
+        99
+      ]
+    }
+  ],
+  "all18_actual_branch_chronologies": [
+    {
+      "carrier": 0,
+      "receiving_target": 1,
+      "group": [
+        1,
+        3
+      ],
+      "inject": 576,
+      "deposit": 578,
+      "restore_operations": [
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588
+      ]
+    },
+    {
+      "carrier": 2,
+      "receiving_target": 3,
+      "group": [
+        1,
+        3
+      ],
+      "inject": 590,
+      "deposit": 592,
+      "restore_operations": [
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602
+      ]
+    },
+    {
+      "carrier": 5,
+      "receiving_target": 1,
+      "group": [
+        1,
+        73,
+        80
+      ],
+      "inject": 604,
+      "deposit": 606,
+      "restore_operations": [
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623
+      ]
+    },
+    {
+      "carrier": 7,
+      "receiving_target": 73,
+      "group": [
+        1,
+        73,
+        80
+      ],
+      "inject": 625,
+      "deposit": 627,
+      "restore_operations": [
+        629,
+        630,
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641,
+        642,
+        643,
+        644
+      ]
+    },
+    {
+      "carrier": 15,
+      "receiving_target": 80,
+      "group": [
+        1,
+        73,
+        80
+      ],
+      "inject": 646,
+      "deposit": 648,
+      "restore_operations": [
+        650,
+        651,
+        652,
+        653,
+        654,
+        655,
+        656,
+        657,
+        658,
+        659,
+        660,
+        661,
+        662,
+        663,
+        664,
+        665
+      ]
+    },
+    {
+      "carrier": 16,
+      "receiving_target": 1,
+      "group": [
+        1,
+        76,
+        77
+      ],
+      "inject": 667,
+      "deposit": 669,
+      "restore_operations": [
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678,
+        679,
+        680,
+        681,
+        682,
+        683,
+        684
+      ]
+    },
+    {
+      "carrier": 19,
+      "receiving_target": 76,
+      "group": [
+        1,
+        76,
+        77
+      ],
+      "inject": 686,
+      "deposit": 688,
+      "restore_operations": [
+        690,
+        691,
+        692,
+        693,
+        694,
+        695,
+        696,
+        697,
+        698,
+        699,
+        700,
+        701,
+        702,
+        703
+      ]
+    },
+    {
+      "carrier": 20,
+      "receiving_target": 77,
+      "group": [
+        1,
+        76,
+        77
+      ],
+      "inject": 705,
+      "deposit": 707,
+      "restore_operations": [
+        709,
+        710,
+        711,
+        712,
+        713,
+        714,
+        715,
+        716,
+        717,
+        718,
+        719,
+        720,
+        721,
+        722
+      ]
+    },
+    {
+      "carrier": 38,
+      "receiving_target": 3,
+      "group": [
+        3,
+        73,
+        77
+      ],
+      "inject": 724,
+      "deposit": 726,
+      "restore_operations": [
+        728,
+        729,
+        730,
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737,
+        738,
+        739
+      ]
+    },
+    {
+      "carrier": 39,
+      "receiving_target": 73,
+      "group": [
+        3,
+        73,
+        77
+      ],
+      "inject": 741,
+      "deposit": 743,
+      "restore_operations": [
+        745,
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        752,
+        753,
+        754,
+        755,
+        756
+      ]
+    },
+    {
+      "carrier": 40,
+      "receiving_target": 77,
+      "group": [
+        3,
+        73,
+        77
+      ],
+      "inject": 758,
+      "deposit": 760,
+      "restore_operations": [
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        768,
+        769,
+        770,
+        771,
+        772,
+        773
+      ]
+    },
+    {
+      "carrier": 41,
+      "receiving_target": 3,
+      "group": [
+        3,
+        76,
+        80
+      ],
+      "inject": 775,
+      "deposit": 777,
+      "restore_operations": [
+        779,
+        780,
+        781,
+        782,
+        783,
+        784,
+        785,
+        786,
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793,
+        794
+      ]
+    },
+    {
+      "carrier": 42,
+      "receiving_target": 76,
+      "group": [
+        3,
+        76,
+        80
+      ],
+      "inject": 796,
+      "deposit": 798,
+      "restore_operations": [
+        800,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806,
+        807,
+        808,
+        809,
+        810,
+        811,
+        812,
+        813,
+        814,
+        815
+      ]
+    },
+    {
+      "carrier": 43,
+      "receiving_target": 80,
+      "group": [
+        3,
+        76,
+        80
+      ],
+      "inject": 817,
+      "deposit": 819,
+      "restore_operations": [
+        821,
+        822,
+        823,
+        824,
+        825,
+        826,
+        827,
+        828,
+        829,
+        830,
+        831,
+        832,
+        833,
+        834,
+        835,
+        836
+      ]
+    },
+    {
+      "carrier": 44,
+      "receiving_target": 73,
+      "group": [
+        73,
+        76
+      ],
+      "inject": 838,
+      "deposit": 840,
+      "restore_operations": [
+        842,
+        843,
+        844,
+        845,
+        846,
+        847,
+        848,
+        849,
+        850
+      ]
+    },
+    {
+      "carrier": 45,
+      "receiving_target": 76,
+      "group": [
+        73,
+        76
+      ],
+      "inject": 852,
+      "deposit": 854,
+      "restore_operations": [
+        856,
+        857,
+        858,
+        859,
+        860,
+        861,
+        862,
+        863,
+        864
+      ]
+    },
+    {
+      "carrier": 53,
+      "receiving_target": 77,
+      "group": [
+        77,
+        80
+      ],
+      "inject": 866,
+      "deposit": 868,
+      "restore_operations": [
+        870,
+        871,
+        872,
+        873,
+        874,
+        875,
+        876,
+        877,
+        878
+      ]
+    },
+    {
+      "carrier": 54,
+      "receiving_target": 80,
+      "group": [
+        77,
+        80
+      ],
+      "inject": 880,
+      "deposit": 882,
+      "restore_operations": [
+        884,
+        885,
+        886,
+        887,
+        888,
+        889,
+        890,
+        891,
+        892
+      ]
+    }
+  ],
+  "all111_raw_originals_at_Hub_before_code_acquisition": true,
+  "actual_ground_canonical_rank": 9,
+  "actual_native_copies": 111,
+  "only_owned_moves_count": 9,
+  "only_owned_move_rank": 8,
+  "moment": {
+    "rational": [
+      "64518229628180690634606627648352389129/40000000000000000000000000000000000",
+      "1612955740704517265865165691208809728549/1000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1612.955740704517265865165691208809728225",
+      "1612.955740704517265865165691208809728549"
+    ]
+  },
+  "negative_controls": [
+    {
+      "control": "common raw",
+      "operation": [
+        "ADD",
+        "X0",
+        "COMMON_SUM"
+      ],
+      "rejected": "('receiver endpoint', 1)"
+    },
+    {
+      "control": "nuisance mask",
+      "operation": [
+        "ADD",
+        "X0",
+        "MASK_1"
+      ],
+      "rejected": "('receiver endpoint', 1)"
+    },
+    {
+      "control": "cohort acquisition",
+      "operation": [
+        "ADD",
+        "X4",
+        "COHORT_SUM_0"
+      ],
+      "rejected": "('original restoration', 0)"
+    },
+    {
+      "control": "carrier coupling",
+      "operation": [
+        "ADD",
+        "COHORT_SUM_0",
+        "X0"
+      ],
+      "rejected": "('original restoration', 0)"
+    },
+    {
+      "control": "carrier facet deposit",
+      "operation": [
+        "ADD",
+        "X0",
+        "FACET_SUM_1"
+      ],
+      "rejected": "('receiver endpoint', 1)"
+    },
+    {
+      "control": "Hub restoration",
+      "operation": [
+        "ADD",
+        "X4",
+        "X0"
+      ],
+      "rejected": "('original restoration', 0)"
+    },
+    {
+      "control": "canonical source",
+      "operation": [
+        "ADD",
+        "X0",
+        "CANONICAL_0"
+      ],
+      "rejected": "('receiver endpoint', 3)"
+    },
+    {
+      "control": "receiver cancellation",
+      "operation": [
+        "ADD",
+        "MASK_1",
+        "Y1"
+      ],
+      "rejected": "('receiver endpoint', 1)"
+    }
+  ],
+  "scope": "Every characteristic-two field and positive whole-record width for this literal ordinary word. Six completed outputs,105 missing; actual ground code/native/proper sources, no complete supplier or new kappa."
+}

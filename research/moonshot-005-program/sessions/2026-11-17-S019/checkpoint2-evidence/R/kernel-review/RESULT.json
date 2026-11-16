@@ -1,0 +1,33 @@
+{
+  "status": "PASS_INDEPENDENT_FREE_RANGE_KERNEL_BRIDGE",
+  "method": "Root exact SymPy literals and primitive row updates; no author arithmetic or executor imported.",
+  "cases": {
+    "failed_JZa": {
+      "physical_prefix_rank": 8,
+      "physical_ambient_rank": 16,
+      "H0_max_column_support": 4,
+      "H2_max_column_support": 8,
+      "free_image_decoder_checked": true,
+      "gaussian_gauges_checked": 8,
+      "ordinary_kernel_channel": false
+    },
+    "surviving_SZc": {
+      "physical_prefix_rank": 8,
+      "physical_ambient_rank": 16,
+      "H0_max_column_support": 4,
+      "H2_max_column_support": 1,
+      "free_image_decoder_checked": true,
+      "gaussian_gauges_checked": 9,
+      "ordinary_kernel_channel": true
+    }
+  },
+  "omitted_ADD_controls": 60,
+  "pins": {
+    "PROOF.md": "3c954e855eafe2786da1f82cd8a490aecab5e79c25a1ce493cc5575924ce14b3",
+    "check.py": "f358b06357e367b92bbbb9f56848d4ad9d05ddfa591631fc5bcc4040393623f1",
+    "WORDS.json": "cc3dae5ad3685f5fb351a048882727a82071cbb0fa149304207d5aa841e12c78",
+    "GAUSSIAN-GAUGES.json": "98b59f1457f3f47dd47971ff9886d5d8da0b0e1b81b284ee9e08bd22ff6fdafd"
+  },
+  "root_control_sha256": "6ac614af49530f5326e19288384eec5d3528186c9dc506db78cb565b0d5f7c81",
+  "scope": "Physical controls at one column plus separately reviewed multiplicative all-width identities and faithful finite-word kernel proof. No inference of large-width ordinary injectivity from one-column ranks. No full421 caller."
+}

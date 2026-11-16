@@ -1,0 +1,205 @@
+{
+  "status": "PASS_CORRECT_CHARACTER_AND_ORDINARY_KERNEL_BRIDGE",
+  "scope": "Actual all-width C_new/free ambient ranges, singular K, a universal ordinary-kernel exclusion for JZa, and an explicit nonzero kernel interface for SZc. No full421 caller.",
+  "cases": {
+    "failed_JZa": {
+      "rank_K_fraction": "1/2",
+      "rank_Pi_fraction": "1",
+      "all_width_free_range": true,
+      "H0_nonmonomial": {
+        "column": 2,
+        "nonzero_entries": 4
+      },
+      "H2_nonmonomial": {
+        "column": 0,
+        "nonzero_entries": 8
+      },
+      "component_control": "Full-D ordinarily aligned rank4/rank2 components, total rankD/2; source-column family nevertheless excluded by ordinary-kernel lemma."
+    },
+    "surviving_SZc": {
+      "rank_K_fraction": "1/2",
+      "rank_Pi_fraction": "1",
+      "all_width_free_range": true,
+      "H0_nonmonomial": {
+        "column": 0,
+        "nonzero_entries": 4
+      },
+      "H2_table": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          15,
+          2
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "actual_nonzero_ordinary_Ka_kernel_rank_fraction": "1/2",
+      "K_does_not_annihilate_that_control": true,
+      "next_interface": "q12 must be nonzero and q12=(I-(JZa)^tensor V)/2 q12"
+    }
+  },
+  "proof_basis": "Written faithful finite-word kernel separation and source transport proof; not numerical nullspace inference.",
+  "invoices": {
+    "failed_JZa": {
+      "C_new": {
+        "counts": {
+          "ADD": 8,
+          "SCALE": 9,
+          "MONO": 3
+        },
+        "prefix_bound": "22"
+      },
+      "C_new_inverse": {
+        "counts": {
+          "MONO": 3,
+          "ADD": 8,
+          "SCALE": 9
+        },
+        "prefix_bound": "22"
+      },
+      "Q_seed": {
+        "counts": {
+          "ADD": 3,
+          "SCALE": 3
+        },
+        "prefix_bound": "5"
+      },
+      "Q_seed_inverse": {
+        "counts": {
+          "ADD": 3,
+          "SCALE": 3
+        },
+        "prefix_bound": "5"
+      },
+      "O": {
+        "counts": {
+          "ADD": 4,
+          "SCALE": 5,
+          "MONO": 1
+        },
+        "prefix_bound": "14"
+      },
+      "O_inverse": {
+        "counts": {
+          "ADD": 4,
+          "SCALE": 5,
+          "MONO": 1
+        },
+        "prefix_bound": "14"
+      }
+    },
+    "surviving_SZc": {
+      "C_new": {
+        "counts": {
+          "ADD": 8,
+          "SCALE": 9,
+          "MONO": 3
+        },
+        "prefix_bound": "22"
+      },
+      "C_new_inverse": {
+        "counts": {
+          "MONO": 3,
+          "ADD": 8,
+          "SCALE": 9
+        },
+        "prefix_bound": "22"
+      },
+      "Q_seed": {
+        "counts": {
+          "ADD": 3,
+          "SCALE": 3
+        },
+        "prefix_bound": "5"
+      },
+      "Q_seed_inverse": {
+        "counts": {
+          "ADD": 3,
+          "SCALE": 3
+        },
+        "prefix_bound": "5"
+      },
+      "O": {
+        "counts": {
+          "ADD": 4,
+          "SCALE": 5,
+          "MONO": 1
+        },
+        "prefix_bound": "14"
+      },
+      "O_inverse": {
+        "counts": {
+          "ADD": 4,
+          "SCALE": 5,
+          "MONO": 1
+        },
+        "prefix_bound": "14"
+      }
+    }
+  },
+  "omitted_ADD_negative_controls": 60,
+  "proof_sha256": "3c954e855eafe2786da1f82cd8a490aecab5e79c25a1ce493cc5575924ce14b3",
+  "source_pins": {
+    "research/moonshot-005-program/results/complex-nonordinary-row-seed/worker-b/check.py": "1d3c798c43b46e1983f4dc80d68e694b93d9cdee206ad4fe4d408e5f5e29ed91",
+    "research/moonshot-005-program/results/complex-four-bit-cubic-source/author/PROOF.md": "6ea08c509a1560aa334640eeb45bcdcd4649412d40292380f771cd623eee570c"
+  },
+  "remaining": "Choose q12 through the actual nonzero SZc kernel, complete ordinary Q and C, cancel residue, preserve independent21, and pay full caller/source costs.",
+  "no_new_kappa": true
+}

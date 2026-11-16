@@ -1,12 +1,29 @@
 # Exact requirements for κ = 1/200
 
-## Current frontier — S019 checkpoint1,17 November2026 Melbourne
+## Current frontier — S019 checkpoint2
 
-S018 checkpoint6 was recovered from its exact staged tree at the confirmed parent and independently reviewed. The early-F74 canonical9 source is valid, but a new Petersen-plus-four-isolates argument forces **nine further downward records, including nonlinear co-chart processing**. Its unchanged prefix exceeds the necessary κ=1/200 movement allowance by0.506502803416551758166075613595.... The static native-neighbor broadcast optimum is exactly nine; physical delivery remains missing.
+The retained end-to-end target requires **completed ordinary BIT B > 1/200 and compatible uniform complex U > 1/200**, with the full source, storage/erasure, precision, compiler and recursive interfaces. For one-stage completion from `b0=.00385248`, the covered supplier must satisfy `C > 3112961/621875000`; equality is insufficient. These are exact feasibility conditions, not constructed suppliers.
 
-The primary task is earlier proper-chart acquisition and original-carrier histories with actual receiver routes, restoration and full cost accounting. The complex supplier still needs an independent421 endpoint beyond the admitted range gates. An ordinary rank-D projector is not automatically a free one-bank image; see the S019 clarification.
+At `t=199/200`, retain the necessary limiting movement allowance
 
-**No new complete κ. The programme remains ongoing and is not PR-ready.** Selected upstream conditional κ remains363005817/100000000000; all five foundations remain. New evidence: results/bit-petersen-transcript-gate/ADMISSION.md and sessions/2026-11-17-S019/.
+\[
+ A_\infty=\frac{37\,127^t+74\,64^t-74+74\sum_{j=1}^8((1+7j)^t-(7j)^t)}6
+ =1621.750880211152355246\ldots.
+\]
+
+Finite even multiplicity and all nonmovement expenses are stricter. No positive movement margin is itself a saving certificate.
+
+| Source or mechanism | Exact necessary consequence | Feasibility status |
+|---|---|---|
+| Early-F74 canonical9 at M1 | Nine arbitrary nonlinear whole-record descents; excess 0.506502803416551758... | Unchanged cut excluded. |
+| Same cut, every departure chart contains M1 | At least 20 unit ranks and movement at least `8+4^t`; excess 3.478872785164... | Restricted source-location class excluded; lower-chart departures are outside the premise. |
+| Common-carrier six, canonical9 at ground | `Q=1612.955740704517265865...`; native-origin-only completion needs at least 18 distinct native origins | Exceeds allowance by 9.204860493364910618... in that class. Earlier sources or proper-chart descents remain outside scope. |
+| Routed D4 twelve | `Q=1619.950100973460117468...`; every completion adds at least `2^t` | Unchanged cut exceeds allowance by 0.192301287963497890... . |
+| Spectator complex prefix | Both ordinary kernel channels exist; source rank `(16^V+8^V)/2` | Complete independent (4,2,1) endpoint and strict supplier remain open. |
+
+The optimistic three-native complex movement invoice is still `3[1]+6[7]+3[8]` against `[25]+[23]+[22]`, before all retained expenses. A Gaussian class projection is not a free physical operation. A separate 108-facet acquisition proposal has a favorable relaxed invoice but violates the already proved three-visitor facet-source obstruction; it is rejected, not used as a supplier. A fixed canonical-plus-one-extra-record code repeats an existing proper-cover saving bound and is not a fresh escape.
+
+**No new complete κ.** The selected upstream conditional bound remains `363005817/100000000000`; both strict suppliers, complete recursion and all five foundational assumptions remain open. The programme is ongoing and is not PR-ready.
 
 ## Retained S018 checkpoint6 context
 

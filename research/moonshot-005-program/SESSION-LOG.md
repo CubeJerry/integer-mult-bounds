@@ -2205,3 +2205,15 @@ byte; final state has516 registered scoped results.
 Five-hour session started2026-11-16T21:53:41Z; planned end2026-11-17T02:53:41Z. Starting confirmed HEAD`ac2d74578f1abd6d802f3d15f114ca672029257f`; upstream`e54523517d0f03e58352e647c403a5af3e525a57`. Recovered162 staged S018cp6 paths with exact source preservation and independent review. Proved nonlinear nine-record obstruction and exact static broadcast optimum nine. The target budget fails for the unchanged source by0.5065028..., shifting construction to earlier histories. Clarified ordinary projectors versus free-bank module certificates without rewriting source proofs.
 
 Three workers continue on source-valid original-carrier fanout, singular complex prefixes/module invariants, and geometry-sensitive delivery/review. No new complete κ or PR-readiness claim. Resulting commit SHA will appear in a separately verified remote receipt.
+
+### S019 checkpoint1 publication confirmed
+
+Remote commit `f4638d22816c96904442b5d4739cc1015279f131`, exact tree `6ac0e705c224402f3cde83044e33f3e1d585d6b1`, parent `ac2d74578f1abd6d802f3d15f114ca672029257f`, confirmed by GitHub and fetched Git tree. Direct Git push lacked credentials; the connected Git Data API published an exactly matching tree with expected-HEAD nonforced update. No remote history was rewritten. See `sessions/2026-11-17-S019/CHECKPOINT1-REMOTE-RECEIPT.json`.
+
+### S019 checkpoint2 — carrier constructions and continuation gates
+
+Starting checkpoint parent is the confirmed `f4638d22816c96904442b5d4739cc1015279f131`. Proved reversible common-carrier and routed donor-pivot identities; independently checked actual six- and twelve-output words, all 222 columns, restoration and invoices. Root's nonlinear last-shared-chart theorem, separately challenged by C, forces 18 distinct native descent origins for the six-cut. C's arbitrary-destination refinement excludes every target-budget continuation of the unchanged D4 cut. A separate M1 departure-location theorem forces 20 unit ranks and at least `8+4^(199/200)` movement. These conclusions preserve the constructive lemmas and move attention to earlier timing.
+
+Complex work proves ordinary character, ordinary-kernel and component-augmentation gates, closes both active-swap orientations with a D8 row-range certificate, and constructs spectator-swap ordinary kernel channels with exact collective ranks. Root separately checks the first three packages; C independently checks the row-range/spectator package. The spectator full caller remains open. A proposed source-only 108-facet construction is rejected by earlier three-visitor geometry; a canonical-plus-one-extra-code search is recognized as already ruled out by prior proper-cover results, avoiding duplicate research.
+
+Next wave: deliver useful BIT code while original carriers remain below Hub; reduce the spectator caller to an exact two-bank equation and solve or rigorously constrain it. The session remains active toward its requested endpoint. No new complete κ; no PR-ready claim. The resulting checkpoint SHA must be recorded separately after remote confirmation.

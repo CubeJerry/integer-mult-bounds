@@ -1,12 +1,16 @@
 # Persistent programme toward κ = 0.005
 
-## Current frontier — S019 checkpoint1,17 November2026 Melbourne
+## Current frontier — S019 checkpoint2
 
-S018 checkpoint6 was recovered from its exact staged tree at the confirmed parent and independently reviewed. The early-F74 canonical9 source is valid, but a new Petersen-plus-four-isolates argument forces **nine further downward records, including nonlinear co-chart processing**. Its unchanged prefix exceeds the necessary κ=1/200 movement allowance by0.506502803416551758166075613595.... The static native-neighbor broadcast optimum is exactly nine; physical delivery remains missing.
+The construction now has a proved way to acquire facet corrections using reversible original carriers. A common-meet version completes six outputs; a routed donor-pivot version completes twelve. Both restore all X inputs and preserve arbitrary Y columns. Their exact frozen cuts are poor completion points: native-only descents cannot finish the six-source within budget, and no target-budget continuation can finish the twelve-source. The mechanism remains useful when applied earlier, before the original carriers reach Hub. See [carrier construction](results/bit-routed-original-fanout/ADMISSION.md) and [last shared chart gates](results/bit-last-shared-chart/ADMISSION.md).
 
-The primary task is earlier proper-chart acquisition and original-carrier histories with actual receiver routes, restoration and full cost accounting. The complex supplier still needs an independent421 endpoint beyond the admitted range gates. An ordinary rank-D projector is not automatically a free one-bank image; see the S019 clarification.
+The primary BIT task is to deliver canonical information while useful original carriers remain at lower charts, then use their remaining ascending routes for physical decoding and restore them from actual available sources. The native-cached57 source is retained as a distinct composition candidate: 92 originals still native, 19 raw at Hub with actual native caches, 57 known raw inputs at ground, and three unknown modes at M1. Its movement room alone does not establish a continuation.
 
-**No new complete κ. The programme remains ongoing and is not PR-ready.** Selected upstream conditional κ remains363005817/100000000000; all five foundations remain. New evidence: results/bit-petersen-transcript-gate/ADMISSION.md and sessions/2026-11-17-S019/.
+For the compatible complex supplier, ordinary character, kernel and forward-row-range gates now exclude the active-swap candidates. A spectator swap supplies two genuine ordinary kernel channels and an ordinarily aligned full-rank Gaussian4 component plus Gaussian2 residue. Independent output separation is still missing. The current task is a complete invertible caller using these channels, not another isolated Gaussian-rank calculation. See [complex architecture](results/complex-ordinary-kernel-architecture/ADMISSION.md).
+
+The cp1 nonlinear Petersen gate and the new source-location gate remain constraints on their pinned earlier sources. All constructive identities and negative results have exact source pins and independent reviews. Earlier historical priorities below are superseded where they conflict with this section.
+
+**No new complete κ.** The selected upstream conditional bound remains `363005817/100000000000`; both strict suppliers, complete recursion and all five foundational assumptions remain open. The programme is ongoing and is not PR-ready.
 
 ## Retained S018 checkpoint6 context
 

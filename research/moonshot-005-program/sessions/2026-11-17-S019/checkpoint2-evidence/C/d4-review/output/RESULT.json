@@ -1,0 +1,1157 @@
+{
+  "status": "PASS_INDEPENDENT_D4_ROUTED_COHORT_SOURCE",
+  "word_sha256": "20b6e4e1488bcbe475f19461517d5ad3e4be565b823fc9a1017d8581ca4bd336",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "cut": 1767,
+  "stats": {
+    "counts": {
+      "INIT": 217,
+      "ADD": 1193,
+      "MOVE": 456,
+      "CLEAR": 217
+    },
+    "movement_profile": {
+      "1": 144,
+      "3": 93,
+      "4": 111,
+      "7": 99,
+      "8": 9
+    },
+    "dirty_clear": 217,
+    "peak_owned": 217,
+    "completed_outputs": [
+      3,
+      4,
+      47,
+      51,
+      74,
+      76,
+      78,
+      80,
+      88,
+      90,
+      92,
+      94
+    ],
+    "all_222_column_endpoints": true
+  },
+  "targets": [
+    3,
+    4,
+    47,
+    51,
+    74,
+    76,
+    78,
+    80,
+    88,
+    90,
+    92,
+    94
+  ],
+  "unfinished_count": 99,
+  "common_roles": [
+    0,
+    7,
+    22,
+    23,
+    28,
+    29,
+    40,
+    41,
+    42,
+    43,
+    48,
+    49
+  ],
+  "actual_disjoint_cohorts": [
+    {
+      "receivers": [
+        3,
+        4,
+        47
+      ],
+      "donors": [
+        51
+      ]
+    },
+    {
+      "receivers": [
+        3,
+        4,
+        51
+      ],
+      "donors": [
+        47
+      ]
+    },
+    {
+      "receivers": [
+        3,
+        4,
+        74,
+        76,
+        78,
+        80
+      ],
+      "donors": [
+        2,
+        5,
+        38,
+        39,
+        44,
+        45,
+        46,
+        50
+      ]
+    },
+    {
+      "receivers": [
+        3,
+        4,
+        88,
+        90,
+        92,
+        94
+      ],
+      "donors": [
+        1,
+        6,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "receivers": [
+        3,
+        47,
+        51
+      ],
+      "donors": [
+        4
+      ]
+    },
+    {
+      "receivers": [
+        3,
+        47,
+        74,
+        78,
+        90,
+        94
+      ],
+      "donors": [
+        13,
+        14,
+        21,
+        33,
+        34,
+        52
+      ]
+    },
+    {
+      "receivers": [
+        3,
+        47,
+        76,
+        80,
+        88,
+        92
+      ],
+      "donors": [
+        11,
+        12,
+        16,
+        19,
+        31,
+        36,
+        57,
+        58
+      ]
+    },
+    {
+      "receivers": [
+        3,
+        51,
+        74,
+        78,
+        88,
+        92
+      ],
+      "donors": [
+        10,
+        17,
+        18,
+        32,
+        35,
+        55,
+        56
+      ]
+    },
+    {
+      "receivers": [
+        3,
+        51,
+        76,
+        80,
+        90,
+        94
+      ],
+      "donors": [
+        8,
+        9,
+        15,
+        20,
+        30,
+        37,
+        53,
+        54
+      ]
+    },
+    {
+      "receivers": [
+        4,
+        47,
+        51
+      ],
+      "donors": [
+        3
+      ]
+    },
+    {
+      "receivers": [
+        4,
+        47,
+        74,
+        76,
+        92,
+        94
+      ],
+      "donors": [
+        61,
+        62,
+        81,
+        102,
+        103,
+        110
+      ]
+    },
+    {
+      "receivers": [
+        4,
+        47,
+        78,
+        80,
+        88,
+        90
+      ],
+      "donors": [
+        63,
+        84,
+        85,
+        98,
+        99,
+        106,
+        107
+      ]
+    },
+    {
+      "receivers": [
+        4,
+        51,
+        74,
+        76,
+        88,
+        90
+      ],
+      "donors": [
+        60,
+        64,
+        86,
+        87,
+        100,
+        101,
+        105,
+        108
+      ]
+    },
+    {
+      "receivers": [
+        4,
+        51,
+        78,
+        80,
+        92,
+        94
+      ],
+      "donors": [
+        59,
+        65,
+        82,
+        83,
+        96,
+        97,
+        104,
+        109
+      ]
+    },
+    {
+      "receivers": [
+        47,
+        51,
+        74,
+        80,
+        88,
+        94
+      ],
+      "donors": [
+        67,
+        68,
+        69,
+        70,
+        75,
+        77,
+        91,
+        93
+      ]
+    },
+    {
+      "receivers": [
+        47,
+        51,
+        76,
+        78,
+        90,
+        92
+      ],
+      "donors": [
+        66,
+        71,
+        72,
+        73,
+        79,
+        89,
+        95
+      ]
+    },
+    {
+      "receivers": [
+        74,
+        80,
+        90
+      ],
+      "donors": [
+        92
+      ]
+    },
+    {
+      "receivers": [
+        74,
+        80,
+        92
+      ],
+      "donors": [
+        90
+      ]
+    },
+    {
+      "receivers": [
+        74,
+        90,
+        92
+      ],
+      "donors": [
+        80
+      ]
+    },
+    {
+      "receivers": [
+        76,
+        78,
+        88
+      ],
+      "donors": [
+        94
+      ]
+    },
+    {
+      "receivers": [
+        76,
+        78,
+        94
+      ],
+      "donors": [
+        88
+      ]
+    },
+    {
+      "receivers": [
+        76,
+        88,
+        94
+      ],
+      "donors": [
+        78
+      ]
+    },
+    {
+      "receivers": [
+        78,
+        88,
+        94
+      ],
+      "donors": [
+        76
+      ]
+    },
+    {
+      "receivers": [
+        80,
+        90,
+        92
+      ],
+      "donors": [
+        74
+      ]
+    }
+  ],
+  "descending_cohort_indices": [
+    2,
+    3,
+    12,
+    13,
+    14,
+    15
+  ],
+  "all30_carrier_chronologies": [
+    {
+      "route": 0,
+      "group": 0,
+      "carrier": 51,
+      "masked": false,
+      "plane_deposit": 618,
+      "facet_deposit": 621,
+      "Hub_arrival": 622,
+      "restoration_operations": [],
+      "raw_before": 623
+    },
+    {
+      "route": 1,
+      "group": 1,
+      "carrier": 47,
+      "masked": false,
+      "plane_deposit": 625,
+      "facet_deposit": 628,
+      "Hub_arrival": 629,
+      "restoration_operations": [],
+      "raw_before": 630
+    },
+    {
+      "route": 2,
+      "group": 4,
+      "carrier": 4,
+      "masked": false,
+      "plane_deposit": 632,
+      "facet_deposit": 635,
+      "Hub_arrival": 636,
+      "restoration_operations": [],
+      "raw_before": 637
+    },
+    {
+      "route": 3,
+      "group": 5,
+      "carrier": 13,
+      "masked": false,
+      "plane_deposit": 639,
+      "facet_deposit": 642,
+      "Hub_arrival": 643,
+      "restoration_operations": [
+        644,
+        645,
+        646,
+        647,
+        648
+      ],
+      "raw_before": 649
+    },
+    {
+      "route": 4,
+      "group": 5,
+      "carrier": 0,
+      "masked": true,
+      "plane_deposit": 782,
+      "facet_deposit": 785,
+      "Hub_arrival": 786,
+      "restoration_operations": [
+        787,
+        788,
+        789,
+        790,
+        791,
+        792
+      ],
+      "raw_before": 793
+    },
+    {
+      "route": 5,
+      "group": 5,
+      "carrier": 7,
+      "masked": true,
+      "plane_deposit": 797,
+      "facet_deposit": 800,
+      "Hub_arrival": 801,
+      "restoration_operations": [
+        802,
+        803,
+        804,
+        805,
+        806,
+        807
+      ],
+      "raw_before": 808
+    },
+    {
+      "route": 6,
+      "group": 6,
+      "carrier": 11,
+      "masked": false,
+      "plane_deposit": 651,
+      "facet_deposit": 654,
+      "Hub_arrival": 655,
+      "restoration_operations": [
+        656,
+        657,
+        658,
+        659,
+        660,
+        661,
+        662
+      ],
+      "raw_before": 663
+    },
+    {
+      "route": 7,
+      "group": 6,
+      "carrier": 22,
+      "masked": true,
+      "plane_deposit": 812,
+      "facet_deposit": 815,
+      "Hub_arrival": 816,
+      "restoration_operations": [
+        817,
+        818,
+        819,
+        820,
+        821,
+        822,
+        823,
+        824
+      ],
+      "raw_before": 825
+    },
+    {
+      "route": 8,
+      "group": 6,
+      "carrier": 23,
+      "masked": true,
+      "plane_deposit": 829,
+      "facet_deposit": 832,
+      "Hub_arrival": 833,
+      "restoration_operations": [
+        834,
+        835,
+        836,
+        837,
+        838,
+        839,
+        840,
+        841
+      ],
+      "raw_before": 842
+    },
+    {
+      "route": 9,
+      "group": 7,
+      "carrier": 10,
+      "masked": false,
+      "plane_deposit": 665,
+      "facet_deposit": 668,
+      "Hub_arrival": 669,
+      "restoration_operations": [
+        670,
+        671,
+        672,
+        673,
+        674,
+        675
+      ],
+      "raw_before": 676
+    },
+    {
+      "route": 10,
+      "group": 7,
+      "carrier": 28,
+      "masked": true,
+      "plane_deposit": 846,
+      "facet_deposit": 849,
+      "Hub_arrival": 850,
+      "restoration_operations": [
+        851,
+        852,
+        853,
+        854,
+        855,
+        856,
+        857
+      ],
+      "raw_before": 858
+    },
+    {
+      "route": 11,
+      "group": 7,
+      "carrier": 29,
+      "masked": true,
+      "plane_deposit": 862,
+      "facet_deposit": 865,
+      "Hub_arrival": 866,
+      "restoration_operations": [
+        867,
+        868,
+        869,
+        870,
+        871,
+        872,
+        873
+      ],
+      "raw_before": 874
+    },
+    {
+      "route": 12,
+      "group": 8,
+      "carrier": 8,
+      "masked": false,
+      "plane_deposit": 678,
+      "facet_deposit": 681,
+      "Hub_arrival": 682,
+      "restoration_operations": [
+        683,
+        684,
+        685,
+        686,
+        687,
+        688,
+        689
+      ],
+      "raw_before": 690
+    },
+    {
+      "route": 13,
+      "group": 8,
+      "carrier": 40,
+      "masked": true,
+      "plane_deposit": 878,
+      "facet_deposit": 881,
+      "Hub_arrival": 882,
+      "restoration_operations": [
+        883,
+        884,
+        885,
+        886,
+        887,
+        888,
+        889,
+        890
+      ],
+      "raw_before": 891
+    },
+    {
+      "route": 14,
+      "group": 8,
+      "carrier": 41,
+      "masked": true,
+      "plane_deposit": 895,
+      "facet_deposit": 898,
+      "Hub_arrival": 899,
+      "restoration_operations": [
+        900,
+        901,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907
+      ],
+      "raw_before": 908
+    },
+    {
+      "route": 15,
+      "group": 9,
+      "carrier": 3,
+      "masked": false,
+      "plane_deposit": 692,
+      "facet_deposit": 695,
+      "Hub_arrival": 696,
+      "restoration_operations": [],
+      "raw_before": 697
+    },
+    {
+      "route": 16,
+      "group": 10,
+      "carrier": 61,
+      "masked": false,
+      "plane_deposit": 699,
+      "facet_deposit": 702,
+      "Hub_arrival": 703,
+      "restoration_operations": [
+        704,
+        705,
+        706,
+        707,
+        708
+      ],
+      "raw_before": 709
+    },
+    {
+      "route": 17,
+      "group": 10,
+      "carrier": 42,
+      "masked": true,
+      "plane_deposit": 912,
+      "facet_deposit": 915,
+      "Hub_arrival": 916,
+      "restoration_operations": [
+        917,
+        918,
+        919,
+        920,
+        921,
+        922
+      ],
+      "raw_before": 923
+    },
+    {
+      "route": 18,
+      "group": 10,
+      "carrier": 43,
+      "masked": true,
+      "plane_deposit": 927,
+      "facet_deposit": 930,
+      "Hub_arrival": 931,
+      "restoration_operations": [
+        932,
+        933,
+        934,
+        935,
+        936,
+        937
+      ],
+      "raw_before": 938
+    },
+    {
+      "route": 19,
+      "group": 11,
+      "carrier": 63,
+      "masked": false,
+      "plane_deposit": 711,
+      "facet_deposit": 714,
+      "Hub_arrival": 715,
+      "restoration_operations": [
+        716,
+        717,
+        718,
+        719,
+        720,
+        721
+      ],
+      "raw_before": 722
+    },
+    {
+      "route": 20,
+      "group": 11,
+      "carrier": 48,
+      "masked": true,
+      "plane_deposit": 942,
+      "facet_deposit": 945,
+      "Hub_arrival": 946,
+      "restoration_operations": [
+        947,
+        948,
+        949,
+        950,
+        951,
+        952,
+        953
+      ],
+      "raw_before": 954
+    },
+    {
+      "route": 21,
+      "group": 11,
+      "carrier": 49,
+      "masked": true,
+      "plane_deposit": 958,
+      "facet_deposit": 961,
+      "Hub_arrival": 962,
+      "restoration_operations": [
+        963,
+        964,
+        965,
+        966,
+        967,
+        968,
+        969
+      ],
+      "raw_before": 970
+    },
+    {
+      "route": 22,
+      "group": 16,
+      "carrier": 92,
+      "masked": false,
+      "plane_deposit": 724,
+      "facet_deposit": 727,
+      "Hub_arrival": 728,
+      "restoration_operations": [],
+      "raw_before": 729
+    },
+    {
+      "route": 23,
+      "group": 17,
+      "carrier": 90,
+      "masked": false,
+      "plane_deposit": 731,
+      "facet_deposit": 734,
+      "Hub_arrival": 735,
+      "restoration_operations": [],
+      "raw_before": 736
+    },
+    {
+      "route": 24,
+      "group": 18,
+      "carrier": 80,
+      "masked": false,
+      "plane_deposit": 738,
+      "facet_deposit": 741,
+      "Hub_arrival": 742,
+      "restoration_operations": [],
+      "raw_before": 743
+    },
+    {
+      "route": 25,
+      "group": 19,
+      "carrier": 94,
+      "masked": false,
+      "plane_deposit": 745,
+      "facet_deposit": 748,
+      "Hub_arrival": 749,
+      "restoration_operations": [],
+      "raw_before": 750
+    },
+    {
+      "route": 26,
+      "group": 20,
+      "carrier": 88,
+      "masked": false,
+      "plane_deposit": 752,
+      "facet_deposit": 755,
+      "Hub_arrival": 756,
+      "restoration_operations": [],
+      "raw_before": 757
+    },
+    {
+      "route": 27,
+      "group": 21,
+      "carrier": 78,
+      "masked": false,
+      "plane_deposit": 759,
+      "facet_deposit": 762,
+      "Hub_arrival": 763,
+      "restoration_operations": [],
+      "raw_before": 764
+    },
+    {
+      "route": 28,
+      "group": 22,
+      "carrier": 76,
+      "masked": false,
+      "plane_deposit": 766,
+      "facet_deposit": 769,
+      "Hub_arrival": 770,
+      "restoration_operations": [],
+      "raw_before": 771
+    },
+    {
+      "route": 29,
+      "group": 23,
+      "carrier": 74,
+      "masked": false,
+      "plane_deposit": 773,
+      "facet_deposit": 776,
+      "Hub_arrival": 777,
+      "restoration_operations": [],
+      "raw_before": 778
+    }
+  ],
+  "all111_raw_originals_before_canonical": true,
+  "all111_native_caches_at_cut": true,
+  "all99_unfinished_Y_raw_at_ground": true,
+  "canonical_ground_rank": 9,
+  "owned_moves": {
+    "rank1_group_to_common": 6,
+    "rank8_Hub_to_ground": 9
+  },
+  "moment": {
+    "rational": [
+      "32399002019469202349373985340153481759/20000000000000000000000000000000000",
+      "809975050486730058734349633503837044131/500000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1619.95010097346011746869926700767408795",
+      "1619.950100973460117468699267007674088262"
+    ]
+  },
+  "necessary_movement_room": {
+    "rational": [
+      "10804675426153426665281300155925388457/6000000000000000000000000000000000000",
+      "450194809423059444386720839830224651/250000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1.80077923769223777754688335932089807616666666666666666666667",
+      "1.800779237692237777546883359320898604"
+    ]
+  },
+  "destructive_controls": [
+    {
+      "omission": "raw mask",
+      "operation": [
+        "ADD",
+        "X0",
+        "RAW_MASK_0"
+      ],
+      "rejected": "('receiver endpoint', 74)"
+    },
+    {
+      "omission": "pivot coding",
+      "operation": [
+        "ADD",
+        "X14",
+        "X13"
+      ],
+      "rejected": "('original restoration', 0)"
+    },
+    {
+      "omission": "masked injection",
+      "operation": [
+        "ADD",
+        "GROUP_SUM_5",
+        "X0"
+      ],
+      "rejected": "('original restoration', 0)"
+    },
+    {
+      "omission": "paid cohort descent",
+      "operation": [
+        "MOVE",
+        "GROUP_SUM_2",
+        "D4_COMMON"
+      ],
+      "rejected": "(1576, 'same real chart', ['ADD', 'GROUP_SUM_2', 'Y3'], 'GROUP_CHART_2', 'D4_COMMON')"
+    },
+    {
+      "omission": "proper deposit",
+      "operation": [
+        "ADD",
+        "X51",
+        "ROUTE_0_PLANE"
+      ],
+      "rejected": "('receiver endpoint', 47)"
+    },
+    {
+      "omission": "facet deposit",
+      "operation": [
+        "ADD",
+        "X51",
+        "ROUTE_0_FACET"
+      ],
+      "rejected": "('receiver endpoint', 3)"
+    },
+    {
+      "omission": "pivot inverse",
+      "operation": [
+        "ADD",
+        "X14",
+        "X13"
+      ],
+      "rejected": "('original restoration', 0)"
+    },
+    {
+      "omission": "masked inverse",
+      "operation": [
+        "ADD",
+        "X13",
+        "X0"
+      ],
+      "rejected": "('original restoration', 0)"
+    },
+    {
+      "omission": "canonical load",
+      "operation": [
+        "ADD",
+        "X0",
+        "CANONICAL_0"
+      ],
+      "rejected": "('receiver endpoint', 3)"
+    },
+    {
+      "omission": "receiver mask",
+      "operation": [
+        "ADD",
+        "RAW_MASK_7",
+        "Y3"
+      ],
+      "rejected": "('receiver endpoint', 3)"
+    }
+  ],
+  "changed_source_continuation_premises": {
+    "proper_owners": 97,
+    "all_proper_owners_inaccessible_to_all99_unfinished_facets": true,
+    "minimum_ordered_unfinished_pair_neighborhood_difference": 21,
+    "unfinished_normals_real_rank": 8,
+    "explicit_unfinished_normal_basis_roles": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      59
+    ],
+    "canonical_alternative_support_gaps": {
+      "0": 22,
+      "1": 19,
+      "2": 19,
+      "5": 20,
+      "6": 20,
+      "7": 18,
+      "8": 19,
+      "9": 21,
+      "10": 18,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 19,
+      "15": 21,
+      "16": 21,
+      "17": 21,
+      "18": 20,
+      "19": 20,
+      "20": 21,
+      "21": 20,
+      "22": 20,
+      "23": 20,
+      "24": 19,
+      "25": 19,
+      "26": 19,
+      "27": 20,
+      "28": 20,
+      "29": 22,
+      "30": 20,
+      "31": 20,
+      "32": 20,
+      "33": 20,
+      "34": 19,
+      "35": 20,
+      "36": 22,
+      "37": 22,
+      "38": 19,
+      "39": 23,
+      "40": 19,
+      "41": 19,
+      "42": 18,
+      "43": 19,
+      "44": 21,
+      "45": 20,
+      "46": 21,
+      "48": 19,
+      "49": 19,
+      "50": 21,
+      "52": 20,
+      "53": 18,
+      "54": 22,
+      "55": 20,
+      "56": 20,
+      "57": 20,
+      "58": 20,
+      "59": 20,
+      "60": 21,
+      "61": 20,
+      "62": 19,
+      "63": 21,
+      "64": 20,
+      "65": 21,
+      "66": 20,
+      "67": 20,
+      "68": 20,
+      "69": 20,
+      "70": 22,
+      "71": 22,
+      "72": 20,
+      "73": 20,
+      "75": 20,
+      "77": 22,
+      "79": 20,
+      "81": 18,
+      "82": 19,
+      "83": 21,
+      "84": 20,
+      "85": 20,
+      "86": 20,
+      "87": 20,
+      "89": 20,
+      "91": 19,
+      "93": 19,
+      "95": 19,
+      "96": 19,
+      "97": 20,
+      "98": 20,
+      "99": 19,
+      "100": 20,
+      "101": 20,
+      "102": 20,
+      "103": 19,
+      "104": 20,
+      "105": 20,
+      "106": 20,
+      "107": 22,
+      "108": 22,
+      "109": 22,
+      "110": 20
+    },
+    "one_descent_gate_added_moment_floor": {
+      "rational": [
+        "1993080525655735668457964487075675169/1000000000000000000000000000000000000",
+        "199308052565573566845796448707567517/100000000000000000000000000000000000"
+      ],
+      "decimal": [
+        "1.993080525655735668457964487075675169",
+        "1.99308052565573566845796448707567517"
+      ]
+    },
+    "one_descent_gate_strict_excess": {
+      "rational": [
+        "38460257592699578182216225550955313/200000000000000000000000000000000000",
+        "1153807727780987345466486766528662563/6000000000000000000000000000000000000"
+      ],
+      "decimal": [
+        "0.192301287963497890911081127754776565",
+        "0.192301287963497890911081127754777093833333333333333333333333"
+      ]
+    },
+    "affordable_future_owned_MOVEs": "At most one rank-one descent; two unit descents or any rank-two descent exceed the necessary movement room."
+  },
+  "scope": "Actual partial twelve-output word, source-aware characteristic-two identities at every width, no route-search optimality or complete supplier/new kappa."
+}
