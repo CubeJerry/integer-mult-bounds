@@ -1,0 +1,58 @@
+{
+  "status": "PASS_TEN_REPRODUCTION_AND_REVIEW_COMMANDS",
+  "baseline_sha": "84d7d192c9aa1ade101c50b526b38e7c342f78f7",
+  "commands": [
+    {
+      "name": "cyclic-rebuild",
+      "command": "python research/moonshot-005-program/results/bit-cyclic-import-source/author/build.py --repo . --base research/moonshot-005-program/results/bit-proper-birth-reduction/author/proper-birth41/WORD.json --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --price-engine research/moonshot-005-program/results/bit-common-terminal-reuse/independent-review/check.py --out /workspace/scratch/5b84182f4f70/verification/cp3/cyclic-author",
+      "exit_code": 0
+    },
+    {
+      "name": "cyclic-review",
+      "command": "python research/moonshot-005-program/results/bit-cyclic-import-source/independent-review/check.py --repo . --base research/moonshot-005-program/results/bit-proper-birth-reduction/author/proper-birth41/WORD.json --word research/moonshot-005-program/results/bit-cyclic-import-source/author/WORD.json --author-result research/moonshot-005-program/results/bit-cyclic-import-source/author/RESULT.json --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --out /workspace/scratch/5b84182f4f70/verification/cp3/cyclic-review",
+      "exit_code": 0
+    },
+    {
+      "name": "fresh-closure",
+      "command": "python research/moonshot-005-program/results/bit-proper-birth-closure/review/check.py --repo . --word research/moonshot-005-program/results/bit-proper-birth-reduction/author/proper-birth41/WORD.json --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --out /workspace/scratch/5b84182f4f70/verification/cp3/fresh-closure",
+      "exit_code": 0
+    },
+    {
+      "name": "raw2-birth",
+      "command": "python research/moonshot-005-program/results/bit-native-raw2-return/author/build.py --repo . --base research/moonshot-005-program/results/bit-proper-birth-reduction/author/proper-birth41/WORD.json --out /workspace/scratch/5b84182f4f70/verification/cp3/raw2-birth",
+      "exit_code": 0
+    },
+    {
+      "name": "raw2-import",
+      "command": "python research/moonshot-005-program/results/bit-native-raw2-return/author/build.py --repo . --base research/moonshot-005-program/results/bit-cyclic-import-source/author/WORD.json --out /workspace/scratch/5b84182f4f70/verification/cp3/raw2-import",
+      "exit_code": 0
+    },
+    {
+      "name": "raw2-review",
+      "command": "python research/moonshot-005-program/results/bit-native-raw2-return/independent-review/check.py --workspace . --repo . --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --price-engine research/moonshot-005-program/results/bit-cyclic-import-source/independent-review/check.py --out /workspace/scratch/5b84182f4f70/verification/cp3/raw2-review",
+      "exit_code": 0
+    },
+    {
+      "name": "cyclic-unit-author",
+      "command": "python /workspace/scratch/5b84182f4f70/verification/cp3/complex-author/check_cyclic_quarter.py",
+      "exit_code": 0
+    },
+    {
+      "name": "cyclic-conjugacy-author",
+      "command": "python /workspace/scratch/5b84182f4f70/verification/cp3/complex-author/check_cyclic_conjugacy.py",
+      "exit_code": 0
+    },
+    {
+      "name": "cyclic-unit-root",
+      "command": "python research/moonshot-005-program/results/complex-cyclic-conjugacy/root-unit-review/check.py --author-result research/moonshot-005-program/results/complex-cyclic-conjugacy/author/CYCLIC-RESULT.json --proof research/moonshot-005-program/results/complex-cyclic-conjugacy/author/CYCLIC-QUARTER-INTERFACE.md --out /workspace/scratch/5b84182f4f70/verification/cp3/cyclic-unit-root.json",
+      "exit_code": 0
+    },
+    {
+      "name": "cyclic-conjugacy-root",
+      "command": "python research/moonshot-005-program/results/complex-cyclic-conjugacy/root-conjugacy-review/check.py --author-result research/moonshot-005-program/results/complex-cyclic-conjugacy/author/CONJUGACY-RESULT.json --proof research/moonshot-005-program/results/complex-cyclic-conjugacy/author/CYCLIC-CONJUGACY.md --out /workspace/scratch/5b84182f4f70/verification/cp3/cyclic-conjugacy-root.json",
+      "exit_code": 0
+    }
+  ],
+  "scope": "Independent source, history, spectral and conjugacy proof reviews plus exact finite controls; no complete supplier or new kappa.",
+  "verified_utc": "2026-11-16T07:48:53Z"
+}

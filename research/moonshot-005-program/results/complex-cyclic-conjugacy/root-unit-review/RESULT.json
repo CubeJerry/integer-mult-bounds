@@ -1,0 +1,161 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_CYCLIC_UNIT_AND_DIRECT_CONTROL",
+  "author_result_sha256": "2575a0971b0147c14576998dbe5344a272810dcb13c347113fbceeba11fbd8f2",
+  "proof_sha256": "c81b7d9bac5f06534fe666b247a2f5ff9e6f6855dd2886f2b7da423d059df641",
+  "independent_method": "SymPy Gaussian-rational inversion/convolution and explicit elementary matrices; no author code imported.",
+  "both_inverse_polynomial_products": true,
+  "actual_expanded_recipes": [
+    {
+      "unweighted_ADD": 0,
+      "SCALE": 0,
+      "SWAP": 0
+    },
+    {
+      "unweighted_ADD": 1,
+      "SCALE": 2,
+      "SWAP": 0
+    },
+    {
+      "unweighted_ADD": 0,
+      "SCALE": 0,
+      "SWAP": 1
+    },
+    {
+      "unweighted_ADD": 2,
+      "SCALE": 4,
+      "SWAP": 0
+    }
+  ],
+  "universal_conservative_unweighted_instruction_bound": {
+    "ADD": 24,
+    "SCALE": 60,
+    "SWAP": 12,
+    "monomial_adapters": 0
+  },
+  "direct_beta_tables": [
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  ],
+  "spectrum_counts": {
+    "1": [
+      8,
+      8,
+      0,
+      0
+    ],
+    "2": [
+      64,
+      128,
+      64,
+      0
+    ],
+    "3": [
+      512,
+      1536,
+      1536,
+      512
+    ],
+    "4": [
+      8192,
+      16384,
+      24576,
+      16384
+    ],
+    "5": [
+      196608,
+      196608,
+      327680,
+      327680
+    ],
+    "6": [
+      4194304,
+      3145728,
+      4194304,
+      5242880
+    ],
+    "7": [
+      75497472,
+      58720256,
+      58720256,
+      75497472
+    ]
+  },
+  "singular_sector_control_ranks": {
+    "1": 48,
+    "2": 768,
+    "3": 11776
+  },
+  "tensor_of_sum_control_disagrees_on_width2_columns": 256,
+  "all_actual_addresses_checked_through_width": 3,
+  "scope": "Finite algebra and implementation controls plus separately reviewed universal Fourier/direct-scan proof. Fixed scalar arithmetic, precision/tape/compiler contracts and all supplier expenses retained; no independent421 endpoint or new kappa."
+}

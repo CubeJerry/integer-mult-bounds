@@ -1,0 +1,659 @@
+{
+  "status": "PASS_ACTUAL_CYCLIC_CACHE_THREE_IMPORTS_PRESERVE41",
+  "word_sha256": "47cb0991e41d06efae453f0e2890af6f619ccc44109b46329749bee658a18d15",
+  "base_word_sha256": "6c76a836322483cc11888ae214379a27adbb8f638ac3a049584f75953c5185a9",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "dependency_sha256": {
+    "geometry_engine": "b5402a2dbdd8f49efac3fee678d88ca653bb5d1d6b80ae6fd47372c777db2762",
+    "price_engine": "3f9d58ab9f6cf015ab3344d3807934661421d3ba60a67a1f7c8018485f523780"
+  },
+  "before": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 118,
+      "ADD": 798,
+      "MOVE": 450,
+      "CLEAR": 118
+    },
+    "movement_profile": {
+      "1": 125,
+      "2": 66,
+      "3": 61,
+      "4": 9,
+      "5": 73,
+      "6": 24,
+      "7": 92
+    },
+    "dirty_CLEAR": 118,
+    "peak_owned": 118,
+    "historical_record_states": 1588
+  },
+  "after": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 124,
+      "ADD": 828,
+      "MOVE": 483,
+      "CLEAR": 124
+    },
+    "movement_profile": {
+      "1": 185,
+      "2": 39,
+      "3": 61,
+      "4": 9,
+      "5": 76,
+      "6": 24,
+      "7": 89
+    },
+    "dirty_CLEAR": 124,
+    "peak_owned": 124,
+    "historical_record_states": 1657
+  },
+  "source_cut_before_operation": [
+    "ADD",
+    "CAP46",
+    "P3"
+  ],
+  "source_capture_events": [
+    {
+      "step": 445,
+      "operation": [
+        "ADD",
+        "X8",
+        "IMPORT_E8"
+      ],
+      "source_row_hex": "0x100",
+      "source_chart": "Extra6",
+      "target_chart": "Extra6"
+    },
+    {
+      "step": 449,
+      "operation": [
+        "ADD",
+        "X9",
+        "IMPORT_E9"
+      ],
+      "source_row_hex": "0x200",
+      "source_chart": "Extra6",
+      "target_chart": "Extra6"
+    },
+    {
+      "step": 457,
+      "operation": [
+        "ADD",
+        "X36",
+        "IMPORT_E36"
+      ],
+      "source_row_hex": "0x1000000000",
+      "source_chart": "Extra6",
+      "target_chart": "Extra6"
+    },
+    {
+      "step": 486,
+      "operation": [
+        "ADD",
+        "X60",
+        "Q1_F74"
+      ],
+      "source_row_hex": "0x1000000000000000",
+      "source_chart": "F74",
+      "target_chart": "F74"
+    },
+    {
+      "step": 493,
+      "operation": [
+        "ADD",
+        "X62",
+        "Q1_F74"
+      ],
+      "source_row_hex": "0x4000000000000000",
+      "source_chart": "F74",
+      "target_chart": "F74"
+    },
+    {
+      "step": 501,
+      "operation": [
+        "ADD",
+        "X86",
+        "Q1_F74"
+      ],
+      "source_row_hex": "0x4000000000000000000000",
+      "source_chart": "F74",
+      "target_chart": "F74"
+    },
+    {
+      "step": 508,
+      "operation": [
+        "ADD",
+        "X87",
+        "Q1_F74"
+      ],
+      "source_row_hex": "0x8000000000000000000000",
+      "source_chart": "F74",
+      "target_chart": "F74"
+    },
+    {
+      "step": 515,
+      "operation": [
+        "ADD",
+        "X100",
+        "Q1_F74"
+      ],
+      "source_row_hex": "0x10000000000000000000000000",
+      "source_chart": "F74",
+      "target_chart": "F74"
+    },
+    {
+      "step": 523,
+      "operation": [
+        "ADD",
+        "X101",
+        "Q1_F74"
+      ],
+      "source_row_hex": "0x20000000000000000000000000",
+      "source_chart": "F74",
+      "target_chart": "F74"
+    },
+    {
+      "step": 529,
+      "operation": [
+        "ADD",
+        "X102",
+        "Q1_F74"
+      ],
+      "source_row_hex": "0x40000000000000000000000000",
+      "source_chart": "F74",
+      "target_chart": "F74"
+    },
+    {
+      "step": 537,
+      "operation": [
+        "ADD",
+        "X103",
+        "Q1_F74"
+      ],
+      "source_row_hex": "0x80000000000000000000000000",
+      "source_chart": "F74",
+      "target_chart": "F74"
+    },
+    {
+      "step": 546,
+      "operation": [
+        "ADD",
+        "X105",
+        "Q1_F74"
+      ],
+      "source_row_hex": "0x200000000000000000000000000",
+      "source_chart": "F74",
+      "target_chart": "F74"
+    },
+    {
+      "step": 623,
+      "operation": [
+        "ADD",
+        "X59",
+        "Q3_F4"
+      ],
+      "source_row_hex": "0x800000000000000",
+      "source_chart": "F4",
+      "target_chart": "F4"
+    },
+    {
+      "step": 630,
+      "operation": [
+        "ADD",
+        "X63",
+        "Q3_F4"
+      ],
+      "source_row_hex": "0x8000000000000000",
+      "source_chart": "F4",
+      "target_chart": "F4"
+    },
+    {
+      "step": 638,
+      "operation": [
+        "ADD",
+        "X82",
+        "Q3_F4"
+      ],
+      "source_row_hex": "0x400000000000000000000",
+      "source_chart": "F4",
+      "target_chart": "F4"
+    },
+    {
+      "step": 645,
+      "operation": [
+        "ADD",
+        "X83",
+        "Q3_F4"
+      ],
+      "source_row_hex": "0x800000000000000000000",
+      "source_chart": "F4",
+      "target_chart": "F4"
+    },
+    {
+      "step": 652,
+      "operation": [
+        "ADD",
+        "X96",
+        "Q3_F4"
+      ],
+      "source_row_hex": "0x1000000000000000000000000",
+      "source_chart": "F4",
+      "target_chart": "F4"
+    },
+    {
+      "step": 660,
+      "operation": [
+        "ADD",
+        "X97",
+        "Q3_F4"
+      ],
+      "source_row_hex": "0x2000000000000000000000000",
+      "source_chart": "F4",
+      "target_chart": "F4"
+    },
+    {
+      "step": 666,
+      "operation": [
+        "ADD",
+        "X98",
+        "Q3_F4"
+      ],
+      "source_row_hex": "0x4000000000000000000000000",
+      "source_chart": "F4",
+      "target_chart": "F4"
+    },
+    {
+      "step": 673,
+      "operation": [
+        "ADD",
+        "X99",
+        "Q3_F4"
+      ],
+      "source_row_hex": "0x8000000000000000000000000",
+      "source_chart": "F4",
+      "target_chart": "F4"
+    },
+    {
+      "step": 681,
+      "operation": [
+        "ADD",
+        "X107",
+        "Q3_F4"
+      ],
+      "source_row_hex": "0x800000000000000000000000000",
+      "source_chart": "F4",
+      "target_chart": "F4"
+    },
+    {
+      "step": 690,
+      "operation": [
+        "ADD",
+        "X109",
+        "Q3_F4"
+      ],
+      "source_row_hex": "0x2000000000000000000000000000",
+      "source_chart": "F4",
+      "target_chart": "F4"
+    },
+    {
+      "step": 720,
+      "operation": [
+        "ADD",
+        "X13",
+        "Q4_F78"
+      ],
+      "source_row_hex": "0x2000",
+      "source_chart": "F78",
+      "target_chart": "F78"
+    },
+    {
+      "step": 727,
+      "operation": [
+        "ADD",
+        "X14",
+        "Q4_F78"
+      ],
+      "source_row_hex": "0x4000",
+      "source_chart": "F78",
+      "target_chart": "F78"
+    },
+    {
+      "step": 734,
+      "operation": [
+        "ADD",
+        "X17",
+        "Q4_F78"
+      ],
+      "source_row_hex": "0x20000",
+      "source_chart": "F78",
+      "target_chart": "F78"
+    },
+    {
+      "step": 742,
+      "operation": [
+        "ADD",
+        "X32",
+        "Q4_F78"
+      ],
+      "source_row_hex": "0x100000000",
+      "source_chart": "F78",
+      "target_chart": "F78"
+    },
+    {
+      "step": 751,
+      "operation": [
+        "ADD",
+        "X33",
+        "Q4_F78"
+      ],
+      "source_row_hex": "0x200000000",
+      "source_chart": "F78",
+      "target_chart": "F78"
+    },
+    {
+      "step": 759,
+      "operation": [
+        "ADD",
+        "X52",
+        "Q4_F78"
+      ],
+      "source_row_hex": "0x10000000000000",
+      "source_chart": "F78",
+      "target_chart": "F78"
+    },
+    {
+      "step": 765,
+      "operation": [
+        "ADD",
+        "X55",
+        "Q4_F78"
+      ],
+      "source_row_hex": "0x80000000000000",
+      "source_chart": "F78",
+      "target_chart": "F78"
+    },
+    {
+      "step": 772,
+      "operation": [
+        "ADD",
+        "X56",
+        "Q4_F78"
+      ],
+      "source_row_hex": "0x100000000000000",
+      "source_chart": "F78",
+      "target_chart": "F78"
+    }
+  ],
+  "old_actual_M1_inventory_hex": {
+    "CAP2942": "0x40020000000",
+    "CAP46": "0x480000000000",
+    "BACK2": "0x30000005",
+    "ZFIRST3": "0x2aff00cc0000d8097c0033000015",
+    "ZFIRST4": "0x0",
+    "ZFIRST5": "0x0",
+    "H6_0": "0x17c0000000000",
+    "H6_1": "0x1540020000001",
+    "H6_2": "0x3c0030000000",
+    "H6_3": "0x700000000004",
+    "Q1": "0x2f000c000005000000000000000",
+    "Q2": "0x17c0030000005",
+    "Q3": "0x280f000c00008800000000000000",
+    "Q4": "0x190000300026000"
+  },
+  "actual_M1_inventory_hex": {
+    "IMPORT_E8": "0x100",
+    "IMPORT_E9": "0x200",
+    "IMPORT_E36": "0x1000000000",
+    "CAP2942": "0x40020000000",
+    "CAP46": "0x480000000000",
+    "BACK2": "0x30000005",
+    "ZFIRST3": "0x2aff00cc0000d8097c0033000015",
+    "ZFIRST4": "0x0",
+    "ZFIRST5": "0x0",
+    "H6_0": "0x17c0000000000",
+    "H6_1": "0x1540020000001",
+    "H6_2": "0x3c0030000000",
+    "H6_3": "0x700000000004",
+    "Q2": "0x17c0030000005"
+  },
+  "M1_rank_before": 11,
+  "M1_rank_after": 11,
+  "M1_E_projection_rank_before": 0,
+  "M1_E_projection_rank_after": 3,
+  "removed_M1_fields": [
+    "Q1",
+    "Q3",
+    "Q4"
+  ],
+  "identical_Q_rows_at_new_stationary_copies": {
+    "Q1_F74": {
+      "row_hex": "0x2f000c000005000000000000000",
+      "chart": "F74",
+      "original_field": "Q1",
+      "original_retained_chart": "C1"
+    },
+    "Q3_F4": {
+      "row_hex": "0x280f000c00008800000000000000",
+      "chart": "F4",
+      "original_field": "Q3",
+      "original_retained_chart": "C3"
+    },
+    "Q4_F78": {
+      "row_hex": "0x190000300026000",
+      "chart": "F78",
+      "original_field": "Q4",
+      "original_retained_chart": "C4"
+    }
+  },
+  "all_old41_endpoints_and_originals_preserved": true,
+  "new_complete_outputs": 0,
+  "owned_MOVE_count_before": 53,
+  "owned_MOVE_count_after": 53,
+  "exact_movement_increment": "60[1]-27[2]+3[5]-3[7]",
+  "signed_movement_profile_increment": {
+    "1": 60,
+    "2": -27,
+    "5": 3,
+    "7": -3
+  },
+  "zero_linear_rank_volume_increment": true,
+  "price": {
+    "moment": {
+      "lower": "1617.11691190364089695624798936899288",
+      "upper": "1617.11691190364089695624798936899586",
+      "lower_fraction": "20213961398795511211953099867112411/12500000000000000000000000000000",
+      "upper_fraction": "80855845595182044847812399468449793/50000000000000000000000000000000"
+    },
+    "limiting_allowance": {
+      "lower": "1621.750880211152355246246150366993875",
+      "upper": "1621.75088021115235524624615036699603333333333333",
+      "lower_fraction": "12974007041689218841969969202935951/8000000000000000000000000000000",
+      "upper_fraction": "48652526406334570657387384511009881/30000000000000000000000000000000"
+    },
+    "limiting_room": {
+      "lower": "4.633968307511458289998160997998015",
+      "upper": "4.63396830751145828999816099800315333333333333333",
+      "lower_fraction": "926793661502291657999632199599603/200000000000000000000000000000000",
+      "upper_fraction": "695095246126718743499724149700473/150000000000000000000000000000000"
+    },
+    "increment": {
+      "lower": "0.2699321509513548598246816731693",
+      "upper": "0.26993215095135485982468167316963",
+      "lower_fraction": "2699321509513548598246816731693/10000000000000000000000000000000",
+      "upper_fraction": "26993215095135485982468167316963/100000000000000000000000000000000"
+    }
+  },
+  "endpoint_or_geometry_omissions_rejected": [
+    {
+      "removed": [
+        "MOVE",
+        "Y4",
+        "C1"
+      ],
+      "failure": "(1198, ['ADD', 'Q1', 'Y4'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "Q1",
+        "Y4"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "Q3_F4",
+        "Y4"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "Y74",
+        "C4"
+      ],
+      "failure": "(1208, ['ADD', 'Q4', 'Y74'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "Q1_F74",
+        "Y74"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "Y78",
+        "C3"
+      ],
+      "failure": "(1218, ['ADD', 'Q3', 'Y78'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "Q4_F78",
+        "Y78"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X60",
+        "Q1_F74"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X59",
+        "Q3_F4"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X13",
+        "Q4_F78"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "X60",
+        "F74"
+      ],
+      "failure": "(485, ['ADD', 'X60', 'Q1_F74'], 'colocation')"
+    },
+    {
+      "removed": [
+        "MOVE",
+        "X59",
+        "F4"
+      ],
+      "failure": "(622, ['ADD', 'X59', 'Q3_F4'], 'colocation')"
+    },
+    {
+      "removed": [
+        "MOVE",
+        "X13",
+        "F78"
+      ],
+      "failure": "(719, ['ADD', 'X13', 'Q4_F78'], 'colocation')"
+    },
+    {
+      "removed": [
+        "CLEAR",
+        "Q1_F74"
+      ],
+      "failure": ""
+    }
+  ],
+  "source_interface_controls": [
+    {
+      "removed": [
+        "ADD",
+        "X8",
+        "IMPORT_E8"
+      ],
+      "old41_endpoints_still_hold": true,
+      "claimed_actual_M1_import_fails": true
+    },
+    {
+      "removed": [
+        "MOVE",
+        "IMPORT_E8",
+        "M1"
+      ],
+      "old41_endpoints_still_hold": true,
+      "claimed_actual_M1_import_fails": true
+    },
+    {
+      "removed": [
+        "ADD",
+        "X9",
+        "IMPORT_E9"
+      ],
+      "old41_endpoints_still_hold": true,
+      "claimed_actual_M1_import_fails": true
+    },
+    {
+      "removed": [
+        "MOVE",
+        "IMPORT_E9",
+        "M1"
+      ],
+      "old41_endpoints_still_hold": true,
+      "claimed_actual_M1_import_fails": true
+    },
+    {
+      "removed": [
+        "ADD",
+        "X36",
+        "IMPORT_E36"
+      ],
+      "old41_endpoints_still_hold": true,
+      "claimed_actual_M1_import_fails": true
+    },
+    {
+      "removed": [
+        "MOVE",
+        "IMPORT_E36",
+        "M1"
+      ],
+      "old41_endpoints_still_hold": true,
+      "claimed_actual_M1_import_fails": true
+    }
+  ],
+  "all_three_actual_M1_read_then_unread_probes_pass": true,
+  "scope": "Same41 exact endpoints and restored arbitrary original inputs; three actual independent Extra6-to-M1 imports replace three old Q descents after a cyclic higher-cache receiver repair. All changed source inventories are recomputed; no complete E decoder,111-output supplier, or new kappa is asserted."
+}

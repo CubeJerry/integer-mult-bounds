@@ -1,0 +1,70 @@
+{
+  "status": "PASS_ACTUAL_RAW2_BACKUP_REPLACEMENT",
+  "base_word_sha256": "6c76a836322483cc11888ae214379a27adbb8f638ac3a049584f75953c5185a9",
+  "word_sha256": "6af12472710ddd26eb45cc58699652d8d68f4c6092907fde26a080d8dc9eaa08",
+  "before": {
+    "counts": {
+      "INIT": 118,
+      "ADD": 798,
+      "MOVE": 450,
+      "CLEAR": 118
+    },
+    "movement_profile": {
+      "1": 125,
+      "2": 66,
+      "3": 61,
+      "4": 9,
+      "5": 73,
+      "6": 24,
+      "7": 92
+    },
+    "dirty_CLEAR": 118,
+    "peak_owners": 118,
+    "all_222_endpoints": true
+  },
+  "after": {
+    "counts": {
+      "INIT": 118,
+      "ADD": 788,
+      "MOVE": 448,
+      "CLEAR": 118
+    },
+    "movement_profile": {
+      "1": 124,
+      "2": 66,
+      "3": 60,
+      "4": 9,
+      "5": 72,
+      "6": 24,
+      "7": 93
+    },
+    "dirty_CLEAR": 118,
+    "peak_owners": 118,
+    "all_222_endpoints": true
+  },
+  "exact_movement_difference": "[7]-[5]-[3]-[1]",
+  "all_old_partial_endpoints_retained": true,
+  "source_metadata_not_inherited": true,
+  "semantic_controls": [
+    [
+      "ADD",
+      "X2",
+      "COMMON_RAW2"
+    ],
+    [
+      "MOVE",
+      "COMMON_RAW2",
+      "zero"
+    ],
+    [
+      "ADD",
+      "COMMON_RAW2",
+      "Y2"
+    ],
+    [
+      "CLEAR",
+      "COMMON_RAW2"
+    ]
+  ],
+  "scope": "Literal all222-column endpoint and geometry/custody proof; new raw2 transport is paid; no full supplier or new kappa."
+}

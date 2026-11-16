@@ -1,0 +1,48 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_CYCLIC_CONJUGACY",
+  "author_result_sha256": "5ad3884e1c170d2e5acafde0d0204dacd9584f32de15b9b2e33b9bbda076f538",
+  "proof_sha256": "37a0905be2978f00a079ae1b5a00f778598459ff1d8c8b1c552a42c2a3bc0e94",
+  "method": "Independent SymPy/QQ(i) joint-rank factorization, explicit source matrix and Fourier arithmetic; no author code imported.",
+  "author_family_cross_sector_identities": 16,
+  "additional_family_cross_sector_identities": 16,
+  "both_reconstructed_inverse_products": true,
+  "double_fourier_coefficients_checked": 16,
+  "literal_source_nonzero_entries": 32,
+  "source_channel_controls": [
+    {
+      "one_column_phase_pairs": 4,
+      "nonzero_width3_channels": 16
+    },
+    {
+      "one_column_phase_pairs": 4,
+      "nonzero_width3_channels": 16
+    },
+    {
+      "one_column_phase_pairs": 4,
+      "nonzero_width3_channels": 16
+    },
+    {
+      "one_column_phase_pairs": 4,
+      "nonzero_width3_channels": 16
+    }
+  ],
+  "negative_controls": [
+    "joint_rank",
+    "flag",
+    "sector_projector",
+    "zero_channel"
+  ],
+  "physical_rank_false_positive_widths_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "universal_basis": "Separate spectral-support and constructive rank-one proof audit. Finite checks supplement this argument.",
+  "ordinary_C_proved": false,
+  "independent_421_endpoint_proved": false,
+  "new_complete_kappa": false
+}

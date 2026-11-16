@@ -1,5 +1,11 @@
 # Verification ledger and reproduction map
 
+## S017 checkpoint3 — source imports, history dominance and cyclic conjugacy
+
+Confirmed parent84d7d192c9aa1ade101c50b526b38e7c342f78f7. Ten reproduction/review commands pass and17 JSON artifacts are byte-identical to frozen evidence. Independent C replay checks all222 native columns, rational geometry, actual source cuts/access, full historical-span recipes and separately enclosed prices. Fresh proper-birth closures use new inventories and210 duals. Root independently reviews both cyclic universal proofs and checks exact literal source/Fourier/conjugacy identities with SymPy, without author code. Four path-only packaging edits to the raw2 reviewer are documented; its result bytes remain identical.
+
+See [validation](sessions/2026-11-16-S017/CHECKPOINT3-VALIDATION.json), [reproduction](sessions/2026-11-16-S017/CHECKPOINT3-REPRODUCTION.json) and each package's admission, manifests and dependencies. No failed finite search is treated as an impossibility theorem. No complete supplier, foundation or new κ is claimed.
+
 ## S015 checkpoint4: mixed cells, arbitrary punctures and the exact complex base
 
 Confirmed parent c19be258a396e7fc92ee963433d4f7c3b3969dc7. Twenty final reproduction
