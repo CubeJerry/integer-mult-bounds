@@ -1,0 +1,355 @@
+{
+  "actual_P_snapshot_count": 285,
+  "actual_P_history_rank": 85,
+  "raw_plus_all_actual_history_fits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    30,
+    38,
+    39,
+    43,
+    44,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "independently_checked_feedback_duals": 77,
+  "full_222_column_static_fits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    30,
+    38,
+    39,
+    43,
+    44,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "full_222_column_static_fit_count": 34,
+  "status": "PASS_INDEPENDENT_ALL_COLUMN_NONLOCAL_STOCK_AUDIT",
+  "word_sha256": "f17fb4bb7cc9dbe2c3a1725f1b24586b0e97262b98c7e2cff07e25df35ad35a5",
+  "replay": {
+    "columns": 222,
+    "targets": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      10,
+      11,
+      12,
+      16,
+      19,
+      20,
+      21,
+      22,
+      23,
+      27,
+      28,
+      30,
+      38,
+      39,
+      43,
+      44,
+      48,
+      64,
+      65,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "counts": {
+      "INIT": 114,
+      "ADD": 905,
+      "MOVE": 435,
+      "CLEAR": 114
+    },
+    "movement_profile": {
+      "1": 110,
+      "2": 65,
+      "3": 56,
+      "4": 13,
+      "5": 73,
+      "6": 24,
+      "7": 94
+    },
+    "peak_owners": 114,
+    "dirty_clears": 114,
+    "canonical_cut": {}
+  },
+  "budget": {
+    "moment": {
+      "lower_fraction": "16146899959813378669073220937303/10000000000000000000000000000",
+      "upper_fraction": "2583503993570140587051715349969/1600000000000000000000000000",
+      "display_lower": "1614.6899959813379155",
+      "display_upper": "1614.6899959813379155"
+    },
+    "limiting_room": {
+      "lower_fraction": "7060884229814488338924056636281/1000000000000000000000000000000",
+      "upper_fraction": "42365305378886930033544339820931/6000000000000000000000000000000",
+      "display_lower": "7.0608842298144880",
+      "display_upper": "7.0608842298144880"
+    },
+    "first_positive_even_m": 4,
+    "first_margin": {
+      "lower_fraction": "79628070096906274904762836257381/500000000000000000000000000000",
+      "upper_fraction": "39814035048453137452381418145369/250000000000000000000000000000",
+      "display_lower": "159.2561401938125414",
+      "display_upper": "159.2561401938125414"
+    },
+    "method": "integer bisection of200th roots at scale10^30; displays noncertifying"
+  },
+  "source_cut": 1158,
+  "ground_rank": 14,
+  "ground_plus_nonlocal_rank": 36,
+  "proper_nonlocal_stock": {
+    "HKEEP_E6": {
+      "chart": "Extra6",
+      "row": "0x5555ff6403543d51e94f295f3596"
+    },
+    "HKEEP_L19": {
+      "chart": "L19",
+      "row": "0x100000"
+    },
+    "HKEEP_D7": {
+      "chart": "D3_21",
+      "row": "0x663399ff126439eb8f2970d6879b"
+    },
+    "HKEEP_L27": {
+      "chart": "L27",
+      "row": "0x400"
+    },
+    "TRIAD16": {
+      "chart": "J16",
+      "row": "0x18020"
+    },
+    "TRIAD23": {
+      "chart": "J23",
+      "row": "0x808020"
+    },
+    "TRIAD22": {
+      "chart": "J22",
+      "row": "0x408020"
+    },
+    "ZFIRST3": {
+      "chart": "M1",
+      "row": "0x2aff00cc0000c8017c0031000015"
+    },
+    "ZKEEP2": {
+      "chart": "L0",
+      "row": "0x30000005"
+    },
+    "ZFIRST4": {
+      "chart": "M1",
+      "row": "0x2f00cc0046051917c0330024005"
+    },
+    "ZKEEP43": {
+      "chart": "L28",
+      "row": "0x580010000000"
+    },
+    "ZFIRST5": {
+      "chart": "M1",
+      "row": "0x280fc00c400481917c0330026005"
+    },
+    "ZKEEP48": {
+      "chart": "L44",
+      "row": "0x1300000000001"
+    },
+    "KEEP_C0": {
+      "chart": "C0",
+      "row": "0x663399ff12643f8d0ce5bc331f31"
+    },
+    "KEEP_M16": {
+      "chart": "L7",
+      "row": "0x40000000"
+    },
+    "KEEP_C1": {
+      "chart": "C0",
+      "row": "0x500003021381266603c0c0c198a0"
+    },
+    "KEEP_M23": {
+      "chart": "L11",
+      "row": "0x4000000000"
+    },
+    "KEEP_C2": {
+      "chart": "C0",
+      "row": "0x5003031001a066603c0c0c198a0"
+    },
+    "KEEP_M22": {
+      "chart": "L12",
+      "row": "0x8000000000"
+    },
+    "Q1": {
+      "chart": "M1",
+      "row": "0x2f000c000005000000000000000"
+    },
+    "Q3": {
+      "chart": "M1",
+      "row": "0x280f000c00008800000000000000"
+    },
+    "Q4": {
+      "chart": "M1",
+      "row": "0x190000300026000"
+    }
+  },
+  "local_stock_count": 87,
+  "optimistic_fit_count": 34,
+  "optimistic_fits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    30,
+    38,
+    39,
+    43,
+    44,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "puncture_audit": {},
+  "semantic_controls": [
+    {
+      "control": "local conversion 30",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "third retention 30",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "actual new source 30",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "new low delivery 30",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "new retirement 30",
+      "rejected": "retirement"
+    },
+    {
+      "control": "local conversion 38",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "third retention 38",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "actual new source 38",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "new low delivery 38",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "new retirement 38",
+      "rejected": "retirement"
+    },
+    {
+      "control": "local conversion 39",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "third retention 39",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "actual new source 39",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "new low delivery 39",
+      "rejected": "Y endpoint"
+    },
+    {
+      "control": "new retirement 39",
+      "rejected": "retirement"
+    }
+  ],
+  "scope": "Actual source-cut fields plus freely granted geometric raw locals. Does not prove any full-extension impossibility.",
+  "new_complete_kappa": false
+}

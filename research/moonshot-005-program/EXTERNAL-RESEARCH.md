@@ -366,3 +366,7 @@ Main unchanged at e54523517d0f03e58352e647c403a5af3e525a57. Open [#7624](https:/
 ## S016 checkpoint9 integration scope
 
 No upstream commits or external candidate certificates merged. New source/bank packages compose only with their pinned predecessors. The selected conditional bound, all five foundations and the preceding #7624 extra-erasure-premise caveat are unchanged.
+
+## Final refresh at03:37:23UTC
+
+Main remains e54523517d0f03e58352e647c403a5af3e525a57. New open [#7625](https://github.com/CrocSwap/integer-mult-bounds/pull/7625), head33a84ab4622a5130e0dbca7bee207aee12f905e6, states conditional.003663028410 under a stronger common finite-tariff whole-private-extent supplierU. Its description explicitly saysU is unimplemented and no implication from the original erasure premise or same-original-premise dominance is established. Metadata/stated scope reviewed; no source replay/admission here. It does not replace the selected benchmark. #7624 remains open with its own unresolved extra erasure applicability. No upstream branch/certificate changed.

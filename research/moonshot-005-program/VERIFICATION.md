@@ -760,3 +760,7 @@ Ten reproduction commands pass: byte-identical30 rebuild, all222 columns,81 clos
 ## S016 checkpoint9
 
 Twenty-two reproduction commands pass, including four byte-identical words, exact author and independent symbolic/source checks, root32/34 all-column geometry/stock/79+77 dual audits, independent83-bank reconstruction and separate13/9 cut/decoder checks. Nonlinear proof independently reviewed by Worker B. All proof verifiers use committed relative dependencies or explicit arguments; the historically archived discovery probe retains its original scratch path and is not a proof/reproduction dependency. See CHECKPOINT9-VALIDATION.json and reproduce_cp9.py. No complete supplier or dirty-erasure applicability is inferred.
+
+## Final S016 mathematical checkpoint
+
+Eighteen reproduction commands pass, with four byte-identical rebuilt words. Separate independent engines verify the108 bank envelope,2,913 field/6,465 history incidences, port29 custody and77 duals, port41 full222 source and actual recipe-cut rank9, cross-bank full222 chronology and root77-dual history audit, and the exact composed source with unchanged live M1 inventory. Source/payload negative controls distinguish changed row content from preserved endpoints. Complete new artifacts and dependency pins are in publication manifests. Main claims are proved source identities or scoped information theorems; full111, dirty-erasure applicability and complete suppliers remain open.

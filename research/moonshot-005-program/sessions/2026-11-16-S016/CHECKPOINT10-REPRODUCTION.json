@@ -1,0 +1,293 @@
+{
+  "status": "PASS_CP10_REPRODUCTION",
+  "commands": [
+    {
+      "name": "port29-build",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/port29/build.py",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/port29"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "ports-envelope",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/port-envelope/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/envelope"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "port-screen",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/port-envelope/ports.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/output/WORD.json",
+        "--envelope",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/envelope/RESULT.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/envelope"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "port29-independent",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/independent-port29/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/output/WORD.json",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/port29/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/port29-independent"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "interface-independent",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/independent-interface/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/output/WORD.json",
+        "--envelope",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-private-bank-reduction/author/output/RESULT.json",
+        "--compression",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-bank-compression/author/output/RESULT.json",
+        "--ports",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/port-envelope/output/RESULT.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/interface-independent"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "port29-author",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/port29/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/port29"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "port29-price",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/port29/price.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/port29"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "port41-build",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/port41/build.py",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/port41"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "coupling-build",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-cross-bank-recoding/author/build.py",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/coupling"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "port41-family-root",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/root-port41/family.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/output/WORD.json",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/port41/WORD.json",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/port41-family-root.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "coupling-author",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-cross-bank-recoding/author/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/output/WORD.json",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/coupling/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/coupling"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "coupling-independent",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-cross-bank-recoding/independent-b/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/output/WORD.json",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/coupling/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/coupling-independent"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "port41-author",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/port41/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/port41"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "port41-root",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/root-port41/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/port41/WORD.json",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review",
+        "--certificate",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/port41/output/RESULT.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/port41-root.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "coupling-root",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-cross-bank-recoding/root-review/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/coupling/WORD.json",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review",
+        "--certificate",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-cross-bank-recoding/author/output/RESULT.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/coupling-root.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "port41-price",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/port41/price.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/port41"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "composition-author",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-composed-coded-source/author/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/output/WORD.json",
+        "--port",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/port41/output/WORD.json",
+        "--cross",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-cross-bank-recoding/author/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/composition"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "composition-independent",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-composed-coded-source/independent-b/check.py",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-decoder-placement/port41/output/WORD.json",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/composition/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp10-reproduction/composition-independent"
+      ],
+      "returncode": 0
+    }
+  ],
+  "byte_identical_rebuilt_words": 4,
+  "new_complete_kappa": false
+}

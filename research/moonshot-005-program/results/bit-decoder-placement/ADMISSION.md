@@ -1,0 +1,9 @@
+# Exact decoder placement obstruction and protected coded-load interface
+
+The separated full-bank relaxation at the eight current leaf ports closes at108, excluding24,42,69. Its three exact duals extend to all characteristic-two fields, record widths and nonlinear processing of the fixed measurements. Independent C reconstructs2,913 visible live-field and6,465 visible history incidences and proves this envelope contains the actual34 source. The theorem fixes bank assignments, terminal point information and ports; new cross-bank acquisition and coded terminals remain possible escapes.
+
+Port29 is a real paid repair preserving34 endpoints and every seed value. Its one rank4 owned move costs[4], gives Q1618.66236596308601051 and leaves3.08851424806634473. The generous bank envelope becomes110, with receiver46 still excluded. This option does not replace the cheaper34 baseline.
+
+Port41 protects old Y2 using a real BACK2 field atJnew2. The raw-X0 helper moves toground; P3 can then retain a separately chosen payload atL41. The actualQ1 instance uses115 INIT,905 ADD,436 MOVE,115 dirty CLEAR. Its increment is[3]+[2]-1, Q1618.66664250049023318, room3.08423771066212. Any fixed binary recipe of actually live cocharted pure-X fields at the declared M1 reset may replaceQ1. That actual inventory has rank9. BACK2 preservesY2 and the later reset preservesP3's old terminal. No arbitrary historical row or entire53-dimensional bank is granted.
+
+The actual chosen word still completes34; its strong frozen closure remains34. The coarse full-bank111 comparison is only optimistic availability. Author proofs, independent-interface/independent-port29 reviews and root-port41 review preserve these distinctions. Root verifies all222 columns,77 duals, the exact live recipe inventory, custody controls and the two-reset universal recipe proof. All five foundations and complete suppliers remain open. No new kappa.
