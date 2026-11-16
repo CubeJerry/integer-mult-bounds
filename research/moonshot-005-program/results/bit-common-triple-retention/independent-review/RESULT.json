@@ -1,0 +1,792 @@
+{
+  "status": "PASS_INDEPENDENT_ACTUAL41_CHAIN_AND_PRICE",
+  "word_sha256": "07ed37cf9dfa1da24d3518e25e46d7b29141582f71f32da1191f13fbc9b1971f",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "dependency_hashes": {
+    "geometry_engine": "b5402a2dbdd8f49efac3fee678d88ca653bb5d1d6b80ae6fd47372c777db2762",
+    "price_engine": "3f9d58ab9f6cf015ab3344d3807934661421d3ba60a67a1f7c8018485f523780"
+  },
+  "all_stages_independently_replayed": [
+    {
+      "stage": "reprogram36",
+      "word_sha256": "af51d0d7c872dbf3fa3744b582769d4c7763e0747e57c74005d091d19b7da474",
+      "parent_sha256": "e4d451886a134c648f71fadac5b7f6f8693e5495b60416d137cfe0d0e563e050",
+      "targets": 36,
+      "independent_replay": {
+        "input_columns": 222,
+        "counts": {
+          "INIT": 117,
+          "ADD": 916,
+          "MOVE": 437,
+          "CLEAR": 117
+        },
+        "movement_profile": {
+          "1": 110,
+          "2": 66,
+          "3": 57,
+          "4": 13,
+          "5": 73,
+          "6": 25,
+          "7": 93
+        },
+        "dirty_CLEAR": 117,
+        "peak_owned": 117,
+        "historical_record_states": 1692
+      }
+    },
+    {
+      "stage": "common38",
+      "word_sha256": "b30cca73a0aafcc98dd98440ba2597119bf79401751f2fc5022dcbd1c22b1059",
+      "parent_sha256": "af51d0d7c872dbf3fa3744b582769d4c7763e0747e57c74005d091d19b7da474",
+      "targets": 38,
+      "independent_replay": {
+        "input_columns": 222,
+        "counts": {
+          "INIT": 120,
+          "ADD": 919,
+          "MOVE": 438,
+          "CLEAR": 120
+        },
+        "movement_profile": {
+          "1": 111,
+          "2": 66,
+          "3": 56,
+          "4": 13,
+          "5": 73,
+          "6": 28,
+          "7": 91
+        },
+        "dirty_CLEAR": 120,
+        "peak_owned": 120,
+        "historical_record_states": 1699
+      }
+    },
+    {
+      "stage": "common39",
+      "word_sha256": "c7c8eb65cdc69d01d61cb82949ad85ff4de675606462ae7d3ce772fc885eb757",
+      "parent_sha256": "b30cca73a0aafcc98dd98440ba2597119bf79401751f2fc5022dcbd1c22b1059",
+      "targets": 39,
+      "independent_replay": {
+        "input_columns": 222,
+        "counts": {
+          "INIT": 120,
+          "ADD": 921,
+          "MOVE": 437,
+          "CLEAR": 120
+        },
+        "movement_profile": {
+          "1": 110,
+          "2": 66,
+          "3": 55,
+          "4": 13,
+          "5": 73,
+          "6": 30,
+          "7": 90
+        },
+        "dirty_CLEAR": 120,
+        "peak_owned": 120,
+        "historical_record_states": 1700
+      }
+    },
+    {
+      "stage": "clique39",
+      "word_sha256": "0ce7ccb671300c1af9548f091e972e81feb09f7f8d8cf115d0e46b3bb0762bc2",
+      "parent_sha256": "c7c8eb65cdc69d01d61cb82949ad85ff4de675606462ae7d3ce772fc885eb757",
+      "targets": 39,
+      "independent_replay": {
+        "input_columns": 222,
+        "counts": {
+          "INIT": 122,
+          "ADD": 929,
+          "MOVE": 444,
+          "CLEAR": 122
+        },
+        "movement_profile": {
+          "1": 114,
+          "2": 71,
+          "3": 56,
+          "4": 12,
+          "5": 74,
+          "6": 28,
+          "7": 89
+        },
+        "dirty_CLEAR": 122,
+        "peak_owned": 122,
+        "historical_record_states": 1717
+      }
+    },
+    {
+      "stage": "clique41",
+      "word_sha256": "07ed37cf9dfa1da24d3518e25e46d7b29141582f71f32da1191f13fbc9b1971f",
+      "parent_sha256": "0ce7ccb671300c1af9548f091e972e81feb09f7f8d8cf115d0e46b3bb0762bc2",
+      "targets": 41,
+      "independent_replay": {
+        "input_columns": 222,
+        "counts": {
+          "INIT": 129,
+          "ADD": 948,
+          "MOVE": 460,
+          "CLEAR": 129
+        },
+        "movement_profile": {
+          "1": 131,
+          "2": 70,
+          "3": 61,
+          "4": 9,
+          "5": 78,
+          "6": 24,
+          "7": 87
+        },
+        "dirty_CLEAR": 129,
+        "peak_owned": 129,
+        "historical_record_states": 1759
+      }
+    }
+  ],
+  "common_rank": 17,
+  "common_codes": [
+    [
+      29,
+      40,
+      42
+    ],
+    [
+      41,
+      43,
+      46
+    ],
+    [
+      45,
+      48,
+      49
+    ]
+  ],
+  "partial_rows": {
+    "P4_RET": "0x40020000000",
+    "P5_RET": "0x1300000000001",
+    "RAW40": "0x10000000000",
+    "RAW49": "0x2000000000000",
+    "P4_RAW29": "0x20000000",
+    "P4_RAW42": "0x40000000000",
+    "P5_RAW45": "0x200000000000",
+    "P5_RAW48": "0x1000000000000",
+    "CAP2942": "0x40020000000",
+    "CAP46": "0x480000000000"
+  },
+  "new_chart_inclusions": [
+    {
+      "chart": "P4_K",
+      "rank": 2,
+      "receiver": 42,
+      "source_chart": "M1"
+    },
+    {
+      "chart": "P4_A",
+      "rank": 2,
+      "receiver": 40,
+      "source_chart": "M1"
+    },
+    {
+      "chart": "P4_B",
+      "rank": 2,
+      "receiver": 29,
+      "source_chart": "M1"
+    },
+    {
+      "chart": "P5_K",
+      "rank": 2,
+      "receiver": 48,
+      "source_chart": "M1"
+    },
+    {
+      "chart": "P5_A",
+      "rank": 2,
+      "receiver": 49,
+      "source_chart": "M1"
+    },
+    {
+      "chart": "P5_B",
+      "rank": 2,
+      "receiver": 45,
+      "source_chart": "M1"
+    },
+    {
+      "chart": "K46_PAIR",
+      "rank": 2,
+      "receiver": 46,
+      "source_chart": "M1"
+    },
+    {
+      "chart": "J41_PAIR",
+      "rank": 3,
+      "receiver": 41,
+      "source_chart": "M1"
+    },
+    {
+      "chart": "J43_PAIR",
+      "rank": 3,
+      "receiver": 43,
+      "source_chart": "M1"
+    }
+  ],
+  "old_Y2_raw29_repair_verified": true,
+  "incomparable_old_X29_itinerary_excluded": true,
+  "signed_movement_profile_difference_from39": {
+    "1": 17,
+    "2": -1,
+    "3": 5,
+    "4": -3,
+    "5": 4,
+    "6": -4,
+    "7": -2
+  },
+  "zero_linear_rank_volume_increment": true,
+  "independent_price": {
+    "method": "Exact integer200th roots at scale10^32, independently recomputed fractions",
+    "moment": {
+      "lower": "1620.95781242807284795057137035114711",
+      "upper": "1620.9578124280728479505713703511504",
+      "lower_fraction": "162095781242807284795057137035114711/100000000000000000000000000000000",
+      "upper_fraction": "1013098632767545529969107106469469/625000000000000000000000000000"
+    },
+    "limiting_allowance": {
+      "lower": "1621.750880211152355246246150366993875",
+      "upper": "1621.75088021115235524624615036699603333333333333",
+      "lower_fraction": "12974007041689218841969969202935951/8000000000000000000000000000000",
+      "upper_fraction": "48652526406334570657387384511009881/30000000000000000000000000000000"
+    },
+    "limiting_room": {
+      "lower": "0.793067783079507295674780015843475",
+      "upper": "0.793067783079507295674780015848923333333333333333",
+      "lower_fraction": "31722711323180291826991200633739/40000000000000000000000000000000",
+      "upper_fraction": "237920334923852188702434004754677/300000000000000000000000000000000"
+    },
+    "increment_from39": {
+      "lower": "0.19694563499854915000890664513205",
+      "upper": "0.19694563499854915000890664513224",
+      "lower_fraction": "3938912699970983000178132902641/20000000000000000000000000000000",
+      "upper_fraction": "2461820437481864375111333064153/12500000000000000000000000000000"
+    }
+  },
+  "author_price_intervals_contained": true,
+  "independently_checked_all_history_closure_duals": [
+    {
+      "receiver": 5,
+      "dual_hex": "0x20",
+      "checked_measurements": 427
+    },
+    {
+      "receiver": 8,
+      "dual_hex": "0x100",
+      "checked_measurements": 405
+    },
+    {
+      "receiver": 9,
+      "dual_hex": "0x200",
+      "checked_measurements": 429
+    },
+    {
+      "receiver": 13,
+      "dual_hex": "0x2000",
+      "checked_measurements": 420
+    },
+    {
+      "receiver": 14,
+      "dual_hex": "0x4000",
+      "checked_measurements": 439
+    },
+    {
+      "receiver": 15,
+      "dual_hex": "0x8000",
+      "checked_measurements": 420
+    },
+    {
+      "receiver": 17,
+      "dual_hex": "0x20000",
+      "checked_measurements": 411
+    },
+    {
+      "receiver": 18,
+      "dual_hex": "0x40000",
+      "checked_measurements": 424
+    },
+    {
+      "receiver": 24,
+      "dual_hex": "0x1000000",
+      "checked_measurements": 428
+    },
+    {
+      "receiver": 25,
+      "dual_hex": "0x2000000",
+      "checked_measurements": 426
+    },
+    {
+      "receiver": 26,
+      "dual_hex": "0x4000000",
+      "checked_measurements": 448
+    },
+    {
+      "receiver": 31,
+      "dual_hex": "0x80000000",
+      "checked_measurements": 418
+    },
+    {
+      "receiver": 32,
+      "dual_hex": "0x100000000",
+      "checked_measurements": 448
+    },
+    {
+      "receiver": 33,
+      "dual_hex": "0x200000000",
+      "checked_measurements": 449
+    },
+    {
+      "receiver": 34,
+      "dual_hex": "0x400000000",
+      "checked_measurements": 423
+    },
+    {
+      "receiver": 35,
+      "dual_hex": "0x800000000",
+      "checked_measurements": 402
+    },
+    {
+      "receiver": 36,
+      "dual_hex": "0x1000000000",
+      "checked_measurements": 406
+    },
+    {
+      "receiver": 37,
+      "dual_hex": "0x2000000000",
+      "checked_measurements": 389
+    },
+    {
+      "receiver": 47,
+      "dual_hex": "0x800000000000",
+      "checked_measurements": 467
+    },
+    {
+      "receiver": 50,
+      "dual_hex": "0x4000000000000",
+      "checked_measurements": 414
+    },
+    {
+      "receiver": 51,
+      "dual_hex": "0x8000000000000",
+      "checked_measurements": 448
+    },
+    {
+      "receiver": 52,
+      "dual_hex": "0x10000000000000",
+      "checked_measurements": 420
+    },
+    {
+      "receiver": 53,
+      "dual_hex": "0x20000000000000",
+      "checked_measurements": 410
+    },
+    {
+      "receiver": 54,
+      "dual_hex": "0x40000000000000",
+      "checked_measurements": 416
+    },
+    {
+      "receiver": 55,
+      "dual_hex": "0x80000000000000",
+      "checked_measurements": 429
+    },
+    {
+      "receiver": 56,
+      "dual_hex": "0x100000000000000",
+      "checked_measurements": 415
+    },
+    {
+      "receiver": 57,
+      "dual_hex": "0x200000000000000",
+      "checked_measurements": 411
+    },
+    {
+      "receiver": 58,
+      "dual_hex": "0x400000000000000",
+      "checked_measurements": 401
+    },
+    {
+      "receiver": 59,
+      "dual_hex": "0x800000000000000",
+      "checked_measurements": 448
+    },
+    {
+      "receiver": 60,
+      "dual_hex": "0x1000000000000000",
+      "checked_measurements": 444
+    },
+    {
+      "receiver": 61,
+      "dual_hex": "0x2000000000000000",
+      "checked_measurements": 433
+    },
+    {
+      "receiver": 62,
+      "dual_hex": "0x4000000000000000",
+      "checked_measurements": 406
+    },
+    {
+      "receiver": 63,
+      "dual_hex": "0x8000000000000000",
+      "checked_measurements": 402
+    },
+    {
+      "receiver": 66,
+      "dual_hex": "0x40000000000000000",
+      "checked_measurements": 413
+    },
+    {
+      "receiver": 67,
+      "dual_hex": "0x80000000000000000",
+      "checked_measurements": 453
+    },
+    {
+      "receiver": 68,
+      "dual_hex": "0x100000000000000000",
+      "checked_measurements": 433
+    },
+    {
+      "receiver": 69,
+      "dual_hex": "0x200000000000000000",
+      "checked_measurements": 433
+    },
+    {
+      "receiver": 70,
+      "dual_hex": "0x400000000000000000",
+      "checked_measurements": 409
+    },
+    {
+      "receiver": 71,
+      "dual_hex": "0x800000000000000000",
+      "checked_measurements": 449
+    },
+    {
+      "receiver": 72,
+      "dual_hex": "0x1000000000000000000",
+      "checked_measurements": 433
+    },
+    {
+      "receiver": 81,
+      "dual_hex": "0x200000000000000000000",
+      "checked_measurements": 420
+    },
+    {
+      "receiver": 82,
+      "dual_hex": "0x400000000000000000000",
+      "checked_measurements": 415
+    },
+    {
+      "receiver": 83,
+      "dual_hex": "0x800000000000000000000",
+      "checked_measurements": 425
+    },
+    {
+      "receiver": 84,
+      "dual_hex": "0x1000000000000000000000",
+      "checked_measurements": 416
+    },
+    {
+      "receiver": 85,
+      "dual_hex": "0x2000000000000000000000",
+      "checked_measurements": 426
+    },
+    {
+      "receiver": 86,
+      "dual_hex": "0x4000000000000000000000",
+      "checked_measurements": 415
+    },
+    {
+      "receiver": 87,
+      "dual_hex": "0x8000000000000000000000",
+      "checked_measurements": 429
+    },
+    {
+      "receiver": 88,
+      "dual_hex": "0x10000000000000000000000",
+      "checked_measurements": 480
+    },
+    {
+      "receiver": 89,
+      "dual_hex": "0x20000000000000000000000",
+      "checked_measurements": 436
+    },
+    {
+      "receiver": 90,
+      "dual_hex": "0x40000000000000000000000",
+      "checked_measurements": 449
+    },
+    {
+      "receiver": 91,
+      "dual_hex": "0x80000000000000000000000",
+      "checked_measurements": 409
+    },
+    {
+      "receiver": 92,
+      "dual_hex": "0x100000000000000000000000",
+      "checked_measurements": 476
+    },
+    {
+      "receiver": 93,
+      "dual_hex": "0x200000000000000000000000",
+      "checked_measurements": 436
+    },
+    {
+      "receiver": 94,
+      "dual_hex": "0x400000000000000000000000",
+      "checked_measurements": 449
+    },
+    {
+      "receiver": 95,
+      "dual_hex": "0x800000000000000000000000",
+      "checked_measurements": 413
+    },
+    {
+      "receiver": 96,
+      "dual_hex": "0x1000000000000000000000000",
+      "checked_measurements": 405
+    },
+    {
+      "receiver": 97,
+      "dual_hex": "0x2000000000000000000000000",
+      "checked_measurements": 429
+    },
+    {
+      "receiver": 98,
+      "dual_hex": "0x4000000000000000000000000",
+      "checked_measurements": 420
+    },
+    {
+      "receiver": 99,
+      "dual_hex": "0x8000000000000000000000000",
+      "checked_measurements": 428
+    },
+    {
+      "receiver": 100,
+      "dual_hex": "0x10000000000000000000000000",
+      "checked_measurements": 401
+    },
+    {
+      "receiver": 101,
+      "dual_hex": "0x20000000000000000000000000",
+      "checked_measurements": 429
+    },
+    {
+      "receiver": 102,
+      "dual_hex": "0x40000000000000000000000000",
+      "checked_measurements": 420
+    },
+    {
+      "receiver": 103,
+      "dual_hex": "0x80000000000000000000000000",
+      "checked_measurements": 443
+    },
+    {
+      "receiver": 104,
+      "dual_hex": "0x100000000000000000000000000",
+      "checked_measurements": 428
+    },
+    {
+      "receiver": 105,
+      "dual_hex": "0x200000000000000000000000000",
+      "checked_measurements": 436
+    },
+    {
+      "receiver": 106,
+      "dual_hex": "0x400000000000000000000000000",
+      "checked_measurements": 411
+    },
+    {
+      "receiver": 107,
+      "dual_hex": "0x800000000000000000000000000",
+      "checked_measurements": 435
+    },
+    {
+      "receiver": 108,
+      "dual_hex": "0x1000000000000000000000000000",
+      "checked_measurements": 424
+    },
+    {
+      "receiver": 109,
+      "dual_hex": "0x2000000000000000000000000000",
+      "checked_measurements": 432
+    },
+    {
+      "receiver": 110,
+      "dual_hex": "0x4000000000000000000000000000",
+      "checked_measurements": 411
+    }
+  ],
+  "frozen_closure_scope": "All record histories (including original-Y X-parts), raw geometric locals and free decoded-point feedback close at41.",
+  "semantic_controls_without_invoice_metadata_or_milestones": [
+    {
+      "removed": [
+        "ADD",
+        "X40",
+        "RAW40"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X49",
+        "RAW49"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "RAW40",
+        "P4"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "RAW49",
+        "P5"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P4",
+        "P4_RET"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P5",
+        "P5_RET"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "Y2",
+        "L29"
+      ],
+      "failure": "(1369, ['ADD', 'RAW29', 'Y2'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "RAW29",
+        "Y2"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X29",
+        "P4_RAW29"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X42",
+        "P4_RAW42"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X45",
+        "P5_RAW45"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X48",
+        "P5_RAW48"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P4_RET",
+        "Y42"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P5_RET",
+        "Y48"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P4_RAW29",
+        "Y40"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P5_RAW45",
+        "Y49"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "Y29",
+        "P4_B"
+      ],
+      "failure": "(1410, ['ADD', 'P4_RAW42', 'Y29'], 'colocation')"
+    },
+    {
+      "removed": [
+        "MOVE",
+        "Y45",
+        "P5_B"
+      ],
+      "failure": "(1462, ['ADD', 'P5_RAW48', 'Y45'], 'colocation')"
+    },
+    {
+      "removed": [
+        "CLEAR",
+        "P5_RET"
+      ],
+      "failure": ""
+    },
+    {
+      "inserted": [
+        "MOVE",
+        "X29",
+        "Jnew2"
+      ],
+      "before": [
+        "MOVE",
+        "X29",
+        "P4_A"
+      ],
+      "failure": "(563, ['MOVE', 'X29', 'P4_A'], 'direction')"
+    }
+  ],
+  "scope": "Exact formal source/decoder identities over all characteristic-two fields and record widths; complete111 source, ordinary and recursive supplier costs and all five foundations remain open. No new kappa."
+}

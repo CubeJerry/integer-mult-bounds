@@ -1,0 +1,63 @@
+{
+  "status": "PASS_ELEVEN_REPRODUCTION_AND_REVIEW_COMMANDS",
+  "baseline_sha": "cc5927998f2f18bd87537f88999343d20d0f211d",
+  "verified_utc": "2026-11-16T07:16:41Z",
+  "commands": [
+    {
+      "name": "triple-rebuild",
+      "command": "python research/moonshot-005-program/results/bit-common-triple-retention/author/reproduce_clique_chain.py --repo . --base36 research/moonshot-005-program/results/bit-common-triple-retention/author/stages/reprogram36/WORD.json --expected41 research/moonshot-005-program/results/bit-common-triple-retention/author/stages/clique41/WORD.json --out /workspace/scratch/5b84182f4f70/verification/cp2/triple-rebuild.json",
+      "exit_code": 0
+    },
+    {
+      "name": "triple-review",
+      "command": "python research/moonshot-005-program/results/bit-common-triple-retention/independent-review/check.py --repo . --stages research/moonshot-005-program/results/bit-common-triple-retention/author/stages --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --price-engine research/moonshot-005-program/results/bit-common-terminal-reuse/independent-review/check.py --out /workspace/scratch/5b84182f4f70/verification/cp2/triple-review",
+      "exit_code": 0
+    },
+    {
+      "name": "extra-author",
+      "command": "python research/moonshot-005-program/results/bit-placement-free-extra-cut/author/check.py --repo . --word research/moonshot-005-program/results/bit-common-terminal-reuse/author/WORD.json --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --out /workspace/scratch/5b84182f4f70/verification/cp2/extra-author.json",
+      "exit_code": 0
+    },
+    {
+      "name": "extra-root36",
+      "command": "python research/moonshot-005-program/results/bit-placement-free-extra-cut/root-review/check.py --repo . --word research/moonshot-005-program/results/bit-common-terminal-reuse/author/WORD.json --out /workspace/scratch/5b84182f4f70/verification/cp2/extra-root36.json",
+      "exit_code": 0
+    },
+    {
+      "name": "extra-root41",
+      "command": "python research/moonshot-005-program/results/bit-placement-free-extra-cut/root-review/check.py --repo . --word research/moonshot-005-program/results/bit-common-triple-retention/author/stages/clique41/WORD.json --out /workspace/scratch/5b84182f4f70/verification/cp2/extra-root41.json",
+      "exit_code": 0
+    },
+    {
+      "name": "middle-author",
+      "command": "python research/moonshot-005-program/results/complex-middle-native-interface/author/check.py --repo . --output /workspace/scratch/5b84182f4f70/verification/cp2/middle-author.json",
+      "exit_code": 0
+    },
+    {
+      "name": "middle-root",
+      "command": "python research/moonshot-005-program/results/complex-middle-native-interface/root-review/check.py --repo . --proof research/moonshot-005-program/results/complex-middle-native-interface/author/PROOF.md --out /workspace/scratch/5b84182f4f70/verification/cp2/middle-root.json",
+      "exit_code": 0
+    },
+    {
+      "name": "reduce-rebuild",
+      "command": "python research/moonshot-005-program/results/bit-proper-birth-reduction/author/optimize_word.py --word research/moonshot-005-program/results/bit-common-triple-retention/author/stages/clique41/WORD.json --out /workspace/scratch/5b84182f4f70/verification/cp2/reduce-rebuild",
+      "exit_code": 0
+    },
+    {
+      "name": "reduce-review",
+      "command": "python research/moonshot-005-program/results/bit-proper-birth-reduction/independent-reduction/check.py --repo . --base research/moonshot-005-program/results/bit-common-triple-retention/author/stages/clique41/WORD.json --word research/moonshot-005-program/results/bit-proper-birth-reduction/author/reduced41/WORD.json --author-price research/moonshot-005-program/results/bit-proper-birth-reduction/author/reduced41/PRICE.json --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --price-engine research/moonshot-005-program/results/bit-common-terminal-reuse/independent-review/check.py --out /workspace/scratch/5b84182f4f70/verification/cp2/reduce-review",
+      "exit_code": 0
+    },
+    {
+      "name": "birth-rebuild",
+      "command": "python research/moonshot-005-program/results/bit-proper-birth-reduction/author/proper-birth41/build.py --repo . --base research/moonshot-005-program/results/bit-proper-birth-reduction/author/reduced41/WORD.json --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --price-engine research/moonshot-005-program/results/bit-common-terminal-reuse/independent-review/check.py --out /workspace/scratch/5b84182f4f70/verification/cp2/birth-rebuild",
+      "exit_code": 0
+    },
+    {
+      "name": "birth-root",
+      "command": "python research/moonshot-005-program/results/bit-proper-birth-reduction/root-birth-review/check.py --base research/moonshot-005-program/results/bit-proper-birth-reduction/author/reduced41/WORD.json --word research/moonshot-005-program/results/bit-proper-birth-reduction/author/proper-birth41/WORD.json --out /workspace/scratch/5b84182f4f70/verification/cp2/birth-root.json",
+      "exit_code": 0
+    }
+  ],
+  "scope": "Independent source/geometry/proof controls in documented scope; no complete supplier or new kappa."
+}

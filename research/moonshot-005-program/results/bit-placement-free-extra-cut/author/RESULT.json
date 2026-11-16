@@ -1,0 +1,315 @@
+{
+  "status": "PASS_PLACEMENT_INDEPENDENT_EXTRA6_THREE_RECORD_FLOOR",
+  "word_sha256": "af51d0d7c872dbf3fa3744b582769d4c7763e0747e57c74005d091d19b7da474",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "all222_replay": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 117,
+      "ADD": 916,
+      "MOVE": 437,
+      "CLEAR": 117
+    },
+    "movement_profile": {
+      "1": 110,
+      "2": 66,
+      "3": 57,
+      "4": 13,
+      "5": 73,
+      "6": 25,
+      "7": 93
+    },
+    "dirty_CLEAR": 117,
+    "peak_owned": 117,
+    "historical_record_states": 1692
+  },
+  "receiver_set": [
+    8,
+    9,
+    36,
+    37
+  ],
+  "gram_matrix": [
+    [
+      4,
+      2,
+      -2,
+      -2
+    ],
+    [
+      2,
+      4,
+      -2,
+      -2
+    ],
+    [
+      -2,
+      -2,
+      4,
+      2
+    ],
+    [
+      -2,
+      -2,
+      2,
+      4
+    ]
+  ],
+  "fixed_history_projection_rank": 0,
+  "fixed_history_incidence_counts": {
+    "8": 300,
+    "9": 287,
+    "36": 291,
+    "37": 268
+  },
+  "all_other_banks_globally_granted_projection_basis_hex": [
+    "0x2000000300"
+  ],
+  "other_bank_projection_rank": 1,
+  "Extra6_bank_projection_rank": 4,
+  "input_kernel_basis_hex": [
+    "0x2000000100",
+    "0x2000000200",
+    "0x1000000000"
+  ],
+  "required_Extra6_transcript_symbols": "3V",
+  "one_record_Extra6_deficit_symbols": "2V",
+  "source_rank_needed_outside_single_Extra6_record": 3,
+  "additional_outside_E_directions_needed": 2,
+  "domain_scope": "All native leaf assignments in their actual immediately preceding charts; arbitrary placements are also excluded by the same information proof.",
+  "source_chart_domains": [
+    {
+      "packet": "P0",
+      "preceding_chart": "J16",
+      "preceding_chart_rank": 4,
+      "current_port": 7,
+      "candidate_native_leaves": [
+        5,
+        7,
+        15,
+        30,
+        31,
+        49,
+        50
+      ]
+    },
+    {
+      "packet": "P1",
+      "preceding_chart": "J23",
+      "preceding_chart_rank": 4,
+      "current_port": 11,
+      "candidate_native_leaves": [
+        5,
+        11,
+        15,
+        38,
+        40,
+        54,
+        58
+      ]
+    },
+    {
+      "packet": "P2",
+      "preceding_chart": "J22",
+      "preceding_chart_rank": 4,
+      "current_port": 12,
+      "candidate_native_leaves": [
+        5,
+        12,
+        15,
+        39,
+        41,
+        53,
+        57
+      ]
+    },
+    {
+      "packet": "P3",
+      "preceding_chart": "M1",
+      "preceding_chart_rank": 5,
+      "current_port": 41,
+      "candidate_native_leaves": [
+        0,
+        2,
+        5,
+        7,
+        22,
+        23,
+        28,
+        29,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "packet": "P4",
+      "preceding_chart": "M1",
+      "preceding_chart_rank": 5,
+      "current_port": 28,
+      "candidate_native_leaves": [
+        0,
+        2,
+        5,
+        7,
+        22,
+        23,
+        28,
+        29,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "packet": "P5",
+      "preceding_chart": "M1",
+      "preceding_chart_rank": 5,
+      "current_port": 44,
+      "candidate_native_leaves": [
+        0,
+        2,
+        5,
+        7,
+        22,
+        23,
+        28,
+        29,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "packet": "P6",
+      "preceding_chart": "Extra6",
+      "preceding_chart_rank": 6,
+      "current_port": 19,
+      "candidate_native_leaves": [
+        0,
+        2,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12,
+        15,
+        16,
+        19,
+        20,
+        22,
+        23,
+        28,
+        29,
+        30,
+        31,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        48,
+        49,
+        50,
+        53,
+        54,
+        57,
+        58
+      ]
+    },
+    {
+      "packet": "P7",
+      "preceding_chart": "D3_21",
+      "preceding_chart_rank": 6,
+      "current_port": 27,
+      "candidate_native_leaves": [
+        1,
+        5,
+        7,
+        10,
+        11,
+        12,
+        15,
+        16,
+        18,
+        22,
+        23,
+        26,
+        27,
+        30,
+        31,
+        34,
+        35,
+        38,
+        39,
+        40,
+        41,
+        47,
+        49,
+        50,
+        53,
+        54,
+        57,
+        58
+      ]
+    }
+  ],
+  "configurations_by_exact_number_of_changed_ports": {
+    "0": 1,
+    "1": 137,
+    "2": 7812,
+    "3": 241054
+  },
+  "number_of_configurations_changing_at_most_three_ports": 249004,
+  "exact_joint_source_span_repair_example": {
+    "two_new_outside_directions": [
+      "X8",
+      "X36"
+    ],
+    "one_Extra6_message": "X9",
+    "existing_globally_granted_direction": "X8+X9+X37",
+    "joint_rank": 4,
+    "physical_delivery_claimed": false
+  },
+  "actual_geometry_escape": {
+    "from": "Extra6",
+    "to": "M1",
+    "owned_rank_drop": 1,
+    "source_capture_and_decoder_work_still_required": true
+  },
+  "scope": "Frozen actual higher/common histories and fixed bank sources; one finite transcript per bank. Arbitrary port changes and free decoded-point feedback do not create source dimension. New independent E source directions or changed higher/common measurements can escape. No full supplier or new kappa."
+}

@@ -374,3 +374,7 @@ Main remains e54523517d0f03e58352e647c403a5af3e525a57. New open [#7625](https://
 ## S017 initial upstream refresh
 
 At06:26:24UTC, main remains e54523517d0f03e58352e647c403a5af3e525a57. Targeted PR search sinceS016 final03:37:23UTC finds no updates. #7625/#7624 retain their previously recorded stronger-supplier/extra-erasure limitations; neither is admitted or selected. Exact receipt: sessions/2026-11-16-S017/UPSTREAM-RECONNAISSANCE.json. The bottleneck brief's old opening is superseded by the selected record. No external source theorem was imported.
+
+## S017 checkpoint2 compatibility
+
+No new upstream revision is asserted since the06:26:24UTC reconnaissance. Canonical source pins remain unchanged. The new literal-source and complex-interface results are internal programme advances and do not alter the selected conditional certificate. Current proper-birth information must be reaudited before importing any earlier source-bank or closure theorem.

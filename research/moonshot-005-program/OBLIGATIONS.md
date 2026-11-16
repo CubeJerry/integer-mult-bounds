@@ -1,12 +1,16 @@
 # Current proof-dependency map
 
-## Current S017 checkpoint1 obligations
+## Current S017 checkpoint2 obligations
 
-**BIT-COMMON-TERMINAL-REUSE / proved:** an actually redundant terminal can be replaced after all old readers are reencoded from stable cocharted records; the new value still requires actual acquisition and transport. **BIT-ACTUAL36 / proved:** literal characteristic-two whole-record source, all222 original columns,36 endpoints, common rank15, exact costs and independent source/closure review. [Admission](results/bit-common-terminal-reuse/ADMISSION.md).
+**BIT-NESTED-TRIPLE-LOWERING / proved under explicit actual-source conditions:** a retained partial sum and nested captures implement an orthogonal triple code, with complete local primitive and movement accounting. **BIT-ACTUAL41 / proved:** three literal triple codes, all222 original columns, exact cost, independent chronology and70 frozen-interface duals. [Admission](results/bit-common-triple-retention/ADMISSION.md).
 
-**BIT-LEAF-CAPACITY13 / proved within the declared fixed interface:** all-width linear and finite-field fixed-length nonlinear codes need capacities(1,1,3,1,1,2,3,1)V at the eight specified ports, even with the stated history/local/feedback grants. Neither sufficiency nor a general movement floor follows. [Admission](results/bit-leaf-capacity-quotient/ADMISSION.md).
+**BIT-ENDPOINT-REDUCTION41 and BIT-PROPER-BIRTH41 / proved in the literal native model:** remove endpoint-dead operations, fuse unused route stops and initialize two zero records at their first read charts. The current118/798/450/118 word preserves41 outputs with necessary limiting room4.90390045846.... Its intermediate information has changed and needs a fresh inventory/closure audit. [Admission](results/bit-proper-birth-reduction/ADMISSION.md).
 
-**BIT-COUPLED-CODED-DELIVERY / open:** complete75 remaining endpoints by genuinely changed common codes, upper histories, source coupling or port assignment, with actual chronology and full costs. The two new point directions do not by themselves defeat the13-capacity witnesses. **COMPLEX-EARLY-COUPLED421**, both strict suppliers, complete conditional005 and all five foundations remain open. Older next-action paragraphs below are historical and superseded by this entry and STATE.
+**BIT-PLACEMENT-FREE-EXTRA6 / proved under fixed source/history premises:** globally granting all other sources still forces3V P6 transcript symbols; arbitrary port relocation cannot repair one record. New independent outside-E information or changed higher/common histories can escape. [Admission](results/bit-placement-free-extra-cut/ADMISSION.md).
+
+**COMPLEX-MIDDLE-NATIVE-INTERFACE / proved:** necessary ordinary-bimodule component/flag tests and an exact reconstruction criterion for L C U Q L. Literal concentrated42 plus positive-rank idle and literal diagonal421 boundaries fail; changed ordinary outer encodings remain open. [Admission](results/complex-middle-native-interface/ADMISSION.md).
+
+**BIT-COUPLED-CODED-DELIVERY / open:** complete70 remaining outputs from a newly audited actual source and full invoice. A candidate exchange of old Q-cache descents for three genuine E imports is under independent review; source availability is not endpoint completion. **COMPLEX-EARLY-COUPLED421 / open:** realize the needed ordinary conjugacy and endpoint encodings with full finite recipes. Both strict suppliers, complete conditional005 and all five foundations remain open. Older next-action paragraphs are historical.
 
 ## Final S016 dependency update
 

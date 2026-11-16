@@ -1,0 +1,177 @@
+{
+  "status": "PASS_ACTUAL_THREE_COMMON_CODES39",
+  "word_sha256": "c7c8eb65cdc69d01d61cb82949ad85ff4de675606462ae7d3ce772fc885eb757",
+  "base_word_sha256": "b30cca73a0aafcc98dd98440ba2597119bf79401751f2fc5022dcbd1c22b1059",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "input_columns": 222,
+  "targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    38,
+    39,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "counts": {
+    "INIT": 120,
+    "ADD": 921,
+    "MOVE": 437,
+    "CLEAR": 120
+  },
+  "movement_profile": {
+    "1": 110,
+    "2": 66,
+    "3": 55,
+    "4": 13,
+    "5": 73,
+    "6": 30,
+    "7": 90
+  },
+  "dirty_CLEAR": 120,
+  "common_rank": 18,
+  "predecessor38_common_rank": 17,
+  "old38_common_space_preserved": true,
+  "actual_new_common_pair": "X45+X48",
+  "all_old38_targets_preserved": true,
+  "exact_movement_increment_from38": "2[6]-[7]-[3]-[1]",
+  "semantic_negative_controls": [
+    {
+      "removed": [
+        "MOVE",
+        "ZRAW44",
+        "zero"
+      ],
+      "rejected": "(1194, ['ADD', 'ZRAW44', 'Y44'])"
+    },
+    {
+      "removed": [
+        "ADD",
+        "X45",
+        "ZCORR48"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X48",
+        "RAW48"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "RAW48",
+        "Y45"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "Y45",
+        "L48"
+      ],
+      "rejected": "(1413, ['ADD', 'RAW48', 'Y45'])"
+    },
+    {
+      "removed": [
+        "ADD",
+        "ZCORR48",
+        "Y48"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "Y48",
+        "L45"
+      ],
+      "rejected": "(1424, ['ADD', 'ZCORR48', 'Y48'])"
+    },
+    {
+      "removed": [
+        "ADD",
+        "P5",
+        "Y45"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "ZRAW0",
+        "Y45"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "ZRAW44",
+        "Y45"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "E79",
+        "Y45"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "ZRAW44",
+        "Y44"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "CLEAR",
+        "RAW48"
+      ],
+      "rejected": ""
+    }
+  ],
+  "controls_disable_invoice_source_cut_and_milestones": true,
+  "scope": "Exact actual common-code source, chronological decoder paths and complete primitive invoice;39/111 partial endpoints, no newkappa."
+}

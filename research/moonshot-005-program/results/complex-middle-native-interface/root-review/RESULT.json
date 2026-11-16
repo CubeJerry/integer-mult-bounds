@@ -1,0 +1,34 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_MIDDLE_NATIVE_ACTUAL_SOURCE_CONTROLS",
+  "method": "Independent SymPy DomainMatrix arithmetic over QQ(i); no author code imported.",
+  "proof_sha256": "f4bd8b8827c355187d052e8a27cd3ddab004162bb6fcf5ca03318e266bc9e4b6",
+  "source_sha256": {
+    "research/moonshot-005-program/results/complex-four-bit-cubic-source/author/PROOF.md": "6ea08c509a1560aa334640eeb45bcdcd4649412d40292380f771cd623eee570c",
+    "research/moonshot-005-program/results/complex-four-bit-concentration/author/PROOF.md": "25d0aa55745a2019df938174d602316c8ac277618f100a2be3e9344f09484be1",
+    "research/moonshot-005-program/results/complex-inverse-native-coset/two-native/PROOF.md": "2020d6e83658ef34c1175a207afe7192a9e784dfccb9d39329aa7a4df8c97aef"
+  },
+  "source_dimension": 16,
+  "native_matrix_dimension": 48,
+  "matrix_columns_checked": "all",
+  "ordinary_shears_per_interstage": 3,
+  "noncommuting_coefficients": true,
+  "component_ranks": [
+    16,
+    32,
+    16
+  ],
+  "relative_projector_rank": 16,
+  "relative_nilpotent_rank": 16,
+  "both_native_inverse_equations": true,
+  "noncommuting_conjugacy_and_reconstruction": true,
+  "literal_diagonal_flat_rank": 32,
+  "rank_only_false_positive_invertible": true,
+  "negative_controls": [
+    "wrong inverse power",
+    "dropped idle component",
+    "unpaid nonordinary idle substitution",
+    "correct component ranks but nonnilpotent relative component"
+  ],
+  "universal_claim_basis": "Written audit proves block equations and faithful finite tensor-catalogue projection scope. Finite controls do not establish universal tensor separation.",
+  "new_complete_kappa": false
+}

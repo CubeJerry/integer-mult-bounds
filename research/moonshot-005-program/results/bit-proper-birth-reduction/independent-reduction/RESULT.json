@@ -1,0 +1,146 @@
+{
+  "status": "PASS_INDEPENDENT_REDUCED41_ENDPOINT_ONLY",
+  "base_word_sha256": "07ed37cf9dfa1da24d3518e25e46d7b29141582f71f32da1191f13fbc9b1971f",
+  "word_sha256": "b18c138efaf2d771197c46ef3ae2a5fc312c322694ef020e41cace70d7662e11",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "before": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 129,
+      "ADD": 948,
+      "MOVE": 460,
+      "CLEAR": 129
+    },
+    "movement_profile": {
+      "1": 131,
+      "2": 70,
+      "3": 61,
+      "4": 9,
+      "5": 78,
+      "6": 24,
+      "7": 87
+    },
+    "dirty_CLEAR": 129,
+    "peak_owned": 129,
+    "historical_record_states": 1759
+  },
+  "after": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 118,
+      "ADD": 798,
+      "MOVE": 452,
+      "CLEAR": 118
+    },
+    "movement_profile": {
+      "1": 125,
+      "2": 68,
+      "3": 61,
+      "4": 9,
+      "5": 73,
+      "6": 24,
+      "7": 92
+    },
+    "dirty_CLEAR": 118,
+    "peak_owned": 118,
+    "historical_record_states": 1590
+  },
+  "deleted_owners": [
+    "AFF3",
+    "H11_0",
+    "H11_1",
+    "H11_2",
+    "H11_3",
+    "HKEEP_D7",
+    "HKEEP_E6",
+    "Hnew11_1",
+    "PAIR3",
+    "PAIR4",
+    "PAIR5"
+  ],
+  "exact_profile_difference": {
+    "1": -6,
+    "2": -2,
+    "5": -5,
+    "7": 5
+  },
+  "price": {
+    "method": "Independent exact200th roots at scale10^32",
+    "moment": {
+      "lower": "1620.83314080400101343333923666997462",
+      "upper": "1620.83314080400101343333923666997789",
+      "lower_fraction": "81041657040200050671666961833498731/50000000000000000000000000000000",
+      "upper_fraction": "162083314080400101343333923666997789/100000000000000000000000000000000"
+    },
+    "limiting_room": {
+      "lower": "0.917739407151341812906913697015985",
+      "upper": "0.917739407151341812906913697021413333333333333333",
+      "lower_fraction": "183547881430268362581382739403197/200000000000000000000000000000000",
+      "upper_fraction": "34415227768175317984009263638303/37500000000000000000000000000000"
+    },
+    "difference_from_parent": {
+      "lower": "-0.12467162407183451723213368117256",
+      "upper": "-0.12467162407183451723213368117244",
+      "lower_fraction": "-1558395300897931465401671014657/12500000000000000000000000000000",
+      "upper_fraction": "-3116790601795862930803342029311/25000000000000000000000000000000"
+    }
+  },
+  "author_price_intervals_contained": true,
+  "semantic_controls_without_invoice_or_source_metadata": [
+    {
+      "removed": [
+        "ADD",
+        "X40",
+        "RAW40"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P4",
+        "P4_RET"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "Y2",
+        "L29"
+      ],
+      "rejected": "(1200, ['ADD', 'RAW29', 'Y2'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "RAW29",
+        "Y2"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P5_RAW48",
+        "Y45"
+      ],
+      "rejected": ""
+    },
+    {
+      "removed": [
+        "CLEAR",
+        "P5_RET"
+      ],
+      "rejected": ""
+    }
+  ],
+  "source_metadata_deliberately_not_inherited": true,
+  "not_claimed": [
+    "preservation of old principal or all-record histories",
+    "old source-cut or common-space ranks",
+    "source availability of deleted owners",
+    "old fixed-information closure certificates"
+  ],
+  "scope": "Formal all222 endpoint/geometry/ownership and partial movement invoice only. No complete supplier, new kappa or foundational discharge."
+}

@@ -1,0 +1,68 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_ZERO_PREFIX_BIRTH_RELOCATION",
+  "base_word_sha256": "b18c138efaf2d771197c46ef3ae2a5fc312c322694ef020e41cace70d7662e11",
+  "word_sha256": "6c76a836322483cc11888ae214379a27adbb8f638ac3a049584f75953c5185a9",
+  "both_first_use_witnesses_verified": true,
+  "operations_exactly_two_birth_relocations_and_two_MOVE_deletions": true,
+  "before": {
+    "counts": {
+      "INIT": 118,
+      "ADD": 798,
+      "MOVE": 452,
+      "CLEAR": 118
+    },
+    "movement_profile": {
+      "1": 125,
+      "2": 68,
+      "3": 61,
+      "4": 9,
+      "5": 73,
+      "6": 24,
+      "7": 92
+    },
+    "dirty_CLEAR": 118,
+    "peak_owners": 118,
+    "all_222_endpoints": true
+  },
+  "after": {
+    "counts": {
+      "INIT": 118,
+      "ADD": 798,
+      "MOVE": 450,
+      "CLEAR": 118
+    },
+    "movement_profile": {
+      "1": 125,
+      "2": 66,
+      "3": 61,
+      "4": 9,
+      "5": 73,
+      "6": 24,
+      "7": 92
+    },
+    "dirty_CLEAR": 118,
+    "peak_owners": 118,
+    "all_222_endpoints": true
+  },
+  "exact_movement_saving": "2[2]",
+  "independent_price": {
+    "method": "binary fixed point2^160, exact integer200th roots",
+    "moment": {
+      "lower_fraction": "1181512254111040502407841085234473735306467965070821/730750818665451459101842416358141509827966271488",
+      "upper_fraction": "2363024508222081004815682170468947470612935930141967/1461501637330902918203684832716283019655932542976"
+    },
+    "limiting_room": {
+      "lower_fraction": "21501175648053500683130830902637866498712721115359/4384504911992708754611054498148849058967797628928",
+      "upper_fraction": "14334117098702333788753887268425244332475147411321/2923003274661805836407369665432566039311865085952"
+    },
+    "saving": {
+      "lower_fraction": "2912890451578194340045021433136655558966273635367/730750818665451459101842416358141509827966271488",
+      "upper_fraction": "364111306447274292505627679142081944870784204421/91343852333181432387730302044767688728495783936"
+    }
+  },
+  "wrong_ground_birth_controls_rejected": [
+    "P6",
+    "P7"
+  ],
+  "scope": "All222 exact formal endpoints, rational chart geometry, custody and complete movement invoice. No old history/stock/source-cut inheritance; full supplier and all foundations remain open."
+}

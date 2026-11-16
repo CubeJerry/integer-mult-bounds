@@ -1,0 +1,209 @@
+{
+  "status": "PASS_ACTUAL_ZERO_BIRTH_LOCALIZED41",
+  "word_sha256": "6c76a836322483cc11888ae214379a27adbb8f638ac3a049584f75953c5185a9",
+  "base_word_sha256": "b18c138efaf2d771197c46ef3ae2a5fc312c322694ef020e41cace70d7662e11",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "before": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 118,
+      "ADD": 798,
+      "MOVE": 452,
+      "CLEAR": 118
+    },
+    "movement_profile": {
+      "1": 125,
+      "2": 68,
+      "3": 61,
+      "4": 9,
+      "5": 73,
+      "6": 24,
+      "7": 92
+    },
+    "dirty_CLEAR": 118,
+    "peak_owned": 118,
+    "historical_record_states": 1590
+  },
+  "after": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 118,
+      "ADD": 798,
+      "MOVE": 450,
+      "CLEAR": 118
+    },
+    "movement_profile": {
+      "1": 125,
+      "2": 66,
+      "3": 61,
+      "4": 9,
+      "5": 73,
+      "6": 24,
+      "7": 92
+    },
+    "dirty_CLEAR": 118,
+    "peak_owned": 118,
+    "historical_record_states": 1588
+  },
+  "birth_witnesses": [
+    {
+      "packet": "P6",
+      "first_three_uses": [
+        [
+          1027,
+          [
+            "INIT",
+            "P6",
+            "Hub"
+          ]
+        ],
+        [
+          1028,
+          [
+            "MOVE",
+            "P6",
+            "Extra6"
+          ]
+        ],
+        [
+          1029,
+          [
+            "ADD",
+            "EXTRA_AFF",
+            "P6"
+          ]
+        ]
+      ],
+      "old_birth": "Hub",
+      "new_birth": "Extra6",
+      "removed_empty_descent_rank": 2,
+      "first_actual_read_source": "EXTRA_AFF"
+    },
+    {
+      "packet": "P7",
+      "first_three_uses": [
+        [
+          724,
+          [
+            "INIT",
+            "P7",
+            "Hub"
+          ]
+        ],
+        [
+          725,
+          [
+            "MOVE",
+            "P7",
+            "D3_21"
+          ]
+        ],
+        [
+          726,
+          [
+            "ADD",
+            "AFF0",
+            "P7"
+          ]
+        ]
+      ],
+      "old_birth": "Hub",
+      "new_birth": "D3_21",
+      "removed_empty_descent_rank": 2,
+      "first_actual_read_source": "AFF0"
+    }
+  ],
+  "exact_movement_saving": "2[2]",
+  "independent_price": {
+    "moment": {
+      "lower": "1616.84697975268954209642330769582328",
+      "upper": "1616.84697975268954209642330769582653",
+      "lower_fraction": "20210587246908619276205291346197791/12500000000000000000000000000000",
+      "upper_fraction": "161684697975268954209642330769582653/100000000000000000000000000000000"
+    },
+    "limiting_room": {
+      "lower": "4.903900458462813149822842671167345",
+      "upper": "4.90390045846281314982284267117275333333333333333",
+      "lower_fraction": "980780091692562629964568534233469/200000000000000000000000000000000",
+      "upper_fraction": "735585068769421972473426400675913/150000000000000000000000000000000"
+    },
+    "saving": {
+      "lower": "3.98616105131147133691592897415134",
+      "upper": "3.98616105131147133691592897415136",
+      "lower_fraction": "199308052565573566845796448707567/50000000000000000000000000000000",
+      "upper_fraction": "12456753285348347927862278044223/3125000000000000000000000000000"
+    }
+  },
+  "negative_controls": [
+    {
+      "wrong_birth": "P6",
+      "chart": "zero",
+      "rejected": "(1028, ['ADD', 'EXTRA_AFF', 'P6'], 'colocation')"
+    },
+    {
+      "wrong_birth": "P7",
+      "chart": "zero",
+      "rejected": "(726, ['ADD', 'AFF0', 'P7'], 'colocation')"
+    }
+  ],
+  "all_owned_zero_moves_before": [
+    {
+      "step": 726,
+      "field": "P7",
+      "from": "Hub",
+      "to": "D3_21"
+    },
+    {
+      "step": 1029,
+      "field": "P6",
+      "from": "Hub",
+      "to": "Extra6"
+    }
+  ],
+  "all_owned_zero_moves_after": [],
+  "targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    48,
+    49,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "no_inherited_source_cut_metadata": true,
+  "scope": "Endpoint-only formal source, still41 targets. All prior omitted histories and all global foundations remain unproved; no full supplier or new kappa."
+}
