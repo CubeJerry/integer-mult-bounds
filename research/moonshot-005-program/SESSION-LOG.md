@@ -2079,3 +2079,7 @@ Fresh source-specific information closures still stop at47. The earlier own-zero
 The [complex source-transport package](results/complex-source-transport/ADMISSION.md) proves a literal transported rank-four output decoder and two scoped obstructions: clock-after-quarter-routing with diagonal Q, and coherent routing with R20=0 and a unit first pivot. Conditional pivot changes and genuinely non-diagonal second interfaces remain open. No independent(4,2,1) caller or strict complex supplier has been constructed. Both strict suppliers, full recursive accounting and all five foundations remain required. Selected conditional κ remains363005817/10^11. The session remains active until11:21:46 UTC; the branch is an ongoing programme, not PR-ready.
 
 Fourteen commands and19 byte-identical artifacts; eight scoped propositions registered. Remote identity is confirmed separately.
+
+## S017 inventory correction — 2026-11-16T09:11:32Z
+
+The checkpoint5 supplementary inventory omitted C2 records although C2=M1 geometrically. Two independent reviews give actual final-live M1 rank13, not8; canonical intersection0→3, all words, prices and endpoints remain unchanged. The immutable original files are qualified by [the correction](results/bit-semantic-chart-inventory/ADMISSION.md). Both new results reproduce byte-for-byte. No new complete κ.

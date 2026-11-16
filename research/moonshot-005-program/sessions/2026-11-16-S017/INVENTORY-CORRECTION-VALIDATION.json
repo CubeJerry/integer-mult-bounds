@@ -1,0 +1,63 @@
+{
+  "status": "PASS_TWO_INDEPENDENT_REPRODUCTIONS_AND_IMMUTABLE_PREDECESSORS",
+  "baseline_sha": "f73f8b966ec5abd317522e2f747bcb16054691a6",
+  "verified_utc": "2026-11-16T09:11:32Z",
+  "commands": [
+    [
+      "python",
+      "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-semantic-chart-inventory/root-review/check.py",
+      "--repo",
+      "/workspace/scratch/5b84182f4f70/programme",
+      "--out",
+      "/workspace/scratch/5b84182f4f70/workers/root/verify-inventory-correction/root.json"
+    ],
+    [
+      "python",
+      "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-semantic-chart-inventory/corrected-review/check.py",
+      "--repo",
+      "/workspace/scratch/5b84182f4f70/programme",
+      "--early-word",
+      "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-early-source-release/author/WORD.json",
+      "--base",
+      "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-mask-source/author/early-paid46/WORD.json",
+      "--word",
+      "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-mask-source/author/masked-M1/WORD.json",
+      "--author-result",
+      "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-canonical-mask-source/author/masked-M1/RESULT.json",
+      "--engine",
+      "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py",
+      "--price-engine",
+      "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-cyclic-import-source/independent-review/check.py",
+      "--out",
+      "/workspace/scratch/5b84182f4f70/workers/root/verify-inventory-correction/corrected"
+    ]
+  ],
+  "byte_identical_results": 2,
+  "old_scientific_entries": 6635,
+  "total_scientific_entries": 6654,
+  "known_historical_missing": [
+    "results/bit-joint-multicast/mixed-author/__pycache__/build_mixed.cpython-312.pyc",
+    "results/four-call-dyadic-entry/review/replay.log"
+  ],
+  "new_paths": [
+    "results/bit-semantic-chart-inventory/ADMISSION.md",
+    "results/bit-semantic-chart-inventory/DEPENDENCIES.json",
+    "results/bit-semantic-chart-inventory/PUBLICATION-MANIFEST.json",
+    "results/bit-semantic-chart-inventory/REPRODUCE.md",
+    "results/bit-semantic-chart-inventory/corrected-review/ERRATUM.md",
+    "results/bit-semantic-chart-inventory/corrected-review/RESULT.json",
+    "results/bit-semantic-chart-inventory/corrected-review/REVIEW.md",
+    "results/bit-semantic-chart-inventory/corrected-review/check.py",
+    "results/bit-semantic-chart-inventory/root-review/RESULT.json",
+    "results/bit-semantic-chart-inventory/root-review/check.py",
+    "results/bit-semantic-chart-inventory/root-review/optimize_word.py",
+    "results/bit-semantic-chart-inventory/root-review/review_leaf_capacity.py",
+    "sessions/2026-11-16-S017/logical-records-before-inventory-correction/CONTINUATION.md",
+    "sessions/2026-11-16-S017/logical-records-before-inventory-correction/OBLIGATIONS.md",
+    "sessions/2026-11-16-S017/logical-records-before-inventory-correction/PR-DESCRIPTION.md",
+    "sessions/2026-11-16-S017/logical-records-before-inventory-correction/PROGRAMME.md",
+    "sessions/2026-11-16-S017/logical-records-before-inventory-correction/STATE.json",
+    "sessions/2026-11-16-S017/logical-records-before-inventory-correction/TARGET-005.md",
+    "sessions/2026-11-16-S017/logical-records-before-inventory-correction/VERIFICATION.md"
+  ]
+}

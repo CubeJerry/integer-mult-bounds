@@ -33,10 +33,10 @@
     "publication": "connected Git Data API, exact-tree and expected-HEAD nonforced update"
   },
   "schema": "moonshot-005-program-state-v5-current",
-  "checkpoint_baseline_sha": "13aa322c88560492aa59ffe3a513747efd09413d",
+  "checkpoint_baseline_sha": "f73f8b966ec5abd317522e2f747bcb16054691a6",
   "checkpoint_sha_semantics": "Confirmed parent; resulting SHA recorded separately after GitHub confirmation.",
-  "session_checkpoint_utc": "2026-11-16T09:02:53Z",
-  "session_status": "active-checkpoint5",
+  "session_checkpoint_utc": "2026-11-16T09:11:32Z",
+  "session_status": "active-inventory-correction",
   "background_execution": false,
   "phase": "joint-common-code-and-chronological-delivery",
   "target_kappa": "1/200",
@@ -350,11 +350,18 @@
       "status": "proved coherent normalization and unit-first-pivot diagonal-interface obstruction",
       "path": "results/complex-source-transport/ADMISSION.md",
       "review": "results/complex-source-transport/root-review/coherent-pivot/REVIEW.md"
+    },
+    {
+      "id": "BIT-SEMANTIC-M1-INVENTORY-CORRECTION",
+      "status": "proved correction of supplementary inventory:13\u219213; canonical intersection0\u21923 unchanged",
+      "path": "results/bit-semantic-chart-inventory/ADMISSION.md",
+      "review": "results/bit-semantic-chart-inventory/root-review/RESULT.json",
+      "supersedes": "Checkpoint5 label-only final-live M1 rank8\u21928; all original scientific bytes remain unchanged."
     }
   ],
   "registered_results_index": {
     "path": "REGISTERED-RESULTS.json",
-    "records": 464,
+    "records": 465,
     "scope": "Complete cumulative index; current STATE intentionally omits historical duplicate entries."
   },
   "scientific_files_index": "SCIENTIFIC-FILES.json",
@@ -385,10 +392,11 @@
     "sessions/2026-11-16-S017/CHECKPOINT1-REMOTE-RECEIPT.json",
     "sessions/2026-11-16-S017/CHECKPOINT2-REMOTE-RECEIPT.json",
     "sessions/2026-11-16-S017/CHECKPOINT3-REMOTE-RECEIPT.json",
-    "sessions/2026-11-16-S017/CHECKPOINT4-REMOTE-RECEIPT.json"
+    "sessions/2026-11-16-S017/CHECKPOINT4-REMOTE-RECEIPT.json",
+    "sessions/2026-11-16-S017/CHECKPOINT5-REMOTE-RECEIPT.json"
   ],
-  "last_reconciled_remote_sha": "13aa322c88560492aa59ffe3a513747efd09413d",
-  "publication_status": "Checkpoint5 prepared; exact remote identity confirmed separately.",
+  "last_reconciled_remote_sha": "f73f8b966ec5abd317522e2f747bcb16054691a6",
+  "publication_status": "Narrow chart-inventory correction prepared; remote identity confirmed separately.",
   "current_integrated_architecture": {
     "package": "results/bit-canonical-decoder34/ADMISSION.md",
     "word_sha256": "a910bb4504cf2a96303e8d560f076463268c4cb3ad4e6631d5f598c895db0567",
@@ -404,7 +412,7 @@
     },
     "movement_moment_display": "1619.0395370766418100608586070481585",
     "remaining_limiting_room_display": "2.7113431345105451853875433188365",
-    "final_live_M1_rank": 8,
+    "final_live_M1_rank": 13,
     "final_live_M1_canonical_intersection_rank": 3,
     "actual_M1_imports": [
       8,
@@ -495,5 +503,14 @@
       "moment": "1620.9564307329855921526"
     }
   ],
-  "upstream_mid_session_evidence": "sessions/2026-11-16-S017/UPSTREAM-MIDSESSION.json"
+  "upstream_mid_session_evidence": "sessions/2026-11-16-S017/UPSTREAM-MIDSESSION.json",
+  "scientific_errata": [
+    {
+      "id": "BIT-SEMANTIC-M1-INVENTORY-CORRECTION",
+      "status": "proved correction of supplementary inventory:13\u219213; canonical intersection0\u21923 unchanged",
+      "path": "results/bit-semantic-chart-inventory/ADMISSION.md",
+      "review": "results/bit-semantic-chart-inventory/root-review/RESULT.json",
+      "supersedes": "Checkpoint5 label-only final-live M1 rank8\u21928; all original scientific bytes remain unchanged."
+    }
+  ]
 }

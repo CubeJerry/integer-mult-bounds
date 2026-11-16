@@ -1,0 +1,560 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_SEMANTIC_CHART_INVENTORY_CORRECTION",
+  "method": "Independent Fraction row-reduced chart equality and binary elimination at actual final-live cuts; no author inventory code imported.",
+  "supersedes": "Checkpoint5 supplementary final-live M1 rank8\u21928; the correct ranks are13\u219213 because C2=M1.",
+  "unchanged_claims": [
+    "All five literal words and their222-column endpoints, ownership and movements",
+    "Canonical intersection0\u21923",
+    "Actual shared custody and read chronology",
+    "Movement prices and physical decoder34"
+  ],
+  "reports": [
+    {
+      "word_path": "results/bit-canonical-mask-source/author/early-paid46/WORD.json",
+      "word_sha256": "27dc6c36eec067acd2fe4679a81c95ea9db8fd6377784a0bbfc060ca52a121fd",
+      "actual_cut_before_first_CLEAR": 1427,
+      "geometric_M1_aliases": [
+        "C2",
+        "M1"
+      ],
+      "geometric_zero_aliases": [
+        "zero"
+      ],
+      "label_only_M1_rank": 8,
+      "actual_geometric_M1_rank": 13,
+      "actual_C9_intersection_rank": 0,
+      "actual_inventory": [
+        {
+          "field": "CAP2942",
+          "label": "M1",
+          "row_hex": "0x40020000000"
+        },
+        {
+          "field": "CAP46",
+          "label": "M1",
+          "row_hex": "0x480000000000"
+        },
+        {
+          "field": "H6_0",
+          "label": "C2",
+          "row_hex": "0x17c0000000000"
+        },
+        {
+          "field": "H6_1",
+          "label": "C2",
+          "row_hex": "0x1540020000001"
+        },
+        {
+          "field": "H6_2",
+          "label": "C2",
+          "row_hex": "0x3c0030000000"
+        },
+        {
+          "field": "H6_3",
+          "label": "C2",
+          "row_hex": "0x700000000004"
+        },
+        {
+          "field": "IMPORT_E36",
+          "label": "M1",
+          "row_hex": "0x1000000000"
+        },
+        {
+          "field": "IMPORT_E8",
+          "label": "M1",
+          "row_hex": "0x100"
+        },
+        {
+          "field": "IMPORT_E9",
+          "label": "M1",
+          "row_hex": "0x200"
+        },
+        {
+          "field": "Q2",
+          "label": "C2",
+          "row_hex": "0x17c0030000005"
+        },
+        {
+          "field": "ZFIRST3",
+          "label": "M1",
+          "row_hex": "0x2aff00cc0000d8097c0033000015"
+        },
+        {
+          "field": "ZFIRST4",
+          "label": "M1",
+          "row_hex": "0x2f00cc0046051917c0330026005"
+        },
+        {
+          "field": "ZFIRST5",
+          "label": "M1",
+          "row_hex": "0x280fc00c400489917c0330026005"
+        }
+      ],
+      "records_missed_by_label_filter": [
+        "H6_0",
+        "H6_1",
+        "H6_2",
+        "H6_3",
+        "Q2"
+      ],
+      "replay": {
+        "counts": {
+          "INIT": 127,
+          "ADD": 819,
+          "MOVE": 481,
+          "CLEAR": 127
+        },
+        "movement_profile": {
+          "1": 185,
+          "2": 40,
+          "3": 60,
+          "4": 9,
+          "5": 72,
+          "6": 22,
+          "7": 93
+        },
+        "dirty_CLEAR": 127,
+        "peak_owners": 127,
+        "all_222_endpoints": true
+      }
+    },
+    {
+      "word_path": "results/bit-canonical-mask-source/author/masked-M1/WORD.json",
+      "word_sha256": "7d2fea44d7bdf8b3a63807f88371cad28f9303649db66b7d4ccbb56e9c180ada",
+      "actual_cut_before_first_CLEAR": 1707,
+      "geometric_M1_aliases": [
+        "C2",
+        "M1"
+      ],
+      "geometric_zero_aliases": [
+        "zero"
+      ],
+      "label_only_M1_rank": 8,
+      "actual_geometric_M1_rank": 13,
+      "actual_C9_intersection_rank": 3,
+      "actual_inventory": [
+        {
+          "field": "CAP2942",
+          "label": "M1",
+          "row_hex": "0x40020000000"
+        },
+        {
+          "field": "CAP46",
+          "label": "M1",
+          "row_hex": "0x480000000000"
+        },
+        {
+          "field": "H6_0",
+          "label": "C2",
+          "row_hex": "0x17c0000000000"
+        },
+        {
+          "field": "H6_1",
+          "label": "C2",
+          "row_hex": "0x1540020000001"
+        },
+        {
+          "field": "H6_2",
+          "label": "C2",
+          "row_hex": "0x3c0030000000"
+        },
+        {
+          "field": "H6_3",
+          "label": "C2",
+          "row_hex": "0x700000000004"
+        },
+        {
+          "field": "IMPORT_E36",
+          "label": "M1",
+          "row_hex": "0x1000000000"
+        },
+        {
+          "field": "IMPORT_E8",
+          "label": "M1",
+          "row_hex": "0x100"
+        },
+        {
+          "field": "IMPORT_E9",
+          "label": "M1",
+          "row_hex": "0x200"
+        },
+        {
+          "field": "Q2",
+          "label": "C2",
+          "row_hex": "0x17c0030000005"
+        },
+        {
+          "field": "ZFIRST3",
+          "label": "M1",
+          "row_hex": "0x7f00fe01fc07f03fc03fc03f00"
+        },
+        {
+          "field": "ZFIRST4",
+          "label": "M1",
+          "row_hex": "0x55cca86730e551e94f16b0ca69"
+        },
+        {
+          "field": "ZFIRST5",
+          "label": "M1",
+          "row_hex": "0x6619aaa80154dd2325aaaa83eea5"
+        }
+      ],
+      "records_missed_by_label_filter": [
+        "H6_0",
+        "H6_1",
+        "H6_2",
+        "H6_3",
+        "Q2"
+      ],
+      "replay": {
+        "counts": {
+          "INIT": 130,
+          "ADD": 1093,
+          "MOVE": 484,
+          "CLEAR": 130
+        },
+        "movement_profile": {
+          "1": 188,
+          "2": 40,
+          "3": 60,
+          "4": 9,
+          "5": 72,
+          "6": 22,
+          "7": 93
+        },
+        "dirty_CLEAR": 130,
+        "peak_owners": 130,
+        "all_222_endpoints": true
+      }
+    },
+    {
+      "word_path": "results/bit-canonical-common-delivery/author/canonical-common-one/WORD.json",
+      "word_sha256": "72317dffe82063e4db958c7b4025c490276d8339cbf11fd7041bc183ba991155",
+      "actual_cut_before_first_CLEAR": 1693,
+      "geometric_M1_aliases": [
+        "C2",
+        "M1"
+      ],
+      "geometric_zero_aliases": [
+        "zero"
+      ],
+      "label_only_M1_rank": 8,
+      "actual_geometric_M1_rank": 13,
+      "actual_C9_intersection_rank": 3,
+      "actual_inventory": [
+        {
+          "field": "CAP2942",
+          "label": "M1",
+          "row_hex": "0x40020000000"
+        },
+        {
+          "field": "CAP46",
+          "label": "M1",
+          "row_hex": "0x480000000000"
+        },
+        {
+          "field": "H6_0",
+          "label": "C2",
+          "row_hex": "0x17c0000000000"
+        },
+        {
+          "field": "H6_1",
+          "label": "C2",
+          "row_hex": "0x1540020000001"
+        },
+        {
+          "field": "H6_2",
+          "label": "C2",
+          "row_hex": "0x3c0030000000"
+        },
+        {
+          "field": "H6_3",
+          "label": "C2",
+          "row_hex": "0x700000000004"
+        },
+        {
+          "field": "IMPORT_E36",
+          "label": "M1",
+          "row_hex": "0x1000000000"
+        },
+        {
+          "field": "IMPORT_E8",
+          "label": "M1",
+          "row_hex": "0x100"
+        },
+        {
+          "field": "IMPORT_E9",
+          "label": "M1",
+          "row_hex": "0x200"
+        },
+        {
+          "field": "Q2",
+          "label": "C2",
+          "row_hex": "0x17c0030000005"
+        },
+        {
+          "field": "ZFIRST3",
+          "label": "M1",
+          "row_hex": "0x7f00fe01fc07f03fc03fc03f00"
+        },
+        {
+          "field": "ZFIRST4",
+          "label": "M1",
+          "row_hex": "0x55cca86730e551e94f16b0ca69"
+        },
+        {
+          "field": "ZFIRST5",
+          "label": "M1",
+          "row_hex": "0x6619aaa80154dd2325aaaa83eea5"
+        }
+      ],
+      "records_missed_by_label_filter": [
+        "H6_0",
+        "H6_1",
+        "H6_2",
+        "H6_3",
+        "Q2"
+      ],
+      "replay": {
+        "counts": {
+          "INIT": 133,
+          "ADD": 1079,
+          "MOVE": 481,
+          "CLEAR": 133
+        },
+        "movement_profile": {
+          "1": 185,
+          "2": 40,
+          "3": 60,
+          "4": 9,
+          "5": 69,
+          "6": 22,
+          "7": 96
+        },
+        "dirty_CLEAR": 133,
+        "peak_owners": 133,
+        "all_222_endpoints": true
+      }
+    },
+    {
+      "word_path": "results/bit-canonical-common-delivery/author/canonical-common-two/WORD.json",
+      "word_sha256": "d2be3d2eb240377c3b42b4535fcf2b2977ef49b3a26f80dc5c296727fe72bd56",
+      "actual_cut_before_first_CLEAR": 1687,
+      "geometric_M1_aliases": [
+        "C2",
+        "M1"
+      ],
+      "geometric_zero_aliases": [
+        "zero"
+      ],
+      "label_only_M1_rank": 8,
+      "actual_geometric_M1_rank": 13,
+      "actual_C9_intersection_rank": 3,
+      "actual_inventory": [
+        {
+          "field": "CAP2942",
+          "label": "M1",
+          "row_hex": "0x40020000000"
+        },
+        {
+          "field": "CAP46",
+          "label": "M1",
+          "row_hex": "0x480000000000"
+        },
+        {
+          "field": "H6_0",
+          "label": "C2",
+          "row_hex": "0x17c0000000000"
+        },
+        {
+          "field": "H6_1",
+          "label": "C2",
+          "row_hex": "0x1540020000001"
+        },
+        {
+          "field": "H6_2",
+          "label": "C2",
+          "row_hex": "0x3c0030000000"
+        },
+        {
+          "field": "H6_3",
+          "label": "C2",
+          "row_hex": "0x700000000004"
+        },
+        {
+          "field": "IMPORT_E36",
+          "label": "M1",
+          "row_hex": "0x1000000000"
+        },
+        {
+          "field": "IMPORT_E8",
+          "label": "M1",
+          "row_hex": "0x100"
+        },
+        {
+          "field": "IMPORT_E9",
+          "label": "M1",
+          "row_hex": "0x200"
+        },
+        {
+          "field": "Q2",
+          "label": "C2",
+          "row_hex": "0x17c0030000005"
+        },
+        {
+          "field": "ZFIRST3",
+          "label": "M1",
+          "row_hex": "0x7f00fe01fc07f03fc03fc03f00"
+        },
+        {
+          "field": "ZFIRST4",
+          "label": "M1",
+          "row_hex": "0x55cca86730e551e94f16b0ca69"
+        },
+        {
+          "field": "ZFIRST5",
+          "label": "M1",
+          "row_hex": "0x6619aaa80154dd2325aaaa83eea5"
+        }
+      ],
+      "records_missed_by_label_filter": [
+        "H6_0",
+        "H6_1",
+        "H6_2",
+        "H6_3",
+        "Q2"
+      ],
+      "replay": {
+        "counts": {
+          "INIT": 136,
+          "ADD": 1073,
+          "MOVE": 478,
+          "CLEAR": 136
+        },
+        "movement_profile": {
+          "1": 182,
+          "2": 40,
+          "3": 60,
+          "4": 9,
+          "5": 66,
+          "6": 22,
+          "7": 99
+        },
+        "dirty_CLEAR": 136,
+        "peak_owners": 136,
+        "all_222_endpoints": true
+      }
+    },
+    {
+      "word_path": "results/bit-canonical-decoder34/author/WORD.json",
+      "word_sha256": "a910bb4504cf2a96303e8d560f076463268c4cb3ad4e6631d5f598c895db0567",
+      "actual_cut_before_first_CLEAR": 1759,
+      "geometric_M1_aliases": [
+        "C2",
+        "M1"
+      ],
+      "geometric_zero_aliases": [
+        "zero"
+      ],
+      "label_only_M1_rank": 8,
+      "actual_geometric_M1_rank": 13,
+      "actual_C9_intersection_rank": 3,
+      "actual_inventory": [
+        {
+          "field": "CAP2942",
+          "label": "M1",
+          "row_hex": "0x40020000000"
+        },
+        {
+          "field": "CAP46",
+          "label": "M1",
+          "row_hex": "0x480000000000"
+        },
+        {
+          "field": "H6_0",
+          "label": "C2",
+          "row_hex": "0x17c0000000000"
+        },
+        {
+          "field": "H6_1",
+          "label": "C2",
+          "row_hex": "0x1540020000001"
+        },
+        {
+          "field": "H6_2",
+          "label": "C2",
+          "row_hex": "0x3c0030000000"
+        },
+        {
+          "field": "H6_3",
+          "label": "C2",
+          "row_hex": "0x700000000004"
+        },
+        {
+          "field": "IMPORT_E36",
+          "label": "M1",
+          "row_hex": "0x1000000000"
+        },
+        {
+          "field": "IMPORT_E8",
+          "label": "M1",
+          "row_hex": "0x100"
+        },
+        {
+          "field": "IMPORT_E9",
+          "label": "M1",
+          "row_hex": "0x200"
+        },
+        {
+          "field": "Q2",
+          "label": "C2",
+          "row_hex": "0x17c0030000005"
+        },
+        {
+          "field": "ZFIRST3",
+          "label": "M1",
+          "row_hex": "0x7f00fe01fc07f03fc03fc03f00"
+        },
+        {
+          "field": "ZFIRST4",
+          "label": "M1",
+          "row_hex": "0x55cca86730e551e94f16b0ca69"
+        },
+        {
+          "field": "ZFIRST5",
+          "label": "M1",
+          "row_hex": "0x6619aaa80154dd2325aaaa83eea5"
+        }
+      ],
+      "records_missed_by_label_filter": [
+        "H6_0",
+        "H6_1",
+        "H6_2",
+        "H6_3",
+        "Q2"
+      ],
+      "replay": {
+        "counts": {
+          "INIT": 134,
+          "ADD": 1143,
+          "MOVE": 482,
+          "CLEAR": 134
+        },
+        "movement_profile": {
+          "1": 186,
+          "2": 40,
+          "3": 60,
+          "4": 9,
+          "5": 69,
+          "6": 22,
+          "7": 96
+        },
+        "dirty_CLEAR": 134,
+        "peak_owners": 134,
+        "all_222_endpoints": true
+      }
+    }
+  ],
+  "negative_control": "The literal label-only filter reproduces the incorrect rank8 and omits the listed actual C2 records. It is explicitly rejected as an inventory definition.",
+  "new_complete_kappa": false
+}

@@ -1,5 +1,9 @@
 # Verification ledger and reproduction map
 
+## S017 inventory correction — equivalent physical charts
+
+The checkpoint5 supplementary inventory omitted C2 records although C2=M1 geometrically. Two independent reviews give actual final-live M1 rank13, not8; canonical intersection0→3, all words, prices and endpoints remain unchanged. The immutable original files are qualified by [the correction](results/bit-semantic-chart-inventory/ADMISSION.md). Both new results reproduce byte-for-byte. No new complete κ.
+
 ## S017 checkpoint5 — actual canonical sources, physical decoder and transported complex interface
 
 Parent13aa322c88560492aa59ffe3a513747efd09413d. Fourteen commands pass;19 artifacts reproduce byte-for-byte. Independent reviews reconstruct actual native geometry, all222 columns, changed inherited source reads, simultaneous live sources, preserved contracts, every operation and integer-root prices. Fresh actual47 closure receives a separate root reconstruction and192 dual checks. Complex review uses literal matrices, exact source transport, unique-path support and noncommutative blocks without author imports; the written all-width separation/rank proof is reviewed separately.
