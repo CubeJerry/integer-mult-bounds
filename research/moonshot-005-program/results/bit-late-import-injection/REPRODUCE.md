@@ -1,0 +1,12 @@
+# Reproduction
+
+Run from the repository root with Python3 and SymPy. Frozen scientific inputs and outputs are pinned by the dependency and publication manifests. Use a disposable output directory.
+
+```bash
+MOONSHOT_CHECK_OUT=/tmp/moonshot-s017-cp4
+mkdir -p "$MOONSHOT_CHECK_OUT"
+python research/moonshot-005-program/results/bit-late-import-injection/author/check.py --repo . --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --history-engine research/moonshot-005-program/results/bit-late-import-injection/author/history.py --out $MOONSHOT_CHECK_OUT/late-author --word 47cb0991e41d06efae453f0e2890af6f619ccc44109b46329749bee658a18d15 research/moonshot-005-program/results/bit-cyclic-import-source/author/WORD.json --word d5726e001270e007209507c8eb9f385167a7d304a9f09c194381296b569f293f research/moonshot-005-program/results/bit-sourcewide-substitution/author/extra42/WORD.json --word 440bf0bb44f65180c066166e21691d15efcd19fb3e3bad7ea76038a4fa6834c8 research/moonshot-005-program/results/bit-native-raw2-return/author/import41/WORD.json --word 9053904c95084269c8d2df3f883a8c32dfadff763a2c0338a5ebf7c45d4d6267 research/moonshot-005-program/results/bit-protected-point-services/author/point41/WORD.json
+python research/moonshot-005-program/results/bit-late-import-injection/root-review/check.py --repo . --out $MOONSHOT_CHECK_OUT/late-review.json --word 47cb0991e41d06efae453f0e2890af6f619ccc44109b46329749bee658a18d15 research/moonshot-005-program/results/bit-cyclic-import-source/author/WORD.json --word d5726e001270e007209507c8eb9f385167a7d304a9f09c194381296b569f293f research/moonshot-005-program/results/bit-sourcewide-substitution/author/extra42/WORD.json --word 440bf0bb44f65180c066166e21691d15efcd19fb3e3bad7ea76038a4fa6834c8 research/moonshot-005-program/results/bit-native-raw2-return/author/import41/WORD.json --word 9053904c95084269c8d2df3f883a8c32dfadff763a2c0338a5ebf7c45d4d6267 research/moonshot-005-program/results/bit-protected-point-services/author/point41/WORD.json
+```
+
+All17 commands across six packages pass. Thirty-two output artifacts reproduce byte-for-byte. The remaining author source-comparison report is identical after rebasing exactly its three input-path metadata strings; all rows, ranks, source pins, prices and witnesses are unchanged. See the session CHECKPOINT4-VALIDATION.json and CHECKPOINT4-REPRODUCTION.json. Author reruns establish reproduction, not another independent proof.

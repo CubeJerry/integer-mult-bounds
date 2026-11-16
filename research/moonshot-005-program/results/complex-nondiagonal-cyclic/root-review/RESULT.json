@@ -1,0 +1,137 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_NONDIAGONAL_CYCLIC_IMPLEMENTATION",
+  "proof_sha256": "b68879d307458e5e22c336b8e48317fb5c31a0076cfaf1ada628831b287c54d5",
+  "author_result_sha256": "cfc43f7eba3d11797044786fca8e367075703b9484493711650154ee9047b2d2",
+  "method": "Independent SymPy exact scalar, spectral and literal16-address matrix calculations; no author code imported.",
+  "primitive_recipe_checks": [
+    {
+      "case": 0,
+      "order": 2,
+      "forward": {
+        "ADD": 22,
+        "SCALE": 44,
+        "MONOMIAL": 22
+      },
+      "inverse": {
+        "ADD": 22,
+        "SCALE": 44,
+        "MONOMIAL": 22
+      }
+    },
+    {
+      "case": 1,
+      "order": 4,
+      "forward": {
+        "ADD": 116,
+        "SCALE": 232,
+        "MONOMIAL": 174
+      },
+      "inverse": {
+        "ADD": 116,
+        "SCALE": 232,
+        "MONOMIAL": 174
+      }
+    },
+    {
+      "case": 2,
+      "order": 2,
+      "forward": {
+        "ADD": 22,
+        "SCALE": 45,
+        "MONOMIAL": 22
+      },
+      "inverse": {
+        "ADD": 22,
+        "SCALE": 45,
+        "MONOMIAL": 22
+      }
+    },
+    {
+      "case": 3,
+      "order": 2,
+      "forward": {
+        "ADD": 30,
+        "SCALE": 60,
+        "MONOMIAL": 30
+      },
+      "inverse": {
+        "ADD": 30,
+        "SCALE": 60,
+        "MONOMIAL": 30
+      }
+    }
+  ],
+  "all_four_two_by_two_sign_cases": true,
+  "source_controls": {
+    "quartic": {
+      "negative_multiplicity": 1,
+      "moved_addresses": [
+        2,
+        2
+      ]
+    },
+    "b_xor_acd": {
+      "negative_multiplicity": 8,
+      "moved_addresses": [
+        16,
+        4
+      ]
+    },
+    "c_xor_abd": {
+      "negative_multiplicity": 8,
+      "moved_addresses": [
+        4,
+        16
+      ]
+    },
+    "a_xor_bcd": {
+      "negative_multiplicity": 8,
+      "moved_addresses": [
+        4,
+        4
+      ]
+    },
+    "d_xor_abc": {
+      "negative_multiplicity": 8,
+      "moved_addresses": [
+        4,
+        4
+      ]
+    },
+    "ab_xor_cd": {
+      "negative_multiplicity": 6,
+      "moved_addresses": [
+        8,
+        8
+      ]
+    },
+    "b_xor_c_xor_ad": {
+      "negative_multiplicity": 8,
+      "moved_addresses": [
+        16,
+        16
+      ]
+    },
+    "quadratic_path": {
+      "negative_multiplicity": 10,
+      "moved_addresses": [
+        8,
+        8
+      ]
+    }
+  },
+  "quartic_nonzero_source_channels": {
+    "Kminus": 4,
+    "Kplus": 4
+  },
+  "idle_column_determinant_normalization_preserves_all_cross_channels": true,
+  "negative_controls": [
+    "one monomial service omitted, case0",
+    "one monomial service omitted, case1",
+    "one monomial service omitted, case2",
+    "one monomial service omitted, case3",
+    "conjugated source phases violate actual intertwining"
+  ],
+  "universal_scope": "Written finite elementary-factor/source-table proof; no profitable endpoint or complete supplier. Norm equality requires every spectral sector to occur.",
+  "new_complete_kappa": false
+}

@@ -1,0 +1,374 @@
+{
+  "status": "PASS",
+  "executions": [
+    {
+      "name": "point41",
+      "exit_code": 0,
+      "seconds": 2.104
+    },
+    {
+      "name": "protected-coded46",
+      "exit_code": 0,
+      "seconds": 1.95
+    },
+    {
+      "name": "extra42",
+      "exit_code": 0,
+      "seconds": 1.847
+    },
+    {
+      "name": "extra43",
+      "exit_code": 0,
+      "seconds": 2.32
+    },
+    {
+      "name": "raw2-base43",
+      "exit_code": 0,
+      "seconds": 1.579
+    },
+    {
+      "name": "coded-chain",
+      "exit_code": 0,
+      "seconds": 4.614
+    },
+    {
+      "name": "sourcewide-review",
+      "exit_code": 0,
+      "seconds": 3.619
+    },
+    {
+      "name": "point41-review",
+      "exit_code": 0,
+      "seconds": 14.145
+    },
+    {
+      "name": "paid46",
+      "exit_code": 0,
+      "seconds": 2.299
+    },
+    {
+      "name": "paid46-author-comparison",
+      "exit_code": 0,
+      "seconds": 19.159
+    },
+    {
+      "name": "paid46-review",
+      "exit_code": 0,
+      "seconds": 17.256
+    },
+    {
+      "name": "late-author",
+      "exit_code": 0,
+      "seconds": 2.143
+    },
+    {
+      "name": "late-review",
+      "exit_code": 0,
+      "seconds": 8.608
+    },
+    {
+      "name": "nondiagonal-author",
+      "exit_code": 0,
+      "seconds": 6.18
+    },
+    {
+      "name": "nondiagonal-review",
+      "exit_code": 0,
+      "seconds": 1.062
+    },
+    {
+      "name": "early-release",
+      "exit_code": 0,
+      "seconds": 0.759
+    },
+    {
+      "name": "early-review",
+      "exit_code": 0,
+      "seconds": 1.5
+    }
+  ],
+  "comparisons": [
+    {
+      "job": "point41",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/point41/WORD.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-protected-point-services/author/point41/WORD.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "9053904c95084269c8d2df3f883a8c32dfadff763a2c0338a5ebf7c45d4d6267",
+      "actual_sha256": "9053904c95084269c8d2df3f883a8c32dfadff763a2c0338a5ebf7c45d4d6267"
+    },
+    {
+      "job": "point41",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/point41/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-protected-point-services/author/point41/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "c79a8a482e1395599f35efadaadee70783b177a88419d43484f6872d329dc8a6",
+      "actual_sha256": "c79a8a482e1395599f35efadaadee70783b177a88419d43484f6872d329dc8a6"
+    },
+    {
+      "job": "point41",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/point41/PRICE.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-protected-point-services/author/point41/PRICE.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "87671b8c7ff0a7b440e8257175ec40104c0b6c015fd1b82f8d3319a8e8d371d5",
+      "actual_sha256": "87671b8c7ff0a7b440e8257175ec40104c0b6c015fd1b82f8d3319a8e8d371d5"
+    },
+    {
+      "job": "protected-coded46",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/protected-coded46/WORD.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-protected-point-services/author/protected-coded46/WORD.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "de4e5799da70814323cbe233e118c6bb26cbf3ac537bf77d4669db3304f9e460",
+      "actual_sha256": "de4e5799da70814323cbe233e118c6bb26cbf3ac537bf77d4669db3304f9e460"
+    },
+    {
+      "job": "protected-coded46",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/protected-coded46/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-protected-point-services/author/protected-coded46/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "3c68c4a615788eaf326e768e68431eb376c2c7868e5b5ef7a0113b5682068781",
+      "actual_sha256": "3c68c4a615788eaf326e768e68431eb376c2c7868e5b5ef7a0113b5682068781"
+    },
+    {
+      "job": "protected-coded46",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/protected-coded46/PRICE.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-protected-point-services/author/protected-coded46/PRICE.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "f289ac0e8740e4bff49faea13df99ccd4c8584feb62ab00a35c775d9baf84849",
+      "actual_sha256": "f289ac0e8740e4bff49faea13df99ccd4c8584feb62ab00a35c775d9baf84849"
+    },
+    {
+      "job": "extra42",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/extra42/WORD.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-sourcewide-substitution/author/extra42/WORD.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "d5726e001270e007209507c8eb9f385167a7d304a9f09c194381296b569f293f",
+      "actual_sha256": "d5726e001270e007209507c8eb9f385167a7d304a9f09c194381296b569f293f"
+    },
+    {
+      "job": "extra42",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/extra42/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-sourcewide-substitution/author/extra42/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "2771f2ae0b4f6c92cc6ce7d7cda78f3da170396be981b139b45c68a5fe0e29b4",
+      "actual_sha256": "2771f2ae0b4f6c92cc6ce7d7cda78f3da170396be981b139b45c68a5fe0e29b4"
+    },
+    {
+      "job": "extra43",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/extra43/WORD.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-sourcewide-substitution/author/extra43/WORD.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "3483fb4abac2f71bf266df368c97fcf5a624fee89ef82b55ca8238e56e74b1b8",
+      "actual_sha256": "3483fb4abac2f71bf266df368c97fcf5a624fee89ef82b55ca8238e56e74b1b8"
+    },
+    {
+      "job": "extra43",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/extra43/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-sourcewide-substitution/author/extra43/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "286638de6e959db4b3fdaf783784c0c59368de6c4cb7b58aa6198c31d3ad3f18",
+      "actual_sha256": "286638de6e959db4b3fdaf783784c0c59368de6c4cb7b58aa6198c31d3ad3f18"
+    },
+    {
+      "job": "raw2-base43",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/raw2-base43/WORD.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-sourcewide-substitution/author/raw2-base43/WORD.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "0fa6fd43de9e1782168ed811f39110cfd58f8035f5e90fc81c92c859fd2df96c",
+      "actual_sha256": "0fa6fd43de9e1782168ed811f39110cfd58f8035f5e90fc81c92c859fd2df96c"
+    },
+    {
+      "job": "raw2-base43",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/raw2-base43/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-sourcewide-substitution/author/raw2-base43/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "460163b8329920578cb0d3a526f76c831c0c4401e79ea8a4f3be56fb14881538",
+      "actual_sha256": "460163b8329920578cb0d3a526f76c831c0c4401e79ea8a4f3be56fb14881538"
+    },
+    {
+      "job": "raw2-base43",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/raw2-base43/PRICE.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-sourcewide-substitution/author/raw2-base43/PRICE.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "656a03ba764ac1af42e3036b9843c8c367511d6b563db73083e97a6ac8f29936",
+      "actual_sha256": "656a03ba764ac1af42e3036b9843c8c367511d6b563db73083e97a6ac8f29936"
+    },
+    {
+      "job": "coded-chain",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/coded-chain/outputs44/WORD.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-sourcewide-substitution/author/outputs44/WORD.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "f4a27a72484db22126f93cd7d8544e60b26bf5d6138f734bc66985a5e8c8a75f",
+      "actual_sha256": "f4a27a72484db22126f93cd7d8544e60b26bf5d6138f734bc66985a5e8c8a75f"
+    },
+    {
+      "job": "coded-chain",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/coded-chain/outputs44/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-sourcewide-substitution/author/outputs44/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "dbbdf4d794c2ff0aa746511c35b51bec5c99f407986968c9c20093ea01801fd4",
+      "actual_sha256": "dbbdf4d794c2ff0aa746511c35b51bec5c99f407986968c9c20093ea01801fd4"
+    },
+    {
+      "job": "coded-chain",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/coded-chain/outputs45/WORD.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-sourcewide-substitution/author/outputs45/WORD.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "6427be84494f45664aa3312ade2955b6d694e7eab475804c4262faf05a4af01a",
+      "actual_sha256": "6427be84494f45664aa3312ade2955b6d694e7eab475804c4262faf05a4af01a"
+    },
+    {
+      "job": "coded-chain",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/coded-chain/outputs45/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-sourcewide-substitution/author/outputs45/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "4b1d6837c2235fa4313534e51ccd8b529072476afd0525e8fca02a8a1a88f008",
+      "actual_sha256": "4b1d6837c2235fa4313534e51ccd8b529072476afd0525e8fca02a8a1a88f008"
+    },
+    {
+      "job": "coded-chain",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/coded-chain/outputs46/WORD.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-sourcewide-substitution/author/outputs46/WORD.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "45479de20faad9d9cd4ace9493057b82fb2c8b6f8baa4ac67134571f2e5cca84",
+      "actual_sha256": "45479de20faad9d9cd4ace9493057b82fb2c8b6f8baa4ac67134571f2e5cca84"
+    },
+    {
+      "job": "coded-chain",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/coded-chain/outputs46/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-sourcewide-substitution/author/outputs46/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "76da83c5542a86742b52dfbd0afdd6e545d82432abb04f83b37c5df5b600505c",
+      "actual_sha256": "76da83c5542a86742b52dfbd0afdd6e545d82432abb04f83b37c5df5b600505c"
+    },
+    {
+      "job": "coded-chain",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/coded-chain/CHAIN.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-sourcewide-substitution/author/CHAIN.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "f3e6bd1f0136138f90210bc5eddd73548aecebe6c39220935bb09ded27d9fd47",
+      "actual_sha256": "f3e6bd1f0136138f90210bc5eddd73548aecebe6c39220935bb09ded27d9fd47"
+    },
+    {
+      "job": "sourcewide-review",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/sourcewide-review.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-sourcewide-substitution/root-review/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "24a25735de35b82b4e7b61f1e776ee7d15dc15c3d5c496a6b183021e1e11e063",
+      "actual_sha256": "24a25735de35b82b4e7b61f1e776ee7d15dc15c3d5c496a6b183021e1e11e063"
+    },
+    {
+      "job": "point41-review",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/point41-review/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-protected-point-services/independent-review/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "bea081ec41068eb0bdf75201c1cd6f91da902309a5195c48e678927059c02268",
+      "actual_sha256": "bea081ec41068eb0bdf75201c1cd6f91da902309a5195c48e678927059c02268"
+    },
+    {
+      "job": "paid46",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/paid46/WORD.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-paid-return46-comparison/author/paid46/WORD.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "a0f0e1b5aa027d9f8faea8a529f47b5757f438f8609e1819af5e2a0f4da3b8fc",
+      "actual_sha256": "a0f0e1b5aa027d9f8faea8a529f47b5757f438f8609e1819af5e2a0f4da3b8fc"
+    },
+    {
+      "job": "paid46",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/paid46/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-paid-return46-comparison/author/paid46/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "52ae8dcbafe7d30804d602524ffd32cb7644fa0480f7f77343dd39801b344374",
+      "actual_sha256": "52ae8dcbafe7d30804d602524ffd32cb7644fa0480f7f77343dd39801b344374"
+    },
+    {
+      "job": "paid46-author-comparison",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/paid46-author-comparison/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-paid-return46-comparison/author/comparison/RESULT.json",
+      "status": "IDENTICAL_EXCEPT_EXPLICIT_PATH_METADATA",
+      "path_rebases": [
+        {
+          "word_sha256": "a0f0e1b5aa027d9f8faea8a529f47b5757f438f8609e1819af5e2a0f4da3b8fc",
+          "reproduced_path": "research/moonshot-005-program/results/bit-paid-return46-comparison/author/paid46/WORD.json",
+          "original_path": "workers/coded/paid-raw46/WORD.json"
+        },
+        {
+          "word_sha256": "45479de20faad9d9cd4ace9493057b82fb2c8b6f8baa4ac67134571f2e5cca84",
+          "reproduced_path": "research/moonshot-005-program/results/bit-sourcewide-substitution/author/outputs46/WORD.json",
+          "original_path": "workers/coded/encoded-lower-triples/outputs46/WORD.json"
+        },
+        {
+          "word_sha256": "de4e5799da70814323cbe233e118c6bb26cbf3ac537bf77d4669db3304f9e460",
+          "reproduced_path": "research/moonshot-005-program/results/bit-protected-point-services/author/protected-coded46/WORD.json",
+          "original_path": "workers/root/protected-point46/WORD.json"
+        }
+      ],
+      "expected_sha256": "a50f75b8438aacf9fc2673aa3917e4e5046d2d91b94c1af1bc4b01bced11c81f",
+      "actual_sha256": "a1db8d4d6a9be5a613c23af4586067e94ae3a257e86e16eb1689e84683870889"
+    },
+    {
+      "job": "paid46-review",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/paid46-review/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-paid-return46-comparison/independent-review/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "40d29b4b66d22bbc38fefac6415164b7f972224ba87291b9b7bec9c3cb90a93d",
+      "actual_sha256": "40d29b4b66d22bbc38fefac6415164b7f972224ba87291b9b7bec9c3cb90a93d"
+    },
+    {
+      "job": "late-author",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/late-author/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-late-import-injection/author/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "78aace427d7772a4a0bf4944a28d7984e3c8fd538309df360d1198bb456550e4",
+      "actual_sha256": "78aace427d7772a4a0bf4944a28d7984e3c8fd538309df360d1198bb456550e4"
+    },
+    {
+      "job": "late-review",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/late-review.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-late-import-injection/root-review/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "911092ef6c9022ba0b62997822417788ca10c46402ce520928dba23f26e719bd",
+      "actual_sha256": "911092ef6c9022ba0b62997822417788ca10c46402ce520928dba23f26e719bd"
+    },
+    {
+      "job": "nondiagonal-author",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/nondiagonal-author/NONDIAGONAL-RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/complex-nondiagonal-cyclic/author/NONDIAGONAL-RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "cfc43f7eba3d11797044786fca8e367075703b9484493711650154ee9047b2d2",
+      "actual_sha256": "cfc43f7eba3d11797044786fca8e367075703b9484493711650154ee9047b2d2"
+    },
+    {
+      "job": "nondiagonal-review",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/nondiagonal-review.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/complex-nondiagonal-cyclic/root-review/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "1b6f8c9c0b492c6d32e595e7f842e9a9ca089470a077110d38f0d770d50fb636",
+      "actual_sha256": "1b6f8c9c0b492c6d32e595e7f842e9a9ca089470a077110d38f0d770d50fb636"
+    },
+    {
+      "job": "early-release",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/early-release/WORD.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-early-source-release/author/WORD.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "509fe171db1fb0f82d9452c52e53166cae41da6f0c1700b10d8ef5db00ad28f2",
+      "actual_sha256": "509fe171db1fb0f82d9452c52e53166cae41da6f0c1700b10d8ef5db00ad28f2"
+    },
+    {
+      "job": "early-release",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/early-release/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-early-source-release/author/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "518c8beab806e9b1e5b6aff24944d7b87599e289fe3dbabd27e46deb0f08fe74",
+      "actual_sha256": "518c8beab806e9b1e5b6aff24944d7b87599e289fe3dbabd27e46deb0f08fe74"
+    },
+    {
+      "job": "early-review",
+      "actual": "/workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/early-review/RESULT.json",
+      "expected": "/workspace/scratch/5b84182f4f70/programme/research/moonshot-005-program/results/bit-early-source-release/independent-review/RESULT.json",
+      "status": "BYTE_IDENTICAL",
+      "expected_sha256": "517a02c89a01a8ebeed6584309a72cf45c88eb70c6f4afb8e57b2d5b770da8a8",
+      "actual_sha256": "517a02c89a01a8ebeed6584309a72cf45c88eb70c6f4afb8e57b2d5b770da8a8"
+    }
+  ],
+  "scope": "Fresh reproduction of author and independent review evidence; author reruns are not an additional independent proof."
+}

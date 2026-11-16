@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-11-16T08:31:40Z",
+  "baseline_sha": "f8d88ec53a44e0beaefc96248b114b7072ccc3db",
+  "commands": [
+    {
+      "name": "point41",
+      "command": "python research/moonshot-005-program/results/bit-protected-point-services/author/build.py --repo . --base research/moonshot-005-program/results/bit-native-raw2-return/author/import41/WORD.json --points 10 20 --protect IMPORT_E8 IMPORT_E9 IMPORT_E36 --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/point41",
+      "exit_code": 0,
+      "seconds": 2.104
+    },
+    {
+      "name": "protected-coded46",
+      "command": "python research/moonshot-005-program/results/bit-protected-point-services/author/build.py --repo . --base research/moonshot-005-program/results/bit-sourcewide-substitution/author/outputs46/WORD.json --points 10 --protect IMPORT_E8 IMPORT_E9 IMPORT_E36 --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/protected-coded46",
+      "exit_code": 0,
+      "seconds": 1.95
+    },
+    {
+      "name": "extra42",
+      "command": "python research/moonshot-005-program/results/bit-sourcewide-substitution/author/build_extra42.py --repo . --base research/moonshot-005-program/results/bit-cyclic-import-source/author/WORD.json --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --price-engine research/moonshot-005-program/results/bit-common-terminal-reuse/independent-review/check.py --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/extra42",
+      "exit_code": 0,
+      "seconds": 1.847
+    },
+    {
+      "name": "extra43",
+      "command": "python research/moonshot-005-program/results/bit-sourcewide-substitution/author/build_extra43.py --repo . --base research/moonshot-005-program/results/bit-sourcewide-substitution/author/extra42/WORD.json --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --price-engine research/moonshot-005-program/results/bit-common-terminal-reuse/independent-review/check.py --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/extra43",
+      "exit_code": 0,
+      "seconds": 2.32
+    },
+    {
+      "name": "raw2-base43",
+      "command": "python research/moonshot-005-program/results/bit-native-raw2-return/author/build.py --repo . --base research/moonshot-005-program/results/bit-sourcewide-substitution/author/extra43/WORD.json --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/raw2-base43",
+      "exit_code": 0,
+      "seconds": 1.579
+    },
+    {
+      "name": "coded-chain",
+      "command": "python research/moonshot-005-program/results/bit-sourcewide-substitution/author/build_encoded_lower_triples.py --repo . --base research/moonshot-005-program/results/bit-sourcewide-substitution/author/raw2-base43/WORD.json --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --price-engine research/moonshot-005-program/results/bit-common-terminal-reuse/independent-review/check.py --stages 3 --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/coded-chain",
+      "exit_code": 0,
+      "seconds": 4.614
+    },
+    {
+      "name": "sourcewide-review",
+      "command": "python research/moonshot-005-program/results/bit-sourcewide-substitution/root-review/check.py --repo . --base research/moonshot-005-program/results/bit-sourcewide-substitution/author/raw2-base43/WORD.json --stages research/moonshot-005-program/results/bit-sourcewide-substitution/author --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/sourcewide-review.json",
+      "exit_code": 0,
+      "seconds": 3.619
+    },
+    {
+      "name": "point41-review",
+      "command": "python research/moonshot-005-program/results/bit-protected-point-services/independent-review/check.py --repo . --base research/moonshot-005-program/results/bit-native-raw2-return/author/import41/WORD.json --word research/moonshot-005-program/results/bit-protected-point-services/author/point41/WORD.json --author-price research/moonshot-005-program/results/bit-protected-point-services/author/point41/PRICE.json --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --price-engine research/moonshot-005-program/results/bit-cyclic-import-source/independent-review/check.py --history-engine research/moonshot-005-program/results/bit-native-raw2-return/independent-review/check.py --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/point41-review",
+      "exit_code": 0,
+      "seconds": 14.145
+    },
+    {
+      "name": "paid46",
+      "command": "python research/moonshot-005-program/results/bit-paid-return46-comparison/author/build_raw46_comparison.py --repo . --base research/moonshot-005-program/results/bit-protected-point-services/author/point41/WORD.json --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --price-engine research/moonshot-005-program/results/bit-common-terminal-reuse/independent-review/check.py --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/paid46",
+      "exit_code": 0,
+      "seconds": 2.299
+    },
+    {
+      "name": "paid46-author-comparison",
+      "command": "python research/moonshot-005-program/results/bit-paid-return46-comparison/author/compare_raw_coded46.py --repo . --raw research/moonshot-005-program/results/bit-paid-return46-comparison/author/paid46/WORD.json --coded research/moonshot-005-program/results/bit-sourcewide-substitution/author/outputs46/WORD.json research/moonshot-005-program/results/bit-protected-point-services/author/protected-coded46/WORD.json --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --price-engine research/moonshot-005-program/results/bit-common-terminal-reuse/independent-review/check.py --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/paid46-author-comparison",
+      "exit_code": 0,
+      "seconds": 19.159
+    },
+    {
+      "name": "paid46-review",
+      "command": "python research/moonshot-005-program/results/bit-paid-return46-comparison/independent-review/check.py --repo . --base research/moonshot-005-program/results/bit-protected-point-services/author/point41/WORD.json --word research/moonshot-005-program/results/bit-paid-return46-comparison/author/paid46/WORD.json --author-result research/moonshot-005-program/results/bit-paid-return46-comparison/author/paid46/RESULT.json --coded-word research/moonshot-005-program/results/bit-sourcewide-substitution/author/outputs46/WORD.json --protected-coded-word research/moonshot-005-program/results/bit-protected-point-services/author/protected-coded46/WORD.json --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --price-engine research/moonshot-005-program/results/bit-cyclic-import-source/independent-review/check.py --history-engine research/moonshot-005-program/results/bit-native-raw2-return/independent-review/check.py --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/paid46-review",
+      "exit_code": 0,
+      "seconds": 17.256
+    },
+    {
+      "name": "late-author",
+      "command": "python research/moonshot-005-program/results/bit-late-import-injection/author/check.py --repo . --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --history-engine research/moonshot-005-program/results/bit-late-import-injection/author/history.py --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/late-author --word 47cb0991e41d06efae453f0e2890af6f619ccc44109b46329749bee658a18d15 research/moonshot-005-program/results/bit-cyclic-import-source/author/WORD.json --word d5726e001270e007209507c8eb9f385167a7d304a9f09c194381296b569f293f research/moonshot-005-program/results/bit-sourcewide-substitution/author/extra42/WORD.json --word 440bf0bb44f65180c066166e21691d15efcd19fb3e3bad7ea76038a4fa6834c8 research/moonshot-005-program/results/bit-native-raw2-return/author/import41/WORD.json --word 9053904c95084269c8d2df3f883a8c32dfadff763a2c0338a5ebf7c45d4d6267 research/moonshot-005-program/results/bit-protected-point-services/author/point41/WORD.json",
+      "exit_code": 0,
+      "seconds": 2.143
+    },
+    {
+      "name": "late-review",
+      "command": "python research/moonshot-005-program/results/bit-late-import-injection/root-review/check.py --repo . --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/late-review.json --word 47cb0991e41d06efae453f0e2890af6f619ccc44109b46329749bee658a18d15 research/moonshot-005-program/results/bit-cyclic-import-source/author/WORD.json --word d5726e001270e007209507c8eb9f385167a7d304a9f09c194381296b569f293f research/moonshot-005-program/results/bit-sourcewide-substitution/author/extra42/WORD.json --word 440bf0bb44f65180c066166e21691d15efcd19fb3e3bad7ea76038a4fa6834c8 research/moonshot-005-program/results/bit-native-raw2-return/author/import41/WORD.json --word 9053904c95084269c8d2df3f883a8c32dfadff763a2c0338a5ebf7c45d4d6267 research/moonshot-005-program/results/bit-protected-point-services/author/point41/WORD.json",
+      "exit_code": 0,
+      "seconds": 8.608
+    },
+    {
+      "name": "nondiagonal-author",
+      "command": "python /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/nondiagonal-author/check_nondiagonal_cyclic.py --repo .",
+      "exit_code": 0,
+      "seconds": 6.18
+    },
+    {
+      "name": "nondiagonal-review",
+      "command": "python research/moonshot-005-program/results/complex-nondiagonal-cyclic/root-review/check.py --author-result research/moonshot-005-program/results/complex-nondiagonal-cyclic/author/NONDIAGONAL-RESULT.json --proof research/moonshot-005-program/results/complex-nondiagonal-cyclic/author/NONDIAGONAL-CYCLIC-IMPLEMENTATION.md --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/nondiagonal-review.json",
+      "exit_code": 0,
+      "seconds": 1.062
+    },
+    {
+      "name": "early-release",
+      "command": "python research/moonshot-005-program/results/bit-early-source-release/author/build.py --repo . --base research/moonshot-005-program/results/bit-protected-point-services/author/point41/WORD.json --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/early-release",
+      "exit_code": 0,
+      "seconds": 0.759
+    },
+    {
+      "name": "early-review",
+      "command": "python research/moonshot-005-program/results/bit-early-source-release/independent-review/check.py --repo . --base research/moonshot-005-program/results/bit-protected-point-services/author/point41/WORD.json --word research/moonshot-005-program/results/bit-early-source-release/author/WORD.json --engine research/moonshot-005-program/results/bit-leaf-capacity-quotient/author/check.py --price-engine research/moonshot-005-program/results/bit-cyclic-import-source/independent-review/check.py --out /workspace/scratch/5b84182f4f70/workers/root/verify-checkpoint4/early-review",
+      "exit_code": 0,
+      "seconds": 1.5
+    }
+  ]
+}

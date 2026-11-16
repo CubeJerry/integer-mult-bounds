@@ -1,5 +1,11 @@
 # Verification ledger and reproduction map
 
+## S017 checkpoint4 — coordinated sources, real comparisons and earlier release
+
+Confirmed parentf8d88ec53a44e0beaefc96248b114b7072ccc3db. Seventeen commands pass;32 artifacts are byte-identical and one comparison differs only in three explicitly rebased path strings. The root source-wide review uses a separate Fraction geometry/all222 interpreter and integer-root invoice. The late-injection review uses three additional symbolic columns and checks the nonlinear collision proof. Worker C independently verifies actual custody, per-record histories, chronological access probes, price enclosures, noncontainment witnesses and each own-coordinate cut. The complex review checks exact primitive inverses, literal native matrices, determinant normalization and the written all-width identities without author code.
+
+The new protected optimizer explicitly retains import contracts; endpoint-only success is not treated as source preservation. Early release changes global chronology while preserving every per-record history and ADD prestate. Frozen-history inequalities and actual live source inventories remain distinct. New canonical-mask and complex routing results remain pending until independently reviewed. See [validation](sessions/2026-11-16-S017/CHECKPOINT4-VALIDATION.json), [reproduction](sessions/2026-11-16-S017/CHECKPOINT4-REPRODUCTION.json), and each package's admission, proof, review and manifests. No new complete κ.
+
 ## S017 checkpoint3 — source imports, history dominance and cyclic conjugacy
 
 Confirmed parent84d7d192c9aa1ade101c50b526b38e7c342f78f7. Ten reproduction/review commands pass and17 JSON artifacts are byte-identical to frozen evidence. Independent C replay checks all222 native columns, rational geometry, actual source cuts/access, full historical-span recipes and separately enclosed prices. Fresh proper-birth closures use new inventories and210 duals. Root independently reviews both cyclic universal proofs and checks exact literal source/Fourier/conjugacy identities with SymPy, without author code. Four path-only packaging edits to the raw2 reviewer are documented; its result bytes remain identical.

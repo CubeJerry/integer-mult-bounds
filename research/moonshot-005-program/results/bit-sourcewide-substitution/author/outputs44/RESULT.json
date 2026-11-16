@@ -1,0 +1,2631 @@
+{
+  "status": "PASS_ACTUAL_ENCODED_ORIGINAL_LOWER_TRIPLE",
+  "word_sha256": "f4a27a72484db22126f93cd7d8544e60b26bf5d6138f734bc66985a5e8c8a75f",
+  "base_word_sha256": "0fa6fd43de9e1782168ed811f39110cfd58f8035f5e90fc81c92c859fd2df96c",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "before": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 130,
+      "ADD": 834,
+      "MOVE": 490,
+      "CLEAR": 130
+    },
+    "movement_profile": {
+      "1": 193,
+      "2": 40,
+      "3": 58,
+      "4": 12,
+      "5": 76,
+      "6": 23,
+      "7": 88
+    },
+    "dirty_CLEAR": 130,
+    "peak_owned": 130,
+    "historical_record_states": 1676
+  },
+  "after": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 133,
+      "ADD": 846,
+      "MOVE": 498,
+      "CLEAR": 133
+    },
+    "movement_profile": {
+      "1": 201,
+      "2": 42,
+      "3": 55,
+      "4": 14,
+      "5": 78,
+      "6": 22,
+      "7": 86
+    },
+    "dirty_CLEAR": 133,
+    "peak_owned": 133,
+    "historical_record_states": 1699
+  },
+  "target_count": 44,
+  "new_target": 8,
+  "source_substitution": {
+    "packet": "P2",
+    "triple": [
+      12,
+      39,
+      8
+    ],
+    "logical_source_substitution": {
+      "39": [
+        39,
+        8
+      ]
+    },
+    "original_b_new_route": [
+      "L39",
+      "P2_E8_A",
+      "Extra6",
+      "Hub"
+    ],
+    "actual_coded_import": "IMPORT_E8",
+    "coded_import_rows": [
+      39,
+      8
+    ],
+    "coded_import_route": [
+      "Extra6",
+      "M0",
+      "J22"
+    ],
+    "replaced_actual_M0_cache_contributions": [
+      "PRIVATE22",
+      "H1_0",
+      "H1_1",
+      "H1_2",
+      "Q0"
+    ],
+    "actual_Hub_loads_with_extra_c_read": [
+      "P1",
+      "P2"
+    ],
+    "private_cache_retimed_to_M0": true,
+    "retained_pair_field": "KEEP_M22",
+    "retained_pair_chart": "P2_E8_K",
+    "new_stationary_native_and_plane_captures": [
+      "P2_E8_RAW_BL",
+      "P2_E8_RAW_CL",
+      "P2_E8_RAW_BA",
+      "P2_E8_RAW_CB"
+    ],
+    "no_independent_raw_b_import": true
+  },
+  "actual_coded_import_value_hex": "0x8000000100",
+  "actual_retained_pair_value_hex": "0x8000000100",
+  "actual_ground_triple_hex": "0x8000001100",
+  "prepacket_inherited_field_substitution_count": 341,
+  "prepacket_substitution_exceptions": [
+    "IMPORT_E8",
+    "RAW_J39",
+    "X39"
+  ],
+  "prepacket_source_substitution_fields": [
+    {
+      "field": "X0",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x1",
+      "new_row_hex": "0x1"
+    },
+    {
+      "field": "X1",
+      "old_chart": "F21",
+      "new_chart": "F21",
+      "old_row_hex": "0x800c0c040408",
+      "new_row_hex": "0x800c0c040408"
+    },
+    {
+      "field": "X2",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x4",
+      "new_row_hex": "0x4"
+    },
+    {
+      "field": "X3",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x8",
+      "new_row_hex": "0x8"
+    },
+    {
+      "field": "X4",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x10",
+      "new_row_hex": "0x10"
+    },
+    {
+      "field": "X5",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x20",
+      "new_row_hex": "0x20"
+    },
+    {
+      "field": "X6",
+      "old_chart": "F4",
+      "new_chart": "F4",
+      "old_row_hex": "0x8000003000040",
+      "new_row_hex": "0x8000003000040"
+    },
+    {
+      "field": "X7",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x80",
+      "new_row_hex": "0x80"
+    },
+    {
+      "field": "X8",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x100",
+      "new_row_hex": "0x100"
+    },
+    {
+      "field": "X9",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x200",
+      "new_row_hex": "0x200"
+    },
+    {
+      "field": "X10",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x800c0c040402",
+      "new_row_hex": "0x800c0c040402"
+    },
+    {
+      "field": "X11",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x800",
+      "new_row_hex": "0x800"
+    },
+    {
+      "field": "X12",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x1000",
+      "new_row_hex": "0x1000"
+    },
+    {
+      "field": "X13",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x2000",
+      "new_row_hex": "0x2000"
+    },
+    {
+      "field": "X14",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x4000",
+      "new_row_hex": "0x4000"
+    },
+    {
+      "field": "X15",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x8000",
+      "new_row_hex": "0x8000"
+    },
+    {
+      "field": "X16",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x10000",
+      "new_row_hex": "0x10000"
+    },
+    {
+      "field": "X17",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x20000",
+      "new_row_hex": "0x20000"
+    },
+    {
+      "field": "X18",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x40000",
+      "new_row_hex": "0x40000"
+    },
+    {
+      "field": "X19",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x80000",
+      "new_row_hex": "0x80000"
+    },
+    {
+      "field": "X20",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x100000",
+      "new_row_hex": "0x100000"
+    },
+    {
+      "field": "X21",
+      "old_chart": "F3",
+      "new_chart": "F3",
+      "old_row_hex": "0x800c0c240402",
+      "new_row_hex": "0x800c0c240402"
+    },
+    {
+      "field": "X22",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x400000",
+      "new_row_hex": "0x400000"
+    },
+    {
+      "field": "X23",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x800000",
+      "new_row_hex": "0x800000"
+    },
+    {
+      "field": "X24",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x1000000",
+      "new_row_hex": "0x1000000"
+    },
+    {
+      "field": "X25",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x2000000",
+      "new_row_hex": "0x2000000"
+    },
+    {
+      "field": "X26",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x4000000",
+      "new_row_hex": "0x4000000"
+    },
+    {
+      "field": "X27",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x8000000",
+      "new_row_hex": "0x8000000"
+    },
+    {
+      "field": "X28",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x10000000",
+      "new_row_hex": "0x10000000"
+    },
+    {
+      "field": "X29",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x20000000",
+      "new_row_hex": "0x20000000"
+    },
+    {
+      "field": "X30",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x40000000",
+      "new_row_hex": "0x40000000"
+    },
+    {
+      "field": "X31",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x80000000",
+      "new_row_hex": "0x80000000"
+    },
+    {
+      "field": "X32",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x100000000",
+      "new_row_hex": "0x100000000"
+    },
+    {
+      "field": "X33",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x200000000",
+      "new_row_hex": "0x200000000"
+    },
+    {
+      "field": "X34",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x400000000",
+      "new_row_hex": "0x400000000"
+    },
+    {
+      "field": "X35",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x800000000",
+      "new_row_hex": "0x800000000"
+    },
+    {
+      "field": "X36",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x1000000000",
+      "new_row_hex": "0x1000000000"
+    },
+    {
+      "field": "X37",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x2000000000",
+      "new_row_hex": "0x2000000000"
+    },
+    {
+      "field": "X38",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x4000000000",
+      "new_row_hex": "0x4000000000"
+    },
+    {
+      "field": "X40",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x10000000000",
+      "new_row_hex": "0x10000000000"
+    },
+    {
+      "field": "X41",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x20000000000",
+      "new_row_hex": "0x20000000000"
+    },
+    {
+      "field": "X42",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x40000000000",
+      "new_row_hex": "0x40000000000"
+    },
+    {
+      "field": "X43",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x80000000000",
+      "new_row_hex": "0x80000000000"
+    },
+    {
+      "field": "X44",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x100000000000",
+      "new_row_hex": "0x100000000000"
+    },
+    {
+      "field": "X45",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x200000000000",
+      "new_row_hex": "0x200000000000"
+    },
+    {
+      "field": "X46",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x400000000000",
+      "new_row_hex": "0x400000000000"
+    },
+    {
+      "field": "X47",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x800000000000",
+      "new_row_hex": "0x800000000000"
+    },
+    {
+      "field": "X48",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x1000000000000",
+      "new_row_hex": "0x1000000000000"
+    },
+    {
+      "field": "X49",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x2000000000000",
+      "new_row_hex": "0x2000000000000"
+    },
+    {
+      "field": "X50",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x4000000000000",
+      "new_row_hex": "0x4000000000000"
+    },
+    {
+      "field": "X51",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x8000000000000",
+      "new_row_hex": "0x8000000000000"
+    },
+    {
+      "field": "X52",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x10000000000000",
+      "new_row_hex": "0x10000000000000"
+    },
+    {
+      "field": "X53",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x20000000000000",
+      "new_row_hex": "0x20000000000000"
+    },
+    {
+      "field": "X54",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x40000000000000",
+      "new_row_hex": "0x40000000000000"
+    },
+    {
+      "field": "X55",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x80000000000000",
+      "new_row_hex": "0x80000000000000"
+    },
+    {
+      "field": "X56",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x100000000000000",
+      "new_row_hex": "0x100000000000000"
+    },
+    {
+      "field": "X57",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x200000000000000",
+      "new_row_hex": "0x200000000000000"
+    },
+    {
+      "field": "X58",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x400000000000000",
+      "new_row_hex": "0x400000000000000"
+    },
+    {
+      "field": "X59",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x800000000000000",
+      "new_row_hex": "0x800000000000000"
+    },
+    {
+      "field": "X60",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x1000000000000000",
+      "new_row_hex": "0x1000000000000000"
+    },
+    {
+      "field": "X61",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x5000030203802000000000000000",
+      "new_row_hex": "0x5000030203802000000000000000"
+    },
+    {
+      "field": "X62",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x4000000000000000",
+      "new_row_hex": "0x4000000000000000"
+    },
+    {
+      "field": "X63",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x8000000000000000",
+      "new_row_hex": "0x8000000000000000"
+    },
+    {
+      "field": "X64",
+      "old_chart": "F76",
+      "new_chart": "F76",
+      "old_row_hex": "0x5000030203812000000000000000",
+      "new_row_hex": "0x5000030203812000000000000000"
+    },
+    {
+      "field": "X65",
+      "old_chart": "F80",
+      "new_chart": "F80",
+      "old_row_hex": "0x5003030201a0000000000000000",
+      "new_row_hex": "0x5003030201a0000000000000000"
+    },
+    {
+      "field": "X66",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x40000000000000000",
+      "new_row_hex": "0x40000000000000000"
+    },
+    {
+      "field": "X67",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x500303020180000000000000000",
+      "new_row_hex": "0x500303020180000000000000000"
+    },
+    {
+      "field": "X68",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x100000000000000000",
+      "new_row_hex": "0x100000000000000000"
+    },
+    {
+      "field": "X69",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x200000000000000000",
+      "new_row_hex": "0x200000000000000000"
+    },
+    {
+      "field": "X70",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x400000000000000000",
+      "new_row_hex": "0x400000000000000000"
+    },
+    {
+      "field": "X71",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x800000000000000000",
+      "new_row_hex": "0x800000000000000000"
+    },
+    {
+      "field": "X72",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x1000000000000000000",
+      "new_row_hex": "0x1000000000000000000"
+    },
+    {
+      "field": "X73",
+      "old_chart": "F64",
+      "new_chart": "F64",
+      "old_row_hex": "0x5000030211802000000000000000",
+      "new_row_hex": "0x5000030211802000000000000000"
+    },
+    {
+      "field": "X74",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x4000000000000000000",
+      "new_row_hex": "0x4000000000000000000"
+    },
+    {
+      "field": "X75",
+      "old_chart": "F74",
+      "new_chart": "F74",
+      "old_row_hex": "0xc0008600000000000000000",
+      "new_row_hex": "0xc0008600000000000000000"
+    },
+    {
+      "field": "X76",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x10000000000000000000",
+      "new_row_hex": "0x10000000000000000000"
+    },
+    {
+      "field": "X77",
+      "old_chart": "F65",
+      "new_chart": "F65",
+      "old_row_hex": "0x500303100180000000000000000",
+      "new_row_hex": "0x500303100180000000000000000"
+    },
+    {
+      "field": "X78",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x40000000000000000000",
+      "new_row_hex": "0x40000000000000000000"
+    },
+    {
+      "field": "X79",
+      "old_chart": "F78",
+      "new_chart": "F78",
+      "old_row_hex": "0xc00080040000000000000000",
+      "new_row_hex": "0xc00080040000000000000000"
+    },
+    {
+      "field": "X80",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x100000000000000000000",
+      "new_row_hex": "0x100000000000000000000"
+    },
+    {
+      "field": "X81",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x200000000000000000000",
+      "new_row_hex": "0x200000000000000000000"
+    },
+    {
+      "field": "X82",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x400000000000000000000",
+      "new_row_hex": "0x400000000000000000000"
+    },
+    {
+      "field": "X83",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x800000000000000000000",
+      "new_row_hex": "0x800000000000000000000"
+    },
+    {
+      "field": "X84",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x1000000000000000000000",
+      "new_row_hex": "0x1000000000000000000000"
+    },
+    {
+      "field": "X85",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x2000000000000000000000",
+      "new_row_hex": "0x2000000000000000000000"
+    },
+    {
+      "field": "X86",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x4000000000000000000000",
+      "new_row_hex": "0x4000000000000000000000"
+    },
+    {
+      "field": "X87",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x8000000000000000000000",
+      "new_row_hex": "0x8000000000000000000000"
+    },
+    {
+      "field": "X88",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x10000000000000000000000",
+      "new_row_hex": "0x10000000000000000000000"
+    },
+    {
+      "field": "X89",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x20000000000000000000000",
+      "new_row_hex": "0x20000000000000000000000"
+    },
+    {
+      "field": "X90",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x40000000000000000000000",
+      "new_row_hex": "0x40000000000000000000000"
+    },
+    {
+      "field": "X91",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x80000000000000000000000",
+      "new_row_hex": "0x80000000000000000000000"
+    },
+    {
+      "field": "X92",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x100000000000000000000000",
+      "new_row_hex": "0x100000000000000000000000"
+    },
+    {
+      "field": "X93",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x200000000000000000000000",
+      "new_row_hex": "0x200000000000000000000000"
+    },
+    {
+      "field": "X94",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x400000000000000000000000",
+      "new_row_hex": "0x400000000000000000000000"
+    },
+    {
+      "field": "X95",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x800000000000000000000000",
+      "new_row_hex": "0x800000000000000000000000"
+    },
+    {
+      "field": "X96",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x1000000000000000000000000",
+      "new_row_hex": "0x1000000000000000000000000"
+    },
+    {
+      "field": "X97",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x2000000000000000000000000",
+      "new_row_hex": "0x2000000000000000000000000"
+    },
+    {
+      "field": "X98",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x4000000000000000000000000",
+      "new_row_hex": "0x4000000000000000000000000"
+    },
+    {
+      "field": "X99",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x8000000000000000000000000",
+      "new_row_hex": "0x8000000000000000000000000"
+    },
+    {
+      "field": "X100",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x10000000000000000000000000",
+      "new_row_hex": "0x10000000000000000000000000"
+    },
+    {
+      "field": "X101",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x20000000000000000000000000",
+      "new_row_hex": "0x20000000000000000000000000"
+    },
+    {
+      "field": "X102",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x40000000000000000000000000",
+      "new_row_hex": "0x40000000000000000000000000"
+    },
+    {
+      "field": "X103",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x80000000000000000000000000",
+      "new_row_hex": "0x80000000000000000000000000"
+    },
+    {
+      "field": "X104",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x100000000000000000000000000",
+      "new_row_hex": "0x100000000000000000000000000"
+    },
+    {
+      "field": "X105",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x200000000000000000000000000",
+      "new_row_hex": "0x200000000000000000000000000"
+    },
+    {
+      "field": "X106",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x400000000000000000000000000",
+      "new_row_hex": "0x400000000000000000000000000"
+    },
+    {
+      "field": "X107",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x800000000000000000000000000",
+      "new_row_hex": "0x800000000000000000000000000"
+    },
+    {
+      "field": "X108",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x1000000000000000000000000000",
+      "new_row_hex": "0x1000000000000000000000000000"
+    },
+    {
+      "field": "X109",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x2000000000000000000000000000",
+      "new_row_hex": "0x2000000000000000000000000000"
+    },
+    {
+      "field": "X110",
+      "old_chart": "Hub",
+      "new_chart": "Hub",
+      "old_row_hex": "0x4000000000000000000000000000",
+      "new_row_hex": "0x4000000000000000000000000000"
+    },
+    {
+      "field": "Y0",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x8000000000000000000000000000",
+      "new_row_hex": "0x8000000000000000000000000000"
+    },
+    {
+      "field": "Y1",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x10000000000000000000000000000",
+      "new_row_hex": "0x10000000000000000000000000000"
+    },
+    {
+      "field": "Y2",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x20000000000000000000000000000",
+      "new_row_hex": "0x20000000000000000000000000000"
+    },
+    {
+      "field": "Y3",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x40000000000000000000000000000",
+      "new_row_hex": "0x40000000000000000000000000000"
+    },
+    {
+      "field": "Y4",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x80000000000000000000000000000",
+      "new_row_hex": "0x80000000000000000000000000000"
+    },
+    {
+      "field": "Y5",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x100000000000000000000000000000",
+      "new_row_hex": "0x100000000000000000000000000000"
+    },
+    {
+      "field": "Y6",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x200000000000000000000000000000",
+      "new_row_hex": "0x200000000000000000000000000000"
+    },
+    {
+      "field": "Y7",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x400000000000000000000000000000",
+      "new_row_hex": "0x400000000000000000000000000000"
+    },
+    {
+      "field": "Y8",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x800000000000000000000000000000",
+      "new_row_hex": "0x800000000000000000000000000000"
+    },
+    {
+      "field": "Y9",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x1000000000000000000000000000000",
+      "new_row_hex": "0x1000000000000000000000000000000"
+    },
+    {
+      "field": "Y10",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x2000000000000000000000000000000",
+      "new_row_hex": "0x2000000000000000000000000000000"
+    },
+    {
+      "field": "Y11",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x4000000000000000000000000000000",
+      "new_row_hex": "0x4000000000000000000000000000000"
+    },
+    {
+      "field": "Y12",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x8000000000000000000000000000000",
+      "new_row_hex": "0x8000000000000000000000000000000"
+    },
+    {
+      "field": "Y13",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x10000000000000000000000000000000",
+      "new_row_hex": "0x10000000000000000000000000000000"
+    },
+    {
+      "field": "Y14",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x20000000000000000000000000000000",
+      "new_row_hex": "0x20000000000000000000000000000000"
+    },
+    {
+      "field": "Y15",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x40000000000000000000000000000000",
+      "new_row_hex": "0x40000000000000000000000000000000"
+    },
+    {
+      "field": "Y16",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x80000000000000000000000000000000",
+      "new_row_hex": "0x80000000000000000000000000000000"
+    },
+    {
+      "field": "Y17",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x100000000000000000000000000000000",
+      "new_row_hex": "0x100000000000000000000000000000000"
+    },
+    {
+      "field": "Y18",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x200000000000000000000000000000000",
+      "new_row_hex": "0x200000000000000000000000000000000"
+    },
+    {
+      "field": "Y19",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x400000000000000000000000000000000",
+      "new_row_hex": "0x400000000000000000000000000000000"
+    },
+    {
+      "field": "Y20",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x800000000000000000000000000000000",
+      "new_row_hex": "0x800000000000000000000000000000000"
+    },
+    {
+      "field": "Y21",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x1000000000000000000000000000000000",
+      "new_row_hex": "0x1000000000000000000000000000000000"
+    },
+    {
+      "field": "Y22",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x2000000000000000000000000000000000",
+      "new_row_hex": "0x2000000000000000000000000000000000"
+    },
+    {
+      "field": "Y23",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x4000000000000000000000000000000000",
+      "new_row_hex": "0x4000000000000000000000000000000000"
+    },
+    {
+      "field": "Y24",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x8000000000000000000000000000000000",
+      "new_row_hex": "0x8000000000000000000000000000000000"
+    },
+    {
+      "field": "Y25",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x10000000000000000000000000000000000",
+      "new_row_hex": "0x10000000000000000000000000000000000"
+    },
+    {
+      "field": "Y26",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x20000000000000000000000000000000000",
+      "new_row_hex": "0x20000000000000000000000000000000000"
+    },
+    {
+      "field": "Y27",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x40000000000000000000000000000000000",
+      "new_row_hex": "0x40000000000000000000000000000000000"
+    },
+    {
+      "field": "Y28",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x80000000000000000000000000000000000",
+      "new_row_hex": "0x80000000000000000000000000000000000"
+    },
+    {
+      "field": "Y29",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x100000000000000000000000000000000000",
+      "new_row_hex": "0x100000000000000000000000000000000000"
+    },
+    {
+      "field": "Y30",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x200000000000000000000000000000000000",
+      "new_row_hex": "0x200000000000000000000000000000000000"
+    },
+    {
+      "field": "Y31",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x400000000000000000000000000000000000",
+      "new_row_hex": "0x400000000000000000000000000000000000"
+    },
+    {
+      "field": "Y32",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x800000000000000000000000000000000000",
+      "new_row_hex": "0x800000000000000000000000000000000000"
+    },
+    {
+      "field": "Y33",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x1000000000000000000000000000000000000",
+      "new_row_hex": "0x1000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y34",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x2000000000000000000000000000000000000",
+      "new_row_hex": "0x2000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y35",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x4000000000000000000000000000000000000",
+      "new_row_hex": "0x4000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y36",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x8000000000000000000000000000000000000",
+      "new_row_hex": "0x8000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y37",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x10000000000000000000000000000000000000",
+      "new_row_hex": "0x10000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y38",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x20000000000000000000000000000000000000",
+      "new_row_hex": "0x20000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y39",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x40000000000000000000000000000000000000",
+      "new_row_hex": "0x40000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y40",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x80000000000000000000000000000000000000",
+      "new_row_hex": "0x80000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y41",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x100000000000000000000000000000000000000",
+      "new_row_hex": "0x100000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y42",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x200000000000000000000000000000000000000",
+      "new_row_hex": "0x200000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y43",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x400000000000000000000000000000000000000",
+      "new_row_hex": "0x400000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y44",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x800000000000000000000000000000000000000",
+      "new_row_hex": "0x800000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y45",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x1000000000000000000000000000000000000000",
+      "new_row_hex": "0x1000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y46",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x2000000000000000000000000000000000000000",
+      "new_row_hex": "0x2000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y47",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x4000000000000000000000000000000000000000",
+      "new_row_hex": "0x4000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y48",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x8000000000000000000000000000000000000000",
+      "new_row_hex": "0x8000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y49",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x10000000000000000000000000000000000000000",
+      "new_row_hex": "0x10000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y50",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x20000000000000000000000000000000000000000",
+      "new_row_hex": "0x20000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y51",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x40000000000000000000000000000000000000000",
+      "new_row_hex": "0x40000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y52",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x80000000000000000000000000000000000000000",
+      "new_row_hex": "0x80000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y53",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x100000000000000000000000000000000000000000",
+      "new_row_hex": "0x100000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y54",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x200000000000000000000000000000000000000000",
+      "new_row_hex": "0x200000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y55",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x400000000000000000000000000000000000000000",
+      "new_row_hex": "0x400000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y56",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x800000000000000000000000000000000000000000",
+      "new_row_hex": "0x800000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y57",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x1000000000000000000000000000000000000000000",
+      "new_row_hex": "0x1000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y58",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x2000000000000000000000000000000000000000000",
+      "new_row_hex": "0x2000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y59",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x4000000000000000000000000000000000000000000",
+      "new_row_hex": "0x4000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y60",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x8000000000000000000000000000000000000000000",
+      "new_row_hex": "0x8000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y61",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x10000000000000000000000000000000000000000000",
+      "new_row_hex": "0x10000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y62",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x20000000000000000000000000000000000000000000",
+      "new_row_hex": "0x20000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y63",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x40000000000000000000000000000000000000000000",
+      "new_row_hex": "0x40000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y64",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x80000000000000000000000000000000000000000000",
+      "new_row_hex": "0x80000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y65",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x100000000000000000000000000000000000000000000",
+      "new_row_hex": "0x100000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y66",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x200000000000000000000000000000000000000000000",
+      "new_row_hex": "0x200000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y67",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x400000000000000000000000000000000000000000000",
+      "new_row_hex": "0x400000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y68",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x800000000000000000000000000000000000000000000",
+      "new_row_hex": "0x800000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y69",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x1000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x1000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y70",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x2000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x2000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y71",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x4000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x4000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y72",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x8000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x8000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y73",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x10000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x10000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y74",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x20000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x20000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y75",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x40000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x40000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y76",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x80000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x80000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y77",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x100000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x100000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y78",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x200000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x200000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y79",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x400000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x400000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y80",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x800000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x800000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y81",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x1000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x1000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y82",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x2000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x2000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y83",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x4000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x4000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y84",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x8000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x8000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y85",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x10000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x10000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y86",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x20000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x20000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y87",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x40000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x40000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y88",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x80000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x80000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y89",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x100000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x100000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y90",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x200000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x200000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y91",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x400000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x400000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y92",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x800000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x800000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y93",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x1000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x1000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y94",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x2000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x2000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y95",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x4000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x4000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y96",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x8000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x8000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y97",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x10000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x10000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y98",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x20000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x20000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y99",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x40000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x40000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y100",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x80000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x80000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y101",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x100000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x100000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y102",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x200000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x200000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y103",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x400000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x400000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y104",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x800000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x800000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y105",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x1000000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x1000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y106",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x2000000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x2000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y107",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x4000000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x4000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y108",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x8000000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x8000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y109",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x10000000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x10000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "Y110",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x20000000000000000000000000000000000000000000000000000000",
+      "new_row_hex": "0x20000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "field": "COMMON_RAW2",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x4",
+      "new_row_hex": "0x4"
+    },
+    {
+      "field": "P6_RAW37L",
+      "old_chart": "L37",
+      "new_chart": "L37",
+      "old_row_hex": "0x2000000000",
+      "new_row_hex": "0x2000000000"
+    },
+    {
+      "field": "P6_RAW50L",
+      "old_chart": "L50",
+      "new_chart": "L50",
+      "old_row_hex": "0x4000000000000",
+      "new_row_hex": "0x4000000000000"
+    },
+    {
+      "field": "P6_RAW37A",
+      "old_chart": "P6_A",
+      "new_chart": "P6_A",
+      "old_row_hex": "0x2000000000",
+      "new_row_hex": "0x2000000000"
+    },
+    {
+      "field": "P6_RAW50B",
+      "old_chart": "P6_B",
+      "new_chart": "P6_B",
+      "old_row_hex": "0x4000000000000",
+      "new_row_hex": "0x4000000000000"
+    },
+    {
+      "field": "P6_RET",
+      "old_chart": "P6_K",
+      "new_chart": "P6_K",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "IMPORT_RAW50",
+      "old_chart": "M0",
+      "new_chart": "M0",
+      "old_row_hex": "0x4000000000000",
+      "new_row_hex": "0x4000000000000"
+    },
+    {
+      "field": "GROUND20",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x100000",
+      "new_row_hex": "0x100000"
+    },
+    {
+      "field": "Q1_F74",
+      "old_chart": "F74",
+      "new_chart": "F74",
+      "old_row_hex": "0x2f000c000005000000000000000",
+      "new_row_hex": "0x2f000c000005000000000000000"
+    },
+    {
+      "field": "Q3_F4",
+      "old_chart": "F4",
+      "new_chart": "F4",
+      "old_row_hex": "0x280f000c00008800000000000000",
+      "new_row_hex": "0x280f000c00008800000000000000"
+    },
+    {
+      "field": "Q4_F78",
+      "old_chart": "F78",
+      "new_chart": "F78",
+      "old_row_hex": "0x190000300026000",
+      "new_row_hex": "0x190000300026000"
+    },
+    {
+      "field": "IMPORT_E9",
+      "old_chart": "M1",
+      "new_chart": "M1",
+      "old_row_hex": "0x200",
+      "new_row_hex": "0x200"
+    },
+    {
+      "field": "IMPORT_E36",
+      "old_chart": "M1",
+      "new_chart": "M1",
+      "old_row_hex": "0x1000000000",
+      "new_row_hex": "0x1000000000"
+    },
+    {
+      "field": "RAW40",
+      "old_chart": "L40",
+      "new_chart": "L40",
+      "old_row_hex": "0x10000000000",
+      "new_row_hex": "0x10000000000"
+    },
+    {
+      "field": "RAW49",
+      "old_chart": "L49",
+      "new_chart": "L49",
+      "old_row_hex": "0x2000000000000",
+      "new_row_hex": "0x2000000000000"
+    },
+    {
+      "field": "P4_RET",
+      "old_chart": "P4_K",
+      "new_chart": "P4_K",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "P4_RAW29",
+      "old_chart": "P4_A",
+      "new_chart": "P4_A",
+      "old_row_hex": "0x20000000",
+      "new_row_hex": "0x20000000"
+    },
+    {
+      "field": "P4_RAW42",
+      "old_chart": "P4_B",
+      "new_chart": "P4_B",
+      "old_row_hex": "0x40000000000",
+      "new_row_hex": "0x40000000000"
+    },
+    {
+      "field": "P5_RET",
+      "old_chart": "P5_K",
+      "new_chart": "P5_K",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "P5_RAW45",
+      "old_chart": "P5_A",
+      "new_chart": "P5_A",
+      "old_row_hex": "0x200000000000",
+      "new_row_hex": "0x200000000000"
+    },
+    {
+      "field": "P5_RAW48",
+      "old_chart": "P5_B",
+      "new_chart": "P5_B",
+      "old_row_hex": "0x1000000000000",
+      "new_row_hex": "0x1000000000000"
+    },
+    {
+      "field": "PAIR_RAW43",
+      "old_chart": "J41_PAIR",
+      "new_chart": "J41_PAIR",
+      "old_row_hex": "0x80000000000",
+      "new_row_hex": "0x80000000000"
+    },
+    {
+      "field": "PAIR_RAW46",
+      "old_chart": "J43_PAIR",
+      "new_chart": "J43_PAIR",
+      "old_row_hex": "0x400000000000",
+      "new_row_hex": "0x400000000000"
+    },
+    {
+      "field": "RAW48",
+      "old_chart": "L48",
+      "new_chart": "L48",
+      "old_row_hex": "0x1000000000000",
+      "new_row_hex": "0x1000000000000"
+    },
+    {
+      "field": "RAW43_LOCAL",
+      "old_chart": "L43",
+      "new_chart": "L43",
+      "old_row_hex": "0x80000000000",
+      "new_row_hex": "0x80000000000"
+    },
+    {
+      "field": "RAW29",
+      "old_chart": "L29",
+      "new_chart": "L29",
+      "old_row_hex": "0x20000000",
+      "new_row_hex": "0x20000000"
+    },
+    {
+      "field": "RAW42",
+      "old_chart": "L42",
+      "new_chart": "L42",
+      "old_row_hex": "0x40000000000",
+      "new_row_hex": "0x40000000000"
+    },
+    {
+      "field": "CAP2942",
+      "old_chart": "M1",
+      "new_chart": "M1",
+      "old_row_hex": "0x40020000000",
+      "new_row_hex": "0x40020000000"
+    },
+    {
+      "field": "RAW41",
+      "old_chart": "L41",
+      "new_chart": "L41",
+      "old_row_hex": "0x20000000000",
+      "new_row_hex": "0x20000000000"
+    },
+    {
+      "field": "CAP46",
+      "old_chart": "M1",
+      "new_chart": "M1",
+      "old_row_hex": "0x480000000000",
+      "new_row_hex": "0x480000000000"
+    },
+    {
+      "field": "HRAW19",
+      "old_chart": "L19",
+      "new_chart": "L19",
+      "old_row_hex": "0x80000",
+      "new_row_hex": "0x80000"
+    },
+    {
+      "field": "HRAW27",
+      "old_chart": "L27",
+      "new_chart": "L27",
+      "old_row_hex": "0x8000000",
+      "new_row_hex": "0x8000000"
+    },
+    {
+      "field": "HKEEP_L27",
+      "old_chart": "L27",
+      "new_chart": "L27",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "EXTRA_AFF",
+      "old_chart": "Extra6",
+      "new_chart": "Extra6",
+      "old_row_hex": "0x4002000000000",
+      "new_row_hex": "0x4002000000000"
+    },
+    {
+      "field": "AFF0",
+      "old_chart": "D3_21",
+      "new_chart": "D3_21",
+      "old_row_hex": "0x400",
+      "new_row_hex": "0x400"
+    },
+    {
+      "field": "TRIAD16",
+      "old_chart": "J16",
+      "new_chart": "J16",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "RAW_J30",
+      "old_chart": "J16",
+      "new_chart": "J16",
+      "old_row_hex": "0x40000000",
+      "new_row_hex": "0x40000000"
+    },
+    {
+      "field": "TRIAD23",
+      "old_chart": "J23",
+      "new_chart": "J23",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "RAW_J38",
+      "old_chart": "J23",
+      "new_chart": "J23",
+      "old_row_hex": "0x4000000000",
+      "new_row_hex": "0x4000000000"
+    },
+    {
+      "field": "TRIAD22",
+      "old_chart": "J22",
+      "new_chart": "J22",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "ZRAW0",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x1",
+      "new_row_hex": "0x1"
+    },
+    {
+      "field": "ZFIRST3",
+      "old_chart": "M1",
+      "new_chart": "M1",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "ZKEEP2",
+      "old_chart": "K46_PAIR",
+      "new_chart": "K46_PAIR",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "ZRAW28",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x10000000",
+      "new_row_hex": "0x10000000"
+    },
+    {
+      "field": "ZCORR43",
+      "old_chart": "Jnew43",
+      "new_chart": "Jnew43",
+      "old_row_hex": "0x400000000000",
+      "new_row_hex": "0x400000000000"
+    },
+    {
+      "field": "ZFIRST4",
+      "old_chart": "M1",
+      "new_chart": "M1",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "ZRAW44",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x100000000000",
+      "new_row_hex": "0x100000000000"
+    },
+    {
+      "field": "ZCORR48",
+      "old_chart": "L45",
+      "new_chart": "L45",
+      "old_row_hex": "0x200000000000",
+      "new_row_hex": "0x200000000000"
+    },
+    {
+      "field": "ZFIRST5",
+      "old_chart": "M1",
+      "new_chart": "M1",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "SHARED",
+      "old_chart": "SH2",
+      "new_chart": "SH2",
+      "old_row_hex": "0x8020",
+      "new_row_hex": "0x8020"
+    },
+    {
+      "field": "RAW7",
+      "old_chart": "L7",
+      "new_chart": "L7",
+      "old_row_hex": "0x80",
+      "new_row_hex": "0x80"
+    },
+    {
+      "field": "PRIVATE16",
+      "old_chart": "M0",
+      "new_chart": "M0",
+      "old_row_hex": "0x60000c0000080",
+      "new_row_hex": "0x60000c0000080"
+    },
+    {
+      "field": "KEEP_C0",
+      "old_chart": "C0",
+      "new_chart": "C0",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "KEEP_M16",
+      "old_chart": "L7",
+      "new_chart": "L7",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "RAW11",
+      "old_chart": "L11",
+      "new_chart": "L11",
+      "old_row_hex": "0x800",
+      "new_row_hex": "0x800"
+    },
+    {
+      "field": "PRIVATE23",
+      "old_chart": "J23",
+      "new_chart": "J23",
+      "old_row_hex": "0x440014000000800",
+      "new_row_hex": "0x440014000000800"
+    },
+    {
+      "field": "KEEP_C1",
+      "old_chart": "C0",
+      "new_chart": "C0",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "KEEP_M23",
+      "old_chart": "L11",
+      "new_chart": "L11",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "RAW12",
+      "old_chart": "L12",
+      "new_chart": "L12",
+      "old_row_hex": "0x1000",
+      "new_row_hex": "0x1000"
+    },
+    {
+      "field": "PRIVATE22",
+      "old_chart": "J22",
+      "new_chart": "M0",
+      "old_row_hex": "0x220028000001000",
+      "new_row_hex": "0x220028000001100"
+    },
+    {
+      "field": "KEEP_C2",
+      "old_chart": "C0",
+      "new_chart": "C0",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "KEEP_M22",
+      "old_chart": "L12",
+      "new_chart": "P2_E8_K",
+      "old_row_hex": "0x0",
+      "new_row_hex": "0x0"
+    },
+    {
+      "field": "H0_0",
+      "old_chart": "D3_21",
+      "new_chart": "D3_21",
+      "old_row_hex": "0xc000400",
+      "new_row_hex": "0xc000400"
+    },
+    {
+      "field": "H0_1",
+      "old_chart": "D3_21",
+      "new_chart": "D3_21",
+      "old_row_hex": "0x8040402",
+      "new_row_hex": "0x8040402"
+    },
+    {
+      "field": "H0_2",
+      "old_chart": "D3_21",
+      "new_chart": "D3_21",
+      "old_row_hex": "0x80c040402",
+      "new_row_hex": "0x80c040402"
+    },
+    {
+      "field": "H1_0",
+      "old_chart": "C0",
+      "new_chart": "C0",
+      "old_row_hex": "0x66003c000c01800",
+      "new_row_hex": "0x66003c000c01900"
+    },
+    {
+      "field": "H1_1",
+      "old_chart": "C0",
+      "new_chart": "C0",
+      "old_row_hex": "0x2260280c0411080",
+      "new_row_hex": "0x2260280c0411180"
+    },
+    {
+      "field": "H1_2",
+      "old_chart": "C0",
+      "new_chart": "C0",
+      "old_row_hex": "0x6400c040008020",
+      "new_row_hex": "0x6400c040008120"
+    },
+    {
+      "field": "H2_0",
+      "old_chart": "D76_64",
+      "new_chart": "D76_64",
+      "old_row_hex": "0x201800000000000000000",
+      "new_row_hex": "0x201800000000000000000"
+    },
+    {
+      "field": "H2_1",
+      "old_chart": "D76_64",
+      "new_chart": "D76_64",
+      "old_row_hex": "0x3002000000000000000",
+      "new_row_hex": "0x3002000000000000000"
+    },
+    {
+      "field": "H2_2",
+      "old_chart": "D76_64",
+      "new_chart": "D76_64",
+      "old_row_hex": "0x4000020203802000000000000000",
+      "new_row_hex": "0x4000020203802000000000000000"
+    },
+    {
+      "field": "H3_0",
+      "old_chart": "D80_65",
+      "new_chart": "D80_65",
+      "old_row_hex": "0x3000180000000000000000",
+      "new_row_hex": "0x3000180000000000000000"
+    },
+    {
+      "field": "H3_1",
+      "old_chart": "D80_65",
+      "new_chart": "D80_65",
+      "old_row_hex": "0x2020100000000000000000",
+      "new_row_hex": "0x2020100000000000000000"
+    },
+    {
+      "field": "H3_2",
+      "old_chart": "D80_65",
+      "new_chart": "D80_65",
+      "old_row_hex": "0x400203020180000000000000000",
+      "new_row_hex": "0x400203020180000000000000000"
+    },
+    {
+      "field": "H4_0",
+      "old_chart": "F4",
+      "new_chart": "F4",
+      "old_row_hex": "0x8000000000000",
+      "new_row_hex": "0x8000000000000"
+    },
+    {
+      "field": "H4_1",
+      "old_chart": "F4",
+      "new_chart": "F4",
+      "old_row_hex": "0x1000040",
+      "new_row_hex": "0x1000040"
+    },
+    {
+      "field": "H4_2",
+      "old_chart": "F4",
+      "new_chart": "F4",
+      "old_row_hex": "0x3000000",
+      "new_row_hex": "0x3000000"
+    },
+    {
+      "field": "H4_3",
+      "old_chart": "F4",
+      "new_chart": "F4",
+      "old_row_hex": "0x3000040",
+      "new_row_hex": "0x3000040"
+    },
+    {
+      "field": "H5_0",
+      "old_chart": "C1",
+      "new_chart": "C1",
+      "old_row_hex": "0x2f0000000000000000000000000",
+      "new_row_hex": "0x2f0000000000000000000000000"
+    },
+    {
+      "field": "H5_1",
+      "old_chart": "C1",
+      "new_chart": "C1",
+      "old_row_hex": "0x20004000004000000000000000",
+      "new_row_hex": "0x20004000004000000000000000"
+    },
+    {
+      "field": "H5_2",
+      "old_chart": "C1",
+      "new_chart": "C1",
+      "old_row_hex": "0x280000000005000000000000000",
+      "new_row_hex": "0x280000000005000000000000000"
+    },
+    {
+      "field": "H5_3",
+      "old_chart": "C1",
+      "new_chart": "C1",
+      "old_row_hex": "0x23000c000001000000000000000",
+      "new_row_hex": "0x23000c000001000000000000000"
+    },
+    {
+      "field": "H6_0",
+      "old_chart": "C2",
+      "new_chart": "C2",
+      "old_row_hex": "0x17c0000000000",
+      "new_row_hex": "0x17c0000000000"
+    },
+    {
+      "field": "H6_1",
+      "old_chart": "C2",
+      "new_chart": "C2",
+      "old_row_hex": "0x1540020000001",
+      "new_row_hex": "0x1540020000001"
+    },
+    {
+      "field": "H6_2",
+      "old_chart": "C2",
+      "new_chart": "C2",
+      "old_row_hex": "0x3c0030000000",
+      "new_row_hex": "0x3c0030000000"
+    },
+    {
+      "field": "H6_3",
+      "old_chart": "C2",
+      "new_chart": "C2",
+      "old_row_hex": "0x700000000004",
+      "new_row_hex": "0x700000000004"
+    },
+    {
+      "field": "H7_0",
+      "old_chart": "C3",
+      "new_chart": "C3",
+      "old_row_hex": "0x280f000000000000000000000000",
+      "new_row_hex": "0x280f000000000000000000000000"
+    },
+    {
+      "field": "H7_1",
+      "old_chart": "C3",
+      "new_chart": "C3",
+      "old_row_hex": "0xa000400008000000000000000",
+      "new_row_hex": "0xa000400008000000000000000"
+    },
+    {
+      "field": "H7_2",
+      "old_chart": "C3",
+      "new_chart": "C3",
+      "old_row_hex": "0x2800000000008800000000000000",
+      "new_row_hex": "0x2800000000008800000000000000"
+    },
+    {
+      "field": "H7_3",
+      "old_chart": "C3",
+      "new_chart": "C3",
+      "old_row_hex": "0x2003000c00000800000000000000",
+      "new_row_hex": "0x2003000c00000800000000000000"
+    },
+    {
+      "field": "H8_0",
+      "old_chart": "F74",
+      "new_chart": "F74",
+      "old_row_hex": "0xc0000000000000000000000",
+      "new_row_hex": "0xc0000000000000000000000"
+    },
+    {
+      "field": "H8_1",
+      "old_chart": "F74",
+      "new_chart": "F74",
+      "old_row_hex": "0x8200000000000000000",
+      "new_row_hex": "0x8200000000000000000"
+    },
+    {
+      "field": "H8_2",
+      "old_chart": "F74",
+      "new_chart": "F74",
+      "old_row_hex": "0x600000000000000000",
+      "new_row_hex": "0x600000000000000000"
+    },
+    {
+      "field": "H8_3",
+      "old_chart": "F74",
+      "new_chart": "F74",
+      "old_row_hex": "0x80008600000000000000000",
+      "new_row_hex": "0x80008600000000000000000"
+    },
+    {
+      "field": "H9_0",
+      "old_chart": "C4",
+      "new_chart": "C4",
+      "old_row_hex": "0x190000300000000",
+      "new_row_hex": "0x190000300000000"
+    },
+    {
+      "field": "H9_1",
+      "old_chart": "C4",
+      "new_chart": "C4",
+      "old_row_hex": "0x110000000020000",
+      "new_row_hex": "0x110000000020000"
+    },
+    {
+      "field": "H9_2",
+      "old_chart": "C4",
+      "new_chart": "C4",
+      "old_row_hex": "0x300024000",
+      "new_row_hex": "0x300024000"
+    },
+    {
+      "field": "H9_3",
+      "old_chart": "C4",
+      "new_chart": "C4",
+      "old_row_hex": "0x10000200006000",
+      "new_row_hex": "0x10000200006000"
+    },
+    {
+      "field": "H10_0",
+      "old_chart": "F78",
+      "new_chart": "F78",
+      "old_row_hex": "0xc00000000000000000000000",
+      "new_row_hex": "0xc00000000000000000000000"
+    },
+    {
+      "field": "H10_1",
+      "old_chart": "F78",
+      "new_chart": "F78",
+      "old_row_hex": "0x80000000000000000000",
+      "new_row_hex": "0x80000000000000000000"
+    },
+    {
+      "field": "H10_2",
+      "old_chart": "F78",
+      "new_chart": "F78",
+      "old_row_hex": "0x40000000000000000",
+      "new_row_hex": "0x40000000000000000"
+    },
+    {
+      "field": "H10_3",
+      "old_chart": "F78",
+      "new_chart": "F78",
+      "old_row_hex": "0x800080040000000000000000",
+      "new_row_hex": "0x800080040000000000000000"
+    },
+    {
+      "field": "Hnew0_0",
+      "old_chart": "D3_21",
+      "new_chart": "D3_21",
+      "old_row_hex": "0x800c0c000400",
+      "new_row_hex": "0x800c0c000400"
+    },
+    {
+      "field": "Hnew1_0",
+      "old_chart": "C0",
+      "new_chart": "C0",
+      "old_row_hex": "0x60000c0c01800",
+      "new_row_hex": "0x60000c0c01800"
+    },
+    {
+      "field": "Hnew2_0",
+      "old_chart": "D76_64",
+      "new_chart": "D76_64",
+      "old_row_hex": "0x5000030201800000000000000000",
+      "new_row_hex": "0x5000030201800000000000000000"
+    },
+    {
+      "field": "Hnew3_0",
+      "old_chart": "D80_65",
+      "new_chart": "D80_65",
+      "old_row_hex": "0x500303000180000000000000000",
+      "new_row_hex": "0x500303000180000000000000000"
+    },
+    {
+      "field": "Hnew5_1",
+      "old_chart": "C1",
+      "new_chart": "C1",
+      "old_row_hex": "0x28000c000000000000000000000",
+      "new_row_hex": "0x28000c000000000000000000000"
+    },
+    {
+      "field": "Hnew7_1",
+      "old_chart": "C3",
+      "new_chart": "C3",
+      "old_row_hex": "0x2800000c00000000000000000000",
+      "new_row_hex": "0x2800000c00000000000000000000"
+    },
+    {
+      "field": "Hnew9_1",
+      "old_chart": "C4",
+      "new_chart": "C4",
+      "old_row_hex": "0x300002000",
+      "new_row_hex": "0x300002000"
+    },
+    {
+      "field": "E1",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x2",
+      "new_row_hex": "0x2"
+    },
+    {
+      "field": "E6",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x40",
+      "new_row_hex": "0x40"
+    },
+    {
+      "field": "E73",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x2000000000000000000",
+      "new_row_hex": "0x2000000000000000000"
+    },
+    {
+      "field": "E75",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x8000000000000000000",
+      "new_row_hex": "0x8000000000000000000"
+    },
+    {
+      "field": "E77",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x20000000000000000000",
+      "new_row_hex": "0x20000000000000000000"
+    },
+    {
+      "field": "E79",
+      "old_chart": "zero",
+      "new_chart": "zero",
+      "old_row_hex": "0x80000000000000000000",
+      "new_row_hex": "0x80000000000000000000"
+    },
+    {
+      "field": "Q0",
+      "old_chart": "C0",
+      "new_chart": "C0",
+      "old_row_hex": "0x66603c0c0c198a0",
+      "new_row_hex": "0x66603c0c0c199a0"
+    },
+    {
+      "field": "Q1",
+      "old_chart": "C1",
+      "new_chart": "C1",
+      "old_row_hex": "0x2f000c000005000000000000000",
+      "new_row_hex": "0x2f000c000005000000000000000"
+    },
+    {
+      "field": "Q2",
+      "old_chart": "C2",
+      "new_chart": "C2",
+      "old_row_hex": "0x17c0030000005",
+      "new_row_hex": "0x17c0030000005"
+    },
+    {
+      "field": "Q3",
+      "old_chart": "C3",
+      "new_chart": "C3",
+      "old_row_hex": "0x280f000c00008800000000000000",
+      "new_row_hex": "0x280f000c00008800000000000000"
+    },
+    {
+      "field": "Q4",
+      "old_chart": "C4",
+      "new_chart": "C4",
+      "old_row_hex": "0x190000300026000",
+      "new_row_hex": "0x190000300026000"
+    }
+  ],
+  "signed_movement_increment": {
+    "1": 8,
+    "2": 2,
+    "3": -3,
+    "4": 2,
+    "5": 2,
+    "6": -1,
+    "7": -2
+  },
+  "exact_movement_increment": "8[1]+2[2]-3[3]+2[4]+2[5]-[6]-2[7]",
+  "linear_rank_volume_increment": 1,
+  "price": {
+    "moment": {
+      "lower": "1618.28681370278218058772248821076283",
+      "upper": "1618.2868137027821805877224882107658",
+      "lower_fraction": "161828681370278218058772248821076283/100000000000000000000000000000000",
+      "upper_fraction": "8091434068513910902938612441053829/5000000000000000000000000000000"
+    },
+    "limiting_allowance": {
+      "lower": "1621.750880211152355246246150366993875",
+      "upper": "1621.75088021115235524624615036699603333333333333",
+      "lower_fraction": "12974007041689218841969969202935951/8000000000000000000000000000000",
+      "upper_fraction": "48652526406334570657387384511009881/30000000000000000000000000000000"
+    },
+    "limiting_room": {
+      "lower": "3.464066508370174658523662156228075",
+      "upper": "3.46406650837017465852366215623320333333333333333",
+      "lower_fraction": "138562660334806986340946486249123/40000000000000000000000000000000",
+      "upper_fraction": "1039219952511052397557098646869961/300000000000000000000000000000000"
+    },
+    "increment": {
+      "lower": "1.08911998477517025298152011762527",
+      "upper": "1.08911998477517025298152011762539",
+      "lower_fraction": "108911998477517025298152011762527/100000000000000000000000000000000",
+      "upper_fraction": "108911998477517025298152011762539/100000000000000000000000000000000"
+    }
+  },
+  "negative_controls": [
+    {
+      "removed": [
+        "ADD",
+        "X39",
+        "IMPORT_E8"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "IMPORT_E8",
+        "M0"
+      ],
+      "failure": "(465, ['ADD', 'IMPORT_E8', 'PRIVATE22'], 'colocation')"
+    },
+    {
+      "removed": [
+        "MOVE",
+        "IMPORT_E8",
+        "J22"
+      ],
+      "failure": "(962, ['ADD', 'IMPORT_E8', 'P2'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "IMPORT_E8",
+        "PRIVATE22"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X8",
+        "P1"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P2",
+        "KEEP_M22"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P2_E8_RAW_BL",
+        "Y8"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "KEEP_M22",
+        "Y8"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P2_E8_RAW_CL",
+        "Y12"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P2_E8_RAW_BA",
+        "Y12"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P2_E8_RAW_CB",
+        "Y39"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": "all matching Hub substitution reads",
+      "failure": ""
+    }
+  ],
+  "scope": "Actual partial endpoints with source-wide binary column substitutions, coded existing imports, and physical nested triple decoders. All originals restored; no complete111 supplier or new kappa."
+}

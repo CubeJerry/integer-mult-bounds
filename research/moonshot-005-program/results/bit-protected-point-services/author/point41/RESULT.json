@@ -1,0 +1,348 @@
+{
+  "status": "PASS_ACTUAL_ISOLATED_POINT_SERVICE_REPLACEMENT",
+  "word_sha256": "9053904c95084269c8d2df3f883a8c32dfadff763a2c0338a5ebf7c45d4d6267",
+  "base_word_sha256": "440bf0bb44f65180c066166e21691d15efcd19fb3e3bad7ea76038a4fa6834c8",
+  "points": [
+    10,
+    20
+  ],
+  "before": {
+    "counts": {
+      "INIT": 124,
+      "ADD": 818,
+      "MOVE": 481,
+      "CLEAR": 124
+    },
+    "movement_profile": {
+      "1": 184,
+      "2": 39,
+      "3": 60,
+      "4": 9,
+      "5": 75,
+      "6": 24,
+      "7": 90
+    },
+    "dirty_CLEAR": 124,
+    "peak_owners": 124,
+    "all_222_endpoints": true
+  },
+  "direct_before_reduction": {
+    "counts": {
+      "INIT": 126,
+      "ADD": 820,
+      "MOVE": 481,
+      "CLEAR": 126
+    },
+    "movement_profile": {
+      "1": 184,
+      "2": 39,
+      "3": 60,
+      "4": 9,
+      "5": 75,
+      "6": 22,
+      "7": 92
+    },
+    "dirty_CLEAR": 126,
+    "peak_owners": 126,
+    "all_222_endpoints": true
+  },
+  "before_birth_relocations": {
+    "counts": {
+      "INIT": 122,
+      "ADD": 809,
+      "MOVE": 478,
+      "CLEAR": 122
+    },
+    "movement_profile": {
+      "1": 180,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 74,
+      "6": 22,
+      "7": 93
+    },
+    "dirty_CLEAR": 122,
+    "peak_owners": 122,
+    "all_222_endpoints": true
+  },
+  "after": {
+    "counts": {
+      "INIT": 122,
+      "ADD": 809,
+      "MOVE": 476,
+      "CLEAR": 122
+    },
+    "movement_profile": {
+      "1": 180,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 72,
+      "6": 22,
+      "7": 93
+    },
+    "dirty_CLEAR": 122,
+    "peak_owners": 122,
+    "all_222_endpoints": true
+  },
+  "protected_source_contracts": {
+    "IMPORT_E8": {
+      "value_hex": "0x100",
+      "chart": "M1"
+    },
+    "IMPORT_E9": {
+      "value_hex": "0x200",
+      "chart": "M1"
+    },
+    "IMPORT_E36": {
+      "value_hex": "0x1000000000",
+      "chart": "M1"
+    }
+  },
+  "birth_relocations": [
+    {
+      "owner": "P7",
+      "old_birth": "D3_21",
+      "new_birth": "L27",
+      "empty_moves": [
+        [
+          792,
+          [
+            "MOVE",
+            "P7",
+            "L27"
+          ]
+        ]
+      ],
+      "first_nonmove_use": [
+        793,
+        [
+          "ADD",
+          "HRAW27",
+          "P7"
+        ]
+      ]
+    },
+    {
+      "owner": "P6",
+      "old_birth": "Extra6",
+      "new_birth": "L19",
+      "empty_moves": [
+        [
+          1085,
+          [
+            "MOVE",
+            "P6",
+            "L19"
+          ]
+        ]
+      ],
+      "first_nonmove_use": [
+        1086,
+        [
+          "ADD",
+          "HRAW19",
+          "P6"
+        ]
+      ]
+    }
+  ],
+  "signed_movement_difference": {
+    "1": -4,
+    "2": 1,
+    "5": -3,
+    "6": -2,
+    "7": 3
+  },
+  "reduction_rounds": [
+    {
+      "dead": {
+        "removed_ADD": [
+          {
+            "index": 1096,
+            "operation": [
+              "ADD",
+              "EXTRA_AFF",
+              "P6"
+            ],
+            "reason": "zero_final_sensitivity"
+          },
+          {
+            "index": 799,
+            "operation": [
+              "ADD",
+              "AFF0",
+              "P7"
+            ],
+            "reason": "zero_final_sensitivity"
+          },
+          {
+            "index": 461,
+            "operation": [
+              "ADD",
+              "X20",
+              "EXTRA_AFF"
+            ],
+            "reason": "zero_final_sensitivity"
+          },
+          {
+            "index": 296,
+            "operation": [
+              "ADD",
+              "X10",
+              "AFF0"
+            ],
+            "reason": "zero_final_sensitivity"
+          }
+        ],
+        "removed_owners": [
+          "EXTRA_AFF"
+        ]
+      },
+      "fused_moves": [
+        {
+          "index": 458,
+          "operation": [
+            "MOVE",
+            "X20",
+            "Extra6"
+          ]
+        }
+      ]
+    },
+    {
+      "dead": {
+        "removed_ADD": [
+          {
+            "index": 1152,
+            "operation": [
+              "ADD",
+              "AFF0",
+              "Y21"
+            ],
+            "reason": "zero_source_value"
+          },
+          {
+            "index": 1143,
+            "operation": [
+              "ADD",
+              "AFF0",
+              "Y3"
+            ],
+            "reason": "zero_source_value"
+          },
+          {
+            "index": 1093,
+            "operation": [
+              "ADD",
+              "HKEEP_L19",
+              "P6"
+            ],
+            "reason": "zero_source_value"
+          },
+          {
+            "index": 1092,
+            "operation": [
+              "ADD",
+              "P6",
+              "HKEEP_L19"
+            ],
+            "reason": "zero_final_sensitivity"
+          },
+          {
+            "index": 820,
+            "operation": [
+              "ADD",
+              "AFF0",
+              "P0"
+            ],
+            "reason": "zero_source_value"
+          },
+          {
+            "index": 797,
+            "operation": [
+              "ADD",
+              "HKEEP_L27",
+              "P7"
+            ],
+            "reason": "zero_source_value"
+          },
+          {
+            "index": 796,
+            "operation": [
+              "ADD",
+              "P7",
+              "HKEEP_L27"
+            ],
+            "reason": "zero_final_sensitivity"
+          }
+        ],
+        "removed_owners": [
+          "AFF0",
+          "HKEEP_L19",
+          "HKEEP_L27"
+        ]
+      },
+      "fused_moves": [
+        {
+          "index": 1134,
+          "operation": [
+            "MOVE",
+            "Y3",
+            "D3_21"
+          ]
+        },
+        {
+          "index": 1142,
+          "operation": [
+            "MOVE",
+            "Y21",
+            "D3_21"
+          ]
+        }
+      ]
+    },
+    {
+      "dead": {
+        "removed_ADD": [],
+        "removed_owners": []
+      },
+      "fused_moves": []
+    }
+  ],
+  "semantic_controls": [
+    [
+      "ADD",
+      "X10",
+      "DIRECT_RAW10"
+    ],
+    [
+      "MOVE",
+      "DIRECT_RAW10",
+      "zero"
+    ],
+    [
+      "ADD",
+      "DIRECT_RAW10",
+      "Y10"
+    ],
+    [
+      "ADD",
+      "X20",
+      "DIRECT_RAW20"
+    ],
+    [
+      "MOVE",
+      "DIRECT_RAW20",
+      "zero"
+    ],
+    [
+      "ADD",
+      "DIRECT_RAW20",
+      "Y20"
+    ]
+  ],
+  "scope": "Partial endpoints and explicitly protected source values/charts only; expensive point services replaced by fully paid native raw returns and exact dead-code/birth reduction. Other source/history must be audited anew.",
+  "new_complete_kappa": false
+}

@@ -1,0 +1,165 @@
+{
+  "status": "PASS_ACTUAL_EXTRA37_RETENTION_PRESERVE42",
+  "word_sha256": "d5726e001270e007209507c8eb9f385167a7d304a9f09c194381296b569f293f",
+  "base_word_sha256": "47cb0991e41d06efae453f0e2890af6f619ccc44109b46329749bee658a18d15",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "before": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 124,
+      "ADD": 828,
+      "MOVE": 483,
+      "CLEAR": 124
+    },
+    "movement_profile": {
+      "1": 185,
+      "2": 39,
+      "3": 61,
+      "4": 9,
+      "5": 76,
+      "6": 24,
+      "7": 89
+    },
+    "dirty_CLEAR": 124,
+    "peak_owned": 124,
+    "historical_record_states": 1657
+  },
+  "after": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 125,
+      "ADD": 830,
+      "MOVE": 484,
+      "CLEAR": 125
+    },
+    "movement_profile": {
+      "1": 186,
+      "2": 39,
+      "3": 61,
+      "4": 9,
+      "5": 76,
+      "6": 24,
+      "7": 89
+    },
+    "dirty_CLEAR": 125,
+    "peak_owned": 125,
+    "historical_record_states": 1661
+  },
+  "new_outputs": [
+    37
+  ],
+  "all_three_real_M1_imports_retained": true,
+  "changed_retention_events": [
+    {
+      "step": 2,
+      "field": "GROUND20",
+      "chart": "L20",
+      "value_hex": "0x100000"
+    },
+    {
+      "step": 3,
+      "field": "GROUND20",
+      "chart": "zero",
+      "value_hex": "0x100000"
+    },
+    {
+      "step": 462,
+      "field": "EXTRA_AFF",
+      "chart": "Extra6",
+      "value_hex": "0x2000000000"
+    },
+    {
+      "step": 1099,
+      "field": "HKEEP_L19",
+      "chart": "L19",
+      "value_hex": "0x2000000000"
+    }
+  ],
+  "exact_movement_increment": "[1]",
+  "price": {
+    "moment": {
+      "lower": "1618.11691190364089695624798936899288",
+      "upper": "1618.11691190364089695624798936899586",
+      "lower_fraction": "20226461398795511211953099867112411/12500000000000000000000000000000",
+      "upper_fraction": "80905845595182044847812399468449793/50000000000000000000000000000000"
+    },
+    "limiting_allowance": {
+      "lower": "1621.750880211152355246246150366993875",
+      "upper": "1621.75088021115235524624615036699603333333333333",
+      "lower_fraction": "12974007041689218841969969202935951/8000000000000000000000000000000",
+      "upper_fraction": "48652526406334570657387384511009881/30000000000000000000000000000000"
+    },
+    "limiting_room": {
+      "lower": "3.633968307511458289998160997998015",
+      "upper": "3.63396830751145828999816099800315333333333333333",
+      "lower_fraction": "726793661502291657999632199599603/200000000000000000000000000000000",
+      "upper_fraction": "545095246126718743499724149700473/150000000000000000000000000000000"
+    }
+  },
+  "negative_controls": [
+    {
+      "removed": [
+        "ADD",
+        "X20",
+        "GROUND20"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "GROUND20",
+        "zero"
+      ],
+      "failure": "(1293, ['ADD', 'GROUND20', 'Y20'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "GROUND20",
+        "Y20"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "X37",
+        "Extra6"
+      ],
+      "failure": "(461, ['ADD', 'X37', 'EXTRA_AFF'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "X37",
+        "EXTRA_AFF"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "Y37",
+        "L19"
+      ],
+      "failure": "(1322, ['ADD', 'HKEEP_L19', 'Y37'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "HKEEP_L19",
+        "Y37"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "CLEAR",
+        "GROUND20"
+      ],
+      "failure": ""
+    }
+  ],
+  "scope": "Actual42 outputs including37, all222 formal columns and original restoration; changes one P6 retained source and pays one native raw20 ground copy. Three actual M1 imports remain. No complete111 supplier or new kappa."
+}

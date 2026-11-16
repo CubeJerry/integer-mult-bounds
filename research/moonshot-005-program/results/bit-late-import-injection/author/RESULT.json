@@ -1,0 +1,1112 @@
+{
+  "status": "PASS_LATE_IMPORT_INJECTION_RIGIDITY_HYPOTHESES",
+  "checked_words": [
+    {
+      "word_sha256": "47cb0991e41d06efae453f0e2890af6f619ccc44109b46329749bee658a18d15",
+      "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+      "original_targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        10,
+        11,
+        12,
+        16,
+        19,
+        20,
+        21,
+        22,
+        23,
+        27,
+        28,
+        29,
+        30,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        48,
+        49,
+        64,
+        65,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "all222_base_replay": {
+        "input_columns": 222,
+        "counts": {
+          "INIT": 124,
+          "ADD": 828,
+          "MOVE": 483,
+          "CLEAR": 124
+        },
+        "movement_profile": {
+          "1": 185,
+          "2": 39,
+          "3": 61,
+          "4": 9,
+          "5": 76,
+          "6": 24,
+          "7": 89
+        },
+        "dirty_CLEAR": 124,
+        "peak_owned": 124,
+        "historical_record_states": 1657
+      },
+      "injection_sites": [
+        {
+          "before_step": 987,
+          "principal": "P3",
+          "at": "M1",
+          "next_chart": "K46_PAIR",
+          "pre_injection_row_hex": "0x480000000000",
+          "parameter_bit": 1
+        },
+        {
+          "before_step": 1036,
+          "principal": "P4",
+          "at": "M1",
+          "next_chart": "P4_K",
+          "pre_injection_row_hex": "0x40020000000",
+          "parameter_bit": 2
+        },
+        {
+          "before_step": 1087,
+          "principal": "P5",
+          "at": "M1",
+          "next_chart": "P5_K",
+          "pre_injection_row_hex": "0x1300000000001",
+          "parameter_bit": 4
+        }
+      ],
+      "witnesses": [
+        {
+          "import_coordinate": 8,
+          "old_demand_tuple_in_P3_P4_P5_order": [
+            43,
+            29,
+            45
+          ],
+          "slice_coordinates": [
+            43,
+            29,
+            45,
+            8
+          ],
+          "receiver_checks": [
+            {
+              "receiver": 43,
+              "actual_history_observations_checked": 300,
+              "tag_counts": {
+                "0": 269,
+                "1": 15,
+                "2": 6,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 29,
+              "actual_history_observations_checked": 282,
+              "tag_counts": {
+                "0": 251,
+                "1": 6,
+                "2": 15,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 45,
+              "actual_history_observations_checked": 312,
+              "tag_counts": {
+                "0": 273,
+                "1": 6,
+                "2": 14,
+                "4": 19
+              }
+            },
+            {
+              "receiver": 8,
+              "actual_history_observations_checked": 305,
+              "tag_counts": {
+                "0": 273,
+                "1": 10,
+                "2": 8,
+                "4": 14
+              }
+            }
+          ],
+          "fixed_untagged_observations_all_zero": true,
+          "every_tagged_observation_is_exact_channel_combination": true,
+          "all_three_common_channels_present": true,
+          "new_common_raw_import_or_threatened_old_demand_breaks_hypothesis": true
+        },
+        {
+          "import_coordinate": 9,
+          "old_demand_tuple_in_P3_P4_P5_order": [
+            41,
+            42,
+            48
+          ],
+          "slice_coordinates": [
+            41,
+            42,
+            48,
+            9
+          ],
+          "receiver_checks": [
+            {
+              "receiver": 41,
+              "actual_history_observations_checked": 307,
+              "tag_counts": {
+                "0": 280,
+                "1": 11,
+                "2": 6,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 42,
+              "actual_history_observations_checked": 312,
+              "tag_counts": {
+                "0": 282,
+                "1": 6,
+                "2": 14,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 48,
+              "actual_history_observations_checked": 314,
+              "tag_counts": {
+                "0": 284,
+                "1": 6,
+                "2": 6,
+                "4": 18
+              }
+            },
+            {
+              "receiver": 9,
+              "actual_history_observations_checked": 331,
+              "tag_counts": {
+                "0": 295,
+                "1": 6,
+                "2": 13,
+                "4": 17
+              }
+            }
+          ],
+          "fixed_untagged_observations_all_zero": true,
+          "every_tagged_observation_is_exact_channel_combination": true,
+          "all_three_common_channels_present": true,
+          "new_common_raw_import_or_threatened_old_demand_breaks_hypothesis": true
+        },
+        {
+          "import_coordinate": 36,
+          "old_demand_tuple_in_P3_P4_P5_order": [
+            43,
+            29,
+            48
+          ],
+          "slice_coordinates": [
+            43,
+            29,
+            48,
+            36
+          ],
+          "receiver_checks": [
+            {
+              "receiver": 43,
+              "actual_history_observations_checked": 300,
+              "tag_counts": {
+                "0": 269,
+                "1": 15,
+                "2": 6,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 29,
+              "actual_history_observations_checked": 282,
+              "tag_counts": {
+                "0": 251,
+                "1": 6,
+                "2": 15,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 48,
+              "actual_history_observations_checked": 314,
+              "tag_counts": {
+                "0": 284,
+                "1": 6,
+                "2": 6,
+                "4": 18
+              }
+            },
+            {
+              "receiver": 36,
+              "actual_history_observations_checked": 309,
+              "tag_counts": {
+                "0": 272,
+                "1": 10,
+                "2": 10,
+                "4": 17
+              }
+            }
+          ],
+          "fixed_untagged_observations_all_zero": true,
+          "every_tagged_observation_is_exact_channel_combination": true,
+          "all_three_common_channels_present": true,
+          "new_common_raw_import_or_threatened_old_demand_breaks_hypothesis": true
+        }
+      ]
+    },
+    {
+      "word_sha256": "d5726e001270e007209507c8eb9f385167a7d304a9f09c194381296b569f293f",
+      "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+      "original_targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        10,
+        11,
+        12,
+        16,
+        19,
+        20,
+        21,
+        22,
+        23,
+        27,
+        28,
+        29,
+        30,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        48,
+        49,
+        64,
+        65,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "all222_base_replay": {
+        "input_columns": 222,
+        "counts": {
+          "INIT": 125,
+          "ADD": 830,
+          "MOVE": 484,
+          "CLEAR": 125
+        },
+        "movement_profile": {
+          "1": 186,
+          "2": 39,
+          "3": 61,
+          "4": 9,
+          "5": 76,
+          "6": 24,
+          "7": 89
+        },
+        "dirty_CLEAR": 125,
+        "peak_owned": 125,
+        "historical_record_states": 1661
+      },
+      "injection_sites": [
+        {
+          "before_step": 990,
+          "principal": "P3",
+          "at": "M1",
+          "next_chart": "K46_PAIR",
+          "pre_injection_row_hex": "0x480000000000",
+          "parameter_bit": 1
+        },
+        {
+          "before_step": 1039,
+          "principal": "P4",
+          "at": "M1",
+          "next_chart": "P4_K",
+          "pre_injection_row_hex": "0x40020000000",
+          "parameter_bit": 2
+        },
+        {
+          "before_step": 1090,
+          "principal": "P5",
+          "at": "M1",
+          "next_chart": "P5_K",
+          "pre_injection_row_hex": "0x1300000000001",
+          "parameter_bit": 4
+        }
+      ],
+      "witnesses": [
+        {
+          "import_coordinate": 8,
+          "old_demand_tuple_in_P3_P4_P5_order": [
+            43,
+            29,
+            45
+          ],
+          "slice_coordinates": [
+            43,
+            29,
+            45,
+            8
+          ],
+          "receiver_checks": [
+            {
+              "receiver": 43,
+              "actual_history_observations_checked": 302,
+              "tag_counts": {
+                "0": 271,
+                "1": 15,
+                "2": 6,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 29,
+              "actual_history_observations_checked": 286,
+              "tag_counts": {
+                "0": 255,
+                "1": 6,
+                "2": 15,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 45,
+              "actual_history_observations_checked": 314,
+              "tag_counts": {
+                "0": 275,
+                "1": 6,
+                "2": 14,
+                "4": 19
+              }
+            },
+            {
+              "receiver": 8,
+              "actual_history_observations_checked": 307,
+              "tag_counts": {
+                "0": 275,
+                "1": 10,
+                "2": 8,
+                "4": 14
+              }
+            }
+          ],
+          "fixed_untagged_observations_all_zero": true,
+          "every_tagged_observation_is_exact_channel_combination": true,
+          "all_three_common_channels_present": true,
+          "new_common_raw_import_or_threatened_old_demand_breaks_hypothesis": true
+        },
+        {
+          "import_coordinate": 9,
+          "old_demand_tuple_in_P3_P4_P5_order": [
+            41,
+            42,
+            48
+          ],
+          "slice_coordinates": [
+            41,
+            42,
+            48,
+            9
+          ],
+          "receiver_checks": [
+            {
+              "receiver": 41,
+              "actual_history_observations_checked": 311,
+              "tag_counts": {
+                "0": 284,
+                "1": 11,
+                "2": 6,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 42,
+              "actual_history_observations_checked": 314,
+              "tag_counts": {
+                "0": 284,
+                "1": 6,
+                "2": 14,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 48,
+              "actual_history_observations_checked": 318,
+              "tag_counts": {
+                "0": 288,
+                "1": 6,
+                "2": 6,
+                "4": 18
+              }
+            },
+            {
+              "receiver": 9,
+              "actual_history_observations_checked": 333,
+              "tag_counts": {
+                "0": 297,
+                "1": 6,
+                "2": 13,
+                "4": 17
+              }
+            }
+          ],
+          "fixed_untagged_observations_all_zero": true,
+          "every_tagged_observation_is_exact_channel_combination": true,
+          "all_three_common_channels_present": true,
+          "new_common_raw_import_or_threatened_old_demand_breaks_hypothesis": true
+        },
+        {
+          "import_coordinate": 36,
+          "old_demand_tuple_in_P3_P4_P5_order": [
+            43,
+            29,
+            48
+          ],
+          "slice_coordinates": [
+            43,
+            29,
+            48,
+            36
+          ],
+          "receiver_checks": [
+            {
+              "receiver": 43,
+              "actual_history_observations_checked": 302,
+              "tag_counts": {
+                "0": 271,
+                "1": 15,
+                "2": 6,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 29,
+              "actual_history_observations_checked": 286,
+              "tag_counts": {
+                "0": 255,
+                "1": 6,
+                "2": 15,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 48,
+              "actual_history_observations_checked": 318,
+              "tag_counts": {
+                "0": 288,
+                "1": 6,
+                "2": 6,
+                "4": 18
+              }
+            },
+            {
+              "receiver": 36,
+              "actual_history_observations_checked": 311,
+              "tag_counts": {
+                "0": 274,
+                "1": 10,
+                "2": 10,
+                "4": 17
+              }
+            }
+          ],
+          "fixed_untagged_observations_all_zero": true,
+          "every_tagged_observation_is_exact_channel_combination": true,
+          "all_three_common_channels_present": true,
+          "new_common_raw_import_or_threatened_old_demand_breaks_hypothesis": true
+        }
+      ]
+    },
+    {
+      "word_sha256": "440bf0bb44f65180c066166e21691d15efcd19fb3e3bad7ea76038a4fa6834c8",
+      "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+      "original_targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        10,
+        11,
+        12,
+        16,
+        19,
+        20,
+        21,
+        22,
+        23,
+        27,
+        28,
+        29,
+        30,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        48,
+        49,
+        64,
+        65,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "all222_base_replay": {
+        "input_columns": 222,
+        "counts": {
+          "INIT": 124,
+          "ADD": 818,
+          "MOVE": 481,
+          "CLEAR": 124
+        },
+        "movement_profile": {
+          "1": 184,
+          "2": 39,
+          "3": 60,
+          "4": 9,
+          "5": 75,
+          "6": 24,
+          "7": 90
+        },
+        "dirty_CLEAR": 124,
+        "peak_owned": 124,
+        "historical_record_states": 1645
+      },
+      "injection_sites": [
+        {
+          "before_step": 984,
+          "principal": "P3",
+          "at": "M1",
+          "next_chart": "K46_PAIR",
+          "pre_injection_row_hex": "0x480000000000",
+          "parameter_bit": 1
+        },
+        {
+          "before_step": 1033,
+          "principal": "P4",
+          "at": "M1",
+          "next_chart": "P4_K",
+          "pre_injection_row_hex": "0x40020000000",
+          "parameter_bit": 2
+        },
+        {
+          "before_step": 1084,
+          "principal": "P5",
+          "at": "M1",
+          "next_chart": "P5_K",
+          "pre_injection_row_hex": "0x1300000000001",
+          "parameter_bit": 4
+        }
+      ],
+      "witnesses": [
+        {
+          "import_coordinate": 8,
+          "old_demand_tuple_in_P3_P4_P5_order": [
+            43,
+            29,
+            45
+          ],
+          "slice_coordinates": [
+            43,
+            29,
+            45,
+            8
+          ],
+          "receiver_checks": [
+            {
+              "receiver": 43,
+              "actual_history_observations_checked": 296,
+              "tag_counts": {
+                "0": 265,
+                "1": 15,
+                "2": 6,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 29,
+              "actual_history_observations_checked": 280,
+              "tag_counts": {
+                "0": 249,
+                "1": 6,
+                "2": 15,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 45,
+              "actual_history_observations_checked": 308,
+              "tag_counts": {
+                "0": 269,
+                "1": 6,
+                "2": 14,
+                "4": 19
+              }
+            },
+            {
+              "receiver": 8,
+              "actual_history_observations_checked": 301,
+              "tag_counts": {
+                "0": 269,
+                "1": 10,
+                "2": 8,
+                "4": 14
+              }
+            }
+          ],
+          "fixed_untagged_observations_all_zero": true,
+          "every_tagged_observation_is_exact_channel_combination": true,
+          "all_three_common_channels_present": true,
+          "new_common_raw_import_or_threatened_old_demand_breaks_hypothesis": true
+        },
+        {
+          "import_coordinate": 9,
+          "old_demand_tuple_in_P3_P4_P5_order": [
+            41,
+            42,
+            48
+          ],
+          "slice_coordinates": [
+            41,
+            42,
+            48,
+            9
+          ],
+          "receiver_checks": [
+            {
+              "receiver": 41,
+              "actual_history_observations_checked": 303,
+              "tag_counts": {
+                "0": 276,
+                "1": 11,
+                "2": 6,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 42,
+              "actual_history_observations_checked": 306,
+              "tag_counts": {
+                "0": 276,
+                "1": 6,
+                "2": 14,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 48,
+              "actual_history_observations_checked": 310,
+              "tag_counts": {
+                "0": 280,
+                "1": 6,
+                "2": 6,
+                "4": 18
+              }
+            },
+            {
+              "receiver": 9,
+              "actual_history_observations_checked": 322,
+              "tag_counts": {
+                "0": 286,
+                "1": 6,
+                "2": 13,
+                "4": 17
+              }
+            }
+          ],
+          "fixed_untagged_observations_all_zero": true,
+          "every_tagged_observation_is_exact_channel_combination": true,
+          "all_three_common_channels_present": true,
+          "new_common_raw_import_or_threatened_old_demand_breaks_hypothesis": true
+        },
+        {
+          "import_coordinate": 36,
+          "old_demand_tuple_in_P3_P4_P5_order": [
+            43,
+            29,
+            48
+          ],
+          "slice_coordinates": [
+            43,
+            29,
+            48,
+            36
+          ],
+          "receiver_checks": [
+            {
+              "receiver": 43,
+              "actual_history_observations_checked": 296,
+              "tag_counts": {
+                "0": 265,
+                "1": 15,
+                "2": 6,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 29,
+              "actual_history_observations_checked": 280,
+              "tag_counts": {
+                "0": 249,
+                "1": 6,
+                "2": 15,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 48,
+              "actual_history_observations_checked": 310,
+              "tag_counts": {
+                "0": 280,
+                "1": 6,
+                "2": 6,
+                "4": 18
+              }
+            },
+            {
+              "receiver": 36,
+              "actual_history_observations_checked": 307,
+              "tag_counts": {
+                "0": 270,
+                "1": 10,
+                "2": 10,
+                "4": 17
+              }
+            }
+          ],
+          "fixed_untagged_observations_all_zero": true,
+          "every_tagged_observation_is_exact_channel_combination": true,
+          "all_three_common_channels_present": true,
+          "new_common_raw_import_or_threatened_old_demand_breaks_hypothesis": true
+        }
+      ]
+    },
+    {
+      "word_sha256": "9053904c95084269c8d2df3f883a8c32dfadff763a2c0338a5ebf7c45d4d6267",
+      "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+      "original_targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        10,
+        11,
+        12,
+        16,
+        19,
+        20,
+        21,
+        22,
+        23,
+        27,
+        28,
+        29,
+        30,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        48,
+        49,
+        64,
+        65,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "all222_base_replay": {
+        "input_columns": 222,
+        "counts": {
+          "INIT": 122,
+          "ADD": 809,
+          "MOVE": 476,
+          "CLEAR": 122
+        },
+        "movement_profile": {
+          "1": 180,
+          "2": 40,
+          "3": 60,
+          "4": 9,
+          "5": 72,
+          "6": 22,
+          "7": 93
+        },
+        "dirty_CLEAR": 122,
+        "peak_owned": 122,
+        "historical_record_states": 1629
+      },
+      "injection_sites": [
+        {
+          "before_step": 978,
+          "principal": "P3",
+          "at": "M1",
+          "next_chart": "K46_PAIR",
+          "pre_injection_row_hex": "0x480000000000",
+          "parameter_bit": 1
+        },
+        {
+          "before_step": 1027,
+          "principal": "P4",
+          "at": "M1",
+          "next_chart": "P4_K",
+          "pre_injection_row_hex": "0x40020000000",
+          "parameter_bit": 2
+        },
+        {
+          "before_step": 1078,
+          "principal": "P5",
+          "at": "M1",
+          "next_chart": "P5_K",
+          "pre_injection_row_hex": "0x1300000000001",
+          "parameter_bit": 4
+        }
+      ],
+      "witnesses": [
+        {
+          "import_coordinate": 8,
+          "old_demand_tuple_in_P3_P4_P5_order": [
+            43,
+            29,
+            45
+          ],
+          "slice_coordinates": [
+            43,
+            29,
+            45,
+            8
+          ],
+          "receiver_checks": [
+            {
+              "receiver": 43,
+              "actual_history_observations_checked": 302,
+              "tag_counts": {
+                "0": 271,
+                "1": 15,
+                "2": 6,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 29,
+              "actual_history_observations_checked": 288,
+              "tag_counts": {
+                "0": 257,
+                "1": 6,
+                "2": 15,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 45,
+              "actual_history_observations_checked": 314,
+              "tag_counts": {
+                "0": 275,
+                "1": 6,
+                "2": 14,
+                "4": 19
+              }
+            },
+            {
+              "receiver": 8,
+              "actual_history_observations_checked": 302,
+              "tag_counts": {
+                "0": 270,
+                "1": 10,
+                "2": 8,
+                "4": 14
+              }
+            }
+          ],
+          "fixed_untagged_observations_all_zero": true,
+          "every_tagged_observation_is_exact_channel_combination": true,
+          "all_three_common_channels_present": true,
+          "new_common_raw_import_or_threatened_old_demand_breaks_hypothesis": true
+        },
+        {
+          "import_coordinate": 9,
+          "old_demand_tuple_in_P3_P4_P5_order": [
+            41,
+            42,
+            48
+          ],
+          "slice_coordinates": [
+            41,
+            42,
+            48,
+            9
+          ],
+          "receiver_checks": [
+            {
+              "receiver": 41,
+              "actual_history_observations_checked": 304,
+              "tag_counts": {
+                "0": 277,
+                "1": 11,
+                "2": 6,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 42,
+              "actual_history_observations_checked": 305,
+              "tag_counts": {
+                "0": 275,
+                "1": 6,
+                "2": 14,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 48,
+              "actual_history_observations_checked": 311,
+              "tag_counts": {
+                "0": 281,
+                "1": 6,
+                "2": 6,
+                "4": 18
+              }
+            },
+            {
+              "receiver": 9,
+              "actual_history_observations_checked": 316,
+              "tag_counts": {
+                "0": 280,
+                "1": 6,
+                "2": 13,
+                "4": 17
+              }
+            }
+          ],
+          "fixed_untagged_observations_all_zero": true,
+          "every_tagged_observation_is_exact_channel_combination": true,
+          "all_three_common_channels_present": true,
+          "new_common_raw_import_or_threatened_old_demand_breaks_hypothesis": true
+        },
+        {
+          "import_coordinate": 36,
+          "old_demand_tuple_in_P3_P4_P5_order": [
+            43,
+            29,
+            48
+          ],
+          "slice_coordinates": [
+            43,
+            29,
+            48,
+            36
+          ],
+          "receiver_checks": [
+            {
+              "receiver": 43,
+              "actual_history_observations_checked": 302,
+              "tag_counts": {
+                "0": 271,
+                "1": 15,
+                "2": 6,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 29,
+              "actual_history_observations_checked": 288,
+              "tag_counts": {
+                "0": 257,
+                "1": 6,
+                "2": 15,
+                "4": 10
+              }
+            },
+            {
+              "receiver": 48,
+              "actual_history_observations_checked": 311,
+              "tag_counts": {
+                "0": 281,
+                "1": 6,
+                "2": 6,
+                "4": 18
+              }
+            },
+            {
+              "receiver": 36,
+              "actual_history_observations_checked": 308,
+              "tag_counts": {
+                "0": 271,
+                "1": 10,
+                "2": 10,
+                "4": 17
+              }
+            }
+          ],
+          "fixed_untagged_observations_all_zero": true,
+          "every_tagged_observation_is_exact_channel_combination": true,
+          "all_three_common_channels_present": true,
+          "new_common_raw_import_or_threatened_old_demand_breaks_hypothesis": true
+        }
+      ]
+    }
+  ],
+  "conclusion": "Preserving all old targets forces source-only payload additions to be constant in imports8,9,36. Homogeneous linear and zero-preserving additive payloads must vanish.",
+  "scope": "Fixed source/record routes and induced histories, arbitrary local decoding, causal native decoded-point feedback. Source-wide substitutions, new lower deliveries, and unconditionally granting threatened old demands are excluded. No movement lower bound."
+}

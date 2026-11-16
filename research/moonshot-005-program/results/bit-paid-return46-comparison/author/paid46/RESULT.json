@@ -1,0 +1,208 @@
+{
+  "status": "PASS_ACTUAL_FIVE_PAID_RETURNS_PROTECTED46",
+  "word_sha256": "a0f0e1b5aa027d9f8faea8a529f47b5757f438f8609e1819af5e2a0f4da3b8fc",
+  "base_word_sha256": "9053904c95084269c8d2df3f883a8c32dfadff763a2c0338a5ebf7c45d4d6267",
+  "before": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 122,
+      "ADD": 809,
+      "MOVE": 476,
+      "CLEAR": 122
+    },
+    "movement_profile": {
+      "1": 180,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 72,
+      "6": 22,
+      "7": 93
+    },
+    "dirty_CLEAR": 122,
+    "peak_owned": 122,
+    "historical_record_states": 1629
+  },
+  "after": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 127,
+      "ADD": 819,
+      "MOVE": 481,
+      "CLEAR": 127
+    },
+    "movement_profile": {
+      "1": 185,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 72,
+      "6": 22,
+      "7": 93
+    },
+    "dirty_CLEAR": 127,
+    "peak_owned": 127,
+    "historical_record_states": 1649
+  },
+  "added_outputs": [
+    8,
+    9,
+    36,
+    37,
+    50
+  ],
+  "protected_source_contracts": {
+    "IMPORT_E8": {
+      "value_hex": "0x100",
+      "chart": "M1"
+    },
+    "IMPORT_E9": {
+      "value_hex": "0x200",
+      "chart": "M1"
+    },
+    "IMPORT_E36": {
+      "value_hex": "0x1000000000",
+      "chart": "M1"
+    }
+  },
+  "signed_movement_increment": {
+    "1": 5
+  },
+  "price": {
+    "moment": {
+      "lower": "1612.12264342029802796904832987236948",
+      "upper": "1612.12264342029802796904832987237244",
+      "lower_fraction": "40303066085507450699226208246809237/25000000000000000000000000000000",
+      "upper_fraction": "40303066085507450699226208246809311/25000000000000000000000000000000"
+    },
+    "limiting_room": {
+      "lower": "9.628236790854327277197820494621435",
+      "upper": "9.62823679085432727719782049462655333333333333333",
+      "lower_fraction": "1925647358170865455439564098924287/200000000000000000000000000000000",
+      "upper_fraction": "1444235518628149091579673074193983/150000000000000000000000000000000"
+    }
+  },
+  "negative_controls": [
+    {
+      "removed": [
+        "ADD",
+        "X8",
+        "ADDED_RAW8"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "ADDED_RAW8",
+        "zero"
+      ],
+      "failure": "(1262, ['ADD', 'ADDED_RAW8', 'Y8'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "ADDED_RAW8",
+        "Y8"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X9",
+        "ADDED_RAW9"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "ADDED_RAW9",
+        "zero"
+      ],
+      "failure": "(1264, ['ADD', 'ADDED_RAW9', 'Y9'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "ADDED_RAW9",
+        "Y9"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X36",
+        "ADDED_RAW36"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "ADDED_RAW36",
+        "zero"
+      ],
+      "failure": "(1307, ['ADD', 'ADDED_RAW36', 'Y36'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "ADDED_RAW36",
+        "Y36"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X37",
+        "ADDED_RAW37"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "ADDED_RAW37",
+        "zero"
+      ],
+      "failure": "(1309, ['ADD', 'ADDED_RAW37', 'Y37'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "ADDED_RAW37",
+        "Y37"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X50",
+        "ADDED_RAW50"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "ADDED_RAW50",
+        "zero"
+      ],
+      "failure": "(1375, ['ADD', 'ADDED_RAW50', 'Y50'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "ADDED_RAW50",
+        "Y50"
+      ],
+      "failure": ""
+    }
+  ],
+  "scope": "Actual46 endpoint comparator with five paid native raw returns, retaining root protected41 source contracts. No new all111 supplier or kappa."
+}

@@ -1,0 +1,218 @@
+{
+  "status": "PASS_ACTUAL_EXTRA6_TRIPLE43_WITH_RETIMED_SOURCE50",
+  "word_sha256": "3483fb4abac2f71bf266df368c97fcf5a624fee89ef82b55ca8238e56e74b1b8",
+  "base_word_sha256": "d5726e001270e007209507c8eb9f385167a7d304a9f09c194381296b569f293f",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "before": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 125,
+      "ADD": 830,
+      "MOVE": 484,
+      "CLEAR": 125
+    },
+    "movement_profile": {
+      "1": 186,
+      "2": 39,
+      "3": 61,
+      "4": 9,
+      "5": 76,
+      "6": 24,
+      "7": 89
+    },
+    "dirty_CLEAR": 125,
+    "peak_owned": 125,
+    "historical_record_states": 1661
+  },
+  "after": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 130,
+      "ADD": 844,
+      "MOVE": 492,
+      "CLEAR": 130
+    },
+    "movement_profile": {
+      "1": 194,
+      "2": 40,
+      "3": 59,
+      "4": 12,
+      "5": 77,
+      "6": 23,
+      "7": 87
+    },
+    "dirty_CLEAR": 130,
+    "peak_owned": 130,
+    "historical_record_states": 1688
+  },
+  "new_outputs_over42": [
+    50
+  ],
+  "actual_common_triple": [
+    19,
+    37,
+    50
+  ],
+  "source50_import_actual_value_hex": "0x4000000000000",
+  "old_PRIVATE16_and_four_M0_cache_values_preserved": true,
+  "all_three_actual_M1_E_imports_preserved": true,
+  "exact_movement_increment": "8[1]+[2]-2[3]+3[4]+[5]-[6]-2[7]",
+  "signed_movement_increment": {
+    "1": 8,
+    "2": 1,
+    "3": -2,
+    "4": 3,
+    "5": 1,
+    "6": -1,
+    "7": -2
+  },
+  "linear_rank_volume_increment": 1,
+  "price": {
+    "moment": {
+      "lower": "1619.20896182605571357585390598070092",
+      "upper": "1619.2089618260557135758539059807039",
+      "lower_fraction": "40480224045651392839396347649517523/25000000000000000000000000000000",
+      "upper_fraction": "16192089618260557135758539059807039/10000000000000000000000000000000"
+    },
+    "limiting_allowance": {
+      "lower": "1621.750880211152355246246150366993875",
+      "upper": "1621.75088021115235524624615036699603333333333333",
+      "lower_fraction": "12974007041689218841969969202935951/8000000000000000000000000000000",
+      "upper_fraction": "48652526406334570657387384511009881/30000000000000000000000000000000"
+    },
+    "limiting_room": {
+      "lower": "2.541918385096641670392244386289975",
+      "upper": "2.54191838509664167039224438629511333333333333333",
+      "lower_fraction": "101676735403865666815689775451599/40000000000000000000000000000000",
+      "upper_fraction": "381287757764496250558836657944267/150000000000000000000000000000000"
+    },
+    "increment": {
+      "lower": "1.09204992241481661960591661170799",
+      "upper": "1.09204992241481661960591661170809",
+      "lower_fraction": "109204992241481661960591661170799/100000000000000000000000000000000",
+      "upper_fraction": "109204992241481661960591661170809/100000000000000000000000000000000"
+    }
+  },
+  "negative_controls": [
+    {
+      "removed": [
+        "MOVE",
+        "IMPORT_RAW50",
+        "M0"
+      ],
+      "failure": "(264, ['ADD', 'IMPORT_RAW50', 'PRIVATE16'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "IMPORT_RAW50",
+        "PRIVATE16"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "IMPORT_RAW50",
+        "H1_1"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X50",
+        "EXTRA_AFF"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X37",
+        "P6_RAW37A"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "X50",
+        "P6_RAW50B"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P6",
+        "P6_RET"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "MOVE",
+        "Y19",
+        "L50"
+      ],
+      "failure": "(1306, ['ADD', 'P6_RAW50L', 'Y19'], 'colocation')"
+    },
+    {
+      "removed": [
+        "ADD",
+        "P6_RAW37A",
+        "Y19"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "HRAW19",
+        "Y37"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P6_RAW50B",
+        "Y37"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P6_RAW37L",
+        "Y50"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "ADD",
+        "P6_RET",
+        "Y50"
+      ],
+      "failure": ""
+    },
+    {
+      "removed": [
+        "CLEAR",
+        "IMPORT_RAW50"
+      ],
+      "failure": ""
+    },
+    {
+      "inserted": [
+        "MOVE",
+        "X50",
+        "J16"
+      ],
+      "failure": "(260, ['MOVE', 'X50', 'P6_B'], 'direction')"
+    }
+  ],
+  "scope": "Actual43 outputs with new37 and50 over the cyclic41 source; complete222-column replay and original restoration. Real raw50 source rerouting/import plus nested Extra6 triple. No complete111 supplier, ordinary recursive theorem, or new kappa."
+}
