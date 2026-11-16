@@ -1,0 +1,34 @@
+{
+  "status": "PASS_INDEPENDENT_BANK_CUT_AND_NONLINEAR_CAPACITY_PREREQUISITES",
+  "certificate_sha256": "9032709325131c05a50a0474d0213c2ad96f7fb39c124beddba9a9c6ebf7a118",
+  "envelope_sha256": "5bd89e3a32a0649fd3b3c1adf68ebd857100aa653aa2ee4cb1273cfd3f1fc5f0",
+  "cases": [
+    {
+      "side_rank": 80,
+      "canonical_gap": 4,
+      "bank_cut_dimensions": [
+        3,
+        3,
+        3,
+        4
+      ],
+      "minimum_messages": 13,
+      "all111_decoders_checked": true
+    },
+    {
+      "side_rank": 88,
+      "canonical_gap": 3,
+      "bank_cut_dimensions": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "minimum_messages": 9,
+      "all111_decoders_checked": true
+    }
+  ],
+  "independent_cut_dual_checks": 22,
+  "single_message_deletion_controls": 22,
+  "scope": "Independent algebra/certificate review on separately source-authenticated rows. Written finite-field counting proof extends fixed-side-information bank-separated lower bound to nonlinear encoders. No new feedback, routes, or kappa."
+}

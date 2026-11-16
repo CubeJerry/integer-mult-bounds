@@ -1,0 +1,341 @@
+{
+  "status": "PASS_CP9_REPRODUCTION",
+  "commands": [
+    {
+      "name": "buildprivate",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-chart-source/higher-chart-affine/build.py",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-three-cell-retention/author/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/private"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "buildexpanded",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-chart-source/higher-chart-expanded/build.py",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-three-cell-retention/author/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/expanded"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "build32",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-two/build.py",
+        "--base",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/expanded/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/32"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "build34",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/build.py",
+        "--base",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/32/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/34"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "authorprivate",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-chart-source/higher-chart-affine/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-three-cell-retention/author/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/private"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "independentprivate",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-chart-source/independent-private/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-three-cell-retention/author/output/WORD.json",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/private/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/independent-private"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "independentexpanded",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-chart-source/independent-expanded/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-three-cell-retention/author/output/WORD.json",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/expanded/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/independent-expanded"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "authorexpanded",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-chart-source/higher-chart-expanded/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-three-cell-retention/author/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/expanded"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "author32",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-two/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/expanded/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/32"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "author34",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/32/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/34"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "private-bank-author",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-private-bank-reduction/author/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-seven/output/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/bank-author"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "private-bank-independent",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-private-bank-reduction/independent-b/check_independent.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base-word",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-seven/output/WORD.json",
+        "--author-result",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-private-bank-reduction/author/output/RESULT.json",
+        "--thirty-word",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-three-cell-retention/author/output/WORD.json",
+        "--affine-word",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/private/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/bank-independent"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "independent32",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/independent-c/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/expanded/WORD.json",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/32/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/independent-32"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "independent34",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/independent-c/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--base",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/expanded/WORD.json",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/34/WORD.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/independent-34"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "priceprivate",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-chart-source/higher-chart-affine/price.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/private"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "priceexpanded",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-chart-source/higher-chart-expanded/price.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/expanded"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "price32",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-two/price.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/32"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "price34",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/price.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/34"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "root32",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/root-review/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/32/WORD.json",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review",
+        "--certificate",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-two/output/RESULT.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/root32.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "root34",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/root-review/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/34/WORD.json",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review",
+        "--certificate",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-higher-source-delivery/thirty-four/output/RESULT.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/root34.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "compression-author",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-bank-compression/author/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-seven/output/WORD.json",
+        "--envelope-result",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-private-bank-reduction/author/output/RESULT.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/compression-author"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "compression-root",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-bank-compression/root-review/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-six-channel-retention/twenty-seven/output/WORD.json",
+        "--envelope",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-private-bank-reduction/author/output/RESULT.json",
+        "--certificate",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-bank-compression/author/output/RESULT.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp9-reproduction/compression-root.json"
+      ],
+      "returncode": 0
+    }
+  ],
+  "byte_identical_rebuilt_words": 4,
+  "new_complete_kappa": false
+}

@@ -756,3 +756,7 @@ All256 four-bit fourth-power coefficients, literal source/inverse/endpoint table
 ## S016 checkpoint8
 
 Ten reproduction commands pass: byte-identical30 rebuild, all222 columns,81 closure duals,15 root semantic controls,576 bank duals, independently derived symbolic normalizers/actual Gaussian phases/tensor rank, and trace/conjugacy/physical compiler review. See sessions/2026-11-16-S016/reproduce_cp8.py and CHECKPOINT8-VALIDATION.json. Finite incomplete discovery remains finite evidence. No new κ.
+
+## S016 checkpoint9
+
+Twenty-two reproduction commands pass, including four byte-identical words, exact author and independent symbolic/source checks, root32/34 all-column geometry/stock/79+77 dual audits, independent83-bank reconstruction and separate13/9 cut/decoder checks. Nonlinear proof independently reviewed by Worker B. All proof verifiers use committed relative dependencies or explicit arguments; the historically archived discovery probe retains its original scratch path and is not a proof/reproduction dependency. See CHECKPOINT9-VALIDATION.json and reproduce_cp9.py. No complete supplier or dirty-erasure applicability is inferred.

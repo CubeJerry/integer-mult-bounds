@@ -1,0 +1,1706 @@
+{
+  "status": "PASS_INDEPENDENT_ACTUAL_HIGHER_SOURCE",
+  "word_sha256": "73a6c4adb00498a0c33956a3aa1a0525eb143fa0179a4abaeb238b150774da45",
+  "common_expanded_base_sha256": "6a1eef8ef1f620914b3f014c9ba129bbe389c6fd5a010872f3e5cca88f5cb52f",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "columns": 222,
+  "targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    10,
+    11,
+    12,
+    16,
+    21,
+    22,
+    23,
+    27,
+    28,
+    30,
+    38,
+    39,
+    43,
+    44,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "counts": {
+    "INIT": 111,
+    "ADD": 890,
+    "MOVE": 433,
+    "CLEAR": 111
+  },
+  "profile": {
+    "1": 108,
+    "2": 65,
+    "3": 56,
+    "4": 13,
+    "5": 72,
+    "6": 24,
+    "7": 95
+  },
+  "dirty_CLEAR": 111,
+  "all_original_X_MOVE_routes_unchanged": true,
+  "changed_P6_P7_terminal_rows_and_old_code_replacements_checked": true,
+  "history_snapshot_count": 274,
+  "history_rank": 85,
+  "history_W_intersection": 15,
+  "history_C_intersection": 9,
+  "ground_rank": 14,
+  "proper_nonlocal_count": 20,
+  "complete_normalized_rank": 34,
+  "rank_with_all_Y_nuisance": 145,
+  "proper_nonlocal_inventory": [
+    {
+      "name": "HKEEP_D7",
+      "chart": "D3_21",
+      "row_hex": "0x663399ff126439eb8f2970d6879b"
+    },
+    {
+      "name": "HKEEP_L27",
+      "chart": "L27",
+      "row_hex": "0x400"
+    },
+    {
+      "name": "TRIAD16",
+      "chart": "J16",
+      "row_hex": "0x18020"
+    },
+    {
+      "name": "TRIAD23",
+      "chart": "J23",
+      "row_hex": "0x808020"
+    },
+    {
+      "name": "TRIAD22",
+      "chart": "J22",
+      "row_hex": "0x408020"
+    },
+    {
+      "name": "ZFIRST3",
+      "chart": "M1",
+      "row_hex": "0x2aff00cc0000c8017c0031000015"
+    },
+    {
+      "name": "ZKEEP2",
+      "chart": "L0",
+      "row_hex": "0x30000005"
+    },
+    {
+      "name": "ZFIRST4",
+      "chart": "M1",
+      "row_hex": "0x2f00cc0046051917c0330024005"
+    },
+    {
+      "name": "ZKEEP43",
+      "chart": "L28",
+      "row_hex": "0x580010000000"
+    },
+    {
+      "name": "ZFIRST5",
+      "chart": "M1",
+      "row_hex": "0x280fc00c400481917c0330026005"
+    },
+    {
+      "name": "ZKEEP48",
+      "chart": "L44",
+      "row_hex": "0x1300000000001"
+    },
+    {
+      "name": "KEEP_C0",
+      "chart": "C0",
+      "row_hex": "0x66683cccce598aa"
+    },
+    {
+      "name": "KEEP_M16",
+      "chart": "L7",
+      "row_hex": "0x40000000"
+    },
+    {
+      "name": "KEEP_C1",
+      "chart": "C0",
+      "row_hex": "0x500003021381266603c0c0c198a0"
+    },
+    {
+      "name": "KEEP_M23",
+      "chart": "L11",
+      "row_hex": "0x4000000000"
+    },
+    {
+      "name": "KEEP_C2",
+      "chart": "C0",
+      "row_hex": "0x5003031001a066603c0c0c198a0"
+    },
+    {
+      "name": "KEEP_M22",
+      "chart": "L12",
+      "row_hex": "0x8000000000"
+    },
+    {
+      "name": "Q1",
+      "chart": "M1",
+      "row_hex": "0x2f000c000005000000000000000"
+    },
+    {
+      "name": "Q3",
+      "chart": "M1",
+      "row_hex": "0x280f000c00008800000000000000"
+    },
+    {
+      "name": "Q4",
+      "chart": "M1",
+      "row_hex": "0x190000300026000"
+    }
+  ],
+  "actual_stock_history_fitting": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    10,
+    11,
+    12,
+    16,
+    21,
+    22,
+    23,
+    27,
+    28,
+    30,
+    38,
+    39,
+    43,
+    44,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "raw_local_fitting": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    10,
+    11,
+    12,
+    16,
+    21,
+    22,
+    23,
+    27,
+    28,
+    30,
+    38,
+    39,
+    43,
+    44,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "strong_feedback": {
+    "waves": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        10,
+        11,
+        12,
+        16,
+        21,
+        22,
+        23,
+        27,
+        28,
+        30,
+        38,
+        39,
+        43,
+        44,
+        48,
+        64,
+        65,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ]
+    ],
+    "closure": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      10,
+      11,
+      12,
+      16,
+      21,
+      22,
+      23,
+      27,
+      28,
+      30,
+      38,
+      39,
+      43,
+      44,
+      48,
+      64,
+      65,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "exclusion_duals": [
+      {
+        "receiver": 5,
+        "annihilator_hex": "0x20"
+      },
+      {
+        "receiver": 8,
+        "annihilator_hex": "0x100100"
+      },
+      {
+        "receiver": 9,
+        "annihilator_hex": "0x200"
+      },
+      {
+        "receiver": 13,
+        "annihilator_hex": "0x102000"
+      },
+      {
+        "receiver": 14,
+        "annihilator_hex": "0x4000"
+      },
+      {
+        "receiver": 15,
+        "annihilator_hex": "0x8000"
+      },
+      {
+        "receiver": 17,
+        "annihilator_hex": "0x60000"
+      },
+      {
+        "receiver": 18,
+        "annihilator_hex": "0x60000"
+      },
+      {
+        "receiver": 19,
+        "annihilator_hex": "0xc0000"
+      },
+      {
+        "receiver": 20,
+        "annihilator_hex": "0x100100"
+      },
+      {
+        "receiver": 24,
+        "annihilator_hex": "0x1000100"
+      },
+      {
+        "receiver": 25,
+        "annihilator_hex": "0x2000000"
+      },
+      {
+        "receiver": 26,
+        "annihilator_hex": "0x4000000"
+      },
+      {
+        "receiver": 29,
+        "annihilator_hex": "0x20000100"
+      },
+      {
+        "receiver": 31,
+        "annihilator_hex": "0x80000000"
+      },
+      {
+        "receiver": 32,
+        "annihilator_hex": "0x100002000"
+      },
+      {
+        "receiver": 33,
+        "annihilator_hex": "0x200002000"
+      },
+      {
+        "receiver": 34,
+        "annihilator_hex": "0x400002000"
+      },
+      {
+        "receiver": 35,
+        "annihilator_hex": "0x800002000"
+      },
+      {
+        "receiver": 36,
+        "annihilator_hex": "0x1000000000"
+      },
+      {
+        "receiver": 37,
+        "annihilator_hex": "0x2000000000"
+      },
+      {
+        "receiver": 40,
+        "annihilator_hex": "0x10000000100"
+      },
+      {
+        "receiver": 41,
+        "annihilator_hex": "0x20000000000"
+      },
+      {
+        "receiver": 42,
+        "annihilator_hex": "0x40000000000"
+      },
+      {
+        "receiver": 45,
+        "annihilator_hex": "0x200000000100"
+      },
+      {
+        "receiver": 46,
+        "annihilator_hex": "0x400000000100"
+      },
+      {
+        "receiver": 47,
+        "annihilator_hex": "0x800000000100"
+      },
+      {
+        "receiver": 49,
+        "annihilator_hex": "0x2000000000000"
+      },
+      {
+        "receiver": 50,
+        "annihilator_hex": "0x4000000000000"
+      },
+      {
+        "receiver": 51,
+        "annihilator_hex": "0x8000000000000"
+      },
+      {
+        "receiver": 52,
+        "annihilator_hex": "0x10000000002000"
+      },
+      {
+        "receiver": 53,
+        "annihilator_hex": "0x20000000000000"
+      },
+      {
+        "receiver": 54,
+        "annihilator_hex": "0x40000000002000"
+      },
+      {
+        "receiver": 55,
+        "annihilator_hex": "0x80000000000000"
+      },
+      {
+        "receiver": 56,
+        "annihilator_hex": "0x100000000002000"
+      },
+      {
+        "receiver": 57,
+        "annihilator_hex": "0x200000000000000"
+      },
+      {
+        "receiver": 58,
+        "annihilator_hex": "0x400000000002000"
+      },
+      {
+        "receiver": 59,
+        "annihilator_hex": "0x800000000000100"
+      },
+      {
+        "receiver": 60,
+        "annihilator_hex": "0x1000000000000100"
+      },
+      {
+        "receiver": 61,
+        "annihilator_hex": "0x2000000000002000"
+      },
+      {
+        "receiver": 62,
+        "annihilator_hex": "0x4000000000000000"
+      },
+      {
+        "receiver": 63,
+        "annihilator_hex": "0x8000000000000000"
+      },
+      {
+        "receiver": 66,
+        "annihilator_hex": "0x40000000000002000"
+      },
+      {
+        "receiver": 67,
+        "annihilator_hex": "0x80000000000000000"
+      },
+      {
+        "receiver": 68,
+        "annihilator_hex": "0x100000000000000100"
+      },
+      {
+        "receiver": 69,
+        "annihilator_hex": "0x200000000000000000"
+      },
+      {
+        "receiver": 70,
+        "annihilator_hex": "0x400000000000002000"
+      },
+      {
+        "receiver": 71,
+        "annihilator_hex": "0x800000000000000000"
+      },
+      {
+        "receiver": 72,
+        "annihilator_hex": "0x1000000000000000100"
+      },
+      {
+        "receiver": 81,
+        "annihilator_hex": "0x200000000000000000000"
+      },
+      {
+        "receiver": 82,
+        "annihilator_hex": "0x400000000000000000100"
+      },
+      {
+        "receiver": 83,
+        "annihilator_hex": "0x800000000000000000000"
+      },
+      {
+        "receiver": 84,
+        "annihilator_hex": "0x1000000000000000000000"
+      },
+      {
+        "receiver": 85,
+        "annihilator_hex": "0x2000000000000000002000"
+      },
+      {
+        "receiver": 86,
+        "annihilator_hex": "0x4000000000000000000100"
+      },
+      {
+        "receiver": 87,
+        "annihilator_hex": "0x8000000000000000000000"
+      },
+      {
+        "receiver": 88,
+        "annihilator_hex": "0x10000000000000000000100"
+      },
+      {
+        "receiver": 89,
+        "annihilator_hex": "0x20000000000000000000100"
+      },
+      {
+        "receiver": 90,
+        "annihilator_hex": "0x40000000000000000020000"
+      },
+      {
+        "receiver": 91,
+        "annihilator_hex": "0x80000000000000000020000"
+      },
+      {
+        "receiver": 92,
+        "annihilator_hex": "0x100000000000000000000100"
+      },
+      {
+        "receiver": 93,
+        "annihilator_hex": "0x200000000000000000000100"
+      },
+      {
+        "receiver": 94,
+        "annihilator_hex": "0x400000000000000000020000"
+      },
+      {
+        "receiver": 95,
+        "annihilator_hex": "0x800000000000000000020000"
+      },
+      {
+        "receiver": 96,
+        "annihilator_hex": "0x1000000000000000000000100"
+      },
+      {
+        "receiver": 97,
+        "annihilator_hex": "0x2000000000000000000000000"
+      },
+      {
+        "receiver": 98,
+        "annihilator_hex": "0x4000000000000000000000100"
+      },
+      {
+        "receiver": 99,
+        "annihilator_hex": "0x8000000000000000000000000"
+      },
+      {
+        "receiver": 100,
+        "annihilator_hex": "0x10000000000000000000000100"
+      },
+      {
+        "receiver": 101,
+        "annihilator_hex": "0x20000000000000000000000000"
+      },
+      {
+        "receiver": 102,
+        "annihilator_hex": "0x40000000000000000000000100"
+      },
+      {
+        "receiver": 103,
+        "annihilator_hex": "0x80000000000000000000000000"
+      },
+      {
+        "receiver": 104,
+        "annihilator_hex": "0x100000000000000000000020000"
+      },
+      {
+        "receiver": 105,
+        "annihilator_hex": "0x200000000000000000000000000"
+      },
+      {
+        "receiver": 106,
+        "annihilator_hex": "0x400000000000000000000020000"
+      },
+      {
+        "receiver": 107,
+        "annihilator_hex": "0x800000000000000000000000000"
+      },
+      {
+        "receiver": 108,
+        "annihilator_hex": "0x1000000000000000000000020000"
+      },
+      {
+        "receiver": 109,
+        "annihilator_hex": "0x2000000000000000000000000000"
+      },
+      {
+        "receiver": 110,
+        "annihilator_hex": "0x4000000000000000000000020000"
+      }
+    ]
+  },
+  "receiver_access": [
+    {
+      "receiver": 0,
+      "proper_nonlocal_fields": [
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 1,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 2,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 3,
+      "proper_nonlocal_fields": [
+        "HKEEP_D7",
+        "HKEEP_L27",
+        "TRIAD16",
+        "TRIAD23",
+        "TRIAD22",
+        "ZFIRST3",
+        "ZKEEP2",
+        "ZFIRST4",
+        "ZKEEP43",
+        "ZFIRST5",
+        "ZKEEP48",
+        "KEEP_C0",
+        "KEEP_M16",
+        "KEEP_C1",
+        "KEEP_M23",
+        "KEEP_C2",
+        "KEEP_M22",
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    },
+    {
+      "receiver": 4,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZFIRST3",
+        "ZKEEP2",
+        "ZFIRST4",
+        "ZKEEP43",
+        "ZFIRST5",
+        "ZKEEP48",
+        "KEEP_M16",
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    },
+    {
+      "receiver": 5,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 6,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 7,
+      "proper_nonlocal_fields": [
+        "ZKEEP2"
+      ]
+    },
+    {
+      "receiver": 8,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 9,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 10,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 11,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43"
+      ]
+    },
+    {
+      "receiver": 12,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP48"
+      ]
+    },
+    {
+      "receiver": 13,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 14,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 15,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 16,
+      "proper_nonlocal_fields": [
+        "TRIAD16",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 17,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP48",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 18,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 19,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 20,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 21,
+      "proper_nonlocal_fields": [
+        "HKEEP_D7",
+        "HKEEP_L27",
+        "TRIAD16",
+        "TRIAD23",
+        "TRIAD22",
+        "KEEP_C0",
+        "KEEP_M16",
+        "KEEP_C1",
+        "KEEP_M23",
+        "KEEP_C2",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 22,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "TRIAD22",
+        "ZKEEP43",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 23,
+      "proper_nonlocal_fields": [
+        "TRIAD23",
+        "ZKEEP48",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 24,
+      "proper_nonlocal_fields": [
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 25,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 26,
+      "proper_nonlocal_fields": [
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 27,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 28,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 29,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 30,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 31,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP43",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 32,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 33,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 34,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 35,
+      "proper_nonlocal_fields": [
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 36,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 37,
+      "proper_nonlocal_fields": [
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 38,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP48",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 39,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 40,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 41,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 42,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 43,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 44,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 45,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 46,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 47,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 48,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 49,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 50,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 51,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 52,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 53,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 54,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 55,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 56,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 57,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 58,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 59,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 60,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 61,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP43",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 62,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 63,
+      "proper_nonlocal_fields": [
+        "ZKEEP48",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 64,
+      "proper_nonlocal_fields": [
+        "TRIAD16",
+        "TRIAD23",
+        "TRIAD22",
+        "KEEP_C0",
+        "KEEP_M16",
+        "KEEP_C1",
+        "KEEP_M23",
+        "KEEP_C2",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 65,
+      "proper_nonlocal_fields": [
+        "TRIAD16",
+        "TRIAD23",
+        "TRIAD22",
+        "KEEP_C0",
+        "KEEP_M16",
+        "KEEP_C1",
+        "KEEP_M23",
+        "KEEP_C2",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 66,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 67,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 68,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 69,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 70,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 71,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 72,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 73,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 74,
+      "proper_nonlocal_fields": [
+        "ZFIRST3",
+        "ZKEEP2",
+        "ZFIRST4",
+        "ZKEEP43",
+        "ZFIRST5",
+        "ZKEEP48",
+        "KEEP_M16",
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    },
+    {
+      "receiver": 75,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 76,
+      "proper_nonlocal_fields": [
+        "TRIAD16",
+        "TRIAD23",
+        "TRIAD22",
+        "ZFIRST3",
+        "ZKEEP2",
+        "ZFIRST4",
+        "ZKEEP43",
+        "ZFIRST5",
+        "ZKEEP48",
+        "KEEP_C0",
+        "KEEP_M16",
+        "KEEP_C1",
+        "KEEP_M23",
+        "KEEP_C2",
+        "KEEP_M22",
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    },
+    {
+      "receiver": 77,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 78,
+      "proper_nonlocal_fields": [
+        "ZFIRST3",
+        "ZKEEP2",
+        "ZFIRST4",
+        "ZKEEP43",
+        "ZFIRST5",
+        "ZKEEP48",
+        "KEEP_M16",
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    },
+    {
+      "receiver": 79,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 80,
+      "proper_nonlocal_fields": [
+        "TRIAD16",
+        "TRIAD23",
+        "TRIAD22",
+        "ZFIRST3",
+        "ZKEEP2",
+        "ZFIRST4",
+        "ZKEEP43",
+        "ZFIRST5",
+        "ZKEEP48",
+        "KEEP_C0",
+        "KEEP_M16",
+        "KEEP_C1",
+        "KEEP_M23",
+        "KEEP_C2",
+        "KEEP_M22",
+        "Q1",
+        "Q3",
+        "Q4"
+      ]
+    },
+    {
+      "receiver": 81,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 82,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 83,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 84,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 85,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 86,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 87,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 88,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 89,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 90,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 91,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 92,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 93,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 94,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 95,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16"
+      ]
+    },
+    {
+      "receiver": 96,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 97,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 98,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 99,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "ZKEEP48",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 100,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 101,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP2",
+        "KEEP_M23"
+      ]
+    },
+    {
+      "receiver": 102,
+      "proper_nonlocal_fields": [
+        "ZKEEP2",
+        "ZKEEP43",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 103,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 104,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 105,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 106,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 107,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 108,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "ZKEEP48",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 109,
+      "proper_nonlocal_fields": [
+        "ZKEEP43",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    },
+    {
+      "receiver": 110,
+      "proper_nonlocal_fields": [
+        "HKEEP_L27",
+        "KEEP_M16",
+        "KEEP_M23",
+        "KEEP_M22"
+      ]
+    }
+  ],
+  "price": {
+    "lower": "1614.662293866785794271258852788895",
+    "upper": "1614.66229386678579427125885278922",
+    "exact_bounds": [
+      "322932458773357158854251770557779/200000000000000000000000000000",
+      "80733114693339289713562942639461/50000000000000000000000000000"
+    ]
+  },
+  "increment_over_expanded": {
+    "lower": "0.050016667532994896068080231903",
+    "upper": "0.050016667532994896068080231908",
+    "exact_bounds": [
+      "50016667532994896068080231903/1000000000000000000000000000000",
+      "12504166883248724017020057977/250000000000000000000000000000"
+    ]
+  },
+  "limiting_room": {
+    "lower": "7.088586344366560974987297577686",
+    "upper": "7.08858634436656097498729757822683333333333333",
+    "exact_bounds": [
+      "3544293172183280487493648788843/500000000000000000000000000000",
+      "42531518066199365849923785469361/6000000000000000000000000000000"
+    ]
+  },
+  "semantic_negative_controls": [
+    "omit_real_private_capture",
+    "omit_old_P7_retention",
+    "omit_first_reset",
+    "omit_real_higher_query",
+    "omit_low_line_retention",
+    "omit_second_reset",
+    "omit_native_raw_capture",
+    "omit_new_nonlocal_delivery",
+    "omit_ground_mask",
+    "omit_new_retirement"
+  ],
+  "negative_controls_disable_all_milestones_source_cut_and_invoice": true,
+  "scope": "Actual32/34 endpoints with realhigher-source acquisition andunchangedXpaths. ChangedP6/P7groundrows retained. No globalbankgrants,complete supplier ornewkappa."
+}

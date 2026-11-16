@@ -1,0 +1,11 @@
+# Higher-source physical delivery to34 native receivers
+
+The32-word first delivers actually captured X10 from D3_21 through L27 and rawX27 to ground. The34-word additionally delivers actually captured X20 from Extra6 through L19 and rawX19 to ground. All30 old endpoints, all111 original X restorations and arbitrary111 original Y columns are preserved. Each old P6/P7 coded ground row is replaced; its prevalue remains only at its explicitly owned higher retention.
+
+The final word SHA256 is46e299557269f8f78aedd9e049a2db020b22e64c6e7df59101a8c61cca05224e. Complete primitive counts:114 INIT,902 ADD,435 MOVE,114 dirty CLEAR. Profile is{1:110,2:65,3:56,4:13,5:73,6:24,7:94}. Directed pricing gives Q=1614.68999598133786690732209373046... and limiting room7.0608842298144883389240566365.... Relative to30 the exact moment increment is14-4[2]+2[5]+[6]-2[7]-[8], with12 additional INIT/CLEAR,44 ADD and10 MOVE. This is a partial movement budget, not complete supplier acceptance or proof of dirty-erasure applicability.
+
+The full live inventory contains22 proper nonlocal fields, ground rank14 and joint rank36. All283 actual principal snapshots span rank85 and contain W15+C9 abstractly. Their actual locations are retained; their span is not a stored global code. All111 original Y nuisance columns remain independent.
+
+Seventy-seven exact annihilators certify that even the union of all visible live stock, accessible actual histories, raw geometric locals and indefinite free completed-point feedback remains closed at34. Binary indistinguishability proves exclusion for arbitrary exact nonlinear decoders over all characteristic-two fields and positive widths. New capture, coded load, placement or paid transfer can escape this fixed ledger.
+
+Author proofs and exact invoices are in thirty-two and thirty-four. Independent-c reconstructs the source, chart geometry, custody, changes, prices, full ledgers and79/77 duals with10/20 semantic controls. Root independently replays the original columns and stock and checks the certificate; see root-review. No full111 source, complete strict supplier, unconditional theorem or new kappa. Both spare principals now carry actual new outputs, so the next objective is shared coded delivery rather than another assumption of spare ground capacity.

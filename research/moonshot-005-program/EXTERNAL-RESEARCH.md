@@ -362,3 +362,7 @@ At01:07UTC main is unchanged e54523517d0f03e58352e647c403a5af3e525a57. Open Croc
 ## S016 refresh02:27:59UTC
 
 Main unchanged at e54523517d0f03e58352e647c403a5af3e525a57. Open [#7624](https://github.com/CrocSwap/integer-mult-bounds/pull/7624), head3f231831e0bff0cc5241ec89e122d99132bddf52, proposes204 CLEAR with unresolved exact-Q erasure applicability. Public row-span membership does not implement physical erasure; final packaged launcher lacks a clean end-to-end rerun. Metadata/stated scope only triaged. Not an equal-premise selected frontier or admitted theorem. Our dirty-erasure applicability remains open.
+
+## S016 checkpoint9 integration scope
+
+No upstream commits or external candidate certificates merged. New source/bank packages compose only with their pinned predecessors. The selected conditional bound, all five foundations and the preceding #7624 extra-erasure-premise caveat are unchanged.

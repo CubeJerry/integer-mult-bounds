@@ -1,0 +1,497 @@
+{
+  "status": "PASS_INDEPENDENT_HIGHER_AFFINE_SOURCE_AND_SYMBOLIC_FAMILY",
+  "word_sha256": "7c5165a225e70e74181ac01c76dcde156c724aeb1e708309b146b7f174be723c",
+  "base_word_sha256": "5566738ce7b2706c0094654fce0e4c1c438e82395dee2e6885ef917f2d4498f3",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "concrete_input_columns": 222,
+  "targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    11,
+    12,
+    16,
+    21,
+    22,
+    23,
+    28,
+    30,
+    38,
+    39,
+    43,
+    44,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "counts": {
+    "INIT": 104,
+    "ADD": 866,
+    "MOVE": 427,
+    "CLEAR": 104
+  },
+  "profile": {
+    "1": 100,
+    "2": 67,
+    "3": 56,
+    "4": 13,
+    "5": 71,
+    "6": 23,
+    "7": 96,
+    "8": 1
+  },
+  "dirty_CLEAR": 104,
+  "independent_operation_rebuild_matches": true,
+  "all_original_X_MOVE_routes_unchanged": true,
+  "all_ground_seed_values_unchanged": true,
+  "concrete_parameters": [
+    [
+      10
+    ],
+    [],
+    [],
+    [
+      25,
+      51
+    ],
+    [],
+    []
+  ],
+  "general_family": {
+    "columns": 261,
+    "base_columns": 222,
+    "formal_product_columns": 39,
+    "parameters": [
+      {
+        "parameter": "a0_1",
+        "formal_column": 222,
+        "source": "X1",
+        "chart": "D3_21",
+        "capture_step": 257
+      },
+      {
+        "parameter": "a0_10",
+        "formal_column": 223,
+        "source": "X10",
+        "chart": "D3_21",
+        "capture_step": 261
+      },
+      {
+        "parameter": "a0_18",
+        "formal_column": 224,
+        "source": "X18",
+        "chart": "D3_21",
+        "capture_step": 267
+      },
+      {
+        "parameter": "a0_26",
+        "formal_column": 225,
+        "source": "X26",
+        "chart": "D3_21",
+        "capture_step": 271
+      },
+      {
+        "parameter": "a0_27",
+        "formal_column": 226,
+        "source": "X27",
+        "chart": "D3_21",
+        "capture_step": 276
+      },
+      {
+        "parameter": "a0_34",
+        "formal_column": 227,
+        "source": "X34",
+        "chart": "D3_21",
+        "capture_step": 282
+      },
+      {
+        "parameter": "a0_35",
+        "formal_column": 228,
+        "source": "X35",
+        "chart": "D3_21",
+        "capture_step": 285
+      },
+      {
+        "parameter": "a0_47",
+        "formal_column": 229,
+        "source": "X47",
+        "chart": "D3_21",
+        "capture_step": 289
+      },
+      {
+        "parameter": "a1_61",
+        "formal_column": 230,
+        "source": "X61",
+        "chart": "D76_64",
+        "capture_step": 314
+      },
+      {
+        "parameter": "a1_71",
+        "formal_column": 231,
+        "source": "X71",
+        "chart": "D76_64",
+        "capture_step": 318
+      },
+      {
+        "parameter": "a1_72",
+        "formal_column": 232,
+        "source": "X72",
+        "chart": "D76_64",
+        "capture_step": 323
+      },
+      {
+        "parameter": "a1_73",
+        "formal_column": 233,
+        "source": "X73",
+        "chart": "D76_64",
+        "capture_step": 329
+      },
+      {
+        "parameter": "a1_81",
+        "formal_column": 234,
+        "source": "X81",
+        "chart": "D76_64",
+        "capture_step": 333
+      },
+      {
+        "parameter": "a1_88",
+        "formal_column": 235,
+        "source": "X88",
+        "chart": "D76_64",
+        "capture_step": 338
+      },
+      {
+        "parameter": "a1_89",
+        "formal_column": 236,
+        "source": "X89",
+        "chart": "D76_64",
+        "capture_step": 341
+      },
+      {
+        "parameter": "a1_108",
+        "formal_column": 237,
+        "source": "X108",
+        "chart": "D76_64",
+        "capture_step": 345
+      },
+      {
+        "parameter": "a1_110",
+        "formal_column": 238,
+        "source": "X110",
+        "chart": "D76_64",
+        "capture_step": 348
+      },
+      {
+        "parameter": "a2_67",
+        "formal_column": 239,
+        "source": "X67",
+        "chart": "D80_65",
+        "capture_step": 376
+      },
+      {
+        "parameter": "a2_68",
+        "formal_column": 240,
+        "source": "X68",
+        "chart": "D80_65",
+        "capture_step": 381
+      },
+      {
+        "parameter": "a2_77",
+        "formal_column": 241,
+        "source": "X77",
+        "chart": "D80_65",
+        "capture_step": 387
+      },
+      {
+        "parameter": "a2_84",
+        "formal_column": 242,
+        "source": "X84",
+        "chart": "D80_65",
+        "capture_step": 391
+      },
+      {
+        "parameter": "a2_85",
+        "formal_column": 243,
+        "source": "X85",
+        "chart": "D80_65",
+        "capture_step": 396
+      },
+      {
+        "parameter": "a2_92",
+        "formal_column": 244,
+        "source": "X92",
+        "chart": "D80_65",
+        "capture_step": 402
+      },
+      {
+        "parameter": "a2_93",
+        "formal_column": 245,
+        "source": "X93",
+        "chart": "D80_65",
+        "capture_step": 405
+      },
+      {
+        "parameter": "a2_104",
+        "formal_column": 246,
+        "source": "X104",
+        "chart": "D80_65",
+        "capture_step": 409
+      },
+      {
+        "parameter": "a2_106",
+        "formal_column": 247,
+        "source": "X106",
+        "chart": "D80_65",
+        "capture_step": 412
+      },
+      {
+        "parameter": "a3_6",
+        "formal_column": 248,
+        "source": "X6",
+        "chart": "F4",
+        "capture_step": 471
+      },
+      {
+        "parameter": "a3_24",
+        "formal_column": 249,
+        "source": "X24",
+        "chart": "F4",
+        "capture_step": 475
+      },
+      {
+        "parameter": "a3_25",
+        "formal_column": 250,
+        "source": "X25",
+        "chart": "F4",
+        "capture_step": 480
+      },
+      {
+        "parameter": "a3_51",
+        "formal_column": 251,
+        "source": "X51",
+        "chart": "F4",
+        "capture_step": 484
+      },
+      {
+        "parameter": "a4_69",
+        "formal_column": 252,
+        "source": "X69",
+        "chart": "F74",
+        "capture_step": 654
+      },
+      {
+        "parameter": "a4_70",
+        "formal_column": 253,
+        "source": "X70",
+        "chart": "F74",
+        "capture_step": 659
+      },
+      {
+        "parameter": "a4_75",
+        "formal_column": 254,
+        "source": "X75",
+        "chart": "F74",
+        "capture_step": 663
+      },
+      {
+        "parameter": "a4_90",
+        "formal_column": 255,
+        "source": "X90",
+        "chart": "F74",
+        "capture_step": 667
+      },
+      {
+        "parameter": "a4_91",
+        "formal_column": 256,
+        "source": "X91",
+        "chart": "F74",
+        "capture_step": 670
+      },
+      {
+        "parameter": "a5_66",
+        "formal_column": 257,
+        "source": "X66",
+        "chart": "F78",
+        "capture_step": 725
+      },
+      {
+        "parameter": "a5_79",
+        "formal_column": 258,
+        "source": "X79",
+        "chart": "F78",
+        "capture_step": 729
+      },
+      {
+        "parameter": "a5_94",
+        "formal_column": 259,
+        "source": "X94",
+        "chart": "F78",
+        "capture_step": 733
+      },
+      {
+        "parameter": "a5_95",
+        "formal_column": 260,
+        "source": "X95",
+        "chart": "F78",
+        "capture_step": 736
+      }
+    ],
+    "first_retention_formula": [
+      {
+        "packet": 0,
+        "chart": "D3_21",
+        "roles": [
+          1,
+          10,
+          18,
+          26,
+          27,
+          34,
+          35,
+          47
+        ],
+        "targets": [
+          3,
+          21
+        ],
+        "owner": "AFF0",
+        "retention": "KEEP_C0",
+        "base_row_hex": "0x66683cccce59caa",
+        "formal_parameter_mask_hex": "0x3fc0000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "packet": 1,
+        "chart": "D76_64",
+        "roles": [
+          61,
+          71,
+          72,
+          73,
+          81,
+          88,
+          89,
+          108,
+          110
+        ],
+        "targets": [
+          76,
+          64
+        ],
+        "owner": "AFF1",
+        "retention": "KEEP_C1",
+        "base_row_hex": "0x500003021381266603c0c0c198a0",
+        "formal_parameter_mask_hex": "0x7fc000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "packet": 2,
+        "chart": "D80_65",
+        "roles": [
+          67,
+          68,
+          77,
+          84,
+          85,
+          92,
+          93,
+          104,
+          106
+        ],
+        "targets": [
+          80,
+          65
+        ],
+        "owner": "AFF2",
+        "retention": "KEEP_C2",
+        "base_row_hex": "0x5003031001a066603c0c0c198a0",
+        "formal_parameter_mask_hex": "0xff800000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "packet": 3,
+        "chart": "F4",
+        "roles": [
+          6,
+          24,
+          25,
+          51
+        ],
+        "targets": [
+          4
+        ],
+        "owner": "AFF3",
+        "retention": "ZFIRST3",
+        "base_row_hex": "0x2aff00cc0000d8097c0033000015",
+        "formal_parameter_mask_hex": "0xf00000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "packet": 4,
+        "chart": "F74",
+        "roles": [
+          69,
+          70,
+          75,
+          90,
+          91
+        ],
+        "targets": [
+          74
+        ],
+        "owner": "AFF4",
+        "retention": "ZFIRST4",
+        "base_row_hex": "0x2f00cc0046051917c0330026005",
+        "formal_parameter_mask_hex": "0x1f000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "packet": 5,
+        "chart": "F78",
+        "roles": [
+          66,
+          79,
+          94,
+          95
+        ],
+        "targets": [
+          78
+        ],
+        "owner": "AFF5",
+        "retention": "ZFIRST5",
+        "base_row_hex": "0x280fc00c400489917c0330026005",
+        "formal_parameter_mask_hex": "0x1e0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "all_other_seedcut_fields_identical_to_base": true,
+    "all_parameter_columns_cancel_at_every_endpoint": true
+  },
+  "family_operation_formula": {
+    "INIT": "102+a0+a1",
+    "ADD": "858+s+3*a0+2*a1",
+    "MOVE": "425+2*a0",
+    "CLEAR": "102+a0+a1",
+    "movement_increment": "a0*(4[1]-2[2])",
+    "definitions": "a0=#nonempty h0 groups, a1=#nonempty h1 groups, s=total selected raw source roles"
+  },
+  "semantic_negative_controls": [
+    "omit_actual_P0_injection",
+    "omit_Y3_compensation",
+    "omit_Y21_compensation",
+    "omit_actual_P3_injection",
+    "omit_Y4_compensation",
+    "omit_D3_correction_visit",
+    "omit_affine_retirement",
+    "omit_raw_capture_fails_promised_acquisition",
+    "symbolic_uncancelled_parameter_at_Y3"
+  ],
+  "physical_mutants_disable_all_milestones_source_cut_and_invoice": true,
+  "scope": "Actual private-row acquisition and source-preserving affine preload family. Old and new preload are not both granted. No additional endpoint, complete supplier or new kappa."
+}

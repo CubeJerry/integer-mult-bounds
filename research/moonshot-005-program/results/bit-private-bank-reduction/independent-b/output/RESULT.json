@@ -1,0 +1,781 @@
+{
+  "status": "PASS_INDEPENDENT_PRIVATE_BANK_ENVELOPE_AND_AFFINE_SCOPE",
+  "base_word_sha256": "d28b6ae55b9d3c3cab440c24af971babbe7fb2413180ec1cb3d5e2fa4c77bb71",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "author_result_sha256": "5bd89e3a32a0649fd3b3c1adf68ebd857100aa653aa2ee4cb1273cfd3f1fc5f0",
+  "independent_implementation": "Own symbolic operation replay, SymPy rational chart bases, low-pivot binary elimination and independent dual solve; no author code imported. Source movement validity inherited from separate published reviews.",
+  "common_global_rank": 47,
+  "all_private_global_rank": 80,
+  "private_groups": [
+    [
+      10,
+      18,
+      26,
+      27,
+      34,
+      35,
+      47
+    ],
+    [
+      61,
+      71,
+      72,
+      81,
+      88,
+      89,
+      108,
+      110
+    ],
+    [
+      67,
+      68,
+      84,
+      85,
+      92,
+      93,
+      104,
+      106
+    ],
+    [
+      24,
+      25,
+      51
+    ],
+    [
+      69,
+      70,
+      90,
+      91
+    ],
+    [
+      66,
+      94,
+      95
+    ]
+  ],
+  "fitting_and_closed_receiver_set": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    15,
+    16,
+    18,
+    19,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    34,
+    35,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    53,
+    54,
+    55,
+    57,
+    58,
+    61,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    84,
+    85,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    98,
+    102,
+    104,
+    106,
+    108,
+    110
+  ],
+  "all_subset_counts": [
+    {
+      "mask": 0,
+      "rank": 47,
+      "initial": 54,
+      "closure": 54
+    },
+    {
+      "mask": 1,
+      "rank": 54,
+      "initial": 60,
+      "closure": 60
+    },
+    {
+      "mask": 2,
+      "rank": 55,
+      "initial": 61,
+      "closure": 61
+    },
+    {
+      "mask": 3,
+      "rank": 62,
+      "initial": 67,
+      "closure": 67
+    },
+    {
+      "mask": 4,
+      "rank": 55,
+      "initial": 61,
+      "closure": 61
+    },
+    {
+      "mask": 5,
+      "rank": 62,
+      "initial": 67,
+      "closure": 67
+    },
+    {
+      "mask": 6,
+      "rank": 63,
+      "initial": 68,
+      "closure": 69
+    },
+    {
+      "mask": 7,
+      "rank": 70,
+      "initial": 75,
+      "closure": 75
+    },
+    {
+      "mask": 8,
+      "rank": 50,
+      "initial": 56,
+      "closure": 56
+    },
+    {
+      "mask": 9,
+      "rank": 57,
+      "initial": 62,
+      "closure": 62
+    },
+    {
+      "mask": 10,
+      "rank": 58,
+      "initial": 63,
+      "closure": 63
+    },
+    {
+      "mask": 11,
+      "rank": 65,
+      "initial": 69,
+      "closure": 69
+    },
+    {
+      "mask": 12,
+      "rank": 58,
+      "initial": 63,
+      "closure": 63
+    },
+    {
+      "mask": 13,
+      "rank": 65,
+      "initial": 69,
+      "closure": 69
+    },
+    {
+      "mask": 14,
+      "rank": 66,
+      "initial": 70,
+      "closure": 71
+    },
+    {
+      "mask": 15,
+      "rank": 73,
+      "initial": 77,
+      "closure": 77
+    },
+    {
+      "mask": 16,
+      "rank": 51,
+      "initial": 57,
+      "closure": 57
+    },
+    {
+      "mask": 17,
+      "rank": 58,
+      "initial": 63,
+      "closure": 63
+    },
+    {
+      "mask": 18,
+      "rank": 59,
+      "initial": 64,
+      "closure": 64
+    },
+    {
+      "mask": 19,
+      "rank": 66,
+      "initial": 70,
+      "closure": 70
+    },
+    {
+      "mask": 20,
+      "rank": 59,
+      "initial": 64,
+      "closure": 64
+    },
+    {
+      "mask": 21,
+      "rank": 66,
+      "initial": 70,
+      "closure": 70
+    },
+    {
+      "mask": 22,
+      "rank": 67,
+      "initial": 71,
+      "closure": 72
+    },
+    {
+      "mask": 23,
+      "rank": 74,
+      "initial": 78,
+      "closure": 78
+    },
+    {
+      "mask": 24,
+      "rank": 54,
+      "initial": 59,
+      "closure": 59
+    },
+    {
+      "mask": 25,
+      "rank": 61,
+      "initial": 65,
+      "closure": 65
+    },
+    {
+      "mask": 26,
+      "rank": 62,
+      "initial": 66,
+      "closure": 66
+    },
+    {
+      "mask": 27,
+      "rank": 69,
+      "initial": 72,
+      "closure": 72
+    },
+    {
+      "mask": 28,
+      "rank": 62,
+      "initial": 66,
+      "closure": 66
+    },
+    {
+      "mask": 29,
+      "rank": 69,
+      "initial": 72,
+      "closure": 72
+    },
+    {
+      "mask": 30,
+      "rank": 70,
+      "initial": 73,
+      "closure": 75
+    },
+    {
+      "mask": 31,
+      "rank": 77,
+      "initial": 80,
+      "closure": 81
+    },
+    {
+      "mask": 32,
+      "rank": 50,
+      "initial": 56,
+      "closure": 56
+    },
+    {
+      "mask": 33,
+      "rank": 57,
+      "initial": 62,
+      "closure": 62
+    },
+    {
+      "mask": 34,
+      "rank": 58,
+      "initial": 63,
+      "closure": 63
+    },
+    {
+      "mask": 35,
+      "rank": 65,
+      "initial": 69,
+      "closure": 69
+    },
+    {
+      "mask": 36,
+      "rank": 58,
+      "initial": 63,
+      "closure": 63
+    },
+    {
+      "mask": 37,
+      "rank": 65,
+      "initial": 69,
+      "closure": 69
+    },
+    {
+      "mask": 38,
+      "rank": 66,
+      "initial": 70,
+      "closure": 71
+    },
+    {
+      "mask": 39,
+      "rank": 73,
+      "initial": 77,
+      "closure": 77
+    },
+    {
+      "mask": 40,
+      "rank": 53,
+      "initial": 58,
+      "closure": 58
+    },
+    {
+      "mask": 41,
+      "rank": 60,
+      "initial": 64,
+      "closure": 64
+    },
+    {
+      "mask": 42,
+      "rank": 61,
+      "initial": 65,
+      "closure": 65
+    },
+    {
+      "mask": 43,
+      "rank": 68,
+      "initial": 71,
+      "closure": 71
+    },
+    {
+      "mask": 44,
+      "rank": 61,
+      "initial": 65,
+      "closure": 65
+    },
+    {
+      "mask": 45,
+      "rank": 68,
+      "initial": 71,
+      "closure": 71
+    },
+    {
+      "mask": 46,
+      "rank": 69,
+      "initial": 72,
+      "closure": 73
+    },
+    {
+      "mask": 47,
+      "rank": 76,
+      "initial": 79,
+      "closure": 79
+    },
+    {
+      "mask": 48,
+      "rank": 54,
+      "initial": 59,
+      "closure": 59
+    },
+    {
+      "mask": 49,
+      "rank": 61,
+      "initial": 65,
+      "closure": 65
+    },
+    {
+      "mask": 50,
+      "rank": 62,
+      "initial": 66,
+      "closure": 66
+    },
+    {
+      "mask": 51,
+      "rank": 69,
+      "initial": 72,
+      "closure": 72
+    },
+    {
+      "mask": 52,
+      "rank": 62,
+      "initial": 66,
+      "closure": 66
+    },
+    {
+      "mask": 53,
+      "rank": 69,
+      "initial": 72,
+      "closure": 72
+    },
+    {
+      "mask": 54,
+      "rank": 70,
+      "initial": 73,
+      "closure": 74
+    },
+    {
+      "mask": 55,
+      "rank": 77,
+      "initial": 80,
+      "closure": 80
+    },
+    {
+      "mask": 56,
+      "rank": 57,
+      "initial": 61,
+      "closure": 61
+    },
+    {
+      "mask": 57,
+      "rank": 64,
+      "initial": 67,
+      "closure": 67
+    },
+    {
+      "mask": 58,
+      "rank": 65,
+      "initial": 68,
+      "closure": 68
+    },
+    {
+      "mask": 59,
+      "rank": 72,
+      "initial": 74,
+      "closure": 74
+    },
+    {
+      "mask": 60,
+      "rank": 65,
+      "initial": 68,
+      "closure": 68
+    },
+    {
+      "mask": 61,
+      "rank": 72,
+      "initial": 74,
+      "closure": 74
+    },
+    {
+      "mask": 62,
+      "rank": 73,
+      "initial": 75,
+      "closure": 77
+    },
+    {
+      "mask": 63,
+      "rank": 80,
+      "initial": 83,
+      "closure": 83
+    }
+  ],
+  "independently_constructed_duals": [
+    {
+      "receiver": 9,
+      "annihilator_hex": "0x100200"
+    },
+    {
+      "receiver": 13,
+      "annihilator_hex": "0x100002200"
+    },
+    {
+      "receiver": 14,
+      "annihilator_hex": "0x5000000000006200"
+    },
+    {
+      "receiver": 17,
+      "annihilator_hex": "0x100020000"
+    },
+    {
+      "receiver": 20,
+      "annihilator_hex": "0x100200"
+    },
+    {
+      "receiver": 32,
+      "annihilator_hex": "0x100020000"
+    },
+    {
+      "receiver": 33,
+      "annihilator_hex": "0x200002000"
+    },
+    {
+      "receiver": 36,
+      "annihilator_hex": "0x1000000000"
+    },
+    {
+      "receiver": 37,
+      "annihilator_hex": "0x2000000200"
+    },
+    {
+      "receiver": 52,
+      "annihilator_hex": "0x10000000002000"
+    },
+    {
+      "receiver": 56,
+      "annihilator_hex": "0x100000000002200"
+    },
+    {
+      "receiver": 59,
+      "annihilator_hex": "0x400000800000000000000"
+    },
+    {
+      "receiver": 60,
+      "annihilator_hex": "0x4000001000000000000000"
+    },
+    {
+      "receiver": 62,
+      "annihilator_hex": "0x10000000004000000000024000"
+    },
+    {
+      "receiver": 63,
+      "annihilator_hex": "0x1000000008000000000024000"
+    },
+    {
+      "receiver": 82,
+      "annihilator_hex": "0x400000800000000000000"
+    },
+    {
+      "receiver": 83,
+      "annihilator_hex": "0x2000800000000000000000000"
+    },
+    {
+      "receiver": 86,
+      "annihilator_hex": "0x4000001000000000000000"
+    },
+    {
+      "receiver": 87,
+      "annihilator_hex": "0x1008000009000000000000200"
+    },
+    {
+      "receiver": 96,
+      "annihilator_hex": "0x1000000000800000000000000"
+    },
+    {
+      "receiver": 97,
+      "annihilator_hex": "0x2000000008000000000000200"
+    },
+    {
+      "receiver": 99,
+      "annihilator_hex": "0x8000000008000000000000000"
+    },
+    {
+      "receiver": 100,
+      "annihilator_hex": "0x10000000001000000000000000"
+    },
+    {
+      "receiver": 101,
+      "annihilator_hex": "0x20000000004000000000000200"
+    },
+    {
+      "receiver": 103,
+      "annihilator_hex": "0x80000000004000000000000000"
+    },
+    {
+      "receiver": 105,
+      "annihilator_hex": "0x200000000004000000000100000"
+    },
+    {
+      "receiver": 107,
+      "annihilator_hex": "0x800000000008000000000000000"
+    },
+    {
+      "receiver": 109,
+      "annihilator_hex": "0x2000000000008000000000100000"
+    }
+  ],
+  "author_duals_checked": 28,
+  "author_fitting_witnesses_checked": 83,
+  "four_filter_bank_cases": [
+    {
+      "mask": 0,
+      "extra_rank": 0,
+      "fit": 83,
+      "closure": 83,
+      "missing_C9": 3
+    },
+    {
+      "mask": 1,
+      "extra_rank": 4,
+      "fit": 91,
+      "closure": 91,
+      "missing_C9": 3
+    },
+    {
+      "mask": 2,
+      "extra_rank": 4,
+      "fit": 92,
+      "closure": 92,
+      "missing_C9": 3
+    },
+    {
+      "mask": 3,
+      "extra_rank": 8,
+      "fit": 101,
+      "closure": 101,
+      "missing_C9": 3
+    },
+    {
+      "mask": 4,
+      "extra_rank": 4,
+      "fit": 90,
+      "closure": 90,
+      "missing_C9": 3
+    },
+    {
+      "mask": 5,
+      "extra_rank": 8,
+      "fit": 98,
+      "closure": 98,
+      "missing_C9": 3
+    },
+    {
+      "mask": 6,
+      "extra_rank": 8,
+      "fit": 99,
+      "closure": 99,
+      "missing_C9": 3
+    },
+    {
+      "mask": 7,
+      "extra_rank": 11,
+      "fit": 107,
+      "closure": 107,
+      "missing_C9": 3
+    },
+    {
+      "mask": 8,
+      "extra_rank": 4,
+      "fit": 87,
+      "closure": 87,
+      "missing_C9": 2
+    },
+    {
+      "mask": 9,
+      "extra_rank": 8,
+      "fit": 95,
+      "closure": 95,
+      "missing_C9": 2
+    },
+    {
+      "mask": 10,
+      "extra_rank": 8,
+      "fit": 96,
+      "closure": 96,
+      "missing_C9": 2
+    },
+    {
+      "mask": 11,
+      "extra_rank": 12,
+      "fit": 105,
+      "closure": 105,
+      "missing_C9": 2
+    },
+    {
+      "mask": 12,
+      "extra_rank": 8,
+      "fit": 94,
+      "closure": 94,
+      "missing_C9": 2
+    },
+    {
+      "mask": 13,
+      "extra_rank": 12,
+      "fit": 102,
+      "closure": 102,
+      "missing_C9": 2
+    },
+    {
+      "mask": 14,
+      "extra_rank": 12,
+      "fit": 103,
+      "closure": 103,
+      "missing_C9": 2
+    },
+    {
+      "mask": 15,
+      "extra_rank": 14,
+      "fit": 111,
+      "closure": 111,
+      "missing_C9": 0
+    }
+  ],
+  "all_four_bank_canonical_witnesses_checked": 111,
+  "all_four_bank_endpoint_witnesses_checked": 111,
+  "canonical_quotient_basis_native_row_indices": [
+    0,
+    1,
+    2
+  ],
+  "positive_C9_control": true,
+  "canonical_missing_dimensions": 3,
+  "stock_scope_checks": {
+    "27-output-base": {
+      "visible_pureX_values_checked": 2617,
+      "noncontained_values": []
+    },
+    "30-output-base": {
+      "visible_pureX_values_checked": 2659,
+      "noncontained_values": []
+    },
+    "concrete-affine-word": {
+      "visible_pureX_values_checked": 2662,
+      "noncontained_values": []
+    }
+  },
+  "new_kappa": false
+}

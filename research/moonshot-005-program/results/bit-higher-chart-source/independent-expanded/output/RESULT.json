@@ -1,0 +1,659 @@
+{
+  "status": "PASS_INDEPENDENT_EXPANDED_AFFINE_72_FAMILY",
+  "word_sha256": "6a1eef8ef1f620914b3f014c9ba129bbe389c6fd5a010872f3e5cca88f5cb52f",
+  "base_word_sha256": "5566738ce7b2706c0094654fce0e4c1c438e82395dee2e6885ef917f2d4498f3",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "counts": {
+    "INIT": 108,
+    "ADD": 877,
+    "MOVE": 430,
+    "CLEAR": 108
+  },
+  "profile": {
+    "1": 106,
+    "2": 64,
+    "3": 56,
+    "4": 13,
+    "5": 71,
+    "6": 23,
+    "7": 96,
+    "8": 1
+  },
+  "dirty_CLEAR": 108,
+  "targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    11,
+    12,
+    16,
+    21,
+    22,
+    23,
+    28,
+    30,
+    38,
+    39,
+    43,
+    44,
+    48,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "concrete_parameters": [
+    [
+      10
+    ],
+    [],
+    [],
+    [
+      25,
+      51
+    ],
+    [],
+    [],
+    [
+      60
+    ],
+    [
+      13
+    ],
+    [
+      59
+    ],
+    [
+      20
+    ]
+  ],
+  "independent_operation_rebuild_matches": true,
+  "symbolic_family": {
+    "formal_columns": 294,
+    "original_columns": 222,
+    "parameter_product_columns": 72,
+    "actual_captures": [
+      {
+        "group": 0,
+        "original": 1,
+        "capture_step": 261,
+        "chart": "D3_21",
+        "formal_column": 222
+      },
+      {
+        "group": 0,
+        "original": 10,
+        "capture_step": 265,
+        "chart": "D3_21",
+        "formal_column": 223
+      },
+      {
+        "group": 0,
+        "original": 18,
+        "capture_step": 271,
+        "chart": "D3_21",
+        "formal_column": 224
+      },
+      {
+        "group": 0,
+        "original": 26,
+        "capture_step": 275,
+        "chart": "D3_21",
+        "formal_column": 225
+      },
+      {
+        "group": 0,
+        "original": 27,
+        "capture_step": 280,
+        "chart": "D3_21",
+        "formal_column": 226
+      },
+      {
+        "group": 0,
+        "original": 34,
+        "capture_step": 286,
+        "chart": "D3_21",
+        "formal_column": 227
+      },
+      {
+        "group": 0,
+        "original": 35,
+        "capture_step": 289,
+        "chart": "D3_21",
+        "formal_column": 228
+      },
+      {
+        "group": 0,
+        "original": 47,
+        "capture_step": 293,
+        "chart": "D3_21",
+        "formal_column": 229
+      },
+      {
+        "group": 1,
+        "original": 61,
+        "capture_step": 318,
+        "chart": "D76_64",
+        "formal_column": 230
+      },
+      {
+        "group": 1,
+        "original": 71,
+        "capture_step": 322,
+        "chart": "D76_64",
+        "formal_column": 231
+      },
+      {
+        "group": 1,
+        "original": 72,
+        "capture_step": 327,
+        "chart": "D76_64",
+        "formal_column": 232
+      },
+      {
+        "group": 1,
+        "original": 73,
+        "capture_step": 333,
+        "chart": "D76_64",
+        "formal_column": 233
+      },
+      {
+        "group": 1,
+        "original": 81,
+        "capture_step": 337,
+        "chart": "D76_64",
+        "formal_column": 234
+      },
+      {
+        "group": 1,
+        "original": 88,
+        "capture_step": 342,
+        "chart": "D76_64",
+        "formal_column": 235
+      },
+      {
+        "group": 1,
+        "original": 89,
+        "capture_step": 345,
+        "chart": "D76_64",
+        "formal_column": 236
+      },
+      {
+        "group": 1,
+        "original": 108,
+        "capture_step": 349,
+        "chart": "D76_64",
+        "formal_column": 237
+      },
+      {
+        "group": 1,
+        "original": 110,
+        "capture_step": 352,
+        "chart": "D76_64",
+        "formal_column": 238
+      },
+      {
+        "group": 2,
+        "original": 67,
+        "capture_step": 380,
+        "chart": "D80_65",
+        "formal_column": 239
+      },
+      {
+        "group": 2,
+        "original": 68,
+        "capture_step": 385,
+        "chart": "D80_65",
+        "formal_column": 240
+      },
+      {
+        "group": 2,
+        "original": 77,
+        "capture_step": 391,
+        "chart": "D80_65",
+        "formal_column": 241
+      },
+      {
+        "group": 2,
+        "original": 84,
+        "capture_step": 395,
+        "chart": "D80_65",
+        "formal_column": 242
+      },
+      {
+        "group": 2,
+        "original": 85,
+        "capture_step": 400,
+        "chart": "D80_65",
+        "formal_column": 243
+      },
+      {
+        "group": 2,
+        "original": 92,
+        "capture_step": 406,
+        "chart": "D80_65",
+        "formal_column": 244
+      },
+      {
+        "group": 2,
+        "original": 93,
+        "capture_step": 409,
+        "chart": "D80_65",
+        "formal_column": 245
+      },
+      {
+        "group": 2,
+        "original": 104,
+        "capture_step": 413,
+        "chart": "D80_65",
+        "formal_column": 246
+      },
+      {
+        "group": 2,
+        "original": 106,
+        "capture_step": 416,
+        "chart": "D80_65",
+        "formal_column": 247
+      },
+      {
+        "group": 9,
+        "original": 8,
+        "capture_step": 445,
+        "chart": "Extra6",
+        "formal_column": 288
+      },
+      {
+        "group": 9,
+        "original": 9,
+        "capture_step": 449,
+        "chart": "Extra6",
+        "formal_column": 289
+      },
+      {
+        "group": 9,
+        "original": 19,
+        "capture_step": 454,
+        "chart": "Extra6",
+        "formal_column": 290
+      },
+      {
+        "group": 9,
+        "original": 20,
+        "capture_step": 460,
+        "chart": "Extra6",
+        "formal_column": 291
+      },
+      {
+        "group": 9,
+        "original": 36,
+        "capture_step": 464,
+        "chart": "Extra6",
+        "formal_column": 292
+      },
+      {
+        "group": 9,
+        "original": 37,
+        "capture_step": 472,
+        "chart": "Extra6",
+        "formal_column": 293
+      },
+      {
+        "group": 3,
+        "original": 6,
+        "capture_step": 481,
+        "chart": "F4",
+        "formal_column": 248
+      },
+      {
+        "group": 3,
+        "original": 24,
+        "capture_step": 485,
+        "chart": "F4",
+        "formal_column": 249
+      },
+      {
+        "group": 3,
+        "original": 25,
+        "capture_step": 490,
+        "chart": "F4",
+        "formal_column": 250
+      },
+      {
+        "group": 3,
+        "original": 51,
+        "capture_step": 494,
+        "chart": "F4",
+        "formal_column": 251
+      },
+      {
+        "group": 6,
+        "original": 60,
+        "capture_step": 503,
+        "chart": "C1",
+        "formal_column": 261
+      },
+      {
+        "group": 6,
+        "original": 62,
+        "capture_step": 509,
+        "chart": "C1",
+        "formal_column": 262
+      },
+      {
+        "group": 6,
+        "original": 86,
+        "capture_step": 515,
+        "chart": "C1",
+        "formal_column": 263
+      },
+      {
+        "group": 6,
+        "original": 87,
+        "capture_step": 522,
+        "chart": "C1",
+        "formal_column": 264
+      },
+      {
+        "group": 6,
+        "original": 100,
+        "capture_step": 528,
+        "chart": "C1",
+        "formal_column": 265
+      },
+      {
+        "group": 6,
+        "original": 101,
+        "capture_step": 534,
+        "chart": "C1",
+        "formal_column": 266
+      },
+      {
+        "group": 6,
+        "original": 102,
+        "capture_step": 541,
+        "chart": "C1",
+        "formal_column": 267
+      },
+      {
+        "group": 6,
+        "original": 103,
+        "capture_step": 546,
+        "chart": "C1",
+        "formal_column": 268
+      },
+      {
+        "group": 6,
+        "original": 105,
+        "capture_step": 553,
+        "chart": "C1",
+        "formal_column": 269
+      },
+      {
+        "group": 8,
+        "original": 59,
+        "capture_step": 619,
+        "chart": "C3",
+        "formal_column": 278
+      },
+      {
+        "group": 8,
+        "original": 63,
+        "capture_step": 625,
+        "chart": "C3",
+        "formal_column": 279
+      },
+      {
+        "group": 8,
+        "original": 82,
+        "capture_step": 631,
+        "chart": "C3",
+        "formal_column": 280
+      },
+      {
+        "group": 8,
+        "original": 83,
+        "capture_step": 638,
+        "chart": "C3",
+        "formal_column": 281
+      },
+      {
+        "group": 8,
+        "original": 96,
+        "capture_step": 644,
+        "chart": "C3",
+        "formal_column": 282
+      },
+      {
+        "group": 8,
+        "original": 97,
+        "capture_step": 650,
+        "chart": "C3",
+        "formal_column": 283
+      },
+      {
+        "group": 8,
+        "original": 98,
+        "capture_step": 657,
+        "chart": "C3",
+        "formal_column": 284
+      },
+      {
+        "group": 8,
+        "original": 99,
+        "capture_step": 662,
+        "chart": "C3",
+        "formal_column": 285
+      },
+      {
+        "group": 8,
+        "original": 107,
+        "capture_step": 668,
+        "chart": "C3",
+        "formal_column": 286
+      },
+      {
+        "group": 8,
+        "original": 109,
+        "capture_step": 675,
+        "chart": "C3",
+        "formal_column": 287
+      },
+      {
+        "group": 4,
+        "original": 69,
+        "capture_step": 683,
+        "chart": "F74",
+        "formal_column": 252
+      },
+      {
+        "group": 4,
+        "original": 70,
+        "capture_step": 688,
+        "chart": "F74",
+        "formal_column": 253
+      },
+      {
+        "group": 4,
+        "original": 75,
+        "capture_step": 692,
+        "chart": "F74",
+        "formal_column": 254
+      },
+      {
+        "group": 4,
+        "original": 90,
+        "capture_step": 696,
+        "chart": "F74",
+        "formal_column": 255
+      },
+      {
+        "group": 4,
+        "original": 91,
+        "capture_step": 699,
+        "chart": "F74",
+        "formal_column": 256
+      },
+      {
+        "group": 7,
+        "original": 13,
+        "capture_step": 711,
+        "chart": "C4",
+        "formal_column": 270
+      },
+      {
+        "group": 7,
+        "original": 14,
+        "capture_step": 717,
+        "chart": "C4",
+        "formal_column": 271
+      },
+      {
+        "group": 7,
+        "original": 17,
+        "capture_step": 723,
+        "chart": "C4",
+        "formal_column": 272
+      },
+      {
+        "group": 7,
+        "original": 32,
+        "capture_step": 729,
+        "chart": "C4",
+        "formal_column": 273
+      },
+      {
+        "group": 7,
+        "original": 33,
+        "capture_step": 736,
+        "chart": "C4",
+        "formal_column": 274
+      },
+      {
+        "group": 7,
+        "original": 52,
+        "capture_step": 744,
+        "chart": "C4",
+        "formal_column": 275
+      },
+      {
+        "group": 7,
+        "original": 55,
+        "capture_step": 751,
+        "chart": "C4",
+        "formal_column": 276
+      },
+      {
+        "group": 7,
+        "original": 56,
+        "capture_step": 756,
+        "chart": "C4",
+        "formal_column": 277
+      },
+      {
+        "group": 5,
+        "original": 66,
+        "capture_step": 762,
+        "chart": "F78",
+        "formal_column": 257
+      },
+      {
+        "group": 5,
+        "original": 79,
+        "capture_step": 766,
+        "chart": "F78",
+        "formal_column": 258
+      },
+      {
+        "group": 5,
+        "original": 94,
+        "capture_step": 770,
+        "chart": "F78",
+        "formal_column": 259
+      },
+      {
+        "group": 5,
+        "original": 95,
+        "capture_step": 773,
+        "chart": "F78",
+        "formal_column": 260
+      }
+    ],
+    "changed_old_fields": [
+      {
+        "name": "KEEP_C0",
+        "base_row_hex": "0x66683cccce59caa",
+        "formal_shift_hex": "0x3fc0000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "KEEP_C1",
+        "base_row_hex": "0x500003021381266603c0c0c198a0",
+        "formal_shift_hex": "0x7fc000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "KEEP_C2",
+        "base_row_hex": "0x5003031001a066603c0c0c198a0",
+        "formal_shift_hex": "0xff800000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "ZFIRST3",
+        "base_row_hex": "0x2aff00cc0000d8097c0033000015",
+        "formal_shift_hex": "0x3fe00f00000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "ZFIRST4",
+        "base_row_hex": "0x2f00cc0046051917c0330026005",
+        "formal_shift_hex": "0x3fc001f000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "ZFIRST5",
+        "base_row_hex": "0x280fc00c400489917c0330026005",
+        "formal_shift_hex": "0xffc0001e0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "P6",
+        "base_row_hex": "0x5555ff64ab543d51e94f294f3596",
+        "formal_shift_hex": "0x3f000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "all_other_old_fields_and_positions_unchanged": true,
+    "all72_parameter_columns_absent_from_final_X_Y": true
+  },
+  "terminal_rank_certificate": {
+    "base_rank": 8,
+    "Extra6_raw_rank": 6,
+    "joint_rank": 14,
+    "intersection_rank": 0,
+    "all_Extra6_binary_shifts_preserve_eight_terminal_rank": true
+  },
+  "P6_new_value_is_old_value_plus_actual_Extra6_row": true,
+  "old_P6_value_not_also_granted": true,
+  "general_invoice": {
+    "INIT_CLEAR": "102+a0+a1+c+e",
+    "ADD": "858+s+3*a0+2*a1+2*c+e",
+    "MOVE": "425+2*a0+c",
+    "moment_increment": "a0*(4-2[2])+c*(2-[2])",
+    "definitions": "a0,h0 nonempty private groups; a1,h1 nonempty private groups; c,nonempty pair groups; e,nonempty Extra6 group; s,totalselectedcaptures"
+  },
+  "semantic_negative_controls": [
+    "omit_pair3_injection",
+    "omit_pair4_injection",
+    "omit_pair5_injection",
+    "omit_Y4_pair_correction",
+    "omit_Y74_pair_correction",
+    "omit_Y78_pair_correction",
+    "omit_actual_C1_visit",
+    "omit_EXTRA_retirement",
+    "omit_EXTRA_query_fails_new_terminal_contract"
+  ],
+  "scope": "Actual72-parameter acquisition family with30unchanged endpoints, changedP6groundcode and exactphysicalinvoice. No complete supplier or new kappa."
+}
