@@ -1,0 +1,102 @@
+{
+  "status": "PASS_ACTUAL_GROUND_OUTPUT_NORMALIZATION_CONTROL",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "base_sha256": "27dc6c36eec067acd2fe4679a81c95ea9db8fd6377784a0bbfc060ca52a121fd",
+  "before": {
+    "counts": {
+      "INIT": 46,
+      "ADD": 51,
+      "MOVE": 274,
+      "CLEAR": 46
+    },
+    "movement_profile": {
+      "1": 52,
+      "5": 2,
+      "6": 2,
+      "7": 218
+    },
+    "dirty_CLEAR": 46,
+    "peak_owned": 46
+  },
+  "after": {
+    "counts": {
+      "INIT": 46,
+      "ADD": 106,
+      "MOVE": 274,
+      "CLEAR": 46
+    },
+    "movement_profile": {
+      "1": 52,
+      "5": 2,
+      "6": 2,
+      "7": 218
+    },
+    "dirty_CLEAR": 46,
+    "peak_owned": 46,
+    "all_222_endpoints": true
+  },
+  "physical_source_rows": 46,
+  "actual_Y_forwarding_roles": [
+    2,
+    3,
+    4
+  ],
+  "proper_forwarding_charts": [
+    "L0",
+    "NORM_J01"
+  ],
+  "new_ground_preload_ADDs": 50,
+  "new_ground_inverse_ADDs": 5,
+  "all222_endpoint_columns": true,
+  "explicit_width_two_columns": 444,
+  "whole_movement_moment": {
+    "rational": [
+      "99064845388363007974162958825467757090344137/62500000000000000000000000000000000000000",
+      "792518763106904063793303670603742056722753207/500000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1585.037526213808127586607341207484113445506192",
+      "1585.037526213808127586607341207484113445506414"
+    ]
+  },
+  "controls": [
+    {
+      "control": "omit all actual ground normalization",
+      "rejected": true,
+      "reason": "('Y endpoint', 0)"
+    },
+    {
+      "control": "omit invertible Y preconditioning",
+      "rejected": true,
+      "reason": "('Y endpoint', 2)"
+    },
+    {
+      "control": "omit actual known-column offset",
+      "rejected": true,
+      "reason": "('Y endpoint', 2)"
+    },
+    {
+      "control": "claim ground donor before physical arrival",
+      "rejected": true,
+      "reason": "(138, 'co-location', ['ADD', 'KNOWN_RAW1', 'Y1'], 'L1', 'zero')"
+    },
+    {
+      "control": "singular final Y transfer cannot be normalized",
+      "rejected": true,
+      "reason": "('singular homogeneous Y map', 2)"
+    },
+    {
+      "control": "unknown input error outside actual ground span",
+      "rejected": true,
+      "reason": "('error outside actual ground source span', 5)"
+    },
+    {
+      "control": "uncorrected original X y contamination",
+      "rejected": true,
+      "reason": "original X endpoint must already be raw and independent of y"
+    }
+  ],
+  "scope": "All111 raw X endpoints and all111 arbitrary Y columns are physically normalized;46 completed increments. Constructive ground interface control, not a completed supplier or a new kappa.",
+  "unnormalized_word_sha256": "cef49aaae73945f36c080334b7f1387c5bb093aa18e26b4390031949aacb340d",
+  "word_sha256": "83ce8c4cdab17ceccc977c17b8b7d9c0ae655e9ee1dcd9d7a477e70b63a5dd52"
+}

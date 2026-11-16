@@ -1,0 +1,148 @@
+{
+  "status": "PASS_C_INDEPENDENT_PRUNED78_INTERFACE_REVIEW",
+  "base_word_sha256": "075896b6aafe6d0bbb6d406a2cca367c644357f57e01a7888cdfde843f61bd4b",
+  "word_sha256": "c7cf9a565d5dd6613342274979a9aa5de1bbb209cc3704a2a19e60eecb034245",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "method": "Separate exact rational chart and222-column interpreter; no A code imported. Actual native source pinned, all25 common values and78 native originals reconstructed at declared cut. Independent integer-root price and endpoint-preserving interface controls.",
+  "before": {
+    "counts": {
+      "INIT": 127,
+      "ADD": 418,
+      "MOVE": 368,
+      "CLEAR": 127
+    },
+    "movement_profile": {
+      "1": 110,
+      "2": 17,
+      "3": 34,
+      "4": 5,
+      "5": 22,
+      "6": 12,
+      "7": 168
+    },
+    "dirty_CLEAR": 94,
+    "peak_owned": 127,
+    "all_222_endpoints": true
+  },
+  "after": {
+    "counts": {
+      "INIT": 94,
+      "ADD": 386,
+      "MOVE": 356,
+      "CLEAR": 94
+    },
+    "movement_profile": {
+      "1": 95,
+      "2": 17,
+      "3": 34,
+      "4": 8,
+      "5": 22,
+      "6": 12,
+      "7": 168
+    },
+    "dirty_CLEAR": 94,
+    "peak_owned": 94,
+    "all_222_endpoints": true
+  },
+  "interface_index": 758,
+  "actual_common_fields": {
+    "ADDED_RAW8": "0x100",
+    "ADDED_RAW9": "0x200",
+    "ADDED_RAW36": "0x1000000000",
+    "ADDED_RAW37": "0x2000000000",
+    "ADDED_RAW50": "0x4000000000000",
+    "DIRECT_RAW10": "0x400",
+    "DIRECT_RAW20": "0x100000",
+    "COMMON_RAW2": "0x4",
+    "ZRAW0": "0x1",
+    "ZRAW28": "0x10000000",
+    "ZRAW44": "0x100000000000",
+    "E1": "0x2",
+    "E6": "0x40",
+    "E73": "0x2000000000000000000",
+    "E75": "0x8000000000000000000",
+    "E77": "0x20000000000000000000",
+    "E79": "0x80000000000000000000",
+    "P7": "0x8a000000000008000002",
+    "P0": "0x80",
+    "P1": "0x800",
+    "P2": "0x20000000000000001000",
+    "P3": "0x4a0000000040",
+    "P4": "0x8000000050020000000",
+    "P5": "0x80000003200000000000",
+    "P6": "0xa8000000000000080000"
+  },
+  "common_rank": 25,
+  "all78_originals_native_raw": true,
+  "target_count": 46,
+  "price": {
+    "moment": {
+      "rational": [
+        "321438462387683301484615343810166955150797033/200000000000000000000000000000000000000000",
+        "803596155969208253711538359525417387876992713/500000000000000000000000000000000000000000"
+      ],
+      "decimal": [
+        "1607.192311938416507423076719050834775753985165",
+        "1607.192311938416507423076719050834775753985426"
+      ]
+    },
+    "before_moment": {
+      "rational": [
+        "805137600996586038302339098224088940449663989/500000000000000000000000000000000000000000",
+        "402568800498293019151169549112044470224832059/250000000000000000000000000000000000000000"
+      ],
+      "decimal": [
+        "1610.275201993172076604678196448177880899327978",
+        "1610.275201993172076604678196448177880899328236"
+      ]
+    },
+    "change": {
+      "rational": [
+        "-3082890054755569181601477397343105145343071/1000000000000000000000000000000000000000000",
+        "-385361256844446147700184674667888143167819/125000000000000000000000000000000000000000"
+      ],
+      "decimal": [
+        "-3.082890054755569181601477397343105145343071",
+        "-3.082890054755569181601477397343105145342552"
+      ]
+    },
+    "necessary_limiting_room": {
+      "rational": [
+        "1819821034091980977896178914520026336741253/125000000000000000000000000000000000000000",
+        "17470281927283017387803317579392252832716601/1200000000000000000000000000000000000000000"
+      ],
+      "decimal": [
+        "14.558568272735847823169431316160210693930024",
+        "14.558568272735847823169431316160210693930500833333333333333333333333333333333333"
+      ]
+    }
+  },
+  "controls": [
+    {
+      "control": "changed actual common field after all old readers",
+      "all222_endpoints_still_pass": true,
+      "interface_rejected": "('actual common field', 'P3')"
+    },
+    {
+      "control": "carrier returned before declared open interface",
+      "all222_endpoints_still_pass": true,
+      "interface_rejected": "('released raw native original', 0)"
+    },
+    {
+      "omitted": [
+        "CLEAR",
+        "P3"
+      ],
+      "rejected": "complete lifetimes"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "ADDED_RAW50",
+        "Y50"
+      ],
+      "rejected": "('Y endpoint', 50)"
+    }
+  ],
+  "scope": "Actual endpoint and named common-interface preservation; old higher-chart source/history claims are not inherited. Formal native all-width identity, not complete supplier admission or a new kappa."
+}

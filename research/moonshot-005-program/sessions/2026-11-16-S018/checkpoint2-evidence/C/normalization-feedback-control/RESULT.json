@@ -1,0 +1,87 @@
+{
+  "status": "PASS_GROUND_NORMALIZATION_WITH_ACTUAL_Y_TO_X_FEEDBACK",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "base_sha256": "27dc6c36eec067acd2fe4679a81c95ea9db8fd6377784a0bbfc060ca52a121fd",
+  "unnormalized_intermediate_X0": "y2",
+  "normalized_intermediate_X0_hex": "0x6000000000000000000000000000d",
+  "normalized_intermediate_X0_has_arbitrary_y": true,
+  "restored_X0_before_departure": "x0",
+  "actual_feedback_operations": [
+    [
+      "ADD",
+      "Y2",
+      "X0"
+    ],
+    [
+      "ADD",
+      "X0",
+      "Y3"
+    ],
+    [
+      "ADD",
+      "Y2",
+      "X0"
+    ]
+  ],
+  "before": {
+    "counts": {
+      "INIT": 46,
+      "ADD": 54,
+      "MOVE": 274,
+      "CLEAR": 46
+    },
+    "movement_profile": {
+      "1": 52,
+      "5": 2,
+      "6": 2,
+      "7": 218
+    },
+    "dirty_CLEAR": 46,
+    "peak_owned": 46
+  },
+  "after": {
+    "counts": {
+      "INIT": 46,
+      "ADD": 106,
+      "MOVE": 274,
+      "CLEAR": 46
+    },
+    "movement_profile": {
+      "1": 52,
+      "5": 2,
+      "6": 2,
+      "7": 218
+    },
+    "dirty_CLEAR": 46,
+    "peak_owned": 46,
+    "all_222_endpoints": true
+  },
+  "all222_endpoint_columns": true,
+  "ground_source_ADDs": 50,
+  "ground_inverse_ADDs": 2,
+  "moment": {
+    "rational": [
+      "99064845388363007974162958825467757090344137/62500000000000000000000000000000000000000",
+      "792518763106904063793303670603742056722753207/500000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1585.037526213808127586607341207484113445506192",
+      "1585.037526213808127586607341207484113445506414"
+    ]
+  },
+  "controls": [
+    {
+      "label": "omit first feedback",
+      "rejected": true,
+      "reason": "original X endpoint must already be raw and independent of y"
+    },
+    {
+      "label": "omit final restoration",
+      "rejected": true,
+      "reason": "original X endpoint must already be raw and independent of y"
+    }
+  ],
+  "scope": "Positive physical test of the general final-block hypothesis with actual transient Y-to-X feedback. No new output count, source dimension, supplier or kappa.",
+  "word_sha256": "0c04328feaa1ba5c561294a301059be0e7402f8f932a8645cda09d0b20d839f9",
+  "unnormalized_word_sha256": "888e506f7a0c876eed06530be8dd30e3d65645e25d43c3313d305fcf7b4e6af8"
+}

@@ -1,0 +1,290 @@
+{
+  "status": "PASS_INDEPENDENT_KNOWN_SOURCE_CUT_RESET_REVIEW",
+  "actual_Y_to_X_feedback_variant": true,
+  "intermediate_X0_feedback_rows_hex": [
+    "0x1",
+    "0x10000000000000000000000000000080",
+    "0x10000000000000000000000000000080",
+    "0x10000000000000000000000000002000",
+    "0x10000000000000000000000000002000",
+    "0x1"
+  ],
+  "reviewed_proof_sha256": "ed754aec0a04d4e9d4bf44f80bb09145d365f8365649db5d2c975c9447505d28",
+  "previous_reviewed_proof_sha256": "42b82eed13017355e34d4797a1ae40d6480f9cd321607eb376c3adba44e9d0f1",
+  "side_information_qualification_confirmed": true,
+  "source_pins": {
+    "A/pruned78/WORD.json": "c7cf9a565d5dd6613342274979a9aa5de1bbb209cc3704a2a19e60eecb034245",
+    "R/cut-reset/control-feedback/OLD-WORD.json": "4baab219091309a0191cb351ba091b5f32f6912b408be78e0d01b4ab887dc396",
+    "R/cut-reset/control-feedback/RESET-WORD.json": "1f0bd254b3e9316f02b31701f593ed361bae99eadc8b02283666d79e22bc7ab8"
+  },
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "old_actual_cut": 757,
+  "reset_actual_cut": 476,
+  "base_cut": 758,
+  "known_coordinates": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    48,
+    49,
+    50,
+    61,
+    64,
+    65,
+    67,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "live_cut_owners": 94,
+  "owned_row_rank": 45,
+  "raw_native_X_at_cut": 78,
+  "raw_Hub_X_at_cut": 33,
+  "source_report": {
+    "counts": {
+      "INIT": 94,
+      "ADD": 386,
+      "MOVE": 356,
+      "CLEAR": 94
+    },
+    "movement_profile": {
+      "1": 95,
+      "2": 17,
+      "3": 34,
+      "4": 8,
+      "5": 22,
+      "6": 12,
+      "7": 168
+    },
+    "dirty_CLEAR": 94,
+    "peak_owned": 94,
+    "all_222_endpoints": true
+  },
+  "old_report": {
+    "counts": {
+      "INIT": 95,
+      "ADD": 399,
+      "MOVE": 359,
+      "CLEAR": 95
+    },
+    "movement_profile": {
+      "1": 97,
+      "2": 17,
+      "3": 35,
+      "4": 9,
+      "5": 22,
+      "6": 13,
+      "7": 166
+    },
+    "dirty_CLEAR": 95,
+    "peak_owned": 95,
+    "all_222_endpoints": true
+  },
+  "reset_report": {
+    "counts": {
+      "INIT": 143,
+      "ADD": 110,
+      "MOVE": 273,
+      "CLEAR": 143
+    },
+    "movement_profile": {
+      "1": 50,
+      "3": 1,
+      "4": 1,
+      "6": 1,
+      "7": 220
+    },
+    "dirty_CLEAR": 49,
+    "peak_owned": 95,
+    "all_222_endpoints": true
+  },
+  "known_preloads": {
+    "0": "0x1",
+    "1": "0x2",
+    "2": "0x4",
+    "3": "0x8",
+    "4": "0x10",
+    "6": "0x40",
+    "7": "0x80",
+    "8": "0x100",
+    "9": "0x200",
+    "10": "0x400",
+    "11": "0x800",
+    "12": "0x1000",
+    "13": "0x80",
+    "16": "0x10000",
+    "19": "0x80000",
+    "20": "0x100000",
+    "21": "0x200000",
+    "22": "0x400000",
+    "23": "0x800000",
+    "27": "0x8000000",
+    "28": "0x10000000",
+    "29": "0x20000000",
+    "30": "0x40000000",
+    "36": "0x1000000000",
+    "37": "0x2000000000",
+    "38": "0x4000000000",
+    "39": "0x8000000000",
+    "40": "0x10000000000",
+    "41": "0x20000000000",
+    "42": "0x40000000000",
+    "43": "0x80000000000",
+    "44": "0x100000000000",
+    "45": "0x200000000000",
+    "46": "0x400000000000",
+    "48": "0x1000000000000",
+    "49": "0x2000000000000",
+    "50": "0x4000000000000",
+    "64": "0x10000000000000000",
+    "65": "0x20000000000000000",
+    "73": "0x2000000000000000000",
+    "74": "0x4000000000000000000",
+    "75": "0x8000000000000000000",
+    "76": "0x10000000000000000000",
+    "77": "0x20000000000000000000",
+    "78": "0x40000000000000000000",
+    "79": "0x80000000000000000000",
+    "80": "0x100000000000000000000"
+  },
+  "nonidentity_original_row5_hex": "0x40020000020",
+  "actual_Hub_inverse": [
+    [
+      "ADD",
+      "X29",
+      "X5"
+    ],
+    [
+      "ADD",
+      "X42",
+      "X5"
+    ]
+  ],
+  "homogeneous_XY_zero": true,
+  "homogeneous_YY_identity": true,
+  "old_moment": {
+    "rational": [
+      "1608230288397513484307362866718209998707844331/1000000000000000000000000000000000000000000",
+      "1608230288397513484307362866718209998707844593/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1608.230288397513484307362866718209998707844331",
+      "1608.230288397513484307362866718209998707844593"
+    ]
+  },
+  "reset_moment": {
+    "rational": [
+      "793995785340650957386242957751212829295022801/500000000000000000000000000000000000000000",
+      "63519662827252076590899436620097026343601833/40000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1587.991570681301914772485915502425658590045602",
+      "1587.991570681301914772485915502425658590045825"
+    ]
+  },
+  "reset_limiting_room": {
+    "rational": [
+      "270074476238803523790081878916554622862957/8000000000000000000000000000000000000000",
+      "202555857179102642842561409187415967147220383/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "33.759309529850440473760234864569327857869625",
+      "33.759309529850440473760234864569327857870063833333333333333333333333333333333333"
+    ]
+  },
+  "direct48_baseline": {
+    "rational": [
+      "396738398555551234472049941958762608909046609/250000000000000000000000000000000000000000",
+      "793476797111102468944099883917525217818093329/500000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1586.953594222204937888199767835050435636186436",
+      "1586.953594222204937888199767835050435636186658"
+    ]
+  },
+  "direct48_limiting_room": {
+    "rational": [
+      "4349660748618427169755797816493068851466099/125000000000000000000000000000000000000000",
+      "208783715933684504148278295191667304870375379/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "34.797285988947417358046382531944550811728792",
+      "34.797285988947417358046382531944550811729229833333333333333333333333333333333333"
+    ]
+  },
+  "physical_singular_map_rank": 110,
+  "singular_kernel_hex": "0x1",
+  "controls": [
+    {
+      "control": "omit known Y13 preload",
+      "rejected": true,
+      "reason": "('Y endpoint', 13)"
+    },
+    {
+      "control": "omit actual native capture",
+      "rejected": true,
+      "reason": "('Y endpoint', 7)"
+    },
+    {
+      "control": "omit actual ground arrival",
+      "rejected": true,
+      "reason": "(149, 'co-location', ['ADD', 'RESET_RAW7', 'Y7'], 'L7', 'zero')"
+    },
+    {
+      "control": "omit raw owner retirement",
+      "rejected": true,
+      "reason": "complete lifetimes"
+    },
+    {
+      "control": "omit final Hub inverse ADD",
+      "rejected": true,
+      "reason": "('X endpoint', 5)"
+    },
+    {
+      "control": "omit actual Y-to-X swap operation",
+      "rejected": true,
+      "reason": "('X endpoint', 0)"
+    },
+    {
+      "control": "singular reset loses x0 despite old correct endpoint",
+      "rejected": true,
+      "reason": "('X endpoint', 0)"
+    }
+  ],
+  "scope": "Independent exact native/all222 replay, source48 audit, literal continuation identity, actual nontrivial Hub inverse and singular-M control. No root/A execution code imported. This variant exercises actual arbitrary-Y content in X0 and applies a new packet through that mixed original before restoring it. No all111 supplier or kappa."
+}

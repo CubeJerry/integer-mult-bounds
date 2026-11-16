@@ -1,0 +1,80 @@
+{
+  "status": "PASS_PRUNED_RELEASE78_COMMON_INTERFACE",
+  "word_sha256": "c7cf9a565d5dd6613342274979a9aa5de1bbb209cc3704a2a19e60eecb034245",
+  "base_sha256": "075896b6aafe6d0bbb6d406a2cca367c644357f57e01a7888cdfde843f61bd4b",
+  "before": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 127,
+      "ADD": 418,
+      "MOVE": 368,
+      "CLEAR": 127
+    },
+    "movement_profile": {
+      "1": 110,
+      "2": 17,
+      "3": 34,
+      "4": 5,
+      "5": 22,
+      "6": 12,
+      "7": 168
+    },
+    "dirty_CLEAR": 94,
+    "peak_owned": 127,
+    "historical_record_states": 1135
+  },
+  "after": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 94,
+      "ADD": 386,
+      "MOVE": 356,
+      "CLEAR": 94
+    },
+    "movement_profile": {
+      "1": 95,
+      "2": 17,
+      "3": 34,
+      "4": 8,
+      "5": 22,
+      "6": 12,
+      "7": 168
+    },
+    "dirty_CLEAR": 94,
+    "peak_owned": 94,
+    "historical_record_states": 1058
+  },
+  "interface_index": 758,
+  "preserved_common_fields": [
+    "ADDED_RAW8",
+    "ADDED_RAW9",
+    "ADDED_RAW36",
+    "ADDED_RAW37",
+    "ADDED_RAW50",
+    "DIRECT_RAW10",
+    "DIRECT_RAW20",
+    "COMMON_RAW2",
+    "ZRAW0",
+    "ZRAW28",
+    "ZRAW44",
+    "E1",
+    "E6",
+    "E73",
+    "E75",
+    "E77",
+    "E79",
+    "P7",
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6"
+  ],
+  "preserved_common_rank": 25,
+  "kept_owner_count": 94,
+  "removed_zero_ADDs": 32,
+  "proper_births": {},
+  "scope": "Pruned release78 source preserves46 endpoints, every public original and each listed actual common field at the interface. All78 released originals remain raw at their native lines until the interface. Higher-chart rows/history not inherited. No completed111 supplier or new kappa."
+}

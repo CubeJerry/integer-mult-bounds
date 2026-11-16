@@ -1,0 +1,6544 @@
+{
+  "status": "PASS_PROTECTED_NATIVE_CONDUITS_RELEASE78",
+  "base_word_sha256": "27dc6c36eec067acd2fe4679a81c95ea9db8fd6377784a0bbfc060ca52a121fd",
+  "word_sha256": "075896b6aafe6d0bbb6d406a2cca367c644357f57e01a7888cdfde843f61bd4b",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "released_carriers": [
+    0,
+    2,
+    5,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    20,
+    24,
+    25,
+    26,
+    27,
+    28,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    44,
+    47,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    62,
+    63,
+    66,
+    68,
+    69,
+    70,
+    71,
+    72,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "before": {
+    "counts": {
+      "INIT": 127,
+      "ADD": 819,
+      "MOVE": 481,
+      "CLEAR": 127
+    },
+    "movement_profile": {
+      "1": 185,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 72,
+      "6": 22,
+      "7": 93
+    },
+    "dirty_CLEAR": 127,
+    "peak_owned": 127,
+    "all_222_endpoints": true
+  },
+  "after": {
+    "counts": {
+      "INIT": 127,
+      "ADD": 418,
+      "MOVE": 368,
+      "CLEAR": 127
+    },
+    "movement_profile": {
+      "1": 110,
+      "2": 17,
+      "3": 34,
+      "4": 5,
+      "5": 22,
+      "6": 12,
+      "7": 168
+    },
+    "dirty_CLEAR": 94,
+    "peak_owned": 127,
+    "all_222_endpoints": true
+  },
+  "retained_covariant_state_checks": 222771,
+  "target_count": 46,
+  "carrier_interface_before_operation": 835,
+  "all78_originals_raw_native": true,
+  "other_originals_raw_Hub": 33,
+  "actual_common_rank": 25,
+  "actual_common_space_unchanged": true,
+  "actual_new_protected_raw_recipes": {
+    "7": [
+      "P0"
+    ],
+    "11": [
+      "P1"
+    ],
+    "12": [
+      "P2",
+      "E77"
+    ],
+    "19": [
+      "P6",
+      "E75",
+      "E77",
+      "E79"
+    ],
+    "27": [
+      "P7",
+      "E1",
+      "E73",
+      "E75",
+      "E79"
+    ]
+  },
+  "native_conduit_certificates": {
+    "7": {
+      "native_load_old_index": 850,
+      "own_reader_old_index": 1228,
+      "native_owner": "RAW7",
+      "packet": "P0",
+      "ground_mask": []
+    },
+    "11": {
+      "native_load_old_index": 921,
+      "own_reader_old_index": 1229,
+      "native_owner": "RAW11",
+      "packet": "P1",
+      "ground_mask": []
+    },
+    "12": {
+      "native_load_old_index": 995,
+      "own_reader_old_index": 1230,
+      "native_owner": "RAW12",
+      "packet": "P2",
+      "ground_mask": [
+        "E77"
+      ]
+    },
+    "19": {
+      "native_load_old_index": 1199,
+      "own_reader_old_index": 1275,
+      "native_owner": "HRAW19",
+      "packet": "P6",
+      "ground_mask": [
+        "E75",
+        "E77",
+        "E79"
+      ]
+    },
+    "27": {
+      "native_load_old_index": 807,
+      "own_reader_old_index": 1285,
+      "native_owner": "HRAW27",
+      "packet": "P7",
+      "ground_mask": [
+        "E1",
+        "E73",
+        "E75",
+        "E79"
+      ]
+    }
+  },
+  "removed": [
+    {
+      "index": 166,
+      "operation": [
+        "MOVE",
+        "X5",
+        "SH2"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 167,
+      "operation": [
+        "ADD",
+        "X5",
+        "SHARED"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 168,
+      "operation": [
+        "MOVE",
+        "X5",
+        "C0"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 169,
+      "operation": [
+        "ADD",
+        "X5",
+        "H1_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 170,
+      "operation": [
+        "ADD",
+        "X5",
+        "Q0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 171,
+      "operation": [
+        "MOVE",
+        "X5",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 172,
+      "operation": [
+        "MOVE",
+        "X7",
+        "J16"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 173,
+      "operation": [
+        "ADD",
+        "X7",
+        "PRIVATE16"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 174,
+      "operation": [
+        "MOVE",
+        "X7",
+        "C0"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 175,
+      "operation": [
+        "ADD",
+        "X7",
+        "H1_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 176,
+      "operation": [
+        "ADD",
+        "X7",
+        "Q0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 177,
+      "operation": [
+        "MOVE",
+        "X7",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 178,
+      "operation": [
+        "MOVE",
+        "X11",
+        "J23"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 179,
+      "operation": [
+        "ADD",
+        "X11",
+        "PRIVATE23"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 180,
+      "operation": [
+        "MOVE",
+        "X11",
+        "C0"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 181,
+      "operation": [
+        "ADD",
+        "X11",
+        "H1_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 182,
+      "operation": [
+        "ADD",
+        "X11",
+        "Hnew1_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 183,
+      "operation": [
+        "ADD",
+        "X11",
+        "Q0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 184,
+      "operation": [
+        "MOVE",
+        "X11",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 185,
+      "operation": [
+        "MOVE",
+        "X12",
+        "J22"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 186,
+      "operation": [
+        "ADD",
+        "X12",
+        "PRIVATE22"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 187,
+      "operation": [
+        "MOVE",
+        "X12",
+        "C0"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 188,
+      "operation": [
+        "ADD",
+        "X12",
+        "H1_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 189,
+      "operation": [
+        "ADD",
+        "X12",
+        "H1_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 190,
+      "operation": [
+        "ADD",
+        "X12",
+        "Hnew1_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 191,
+      "operation": [
+        "ADD",
+        "X12",
+        "Q0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 192,
+      "operation": [
+        "MOVE",
+        "X12",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 193,
+      "operation": [
+        "MOVE",
+        "X15",
+        "SH2"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 194,
+      "operation": [
+        "ADD",
+        "X15",
+        "SHARED"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 195,
+      "operation": [
+        "MOVE",
+        "X15",
+        "C0"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 196,
+      "operation": [
+        "ADD",
+        "X15",
+        "H1_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 197,
+      "operation": [
+        "ADD",
+        "X15",
+        "Q0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 198,
+      "operation": [
+        "MOVE",
+        "X15",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 223,
+      "operation": [
+        "MOVE",
+        "X31",
+        "J16"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 224,
+      "operation": [
+        "ADD",
+        "X31",
+        "PRIVATE16"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 225,
+      "operation": [
+        "MOVE",
+        "X31",
+        "C0"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 226,
+      "operation": [
+        "ADD",
+        "X31",
+        "H1_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 227,
+      "operation": [
+        "ADD",
+        "X31",
+        "Hnew1_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 228,
+      "operation": [
+        "ADD",
+        "X31",
+        "Q0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 229,
+      "operation": [
+        "MOVE",
+        "X31",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 267,
+      "operation": [
+        "MOVE",
+        "X50",
+        "J16"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 268,
+      "operation": [
+        "ADD",
+        "X50",
+        "PRIVATE16"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 269,
+      "operation": [
+        "MOVE",
+        "X50",
+        "C0"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 270,
+      "operation": [
+        "ADD",
+        "X50",
+        "H1_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 271,
+      "operation": [
+        "ADD",
+        "X50",
+        "H1_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 272,
+      "operation": [
+        "ADD",
+        "X50",
+        "Hnew1_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 273,
+      "operation": [
+        "ADD",
+        "X50",
+        "Q0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 274,
+      "operation": [
+        "MOVE",
+        "X50",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 275,
+      "operation": [
+        "MOVE",
+        "X53",
+        "J22"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 276,
+      "operation": [
+        "ADD",
+        "X53",
+        "PRIVATE22"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 277,
+      "operation": [
+        "MOVE",
+        "X53",
+        "C0"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 278,
+      "operation": [
+        "ADD",
+        "X53",
+        "H1_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 279,
+      "operation": [
+        "ADD",
+        "X53",
+        "H1_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 280,
+      "operation": [
+        "ADD",
+        "X53",
+        "H1_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 281,
+      "operation": [
+        "ADD",
+        "X53",
+        "Q0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 282,
+      "operation": [
+        "MOVE",
+        "X53",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 283,
+      "operation": [
+        "MOVE",
+        "X54",
+        "J23"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 284,
+      "operation": [
+        "ADD",
+        "X54",
+        "PRIVATE23"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 285,
+      "operation": [
+        "MOVE",
+        "X54",
+        "C0"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 286,
+      "operation": [
+        "ADD",
+        "X54",
+        "H1_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 287,
+      "operation": [
+        "ADD",
+        "X54",
+        "H1_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 288,
+      "operation": [
+        "ADD",
+        "X54",
+        "Q0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 289,
+      "operation": [
+        "MOVE",
+        "X54",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 290,
+      "operation": [
+        "MOVE",
+        "X57",
+        "J22"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 291,
+      "operation": [
+        "ADD",
+        "X57",
+        "PRIVATE22"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 292,
+      "operation": [
+        "MOVE",
+        "X57",
+        "C0"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 293,
+      "operation": [
+        "ADD",
+        "X57",
+        "H1_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 294,
+      "operation": [
+        "ADD",
+        "X57",
+        "H1_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 295,
+      "operation": [
+        "ADD",
+        "X57",
+        "Q0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 296,
+      "operation": [
+        "MOVE",
+        "X57",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 297,
+      "operation": [
+        "MOVE",
+        "X58",
+        "J23"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 298,
+      "operation": [
+        "ADD",
+        "X58",
+        "PRIVATE23"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 299,
+      "operation": [
+        "MOVE",
+        "X58",
+        "C0"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 300,
+      "operation": [
+        "ADD",
+        "X58",
+        "H1_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 301,
+      "operation": [
+        "ADD",
+        "X58",
+        "Q0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 302,
+      "operation": [
+        "MOVE",
+        "X58",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 311,
+      "operation": [
+        "MOVE",
+        "X18",
+        "D3_21"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 312,
+      "operation": [
+        "ADD",
+        "X18",
+        "H0_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 313,
+      "operation": [
+        "ADD",
+        "X18",
+        "H0_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 314,
+      "operation": [
+        "MOVE",
+        "X26",
+        "D3_21"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 315,
+      "operation": [
+        "ADD",
+        "X26",
+        "H0_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 316,
+      "operation": [
+        "ADD",
+        "X26",
+        "H0_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 317,
+      "operation": [
+        "ADD",
+        "X26",
+        "Hnew0_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 318,
+      "operation": [
+        "MOVE",
+        "X27",
+        "D3_21"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 319,
+      "operation": [
+        "ADD",
+        "X27",
+        "H0_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 320,
+      "operation": [
+        "ADD",
+        "X27",
+        "H0_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 321,
+      "operation": [
+        "ADD",
+        "X27",
+        "H0_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 322,
+      "operation": [
+        "ADD",
+        "X27",
+        "Hnew0_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 323,
+      "operation": [
+        "MOVE",
+        "X34",
+        "D3_21"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 324,
+      "operation": [
+        "ADD",
+        "X34",
+        "Hnew0_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 325,
+      "operation": [
+        "MOVE",
+        "X35",
+        "D3_21"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 326,
+      "operation": [
+        "ADD",
+        "X35",
+        "H0_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 327,
+      "operation": [
+        "ADD",
+        "X35",
+        "Hnew0_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 328,
+      "operation": [
+        "MOVE",
+        "X47",
+        "D3_21"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 329,
+      "operation": [
+        "ADD",
+        "X47",
+        "Hnew0_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 331,
+      "operation": [
+        "ADD",
+        "X18",
+        "X10"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 332,
+      "operation": [
+        "ADD",
+        "X26",
+        "X10"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 333,
+      "operation": [
+        "ADD",
+        "X27",
+        "X10"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 334,
+      "operation": [
+        "ADD",
+        "X34",
+        "X10"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 335,
+      "operation": [
+        "ADD",
+        "X35",
+        "X10"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 336,
+      "operation": [
+        "ADD",
+        "X47",
+        "X10"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 338,
+      "operation": [
+        "MOVE",
+        "X18",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 339,
+      "operation": [
+        "MOVE",
+        "X26",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 340,
+      "operation": [
+        "MOVE",
+        "X27",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 341,
+      "operation": [
+        "MOVE",
+        "X34",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 342,
+      "operation": [
+        "MOVE",
+        "X35",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 343,
+      "operation": [
+        "MOVE",
+        "X47",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 355,
+      "operation": [
+        "MOVE",
+        "X71",
+        "D76_64"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 356,
+      "operation": [
+        "ADD",
+        "X71",
+        "H2_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 357,
+      "operation": [
+        "ADD",
+        "X71",
+        "H2_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 358,
+      "operation": [
+        "ADD",
+        "X71",
+        "Hnew2_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 359,
+      "operation": [
+        "MOVE",
+        "X72",
+        "D76_64"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 360,
+      "operation": [
+        "ADD",
+        "X72",
+        "H2_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 361,
+      "operation": [
+        "ADD",
+        "X72",
+        "H2_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 362,
+      "operation": [
+        "ADD",
+        "X72",
+        "H2_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 363,
+      "operation": [
+        "ADD",
+        "X72",
+        "Hnew2_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 367,
+      "operation": [
+        "MOVE",
+        "X81",
+        "D76_64"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 368,
+      "operation": [
+        "ADD",
+        "X81",
+        "H2_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 369,
+      "operation": [
+        "ADD",
+        "X81",
+        "H2_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 370,
+      "operation": [
+        "ADD",
+        "X81",
+        "Hnew2_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 371,
+      "operation": [
+        "MOVE",
+        "X88",
+        "D76_64"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 372,
+      "operation": [
+        "ADD",
+        "X88",
+        "Hnew2_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 373,
+      "operation": [
+        "MOVE",
+        "X89",
+        "D76_64"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 374,
+      "operation": [
+        "ADD",
+        "X89",
+        "H2_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 375,
+      "operation": [
+        "ADD",
+        "X89",
+        "Hnew2_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 376,
+      "operation": [
+        "MOVE",
+        "X108",
+        "D76_64"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 377,
+      "operation": [
+        "ADD",
+        "X108",
+        "Hnew2_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 378,
+      "operation": [
+        "MOVE",
+        "X110",
+        "D76_64"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 379,
+      "operation": [
+        "ADD",
+        "X110",
+        "H2_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 380,
+      "operation": [
+        "ADD",
+        "X110",
+        "Hnew2_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 381,
+      "operation": [
+        "ADD",
+        "X71",
+        "X61"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 382,
+      "operation": [
+        "ADD",
+        "X72",
+        "X61"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 384,
+      "operation": [
+        "ADD",
+        "X81",
+        "X61"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 385,
+      "operation": [
+        "ADD",
+        "X88",
+        "X61"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 386,
+      "operation": [
+        "ADD",
+        "X89",
+        "X61"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 387,
+      "operation": [
+        "ADD",
+        "X108",
+        "X61"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 388,
+      "operation": [
+        "ADD",
+        "X110",
+        "X61"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 390,
+      "operation": [
+        "MOVE",
+        "X71",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 391,
+      "operation": [
+        "MOVE",
+        "X72",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 392,
+      "operation": [
+        "MOVE",
+        "X81",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 393,
+      "operation": [
+        "MOVE",
+        "X88",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 394,
+      "operation": [
+        "MOVE",
+        "X89",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 395,
+      "operation": [
+        "MOVE",
+        "X108",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 396,
+      "operation": [
+        "MOVE",
+        "X110",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 409,
+      "operation": [
+        "MOVE",
+        "X68",
+        "D80_65"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 410,
+      "operation": [
+        "ADD",
+        "X68",
+        "H3_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 411,
+      "operation": [
+        "ADD",
+        "X68",
+        "H3_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 412,
+      "operation": [
+        "ADD",
+        "X68",
+        "H3_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 413,
+      "operation": [
+        "ADD",
+        "X68",
+        "Hnew3_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 417,
+      "operation": [
+        "MOVE",
+        "X84",
+        "D80_65"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 418,
+      "operation": [
+        "ADD",
+        "X84",
+        "H3_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 419,
+      "operation": [
+        "ADD",
+        "X84",
+        "H3_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 420,
+      "operation": [
+        "ADD",
+        "X84",
+        "Hnew3_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 421,
+      "operation": [
+        "MOVE",
+        "X85",
+        "D80_65"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 422,
+      "operation": [
+        "ADD",
+        "X85",
+        "H3_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 423,
+      "operation": [
+        "ADD",
+        "X85",
+        "H3_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 424,
+      "operation": [
+        "ADD",
+        "X85",
+        "H3_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 425,
+      "operation": [
+        "ADD",
+        "X85",
+        "Hnew3_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 426,
+      "operation": [
+        "MOVE",
+        "X92",
+        "D80_65"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 427,
+      "operation": [
+        "ADD",
+        "X92",
+        "Hnew3_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 428,
+      "operation": [
+        "MOVE",
+        "X93",
+        "D80_65"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 429,
+      "operation": [
+        "ADD",
+        "X93",
+        "H3_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 430,
+      "operation": [
+        "ADD",
+        "X93",
+        "Hnew3_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 431,
+      "operation": [
+        "MOVE",
+        "X104",
+        "D80_65"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 432,
+      "operation": [
+        "ADD",
+        "X104",
+        "Hnew3_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 433,
+      "operation": [
+        "MOVE",
+        "X106",
+        "D80_65"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 434,
+      "operation": [
+        "ADD",
+        "X106",
+        "H3_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 435,
+      "operation": [
+        "ADD",
+        "X106",
+        "Hnew3_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 436,
+      "operation": [
+        "ADD",
+        "X68",
+        "X67"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 438,
+      "operation": [
+        "ADD",
+        "X84",
+        "X67"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 439,
+      "operation": [
+        "ADD",
+        "X85",
+        "X67"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 440,
+      "operation": [
+        "ADD",
+        "X92",
+        "X67"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 441,
+      "operation": [
+        "ADD",
+        "X93",
+        "X67"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 442,
+      "operation": [
+        "ADD",
+        "X104",
+        "X67"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 443,
+      "operation": [
+        "ADD",
+        "X106",
+        "X67"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 445,
+      "operation": [
+        "MOVE",
+        "X68",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 446,
+      "operation": [
+        "MOVE",
+        "X84",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 447,
+      "operation": [
+        "MOVE",
+        "X85",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 448,
+      "operation": [
+        "MOVE",
+        "X92",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 449,
+      "operation": [
+        "MOVE",
+        "X93",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 450,
+      "operation": [
+        "MOVE",
+        "X104",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 451,
+      "operation": [
+        "MOVE",
+        "X106",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 461,
+      "operation": [
+        "MOVE",
+        "X8",
+        "Extra6"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 462,
+      "operation": [
+        "ADD",
+        "X8",
+        "IMPORT_E8"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 464,
+      "operation": [
+        "MOVE",
+        "X8",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 465,
+      "operation": [
+        "MOVE",
+        "X9",
+        "Extra6"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 466,
+      "operation": [
+        "ADD",
+        "X9",
+        "IMPORT_E9"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 468,
+      "operation": [
+        "MOVE",
+        "X9",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 469,
+      "operation": [
+        "MOVE",
+        "X19",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 470,
+      "operation": [
+        "MOVE",
+        "X20",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 471,
+      "operation": [
+        "MOVE",
+        "X36",
+        "Extra6"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 472,
+      "operation": [
+        "ADD",
+        "X36",
+        "IMPORT_E36"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 474,
+      "operation": [
+        "MOVE",
+        "X36",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 475,
+      "operation": [
+        "MOVE",
+        "X37",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 481,
+      "operation": [
+        "MOVE",
+        "X24",
+        "F4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 482,
+      "operation": [
+        "ADD",
+        "X24",
+        "H4_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 483,
+      "operation": [
+        "ADD",
+        "X24",
+        "H4_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 484,
+      "operation": [
+        "ADD",
+        "X24",
+        "H4_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 485,
+      "operation": [
+        "MOVE",
+        "X25",
+        "F4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 486,
+      "operation": [
+        "ADD",
+        "X25",
+        "H4_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 487,
+      "operation": [
+        "ADD",
+        "X25",
+        "H4_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 488,
+      "operation": [
+        "MOVE",
+        "X51",
+        "F4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 489,
+      "operation": [
+        "ADD",
+        "X51",
+        "H4_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 490,
+      "operation": [
+        "ADD",
+        "X24",
+        "X6"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 491,
+      "operation": [
+        "MOVE",
+        "X24",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 492,
+      "operation": [
+        "ADD",
+        "X25",
+        "X6"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 493,
+      "operation": [
+        "MOVE",
+        "X25",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 494,
+      "operation": [
+        "ADD",
+        "X51",
+        "X6"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 495,
+      "operation": [
+        "MOVE",
+        "X51",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 496,
+      "operation": [
+        "MOVE",
+        "X60",
+        "C1"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 497,
+      "operation": [
+        "ADD",
+        "X60",
+        "H5_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 498,
+      "operation": [
+        "ADD",
+        "X60",
+        "H5_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 499,
+      "operation": [
+        "ADD",
+        "X60",
+        "Q1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 500,
+      "operation": [
+        "MOVE",
+        "X60",
+        "F74"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 501,
+      "operation": [
+        "ADD",
+        "X60",
+        "Q1_F74"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 502,
+      "operation": [
+        "MOVE",
+        "X60",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 503,
+      "operation": [
+        "MOVE",
+        "X62",
+        "C1"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 504,
+      "operation": [
+        "ADD",
+        "X62",
+        "H5_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 505,
+      "operation": [
+        "ADD",
+        "X62",
+        "H5_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 506,
+      "operation": [
+        "ADD",
+        "X62",
+        "Q1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 507,
+      "operation": [
+        "MOVE",
+        "X62",
+        "F74"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 508,
+      "operation": [
+        "ADD",
+        "X62",
+        "Q1_F74"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 509,
+      "operation": [
+        "MOVE",
+        "X62",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 510,
+      "operation": [
+        "MOVE",
+        "X86",
+        "C1"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 511,
+      "operation": [
+        "ADD",
+        "X86",
+        "H5_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 512,
+      "operation": [
+        "ADD",
+        "X86",
+        "H5_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 513,
+      "operation": [
+        "ADD",
+        "X86",
+        "Hnew5_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 514,
+      "operation": [
+        "ADD",
+        "X86",
+        "Q1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 515,
+      "operation": [
+        "MOVE",
+        "X86",
+        "F74"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 516,
+      "operation": [
+        "ADD",
+        "X86",
+        "Q1_F74"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 517,
+      "operation": [
+        "MOVE",
+        "X86",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 518,
+      "operation": [
+        "MOVE",
+        "X87",
+        "C1"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 519,
+      "operation": [
+        "ADD",
+        "X87",
+        "H5_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 520,
+      "operation": [
+        "ADD",
+        "X87",
+        "Hnew5_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 521,
+      "operation": [
+        "ADD",
+        "X87",
+        "Q1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 522,
+      "operation": [
+        "MOVE",
+        "X87",
+        "F74"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 523,
+      "operation": [
+        "ADD",
+        "X87",
+        "Q1_F74"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 524,
+      "operation": [
+        "MOVE",
+        "X87",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 525,
+      "operation": [
+        "MOVE",
+        "X100",
+        "C1"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 526,
+      "operation": [
+        "ADD",
+        "X100",
+        "H5_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 527,
+      "operation": [
+        "ADD",
+        "X100",
+        "H5_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 528,
+      "operation": [
+        "ADD",
+        "X100",
+        "Q1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 529,
+      "operation": [
+        "MOVE",
+        "X100",
+        "F74"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 530,
+      "operation": [
+        "ADD",
+        "X100",
+        "Q1_F74"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 531,
+      "operation": [
+        "MOVE",
+        "X100",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 532,
+      "operation": [
+        "MOVE",
+        "X101",
+        "C1"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 533,
+      "operation": [
+        "ADD",
+        "X101",
+        "H5_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 534,
+      "operation": [
+        "ADD",
+        "X101",
+        "H5_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 535,
+      "operation": [
+        "ADD",
+        "X101",
+        "H5_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 536,
+      "operation": [
+        "ADD",
+        "X101",
+        "Q1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 537,
+      "operation": [
+        "MOVE",
+        "X101",
+        "F74"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 538,
+      "operation": [
+        "ADD",
+        "X101",
+        "Q1_F74"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 539,
+      "operation": [
+        "MOVE",
+        "X101",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 540,
+      "operation": [
+        "MOVE",
+        "X102",
+        "C1"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 541,
+      "operation": [
+        "ADD",
+        "X102",
+        "H5_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 542,
+      "operation": [
+        "ADD",
+        "X102",
+        "Q1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 543,
+      "operation": [
+        "MOVE",
+        "X102",
+        "F74"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 544,
+      "operation": [
+        "ADD",
+        "X102",
+        "Q1_F74"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 545,
+      "operation": [
+        "MOVE",
+        "X102",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 546,
+      "operation": [
+        "MOVE",
+        "X103",
+        "C1"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 547,
+      "operation": [
+        "ADD",
+        "X103",
+        "H5_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 548,
+      "operation": [
+        "ADD",
+        "X103",
+        "H5_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 549,
+      "operation": [
+        "ADD",
+        "X103",
+        "Hnew5_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 550,
+      "operation": [
+        "ADD",
+        "X103",
+        "Q1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 551,
+      "operation": [
+        "MOVE",
+        "X103",
+        "F74"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 552,
+      "operation": [
+        "ADD",
+        "X103",
+        "Q1_F74"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 553,
+      "operation": [
+        "MOVE",
+        "X103",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 554,
+      "operation": [
+        "MOVE",
+        "X105",
+        "C1"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 555,
+      "operation": [
+        "ADD",
+        "X105",
+        "H5_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 556,
+      "operation": [
+        "ADD",
+        "X105",
+        "H5_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 557,
+      "operation": [
+        "ADD",
+        "X105",
+        "H5_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 558,
+      "operation": [
+        "ADD",
+        "X105",
+        "Hnew5_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 559,
+      "operation": [
+        "ADD",
+        "X105",
+        "Q1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 560,
+      "operation": [
+        "MOVE",
+        "X105",
+        "F74"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 561,
+      "operation": [
+        "ADD",
+        "X105",
+        "Q1_F74"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 562,
+      "operation": [
+        "MOVE",
+        "X105",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 563,
+      "operation": [
+        "MOVE",
+        "X0",
+        "C2"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 564,
+      "operation": [
+        "ADD",
+        "X0",
+        "H6_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 565,
+      "operation": [
+        "ADD",
+        "X0",
+        "Q2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 566,
+      "operation": [
+        "MOVE",
+        "X0",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 567,
+      "operation": [
+        "MOVE",
+        "X2",
+        "C2"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 568,
+      "operation": [
+        "ADD",
+        "X2",
+        "H6_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 569,
+      "operation": [
+        "ADD",
+        "X2",
+        "Q2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 570,
+      "operation": [
+        "MOVE",
+        "X2",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 571,
+      "operation": [
+        "MOVE",
+        "X28",
+        "C2"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 572,
+      "operation": [
+        "ADD",
+        "X28",
+        "H6_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 573,
+      "operation": [
+        "ADD",
+        "X28",
+        "Q2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 574,
+      "operation": [
+        "MOVE",
+        "X28",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 600,
+      "operation": [
+        "MOVE",
+        "X44",
+        "C2"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 601,
+      "operation": [
+        "ADD",
+        "X44",
+        "H6_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 602,
+      "operation": [
+        "ADD",
+        "X44",
+        "H6_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 603,
+      "operation": [
+        "ADD",
+        "X44",
+        "H6_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 604,
+      "operation": [
+        "ADD",
+        "X44",
+        "H6_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 605,
+      "operation": [
+        "ADD",
+        "X44",
+        "Q2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 606,
+      "operation": [
+        "MOVE",
+        "X44",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 633,
+      "operation": [
+        "MOVE",
+        "X59",
+        "C3"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 634,
+      "operation": [
+        "ADD",
+        "X59",
+        "H7_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 635,
+      "operation": [
+        "ADD",
+        "X59",
+        "H7_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 636,
+      "operation": [
+        "ADD",
+        "X59",
+        "Q3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 637,
+      "operation": [
+        "MOVE",
+        "X59",
+        "F4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 638,
+      "operation": [
+        "ADD",
+        "X59",
+        "Q3_F4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 639,
+      "operation": [
+        "MOVE",
+        "X59",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 640,
+      "operation": [
+        "MOVE",
+        "X63",
+        "C3"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 641,
+      "operation": [
+        "ADD",
+        "X63",
+        "H7_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 642,
+      "operation": [
+        "ADD",
+        "X63",
+        "H7_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 643,
+      "operation": [
+        "ADD",
+        "X63",
+        "Q3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 644,
+      "operation": [
+        "MOVE",
+        "X63",
+        "F4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 645,
+      "operation": [
+        "ADD",
+        "X63",
+        "Q3_F4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 646,
+      "operation": [
+        "MOVE",
+        "X63",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 647,
+      "operation": [
+        "MOVE",
+        "X82",
+        "C3"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 648,
+      "operation": [
+        "ADD",
+        "X82",
+        "H7_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 649,
+      "operation": [
+        "ADD",
+        "X82",
+        "H7_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 650,
+      "operation": [
+        "ADD",
+        "X82",
+        "Hnew7_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 651,
+      "operation": [
+        "ADD",
+        "X82",
+        "Q3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 652,
+      "operation": [
+        "MOVE",
+        "X82",
+        "F4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 653,
+      "operation": [
+        "ADD",
+        "X82",
+        "Q3_F4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 654,
+      "operation": [
+        "MOVE",
+        "X82",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 655,
+      "operation": [
+        "MOVE",
+        "X83",
+        "C3"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 656,
+      "operation": [
+        "ADD",
+        "X83",
+        "H7_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 657,
+      "operation": [
+        "ADD",
+        "X83",
+        "Hnew7_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 658,
+      "operation": [
+        "ADD",
+        "X83",
+        "Q3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 659,
+      "operation": [
+        "MOVE",
+        "X83",
+        "F4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 660,
+      "operation": [
+        "ADD",
+        "X83",
+        "Q3_F4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 661,
+      "operation": [
+        "MOVE",
+        "X83",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 662,
+      "operation": [
+        "MOVE",
+        "X96",
+        "C3"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 663,
+      "operation": [
+        "ADD",
+        "X96",
+        "H7_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 664,
+      "operation": [
+        "ADD",
+        "X96",
+        "H7_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 665,
+      "operation": [
+        "ADD",
+        "X96",
+        "Q3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 666,
+      "operation": [
+        "MOVE",
+        "X96",
+        "F4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 667,
+      "operation": [
+        "ADD",
+        "X96",
+        "Q3_F4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 668,
+      "operation": [
+        "MOVE",
+        "X96",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 669,
+      "operation": [
+        "MOVE",
+        "X97",
+        "C3"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 670,
+      "operation": [
+        "ADD",
+        "X97",
+        "H7_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 671,
+      "operation": [
+        "ADD",
+        "X97",
+        "H7_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 672,
+      "operation": [
+        "ADD",
+        "X97",
+        "H7_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 673,
+      "operation": [
+        "ADD",
+        "X97",
+        "Q3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 674,
+      "operation": [
+        "MOVE",
+        "X97",
+        "F4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 675,
+      "operation": [
+        "ADD",
+        "X97",
+        "Q3_F4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 676,
+      "operation": [
+        "MOVE",
+        "X97",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 677,
+      "operation": [
+        "MOVE",
+        "X98",
+        "C3"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 678,
+      "operation": [
+        "ADD",
+        "X98",
+        "H7_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 679,
+      "operation": [
+        "ADD",
+        "X98",
+        "Q3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 680,
+      "operation": [
+        "MOVE",
+        "X98",
+        "F4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 681,
+      "operation": [
+        "ADD",
+        "X98",
+        "Q3_F4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 682,
+      "operation": [
+        "MOVE",
+        "X98",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 683,
+      "operation": [
+        "MOVE",
+        "X99",
+        "C3"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 684,
+      "operation": [
+        "ADD",
+        "X99",
+        "H7_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 685,
+      "operation": [
+        "ADD",
+        "X99",
+        "H7_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 686,
+      "operation": [
+        "ADD",
+        "X99",
+        "Q3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 687,
+      "operation": [
+        "MOVE",
+        "X99",
+        "F4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 688,
+      "operation": [
+        "ADD",
+        "X99",
+        "Q3_F4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 689,
+      "operation": [
+        "MOVE",
+        "X99",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 690,
+      "operation": [
+        "MOVE",
+        "X107",
+        "C3"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 691,
+      "operation": [
+        "ADD",
+        "X107",
+        "H7_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 692,
+      "operation": [
+        "ADD",
+        "X107",
+        "H7_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 693,
+      "operation": [
+        "ADD",
+        "X107",
+        "Hnew7_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 694,
+      "operation": [
+        "ADD",
+        "X107",
+        "Q3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 695,
+      "operation": [
+        "MOVE",
+        "X107",
+        "F4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 696,
+      "operation": [
+        "ADD",
+        "X107",
+        "Q3_F4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 697,
+      "operation": [
+        "MOVE",
+        "X107",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 698,
+      "operation": [
+        "MOVE",
+        "X109",
+        "C3"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 699,
+      "operation": [
+        "ADD",
+        "X109",
+        "H7_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 700,
+      "operation": [
+        "ADD",
+        "X109",
+        "H7_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 701,
+      "operation": [
+        "ADD",
+        "X109",
+        "H7_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 702,
+      "operation": [
+        "ADD",
+        "X109",
+        "Hnew7_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 703,
+      "operation": [
+        "ADD",
+        "X109",
+        "Q3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 704,
+      "operation": [
+        "MOVE",
+        "X109",
+        "F4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 705,
+      "operation": [
+        "ADD",
+        "X109",
+        "Q3_F4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 706,
+      "operation": [
+        "MOVE",
+        "X109",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 707,
+      "operation": [
+        "MOVE",
+        "X69",
+        "F74"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 708,
+      "operation": [
+        "ADD",
+        "X69",
+        "H8_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 709,
+      "operation": [
+        "ADD",
+        "X69",
+        "H8_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 710,
+      "operation": [
+        "ADD",
+        "X69",
+        "H8_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 711,
+      "operation": [
+        "MOVE",
+        "X70",
+        "F74"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 712,
+      "operation": [
+        "ADD",
+        "X70",
+        "H8_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 713,
+      "operation": [
+        "ADD",
+        "X70",
+        "H8_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 717,
+      "operation": [
+        "MOVE",
+        "X90",
+        "F74"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 718,
+      "operation": [
+        "ADD",
+        "X90",
+        "H8_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 719,
+      "operation": [
+        "MOVE",
+        "X91",
+        "F74"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 720,
+      "operation": [
+        "ADD",
+        "X91",
+        "H8_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 721,
+      "operation": [
+        "ADD",
+        "X91",
+        "H8_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 722,
+      "operation": [
+        "ADD",
+        "X69",
+        "X75"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 723,
+      "operation": [
+        "MOVE",
+        "X69",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 724,
+      "operation": [
+        "ADD",
+        "X70",
+        "X75"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 725,
+      "operation": [
+        "MOVE",
+        "X70",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 726,
+      "operation": [
+        "ADD",
+        "X90",
+        "X75"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 727,
+      "operation": [
+        "MOVE",
+        "X90",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 728,
+      "operation": [
+        "ADD",
+        "X91",
+        "X75"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 729,
+      "operation": [
+        "MOVE",
+        "X91",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 730,
+      "operation": [
+        "MOVE",
+        "X13",
+        "C4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 731,
+      "operation": [
+        "ADD",
+        "X13",
+        "H9_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 732,
+      "operation": [
+        "ADD",
+        "X13",
+        "Hnew9_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 733,
+      "operation": [
+        "ADD",
+        "X13",
+        "Q4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 734,
+      "operation": [
+        "MOVE",
+        "X13",
+        "F78"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 735,
+      "operation": [
+        "ADD",
+        "X13",
+        "Q4_F78"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 736,
+      "operation": [
+        "MOVE",
+        "X13",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 737,
+      "operation": [
+        "MOVE",
+        "X14",
+        "C4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 738,
+      "operation": [
+        "ADD",
+        "X14",
+        "H9_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 739,
+      "operation": [
+        "ADD",
+        "X14",
+        "H9_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 740,
+      "operation": [
+        "ADD",
+        "X14",
+        "Q4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 741,
+      "operation": [
+        "MOVE",
+        "X14",
+        "F78"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 742,
+      "operation": [
+        "ADD",
+        "X14",
+        "Q4_F78"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 743,
+      "operation": [
+        "MOVE",
+        "X14",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 744,
+      "operation": [
+        "MOVE",
+        "X17",
+        "C4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 745,
+      "operation": [
+        "ADD",
+        "X17",
+        "H9_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 746,
+      "operation": [
+        "ADD",
+        "X17",
+        "H9_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 747,
+      "operation": [
+        "ADD",
+        "X17",
+        "Q4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 748,
+      "operation": [
+        "MOVE",
+        "X17",
+        "F78"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 749,
+      "operation": [
+        "ADD",
+        "X17",
+        "Q4_F78"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 750,
+      "operation": [
+        "MOVE",
+        "X17",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 751,
+      "operation": [
+        "MOVE",
+        "X32",
+        "C4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 752,
+      "operation": [
+        "ADD",
+        "X32",
+        "H9_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 753,
+      "operation": [
+        "ADD",
+        "X32",
+        "H9_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 754,
+      "operation": [
+        "ADD",
+        "X32",
+        "Hnew9_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 755,
+      "operation": [
+        "ADD",
+        "X32",
+        "Q4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 756,
+      "operation": [
+        "MOVE",
+        "X32",
+        "F78"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 757,
+      "operation": [
+        "ADD",
+        "X32",
+        "Q4_F78"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 758,
+      "operation": [
+        "MOVE",
+        "X32",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 759,
+      "operation": [
+        "MOVE",
+        "X33",
+        "C4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 760,
+      "operation": [
+        "ADD",
+        "X33",
+        "H9_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 761,
+      "operation": [
+        "ADD",
+        "X33",
+        "H9_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 762,
+      "operation": [
+        "ADD",
+        "X33",
+        "H9_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 763,
+      "operation": [
+        "ADD",
+        "X33",
+        "Hnew9_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 764,
+      "operation": [
+        "ADD",
+        "X33",
+        "Q4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 765,
+      "operation": [
+        "MOVE",
+        "X33",
+        "F78"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 766,
+      "operation": [
+        "ADD",
+        "X33",
+        "Q4_F78"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 767,
+      "operation": [
+        "MOVE",
+        "X33",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 768,
+      "operation": [
+        "MOVE",
+        "X52",
+        "C4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 769,
+      "operation": [
+        "ADD",
+        "X52",
+        "H9_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 770,
+      "operation": [
+        "ADD",
+        "X52",
+        "H9_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 771,
+      "operation": [
+        "ADD",
+        "X52",
+        "H9_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 772,
+      "operation": [
+        "ADD",
+        "X52",
+        "Q4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 773,
+      "operation": [
+        "MOVE",
+        "X52",
+        "F78"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 774,
+      "operation": [
+        "ADD",
+        "X52",
+        "Q4_F78"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 775,
+      "operation": [
+        "MOVE",
+        "X52",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 776,
+      "operation": [
+        "MOVE",
+        "X55",
+        "C4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 777,
+      "operation": [
+        "ADD",
+        "X55",
+        "H9_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 778,
+      "operation": [
+        "ADD",
+        "X55",
+        "Q4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 779,
+      "operation": [
+        "MOVE",
+        "X55",
+        "F78"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 780,
+      "operation": [
+        "ADD",
+        "X55",
+        "Q4_F78"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 781,
+      "operation": [
+        "MOVE",
+        "X55",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 782,
+      "operation": [
+        "MOVE",
+        "X56",
+        "C4"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 783,
+      "operation": [
+        "ADD",
+        "X56",
+        "H9_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 784,
+      "operation": [
+        "ADD",
+        "X56",
+        "H9_1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 785,
+      "operation": [
+        "ADD",
+        "X56",
+        "Q4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 786,
+      "operation": [
+        "MOVE",
+        "X56",
+        "F78"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 787,
+      "operation": [
+        "ADD",
+        "X56",
+        "Q4_F78"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 788,
+      "operation": [
+        "MOVE",
+        "X56",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 789,
+      "operation": [
+        "MOVE",
+        "X66",
+        "F78"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 790,
+      "operation": [
+        "ADD",
+        "X66",
+        "H10_2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 791,
+      "operation": [
+        "ADD",
+        "X66",
+        "H10_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 795,
+      "operation": [
+        "MOVE",
+        "X94",
+        "F78"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 796,
+      "operation": [
+        "ADD",
+        "X94",
+        "H10_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 797,
+      "operation": [
+        "MOVE",
+        "X95",
+        "F78"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 798,
+      "operation": [
+        "ADD",
+        "X95",
+        "H10_0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 799,
+      "operation": [
+        "ADD",
+        "X95",
+        "H10_3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 800,
+      "operation": [
+        "ADD",
+        "X66",
+        "X79"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 801,
+      "operation": [
+        "MOVE",
+        "X66",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 802,
+      "operation": [
+        "ADD",
+        "X94",
+        "X79"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 803,
+      "operation": [
+        "MOVE",
+        "X94",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 804,
+      "operation": [
+        "ADD",
+        "X95",
+        "X79"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 805,
+      "operation": [
+        "MOVE",
+        "X95",
+        "Hub"
+      ],
+      "reason": "free original route"
+    },
+    {
+      "index": 815,
+      "operation": [
+        "ADD",
+        "X11",
+        "P0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 817,
+      "operation": [
+        "ADD",
+        "X26",
+        "P0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 818,
+      "operation": [
+        "ADD",
+        "X31",
+        "P0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 819,
+      "operation": [
+        "ADD",
+        "X34",
+        "P0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 822,
+      "operation": [
+        "ADD",
+        "X47",
+        "P0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 824,
+      "operation": [
+        "ADD",
+        "X54",
+        "P0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 825,
+      "operation": [
+        "ADD",
+        "X57",
+        "P0"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 870,
+      "operation": [
+        "ADD",
+        "X18",
+        "X10"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 871,
+      "operation": [
+        "ADD",
+        "X26",
+        "X10"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 872,
+      "operation": [
+        "ADD",
+        "X27",
+        "X10"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 873,
+      "operation": [
+        "ADD",
+        "X34",
+        "X10"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 874,
+      "operation": [
+        "ADD",
+        "X35",
+        "X10"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 875,
+      "operation": [
+        "ADD",
+        "X47",
+        "X10"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 876,
+      "operation": [
+        "ADD",
+        "X5",
+        "P1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 877,
+      "operation": [
+        "ADD",
+        "X7",
+        "P1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 878,
+      "operation": [
+        "ADD",
+        "X11",
+        "P1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 879,
+      "operation": [
+        "ADD",
+        "X12",
+        "P1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 880,
+      "operation": [
+        "ADD",
+        "X15",
+        "P1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 885,
+      "operation": [
+        "ADD",
+        "X31",
+        "P1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 891,
+      "operation": [
+        "ADD",
+        "X50",
+        "P1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 892,
+      "operation": [
+        "ADD",
+        "X53",
+        "P1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 893,
+      "operation": [
+        "ADD",
+        "X54",
+        "P1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 894,
+      "operation": [
+        "ADD",
+        "X57",
+        "P1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 895,
+      "operation": [
+        "ADD",
+        "X58",
+        "P1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 896,
+      "operation": [
+        "ADD",
+        "X71",
+        "P1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 898,
+      "operation": [
+        "ADD",
+        "X81",
+        "P1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 899,
+      "operation": [
+        "ADD",
+        "X88",
+        "P1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 900,
+      "operation": [
+        "ADD",
+        "X108",
+        "P1"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 940,
+      "operation": [
+        "ADD",
+        "X71",
+        "X61"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 941,
+      "operation": [
+        "ADD",
+        "X72",
+        "X61"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 943,
+      "operation": [
+        "ADD",
+        "X81",
+        "X61"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 944,
+      "operation": [
+        "ADD",
+        "X88",
+        "X61"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 945,
+      "operation": [
+        "ADD",
+        "X89",
+        "X61"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 946,
+      "operation": [
+        "ADD",
+        "X108",
+        "X61"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 947,
+      "operation": [
+        "ADD",
+        "X110",
+        "X61"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 948,
+      "operation": [
+        "ADD",
+        "X5",
+        "P2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 949,
+      "operation": [
+        "ADD",
+        "X7",
+        "P2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 950,
+      "operation": [
+        "ADD",
+        "X11",
+        "P2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 951,
+      "operation": [
+        "ADD",
+        "X12",
+        "P2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 952,
+      "operation": [
+        "ADD",
+        "X15",
+        "P2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 957,
+      "operation": [
+        "ADD",
+        "X31",
+        "P2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 963,
+      "operation": [
+        "ADD",
+        "X50",
+        "P2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 964,
+      "operation": [
+        "ADD",
+        "X53",
+        "P2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 965,
+      "operation": [
+        "ADD",
+        "X54",
+        "P2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 966,
+      "operation": [
+        "ADD",
+        "X57",
+        "P2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 967,
+      "operation": [
+        "ADD",
+        "X58",
+        "P2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 969,
+      "operation": [
+        "ADD",
+        "X68",
+        "P2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 971,
+      "operation": [
+        "ADD",
+        "X85",
+        "P2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 972,
+      "operation": [
+        "ADD",
+        "X93",
+        "P2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 973,
+      "operation": [
+        "ADD",
+        "X106",
+        "P2"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1017,
+      "operation": [
+        "ADD",
+        "X68",
+        "X67"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1019,
+      "operation": [
+        "ADD",
+        "X84",
+        "X67"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1020,
+      "operation": [
+        "ADD",
+        "X85",
+        "X67"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1021,
+      "operation": [
+        "ADD",
+        "X92",
+        "X67"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1022,
+      "operation": [
+        "ADD",
+        "X93",
+        "X67"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1023,
+      "operation": [
+        "ADD",
+        "X104",
+        "X67"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1024,
+      "operation": [
+        "ADD",
+        "X106",
+        "X67"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1026,
+      "operation": [
+        "ADD",
+        "X25",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1029,
+      "operation": [
+        "ADD",
+        "X44",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1031,
+      "operation": [
+        "ADD",
+        "X59",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1032,
+      "operation": [
+        "ADD",
+        "X60",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1033,
+      "operation": [
+        "ADD",
+        "X62",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1034,
+      "operation": [
+        "ADD",
+        "X63",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1035,
+      "operation": [
+        "ADD",
+        "X82",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1036,
+      "operation": [
+        "ADD",
+        "X83",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1037,
+      "operation": [
+        "ADD",
+        "X87",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1038,
+      "operation": [
+        "ADD",
+        "X96",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1039,
+      "operation": [
+        "ADD",
+        "X97",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1040,
+      "operation": [
+        "ADD",
+        "X98",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1041,
+      "operation": [
+        "ADD",
+        "X99",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1042,
+      "operation": [
+        "ADD",
+        "X100",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1043,
+      "operation": [
+        "ADD",
+        "X105",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1044,
+      "operation": [
+        "ADD",
+        "X107",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1045,
+      "operation": [
+        "ADD",
+        "X109",
+        "P3"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1082,
+      "operation": [
+        "ADD",
+        "X24",
+        "X6"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1083,
+      "operation": [
+        "ADD",
+        "X25",
+        "X6"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1084,
+      "operation": [
+        "ADD",
+        "X51",
+        "X6"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1085,
+      "operation": [
+        "ADD",
+        "X0",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1086,
+      "operation": [
+        "ADD",
+        "X2",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1087,
+      "operation": [
+        "ADD",
+        "X13",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1088,
+      "operation": [
+        "ADD",
+        "X14",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1089,
+      "operation": [
+        "ADD",
+        "X17",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1090,
+      "operation": [
+        "ADD",
+        "X28",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1092,
+      "operation": [
+        "ADD",
+        "X33",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1095,
+      "operation": [
+        "ADD",
+        "X44",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1099,
+      "operation": [
+        "ADD",
+        "X56",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1100,
+      "operation": [
+        "ADD",
+        "X60",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1101,
+      "operation": [
+        "ADD",
+        "X62",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1102,
+      "operation": [
+        "ADD",
+        "X70",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1104,
+      "operation": [
+        "ADD",
+        "X86",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1105,
+      "operation": [
+        "ADD",
+        "X87",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1106,
+      "operation": [
+        "ADD",
+        "X91",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1107,
+      "operation": [
+        "ADD",
+        "X100",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1108,
+      "operation": [
+        "ADD",
+        "X101",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1109,
+      "operation": [
+        "ADD",
+        "X102",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1110,
+      "operation": [
+        "ADD",
+        "X103",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1111,
+      "operation": [
+        "ADD",
+        "X105",
+        "P4"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1144,
+      "operation": [
+        "ADD",
+        "X69",
+        "X75"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1145,
+      "operation": [
+        "ADD",
+        "X70",
+        "X75"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1146,
+      "operation": [
+        "ADD",
+        "X90",
+        "X75"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1147,
+      "operation": [
+        "ADD",
+        "X91",
+        "X75"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1148,
+      "operation": [
+        "ADD",
+        "X0",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1149,
+      "operation": [
+        "ADD",
+        "X2",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1150,
+      "operation": [
+        "ADD",
+        "X13",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1151,
+      "operation": [
+        "ADD",
+        "X14",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1152,
+      "operation": [
+        "ADD",
+        "X17",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1153,
+      "operation": [
+        "ADD",
+        "X28",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1155,
+      "operation": [
+        "ADD",
+        "X32",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1156,
+      "operation": [
+        "ADD",
+        "X33",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1159,
+      "operation": [
+        "ADD",
+        "X44",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1163,
+      "operation": [
+        "ADD",
+        "X52",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1164,
+      "operation": [
+        "ADD",
+        "X55",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1165,
+      "operation": [
+        "ADD",
+        "X56",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1166,
+      "operation": [
+        "ADD",
+        "X59",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1167,
+      "operation": [
+        "ADD",
+        "X63",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1168,
+      "operation": [
+        "ADD",
+        "X66",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1170,
+      "operation": [
+        "ADD",
+        "X83",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1171,
+      "operation": [
+        "ADD",
+        "X95",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1172,
+      "operation": [
+        "ADD",
+        "X96",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1173,
+      "operation": [
+        "ADD",
+        "X99",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1174,
+      "operation": [
+        "ADD",
+        "X109",
+        "P5"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1219,
+      "operation": [
+        "ADD",
+        "ZRAW0",
+        "Y0"
+      ],
+      "reason": "projected protected-cache read"
+    },
+    {
+      "index": 1222,
+      "operation": [
+        "ADD",
+        "ZRAW28",
+        "Y28"
+      ],
+      "reason": "projected protected-cache read"
+    },
+    {
+      "index": 1225,
+      "operation": [
+        "ADD",
+        "ZRAW44",
+        "Y44"
+      ],
+      "reason": "projected protected-cache read"
+    },
+    {
+      "index": 1254,
+      "operation": [
+        "ADD",
+        "X66",
+        "X79"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1255,
+      "operation": [
+        "ADD",
+        "X94",
+        "X79"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1256,
+      "operation": [
+        "ADD",
+        "X95",
+        "X79"
+      ],
+      "reason": "projected original read"
+    },
+    {
+      "index": 1258,
+      "operation": [
+        "ADD",
+        "COMMON_RAW2",
+        "Y2"
+      ],
+      "reason": "projected protected-cache read"
+    },
+    {
+      "index": 1262,
+      "operation": [
+        "ADD",
+        "ADDED_RAW8",
+        "Y8"
+      ],
+      "reason": "projected protected-cache read"
+    },
+    {
+      "index": 1264,
+      "operation": [
+        "ADD",
+        "ADDED_RAW9",
+        "Y9"
+      ],
+      "reason": "projected protected-cache read"
+    },
+    {
+      "index": 1280,
+      "operation": [
+        "ADD",
+        "DIRECT_RAW20",
+        "Y20"
+      ],
+      "reason": "projected protected-cache read"
+    },
+    {
+      "index": 1307,
+      "operation": [
+        "ADD",
+        "ADDED_RAW36",
+        "Y36"
+      ],
+      "reason": "projected protected-cache read"
+    },
+    {
+      "index": 1309,
+      "operation": [
+        "ADD",
+        "ADDED_RAW37",
+        "Y37"
+      ],
+      "reason": "projected protected-cache read"
+    },
+    {
+      "index": 1346,
+      "operation": [
+        "ADD",
+        "ZRAW0",
+        "Y45"
+      ],
+      "reason": "projected protected-cache read"
+    },
+    {
+      "index": 1347,
+      "operation": [
+        "ADD",
+        "ZRAW44",
+        "Y45"
+      ],
+      "reason": "projected protected-cache read"
+    },
+    {
+      "index": 1359,
+      "operation": [
+        "ADD",
+        "ZRAW0",
+        "Y48"
+      ],
+      "reason": "projected protected-cache read"
+    },
+    {
+      "index": 1360,
+      "operation": [
+        "ADD",
+        "ZRAW44",
+        "Y48"
+      ],
+      "reason": "projected protected-cache read"
+    },
+    {
+      "index": 1368,
+      "operation": [
+        "ADD",
+        "ZRAW0",
+        "Y49"
+      ],
+      "reason": "projected protected-cache read"
+    },
+    {
+      "index": 1369,
+      "operation": [
+        "ADD",
+        "ZRAW44",
+        "Y49"
+      ],
+      "reason": "projected protected-cache read"
+    },
+    {
+      "index": 1375,
+      "operation": [
+        "ADD",
+        "ADDED_RAW50",
+        "Y50"
+      ],
+      "reason": "projected protected-cache read"
+    }
+  ],
+  "inserted": [
+    {
+      "index": 668,
+      "operation": [
+        "ADD",
+        "ZRAW0",
+        "Y0"
+      ],
+      "reason": "independent native backup endpoint repair"
+    },
+    {
+      "index": 670,
+      "operation": [
+        "ADD",
+        "COMMON_RAW2",
+        "Y2"
+      ],
+      "reason": "independent native backup endpoint repair"
+    },
+    {
+      "index": 674,
+      "operation": [
+        "ADD",
+        "ADDED_RAW8",
+        "Y8"
+      ],
+      "reason": "independent native backup endpoint repair"
+    },
+    {
+      "index": 676,
+      "operation": [
+        "ADD",
+        "ADDED_RAW9",
+        "Y9"
+      ],
+      "reason": "independent native backup endpoint repair"
+    },
+    {
+      "index": 692,
+      "operation": [
+        "ADD",
+        "DIRECT_RAW20",
+        "Y20"
+      ],
+      "reason": "independent native backup endpoint repair"
+    },
+    {
+      "index": 703,
+      "operation": [
+        "ADD",
+        "ZRAW28",
+        "Y28"
+      ],
+      "reason": "independent native backup endpoint repair"
+    },
+    {
+      "index": 720,
+      "operation": [
+        "ADD",
+        "ADDED_RAW36",
+        "Y36"
+      ],
+      "reason": "independent native backup endpoint repair"
+    },
+    {
+      "index": 722,
+      "operation": [
+        "ADD",
+        "ADDED_RAW37",
+        "Y37"
+      ],
+      "reason": "independent native backup endpoint repair"
+    },
+    {
+      "index": 756,
+      "operation": [
+        "ADD",
+        "ZRAW44",
+        "Y44"
+      ],
+      "reason": "independent native backup endpoint repair"
+    },
+    {
+      "index": 783,
+      "operation": [
+        "ADD",
+        "ADDED_RAW50",
+        "Y50"
+      ],
+      "reason": "independent native backup endpoint repair"
+    },
+    {
+      "index": 835,
+      "operation": [
+        "MOVE",
+        "X0",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 836,
+      "operation": [
+        "MOVE",
+        "X2",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 837,
+      "operation": [
+        "MOVE",
+        "X5",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 838,
+      "operation": [
+        "MOVE",
+        "X7",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 839,
+      "operation": [
+        "MOVE",
+        "X8",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 840,
+      "operation": [
+        "MOVE",
+        "X9",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 841,
+      "operation": [
+        "MOVE",
+        "X11",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 842,
+      "operation": [
+        "MOVE",
+        "X12",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 843,
+      "operation": [
+        "MOVE",
+        "X13",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 844,
+      "operation": [
+        "MOVE",
+        "X14",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 845,
+      "operation": [
+        "MOVE",
+        "X15",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 846,
+      "operation": [
+        "MOVE",
+        "X17",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 847,
+      "operation": [
+        "MOVE",
+        "X18",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 848,
+      "operation": [
+        "MOVE",
+        "X19",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 849,
+      "operation": [
+        "MOVE",
+        "X20",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 850,
+      "operation": [
+        "MOVE",
+        "X24",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 851,
+      "operation": [
+        "MOVE",
+        "X25",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 852,
+      "operation": [
+        "MOVE",
+        "X26",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 853,
+      "operation": [
+        "MOVE",
+        "X27",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 854,
+      "operation": [
+        "MOVE",
+        "X28",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 855,
+      "operation": [
+        "MOVE",
+        "X31",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 856,
+      "operation": [
+        "MOVE",
+        "X32",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 857,
+      "operation": [
+        "MOVE",
+        "X33",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 858,
+      "operation": [
+        "MOVE",
+        "X34",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 859,
+      "operation": [
+        "MOVE",
+        "X35",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 860,
+      "operation": [
+        "MOVE",
+        "X36",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 861,
+      "operation": [
+        "MOVE",
+        "X37",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 862,
+      "operation": [
+        "MOVE",
+        "X44",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 863,
+      "operation": [
+        "MOVE",
+        "X47",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 864,
+      "operation": [
+        "MOVE",
+        "X50",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 865,
+      "operation": [
+        "MOVE",
+        "X51",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 866,
+      "operation": [
+        "MOVE",
+        "X52",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 867,
+      "operation": [
+        "MOVE",
+        "X53",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 868,
+      "operation": [
+        "MOVE",
+        "X54",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 869,
+      "operation": [
+        "MOVE",
+        "X55",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 870,
+      "operation": [
+        "MOVE",
+        "X56",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 871,
+      "operation": [
+        "MOVE",
+        "X57",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 872,
+      "operation": [
+        "MOVE",
+        "X58",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 873,
+      "operation": [
+        "MOVE",
+        "X59",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 874,
+      "operation": [
+        "MOVE",
+        "X60",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 875,
+      "operation": [
+        "MOVE",
+        "X62",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 876,
+      "operation": [
+        "MOVE",
+        "X63",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 877,
+      "operation": [
+        "MOVE",
+        "X66",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 878,
+      "operation": [
+        "MOVE",
+        "X68",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 879,
+      "operation": [
+        "MOVE",
+        "X69",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 880,
+      "operation": [
+        "MOVE",
+        "X70",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 881,
+      "operation": [
+        "MOVE",
+        "X71",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 882,
+      "operation": [
+        "MOVE",
+        "X72",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 883,
+      "operation": [
+        "MOVE",
+        "X81",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 884,
+      "operation": [
+        "MOVE",
+        "X82",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 885,
+      "operation": [
+        "MOVE",
+        "X83",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 886,
+      "operation": [
+        "MOVE",
+        "X84",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 887,
+      "operation": [
+        "MOVE",
+        "X85",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 888,
+      "operation": [
+        "MOVE",
+        "X86",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 889,
+      "operation": [
+        "MOVE",
+        "X87",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 890,
+      "operation": [
+        "MOVE",
+        "X88",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 891,
+      "operation": [
+        "MOVE",
+        "X89",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 892,
+      "operation": [
+        "MOVE",
+        "X90",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 893,
+      "operation": [
+        "MOVE",
+        "X91",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 894,
+      "operation": [
+        "MOVE",
+        "X92",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 895,
+      "operation": [
+        "MOVE",
+        "X93",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 896,
+      "operation": [
+        "MOVE",
+        "X94",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 897,
+      "operation": [
+        "MOVE",
+        "X95",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 898,
+      "operation": [
+        "MOVE",
+        "X96",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 899,
+      "operation": [
+        "MOVE",
+        "X97",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 900,
+      "operation": [
+        "MOVE",
+        "X98",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 901,
+      "operation": [
+        "MOVE",
+        "X99",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 902,
+      "operation": [
+        "MOVE",
+        "X100",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 903,
+      "operation": [
+        "MOVE",
+        "X101",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 904,
+      "operation": [
+        "MOVE",
+        "X102",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 905,
+      "operation": [
+        "MOVE",
+        "X103",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 906,
+      "operation": [
+        "MOVE",
+        "X104",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 907,
+      "operation": [
+        "MOVE",
+        "X105",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 908,
+      "operation": [
+        "MOVE",
+        "X106",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 909,
+      "operation": [
+        "MOVE",
+        "X107",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 910,
+      "operation": [
+        "MOVE",
+        "X108",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 911,
+      "operation": [
+        "MOVE",
+        "X109",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    },
+    {
+      "index": 912,
+      "operation": [
+        "MOVE",
+        "X110",
+        "Hub"
+      ],
+      "reason": "raw carrier closure control"
+    }
+  ],
+  "controls": [
+    {
+      "omitted": [
+        "ADD",
+        "X7",
+        "RAW7"
+      ],
+      "rejected": "('Y endpoint', 7)"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "RAW7",
+        "P0"
+      ],
+      "rejected": "('Y endpoint', 7)"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "P0",
+        "Y7"
+      ],
+      "rejected": "('Y endpoint', 7)"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "X11",
+        "RAW11"
+      ],
+      "rejected": "('Y endpoint', 11)"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "RAW11",
+        "P1"
+      ],
+      "rejected": "('Y endpoint', 11)"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "P1",
+        "Y11"
+      ],
+      "rejected": "('Y endpoint', 11)"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "X12",
+        "RAW12"
+      ],
+      "rejected": "('Y endpoint', 12)"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "RAW12",
+        "P2"
+      ],
+      "rejected": "('Y endpoint', 12)"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "P2",
+        "Y12"
+      ],
+      "rejected": "('Y endpoint', 12)"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "X19",
+        "HRAW19"
+      ],
+      "rejected": "('Y endpoint', 19)"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "HRAW19",
+        "P6"
+      ],
+      "rejected": "('Y endpoint', 19)"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "P6",
+        "Y19"
+      ],
+      "rejected": "('Y endpoint', 19)"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "X27",
+        "HRAW27"
+      ],
+      "rejected": "('Y endpoint', 27)"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "HRAW27",
+        "P7"
+      ],
+      "rejected": "('Y endpoint', 27)"
+    },
+    {
+      "omitted": [
+        "ADD",
+        "P7",
+        "Y27"
+      ],
+      "rejected": "('Y endpoint', 27)"
+    }
+  ],
+  "scope": "All46 endpoints/all222 columns preserved,78 immutable original routes detached;15 completed carriers have actual protected native-to-ground data through10 dedicated returns and5 existing packet suffixes. Higher source/history values are projected.63 released unfinished input directions still need new acquisition/delivery. No new complete supplier or kappa.",
+  "new_complete_kappa": false
+}
