@@ -717,3 +717,20 @@ all64 cubic entries,26,880 admission involutions and the all-width lattice proof
 Ten checkpoint reproduction commands pass. Author reruns are labelled separately
 from independent implementations. Full caller/foundation proof is not claimed.
 See sessions/2026-11-16-S016/reproduce-checkpoint3.py and CHECKPOINT3-VALIDATION.json.
+
+## S016 checkpoint4: actual forks, histories and nonlinear source classes
+
+Eighteen reproduction commands rebuild three exact source words byte-for-byte,
+then run independent chart, column, history, visibility and price engines.
+Root checks all222 columns and directed prices for each word. C independently
+reconstructs128/143 actual observations, all44 query differences, live W15
+intersections with Y nuisance columns retained, and the precise frozen-capture
+visibility bound. The fifteen-history final review and interpreter are pinned.
+
+Root independently verifies all256 Boolean-sign source tables and their full
+gauges over Gaussian integers, plus36 larger-d cases/168 spectator blocks and
+Fano normalizers. B independently proves/checks root's128-table reduction,
+all-width spectral separation and literal polynomial K sign bridge; a separate
+receipt pins the final root proof. Actual sign overhead is2 unit ADDs+2 sign
+passes, not a free coefficient-2 ADD. All proofs retain physical source and
+foundational conditions. See CHECKPOINT4-VALIDATION.json and the CP4 runner.

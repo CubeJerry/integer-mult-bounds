@@ -1,0 +1,224 @@
+{
+  "status": "PASS_BOOLEAN_SIGNED_NATIVE_FAMILY",
+  "three_bit_tables": 256,
+  "order_classification": {
+    "finite": 128,
+    "infinite": 128
+  },
+  "trace_bracket_distribution": {
+    "-8": 16,
+    "-6": 32,
+    "-4": 16,
+    "-2": 32,
+    "0": 64,
+    "2": 32,
+    "4": 16,
+    "6": 32,
+    "8": 16
+  },
+  "source_square_and_cube_normalizers": "exact complete entries for all256tables",
+  "width_two_controls": [
+    {
+      "mask": 0,
+      "V": 2,
+      "dimension": 64,
+      "all_independent_columns": 64
+    },
+    {
+      "mask": 1,
+      "V": 2,
+      "dimension": 64,
+      "all_independent_columns": 64
+    },
+    {
+      "mask": 37,
+      "V": 2,
+      "dimension": 64,
+      "all_independent_columns": 64
+    },
+    {
+      "mask": 128,
+      "V": 2,
+      "dimension": 64,
+      "all_independent_columns": 64
+    },
+    {
+      "mask": 255,
+      "V": 2,
+      "dimension": 64,
+      "all_independent_columns": 64
+    }
+  ],
+  "larger_dimension_controls": [
+    {
+      "d": 4,
+      "mask": 0,
+      "source_and_cube": true
+    },
+    {
+      "d": 4,
+      "mask": 65535,
+      "source_and_cube": true
+    },
+    {
+      "d": 4,
+      "mask": 1,
+      "source_and_cube": true
+    },
+    {
+      "d": 4,
+      "mask": 32768,
+      "source_and_cube": true
+    },
+    {
+      "d": 4,
+      "mask": 32896,
+      "source_and_cube": true
+    },
+    {
+      "d": 4,
+      "mask": 27030,
+      "source_and_cube": true
+    },
+    {
+      "d": 4,
+      "mask": 47317,
+      "source_and_cube": true
+    },
+    {
+      "d": 4,
+      "mask": 4548,
+      "source_and_cube": true
+    },
+    {
+      "d": 4,
+      "mask": 45770,
+      "source_and_cube": true
+    },
+    {
+      "d": 4,
+      "mask": 35115,
+      "source_and_cube": true
+    },
+    {
+      "d": 4,
+      "mask": 58717,
+      "source_and_cube": true
+    },
+    {
+      "d": 4,
+      "mask": 53371,
+      "source_and_cube": true
+    },
+    {
+      "d": 4,
+      "mask": 62777,
+      "source_and_cube": true
+    },
+    {
+      "d": 4,
+      "mask": 6907,
+      "source_and_cube": true
+    },
+    {
+      "d": 4,
+      "mask": 65316,
+      "source_and_cube": true
+    },
+    {
+      "d": 4,
+      "mask": 63127,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 0,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 4294967295,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 1,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 2147483648,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 2155905152,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 2523490710,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 20087668,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 1664357921,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 1901563445,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 432635550,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 2938265349,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 3267078747,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 2187518235,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 1642244438,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 2513165633,
+      "source_and_cube": true
+    },
+    {
+      "d": 5,
+      "mask": 1136176654,
+      "source_and_cube": true
+    }
+  ],
+  "negative_controls": [
+    "source_sign_table",
+    "source_residual_phase",
+    "cube_left_phase",
+    "cube_right_permutation",
+    "tensor_exterior_minus",
+    "broken_Hadamard"
+  ],
+  "universal_proof": "unique three-bit paths plus elementary Fano normalization; trace/determinant parity classification",
+  "scope": "exact source family and conditional physical interface; profitable caller unresolved; No new kappa"
+}

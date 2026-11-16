@@ -1,22 +1,23 @@
 # Exact requirements for κ = 1/200
 
-## S016 checkpoint3: partial-source room and an enlarged source class
+## S016 checkpoint4: complete-history room and source normalization
 
-The admitted twelve-output BIT profile is
-54[1]+50[2]+10[3]+10[4]+50[5]+45[6]+117[7]+8[8], [r]=r^(199/200).
-Q=1613.209752677871640710... leaves8.541127533280714536... below the retained
-limiting allowance; the first hypothetical complete even caller is m4. The
-same-S8 direct control is larger by1.081867554906538471.... These are partial
-prices: seven W directions and99 corrections still need actual delivery.
-The displayed room cannot certify their costs or a full native/application.
+The actual fifteen-output fork costs Q=1613.648962289119435370..., saving
+3.642657943658743811... against the same-S8 direct15-point control. The full
+W15-history composition costs Q=1614.00488655802050530..., leaving only
+7.74599365313... below the retained limiting allowance. Its first hypothetical
+even complete-native comparison is m4. All96 missing endpoints, actual delivery
+of history combinations, ordinary/compiler/precision/recursive expenses remain.
+The frozen history is not a set of free co-located W15 records.
 
-The nonlinear A has exact rank-two/three Gaussian powers with paid monomial
-gauges. Three natives plus formal(3,2,2) wrappers need7 Toffolis,11 affine
-services and13 phase passes before interstage work. Their physical tariff is
-conditionally derived; a caller producing all independent endpoints is missing.
-The formal profile3[1]+6[7]+3[8] is not a supplier certificate. All strict
-complex, covered/completed BIT and outer inequalities below remain in force,
-as do the five foundational assumptions and complete recursive costs.
+The Boolean-sign complex family retains the formal Gaussian profile
+3[1]+6[7]+3[8] for a hypothetical(3,2,2) caller. Three native and four endpoint
+adapters have an explicit conservative invoice22 SWAPs,5 NOTs,13 CNOTs,
+7 Toffolis,13 phase passes, plus caller operations. Every odd source reduces
+to one of four genuinely different types. Its negative global sign costs two
+unit ADDs and two SCALE(-1) passes in the literal native adapter; frame services
+are additionally paid. This preserves Gaussian counts, not an unproved full
+supplier budget. All strict interface inequalities below remain unchanged.
 
 
 ## S016 current extension and economic screen

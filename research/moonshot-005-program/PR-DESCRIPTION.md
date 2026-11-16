@@ -1,20 +1,19 @@
 # Construct chronological shared-facet decoders and prove source and Gaussian-rank constraints toward κ = 0.005
 
-## Latest verified extension (S016 checkpoint3)
+## Latest verified extension (S016 checkpoint4)
 
-The programme adds a real twelve-output BIT source from eight singular fitting
-seeds and six dual-use point grants, with independently checked same-interface
-movement saving and complete information cuts. An infinite-order nonlinear
-complex native has exact rank-two/three powers. A compact-control construction
-lowers every fixed finite monomial table to paid retained primitives, including
-actual inverses and exact exceptional repair.
+The source now includes a reversible15-output BIT fork and separately rebuilt
+full-W15 chronological history. Independent replay and visibility bounds distinguish
+acquired history from actual delivery. The Boolean-sign complex family admits
+constructive square/cube forms and an exact finite/infinite-order classification.
+Its128 nonlinear tables reduce to four projective types at every width, with
+paid adapters through the actual native bank word.
 
-These remove specific source and physical-interface obstacles. They do not
-complete the111-output decoder or a profitable nonlinear caller. **No new κ.**
-All five foundations remain. This is an ongoing integrated programme, not yet
-a PR-ready multiplication construction. Admission packages contain exact pins,
-reproduction commands, independent reviews, @CubeJerry/predecessor credit and
-OpenAI-assistance disclosure.
+The complete111-output decoder and profitable nonlinear caller remain open.
+**No new κ.** All five foundations remain. This is an ongoing integrated
+programme, not a newly PR-ready multiplication theorem. Admission packages
+retain pins, operation invoices, independent AI reviews, negative controls,
+@CubeJerry/predecessor credit and OpenAI disclosure.
 
 
 ## Latest extension: earlier acquisition and its limits

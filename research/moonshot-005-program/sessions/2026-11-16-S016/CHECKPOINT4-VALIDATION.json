@@ -1,0 +1,285 @@
+{
+  "status": "PASS_CP4_REVIEW_AND_INTEGRITY",
+  "baseline_sha": "b8d03fe19506e4b7fd93f0f72f4f17a71c2fe89f",
+  "scientific_entries": 5841,
+  "available_hash_checked": 5839,
+  "historical_unavailable_unchanged": [
+    "results/bit-joint-multicast/mixed-author/__pycache__/build_mixed.cpython-312.pyc",
+    "results/four-call-dyadic-entry/review/replay.log"
+  ],
+  "registered_results": 387,
+  "reproduction": {
+    "status": "PASS_CP4_REPRODUCTION",
+    "rebuilt_words": 3,
+    "commands": [
+      {
+        "name": "fifteen-build",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/author/fifteen/build.py",
+          "--repo",
+          "/workspace/scratch/6e036830f982/programme",
+          "--base",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-singular-eight-seed-source/author/output/WORD.json",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/fifteen"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "history-twelve-build",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/author/history-twelve/build.py",
+          "--repo",
+          "/workspace/scratch/6e036830f982/programme",
+          "--base",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-singular-eight-seed-source/author/output/WORD.json",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-twelve"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "fifteen-author-check",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/author/fifteen/check.py",
+          "--repo",
+          "/workspace/scratch/6e036830f982/programme",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/fifteen"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "history-twelve-author-check",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/author/history-twelve/check.py",
+          "--repo",
+          "/workspace/scratch/6e036830f982/programme",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-twelve"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "fifteen-price",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/author/fifteen/price.py",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/fifteen"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "history-twelve-price",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/author/history-twelve/price.py",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-twelve"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "history-twelve-author-history",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/author/history-twelve/history.py",
+          "--repo",
+          "/workspace/scratch/6e036830f982/programme",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-twelve"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "history-fifteen-build",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/author/history-fifteen/build.py",
+          "--repo",
+          "/workspace/scratch/6e036830f982/programme",
+          "--base",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/fifteen/WORD.json",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-fifteen",
+          "--filters",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-twelve/WORD.json"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "history-fifteen-author-check",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/author/history-fifteen/check.py",
+          "--repo",
+          "/workspace/scratch/6e036830f982/programme",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-fifteen"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "history-fifteen-price",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/author/history-fifteen/price.py",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-fifteen"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "history-fifteen-author-history",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/author/history-fifteen/history.py",
+          "--repo",
+          "/workspace/scratch/6e036830f982/programme",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-fifteen"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "root-words-prices",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/root-review/check.py",
+          "--repo",
+          "/workspace/scratch/6e036830f982/programme",
+          "--engine",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review",
+          "--history-twelve",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-twelve/WORD.json",
+          "--fifteen",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/fifteen/WORD.json",
+          "--history-fifteen",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-fifteen/WORD.json",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/root-words"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "fifteen-independent-c",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/independent-c/check.py",
+          "--repo",
+          "/workspace/scratch/6e036830f982/programme",
+          "--word",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/fifteen/WORD.json",
+          "--seed",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-singular-eight-seed-source/seed/SOURCE.json",
+          "--mode",
+          "15",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/fifteen-independent"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "family-independent-root",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-boolean-sign-family/root-review/check.py",
+          "--proof",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-boolean-sign-family/author/PROOF.md",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/family-review"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "normalization-independent-b",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-four-source-normalization/independent-b/check.py",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/normalization-review.json"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "family-author",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-boolean-sign-family/author/check.py",
+          "--repo",
+          "/workspace/scratch/6e036830f982/programme",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/family-author.json",
+          "--catalogue",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/family-catalogue.json"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "history-twelve-independent-c",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/independent-c/check.py",
+          "--repo",
+          "/workspace/scratch/6e036830f982/programme",
+          "--word",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-twelve/WORD.json",
+          "--seed",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-singular-eight-seed-source/seed/SOURCE.json",
+          "--mode",
+          "12",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-twelve-independent",
+          "--snapshots",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-twelve/HISTORY-SNAPSHOTS.json"
+        ],
+        "returncode": 0
+      },
+      {
+        "name": "history-fifteen-independent-c",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-B",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-forked-shared-history/independent-c/check.py",
+          "--repo",
+          "/workspace/scratch/6e036830f982/programme",
+          "--word",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-fifteen/WORD.json",
+          "--seed",
+          "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-singular-eight-seed-source/seed/SOURCE.json",
+          "--mode",
+          "15",
+          "--out",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-fifteen-independent",
+          "--snapshots",
+          "/workspace/scratch/6e036830f982/cp4-reproduction/history-fifteen/HISTORY-SNAPSHOTS.json"
+        ],
+        "returncode": 0
+      }
+    ],
+    "scope": "Author rebuilds and independent implementations are separately labelled; no complete supplier or kappa result."
+  },
+  "scope": "Independent proof review plus exact fixed-source evidence; no complete supplier or new kappa."
+}

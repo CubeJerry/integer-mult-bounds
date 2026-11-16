@@ -1,20 +1,18 @@
 # Resume hierarchical source delivery and a dyadic complex caller
 
-## Active S016 checkpoint3
+## Active S016 checkpoint4
 
-Resume from confirmed parent430aa1d7e50e544b8635c0a876d628c0ef4f7ae4, then read
-newer remote commits. This five-hour session ends03:44:34UTC on2026-11-16.
-The12-output S8 source is verified and cheaper than its direct same-interface
-control. Continue actual delivery, not another static span certificate.
-A and C are testing a15-output fork with existing point grants. A separate
-literal full-W15 history extension awaits review. Preserve their different
-histories: a noncontemporaneous span is not a materialized field.
+Resume parent b8d03fe19506e4b7fd93f0f72f4f17a71c2fe89f, then read newer remote
+commits. This five-hour session ends03:44:34UTC on2026-11-16. The15-output fork
+and full-W15-history composition are independently verified; their frozen
+captures complete no further receivers. Continue new nonpoint acquisition and
+the prescribed-S8 fitting-completion test, not the old static-history searches.
 
-The nonlinear native and fixed-table physical bridge are admitted within their
-stated scope. B is extending the sign-source family and seeking a real caller.
-No complete supplier or new kappa exists. Do not repeat the resolved compact
-control obligation or the old scoped single-meet/Clifford gates. Retain every
-cost and the five foundations.
+The complex family has four exact projective types at every width with paid
+frame/sign transport. B is proving a single-sector obstruction and constructing
+an adjacent-sector escape identified by that proof. Preserve its exact scope
+and test a complete caller. No new complete kappa or foundational discharge
+exists. The retained physical monomial bridge no longer needs re-investigation.
 
 
 ## Verified mathematics

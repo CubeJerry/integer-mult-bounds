@@ -1,0 +1,203 @@
+{
+  "status": "PASS_ACTUAL_SINGULAR_HISTORY_FIFTEEN_SOURCE",
+  "columns": 222,
+  "targets": [
+    1,
+    3,
+    4,
+    6,
+    21,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "counts": {
+    "INIT": 63,
+    "ADD": 673,
+    "MOVE": 380,
+    "CLEAR": 63
+  },
+  "movement_profile": {
+    "1": 58,
+    "2": 56,
+    "3": 36,
+    "4": 35,
+    "5": 69,
+    "6": 19,
+    "7": 106,
+    "8": 1
+  },
+  "peak_owners": 63,
+  "dirty_clears": 63,
+  "new_complete_kappa": false,
+  "semantic_negative_controls": [
+    {
+      "name": "omit_filtered_raw_capture",
+      "rejected": true,
+      "reason": "('seed_contract', 'P0')"
+    },
+    {
+      "name": "omit_filtered_actual_query",
+      "rejected": true,
+      "reason": "('seed_contract', 'P0')"
+    },
+    {
+      "name": "omit_filtered_retirement",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "omit_early_donor_copy",
+      "rejected": true,
+      "reason": "('point_contract', 'E1')"
+    },
+    {
+      "name": "omit_early_donor_ground_arrival",
+      "rejected": true,
+      "reason": "('bad_ADD', 631, ['ADD', 'E1', 'P1'], 'L1', 'zero')"
+    },
+    {
+      "name": "omit_actual_common_capture",
+      "rejected": true,
+      "reason": "('cache_contract', 'Q0')"
+    },
+    {
+      "name": "omit_h1_pair_descent",
+      "rejected": true,
+      "reason": "('bad_ADD', 956, ['ADD', 'Q1', 'Y4'], 'C1', 'M1')"
+    },
+    {
+      "name": "omit_fork_donor_1",
+      "rejected": true,
+      "reason": "('X_restoration', 1)"
+    },
+    {
+      "name": "omit_old_endpoint_aggregate_21",
+      "rejected": true,
+      "reason": "('seed_contract', 'P0')"
+    },
+    {
+      "name": "omit_actual_cross_facet_source_3",
+      "rejected": true,
+      "reason": "('X_restoration', 1)"
+    },
+    {
+      "name": "omit_donor_mask_21",
+      "rejected": true,
+      "reason": "('Y_endpoint', 21)"
+    },
+    {
+      "name": "omit_new_delivery_21",
+      "rejected": true,
+      "reason": "('Y_endpoint', 21)"
+    },
+    {
+      "name": "omit_fork_donor_73",
+      "rejected": true,
+      "reason": "('X_restoration', 61)"
+    },
+    {
+      "name": "omit_old_endpoint_aggregate_64",
+      "rejected": true,
+      "reason": "('seed_contract', 'P1')"
+    },
+    {
+      "name": "omit_actual_cross_facet_source_76",
+      "rejected": true,
+      "reason": "('X_restoration', 61)"
+    },
+    {
+      "name": "omit_donor_mask_64",
+      "rejected": true,
+      "reason": "('Y_endpoint', 64)"
+    },
+    {
+      "name": "omit_new_delivery_64",
+      "rejected": true,
+      "reason": "('Y_endpoint', 64)"
+    },
+    {
+      "name": "omit_fork_donor_77",
+      "rejected": true,
+      "reason": "('Y_endpoint', 65)"
+    },
+    {
+      "name": "omit_old_endpoint_aggregate_65",
+      "rejected": true,
+      "reason": "('seed_contract', 'P2')"
+    },
+    {
+      "name": "omit_actual_cross_facet_source_80",
+      "rejected": true,
+      "reason": "('Y_endpoint', 65)"
+    },
+    {
+      "name": "omit_donor_mask_65",
+      "rejected": true,
+      "reason": "('Y_endpoint', 65)"
+    },
+    {
+      "name": "omit_new_delivery_65",
+      "rejected": true,
+      "reason": "('Y_endpoint', 65)"
+    },
+    {
+      "name": "omit_actual_held_query_21",
+      "rejected": true,
+      "reason": "('seed_contract', 'P0')"
+    },
+    {
+      "name": "omit_actual_held_query_64",
+      "rejected": true,
+      "reason": "('seed_contract', 'P1')"
+    },
+    {
+      "name": "omit_actual_held_query_65",
+      "rejected": true,
+      "reason": "('seed_contract', 'P2')"
+    },
+    {
+      "name": "omit_compensated_Hub_seed",
+      "rejected": true,
+      "reason": "('seed_contract', 'P0')"
+    },
+    {
+      "name": "omit_point_seed_correction",
+      "rejected": true,
+      "reason": "('seed_contract', 'P0')"
+    },
+    {
+      "name": "omit_donor_restoration",
+      "rejected": true,
+      "reason": "('X_restoration', 1)"
+    },
+    {
+      "name": "omit_carrier_restoration",
+      "rejected": true,
+      "reason": "('X_restoration', 10)"
+    },
+    {
+      "name": "omit_owner_retirement",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "name": "false_early_point_Hub_birth",
+      "rejected": true,
+      "reason": "('bad_ADD', 46, ['ADD', 'X1', 'E1'], 'L1', 'Hub')"
+    },
+    {
+      "name": "false_rank6_common_chart_for_new_receivers",
+      "rejected": true,
+      "reason": ""
+    }
+  ],
+  "word_sha256": "a82d3f9283fb770377981b9f20b384639aaf135dbdc0046db4852f7f0df6f46d"
+}

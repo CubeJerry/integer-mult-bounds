@@ -1,23 +1,24 @@
 # Persistent programme toward κ = 0.005
 
-## S016 checkpoint3: real shared seeds and nonlinear source admission
+## S016 checkpoint4: delivery forks and four nonlinear source types
 
-The S8 singular fitting theorem and actual twelve-output source are independently
-admitted. Six early point fields serve both seed repair and output. Its exact
-Q=1613.209752677871640710... saves1.081867554906538471... against the same-S8
-point control; all111 X fields are restored, but99 Y corrections remain.
-[Source and cuts](results/bit-singular-eight-seed-source/ADMISSION.md).
-The next construction must deliver the remaining W15 directions to real receivers.
-A later full-history extension and extra receiver forks remain under review.
+A reversible source fork now completes15 receivers from the same S8 code and
+six real point grants. Its separately rebuilt composition with44 filtered
+source caches has full W15 in143 actual principal observations, exact moment
+1614.00488655802050..., and all X restored. The96 other outputs remain open.
+Even optimistic stationary capture of that frozen history reaches only those
+15 receivers. [Construction and scope](results/bit-forked-shared-history/ADMISSION.md).
+New nonpoint information or a different receiver-access mechanism is needed;
+the current tests investigate a smaller complete fitting extension outside W15.
 
-The complex architecture now uses an infinite-order nonlinear native with exact
-rank-two/three powers. A compact-control theorem and fixed monomial lowering
-supply its local physical services under retained primitives. This escapes the
-earlier finite-Clifford integral-lattice restriction; the profitable caller is
-still open. [Source](results/complex-nonclifford-native-source/ADMISSION.md),
-[bridge](results/fixed-monomial-compact-bridge/ADMISSION.md).
-No new complete kappa or foundational discharge is claimed. These components
-continue the same evolving construction.
+The complex source now extends to every fixed Boolean sign table. All128 odd
+three-bit tables have infinite projective order but exact square/cube Gaussian
+normal forms. They reduce to exactly four projective types at EVERY positive
+width, with literal paid native sign/frame adapters. [Family](results/complex-boolean-sign-family/ADMISSION.md),
+[four-type reduction](results/complex-four-source-normalization/ADMISSION.md).
+The caller work now targets adjacent nonlinear phase sectors, following a
+single-sector obstruction under review. No profitable complete caller is claimed.
+Both strict suppliers, full recursion and all five foundations remain open.
 
 
 ## Theorem status and computational model

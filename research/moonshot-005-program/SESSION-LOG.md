@@ -1972,3 +1972,24 @@ Next: actual15-output fork and separate full-history source verification; nonlin
 sign-family/caller construction. The resulting remote SHA is recorded in the next
 confirmed receipt, avoiding a self-referential commit identity. Session remains
 active through its planned03:44:34UTC end; no upstream PR is ready or submitted.
+
+### S016 checkpoint4 — reversible receiver forks and four nonlinear types
+
+Starting confirmed SHA b8d03fe19506e4b7fd93f0f72f4f17a71c2fe89f. Admitted a
+real15-output fork and its separately rebuilt full-W15-history composition.
+The latter has63 INIT/673 ADD/380 MOVE/63 CLEAR, Q1614.00488655802050...,
+143 actual observations of rank58, and96 unfinished outputs. Frozen optimistic
+stationary captures reach only the completed receivers; changed original captures
+and transported sources remain outside the gate. All X restoration is exact.
+
+The complex track now has a fixed-d Boolean-sign source family,128/128
+finite/infinite three-bit classification and explicit endpoint invoices. Root
+proved exactly four nonlinear projective types at every width and a literal
+native sign/frame reduction; B independently verified it. Eighteen reproduction
+commands pass and three rebuilt words match their pins. No new complete kappa,
+foundational discharge or upstream certificate change. Branch not PR-ready.
+
+Next: verify the17-point feedback closure and replace unused seed directions or
+acquire new nonpoint information; solve the four-source adjacent-sector caller
+interface. Resulting remote SHA will be recorded in the next confirmed receipt.
+This remains the same active five-hour session, planned end03:44:34UTC.

@@ -1,25 +1,24 @@
 # Current proof-dependency map
 
-## S016 checkpoint3 changes
+## S016 checkpoint4 changes
 
-- **Proved:** S8 and seven proper-supported complementary modes with all111
-  fitting decompositions. Static support alone is not acquisition.
-- **Proved:** real twelve-output source, dual-use points, arbitrary-column
-  correctness, source-cut inventory and same-interface saving.
-- **Conditionally proved:** paid Toffoli and all fixed-size Z4 monomial tables
-  from retained compact primitives, with exact inverse and exceptional repair.
-- **Proved algebraically:** nonlinear native A with rank-two/three powers,
-  infinite projective order and no full stable integral lattice at any width.
-- **Open primary:** real acquisition and receiver delivery completing all111
-  BIT outputs within the complete native and caller budget.
-- **Open complementary:** profitable nonlinear complex caller, uniform strict
-  suppliers, complete recursive assembly and all five foundations.
+- **Proved:** reversible15-output fork, transformed-Hub acquisition, three
+  held queries, original S8 interface and all-X restoration.
+- **Proved:** literal full-W15 principal histories for12 and15 outputs with
+  actual times/charts; their frozen stationary captures do not add receivers.
+- **Proved:** fixed-d Boolean-sign native squares/cubes;128/128 finite/infinite
+  projective-order dichotomy in three bits.
+- **Proved:** four nonlinear projective types at every width, eight exact classes
+  at odd widths/four at even, and a literal paid K sign bridge.
+- **Open primary:** new nonpoint information or shared nonlocal access completing
+  all111 BIT outputs within the complete native and caller budget.
+- **Open complementary:** profitable nonlinear caller, both strict suppliers,
+  full recursive assembly and all five foundations.
 
-The seed/source depends on the pinned111-root geometry. The physical theorem
-retains pinned canonical movement/layout/guard contracts. Nonlinear admission
-composes those services with independently checked two-sided algebraic gauges.
-Links and quantifiers are explicit in each admission file. Previous single-meet
-and finite-Clifford gates retain their restricted scope.
+History15 was rebuilt from both changed words, not inferred from incompatible
+inventories. Complex normalization uses actual Boolean sources and the retained
+physical bridge, with explicit ordinary sign/frame charges. The17-point closure
+and single-sector caller gate are active investigations, not admitted here.
 
 
 ## S016 active frontier
