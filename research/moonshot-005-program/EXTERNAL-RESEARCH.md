@@ -343,3 +343,14 @@ for future source interfaces; no PR theorem/code is admitted here.
 Reviewed @CubeJerry #6916's accepted detailed description and dependency,
 validation and credit structure as a quality reference. Its result is
 historical, not the target or current selected certificate.
+
+## S016 checkpoint3 refresh
+
+At2026-11-15 23:58UTC canonical main remains e54523517d0f03e58352e647c403a5af3e525a57.
+New open [#7621](https://github.com/CrocSwap/integer-mult-bounds/pull/7621), head
+0ddef5c67b90bc4e9561186a435b44a46f49a0b1, reports a small P104 courier/helper
+re-stop improvement conditional on #7620, with claimed kappa .0036614625547.
+Its metadata and described full-cost changes were read; its word was not replayed
+or admitted here. It does not remove the programme's strict BIT or nonlinear
+complex-caller obligations. No canonical certificate or upstream branch changed.
+The pinned metadata is in sessions/2026-11-16-S016/UPSTREAM-REFRESH-CP3.json.

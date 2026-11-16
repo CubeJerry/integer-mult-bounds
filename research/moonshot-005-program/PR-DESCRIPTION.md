@@ -1,22 +1,21 @@
 # Construct chronological shared-facet decoders and prove source and Gaussian-rank constraints toward κ = 0.005
 
-## Latest verified extension (S016 checkpoint2)
+## Latest verified extension (S016 checkpoint3)
 
-The source quotient now has a literal six-output word and an exact scoped
-D4 single-meet limit. The complex track adds an actual dyadic quadratic-sector
-source and the independent component-rank census that prevents overcrediting
-its mixed output. All proofs, literal invoices and independent reviews are
-linked in the two new admission packages. These contributions strengthen the
-ongoing programme; **No new κ**. Candidate8-seed and nonlinear-head extensions
-are unfinished and are not included as established results. The branch remains
-an ongoing programme, not a newly PR-ready multiplication theorem.
+The programme adds a real twelve-output BIT source from eight singular fitting
+seeds and six dual-use point grants, with independently checked same-interface
+movement saving and complete information cuts. An infinite-order nonlinear
+complex native has exact rank-two/three powers. A compact-control construction
+lowers every fixed finite monomial table to paid retained primitives, including
+actual inverses and exact exceptional repair.
 
+These remove specific source and physical-interface obstacles. They do not
+complete the111-output decoder or a profitable nonlinear caller. **No new κ.**
+All five foundations remain. This is an ongoing integrated programme, not yet
+a PR-ready multiplication construction. Admission packages contain exact pins,
+reproduction commands, independent reviews, @CubeJerry/predecessor credit and
+OpenAI-assistance disclosure.
 
-**Cumulative draft; ongoing programme, not PR-ready. No new κ.** No upstream
-pull request is submitted automatically. The selected conditional bound remains
-κ=0.00363005817. The targetκ≥1/200 is open, and all five foundational assumptions
-remain. This draft describes verified partial mathematics, not a complete
-integer-multiplication algorithm or acceptance certificate.
 
 ## Latest extension: earlier acquisition and its limits
 

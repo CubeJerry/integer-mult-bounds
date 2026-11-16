@@ -1951,3 +1951,24 @@ fresh-helper credit into our caller. Next: review8-seed/12-output source,
 acquire its seven missing W15 directions, and prove nonlinear compact-control
 specialization. Resulting commit identity is confirmed separately. Session
 remains active until03:44:34UTC.
+
+### S016 checkpoint3 — shared S8 source and nonlinear physical bridge
+
+Starting confirmed programme SHA430aa1d7e50e544b8635c0a876d628c0ef4f7ae4.
+Admitted the exact S8/seven-mode fitting theorem and real twelve-output word:
+19 owners,421 ADD,344 MOVE; Q1613.20975267787164..., same-interface saving
+1.08186755490653.... Source-cut W ranks0 then8 expose the remaining seven
+unacquired directions and99 output corrections. Independent root/C reviews pass.
+
+Proved the conditional paid Toffoli bridge and its fixed-table extension,
+including dirty fields, guards, actual inverse, exceptional repair, complete
+payload and reservation costs. Independently verified an infinite-order nonlinear
+native with rank-two/three powers and no stable dyadic lattice at any width.
+This removes its local physical-service gap; profitable complete caller remains
+open. Ten reproduction commands pass. Main unchanged; open #7621 is recorded
+as unadmitted external metadata. No new complete kappa or foundational discharge.
+
+Next: actual15-output fork and separate full-history source verification; nonlinear
+sign-family/caller construction. The resulting remote SHA is recorded in the next
+confirmed receipt, avoiding a self-referential commit identity. Session remains
+active through its planned03:44:34UTC end; no upstream PR is ready or submitted.

@@ -1,21 +1,22 @@
 # Exact requirements for κ = 1/200
 
-## S016 checkpoint2 update
+## S016 checkpoint3: partial-source room and an enlarged source class
 
-The exact cache quotient reduces the six-word to Q=1620.387286928434341397...,
-with limiting room1.363593282718013848... and first hypothetical even m12.
-It remains more expensive than direct point copies. A stable canonical9,
-one-meet D4 extension needs12 paid incoming modes, so its floor
-222[7]+9[8]+12[1] already exceeds B_infinity by0.457993272947479096....
-The source premise must change; the active8-seed W15/dual-use point construction
-is pending physical replay, not an admitted Q certificate.
+The admitted twelve-output BIT profile is
+54[1]+50[2]+10[3]+10[4]+50[5]+45[6]+117[7]+8[8], [r]=r^(199/200).
+Q=1613.209752677871640710... leaves8.541127533280714536... below the retained
+limiting allowance; the first hypothetical complete even caller is m4. The
+same-S8 direct control is larger by1.081867554906538471.... These are partial
+prices: seven W directions and99 corrections still need actual delivery.
+The displayed room cannot certify their costs or a full native/application.
 
-For the admitted quadratic-sector complex word, Gaussian profile remains
-3[1]+6[7]+3[8]. Its mixed rank2/rank3 content is not an independent(3,2,2)
-endpoint. The component-rank sum is4D on3 banks; ordinary boundary encodings
-preserve each component's physical rank, excluding such endpoint conversion.
-A nonlinear monomial source/physical tariff is being investigated. No movement
-margin is credited to an unbuilt endpoint or unproved physical service.
+The nonlinear A has exact rank-two/three Gaussian powers with paid monomial
+gauges. Three natives plus formal(3,2,2) wrappers need7 Toffolis,11 affine
+services and13 phase passes before interstage work. Their physical tariff is
+conditionally derived; a caller producing all independent endpoints is missing.
+The formal profile3[1]+6[7]+3[8] is not a supplier certificate. All strict
+complex, covered/completed BIT and outer inequalities below remain in force,
+as do the five foundational assumptions and complete recursive costs.
 
 
 ## S016 current extension and economic screen

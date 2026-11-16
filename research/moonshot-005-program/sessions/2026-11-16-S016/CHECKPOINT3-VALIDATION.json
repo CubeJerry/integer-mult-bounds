@@ -1,0 +1,148 @@
+{
+  "status": "PASS_CP3_REVIEW_AND_INTEGRITY",
+  "baseline_sha": "430aa1d7e50e544b8635c0a876d628c0ef4f7ae4",
+  "scientific_entries": 5769,
+  "available_files_hash_checked": 5767,
+  "historical_unavailable_unchanged": [
+    "results/bit-joint-multicast/mixed-author/__pycache__/build_mixed.cpython-312.pyc",
+    "results/four-call-dyadic-entry/review/replay.log"
+  ],
+  "registered_results": 381,
+  "new_results": 6,
+  "new_packages": 4,
+  "reproduction_commands": [
+    {
+      "name": "seed-author",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-singular-eight-seed-source/seed/check_seed.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp3-reproduction/seed"
+      ]
+    },
+    {
+      "name": "word-independent-c",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-singular-eight-seed-source/independent-c/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--word",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-singular-eight-seed-source/author/output/WORD.json",
+        "--seed",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-singular-eight-seed-source/seed/SOURCE.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp3-reproduction/word"
+      ]
+    },
+    {
+      "name": "seed-word-independent-root",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-singular-eight-seed-source/root-review/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--seed",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-singular-eight-seed-source/seed/SOURCE.json",
+        "--word",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-singular-eight-seed-source/author/output/WORD.json",
+        "--funnel-review",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-shared-meet-funnel/root-review",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp3-reproduction/seed-word"
+      ]
+    },
+    {
+      "name": "toffoli-author",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/nonlinear-compact-control/author/check.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp3-reproduction/toffoli"
+      ]
+    },
+    {
+      "name": "toffoli-independent-c",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/nonlinear-compact-control/independent-c/check.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp3-reproduction/toffoli-review"
+      ]
+    },
+    {
+      "name": "fixed-monomial-author",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/fixed-monomial-compact-bridge/author/check.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp3-reproduction/fixed"
+      ]
+    },
+    {
+      "name": "fixed-monomial-independent-root",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/fixed-monomial-compact-bridge/root-review/check.py",
+        "--source",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/fixed-monomial-compact-bridge/author/PROOF.md",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp3-reproduction/fixed-review"
+      ]
+    },
+    {
+      "name": "nonclifford-author",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-nonclifford-native-source/author/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp3-reproduction/nonclifford-author.json"
+      ]
+    },
+    {
+      "name": "nonclifford-independent-root",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-nonclifford-native-source/root-review/check.py",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp3-reproduction/nonclifford-review"
+      ]
+    },
+    {
+      "name": "word-independent-price",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-singular-eight-seed-source/independent-c/price.py",
+        "--review",
+        "/workspace/scratch/6e036830f982/cp3-reproduction/word/RESULT.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp3-reproduction/word-price"
+      ]
+    }
+  ],
+  "scope": "Finite replay and byte integrity accompany separate mathematical proof reviews; no complete supplier or new kappa."
+}

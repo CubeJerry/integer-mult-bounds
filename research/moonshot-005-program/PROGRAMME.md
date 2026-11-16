@@ -1,28 +1,24 @@
 # Persistent programme toward κ = 0.005
 
-## S016 checkpoint2: a changed reusable seed code
+## S016 checkpoint3: real shared seeds and nonlinear source admission
 
-The omitted-cohort six-word is now independently admitted: Q=1620.38728692843434...,
-18 owners,594 ADD,344 MOVE. Its12-root D4 stable canonical/single-meet extension
-requires12 paid incoming modes and exceeds the limiting allowance by0.45799327...
-even before detours. [Evidence](results/bit-quotient-funnel-d4-gate/ADMISSION.md).
-The active constructive direction changes to8 seeds tied to the retained W15
-fitting, with early point captures used both for output and seed repair. A
-12-output candidate and an8-seed/seven-proper-mode theorem are awaiting review.
-The complete111-output source and actual local-mode acquisition remain open.
+The S8 singular fitting theorem and actual twelve-output source are independently
+admitted. Six early point fields serve both seed repair and output. Its exact
+Q=1613.209752677871640710... saves1.081867554906538471... against the same-S8
+point control; all111 X fields are restored, but99 Y corrections remain.
+[Source and cuts](results/bit-singular-eight-seed-source/ADMISSION.md).
+The next construction must deliver the remaining W15 directions to real receivers.
+A later full-history extension and extra receiver forks remain under review.
 
-The complex quadratic-sector word is a new exact dyadic source with16 ADDs,
-2 SCALEs and three natives. Its rank2 component is invertible and its rank3
-component has one bank's rank. The new component census excludes ordinary
-conversion of this fixed word into any3 independent Clifford endpoint jobs.
-[Source and review](results/complex-quadratic-sector-source/ADMISSION.md).
-A nonlinear monomial head and a compact-control tariff extension are under
-construction; neither is promoted to admitted supplier status here.
-No new complete kappa; all five foundations remain.
+The complex architecture now uses an infinite-order nonlinear native with exact
+rank-two/three powers. A compact-control theorem and fixed monomial lowering
+supply its local physical services under retained primitives. This escapes the
+earlier finite-Clifford integral-lattice restriction; the profitable caller is
+still open. [Source](results/complex-nonclifford-native-source/ADMISSION.md),
+[bridge](results/fixed-monomial-compact-bridge/ADMISSION.md).
+No new complete kappa or foundational discharge is claimed. These components
+continue the same evolving construction.
 
-
-One permanent branch: [research/moonshot-005-program](https://github.com/CubeJerry/integer-mult-bounds/tree/research/moonshot-005-program).
-Resume its exact remote HEAD. Target T(n)=O(n(log n)^(1−κ)), κ≥1/200.
 
 ## Theorem status and computational model
 

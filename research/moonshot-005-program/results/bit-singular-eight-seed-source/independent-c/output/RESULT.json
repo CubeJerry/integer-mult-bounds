@@ -1,0 +1,48 @@
+{
+  "status": "PASS_INDEPENDENT_SINGULAR_TWELVE_SOURCE",
+  "word_sha256": "8b91f8e82016cd4eadac391500a2ab606d6cdf975ec8f0a752644675a25cba1e",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "seed_source_sha256": "71c260d339b216eb010e7410bed02237df20366f1a3bf95fe66e9d5921531cb0",
+  "all_columns": 222,
+  "positive": {
+    "operations": {
+      "INIT": 19,
+      "ADD": 421,
+      "MOVE": 344,
+      "CLEAR": 19
+    },
+    "movement": {
+      "1": 54,
+      "2": 50,
+      "3": 10,
+      "4": 10,
+      "5": 50,
+      "6": 45,
+      "7": 117,
+      "8": 8
+    },
+    "dirty_clears": 19,
+    "cuts": {
+      "source_X_rank": 111,
+      "seed_rank": 8,
+      "actual_ground_rank": 14
+    }
+  },
+  "semantic_negative_controls": [
+    "early_capture",
+    "early_delivery",
+    "Hub_seed",
+    "point_seed_correction",
+    "common_capture",
+    "private_aggregate",
+    "cache_descent",
+    "local_delivery",
+    "cache_read",
+    "inverse_restore",
+    "retirement",
+    "owned_upward_MOVE"
+  ],
+  "negative_controls_ignore_invoice": true,
+  "seed_W15_link": "Word ground seed span equals separately checked source-bound S8; all111completion requires7proper modes still unacquired",
+  "scope": "Actual12completedand99unchangedoutputs; no new kappa"
+}

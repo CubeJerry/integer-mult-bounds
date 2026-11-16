@@ -700,3 +700,20 @@ The author's width1/2 physical tests were separately rerun. The component-rank
 census follows from the admitted bimodule theorem and physical rank invariance.
 Packaged reproduction commands passed. No full supplier or foundation is
 proved; precise evidence is in both new package admission pages.
+
+## S016 checkpoint3: shared seeds and nonlinear physical admission
+
+Root independently reconstructs the111-root binary form, S8/seven-mode theorem,
+all-column twelve-output word, source-cut ranks and rigorous price. C provides
+an independent word interpreter and12 semantic mutations. These roles are
+separate from C's seed authorship and A's word authorship.
+
+Root's nonlinear compact-control proof has C's independent modular interpreter
+and source audit:24 swaps/20 rotations, all slot orders, guarded identity,
+actual inverses and exact bad-stream repair. C's fixed-table extension has
+root's proof review and separate21,844 Gray cases,2,667 transpositions and4,096
+exact guard bounds. Root separately reconstructs the nonlinear complex matrices,
+all64 cubic entries,26,880 admission involutions and the all-width lattice proof.
+Ten checkpoint reproduction commands pass. Author reruns are labelled separately
+from independent implementations. Full caller/foundation proof is not claimed.
+See sessions/2026-11-16-S016/reproduce-checkpoint3.py and CHECKPOINT3-VALIDATION.json.

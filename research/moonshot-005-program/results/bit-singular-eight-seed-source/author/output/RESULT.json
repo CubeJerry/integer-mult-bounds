@@ -1,0 +1,160 @@
+{
+  "status": "PASS_ACTUAL_SINGULAR_TWO_FUNNEL_SOURCE",
+  "targets": [
+    1,
+    3,
+    4,
+    6,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "columns": 222,
+  "counts": {
+    "INIT": 19,
+    "ADD": 421,
+    "MOVE": 344,
+    "CLEAR": 19
+  },
+  "movement_profile": {
+    "1": 54,
+    "2": 50,
+    "3": 10,
+    "4": 10,
+    "5": 50,
+    "6": 45,
+    "7": 117,
+    "8": 8
+  },
+  "peak_owners": 19,
+  "dirty_clears": 19,
+  "new_complete_kappa": false,
+  "semantic_negative_controls": [
+    {
+      "name": "omit_early_point_capture",
+      "rejected": true,
+      "reason": "('point_contract_at_retirement', 'E1')"
+    },
+    {
+      "name": "omit_early_point_arrival",
+      "rejected": true,
+      "reason": "('bad_ADD', 355, ['ADD', 'E1', 'P0'], 'L1', 'zero')"
+    },
+    {
+      "name": "omit_actual_cache_capture",
+      "rejected": true,
+      "reason": "('cache_contract_at_retirement', 'Q0')"
+    },
+    {
+      "name": "omit_cache_descent",
+      "rejected": true,
+      "reason": "('bad_ADD', 627, ['ADD', 'Q1', 'Y4'], 'C1', 'M1')"
+    },
+    {
+      "name": "omit_true_Hub_seed",
+      "rejected": true,
+      "reason": "('seed_contract_at_retirement', 'P0')"
+    },
+    {
+      "name": "omit_point_grant_seed_correction",
+      "rejected": true,
+      "reason": "('seed_contract_at_retirement', 'P0')"
+    },
+    {
+      "name": "omit_principal_ground_arrival",
+      "rejected": true,
+      "reason": "('bad_ADD', 355, ['ADD', 'E1', 'P0'], 'zero', 'Hub')"
+    },
+    {
+      "name": "omit_point_output_1",
+      "rejected": true,
+      "reason": "('Y_endpoint', 1)"
+    },
+    {
+      "name": "omit_point_output_6",
+      "rejected": true,
+      "reason": "('Y_endpoint', 6)"
+    },
+    {
+      "name": "omit_point_output_73",
+      "rejected": true,
+      "reason": "('Y_endpoint', 73)"
+    },
+    {
+      "name": "omit_point_output_75",
+      "rejected": true,
+      "reason": "('Y_endpoint', 75)"
+    },
+    {
+      "name": "omit_point_output_77",
+      "rejected": true,
+      "reason": "('Y_endpoint', 77)"
+    },
+    {
+      "name": "omit_point_output_79",
+      "rejected": true,
+      "reason": "('Y_endpoint', 79)"
+    },
+    {
+      "name": "omit_actual_funnel_read_3",
+      "rejected": true,
+      "reason": "('Y_endpoint', 3)"
+    },
+    {
+      "name": "omit_actual_funnel_read_76",
+      "rejected": true,
+      "reason": "('Y_endpoint', 76)"
+    },
+    {
+      "name": "omit_actual_funnel_read_80",
+      "rejected": true,
+      "reason": "('Y_endpoint', 80)"
+    },
+    {
+      "name": "omit_actual_funnel_read_4",
+      "rejected": true,
+      "reason": "('Y_endpoint', 4)"
+    },
+    {
+      "name": "omit_actual_funnel_read_74",
+      "rejected": true,
+      "reason": "('Y_endpoint', 74)"
+    },
+    {
+      "name": "omit_actual_funnel_read_78",
+      "rejected": true,
+      "reason": "('Y_endpoint', 78)"
+    },
+    {
+      "name": "omit_private_aggregate_delivery",
+      "rejected": true,
+      "reason": "('Y_endpoint', 3)"
+    },
+    {
+      "name": "omit_private_aggregate_restoration",
+      "rejected": true,
+      "reason": "('X_restore', 77)"
+    },
+    {
+      "name": "omit_owner_retirement",
+      "rejected": true,
+      "reason": "('owned_lifetime', {'P0'})"
+    },
+    {
+      "name": "false_Hub_point_birth",
+      "rejected": true,
+      "reason": "('bad_ADD', 2, ['ADD', 'X1', 'E1'], 'L1', 'Hub')"
+    },
+    {
+      "name": "false_Hub_availability_of_held_pivot",
+      "rejected": true,
+      "reason": "('bad_ADD', 356, ['ADD', 'X1', 'P0'], 'F3', 'zero')"
+    }
+  ],
+  "word_sha256": "8b91f8e82016cd4eadac391500a2ab606d6cdf975ec8f0a752644675a25cba1e"
+}

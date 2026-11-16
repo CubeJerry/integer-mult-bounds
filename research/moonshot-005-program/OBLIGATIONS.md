@@ -1,22 +1,25 @@
 # Current proof-dependency map
 
-## S016 checkpoint2 changes
+## S016 checkpoint3 changes
 
-- **Proved:** literal A3 cache-quotient word, with independent all-column replay.
-- **Disproved within scope:**12-root D4 continuation using stable canonical9
-  and only one common meet; private inputs/multiple meets remain outside.
-- **Proved:** actual three-native dyadic quadratic-sector partial source.
-- **Proved necessary condition:** independent Gaussian endpoints require the
-  physical rank census sum_r rank(pi_r M)=R D. The fixed mixed source fails it.
-- **Open primary:** acquire the8 W15-compatible D4 seeds and actual local modes,
-  complete the candidate12 outputs and extend to all111. Static decomposition
-  alone is insufficient.
-- **Open complementary:** nonlinear monomial source admission, compact-control
-  physical specialization and profitable independent complex endpoints.
+- **Proved:** S8 and seven proper-supported complementary modes with all111
+  fitting decompositions. Static support alone is not acquisition.
+- **Proved:** real twelve-output source, dual-use points, arbitrary-column
+  correctness, source-cut inventory and same-interface saving.
+- **Conditionally proved:** paid Toffoli and all fixed-size Z4 monomial tables
+  from retained compact primitives, with exact inverse and exceptional repair.
+- **Proved algebraically:** nonlinear native A with rank-two/three powers,
+  infinite projective order and no full stable integral lattice at any width.
+- **Open primary:** real acquisition and receiver delivery completing all111
+  BIT outputs within the complete native and caller budget.
+- **Open complementary:** profitable nonlinear complex caller, uniform strict
+  suppliers, complete recursive assembly and all five foundations.
 
-Exact claims and reviews: [BIT](results/bit-quotient-funnel-d4-gate/ADMISSION.md),
-[complex](results/complex-quadratic-sector-source/ADMISSION.md).
-All earlier scoped results remain evidence; no full supplier or new kappa.
+The seed/source depends on the pinned111-root geometry. The physical theorem
+retains pinned canonical movement/layout/guard contracts. Nonlinear admission
+composes those services with independently checked two-sided algebraic gauges.
+Links and quantifiers are explicit in each admission file. Previous single-meet
+and finite-Clifford gates retain their restricted scope.
 
 
 ## S016 active frontier

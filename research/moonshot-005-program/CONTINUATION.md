@@ -1,22 +1,21 @@
 # Resume hierarchical source delivery and a dyadic complex caller
 
-## Active S016 checkpoint2
+## Active S016 checkpoint3
 
-Resume baseline b09e94f920c2940d7d6c0581fb9a94add0d0a9b2, then inspect newer
-remote commits. This is still the same five-hour session ending03:44:34UTC.
-The next concrete BIT candidate has8 W15-compatible seeds and six dual-use
-point fields; its proposed12-output word needs independent replay. Complete
-source-cut information and remaining99 endpoints are essential. The complex
-track is moving from a proved but endpoint-inseparable quadratic-sector source
-to nonlinear monomial heads and a fully priced compact-control bridge.
-No new complete kappa; do not restart either track or retest the fixed gates.
+Resume from confirmed parent430aa1d7e50e544b8635c0a876d628c0ef4f7ae4, then read
+newer remote commits. This five-hour session ends03:44:34UTC on2026-11-16.
+The12-output S8 source is verified and cheaper than its direct same-interface
+control. Continue actual delivery, not another static span certificate.
+A and C are testing a15-output fork with existing point grants. A separate
+literal full-W15 history extension awaits review. Preserve their different
+histories: a noncontemporaneous span is not a materialized field.
 
+The nonlinear native and fixed-table physical bridge are admitted within their
+stated scope. B is extending the sign-source family and seeking a real caller.
+No complete supplier or new kappa exists. Do not repeat the resolved compact
+control obligation or the old scoped single-meet/Clifford gates. Retain every
+cost and the five foundations.
 
-S016 is active, begun from remote4743ad65eff2ce1a63bf8572e4e2bf0751b0426d.
-Window2026-11-15T22:44:34Z through2026-11-16T03:44:34Z. Read exact remote HEAD
-and STATE before continuing; no scheduled background work exists. Selected
-conditional kappa=.00363005817; target1/200 remains open. No new kappa,
-no upstream PR, not PR-ready, all five foundations retained.
 
 ## Verified mathematics
 
