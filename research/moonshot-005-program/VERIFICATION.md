@@ -831,3 +831,16 @@ all-clean and stronger inverse-support cut proofs. Exact primitive wrappers
 are retained, with their42 remainder now proved impossible. Fixed finite
 catalogue widths, literal phases, full invoices and five foundations remain.
 Paid59/descent-floor work is still pending independent review, not admitted.
+
+## S018 checkpoint5 — initial-chart causality and repaired native side information
+
+14 reproduction commands and26 byte comparisons pass; see
+[CHECKPOINT5-REPRODUCTION.json](sessions/2026-11-16-S018/CHECKPOINT5-REPRODUCTION.json).
+C independently reviews paid57/59, all32 shared-mask choices, the seven-clique
+transcript, the stronger initial-chart theorem and all three actual dependency
+graphs. Actual all111 sharp controls attain expensive movement floors. C also
+verifies root's native-cached57 and endpoint-passing source omission control.
+Root independently rebuilds all512 complex monomials and Gaussian classes
+with exact bounded integer arithmetic and reviews the full coefficient gate.
+Proof, exact controls and byte integrity remain separate. No new κ, strict
+supplier or global foundation discharge. Later48/50 source edits remain pending.

@@ -1,0 +1,884 @@
+{
+  "status": "PASS_INDEPENDENT_FIVE_MASK_SOURCE_WITH_ZERO_CLIQUE_ACCESS",
+  "word_sha256": "14503b00ad6f9d1e4d85ec09769a51c14eca36d61edabe19d9ae2907608c7501",
+  "base_word_sha256": "27dc6c36eec067acd2fe4679a81c95ea9db8fd6377784a0bbfc060ca52a121fd",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "stats": {
+    "counts": {
+      "MOVE": 485,
+      "INIT": 132,
+      "ADD": 812,
+      "CLEAR": 132
+    },
+    "movement_profile": {
+      "1": 195,
+      "2": 34,
+      "3": 60,
+      "4": 9,
+      "5": 70,
+      "6": 24,
+      "7": 93
+    },
+    "dirty_CLEAR": 132,
+    "peak_owned": 132,
+    "all_222_endpoints": true
+  },
+  "cut": 1364,
+  "cells": [
+    {
+      "packet": "P0",
+      "retention": "KEEP_C0",
+      "raw_input": 35,
+      "proper_cache": "SHARED_PROPER_RAW_35",
+      "chart": "D3_21",
+      "rank": 6,
+      "load": 816,
+      "capture": 829,
+      "reset": 830,
+      "corrections": [
+        848,
+        857
+      ]
+    },
+    {
+      "packet": "P1",
+      "retention": "KEEP_C1",
+      "raw_input": 110,
+      "proper_cache": "SHARED_PROPER_RAW_110",
+      "chart": "D76_64",
+      "rank": 6,
+      "load": 895,
+      "capture": 904,
+      "reset": 905,
+      "corrections": [
+        923,
+        932
+      ]
+    },
+    {
+      "packet": "P2",
+      "retention": "KEEP_C2",
+      "raw_input": 93,
+      "proper_cache": "SHARED_PROPER_RAW_93",
+      "chart": "D80_65",
+      "rank": 6,
+      "load": 971,
+      "capture": 980,
+      "reset": 981,
+      "corrections": [
+        1002,
+        1012
+      ]
+    },
+    {
+      "packet": "P3",
+      "retention": "ZFIRST3",
+      "raw_input": 96,
+      "proper_cache": "SHARED_PROPER_RAW_96",
+      "chart": "F4",
+      "rank": 7,
+      "load": 1045,
+      "capture": 1062,
+      "reset": 1063,
+      "corrections": [
+        1079
+      ]
+    },
+    {
+      "packet": "P5",
+      "retention": "ZFIRST5",
+      "raw_input": 97,
+      "proper_cache": "SHARED_PROPER_RAW_97",
+      "chart": "F78",
+      "rank": 7,
+      "load": 1175,
+      "capture": 1188,
+      "reset": 1189,
+      "corrections": [
+        1252
+      ]
+    }
+  ],
+  "unaffected_projected_state_comparisons": 334570,
+  "actual_live_pure_X_owners": 132,
+  "actual_owner_X_rank": 89,
+  "complete_owned_MOVE_profile": {
+    "1": 52,
+    "3": 6
+  },
+  "owned_MOVE_increment": 0,
+  "formal_parameter_count": 5,
+  "formal_all32_endpoint_identity": true,
+  "nonlocal_clique": [
+    5,
+    35,
+    93,
+    96,
+    97,
+    109,
+    110
+  ],
+  "nonlocal_retained_classes": {
+    "ZFIRST3": {
+      "chart": "M1",
+      "support": [
+        96,
+        109
+      ]
+    },
+    "ZFIRST5": {
+      "chart": "M1",
+      "support": [
+        97,
+        109
+      ]
+    },
+    "KEEP_C0": {
+      "chart": "C0",
+      "support": [
+        35
+      ]
+    },
+    "KEEP_C1": {
+      "chart": "C0",
+      "support": [
+        110
+      ]
+    },
+    "KEEP_C2": {
+      "chart": "C0",
+      "support": [
+        93
+      ]
+    }
+  },
+  "nonlocal_projection_rank": 5,
+  "all_clique_dependent_fields_and_access": {
+    "X5": {
+      "chart": "Hub",
+      "support": [
+        5
+      ],
+      "accessible_clique_targets": []
+    },
+    "X35": {
+      "chart": "Hub",
+      "support": [
+        35
+      ],
+      "accessible_clique_targets": []
+    },
+    "X93": {
+      "chart": "Hub",
+      "support": [
+        93
+      ],
+      "accessible_clique_targets": []
+    },
+    "X96": {
+      "chart": "Hub",
+      "support": [
+        96
+      ],
+      "accessible_clique_targets": []
+    },
+    "X97": {
+      "chart": "Hub",
+      "support": [
+        97
+      ],
+      "accessible_clique_targets": []
+    },
+    "X109": {
+      "chart": "Hub",
+      "support": [
+        109
+      ],
+      "accessible_clique_targets": []
+    },
+    "X110": {
+      "chart": "Hub",
+      "support": [
+        110
+      ],
+      "accessible_clique_targets": []
+    },
+    "SHARED_PROPER_RAW_35": {
+      "chart": "D3_21",
+      "support": [
+        35
+      ],
+      "accessible_clique_targets": []
+    },
+    "SHARED_PROPER_RAW_110": {
+      "chart": "D76_64",
+      "support": [
+        110
+      ],
+      "accessible_clique_targets": []
+    },
+    "SHARED_PROPER_RAW_93": {
+      "chart": "D80_65",
+      "support": [
+        93
+      ],
+      "accessible_clique_targets": []
+    },
+    "SHARED_PROPER_RAW_96": {
+      "chart": "F4",
+      "support": [
+        96
+      ],
+      "accessible_clique_targets": []
+    },
+    "SHARED_PROPER_RAW_97": {
+      "chart": "F78",
+      "support": [
+        97
+      ],
+      "accessible_clique_targets": []
+    },
+    "Q3_F4": {
+      "chart": "F4",
+      "support": [
+        109
+      ],
+      "accessible_clique_targets": []
+    },
+    "TRIAD16": {
+      "chart": "J16",
+      "support": [
+        5
+      ],
+      "accessible_clique_targets": []
+    },
+    "TRIAD23": {
+      "chart": "J23",
+      "support": [
+        5
+      ],
+      "accessible_clique_targets": []
+    },
+    "TRIAD22": {
+      "chart": "J22",
+      "support": [
+        5
+      ],
+      "accessible_clique_targets": []
+    },
+    "ZFIRST3": {
+      "chart": "M1",
+      "support": [
+        96,
+        109
+      ],
+      "accessible_clique_targets": []
+    },
+    "ZFIRST5": {
+      "chart": "M1",
+      "support": [
+        97,
+        109
+      ],
+      "accessible_clique_targets": []
+    },
+    "SHARED": {
+      "chart": "SH2",
+      "support": [
+        5
+      ],
+      "accessible_clique_targets": []
+    },
+    "KEEP_C0": {
+      "chart": "C0",
+      "support": [
+        5,
+        35
+      ],
+      "accessible_clique_targets": []
+    },
+    "KEEP_C1": {
+      "chart": "C0",
+      "support": [
+        5,
+        110
+      ],
+      "accessible_clique_targets": []
+    },
+    "KEEP_C2": {
+      "chart": "C0",
+      "support": [
+        5,
+        93
+      ],
+      "accessible_clique_targets": []
+    },
+    "H1_2": {
+      "chart": "C0",
+      "support": [
+        5
+      ],
+      "accessible_clique_targets": []
+    },
+    "H7_0": {
+      "chart": "C3",
+      "support": [
+        109
+      ],
+      "accessible_clique_targets": []
+    },
+    "H7_2": {
+      "chart": "C3",
+      "support": [
+        109
+      ],
+      "accessible_clique_targets": []
+    },
+    "H7_3": {
+      "chart": "C3",
+      "support": [
+        109
+      ],
+      "accessible_clique_targets": []
+    },
+    "Hnew7_1": {
+      "chart": "C3",
+      "support": [
+        109
+      ],
+      "accessible_clique_targets": []
+    },
+    "Q0": {
+      "chart": "C0",
+      "support": [
+        5
+      ],
+      "accessible_clique_targets": []
+    },
+    "Q3": {
+      "chart": "C3",
+      "support": [
+        109
+      ],
+      "accessible_clique_targets": []
+    }
+  },
+  "common_blocking_native_line": 5,
+  "unfinished_roles": [
+    5,
+    13,
+    14,
+    15,
+    17,
+    18,
+    24,
+    25,
+    26,
+    31,
+    32,
+    33,
+    34,
+    35,
+    47,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "actual_free_access_rows": {
+    "5": [],
+    "13": [],
+    "14": [],
+    "15": [],
+    "17": [],
+    "18": [
+      5,
+      15
+    ],
+    "24": [],
+    "25": [],
+    "26": [
+      5,
+      15
+    ],
+    "31": [],
+    "32": [],
+    "33": [],
+    "34": [],
+    "35": [],
+    "47": [],
+    "51": [],
+    "52": [],
+    "53": [],
+    "54": [],
+    "55": [],
+    "56": [],
+    "57": [],
+    "58": [],
+    "59": [],
+    "60": [],
+    "61": [
+      5,
+      15
+    ],
+    "62": [],
+    "63": [],
+    "66": [],
+    "67": [
+      5,
+      15
+    ],
+    "68": [
+      5,
+      15
+    ],
+    "69": [],
+    "70": [],
+    "71": [
+      5,
+      15
+    ],
+    "72": [
+      5,
+      15
+    ],
+    "81": [
+      5,
+      15
+    ],
+    "82": [],
+    "83": [],
+    "84": [
+      5,
+      15
+    ],
+    "85": [
+      5,
+      15
+    ],
+    "86": [],
+    "87": [],
+    "88": [],
+    "89": [],
+    "90": [],
+    "91": [],
+    "92": [],
+    "93": [],
+    "94": [],
+    "95": [],
+    "96": [],
+    "97": [],
+    "98": [],
+    "99": [],
+    "100": [],
+    "101": [],
+    "102": [],
+    "103": [],
+    "104": [],
+    "105": [],
+    "106": [],
+    "107": [],
+    "108": [],
+    "109": [],
+    "110": []
+  },
+  "actual_access_coordinate_witnesses": {
+    "5": {},
+    "13": {},
+    "14": {},
+    "15": {},
+    "17": {},
+    "18": {
+      "5": "SHARED",
+      "15": "SHARED"
+    },
+    "24": {},
+    "25": {},
+    "26": {
+      "5": "SHARED",
+      "15": "SHARED"
+    },
+    "31": {},
+    "32": {},
+    "33": {},
+    "34": {},
+    "35": {},
+    "47": {},
+    "51": {},
+    "52": {},
+    "53": {},
+    "54": {},
+    "55": {},
+    "56": {},
+    "57": {},
+    "58": {},
+    "59": {},
+    "60": {},
+    "61": {
+      "5": "SHARED",
+      "15": "SHARED"
+    },
+    "62": {},
+    "63": {},
+    "66": {},
+    "67": {
+      "5": "SHARED",
+      "15": "SHARED"
+    },
+    "68": {
+      "5": "SHARED",
+      "15": "SHARED"
+    },
+    "69": {},
+    "70": {},
+    "71": {
+      "5": "SHARED",
+      "15": "SHARED"
+    },
+    "72": {
+      "5": "SHARED",
+      "15": "SHARED"
+    },
+    "81": {
+      "5": "SHARED",
+      "15": "SHARED"
+    },
+    "82": {},
+    "83": {},
+    "84": {
+      "5": "SHARED",
+      "15": "SHARED"
+    },
+    "85": {
+      "5": "SHARED",
+      "15": "SHARED"
+    },
+    "86": {},
+    "87": {},
+    "88": {},
+    "89": {},
+    "90": {},
+    "91": {},
+    "92": {},
+    "93": {},
+    "94": {},
+    "95": {},
+    "96": {},
+    "97": {},
+    "98": {},
+    "99": {},
+    "100": {},
+    "101": {},
+    "102": {},
+    "103": {},
+    "104": {},
+    "105": {},
+    "106": {},
+    "107": {},
+    "108": {},
+    "109": {},
+    "110": {}
+  },
+  "zero_access_witness63": [
+    13,
+    14,
+    17,
+    18,
+    24,
+    25,
+    26,
+    31,
+    32,
+    33,
+    34,
+    35,
+    47,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "acyclic_decode_order65": [
+    5,
+    13,
+    14,
+    15,
+    17,
+    24,
+    25,
+    31,
+    32,
+    33,
+    34,
+    35,
+    47,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    62,
+    63,
+    66,
+    69,
+    70,
+    82,
+    83,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    18,
+    26,
+    61,
+    67,
+    68,
+    71,
+    72,
+    81,
+    84,
+    85
+  ],
+  "whole_moment": {
+    "rational": [
+      "1612137283799758513112455152556733899830664577/1000000000000000000000000000000000000000000",
+      "1612137283799758513112455152556733899830664867/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1612.137283799758513112455152556733899830664577",
+      "1612.137283799758513112455152556733899830664867"
+    ]
+  },
+  "moment_increment": {
+    "rational": [
+      "7320189730242571703411342181348332246449/500000000000000000000000000000000000000000",
+      "3660094865121285851705671090674166123371/250000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "0.014640379460485143406822684362696664492898",
+      "0.014640379460485143406822684362696664493484"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "9613596411393842133790997810261086617250583/1000000000000000000000000000000000000000000",
+      "57681578468363052802745986861566519703506533/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "9.613596411393842133790997810261086617250583",
+      "9.6135964113938421337909978102610866172510888333333333333333333333333333333333333"
+    ]
+  },
+  "controls": [
+    {
+      "control": "omit real cache capture 35",
+      "rejected": true,
+      "reason": "('Y endpoint', 3)"
+    },
+    {
+      "control": "omit real cache capture 110",
+      "rejected": true,
+      "reason": "('Y endpoint', 64)"
+    },
+    {
+      "control": "omit real cache capture 93",
+      "rejected": true,
+      "reason": "('Y endpoint', 65)"
+    },
+    {
+      "control": "omit real cache capture 96",
+      "rejected": true,
+      "reason": "('Y endpoint', 4)"
+    },
+    {
+      "control": "omit real cache capture 97",
+      "rejected": true,
+      "reason": "('Y endpoint', 78)"
+    },
+    {
+      "control": "omit actual Hub mask 35",
+      "rejected": true,
+      "reason": "('Y endpoint', 3)"
+    },
+    {
+      "control": "omit actual Hub mask 110",
+      "rejected": true,
+      "reason": "('Y endpoint', 64)"
+    },
+    {
+      "control": "omit actual Hub mask 93",
+      "rejected": true,
+      "reason": "('Y endpoint', 65)"
+    },
+    {
+      "control": "omit actual Hub mask 96",
+      "rejected": true,
+      "reason": "('Y endpoint', 4)"
+    },
+    {
+      "control": "omit actual Hub mask 97",
+      "rejected": true,
+      "reason": "('Y endpoint', 78)"
+    },
+    {
+      "control": "omit old-reader repair Y3",
+      "rejected": true,
+      "reason": "('Y endpoint', 3)"
+    },
+    {
+      "control": "omit old-reader repair Y21",
+      "rejected": true,
+      "reason": "('Y endpoint', 21)"
+    },
+    {
+      "control": "omit old-reader repair Y76",
+      "rejected": true,
+      "reason": "('Y endpoint', 76)"
+    },
+    {
+      "control": "omit old-reader repair Y64",
+      "rejected": true,
+      "reason": "('Y endpoint', 64)"
+    },
+    {
+      "control": "omit old-reader repair Y80",
+      "rejected": true,
+      "reason": "('Y endpoint', 80)"
+    },
+    {
+      "control": "omit old-reader repair Y65",
+      "rejected": true,
+      "reason": "('Y endpoint', 65)"
+    },
+    {
+      "control": "omit old-reader repair Y4",
+      "rejected": true,
+      "reason": "('Y endpoint', 4)"
+    },
+    {
+      "control": "omit old-reader repair Y78",
+      "rejected": true,
+      "reason": "('Y endpoint', 78)"
+    }
+  ],
+  "scope": "Valid actual source change and full222-column binary identities. Five new nonlocal classes have no upward-only access to the seven specified receiver facets. The entire unfinished access graph is acyclic. All five global foundations remain open; no full supplier or kappa.",
+  "proof_sha256": "0f5eea5890e04fd58c746a504da318d27aed3b8cbc401724a3ec634c66ea748c"
+}

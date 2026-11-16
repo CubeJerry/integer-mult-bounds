@@ -1,0 +1,308 @@
+{
+  "status": "PASS_INDEPENDENT_FIXED_CUT_SEVEN_DESCENT_THEOREM",
+  "proof_sha256": "c72dadaad343844658a3e1f35365d7ed216a5521832f335b59537157f063e2e0",
+  "word_sha256": "dd60233b57be5fdef83b86a2d2b816e665e3d939850da94b680838d1d6d178ce",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "stats": {
+    "counts": {
+      "MOVE": 574,
+      "INIT": 188,
+      "ADD": 667,
+      "CLEAR": 188
+    },
+    "movement_profile": {
+      "1": 282,
+      "2": 39,
+      "3": 66,
+      "4": 34,
+      "5": 62,
+      "6": 11,
+      "7": 80
+    },
+    "dirty_CLEAR": 185,
+    "peak_owned": 185,
+    "all_222_endpoints": true
+  },
+  "cut": 1380,
+  "live_records": 407,
+  "live_pure_X_owners": 185,
+  "unfinished_columns": [
+    5,
+    13,
+    14,
+    15,
+    17,
+    24,
+    25,
+    26,
+    31,
+    32,
+    33,
+    34,
+    35,
+    52,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    66,
+    67,
+    69,
+    70,
+    72,
+    82,
+    83,
+    84,
+    86,
+    87,
+    89,
+    91,
+    93,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "actual_nonzero_locality_coefficients_checked": 232,
+  "unknown_locality_violations": [],
+  "nonorthogonal_clique": [
+    5,
+    35,
+    93,
+    96,
+    97,
+    109,
+    110
+  ],
+  "dot_matrix": [
+    [
+      4,
+      -2,
+      -2,
+      2,
+      2,
+      -2,
+      -2
+    ],
+    [
+      -2,
+      4,
+      2,
+      -2,
+      -2,
+      2,
+      2
+    ],
+    [
+      -2,
+      2,
+      4,
+      -2,
+      -2,
+      2,
+      2
+    ],
+    [
+      2,
+      -2,
+      -2,
+      4,
+      2,
+      -2,
+      -2
+    ],
+    [
+      2,
+      -2,
+      -2,
+      2,
+      4,
+      -2,
+      -2
+    ],
+    [
+      -2,
+      2,
+      2,
+      -2,
+      -2,
+      4,
+      2
+    ],
+    [
+      -2,
+      2,
+      2,
+      -2,
+      -2,
+      2,
+      4
+    ]
+  ],
+  "frozen_suffix": {
+    "direct_rank7_Y_MOVEs": 52,
+    "CLEAR": 185
+  },
+  "whole_moment": {
+    "rational": [
+      "1619210689048551331017775335845015376063972527/1000000000000000000000000000000000000000000",
+      "1619210689048551331017775335845015376063972819/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1619.210689048551331017775335845015376063972527",
+      "1619.210689048551331017775335845015376063972819"
+    ]
+  },
+  "necessary_allowance": {
+    "rational": [
+      "32435017604223047104924923007339899728958309/20000000000000000000000000000000000000000",
+      "1946101056253382826295495380440393983737498799/1200000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1621.75088021115235524624615036699498644791545",
+      "1621.7508802111523552462461503669949864479156658333333333333333333333333333333333"
+    ]
+  },
+  "remaining_room": {
+    "rational": [
+      "2540191162601024228470814521979610383942631/1000000000000000000000000000000000000000000",
+      "15241146975606145370824887131877662303658833/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "2.540191162601024228470814521979610383942631",
+      "2.5401911626010242284708145219796103839431388333333333333333333333333333333333333"
+    ]
+  },
+  "minimum_future_owned_descents": 7,
+  "optimistic_completed_profile_floor": {
+    "1": 289,
+    "2": 39,
+    "3": 66,
+    "4": 34,
+    "5": 62,
+    "6": 11,
+    "7": 80
+  },
+  "optimistic_completed_moment_floor": {
+    "rational": [
+      "1626210689048551331017775335845015376063972527/1000000000000000000000000000000000000000000",
+      "1626210689048551331017775335845015376063972819/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1626.210689048551331017775335845015376063972527",
+      "1626.210689048551331017775335845015376063972819"
+    ]
+  },
+  "floor_excess_over_allowance": {
+    "rational": [
+      "26758853024393854629175112868122337696341167/6000000000000000000000000000000000000000000",
+      "4459808837398975771529185478020389616057369/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "4.4598088373989757715291854780203896160568611666666666666666666666666666666666667",
+      "4.459808837398975771529185478020389616057369"
+    ]
+  },
+  "physical_controls": {
+    "pins": {
+      "NONLOCAL-CUT-CONTROL": "ff204bf4998b6753f1c33543751be7fe7877ec55925e59215d96d2872c959466",
+      "SEVEN-DESCENT-CONTROL": "6ada580ddcf29cdf486fcdac1a97ad94476d79e8e2b4c3c091f7ddd9a051985b",
+      "ORTHOGONAL-PAIR-CONTROL": "15386a57caf22af3cb9795d9cddb2e1bb2376ab2588932bc5e7c65e312f4fe97"
+    },
+    "nonlocal_source": {
+      "stats": {
+        "counts": {
+          "MOVE": 575,
+          "INIT": 189,
+          "ADD": 668,
+          "CLEAR": 189
+        },
+        "movement_profile": {
+          "1": 282,
+          "2": 39,
+          "3": 66,
+          "4": 34,
+          "5": 62,
+          "6": 11,
+          "7": 80,
+          "8": 1
+        },
+        "dirty_CLEAR": 186,
+        "peak_owned": 186,
+        "all_222_endpoints": true
+      },
+      "violations": [
+        [
+          "C_REVIEW_NONLOCAL_X5",
+          5,
+          "zero"
+        ]
+      ],
+      "one_direction_grant_restores_locality": true
+    },
+    "seven_descent_saturation": {
+      "stats": {
+        "counts": {
+          "MOVE": 581,
+          "INIT": 195,
+          "ADD": 681,
+          "CLEAR": 195
+        },
+        "movement_profile": {
+          "1": 289,
+          "2": 39,
+          "3": 66,
+          "4": 34,
+          "5": 62,
+          "6": 11,
+          "7": 80
+        },
+        "dirty_CLEAR": 192,
+        "peak_owned": 192,
+        "all_222_endpoints": true
+      },
+      "completed_targets": 66,
+      "only_selected_clique_floor_saturated": true
+    },
+    "orthogonal_pair": {
+      "stats": {
+        "counts": {
+          "INIT": 3,
+          "ADD": 8,
+          "MOVE": 227,
+          "CLEAR": 3
+        },
+        "movement_profile": {
+          "1": 4,
+          "2": 1,
+          "6": 4,
+          "7": 218
+        },
+        "dirty_CLEAR": 3,
+        "peak_owned": 3,
+        "all_222_endpoints": true
+      },
+      "owned_descents": 1,
+      "outputs": 2,
+      "nonorthogonality_premise_essential": true
+    }
+  },
+  "scope": "Universal finite-alphabet, fixed-width, fixed-schedule transcript proof reviewed in writing. Exact paid59 cut only; earlier source/history changes remain open. All five global foundations remain open, no kappa."
+}

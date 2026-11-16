@@ -2134,3 +2134,27 @@ without file loss; remote checkpoint3 remained authoritative throughout.
 No new complete κ or foundation discharge. Session continues toward17:00:55UTC;
 paid59/locality work awaits independent review. Resulting remote SHA is recorded
 only after GitHub confirms the commit.
+
+### S018 checkpoint5 — source-location transcript bounds and actual native repair
+
+Baseline0bd72863f5323371790f9e6f9823b413a1da48ef. A's successive lower payloads
+complete57 then59; C verifies real sources, Y feedback, captures, lower resets,
+raw caches and all222 columns. A's actual shared proper corrections preserve
+five nonlocal modes at almost unchanged price; C proves all32 parameter choices
+after explicitly qualifying packet/output reader conditions.
+
+Root's initial-chart transcript invariant grants downward payloads globally
+while keeping initial source locations. C independently accepts its nonlinear
+fixed-schedule proof and exact52/65/26 acyclic witnesses. The first two cuts
+have literal all111 controls attaining their sharp but target-failing movement
+floors. Root then adds19 true native donor caches and actual61/67 completions
+to liberated55, producing native-cached57 at unchanged movement; C verifies
+the changed graph, every source field and paid ordinary operations.
+
+B proves a whole-G512 coefficient gate, including nonclean projectors and
+unrestricted other blocks. Root independently rebuilds the complete group and
+source Gaussian classes and reviews the ordinary retraction/coset/inverse-cut
+proof. SWAP and reverse-CNOT give real1536-class hypothesis escapes, not a caller.
+14 commands and26 byte-identical outputs pass. No new κ or foundation discharge.
+Workers continue earlier mode-preserving decoding and selective complex channels.
+Resulting remote SHA is recorded only after GitHub confirmation.

@@ -1,0 +1,50 @@
+{
+  "status": "PASS_ROOT_COMPLETE_G512_COEFFICIENT_GATE_REVIEW",
+  "proof_sha256": "2fb2090f9b1f701515806d8215fd8292270ecbb7a1c879750c7062c10256c47c",
+  "independent_arithmetic": "Separate Gaussian-integer matrices with power-of-two denominator; every integer product bounded before int64 multiplication, no modular samples or float tolerance.",
+  "actual_group_order": 512,
+  "clean_forward_subgroup_order": 256,
+  "exact_no_projective_duplicates": true,
+  "complete_square_transport": true,
+  "complete_clean_H_transport": true,
+  "even_four_source_ranks": {
+    "4": 512
+  },
+  "J_four_source_ranks": {
+    "2": 256,
+    "3": 256
+  },
+  "J_prefix_ranks": [
+    2,
+    3,
+    2
+  ],
+  "maximum_final_integer_coefficient": 1,
+  "ordinary_coset_separation": "A\u00b2 h hprime^-1 A^-2 is monomial; multiplying nonmonomial A J A^-1 cannot yield a monomial. Closed group and literal J inverse certify the entire finite-word premise.",
+  "ordinary_retraction_justification": "The ordinary coefficient algebra is a fixed finite-dimensional unital monomial algebra; ambient-invertible transition B has its inverse in that algebra. No physical free inverse is claimed.",
+  "surviving_escape_controls": [
+    {
+      "name": "spectator_swap",
+      "outside_G512": true,
+      "square_transport_monomial": true,
+      "even_and_J_channel_ranks": [
+        2,
+        4
+      ]
+    },
+    {
+      "name": "reverse_CNOT",
+      "outside_G512": true,
+      "square_transport_monomial": true,
+      "even_and_J_channel_ranks": [
+        4,
+        4
+      ]
+    }
+  ],
+  "dependency_pins": {
+    "results/complex-four-bit-cubic-source/author/PROOF.md": "6ea08c509a1560aa334640eeb45bcdcd4649412d40292380f771cd623eee570c",
+    "results/complex-clean-first-column-exclusion/ADMISSION.md": "8d37f7b9f6585a81db867766751ed08ffa2b4f6f50bd2511d69bf251ee596b72"
+  },
+  "scope": "Universal component-image/coset/inverse-cut proof independently read. Finite enumeration exhausts the explicitly defined512 group only; it is not failed caller search. No statement excludes the1536 enlargement or arbitrary ordinary first interfaces; no supplier or kappa."
+}

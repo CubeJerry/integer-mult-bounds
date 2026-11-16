@@ -1,0 +1,44 @@
+{
+  "status": "PASS_AUTHOR_G512_WHOLE_INTERFACE_GATE",
+  "scope": "Complete exact group/source-word hypotheses plus universal component-image, source-square coset and inverse-cut proof. C00,C10 and only Q02,Q12,Q10,Q11 are constrained to the coefficient algebra; other blocks arbitrary ordinary. No sampled failure theorem.",
+  "actual_group_order": 512,
+  "clean_forward_subgroup_order": 256,
+  "actual_index2_J_decomposition": true,
+  "closure": true,
+  "complete_square_transport": true,
+  "even_four_source_census": {
+    "4": 512
+  },
+  "J_four_source_census": {
+    "2": 256,
+    "3": 256
+  },
+  "J_prefix_ranks": [
+    2,
+    3,
+    2
+  ],
+  "formal_first_column_decomposition": true,
+  "concrete_surviving_rank_selection_controls": [
+    {
+      "name": "spectator_swap",
+      "even_first_four_source_rank": 2,
+      "J_first_four_source_rank": 4,
+      "square_transport_monomial": true,
+      "not_in_G512": true
+    },
+    {
+      "name": "reverse_CNOT",
+      "even_first_four_source_rank": 4,
+      "J_first_four_source_rank": 4,
+      "square_transport_monomial": true,
+      "not_in_G512": true
+    }
+  ],
+  "proof_sha256": "2fb2090f9b1f701515806d8215fd8292270ecbb7a1c879750c7062c10256c47c",
+  "inverse_cut_proof_sha256": "b2732db2a174fa22de13df8610f0c4b5da4b0b34bc96a73f82bf887290d42d7b",
+  "word_engine_pins": {
+    "research/moonshot-005-program/results/complex-four-bit-family/audit/discovery/nonclifford_sector_search.py": "54b4ceb504ff96fb167243093ec5d0caefb31c92c42536762f4b1164bf5d576d",
+    "research/moonshot-005-program/results/complex-four-bit-family/audit/discovery/four_bit_caller_search.py": "d81ecbd98e08cb86fe10804bbf1d66bc818ceb035d484ad3383f94aabdd8d2de"
+  }
+}

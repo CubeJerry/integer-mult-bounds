@@ -1,0 +1,5 @@
+# Checkpoint5 evidence paths and scope
+
+Author and independent-review files are copied byte-for-byte. Committed predecessor helper modules and words are reused with their original credit. All reproduction calls pass explicit repository and output paths. The G512 v1 proof is duplicated under its unversioned basename for its frozen checker. The five-mask universal lemma includes C's explicit changed-packet and output-propagation reader hypotheses; its current proof hash matches C's re-pinned receipt. Earlier initial wording is discussed in the independent review, not silently admitted.
+
+The new initial-chart theorem strengthens the seven-clique stop and excludes append-only completion of three exact prefixes. It does not invalidate their literal words, source identities, or mechanisms. Native-cached57 is an actual changed prefix with19 paid stationary raw owners and two actual known-coordinate completions, and cannot be substituted for liberated55 without those operations. The all111 controls attain poor movement floors; they are not target-compatible suppliers.

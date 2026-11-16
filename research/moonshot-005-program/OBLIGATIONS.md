@@ -1,39 +1,61 @@
 # Current proof-dependency map
 
-## Current frontier — S018 checkpoint4
+## Current frontier — S018 checkpoint5
 
 **No new complete κ.** Selected conditional κ remains363005817/10^11.
-The [actual masked histories](results/bit-unknown-mask-histories/ADMISSION.md)
-complete55 outputs and carry three independent combinations of19 unknown
-donors through real rank6 acquisition, primary-Y feedback, Hub packets and
-rank4 retention. The19 binary parameters are not19 simultaneous dimensions.
-All222 native columns, original-Y purification and physical reset chronology
-are independently verified. The representative costs Q1614.61436398435.
+Actual [multistage packet histories](results/bit-multistage-packet-histories/ADMISSION.md)
+complete57 then59 outputs by changing a packet's payload at successive paid
+stages, with physical caches and resets. A separate [shared proper mask source](results/bit-shared-proper-mask-source/ADMISSION.md)
+retains five independent nonlocal directions with no extra owned MOVE and only
+0.01464037946 movement increment. Both are verified mechanisms; their late
+full-Hub cuts cannot be completed at the target price by appending work.
 
-The [mask-preserving reset](results/bit-mask-preserving-reset/ADMISSION.md)
-preserves every unknown X and every Y cut column, with actual57-coordinate
-ground acquisition, duplicate mask transport and a nontrivial paid Hub inverse.
-Its cheaper liberated contract completes55 outputs, retains three unknown
-modes at two proper charts and leaves92 raw native originals. It costs
-Q1602.3277059631205026795, leaving necessary room19.4231742480318525668.
-The old named cut and liberated source differ; every adapter must be physical
-and priced. The primary BIT task is useful unknown decoding of the remaining
-56 receivers, preserving the complete source/ownership/restoration invoice.
+The new [initial-chart transcript theorem](results/bit-initial-chart-transcript/ADMISSION.md)
+retains the actual location of every initial cut value. It grants all downward
+payloads globally and applies acyclic side-information reconstruction. It
+forces52 future descents after paid59,65 after five-mode46, and26 after the
+unmodified liberated55 source. Actual all111 controls attain the first two
+movement floors but exceed the target. These exact-prefix stops do not
+exclude changing earlier acquisition, packet history or native custody.
 
-The [inverse-support cut](results/complex-clean-first-column-exclusion/ADMISSION.md)
-now excludes EVERY first interface whose C00 and C10 are both clean under
-forward source conjugation, for arbitrary ordinary C20, Q and endpoint gauges
-at faithful fixed-template widths. The exact ordinary rank1-isolation wrapper
-has an F2/F1 cut and cannot supply rank4 in its remaining two-bank equation.
-This closes the earlier outside-square-Q escape within the clean-first-two
-family. A surviving three-native caller must change C00 or C10 clean transport
-or change the native/source/endpoint architecture; none is supplied yet.
+The [native-cached57 repair](results/bit-native-cached-mask-source/ADMISSION.md)
+adds19 actual stationary raw native copies before the mask donors leave,
+then completes61/67 from their actual known ground copies. It has57 completed
+facets,54 raw ground Ys,92 native originals and19 native donor caches, with
+82 INIT/155 ADD/301 MOVE/82 dirty CLEAR. Its movement moment remains
+1602.3277059631205026795, leaving necessary room19.4231742480318525668.
+The old26-witness now has a real cycle, but incomparable local caches do not
+give a legal decoder chain. Actual receiver decoding and restoration remain
+the primary BIT task, preferably using earlier paid histories.
 
-Both strict suppliers, full recursion, target theorem and all five foundations
-remain open. Session S018 remains active through17:00:55UTC. This is an
-interruption-safe checkpoint, not a completed programme or PR-ready result.
-Earlier priorities below are historical unless retained here; prior logical
-records are archived without replacing their scientific evidence.
+The [whole G512 coefficient gate](results/complex-g512-coefficient-gate/ADMISSION.md)
+excludes arbitrary first/second interfaces in the current512-control algebra,
+including nonclean entries and projectors. Complete literal source classes,
+ordinary image directness, a square-coset separation and the inverse cut
+prove the result. Two outside-G operations change the rank4 selection and
+motivate a1536-control extension; they are not a421 caller.
+
+Both strict suppliers, target theorem, recursion and all five foundations
+remain open. S018 continues through17:00:55UTC. The branch remains an ongoing
+research programme, not PR-ready. Earlier priorities below are historical
+unless retained here; prior logical records and scientific evidence are kept.
+
+## S018 checkpoint5 quantified dependency update
+
+| Obligation | Admitted scope | Consequence / remaining task |
+|---|---|---|
+| BIT-LOWER-HISTORY57/59 | Actual successive codes, captures and resets; full222 and full invoices. | Use earlier stages productively; late59 cut is stopped. |
+| BIT-SHARED-PROPER-FIVE | All32 parameter choices, actual shared corrections, five nonlocal clique classes. | Rank is not receiver accessibility; late46 cut is stopped. |
+| BIT-LOCAL-CUT-SEVEN-DESCENTS | Fixed-alphabet/schedule nonlinear transcript on seven nonorthogonal roles. | Valid earlier bound, strengthened by actual-chart graph. |
+| BIT-INITIAL-CHART-TRANSCRIPT | Every field depends on initial values below its chart plus downward transcript; acyclic W forces|W| descents. | Earlier source/route changes remain outside each frozen-cut stop. |
+| BIT-SHARP-FIXED-CUT-CONTROLS | Actual all111 words attain52/65-descents movement floors. | They fail the necessary target inequality; no supplier. |
+| BIT-NATIVE-CACHED57-REPAIR |19 actual native caches,57 completed endpoints, no extra MOVE. | Need legal chains for54 remaining receivers and complete costs. |
+| COMPLEX-G512-COEFFICIENT-GATE | C00,C10,Q02,Q12,Q10,Q11 in O_G512; other ordinary blocks unrestricted. |1536 selective channels or a different algebra/architecture remain open. |
+
+The fixed-cut graph is an optimistic grant of individual raw side coordinates.
+Several individually accessible fields may still lie on incompatible receiver
+chains. The native-cache repair invalidates a specific graph witness, not all
+possible lower bounds. Both strict suppliers and all five foundations remain.
 
 ## S018 checkpoint4 quantified dependency update
 

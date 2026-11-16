@@ -1,0 +1,573 @@
+{
+  "status": "PASS_NATIVE_LOWER_HISTORY_SEMANTIC_CONTROLS",
+  "word_sha256": "dd60233b57be5fdef83b86a2d2b816e665e3d939850da94b680838d1d6d178ce",
+  "baseline": {
+    "input_columns": 222,
+    "counts": {
+      "MOVE": 574,
+      "INIT": 188,
+      "ADD": 667,
+      "CLEAR": 188
+    },
+    "movement_profile": {
+      "1": 282,
+      "2": 39,
+      "3": 66,
+      "4": 34,
+      "5": 62,
+      "6": 11,
+      "7": 80
+    },
+    "dirty_CLEAR": 185,
+    "peak_owned": 185,
+    "historical_record_states": 1651
+  },
+  "control_count": 58,
+  "rejected": [
+    {
+      "kind": "local_pair_acquisition",
+      "index": 2,
+      "operation": [
+        "ADD",
+        "X38",
+        "LOCAL_PAIR_RAW_38"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "local_pair_acquisition",
+      "index": 5,
+      "operation": [
+        "ADD",
+        "X38",
+        "LOCAL_PAIR_SOURCE_38"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "local_pair_acquisition",
+      "index": 9,
+      "operation": [
+        "ADD",
+        "X54",
+        "LOCAL_PAIR_RAW_54"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "local_pair_acquisition",
+      "index": 12,
+      "operation": [
+        "ADD",
+        "X54",
+        "LOCAL_PAIR_SOURCE_54"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "local_pair_acquisition",
+      "index": 16,
+      "operation": [
+        "ADD",
+        "X39",
+        "LOCAL_PAIR_RAW_39"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "local_pair_acquisition",
+      "index": 19,
+      "operation": [
+        "ADD",
+        "X39",
+        "LOCAL_PAIR_SOURCE_39"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "local_pair_acquisition",
+      "index": 23,
+      "operation": [
+        "ADD",
+        "X53",
+        "LOCAL_PAIR_RAW_53"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "local_pair_acquisition",
+      "index": 26,
+      "operation": [
+        "ADD",
+        "X53",
+        "LOCAL_PAIR_SOURCE_53"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "initial_y_snapshot_acquisition",
+      "index": 30,
+      "operation": [
+        "ADD",
+        "Y21",
+        "LOWER_INITIAL_Y0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "cyclic_raw_acquisition",
+      "index": 34,
+      "operation": [
+        "ADD",
+        "X16",
+        "LOWER_RAW_0_16_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_acquisition",
+      "index": 36,
+      "operation": [
+        "ADD",
+        "X16",
+        "Y21"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "cyclic_raw_acquisition",
+      "index": 40,
+      "operation": [
+        "ADD",
+        "X18",
+        "LOWER_RAW_0_18_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_acquisition",
+      "index": 42,
+      "operation": [
+        "ADD",
+        "X18",
+        "Y21"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "initial_y_snapshot_acquisition",
+      "index": 47,
+      "operation": [
+        "ADD",
+        "Y64",
+        "LOWER_INITIAL_Y1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "cyclic_raw_acquisition",
+      "index": 51,
+      "operation": [
+        "ADD",
+        "X23",
+        "LOWER_RAW_1_23_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "cyclic_raw_acquisition",
+      "index": 54,
+      "operation": [
+        "ADD",
+        "X23",
+        "LOWER_RAW_1_23_2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_acquisition",
+      "index": 56,
+      "operation": [
+        "ADD",
+        "X23",
+        "Y64"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "cyclic_raw_acquisition",
+      "index": 60,
+      "operation": [
+        "ADD",
+        "X71",
+        "LOWER_RAW_1_71_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "cyclic_raw_acquisition",
+      "index": 63,
+      "operation": [
+        "ADD",
+        "X71",
+        "LOWER_RAW_1_71_2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_acquisition",
+      "index": 65,
+      "operation": [
+        "ADD",
+        "X71",
+        "Y64"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "cyclic_raw_acquisition",
+      "index": 69,
+      "operation": [
+        "ADD",
+        "X81",
+        "LOWER_RAW_1_81_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "cyclic_raw_acquisition",
+      "index": 72,
+      "operation": [
+        "ADD",
+        "X81",
+        "LOWER_RAW_1_81_2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_acquisition",
+      "index": 74,
+      "operation": [
+        "ADD",
+        "X81",
+        "Y64"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "initial_y_snapshot_acquisition",
+      "index": 79,
+      "operation": [
+        "ADD",
+        "Y65",
+        "LOWER_INITIAL_Y2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "cyclic_raw_acquisition",
+      "index": 83,
+      "operation": [
+        "ADD",
+        "X22",
+        "LOWER_RAW_2_22_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "cyclic_raw_acquisition",
+      "index": 86,
+      "operation": [
+        "ADD",
+        "X22",
+        "LOWER_RAW_2_22_2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_acquisition",
+      "index": 88,
+      "operation": [
+        "ADD",
+        "X22",
+        "Y65"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "cyclic_raw_acquisition",
+      "index": 92,
+      "operation": [
+        "ADD",
+        "X68",
+        "LOWER_RAW_2_68_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "cyclic_raw_acquisition",
+      "index": 95,
+      "operation": [
+        "ADD",
+        "X68",
+        "LOWER_RAW_2_68_2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_acquisition",
+      "index": 97,
+      "operation": [
+        "ADD",
+        "X68",
+        "Y65"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "cyclic_raw_acquisition",
+      "index": 101,
+      "operation": [
+        "ADD",
+        "X85",
+        "LOWER_RAW_2_85_1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "cyclic_raw_acquisition",
+      "index": 104,
+      "operation": [
+        "ADD",
+        "X85",
+        "LOWER_RAW_2_85_2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "primary_local_acquisition",
+      "index": 106,
+      "operation": [
+        "ADD",
+        "X85",
+        "Y65"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_y_purification",
+      "index": 931,
+      "operation": [
+        "ADD",
+        "LOWER_INITIAL_Y0",
+        "P0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "lower_packet_reset",
+      "index": 936,
+      "operation": [
+        "ADD",
+        "TRIAD16",
+        "P0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_y_purification",
+      "index": 960,
+      "operation": [
+        "ADD",
+        "LOWER_INITIAL_Y1",
+        "P1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "lower_packet_reset",
+      "index": 965,
+      "operation": [
+        "ADD",
+        "TRIAD23",
+        "P1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "existing_descent_source_load",
+      "index": 967,
+      "operation": [
+        "ADD",
+        "LOCAL_PAIR_SOURCE_38",
+        "P1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "existing_descent_source_load",
+      "index": 968,
+      "operation": [
+        "ADD",
+        "LOCAL_PAIR_SOURCE_54",
+        "P1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_y_purification",
+      "index": 991,
+      "operation": [
+        "ADD",
+        "LOWER_INITIAL_Y2",
+        "P2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "lower_packet_reset",
+      "index": 996,
+      "operation": [
+        "ADD",
+        "TRIAD22",
+        "P2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "existing_descent_source_load",
+      "index": 998,
+      "operation": [
+        "ADD",
+        "LOCAL_PAIR_SOURCE_39",
+        "P2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "existing_descent_source_load",
+      "index": 999,
+      "operation": [
+        "ADD",
+        "LOCAL_PAIR_SOURCE_53",
+        "P2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "shared_unit_descent",
+      "index": 1305,
+      "operation": [
+        "MOVE",
+        "TRIAD16",
+        "LOWER_COMMON_0"
+      ],
+      "failure": "(1309, ['ADD', 'TRIAD16', 'Y16'], 'colocation')"
+    },
+    {
+      "kind": "shared_unit_descent",
+      "index": 1306,
+      "operation": [
+        "MOVE",
+        "TRIAD23",
+        "LOWER_COMMON_1"
+      ],
+      "failure": "(1319, ['ADD', 'TRIAD23', 'Y23'], 'colocation')"
+    },
+    {
+      "kind": "shared_unit_descent",
+      "index": 1307,
+      "operation": [
+        "MOVE",
+        "TRIAD22",
+        "LOWER_COMMON_2"
+      ],
+      "failure": "(1340, ['ADD', 'TRIAD22', 'Y22'], 'colocation')"
+    },
+    {
+      "kind": "ordered_primary_cell",
+      "index": 927,
+      "operation": [
+        "ADD",
+        "P0",
+        "Y21"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "ordered_primary_cell",
+      "index": 928,
+      "operation": [
+        "ADD",
+        "Y21",
+        "P0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "ordered_primary_cell",
+      "index": 956,
+      "operation": [
+        "ADD",
+        "P1",
+        "Y64"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "ordered_primary_cell",
+      "index": 957,
+      "operation": [
+        "ADD",
+        "Y64",
+        "P1"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "ordered_primary_cell",
+      "index": 987,
+      "operation": [
+        "ADD",
+        "P2",
+        "Y65"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "ordered_primary_cell",
+      "index": 988,
+      "operation": [
+        "ADD",
+        "Y65",
+        "P2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "reversed_primary_cell",
+      "index": 927
+    },
+    {
+      "kind": "reversed_primary_cell",
+      "index": 956
+    },
+    {
+      "kind": "reversed_primary_cell",
+      "index": 987
+    },
+    {
+      "kind": "obsolete_upper_reset_reinserted",
+      "index": 933
+    },
+    {
+      "kind": "obsolete_upper_reset_reinserted",
+      "index": 962
+    },
+    {
+      "kind": "obsolete_upper_reset_reinserted",
+      "index": 993
+    }
+  ],
+  "scope": "Author controls, all222 columns and exact native chart inclusions. Credited retained interpreter; independent review remains separate."
+}

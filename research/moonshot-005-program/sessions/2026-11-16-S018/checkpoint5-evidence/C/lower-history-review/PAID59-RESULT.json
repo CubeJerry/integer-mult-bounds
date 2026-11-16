@@ -1,0 +1,245 @@
+{
+  "status": "PASS_INDEPENDENT_PAID_LOWER_HISTORY",
+  "targets": 59,
+  "word_sha256": "dd60233b57be5fdef83b86a2d2b816e665e3d939850da94b680838d1d6d178ce",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "stats": {
+    "counts": {
+      "MOVE": 574,
+      "INIT": 188,
+      "ADD": 667,
+      "CLEAR": 188
+    },
+    "movement_profile": {
+      "1": 282,
+      "2": 39,
+      "3": 66,
+      "4": 34,
+      "5": 62,
+      "6": 11,
+      "7": 80
+    },
+    "dirty_CLEAR": 185,
+    "peak_owned": 185,
+    "all_222_endpoints": true
+  },
+  "cut": 1380,
+  "lower_cells": [
+    {
+      "packet": "P0",
+      "primary": 21,
+      "code": [
+        16,
+        18
+      ],
+      "feedback": 927,
+      "purification": 931,
+      "upper_capture": 932,
+      "lower_capture": 935,
+      "lower_reset": 936,
+      "new_descent": 1305
+    },
+    {
+      "packet": "P1",
+      "primary": 64,
+      "code": [
+        23,
+        71,
+        81
+      ],
+      "feedback": 956,
+      "purification": 960,
+      "upper_capture": 961,
+      "lower_capture": 964,
+      "lower_reset": 965,
+      "new_descent": 1306
+    },
+    {
+      "packet": "P2",
+      "primary": 65,
+      "code": [
+        22,
+        68,
+        85
+      ],
+      "feedback": 987,
+      "purification": 991,
+      "upper_capture": 992,
+      "lower_capture": 995,
+      "lower_reset": 996,
+      "new_descent": 1307
+    }
+  ],
+  "stationary_lower_caches": [
+    "LOWER_RAW_0_16_1",
+    "LOWER_RAW_0_18_1",
+    "LOWER_RAW_1_23_1",
+    "LOWER_RAW_1_23_2",
+    "LOWER_RAW_1_71_1",
+    "LOWER_RAW_1_71_2",
+    "LOWER_RAW_1_81_1",
+    "LOWER_RAW_1_81_2",
+    "LOWER_RAW_2_22_1",
+    "LOWER_RAW_2_22_2",
+    "LOWER_RAW_2_68_1",
+    "LOWER_RAW_2_68_2",
+    "LOWER_RAW_2_85_1",
+    "LOWER_RAW_2_85_2"
+  ],
+  "third_stage_pairs": [
+    {
+      "packet": "P1",
+      "pair": [
+        38,
+        54
+      ],
+      "source_chart": "J23",
+      "load": 967,
+      "capture": 970,
+      "reset": 971,
+      "common_line": "L11"
+    },
+    {
+      "packet": "P2",
+      "pair": [
+        39,
+        53
+      ],
+      "source_chart": "J22",
+      "load": 998,
+      "capture": 1001,
+      "reset": 1002,
+      "common_line": "L12"
+    }
+  ],
+  "owned_MOVE_profile": {
+    "1": 58,
+    "3": 6
+  },
+  "actual_live_owner_count": 185,
+  "actual_owner_X_rank": 92,
+  "actual_owner_Y_rank": 0,
+  "actual_coordinate_support": 111,
+  "ground25_names": [
+    "ADDED_RAW36",
+    "ADDED_RAW37",
+    "ADDED_RAW50",
+    "ADDED_RAW8",
+    "ADDED_RAW9",
+    "COMMON_RAW2",
+    "DIRECT_RAW10",
+    "DIRECT_RAW20",
+    "E1",
+    "E6",
+    "E73",
+    "E75",
+    "E77",
+    "E79",
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "ZRAW0",
+    "ZRAW28",
+    "ZRAW44"
+  ],
+  "ground_rank": 25,
+  "all_X_raw_Hub": true,
+  "unfinished_Y_raw_ground": 52,
+  "new_targets": [
+    53,
+    54
+  ],
+  "whole_moment": {
+    "rational": [
+      "1619210689048551331017775335845015376063972527/1000000000000000000000000000000000000000000",
+      "1619210689048551331017775335845015376063972819/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1619.210689048551331017775335845015376063972527",
+      "1619.210689048551331017775335845015376063972819"
+    ]
+  },
+  "moment_increment": {
+    "rational": [
+      "18888694337929593984379531307514534989537/250000000000000000000000000000000000000000",
+      "18888694337929593984379531307514534989683/250000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "0.075554777351718375937518125230058139958148",
+      "0.075554777351718375937518125230058139958732"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "2540191162601024228470814521979610383942631/1000000000000000000000000000000000000000000",
+      "15241146975606145370824887131877662303658833/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "2.540191162601024228470814521979610383942631",
+      "2.5401911626010242284708145219796103839431388333333333333333333333333333333333333"
+    ]
+  },
+  "controls": [
+    {
+      "control": "omit true lower cache capture",
+      "rejected": true,
+      "reason": "('Y endpoint', 81)"
+    },
+    {
+      "control": "omit actual upper source input",
+      "rejected": true,
+      "reason": "('Y endpoint', 64)"
+    },
+    {
+      "control": "omit original-Y purifier",
+      "rejected": true,
+      "reason": "('Y endpoint', 23)"
+    },
+    {
+      "control": "omit lower reset",
+      "rejected": true,
+      "reason": "('Y endpoint', 38)"
+    },
+    {
+      "control": "omit new unit descent",
+      "rejected": true,
+      "reason": "(1318, 'co-location', ['ADD', 'TRIAD23', 'Y23'], 'J23', 'LOWER_COMMON_1')"
+    },
+    {
+      "control": "omit raw-cache retirement",
+      "rejected": true,
+      "reason": "complete lifetimes"
+    },
+    {
+      "control": "restore obsolete early M0 reset",
+      "rejected": true,
+      "reason": "('Y endpoint', 23)"
+    },
+    {
+      "control": "omit actual proper pair source capture",
+      "rejected": true,
+      "reason": "('Y endpoint', 38)"
+    },
+    {
+      "control": "omit actual pair raw decoder cache",
+      "rejected": true,
+      "reason": "('Y endpoint', 54)"
+    },
+    {
+      "control": "omit real third-stage programming",
+      "rejected": true,
+      "reason": "('Y endpoint', 38)"
+    },
+    {
+      "control": "omit third-stage packet reset",
+      "rejected": true,
+      "reason": "('Y endpoint', 11)"
+    }
+  ],
+  "scope": "Independent literal native/all222-column replay, actual changing histories, cache and source chronology, cut source and complete price. Formal checks do not discharge any of five global foundations. No all111 or kappa."
+}

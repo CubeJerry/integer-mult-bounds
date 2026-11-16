@@ -1,0 +1,209 @@
+{
+  "status": "PASS_SHARED_PROPER_OMISSION_CONTROLS",
+  "word_sha256": "14503b00ad6f9d1e4d85ec09769a51c14eca36d61edabe19d9ae2907608c7501",
+  "baseline": {
+    "input_columns": 222,
+    "counts": {
+      "MOVE": 485,
+      "INIT": 132,
+      "ADD": 812,
+      "CLEAR": 132
+    },
+    "movement_profile": {
+      "1": 195,
+      "2": 34,
+      "3": 60,
+      "4": 9,
+      "5": 70,
+      "6": 24,
+      "7": 93
+    },
+    "dirty_CLEAR": 132,
+    "peak_owned": 132,
+    "historical_record_states": 1651
+  },
+  "control_count": 18,
+  "rejected": [
+    {
+      "kind": "source_mask",
+      "index": 816,
+      "operation": [
+        "ADD",
+        "X35",
+        "P0"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "source_mask",
+      "index": 895,
+      "operation": [
+        "ADD",
+        "X110",
+        "P1"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "source_mask",
+      "index": 971,
+      "operation": [
+        "ADD",
+        "X93",
+        "P2"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "source_mask",
+      "index": 1045,
+      "operation": [
+        "ADD",
+        "X96",
+        "P3"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "source_mask",
+      "index": 1175,
+      "operation": [
+        "ADD",
+        "X97",
+        "P5"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "actual_shared_correction",
+      "index": 848,
+      "operation": [
+        "ADD",
+        "SHARED_PROPER_RAW_35",
+        "Y3"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "actual_shared_correction",
+      "index": 857,
+      "operation": [
+        "ADD",
+        "SHARED_PROPER_RAW_35",
+        "Y21"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "actual_shared_correction",
+      "index": 923,
+      "operation": [
+        "ADD",
+        "SHARED_PROPER_RAW_110",
+        "Y76"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "actual_shared_correction",
+      "index": 932,
+      "operation": [
+        "ADD",
+        "SHARED_PROPER_RAW_110",
+        "Y64"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "actual_shared_correction",
+      "index": 1002,
+      "operation": [
+        "ADD",
+        "SHARED_PROPER_RAW_93",
+        "Y80"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "actual_shared_correction",
+      "index": 1012,
+      "operation": [
+        "ADD",
+        "SHARED_PROPER_RAW_93",
+        "Y65"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "actual_shared_correction",
+      "index": 1079,
+      "operation": [
+        "ADD",
+        "SHARED_PROPER_RAW_96",
+        "Y4"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "actual_shared_correction",
+      "index": 1252,
+      "operation": [
+        "ADD",
+        "SHARED_PROPER_RAW_97",
+        "Y78"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "native_raw_capture",
+      "index": 2,
+      "operation": [
+        "ADD",
+        "X35",
+        "SHARED_PROPER_RAW_35"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "native_raw_capture",
+      "index": 6,
+      "operation": [
+        "ADD",
+        "X110",
+        "SHARED_PROPER_RAW_110"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "native_raw_capture",
+      "index": 10,
+      "operation": [
+        "ADD",
+        "X93",
+        "SHARED_PROPER_RAW_93"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "native_raw_capture",
+      "index": 14,
+      "operation": [
+        "ADD",
+        "X96",
+        "SHARED_PROPER_RAW_96"
+      ],
+      "reason": "222-column endpoint mismatch"
+    },
+    {
+      "kind": "native_raw_capture",
+      "index": 18,
+      "operation": [
+        "ADD",
+        "X97",
+        "SHARED_PROPER_RAW_97"
+      ],
+      "reason": "222-column endpoint mismatch"
+    }
+  ],
+  "scope": "Author controls on the all-one actual word. The universal mask argument is algebraic; no scalar scan is presented as proof."
+}

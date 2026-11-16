@@ -1,0 +1,231 @@
+{
+  "status": "PASS_FIVE_ACTUAL_SHARED_PROPER_UNKNOWN_MODES",
+  "word_sha256": "451bc0cbb0a7e297fa20d9b6faec2f5c255958f9ff1684859cb93d6862a1b74d",
+  "base_word_sha256": "27dc6c36eec067acd2fe4679a81c95ea9db8fd6377784a0bbfc060ca52a121fd",
+  "before": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 127,
+      "ADD": 819,
+      "MOVE": 481,
+      "CLEAR": 127
+    },
+    "movement_profile": {
+      "1": 185,
+      "2": 40,
+      "3": 60,
+      "4": 9,
+      "5": 72,
+      "6": 22,
+      "7": 93
+    },
+    "dirty_CLEAR": 127,
+    "peak_owned": 127,
+    "historical_record_states": 1649
+  },
+  "after": {
+    "input_columns": 222,
+    "counts": {
+      "MOVE": 485,
+      "INIT": 132,
+      "ADD": 807,
+      "CLEAR": 132
+    },
+    "movement_profile": {
+      "1": 195,
+      "2": 34,
+      "3": 60,
+      "4": 9,
+      "5": 70,
+      "6": 24,
+      "7": 93
+    },
+    "dirty_CLEAR": 132,
+    "peak_owned": 132,
+    "historical_record_states": 1646
+  },
+  "all_targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    48,
+    49,
+    50,
+    64,
+    65,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "interface": 1359,
+  "plan": [
+    [
+      "P0",
+      "KEEP_C0",
+      35,
+      "D3_21",
+      [
+        3,
+        21
+      ]
+    ],
+    [
+      "P1",
+      "KEEP_C1",
+      110,
+      "D76_64",
+      [
+        76,
+        64
+      ]
+    ],
+    [
+      "P2",
+      "KEEP_C2",
+      93,
+      "D80_65",
+      [
+        80,
+        65
+      ]
+    ],
+    [
+      "P3",
+      "ZFIRST3",
+      96,
+      "F4",
+      [
+        4
+      ]
+    ],
+    [
+      "P5",
+      "ZFIRST5",
+      97,
+      "F78",
+      [
+        78
+      ]
+    ]
+  ],
+  "parameter_bits": [
+    1,
+    0,
+    1,
+    0,
+    1
+  ],
+  "clique": [
+    5,
+    35,
+    93,
+    96,
+    97,
+    109,
+    110
+  ],
+  "clique_nonlocal_projection_rank": 4,
+  "clique_nonlocal_certificate": [
+    {
+      "owner": "ZFIRST3",
+      "chart": "M1",
+      "row_hex": "0x2000000000000000000000000000",
+      "clique_support": [
+        109
+      ]
+    },
+    {
+      "owner": "ZFIRST5",
+      "chart": "M1",
+      "row_hex": "0x2002000000000000000000000000",
+      "clique_support": [
+        97,
+        109
+      ]
+    },
+    {
+      "owner": "KEEP_C0",
+      "chart": "C0",
+      "row_hex": "0x800000000",
+      "clique_support": [
+        35
+      ]
+    },
+    {
+      "owner": "KEEP_C2",
+      "chart": "C0",
+      "row_hex": "0x200000000000000000000000",
+      "clique_support": [
+        93
+      ]
+    }
+  ],
+  "unaffected_projected_states": 361432,
+  "owned_move_increment": 0,
+  "whole_moment": {
+    "rational": [
+      "1612137283799758513112455152556733899830664577/1000000000000000000000000000000000000000000",
+      "1612137283799758513112455152556733899830664867/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1612.137283799758513112455152556733899830664577",
+      "1612.137283799758513112455152556733899830664867"
+    ]
+  },
+  "moment_increment": {
+    "rational": [
+      "7320189730242571703411342181348332246449/500000000000000000000000000000000000000000",
+      "3660094865121285851705671090674166123371/250000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "0.014640379460485143406822684362696664492898",
+      "0.014640379460485143406822684362696664493484"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "9613596411393842133790997810261086617250583/1000000000000000000000000000000000000000000",
+      "57681578468363052802745986861566519703506533/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "9.613596411393842133790997810261086617250583",
+      "9.6135964113938421337909978102610866172510888333333333333333333333333333333333333"
+    ]
+  },
+  "scope": "Same46 completed outputs; five independent unknown directions on an unfinished nonorthogonal seven-clique are retained nonlocally using actual native original routes and five shared proper raw caches. Six old receivers share three rank6 correction caches. No added owned MOVE. All65 unfinished Y stay rawground. No all111 supplier or kappa."
+}
