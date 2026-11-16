@@ -1,0 +1,4144 @@
+{
+  "status": "PASS_ACTUAL_CANONICAL9_SOURCE_NATIVE63",
+  "word_sha256": "de6d6919f448b9f4bb09d106e35667572207c7155ab0ed9ce6193f6b17289325",
+  "base_word_sha256": "dda004b1c3cae1c0d0cfb0d698c101963842db12d542fed842a82dbffc14ee44",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "cut": 873,
+  "before": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 115,
+      "ADD": 306,
+      "MOVE": 330,
+      "CLEAR": 115
+    },
+    "movement_profile": {
+      "1": 67,
+      "2": 37,
+      "3": 4,
+      "4": 1,
+      "5": 37,
+      "6": 19,
+      "7": 165
+    },
+    "dirty_CLEAR": 115,
+    "peak_owned": 115,
+    "historical_record_states": 973
+  },
+  "after": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 127,
+      "ADD": 521,
+      "MOVE": 336,
+      "CLEAR": 127
+    },
+    "movement_profile": {
+      "1": 67,
+      "2": 37,
+      "3": 10,
+      "4": 1,
+      "5": 37,
+      "6": 19,
+      "7": 165
+    },
+    "dirty_CLEAR": 127,
+    "peak_owned": 127,
+    "historical_record_states": 1206
+  },
+  "known_S48": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    48,
+    49,
+    50,
+    61,
+    64,
+    65,
+    67,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "unknown_U63": [
+    5,
+    13,
+    14,
+    15,
+    17,
+    18,
+    24,
+    25,
+    26,
+    31,
+    32,
+    33,
+    34,
+    35,
+    47,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    62,
+    63,
+    66,
+    68,
+    69,
+    70,
+    71,
+    72,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "newly_cached_and_early_Hub_unknowns": [
+    15,
+    31,
+    53,
+    54,
+    57,
+    58
+  ],
+  "canonical_primaries": [
+    4,
+    74,
+    78,
+    15,
+    35,
+    13,
+    1,
+    2,
+    0
+  ],
+  "canonical_mode_names": [
+    "ZFIRST3",
+    "ZFIRST4",
+    "ZFIRST5",
+    "CANONICAL9_MODE_15",
+    "CANONICAL9_MODE_35",
+    "CANONICAL9_MODE_13",
+    "CANONICAL9_MODE_1",
+    "CANONICAL9_MODE_2",
+    "CANONICAL9_MODE_0"
+  ],
+  "canonical_rows_hex": [
+    "0x7fff00fe0000d808800007000020",
+    "0x52f03cc200705190000f00066020",
+    "0x2d0fc33c01848990000f00066020",
+    "0x2affcc3201900198000304048020",
+    "0x19cc99fe01901878000a03020000",
+    "0x7faacc5601301aa0800086062020",
+    "0x7f80fffe01f407f000000006c020",
+    "0x7fff000001f407f0000f87000020",
+    "0x7ffffe000007f8800000002020"
+  ],
+  "canonical_quotient_rank": 9,
+  "proper_group_rank": 7,
+  "union_mode_group_rank": 13,
+  "global_owned_rank_spread_across_charts": 111,
+  "native_original_count": 48,
+  "raw_ground_Y_count": 63,
+  "extra_ADD_count": 215,
+  "complete_moment": {
+    "rational": [
+      "807434686086475948660873806139120952722500879/500000000000000000000000000000000000000000",
+      "1614869372172951897321747612278241905445002027/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1614.869372172951897321747612278241905445001758",
+      "1614.869372172951897321747612278241905445002027"
+    ]
+  },
+  "extra_movement": {
+    "rational": [
+      "17901395960979783630298181676955164795137443/1000000000000000000000000000000000000000000",
+      "716055838439191345211927267078206591805519/40000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "17.901395960979783630298181676955164795137443",
+      "17.901395960979783630298181676955164795137975"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "6881508038200457924498538088753081002913423/1000000000000000000000000000000000000000000",
+      "41289048229202747546991228532518486017483447/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "6.881508038200457924498538088753081002913423",
+      "6.8815080382004579244985380887530810029139078333333333333333333333333333333333333"
+    ]
+  },
+  "canonical_span_coefficients": [
+    {
+      "canonical_receiver": 0,
+      "nine_mode_coefficients_hex": "0x100",
+      "actual_mode_names": [
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 1,
+      "nine_mode_coefficients_hex": "0x40",
+      "actual_mode_names": [
+        "CANONICAL9_MODE_1"
+      ]
+    },
+    {
+      "canonical_receiver": 2,
+      "nine_mode_coefficients_hex": "0x80",
+      "actual_mode_names": [
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 3,
+      "nine_mode_coefficients_hex": "0x1c0",
+      "actual_mode_names": [
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 4,
+      "nine_mode_coefficients_hex": "0x1",
+      "actual_mode_names": [
+        "ZFIRST3"
+      ]
+    },
+    {
+      "canonical_receiver": 5,
+      "nine_mode_coefficients_hex": "0x141",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 6,
+      "nine_mode_coefficients_hex": "0x181",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 7,
+      "nine_mode_coefficients_hex": "0xc1",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 8,
+      "nine_mode_coefficients_hex": "0xa1",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 9,
+      "nine_mode_coefficients_hex": "0x1a6",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 10,
+      "nine_mode_coefficients_hex": "0x61",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1"
+      ]
+    },
+    {
+      "canonical_receiver": 11,
+      "nine_mode_coefficients_hex": "0x1e7",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 12,
+      "nine_mode_coefficients_hex": "0xe0",
+      "actual_mode_names": [
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 13,
+      "nine_mode_coefficients_hex": "0x20",
+      "actual_mode_names": [
+        "CANONICAL9_MODE_13"
+      ]
+    },
+    {
+      "canonical_receiver": 14,
+      "nine_mode_coefficients_hex": "0x4f",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_1"
+      ]
+    },
+    {
+      "canonical_receiver": 15,
+      "nine_mode_coefficients_hex": "0x8",
+      "actual_mode_names": [
+        "CANONICAL9_MODE_15"
+      ]
+    },
+    {
+      "canonical_receiver": 16,
+      "nine_mode_coefficients_hex": "0x188",
+      "actual_mode_names": [
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 17,
+      "nine_mode_coefficients_hex": "0x1cf",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 18,
+      "nine_mode_coefficients_hex": "0x109",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 19,
+      "nine_mode_coefficients_hex": "0x14e",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 20,
+      "nine_mode_coefficients_hex": "0xce",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 21,
+      "nine_mode_coefficients_hex": "0x89",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 22,
+      "nine_mode_coefficients_hex": "0x1a9",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 23,
+      "nine_mode_coefficients_hex": "0xae",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 24,
+      "nine_mode_coefficients_hex": "0x1ee",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 25,
+      "nine_mode_coefficients_hex": "0xe9",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 26,
+      "nine_mode_coefficients_hex": "0x2f",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13"
+      ]
+    },
+    {
+      "canonical_receiver": 27,
+      "nine_mode_coefficients_hex": "0x128",
+      "actual_mode_names": [
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 28,
+      "nine_mode_coefficients_hex": "0x68",
+      "actual_mode_names": [
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1"
+      ]
+    },
+    {
+      "canonical_receiver": 29,
+      "nine_mode_coefficients_hex": "0x16f",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 30,
+      "nine_mode_coefficients_hex": "0x111",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 31,
+      "nine_mode_coefficients_hex": "0x196",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 32,
+      "nine_mode_coefficients_hex": "0xd6",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 33,
+      "nine_mode_coefficients_hex": "0x51",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1"
+      ]
+    },
+    {
+      "canonical_receiver": 34,
+      "nine_mode_coefficients_hex": "0x97",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 35,
+      "nine_mode_coefficients_hex": "0x10",
+      "actual_mode_names": [
+        "CANONICAL9_MODE_35"
+      ]
+    },
+    {
+      "canonical_receiver": 36,
+      "nine_mode_coefficients_hex": "0x150",
+      "actual_mode_names": [
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 37,
+      "nine_mode_coefficients_hex": "0x1d7",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 38,
+      "nine_mode_coefficients_hex": "0x37",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13"
+      ]
+    },
+    {
+      "canonical_receiver": 39,
+      "nine_mode_coefficients_hex": "0x130",
+      "actual_mode_names": [
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 40,
+      "nine_mode_coefficients_hex": "0xb0",
+      "actual_mode_names": [
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 41,
+      "nine_mode_coefficients_hex": "0x1b7",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 42,
+      "nine_mode_coefficients_hex": "0x171",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 43,
+      "nine_mode_coefficients_hex": "0x76",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1"
+      ]
+    },
+    {
+      "canonical_receiver": 44,
+      "nine_mode_coefficients_hex": "0x1f6",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 45,
+      "nine_mode_coefficients_hex": "0xf1",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 46,
+      "nine_mode_coefficients_hex": "0x199",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 47,
+      "nine_mode_coefficients_hex": "0x1de",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 48,
+      "nine_mode_coefficients_hex": "0x11e",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 49,
+      "nine_mode_coefficients_hex": "0xdf",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 50,
+      "nine_mode_coefficients_hex": "0x58",
+      "actual_mode_names": [
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1"
+      ]
+    },
+    {
+      "canonical_receiver": 51,
+      "nine_mode_coefficients_hex": "0x1f",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35"
+      ]
+    },
+    {
+      "canonical_receiver": 52,
+      "nine_mode_coefficients_hex": "0x139",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 53,
+      "nine_mode_coefficients_hex": "0x79",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1"
+      ]
+    },
+    {
+      "canonical_receiver": 54,
+      "nine_mode_coefficients_hex": "0x17e",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 55,
+      "nine_mode_coefficients_hex": "0xb9",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 56,
+      "nine_mode_coefficients_hex": "0x1be",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 57,
+      "nine_mode_coefficients_hex": "0xfe",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 58,
+      "nine_mode_coefficients_hex": "0x1f9",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 59,
+      "nine_mode_coefficients_hex": "0x4c",
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_1"
+      ]
+    },
+    {
+      "canonical_receiver": 60,
+      "nine_mode_coefficients_hex": "0x4a",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_1"
+      ]
+    },
+    {
+      "canonical_receiver": 61,
+      "nine_mode_coefficients_hex": "0x10c",
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 62,
+      "nine_mode_coefficients_hex": "0x1ca",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 63,
+      "nine_mode_coefficients_hex": "0x1cc",
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 64,
+      "nine_mode_coefficients_hex": "0x8c",
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 65,
+      "nine_mode_coefficients_hex": "0x8a",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 66,
+      "nine_mode_coefficients_hex": "0xec",
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 67,
+      "nine_mode_coefficients_hex": "0x2c",
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13"
+      ]
+    },
+    {
+      "canonical_receiver": 68,
+      "nine_mode_coefficients_hex": "0x12b",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 69,
+      "nine_mode_coefficients_hex": "0x1ed",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 70,
+      "nine_mode_coefficients_hex": "0xea",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 71,
+      "nine_mode_coefficients_hex": "0x2a",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13"
+      ]
+    },
+    {
+      "canonical_receiver": 72,
+      "nine_mode_coefficients_hex": "0x12d",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 73,
+      "nine_mode_coefficients_hex": "0x45",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_1"
+      ]
+    },
+    {
+      "canonical_receiver": 74,
+      "nine_mode_coefficients_hex": "0x2",
+      "actual_mode_names": [
+        "ZFIRST4"
+      ]
+    },
+    {
+      "canonical_receiver": 75,
+      "nine_mode_coefficients_hex": "0x182",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 76,
+      "nine_mode_coefficients_hex": "0x1c5",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 77,
+      "nine_mode_coefficients_hex": "0x43",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_1"
+      ]
+    },
+    {
+      "canonical_receiver": 78,
+      "nine_mode_coefficients_hex": "0x4",
+      "actual_mode_names": [
+        "ZFIRST5"
+      ]
+    },
+    {
+      "canonical_receiver": 79,
+      "nine_mode_coefficients_hex": "0x184",
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 80,
+      "nine_mode_coefficients_hex": "0x1c3",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 81,
+      "nine_mode_coefficients_hex": "0x163",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 82,
+      "nine_mode_coefficients_hex": "0x124",
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 83,
+      "nine_mode_coefficients_hex": "0x23",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_13"
+      ]
+    },
+    {
+      "canonical_receiver": 84,
+      "nine_mode_coefficients_hex": "0x165",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 85,
+      "nine_mode_coefficients_hex": "0x62",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1"
+      ]
+    },
+    {
+      "canonical_receiver": 86,
+      "nine_mode_coefficients_hex": "0x122",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 87,
+      "nine_mode_coefficients_hex": "0x25",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_13"
+      ]
+    },
+    {
+      "canonical_receiver": 88,
+      "nine_mode_coefficients_hex": "0x1db",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 89,
+      "nine_mode_coefficients_hex": "0x15c",
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 90,
+      "nine_mode_coefficients_hex": "0x1c",
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35"
+      ]
+    },
+    {
+      "canonical_receiver": 91,
+      "nine_mode_coefficients_hex": "0x9b",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 92,
+      "nine_mode_coefficients_hex": "0x1dd",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 93,
+      "nine_mode_coefficients_hex": "0x15a",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 94,
+      "nine_mode_coefficients_hex": "0x1a",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35"
+      ]
+    },
+    {
+      "canonical_receiver": 95,
+      "nine_mode_coefficients_hex": "0x9d",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 96,
+      "nine_mode_coefficients_hex": "0x3d",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13"
+      ]
+    },
+    {
+      "canonical_receiver": 97,
+      "nine_mode_coefficients_hex": "0x13a",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 98,
+      "nine_mode_coefficients_hex": "0xba",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 99,
+      "nine_mode_coefficients_hex": "0x1bd",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 100,
+      "nine_mode_coefficients_hex": "0x3b",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13"
+      ]
+    },
+    {
+      "canonical_receiver": 101,
+      "nine_mode_coefficients_hex": "0x13c",
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ]
+    },
+    {
+      "canonical_receiver": 102,
+      "nine_mode_coefficients_hex": "0xbc",
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 103,
+      "nine_mode_coefficients_hex": "0xd3",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 104,
+      "nine_mode_coefficients_hex": "0x94",
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 105,
+      "nine_mode_coefficients_hex": "0x54",
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1"
+      ]
+    },
+    {
+      "canonical_receiver": 106,
+      "nine_mode_coefficients_hex": "0x13",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_35"
+      ]
+    },
+    {
+      "canonical_receiver": 107,
+      "nine_mode_coefficients_hex": "0xd5",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 108,
+      "nine_mode_coefficients_hex": "0x92",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_2"
+      ]
+    },
+    {
+      "canonical_receiver": 109,
+      "nine_mode_coefficients_hex": "0x52",
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1"
+      ]
+    },
+    {
+      "canonical_receiver": 110,
+      "nine_mode_coefficients_hex": "0x15",
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_35"
+      ]
+    }
+  ],
+  "optimistic_direct_decoder_identities": [
+    {
+      "receiver": 5,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        13,
+        14,
+        15,
+        17,
+        18,
+        24,
+        25,
+        26,
+        59,
+        60,
+        62,
+        63,
+        66,
+        68,
+        69,
+        70,
+        71,
+        72,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ]
+    },
+    {
+      "receiver": 13,
+      "actual_mode_names": [
+        "CANONICAL9_MODE_13"
+      ],
+      "native_raw_local_roles": [
+        5,
+        17,
+        18,
+        25,
+        26,
+        31,
+        47,
+        53,
+        55,
+        57,
+        59,
+        60,
+        68,
+        69,
+        72,
+        81,
+        82,
+        84,
+        86,
+        90,
+        91,
+        94,
+        95,
+        97,
+        99,
+        101,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ]
+    },
+    {
+      "receiver": 14,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_1"
+      ],
+      "native_raw_local_roles": [
+        5,
+        17,
+        24,
+        25,
+        32,
+        33,
+        47,
+        53,
+        54,
+        57,
+        58,
+        68,
+        71,
+        72,
+        82,
+        83,
+        86,
+        87,
+        90,
+        91,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        104,
+        106,
+        108,
+        110
+      ]
+    },
+    {
+      "receiver": 15,
+      "actual_mode_names": [
+        "CANONICAL9_MODE_15"
+      ],
+      "native_raw_local_roles": [
+        5,
+        18,
+        26,
+        32,
+        33,
+        51,
+        52,
+        55,
+        56,
+        68,
+        71,
+        72,
+        81,
+        84,
+        85,
+        90,
+        91,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        105,
+        107,
+        109
+      ]
+    },
+    {
+      "receiver": 17,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        5,
+        13,
+        14,
+        26,
+        31,
+        34,
+        35,
+        51,
+        53,
+        54,
+        57,
+        58,
+        66,
+        69,
+        70,
+        81,
+        84,
+        85,
+        88,
+        89,
+        92,
+        93,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        105,
+        107,
+        109
+      ]
+    },
+    {
+      "receiver": 18,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        5,
+        13,
+        15,
+        24,
+        25,
+        32,
+        33,
+        51,
+        53,
+        54,
+        57,
+        58,
+        59,
+        60,
+        62,
+        63,
+        68,
+        71,
+        72,
+        81,
+        84,
+        85,
+        88,
+        89,
+        92,
+        93,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        104,
+        106,
+        108,
+        110
+      ]
+    },
+    {
+      "receiver": 24,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        5,
+        14,
+        18,
+        26,
+        34,
+        35,
+        54,
+        55,
+        58,
+        62,
+        63,
+        66,
+        68,
+        70,
+        72,
+        81,
+        83,
+        84,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        97,
+        99,
+        101,
+        103,
+        105,
+        107,
+        109
+      ]
+    },
+    {
+      "receiver": 25,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ],
+      "native_raw_local_roles": [
+        5,
+        13,
+        14,
+        18,
+        34,
+        35,
+        52,
+        53,
+        56,
+        57,
+        62,
+        63,
+        69,
+        71,
+        82,
+        85,
+        86,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        98,
+        100,
+        102,
+        103,
+        105,
+        107,
+        109
+      ]
+    },
+    {
+      "receiver": 26,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13"
+      ],
+      "native_raw_local_roles": [
+        5,
+        13,
+        15,
+        17,
+        24,
+        31,
+        32,
+        33,
+        52,
+        53,
+        56,
+        57,
+        59,
+        60,
+        66,
+        68,
+        70,
+        72,
+        82,
+        85,
+        86,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110
+      ]
+    },
+    {
+      "receiver": 31,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        13,
+        17,
+        26,
+        32,
+        34,
+        47,
+        52,
+        53,
+        54,
+        62,
+        63,
+        68,
+        71,
+        72,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        91,
+        92,
+        95,
+        96,
+        97,
+        100,
+        101,
+        103,
+        104,
+        107,
+        108
+      ]
+    },
+    {
+      "receiver": 32,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ],
+      "native_raw_local_roles": [
+        14,
+        15,
+        18,
+        26,
+        31,
+        34,
+        51,
+        52,
+        53,
+        54,
+        62,
+        63,
+        66,
+        69,
+        70,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        91,
+        92,
+        95,
+        98,
+        99,
+        102,
+        105,
+        106,
+        109,
+        110
+      ]
+    },
+    {
+      "receiver": 33,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1"
+      ],
+      "native_raw_local_roles": [
+        14,
+        15,
+        18,
+        26,
+        35,
+        47,
+        55,
+        56,
+        57,
+        58,
+        62,
+        63,
+        66,
+        69,
+        70,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        89,
+        90,
+        93,
+        94,
+        96,
+        97,
+        100,
+        101,
+        103,
+        104,
+        107,
+        108
+      ]
+    },
+    {
+      "receiver": 34,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_2"
+      ],
+      "native_raw_local_roles": [
+        17,
+        24,
+        25,
+        31,
+        32,
+        47,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        68,
+        71,
+        72,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        89,
+        90,
+        93,
+        94,
+        96,
+        97,
+        100,
+        101,
+        105,
+        106,
+        109,
+        110
+      ]
+    },
+    {
+      "receiver": 35,
+      "actual_mode_names": [
+        "CANONICAL9_MODE_35"
+      ],
+      "native_raw_local_roles": [
+        17,
+        24,
+        25,
+        33,
+        51,
+        52,
+        53,
+        54,
+        59,
+        60,
+        68,
+        71,
+        72,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        91,
+        92,
+        95,
+        98,
+        99,
+        102,
+        103,
+        104,
+        107,
+        108
+      ]
+    },
+    {
+      "receiver": 47,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        13,
+        14,
+        31,
+        33,
+        34,
+        51,
+        52,
+        57,
+        58,
+        62,
+        63,
+        66,
+        68,
+        69,
+        70,
+        71,
+        72,
+        81,
+        84,
+        85,
+        89,
+        91,
+        93,
+        95,
+        98,
+        99,
+        102,
+        103,
+        106,
+        107,
+        110
+      ]
+    },
+    {
+      "receiver": 51,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35"
+      ],
+      "native_raw_local_roles": [
+        15,
+        17,
+        18,
+        32,
+        35,
+        47,
+        53,
+        54,
+        55,
+        56,
+        59,
+        60,
+        66,
+        68,
+        69,
+        70,
+        71,
+        72,
+        82,
+        83,
+        86,
+        87,
+        89,
+        91,
+        93,
+        95,
+        96,
+        97,
+        100,
+        101,
+        104,
+        105,
+        108,
+        109
+      ]
+    },
+    {
+      "receiver": 52,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        15,
+        25,
+        26,
+        31,
+        32,
+        35,
+        47,
+        53,
+        55,
+        58,
+        59,
+        60,
+        62,
+        63,
+        68,
+        69,
+        72,
+        81,
+        83,
+        84,
+        87,
+        89,
+        90,
+        93,
+        94,
+        96,
+        99,
+        100,
+        104,
+        105,
+        108,
+        109
+      ]
+    },
+    {
+      "receiver": 53,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1"
+      ],
+      "native_raw_local_roles": [
+        13,
+        14,
+        17,
+        18,
+        25,
+        26,
+        31,
+        32,
+        35,
+        51,
+        52,
+        55,
+        58,
+        59,
+        60,
+        62,
+        63,
+        66,
+        70,
+        71,
+        81,
+        83,
+        84,
+        87,
+        89,
+        90,
+        93,
+        94,
+        97,
+        98,
+        101,
+        102,
+        103,
+        106,
+        107,
+        110
+      ]
+    },
+    {
+      "receiver": 54,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        14,
+        17,
+        18,
+        24,
+        31,
+        32,
+        35,
+        51,
+        56,
+        57,
+        59,
+        60,
+        62,
+        63,
+        68,
+        69,
+        72,
+        82,
+        85,
+        86,
+        89,
+        90,
+        93,
+        94,
+        96,
+        99,
+        100,
+        103,
+        106,
+        107,
+        110
+      ]
+    },
+    {
+      "receiver": 55,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2"
+      ],
+      "native_raw_local_roles": [
+        13,
+        15,
+        24,
+        33,
+        34,
+        51,
+        52,
+        53,
+        58,
+        59,
+        60,
+        62,
+        63,
+        66,
+        70,
+        71,
+        82,
+        85,
+        86,
+        88,
+        91,
+        92,
+        95,
+        96,
+        99,
+        100,
+        103,
+        106,
+        107,
+        110
+      ]
+    },
+    {
+      "receiver": 56,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        15,
+        25,
+        26,
+        33,
+        34,
+        51,
+        54,
+        57,
+        59,
+        60,
+        62,
+        63,
+        68,
+        69,
+        72,
+        81,
+        83,
+        84,
+        87,
+        88,
+        91,
+        92,
+        95,
+        97,
+        98,
+        101,
+        102,
+        103,
+        106,
+        107,
+        110
+      ]
+    },
+    {
+      "receiver": 57,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ],
+      "native_raw_local_roles": [
+        13,
+        14,
+        17,
+        18,
+        25,
+        26,
+        33,
+        34,
+        47,
+        54,
+        56,
+        59,
+        60,
+        62,
+        63,
+        66,
+        70,
+        71,
+        81,
+        83,
+        84,
+        87,
+        88,
+        91,
+        92,
+        95,
+        96,
+        99,
+        100,
+        104,
+        105,
+        108,
+        109
+      ]
+    },
+    {
+      "receiver": 58,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        14,
+        17,
+        18,
+        24,
+        33,
+        34,
+        47,
+        52,
+        53,
+        55,
+        59,
+        60,
+        62,
+        63,
+        68,
+        69,
+        72,
+        82,
+        85,
+        86,
+        88,
+        91,
+        92,
+        95,
+        97,
+        98,
+        101,
+        102,
+        104,
+        105,
+        108,
+        109
+      ]
+    },
+    {
+      "receiver": 59,
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_1"
+      ],
+      "native_raw_local_roles": [
+        5,
+        13,
+        18,
+        26,
+        34,
+        35,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        63,
+        69,
+        70,
+        71,
+        72,
+        84,
+        85,
+        86,
+        87,
+        92,
+        93,
+        94,
+        95,
+        100,
+        101,
+        102,
+        107,
+        108,
+        109,
+        110
+      ]
+    },
+    {
+      "receiver": 60,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_1"
+      ],
+      "native_raw_local_roles": [
+        5,
+        13,
+        18,
+        26,
+        34,
+        35,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        62,
+        66,
+        68,
+        81,
+        82,
+        83,
+        88,
+        89,
+        90,
+        91,
+        96,
+        97,
+        98,
+        99,
+        103,
+        104,
+        105,
+        106
+      ]
+    },
+    {
+      "receiver": 62,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        5,
+        18,
+        24,
+        25,
+        31,
+        32,
+        33,
+        47,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        60,
+        69,
+        70,
+        71,
+        72,
+        84,
+        85,
+        86,
+        87,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        107,
+        108,
+        109,
+        110
+      ]
+    },
+    {
+      "receiver": 63,
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        5,
+        18,
+        24,
+        25,
+        31,
+        32,
+        33,
+        47,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        66,
+        68,
+        81,
+        82,
+        83,
+        88,
+        89,
+        90,
+        91,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106
+      ]
+    },
+    {
+      "receiver": 66,
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ],
+      "native_raw_local_roles": [
+        5,
+        17,
+        24,
+        26,
+        32,
+        33,
+        47,
+        51,
+        53,
+        55,
+        57,
+        60,
+        63,
+        69,
+        72,
+        81,
+        82,
+        85,
+        87,
+        90,
+        91,
+        92,
+        93,
+        96,
+        98,
+        101,
+        107,
+        108,
+        109,
+        110
+      ]
+    },
+    {
+      "receiver": 68,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        5,
+        13,
+        14,
+        15,
+        18,
+        24,
+        26,
+        31,
+        34,
+        35,
+        47,
+        51,
+        52,
+        54,
+        56,
+        58,
+        60,
+        63,
+        70,
+        71,
+        81,
+        82,
+        85,
+        87,
+        88,
+        89,
+        94,
+        95,
+        96,
+        98,
+        101,
+        107,
+        108,
+        109,
+        110
+      ]
+    },
+    {
+      "receiver": 69,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        5,
+        13,
+        17,
+        25,
+        32,
+        33,
+        47,
+        51,
+        52,
+        54,
+        56,
+        58,
+        59,
+        62,
+        66,
+        72,
+        81,
+        82,
+        85,
+        87,
+        88,
+        89,
+        94,
+        95,
+        96,
+        98,
+        101,
+        103,
+        104,
+        105,
+        106
+      ]
+    },
+    {
+      "receiver": 70,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ],
+      "native_raw_local_roles": [
+        5,
+        17,
+        24,
+        26,
+        32,
+        33,
+        47,
+        51,
+        53,
+        55,
+        57,
+        59,
+        62,
+        68,
+        71,
+        83,
+        84,
+        86,
+        88,
+        89,
+        94,
+        95,
+        97,
+        99,
+        100,
+        102,
+        103,
+        104,
+        105,
+        106
+      ]
+    },
+    {
+      "receiver": 71,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13"
+      ],
+      "native_raw_local_roles": [
+        5,
+        14,
+        15,
+        18,
+        25,
+        31,
+        34,
+        35,
+        47,
+        51,
+        53,
+        55,
+        57,
+        59,
+        62,
+        68,
+        70,
+        81,
+        82,
+        85,
+        87,
+        90,
+        91,
+        92,
+        93,
+        96,
+        98,
+        101,
+        103,
+        104,
+        105,
+        106
+      ]
+    },
+    {
+      "receiver": 72,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        5,
+        13,
+        14,
+        15,
+        18,
+        24,
+        26,
+        31,
+        34,
+        35,
+        47,
+        51,
+        52,
+        54,
+        56,
+        58,
+        59,
+        62,
+        66,
+        69,
+        83,
+        84,
+        86,
+        90,
+        91,
+        92,
+        93,
+        97,
+        99,
+        100,
+        102,
+        103,
+        104,
+        105,
+        106
+      ]
+    },
+    {
+      "receiver": 81,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        5,
+        13,
+        15,
+        17,
+        18,
+        24,
+        31,
+        32,
+        33,
+        34,
+        35,
+        47,
+        52,
+        53,
+        56,
+        57,
+        60,
+        63,
+        66,
+        68,
+        69,
+        71,
+        83,
+        85,
+        86,
+        92,
+        93,
+        94,
+        95,
+        97,
+        99,
+        100,
+        102,
+        104,
+        106,
+        107,
+        109
+      ]
+    },
+    {
+      "receiver": 82,
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        5,
+        13,
+        14,
+        25,
+        26,
+        31,
+        32,
+        33,
+        34,
+        35,
+        51,
+        54,
+        55,
+        58,
+        60,
+        63,
+        66,
+        68,
+        69,
+        71,
+        84,
+        87,
+        92,
+        93,
+        94,
+        95,
+        97,
+        99,
+        100,
+        102,
+        103,
+        105,
+        108,
+        110
+      ]
+    },
+    {
+      "receiver": 83,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_13"
+      ],
+      "native_raw_local_roles": [
+        5,
+        14,
+        24,
+        31,
+        32,
+        33,
+        34,
+        35,
+        51,
+        52,
+        53,
+        56,
+        57,
+        60,
+        63,
+        70,
+        72,
+        81,
+        85,
+        86,
+        92,
+        93,
+        94,
+        95,
+        96,
+        98,
+        101,
+        103,
+        105,
+        108,
+        110
+      ]
+    },
+    {
+      "receiver": 84,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        5,
+        13,
+        15,
+        17,
+        18,
+        24,
+        31,
+        32,
+        33,
+        34,
+        35,
+        47,
+        52,
+        53,
+        56,
+        57,
+        59,
+        62,
+        70,
+        72,
+        82,
+        87,
+        88,
+        89,
+        90,
+        91,
+        96,
+        98,
+        101,
+        103,
+        105,
+        108,
+        110
+      ]
+    },
+    {
+      "receiver": 85,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_1"
+      ],
+      "native_raw_local_roles": [
+        5,
+        15,
+        17,
+        18,
+        25,
+        26,
+        31,
+        32,
+        33,
+        34,
+        35,
+        47,
+        54,
+        55,
+        58,
+        59,
+        62,
+        66,
+        68,
+        69,
+        71,
+        81,
+        83,
+        86,
+        88,
+        89,
+        90,
+        91,
+        97,
+        99,
+        100,
+        102,
+        103,
+        105,
+        108,
+        110
+      ]
+    },
+    {
+      "receiver": 86,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        5,
+        13,
+        14,
+        25,
+        26,
+        31,
+        32,
+        33,
+        34,
+        35,
+        51,
+        54,
+        55,
+        58,
+        59,
+        62,
+        70,
+        72,
+        81,
+        83,
+        85,
+        88,
+        89,
+        90,
+        91,
+        96,
+        98,
+        101,
+        104,
+        106,
+        107,
+        109
+      ]
+    },
+    {
+      "receiver": 87,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_13"
+      ],
+      "native_raw_local_roles": [
+        5,
+        14,
+        24,
+        31,
+        32,
+        33,
+        34,
+        35,
+        51,
+        52,
+        53,
+        56,
+        57,
+        59,
+        62,
+        66,
+        68,
+        69,
+        71,
+        82,
+        84,
+        88,
+        89,
+        90,
+        91,
+        97,
+        99,
+        100,
+        102,
+        104,
+        106,
+        107,
+        109
+      ]
+    },
+    {
+      "receiver": 88,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        17,
+        18,
+        24,
+        25,
+        26,
+        31,
+        32,
+        35,
+        55,
+        56,
+        57,
+        58,
+        60,
+        63,
+        68,
+        69,
+        70,
+        84,
+        85,
+        86,
+        87,
+        91,
+        93,
+        94,
+        98,
+        99,
+        100,
+        101,
+        105,
+        106,
+        107,
+        108
+      ]
+    },
+    {
+      "receiver": 89,
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        17,
+        18,
+        24,
+        25,
+        26,
+        33,
+        34,
+        47,
+        51,
+        52,
+        53,
+        54,
+        60,
+        63,
+        68,
+        69,
+        70,
+        84,
+        85,
+        86,
+        87,
+        90,
+        92,
+        95,
+        96,
+        97,
+        102,
+        103,
+        104,
+        109,
+        110
+      ]
+    },
+    {
+      "receiver": 90,
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35"
+      ],
+      "native_raw_local_roles": [
+        13,
+        14,
+        15,
+        24,
+        25,
+        26,
+        33,
+        34,
+        52,
+        53,
+        54,
+        60,
+        63,
+        66,
+        71,
+        72,
+        84,
+        85,
+        86,
+        87,
+        89,
+        92,
+        95,
+        98,
+        99,
+        100,
+        101,
+        105,
+        106,
+        107,
+        108
+      ]
+    },
+    {
+      "receiver": 91,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_2"
+      ],
+      "native_raw_local_roles": [
+        13,
+        14,
+        15,
+        24,
+        25,
+        26,
+        31,
+        32,
+        35,
+        47,
+        51,
+        55,
+        56,
+        57,
+        58,
+        60,
+        63,
+        66,
+        71,
+        72,
+        84,
+        85,
+        86,
+        87,
+        88,
+        93,
+        94,
+        96,
+        97,
+        102,
+        103,
+        104,
+        109,
+        110
+      ]
+    },
+    {
+      "receiver": 92,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        17,
+        18,
+        24,
+        25,
+        26,
+        31,
+        32,
+        35,
+        55,
+        56,
+        57,
+        58,
+        59,
+        62,
+        66,
+        71,
+        72,
+        81,
+        82,
+        83,
+        89,
+        90,
+        95,
+        96,
+        97,
+        102,
+        103,
+        104,
+        109,
+        110
+      ]
+    },
+    {
+      "receiver": 93,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        17,
+        18,
+        24,
+        25,
+        26,
+        33,
+        34,
+        47,
+        51,
+        52,
+        53,
+        54,
+        59,
+        62,
+        66,
+        71,
+        72,
+        81,
+        82,
+        83,
+        88,
+        91,
+        94,
+        98,
+        99,
+        100,
+        101,
+        105,
+        106,
+        107,
+        108
+      ]
+    },
+    {
+      "receiver": 94,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35"
+      ],
+      "native_raw_local_roles": [
+        13,
+        14,
+        15,
+        24,
+        25,
+        26,
+        33,
+        34,
+        52,
+        53,
+        54,
+        59,
+        62,
+        68,
+        69,
+        70,
+        81,
+        82,
+        83,
+        88,
+        91,
+        93,
+        96,
+        97,
+        102,
+        103,
+        104,
+        109,
+        110
+      ]
+    },
+    {
+      "receiver": 95,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_2"
+      ],
+      "native_raw_local_roles": [
+        13,
+        14,
+        15,
+        24,
+        25,
+        26,
+        31,
+        32,
+        35,
+        47,
+        51,
+        55,
+        56,
+        57,
+        58,
+        59,
+        62,
+        68,
+        69,
+        70,
+        81,
+        82,
+        83,
+        89,
+        90,
+        92,
+        98,
+        99,
+        100,
+        101,
+        105,
+        106,
+        107,
+        108
+      ]
+    },
+    {
+      "receiver": 96,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13"
+      ],
+      "native_raw_local_roles": [
+        14,
+        15,
+        17,
+        18,
+        25,
+        26,
+        31,
+        33,
+        34,
+        51,
+        52,
+        54,
+        55,
+        57,
+        60,
+        62,
+        66,
+        68,
+        69,
+        71,
+        83,
+        84,
+        86,
+        89,
+        91,
+        92,
+        94,
+        99,
+        101,
+        102,
+        105,
+        106,
+        107,
+        108
+      ]
+    },
+    {
+      "receiver": 97,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        13,
+        14,
+        15,
+        17,
+        18,
+        24,
+        31,
+        33,
+        34,
+        51,
+        53,
+        56,
+        58,
+        60,
+        62,
+        70,
+        72,
+        81,
+        82,
+        85,
+        87,
+        89,
+        91,
+        92,
+        94,
+        98,
+        100,
+        105,
+        106,
+        107,
+        108
+      ]
+    },
+    {
+      "receiver": 98,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2"
+      ],
+      "native_raw_local_roles": [
+        14,
+        15,
+        17,
+        18,
+        25,
+        26,
+        32,
+        35,
+        47,
+        53,
+        56,
+        58,
+        60,
+        62,
+        66,
+        68,
+        69,
+        71,
+        83,
+        84,
+        86,
+        88,
+        90,
+        93,
+        95,
+        97,
+        100,
+        103,
+        104,
+        109,
+        110
+      ]
+    },
+    {
+      "receiver": 99,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        13,
+        14,
+        15,
+        17,
+        18,
+        24,
+        32,
+        35,
+        47,
+        52,
+        54,
+        55,
+        57,
+        60,
+        62,
+        70,
+        72,
+        81,
+        82,
+        85,
+        87,
+        88,
+        90,
+        93,
+        95,
+        96,
+        101,
+        102,
+        103,
+        104,
+        109,
+        110
+      ]
+    },
+    {
+      "receiver": 100,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13"
+      ],
+      "native_raw_local_roles": [
+        14,
+        15,
+        17,
+        18,
+        25,
+        26,
+        31,
+        33,
+        34,
+        51,
+        52,
+        54,
+        55,
+        57,
+        59,
+        63,
+        70,
+        72,
+        81,
+        82,
+        85,
+        87,
+        88,
+        90,
+        93,
+        95,
+        97,
+        98,
+        103,
+        104,
+        109,
+        110
+      ]
+    },
+    {
+      "receiver": 101,
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_0"
+      ],
+      "native_raw_local_roles": [
+        13,
+        14,
+        15,
+        17,
+        18,
+        24,
+        31,
+        33,
+        34,
+        51,
+        53,
+        56,
+        58,
+        59,
+        63,
+        66,
+        68,
+        69,
+        71,
+        83,
+        84,
+        86,
+        88,
+        90,
+        93,
+        95,
+        96,
+        99,
+        102,
+        103,
+        104,
+        109,
+        110
+      ]
+    },
+    {
+      "receiver": 102,
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_15",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_13",
+        "CANONICAL9_MODE_2"
+      ],
+      "native_raw_local_roles": [
+        14,
+        15,
+        17,
+        18,
+        25,
+        26,
+        32,
+        35,
+        47,
+        53,
+        56,
+        58,
+        59,
+        63,
+        70,
+        72,
+        81,
+        82,
+        85,
+        87,
+        89,
+        91,
+        92,
+        94,
+        96,
+        99,
+        101,
+        105,
+        106,
+        107,
+        108
+      ]
+    },
+    {
+      "receiver": 103,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ],
+      "native_raw_local_roles": [
+        13,
+        15,
+        17,
+        24,
+        25,
+        31,
+        33,
+        35,
+        47,
+        53,
+        54,
+        55,
+        56,
+        60,
+        63,
+        69,
+        70,
+        71,
+        72,
+        82,
+        83,
+        84,
+        85,
+        89,
+        91,
+        92,
+        94,
+        98,
+        99,
+        100,
+        101,
+        106,
+        108,
+        109
+      ]
+    },
+    {
+      "receiver": 104,
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_2"
+      ],
+      "native_raw_local_roles": [
+        13,
+        14,
+        18,
+        26,
+        31,
+        33,
+        35,
+        51,
+        52,
+        57,
+        58,
+        60,
+        63,
+        69,
+        70,
+        71,
+        72,
+        81,
+        86,
+        87,
+        89,
+        91,
+        92,
+        94,
+        98,
+        99,
+        100,
+        101,
+        105,
+        107,
+        110
+      ]
+    },
+    {
+      "receiver": 105,
+      "actual_mode_names": [
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1"
+      ],
+      "native_raw_local_roles": [
+        13,
+        15,
+        17,
+        24,
+        25,
+        32,
+        34,
+        51,
+        52,
+        57,
+        58,
+        60,
+        63,
+        69,
+        70,
+        71,
+        72,
+        82,
+        83,
+        84,
+        85,
+        88,
+        90,
+        93,
+        95,
+        96,
+        97,
+        102,
+        104,
+        107,
+        110
+      ]
+    },
+    {
+      "receiver": 106,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST4",
+        "CANONICAL9_MODE_35"
+      ],
+      "native_raw_local_roles": [
+        13,
+        14,
+        18,
+        26,
+        32,
+        34,
+        47,
+        53,
+        54,
+        55,
+        56,
+        60,
+        63,
+        69,
+        70,
+        71,
+        72,
+        81,
+        86,
+        87,
+        88,
+        90,
+        93,
+        95,
+        96,
+        97,
+        102,
+        103,
+        108,
+        109
+      ]
+    },
+    {
+      "receiver": 107,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1",
+        "CANONICAL9_MODE_2"
+      ],
+      "native_raw_local_roles": [
+        13,
+        15,
+        17,
+        24,
+        25,
+        31,
+        33,
+        35,
+        47,
+        53,
+        54,
+        55,
+        56,
+        59,
+        62,
+        66,
+        68,
+        81,
+        86,
+        87,
+        88,
+        90,
+        93,
+        95,
+        96,
+        97,
+        102,
+        104,
+        105,
+        110
+      ]
+    },
+    {
+      "receiver": 108,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_2"
+      ],
+      "native_raw_local_roles": [
+        13,
+        14,
+        18,
+        26,
+        31,
+        33,
+        35,
+        51,
+        52,
+        57,
+        58,
+        59,
+        62,
+        66,
+        68,
+        82,
+        83,
+        84,
+        85,
+        88,
+        90,
+        93,
+        95,
+        96,
+        97,
+        102,
+        103,
+        106,
+        109
+      ]
+    },
+    {
+      "receiver": 109,
+      "actual_mode_names": [
+        "ZFIRST4",
+        "CANONICAL9_MODE_35",
+        "CANONICAL9_MODE_1"
+      ],
+      "native_raw_local_roles": [
+        13,
+        15,
+        17,
+        24,
+        25,
+        32,
+        34,
+        51,
+        52,
+        57,
+        58,
+        59,
+        62,
+        66,
+        68,
+        81,
+        86,
+        87,
+        89,
+        91,
+        92,
+        94,
+        98,
+        99,
+        100,
+        101,
+        103,
+        106,
+        108
+      ]
+    },
+    {
+      "receiver": 110,
+      "actual_mode_names": [
+        "ZFIRST3",
+        "ZFIRST5",
+        "CANONICAL9_MODE_35"
+      ],
+      "native_raw_local_roles": [
+        13,
+        14,
+        18,
+        26,
+        32,
+        34,
+        47,
+        53,
+        54,
+        55,
+        56,
+        59,
+        62,
+        66,
+        68,
+        82,
+        83,
+        84,
+        85,
+        89,
+        91,
+        92,
+        94,
+        98,
+        99,
+        100,
+        101,
+        104,
+        105,
+        107
+      ]
+    }
+  ],
+  "scope": "Actual canonical rank9 quotient source at M1,63 native unknown caches,48 ground known inputs. All48 known outputs complete;63 unknown receivers raw ground. All111 canonical quotient rows lie in the9 actual modes. Distribution, receiver chains, full111 supplier and five foundations remain open; no kappa."
+}

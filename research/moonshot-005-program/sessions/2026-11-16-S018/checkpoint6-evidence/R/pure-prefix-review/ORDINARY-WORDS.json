@@ -1,0 +1,1412 @@
+{
+  "words": {
+    "C": [
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "F"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "F"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "F"
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "F"
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "F"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "F"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "F"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          -1,
+          1
+        ]
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "J"
+      }
+    ],
+    "C_inverse": [
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Jinv"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "F"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "F"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "F"
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "F"
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "F"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "F"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "F"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          -1,
+          1
+        ]
+      }
+    ],
+    "Q": [
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Sinv"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "H"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "H"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "H"
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "H"
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "H"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "H"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "H"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          -1,
+          1
+        ]
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "S"
+      }
+    ],
+    "Q_inverse": [
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Sinv"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "H"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "H"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "H"
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "H"
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "H"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "H"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "H"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          -1,
+          1
+        ]
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "S"
+      }
+    ],
+    "output_decoder": [
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Kinv"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fhat"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fhat"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "Fhat"
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "Fhat"
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fhat"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fhat"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fhat"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          -1,
+          1
+        ]
+      }
+    ],
+    "output_decoder_inverse": [
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fhat"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fhat"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "Fhat"
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "Fhat"
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fhat"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fhat"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fhat"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          -1,
+          1
+        ]
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "K"
+      }
+    ],
+    "input_decoder": [
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fback"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fback"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "Fback"
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "Fback"
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fback"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fback"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fback"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          -1,
+          1
+        ]
+      }
+    ],
+    "input_decoder_inverse": [
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fback"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fback"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "Fback"
+      },
+      {
+        "op": "ADD",
+        "src": 0,
+        "dst": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 0,
+        "table": "Fback"
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "factor": [
+          -2,
+          1
+        ]
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          1,
+          2
+        ]
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fback"
+      },
+      {
+        "op": "ADD",
+        "src": 1,
+        "dst": 0
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fback"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          2,
+          1
+        ]
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "table": "Fback"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "factor": [
+          -1,
+          1
+        ]
+      }
+    ]
+  },
+  "one_column_tables": {
+    "F": {
+      "destination": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "quarter_phase": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    "H": {
+      "destination": [
+        4,
+        5,
+        6,
+        7,
+        0,
+        1,
+        2,
+        3,
+        12,
+        13,
+        14,
+        15,
+        8,
+        9,
+        10,
+        11
+      ],
+      "quarter_phase": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    "Fhat": {
+      "destination": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "quarter_phase": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "Fback": {
+      "destination": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "quarter_phase": [
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3,
+        1,
+        3,
+        3,
+        3,
+        1
+      ]
+    },
+    "J": {
+      "destination": [
+        0,
+        1,
+        2,
+        15,
+        8,
+        9,
+        10,
+        7,
+        4,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        3
+      ],
+      "quarter_phase": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Jinv": {
+      "destination": [
+        0,
+        1,
+        2,
+        15,
+        8,
+        9,
+        10,
+        7,
+        4,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        3
+      ],
+      "quarter_phase": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "S": {
+      "destination": [
+        0,
+        2,
+        1,
+        3,
+        4,
+        6,
+        5,
+        7,
+        8,
+        10,
+        9,
+        11,
+        12,
+        14,
+        13,
+        15
+      ],
+      "quarter_phase": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Sinv": {
+      "destination": [
+        0,
+        2,
+        1,
+        3,
+        4,
+        6,
+        5,
+        7,
+        8,
+        10,
+        9,
+        11,
+        12,
+        14,
+        13,
+        15
+      ],
+      "quarter_phase": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "K": {
+      "destination": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        15,
+        10,
+        13,
+        12,
+        11,
+        14,
+        9
+      ],
+      "quarter_phase": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    "Kinv": {
+      "destination": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        15,
+        10,
+        13,
+        12,
+        11,
+        14,
+        9
+      ],
+      "quarter_phase": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2
+      ]
+    }
+  },
+  "tensor_rule": "Each MONO is the tensor power of its listed literal table. SCALE is an external scalar, not absorbed into each one-column phase.",
+  "physical_scope": "Each MONO and SCALE acts on a complete field and is charged, as is every ADD. No owned record, free decoder, free source or precision assumption."
+}

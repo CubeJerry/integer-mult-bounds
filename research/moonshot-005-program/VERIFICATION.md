@@ -844,3 +844,32 @@ Root independently rebuilds all512 complex monomials and Gaussian classes
 with exact bounded integer arithmetic and reviews the full coefficient gate.
 Proof, exact controls and byte integrity remain separate. No new κ, strict
 supplier or global foundation discharge. Later48/50 source edits remain pending.
+
+## S018 checkpoint6 — sources, exact cut stops and an acquisition-timing escape
+
+[Complete reproduction](sessions/2026-11-16-S018/CHECKPOINT6-REPRODUCTION.json)
+records29 executed commands in two batches and46 byte-identical outputs.
+C independently reviews earlier48/50, the57-parameter ascending source,
+native65/static190 witnesses, canonical9 and the early-F74 source. A independently
+reviews C's reset sources and fixed-continuation ground/Hub controls. Root
+independently reviews actual49/12-cover, canonical9/J8/direct-source prices,
+early local acquisition and the complex ordinary-range proof. Exact Gaussian-
+integer and distinct symbolic replays verify all ordinary component/inverse
+words,48/62 omission controls and width-phase handling. Author mutation receipts
+include45 mode,254 ascending,239 canonical9 and417 local-source controls;
+independent reviewers use separately stated representative controls and do not
+claim every author mutation was independently rerun.
+
+Two metadata-only portability faults were found and repaired before publication:
+reset-review namespace precedence when evidence is inside the repository, and
+absolute local helper keys in the pure-prefix checker. Mathematical outputs
+were unchanged; the final core and supplement runs are byte-identical from
+published-layout evidence. Canonical9's stopped cut and the direct all-Hub class
+remain excluded; the local-F74 alternative escapes that premise. No full
+supplier, κ gain or global foundation discharge is inferred from these receipts.
+
+## S019 checkpoint1 verification
+
+All7238 available entries of the recovered7240-entry scientific index match; two previously documented absent historical files remain excluded from evidence. Worker C independently rebuilt native geometry and all222-column execution for ten recovered BIT words, the57-parameter ascending-correction family,190 new static indistinguishability witnesses and323 reset cut-field checks. Worker B independently reviewed the complex gate and literal controls; existing primitive invoice receipts were pinned/read, not claimed freshly replayed.
+
+Root reconstructed a21-term exact rational Petersen certificate and actual14-role cut. C independently expanded2520 inequalities in original coordinates, checked every actual live field and rejected four corrupted duals. Source omissions are separately rejected. Universal conclusions follow from proofs, not finite tests alone. Reproduce with `python -B research/moonshot-005-program/sessions/2026-11-17-S019/reproduce_cp1.py --repo . --out /tmp/moonshot-S019-cp1`.

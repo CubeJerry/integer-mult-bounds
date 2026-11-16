@@ -1,0 +1,60 @@
+{
+  "status": "PASS_AUTHOR_PREFIX_IMAGE_GATE_V3_SOURCE_CONTROLS",
+  "scope": "The v3 written theorem gives pure-quartic and ordinary-prefix-range sufficient hypotheses. These exact source controls establish the retained O_bc/G512 pure-quartic instance; the separate residue-selective checker tests the concrete ordinary-range branch. No finite failed search is used.",
+  "formal_prefix": true,
+  "actual_group_order": 512,
+  "projective_classes": 512,
+  "closure_under_all_generators": true,
+  "first_coefficient_generators": 16,
+  "four_source_words_checked": 2048,
+  "literal_word_digest": "5bab4e664f3b493b9cfb8e2831078e85dc3c5c7fd45bcb9c288820a27a6bba61",
+  "source_class_checks": [
+    {
+      "quarter_c_power": 0,
+      "double_rank": 2,
+      "triple_rank": 3,
+      "four_source_census": {
+        "4": 512
+      }
+    },
+    {
+      "quarter_c_power": 1,
+      "double_rank": 2,
+      "triple_rank": 3,
+      "four_source_census": {
+        "4": 512
+      }
+    },
+    {
+      "quarter_c_power": 2,
+      "double_rank": 2,
+      "triple_rank": 3,
+      "four_source_census": {
+        "4": 512
+      }
+    },
+    {
+      "quarter_c_power": 3,
+      "double_rank": 2,
+      "triple_rank": 3,
+      "four_source_census": {
+        "4": 512
+      }
+    }
+  ],
+  "actual_Db_to_Da_transport": true,
+  "mixed_J_control_census": {
+    "2": 256,
+    "3": 256
+  },
+  "proof_sha256": "3d7c9f07a64a6a161c5fd19dcccbc5febcc0ba7f62bc0398d5805b2122e029a1",
+  "inverse_cut_proof_sha256": "b2732db2a174fa22de13df8610f0c4b5da4b0b34bc96a73f82bf887290d42d7b",
+  "word_engine_pins": {
+    "research/moonshot-005-program/results/complex-four-bit-family/audit/discovery/nonclifford_sector_search.py": "54b4ceb504ff96fb167243093ec5d0caefb31c92c42536762f4b1164bf5d576d",
+    "research/moonshot-005-program/results/complex-four-bit-family/audit/discovery/four_bit_caller_search.py": "d81ecbd98e08cb86fe10804bbf1d66bc818ceb035d484ad3383f94aabdd8d2de"
+  },
+  "helper_dependencies": {
+    "check_triangular_first_interstage.py": "c4977c6ed059ba6a5d02496035efcb43f4c8595ba37c965eda5ba6f216318588",
+    "INVERSE-CUT-SUPPORT-GATE-v2.md": "b2732db2a174fa22de13df8610f0c4b5da4b0b34bc96a73f82bf887290d42d7b"
+  }
+}

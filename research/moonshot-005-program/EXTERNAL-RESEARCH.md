@@ -396,3 +396,19 @@ At13:35:39UTC canonical main remained`e54523517d0f03e58352e647c403a5af3e525a57`;
 ## S018 checkpoint3 continuity
 
 This work extends confirmed programme parent9efd07cdf070d84130b38a8db42be48de0f6accf. No new external result is admitted here. Canonical SHA last examined remains e54523517d0f03e58352e647c403a5af3e525a57; exact last-check time and startup PR evidence are retained in STATE.json. The new gates strengthen internal residual analysis, not a universal three-native impossibility claim.
+
+## S018 final upstream check
+
+Read-only GitHub check at2026-11-16 16:18:34UTC confirms main remains
+e54523517d0f03e58352e647c403a5af3e525a57. The ten most recently updated PRs
+have no update after the session-start reconnaissance; #7627 remains open at
+f9bdd00d3869ef6e82227a9acf4633f102540f54. Its extra common-U premise is not
+an admitted supplier or selected-frontier change. Exact metadata is retained in
+sessions/2026-11-16-S018/CHECKPOINT6-UPSTREAM-RECHECK.json. No comments,
+messages, PRs or merges were posted.
+
+## S019 startup review
+
+Canonical main remains`e54523517d0f03e58352e647c403a5af3e525a57`; the selected certificate remains363005817/100000000000. A bounded20-PR review found no admitted missing κ=.005 supplier. #7627's reported.003665731276 retains an unimplemented common-U service and the five foundations; it is not selected. #7628 independently recounts finite evidence for #7612, without deriving its supplied histogram or discharging physical/foundational contracts. Neither is silently composed. Exact pins are in the session metadata receipt.
+
+Primary source: Blasiak, Kleinberg and Lubetzky, [Index coding via linear programming](https://arxiv.org/abs/1004.1379), v2 Fact5.6. Petersen rate5 is prior work; S019 supplies a fresh rational certificate and authenticated physical-source application.

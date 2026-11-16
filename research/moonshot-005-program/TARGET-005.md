@@ -1,44 +1,102 @@
 # Exact requirements for κ = 1/200
 
-## Current frontier — S018 checkpoint5
+## Current frontier — S019 checkpoint1,17 November2026 Melbourne
+
+S018 checkpoint6 was recovered from its exact staged tree at the confirmed parent and independently reviewed. The early-F74 canonical9 source is valid, but a new Petersen-plus-four-isolates argument forces **nine further downward records, including nonlinear co-chart processing**. Its unchanged prefix exceeds the necessary κ=1/200 movement allowance by0.506502803416551758166075613595.... The static native-neighbor broadcast optimum is exactly nine; physical delivery remains missing.
+
+The primary task is earlier proper-chart acquisition and original-carrier histories with actual receiver routes, restoration and full cost accounting. The complex supplier still needs an independent421 endpoint beyond the admitted range gates. An ordinary rank-D projector is not automatically a free one-bank image; see the S019 clarification.
+
+**No new complete κ. The programme remains ongoing and is not PR-ready.** Selected upstream conditional κ remains363005817/100000000000; all five foundations remain. New evidence: results/bit-petersen-transcript-gate/ADMISSION.md and sessions/2026-11-17-S019/.
+
+## Retained S018 checkpoint6 context
+
+
+## Current frontier — S018 checkpoint6
 
 **No new complete κ.** Selected conditional κ remains363005817/10^11.
-Actual [multistage packet histories](results/bit-multistage-packet-histories/ADMISSION.md)
-complete57 then59 outputs by changing a packet's payload at successive paid
-stages, with physical caches and resets. A separate [shared proper mask source](results/bit-shared-proper-mask-source/ADMISSION.md)
-retains five independent nonlocal directions with no extra owned MOVE and only
-0.01464037946 movement increment. Both are verified mechanisms; their late
-full-Hub cuts cannot be completed at the target price by appending work.
+The next BIT obligation is joint code acquisition and physical receiver delivery,
+using actual native side data, earlier packet histories and restored original
+carriers. The [ascending shared-correction theorem](results/bit-ascending-shared-corrections/ADMISSION.md)
+now supports57 independent binary masks with real ground nuisance cancellation
+and Hub restoration. [Earlier48/50 histories](results/bit-mode-preserving-histories/ADMISSION.md)
+retain five unknown modes while decoding new outputs, but their final full-Hub
+cuts are rigorously too expensive to complete by appending work.
 
-The new [initial-chart transcript theorem](results/bit-initial-chart-transcript/ADMISSION.md)
-retains the actual location of every initial cut value. It grants all downward
-payloads globally and applies acyclic side-information reconstruction. It
-forces52 future descents after paid59,65 after five-mode46, and26 after the
-unmodified liberated55 source. Actual all111 controls attain the first two
-movement floors but exceed the target. These exact-prefix stops do not
-exclude changing earlier acquisition, packet history or native custody.
+A [fresh known48 reset](results/bit-canonical3-cached-reset/ADMISSION.md) acquires
+48 actual ground inputs,57 native unknown caches, seven proper sums and three
+canonical modes at M1. It gives two distinct physical source contracts and a
+nontrivial continuation needing both ground preparation and an actual Hub inverse.
+An [actual first unknown chain](results/bit-first-unknown49/ADMISSION.md) completes
+receiver5, reaching49 outputs with moment1597.9916887898195683626 and necessary
+room23.7591914213327868837. The raw ground basis stays48. Static indistinguishability
+certificates stop its fixed code space at49, so merely distributing its current
+rows cannot complete the other62 even under optimistic global grants.
+The earlier native-cached57 source remains a different verified alternative.
 
-The [native-cached57 repair](results/bit-native-cached-mask-source/ADMISSION.md)
-adds19 actual stationary raw native copies before the mask donors leave,
-then completes61/67 from their actual known ground copies. It has57 completed
-facets,54 raw ground Ys,92 native originals and19 native donor caches, with
-82 INIT/155 ADD/301 MOVE/82 dirty CLEAR. Its movement moment remains
-1602.3277059631205026795, leaving necessary room19.4231742480318525668.
-The old26-witness now has a real cycle, but incomparable local caches do not
-give a legal decoder chain. Actual receiver decoding and restoration remain
-the primary BIT task, preferably using earlier paid histories.
+The [full canonical-nine acquisition](results/bit-canonical9-source-gate/ADMISSION.md)
+puts nine actual canonical modes at M1 and63 native caches at their lines.
+It spans every canonical receiver equation, but its frozen cut has an eight-role
+zero-access witness. Its source moment1614.8693721729518973217 plus8 forced
+future descents exceeds the allowance. Even the idealized direct known48/nine-
+M1 source, with every group detour removed, exceeds the allowance by
+0.0548079525222580874 after that forced continuation. Code rank is sufficient
+for the optimistic algebra; placement and chronology remain the obstruction.
 
-The [whole G512 coefficient gate](results/complex-g512-coefficient-gate/ADMISSION.md)
-excludes arbitrary first/second interfaces in the current512-control algebra,
-including nonclean entries and projectors. Complete literal source classes,
-ordinary image directness, a square-coset separation and the inverse cut
-prove the result. Two outside-G operations change the rank4 selection and
-motivate a1536-control extension; they are not a421 caller.
+A subsequent [earlier local acquisition](results/bit-early-local-canonical-source/ADMISSION.md)
+**repairs that specific numerical stop**. K74 is gathered from31 raw donors
+at F74 before their Hub arrivals, then descends only two ranks to M1. The other
+eight modes are loaded at Hub. The same nine common rows and actual raw48/native63
+remain, while the seven proper groups are omitted. All donor route refinements
+are charged. The new moment is1613.2573830145689070044, leaving8.4934971965834482418;
+the8-descent floor now lies below the allowance by0.4934971965834482418.
+This changes the acquisition premise, not the theorem. It supplies no proof
+that8 descents suffice and no physical63-receiver completion. This is the
+current full-canonical-source candidate for joint acquisition/delivery work.
 
-Both strict suppliers, target theorem, recursion and all five foundations
-remain open. S018 continues through17:00:55UTC. The branch remains an ongoing
-research programme, not PR-ready. Earlier priorities below are historical
-unless retained here; prior logical records and scientific evidence are kept.
+The [complex ordinary-prefix-range theorem](results/complex-ordinary-prefix-range/ADMISSION.md)
+strengthens the pure-quartic and G512 gates. Pure rank2/rank3 prefixes whose
+injective first-column image has an ordinary rank-D projector cannot yield
+independent421, even with arbitrary second interface and lower quartic residue.
+Positive exact controls align a full rank4 component and, using exterior i,
+a full rank2 quartic residue; all ordinary forward/inverse words are compiled
+and independently checked. Their first column has an ordinary image, so they
+remain excluded as full callers. A surviving construction must change that
+image, prefix purity or architecture, not merely introduce a residue.
+
+Both strict suppliers, full target recursion and all five foundations remain
+open. This is an ongoing research programme, not PR-ready. S018's research is
+being closed with final reproduction/publication checks through the requested
+17:00:55UTC endpoint; no background continuation is configured. Earlier priorities
+below are historical unless retained here. All prior scientific evidence remains.
+
+## S018 checkpoint6 placement versus canonical code budget
+
+Necessary limiting allowance at199/200 is1621.7508802111523552462.
+
+| Actual source | Completed outputs | Movement moment | Necessary room / obstruction |
+|---|---:|---:|---|
+| Prior native-cached57 |57|1602.3277059631205026795|19.4231742480318525668; legal new chains open. |
+| Fresh canonical3 cached48 |48|1596.9679762119721136914|24.7829039991802415548; fixed-code closure49. |
+| Actual first unknown49 |49|1597.9916887898195683626|23.7591914213327868837;62 need new information/history. |
+| Actual common canonical9 |48|1614.8693721729518973217|8 forced descents give1622.8693721729518973217. |
+| Early F74 canonical9 |48|1613.2573830145689070044|8.4934971965834482418;8-floor leaves0.4934971965834482418, not a completion. |
+
+The prescribed canonical envelope has rank9 modulo the actual known48;
+seven proper group rows have rank7, union rank13, so6V extra dimensions are
+necessary/sufficient for containing that prescribed envelope. This is not a
+minimum over arbitrary fitting codes or nonlinear source transformations.
+Even222[7]+48[1]+9[3], with group detours discarded, plus8 forced future
+unit descents costs1621.8056881636746133336, exceeding the allowance by
+0.0548079525222580874. This direct-source class requires actual48 ground
+acquisitions,9 full Hub-to-M1 deliveries and the stated J8 zero-access cut.
+Earlier interleaving, other placements and known sets lie outside the class.
+
+Complex ordinary controls are real charged passes: the exterior-i component
+uses31ADD/39SCALE/32MONO forward and31ADD/43SCALE/32MONO inverse, with full
+field volume and prefix bounds retained. It is not a421 supplier; the ordinary-
+range theorem excludes its entire fixed-first-column family. Covered
+C>3112961/621875000, completed B>1/200 and uniform complex U>1/200, full
+recursion and all five foundations remain open. No selected certificate change.
 
 ## S018 checkpoint5 exact-prefix budget stops and repaired source
 
@@ -503,3 +561,7 @@ Independent enumerations and universal proofs are admitted in
 These are scoped representation obstructions; the profitable entangling caller
 and non-diagonal/new representation mechanisms remain open. No additional
 physical caller impossibility or stronger multiplication theorem is claimed.
+
+## S019 exact fixed-prefix consequence
+
+At t=199/200, Q_local+9>A_target, with excess in[0.506502803416551758166075613595474795,0.506502803416551758166075613595475241834]. Earlier sources, mixed-origin histories and different suppliers remain outside this exclusion. Strict uniform complex U>1/200 and completed BIT B>1/200 are still required. The retained one-stage covered-BIT threshold is C>3112961/621875000.

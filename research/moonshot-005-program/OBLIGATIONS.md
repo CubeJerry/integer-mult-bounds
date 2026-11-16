@@ -1,44 +1,98 @@
 # Current proof-dependency map
 
-## Current frontier — S018 checkpoint5
+## Current frontier — S019 checkpoint1,17 November2026 Melbourne
+
+S018 checkpoint6 was recovered from its exact staged tree at the confirmed parent and independently reviewed. The early-F74 canonical9 source is valid, but a new Petersen-plus-four-isolates argument forces **nine further downward records, including nonlinear co-chart processing**. Its unchanged prefix exceeds the necessary κ=1/200 movement allowance by0.506502803416551758166075613595.... The static native-neighbor broadcast optimum is exactly nine; physical delivery remains missing.
+
+The primary task is earlier proper-chart acquisition and original-carrier histories with actual receiver routes, restoration and full cost accounting. The complex supplier still needs an independent421 endpoint beyond the admitted range gates. An ordinary rank-D projector is not automatically a free one-bank image; see the S019 clarification.
+
+**No new complete κ. The programme remains ongoing and is not PR-ready.** Selected upstream conditional κ remains363005817/100000000000; all five foundations remain. New evidence: results/bit-petersen-transcript-gate/ADMISSION.md and sessions/2026-11-17-S019/.
+
+## Retained S018 checkpoint6 context
+
+
+## Current frontier — S018 checkpoint6
 
 **No new complete κ.** Selected conditional κ remains363005817/10^11.
-Actual [multistage packet histories](results/bit-multistage-packet-histories/ADMISSION.md)
-complete57 then59 outputs by changing a packet's payload at successive paid
-stages, with physical caches and resets. A separate [shared proper mask source](results/bit-shared-proper-mask-source/ADMISSION.md)
-retains five independent nonlocal directions with no extra owned MOVE and only
-0.01464037946 movement increment. Both are verified mechanisms; their late
-full-Hub cuts cannot be completed at the target price by appending work.
+The next BIT obligation is joint code acquisition and physical receiver delivery,
+using actual native side data, earlier packet histories and restored original
+carriers. The [ascending shared-correction theorem](results/bit-ascending-shared-corrections/ADMISSION.md)
+now supports57 independent binary masks with real ground nuisance cancellation
+and Hub restoration. [Earlier48/50 histories](results/bit-mode-preserving-histories/ADMISSION.md)
+retain five unknown modes while decoding new outputs, but their final full-Hub
+cuts are rigorously too expensive to complete by appending work.
 
-The new [initial-chart transcript theorem](results/bit-initial-chart-transcript/ADMISSION.md)
-retains the actual location of every initial cut value. It grants all downward
-payloads globally and applies acyclic side-information reconstruction. It
-forces52 future descents after paid59,65 after five-mode46, and26 after the
-unmodified liberated55 source. Actual all111 controls attain the first two
-movement floors but exceed the target. These exact-prefix stops do not
-exclude changing earlier acquisition, packet history or native custody.
+A [fresh known48 reset](results/bit-canonical3-cached-reset/ADMISSION.md) acquires
+48 actual ground inputs,57 native unknown caches, seven proper sums and three
+canonical modes at M1. It gives two distinct physical source contracts and a
+nontrivial continuation needing both ground preparation and an actual Hub inverse.
+An [actual first unknown chain](results/bit-first-unknown49/ADMISSION.md) completes
+receiver5, reaching49 outputs with moment1597.9916887898195683626 and necessary
+room23.7591914213327868837. The raw ground basis stays48. Static indistinguishability
+certificates stop its fixed code space at49, so merely distributing its current
+rows cannot complete the other62 even under optimistic global grants.
+The earlier native-cached57 source remains a different verified alternative.
 
-The [native-cached57 repair](results/bit-native-cached-mask-source/ADMISSION.md)
-adds19 actual stationary raw native copies before the mask donors leave,
-then completes61/67 from their actual known ground copies. It has57 completed
-facets,54 raw ground Ys,92 native originals and19 native donor caches, with
-82 INIT/155 ADD/301 MOVE/82 dirty CLEAR. Its movement moment remains
-1602.3277059631205026795, leaving necessary room19.4231742480318525668.
-The old26-witness now has a real cycle, but incomparable local caches do not
-give a legal decoder chain. Actual receiver decoding and restoration remain
-the primary BIT task, preferably using earlier paid histories.
+The [full canonical-nine acquisition](results/bit-canonical9-source-gate/ADMISSION.md)
+puts nine actual canonical modes at M1 and63 native caches at their lines.
+It spans every canonical receiver equation, but its frozen cut has an eight-role
+zero-access witness. Its source moment1614.8693721729518973217 plus8 forced
+future descents exceeds the allowance. Even the idealized direct known48/nine-
+M1 source, with every group detour removed, exceeds the allowance by
+0.0548079525222580874 after that forced continuation. Code rank is sufficient
+for the optimistic algebra; placement and chronology remain the obstruction.
 
-The [whole G512 coefficient gate](results/complex-g512-coefficient-gate/ADMISSION.md)
-excludes arbitrary first/second interfaces in the current512-control algebra,
-including nonclean entries and projectors. Complete literal source classes,
-ordinary image directness, a square-coset separation and the inverse cut
-prove the result. Two outside-G operations change the rank4 selection and
-motivate a1536-control extension; they are not a421 caller.
+A subsequent [earlier local acquisition](results/bit-early-local-canonical-source/ADMISSION.md)
+**repairs that specific numerical stop**. K74 is gathered from31 raw donors
+at F74 before their Hub arrivals, then descends only two ranks to M1. The other
+eight modes are loaded at Hub. The same nine common rows and actual raw48/native63
+remain, while the seven proper groups are omitted. All donor route refinements
+are charged. The new moment is1613.2573830145689070044, leaving8.4934971965834482418;
+the8-descent floor now lies below the allowance by0.4934971965834482418.
+This changes the acquisition premise, not the theorem. It supplies no proof
+that8 descents suffice and no physical63-receiver completion. This is the
+current full-canonical-source candidate for joint acquisition/delivery work.
 
-Both strict suppliers, target theorem, recursion and all five foundations
-remain open. S018 continues through17:00:55UTC. The branch remains an ongoing
-research programme, not PR-ready. Earlier priorities below are historical
-unless retained here; prior logical records and scientific evidence are kept.
+The [complex ordinary-prefix-range theorem](results/complex-ordinary-prefix-range/ADMISSION.md)
+strengthens the pure-quartic and G512 gates. Pure rank2/rank3 prefixes whose
+injective first-column image has an ordinary rank-D projector cannot yield
+independent421, even with arbitrary second interface and lower quartic residue.
+Positive exact controls align a full rank4 component and, using exterior i,
+a full rank2 quartic residue; all ordinary forward/inverse words are compiled
+and independently checked. Their first column has an ordinary image, so they
+remain excluded as full callers. A surviving construction must change that
+image, prefix purity or architecture, not merely introduce a residue.
+
+Both strict suppliers, full target recursion and all five foundations remain
+open. This is an ongoing research programme, not PR-ready. S018's research is
+being closed with final reproduction/publication checks through the requested
+17:00:55UTC endpoint; no background continuation is configured. Earlier priorities
+below are historical unless retained here. All prior scientific evidence remains.
+
+## S018 checkpoint6 quantified dependency update
+
+| Obligation | Admitted scope | Remaining task |
+|---|---|---|
+| Earlier48/50 with five modes | Literal new decodes and protected code values; final63/61 acyclic cut stops. | Reuse actual earlier stages, not the stopped late cuts. |
+| Ascending shared corrections |57 binary parameters, six backed originals, true Hub inverses, all222 columns. | Choose useful new rows and compatible unfinished receiver paths. |
+| Native65 and static closure | Real snapshots;190 exact nonlinear indistinguishability witnesses. | New information or changed histories needed beyond closure49. |
+| Canonical3 cached48 reset | Actual48 ground,57 native caches,7 proper sums,3 common modes; distinct matched/liberated cuts. | Preserve the exact source contract when attaching a continuation. |
+| Physical49 and12-cover | One genuine new receiver, unchanged other source; every acyclic witness at fresh48 has size<=12. | Decode62 more; stronger information bounds remain possible. |
+| Canonical9 source andJ8 gate | Actual full canonical envelope;8 future descents; direct-source class fails by0.05480795252. | Change source placement, acquisition timing or known-coordinate contract. |
+| Complex ordinary-prefix range | Pure2/3 prefixes with an ordinary full-D image exclude421 for arbitrary Q. | Escape ordinary image/prefix purity or change architecture. |
+| Parity-uniform residue control | Actual[-B2,-a4,0] component and paid ordinary inverse words at every width. | This same first column is stopped; residue alone cannot repair it. |
+
+The early-F74 source is a concrete acquisition-timing escape from the stated
+nine-Hub source class. Its full canonical rows and actual native caches are
+verified; eight future descents are necessary and have only0.49349719658 room
+for other added movement if exactly eight suffice. The single primary task is one actual joint BIT acquisition/delivery history
+beyond the49-point static closure. Try a new useful code at an earlier paid
+packet stage and repair every affected old receiver with actual ascending
+original carriers. Carry native unfinished side data into that history, preserve
+arbitrary Y inputs, restore originals from present sources, and charge all moves.
+Retain the alternative native-cached57 interface; no dominance between the two
+source contracts is asserted. A complete positive supplier must satisfy every
+ordinary, erasure, precision, compiler and recursive obligation, not only movement.
 
 ## S018 checkpoint5 quantified dependency update
 
@@ -215,3 +269,12 @@ BIT-THIRD-CELL30 is proved for every characteristic-two field and positive recor
 ## S016 checkpoint9 dependencies
 
 The39/72 acquisition families are proved for every binary parameter choice, characteristic-two field and positive width. Actual32/34 delivery is proved in the formal native instruction model; old coded terminal rows are replaced. The77 exact duals exclude only frozen34 stock/history/point feedback. Private83 closure and positive four-bank global availability are proved separately. Sharp direct-canonical compression costs13V for rank80 side information or9V for rank88; nonlinear strengthening requires finite fields and bounded alphabets. Exact dependencies, quantified propositions and independent reviews are linked from current admissions. Main OPEN obligation: one actual all111 coded acquisition/delivery construction with real custody, original restoration, erasure applicability, ordinary/precision/compiler and complete recursive costs. Noncanonical codes, coupled banks and new paid feedback remain possible escapes.
+
+## S019 dependency changes
+
+| Obligation | Status | Dependency or next action |
+|---|---|---|
+| Complete unchanged early-F74/M1 prefix within target moment | Disproved within fixed-source whole-record fixed-schedule scope | Actual14-role cut, exact entropy dual, charged movement |
+| Static native-neighbor code below nine symbols | Disproved including nonlinear codes; nine attained in characteristic-two relaxation | Same cut and canonical binary rank9 fitting matrix |
+| Earlier source-valid fanout and lower-chart histories | Open construction | Actual acquisition, arbitrary Y, original restoration, all111 endpoints, full invoice |
+| Physical rank-D ordinary projector implies free bank | False for general coefficient algebra | Explicit decoder or module invariant required |

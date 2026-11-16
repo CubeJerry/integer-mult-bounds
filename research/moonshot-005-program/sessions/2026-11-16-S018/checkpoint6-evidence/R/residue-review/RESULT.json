@@ -1,0 +1,90 @@
+{
+  "status": "PASS_ROOT_ORDINARY_RANGE_AND_EXTERIOR_I_RESIDUE_REVIEW",
+  "proof_sha256": "3d7c9f07a64a6a161c5fd19dcccbc5febcc0ba7f62bc0398d5805b2122e029a1",
+  "component_proof_sha256": "b9cd8ceaa1855c9cc48e393f03a98a1a96c1874093064d533545f99ef23b1b77",
+  "word_sha256": "891ae1d66d774585e8d5ca32a1e13cdd432ea4aeab0b38e7711112eb10ca7508",
+  "independent_arithmetic": "Root bounded Gaussian integers, no B execution code, exact power-of-two denominators.",
+  "aligned_quartic_blocks": [
+    "-B2",
+    "-a4",
+    "0"
+  ],
+  "source_gaussian_ranks": {
+    "B2": 2,
+    "a4": 4,
+    "a2": 2,
+    "a3": 3,
+    "aJa": 2,
+    "aJa2": 3
+  },
+  "actual_prefix_isometry_and_ordinary_projector": true,
+  "primitive_words": {
+    "C": {
+      "counts": {
+        "SCALE": 7,
+        "ADD": 6,
+        "MONO": 8
+      },
+      "maximum_bank_prefix_bound": "5"
+    },
+    "C_inverse": {
+      "counts": {
+        "MONO": 8,
+        "SCALE": 7,
+        "ADD": 6
+      },
+      "maximum_bank_prefix_bound": "5"
+    },
+    "Q": {
+      "counts": {
+        "MONO": 3,
+        "ADD": 4,
+        "SCALE": 5
+      },
+      "maximum_bank_prefix_bound": "14"
+    },
+    "Q_inverse": {
+      "counts": {
+        "MONO": 3,
+        "ADD": 4,
+        "SCALE": 5
+      },
+      "maximum_bank_prefix_bound": "14"
+    },
+    "output_decoder": {
+      "counts": {
+        "MONO": 8,
+        "SCALE": 7,
+        "ADD": 6
+      },
+      "maximum_bank_prefix_bound": "5"
+    },
+    "output_decoder_inverse": {
+      "counts": {
+        "SCALE": 7,
+        "ADD": 6,
+        "MONO": 8
+      },
+      "maximum_bank_prefix_bound": "5"
+    },
+    "input_decoder": {
+      "counts": {
+        "SCALE": 20,
+        "ADD": 15,
+        "MONO": 13
+      },
+      "maximum_bank_prefix_bound": "145"
+    },
+    "input_decoder_inverse": {
+      "counts": {
+        "SCALE": 24,
+        "ADD": 15,
+        "MONO": 13
+      },
+      "maximum_bank_prefix_bound": "76"
+    }
+  },
+  "single_ADD_omission_controls": 62,
+  "all_width_logic": "Literal multiplicative source identities tensor; collective involution algebra and exterior scalars then apply. Ordinary image proof reviewed separately.",
+  "scope": "Full-D rank4 and rank2 quartic components with actual ordinary inverses; generalized ordinary-range theorem excludes every independent421 completion with this fixed first C column. No supplier, foundation discharge or kappa."
+}

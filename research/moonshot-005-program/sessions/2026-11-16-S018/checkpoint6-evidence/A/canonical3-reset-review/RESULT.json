@@ -1,0 +1,442 @@
+{
+  "status": "PASS_INDEPENDENT_CANONICAL3_RESET_SOURCE_AND_FIXED_CONTINUATION",
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "independent_interpreter_sha256": "b5402a2dbdd8f49efac3fee678d88ca653bb5d1d6b80ae6fd47372c777db2762",
+  "known_coordinates": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    29,
+    30,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    48,
+    49,
+    50,
+    61,
+    64,
+    65,
+    67,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "unknown_donors": [
+    5,
+    13,
+    14,
+    17,
+    18,
+    24,
+    25,
+    26,
+    32,
+    33,
+    34,
+    35,
+    47,
+    51,
+    52,
+    55,
+    56,
+    59,
+    60,
+    62,
+    63,
+    66,
+    68,
+    69,
+    70,
+    71,
+    72,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "source_reports": {
+    "liberated": {
+      "cut": 634,
+      "raw_native_originals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        19,
+        20,
+        21,
+        22,
+        23,
+        27,
+        28,
+        29,
+        30,
+        31,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        48,
+        49,
+        50,
+        53,
+        54,
+        57,
+        58,
+        61,
+        64,
+        65,
+        67,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "pure_owned_rank": 105,
+      "actual_known_ground_captures": 48,
+      "actual_native_unknown_captures": 57,
+      "proper_group_count": 7,
+      "common_mode_count": 3,
+      "complete_targets_at_cut": 48
+    },
+    "matched": {
+      "cut": 762,
+      "raw_native_originals": [
+        8,
+        9,
+        11,
+        12,
+        15,
+        19,
+        20,
+        27,
+        31,
+        36,
+        37,
+        53,
+        54,
+        57,
+        58
+      ],
+      "pure_owned_rank": 105,
+      "actual_known_ground_captures": 48,
+      "actual_native_unknown_captures": 57,
+      "proper_group_count": 7,
+      "common_mode_count": 3,
+      "complete_targets_at_cut": 46
+    }
+  },
+  "matched_old_named_records_checked": 323,
+  "source_semantic_controls": [
+    {
+      "omission": "native_capture",
+      "outcome": "endpoints pass, actual cut-source identity rejects"
+    },
+    {
+      "omission": "group_input",
+      "outcome": "endpoints pass, actual cut-source identity rejects"
+    },
+    {
+      "omission": "Hub_mode_input",
+      "outcome": "endpoints pass, actual cut-source identity rejects"
+    },
+    {
+      "omission": "common_descent",
+      "outcome": "endpoints pass, actual cut-source identity rejects"
+    },
+    {
+      "omission": "known_acquisition",
+      "outcome": "native endpoint/ownership replay rejects"
+    },
+    {
+      "omission": "owned_retirement",
+      "outcome": "native endpoint/ownership replay rejects"
+    }
+  ],
+  "fixed_literal_continuation_operations": 192,
+  "isolated_repair_controls": [
+    {
+      "omitted": "ground_Y_preload",
+      "exact_isolated_residual": {
+        "Y13": "0x1"
+      }
+    },
+    {
+      "omitted": "Hub_X_inverse",
+      "exact_isolated_residual": {
+        "X27": "0x40"
+      }
+    }
+  ],
+  "all_222_replays": {
+    "liberated": {
+      "input_columns": 222,
+      "counts": {
+        "INIT": 115,
+        "ADD": 306,
+        "MOVE": 330,
+        "CLEAR": 115
+      },
+      "movement_profile": {
+        "1": 67,
+        "2": 37,
+        "3": 4,
+        "4": 1,
+        "5": 37,
+        "6": 19,
+        "7": 165
+      },
+      "dirty_CLEAR": 115,
+      "peak_owned": 115,
+      "historical_record_states": 973,
+      "moment": {
+        "rational": [
+          "399241994052993028422862357650321685162466013/250000000000000000000000000000000000000000",
+          "319393595242394422738289886120257348129972863/200000000000000000000000000000000000000000"
+        ],
+        "decimal": [
+          "1596.967976211972113691449430601286740649864052",
+          "1596.967976211972113691449430601286740649864315"
+        ]
+      },
+      "word_sha256": "dda004b1c3cae1c0d0cfb0d698c101963842db12d542fed842a82dbffc14ee44"
+    },
+    "matched": {
+      "input_columns": 222,
+      "counts": {
+        "INIT": 206,
+        "ADD": 306,
+        "MOVE": 330,
+        "CLEAR": 206
+      },
+      "movement_profile": {
+        "1": 67,
+        "2": 37,
+        "3": 4,
+        "4": 1,
+        "5": 37,
+        "6": 19,
+        "7": 165
+      },
+      "dirty_CLEAR": 115,
+      "peak_owned": 206,
+      "historical_record_states": 1064,
+      "moment": {
+        "rational": [
+          "399241994052993028422862357650321685162466013/250000000000000000000000000000000000000000",
+          "319393595242394422738289886120257348129972863/200000000000000000000000000000000000000000"
+        ],
+        "decimal": [
+          "1596.967976211972113691449430601286740649864052",
+          "1596.967976211972113691449430601286740649864315"
+        ]
+      },
+      "word_sha256": "60c6f8820eefe232ee6c8f5b348be21bd86bb42c13532054fc2548b784cd2da7"
+    },
+    "old_control": {
+      "input_columns": 222,
+      "counts": {
+        "INIT": 104,
+        "ADD": 652,
+        "MOVE": 429,
+        "CLEAR": 104
+      },
+      "movement_profile": {
+        "1": 130,
+        "2": 54,
+        "3": 35,
+        "4": 9,
+        "5": 65,
+        "6": 32,
+        "7": 104
+      },
+      "dirty_CLEAR": 104,
+      "peak_owned": 104,
+      "historical_record_states": 1407,
+      "moment": {
+        "rational": [
+          "201429559064531968680087160296478937491850697/125000000000000000000000000000000000000000",
+          "12891491780130045995525578258974651999478447/8000000000000000000000000000000000000000"
+        ],
+        "decimal": [
+          "1611.436472516255749440697282371831499934805576",
+          "1611.436472516255749440697282371831499934805875"
+        ]
+      },
+      "word_sha256": "7b3bb9579a8991bedfa5c9df1bcc08827b2bff055072924d170a48d04f9d279e"
+    },
+    "reset_control": {
+      "input_columns": 222,
+      "counts": {
+        "INIT": 206,
+        "ADD": 318,
+        "MOVE": 331,
+        "CLEAR": 206
+      },
+      "movement_profile": {
+        "1": 68,
+        "2": 37,
+        "3": 4,
+        "4": 1,
+        "5": 37,
+        "6": 20,
+        "7": 164
+      },
+      "dirty_CLEAR": 115,
+      "peak_owned": 206,
+      "historical_record_states": 1077,
+      "moment": {
+        "rational": [
+          "199622780011652704488073747043262418377814197/125000000000000000000000000000000000000000",
+          "1596982240093221635904589976346099347022513839/1000000000000000000000000000000000000000000"
+        ],
+        "decimal": [
+          "1596.982240093221635904589976346099347022513576",
+          "1596.982240093221635904589976346099347022513839"
+        ]
+      },
+      "word_sha256": "314efd9a2d01c4dc6b20c6dc76eb5cd12630c8a67accc3841063b8ebe9a973e2"
+    },
+    "ascending": {
+      "input_columns": 222,
+      "counts": {
+        "INIT": 101,
+        "MOVE": 425,
+        "ADD": 637,
+        "CLEAR": 101
+      },
+      "movement_profile": {
+        "1": 126,
+        "2": 54,
+        "3": 35,
+        "4": 9,
+        "5": 65,
+        "6": 31,
+        "7": 105
+      },
+      "dirty_CLEAR": 101,
+      "peak_owned": 101,
+      "historical_record_states": 1385,
+      "moment": {
+        "rational": [
+          "402105552158751556806889184156754723390539013/250000000000000000000000000000000000000000",
+          "1608422208635006227227556736627018893562156351/1000000000000000000000000000000000000000000"
+        ],
+        "decimal": [
+          "1608.422208635006227227556736627018893562156052",
+          "1608.422208635006227227556736627018893562156351"
+        ]
+      },
+      "word_sha256": "cc505aaf4aee5e1995b4db22f9b53609856d3ecdc3ea1eb0797f2584e375dfee"
+    }
+  },
+  "complete_source_moment": {
+    "rational": [
+      "399241994052993028422862357650321685162466013/250000000000000000000000000000000000000000",
+      "319393595242394422738289886120257348129972863/200000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1596.967976211972113691449430601286740649864052",
+      "1596.967976211972113691449430601286740649864315"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "4956580799836048310959343953141649159610227/200000000000000000000000000000000000000000",
+      "148697423995081449328780318594249474788309683/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "24.782903999180241554796719765708245798051135",
+      "24.782903999180241554796719765708245798051613833333333333333333333333333333333333"
+    ]
+  },
+  "added_movement_over_raw48_direct": {
+    "rational": [
+      "5007190994883587901624831383118152506838697/500000000000000000000000000000000000000000",
+      "10014381989767175803249662766236305013677879/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "10.014381989767175803249662766236305013677394",
+      "10.014381989767175803249662766236305013677879"
+    ]
+  },
+  "scope": "Two distinct actual source prefixes. Matched cut preserves every old named unknown-X/Y column and chart, requiring ground-known corrections and an actual invertible-X Hub inverse for a fixed continuation. Liberated source completes48 and holds54 originals native. No actual63-output decoder extension, no global foundation, no all111 supplier, no kappa."
+}

@@ -1,0 +1,119 @@
+{
+  "status": "PASS_ROOT_PURE_PREFIX_AND_ALIGNED_CHANNEL_REVIEW",
+  "pure_prefix_proof_sha256": "0a016c4df781ffd2867eb563d1dcfff52264d76e1970d394688198db4827e6b2",
+  "arithmetic": "Bounded Gaussian integers / powers of two, independently retained engine; no modular samples or floating tolerance.",
+  "coefficient_algebra_instance": [
+    {
+      "quarter_c_power": 0,
+      "rank2_prefix": 2,
+      "rank3_prefix": 3,
+      "rank4_words": 512
+    },
+    {
+      "quarter_c_power": 1,
+      "rank2_prefix": 2,
+      "rank3_prefix": 3,
+      "rank4_words": 512
+    },
+    {
+      "quarter_c_power": 2,
+      "rank2_prefix": 2,
+      "rank3_prefix": 3,
+      "rank4_words": 512
+    },
+    {
+      "quarter_c_power": 3,
+      "rank2_prefix": 2,
+      "rank3_prefix": 3,
+      "rank4_words": 512
+    }
+  ],
+  "four_source_words_checked": 2048,
+  "ordinary_Db_transport": true,
+  "aligned_word_identities": {
+    "K_literal_toffoli_phase": true,
+    "B2_rank": 2,
+    "J_channel_equals_K_B2": true,
+    "B2_and_A4_intertwine_Fback_Fhat": true,
+    "K_commutes_Fhat": true,
+    "entire_quartic_prefix_pure4": true,
+    "full_rank4_ordinary_alignment": true
+  },
+  "all_width_justification": "Literal multiplicative one-column identities tensor exactly; projector and route algebra is applied to collective involutions with external dyadic scalars. Pure-prefix image/cut theorem separately read, not inferred from finite unit checks.",
+  "primitive_words": {
+    "C": {
+      "operations": {
+        "SCALE": 7,
+        "ADD": 6,
+        "MONO": 8
+      },
+      "prefix_row_sum_bound": "5",
+      "exact_operator_and_inverse": true
+    },
+    "C_inverse": {
+      "operations": {
+        "MONO": 8,
+        "SCALE": 7,
+        "ADD": 6
+      },
+      "prefix_row_sum_bound": "5",
+      "exact_operator_and_inverse": true
+    },
+    "Q": {
+      "operations": {
+        "MONO": 9,
+        "SCALE": 7,
+        "ADD": 6
+      },
+      "prefix_row_sum_bound": "5",
+      "exact_operator_and_inverse": true
+    },
+    "Q_inverse": {
+      "operations": {
+        "MONO": 9,
+        "SCALE": 7,
+        "ADD": 6
+      },
+      "prefix_row_sum_bound": "5",
+      "exact_operator_and_inverse": true
+    },
+    "output_decoder": {
+      "operations": {
+        "MONO": 8,
+        "SCALE": 7,
+        "ADD": 6
+      },
+      "prefix_row_sum_bound": "5",
+      "exact_operator_and_inverse": true
+    },
+    "output_decoder_inverse": {
+      "operations": {
+        "SCALE": 7,
+        "ADD": 6,
+        "MONO": 8
+      },
+      "prefix_row_sum_bound": "5",
+      "exact_operator_and_inverse": true
+    },
+    "input_decoder": {
+      "operations": {
+        "SCALE": 7,
+        "ADD": 6,
+        "MONO": 7
+      },
+      "prefix_row_sum_bound": "5",
+      "exact_operator_and_inverse": true
+    },
+    "input_decoder_inverse": {
+      "operations": {
+        "SCALE": 7,
+        "ADD": 6,
+        "MONO": 7
+      },
+      "prefix_row_sum_bound": "5",
+      "exact_operator_and_inverse": true
+    }
+  },
+  "omitted_ADD_controls": 48,
+  "scope": "Positive aligned rank4 component and exact unit controls; pure-prefix theorem excludes all independent421 completions of this fixed prefix. No full caller, supplier, new kappa, or foundation discharge."
+}

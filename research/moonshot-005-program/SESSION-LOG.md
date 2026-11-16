@@ -2158,3 +2158,50 @@ proof. SWAP and reverse-CNOT give real1536-class hypothesis escapes, not a calle
 14 commands and26 byte-identical outputs pass. No new κ or foundation discharge.
 Workers continue earlier mode-preserving decoding and selective complex channels.
 Resulting remote SHA is recorded only after GitHub confirmation.
+
+### S018 checkpoint6 — dense sources, actual49 delivery and sharp placement/image gates
+
+Baselineac2d74578f1abd6d802f3d15f114ca672029257f. The five-hour session began
+12:00:55UTC with endpoint17:00:55UTC. A's earlier48/50 histories retain five
+unknown modes; C verifies their real delivery and exact late-cut stops. A's
+ascending-original fanout supplies57 binary mask parameters with actual ground
+nuisance cancellation and Hub restoration, independently reviewed by C. Native65
+captures and190 static duals are accepted.
+
+C builds real known48 reset sources with57 native unknown caches, seven proper
+sums and three canonical modes, then a literal continuation requiring both ground
+preparation and an actual invertible Hub repair. A independently checks all
+sources,323 named cut records and prices. C's actual receiver5 chain reaches49
+outputs at1597.9916887898195684; root verifies it and the12-group bound on acyclic
+witness searches. The raw ground basis remains48.
+
+A acquires all nine canonical modes at M1 with63 native caches; exact matrix
+identities yield optimistic all111 equations. C/root independently verify the
+source and eight-role zero-access witness. Its frozen cut fails the target;
+even the direct known48/nine-M1 relaxation fails by0.0548079525222580874.
+The next BIT step is joint placement/history decoding, not code rank alone.
+
+B/root sharpen the complex image gate to ordinary full-D first-prefix ranges,
+allowing arbitrary Q and lower quartic residue. Positive aligned pure-rank4 and
+exterior-i residue controls have literal paid ordinary inverses and independent
+Gaussian/SymPy replays; their first column is still excluded as a421 caller.
+The five foundations, strict suppliers and recursion remain open. No new κ,
+selected certificate change, PR, outreach or new permanent branch. Exact final
+reproduction/integrity receipts follow; the resulting remote SHA is confirmed
+separately after publication. No background research is configured.
+
+The final wave also repairs a precise failed premise: A gathers K74's31 actual
+unknown donors at F74 before Hub, so that mode descends rank2 instead of3.
+C/root independently accept the source, all222 columns, canonical span and full
+costs. Same nine common modes/raw48/native63, but seven proper groups omitted.
+Q1613.2573830145689070 leaves8.4934971965834482; the still-valid8-descent floor
+no longer excludes it, leaving0.4934971965834482. No proof8 suffice or actual63
+completion is claimed. This early-acquisition source is the new concrete
+starting point. Core24 plus supplement5 commands reproduce46 outputs byte for
+byte; final state has516 registered scoped results.
+
+## 2026-11-17-S019 — active, checkpoint1
+
+Five-hour session started2026-11-16T21:53:41Z; planned end2026-11-17T02:53:41Z. Starting confirmed HEAD`ac2d74578f1abd6d802f3d15f114ca672029257f`; upstream`e54523517d0f03e58352e647c403a5af3e525a57`. Recovered162 staged S018cp6 paths with exact source preservation and independent review. Proved nonlinear nine-record obstruction and exact static broadcast optimum nine. The target budget fails for the unchanged source by0.5065028..., shifting construction to earlier histories. Clarified ordinary projectors versus free-bank module certificates without rewriting source proofs.
+
+Three workers continue on source-valid original-carrier fanout, singular complex prefixes/module invariants, and geometry-sensitive delivery/review. No new complete κ or PR-readiness claim. Resulting commit SHA will appear in a separately verified remote receipt.

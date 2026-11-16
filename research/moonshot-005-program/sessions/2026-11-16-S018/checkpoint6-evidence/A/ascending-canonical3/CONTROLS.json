@@ -1,0 +1,2573 @@
+{
+  "status": "PASS_ASCENDING_CARRIER_NATIVE_AND_FORMAL_CONTROLS",
+  "word_sha256": "cc505aaf4aee5e1995b4db22f9b53609856d3ecdc3ea1eb0797f2584e375dfee",
+  "baseline": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 101,
+      "MOVE": 425,
+      "ADD": 637,
+      "CLEAR": 101
+    },
+    "movement_profile": {
+      "1": 126,
+      "2": 54,
+      "3": 35,
+      "4": 9,
+      "5": 65,
+      "6": 31,
+      "7": 105
+    },
+    "dirty_CLEAR": 101,
+    "peak_owned": 101,
+    "historical_record_states": 1385
+  },
+  "omission_control_count": 254,
+  "rejected": [
+    {
+      "kind": "raw_group_acquisition",
+      "index": 2,
+      "operation": [
+        "ADD",
+        "X24",
+        "ASC_GROUP_4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 5,
+      "operation": [
+        "ADD",
+        "X25",
+        "ASC_GROUP_4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 8,
+      "operation": [
+        "ADD",
+        "X26",
+        "ASC_GROUP_4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 11,
+      "operation": [
+        "ADD",
+        "X47",
+        "ASC_GROUP_4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 14,
+      "operation": [
+        "ADD",
+        "X51",
+        "ASC_GROUP_4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 18,
+      "operation": [
+        "ADD",
+        "X60",
+        "ASC_GROUP_4_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 21,
+      "operation": [
+        "ADD",
+        "X62",
+        "ASC_GROUP_4_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 24,
+      "operation": [
+        "ADD",
+        "X81",
+        "ASC_GROUP_4_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 27,
+      "operation": [
+        "ADD",
+        "X86",
+        "ASC_GROUP_4_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 30,
+      "operation": [
+        "ADD",
+        "X87",
+        "ASC_GROUP_4_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 33,
+      "operation": [
+        "ADD",
+        "X100",
+        "ASC_GROUP_4_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 36,
+      "operation": [
+        "ADD",
+        "X101",
+        "ASC_GROUP_4_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 39,
+      "operation": [
+        "ADD",
+        "X102",
+        "ASC_GROUP_4_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 42,
+      "operation": [
+        "ADD",
+        "X103",
+        "ASC_GROUP_4_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 45,
+      "operation": [
+        "ADD",
+        "X105",
+        "ASC_GROUP_4_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 48,
+      "operation": [
+        "ADD",
+        "X108",
+        "ASC_GROUP_4_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 51,
+      "operation": [
+        "ADD",
+        "X110",
+        "ASC_GROUP_4_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 55,
+      "operation": [
+        "ADD",
+        "X5",
+        "ASC_GROUP_4_74_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 59,
+      "operation": [
+        "ADD",
+        "X59",
+        "ASC_GROUP_4_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 62,
+      "operation": [
+        "ADD",
+        "X63",
+        "ASC_GROUP_4_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 65,
+      "operation": [
+        "ADD",
+        "X82",
+        "ASC_GROUP_4_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 68,
+      "operation": [
+        "ADD",
+        "X83",
+        "ASC_GROUP_4_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 71,
+      "operation": [
+        "ADD",
+        "X84",
+        "ASC_GROUP_4_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 74,
+      "operation": [
+        "ADD",
+        "X85",
+        "ASC_GROUP_4_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 77,
+      "operation": [
+        "ADD",
+        "X96",
+        "ASC_GROUP_4_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 80,
+      "operation": [
+        "ADD",
+        "X97",
+        "ASC_GROUP_4_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 83,
+      "operation": [
+        "ADD",
+        "X98",
+        "ASC_GROUP_4_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 86,
+      "operation": [
+        "ADD",
+        "X99",
+        "ASC_GROUP_4_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 89,
+      "operation": [
+        "ADD",
+        "X104",
+        "ASC_GROUP_4_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 92,
+      "operation": [
+        "ADD",
+        "X106",
+        "ASC_GROUP_4_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 95,
+      "operation": [
+        "ADD",
+        "X107",
+        "ASC_GROUP_4_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 98,
+      "operation": [
+        "ADD",
+        "X109",
+        "ASC_GROUP_4_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 102,
+      "operation": [
+        "ADD",
+        "X68",
+        "ASC_GROUP_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 105,
+      "operation": [
+        "ADD",
+        "X69",
+        "ASC_GROUP_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 108,
+      "operation": [
+        "ADD",
+        "X70",
+        "ASC_GROUP_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 111,
+      "operation": [
+        "ADD",
+        "X90",
+        "ASC_GROUP_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 114,
+      "operation": [
+        "ADD",
+        "X91",
+        "ASC_GROUP_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 117,
+      "operation": [
+        "ADD",
+        "X92",
+        "ASC_GROUP_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 120,
+      "operation": [
+        "ADD",
+        "X93",
+        "ASC_GROUP_74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 124,
+      "operation": [
+        "ADD",
+        "X13",
+        "ASC_GROUP_74_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 127,
+      "operation": [
+        "ADD",
+        "X14",
+        "ASC_GROUP_74_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 130,
+      "operation": [
+        "ADD",
+        "X17",
+        "ASC_GROUP_74_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 133,
+      "operation": [
+        "ADD",
+        "X18",
+        "ASC_GROUP_74_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 136,
+      "operation": [
+        "ADD",
+        "X32",
+        "ASC_GROUP_74_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 139,
+      "operation": [
+        "ADD",
+        "X33",
+        "ASC_GROUP_74_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 142,
+      "operation": [
+        "ADD",
+        "X34",
+        "ASC_GROUP_74_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 145,
+      "operation": [
+        "ADD",
+        "X35",
+        "ASC_GROUP_74_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 148,
+      "operation": [
+        "ADD",
+        "X52",
+        "ASC_GROUP_74_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 151,
+      "operation": [
+        "ADD",
+        "X55",
+        "ASC_GROUP_74_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 154,
+      "operation": [
+        "ADD",
+        "X56",
+        "ASC_GROUP_74_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 158,
+      "operation": [
+        "ADD",
+        "X66",
+        "ASC_GROUP_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 161,
+      "operation": [
+        "ADD",
+        "X71",
+        "ASC_GROUP_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 164,
+      "operation": [
+        "ADD",
+        "X72",
+        "ASC_GROUP_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 167,
+      "operation": [
+        "ADD",
+        "X88",
+        "ASC_GROUP_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 170,
+      "operation": [
+        "ADD",
+        "X89",
+        "ASC_GROUP_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 173,
+      "operation": [
+        "ADD",
+        "X94",
+        "ASC_GROUP_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "raw_group_acquisition",
+      "index": 176,
+      "operation": [
+        "ADD",
+        "X95",
+        "ASC_GROUP_78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 668,
+      "operation": [
+        "ADD",
+        "X5",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 669,
+      "operation": [
+        "ADD",
+        "X24",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 670,
+      "operation": [
+        "ADD",
+        "X25",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 671,
+      "operation": [
+        "ADD",
+        "X26",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 672,
+      "operation": [
+        "ADD",
+        "X47",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 673,
+      "operation": [
+        "ADD",
+        "X51",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 674,
+      "operation": [
+        "ADD",
+        "X59",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 675,
+      "operation": [
+        "ADD",
+        "X63",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 676,
+      "operation": [
+        "ADD",
+        "X82",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 677,
+      "operation": [
+        "ADD",
+        "X83",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 678,
+      "operation": [
+        "ADD",
+        "X84",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 679,
+      "operation": [
+        "ADD",
+        "X85",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 680,
+      "operation": [
+        "ADD",
+        "X96",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 681,
+      "operation": [
+        "ADD",
+        "X97",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 682,
+      "operation": [
+        "ADD",
+        "X98",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 683,
+      "operation": [
+        "ADD",
+        "X99",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 684,
+      "operation": [
+        "ADD",
+        "X104",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 685,
+      "operation": [
+        "ADD",
+        "X106",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 686,
+      "operation": [
+        "ADD",
+        "X107",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 687,
+      "operation": [
+        "ADD",
+        "X109",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 688,
+      "operation": [
+        "ADD",
+        "X60",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 689,
+      "operation": [
+        "ADD",
+        "X62",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 690,
+      "operation": [
+        "ADD",
+        "X81",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 691,
+      "operation": [
+        "ADD",
+        "X86",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 692,
+      "operation": [
+        "ADD",
+        "X87",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 693,
+      "operation": [
+        "ADD",
+        "X100",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 694,
+      "operation": [
+        "ADD",
+        "X101",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 695,
+      "operation": [
+        "ADD",
+        "X102",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 696,
+      "operation": [
+        "ADD",
+        "X103",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 697,
+      "operation": [
+        "ADD",
+        "X105",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 698,
+      "operation": [
+        "ADD",
+        "X108",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 699,
+      "operation": [
+        "ADD",
+        "X110",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 766,
+      "operation": [
+        "ADD",
+        "X5",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 767,
+      "operation": [
+        "ADD",
+        "X13",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 768,
+      "operation": [
+        "ADD",
+        "X14",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 769,
+      "operation": [
+        "ADD",
+        "X17",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 770,
+      "operation": [
+        "ADD",
+        "X18",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 771,
+      "operation": [
+        "ADD",
+        "X32",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 772,
+      "operation": [
+        "ADD",
+        "X33",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 773,
+      "operation": [
+        "ADD",
+        "X34",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 774,
+      "operation": [
+        "ADD",
+        "X35",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 775,
+      "operation": [
+        "ADD",
+        "X52",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 776,
+      "operation": [
+        "ADD",
+        "X55",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 777,
+      "operation": [
+        "ADD",
+        "X56",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 778,
+      "operation": [
+        "ADD",
+        "X60",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 779,
+      "operation": [
+        "ADD",
+        "X62",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 780,
+      "operation": [
+        "ADD",
+        "X81",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 781,
+      "operation": [
+        "ADD",
+        "X86",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 782,
+      "operation": [
+        "ADD",
+        "X87",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 783,
+      "operation": [
+        "ADD",
+        "X100",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 784,
+      "operation": [
+        "ADD",
+        "X101",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 785,
+      "operation": [
+        "ADD",
+        "X102",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 786,
+      "operation": [
+        "ADD",
+        "X103",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 787,
+      "operation": [
+        "ADD",
+        "X105",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 788,
+      "operation": [
+        "ADD",
+        "X108",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 789,
+      "operation": [
+        "ADD",
+        "X110",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 790,
+      "operation": [
+        "ADD",
+        "X68",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 791,
+      "operation": [
+        "ADD",
+        "X69",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 792,
+      "operation": [
+        "ADD",
+        "X70",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 793,
+      "operation": [
+        "ADD",
+        "X90",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 794,
+      "operation": [
+        "ADD",
+        "X91",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 795,
+      "operation": [
+        "ADD",
+        "X92",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 796,
+      "operation": [
+        "ADD",
+        "X93",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 856,
+      "operation": [
+        "ADD",
+        "X5",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 857,
+      "operation": [
+        "ADD",
+        "X13",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 858,
+      "operation": [
+        "ADD",
+        "X14",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 859,
+      "operation": [
+        "ADD",
+        "X17",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 860,
+      "operation": [
+        "ADD",
+        "X18",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 861,
+      "operation": [
+        "ADD",
+        "X32",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 862,
+      "operation": [
+        "ADD",
+        "X33",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 863,
+      "operation": [
+        "ADD",
+        "X34",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 864,
+      "operation": [
+        "ADD",
+        "X35",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 865,
+      "operation": [
+        "ADD",
+        "X52",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 866,
+      "operation": [
+        "ADD",
+        "X55",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 867,
+      "operation": [
+        "ADD",
+        "X56",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 868,
+      "operation": [
+        "ADD",
+        "X59",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 869,
+      "operation": [
+        "ADD",
+        "X63",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 870,
+      "operation": [
+        "ADD",
+        "X82",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 871,
+      "operation": [
+        "ADD",
+        "X83",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 872,
+      "operation": [
+        "ADD",
+        "X84",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 873,
+      "operation": [
+        "ADD",
+        "X85",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 874,
+      "operation": [
+        "ADD",
+        "X96",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 875,
+      "operation": [
+        "ADD",
+        "X97",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 876,
+      "operation": [
+        "ADD",
+        "X98",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 877,
+      "operation": [
+        "ADD",
+        "X99",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 878,
+      "operation": [
+        "ADD",
+        "X104",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 879,
+      "operation": [
+        "ADD",
+        "X106",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 880,
+      "operation": [
+        "ADD",
+        "X107",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 881,
+      "operation": [
+        "ADD",
+        "X109",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 882,
+      "operation": [
+        "ADD",
+        "X66",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 883,
+      "operation": [
+        "ADD",
+        "X71",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 884,
+      "operation": [
+        "ADD",
+        "X72",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 885,
+      "operation": [
+        "ADD",
+        "X88",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 886,
+      "operation": [
+        "ADD",
+        "X89",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 887,
+      "operation": [
+        "ADD",
+        "X94",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_packet_mask_load",
+      "index": 888,
+      "operation": [
+        "ADD",
+        "X95",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_ground_nuisance_precoat",
+      "index": 719,
+      "operation": [
+        "ADD",
+        "ZRAW0",
+        "Y4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_ground_nuisance_precoat",
+      "index": 720,
+      "operation": [
+        "ADD",
+        "P0",
+        "Y4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_ground_nuisance_precoat",
+      "index": 812,
+      "operation": [
+        "ADD",
+        "COMMON_RAW2",
+        "Y74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_ground_nuisance_precoat",
+      "index": 813,
+      "operation": [
+        "ADD",
+        "ZRAW44",
+        "Y74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_ground_nuisance_precoat",
+      "index": 942,
+      "operation": [
+        "ADD",
+        "ZRAW28",
+        "Y78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_ground_nuisance_precoat",
+      "index": 943,
+      "operation": [
+        "ADD",
+        "ADDED_RAW50",
+        "Y78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_original_coupling",
+      "index": 193,
+      "operation": [
+        "ADD",
+        "ASC_GROUP_74_78",
+        "X50"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_original_coupling",
+      "index": 205,
+      "operation": [
+        "ADD",
+        "ASC_GROUP_4_74",
+        "X2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_original_coupling",
+      "index": 245,
+      "operation": [
+        "ADD",
+        "ASC_GROUP_4_74",
+        "X0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_original_coupling",
+      "index": 253,
+      "operation": [
+        "ADD",
+        "ASC_GROUP_4_78",
+        "X28"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_original_coupling",
+      "index": 261,
+      "operation": [
+        "ADD",
+        "ASC_GROUP_74_78",
+        "X44"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_original_coupling",
+      "index": 270,
+      "operation": [
+        "ADD",
+        "ASC_GROUP_4_78",
+        "X7"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_facet_carrier_read",
+      "index": 727,
+      "operation": [
+        "ADD",
+        "X0",
+        "Y4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_facet_carrier_read",
+      "index": 741,
+      "operation": [
+        "ADD",
+        "X7",
+        "Y4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_facet_carrier_read",
+      "index": 820,
+      "operation": [
+        "ADD",
+        "X2",
+        "Y74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_facet_carrier_read",
+      "index": 834,
+      "operation": [
+        "ADD",
+        "X44",
+        "Y74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_facet_carrier_read",
+      "index": 950,
+      "operation": [
+        "ADD",
+        "X28",
+        "Y78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_facet_carrier_read",
+      "index": 966,
+      "operation": [
+        "ADD",
+        "X50",
+        "Y78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 729,
+      "operation": [
+        "ADD",
+        "X60",
+        "X0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 730,
+      "operation": [
+        "ADD",
+        "X62",
+        "X0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 731,
+      "operation": [
+        "ADD",
+        "X81",
+        "X0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 732,
+      "operation": [
+        "ADD",
+        "X86",
+        "X0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 733,
+      "operation": [
+        "ADD",
+        "X87",
+        "X0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 734,
+      "operation": [
+        "ADD",
+        "X100",
+        "X0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 735,
+      "operation": [
+        "ADD",
+        "X101",
+        "X0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 736,
+      "operation": [
+        "ADD",
+        "X102",
+        "X0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 737,
+      "operation": [
+        "ADD",
+        "X103",
+        "X0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 738,
+      "operation": [
+        "ADD",
+        "X105",
+        "X0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 739,
+      "operation": [
+        "ADD",
+        "X108",
+        "X0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 740,
+      "operation": [
+        "ADD",
+        "X110",
+        "X0"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 743,
+      "operation": [
+        "ADD",
+        "X59",
+        "X7"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 744,
+      "operation": [
+        "ADD",
+        "X63",
+        "X7"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 745,
+      "operation": [
+        "ADD",
+        "X82",
+        "X7"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 746,
+      "operation": [
+        "ADD",
+        "X83",
+        "X7"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 747,
+      "operation": [
+        "ADD",
+        "X84",
+        "X7"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 748,
+      "operation": [
+        "ADD",
+        "X85",
+        "X7"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 749,
+      "operation": [
+        "ADD",
+        "X96",
+        "X7"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 750,
+      "operation": [
+        "ADD",
+        "X97",
+        "X7"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 751,
+      "operation": [
+        "ADD",
+        "X98",
+        "X7"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 752,
+      "operation": [
+        "ADD",
+        "X99",
+        "X7"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 753,
+      "operation": [
+        "ADD",
+        "X104",
+        "X7"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 754,
+      "operation": [
+        "ADD",
+        "X106",
+        "X7"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 755,
+      "operation": [
+        "ADD",
+        "X107",
+        "X7"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 756,
+      "operation": [
+        "ADD",
+        "X109",
+        "X7"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 822,
+      "operation": [
+        "ADD",
+        "X60",
+        "X2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 823,
+      "operation": [
+        "ADD",
+        "X62",
+        "X2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 824,
+      "operation": [
+        "ADD",
+        "X81",
+        "X2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 825,
+      "operation": [
+        "ADD",
+        "X86",
+        "X2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 826,
+      "operation": [
+        "ADD",
+        "X87",
+        "X2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 827,
+      "operation": [
+        "ADD",
+        "X100",
+        "X2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 828,
+      "operation": [
+        "ADD",
+        "X101",
+        "X2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 829,
+      "operation": [
+        "ADD",
+        "X102",
+        "X2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 830,
+      "operation": [
+        "ADD",
+        "X103",
+        "X2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 831,
+      "operation": [
+        "ADD",
+        "X105",
+        "X2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 832,
+      "operation": [
+        "ADD",
+        "X108",
+        "X2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 833,
+      "operation": [
+        "ADD",
+        "X110",
+        "X2"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 836,
+      "operation": [
+        "ADD",
+        "X13",
+        "X44"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 837,
+      "operation": [
+        "ADD",
+        "X14",
+        "X44"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 838,
+      "operation": [
+        "ADD",
+        "X17",
+        "X44"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 839,
+      "operation": [
+        "ADD",
+        "X18",
+        "X44"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 840,
+      "operation": [
+        "ADD",
+        "X32",
+        "X44"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 841,
+      "operation": [
+        "ADD",
+        "X33",
+        "X44"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 842,
+      "operation": [
+        "ADD",
+        "X34",
+        "X44"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 843,
+      "operation": [
+        "ADD",
+        "X35",
+        "X44"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 844,
+      "operation": [
+        "ADD",
+        "X52",
+        "X44"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 845,
+      "operation": [
+        "ADD",
+        "X55",
+        "X44"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 846,
+      "operation": [
+        "ADD",
+        "X56",
+        "X44"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 952,
+      "operation": [
+        "ADD",
+        "X59",
+        "X28"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 953,
+      "operation": [
+        "ADD",
+        "X63",
+        "X28"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 954,
+      "operation": [
+        "ADD",
+        "X82",
+        "X28"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 955,
+      "operation": [
+        "ADD",
+        "X83",
+        "X28"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 956,
+      "operation": [
+        "ADD",
+        "X84",
+        "X28"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 957,
+      "operation": [
+        "ADD",
+        "X85",
+        "X28"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 958,
+      "operation": [
+        "ADD",
+        "X96",
+        "X28"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 959,
+      "operation": [
+        "ADD",
+        "X97",
+        "X28"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 960,
+      "operation": [
+        "ADD",
+        "X98",
+        "X28"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 961,
+      "operation": [
+        "ADD",
+        "X99",
+        "X28"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 962,
+      "operation": [
+        "ADD",
+        "X104",
+        "X28"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 963,
+      "operation": [
+        "ADD",
+        "X106",
+        "X28"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 964,
+      "operation": [
+        "ADD",
+        "X107",
+        "X28"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 965,
+      "operation": [
+        "ADD",
+        "X109",
+        "X28"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 968,
+      "operation": [
+        "ADD",
+        "X13",
+        "X50"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 969,
+      "operation": [
+        "ADD",
+        "X14",
+        "X50"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 970,
+      "operation": [
+        "ADD",
+        "X17",
+        "X50"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 971,
+      "operation": [
+        "ADD",
+        "X18",
+        "X50"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 972,
+      "operation": [
+        "ADD",
+        "X32",
+        "X50"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 973,
+      "operation": [
+        "ADD",
+        "X33",
+        "X50"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 974,
+      "operation": [
+        "ADD",
+        "X34",
+        "X50"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 975,
+      "operation": [
+        "ADD",
+        "X35",
+        "X50"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 976,
+      "operation": [
+        "ADD",
+        "X52",
+        "X50"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 977,
+      "operation": [
+        "ADD",
+        "X55",
+        "X50"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "actual_Hub_original_inverse",
+      "index": 978,
+      "operation": [
+        "ADD",
+        "X56",
+        "X50"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "inherited_packet_reset",
+      "index": 709,
+      "operation": [
+        "ADD",
+        "ZFIRST3",
+        "P3"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "direct_stationary_group_read",
+      "index": 722,
+      "operation": [
+        "ADD",
+        "ASC_GROUP_4_74_78",
+        "Y4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "direct_stationary_group_read",
+      "index": 726,
+      "operation": [
+        "ADD",
+        "ASC_GROUP_4",
+        "Y4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "inherited_packet_reset",
+      "index": 802,
+      "operation": [
+        "ADD",
+        "ZFIRST4",
+        "P4"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "direct_stationary_group_read",
+      "index": 815,
+      "operation": [
+        "ADD",
+        "ASC_GROUP_4_74_78",
+        "Y74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "direct_stationary_group_read",
+      "index": 819,
+      "operation": [
+        "ADD",
+        "ASC_GROUP_74",
+        "Y74"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "inherited_packet_reset",
+      "index": 894,
+      "operation": [
+        "ADD",
+        "ZFIRST5",
+        "P5"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "direct_stationary_group_read",
+      "index": 945,
+      "operation": [
+        "ADD",
+        "ASC_GROUP_4_74_78",
+        "Y78"
+      ],
+      "failure": "222-column endpoint identity"
+    },
+    {
+      "kind": "direct_stationary_group_read",
+      "index": 949,
+      "operation": [
+        "ADD",
+        "ASC_GROUP_78",
+        "Y78"
+      ],
+      "failure": "222-column endpoint identity"
+    }
+  ],
+  "formal_input_columns": 279,
+  "independent_parameter_count": 57,
+  "formal_original_endpoints_and_restores_pass": true,
+  "formal_retained_group_and_canonical_mask_rows_pass": true,
+  "scope": "Literal native replay plus a linear formal57-input perturbation certificate specialized by z_i=beta_i*x_i. It proves the shared-mask family for all binary57 choices; it is not a finite scan."
+}

@@ -1,0 +1,85 @@
+{
+  "status": "PASS_AUTHOR_ALIGNED_COMPONENT_AND_INDEPENDENT_PRIMITIVE_REVIEW",
+  "arithmetic": "Independent exact SymPy Gaussian rationals; literal source rebuilt; formal involution sector proof.",
+  "full_D_rank4_alignment": true,
+  "entire_quartic_prefix_pure4": true,
+  "lower_quartic_cross_terms_zero": true,
+  "primitive_words": {
+    "C": {
+      "operation_counts": {
+        "SCALE": 7,
+        "ADD": 6,
+        "MONO": 8
+      },
+      "prefix_bound": "5"
+    },
+    "C_inverse": {
+      "operation_counts": {
+        "MONO": 8,
+        "SCALE": 7,
+        "ADD": 6
+      },
+      "prefix_bound": "5"
+    },
+    "Q": {
+      "operation_counts": {
+        "MONO": 9,
+        "SCALE": 7,
+        "ADD": 6
+      },
+      "prefix_bound": "5"
+    },
+    "Q_inverse": {
+      "operation_counts": {
+        "MONO": 9,
+        "SCALE": 7,
+        "ADD": 6
+      },
+      "prefix_bound": "5"
+    },
+    "output_decoder": {
+      "operation_counts": {
+        "MONO": 8,
+        "SCALE": 7,
+        "ADD": 6
+      },
+      "prefix_bound": "5"
+    },
+    "output_decoder_inverse": {
+      "operation_counts": {
+        "SCALE": 7,
+        "ADD": 6,
+        "MONO": 8
+      },
+      "prefix_bound": "5"
+    },
+    "input_decoder": {
+      "operation_counts": {
+        "SCALE": 7,
+        "ADD": 6,
+        "MONO": 7
+      },
+      "prefix_bound": "5"
+    },
+    "input_decoder_inverse": {
+      "operation_counts": {
+        "SCALE": 7,
+        "ADD": 6,
+        "MONO": 7
+      },
+      "prefix_bound": "5"
+    }
+  },
+  "omitted_ADD_negative_controls": 48,
+  "all_width_logic": "Multiplicative literal identities tensor; involution algebra uses collective operators and external scalars. No parity collapse.",
+  "scope": "Positive ordinary-aligned rank4 component only. Universal pure-prefix theorem excludes independent421 completion of these fixed entries.",
+  "dependencies": {
+    "B/ALIGNED-SELECTIVE-COMPONENT-v1.md": "8d19f33d9eb3936d6623305390eab66f31224b60e1c442219fe6ed3a5dd158cf",
+    "B/PURE-PREFIX-IMAGE-GATE-v2.md": "0a016c4df781ffd2867eb563d1dcfff52264d76e1970d394688198db4827e6b2",
+    "B/INVERSE-CUT-SUPPORT-GATE-v2.md": "b2732db2a174fa22de13df8610f0c4b5da4b0b34bc96a73f82bf887290d42d7b",
+    "R/pure-prefix-review/ORDINARY-WORDS.json": "adbff3c9a57b760696984488b5a65dc643ae52499dfeb4f0e745168e27ae3cd6",
+    "R/pure-prefix-review/check.py": "c351f9df2fbafbef62213889df3a3854836d857eab15ba49455a4f3131fbc441",
+    "B/check_selective_rank4_controls.py": "3dc06b34e2f19308b654b5cf0f808632293c07782821e94b8638bf803a90f338",
+    "B/SELECTIVE-RANK4-CONTROLS-RESULT.json": "6400fc192cd618395d12e2d128cd2bf19c32ec60a554270a9b09f3def03b39a0"
+  }
+}

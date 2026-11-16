@@ -1,0 +1,95 @@
+{
+  "status": "PASS_AUTHOR_PARITY_UNIFORM_RESIDUE_COMPONENT",
+  "arithmetic": "Exact Gaussian rationals with symbolic collective-involution proof.",
+  "aligned_quartic_row": [
+    "-B2",
+    "-a4",
+    "0"
+  ],
+  "source_gaussian_classes": {
+    "aJa": 2,
+    "aJa2": 3,
+    "B2": 2,
+    "a4": 4
+  },
+  "rank4_component_full_field_rank": true,
+  "rank2_residue_full_field_rank": true,
+  "native_prefix_range_ordinary": true,
+  "parity": "Every positive width; exterior i is not tensor-lifted. Even-width phase-collapse negative control rejected.",
+  "primitive_words": {
+    "C": {
+      "operation_counts": {
+        "SCALE": 7,
+        "ADD": 6,
+        "MONO": 8
+      },
+      "prefix_bound": "5"
+    },
+    "C_inverse": {
+      "operation_counts": {
+        "MONO": 8,
+        "SCALE": 7,
+        "ADD": 6
+      },
+      "prefix_bound": "5"
+    },
+    "Q": {
+      "operation_counts": {
+        "MONO": 3,
+        "ADD": 4,
+        "SCALE": 5
+      },
+      "prefix_bound": "14"
+    },
+    "Q_inverse": {
+      "operation_counts": {
+        "MONO": 3,
+        "ADD": 4,
+        "SCALE": 5
+      },
+      "prefix_bound": "14"
+    },
+    "output_decoder": {
+      "operation_counts": {
+        "MONO": 8,
+        "SCALE": 7,
+        "ADD": 6
+      },
+      "prefix_bound": "5"
+    },
+    "output_decoder_inverse": {
+      "operation_counts": {
+        "SCALE": 7,
+        "ADD": 6,
+        "MONO": 8
+      },
+      "prefix_bound": "5"
+    },
+    "input_decoder": {
+      "operation_counts": {
+        "SCALE": 20,
+        "ADD": 15,
+        "MONO": 13
+      },
+      "prefix_bound": "145"
+    },
+    "input_decoder_inverse": {
+      "operation_counts": {
+        "SCALE": 24,
+        "ADD": 15,
+        "MONO": 13
+      },
+      "prefix_bound": "76"
+    }
+  },
+  "omitted_ADD_negative_controls": 62,
+  "scope": "Positive component and paid ordinary unit words. Ordinary-prefix-range theorem excludes independent421 completion for this fixed first C column.",
+  "dependencies": {
+    "B/RESIDUE-SELECTIVE-COMPONENT-v1.md": "b9cd8ceaa1855c9cc48e393f03a98a1a96c1874093064d533545f99ef23b1b77",
+    "B/check_aligned_selective_component-v2.py": "095aae59fb171f031494ba0e0802d93f10e904d3261cdeda3a7f02a1716adb3b",
+    "B/ALIGNED-SELECTIVE-COMPONENT-v1.md": "8d19f33d9eb3936d6623305390eab66f31224b60e1c442219fe6ed3a5dd158cf",
+    "R/pure-prefix-review/ORDINARY-WORDS.json": "adbff3c9a57b760696984488b5a65dc643ae52499dfeb4f0e745168e27ae3cd6",
+    "B/PURE-PREFIX-IMAGE-GATE-v3.md": "3d7c9f07a64a6a161c5fd19dcccbc5febcc0ba7f62bc0398d5805b2122e029a1",
+    "B/INVERSE-CUT-SUPPORT-GATE-v2.md": "b2732db2a174fa22de13df8610f0c4b5da4b0b34bc96a73f82bf887290d42d7b"
+  }
+}

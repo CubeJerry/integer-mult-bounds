@@ -1,0 +1,2554 @@
+{
+  "status": "PASS_CANONICAL9_NATIVE_SOURCE_CONTROLS_AND_MATRIX_CERTIFICATE",
+  "word_sha256": "de6d6919f448b9f4bb09d106e35667572207c7155ab0ed9ce6193f6b17289325",
+  "all_222_native_baseline": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 127,
+      "ADD": 521,
+      "MOVE": 336,
+      "CLEAR": 127
+    },
+    "movement_profile": {
+      "1": 67,
+      "2": 37,
+      "3": 10,
+      "4": 1,
+      "5": 37,
+      "6": 19,
+      "7": 165
+    },
+    "dirty_CLEAR": 127,
+    "peak_owned": 127,
+    "historical_record_states": 1206
+  },
+  "control_count": 239,
+  "controls": [
+    {
+      "kind": "native_raw_capture",
+      "operation_index": 635,
+      "operation": [
+        "ADD",
+        "X15",
+        "CANONICAL_NATIVE_RAW_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "native_raw_capture",
+      "operation_index": 638,
+      "operation": [
+        "ADD",
+        "X31",
+        "CANONICAL_NATIVE_RAW_31"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "native_raw_capture",
+      "operation_index": 641,
+      "operation": [
+        "ADD",
+        "X53",
+        "CANONICAL_NATIVE_RAW_53"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "native_raw_capture",
+      "operation_index": 644,
+      "operation": [
+        "ADD",
+        "X54",
+        "CANONICAL_NATIVE_RAW_54"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "native_raw_capture",
+      "operation_index": 647,
+      "operation": [
+        "ADD",
+        "X57",
+        "CANONICAL_NATIVE_RAW_57"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "native_raw_capture",
+      "operation_index": 650,
+      "operation": [
+        "ADD",
+        "X58",
+        "CANONICAL_NATIVE_RAW_58"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "early_original_Hub_arrival",
+      "operation_index": 636,
+      "operation": [
+        "MOVE",
+        "X15",
+        "Hub"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "early_original_Hub_arrival",
+      "operation_index": 639,
+      "operation": [
+        "MOVE",
+        "X31",
+        "Hub"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "early_original_Hub_arrival",
+      "operation_index": 642,
+      "operation": [
+        "MOVE",
+        "X53",
+        "Hub"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "early_original_Hub_arrival",
+      "operation_index": 645,
+      "operation": [
+        "MOVE",
+        "X54",
+        "Hub"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "early_original_Hub_arrival",
+      "operation_index": 648,
+      "operation": [
+        "MOVE",
+        "X57",
+        "Hub"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "early_original_Hub_arrival",
+      "operation_index": 651,
+      "operation": [
+        "MOVE",
+        "X58",
+        "Hub"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 653,
+      "operation": [
+        "ADD",
+        "X5",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 654,
+      "operation": [
+        "ADD",
+        "X15",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 655,
+      "operation": [
+        "ADD",
+        "X18",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 656,
+      "operation": [
+        "ADD",
+        "X26",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 657,
+      "operation": [
+        "ADD",
+        "X32",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 658,
+      "operation": [
+        "ADD",
+        "X33",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 659,
+      "operation": [
+        "ADD",
+        "X51",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 660,
+      "operation": [
+        "ADD",
+        "X52",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 661,
+      "operation": [
+        "ADD",
+        "X55",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 662,
+      "operation": [
+        "ADD",
+        "X56",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 663,
+      "operation": [
+        "ADD",
+        "X68",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 664,
+      "operation": [
+        "ADD",
+        "X71",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 665,
+      "operation": [
+        "ADD",
+        "X72",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 666,
+      "operation": [
+        "ADD",
+        "X81",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 667,
+      "operation": [
+        "ADD",
+        "X84",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 668,
+      "operation": [
+        "ADD",
+        "X85",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 669,
+      "operation": [
+        "ADD",
+        "X90",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 670,
+      "operation": [
+        "ADD",
+        "X91",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 671,
+      "operation": [
+        "ADD",
+        "X94",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 672,
+      "operation": [
+        "ADD",
+        "X95",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 673,
+      "operation": [
+        "ADD",
+        "X96",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 674,
+      "operation": [
+        "ADD",
+        "X97",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 675,
+      "operation": [
+        "ADD",
+        "X98",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 676,
+      "operation": [
+        "ADD",
+        "X99",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 677,
+      "operation": [
+        "ADD",
+        "X100",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 678,
+      "operation": [
+        "ADD",
+        "X101",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 679,
+      "operation": [
+        "ADD",
+        "X102",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 680,
+      "operation": [
+        "ADD",
+        "X103",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 681,
+      "operation": [
+        "ADD",
+        "X105",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 682,
+      "operation": [
+        "ADD",
+        "X107",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 683,
+      "operation": [
+        "ADD",
+        "X109",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 686,
+      "operation": [
+        "ADD",
+        "X17",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 687,
+      "operation": [
+        "ADD",
+        "X24",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 688,
+      "operation": [
+        "ADD",
+        "X25",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 689,
+      "operation": [
+        "ADD",
+        "X33",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 690,
+      "operation": [
+        "ADD",
+        "X35",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 691,
+      "operation": [
+        "ADD",
+        "X51",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 692,
+      "operation": [
+        "ADD",
+        "X52",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 693,
+      "operation": [
+        "ADD",
+        "X53",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 694,
+      "operation": [
+        "ADD",
+        "X54",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 695,
+      "operation": [
+        "ADD",
+        "X59",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 696,
+      "operation": [
+        "ADD",
+        "X60",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 697,
+      "operation": [
+        "ADD",
+        "X68",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 698,
+      "operation": [
+        "ADD",
+        "X71",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 699,
+      "operation": [
+        "ADD",
+        "X72",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 700,
+      "operation": [
+        "ADD",
+        "X81",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 701,
+      "operation": [
+        "ADD",
+        "X82",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 702,
+      "operation": [
+        "ADD",
+        "X83",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 703,
+      "operation": [
+        "ADD",
+        "X84",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 704,
+      "operation": [
+        "ADD",
+        "X85",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 705,
+      "operation": [
+        "ADD",
+        "X86",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 706,
+      "operation": [
+        "ADD",
+        "X87",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 707,
+      "operation": [
+        "ADD",
+        "X88",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 708,
+      "operation": [
+        "ADD",
+        "X91",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 709,
+      "operation": [
+        "ADD",
+        "X92",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 710,
+      "operation": [
+        "ADD",
+        "X95",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 711,
+      "operation": [
+        "ADD",
+        "X98",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 712,
+      "operation": [
+        "ADD",
+        "X99",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 713,
+      "operation": [
+        "ADD",
+        "X102",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 714,
+      "operation": [
+        "ADD",
+        "X103",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 715,
+      "operation": [
+        "ADD",
+        "X104",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 716,
+      "operation": [
+        "ADD",
+        "X107",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 717,
+      "operation": [
+        "ADD",
+        "X108",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 720,
+      "operation": [
+        "ADD",
+        "X5",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 721,
+      "operation": [
+        "ADD",
+        "X13",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 722,
+      "operation": [
+        "ADD",
+        "X17",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 723,
+      "operation": [
+        "ADD",
+        "X18",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 724,
+      "operation": [
+        "ADD",
+        "X25",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 725,
+      "operation": [
+        "ADD",
+        "X26",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 726,
+      "operation": [
+        "ADD",
+        "X31",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 727,
+      "operation": [
+        "ADD",
+        "X47",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 728,
+      "operation": [
+        "ADD",
+        "X53",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 729,
+      "operation": [
+        "ADD",
+        "X55",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 730,
+      "operation": [
+        "ADD",
+        "X57",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 731,
+      "operation": [
+        "ADD",
+        "X59",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 732,
+      "operation": [
+        "ADD",
+        "X60",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 733,
+      "operation": [
+        "ADD",
+        "X68",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 734,
+      "operation": [
+        "ADD",
+        "X69",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 735,
+      "operation": [
+        "ADD",
+        "X72",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 736,
+      "operation": [
+        "ADD",
+        "X81",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 737,
+      "operation": [
+        "ADD",
+        "X82",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 738,
+      "operation": [
+        "ADD",
+        "X84",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 739,
+      "operation": [
+        "ADD",
+        "X86",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 740,
+      "operation": [
+        "ADD",
+        "X90",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 741,
+      "operation": [
+        "ADD",
+        "X91",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 742,
+      "operation": [
+        "ADD",
+        "X94",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 743,
+      "operation": [
+        "ADD",
+        "X95",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 744,
+      "operation": [
+        "ADD",
+        "X97",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 745,
+      "operation": [
+        "ADD",
+        "X99",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 746,
+      "operation": [
+        "ADD",
+        "X101",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 747,
+      "operation": [
+        "ADD",
+        "X103",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 748,
+      "operation": [
+        "ADD",
+        "X104",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 749,
+      "operation": [
+        "ADD",
+        "X105",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 750,
+      "operation": [
+        "ADD",
+        "X106",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 751,
+      "operation": [
+        "ADD",
+        "X107",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 752,
+      "operation": [
+        "ADD",
+        "X108",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 753,
+      "operation": [
+        "ADD",
+        "X109",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 754,
+      "operation": [
+        "ADD",
+        "X110",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 757,
+      "operation": [
+        "ADD",
+        "X5",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 758,
+      "operation": [
+        "ADD",
+        "X14",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 759,
+      "operation": [
+        "ADD",
+        "X15",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 760,
+      "operation": [
+        "ADD",
+        "X17",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 761,
+      "operation": [
+        "ADD",
+        "X18",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 762,
+      "operation": [
+        "ADD",
+        "X52",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 763,
+      "operation": [
+        "ADD",
+        "X53",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 764,
+      "operation": [
+        "ADD",
+        "X54",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 765,
+      "operation": [
+        "ADD",
+        "X55",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 766,
+      "operation": [
+        "ADD",
+        "X56",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 767,
+      "operation": [
+        "ADD",
+        "X57",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 768,
+      "operation": [
+        "ADD",
+        "X58",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 769,
+      "operation": [
+        "ADD",
+        "X66",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 770,
+      "operation": [
+        "ADD",
+        "X68",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 771,
+      "operation": [
+        "ADD",
+        "X69",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 772,
+      "operation": [
+        "ADD",
+        "X70",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 773,
+      "operation": [
+        "ADD",
+        "X71",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 774,
+      "operation": [
+        "ADD",
+        "X72",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 775,
+      "operation": [
+        "ADD",
+        "X81",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 776,
+      "operation": [
+        "ADD",
+        "X82",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 777,
+      "operation": [
+        "ADD",
+        "X83",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 778,
+      "operation": [
+        "ADD",
+        "X84",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 779,
+      "operation": [
+        "ADD",
+        "X85",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 780,
+      "operation": [
+        "ADD",
+        "X86",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 781,
+      "operation": [
+        "ADD",
+        "X87",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 782,
+      "operation": [
+        "ADD",
+        "X88",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 783,
+      "operation": [
+        "ADD",
+        "X89",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 784,
+      "operation": [
+        "ADD",
+        "X90",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 785,
+      "operation": [
+        "ADD",
+        "X91",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 786,
+      "operation": [
+        "ADD",
+        "X92",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 787,
+      "operation": [
+        "ADD",
+        "X93",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 788,
+      "operation": [
+        "ADD",
+        "X94",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 789,
+      "operation": [
+        "ADD",
+        "X95",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 790,
+      "operation": [
+        "ADD",
+        "X103",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 791,
+      "operation": [
+        "ADD",
+        "X104",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 792,
+      "operation": [
+        "ADD",
+        "X105",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 793,
+      "operation": [
+        "ADD",
+        "X106",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 794,
+      "operation": [
+        "ADD",
+        "X107",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 795,
+      "operation": [
+        "ADD",
+        "X108",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 796,
+      "operation": [
+        "ADD",
+        "X109",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 797,
+      "operation": [
+        "ADD",
+        "X110",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 800,
+      "operation": [
+        "ADD",
+        "X5",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 801,
+      "operation": [
+        "ADD",
+        "X24",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 802,
+      "operation": [
+        "ADD",
+        "X25",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 803,
+      "operation": [
+        "ADD",
+        "X26",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 804,
+      "operation": [
+        "ADD",
+        "X31",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 805,
+      "operation": [
+        "ADD",
+        "X32",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 806,
+      "operation": [
+        "ADD",
+        "X33",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 807,
+      "operation": [
+        "ADD",
+        "X34",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 808,
+      "operation": [
+        "ADD",
+        "X35",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 809,
+      "operation": [
+        "ADD",
+        "X52",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 810,
+      "operation": [
+        "ADD",
+        "X53",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 811,
+      "operation": [
+        "ADD",
+        "X54",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 812,
+      "operation": [
+        "ADD",
+        "X55",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 813,
+      "operation": [
+        "ADD",
+        "X56",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 814,
+      "operation": [
+        "ADD",
+        "X57",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 815,
+      "operation": [
+        "ADD",
+        "X58",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 816,
+      "operation": [
+        "ADD",
+        "X66",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 817,
+      "operation": [
+        "ADD",
+        "X68",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 818,
+      "operation": [
+        "ADD",
+        "X69",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 819,
+      "operation": [
+        "ADD",
+        "X70",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 820,
+      "operation": [
+        "ADD",
+        "X71",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 821,
+      "operation": [
+        "ADD",
+        "X72",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 822,
+      "operation": [
+        "ADD",
+        "X96",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 823,
+      "operation": [
+        "ADD",
+        "X97",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 824,
+      "operation": [
+        "ADD",
+        "X98",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 825,
+      "operation": [
+        "ADD",
+        "X99",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 826,
+      "operation": [
+        "ADD",
+        "X100",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 827,
+      "operation": [
+        "ADD",
+        "X101",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 828,
+      "operation": [
+        "ADD",
+        "X102",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 829,
+      "operation": [
+        "ADD",
+        "X103",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 830,
+      "operation": [
+        "ADD",
+        "X104",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 831,
+      "operation": [
+        "ADD",
+        "X105",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 832,
+      "operation": [
+        "ADD",
+        "X106",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 833,
+      "operation": [
+        "ADD",
+        "X107",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 834,
+      "operation": [
+        "ADD",
+        "X108",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 835,
+      "operation": [
+        "ADD",
+        "X109",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 836,
+      "operation": [
+        "ADD",
+        "X110",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 839,
+      "operation": [
+        "ADD",
+        "X5",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 840,
+      "operation": [
+        "ADD",
+        "X13",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 841,
+      "operation": [
+        "ADD",
+        "X47",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 842,
+      "operation": [
+        "ADD",
+        "X51",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 843,
+      "operation": [
+        "ADD",
+        "X52",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 844,
+      "operation": [
+        "ADD",
+        "X53",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 845,
+      "operation": [
+        "ADD",
+        "X54",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 846,
+      "operation": [
+        "ADD",
+        "X55",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 847,
+      "operation": [
+        "ADD",
+        "X56",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 848,
+      "operation": [
+        "ADD",
+        "X57",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 849,
+      "operation": [
+        "ADD",
+        "X58",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 850,
+      "operation": [
+        "ADD",
+        "X81",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 851,
+      "operation": [
+        "ADD",
+        "X82",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 852,
+      "operation": [
+        "ADD",
+        "X83",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 853,
+      "operation": [
+        "ADD",
+        "X84",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 854,
+      "operation": [
+        "ADD",
+        "X85",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 855,
+      "operation": [
+        "ADD",
+        "X86",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 856,
+      "operation": [
+        "ADD",
+        "X87",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 857,
+      "operation": [
+        "ADD",
+        "X88",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 858,
+      "operation": [
+        "ADD",
+        "X89",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 859,
+      "operation": [
+        "ADD",
+        "X90",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 860,
+      "operation": [
+        "ADD",
+        "X91",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 861,
+      "operation": [
+        "ADD",
+        "X92",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 862,
+      "operation": [
+        "ADD",
+        "X93",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 863,
+      "operation": [
+        "ADD",
+        "X94",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 864,
+      "operation": [
+        "ADD",
+        "X95",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 865,
+      "operation": [
+        "ADD",
+        "X96",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 866,
+      "operation": [
+        "ADD",
+        "X97",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 867,
+      "operation": [
+        "ADD",
+        "X98",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 868,
+      "operation": [
+        "ADD",
+        "X99",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 869,
+      "operation": [
+        "ADD",
+        "X100",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 870,
+      "operation": [
+        "ADD",
+        "X101",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_mode_input",
+      "operation_index": 871,
+      "operation": [
+        "ADD",
+        "X102",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_common_descent",
+      "operation_index": 684,
+      "operation": [
+        "MOVE",
+        "CANONICAL9_MODE_15",
+        "M1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_common_descent",
+      "operation_index": 718,
+      "operation": [
+        "MOVE",
+        "CANONICAL9_MODE_35",
+        "M1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_common_descent",
+      "operation_index": 755,
+      "operation": [
+        "MOVE",
+        "CANONICAL9_MODE_13",
+        "M1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_common_descent",
+      "operation_index": 798,
+      "operation": [
+        "MOVE",
+        "CANONICAL9_MODE_1",
+        "M1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_common_descent",
+      "operation_index": 837,
+      "operation": [
+        "MOVE",
+        "CANONICAL9_MODE_2",
+        "M1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "actual_common_descent",
+      "operation_index": 872,
+      "operation": [
+        "MOVE",
+        "CANONICAL9_MODE_0",
+        "M1"
+      ],
+      "rejection": "partial endpoints pass; declared actual source rejects"
+    },
+    {
+      "kind": "owned_retirement",
+      "operation_index": 1099,
+      "operation": [
+        "CLEAR",
+        "CANONICAL_NATIVE_RAW_15"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "owned_retirement",
+      "operation_index": 1100,
+      "operation": [
+        "CLEAR",
+        "CANONICAL_NATIVE_RAW_31"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "owned_retirement",
+      "operation_index": 1101,
+      "operation": [
+        "CLEAR",
+        "CANONICAL_NATIVE_RAW_53"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "owned_retirement",
+      "operation_index": 1102,
+      "operation": [
+        "CLEAR",
+        "CANONICAL_NATIVE_RAW_54"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "owned_retirement",
+      "operation_index": 1103,
+      "operation": [
+        "CLEAR",
+        "CANONICAL_NATIVE_RAW_57"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "owned_retirement",
+      "operation_index": 1104,
+      "operation": [
+        "CLEAR",
+        "CANONICAL_NATIVE_RAW_58"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "owned_retirement",
+      "operation_index": 1105,
+      "operation": [
+        "CLEAR",
+        "CANONICAL9_MODE_15"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "owned_retirement",
+      "operation_index": 1106,
+      "operation": [
+        "CLEAR",
+        "CANONICAL9_MODE_35"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "owned_retirement",
+      "operation_index": 1107,
+      "operation": [
+        "CLEAR",
+        "CANONICAL9_MODE_13"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "owned_retirement",
+      "operation_index": 1108,
+      "operation": [
+        "CLEAR",
+        "CANONICAL9_MODE_1"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "owned_retirement",
+      "operation_index": 1109,
+      "operation": [
+        "CLEAR",
+        "CANONICAL9_MODE_2"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    },
+    {
+      "kind": "owned_retirement",
+      "operation_index": 1110,
+      "operation": [
+        "CLEAR",
+        "CANONICAL9_MODE_0"
+      ],
+      "rejection": "native geometry, endpoint or ownership rejects"
+    }
+  ],
+  "mode_basis_names": [
+    "ZFIRST3",
+    "ZFIRST4",
+    "ZFIRST5",
+    "CANONICAL9_MODE_15",
+    "CANONICAL9_MODE_35",
+    "CANONICAL9_MODE_13",
+    "CANONICAL9_MODE_1",
+    "CANONICAL9_MODE_2",
+    "CANONICAL9_MODE_0"
+  ],
+  "independent_minor_input_columns": [
+    58,
+    87,
+    95,
+    101,
+    102,
+    106,
+    108,
+    109,
+    110
+  ],
+  "invertible_minor_rows_hex": [
+    "0x1fa",
+    "0x15a",
+    "0xa4",
+    "0x9c",
+    "0x56",
+    "0x1ec",
+    "0x1e7",
+    "0x1f9",
+    "0x1f"
+  ],
+  "canonical_111_by9_coefficients_hex": [
+    "0x100",
+    "0x40",
+    "0x80",
+    "0x1c0",
+    "0x1",
+    "0x141",
+    "0x181",
+    "0xc1",
+    "0xa1",
+    "0x1a6",
+    "0x61",
+    "0x1e7",
+    "0xe0",
+    "0x20",
+    "0x4f",
+    "0x8",
+    "0x188",
+    "0x1cf",
+    "0x109",
+    "0x14e",
+    "0xce",
+    "0x89",
+    "0x1a9",
+    "0xae",
+    "0x1ee",
+    "0xe9",
+    "0x2f",
+    "0x128",
+    "0x68",
+    "0x16f",
+    "0x111",
+    "0x196",
+    "0xd6",
+    "0x51",
+    "0x97",
+    "0x10",
+    "0x150",
+    "0x1d7",
+    "0x37",
+    "0x130",
+    "0xb0",
+    "0x1b7",
+    "0x171",
+    "0x76",
+    "0x1f6",
+    "0xf1",
+    "0x199",
+    "0x1de",
+    "0x11e",
+    "0xdf",
+    "0x58",
+    "0x1f",
+    "0x139",
+    "0x79",
+    "0x17e",
+    "0xb9",
+    "0x1be",
+    "0xfe",
+    "0x1f9",
+    "0x4c",
+    "0x4a",
+    "0x10c",
+    "0x1ca",
+    "0x1cc",
+    "0x8c",
+    "0x8a",
+    "0xec",
+    "0x2c",
+    "0x12b",
+    "0x1ed",
+    "0xea",
+    "0x2a",
+    "0x12d",
+    "0x45",
+    "0x2",
+    "0x182",
+    "0x1c5",
+    "0x43",
+    "0x4",
+    "0x184",
+    "0x1c3",
+    "0x163",
+    "0x124",
+    "0x23",
+    "0x165",
+    "0x62",
+    "0x122",
+    "0x25",
+    "0x1db",
+    "0x15c",
+    "0x1c",
+    "0x9b",
+    "0x1dd",
+    "0x15a",
+    "0x1a",
+    "0x9d",
+    "0x3d",
+    "0x13a",
+    "0xba",
+    "0x1bd",
+    "0x3b",
+    "0x13c",
+    "0xbc",
+    "0xd3",
+    "0x94",
+    "0x54",
+    "0x13",
+    "0xd5",
+    "0x92",
+    "0x52",
+    "0x15"
+  ],
+  "quantified_identity": "For every F2 vector space V and all111 independent x_i in V, the actual9 fields span every canonical row K_i restricted to U. The binary matrix identity and invertible9x9 minor certify this uniformly; no enumeration of input assignments is used.",
+  "scope": "Physical source contract, not physical receiver decoding. Globally granting the9 modes and every raw geometric local yields all111 algebraic outputs; those grants are not supplied by this word. Frozen-cut completion remains a separate priced obligation."
+}

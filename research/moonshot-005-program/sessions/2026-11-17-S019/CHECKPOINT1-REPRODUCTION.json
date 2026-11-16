@@ -1,0 +1,105 @@
+{
+  "status": "PASS_S019_CP1_FRESH_REPRODUCTION",
+  "scope": "Five new review/gate checks; not a claim to rerun every inherited primitive invoice.",
+  "checks": [
+    {
+      "name": "C-native",
+      "status": "PASS_INDEPENDENT_RECOVERED_BIT_REPLAY_AND_CANONICAL_SOURCE_CUT",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint1-evidence/C/portable/audit_cp6.py",
+      "script_sha256": "e975bdc474ddd239ab7c302b186123fa2c9fbe796ac7a206705ef26d0d86c0ff",
+      "result_sha256": "92af4e674b9b14f570ca5fe4b51bd101f11bbfb2a8123eef5cb5e0e7f68c7f53",
+      "frozen_receipt_json_equal": true,
+      "command": [
+        "python",
+        "-B",
+        "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint1-evidence/C/portable/audit_cp6.py",
+        "--repo",
+        "/workspace/scratch/a40953eee9d0/programme",
+        "--evidence",
+        "/workspace/scratch/a40953eee9d0/programme/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence",
+        "--out",
+        "/workspace/scratch/a40953eee9d0/cp1-reproduction/C"
+      ]
+    },
+    {
+      "name": "C-static",
+      "status": "PASS_FRESH_STATIC_DUALS_AND_ALL_NAMED_RESET_COVARIANCE",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint1-evidence/C/portable/audit_static.py",
+      "script_sha256": "3f39f5d1f310438736494481611494242afd78c9cad28aa1e3d5618a93e6f159",
+      "result_sha256": "6ca2f7befcd4ec02e46496cfc88ebc086c8904e3a5ebcb55d6457e3e5be438af",
+      "frozen_receipt_json_equal": true,
+      "command": [
+        "python",
+        "-B",
+        "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint1-evidence/C/portable/audit_static.py",
+        "--repo",
+        "/workspace/scratch/a40953eee9d0/programme",
+        "--evidence",
+        "/workspace/scratch/a40953eee9d0/programme/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence",
+        "--out",
+        "/workspace/scratch/a40953eee9d0/cp1-reproduction/C"
+      ]
+    },
+    {
+      "name": "C-entropy",
+      "status": "PASS_INDEPENDENT_EXPANDED_NONLINEAR_PETERSEN_GATE",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint1-evidence/C/portable/review_nonlinear.py",
+      "script_sha256": "7269d0286dff0cca932c0c993e51d3b2aad1731741ead9ff740375c78799aa87",
+      "result_sha256": "928be2a49824132104817254a8dcc882ccf1b9dd74e0d2653ae4f3c9837b3ae6",
+      "frozen_receipt_json_equal": true,
+      "command": [
+        "python",
+        "-B",
+        "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint1-evidence/C/portable/review_nonlinear.py",
+        "--repo",
+        "/workspace/scratch/a40953eee9d0/programme",
+        "--evidence",
+        "/workspace/scratch/a40953eee9d0/programme/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence",
+        "--dual",
+        "/workspace/scratch/a40953eee9d0/programme/research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint1-evidence/R/PETERSEN-SHORT-DUAL.json",
+        "--out",
+        "/workspace/scratch/a40953eee9d0/cp1-reproduction/C"
+      ]
+    },
+    {
+      "name": "B-complex",
+      "status": "PASS_INDEPENDENT_CP6_COMPLEX_LOGIC_AND_LITERAL_CONTROLS",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint1-evidence/B/cp6-independent-review/check.py",
+      "script_sha256": "0b7787424debe2fae4315ff48d537a51c8c8fd5f91da06c8a28d3eb63c448063",
+      "result_sha256": "719fdff0e7f31886fd96da2c69be4cbbd08eb4649620319952ace721982b4852",
+      "frozen_receipt_json_equal": true,
+      "command": [
+        "python",
+        "-B",
+        "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint1-evidence/B/cp6-independent-review/check.py",
+        "--repo",
+        "/workspace/scratch/a40953eee9d0/programme",
+        "--evidence",
+        "/workspace/scratch/a40953eee9d0/programme/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence",
+        "--out",
+        "/workspace/scratch/a40953eee9d0/cp1-reproduction/B-RESULT.json"
+      ]
+    },
+    {
+      "name": "R-entropy",
+      "status": "PASS_EXACT_NONLINEAR_NINE_DESCENT_GATE",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint1-evidence/R/check_petersen_gate.py",
+      "script_sha256": "38ea4412a662faa79795c77ca3320d9a8aeb43fcdb7a70ee723cd138cd6b4169",
+      "result_sha256": "e4c4f521740c3668288a7a4772f5aad2093be87da1ba09d404cb5d5196a0e7f0",
+      "frozen_receipt_json_equal": true,
+      "command": [
+        "python",
+        "-B",
+        "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint1-evidence/R/check_petersen_gate.py",
+        "--repo",
+        "/workspace/scratch/a40953eee9d0/programme",
+        "--word",
+        "/workspace/scratch/a40953eee9d0/programme/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence/A/local-canonical9-source/WORD.json",
+        "--dual",
+        "/workspace/scratch/a40953eee9d0/programme/research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint1-evidence/R/PETERSEN-SHORT-DUAL.json",
+        "--out",
+        "/workspace/scratch/a40953eee9d0/cp1-reproduction/R-RESULT.json"
+      ]
+    }
+  ]
+}

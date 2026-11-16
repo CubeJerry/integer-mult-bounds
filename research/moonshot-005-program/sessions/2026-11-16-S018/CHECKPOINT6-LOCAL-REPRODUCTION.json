@@ -1,0 +1,98 @@
+{
+  "status": "PASS_S018_CHECKPOINT6_EARLY_ACQUISITION_SUPPLEMENT",
+  "commands": [
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence/A/build_local_canonical_source.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--work",
+        "$REPO/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence",
+        "--out",
+        "$OUT/local-source"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence/A/check_local_canonical_source.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--work",
+        "$REPO/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence",
+        "--word",
+        "$OUT/local-source/WORD.json",
+        "--out",
+        "$OUT/local-source/CONTROLS.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence/C/review_local_canonical9_source.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--work",
+        "$REPO/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence",
+        "--out",
+        "$OUT/local-review"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence/R/local-canonical-review/check.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--word",
+        "$REPO/research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence/A/local-canonical9-source/WORD.json",
+        "--out",
+        "$OUT/local-root.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence/B/check_pure_prefix_image_gate-v3.py",
+      "args": [
+        "--repo",
+        "$REPO",
+        "--out",
+        "$OUT/pure-v3.json"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "byte_comparisons": [
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence/A/local-canonical9-source/WORD.json",
+      "sha256": "3643c6db33ce5ed1ea61724b126a8a3cad28be0c728376193b1f11fbf0457565",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence/A/local-canonical9-source/RESULT.json",
+      "sha256": "288e50370a409978d02d2f5f19f5501df96c25cea2ab9ebf2f7a826e5b533b29",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence/A/local-canonical9-source/CONTROLS.json",
+      "sha256": "a6ebd5ee69cbe5df148b052cfe37e134df7958cc9cb12d9264c31eca8e447bb0",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence/C/local-canonical9-source-review/RESULT.json",
+      "sha256": "c9272de594dd3ce35605a7a84609a9b99976e4ee5cf6c7e46d69412b76b95fbe",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence/R/local-canonical-review/RESULT.json",
+      "sha256": "9c9a03398cf042ea2dd2fd3496b9f549187888a0d301f8451d9c1e6c421db89e",
+      "byte_identical": true
+    },
+    {
+      "frozen": "research/moonshot-005-program/sessions/2026-11-16-S018/checkpoint6-evidence/B/PURE-PREFIX-IMAGE-RESULT-v3.json",
+      "sha256": "83bff75441226635ccfaf75dd4a2d49f10ea3dc8ce48d3138f550a7bfe55d4e6",
+      "byte_identical": true
+    }
+  ],
+  "scope": "Exact early F74 acquisition with actual raw48/native63/nine canonical modes, independent native and proof reviews,417 author omission controls, retained8-descent floor now below allowance, plus v3 proof-bound2048 complex controls. No physical63-receiver completion or kappa."
+}
