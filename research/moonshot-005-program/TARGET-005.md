@@ -10,6 +10,12 @@ The complex three-common-body optimistic (3,2,2) profile has margin0.56100733960
 
 The earlier numerical screens remain in the [archived blueprint](sessions/2026-11-16-S016/logical-records-before-cp5/TARGET-005.md). No new complete κ.
 
+## Checkpoint6 interface constraints
+
+A rank9V star survives deleting the actual E6. Any static eight-field linear common code therefore fails, regardless of its chosen basis. A successful eight-principal continuation needs real nonlocal receiver information, a changed grant/packet budget, or another proved interface. This does not extend static bounds to free later feedback or nonlinear common encoders.
+
+Inverse heads have explicit four-table/two-phase/two-role-swap wrappers; literal full-body inversion additionally owes two body translations. Two native calls still have total head rank<=4 and complete price deficit>=2(1-(8^t-7^t))>0. Three calls remain the first current no-query inventory; fixed literal/canonical endpoints are excluded, while free endpoint gauges and mixed orientations remain open. These are proof constraints, not altered tariffs.
+
 ## 1. Strict supplier conditions
 
 The retained nine outer rows require compatible uniform complex U>1/200 and completed ordinary BIT B>1/200. Equality is insufficient. The historical a/(1+a) conversion is not this mixed assembly's rule.

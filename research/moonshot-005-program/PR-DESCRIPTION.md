@@ -8,6 +8,10 @@ The nonlinear complex programme now has a determinant-deformation obstruction co
 
 **No new κ.** Both strict suppliers,96 remaining BIT outputs, complete recursion and all five foundations remain open. Ongoing cumulative programme, not PR-ready. @CubeJerry and predecessor credit, OpenAI assistance, exact cost accounting and negative controls are retained. Current base checkpoint79658dea2624d4a8eef2f7fb0d1cbf6a2f464282; canonical main e54523517d0f03e58352e647c403a5af3e525a57.
 
+## Checkpoint6: inverse capability and exact interface constraints
+
+An archived native star now excludes any static eight-field linear ground code with the actual six raw grants. Exact inverse-native wrappers expand the complex construction grammar while retaining width phases and fresh/full-body costs. The two-native head bound extends beyond finite Clifford groups, and full ordinary-coset certificates exclude two literal three-call endpoints. Independent proofs and six reproduction commands are in the two new admission packages. These constrain the next actual nonlocal/clocked construction; they establish no new κ and do not make the branch PR-ready.
+
 ## Earlier S016 extension: acquisition and its limits
 
 Actual cross-chart four/six source words, a source-aware early-helper lift,

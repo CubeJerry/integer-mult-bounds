@@ -10,6 +10,10 @@ This change adds0.00220925086613... movement. The full partial moment is1614.007
 
 Its159 actual principal observations span rank66 containing W15 and C9. Even optimistic stationary capture reaches only the15 delivered outputs. The24 ground-compatible points form a closed raw-feedback set. The next construction needs new coded information, nonlocal receiver access, or coordinated changes to source/cache payloads and preloads. History span alone is not delivery.
 
+## Checkpoint6: the necessary change of information interface
+
+The [actual-six-grant puncture](results/bit-actual-six-grant-puncture/ADMISSION.md) reuses an admitted native star to exclude ANY eight linear ground fields plus E6 with only geometric raw receiver data. Merely replacing U8 is insufficient in that static interface. A concrete two-cell candidate now aims to retain a nonlocal coded value at a native line while preserving existing endpoints; construction and placement checks are pending.
+
 ## Complementary complex construction
 
 The costed fixed-monomial bridge admits nonlinear Boolean-sign sources with four projective types at every width and exact Gaussian square/cube forms. A [determinant deformation](results/complex-rank-degree-gate/ADMISSION.md) excludes single-sector and adjacent clean-transport callers under fixed-template hypotheses: three native calls deliver total head rank6, which loses under the complete common-body invoice. The actual quarter-phase clock breaks this grading. Role-dependent clocks and native orientations are active alternatives; no profitable caller is established.
@@ -29,3 +33,7 @@ Prior constructions, obstructions, source pins and credits remain in [REGISTERED
 ## Continuity and success
 
 Resume exact remote HEAD, STATE and OBLIGATIONS; maintain one permanent branch, independent reviews and regular non-force-pushed checkpoints. Success means a complete compatible conditional κ>=.005 theorem with every premise retained and every expense paid. Unconditional success additionally resolves the foundations. This is an ongoing research programme, not yet PR-ready.
+
+## Admitted inverse capability and remaining complex count
+
+[Exact inverse-native wrappers](results/complex-inverse-native-coset/ADMISSION.md) are proved for all four source heads with paid width phases and body distinctions. The strengthened two-native theorem gives totalH<=4 and complete common-body loss without assuming a finite nonordinary group. Two exact three-call endpoints also fail full ordinary-coset certificates; free outer gauges and mixed orientations remain outside that boundary gate. The next actual caller uses three natives with clocks/inverses. No complete positive supplier is claimed.

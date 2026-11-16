@@ -1,0 +1,52 @@
+{
+  "status": "PASS_EXACT_FIXED_BOUNDARY_RIGHT_COSET_LEFT_INVERSES",
+  "cases": 8,
+  "equations": [
+    5,
+    11,
+    5,
+    11,
+    5,
+    11,
+    5,
+    11
+  ],
+  "left_inverse_identity": "E C=I_3 in the exact ordinary monomial group algebra, hence every tensor phase sector",
+  "scope": "Fixed two endpoints per source; arbitrary ordinary input vector; all sufficiently large faithful widths; not arbitrary endpoint gauges",
+  "negative_controls": [
+    {
+      "mask": 128,
+      "rank222_middle_has_ordinary_kernel_column": 1,
+      "unit_pivots": [
+        0,
+        2
+      ]
+    },
+    {
+      "mask": 64,
+      "rank222_middle_has_ordinary_kernel_column": 1,
+      "unit_pivots": [
+        0,
+        2
+      ]
+    },
+    {
+      "mask": 112,
+      "rank222_middle_has_ordinary_kernel_column": 1,
+      "unit_pivots": [
+        0,
+        2
+      ]
+    },
+    {
+      "mask": 176,
+      "rank222_middle_has_ordinary_kernel_column": 1,
+      "unit_pivots": [
+        0,
+        2
+      ]
+    }
+  ],
+  "width1_ordinary_matrix_units": 64,
+  "new_kappa": false
+}

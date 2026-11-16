@@ -1,0 +1,119 @@
+{
+  "status": "PASS_INDEPENDENT_INVERSE_AND_COSET_REVIEW",
+  "engine_sha256": "a21f21c4f3f0f0ed76622c413c2f1ca06d18ee9280cf91983da0c8626e1c06d7",
+  "certificate_sha256": "c20509f30f3b0f756bbd219388a8630002dbf0ed001517776070146872d1295b",
+  "inverse_tables": [
+    {
+      "mask": 128,
+      "input_phase": [
+        0,
+        2,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "involution": true,
+      "inverse_phase": "-i"
+    },
+    {
+      "mask": 64,
+      "input_phase": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "involution": true,
+      "inverse_phase": "-i"
+    },
+    {
+      "mask": 112,
+      "input_phase": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2
+      ],
+      "involution": true,
+      "inverse_phase": "-i"
+    },
+    {
+      "mask": 176,
+      "input_phase": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      "involution": true,
+      "inverse_phase": "-i"
+    }
+  ],
+  "fixed_boundary_cases": [
+    {
+      "mask": 128,
+      "endpoint": "literal",
+      "coset_equations": 5,
+      "formal_left_inverse": true
+    },
+    {
+      "mask": 128,
+      "endpoint": "canonical",
+      "coset_equations": 11,
+      "formal_left_inverse": true
+    },
+    {
+      "mask": 64,
+      "endpoint": "literal",
+      "coset_equations": 5,
+      "formal_left_inverse": true
+    },
+    {
+      "mask": 64,
+      "endpoint": "canonical",
+      "coset_equations": 11,
+      "formal_left_inverse": true
+    },
+    {
+      "mask": 112,
+      "endpoint": "literal",
+      "coset_equations": 5,
+      "formal_left_inverse": true
+    },
+    {
+      "mask": 112,
+      "endpoint": "canonical",
+      "coset_equations": 11,
+      "formal_left_inverse": true
+    },
+    {
+      "mask": 176,
+      "endpoint": "literal",
+      "coset_equations": 5,
+      "formal_left_inverse": true
+    },
+    {
+      "mask": 176,
+      "endpoint": "canonical",
+      "coset_equations": 11,
+      "formal_left_inverse": true
+    }
+  ],
+  "two_native_formal_block_expansion": true,
+  "scope": "Fixed tables and eventual tensor-faithful algebra; no profitable caller or new kappa"
+}

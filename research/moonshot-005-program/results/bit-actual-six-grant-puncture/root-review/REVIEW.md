@@ -1,0 +1,7 @@
+# Independent review of the actual-six-grant puncture
+
+Root reviewed the application of the already admitted all-field block-star theorem and independently checked the pinned native geometry. The eight point roles avoid the actual E={1,6,73,75,77,79}. All27 retained edge roles have exactly their two stated contacts, every incident edge pair is nonorthogonal, and degrees are[6,7,7,7,6,7,7,7]. The inherited star inequality therefore applies without a scalar-field extrapolation. The restricted canonical binary code has rank9, giving equality9V in characteristic two.
+
+Setting the six granted coordinates to zero reduces any eight-width linear ground code to rank at most8V on the105 remaining inputs. Arbitrary exact decoders of those linear observations do not evade row-span factorization: a target not in the row span varies along a measurement kernel. This contradicts the inherited9V minimum. Original Y nuisance inputs may be fixed identically; they cannot repair the contradiction.
+
+This is a new exact application and compatible reuse of the archived certificate, not a new proof of the credited star theorem. It does not assume S6/S8/U8, but it does assume static common linear measurements and only geometric raw receiver side information. New nonlocal histories, additional channels, nonlinear common encoders, changed grants and later free feedback remain outside. All current partial endpoints remain valid. No new kappa; independent agent review, not human/formal acceptance.

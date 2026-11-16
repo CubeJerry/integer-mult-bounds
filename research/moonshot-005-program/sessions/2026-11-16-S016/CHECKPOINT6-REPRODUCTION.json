@@ -1,0 +1,85 @@
+{
+  "status": "PASS_CP6_REPRODUCTION",
+  "commands": [
+    {
+      "name": "fixed-boundary",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/cp6-reproduction/fixed-boundary/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "star-author",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-actual-six-grant-puncture/author/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--source",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-actual-six-grant-puncture/author/SOURCE.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp6-reproduction/star-author"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "star-root",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-actual-six-grant-puncture/root-review/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme",
+        "--source",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/bit-actual-six-grant-puncture/author/SOURCE.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp6-reproduction/star-root.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "complex-root",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-inverse-native-coset/root-review/check.py",
+        "--engine",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-boolean-sign-family/root-review/check.py",
+        "--certificates",
+        "/workspace/scratch/6e036830f982/programme/research/moonshot-005-program/results/complex-inverse-native-coset/fixed-boundary/CERTIFICATES.json",
+        "--out",
+        "/workspace/scratch/6e036830f982/cp6-reproduction/complex-root.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "inverse",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/cp6-reproduction/inverse/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "two-native",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/6e036830f982/cp6-reproduction/two-native/check.py",
+        "--repo",
+        "/workspace/scratch/6e036830f982/programme"
+      ],
+      "returncode": 0
+    }
+  ],
+  "byte_identical_author_results": 3,
+  "byte_identical_coset_certificate": true
+}

@@ -22,6 +22,14 @@ The four-direction static code bound is a necessary information requirement for 
 | COMPLEX-RANK-DEGREE | **Proved in scope.** Fixed finite rank-by-path-length K(a)Q1K(a)Q2K(a) templates with invertible three-bank endpoints have head sum6 and lose under the full common-body price for all0<t<1. | [Deformation](results/complex-rank-degree-gate/ADMISSION.md); clock/orientation changes outside. |
 | COMPLEX-CLOCK | **Proved capability.** Actual paid quarter-phase clock collapses A H A to ordinary-A-ordinary at every width. | Same package; no profitable complete caller follows. |
 
+## Checkpoint6 admissions and next structural lemma
+
+- **BIT-ACTUAL-E6-RANK9-FLOOR / proved:** every field and width V; the105-role puncture has rank floor9V, attained in characteristic two. Arbitrary eight linear ground fields plus E6 fail static raw-local decoding. [Application and review](results/bit-actual-six-grant-puncture/ADMISSION.md).
+- **BIT-TWO-CELL-NONLOCAL / open:** realize the proposed retained C0 value followed by a retained nonlocal line value, preserving all old endpoints/restoration; then test all arbitrary-puncture and kernel-visibility requirements before scaling. This changes the receiver information interface, not merely a preload basis.
+- **COMPLEX-INVERSE-NATIVE / proved algebraically, physical lowering conditional:** exact four-source T inversion and native orientation swap with all phase/body costs.
+- **COMPLEX-NONCLIFFORD-TWO-NATIVE / proved in scope:** full fixed monomial tensor algebra, independent Gaussian endpoints, all retained roles, totalH<=4 and complete common-body loss. No finite nonordinary group required.
+- **COMPLEX-FIXED-BOUNDARY / proved in scope:** two exact three-call endpoints, four sources, zero ordinary preimage at eventually faithful width; arbitrary outer gauges outside. [All complex proofs and review](results/complex-inverse-native-coset/ADMISSION.md).
+
 ## Complete theorem and foundational dependencies
 
 **COMPLEX-NONLINEAR-CALLER — open.** Construct a fixed uniform actual native caller outside the admitted clean-transport gates, with independent exact Gaussian endpoints, all original banks retained, and a complete favorable price at saving strictly above1/200. Role-dependent clocks and native orientations are current candidates. Required dependencies: paid fixed monomials, exact source normal forms, complete body/idle/query invoice, precision and recursion. Finite word scans are not universal obstructions or supplier proofs.

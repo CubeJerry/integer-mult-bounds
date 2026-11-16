@@ -11,3 +11,7 @@ Next consequential step: a real coded acquisition/nonlocal receiver mechanism wi
 Complex: rank-degree gate closes clean single/adjacent-sector templates. Exact quarter-phase clocks escape grading. Worker B is reviewing inverse native capability and a stronger two-native coset gate; these are not admitted by checkpoint5. Continue toward a complete three-call caller after checking their proofs and actual N0/N2 orientation formulas.
 
 Preserve two scope corrections: full gauged canonical retention differs from a proper gauged-envelope fitting; static broadcast cut bounds do not automatically permit free later feedback. No new complete κ; five foundations and both strict suppliers remain. Programme ongoing, not PR-ready.
+
+## Checkpoint6 supersedes the pending-review items above
+
+Parentcb34adfb866e0d84a0f620c1ec9849168fe20a32. ActualE6 puncture floor, inverse-native capability, general fixed-interface two-native gate and two fixed-boundary coset certificates are now admitted with independent reviews. Two-cell nonlocal BIT retention and a four-bit complex source are active construction work, not admitted here. In every source audit include the already paid descending Q1/Q3/Q4 caches; ignoring their nonlocal values can create a false rank obstruction.
