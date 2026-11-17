@@ -108,6 +108,22 @@ coordinates only for information, and verifies87 unknowns. The exact17/2
 entropy witness still requires9 further descents, leaving27.315969428369...
 after their minimum charges. No old-cut locality or free input grant is used.
 
+## Exact fixed-column obstruction and finite-prefix compiler
+
+The [changed fixed-column gate](results/complex-anticommuting-fixed-column-gate/ADMISSION.md)
+proves that the current Cprime cancelling column cannot extend to an independent
+421 endpoint in the fixed-prefix/collective-tail model. Its quadratic cosets
+force ordinary coefficient rank6, exceeding actual one-bank capacity4.
+Exact minors i/64 and(1+i)/128 certify the gap. The positive interface remains
+valid; a different column or changed interface is required.
+
+The [Gaussian-dyadic prefix compiler](results/complex-gaussian-dyadic-prefix-compiler/ADMISSION.md)
+classifies M in GL_(bd)(Z[i,1/2]) under whole-bank ADD, unit SCALE and all
+root-four prefix MONOs: a fixed finite program exists iff d divides
+v_(1+i)(det M). It uses existing b>=2 arbitrary banks and works for every
+tail size. Restored borrowers, nonunit shear coefficients and Gaussian Euclid
+are explicit. The full compiler foundation and resource accounting remain open.
+
 ## Evidence, accounting and provenance
 
 Confirmed parent `2711b6c571e7eeda0b64b5966686b59e26c392cc`; canonical upstream last examined `e54523517d0f03e58352e647c403a5af3e525a57`. All changes

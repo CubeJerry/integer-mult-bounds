@@ -1,0 +1,220 @@
+{
+  "status": "PASS",
+  "theorem_scope": "R=Z[i,1/2], fixed finite d, b>=2 equal-prefix banks; exact unit SCALE/root-four MONO/whole-bank ADD; no extra bank",
+  "examples": [
+    {
+      "d": 2,
+      "banks": 2,
+      "word_length": 182,
+      "operations": {
+        "SCALE": 73,
+        "MONO": 73,
+        "ADD": 36
+      },
+      "determinant": [
+        "-2",
+        "0"
+      ],
+      "pi_valuation": 2,
+      "all_columns": 4,
+      "inverse_replayed": true,
+      "omitted_ADD_rejected": true
+    },
+    {
+      "d": 3,
+      "banks": 2,
+      "word_length": 142,
+      "operations": {
+        "SCALE": 57,
+        "MONO": 57,
+        "ADD": 28
+      },
+      "determinant": [
+        "1/4",
+        "-1/4"
+      ],
+      "pi_valuation": -3,
+      "all_columns": 6,
+      "inverse_replayed": true,
+      "omitted_ADD_rejected": true
+    },
+    {
+      "d": 4,
+      "banks": 3,
+      "word_length": 182,
+      "operations": {
+        "SCALE": 73,
+        "MONO": 73,
+        "ADD": 36
+      },
+      "determinant": [
+        "0",
+        "16"
+      ],
+      "pi_valuation": 8,
+      "all_columns": 12,
+      "inverse_replayed": true,
+      "omitted_ADD_rejected": true
+    }
+  ],
+  "paired_unit_normalizations": [
+    {
+      "coordinates": [
+        0,
+        1
+      ],
+      "operations": {
+        "SCALE": 120,
+        "MONO": 120,
+        "ADD": 60
+      },
+      "determinant_one": true
+    },
+    {
+      "coordinates": [
+        0,
+        4
+      ],
+      "operations": {
+        "SCALE": 36,
+        "MONO": 36,
+        "ADD": 18
+      },
+      "determinant_one": true
+    }
+  ],
+  "valuation_obstructions": [
+    {
+      "d": 2,
+      "diagonal_entry": [
+        "1",
+        "1"
+      ],
+      "pi_valuation": 1,
+      "invertible_over_R": true,
+      "compiler_obstruction": true
+    },
+    {
+      "d": 3,
+      "diagonal_entry": [
+        "1",
+        "1"
+      ],
+      "pi_valuation": 1,
+      "invertible_over_R": true,
+      "compiler_obstruction": true
+    },
+    {
+      "d": 4,
+      "diagonal_entry": [
+        "2",
+        "0"
+      ],
+      "pi_valuation": 2,
+      "invertible_over_R": true,
+      "compiler_obstruction": true
+    }
+  ],
+  "nonunit_coefficients_expanded_into_units": true,
+  "tail_identity_control_N": 2,
+  "euclidean_compilation": {
+    "matrix": [
+      [
+        [
+          "3",
+          "3"
+        ],
+        [
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "2",
+          "2"
+        ],
+        [
+          "1/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ]
+    ],
+    "unit_pivots": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    "elementary_factors": 27,
+    "literal_operations": {
+      "SCALE": 384,
+      "MONO": 384,
+      "ADD": 192
+    },
+    "all_columns": 4,
+    "inverse_replayed": true
+  },
+  "all_sizes_proved_in": "PROOF.md",
+  "finite_examples_are_not_exhaustive_classification": true
+}

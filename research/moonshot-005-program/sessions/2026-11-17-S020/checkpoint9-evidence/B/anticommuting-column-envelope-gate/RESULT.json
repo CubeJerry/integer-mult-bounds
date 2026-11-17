@@ -1,0 +1,166 @@
+{
+  "status": "PASS_FIXED_CPRIME_COLUMN_ENVELOPE_GATE",
+  "scope": "one specified cancelling column; fixed finite prefix-matrix/collective tail catalogue; no universal Cprime gate",
+  "prefix_dimension": 4,
+  "ordinary_quadratic_encoder_capacity": 4,
+  "exact_coset_envelope_rank": 6,
+  "source_coset_count": 3,
+  "coset_controls": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "relative_gaussian_rank": 2,
+      "relative_sha256": "c07b3d4e9d46581804f672ae25739c28fb3082ae4ad6a49a1efdb1223bb97301"
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "relative_gaussian_rank": 2,
+      "relative_sha256": "4c4aedeb03a2142906aa54f11b5eba4b93b76a9f5090bc48eac815f4758c71e8"
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "relative_gaussian_rank": 2,
+      "relative_sha256": "a810d83d9a8784a86998345396c094c47e07efeffd684a8affaf07d35b095462"
+    }
+  ],
+  "sigma_witnesses": [
+    {
+      "sigma_sign": 1,
+      "rank": 3,
+      "minor_rows": [
+        0,
+        1,
+        5
+      ],
+      "minor_columns": [
+        0,
+        2,
+        4
+      ],
+      "minor_determinant": [
+        "0",
+        "1/64"
+      ],
+      "minor_numerator": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            -2,
+            0
+          ]
+        ],
+        [
+          [
+            -2,
+            -2
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            -8,
+            -8
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "minor_denominator_power_of_two": 4
+    },
+    {
+      "sigma_sign": -1,
+      "rank": 3,
+      "minor_rows": [
+        0,
+        1,
+        2
+      ],
+      "minor_columns": [
+        0,
+        2,
+        4
+      ],
+      "minor_determinant": [
+        "1/128",
+        "1/128"
+      ],
+      "minor_numerator": [
+        [
+          [
+            4,
+            0
+          ],
+          [
+            -2,
+            0
+          ],
+          [
+            -2,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ]
+      ],
+      "minor_denominator_power_of_two": 4
+    }
+  ],
+  "exact_quadratic_column_identity": true,
+  "all_four_source_word_coefficients_reconstructed": true,
+  "positive_interface_preserved": true,
+  "new_kappa": false
+}

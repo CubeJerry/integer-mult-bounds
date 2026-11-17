@@ -2434,3 +2434,20 @@ restricted class-K floors and an endpoint-corrected relay bridge. Their exact
 heads and source-document hashes are recorded. Neither is adopted or treated
 as a discharged foundation. The complex fixed-column gate and Gaussian-dyadic
 prefix classification continue under independent review.
+
+
+## 2026-11-17-S020 — checkpoint9
+
+Confirmed parent `3632344f8bba3a67479494eecbffcedefdb23bd9`. Admitted the exact fixed-Cprime-column gate:
+three quadratic source cosets force rank6>capacity4, with exact minors
+i/64 and(1+i)/128. A independently reconstructs the full tensor-word source
+and reviews actual-projector faithfulness. The positive source remains valid;
+arbitrary changed columns are not excluded.
+
+Admitted the finite-prefix compiler iff d divides v_(1+i)(det M) over
+Z[i,1/2], using only existing b>=2 equal banks, whole-bank ADD, unit SCALE
+and full root-four prefix MONOs. Arbitrary helpers are restored. Nonunit
+shear coefficients, Gaussian Euclid and paired normalization are explicit.
+Root separately reviews the proof and replays literal primitives. Four
+checks/5 exact outputs pass with34 pins. No new complete κ or foundation
+discharge. Session work continues through08:06 UTC.

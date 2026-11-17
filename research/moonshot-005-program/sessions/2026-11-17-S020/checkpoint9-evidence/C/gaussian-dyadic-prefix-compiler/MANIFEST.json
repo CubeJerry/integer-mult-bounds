@@ -1,0 +1,11 @@
+{
+  "package": "S020-C-gaussian-dyadic-prefix-compiler",
+  "status": "FROZEN",
+  "files": {
+    "check.py": "5a75913c9f2f9f55fe33174802e3fa40b8e1358ccb3966ce6638eaab9b4ffedb",
+    "PROOF.md": "75636359ce7472f902f51f209f50c0e5e348646405c7fd3558f4325d80dae1b0",
+    "CERTIFICATE.json": "814672eb955c62713eabb46e123df9a99b9ea55a302762e4b9439e27bee5f620"
+  },
+  "reproduce": "python -B check.py --out CERTIFICATE.json",
+  "scope": "Fixed finite prefix, Gaussian-dyadic scalar units, full root-four prefix monomials, equal-width banks. General b>=2 theorem; no full compiler foundation claim."
+}

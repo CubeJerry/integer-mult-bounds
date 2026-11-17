@@ -1,6 +1,6 @@
 # Exact requirements for κ=1/200
 
-## Current interfaces — S020 checkpoint8
+## Current interfaces — S020 checkpoint9
 
 No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
 
@@ -33,6 +33,22 @@ audits56 current nonnative incidences, conditions the same16 actual source
 coordinates only for information, and verifies87 unknowns. The exact17/2
 entropy witness still requires9 further descents, leaving27.315969428369...
 after their minimum charges. No old-cut locality or free input grant is used.
+
+## Exact fixed-column obstruction and finite-prefix compiler
+
+The [changed fixed-column gate](results/complex-anticommuting-fixed-column-gate/ADMISSION.md)
+proves that the current Cprime cancelling column cannot extend to an independent
+421 endpoint in the fixed-prefix/collective-tail model. Its quadratic cosets
+force ordinary coefficient rank6, exceeding actual one-bank capacity4.
+Exact minors i/64 and(1+i)/128 certify the gap. The positive interface remains
+valid; a different column or changed interface is required.
+
+The [Gaussian-dyadic prefix compiler](results/complex-gaussian-dyadic-prefix-compiler/ADMISSION.md)
+classifies M in GL_(bd)(Z[i,1/2]) under whole-bank ADD, unit SCALE and all
+root-four prefix MONOs: a fixed finite program exists iff d divides
+v_(1+i)(det M). It uses existing b>=2 arbitrary banks and works for every
+tail size. Restored borrowers, nonunit shear coefficients and Gaussian Euclid
+are explicit. The full compiler foundation and resource accounting remain open.
 
 ## Retained exact supplier and accounting contracts
 

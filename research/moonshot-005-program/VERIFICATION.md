@@ -1,5 +1,27 @@
 # Verification ledger
 
+## S020 checkpoint9
+
+Confirmed parent `3632344f8bba3a67479494eecbffcedefdb23bd9`. Four focused checks reproduce5 outputs byte for
+byte against34 inherited dependencies authenticated at checkpoint8.
+[Validation](sessions/2026-11-17-S020/CHECKPOINT9-VALIDATION.json),
+[pins](sessions/2026-11-17-S020/SOURCE-PINS-CP9.json),
+[prior receipt](sessions/2026-11-17-S020/CHECKPOINT8-REMOTE-RECEIPT.json).
+
+A independently reconstructs the full complex source as tensor words,
+the three cosets and both minors. Its review derives the actual endpoint
+projector before class separation. Root independently reviews C's all-size
+compiler proof and replays source-restoring selectors, commutators and
+paired unit scales with separate arithmetic.
+
+```bash
+python -B research/moonshot-005-program/sessions/2026-11-17-S020/reproduce_cp9.py --repo . --out /tmp/moonshot-cp9
+```
+
+Python3.11+ and SymPy are required. Reexecution is not independent proof;
+finite matrix examples do not replace the all-size model arguments.
+No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The programme is ongoing and is not PR-ready.
+
 ## S020 checkpoint8
 
 Confirmed parent `2a04c0126e0aaee011c8d1b86b321524e4c54db1`. Four focused checks reproduce7 outputs byte for

@@ -1,6 +1,6 @@
 # Persistent programme toward κ=.005
 
-## Current frontier — S020 checkpoint8
+## Current frontier — S020 checkpoint9
 
 No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
 
@@ -80,6 +80,22 @@ coordinates only for information, and verifies87 unknowns. The exact17/2
 entropy witness still requires9 further descents, leaving27.315969428369...
 after their minimum charges. No old-cut locality or free input grant is used.
 
+## Exact fixed-column obstruction and finite-prefix compiler
+
+The [changed fixed-column gate](results/complex-anticommuting-fixed-column-gate/ADMISSION.md)
+proves that the current Cprime cancelling column cannot extend to an independent
+421 endpoint in the fixed-prefix/collective-tail model. Its quadratic cosets
+force ordinary coefficient rank6, exceeding actual one-bank capacity4.
+Exact minors i/64 and(1+i)/128 certify the gap. The positive interface remains
+valid; a different column or changed interface is required.
+
+The [Gaussian-dyadic prefix compiler](results/complex-gaussian-dyadic-prefix-compiler/ADMISSION.md)
+classifies M in GL_(bd)(Z[i,1/2]) under whole-bank ADD, unit SCALE and all
+root-four prefix MONOs: a fixed finite program exists iff d divides
+v_(1+i)(det M). It uses existing b>=2 arbitrary banks and works for every
+tail size. Restored borrowers, nonunit shear coefficients and Gaussian Euclid
+are explicit. The full compiler foundation and resource accounting remain open.
+
 ## Architecture and retained results
 
 The programme pursues complete chronological BIT delivery and a compatible
@@ -99,10 +115,10 @@ exact scopes in [REGISTERED-RESULTS](REGISTERED-RESULTS.json).
 
 ## Continuity
 
-Confirmed parent `2a04c0126e0aaee011c8d1b86b321524e4c54db1`; canonical upstream last examined `e54523517d0f03e58352e647c403a5af3e525a57`.
-S020 continues03:06–08:06 UTC. Four focused checks,7 exact outputs and32
+Confirmed parent `3632344f8bba3a67479494eecbffcedefdb23bd9`; canonical upstream last examined `e54523517d0f03e58352e647c403a5af3e525a57`.
+S020 continues03:06–08:06 UTC. Four focused checks,5 exact outputs and34
 inherited pins are recorded. Prior logical records are
-[archived](sessions/2026-11-17-S020/logical-records-before-cp8/PROGRAMME.md).
+[archived](sessions/2026-11-17-S020/logical-records-before-cp9/PROGRAMME.md).
 See [OBLIGATIONS](OBLIGATIONS.md), [VERIFICATION](VERIFICATION.md) and
 [CONTINUATION](CONTINUATION.md). The resulting SHA is confirmed separately;
 no upstream PR is submitted automatically.

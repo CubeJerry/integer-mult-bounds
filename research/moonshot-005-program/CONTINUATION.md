@@ -2,7 +2,7 @@
 
 Read the exact remote HEAD of `CubeJerry/integer-mult-bounds`, branch
 `research/moonshot-005-program`, then STATE, PROGRAMME, TARGET-005 and OBLIGATIONS.
-Checkpoint8's confirmed parent is `2a04c0126e0aaee011c8d1b86b321524e4c54db1`; its resulting SHA is confirmed
+Checkpoint9's confirmed parent is `3632344f8bba3a67479494eecbffcedefdb23bd9`; its resulting SHA is confirmed
 separately. No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
 
 ## Highest-priority constructive problem
@@ -45,17 +45,26 @@ an explicit ordinary right inverse. The literal Q0 column
 Cprime costs12/12/7 and Q0 costs80/152/120 ADD/SCALE/MONO each direction,
 including three paid prefix Hadamards and restored arbitrary borrowers.
 Uniform bounds and all184 literal ADD omissions are independently checked.
-The next complex task is whole-bank encoder containment and actual endpoint
-units for the surviving linear/quadratic column, then every other input
-column and the quartic job. A modular envelope screen is only discovery
-unless accompanied by an exact source-bound universal argument.
+The fixed changed column is now excluded by ordinary quadratic coefficient
+rank6>one-bank capacity4. Two exact minors and a separate full tensor-word
+reconstruction certify the obstruction. The actual endpoint projector comes
+from the alleged encoder/inverse; no free class projection is assumed. Do
+not retry completions of this same column. Change the column or interface.
+
+The local exact prefix compiler is classified: for R=Z[i,1/2], b>=2 equal
+banks with d fixed prefix coordinates and full root-four prefix MONOs,
+M in GL_(bd)(R) is realizable iff d divides v_(1+i)(det M). All arbitrary
+borrowers are restored. Nonunit shear coefficients, Gaussian Euclid and
+six-shear paired normalization are literal. The full compiler foundation
+and all resource charges remain open.
 
 Three native normalizations still add144/288/228; original-width target
 prefixes and every ordinary/body/precision/compiler/ownership/erasure/recursive
 cost remain charged. S020 continues03:06–08:06 UTC on2026-11-17, with final-quarter
-verification/integration active. Four checks,7 exact outputs and32 inherited
+verification/integration active. Four checks,5 exact outputs and34 inherited
 pins are recorded. Canonical main last examined is `e54523517d0f03e58352e647c403a5af3e525a57`; the final selective check found new PR7631 and7632, recorded as unadopted
-triage. The changed-column envelope gate and local prefix classification
-remain under independent review at this checkpoint. Protect updates with exact expected HEAD, never
+triage. Both the changed-column gate and the local prefix classification are
+independently verified. Further return-source and complementary-frame work
+remains under research/review. Protect updates with exact expected HEAD, never
 force-push, and submit no upstream PR automatically. No unconfigured work
 continues after the session.

@@ -1,0 +1,118 @@
+{
+  "status": "PASS_INDEPENDENT_PREFIX_COMPILER_PRIMITIVES",
+  "cross_and_internal_shears": [
+    {
+      "d": 2,
+      "row": 0,
+      "col": 3,
+      "coefficient": "3",
+      "literal_primitives": 20,
+      "ADD": 4,
+      "arbitrary_other_bank_restored": false
+    },
+    {
+      "d": 4,
+      "row": 1,
+      "col": 6,
+      "coefficient": "3/8 + 5*I/8",
+      "literal_primitives": 80,
+      "ADD": 16,
+      "arbitrary_other_bank_restored": false
+    },
+    {
+      "d": 4,
+      "row": 1,
+      "col": 3,
+      "coefficient": "3/8 + 5*I/8",
+      "literal_primitives": 200,
+      "ADD": 40,
+      "arbitrary_other_bank_restored": true
+    },
+    {
+      "d": 4,
+      "row": 2,
+      "col": 0,
+      "coefficient": "-3",
+      "literal_primitives": 120,
+      "ADD": 24,
+      "arbitrary_other_bank_restored": true
+    }
+  ],
+  "odd_dimension_two_term_selectors": [
+    {
+      "d": 3,
+      "row": 0,
+      "col": 5,
+      "literal_primitives": 40,
+      "all_columns_exact": true
+    },
+    {
+      "d": 3,
+      "row": 1,
+      "col": 2,
+      "literal_primitives": 100,
+      "all_columns_exact": true
+    }
+  ],
+  "paired_unit_diagonal": {
+    "unit": "1 + I",
+    "literal_primitives": 600,
+    "all_columns_exact": true,
+    "borrower_restored": true
+  },
+  "scalar_valuations": [
+    {
+      "scalar": "1 + I",
+      "valuation": 1
+    },
+    {
+      "scalar": "2",
+      "valuation": 2
+    },
+    {
+      "scalar": "1/2 - I/2",
+      "valuation": -1
+    },
+    {
+      "scalar": "I",
+      "valuation": 0
+    },
+    {
+      "scalar": "1/2",
+      "valuation": -2
+    }
+  ],
+  "determinant_obstruction": {
+    "d": 4,
+    "target": "diag(2,1,1,1) with arbitrary other banks restored",
+    "determinant_valuation": 2,
+    "divisible_by_d": false
+  },
+  "negative_controls": [
+    {
+      "d": 2,
+      "row": 0,
+      "col": 3,
+      "omitted_ADD": 2
+    },
+    {
+      "d": 4,
+      "row": 1,
+      "col": 6,
+      "omitted_ADD": 2
+    },
+    {
+      "d": 4,
+      "row": 1,
+      "col": 3,
+      "omitted_ADD": 2
+    },
+    {
+      "d": 4,
+      "row": 2,
+      "col": 0,
+      "omitted_ADD": 2
+    }
+  ],
+  "scope": "Finite exact primitive checks support the separate all-d proof; no general elimination implementation, physical compiler, or kappa claim."
+}

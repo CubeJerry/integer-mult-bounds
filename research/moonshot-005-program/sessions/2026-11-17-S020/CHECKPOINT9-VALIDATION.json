@@ -1,0 +1,54 @@
+{
+  "status": "PASS_S020_CHECKPOINT9_FOCUSED_REPRODUCTION",
+  "checks": [
+    {
+      "name": "fixed-column-gate",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint9-evidence/B/anticommuting-column-envelope-gate/check.py",
+      "script_sha256": "617349eba96f5a48e0df608a7ba281409fadd68582f43a930a1a5c5b60ebdeca",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-column-gate",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint9-evidence/A/anticommuting-gate-review/check.py",
+      "script_sha256": "233496ea42982838ddca0390d8e624f93e95dab2926b4f1b41dca201a4846069",
+      "exit_code": 0
+    },
+    {
+      "name": "prefix-compiler",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint9-evidence/C/gaussian-dyadic-prefix-compiler/check.py",
+      "script_sha256": "5a75913c9f2f9f55fe33174802e3fa40b8e1358ccb3966ce6638eaab9b4ffedb",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-prefix-compiler",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint9-evidence/R/prefix-compiler-review/check.py",
+      "script_sha256": "a00b45db4013367c9ddf71fe288ad97727fa758f57a8b26782ae7a1d1809e1a6",
+      "exit_code": 0
+    }
+  ],
+  "exact_reproductions": [
+    {
+      "path": "B/anticommuting-column-envelope-gate/RESULT.json",
+      "sha256": "bc2bb4eef88292995177aa345bba63d662a70f1b8fb6ccd4e7ed49ec0789f45c"
+    },
+    {
+      "path": "B/anticommuting-column-envelope-gate/MANIFEST.json",
+      "sha256": "0206d590887222cc165d54151f084c86cecef495aa12a8191d10ca3dc417dd9d"
+    },
+    {
+      "path": "A/anticommuting-gate-review/output/RESULT.json",
+      "sha256": "5bdad1eca3e4c6957df4f9c48be936c006ae22dca860d27f4a7ae9d37d7158d2"
+    },
+    {
+      "path": "C/gaussian-dyadic-prefix-compiler/CERTIFICATE.json",
+      "sha256": "814672eb955c62713eabb46e123df9a99b9ea55a302762e4b9439e27bee5f620"
+    },
+    {
+      "path": "R/prefix-compiler-review/output/RESULT.json",
+      "sha256": "39171cbfaebba8be3c034ab0d59245d1edbd3dee6334a521dde39d71a6d41792"
+    }
+  ],
+  "source_pins_sha256": "9a2fc8f5b9ef73568699fbb3b7072c113c63d74002660127efb4251d942d9560",
+  "independence": "A independently reconstructs the full source as exact tensor words and checks B fixed-column encoder obstruction. Root independently reviews the all-size prefix compiler proof and replays selector/commutator/paired-unit primitives with separate SymPy arithmetic. Reexecution is not independent proof.",
+  "new_complete_kappa": false
+}
