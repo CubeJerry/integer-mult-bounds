@@ -881,3 +881,11 @@ The six- and twelve-output words rebuild byte-for-byte. C independently replays 
 B's four complex packages are reproduced with their literal inverses and negative controls. Root separately implements exact matrix/primitive checks for the character, kernel and component gates. C's independent QQ(i) implementation checks the final D8 row-range and spectator package: all eight traces, both kernel factorizations, 20 Gaussian gauges, 54 omitted-ADD controls and all inverse invoices. Written all-width proofs are reviewed separately from these finite controls.
 
 Reproduction entry point: `sessions/2026-11-17-S019/reproduce_cp2.py`; exact result receipt: `CHECKPOINT2-REPRODUCTION.json` in that session. This is a focused new-evidence replay, not a fresh rerun of every inherited supplier suite. Prior quadratic facet-source and one-extra-code obstructions are credited as earlier results; their new budget applications do not become new universal geometry theorems. No new complete κ.
+
+## S019 checkpoint3 — useful low carriers and universal spectator gates
+
+Fourteen focused checks rebuild the interleaved and masked-Hub words byte-for-byte and replay their source contracts. C's independent interpreter checks all222 columns, chart custody, restoration and all392 live masked-source fields. Root and C separately check the eight-frame cut premise; the inherited downset theorem supplies the general argument. Author and independent omission controls remain separate. The explicit matching is reproducible input, not an optimality assumption.
+
+The two-bank identity is reviewed as a noncommutative identity and through independent exact matrix/primitive replay. C checks the S3 source tables,480 phase/support cases,18 support patterns, actual return coset and nonzero alternating sector. B independently reviews root's signed extension without presenting a rerun as independent proof. C separately reviews the nonregular D8 proof and literal controls. Exact hashes remain in manifests and the scientific index.
+
+Reproduction: `sessions/2026-11-17-S019/reproduce_cp3.py`; receipt `CHECKPOINT3-REPRODUCTION.json`. This14-check suite does not rerun every inherited result. Direct-known57/all54-low, static minrank and module-capacity results are next-wave work, not silently admitted here. No new complete κ.

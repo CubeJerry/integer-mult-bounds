@@ -1,23 +1,24 @@
 # Current proof-dependency map
 
-## Current frontier — S019 checkpoint2
+## Current frontier — S019 checkpoint3
 
-The current dependency chain is **actual earlier source → reversible carrier delivery → all 111 BIT endpoints and restoration → completed strict BIT supplier**, in parallel with **ordinary spectator kernels → independent complex (4,2,1) caller → strict uniform complex supplier**, followed by the retained complete assembly. None of the last three supplier/assembly arrows is established.
+The chain is **actual masked source with useful low originals → physical delivery and receiver routes → all111 endpoints/restoration → completed strict BIT supplier**. The complex chain is **ordinary spectator kernels → genuinely coupled caller or new endpoint profile → strict uniform complex supplier**. Full recursion and five foundations remain explicit later obligations.
 
-| Obligation, quantifiers and dependencies | Status | Next concrete action |
+| Obligation and quantifiers | Status | Remaining task |
 |---|---|---|
-| Common-meet and routed donor-pivot identities, all characteristic-two fields and whole-record widths, actual co-chart reads and restoration | Proved; two literal partial words, all 222 columns and full invoices independently checked | Compose before originals finish ascending; do not append to a cut already excluded. |
-| Nonlinear fixed-schedule six-source continuation using only native-origin descents | Disproved within target budget by last shared real chart and exact canonical support gaps | Change departure sources or earlier histories. |
-| Arbitrary fixed-schedule continuation of the exact D4 twelve cut | Disproved within target budget by normal span, one-descent destination and kernel-pair arguments | Reuse routing lemma at an earlier cut. |
-| M1-containing departures from the earlier local canonical9 source | Disproved within target budget by exact rank-flat census and downset transcript proof | A proposed escape must actually depart from a lower or different chart. |
-| Repeated-plus, JZa and active-swap complex prefixes in the fixed finite ordinary tensor catalogue | Excluded by their respective character, kernel, component and row-range hypotheses | Do not transfer these obstructions without checking their hypotheses. |
-| Spectator swap ordinary kernels and aligned quartic components, every positive width | Proved constructive interface; exact collective ranks retained | Find full invertible C,Q and independent endpoints with actual inverses and costs. |
-| Spectator two-bank pencil simplification and early-Y BIT composition | Active unverified next work; not incorporated into a claimed caller | Independently review any completed identity/source word before admission. |
-| Strict suppliers, complete recursive theorem and five foundations | Open | Preserve every interface and source dependency; no κ update until the assembled proof is complete. |
+| Known-mask triangular proxy identity, all characteristic-two fields and positive record widths | Proved; literal35-held source independently checked on222 columns | Deliver actual masked code and cancel actual corrections. |
+| Eight-frame downset at cut1129, exact392-field premise | Proved linear and fixed-schedule finite-alphabet nonlinear gate | Construct at least8 inward lifetimes with real sources and complete prices. |
+| Early-six held-code source composition | Proved partial word; native-only continuation excluded | Reuse at charts serving unfinished receivers. |
+| Direct known57 source retaining all54 unknowns low | Active unverified revision | Actual word, independent custody/all-column/invoice check and fresh cut. |
+| Two-bank reduction for arbitrary invertible a and idempotent T | Proved identity with actual inverses and words | Retain as structural tool, not a feasible(4,2) caller. |
+| Both-sign two-bank(4,2) completion, fixed finite root-four catalogue, large faithful widths | Disproved by universal S3 annihilator | Genuine third-bank coupling or a separately proved other endpoint class. |
+| Nonregular D8 range with actual ordinary forward conjugates | Proved representation gate and literal applications | Verify hypotheses anew; spectator lies outside them. |
+| Static scalar rank8 on54 unknowns; same-sign ordinary module capacity | Active review, not yet admitted | Complete separate proof/certificate reviews. |
+| Strict suppliers, assembly and foundations | Open | Preserve all actual interfaces and accounting; no κ update. |
 
-Precise propositions, source pins, written proofs and independently implemented checks are linked from the four new admissions: [carrier routing](results/bit-routed-original-fanout/ADMISSION.md), [last shared chart](results/bit-last-shared-chart/ADMISSION.md), [source location](results/bit-source-location-gate/ADMISSION.md), and [complex ordinary kernels](results/complex-ordinary-kernel-architecture/ADMISSION.md). The result registry retains every earlier classification. The cp1 logical state is archived under `sessions/2026-11-17-S019/logical-records-before-cp2/`.
+Precise propositions, source pins, proofs and independent implementations are linked from [masked source/cut](results/bit-masked-hub-source/ADMISSION.md), [early timing](results/bit-early-receiver-held-code/ADMISSION.md), [two-bank S3 gate](results/complex-spectator-two-bank-gate/ADMISSION.md), and [D8 gate](results/complex-nonregular-dihedral-range/ADMISSION.md). Earlier classifications remain in the registry. The cp2 logical state is archived under `sessions/2026-11-17-S019/logical-records-before-cp3/`.
 
-**No new complete κ.** The selected upstream conditional bound remains `363005817/100000000000`; both strict suppliers, complete recursion and all five foundational assumptions remain open. The programme is ongoing and is not PR-ready.
+**No new complete κ.** The selected upstream conditional bound remains `363005817/100000000000`. Completed strict BIT and compatible uniform complex suppliers, full recursive assembly and all five foundational assumptions remain open. The branch is an ongoing programme, not PR-ready.
 
 ## Retained S018 checkpoint6 context
 

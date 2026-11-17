@@ -2217,3 +2217,15 @@ Starting checkpoint parent is the confirmed `f4638d22816c96904442b5d4739cc101527
 Complex work proves ordinary character, ordinary-kernel and component-augmentation gates, closes both active-swap orientations with a D8 row-range certificate, and constructs spectator-swap ordinary kernel channels with exact collective ranks. Root separately checks the first three packages; C independently checks the row-range/spectator package. The spectator full caller remains open. A proposed source-only 108-facet construction is rejected by earlier three-visitor geometry; a canonical-plus-one-extra-code search is recognized as already ruled out by prior proper-cover results, avoiding duplicate research.
 
 Next wave: deliver useful BIT code while original carriers remain below Hub; reduce the spectator caller to an exact two-bank equation and solve or rigorously constrain it. The session remains active toward its requested endpoint. No new complete κ; no PR-ready claim. The resulting checkpoint SHA must be recorded separately after remote confirmation.
+
+### S019 checkpoint2 publication confirmed
+
+Remote commit `28eb8ec0ce6ef5b611ba8c3112328c11aa44d8ed`, tree `3cbe8596b9539d347175b00511ea07cfd238a73b`, parent `f4638d22816c96904442b5d4739cc1015279f131`, confirmed by GitHub and fetched Git. The connected Git Data API used an expected-HEAD nonforced update and matched the local tree exactly. Receipt: `sessions/2026-11-17-S019/CHECKPOINT2-REMOTE-RECEIPT.json`.
+
+### S019 checkpoint3 — masked source, eight lifetimes and signed S3 obstruction
+
+Baseline is confirmed `28eb8ec0ce6ef5b611ba8c3112328c11aa44d8ed`. Proved actual known-mask proxy source with all54 unknown directions available at Hub modulo ground-known values while35 raw unknown originals remain at rank2. It preserves57 outputs and every native input value. Root's eight-frame cut and C's independent392-field audit force8 inward lifetimes; the two-lifetime sketch is withdrawn. A six-output interleaving word is valid but native-only completion remains too costly.
+
+The exact spectator two-bank reduction was independently verified, then its(4,2) completion was closed by a universal fixed-catalogue S3 theorem. Root extended to the negative sign and B independently reviewed it. The nonregular D8 theorem extends active-prefix gates with ordinary-conjugacy scope retained. Fourteen focused checks and omission controls accompany written proofs.
+
+Correction: native-cached57 KEEP modes occupy rank4 M0_PAIR_COMMON with rank6 duplicates, not the older rank5 M1. Actual scientific words/proofs are unchanged. Next wave: direct-known57/all54-low source and physical delivery, scalar fitting-rank obstruction, same-sign module capacity, and genuine third-bank or different-profile completion. Session remains active until its requested end. No new κ/PR readiness. Resulting SHA is recorded separately after remote confirmation.

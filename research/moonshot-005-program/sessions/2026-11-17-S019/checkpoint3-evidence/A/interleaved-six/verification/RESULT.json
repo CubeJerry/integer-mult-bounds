@@ -1,0 +1,287 @@
+{
+  "status": "PASS_INTERLEAVED_SOURCE_AND_DESTRUCTIVE_CONTROLS",
+  "word_sha256": "bfe5111a3d8a9f3623ca0644edd127cf427c478e3ba67a784033daf445305303",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "verifier_sha256": "b5402a2dbdd8f49efac3fee678d88ca653bb5d1d6b80ae6fd47372c777db2762",
+  "stats": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 140,
+      "ADD": 1299,
+      "MOVE": 396,
+      "CLEAR": 140
+    },
+    "movement_profile": {
+      "1": 58,
+      "2": 89,
+      "3": 28,
+      "4": 15,
+      "5": 95,
+      "6": 6,
+      "7": 105
+    },
+    "dirty_CLEAR": 140,
+    "peak_owned": 140,
+    "historical_record_states": 2057
+  },
+  "controls": [
+    {
+      "class": "native_captures",
+      "deleted_index": 1,
+      "operation": [
+        "ADD",
+        "X0",
+        "NATIVE_RAW_0"
+      ],
+      "rejected": true,
+      "reason": "('final raw/native', 0)"
+    },
+    {
+      "class": "mask_captures",
+      "deleted_index": 229,
+      "operation": [
+        "ADD",
+        "X0",
+        "MASK_1"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "common_captures",
+      "deleted_index": 231,
+      "operation": [
+        "ADD",
+        "X0",
+        "COMMON_SUM"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "group_captures",
+      "deleted_index": 302,
+      "operation": [
+        "ADD",
+        "X4",
+        "GROUP_SUM_0"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "pivot_coding",
+      "deleted_index": 305,
+      "operation": [
+        "ADD",
+        "X6",
+        "X4"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "receiver_mask_reads",
+      "deleted_index": 639,
+      "operation": [
+        "ADD",
+        "MASK_1",
+        "Y1"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "early_direct_cohort_reads",
+      "deleted_index": 641,
+      "operation": [
+        "ADD",
+        "GROUP_SUM_0",
+        "Y1"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "early_singleton_reads",
+      "deleted_index": 643,
+      "operation": [
+        "ADD",
+        "X3",
+        "Y1"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "pivot_receiver_reads",
+      "deleted_index": 681,
+      "operation": [
+        "ADD",
+        "X4",
+        "Y3"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "pivot_restorations",
+      "deleted_index": 683,
+      "operation": [
+        "ADD",
+        "X6",
+        "X4"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "masked_foreign_injections",
+      "deleted_index": 780,
+      "operation": [
+        "ADD",
+        "GROUP_SUM_3",
+        "X19"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "masked_foreign_receiver_reads",
+      "deleted_index": 782,
+      "operation": [
+        "ADD",
+        "X19",
+        "Y77"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "masked_foreign_restorations",
+      "deleted_index": 784,
+      "operation": [
+        "ADD",
+        "X10",
+        "X19"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "common_code_compensation",
+      "deleted_index": 867,
+      "operation": [
+        "ADD",
+        "COMMON_SUM",
+        "LATE_CODE_1"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "canonical_hub_projections",
+      "deleted_index": 879,
+      "operation": [
+        "ADD",
+        "X1",
+        "CANONICAL_0"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "canonical_proper_descents",
+      "deleted_index": 932,
+      "operation": [
+        "MOVE",
+        "CANONICAL_0",
+        "COMMON"
+      ],
+      "rejected": true,
+      "reason": "(933, ['ADD', 'X0', 'CANONICAL_0'], 'colocation')"
+    },
+    {
+      "class": "actual_held_queries",
+      "deleted_index": 933,
+      "operation": [
+        "ADD",
+        "X0",
+        "CANONICAL_0"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "proper_code_captures",
+      "deleted_index": 937,
+      "operation": [
+        "ADD",
+        "CANONICAL_0",
+        "LATE_CODE_3"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "canonical_ground_descents",
+      "deleted_index": 940,
+      "operation": [
+        "MOVE",
+        "CANONICAL_0",
+        "zero"
+      ],
+      "rejected": true,
+      "reason": "('canonical query', 0)"
+    },
+    {
+      "class": "late_code_injections",
+      "deleted_index": 1466,
+      "operation": [
+        "ADD",
+        "LATE_CODE_1",
+        "X0"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "late_code_receiver_reads",
+      "deleted_index": 1468,
+      "operation": [
+        "ADD",
+        "X0",
+        "Y1"
+      ],
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "class": "late_code_restorations",
+      "deleted_index": 1470,
+      "operation": [
+        "ADD",
+        "X1",
+        "X0"
+      ],
+      "rejected": true,
+      "reason": ""
+    }
+  ],
+  "checked_source_cuts": [
+    680,
+    866,
+    1466,
+    1730
+  ],
+  "unfinished_facets_with_some_mask": 90,
+  "mask_rank_histogram": {
+    "0": 15,
+    "1": 22,
+    "3": 19,
+    "2": 45,
+    "4": 4
+  },
+  "all_mask_local_ranks_unchanged": true,
+  "scope": "Author-side exact checks; independent mathematical review is separate."
+}

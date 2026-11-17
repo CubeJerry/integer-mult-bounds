@@ -1,0 +1,112 @@
+{
+  "status": "PASS_EXACT_TWO_BANK_REDUCTION_AND_CUBIC_GATE_CONTROLS",
+  "scope": "Universal exact noncommutative reduction isolating Gaussian1, actual fixed ordinary words and inverse overheads, and a written universal pure-cubic second-row catalogue obstruction. No R giving independent42 has been constructed.",
+  "formal_independent_symbols": [
+    "a",
+    "t",
+    "r00",
+    "r01",
+    "r10",
+    "r11"
+  ],
+  "formal_relation": "t*t=t",
+  "formal_reduced_monomials": 28,
+  "formal_C_inverse_and_B_factorization": true,
+  "actual_R_unit_controls": [
+    {
+      "name": "identity",
+      "actual_Q_and_inverse": true,
+      "literal_reduction_identity": true
+    },
+    {
+      "name": "bank_swap01",
+      "actual_Q_and_inverse": true,
+      "literal_reduction_identity": true
+    },
+    {
+      "name": "controlled_Sab",
+      "actual_Q_and_inverse": true,
+      "literal_reduction_identity": true
+    }
+  ],
+  "source_rank_changing_channels": {
+    "R2_inverse": 1,
+    "R2_inverse_D_b": 2
+  },
+  "Gaussian_gauges": 4,
+  "omitted_ADD_negative_controls": 28,
+  "additional_negative_controls": 3,
+  "invoices": {
+    "C_T": {
+      "counts": {
+        "ADD": 8,
+        "SCALE": 7,
+        "MONO": 1
+      },
+      "prefix_bound": "74"
+    },
+    "C_T_inverse": {
+      "counts": {
+        "ADD": 8,
+        "SCALE": 9,
+        "MONO": 1
+      },
+      "prefix_bound": "26"
+    },
+    "F": {
+      "counts": {
+        "SCALE": 2,
+        "ADD": 2
+      },
+      "prefix_bound": "3"
+    },
+    "F_inverse": {
+      "counts": {
+        "ADD": 2
+      },
+      "prefix_bound": "3"
+    },
+    "Y": {
+      "counts": {
+        "ADD": 1
+      },
+      "prefix_bound": "2"
+    },
+    "Y_inverse": {
+      "counts": {
+        "SCALE": 2,
+        "ADD": 1
+      },
+      "prefix_bound": "2"
+    },
+    "output_swap12": {
+      "counts": {
+        "ADD": 3,
+        "SCALE": 3
+      },
+      "prefix_bound": "5"
+    },
+    "output_swap12_inverse": {
+      "counts": {
+        "ADD": 3,
+        "SCALE": 3
+      },
+      "prefix_bound": "5"
+    }
+  },
+  "Q_forward_overhead": {
+    "ADD": 2,
+    "SCALE": 2
+  },
+  "Q_inverse_overhead": {
+    "ADD": 2
+  },
+  "unknown_R_and_endpoint_costs_retained": true,
+  "proof_sha256": "d69efda9f5887ced56553894f60d3b791815493e755e9853d2d68e844a136ad7",
+  "source_pins": {
+    "research/moonshot-005-program/results/complex-nonordinary-row-seed/worker-b/check.py": "1d3c798c43b46e1983f4dc80d68e694b93d9cdee206ad4fe4d408e5f5e29ed91",
+    "research/moonshot-005-program/results/complex-four-bit-cubic-source/author/PROOF.md": "6ea08c509a1560aa334640eeb45bcdcd4649412d40292380f771cd623eee570c"
+  },
+  "remaining": "Construct a uniform actual ordinary R with inverse, and ordinary endpoint U,V, proving U B_T R L2 V=diag(G4,G2) with the complete invoice.",
+  "no_new_kappa": true
+}

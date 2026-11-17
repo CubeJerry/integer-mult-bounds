@@ -1,0 +1,599 @@
+{
+  "status": "PASS_INDEPENDENT_EARLY_Y_LATE_CANONICAL_CONSTRUCTION",
+  "word_sha256": "bfe5111a3d8a9f3623ca0644edd127cf427c478e3ba67a784033daf445305303",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "stats": {
+    "counts": {
+      "INIT": 140,
+      "ADD": 1299,
+      "MOVE": 396,
+      "CLEAR": 140
+    },
+    "movement_profile": {
+      "1": 58,
+      "2": 89,
+      "3": 28,
+      "4": 15,
+      "5": 95,
+      "6": 6,
+      "7": 105
+    },
+    "dirty_clear": 140,
+    "peak_owned": 140,
+    "completed_outputs": [
+      1,
+      3,
+      73,
+      76,
+      77,
+      80
+    ],
+    "all_222_column_endpoints": true
+  },
+  "source_cut": 1730,
+  "milestones": {
+    "common_raw_masks_captured": 299,
+    "source_groups_ready_before_Y": 638,
+    "all_six_Y_waiting_at_facets": 680,
+    "only_six_raw_code_originals_held": 866,
+    "canonical_ground_while_six_held": 1466
+  },
+  "actual_held_raw_originals": [
+    0,
+    2,
+    5,
+    7,
+    15,
+    16
+  ],
+  "canonical_queries_all_actual_raw_sources": true,
+  "all222_cut_columns": true,
+  "native_local_masks": [
+    {
+      "field": "MASK_1",
+      "support": [
+        0
+      ],
+      "chart_rank": 1,
+      "contained_native_lines": [
+        0
+      ],
+      "unfinished_receivers_visible": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        74,
+        75,
+        78,
+        79,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102
+      ]
+    },
+    {
+      "field": "MASK_3",
+      "support": [
+        2,
+        20
+      ],
+      "chart_rank": 2,
+      "contained_native_lines": [
+        2,
+        16,
+        20
+      ],
+      "unfinished_receivers_visible": [
+        5,
+        7,
+        24,
+        25,
+        28,
+        29,
+        30,
+        31,
+        34,
+        35,
+        52,
+        55,
+        56,
+        66,
+        69,
+        70,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        104,
+        106,
+        108,
+        110
+      ]
+    },
+    {
+      "field": "MASK_73",
+      "support": [
+        5,
+        39
+      ],
+      "chart_rank": 2,
+      "contained_native_lines": [
+        5,
+        39,
+        41
+      ],
+      "unfinished_receivers_visible": [
+        4,
+        6,
+        8,
+        12,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        26,
+        28,
+        61,
+        64,
+        65,
+        67,
+        69,
+        71,
+        74,
+        75,
+        78,
+        79,
+        81,
+        82,
+        84,
+        86
+      ]
+    },
+    {
+      "field": "MASK_76",
+      "support": [
+        7,
+        38
+      ],
+      "chart_rank": 2,
+      "contained_native_lines": [
+        7,
+        38,
+        39
+      ],
+      "unfinished_receivers_visible": [
+        4,
+        6,
+        18,
+        19,
+        20,
+        21,
+        31,
+        33,
+        35,
+        37,
+        48,
+        49,
+        61,
+        64,
+        65,
+        74,
+        75,
+        78,
+        79,
+        89,
+        91,
+        93,
+        95,
+        105,
+        106,
+        109,
+        110
+      ]
+    },
+    {
+      "field": "MASK_77",
+      "support": [
+        15,
+        19
+      ],
+      "chart_rank": 2,
+      "contained_native_lines": [
+        2,
+        15,
+        19
+      ],
+      "unfinished_receivers_visible": [
+        5,
+        7,
+        22,
+        23,
+        26,
+        27,
+        32,
+        33,
+        36,
+        37,
+        52,
+        55,
+        56,
+        67,
+        68,
+        71,
+        72,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        105,
+        107,
+        109
+      ]
+    },
+    {
+      "field": "MASK_80",
+      "support": [
+        16,
+        40
+      ],
+      "chart_rank": 2,
+      "contained_native_lines": [
+        16,
+        40,
+        57
+      ],
+      "unfinished_receivers_visible": [
+        9,
+        13,
+        18,
+        21,
+        25,
+        29,
+        30,
+        34,
+        42,
+        45,
+        47,
+        50,
+        56,
+        61,
+        64,
+        65,
+        66,
+        70,
+        83,
+        87,
+        88,
+        92,
+        96,
+        99,
+        100,
+        104,
+        108
+      ]
+    }
+  ],
+  "all_masks_pairwise_incomparable": true,
+  "union_mask_visibility": 90,
+  "other14_proper_helpers_invisible": [
+    "COMMON_SUM",
+    "GROUP_SUM_0",
+    "GROUP_SUM_1",
+    "GROUP_SUM_2",
+    "GROUP_SUM_3",
+    "GROUP_SUM_4",
+    "GROUP_SUM_5",
+    "GROUP_SUM_6",
+    "LATE_CODE_1",
+    "LATE_CODE_3",
+    "LATE_CODE_73",
+    "LATE_CODE_76",
+    "LATE_CODE_77",
+    "LATE_CODE_80"
+  ],
+  "canonical_alternative_gap": {
+    "0": 22,
+    "2": 19,
+    "4": 20,
+    "5": 20,
+    "6": 20,
+    "7": 18,
+    "8": 19,
+    "9": 21,
+    "10": 18,
+    "11": 20,
+    "12": 20,
+    "13": 20,
+    "14": 19,
+    "15": 21,
+    "16": 21,
+    "17": 21,
+    "18": 20,
+    "19": 20,
+    "20": 21,
+    "21": 20,
+    "22": 20,
+    "23": 20,
+    "24": 19,
+    "25": 19,
+    "26": 19,
+    "27": 20,
+    "28": 20,
+    "29": 22,
+    "30": 20,
+    "31": 20,
+    "32": 20,
+    "33": 20,
+    "34": 19,
+    "35": 20,
+    "36": 22,
+    "37": 22,
+    "38": 19,
+    "39": 23,
+    "40": 19,
+    "41": 19,
+    "42": 18,
+    "43": 19,
+    "44": 21,
+    "45": 20,
+    "46": 21,
+    "47": 21,
+    "48": 19,
+    "49": 19,
+    "50": 21,
+    "51": 18,
+    "52": 20,
+    "53": 18,
+    "54": 22,
+    "55": 20,
+    "56": 20,
+    "57": 20,
+    "58": 20,
+    "59": 20,
+    "60": 21,
+    "61": 20,
+    "62": 19,
+    "63": 21,
+    "64": 20,
+    "65": 21,
+    "66": 20,
+    "67": 20,
+    "68": 20,
+    "69": 20,
+    "70": 22,
+    "71": 22,
+    "72": 20,
+    "74": 20,
+    "75": 20,
+    "78": 20,
+    "79": 20,
+    "81": 18,
+    "82": 19,
+    "83": 21,
+    "84": 20,
+    "85": 20,
+    "86": 20,
+    "87": 20,
+    "88": 19,
+    "89": 20,
+    "90": 21,
+    "91": 19,
+    "92": 21,
+    "93": 19,
+    "94": 21,
+    "95": 19,
+    "96": 19,
+    "97": 20,
+    "98": 20,
+    "99": 19,
+    "100": 20,
+    "101": 20,
+    "102": 20,
+    "103": 19,
+    "104": 20,
+    "105": 20,
+    "106": 20,
+    "107": 22,
+    "108": 22,
+    "109": 22,
+    "110": 20
+  },
+  "pair_difference_minimum": 21,
+  "ordered_pairs": 10920,
+  "native_only_gate": {
+    "additional_initial_native_inputs_available_after_last_shared_chart_at_most": 3,
+    "global_native_origins_excluded_through": 17,
+    "necessary_distinct_native_origins": 18,
+    "scope": "Every future owned MOVE starts at one of the111 native lines and ends at ground; arbitrary local nonlinear operations and Y-bearing stationary histories allowed under a fixed schedule.",
+    "proof": "NATIVE-LOCAL-GATE.md"
+  },
+  "movement": {
+    "rational": [
+      "322652973672256028895720584866884630197/200000000000000000000000000000000000",
+      "1613264868361280144478602924334423151323/1000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1613.264868361280144478602924334423150985",
+      "1613.264868361280144478602924334423151323"
+    ]
+  },
+  "necessary_room": {
+    "rational": [
+      "50916071099233264605859356195431010091/6000000000000000000000000000000000000",
+      "8486011849872210767643226032571835569/1000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "8.48601184987221076764322603257183501516666666666666666666667",
+      "8.486011849872210767643226032571835569"
+    ]
+  },
+  "native_only_strict_excess": {
+    "rational": [
+      "9513988150127789232356773967428164431/1000000000000000000000000000000000000",
+      "57083928900766735394140643804568989909/6000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "9.513988150127789232356773967428164431",
+      "9.51398815012778923235677396742816498483333333333333333333333"
+    ]
+  },
+  "negative_controls": [
+    {
+      "type": "native_captures",
+      "operation": 1,
+      "endpoints_can_pass_but_complete_source_rejected": true
+    },
+    {
+      "type": "mask_captures",
+      "operation": 229,
+      "endpoint_or_interface_rejected": "('receiver endpoint', 1)"
+    },
+    {
+      "type": "common_captures",
+      "operation": 231,
+      "endpoint_or_interface_rejected": "('original restoration', 0)"
+    },
+    {
+      "type": "group_captures",
+      "operation": 302,
+      "endpoint_or_interface_rejected": "('receiver endpoint', 1)"
+    },
+    {
+      "type": "pivot_coding",
+      "operation": 305,
+      "endpoint_or_interface_rejected": "('receiver endpoint', 1)"
+    },
+    {
+      "type": "early_direct_cohort_reads",
+      "operation": 641,
+      "endpoint_or_interface_rejected": "('receiver endpoint', 1)"
+    },
+    {
+      "type": "masked_foreign_injections",
+      "operation": 780,
+      "endpoint_or_interface_rejected": "('original restoration', 0)"
+    },
+    {
+      "type": "masked_foreign_restorations",
+      "operation": 784,
+      "endpoint_or_interface_rejected": "('original restoration', 0)"
+    },
+    {
+      "type": "canonical_hub_projections",
+      "operation": 879,
+      "endpoint_or_interface_rejected": "('original restoration', 2)"
+    },
+    {
+      "type": "actual_held_queries",
+      "operation": 933,
+      "endpoint_or_interface_rejected": "('original restoration', 2)"
+    },
+    {
+      "type": "proper_code_captures",
+      "operation": 937,
+      "endpoint_or_interface_rejected": "('original restoration', 2)"
+    },
+    {
+      "type": "late_code_injections",
+      "operation": 1466,
+      "endpoint_or_interface_rejected": "('original restoration', 0)"
+    },
+    {
+      "type": "late_code_receiver_reads",
+      "operation": 1468,
+      "endpoint_or_interface_rejected": "('receiver endpoint', 1)"
+    },
+    {
+      "type": "late_code_restorations",
+      "operation": 1470,
+      "endpoint_or_interface_rejected": "('original restoration', 0)"
+    }
+  ],
+  "explicit_nonlinear_collision": {
+    "receiver": 39,
+    "last_shared_other_receiver": 10,
+    "seventeen_global_native_grants": [
+      1,
+      4,
+      18,
+      19,
+      26,
+      28,
+      33,
+      35,
+      42,
+      48,
+      53,
+      64,
+      65,
+      69,
+      75,
+      76,
+      79
+    ],
+    "three_extra_private_native_inputs": [
+      80,
+      91,
+      95
+    ],
+    "missing_native_input": 99,
+    "difference_support": [
+      39,
+      57,
+      94,
+      99,
+      102,
+      107
+    ]
+  },
+  "scope": "Earlier actual Y acquisition and held-source canonical queries verified for every characteristic-two field and whole-record width; six outputs only. Native-only frozen continuation excluded, arbitrary nonnative descents unresolved. No new kappa."
+}

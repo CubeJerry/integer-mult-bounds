@@ -1,0 +1,118 @@
+{
+  "status": "PASS_S019_CP3_FOCUSED_REPRODUCTION",
+  "scope": "New exact sources and independently reviewed algebra/cut premises, not a whole-programme supplier certificate.",
+  "checks": [
+    {
+      "name": "A-interleaved",
+      "status": "PASS",
+      "comparison": "byte-identical-word",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint3-evidence/A/build_interleaved_carriers.py",
+      "script_sha256": "9a5d523dc1a82d20482a780d3de650f8301355687e26d1b1ad0fc08f1957161b",
+      "result_sha256": "bfe5111a3d8a9f3623ca0644edd127cf427c478e3ba67a784033daf445305303"
+    },
+    {
+      "name": "A-interleaved-contracts",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint3-evidence/A/check_interleaved_carriers.py",
+      "script_sha256": "480d6c1a81e72dfa56526d8611ddd8c5a7f1928db097dc2511bff44face686e5",
+      "result_sha256": "fdb31f547cbae05f41ea8fda610918b4623cef5cafeb70b83fe90a04339a04b3"
+    },
+    {
+      "name": "B-spectator-two-bank-reduction",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint3-evidence/B/spectator-two-bank-reduction/check.py",
+      "script_sha256": "6aa9bb1b2a16aaee3d55f8fd41f9cf0725883c0f2da1bd50d9918fba5895a133",
+      "result_sha256": "9799857c0706812869780811fb2a38192bcc317aabc6814075636632ee43ceb9"
+    },
+    {
+      "name": "B-spectator-two-bank-s3-gate",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint3-evidence/B/spectator-two-bank-s3-gate/check.py",
+      "script_sha256": "4ba6a313d4602dbf045e5436ce9b03e4e9ed0f0c5a18fd5d717dbb9ec8eda875",
+      "result_sha256": "95a6ca728bd3f9dccb87eb78f2b00f6753c92bd9e2acf093181a3e3893069973"
+    },
+    {
+      "name": "C-two-bank-review",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint3-evidence/C/two-bank-review/check.py",
+      "script_sha256": "d274ba85e30bcbeb1db21bbfd71567377b1053dbb2303e03dfd9c0f340c018b2",
+      "result_sha256": "951d8f64ecaf0e46eebacc575f8d92a99e679eb7ffd7aebcde48fcfed694ba8d"
+    },
+    {
+      "name": "C-s3-review",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint3-evidence/C/s3-review/check.py",
+      "script_sha256": "98776c08adbaa172677200ff29dd46fd1d0681caff71b517f5e4a053adb26a38",
+      "result_sha256": "ee668bee7ae1f557a2385b9647f081debb1525ebc31b8157732e9a40edd5e8d7"
+    },
+    {
+      "name": "C-interleaved",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint3-evidence/C/interleaved-review/check.py",
+      "script_sha256": "87dfecd487f0ae551572d6611a2220beef50bc3254c9f1263a0b50538c754176",
+      "result_sha256": "fb47ff25aa6d344b1b33d69bc600cfb9566f8e7e67af1e06fb069d6bd93ab08e"
+    },
+    {
+      "name": "R-dihedral-row-range",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint3-evidence/R/dihedral-row-range/check.py",
+      "script_sha256": "8ce6a799cba3533955eb44a4b594fa64df9f7cd503021b2c67222788737d3a1e",
+      "result_sha256": "a72ad6aeeeab01d3a390bb39cbe64e5dc3f42a7f2cbd528b63b9efd35655d07e"
+    },
+    {
+      "name": "R-signed-s3-extension",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint3-evidence/R/signed-s3-extension/check.py",
+      "script_sha256": "fa3219c5f352f3f14b4d3fc06112e023f09160fa0f054becfa2840b74855a020",
+      "result_sha256": "d761f6a1821b042b10886c7ccc11e15a32cd043f16b312ccc2c66024948c4d38"
+    },
+    {
+      "name": "C-dihedral",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint3-evidence/C/dihedral-review/check.py",
+      "script_sha256": "993158c7affbe9bdc8ae7de88036644bf28e65a87ce5ba6c2ff63a7ec18070e6",
+      "result_sha256": "cc2efdf2a8dafa5fac56b7392edd50f429b1ff449dadb7085df4d7f0d5100dff"
+    },
+    {
+      "name": "A-masked-Hub",
+      "status": "PASS",
+      "comparison": "byte-identical-word",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint3-evidence/A/build_native57_masked_hub.py",
+      "script_sha256": "90b5acc0b74d90b55c7a8d3c5bad2541e8bbef1fad43d033b3b29cdde8d4adc2",
+      "result_sha256": "f21de38f4a8adc1a55920c16b684285f62607829fe512a0088fe5ecb217fcfdd"
+    },
+    {
+      "name": "R-eight-cut",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint3-evidence/R/masked-hub-eight-cut/check.py",
+      "script_sha256": "27925b2735f85eafa24eea848a22cd6dc7316b99fd49d1d1b84841424326df57",
+      "result_sha256": "0fc379ef103b6592775206a876421fc03efca4556e8378f4711efc712253259f"
+    },
+    {
+      "name": "A-masked-Hub-contracts",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint3-evidence/A/check_native57_masked_hub.py",
+      "script_sha256": "617102f77d4cd3c3107db42e7a75577feccdcba45c1121a87758c919eb34944a",
+      "result_sha256": "3dfdb899d75b609da80c19b7ef7896e2f051cd3dc17ad9a1526fd7e5d451afa1"
+    },
+    {
+      "name": "C-masked-Hub",
+      "status": "PASS",
+      "comparison": "exact-JSON-mathematical-receipt",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint3-evidence/C/masked-hub-review/check.py",
+      "script_sha256": "6dc6e9a37c19c9a37d3f40ecb98c975eb8c88ead567a523563a6c68adf8085f0",
+      "result_sha256": "33abc0fd41e9cb4eb9491f9a53a11da7b256881756a6242959cab545d0eed820"
+    }
+  ]
+}

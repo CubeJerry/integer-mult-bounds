@@ -1,29 +1,31 @@
 # Exact requirements for κ = 1/200
 
-## Current frontier — S019 checkpoint2
+## Current frontier — S019 checkpoint3
 
-The retained end-to-end target requires **completed ordinary BIT B > 1/200 and compatible uniform complex U > 1/200**, with the full source, storage/erasure, precision, compiler and recursive interfaces. For one-stage completion from `b0=.00385248`, the covered supplier must satisfy `C > 3112961/621875000`; equality is insufficient. These are exact feasibility conditions, not constructed suppliers.
+The exact target requires completed ordinary BIT `B>1/200` and compatible uniform complex `U>1/200`, with every source, storage/erasure, precision, compiler and recursive interface. One-stage completion from `b0=.00385248` requires covered `C>3112961/621875000`; equality does not suffice.
 
-At `t=199/200`, retain the necessary limiting movement allowance
+At `t=199/200`, the necessary limiting movement allowance remains
 
 \[
- A_\infty=\frac{37\,127^t+74\,64^t-74+74\sum_{j=1}^8((1+7j)^t-(7j)^t)}6
- =1621.750880211152355246\ldots.
+A_\infty=\frac{37\,127^t+74\,64^t-74+74\sum_{j=1}^8((1+7j)^t-(7j)^t)}6
+=1621.750880211152355246\ldots.
 \]
 
-Finite even multiplicity and all nonmovement expenses are stricter. No positive movement margin is itself a saving certificate.
+Finite even multiplicity and all nonmovement expenses are stricter.
 
-| Source or mechanism | Exact necessary consequence | Feasibility status |
+| Current interface | Verified cost or obstruction | Consequence |
 |---|---|---|
-| Early-F74 canonical9 at M1 | Nine arbitrary nonlinear whole-record descents; excess 0.506502803416551758... | Unchanged cut excluded. |
-| Same cut, every departure chart contains M1 | At least 20 unit ranks and movement at least `8+4^t`; excess 3.478872785164... | Restricted source-location class excluded; lower-chart departures are outside the premise. |
-| Common-carrier six, canonical9 at ground | `Q=1612.955740704517265865...`; native-origin-only completion needs at least 18 distinct native origins | Exceeds allowance by 9.204860493364910618... in that class. Earlier sources or proper-chart descents remain outside scope. |
-| Routed D4 twelve | `Q=1619.950100973460117468...`; every completion adds at least `2^t` | Unchanged cut exceeds allowance by 0.192301287963497890... . |
-| Spectator complex prefix | Both ordinary kernel channels exist; source rank `(16^V+8^V)/2` | Complete independent (4,2,1) endpoint and strict supplier remain open. |
+| Masked-Hub native57 extension | `127[1]+22[2]+19[5]+70[6]+133[7]`; Q=1603.326177650587... | Necessary room18.424702560565...; code at Hub, corrections at ground. |
+| Same cut1129 | All392 fields audited; eight-coordinate inside deficit8 | At least8 distinct inward lifetimes, not8 rank8 tariffs. |
+| Early interleaved-six | Q=1613.264868361280...; native-only continuation needs18 origins | That class exceeds allowance by9.513988150127...; proper departures remain outside. |
+| Isolated Gaussian1 plus spectator two-bank(4,2) | Both signs have annihilator rank `q²(q²−1)/3` | No ordinary invertible R; changing sign or enlarging a fixed catalogue does not repair it. |
+| Nonregular D8 active prefix | Eventual row-range defect `(d^V+tr(z)^V−tr(t)^V−tr(zt)^V)/4` | Excluded with its actual ordinary-forward premises. Spectator fails those premises. |
 
-The optimistic three-native complex movement invoice is still `3[1]+6[7]+3[8]` against `[25]+[23]+[22]`, before all retained expenses. A Gaussian class projection is not a free physical operation. A separate 108-facet acquisition proposal has a favorable relaxed invoice but violates the already proved three-visitor facet-source obstruction; it is rejected, not used as a supplier. A fixed canonical-plus-one-extra-record code repeats an existing proper-cover saving bound and is not a fresh escape.
+The prospective direct-known57/all54-low revision has profile `165[1]+108[6]+114[7]`, approximately1597.494093397153..., but its actual word is not independently admitted at this checkpoint. It changes the old proper-mask contract. Neither an optimistic movement margin nor a packet count is a sufficient supplier condition.
 
-**No new complete κ.** The selected upstream conditional bound remains `363005817/100000000000`; both strict suppliers, complete recursion and all five foundational assumptions remain open. The programme is ongoing and is not PR-ready.
+The three-native complex optimistic invoice stays `3[1]+6[7]+3[8]` against `[25]+[23]+[22]` for independent(4,2,1), before every other bill. The reduction remains a valid identity; its(4,2) feasibility is closed. Genuine three-bank coupling and alternative endpoint profiles need new proofs. Static scalar code minimization and ordinary-module capacity are next-wave work, not assumptions.
+
+**No new complete κ.** The selected upstream conditional bound remains `363005817/100000000000`. Completed strict BIT and compatible uniform complex suppliers, full recursive assembly and all five foundational assumptions remain open. The branch is an ongoing programme, not PR-ready.
 
 ## Retained S018 checkpoint6 context
 

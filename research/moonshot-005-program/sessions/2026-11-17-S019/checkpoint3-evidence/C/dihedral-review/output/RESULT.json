@@ -1,0 +1,384 @@
+{
+  "status": "PASS_INDEPENDENT_NONREGULAR_DIHEDRAL_RANGE",
+  "package_pins": {
+    "PROOF.md": "d25248052c75e955c4b8df4402dac8bc0ce662b35c8144acb1f9a5cc1598f1b7",
+    "check.py": "8ce6a799cba3533955eb44a4b594fa64df9f7cd503021b2c67222788737d3a1e",
+    "output/RESULT.json": "a72ad6aeeeab01d3a390bb39cbe64e5dc3f42a7f2cbd528b63b9efd35655d07e"
+  },
+  "engine": "Independent exact rational D8 group arithmetic and SymPy QQ(i), no root or author checker imported",
+  "abstract_projectors_and_range_witnesses": true,
+  "missing_dimension_formula": "(d^V+tr(z)^V-tr(t)^V-tr(zt)^V)/4",
+  "nonscalar_trace_bound": "both t and zt have |trace|<=d-2",
+  "uniform_d16_V6_defect_lower_bound": 429536,
+  "source_applications": {
+    "unphased": {
+      "group_traces": {
+        "(0, 0)": 16,
+        "(0, 1)": 0,
+        "(1, 0)": 0,
+        "(1, 1)": 8,
+        "(2, 0)": 0,
+        "(2, 1)": 0,
+        "(3, 0)": 0,
+        "(3, 1)": 8
+      },
+      "forward_conjugates": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            12,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            14,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            11,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            15,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            12,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            14,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            11,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            15,
+            0
+          ]
+        ]
+      ],
+      "collective_ranks": {
+        "1": {
+          "row_ranks": [
+            8,
+            8
+          ],
+          "defect": 0
+        },
+        "2": {
+          "row_ranks": [
+            112,
+            112
+          ],
+          "defect": 32
+        },
+        "4": {
+          "row_ranks": [
+            25600,
+            25600
+          ],
+          "defect": 14336
+        },
+        "6": {
+          "row_ranks": [
+            6356992,
+            6356992
+          ],
+          "defect": 4063232
+        },
+        "8": {
+          "row_ranks": [
+            1614807040,
+            1614807040
+          ],
+          "defect": 1065353216
+        }
+      }
+    },
+    "phase_balanced": {
+      "group_traces": {
+        "(0, 0)": 16,
+        "(0, 1)": 0,
+        "(1, 0)": 0,
+        "(1, 1)": 0,
+        "(2, 0)": 0,
+        "(2, 1)": 0,
+        "(3, 0)": 0,
+        "(3, 1)": 0
+      },
+      "forward_conjugates": [
+        [
+          [
+            2,
+            3
+          ],
+          [
+            10,
+            3
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            14,
+            3
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            15,
+            3
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            14,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            9,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            15,
+            0
+          ]
+        ]
+      ],
+      "collective_ranks": {
+        "1": {
+          "row_ranks": [
+            6,
+            6
+          ],
+          "defect": 4
+        },
+        "2": {
+          "row_ranks": [
+            96,
+            96
+          ],
+          "defect": 64
+        },
+        "4": {
+          "row_ranks": [
+            24576,
+            24576
+          ],
+          "defect": 16384
+        },
+        "6": {
+          "row_ranks": [
+            6291456,
+            6291456
+          ],
+          "defect": 4194304
+        },
+        "8": {
+          "row_ranks": [
+            1610612736,
+            1610612736
+          ],
+          "defect": 1073741824
+        }
+      }
+    }
+  },
+  "spectator_scope_control": true,
+  "scalar_even_width_defect_control": 0,
+  "scope": "All sufficiently large even widths under fixed finite catalogue and both ordinary forward-conjugate premises; no full supplier or new kappa."
+}

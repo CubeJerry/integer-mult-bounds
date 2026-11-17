@@ -1,0 +1,640 @@
+{
+  "monomial_tables": {
+    "Ts": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        11,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        15,
+        0
+      ]
+    ],
+    "S_ab": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        11,
+        0
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        15,
+        0
+      ]
+    ],
+    "S_ad": [
+      [
+        0,
+        0
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        11,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        15,
+        0
+      ]
+    ]
+  },
+  "words": {
+    "C_T": [
+      {
+        "op": "ADD",
+        "source": 1,
+        "target": 2
+      },
+      {
+        "op": "ADD",
+        "source": 1,
+        "target": 2
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-1"
+      },
+      {
+        "op": "ADD",
+        "source": 2,
+        "target": 1
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-1"
+      },
+      {
+        "op": "ADD",
+        "source": 1,
+        "target": 2
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "coefficient": "-1"
+      },
+      {
+        "op": "ADD",
+        "source": 2,
+        "target": 0
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-2"
+      },
+      {
+        "op": "ADD",
+        "source": 0,
+        "target": 2
+      },
+      {
+        "op": "MONO",
+        "bank": 2,
+        "name": "Ts"
+      },
+      {
+        "op": "ADD",
+        "source": 2,
+        "target": 0
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-2"
+      },
+      {
+        "op": "ADD",
+        "source": 0,
+        "target": 2
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "coefficient": "1/2"
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "1/2"
+      }
+    ],
+    "C_T_inverse": [
+      {
+        "op": "ADD",
+        "source": 2,
+        "target": 0
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-2"
+      },
+      {
+        "op": "ADD",
+        "source": 0,
+        "target": 2
+      },
+      {
+        "op": "MONO",
+        "bank": 2,
+        "name": "Ts"
+      },
+      {
+        "op": "ADD",
+        "source": 2,
+        "target": 0
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-2"
+      },
+      {
+        "op": "ADD",
+        "source": 0,
+        "target": 2
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "coefficient": "1/2"
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "1/2"
+      },
+      {
+        "op": "ADD",
+        "source": 1,
+        "target": 2
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-1"
+      },
+      {
+        "op": "ADD",
+        "source": 2,
+        "target": 1
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-1"
+      },
+      {
+        "op": "ADD",
+        "source": 1,
+        "target": 2
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "coefficient": "-1"
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-1"
+      },
+      {
+        "op": "ADD",
+        "source": 1,
+        "target": 2
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-1"
+      }
+    ],
+    "F": [
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-1"
+      },
+      {
+        "op": "ADD",
+        "source": 0,
+        "target": 2
+      },
+      {
+        "op": "ADD",
+        "source": 1,
+        "target": 2
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-1"
+      }
+    ],
+    "F_inverse": [
+      {
+        "op": "ADD",
+        "source": 0,
+        "target": 2
+      },
+      {
+        "op": "ADD",
+        "source": 1,
+        "target": 2
+      }
+    ],
+    "Y": [
+      {
+        "op": "ADD",
+        "source": 2,
+        "target": 1
+      }
+    ],
+    "Y_inverse": [
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "coefficient": "-1"
+      },
+      {
+        "op": "ADD",
+        "source": 2,
+        "target": 1
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "coefficient": "-1"
+      }
+    ],
+    "output_swap12": [
+      {
+        "op": "ADD",
+        "source": 1,
+        "target": 2
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-1"
+      },
+      {
+        "op": "ADD",
+        "source": 2,
+        "target": 1
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-1"
+      },
+      {
+        "op": "ADD",
+        "source": 1,
+        "target": 2
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "coefficient": "-1"
+      }
+    ],
+    "output_swap12_inverse": [
+      {
+        "op": "ADD",
+        "source": 1,
+        "target": 2
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-1"
+      },
+      {
+        "op": "ADD",
+        "source": 2,
+        "target": 1
+      },
+      {
+        "op": "SCALE",
+        "bank": 2,
+        "coefficient": "-1"
+      },
+      {
+        "op": "ADD",
+        "source": 1,
+        "target": 2
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "coefficient": "-1"
+      }
+    ]
+  },
+  "invoices": {
+    "C_T": {
+      "counts": {
+        "ADD": 8,
+        "SCALE": 7,
+        "MONO": 1
+      },
+      "prefix_bound": "74"
+    },
+    "C_T_inverse": {
+      "counts": {
+        "ADD": 8,
+        "SCALE": 9,
+        "MONO": 1
+      },
+      "prefix_bound": "26"
+    },
+    "F": {
+      "counts": {
+        "SCALE": 2,
+        "ADD": 2
+      },
+      "prefix_bound": "3"
+    },
+    "F_inverse": {
+      "counts": {
+        "ADD": 2
+      },
+      "prefix_bound": "3"
+    },
+    "Y": {
+      "counts": {
+        "ADD": 1
+      },
+      "prefix_bound": "2"
+    },
+    "Y_inverse": {
+      "counts": {
+        "SCALE": 2,
+        "ADD": 1
+      },
+      "prefix_bound": "2"
+    },
+    "output_swap12": {
+      "counts": {
+        "ADD": 3,
+        "SCALE": 3
+      },
+      "prefix_bound": "5"
+    },
+    "output_swap12_inverse": {
+      "counts": {
+        "ADD": 3,
+        "SCALE": 3
+      },
+      "prefix_bound": "5"
+    }
+  },
+  "R_control_words": {
+    "identity": [],
+    "bank_swap01": [
+      {
+        "op": "ADD",
+        "source": 0,
+        "target": 1
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "coefficient": "-1"
+      },
+      {
+        "op": "ADD",
+        "source": 1,
+        "target": 0
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "coefficient": "-1"
+      },
+      {
+        "op": "ADD",
+        "source": 0,
+        "target": 1
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "coefficient": "-1"
+      }
+    ],
+    "controlled_Sab": [
+      {
+        "op": "ADD",
+        "source": 1,
+        "target": 0
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "coefficient": "-2"
+      },
+      {
+        "op": "ADD",
+        "source": 0,
+        "target": 1
+      },
+      {
+        "op": "MONO",
+        "bank": 1,
+        "name": "S_ab"
+      },
+      {
+        "op": "ADD",
+        "source": 1,
+        "target": 0
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "coefficient": "-2"
+      },
+      {
+        "op": "ADD",
+        "source": 0,
+        "target": 1
+      },
+      {
+        "op": "SCALE",
+        "bank": 0,
+        "coefficient": "1/2"
+      },
+      {
+        "op": "SCALE",
+        "bank": 1,
+        "coefficient": "1/2"
+      }
+    ]
+  }
+}
