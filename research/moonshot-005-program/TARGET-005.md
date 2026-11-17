@@ -1,26 +1,20 @@
 # Exact requirements for κ=1/200
 
-## Current physical interfaces — S020 checkpoint4
+## Current interfaces — S020 checkpoint5
 
-No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. This is ongoing research and is not PR-ready.
+No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
 
-The necessary limiting movement allowance at t=199/200 remains
-1621.750880211152355246... . Finite corrections are negative and nonmovement
-costs make the completed supplier condition stricter.
+The favorable limiting movement allowance at t=199/200 is
+1621.750880211152355246... . Finite corrections and nonmovement costs are stricter.
 
-| Actual source or scoped family | Established result | Remaining limitation |
+| Interface | Proved quantity | Unfinished requirement |
 |---|---|---|
-| Coordinate-first, eight completed values |Q0=1551.047442485706...; room70.703437725446...|Rank29 descending bank requires127 owned ascents; change timing/code.|
-| Lower/proper/direct-pair cuts |Actual all222-column words;5 source-specific bank audits|At least75 ascents plus9 descents; all five natural banks fail.|
-| One/nineteen fresh half exports |Real chronological code acquisition and inverses|Natural banks need83/213 ascents; nineteen-mode rank56 grant still needs105.|
-| One fresh export with complete rank56 grant |This first-exit screen requires40 ascents|Not excluded; physical whole-bank acquisition/delivery unconstructed.|
-| Permuted Klein fixed-column family |Joint endpoint representation capacity24>15|Fixed collective model; prefix extension requires a valid new representation.|
-| Distinguished-column same-plus split |Actual unit/inverse,6 ADD+12 SCALE+8 MONO each, prefix5|Explicit enlarged template; full compiler and caller admission remain.|
-| Crot with fixed matrix prefix |Source-coset frame forces a singular Q|Klein and C_T interfaces are outside this exact theorem.|
-
-Partial invoices cannot be combined across incompatible words. Bounds count
-actual movement occurrences, not owner lifetimes. Capacity tests concern actual
-encoder/decoder images, not convenient numerical component ranks.
+| Full56 proper-half reservoir; all111 Y ground |Q0=1578.375986552880...; room43.374893658271...|Complete103 unknown endpoints using actual modes; all X already Hub.|
+| Same source, unrestricted descending bank |At least9 future descents; minimum-charge room34.374893658271...|This is a lower bound, not a realizable9-move decoder.|
+|95-ground rank29 source |Valid word, Q0=1548.156683915135...|Quadratic geometry forces111 owned ascents.|
+| Two actual frame rank30 sources |Valid non-half mode at query or meet; Q0 about1550.24|Each exact bank still forces111 owned ascents.|
+| Paid distinguished-prefix source operator |24 ADD,48 SCALE,38 MONO each direction; prefix3|Three-native overhead144/288/228 plus charged target-prefix restoration.|
+| Independent complex caller |Local prefix and earlier positive units admitted|All input columns, all endpoint units, body, precision and complete invoice open.|
 
 ## Retained exact supplier and accounting contracts
 

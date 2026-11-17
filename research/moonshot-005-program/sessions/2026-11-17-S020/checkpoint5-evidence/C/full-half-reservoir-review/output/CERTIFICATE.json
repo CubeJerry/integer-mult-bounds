@@ -1,0 +1,5003 @@
+{
+  "status": "PASS_INDEPENDENT_FULL_HALF_RESERVOIR_AND_LOCALITY",
+  "pins": {
+    "native": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+    "word": "6f1bd8465c7a4fa5b7b59888fb5dbd9bbbb88dc3306c984bd71497fd4be7d980",
+    "source_review": "37d995575ad179e524c0de505e5d56f45749b5da73ce3750244c5594e41a9402",
+    "arithmetic": "41b4d0ec79abc43cc32a9b97d8a36fb3805e5602630b07c2f74a5999a281a565",
+    "entropy_review": "582f534eefdac53c4b4a284c01ce24454969327e13014c8d56270ce75b875e23",
+    "mapped": "67b8f94d20704d20e5a609755b692d0bcc85cb264c67a346c01b099a17e2b20e"
+  },
+  "cut": 1893,
+  "stats": {
+    "counts": {
+      "INIT": 184,
+      "ADD": 1356,
+      "MOVE": 464,
+      "CLEAR": 184
+    },
+    "movement_profile": {
+      "1": 139,
+      "2": 103,
+      "4": 103,
+      "7": 119
+    },
+    "owned_downward_profile": {
+      "1": 36
+    },
+    "peak_owned": 184,
+    "dirty_CLEAR": 184,
+    "cut_fields": 406,
+    "cut_owned": 184
+  },
+  "all222_columns": true,
+  "all111_raw_X_Hub": true,
+  "all111_Y_ground": true,
+  "completed_coordinate_outputs": 8,
+  "foreign_axis_coefficients": 412,
+  "proper_half_rank": 56,
+  "axis_plus_half_rank": 64,
+  "actual_canonical_Hub_rank": 9,
+  "direct_captures": 28,
+  "paid_exports": 28,
+  "groups": [
+    {
+      "support": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "roles": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "mode_rows_hex": [
+        "0x700",
+        "0x3800",
+        "0x1b00",
+        "0x2900"
+      ],
+      "rank": 4
+    },
+    {
+      "support": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "roles": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "mode_rows_hex": [
+        "0x3c000",
+        "0x3c0000",
+        "0xcc000",
+        "0x154000"
+      ],
+      "rank": 4
+    },
+    {
+      "support": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "roles": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "mode_rows_hex": [
+        "0x3c00000",
+        "0x3c000000",
+        "0xcc00000",
+        "0x15400000"
+      ],
+      "rank": 4
+    },
+    {
+      "support": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "roles": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "mode_rows_hex": [
+        "0x3c0000000",
+        "0x3c00000000",
+        "0xcc0000000",
+        "0x1540000000"
+      ],
+      "rank": 4
+    },
+    {
+      "support": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "roles": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "mode_rows_hex": [
+        "0x3c000000000",
+        "0x3c0000000000",
+        "0xcc000000000",
+        "0x154000000000"
+      ],
+      "rank": 4
+    },
+    {
+      "support": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "roles": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "mode_rows_hex": [
+        "0x1c00000000000",
+        "0xe000000000000",
+        "0x2c00000000000",
+        "0x7400000000000"
+      ],
+      "rank": 4
+    },
+    {
+      "support": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "roles": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "mode_rows_hex": [
+        "0x70000000000000",
+        "0x780000000000000",
+        "0x190000000000000",
+        "0x2a0000000000000"
+      ],
+      "rank": 4
+    },
+    {
+      "support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "roles": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "mode_rows_hex": [
+        "0x3800000000000000",
+        "0x3c000000000000000",
+        "0xd800000000000000",
+        "0x14800000000000000"
+      ],
+      "rank": 4
+    },
+    {
+      "support": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "roles": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "mode_rows_hex": [
+        "0x1c0000000000000000",
+        "0x1e00000000000000000",
+        "0x640000000000000000",
+        "0xa80000000000000000"
+      ],
+      "rank": 4
+    },
+    {
+      "support": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "roles": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "mode_rows_hex": [
+        "0x1e000000000000000000",
+        "0x1e0000000000000000000",
+        "0x66000000000000000000",
+        "0xaa000000000000000000"
+      ],
+      "rank": 4
+    },
+    {
+      "support": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "roles": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "mode_rows_hex": [
+        "0xe00000000000000000000",
+        "0xf000000000000000000000",
+        "0x3200000000000000000000",
+        "0x5600000000000000000000"
+      ],
+      "rank": 4
+    },
+    {
+      "support": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "roles": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "mode_rows_hex": [
+        "0xf0000000000000000000000",
+        "0xf00000000000000000000000",
+        "0x330000000000000000000000",
+        "0x550000000000000000000000"
+      ],
+      "rank": 4
+    },
+    {
+      "support": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "roles": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102
+      ],
+      "mode_rows_hex": [
+        "0xf000000000000000000000000",
+        "0x70000000000000000000000000",
+        "0x33000000000000000000000000",
+        "0x55000000000000000000000000"
+      ],
+      "rank": 4
+    },
+    {
+      "support": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "roles": [
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "mode_rows_hex": [
+        "0x780000000000000000000000000",
+        "0x7800000000000000000000000000",
+        "0x1980000000000000000000000000",
+        "0x2a80000000000000000000000000"
+      ],
+      "rank": 4
+    }
+  ],
+  "all103_unknown_facets_native_local": [
+    {
+      "receiver": 8,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x7faacca998cce55e168f168f3400"
+    },
+    {
+      "receiver": 9,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x7fd5cc579930e2ae294f294f0800"
+    },
+    {
+      "receiver": 10,
+      "inside_field_count": 189,
+      "unknown_support_mask_hex": "0x7fd5335666cce55e2970e970f100"
+    },
+    {
+      "receiver": 11,
+      "inside_field_count": 185,
+      "unknown_support_mask_hex": "0x7faa335798cf1d51e94f16b0c200"
+    },
+    {
+      "receiver": 12,
+      "inside_field_count": 186,
+      "unknown_support_mask_hex": "0x7fd533a999331aa1d68f2970e500"
+    },
+    {
+      "receiver": 13,
+      "inside_field_count": 186,
+      "unknown_support_mask_hex": "0x7faacc5667331aa1e970d68f1500"
+    },
+    {
+      "receiver": 14,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x557fcccccd9b2666bc33331a1c00"
+    },
+    {
+      "receiver": 15,
+      "inside_field_count": 185,
+      "unknown_support_mask_hex": "0x2affcc33339b21997c330ce51c00"
+    },
+    {
+      "receiver": 16,
+      "inside_field_count": 185,
+      "unknown_support_mask_hex": "0x557f33cd32672196bc0cf324a300"
+    },
+    {
+      "receiver": 17,
+      "inside_field_count": 187,
+      "unknown_support_mask_hex": "0x2aff3332cc6726697c0cccd86300"
+    },
+    {
+      "receiver": 18,
+      "inside_field_count": 186,
+      "unknown_support_mask_hex": "0x557f3332cd98de6943f33321a300"
+    },
+    {
+      "receiver": 19,
+      "inside_field_count": 188,
+      "unknown_support_mask_hex": "0x2aff33cd3398d99683f30cd26300"
+    },
+    {
+      "receiver": 20,
+      "inside_field_count": 186,
+      "unknown_support_mask_hex": "0x557fcc333264d99943ccf30a5c00"
+    },
+    {
+      "receiver": 21,
+      "inside_field_count": 188,
+      "unknown_support_mask_hex": "0x2affcccccc64de6683ccccc59c00"
+    },
+    {
+      "receiver": 22,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x552aff655557c338aabc1a2a9600"
+    },
+    {
+      "receiver": 23,
+      "inside_field_count": 187,
+      "unknown_support_mask_hex": "0x5555ff9b54abc4c8957c252aa900"
+    },
+    {
+      "receiver": 24,
+      "inside_field_count": 189,
+      "unknown_support_mask_hex": "0x2aaaff9aab57c4c76abc24955600"
+    },
+    {
+      "receiver": 25,
+      "inside_field_count": 193,
+      "unknown_support_mask_hex": "0x2ad5ff64aaabc337557c18556900"
+    },
+    {
+      "receiver": 26,
+      "inside_field_count": 189,
+      "unknown_support_mask_hex": "0x5555ff64ab543b376a83e1aaa900"
+    },
+    {
+      "receiver": 27,
+      "inside_field_count": 187,
+      "unknown_support_mask_hex": "0x552aff9aaaa83cc75543d26a9600"
+    },
+    {
+      "receiver": 28,
+      "inside_field_count": 187,
+      "unknown_support_mask_hex": "0x2ad5ff9b55543cc8aa83ca556900"
+    },
+    {
+      "receiver": 29,
+      "inside_field_count": 185,
+      "unknown_support_mask_hex": "0x2aaaff6554a83b389543c5955600"
+    },
+    {
+      "receiver": 30,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x664c66ff999bc78d331a3c332400"
+    },
+    {
+      "receiver": 31,
+      "inside_field_count": 188,
+      "unknown_support_mask_hex": "0x19b399ff999bc072cce53c332400"
+    },
+    {
+      "receiver": 32,
+      "inside_field_count": 188,
+      "unknown_support_mask_hex": "0x664c99fe6667c07d3324bc0cdb00"
+    },
+    {
+      "receiver": 33,
+      "inside_field_count": 194,
+      "unknown_support_mask_hex": "0x19b366fe6667c782ccd87c0cdb00"
+    },
+    {
+      "receiver": 34,
+      "inside_field_count": 190,
+      "unknown_support_mask_hex": "0x663366fe67983f82f32183f31b00"
+    },
+    {
+      "receiver": 35,
+      "inside_field_count": 188,
+      "unknown_support_mask_hex": "0x19cc99fe6798387d0cd243f31b00"
+    },
+    {
+      "receiver": 36,
+      "inside_field_count": 186,
+      "unknown_support_mask_hex": "0x663399ff98643872f30a43cce400"
+    },
+    {
+      "receiver": 37,
+      "inside_field_count": 186,
+      "unknown_support_mask_hex": "0x19cc66ff98643f8d0cc583cce400"
+    },
+    {
+      "receiver": 38,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x6666aaa9ff5722d31a2aaabc2e00"
+    },
+    {
+      "receiver": 39,
+      "inside_field_count": 182,
+      "unknown_support_mask_hex": "0x6619aa57feab2523252a957c1100"
+    },
+    {
+      "receiver": 40,
+      "inside_field_count": 186,
+      "unknown_support_mask_hex": "0x199955a9ff57252ce4956abc2e00"
+    },
+    {
+      "receiver": 41,
+      "inside_field_count": 189,
+      "unknown_support_mask_hex": "0x19e65557feab22dcd855557c1100"
+    },
+    {
+      "receiver": 42,
+      "inside_field_count": 188,
+      "unknown_support_mask_hex": "0x66665557ff54dadce1aaaa83d100"
+    },
+    {
+      "receiver": 43,
+      "inside_field_count": 187,
+      "unknown_support_mask_hex": "0x661955a9fea8dd2cd26a9543ee00"
+    },
+    {
+      "receiver": 44,
+      "inside_field_count": 185,
+      "unknown_support_mask_hex": "0x1999aa57ff54dd230a556a83d100"
+    },
+    {
+      "receiver": 45,
+      "inside_field_count": 188,
+      "unknown_support_mask_hex": "0x19e6aaa9fea8dad305955543ee00"
+    },
+    {
+      "receiver": 46,
+      "inside_field_count": 181,
+      "unknown_support_mask_hex": "0x334caacd55fce1e40f168f16b800"
+    },
+    {
+      "receiver": 47,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x4cccaa32abfce61b0f16b0e97800"
+    },
+    {
+      "receiver": 48,
+      "inside_field_count": 185,
+      "unknown_support_mask_hex": "0x4cb355cd55fce61ab0e94f16b800"
+    },
+    {
+      "receiver": 49,
+      "inside_field_count": 185,
+      "unknown_support_mask_hex": "0x334c553355ff19e9b0d68f294700"
+    },
+    {
+      "receiver": 50,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x4cb3aa3355ff1e104f294f294700"
+    },
+    {
+      "receiver": 51,
+      "inside_field_count": 187,
+      "unknown_support_mask_hex": "0x3333aaccabff19e38f2970d68700"
+    },
+    {
+      "receiver": 52,
+      "inside_field_count": 181,
+      "unknown_support_mask_hex": "0x3319669acd33fca5a659a6598d00"
+    },
+    {
+      "receiver": 53,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x4ce6669b32cffc9a5999a6667200"
+    },
+    {
+      "receiver": 54,
+      "inside_field_count": 179,
+      "unknown_support_mask_hex": "0x4c9966653333fb0a665999a64d00"
+    },
+    {
+      "receiver": 55,
+      "inside_field_count": 181,
+      "unknown_support_mask_hex": "0x4c999964cccffc3a66665999b200"
+    },
+    {
+      "receiver": 56,
+      "inside_field_count": 181,
+      "unknown_support_mask_hex": "0x4ce6999acd33fa4a59a666598d00"
+    },
+    {
+      "receiver": 57,
+      "inside_field_count": 181,
+      "unknown_support_mask_hex": "0x3319999b32cff945a66666667200"
+    },
+    {
+      "receiver": 58,
+      "inside_field_count": 181,
+      "unknown_support_mask_hex": "0x336699653333f8b599a659a64d00"
+    },
+    {
+      "receiver": 59,
+      "inside_field_count": 194,
+      "unknown_support_mask_hex": "0x7870f0f1e1e1a7fe3c3c3c3c3800"
+    },
+    {
+      "receiver": 60,
+      "inside_field_count": 192,
+      "unknown_support_mask_hex": "0x78f0f0e1e1e47fe3c3c3c3c3800"
+    },
+    {
+      "receiver": 61,
+      "inside_field_count": 194,
+      "unknown_support_mask_hex": "0x78ff0f01e1d8ff1c3fc3c03c700"
+    },
+    {
+      "receiver": 62,
+      "inside_field_count": 194,
+      "unknown_support_mask_hex": "0x780ff0f01fe217f1fc03c3fc0700"
+    },
+    {
+      "receiver": 63,
+      "inside_field_count": 192,
+      "unknown_support_mask_hex": "0x7f00f0fe01d2ff1fc03c3fc0700"
+    },
+    {
+      "receiver": 64,
+      "inside_field_count": 194,
+      "unknown_support_mask_hex": "0x780f0f0e1fe0affe03c3c3c3f800"
+    },
+    {
+      "receiver": 65,
+      "inside_field_count": 192,
+      "unknown_support_mask_hex": "0x7f0f0f1e01c57fe03c3c3c3f800"
+    },
+    {
+      "receiver": 66,
+      "inside_field_count": 185,
+      "unknown_support_mask_hex": "0x78253ca6792ab2afd57315730d00"
+    },
+    {
+      "receiver": 67,
+      "inside_field_count": 185,
+      "unknown_support_mask_hex": "0x785ac3598726b2afea8cea8ccd00"
+    },
+    {
+      "receiver": 68,
+      "inside_field_count": 186,
+      "unknown_support_mask_hex": "0x7825c3a786c2b55fd54cd54cf200"
+    },
+    {
+      "receiver": 69,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x7a5c3a7870d4d5feab32ab33200"
+    },
+    {
+      "receiver": 70,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x7dac35986914aafd57315730d00"
+    },
+    {
+      "receiver": 71,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x7a53ca678514aafea8cea8ccd00"
+    },
+    {
+      "receiver": 72,
+      "inside_field_count": 187,
+      "unknown_support_mask_hex": "0x7da3c58782d4d5fd54cd54cf200"
+    },
+    {
+      "receiver": 73,
+      "inside_field_count": 182,
+      "unknown_support_mask_hex": "0x2d703c3cd0797668bfcf0f19a400"
+    },
+    {
+      "receiver": 74,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x52f03cc3287971977fcf30e66400"
+    },
+    {
+      "receiver": 75,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x2d70c33d25857198bff0cf265b00"
+    },
+    {
+      "receiver": 76,
+      "inside_field_count": 186,
+      "unknown_support_mask_hex": "0x52f0c3c2c38576677ff0f0d99b00"
+    },
+    {
+      "receiver": 77,
+      "inside_field_count": 180,
+      "unknown_support_mask_hex": "0x528fc3c30d868e68bfcf0f19a400"
+    },
+    {
+      "receiver": 78,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x2d0fc33c938689977fcf30e66400"
+    },
+    {
+      "receiver": 79,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x528f3cc2527a8998bff0cf265b00"
+    },
+    {
+      "receiver": 80,
+      "inside_field_count": 188,
+      "unknown_support_mask_hex": "0x2d0f3c3c2c7a8e677ff0f0d99b00"
+    },
+    {
+      "receiver": 81,
+      "inside_field_count": 185,
+      "unknown_support_mask_hex": "0x2d5af068b4b5933696bfd996ae00"
+    },
+    {
+      "receiver": 82,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x52daf0914ab594c956bfe6696e00"
+    },
+    {
+      "receiver": 83,
+      "inside_field_count": 181,
+      "unknown_support_mask_hex": "0x52a5f0634b499339697fd9a95100"
+    },
+    {
+      "receiver": 84,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x52a50f854b4a6b3696bfd996ae00"
+    },
+    {
+      "receiver": 85,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x52da0f4b4ab66cc6a97fe6569100"
+    },
+    {
+      "receiver": 86,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x2d250f2ab54a6cc956bfe6696e00"
+    },
+    {
+      "receiver": 87,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x2d5a0f14b4b66b39697fd9a95100"
+    },
+    {
+      "receiver": 88,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x1e3c68f0787997830f19bfcf1c00"
+    },
+    {
+      "receiver": 89,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x61c394f07879907cf0e67fcf1c00"
+    },
+    {
+      "receiver": 90,
+      "inside_field_count": 182,
+      "unknown_support_mask_hex": "0x1e3c92f1878590730f267ff0e300"
+    },
+    {
+      "receiver": 91,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x61c361f18785978cf0d9bff0e300"
+    },
+    {
+      "receiver": 92,
+      "inside_field_count": 182,
+      "unknown_support_mask_hex": "0x61c3860f87866f830f19bfcf1c00"
+    },
+    {
+      "receiver": 93,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x1e3c490f8786687cf0e67fcf1c00"
+    },
+    {
+      "receiver": 94,
+      "inside_field_count": 182,
+      "unknown_support_mask_hex": "0x61c3290e787a68730f267ff0e300"
+    },
+    {
+      "receiver": 95,
+      "inside_field_count": 186,
+      "unknown_support_mask_hex": "0x1e3c160e787a6f8cf0d9bff0e300"
+    },
+    {
+      "receiver": 96,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x1e685a59e0b572dd199696bfd600"
+    },
+    {
+      "receiver": 97,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x1e145aa7e149752d2656a97fe900"
+    },
+    {
+      "receiver": 98,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x6192a559e0b57522e66956bfd600"
+    },
+    {
+      "receiver": 99,
+      "inside_field_count": 186,
+      "unknown_support_mask_hex": "0x61e1a5a7e14972d2d9a9697fe900"
+    },
+    {
+      "receiver": 100,
+      "inside_field_count": 182,
+      "unknown_support_mask_hex": "0x6186a5a61f4a8add199696bfd600"
+    },
+    {
+      "receiver": 101,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x61c9a5581eb68d2d2656a97fe900"
+    },
+    {
+      "receiver": 102,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x1e295aa61f4a8d22e66956bfd600"
+    },
+    {
+      "receiver": 103,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x343c5a3cb5e2b1e5b32ab32abf00"
+    },
+    {
+      "receiver": 104,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x4a3c5ac34be2b61a732a8cd57f00"
+    },
+    {
+      "receiver": 105,
+      "inside_field_count": 184,
+      "unknown_support_mask_hex": "0x4943a53cb5e2b61a4cd5732abf00"
+    },
+    {
+      "receiver": 106,
+      "inside_field_count": 186,
+      "unknown_support_mask_hex": "0x30c3a5c34be2b1e58cd54cd57f00"
+    },
+    {
+      "receiver": 107,
+      "inside_field_count": 181,
+      "unknown_support_mask_hex": "0x4343a5c34a1d49e5b32ab32abf00"
+    },
+    {
+      "receiver": 108,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x24c3a53cb41d4e1a732a8cd57f00"
+    },
+    {
+      "receiver": 109,
+      "inside_field_count": 183,
+      "unknown_support_mask_hex": "0x14bc5ac34a1d4e1a4cd5732abf00"
+    },
+    {
+      "receiver": 110,
+      "inside_field_count": 187,
+      "unknown_support_mask_hex": "0xb3c5a3cb41d49e58cd54cd57f00"
+    }
+  ],
+  "entropy_review": {
+    "terms": 106,
+    "row_counts": {
+      "mono": 27,
+      "submod": 43,
+      "empty": 1,
+      "decode": 35
+    },
+    "core_bound": "11/2",
+    "full_bound": "17/2",
+    "final_coefficient": {
+      "roles": [
+        61,
+        82,
+        83,
+        20,
+        18,
+        71,
+        70,
+        69,
+        74,
+        76,
+        63
+      ],
+      "coefficient": "1"
+    },
+    "expanded_nonnegative_orientation": [
+      {
+        "term": 0,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 1,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 2,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 3,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 4,
+        "rule": "mono",
+        "factor": "1/3",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 5,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              70,
+              71,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 6,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              74,
+              76
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 7,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 8,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              69,
+              70,
+              71,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 9,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              74,
+              76
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              69,
+              70,
+              74,
+              76
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 10,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 11,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              63,
+              69,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 12,
+        "rule": "mono",
+        "factor": "1/3",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 13,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 14,
+        "rule": "mono",
+        "factor": "1/3",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              74,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 15,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              70,
+              71,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              71,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 16,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 17,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              70,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 18,
+        "rule": "mono",
+        "factor": "1/3",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              69,
+              70,
+              74,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              70,
+              74,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 19,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              63,
+              69,
+              74,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              63,
+              74,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 20,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 21,
+        "rule": "mono",
+        "factor": "1/3",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              76,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 22,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              71,
+              74
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 23,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 24,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 25,
+        "rule": "mono",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              69,
+              70,
+              71,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 26,
+        "rule": "mono",
+        "factor": "1/3",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              74,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              69,
+              70,
+              74,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 27,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              70,
+              71,
+              74,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              70,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 28,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              74
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              70,
+              74
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              70,
+              74
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              63,
+              69,
+              70,
+              74
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 29,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              63,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 30,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              70,
+              71,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              70,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              70,
+              71,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              70,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 31,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              69,
+              70,
+              74,
+              76
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              74,
+              76
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 32,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              61,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 33,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              61,
+              70,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              70,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 34,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              69,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              69,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 35,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              71
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              71,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              71,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              71,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 36,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              82
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              82
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 37,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              69,
+              70,
+              71,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              69,
+              70,
+              71,
+              76,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 38,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              63,
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              63,
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              63,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 39,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              63,
+              69,
+              74,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              20,
+              63,
+              69,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              63,
+              69,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              63,
+              69,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 40,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              20,
+              63,
+              69
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              20,
+              63,
+              69,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 41,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              74
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              70,
+              74
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 42,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              70,
+              71,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              70,
+              74,
+              76
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              70,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 43,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              71
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              71,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 44,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              70
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              70,
+              74
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              70,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 45,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              69,
+              70
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              69,
+              70,
+              74
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              69,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              69,
+              70,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 46,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              70,
+              71,
+              74,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              70,
+              71,
+              74,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              70,
+              71,
+              82
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              70,
+              71,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 47,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              63,
+              69
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              63,
+              69
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 48,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              70,
+              74
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              74
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              63,
+              69,
+              70,
+              74
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              63,
+              69,
+              70,
+              74
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 49,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              63,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              63,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 50,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              70,
+              74,
+              76
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              70,
+              74,
+              76
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 51,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              69,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              20,
+              69,
+              70,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              69,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              69,
+              70,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 52,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              70,
+              71,
+              74,
+              82
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              70,
+              71,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              71,
+              74,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              71,
+              82
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 53,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              70,
+              71,
+              74
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              71,
+              74
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              70,
+              71,
+              74
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              71,
+              74
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 54,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              69,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              69,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 55,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              70,
+              71,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 56,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              70,
+              71,
+              74
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              70,
+              71,
+              74
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 57,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              70,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              70,
+              71,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              70,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 58,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              71,
+              74,
+              82
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              71,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              74,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              82
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 59,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              71,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 60,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              71,
+              82
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              69,
+              71,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              69,
+              82
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 61,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 62,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              70,
+              71,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              63,
+              69,
+              71,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              69,
+              70,
+              71,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              69,
+              71,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 63,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 64,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              69,
+              70,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              69,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              70,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              70,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 65,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              63,
+              69,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              20,
+              63,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              69,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 66,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              70,
+              71,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              70,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              70,
+              71,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              70,
+              71,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 67,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              70,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              70,
+              71,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              70,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              70,
+              71,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 68,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              69,
+              70,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              69,
+              70,
+              76,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 69,
+        "rule": "submod",
+        "factor": "1/6",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              76,
+              83
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              63,
+              69,
+              70,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              69,
+              70,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              69,
+              70,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 70,
+        "rule": "empty",
+        "factor": "1",
+        "constant": "0",
+        "coefficient_terms": [
+          {
+            "unknown_set": [],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 71,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              61,
+              70,
+              71,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              70,
+              71,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 72,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              69,
+              70,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              69,
+              70,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 73,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              69,
+              70,
+              71,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              69,
+              70,
+              71,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 74,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 75,
+        "rule": "decode",
+        "factor": "1/3",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              70,
+              74,
+              76,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              70,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 76,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              20,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 77,
+        "rule": "decode",
+        "factor": "-1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              69,
+              82
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              20,
+              69,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 78,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              69,
+              71,
+              82
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              69,
+              71,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 79,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              74
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              20,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 80,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              71,
+              74
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 81,
+        "rule": "decode",
+        "factor": "-1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              61,
+              71,
+              74
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 82,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              71,
+              74,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 83,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              20
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 84,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              74
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              74
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 85,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              61,
+              71,
+              74
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              71,
+              74
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 86,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              70
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              70
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 87,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              69,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              69,
+              82
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 88,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              20,
+              69,
+              70,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              69,
+              70,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 89,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              71,
+              74
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              74
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 90,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              63,
+              69,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              63,
+              69,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 91,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              71,
+              74,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              61,
+              63,
+              69,
+              74,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 92,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              70
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 93,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              69
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              69,
+              70
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 94,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              82
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 95,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              69
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 96,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              63
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              63,
+              69
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 97,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              69,
+              70,
+              71,
+              76,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              61,
+              63,
+              70,
+              71,
+              76,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 98,
+        "rule": "decode",
+        "factor": "1/3",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              74
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 99,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              20,
+              63,
+              74,
+              82,
+              83
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              20,
+              63,
+              82,
+              83
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 100,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              70,
+              74
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              70,
+              74,
+              76
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 101,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              74
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              74,
+              76
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 102,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              74,
+              76,
+              82
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              18,
+              63,
+              69,
+              70,
+              74,
+              82
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 103,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [],
+            "coefficient": "-1"
+          },
+          {
+            "unknown_set": [
+              63
+            ],
+            "coefficient": "1"
+          }
+        ]
+      },
+      {
+        "term": 104,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              63,
+              69,
+              70,
+              74
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              69,
+              70,
+              74
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      },
+      {
+        "term": 105,
+        "rule": "decode",
+        "factor": "1/6",
+        "constant": "1",
+        "coefficient_terms": [
+          {
+            "unknown_set": [
+              63,
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "1"
+          },
+          {
+            "unknown_set": [
+              70,
+              71,
+              74,
+              76
+            ],
+            "coefficient": "-1"
+          }
+        ]
+      }
+    ]
+  },
+  "future_whole_record_downward_moves_lower_bound": 9,
+  "moment": {
+    "rational": [
+      "7891879932764402952736241612866853/5000000000000000000000000000000",
+      "1578375986552880590547248322573417/1000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1578.3759865528805905472483225733706",
+      "1578.375986552880590547248322573417"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "325311702437038235242483708451741/7500000000000000000000000000000",
+      "2602493619496305881939869667618081/60000000000000000000000000000000"
+    ],
+    "decimal": [
+      "43.37489365827176469899782779356546666666666666666666667",
+      "43.37489365827176469899782779363468333333333333333333333"
+    ]
+  },
+  "negative_controls": {
+    "axis_capture": "all original Y columns and proper correction",
+    "axis_descent": "actual cochart ADD at 224",
+    "axis_preload": "all original Y columns and proper correction",
+    "source_half_arrival": "actual cochart ADD at 668",
+    "source_encoding": "all original X restored",
+    "direct_half_capture": "complete actual cut, including unused owners",
+    "paid_half_gather": "complete actual cut, including unused owners",
+    "paid_half_descent": "complete actual cut, including unused owners",
+    "canonical_gather": "complete actual cut, including unused owners",
+    "source_inverse": "all original X restored"
+  },
+  "scope": "Actual partial source for all characteristic-two fields and block widths. Nine future descents follows for fixed-schedule finite-alphabet zero-error continuations with monotone public routes and arbitrary paid nested owned routes. No free global half bank, completed103 unknown outputs, or supplier."
+}

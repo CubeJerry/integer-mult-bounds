@@ -1,5 +1,31 @@
 # Verification ledger
 
+## S020 checkpoint5
+
+Confirmed parent `7dceeb1cbcc42d3deef2b459f52c782dde45e2af`. Twelve focused checks and23 byte-identical outputs
+pass. Twenty-four inherited files match SHA256 and the confirmed checkpoint4
+tree. [Validation](sessions/2026-11-17-S020/CHECKPOINT5-VALIDATION.json),
+[pins](sessions/2026-11-17-S020/SOURCE-PINS-CP5.json),
+[checkpoint4 remote receipt](sessions/2026-11-17-S020/CHECKPOINT4-REMOTE-RECEIPT.json).
+
+| Result | Independent review | Scope boundary |
+|---|---|---|
+|95-ground source |C exact whole-word deletion/reconstruction,341 fields and222 columns.|49-move old screen remains valid but is superseded by quadratic gate.|
+| Proper/meet frame words |C reconstructs A's join,342 fields,7 controls; A separately replays C's meet,5 controls.|Two distinct actual interfaces; neither is a completed decoder.|
+| Quadratic noncover and exact banks |Root Fraction6263 duals; C integer8324 duals with fresh forcing and four cases.|All-real cover theorem, fixed exact banks, linear characteristic-two block scope.|
+| Full-half reservoir |C source/geometry/interpreter;406 fields,56 modes, actual Hub code,10 controls.|All X capacity spent; only8 diagonal outputs complete.|
+| Reservoir nine descents |C all103 locality checks and106-term entropy expansion.|Bank independent; fixed-schedule zero-error finite-alphabet model.|
+| Paid prefix normalizer |Root separate sparse Q(i), all primitive columns,48 ADD controls, bound3, native widths1/2.|Universal tensor proof; full physical compiler and complete caller remain open.|
+
+```bash
+python -B research/moonshot-005-program/sessions/2026-11-17-S020/reproduce_cp5.py --repo . --out /tmp/moonshot-S020-cp5
+```
+
+Python3.11+ and SymPy are required. --only selects a named check; --jobs controls
+parallel processes. Reexecution is not independent proof, and agent review is
+not human or proof-kernel certification. Every historical pin is preserved.
+No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
+
 ## S020 checkpoint4
 
 Confirmed parent `6fa862790e2258e5d1a54f6b7c0a92e14cf54459`.26 focused checks pass with45 byte-identical scientific

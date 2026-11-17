@@ -2349,3 +2349,23 @@ Twenty-six focused checks pass;45 outputs are byte-identical and18 inherited
 pins match the exact confirmed prior tree. All historic registrations and
 scientific pins are preserved. Source validity is separate from continuation
 bank exclusion, and finite controls are separate from universal proofs.
+
+
+## 2026-11-17-S020 — checkpoint5
+
+Confirmed parent `7dceeb1cbcc42d3deef2b459f52c782dde45e2af`; preceding exact-tree/nonforced publication is in
+CHECKPOINT4-REMOTE-RECEIPT. Session continues toward08:06 UTC. No new complete κ.
+
+Admitted95-ground source, actual proper/meet frame modes, quadratic all-real
+first-exit gates, and a physical56-mode reservoir with all111 Y ground and
+all raw X Hub. The newest source costs1578.375986552880590547... and leaves
+43.374893658271764698... movement room; nine future descents are necessary.
+The older natural rank29/30 banks require111 owned ascents, with independently
+reconstructed forcing, rank27 evaluation and rank6 vanisher certificates.
+
+Admitted a paid fixed-prefix source compiler and native gauges, with arbitrary
+borrowed bank restored. Each direction costs24 ADD,48 SCALE,38 MONO, bound3;
+three native normalizations add144/288/228. Target prefixes and full caller
+remain explicit. Twelve focused checks,23 exact outputs and24 inherited pins
+pass. Public Y preconditioning and coupled complex endpoint work continue;
+all foundations, strict suppliers and PR readiness remain open.

@@ -1,0 +1,45 @@
+{
+  "status": "PASS_INDEPENDENT_PAID_PREFIX_NATIVE_NORMALIZER",
+  "arithmetic_sha256": "410c8426e31bc60e76d88095b2ef568c766b46f6dd5a66ff9e8ae9a980a542e2",
+  "author_words_sha256": "910edc04d35cb414202ba275cbc25d1ca21755a7186c9820f88f5f2eecebfe42",
+  "author_proof_sha256": "00087f521760e76198724f4ccd119cbf74fbe7f9b3b4c906df4d560de4130c41",
+  "counts": {
+    "forward": {
+      "MONO": 38,
+      "SCALE": 48,
+      "ADD": 24
+    },
+    "inverse": {
+      "SCALE": 48,
+      "ADD": 24,
+      "MONO": 38
+    }
+  },
+  "uniform_prefix_bounds": {
+    "forward": "3",
+    "inverse": "3"
+  },
+  "omitted_ADD_controls": 48,
+  "all_width_basis": "Exact finite-prefix operator identities tensor the identity; native gauges use a=p*b=b*p. Borrowed bank is restored as an arbitrary input column.",
+  "native_controls": [
+    {
+      "width": 1,
+      "all_native_input_columns": 32,
+      "both_native_types": true,
+      "missing_control_rejected": true
+    },
+    {
+      "width": 2,
+      "all_native_input_columns": 512,
+      "both_native_types": true,
+      "missing_control_rejected": true
+    }
+  ],
+  "three_native_additional": {
+    "ADD": 144,
+    "SCALE": 288,
+    "MONO": 228
+  },
+  "scope": "Local primitive compiler only; full model compiler, whole caller invoice and target-prefix restoration remain explicit.",
+  "new_complete_kappa": false
+}

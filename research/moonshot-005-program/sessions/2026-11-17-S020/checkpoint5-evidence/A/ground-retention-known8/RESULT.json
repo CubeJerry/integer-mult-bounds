@@ -1,0 +1,90 @@
+{
+  "status": "PASS_ACTUAL_EARLY_SOURCE_WITH95_GROUND_Y",
+  "word_sha256": "4628d085fc99ea258f03c374926e1a97852497ff7fe0cec1206cb32bc0bb2c9f",
+  "parent_word_sha256": "1e25b33b748e5ef5599394167acd207d4d3f91afcc202192969adb41734879e7",
+  "source_cut": 794,
+  "ground_public_Y_count": 95,
+  "raised_query_representatives": [
+    8,
+    10,
+    22,
+    23,
+    30,
+    34,
+    38,
+    40,
+    46,
+    48,
+    52,
+    54,
+    73,
+    75,
+    96,
+    98
+  ],
+  "deferred_ground_noncoordinate_Y_count": 87,
+  "correct_coordinate_values_at_ground": 8,
+  "completed_diagonal_outputs_in_closed_word": 8,
+  "unfinished_native_foreign_coefficients": 476,
+  "native_axis_preloads": 412,
+  "sign_preloads": 64,
+  "original_X_rank_histogram": {
+    "1": 79,
+    "2": 16,
+    "3": 16
+  },
+  "original_Y_rank_histogram": {
+    "0": 95,
+    "3": 16
+  },
+  "stats": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 119,
+      "ADD": 603,
+      "MOVE": 310,
+      "CLEAR": 119
+    },
+    "movement_profile": {
+      "1": 72,
+      "2": 16,
+      "4": 16,
+      "5": 16,
+      "6": 16,
+      "7": 174
+    },
+    "dirty_CLEAR": 119,
+    "peak_owned": 119
+  },
+  "moment": {
+    "rational": [
+      "387039170978783852807080566557546355000289649/250000000000000000000000000000000000000000",
+      "774078341957567705614161133115092710000579417/500000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1548.156683915135411228322266230185420001158596",
+      "1548.156683915135411228322266230185420001158834"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "9199274537002118002240485517101195805844577/125000000000000000000000000000000000000000",
+      "441565177776101664107543304820857398680542419/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "73.594196296016944017923884136809566446756616",
+      "73.594196296016944017923884136809566446757069833333333333333333333"
+    ]
+  },
+  "negative_controls": [
+    "omit_actual_native_axis_capture",
+    "omit_prepare_axis_diagonal_value",
+    "omit_ground_native_axis_preload",
+    "omit_G0:early_pair_read",
+    "omit_G1:later_pair_read",
+    "omit_G2:pair_encode",
+    "omit_G3:later_pair_read",
+    "omit_deferred_sign_inverse_at_Hub"
+  ],
+  "scope": "Earlier-axis source with only16 query representatives raised to rank3;87 noncoordinate Y retain native-axis preloads at ground and8 correct coordinate Y remain ground. All111 X source information is retained, with79 raw native,16 raw donors2 and16 pair collectors3. Closed partial word completes8 diagonal outputs. Deferred sign-query reads are not granted."
+}

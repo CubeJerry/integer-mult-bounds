@@ -1,0 +1,46 @@
+{
+  "status": "PASS_PAID_DISTINGUISHED_PREFIX_NATIVE_NORMALIZER",
+  "scope": "local declared primitive compiler and native gauge; no complete endpoint/supplier",
+  "counts_forward": {
+    "MONO": 38,
+    "SCALE": 48,
+    "ADD": 24
+  },
+  "counts_inverse": {
+    "SCALE": 48,
+    "ADD": 24,
+    "MONO": 38
+  },
+  "prefix_gaussian_l1_forward": "3",
+  "prefix_gaussian_l1_inverse": "3",
+  "uniform_prefix_bound": "3",
+  "primitive_omitted_ADD_failures": 48,
+  "all_width_basis": "fixed-prefix commutator identity and tensoring identities",
+  "width_controls": [
+    {
+      "width": 1,
+      "native_all_input_columns": 32,
+      "lower_and_upper_normalized": true,
+      "borrowed_bank_restored_by_local_word": true
+    },
+    {
+      "width": 2,
+      "native_all_input_columns": 512,
+      "lower_and_upper_normalized": true,
+      "borrowed_bank_restored_by_local_word": true
+    }
+  ],
+  "one_normalized_native_additional": {
+    "ADD": 48,
+    "SCALE": 96,
+    "MONO": 76
+  },
+  "three_normalized_natives_additional": {
+    "ADD": 144,
+    "SCALE": 288,
+    "MONO": 228
+  },
+  "new_gaussian_queries": 0,
+  "new_owners": 0,
+  "new_kappa": false
+}

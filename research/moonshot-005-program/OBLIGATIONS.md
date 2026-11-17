@@ -1,25 +1,21 @@
-# Current proof-dependency map — S020 checkpoint4
+# Proof-dependency map — S020 checkpoint5
 
-No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. This is ongoing research and is not PR-ready.
+No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
 
-| Proposition | Reviewed status | Next obligation |
+| Obligation | Current proved component | Next mathematical work |
 |---|---|---|
-| Eight correct coordinate outputs before Y ascent |Actual all222-column source;111 X directions; exact inverse and invoice.|Complete103 remaining endpoints in one chronological word.|
-| Direct-pair and cross-quartet exports |Six independently reconstructed source words, including coordinate-first.|Information gain must pay changed native access and delivery.|
-| Dormant first-exit fanout |75 owned ascents at five exact cuts; all-field block dual proof.|Do not transfer counts to changed source inventories.|
-| Fresh71 transcript |17/2 entropy, hence9 whole transfers;355 locality audits.|Re-audit after fresh source acquisition; no9-lifetime claim.|
-| Natural banks at five earlier cuts |84-move necessary bound exceeds room.|Change descending directions, source timing or route contract.|
-| Cross-quartet acquisition banks |83/213 ascents; nineteen-mode full rank56 grant needs105.|One-mode full rank56 grant remains unexcluded.|
-| Active as well as dormant native exits |General lemma; early-axis rank29 bank requires127 owned ascents.|More ground public Ys or different actual bank may change bound.|
-| Ground-retention refinement |New author word under independent review, outside this checkpoint.|Replay all columns and reassess actual bank/access costs.|
-| Joint endpoint-image capacity |Permuted Klein family fails24>15 in collective representation.|Changed prefix coefficients need a valid physical prefix representation.|
-| Distinguished-column plus unit |All-width ordinary-template unit/inverse with exact local bill.|Full compiler/model admission and compatible coupled Klein endpoints.|
-| Crot source-coset frame |Universal scoped exclusion survives fixed matrix prefixes.|Use an actually different first interface, not the closed rotation family.|
-| Strict BIT and complex suppliers |Both open.|Complete bills, all outer constraints and unbounded-size assembly.|
+| Physical richer BIT bank |56 pure half modes at proper rank-three charts; axes+halves rank64; actual C9 Hub.|Turn actual mode locations into a complete chronological decoder.|
+| Public source access |All111 Y ground, all111 raw X Hub; snapshots retained.|Use public Y routes without losing arbitrary baselines or granting free copies.|
+| Information delivery |All103 facet-locality checks; bank-independent9 future descents.|Price all further packet, receiver and correction movements within43.3749 room.|
+|95-ground and frame cuts |Exact partial words,8 completed outputs each.|Their natural rank29/30 banks are closed by111-ascent quadratic gates.|
+| All-real first-exit geometry |Rank27 quadratic evaluations and rank6 kernel forms prohibit two-subspace covers.|Re-derive forcing for every new source and bank.|
+| Fixed-prefix ordinary implementation |Actual p/p^-1 words; arbitrary borrower restored; both native types normalized.|Pay target-prefix restoration and complete actual endpoint words.|
+| Independent complex jobs |Positive local units and native gauges; exact closed families recorded.|All three input columns and ordinary encoder/decoder units, full invoice.|
+| Strict suppliers and full theorem |Both suppliers and outer assembly remain open.|B>.005,U>.005, all strict/functional constraints and unbounded-size recursion.|
 
-All five foundations remain native_all_columns, owned_erasure, compiler,
-precision_tape, analytic_recovery. Earlier proofs remain registered with their
-precise source, field, schedule, route and representation hypotheses. No finite
-checker alone proves a universal theorem. Selected conditional κ=.00363005817.
-See [REGISTERED-RESULTS](REGISTERED-RESULTS.json) and the
-[previous map](sessions/2026-11-17-S020/logical-records-before-cp4/OBLIGATIONS.md).
+All five foundational assumptions remain native_all_columns, owned_erasure,
+compiler, precision_tape, analytic_recovery. Local primitive compilation is a
+proved component, not a discharge of the full compiler assumption. No finite
+replay alone proves an all-width theorem. Historical results retain exact scopes
+in [REGISTERED-RESULTS](REGISTERED-RESULTS.json) and the
+[previous map](sessions/2026-11-17-S020/logical-records-before-cp5/OBLIGATIONS.md).

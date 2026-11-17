@@ -1,0 +1,174 @@
+{
+  "status": "PASS_S020_CHECKPOINT5_FOCUSED_REPRODUCTION",
+  "checks": [
+    {
+      "name": "ground",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint5-evidence/A/build_ground_retention_source.py",
+      "script_sha256": "ef8b12da35bf08e7852a36046624f2887e58773fc291a493a71de7902f85161b",
+      "exit_code": 0
+    },
+    {
+      "name": "proper-frame",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint5-evidence/A/build_frame_derived_proper_export.py",
+      "script_sha256": "8578a0c5d0e196da28a487ff43814c99318c2db1097e49f124fef016d9a33983",
+      "exit_code": 0
+    },
+    {
+      "name": "meet-frame",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint5-evidence/C/meet-frame-export/build.py",
+      "script_sha256": "4f21b6c182c03b8b8385bddf8dfcf9fac6b8280c537a71ce2e9eee7f87074ed5",
+      "exit_code": 0
+    },
+    {
+      "name": "quadratic-ground",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint5-evidence/A/check_quadratic_first_exit.py",
+      "script_sha256": "47ff3233f95f7b562c0beca7e74a453123530318d20800187593d0b6784e745c",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-ground",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint5-evidence/C/ground-retention-review/check.py",
+      "script_sha256": "e04ff6b5c26355afc3ae4d43e71859ea653e265ffc54cb7a21e02285ff69de4d",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-meet",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint5-evidence/A/review_meet_frame_export.py",
+      "script_sha256": "52013d7c7c4109c38fa698985ea02f4e80dc395375d542ce81a6b26f5c9f99ae",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-frame-gates",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint5-evidence/R/quadratic-frame-gates/check.py",
+      "script_sha256": "adf60bb3814afee3e19d61270b75c10166ad69f01f30af82889d7e78e3eb2728",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-quadratic-and-proper",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint5-evidence/C/frame-quadratic-review/check.py",
+      "script_sha256": "42dbbcfbd467971a72e3a4044f45b7303a3eb97e409652f2c6c3ebc821999355",
+      "exit_code": 0
+    },
+    {
+      "name": "reservoir",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint5-evidence/A/build_full_half_reservoir.py",
+      "script_sha256": "ab35a4d7ab281becfd195a3b8cbe2f7f851f978a7e50f94c85554afd19f62039",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-reservoir",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint5-evidence/C/full-half-reservoir-review/check.py",
+      "script_sha256": "c505a460edef8996db27ea2f2070652d7c6af1a84e1b8b455b21915a2e92c143",
+      "exit_code": 0
+    },
+    {
+      "name": "prefix-normalizer",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint5-evidence/B/distinguished-prefix-native-normalizer/check.py",
+      "script_sha256": "6aac1bf8d8f57179e2008a102af6c5b6b0da8d56a758c55800ec53318de59e79",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-prefix",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint5-evidence/R/prefix-normalizer-review/check.py",
+      "script_sha256": "29be00aad569f6e4586960d84b9fb093a48f1da85ad4630ec57c7900f630ea1c",
+      "exit_code": 0
+    }
+  ],
+  "exact_reproductions": [
+    {
+      "path": "A/ground-retention-known8/WORD.json",
+      "sha256": "4628d085fc99ea258f03c374926e1a97852497ff7fe0cec1206cb32bc0bb2c9f"
+    },
+    {
+      "path": "A/ground-retention-known8/RESULT.json",
+      "sha256": "0c1702fb21cc582c636334c66205095966bf08408b63b7933421e6cf4877d0c8"
+    },
+    {
+      "path": "A/ground-retention-known8/CUT-INVENTORY.json",
+      "sha256": "6561ece3238e1232487b2147b41301d0cdffd89abe837748dff1357b6aa97aed"
+    },
+    {
+      "path": "A/frame-derived-proper-export/WORD.json",
+      "sha256": "bad2213d8bab1c61d08a97bff2e1e21f24bdff9d22be6f7de09c84853b2efe85"
+    },
+    {
+      "path": "A/frame-derived-proper-export/RESULT.json",
+      "sha256": "611b4c8beeb39ba750ea7205bc4c030392a8d56fa5885eeb50877c1efea1aa83"
+    },
+    {
+      "path": "A/frame-derived-proper-export/CUT-INVENTORY.json",
+      "sha256": "6319806e8c7b3ed2c6ec74cb1e9d8e3bb3c3263e770e81ded79613bf5e5a23c3"
+    },
+    {
+      "path": "C/meet-frame-export/output/WORD.json",
+      "sha256": "54fada571a96571697f3e87b50ee613a9042ee9577703f90ab13b2f7a172ff95"
+    },
+    {
+      "path": "C/meet-frame-export/output/RESULT.json",
+      "sha256": "db77ec5d5f170cfa256c3b08df42ae73b96538d35082c26c1d376600ed7f6e49"
+    },
+    {
+      "path": "C/meet-frame-export/output/CUT-INVENTORY.json",
+      "sha256": "0456ccafa687221670de0e65a22bc81217c6daa92b7f7870e83c622a5d06df18"
+    },
+    {
+      "path": "A/quadratic-first-exit/CERTIFICATE.json",
+      "sha256": "8bce0a94b5a94b334d5e107d34db1d9979280ad10b9bcd1cc68ea67b4c0eab96"
+    },
+    {
+      "path": "C/ground-retention-review/output/RESULT.json",
+      "sha256": "4301c9eb0dfa109121f30710d7b05817efb5fd9c6586d2bd2be0bac766d367da"
+    },
+    {
+      "path": "C/ground-retention-review/output/INDEPENDENT-CUT.json",
+      "sha256": "0ffffea5082804f34db4dadedc1b53f6ed6e3afff85ec2cd3082880ad561275c"
+    },
+    {
+      "path": "A/meet-frame-export-review/RESULT.json",
+      "sha256": "d284e941b5ed784bc0e73f13eeec42ab93cde6381416fef0e26c782c6b43ce4f"
+    },
+    {
+      "path": "R/quadratic-frame-gates/output/CERTIFICATE.json",
+      "sha256": "c337777618e5531919f46fe8b1465bf34b91beacb296bce461b02ba2f38b26f4"
+    },
+    {
+      "path": "C/frame-quadratic-review/output/CERTIFICATE.json",
+      "sha256": "c0be15cb0d690fe8044356c4a3f36555644ad39c081815f9fe25700a013631c5"
+    },
+    {
+      "path": "A/full-half-reservoir/WORD.json",
+      "sha256": "6f1bd8465c7a4fa5b7b59888fb5dbd9bbbb88dc3306c984bd71497fd4be7d980"
+    },
+    {
+      "path": "A/full-half-reservoir/RESULT.json",
+      "sha256": "edbc3bbd062d4114092dc55ddf51e7b913dd35a906d5af1e4a7810d52085aa42"
+    },
+    {
+      "path": "A/full-half-reservoir/CUT-INVENTORY.json",
+      "sha256": "668af067842aed7bfd0e1a3ea403756d9aaf3cd3a0cd678c29d5ca344ad4adb8"
+    },
+    {
+      "path": "C/full-half-reservoir-review/output/CERTIFICATE.json",
+      "sha256": "3d81db097029eae545b9cb90c3f2211ac90de25e5171b0f036aa2ddf1f36b367"
+    },
+    {
+      "path": "C/full-half-reservoir-review/output/INDEPENDENT-CUT.json",
+      "sha256": "9c3b5745e015eb14926e6ecb0ff8f1df877116eddd9799e448650c61d8866aac"
+    },
+    {
+      "path": "B/distinguished-prefix-native-normalizer/RESULT.json",
+      "sha256": "436f9cfd40076dba441503e3c9f4d7c1b2544cdbc35ffb4777951477c477d67a"
+    },
+    {
+      "path": "B/distinguished-prefix-native-normalizer/WORDS.json",
+      "sha256": "910edc04d35cb414202ba275cbc25d1ca21755a7186c9820f88f5f2eecebfe42"
+    },
+    {
+      "path": "R/prefix-normalizer-review/output/RESULT.json",
+      "sha256": "795372565845aae886b58c6b4823abd631146c900acfb9a209b3010ec4c0f39a"
+    }
+  ],
+  "source_pins_sha256": "d81bffc205faccb19209c42c33d2c909d411b352b6b03c717514f17da4155628",
+  "independence": "A sources independently reconstructed by C, and C meet source by A. Quadratic gates reconstructed by root Fraction and C exact-integer methods, with fresh source-specific duals. B paid prefix word independently replayed by root using C sparse Q(i). Reexecution is not independent proof.",
+  "new_complete_kappa": false
+}

@@ -1,0 +1,5646 @@
+{
+  "status": "PASS_INDEPENDENT95_GROUND_Y_SOURCE_AND_SCOPED49_MOVE_INTERFACE",
+  "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "word_sha256": "4628d085fc99ea258f03c374926e1a97852497ff7fe0cec1206cb32bc0bb2c9f",
+  "parent_sha256": "1e25b33b748e5ef5599394167acd207d4d3f91afcc202192969adb41734879e7",
+  "cut": 794,
+  "live_fields": 341,
+  "stats": {
+    "counts": {
+      "INIT": 119,
+      "ADD": 603,
+      "MOVE": 310,
+      "CLEAR": 119
+    },
+    "movement_profile": {
+      "1": 72,
+      "2": 16,
+      "4": 16,
+      "5": 16,
+      "6": 16,
+      "7": 174
+    },
+    "owned_downward_profile": {
+      "1": 8
+    },
+    "peak_owned": 119,
+    "dirty_CLEAR": 119,
+    "cut_fields": 341,
+    "cut_owned": 119
+  },
+  "representative_roles": [
+    8,
+    10,
+    22,
+    23,
+    30,
+    34,
+    38,
+    40,
+    46,
+    48,
+    52,
+    54,
+    73,
+    75,
+    96,
+    98
+  ],
+  "deferred_roles": [
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    31,
+    32,
+    33,
+    35,
+    36,
+    37,
+    39,
+    41,
+    42,
+    43,
+    44,
+    45,
+    47,
+    49,
+    50,
+    51,
+    53,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    74,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    97,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "completed_diagonal_values_at_ground": 8,
+  "unfinished_native_foreign_coefficients": 476,
+  "source_original_X_rank": 111,
+  "moment": {
+    "rational": [
+      "193519585489391926403540283278771/125000000000000000000000000000",
+      "1548156683915135411228322266230199/1000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1548.156683915135411228322266230168",
+      "1548.156683915135411228322266230199"
+    ]
+  },
+  "necessary_room": {
+    "rational": [
+      "137989118055031770033607282756469/1875000000000000000000000000000",
+      "4415651777761016641075433048210237/60000000000000000000000000000000"
+    ],
+    "decimal": [
+      "73.59419629601694401792388413678346666666666666666666667",
+      "73.59419629601694401792388413683728333333333333333333333"
+    ]
+  },
+  "negative_controls": {
+    "omit_actual_native_axis_capture": "all original Y columns and proper correction",
+    "omit_paid_native_axis_descent": "actual cochart ADD at 224",
+    "omit_prepare_axis_diagonal_value": "all original Y columns and proper correction",
+    "omit_ground_native_axis_preload": "all original Y columns and proper correction",
+    "omit_G0:early_pair_read": "all original Y columns and proper correction",
+    "omit_G1:later_pair_read": "all original Y columns and proper correction",
+    "omit_G2:pair_encode": "all original X restored",
+    "omit_G3:later_pair_read": "all original Y columns and proper correction",
+    "omit_deferred_sign_inverse_at_Hub": "all original X restored"
+  },
+  "fixed_bank_rank": 29,
+  "prior_dual_certificate_sha256": "1aadaa3f045080410a86adbb602d3b6c99e6a2fb03ab4353e3fda4cf74639eba",
+  "reverified_source_witnesses": [
+    {
+      "native_role": 8,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        10,
+        12,
+        13,
+        16,
+        17,
+        49,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 10,
+          "dual_hex": "0xa00a000000000000000000500"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x22005000000000000000001100"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x14000000000000000000002100"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x2800003081000000000000010100"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x500000c101000000000000020100"
+        },
+        {
+          "receiver": 49,
+          "dual_hex": "0xc20000080000002000000000100"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x2000000900002008000000000100"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X8",
+        "NATIVE_8"
+      ],
+      "public_fields_already_on_line": [
+        "X8"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 9,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        11,
+        16,
+        17,
+        18,
+        49,
+        50,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 11,
+          "dual_hex": "0x4400a000000000000000000a00"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x2800000081000000000000010200"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x5000000101000000000000020200"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0xa0000c100400000000000040200"
+        },
+        {
+          "receiver": 49,
+          "dual_hex": "0xc10000080000002000000000200"
+        },
+        {
+          "receiver": 50,
+          "dual_hex": "0x1240000080000004000000000200"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x7060000900002008000000000200"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X9",
+        "NATIVE_9"
+      ],
+      "public_fields_already_on_line": [
+        "X9"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 10,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        12,
+        13,
+        14,
+        15,
+        49,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x50005000000000000000000500"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x28000000000000000000001400"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x4400a000000000000000002400"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x3100400000000000004400"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0xc080400000000000008400"
+        },
+        {
+          "receiver": 49,
+          "dual_hex": "0x4420000080000002000000000400"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x1000000900002008000000000400"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X10",
+        "NATIVE_10"
+      ],
+      "public_fields_already_on_line": [
+        "X10"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 11,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        14,
+        15,
+        20,
+        46,
+        48,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x2200a000000000000000000a00"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0xa00000100400000000000004800"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x1400000080400000000000008800"
+        },
+        {
+          "receiver": 20,
+          "dual_hex": "0x280000c081000000000000100800"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0xc20000080000000400000000800"
+        },
+        {
+          "receiver": 48,
+          "dual_hex": "0x3008000080000001000000000800"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x20c000810000801000000000800"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X11",
+        "NATIVE_11"
+      ],
+      "public_fields_already_on_line": [
+        "X11"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 12,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        10,
+        13,
+        14,
+        15,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x44005000000000000000001100"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x28000000000000000000001400"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x5000a000000000000000003000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0xa00003100400000000000005000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x140000c080400000000000009000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0xc10000080000000400000001000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x200000810000801000000001000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X12",
+        "NATIVE_12"
+      ],
+      "public_fields_already_on_line": [
+        "X12"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 13,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        10,
+        12,
+        16,
+        17,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x14000000000000000000002100"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x2200a000000000000000002400"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0xa005000000000000000003000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x2200003081000000000000012000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x440000c101000000000000022000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4410000080000000400000002000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x100000810000801000000002000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X13",
+        "NATIVE_13"
+      ],
+      "public_fields_already_on_line": [
+        "X13"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 14,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        10,
+        11,
+        12,
+        17,
+        20,
+        47,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 10,
+          "dual_hex": "0xa00a101000000000000004400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x14000041000000000000004800"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x28000040800000000000005000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x500000c000000000000000024000"
+        },
+        {
+          "receiver": 20,
+          "dual_hex": "0xa00000000000000000000104000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x2000000100000000800000004000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x40000900002008000000004000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X14",
+        "NATIVE_14"
+      ],
+      "public_fields_already_on_line": [
+        "X14"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 15,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        10,
+        11,
+        12,
+        16,
+        21,
+        46,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 10,
+          "dual_hex": "0xa000101000000000000008400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x1400a041000000000000008800"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x28005040800000000000009000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x2800003000000000000000018000"
+        },
+        {
+          "receiver": 21,
+          "dual_hex": "0x1400000000000000000000208000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4000000080000000400000008000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x6040000900002008000000008000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X15",
+        "NATIVE_15"
+      ],
+      "public_fields_already_on_line": [
+        "X15"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 16,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        13,
+        15,
+        18,
+        47,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x41000000000000010100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x40800000000000010200"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x4400a100800000000000012000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x500000c000000000000000018000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0xa00000000000000000000050000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x1030000100000000800000010000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x6020000900002008000000010000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X16",
+        "NATIVE_16"
+      ],
+      "public_fields_already_on_line": [
+        "X16"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 17,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        13,
+        14,
+        19,
+        46,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x5041000000000000020100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0xa040800000000000020200"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x44000100800000000000022000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2800003000000000000000024000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x14000000000000000000000a0000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x830000080000000400000020000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x20000900002008000000020000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X17",
+        "NATIVE_17"
+      ],
+      "public_fields_already_on_line": [
+        "X17"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 18,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        13,
+        15,
+        16,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x14000041000000000000040100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x28000040800000000000040200"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x5000a100800000000000042000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x440000c000000000000000048000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0xa00000000000000000000050000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x430000080000000400000040000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x8000810000801000000040000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X18",
+        "NATIVE_18"
+      ],
+      "public_fields_already_on_line": [
+        "X18"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 19,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        13,
+        14,
+        17,
+        47,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x14005041000000000000080100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x2800a040800000000000080200"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x50000100800000000000082000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2200003000000000000000084000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x14000000000000000000000a0000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x230000100000000800000080000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x608000810000801000000080000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X19",
+        "NATIVE_19"
+      ],
+      "public_fields_already_on_line": [
+        "X19"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 20,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        10,
+        11,
+        12,
+        14,
+        17,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 10,
+          "dual_hex": "0x2200a101000000000000100400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x41000000000000100800"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x40800000000000101000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0xa00000000000000000000104000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x440000c000000000000000120000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4c00000080000000400000100000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x304000810000801000000100000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X20",
+        "NATIVE_20"
+      ],
+      "public_fields_already_on_line": [
+        "X20"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 21,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        10,
+        11,
+        12,
+        15,
+        16,
+        47,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 10,
+          "dual_hex": "0x22000101000000000000200400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0xa041000000000000200800"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x5040800000000000201000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x1400000000000000000000208000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x2200003000000000000000210000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x3200000100000000800000200000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x504000810000801000000200000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X21",
+        "NATIVE_21"
+      ],
+      "public_fields_already_on_line": [
+        "X21"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 22,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        12,
+        15,
+        27,
+        47,
+        66
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x2008000000400000002400200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x8002000000200000002400400"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x20001000000400000002401000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x5400008000000400000002408000"
+        },
+        {
+          "receiver": 27,
+          "dual_hex": "0x29400000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x1200008100000100800002400000"
+        },
+        {
+          "receiver": 66,
+          "dual_hex": "0x740000100040000000002400000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_22"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 23,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        11,
+        13,
+        15,
+        26,
+        47,
+        67
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x54004000000200000001800100"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x10002000000200000001800800"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x40008000000400000001802000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x5400008000000400000032808000"
+        },
+        {
+          "receiver": 26,
+          "dual_hex": "0x16800000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x120000810000010080000e800000"
+        },
+        {
+          "receiver": 67,
+          "dual_hex": "0x220000040080000000001800000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_23"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 24,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        12,
+        14,
+        46,
+        48,
+        66
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x2008000000400000017000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x8002000000200000017000400"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x20001000000400000017001000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2a00002000000100000001804000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0xc00002080000400400001800000"
+        },
+        {
+          "receiver": 48,
+          "dual_hex": "0x2200002080000101000001800000"
+        },
+        {
+          "receiver": 66,
+          "dual_hex": "0x74000010004000000002b000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_24"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 25,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        11,
+        13,
+        14,
+        46,
+        48,
+        67
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x5400400000020000002b000100"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x1000200000020000002b000800"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x4000800000040000002b002000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2a0000200000010000000e804000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0xc00002080000400400032800000"
+        },
+        {
+          "receiver": 48,
+          "dual_hex": "0x2200002080000101000032800000"
+        },
+        {
+          "receiver": 67,
+          "dual_hex": "0x220000040080000000017000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_25"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 26,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        11,
+        13,
+        15,
+        23,
+        46,
+        66
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x54004000000200000024000100"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x10002000000200000024000800"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x40008000000400000024002000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x5400008000000400000024008000"
+        },
+        {
+          "receiver": 23,
+          "dual_hex": "0x16800000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0xc00002080000400400024000000"
+        },
+        {
+          "receiver": 66,
+          "dual_hex": "0x740000100040000000024000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_26"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 27,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        12,
+        15,
+        22,
+        46,
+        67
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x2008000000400000018000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x8002000000200000018000400"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x20001000000400000018001000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x5400008000000400000018008000"
+        },
+        {
+          "receiver": 22,
+          "dual_hex": "0x29400000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0xc00002080000400400018000000"
+        },
+        {
+          "receiver": 67,
+          "dual_hex": "0x220000040080000000018000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_27"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 28,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        11,
+        13,
+        14,
+        47,
+        51,
+        66
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x54004000000200000018000100"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x10002000000200000018000800"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x40008000000400000018002000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2a00002000000100000018004000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x1200008100000100800018000000"
+        },
+        {
+          "receiver": 51,
+          "dual_hex": "0x4448002100000408000018000000"
+        },
+        {
+          "receiver": 66,
+          "dual_hex": "0x740000100040000000018000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_28"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 29,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        12,
+        14,
+        47,
+        51,
+        67
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x2008000000400000024000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x8002000000200000024000400"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x20001000000400000024001000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2a00002000000100000024004000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x1200008100000100800024000000"
+        },
+        {
+          "receiver": 51,
+          "dual_hex": "0x4448002100000408000024000000"
+        },
+        {
+          "receiver": 67,
+          "dual_hex": "0x220000040080000000024000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_29"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 30,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        16,
+        17,
+        20,
+        33,
+        35,
+        55,
+        62
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 16,
+          "dual_hex": "0x2000002000000400001040010000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x4000008000000100001040020000"
+        },
+        {
+          "receiver": 20,
+          "dual_hex": "0x200004000000400001040100000"
+        },
+        {
+          "receiver": 33,
+          "dual_hex": "0x2640000000"
+        },
+        {
+          "receiver": 35,
+          "dual_hex": "0x2400000000000000002c40000000"
+        },
+        {
+          "receiver": 55,
+          "dual_hex": "0x2200000000000280001040000000"
+        },
+        {
+          "receiver": 62,
+          "dual_hex": "0x120000800004000001040000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_30"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 31,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        16,
+        17,
+        20,
+        32,
+        34,
+        52,
+        62
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 16,
+          "dual_hex": "0x2000002000000400002080010000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x4000008000000100002080020000"
+        },
+        {
+          "receiver": 20,
+          "dual_hex": "0x200004000000400002080100000"
+        },
+        {
+          "receiver": 32,
+          "dual_hex": "0x1980000000"
+        },
+        {
+          "receiver": 34,
+          "dual_hex": "0x900000000000000001c80000000"
+        },
+        {
+          "receiver": 52,
+          "dual_hex": "0x4460000000000210002080000000"
+        },
+        {
+          "receiver": 62,
+          "dual_hex": "0x120000800004000002080000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_31"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 32,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        14,
+        15,
+        18,
+        31,
+        37,
+        52,
+        62
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 14,
+          "dual_hex": "0x800001000000100000500004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x1000004000000400000500008000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x2a00008000000100000500040000"
+        },
+        {
+          "receiver": 31,
+          "dual_hex": "0x1980000000"
+        },
+        {
+          "receiver": 37,
+          "dual_hex": "0x2400000000000000003900000000"
+        },
+        {
+          "receiver": 52,
+          "dual_hex": "0x4460000000000210000500000000"
+        },
+        {
+          "receiver": 62,
+          "dual_hex": "0x120000800004000003900000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_32"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 33,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        14,
+        15,
+        18,
+        30,
+        36,
+        55,
+        62
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 14,
+          "dual_hex": "0x800001000000100000a00004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x1000004000000400000a00008000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x2a00008000000100000a00040000"
+        },
+        {
+          "receiver": 30,
+          "dual_hex": "0x2640000000"
+        },
+        {
+          "receiver": 36,
+          "dual_hex": "0x900000000000000003600000000"
+        },
+        {
+          "receiver": 55,
+          "dual_hex": "0x2200000000000280000a00000000"
+        },
+        {
+          "receiver": 62,
+          "dual_hex": "0x120000800004000000a00000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_33"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 34,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        16,
+        17,
+        20,
+        32,
+        55,
+        56,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 16,
+          "dual_hex": "0x2000002000000400003600010000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x4000008000000100003600020000"
+        },
+        {
+          "receiver": 20,
+          "dual_hex": "0x200004000000400003600100000"
+        },
+        {
+          "receiver": 32,
+          "dual_hex": "0x900000000000000000500000000"
+        },
+        {
+          "receiver": 55,
+          "dual_hex": "0x2200000000000280000500000000"
+        },
+        {
+          "receiver": 56,
+          "dual_hex": "0x2200000000000500000500000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x104000800000800000500000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_34"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 35,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        16,
+        17,
+        20,
+        33,
+        52,
+        53,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 16,
+          "dual_hex": "0x2000002000000400000a00010000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x4000008000000100000a00020000"
+        },
+        {
+          "receiver": 20,
+          "dual_hex": "0x200004000000400000a00100000"
+        },
+        {
+          "receiver": 33,
+          "dual_hex": "0x2400000000000000000a00000000"
+        },
+        {
+          "receiver": 52,
+          "dual_hex": "0x4460000000000210000a00000000"
+        },
+        {
+          "receiver": 53,
+          "dual_hex": "0x1200000000000220000a00000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x104000800000800000a00000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_35"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 36,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        14,
+        15,
+        18,
+        30,
+        52,
+        53,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 14,
+          "dual_hex": "0x800001000000100001c80004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x1000004000000400001c80008000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x2a00008000000100001c80040000"
+        },
+        {
+          "receiver": 30,
+          "dual_hex": "0x900000000000000001040000000"
+        },
+        {
+          "receiver": 52,
+          "dual_hex": "0x4460000000000210003600000000"
+        },
+        {
+          "receiver": 53,
+          "dual_hex": "0x1200000000000220003600000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x104000800000800001380000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_36"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 37,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        14,
+        15,
+        18,
+        31,
+        55,
+        56,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 14,
+          "dual_hex": "0x800001000000100002080004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x1000004000000400002080008000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x2a00008000000100002080040000"
+        },
+        {
+          "receiver": 31,
+          "dual_hex": "0x2400000000000000002080000000"
+        },
+        {
+          "receiver": 55,
+          "dual_hex": "0x2200000000000280003900000000"
+        },
+        {
+          "receiver": 56,
+          "dual_hex": "0x2200000000000500003900000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x104000800000800002080000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_37"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 38,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        11,
+        18,
+        19,
+        41,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x2a008000000400104000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x20002000000200104000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x4002000000200104000000800"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x200004000000100104000040000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x400001000000400104000080000"
+        },
+        {
+          "receiver": 41,
+          "dual_hex": "0x264000000000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x2040000800002000104000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_38"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 39,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        12,
+        18,
+        19,
+        20,
+        40,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x40004000000200208000000100"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x8001000000400208000001000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x200004000000100208000040000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x400001000000400208000080000"
+        },
+        {
+          "receiver": 20,
+          "dual_hex": "0x2a00008000000400208000100000"
+        },
+        {
+          "receiver": 40,
+          "dual_hex": "0x198000000000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x2040000800002000208000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_39"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 40,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        11,
+        18,
+        19,
+        39,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x2a008000000400050000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x20002000000200050000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x4002000000200050000000800"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x200004000000100390000040000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x400001000000400390000080000"
+        },
+        {
+          "receiver": 39,
+          "dual_hex": "0x198000000000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x2040000800002000390000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_40"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 41,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        12,
+        18,
+        19,
+        20,
+        38,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x400040000002000a0000000100"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x80010000004000a0000001000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x2000040000001000a0000040000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x4000010000004000a0000080000"
+        },
+        {
+          "receiver": 20,
+          "dual_hex": "0x2a000080000004000a0000100000"
+        },
+        {
+          "receiver": 38,
+          "dual_hex": "0x264000000000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x20400008000020000a0000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_41"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 42,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        12,
+        14,
+        15,
+        16,
+        40,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x40004000000200050000000100"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x8001000000400050000001000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2000002000000100050000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x4000008000000400050000008000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x800001000000400050000010000"
+        },
+        {
+          "receiver": 40,
+          "dual_hex": "0x2460000000000000050000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x408000800000800050000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_42"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 43,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        11,
+        14,
+        15,
+        41,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x2a0080000004000a0000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x200020000002000a0000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x40020000002000a0000000800"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x20000020000001000a0000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x40000080000004000a0000008000"
+        },
+        {
+          "receiver": 41,
+          "dual_hex": "0x60180000000000000a0000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x4080008000008000a0000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_43"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 44,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        12,
+        14,
+        15,
+        16,
+        38,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x40004000000200390000000100"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x8001000000400390000001000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2000002000000100138000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x4000008000000400138000008000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x800001000000400138000010000"
+        },
+        {
+          "receiver": 38,
+          "dual_hex": "0x1818000000000000104000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x408000800000800138000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_44"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 45,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        11,
+        14,
+        15,
+        39,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x2a008000000400360000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x20002000000200360000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x4002000000200360000000800"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2000002000000100208000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x4000008000000400208000008000"
+        },
+        {
+          "receiver": 39,
+          "dual_hex": "0x960000000000000208000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x408000800000800208000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_45"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 46,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        11,
+        12,
+        13,
+        15,
+        18,
+        50,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 11,
+          "dual_hex": "0x5400a040000000400000000800"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x2005040000000400000001000"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x5400a100000000400000002000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x4000000080000000400000008000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x20000c100000000400000040000"
+        },
+        {
+          "receiver": 50,
+          "dual_hex": "0x3048000000000004400000000000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x4040000800002008400000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X46",
+        "NATIVE_46"
+      ],
+      "public_fields_already_on_line": [
+        "X46"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 47,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        11,
+        12,
+        13,
+        14,
+        19,
+        48,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 11,
+          "dual_hex": "0x54000040000000800000000800"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x2000040000000800000001000"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x54000100000000800000002000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2000000100000000800000004000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x400003080000000800000080000"
+        },
+        {
+          "receiver": 48,
+          "dual_hex": "0x3000000000000001800000000000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x2040000800002008800000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X47",
+        "NATIVE_47"
+      ],
+      "public_fields_already_on_line": [
+        "X47"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 48,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        11,
+        12,
+        13,
+        15,
+        18,
+        47,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 11,
+          "dual_hex": "0x400a040000001000000000800"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x8005040000001000000001000"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x400a100000001000000002000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x1000000080000001000000008000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x2a0000c100000001000000040000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x3000000000000001800000000000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x1040000800002009000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X48",
+        "NATIVE_48"
+      ],
+      "public_fields_already_on_line": [
+        "X48"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 49,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        10,
+        14,
+        19,
+        47,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x54005040000002000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x200a040000002000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x200a100000002000000000400"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x200003100000002000000004000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x4000000080000002000000080000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x2230000000000002800000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x408000800000803000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X49",
+        "NATIVE_49"
+      ],
+      "public_fields_already_on_line": [
+        "X49"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 50,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        10,
+        14,
+        19,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x4005040000004000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x800a040000004000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x800a100000004000000000400"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2a00003100000004000000004000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x1000000080000004000000080000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0xc30000000000004400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x108000800000805000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X50",
+        "NATIVE_50"
+      ],
+      "public_fields_already_on_line": [
+        "X50"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 51,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        10,
+        15,
+        18,
+        47,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x4000040000008000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x8000040000008000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x8000100000008000000000400"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x540000c080000008000000008000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x800000100000008000000040000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x1230000000000008800000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x708000800000809000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X51",
+        "NATIVE_51"
+      ],
+      "public_fields_already_on_line": [
+        "X51"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 52,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        10,
+        11,
+        15,
+        16,
+        47,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x4004000000010000000000100"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x2002000000010000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x40002000000010000000000800"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x400004000000010000000008000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x2a00002000000010000000010000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x2230008100000010800000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x408000010000811000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X52",
+        "NATIVE_52"
+      ],
+      "public_fields_already_on_line": [
+        "X52"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 53,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        12,
+        13,
+        14,
+        17,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x8002000000020000000000200"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x2a004000000020000000001000"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x10002000000020000000002000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x200002000000020000000004000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x5400004000000020000000020000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4400002080000020400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x204000010000821000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X53",
+        "NATIVE_53"
+      ],
+      "public_fields_already_on_line": [
+        "X53"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 54,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        10,
+        11,
+        14,
+        17,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x4001000000040000000000100"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x2008000000040000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x40008000000040000000000800"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x200001000000040000000004000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x5400008000000040000000020000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4430002080000040400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x208000010000841000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X54",
+        "NATIVE_54"
+      ],
+      "public_fields_already_on_line": [
+        "X54"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 55,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        12,
+        13,
+        15,
+        16,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x2008000000080000000000200"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x20001000000080000000001000"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x40008000000080000000002000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x5400008000000080000000008000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x200001000000080000000010000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0xc00002080000080400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x104000010000881000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X55",
+        "NATIVE_55"
+      ],
+      "public_fields_already_on_line": [
+        "X55"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 56,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        10,
+        11,
+        15,
+        16,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x54004000000100000000000100"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x8002000000100000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x10002000000100000000000800"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x5400004000000100000000008000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x200002000000100000000010000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0xc30002080000100400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x108000010000901000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X56",
+        "NATIVE_56"
+      ],
+      "public_fields_already_on_line": [
+        "X56"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 57,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        12,
+        13,
+        14,
+        17,
+        47,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x2002000000200000000000200"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x20004000000200000000001000"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x40002000000200000000002000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2a00002000000200000000004000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x400004000000200000000020000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x1200008100000200800000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x704000010000a01000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X57",
+        "NATIVE_57"
+      ],
+      "public_fields_already_on_line": [
+        "X57"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 58,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        10,
+        11,
+        14,
+        17,
+        47,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x54001000000400000000000100"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x8008000000400000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x10008000000400000000000800"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2a00001000000400000000004000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x400008000000400000000020000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x1230008100000400800000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x708000010000c01000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X58",
+        "NATIVE_58"
+      ],
+      "public_fields_already_on_line": [
+        "X58"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 59,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        11,
+        12,
+        13,
+        18,
+        19,
+        49,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 11,
+          "dual_hex": "0x1000a041000a00000000000800"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x20005040800c00000000001000"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x1000a100800c00000000002000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x80000c100400900000000040000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x1000003080400c00000000080000"
+        },
+        {
+          "receiver": 49,
+          "dual_hex": "0x810000080000c02000000000000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x3060000000002800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X59",
+        "NATIVE_59"
+      ],
+      "public_fields_already_on_line": [
+        "X59"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 60,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        11,
+        12,
+        13,
+        18,
+        19,
+        49,
+        62
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 11,
+          "dual_hex": "0x5400a041001200000000000800"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x2005040801400000000001000"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x5400a100801400000000002000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x2a0000c100401100000000040000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x5400003080401400000000080000"
+        },
+        {
+          "receiver": 49,
+          "dual_hex": "0x4c10000080001402000000000000"
+        },
+        {
+          "receiver": 62,
+          "dual_hex": "0x60000000005000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X60",
+        "NATIVE_60"
+      ],
+      "public_fields_already_on_line": [
+        "X60"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 61,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        10,
+        14,
+        15,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x54005041002200000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x200a040802400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x200a101002200000000000400"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2a00003100402100000000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x540000c080402400000000008000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4c10000080002400400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x60c000000002800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X61",
+        "NATIVE_61"
+      ],
+      "public_fields_already_on_line": [
+        "X61"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 62,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        10,
+        18,
+        19,
+        46,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x40000041004200000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x2a000040804400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x2a000101004200000000000400"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x200000100404100000000040000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x400000080404400000000080000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4010000080004400400000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x60000000005000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X62",
+        "NATIVE_62"
+      ],
+      "public_fields_already_on_line": [
+        "X62"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 63,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        10,
+        18,
+        19,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x4000041008200000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x8000040808400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x8000101008200000000000400"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x2000000100408100000000040000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x4000000080408400000000080000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x410000080008400400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x50c000000008800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X63",
+        "NATIVE_63"
+      ],
+      "public_fields_already_on_line": [
+        "X63"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 64,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        49,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 11,
+          "dual_hex": "0x40000041010200000000000800"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x2a000040810400000000001000"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x40000100810400000000002000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x200000100410100000000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x400000080410400000000008000"
+        },
+        {
+          "receiver": 49,
+          "dual_hex": "0x4010000080010402000000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x300000000010800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X64",
+        "NATIVE_64"
+      ],
+      "public_fields_already_on_line": [
+        "X64"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 65,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        49,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 11,
+          "dual_hex": "0x4000041020200000000000800"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x8000040820400000000001000"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x4000100820400000000002000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2000000100420100000000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x4000000080420400000000008000"
+        },
+        {
+          "receiver": 49,
+          "dual_hex": "0x410000080020402000000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x3000000000021000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X65",
+        "NATIVE_65"
+      ],
+      "public_fields_already_on_line": [
+        "X65"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 66,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        10,
+        11,
+        16,
+        17,
+        46,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x40004001040200000000000100"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x20002001040200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x4002001040200000000000800"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x800001001040400000000010000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x1000004001040100000000020000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x810002000040400400000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x3060008100041000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X66",
+        "NATIVE_66"
+      ],
+      "public_fields_already_on_line": [
+        "X66"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 67,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        10,
+        11,
+        14,
+        15,
+        46,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x10001001080200000000000100"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x2a008001080200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x54008001080200000000000800"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2000001000480100000000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x4000004000480400000000008000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4010002000080400400000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x60008100081000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X67",
+        "NATIVE_67"
+      ],
+      "public_fields_already_on_line": [
+        "X67"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 68,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        12,
+        13,
+        14,
+        15,
+        46,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x20002000900400000000000200"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x2004000900400000000001000"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x4002000900400000000002000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2000002000500100000000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x4000008000500400000000008000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4020002000100400400000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x5000008100101000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X68",
+        "NATIVE_68"
+      ],
+      "public_fields_already_on_line": [
+        "X68"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 69,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        12,
+        13,
+        16,
+        17,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x8008000a00400000000000200"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x2a001000a00400000000001000"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x10008000a00400000000002000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x2a00002001200400000000010000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x5400008001200100000000020000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4c20002000200400400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x600000810200800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X69",
+        "NATIVE_69"
+      ],
+      "public_fields_already_on_line": [
+        "X69"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 70,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        10,
+        11,
+        16,
+        17,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x4004001400200000000000100"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x2002001400200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x40002001400200000000000800"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x2a00001001400400000000010000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x5400004001400100000000020000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4c10002000400400400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x60c000810400800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X70",
+        "NATIVE_70"
+      ],
+      "public_fields_already_on_line": [
+        "X70"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 71,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        10,
+        11,
+        14,
+        15,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x54001001800200000000000100"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x8008001800200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x10008001800200000000000800"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x200001000c00100000000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x400004000c00400000000008000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x410002000800400400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x50c000810800800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X71",
+        "NATIVE_71"
+      ],
+      "public_fields_already_on_line": [
+        "X71"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 72,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        12,
+        13,
+        14,
+        15,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x2002001800400000000000200"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x20004001800400000000001000"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x40002001800400000000002000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x200002001400100000000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x400008001400400000000008000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x420002001000400400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x500000811000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X72",
+        "NATIVE_72"
+      ],
+      "public_fields_already_on_line": [
+        "X72"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 73,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        10,
+        13,
+        15,
+        16,
+        19,
+        47,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 10,
+          "dual_hex": "0x20008102000200000000000400"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x54002102000400000000002000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x4000008082000400000000008000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x800001082000400000000010000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x400001082000400000000080000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x8002000100800000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x7020008102001000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X73",
+        "NATIVE_73"
+      ],
+      "public_fields_already_on_line": [
+        "X73"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 74,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        10,
+        13,
+        14,
+        17,
+        18,
+        46,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 10,
+          "dual_hex": "0x20002104000200000000000400"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x54008104000400000000002000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2000002104000100000000004000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x1000004104000100000000020000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x200004104000100000000040000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x2004000400400000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x1020008104001000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X74",
+        "NATIVE_74"
+      ],
+      "public_fields_already_on_line": [
+        "X74"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 75,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        11,
+        14,
+        17,
+        47,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x40001048000200000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x2a002048000400000000000200"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x4008048000200000000000800"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x800001108000100000000004000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x4000008108000100000000020000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x3030008008000100800000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x1040008108001000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X75",
+        "NATIVE_75"
+      ],
+      "public_fields_already_on_line": [
+        "X75"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 76,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        11,
+        15,
+        16,
+        46,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x40004050000200000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x2a008050000400000000000200"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x4002050000200000000000800"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x1000004090000400000000008000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x2000002090000400000000010000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4830002010000400400000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x7040008110001000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X76",
+        "NATIVE_76"
+      ],
+      "public_fields_already_on_line": [
+        "X76"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 77,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        10,
+        13,
+        15,
+        16,
+        19,
+        47,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 10,
+          "dual_hex": "0x2008120000200000000000400"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x10002120000400000000002000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x4000080a0000400000000008000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x2a000010a0000400000000010000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x40000010a0000400000000080000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x2200008020000100800000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x208000830000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X77",
+        "NATIVE_77"
+      ],
+      "public_fields_already_on_line": [
+        "X77"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 78,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        10,
+        13,
+        14,
+        17,
+        18,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 10,
+          "dual_hex": "0x2002140000200000000000400"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x10008140000400000000002000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x200002140000100000000004000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x5400004140000100000000020000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x2000004140000100000000040000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4400002040000400400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x408000850000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X78",
+        "NATIVE_78"
+      ],
+      "public_fields_already_on_line": [
+        "X78"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 79,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        11,
+        14,
+        17,
+        47,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x40010c0000200000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x80020c0000400000000000200"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x400080c0000200000000000800"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2a00001180000100000000004000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x400008180000100000000020000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x1230008080000100800000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x104000890000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X79",
+        "NATIVE_79"
+      ],
+      "public_fields_already_on_line": [
+        "X79"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 80,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        11,
+        15,
+        16,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x4004140000200000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x8008140000400000000000200"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x40002140000200000000000800"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x5400004180000400000000008000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x200002180000400000000010000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0xc30002100000400400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x704000910000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X80",
+        "NATIVE_80"
+      ],
+      "public_fields_already_on_line": [
+        "X80"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 81,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        11,
+        15,
+        18,
+        47,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x20000200000400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x2a00a200000200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x5400a200000200000000000800"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x1000000200000400000000008000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x2a0000c200000100000000040000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x3000000300000100800000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x4020000200001000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X81",
+        "NATIVE_81"
+      ],
+      "public_fields_already_on_line": [
+        "X81"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 82,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        11,
+        14,
+        19,
+        46,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x2000a400000400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x2a000400000200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x54000400000200000000000800"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x800000400000100000000004000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x5400003400000400000000080000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4800000480000400400000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x2020000400001000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X82",
+        "NATIVE_82"
+      ],
+      "public_fields_already_on_line": [
+        "X82"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 83,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        12,
+        14,
+        16,
+        19,
+        46,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x10005800000200000000000100"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x2000800000400000000001000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x800003800000100000000004000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x2000000800000400000000010000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x5400000800000400000000080000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4830000880000400400000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x7040000800001000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X83",
+        "NATIVE_83"
+      ],
+      "public_fields_already_on_line": [
+        "X83"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 84,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        11,
+        15,
+        18,
+        47,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x2001000000400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x800b000000200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x1000b000000200000000000800"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x5400001000000400000000008000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x80000d000000100000000040000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x1200001100000100800000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x108001000000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X84",
+        "NATIVE_84"
+      ],
+      "public_fields_already_on_line": [
+        "X84"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 85,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        12,
+        15,
+        17,
+        18,
+        47,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x54002000000200000000000100"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x20007000000400000000001000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x540000e000000400000000008000"
+        },
+        {
+          "receiver": 17,
+          "dual_hex": "0x400002000000100000000020000"
+        },
+        {
+          "receiver": 18,
+          "dual_hex": "0x800002000000100000000040000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x1230002100000100800000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x104002000000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X85",
+        "NATIVE_85"
+      ],
+      "public_fields_already_on_line": [
+        "X85"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 86,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        11,
+        14,
+        19,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x200e000000400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x8004000000200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x10004000000200000000000800"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2a00004000000100000000004000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x1000007000000400000000080000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0xc00004080000400400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x708004000000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X86",
+        "NATIVE_86"
+      ],
+      "public_fields_already_on_line": [
+        "X86"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 87,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        12,
+        14,
+        16,
+        19,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x5400d000000200000000000100"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x20008000000400000000001000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2a0000b000000100000000004000"
+        },
+        {
+          "receiver": 16,
+          "dual_hex": "0x200008000000400000000010000"
+        },
+        {
+          "receiver": 19,
+          "dual_hex": "0x1000008000000400000000080000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0xc30008080000400400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x704008000000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X87",
+        "NATIVE_87"
+      ],
+      "public_fields_already_on_line": [
+        "X87"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 88,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        48,
+        49,
+        55,
+        56,
+        57,
+        60,
+        64
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 48,
+          "dual_hex": "0x1248212080000101000000000000"
+        },
+        {
+          "receiver": 49,
+          "dual_hex": "0x4400218080000402000000000000"
+        },
+        {
+          "receiver": 55,
+          "dual_hex": "0x1200210000000280000000000000"
+        },
+        {
+          "receiver": 56,
+          "dual_hex": "0x1200210000000500000000000000"
+        },
+        {
+          "receiver": 57,
+          "dual_hex": "0x4460210000000600000000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x2040218000001000000000000000"
+        },
+        {
+          "receiver": 64,
+          "dual_hex": "0x140218000010000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_88"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 89,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        46,
+        47,
+        50,
+        52,
+        53,
+        60,
+        64
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 46,
+          "dual_hex": "0x30122080000400400000000000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x30128100000100800000000000"
+        },
+        {
+          "receiver": 50,
+          "dual_hex": "0x1200128080000104000000000000"
+        },
+        {
+          "receiver": 52,
+          "dual_hex": "0xc60120000000210000000000000"
+        },
+        {
+          "receiver": 53,
+          "dual_hex": "0x2200120000000220000000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x2040e28000001000000000000000"
+        },
+        {
+          "receiver": 64,
+          "dual_hex": "0x140e28000010000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_89"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 90,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        48,
+        49,
+        52,
+        53,
+        54,
+        60,
+        64
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 48,
+          "dual_hex": "0x1248842080000101000000000000"
+        },
+        {
+          "receiver": 49,
+          "dual_hex": "0x4400848080000402000000000000"
+        },
+        {
+          "receiver": 52,
+          "dual_hex": "0xc60840000000210000000000000"
+        },
+        {
+          "receiver": 53,
+          "dual_hex": "0x2200840000000220000000000000"
+        },
+        {
+          "receiver": 54,
+          "dual_hex": "0x2200840000000440000000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x2040848000001000000000000000"
+        },
+        {
+          "receiver": 64,
+          "dual_hex": "0x140848000010000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_90"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 91,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        46,
+        47,
+        50,
+        55,
+        56,
+        60,
+        64
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 46,
+          "dual_hex": "0x30482080000400400000000000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x30488100000100800000000000"
+        },
+        {
+          "receiver": 50,
+          "dual_hex": "0x1200488080000104000000000000"
+        },
+        {
+          "receiver": 55,
+          "dual_hex": "0x1200480000000280000000000000"
+        },
+        {
+          "receiver": 56,
+          "dual_hex": "0x1200480000000500000000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x2040488000001000000000000000"
+        },
+        {
+          "receiver": 64,
+          "dual_hex": "0x140488000010000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_91"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 92,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        48,
+        49,
+        55,
+        56,
+        57,
+        59,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 48,
+          "dual_hex": "0x1248b82080000101000000000000"
+        },
+        {
+          "receiver": 49,
+          "dual_hex": "0x4400b88080000402000000000000"
+        },
+        {
+          "receiver": 55,
+          "dual_hex": "0x1200740000000280000000000000"
+        },
+        {
+          "receiver": 56,
+          "dual_hex": "0x1200740000000500000000000000"
+        },
+        {
+          "receiver": 57,
+          "dual_hex": "0x4460740000000600000000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x204120800000800000000000000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x1020120800002000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_92"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 93,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        46,
+        47,
+        50,
+        52,
+        53,
+        59,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 46,
+          "dual_hex": "0x30742080000400400000000000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x30748100000100800000000000"
+        },
+        {
+          "receiver": 50,
+          "dual_hex": "0x1200748080000104000000000000"
+        },
+        {
+          "receiver": 52,
+          "dual_hex": "0xc60b80000000210000000000000"
+        },
+        {
+          "receiver": 53,
+          "dual_hex": "0x2200b80000000220000000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x2042e0800000800000000000000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x10202e0800002000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_93"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 94,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        48,
+        49,
+        52,
+        53,
+        54,
+        59,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 48,
+          "dual_hex": "0x1248482080000101000000000000"
+        },
+        {
+          "receiver": 49,
+          "dual_hex": "0x4400488080000402000000000000"
+        },
+        {
+          "receiver": 52,
+          "dual_hex": "0xc60480000000210000000000000"
+        },
+        {
+          "receiver": 53,
+          "dual_hex": "0x2200480000000220000000000000"
+        },
+        {
+          "receiver": 54,
+          "dual_hex": "0x2200480000000440000000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x204480800000800000000000000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x1020480800002000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_94"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 95,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        46,
+        47,
+        50,
+        55,
+        56,
+        59,
+        61
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 46,
+          "dual_hex": "0x30842080000400400000000000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x30848100000100800000000000"
+        },
+        {
+          "receiver": 50,
+          "dual_hex": "0x1200848080000104000000000000"
+        },
+        {
+          "receiver": 55,
+          "dual_hex": "0x1200840000000280000000000000"
+        },
+        {
+          "receiver": 56,
+          "dual_hex": "0x1200840000000500000000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x204840800000800000000000000"
+        },
+        {
+          "receiver": 61,
+          "dual_hex": "0x1020840800002000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "NATIVE_95"
+      ],
+      "public_fields_already_on_line": [],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 96,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        12,
+        14,
+        15,
+        48,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x1002000000400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0xb008000000200000000000400"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x23004000000400000000001000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2801002100400100000000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x5001008080400400000000008000"
+        },
+        {
+          "receiver": 48,
+          "dual_hex": "0x1209002080000101000000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x2001008000001000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X96",
+        "NATIVE_96"
+      ],
+      "public_fields_already_on_line": [
+        "X96"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 97,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        11,
+        13,
+        14,
+        15,
+        48,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x2001000000200000000000100"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x46008000000200000000000800"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x16002000000400000000002000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2802001100400100000000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x5002004080400400000000008000"
+        },
+        {
+          "receiver": 48,
+          "dual_hex": "0x3042002080000101000000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x7062008000001000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X97",
+        "NATIVE_97"
+      ],
+      "public_fields_already_on_line": [
+        "X97"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 98,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        12,
+        14,
+        15,
+        46,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0xe002000000400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x4008000000200000000000400"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x2c004000000400000000001000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x4002100400100000000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x4008080400400000000008000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x24002080000400400000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x7004008000001000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X98",
+        "NATIVE_98"
+      ],
+      "public_fields_already_on_line": [
+        "X98"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 99,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        11,
+        13,
+        14,
+        15,
+        46,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x58001000000200000000000100"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x1c008000000200000000000800"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x4c002000000400000000002000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x8001100400100000000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x8004080400400000000008000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x18002080000400400000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x2068008000001000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X99",
+        "NATIVE_99"
+      ],
+      "public_fields_already_on_line": [
+        "X99"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 100,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        12,
+        14,
+        15,
+        48,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x32002000000400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x38008000000200000000000400"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x10004000000400000000001000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0xa10002100400100000000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x1410008080400400000000008000"
+        },
+        {
+          "receiver": 48,
+          "dual_hex": "0x3018002080000101000000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x210000800000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X100",
+        "NATIVE_100"
+      ],
+      "public_fields_already_on_line": [
+        "X100"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 101,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        11,
+        13,
+        14,
+        15,
+        48,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x64001000000200000000000100"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x20008000000200000000000800"
+        },
+        {
+          "receiver": 13,
+          "dual_hex": "0x70002000000400000000002000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0xa20001100400100000000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x1420004080400400000000008000"
+        },
+        {
+          "receiver": 48,
+          "dual_hex": "0x1260002080000101000000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x22c000800000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X101",
+        "NATIVE_101"
+      ],
+      "public_fields_already_on_line": [
+        "X101"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 102,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        9,
+        10,
+        12,
+        14,
+        15,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 9,
+          "dual_hex": "0x68002000000400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x62008000000200000000000400"
+        },
+        {
+          "receiver": 12,
+          "dual_hex": "0x4a004000000400000000001000"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2240002100400100000000004000"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x4440008080400400000000008000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4460002080000400400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x740000800000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X102",
+        "NATIVE_102"
+      ],
+      "public_fields_already_on_line": [
+        "X102"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 103,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        10,
+        11,
+        15,
+        47,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0xd0004041000200000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x8a008040800400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x8a008101000200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x94002041000200000000000800"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x80004000000400000000008000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x20b0008100000100800000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0xc0008000001000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X103",
+        "NATIVE_103"
+      ],
+      "public_fields_already_on_line": [
+        "X103"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 104,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        46,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x150001041000200000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x10a002040800400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x10a002101000200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x114008041000200000000000800"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x100001000000100000000004000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x4130002080000400400000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x6140008000001000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X104",
+        "NATIVE_104"
+      ],
+      "public_fields_already_on_line": [
+        "X104"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 105,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        10,
+        11,
+        15,
+        46,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x200004041000200000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x200008040800400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x200008101000200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x244002041000200000000000800"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x5200004000000400000000008000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0xa30002080000400400000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x5240008000001000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X105",
+        "NATIVE_105"
+      ],
+      "public_fields_already_on_line": [
+        "X105"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 106,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        47,
+        60
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x400001041000200000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x400002040800400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x400002101000200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x444008041000200000000000800"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x2c00001000000100000000004000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x1430008100000100800000000000"
+        },
+        {
+          "receiver": 60,
+          "dual_hex": "0x3440008000001000000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X106",
+        "NATIVE_106"
+      ],
+      "public_fields_already_on_line": [
+        "X106"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 107,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        10,
+        11,
+        15,
+        47,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x814004041000200000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x828008040800400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x828008101000200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x850002041000200000000000800"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x4c00004000000400000000008000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0xa30008100000100800000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x804000800000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X107",
+        "NATIVE_107"
+      ],
+      "public_fields_already_on_line": [
+        "X107"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 108,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x1014001041000200000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x1028002040800400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x1028002101000200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x1050008041000200000000000800"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x3200001000000100000000004000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x1430002080000400400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x1604000800000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X108",
+        "NATIVE_108"
+      ],
+      "public_fields_already_on_line": [
+        "X108"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 109,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        10,
+        11,
+        15,
+        46,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x2044004041000200000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x2022008040800400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x2022008101000200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x2000002041000200000000000800"
+        },
+        {
+          "receiver": 15,
+          "dual_hex": "0x3400004000000400000000008000"
+        },
+        {
+          "receiver": 46,
+          "dual_hex": "0x6c30002080000400400000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x2504000800000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X109",
+        "NATIVE_109"
+      ],
+      "public_fields_already_on_line": [
+        "X109"
+      ],
+      "minimum_native_departures": 2
+    },
+    {
+      "native_role": 110,
+      "forced_receiver_normal_rank": 7,
+      "independent_receiver_roles": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        47,
+        59
+      ],
+      "dual_witnesses": [
+        {
+          "receiver": 8,
+          "dual_hex": "0x4044001041000200000000000100"
+        },
+        {
+          "receiver": 9,
+          "dual_hex": "0x4022002040800400000000000200"
+        },
+        {
+          "receiver": 10,
+          "dual_hex": "0x4022002101000200000000000400"
+        },
+        {
+          "receiver": 11,
+          "dual_hex": "0x4000008041000200000000000800"
+        },
+        {
+          "receiver": 14,
+          "dual_hex": "0x4a00001000000100000000004000"
+        },
+        {
+          "receiver": 47,
+          "dual_hex": "0x7230008100000100800000000000"
+        },
+        {
+          "receiver": 59,
+          "dual_hex": "0x4304000800000800000000000000"
+        }
+      ],
+      "actual_native_line_fields": [
+        "X110",
+        "NATIVE_110"
+      ],
+      "public_fields_already_on_line": [
+        "X110"
+      ],
+      "minimum_native_departures": 2
+    }
+  ],
+  "native_departure_lower_bound": 206,
+  "native_public_departure_credit": 71,
+  "ground_public_departure_credit": 95,
+  "owned_upward_lower_bound": 40,
+  "mapped_entropy_certificate_sha256": "67b8f94d20704d20e5a609755b692d0bcc85cb264c67a346c01b099a17e2b20e",
+  "fresh_locality_audits": [
+    {
+      "receiver": 8,
+      "inside_fields": 213
+    },
+    {
+      "receiver": 9,
+      "inside_fields": 209
+    },
+    {
+      "receiver": 10,
+      "inside_fields": 217
+    },
+    {
+      "receiver": 11,
+      "inside_fields": 213
+    },
+    {
+      "receiver": 12,
+      "inside_fields": 213
+    },
+    {
+      "receiver": 13,
+      "inside_fields": 213
+    },
+    {
+      "receiver": 14,
+      "inside_fields": 209
+    },
+    {
+      "receiver": 15,
+      "inside_fields": 205
+    },
+    {
+      "receiver": 16,
+      "inside_fields": 205
+    },
+    {
+      "receiver": 17,
+      "inside_fields": 205
+    },
+    {
+      "receiver": 18,
+      "inside_fields": 209
+    },
+    {
+      "receiver": 19,
+      "inside_fields": 209
+    },
+    {
+      "receiver": 20,
+      "inside_fields": 205
+    },
+    {
+      "receiver": 21,
+      "inside_fields": 209
+    },
+    {
+      "receiver": 46,
+      "inside_fields": 205
+    },
+    {
+      "receiver": 47,
+      "inside_fields": 205
+    },
+    {
+      "receiver": 48,
+      "inside_fields": 209
+    },
+    {
+      "receiver": 49,
+      "inside_fields": 209
+    },
+    {
+      "receiver": 50,
+      "inside_fields": 205
+    },
+    {
+      "receiver": 51,
+      "inside_fields": 213
+    },
+    {
+      "receiver": 52,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 53,
+      "inside_fields": 211
+    },
+    {
+      "receiver": 54,
+      "inside_fields": 203
+    },
+    {
+      "receiver": 55,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 56,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 57,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 58,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 59,
+      "inside_fields": 209
+    },
+    {
+      "receiver": 60,
+      "inside_fields": 205
+    },
+    {
+      "receiver": 61,
+      "inside_fields": 209
+    },
+    {
+      "receiver": 62,
+      "inside_fields": 209
+    },
+    {
+      "receiver": 63,
+      "inside_fields": 205
+    },
+    {
+      "receiver": 64,
+      "inside_fields": 209
+    },
+    {
+      "receiver": 65,
+      "inside_fields": 205
+    },
+    {
+      "receiver": 66,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 67,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 68,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 69,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 70,
+      "inside_fields": 203
+    },
+    {
+      "receiver": 71,
+      "inside_fields": 203
+    },
+    {
+      "receiver": 72,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 73,
+      "inside_fields": 215
+    },
+    {
+      "receiver": 74,
+      "inside_fields": 215
+    },
+    {
+      "receiver": 75,
+      "inside_fields": 215
+    },
+    {
+      "receiver": 76,
+      "inside_fields": 219
+    },
+    {
+      "receiver": 77,
+      "inside_fields": 211
+    },
+    {
+      "receiver": 78,
+      "inside_fields": 215
+    },
+    {
+      "receiver": 79,
+      "inside_fields": 215
+    },
+    {
+      "receiver": 80,
+      "inside_fields": 223
+    },
+    {
+      "receiver": 81,
+      "inside_fields": 221
+    },
+    {
+      "receiver": 82,
+      "inside_fields": 217
+    },
+    {
+      "receiver": 83,
+      "inside_fields": 213
+    },
+    {
+      "receiver": 84,
+      "inside_fields": 217
+    },
+    {
+      "receiver": 85,
+      "inside_fields": 217
+    },
+    {
+      "receiver": 86,
+      "inside_fields": 217
+    },
+    {
+      "receiver": 87,
+      "inside_fields": 217
+    },
+    {
+      "receiver": 96,
+      "inside_fields": 211
+    },
+    {
+      "receiver": 97,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 98,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 99,
+      "inside_fields": 211
+    },
+    {
+      "receiver": 100,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 101,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 102,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 103,
+      "inside_fields": 215
+    },
+    {
+      "receiver": 104,
+      "inside_fields": 211
+    },
+    {
+      "receiver": 105,
+      "inside_fields": 211
+    },
+    {
+      "receiver": 106,
+      "inside_fields": 211
+    },
+    {
+      "receiver": 107,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 108,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 109,
+      "inside_fields": 207
+    },
+    {
+      "receiver": 110,
+      "inside_fields": 211
+    }
+  ],
+  "bank_independent_owned_descent_lower_bound": 9,
+  "conditional_future_owned_move_lower_bound": 49,
+  "mandatory_profile": {
+    "1": 121,
+    "2": 16,
+    "4": 16,
+    "5": 16,
+    "6": 16,
+    "7": 174
+  },
+  "residual_necessary_room": {
+    "rational": [
+      "737825888880508320537716524103357/30000000000000000000000000000000",
+      "1475651777761016641075433048210237/60000000000000000000000000000000"
+    ],
+    "decimal": [
+      "24.59419629601694401792388413677856666666666666666666667",
+      "24.59419629601694401792388413683728333333333333333333333"
+    ]
+  },
+  "strict_exclusion": false,
+  "scope": "Exact95-ground-Y source accepted all222. The40-up bound assumes linear continuation with downward X histories in C+signqueries+axes;9-down is independent of that bank. Arbitrary paid owned ascents and turns are allowed, public routes are monotone. Positive margin is necessary only."
+}

@@ -1,71 +1,68 @@
 # Persistent programme toward κ=.005
 
-## Current frontier — S020 checkpoint4
+## Current frontier — S020 checkpoint5
 
-No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. This is ongoing research and is not PR-ready.
+No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
 
-The BIT programme now has an actual [coordinate-first source](results/bit-early-axis-known-eight/ADMISSION.md)
-that completes eight diagonal values, retains all222 original columns and all111
-X directions, and supplies824 foreign terms to the103 remaining outputs.
-Its complete partial movement profile is1551.047442485706... at t=199/200,
-leaving70.703437725446... necessary movement room. All eight coordinate Ys
-remain at ground; the other103 have already ascended to rank-three queries.
-The word and actual inverse are valid, but its natural rank29 continuation
-bank is excluded by the new [all-source first-exit theorem](results/bit-all-source-first-exit-gate/ADMISSION.md):
-103 demanded native sources need206 departures, with at most71 public X and
-eight ground-Y departures credited, leaving127 owned ascents.
+The newest BIT construction is an actual [full proper-half reservoir](results/bit-full-half-reservoir/ADMISSION.md).
+All111 raw X originals are restored at Hub, all111 Ys remain at ground, and
+56 independent pure half modes reside at their real rank-three charts. Eight
+coordinate values and412 axis preloads are prepared. Nine canonical modes are
+physically gathered at Hub. The complete partial profile costs
+1578.375986552880590547... at t=199/200, leaving43.374893658271764698... necessary
+movement room. Every X's public movement capacity is spent. Only eight of111
+diagonal endpoints are complete; proper-mode access and remaining delivery
+must be realized by actual operations.
 
-The preceding [direct-pair exports](results/bit-direct-pair-exports/ADMISSION.md)
-are valid new proper-chart code directions, with4,12,16 actual exports. A
-[nine-transfer fresh-transcript theorem](results/bit-fresh-transcript-nine/ADMISSION.md)
-combines with separately proved75 native-cache ascents to close the natural
-banks at those three cuts and the two previous cuts: at least84 new owned
-moves are necessary. The entropy proof allows fixed-schedule nonlinear finite
-alphabet payloads; the bank-specific ascent theorem retains its linear row
-premise. The combined theorem uses the common narrower scope.
+Independent all103-facet locality checks preserve the exact17/2 entropy witness,
+so at least nine further whole-record descents are necessary even for fixed-
+schedule nonlinear finite-alphabet continuations with arbitrary paid owned
+ascents. This leaves34.374893658271... after minimum unit descent charges,
+not a certificate of a complete decoder. The new rank64 bank and actual cut
+are outside the older rank29/rank30 first-exit exclusions.
 
-[Cross-quartet acquisition](results/bit-cross-quartet-acquisition-gates/ADMISSION.md)
-adds one or nineteen real fresh code directions, with actual Y-baseline removal
-and source restoration. Its natural banks require83/213 future owned ascents.
-Even granting the entire120-half space globally, the nineteen-mode source
-requires105 ascents against57.349079137260... room. The one-mode source under
-that larger rank56 grant is not excluded. Acquiring information consumes
-native access, so favorable unchanged-source code screens are insufficient.
+Those earlier sources remain useful and precisely audited. The
+[retained-ground source](results/bit-retained-ground-source/ADMISSION.md)
+keeps95 public Ys available; two [frame exports](results/bit-frame-exports/ADMISSION.md)
+create an actual direction beyond the entire literal-half bank at either a
+rank-three query or its rank-one meet. The
+[quadratic first-exit theorem](results/bit-quadratic-source-departures/ADMISSION.md)
+proves their natural banks still require111 owned ascents. Its unique quadratic
+vanisher has rank six, excluding every real cover by two proper subspaces.
+Fresh code directions and acquisition both change source-access obligations.
 
-On the complex side, a [joint endpoint-image inequality](results/complex-joint-endpoint-capacity/ADMISSION.md)
-excludes a permuted Klein fixed-column family that passes separate component
-rank screens. A constructive [distinguished-column same-plus unit](results/complex-distinguished-column-plus-unit/ADMISSION.md)
-uses6 ADD,12 SCALE,8 MONO per direction and prefix bound5. It explicitly
-enlarges the collective-only template and removes the earlier scalar
-augmentation mismatch, subject to complete compiler/model admission. The
-[stronger Crot source-coset theorem](results/complex-crot-source-coset-gate/ADMISSION.md)
-still excludes that rotation first interface even with an arbitrary fixed
-matrix prefix. A genuinely coupled Klein interface remains constructive work.
+Complex work now has a [paid fixed-prefix normalizer](results/complex-paid-prefix-native-normalizer/ADMISSION.md):
+an actual word implements the local source prefix while restoring an arbitrary
+borrowed bank. Each direction uses24 ADD,48 SCALE,38 MONO with prefix bound3.
+Six such controls normalize the three native calls, adding144 ADD,288 SCALE,
+228 MONO. Target-prefix restoration remains charged. This supplies local
+ordinary implementation for the distinguished-prefix approach; a full physical
+compiler and independent profitable endpoint caller remain open. New coupled
+last-column constructions are active and not admitted by this checkpoint.
 
-## Nearest work and complete theorem
+## Next construction and complete target
 
-BIT construction is now retaining more public Ys at ground before correction,
-so they can carry future native departures, and testing source directions
-outside the complete literal-half span. A new ground-retention author word is
-under independent review and is not admitted in this checkpoint. Each new cut
-must re-establish access, transcript and public-credit counts from its actual
-fields. Complex work must use the positive prefix interface in an actual
-compatible source/endpoint word, preserving all uniform physical invoices.
+Use the actual proper halves, canonical Hub fields and all111 ground Ys in a
+chronological BIT decoder. Public Y preconditioning is being tested to carry
+native information while preserving all arbitrary Y baselines. Every read
+requires a real cochart, every owner movement is paid, and partial invoices
+from incompatible words cannot be summed. On the complex side, complete all
+three input columns and ordinary endpoint units with the paid prefix model.
 
-The target still needs complete uniform BIT B>1/200, compatible complex U>1/200,
-all54 strict outer inequalities and four functional constraints, with native,
-ownership, erasure, compiler, precision, analytic and recursive bills. The
-covered bootstrap threshold3112961/621875000 is only a feasibility condition.
-All five foundations remain native_all_columns, owned_erasure, compiler,
-precision_tape, analytic_recovery. No source margin is a completed supplier.
+The target still needs complete uniform BIT B>1/200 and compatible complex
+U>1/200, all54 strict outer inequalities and four functional constraints,
+including every native, ownership, erasure, precision, compiler and recursive
+bill. Foundations remain native_all_columns, owned_erasure, compiler,
+precision_tape, analytic_recovery. All historical source/cost/code/endpoint
+gates retain their exact scopes in [REGISTERED-RESULTS](REGISTERED-RESULTS.json).
 
-## Continuity and evidence
+## Continuity
 
-Permanent branch `research/moonshot-005-program`; confirmed parent `6fa862790e2258e5d1a54f6b7c0a92e14cf54459`.
-Canonical main last rechecked is `e54523517d0f03e58352e647c403a5af3e525a57`. S020 continues03:06–08:06 UTC.
-This checkpoint has26 focused checks,45 byte-identical outputs and18 inherited
-dependencies authenticated against the prior confirmed tree. Prior results and
-pins remain in [REGISTERED-RESULTS](REGISTERED-RESULTS.json),
-[SCIENTIFIC-FILES](SCIENTIFIC-FILES.json), [VERIFICATION](VERIFICATION.md), and the
-[archived logical records](sessions/2026-11-17-S020/logical-records-before-cp4/PROGRAMME.md).
-Resulting SHAs are confirmed separately. No upstream PR is submitted.
+Permanent branch `research/moonshot-005-program`; confirmed parent `7dceeb1cbcc42d3deef2b459f52c782dde45e2af`.
+Canonical main last examined is `e54523517d0f03e58352e647c403a5af3e525a57`. S020 continues03:06–08:06 UTC.
+Twelve focused checks pass with23 exact scientific outputs and24 inherited
+files authenticated against checkpoint4. Prior logical records are
+[archived](sessions/2026-11-17-S020/logical-records-before-cp5/PROGRAMME.md).
+See [TARGET-005](TARGET-005.md), [OBLIGATIONS](OBLIGATIONS.md),
+[VERIFICATION](VERIFICATION.md) and [CONTINUATION](CONTINUATION.md).
+Resulting SHAs are independently confirmed separately. No upstream PR is submitted.
