@@ -1,5 +1,9 @@
 # Persistent κ=0.005 research programme
 
+## S022 checkpoint 3
+
+[Minimum linear transcripts](results/bit-minimum-transcript-inlets/ADMISSION.md) exceed the three fixed source budgets even with arbitrary exterior routes. The computable floor is 42.96457333333… per copy, only 0.02118090637… above the F4/F8 source rooms. [The nonlinear bound](results/bit-nonlinear-weighted-inlets/ADMISSION.md) also excludes the scalar nine-record case. These are fixed-source exclusions. No new κ.
+
 ## S022 checkpoint 2
 
 [Two simultaneous BIT words](results/bit-six-receiver-cross-chart-carriers/ADMISSION.md) implement six receiver corrections with fully shared source histories. The cheaper word replaces five point backups with five original carriers and leaves 8.91882842470… limiting movement room. [The same-plus complex proof](results/complex-spectator-preserving-interface/ADMISSION.md) excludes every spectator-preserving first interstage repair in the stated ordinary model. Its all-input quartic benchmark supplies an exact component, while independent endpoints remain open. No new κ.

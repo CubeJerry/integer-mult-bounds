@@ -1,0 +1,135 @@
+{
+  "witnesses": 838,
+  "positive_weights": 102,
+  "total_weight": 999993,
+  "real_native_flats": [
+    1,
+    95,
+    3399,
+    55561,
+    420639
+  ],
+  "max_native_roles": [
+    0,
+    1,
+    3,
+    6,
+    12
+  ],
+  "max_native_roles_on_each_axis": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    [
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11
+    ]
+  ],
+  "max_hit_weight": [
+    0,
+    191805,
+    387630,
+    610722,
+    827177
+  ],
+  "integral_geometry_input_sha256": "8edbc90b0a0f37769978a01d3204c88fcc783524966b677423adf0e934c773ad",
+  "layer_weights": {
+    "2": "1",
+    "3": "19/20",
+    "4": "3/5",
+    "5": "1"
+  },
+  "downward_pairs": 36,
+  "owned_or_public_inlet_pairs": 15,
+  "max_weighted_inlet_charge": "658971/666662",
+  "equality_lower_bill_per_copy": "639/20",
+  "equality_margins_vs_normalized_room": [
+    [
+      1,
+      "59773640506925204914151325504967/60000000000000000000000000000000",
+      "7471705063365650614268915688673/7500000000000000000000000000000"
+    ],
+    [
+      2,
+      "-659603545617513019437952987776929/60000000000000000000000000000000",
+      "-82450443202189127429744123471573/7500000000000000000000000000000"
+    ],
+    [
+      3,
+      "-659603545617513019437952987776929/60000000000000000000000000000000",
+      "-82450443202189127429744123471573/7500000000000000000000000000000"
+    ]
+  ],
+  "arbitrary_transcript_unit_cut_bounds": [
+    "63935/333331",
+    "129210/333331",
+    "203574/333331",
+    "913585/999993",
+    "913585/999993",
+    "203574/333331",
+    "129210/333331",
+    "63935/333331"
+  ],
+  "arbitrary_transcript_max_cost_coefficient": "913585/999993",
+  "arbitrary_transcript_per_copy_floor": "16308617/913585",
+  "arbitrary_transcript_integral_bounds": [
+    {
+      "copies": 1,
+      "nonprivate_integer_gap_floor": 10,
+      "movement_floor_expression": "8+10*8^(-1/200)"
+    },
+    {
+      "copies": 2,
+      "nonprivate_integer_gap_floor": 20,
+      "movement_floor_expression": "16+20*8^(-1/200)"
+    },
+    {
+      "copies": 3,
+      "nonprivate_integer_gap_floor": 30,
+      "movement_floor_expression": "24+30*8^(-1/200)"
+    }
+  ]
+}

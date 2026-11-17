@@ -1,5 +1,9 @@
 # Relevant external research and compatibility
 
+## S022 first refresh
+
+Canonical main remained e54523517d0f03e58352e647c403a5af3e525a57. Open #7647 composes two edits on another P104 word. #7646 independently recounts ordinary work in #7633. The joint-query graph in #7531 and the cyclotomic premise in #7181 differ from the native sources used here. [Typed research and source pins](sessions/2026-11-17-S022/UPSTREAM-REFRESH1.json).
+
 ## S022 targeted upstream review
 
 Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. The selected certificate is 0.00363005817. CrocSwap/integer-mult-bounds#7641 proposes 0.0037136318149 on #7637's entrance and CLEAR assumptions. Its precision-grid change is unaudited. #7640 recounts finite invoices on #7637. #7634 formalizes restricted relay floors and local word laws. Each has different source premises from the needed uniform services. [Pinned intake](sessions/2026-11-17-S022/UPSTREAM-INTAKE.json).

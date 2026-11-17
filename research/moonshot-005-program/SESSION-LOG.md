@@ -2571,3 +2571,12 @@ Confirmed parent da5ec739bb33cc15953a04253f57688a42ac2184. [Two simultaneous BIT
 Seven focused checks rebuild nine complete scientific outputs. [Portable replay](sessions/2026-11-17-S022/reproduce_cp2.py) · [Validation hashes](sessions/2026-11-17-S022/CHECKPOINT2-VALIDATION.json).
 
 Next. Construct a second shared receiver group before original carriers and Y records commit to incompatible terminal facets. On the complex side change the spectator input, then test every independent endpoint and the entire movement balance. The next receipt or branch log identifies the resulting commit.
+
+
+## 2026-11-17 S022, checkpoint 3
+
+Confirmed parent 791fdaa5461b09efc90a139eaa5d41107ad1c59c. [Minimum linear transcripts](results/bit-minimum-transcript-inlets/ADMISSION.md) exceed the three fixed source budgets even with arbitrary exterior routes. The computable floor is 42.96457333333… per copy, only 0.02118090637… above the F4/F8 source rooms. [The nonlinear bound](results/bit-nonlinear-weighted-inlets/ADMISSION.md) also excludes the scalar nine-record case. These are fixed-source exclusions. No new κ.
+
+Four author/reviewer replay programs regenerate all four stored certificates byte-for-byte. The review includes a disjoint 95-base density certificate, a second enumeration through ternary rank five and actual 222/444/666-column source checks. [Commands](sessions/2026-11-17-S022/reproduce_cp3.py) · [Receipts](sessions/2026-11-17-S022/CHECKPOINT3-VALIDATION.json).
+
+Next. Construct the physical middle transfer of a full-receiver source before its public paths separate, and test how many independent complex endpoints survive a jointly changed interstage interface. The next receipt or branch log identifies the resulting commit.

@@ -1,5 +1,11 @@
 # Remaining proof obligations — S021 checkpoint3
 
+## S022 checkpoint 3
+
+Construct the physical middle transfer of a full-receiver source before its public paths separate, and test how many independent complex endpoints survive a jointly changed interstage interface.
+
+On the existing cuts, target-feasible linear descent counts are at least 10/19/28, and scalar nonlinear count at least 10. On arbitrary nonlinear transcript lengths, the nonprivate rank-gap sum is at least 10b. All five foundational assumptions remain.
+
 ## S022 checkpoint 2
 
 Construct a second shared receiver group before original carriers and Y records commit to incompatible terminal facets. On the complex side change the spectator input, then test every independent endpoint and the entire movement balance.

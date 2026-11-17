@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "byte_equal": true,
+  "checks": [
+    {
+      "check": "linear-source",
+      "source_sha256": "b83499c8515a832257daaa4b6e00e87ca95443eef7edc5541b675dd48a61f10c",
+      "certificate": "results/bit-minimum-transcript-inlets/author/CERTIFICATE.json",
+      "verified_sha256": "60c24ca7d6d54b4b05e1870c6c1aaa8ccaf68de01e706813565e84c2c78337c8"
+    },
+    {
+      "check": "linear-independent",
+      "source_sha256": "6550b387f64589010de05a0cdaba08146bd95155fd14bfcde1fcf4923e5cf985",
+      "certificate": "results/bit-minimum-transcript-inlets/review/RESULT.json",
+      "verified_sha256": "461111c741ee3f24627b0b96fe818e294ca0bfdfb2bd7e49a8f0a7cebe5c3fc0"
+    },
+    {
+      "check": "nonlinear-source",
+      "source_sha256": "a11287cf46c549055858757b93625e5643f765cac9c635a19a2c5b35f1137195",
+      "certificate": "results/bit-nonlinear-weighted-inlets/author/RESULT.json",
+      "verified_sha256": "321b35cfcf7e03f5edf4de019260a759cbf9c454683d979aef725cee08d40963"
+    },
+    {
+      "check": "nonlinear-independent",
+      "source_sha256": "d587840a628d967d6fe6be3227e1a451f04a61387cda9ad1eafa891878dc5644",
+      "certificate": "results/bit-nonlinear-weighted-inlets/review/CERTIFICATE.json",
+      "verified_sha256": "53c24f54797de879e48c459fe804e1a9a18b96a75e55d6954800784411319912"
+    }
+  ]
+}

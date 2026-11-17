@@ -1,5 +1,9 @@
 # Verification ledger
 
+## S022 checkpoint 3
+
+Four author/reviewer replay programs regenerate all four stored certificates byte-for-byte. The review includes a disjoint 95-base density certificate, a second enumeration through ternary rank five and actual 222/444/666-column source checks. [Commands](sessions/2026-11-17-S022/reproduce_cp3.py) · [Receipts](sessions/2026-11-17-S022/CHECKPOINT3-VALIDATION.json).
+
 ## S022 checkpoint 2
 
 Seven focused checks rebuild nine complete scientific outputs. [Portable replay](sessions/2026-11-17-S022/reproduce_cp2.py) · [Validation hashes](sessions/2026-11-17-S022/CHECKPOINT2-VALIDATION.json).

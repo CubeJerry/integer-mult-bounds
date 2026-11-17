@@ -1,5 +1,9 @@
 # Exact target κ=1/200 — S021 checkpoint3
 
+## S022 checkpoint 3
+
+On the existing cuts, target-feasible linear descent counts are at least 10/19/28, and scalar nonlinear count at least 10. On arbitrary nonlinear transcript lengths, the nonprivate rank-gap sum is at least 10b. All five foundational assumptions remain.
+
 ## S022 checkpoint 2
 
 The six-receiver partial movement gate first clears at even m=4 for original relays and m=6 for point backups. The unserved facets require 105 or 100 further arrivals at those endpoints. The spectator-preserving complex profile is below the supplier threshold before ordinary or recursive expenses. No foundational assumption is discharged.

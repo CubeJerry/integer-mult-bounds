@@ -1,0 +1,59 @@
+{
+  "source_cut_replays": [
+    {
+      "copies": 1,
+      "cut": 1985,
+      "live_fields": 410,
+      "columns": 222,
+      "sensitive_low_fields_by_copy_rank": {
+        "1": 95,
+        "3": 56
+      },
+      "single_prepaid_axes": 8
+    },
+    {
+      "copies": 2,
+      "cut": 4010,
+      "live_fields": 812,
+      "columns": 444,
+      "sensitive_low_fields_by_copy_rank": {
+        "1": 190,
+        "3": 112
+      },
+      "single_prepaid_axes": 16
+    },
+    {
+      "copies": 3,
+      "cut": 6119,
+      "live_fields": 1218,
+      "columns": 666,
+      "sensitive_low_fields_by_copy_rank": {
+        "1": 285,
+        "3": 168
+      },
+      "single_prepaid_axes": 24
+    }
+  ],
+  "cyclic_basis_certificate": {
+    "bases": 95,
+    "slots_per_basis": 9,
+    "multiplicity_of_each_role": 9,
+    "duplicate_role_control_rank": 8
+  },
+  "descending_pairs": 36,
+  "positive_inlet_pairs": 15,
+  "lower_bound": "3222343/75000",
+  "excess_over_each_room_upper_endpoint": [
+    "240216013502308401638050441834989/20000000000000000000000000000000",
+    "423618127495660187349004074357/20000000000000000000000000000000",
+    "423618127495660187349004074357/20000000000000000000000000000000"
+  ],
+  "minimum_public_split_slack_lower_bound": "1073699492708757807/125000000000000000000000",
+  "failing_if_the_split_premium_is_erased": [
+    [
+      3,
+      4,
+      "1"
+    ]
+  ]
+}
