@@ -1,0 +1,28 @@
+{
+  "session": "2026-11-17-S022",
+  "checkpoint": 1,
+  "baseline": "e31d437b489a416446fdd7e294bc2238829c5925",
+  "status": "PASS",
+  "scope": "838 witnesses, 194 six-dimensional hitting spans, all 222/444/666 source columns, 2520 entropy terms.",
+  "reproduction_from_repo_root": [
+    "D=research/moonshot-005-program/results/bit-induced95-nonlinear-witnesses",
+    "python3 -B \"$D/check.py\" --repo . --out /tmp/S022-witnesses.json --flat-input /tmp/S022-flats.in",
+    "c++ -O2 -std=c++20 \"$D/flat_search.cpp\" -o /tmp/S022-flat-search",
+    "/tmp/S022-flat-search /tmp/S022-flats.in > /tmp/S022-flats.txt",
+    "python3 -B \"$D/review/check.py\" --repo . --out /tmp/S022-independent.json",
+    "cmp /tmp/S022-witnesses.json \"$D/WITNESSES.json\" && cmp /tmp/S022-flats.txt \"$D/FLATS.txt\" && cmp /tmp/S022-independent.json \"$D/review/CERTIFICATE.json\""
+  ],
+  "tested_files": {
+    "results/bit-induced95-nonlinear-witnesses/ADMISSION.md": "eb102677db237aaa4b1d3e49cdd950f09aa902e6158219009f9e0ccf1bdde766",
+    "results/bit-induced95-nonlinear-witnesses/FLATS.txt": "bb397c868fc85ef1759e107b650a5061d91764eb445e0e964b76ab0978cd0ede",
+    "results/bit-induced95-nonlinear-witnesses/PROOF.md": "041000dbc722700bade3765209f88ea4fe3c5db64e328c49325438c40b942278",
+    "results/bit-induced95-nonlinear-witnesses/WITNESSES.json": "9dffd67e8fae60754489f75d0b9755c8c81cbb743c6e25cef25a98eabc36b5dc",
+    "results/bit-induced95-nonlinear-witnesses/check.py": "dfc88d61e874ba0b0f92b1f2616bf0b4e4af88adb09ebe8fbfbce28918d5f13a",
+    "results/bit-induced95-nonlinear-witnesses/flat_search.cpp": "2729bee75f09c29c98cc906b1f9df5b36b1c5465fee934c29d996893ff8fd10a",
+    "results/bit-induced95-nonlinear-witnesses/review/CERTIFICATE.json": "2670b5f4d3a9eeb17954e066ff6137d84ca3c0413452ac133186942f4ebcda5f",
+    "results/bit-induced95-nonlinear-witnesses/review/REVIEW.md": "388922f1280f43f04416abce4041b13808957104bf8a21375a0d838a8c2e9aee",
+    "results/bit-induced95-nonlinear-witnesses/review/check.py": "796f29f6855c0933bd8a0d97381eaed9e3848c4ed76e8f0876dbb1fcf4cef3ff"
+  },
+  "foundations_discharged": [],
+  "new_complete_kappa": false
+}

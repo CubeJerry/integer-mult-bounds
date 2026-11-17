@@ -1,5 +1,11 @@
 # Persistent κ=0.005 research programme
 
+## S022 current construction
+
+The programme is building an X-only source that serves overlapping receiver groups, restores every original X, and pays for canonical preload. Its next constructive test must account for every terminal cache and public movement. In parallel the complex side needs three compatible all-input jobs. Structural discovery continues independently of numerical frontier edits.
+
+[Nonlinear 95-receiver proof](results/bit-induced95-nonlinear-witnesses/PROOF.md) establishes 9b even for nonlinear recoding on the three present cuts. Its 838 witnesses restrict every minimum-size delivery to rank at most two. Both strict suppliers, all five foundations and the outer caller remain open. The sections below record prior S021 and S020 checkpoints.
+
 ## S021 checkpoint3 — chronological sources and weighted equality constraints
 
 A new stationary-cache lemma resolves canonical preload ordering for a

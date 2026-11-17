@@ -1,5 +1,9 @@
 # Exact target κ=1/200 — S021 checkpoint3
 
+## S022 nonlinear threshold
+
+For the 95 remaining roles the abstract broadcast size over finite characteristic-two alphabets is 9b. Actual completion needs at least 17b future movements including the four private pairs. At exactly 9b downset arrivals and with no exterior descent ending at rank ≤5, the necessary price 9b·4^t+8b exceeds the scalar/F4/F8 rooms at t=199/200. All finite and ordinary costs remain additional. [Nonlinear 95-receiver proof](results/bit-induced95-nonlinear-witnesses/PROOF.md).
+
 ## S021 checkpoint3
 
 At exact minimum transcript size, the new weighted extra bill is

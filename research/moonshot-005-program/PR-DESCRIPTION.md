@@ -1,5 +1,9 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+## S022 contribution
+
+[Nonlinear 95-receiver proof](results/bit-induced95-nonlinear-witnesses/PROOF.md) proves 9b nonlinear broadcast records on the 95 remaining receivers of the three actual source words. With disjoint private arrivals the future counts are 17, 34 and 51. Exactly 194 six-dimensional native spans meet all 838 tight witnesses, restricting equality delivery. The [reproduction receipt](sessions/2026-11-17-S022/CHECKPOINT1-VALIDATION.json) distinguishes independent physical and entropy review from the geometric search. No new κ. Credit the S019 Petersen implementation, Blasiak–Kleinberg–Lubetzky, source authors and @CubeJerry. Substantial OpenAI assistance.
+
 ## S021 checkpoint3
 
 A new stationary-cache lemma resolves canonical preload ordering for a

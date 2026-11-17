@@ -2555,3 +2555,10 @@ through 15:08 UTC. The cumulative programme is ongoing and not PR-ready.
 [Fixed output gate](results/complex-sameplus-fixed-output-gate/ADMISSION.md).
 
 Fourteen focused executions reproduced twenty-five scientific outputs. The five-hour session remains active.
+
+
+## 2026-11-17 S022, checkpoint 1
+
+Started from confirmed remote e31d437b489a416446fdd7e294bc2238829c5925 at 22:13:54 UTC with a three-hour window. Canonical main was e54523517d0f03e58352e647c403a5af3e525a57. S021's last published state was checkpoint 3. Its uncommitted pending benchmarks have no proof status here.
+
+The 838-witness census gives 9b nonlinear downset records and 17b total disjoint movements on the three sources. At minimum size, 194 rank-six hitting spans restrict delivery. A separate reviewer reconstructed the entropy proof and all physical source cuts. Source construction and complex endpoints remain active. [Validation](sessions/2026-11-17-S022/CHECKPOINT1-VALIDATION.json). The next remote receipt records this checkpoint's resulting SHA.

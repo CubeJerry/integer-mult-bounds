@@ -1,5 +1,14 @@
 # Remaining proof obligations — S021 checkpoint3
 
+## S022 current obligations
+
+| Proposition | Status and next test |
+|---|---|
+| Nonlinear minimum on the three S021 cuts | Proved. Downset ≥9b and private arrivals ≥8b. At equality all 838 witnesses see every event. [Nonlinear 95-receiver proof](results/bit-induced95-nonlinear-witnesses/PROOF.md) |
+| Near-minimum physical delivery | Open. A 9b+s transcript can miss each witness at most s times. Source formation, actual charts and total movement still need proof. |
+| Global receiver network | Open. Test overlapping source and receiver charts with all columns and a single invoice. |
+| Uniform complex supplier and recursive theorem | Open. Independent endpoints, strict BIT/complex prices, 54 inequalities, four functional constraints and all five foundations remain. |
+
 ## S021 checkpoint3
 
 Construct a compatible global X-only receiver circuit; the new stationary
