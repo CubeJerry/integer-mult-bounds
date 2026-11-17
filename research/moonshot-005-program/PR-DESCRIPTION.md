@@ -67,22 +67,46 @@ faithful class separation. The positive column remains valid; changing C or
 the column is the next constructive obligation. [Positive interface](results/complex-prefix-endpoint-column/ADMISSION.md),
 [extension gate](results/complex-fixed-prefix-column-gate/ADMISSION.md).
 
+## Actual shared-mode delivery and the changed complex interface
+
+The next literal BIT module uses four proper half exports and seven public-Y
+couriers to deliver49 native correction coefficients. The two-ADD exchanges
+restore arbitrary baselines and remove each courier's nonnative half payload.
+All420 fields and222 columns are independently reconstructed. The closed
+profile198[1]+121[2]+22[3]+104[4]+96[7] costs1583.421119713219... at t=199/200.
+It is a distinct source variant with8 completed outputs, not a free addition
+to the16-output source. Its66 retained nonnative field/facet incidences are
+explicit. A new conditional entropy witness outside the16 export-source
+coordinates requires9 additional descents and leaves29.329760497932... after
+minimum charges. Conditioning is a lower-bound relaxation, not physical access.
+[Delivery](results/bit-shared-proper-half-service/ADMISSION.md) and
+[fresh bound](results/bit-shared-half-fresh-transcript/ADMISSION.md).
+
+The new Cprime uses three controlled rotations with anticommuting prefix
+controls. Its exact active Gram identifies aD/4 kernel, its ordinary kernel
+has dimensionD/2, and an explicit ordinary right inverse removes the preceding
+third-row selector. A paid unit Q0 supplies an isometric column cancelling
+ordinary and cubic terms exactly. Cprime/Q0 cost12/12/7 and80/152/120 in each
+direction, with all184 literal ADD omissions independently rejected. The
+remaining linear/quadratic terms still need actual independent Gaussian
+encoders and full endpoint units. [Changed interface](results/complex-anticommuting-prefix-interface/ADMISSION.md).
+
 ## Evidence, accounting and provenance
 
-Confirmed parent `d7e0552ff70d09fc42147216ff95e9d1956e03bb`; canonical upstream last examined `e54523517d0f03e58352e647c403a5af3e525a57`. All changes
+Confirmed parent `2711b6c571e7eeda0b64b5966686b59e26c392cc`; canonical upstream last examined `e54523517d0f03e58352e647c403a5af3e525a57`. All changes
 stay on `research/moonshot-005-program`; prior files and scientific pins are
-preserved. This checkpoint has10 focused checks,17 byte-identical outputs and27
+preserved. This checkpoint has6 focused checks,11 byte-identical outputs and30
 authenticated inherited files. A/C independently reconstruct each other's BIT
 sources; root separately reconstructs new-cut geometry and entropy, complex
 source/primitive identities and the endpoint dimension proof.
 
 ```bash
-python -B research/moonshot-005-program/sessions/2026-11-17-S020/reproduce_cp6.py --repo . --out /tmp/moonshot-S020-cp6
+python -B research/moonshot-005-program/sessions/2026-11-17-S020/reproduce_cp7.py --repo . --out /tmp/moonshot-S020-cp6
 ```
 
 Python3.11+ and SymPy. Full [verification ledger](VERIFICATION.md),
-[source pins](sessions/2026-11-17-S020/SOURCE-PINS-CP6.json),
-[validation](sessions/2026-11-17-S020/CHECKPOINT6-VALIDATION.json) and
+[source pins](sessions/2026-11-17-S020/SOURCE-PINS-CP7.json),
+[validation](sessions/2026-11-17-S020/CHECKPOINT7-VALIDATION.json) and
 [scientific manifest](SCIENTIFIC-FILES.json) retain exact commands and controls.
 No author rerun is labelled independent proof; no finite check substitutes for
 the stated all-width algebra or geometric theorem.

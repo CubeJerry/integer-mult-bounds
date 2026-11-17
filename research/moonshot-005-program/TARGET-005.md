@@ -1,21 +1,21 @@
 # Exact requirements for κ=1/200
 
-## Current interfaces — S020 checkpoint6
+## Current interfaces — S020 checkpoint7
 
 No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
 
-The favorable limiting movement allowance at t=199/200 is
+At t=199/200 the favorable limiting movement allowance remains
 1621.750880211152355246... . Finite corrections and nonmovement costs are stricter.
 
-| Interface | Proved quantity | Remaining requirement |
+| Actual interface | Proven cost or restriction | Open work |
 |---|---|---|
-| Sixteen completed values;95 Y ground |Q0=1587.080222099104...; room34.670658112047...|Complete95 remaining endpoints with actual fields and routes.|
-| New witness at the same424-field cut |At least9 further descents; minimum-charge room25.670658112047...|Full delivery must fit and every nonmovement cost is additional.|
-| Public-Y parity relay |Eight complete3-neighbour corrections; no new owned MOVE; public delta0.704235546224...|Further source/courier reuse must respect actual raised charts.|
-|56-half reservoir |Actual proper modes, all111 ground Ys, Q0=1578.375986552880...|Distinct earlier source, only8 complete outputs.|
-| Old rank29/30 source banks |All-real quadratic gate gives111 owned ascents|Closed within exact source/bank scopes.|
-| Paid prefix normalization |Three native calls add144 ADD,288 SCALE,228 MONO|Target prefixes and whole physical invoice still charged.|
-| New complex endpoint column |Actual invertible units, exact full column,104 controls|Fixed-column extension is closed; change source interface or column.|
+|16 completed values;95 Y ground |Q0=1587.080222099104...; room34.670658112047...|Finish95 receivers with actual fields.|
+| Same424-field source, fresh witness |9 additional descents; minimum-charge room25.670658112047...|A full chronological decoder, not merely minimum charges.|
+| Four shared-half exports;7 services |Q0=1583.421119713219...; room38.329760497932...;8 outputs complete|Scale actual mode delivery from raised charts.|
+| Same420-field source, explicit16-input conditioning |9 additional descents; minimum-charge room29.329760497932...|No free physical access to conditioned inputs.|
+| Earlier fixed complex column |Positive exact units/column, but all completions closed within scope|Change C or column.|
+| New anticommuting Cprime/Q0 |12/12/7 and80/152/120 both directions; literal source cancellation|Actual Gaussian encoder containment, both endpoints and all input columns.|
+| Paid native prefix normalization |Three-native overhead144/288/228|Target-prefix restoration and complete caller costs remain additional.|
 
 ## Retained exact supplier and accounting contracts
 

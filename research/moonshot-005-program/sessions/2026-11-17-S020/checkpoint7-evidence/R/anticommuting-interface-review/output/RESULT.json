@@ -1,0 +1,129 @@
+{
+  "status": "PASS_INDEPENDENT_ANTICOMMUTING_PREFIX_INTERFACE",
+  "source_review_sha256": "ed688f0178639153bec60b2e5a9864d005996df32621d7257b1353da56bb102a",
+  "author_words_sha256": "ee9f47268e3a1265e506079abd1bf81b22cecab5dd3f184d26f71de50bb6c224",
+  "author_proof_sha256": "b3bca6ded41e227dafd8d22fe845c1892ad0302848a649f428aefa02c9515583",
+  "normalizer_words_sha256": "910edc04d35cb414202ba275cbc25d1ca21755a7186c9820f88f5f2eecebfe42",
+  "cases": [
+    {
+      "tail_width": 0,
+      "all_unit_input_columns": 12,
+      "last_column_input_columns": 4,
+      "active_kernel_rank": 1,
+      "ordinary_kernel_rank": 2,
+      "column_initial_ranks": [
+        1,
+        1,
+        2
+      ],
+      "third_row_right_inverse": true,
+      "whole_column_only_linear_and_quadratic": true,
+      "bad_cubic_column_rejected": true,
+      "bad_ordinary_column_rejected": true,
+      "old_low_class_selector_rejected": true,
+      "units": {
+        "Cprime": {
+          "counts_both_directions": {
+            "ADD": 12,
+            "SCALE": 12,
+            "MONO": 7
+          },
+          "prefix_bounds": {
+            "forward": {
+              "uniform": "202",
+              "reduced_exact": "6"
+            },
+            "inverse": {
+              "uniform": "162",
+              "reduced_exact": "6"
+            }
+          }
+        },
+        "Q0": {
+          "counts_both_directions": {
+            "ADD": 80,
+            "SCALE": 152,
+            "MONO": 120
+          },
+          "prefix_bounds": {
+            "forward": {
+              "uniform": "186",
+              "reduced_exact": "6"
+            },
+            "inverse": {
+              "uniform": "192",
+              "reduced_exact": "8"
+            }
+          }
+        }
+      }
+    },
+    {
+      "tail_width": 1,
+      "all_unit_input_columns": 192,
+      "last_column_input_columns": 64,
+      "active_kernel_rank": 16,
+      "ordinary_kernel_rank": 32,
+      "column_initial_ranks": [
+        16,
+        16,
+        32
+      ],
+      "third_row_right_inverse": true,
+      "whole_column_only_linear_and_quadratic": true,
+      "bad_cubic_column_rejected": true,
+      "bad_ordinary_column_rejected": true,
+      "old_low_class_selector_rejected": true,
+      "units": {
+        "Cprime": {
+          "counts_both_directions": {
+            "ADD": 12,
+            "SCALE": 12,
+            "MONO": 7
+          },
+          "prefix_bounds": {
+            "forward": {
+              "uniform": "202",
+              "reduced_exact": "8"
+            },
+            "inverse": {
+              "uniform": "162",
+              "reduced_exact": "6"
+            }
+          }
+        },
+        "Q0": {
+          "counts_both_directions": {
+            "ADD": 80,
+            "SCALE": 152,
+            "MONO": 120
+          },
+          "prefix_bounds": {
+            "forward": {
+              "uniform": "186",
+              "reduced_exact": "8"
+            },
+            "inverse": {
+              "uniform": "192",
+              "reduced_exact": "10"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "all_primitive_ADD_omissions_rejected": 184,
+  "exact_base_Walsh_ranks": {
+    "A2": 2,
+    "A3": 3
+  },
+  "monomial_source_head_transports": {
+    "AJA": 2,
+    "AJSA": 2,
+    "AJA2": 3,
+    "AJSA2": 3
+  },
+  "all_width_basis": "Fixed-prefix Pauli/projector algebra, exact tensor source transports, positive Gram support inverse, explicit third-row right inverse, and literal paid arbitrary-borrower unit words.",
+  "scope": "Positive Cprime/Q0 units and exact ordinary/cubic last-column cancellation. No whole-bank Gaussian endpoint factorization or complete supplier. Kernel necessity retains faithful fixed-catalogue class separation.",
+  "new_complete_kappa": false
+}

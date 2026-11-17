@@ -1,0 +1,58 @@
+{
+  "status": "PASS_ANTICOMMUTING_PREFIX_FIRST_INTERFACE",
+  "scope": "exact paid units, source kernels and last-column ordinary/cubic cancellation; no independent endpoint",
+  "bank_dimension_control": 64,
+  "all_unit_input_columns": 192,
+  "last_column_input_columns": 64,
+  "active_kernel_rank": 16,
+  "ordinary_last_kernel_rank": 32,
+  "column_initial_ranks": [
+    16,
+    16,
+    32
+  ],
+  "third_row_explicit_right_inverse": true,
+  "source_head_gaussian_ranks": {
+    "AJA": 2,
+    "AJSA": 2,
+    "AJA2": 3,
+    "AJSA2": 3
+  },
+  "ordinary_and_cubic_last_terms_zero": true,
+  "whole_last_column_equals_linear_plus_quadratic": true,
+  "primitive_omitted_ADD_direct": 40,
+  "primitive_omitted_ADD_inherited_from_pinned_prefix_word": 144,
+  "receipts": {
+    "Cprime": {
+      "forward": {
+        "ADD": 12,
+        "SCALE": 12,
+        "MONO": 7
+      },
+      "inverse": {
+        "ADD": 12,
+        "SCALE": 12,
+        "MONO": 7
+      },
+      "uniform_prefix_forward": "202",
+      "uniform_prefix_inverse": "162"
+    },
+    "Q0": {
+      "forward": {
+        "ADD": 80,
+        "SCALE": 152,
+        "MONO": 120
+      },
+      "inverse": {
+        "ADD": 80,
+        "SCALE": 152,
+        "MONO": 120
+      },
+      "uniform_prefix_forward": "186",
+      "uniform_prefix_inverse": "192"
+    }
+  },
+  "new_gaussian_queries": 0,
+  "new_owners": 0,
+  "new_kappa": false
+}

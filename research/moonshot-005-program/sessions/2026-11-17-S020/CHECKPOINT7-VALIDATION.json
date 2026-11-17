@@ -1,0 +1,90 @@
+{
+  "status": "PASS_S020_CHECKPOINT7_FOCUSED_REPRODUCTION",
+  "checks": [
+    {
+      "name": "half-service",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint7-evidence/A/build_proper_half_service.py",
+      "script_sha256": "76a38950830440aad6ee7b4e83671058affa574d854f6f0f7ba53c545cd8fd19",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-service",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint7-evidence/C/proper-half-service-review/check.py",
+      "script_sha256": "440f1c20e1daa69c2dc50a35245f890430df8abf8f12f27c31b2dab3b9593517",
+      "exit_code": 0
+    },
+    {
+      "name": "fresh-service-transcript",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint7-evidence/C/shared-half-fresh-transcript/check.py",
+      "script_sha256": "15a281eee4c63664cf3aab65a22bfaf592ab4f8ae275c3f7254f443034f155be",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-service-transcript",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint7-evidence/R/shared-half-transcript-review/check.py",
+      "script_sha256": "37dc8aba3cf09160dd87a3505e25aaa1be9fb2285853ecbfdb7d02e74fb4525e",
+      "exit_code": 0
+    },
+    {
+      "name": "anticommuting-interface",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint7-evidence/B/prefix-anticommuting-first-interface/check.py",
+      "script_sha256": "25db8f0d5b5c6f5281f52e290ce6017b0d7422806be191dd741c4fc7352eca96",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-interface",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint7-evidence/R/anticommuting-interface-review/check.py",
+      "script_sha256": "28fed309074b7ec4ccbb0274ff72179fa9bd5578df301a33e29bc059a971f8eb",
+      "exit_code": 0
+    }
+  ],
+  "exact_reproductions": [
+    {
+      "path": "A/proper-half-service/WORD.json",
+      "sha256": "91d4a24a995a18ed306b6c657e76e9cac1f14c8077b4143aae94581b50e2eb6e"
+    },
+    {
+      "path": "A/proper-half-service/RESULT.json",
+      "sha256": "73a9e258222b9bae91bb8ce718316969f00a41be75e9ccf8142c34ca04175adb"
+    },
+    {
+      "path": "A/proper-half-service/CUT-INVENTORY.json",
+      "sha256": "bd2ca6bf710dde2450eef40168ddad17aba272768334ec4c09848d51ae820c3a"
+    },
+    {
+      "path": "C/proper-half-service-review/output/CERTIFICATE.json",
+      "sha256": "8090ab00276dfa01ac0a285ce6fcb5009656db166cb7125c32f67c9102686fb9"
+    },
+    {
+      "path": "C/proper-half-service-review/output/INDEPENDENT-CUT.json",
+      "sha256": "327f333b468492a6d3c64286e411e5076e41603bdae9e61d698894ec45b6bb03"
+    },
+    {
+      "path": "C/shared-half-fresh-transcript/output/CERTIFICATE.json",
+      "sha256": "a2ba6671bb0707c63b670c65daf25a5b8e5c443ef2240c1bb57a2cd6c6711f43"
+    },
+    {
+      "path": "C/shared-half-fresh-transcript/output/MAPPED-DUAL.json",
+      "sha256": "e8cce0c701912e3be111603447ec1b0f95daee1b84a783cce15a5fe730b10e92"
+    },
+    {
+      "path": "R/shared-half-transcript-review/output/RESULT.json",
+      "sha256": "59a11d42420c0cced020dd4b5c51cbecdfccd5f6d99b6512ac2ad76f7311b70d"
+    },
+    {
+      "path": "B/prefix-anticommuting-first-interface/RESULT.json",
+      "sha256": "9271d0614a8054c74f9eda2e3d3a9b666eeb9c86cdce349229b7b4cc8c05f3f9"
+    },
+    {
+      "path": "B/prefix-anticommuting-first-interface/WORDS.json",
+      "sha256": "ee9f47268e3a1265e506079abd1bf81b22cecab5dd3f184d26f71de50bb6c224"
+    },
+    {
+      "path": "R/anticommuting-interface-review/output/RESULT.json",
+      "sha256": "d1ba1cef2beaae464fd199a3d86b37c164a44616186c8aca427429d5474c4e34"
+    }
+  ],
+  "source_pins_sha256": "3ed8f3162800da47585dbbd613b5bc65ccacf4a47ecec265f0731eeaa620906c",
+  "independence": "A shared-half word is independently reconstructed by C. Root independently audits C conditioned actual-cut geometry and dual, and B changed-interface source kernels, literal unit primitives and184 omitted ADDs. Reexecution is not independent proof.",
+  "new_complete_kappa": false
+}

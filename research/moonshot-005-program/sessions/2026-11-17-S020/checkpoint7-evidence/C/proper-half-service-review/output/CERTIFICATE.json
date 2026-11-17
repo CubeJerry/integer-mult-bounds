@@ -1,0 +1,933 @@
+{
+  "status": "PASS_INDEPENDENT_ACTUAL_SHARED_HALF_SERVICE",
+  "pins": {
+    "native": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+    "word": "91d4a24a995a18ed306b6c657e76e9cac1f14c8077b4143aae94581b50e2eb6e",
+    "parent": "eb49a700e9d815d975120ba56271d414a2a15ee01254c8f5f3203fdfb52c2a59",
+    "source_review": "37d995575ad179e524c0de505e5d56f45749b5da73ce3750244c5594e41a9402",
+    "arithmetic": "41b4d0ec79abc43cc32a9b97d8a36fb3805e5602630b07c2f74a5999a281a565"
+  },
+  "cut": 2089,
+  "all222": true,
+  "all420_fields": true,
+  "formal_four_column_identity": {
+    "columns": [
+      "b_i",
+      "b_k",
+      "D",
+      "R"
+    ],
+    "prepared_rows": [
+      2,
+      3
+    ],
+    "final_rows": [
+      13,
+      6
+    ]
+  },
+  "independent_plan": [
+    [
+      14,
+      97,
+      "HALF_4_1",
+      [
+        42,
+        45
+      ]
+    ],
+    [
+      17,
+      98,
+      "HALF_2_2",
+      [
+        23,
+        26
+      ]
+    ],
+    [
+      19,
+      100,
+      "HALF_2_2",
+      [
+        23,
+        26
+      ]
+    ],
+    [
+      96,
+      15,
+      "HALF_9_1",
+      [
+        77,
+        80
+      ]
+    ],
+    [
+      99,
+      16,
+      "HALF_9_1",
+      [
+        77,
+        80
+      ]
+    ],
+    [
+      101,
+      18,
+      "HALF_9_0",
+      [
+        74,
+        75
+      ]
+    ],
+    [
+      102,
+      21,
+      "HALF_9_0",
+      [
+        74,
+        75
+      ]
+    ]
+  ],
+  "pure_export_count": 4,
+  "receiver_courier_pairs": 7,
+  "new_target_foreign_terms": 28,
+  "new_courier_foreign_terms": 21,
+  "total_foreign_terms": 485,
+  "completed_diagonal_values": 8,
+  "stats": {
+    "counts": {
+      "INIT": 198,
+      "ADD": 1461,
+      "MOVE": 541,
+      "CLEAR": 198
+    },
+    "movement_profile": {
+      "1": 198,
+      "2": 121,
+      "3": 22,
+      "4": 104,
+      "7": 96
+    },
+    "owned_downward_profile": {
+      "1": 40
+    },
+    "peak_owned": 198,
+    "dirty_CLEAR": 198,
+    "cut_fields": 420,
+    "cut_owned": 198
+  },
+  "profile_delta": {
+    "1": 11,
+    "2": 14,
+    "3": 14,
+    "4": -7,
+    "7": -7
+  },
+  "movement_cost_added": {
+    "rational": [
+      "5426122017643607257398528442909/1250000000000000000000000000000",
+      "43408976141148858059188227544329/10000000000000000000000000000000"
+    ],
+    "decimal": [
+      "4.3408976141148858059188227543272",
+      "4.3408976141148858059188227544329"
+    ]
+  },
+  "moment": {
+    "rational": [
+      "7917105598566097500379341657636807/5000000000000000000000000000000",
+      "3166842239426439000151736663054831/2000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1583.4211197132195000758683315273614",
+      "1583.4211197132195000758683315274155"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "1149892814937985655111334565187009/30000000000000000000000000000000",
+      "2299785629875971310222669130378633/60000000000000000000000000000000"
+    ],
+    "decimal": [
+      "38.32976049793285517037781883956696666666666666666666667",
+      "38.32976049793285517037781883964388333333333333333333333"
+    ]
+  },
+  "explicit_nonnative_export_leaks": [
+    {
+      "receiver": 8,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 11,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 13,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 14,
+      "field": "Y101",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 14,
+      "field": "Y102",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 14,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 15,
+      "field": "Y96",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 15,
+      "field": "Y99",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 15,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 16,
+      "field": "Y96",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 16,
+      "field": "Y99",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 16,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 17,
+      "field": "Y101",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 17,
+      "field": "Y102",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 17,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 18,
+      "field": "Y101",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 18,
+      "field": "Y102",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 18,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 19,
+      "field": "Y96",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 19,
+      "field": "Y99",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 19,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 20,
+      "field": "Y96",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 20,
+      "field": "Y99",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 20,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 21,
+      "field": "Y101",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 21,
+      "field": "Y102",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 21,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 24,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 29,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 39,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 40,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 52,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 52,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 53,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 54,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 54,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 55,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 55,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 56,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 57,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 57,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 58,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 74,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 75,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 77,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 80,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 96,
+      "field": "Y17",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 96,
+      "field": "Y19",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 96,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 97,
+      "field": "Y14",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 97,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 98,
+      "field": "Y14",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 98,
+      "field": "Y17",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 98,
+      "field": "Y19",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 98,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 98,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 100,
+      "field": "Y17",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 100,
+      "field": "Y19",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 100,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 101,
+      "field": "Y14",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 101,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 102,
+      "field": "Y14",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 102,
+      "field": "Y17",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 102,
+      "field": "Y19",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 102,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 102,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    }
+  ],
+  "conditioning_roles": [
+    22,
+    23,
+    26,
+    27,
+    42,
+    43,
+    44,
+    45,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "conditioned_locality_checks": [
+    {
+      "receiver": 8,
+      "inside_fields": 161
+    },
+    {
+      "receiver": 9,
+      "inside_fields": 161
+    },
+    {
+      "receiver": 10,
+      "inside_fields": 166
+    },
+    {
+      "receiver": 11,
+      "inside_fields": 163
+    },
+    {
+      "receiver": 12,
+      "inside_fields": 163
+    },
+    {
+      "receiver": 13,
+      "inside_fields": 164
+    },
+    {
+      "receiver": 14,
+      "inside_fields": 178
+    },
+    {
+      "receiver": 15,
+      "inside_fields": 178
+    },
+    {
+      "receiver": 16,
+      "inside_fields": 177
+    },
+    {
+      "receiver": 17,
+      "inside_fields": 183
+    },
+    {
+      "receiver": 18,
+      "inside_fields": 177
+    },
+    {
+      "receiver": 19,
+      "inside_fields": 182
+    },
+    {
+      "receiver": 20,
+      "inside_fields": 178
+    },
+    {
+      "receiver": 21,
+      "inside_fields": 180
+    },
+    {
+      "receiver": 22,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 23,
+      "inside_fields": 164
+    },
+    {
+      "receiver": 24,
+      "inside_fields": 167
+    },
+    {
+      "receiver": 25,
+      "inside_fields": 170
+    },
+    {
+      "receiver": 26,
+      "inside_fields": 166
+    },
+    {
+      "receiver": 27,
+      "inside_fields": 164
+    },
+    {
+      "receiver": 28,
+      "inside_fields": 164
+    },
+    {
+      "receiver": 29,
+      "inside_fields": 163
+    },
+    {
+      "receiver": 30,
+      "inside_fields": 161
+    },
+    {
+      "receiver": 31,
+      "inside_fields": 165
+    },
+    {
+      "receiver": 32,
+      "inside_fields": 165
+    },
+    {
+      "receiver": 33,
+      "inside_fields": 171
+    },
+    {
+      "receiver": 34,
+      "inside_fields": 167
+    },
+    {
+      "receiver": 35,
+      "inside_fields": 165
+    },
+    {
+      "receiver": 36,
+      "inside_fields": 163
+    },
+    {
+      "receiver": 37,
+      "inside_fields": 163
+    },
+    {
+      "receiver": 38,
+      "inside_fields": 164
+    },
+    {
+      "receiver": 39,
+      "inside_fields": 163
+    },
+    {
+      "receiver": 40,
+      "inside_fields": 167
+    },
+    {
+      "receiver": 41,
+      "inside_fields": 170
+    },
+    {
+      "receiver": 42,
+      "inside_fields": 168
+    },
+    {
+      "receiver": 43,
+      "inside_fields": 166
+    },
+    {
+      "receiver": 44,
+      "inside_fields": 164
+    },
+    {
+      "receiver": 45,
+      "inside_fields": 168
+    },
+    {
+      "receiver": 46,
+      "inside_fields": 158
+    },
+    {
+      "receiver": 47,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 48,
+      "inside_fields": 162
+    },
+    {
+      "receiver": 49,
+      "inside_fields": 162
+    },
+    {
+      "receiver": 50,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 51,
+      "inside_fields": 164
+    },
+    {
+      "receiver": 52,
+      "inside_fields": 161
+    },
+    {
+      "receiver": 53,
+      "inside_fields": 162
+    },
+    {
+      "receiver": 54,
+      "inside_fields": 158
+    },
+    {
+      "receiver": 55,
+      "inside_fields": 161
+    },
+    {
+      "receiver": 56,
+      "inside_fields": 161
+    },
+    {
+      "receiver": 57,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 58,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 59,
+      "inside_fields": 175
+    },
+    {
+      "receiver": 60,
+      "inside_fields": 172
+    },
+    {
+      "receiver": 61,
+      "inside_fields": 172
+    },
+    {
+      "receiver": 62,
+      "inside_fields": 174
+    },
+    {
+      "receiver": 63,
+      "inside_fields": 173
+    },
+    {
+      "receiver": 64,
+      "inside_fields": 172
+    },
+    {
+      "receiver": 65,
+      "inside_fields": 171
+    },
+    {
+      "receiver": 66,
+      "inside_fields": 162
+    },
+    {
+      "receiver": 67,
+      "inside_fields": 162
+    },
+    {
+      "receiver": 68,
+      "inside_fields": 163
+    },
+    {
+      "receiver": 69,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 70,
+      "inside_fields": 161
+    },
+    {
+      "receiver": 71,
+      "inside_fields": 161
+    },
+    {
+      "receiver": 72,
+      "inside_fields": 164
+    },
+    {
+      "receiver": 73,
+      "inside_fields": 162
+    },
+    {
+      "receiver": 74,
+      "inside_fields": 164
+    },
+    {
+      "receiver": 75,
+      "inside_fields": 164
+    },
+    {
+      "receiver": 76,
+      "inside_fields": 166
+    },
+    {
+      "receiver": 77,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 78,
+      "inside_fields": 162
+    },
+    {
+      "receiver": 79,
+      "inside_fields": 162
+    },
+    {
+      "receiver": 80,
+      "inside_fields": 168
+    },
+    {
+      "receiver": 81,
+      "inside_fields": 162
+    },
+    {
+      "receiver": 82,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 83,
+      "inside_fields": 158
+    },
+    {
+      "receiver": 84,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 85,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 86,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 87,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 88,
+      "inside_fields": 162
+    },
+    {
+      "receiver": 89,
+      "inside_fields": 162
+    },
+    {
+      "receiver": 90,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 91,
+      "inside_fields": 162
+    },
+    {
+      "receiver": 92,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 93,
+      "inside_fields": 162
+    },
+    {
+      "receiver": 94,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 95,
+      "inside_fields": 164
+    },
+    {
+      "receiver": 96,
+      "inside_fields": 180
+    },
+    {
+      "receiver": 97,
+      "inside_fields": 174
+    },
+    {
+      "receiver": 98,
+      "inside_fields": 179
+    },
+    {
+      "receiver": 99,
+      "inside_fields": 177
+    },
+    {
+      "receiver": 100,
+      "inside_fields": 175
+    },
+    {
+      "receiver": 101,
+      "inside_fields": 176
+    },
+    {
+      "receiver": 102,
+      "inside_fields": 181
+    },
+    {
+      "receiver": 103,
+      "inside_fields": 161
+    },
+    {
+      "receiver": 104,
+      "inside_fields": 162
+    },
+    {
+      "receiver": 105,
+      "inside_fields": 161
+    },
+    {
+      "receiver": 106,
+      "inside_fields": 164
+    },
+    {
+      "receiver": 107,
+      "inside_fields": 158
+    },
+    {
+      "receiver": 108,
+      "inside_fields": 161
+    },
+    {
+      "receiver": 109,
+      "inside_fields": 160
+    },
+    {
+      "receiver": 110,
+      "inside_fields": 165
+    }
+  ],
+  "negative_controls": {
+    "earlier_inverse": "all original Y columns and proper correction",
+    "actual_half_capture": "all original Y columns and proper correction",
+    "actual_half_descent": "actual cochart ADD at 2047",
+    "actual_half_read": "all original Y columns and proper correction",
+    "target_half_delivery": "all original Y columns and proper correction",
+    "courier_garbage_cancellation": "all original Y columns and proper correction",
+    "late_ground_inverse": "actual cochart ADD at 1997"
+  },
+  "scope": "Actual four shared proper exports and seven public-Y deliveries with complete arbitrary-baseline cancellation. Whole-width characteristic-two source identity. Pure exported owners remain nonnative inside some facets, so no prior entropy graph is inherited unchanged."
+}

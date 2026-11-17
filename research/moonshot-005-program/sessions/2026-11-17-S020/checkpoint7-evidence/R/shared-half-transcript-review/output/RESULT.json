@@ -1,0 +1,856 @@
+{
+  "status": "PASS_INDEPENDENT_SHARED_HALF_FRESH_NINE",
+  "pins": {
+    "geometry": "983c931bc9907de160fa59fc2011cff434766d7e7384ce898df05574cc5c61fc",
+    "entropy": "f1da4816d7c0b285271735f53158f180b349798788ee67ed428e37f1f45429fc",
+    "word": "91d4a24a995a18ed306b6c657e76e9cac1f14c8077b4143aae94581b50e2eb6e",
+    "mapped": "e8cce0c701912e3be111603447ec1b0f95daee1b84a783cce15a5fe730b10e92",
+    "old_dual": "67b8f94d20704d20e5a609755b692d0bcc85cb264c67a346c01b099a17e2b20e"
+  },
+  "source_cut": 2089,
+  "all_original_columns": 222,
+  "actual_fields": 420,
+  "actual_completed_roles": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "conditioned_export_inputs": [
+    22,
+    23,
+    26,
+    27,
+    42,
+    43,
+    44,
+    45,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "conditioned_unknown_count": 87,
+  "unconditioned_leaks": [
+    {
+      "receiver": 8,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 11,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 13,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 14,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 14,
+      "field": "Y101",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 14,
+      "field": "Y102",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 15,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 15,
+      "field": "Y96",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 15,
+      "field": "Y99",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 16,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 16,
+      "field": "Y96",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 16,
+      "field": "Y99",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 17,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 17,
+      "field": "Y101",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 17,
+      "field": "Y102",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 18,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 18,
+      "field": "Y101",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 18,
+      "field": "Y102",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 19,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 19,
+      "field": "Y96",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 19,
+      "field": "Y99",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 20,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 20,
+      "field": "Y96",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 20,
+      "field": "Y99",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 21,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 21,
+      "field": "Y101",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 21,
+      "field": "Y102",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 24,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 29,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 39,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 40,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 52,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 52,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 53,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 54,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 54,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 55,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 55,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 56,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 57,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 57,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 58,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 74,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 75,
+      "field": "HALF_SERVICE_EXPORT_2",
+      "forbidden_mask_hex": "0xc0000000000000000000"
+    },
+    {
+      "receiver": 77,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 80,
+      "field": "HALF_SERVICE_EXPORT_3",
+      "forbidden_mask_hex": "0x12000000000000000000"
+    },
+    {
+      "receiver": 96,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 96,
+      "field": "Y17",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 96,
+      "field": "Y19",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 97,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 97,
+      "field": "Y14",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 98,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 98,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 98,
+      "field": "Y14",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 98,
+      "field": "Y17",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 98,
+      "field": "Y19",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 100,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 100,
+      "field": "Y17",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 100,
+      "field": "Y19",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 101,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 101,
+      "field": "Y14",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 102,
+      "field": "HALF_SERVICE_EXPORT_0",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 102,
+      "field": "HALF_SERVICE_EXPORT_1",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 102,
+      "field": "Y14",
+      "forbidden_mask_hex": "0x180000000000"
+    },
+    {
+      "receiver": 102,
+      "field": "Y17",
+      "forbidden_mask_hex": "0x8400000"
+    },
+    {
+      "receiver": 102,
+      "field": "Y19",
+      "forbidden_mask_hex": "0x8400000"
+    }
+  ],
+  "all87_receiver_locality_checks": [
+    {
+      "receiver": 8,
+      "inside_fields": 161,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 9,
+      "inside_fields": 161,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 10,
+      "inside_fields": 166,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 11,
+      "inside_fields": 163,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 12,
+      "inside_fields": 163,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 13,
+      "inside_fields": 164,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 14,
+      "inside_fields": 178,
+      "Y_chart_rank": 4
+    },
+    {
+      "receiver": 15,
+      "inside_fields": 178,
+      "Y_chart_rank": 4
+    },
+    {
+      "receiver": 16,
+      "inside_fields": 177,
+      "Y_chart_rank": 4
+    },
+    {
+      "receiver": 17,
+      "inside_fields": 183,
+      "Y_chart_rank": 4
+    },
+    {
+      "receiver": 18,
+      "inside_fields": 177,
+      "Y_chart_rank": 4
+    },
+    {
+      "receiver": 19,
+      "inside_fields": 182,
+      "Y_chart_rank": 4
+    },
+    {
+      "receiver": 20,
+      "inside_fields": 178,
+      "Y_chart_rank": 3
+    },
+    {
+      "receiver": 21,
+      "inside_fields": 180,
+      "Y_chart_rank": 4
+    },
+    {
+      "receiver": 24,
+      "inside_fields": 167,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 25,
+      "inside_fields": 170,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 28,
+      "inside_fields": 164,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 29,
+      "inside_fields": 163,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 30,
+      "inside_fields": 161,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 31,
+      "inside_fields": 165,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 32,
+      "inside_fields": 165,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 33,
+      "inside_fields": 171,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 34,
+      "inside_fields": 167,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 35,
+      "inside_fields": 165,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 36,
+      "inside_fields": 163,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 37,
+      "inside_fields": 163,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 38,
+      "inside_fields": 164,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 39,
+      "inside_fields": 163,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 40,
+      "inside_fields": 167,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 41,
+      "inside_fields": 170,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 46,
+      "inside_fields": 158,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 47,
+      "inside_fields": 160,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 48,
+      "inside_fields": 162,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 49,
+      "inside_fields": 162,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 50,
+      "inside_fields": 160,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 51,
+      "inside_fields": 164,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 52,
+      "inside_fields": 161,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 53,
+      "inside_fields": 162,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 54,
+      "inside_fields": 158,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 55,
+      "inside_fields": 161,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 56,
+      "inside_fields": 161,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 57,
+      "inside_fields": 160,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 58,
+      "inside_fields": 160,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 59,
+      "inside_fields": 175,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 60,
+      "inside_fields": 172,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 61,
+      "inside_fields": 172,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 62,
+      "inside_fields": 174,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 63,
+      "inside_fields": 173,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 64,
+      "inside_fields": 172,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 65,
+      "inside_fields": 171,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 66,
+      "inside_fields": 162,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 67,
+      "inside_fields": 162,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 68,
+      "inside_fields": 163,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 69,
+      "inside_fields": 160,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 70,
+      "inside_fields": 161,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 71,
+      "inside_fields": 161,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 72,
+      "inside_fields": 164,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 81,
+      "inside_fields": 162,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 82,
+      "inside_fields": 160,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 83,
+      "inside_fields": 158,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 84,
+      "inside_fields": 160,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 85,
+      "inside_fields": 160,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 86,
+      "inside_fields": 160,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 87,
+      "inside_fields": 160,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 88,
+      "inside_fields": 162,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 89,
+      "inside_fields": 162,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 90,
+      "inside_fields": 160,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 91,
+      "inside_fields": 162,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 92,
+      "inside_fields": 160,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 93,
+      "inside_fields": 162,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 94,
+      "inside_fields": 160,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 95,
+      "inside_fields": 164,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 96,
+      "inside_fields": 180,
+      "Y_chart_rank": 4
+    },
+    {
+      "receiver": 97,
+      "inside_fields": 174,
+      "Y_chart_rank": 4
+    },
+    {
+      "receiver": 98,
+      "inside_fields": 179,
+      "Y_chart_rank": 4
+    },
+    {
+      "receiver": 99,
+      "inside_fields": 177,
+      "Y_chart_rank": 4
+    },
+    {
+      "receiver": 100,
+      "inside_fields": 175,
+      "Y_chart_rank": 4
+    },
+    {
+      "receiver": 101,
+      "inside_fields": 176,
+      "Y_chart_rank": 4
+    },
+    {
+      "receiver": 102,
+      "inside_fields": 181,
+      "Y_chart_rank": 4
+    },
+    {
+      "receiver": 103,
+      "inside_fields": 161,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 104,
+      "inside_fields": 162,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 105,
+      "inside_fields": 161,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 106,
+      "inside_fields": 164,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 107,
+      "inside_fields": 158,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 108,
+      "inside_fields": 161,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 109,
+      "inside_fields": 160,
+      "Y_chart_rank": 0
+    },
+    {
+      "receiver": 110,
+      "inside_fields": 165,
+      "Y_chart_rank": 0
+    }
+  ],
+  "core": [
+    60,
+    86,
+    84,
+    40,
+    38,
+    109,
+    108,
+    107,
+    97,
+    99,
+    65
+  ],
+  "isolates": [
+    63,
+    71,
+    69
+  ],
+  "exact_dual": {
+    "terms": 106,
+    "row_types": {
+      "mono": 27,
+      "submod": 43,
+      "empty": 1,
+      "decode": 35
+    },
+    "core_bound": "11/2",
+    "witness_bound": "17/2",
+    "remaining_entropy_coefficients": {
+      "2047": "1"
+    }
+  },
+  "negative_controls": [
+    {
+      "name": "missing_dual_term",
+      "rejected": "exact dual residual"
+    },
+    {
+      "name": "obsolete_conditioned_witness",
+      "rejected": "witness roles unfinished"
+    }
+  ],
+  "minimum_additional_whole_record_descents": 9,
+  "scope": "Fixed-schedule zero-error finite-alphabet continuation; arbitrary paid nested owned routes, monotone publics. Conditioning16 source coordinates is a lower-bound relaxation, not a physical global-input grant. All66 leaked incidences are accounted.",
+  "new_complete_kappa": false
+}

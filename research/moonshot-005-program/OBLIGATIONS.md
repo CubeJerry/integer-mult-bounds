@@ -1,21 +1,20 @@
-# Proof-dependency map — S020 checkpoint6
+# Proof-dependency map — S020 checkpoint7
 
 No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
 
-| Obligation | Established component and scope | Next mathematical work |
+| Obligation | Established component | Remaining work and scope |
 |---|---|---|
-| Complete BIT output values |Sixteen exact y_i+x_i values at actual charts; all222 columns preserved.|Deliver the remaining95 without treating completed Y values as global raw inputs.|
-| Reversible public-Y transport |Literal ground inverse, native/pair relays and actual quartet cleanup.|Scale compatible cochart service while retaining arbitrary baselines.|
-| Rich physical source bank |56 proper half modes, C9 Hub, native caches, actual new pair/raw/clique fields.|Use their actual locations; no algebraic global-bank grant.|
-| Necessary remaining information |Fresh14-role witness and all424-field audit require9 additional descents.|Complete delivery within34.670658... movement room, with at most25.670658... after those minimum charges.|
-| Older source-access restrictions |Quadratic rank27/rank6 geometry excludes exact rank29/30 banks.|Re-audit every new mode, source and receiver inventory.|
-| Fixed-prefix ordinary compilation |Actual source normalizer and arbitrary borrower restoration.|Pay all gauges, target prefixes and full compiler/precision invoice.|
-| Complex endpoint column |Complete ordinary unit words, inverse programs and one exact input column.|Its fixed-column extension is closed; change first interface or column.|
-| Uniform complex caller |Independent completed4/2/1 jobs remain open.|Prove all input columns and actual endpoint units with one compatible invoice.|
-| Complete exponent theorem |Both strict suppliers and outer assembly remain open.|B>.005,U>.005, all54 strict inequalities, four functional constraints and recursion.|
+| Complete BIT delivery |Sixteen actual diagonal values;95 Ys ground,424 fields.|Finish95 outputs without granting16 globally known raw inputs.|
+| Actual shared-mode service |Four owned exports,7 cochart deliveries, arbitrary-baseline inverse and clean couriers.|Scale from actual raised charts; distinct420-field source, not a free composition.|
+| All current information |16-output cut: fresh9 further descents. Half-service cut: all66 leaks audited and explicit16-input conditioning gives fresh9.|Necessary rooms25.670658... and29.329760... after minimum charges; no nine-move construction.|
+| Owned reuse and direction changes |Information proofs permit arbitrary paid nested owned routes.|New literal upward reuse is under separate review, with full cost required.|
+| Exact older source gates |All-real quadratic noncover excludes exact old rank29/30 source banks.|Do not transfer forcing or bank assumptions unchanged.|
+| Paid ordinary prefix compiler |Source normalizer, arbitrary borrower restoration, actual H_tau words.|Native gauges, target prefixes and full model compiler remain charged.|
+| Changed complex interface |Cprime/Q0 literal units, exact cubic and ordinary kernels, third-row right inverse.|Find actual independent Gaussian encoders and both endpoint units.|
+| Full complex source identity |A cancelling last column with only linear/quadratic terms, all-width algebra.|Complete all input columns; finite envelope screens alone prove no theorem.|
+| Strict suppliers and complete theorem |Both suppliers and outer assembly remain open.|B>.005,U>.005,54 strict inequalities,4 functional constraints and recursion.|
 
 Foundations native_all_columns, owned_erasure, compiler, precision_tape,
-analytic_recovery remain explicit. Local primitive results do not discharge
-the full compiler foundation. Every result retains exact quantifiers in
-[REGISTERED-RESULTS](REGISTERED-RESULTS.json); the prior map is
-[archived](sessions/2026-11-17-S020/logical-records-before-cp6/OBLIGATIONS.md).
+analytic_recovery remain explicit. Every result keeps its exact quantifiers
+in [REGISTERED-RESULTS](REGISTERED-RESULTS.json). The prior dependency map is
+[archived](sessions/2026-11-17-S020/logical-records-before-cp7/OBLIGATIONS.md).

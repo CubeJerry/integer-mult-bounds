@@ -2392,3 +2392,27 @@ hypotheses. The positive words remain valid. New half-service and changed-C
 constructions are active for later review. Ten checks,17 exact outputs and27
 inherited pins pass. All five foundations, strict suppliers and PR readiness
 remain open; the permanent branch is preserved without force-push.
+
+
+## 2026-11-17-S020 — checkpoint7
+
+Confirmed parent `2711b6c571e7eeda0b64b5966686b59e26c392cc`, independently confirmed with exact tree and single
+parent in CHECKPOINT6-REMOTE-RECEIPT. Session continues through08:06 UTC.
+No new complete κ. Six focused checks and11 exact outputs pass with30
+authenticated inherited dependencies.
+
+Admitted four actual proper half exports serving seven raised receivers,
+with seven reversible public-Y exchanges and49 new native correction terms.
+All420 fields and222 columns are independently verified; the source has8
+complete outputs and88 ground Ys. Q0=1583.421119713219... leaves38.329760497932...
+movement room. A fresh106-term witness, after explicit16-source conditioning,
+audits all66 leaked incidences and requires9 additional descents, leaving
+29.329760497932... after minimum charges. This variant is not freely composable
+with the retained16-output frontier.
+
+Admitted the anticommuting prefix Cprime and paid Q0 unit, exact source kernels,
+third-row right inverse and full ordinary/cubic column cancellation. Root
+separately verifies all184 literal ADD omissions, prefix bounds and source
+Walsh gauges. Actual independent Gaussian endpoints remain open. Paid owned
+upward reuse and further coupled endpoint work continue for separate review.
+All foundations, both strict suppliers and PR readiness remain open.

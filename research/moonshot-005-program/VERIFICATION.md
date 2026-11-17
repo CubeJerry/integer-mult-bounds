@@ -1,5 +1,28 @@
 # Verification ledger
 
+## S020 checkpoint7
+
+Confirmed parent `2711b6c571e7eeda0b64b5966686b59e26c392cc`. Six focused checks reproduce11 outputs byte for
+byte, with30 inherited dependencies authenticated against checkpoint6.
+[Validation](sessions/2026-11-17-S020/CHECKPOINT7-VALIDATION.json),
+[pins](sessions/2026-11-17-S020/SOURCE-PINS-CP7.json),
+[prior remote receipt](sessions/2026-11-17-S020/CHECKPOINT6-REMOTE-RECEIPT.json).
+
+| Result | Independent verification | Scope boundary |
+|---|---|---|
+| Four-export shared-half service |C literal reconstruction,420 fields,222 columns,4-formal-column identity,7 controls.|8 completed outputs; no free composition with16-output source.|
+| New post-service9 bound |Root Fraction replay and separate106-term Shannon verifier; all66 leaks and87 conditional facets.|Explicit16-coordinate information relaxation; fixed-schedule finite-alphabet model.|
+| Anticommuting interface |Root separate Q(i), exact Gram inverse and row right inverse, all unit columns/inverses at reduced widths0/1.|Cancelling column only; actual Gaussian endpoints still open.|
+| Paid prefix and source heads |Root all184 literal ADD omissions, macro expansion and bounds, exact Walsh gauges and monomial transports.|No free prefix action or inferred full physical compiler.|
+
+```bash
+python -B research/moonshot-005-program/sessions/2026-11-17-S020/reproduce_cp7.py --repo . --out /tmp/moonshot-S020-cp7
+```
+
+Python3.11+ and SymPy; --only and --jobs select checks and concurrency.
+Reexecution is not independent proof. Separate source/mathematical reviews
+are explicit; no human or proof-kernel certification is claimed. No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
+
 ## S020 checkpoint6
 
 Confirmed parent `d7e0552ff70d09fc42147216ff95e9d1956e03bb`. Ten focused checks reproduce17 scientific outputs
