@@ -1,0 +1,126 @@
+{
+  "status": "PASS_ARBITRARY_SECOND_INPUT_SPECTATOR_SHEAR_GATE_AND_CUBIC_COLUMN",
+  "source_baseline": "e31d437b489a416446fdd7e294bc2238829c5925",
+  "parent_check_sha256": "12217a5dd708c9adb93987eb2d10e23185e279ac3ea46fe0c68e523a370610f3",
+  "parent_proof_sha256": "2637c23639f437a5bf659376b3da24cf33fb934f7dfba57ed48f6a06ad23a598",
+  "all_one_letter_distinct_input_pairs": 120,
+  "equal_support_c_pairs": 8,
+  "other_input_pairs_with_disjoint_support": 112,
+  "actual_c_pair_clock": true,
+  "swapping_c_to_d_is_essential_for_pair_witness": true,
+  "literal_forward_inverse_receipts": {
+    "changed_shear": {
+      "forward": {
+        "counts": {
+          "MONO": 2,
+          "ADD": 1
+        },
+        "uniform_triangle_prefix_bound": "2",
+        "ADD_omission_checks": 1
+      },
+      "inverse": {
+        "counts": {
+          "MONO": 2,
+          "SCALE": 2,
+          "ADD": 1
+        },
+        "uniform_triangle_prefix_bound": "2",
+        "ADD_omission_checks": 1
+      }
+    },
+    "second_interface": {
+      "forward": {
+        "counts": {
+          "ADD": 8,
+          "SCALE": 8,
+          "MONO": 3
+        },
+        "uniform_triangle_prefix_bound": "74",
+        "ADD_omission_checks": 8
+      },
+      "inverse": {
+        "counts": {
+          "MONO": 3,
+          "SCALE": 24,
+          "ADD": 8
+        },
+        "uniform_triangle_prefix_bound": "11",
+        "ADD_omission_checks": 8
+      }
+    },
+    "output_endpoint": {
+      "forward": {
+        "counts": {
+          "SCALE": 3,
+          "ADD": 2
+        },
+        "uniform_triangle_prefix_bound": "2",
+        "ADD_omission_checks": 2
+      },
+      "inverse": {
+        "counts": {
+          "SCALE": 7,
+          "ADD": 2
+        },
+        "uniform_triangle_prefix_bound": "3",
+        "ADD_omission_checks": 2
+      }
+    },
+    "input_endpoint": {
+      "forward": {
+        "counts": {
+          "SCALE": 4,
+          "ADD": 2,
+          "MONO": 3
+        },
+        "uniform_triangle_prefix_bound": "2",
+        "ADD_omission_checks": 2
+      },
+      "inverse": {
+        "counts": {
+          "MONO": 3,
+          "SCALE": 8,
+          "ADD": 2
+        },
+        "uniform_triangle_prefix_bound": "2",
+        "ADD_omission_checks": 2
+      }
+    }
+  },
+  "width_one_sector_checks": [
+    {
+      "prefix_sign": 1,
+      "native_matrices_checked": 5,
+      "input_columns_per_paid_unit": 48,
+      "all_other_column_defect_rank": 32,
+      "positive_cubic_half_rank": 12,
+      "positive_linear_rank": 16,
+      "omitted_shear_rejected": true,
+      "primitive_omissions": 26
+    },
+    {
+      "prefix_sign": -1,
+      "native_matrices_checked": 5,
+      "input_columns_per_paid_unit": 48,
+      "all_other_column_defect_rank": 32,
+      "positive_cubic_half_rank": 4,
+      "positive_linear_rank": 16,
+      "omitted_shear_rejected": true,
+      "primitive_omissions": 26
+    }
+  ],
+  "parabolic_deficit_at_199_over_200": [
+    "2093116362852221108881486854376882269189/5000000000000000000000000000000000000000",
+    "418623272570444221776297370875376453839/1000000000000000000000000000000000000000"
+  ],
+  "transported_subfamily_deficit_at_199_over_200": [
+    "1398040877411441465757688701150529749211/1000000000000000000000000000000000000000",
+    "6990204387057207328788443505752648746061/5000000000000000000000000000000000000000"
+  ],
+  "every_ordinary_shear_in_scope": true,
+  "maximum_independent_head": 3,
+  "at_least_one_head_at_most": 1,
+  "profile_331": false,
+  "total_head_rank_at_most": 6,
+  "new_complete_kappa": false
+}

@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "checks": [
+    {
+      "label": "seven",
+      "script_sha256": "6c960b65938278bec86655fec7aff27351b4f4440c1c458e789a875affc21137",
+      "outputs": [
+        {
+          "path": "results/bit-eight-layered-receivers/author/seven/WORD.json",
+          "sha256": "0efee1eba69dabe5f7357522a16217b9b1bcff97cd983bf4b211561d1e47bafe",
+          "byte_equal": true
+        },
+        {
+          "path": "results/bit-eight-layered-receivers/author/seven/RESULT.json",
+          "sha256": "cf9d023ed21f73fb179f10b1288548d3fec8d5ca0435d618a46ba037a3e0a5f8",
+          "byte_equal": true
+        }
+      ]
+    },
+    {
+      "label": "eight",
+      "script_sha256": "6c960b65938278bec86655fec7aff27351b4f4440c1c458e789a875affc21137",
+      "outputs": [
+        {
+          "path": "results/bit-eight-layered-receivers/author/output/WORD.json",
+          "sha256": "57603fff38645768b6ffa0047ed693484c448ef899eadb0f3038f4add92009e7",
+          "byte_equal": true
+        },
+        {
+          "path": "results/bit-eight-layered-receivers/author/output/RESULT.json",
+          "sha256": "139cab338273b4f37195488f961a3b0de6c03e9e3e136d1a099675a3ddd3201f",
+          "byte_equal": true
+        }
+      ]
+    },
+    {
+      "label": "layered-independent",
+      "script_sha256": "98448eaf2d90318eb2b19043298e884442ff9fcd1bf16e05c8846d0a7f96bc2e",
+      "outputs": [
+        {
+          "path": "results/bit-eight-layered-receivers/review/output/RESULT.json",
+          "sha256": "0fe5e3f20bdf75153ae1c7dd2f2e03d78888e61629b2acc4ff53fc5e74921c82",
+          "byte_equal": true
+        }
+      ]
+    },
+    {
+      "label": "second-spectator",
+      "script_sha256": "4d1e5c110a10fa4df5224f04bdd590d4b1f63044e0267d7b61e1f1f1108fc36b",
+      "outputs": [
+        {
+          "path": "results/complex-joint-spectator-additions/second/output/RESULT.json",
+          "sha256": "e027a759098547966a5f79eb73cfdeeb59d87a2a0e994f77746b2a3ec327a0a2",
+          "byte_equal": true
+        }
+      ]
+    },
+    {
+      "label": "joint-spectator",
+      "script_sha256": "17bf8d6b76ffca0bebf0068d397929522a3f50e08046e4e4021c46a8416ac151",
+      "outputs": [
+        {
+          "path": "results/complex-joint-spectator-additions/joint/output/RESULT.json",
+          "sha256": "cd356efea0ddc1bc3eba590c54899033edf8190d4bf119c1b1cc69be6ed886f3",
+          "byte_equal": true
+        }
+      ]
+    },
+    {
+      "label": "review-second",
+      "script_sha256": "f43a859447e3c8f625cbfea34bb2a78764883eb48f958329f4346f82eaa26846",
+      "outputs": [
+        {
+          "path": "results/complex-joint-spectator-additions/review/INJECTION-RESULT.json",
+          "sha256": "d4ce5df78ff7f6317045617db3b303ccd8a3c3c935cff216597f6a81f0dd4e1f",
+          "byte_equal": true
+        }
+      ]
+    },
+    {
+      "label": "review-joint",
+      "script_sha256": "91630524289fe5072f20ef22bcf472c6f9830bf390155f29c40e7c37f97538fa",
+      "outputs": [
+        {
+          "path": "results/complex-joint-spectator-additions/review/JOINT-RESULT.json",
+          "sha256": "60b3e957ab7756ec56bf4d53aa8317ee1314642a5f0c455bfd6a767d51ddfc62",
+          "byte_equal": true
+        }
+      ]
+    }
+  ]
+}

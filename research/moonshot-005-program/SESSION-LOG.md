@@ -2580,3 +2580,12 @@ Confirmed parent 791fdaa5461b09efc90a139eaa5d41107ad1c59c. [Minimum linear trans
 Four author/reviewer replay programs regenerate all four stored certificates byte-for-byte. The review includes a disjoint 95-base density certificate, a second enumeration through ternary rank five and actual 222/444/666-column source checks. [Commands](sessions/2026-11-17-S022/reproduce_cp3.py) · [Receipts](sessions/2026-11-17-S022/CHECKPOINT3-VALIDATION.json).
 
 Next. Construct the physical middle transfer of a full-receiver source before its public paths separate, and test how many independent complex endpoints survive a jointly changed interstage interface. The next receipt or branch log identifies the resulting commit.
+
+
+## 2026-11-17 S022, checkpoint 4
+
+Confirmed parent 6cb3c96ce3e0c6677c89cf0037270d18b95ada66. [Seven- and eight-receiver sources](results/bit-eight-layered-receivers/ADMISSION.md) use two levels of paid X carriers. The eight-receiver word closes with movement 1614.10793304123… and all 222 input columns preserved or corrected as specified. [The complex gate](results/complex-joint-spectator-additions/ADMISSION.md) proves that even two arbitrary simultaneous active-to-spectator additions cannot make a profitable independent endpoint. A real quadratic job and a half-bank cubic term do coexist on one input.
+
+Seven checks rebuild nine exact scientific receipts and source words, including two independent proof reviews, all 3,131 deletion controls and both prefix-sign sectors. [Replay](sessions/2026-11-17-S022/reproduce_cp4.py) · [Hashes](sessions/2026-11-17-S022/CHECKPOINT4-VALIDATION.json).
+
+Next. Construct and test the all-111 simultaneous BIT transfer across the middle charts, including source-code compatibility, chronology, real original masks, and finite caller costs. On the complex side test the active-to-active block jointly with spectator transport. The next receipt or branch log identifies the resulting commit.

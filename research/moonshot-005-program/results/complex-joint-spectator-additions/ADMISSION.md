@@ -1,0 +1,5 @@
+# Two arbitrary simultaneous active-to-spectator injections cannot pay for three independent heads
+
+In the fixed-prefix same-plus three-call family, let the first interstage map add any two ordinary coefficients from the two active banks into the spectator. The second interface and both endpoint gauges may be arbitrary ordinary units. Every independent Gaussian head has rank at most three, at least one head has rank at most one, and (3,3,1) is excluded. Thus total independent head rank is at most six. The theorem includes singular, noncommuting and width-dependent coefficients within the stated finite catalogue.
+
+The [two-input proof](joint/PROOF.md) draws on the [one-input pair-support argument](second/PROOF.md). The [positive benchmark](joint/BENCHMARK.md) achieves an actual full-bank quadratic term and a half-bank cubic term on one input. Its complete three-bank endpoint fails. The [independent mathematical review](review/JOINT-REVIEW.md) checks the literal forward and inverse formulas and the benchmark. [Earlier one-input review](review/INJECTION-REVIEW.md) · [96-column author receipt](joint/output/RESULT.json). No new κ.

@@ -1,7 +1,7 @@
 # Resume the permanent programme
 
-Construct the physical middle transfer of a full-receiver source before its public paths separate, and test how many independent complex endpoints survive a jointly changed interstage interface.
+Construct and test the all-111 simultaneous BIT transfer across the middle charts, including source-code compatibility, chronology, real original masks, and finite caller costs. On the complex side test the active-to-active block jointly with spectator transport.
 
-[Minimum linear transcripts](results/bit-minimum-transcript-inlets/ADMISSION.md) exceed the three fixed source budgets even with arbitrary exterior routes. The computable floor is 42.96457333333… per copy, only 0.02118090637… above the F4/F8 source rooms. [The nonlinear bound](results/bit-nonlinear-weighted-inlets/ADMISSION.md) also excludes the scalar nine-record case. These are fixed-source exclusions. No new κ.
+[Seven- and eight-receiver sources](results/bit-eight-layered-receivers/ADMISSION.md) use two levels of paid X carriers. The eight-receiver word closes with movement 1614.10793304123… and all 222 input columns preserved or corrected as specified. [The complex gate](results/complex-joint-spectator-additions/ADMISSION.md) proves that even two arbitrary simultaneous active-to-spectator additions cannot make a profitable independent endpoint. A real quadratic job and a half-bank cubic term do coexist on one input.
 
 Consult [the exact state](STATE.json), [obligations](OBLIGATIONS.md) and [verification ledger](VERIFICATION.md).

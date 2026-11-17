@@ -1,5 +1,9 @@
 # Exact target κ=1/200 — S021 checkpoint3
 
+## S022 checkpoint 4
+
+The eight-receiver construction serves two outer terminals before the six-role core closes. At the actual endpoint 103 individual deficient facets require more arrivals than the remaining room. The complex source with two spectator additions has total head rank at most six. The alternative changes and five foundational assumptions stay open.
+
 ## S022 checkpoint 3
 
 On the existing cuts, target-feasible linear descent counts are at least 10/19/28, and scalar nonlinear count at least 10. On arbitrary nonlinear transcript lengths, the nonprivate rank-gap sum is at least 10b. All five foundational assumptions remain.

@@ -1,5 +1,9 @@
 # Verification ledger
 
+## S022 checkpoint 4
+
+Seven checks rebuild nine exact scientific receipts and source words, including two independent proof reviews, all 3,131 deletion controls and both prefix-sign sectors. [Replay](sessions/2026-11-17-S022/reproduce_cp4.py) · [Hashes](sessions/2026-11-17-S022/CHECKPOINT4-VALIDATION.json).
+
 ## S022 checkpoint 3
 
 Four author/reviewer replay programs regenerate all four stored certificates byte-for-byte. The review includes a disjoint 95-base density certificate, a second enumeration through ternary rank five and actual 222/444/666-column source checks. [Commands](sessions/2026-11-17-S022/reproduce_cp3.py) · [Receipts](sessions/2026-11-17-S022/CHECKPOINT3-VALIDATION.json).

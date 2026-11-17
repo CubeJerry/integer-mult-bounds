@@ -1,5 +1,11 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+## S022 checkpoint 4
+
+[Seven- and eight-receiver sources](results/bit-eight-layered-receivers/ADMISSION.md) use two levels of paid X carriers. The eight-receiver word closes with movement 1614.10793304123… and all 222 input columns preserved or corrected as specified. [The complex gate](results/complex-joint-spectator-additions/ADMISSION.md) proves that even two arbitrary simultaneous active-to-spectator additions cannot make a profitable independent endpoint. A real quadratic job and a half-bank cubic term do coexist on one input.
+
+Seven checks rebuild nine exact scientific receipts and source words, including two independent proof reviews, all 3,131 deletion controls and both prefix-sign sectors. [Replay](sessions/2026-11-17-S022/reproduce_cp4.py) · [Hashes](sessions/2026-11-17-S022/CHECKPOINT4-VALIDATION.json).
+
 ## S022 checkpoint 3
 
 [Minimum linear transcripts](results/bit-minimum-transcript-inlets/ADMISSION.md) exceed the three fixed source budgets even with arbitrary exterior routes. The computable floor is 42.96457333333… per copy, only 0.02118090637… above the F4/F8 source rooms. [The nonlinear bound](results/bit-nonlinear-weighted-inlets/ADMISSION.md) also excludes the scalar nine-record case. These are fixed-source exclusions. No new κ.

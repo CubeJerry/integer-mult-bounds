@@ -1,0 +1,371 @@
+{
+  "status": "PASS_LAYERED_WORDS_AND_RESTRICTED_SINGLE_STAGE_CAPACITY_REVIEW",
+  "engine_sha256": "7d5ecd497ddd86d9b25cb5485c271d6ccad5bef3f3a1e962b0aef3a23dff95f6",
+  "single_stage_restriction": {
+    "foreign_incidences": 6470,
+    "minimum_degree": 55,
+    "minimum_ordered_signature_difference": 21,
+    "minimum_pair_intersection": 23,
+    "ordered_pairs": 12210,
+    "universal_arbitrary_deletions_at_most": 20,
+    "minimum_scalar_raw_backups_in_restricted_model": 110,
+    "exact_multicopy_raw_dimension_lower_bounds_per_copy": {
+      "91": "3683/35",
+      "100": "4673/44",
+      "111": "5883/55"
+    },
+    "base_movement_before_raw_information": [
+      "16102088734840998343428752293278756520307073/10000000000000000000000000000000000000000",
+      "161020887348409983434287522932787565203070961/100000000000000000000000000000000000000000"
+    ],
+    "remaining_limiting_room": [
+      "1154200672705252090337092103911933441720473/100000000000000000000000000000000000000000",
+      "6925204036231512542022552623471600650325519/600000000000000000000000000000000000000000"
+    ],
+    "twenty_one_delete_comparability_witness": {
+      "roles": [
+        39,
+        10
+      ],
+      "delete": [
+        1,
+        4,
+        18,
+        19,
+        26,
+        28,
+        33,
+        35,
+        42,
+        48,
+        53,
+        64,
+        65,
+        69,
+        75,
+        76,
+        79,
+        80,
+        91,
+        95,
+        99
+      ]
+    },
+    "twenty_one_delete_two_common_witness": {
+      "roles": [
+        39,
+        71
+      ],
+      "delete": [
+        1,
+        6,
+        8,
+        18,
+        19,
+        31,
+        35,
+        45,
+        48,
+        49,
+        53,
+        64,
+        75,
+        76,
+        77,
+        78,
+        81,
+        82,
+        91,
+        93,
+        96
+      ],
+      "remaining": [
+        105,
+        106
+      ]
+    }
+  },
+  "seven": {
+    "literal_word_sha256": "0efee1eba69dabe5f7357522a16217b9b1bcff97cd983bf4b211561d1e47bafe",
+    "all_original_input_columns": 222,
+    "opcodes": {
+      "ADD": 932,
+      "CLEAR": 56,
+      "INIT": 56,
+      "MOVE": 437
+    },
+    "movement_profile": {
+      "1": 114,
+      "2": 82,
+      "3": 15,
+      "4": 66,
+      "5": 43,
+      "6": 4,
+      "7": 104,
+      "8": 9
+    },
+    "owned_movement_profile": {
+      "8": 9
+    },
+    "peak_owners": 56,
+    "dirty_clears": 56,
+    "fresh_owner_lifetimes": 56,
+    "stationary_owner_lifetimes": 47,
+    "milestones": {
+      "source_restored": {
+        "step": 655,
+        "owners": 47,
+        "live": 269
+      },
+      "canonical_at_ground": {
+        "step": 1208,
+        "owners": 56,
+        "live": 278
+      },
+      "before_retirement": {
+        "step": 1425,
+        "owners": 56,
+        "live": 278
+      }
+    },
+    "unfinished_target_flats_missing_own_output_before_retirement": 104,
+    "unfinished_target_flats_missing_own_output_after_retirement": 104,
+    "core_normal_rank": 3,
+    "collective_normal_rank": 4,
+    "common_donors": 12,
+    "core_only_donors": 8,
+    "outer_taps": 8,
+    "outer_tapped_originals": 46,
+    "taps_shared_across_outer_receivers": 0,
+    "actual_distinct_new_mask_originals": 5,
+    "actual_disjoint_old_mask_originals": 5,
+    "minimum_exact_signature_chain_counts": {
+      "56": 6
+    },
+    "matching_antichain_certificates": {
+      "56": [
+        [
+          1,
+          56,
+          73,
+          80
+        ],
+        [
+          1,
+          56,
+          76,
+          77
+        ],
+        [
+          3,
+          56,
+          73,
+          77
+        ],
+        [
+          3,
+          56,
+          76,
+          80
+        ],
+        [
+          56,
+          73,
+          76
+        ],
+        [
+          56,
+          77,
+          80
+        ]
+      ]
+    },
+    "moment": [
+      "10085198565757653881860002274418642841962407/6250000000000000000000000000000000000000",
+      "32272635410424492421952007278139657094279767/20000000000000000000000000000000000000000"
+    ],
+    "necessary_limiting_room": [
+      "811910968992773414864578646001213173392599/100000000000000000000000000000000000000000",
+      "4871465813956640489187471876007279040358827/600000000000000000000000000000000000000000"
+    ],
+    "first_even_m_passing_only_this_partial_movement_profile": 4,
+    "margin_at_first": [
+      "10820015751996391176724954150423335003822441/50000000000000000000000000000000000000000",
+      "5410007875998195588362477075211667501927629/25000000000000000000000000000000000000000"
+    ],
+    "margin_at_preceding_even": [
+      "-3794381689873530290837461477598502117244503/50000000000000000000000000000000000000000",
+      "-3794381689873530290837461477598502117221061/50000000000000000000000000000000000000000"
+    ],
+    "single_omissions_rejected": {
+      "MOVE": 437,
+      "INIT": 56,
+      "ADD": 932,
+      "CLEAR": 56
+    },
+    "single_omissions_retaining_same_public_source": []
+  },
+  "eight": {
+    "literal_word_sha256": "57603fff38645768b6ffa0047ed693484c448ef899eadb0f3038f4add92009e7",
+    "all_original_input_columns": 222,
+    "opcodes": {
+      "ADD": 1031,
+      "CLEAR": 71,
+      "INIT": 71,
+      "MOVE": 477
+    },
+    "movement_profile": {
+      "1": 155,
+      "2": 86,
+      "3": 15,
+      "4": 86,
+      "5": 21,
+      "6": 2,
+      "7": 103,
+      "8": 9
+    },
+    "owned_movement_profile": {
+      "8": 9
+    },
+    "peak_owners": 71,
+    "dirty_clears": 71,
+    "fresh_owner_lifetimes": 71,
+    "stationary_owner_lifetimes": 62,
+    "milestones": {
+      "source_restored": {
+        "step": 788,
+        "owners": 62,
+        "live": 284
+      },
+      "canonical_at_ground": {
+        "step": 1341,
+        "owners": 71,
+        "live": 293
+      },
+      "before_retirement": {
+        "step": 1579,
+        "owners": 71,
+        "live": 293
+      }
+    },
+    "unfinished_target_flats_missing_own_output_before_retirement": 103,
+    "unfinished_target_flats_missing_own_output_after_retirement": 103,
+    "core_normal_rank": 3,
+    "collective_normal_rank": 4,
+    "common_donors": 12,
+    "core_only_donors": 8,
+    "outer_taps": 13,
+    "outer_tapped_originals": 72,
+    "taps_shared_across_outer_receivers": 3,
+    "actual_distinct_new_mask_originals": 10,
+    "actual_disjoint_old_mask_originals": 5,
+    "minimum_exact_signature_chain_counts": {
+      "56": 6,
+      "100": 6
+    },
+    "matching_antichain_certificates": {
+      "56": [
+        [
+          1,
+          56,
+          73,
+          80
+        ],
+        [
+          1,
+          56,
+          76,
+          77,
+          100
+        ],
+        [
+          3,
+          56,
+          73,
+          77,
+          100
+        ],
+        [
+          3,
+          56,
+          76,
+          80
+        ],
+        [
+          56,
+          73,
+          76
+        ],
+        [
+          56,
+          77,
+          80,
+          100
+        ]
+      ],
+      "100": [
+        [
+          1,
+          3,
+          100
+        ],
+        [
+          1,
+          56,
+          76,
+          77,
+          100
+        ],
+        [
+          1,
+          73,
+          80,
+          100
+        ],
+        [
+          3,
+          56,
+          73,
+          77,
+          100
+        ],
+        [
+          3,
+          76,
+          80,
+          100
+        ],
+        [
+          56,
+          77,
+          80,
+          100
+        ]
+      ]
+    },
+    "moment": [
+      "32282158660824656099469864994541825934701071/20000000000000000000000000000000000000000",
+      "161410793304123280497349324972709129673505677/100000000000000000000000000000000000000000"
+    ],
+    "necessary_limiting_room": [
+      "764294716991955027275290063990368971285757/100000000000000000000000000000000000000000",
+      "4585768301951730163651740383942213827717769/600000000000000000000000000000000000000000"
+    ],
+    "first_even_m_passing_only_this_partial_movement_profile": 4,
+    "margin_at_first": [
+      "9534376947974294711814162436130541546937707/50000000000000000000000000000000000000000",
+      "9534376947974294711814162436130541546970497/50000000000000000000000000000000000000000"
+    ],
+    "margin_at_preceding_even": [
+      "-4222927957880895779141058715696099936206081/50000000000000000000000000000000000000000",
+      "-527865994735111972392632339462012492022831/6250000000000000000000000000000000000000"
+    ],
+    "single_omissions_rejected": {
+      "MOVE": 477,
+      "INIT": 71,
+      "ADD": 1031,
+      "CLEAR": 71
+    },
+    "single_omissions_retaining_same_public_source": []
+  }
+}

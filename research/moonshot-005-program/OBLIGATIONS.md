@@ -1,5 +1,11 @@
 # Remaining proof obligations — S021 checkpoint3
 
+## S022 checkpoint 4
+
+Construct and test the all-111 simultaneous BIT transfer across the middle charts, including source-code compatibility, chronology, real original masks, and finite caller costs. On the complex side test the active-to-active block jointly with spectator transport.
+
+The eight-receiver construction serves two outer terminals before the six-role core closes. At the actual endpoint 103 individual deficient facets require more arrivals than the remaining room. The complex source with two spectator additions has total head rank at most six. The alternative changes and five foundational assumptions stay open.
+
 ## S022 checkpoint 3
 
 Construct the physical middle transfer of a full-receiver source before its public paths separate, and test how many independent complex endpoints survive a jointly changed interstage interface.

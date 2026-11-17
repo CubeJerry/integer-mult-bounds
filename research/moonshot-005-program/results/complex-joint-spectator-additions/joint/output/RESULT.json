@@ -1,0 +1,106 @@
+{
+  "status": "PASS_JOINT_SPECTATOR_ADDITIONS_AND_CUBIC_QUADRATIC_COLUMN",
+  "baseline": "e31d437b489a416446fdd7e294bc2238829c5925",
+  "parent_exact_engine_sha256": "12217a5dd708c9adb93987eb2d10e23185e279ac3ea46fe0c68e523a370610f3",
+  "second_source_proof_sha256": "49537004d25275ea22272b278e86cdba06725b87394fd36460ec9d424e935bd5",
+  "proven_maximum_total_independent_head": 6,
+  "all_ordinary_t0_t1": true,
+  "complete_supplier": false,
+  "new_complete_kappa": false,
+  "full_prefix_dimension": 2,
+  "tail_dimension": 16,
+  "tested_input_columns_per_full_word": 96,
+  "joint_two_column_samples": [
+    "first_only",
+    "second_only",
+    "both_noncommuting",
+    "both_singular"
+  ],
+  "all_input_defect_rank": 64,
+  "completed_column_cubic_rank": 16,
+  "completed_column_quadratic_rank": 32,
+  "benchmark_receipts": {
+    "first_input_shear": {
+      "forward": {
+        "counts": {
+          "MONO": 2,
+          "ADD": 1
+        },
+        "uniform_triangle_bound": "2",
+        "omitted_ADD_controls": 1
+      },
+      "inverse": {
+        "counts": {
+          "MONO": 2,
+          "SCALE": 2,
+          "ADD": 1
+        },
+        "uniform_triangle_bound": "2",
+        "omitted_ADD_controls": 1
+      }
+    },
+    "second_interface_swap": {
+      "forward": {
+        "counts": {
+          "SCALE": 3,
+          "ADD": 3
+        },
+        "uniform_triangle_bound": "5",
+        "omitted_ADD_controls": 3
+      },
+      "inverse": {
+        "counts": {
+          "SCALE": 9,
+          "ADD": 3
+        },
+        "uniform_triangle_bound": "5",
+        "omitted_ADD_controls": 3
+      }
+    },
+    "input_endpoint": {
+      "forward": {
+        "counts": {
+          "SCALE": 8,
+          "ADD": 4,
+          "MONO": 6
+        },
+        "uniform_triangle_bound": "3",
+        "omitted_ADD_controls": 4
+      },
+      "inverse": {
+        "counts": {
+          "MONO": 6,
+          "SCALE": 16,
+          "ADD": 4
+        },
+        "uniform_triangle_bound": "3",
+        "omitted_ADD_controls": 4
+      }
+    },
+    "physical_output_endpoint": {
+      "forward": {
+        "counts": {
+          "ADD": 10,
+          "SCALE": 14,
+          "MONO": 8
+        },
+        "uniform_triangle_bound": "14",
+        "omitted_ADD_controls": 10
+      },
+      "inverse": {
+        "counts": {
+          "SCALE": 34,
+          "ADD": 10,
+          "MONO": 8
+        },
+        "uniform_triangle_bound": "21",
+        "omitted_ADD_controls": 10
+      }
+    }
+  },
+  "omitted_first_shear_rejected": true,
+  "full_source_price_deficit": [
+    "2093116362852221108881486854376882269189/5000000000000000000000000000000000000000",
+    "418623272570444221776297370875376453839/1000000000000000000000000000000000000000"
+  ]
+}

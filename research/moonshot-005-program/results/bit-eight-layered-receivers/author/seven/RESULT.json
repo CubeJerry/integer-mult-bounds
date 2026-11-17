@@ -1,0 +1,212 @@
+{
+  "status": "PASS_LAYERED_OVERLAPPING_SOURCE",
+  "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "word_sha256": "0efee1eba69dabe5f7357522a16217b9b1bcff97cd983bf4b211561d1e47bafe",
+  "all_completed_roles": [
+    1,
+    3,
+    56,
+    73,
+    76,
+    77,
+    80
+  ],
+  "unused_Y_pure": 104,
+  "number_outer_raw_carriers": 5,
+  "ordinary_counts_and_routes": {
+    "counts": {
+      "MOVE": 437,
+      "INIT": 56,
+      "ADD": 932,
+      "CLEAR": 56
+    },
+    "movement_profile": {
+      "1": 114,
+      "2": 82,
+      "3": 15,
+      "4": 66,
+      "5": 43,
+      "6": 4,
+      "7": 104,
+      "8": 9
+    },
+    "peak_owned": 56,
+    "dirty_CLEAR": 56,
+    "milestones": {
+      "source_restored": {
+        "step": 655,
+        "live_fields": 269,
+        "owners": 47
+      },
+      "canonical_at_ground": {
+        "step": 1208,
+        "live_fields": 278,
+        "owners": 56
+      },
+      "before_retirement": {
+        "step": 1425,
+        "live_fields": 278,
+        "owners": 56
+      }
+    },
+    "tagged_counts": {
+      "deep_common_gather": 12,
+      "deep_common_birth": 1,
+      "deep_common_capture": 12,
+      "outer_mask_birth": 5,
+      "outer_mask_capture": 5,
+      "deep_raw_release": 7,
+      "overlap_donor_visit": 46,
+      "overlap_tap_birth": 8,
+      "overlap_tap_capture": 46,
+      "outer_track_visit": 6,
+      "outer_track_add": 6,
+      "outer_terminal_visit": 5,
+      "outer_terminal_birth": 5,
+      "outer_terminal_capture": 5,
+      "outer_release": 5,
+      "old_common_gather": 8,
+      "old_common_birth": 1,
+      "old_common_capture": 8,
+      "core_mask_birth": 5,
+      "core_mask_capture": 5,
+      "core_mask_carrier_visit": 5,
+      "old_common_release": 3,
+      "core_regroup": 91,
+      "private_birth": 6,
+      "private_capture": 6,
+      "core_private_release": 6,
+      "core_recode": 83,
+      "core_anchor_birth": 4,
+      "core_anchor_capture": 4,
+      "core_terminal_visit": 12,
+      "core_terminal_birth": 12,
+      "core_terminal_capture": 12,
+      "core_release": 90,
+      "core_inverse": 83,
+      "outer_inverse": 37,
+      "canonical_birth": 9,
+      "canonical_capture": 535,
+      "canonical_descent": 9,
+      "canonical_preload": 31,
+      "receiver_route": 132,
+      "physical_cache_read": 54,
+      "retire": 56
+    },
+    "all_original_columns": 222
+  },
+  "moment_at_199_over_200": {
+    "rational": [
+      "806815885260612310548800181953403/500000000000000000000000000000",
+      "1613631770521224621097600363907129/1000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1613.631770521224621097600363906806",
+      "1613.631770521224621097600363907129"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "8119109689927734148645786459777/1000000000000000000000000000000",
+      "9742931627913280978374943752379/1200000000000000000000000000000"
+    ],
+    "decimal": [
+      "8.119109689927734148645786459777",
+      "8.119109689927734148645786460315833333333333333333333333"
+    ]
+  },
+  "omission_controls": [
+    [
+      "deep_common_capture",
+      13,
+      "public endpoint 1"
+    ],
+    [
+      "outer_mask_capture",
+      26,
+      "public endpoint 56"
+    ],
+    [
+      "overlap_donor_visit",
+      42,
+      "ADD at actual common chart"
+    ],
+    [
+      "outer_track_visit",
+      66,
+      "ADD at actual common chart"
+    ],
+    [
+      "overlap_tap_capture",
+      51,
+      "public endpoint 56"
+    ],
+    [
+      "outer_track_add",
+      75,
+      "all raw X and untouched Y before preload"
+    ],
+    [
+      "outer_terminal_capture",
+      156,
+      "public endpoint 56"
+    ],
+    [
+      "old_common_capture",
+      183,
+      "public endpoint 1"
+    ],
+    [
+      "core_recode",
+      222,
+      "all raw X and untouched Y before preload"
+    ],
+    [
+      "core_mask_capture",
+      192,
+      "public endpoint 77"
+    ],
+    [
+      "core_inverse",
+      535,
+      "all raw X and untouched Y before preload"
+    ],
+    [
+      "outer_inverse",
+      618,
+      "all raw X and untouched Y before preload"
+    ],
+    [
+      "canonical_capture",
+      656,
+      "literal canonical rows"
+    ],
+    [
+      "canonical_descent",
+      713,
+      "literal canonical rows"
+    ],
+    [
+      "canonical_preload",
+      1208,
+      "public endpoint 1"
+    ],
+    [
+      "receiver_route",
+      1239,
+      "public endpoint 0"
+    ],
+    [
+      "physical_cache_read",
+      1241,
+      "public endpoint 1"
+    ],
+    [
+      "retire",
+      1425,
+      "all owners retired"
+    ]
+  ],
+  "complete_supplier": false,
+  "new_complete_kappa": false
+}
