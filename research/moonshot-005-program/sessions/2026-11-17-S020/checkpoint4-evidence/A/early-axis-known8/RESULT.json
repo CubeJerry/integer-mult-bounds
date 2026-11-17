@@ -1,0 +1,74 @@
+{
+  "status": "PASS_ACTUAL_EARLY_AXIS_KNOWN_EIGHT_SOURCE",
+  "word_sha256": "1e25b33b748e5ef5599394167acd207d4d3f91afcc202192969adb41734879e7",
+  "parent_word_sha256": "c77823c87362a56ed3c3f10f9808995285dd3f454e11443531f069075f59f4fe",
+  "source_cut": 1142,
+  "correct_coordinate_diagonal_values_at_ground": 8,
+  "completed_diagonal_outputs_in_closed_word": 8,
+  "unfinished_noncoordinate_outputs": 103,
+  "native_axis_foreign_preloads": 412,
+  "sign_foreign_preloads": 412,
+  "total_unfinished_foreign_coefficients": 824,
+  "original_X_rank_histogram": {
+    "1": 79,
+    "2": 16,
+    "3": 16
+  },
+  "original_Y_rank_histogram": {
+    "0": 8,
+    "3": 103
+  },
+  "pure_known_axis_records_at_ground": 8,
+  "source_original_information_rank": 111,
+  "stats": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 119,
+      "ADD": 777,
+      "MOVE": 484,
+      "CLEAR": 119
+    },
+    "movement_profile": {
+      "1": 159,
+      "2": 103,
+      "4": 103,
+      "5": 16,
+      "6": 16,
+      "7": 87
+    },
+    "dirty_CLEAR": 119,
+    "peak_owned": 119
+  },
+  "moment": {
+    "rational": [
+      "155104744248570610813450890955286691278028533/100000000000000000000000000000000000000000",
+      "310209488497141221626901781910573382556057131/200000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1551.04744248570610813450890955286691278028533",
+      "1551.047442485706108134508909552866912780285655"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "14140687545089249422347448162825614733525959/200000000000000000000000000000000000000000",
+      "84844125270535496534084688976953688401156403/1200000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "70.703437725446247111737240814128073667629795",
+      "70.703437725446247111737240814128073667630335833333333333333333333"
+    ]
+  },
+  "negative_controls": [
+    "omit_actual_native_axis_capture",
+    "omit_paid_native_axis_descent",
+    "omit_prepare_axis_diagonal_value",
+    "omit_ground_native_axis_preload",
+    "omit_G0:early_pair_read",
+    "omit_G1:later_pair_read",
+    "omit_G2:pair_encode",
+    "omit_G3:later_pair_read",
+    "omit_deferred_sign_inverse_at_Hub"
+  ],
+  "scope": "Eight early raw-axis owner descents prepare correct coordinate diagonal values at ground and all103 native-axis preloads before any Y ascent. Four sign-only proper gadgets retain16 raw sign X at2 and16 encoded pair X at3;79 original X remain native and8 correct coordinate Y remain at ground. The closed word completes exactly8 diagonal outputs and restores all X. No complete111-output supplier."
+}

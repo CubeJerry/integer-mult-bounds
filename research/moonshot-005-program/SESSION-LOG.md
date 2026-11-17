@@ -2322,3 +2322,30 @@ pins match the confirmed tree. Historical scientific pins and prior logical
 records remain cumulative. Stronger dormant-cache/fanout and changed-interface
 work remains outside this checkpoint pending independent admission. No complete
 supplier, new κ, foundational discharge or PR readiness is claimed.
+
+
+## 2026-11-17-S020 — checkpoint4
+
+Confirmed parent `6fa862790e2258e5d1a54f6b7c0a92e14cf54459`; the preceding nonforced publication is recorded in
+CHECKPOINT3-REMOTE-RECEIPT. S020 continues toward08:06 UTC. No new complete κ;
+selected .00363005817 and all five foundations remain unchanged.
+
+Admitted three direct-pair export words, two cross-quartet acquisitions and an
+early-axis source completing8 diagonal values, all222 columns and actual inverse
+order. The last leaves70.703437725446... movement room. The natural banks at
+five earlier cuts require75 native ascents plus9 fresh-transcript descents.
+The nineteen-half source needs105 ascents even under a full rank56 bank grant.
+The all-source first-exit extension then proves127 ascents for the early-axis
+rank29 bank by counting active public X departures as well as dormant snapshots.
+The frozen65-move receipt remains a valid weaker historical result.
+
+Admitted joint endpoint-image capacity for the permuted Klein family, a positive
+all-width distinguished-column same-plus unit with explicit template extension,
+and a stronger Crot source-coset gate surviving arbitrary fixed matrix prefixes.
+No actual compatible complete(4,2,1) caller is claimed. New ground-retention and
+coupled-prefix constructions remain active outside this checkpoint.
+
+Twenty-six focused checks pass;45 outputs are byte-identical and18 inherited
+pins match the exact confirmed prior tree. All historic registrations and
+scientific pins are preserved. Source validity is separate from continuation
+bank exclusion, and finite controls are separate from universal proofs.

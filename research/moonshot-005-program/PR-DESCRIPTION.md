@@ -1,59 +1,68 @@
 # Draft cumulative contribution: persistent κ=.005 research programme
 
 **Ongoing research; not PR-ready. No new complete multiplication exponent.**
-The selected conditional bound is unchanged at .00363005817. No selected
-certificate is replaced and no upstream PR is submitted automatically.
+The selected conditional bound remains .00363005817. No selected certificate
+is replaced and no upstream PR is submitted automatically.
 
-## Problem and reviewed progress
+## Problem and reviewed mathematical progress
 
-The target needs completed compatible BIT and complex suppliers strictly
-above .005, then all outer constraints and recursive assembly. Algebraic code
-rank has not supplied chronological access, and Gaussian component rank has
-not supplied independent ordinary endpoints.
+The target requires completed compatible BIT and complex suppliers strictly
+above .005, then the complete outer proof and all foundational bills. The
+programme distinguishes algebraic code availability from chronological native
+access, and Gaussian rank from independent ordinary endpoint images.
 
-The [all103 correction words](results/bit-composed-early-corrections/ADMISSION.md)
-give528 correct foreign terms through actual compatible public routes while
-preserving every original input. Lower retention costs1543.518629750155...
-and leaves78.232250460996... necessary movement room. The
-[proper-query export word](results/bit-proper-query-exports/ADMISSION.md)
-then creates twelve pure exports and nonlocal original payloads at rank two,
-with actual Y cancellation and ordered inverses. It costs1555.518629750155...
-and leaves66.232250460996... . Both are partial sources with zero completed
-diagonal endpoints and103 Ys already at rank-three charts.
+The [coordinate-first source](results/bit-early-axis-known-eight/ADMISSION.md)
+completes8 diagonal values, preserves every original input and111 X directions,
+and supplies824 foreign terms to the103 remaining outputs. Its actual prefix
+plus minimum public closure costs1551.047442485706... at t=199/200, leaving
+70.703437725446... necessary movement room. Earlier
+[proper queries](results/bit-proper-query-exports/ADMISSION.md),
+[direct pairs](results/bit-direct-pair-exports/ADMISSION.md) and
+[fresh cross-quartet halves](results/bit-cross-quartet-acquisition-gates/ADMISSION.md)
+are actual all222-column words with chronological baseline cancellation and
+ordered source restoration. Their partial margins are not complete suppliers.
 
-The [priced fitting theorem](results/bit-priced-four-half-gate/ADMISSION.md)
-charges compulsory original facet visits and improves both earlier correction
-cuts' fitting cap to187. Canonical code plus at most four selected literal
-halves has exact minimum charge189 over every characteristic-two field/block
-width, excluding that continuation class. A five-half chi187 witness delimits
-the result. General coded combinations and changed histories/routes remain
-outside. Dormant-cache fanout and new pair exports are active next work.
+The [native first-exit method](results/bit-native-first-exit-gates/ADMISSION.md)
+uses explicit duals and real facet intersections to price indispensable source
+departures, allowing arbitrary paid owned turns. The
+[fresh-transcript theorem](results/bit-fresh-transcript-nine/ADMISSION.md)
+transports a106-term17/2 entropy witness and proves nine whole-record downward
+transfers at five audited cuts. Combined with75 forced ascents it closes their
+natural code banks. Fresh-half acquisition itself consumes native access:
+the nineteen-mode source still needs105 owned ascents even with the full
+rank56 half-sum bank granted globally. The one-mode larger grant remains open.
 
-The [coupled-column criterion](results/complex-klein-coupled-column/ADMISSION.md)
-identifies an exact module requirement for the original Klein interface. The
-[signed kernel transfer](results/complex-klein-dyadic-kernel-transfer/ADMISSION.md)
-solves it with actual all-width dyadic units/inverses. Separate
-[endpoint gates](results/complex-coupled-endpoint-gates/ADMISSION.md)
-exclude every completion of that transferred column and the stated Crot
-projector family. They retain actual ordinary encoders/decoders and catalogue
-capacity. Changed first interfaces remain constructive work.
+The [all-source extension](results/bit-all-source-first-exit-gate/ADMISSION.md)
+also prices departures of active native X originals. At the coordinate-first
+cut its exact rank29 bank requires206 native exits, with at most71 public X
+and8 ground-Y credits, leaving127 owned ascents. This excludes that continuation
+bank while preserving the positive source. Current construction retains more
+ground public receivers and tests directions beyond the literal-half span.
 
-Earlier all54 sources, nonlinear17/2 entropy bound, immutable canonical banks,
-quartet acquisition, exact half-sum chi96, support17 and ordinary capacity
-remain registered with their original scopes. A partial invoice is never
-presented as a complete supplier or a free sum of incompatible sources.
+On the complex side, the [signed dyadic kernel transfer](results/complex-klein-dyadic-kernel-transfer/ADMISSION.md)
+solves a necessary module comparison with actual units/inverses, but its fixed
+completion family fails independently checked endpoint conditions. A
+[joint image-capacity theorem](results/complex-joint-endpoint-capacity/ADMISSION.md)
+closes a permuted Klein family despite passing separate rank screens. A positive
+[distinguished-column same-plus unit](results/complex-distinguished-column-plus-unit/ADMISSION.md)
+explicitly enlarges the coefficient template and removes a scalar augmentation
+obstruction with6 ADD+12 SCALE+8 MONO per direction and uniform prefix5. Full
+compiler/model admission and compatible endpoints remain. The
+[source-coset Crot gate](results/complex-crot-source-coset-gate/ADMISSION.md)
+survives this matrix-prefix extension; genuinely different interfaces remain open.
 
-## Verification and provenance
+## Reproduction, scope and credit
 
-Checkpoint3 parent `0ca7c81c12d226c97028cb5fddb1e5d65e24af5d`;14 focused checks,26 byte-identical outputs and12
-authenticated inherited files. [VERIFICATION](VERIFICATION.md) records authors,
-independent reviewers, controls and commands. Earlier pins remain cumulative.
+Checkpoint4 parent `6fa862790e2258e5d1a54f6b7c0a92e14cf54459`;26 focused checks,45 exact outputs and18 inherited
+files authenticated against the prior tree. [VERIFICATION](VERIFICATION.md)
+records all independent derivations, separate arithmetic, controls and commands.
+Earlier scientific pins and source-specific theorem scopes remain cumulative.
 Independent agent review is not human or proof-kernel certification.
 
 Credit @CubeJerry, native/canonical/proper-cover/cyclic-history and complex
-source authors, CrocSwap/integer-mult-bounds#7000/#7001 and predecessors
-including#6916; entropy-LP predecessors are credited in their admission.
-Substantial OpenAI assistance. All five foundations remain: native_all_columns,
-owned_erasure, compiler, precision_tape, analytic_recovery. Both strict
-suppliers, outer theorem and unconditional discharge remain open. A prefilled
-comparison link awaits actual cumulative PR readiness.
+source predecessors, CrocSwap/integer-mult-bounds#7000/#7001 and earlier#6916,
+plus the entropy/index-coding predecessors cited in their original admissions.
+Substantial OpenAI assistance. All five foundations remain native_all_columns,
+owned_erasure, compiler, precision_tape, analytic_recovery. Both strict suppliers,
+the outer assembly and unconditional theorem remain open. A prefilled comparison
+link awaits genuine cumulative PR readiness.

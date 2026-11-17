@@ -1,0 +1,28 @@
+{
+  "status": "PASS_CROT_SOURCE_COSET_FRAME_GATE",
+  "scope": "fixed finite collective tail catalogue, with arbitrary finite matrix prefix; T nonzero ordinary idempotent and both backward transports ordinary",
+  "controls": [
+    {
+      "spectator_sign": 1,
+      "Crot_and_inverse": true,
+      "source_block_identity": true,
+      "ordinary_zero_component_unit": true,
+      "free_coset_frame_retraction": true,
+      "transversality": true
+    },
+    {
+      "spectator_sign": -1,
+      "Crot_and_inverse": true,
+      "source_block_identity": true,
+      "ordinary_zero_component_unit": true,
+      "free_coset_frame_retraction": true,
+      "transversality": true
+    }
+  ],
+  "return_coset_controls": {
+    "A_g_A_ordinary": true,
+    "A2_g_A_Gaussian1_but_not_left_coset_GA": true,
+    "A_clock_A_Gaussian1_but_not_left_coset_GA": true
+  },
+  "new_kappa": false
+}

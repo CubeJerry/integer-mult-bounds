@@ -1,0 +1,34 @@
+{
+  "status": "PASS_INDEPENDENT_CROT_SOURCE_COSET_REVIEW",
+  "arithmetic_sha256": "410c8426e31bc60e76d88095b2ef568c766b46f6dd5a66ff9e8ae9a980a542e2",
+  "author_proof_sha256": "841de67bae21252d6d1e728af98c917a75dc678fca67d37f52377fd7e0ed8ea5",
+  "source_rank_controls": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "projector_controls": [
+    {
+      "sign": 1,
+      "source_block_identity": true,
+      "unit_inverse": true,
+      "noncommuting_q_and_H": true,
+      "frame_retraction": true,
+      "transversality": true,
+      "wrong_sign_and_missing_inverse_rejected": true
+    },
+    {
+      "sign": -1,
+      "source_block_identity": true,
+      "unit_inverse": true,
+      "noncommuting_q_and_H": true,
+      "frame_retraction": true,
+      "transversality": true,
+      "wrong_sign_and_missing_inverse_rejected": true
+    }
+  ],
+  "return_controls_preserve_left_coset_distinction": true,
+  "scope": "Written proof establishes the universal fixed finite tail-catalogue theorem with arbitrary finite matrix prefix. These exact controls are not a search-based impossibility proof.",
+  "new_complete_kappa": false
+}

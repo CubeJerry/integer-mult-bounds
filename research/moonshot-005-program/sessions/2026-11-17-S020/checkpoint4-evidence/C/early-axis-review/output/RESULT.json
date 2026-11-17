@@ -1,0 +1,69 @@
+{
+  "status": "PASS_INDEPENDENT_EARLY_AXIS_KNOWN_EIGHT_SOURCE",
+  "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "word_sha256": "1e25b33b748e5ef5599394167acd207d4d3f91afcc202192969adb41734879e7",
+  "parent_sha256": "c77823c87362a56ed3c3f10f9808995285dd3f454e11443531f069075f59f4fe",
+  "source_review_sha256": "37d995575ad179e524c0de505e5d56f45749b5da73ce3750244c5594e41a9402",
+  "cut": 1142,
+  "live_fields": 341,
+  "stats": {
+    "counts": {
+      "INIT": 119,
+      "ADD": 777,
+      "MOVE": 484,
+      "CLEAR": 119
+    },
+    "movement_profile": {
+      "1": 159,
+      "2": 103,
+      "4": 103,
+      "5": 16,
+      "6": 16,
+      "7": 87
+    },
+    "owned_downward_profile": {
+      "1": 8
+    },
+    "peak_owned": 119,
+    "dirty_CLEAR": 119,
+    "cut_fields": 341,
+    "cut_owned": 119
+  },
+  "prepared_diagonal_values_at_ground": 8,
+  "completed_outputs_at_closed_facets": 8,
+  "unfinished_outputs": 103,
+  "native_foreign_axis_coefficients": 412,
+  "native_foreign_sign_coefficients": 412,
+  "original_X_rank": 111,
+  "moment": {
+    "rational": [
+      "1551047442485706108134508909552841/1000000000000000000000000000000",
+      "7755237212428530540672544547764447/5000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1551.047442485706108134508909552841",
+      "1551.0474424857061081345089095528894"
+    ]
+  },
+  "necessary_room": {
+    "rational": [
+      "265137891470423426669014653052849/3750000000000000000000000000000",
+      "4242206263526774826704234448849857/60000000000000000000000000000000"
+    ],
+    "decimal": [
+      "70.70343772544624711173724081409306666666666666666666667",
+      "70.70343772544624711173724081416428333333333333333333333"
+    ]
+  },
+  "negative_controls": {
+    "omit_actual_native_axis_capture": "all original Y columns and proper correction",
+    "omit_paid_native_axis_descent": "actual cochart ADD at 224",
+    "omit_prepare_axis_diagonal_value": "all original Y columns and proper correction",
+    "omit_ground_native_axis_preload": "all original Y columns and proper correction",
+    "omit_G0:early_pair_read": "all original Y columns and proper correction",
+    "omit_G1:later_pair_read": "all original Y columns and proper correction",
+    "omit_G2:pair_encode": "all original X restored",
+    "omit_G3:later_pair_read": "all original Y columns and proper correction",
+    "omit_deferred_sign_inverse_at_Hub": "all original X restored"
+  }
+}

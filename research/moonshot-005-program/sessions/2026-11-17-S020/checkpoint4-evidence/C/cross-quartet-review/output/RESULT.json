@@ -1,0 +1,243 @@
+{
+  "status": "PASS_INDEPENDENT_CROSS_QUARTET_SOURCES",
+  "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "source_review_sha256": "37d995575ad179e524c0de505e5d56f45749b5da73ce3750244c5594e41a9402",
+  "parent_sha256": "c77823c87362a56ed3c3f10f9808995285dd3f454e11443531f069075f59f4fe",
+  "cases": [
+    {
+      "source": "cross-quartet-export-1",
+      "word_sha256": "42b37f28cbd958ffda84dbb5f4e6caa16ca465d368d965378093b0277d97541a",
+      "cut": 858,
+      "stats": {
+        "counts": {
+          "INIT": 113,
+          "ADD": 472,
+          "MOVE": 515,
+          "CLEAR": 113
+        },
+        "movement_profile": {
+          "1": 178,
+          "2": 115,
+          "3": 5,
+          "4": 111,
+          "5": 19,
+          "6": 16,
+          "7": 71
+        },
+        "owned_downward_profile": {
+          "1": 1
+        },
+        "peak_owned": 113,
+        "dirty_CLEAR": 113,
+        "cut_fields": 335,
+        "cut_owned": 113
+      },
+      "fresh_source_roles": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "fresh_modes": 1,
+      "source_original_X_rank": 111,
+      "new_receiver_reads": 6,
+      "total_foreign_coefficients": 552,
+      "global_actual_half_bank_rank": 22,
+      "moment": {
+        "rational": [
+          "7723127003962671509590126256541199/5000000000000000000000000000000",
+          "15446254007925343019180252513082913/10000000000000000000000000000000"
+        ],
+        "decimal": [
+          "1544.6254007925343019180252513082398",
+          "1544.6254007925343019180252513082913"
+        ]
+      },
+      "necessary_room": {
+        "rational": [
+          "462752876511708319969325394352147/6000000000000000000000000000000",
+          "4627528765117083199693253943525929/60000000000000000000000000000000"
+        ],
+        "decimal": [
+          "77.12547941861805332822089905869116666666666666666666667",
+          "77.12547941861805332822089905876548333333333333333333333"
+        ]
+      },
+      "negative_controls": {
+        "omit_actual_old_query_baseline_capture": "no original-Y contamination in X at 851",
+        "omit_fresh_half_sum_encode": "all original X restored",
+        "omit_fresh_half_read": "all original X restored",
+        "omit_actual_rank4_Y_capture": "no original-Y contamination in X at 851",
+        "omit_paid_rank4_to_query_descent": "actual cochart ADD at 850",
+        "omit_actual_query_baseline_removal": "no original-Y contamination in X at 851",
+        "omit_fresh_mode_original_carrier_load": "all original X restored",
+        "omit_unload_fresh_modes_at_Hub": "all original X restored",
+        "omit_fresh_half_sum_inverse_at_Hub": "all original X restored",
+        "restore_fresh_before_unload": "all original X restored"
+      },
+      "eight_facet_roles": [
+        14,
+        16,
+        60,
+        63,
+        84,
+        85,
+        107,
+        109
+      ],
+      "eight_facet_inside_fields": 267,
+      "eight_facet_initial_rank": 1,
+      "independent_future_owned_descent_lower_bound": 7
+    },
+    {
+      "source": "cross-quartet-exports-greedy",
+      "word_sha256": "5923a3724a1aee3b0d37eee5dfc269bb12541f37155f47eb07aae2727cedfc91",
+      "cut": 1224,
+      "stats": {
+        "counts": {
+          "INIT": 149,
+          "ADD": 748,
+          "MOVE": 634,
+          "CLEAR": 149
+        },
+        "movement_profile": {
+          "1": 232,
+          "2": 180,
+          "3": 23,
+          "4": 111,
+          "5": 66,
+          "6": 16,
+          "7": 6
+        },
+        "owned_downward_profile": {
+          "1": 19
+        },
+        "peak_owned": 149,
+        "dirty_CLEAR": 149,
+        "cut_fields": 371,
+        "cut_owned": 149
+      },
+      "fresh_source_roles": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        46,
+        48,
+        49,
+        50,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "fresh_modes": 19,
+      "source_original_X_rank": 111,
+      "new_receiver_reads": 98,
+      "total_foreign_coefficients": 883,
+      "global_actual_half_bank_rank": 37,
+      "moment": {
+        "rational": [
+          "15644018010738921334329949662043413/10000000000000000000000000000000",
+          "15644018010738921334329949662044047/10000000000000000000000000000000"
+        ],
+        "decimal": [
+          "1564.4018010738921334329949662043413",
+          "1564.4018010738921334329949662044047"
+        ]
+      },
+      "necessary_room": {
+        "rational": [
+          "1720472374117806654397535524877333/30000000000000000000000000000000",
+          "3440944748235613308795071049759839/60000000000000000000000000000000"
+        ],
+        "decimal": [
+          "57.34907913726022181325118416257776666666666666666666667",
+          "57.34907913726022181325118416266398333333333333333333333"
+        ]
+      },
+      "negative_controls": {
+        "omit_actual_old_query_baseline_capture": "no original-Y contamination in X at 851",
+        "omit_fresh_half_sum_encode": "all original X restored",
+        "omit_fresh_half_read": "all original X restored",
+        "omit_actual_rank4_Y_capture": "no original-Y contamination in X at 851",
+        "omit_paid_rank4_to_query_descent": "actual cochart ADD at 850",
+        "omit_actual_query_baseline_removal": "no original-Y contamination in X at 851",
+        "omit_fresh_mode_original_carrier_load": "all original X restored",
+        "omit_unload_fresh_modes_at_Hub": "all original X restored",
+        "omit_fresh_half_sum_inverse_at_Hub": "all original X restored",
+        "restore_fresh_before_unload": "all original X restored"
+      },
+      "eight_facet_roles": [
+        14,
+        16,
+        60,
+        63,
+        84,
+        85,
+        107,
+        109
+      ],
+      "eight_facet_inside_fields": 273,
+      "eight_facet_initial_rank": 4,
+      "independent_future_owned_descent_lower_bound": 4
+    }
+  ]
+}

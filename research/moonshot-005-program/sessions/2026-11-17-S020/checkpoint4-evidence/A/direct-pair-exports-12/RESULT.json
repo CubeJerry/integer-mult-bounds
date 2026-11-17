@@ -1,0 +1,66 @@
+{
+  "status": "PASS_ACTUAL_DIRECT_PAIR_EXPORTS",
+  "word_sha256": "6472eee72de969e204b546549fabdd9bd1cfaa5353ea8d4078b94d5ab1a44e05",
+  "parent_word_sha256": "c77823c87362a56ed3c3f10f9808995285dd3f454e11443531f069075f59f4fe",
+  "source_cut": 884,
+  "actual_exports": 12,
+  "queries_per_gadget": 3,
+  "actual_pure_pair_rank": 12,
+  "source_original_information_rank": 111,
+  "canonical_plus_old_sign_queries_rank": 21,
+  "canonical_plus_old_sign_queries_and_actual_pairs_rank": 25,
+  "canonical_plus_actual_pair_rows_rank": 21,
+  "new_directions_mod_previous_bank": 4,
+  "canonical_plus_old_full_queries_rank": 21,
+  "canonical_plus_old_full_queries_and_actual_pairs_rank": 29,
+  "new_directions_mod_old_full_query_bank": 8,
+  "stats": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 123,
+      "ADD": 491,
+      "MOVE": 520,
+      "CLEAR": 123
+    },
+    "movement_profile": {
+      "1": 187,
+      "2": 111,
+      "3": 4,
+      "4": 111,
+      "5": 16,
+      "6": 16,
+      "7": 75
+    },
+    "dirty_CLEAR": 123,
+    "peak_owned": 123
+  },
+  "moment": {
+    "rational": [
+      "777759314875077915135495454740370483455394019/500000000000000000000000000000000000000000",
+      "1555518629750155830270990909480740966910788371/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1555.518629750155830270990909480740966910788038",
+      "1555.518629750155830270990909480740966910788371"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "66232250460996524975255240886254019537127079/1000000000000000000000000000000000000000000",
+      "397393502765979149851531445317524117222765767/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "66.232250460996524975255240886254019537127079",
+      "66.232250460996524975255240886254019537127627833333333333333333333"
+    ]
+  },
+  "negative_controls": [
+    "omit_actual_pair_snapshot",
+    "omit_paid_pair_descent",
+    "omit_direct_pair_donor_load",
+    "omit_unload_pair_at_Hub_before_old_inverses",
+    "unload_after_old_pair_inverses"
+  ],
+  "complete_diagonal_outputs": 0,
+  "scope": "Actual pair-sum exports from existing X carriers at rank3 to retained rank2 donors, with charged unit descents and no Y reads. All222 partial endpoint columns restore; all103 existing Y corrections remain. New directions outside the previous canonical-plus-sign-query bank. No complete diagonal supplier."
+}

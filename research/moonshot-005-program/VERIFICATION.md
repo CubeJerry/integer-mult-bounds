@@ -1,5 +1,36 @@
 # Verification ledger
 
+## S020 checkpoint4
+
+Confirmed parent `6fa862790e2258e5d1a54f6b7c0a92e14cf54459`.26 focused checks pass with45 byte-identical scientific
+outputs. Eighteen inherited files match SHA256 and the exact checkpoint3 tree.
+[Validation](sessions/2026-11-17-S020/CHECKPOINT4-VALIDATION.json),
+[source pins](sessions/2026-11-17-S020/SOURCE-PINS-CP4.json),
+[checkpoint3 remote receipt](sessions/2026-11-17-S020/CHECKPOINT3-REMOTE-RECEIPT.json).
+
+| Claim | Independent verification | Exact limit |
+|---|---|---|
+| Three direct-pair, two fresh-half, one early-axis source |C separately reconstructs every inserted operation,222 columns, actual fields, inverse order and5/10/9 controls.|Partial sources; only early-axis completes8 outputs.|
+| Dormant forced access and fanout |A checks558 duals; root independently verifies1395 across five sources and minimum public closure.|Specified linear descending banks and monotone public routes.|
+| Eight-facet and nine-transfer cuts |Root separate Fraction geometry; C different106-term dual expansion and355 source-locality checks.|Fixed schedule; fresh71 locality must persist.|
+| Early-axis all-source127-ascents |C independently derives all demands,721 duals, rank-seven normals and actual public credits; imports no root checker.|Rank29 bank; stronger than preserved65-move receipt.|
+| Cross-quartet bank gates |C independently derives actual cuts, banks, all forced-source data and rational tariffs; root reviews first-exit proof.|One-mode full rank56 grant expressly remains open.|
+| Joint endpoint-image capacity |Root independent source/coset derivation and rational ranks15,4,13,0.|Collective representation; no automatic prefix extension.|
+| Distinguished-column same-plus unit |Root separate Q(i) replay of all width1/2 columns, inverses and24 ADD controls; all-width anticommutation proof.|Explicit template enlargement; complete compiler admission open.|
+| Crot source-coset gate |Root independent noncommutative derivation and literal controls, including q and H noncommuting with T.|Fixed finite tail catalogue, faithful separation and exact source/interface hypotheses.|
+
+Reproduce with Python3.11+ and SymPy in a fresh output directory:
+
+```bash
+python -B research/moonshot-005-program/sessions/2026-11-17-S020/reproduce_cp4.py --repo . --out /tmp/moonshot-S020-cp4
+```
+
+The default runs26 independent process checks with four workers; --only selects
+a named check and --jobs controls concurrency. Reexecution is not independent
+mathematical verification. Agent review is not human or proof-kernel certification.
+Earlier results/pins are cumulative and exploratory screens are excluded.
+No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. This is ongoing research and is not PR-ready.
+
 ## S020 checkpoint3
 
 Confirmed parent `0ca7c81c12d226c97028cb5fddb1e5d65e24af5d`. Fourteen focused checks pass with 26 byte-identical

@@ -1,0 +1,1542 @@
+{
+  "status": "PASS_MAPPED_17_OVER_2_WITNESS_AND_FIVE_ACTUAL_CUTS",
+  "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "prior_dual_sha256": "c5d40e71246008699cb137eaa2badd2674253b0567c87e54fa7fa5809bacc79f",
+  "prior_verifier_sha256": "f1da4816d7c0b285271735f53158f180b349798788ee67ed428e37f1f45429fc",
+  "geometry_sha256": "983c931bc9907de160fa59fc2011cff434766d7e7384ce898df05574cc5c61fc",
+  "mapped_core": [
+    61,
+    82,
+    83,
+    20,
+    18,
+    71,
+    70,
+    69,
+    74,
+    76,
+    63
+  ],
+  "mapped_isolates": [
+    65,
+    109,
+    107
+  ],
+  "coordinate_permutation": [
+    0,
+    5,
+    1,
+    4,
+    3,
+    6,
+    2,
+    7
+  ],
+  "old_coordinate_sign_mask": 1,
+  "exact_dual": {
+    "terms": 106,
+    "row_types": {
+      "mono": 27,
+      "submod": 43,
+      "empty": 1,
+      "decode": 35
+    },
+    "core_bound": "11/2",
+    "witness_bound": "17/2",
+    "remaining_entropy_coefficients": {
+      "2047": "1"
+    },
+    "canonical_scalar_upper_rank": 9,
+    "canonical_independent_rows_hex": [
+      "0x7faa00a998cce55e0000000f3500",
+      "0x2ad500655557c338800000156900",
+      "0x199900a800ab22dcc0000003d100",
+      "0x7da0058792d4aa0000000330d00",
+      "0x7f00fe01fc07f0000000003f00",
+      "0x2a005666cce2a1c0000030f500",
+      "0xfe0003f80fc000003fff00",
+      "0x1fffc07f00000003fff00",
+      "0x7ffc000003fff00"
+    ]
+  },
+  "cases": [
+    {
+      "source": "low-retention-corrections",
+      "word_sha256": "c77823c87362a56ed3c3f10f9808995285dd3f454e11443531f069075f59f4fe",
+      "cut": 836,
+      "live_fields": 333,
+      "untouched_roles": 71,
+      "receiver_locality_checks": [
+        {
+          "receiver": 8,
+          "inside_fields": 119
+        },
+        {
+          "receiver": 9,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 10,
+          "inside_fields": 123
+        },
+        {
+          "receiver": 11,
+          "inside_fields": 119
+        },
+        {
+          "receiver": 12,
+          "inside_fields": 119
+        },
+        {
+          "receiver": 13,
+          "inside_fields": 119
+        },
+        {
+          "receiver": 14,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 15,
+          "inside_fields": 108
+        },
+        {
+          "receiver": 16,
+          "inside_fields": 108
+        },
+        {
+          "receiver": 17,
+          "inside_fields": 108
+        },
+        {
+          "receiver": 18,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 19,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 20,
+          "inside_fields": 108
+        },
+        {
+          "receiver": 21,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 46,
+          "inside_fields": 109
+        },
+        {
+          "receiver": 47,
+          "inside_fields": 109
+        },
+        {
+          "receiver": 48,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 49,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 50,
+          "inside_fields": 109
+        },
+        {
+          "receiver": 51,
+          "inside_fields": 117
+        },
+        {
+          "receiver": 52,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 53,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 54,
+          "inside_fields": 106
+        },
+        {
+          "receiver": 55,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 56,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 57,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 58,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 59,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 60,
+          "inside_fields": 108
+        },
+        {
+          "receiver": 61,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 62,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 63,
+          "inside_fields": 109
+        },
+        {
+          "receiver": 64,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 65,
+          "inside_fields": 109
+        },
+        {
+          "receiver": 66,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 67,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 68,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 69,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 70,
+          "inside_fields": 107
+        },
+        {
+          "receiver": 71,
+          "inside_fields": 106
+        },
+        {
+          "receiver": 72,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 73,
+          "inside_fields": 140
+        },
+        {
+          "receiver": 74,
+          "inside_fields": 140
+        },
+        {
+          "receiver": 75,
+          "inside_fields": 140
+        },
+        {
+          "receiver": 76,
+          "inside_fields": 144
+        },
+        {
+          "receiver": 77,
+          "inside_fields": 136
+        },
+        {
+          "receiver": 78,
+          "inside_fields": 140
+        },
+        {
+          "receiver": 79,
+          "inside_fields": 140
+        },
+        {
+          "receiver": 80,
+          "inside_fields": 148
+        },
+        {
+          "receiver": 81,
+          "inside_fields": 136
+        },
+        {
+          "receiver": 82,
+          "inside_fields": 132
+        },
+        {
+          "receiver": 83,
+          "inside_fields": 128
+        },
+        {
+          "receiver": 84,
+          "inside_fields": 132
+        },
+        {
+          "receiver": 85,
+          "inside_fields": 132
+        },
+        {
+          "receiver": 86,
+          "inside_fields": 132
+        },
+        {
+          "receiver": 87,
+          "inside_fields": 132
+        },
+        {
+          "receiver": 96,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 97,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 98,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 99,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 100,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 101,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 102,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 103,
+          "inside_fields": 121
+        },
+        {
+          "receiver": 104,
+          "inside_fields": 117
+        },
+        {
+          "receiver": 105,
+          "inside_fields": 118
+        },
+        {
+          "receiver": 106,
+          "inside_fields": 118
+        },
+        {
+          "receiver": 107,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 108,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 109,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 110,
+          "inside_fields": 117
+        }
+      ],
+      "nonlocal_leaks": [],
+      "minimum_future_whole_record_descents": 9
+    },
+    {
+      "source": "proper-query-exports",
+      "word_sha256": "4d4e0a4163483d35741505c747981a2bc8b8da1bc373bb0cb8d10f0aa651f96c",
+      "cut": 938,
+      "live_fields": 363,
+      "untouched_roles": 71,
+      "receiver_locality_checks": [
+        {
+          "receiver": 8,
+          "inside_fields": 126
+        },
+        {
+          "receiver": 9,
+          "inside_fields": 122
+        },
+        {
+          "receiver": 10,
+          "inside_fields": 130
+        },
+        {
+          "receiver": 11,
+          "inside_fields": 124
+        },
+        {
+          "receiver": 12,
+          "inside_fields": 124
+        },
+        {
+          "receiver": 13,
+          "inside_fields": 128
+        },
+        {
+          "receiver": 14,
+          "inside_fields": 117
+        },
+        {
+          "receiver": 15,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 16,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 17,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 18,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 19,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 20,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 21,
+          "inside_fields": 117
+        },
+        {
+          "receiver": 46,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 47,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 48,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 49,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 50,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 51,
+          "inside_fields": 119
+        },
+        {
+          "receiver": 52,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 53,
+          "inside_fields": 119
+        },
+        {
+          "receiver": 54,
+          "inside_fields": 108
+        },
+        {
+          "receiver": 55,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 56,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 57,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 58,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 59,
+          "inside_fields": 117
+        },
+        {
+          "receiver": 60,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 61,
+          "inside_fields": 117
+        },
+        {
+          "receiver": 62,
+          "inside_fields": 116
+        },
+        {
+          "receiver": 63,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 64,
+          "inside_fields": 116
+        },
+        {
+          "receiver": 65,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 66,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 67,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 68,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 69,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 70,
+          "inside_fields": 109
+        },
+        {
+          "receiver": 71,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 72,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 73,
+          "inside_fields": 148
+        },
+        {
+          "receiver": 74,
+          "inside_fields": 148
+        },
+        {
+          "receiver": 75,
+          "inside_fields": 150
+        },
+        {
+          "receiver": 76,
+          "inside_fields": 154
+        },
+        {
+          "receiver": 77,
+          "inside_fields": 144
+        },
+        {
+          "receiver": 78,
+          "inside_fields": 148
+        },
+        {
+          "receiver": 79,
+          "inside_fields": 150
+        },
+        {
+          "receiver": 80,
+          "inside_fields": 158
+        },
+        {
+          "receiver": 81,
+          "inside_fields": 144
+        },
+        {
+          "receiver": 82,
+          "inside_fields": 143
+        },
+        {
+          "receiver": 83,
+          "inside_fields": 136
+        },
+        {
+          "receiver": 84,
+          "inside_fields": 140
+        },
+        {
+          "receiver": 85,
+          "inside_fields": 143
+        },
+        {
+          "receiver": 86,
+          "inside_fields": 143
+        },
+        {
+          "receiver": 87,
+          "inside_fields": 140
+        },
+        {
+          "receiver": 96,
+          "inside_fields": 116
+        },
+        {
+          "receiver": 97,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 98,
+          "inside_fields": 116
+        },
+        {
+          "receiver": 99,
+          "inside_fields": 120
+        },
+        {
+          "receiver": 100,
+          "inside_fields": 116
+        },
+        {
+          "receiver": 101,
+          "inside_fields": 116
+        },
+        {
+          "receiver": 102,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 103,
+          "inside_fields": 127
+        },
+        {
+          "receiver": 104,
+          "inside_fields": 123
+        },
+        {
+          "receiver": 105,
+          "inside_fields": 125
+        },
+        {
+          "receiver": 106,
+          "inside_fields": 125
+        },
+        {
+          "receiver": 107,
+          "inside_fields": 123
+        },
+        {
+          "receiver": 108,
+          "inside_fields": 123
+        },
+        {
+          "receiver": 109,
+          "inside_fields": 117
+        },
+        {
+          "receiver": 110,
+          "inside_fields": 121
+        }
+      ],
+      "nonlocal_leaks": [],
+      "minimum_future_whole_record_descents": 9
+    },
+    {
+      "source": "direct-pair-exports-4",
+      "word_sha256": "33a07beacc3895822300eb34ebb847f5b9ff030cc2ad82cdfbc3152fe8402fc0",
+      "cut": 852,
+      "live_fields": 337,
+      "untouched_roles": 71,
+      "receiver_locality_checks": [
+        {
+          "receiver": 8,
+          "inside_fields": 119
+        },
+        {
+          "receiver": 9,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 10,
+          "inside_fields": 125
+        },
+        {
+          "receiver": 11,
+          "inside_fields": 120
+        },
+        {
+          "receiver": 12,
+          "inside_fields": 120
+        },
+        {
+          "receiver": 13,
+          "inside_fields": 120
+        },
+        {
+          "receiver": 14,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 15,
+          "inside_fields": 108
+        },
+        {
+          "receiver": 16,
+          "inside_fields": 109
+        },
+        {
+          "receiver": 17,
+          "inside_fields": 109
+        },
+        {
+          "receiver": 18,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 19,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 20,
+          "inside_fields": 108
+        },
+        {
+          "receiver": 21,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 46,
+          "inside_fields": 109
+        },
+        {
+          "receiver": 47,
+          "inside_fields": 109
+        },
+        {
+          "receiver": 48,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 49,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 50,
+          "inside_fields": 109
+        },
+        {
+          "receiver": 51,
+          "inside_fields": 117
+        },
+        {
+          "receiver": 52,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 53,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 54,
+          "inside_fields": 106
+        },
+        {
+          "receiver": 55,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 56,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 57,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 58,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 59,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 60,
+          "inside_fields": 108
+        },
+        {
+          "receiver": 61,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 62,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 63,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 64,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 65,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 66,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 67,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 68,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 69,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 70,
+          "inside_fields": 108
+        },
+        {
+          "receiver": 71,
+          "inside_fields": 106
+        },
+        {
+          "receiver": 72,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 73,
+          "inside_fields": 141
+        },
+        {
+          "receiver": 74,
+          "inside_fields": 141
+        },
+        {
+          "receiver": 75,
+          "inside_fields": 142
+        },
+        {
+          "receiver": 76,
+          "inside_fields": 146
+        },
+        {
+          "receiver": 77,
+          "inside_fields": 137
+        },
+        {
+          "receiver": 78,
+          "inside_fields": 141
+        },
+        {
+          "receiver": 79,
+          "inside_fields": 142
+        },
+        {
+          "receiver": 80,
+          "inside_fields": 150
+        },
+        {
+          "receiver": 81,
+          "inside_fields": 137
+        },
+        {
+          "receiver": 82,
+          "inside_fields": 134
+        },
+        {
+          "receiver": 83,
+          "inside_fields": 129
+        },
+        {
+          "receiver": 84,
+          "inside_fields": 133
+        },
+        {
+          "receiver": 85,
+          "inside_fields": 134
+        },
+        {
+          "receiver": 86,
+          "inside_fields": 134
+        },
+        {
+          "receiver": 87,
+          "inside_fields": 133
+        },
+        {
+          "receiver": 96,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 97,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 98,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 99,
+          "inside_fields": 116
+        },
+        {
+          "receiver": 100,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 101,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 102,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 103,
+          "inside_fields": 121
+        },
+        {
+          "receiver": 104,
+          "inside_fields": 117
+        },
+        {
+          "receiver": 105,
+          "inside_fields": 120
+        },
+        {
+          "receiver": 106,
+          "inside_fields": 120
+        },
+        {
+          "receiver": 107,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 108,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 109,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 110,
+          "inside_fields": 118
+        }
+      ],
+      "nonlocal_leaks": [],
+      "minimum_future_whole_record_descents": 9
+    },
+    {
+      "source": "direct-pair-exports-12",
+      "word_sha256": "6472eee72de969e204b546549fabdd9bd1cfaa5353ea8d4078b94d5ab1a44e05",
+      "cut": 884,
+      "live_fields": 345,
+      "untouched_roles": 71,
+      "receiver_locality_checks": [
+        {
+          "receiver": 8,
+          "inside_fields": 122
+        },
+        {
+          "receiver": 9,
+          "inside_fields": 118
+        },
+        {
+          "receiver": 10,
+          "inside_fields": 126
+        },
+        {
+          "receiver": 11,
+          "inside_fields": 121
+        },
+        {
+          "receiver": 12,
+          "inside_fields": 121
+        },
+        {
+          "receiver": 13,
+          "inside_fields": 123
+        },
+        {
+          "receiver": 14,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 15,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 16,
+          "inside_fields": 109
+        },
+        {
+          "receiver": 17,
+          "inside_fields": 109
+        },
+        {
+          "receiver": 18,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 19,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 20,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 21,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 46,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 47,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 48,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 49,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 50,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 51,
+          "inside_fields": 118
+        },
+        {
+          "receiver": 52,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 53,
+          "inside_fields": 116
+        },
+        {
+          "receiver": 54,
+          "inside_fields": 107
+        },
+        {
+          "receiver": 55,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 56,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 57,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 58,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 59,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 60,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 61,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 62,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 63,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 64,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 65,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 66,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 67,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 68,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 69,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 70,
+          "inside_fields": 108
+        },
+        {
+          "receiver": 71,
+          "inside_fields": 108
+        },
+        {
+          "receiver": 72,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 73,
+          "inside_fields": 144
+        },
+        {
+          "receiver": 74,
+          "inside_fields": 144
+        },
+        {
+          "receiver": 75,
+          "inside_fields": 145
+        },
+        {
+          "receiver": 76,
+          "inside_fields": 149
+        },
+        {
+          "receiver": 77,
+          "inside_fields": 140
+        },
+        {
+          "receiver": 78,
+          "inside_fields": 144
+        },
+        {
+          "receiver": 79,
+          "inside_fields": 145
+        },
+        {
+          "receiver": 80,
+          "inside_fields": 153
+        },
+        {
+          "receiver": 81,
+          "inside_fields": 140
+        },
+        {
+          "receiver": 82,
+          "inside_fields": 137
+        },
+        {
+          "receiver": 83,
+          "inside_fields": 132
+        },
+        {
+          "receiver": 84,
+          "inside_fields": 136
+        },
+        {
+          "receiver": 85,
+          "inside_fields": 137
+        },
+        {
+          "receiver": 86,
+          "inside_fields": 137
+        },
+        {
+          "receiver": 87,
+          "inside_fields": 136
+        },
+        {
+          "receiver": 96,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 97,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 98,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 99,
+          "inside_fields": 117
+        },
+        {
+          "receiver": 100,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 101,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 102,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 103,
+          "inside_fields": 124
+        },
+        {
+          "receiver": 104,
+          "inside_fields": 120
+        },
+        {
+          "receiver": 105,
+          "inside_fields": 121
+        },
+        {
+          "receiver": 106,
+          "inside_fields": 121
+        },
+        {
+          "receiver": 107,
+          "inside_fields": 118
+        },
+        {
+          "receiver": 108,
+          "inside_fields": 118
+        },
+        {
+          "receiver": 109,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 110,
+          "inside_fields": 119
+        }
+      ],
+      "nonlocal_leaks": [],
+      "minimum_future_whole_record_descents": 9
+    },
+    {
+      "source": "direct-pair-exports-16",
+      "word_sha256": "91cd623b23d299d44da5355838d5ead01614bc2ce6f2cf696a8d6500b73824c1",
+      "cut": 900,
+      "live_fields": 349,
+      "untouched_roles": 71,
+      "receiver_locality_checks": [
+        {
+          "receiver": 8,
+          "inside_fields": 123
+        },
+        {
+          "receiver": 9,
+          "inside_fields": 119
+        },
+        {
+          "receiver": 10,
+          "inside_fields": 127
+        },
+        {
+          "receiver": 11,
+          "inside_fields": 123
+        },
+        {
+          "receiver": 12,
+          "inside_fields": 123
+        },
+        {
+          "receiver": 13,
+          "inside_fields": 123
+        },
+        {
+          "receiver": 14,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 15,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 16,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 17,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 18,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 19,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 20,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 21,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 46,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 47,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 48,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 49,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 50,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 51,
+          "inside_fields": 119
+        },
+        {
+          "receiver": 52,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 53,
+          "inside_fields": 116
+        },
+        {
+          "receiver": 54,
+          "inside_fields": 108
+        },
+        {
+          "receiver": 55,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 56,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 57,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 58,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 59,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 60,
+          "inside_fields": 110
+        },
+        {
+          "receiver": 61,
+          "inside_fields": 114
+        },
+        {
+          "receiver": 62,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 63,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 64,
+          "inside_fields": 115
+        },
+        {
+          "receiver": 65,
+          "inside_fields": 111
+        },
+        {
+          "receiver": 66,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 67,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 68,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 69,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 70,
+          "inside_fields": 109
+        },
+        {
+          "receiver": 71,
+          "inside_fields": 108
+        },
+        {
+          "receiver": 72,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 73,
+          "inside_fields": 146
+        },
+        {
+          "receiver": 74,
+          "inside_fields": 146
+        },
+        {
+          "receiver": 75,
+          "inside_fields": 146
+        },
+        {
+          "receiver": 76,
+          "inside_fields": 150
+        },
+        {
+          "receiver": 77,
+          "inside_fields": 142
+        },
+        {
+          "receiver": 78,
+          "inside_fields": 146
+        },
+        {
+          "receiver": 79,
+          "inside_fields": 146
+        },
+        {
+          "receiver": 80,
+          "inside_fields": 154
+        },
+        {
+          "receiver": 81,
+          "inside_fields": 142
+        },
+        {
+          "receiver": 82,
+          "inside_fields": 138
+        },
+        {
+          "receiver": 83,
+          "inside_fields": 134
+        },
+        {
+          "receiver": 84,
+          "inside_fields": 138
+        },
+        {
+          "receiver": 85,
+          "inside_fields": 138
+        },
+        {
+          "receiver": 86,
+          "inside_fields": 138
+        },
+        {
+          "receiver": 87,
+          "inside_fields": 138
+        },
+        {
+          "receiver": 96,
+          "inside_fields": 116
+        },
+        {
+          "receiver": 97,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 98,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 99,
+          "inside_fields": 117
+        },
+        {
+          "receiver": 100,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 101,
+          "inside_fields": 113
+        },
+        {
+          "receiver": 102,
+          "inside_fields": 112
+        },
+        {
+          "receiver": 103,
+          "inside_fields": 125
+        },
+        {
+          "receiver": 104,
+          "inside_fields": 121
+        },
+        {
+          "receiver": 105,
+          "inside_fields": 122
+        },
+        {
+          "receiver": 106,
+          "inside_fields": 122
+        },
+        {
+          "receiver": 107,
+          "inside_fields": 118
+        },
+        {
+          "receiver": 108,
+          "inside_fields": 118
+        },
+        {
+          "receiver": 109,
+          "inside_fields": 117
+        },
+        {
+          "receiver": 110,
+          "inside_fields": 121
+        }
+      ],
+      "nonlocal_leaks": [],
+      "minimum_future_whole_record_descents": 9
+    }
+  ],
+  "omitted_dual_term_rejected": "exact dual residual",
+  "scope": "Fixed-schedule monotone-public, arbitrary nested-owned continuation; at least9 future whole-record downward transfers. All-field linear or zero-error deterministic finite-alphabet nonlinear scope as proved. No9-lifetime or9-Hub-ground assertion.",
+  "new_complete_kappa": false
+}

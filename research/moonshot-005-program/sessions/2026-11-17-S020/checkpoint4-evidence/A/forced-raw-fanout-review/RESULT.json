@@ -1,0 +1,33 @@
+{
+  "status": "PASS_INDEPENDENT_FORCED_SOURCE_FANOUT_REVIEW",
+  "author_certificate_sha256": "05918732edc2986ad7f1e6a8b7cf3a05fe4bdf8d4082f32088d5e252346511cc",
+  "cases": [
+    {
+      "source": "low-retention-corrections",
+      "checked_duals": 279,
+      "normal_rank_histogram": {
+        "7": 39,
+        "6": 1
+      },
+      "native_line_departures": 79,
+      "owned_upward_moves": 75,
+      "independent_future_owned_downward_moves": 4,
+      "total_future_owned_moves": 79,
+      "exact_positive_excess_lower_bound": "4606497234020850148468554682475882777234233/6000000000000000000000000000000000000000000"
+    },
+    {
+      "source": "proper-query-exports",
+      "checked_duals": 279,
+      "normal_rank_histogram": {
+        "7": 39,
+        "6": 1
+      },
+      "native_line_departures": 79,
+      "owned_upward_moves": 75,
+      "independent_future_owned_downward_moves": 4,
+      "total_future_owned_moves": 79,
+      "exact_positive_excess_lower_bound": "76606497234020850148468554682475882777234233/6000000000000000000000000000000000000000000"
+    }
+  ],
+  "scope": "Checks C fanout duals against A separately derived actual-cut observation spaces, native exact normal geometry, and independent four-facet cut. Uses fixed descending bank and monotone public routes. No universal source exclusion."
+}

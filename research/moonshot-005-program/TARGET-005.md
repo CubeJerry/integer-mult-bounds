@@ -1,27 +1,26 @@
 # Exact requirements for κ=1/200
 
-## Current physical interfaces — S020 checkpoint3
+## Current physical interfaces — S020 checkpoint4
 
-No new complete κ. The selected conditional bound remains κ=.00363005817. Both strict suppliers, the complete outer assembly and all five foundations remain open. This is ongoing research and is not PR-ready.
+No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. This is ongoing research and is not PR-ready.
 
-The necessary limiting movement allowance at t=199/200 is
-1621.750880211152355246... . The finite-even correction is negative and
-nonmovement expenses make the full condition stricter.
+The necessary limiting movement allowance at t=199/200 remains
+1621.750880211152355246... . Finite corrections are negative and nonmovement
+costs make the completed supplier condition stricter.
 
-| Actual source or exact scoped class | Verified quantity | Remaining limitation |
+| Actual source or scoped family | Established result | Remaining limitation |
 |---|---|---|
-| All103 early corrections, restored X |Q=1544.021152927048...; room77.729727284103...|528 foreign terms; zero diagonal endpoints.|
-| All103 early corrections, lower retention |Q=1543.518629750155...; room78.232250460996...|All111 X directions;103 Ys at rank three.|
-| Twelve actual proper-query exports |Q=1555.518629750155...; room66.232250460996...|Twelve nonlocal rank-two payloads; no canonical bank or completed decoder.|
-| First two cuts, canonical plus <=4 literal halves |Required chi>=189; priced cap187|Scoped exclusion under normalized history and monotone public routes.|
-| Five literal halves |A chi187 witness, rank14|Only a necessary screen passes; physical delivery unconstructed.|
-| Actual transferred complex column |Dyadic unit/inverse; module condition satisfied|Every completion of this fixed column fails independent (4,2,1) endpoints.|
-| Crot first interface |Exact capacity contradiction for arbitrary Q under stated projector hypotheses|Different C_T or other first interfaces are outside.|
+| Coordinate-first, eight completed values |Q0=1551.047442485706...; room70.703437725446...|Rank29 descending bank requires127 owned ascents; change timing/code.|
+| Lower/proper/direct-pair cuts |Actual all222-column words;5 source-specific bank audits|At least75 ascents plus9 descents; all five natural banks fail.|
+| One/nineteen fresh half exports |Real chronological code acquisition and inverses|Natural banks need83/213 ascents; nineteen-mode rank56 grant still needs105.|
+| One fresh export with complete rank56 grant |This first-exit screen requires40 ascents|Not excluded; physical whole-bank acquisition/delivery unconstructed.|
+| Permuted Klein fixed-column family |Joint endpoint representation capacity24>15|Fixed collective model; prefix extension requires a valid new representation.|
+| Distinguished-column same-plus split |Actual unit/inverse,6 ADD+12 SCALE+8 MONO each, prefix5|Explicit enlarged template; full compiler and caller admission remain.|
+| Crot with fixed matrix prefix |Source-coset frame forces a singular Q|Klein and C_T interfaces are outside this exact theorem.|
 
-Each movement number is for one literal source experiment and includes minimum
-remaining public ascents. Partial margins cannot be summed across incompatible
-words. Cache access and receiver positions are real obligations. Each complex
-exclusion retains actual endpoint units and inverses; rank alone is insufficient.
+Partial invoices cannot be combined across incompatible words. Bounds count
+actual movement occurrences, not owner lifetimes. Capacity tests concern actual
+encoder/decoder images, not convenient numerical component ranks.
 
 ## Retained exact supplier and accounting contracts
 
