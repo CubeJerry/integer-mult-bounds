@@ -2562,3 +2562,12 @@ Fourteen focused executions reproduced twenty-five scientific outputs. The five-
 Started from confirmed remote e31d437b489a416446fdd7e294bc2238829c5925 at 22:13:54 UTC with a three-hour window. Canonical main was e54523517d0f03e58352e647c403a5af3e525a57. S021's last published state was checkpoint 3. Its uncommitted pending benchmarks have no proof status here.
 
 The 838-witness census gives 9b nonlinear downset records and 17b total disjoint movements on the three sources. At minimum size, 194 rank-six hitting spans restrict delivery. A separate reviewer reconstructed the entropy proof and all physical source cuts. Source construction and complex endpoints remain active. [Validation](sessions/2026-11-17-S022/CHECKPOINT1-VALIDATION.json). The next remote receipt records this checkpoint's resulting SHA.
+
+
+## 2026-11-17 S022, checkpoint 2
+
+Confirmed parent da5ec739bb33cc15953a04253f57688a42ac2184. [Two simultaneous BIT words](results/bit-six-receiver-cross-chart-carriers/ADMISSION.md) implement six receiver corrections with fully shared source histories. The cheaper word replaces five point backups with five original carriers and leaves 8.91882842470… limiting movement room. [The same-plus complex proof](results/complex-spectator-preserving-interface/ADMISSION.md) excludes every spectator-preserving first interstage repair in the stated ordinary model. Its all-input quartic benchmark supplies an exact component, while independent endpoints remain open. No new κ.
+
+Seven focused checks rebuild nine complete scientific outputs. [Portable replay](sessions/2026-11-17-S022/reproduce_cp2.py) · [Validation hashes](sessions/2026-11-17-S022/CHECKPOINT2-VALIDATION.json).
+
+Next. Construct a second shared receiver group before original carriers and Y records commit to incompatible terminal facets. On the complex side change the spectator input, then test every independent endpoint and the entire movement balance. The next receipt or branch log identifies the resulting commit.

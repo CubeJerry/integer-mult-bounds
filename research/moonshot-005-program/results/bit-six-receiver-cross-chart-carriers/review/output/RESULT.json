@@ -1,0 +1,173 @@
+{
+  "status": "PASS_C_INDEPENDENT_ALL_COLUMN_CACHE_REVIEW",
+  "sources": [
+    {
+      "label": "signed-points",
+      "word_sha256": "5a5b6fccb2a1aa76d68a6f2794194161cc25372cdecba2b8c280c5ad3e4e3141",
+      "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+      "all_original_columns": 222,
+      "completed_roles": [
+        1,
+        3,
+        9,
+        11,
+        13,
+        61,
+        63,
+        73,
+        76,
+        77,
+        80
+      ],
+      "opcodes": {
+        "ADD": 814,
+        "CLEAR": 37,
+        "INIT": 37,
+        "MOVE": 371
+      },
+      "movement_profile": {
+        "1": 47,
+        "2": 73,
+        "3": 20,
+        "4": 20,
+        "5": 91,
+        "6": 6,
+        "7": 105,
+        "8": 9
+      },
+      "owned_movement_profile": {
+        "1": 5,
+        "8": 9
+      },
+      "peak_owners": 37,
+      "dirty_clears": 37,
+      "fresh_owner_lifetimes": 37,
+      "stationary_owner_lifetimes": 23,
+      "milestones": {
+        "source_restored": {
+          "step": 480,
+          "owners": 28,
+          "live": 250
+        },
+        "canonical_at_ground": {
+          "step": 1033,
+          "owners": 37,
+          "live": 259
+        },
+        "before_retirement": {
+          "step": 1222,
+          "owners": 37,
+          "live": 259
+        }
+      },
+      "unfinished_target_flats_missing_own_output_before_retirement": 100,
+      "unfinished_target_flats_missing_own_output_after_retirement": 100,
+      "movement_moment_at_199_over_200": [
+        "161778447912565337472381687547231306967462591/100000000000000000000000000000000000000000",
+        "32355689582513067494476337509446261393492583/20000000000000000000000000000000000000000"
+      ],
+      "necessary_limiting_room": [
+        "396640108549898052242927489468191677328519/100000000000000000000000000000000000000000",
+        "2379840651299388313457564936809150063974353/600000000000000000000000000000000000000000"
+      ],
+      "first_even_m_passing_only_this_partial_movement_profile": 6,
+      "margin_at_first": [
+        "1349444894787384265262613546891840960401157/10000000000000000000000000000000000000000",
+        "3373612236968460663156533867229602401024011/25000000000000000000000000000000000000000"
+      ],
+      "margin_at_preceding_even": [
+        "-392297479961243614059627075968245389907719/50000000000000000000000000000000000000000",
+        "-3138379839689948912477016607745963118999/400000000000000000000000000000000000000"
+      ],
+      "single_opcode_deletions_rejected": {
+        "ADD": 814,
+        "CLEAR": 37,
+        "INIT": 37,
+        "MOVE": 371
+      },
+      "single_opcode_deletions_with_same_endpoint": [],
+      "complete_supplier": false
+    },
+    {
+      "label": "cross-chart-relay",
+      "word_sha256": "d3294c887cb7134e9b5449e8f89105b382aacd7cf620cec65cb4d75357e79a2a",
+      "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+      "all_original_columns": 222,
+      "completed_roles": [
+        1,
+        3,
+        73,
+        76,
+        77,
+        80
+      ],
+      "opcodes": {
+        "ADD": 809,
+        "CLEAR": 37,
+        "INIT": 37,
+        "MOVE": 371
+      },
+      "movement_profile": {
+        "1": 47,
+        "2": 78,
+        "3": 15,
+        "4": 20,
+        "5": 91,
+        "6": 6,
+        "7": 105,
+        "8": 9
+      },
+      "owned_movement_profile": {
+        "8": 9
+      },
+      "peak_owners": 37,
+      "dirty_clears": 37,
+      "fresh_owner_lifetimes": 37,
+      "stationary_owner_lifetimes": 28,
+      "milestones": {
+        "source_restored": {
+          "step": 480,
+          "owners": 28,
+          "live": 250
+        },
+        "canonical_at_ground": {
+          "step": 1033,
+          "owners": 37,
+          "live": 259
+        },
+        "before_retirement": {
+          "step": 1217,
+          "owners": 37,
+          "live": 259
+        }
+      },
+      "unfinished_target_flats_missing_own_output_before_retirement": 105,
+      "unfinished_target_flats_missing_own_output_after_retirement": 105,
+      "movement_moment_at_199_over_200": [
+        "161283205178644890004085821317689547485933211/100000000000000000000000000000000000000000",
+        "32256641035728978000817164263537909497186707/20000000000000000000000000000000000000000"
+      ],
+      "necessary_limiting_room": [
+        "891882842470345520538793719009951158857899/100000000000000000000000000000000000000000",
+        "5351297054822073123232762314059706953150633/600000000000000000000000000000000000000000"
+      ],
+      "first_even_m_passing_only_this_partial_movement_profile": 4,
+      "margin_at_first": [
+        "12979256335890838029928761121659260611385541/50000000000000000000000000000000000000000",
+        "2595851267178167605985752224331852122283677/10000000000000000000000000000000000000000"
+      ],
+      "margin_at_preceding_even": [
+        "-3074634828575381339769525820519860248056803/50000000000000000000000000000000000000000",
+        "-384329353571922667471190727564982531004169/6250000000000000000000000000000000000000"
+      ],
+      "single_opcode_deletions_rejected": {
+        "ADD": 809,
+        "CLEAR": 37,
+        "INIT": 37,
+        "MOVE": 371
+      },
+      "single_opcode_deletions_with_same_endpoint": [],
+      "complete_supplier": false
+    }
+  ]
+}

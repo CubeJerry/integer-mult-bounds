@@ -1,0 +1,5 @@
+# The same-plus three-call source cannot pay with a preserved spectator row
+
+For the fixed-prefix, finite collective-tail catalogue, any ordinary first-interface repair preserving the spectator row, with arbitrary invertible active two-bank block, has sorted independent Gaussian heads bounded componentwise by (3,2,1). The transported triangular subfamily has cap (2,2,1). Even the first cap misses the movement balance at t=199/200 by 0.41862327257…. This holds for every ordinary second interface and all ordinary invertible input/output gauges.
+
+A constructive [all-input benchmark](author/BENCHMARK.md) has classes 1, 2 and 4 and a full invertible quartic corner. Its quartic part cannot act as an independent recursive job. The benchmark was reconstructed from published S021 source data. Equality to the earlier unpublished candidate is unknown. [Final proof](author/PROOF.md) · [Independent parabolic review](review/PARABOLIC-REVIEW.md) · [Independent benchmark review](review/REVIEW.md). The final review supersedes the latter's interim profile ceiling. No new κ.

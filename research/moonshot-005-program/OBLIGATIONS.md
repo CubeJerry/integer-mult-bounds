@@ -1,5 +1,11 @@
 # Remaining proof obligations — S021 checkpoint3
 
+## S022 checkpoint 2
+
+Construct a second shared receiver group before original carriers and Y records commit to incompatible terminal facets. On the complex side change the spectator input, then test every independent endpoint and the entire movement balance.
+
+The six-receiver partial movement gate first clears at even m=4 for original relays and m=6 for point backups. The unserved facets require 105 or 100 further arrivals at those endpoints. The spectator-preserving complex profile is below the supplier threshold before ordinary or recursive expenses. No foundational assumption is discharged.
+
 ## S022 current obligations
 
 | Proposition | Status and next test |

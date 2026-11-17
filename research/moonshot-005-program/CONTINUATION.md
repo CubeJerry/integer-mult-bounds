@@ -1,3 +1,7 @@
 # Resume the permanent programme
 
-Use [STATE.json](STATE.json) and [the proof obligations](OBLIGATIONS.md) for the live task. S022 resumed S021 checkpoint 3 from e31d437b489a416446fdd7e294bc2238829c5925. Build simultaneous X-only service to overlapping receiver cohorts with actual public paths and cache lifetimes. On the frozen sources use the [9b nonlinear theorem](results/bit-induced95-nonlinear-witnesses/ADMISSION.md) and its visibility tests. Both strict suppliers and the complete caller remain open.
+Construct a second shared receiver group before original carriers and Y records commit to incompatible terminal facets. On the complex side change the spectator input, then test every independent endpoint and the entire movement balance.
+
+[Two simultaneous BIT words](results/bit-six-receiver-cross-chart-carriers/ADMISSION.md) implement six receiver corrections with fully shared source histories. The cheaper word replaces five point backups with five original carriers and leaves 8.91882842470… limiting movement room. [The same-plus complex proof](results/complex-spectator-preserving-interface/ADMISSION.md) excludes every spectator-preserving first interstage repair in the stated ordinary model. Its all-input quartic benchmark supplies an exact component, while independent endpoints remain open. No new κ.
+
+Consult [the exact state](STATE.json), [obligations](OBLIGATIONS.md) and [verification ledger](VERIFICATION.md).

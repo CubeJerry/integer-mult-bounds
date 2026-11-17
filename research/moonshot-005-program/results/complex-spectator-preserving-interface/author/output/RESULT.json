@@ -1,0 +1,120 @@
+{
+  "status": "PASS_SAMEPLUS_SPECTATOR_PULLBACK_AND_ALL_INPUT_BENCHMARK",
+  "baseline": "e31d437b489a416446fdd7e294bc2238829c5925",
+  "pins": {
+    "results/complex-sameplus-routed-column/author/PROOF.md": "904a4a1b2d859661a3d3a832e476977f78e64907bce4aafb02e8a63d7fe6ea1a",
+    "results/complex-sameplus-fixed-output-gate/author/PROOF.md": "5d34d4e386aab40e82722a8b118ec67b5deda56cf38eb46d93f6caa7985080a5",
+    "results/complex-mixed-all-profile-gate/author/output/RESULT.json": "93112c2d95d05de06eb197d601ed25e1f45ad0badd5969cae9d5f8b279c98ddb"
+  },
+  "one_letter_verified_classes": {
+    "A": 1,
+    "A2": 2,
+    "A3": 3,
+    "A4": 4,
+    "AsA": 2,
+    "A3s2A": 2,
+    "A2hA": 1,
+    "A2s2hA": 1,
+    "AsA_inverse": 2
+  },
+  "nonmonomial_physical_plus_rank": 12,
+  "forward_and_inverse_third_row_samples": [
+    [
+      1,
+      "identity"
+    ],
+    [
+      1,
+      "transported_noncommuting"
+    ],
+    [
+      1,
+      "nonintertwining"
+    ],
+    [
+      -1,
+      "identity"
+    ],
+    [
+      -1,
+      "transported_noncommuting"
+    ],
+    [
+      -1,
+      "nonintertwining"
+    ]
+  ],
+  "full_parabolic_controls": [
+    {
+      "prefix_sign": 1,
+      "active_lower_left_nonzero": true,
+      "physical_low_row": true,
+      "physical_inverse_spectator_row": true,
+      "spectator_row_mutation_rejected": true
+    },
+    {
+      "prefix_sign": -1,
+      "active_lower_left_nonzero": true,
+      "physical_low_row": true,
+      "physical_inverse_spectator_row": true,
+      "spectator_row_mutation_rejected": true
+    }
+  ],
+  "benchmark": [
+    {
+      "prefix_sign": 1,
+      "checked_input_columns": 48,
+      "quartic_corner_rank": 16,
+      "idempotence_defect_rank": 16,
+      "projector_pulled_back_is_ordinary_idempotent": false
+    },
+    {
+      "prefix_sign": -1,
+      "checked_input_columns": 48,
+      "quartic_corner_rank": 16,
+      "idempotence_defect_rank": 16,
+      "projector_pulled_back_is_ordinary_idempotent": false
+    }
+  ],
+  "parabolic_deficit_at_199_over_200": [
+    "2093116362852221108881486854376882269189/5000000000000000000000000000000000000000",
+    "418623272570444221776297370875376453839/1000000000000000000000000000000000000000"
+  ],
+  "transported_subfamily_deficit_at_199_over_200": [
+    "1398040877411441465757688701150529749211/1000000000000000000000000000000000000000",
+    "6990204387057207328788443505752648746061/5000000000000000000000000000000000000000"
+  ],
+  "all_input_Q_paid_receipts": {
+    "forward": {
+      "counts": {
+        "SCALE": 47,
+        "ADD": 27,
+        "MONO": 34
+      },
+      "uniform_triangle_norm_bound": "348",
+      "rejected_ADD_omissions": 27
+    },
+    "inverse": {
+      "counts": {
+        "SCALE": 101,
+        "ADD": 27,
+        "MONO": 34
+      },
+      "uniform_triangle_norm_bound": "424",
+      "rejected_ADD_omissions": 27
+    }
+  },
+  "transported_triangular_maximum_head": 2,
+  "arbitrary_parabolic_profile_cap": [
+    3,
+    2,
+    1
+  ],
+  "transported_triangular_profile_cap": [
+    2,
+    2,
+    1
+  ],
+  "independent_421_endpoint": false,
+  "new_complete_kappa": false
+}

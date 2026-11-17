@@ -1,0 +1,58 @@
+{
+  "status": "PASS_INDEPENDENT_PULLBACK_AND_BENCHMARK",
+  "arithmetic": "exact Gaussian rationals",
+  "forward_inverse_triangular_tests": [
+    [
+      -1,
+      "transport"
+    ],
+    [
+      -1,
+      "changed"
+    ],
+    [
+      1,
+      "transport"
+    ],
+    [
+      1,
+      "changed"
+    ]
+  ],
+  "AsA_inverse_on_0000": [
+    [
+      "0000",
+      "1/2"
+    ],
+    [
+      "0010",
+      "I/2"
+    ],
+    [
+      "0100",
+      "-I/2"
+    ],
+    [
+      "0110",
+      "1/2"
+    ]
+  ],
+  "eight_support_sizes": [
+    2,
+    4,
+    8,
+    16,
+    4,
+    4,
+    2,
+    2
+  ],
+  "all_input_width_one_columns_per_sign": 48,
+  "S3_faithful_regular_dimension": 6,
+  "negative_controls": [
+    "swapped inverse projector",
+    "transport identity fails for changed sample",
+    "other conjugated axis monomial",
+    "compressed transposition does not square to N"
+  ]
+}

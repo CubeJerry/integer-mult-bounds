@@ -1,0 +1,45 @@
+# Stationary masks let five original X records cross between source cohorts
+
+The scalar source completes native roles $S=\{1,3,73,76,77,80\}$ together. Every other Y retains its own original value. The only owned MOVEs in the entire word are the nine canonical Hub-to-ground descents. The construction replaces all five paid point descents of the companion separated-cohort control.
+
+## Source and restoration
+
+For $U\subseteq S$ let $G_U=\{j:N(j)\cap S=U\}$, where $N(j)$ contains the native roles with normal orthogonal to $r_j$. Write $C_U=\bigcap_{i\in U}F_i$. The actual partition, seven rank-six anchors and group pivots are the same as in the companion six-plus-five source. The 20 roles in $G_S$ first gather at its rank-five chart. Accumulate their complete sum in one stationary owner. Capture five distinct raw originals there in five additional stationary owners. Then use the original X records as follows.
+
+| Original with retained mask | Mixed signature U | Final facet |
+|---:|---|---:|
+| 0 | 3,73,77 | 77 |
+| 2 | 3,76,80 | 76 |
+| 5 | 3,76,80 | 80 |
+| 7 | 73,76 | 76 |
+| 15 | 77,80 | 80 |
+
+For each row the itinerary $L_q\subset C_S\subset C_U\subset F_i\subset \mathrm{Hub}$ is strictly increasing. At its mixed chart, the original adds the entire actual $s_U=\sum_{j\in G_U}x_j$ from a reversibly formed original group pivot. At its final facet a stationary terminal owner captures $x_q+s_U$. The pivot remains available. All contributing originals reach Hub, where reversing the mixed injections and then the pivot additions restores every input. The actual stationary mask at $C_S$ remains accessible to the designated Y at its already necessary common-chart visit. It cancels $x_q$ there. No earlier capture is applied retroactively to a frozen current cut. This is a changed source, and it violates the cohort-diagonal hypothesis used for the separated five-backup theorem.
+
+The 222-column word restores all X at Hub and all Y pure ground at cut 480. Nine actual native canonical rows, formed from these raw X, are at ground before any Y departs at cut 1033. The canonical preload to the six active receivers, common sum, group anchors, private sums and corrected terminal rows give $y_i+x_i$. The other 105 Y records move directly to their own facets unchanged. All 37 owners retire dirty. The invoice is 37 INIT, 809 ADD, 371 MOVE and 37 dirty CLEAR. Its profile is $47[1]+78[2]+15[3]+20[4]+91[5]+6[6]+105[7]+9[8]$. The moment at $t=199/200$ is $1612.832051786448900040858213177\ldots$, leaving $8.918828424703455205387937190\ldots$ necessary limiting room. A bank-by-bank scalar ADD identity applies to every positive record width over every characteristic-two field. None of these 105 uncompleted outputs can be obtained by reusing their already closed trajectories for free.
+
+## A reusable sufficient relay condition
+
+Partition the native donors by their exact signatures relative to any chosen receiver set S. Choose, for each receiver, a nested chain of actual $C_U$ ending at its final facet. A receiver on $C_U$ may take $s_U$ from a stationary owner there. One unanchored member of U can instead receive a pure invertible group pivot at its terminal facet. For each further unanchored $i\in U$, it suffices to match a different available original from some origin cohort $G_W$ with $U\subsetneq W$ where the same Y visits $C_W$. The original first participates in its own group's source sum, has its actual current value captured on $C_W$, travels to $C_U$ to take $s_U$, and finishes at $F_i$. The receiver reads its actual compensation at $C_W$. Reserving distinct original carriers, a pure group pivot for each private group, and a chronological order refining strict chart containment is sufficient. Every source ADD on originals is reversible at Hub in reverse order. Stationary sums can instead be rebuilt from restored originals when explicitly charged. No additional owned MOVE is required by the matched relays. Ordinary source, captures, inverses and retirements remain necessary. In the concrete instance the five donors come from $G_S$.
+
+## Why this single grouping cannot scale to all 111
+
+Here is an all-width screen for this *one-stage* architecture. Assume the residual to be delivered locally is the fixed native incidence correction, after the prescribed canonical preload; remaining optional ground information consists of separately paid raw donor bank widths. One raw donor belongs to its full exact-signature cohort, one receiver bank can consume its local anchor only when it visits that actual cohort chart, and each uncopied original leaving its own chart for private service can contribute at only one final facet. Newly formed mixtures at additional intermediate charts and branching into earlier subcohorts are outside this statement.
+
+The exact signed native roots give 6,470 foreign incidences, minimum degree 55, minimum ordered neighborhood difference 21 and minimum pair intersection 23. Thus deleting any at most 20 receiver roles leaves all 111 donor signatures distinct and pairwise incomparable. Their nonempty signature charts are also incomparable: $C_U\subseteq C_W$ would imply every actual donor of U is orthogonal to W, hence $W\subseteq U$. Every nonempty signature cohort is now a singleton. There is no strict superset origin from which to supply the displayed matched relay, and one Y path visits at most one such anchor.
+
+For a scalar bank, suppose two donors have no ground raw backup. At least three common receivers survive the deletion. Each needs both of those donor contributions. A receiver cannot anchor both, so each of those at least three receivers needs a private terminal incidence from one of the two originals. There are only two privately routed originals. Consequently at least 110 of the 111 donor raws would have to be ground-backed in this class. This scalar statement also covers arbitrary linear blocks within one V-wide record when the backup selection is by whole original and the same allowed whole records are used. It does not require receivers to recover each donor separately on jointly nonzero inputs. Setting other inputs to zero verifies each essential local dependence.
+
+For $b$ separately paid copies, allow arbitrary mixing among their V-wide banks and let $d_jV$ be the dimension of raw side information from donor j at ground. If s roles are active and $s\ge91$, restricting to donor j leaves at least $55-(111-s)=s-56$ incident receivers. At each such receiver, at least $(b-d_j)V$ more dimensions must arrive. Total over all donors, every Y bank visiting one signature chart provides at most V dimensions from that donor, and every original bank delivered to one private terminal provides at most V, before counting cancellations. Summing these upper bounds gives
+
+$$
+  (s-56)\sum_j(b-d_j)\ \le\ (s+111)b.
+$$
+
+In particular even at $s=91$, $\sum_jd_j\ge[111-202/35]b>105b$. With all 111, the lower bound is $[111-222/55]b>106b$. The baseline public movement and nine canonical descents cost $222[7]+9[8]=1610.208873484099834342875229327\ldots$ per copy, leaving less than 12 for all extra raw point descents. If the excluded receivers are to be closed by their own raw imports, any single target set covering a full caller with that remaining movement must have at least 100 active roles, already within the excluded range. These lower bounds apply to the stated singleton/private-terminal class. They are not a theorem against general X-only sources or changing the ground code.
+
+`global_gate.py` independently enumerates every ordered difference and unordered intersection from raw native dot products. The 21-deletion witness creates a comparable pair. A different explicit 21-deletion witness leaves a pair with just two common receivers, showing why the simple three-recipient argument no longer follows. The bounds above use proved dimension counts on the authenticated finite geometry, not extrapolated search failures. The two-stage tap extension in the companion package takes actual overlapping subcohorts before their original donors regroup, precisely relaxing this single-stage restriction.
+
+## Reproduction and attribution
+
+Run `python3 -B build.py --native NATIVE --out /tmp/s022-cross` and `python3 -B global_gate.py --native NATIVE --out /tmp/s022-cross/gate.json` with `NATIVE` set to `research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json`. Its SHA256 is `8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e`; the emitted six word is `d3294c887cb7134e9b5449e8f89105b382aacd7cf620cec65cb4d75357e79a2a`. The checker verifies exact rational subspace inclusion, all original columns and the signed elementary source identities. Listed deletion controls address source recoding, mask capture, genuine visits, restoration, canonical transport and retirement. No new κ, complete supplier or discharged foundation. Credit @CubeJerry, the earlier shared-meet and stationary-cache sources, and OpenAI-assisted construction and review.

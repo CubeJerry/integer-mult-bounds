@@ -1,5 +1,9 @@
 # Verification ledger
 
+## S022 checkpoint 2
+
+Seven focused checks rebuild nine complete scientific outputs. [Portable replay](sessions/2026-11-17-S022/reproduce_cp2.py) · [Validation hashes](sessions/2026-11-17-S022/CHECKPOINT2-VALIDATION.json).
+
 ## S022 checkpoint 1
 
 The [session receipt](sessions/2026-11-17-S022/CHECKPOINT1-VALIDATION.json) gives portable commands and digests. The [independent reviewer](results/bit-induced95-nonlinear-witnesses/review/REVIEW.md) reconstructed 838 witnesses, 2,520 elementary entropy terms and all three source cuts. The author's span enumeration finds 194 rank-six hits and none at smaller rank.

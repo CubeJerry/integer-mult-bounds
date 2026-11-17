@@ -1,0 +1,191 @@
+{
+  "status": "PASS_X_ONLY_CROSS_CHART_CARRIERS_SIX",
+  "word_sha256": "d3294c887cb7134e9b5449e8f89105b382aacd7cf620cec65cb4d75357e79a2a",
+  "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "receiver_roles": [
+    1,
+    3,
+    73,
+    76,
+    77,
+    80
+  ],
+  "additional_paid_point_diagonals": [],
+  "mixed_signature_charts": 7,
+  "rank_six_anchor_visits": 6,
+  "supplementary_raw_point_descents": 0,
+  "reused_common_originals": 5,
+  "counts": {
+    "MOVE": 371,
+    "INIT": 37,
+    "ADD": 809,
+    "CLEAR": 37
+  },
+  "movement_profile": {
+    "1": 47,
+    "2": 78,
+    "3": 15,
+    "4": 20,
+    "5": 91,
+    "6": 6,
+    "7": 105,
+    "8": 9
+  },
+  "peak_owned": 37,
+  "dirty_CLEAR": 37,
+  "milestones": {
+    "source_restored": {
+      "step": 480,
+      "live_fields": 250,
+      "owners": 28
+    },
+    "canonical_at_ground": {
+      "step": 1033,
+      "live_fields": 259,
+      "owners": 37
+    },
+    "before_retirement": {
+      "step": 1217,
+      "live_fields": 259,
+      "owners": 37
+    }
+  },
+  "tagged_counts": {
+    "common_X_gather": 20,
+    "stationary_group_birth": 7,
+    "stationary_group_capture": 26,
+    "common_mask_birth": 5,
+    "common_mask_capture": 5,
+    "common_carrier_ascent": 5,
+    "common_X_release": 15,
+    "private_source_arrival": 6,
+    "private_source_release": 6,
+    "signature_source_gather": 85,
+    "source_recode": 78,
+    "anchor_birth": 4,
+    "anchor_capture": 4,
+    "terminal_visit": 12,
+    "terminal_birth": 12,
+    "terminal_capture": 12,
+    "signature_X_endpoint": 90,
+    "mixed_relay_recode": 5,
+    "inverse_source_recode": 83,
+    "canonical_birth": 9,
+    "canonical_capture": 535,
+    "canonical_descent": 9,
+    "canonical_preload": 26,
+    "other_Y_endpoint": 105,
+    "target_Y_route": 18,
+    "deferred_read": 35,
+    "retire": 37
+  },
+  "all_original_columns": 222,
+  "moment_at_199_over_200": {
+    "rational": [
+      "201604006473306112505107276647091/125000000000000000000000000000",
+      "403208012946612225010214553294263/250000000000000000000000000000"
+    ],
+    "decimal": [
+      "1612.832051786448900040858213176728",
+      "1612.832051786448900040858213177052"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "4459414212351727602693968594927/500000000000000000000000000000",
+      "53512970548220731232327623142363/6000000000000000000000000000000"
+    ],
+    "decimal": [
+      "8.918828424703455205387937189854",
+      "8.918828424703455205387937190393833333333333333333333333"
+    ]
+  },
+  "controls": [
+    {
+      "tag": "common_mask_capture",
+      "omitted": 42,
+      "rejected": true,
+      "reason": "public endpoint 77"
+    },
+    {
+      "tag": "common_carrier_ascent",
+      "omitted": 43,
+      "rejected": true,
+      "reason": "ADD at actual common chart"
+    },
+    {
+      "tag": "mixed_relay_recode",
+      "omitted": 231,
+      "rejected": true,
+      "reason": "all raw X and untouched Y before preload"
+    },
+    {
+      "tag": "source_recode",
+      "omitted": 84,
+      "rejected": true,
+      "reason": "all raw X and untouched Y before preload"
+    },
+    {
+      "tag": "terminal_visit",
+      "omitted": 94,
+      "rejected": true,
+      "reason": "ADD at actual common chart"
+    },
+    {
+      "tag": "terminal_capture",
+      "omitted": 96,
+      "rejected": true,
+      "reason": "public endpoint 3"
+    },
+    {
+      "tag": "anchor_capture",
+      "omitted": 93,
+      "rejected": true,
+      "reason": "public endpoint 1"
+    },
+    {
+      "tag": "inverse_source_recode",
+      "omitted": 397,
+      "rejected": true,
+      "reason": "all raw X and untouched Y before preload"
+    },
+    {
+      "tag": "canonical_capture",
+      "omitted": 481,
+      "rejected": true,
+      "reason": "literal canonical rows"
+    },
+    {
+      "tag": "canonical_descent",
+      "omitted": 538,
+      "rejected": true,
+      "reason": "literal canonical rows"
+    },
+    {
+      "tag": "canonical_preload",
+      "omitted": 1033,
+      "rejected": true,
+      "reason": "public endpoint 1"
+    },
+    {
+      "tag": "target_Y_route",
+      "omitted": 1060,
+      "rejected": true,
+      "reason": "ADD at actual common chart"
+    },
+    {
+      "tag": "deferred_read",
+      "omitted": 1061,
+      "rejected": true,
+      "reason": "public endpoint 1"
+    },
+    {
+      "tag": "retire",
+      "omitted": 1217,
+      "rejected": true,
+      "reason": "all owners retired"
+    }
+  ],
+  "complete_supplier": false,
+  "new_complete_kappa": false
+}

@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "checks": [
+    {
+      "label": "point-backed",
+      "script_sha256": "870595f90f7bee5291b36b3541f91a347d5a9605cc4765165775a372a6453251",
+      "outputs": [
+        {
+          "path": "results/bit-six-receiver-cross-chart-carriers/point-backed/output/RESULT.json",
+          "sha256": "74dc045b3d8f724f366d8fe955e1f958c8c02fa3da156036bb4538a4a425bcf4",
+          "byte_equal": true
+        },
+        {
+          "path": "results/bit-six-receiver-cross-chart-carriers/point-backed/output/WORD.json",
+          "sha256": "5a5b6fccb2a1aa76d68a6f2794194161cc25372cdecba2b8c280c5ad3e4e3141",
+          "byte_equal": true
+        }
+      ]
+    },
+    {
+      "label": "cross-chart",
+      "script_sha256": "78454a0967439b113a94214831bfa1facbe9f17523a42b0d1a173786c51c771f",
+      "outputs": [
+        {
+          "path": "results/bit-six-receiver-cross-chart-carriers/cross-chart/output/RESULT.json",
+          "sha256": "0e898894ad8548bab9aee320f30eb91b2f61bec0a88a00cdb629d7f9ec954e79",
+          "byte_equal": true
+        },
+        {
+          "path": "results/bit-six-receiver-cross-chart-carriers/cross-chart/output/WORD.json",
+          "sha256": "d3294c887cb7134e9b5449e8f89105b382aacd7cf620cec65cb4d75357e79a2a",
+          "byte_equal": true
+        }
+      ]
+    },
+    {
+      "label": "global-gate",
+      "script_sha256": "e9ae4569bad85c8ec56a4763599f9d6673adcf85dba8780e13c5dcb707c3fdc6",
+      "outputs": [
+        {
+          "path": "results/bit-six-receiver-cross-chart-carriers/cross-chart/output/GLOBAL-GATE.json",
+          "sha256": "ac6c23b04ae33990a550fc3c05e8893e0c72459f6d414670692fab4a39ca129d",
+          "byte_equal": true
+        }
+      ]
+    },
+    {
+      "label": "independent-bit",
+      "script_sha256": "7d5ecd497ddd86d9b25cb5485c271d6ccad5bef3f3a1e962b0aef3a23dff95f6",
+      "outputs": [
+        {
+          "path": "results/bit-six-receiver-cross-chart-carriers/review/output/RESULT.json",
+          "sha256": "a71460c0810fb650da72aa61a91a1f3a9c26f08502d8538b4695d399d5bc7eb3",
+          "byte_equal": true
+        }
+      ]
+    },
+    {
+      "label": "complex",
+      "script_sha256": "12217a5dd708c9adb93987eb2d10e23185e279ac3ea46fe0c68e523a370610f3",
+      "outputs": [
+        {
+          "path": "results/complex-spectator-preserving-interface/author/output/RESULT.json",
+          "sha256": "b0215c6371a5f8d226ba13c727203b59630cc67f4e4bc50a73543abdf8055457",
+          "byte_equal": true
+        }
+      ]
+    },
+    {
+      "label": "independent-complex",
+      "script_sha256": "c60f30fa21d7f34d9a6d802258eb1fd387656f8eba47595e2382af62214c2c7f",
+      "outputs": [
+        {
+          "path": "results/complex-spectator-preserving-interface/review/RESULT.json",
+          "sha256": "83fe97199fe9c58c51d56fa3f1eb343e57aea333be812f520b2db5bf5fbbae53",
+          "byte_equal": true
+        }
+      ]
+    },
+    {
+      "label": "independent-parabolic",
+      "script_sha256": "9189bbcb566b42a25382a4c91fbc8ef361a9e4168c9a306f40d36a5f1b73a8ee",
+      "outputs": [
+        {
+          "path": "results/complex-spectator-preserving-interface/review/PARABOLIC-RESULT.json",
+          "sha256": "fcf22d9c0ffa8e75d4e801b0bfe2f116a60926caf92b84b44df4264d9c7fb77f",
+          "byte_equal": true
+        }
+      ]
+    }
+  ]
+}

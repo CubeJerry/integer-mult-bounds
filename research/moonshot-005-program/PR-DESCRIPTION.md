@@ -1,5 +1,11 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+## S022 checkpoint 2
+
+[Two simultaneous BIT words](results/bit-six-receiver-cross-chart-carriers/ADMISSION.md) implement six receiver corrections with fully shared source histories. The cheaper word replaces five point backups with five original carriers and leaves 8.91882842470… limiting movement room. [The same-plus complex proof](results/complex-spectator-preserving-interface/ADMISSION.md) excludes every spectator-preserving first interstage repair in the stated ordinary model. Its all-input quartic benchmark supplies an exact component, while independent endpoints remain open. No new κ.
+
+Seven focused checks rebuild nine complete scientific outputs. [Portable replay](sessions/2026-11-17-S022/reproduce_cp2.py) · [Validation hashes](sessions/2026-11-17-S022/CHECKPOINT2-VALIDATION.json).
+
 ## S022 contribution
 
 [Nonlinear 95-receiver proof](results/bit-induced95-nonlinear-witnesses/PROOF.md) proves 9b nonlinear broadcast records on the 95 remaining receivers of the three actual source words. With disjoint private arrivals the future counts are 17, 34 and 51. Exactly 194 six-dimensional native spans meet all 838 tight witnesses, restricting equality delivery. The [reproduction receipt](sessions/2026-11-17-S022/CHECKPOINT1-VALIDATION.json) distinguishes independent physical and entropy review from the geometric search. No new κ. Credit the S019 Petersen implementation, Blasiak–Kleinberg–Lubetzky, source authors and @CubeJerry. Substantial OpenAI assistance.
