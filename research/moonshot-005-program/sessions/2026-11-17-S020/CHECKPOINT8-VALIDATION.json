@@ -1,0 +1,62 @@
+{
+  "status": "PASS_S020_CHECKPOINT8_FOCUSED_REPRODUCTION",
+  "checks": [
+    {
+      "name": "upward-source",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint8-evidence/C/owned-upward-half-rebase/build.py",
+      "script_sha256": "d5122fa1eed5463a1bd8c3e21cf39125d94909ab80332c74b143dd40d46d79fa",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-upward-source",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint8-evidence/A/review_owned_upward_rebase.py",
+      "script_sha256": "d8297f2c2c0b3ae827a95c88550a0cd82254771256428e72cc3e78b957ee636a",
+      "exit_code": 0
+    },
+    {
+      "name": "fresh-upward-transcript",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint8-evidence/C/upward-rebase-fresh-transcript/check.py",
+      "script_sha256": "786f7fe0109140d60e11f610608ebc583b043ac9963f5b0a15d42c4e5ff6d87a",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-upward-transcript",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint8-evidence/R/upward-transcript-review/check.py",
+      "script_sha256": "ea1bbdb606301f7eeae5c7992f38051bf1cce7438fc24aa0e9695035f70add90",
+      "exit_code": 0
+    }
+  ],
+  "exact_reproductions": [
+    {
+      "path": "C/owned-upward-half-rebase/output/WORD.json",
+      "sha256": "581266484817956c8f6b1dc279291a362ddf00a4c580f25a35f3fe56670c7729"
+    },
+    {
+      "path": "C/owned-upward-half-rebase/output/RESULT.json",
+      "sha256": "06edae4c2840ab948059121ca42f338a0f25aa27097b77ae0406847d1e5cb67c"
+    },
+    {
+      "path": "C/owned-upward-half-rebase/output/CUT-INVENTORY.json",
+      "sha256": "ae5d379d056cc8def5a925fe7517dd2fedd0eeeb4c0fbaf61e2b1b626ca20622"
+    },
+    {
+      "path": "A/owned-upward-rebase-review/RESULT.json",
+      "sha256": "66be92adf7a6ef268aee44df7ad88fac1f042caed076c27d69455ead79c5ae19"
+    },
+    {
+      "path": "C/upward-rebase-fresh-transcript/output/CERTIFICATE.json",
+      "sha256": "82bc9e52988501d516cb0932f6ae4cd142825d24cfa667ed6864ad56c14fbf8c"
+    },
+    {
+      "path": "C/upward-rebase-fresh-transcript/output/INDEPENDENT-CUT.json",
+      "sha256": "9596db0e80150469cd5fd80fc5950475d2ed73acba4cb443bdf1bdd7a9e4c22e"
+    },
+    {
+      "path": "R/upward-transcript-review/output/RESULT.json",
+      "sha256": "d1a953c21ffc92e9167e409f28b3a8c82aab6e797685bf954d6265ca63986ce1"
+    }
+  ],
+  "source_pins_sha256": "0ac06658c240cdaac077d8b60bd32513bf142c48aef42dc2aecf81f59a18b767",
+  "independence": "A independently reconstructs and replays C paid owned-ascent source. C derives the new cut from the old parent map and walks charts separately. Root independently replays all current fields and the exact Shannon witness. Reexecution is not independent proof.",
+  "new_complete_kappa": false
+}

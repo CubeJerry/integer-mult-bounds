@@ -1,0 +1,71 @@
+{
+  "status": "PASS_INDEPENDENT_PAID_OWNED_ASCENT",
+  "word_sha256": "581266484817956c8f6b1dc279291a362ddf00a4c580f25a35f3fe56670c7729",
+  "parent_word_sha256": "91d4a24a995a18ed306b6c657e76e9cac1f14c8077b4143aae94581b50e2eb6e",
+  "all_original_columns": 222,
+  "exact_cut_fields": 420,
+  "literal_whole_word_match": true,
+  "parent_interpreter_agreement": true,
+  "all_X_restored_and_arbitrary_Y_identity": true,
+  "completed_diagonal_outputs": 8,
+  "total_foreign_terms": 484,
+  "stats": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 198,
+      "ADD": 1466,
+      "MOVE": 544,
+      "CLEAR": 198
+    },
+    "movement_profile": {
+      "1": 200,
+      "2": 123,
+      "3": 22,
+      "4": 103,
+      "7": 96
+    },
+    "dirty_CLEAR": 198,
+    "peak_owned": 198,
+    "owned_upward_moves": [
+      {
+        "operation": 2091,
+        "field": "HALF_SERVICE_EXPORT_2",
+        "from": "HALF_SERVICE_P2",
+        "to": "HALF_SERVICE_J3",
+        "gap": 2
+      }
+    ],
+    "owned_downward_profile": {
+      "1": 40
+    }
+  },
+  "independent_moment": {
+    "rational": [
+      "31708698215655656556133028392679782407558763/20000000000000000000000000000000000000000",
+      "792717455391391413903325709816994560188969247/500000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1585.43491078278282780665141963398912037793815",
+      "1585.434910782782827806651419633989120377938494"
+    ]
+  },
+  "independent_added_cost": {
+    "rational": [
+      "503447767390831932695772026649763013510663/250000000000000000000000000000000000000000",
+      "402758213912665546156617621319810410808531/200000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "2.013791069563327730783088106599052054042652",
+      "2.013791069563327730783088106599052054042655"
+    ]
+  },
+  "negative_controls": [
+    "omit_earlier_inverse",
+    "omit_paid_owned_upward_rebase",
+    "omit_remove_actual_half_at_courier",
+    "omit_cross_parity_forward",
+    "omit_native_courier_cleanup",
+    "strict_downward_owner_guard_rejects_turn"
+  ],
+  "scope": "Explicit retained paid nested-owned contract only; public paths remain upward. No source-model edit, no extra descent, no cost dominance or new output claim."
+}

@@ -2416,3 +2416,21 @@ separately verifies all184 literal ADD omissions, prefix bounds and source
 Walsh gauges. Actual independent Gaussian endpoints remain open. Paid owned
 upward reuse and further coupled endpoint work continue for separate review.
 All foundations, both strict suppliers and PR readiness remain open.
+
+
+## 2026-11-17-S020 — checkpoint8
+
+Confirmed parent `2a04c0126e0aaee011c8d1b86b321524e4c54db1`. Admitted one literal paid rank2→4 owned ascent,
+its arbitrary-baseline public exchange, and a new-cut nine-descent information
+bound. Four checks/7 exact outputs pass against32 inherited pins. All420
+fields/222 columns are independently replayed;56 leaked incidences are audited.
+No cost dominance, new completed output, new complete κ or foundation discharge.
+The strict descending-owner submodel is preserved and rejects this paid-turn
+word. Programme work continues through08:06 UTC.
+
+Canonical upstream remains `e54523517d0f03e58352e647c403a5af3e525a57`. New open PR7631 reports a conditional
+.003666272802 under an unimplemented common-U premise; new PR7632 documents
+restricted class-K floors and an endpoint-corrected relay bridge. Their exact
+heads and source-document hashes are recorded. Neither is adopted or treated
+as a discharged foundation. The complex fixed-column gate and Gaussian-dyadic
+prefix classification continue under independent review.

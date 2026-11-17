@@ -91,6 +91,23 @@ direction, with all184 literal ADD omissions independently rejected. The
 remaining linear/quadratic terms still need actual independent Gaussian
 encoders and full endpoint units. [Changed interface](results/complex-anticommuting-prefix-interface/ADMISSION.md).
 
+## Paid owned upward reuse and its fresh information bound
+
+The [literal upward-reuse source](results/bit-owned-upward-half-reuse/ADMISSION.md)
+uses one charged rank2→4 owned ascent to remove an actual half sum from a
+raised courier before a rank-six public exchange. It restores every arbitrary
+baseline and checks all222 columns/420 fields. Its Q0 is1585.434910782782...
+with room36.315969428369... . It has8 completed outputs and484 native foreign
+terms, so it improves neither the16-output frontier nor the parent's cost.
+The strict downward-owner submodel rejects it; the paid nested-owned model
+and all public upward rules are explicit.
+
+The [fresh cut bound](results/bit-post-upward-fresh-transcript/ADMISSION.md)
+audits56 current nonnative incidences, conditions the same16 actual source
+coordinates only for information, and verifies87 unknowns. The exact17/2
+entropy witness still requires9 further descents, leaving27.315969428369...
+after their minimum charges. No old-cut locality or free input grant is used.
+
 ## Evidence, accounting and provenance
 
 Confirmed parent `2711b6c571e7eeda0b64b5966686b59e26c392cc`; canonical upstream last examined `e54523517d0f03e58352e647c403a5af3e525a57`. All changes

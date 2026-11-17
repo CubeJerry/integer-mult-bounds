@@ -1,0 +1,60 @@
+{
+  "inspected_at_utc": "2026-11-17 07:29:20 UTC",
+  "canonical_main_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "pull_requests": [
+    {
+      "number": 7632,
+      "title": "P104: Lean-only floors package (class-K floor, JB bridge, Lemma PG, R25 kill)",
+      "state": "open",
+      "created": "2026-11-17T04:20:28Z",
+      "updated": "2026-11-17T04:20:28Z",
+      "merged": null,
+      "head": "2fefd44da6fbcf07bbdec1cb39afff0003dec1e9",
+      "body": "\nAdds `research/p104-lean-floors-bridge/`: a Lake project (Lean `v4.33.0-rc1`, Mathlib `55b7917b`) with 70+ kernel-checked files. **Nothing here is a kappa claim**; no word, native or score changes.\n\n## What is proved (exact hypotheses in `PROVED.md`)\n- **Unconditional floor, class K only.** Class K fixes the kept stream (mains, hosted/owned moves, INIT/CLEAR, finals, kept rho-rows) and lets helpers be free with strictly ascending moves. `FloorD0.floor_D0_classK`: every class-K word has helper D0 >= 780 * 2 ln 2 >= **1,081.31 per call**. The dual certificate over the 892-row support LP is checked by kernel `decide`; the native's own point is feasible (cost 1,964). The only extra hypothesis is H2 (the exported rows are the family instances). It says nothing about words outside class K.\n- **Conditional JB bounds.** In the relaxed relay model, certificates give 1,713.38 (joint) and 1,431.05 (beta) in JB units. They bound helper D0 only through `V2Bridge`: `1,713.38 <= helperD0 + sum corr` in general; `<= helperD0` when every helper is born at dim 0 and ends at dim 9; beta needs helpers ending at V plus a B1 term per line-born helper. Hypotheses: `IntFeasible`, `hreal` (the helper relay realises every forced pair, a named data hypothesis), and `Accepted` with the chart map. On the #7623 native the correction is about 1,414 against helperD0 = 9,946.29, so these are not floors on that word's D0 without the born/end conditions.\n- **Lemma PG** (char != 2): rank(X-I), rank(X-T+), rank(X-T-) <= 2 imply X^2 = I; `char_two_counterexample` shows 2 != 0 is needed.\n- **R25 kill**: the 546 outer words are impossible in the pinned d = 2 core model (630 = 84 middle + 546 outer by `decide`). Not covered: the 84 middle words and the reduction from a general realisation to the core.\n- Rebuild laws (rank law, hub settle, gauge, swap word) and support lemmas, each with its model in a `.md`.\n\n## native_decide is opt-in\nKernel-only files are in the default target `Nov15` and use only propext, Classical.choice, Quot.sound. The discharge of the joint `IntFeasible` is in the separate library `NativeRoute` (`lake build NativeRoute`), which depends on `Lean.ofReduceBool`; no kernel-only file imports it. The beta native file and a kernel-only cover are not included (see `CHECK.txt`).\n\n## FALSE.md highlights\nLean refuted 11 prose statements from earlier cards (e.g. \"T4 public arrivals only\", \"every op except CLEAR is invertible\", \"M in GL(A) iff determinants are A-units\", the unscaled difference chain) and the uncorrected bridge \"helper D0 >= JB(relay edges)\", with two explicit counterexamples. Corrected forms are proved. A free-endpoint relaxation has value 0 (paper argument, flagged as not a Lean theorem).\n\n## Checking\n`cd research/p104-lean-floors-bridge/lean && lake exe cache get && lake build`. `CHECK.txt` logs file-by-file compiles (0 errors, 0 sorry) with axiom lists; the `lake` route itself was not run there. This is an unregistered package (no `VERIFY.json`), like the other Lean packages, because the build exceeds the registered replay budget. Scripts are not included.\n\nCredit: DreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code. The floors concern the native of our #7623/#7630 line, built on SYLforge's device (#7616, #7620) and rohanarun's signed caller (#7113).\n\n\ud83e\udd16 Generated with [Claude Code](https://claude.com/claude-code)\n"
+    },
+    {
+      "number": 7631,
+      "title": "Conditional \u03ba \u2265 0.003666272802 (>5.415246e-7 over #7627, common U)",
+      "state": "open",
+      "created": "2026-11-17T03:57:54Z",
+      "updated": "2026-11-17T03:57:54Z",
+      "merged": null,
+      "head": "2f1cc8c0f8c281afd2f99aeeeae6153e269f4721",
+      "body": "## Change and mathematical scope\n\nThis direct E4 repair gives conditional **\u03ba \u2265 0.003666272802**, more than **5.415246e-7** above #7627\u2019s full fixed-invoice upper `0.0036657312773679346788340108614613`. It saves one net paid MOVE, adds 21 public ADDs and repairs role 1531\u2019s CLEAR witness while retaining the strict 204-CLEAR source interface.\n\nThe bound assumes one unimplemented common U for both complete private histories, including all reachable residuals, full extents and atomic nonaliasing return. It uses the same 4,000-unit lifetime tariff, 32 scalar services per INIT or CLEAR, normalized coefficient 2^20 and original size, width and precision factors. All five inherited framework assumptions remain. An implementation of U and its implication from the earlier premise remain open.\n\n## Task and overlap\n\nThis refines the P104 E4 mechanism from #7630 onto #7627\u2019s 204-CLEAR word. #7630 applies its seven edits to the 180-CLEAR #7623 lineage and reports a higher conditional \u03ba on that premise. Base `e54523517d0f03e58352e647c403a5af3e525a57`, #7627 head `f9bdd00d3869ef6e82227a9acf4633f102540f54`, #7630 head `6026e87d1cac03eb5bd2aa8524a8f5891dd9934e`. The [P104 discussion](https://github.com/CrocSwap/integer-mult-bounds/discussions/7111) provides the coordination context.\n\n## Validation\n\n- Exact paired 1,569-symbol replay and 1,155 protected comparisons. Independent certificate and rank checks covered all 204 CLEARs per word and public rank 1,501.\n- Native paired validation covered 1,090 chart pairs with 512 forward and 512 adjoint columns each, phase, 19 mutation controls and both physical words.\n- The signed child completed 3,113 generator maps, 104 boundaries, 54 strict and four functional checks. The source resource data were derived from fresh paired native data. The original source catalogue was not rerun.\n- The complete 17-call invoices give paid totals 110,043 \u2192 110,026, rank changes `{2:-17, 3:-17, 5:+17}` and the same 22,461 targets. The matched ordinary bill drops 791,363,500 \u2192 791,355,340 after charging the new ADDs. Both directed price engines confirm the quoted bound. The candidate moment remains negative at \u03ba = 0.00368.\n\nThe archive includes both invoices, the exact-price reproduction commands, the word and certificate outputs, scope-limited integrity checks and independent saved-receipt review. The native observer exited 143 before writing its terminal. The signed supervisor lost its final limit readback when the cgroup disappeared. Separate recoveries bind the completed original runs, with final signed usage from the same systemd journal invocation. Public custody projections retain source hashes while raw host originals remain private. A portable cold scientific replay and human review remain open.\n\n## Credit\n\nDreamingOfClouds for E4 in #7630 and #7621, Rohan Arun for the #7113 signed caller, SYLforge for #7624 and predecessor components, and Clear1nsight for #7626 and #7627. The archive preserves inherited notices and discloses substantial OpenAI Codex and ChatGPT Pro assistance.\n\n## Open next questions\n\nPlease review the conditional bound for frontier eligibility under the explicit common-U premise. The first check is the altered row identities, the 1531 certificate and both committed invoices. Establishing U at the stated tariff and validating an independent cold replay are the remaining dependencies.\n"
+    },
+    {
+      "number": 7630,
+      "title": "P104: seven stop edits + joint hub re-settle on #7623, conditional kappa 0.0036667343458",
+      "state": "open",
+      "created": "2026-11-17T00:29:39Z",
+      "updated": "2026-11-17T00:33:22Z",
+      "merged": null,
+      "head": "6026e87d1cac03eb5bd2aa8524a8f5891dd9934e",
+      "body": "**Conditional \u03ba = 0.0036667343458** (exact crossing 0.00366673434589504230429298346749, official bracket [0.0036667343458, 0.0036667343459]), **\u00d71.00118271 over our open #7623** (\u03ba 0.0036624027915) and \u00d71.00027363 over #7627 (\u03ba \u2265 0.003665731276). #7623's word and invoice are the base data.\n\n**The edits.** Seven paid stops leave #7623's word (`data/edits.json`, base-word coordinates):\n- two TR1 swap-canceller rebirths: helpers 457 and 461 are born at their dim-3 first chart, and while each row is still e_h one canceller (`242 += -1*457`, `10 += -1*461`) sends the token out on a register that ends at V;\n- four re-routes at existing co-presences: helper 382 drops chart 24 (`553 += 1/2*383`), helper 490 drops 725 (`1427 += -1*296`), X main 44 drops 849 (`382 += -1*816`), Y main 176 drops 1065 (twin pickup at 928);\n- one plain deletion of a donor-only stop of Y2 main 902.\n\nEvery ADD/SCALE at the {0} chart and at V is then re-derived jointly and exactly, so all 1,569 rows and end charts equal #7623's. The 180 owned lifetimes, the 47 owned MOVEs, peak 50 and 68 labels are #7623's. S is 1,424 and paid positions go from 110,145 to 110,026. The ordinary bill is 867,014,040, below 10^9. The word has 208,738 events.\n\n**Premises: conditional on the same framework assumptions as #7623** (#7620's five assumptions and its 17\u00b768 banks, over the same 180 CLEARs). The CLEAR contents change with the re-derived hub content, so all 180 CLEARs carry exact certificates under #7620's `verify_certificates` rule.\n\n**Packaging.** The affected-pair census grows from 964 to 981 pairs (+17, none dropped). `check.py` runs the 512 + 512 column tests on all 981 pairs, split over two VERIFY commands, along with `core`, `certificates` (180 CLEARs) and `controls` (14 rejecting, 3 accepting). `price.py` runs the repository's invoice tools. Hashes, census, invoice and bracket are pinned.\n\n**Credit.** Our #7623 and #7621 for the base; SYLforge (#7616, #7620) for the device inside it. DreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code.\n\n\ud83e\udd16 Generated with [Claude Code](https://claude.com/claude-code)\n"
+    }
+  ],
+  "source_documents": [
+    {
+      "path": "research/p104-lean-floors-bridge/PROVED.md",
+      "git_blob_sha": "2ae3d6029bebcef0e3c8564821a6f165c42d4f44",
+      "url": "https://github.com/DreamingOfClouds/integer-mult-bounds/blob/2fefd44da6fbcf07bbdec1cb39afff0003dec1e9/research/p104-lean-floors-bridge/PROVED.md",
+      "inspection": "Read exact source prose; no Lean compilation or theorem admission.",
+      "sha256": "2b0dd726fc4c97c2e78b4907e152ca265da5831a08241d1b8b0d00f6a3e19b81"
+    },
+    {
+      "path": "research/p104-lean-floors-bridge/FALSE.md",
+      "git_blob_sha": "e1d2ef823a32dc0685ca3df281e3891ac34fbaa2",
+      "url": "https://github.com/DreamingOfClouds/integer-mult-bounds/blob/2fefd44da6fbcf07bbdec1cb39afff0003dec1e9/research/p104-lean-floors-bridge/FALSE.md",
+      "inspection": "Read exact source prose; no Lean compilation or theorem admission.",
+      "sha256": "7de2d03f6bf3b5d18c387d9f2bdabeeace83a856968a67b4351f5d847101e489"
+    },
+    {
+      "path": "research/p104-lean-floors-bridge/lean/Nov15/V2Bridge.md",
+      "git_blob_sha": "9576b683a6719e23edd0069354a38b1f05bbe274",
+      "url": "https://github.com/DreamingOfClouds/integer-mult-bounds/blob/2fefd44da6fbcf07bbdec1cb39afff0003dec1e9/research/p104-lean-floors-bridge/lean/Nov15/V2Bridge.md",
+      "inspection": "Read exact source prose; no Lean compilation or theorem admission.",
+      "sha256": "12098424ebef7daf7a40fcfa31a990d71c813820f0aa3f2c52747e77e4ee5190"
+    }
+  ],
+  "selected_certificate_changed": false
+}

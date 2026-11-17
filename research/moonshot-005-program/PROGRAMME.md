@@ -1,6 +1,6 @@
 # Persistent programme toward κ=.005
 
-## Current frontier — S020 checkpoint7
+## Current frontier — S020 checkpoint8
 
 No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
 
@@ -63,6 +63,23 @@ Cprime costs12/12/7 and Q0 costs80/152/120 ADD/SCALE/MONO in each direction,
 including three paid prefix Hadamards. Root independently rejects all184
 literal ADD omissions. Actual independent Gaussian endpoints remain open.
 
+## Paid owned upward reuse and its fresh information bound
+
+The [literal upward-reuse source](results/bit-owned-upward-half-reuse/ADMISSION.md)
+uses one charged rank2→4 owned ascent to remove an actual half sum from a
+raised courier before a rank-six public exchange. It restores every arbitrary
+baseline and checks all222 columns/420 fields. Its Q0 is1585.434910782782...
+with room36.315969428369... . It has8 completed outputs and484 native foreign
+terms, so it improves neither the16-output frontier nor the parent's cost.
+The strict downward-owner submodel rejects it; the paid nested-owned model
+and all public upward rules are explicit.
+
+The [fresh cut bound](results/bit-post-upward-fresh-transcript/ADMISSION.md)
+audits56 current nonnative incidences, conditions the same16 actual source
+coordinates only for information, and verifies87 unknowns. The exact17/2
+entropy witness still requires9 further descents, leaving27.315969428369...
+after their minimum charges. No old-cut locality or free input grant is used.
+
 ## Architecture and retained results
 
 The programme pursues complete chronological BIT delivery and a compatible
@@ -82,10 +99,10 @@ exact scopes in [REGISTERED-RESULTS](REGISTERED-RESULTS.json).
 
 ## Continuity
 
-Confirmed parent `2711b6c571e7eeda0b64b5966686b59e26c392cc`; canonical upstream last examined `e54523517d0f03e58352e647c403a5af3e525a57`.
-S020 continues03:06–08:06 UTC. Six focused checks,11 exact outputs and30
+Confirmed parent `2a04c0126e0aaee011c8d1b86b321524e4c54db1`; canonical upstream last examined `e54523517d0f03e58352e647c403a5af3e525a57`.
+S020 continues03:06–08:06 UTC. Four focused checks,7 exact outputs and32
 inherited pins are recorded. Prior logical records are
-[archived](sessions/2026-11-17-S020/logical-records-before-cp7/PROGRAMME.md).
+[archived](sessions/2026-11-17-S020/logical-records-before-cp8/PROGRAMME.md).
 See [OBLIGATIONS](OBLIGATIONS.md), [VERIFICATION](VERIFICATION.md) and
 [CONTINUATION](CONTINUATION.md). The resulting SHA is confirmed separately;
 no upstream PR is submitted automatically.

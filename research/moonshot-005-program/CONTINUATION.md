@@ -2,7 +2,7 @@
 
 Read the exact remote HEAD of `CubeJerry/integer-mult-bounds`, branch
 `research/moonshot-005-program`, then STATE, PROGRAMME, TARGET-005 and OBLIGATIONS.
-Checkpoint7's confirmed parent is `2711b6c571e7eeda0b64b5966686b59e26c392cc`; its resulting SHA is confirmed
+Checkpoint8's confirmed parent is `2a04c0126e0aaee011c8d1b86b321524e4c54db1`; its resulting SHA is confirmed
 separately. No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
 
 ## Highest-priority constructive problem
@@ -27,8 +27,10 @@ bound gives a fresh9 further descents, leaving29.329760497932... .
 Use actual mode locations and compatible public-Y networks to scale delivery.
 The two source invoices cannot be combined by addition. After each extension,
 audit current fields and receiver charts anew. Clean courier output does not
-erase a half sum retained in another cochart target. A paid owned-upward rebase
-is under separate review; it has no claimed parent cost dominance or new output.
+erase a half sum retained in another cochart target. A paid owned-upward rebase is now independently verified: one gap-two ascent
+and a rank-six public exchange, Q0=1585.434910782782...,8 complete outputs.
+Its fresh56-incidence audit requires9 further descents after the same explicit
+conditioning, leaving27.315969428369... . It has no cost dominance or new output.
 
 ## Complex source and exact next endpoint task
 
@@ -51,8 +53,9 @@ unless accompanied by an exact source-bound universal argument.
 Three native normalizations still add144/288/228; original-width target
 prefixes and every ordinary/body/precision/compiler/ownership/erasure/recursive
 cost remain charged. S020 continues03:06–08:06 UTC on2026-11-17, with final-quarter
-verification/integration active. Six checks,11 exact outputs and30 inherited
-pins are recorded. Canonical main last examined is `e54523517d0f03e58352e647c403a5af3e525a57`; selectively recheck
-upstream near final handoff. Protect updates with exact expected HEAD, never
+verification/integration active. Four checks,7 exact outputs and32 inherited
+pins are recorded. Canonical main last examined is `e54523517d0f03e58352e647c403a5af3e525a57`; the final selective check found new PR7631 and7632, recorded as unadopted
+triage. The changed-column envelope gate and local prefix classification
+remain under independent review at this checkpoint. Protect updates with exact expected HEAD, never
 force-push, and submit no upstream PR automatically. No unconfigured work
 continues after the session.

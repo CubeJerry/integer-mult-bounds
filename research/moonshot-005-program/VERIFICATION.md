@@ -1,5 +1,26 @@
 # Verification ledger
 
+## S020 checkpoint8
+
+Confirmed parent `2a04c0126e0aaee011c8d1b86b321524e4c54db1`. Four focused checks reproduce7 outputs byte for
+byte, with32 inherited dependencies authenticated against checkpoint7.
+[Validation](sessions/2026-11-17-S020/CHECKPOINT8-VALIDATION.json),
+[pins](sessions/2026-11-17-S020/SOURCE-PINS-CP8.json),
+[prior remote receipt](sessions/2026-11-17-S020/CHECKPOINT7-REMOTE-RECEIPT.json).
+A independently reconstructs the paid-ascent word and all420 fields/222 columns.
+C derives its cut from the parent's baseline map; root separately replays
+the exact new cut and106-term entropy witness. Model direction guards and
+all existing ascents/descents are explicit; no frozen checker is changed.
+
+```bash
+python -B research/moonshot-005-program/sessions/2026-11-17-S020/reproduce_cp8.py --repo . --out /tmp/moonshot-cp8
+```
+
+Python3.11+ and SymPy are required. Reexecution is not independent proof.
+The [final upstream triage](sessions/2026-11-17-S020/UPSTREAM-FINAL-TRIAGE.json)
+reads exact PR7631/7632 source/metadata without selecting their claims or
+rerunning Lean. Canonical main is unchanged. No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The programme is ongoing and is not PR-ready.
+
 ## S020 checkpoint7
 
 Confirmed parent `2711b6c571e7eeda0b64b5966686b59e26c392cc`. Six focused checks reproduce11 outputs byte for

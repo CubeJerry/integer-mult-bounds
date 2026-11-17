@@ -1,6 +1,6 @@
 # Exact requirements for κ=1/200
 
-## Current interfaces — S020 checkpoint7
+## Current interfaces — S020 checkpoint8
 
 No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
 
@@ -16,6 +16,23 @@ At t=199/200 the favorable limiting movement allowance remains
 | Earlier fixed complex column |Positive exact units/column, but all completions closed within scope|Change C or column.|
 | New anticommuting Cprime/Q0 |12/12/7 and80/152/120 both directions; literal source cancellation|Actual Gaussian encoder containment, both endpoints and all input columns.|
 | Paid native prefix normalization |Three-native overhead144/288/228|Target-prefix restoration and complete caller costs remain additional.|
+
+## Paid owned upward reuse and its fresh information bound
+
+The [literal upward-reuse source](results/bit-owned-upward-half-reuse/ADMISSION.md)
+uses one charged rank2→4 owned ascent to remove an actual half sum from a
+raised courier before a rank-six public exchange. It restores every arbitrary
+baseline and checks all222 columns/420 fields. Its Q0 is1585.434910782782...
+with room36.315969428369... . It has8 completed outputs and484 native foreign
+terms, so it improves neither the16-output frontier nor the parent's cost.
+The strict downward-owner submodel rejects it; the paid nested-owned model
+and all public upward rules are explicit.
+
+The [fresh cut bound](results/bit-post-upward-fresh-transcript/ADMISSION.md)
+audits56 current nonnative incidences, conditions the same16 actual source
+coordinates only for information, and verifies87 unknowns. The exact17/2
+entropy witness still requires9 further descents, leaving27.315969428369...
+after their minimum charges. No old-cut locality or free input grant is used.
 
 ## Retained exact supplier and accounting contracts
 

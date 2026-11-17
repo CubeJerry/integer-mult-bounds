@@ -1,20 +1,18 @@
-# Proof-dependency map — S020 checkpoint7
+# Proof-dependency map — S020 checkpoint8
 
-No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
+No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The programme is ongoing and is not PR-ready.
 
-| Obligation | Established component | Remaining work and scope |
+| Obligation | Established component | Remaining work |
 |---|---|---|
-| Complete BIT delivery |Sixteen actual diagonal values;95 Ys ground,424 fields.|Finish95 outputs without granting16 globally known raw inputs.|
-| Actual shared-mode service |Four owned exports,7 cochart deliveries, arbitrary-baseline inverse and clean couriers.|Scale from actual raised charts; distinct420-field source, not a free composition.|
-| All current information |16-output cut: fresh9 further descents. Half-service cut: all66 leaks audited and explicit16-input conditioning gives fresh9.|Necessary rooms25.670658... and29.329760... after minimum charges; no nine-move construction.|
-| Owned reuse and direction changes |Information proofs permit arbitrary paid nested owned routes.|New literal upward reuse is under separate review, with full cost required.|
-| Exact older source gates |All-real quadratic noncover excludes exact old rank29/30 source banks.|Do not transfer forcing or bank assumptions unchanged.|
-| Paid ordinary prefix compiler |Source normalizer, arbitrary borrower restoration, actual H_tau words.|Native gauges, target prefixes and full model compiler remain charged.|
-| Changed complex interface |Cprime/Q0 literal units, exact cubic and ordinary kernels, third-row right inverse.|Find actual independent Gaussian encoders and both endpoint units.|
-| Full complex source identity |A cancelling last column with only linear/quadratic terms, all-width algebra.|Complete all input columns; finite envelope screens alone prove no theorem.|
-| Strict suppliers and complete theorem |Both suppliers and outer assembly remain open.|B>.005,U>.005,54 strict inequalities,4 functional constraints and recursion.|
+|Complete BIT delivery|16 completed values,95 Ys ground; fresh9 future descents.|Finish95 outputs from the actual424-field source.|
+|Shared proper-mode delivery|Four exports serve7 raised receivers; arbitrary baselines restored.|Scale from actual charts; distinct420-field source.|
+|Paid owned reuse|One literal gap-two ascent, then rank-six public exchange.|Find profitable repeated reuse; this example has no cost dominance.|
+|Current information|All56 new-cut incidences audited; conditioned87-input witness forces9 future descents.|Minimum-charge room27.315969... is not an executable continuation.|
+|Changed complex source|Cprime/Q0 units and full ordinary/cubic column cancellation.|Independent Gaussian encoders, both endpoint units and all columns.|
+|Local prefix compilation|Paid normalizer and prefix Hadamards.|General exact Gaussian-dyadic prefix classification under separate proof review.|
+|Full theorem|Strict suppliers and outer assembly remain open.|B>.005,U>.005,54 strict inequalities,4 functional constraints and all recursion costs.|
 
-Foundations native_all_columns, owned_erasure, compiler, precision_tape,
-analytic_recovery remain explicit. Every result keeps its exact quantifiers
-in [REGISTERED-RESULTS](REGISTERED-RESULTS.json). The prior dependency map is
-[archived](sessions/2026-11-17-S020/logical-records-before-cp7/OBLIGATIONS.md).
+The fixed changed complex column's exact envelope gate is under independent
+review. No theorem is admitted from that pending package here. All foundations
+native_all_columns, owned_erasure, compiler, precision_tape and analytic_recovery
+remain explicit. [Registry](REGISTERED-RESULTS.json) retains exact quantifiers.

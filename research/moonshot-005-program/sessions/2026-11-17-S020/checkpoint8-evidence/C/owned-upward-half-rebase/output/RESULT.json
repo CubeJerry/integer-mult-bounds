@@ -1,0 +1,75 @@
+{
+  "status": "PASS_LITERAL_OWNED_UPWARD_HALF_REBASE_PENDING_INDEPENDENT_REVIEW",
+  "word_sha256": "581266484817956c8f6b1dc279291a362ddf00a4c580f25a35f3fe56670c7729",
+  "parent_sha256": "91d4a24a995a18ed306b6c657e76e9cac1f14c8077b4143aae94581b50e2eb6e",
+  "cut": 2097,
+  "live_fields": 420,
+  "stats": {
+    "counts": {
+      "INIT": 198,
+      "ADD": 1466,
+      "MOVE": 544,
+      "CLEAR": 198
+    },
+    "movement_profile": {
+      "1": 200,
+      "2": 123,
+      "3": 22,
+      "4": 103,
+      "7": 96
+    },
+    "owned_upward_profile": {
+      "2": 1
+    },
+    "owned_downward_profile": {
+      "1": 40
+    },
+    "peak_owned": 198,
+    "dirty_CLEAR": 198
+  },
+  "new_receiver20_native_terms": 6,
+  "courier96_native_terms": 3,
+  "total_foreign_terms": 484,
+  "completed_diagonal_values": 8,
+  "actual_reused_half_field": "HALF_SERVICE_EXPORT_2",
+  "owned_ascent_gap": 2,
+  "additional_owned_descents": 0,
+  "moment": {
+    "rational": [
+      "3963587276956957069516628549084901/2500000000000000000000000000000",
+      "3963587276956957069516628549085037/2500000000000000000000000000000"
+    ],
+    "decimal": [
+      "1585.4349107827828278066514196339604",
+      "1585.4349107827828278066514196340148"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "108947908285108582318784192198903/3000000000000000000000000000000",
+      "2178958165702171646375683843982693/60000000000000000000000000000000"
+    ],
+    "decimal": [
+      "36.31596942836952743959473073296766666666666666666666667",
+      "36.31596942836952743959473073304488333333333333333333333"
+    ]
+  },
+  "movement_cost_added": {
+    "rational": [
+      "20137910695633277307830881065989/10000000000000000000000000000000",
+      "10068955347816638653915440532997/5000000000000000000000000000000"
+    ],
+    "decimal": [
+      "2.0137910695633277307830881065989",
+      "2.0137910695633277307830881065994"
+    ]
+  },
+  "negative_controls": {
+    "earlier_inverse": "all arbitrary Y and actual partial corrections",
+    "paid_owned_upward_rebase": "actual cochart ADD",
+    "remove_actual_half_at_courier": "all arbitrary Y and actual partial corrections",
+    "cross_parity_forward": "all arbitrary Y and actual partial corrections",
+    "native_courier_cleanup": "all arbitrary Y and actual partial corrections"
+  },
+  "scope": "One explicit paid owned ascent2\u21924 reuses an actual exported half to remove its term from a raised courier. Two public records then meet at6 and exchange native parity information using an earlier two-ADD ground inverse. Zero added descents;8 complete axis values only; no cost dominance or full supplier."
+}
