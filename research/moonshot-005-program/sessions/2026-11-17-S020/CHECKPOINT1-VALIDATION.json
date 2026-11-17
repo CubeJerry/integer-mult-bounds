@@ -1,0 +1,108 @@
+{
+  "status": "PASS_S020_CHECKPOINT1_FOCUSED_REPRODUCTION",
+  "checks": [
+    {
+      "name": "author-source",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint1-evidence/A/build_all54_source.py",
+      "script_sha256": "4534c743a23567ae1f22bafc27f354657a17eaf786bfc61bd2803905501d457b",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-source",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint1-evidence/R/review_all54_source.py",
+      "script_sha256": "037124282b5db7d10d2e86ce0d52021f3458bab483c1c0ba021bc73749129222",
+      "exit_code": 0
+    },
+    {
+      "name": "static-linear",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint1-evidence/C/static54-rank9/check.py",
+      "script_sha256": "93e305f07efedfb5ad18719800ac5135383c03d0dd17a33ad0c55935bc8cec43",
+      "exit_code": 0
+    },
+    {
+      "name": "entropy-dual",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint1-evidence/R/entropy54/check.py",
+      "script_sha256": "f1da4816d7c0b285271735f53158f180b349798788ee67ed428e37f1f45429fc",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-entropy",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint1-evidence/C/entropy54-review/check.py",
+      "script_sha256": "582f534eefdac53c4b4a284c01ce24454969327e13014c8d56270ce75b875e23",
+      "exit_code": 0
+    },
+    {
+      "name": "nine-packet",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint1-evidence/A/check_immutable_code_gate.py",
+      "script_sha256": "c362a5b4528695a189925d110572a2dfefc312764fd0f9f336577483bbee8ab5",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-nine-packet",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint1-evidence/C/immutable-code-review/check.py",
+      "script_sha256": "71d84f2a7a5c9d069a41b06bb69eb217240e71c8da05f58bb2bf24a57ab6ebd3",
+      "exit_code": 0
+    },
+    {
+      "name": "any-packet-flag",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint1-evidence/R/canonical-flag-gate/check.py",
+      "script_sha256": "d79c9d5485f631c32cf71962db5b4905285baeb2a727fa9a32ec3d0fdddef5dc",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-any-packet-flag",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint1-evidence/C/canonical-flag-review/check.py",
+      "script_sha256": "cc35a749f7c77f03388f410d5f63519fba3f65a96d4433b349833e5bd97a4497",
+      "exit_code": 0
+    },
+    {
+      "name": "ordinary-capacity",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint1-evidence/C/ordinary-module-capacity/check.py",
+      "script_sha256": "bcf6d9a8389e619a38b74b5ffe6785409e05b2808ef4542fc804d2a7625351f2",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-ordinary-capacity",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint1-evidence/B/capacity-independent-review/check.py",
+      "script_sha256": "0b58918ce77de3a0a5416a9c424c5aca3289c2a07a363c59b6d7a66703403765",
+      "exit_code": 0
+    }
+  ],
+  "exact_reproductions": [
+    {
+      "path": "A/direct-known57/WORD.json",
+      "sha256": "74fb050a6afb8d8e1b6895b0f092220f8e6852365a7516ef4db2284c43c1a5ee"
+    },
+    {
+      "path": "A/direct-known57/CUT-INVENTORY.json",
+      "sha256": "457ea8f1bf8e6f7aa714e5bafc80ea4d7d522d48654eaf11b1f430dd67b132bc"
+    },
+    {
+      "path": "C/static54-rank9/output/CERTIFICATE.json",
+      "sha256": "efd6a732f9c6cc23de1d4cc4d09db2d30417beea2a55f5e944f57c27918f1002"
+    },
+    {
+      "path": "R/entropy54/output/RESULT.json",
+      "sha256": "01dad89439cfc25b5a608dbcd484d75180aa52a9b125c39c957deaaa6c837342"
+    },
+    {
+      "path": "C/entropy54-review/output/EXPANDED-DUAL.json",
+      "sha256": "cccb7b696bb6947bd7bdc45ef9bccc898faa069c7ebe50844273768834dd6829"
+    },
+    {
+      "path": "A/immutable-code-gate/CERTIFICATE.json",
+      "sha256": "2db8f2c73820c61da196f2cbd6f748c5e804790c47990d2e91e37e366ccbef81"
+    },
+    {
+      "path": "R/canonical-flag-gate/output/CERTIFICATE.json",
+      "sha256": "2dc97667f82a777ec9ff610a48e85781d9c1652ec42234020a833d610555573a"
+    },
+    {
+      "path": "C/ordinary-module-capacity/output/ALGEBRAIC-CONTROLS.json",
+      "sha256": "23c2cdf7212a97f00f4e1a6c48ca3035a0e8ee133612bb01072aa89cc1b92145"
+    }
+  ],
+  "source_pins_sha256": "2c1221ef7daac12529e80f1597848ec29323530a12edac4fde3472660c444e78",
+  "interpretation": "Reexecution confirms frozen evidence. Independent mathematical reviews are separately attributed; rerunning an author checker is not independent proof.",
+  "new_complete_kappa": false
+}

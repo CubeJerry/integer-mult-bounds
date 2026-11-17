@@ -1,5 +1,18 @@
 # Relevant external research and compatibility
 
+## S020 targeted intake — 2026-11-17
+
+Canonical main remains `e54523517d0f03e58352e647c403a5af3e525a57`, selected conditional κ=.00363005817 with five
+foundations. Exact programme baseline is `93b11dd75d7ffda723204bd212e5728cbea95592`. Open[#7630](https://github.com/CrocSwap/integer-mult-bounds/pull/7630),
+head`6026e87d1cac03eb5bd2aa8524a8f5891dd9934e`, reports.0036667343458 in the
+same framework as#7623/#7620. This is metadata/body triage, not source replay,
+accepted certificate or compatibleκ=.005 supplier. No external code is merged.
+
+Blasiak, Kleinberg and Lubetzky's primary paper[Index coding via linear programming](https://arxiv.org/abs/1004.1379v2)
+provides the general entropy-LP method. S020 derives and exactly checks its own
+source-specific17/2 dual. Numerical discovery is not proof. [Intake receipt](sessions/2026-11-17-S020/UPSTREAM-INTAKE.json).
+
+
 ## S017 mid-session check — upstream PR7626
 
 At2026-11-16 08:41:30 UTC canonical main remained e54523517d0f03e58352e647c403a5af3e525a57. Open [CrocSwap/integer-mult-bounds#7626](https://github.com/CrocSwap/integer-mult-bounds/pull/7626), authorClear1nsight, head5987b208bc05d066f01f800a3d88538cb216eccd, advertises conditional κ≥0.003665370499. Its pinned proof moves contact902/1091 from chart618 to373, deleting one MOVE per call: paid17-call total110060→110043, with22461 targets and1424 surplus unchanged. This is under the explicitly stronger, unimplemented common U contract, including full private extent/residuals/atomic return, nonaliasing, tariff4000 lifecycle,32 scalar services, coefficient2^20 and precision cap4096. It does not prove implication from the selected premise or dominance under identical premises. Inherited changed-CLEAR applicability remains unresolved.

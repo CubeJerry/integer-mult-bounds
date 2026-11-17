@@ -2229,3 +2229,33 @@ Baseline is confirmed `28eb8ec0ce6ef5b611ba8c3112328c11aa44d8ed`. Proved actual 
 The exact spectator two-bank reduction was independently verified, then its(4,2) completion was closed by a universal fixed-catalogue S3 theorem. Root extended to the negative sign and B independently reviewed it. The nonregular D8 theorem extends active-prefix gates with ordinary-conjugacy scope retained. Fourteen focused checks and omission controls accompany written proofs.
 
 Correction: native-cached57 KEEP modes occupy rank4 M0_PAIR_COMMON with rank6 duplicates, not the older rank5 M1. Actual scientific words/proofs are unchanged. Next wave: direct-known57/all54-low source and physical delivery, scalar fitting-rank obstruction, same-sign module capacity, and genuine third-bank or different-profile completion. Session remains active until its requested end. No new κ/PR readiness. Resulting SHA is recorded separately after remote confirmation.
+
+
+## 2026-11-17-S020 — checkpoint1
+
+Five-hour session started03:06UTC, planned end08:06UTC; confirmed starting
+HEAD `93b11dd75d7ffda723204bd212e5728cbea95592`. Canonical main `e54523517d0f03e58352e647c403a5af3e525a57` and selected conditionalκ unchanged.
+Recovered exact remote S019 checkpoint3; later unpublished claims were not
+assumed. Static54 and ordinary-capacity proofs are independently reconstructed.
+
+Admitted all54-held source with57 outputs,111 native caches and movement
+1597.494093397153... . Root separately replayed222 columns,408 cut fields
+and seven omissions. C proved all-field fitting rank>8m. Root derived the exact
+106-term nonlinear17/2 certificate; C independently rederived it and both
+physical cut applications. At least9 future downward transfers are needed,
+distinct from the existing8-lifetime gate.
+
+A's nine-packet geometry and root's arbitrary-bank flag theorem received
+independent C review. Any finite unchanged canonical Hub bank fails this source
+budget by>1.534825848137 within the no-other-inward-channel scope. Construction
+pivots to full111 quartet compression and mutable/earlier delivery. C's ordinary
+capacity theorem is independently reviewed by B/root; three Klein plus sectors
+give a constructive split while two same-plus sectors do not. B's dyadic unit
+has C review and awaits checkpoint2; full coupledQ remains open.
+
+Eleven focused checks pass, eight outputs match exactly and six inherited
+dependencies match baseline Git blobs. Compact current records retain archived
+prior bytes; all registered results/scientific pins remain. Session continues
+toward08:06UTC on concrete decoder and coupled complex construction. No new
+completeκ, foundation discharge, selected certificate change or PR-readiness
+claim. Resulting SHA is recorded separately after remote confirmation.
