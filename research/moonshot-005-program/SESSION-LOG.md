@@ -2259,3 +2259,39 @@ prior bytes; all registered results/scientific pins remain. Session continues
 toward08:06UTC on concrete decoder and coupled complex construction. No new
 completeκ, foundation discharge, selected certificate change or PR-readiness
 claim. Resulting SHA is recorded separately after remote confirmation.
+
+
+## 2026-11-17-S020 — checkpoint2
+
+Confirmed parent `fefc874d6550c1f16ef555a786eb576c8dc02463`; checkpoint1 was published nonforced with 76 explicit
+paths and its exact full Git tree independently reconstructed. Its confirmed
+receipt is now retained. Canonical upstream and selected conditional κ are
+unchanged from the session intake. Session remains active toward 08:06 UTC.
+
+Admitted three independently replayed full-variable quartet sources, including
+28 actual rank-three half sums in the hierarchy and the required upper-before-
+lower inverse. The ground cuts leave 9.0996/8.3561 movement units. Root proved
+the common-support17 code gate; A independently verified it. Root's full
+canonical-plus-half-sum code has exact fitting charge 96; A independently
+enumerated 312384 affine-fibre rows. The physical upper caps are 56/55 for
+monotone public routes, counting ALL future positive owned moves. General coded
+directions and changed timing remain outside the exclusions.
+
+A constructed the actual four-plane correction front end, supplying 174 foreign
+coefficients to 29 Ys and restoring every participating X and courier. C used
+wholly separate geometry, all-column replay and tariffs to accept it. Its
+movement overhead is 1.492674599844... above direct public routes, but the Ys
+are now at rank three and have no free later ground access. A larger four-gadget
+layer covering 103 Ys is author work pending independent admission.
+
+B's actual Klein first interface and C's independent review are admitted with
+literal inverses, phase-correct kernels and primitive bills. Components overlap
+D/2. A transferred-kernel second interface and endpoint limitations are active
+next-wave work. No independent Gaussian caller is inferred.
+
+Fourteen focused checks pass; 28 outputs match exactly; eight inherited source
+dependencies match baseline Git blobs. Prior logical records and all scientific
+pins are retained. The old coordinate base receipt is preserved separately from
+its strengthened support17 receipt. Both strict suppliers, all foundations and
+full outer assembly remain open. No new complete κ or PR readiness. The
+resulting commit SHA is recorded separately after remote confirmation.

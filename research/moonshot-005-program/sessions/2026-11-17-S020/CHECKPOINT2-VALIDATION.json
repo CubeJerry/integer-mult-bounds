@@ -1,0 +1,207 @@
+{
+  "status": "PASS_S020_CHECKPOINT2_FOCUSED_REPRODUCTION",
+  "checks": [
+    {
+      "name": "author-hub",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint2-evidence/A/build_quartet_compression_source.py",
+      "script_sha256": "27b76e0df07320dbe1128a2aacb4855cbda1a4b2f57eba6ce472401fcdbd5068",
+      "exit_code": 0
+    },
+    {
+      "name": "author-ground",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint2-evidence/A/build_quartet_compression_source.py",
+      "script_sha256": "27b76e0df07320dbe1128a2aacb4855cbda1a4b2f57eba6ce472401fcdbd5068",
+      "exit_code": 0
+    },
+    {
+      "name": "author-hierarchy",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint2-evidence/A/build_hierarchical_quartet_source.py",
+      "script_sha256": "e84604d137cd029e0a88616e58a54cb607b316ec3e8c5d950f59d221875cb337",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-hub",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint2-evidence/R/review_quartet_sources.py",
+      "script_sha256": "b21e5532b185d1404823ca7beea469dd16530dabd08265c7fe92f4cca22b93c8",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-ground",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint2-evidence/R/review_quartet_sources.py",
+      "script_sha256": "b21e5532b185d1404823ca7beea469dd16530dabd08265c7fe92f4cca22b93c8",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-hierarchy",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint2-evidence/R/review_quartet_sources.py",
+      "script_sha256": "b21e5532b185d1404823ca7beea469dd16530dabd08265c7fe92f4cca22b93c8",
+      "exit_code": 0
+    },
+    {
+      "name": "coordinate-gate",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint2-evidence/R/canonical-coordinate-gate/check.py",
+      "script_sha256": "ef35b7ad389063c84fa26a0d7854d9c9da38fbd0315b4ed6198bb80bbfcc3425",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-coordinate-gate",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint2-evidence/A/check_fixed_cut_raw_extension_gate.py",
+      "script_sha256": "1898104209729f75ae19d1c9d9e68d994889884851078efef668de11420d4cf3",
+      "exit_code": 0
+    },
+    {
+      "name": "half-sum-gate",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint2-evidence/R/half-sum-code-gate/check.py",
+      "script_sha256": "85d621c15c4512e8a1d473b2d6e08610c0b54672730ae44c6dda450f6794c492",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-half-sum-gate",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint2-evidence/A/review_half_sum_gate.py",
+      "script_sha256": "dd3cf7edc4b13fb3fb8beac6faad218b66d089c3146fe342cebf7ca1f3ae69ed",
+      "exit_code": 0
+    },
+    {
+      "name": "klein-interface",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint2-evidence/B/klein-three-bank-interface/check.py",
+      "script_sha256": "edbd8354c1473a91fa14e1c58d48d9035478043d5a2112422a76369894e426be",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-klein-interface",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint2-evidence/C/klein-interface-review/check.py",
+      "script_sha256": "410c8426e31bc60e76d88095b2ef568c766b46f6dd5a66ff9e8ae9a980a542e2",
+      "exit_code": 0
+    },
+    {
+      "name": "author-fourplane",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint2-evidence/A/build_four_plane_correction.py",
+      "script_sha256": "514dfd5f65d028a1bccacc282fff9f51d7ee5e11759d12990e52e7cb27368b33",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-fourplane",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint2-evidence/C/four-plane-review/check.py",
+      "script_sha256": "41b4d0ec79abc43cc32a9b97d8a36fb3805e5602630b07c2f74a5999a281a565",
+      "exit_code": 0
+    }
+  ],
+  "exact_reproductions": [
+    {
+      "path": "A/quartet-source-hub/WORD.json",
+      "sha256": "0b89346f8db49a1da62739e937ddc011f63c2fae223967569400d687085b2929"
+    },
+    {
+      "path": "A/quartet-source-hub/CUT-INVENTORY.json",
+      "sha256": "5f3cb94e56be9da0d5c3a80a11df35da14f9a70bd1af48f41503602c7c1335b0"
+    },
+    {
+      "path": "A/quartet-source-hub/RESULT.json",
+      "sha256": "27d3e2c3993197c08e9e870cc30bbb3e305b204f6a34f32631b57a15dae9b2a1"
+    },
+    {
+      "path": "A/quartet-source-ground/WORD.json",
+      "sha256": "ccb08f86b54924ae4f2af1a5647750ef00294666f3e8a80ec77761d8e1dc526d"
+    },
+    {
+      "path": "A/quartet-source-ground/CUT-INVENTORY.json",
+      "sha256": "c67d565ce3f3f237c5c4372d1b4df6b0408655439370d7cc75d16acecb9b85c3"
+    },
+    {
+      "path": "A/quartet-source-ground/RESULT.json",
+      "sha256": "01d149968d469e659f65add632ce8a0d54a55ae2492ecd518430eb2d3a1884f9"
+    },
+    {
+      "path": "A/hierarchy-source-ground/WORD.json",
+      "sha256": "318729fac41fa7871d1e74d440c5af977775655b6eb392ce6f9c1b66ee131176"
+    },
+    {
+      "path": "A/hierarchy-source-ground/CUT-INVENTORY.json",
+      "sha256": "f62696a0e1c3cb925bf37df066feecd40e7bb2d7f1c93147753aa99a6979fbde"
+    },
+    {
+      "path": "A/hierarchy-source-ground/RESULT.json",
+      "sha256": "e249e71b6d49e98ea6feafd75d0c33818216ae3b00bf81ed2afbcd04c0fba7ea"
+    },
+    {
+      "path": "R/quartet-source-review/hub/RESULT.json",
+      "sha256": "93f23188dad85e17486b8fb25b291fcfe668c6057232ce03a08fbf5aa4abcbee"
+    },
+    {
+      "path": "R/quartet-source-review/hub/SOURCE-CONTRACT.json",
+      "sha256": "398e826df1645d1fa023840ac12cf2d1a3af6c4af007520ddc570c0d5ad98c64"
+    },
+    {
+      "path": "R/quartet-source-review/ground/RESULT.json",
+      "sha256": "b87a43cd9c498b1bd2d1aedfaf735af1f431c1aa755d82a3018a48ef395a700d"
+    },
+    {
+      "path": "R/quartet-source-review/ground/SOURCE-CONTRACT.json",
+      "sha256": "398e826df1645d1fa023840ac12cf2d1a3af6c4af007520ddc570c0d5ad98c64"
+    },
+    {
+      "path": "R/quartet-source-review/hierarchical/RESULT.json",
+      "sha256": "1903d9dc2d50ff69475abcba01f2b82e4f44e3cd396df993a8ec2c8349441842"
+    },
+    {
+      "path": "R/quartet-source-review/hierarchical/SOURCE-CONTRACT.json",
+      "sha256": "ec46d03226d69da3cad894248574875f2e7be812e275654608ac287311f5d7a2"
+    },
+    {
+      "path": "R/canonical-coordinate-gate/output/CERTIFICATE.json",
+      "sha256": "eaae4fff3cfa6682f0c54ee86819c8838c291ad6b7313209a2bcd47ff8e786f6"
+    },
+    {
+      "path": "A/coordinate-gate-reproduction/FIXED-CUT-RAW-EXTENSION-REVIEW.json",
+      "sha256": "1a6d04a340f12d0d8dbf98f5ec58de94cadfcc98a4669b94b5387e85eadf81e5"
+    },
+    {
+      "path": "R/half-sum-code-gate/output/CERTIFICATE.json",
+      "sha256": "2f944416d5287cafad770ddbb1a1e22dd6f00105a4b00d025eb70594e5414d95"
+    },
+    {
+      "path": "A/half-sum-gate-review/RESULT.json",
+      "sha256": "1540948483c56e79ee5c23949107a0a3fb4adb2f508f25f86b5d4db1f90773e3"
+    },
+    {
+      "path": "B/klein-three-bank-interface/WORDS.json",
+      "sha256": "7d54915d3b13d54aae4030a78ab8848d81225a6115f581e7306a90877066eeeb"
+    },
+    {
+      "path": "B/klein-three-bank-interface/RESULT.json",
+      "sha256": "3b2265cd9afba218c97c26fe51ae150b333c78ed6f28d5eb329f2b86a1378000"
+    },
+    {
+      "path": "C/klein-interface-review/output/CHARACTERS.json",
+      "sha256": "5d867fc809825c3a23646851238c693a9e86314f70b73cbce642e627fea249b4"
+    },
+    {
+      "path": "C/klein-interface-review/output/TABLES.json",
+      "sha256": "5145acab526e258c8c26e4292ded767e6392da741e4b3361d35ef09970f275bd"
+    },
+    {
+      "path": "A/four-plane-correction/WORD.json",
+      "sha256": "6270dfd9df015e8573066afedc32e22adac8dec5da499c5b566f4bcbe539ad9d"
+    },
+    {
+      "path": "A/four-plane-correction/RESULT.json",
+      "sha256": "ebb0fa4fd40aec5e32d7b997becea870aeb8f5f5eafada368f2e3f47c22a97a0"
+    },
+    {
+      "path": "A/four-plane-correction/CUT-INVENTORY.json",
+      "sha256": "856708db92f8e9521d0fc2bbc3ed001ec688e2049570703d73f70c08d1d54399"
+    },
+    {
+      "path": "C/four-plane-review/output/RESULT.json",
+      "sha256": "fd954fbb782bd93241c3010156ee39b269660b916d6380fade1fa75a8ad724f3"
+    },
+    {
+      "path": "C/four-plane-review/output/INDEPENDENT-CUT.json",
+      "sha256": "6caa35d24ef572cbe33ddae3d167216bffc4432f0e9f812804bef3632962c353"
+    }
+  ],
+  "source_pins_sha256": "f90cdd30662a67dc469074e805ff0ef05e576d309f702d245c088f5e337afcc8",
+  "independence": "Source author A is reviewed by root. Root code gates are independently reviewed by A using different elimination/enumeration. B Klein interface is reviewed by C without B engine imports. Reexecution itself is not independent proof. A four-plane correction is independently reviewed by C using wholly separate geometry and replay.",
+  "new_complete_kappa": false,
+  "execution_note": "Twelve initial focused checks and two subsequent four-plane checks ran in separate fresh directories; current frozen script hashes and all 28 outputs are verified. The preserved earlier base-coordinate receipt is distinct from the later support17 receipt used in exact reproduction."
+}

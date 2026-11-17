@@ -1,0 +1,75 @@
+{
+  "actual_Hub_originals": 64,
+  "actual_half_sums": 0,
+  "all_noncanonical_local_fields_native_supported": true,
+  "canonical_rank": 9,
+  "cut": 893,
+  "interpreter_sha256": "e975bdc474ddd239ab7c302b186123fa2c9fbe796ac7a206705ef26d0d86c0ff",
+  "kind": "hub",
+  "live_fields": 342,
+  "mixed_held": 0,
+  "moment": {
+    "decimal": [
+      "1541.395989740492769016196765858999943332",
+      "1541.395989740492769016196765858999943657"
+    ],
+    "rational": [
+      "385348997435123192254049191464749985833/250000000000000000000000000000000000",
+      "1541395989740492769016196765858999943657/1000000000000000000000000000000000000"
+    ]
+  },
+  "necessary_room": {
+    "decimal": [
+      "80.3548904706595862300493845079950426811666666666666666666667",
+      "80.354890470659586230049384507995043222"
+    ],
+    "rational": [
+      "482129342823957517380296307047970256087/6000000000000000000000000000000000000",
+      "40177445235329793115024692253997521611/500000000000000000000000000000000000"
+    ]
+  },
+  "negative_controls": [
+    {
+      "omitted": "native_capture",
+      "operation": 1,
+      "rejected": "cut source changed"
+    },
+    {
+      "omitted": "triangular_encode",
+      "operation": 230,
+      "rejected": "('original restoration', 61)"
+    },
+    {
+      "omitted": "actual_local_code_read",
+      "operation": 531,
+      "rejected": "cut source changed"
+    },
+    {
+      "omitted": "actual_triangular_inverse",
+      "operation": 940,
+      "rejected": "('original restoration', 61)"
+    }
+  ],
+  "raw_held": 47,
+  "scope": "Actual partial all222-column source, blockwise every characteristic-two field/positive width. No receiver completion, free simultaneous access, complete supplier or new kappa.",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "stats": {
+    "all_222_column_endpoints": true,
+    "completed_outputs": [],
+    "counts": {
+      "ADD": 747,
+      "CLEAR": 120,
+      "INIT": 120,
+      "MOVE": 325
+    },
+    "dirty_clear": 120,
+    "movement_profile": {
+      "3": 103,
+      "4": 103,
+      "7": 119
+    },
+    "peak_owned": 120
+  },
+  "status": "PASS_INDEPENDENT_QUARTET_SOURCE",
+  "word_sha256": "0b89346f8db49a1da62739e937ddc011f63c2fae223967569400d687085b2929"
+}

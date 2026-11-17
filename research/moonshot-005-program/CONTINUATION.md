@@ -1,42 +1,41 @@
 # Resume the permanent programme
 
-Read exact remote HEAD of CubeJerry/integer-mult-bounds branch
-research/moonshot-005-program, then STATE, PROGRAMME, TARGET-005 and OBLIGATIONS.
-This checkpoint's parent is93b11dd75d7ffda723204bd212e5728cbea95592; resulting SHAs are recorded separately after
-remote confirmation. No new complete κ. Selected upstream conditional κ remains363005817/100000000000. Completed strict BIT and compatible uniform complex suppliers, full recursion and all five foundations remain open. Ongoing programme, not PR-ready.
+Read exact remote HEAD of `CubeJerry/integer-mult-bounds`, branch
+`research/moonshot-005-program`, then STATE, PROGRAMME, TARGET-005 and OBLIGATIONS.
+Checkpoint2's confirmed parent is `fefc874d6550c1f16ef555a786eb576c8dc02463`. Resulting SHAs are confirmed
+separately; do not embed a self-referential commit hash. No new complete κ. The selected upstream conditional bound remains κ=363005817/100000000000. Both strict suppliers, complete recursive assembly and all five foundations remain open. This programme is ongoing and is not PR-ready.
 
-## Nearest consequential work
+## Nearest mathematical work
 
-The known57/all54-held source is valid, but unchanged canonical Hub payloads
-fail for every finite bank count. Pursue actual full111-variable quartet
-compression and receiver service while originals remain at proper charts, or
-paid mutable/noncanonical delivery. Before admission replay all222 columns,
-every cut field, actual inverse operands and complete cost independently.
-Compare the retained halfclass construction to identify precise novelty.
+Compose the actual earlier receiver-correction layer with global information
+delivery and remaining native foreign corrections. The admitted four-plane
+word serves 29 Ys, now at rank-three query planes, and restores all participating
+X and courier Ys. Do not treat these receivers as ground operands later.
+A four-gadget layer covering all 103 noncoordinate Ys is active author work;
+review it independently before admission. Require one complete chronological
+word, all 222 original columns, actual inverse operands and full charged costs.
 
-Complex work must retain genuine third-bank coupling. The isolated1/two-bank
-(4,2) completion is excluded for both signs. Two same-plus ordinary sectors
-cannot split a bank, while three Klein plus sectors can. The dyadic unit now
-has independent review but awaits checkpoint2. Its Gaussian4/Gaussian2 images
-overlapD/2, so a coupled second interfaceQ remains essential. Require actual
-endpoint units, inverses and full costs; component ranks are not jobs.
+The three quartet sources are independently proved. Their ground cuts leave
+only 9 or 8 further positive owned moves. A common 17-coordinate extension of
+the canonical code requires chi>=94; the canonical-plus-all-half-sums code has
+exact chi=96, but the actual cuts allow only 56 or 55. General coded directions,
+earlier service and nonmonotone public routes remain outside those exclusions.
+The earlier known57 immutable-bank gate remains source-specific.
 
-## Exact boundaries and continuation
+Complex work has a proved actual Klein first interface. Its Gaussian components
+overlap D/2, so independent endpoints require more than component rank. The
+explicit transferred-kernel second interface and its endpoint limitations are
+active work; retain its phase-sensitive ordinary tables and inverse. Do not
+infer a free bank from physical projector rank. Explore a changed second
+interface/first interface only after matching the scoped exclusions.
 
-The static54 linear bound is>8m, not9m. Nonlinear17/2 gives9 whole-record
-messages and9 downward transfers, not9 distinct lifetimes. The flag gate
-excludes every other inward unknown carrier and applies only to its pinned
-canonical source. Source alteration requires a fresh physical audit.
+S020 began 2026-11-17T03:06:00Z and continues toward 08:06:00Z. No background
+execution is configured after the session. Fourteen focused checks and 28 exact
+outputs are recorded in [VERIFICATION](VERIFICATION.md). Scratch WIP is not
+admitted evidence until checked and committed.
 
-S020 began2026-11-17T03:06:00Z and remains active toward08:06:00Z. No background
-execution is configured after the session. Eleven focused commands pass; use
-[VERIFICATION](VERIFICATION.md). No unpublished S019 minrank/capacity proof was
-recovered: the S020 proofs are independently reconstructed. Scratch WIP is not
-evidence until reviewed and committed.
-
-Canonical main last examined:e54523517d0f03e58352e647c403a5af3e525a57; selectedκ=.00363005817. Open#7630 reports
-.0036667343458 in the unchanged framework but is not selected or composed.
-See[intake](sessions/2026-11-17-S020/UPSTREAM-INTAKE.json). Recheck upstream
-selectively and publish with expected-HEAD nonforced protection. The[prior
-continuation](sessions/2026-11-17-S020/logical-records-before-cp1/CONTINUATION.md)
-was stale at startup and is retained as provenance, not current instruction.
+Canonical main last examined is `e54523517d0f03e58352e647c403a5af3e525a57`; selected κ=.00363005817. Open #7630
+was metadata/body triage only, not selected or composed. Recheck upstream
+selectively and publish with expected-HEAD nonforced protection. Preserve
+all historical pins and the five foundational assumptions. No upstream PR
+should be submitted automatically.

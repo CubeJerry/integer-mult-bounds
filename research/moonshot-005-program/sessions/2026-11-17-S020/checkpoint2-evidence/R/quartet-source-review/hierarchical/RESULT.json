@@ -1,0 +1,102 @@
+{
+  "actual_Hub_originals": 64,
+  "actual_half_sums": 28,
+  "all_noncanonical_local_fields_native_supported": true,
+  "canonical_rank": 9,
+  "cut": 1117,
+  "interpreter_sha256": "e975bdc474ddd239ab7c302b186123fa2c9fbe796ac7a206705ef26d0d86c0ff",
+  "kind": "hierarchical",
+  "live_fields": 370,
+  "mixed_held": 28,
+  "moment": {
+    "decimal": [
+      "1613.394820888599209831303167401238098125",
+      "1613.394820888599209831303167401238098459"
+    ],
+    "rational": [
+      "2581431713421758735730085067841980957/1600000000000000000000000000000000",
+      "1613394820888599209831303167401238098459/1000000000000000000000000000000000000"
+    ]
+  },
+  "necessary_room": {
+    "decimal": [
+      "8.35605932255314541494298296575688787916666666666666666666667",
+      "8.356059322553145414942982965756888429"
+    ],
+    "rational": [
+      "2005454237412754899586315911781653091/240000000000000000000000000000000000",
+      "8356059322553145414942982965756888429/1000000000000000000000000000000000000"
+    ]
+  },
+  "negative_controls": [
+    {
+      "omitted": "native_capture",
+      "operation": 1,
+      "rejected": "cut source changed"
+    },
+    {
+      "omitted": "proper_half_sum_capture",
+      "operation": 227,
+      "rejected": "cut source changed"
+    },
+    {
+      "omitted": "lower_triangular_encode",
+      "operation": 242,
+      "rejected": "('original restoration', 63)"
+    },
+    {
+      "omitted": "upper_triangular_encode",
+      "operation": 248,
+      "rejected": "('original restoration', 61)"
+    },
+    {
+      "omitted": "actual_hierarchical_code_read",
+      "operation": 746,
+      "rejected": "cut source changed"
+    },
+    {
+      "omitted": "canonical_descent",
+      "operation": 782,
+      "rejected": "cut source changed"
+    },
+    {
+      "omitted": "actual_upper_inverse",
+      "operation": 1164,
+      "rejected": "('original restoration', 58)"
+    },
+    {
+      "omitted": "actual_lower_inverse",
+      "operation": 1248,
+      "rejected": "('original restoration', 58)"
+    },
+    {
+      "mutation": "lower inverse before upper inverse",
+      "rejected": "('original restoration', 19)"
+    }
+  ],
+  "raw_held": 19,
+  "scope": "Actual partial all222-column source, blockwise every characteristic-two field/positive width. No receiver completion, free simultaneous access, complete supplier or new kappa.",
+  "source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "stats": {
+    "all_222_column_endpoints": true,
+    "completed_outputs": [],
+    "counts": {
+      "ADD": 850,
+      "CLEAR": 148,
+      "INIT": 148,
+      "MOVE": 418
+    },
+    "dirty_clear": 148,
+    "movement_profile": {
+      "1": 84,
+      "2": 103,
+      "4": 84,
+      "5": 19,
+      "7": 119,
+      "8": 9
+    },
+    "peak_owned": 148
+  },
+  "status": "PASS_INDEPENDENT_QUARTET_SOURCE",
+  "word_sha256": "318729fac41fa7871d1e74d440c5af977775655b6eb392ce6f9c1b66ee131176"
+}

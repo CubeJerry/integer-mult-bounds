@@ -1,101 +1,77 @@
-# Construct retained-source interfaces and prove broadcast, delivery and ordinary-sector bounds toward κ = 0.005
+# Draft cumulative contribution: persistent κ=.005 research programme
 
-## Motivation and theorem status
+**Ongoing research; not PR-ready. No new complete multiplication exponent.**
+The selected conditional bound remains κ=.00363005817. No selected certificate
+or canonical source is changed, and no upstream PR is submitted.
 
-This cumulative programme addresses the gap between an algebraic code and a
-complete physical multiplication supplier. Target κ=1/200 requires completed
-strict BIT and compatible uniform complex savings, full recursive interfaces
-and unchanged source/ownership/precision/compiler accounting. No new complete κ. Selected upstream conditional κ remains363005817/100000000000. Completed strict BIT and compatible uniform complex suppliers, full recursion and all five foundations remain open. Ongoing programme, not PR-ready.
+## Problem and architectural direction
 
-This is one evolving construction. Actual chronological sources and exact
-geometric/module constraints determine which completions remain viable. The
-current checkpoint contributes a cheaper retained-source interface, sharp
-static broadcast information, a geometry-sensitive delivery exclusion and
-an ordinary capacity theorem. These enabling lemmas and constraints do not
-assemble a complete new multiplication theorem.
+The target requires both a completed uniform BIT supplier and a compatible
+uniform complex supplier strictly above .005, followed by the complete outer
+assembly. Cheap algebraic code acquisition has not yet supplied a chronological
+BIT decoder, and favorable Gaussian component ranks have not yet supplied
+independent ordinary endpoint jobs. The programme develops actual source and
+interface words while proving precise limits on their possible completions.
 
-## Actual source and exact information bounds
+## Current reviewed progress
 
-The[all54-held source](results/bit-all54-held-source/ADMISSION.md) acquires54
-independent masked directions at Hub while every unfinished raw original
-remains at rank two. It preserves57 outputs,111 actual native caches, nine
-masked canonical fields and nine actual ground corrections. All original X
-values are restored for arbitrary222-column inputs. Its complete partial
-invoice is186 INIT,861 ADD,387 MOVE,186 dirty CLEAR; movement at t=.995 is
-165[1]+108[6]+114[7]=1597.494093397153... . Necessary limiting room is
-24.256786813999... . This changes the old proper-mask contract; compatibility
-is never obtained by dropping a paid source requirement.
+The [quartet source package](results/bit-quartet-canonical-sources/ADMISSION.md)
+constructs full canonical acquisition from encoded original carriers, preserving
+47 proper originals and all 111 native caches. A two-stage variant captures 28
+actual half sums and retains 19 raw rank-three and 28 mixed rank-four originals.
+Every source, inverse operand, input column and closed cost is independently
+replayed. The ground-code variants cost 1612.651269002387... and
+1613.394820888599... against necessary limit 1621.750880211152... . They complete
+zero receivers and have different interfaces from the earlier halfclass source.
 
-The[54-role broadcast package](results/bit-static54-broadcast-bound/ADMISSION.md)
-proves fitting rank>8m over every field/block width by a14-role frame witness.
-Characteristic-two scalar minimum is9. A separate106-term exact Shannon dual
-proves nonlinear entropy>=17/2 records, forcing9 whole-record messages.
-Fresh full-field audits give a fixed-schedule physical consequence:9 future
-strict downward transfers. This is not9m vector minrank,9 lifetimes or9 full
-Hub-ground tariffs. Fractional optimum remains between8.5 and9.
+Two code theorems constrain these actual cuts. The [support17 gate](results/bit-canonical-support17-gate/ADMISSION.md)
+uses the exact native projected-code distance at least 18 to force proper-cover
+charge at least 94. The [half-sum gate](results/bit-half-sum-code-gate/ADMISSION.md)
+proves exact charge 96 for the canonical code plus all 28 half sums; independent
+review exhausts 312384 fitting rows. Both theorems extend to every
+characteristic-two field and every positive block width. Their physical
+applications require normalized information within the stated code spaces and
+monotone public routes, and compare those lower bounds with actual caps 56/55.
+Arbitrary coded directions and earlier source timing remain legitimate escapes.
 
-The[delivery package](results/bit-immutable-canonical-delivery/ADMISSION.md)
-shows why distributing unchanged canonical modes does not complete this source.
-All511 nonzero binary dual supports have real rank at least7, forcing nine
-independent packets to pay at least9[7]. Five coordinate-flag strata have
-canonical ranks1,4,6,7,8; their26 incidence requirement forces any finite
-redundant fixed bank to pay at least26*5^(-1/200). The source plus this floor
-exceeds the allowance by>1.53482584813782097685. Every other inward unknown
-channel is excluded by the hypothesis. Mutable/noncanonical and earlier-source
-methods remain legitimate directions. Active full111 quartet compression is
-not yet admitted in this checkpoint.
+The [four-plane correction](results/bit-four-plane-correction/ADMISSION.md)
+implements an earlier-source escape: 29 receivers each receive six correct
+foreign coefficients through actual rank-two/rank-three routes. Two public-Y
+couriers retain and cancel their arbitrary baselines, all X and both couriers
+are restored, and no owned record moves. Its complete movement moment is
+1540.446268822049..., only 1.492674599844... above direct public routes. It has
+zero completed diagonal outputs. Later code must reach the 29 proper-chart Ys;
+the source and correction words cannot simply be concatenated for free.
 
-## Ordinary sectors and complex construction
+The [Klein complex interface](results/complex-klein-three-bank-interface/ADMISSION.md)
+has actual all-width dyadic unit/inverse words, ordinary transported kernels,
+phase-correct Gaussian gauges and explicit primitive/prefix bills. Its
+Gaussian-four and Gaussian-two component images overlap D/2. Independent
+Gaussian (4,2,1) jobs, a coupled second interface and the complete invoice remain
+unresolved. The [ordinary capacity theorem](results/complex-ordinary-module-capacity/ADMISSION.md)
+separates physical dimension from an ordinary free-bank split, excluding two
+same-plus sectors but admitting a three-Klein split.
 
-The[capacity theorem](results/complex-ordinary-module-capacity/ADMISSION.md)
-uses regular dimension and augmentation for a fixed finite root-four catalogue.
-An actual ordinary split PC=C,DC=I requires r<=tau(P),r<=rank epsilon(P), with
-augmentation rankr at regular equality. Two same-plus involution sectors
-cannot contain a free ordinary bank despite favorable physical dimension;
-same-minus sectors contain none. Three Klein plus sectors do admit an explicit
-split, and complementary plus/minus sectors have an ordinary unit. An actual
-endpoint image must lie in the idempotent range before applying the theorem:
-Gaussian-component rank alone cannot establish this premise.
+Prior reviewed work remains cumulative: the all54-held masked source, all-field
+static rank>8m, nonlinear entropy>=17/2 records, and the finite immutable-canonical
+bank exclusion. Their scopes and qualifications are retained in
+[REGISTERED-RESULTS](REGISTERED-RESULTS.json). The prior description is
+[archived exactly](sessions/2026-11-17-S020/logical-records-before-cp2/PR-DESCRIPTION.md).
 
-This supports genuine three-bank coupling after the retained signed spectator
-S3 theorem excluded the isolated1/two-bank(4,2) completion. A dyadic unit has
-now been independently reviewed for next-checkpoint integration, but its
-Gaussian4/Gaussian2 images overlapD/2. Actual coupledQ, independent endpoints
-and a complete profitable invoice remain open. The optimistic body
-3[1]+6[7]+3[8] versus[25]+[23]+[22] is a necessary screen, not a supplier.
+## Verification and provenance
 
-## Reproduction and provenance
-
-Checkpoint parent: `93b11dd75d7ffda723204bd212e5728cbea95592`. Canonical main: `e54523517d0f03e58352e647c403a5af3e525a57`.
-Six inherited dependencies are authenticated against their baseline Git blobs
-and SHA256 pins in[SOURCE-PINS-CP1](sessions/2026-11-17-S020/SOURCE-PINS-CP1.json).
-Eleven focused checks pass, with eight byte-identical scientific outputs:
-
-```bash
-python -B research/moonshot-005-program/sessions/2026-11-17-S020/reproduce_cp1.py --repo . --out /tmp/moonshot-S020-cp1
-```
-
-Use Python3.11+ with SymPy and a fresh empty output directory. The[ledger](VERIFICATION.md)
-and admissions distinguish independently written proof/replay from author
-reexecution. Controls include missing source/inverse operations, wrong entropy
-signs/terms/graphs, planted source leaks, changed local grants and nonorthogonal
-idempotents. Finite checks do not replace universal arguments; independent
+Checkpoint2 parent is `fefc874d6550c1f16ef555a786eb576c8dc02463`. Fourteen focused checks pass, 28 outputs are
+byte identical, and eight inherited dependencies match exact baseline blobs.
+See [VERIFICATION](VERIFICATION.md) for commands, negative controls, distinct
+author/reviewer roles and source pins. Earlier checkpoint1 has 11 checks and
+eight exact outputs. Reproduction is not independent proof, and independent
 agent review is not human or proof-kernel certification.
 
-## Cumulative contribution, credit and remaining work
-
-Retained earlier contributions include paid source/reset/inverse mechanisms,
-canonical and chronological receiver histories, source-specific cuts, exact
-target accounting, ordinary compilers and signed complex completion gates.
-[Registered results](REGISTERED-RESULTS.json) and the[session log](SESSION-LOG.md)
-preserve their qualifications; the[prior description](sessions/2026-11-17-S020/logical-records-before-cp1/PR-DESCRIPTION.md)
-is archived exactly. New results do not enlarge earlier claims silently.
-
-Credit @CubeJerry, preserved native/canonical/arrival/complex-source authors,
-CrocSwap/integer-mult-bounds#7000/#7001 and their cited predecessors including
-#6916. Blasiak, Kleinberg and Lubetzky supply the general entropy-LP method;
-the exact source certificate is derived here. Prepared with substantial
-OpenAI assistance. All five foundations remain: native_all_columns,
-owned_erasure,compiler,precision_tape,analytic_recovery. Both strict suppliers
-and complete recursive assembly remain unresolved. No upstream PR is submitted;
-a prefilled comparison link awaits actual cumulative PR readiness.
+Credit @CubeJerry, preserved native/canonical/proper-cover/cyclic-history and
+complex-source authors, CrocSwap/integer-mult-bounds #7000/#7001 and their
+predecessors including #6916. The general entropy-LP method is credited to
+Blasiak, Kleinberg and Lubetzky in the relevant admission. Prepared with
+substantial OpenAI assistance. All five foundations remain: native_all_columns,
+owned_erasure, compiler, precision_tape, analytic_recovery. No complete strict
+supplier, outer theorem or unconditional discharge is claimed. A prefilled
+comparison link awaits actual cumulative PR readiness.

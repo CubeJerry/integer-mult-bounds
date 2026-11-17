@@ -1,5 +1,38 @@
 # Verification ledger
 
+## S020 checkpoint2
+
+Confirmed parent `fefc874d6550c1f16ef555a786eb576c8dc02463`. Fourteen focused checks pass, and 28 scientific
+outputs reproduce byte-for-byte. Eight inherited dependencies match SHA256 and
+their exact starting-baseline Git blobs. [Validation receipt](sessions/2026-11-17-S020/CHECKPOINT2-VALIDATION.json),
+[source pins](sessions/2026-11-17-S020/SOURCE-PINS-CP2.json),
+[confirmed checkpoint1 receipt](sessions/2026-11-17-S020/CHECKPOINT1-REMOTE-RECEIPT.json).
+
+| Claim | Independent evidence | Important limit |
+|---|---|---|
+| Three quartet source words |Root separate Fraction/set replay, all 222 columns and every cut field; hierarchy snapshots and wrong-inverse-order control.|Partial source maps, zero completed outputs.|
+| Support17 code gate |A separately eliminates the complete native code and checks all 111 projected distances, source cuts and caps.|One common support set; q is all positive owned moves, not arbitrary payload support.|
+| Half-sum charge 96 |A enumerates all 312384 rows in independently solved rank-33 affine fibres.|All-field/block extension is proved; algebraic minimizers are not physical delivery.|
+| Four-plane correction |C wholly separate rational geometry, 222-column replay, 333-field cut and integer-root tariffs.|29 actual proper-chart receivers; later ground reads are unavailable without routes.|
+| Klein first interface |C separate Q(i) matrices, all four abstract characters, actual source gauges, 68 omitted-ADD controls.|No independent Gaussian endpoint jobs.|
+
+Reproduce with Python 3.11+ and SymPy in a fresh empty output directory:
+
+```bash
+python -B research/moonshot-005-program/sessions/2026-11-17-S020/reproduce_cp2.py --repo . --out /tmp/moonshot-S020-cp2
+```
+
+The optional --only flag supports focused follow-ups; the default runs all 14.
+The recorded validation combines the first 12 checks and two subsequently
+admitted four-plane checks from separate fresh directories. Current frozen
+script hashes and all 28 products are matched. The original base-coordinate
+review receipt is preserved; its later support17 receipt is the comparison
+target. No earlier mathematical evidence was silently overwritten.
+
+Author reexecution is reproduction, not independent proof. Independent agent
+review is not human or proof-kernel certification. Scientific pins and prior
+qualified missing evidence remain cumulative. No new complete κ. The selected upstream conditional bound remains κ=363005817/100000000000. Both strict suppliers, complete recursive assembly and all five foundations remain open. This programme is ongoing and is not PR-ready.
+
 ## S020 checkpoint1
 
 Baseline93b11dd75d7ffda723204bd212e5728cbea95592; canonical maine54523517d0f03e58352e647c403a5af3e525a57. Eleven focused commands pass; eight selected

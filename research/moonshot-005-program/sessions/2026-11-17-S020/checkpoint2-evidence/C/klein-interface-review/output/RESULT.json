@@ -1,0 +1,221 @@
+{
+  "status": "PASS_INDEPENDENT_DYADIC_KLEIN_SOURCE_INTERFACE",
+  "universal_character_sectors_checked": 4,
+  "all_arbitrary_bank_input_words": 4,
+  "ADD_omission_controls": 68,
+  "allwidth_proof": "Literal one-column multiplicative identities lift; collective projector ranks follow character traces. No finite-width extrapolation.",
+  "invoice": {
+    "C": {
+      "prefix_bound": "16",
+      "counts": {
+        "SCALE": 64,
+        "ADD": 32,
+        "MONO": 48
+      },
+      "generator_pass_upper_bound": 64
+    },
+    "C_inverse": {
+      "prefix_bound": "18",
+      "counts": {
+        "SCALE": 64,
+        "ADD": 32,
+        "MONO": 48
+      },
+      "generator_pass_upper_bound": 64
+    },
+    "H": {
+      "prefix_bound": "3",
+      "counts": {
+        "SCALE": 5,
+        "ADD": 2,
+        "MONO": 2
+      },
+      "generator_pass_upper_bound": 2
+    },
+    "H_inverse": {
+      "prefix_bound": "2",
+      "counts": {
+        "SCALE": 5,
+        "ADD": 2,
+        "MONO": 2
+      },
+      "generator_pass_upper_bound": 2
+    }
+  },
+  "source_rank_fraction": "3/4",
+  "kernel_rank_fraction": "1/4",
+  "quartic_residue_image_overlap_fraction": "1/2",
+  "width_controls": [
+    {
+      "width": 1,
+      "bank_dimension": 16,
+      "character_multiplicities": {
+        "1,1": 8,
+        "1,-1": 4,
+        "-1,1": 0,
+        "-1,-1": 4
+      },
+      "source_rank": 12,
+      "kernel_rank": 4,
+      "residue_overlap_dimension": 8
+    },
+    {
+      "width": 2,
+      "bank_dimension": 256,
+      "character_multiplicities": {
+        "1,1": 96,
+        "1,-1": 64,
+        "-1,1": 32,
+        "-1,-1": 64
+      },
+      "source_rank": 192,
+      "kernel_rank": 64,
+      "residue_overlap_dimension": 128
+    },
+    {
+      "width": 3,
+      "bank_dimension": 4096,
+      "character_multiplicities": {
+        "1,1": 1280,
+        "1,-1": 1024,
+        "-1,1": 768,
+        "-1,-1": 1024
+      },
+      "source_rank": 3072,
+      "kernel_rank": 1024,
+      "residue_overlap_dimension": 2048
+    },
+    {
+      "width": 4,
+      "bank_dimension": 65536,
+      "character_multiplicities": {
+        "1,1": 18432,
+        "1,-1": 16384,
+        "-1,1": 14336,
+        "-1,-1": 16384
+      },
+      "source_rank": 49152,
+      "kernel_rank": 16384,
+      "residue_overlap_dimension": 32768
+    },
+    {
+      "width": 5,
+      "bank_dimension": 1048576,
+      "character_multiplicities": {
+        "1,1": 278528,
+        "1,-1": 262144,
+        "-1,1": 245760,
+        "-1,-1": 262144
+      },
+      "source_rank": 786432,
+      "kernel_rank": 262144,
+      "residue_overlap_dimension": 524288
+    },
+    {
+      "width": 6,
+      "bank_dimension": 16777216,
+      "character_multiplicities": {
+        "1,1": 4325376,
+        "1,-1": 4194304,
+        "-1,1": 4063232,
+        "-1,-1": 4194304
+      },
+      "source_rank": 12582912,
+      "kernel_rank": 4194304,
+      "residue_overlap_dimension": 8388608
+    },
+    {
+      "width": 7,
+      "bank_dimension": 268435456,
+      "character_multiplicities": {
+        "1,1": 68157440,
+        "1,-1": 67108864,
+        "-1,1": 66060288,
+        "-1,-1": 67108864
+      },
+      "source_rank": 201326592,
+      "kernel_rank": 67108864,
+      "residue_overlap_dimension": 134217728
+    },
+    {
+      "width": 8,
+      "bank_dimension": 4294967296,
+      "character_multiplicities": {
+        "1,1": 1082130432,
+        "1,-1": 1073741824,
+        "-1,1": 1065353216,
+        "-1,-1": 1073741824
+      },
+      "source_rank": 3221225472,
+      "kernel_rank": 1073741824,
+      "residue_overlap_dimension": 2147483648
+    },
+    {
+      "width": 9,
+      "bank_dimension": 68719476736,
+      "character_multiplicities": {
+        "1,1": 17246978048,
+        "1,-1": 17179869184,
+        "-1,1": 17112760320,
+        "-1,-1": 17179869184
+      },
+      "source_rank": 51539607552,
+      "kernel_rank": 17179869184,
+      "residue_overlap_dimension": 34359738368
+    },
+    {
+      "width": 10,
+      "bank_dimension": 1099511627776,
+      "character_multiplicities": {
+        "1,1": 275414777856,
+        "1,-1": 274877906944,
+        "-1,1": 274341036032,
+        "-1,-1": 274877906944
+      },
+      "source_rank": 824633720832,
+      "kernel_rank": 274877906944,
+      "residue_overlap_dimension": 549755813888
+    },
+    {
+      "width": 11,
+      "bank_dimension": 17592186044416,
+      "character_multiplicities": {
+        "1,1": 4402341478400,
+        "1,-1": 4398046511104,
+        "-1,1": 4393751543808,
+        "-1,-1": 4398046511104
+      },
+      "source_rank": 13194139533312,
+      "kernel_rank": 4398046511104,
+      "residue_overlap_dimension": 8796093022208
+    },
+    {
+      "width": 12,
+      "bank_dimension": 281474976710656,
+      "character_multiplicities": {
+        "1,1": 70403103916032,
+        "1,-1": 70368744177664,
+        "-1,1": 70334384439296,
+        "-1,-1": 70368744177664
+      },
+      "source_rank": 211106232532992,
+      "kernel_rank": 70368744177664,
+      "residue_overlap_dimension": 140737488355328
+    }
+  ],
+  "scope": "C, inverse, H, inverse and source/kernel identities only; Q, independent endpoints and complete supplier costs remain absent.",
+  "new_complete_kappa": false,
+  "source_pins": {
+    "author_words": "7d54915d3b13d54aae4030a78ab8848d81225a6115f581e7306a90877066eeeb",
+    "author_proof": "968790ae82ecfdc979df57508c5220c2a52185db7347369d7092ec916ef0f62d",
+    "gaussian_gauges": "7c654a4de1a78f582781edd216bb863d93f0047c27e343005554b2a06e8dee02"
+  },
+  "controls": [
+    "delete any primitive ADD",
+    "erase Gaussian gauge phases",
+    "erase r2t phases",
+    "wrong active swap",
+    "missing physical character at width 1 reappears at width 2",
+    "collective projector is not tensor projector"
+  ]
+}

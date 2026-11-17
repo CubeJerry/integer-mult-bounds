@@ -1,0 +1,106 @@
+{
+  "status": "PASS_ACTUAL_FOUR_QUERY_PLANE_CORRECTION",
+  "word_sha256": "6270dfd9df015e8573066afedc32e22adac8dec5da499c5b566f4bcbe539ad9d",
+  "source_cut": 435,
+  "source_roles": [
+    0,
+    1,
+    6,
+    7,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "served_receivers": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+  ],
+  "served_count": 29,
+  "foreign_terms_per_served_receiver": 6,
+  "query_population": {
+    "A1": 8,
+    "B1": 7,
+    "A-1": 7,
+    "B-1": 7
+  },
+  "stats": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 111,
+      "ADD": 230,
+      "MOVE": 316,
+      "CLEAR": 111
+    },
+    "movement_profile": {
+      "1": 57,
+      "2": 37,
+      "3": 2,
+      "4": 41,
+      "7": 179
+    },
+    "dirty_CLEAR": 111,
+    "peak_owned": 111
+  },
+  "moment": {
+    "rational": [
+      "77022313441102478323055103999970568694758183/50000000000000000000000000000000000000000",
+      "1540446268822049566461102079999411373895163919/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1540.44626882204956646110207999941137389516366",
+      "1540.446268822049566461102079999411373895163919"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "81304611389102788785144070367583612552751531/1000000000000000000000000000000000000000000",
+      "97565533666923346542172884441100335063302407/1200000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "81.304611389102788785144070367583612552751531",
+      "81.304611389102788785144070367583612552752005833333333333333333333"
+    ]
+  },
+  "negative_controls": [
+    "ground_Y_inverse",
+    "sign_pair_encode",
+    "early_pair_read",
+    "late_pair_read",
+    "axis_sum_read",
+    "original_inverse",
+    "courier_actual_cleanup"
+  ],
+  "scope": "Actual four-plane foreign-correction gadget for29 receivers, with all111 native caches, all222 public columns, all X and courier Y restored. No diagonal output or complete supplier."
+}

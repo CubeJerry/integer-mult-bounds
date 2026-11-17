@@ -1,29 +1,30 @@
 # Exact requirements for κ = 1/200
 
-## Current source and completion picture — S020 checkpoint1
+## Current source and completion picture — S020 checkpoint2
 
-No new complete κ. Selected upstream conditional κ remains363005817/100000000000. Completed strict BIT and compatible uniform complex suppliers, full recursion and all five foundations remain open. Ongoing programme, not PR-ready.
+No new complete κ. The selected upstream conditional bound remains κ=363005817/100000000000. Both strict suppliers, complete recursive assembly and all five foundations remain open. This programme is ongoing and is not PR-ready.
 
-At t=199/200, unchanged limiting movement allowanceA∞=1621.750880211152355246... .
-Finite even multiplicity and every nonmovement expense make the full condition
-stricter. A partial-word margin is never a supplier.
+At t=199/200 the necessary limiting movement allowance is
+1621.750880211152355246... . Finite even multiplicity and every nonmovement
+expense make the full condition stricter. A partial-word margin is not a supplier.
 
-| Exact source or class | Proved requirement | Target implication |
+| Source or scoped class | Verified cost or requirement | Remaining implication |
 |---|---|---|
-| All54-held known57 source |165[1]+108[6]+114[7]=1597.494093397153...|Room24.256786813999...;54 outputs missing.|
-| Same source, finite-alphabet fixed schedule |At least9 downward transfers|Floor1606.494093397153... remains below allowance.|
-| Exactly9 fixed canonical packets |Extra>=9[7]=62.390010576575...|Fails by38.133223762576... within declared scope.|
-| Any finite fixed canonical bank |Extra>=26*5^(-1/200)=25.791612662136...|Fails by1.534825848137... within declared scope.|
-| Two same-plus ordinary sectors |Cannot split a free bank|Physical image dimension is insufficient.|
-| Three Klein plus sectors |Explicit free-bank split|Endpoint independence and complete caller cost remain open.|
+| All54-held known57 source |Q=1597.494093397153...; 54 endpoints missing|At least 9 future downward transfers; fixed canonical banks fail by >1.534825848137... under their stated scope.|
+| One-stage quartet code at Hub |Q=1541.395989740492...|47 raw proper originals; room 80.354890470659... before delivery.|
+| One-stage quartet code at ground |Q=1612.651269002387...|Room 9.099611208764...; at most 9 further positive owned moves.|
+| Two-stage code at ground |Q=1613.394820888599...|28 actual half sums, 19 raw and 28 mixed proper originals; at most 8 further owned moves.|
+| Either ground cut, C+E_S with common size(S)<=17 |Required chi>=94; available chi<=56 or 55|Excluded under normalized-history and monotone-public premises.|
+| Either ground cut, canonical plus all 28 half sums |Exact minimum chi=96|Same scoped exclusion, even with the entire code space granted algebraically.|
+| Actual four-plane earlier correction |Q=1540.446268822049...; 174 foreign terms|29 Ys already at rank three; zero completed diagonal outputs.|
+| Actual Klein first interface |C/C^-1 each 32 ADD,64 SCALE,48 MONO|Components overlap D/2; actual independent endpoints are missing.|
 
-The active full111 quartet source changes the source contract and awaits
-independent admission. It is not composed with the known57 delivery gate.
-The prospective complex invoice is3[1]+6[7]+3[8] against[25]+[23]+[22] for
-independent Gaussian(4,2,1), before every other bill. Gross necessary margin
-is approximately0.560590248972 at t=.995. Component ranks do not establish
-independent jobs. The isolated spectator reduction remains valid but its
-prescribed two-bank completion is excluded for both signs.
+The scalar partial profiles and closed-source moments cannot be added as free
+compatible improvements. They use different locations and public routes. Source
+acquisition, receiver delivery and complete restoration must occur in one word.
+The gross complex (4,2,1) margin is about .560590248972 at t=.995 before other
+bills, comparing 3[1]+6[7]+3[8] against [25]+[23]+[22]. Component rank alone does
+not supply those independent jobs. Both spectator two-bank signs remain excluded.
 
 ## Retained exact supplier and accounting contracts
 

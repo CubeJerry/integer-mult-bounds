@@ -1,0 +1,66 @@
+{
+  "status": "PASS_DYADIC_KLEIN_THREE_BANK_SOURCE_INTERFACE",
+  "universal_group_inverse": true,
+  "all_input_words": 4,
+  "primitive_ADD_omission_controls": 68,
+  "Gaussian_gauge_phase_controls": 2,
+  "width_checks": [
+    {
+      "width": 1,
+      "bank_dimension": 16,
+      "kernel_rank": 4,
+      "source_rank": 12,
+      "residue_image_intersection": 8
+    },
+    {
+      "width": 2,
+      "bank_dimension": 256,
+      "kernel_rank": 64,
+      "source_rank": 192,
+      "residue_image_intersection": 128
+    }
+  ],
+  "invoices": {
+    "C": {
+      "counts": {
+        "SCALE": 64,
+        "ADD": 32,
+        "MONO": 48
+      },
+      "prefix_bound": "16",
+      "generator_pass_upper_bound": 64
+    },
+    "C_inverse": {
+      "counts": {
+        "SCALE": 64,
+        "ADD": 32,
+        "MONO": 48
+      },
+      "prefix_bound": "18",
+      "generator_pass_upper_bound": 64
+    },
+    "H": {
+      "counts": {
+        "SCALE": 5,
+        "ADD": 2,
+        "MONO": 2
+      },
+      "prefix_bound": "3",
+      "generator_pass_upper_bound": 2
+    },
+    "H_inverse": {
+      "counts": {
+        "SCALE": 5,
+        "ADD": 2,
+        "MONO": 2
+      },
+      "prefix_bound": "2",
+      "generator_pass_upper_bound": 2
+    }
+  },
+  "source_engine_sha256": "1d3c798c43b46e1983f4dc80d68e694b93d9cdee206ad4fe4d408e5f5e29ed91",
+  "gaussian_gauge_sha256": "7c654a4de1a78f582781edd216bb863d93f0047c27e343005554b2a06e8dee02",
+  "proof_sha256": "968790ae82ecfdc979df57508c5220c2a52185db7347369d7092ec916ef0f62d",
+  "scope": "Actual all-width first interface and inverse, genuine ordinary kernels and aligned Gaussian4/rank2 source components. Full Q and independent endpoints not supplied.",
+  "new_complete_kappa": false
+}
