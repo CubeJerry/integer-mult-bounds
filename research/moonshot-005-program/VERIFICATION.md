@@ -1,5 +1,19 @@
 # Verification ledger
 
+## S021 checkpoint2
+
+Eight focused executions reproduce nineteen complete scientific JSON outputs.
+The checks independently cover the two-copy algebra and physical source,
+the source-specific cut premises, both sides of the all-profile Cmix review,
+and the native repair/terminal-span premises. Full parsed JSON equality is
+required; byte hashes are also recorded. Universal conclusions rest on the
+reviewed proofs, not finite enumeration alone.
+
+Run `python -B research/moonshot-005-program/sessions/2026-11-17-S021/reproduce_cp2.py --repo . --out /tmp/moonshot-S021-cp2`.
+Receipt: [CHECKPOINT2-VALIDATION.json](sessions/2026-11-17-S021/CHECKPOINT2-VALIDATION.json).
+Author manifests preserve their original pre-review labels; the signed-off
+admission and separate review state the resulting classification.
+
 ## S021 checkpoint1
 
 Three paid native copies now implement the retained F8 interface with existing

@@ -1,0 +1,67 @@
+{
+  "status": "PASS_MIXED_INTERFACE_TOTAL_HEAD_GATE",
+  "scope": "fixed Cmix, arbitrary ordinary Q/endpoints, fixed prefix and finite collective tail catalogue",
+  "formal_coefficient_identities": "checked modulo root-four scalar only; no one-width linear collapse",
+  "source_head_ranks": {
+    "A": 1,
+    "A2": 2,
+    "A3": 3,
+    "A_h_A": 1,
+    "A_h_A2": 2,
+    "m": 3,
+    "q": 2
+  },
+  "witness_nonzero_row_counts": {
+    "m": [
+      8
+    ],
+    "q": [
+      4
+    ]
+  },
+  "positive_endpoint_required_profile": [
+    1,
+    2,
+    3
+  ],
+  "every_endpoint_total_head_rank_at_most": 6,
+  "profiles_total_at_least7_rejected": {
+    "(0, 3, 4)": "zero head: classes1,2 absent force nonunimodular last column",
+    "(0, 4, 4)": "zero head: classes1,2 absent force nonunimodular last column",
+    "(1, 2, 4)": "positive heads: last column requires all classes1,2,3",
+    "(1, 3, 3)": "positive heads: last column requires all classes1,2,3",
+    "(1, 3, 4)": "positive heads: last column requires all classes1,2,3",
+    "(1, 4, 4)": "positive heads: last column requires all classes1,2,3",
+    "(2, 2, 3)": "positive heads: last column requires all classes1,2,3",
+    "(2, 2, 4)": "positive heads: last column requires all classes1,2,3",
+    "(2, 3, 3)": "positive heads: last column requires all classes1,2,3",
+    "(2, 3, 4)": "positive heads: last column requires all classes1,2,3",
+    "(2, 4, 4)": "positive heads: last column requires all classes1,2,3",
+    "(3, 3, 3)": "positive heads: last column requires all classes1,2,3",
+    "(3, 3, 4)": "positive heads: last column requires all classes1,2,3",
+    "(3, 4, 4)": "positive heads: last column requires all classes1,2,3",
+    "(4, 4, 4)": "positive heads: last column requires all classes1,2,3"
+  },
+  "complete_optimistic_price": "3[1]+6[7]+3[8]",
+  "maximum_rank6_target_by_concavity": "3[23]",
+  "strict_deficit_for_every_t_in_open_0_1": true,
+  "deficit_at_199_over_200": {
+    "rational": [
+      "20920513262005285265447851577871/50000000000000000000000000000000",
+      "41841026524010570530895703155757/100000000000000000000000000000000"
+    ],
+    "decimal": [
+      "0.41841026524010570530895703155742",
+      "0.41841026524010570530895703155757"
+    ]
+  },
+  "negative_controls": {
+    "q_has_physical_plus_space_rank12_at_W1": true,
+    "phase_deleted_h_rejects_rank_one_clock": true,
+    "omitted_cubic_term_rejected": true,
+    "omitted_clock2_term_rejected": true,
+    "nonordinary_q_not_asserted_physically_injective": true
+  },
+  "changed_first_interface_excluded": false,
+  "new_kappa": false
+}

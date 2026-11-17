@@ -1,5 +1,13 @@
 # Relevant external research and compatibility
 
+## S021 checkpoint2
+
+No new external theorem or certificate is adopted in this checkpoint.
+The checkpoint1 pinned intake remains the latest examined upstream evidence.
+The new induced95 parity witness is internally derived on the exact remaining
+roles; the general parity/entropy methods retain their prior attribution.
+The selected conditional bound and all five foundations are unchanged.
+
 ## S021 checkpoint1
 
 Canonical main e54523517d0f03e58352e647c403a5af3e525a57 and selected conditional kappa363005817/100000000000 are unchanged. Latest10 PR metadata plus the post-S020 timestamp search show no newer update. No source theorem or foundation discharge adopted. [Exact intake and coverage](sessions/2026-11-17-S021/UPSTREAM-INTAKE.json).

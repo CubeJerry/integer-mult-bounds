@@ -1,4 +1,13 @@
-# Remaining proof obligations — S020 checkpoint10
+# Remaining proof obligations — S021 checkpoint2
+
+## S021 checkpoint2
+
+The changed local F4/F8 compilers are proved. Complete source formation,
+terminal delivery, full caller admission and every foundation remain open.
+The public-only network with ground code I+N and only the specified terminal
+raw caches is excluded even with arbitrary bank mixing. A useful next
+construction must change that source interface. The private/transcript duties
+are separately proved for each literal source; no floor attainment is granted.
 
 ## S021 checkpoint1
 

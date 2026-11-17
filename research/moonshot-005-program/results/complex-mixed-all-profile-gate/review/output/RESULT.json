@@ -1,0 +1,63 @@
+{
+  "status": "PASS_INDEPENDENT_ALL_PROFILE_CMIX_GATE",
+  "sympy": "1.14.0",
+  "author_pins": {
+    "PROOF.md": "c6ad8e957faaec91b6cf9a67e601f60088ccc76bb8f4d1297a596ab0cb931b73",
+    "check.py": "9b64ad117dfde8654099f0756b83f7c06b6874e830b3bb0cd9a04190658ca4d3"
+  },
+  "one_column_source_classes": {
+    "A": 1,
+    "A2": 2,
+    "A3": 3,
+    "A_h_A": 1,
+    "A_h_A2": 2,
+    "m": 3,
+    "q": 2
+  },
+  "q_involution": true,
+  "q_physical_plus_rank_at_width1": 12,
+  "literal_return_verified": true,
+  "formal_coefficients_checked": [
+    "entire first output row",
+    "full ordinary-class matrix",
+    "class3 isolation",
+    "class2 matrix",
+    "class1 after p=-z",
+    "ordered m and q reductions"
+  ],
+  "positive_profile_required": [
+    1,
+    2,
+    3
+  ],
+  "zero_head_high_profiles_excluded": [
+    [
+      0,
+      3,
+      4
+    ],
+    [
+      0,
+      4,
+      4
+    ]
+  ],
+  "total_head_upper_bound": 6,
+  "complete_price": "3[1]+6[7]+3[8]",
+  "largest_concave_target": "3[23]",
+  "price_deficit_t199_over200_interval": [
+    "418410265240105705308957031557489849/1000000000000000000000000000000000000",
+    "52301283155013213163619628944686233/125000000000000000000000000000000000"
+  ],
+  "physical_kernel_control": {
+    "one_width_ordinary_Pauli_terms": 10,
+    "normalized_squared_norm_W1": "0",
+    "same_catalogue_normalized_squared_norm_W4": "11/8"
+  },
+  "example_exact_Gram_control": {
+    "projective_words": 20,
+    "maximum_overlap_squared": "1/4",
+    "sufficient_width_multiple4": 8
+  },
+  "proof_scope": "Arbitrary fixed-prefix matrix coefficients and arbitrary fixed finite root-four collective-tail catalogues, including W-dependent coefficients; uniform endpoints at arbitrarily large W multiples4. Finite physical kernels are retained; no finite-width injectivity assumed. Changed first interfaces and growing catalogues/prefixes are excluded from the theorem."
+}

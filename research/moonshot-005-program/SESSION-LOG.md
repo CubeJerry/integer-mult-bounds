@@ -2471,3 +2471,40 @@ Credit A, C's S020 candidate and scope control, retained predecessors, @CubeJerr
 and substantial OpenAI assistance. [Full proof](results/bit-three-copy-field-compiler/ADMISSION.md).
 
 Next: variable-edge F4, fresh private-region information bounds, complete receiver network and changed complex interface. Resulting commit is recorded separately after remote publication.
+
+
+## 2026-11-17 S021 checkpoint2
+
+Confirmed checkpoint1 remote commit c6cc88d972c898df7c3a32386b160db71fca9f15; exact tree and parent receipt retained.
+
+The two-copy F4 source is independently proved over all 444 original columns
+and 812 current fields. Its movement per paid copy is 1578.8074877841938...,
+matching the three-copy source with fewer ordinary ADDs per copy. Neither
+source completes a new noncoordinate diagonal or supplies the whole caller.
+
+The new source-specific theorem separates four private receiver regions from
+the other 95 receivers. It requires 17b future MOVEs in the linear model,
+or 8b+ceil(17b/2) in the stated nonlinear model. The linear limiting room per
+copy is at most 25.9433924269586... for either compiler source, and
+13.9537726582179... for the single-copy pair source. These are necessary
+screens, not jointly attained constructions.
+
+The fixed complex Cmix interface is closed for every independent endpoint
+profile in its uniform fixed-catalogue model: total head rank is at most six,
+and the optimistic whole native bill already loses. A separate terminal-span
+theorem excludes the proposed public-Y-only native network for arbitrary
+bank mixing under its specified ground-code and terminal-source contract.
+The minimum native-supported rank-three repair remains valid positive algebra.
+
+The next work is actual global packet formation and simultaneous delivery,
+and changed complex interfaces with all columns completed. Induced95 equality
+rigidity and a changed same-plus endpoint column are under separate review.
+No new complete kappa; all five foundations remain; the programme is ongoing
+and not PR-ready.
+
+[Two-copy source](results/bit-two-copy-field-compiler/ADMISSION.md) ·
+[Separated cuts](results/bit-separated-private-transcript/ADMISSION.md) ·
+[All-profile Cmix gate](results/complex-mixed-all-profile-gate/ADMISSION.md) ·
+[Terminal-span gate](results/bit-native-repair-terminal-gate/ADMISSION.md).
+
+Eight focused executions reproduced nineteen scientific outputs. The requested five-hour session remains active through 15:08 UTC. No upstream PR or external message was sent.

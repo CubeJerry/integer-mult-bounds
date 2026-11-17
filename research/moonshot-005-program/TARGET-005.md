@@ -1,4 +1,14 @@
-# Exact target κ=1/200 — S020 checkpoint10
+# Exact target κ=1/200 — S021 checkpoint2
+
+## S021 checkpoint2
+
+For each paid multi-copy source, the new linear future floor is 17b MOVEs,
+leaving at most 25.943392426958550324... limiting movement room per copy.
+The single-copy pair source has at most 13.953772658217913251... room after
+its17-MOVE floor. Nonlinear counts are33 for b=2 and50 for b=3. All finite,
+ordinary, ownership, precision and recursive charges remain additional.
+The fixed Cmix invoice loses for every 0<t<1. The native-repair network's
+favourable m=6 arithmetic is conditional on an architecture now excluded.
 
 ## S021 checkpoint1
 
