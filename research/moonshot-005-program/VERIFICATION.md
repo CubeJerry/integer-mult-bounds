@@ -1,5 +1,9 @@
 # Verification ledger
 
+## S022 checkpoint 5
+
+The [end-to-end reproduction](sessions/2026-11-17-S022/reproduce_cp5.py) rebuilt the full raw opcode stream, checked independently every terminal field on all original basis columns, regenerated the two graph enumerations and the rank-control receipts. [Full validation hashes](sessions/2026-11-17-S022/CHECKPOINT5-VALIDATION.json).
+
 ## S022 checkpoint 4
 
 Seven checks rebuild nine exact scientific receipts and source words, including two independent proof reviews, all 3,131 deletion controls and both prefix-sign sectors. [Replay](sessions/2026-11-17-S022/reproduce_cp4.py) · [Hashes](sessions/2026-11-17-S022/CHECKPOINT4-VALIDATION.json).

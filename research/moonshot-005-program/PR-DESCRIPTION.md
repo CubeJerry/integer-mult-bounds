@@ -1,5 +1,11 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+## S022 checkpoint 5
+
+[An all-111 causal BIT word](results/bit-all111-tight-port-atlas/ADMISSION.md) implements a fully specified partial transfer on 319,680 arbitrary original columns. It covers 6,430 of 6,470 foreign pairs, with individual ranks 0–23 against 240. The [tight-code obstruction](results/bit-tight-atlas-code-obstruction/ADMISSION.md) excludes a common MDS dictionary. The [quotient reduction](results/bit-tight-atlas-quotient-interfaces/ADMISSION.md) characterizes even unrestricted separated source functions and reduces a shared outgoing plane to exact rank inequalities.
+
+The [end-to-end reproduction](sessions/2026-11-17-S022/reproduce_cp5.py) rebuilt the full raw opcode stream, checked independently every terminal field on all original basis columns, regenerated the two graph enumerations and the rank-control receipts. [Full validation hashes](sessions/2026-11-17-S022/CHECKPOINT5-VALIDATION.json).
+
 ## S022 checkpoint 4
 
 [Seven- and eight-receiver sources](results/bit-eight-layered-receivers/ADMISSION.md) use two levels of paid X carriers. The eight-receiver word closes with movement 1614.10793304123… and all 222 input columns preserved or corrected as specified. [The complex gate](results/complex-joint-spectator-additions/ADMISSION.md) proves that even two arbitrary simultaneous active-to-spectator additions cannot make a profitable independent endpoint. A real quadratic job and a half-bank cubic term do coexist on one input.

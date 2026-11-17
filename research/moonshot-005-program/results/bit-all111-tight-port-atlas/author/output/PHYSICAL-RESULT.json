@@ -1,0 +1,238 @@
+{
+  "status": "PASS_CAUSAL_ALL111_FRACTIONAL_MDS_CONTROL",
+  "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "layout_sha256": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+  "paid_binary_native_copies": 1440,
+  "GF64_copies": 240,
+  "original_binary_columns": 319680,
+  "terminal_rows_classified": 319680,
+  "word_format": "u8 opcode + little-endian u32 first + u32 second with no padding; opcodes INIT 1, ADD 2, MOVE 3, CLEAR 4",
+  "stream_sha256": "b6ab5630c5b90f1be4ab07cb1a9ac2f09c13524c0aea6e70028a8023b68f2bef",
+  "operation_count": 44129632,
+  "primitive_counts": {
+    "INIT": 714960,
+    "ADD": 41202832,
+    "MOVE": 1496880,
+    "CLEAR": 714960
+  },
+  "binary_movement_profile": {
+    "1": 799200,
+    "2": 650160,
+    "4": 34560,
+    "8": 12960
+  },
+  "normalized_movement_profile": {
+    "1": "555",
+    "2": "903/2",
+    "4": "24",
+    "8": "9"
+  },
+  "peak_owned": 714960,
+  "dirty_CLEAR": 714960,
+  "phase_counts": [
+    {
+      "phase": "source_parities_from_raw_X",
+      "op": "INIT",
+      "count": 119880
+    },
+    {
+      "phase": "source_parities_from_raw_X",
+      "op": "ADD",
+      "count": 5371625
+    },
+    {
+      "phase": "source_X_Vandermonde_on_actual_lines",
+      "op": "ADD",
+      "count": 7051991
+    },
+    {
+      "phase": "X_line_to_A2_and_pure_snapshot",
+      "op": "MOVE",
+      "count": 159840
+    },
+    {
+      "phase": "X_line_to_A2_and_pure_snapshot",
+      "op": "INIT",
+      "count": 159840
+    },
+    {
+      "phase": "X_line_to_A2_and_pure_snapshot",
+      "op": "ADD",
+      "count": 159840
+    },
+    {
+      "phase": "X_A2_to_D4_and_pure_snapshot",
+      "op": "MOVE",
+      "count": 159840
+    },
+    {
+      "phase": "X_A2_to_D4_and_pure_snapshot",
+      "op": "INIT",
+      "count": 159840
+    },
+    {
+      "phase": "X_A2_to_D4_and_pure_snapshot",
+      "op": "ADD",
+      "count": 159840
+    },
+    {
+      "phase": "X_D4_to_E6_and_pure_snapshot",
+      "op": "MOVE",
+      "count": 142560
+    },
+    {
+      "phase": "X_D4_to_E6_and_pure_snapshot",
+      "op": "INIT",
+      "count": 142560
+    },
+    {
+      "phase": "X_D4_to_E6_and_pure_snapshot",
+      "op": "ADD",
+      "count": 142560
+    },
+    {
+      "phase": "X_E6_to_terminal_and_pure_snapshot",
+      "op": "MOVE",
+      "count": 119880
+    },
+    {
+      "phase": "X_E6_to_terminal_and_pure_snapshot",
+      "op": "INIT",
+      "count": 119880
+    },
+    {
+      "phase": "X_E6_to_terminal_and_pure_snapshot",
+      "op": "ADD",
+      "count": 119880
+    },
+    {
+      "phase": "X_close_and_restore_at_Hub",
+      "op": "MOVE",
+      "count": 159840
+    },
+    {
+      "phase": "X_close_and_restore_at_Hub",
+      "op": "ADD",
+      "count": 7051991
+    },
+    {
+      "phase": "canonical_formation_and_descent",
+      "op": "INIT",
+      "count": 12960
+    },
+    {
+      "phase": "canonical_formation_and_descent",
+      "op": "ADD",
+      "count": 770400
+    },
+    {
+      "phase": "canonical_formation_and_descent",
+      "op": "MOVE",
+      "count": 12960
+    },
+    {
+      "phase": "canonical_preload_and_inverse_Y_decoder_ground",
+      "op": "ADD",
+      "count": 7780720
+    },
+    {
+      "phase": "Y_native_line_visits_and_encoded_source_reads",
+      "op": "MOVE",
+      "count": 119880
+    },
+    {
+      "phase": "Y_native_line_visits_and_encoded_source_reads",
+      "op": "ADD",
+      "count": 119880
+    },
+    {
+      "phase": "Y_A2_arrivals",
+      "op": "MOVE",
+      "count": 142560
+    },
+    {
+      "phase": "Y_D4_arrivals_and_actual_split_X_handoffs",
+      "op": "MOVE",
+      "count": 159840
+    },
+    {
+      "phase": "Y_D4_arrivals_and_actual_split_X_handoffs",
+      "op": "ADD",
+      "count": 17280
+    },
+    {
+      "phase": "Y_E6_and_facet_arrivals",
+      "op": "MOVE",
+      "count": 319680
+    },
+    {
+      "phase": "physical_Y_systematic_decoder_and_pure_X_injections",
+      "op": "ADD",
+      "count": 12456825
+    },
+    {
+      "phase": "all_dirty_retirements",
+      "op": "CLEAR",
+      "count": 714960
+    }
+  ],
+  "milestones": {
+    "all_159840_X_raw_at_Hub_all_159840_Y_pure_ground": {
+      "operation": 21501687,
+      "live_owned": 702000,
+      "live_fields": 1021680
+    },
+    "all_12960_canonical_binary_records_at_ground_Y_untouched": {
+      "operation": 22298007,
+      "live_owned": 714960,
+      "live_fields": 1034640
+    },
+    "all_Y_on_D4_with_retained_X_source_snapshots": {
+      "operation": 30638167,
+      "live_owned": 714960,
+      "live_fields": 1034640
+    },
+    "all_319680_originals_in_final_charts_before_retirement": {
+      "operation": 43414672,
+      "live_owned": 714960,
+      "live_fields": 1034640
+    }
+  },
+  "noncanonical_foreign_pair_rank_GF64_histogram": {
+    "0": 40,
+    "1": 124,
+    "2": 308,
+    "3": 532,
+    "4": 664,
+    "5": 834,
+    "6": 880,
+    "7": 778,
+    "8": 722,
+    "9": 518,
+    "10": 382,
+    "11": 248,
+    "12": 178,
+    "13": 94,
+    "14": 58,
+    "15": 46,
+    "16": 36,
+    "17": 8,
+    "18": 4,
+    "19": 6,
+    "20": 6,
+    "21": 2,
+    "23": 2
+  },
+  "supported_foreign_pairs": 6430,
+  "sum_individual_foreign_pair_ranks": 42840,
+  "required_rank_each_pair": 240,
+  "rank_terms_sha256": "cde65692d1f0e1a1f3f7da3e65cf74d2a4778875043d4652b8dc17ba2ef26f2b",
+  "per_receiver_sum_ranks_range": [
+    344,
+    411
+  ],
+  "foreign_GF64_rectangles_rank_240": false,
+  "complete_native_output_roles": [],
+  "complete_supplier": false,
+  "new_complete_kappa": false
+}

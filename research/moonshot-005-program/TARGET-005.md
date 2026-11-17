@@ -1,5 +1,9 @@
 # Exact target κ=1/200 — S021 checkpoint3
 
+## S022 checkpoint 5
+
+All root, route, paid-closure and record-width restrictions are explicit. At exact capacity, a common MDS dictionary fails for every finite alphabet on the native additive contract. Arbitrary source encoders on binary banks admit quotient coordinates, leaving the choice of mutually compatible subspaces as an algebraic obligation. The strictly larger-capacity variants require fresh proof.
+
 ## S022 checkpoint 4
 
 The eight-receiver construction serves two outer terminals before the six-role core closes. At the actual endpoint 103 individual deficient facets require more arrivals than the remaining room. The complex source with two spectator additions has total head rank at most six. The alternative changes and five foundational assumptions stay open.

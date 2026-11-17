@@ -1,0 +1,5 @@
+# Exact type of every tight source encoder and a rank test for each shared plane
+
+Every separated deterministic donor encoder on the unaugmented native 28-plane source is a group quotient up to output relabelling, provided the complete target sums are realized. This statement drops the common-dictionary restriction. It follows from coset saturation, independent translations, and a compatible receiver at all 3,108 donor-plane flags. On a binary bank the problem therefore reduces to source subspaces.
+
+Given compatible source subspaces, the 45 shared outputs of each fixed active plane have an exact set of joint rank inequalities. They are necessary even for nonlinear output functions and sufficient for a common linear realization after finite scalar extension to a field of size >12. The middle-to-terminal transfer and source-subspace existence remain open. [Source proof](author/SOURCE.md) · [Outgoing-layer theorem](author/MIDDLE.md) · [Small negative controls and native census](author/CERTIFICATE.json) · [Independent argument](review/REVIEW.md). No new κ.

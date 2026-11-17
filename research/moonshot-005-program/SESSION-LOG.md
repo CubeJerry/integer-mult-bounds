@@ -2589,3 +2589,12 @@ Confirmed parent 6cb3c96ce3e0c6677c89cf0037270d18b95ada66. [Seven- and eight-rec
 Seven checks rebuild nine exact scientific receipts and source words, including two independent proof reviews, all 3,131 deletion controls and both prefix-sign sectors. [Replay](sessions/2026-11-17-S022/reproduce_cp4.py) · [Hashes](sessions/2026-11-17-S022/CHECKPOINT4-VALIDATION.json).
 
 Next. Construct and test the all-111 simultaneous BIT transfer across the middle charts, including source-code compatibility, chronology, real original masks, and finite caller costs. On the complex side test the active-to-active block jointly with spectator transport. The next receipt or branch log identifies the resulting commit.
+
+
+## 2026-11-17 S022, checkpoint 5
+
+Confirmed parent b4d7b14a31143f7bd35bff6ec90aa320a43cc958. [An all-111 causal BIT word](results/bit-all111-tight-port-atlas/ADMISSION.md) implements a fully specified partial transfer on 319,680 arbitrary original columns. It covers 6,430 of 6,470 foreign pairs, with individual ranks 0–23 against 240. The [tight-code obstruction](results/bit-tight-atlas-code-obstruction/ADMISSION.md) excludes a common MDS dictionary. The [quotient reduction](results/bit-tight-atlas-quotient-interfaces/ADMISSION.md) characterizes even unrestricted separated source functions and reduces a shared outgoing plane to exact rank inequalities.
+
+The [end-to-end reproduction](sessions/2026-11-17-S022/reproduce_cp5.py) rebuilt the full raw opcode stream, checked independently every terminal field on all original basis columns, regenerated the two graph enumerations and the rank-control receipts. [Full validation hashes](sessions/2026-11-17-S022/CHECKPOINT5-VALIDATION.json).
+
+Next. Realize compatible full-rank native transfers on the same paid all-receiver routes and synchronize their maps to the identity across overlapping donors and receivers, with every real endpoint restored. The next receipt or branch log identifies the resulting commit.

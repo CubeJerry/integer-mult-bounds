@@ -1,7 +1,7 @@
 # Resume the permanent programme
 
-Construct and test the all-111 simultaneous BIT transfer across the middle charts, including source-code compatibility, chronology, real original masks, and finite caller costs. On the complex side test the active-to-active block jointly with spectator transport.
+Realize compatible full-rank native transfers on the same paid all-receiver routes and synchronize their maps to the identity across overlapping donors and receivers, with every real endpoint restored.
 
-[Seven- and eight-receiver sources](results/bit-eight-layered-receivers/ADMISSION.md) use two levels of paid X carriers. The eight-receiver word closes with movement 1614.10793304123… and all 222 input columns preserved or corrected as specified. [The complex gate](results/complex-joint-spectator-additions/ADMISSION.md) proves that even two arbitrary simultaneous active-to-spectator additions cannot make a profitable independent endpoint. A real quadratic job and a half-bank cubic term do coexist on one input.
+[An all-111 causal BIT word](results/bit-all111-tight-port-atlas/ADMISSION.md) implements a fully specified partial transfer on 319,680 arbitrary original columns. It covers 6,430 of 6,470 foreign pairs, with individual ranks 0–23 against 240. The [tight-code obstruction](results/bit-tight-atlas-code-obstruction/ADMISSION.md) excludes a common MDS dictionary. The [quotient reduction](results/bit-tight-atlas-quotient-interfaces/ADMISSION.md) characterizes even unrestricted separated source functions and reduces a shared outgoing plane to exact rank inequalities.
 
 Consult [the exact state](STATE.json), [obligations](OBLIGATIONS.md) and [verification ledger](VERIFICATION.md).

@@ -1,5 +1,11 @@
 # Remaining proof obligations — S021 checkpoint3
 
+## S022 checkpoint 5
+
+Realize compatible full-rank native transfers on the same paid all-receiver routes and synchronize their maps to the identity across overlapping donors and receivers, with every real endpoint restored.
+
+All root, route, paid-closure and record-width restrictions are explicit. At exact capacity, a common MDS dictionary fails for every finite alphabet on the native additive contract. Arbitrary source encoders on binary banks admit quotient coordinates, leaving the choice of mutually compatible subspaces as an algebraic obligation. The strictly larger-capacity variants require fresh proof.
+
 ## S022 checkpoint 4
 
 Construct and test the all-111 simultaneous BIT transfer across the middle charts, including source-code compatibility, chronology, real original masks, and finite caller costs. On the complex side test the active-to-active block jointly with spectator transport.
