@@ -1,0 +1,51 @@
+{
+  "status": "PASS_SAMEPLUS_FIXED_OUTPUT_GATE",
+  "scope": "fixed O and Gaussian heads a4,a2,a; arbitrary ordinary Q,Iin,g,h in fixed finite prefix/tail model",
+  "source_repairs": "C(I+e02(g)+e12(h)), no commutation or invertibility assumptions on g,h",
+  "finite_source_equation_checks": [
+    {
+      "name": "zero",
+      "source_equation3": true,
+      "normalized_coefficients": true,
+      "g_commutes_S": true,
+      "h_commutes_S": true
+    },
+    {
+      "name": "return_and_phase",
+      "source_equation3": true,
+      "normalized_coefficients": true,
+      "g_commutes_S": false,
+      "h_commutes_S": true
+    },
+    {
+      "name": "nonunit_coefficients",
+      "source_equation3": true,
+      "normalized_coefficients": true,
+      "g_commutes_S": true,
+      "h_commutes_S": true
+    },
+    {
+      "name": "prefix_noncommuting",
+      "source_equation3": true,
+      "normalized_coefficients": true,
+      "g_commutes_S": false,
+      "h_commutes_S": false
+    },
+    {
+      "name": "dense_sum",
+      "source_equation3": true,
+      "normalized_coefficients": true,
+      "g_commutes_S": false,
+      "h_commutes_S": false
+    }
+  ],
+  "q_nonzero_entries_per_row": 4,
+  "q_gaussian_rank": 2,
+  "physical_P3_rank_at_reduced_prefix_tail1": 16,
+  "physical_bank_dimension_at_check": 32,
+  "universal_second_Q_column_required_factorization": "(-h,0,I)^T w with w=P w",
+  "universal_column_rank_upper_bound": "D_bank/2, contradicting a whole-bank left inverse",
+  "positive_whole_column_identity_preserved": true,
+  "changed_output_complements_excluded": false,
+  "new_kappa": false
+}

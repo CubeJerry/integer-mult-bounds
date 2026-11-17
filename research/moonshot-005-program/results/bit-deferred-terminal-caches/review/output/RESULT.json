@@ -1,0 +1,124 @@
+{
+  "status": "PASS_INDEPENDENT_ALL888_AND_CHRONOLOGY_REVIEW",
+  "pins": {
+    "native": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+    "geometry": "41b4d0ec79abc43cc32a9b97d8a36fb3805e5602630b07c2f74a5999a281a565",
+    "local": "831ac2f8ba647a50866af61461f9f378c76a443801f372154745520b4caa96fa",
+    "word": "59da0681e8267a07358c3015b587c57d0ea4976d91bed795dd74c5c2c92c2f5f",
+    "author_proof": "b5a1f6d9dc6fdad0ec08383dc0bed7b8e3c73f07bab7d5c4795975f89e88a3f8",
+    "author_builder": "04a658cd9d7ca51ff3ee652106483583ac902f9ae2e1cd9a9e39e2130b5e9e26",
+    "author_lifetimes": "61ee3f0bc2da444cf507de5d431cc3977626b616100373a25f442a001e4dd6b6"
+  },
+  "all_original_columns": 888,
+  "counts": {
+    "ADD": 3210,
+    "MOVE": 1164,
+    "INIT": 44,
+    "CLEAR": 44
+  },
+  "movement_profile": {
+    "1": 12,
+    "2": 228,
+    "5": 232,
+    "6": 4,
+    "7": 652,
+    "8": 36
+  },
+  "directions": {
+    "public_up": 1128,
+    "owned_down": 36
+  },
+  "dirty_CLEAR": 44,
+  "peak_owned": 44,
+  "milestones": {
+    "all_X_restored_before_canonical": {
+      "operations_completed": 1728,
+      "live_fields": 896,
+      "owners": 8,
+      "all_X_raw_at_Hub": true,
+      "all_Y_pure_at_ground": true
+    },
+    "canonical36_at_ground_before_any_Y_move": {
+      "operations_completed": 3940,
+      "live_fields": 932,
+      "owners": 44,
+      "all_X_raw_at_Hub": true,
+      "all_Y_pure_at_ground": true,
+      "canonical_row_rank": 36
+    },
+    "all_public_endpoints_complete": {
+      "operations_completed": 4418,
+      "live_fields": 932,
+      "owners": 44,
+      "all_X_raw_at_Hub": true,
+      "all_Y_pure_at_ground": false
+    }
+  },
+  "stationary_cache_count": 8,
+  "original_cross_read_count": 152,
+  "actual_cache_capture_count": 146,
+  "actual_deferred_cache_read_count": 14,
+  "identical_X_subsequence": true,
+  "all_capture_rows_and_X_prefixes_match": true,
+  "exact_deferred_Y_subsequence": true,
+  "anchor_consolidation_no_intervening_use": true,
+  "full_native_canonical_rank": 9,
+  "actual_ground_canonical_rank": 36,
+  "completed_native_roles_per_copy": [
+    3
+  ],
+  "all_other_Y_exactly_unchanged": true,
+  "normalized_movement_moment": {
+    "rational": [
+      "16114354499717465025497877254374297/10000000000000000000000000000000",
+      "4028588624929366256374469313593647/2500000000000000000000000000000"
+    ],
+    "decimal": [
+      "1611.4354499717465025497877254374297",
+      "1611.4354499717465025497877254374588"
+    ]
+  },
+  "normalized_optimistic_remaining_room": {
+    "rational": [
+      "30946290718217558089375274788571/3000000000000000000000000000000",
+      "123785162872870232357501099154907/12000000000000000000000000000000"
+    ],
+    "decimal": [
+      "10.3154302394058526964584249295236666666666666666666666666667",
+      "10.3154302394058526964584249295755833333333333333333333333333"
+    ]
+  },
+  "independent_negative_controls": [
+    {
+      "mutation": "terminal capture",
+      "omitted_operation": 1268,
+      "reason": "all arbitrary original Y final rows"
+    },
+    {
+      "mutation": "terminal facet visit",
+      "omitted_operation": 1265,
+      "reason": "cocharted actual ADD at 1268"
+    },
+    {
+      "mutation": "X restoration",
+      "omitted_operation": 1727,
+      "reason": "actual full-input milestone"
+    },
+    {
+      "mutation": "canonical supply descent",
+      "omitted_operation": 1786,
+      "reason": "actual canonical source row at ground"
+    },
+    {
+      "mutation": "canonical preload",
+      "omitted_operation": 3940,
+      "reason": "all arbitrary original Y final rows"
+    },
+    {
+      "mutation": "terminal retirement",
+      "omitted_operation": 4422,
+      "reason": "all owners retired"
+    }
+  ],
+  "scope": "Generic source rescheduling lemma under X-only computation and stationary cache permissions; literal one receiver in four separately paid banks. No simultaneous all111 source network, complete supplier, caller construction, or new kappa."
+}

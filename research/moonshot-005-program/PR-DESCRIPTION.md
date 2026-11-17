@@ -1,5 +1,48 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+## S021 checkpoint3
+
+A new stationary-cache lemma resolves canonical preload ordering for a
+compatible X-only receiver circuit. Its literal four-copy control is checked
+on all 888 original columns: eight actual stationary source caches permit
+all X to restore at Hub while every Y remains pure at ground, followed by
+36 real canonical descents. It completes receiver 3 in each copy, with
+Q=1611.4354499717465... per copy. A simultaneous all-receiver X-only network
+is still required; the lemma does not install missing caches retroactively.
+
+For the existing pair/F4/F8 cuts, a new induced-95 rigidity proof classifies
+rank equality. Of 511 canonical directions, 486 have full real support and
+25 have rank-seven support. Exactly 9b receiver-downset events must land at
+ground or on 25 listed lines. A separately reviewed one-copy block tradeoff
+gives p+q<=11, where p counts nonzero destinations and q proper-support
+payloads. Neither result alone supplies a formation tariff.
+
+The new chronological quotient theorem does price a substantial class:
+exactly 9b receiver-downset descents with at most one exterior descent to
+rank four or below cannot fit any of the three current source allowances.
+The per-copy deficits are 12.79755718, 0.80793741 and 0.48405409. Thus a
+viable continuation must use more transcript events or at least two low
+exterior entries. Arbitrary recoding, joint-bank maps and paid turns are
+included; nonlinear encoders and the two explicit escapes remain open.
+
+The changed complex same-plus source retains one whole input-bank column
+with actual ordinary units. Its simplest fixed output unit cannot be
+completed even by arbitrary third-input source shears. A complete all-input
+S3 benchmark is under independent review; a profitable independent endpoint
+and the whole caller are still missing.
+
+No new complete kappa. The selected conditional value last examined is
+0.00363005817; all five foundations remain. The requested session is active
+through 15:08 UTC. The cumulative programme is ongoing and not PR-ready.
+
+[Deferred caches](results/bit-deferred-terminal-caches/ADMISSION.md) ·
+[Induced95 equality](results/bit-induced95-equality-rigidity/ADMISSION.md) ·
+[Proper block tradeoff](results/bit-proper-block-sum-tradeoff/ADMISSION.md) ·
+[Weighted formation gate](results/bit-low-exterior-formation-gate/ADMISSION.md) ·
+[Changed complex column](results/complex-sameplus-routed-column/ADMISSION.md) ·
+[Fixed output gate](results/complex-sameplus-fixed-output-gate/ADMISSION.md).
+
+
 ## S021 checkpoint2
 
 The two-copy F4 source is independently proved over all 444 original columns

@@ -1,4 +1,14 @@
-# Remaining proof obligations — S021 checkpoint2
+# Remaining proof obligations — S021 checkpoint3
+
+## S021 checkpoint3
+
+Construct a compatible global X-only receiver circuit; the new stationary
+cache lemma then permits actual Hub canonical formation before the Y phase.
+The current-cut alternative must escape the newly proved class by using more
+than 9b receiver-downset events or at least two exterior descents to rank<=4.
+Neither escape has a complete paid continuation. On the complex side, change
+the first source/output complement and complete every input bank. All five
+foundations, both strict suppliers and the full recursive caller remain open.
 
 ## S021 checkpoint2
 

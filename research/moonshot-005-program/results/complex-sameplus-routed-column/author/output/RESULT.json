@@ -1,0 +1,86 @@
+{
+  "status": "PASS_SAMEPLUS_ROUTED_ENDPOINT_COLUMN",
+  "claim": "actual C,Q0,O,I0 units and full last-input-column endpoint identity; other columns open",
+  "new_source_transport": "SWAP_cd A R = A R SWAP_ab, with literal cubic phases",
+  "paid_fixed_prefix_normalization_retained": true,
+  "active_prefix_bits": 1,
+  "tail_width_checked": 1,
+  "all_unit_input_columns": 96,
+  "both_inverse_orders": true,
+  "complete_retained_column_dimension": 32,
+  "whole_last_column_has_only_gaussian_classes": [
+    1,
+    2
+  ],
+  "actual_independent_endpoint_units": true,
+  "quartic_input_component_of_verified_column": 0,
+  "full_endpoint_defect_nonzero_entries_by_input_bank": [
+    1786,
+    1753,
+    0
+  ],
+  "full_endpoint_claimed": false,
+  "ADD_omission_controls": 38,
+  "omitted_R_and_omitted_prefix_flip_rejected": true,
+  "receipts": {
+    "C": {
+      "forward": {
+        "ADD": 5,
+        "SCALE": 4,
+        "MONO": 2,
+        "uniform_triangle_prefix_bound": "14"
+      },
+      "inverse": {
+        "ADD": 5,
+        "SCALE": 6,
+        "MONO": 2,
+        "uniform_triangle_prefix_bound": "14"
+      }
+    },
+    "Q0": {
+      "forward": {
+        "ADD": 8,
+        "SCALE": 8,
+        "MONO": 4,
+        "uniform_triangle_prefix_bound": "74"
+      },
+      "inverse": {
+        "ADD": 8,
+        "SCALE": 8,
+        "MONO": 4,
+        "uniform_triangle_prefix_bound": "74"
+      }
+    },
+    "O": {
+      "forward": {
+        "ADD": 2,
+        "SCALE": 2,
+        "MONO": 0,
+        "uniform_triangle_prefix_bound": "2"
+      },
+      "inverse": {
+        "ADD": 2,
+        "SCALE": 2,
+        "MONO": 0,
+        "uniform_triangle_prefix_bound": "3"
+      }
+    },
+    "I0": {
+      "forward": {
+        "ADD": 4,
+        "SCALE": 4,
+        "MONO": 3,
+        "uniform_triangle_prefix_bound": "14"
+      },
+      "inverse": {
+        "ADD": 4,
+        "SCALE": 4,
+        "MONO": 3,
+        "uniform_triangle_prefix_bound": "14"
+      }
+    }
+  },
+  "new_gaussian_queries": 0,
+  "new_owners": 0,
+  "new_kappa": false
+}

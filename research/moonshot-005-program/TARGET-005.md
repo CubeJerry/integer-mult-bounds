@@ -1,4 +1,15 @@
-# Exact target κ=1/200 — S021 checkpoint2
+# Exact target κ=1/200 — S021 checkpoint3
+
+## S021 checkpoint3
+
+At exact minimum transcript size, the new weighted extra bill is
+9b[4]+8b+min(0,(b+2)[3]-(b+1)[4]) when at most one low exterior descent occurs.
+It exceeds the scalar/F4/F8 limiting rooms by12.79755718/0.80793741/0.48405409
+per copy. This replaces the simpler17b floor in that comparison; the two
+bounds are not added. More events, multiple low exterior entries or changed
+sources remain open. The deferred-cache four-copy control has full partial
+source moment1611.4354499717465... and room10.3154302394059..., without full
+caller admission. Every original strict supplier and recursion condition remains.
 
 ## S021 checkpoint2
 

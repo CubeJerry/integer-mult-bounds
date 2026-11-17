@@ -1,0 +1,460 @@
+{
+  "status": "PASS_INDEPENDENT_PROPER_BLOCK_SUM_BOUND",
+  "support_sha256": "012018d59ce8227282749100b26eef2d3a4013dbb04d48d0bca030f3c036c963",
+  "author_file_sha256": {
+    "PROOF.md": "23baa438c0b33ca7f7dd60a1e65bbc2d2c8f20559efd70a21759f9341153158a",
+    "check.py": "f4127bb20eb641dfd153bc24745321d068e94b0b95f7a4a2f3a00c8c0cd5178a",
+    "output/CERTIFICATE.json": "298f57ccca054d234b5d2b32009d641bfa71eff698b2839795c944fd80b8007d"
+  },
+  "method": "Independent low-pivot elimination and bitset intersections of orthogonality sets; author checker not imported or executed.",
+  "subset_censuses": [
+    {
+      "subset_size": 3,
+      "all_subsets": 2300,
+      "independent_subsets": 2300,
+      "maximum_proper_opposite_blocks": 7,
+      "histogram": {
+        "1": 6,
+        "2": 123,
+        "3": 729,
+        "4": 834,
+        "5": 441,
+        "6": 134,
+        "7": 33
+      },
+      "verified_witness": {
+        "decoder_basis": [
+          31,
+          59,
+          91,
+          128,
+          372,
+          239,
+          155,
+          9,
+          408
+        ],
+        "payload_basis": [
+          31,
+          59,
+          91,
+          244,
+          265,
+          274,
+          367,
+          3,
+          9
+        ],
+        "proper_decoders": 3,
+        "proper_payloads": 7
+      }
+    },
+    {
+      "subset_size": 4,
+      "all_subsets": 12650,
+      "independent_subsets": 12545,
+      "maximum_proper_opposite_blocks": 7,
+      "histogram": {
+        "0": 176,
+        "1": 1452,
+        "2": 3987,
+        "3": 4437,
+        "4": 1949,
+        "5": 469,
+        "6": 71,
+        "7": 4
+      },
+      "verified_witness": {
+        "decoder_basis": [
+          59,
+          87,
+          367,
+          431,
+          464,
+          236,
+          111,
+          509,
+          372
+        ],
+        "payload_basis": [
+          234,
+          206,
+          367,
+          91,
+          31,
+          199,
+          274,
+          3,
+          40
+        ],
+        "proper_decoders": 4,
+        "proper_payloads": 7
+      }
+    },
+    {
+      "subset_size": 5,
+      "all_subsets": 53130,
+      "independent_subsets": 50925,
+      "maximum_proper_opposite_blocks": 6,
+      "histogram": {
+        "0": 8731,
+        "1": 20992,
+        "2": 15301,
+        "3": 4926,
+        "4": 837,
+        "5": 130,
+        "6": 8
+      },
+      "verified_witness": {
+        "decoder_basis": [
+          31,
+          87,
+          122,
+          367,
+          431,
+          159,
+          111,
+          372,
+          391
+        ],
+        "payload_basis": [
+          199,
+          59,
+          3,
+          367,
+          91,
+          234,
+          274,
+          5,
+          49
+        ],
+        "proper_decoders": 5,
+        "proper_payloads": 6
+      }
+    },
+    {
+      "subset_size": 6,
+      "all_subsets": 177100,
+      "independent_subsets": 154864,
+      "maximum_proper_opposite_blocks": 5,
+      "histogram": {
+        "0": 79322,
+        "1": 59828,
+        "2": 13996,
+        "3": 1562,
+        "4": 140,
+        "5": 16
+      },
+      "verified_witness": {
+        "decoder_basis": [
+          31,
+          59,
+          87,
+          122,
+          367,
+          386,
+          111,
+          372,
+          164
+        ],
+        "payload_basis": [
+          199,
+          234,
+          81,
+          88,
+          367,
+          91,
+          274,
+          52,
+          219
+        ],
+        "proper_decoders": 6,
+        "proper_payloads": 5
+      }
+    }
+  ],
+  "admissible_proper_block_count_pairs_from_tables": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      9,
+      2
+    ]
+  ],
+  "sharp_sum_bound": 11,
+  "scope": "b=1, exactly nine width-V receiver-downset events; arbitrary characteristic-two field and noncommuting vertex gauges; ground destinations allowed. No b>1 scaling or movement tariff."
+}

@@ -1,5 +1,20 @@
 # Verification ledger
 
+## S021 checkpoint3
+
+Fourteen focused executions reproduce twenty-five complete scientific JSON
+outputs. Separate implementations check the induced95 geometry, proper block
+couplings, current-field locality and directed movement prices, the888-column
+deferred-cache word, the whole complex input column and fixed-output gate.
+The portable runner builds its temporary input view from frozen repository
+files; no live worker directory is required. Full JSON equality is required,
+with byte and canonical hashes recorded. Universal claims rest on reviewed
+proofs, not finite enumeration alone. Final author prose pins are an explicit
+addendum, preserving previous certificates.
+
+Run `python -B research/moonshot-005-program/sessions/2026-11-17-S021/reproduce_cp3.py --repo . --out /tmp/moonshot-S021-cp3`.
+Receipt: [CHECKPOINT3-VALIDATION.json](sessions/2026-11-17-S021/CHECKPOINT3-VALIDATION.json).
+
 ## S021 checkpoint2
 
 Eight focused executions reproduce nineteen complete scientific JSON outputs.

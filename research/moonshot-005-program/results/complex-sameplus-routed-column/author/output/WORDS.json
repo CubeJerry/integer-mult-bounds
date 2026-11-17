@@ -1,0 +1,920 @@
+{
+  "primitive_words": {
+    "C": {
+      "forward": [
+        {
+          "op": "ADD",
+          "target": 0,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 0
+        },
+        {
+          "op": "MONO",
+          "bank": 2,
+          "name": "S"
+        },
+        {
+          "op": "ADD",
+          "target": 0,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 0
+        },
+        {
+          "op": "SCALE",
+          "bank": 0,
+          "coefficient": "1/2"
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "1/2"
+        },
+        {
+          "op": "MONO",
+          "bank": 0,
+          "name": "S"
+        },
+        {
+          "op": "ADD",
+          "target": 1,
+          "source": 0
+        }
+      ],
+      "inverse": [
+        {
+          "op": "SCALE",
+          "bank": 0,
+          "coefficient": "-1"
+        },
+        {
+          "op": "ADD",
+          "target": 1,
+          "source": 0
+        },
+        {
+          "op": "SCALE",
+          "bank": 0,
+          "coefficient": "-1"
+        },
+        {
+          "op": "MONO",
+          "bank": 0,
+          "name": "S"
+        },
+        {
+          "op": "ADD",
+          "target": 0,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 0
+        },
+        {
+          "op": "MONO",
+          "bank": 2,
+          "name": "S"
+        },
+        {
+          "op": "ADD",
+          "target": 0,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 0
+        },
+        {
+          "op": "SCALE",
+          "bank": 0,
+          "coefficient": "1/2"
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "1/2"
+        }
+      ]
+    },
+    "Q0": {
+      "forward": [
+        {
+          "op": "ADD",
+          "target": 0,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 0
+        },
+        {
+          "op": "MONO",
+          "bank": 2,
+          "name": "S2"
+        },
+        {
+          "op": "ADD",
+          "target": 0,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 0
+        },
+        {
+          "op": "SCALE",
+          "bank": 0,
+          "coefficient": "1/2"
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "1/2"
+        },
+        {
+          "op": "ADD",
+          "target": 1,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 1
+        },
+        {
+          "op": "MONO",
+          "bank": 2,
+          "name": "minus_S2"
+        },
+        {
+          "op": "ADD",
+          "target": 1,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 1
+        },
+        {
+          "op": "SCALE",
+          "bank": 1,
+          "coefficient": "1/2"
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "1/2"
+        },
+        {
+          "op": "MONO",
+          "bank": 0,
+          "name": "R0"
+        },
+        {
+          "op": "MONO",
+          "bank": 1,
+          "name": "X"
+        }
+      ],
+      "inverse": [
+        {
+          "op": "MONO",
+          "bank": 1,
+          "name": "X"
+        },
+        {
+          "op": "MONO",
+          "bank": 0,
+          "name": "R0_inverse"
+        },
+        {
+          "op": "ADD",
+          "target": 1,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 1
+        },
+        {
+          "op": "MONO",
+          "bank": 2,
+          "name": "minus_S2"
+        },
+        {
+          "op": "ADD",
+          "target": 1,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 1
+        },
+        {
+          "op": "SCALE",
+          "bank": 1,
+          "coefficient": "1/2"
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "1/2"
+        },
+        {
+          "op": "ADD",
+          "target": 0,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 0
+        },
+        {
+          "op": "MONO",
+          "bank": 2,
+          "name": "S2"
+        },
+        {
+          "op": "ADD",
+          "target": 0,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 0
+        },
+        {
+          "op": "SCALE",
+          "bank": 0,
+          "coefficient": "1/2"
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "1/2"
+        }
+      ]
+    },
+    "O": {
+      "forward": [
+        {
+          "op": "SCALE",
+          "bank": 1,
+          "coefficient": "-1"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 1
+        },
+        {
+          "op": "SCALE",
+          "bank": 1,
+          "coefficient": "-1"
+        },
+        {
+          "op": "ADD",
+          "target": 1,
+          "source": 0
+        }
+      ],
+      "inverse": [
+        {
+          "op": "SCALE",
+          "bank": 0,
+          "coefficient": "-1"
+        },
+        {
+          "op": "ADD",
+          "target": 1,
+          "source": 0
+        },
+        {
+          "op": "SCALE",
+          "bank": 0,
+          "coefficient": "-1"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 1
+        }
+      ]
+    },
+    "I0": {
+      "forward": [
+        {
+          "op": "ADD",
+          "target": 1,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 1
+        },
+        {
+          "op": "MONO",
+          "bank": 2,
+          "name": "minus_S2"
+        },
+        {
+          "op": "ADD",
+          "target": 1,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 1
+        },
+        {
+          "op": "SCALE",
+          "bank": 1,
+          "coefficient": "1/2"
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "1/2"
+        },
+        {
+          "op": "MONO",
+          "bank": 1,
+          "name": "X"
+        },
+        {
+          "op": "MONO",
+          "bank": 2,
+          "name": "R0"
+        }
+      ],
+      "inverse": [
+        {
+          "op": "MONO",
+          "bank": 2,
+          "name": "R0_inverse"
+        },
+        {
+          "op": "MONO",
+          "bank": 1,
+          "name": "X"
+        },
+        {
+          "op": "ADD",
+          "target": 1,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 1
+        },
+        {
+          "op": "MONO",
+          "bank": 2,
+          "name": "minus_S2"
+        },
+        {
+          "op": "ADD",
+          "target": 1,
+          "source": 2
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "-2"
+        },
+        {
+          "op": "ADD",
+          "target": 2,
+          "source": 1
+        },
+        {
+          "op": "SCALE",
+          "bank": 1,
+          "coefficient": "1/2"
+        },
+        {
+          "op": "SCALE",
+          "bank": 2,
+          "coefficient": "1/2"
+        }
+      ]
+    }
+  },
+  "literal_prefix_tail1_monomials": {
+    "S": {
+      "destinations": [
+        0,
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        11,
+        4,
+        5,
+        6,
+        7,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        24,
+        25,
+        26,
+        27,
+        20,
+        21,
+        22,
+        23,
+        28,
+        29,
+        30,
+        31
+      ],
+      "input_phases_mod4": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "S2": {
+      "destinations": [
+        0,
+        2,
+        1,
+        3,
+        4,
+        6,
+        5,
+        7,
+        8,
+        10,
+        9,
+        11,
+        12,
+        14,
+        13,
+        15,
+        16,
+        18,
+        17,
+        19,
+        20,
+        22,
+        21,
+        23,
+        24,
+        26,
+        25,
+        27,
+        28,
+        30,
+        29,
+        31
+      ],
+      "input_phases_mod4": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "minus_S2": {
+      "destinations": [
+        0,
+        2,
+        1,
+        3,
+        4,
+        6,
+        5,
+        7,
+        8,
+        10,
+        9,
+        11,
+        12,
+        14,
+        13,
+        15,
+        16,
+        18,
+        17,
+        19,
+        20,
+        22,
+        21,
+        23,
+        24,
+        26,
+        25,
+        27,
+        28,
+        30,
+        29,
+        31
+      ],
+      "input_phases_mod4": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "X": {
+      "destinations": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "input_phases_mod4": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "R0": {
+      "destinations": [
+        0,
+        8,
+        1,
+        9,
+        2,
+        10,
+        3,
+        11,
+        4,
+        12,
+        5,
+        13,
+        6,
+        14,
+        7,
+        15,
+        16,
+        24,
+        17,
+        25,
+        18,
+        26,
+        19,
+        27,
+        20,
+        28,
+        21,
+        29,
+        22,
+        30,
+        23,
+        31
+      ],
+      "input_phases_mod4": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    "R0_inverse": {
+      "destinations": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31
+      ],
+      "input_phases_mod4": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    }
+  }
+}

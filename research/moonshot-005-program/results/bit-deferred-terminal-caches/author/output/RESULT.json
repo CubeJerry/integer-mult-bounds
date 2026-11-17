@@ -1,0 +1,131 @@
+{
+  "status": "PASS_LITERAL_DEFERRED_TERMINAL_CACHE_CHRONOLOGY",
+  "word_sha256": "59da0681e8267a07358c3015b587c57d0ea4976d91bed795dd74c5c2c92c2f5f",
+  "original_word_sha256": "831ac2f8ba647a50866af61461f9f378c76a443801f372154745520b4caa96fa",
+  "all_original_columns": 888,
+  "counts": {
+    "ADD": 3210,
+    "MOVE": 1164,
+    "INIT": 44,
+    "CLEAR": 44
+  },
+  "movement_profile": {
+    "1": 12,
+    "2": 228,
+    "5": 232,
+    "6": 4,
+    "7": 652,
+    "8": 36
+  },
+  "dirty_CLEAR": 44,
+  "peak_owned": 44,
+  "milestones": {
+    "all_X_restored_before_canonical": {
+      "live_fields": 896,
+      "owners": 8,
+      "all_X_raw_at_Hub": true,
+      "all_Y_pure_at_ground": true
+    },
+    "canonical36_at_ground_before_any_Y_move": {
+      "live_fields": 932,
+      "owners": 44,
+      "all_X_raw_at_Hub": true,
+      "all_Y_pure_at_ground": true
+    },
+    "all_public_endpoints_complete": {
+      "live_fields": 932,
+      "owners": 44,
+      "all_X_raw_at_Hub": true,
+      "all_Y_pure_at_ground": false
+    }
+  },
+  "completed_roles_each_copy": [
+    3
+  ],
+  "all_other_Y_unchanged": true,
+  "stationary_anchor_owners": 4,
+  "stationary_terminal_owners": 4,
+  "canonical_owners": 36,
+  "additional_noncanonical_MOVEs": 0,
+  "ordinary_ADD_breakdown": {
+    "original_X_ADD": 894,
+    "anchor_capture_ADD": 142,
+    "terminal_capture_ADD": 4,
+    "canonical_source_ADD": 2140,
+    "canonical_Y_preload_ADD": 12,
+    "deferred_Y_ADD": 18
+  },
+  "normalized_movement_profile": {
+    "1": "3",
+    "2": "57",
+    "5": "58",
+    "6": "1",
+    "7": "163",
+    "8": "9"
+  },
+  "normalized_moment": {
+    "rational": [
+      "805717724985873251274893862718723614959709041/500000000000000000000000000000000000000000",
+      "161143544997174650254978772543744722991941837/100000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1611.435449971746502549787725437447229919418082",
+      "1611.43544997174650254978772543744722991941837"
+    ]
+  },
+  "normalized_necessary_limiting_room": {
+    "rational": [
+      "257885755985146317411460623238693913212427/25000000000000000000000000000000000000000",
+      "61892581436435116178750549577286539170985503/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "10.31543023940585269645842492954775652849708",
+      "10.315430239405852696458424929547756528497583833333333333333333333"
+    ]
+  },
+  "negative_controls": [
+    {
+      "control": "anchor_capture",
+      "rejected": true,
+      "omitted_step": 5
+    },
+    {
+      "control": "terminal_capture",
+      "rejected": true,
+      "omitted_step": 1268
+    },
+    {
+      "control": "terminal_retirement",
+      "rejected": true,
+      "omitted_step": 4422
+    },
+    {
+      "control": "actual_terminal_facet_visit",
+      "rejected": true,
+      "omitted_step": 1265
+    },
+    {
+      "control": "original_X_restore",
+      "rejected": true,
+      "omitted_step": 1727
+    },
+    {
+      "control": "canonical_source",
+      "rejected": true,
+      "omitted_step": 1729
+    },
+    {
+      "control": "canonical_descent",
+      "rejected": true,
+      "omitted_step": 1786
+    },
+    {
+      "control": "Y_preload",
+      "rejected": true,
+      "omitted_step": 3940
+    }
+  ],
+  "global_source_network_constructed": false,
+  "complete_supplier": false,
+  "new_complete_kappa": false
+}

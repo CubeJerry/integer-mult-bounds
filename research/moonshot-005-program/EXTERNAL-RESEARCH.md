@@ -1,5 +1,13 @@
 # Relevant external research and compatibility
 
+## S021 checkpoint3
+
+No additional external theorem, source word or foundation discharge is
+adopted. The last examined upstream remains the pinned checkpoint1 intake.
+The induced95 seed is new internal evidence; credited star/anchor and entropy
+methods retain their original provenance. Current conclusions concern exact
+programme sources and do not assert a new upstream selected certificate.
+
 ## S021 checkpoint2
 
 No new external theorem or certificate is adopted in this checkpoint.

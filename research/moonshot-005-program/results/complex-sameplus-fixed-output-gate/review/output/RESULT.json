@@ -1,0 +1,44 @@
+{
+  "status": "PASS_INDEPENDENT_SAMEPLUS_FIXED_OUTPUT_GATE",
+  "author_pins": {
+    "PROOF.md": "5d34d4e386aab40e82722a8b118ec67b5deda56cf38eb46d93f6caa7985080a5",
+    "check.py": "e202ab0a202d49aceba8981075962dcbf1a679d8fb5cde7f69c52db5780d285d"
+  },
+  "free_noncommutative_equation3": true,
+  "free_symbols": [
+    "a",
+    "S",
+    "g",
+    "h"
+  ],
+  "no_g_h_invertibility_or_commutation_used": true,
+  "universal_shear_repair_inverse": true,
+  "positive_column_preserved": true,
+  "q_nonmonomial_row_support": 4,
+  "q_involution": true,
+  "q_is_exact_third_source_conjugate": true,
+  "P3_physical_rank": 16,
+  "physical_bank_dimension": 32,
+  "fixed_prefix_one_width_ordinary_kernel_control": {
+    "recipe_terms_before_combining": 11,
+    "norm_squared_W1": "0",
+    "norm_squared_W4": "15/16"
+  },
+  "universal_elimination_reviewed": [
+    "u=-hw",
+    "N2v=0",
+    "(Pg-N)w=0",
+    "P1hw=0",
+    "t=a^-1va ordinary",
+    "t=P3t implies t=0 by eventual coset separation",
+    "v=0 and w=Pw",
+    "Q column=(-h,0,I)^T w has rank at most half-bank"
+  ],
+  "negative_controls": [
+    "swap Pg to gP changes exact source",
+    "delete ah term changes source",
+    "physical I-P3 injectivity is false",
+    "same one-width ordinary kernel does not extend collectively"
+  ],
+  "scope": "Fixed O and literal heads a4,a2,a; arbitrary actual ordinary Q/input unit and source repair g,h in fixed finite collective-tail catalogue with arbitrary fixed-prefix matrices and W-dependent coefficients. Changed output complements remain open."
+}
