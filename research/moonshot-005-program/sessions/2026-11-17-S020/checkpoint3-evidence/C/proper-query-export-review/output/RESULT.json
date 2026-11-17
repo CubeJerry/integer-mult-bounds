@@ -1,0 +1,167 @@
+{
+  "status": "PASS_INDEPENDENT_ALL222_PROPER_QUERY_EXPORT_SOURCE",
+  "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "word_sha256": "4d4e0a4163483d35741505c747981a2bc8b8da1bc373bb0cb8d10f0aa651f96c",
+  "parent_sha256": "c77823c87362a56ed3c3f10f9808995285dd3f454e11443531f069075f59f4fe",
+  "cut": 938,
+  "stats": {
+    "counts": {
+      "INIT": 141,
+      "ADD": 539,
+      "MOVE": 520,
+      "CLEAR": 141
+    },
+    "movement_profile": {
+      "1": 187,
+      "2": 111,
+      "3": 4,
+      "4": 111,
+      "5": 16,
+      "6": 16,
+      "7": 75
+    },
+    "owned_downward_profile": {
+      "1": 12
+    },
+    "peak_owned": 141,
+    "dirty_CLEAR": 141,
+    "cut_fields": 363,
+    "cut_owned": 141
+  },
+  "exported_rank": 12,
+  "canonical_plus_exported_rank": 21,
+  "exported_union": 32,
+  "original_X_rank": 111,
+  "corrected_Y_count": 103,
+  "foreign_coefficients": 528,
+  "completed_diagonal_outputs": 0,
+  "moment": {
+    "rational": [
+      "7777593148750779151354954547403571/5000000000000000000000000000000",
+      "7777593148750779151354954547403831/5000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1555.5186297501558302709909094807142",
+      "1555.5186297501558302709909094807662"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "248370939228736968657207153323311/3750000000000000000000000000000",
+      "794787005531958299703062890635493/12000000000000000000000000000000"
+    ],
+    "decimal": [
+      "66.23225046099652497525524088621626666666666666666666667",
+      "66.23225046099652497525524088629108333333333333333333333"
+    ]
+  },
+  "exports": [
+    {
+      "query": "G0_A1",
+      "carrier": "X25",
+      "pair_chart": "G0_PAIR_1_1",
+      "export_row_hex": "0x3c00000",
+      "coded_original_row_hex": "0x1c00000",
+      "native_support_rank": 3
+    },
+    {
+      "query": "G0_B1",
+      "carrier": "X29",
+      "pair_chart": "G0_PAIR_-1_1",
+      "export_row_hex": "0x26400000",
+      "coded_original_row_hex": "0x6400000",
+      "native_support_rank": 3
+    },
+    {
+      "query": "G0_A-1",
+      "carrier": "X28",
+      "pair_chart": "G0_PAIR_-1_-1",
+      "export_row_hex": "0x3c000000",
+      "coded_original_row_hex": "0x2c000000",
+      "native_support_rank": 3
+    },
+    {
+      "query": "G1_A1",
+      "carrier": "X93",
+      "pair_chart": "G1_PAIR_1_1",
+      "export_row_hex": "0x330000000000000000000000",
+      "coded_original_row_hex": "0x130000000000000000000000",
+      "native_support_rank": 3
+    },
+    {
+      "query": "G1_B1",
+      "carrier": "X95",
+      "pair_chart": "G1_PAIR_-1_1",
+      "export_row_hex": "0xa50000000000000000000000",
+      "coded_original_row_hex": "0x250000000000000000000000",
+      "native_support_rank": 3
+    },
+    {
+      "query": "G1_A-1",
+      "carrier": "X94",
+      "pair_chart": "G1_PAIR_-1_-1",
+      "export_row_hex": "0xcc0000000000000000000000",
+      "coded_original_row_hex": "0x8c0000000000000000000000",
+      "native_support_rank": 3
+    },
+    {
+      "query": "G2_A1",
+      "carrier": "X36",
+      "pair_chart": "G2_PAIR_1_1",
+      "export_row_hex": "0x1540000000",
+      "coded_original_row_hex": "0x540000000",
+      "native_support_rank": 3
+    },
+    {
+      "query": "G2_B1",
+      "carrier": "X37",
+      "pair_chart": "G2_PAIR_-1_1",
+      "export_row_hex": "0x30c0000000",
+      "coded_original_row_hex": "0x10c0000000",
+      "native_support_rank": 3
+    },
+    {
+      "query": "G2_A-1",
+      "carrier": "X35",
+      "pair_chart": "G2_PAIR_-1_-1",
+      "export_row_hex": "0x2a80000000",
+      "coded_original_row_hex": "0x2280000000",
+      "native_support_rank": 3
+    },
+    {
+      "query": "G3_A1",
+      "carrier": "X44",
+      "pair_chart": "G3_PAIR_1_1",
+      "export_row_hex": "0x154000000000",
+      "coded_original_row_hex": "0x54000000000",
+      "native_support_rank": 3
+    },
+    {
+      "query": "G3_B1",
+      "carrier": "X45",
+      "pair_chart": "G3_PAIR_-1_1",
+      "export_row_hex": "0x30c000000000",
+      "coded_original_row_hex": "0x10c000000000",
+      "native_support_rank": 3
+    },
+    {
+      "query": "G3_A-1",
+      "carrier": "X43",
+      "pair_chart": "G3_PAIR_-1_-1",
+      "export_row_hex": "0x2a8000000000",
+      "coded_original_row_hex": "0x228000000000",
+      "native_support_rank": 3
+    }
+  ],
+  "negative_controls": {
+    "actual_early_Y_baseline": "no original-Y contamination in X at 876",
+    "actual_axis_delivery_snapshot": "all original X restored",
+    "actual_corrected_Y_read": "no original-Y contamination in X at 876",
+    "remove_actual_axis_delivery": "all original X restored",
+    "one_rank_proper_export": "actual cochart ADD at 875",
+    "actual_Y_baseline_unmask": "no original-Y contamination in X at 876",
+    "actual_coded_original_load": "all original X restored",
+    "actual_coded_original_inverse": "all original X restored"
+  },
+  "scope": "Actual twelve one-rank exports and ordered Hub inverse on all222 arbitrary columns, every characteristic-two field and whole-record width. No free global query bank or completed supplier."
+}

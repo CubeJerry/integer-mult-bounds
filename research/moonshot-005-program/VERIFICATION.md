@@ -1,5 +1,35 @@
 # Verification ledger
 
+## S020 checkpoint3
+
+Confirmed parent `0ca7c81c12d226c97028cb5fddb1e5d65e24af5d`. Fourteen focused checks pass with 26 byte-identical
+scientific outputs. Twelve inherited files match SHA256 and the exact confirmed
+checkpoint2 Git tree. [Validation](sessions/2026-11-17-S020/CHECKPOINT3-VALIDATION.json),
+[source pins](sessions/2026-11-17-S020/SOURCE-PINS-CP3.json),
+[checkpoint2 remote receipt](sessions/2026-11-17-S020/CHECKPOINT2-REMOTE-RECEIPT.json).
+
+| Claim | Independent review | Limit |
+|---|---|---|
+| Restored/lower-retention all103 words |Root separate Fraction/set geometry;222 columns,333 fields, actual inverses,8/10 controls.|Partial maps with zero diagonal endpoints.|
+| Twelve actual proper exports |C separate geometry/replay;363 fields, pure exports, rank-three support at rank two,8 controls.|No installed canonical bank or free cache access.|
+| Priced occurrence refinement |C written proof and independent exact rank/tariff extraction.|Initial history/public-route hypotheses remain essential.|
+| <=4 literal-half code minima |A different elimination and complete24158-subset enumeration, all111 five-half witness rows.|Does not cover arbitrary four-dimensional coded extensions.|
+| Coupled-column module criterion |Root independent quotient, support and representation proof review; literal return/transport checks.|Old Qexample primitive replay is author-only diagnostic.|
+| Actual transferred kernel/units |B independent exact arithmetic, four words/inverses, phase and8 ADD controls.|Necessary module comparison, not a complete caller.|
+| Rotation/transferred endpoint exclusions |Root independent written endpoint proofs, source census and literal checks; both C4 words and18 controls.|Fixed finite catalogue and exact source/interface premises.|
+
+Reproduce with Python3.11+ and SymPy in a fresh output directory:
+
+```bash
+python -B research/moonshot-005-program/sessions/2026-11-17-S020/reproduce_cp3.py --repo . --out /tmp/moonshot-S020-cp3
+```
+
+The default runs all14 checks; --only selects a named focused check. The fresh
+full run resolved a missing adjacent reviewer helper before freezing; all26
+outputs now match. Author reproduction is not independent proof, and agent
+review is not human or proof-kernel certification. All earlier scientific pins
+are cumulative. No new complete κ. The selected conditional bound remains κ=.00363005817. Both strict suppliers, the complete outer assembly and all five foundations remain open. This is ongoing research and is not PR-ready.
+
 ## S020 checkpoint2
 
 Confirmed parent `fefc874d6550c1f16ef555a786eb576c8dc02463`. Fourteen focused checks pass, and 28 scientific

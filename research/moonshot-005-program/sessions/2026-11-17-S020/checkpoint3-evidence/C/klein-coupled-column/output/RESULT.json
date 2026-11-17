@@ -1,0 +1,40 @@
+{
+  "status": "PASS_EXACT_KLEIN_COUPLED_COLUMN_PREMISES",
+  "return_identity": "A g A=R_source; A\u00b2 g A=A R_source",
+  "actual_Q_and_inverse": {
+    "Q": {
+      "counts": {
+        "MONO": 37,
+        "ADD": 30,
+        "SCALE": 53
+      },
+      "prefix_bound": "79"
+    },
+    "Q_inverse": {
+      "counts": {
+        "SCALE": 55,
+        "ADD": 30,
+        "MONO": 37
+      },
+      "prefix_bound": "109"
+    }
+  },
+  "Q_scope": "Explicit coupled unit has a full rank-D quartic component but is excluded from a 421 completion by its fixed last-column left-coset rank2.",
+  "last_column_Gaussian2_left_coset_vectors": [
+    [
+      "1/2",
+      "1",
+      "0"
+    ],
+    [
+      "1/2",
+      "0",
+      "0"
+    ]
+  ],
+  "left_coset_rank": 2,
+  "necessary_character_capacity": "dim V^H - dim V^<H,s1> <= rank rho(R2) for every ordinary-group irrep",
+  "character_capacity_not_evaluated": true,
+  "new_complete_kappa": false,
+  "arithmetic_sha256": "410c8426e31bc60e76d88095b2ef568c766b46f6dd5a66ff9e8ae9a980a542e2"
+}

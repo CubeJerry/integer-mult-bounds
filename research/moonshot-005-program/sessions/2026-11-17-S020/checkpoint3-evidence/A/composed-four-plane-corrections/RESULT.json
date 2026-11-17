@@ -1,0 +1,108 @@
+{
+  "status": "PASS_ACTUAL_FOUR_GADGET_CORRECTION_COMPOSITION",
+  "word_sha256": "fbbae97bf0c71ca5d1f74bbe272e5507690f09d991600fe42f1636f0386c7433",
+  "source_cut": 884,
+  "gadgets": [
+    {
+      "support": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "source_count": 12,
+      "served_count": 29,
+      "axis_inputs_included": true
+    },
+    {
+      "support": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "source_count": 12,
+      "served_count": 29,
+      "axis_inputs_included": true
+    },
+    {
+      "support": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "source_count": 8,
+      "served_count": 16,
+      "axis_inputs_included": false
+    },
+    {
+      "support": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "source_count": 8,
+      "served_count": 29,
+      "axis_inputs_included": false
+    }
+  ],
+  "served_receivers": 103,
+  "supplied_foreign_coefficients": 528,
+  "source_originals_used": 40,
+  "source_originals_still_native": 71,
+  "originals_at_Hub_at_cut": 0,
+  "stats": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 111,
+      "ADD": 455,
+      "MOVE": 540,
+      "CLEAR": 111
+    },
+    "movement_profile": {
+      "1": 191,
+      "2": 127,
+      "3": 4,
+      "4": 143,
+      "7": 75
+    },
+    "dirty_CLEAR": 111,
+    "peak_owned": 111
+  },
+  "moment": {
+    "rational": [
+      "772010576463524226747063356769695932752815579/500000000000000000000000000000000000000000",
+      "1544021152927048453494126713539391865505631507/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1544.021152927048453494126713539391865505631158",
+      "1544.021152927048453494126713539391865505631507"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "77729727284103901752119436827603120942283943/1000000000000000000000000000000000000000000",
+      "466378363704623410512716620965618725653707047/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "77.729727284103901752119436827603120942283943",
+      "77.729727284103901752119436827603120942284507833333333333333333333"
+    ]
+  },
+  "negative_controls": [
+    "G0:ground_Y_inverse",
+    "G1:ground_Y_inverse",
+    "G0:courier_cleanup",
+    "G1:courier_cleanup",
+    "G2:early_pair_read",
+    "G2:later_pair_read",
+    "G2:X_inverse",
+    "G3:early_pair_read",
+    "G3:later_pair_read",
+    "G3:X_inverse"
+  ],
+  "complete_diagonal_outputs": 0,
+  "scope": "Actual four-gadget composition supplies one proper-chart local correction to all103 noncoordinate Ys;58 receive six terms and45 receive four. All original X and courier Ys restored; all222 columns,111 native snapshots and complete invoice. No diagonal output or complete supplier."
+}

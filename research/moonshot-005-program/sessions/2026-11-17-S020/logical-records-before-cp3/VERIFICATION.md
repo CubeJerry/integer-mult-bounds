@@ -1,0 +1,64 @@
+# Verification ledger
+
+## S020 checkpoint2
+
+Confirmed parent `fefc874d6550c1f16ef555a786eb576c8dc02463`. Fourteen focused checks pass, and 28 scientific
+outputs reproduce byte-for-byte. Eight inherited dependencies match SHA256 and
+their exact starting-baseline Git blobs. [Validation receipt](sessions/2026-11-17-S020/CHECKPOINT2-VALIDATION.json),
+[source pins](sessions/2026-11-17-S020/SOURCE-PINS-CP2.json),
+[confirmed checkpoint1 receipt](sessions/2026-11-17-S020/CHECKPOINT1-REMOTE-RECEIPT.json).
+
+| Claim | Independent evidence | Important limit |
+|---|---|---|
+| Three quartet source words |Root separate Fraction/set replay, all 222 columns and every cut field; hierarchy snapshots and wrong-inverse-order control.|Partial source maps, zero completed outputs.|
+| Support17 code gate |A separately eliminates the complete native code and checks all 111 projected distances, source cuts and caps.|One common support set; q is all positive owned moves, not arbitrary payload support.|
+| Half-sum charge 96 |A enumerates all 312384 rows in independently solved rank-33 affine fibres.|All-field/block extension is proved; algebraic minimizers are not physical delivery.|
+| Four-plane correction |C wholly separate rational geometry, 222-column replay, 333-field cut and integer-root tariffs.|29 actual proper-chart receivers; later ground reads are unavailable without routes.|
+| Klein first interface |C separate Q(i) matrices, all four abstract characters, actual source gauges, 68 omitted-ADD controls.|No independent Gaussian endpoint jobs.|
+
+Reproduce with Python 3.11+ and SymPy in a fresh empty output directory:
+
+```bash
+python -B research/moonshot-005-program/sessions/2026-11-17-S020/reproduce_cp2.py --repo . --out /tmp/moonshot-S020-cp2
+```
+
+The optional --only flag supports focused follow-ups; the default runs all 14.
+The recorded validation combines the first 12 checks and two subsequently
+admitted four-plane checks from separate fresh directories. Current frozen
+script hashes and all 28 products are matched. The original base-coordinate
+review receipt is preserved; its later support17 receipt is the comparison
+target. No earlier mathematical evidence was silently overwritten.
+
+Author reexecution is reproduction, not independent proof. Independent agent
+review is not human or proof-kernel certification. Scientific pins and prior
+qualified missing evidence remain cumulative. No new complete κ. The selected upstream conditional bound remains κ=363005817/100000000000. Both strict suppliers, complete recursive assembly and all five foundations remain open. This programme is ongoing and is not PR-ready.
+
+## S020 checkpoint1
+
+Baseline93b11dd75d7ffda723204bd212e5728cbea95592; canonical maine54523517d0f03e58352e647c403a5af3e525a57. Eleven focused commands pass; eight selected
+scientific outputs reproduce byte-for-byte. Six inherited executable/source
+dependencies match SHA256 and the exact baseline Git blobs.
+[Receipt](sessions/2026-11-17-S020/CHECKPOINT1-VALIDATION.json),
+[source pins](sessions/2026-11-17-S020/SOURCE-PINS-CP1.json).
+
+| Claim | Independent verification | Scope distinction |
+|---|---|---|
+| All54 source |Root Fraction/set replay:222 columns,408 cut fields, real charts, invoice, seven omissions.|Literal blockwise identities; full supplier/foundations open.|
+| Static54 rank |C frame proof; root separate graph and proof review; mutation controls.|All fields/widths>8m; scalar characteristic-two9 only.|
+| Nonlinear17/2 |C separate106-row derivation and both source-cut audits.|Finite alphabets/all widths; fixed-schedule physical application.|
+| Nine fixed packets |C separate511-dual census, extension-field/block proof and prices.|Precise fixed-code/no-other-inward restriction.|
+| Arbitrary fixed bank |C separate flag ranks, DB argument and integer-root enclosure.|Finite redundant bank allowed; mutable/noncanonical/earlier sources excluded.|
+| Ordinary capacity |B separate noncommutingS3 matrices andP!=CD control; root module-proof review.|Universal fixed-catalogue proof; finite controls alone are insufficient.|
+
+Reproduce using Python3.11+ with SymPy and an empty output directory:
+
+```bash
+python -B research/moonshot-005-program/sessions/2026-11-17-S020/reproduce_cp1.py --repo . --out /tmp/moonshot-S020-cp1
+```
+
+Author reexecution is reproduction, not independent proof. No human or
+proof-kernel certification is claimed. The scientific index appends new hashes
+while retaining all prior entries. This partial snapshot does not reauthenticate
+every historical file; the two previously recorded unavailable entries remain
+qualified and unused as proof evidence. The[previous ledger](sessions/2026-11-17-S020/logical-records-before-cp1/VERIFICATION.md)
+is archived exactly. No new complete κ. Selected upstream conditional κ remains363005817/100000000000. Completed strict BIT and compatible uniform complex suppliers, full recursion and all five foundations remain open. Ongoing programme, not PR-ready.

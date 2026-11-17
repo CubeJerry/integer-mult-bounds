@@ -1,0 +1,537 @@
+{
+  "status": "PASS_INDEPENDENT_COMPOSED_ALL103_CORRECTION",
+  "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "word_sha256": "fbbae97bf0c71ca5d1f74bbe272e5507690f09d991600fe42f1636f0386c7433",
+  "variant": "restored",
+  "independent_interpreter_sha256": "41b4d0ec79abc43cc32a9b97d8a36fb3805e5602630b07c2f74a5999a281a565",
+  "cut": 884,
+  "all_public_columns": 222,
+  "live_cut_fields": 333,
+  "served_receivers": 103,
+  "foreign_coefficients": 528,
+  "completed_diagonal_outputs": 0,
+  "X_originals_below_Hub": 111,
+  "original_X_rank_histogram": {
+    "4": 40,
+    "1": 71
+  },
+  "native_originals": 71,
+  "quartet_originals": 40,
+  "raw_rank2_originals": 0,
+  "encoded_rank3_originals": 0,
+  "stages": [
+    {
+      "gadget": 0,
+      "source_roles": [
+        0,
+        1,
+        6,
+        7,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "served_receivers": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "queries": {
+        "G0_A1": {
+          "receivers": [
+            34,
+            35,
+            36,
+            37,
+            62,
+            63,
+            64,
+            65
+          ],
+          "summands": [
+            6,
+            7,
+            22,
+            23,
+            24,
+            25
+          ]
+        },
+        "G0_B1": {
+          "receivers": [
+            52,
+            53,
+            56,
+            57,
+            82,
+            85,
+            86
+          ],
+          "summands": [
+            0,
+            1,
+            22,
+            25,
+            26,
+            29
+          ]
+        },
+        "G0_A-1": {
+          "receivers": [
+            30,
+            31,
+            32,
+            33,
+            59,
+            60,
+            61
+          ],
+          "summands": [
+            6,
+            7,
+            26,
+            27,
+            28,
+            29
+          ]
+        },
+        "G0_B-1": {
+          "receivers": [
+            54,
+            55,
+            58,
+            81,
+            83,
+            84,
+            87
+          ],
+          "summands": [
+            0,
+            1,
+            23,
+            24,
+            27,
+            28
+          ]
+        }
+      },
+      "couriers": [
+        2,
+        3
+      ]
+    },
+    {
+      "gadget": 1,
+      "source_roles": [
+        2,
+        3,
+        4,
+        5,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "served_receivers": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "queries": {
+        "G1_A1": {
+          "receivers": [
+            10,
+            11,
+            12,
+            16,
+            17,
+            18,
+            19
+          ],
+          "summands": [
+            3,
+            5,
+            88,
+            89,
+            92,
+            93
+          ]
+        },
+        "G1_B1": {
+          "receivers": [
+            98,
+            99,
+            100,
+            101,
+            105,
+            106,
+            107,
+            108
+          ],
+          "summands": [
+            2,
+            4,
+            88,
+            90,
+            93,
+            95
+          ]
+        },
+        "G1_A-1": {
+          "receivers": [
+            8,
+            9,
+            13,
+            14,
+            15,
+            20,
+            21
+          ],
+          "summands": [
+            3,
+            5,
+            90,
+            91,
+            94,
+            95
+          ]
+        },
+        "G1_B-1": {
+          "receivers": [
+            96,
+            97,
+            102,
+            103,
+            104,
+            109,
+            110
+          ],
+          "summands": [
+            2,
+            4,
+            89,
+            91,
+            92,
+            94
+          ]
+        }
+      },
+      "couriers": [
+        0,
+        1
+      ]
+    },
+    {
+      "gadget": 2,
+      "source_roles": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "served_receivers": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "queries": {
+        "G2_A1": {
+          "receivers": [
+            40,
+            41,
+            44,
+            45
+          ],
+          "summands": [
+            30,
+            32,
+            34,
+            36
+          ]
+        },
+        "G2_B1": {
+          "receivers": [
+            75,
+            76,
+            79,
+            80
+          ],
+          "summands": [
+            30,
+            31,
+            36,
+            37
+          ]
+        },
+        "G2_A-1": {
+          "receivers": [
+            38,
+            39,
+            42,
+            43
+          ],
+          "summands": [
+            31,
+            33,
+            35,
+            37
+          ]
+        },
+        "G2_B-1": {
+          "receivers": [
+            73,
+            74,
+            77,
+            78
+          ],
+          "summands": [
+            32,
+            33,
+            34,
+            35
+          ]
+        }
+      },
+      "couriers": []
+    },
+    {
+      "gadget": 3,
+      "source_roles": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "served_receivers": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "queries": {
+        "G3_A1": {
+          "receivers": [
+            23,
+            25,
+            27,
+            29,
+            66,
+            68,
+            70,
+            72
+          ],
+          "summands": [
+            38,
+            40,
+            42,
+            44
+          ]
+        },
+        "G3_B1": {
+          "receivers": [
+            48,
+            49,
+            89,
+            91,
+            93,
+            95
+          ],
+          "summands": [
+            38,
+            39,
+            44,
+            45
+          ]
+        },
+        "G3_A-1": {
+          "receivers": [
+            22,
+            24,
+            26,
+            28,
+            67,
+            69,
+            71
+          ],
+          "summands": [
+            39,
+            41,
+            43,
+            45
+          ]
+        },
+        "G3_B-1": {
+          "receivers": [
+            46,
+            47,
+            50,
+            51,
+            88,
+            90,
+            92,
+            94
+          ],
+          "summands": [
+            40,
+            41,
+            42,
+            43
+          ]
+        }
+      },
+      "couriers": []
+    }
+  ],
+  "stats": {
+    "counts": {
+      "INIT": 111,
+      "ADD": 455,
+      "MOVE": 540,
+      "CLEAR": 111
+    },
+    "movement_profile": {
+      "1": 191,
+      "2": 127,
+      "3": 4,
+      "4": 143,
+      "7": 75
+    },
+    "prefix_profile": {
+      "1": 191,
+      "2": 127
+    },
+    "rank_length": 1554,
+    "dirty_CLEAR": 111,
+    "peak_owned": 111,
+    "cut_live_fields": 333
+  },
+  "moment_rational": [
+    "7720105764635242267470633567696811/5000000000000000000000000000000",
+    "7720105764635242267470633567697081/5000000000000000000000000000000"
+  ],
+  "necessary_room_rational": [
+    "582972954630779263140895776206747/7500000000000000000000000000000",
+    "932756727409246821025433241931717/12000000000000000000000000000000"
+  ],
+  "future_positive_owned_moves_at_most": 77,
+  "monotone_public_continuation_chi_upper": 188,
+  "all_initial_X_coefficients_native_local": true,
+  "negative_controls": {
+    "G0:ground_Y_inverse:0": "exact all-column Y30 endpoint",
+    "G1:ground_Y_inverse:0": "exact all-column Y8 endpoint",
+    "G1:courier_cleanup:0": "exact all-column Y0 endpoint",
+    "G2:early_pair_read:0": "exact all-column Y40 endpoint",
+    "G3:later_pair_read:0": "exact all-column Y23 endpoint",
+    "G2:X_inverse:0": "raw X33 endpoint",
+    "G3:X_inverse:0": "raw X41 endpoint",
+    "incomparable_query_shortcut": "actual cochart ADD at 652"
+  },
+  "new_complete_kappa": false
+}

@@ -2,40 +2,43 @@
 
 Read exact remote HEAD of `CubeJerry/integer-mult-bounds`, branch
 `research/moonshot-005-program`, then STATE, PROGRAMME, TARGET-005 and OBLIGATIONS.
-Checkpoint2's confirmed parent is `fefc874d6550c1f16ef555a786eb576c8dc02463`. Resulting SHAs are confirmed
-separately; do not embed a self-referential commit hash. No new complete κ. The selected upstream conditional bound remains κ=363005817/100000000000. Both strict suppliers, complete recursive assembly and all five foundations remain open. This programme is ongoing and is not PR-ready.
+Checkpoint3's confirmed parent is `0ca7c81c12d226c97028cb5fddb1e5d65e24af5d`; the resulting SHA is confirmed
+separately, without a self-referential hash. No new complete κ. The selected conditional bound remains κ=.00363005817. Both strict suppliers, the complete outer assembly and all five foundations remain open. This is ongoing research and is not PR-ready.
 
-## Nearest mathematical work
+## Nearest mathematical task
 
-Compose the actual earlier receiver-correction layer with global information
-delivery and remaining native foreign corrections. The admitted four-plane
-word serves 29 Ys, now at rank-three query planes, and restores all participating
-X and courier Ys. Do not treat these receivers as ground operands later.
-A four-gadget layer covering all 103 noncoordinate Ys is active author work;
-review it independently before admission. Require one complete chronological
-word, all 222 original columns, actual inverse operands and full charged costs.
+The actual BIT front end corrects all103 noncoordinate Ys, now at rank-three
+query planes. Its lower-retention cut has movement room78.232250460996... .
+The admitted twelve proper exports create nonlocal rank-two original payloads
+and leave66.232250460996... . Preserve all222 original columns, actual Y
+baseline cancellation and the required order of Hub inverses.
 
-The three quartet sources are independently proved. Their ground cuts leave
-only 9 or 8 further positive owned moves. A common 17-coordinate extension of
-the canonical code requires chi>=94; the canonical-plus-all-half-sums code has
-exact chi=96, but the actual cuts allow only 56 or 55. General coded directions,
-earlier service and nonmonotone public routes remain outside those exclusions.
-The earlier known57 immutable-bank gate remains source-specific.
+Audit the active dormant-cache access/fanout theorem and four-facet cut before
+admitting it. Current author/reviewer evidence may close future histories in
+the canonical-plus-current-query bank, but that result is not part of this
+checkpoint. Construct individual pair exports or another real code change
+outside the exact closed premise. Cache snapshots remain at their native lines;
+their values cannot be read from an incompatible later chart for free.
 
-Complex work has a proved actual Klein first interface. Its Gaussian components
-overlap D/2, so independent endpoints require more than component rank. The
-explicit transferred-kernel second interface and its endpoint limitations are
-active work; retain its phase-sensitive ordinary tables and inverse. Do not
-infer a free bank from physical projector rank. Explore a changed second
-interface/first interface only after matching the scoped exclusions.
+The priced occurrence lemma and literal-four-half gate are admitted: both
+earlier correction cuts cap chi at187, while every canonical-plus-at-most-four
+literal-half fitting needs189. Five halves have a chi187 existence witness
+with less than one optimistic movement unit; neither physical realization
+nor minimum rank is proved. The later nonlocal export source changes the
+initial-history premise, so do not apply the old gate unchanged.
 
-S020 began 2026-11-17T03:06:00Z and continues toward 08:06:00Z. No background
-execution is configured after the session. Fourteen focused checks and 28 exact
-outputs are recorded in [VERIFICATION](VERIFICATION.md). Scratch WIP is not
-admitted evidence until checked and committed.
+The complex transferred kernel has a fully charged actual dyadic unit/inverse
+and solves the necessary irreducible module comparison. All completions of
+that fixed column fail the original Klein (4,2,1) endpoint test. Crot also
+fails under its projector-capacity hypotheses. Continue changed first-interface
+or left-column-action construction outside these precise exclusions. Passing
+representations are only a screen; require universal class cancellation and
+actual ordinary endpoint units.
 
-Canonical main last examined is `e54523517d0f03e58352e647c403a5af3e525a57`; selected κ=.00363005817. Open #7630
-was metadata/body triage only, not selected or composed. Recheck upstream
-selectively and publish with expected-HEAD nonforced protection. Preserve
-all historical pins and the five foundational assumptions. No upstream PR
-should be submitted automatically.
+S020 runs from03:06 to08:06 UTC on2026-11-17. No background execution continues
+after the session. Fourteen focused checks and26 exact outputs are recorded.
+Canonical main rechecked mid-session is `e54523517d0f03e58352e647c403a5af3e525a57`; selected κ=.00363005817.
+Open#7630 remains unselected metadata/body triage. Publish reviewed work with
+expected-HEAD nonforced protection, preserve every historic pin and do not
+automatically submit an upstream PR. Both strict suppliers and all foundations
+remain open.

@@ -1,0 +1,52 @@
+{
+  "status": "PASS_EXPLICIT_DYADIC_KLEIN_KERNEL_TRANSFER",
+  "N0_rank": "D/4",
+  "N0_regular_trace": "1/4",
+  "N0_augmentation": 0,
+  "identities": [
+    "A\u00b2 h A^-2 ordinary",
+    "G s1 G^-1=s2",
+    "G h G^-1=s2 t2",
+    "G N0 G^-1=R2",
+    "V*V=N0",
+    "VV*=R2"
+  ],
+  "old_irrep_comparison": "Resolved positively: N<=N0 and N0 is ordinarily unitarily equivalent to R2.",
+  "last_column": "(I-N0,G N0,0)^T; isometric and satisfies the Gaussian2 left-coset condition.",
+  "actual_words": {
+    "Q_column": {
+      "counts": {
+        "ADD": 15,
+        "SCALE": 27,
+        "MONO": 24
+      },
+      "prefix_bound": "11"
+    },
+    "Q_column_inverse": {
+      "counts": {
+        "MONO": 24,
+        "SCALE": 27,
+        "ADD": 15
+      },
+      "prefix_bound": "11"
+    },
+    "Q_high_low": {
+      "counts": {
+        "MONO": 43,
+        "ADD": 30,
+        "SCALE": 53
+      },
+      "prefix_bound": "79"
+    },
+    "Q_high_low_inverse": {
+      "counts": {
+        "MONO": 43,
+        "SCALE": 55,
+        "ADD": 30
+      },
+      "prefix_bound": "109"
+    }
+  },
+  "scope": "Coupled second-interface source bridge. Remaining forbidden classes and independent endpoint equations are not solved.",
+  "new_complete_kappa": false
+}

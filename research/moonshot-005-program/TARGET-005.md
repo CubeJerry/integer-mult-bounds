@@ -1,30 +1,27 @@
-# Exact requirements for κ = 1/200
+# Exact requirements for κ=1/200
 
-## Current source and completion picture — S020 checkpoint2
+## Current physical interfaces — S020 checkpoint3
 
-No new complete κ. The selected upstream conditional bound remains κ=363005817/100000000000. Both strict suppliers, complete recursive assembly and all five foundations remain open. This programme is ongoing and is not PR-ready.
+No new complete κ. The selected conditional bound remains κ=.00363005817. Both strict suppliers, the complete outer assembly and all five foundations remain open. This is ongoing research and is not PR-ready.
 
-At t=199/200 the necessary limiting movement allowance is
-1621.750880211152355246... . Finite even multiplicity and every nonmovement
-expense make the full condition stricter. A partial-word margin is not a supplier.
+The necessary limiting movement allowance at t=199/200 is
+1621.750880211152355246... . The finite-even correction is negative and
+nonmovement expenses make the full condition stricter.
 
-| Source or scoped class | Verified cost or requirement | Remaining implication |
+| Actual source or exact scoped class | Verified quantity | Remaining limitation |
 |---|---|---|
-| All54-held known57 source |Q=1597.494093397153...; 54 endpoints missing|At least 9 future downward transfers; fixed canonical banks fail by >1.534825848137... under their stated scope.|
-| One-stage quartet code at Hub |Q=1541.395989740492...|47 raw proper originals; room 80.354890470659... before delivery.|
-| One-stage quartet code at ground |Q=1612.651269002387...|Room 9.099611208764...; at most 9 further positive owned moves.|
-| Two-stage code at ground |Q=1613.394820888599...|28 actual half sums, 19 raw and 28 mixed proper originals; at most 8 further owned moves.|
-| Either ground cut, C+E_S with common size(S)<=17 |Required chi>=94; available chi<=56 or 55|Excluded under normalized-history and monotone-public premises.|
-| Either ground cut, canonical plus all 28 half sums |Exact minimum chi=96|Same scoped exclusion, even with the entire code space granted algebraically.|
-| Actual four-plane earlier correction |Q=1540.446268822049...; 174 foreign terms|29 Ys already at rank three; zero completed diagonal outputs.|
-| Actual Klein first interface |C/C^-1 each 32 ADD,64 SCALE,48 MONO|Components overlap D/2; actual independent endpoints are missing.|
+| All103 early corrections, restored X |Q=1544.021152927048...; room77.729727284103...|528 foreign terms; zero diagonal endpoints.|
+| All103 early corrections, lower retention |Q=1543.518629750155...; room78.232250460996...|All111 X directions;103 Ys at rank three.|
+| Twelve actual proper-query exports |Q=1555.518629750155...; room66.232250460996...|Twelve nonlocal rank-two payloads; no canonical bank or completed decoder.|
+| First two cuts, canonical plus <=4 literal halves |Required chi>=189; priced cap187|Scoped exclusion under normalized history and monotone public routes.|
+| Five literal halves |A chi187 witness, rank14|Only a necessary screen passes; physical delivery unconstructed.|
+| Actual transferred complex column |Dyadic unit/inverse; module condition satisfied|Every completion of this fixed column fails independent (4,2,1) endpoints.|
+| Crot first interface |Exact capacity contradiction for arbitrary Q under stated projector hypotheses|Different C_T or other first interfaces are outside.|
 
-The scalar partial profiles and closed-source moments cannot be added as free
-compatible improvements. They use different locations and public routes. Source
-acquisition, receiver delivery and complete restoration must occur in one word.
-The gross complex (4,2,1) margin is about .560590248972 at t=.995 before other
-bills, comparing 3[1]+6[7]+3[8] against [25]+[23]+[22]. Component rank alone does
-not supply those independent jobs. Both spectator two-bank signs remain excluded.
+Each movement number is for one literal source experiment and includes minimum
+remaining public ascents. Partial margins cannot be summed across incompatible
+words. Cache access and receiver positions are real obligations. Each complex
+exclusion retains actual endpoint units and inverses; rank alone is insufficient.
 
 ## Retained exact supplier and accounting contracts
 

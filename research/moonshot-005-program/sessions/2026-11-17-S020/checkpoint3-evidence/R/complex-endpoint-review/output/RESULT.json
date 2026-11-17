@@ -1,0 +1,171 @@
+{
+  "status": "PASS_INDEPENDENT_ENDPOINT_GATE_LITERAL_PREMISES_AND_C4_WORDS",
+  "arithmetic_sha256": "410c8426e31bc60e76d88095b2ef568c766b46f6dd5a66ff9e8ae9a980a542e2",
+  "c4_words_sha256": "7b5418069eba16002cc0e59fa10a555edd15ee4147fd34c507ee7141077ea044",
+  "c4_proof_sha256": "42b6eb5a402fcdf60e6ca2ecfd5ddaf7e8d8b37bc3ad95968c6913a7d62a42e6",
+  "nonordinary_A2_s1_conjugate_column_support": 4,
+  "Ue_two_coset_identity": true,
+  "transferred_column_identity_on_e": true,
+  "quartic_path_census": {
+    "klein": [
+      [
+        4,
+        4,
+        3
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    ],
+    "rotation": [
+      [
+        4,
+        3,
+        3
+      ],
+      [
+        [
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "kernel_traces": [
+    {
+      "exponents": [
+        0,
+        0,
+        0
+      ],
+      "trace": 16
+    },
+    {
+      "exponents": [
+        0,
+        0,
+        1
+      ],
+      "trace": 8
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        0
+      ],
+      "trace": 0
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        1
+      ],
+      "trace": 0
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        0
+      ],
+      "trace": 8
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        1
+      ],
+      "trace": 0
+    },
+    {
+      "exponents": [
+        1,
+        1,
+        0
+      ],
+      "trace": 8
+    },
+    {
+      "exponents": [
+        1,
+        1,
+        1
+      ],
+      "trace": 8
+    }
+  ],
+  "all_width_rank_formula_controls": [
+    {
+      "width": 1,
+      "quadratic_kernel": 0,
+      "quadratic_rank": 16
+    },
+    {
+      "width": 2,
+      "quadratic_kernel": 16,
+      "quadratic_rank": 240
+    },
+    {
+      "width": 3,
+      "quadratic_kernel": 384,
+      "quadratic_rank": 3712
+    },
+    {
+      "width": 4,
+      "quadratic_kernel": 7168,
+      "quadratic_rank": 58368
+    },
+    {
+      "width": 5,
+      "quadratic_kernel": 122880,
+      "quadratic_rank": 925696
+    },
+    {
+      "width": 6,
+      "quadratic_kernel": 2031616,
+      "quadratic_rank": 14745600
+    }
+  ],
+  "c4_character_values": [
+    [
+      "1",
+      "0"
+    ],
+    [
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0"
+    ]
+  ],
+  "c4_forward_inverse_counts": {
+    "ADD": 9,
+    "SCALE": 18,
+    "MONO": 12
+  },
+  "omitted_ADD_controls": 18,
+  "uniform_C4_prefix_bounds": [
+    "5/2",
+    "19/4",
+    "77/8"
+  ],
+  "three_noncommuting_last_column_identity_checks": 3,
+  "proof_scope": "The universal endpoint exclusions are proved in the separate written review using actual encoders/decoders, finite-catalogue separation and ordinary capacity. Finite source checks alone do not prove them.",
+  "new_complete_kappa": false
+}

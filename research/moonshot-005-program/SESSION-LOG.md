@@ -2295,3 +2295,30 @@ pins are retained. The old coordinate base receipt is preserved separately from
 its strengthened support17 receipt. Both strict suppliers, all foundations and
 full outer assembly remain open. No new complete κ or PR readiness. The
 resulting commit SHA is recorded separately after remote confirmation.
+
+
+## 2026-11-17-S020 — checkpoint3
+
+Confirmed parent `0ca7c81c12d226c97028cb5fddb1e5d65e24af5d`. Checkpoint2's nonforced remote publication and
+independently reconstructed full Git tree are recorded in its retained receipt.
+Canonical main was rechecked mid-session and remains `e54523517d0f03e58352e647c403a5af3e525a57`. The session
+continues toward08:06 UTC; selected conditional κ remains .00363005817.
+
+Admitted actual all103 receiver corrections, lower retention and twelve proper
+query exports, all222 columns and ordered actual inverses. The last source has
+movement1555.518629750155... and necessary room66.232250460996... . No diagonal
+endpoint is completed. Priced occurrence caps187 exclude canonical plus at most
+four selected literal halves, whose exact minimum is189. Arbitrary coded
+combinations and changed initial nonlocal information remain outside.
+
+Admitted the coupled-column module criterion, actual signed dyadic kernel
+transfer, and two scoped endpoint exclusions with actual encoders/decoders.
+The positive transfer solves one necessary module comparison but its fixed
+last-column completion family fails the desired independent (4,2,1) caller.
+Crot is separately excluded; changed first interfaces remain active.
+
+Fourteen focused checks pass,26 outputs reproduce byte-for-byte and12 inherited
+pins match the confirmed tree. Historical scientific pins and prior logical
+records remain cumulative. Stronger dormant-cache/fanout and changed-interface
+work remains outside this checkpoint pending independent admission. No complete
+supplier, new κ, foundational discharge or PR readiness is claimed.

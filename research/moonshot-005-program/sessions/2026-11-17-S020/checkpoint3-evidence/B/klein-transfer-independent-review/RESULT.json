@@ -1,0 +1,192 @@
+{
+  "status": "PASS_INDEPENDENT_KLEIN_TRANSFER_AND_ENDPOINT_GATE_REVIEW",
+  "source_proof_sha256": "25f2f22e9a1da40af462c7fd4e6b8767c6b970368f2f2588c56fc9fc97df7326",
+  "source_words_sha256": "1d9afb7b092b73ce94eff9dba6f1eec45de575a5053aa086dcd4f58960de9157",
+  "engine_sha256": "1d3c798c43b46e1983f4dc80d68e694b93d9cdee206ad4fe4d408e5f5e29ed91",
+  "literal_phase_sensitive_conjugacies": true,
+  "all_width_partial_isometry_and_actual_inverse": true,
+  "primitive_receipts": {
+    "Q_column": {
+      "counts": {
+        "ADD": 15,
+        "SCALE": 27,
+        "MONO": 24
+      },
+      "width_one_gaussian_l1_prefix_control": "2",
+      "all_input_columns": true,
+      "universal_prefix_bound": "retain the author's coefficient-triangle bound; the smaller width-one value is not promoted"
+    },
+    "Q_column_inverse": {
+      "counts": {
+        "MONO": 24,
+        "SCALE": 27,
+        "ADD": 15
+      },
+      "width_one_gaussian_l1_prefix_control": "3",
+      "all_input_columns": true,
+      "universal_prefix_bound": "retain the author's coefficient-triangle bound; the smaller width-one value is not promoted"
+    },
+    "Q_high_low": {
+      "counts": {
+        "MONO": 43,
+        "ADD": 30,
+        "SCALE": 53
+      },
+      "width_one_gaussian_l1_prefix_control": "3",
+      "all_input_columns": true,
+      "universal_prefix_bound": "retain the author's coefficient-triangle bound; the smaller width-one value is not promoted"
+    },
+    "Q_high_low_inverse": {
+      "counts": {
+        "MONO": 43,
+        "SCALE": 55,
+        "ADD": 30
+      },
+      "width_one_gaussian_l1_prefix_control": "13/4",
+      "all_input_columns": true,
+      "universal_prefix_bound": "retain the author's coefficient-triangle bound; the smaller width-one value is not promoted"
+    }
+  },
+  "negative_controls": {
+    "phase_drop_h": true,
+    "phase_drop_G": true,
+    "omitted_ADDs": 8,
+    "width_one_N0_equals_R1_but_width_two_does_not": true
+  },
+  "endpoint_gate": {
+    "partial_column_condition": "p e=e,z e=w e=0, e=Ps1 Mt1",
+    "nonordinary_conjugate_support_rank": 2,
+    "same_plus_capacity_applies_to_actual_encoder_and_decoder": true,
+    "all_completions_with_transferred_last_column_excluded": true,
+    "different_last_columns_not_excluded": true
+  },
+  "quadratic_kernel_traces": [
+    {
+      "exponents": [
+        0,
+        0,
+        0
+      ],
+      "trace": 16
+    },
+    {
+      "exponents": [
+        0,
+        0,
+        1
+      ],
+      "trace": 8
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        0
+      ],
+      "trace": 0
+    },
+    {
+      "exponents": [
+        0,
+        1,
+        1
+      ],
+      "trace": 0
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        0
+      ],
+      "trace": 8
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        1
+      ],
+      "trace": 0
+    },
+    {
+      "exponents": [
+        1,
+        1,
+        0
+      ],
+      "trace": 8
+    },
+    {
+      "exponents": [
+        1,
+        1,
+        1
+      ],
+      "trace": 8
+    }
+  ],
+  "quadratic_last_column_ranks": [
+    {
+      "width": 1,
+      "quadratic_last_column_kernel": 0,
+      "quadratic_last_column_rank": 16
+    },
+    {
+      "width": 2,
+      "quadratic_last_column_kernel": 16,
+      "quadratic_last_column_rank": 240
+    },
+    {
+      "width": 3,
+      "quadratic_last_column_kernel": 384,
+      "quadratic_last_column_rank": 3712
+    },
+    {
+      "width": 4,
+      "quadratic_last_column_kernel": 7168,
+      "quadratic_last_column_rank": 58368
+    },
+    {
+      "width": 5,
+      "quadratic_last_column_kernel": 122880,
+      "quadratic_last_column_rank": 925696
+    },
+    {
+      "width": 6,
+      "quadratic_last_column_kernel": 2031616,
+      "quadratic_last_column_rank": 14745600
+    },
+    {
+      "width": 7,
+      "quadratic_last_column_kernel": 33030144,
+      "quadratic_last_column_rank": 235405312
+    },
+    {
+      "width": 8,
+      "quadratic_last_column_kernel": 532676608,
+      "quadratic_last_column_rank": 3762290688
+    },
+    {
+      "width": 9,
+      "quadratic_last_column_kernel": 8556380160,
+      "quadratic_last_column_rank": 60163096576
+    },
+    {
+      "width": 10,
+      "quadratic_last_column_kernel": 137170518016,
+      "quadratic_last_column_rank": 962341109760
+    },
+    {
+      "width": 11,
+      "quadratic_last_column_kernel": 2196875771904,
+      "quadratic_last_column_rank": 15395310272512
+    },
+    {
+      "width": 12,
+      "quadratic_last_column_kernel": 35167192219648,
+      "quadratic_last_column_rank": 246307784491008
+    }
+  ],
+  "new_complete_kappa": false
+}
