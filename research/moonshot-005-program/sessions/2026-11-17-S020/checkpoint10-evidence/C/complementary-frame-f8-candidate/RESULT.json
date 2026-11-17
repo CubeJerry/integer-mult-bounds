@@ -1,0 +1,623 @@
+{
+  "status": "PASS_CONDITIONAL_F8_COEFFICIENT_NETWORK",
+  "field": "F2[lambda]/(lambda^3+lambda+1)",
+  "lambda": 2,
+  "round_matrices": [
+    [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    [
+      [
+        1,
+        6
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ]
+  ],
+  "determinants": [
+    3,
+    5,
+    4
+  ],
+  "roles": [
+    14,
+    17,
+    19,
+    20,
+    96,
+    99,
+    101,
+    102
+  ],
+  "native_source_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "seed_permutation": [
+    1,
+    2,
+    3,
+    0,
+    7,
+    4,
+    5,
+    6
+  ],
+  "events": [
+    {
+      "round": 1,
+      "pair": [
+        0,
+        4
+      ],
+      "roles": [
+        14,
+        96
+      ],
+      "source_mask": 130,
+      "rank": 2,
+      "matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "pair": [
+        1,
+        5
+      ],
+      "roles": [
+        17,
+        99
+      ],
+      "source_mask": 20,
+      "rank": 2,
+      "matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "pair": [
+        2,
+        6
+      ],
+      "roles": [
+        19,
+        101
+      ],
+      "source_mask": 40,
+      "rank": 2,
+      "matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "pair": [
+        3,
+        7
+      ],
+      "roles": [
+        20,
+        102
+      ],
+      "source_mask": 65,
+      "rank": 2,
+      "matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "pair": [
+        0,
+        5
+      ],
+      "roles": [
+        14,
+        99
+      ],
+      "source_mask": 150,
+      "rank": 4,
+      "matrix": [
+        [
+          1,
+          6
+        ],
+        [
+          7,
+          1
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "pair": [
+        1,
+        6
+      ],
+      "roles": [
+        17,
+        101
+      ],
+      "source_mask": 60,
+      "rank": 4,
+      "matrix": [
+        [
+          1,
+          6
+        ],
+        [
+          7,
+          1
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "pair": [
+        2,
+        7
+      ],
+      "roles": [
+        19,
+        102
+      ],
+      "source_mask": 105,
+      "rank": 4,
+      "matrix": [
+        [
+          1,
+          6
+        ],
+        [
+          7,
+          1
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "pair": [
+        3,
+        4
+      ],
+      "roles": [
+        20,
+        96
+      ],
+      "source_mask": 195,
+      "rank": 4,
+      "matrix": [
+        [
+          1,
+          6
+        ],
+        [
+          7,
+          1
+        ]
+      ]
+    },
+    {
+      "round": 3,
+      "pair": [
+        0,
+        6
+      ],
+      "roles": [
+        14,
+        101
+      ],
+      "source_mask": 190,
+      "rank": 6,
+      "matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    {
+      "round": 3,
+      "pair": [
+        1,
+        7
+      ],
+      "roles": [
+        17,
+        102
+      ],
+      "source_mask": 125,
+      "rank": 6,
+      "matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    {
+      "round": 3,
+      "pair": [
+        2,
+        4
+      ],
+      "roles": [
+        19,
+        96
+      ],
+      "source_mask": 235,
+      "rank": 6,
+      "matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    {
+      "round": 3,
+      "pair": [
+        3,
+        5
+      ],
+      "roles": [
+        20,
+        99
+      ],
+      "source_mask": 215,
+      "rank": 6,
+      "matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          5
+        ]
+      ]
+    }
+  ],
+  "network_matrix": [
+    [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      2
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      2,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    [
+      5,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      5,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      5,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      5,
+      0,
+      1,
+      1,
+      1
+    ]
+  ],
+  "ground_inverse": [
+    [
+      3,
+      0,
+      3,
+      3,
+      3,
+      0,
+      6,
+      0
+    ],
+    [
+      3,
+      3,
+      0,
+      3,
+      0,
+      3,
+      0,
+      6
+    ],
+    [
+      3,
+      3,
+      3,
+      0,
+      6,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      3,
+      3,
+      3,
+      0,
+      6,
+      0,
+      3
+    ],
+    [
+      4,
+      0,
+      3,
+      0,
+      3,
+      3,
+      3,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      3,
+      0,
+      3,
+      3,
+      3
+    ],
+    [
+      3,
+      0,
+      4,
+      0,
+      3,
+      0,
+      3,
+      3
+    ],
+    [
+      0,
+      3,
+      0,
+      4,
+      3,
+      3,
+      0,
+      3
+    ]
+  ],
+  "X_payload_matrix": [
+    [
+      0,
+      1,
+      1,
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      2,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      2
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      2,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      5,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      5,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      5,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      5,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  ],
+  "all_independent_binary_columns": 48,
+  "omitted_pair_controls": 12,
+  "public_route_ranks": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    7
+  ],
+  "eight_route_profile": {
+    "1": 24,
+    "2": 16
+  },
+  "increment_over_direct_eight_facets": {
+    "1": 24,
+    "2": 16,
+    "7": -8
+  },
+  "completed_diagonal_outputs": 0,
+  "owned_MOVEs_if_local_maps_are_admitted": 0,
+  "local_BIT_coefficient_compiler_supplied": false,
+  "constant_lane_control": {
+    "input_bits": [
+      1,
+      1,
+      1
+    ],
+    "lambda_times_input_bits": [
+      1,
+      0,
+      1
+    ],
+    "whole_record_ADD_and_coordinate_permutations_alone_cannot_compile_lambda": true
+  },
+  "scope": "An exact algebraic block-coefficient escape from the scalar F2 gate. NOT an admitted primitive BIT source word or profitable supplier."
+}

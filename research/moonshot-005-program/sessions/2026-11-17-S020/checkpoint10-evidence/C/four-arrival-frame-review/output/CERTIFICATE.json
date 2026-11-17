@@ -1,0 +1,67 @@
+{
+  "status": "PASS_INDEPENDENT_LITERAL_PAIR_MODE_REPAIR",
+  "pins": {
+    "native": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+    "word": "a0c4665881feb6cdccd8dc8987387e578719bd191d028dc9851ceb355e85efdc",
+    "parent": "6f1bd8465c7a4fa5b7b59888fb5dbd9bbbb88dc3306c984bd71497fd4be7d980",
+    "arithmetic": "41b4d0ec79abc43cc32a9b97d8a36fb3805e5602630b07c2f74a5999a281a565",
+    "interpreter": "d5122fa1eed5463a1bd8c3e21cf39125d94909ab80332c74b143dd40d46d79fa"
+  },
+  "cut": 1985,
+  "fields": 410,
+  "all_input_columns": 222,
+  "stats": {
+    "counts": {
+      "INIT": 188,
+      "ADD": 1400,
+      "MOVE": 508,
+      "CLEAR": 188
+    },
+    "movement_profile": {
+      "1": 179,
+      "2": 111,
+      "3": 4,
+      "4": 103,
+      "7": 111
+    },
+    "owned_upward_profile": {
+      "3": 4
+    },
+    "owned_downward_profile": {
+      "1": 36
+    },
+    "peak_owned": 188,
+    "dirty_CLEAR": 188
+  },
+  "completed_diagonal_values": 8,
+  "new_native_foreign_coefficients": 40,
+  "new_owner_names": [
+    "FRAME_PAIR_TO_B0",
+    "FRAME_PAIR_TO_B1",
+    "FRAME_PAIR_TO_B2",
+    "FRAME_PAIR_TO_B3"
+  ],
+  "owner_pair_rows": {
+    "0x9000000000000000000000000": 2,
+    "0x60000000000000000000000000": 2
+  },
+  "omitted_paid_arrival_or_delivery_controls": [
+    1961,
+    1963,
+    1964,
+    1966,
+    1967,
+    1969,
+    1970,
+    1972
+  ],
+  "moment_interval": [
+    "7953985537764672209974076695627107/5000000000000000000000000000000",
+    "7953985537764672209974076695627361/5000000000000000000000000000000"
+  ],
+  "necessary_limiting_room_interval": [
+    "232153294936634349385731084311327/7500000000000000000000000000000",
+    "1857226359493074795085848674495033/60000000000000000000000000000000"
+  ],
+  "scope": "Actual paid pair2-to-rank5 owned ascents before round3; no added descent, no new complete diagonal output or supplier claim."
+}

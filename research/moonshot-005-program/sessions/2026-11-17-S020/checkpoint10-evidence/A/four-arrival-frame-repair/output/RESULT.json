@@ -1,0 +1,114 @@
+{
+  "status": "PASS_ACTUAL_FOUR_PAID_PAIR_ARRIVAL_SERVICE",
+  "word_sha256": "a0c4665881feb6cdccd8dc8987387e578719bd191d028dc9851ceb355e85efdc",
+  "parent_word_sha256": "6f1bd8465c7a4fa5b7b59888fb5dbd9bbbb88dc3306c984bd71497fd4be7d980",
+  "cut": 1985,
+  "all_original_columns": 222,
+  "live_fields": 410,
+  "completed_outputs": 8,
+  "new_native_foreign_coefficients": 40,
+  "total_unknown_foreign_coefficients": 452,
+  "all_arbitrary_Y_baselines_restored": true,
+  "original_X_restored_at_Hub": true,
+  "public_Y_rank_histogram": {
+    "0": 103,
+    "6": 8
+  },
+  "stats": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 188,
+      "ADD": 1400,
+      "MOVE": 508,
+      "CLEAR": 188
+    },
+    "movement_profile": {
+      "1": 179,
+      "2": 111,
+      "3": 4,
+      "4": 103,
+      "7": 111
+    },
+    "dirty_CLEAR": 188,
+    "peak_owned": 188,
+    "owned_upward_moves": [
+      {
+        "operation": 1961,
+        "field": "FRAME_PAIR_TO_B0",
+        "from": "FRAME_PAIR_P1",
+        "to": "FRAME_PAIR_E0",
+        "gap": 3
+      },
+      {
+        "operation": 1964,
+        "field": "FRAME_PAIR_TO_B1",
+        "from": "FRAME_PAIR_P0",
+        "to": "FRAME_PAIR_E1",
+        "gap": 3
+      },
+      {
+        "operation": 1967,
+        "field": "FRAME_PAIR_TO_B2",
+        "from": "FRAME_PAIR_P1",
+        "to": "FRAME_PAIR_E2",
+        "gap": 3
+      },
+      {
+        "operation": 1970,
+        "field": "FRAME_PAIR_TO_B3",
+        "from": "FRAME_PAIR_P0",
+        "to": "FRAME_PAIR_E3",
+        "gap": 3
+      }
+    ],
+    "owned_downward_profile": {
+      "1": 36
+    }
+  },
+  "movement_delta": {
+    "1": 40,
+    "2": 8,
+    "3": 4,
+    "7": -8
+  },
+  "added_moment": {
+    "rational": [
+      "621056050002692572378350827602558559810651/50000000000000000000000000000000000000000",
+      "155264012500673143094587706900639639952663/12500000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "12.42112100005385144756701655205117119621302",
+      "12.42112100005385144756701655205117119621304"
+    ]
+  },
+  "moment": {
+    "rational": [
+      "159079710755293444199481533912544866150194031/100000000000000000000000000000000000000000",
+      "1590797107552934441994815339125448661501940639/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1590.79710755293444199481533912544866150194031",
+      "1590.797107552934441994815339125448661501940639"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "30953772658217913251430811241546324945974811/1000000000000000000000000000000000000000000",
+      "37144527189861495901716973489855589935170427/1200000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "30.953772658217913251430811241546324945974811",
+      "30.953772658217913251430811241546324945975355833333333333333333333"
+    ]
+  },
+  "negative_controls": [
+    "omit_pair_actual_capture",
+    "omit_pair_source_inverse",
+    "omit_ground_network_inverse",
+    "omit_native_seed_read",
+    "omit_frame_forward_network",
+    "omit_paid_pair_owned_ascent",
+    "omit_actual_pair_receiver_service"
+  ],
+  "scope": "Actual early pair captures and four paid owned2-to5 ascents supply eight receivers with three own-frame neighbours plus two native cross-frame terms. All eight coordinate Ys stay complete at ground;103 Ys remain ground. No new diagonal output, complete supplier or cost dominance claim."
+}

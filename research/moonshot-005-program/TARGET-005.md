@@ -1,54 +1,19 @@
-# Exact requirements for κ=1/200
+# Exact target κ=1/200 — S020 checkpoint10
 
-## Current interfaces — S020 checkpoint9
+No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The programme is ongoing and is not PR-ready.
 
-No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
+The best completed-value source has16 outputs and95 remaining. Its favorable
+movement room is34.670658112047... before the fresh nine-descent minimum;
+25.670658112047... remains after that minimum. Finite and ordinary costs
+are stricter. Shared-half and upward sources have separate invoices and
+cannot be composed for free. No local source margin is a complete supplier.
 
-At t=199/200 the favorable limiting movement allowance remains
-1621.750880211152355246... . Finite corrections and nonmovement costs are stricter.
+The current fixed Cprime column and simplest Cmix are excluded within their
+stated collective-tail scopes. Actual changed interfaces and full endpoints
+remain open. The exact Gaussian-dyadic prefix compiler classification is
+local and does not discharge the full physical compiler foundation.
 
-| Actual interface | Proven cost or restriction | Open work |
-|---|---|---|
-|16 completed values;95 Y ground |Q0=1587.080222099104...; room34.670658112047...|Finish95 receivers with actual fields.|
-| Same424-field source, fresh witness |9 additional descents; minimum-charge room25.670658112047...|A full chronological decoder, not merely minimum charges.|
-| Four shared-half exports;7 services |Q0=1583.421119713219...; room38.329760497932...;8 outputs complete|Scale actual mode delivery from raised charts.|
-| Same420-field source, explicit16-input conditioning |9 additional descents; minimum-charge room29.329760497932...|No free physical access to conditioned inputs.|
-| Earlier fixed complex column |Positive exact units/column, but all completions closed within scope|Change C or column.|
-| New anticommuting Cprime/Q0 |12/12/7 and80/152/120 both directions; literal source cancellation|Actual Gaussian encoder containment, both endpoints and all input columns.|
-| Paid native prefix normalization |Three-native overhead144/288/228|Target-prefix restoration and complete caller costs remain additional.|
-
-## Paid owned upward reuse and its fresh information bound
-
-The [literal upward-reuse source](results/bit-owned-upward-half-reuse/ADMISSION.md)
-uses one charged rank2→4 owned ascent to remove an actual half sum from a
-raised courier before a rank-six public exchange. It restores every arbitrary
-baseline and checks all222 columns/420 fields. Its Q0 is1585.434910782782...
-with room36.315969428369... . It has8 completed outputs and484 native foreign
-terms, so it improves neither the16-output frontier nor the parent's cost.
-The strict downward-owner submodel rejects it; the paid nested-owned model
-and all public upward rules are explicit.
-
-The [fresh cut bound](results/bit-post-upward-fresh-transcript/ADMISSION.md)
-audits56 current nonnative incidences, conditions the same16 actual source
-coordinates only for information, and verifies87 unknowns. The exact17/2
-entropy witness still requires9 further descents, leaving27.315969428369...
-after their minimum charges. No old-cut locality or free input grant is used.
-
-## Exact fixed-column obstruction and finite-prefix compiler
-
-The [changed fixed-column gate](results/complex-anticommuting-fixed-column-gate/ADMISSION.md)
-proves that the current Cprime cancelling column cannot extend to an independent
-421 endpoint in the fixed-prefix/collective-tail model. Its quadratic cosets
-force ordinary coefficient rank6, exceeding actual one-bank capacity4.
-Exact minors i/64 and(1+i)/128 certify the gap. The positive interface remains
-valid; a different column or changed interface is required.
-
-The [Gaussian-dyadic prefix compiler](results/complex-gaussian-dyadic-prefix-compiler/ADMISSION.md)
-classifies M in GL_(bd)(Z[i,1/2]) under whole-bank ADD, unit SCALE and all
-root-four prefix MONOs: a fixed finite program exists iff d divides
-v_(1+i)(det M). It uses existing b>=2 arbitrary banks and works for every
-tail size. Restored borrowers, nonunit shear coefficients and Gaussian Euclid
-are explicit. The full compiler foundation and resource accounting remain open.
+Next concrete construction: Admit and continue the literal two-pair-mode repair at full-half cut1893. It uses A=(14,17,19,20), B=(96,101,99,102), three cyclic matching rounds and four paid pair2-to-rank5 arrivals BEFORE round3. The late independent source review is preserved; integrate its exact timed word and invoice before a further receiver continuation, keeping all222 original columns and arbitrary Y baselines explicit.
 
 ## Retained exact supplier and accounting contracts
 

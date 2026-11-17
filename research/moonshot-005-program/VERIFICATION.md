@@ -1,5 +1,26 @@
 # Verification ledger
 
+## S020 checkpoint10 — final integration
+
+Confirmed parent `382e3a8ca29ab3a0fd23b4498eed4d98cd3a4f34`. Five focused checks reproduce7 outputs byte for
+byte with39 inherited dependencies authenticated at checkpoint9.
+[Validation](sessions/2026-11-17-S020/CHECKPOINT10-VALIDATION.json),
+[pins](sessions/2026-11-17-S020/SOURCE-PINS-CP10.json),
+[prior receipt](sessions/2026-11-17-S020/CHECKPOINT9-REMOTE-RECEIPT.json).
+A enumerates all seed permutations; root replays the actual source and derives
+cases by incidence signatures. C supplies the universal block proof. C also
+reconstructs B's exact source gauges,48-column unit/inverse,16 omitted ADDs,
+D8 kernel and scoped mixed-interface gate with separate arithmetic.
+
+```bash
+python -B research/moonshot-005-program/sessions/2026-11-17-S020/reproduce_cp10.py --repo . --out /tmp/moonshot-cp10
+```
+
+Python3.11+ and NumPy are needed here; earlier session reproducers also use
+SymPy. Reexecution is not independent proof. Optional exhaustive coefficient
+search is not needed for the theorem. All frozen prior pins remain unchanged.
+No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The programme is ongoing and is not PR-ready.
+
 ## S020 checkpoint9
 
 Confirmed parent `3632344f8bba3a67479494eecbffcedefdb23bd9`. Four focused checks reproduce5 outputs byte for

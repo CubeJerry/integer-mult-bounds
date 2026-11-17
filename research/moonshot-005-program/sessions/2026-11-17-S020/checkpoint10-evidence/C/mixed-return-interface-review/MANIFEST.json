@@ -1,0 +1,25 @@
+{
+  "package": "S020-C-mixed-return-interface-review",
+  "status": "FROZEN_PASS",
+  "author_package": "workers/B/return-clock-source-interface",
+  "author_files": {
+    "check.py": "ea2445dffc09e5add44194ade6aed3fe887b6f629a36d543d8f388b5e563706f",
+    "PROOF.md": "82c0dec112b3f9eaf0a06cbf9b75c8b1be49ec70cb68d69f25c1cb0e7b778270",
+    "RESULT.json": "ee1376d3f0d6b2637481420bd40389c5b189215d29f71476b08150a01c37713a",
+    "WORDS.json": "1d95502302de19b7af54453a5a362f07d5715095c4b0daff0f29ed6ed51e58a5"
+  },
+  "files": {
+    "check.py": "433a9233b07af67563513356ab6f7dee0e44cc1d15705dc3a67c7c5083601f72",
+    "REVIEW.md": "f99078c39b2b5d4075467de4eb1ba85d0a623eff279f5c67ad0c83a7844bc5aa",
+    "CERTIFICATE.json": "bf8b17c2fb341ccb33ed4a851fb2050180066e1590d8a523eb340dec26ffa252"
+  },
+  "dependency": {
+    "path": "workers/C/gaussian-dyadic-prefix-compiler/check.py",
+    "sha256": "5a75913c9f2f9f55fe33174802e3fa40b8e1358ccb3966ce6638eaab9b4ffedb"
+  },
+  "historical_return": {
+    "path": "research/moonshot-005-program/sessions/2026-11-17-S019/checkpoint3-evidence/C/s3-review/check.py",
+    "sha256": "98776c08adbaa172677200ff29dd46fd1d0681caff71b517f5e4a053adb26a38"
+  },
+  "reproduce": "python -B check.py --arithmetic PATH --out RESULT.json"
+}

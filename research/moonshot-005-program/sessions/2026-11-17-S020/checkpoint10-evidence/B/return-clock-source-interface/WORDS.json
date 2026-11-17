@@ -1,0 +1,512 @@
+{
+  "forward": [
+    {
+      "op": "ADD",
+      "target": 0,
+      "source": 1
+    },
+    {
+      "op": "SCALE",
+      "bank": 1,
+      "coefficient": "-2"
+    },
+    {
+      "op": "ADD",
+      "target": 1,
+      "source": 0
+    },
+    {
+      "op": "MONO",
+      "bank": 1,
+      "name": "h"
+    },
+    {
+      "op": "ADD",
+      "target": 0,
+      "source": 1
+    },
+    {
+      "op": "SCALE",
+      "bank": 1,
+      "coefficient": "-2"
+    },
+    {
+      "op": "ADD",
+      "target": 1,
+      "source": 0
+    },
+    {
+      "op": "SCALE",
+      "bank": 0,
+      "coefficient": "1/2"
+    },
+    {
+      "op": "SCALE",
+      "bank": 1,
+      "coefficient": "1/2"
+    },
+    {
+      "op": "MONO",
+      "bank": 0,
+      "name": "h"
+    },
+    {
+      "op": "ADD",
+      "target": 1,
+      "source": 2
+    },
+    {
+      "op": "SCALE",
+      "bank": 2,
+      "coefficient": "-2"
+    },
+    {
+      "op": "ADD",
+      "target": 2,
+      "source": 1
+    },
+    {
+      "op": "MONO",
+      "bank": 2,
+      "name": "s"
+    },
+    {
+      "op": "ADD",
+      "target": 1,
+      "source": 2
+    },
+    {
+      "op": "SCALE",
+      "bank": 2,
+      "coefficient": "-2"
+    },
+    {
+      "op": "ADD",
+      "target": 2,
+      "source": 1
+    },
+    {
+      "op": "SCALE",
+      "bank": 1,
+      "coefficient": "1/2"
+    },
+    {
+      "op": "SCALE",
+      "bank": 2,
+      "coefficient": "1/2"
+    },
+    {
+      "op": "MONO",
+      "bank": 1,
+      "name": "s"
+    }
+  ],
+  "inverse": [
+    {
+      "op": "MONO",
+      "bank": 1,
+      "name": "s"
+    },
+    {
+      "op": "ADD",
+      "target": 1,
+      "source": 2
+    },
+    {
+      "op": "SCALE",
+      "bank": 2,
+      "coefficient": "-2"
+    },
+    {
+      "op": "ADD",
+      "target": 2,
+      "source": 1
+    },
+    {
+      "op": "MONO",
+      "bank": 2,
+      "name": "s"
+    },
+    {
+      "op": "ADD",
+      "target": 1,
+      "source": 2
+    },
+    {
+      "op": "SCALE",
+      "bank": 2,
+      "coefficient": "-2"
+    },
+    {
+      "op": "ADD",
+      "target": 2,
+      "source": 1
+    },
+    {
+      "op": "SCALE",
+      "bank": 1,
+      "coefficient": "1/2"
+    },
+    {
+      "op": "SCALE",
+      "bank": 2,
+      "coefficient": "1/2"
+    },
+    {
+      "op": "MONO",
+      "bank": 0,
+      "name": "h"
+    },
+    {
+      "op": "ADD",
+      "target": 0,
+      "source": 1
+    },
+    {
+      "op": "SCALE",
+      "bank": 1,
+      "coefficient": "-2"
+    },
+    {
+      "op": "ADD",
+      "target": 1,
+      "source": 0
+    },
+    {
+      "op": "MONO",
+      "bank": 1,
+      "name": "h"
+    },
+    {
+      "op": "ADD",
+      "target": 0,
+      "source": 1
+    },
+    {
+      "op": "SCALE",
+      "bank": 1,
+      "coefficient": "-2"
+    },
+    {
+      "op": "ADD",
+      "target": 1,
+      "source": 0
+    },
+    {
+      "op": "SCALE",
+      "bank": 0,
+      "coefficient": "1/2"
+    },
+    {
+      "op": "SCALE",
+      "bank": 1,
+      "coefficient": "1/2"
+    }
+  ],
+  "literal_monomials": {
+    "s": {
+      "destinations": [
+        0,
+        1,
+        4,
+        5,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        10,
+        11,
+        14,
+        15
+      ],
+      "phases": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "h": {
+      "destinations": [
+        0,
+        1,
+        4,
+        5,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        10,
+        11,
+        14,
+        15
+      ],
+      "phases": [
+        0,
+        0,
+        1,
+        1,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "K": {
+      "destinations": [
+        0,
+        8,
+        2,
+        10,
+        1,
+        9,
+        3,
+        11,
+        4,
+        12,
+        6,
+        14,
+        5,
+        13,
+        7,
+        15
+      ],
+      "phases": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    "L": {
+      "destinations": [
+        0,
+        8,
+        2,
+        10,
+        1,
+        9,
+        3,
+        11,
+        4,
+        12,
+        6,
+        14,
+        5,
+        13,
+        7,
+        15
+      ],
+      "phases": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    "B": {
+      "destinations": [
+        2,
+        6,
+        10,
+        14,
+        0,
+        4,
+        8,
+        12,
+        3,
+        7,
+        11,
+        15,
+        1,
+        5,
+        9,
+        13
+      ],
+      "phases": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "r0": {
+      "destinations": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "phases": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "r1": {
+      "destinations": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "phases": [
+        0,
+        3,
+        0,
+        3,
+        0,
+        3,
+        0,
+        3,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    "r2": {
+      "destinations": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "phases": [
+        0,
+        1,
+        3,
+        0,
+        0,
+        1,
+        3,
+        0,
+        0,
+        1,
+        3,
+        0,
+        0,
+        1,
+        3,
+        0
+      ]
+    }
+  }
+}

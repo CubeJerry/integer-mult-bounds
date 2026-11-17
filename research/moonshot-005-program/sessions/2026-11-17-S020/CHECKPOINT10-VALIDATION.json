@@ -1,0 +1,68 @@
+{
+  "status": "PASS_S020_CHECKPOINT10_FOCUSED_REPRODUCTION",
+  "checks": [
+    {
+      "name": "three-round-frame-gate",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint10-evidence/A/complementary-frame-search/check.py",
+      "script_sha256": "b75eb8c24d9809e9d74a57ab40871cdc216ec25df194cca7a6460f0c65017709",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-frame-gate",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint10-evidence/R/three-round-frame-review/check.py",
+      "script_sha256": "8fbe85f32fd7eb0f51a15de31d5fdb314dd1bd5e8568fae382a66a10f8801a6f",
+      "exit_code": 0
+    },
+    {
+      "name": "return-clock-interface",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint10-evidence/B/return-clock-source-interface/check.py",
+      "script_sha256": "ea2445dffc09e5add44194ade6aed3fe887b6f629a36d543d8f388b5e563706f",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-return-interface",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint10-evidence/C/mixed-return-interface-review/check.py",
+      "script_sha256": "433a9233b07af67563513356ab6f7dee0e44cc1d15705dc3a67c7c5083601f72",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-block-proof",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint10-evidence/C/complementary-frame-review/check.py",
+      "script_sha256": "4af48885644657a5b68a6e0aec03f76115c84355fba21537dc4d312d24073304",
+      "exit_code": 0
+    }
+  ],
+  "exact_reproductions": [
+    {
+      "path": "A/complementary-frame-search/output/RESULT.json",
+      "sha256": "20b665b916f86fdc10a3577f09e9043389deb8677b5b6f8653bfb75495df8802"
+    },
+    {
+      "path": "R/three-round-frame-review/output/RESULT.json",
+      "sha256": "c690fcfc8b8d659c26fd89da7b51ed221b84c68e4c7f5a6e5636c3b54babf18c"
+    },
+    {
+      "path": "B/return-clock-source-interface/RESULT.json",
+      "sha256": "ee1376d3f0d6b2637481420bd40389c5b189215d29f71476b08150a01c37713a"
+    },
+    {
+      "path": "B/return-clock-source-interface/WORDS.json",
+      "sha256": "1d95502302de19b7af54453a5a362f07d5715095c4b0daff0f29ed6ed51e58a5"
+    },
+    {
+      "path": "B/return-clock-source-interface/MANIFEST.json",
+      "sha256": "ada51392a68fc169744be7e04d589abd4651e2c952f2b6b0e4c03306de08327e"
+    },
+    {
+      "path": "C/mixed-return-interface-review/CERTIFICATE.json",
+      "sha256": "bf8b17c2fb341ccb33ed4a851fb2050180066e1590d8a523eb340dec26ffa252"
+    },
+    {
+      "path": "C/complementary-frame-review/CERTIFICATE.json",
+      "sha256": "c40cba1cedf3bfaf73e30b5c6e03a0adc4f93f8796a076d283242808faf73f79"
+    }
+  ],
+  "source_pins_sha256": "ef8dffb40983aadd7bb140e758d71d61190e6580f7db8ac28ed321fe5c82e6b7",
+  "independence": "Root independently replays actual source fields and derives all legal seed cases by missing-incidence signatures; A separately enumerates every seed permutation. C independently reconstructs B return/clock gauges, paid unit, all-width D8 kernel and fixed-interface gate with separate Fraction arithmetic. Reexecution is not independent proof.",
+  "new_complete_kappa": false
+}

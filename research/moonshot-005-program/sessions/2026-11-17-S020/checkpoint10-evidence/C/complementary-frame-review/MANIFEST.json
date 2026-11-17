@@ -1,0 +1,15 @@
+{
+  "status": "FROZEN_PASS",
+  "files": {
+    "check.py": "4af48885644657a5b68a6e0aec03f76115c84355fba21537dc4d312d24073304",
+    "REVIEW.md": "cc0a4a16871f784e16c99d86545cebfc6180a5a0000b0dd58b97ae5b40851d61",
+    "CERTIFICATE.json": "c40cba1cedf3bfaf73e30b5c6e03a0adc4f93f8796a076d283242808faf73f79"
+  },
+  "author_package_pins": {
+    "check.py": "b75eb8c24d9809e9d74a57ab40871cdc216ec25df194cca7a6460f0c65017709",
+    "PROOF.md": "017627d6b94ef7dcbf6a044bfe1f22ac322e8659b219b18a010aa792e38441a7",
+    "output/RESULT.json": "20b665b916f86fdc10a3577f09e9043389deb8677b5b6f8653bfb75495df8802"
+  },
+  "reproduce": "python -B check.py --native NATIVE.json --cut INDEPENDENT-CUT.json --cases A-RESULT.json --out RESULT.json",
+  "scope": "Exact three actual matching rounds, one native-unit seed per record, scalar binary invertible pair maps; no later information or outside records. Universal proof does not require completeness of finite case enumeration."
+}

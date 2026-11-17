@@ -124,6 +124,18 @@ v_(1+i)(det M). It uses existing b>=2 arbitrary banks and works for every
 tail size. Restored borrowers, nonunit shear coefficients and Gaussian Euclid
 are explicit. The full compiler foundation and resource accounting remain open.
 
+## Final S020 source and circuit results
+
+The [three-round frame gate](results/bit-three-actual-round-frame-gate/ADMISSION.md)
+excludes the exact one-unit-seed binary module under actual cochart meetings.
+A general block proof and independent192-case certificates agree. The
+attempted movement invoice is not promoted to a delivery word.
+
+The [return/phase package](results/complex-return-clock-mixed-interface/ADMISSION.md)
+adds phased source gauges, paid8/8/4 mixed units, an all-width D8 kernel and
+a precise fixed-Cmix421 obstruction. The unphased return is inherited and
+credited. Five final checks reproduce7 outputs with39 inherited pins.
+
 ## Evidence, accounting and provenance
 
 Confirmed parent `2711b6c571e7eeda0b64b5966686b59e26c392cc`; canonical upstream last examined `e54523517d0f03e58352e647c403a5af3e525a57`. All changes

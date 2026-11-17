@@ -1,18 +1,18 @@
-# Proof-dependency map — S020 checkpoint9
+# Remaining proof obligations — S020 checkpoint10
 
 No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The programme is ongoing and is not PR-ready.
 
-| Obligation | Established component | Remaining work |
+| Obligation | Established | Remaining |
 |---|---|---|
-|Complete BIT delivery|16 completed values,95 Ys ground; fresh9 future descents.|Finish95 outputs from the actual424-field source.|
-|Shared modes and owned reuse|Four exports serve7 receivers; one paid owned ascent is literal.|Profitable repeated delivery from actual charts.|
-|Current information|Fresh audits for16-output, shared-half and upward variants.|Keep their source-specific costs and conditioning distinct.|
-|Changed complex fixed column|Positive unit/cancellation; exact rank6>4 encoder obstruction.|Change the column or interface; arbitrary changed columns remain open.|
-|Local prefix compiler|Exact determinant divisibility criterion over Z[i,1/2], b>=2, full prefix MONOs.|General physical/compiler foundation and resource bounds.|
-|Independent Gaussian421 endpoints|No complete source factorization.|Both endpoint units, every column and full caller invoice.|
-|Strict theorem|Both suppliers and outer assembly remain open.|B>.005,U>.005,54 strict inequalities,4 functional constraints and recursion.|
+|BIT source and delivery|16 outputs; shared proper modes; paid owned reuse.|Complete95 remaining outputs or build a better actual source.|
+|Current information|Fresh exact9-descent bounds for distinct cuts.|An executable decoder with full chronological costs.|
+|Three-round module|General first-round-block obstruction; independent finite certificates.|An actual additional arrival or changed circuit, paid in full.|
+|Ordinary prefix compilation|Exact determinant criterion in Z[i,1/2] with full prefix MONOs.|General compiler, native/body costs and quantitative bounds.|
+|Complex source|Paid normalizers, Cprime and phased-return units; precise fixed-source gates.|Changed source/column with both actual independent endpoints.|
+|All-column theorem|No complete421 factorization.|Every input column, inverses and full ordinary bill.|
+|Foundations|Local components only.|native_all_columns, owned_erasure, compiler, precision_tape, analytic_recovery.|
+|κ>.005 theorem|Supplier contracts retained.|Both strict suppliers,54 strict checks,4 functional constraints and recursion.|
 
-Foundations native_all_columns, owned_erasure, compiler, precision_tape and
-analytic_recovery remain explicit. New source-return identities and
-complementary-frame circuits are still under research/review. Exact admitted
-quantifiers and provenance are in [the registry](REGISTERED-RESULTS.json).
+Current actual fields and costs are in [PROGRAMME](PROGRAMME.md); every gate
+retains its quantifiers in [the registry](REGISTERED-RESULTS.json). No earlier
+fixed-bank or fixed-column obstruction is transplanted to a changed source.

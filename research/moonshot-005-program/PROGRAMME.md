@@ -1,124 +1,93 @@
-# Persistent programme toward κ=.005
+# Persistent κ=0.005 research programme
 
-## Current frontier — S020 checkpoint9
+## Current status — S020 checkpoint10
 
-No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
+No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The programme is ongoing and is not PR-ready.
 
-The current completed-value frontier is a literal
-[sixteen-output proper source](results/bit-sixteen-proper-diagonals/ADMISSION.md).
-It extends the physical56-half reservoir through a reversible public-Y
-network and eight actual clique descents. Every original X is raw at Hub;
-95 remaining Y records are still at ground. The eight new completed values
-are at rank-three triples and the eight coordinate values at rank-four
-quartets. Only eight pure raw axis inputs are globally known at ground.
+Permanent branch: `CubeJerry/integer-mult-bounds:research/moonshot-005-program`.
+Confirmed parent `382e3a8ca29ab3a0fd23b4498eed4d98cd3a4f34`; the resulting commit is separately confirmed by
+remote ref, tree and parent readback. S020's requested session window is
+2026-11-17 03:06–08:06 UTC. Final integration and handoff are prepared here;
+no background continuation is configured.
 
-The424-field cut2091 costs Q0=1587.080222099104614269... at t=199/200 and
-leaves34.670658112047740976... necessary movement room. A
-[fresh source-specific entropy theorem](results/bit-post-sixteen-transcript/ADMISSION.md)
-proves at least nine additional downward transfers, leaving25.670658112047...
-after minimum charges. Its new witness avoids every completed receiver.
-It is not an inherited claim of nine more moves from the obsolete cut.
-Both independent implementations audit all95 unfinished facets.
+## Best proved BIT frontier and distinct source variants
 
-The enabling [public-Y parity relay](results/bit-public-y-parity-relays/ADMISSION.md)
-preserves arbitrary baselines by performing the inverse of its later Y
-network at ground. Actual pair captures and raw cleanup snapshots make
-every cochart read available. Eight receivers obtain all three own-frame
-neighbours with no added owned movement; public subdivision costs0.7042355.
-The newly admitted shared-half service below is a different actual source
-variant. Partial source invoices cannot be added across variants.
+| Actual source | Completed values | Movement moment at t=199/200 | Room after nine necessary future unit descents |
+|---|---:|---:|---:|
+|[Sixteen proper diagonals](results/bit-sixteen-proper-diagonals/ADMISSION.md), cut2091,424 fields|16|1587.080222099104...|25.670658112047...|
+|[Shared-half service](results/bit-shared-proper-half-service/ADMISSION.md), cut2089,420 fields|8|1583.421119713219...|29.329760497932...|
+|[Paid upward reuse](results/bit-owned-upward-half-reuse/ADMISSION.md), cut2097,420 fields|8|1585.434910782782...|27.315969428369...|
 
-Complex work now has [literal ordinary endpoint units for one full input
-column](results/complex-prefix-endpoint-column/ADMISSION.md). Its paid prefix
-model, source identities, inverse words and104 omission controls are verified.
-The [fixed-column extension gate](results/complex-fixed-prefix-column-gate/ADMISSION.md)
-then shows that repairing unused columns cannot complete the caller: a
-linear encoder's half-bank kernel would need three quarters of a bank.
-The positive column and costs remain valid; a changed first interface or
-column is required. The new three-rotation interface below removes that specific source-row
-obstruction; no independent endpoint factorization is claimed.
+The16-output source has95 Ys still at ground and all111 raw X at Hub.
+Only eight raw axis inputs are globally available at ground; completing
+eight further values does not grant those eight raw inputs everywhere.
+The movement allowance is1621.750880211152355246... before stricter finite
+and nonmovement charges. Distinct source invoices cannot be added together.
 
-## Actual proper-half service and changed complex source
+Each nine-descent bound uses a fresh current-field audit and exact106-term
+entropy witness. Shared-half/upward variants condition16 source coordinates
+only for the lower bound; they grant no physical free access. All66/56 leaked
+incidences respectively are explicit. The paid ascent is valid in the nested
+owned-turn model and rejected by the preserved descending-only submodel.
+These are whole-record occurrence bounds, not9m vector-rank claims.
 
-The [shared-half module](results/bit-shared-proper-half-service/ADMISSION.md)
-uses four actual rank3→2 exports to serve seven raised receivers. Seven
-ground couriers meet targets at rank-four joins; two-ADD exchanges clean
-the couriers and restore arbitrary baselines prepared by an earlier inverse.
-The420-field source has485 foreign coefficients,88 ground Ys and still8
-completed coordinate outputs. Q0=1583.421119713219500075... leaves38.329760497932...
-necessary movement room. It is not a free suffix of the16-output source.
+The [three actual matching-round gate](results/bit-three-actual-round-frame-gate/ADMISSION.md)
+now closes the one-unit-seed, binary, eight-record module. The general
+first-round block proof covers arbitrary seed bijections. A and root's
+separate192-case certificates corroborate it. Extra information arrivals,
+other meetings and broader coefficient models remain outside the gate.
 
-The new fields expose66 forbidden field/facet incidences. The
-[fresh information bound](results/bit-shared-half-fresh-transcript/ADMISSION.md)
-conditions their16 actual source coordinates only as a lower-bound relaxation,
-audits all87 remaining unknowns and rechecks a new106-term witness. At least
-nine additional descents are necessary, leaving29.329760497932... after
-minimum charges. No physical access to the conditioned inputs is granted.
+## Complex source and exact local compilation
 
-The [anticommuting prefix interface](results/complex-anticommuting-prefix-interface/ADMISSION.md)
-has actual Cprime and Q0 programs, exact active and ordinary kernels, and a
-full last column containing only linear and quadratic Gaussian terms. An
-explicit third-row right inverse removes the preceding specific selector.
-Cprime costs12/12/7 and Q0 costs80/152/120 ADD/SCALE/MONO in each direction,
-including three paid prefix Hadamards. Root independently rejects all184
-literal ADD omissions. Actual independent Gaussian endpoints remain open.
+The [paid prefix normalizer](results/complex-paid-prefix-native-normalizer/ADMISSION.md)
+and actual prefix-controlled units are retained. Three native normalizations
+cost144 ADD,288 SCALE,228 MONO, with arbitrary borrowed data restored. Original
+target-prefix restoration and all other caller costs remain additional.
 
-## Paid owned upward reuse and its fresh information bound
+The [finite-prefix compiler](results/complex-gaussian-dyadic-prefix-compiler/ADMISSION.md)
+is classified exactly in its stated ring/primitive class: for R=Z[i,1/2],
+b>=2 equal banks, prefix dimension d and full root-four prefix monomials,
+M in GL_(bd)(R) is realizable iff d divides v_(1+i)(det M). The construction
+uses existing arbitrary banks and one fixed word for every tail size.
+This does not discharge the general compiler foundation or give uniform
+resource bounds as d/coefficient heights vary.
 
-The [literal upward-reuse source](results/bit-owned-upward-half-reuse/ADMISSION.md)
-uses one charged rank2→4 owned ascent to remove an actual half sum from a
-raised courier before a rank-six public exchange. It restores every arbitrary
-baseline and checks all222 columns/420 fields. Its Q0 is1585.434910782782...
-with room36.315969428369... . It has8 completed outputs and484 native foreign
-terms, so it improves neither the16-output frontier nor the parent's cost.
-The strict downward-owner submodel rejects it; the paid nested-owned model
-and all public upward rules are explicit.
+The [anticommuting Cprime interface](results/complex-anticommuting-prefix-interface/ADMISSION.md)
+has paid units, exact kernels and ordinary/cubic column cancellation. Its
+specified column is [excluded](results/complex-anticommuting-fixed-column-gate/ADMISSION.md)
+by ordinary quadratic envelope rank6>capacity4. The older fixed-column gate
+is also retained. Neither gate excludes every changed column or interface.
 
-The [fresh cut bound](results/bit-post-upward-fresh-transcript/ADMISSION.md)
-audits56 current nonnative incidences, conditions the same16 actual source
-coordinates only for information, and verifies87 unknowns. The exact17/2
-entropy witness still requires9 further descents, leaving27.315969428369...
-after their minimum charges. No old-cut locality or free input grant is used.
+The [return/phase package](results/complex-return-clock-mixed-interface/ADMISSION.md)
+adds exact phased gauges, an8/8/4 mixed unit and all-width D8 kernel formula.
+The unphased SWAP_bc return is credited as inherited. The simplest fixed
+Cmix is itself excluded from421 endpoints; its source gauges remain useful
+for a changed interface. No complete independent421 factorization for the
+new three-native construction is established.
 
-## Exact fixed-column obstruction and finite-prefix compiler
+## Next mathematical task
 
-The [changed fixed-column gate](results/complex-anticommuting-fixed-column-gate/ADMISSION.md)
-proves that the current Cprime cancelling column cannot extend to an independent
-421 endpoint in the fixed-prefix/collective-tail model. Its quadratic cosets
-force ordinary coefficient rank6, exceeding actual one-bank capacity4.
-Exact minors i/64 and(1+i)/128 certify the gap. The positive interface remains
-valid; a different column or changed interface is required.
+Admit and continue the literal two-pair-mode repair at full-half cut1893. It uses A=(14,17,19,20), B=(96,101,99,102), three cyclic matching rounds and four paid pair2-to-rank5 arrivals BEFORE round3. The late independent source review is preserved; integrate its exact timed word and invoice before a further receiver continuation, keeping all222 original columns and arbitrary Y baselines explicit.
 
-The [Gaussian-dyadic prefix compiler](results/complex-gaussian-dyadic-prefix-compiler/ADMISSION.md)
-classifies M in GL_(bd)(Z[i,1/2]) under whole-bank ADD, unit SCALE and all
-root-four prefix MONOs: a fixed finite program exists iff d divides
-v_(1+i)(det M). It uses existing b>=2 arbitrary banks and works for every
-tail size. Restored borrowers, nonunit shear coefficients and Gaussian Euclid
-are explicit. The full compiler foundation and resource accounting remain open.
+The wider target remains a complete BIT supplier and compatible complex
+supplier strictly above.005, followed by54 strict inequalities,4 functional
+constraints and complete recursive accounting. The full native all-column,
+ownership/erasure, compiler, precision-tape and analytic-recovery obligations
+remain explicit.
 
-## Architecture and retained results
+## Verification and provenance
 
-The programme pursues complete chronological BIT delivery and a compatible
-uniform complex caller above1/200, then all54 strict outer inequalities and
-four functional constraints. Every acquisition, correction, inverse, public
-endpoint, owned movement, retirement, prefix pass and recursive cost remains
-explicit. The completed supplier threshold and exact contracts remain in
-[TARGET-005](TARGET-005.md). Foundations remain native_all_columns,
-owned_erasure, compiler, precision_tape and analytic_recovery.
+Five focused final checks reproduce7 outputs exactly against39 authenticated
+dependencies. Independent mathematical reviews remain distinct from replay.
+[Verification ledger](VERIFICATION.md), [result registry](REGISTERED-RESULTS.json),
+[scientific pins](SCIENTIFIC-FILES.json) and [session log](SESSION-LOG.md)
+retain the cumulative evidence. Earlier logical records are
+[archived](sessions/2026-11-17-S020/logical-records-before-cp10/PROGRAMME.md).
 
-The full-half reservoir, proper non-half frame exports and the all-real
-quadratic first-exit theorem remain proved. The latter excludes the exact
-old rank29/30 source banks by111 required owned ascents; it is not applied
-unchanged to new fields or banks. Earlier canonical, transcript, source-access,
-ordinary-capacity, source-coset and prefix-normalizer packages keep their
-exact scopes in [REGISTERED-RESULTS](REGISTERED-RESULTS.json).
-
-## Continuity
-
-Confirmed parent `3632344f8bba3a67479494eecbffcedefdb23bd9`; canonical upstream last examined `e54523517d0f03e58352e647c403a5af3e525a57`.
-S020 continues03:06–08:06 UTC. Four focused checks,5 exact outputs and34
-inherited pins are recorded. Prior logical records are
-[archived](sessions/2026-11-17-S020/logical-records-before-cp9/PROGRAMME.md).
-See [OBLIGATIONS](OBLIGATIONS.md), [VERIFICATION](VERIFICATION.md) and
-[CONTINUATION](CONTINUATION.md). The resulting SHA is confirmed separately;
-no upstream PR is submitted automatically.
+Canonical main remains `e54523517d0f03e58352e647c403a5af3e525a57`.
+[Final upstream triage](sessions/2026-11-17-S020/UPSTREAM-FINAL-TRIAGE.json)
+and [closing recheck](sessions/2026-11-17-S020/UPSTREAM-CLOSE-RECHECK.json)
+record PR7631's common-U conditional claim and PR7632's restricted Lean
+floors/endpoint-corrected bridge without adoption or Lean rerun. No upstream
+PR has been submitted. Credit retained authors, workers A/B/C, root,
+@CubeJerry and disclosed OpenAI assistance throughout.

@@ -1,0 +1,55 @@
+{
+  "status": "PASS_RETURN_CLOCK_SOURCE_INTERFACE",
+  "scope": "source gauges, paid mixed unit, D8 kernel and scoped Cmix 421 gate; no complete endpoint",
+  "inherited_return": "S019/checkpoint3-evidence/C/s3-review actual_return_monomial_A_Sbc_A",
+  "all_width_gauge_identities": true,
+  "full_walsh_block_ranks": {
+    "I": [
+      2,
+      3,
+      4
+    ],
+    "h": [
+      1,
+      2,
+      3
+    ],
+    "s": [
+      0,
+      1,
+      2
+    ],
+    "sh": [
+      2,
+      3,
+      4
+    ]
+  },
+  "all_unit_input_columns": 48,
+  "omitted_ADD_controls": 16,
+  "D8_kernel_dimensions_W1_to_W6": [
+    0,
+    16,
+    384,
+    7168,
+    122880,
+    2031616
+  ],
+  "receipts": {
+    "forward": {
+      "ADD": 8,
+      "SCALE": 8,
+      "MONO": 4,
+      "uniform_prefix_bound": "38"
+    },
+    "inverse": {
+      "ADD": 8,
+      "SCALE": 8,
+      "MONO": 4,
+      "uniform_prefix_bound": "34"
+    }
+  },
+  "new_gaussian_queries": 0,
+  "new_owners": 0,
+  "new_kappa": false
+}
