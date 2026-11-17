@@ -1,5 +1,11 @@
 # Exact target κ=1/200 — S020 checkpoint10
 
+## S021 checkpoint1
+
+Three-copy source normalized Q1578.8074877841938 leaves necessary limiting room42.9433924269586. Full costs are552INIT/4412ADD/1488MOVE/552CLEAR. Division by3 is explicit per-paid-copy accounting; it does not establish complete caller, ordinary, precision or recursive admission. No scalar cover bound is transferred. All original target/supplier conditions below remain.
+
+[New source and compiler proof](results/bit-three-copy-field-compiler/ADMISSION.md).
+
 No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The programme is ongoing and is not PR-ready.
 
 The best completed-value source has16 outputs and95 remaining. Its favorable

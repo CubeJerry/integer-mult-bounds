@@ -2456,3 +2456,18 @@ discharge. Session work continues through08:06 UTC.
 ## 2026-11-17-S020 — checkpoint10
 
 Final integration for03:06–08:06 UTC. Five primary checks and7 outputs pass with39 pins. Admitted the general three-round frame obstruction and phased-return mixed-interface package. Best completed BIT frontier remains16; no new complete kappa or foundation discharge. Late pair-mode source/independent review and nonphysical F8 candidate are preserved separately. No upstream PR or background work is configured.
+
+
+## 2026-11-17-S021 — checkpoint1
+
+Five-hour session 10:08–15:08 UTC. Starting remote programme SHA `ec7d27f896b394544b916ef110419a8ab7b86f1d`; canonical main unchanged. Late pair source admitted after fresh replay. Three paid native copies now implement the retained F8 interface with existing
+whole-record ADDs. Local six-record maps cost 10/16/14 ADDs; inverse-at-ground
+and actual rank2/4/6 service restore all 333 arbitrary Y baselines. Root independently
+checks all 666 input columns and 1,218 current fields, all 40 local ADD omissions
+and six source controls. Full counts: 552 INIT, 4,412 ADD, 1,488 MOVE and 552 dirty
+CLEAR. Profile: 489[1]+357[2]+309[4]+333[7]. Normalized Q=1578.8074877841938 leaves
+necessary room42.9433924269586; no new completed output or complete kappa.
+Credit A, C's S020 candidate and scope control, retained predecessors, @CubeJerry
+and substantial OpenAI assistance. [Full proof](results/bit-three-copy-field-compiler/ADMISSION.md).
+
+Next: variable-edge F4, fresh private-region information bounds, complete receiver network and changed complex interface. Resulting commit is recorded separately after remote publication.

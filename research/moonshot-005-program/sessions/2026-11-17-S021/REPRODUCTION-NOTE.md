@@ -1,0 +1,1 @@
+An inherited JSON certificate can reverse two object members because it iterates a set. All scientific fields are identical. Reproduction compares complete canonical JSON and records frozen, generated and canonical hashes. Frozen evidence remains unchanged.

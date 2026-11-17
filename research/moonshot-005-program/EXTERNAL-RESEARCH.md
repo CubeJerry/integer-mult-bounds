@@ -1,5 +1,11 @@
 # Relevant external research and compatibility
 
+## S021 checkpoint1
+
+Canonical main e54523517d0f03e58352e647c403a5af3e525a57 and selected conditional kappa363005817/100000000000 are unchanged. Latest10 PR metadata plus the post-S020 timestamp search show no newer update. No source theorem or foundation discharge adopted. [Exact intake and coverage](sessions/2026-11-17-S021/UPSTREAM-INTAKE.json).
+
+[New source and compiler proof](results/bit-three-copy-field-compiler/ADMISSION.md).
+
 ## S020 targeted intake — 2026-11-17
 
 Canonical main remains `e54523517d0f03e58352e647c403a5af3e525a57`, selected conditional κ=.00363005817 with five

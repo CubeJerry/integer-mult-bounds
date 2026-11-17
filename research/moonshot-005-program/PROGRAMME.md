@@ -1,6 +1,12 @@
 # Persistent κ=0.005 research programme
 
-## Current status — S020 checkpoint10
+## S021 checkpoint1
+
+S021 is active for2026-11-17 10:08–15:08 UTC, startingec7d27f. The late pair source is admitted. Three separately paid copies now realize the F8 coefficient interface using only existing whole-record ADDs. All666 columns/1218 fields are independently checked. Normalized Q1578.8074877841938 leaves necessary room42.9433924269586. Complete delivery and full caller remain open; no new outputs or complete kappa. Next: review variable-edge F4, source-specific arrival bounds, and a full receiver network. S020 baseline below is historical.
+
+[New source and compiler proof](results/bit-three-copy-field-compiler/ADMISSION.md).
+
+## Retained S020 checkpoint10 baseline
 
 No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The programme is ongoing and is not PR-ready.
 

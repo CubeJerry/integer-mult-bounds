@@ -1,5 +1,19 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+## S021 checkpoint1
+
+Three paid native copies now implement the retained F8 interface with existing
+whole-record ADDs. Local six-record maps cost 10/16/14 ADDs; inverse-at-ground
+and actual rank2/4/6 service restore all 333 arbitrary Y baselines. Root independently
+checks all 666 input columns and 1,218 current fields, all 40 local ADD omissions
+and six source controls. Full counts: 552 INIT, 4,412 ADD, 1,488 MOVE and 552 dirty
+CLEAR. Profile: 489[1]+357[2]+309[4]+333[7]. Normalized Q=1578.8074877841938 leaves
+necessary room42.9433924269586; no new completed output or complete kappa.
+Credit A, C's S020 candidate and scope control, retained predecessors, @CubeJerry
+and substantial OpenAI assistance. [Full proof](results/bit-three-copy-field-compiler/ADMISSION.md).
+
+Reproduction: `python -B research/moonshot-005-program/sessions/2026-11-17-S021/reproduce_cp1.py --repo . --out /tmp/moonshot-S021-cp1`. Three executions reproduce eight scientific outputs exactly. Reexecution is distinct from independent proof.
+
 **Ongoing persistent κ=.005 research programme; not PR-ready. No new complete
 multiplication exponent.** The selected conditional bound remains.00363005817.
 This branch develops one compatible physical construction while retaining

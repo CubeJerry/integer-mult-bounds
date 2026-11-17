@@ -1,5 +1,11 @@
 # Remaining proof obligations — S020 checkpoint10
 
+## S021 checkpoint1
+
+The local F8 compiler obstruction is resolved in the changed3-copy interface: whole-record ADDs realize the required six-record maps at every positive width. A complete receiver continuation and its whole caller remain open. Late pair source admitted; variable-edge F4 and fresh private-region/transcript bounds await independent review. All five foundations remain.
+
+[New source and compiler proof](results/bit-three-copy-field-compiler/ADMISSION.md).
+
 No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The programme is ongoing and is not PR-ready.
 
 | Obligation | Established | Remaining |
