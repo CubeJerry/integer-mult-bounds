@@ -1,20 +1,21 @@
 # Exact requirements for κ=1/200
 
-## Current interfaces — S020 checkpoint5
+## Current interfaces — S020 checkpoint6
 
 No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
 
 The favorable limiting movement allowance at t=199/200 is
 1621.750880211152355246... . Finite corrections and nonmovement costs are stricter.
 
-| Interface | Proved quantity | Unfinished requirement |
+| Interface | Proved quantity | Remaining requirement |
 |---|---|---|
-| Full56 proper-half reservoir; all111 Y ground |Q0=1578.375986552880...; room43.374893658271...|Complete103 unknown endpoints using actual modes; all X already Hub.|
-| Same source, unrestricted descending bank |At least9 future descents; minimum-charge room34.374893658271...|This is a lower bound, not a realizable9-move decoder.|
-|95-ground rank29 source |Valid word, Q0=1548.156683915135...|Quadratic geometry forces111 owned ascents.|
-| Two actual frame rank30 sources |Valid non-half mode at query or meet; Q0 about1550.24|Each exact bank still forces111 owned ascents.|
-| Paid distinguished-prefix source operator |24 ADD,48 SCALE,38 MONO each direction; prefix3|Three-native overhead144/288/228 plus charged target-prefix restoration.|
-| Independent complex caller |Local prefix and earlier positive units admitted|All input columns, all endpoint units, body, precision and complete invoice open.|
+| Sixteen completed values;95 Y ground |Q0=1587.080222099104...; room34.670658112047...|Complete95 remaining endpoints with actual fields and routes.|
+| New witness at the same424-field cut |At least9 further descents; minimum-charge room25.670658112047...|Full delivery must fit and every nonmovement cost is additional.|
+| Public-Y parity relay |Eight complete3-neighbour corrections; no new owned MOVE; public delta0.704235546224...|Further source/courier reuse must respect actual raised charts.|
+|56-half reservoir |Actual proper modes, all111 ground Ys, Q0=1578.375986552880...|Distinct earlier source, only8 complete outputs.|
+| Old rank29/30 source banks |All-real quadratic gate gives111 owned ascents|Closed within exact source/bank scopes.|
+| Paid prefix normalization |Three native calls add144 ADD,288 SCALE,228 MONO|Target prefixes and whole physical invoice still charged.|
+| New complex endpoint column |Actual invertible units, exact full column,104 controls|Fixed-column extension is closed; change source interface or column.|
 
 ## Retained exact supplier and accounting contracts
 

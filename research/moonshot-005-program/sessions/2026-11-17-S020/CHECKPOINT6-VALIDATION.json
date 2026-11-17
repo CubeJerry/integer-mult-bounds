@@ -1,0 +1,138 @@
+{
+  "status": "PASS_S020_CHECKPOINT6_FOCUSED_REPRODUCTION",
+  "checks": [
+    {
+      "name": "parity-relay",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint6-evidence/A/build_parity_receiver_relays.py",
+      "script_sha256": "85aef70d40caef57e4be6a30d097837b89c4b37bd72b5a227b7915d253e45d26",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-parity",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint6-evidence/C/parity-relay-review/check.py",
+      "script_sha256": "f6d4a91b1ba451707e745cf55996ef64a9a42d46d47271497696c38fbfd7a807",
+      "exit_code": 0
+    },
+    {
+      "name": "sixteen-values",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint6-evidence/C/parity-sixteen-diagonals/build.py",
+      "script_sha256": "deb0a89d3a34e885af1a17d6092aa995378bc4f2a4ea6f7370141a1dcfb026a5",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-sixteen",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint6-evidence/A/review_sixteen_diagonals.py",
+      "script_sha256": "df257e873c78deaa7018e642acf9aebe40382b780dc6c97fc77d5da4c3da4238",
+      "exit_code": 0
+    },
+    {
+      "name": "fresh-transcript",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint6-evidence/C/sixteen-fresh-transcript/check.py",
+      "script_sha256": "a1bdea2926e6fe702daa2c31146c5d9fe56363c3d97f4da9af7e8edf4ce8d29a",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-transcript",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint6-evidence/R/sixteen-transcript-review/check.py",
+      "script_sha256": "7b4b75f2a86fbd787213d207aca92558e538b85c2a166935734b88df9413fc8a",
+      "exit_code": 0
+    },
+    {
+      "name": "endpoint-column",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint6-evidence/B/prefix-three-bank-endpoint-column/check.py",
+      "script_sha256": "cdd364c868ec12af8f735b0a78235cb82a5ff713ae6af33897c6677010cd67a8",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-column",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint6-evidence/R/endpoint-column-review/check.py",
+      "script_sha256": "ed688f0178639153bec60b2e5a9864d005996df32621d7257b1353da56bb102a",
+      "exit_code": 0
+    },
+    {
+      "name": "column-gate",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint6-evidence/B/prefix-endpoint-column-gate/check.py",
+      "script_sha256": "acecef6f020d774295c2559aab041fcc08bf0bda62a7df4cc17b5e900d9ba036",
+      "exit_code": 0
+    },
+    {
+      "name": "independent-column-gate",
+      "script": "research/moonshot-005-program/sessions/2026-11-17-S020/checkpoint6-evidence/R/endpoint-column-gate-review/check.py",
+      "script_sha256": "53f48eada69b6dc890a2578c1ba6c6cb47c8790dad90668a5fb2bffc7e7ba486",
+      "exit_code": 0
+    }
+  ],
+  "exact_reproductions": [
+    {
+      "path": "A/parity-receiver-relays/WORD.json",
+      "sha256": "eb49a700e9d815d975120ba56271d414a2a15ee01254c8f5f3203fdfb52c2a59"
+    },
+    {
+      "path": "A/parity-receiver-relays/RESULT.json",
+      "sha256": "7664641e478bc2b04395c7c8d0a8a91e2fdbc85c74d50cede5f5a0a2e2d45ed0"
+    },
+    {
+      "path": "A/parity-receiver-relays/CUT-INVENTORY.json",
+      "sha256": "8ed3e0621652fe4d332b2a749e3cbdbec237aa0fb102f463ea3fa6fe6b4dae91"
+    },
+    {
+      "path": "C/parity-relay-review/output/CERTIFICATE.json",
+      "sha256": "98320d541b0c203c259d903f5fd0da23df3d510a50fa9dbe934a6aa75cf071d0"
+    },
+    {
+      "path": "C/parity-relay-review/output/INDEPENDENT-CUT.json",
+      "sha256": "e149b780cb0ea93b1e8f35d1c7c7226ed245f741362422db275e3c91915100f5"
+    },
+    {
+      "path": "C/parity-sixteen-diagonals/output/WORD.json",
+      "sha256": "6256e8349cd6b74e91bcd225141eb84325557eda92fba25cc51ed288dd4a7000"
+    },
+    {
+      "path": "C/parity-sixteen-diagonals/output/RESULT.json",
+      "sha256": "fdd297f3e35909d7e2c4cb3fea794c17efa619f8cee84fbc4647ca5fc32997eb"
+    },
+    {
+      "path": "C/parity-sixteen-diagonals/output/CUT-INVENTORY.json",
+      "sha256": "61b7da0b44c40011e79cbabaa0250f47dc682e85d70354c3ead1949b11ba67db"
+    },
+    {
+      "path": "A/sixteen-diagonals-review/RESULT.json",
+      "sha256": "b43a23322a24f4d8ed03a7777b08f0b032d5790a695b80d81bf506ea8df5f55a"
+    },
+    {
+      "path": "C/sixteen-fresh-transcript/output/CERTIFICATE.json",
+      "sha256": "da7d54b50ac7962c845c80343b7f9fea31aa3914e1d91a96469820ba60f38656"
+    },
+    {
+      "path": "C/sixteen-fresh-transcript/output/MAPPED-DUAL.json",
+      "sha256": "37a7dd9def5e961e81f75e14902c73d4cf15d6c10f499afff9ffbaa1aaa6c918"
+    },
+    {
+      "path": "R/sixteen-transcript-review/output/RESULT.json",
+      "sha256": "7b480d99ff5188122aca0f10ce43fb80e30fb7c58bef84c49218d086079a41e6"
+    },
+    {
+      "path": "B/prefix-three-bank-endpoint-column/RESULT.json",
+      "sha256": "d63476f60f1cbb61f7128120856360947f3b6feb1358819e27999640bca0b01d"
+    },
+    {
+      "path": "B/prefix-three-bank-endpoint-column/WORDS.json",
+      "sha256": "5fc8f08284825e5314edb4b35a19ac8afdf890bfa2a1863fab1d9ab8fac35979"
+    },
+    {
+      "path": "R/endpoint-column-review/output/RESULT.json",
+      "sha256": "39eb516ed1c0ce543b053dd8781f275d91534539bed54b5c9eb664fa96f68ee5"
+    },
+    {
+      "path": "B/prefix-endpoint-column-gate/RESULT.json",
+      "sha256": "74a1ecd650c59f0f90499e71e2ef817baa939c463a88d0a96bdf22028afa04a2"
+    },
+    {
+      "path": "R/endpoint-column-gate-review/output/RESULT.json",
+      "sha256": "dc9869a5df1d3896f06c20bdc2d7785dc428926c30bea6fa33934b7d400f1a64"
+    }
+  ],
+  "source_pins_sha256": "867de697dac332523912a340ece325c43d6010c122b34be4326401cbf2b9ad2d",
+  "independence": "A relay is independently reconstructed by C; C16-value source by A. Root independently reconstructs C postcut geometry and dual, B column primitives and source identities, and B endpoint-dimension gate. Reexecution is not independent proof.",
+  "new_complete_kappa": false
+}

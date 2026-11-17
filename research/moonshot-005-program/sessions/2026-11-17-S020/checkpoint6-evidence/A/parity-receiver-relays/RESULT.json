@@ -1,0 +1,91 @@
+{
+  "status": "PASS_ACTUAL_OWN_PARITY_PUBLIC_Y_RELAYS",
+  "word_sha256": "eb49a700e9d815d975120ba56271d414a2a15ee01254c8f5f3203fdfb52c2a59",
+  "parent_word_sha256": "6f1bd8465c7a4fa5b7b59888fb5dbd9bbbb88dc3306c984bd71497fd4be7d980",
+  "source_cut": 2021,
+  "augmented_reservoir_cut": 1921,
+  "live_fields": 416,
+  "new_three_neighbour_receivers": [
+    14,
+    17,
+    19,
+    20,
+    96,
+    99,
+    101,
+    102
+  ],
+  "cleaned_correct_axis_Y_couriers": [
+    1,
+    3,
+    5,
+    7,
+    0,
+    2,
+    4,
+    6
+  ],
+  "additional_foreign_coefficients": 24,
+  "total_unknown_receiver_foreign_coefficients": 436,
+  "added_owned_MOVEs": 0,
+  "new_pure_pair_source_owners": 2,
+  "new_actual_raw_quartet_cleanup_owners": 8,
+  "all_arbitrary_Y_coefficients_identity": true,
+  "all_original_X_restored_at_Hub": true,
+  "public_Y_rank_histogram": {
+    "0": 95,
+    "3": 8,
+    "4": 8
+  },
+  "stats": {
+    "input_columns": 222,
+    "counts": {
+      "INIT": 194,
+      "ADD": 1422,
+      "MOVE": 516,
+      "CLEAR": 194
+    },
+    "movement_profile": {
+      "1": 187,
+      "2": 107,
+      "3": 8,
+      "4": 111,
+      "7": 103
+    },
+    "dirty_CLEAR": 194,
+    "peak_owned": 194
+  },
+  "moment": {
+    "rational": [
+      "789540111049552307134974754386505058471834439/500000000000000000000000000000000000000000",
+      "1579080222099104614269949508773010116943669207/1000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1579.080222099104614269949508773010116943668878",
+      "1579.080222099104614269949508773010116943669207"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "42670658112047740976296641593984869504246243/1000000000000000000000000000000000000000000",
+      "256023948672286445857779849563909217025480727/6000000000000000000000000000000000000000000"
+    ],
+    "decimal": [
+      "42.670658112047740976296641593984869504246243",
+      "42.670658112047740976296641593984869504246787833333333333333333333"
+    ]
+  },
+  "negative_controls": [
+    "omit_relay_pair_actual_capture",
+    "omit_relay_pair_source_inverse",
+    "omit_relay_actual_raw_cleanup_capture",
+    "omit_relay_ground_baseline_inverse",
+    "omit_relay_receiver_actual_native_read",
+    "omit_relay_receiver_pair_forward",
+    "omit_relay_helper_actual_pair_read",
+    "omit_relay_helper_actual_native_read",
+    "omit_relay_helper_forward",
+    "omit_relay_helper_actual_cleanup"
+  ],
+  "scope": "Actual two-frame parity-neighbour correction:8 receivers each acquire all3 own-frame native neighbours;8 already-correct coordinate Y records act as couriers and are restored using actually captured raw quartet fields. Ground inverse preloads cancel all arbitrary Y/axis baselines. No added owned movement. All111 X remain restored at Hub;8 diagonal outputs only, no complete supplier."
+}

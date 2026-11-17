@@ -1,0 +1,37 @@
+{
+  "status": "PASS_FIXED_PREFIX_COLUMN_ENDPOINT_DIMENSION_GATE",
+  "scope": "all ordinary completions of pinned last column under fixed finite prefix/tail catalogue and faithful rank-class separation",
+  "positive_units_and_exact_column_preserved": true,
+  "all_width_kernel_fraction": "3/4",
+  "available_kernel_fraction": "1/2",
+  "required_linear_encoder_fraction": "5/4",
+  "width_controls": [
+    {
+      "tail_width": 0,
+      "reduced_bank_dimension": 4,
+      "required_linear_projection_rank": 2,
+      "forced_kernel_sector_ranks": [
+        2,
+        1
+      ],
+      "forced_total_linear_rank": 5,
+      "available_linear_rank": 4,
+      "strict_defect": 1,
+      "source_row_identity": true
+    },
+    {
+      "tail_width": 1,
+      "reduced_bank_dimension": 64,
+      "required_linear_projection_rank": 32,
+      "forced_kernel_sector_ranks": [
+        32,
+        16
+      ],
+      "forced_total_linear_rank": 80,
+      "available_linear_rank": 64,
+      "strict_defect": 16,
+      "source_row_identity": true
+    }
+  ],
+  "new_kappa": false
+}

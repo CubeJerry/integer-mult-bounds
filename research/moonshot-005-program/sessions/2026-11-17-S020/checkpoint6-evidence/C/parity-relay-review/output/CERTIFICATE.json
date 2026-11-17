@@ -1,0 +1,289 @@
+{
+  "status": "PASS_INDEPENDENT_ACTUAL_PUBLIC_Y_PARITY_RELAYS",
+  "pins": {
+    "native": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+    "word": "eb49a700e9d815d975120ba56271d414a2a15ee01254c8f5f3203fdfb52c2a59",
+    "parent": "6f1bd8465c7a4fa5b7b59888fb5dbd9bbbb88dc3306c984bd71497fd4be7d980",
+    "source_review": "37d995575ad179e524c0de505e5d56f45749b5da73ce3750244c5594e41a9402",
+    "arithmetic": "41b4d0ec79abc43cc32a9b97d8a36fb3805e5602630b07c2f74a5999a281a565"
+  },
+  "source_cut": 2021,
+  "augmented_source_cut": 1921,
+  "whole_literal_word_reconstructed": true,
+  "all222_columns": true,
+  "all416_cut_fields": true,
+  "local_formal_algebra": {
+    "initial_baseline_count": 8,
+    "independent_source_count": 4,
+    "ground_preconditioned_rows_hex": [
+      "0x11",
+      "0x22",
+      "0x55",
+      "0xaa",
+      "0x10",
+      "0x20",
+      "0x40",
+      "0x80"
+    ],
+    "final_rows_hex": [
+      "0xe01",
+      "0xd02",
+      "0xb04",
+      "0x708",
+      "0x10",
+      "0x20",
+      "0x40",
+      "0x80"
+    ],
+    "six_ADD_inverse_order": [
+      [
+        7,
+        3
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  "frames": [
+    [
+      [
+        0,
+        2,
+        4,
+        6
+      ],
+      [
+        14,
+        17,
+        19,
+        20
+      ],
+      [
+        1,
+        3,
+        5,
+        7
+      ]
+    ],
+    [
+      [
+        1,
+        3,
+        5,
+        7
+      ],
+      [
+        96,
+        99,
+        101,
+        102
+      ],
+      [
+        0,
+        2,
+        4,
+        6
+      ]
+    ]
+  ],
+  "new_corrected_targets": 8,
+  "new_foreign_coefficients": 24,
+  "total_foreign_coefficients": 436,
+  "completed_diagonal_values": 8,
+  "helpers_restored_to_actual_correct_coordinate_baseline": true,
+  "stats": {
+    "counts": {
+      "INIT": 194,
+      "ADD": 1422,
+      "MOVE": 516,
+      "CLEAR": 194
+    },
+    "movement_profile": {
+      "1": 187,
+      "2": 107,
+      "3": 8,
+      "4": 111,
+      "7": 103
+    },
+    "owned_downward_profile": {
+      "1": 36
+    },
+    "peak_owned": 194,
+    "dirty_CLEAR": 194,
+    "cut_fields": 416,
+    "cut_owned": 194
+  },
+  "parent_to_new_profile_delta": {
+    "1": 48,
+    "2": 4,
+    "3": 8,
+    "4": 8,
+    "7": -16
+  },
+  "additional_movement_cost": {
+    "rational": [
+      "880294432780029653376482749457/1250000000000000000000000000000",
+      "1760588865560059306752965499159/2500000000000000000000000000000"
+    ],
+    "decimal": [
+      "0.7042355462240237227011861995656",
+      "0.7042355462240237227011861996636"
+    ]
+  },
+  "source_moment": {
+    "rational": [
+      "7895401110495523071349747543864913/5000000000000000000000000000000",
+      "7895401110495523071349747543865171/5000000000000000000000000000000"
+    ],
+    "decimal": [
+      "1579.0802220991046142699495087729826",
+      "1579.0802220991046142699495087730342"
+    ]
+  },
+  "necessary_limiting_room": {
+    "rational": [
+      "80007483960089514330556202988653/1875000000000000000000000000000",
+      "2560239486722864458577798495641361/60000000000000000000000000000000"
+    ],
+    "decimal": [
+      "42.67065811204774097629664159394826666666666666666666667",
+      "42.67065811204774097629664159402268333333333333333333333"
+    ]
+  },
+  "all103_facet_locality_inside_counts": [
+    167,
+    168,
+    173,
+    169,
+    170,
+    170,
+    182,
+    182,
+    182,
+    186,
+    183,
+    186,
+    184,
+    185,
+    167,
+    171,
+    173,
+    177,
+    173,
+    171,
+    171,
+    169,
+    168,
+    172,
+    172,
+    178,
+    174,
+    172,
+    170,
+    170,
+    169,
+    167,
+    171,
+    175,
+    173,
+    171,
+    169,
+    173,
+    165,
+    167,
+    169,
+    169,
+    167,
+    171,
+    166,
+    168,
+    163,
+    166,
+    167,
+    165,
+    166,
+    180,
+    177,
+    178,
+    179,
+    178,
+    178,
+    177,
+    169,
+    169,
+    170,
+    167,
+    168,
+    168,
+    171,
+    168,
+    169,
+    169,
+    172,
+    165,
+    168,
+    168,
+    173,
+    169,
+    167,
+    165,
+    167,
+    167,
+    167,
+    167,
+    168,
+    168,
+    166,
+    168,
+    166,
+    168,
+    166,
+    170,
+    183,
+    180,
+    180,
+    185,
+    179,
+    181,
+    181,
+    168,
+    168,
+    168,
+    170,
+    165,
+    167,
+    167,
+    171
+  ],
+  "negative_controls": {
+    "pair_capture": "all original Y columns and proper correction",
+    "pair_inverse": "all original Y columns and proper correction",
+    "cleanup_capture": "all original Y columns and proper correction",
+    "ground_inverse": "all original Y columns and proper correction",
+    "target_native_read": "all original Y columns and proper correction",
+    "target_pair_forward": "all original Y columns and proper correction",
+    "helper_pair_read": "all original Y columns and proper correction",
+    "helper_native_read": "all original Y columns and proper correction",
+    "helper_forward": "all original Y columns and proper correction",
+    "helper_cleanup": "all original Y columns and proper correction"
+  },
+  "scope": "Two literal forward-only public-Y correction modules with exact ground preconditioning and actual raw cleanup. Every characteristic-two field and positive block width. Eight new three-neighbour corrections; no new completed diagonal outputs or full supplier."
+}

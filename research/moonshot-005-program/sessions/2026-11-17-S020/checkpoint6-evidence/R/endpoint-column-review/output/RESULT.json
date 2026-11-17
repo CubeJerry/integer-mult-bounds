@@ -1,0 +1,260 @@
+{
+  "status": "PASS_INDEPENDENT_PREFIX_THREE_BANK_ENDPOINT_COLUMN",
+  "arithmetic_sha256": "410c8426e31bc60e76d88095b2ef568c766b46f6dd5a66ff9e8ae9a980a542e2",
+  "author_words_sha256": "5fc8f08284825e5314edb4b35a19ac8afdf890bfa2a1863fab1d9ab8fac35979",
+  "author_proof_sha256": "5eb77f12da9888d1efddf7ba444be788b9ab93b3652700775d3b464da34715ab",
+  "cases": [
+    {
+      "tail_width": 0,
+      "all_unit_input_columns": 12,
+      "endpoint_column_inputs": 4,
+      "source_relations": true,
+      "units": {
+        "C": {
+          "counts": {
+            "forward": {
+              "ADD": 8,
+              "SCALE": 8,
+              "MONO": 5
+            },
+            "inverse": {
+              "MONO": 5,
+              "ADD": 8,
+              "SCALE": 8
+            }
+          },
+          "uniform_triangle_bounds": {
+            "forward": "22",
+            "inverse": "22"
+          },
+          "exact_reduced_prefix_bounds": {
+            "forward": "4",
+            "inverse": "4"
+          }
+        },
+        "Q0": {
+          "counts": {
+            "forward": {
+              "ADD": 8,
+              "SCALE": 8,
+              "MONO": 4
+            },
+            "inverse": {
+              "MONO": 4,
+              "ADD": 8,
+              "SCALE": 8
+            }
+          },
+          "uniform_triangle_bounds": {
+            "forward": "74",
+            "inverse": "74"
+          },
+          "exact_reduced_prefix_bounds": {
+            "forward": "4",
+            "inverse": "4"
+          }
+        },
+        "O0": {
+          "counts": {
+            "forward": {
+              "ADD": 20,
+              "SCALE": 28,
+              "MONO": 15
+            },
+            "inverse": {
+              "MONO": 15,
+              "SCALE": 28,
+              "ADD": 20
+            }
+          },
+          "uniform_triangle_bounds": {
+            "forward": "331",
+            "inverse": "948"
+          },
+          "exact_reduced_prefix_bounds": {
+            "forward": "4",
+            "inverse": "6"
+          }
+        },
+        "O": {
+          "counts": {
+            "forward": {
+              "ADD": 22,
+              "SCALE": 32,
+              "MONO": 16
+            },
+            "inverse": {
+              "MONO": 16,
+              "SCALE": 30,
+              "ADD": 22
+            }
+          },
+          "uniform_triangle_bounds": {
+            "forward": "958",
+            "inverse": "2954"
+          },
+          "exact_reduced_prefix_bounds": {
+            "forward": "4",
+            "inverse": "8"
+          }
+        },
+        "I0": {
+          "counts": {
+            "forward": {
+              "SCALE": 20,
+              "ADD": 14,
+              "MONO": 13
+            },
+            "inverse": {
+              "MONO": 13,
+              "ADD": 14,
+              "SCALE": 20
+            }
+          },
+          "uniform_triangle_bounds": {
+            "forward": "74",
+            "inverse": "47"
+          },
+          "exact_reduced_prefix_bounds": {
+            "forward": "6",
+            "inverse": "6"
+          }
+        }
+      },
+      "missing_distinguished_sigma_flip_rejected": true,
+      "full_identity_false": true,
+      "defect_row0_column0": [
+        "3/4",
+        "-1/4"
+      ]
+    },
+    {
+      "tail_width": 1,
+      "all_unit_input_columns": 192,
+      "endpoint_column_inputs": 64,
+      "source_relations": true,
+      "units": {
+        "C": {
+          "counts": {
+            "forward": {
+              "ADD": 8,
+              "SCALE": 8,
+              "MONO": 5
+            },
+            "inverse": {
+              "MONO": 5,
+              "ADD": 8,
+              "SCALE": 8
+            }
+          },
+          "uniform_triangle_bounds": {
+            "forward": "22",
+            "inverse": "22"
+          },
+          "exact_reduced_prefix_bounds": {
+            "forward": "4",
+            "inverse": "6"
+          }
+        },
+        "Q0": {
+          "counts": {
+            "forward": {
+              "ADD": 8,
+              "SCALE": 8,
+              "MONO": 4
+            },
+            "inverse": {
+              "MONO": 4,
+              "ADD": 8,
+              "SCALE": 8
+            }
+          },
+          "uniform_triangle_bounds": {
+            "forward": "74",
+            "inverse": "74"
+          },
+          "exact_reduced_prefix_bounds": {
+            "forward": "4",
+            "inverse": "6"
+          }
+        },
+        "O0": {
+          "counts": {
+            "forward": {
+              "ADD": 20,
+              "SCALE": 28,
+              "MONO": 15
+            },
+            "inverse": {
+              "MONO": 15,
+              "SCALE": 28,
+              "ADD": 20
+            }
+          },
+          "uniform_triangle_bounds": {
+            "forward": "331",
+            "inverse": "948"
+          },
+          "exact_reduced_prefix_bounds": {
+            "forward": "4",
+            "inverse": "6"
+          }
+        },
+        "O": {
+          "counts": {
+            "forward": {
+              "ADD": 22,
+              "SCALE": 32,
+              "MONO": 16
+            },
+            "inverse": {
+              "MONO": 16,
+              "SCALE": 30,
+              "ADD": 22
+            }
+          },
+          "uniform_triangle_bounds": {
+            "forward": "958",
+            "inverse": "2954"
+          },
+          "exact_reduced_prefix_bounds": {
+            "forward": "4",
+            "inverse": "8"
+          }
+        },
+        "I0": {
+          "counts": {
+            "forward": {
+              "SCALE": 20,
+              "ADD": 14,
+              "MONO": 13
+            },
+            "inverse": {
+              "MONO": 13,
+              "ADD": 14,
+              "SCALE": 20
+            }
+          },
+          "uniform_triangle_bounds": {
+            "forward": "74",
+            "inverse": "47"
+          },
+          "exact_reduced_prefix_bounds": {
+            "forward": "6",
+            "inverse": "6"
+          }
+        }
+      },
+      "missing_distinguished_sigma_flip_rejected": true,
+      "full_identity_false": true,
+      "defect_row0_column0": [
+        "-3/16",
+        "5/16"
+      ]
+    }
+  ],
+  "omitted_ADD_controls": 104,
+  "all_width_proof_basis": "Exact fixed-prefix Pauli relations and tensoring of literal one-tail source equalities; every coefficient service and inverse is physically replayed.",
+  "scope": "Positive single input column with actual invertible ordinary endpoints. Full three-input identity is explicitly false for these endpoint words. No supplier and no new complete kappa.",
+  "new_complete_kappa": false
+}

@@ -1,0 +1,41 @@
+{
+  "status": "PASS_INDEPENDENT_FIXED_COLUMN_ENDPOINT_GATE",
+  "source_review_sha256": "ed688f0178639153bec60b2e5a9864d005996df32621d7257b1353da56bb102a",
+  "author_proof_sha256": "4d57122550382ff0067a5a5da31fc4b500be79ca4c4e8114a61b5b6220584857",
+  "controls": [
+    {
+      "tail_width": 0,
+      "reduced_bank_dimension": 4,
+      "source_row_before_any_Q": true,
+      "forced_kernel_sector_ranks": [
+        2,
+        1
+      ],
+      "independent_union_rank": 3,
+      "required_projection_rank": 2,
+      "required_encoder_rank": 5,
+      "available_encoder_rank": 4,
+      "opposite_selector_control_rejected": true,
+      "either_sector_alone_not_a_contradiction": true
+    },
+    {
+      "tail_width": 1,
+      "reduced_bank_dimension": 64,
+      "source_row_before_any_Q": true,
+      "forced_kernel_sector_ranks": [
+        32,
+        16
+      ],
+      "independent_union_rank": 48,
+      "required_projection_rank": 32,
+      "required_encoder_rank": 80,
+      "available_encoder_rank": 64,
+      "opposite_selector_control_rejected": true,
+      "either_sector_alone_not_a_contradiction": true
+    }
+  ],
+  "universal_proof": "The exact pre-Q source row implies only ordinary/linear classes after arbitrary Q and the last native. Under the explicitly retained fixed-prefix/fixed-finite-tail-catalogue separation, the other two head encoders vanish under pi. Endpoint invertibility gives projection rank D/2; the fixed last column forces independent kernel images of total rank3D/4.",
+  "scope": "All ordinary unit completions of this fixed column and C within the stated uniform separation class; changing C, the column, or the catalogue hypothesis is outside scope.",
+  "positive_column_and_local_costs_preserved": true,
+  "new_complete_kappa": false
+}

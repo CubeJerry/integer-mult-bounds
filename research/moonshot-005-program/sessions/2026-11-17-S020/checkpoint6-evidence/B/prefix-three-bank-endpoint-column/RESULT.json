@@ -1,0 +1,96 @@
+{
+  "status": "PASS_EXACT_PREFIX_THREE_BANK_ENDPOINT_COLUMN",
+  "scope": "complete ordinary units and exact final input column only; not a full 421 caller",
+  "source_relations": true,
+  "bank_dimension_control": 64,
+  "unit_all_input_columns": 192,
+  "endpoint_column_checked_inputs": 64,
+  "primitive_omitted_ADD_failures": 104,
+  "receipts": {
+    "C": {
+      "forward": {
+        "ADD": 8,
+        "SCALE": 8,
+        "MONO": 5
+      },
+      "inverse": {
+        "ADD": 8,
+        "SCALE": 8,
+        "MONO": 5
+      },
+      "uniform_triangle_prefix_forward": "22",
+      "uniform_triangle_prefix_inverse": "22"
+    },
+    "Q0": {
+      "forward": {
+        "ADD": 8,
+        "SCALE": 8,
+        "MONO": 4
+      },
+      "inverse": {
+        "ADD": 8,
+        "SCALE": 8,
+        "MONO": 4
+      },
+      "uniform_triangle_prefix_forward": "74",
+      "uniform_triangle_prefix_inverse": "74"
+    },
+    "O0": {
+      "forward": {
+        "ADD": 20,
+        "SCALE": 28,
+        "MONO": 15
+      },
+      "inverse": {
+        "ADD": 20,
+        "SCALE": 28,
+        "MONO": 15
+      },
+      "uniform_triangle_prefix_forward": "331",
+      "uniform_triangle_prefix_inverse": "948"
+    },
+    "O": {
+      "forward": {
+        "ADD": 22,
+        "SCALE": 32,
+        "MONO": 16
+      },
+      "inverse": {
+        "ADD": 22,
+        "SCALE": 30,
+        "MONO": 16
+      },
+      "uniform_triangle_prefix_forward": "958",
+      "uniform_triangle_prefix_inverse": "2954"
+    },
+    "I0": {
+      "forward": {
+        "ADD": 14,
+        "SCALE": 20,
+        "MONO": 13
+      },
+      "inverse": {
+        "ADD": 14,
+        "SCALE": 20,
+        "MONO": 13
+      },
+      "uniform_triangle_prefix_forward": "74",
+      "uniform_triangle_prefix_inverse": "47"
+    }
+  },
+  "last_column_exact_endpoint_identity": true,
+  "all_width_basis": "two fixed prefix Pauli bits and literal tensor-tail source identities",
+  "other_two_input_columns_not_completed": true,
+  "nonzero_full_endpoint_defect_entry": {
+    "row": 0,
+    "column": 0,
+    "gaussian_numerator": [
+      -3,
+      5
+    ],
+    "denominator_power_two": 4
+  },
+  "new_gaussian_queries": 0,
+  "new_owners": 0,
+  "new_kappa": false
+}

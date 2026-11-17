@@ -2369,3 +2369,26 @@ three native normalizations add144/288/228. Target prefixes and full caller
 remain explicit. Twelve focused checks,23 exact outputs and24 inherited pins
 pass. Public Y preconditioning and coupled complex endpoint work continue;
 all foundations, strict suppliers and PR readiness remain open.
+
+
+## 2026-11-17-S020 — checkpoint6
+
+Confirmed parent `d7e0552ff70d09fc42147216ff95e9d1956e03bb`, with exact branch/tree/parent confirmation in
+CHECKPOINT5-REMOTE-RECEIPT. Session continues toward08:06 UTC. No new complete κ.
+
+Admitted literal public-Y baseline preconditioning and two four-receiver
+parity relays, with actual source snapshots and restored coordinate helpers.
+Earlier axis removal plus eight actual proper clique descents complete16
+diagonal values, retaining95 ground Y records. The424-field source costs
+1587.080222099104614269...; room34.670658112047740976... . A newly transported
+entropy witness avoids all completed receivers and proves nine additional
+descents, leaving25.670658112047... after minimum charges. Root separately
+replays the new cut and exact106-term dual.
+
+Admitted a positive complex full-column identity with actual ordinary endpoint
+units and inverse programs, then a separately proved dimension gate closing
+every completion of that fixed column and C under the stated uniform catalogue
+hypotheses. The positive words remain valid. New half-service and changed-C
+constructions are active for later review. Ten checks,17 exact outputs and27
+inherited pins pass. All five foundations, strict suppliers and PR readiness
+remain open; the permanent branch is preserved without force-push.

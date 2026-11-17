@@ -1,5 +1,30 @@
 # Verification ledger
 
+## S020 checkpoint6
+
+Confirmed parent `d7e0552ff70d09fc42147216ff95e9d1956e03bb`. Ten focused checks reproduce17 scientific outputs
+byte for byte. Twenty-seven inherited dependencies match SHA256 and the
+confirmed checkpoint5 tree. [Validation](sessions/2026-11-17-S020/CHECKPOINT6-VALIDATION.json),
+[pins](sessions/2026-11-17-S020/SOURCE-PINS-CP6.json),
+[prior remote receipt](sessions/2026-11-17-S020/CHECKPOINT5-REMOTE-RECEIPT.json).
+
+| Result | Independent verification | Scope boundary |
+|---|---|---|
+| Public-Y parity relays |C whole-word reconstruction,416 fields,222 columns,12 formal local columns,10 controls.|No new completed output; no added owned MOVE; actual public cost charged.|
+| Sixteen proper diagonal values |A separate geometry/interpreter,424 fields,222 columns,6 controls.|Sixteen actual output values, only8 globally known raw coordinates.|
+| Fresh postcut9 bound |Root Fraction geometry, all95 facets, separate rational Shannon expansion and rejected obsolete witness.|Fixed-schedule finite-alphabet zero-error; arbitrary paid owned ascents; nine additional moves.|
+| Prefix endpoint column |Root separate sparse Q(i), all unit columns at reduced widths0/1,104 ADD controls, both inverse orders.|One exact column with all-width tensor proof; explicit full-identity defect.|
+| Fixed-column extension gate |Root pre-Q row and direct image-union ranks, opposite-selector and single-sector controls.|Fixed prefix and finite tail catalogue with faithful class separation; changed C/column outside.|
+
+```bash
+python -B research/moonshot-005-program/sessions/2026-11-17-S020/reproduce_cp6.py --repo . --out /tmp/moonshot-S020-cp6
+```
+
+Python3.11+ and SymPy; --only selects checks and --jobs controls parallel
+processes. Reexecution is not independent proof. The separate mathematical
+reviews are recorded above; none claims human or proof-kernel certification.
+All prior scientific pins and results remain cumulative. No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
+
 ## S020 checkpoint5
 
 Confirmed parent `7dceeb1cbcc42d3deef2b459f52c782dde45e2af`. Twelve focused checks and23 byte-identical outputs

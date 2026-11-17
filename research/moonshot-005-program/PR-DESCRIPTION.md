@@ -1,76 +1,101 @@
-# Draft cumulative contribution: physical code acquisition, source-access geometry and ordinary endpoints
+# Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
-**Persistent κ=.005 research programme; ongoing and not PR-ready. No new
-complete multiplication exponent.** The selected conditional bound remains
-.00363005817 and no selected certificate is replaced.
+**Ongoing persistent κ=.005 research programme; not PR-ready. No new complete
+multiplication exponent.** The selected conditional bound remains.00363005817.
+This branch develops one compatible physical construction while retaining
+precisely scoped failures that prevent unsupported composition.
 
-## Problem and constructive progress
+## Mathematical motivation and cumulative progress
 
-The target needs compatible completed BIT and complex suppliers strictly above
-.005, followed by the full outer proof. Algebraic code rank alone does not
-provide chronological native access; Gaussian component rank alone does not
-provide independent ordinary endpoint units.
+The target needs a complete uniform BIT supplier above1/200, a compatible
+complex supplier above1/200, all54 strict outer inequalities and four functional
+constraints. Movement margins alone are necessary, never sufficient. The exact
+supplier threshold, finite corrections and original computational model remain
+in [TARGET-005](TARGET-005.md). No selected certificate has been changed.
 
-The newest [physical half reservoir](results/bit-full-half-reservoir/ADMISSION.md)
-places56 independent pure modes at proper rank-three charts, all111 Ys at ground,
-all111 raw X at Hub, eight known coordinate owners and nine actual canonical
-Hub modes. Every original column and owner is accounted. Its full partial
-profile costs1578.375986552880590547... at t=199/200, with43.374893658271764698...
-necessary movement room. Eight diagonal outputs are complete. Independent
-all103-facet locality and the exact106-term17/2 witness require nine further
-descents without restricting the future bank. A complete decoder is still open.
+The programme has progressed from canonical shared-history and source-access
+obstructions to actual proper-chart code acquisition and public-Y delivery.
+Earlier registered results include canonical/source entropy and block-rank
+gates, actual quartet and query exports, physical non-half frame directions,
+all-real quadratic noncover and source-specific111-ascent exclusions, ordinary
+endpoint capacity and source-coset gates, and a paid distinguished-prefix
+normalizer. Their exact hypotheses, source hashes and provenance remain in
+[REGISTERED-RESULTS](REGISTERED-RESULTS.json) and the cumulative ledger.
 
-The [95-ground source](results/bit-retained-ground-source/ADMISSION.md) and
-[two frame exports](results/bit-frame-exports/ADMISSION.md) are earlier actual
-all222-column words. The frame direction is outside the full literal-half
-bank; one word loads an original at a rank-three query and the other keeps a
-pure owner at a rank-one meet. Source contracts and invoices remain distinct.
+## New physical BIT construction
 
-The [quadratic source-exit theorem](results/bit-quadratic-source-departures/ADMISSION.md)
-upgrades explicit dual forcing to an all-real chart-cover obstruction. A
-rank27 quadratic evaluation space has a unique rank6 vanisher, which cannot
-be a product of two linear forms. Three native departures are therefore
-necessary for specified sources. Exact source/public counts close the three
-natural rank29/30 banks at111 owned ascents each; an unchanged-source enlarged
-bank needs107. These are scoped exclusions, not rejection of the positive words.
+The56-mode reservoir has actual proper rank-three half sums, nine actual
+canonical Hub forms, native snapshots and ground coordinate owners. A new
+public-Y module preconditions arbitrary baselines at ground, performs real
+native/pair rendezvous and restores eight correct coordinate couriers from
+actual retained raw snapshots. It gives eight other receivers all three
+own-frame neighbours without extra owned MOVE; public subdivision costs
+0.704235546224... at t=199/200. All416 fields and222 input columns are audited.
 
-Earlier [native fanout](results/bit-native-first-exit-gates/ADMISSION.md),
-[fresh transcript](results/bit-fresh-transcript-nine/ADMISSION.md),
-[direct pairs](results/bit-direct-pair-exports/ADMISSION.md),
-[cross-quartet acquisition](results/bit-cross-quartet-acquisition-gates/ADMISSION.md)
-and canonical/half fitting results remain integrated with precise source and
-route premises. New code acquisition changes the native access invoice.
+An earlier32-ADD axis strip and eight actual unit clique descents then complete
+eight more outputs. The new source has16 exact diagonal values,95 Ys still at
+ground,424 fields and all original X raw at Hub. Its complete invoice is
+202 INIT,1476 ADD,524 MOVE,202 dirty CLEAR, with profile
+195[1]+107[2]+8[3]+111[4]+103[7]. Q0=1587.080222099104614269... leaves
+34.670658112047740976... necessary movement room. These are16 completed Y
+values at actual charts, not16 global raw-input caches.
 
-## Complex ordinary interfaces
+The old entropy witness included a now-completed role. A freshly transported
+106-term witness and all95-facet locality audits instead prove at least nine
+additional future descents, leaving25.670658112047... after minimum charges.
+This fixed-schedule finite-alphabet result allows arbitrary paid nested owned
+routes and nonlinear payloads. It does not exhibit a nine-move completion or
+exclude all possible continuations. [Source](results/bit-sixteen-proper-diagonals/ADMISSION.md),
+[relay](results/bit-public-y-parity-relays/ADMISSION.md),
+[fresh bound](results/bit-post-sixteen-transcript/ADMISSION.md).
 
-The [paid prefix normalizer](results/complex-paid-prefix-native-normalizer/ADMISSION.md)
-implements a fixed local source with24 ADD,48 SCALE,38 MONO, prefix bound3,
-and an arbitrary borrowed bank restored. The same controls normalize both
-native types. Three calls add144/288/228 ordinary operations; target-prefix
-restoration is separately charged. This makes the earlier
-[distinguished-column approach](results/complex-distinguished-column-plus-unit/ADMISSION.md)
-concrete at the local primitive level, without discharging the full compiler.
+## New ordinary endpoint interface and its exact boundary
 
-The [dyadic kernel transfer](results/complex-klein-dyadic-kernel-transfer/ADMISSION.md)
-and [joint endpoint capacity](results/complex-joint-endpoint-capacity/ADMISSION.md)
-separate positive ordinary modules from independent Gaussian endpoints.
-The [Crot source-coset gate](results/complex-crot-source-coset-gate/ADMISSION.md)
-survives fixed matrix prefixes. Genuinely coupled endpoint constructions remain
-active; no incomplete last-column calculation is represented as a full caller.
+In the paid fixed-prefix complex model, an actual three-bank word has one
+whole input column factored through independent quartic/quadratic/linear heads
+and complete ordinary endpoint units. Every endpoint and inverse is compiled
+into ADD/SCALE/root-four MONO; a paired nonmonomial prefix scale is explicitly
+paid. The C,Q0,O,I0 forward receipts are8/8/5,8/8/4,22/32/16,14/20/13; inverse
+receipts and uniform primitive-prefix bounds are recorded separately.
 
-## Verification, provenance and remaining theorem
+The full three-input identity is false. A further dimension theorem closes
+all completions of that fixed column and first interface: a specific output
+projection permits only ordinary/linear classes, while the fixed column
+forces3D/4 independent kernel dimensions where a whole linear bank has onlyD/2.
+The theorem retains fixed prefix dimension, a fixed finite tail catalogue and
+faithful class separation. The positive column remains valid; changing C or
+the column is the next constructive obligation. [Positive interface](results/complex-prefix-endpoint-column/ADMISSION.md),
+[extension gate](results/complex-fixed-prefix-column-gate/ADMISSION.md).
 
-Checkpoint5 parent `7dceeb1cbcc42d3deef2b459f52c782dde45e2af`. Twelve focused checks pass with23 exact outputs
-and24 inherited files authenticated against the confirmed tree.
-[VERIFICATION](VERIFICATION.md) retains all earlier receipts, independent
-derivations and negative controls. Root Fraction and C integer implementations
-separately reconstruct quadratic premises; B's prefix word is independently
-replayed with C's sparse Q(i) arithmetic. Agent review is not human or proof-
-kernel certification. All historic scientific pins remain cumulative.
+## Evidence, accounting and provenance
 
-Credit @CubeJerry, native/canonical/proper-cover/cyclic-history and complex
-source predecessors, CrocSwap/integer-mult-bounds#7000/#7001 and earlier#6916,
-and the entropy/index-coding predecessors cited in their admissions. Substantial
-OpenAI assistance. Foundations native_all_columns, owned_erasure, compiler,
-precision_tape, analytic_recovery remain open, as do both strict suppliers and
-all outer assembly requirements. No upstream PR is submitted automatically.
+Confirmed parent `d7e0552ff70d09fc42147216ff95e9d1956e03bb`; canonical upstream last examined `e54523517d0f03e58352e647c403a5af3e525a57`. All changes
+stay on `research/moonshot-005-program`; prior files and scientific pins are
+preserved. This checkpoint has10 focused checks,17 byte-identical outputs and27
+authenticated inherited files. A/C independently reconstruct each other's BIT
+sources; root separately reconstructs new-cut geometry and entropy, complex
+source/primitive identities and the endpoint dimension proof.
+
+```bash
+python -B research/moonshot-005-program/sessions/2026-11-17-S020/reproduce_cp6.py --repo . --out /tmp/moonshot-S020-cp6
+```
+
+Python3.11+ and SymPy. Full [verification ledger](VERIFICATION.md),
+[source pins](sessions/2026-11-17-S020/SOURCE-PINS-CP6.json),
+[validation](sessions/2026-11-17-S020/CHECKPOINT6-VALIDATION.json) and
+[scientific manifest](SCIENTIFIC-FILES.json) retain exact commands and controls.
+No author rerun is labelled independent proof; no finite check substitutes for
+the stated all-width algebra or geometric theorem.
+
+All acquisition, receiver correction, inverse, source restoration, owned
+movement, dirty erasure, precision, compiler and recursive costs remain. The
+three native prefix gauges alone add144 ADD,288 SCALE,228 MONO; reattaching
+original-width target prefixes is still charged. Foundations native_all_columns,
+owned_erasure, compiler, precision_tape, analytic_recovery remain unresolved,
+as do both strict suppliers and the complete outer assembly.
+
+Credit @CubeJerry; native/canonical/proper-cover/cyclic-history and complex
+source predecessors; CrocSwap/integer-mult-bounds#7000/#7001 and earlier#6916;
+the entropy/index-coding predecessors cited in admissions; and the independent
+construction/review contributions. Substantial OpenAI assistance is disclosed.
+No upstream PR is submitted automatically. No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
