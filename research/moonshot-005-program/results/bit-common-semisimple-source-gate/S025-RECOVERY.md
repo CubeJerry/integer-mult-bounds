@@ -1,0 +1,3 @@
+# Publication and fresh review
+
+Recovered from local unpublished S023 evidence at confirmed remote baseline01c2c68e. Earlier admission wording records local mathematical review; first permanent-branch publication is S025. [Fresh independent S025 review](../../sessions/2026-11-19-S025/recovery-review/REVIEW.md) checks exact original matrices, actual holder permutations, field words and invoice, and independently reviews the common-semisimple proof. Global source compatibility, paid later transport, both suppliers, caller and five foundations remain open. No new κ. Source bytes and predecessor credit are unchanged.

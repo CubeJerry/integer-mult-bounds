@@ -1,0 +1,44 @@
+{
+  "status": "PASS_EXACT_QUOTIENT_IMAGE_LIFTING_CONTROLS",
+  "exhaustive_cases": 304496,
+  "positive_cases": 140882,
+  "negative_cases": 163614,
+  "case_histogram": {
+    "q1_c0": 16,
+    "q1_c1": 32,
+    "q1_c2": 64,
+    "q2_c0": 256,
+    "q2_c1": 1024,
+    "q2_c2": 4096,
+    "q3_c0": 4096,
+    "q3_c1": 32768,
+    "q3_c2": 262144
+  },
+  "positive_control_columns": {
+    "T_e": [
+      1,
+      2
+    ],
+    "T_l": [
+      1
+    ],
+    "R": [
+      3,
+      0
+    ],
+    "E": [
+      3,
+      1
+    ],
+    "L": [
+      0,
+      1
+    ]
+  },
+  "negative_control_R_columns": [
+    1,
+    0
+  ],
+  "source80_k71_mixed_input_deficit": 11,
+  "source80_k70_mixed_input_slack": 50
+}

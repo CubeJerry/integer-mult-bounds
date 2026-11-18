@@ -1,5 +1,11 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+## Latest cumulative progress: S025 checkpoint 1
+
+**No new κ.** This ongoing branch is not yet proposed for submission. The new reviewed70-coordinate theorem uses an exact invertible-source quotient-image criterion,6,581 separately reconstructed physical flow witnesses and two finite-field polynomial specializations. All6,470 foreign maps stay invertible, but5,690 native coordinates remain uncorrected. It retains the entire balanced invoice and every foundation. [Full package](results/bit-seventy-common-coordinates/ADMISSION.md).
+
+Recovered all-plane causal interfaces and a paid rank-six seven-source decoder now have explicit publication provenance and fresh review. These positive local results must still compose on the same original donor banks and paid later routes. Credit @CubeJerry and retained predecessor/worker authors; substantial OpenAI assistance is disclosed throughout. Reproduction and exact evidence are in the linked packages and [verification ledger](VERIFICATION.md).
+
 ## S023 checkpoint 2
 
 The new contribution pairs actual donor-dependent native constructions with a sharper boundary on scalar source strategies. [Four- and seven-source words](results/bit-seven-source-shared-quotients/ADMISSION.md) use actual native owners and restore every original input; the seven-source word supplies all42 foreign identity blocks through three shared D4 ports per pair plane, with locally minimal seven direct deliveries. Its full invoice is4684ADD,567INIT/dirtyCLEAR,966MOVE and peak132 owned binary records; its movement profile126[1]+189[2]+441[3]+210[7] exceeds the direct private control. This is a physical sharing result, not a full supplier or price improvement.

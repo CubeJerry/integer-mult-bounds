@@ -1,5 +1,11 @@
 # Exact target κ=1/200 — current programme
 
+## S025 checkpoint 1
+
+The70-coordinate mixed theorem changes correctness coverage, not the paid balanced invoice. All5,760 field lanes and30 binary extension copies remain charged; limiting movement room stays0.278106915125… before ordinary/caller charges. Dividing the bill by70 is invalid. The common local H interface bill is1,666,493,220 ADD and878,850 INIT/dirty CLEAR each; it has no extra H MOVE but still lacks global source and later transport. The K6 seven-source fragment has its own paid profile and cannot be substituted into the fixed balanced atlas without a compatibility proof.
+
+The exact source lifting condition is im(πT_e)=im(πR), not merely a favorable rank count. All original strict supplier/recursive requirements below remain. No new κ.
+
 ## S023 checkpoint 2
 
 [Paid quotient words](results/bit-seven-source-shared-quotients/ADMISSION.md) realize all42 blocks in a seven-source native fragment through shared D4 ports. [The varying-stripe gate](results/bit-stripe-varying-port-cut/ADMISSION.md) proves that scalar source rows, even varying by stripe, cannot complete the balanced atlas. [The cubic gate](results/complex-unrestricted-cubic-gate/ADMISSION.md) excludes three independent cubic heads and supplies a complete cubic/quadratic/linear benchmark.

@@ -1,5 +1,15 @@
 # Remaining proof obligations — current programme
 
+## S025 checkpoint 1
+
+| Obligation | Status and next step |
+| --- | --- |
+| Common70 rows and all foreign blocks invertible | Proved within retained balanced model; [proof/review](results/bit-seventy-common-coordinates/ADMISSION.md). Generic witness ceiling70 does not exclude structured full codes. |
+| All local H interfaces | Proved locally over a common F128 realization; [review](sessions/2026-11-19-S025/recovery-review/REVIEW.md). Global same-original-donor gluing remains open. |
+| Global source representation | Common semisimple coefficients excluded. Investigate noncommuting arrays and precisely delimited nilpotent modules; recovered local triangle has not yet been admitted here. |
+| Shared later transport | K6 seven-source fragment proved at its own price; global H/D/K/F code remains open. |
+| Complex supplier and complete theorem | Both strict suppliers, all54 inequalities, four functional constraints, full accounting and five foundations remain open. |
+
 ## S023 checkpoint 2
 
 Construct compatible quotient arrays with genuine cross-stripe source mixing. Aligned direct sums of varying scalar source rows are excluded on the balanced routes, including nonlinear downstream processing. General arrays and full-bank donor gauges remain open. The positive seven-source word establishes shared D4 transport at a separately paid price.

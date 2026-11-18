@@ -1,5 +1,11 @@
 # Verification ledger
 
+## S025 checkpoint 1
+
+Fresh independent C code checks103,748 original local matrices, reconstructs physical permutations and the exact1,666,493,220-ADD invoice. Root independently rebuilds all6,581 mixed/late physical graphs and verifies primal capacities, conservation and matching residual cuts. A distinct F2/F3 enumeration checks67,262 source-lifting cases. The written proofs, not these finite cases alone, support the universal claims. The K6 old independent engine reproduces its full receipt exactly; this replay is explicitly reused code, alongside fresh root mathematical review.
+
+[Validation](sessions/2026-11-19-S025/CHECKPOINT1-VALIDATION.json), [array review](sessions/2026-11-19-S025/recovery-review/REVIEW.md), [seventy review](results/bit-seventy-common-coordinates/review/REVIEW.md). No full selected cold suite, human proof or formal-kernel acceptance is claimed.
+
 ## S023 checkpoint 2
 
 [Checkpoint-two replay](sessions/2026-11-18-S023/reproduce_cp2.py) executes fourteen focused author/reviewer checks and reproduces eighteen scientific outputs. [Validation](sessions/2026-11-18-S023/CHECKPOINT2-VALIDATION.json) includes a subsequent affected-review rerun after correcting a scope label to rank six. Literal words, costs and endpoint identities are unchanged by that correction.

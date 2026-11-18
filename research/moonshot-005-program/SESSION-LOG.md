@@ -2634,3 +2634,12 @@ Next: donor-dependent source kernels and shared middle ports satisfying the earl
 Confirmed parent2ca4122b27043874d765a492d4366bcdd9eb3cdf, [readback receipt](sessions/2026-11-18-S023/CHECKPOINT1-REMOTE.json). Three literal native quotient words are verified, including the seven-source shared-D4 realization on all210 original columns. The varying-stripe common-information cut proves538644r<587520r under the exact aligned-source hypothesis. The unrestricted complex cubic gate and complete321 benchmark are independently reviewed. No new κ.
 
 Fourteen focused executions rebuild eighteen outputs; a subsequent affected root review pins the corrected rank-six scope label. [Validation](sessions/2026-11-18-S023/CHECKPOINT2-VALIDATION.json). Next: globally compatible source arrays with cross-stripe mixing, explicit punctured-plane interfaces and actual D-to-K sharing. The session continues through09:12:01UTC.
+
+
+## 2026-11-19 S025 checkpoint 1
+
+Started2026-11-18T21:44:46Z from confirmed remote01c2c68e1465dab868a422a278be91890e77bf79; requested five hours through2026-11-19T02:44:46Z. Session date uses Australia/Melbourne. Upstream remains e54523517d0f03e58352e647c403a5af3e525a57. Remote state, not local S023/S024 status labels, was authoritative. Later unpublished S024 work was discovered and retained as explicitly unadmitted evidence.
+
+Completed a fresh independent review of70 common coordinates with all6,470 foreign blocks invertible; all6,581 physical flow cases and67,262 algebraic controls pass. Recovered all1,119 local H interfaces, common semisimple gate and the separately paid seven-source K6 word, with precise existing/fresh verification scopes. No new κ. The main obligation remains global source and downstream compatibility, now being attacked with noncommuting arrays and scoped nilpotent alternatives. Complex independent endpoints remain active.
+
+[Checkpoint validation](sessions/2026-11-19-S025/CHECKPOINT1-VALIDATION.json). Resulting commit SHA is recorded in a subsequent remote receipt rather than self-referentially here. No upstream PR or external message was sent.

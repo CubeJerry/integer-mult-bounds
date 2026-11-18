@@ -1,5 +1,13 @@
 # Persistent κ=0.005 research programme
 
+## S025 checkpoint 1: common coordinates and verified local arrays
+
+[Seventy common coordinates](results/bit-seventy-common-coordinates/ADMISSION.md) now coexist with all6,470 invertible foreign blocks. The exact quotient-image lifting theorem and6,581 independent physical flows close this previously unpublished continuation. Its generic witness method stops at70; all5,690 other coordinates remain open.
+
+[All1,119 local plane interfaces](results/bit-all-plane-causal-arrays/ADMISSION.md), the [common semisimple gate](results/bit-common-semisimple-source-gate/ADMISSION.md), and a [paid seven-source K6 decoder](results/bit-seven-source-rank-six-merge/ADMISSION.md) are recovered with fresh review. Local arrays do not yet agree on the same global original inputs. Active work targets noncommuting arrays, precise nilpotent alternatives and genuinely coupled complex interstages.
+
+No new κ. Selected conditional κ remains.00363005817. Both suppliers, the complete caller and all five foundations remain open. This is an ongoing programme, not a PR-ready theorem.
+
 ## S023 checkpoint 2
 
 [Paid quotient words](results/bit-seven-source-shared-quotients/ADMISSION.md) realize all42 blocks in a seven-source native fragment through shared D4 ports. [The varying-stripe gate](results/bit-stripe-varying-port-cut/ADMISSION.md) proves that scalar source rows, even varying by stripe, cannot complete the balanced atlas. [The cubic gate](results/complex-unrestricted-cubic-gate/ADMISSION.md) excludes three independent cubic heads and supplies a complete cubic/quadratic/linear benchmark.
