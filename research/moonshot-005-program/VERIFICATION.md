@@ -1,5 +1,9 @@
 # Verification ledger
 
+## S022 checkpoint 7
+
+[Portable reproduction](sessions/2026-11-17-S022/reproduce_cp7.py) rebuilds the 1,278,720 route census and hash, mixed integral flows, GF64 controls, two independent flow implementations and exact prices. [Validation hashes](sessions/2026-11-17-S022/CHECKPOINT7-VALIDATION.json).
+
 ## S022 checkpoint 6
 
 [Portable reproduction](sessions/2026-11-17-S022/reproduce_cp6.py) rebuilt the nonlinear bounds, full finite-field flat census, and exact Gaussian-rational quartic controls from pinned inputs. [Validation receipt](sessions/2026-11-17-S022/CHECKPOINT6-VALIDATION.json).

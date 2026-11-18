@@ -2607,3 +2607,12 @@ Confirmed parent 89419767c5353083611a810e33c3ea4b88e1d39f. The [surplus downset 
 [Portable reproduction](sessions/2026-11-17-S022/reproduce_cp6.py) rebuilt the nonlinear bounds, full finite-field flat census, and exact Gaussian-rational quartic controls from pinned inputs. [Validation receipt](sessions/2026-11-17-S022/CHECKPOINT6-VALIDATION.json).
 
 Next. Realize the native foreign sums simultaneously across all paid balanced routes, including the nine canonical descents and all endpoint restorations. The next receipt or branch log identifies the resulting commit.
+
+
+## 2026-11-17 S022, checkpoint 7
+
+Confirmed parent 24a6a885c6fe0d6a3338d76381ba1bdf55660166. The [balanced native routing](results/bit-all111-balanced-causal-atlas/ADMISSION.md) supports all 6,470 full-rank foreign blocks simultaneously on real X and Y owners within the target movement ceiling. The [coordinate theorem](results/bit-simultaneous-native-coordinates/ADMISSION.md) fixes 69 common identity rows at every endpoint in one such code. A separate GF(64) realization gives 76 rows with one plane cache per donor.
+
+[Portable reproduction](sessions/2026-11-17-S022/reproduce_cp7.py) rebuilds the 1,278,720 route census and hash, mixed integral flows, GF64 controls, two independent flow implementations and exact prices. [Validation hashes](sessions/2026-11-17-S022/CHECKPOINT7-VALIDATION.json).
+
+Next. Synchronize the remaining foreign-transfer coordinates across all 111 native receivers while restoring all originals and preserving the paid chart word. The next receipt or branch log identifies the resulting commit.

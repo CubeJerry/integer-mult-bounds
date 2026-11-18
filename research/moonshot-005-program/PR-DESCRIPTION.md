@@ -1,5 +1,11 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+## S022 checkpoint 7
+
+The [balanced native routing](results/bit-all111-balanced-causal-atlas/ADMISSION.md) supports all 6,470 full-rank foreign blocks simultaneously on real X and Y owners within the target movement ceiling. The [coordinate theorem](results/bit-simultaneous-native-coordinates/ADMISSION.md) fixes 69 common identity rows at every endpoint in one such code. A separate GF(64) realization gives 76 rows with one plane cache per donor.
+
+[Portable reproduction](sessions/2026-11-17-S022/reproduce_cp7.py) rebuilds the 1,278,720 route census and hash, mixed integral flows, GF64 controls, two independent flow implementations and exact prices. [Validation hashes](sessions/2026-11-17-S022/CHECKPOINT7-VALIDATION.json).
+
 ## S022 checkpoint 6
 
 The [surplus downset bounds](results/bit-surplus-transcript-and-factor-gates/ADMISSION.md) price arbitrary deterministic transcripts with ten to twelve events under explicit destination restrictions, and exclude minimum-rank linear factorizations with arbitrarily many events. On the complex side, [two unrestricted interstages](results/complex-unrestricted-quartic/ADMISSION.md) still cap a quartic profile at the attainable (4,2,0), which misses target movement by 0.4192631087… .

@@ -1,0 +1,5 @@
+# Common native coordinates for every receiver
+
+One code on the balanced source makes all 6,470 proper blocks invertible and fixes their first 69 rows to those of the identity. Every one of the 111 receivers recovers these 69 coordinates of Y_i+X_i on arbitrary original values across all 5,760 coordinates. The proof uses an extension of degree at most 30 and prices all binary slots. Each of the 6,470 mixed demands includes one full-bank receiver and the selected rows at every other neighbor of the same donor. An affine source solve retains invertibility of the real early X transformation.
+
+A separate GF(64) construction fixes 76 coordinates everywhere using one genuine early plane cache per donor. Its remaining rows preserve the original Y baseline with possible nuisance terms and lack a full-block-rank guarantee. Both constructions pay the nine canonical descents. [Joint full-rank and 69-row proof](mixed/MIXED-PROOF.md) · [69 and 76 row decoding and independent verification](review/REVIEW.md) · [Primal and dual bounds](sync-cache/RESULT.json) · [Mixed demands](mixed/output/MIXED-69.json). No new κ.

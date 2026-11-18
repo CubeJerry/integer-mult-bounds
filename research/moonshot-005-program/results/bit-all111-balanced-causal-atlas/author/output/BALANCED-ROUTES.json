@@ -1,0 +1,62 @@
+{
+  "status": "PASS_BALANCED_1278720_REAL_ROUTES",
+  "paid_GF_copies": 5760,
+  "paid_binary_copies_at_GF_2_29": 167040,
+  "packed_layout_format": "little endian <BHHHhhhh: 0=X or 1=Y, role, within_role, D, H, j, K, i; negative labels are missing",
+  "route_sha256": "ea60a44afb92cd8af2556eec47bc34163866b85824b13cf2afa53e2bcfccd793",
+  "native_each_role_per_kind": 5760,
+  "actual_field_routes": 1278720,
+  "route_census": [
+    [
+      0,
+      "real",
+      "pad",
+      88740
+    ],
+    [
+      0,
+      "real",
+      "real",
+      481500
+    ],
+    [
+      0,
+      "real",
+      "short",
+      69120
+    ],
+    [
+      1,
+      "pad",
+      "real",
+      88740
+    ],
+    [
+      1,
+      "real",
+      "real",
+      481500
+    ],
+    [
+      1,
+      "short",
+      "real",
+      69120
+    ]
+  ],
+  "GF_move_counts": {
+    "1": 3204720,
+    "2": 2596680,
+    "4": 138240,
+    "8": 51840
+  },
+  "normalized_movement_profile": {
+    "1": "4451/8",
+    "2": "7213/16",
+    "4": "24",
+    "8": "9"
+  },
+  "all_canonical_descents": 51840,
+  "gate": "geometry only; matrices by existence theorem",
+  "factor_sha256": "346e7604b000ba057e49e8dcae639eaf1b8d82aeb1466f8b959a84390971dfa7"
+}
