@@ -1,5 +1,15 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+## S023 checkpoint 2
+
+The new contribution pairs actual donor-dependent native constructions with a sharper boundary on scalar source strategies. [Four- and seven-source words](results/bit-seven-source-shared-quotients/ADMISSION.md) use actual native owners and restore every original input; the seven-source word supplies all42 foreign identity blocks through three shared D4 ports per pair plane, with locally minimal seven direct deliveries. Its full invoice is4684ADD,567INIT/dirtyCLEAR,966MOVE and peak132 owned binary records; its movement profile126[1]+189[2]+441[3]+210[7] exceeds the direct private control. This is a physical sharing result, not a full supplier or price improvement.
+
+[Repeated scalar sources](results/bit-replicated-scalar-port-cut/ADMISSION.md) collapse through connected shared ports. [Even varying aligned scalar stripes](results/bit-stripe-varying-port-cut/ADMISSION.md) cannot carry enough information: a symbolic common-function reduction and independently reproduced exhaustive native partition decisions bound the full plane alphabet by538644r dimensions against587520r needed. General cross-stripe arrays and different paid architectures remain open.
+
+[The complex result](results/complex-unrestricted-cubic-gate/ADMISSION.md) excludes three independent cubic heads under arbitrary ordinary interstages in the retained collective-tail model. Its literal321 benchmark has a conservative ordinary supplement299ADD/584SCALE/460MONO beyond raw native recipes and loses by0.418623272570444… in target movement. The profitable322/331/332 profiles remain open.
+
+Confirmed parent: `2ca4122b27043874d765a492d4366bcdd9eb3cdf`. Canonical source and all predecessor pins are unchanged. [Fourteen-program replay](sessions/2026-11-18-S023/reproduce_cp2.py) and [validation](sessions/2026-11-18-S023/CHECKPOINT2-VALIDATION.json) bind eighteen exact outputs, independent proofs and meaningful mutations. Credit @CubeJerry, predecessor native/source/compiler authors, workers A/B/C and root review, with substantial OpenAI assistance. No new κ, foundational discharge or submitted PR. The cumulative programme remains ongoing and not PR-ready.
+
 ## S023 checkpoint 1
 
 ## Current scope: native alignment criteria and constructive source interfaces

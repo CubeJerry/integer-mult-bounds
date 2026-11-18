@@ -1,5 +1,15 @@
 # Verification ledger
 
+## S023 checkpoint 2
+
+[Checkpoint-two replay](sessions/2026-11-18-S023/reproduce_cp2.py) executes fourteen focused author/reviewer checks and reproduces eighteen scientific outputs. [Validation](sessions/2026-11-18-S023/CHECKPOINT2-VALIDATION.json) includes a subsequent affected-review rerun after correcting a scope label to rank six. Literal words, costs and endpoint identities are unchanged by that correction.
+
+Independent checks include all210 seven-source original columns, strict chart inclusion, owned lifetimes, ADD/MOVE/Y corruption controls, all1108 native partition decisions through two distinct complete solvers, and ordered complex block identities with a quadratic countercontrol. Universal theorems are separately proved; no full legacy replay is claimed.
+
+```sh
+python3 -B research/moonshot-005-program/sessions/2026-11-18-S023/reproduce_cp2.py --repo . --out /tmp/moonshot-S023-cp2
+```
+
 ## S023 checkpoint 1
 
 [Portable checkpoint-one replay](sessions/2026-11-18-S023/reproduce_cp1.py) rebuilt eight scientific outputs in six focused author/reviewer executions. [Validation hashes](sessions/2026-11-18-S023/CHECKPOINT1-VALIDATION.json) record exact comparisons, with compressed artifacts compared after decompression. Every new universal claim has a written proof and separate mathematical review. Independent controls include noncommuting matrix order, all 3,097 source witnesses, 4,352 exhaustive weighted-subspace examples, all 111 parity systems, and recovery of the seventeen-term normal form. These checks are scoped; no full legacy replay is claimed. Historical missing evidence remains separately labelled.

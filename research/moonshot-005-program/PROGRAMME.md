@@ -1,5 +1,13 @@
 # Persistent κ=0.005 research programme
 
+## S023 checkpoint 2
+
+[Paid quotient words](results/bit-seven-source-shared-quotients/ADMISSION.md) realize all42 blocks in a seven-source native fragment through shared D4 ports. [The varying-stripe gate](results/bit-stripe-varying-port-cut/ADMISSION.md) proves that scalar source rows, even varying by stripe, cannot complete the balanced atlas. [The cubic gate](results/complex-unrestricted-cubic-gate/ADMISSION.md) excludes three independent cubic heads and supplies a complete cubic/quadratic/linear benchmark.
+
+No new κ. Selected conditional κ remains .00363005817. Both strict suppliers, the complete caller and all five foundations remain open. The ongoing programme is not PR-ready.
+
+Next: globally compatible quotient arrays that mix source stripes, with real timing, capped shared ports and every native endpoint identity. Explicit full-plane array maps are in independent review; punctured-plane construction is active. S023 continues through09:12:01UTC. Dated sections below retain earlier checkpoints.
+
 ## S023 checkpoint 1
 
 The balanced atlas now has three reviewed reductions: [exact endpoint cycle equations](results/bit-native-cycle-and-inlet-gates/ADMISSION.md), [a quotient-source and early compiler criterion](results/bit-balanced-quotient-source-compiler/ADMISSION.md), and [a sharp donor-plane asymmetry theorem](results/bit-native-plane-asymmetry/ADMISSION.md). One full receiver can be aligned while retaining 69 common rows elsewhere. Completing all native receivers remains open.

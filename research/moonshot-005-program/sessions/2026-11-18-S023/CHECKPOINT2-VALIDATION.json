@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "baseline_sha": "2ca4122b27043874d765a492d4366bcdd9eb3cdf",
+  "scope": "Fourteen scoped author and independent review runs; no full legacy replay or new kappa.",
+  "checks": [
+    {
+      "check": "four-author",
+      "outputs": [
+        {
+          "path": "results/bit-seven-source-shared-quotients/four/output/WORD.json",
+          "sha256_uncompressed": "583011e88bd43efb76cb332e868eafa84cacf97b75de70697c3184f1f17daae9"
+        },
+        {
+          "path": "results/bit-seven-source-shared-quotients/four/output/RESULT.json",
+          "sha256_uncompressed": "19e41e99922a0b1cf3aef21731666a5d3c7e6b2df88109afd8b5e37d0f81491c"
+        }
+      ]
+    },
+    {
+      "check": "four-second-replay",
+      "outputs": [
+        {
+          "path": "results/bit-seven-source-shared-quotients/second-replay/four/RESULT.json",
+          "sha256_uncompressed": "bb4b27a2e3edd2b1246911bbb08413f7bfdca93251c6f4f99c5db8157d78d56e"
+        }
+      ]
+    },
+    {
+      "check": "seven-author",
+      "outputs": [
+        {
+          "path": "results/bit-seven-source-shared-quotients/seven/output/WORD.json",
+          "sha256_uncompressed": "23f79da015b92f4caf3fb9bcfb7c08c7f67461e27d35c1f06b65bcb8000246b5"
+        },
+        {
+          "path": "results/bit-seven-source-shared-quotients/seven/output/RESULT.json",
+          "sha256_uncompressed": "55c9b7a90cf441e0d65bd5a7f7cbe0278d106bca96362ec422d407bbe2f873f9"
+        }
+      ]
+    },
+    {
+      "check": "seven-second-replay",
+      "outputs": [
+        {
+          "path": "results/bit-seven-source-shared-quotients/second-replay/seven/RESULT.json",
+          "sha256_uncompressed": "cd61153e0dc83b97c272e6b43b89fae18ad54c1eb87f833a5e937efffbfd0305"
+        }
+      ]
+    },
+    {
+      "check": "seven-root-review",
+      "outputs": [
+        {
+          "path": "results/bit-seven-source-shared-quotients/review/DIRECT-RESULT.json",
+          "sha256_uncompressed": "b6e4023227c610359a2ebd52c41a926b3f3174097947f69824c4c9353e00d785"
+        }
+      ]
+    },
+    {
+      "check": "seven-shared-author",
+      "outputs": [
+        {
+          "path": "results/bit-seven-source-shared-quotients/seven/shared-output/WORD.json",
+          "sha256_uncompressed": "1887eb5b6a49ace2f406358c29e4c58450e3729b19abd6aedbeb90888004adf6"
+        },
+        {
+          "path": "results/bit-seven-source-shared-quotients/seven/shared-output/RESULT.json",
+          "sha256_uncompressed": "7eae58dbf75c54d03befdb8f65e97dcc9553196cecef88bbcd8b9a5b756904af"
+        }
+      ]
+    },
+    {
+      "check": "seven-shared-second-replay",
+      "outputs": [
+        {
+          "path": "results/bit-seven-source-shared-quotients/second-replay/seven-shared/RESULT.json",
+          "sha256_uncompressed": "2083273b1bec4878f7d6d561552f1372008e807cd4bab9051b273119dfe76c70"
+        }
+      ]
+    },
+    {
+      "check": "seven-shared-root-review",
+      "outputs": [
+        {
+          "path": "results/bit-seven-source-shared-quotients/review/SHARED-RESULT.json",
+          "sha256_uncompressed": "22a1a5148b35f3c75eb8f5d50662181aa0762285389b4a0675df354924d96dc9"
+        }
+      ]
+    },
+    {
+      "check": "replicated-author",
+      "outputs": [
+        {
+          "path": "results/bit-replicated-scalar-port-cut/author/RESULT.json.gz",
+          "sha256_uncompressed": "acd3642eda014dc1ff7a1aab23ac356a7eaa5d3536f0ba2a5817d3cba5a2a549"
+        }
+      ]
+    },
+    {
+      "check": "replicated-root-review",
+      "outputs": [
+        {
+          "path": "results/bit-replicated-scalar-port-cut/review/RESULT.json",
+          "sha256_uncompressed": "952576ae33d8f47e96a479ee5162d23d59b1db36507758a03bf0371d78d30e96"
+        }
+      ]
+    },
+    {
+      "check": "cubic-author",
+      "outputs": [
+        {
+          "path": "results/complex-unrestricted-cubic-gate/author/RESULT.json",
+          "sha256_uncompressed": "680b10efad819f7a889267992a818cdd89efbaccd79bd0fd0984f139368f2d07"
+        }
+      ]
+    },
+    {
+      "check": "cubic-independent-review",
+      "outputs": [
+        {
+          "path": "results/complex-unrestricted-cubic-gate/review/RESULT.json",
+          "sha256_uncompressed": "5d51b0078eea70f6372fead6dd534477fc9afd2c087b6104b8c436981c03d339"
+        }
+      ]
+    },
+    {
+      "check": "stripe-author",
+      "outputs": [
+        {
+          "path": "results/bit-stripe-varying-port-cut/author/output/RESULT.json",
+          "sha256_uncompressed": "1cb4e75721e79b23add134e821e69c3b8a3a510cf3e8cf6ef5d59e3053397208"
+        },
+        {
+          "path": "results/bit-stripe-varying-port-cut/author/output/DECISIONS.json.gz",
+          "sha256_uncompressed": "5abb87661c0656b4cc40c60aac4bb00bc25923b27c58f0eead45d7c7909b1fea"
+        }
+      ]
+    },
+    {
+      "check": "stripe-independent-review",
+      "outputs": [
+        {
+          "path": "results/bit-stripe-varying-port-cut/review/output/RESULT.json.gz",
+          "sha256_uncompressed": "55062cf00045a9d8888fbea8cd613d9c8db65ef570381c282aa004e73d8aa0ae"
+        }
+      ]
+    }
+  ],
+  "source_label_correction": "After full replay, corrected subsequent-chart description from rank five to rank six; imported corrected proof and dependency pins and reran affected root shared-word review. Literal word and invoices unchanged."
+}

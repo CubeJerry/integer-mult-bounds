@@ -1,0 +1,118 @@
+{
+  "status": "PASS_EXHAUSTIVE_STRIPE_VARYING_SCALAR_GATE",
+  "layout_uncompressed_sha256": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+  "factor_sha256": "346e7604b000ba057e49e8dcae639eaf1b8d82aeb1466f8b959a84390971dfa7",
+  "decisions_uncompressed_sha256": "5abb87661c0656b4cc40c60aac4bb00bc25923b27c58f0eead45d7c7909b1fea",
+  "ordinary_planes": 1108,
+  "tight_pairs": 6110,
+  "rank_cap_histogram": [
+    [
+      [
+        2,
+        1
+      ],
+      204
+    ],
+    [
+      [
+        2,
+        2
+      ],
+      23
+    ],
+    [
+      [
+        3,
+        1
+      ],
+      630
+    ],
+    [
+      [
+        3,
+        2
+      ],
+      249
+    ],
+    [
+      [
+        3,
+        3
+      ],
+      2
+    ]
+  ],
+  "uncovered_ports": 1436,
+  "information_capacity": 538644,
+  "required_dimension": 587520,
+  "strict_deficit": 48876,
+  "exact_search_statuses": {
+    "SAT": 276,
+    "UNSAT": 144
+  },
+  "maximum_search_nodes": 1060,
+  "time_limit_used": false,
+  "controls": [
+    {
+      "ports": [
+        3,
+        5,
+        6
+      ],
+      "vertices": 3,
+      "colors": 2,
+      "status": "UNSAT"
+    },
+    {
+      "ports": [
+        3,
+        12
+      ],
+      "vertices": 4,
+      "colors": 2,
+      "status": "SAT"
+    },
+    {
+      "ports": [
+        3,
+        12
+      ],
+      "vertices": 4,
+      "colors": 3,
+      "status": "UNSAT"
+    },
+    {
+      "ports": [
+        3,
+        12,
+        48
+      ],
+      "vertices": 6,
+      "colors": 3,
+      "status": "SAT"
+    },
+    {
+      "ports": [
+        3,
+        6,
+        12,
+        9
+      ],
+      "vertices": 4,
+      "colors": 2,
+      "status": "SAT"
+    },
+    {
+      "ports": [
+        1,
+        2,
+        4
+      ],
+      "vertices": 3,
+      "colors": 3,
+      "status": "SAT"
+    }
+  ],
+  "scope": "Aligned scalar stripes only; arbitrary stripe-varying rows and nonlinear downstream allowed. General arrays remain open.",
+  "new_complete_kappa": false
+}

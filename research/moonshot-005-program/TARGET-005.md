@@ -1,5 +1,13 @@
 # Exact target κ=1/200 — current programme
 
+## S023 checkpoint 2
+
+[Paid quotient words](results/bit-seven-source-shared-quotients/ADMISSION.md) realize all42 blocks in a seven-source native fragment through shared D4 ports. [The varying-stripe gate](results/bit-stripe-varying-port-cut/ADMISSION.md) proves that scalar source rows, even varying by stripe, cannot complete the balanced atlas. [The cubic gate](results/complex-unrestricted-cubic-gate/ADMISSION.md) excludes three independent cubic heads and supplies a complete cubic/quadratic/linear benchmark.
+
+The source information cut is538644r<587520r, deficit48876r; it is not a MOVE bound. The seven-source shared word has profile126[1]+189[2]+441[3]+210[7], fully paid, but differs from the balanced atlas and costs more than its private-output control. The balanced limiting room0.278106915125… remains unchanged, before remaining ordinary/caller terms.
+
+No new κ. Selected conditional κ remains .00363005817. Both strict suppliers, the complete caller and all five foundations remain open. The ongoing programme is not PR-ready.
+
 ## S023 checkpoint 1
 
 The balanced atlas now has three reviewed reductions: [exact endpoint cycle equations](results/bit-native-cycle-and-inlet-gates/ADMISSION.md), [a quotient-source and early compiler criterion](results/bit-balanced-quotient-source-compiler/ADMISSION.md), and [a sharp donor-plane asymmetry theorem](results/bit-native-plane-asymmetry/ADMISSION.md). One full receiver can be aligned while retaining 69 common rows elsewhere. Completing all native receivers remains open.

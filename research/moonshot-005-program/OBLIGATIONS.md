@@ -1,5 +1,13 @@
 # Remaining proof obligations — current programme
 
+## S023 checkpoint 2
+
+Construct compatible quotient arrays with genuine cross-stripe source mixing. Aligned direct sums of varying scalar source rows are excluded on the balanced routes, including nonlinear downstream processing. General arrays and full-bank donor gauges remain open. The positive seven-source word establishes shared D4 transport at a separately paid price.
+
+For complex LCUQL, quartic profiles are capped by(4,2,0); all-cubic endpoints are excluded. Minimal profitable nonquartic possibilities(3,2,2),(3,3,1), also(3,3,2), remain construction targets.
+
+No new κ. Selected conditional κ remains .00363005817. Both strict suppliers, the complete caller and all five foundations remain open. The ongoing programme is not PR-ready.
+
 ## S023 checkpoint 1
 
 Construct donor-dependent source kernels and compatible shared middle ports on the balanced native atlas, satisfying the weighted early-source rank inequalities and all 6,249 endpoint cycle equations.

@@ -1,0 +1,45 @@
+{
+  "status": "PASS_INDEPENDENT_NATIVE_WORD_REPLAY",
+  "word_sha256": "23f79da015b92f4caf3fb9bcfb7c08c7f67461e27d35c1f06b65bcb8000246b5",
+  "author_result_sha256": "55c9b7a90cf441e0d65bd5a7f7cbe0278d106bca96362ec422d407bbe2f873f9",
+  "layout_uncompressed_sha256": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+  "independent_invoice": {
+    "counts": {
+      "ADD": 3933,
+      "CLEAR": 441,
+      "INIT": 441,
+      "MOVE": 651
+    },
+    "movement_profile": {
+      "1": 126,
+      "5": 315,
+      "7": 210
+    },
+    "owned_upward_profile": {
+      "1": 126,
+      "5": 315
+    },
+    "dirty_CLEAR": 441,
+    "peak_owned_binary_records": 129,
+    "original_binary_columns": 210,
+    "field_degree": 3,
+    "bank_field_dimension": 5,
+    "source_count": 7,
+    "simultaneous_identity_blocks": 42,
+    "final_state_sha256": "8622e86cea7b72dfeb09cffa8d4963c832dd82a53cd0c7b1b9ea49fd323bda13",
+    "semantic_failures": [],
+    "distinct_strict_move_pairs_checked": 161
+  },
+  "negative_controls": {
+    "removed_receiver_ADD": [
+      "Y2_0_b1"
+    ],
+    "removed_source_MOVE": "co-located ADD at 1328",
+    "corrupted_arbitrary_Y_baseline": [
+      "Y0_0_b0"
+    ]
+  },
+  "author_code_imported": false,
+  "geometry_test": "rational strict span inclusion",
+  "linear_state_representation": "sets of original binary columns"
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS_INDEPENDENT_NATIVE_WORD_REPLAY",
+  "word_sha256": "583011e88bd43efb76cb332e868eafa84cacf97b75de70697c3184f1f17daae9",
+  "author_result_sha256": "19e41e99922a0b1cf3aef21731666a5d3c7e6b2df88109afd8b5e37d0f81491c",
+  "layout_uncompressed_sha256": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+  "independent_invoice": {
+    "counts": {
+      "ADD": 134,
+      "CLEAR": 48,
+      "INIT": 48,
+      "MOVE": 80
+    },
+    "movement_profile": {
+      "1": 24,
+      "5": 24,
+      "7": 32
+    },
+    "owned_upward_profile": {
+      "1": 24,
+      "5": 24
+    },
+    "dirty_CLEAR": 48,
+    "peak_owned_binary_records": 26,
+    "original_binary_columns": 32,
+    "field_degree": 2,
+    "bank_field_dimension": 2,
+    "source_count": 4,
+    "simultaneous_identity_blocks": 12,
+    "final_state_sha256": "0373ae0bbf3bb577650b1d071105f4e9d7691c30f56dc1d77da8f87c0a994a62",
+    "semantic_failures": [],
+    "distinct_strict_move_pairs_checked": 32
+  },
+  "negative_controls": {
+    "removed_receiver_ADD": [
+      "Y2_0_b0"
+    ],
+    "removed_source_MOVE": "co-located ADD at 120",
+    "corrupted_arbitrary_Y_baseline": [
+      "Y0_0_b0"
+    ]
+  },
+  "author_code_imported": false,
+  "geometry_test": "rational strict span inclusion",
+  "linear_state_representation": "sets of original binary columns"
+}

@@ -1,0 +1,99 @@
+{
+  "status": "PASS_PAID_NATIVE_TETRAHEDRAL_DONOR_KERNEL_GADGET",
+  "layout_uncompressed_sha256": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+  "word_sha256": "583011e88bd43efb76cb332e868eafa84cacf97b75de70697c3184f1f17daae9",
+  "native_foreign_dots": [
+    [
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "invoice": {
+    "counts": {
+      "ADD": 134,
+      "CLEAR": 48,
+      "INIT": 48,
+      "MOVE": 80
+    },
+    "movement_profile": {
+      "1": 24,
+      "5": 24,
+      "7": 32
+    },
+    "owned_upward_profile": {
+      "1": 24,
+      "5": 24
+    },
+    "dirty_CLEAR": 48,
+    "peak_owned_binary_records": 26,
+    "original_binary_columns": 32,
+    "final_rows": {
+      "X0_0_b0": 1,
+      "X0_0_b1": 2,
+      "X0_1_b0": 4,
+      "X0_1_b1": 8,
+      "X1_0_b0": 16,
+      "X1_0_b1": 32,
+      "X1_1_b0": 64,
+      "X1_1_b1": 128,
+      "X2_0_b0": 256,
+      "X2_0_b1": 512,
+      "X2_1_b0": 1024,
+      "X2_1_b1": 2048,
+      "X3_0_b0": 4096,
+      "X3_0_b1": 8192,
+      "X3_1_b0": 16384,
+      "X3_1_b1": 32768,
+      "Y0_0_b0": 69904,
+      "Y0_0_b1": 139808,
+      "Y0_1_b0": 279616,
+      "Y0_1_b1": 559232,
+      "Y1_0_b0": 1052929,
+      "Y1_0_b1": 2105858,
+      "Y1_1_b0": 4211716,
+      "Y1_1_b1": 8423432,
+      "Y2_0_b0": 16781329,
+      "Y2_0_b1": 33562658,
+      "Y2_1_b0": 67125316,
+      "Y2_1_b1": 134250632,
+      "Y3_0_b0": 268435729,
+      "Y3_0_b1": 536871458,
+      "Y3_1_b0": 1073742916,
+      "Y3_1_b1": 2147485832
+    },
+    "semantic_failures": []
+  },
+  "negative_controls": {
+    "omitted_receiver_ADD_failing_rows": [
+      "Y2_0_b0"
+    ],
+    "omitted_source_MOVE": "ADD same chart at120",
+    "Y_baseline_columns": 16
+  },
+  "field_inputs_per_donor": 2,
+  "field_outputs_per_receiver": 2,
+  "field_source_ports": 12,
+  "field_private_plane_ports": 12,
+  "full_balanced_source_constructed": false,
+  "new_complete_kappa": false
+}
