@@ -1,0 +1,28 @@
+{
+  "baseline_commit": "8cf982065bccdd62de2856b16635a6ee06dadb0c",
+  "python": "3.12.14",
+  "sources": [
+    {
+      "path": "research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json",
+      "sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-all111-balanced-causal-atlas/author/output/BALANCED-FACTOR.json",
+      "sha256": "346e7604b000ba057e49e8dcae639eaf1b8d82aeb1466f8b959a84390971dfa7"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz",
+      "sha256": "ef8611b33835a799193e8aec4f615486d73f5743558997de0262bceb3ae9eb3c"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-simultaneous-native-coordinates/mixed/MIXED-PROOF.md",
+      "sha256": "e28b5dc03ebbfec982e2886b40f76131b23557a5f45bcad27b344fd90ce91f8c"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-all111-balanced-causal-atlas/author/BALANCED-PROOF.md",
+      "sha256": "9e37ccf5b73614d4bec7fb9b02cfc0516d5c4690b3f215db31325904bd2002fa"
+    }
+  ],
+  "reproduce_from_repository_root": "python3 -B PACKAGE/check.py --native research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json --factor research/moonshot-005-program/results/bit-all111-balanced-causal-atlas/author/output/BALANCED-FACTOR.json --layout research/moonshot-005-program/results/bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz --out /tmp/native-gauge-causal-check",
+  "scope": "Written universal gauge and causal proofs plus exact finite native graph certificate. No full network coefficient assignment, supplier, or new kappa."
+}

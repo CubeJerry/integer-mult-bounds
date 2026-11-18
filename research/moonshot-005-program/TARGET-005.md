@@ -1,4 +1,12 @@
-# Exact target κ=1/200 — S021 checkpoint3
+# Exact target κ=1/200 — current programme
+
+## S023 checkpoint 1
+
+The balanced atlas now has three reviewed reductions: [exact endpoint cycle equations](results/bit-native-cycle-and-inlet-gates/ADMISSION.md), [a quotient-source and early compiler criterion](results/bit-balanced-quotient-source-compiler/ADMISSION.md), and [a sharp donor-plane asymmetry theorem](results/bit-native-plane-asymmetry/ADMISSION.md). One full receiver can be aligned while retaining 69 common rows elsewhere. Completing all native receivers remains open.
+
+The proofs do not change the balanced movement profile or its limiting room 0.278106915125… at t=199/200. Ordinary operations, finite-scale costs and recursive admission remain additional. The 69/5760 successful coordinates cannot be used as a normalization of the whole cost.
+
+No new κ. The selected conditional value remains 363005817/100000000000. Both strict suppliers, the outer caller and all five foundations remain open. The cumulative programme is ongoing and is not PR-ready.
 
 ## S022 checkpoint 7
 

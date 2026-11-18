@@ -1,4 +1,14 @@
-# Remaining proof obligations — S021 checkpoint3
+# Remaining proof obligations — current programme
+
+## S023 checkpoint 1
+
+Construct donor-dependent source kernels and compatible shared middle ports on the balanced native atlas, satisfying the weighted early-source rank inequalities and all 6,249 endpoint cycle equations.
+
+The retained canonical code cannot absorb incorrect proper coefficients. Post-line crossovers alone cannot carry a full source bank; real line taps are required. The 3,097 ordinary source flags are quotient maps on the canonical-zero slice, while eleven singleton flags remain unclassified. A common plane kernel across donors is excluded by 87 odd native witnesses; donor-dependent kernels and general array codes remain live. The abstract seventeen-term discrepancy minimum is attained and classified, but a native embedding has not been proved.
+
+The complex worker is testing coupled active and spectator changes with genuinely noncommuting prefix operators. A profitable nonquartic profile or another compatible supplier is still required.
+
+No new κ. The selected conditional value remains 363005817/100000000000. Both strict suppliers, the outer caller and all five foundations remain open. The cumulative programme is ongoing and is not PR-ready.
 
 ## S022 checkpoint 7
 

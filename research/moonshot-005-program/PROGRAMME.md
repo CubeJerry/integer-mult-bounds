@@ -1,5 +1,15 @@
 # Persistent κ=0.005 research programme
 
+## S023 checkpoint 1
+
+The balanced atlas now has three reviewed reductions: [exact endpoint cycle equations](results/bit-native-cycle-and-inlet-gates/ADMISSION.md), [a quotient-source and early compiler criterion](results/bit-balanced-quotient-source-compiler/ADMISSION.md), and [a sharp donor-plane asymmetry theorem](results/bit-native-plane-asymmetry/ADMISSION.md). One full receiver can be aligned while retaining 69 common rows elsewhere. Completing all native receivers remains open.
+
+No new κ. The selected conditional value remains 363005817/100000000000. Both strict suppliers, the outer caller and all five foundations remain open. The cumulative programme is ongoing and is not PR-ready.
+
+The active S023 session runs from 06:12:01 to 09:12:01 UTC on 2026-11-18. Source construction, independent review and a noncommuting complex repair continue in parallel.
+
+Next. Construct donor-dependent source kernels and compatible shared middle ports on the balanced native atlas, satisfying the weighted early-source rank inequalities and all 6,249 endpoint cycle equations.
+
 ## S022 checkpoint 7
 
 The [balanced native routing](results/bit-all111-balanced-causal-atlas/ADMISSION.md) supports all 6,470 full-rank foreign blocks simultaneously on real X and Y owners within the target movement ceiling. The [coordinate theorem](results/bit-simultaneous-native-coordinates/ADMISSION.md) fixes 69 common identity rows at every endpoint in one such code. A separate GF(64) realization gives 76 rows with one plane cache per donor.

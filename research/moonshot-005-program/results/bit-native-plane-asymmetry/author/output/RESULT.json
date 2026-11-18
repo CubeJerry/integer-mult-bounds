@@ -1,0 +1,66 @@
+{
+  "status": "PASS_NATIVE_ODD_WITNESSES_AND_SHARP_PLANE_ASYMMETRY",
+  "native_sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+  "layout_uncompressed_sha256": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+  "factor_sha256": "346e7604b000ba057e49e8dcae639eaf1b8d82aeb1466f8b959a84390971dfa7",
+  "witnesses_uncompressed_sha256": "fc959c7e2e0872cbad728fd268d4d204159df21922afec8fe906c831339e8548",
+  "receivers_with_odd_witness": 87,
+  "receivers_without_this_witness": [
+    0,
+    3,
+    15,
+    20,
+    25,
+    32,
+    35,
+    36,
+    37,
+    38,
+    39,
+    54,
+    55,
+    63,
+    71,
+    73,
+    74,
+    75,
+    87,
+    94,
+    101,
+    107,
+    109,
+    110
+  ],
+  "tight_source_pairs": 6110,
+  "witness_size_histogram": {
+    "27": 53,
+    "35": 34
+  },
+  "minimum_distinct_nonzero_differences_per_witness": 17,
+  "inequality": "sum rank(N_H) >= 16s + max rank(N_H)",
+  "simplex_controls": [
+    {
+      "internal_width": 1,
+      "bank_dimension": 16,
+      "terms": 17,
+      "all_term_ranks": 1,
+      "total_rank": 17,
+      "all_sixteen_term_complements_invertible": true,
+      "projection_realizations": true,
+      "deletion_control_rejected": true,
+      "wrong_square_zero_control_rejected": true
+    },
+    {
+      "internal_width": 2,
+      "bank_dimension": 32,
+      "terms": 17,
+      "all_term_ranks": 2,
+      "total_rank": 34,
+      "all_sixteen_term_complements_invertible": true,
+      "projection_realizations": true,
+      "deletion_control_rejected": true,
+      "wrong_square_zero_control_rejected": true
+    }
+  ],
+  "scope": "Aligned quotient-source interface only; no completed native embedding, movement surcharge, or new kappa."
+}

@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "baseline_sha": "8cf982065bccdd62de2856b16635a6ee06dadb0c",
+  "scope": "Six focused executions; exact fresh outputs plus independent mathematical reviews. No full legacy replay or new kappa.",
+  "checks": [
+    {
+      "check": "gauge-author",
+      "outputs": [
+        {
+          "path": "results/bit-native-cycle-and-inlet-gates/author/output/RESULT.json",
+          "sha256_uncompressed": "72ac3af5232c32567d35948d1529786e2312b25ab064e62263b7194320220496"
+        },
+        {
+          "path": "results/bit-native-cycle-and-inlet-gates/author/output/SCHEME.json.gz",
+          "sha256_uncompressed": "40945d71c29b01058b3276b33c20e453d23d57e6f2e1c1df332f7eee7f231a27"
+        }
+      ]
+    },
+    {
+      "check": "gauge-independent-review",
+      "outputs": [
+        {
+          "path": "results/bit-native-cycle-and-inlet-gates/review/output/RESULT.json",
+          "sha256_uncompressed": "49f94acf7e0c498ca5a940ff14e8c14304965e90b51509baabb4d3ee453acf3f"
+        }
+      ]
+    },
+    {
+      "check": "quotient-author",
+      "outputs": [
+        {
+          "path": "results/bit-balanced-quotient-source-compiler/author/output/RESULT.json.gz",
+          "sha256_uncompressed": "191ce82525e2c786c25194a9f70b247160261a096f0d93bdf5075ae06d60707a"
+        }
+      ]
+    },
+    {
+      "check": "quotient-independent-review",
+      "outputs": [
+        {
+          "path": "results/bit-balanced-quotient-source-compiler/review/output/RESULT.json",
+          "sha256_uncompressed": "52cc4bcf3e307dc8a47b494c069486b23a34efa41d545276ef6e01aa6cecd95f"
+        }
+      ]
+    },
+    {
+      "check": "asymmetry-author",
+      "outputs": [
+        {
+          "path": "results/bit-native-plane-asymmetry/author/output/RESULT.json",
+          "sha256_uncompressed": "7d290159c70dd61bb37e41e820340afcb1dca8570211b4480291ece5d55112be"
+        },
+        {
+          "path": "results/bit-native-plane-asymmetry/author/output/WITNESSES.json.gz",
+          "sha256_uncompressed": "fc959c7e2e0872cbad728fd268d4d204159df21922afec8fe906c831339e8548"
+        }
+      ]
+    },
+    {
+      "check": "asymmetry-independent-review",
+      "outputs": [
+        {
+          "path": "results/bit-native-plane-asymmetry/review/output/RESULT.json",
+          "sha256_uncompressed": "27e7b504f1001b29c4f59980a8c5e587a1b60411927c3e81fb1af5c3158d6d96"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,21 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+## S023 checkpoint 1
+
+## Current scope: native alignment criteria and constructive source interfaces
+
+The balanced atlas now has three reviewed reductions: [exact endpoint cycle equations](results/bit-native-cycle-and-inlet-gates/ADMISSION.md), [a quotient-source and early compiler criterion](results/bit-balanced-quotient-source-compiler/ADMISSION.md), and [a sharp donor-plane asymmetry theorem](results/bit-native-plane-asymmetry/ADMISSION.md). One full receiver can be aligned while retaining 69 common rows elsewhere. Completing all native receivers remains open.
+
+The new contribution is a linked reduction of the current all-receiver synchronization problem. The endpoint theorem supplies necessary and sufficient noncommutative cycle equations and an exact partial-row optimum. The source theorem handles arbitrary separated encoders on the precise canonical slice and gives a finite ordinary compiler under weighted rank inequalities. Native odd witnesses then require genuinely donor-dependent quotient kernels, with a sharp seventeen-term normal form guiding the next construction.
+
+This does not alter the paid movement profile. The source compiler bound is at most 2B²+BR+7B ADD, B INIT, B dirty CLEAR and B stationary owners per donor, before downstream inverses and the whole caller. The retained movement room remains 0.278106915125… per paid copy; a full native implementation must still fit all remaining costs.
+
+Exact programme base: `8cf982065bccdd62de2856b16635a6ee06dadb0c`. Canonical upstream: `e54523517d0f03e58352e647c403a5af3e525a57`. Each package pins its native source, layout and balancing factor; new proofs and reviewers are included without altering predecessor scientific bytes. [Six-program reproduction](sessions/2026-11-18-S023/reproduce_cp1.py) and [validation receipt](sessions/2026-11-18-S023/CHECKPOINT1-VALIDATION.json) supply exact outputs and negative controls.
+
+Credit @CubeJerry, the retained native/source/atlas authors, S023 workers A and B, and root independent review, with substantial OpenAI assistance. The PR has not been submitted.
+
+No new κ. The selected conditional value remains 363005817/100000000000. Both strict suppliers, the outer caller and all five foundations remain open. The cumulative programme is ongoing and is not PR-ready.
+
 ## S022 checkpoint 7
 
 The [balanced native routing](results/bit-all111-balanced-causal-atlas/ADMISSION.md) supports all 6,470 full-rank foreign blocks simultaneously on real X and Y owners within the target movement ceiling. The [coordinate theorem](results/bit-simultaneous-native-coordinates/ADMISSION.md) fixes 69 common identity rows at every endpoint in one such code. A separate GF(64) realization gives 76 rows with one plane cache per donor.

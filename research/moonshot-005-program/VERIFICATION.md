@@ -1,5 +1,15 @@
 # Verification ledger
 
+## S023 checkpoint 1
+
+[Portable checkpoint-one replay](sessions/2026-11-18-S023/reproduce_cp1.py) rebuilt eight scientific outputs in six focused author/reviewer executions. [Validation hashes](sessions/2026-11-18-S023/CHECKPOINT1-VALIDATION.json) record exact comparisons, with compressed artifacts compared after decompression. Every new universal claim has a written proof and separate mathematical review. Independent controls include noncommuting matrix order, all 3,097 source witnesses, 4,352 exhaustive weighted-subspace examples, all 111 parity systems, and recovery of the seventeen-term normal form. These checks are scoped; no full legacy replay is claimed. Historical missing evidence remains separately labelled.
+
+```sh
+python3 -B research/moonshot-005-program/sessions/2026-11-18-S023/reproduce_cp1.py --repo . --out /tmp/moonshot-S023-cp1
+```
+
+No new κ. The selected conditional value remains 363005817/100000000000. Both strict suppliers, the outer caller and all five foundations remain open. The cumulative programme is ongoing and is not PR-ready.
+
 ## S022 checkpoint 7
 
 [Portable reproduction](sessions/2026-11-17-S022/reproduce_cp7.py) rebuilds the 1,278,720 route census and hash, mixed integral flows, GF64 controls, two independent flow implementations and exact prices. [Validation hashes](sessions/2026-11-17-S022/CHECKPOINT7-VALIDATION.json).

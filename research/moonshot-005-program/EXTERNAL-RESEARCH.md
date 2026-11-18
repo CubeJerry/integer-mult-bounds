@@ -463,3 +463,10 @@ Primary source: Blasiak, Kleinberg and Lubetzky, [Index coding via linear progra
 ## S019 mid-session targeted update
 
 Canonical main remains `e54523517d0f03e58352e647c403a5af3e525a57`; programme remote still matched cp2 before this checkpoint. A bounded ten-most-recently-updated open-PR read adds CrocSwap/integer-mult-bounds#7629, head `c2a2131e7dba35f9396b16588e125a7e8b5fab8e`. Its author reports exact finite shared-middle-call tables in a three-bit frame game, with a small four-bit sample, and explicitly claims no new κ. The open work omits the complete phase-sensitive engine caller and does not discharge our literal source/ordinary-unit or supplier obligations. It is related context, not admitted mathematics or a reason to restart the programme. No new complete supplier or foundation discharge was found in this bounded update. Exact metadata and scope: `sessions/2026-11-17-S019/UPSTREAM-MIDSESSION.json`.
+
+
+## S023 startup intake
+
+Canonical main remains `e54523517d0f03e58352e647c403a5af3e525a57`; selected κ remains .00363005817. [Exact bounded intake](sessions/2026-11-18-S023/UPSTREAM-INTAKE.json) records six recent open PR heads and scope. #7669 advertises conditional .0037218793483 with its stated additional supplier interface; it is neither selected nor admitted here. #7665 and #7670 give finite occurrence/storage work; #7668 supplies named-premise conditional formal bounds; #7671 distinguishes rounded triangle laws; #7672 gives local residual estimates without the full error/caller budget. Their metadata and stated interfaces were read, but their full implementations were not replayed. None is silently composed with this programme.
+
+Public discussions #1163, #1166 and #1167 and primary network-computation literature were triaged for source-alignment leads. No external theorem is imported into the new proof packages. No comments, messages, PRs or upstream changes were posted.

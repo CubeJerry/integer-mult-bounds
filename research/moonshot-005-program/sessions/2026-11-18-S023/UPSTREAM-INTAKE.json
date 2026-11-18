@@ -1,0 +1,77 @@
+{
+  "session": "2026-11-18-S023",
+  "observed_at": "2026-11-18T06:22:00Z",
+  "programme_start_sha": "8cf982065bccdd62de2856b16635a6ee06dadb0c",
+  "upstream_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "selected_conditional": "363005817/100000000000",
+  "selected_record_source": "certificates/selected-result.json",
+  "targeted_prs": [
+    {
+      "number": 7669,
+      "title": "P104: conditional κ ≥ 0.0037218793483 via compatible EARLY and bypass edits",
+      "state": "open",
+      "merged": false,
+      "head": "eaef5d1580e5761feaed09262b964871f3e5f553",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7669",
+      "updated_at": "2026-11-18T05:51:10Z"
+    },
+    {
+      "number": 7670,
+      "title": "Share one physical guide across current native reset banks",
+      "state": "open",
+      "merged": false,
+      "head": "677d23ef1610db9921547ab5d58eecc8c8d4c08b",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7670",
+      "updated_at": "2026-11-18T05:38:11Z"
+    },
+    {
+      "number": 7665,
+      "title": "Construct all 2270 current native rounded scalar tables",
+      "state": "open",
+      "merged": false,
+      "head": "7b4e792e91706dd0e00f51a10402696fef5998ec",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7665",
+      "updated_at": "2026-11-18T04:30:24Z"
+    },
+    {
+      "number": 7668,
+      "title": "P104: tiered ceilings for words meeting the native-class hypotheses (incl. the frontier words), Lean only",
+      "state": "open",
+      "merged": false,
+      "head": "f448b368a3f6e630e1f22e921061f56a86025b3d",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7668",
+      "updated_at": "2026-11-18T05:07:06Z"
+    },
+    {
+      "number": 7671,
+      "title": "Prove the current triangle scalar core’s exact floor-rounding law",
+      "state": "open",
+      "merged": false,
+      "head": "f34696319eb19d05d1b09f7372c3146be3ea1635",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7671",
+      "updated_at": "2026-11-18T05:52:53Z"
+    },
+    {
+      "number": 7672,
+      "title": "Bound all native and scalar error sites in the current triangle",
+      "state": "open",
+      "merged": false,
+      "head": "22f492a68bfa5c8d64bc08330b2e2227fa9190d0",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7672",
+      "updated_at": "2026-11-18T06:17:19Z"
+    }
+  ],
+  "notes": [
+    "Canonical main and selected record unchanged from S022. The older current-priorities and bottleneck prose still names an obsolete selected value; the selected JSON is authoritative.",
+    "PR7669 is an open .0037218793483 conditional composition, not a selected change. PR7671/7672 separately address rounded scalar identity and propagated native error; no automatic transfer to this source.",
+    "PR7665 supplies a finite rounded coefficient catalogue; PR7670 gives shared fixed-tape guide production/reset/retirement. Both retain complete recursive/physical admission obligations.",
+    "PR7668 is a scoped Lean ceiling with named premises; no Lean replay or complete-word admission performed here.",
+    "No predecessor PR is merged or imported in this session. Current BIT donor/receiver equations and noncommuting complex interstages remain the chosen mathematical direction."
+  ],
+  "discussion_reads": [
+    1163,
+    1166,
+    1167
+  ],
+  "coverage": "Targeted metadata/body, canonical instruction, selected, priority, bottleneck, family and public discussion reads. No exhaustive novelty audit or independent validation of open PR results."
+}
