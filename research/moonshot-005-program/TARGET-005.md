@@ -1,5 +1,9 @@
 # Exact target κ=1/200 — S021 checkpoint3
 
+## S022 checkpoint 6
+
+The [surplus downset bounds](results/bit-surplus-transcript-and-factor-gates/ADMISSION.md) price arbitrary deterministic transcripts with ten to twelve events under explicit destination restrictions, and exclude minimum-rank linear factorizations with arbitrarily many events. On the complex side, [two unrestricted interstages](results/complex-unrestricted-quartic/ADMISSION.md) still cap a quartic profile at the attainable (4,2,0), which misses target movement by 0.4192631087… . Larger-rank linear fittings, paid high destinations, nonquartic profiles and source architectures that change the chart layout remain distinct open cases.
+
 ## S022 checkpoint 5
 
 All root, route, paid-closure and record-width restrictions are explicit. At exact capacity, a common MDS dictionary fails for every finite alphabet on the native additive contract. Arbitrary source encoders on binary banks admit quotient coordinates, leaving the choice of mutually compatible subspaces as an algebraic obligation. The strictly larger-capacity variants require fresh proof.

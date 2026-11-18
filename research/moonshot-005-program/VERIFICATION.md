@@ -1,5 +1,9 @@
 # Verification ledger
 
+## S022 checkpoint 6
+
+[Portable reproduction](sessions/2026-11-17-S022/reproduce_cp6.py) rebuilt the nonlinear bounds, full finite-field flat census, and exact Gaussian-rational quartic controls from pinned inputs. [Validation receipt](sessions/2026-11-17-S022/CHECKPOINT6-VALIDATION.json).
+
 ## S022 checkpoint 5
 
 The [end-to-end reproduction](sessions/2026-11-17-S022/reproduce_cp5.py) rebuilt the full raw opcode stream, checked independently every terminal field on all original basis columns, regenerated the two graph enumerations and the rank-control receipts. [Full validation hashes](sessions/2026-11-17-S022/CHECKPOINT5-VALIDATION.json).

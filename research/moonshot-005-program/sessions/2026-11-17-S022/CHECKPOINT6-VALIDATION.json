@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "byte_equal": true,
+  "checks": [
+    {
+      "source": "results/bit-surplus-transcript-and-factor-gates/surplus/check.py",
+      "certificate": "results/bit-surplus-transcript-and-factor-gates/surplus/CERTIFICATE.json",
+      "sha256": "8c998ebafee72676de596dd190107819970074c2edacfb05c0354cd8c149810b"
+    },
+    {
+      "source": "results/bit-surplus-transcript-and-factor-gates/factors/check.py",
+      "certificate": "results/bit-surplus-transcript-and-factor-gates/factors/CERTIFICATE.json",
+      "sha256": "f100f1eb19932073e2afeb4051a5f4eb794829c2f3188effb1de8c96267a8c93"
+    },
+    {
+      "source": "results/bit-surplus-transcript-and-factor-gates/review/check.py",
+      "certificate": "results/bit-surplus-transcript-and-factor-gates/review/RESULT.json",
+      "sha256": "84291319fbc585b09c701df4ced00295b9098ee41e4365b6148ebc318f2a8ba1"
+    },
+    {
+      "source": "results/complex-unrestricted-quartic/author/check.py",
+      "certificate": "results/complex-unrestricted-quartic/author/output/RESULT.json",
+      "sha256": "b374d171545be97d05373f50933839ea3f8b93c06b520399b0c8176c124b96a2"
+    },
+    {
+      "source": "results/complex-unrestricted-quartic/review/quartic.py",
+      "certificate": "results/complex-unrestricted-quartic/review/QUARTIC-RESULT.json",
+      "sha256": "5b709338cc22f5308e8cafa91aa78d15df96aa22620f07ef9752e8dd0799c910"
+    }
+  ]
+}

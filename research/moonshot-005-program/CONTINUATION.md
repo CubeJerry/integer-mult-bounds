@@ -1,7 +1,7 @@
 # Resume the permanent programme
 
-Realize compatible full-rank native transfers on the same paid all-receiver routes and synchronize their maps to the identity across overlapping donors and receivers, with every real endpoint restored.
+Realize the native foreign sums simultaneously across all paid balanced routes, including the nine canonical descents and all endpoint restorations.
 
-[An all-111 causal BIT word](results/bit-all111-tight-port-atlas/ADMISSION.md) implements a fully specified partial transfer on 319,680 arbitrary original columns. It covers 6,430 of 6,470 foreign pairs, with individual ranks 0–23 against 240. The [tight-code obstruction](results/bit-tight-atlas-code-obstruction/ADMISSION.md) excludes a common MDS dictionary. The [quotient reduction](results/bit-tight-atlas-quotient-interfaces/ADMISSION.md) characterizes even unrestricted separated source functions and reduces a shared outgoing plane to exact rank inequalities.
+The [surplus downset bounds](results/bit-surplus-transcript-and-factor-gates/ADMISSION.md) price arbitrary deterministic transcripts with ten to twelve events under explicit destination restrictions, and exclude minimum-rank linear factorizations with arbitrarily many events. On the complex side, [two unrestricted interstages](results/complex-unrestricted-quartic/ADMISSION.md) still cap a quartic profile at the attainable (4,2,0), which misses target movement by 0.4192631087… .
 
 Consult [the exact state](STATE.json), [obligations](OBLIGATIONS.md) and [verification ledger](VERIFICATION.md).

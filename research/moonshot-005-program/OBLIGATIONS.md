@@ -1,5 +1,11 @@
 # Remaining proof obligations — S021 checkpoint3
 
+## S022 checkpoint 6
+
+Realize the native foreign sums simultaneously across all paid balanced routes, including the nine canonical descents and all endpoint restorations.
+
+The [surplus downset bounds](results/bit-surplus-transcript-and-factor-gates/ADMISSION.md) price arbitrary deterministic transcripts with ten to twelve events under explicit destination restrictions, and exclude minimum-rank linear factorizations with arbitrarily many events. On the complex side, [two unrestricted interstages](results/complex-unrestricted-quartic/ADMISSION.md) still cap a quartic profile at the attainable (4,2,0), which misses target movement by 0.4192631087… . Larger-rank linear fittings, paid high destinations, nonquartic profiles and source architectures that change the chart layout remain distinct open cases.
+
 ## S022 checkpoint 5
 
 Realize compatible full-rank native transfers on the same paid all-receiver routes and synchronize their maps to the identity across overlapping donors and receivers, with every real endpoint restored.

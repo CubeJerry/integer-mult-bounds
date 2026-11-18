@@ -1,5 +1,9 @@
 # Persistent κ=0.005 research programme
 
+## S022 checkpoint 6
+
+The [surplus downset bounds](results/bit-surplus-transcript-and-factor-gates/ADMISSION.md) price arbitrary deterministic transcripts with ten to twelve events under explicit destination restrictions, and exclude minimum-rank linear factorizations with arbitrarily many events. On the complex side, [two unrestricted interstages](results/complex-unrestricted-quartic/ADMISSION.md) still cap a quartic profile at the attainable (4,2,0), which misses target movement by 0.4192631087… .
+
 ## S022 checkpoint 5
 
 [An all-111 causal BIT word](results/bit-all111-tight-port-atlas/ADMISSION.md) implements a fully specified partial transfer on 319,680 arbitrary original columns. It covers 6,430 of 6,470 foreign pairs, with individual ranks 0–23 against 240. The [tight-code obstruction](results/bit-tight-atlas-code-obstruction/ADMISSION.md) excludes a common MDS dictionary. The [quotient reduction](results/bit-tight-atlas-quotient-interfaces/ADMISSION.md) characterizes even unrestricted separated source functions and reduces a shared outgoing plane to exact rank inequalities.

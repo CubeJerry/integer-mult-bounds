@@ -2598,3 +2598,12 @@ Confirmed parent b4d7b14a31143f7bd35bff6ec90aa320a43cc958. [An all-111 causal BI
 The [end-to-end reproduction](sessions/2026-11-17-S022/reproduce_cp5.py) rebuilt the full raw opcode stream, checked independently every terminal field on all original basis columns, regenerated the two graph enumerations and the rank-control receipts. [Full validation hashes](sessions/2026-11-17-S022/CHECKPOINT5-VALIDATION.json).
 
 Next. Realize compatible full-rank native transfers on the same paid all-receiver routes and synchronize their maps to the identity across overlapping donors and receivers, with every real endpoint restored. The next receipt or branch log identifies the resulting commit.
+
+
+## 2026-11-17 S022, checkpoint 6
+
+Confirmed parent 89419767c5353083611a810e33c3ea4b88e1d39f. The [surplus downset bounds](results/bit-surplus-transcript-and-factor-gates/ADMISSION.md) price arbitrary deterministic transcripts with ten to twelve events under explicit destination restrictions, and exclude minimum-rank linear factorizations with arbitrarily many events. On the complex side, [two unrestricted interstages](results/complex-unrestricted-quartic/ADMISSION.md) still cap a quartic profile at the attainable (4,2,0), which misses target movement by 0.4192631087… .
+
+[Portable reproduction](sessions/2026-11-17-S022/reproduce_cp6.py) rebuilt the nonlinear bounds, full finite-field flat census, and exact Gaussian-rational quartic controls from pinned inputs. [Validation receipt](sessions/2026-11-17-S022/CHECKPOINT6-VALIDATION.json).
+
+Next. Realize the native foreign sums simultaneously across all paid balanced routes, including the nine canonical descents and all endpoint restorations. The next receipt or branch log identifies the resulting commit.
