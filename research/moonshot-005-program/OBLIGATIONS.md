@@ -1,5 +1,19 @@
 # Remaining proof obligations — current programme
 
+## S026 checkpoint 1
+
+| Obligation | Status and next step |
+| --- | --- |
+| Fixed-code completion by additional ground records | Proved: exact canonical quotient rank, nonlinear message lower bound, physical completion and incremental costs. |
+| Affordable global error | Open: construct an actual causal code with r at most 202 at bank 5,760, or meet the scaled strict threshold. |
+| Generic 70-coordinate completion | Insufficient: actual maximal-defect members and the scaling isolation theorem are proved. Structured coefficients remain possible. |
+| Scalar information bound after repair | The automatic 48,876 extension is invalid. A sharp linear shared-repair intersection bound is proved; a native global exclusion is still open. |
+| Replacement canonical bank | Active investigation. Price and source compatibility must be proved before treating this as a new completion interface. |
+
+Sources: [paid repair](results/bit-canonical-quotient-repair/ADMISSION.md) and
+[repair gates](results/bit-scaling-isolation-and-repair-slack/ADMISSION.md).
+These results retain all five foundations and do not establish a new κ.
+
 ## S025 checkpoint 1
 
 | Obligation | Status and next step |

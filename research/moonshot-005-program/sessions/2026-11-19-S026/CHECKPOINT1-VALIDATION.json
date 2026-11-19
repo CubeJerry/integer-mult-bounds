@@ -1,0 +1,29 @@
+{
+  "session": "2026-11-19-S026",
+  "checkpoint": 1,
+  "baseline": "d8544284cbd0527cd03a0aad576a2d2c6eddcc0e",
+  "python": "3.12.14",
+  "checks": [
+    {
+      "package": "bit-canonical-quotient-repair",
+      "integrated_author_replay_equal": true,
+      "independent_review": "review/REVIEW.md",
+      "independent_check_result": "review/output/RESULT.json",
+      "files": 10
+    },
+    {
+      "package": "bit-scaling-isolation-and-repair-slack",
+      "integrated_author_replay_equal": true,
+      "independent_review": "review/REVIEW.md",
+      "independent_check_result": "review/output/RESULT.json",
+      "files": 8
+    }
+  ],
+  "no_new_complete_kappa": true,
+  "unrun": [
+    "full balanced coefficient materialization",
+    "selected cold replay",
+    "complete supplier admission",
+    "human or formal-kernel proof"
+  ]
+}

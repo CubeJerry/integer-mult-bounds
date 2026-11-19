@@ -1,5 +1,26 @@
 # Verification ledger
 
+## S026 checkpoint 1
+
+Root independently reviewed the exact canonical quotient repair proof, its
+physical ordering and the new determinant-product counterexample within the
+retained affine source family. A separate checker reconstructs all 111 native
+canonical restrictions, exact small fibre cardinalities, an all-input late-map
+control, and rational moment intervals certified by integer 200th powers.
+[Review](results/bit-canonical-quotient-repair/review/REVIEW.md) and
+[receipt](results/bit-canonical-quotient-repair/review/output/RESULT.json).
+
+Root separately reviewed the fixed-space, scaling-isolation and sharp
+shared-repair arguments. Independent GF(4) and binary-subspace controls check
+the scaling distinction and the sharp multi-receiver loss. The proof does not
+reuse the old scalar information bound after changing its saturation premise.
+[Review](results/bit-scaling-isolation-and-repair-slack/review/REVIEW.md) and
+[receipt](results/bit-scaling-isolation-and-repair-slack/review/output/RESULT.json).
+
+No full balanced coefficient table, supplier, selected cold replay, human
+proof or formal-kernel acceptance is claimed. S026's starting remote commit
+is d8544284cbd0527cd03a0aad576a2d2c6eddcc0e; S025 was active concurrently.
+
 ## S025 checkpoint 1
 
 Fresh independent C code checks103,748 original local matrices, reconstructs physical permutations and the exact1,666,493,220-ADD invoice. Root independently rebuilds all6,581 mixed/late physical graphs and verifies primal capacities, conservation and matching residual cuts. A distinct F2/F3 enumeration checks67,262 source-lifting cases. The written proofs, not these finite cases alone, support the universal claims. The K6 old independent engine reproduces its full receipt exactly; this replay is explicitly reused code, alongside fresh root mathematical review.

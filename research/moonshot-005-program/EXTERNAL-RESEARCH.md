@@ -1,5 +1,17 @@
 # Relevant external research and compatibility
 
+## S026 intake
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57 and selects
+conditional κ=0.00363005817. Open CrocSwap/integer-mult-bounds#7756 and #7761
+claim 0.00382063778168 and 0.00382069832557 respectively using grouped P104
+helpers and a changed batch boundary. Their exact heads and stated costs were
+read; their scientific checks were not replayed here and no supplier was
+imported. The owned canonical-row producer in #7752 closes a local tape
+interface while leaving its actual CRT caller costs open. The seven-call
+shared-hub obstruction in #7763 has a different, explicitly restricted model.
+[Pinned intake and compatibility decisions](sessions/2026-11-19-S026/UPSTREAM-INTAKE.json).
+
 ## S025 intake
 
 Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; the selected record still says.00363005817. Guidance's older numerical headers are stale. Open PR7726 claims.00378751509478 through interleaved helper bases; it has not been adopted as the programme frontier. PR7751 strengthens nine original fixed-stock deadline floors even with rational relay charts, explicitly without an additive bound for a changed shared network. PR7747 gives a four-qubit complex Clifford Gram calculation, not a characteristic-two native source construction. PR7728 is a scoped fixed-tape CLEAR execution with program-generation/loading and enclosing contracts open. [Bounded exact intake](sessions/2026-11-19-S025/UPSTREAM-INTAKE.json). No upstream PR was submitted or changed.

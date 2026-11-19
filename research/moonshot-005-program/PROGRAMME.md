@@ -1,5 +1,26 @@
 # Persistent κ=0.005 research programme
 
+## S026 checkpoint 1: a paid completion criterion
+
+The [canonical quotient repair theorem](results/bit-canonical-quotient-repair/ADMISSION.md)
+replaces exact proper-transfer synchronization by an alternative target: make
+the global error rank small modulo the already paid canonical bank. It gives
+an optimal number of additional correction records for the fixed late code,
+including a nonlinear message lower bound and a complete incremental invoice.
+At bank size 5,760, at most 202 field records pass the limiting movement screen.
+
+[Scaling isolation and repair slack](results/bit-scaling-isolation-and-repair-slack/ADMISSION.md)
+show why generic invertibility and 70 correct rows do not deliver this target.
+An affordable point, if present, is isolated within each unused-coordinate
+scaling family. The earlier scalar information deficit cannot be transferred
+unchanged after a repair channel is introduced.
+
+This concurrent session complements S025's array and complex investigations.
+The next construction question is a physical code with small global error,
+including the potentially stronger option of replacing the canonical bank.
+That replacement is still being investigated at this checkpoint. No new κ;
+both suppliers, the complete caller and all five foundations remain open.
+
 ## S025 checkpoint 1: common coordinates and verified local arrays
 
 [Seventy common coordinates](results/bit-seventy-common-coordinates/ADMISSION.md) now coexist with all6,470 invertible foreign blocks. The exact quotient-image lifting theorem and6,581 independent physical flows close this previously unpublished continuation. Its generic witness method stops at70; all5,690 other coordinates remain open.

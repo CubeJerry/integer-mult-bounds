@@ -2643,3 +2643,28 @@ Started2026-11-18T21:44:46Z from confirmed remote01c2c68e1465dab868a422a278be918
 Completed a fresh independent review of70 common coordinates with all6,470 foreign blocks invertible; all6,581 physical flow cases and67,262 algebraic controls pass. Recovered all1,119 local H interfaces, common semisimple gate and the separately paid seven-source K6 word, with precise existing/fresh verification scopes. No new κ. The main obligation remains global source and downstream compatibility, now being attacked with noncommuting arrays and scoped nilpotent alternatives. Complex independent endpoints remain active.
 
 [Checkpoint validation](sessions/2026-11-19-S025/CHECKPOINT1-VALIDATION.json). Resulting commit SHA is recorded in a subsequent remote receipt rather than self-referentially here. No upstream PR or external message was sent.
+
+## 2026-11-19 S026 checkpoint 1
+
+Started at 2026-11-19T01:00:26Z from confirmed remote
+d8544284cbd0527cd03a0aad576a2d2c6eddcc0e, with a requested five-hour budget
+through 2026-11-19T06:00:26Z. S025 was still active. Three complementary
+workers addressed global gluing, a paid completion bridge and adversarial
+native-sum constraints; their source workspaces were separate and root alone
+integrated. Canonical upstream remains e54523517d0f03e58352e647c403a5af3e525a57.
+
+Proved and independently reviewed the exact canonical quotient repair count,
+its physical completion and incremental invoice. At bank size 5,760 the strict
+limiting movement screen permits at most 202 new records, first passing its
+finite comparison at even m=27,218. Also proved actual maximal-defect members
+of the seventy-coordinate family, fixed-space/scaling isolation, and the sharp
+shared-repair intersection inequality. The tempting transfer of the earlier
+scalar deficit 48,876 was found unjustified and is explicitly not admitted.
+The separate pooled-cut search remains exploratory evidence.
+
+The [paid repair](results/bit-canonical-quotient-repair/ADMISSION.md) and
+[repair gates](results/bit-scaling-isolation-and-repair-slack/ADMISSION.md)
+contain proofs, source pins, exact controls and separate reviews. No new κ.
+Next: actual low-defect source construction, a replacement canonical bank and
+near-minimum fitting rank, plus review of the complete native asymmetry census.
+The session continues; the resulting commit is confirmed in a later receipt.

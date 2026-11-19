@@ -1,5 +1,27 @@
 # Exact target κ=1/200 — current programme
 
+## S026 checkpoint 1: exact correction budget
+
+For a fixed balanced causal code B, existing canonical bank H and bank width
+b=5,760, the new necessary and sufficient message count for completion by
+additional ground information is
+
+    r = rank([H; I-B]) - rank(H).
+    Q_r = Q_balanced + (r/5760) [8].
+
+The strict limiting movement test is `r < 202.329744960032...`. Thus an integer
+r of at most 202 passes that necessary screen; r=202 first passes the retained
+finite movement comparison at even m=27,218. At b=5,760s, scale the threshold
+by s before rounding. Every binary extension copy remains paid. The explicit
+new ADD/INIT/owned-record/CLEAR costs and complete caller admission remain
+additional. [Full theorem and exact intervals](results/bit-canonical-quotient-repair/author/PROOF.md).
+
+The existing 70-coordinate physical family contains members with every
+foreign defect rank 5,690. Their generic guarantees do not meet the repair
+criterion. The [scaling theorem](results/bit-scaling-isolation-and-repair-slack/author/REPAIR-GATES.md)
+further forces any cheap point to be exceptional. The old scalar deficit
+48,876 is not an admitted lower bound after adding a repair channel.
+
 ## S025 checkpoint 1
 
 The70-coordinate mixed theorem changes correctness coverage, not the paid balanced invoice. All5,760 field lanes and30 binary extension copies remain charged; limiting movement room stays0.278106915125… before ordinary/caller charges. Dividing the bill by70 is invalid. The common local H interface bill is1,666,493,220 ADD and878,850 INIT/dirty CLEAR each; it has no extra H MOVE but still lacks global source and later transport. The K6 seven-source fragment has its own paid profile and cannot be substituted into the fixed balanced atlas without a compatibility proof.

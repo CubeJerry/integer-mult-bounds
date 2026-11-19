@@ -1,5 +1,33 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+## Latest cumulative progress: S026 checkpoint 1
+
+**No new κ.** The new completion theorem gives an exact, paid alternative to
+perfect proper-transfer alignment. With the late code fixed, the number of
+additional Hub-to-ground records is the global defect rank modulo the existing
+canonical information. The matching compiler preserves all original inputs,
+handles arbitrary initial Y, and charges ordinary operations, allocation,
+movement and dirty cleanup. A counting proof makes the message lower bound
+valid even for nonlinear additional encoders. At bank size 5,760, the strict
+limiting movement allowance permits at most 202 correction symbols; their
+finite comparison first passes at even multiplicity 27,218. These are necessary
+movement screens, not full supplier admission.
+
+The same physical affine source family contains fully invertible foreign maps
+with defect rank 5,690 on every edge. An independent scaling theorem shows that
+at most one nonzero unused-coordinate scaling can have affordable repair rank.
+These results identify the need for correlated source coefficients. A sharp
+shared-repair subspace lemma also prevents an invalid transfer of the old scalar
+information deficit to this changed interface.
+
+The proofs, exact negative controls, source pins, independent mathematical
+reviews and reproduction commands are in the [paid repair package](results/bit-canonical-quotient-repair/ADMISSION.md)
+and [repair gates](results/bit-scaling-isolation-and-repair-slack/ADMISSION.md).
+Credit @CubeJerry, the native/atlas and earlier source authors, and the retained
+S026 worker contributions; substantial OpenAI assistance is disclosed. Both
+strict suppliers, the full caller and all five foundational assumptions remain
+open. This is an ongoing programme, not yet a submitted cumulative PR.
+
 ## Latest cumulative progress: S025 checkpoint 1
 
 **No new κ.** This ongoing branch is not yet proposed for submission. The new reviewed70-coordinate theorem uses an exact invertible-source quotient-image criterion,6,581 separately reconstructed physical flow witnesses and two finite-field polynomial specializations. All6,470 foreign maps stay invertible, but5,690 native coordinates remain uncorrected. It retains the entire balanced invoice and every foundation. [Full package](results/bit-seventy-common-coordinates/ADMISSION.md).

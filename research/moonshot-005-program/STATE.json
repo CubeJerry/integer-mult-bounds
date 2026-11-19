@@ -784,5 +784,29 @@
     "ADD": 1666493220,
     "INIT_and_dirty_CLEAR_each": 878850,
     "global_source_compatibility": false
+  },
+  "concurrent_S026_checkpoint": {
+    "session": "2026-11-19-S026",
+    "status": "active-checkpoint1",
+    "started_utc": "2026-11-19T01:00:26Z",
+    "planned_end_utc": "2026-11-19T06:00:26Z",
+    "requested_seconds": 18000,
+    "checkpoint_baseline_sha": "d8544284cbd0527cd03a0aad576a2d2c6eddcc0e",
+    "concurrent_predecessor": "S025 was active at startup; preserve and reconcile its later evidence before every push.",
+    "verified_packages": [
+      "results/bit-canonical-quotient-repair/ADMISSION.md",
+      "results/bit-scaling-isolation-and-repair-slack/ADMISSION.md"
+    ],
+    "new_complete_kappa": false,
+    "fixed_bank_repair_rank_limit": 202,
+    "field_bank_dimension": 5760,
+    "first_even_m_at_rank202": 27218,
+    "global_low_defect_code_constructed": false,
+    "next_actions": [
+      "Construct an actual causal code with correlated low defect, including the stronger replacement-bank option under review.",
+      "Independently review the complete native asymmetry census and its exact dual certificates.",
+      "Derive precise near-minimum fitting-rank and source compatibility consequences without transferring exact saturation premises."
+    ],
+    "upstream_intake": "sessions/2026-11-19-S026/UPSTREAM-INTAKE.json"
   }
 }
