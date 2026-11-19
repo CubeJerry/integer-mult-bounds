@@ -168,3 +168,20 @@ source gates constrain previously specified representations, not all possible
 constructions. The joint repair theorem is not a lower bound on every optimized
 replacement bank. Precise quantifiers, dependencies, negative controls and
 independent reviews are in the linked admissions.
+
+## S027 checkpoint2 obligations
+
+| Obligation | Status | Dependency / remaining step |
+|---|---|---|
+| Donor-specific two-evaluation source quotients and genuine early phase | Proved existence over GF256; no selected coefficient file | [Source admission](results/bit-clifford-two-evaluation-source/ADMISSION.md); choose rows jointly with actual H/D/K constraints |
+| Optional shared-plane source for Bstar | Disproved in the retained tight-cut scope | Unchanged receiver2 odd witness; donor-specific kernels remain open |
+| Saturated common D packets and causal K compression | Proved local criteria | [Information bridge](results/bit-middle-information-factorization/ADMISSION.md); actual demand spaces must be supplied |
+| Pure early/late D phase and paid snapshots | Proved local completion conditional on full-product proper boundary | [Phase theorem](results/bit-paid-middle-phase-completion/ADMISSION.md); correlated boundaries require a further lifting analysis |
+| Literal D12 target tile and receiver80 projection | Proved finite words with all original columns and exact costs | [Tile](results/bit-native-irreducible-target-tile/ADMISSION.md), [projection](results/bit-native-irreducible-target-projection/ADMISSION.md); actual whole return remains far too large |
+| One-vector local Clifford source | Disproved for target movement in stated source/return interface | [Gate](results/bit-clifford-one-evaluation-gate/ADMISSION.md), h>=b/24 |
+| Global inexpensive proper map | Open | Joint source and shared H/D/K construction; all output rows, masks, baselines and return rank |
+
+The new source theorem is not a free selection oracle. Its finite selector and
+large finite ordinary bill are explicit. A failed all-plane-pairs-rank12 guess
+was repaired using the exact eleven rank11 exceptions and their matching graphs;
+no universal claim relies on the false stronger guess. No new complete kappa.

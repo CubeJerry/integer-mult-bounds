@@ -1,0 +1,65 @@
+{
+  "GF256_tower": "s^2+s+t^3 over GF16",
+  "actual_normalized_early_quota_histogram": {
+    "8": 2675,
+    "16": 422,
+    "24": 11
+  },
+  "all_111_early_cardinality_bounds_checked": true,
+  "author_checker_imported": false,
+  "binary_H_pair_histogram": {
+    "44": 11,
+    "48": 41947
+  },
+  "binary_single_H_rank": 32,
+  "extra_singleton_early_slots": 88,
+  "extra_singleton_omission_rejected": true,
+  "hyperplane_H_histogram": {
+    "0": 111,
+    "12": 6993,
+    "16": 6993
+  },
+  "hyperplanes_checked": 14097,
+  "maximum_bad_degree": 1,
+  "maximum_hyperplane_H_count": 16,
+  "maximum_six_subspace_H_count": 10,
+  "minimum_actual_bank": 3840,
+  "pins": [
+    {
+      "path": "author/output/WITNESS.json",
+      "sha256": "954639f60549fd9fca09a9c95efce4b7e7cb1625a030f7df128644e72d63a1b7"
+    },
+    {
+      "path": "BASIS.json",
+      "sha256": "d2a825f09a4d24a8a0319743ec84bed9b9e6b50656d3105a1c4577ec78fba9ab"
+    },
+    {
+      "path": "native/bit-asymmetric-balanced-atlas/ROUTES.jsonl.gz",
+      "sha256": "8d0caea35131728c255e731531d2e876383376e7706b9bc84bbc28a424f1e9d4"
+    },
+    {
+      "path": "author/check.py",
+      "sha256": "396800c876fe9b5e8744ec49b95f2a9496f6c6072ec51599d1c563583ef0b80b"
+    },
+    {
+      "path": "author/PROOF.md",
+      "sha256": "f93419b90a652f956b0e7a676205263cb556a498d032c1b66851d94c15b7d319"
+    }
+  ],
+  "scope": "source quotient and genuine source-phase Hall prerequisites; shared H/D/K and return remain open",
+  "six_subspace_H_histogram": {
+    "0": 6993,
+    "4": 34965,
+    "6": 111888,
+    "8": 104895,
+    "10": 37296
+  },
+  "six_subspaces_checked": 296037,
+  "source_only_invoice_at_minimum": {
+    "ADD_upper_bound": 288417472320,
+    "INIT_CLEAR_and_peak": 2568000,
+    "additional_MOVE": 0
+  },
+  "status": "PASS_INDEPENDENT_TWO_EVALUATION_SOURCE_HALL",
+  "tower_nonzero_inverses_checked": 255
+}

@@ -1,0 +1,92 @@
+{
+  "checks": [
+    {
+      "matches_admitted_json": true,
+      "name": "information-author",
+      "script": "research/moonshot-005-program/results/bit-middle-information-factorization/author/check.py",
+      "script_sha256": "c5a804a5ff428cc2e2a0d2e9c70333d6a8356503d61ba36319107dbff6af4a24",
+      "seconds": 0.181
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "information-review",
+      "script": "research/moonshot-005-program/results/bit-middle-information-factorization/review/check.py",
+      "script_sha256": "f6fa2965aa90cefcc5a5d03254008201ca4532dd5f1d65a6f4cc5d3f03616d75",
+      "seconds": 0.136
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "paid-phase-author",
+      "script": "research/moonshot-005-program/results/bit-paid-middle-phase-completion/author/check.py",
+      "script_sha256": "b949f80b2a5582b3b399d6033309671ef2f3d21cf648aba66ae9e601ae716c74",
+      "seconds": 0.057
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "paid-phase-review",
+      "script": "research/moonshot-005-program/results/bit-paid-middle-phase-completion/review/check.py",
+      "script_sha256": "0d2e88d2c0f4a35733c069192b340add253137de518e9c20c6764366335e05a5",
+      "seconds": 0.459
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "tile-author",
+      "script": "research/moonshot-005-program/results/bit-native-irreducible-target-tile/author/build.py",
+      "script_sha256": "e3adb305d0a963ed9f115d08cf99306a171e9199b9b3b644840f4981a9f712c3",
+      "seconds": 1.357
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "tile-controls",
+      "script": "research/moonshot-005-program/results/bit-native-irreducible-target-tile/author/controls.py",
+      "script_sha256": "7e407d5384f1d6408975dba966b29ca8100f526e8baf44788478455fbe37ccb2",
+      "seconds": 0.534
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "tile-review",
+      "script": "research/moonshot-005-program/results/bit-native-irreducible-target-tile/review/check.py",
+      "script_sha256": "965c4f1350cdddd519bf0c1d2d1d59e64a7226b97ed48389dfe1d1ed90389a6c",
+      "seconds": 1.924
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "projection-author",
+      "script": "research/moonshot-005-program/results/bit-native-irreducible-target-projection/author/build.py",
+      "script_sha256": "ac8aca07542ad62b8b1238788a82a31a99a943e218259640e2d3565947eed40e",
+      "seconds": 3.943
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "projection-controls",
+      "script": "research/moonshot-005-program/results/bit-native-irreducible-target-projection/author/controls.py",
+      "script_sha256": "1b0aa75392299d1500e8b0033c8fd4c4b9402d2f6812fdf287fbea924f33452f",
+      "seconds": 8.217
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "projection-review",
+      "script": "research/moonshot-005-program/results/bit-native-irreducible-target-projection/review/check.py",
+      "script_sha256": "0aef0640b41fbbdb9d0f3ff94a0be1fac43595d00f19276e48b82d7932853d9e",
+      "seconds": 2.613
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "one-evaluation-author",
+      "script": "research/moonshot-005-program/results/bit-clifford-one-evaluation-gate/author/check.py",
+      "script_sha256": "5d336e97345b5d9ff8e66f8bcacc9b5e392cdeb7972c74e1d8a6b29ee9ae46cc",
+      "seconds": 6.53
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "one-evaluation-review",
+      "script": "research/moonshot-005-program/results/bit-clifford-one-evaluation-gate/review/check.py",
+      "script_sha256": "3d8130dac21ea0de2c184c9d106039caaa0a85f212a960e66590bb2c7adb07f9",
+      "seconds": 39.927
+    }
+  ],
+  "group": "baseline",
+  "new_complete_kappa": false,
+  "separate_reviews": "Per-package review/REVIEW.md; this replay is not another independent review.",
+  "status": "PASS_S027_CHECKPOINT2_INTEGRATED_REPLAY"
+}

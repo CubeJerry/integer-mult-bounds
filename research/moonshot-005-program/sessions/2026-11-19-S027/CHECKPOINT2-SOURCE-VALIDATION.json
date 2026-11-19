@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "matches_admitted_json": true,
+      "name": "two-evaluation-author",
+      "script": "research/moonshot-005-program/results/bit-clifford-two-evaluation-source/author/check.py",
+      "script_sha256": "396800c876fe9b5e8744ec49b95f2a9496f6c6072ec51599d1c563583ef0b80b",
+      "seconds": 9.694
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "two-evaluation-review",
+      "script": "research/moonshot-005-program/results/bit-clifford-two-evaluation-source/review/check.py",
+      "script_sha256": "ed03d1f006fc23e5967ca2cf08d6e5e9cc3fdb0207fb98a658173dda3a758fd8",
+      "seconds": 7.253
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "two-evaluation-phase-review",
+      "script": "research/moonshot-005-program/results/bit-clifford-two-evaluation-source/review/phase_check.py",
+      "script_sha256": "3c80cbeb8a7be43d7f4619c50f197f368ccddb309f67f8fddc83dc711974415a",
+      "seconds": 3.792
+    }
+  ],
+  "group": "source",
+  "new_complete_kappa": false,
+  "separate_reviews": "Per-package review/REVIEW.md; this replay is not another independent review.",
+  "status": "PASS_S027_CHECKPOINT2_INTEGRATED_REPLAY"
+}

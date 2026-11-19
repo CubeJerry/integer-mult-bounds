@@ -1,0 +1,93 @@
+{
+  "complete_word": {
+    "ADD": 32190,
+    "CLEAR": 340,
+    "INIT": 340,
+    "X_restored": true,
+    "Y_baseline_identity": true,
+    "all_owned_cleared": true,
+    "dirty_CLEAR": 340,
+    "exact_selected_target": true,
+    "peak_extra": 340
+  },
+  "new_complete_kappa": false,
+  "omission_controls": [
+    {
+      "omitted": "restore-all-X",
+      "required_failure": "X_restored",
+      "result": {
+        "ADD": 19903,
+        "CLEAR": 340,
+        "INIT": 340,
+        "X_restored": false,
+        "Y_baseline_identity": true,
+        "all_owned_cleared": true,
+        "dirty_CLEAR": 340,
+        "exact_selected_target": true,
+        "peak_extra": 340
+      }
+    },
+    {
+      "omitted": "inverse-arbitrary-Y-baseline",
+      "required_failure": "Y_baseline_identity",
+      "result": {
+        "ADD": 28722,
+        "CLEAR": 340,
+        "INIT": 340,
+        "X_restored": true,
+        "Y_baseline_identity": false,
+        "all_owned_cleared": true,
+        "dirty_CLEAR": 340,
+        "exact_selected_target": false,
+        "peak_extra": 340
+      }
+    },
+    {
+      "omitted": "late-H-86-0",
+      "required_failure": "exact_selected_target",
+      "result": {
+        "ADD": 32185,
+        "CLEAR": 340,
+        "INIT": 340,
+        "X_restored": true,
+        "Y_baseline_identity": true,
+        "all_owned_cleared": true,
+        "dirty_CLEAR": 340,
+        "exact_selected_target": false,
+        "peak_extra": 340
+      }
+    },
+    {
+      "omitted": "D-cross-12",
+      "required_failure": "exact_selected_target",
+      "result": {
+        "ADD": 32185,
+        "CLEAR": 340,
+        "INIT": 340,
+        "X_restored": true,
+        "Y_baseline_identity": true,
+        "all_owned_cleared": true,
+        "dirty_CLEAR": 340,
+        "exact_selected_target": false,
+        "peak_extra": 340
+      }
+    },
+    {
+      "omitted": "final-early-add-0",
+      "required_failure": "exact_selected_target",
+      "result": {
+        "ADD": 32185,
+        "CLEAR": 340,
+        "INIT": 340,
+        "X_restored": true,
+        "Y_baseline_identity": true,
+        "all_owned_cleared": true,
+        "dirty_CLEAR": 340,
+        "exact_selected_target": false,
+        "peak_extra": 340
+      }
+    }
+  ],
+  "status": "PASS_NATIVE_D4_TARGET_TILE_OMISSION_CONTROLS",
+  "word_decompressed_sha256": "42b701dfce05e108dfafc4db5dcf813f92c42d74f0416e6d37a1d7bb301459e1"
+}

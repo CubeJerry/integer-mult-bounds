@@ -1,0 +1,66 @@
+{
+  "all_original_X_restored": true,
+  "all_original_columns_covered": 532800,
+  "all_source_matrices_checked": 12,
+  "arbitrary_Y_identity": true,
+  "author_code_imported_or_executed": false,
+  "author_symbolic_engine_used": false,
+  "compressed_touched_columns": 1520,
+  "faults": {
+    "D-cross-12": {
+      "failed_condition": "target"
+    },
+    "final-early-add-0": {
+      "failed_condition": "target"
+    },
+    "inverse-arbitrary-Y-baseline": {
+      "failed_condition": "Y"
+    },
+    "late-H-101-0": {
+      "failed_condition": "target"
+    },
+    "late_original_X_read": {
+      "rejected": "nonlocal operand"
+    },
+    "restore-all-X": {
+      "failed_condition": "X"
+    },
+    "wrong_chart": {
+      "rejected": "nonlocal operand"
+    }
+  },
+  "full_target_constructed": false,
+  "invoice": {
+    "ADD": 32190,
+    "INIT": 340,
+    "added_MOVE": 0,
+    "canonical_return_included": false,
+    "dirty_CLEAR": 340,
+    "extra_peak_binary_owners": 340,
+    "peak_total_binary_owners": 533140,
+    "proper_MOVE_binary_counts": {
+      "1": 1335300,
+      "2": 1081950,
+      "4": 57600
+    },
+    "public_binary_owners": 532800
+  },
+  "literal_operand_locality_checks": 65060,
+  "local_Cauchy_minors": 12,
+  "new_complete_kappa": false,
+  "physical_routes": 106560,
+  "pins": {
+    "layout": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+    "matrices": "1f345560001ed3c54ece49ab50f4f8a148914738c26e433bac27dd6a74599753",
+    "phase": "a806cc80a7bc7955fa07e04384707deb38200bac682424682e997f742dc5e278",
+    "routes": "6d55093625ffd123daf3ae0914bcaeba1308756cec24fd2de083f6887ad0b036",
+    "word": "42b701dfce05e108dfafc4db5dcf813f92c42d74f0416e6d37a1d7bb301459e1"
+  },
+  "selected_target_exact": true,
+  "status": "PASS_INDEPENDENT_LITERAL_NATIVE_TARGET_TILE_REVIEW",
+  "target_binary_rows": 40,
+  "target_field_rows": 8,
+  "unserved_foreign_donors": 50,
+  "untouched_X_identity_columns": 265020,
+  "untouched_Y_identity_columns": 266260
+}

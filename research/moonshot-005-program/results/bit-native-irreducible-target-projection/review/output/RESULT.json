@@ -1,0 +1,86 @@
+{
+  "actual_X_dependent_output_fields": 420,
+  "actual_additional_paths": 400,
+  "all_original_X_restored": true,
+  "all_original_columns_covered": 532800,
+  "arbitrary_Y_identity": true,
+  "author_code_imported_or_executed": false,
+  "author_symbolic_engine_used": false,
+  "compressed_touched_columns": 12475,
+  "faults": {
+    "D-cross-12": {
+      "failed_condition": "target"
+    },
+    "final-early-add-0": {
+      "failed_condition": "target"
+    },
+    "final-flow-accumulation": {
+      "failed_condition": "target"
+    },
+    "flow-D-6": {
+      "failed_condition": "target"
+    },
+    "flow-H-0": {
+      "failed_condition": "target"
+    },
+    "inverse-arbitrary-Y-baseline": {
+      "failed_condition": "Y"
+    },
+    "joint-route-K-371": {
+      "failed_condition": "target"
+    },
+    "late-H-101-0": {
+      "failed_condition": "target"
+    },
+    "late_original_X_read": {
+      "rejected": "nonlocal operand"
+    },
+    "omit-native-injection": {
+      "failed_condition": "target"
+    },
+    "restore-all-X": {
+      "failed_condition": "X"
+    },
+    "wrong_chart": {
+      "rejected": "nonlocal operand"
+    }
+  },
+  "full_target_constructed": false,
+  "invoice": {
+    "ADD": 88560,
+    "INIT": 2340,
+    "added_MOVE": 0,
+    "canonical_return_included": false,
+    "dirty_CLEAR": 2340,
+    "extra_peak_binary_owners": 2340,
+    "peak_total_binary_owners": 535140,
+    "proper_MOVE_binary_counts": {
+      "1": 1335300,
+      "2": 1081950,
+      "4": 57600
+    },
+    "public_binary_owners": 532800
+  },
+  "literal_operand_locality_checks": 181800,
+  "new_complete_kappa": false,
+  "partial_bijection_pairs_checked": 1204,
+  "partial_word_return_rank_lower_bound_fields": 52860,
+  "physical_routes": 106560,
+  "pins": {
+    "layout": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+    "phase": "a806cc80a7bc7955fa07e04384707deb38200bac682424682e997f742dc5e278",
+    "routes": "6d55093625ffd123daf3ae0914bcaeba1308756cec24fd2de083f6887ad0b036",
+    "routing": "f7d7e6cf9c53d141607f6abf26a11794a4f40bd965e353698dcc78806ad2d050",
+    "tile": "42b701dfce05e108dfafc4db5dcf813f92c42d74f0416e6d37a1d7bb301459e1",
+    "word": "f44c57a64afed9bc2bc3b8abca4ccb2ed6c08df9638baec02bd456e1707d1b7e"
+  },
+  "predecessor_actions_checked_identical": 231,
+  "reuses_predecessor_reviewer_engine": true,
+  "selected_target_exact": true,
+  "status": "PASS_INDEPENDENT_COMPLETE_NATIVE_TARGET_PROJECTION_REVIEW",
+  "target_binary_rows": 40,
+  "target_field_rows": 8,
+  "unserved_foreign_donors_in_projection": 0,
+  "untouched_X_identity_columns": 261060,
+  "untouched_Y_identity_columns": 259265
+}

@@ -2698,3 +2698,24 @@ Start12:22:00 UTC; planned finish17:22:00 UTC. Remote baseline882a135e95d5f3202a
 Proved and separately reviewed: characteristic-two full-algebra target q=9b+b/30 with no flat input/output quotient and first even movement m870; separated-class gate failing34425/34965 native cuts; frozen triangle donor-gauge ranks72/71; joint-cut repair floor105rho=7b/16. Nine exact relocated receipts passed. All source restrictions, h/r distinctions and five foundations retained. No new complete kappa. Upstream main unchanged; open PR#7786 not adopted.
 
 Next: paid D12 target tile, common-information/causal middle factorization and noncommuting sources. Resulting remote SHA will be recorded after confirmation; baseline above avoids self-reference. No PR; programme remains active.
+
+## 2026-11-19-S027 checkpoint2 — source feasibility and paid middle composition
+
+Parent fb0a0b10da39fd1d0e93177ce08097739470e2d6 is confirmed on GitHub; its exact
+parent/tree receipt is retained in this session. Work continues within the
+12:22–17:22 UTC five-hour window. Six reviewed packages add common-information
+and causal K criteria, paid pure-phase D completion, a literal target tile and
+complete eight-row receiver80 projection, a one-vector Clifford budget gate,
+and donor-specific two-evaluation source/early-phase existence over GF256.
+The latter has an explicit finite selector, not an emitted coefficient file.
+Its optional shared-plane specialization is excluded for Bstar by an unchanged
+odd witness. The first all-pairs-rank12 hypothesis failed on eleven pairs;
+the corrected exceptional-graph Hall argument was independently verified.
+
+Fifteen serial relocated receipts and two scope audits pass. Every field copy,
+source cache, original-X restoration and arbitrary-Y baseline remains charged.
+The projection's full return is still expensive; no complete supplier or kappa
+is claimed. Next: overlapping masked D tiles, genuine cross-D K aggregation,
+whole-output mask/return audits, and correlated-boundary phase lifting. Current
+canonical/selected pins remain unchanged. No upstream PR; resulting checkpoint
+SHA will be recorded after remote confirmation, not self-referentially here.

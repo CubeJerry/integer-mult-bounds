@@ -511,3 +511,14 @@ No external result is newly adopted. The bank1920 mixed23 theorem uses the alrea
 ## S027 intake, 2026-11-19
 
 Canonical main e54523517d0f03e58352e647c403a5af3e525a57 and selected conditional kappa=0.00363005817 remain unchanged. Canonical instructions were read. Open PR#7786 at89a67c404226d51028e135de2b9169e9020d57af claims kappa>=0.00387944011068, remains below0.005, and is not adopted. PR#7792 has a Gaussian-dyadic field scope; PR#7783 supplies a scoped upper bound, not a0.005 construction; PR#7787 addresses invoice binding. See sessions/2026-11-19-S027/UPSTREAM-INTAKE.json for metadata and partial Discussion1163/1166/1167 coverage. PR#6916 and recent @CubeJerry PRs7600/7599/7598 were inspected for reporting style. No upstream PR or message was posted.
+
+## S027 checkpoint2 predecessor composition
+
+The new source proof uses the retained native quadratic geometry and literal
+asymmetric bank480 source quotas. The one-vector budget gate uses the admitted
+near-minimum fitting inequality and replacement-bank theorem, preserving their
+PR#7114 credit. The shared-plane Bstar exclusion reuses the S023 receiver2 odd
+witness with a fresh proper-map premise check and actual source/plane cuts.
+The explicit target projection credits S023's prior abstract one-receiver gauge
+feasibility; its novelty is paid literal compilation at the smaller atlas.
+No new upstream theorem was imported or selected certificate changed.

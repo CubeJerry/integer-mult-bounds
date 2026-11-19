@@ -1,5 +1,35 @@
 # Persistent κ=0.005 research programme
 
+## Current S027 checkpoint2: coupled source and shared output coding
+
+The programme now has a proved donor-specific Clifford source family: two
+fixed GF16 evaluation vectors support every native receiver view, and exact
+Hall conditions give simultaneous source quotients plus an invertible genuine
+early phase over GF256. The smallest compatible actual bank is3840. A finite
+coefficient selector exists but has not been executed. The source-only finite
+upper bill is288417472320 ADD and2568000 initialized/dirty-cleared binary cache
+records, with no additional MOVE. Selection and all later stages remain paid.
+See [source admission](results/bit-clifford-two-evaluation-source/ADMISSION.md).
+
+Common-plane quotients are not the current candidate: an unchanged odd witness
+excludes them for the irreducible target. The main family retains donor-specific
+kernels. New common-information, causal K and paid D-phase criteria specify
+what a successful continuation must satisfy. They are local interface theorems,
+not evidence that an arbitrary source automatically has a decoder.
+
+The actual bank480 words now include a target D12 tile and a complete eight-row
+projection at receiver80. They preserve every original X and arbitrary Y and
+have exact invoices; the projection still requires at least52860 return fields.
+Current constructive work joins overlapping D tiles with globally cancelled
+source masks, then aggregates across D at genuine K charts. All unselected
+outputs and the complete fitting rank remain part of the obligation.
+
+Checkpoint parent fb0a0b10da39fd1d0e93177ce08097739470e2d6. Selected conditional
+kappa remains0.00363005817; **No new kappa.** Strict BIT/complex compatibility,
+the whole recursive caller and all five foundational assumptions remain.
+Historical checkpoints below retain their original scopes and evidence.
+
+
 ## Current S027 checkpoint1: coupled source and middle construction
 
 The permanent branch resumes at `882a135e95d5f3202ab3c20784668b627a26628e`.

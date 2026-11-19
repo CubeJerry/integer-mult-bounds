@@ -412,3 +412,31 @@ The programme preserves @CubeJerry attribution, predecessor source/atlas
 credit, and substantial OpenAI assistance. Independent reviews here mean
 separate mathematical/code checks by AI workers and the orchestrator, not
 external human peer review. Exact source pins remain in each package.
+
+## S027 checkpoint2: coupled source and paid decoder interfaces
+
+**No new kappa; ongoing programme, not PR-ready.** Parent fb0a0b10da39fd1d0e93177ce08097739470e2d6.
+The [two-evaluation source](results/bit-clifford-two-evaluation-source/ADMISSION.md)
+combines explicit GF16 observations, native quadratic counts and Hall conditions
+with GF256 selection. Donor-specific quotients and genuine early inversion exist
+simultaneously. The selector is finite but unexecuted. At bank3840 the source-only
+upper bill is288417472320 ADD and2568000 paid cache records, with no added MOVE;
+selection and every later stage are additional. Its optional shared-plane
+specialization is excluded for the current irreducible target.
+
+The [information bridge](results/bit-middle-information-factorization/ADMISSION.md)
+and [phase completion](results/bit-paid-middle-phase-completion/ADMISSION.md)
+retain shared-message consistency, causal K capacity, genuine closures/births,
+arbitrary Y and paid snapshots. A [literal tile](results/bit-native-irreducible-target-tile/ADMISSION.md)
+and [eight-row projection](results/bit-native-irreducible-target-projection/ADMISSION.md)
+provide all-input word evidence. The projection costs88560 ADD and2340 paid
+binary caches, no extra MOVE, but still needs at least52860 return fields.
+The [one-vector gate](results/bit-clifford-one-evaluation-gate/ADMISSION.md)
+explains the representation change within its exact scope.
+
+Seventeen exact jobs are recorded in the checkpoint2 ledger, with separate
+mathematical, geometric and word reviews. Run the session checkpoint2_replay.py
+with --repo and --out; every regenerated receipt should match. All source,
+route and predecessor pins and credit remain. No complete BIT/complex supplier,
+outer theorem or foundational discharge is claimed. @CubeJerry attribution and
+substantial OpenAI assistance remain as above.

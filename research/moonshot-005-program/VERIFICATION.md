@@ -406,3 +406,19 @@ Each package has exact reviewed input hashes and reproduction commands. The fixe
 Four separately reviewed packages: irreducible target (binary-column rank at b240, matrix units, fresh integer-authenticated power enclosures); separated-class gate (rational native incidence reconstruction and all34965 cuts); triangle repair floor (fresh source decoder and separate binary rank review); donor-gauge gate (forward lift equations and binary ranks360/355). These are AI-assisted independent mathematical reviews, not only repeated author executions.
 
 Nine relocated jobs exactly reproduced admitted receipts. Run `python -B research/moonshot-005-program/sessions/2026-11-19-S027/checkpoint1_replay.py --repo . --out /tmp/moonshot-S027-checkpoint1`. See sessions/2026-11-19-S027/CHECKPOINT1-VALIDATION.json. Finite checks support the written universal proofs. The frozen previously unpublished triangle source is input data, not newly admitted full physical chronology. No new supplier, complete kappa or foundational discharge.
+
+## S027 checkpoint2: source, middle criteria and physical modules
+
+Fifteen serial relocated jobs passed with identical JSON receipts. The source
+review independently expanded GF16 into binary scalars, checked all41958 plane
+pairs, all296037 donor six-spaces, all14097 donor hyperplanes, and every actual
+source early quota. The main proof's Hall, Gauss-sum, field-degree, phase and
+source-invoice implications were separately reviewed. Actual coefficient arrays
+remain unselected. Two further scope audits bind the old odd witness to the new
+proper target, including a fresh count of432 source cuts and216 H cuts from the
+full bank480 owner routes. Combined evidence: sessions/2026-11-19-S027/CHECKPOINT2-VALIDATION.json.
+
+Run `python -B research/moonshot-005-program/sessions/2026-11-19-S027/checkpoint2_replay.py --repo . --out /tmp/moonshot-S027-checkpoint2`.
+The default replay includes all source/scope and baseline jobs. Review ledgers
+state exact provenance and distinguish separate reviews from this reproduction.
+No new kappa, complete supplier or foundational discharge.

@@ -1,0 +1,60 @@
+{
+  "status": "PASS_SEVEN_NEGATIVE_CONTROLS",
+  "controls": [
+    {
+      "control": "no_hub_inverse",
+      "omitted_ADD_tag": "restore-all-X",
+      "required_failure": "all_original_X_restored",
+      "rejected": true,
+      "all_X": false,
+      "all_Y": true,
+      "target": true
+    },
+    {
+      "control": "no_ground_inverse",
+      "omitted_ADD_tag": "inverse-arbitrary-Y-baseline",
+      "required_failure": "arbitrary_original_Y_baseline_restored",
+      "rejected": true,
+      "all_X": true,
+      "all_Y": false,
+      "target": false
+    },
+    {
+      "control": "no_first_native_injection",
+      "omitted_ADD_tag": "inject-native-8-0",
+      "required_failure": "all_62_donor_target_rows_exact",
+      "rejected": true,
+      "all_X": true,
+      "all_Y": true,
+      "target": false
+    },
+    {
+      "control": "no_flow_accumulation",
+      "omitted_ADD_tag": "final-flow-accumulation",
+      "required_failure": "all_62_donor_target_rows_exact",
+      "rejected": true,
+      "all_X": true,
+      "all_Y": false,
+      "target": false
+    },
+    {
+      "control": "no_one_H_permutation",
+      "omitted_ADD_tag": "flow-H-0",
+      "required_failure": "all_62_donor_target_rows_exact",
+      "rejected": true,
+      "all_X": true,
+      "all_Y": false,
+      "target": false
+    },
+    {
+      "control": "native_cache_relocated",
+      "rejected": true,
+      "reason": "owner_location"
+    },
+    {
+      "control": "flow_permutation_relocated",
+      "rejected": true,
+      "reason": "owner_location"
+    }
+  ]
+}

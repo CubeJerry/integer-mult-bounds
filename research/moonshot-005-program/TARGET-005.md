@@ -246,3 +246,26 @@ Next: synthesize source maps and the actual common H/D/K/F decoder together.
 Keep local operations, early/late availability, original baselines, return
 rank, all recursion, strict complex compatibility and all five foundations.
 See the four new result admissions and S027 verification receipt.
+
+## S027 checkpoint2: structured source feasibility is not decoder feasibility
+
+The new two-evaluation family removes the one-vector7/8 source-rank loss and
+supports genuine early source inversion at bank3840 over an eight-bit field.
+The irreducible target at this bank has h=r128; its retained movement arithmetic
+is unchanged. No actual global source/H/D/K implementation of that target is
+claimed. All3840 fields, eight binary extension coordinates and stationary
+source caches are charged. The source upper invoice and finite selector cost
+are explicit in its admission; later local operations and recursive costs remain.
+
+Shared-plane specialization is excluded for this exact Bstar by receiver2's
+unchanged27-donor odd witness. Donor-specific quotients are required in the live
+candidate. The paid D criteria also require pure early and late invertibility;
+shared information alone is insufficient. The source-only construction does
+not yet supply those middle demand spaces.
+
+The literal complete eight-field-row projection costs88560 ADD and2340 paid
+binary caches, no added MOVE, but its actual q is at least52860. Do not substitute
+its forty successful binary rows for the full paid bank in normalization. It
+is a physical module, not an improved supplier. Whole-source/H/D/K composition,
+strict completed BIT and uniform complex savings above1/200, and every original
+outer/foundational condition remain open.
