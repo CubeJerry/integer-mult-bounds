@@ -1,0 +1,26 @@
+{
+  "session": "S026",
+  "checkpoint": 4,
+  "baseline": "57c72c28db6bb1ce37713cee839da9c6006b012e",
+  "status": "PASS_INTEGRATED_CHECKPOINT4",
+  "packages": [
+    "bit-native-nine-port-modules",
+    "bit-raw-donor-zero-slice",
+    "bit-compressed-balanced-atlas",
+    "bit-asymmetric-balanced-atlas"
+  ],
+  "checks": {
+    "python": 15,
+    "json": 30,
+    "pinned_author_files": 38
+  },
+  "integrated_route_replays": "480 and1920 outputs byte-identical",
+  "integrated_field_budget_replay": "byte-identical",
+  "independent_reviews": [
+    "C nine-port module review",
+    "root raw-helper review with distinct historical solver",
+    "root literal route reconstruction",
+    "root binary field/local-word and exact-budget review"
+  ],
+  "new_complete_kappa": false
+}

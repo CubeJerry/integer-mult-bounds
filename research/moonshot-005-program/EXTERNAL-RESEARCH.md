@@ -503,3 +503,7 @@ No additional external PR is adopted by this checkpoint, no upstream PR is opene
 The return theorem builds on the paid retained-H bridge and native rank-nine result. The near-minimum theorem credits DreamingOfClouds PR#7114 and the reviewed saturated-star LR derivation, now with rectangular factor spaces and621 actual frames. Worker C authored those extensions; B supplied the common-row result and independent near-minimum review; root supplied the independent return review and one-star target, independently reviewed by C.
 
 Sources and budgets remain pinned. No outside PR was merged, selected certificate changed or upstream PR opened. Concurrent compressed-atlas work keeps generic field assignments distinct from fixedGF32/GF16 local arrays: retaining those coefficients requires field degrees divisible by five/four. These newer physical candidates are under separate review.
+
+## S026 checkpoint4 composition and provenance note
+
+No external result is newly adopted. The bank1920 mixed23 theorem uses the already authenticated mixed69/late69 flow theorem via exact capacity scaling and integral max-flow. Bank480 uses changed native phases, so that inherited proof does not transfer. Fixed GF16 versus GF32 coefficient fields are recorded as distinct interfaces. Native nine-port partitions are new internal constructive evidence, independently reviewed; existing canonical, balanced, color-solver and mixed-source authors retain credit. Concurrent S025 evidence is still awaited and will be reconciled without rewriting remote history.

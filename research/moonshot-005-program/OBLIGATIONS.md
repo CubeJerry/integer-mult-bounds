@@ -140,3 +140,13 @@ Larger coupled modules, varying original-copy maps and changed return banks rema
 PROVED ON FIXED INTERFACE: minimum return size rank(I+B), with all new owners, work and descents paid. PROVED ALGEBRAIC TARGET: one native receiver admits excess93 atb5760 with no nonzero flat vertex-gauge input subsystem. OPEN: realize this or another h<=202 map on actual paid source and downstream charts.
 
 PROVED NECESSITY: no fresh donor77 injection after early departure forces excess ratio at least1/6 under retained linear proper routes. Nonlinear proper words, fresh line taps and changed paid routes remain outside that exclusion. Individual late-cut dimensions are not additive MOVE fees. Neither seventy correct rows nor invertibility implies inexpensive repair; small positive fitting excess does not force a large flat input summand. No foundation or complete-caller obligation is discharged.
+
+## S026 checkpoint4: admitted local and finite interfaces
+
+- **Proved locally:** actual five-by-nine port partitions at all1120 H; paid GF32 full/partial/singleton words, arbitrary original Y and caches retained. Global source/transport separate.
+- **Proved construction/existence:** literal bank1920 and asymmetric bank480 owner atlases, full causal pair path witnesses, finite rank-only fields and ordinary invoices. At480 the explicit GF16 left-H library can remain fixed in degree28. No right-K transpose shortcut is used.
+- **Proved partial common rows:**23 at bank1920 by scaling inherited mixed69 flow capacities. Fresh480 mixed5 evidence is pending independent review.
+- **Contradicted under restrictions:** repeated-width-two source plus any helper determined by one full raw donor and the original canonical bank; all111 fresh zero-slice boundaries are strict.
+- **Open next:** source and decoder gluing satisfying actual D/K/F capacities, low rank(I+B), strict BIT and complex suppliers and complete recursive admission. A new fixed triangle transport obstruction is pending separate review; source-only identities do not settle this interface.
+
+Evidence: [local modules](results/bit-native-nine-port-modules/ADMISSION.md), [raw helper gate](results/bit-raw-donor-zero-slice/ADMISSION.md), [bank1920](results/bit-compressed-balanced-atlas/ADMISSION.md), [bank480](results/bit-asymmetric-balanced-atlas/ADMISSION.md).

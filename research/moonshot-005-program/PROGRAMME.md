@@ -222,3 +222,11 @@ These are exact scoped theorems, not repair-rank or MOVE lower bounds. A changed
 The physical objective is now an actual proper map B with q=rank(I+B) close to9b. A paid freely chosen return bank is available. Common rows give q<=9b+102(b-k), but an actual seventy-row family member can have excess580380, so determinant nonvanishing alone does not synchronize the map.
 
 The explicit one-receiver target has excess93,5667 common left rows, all foreign blocks invertible and no nonzero flat input subsystem. It passes the movement screen at evenm84, conditional on physical realization. Its optimality is restricted to one-receiver perturbations. The near-minimum rank theorem still requires genuine late source information: omitting fresh donor77 information forces h>=b/6. Source gluing and two-wave transport remain central; no complete kappa or foundation changes.
+
+## S026 checkpoint4: smaller actual atlases and explicit local words
+
+The new [bank1920 atlas](results/bit-compressed-balanced-atlas/ADMISSION.md) and [bank480 asymmetric atlas](results/bit-asymmetric-balanced-atlas/ADMISSION.md) preserve the full normalized movement profile while reducing actual owner counts. Independent review checks426240 and106560 original routes respectively, every native quota and all6470 foreign causal path conditions. Generic rank-only fields are degrees27 and25. The bank480 construction also retains explicit GF16 left-H Vandermonde/derivative words inside a degree28 field. The [nine-port module library](results/bit-native-nine-port-modules/ADMISSION.md) supplies the actual local geometry and paid GF32 alternatives.
+
+The smaller finite words are constructive progress; they do not synchronize foreign blocks or achieve cheap return rank. Excess allowances are67 and16. A [fresh raw-donor zero-slice gate](results/bit-raw-donor-zero-slice/ADMISSION.md) excludes one additional raw-bank helper in the repeated-width-two class, with all-field deficit74556 at the original base.
+
+The active constructive task is source gluing **together with downstream decoder capacity**. New source-only fragments are under review, and a frozen triangle witness has an identified D-cut failure; larger source fragments must not be promoted without that check. Strict BIT/complex suppliers, full caller and all five foundations remain open. S026 continues until06:00:26 UTC.

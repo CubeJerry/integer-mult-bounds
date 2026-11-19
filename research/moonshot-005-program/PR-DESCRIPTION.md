@@ -370,3 +370,9 @@ The canonical, retained-repair and replacement-bank interfaces remain distinct. 
 The programme proves minimum fixed-code return size rank(I+B), its paid completion word, its relation to retained-H repair and a common-row envelope. The actual seventy-row affine family contains high-return-rank members, so a successful source must deliberately correlate its transfers.
 
 The explicit one-receiver nilpotent target has excess93, all6470 foreign blocks invertible and no nonzero flat input subsystem. Its optimality is restricted to one-receiver perturbations. A621-frame theorem proves that near-minimum rank still requires fresh late source information. The target remains physically unrealized. No new complete kappa, foundational discharge or PR-ready claim follows.
+
+## S026 checkpoint4 contribution: fewer physical owners and explicit local field words
+
+The original5760-coordinate atlas is no longer the smallest known finite implementation. We add an integral bank1920 compression and a new asymmetric bank480 allocation with the same normalized MOVE profile. Both have full original-owner route certificates and causal path proofs for all6470 foreign blocks. The480 construction selects65 full planes and orients227 partial planes, permitting two fields per plane-middle flag. Its explicit GF16 Vandermonde/derivative library can remain fixed in a degree28 rank-only global code.
+
+Independent checks cover every route, source/terminal quota, native incidence, local binary word and exact field/budget inequality. The finite dense ordinary bill decreases with the bank size, while native identity synchronization and recursive admission remain open. The new actual nine-port GF32 library and one-raw-donor repeated-two obstruction are separately admitted with explicit scope. All five foundations remain, selected conditional kappa is unchanged, and this cumulative programme is ongoing and not PR-ready.

@@ -391,3 +391,12 @@ The historical color caps are authenticated and matched to the exact new instanc
 The return/common-row packages have a separate root checker with688128 full small endpoint cases, nativeGF4 lower-left mixing controls, exact affine degrees and the216/11 LR dual. Worker B separately verified621 native frames, eight duals and6470 early cuts. Worker C separately verified full one-star selectors, inverses, different finite allocations, negative controls and fresh exact movement.
 
 All author and independent result objects match integrated replays. The shared root checker is counted once for its two related packages. See sessions/2026-11-19-S026/CHECKPOINT3-VALIDATION.json. The188 development target is separately reviewed; the labelled square-zero93 note is not an admission dependency. No physical low-defect source, human review, formal kernel or complete caller test is claimed.
+
+## S026 checkpoint4 independent admission checks
+
+- [Nine-port library](results/bit-native-nine-port-modules/ADMISSION.md): C independently reconstructs1120 partitions,40320 receiver incidences, full/partial/singleton minors, holder permutations and binary words. Local bill184523130 ADD and627750 INIT/dirty CLEAR, no extra MOVE.
+- [Raw-donor helper gate](results/bit-raw-donor-zero-slice/ADMISSION.md): root checks12210 canonical restrictions, all111 recomputed boundaries, SAT witnesses and5409 hard negative color instances with a distinct retained solver;3072052 search nodes. Minimum causal margin24,84 increased color caps, explicit mixed-helper scope control.
+- [Bank1920](results/bit-compressed-balanced-atlas/ADMISSION.md) and [bank480](results/bit-asymmetric-balanced-atlas/ADMISSION.md): root streams all original routes, independently verifies actual chart containment, every owner and quota, reserves and all6470 causal pair inequalities. Negative controls reject duplicate owners and false chart incidence.
+- Root's separate binary field/word review checks84 GF16 triples,252 full minors, both partial donor ranks and singleton rank, every basis vector of two full early/late words, arbitrary Y and charged caches. Independent polynomial irreducibility and integer-Newton radical bounds verify all fields, finite invoices and excess screens67/16.
+
+Each package has exact reviewed input hashes and reproduction commands. The fixed-H polynomial-product proof is reviewed as rank-only existence; no numerical complete coefficient table or low rank(I+B) is claimed. Source fragments and newly identified downstream obstructions remain separate pending admissions.

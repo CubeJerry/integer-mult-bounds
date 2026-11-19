@@ -217,3 +217,9 @@ These bounds do not transfer to paid retained-bank repair or replacement banks. 
 For a supplied linear proper word Gz+Bx with G invertible, exact minimum one-way return size is rank(I+B), even with nonlinear messages. At b5760 its excess screen is h<=202. The algebraic one-receiver target has h=r93 and q51933, first passing at even movement multiplicity84. Its width1920 rescaling has h31 and the same ratio; physical realization remains open.
 
 Every near-minimum native foreign block has rank at least b-floor(9h/2). The critical early-only comparison requires h>=b/6 without fresh donor77 information or an informative bypass. Both strict suppliers, completed BIT/complex compatibility, ordinary and recursive costs, and all five foundations remain open. Selected complete conditional kappa remains0.00363005817.
+
+## S026 checkpoint4: finite atlas compression and exact return screens
+
+Both admitted smaller atlases preserve Q=(4451/8)[1]+(7213/16)[2]+24[4]+9[8] at t199/200. Bank1920 permits excess67, with hypothetical31 first passing at even m84; bank480 permits excess16, with hypothetical8 first passing at m86. These are conditional movement screens, not achieved repair ranks. Ordinary bounds are ADD<=17M^2+50M+111C, INIT/CLEAR<=5M+C and peak<=7M+C, with all actual binary owners included.
+
+Generic all-foreign-invertibility fields are GF(2^27) and GF(2^25). Bank1920 retains23 common rows by scaling the old mixed69 capacities and using integral max-flow. Bank480 changes edge capacities and requires fresh mixed witnesses; it cannot inherit that scaling. Its fixed GF16 H words fit a degree28 tower, with local costs multiplied by seven. Fixed GF32 modules require degree divisible by five. None of these alternatives proves a full endpoint or the strict supplier pair. See the two atlas admissions and their exact budget outputs.

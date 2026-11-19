@@ -1,0 +1,58 @@
+{
+  "status": "PASS_INDEPENDENT_NATIVE_NINE_PORT_REVIEW",
+  "geometry": {
+    "planes": 1120,
+    "native_plane_census": {
+      "3": 881,
+      "2": 227,
+      "1": 11,
+      "0": 1
+    },
+    "parent_receiver_plane_checks": 40320,
+    "native_incidence": {
+      "3": 29354,
+      "2": 7549,
+      "1": 360,
+      "0": 33
+    },
+    "all_84_triples_occur": true,
+    "reflection_edges_checked": 1119,
+    "corrupt_size_preserving_swap_rejected": [
+      5,
+      144
+    ]
+  },
+  "local": {
+    "V9_donor_minors": 252,
+    "C18_transfer_minors": 168,
+    "Hermite_minors": 84,
+    "field_nonzero_inverses": 31,
+    "full_actual_holder_stripes": 60,
+    "two_donor_actual_holder_stripes": 6,
+    "independent_public_binary_inputs_per_crosswave": 180,
+    "full_permutation_max_ADD": 90,
+    "punctured_permutation_max_ADD": 225,
+    "literal_word_counts": {
+      "V9": 850,
+      "V18": 3554,
+      "C18": 4064,
+      "D18": 1878
+    },
+    "invoice": {
+      "full_ADD_per_plane": 116400,
+      "two_donor_ADD_per_plane": 353160,
+      "singleton_ADD_per_plane": 164310,
+      "ADD_total": 184523130,
+      "INIT_total": 627750,
+      "CLEAR_total": 627750,
+      "extra_MOVE": 0
+    },
+    "negative_controls": [
+      "all C=0 transfers lose three ranks",
+      "omitted derivative loses six ranks",
+      "cache after early map gives wrong C term",
+      "size-preserving partition swap fails"
+    ]
+  },
+  "scope": "Explicit causal local modules only; common-original-donor global gluing remains open"
+}
