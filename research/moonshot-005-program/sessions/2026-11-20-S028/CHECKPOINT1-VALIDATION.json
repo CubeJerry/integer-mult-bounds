@@ -1,0 +1,206 @@
+{
+  "all_five_foundations_retained": true,
+  "baseline_sha": "9e3fa0639d8a2bcf5660a950482af6ce9e0af57c",
+  "independence": "This reproduction is separate from the mathematical and independently implemented reviews already in each package.",
+  "jobs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/work-in-progress/2026-11-19-S027/covariant-trace-source/check.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp1/source-author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "882c52e7a5fb54934f67bf0bc08a0bfafd7ea378c91440bae6a1912cc52a2f21",
+      "name": "source-author",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "replay_sha256": "92222eb22067f6c5bebffa7062631650a686427ce14d48780b32d4b22f8b7c15",
+          "stored_sha256": "92222eb22067f6c5bebffa7062631650a686427ce14d48780b32d4b22f8b7c15"
+        }
+      ],
+      "wall_seconds": 9.846551391000048
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-covariant-source-existence/review/independent.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp1/source-review"
+      ],
+      "exit_code": 0,
+      "log_sha256": "676842f4fd716cacef754afa2a156c40174a45990e541d29499eb9c652cc5891",
+      "name": "source-review",
+      "outputs": [
+        {
+          "file": "REVIEW-RESULT.json",
+          "replay_sha256": "4982317a3e7818d2511b36609bf834137057f4b7e8f90afe20caa60b5a405c71",
+          "stored_sha256": "4982317a3e7818d2511b36609bf834137057f4b7e8f90afe20caa60b5a405c71"
+        }
+      ],
+      "wall_seconds": 4.779131396000139
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-two-sided-covariant-target/author/check.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp1/target-author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "c3c447eeec04d611f893777a808e4ef91df1a52a7ee9ffc6828052a9afb1d215",
+      "name": "target-author",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "replay_sha256": "4151df493670c7912ef613e8d6de490bcb2af9b1f95d9dc065e05594da2ef4c1",
+          "stored_sha256": "4151df493670c7912ef613e8d6de490bcb2af9b1f95d9dc065e05594da2ef4c1"
+        },
+        {
+          "file": "ASSIGNMENT.json",
+          "replay_sha256": "deabb7ac9cf8429981b4f28de015723c33399f9ea5c838a34621886ea5c74601",
+          "stored_sha256": "deabb7ac9cf8429981b4f28de015723c33399f9ea5c838a34621886ea5c74601"
+        }
+      ],
+      "wall_seconds": 0.3653618620000998
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-two-sided-covariant-target/review/check.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp1/target-review",
+        "--author",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-two-sided-covariant-target/author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "2d7f53be5e450a5ee2a4047e4a20e401d546095b3310f78e277bae7e6ed90140",
+      "name": "target-review",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "replay_sha256": "f92e6bc5f239fe4da27aeea65842e2e3477c472e781c683f65678c0660130818",
+          "stored_sha256": "f36bfecbe053b94f63142cec8403bc1603728f3fae67d07bbb6915428abd77f7"
+        }
+      ],
+      "wall_seconds": 0.7658282809998127
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-fully-early-source-divisibility/author/check.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp1/divisibility-author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "e5e280a6ec1484a139513e84bb4cdbf49d615edbc0e2bd6314cda9a607b67926",
+      "name": "divisibility-author",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "replay_sha256": "9c293e67e51c33859eafeeb22142fc0b775f9aa986d1a31a904c05e222a15311",
+          "stored_sha256": "9c293e67e51c33859eafeeb22142fc0b775f9aa986d1a31a904c05e222a15311"
+        },
+        {
+          "file": "GEOMETRY.json",
+          "replay_sha256": "b202627c24ab95768298e74190892bb99a8100e95ac5b9ffd740be95b356f802",
+          "stored_sha256": "b202627c24ab95768298e74190892bb99a8100e95ac5b9ffd740be95b356f802"
+        }
+      ],
+      "wall_seconds": 0.31584654399966894
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-fully-early-source-divisibility/review/check.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp1/divisibility-review",
+        "--author",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-fully-early-source-divisibility/author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "2f67502dad33b10e0fc154580d6962f729218c94da9286a4f71fa4dbd42702bc",
+      "name": "divisibility-review",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "replay_sha256": "bc8dd01d47a9040c86dcdf5505e2a18e27c9385e6107dc6349667f5e6eaace22",
+          "stored_sha256": "3785992bc2eb4081f5b556b70e9c11ccd3e94122da563a3885375de59f92c9e1"
+        }
+      ],
+      "wall_seconds": 0.4656732500002363
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-fixed-class-relabel-obstruction/author/check.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp1-class-final/class-author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "b48e4b1a8ed5400f904b14222fff81123eed845164de8eb138b8e823d52dd559",
+      "name": "class-author",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "replay_sha256": "cc1e8448e8d20b4ad917824d436e33b554ef7f1d41cd64c68db7c21b3f9e9d6c",
+          "stored_sha256": "cc1e8448e8d20b4ad917824d436e33b554ef7f1d41cd64c68db7c21b3f9e9d6c"
+        }
+      ],
+      "wall_seconds": 0.8662614780000695
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-fixed-class-relabel-obstruction/review/check.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp1-class-final/class-review",
+        "--author",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-fixed-class-relabel-obstruction/author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "13b6562f52df2a8cfc3fade85a8fe4fafb9acb5a2c28d2bb3ebddb061dfacb1a",
+      "name": "class-review",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "replay_sha256": "ca3a0c0fb34d3dccc8f75fba9ec5724d944e6b4debcd1159da05c08a4a0673e2",
+          "stored_sha256": "c7934369e86a7bd6056d1dd8ffad5eaf573c86c305fb1fc54d38103356389d41"
+        }
+      ],
+      "wall_seconds": 0.9662750819998109
+    }
+  ],
+  "new_complete_kappa": false,
+  "normalization": "Source-pin path spellings may relocate and elapsed_seconds is runtime metadata; source hash multiset and all scientific fields must agree.",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "status": "PASS_S028_CHECKPOINT1_RELOCATED_REPRODUCTION",
+  "group": "all",
+  "receipt_composition": "Six core jobs followed by two class jobs; no rerun of already verified unchanged core artifacts."
+}

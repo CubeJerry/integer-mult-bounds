@@ -526,3 +526,9 @@ No new upstream theorem was imported or selected certificate changed.
 ## S027 checkpoint3 upstream compatibility
 
 Canonical main was read back during checkpoint3 integration and remains e54523517d0f03e58352e647c403a5af3e525a57. The selected conditional certificate is unchanged. The earlier targeted open-PR intake remains evidence of proposals, not accepted supplier premises. No external PR is merged or selected certificate changed. New source/target/middle results compose only within their explicit local contracts; no outside price improvement is silently included.
+
+## S028 intake and compatibility
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57, selected conditional kappa0.00363005817. Current canonical instructions and coordination context were inspected. Open PR#7786 remains at89a67c404226d51028e135de2b9169e9020d57af with proposed0.00387944011068, not adopted. New PRs#7809,#7815,#7822,#7824 concern complex/Gaussian-dyadic Clifford readout; their inspected metadata does not supply this programme's characteristic-two H/D/K interface. Full packages were not replayed or imported. Detailed scope and pins are in sessions/2026-11-20-S028/UPSTREAM-INTAKE.json and UPSTREAM-NOTE.md.
+
+Substantial @CubeJerry PRs#6916,#7000,#7001 were inspected for technical reporting style. No upstream messages, branches, selected certificate or PRs were changed. New S028 results credit existing native geometry, source, atlas and return constructions and substantial OpenAI assistance. Independent reviews mean separate mathematical/implemented model-assisted work, not external human peer review.

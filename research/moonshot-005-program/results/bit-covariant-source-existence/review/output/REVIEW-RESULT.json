@@ -1,0 +1,110 @@
+{
+  "actual_early_quota_histogram": {
+    "8": 2675,
+    "16": 422,
+    "24": 11
+  },
+  "coefficient_rank": 8,
+  "early_GF16_rank_histogram": {
+    "256": 111
+  },
+  "extra_early_rows": 88,
+  "field_polynomial": 529,
+  "field_size": 512,
+  "foreign_witness_GF16_rank": 256,
+  "full_covariant_parameter_dimension": 64,
+  "full_orthogonal_pair_orbit": 7560,
+  "global_coefficients_emitted": false,
+  "independent_algorithms": [
+    "quadratic-coordinate transvection BFS",
+    "direct nested-commutator tensor",
+    "GF16 Gaussian elimination",
+    "degree-nine trial-factor exclusion"
+  ],
+  "native_foreign_pairs": 6470,
+  "negative_controls": {
+    "missing_early_groups": [
+      {
+        "deleted_rows": 8,
+        "donor": 0,
+        "remaining_rank": 248
+      },
+      {
+        "deleted_rows": 8,
+        "donor": 5,
+        "remaining_rank": 248
+      },
+      {
+        "deleted_rows": 8,
+        "donor": 77,
+        "remaining_rank": 248
+      },
+      {
+        "deleted_rows": 8,
+        "donor": 110,
+        "remaining_rank": 248
+      }
+    ],
+    "missing_foreign_quotient_rank": 240,
+    "rank_duplicate_rows": 1
+  },
+  "new_complete_kappa": false,
+  "scope": "finite determinants plus reviewed source-existence proof; no H/D/K completion or new kappa",
+  "source_invoice": {
+    "ADD_upper_bound": 365025125160,
+    "INIT": 2889000,
+    "dirty_CLEAR": 2889000,
+    "extra_MOVE": 0,
+    "extra_peak": 2889000,
+    "field_bank": 3840,
+    "field_bits": 9
+  },
+  "source_pins": [
+    {
+      "decompressed_sha256": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+      "path": "research/moonshot-005-program/results/bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz",
+      "sha256": "ef8611b33835a799193e8aec4f615486d73f5743558997de0262bceb3ae9eb3c"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-clifford-one-evaluation-gate/author/BASIS.json",
+      "sha256": "d2a825f09a4d24a8a0319743ec84bed9b9e6b50656d3105a1c4577ec78fba9ab"
+    },
+    {
+      "decompressed_sha256": "6d55093625ffd123daf3ae0914bcaeba1308756cec24fd2de083f6887ad0b036",
+      "path": "research/moonshot-005-program/results/bit-asymmetric-balanced-atlas/author/output/ROUTES.jsonl.gz",
+      "sha256": "8d0caea35131728c255e731531d2e876383376e7706b9bc84bbc28a424f1e9d4"
+    },
+    {
+      "path": "research/moonshot-005-program/work-in-progress/2026-11-19-S027/covariant-trace-source/PROOF.md",
+      "sha256": "4a747791e8699253b11a61d1478020c1353d4bee0dc867784db6328e6192fc8d"
+    },
+    {
+      "path": "research/moonshot-005-program/work-in-progress/2026-11-19-S027/covariant-trace-source/algebra.py",
+      "sha256": "20972d26764d9131cdde1cfba5180c48f9acba73845913368d28ecded8918f1c"
+    },
+    {
+      "path": "research/moonshot-005-program/work-in-progress/2026-11-19-S027/covariant-trace-source/check.py",
+      "sha256": "64d9e09314cd8a0a7fdc4dd150081146b223d0720c147d2a7f1a0f46f9a33b7b"
+    },
+    {
+      "path": "research/moonshot-005-program/work-in-progress/2026-11-19-S027/covariant-trace-source/search.py",
+      "sha256": "23b20b68c3d0fdbf17ef69de991c4bc7b001c6d0a3767ee06cf57481c7a543ed"
+    },
+    {
+      "path": "research/moonshot-005-program/work-in-progress/2026-11-19-S027/covariant-trace-source/output/PAIR-WITNESS.json",
+      "sha256": "7405728f8ece035e39db356ad169a705969d63bc1de6423ffcff1fb90d020818"
+    },
+    {
+      "decompressed_sha256": "d9b9ba337bc585e6ea6122f1c6cd6d4d29938e9304d60416c97801613e1d8b4f",
+      "path": "research/moonshot-005-program/work-in-progress/2026-11-19-S027/covariant-trace-source/output/ORBIT.json.gz",
+      "sha256": "6db7380148ea773c896ac59b955dd4eda48e06400e20da9e2420adeb747eeeb3"
+    },
+    {
+      "decompressed_sha256": "7d3168e86f2ea66b8f5009d3d0524ccb686e1ba5d601c6277b643cf994856928",
+      "path": "research/moonshot-005-program/work-in-progress/2026-11-19-S027/covariant-trace-source/output/EARLY-WITNESSES.json.gz",
+      "sha256": "da92b293d5ad1d3575b2ce3a88bf5eae2145d47ed32d8a4bf01a31ea691d7cdc"
+    }
+  ],
+  "source_variable_degree_bound": 298,
+  "status": "PASS_INDEPENDENT_FULL_COVARIANT_SOURCE_REVIEW"
+}

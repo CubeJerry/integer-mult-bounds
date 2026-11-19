@@ -279,3 +279,11 @@ Independent one-D packets cannot complete the target: actual terminal counts and
 The correlated late-phase test is dim(sum pi Q_a)+(nL-rho)+s>=|S|, together with receiver/early Hall tests. The fixed-source return optimizer is rank M0+z+max(0,r-a); its marginal values cannot be summed across separately changed sources. All original baselines, true owners, snapshots and inverses remain paid.
 
 The full64 covariant source is unadmitted checkpoint material pending independent review. Even source/H success requires common D/K maps, affordable actual B, reconciled ordinary costs, strict BIT/complex suppliers, recurrence and all five foundations. No new kappa.
+
+## S028 checkpoint1: source coupling is a binding structural requirement
+
+The two-sided covariant target preserves b3840, h128, q34688=9b+b/30 and the first even movement-only multiplicity870. It adds donor-endpoint covariance to the previously verified receiver condition while retaining full foreign ranks and irreducibility. No source or middle cost is removed.
+
+The full64 source theorem is now independently admitted. Its repeated or uncoupled width16 implementation nevertheless cannot cross the actual fully early H263 interface: identical repetition requires15|d, and common independent components require3|d. Five distinct width48 components pass the local dimension screen, but arbitrary relabelling of the frozen nine-port partitions fails a necessary global D balance system. Changed partitions and genuinely mixed port rows are not excluded by that theorem.
+
+The next target-first obligation is a coupled source/H/D/K construction, not a finer supplier price for the excluded representation. The strict covered/completed BIT inequalities, independent uniform complex requirement, ordinary cost account, outer recurrence and five foundations remain exactly as before. These structural results establish no complete kappa.

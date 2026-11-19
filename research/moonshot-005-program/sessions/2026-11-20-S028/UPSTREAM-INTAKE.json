@@ -1,0 +1,415 @@
+{
+  "schema": "moonshot-targeted-upstream-intake/1",
+  "session": "2026-11-20-S028",
+  "programme_baseline": "9e3fa0639d8a2bcf5660a950482af6ce9e0af57c",
+  "canonical_upstream": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "observed_utc": "2026-11-19 21:04:03 UTC",
+  "canonical_changed_since_previous_checkpoint": false,
+  "selected_conditional_kappa": "0.00363005817",
+  "selected_record_blob": "75d77b328ea02ded535e7f23aee5b1e55d0bb1a8",
+  "selected_reproduce": "make frontier7000-verify",
+  "foundations": [
+    "native_all_columns",
+    "owned_erasure",
+    "compiler",
+    "precision_tape",
+    "analytic_recovery"
+  ],
+  "guidance": [
+    {
+      "path": "AGENTS.md",
+      "blob": "ff81117fca368042f6092964d1f54eb4e6e08fb9"
+    },
+    {
+      "path": "autoresearch.md",
+      "blob": "2fe84a7b30b1e26e60ce0ec4775894eb1831c5d6"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "blob": "5185786f2ec00f215019fb5777d70979429690a9"
+    },
+    {
+      "path": "docs/research/bottleneck-brief.md",
+      "blob": "df5b2001ceedde599cf18d7362cebe3bf7c7e00b"
+    },
+    {
+      "path": "docs/research/research-family-status.md",
+      "blob": "3c19b18ef7225b47f0abcd9d51ae7c83d0cdfd15"
+    }
+  ],
+  "stale_guidance": "Bottleneck/current-priorities prose still names #5599 and .00310045. Selected-result.json is authoritative and unchanged at #7000 .00363005817.",
+  "search_coverage": {
+    "queries": [
+      {
+        "query": "repo:CrocSwap/integer-mult-bounds updated:>=2026-11-19",
+        "sort": "updated desc",
+        "topn": 20,
+        "results": [
+          {
+            "number": 7824,
+            "title": "Decode arbitrary two-site Clifford observations at width 13"
+          },
+          {
+            "number": 7822,
+            "title": "Produce and round canonical Clifford coefficients on a reversible local tape"
+          },
+          {
+            "number": 7823,
+            "title": "Compute exact canonical Clifford readouts for mixed width-13 observations"
+          },
+          {
+            "number": 7821,
+            "title": "Compute compact Clifford adjoints and canonical readouts on repeated stabilizer sites"
+          },
+          {
+            "number": 7820,
+            "title": "Price reversible shared odd division for canonical Clifford readouts"
+          },
+          {
+            "number": 7819,
+            "title": "Prove the sharp P104 joint rerouting cost after releasing both private legs"
+          },
+          {
+            "number": 7818,
+            "title": "Price both P104 exterior port retirements under joint coding"
+          },
+          {
+            "number": 7817,
+            "title": "Determine both even-width five-qubit Clifford denominator growth rates"
+          },
+          {
+            "number": 7816,
+            "title": "Apply the width-13 Clifford Gram and its inverse to requested fibres"
+          },
+          {
+            "number": 7815,
+            "title": "Recover all unknown Clifford terms from exact tensor trains"
+          },
+          {
+            "number": 7814,
+            "title": "Prove the seven-ingress threshold for direct P104 chart-278 repair"
+          },
+          {
+            "number": 7813,
+            "title": "Compute all 256 Pauli coefficients from one compact width-13 observation"
+          },
+          {
+            "number": 7812,
+            "title": "Determine odd-denominator growth for canonical five-qubit Clifford decoding"
+          },
+          {
+            "number": 7808,
+            "title": "Classify all ten minimum-grade cooperative repairs of P104 receiver 127"
+          },
+          {
+            "number": 7810,
+            "title": "Prove the exact Gaussian-dyadic five-qubit Clifford threshold is 15"
+          },
+          {
+            "number": 7809,
+            "title": "Prove sharp 52- and 51-pass bounds for width-13 Clifford decoding"
+          },
+          {
+            "number": 7807,
+            "title": "Prove the exact all-chart direct replacement cost of P104 paid slot 88"
+          },
+          {
+            "number": 7806,
+            "title": "Prove the sharp five-qubit Clifford tensor threshold T(5) = 15"
+          },
+          {
+            "number": 7805,
+            "title": "Determine the exact odd denominator of the canonical width-13 Clifford decoder"
+          },
+          {
+            "number": 7804,
+            "title": "Exclude 126 fixed-port two-ingress repairs at P104 adjoint chart 3"
+          }
+        ]
+      },
+      {
+        "query": "repo:CrocSwap/integer-mult-bounds is:open (kappa OR κ OR supplier OR decoder)",
+        "sort": "updated desc",
+        "topn": 20,
+        "results": [
+          {
+            "number": 7823,
+            "title": "Compute exact canonical Clifford readouts for mixed width-13 observations"
+          },
+          {
+            "number": 7817,
+            "title": "Determine both even-width five-qubit Clifford denominator growth rates"
+          },
+          {
+            "number": 7816,
+            "title": "Apply the width-13 Clifford Gram and its inverse to requested fibres"
+          },
+          {
+            "number": 7815,
+            "title": "Recover all unknown Clifford terms from exact tensor trains"
+          },
+          {
+            "number": 7813,
+            "title": "Compute all 256 Pauli coefficients from one compact width-13 observation"
+          },
+          {
+            "number": 7812,
+            "title": "Determine odd-denominator growth for canonical five-qubit Clifford decoding"
+          },
+          {
+            "number": 7809,
+            "title": "Prove sharp 52- and 51-pass bounds for width-13 Clifford decoding"
+          },
+          {
+            "number": 7807,
+            "title": "Prove the exact all-chart direct replacement cost of P104 paid slot 88"
+          },
+          {
+            "number": 7805,
+            "title": "Determine the exact odd denominator of the canonical width-13 Clifford decoder"
+          },
+          {
+            "number": 7802,
+            "title": "Determine the sharp odd denominator for noise-optimal four-qubit Clifford decoding"
+          },
+          {
+            "number": 7801,
+            "title": "Evaluate the 4,265-term Clifford identity row on a compact input with one Gauss sum"
+          },
+          {
+            "number": 7800,
+            "title": "Compile the width-13 Clifford decoder into 4,265 Bell reads and certify its dense input cost (no κ)"
+          },
+          {
+            "number": 7799,
+            "title": "Prove the sharp Gaussian-dyadic four-qubit Clifford tensor width is 13 (no κ)"
+          },
+          {
+            "number": 7798,
+            "title": "Construct stable Gaussian-dyadic four-qubit Clifford decoders at every width ≥17 (no κ)"
+          },
+          {
+            "number": 7792,
+            "title": "Prove odd-division obstruction for canonical Clifford decoding"
+          },
+          {
+            "number": 7797,
+            "title": "Construct Gaussian-dyadic four-qubit Clifford left inverses for widths ≥256 (no κ)"
+          },
+          {
+            "number": 7796,
+            "title": "P104 unified banked banner in Lean: κ < .00952721 for every caller of the per-call family × every banked graph with a unified descent layout (#7761 instance up to Valid; no κ claim)"
+          },
+          {
+            "number": 7795,
+            "title": "Bound six paid-slot repairs and 73 linked chart cones on #7786"
+          },
+          {
+            "number": 7786,
+            "title": "Conditional κ ≥ 0.00387944011068 from four additional rational returns"
+          },
+          {
+            "number": 7793,
+            "title": "Prove exact nested broadcast cost with arbitrary auxiliary charts"
+          }
+        ]
+      },
+      {
+        "query": "repo:CrocSwap/integer-mult-bounds is:open (unconditional OR assumption OR precision)",
+        "sort": "updated desc",
+        "topn": 20,
+        "results": [
+          {
+            "number": 7822,
+            "title": "Produce and round canonical Clifford coefficients on a reversible local tape"
+          },
+          {
+            "number": 7815,
+            "title": "Recover all unknown Clifford terms from exact tensor trains"
+          },
+          {
+            "number": 7802,
+            "title": "Determine the sharp odd denominator for noise-optimal four-qubit Clifford decoding"
+          },
+          {
+            "number": 7798,
+            "title": "Construct stable Gaussian-dyadic four-qubit Clifford decoders at every width ≥17 (no κ)"
+          },
+          {
+            "number": 7792,
+            "title": "Prove odd-division obstruction for canonical Clifford decoding"
+          },
+          {
+            "number": 7797,
+            "title": "Construct Gaussian-dyadic four-qubit Clifford left inverses for widths ≥256 (no κ)"
+          },
+          {
+            "number": 7786,
+            "title": "Conditional κ ≥ 0.00387944011068 from four additional rational returns"
+          },
+          {
+            "number": 7793,
+            "title": "Prove exact nested broadcast cost with arbitrary auxiliary charts"
+          },
+          {
+            "number": 7791,
+            "title": "Audit final rational bypass and prove receiving-bank separation"
+          },
+          {
+            "number": 7790,
+            "title": "Prove fixed-port optimum for the rooted binary repair"
+          },
+          {
+            "number": 7789,
+            "title": "Prove exact Clifford spectrum in the Bell central sector"
+          },
+          {
+            "number": 7788,
+            "title": "Prove exact Clifford Gram endpoints at every odd width"
+          },
+          {
+            "number": 7787,
+            "title": "Bind the complete formal P104 invoice and prove a nonempty valid interval"
+          },
+          {
+            "number": 7785,
+            "title": "Bind the packed Lean recipe to the exact P104 source graph"
+          },
+          {
+            "number": 7784,
+            "title": "Audit the final P104 helper and its uniquely required pulse weights"
+          },
+          {
+            "number": 7782,
+            "title": "Reduce exact sampler clean work with optimal block checkpoints"
+          },
+          {
+            "number": 7781,
+            "title": "Conditional κ ≥ 0.00386969949992 from paid helper subdivisions on #7776"
+          },
+          {
+            "number": 7780,
+            "title": "Audit eight binary senders and their unique correction pattern"
+          },
+          {
+            "number": 7779,
+            "title": "Audit both final P104 bank cuts and their paid moment"
+          },
+          {
+            "number": 7778,
+            "title": "Classify two-prime phase blocks and prove capacity invariance"
+          }
+        ]
+      }
+    ],
+    "scope": "Targeted metadata/body read, not an exhaustive novelty census and not independent replay of external mathematics."
+  },
+  "related_prs": [
+    {
+      "number": 7786,
+      "title": "Conditional κ ≥ 0.00387944011068 from four additional rational returns",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7786",
+      "state": "open",
+      "merged": false,
+      "head_sha": "89a67c404226d51028e135de2b9169e9020d57af",
+      "head_repository": "Clear1nsight/integer-mult-bounds",
+      "created_at": "2026-11-19T05:20:25Z",
+      "updated_at": "2026-11-19T09:51:23Z",
+      "programme_use": "Unchanged from S027 intake. Proposed conditional multiplier below 1/200; no scientific admission or imported supplier.",
+      "adopted": false
+    },
+    {
+      "number": 7787,
+      "title": "Bind the complete formal P104 invoice and prove a nonempty valid interval",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7787",
+      "state": "open",
+      "merged": false,
+      "head_sha": "de1bbd521b121479ffff4b7dfd24b971bf13c877",
+      "head_repository": "aliromman/integer-mult-bounds",
+      "created_at": "2026-11-19T05:22:48Z",
+      "updated_at": "2026-11-19T05:27:51Z",
+      "programme_use": "Unchanged from S027 intake. Formal source/invoice binding and nonvacuity, not physical or five-assumption closure.",
+      "adopted": false
+    },
+    {
+      "number": 7809,
+      "title": "Prove sharp 52- and 51-pass bounds for width-13 Clifford decoding",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7809",
+      "state": "open",
+      "merged": false,
+      "head_sha": "7efc2c67b32e305d20e484dc3afa9229ab119269",
+      "head_repository": "apoursh/integer-mult-bounds",
+      "created_at": "2026-11-19T17:45:36Z",
+      "updated_at": "2026-11-19T17:50:41Z",
+      "programme_use": "New proposal for complex/Gaussian-dyadic width-13 decoder schedules. Gram/adjoint application costs remain open; not characteristic-two native H/D/K maps.",
+      "adopted": false
+    },
+    {
+      "number": 7815,
+      "title": "Recover all unknown Clifford terms from exact tensor trains",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7815",
+      "state": "open",
+      "merged": false,
+      "head_sha": "34a20a30596467409e7361534d52495819787a78",
+      "head_repository": "aliromman/integer-mult-bounds",
+      "created_at": "2026-11-19T18:23:13Z",
+      "updated_at": "2026-11-19T18:29:23Z",
+      "programme_use": "New exact recovery interface for supplied Gaussian-rational tensor trains, including unknown Clifford support. Construction of an inexpensive compatible physical train and recursive supplier remains separate; not a decoder for this programme's finite-field native atlas.",
+      "adopted": false
+    },
+    {
+      "number": 7822,
+      "title": "Produce and round canonical Clifford coefficients on a reversible local tape",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7822",
+      "state": "open",
+      "merged": false,
+      "head_sha": "93fa91571337a65325a16d09b63fb75ae18ac227",
+      "head_repository": "apoursh/integer-mult-bounds",
+      "created_at": "2026-11-19T19:23:29Z",
+      "updated_at": "2026-11-19T19:28:58Z",
+      "programme_use": "New paid reversible tape for a specified complex canonical coefficient readout. Useful precision/ownership lead, but it assumes factored four-qubit lift and repeated rank-one-site input; not our source quotient/target interface.",
+      "adopted": false
+    },
+    {
+      "number": 7824,
+      "title": "Decode arbitrary two-site Clifford observations at width 13",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/7824",
+      "state": "open",
+      "merged": false,
+      "head_sha": "75d29038e8ed28b0ec54617c8d598c5789d86be7",
+      "head_repository": "apoursh/integer-mult-bounds",
+      "created_at": "2026-11-19T19:48:36Z",
+      "updated_at": "2026-11-19T19:53:28Z",
+      "programme_use": "New two-site complex canonical readout on eleven repeated stabilizer sites and arbitrary two-site tensor. Physical producer and projection spectrum remain open; no target-scale supplier admitted.",
+      "adopted": false
+    }
+  ],
+  "discussion_coverage": {
+    "start_here": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1163",
+    "handoffs": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1166",
+    "mechanisms": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1167",
+    "scope": "Available live pages read; handoff page includes Nov19 entries #7805-#7824. Mechanism/start-here visible excerpts are older; no claim of exhaustive comment coverage."
+  },
+  "style_review": [
+    {
+      "number": 6916,
+      "title": "Conditional κ = 0.00357027 (+1.443% over #6911): 68 causal helper splits",
+      "head_sha": "ed359c115fa713395da380dcc602761196f5df4a",
+      "body_read": true
+    },
+    {
+      "number": 7000,
+      "title": "Conditional κ = 0.00363005817 (+0.0838% over #6936): shared wires and two helper splits",
+      "head_sha": "93effe2a135bf57b9e484cb630d8dd057159aec9",
+      "body_read": true
+    },
+    {
+      "number": 7001,
+      "title": "Remove empty-root credits from the paired BIT supplier at 0.00385248 (no new κ)",
+      "head_sha": "d777f3a0aa2878bea0478918923dabcf86b9878b",
+      "body_read": true
+    }
+  ],
+  "conclusion": "No changed accepted theorem or new compatible supplier premise identified. Continue covariant source inverse-lift and shared native H/D/K gluing. External Clifford readouts remain selective future leads; preserve distinct coefficient fields and interface costs.",
+  "reviewer": "S028 worker C, OpenAI assistant; read-only metadata/source-guidance intake."
+}

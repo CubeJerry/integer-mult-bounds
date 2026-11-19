@@ -203,3 +203,17 @@ no universal claim relies on the false stronger guess. No new complete kappa.
 | D/K and complete caller | Open | Actual quotient representations, phases, costs, suppliers and foundations |
 
 The covariant target changes only row80/column10, preserving the identity-block premises of the odd witness and H263 commuting gate. Earlier conclusions retain their original scopes.
+
+## S028 checkpoint1 dependency update
+
+| Proposition / quantifiers | Status | Dependency and precise remaining scope |
+| --- | --- | --- |
+| One common full64 covariant source and all genuine early maps over GF512 | Proved after independent review | [Admission](results/bit-covariant-source-existence/ADMISSION.md); source-only existence, not H realization |
+| Two-sided covariant characteristic-two target at b3840 with q34688 | Proved algebraic endpoint | [Admission](results/bit-two-sided-covariant-target/ADMISSION.md); full algebra and endpoint commutators checked; physical word open |
+| Every exact preserving H263 code, including nonlinear encoders, induces45 linear direct-sum port spaces | Proved under stated fully early/tight-view premises | [Admission](results/bit-fully-early-source-divisibility/ADMISSION.md); identically repeated width requires15|d, every common uncoupled component requires3|d |
+| Compilation using repeated or independently varying width16 source components | Disproved within retained routes and target | Width divisibility; source-only theorems remain valid |
+| Arbitrary per-H permutations of five frozen nine-port classes with five common source components | Disproved within this partition/component contract | [Admission](results/bit-fixed-class-relabel-obstruction/ADMISSION.md);5540-square integer system uniquely forces1/5 |
+| Changed partitions, mixed-component packet rows, coupled receiver-dependent inverse lifts | Open | The fixed-partition theorem does not cover them; joint source rank, early chronology and D/K compatibility remain |
+| Complete conditional kappa>=1/200 | Open | All preceding realization/cost obligations plus strict BIT/complex suppliers and complete caller; five foundations retained |
+
+The full proofs state all field, route, independence and target premises. Their separately implemented reviews and exact finite certificates are linked in each admission. A rank certificate proves a finite integer-system statement; the accompanying reduction proves its stated universal obstruction. No finite failed search is treated as impossibility.
