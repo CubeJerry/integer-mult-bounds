@@ -1,0 +1,95 @@
+{
+  "all_native": {
+    "comparisons": 34965,
+    "failures": 34425,
+    "histogram": {
+      "4": 540,
+      "5": 98,
+      "6": 1758,
+      "7": 7337,
+      "8": 8282,
+      "9": 9394,
+      "10": 7081,
+      "11": 475
+    }
+  },
+  "author_source_code_imported": false,
+  "complete_supplier": false,
+  "controls": {
+    "changed_class_premise_can_pass_local_screen": true,
+    "global_class_permutations": 120,
+    "invented_per_class_capacity_detected": true,
+    "matching_counts_not_sufficient": true
+  },
+  "geometry": {
+    "foreign_pairs": 6470,
+    "middles": 3150,
+    "parent_receiver_plane_incidence": 40320,
+    "planes": 1120,
+    "roots": 120,
+    "tight_foreign_pairs": 6110
+  },
+  "new_kappa": false,
+  "pins": {
+    "layout": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+    "partitions": "2c3fd50f5b9e1e12f25b48baaaaf15d92690af9ac3685a7b29ce7cc982c8fc25"
+  },
+  "scope": "Fixed class-separated source representation and exact proper sum; not a replacement-return rank bound.",
+  "status": "PASS_NATIVE_CLASS_SEPARATION_MIDDLE_GATE",
+  "triangle": {
+    "comparisons": 156,
+    "failures": 151,
+    "first_failure": {
+      "dimension_lower": 6,
+      "fails": true,
+      "middle": 81,
+      "outgoing_capacity": 4,
+      "profiles": {
+        "29": [
+          0,
+          2,
+          0,
+          2,
+          0
+        ],
+        "36": [
+          0,
+          2,
+          0,
+          0,
+          2
+        ]
+      },
+      "receiver": 10,
+      "right_planes": [
+        424,
+        605,
+        674,
+        916
+      ]
+    },
+    "histograms_by_receiver": {
+      "10": {
+        "6": 39
+      },
+      "33": {
+        "4": 2,
+        "5": 2,
+        "6": 29,
+        "7": 6
+      },
+      "80": {
+        "4": 1,
+        "5": 5,
+        "6": 27,
+        "7": 6
+      },
+      "95": {
+        "4": 2,
+        "5": 5,
+        "6": 28,
+        "7": 4
+      }
+    }
+  }
+}

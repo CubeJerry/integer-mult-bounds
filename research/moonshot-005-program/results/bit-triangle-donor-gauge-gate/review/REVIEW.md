@@ -1,0 +1,17 @@
+# Independent review of the frozen-source donor-gauge obstruction
+
+Accept the18-cut obstruction with the stated fixed-source scope. An invertible change of original coordinates at donor j multiplies its required inverse lifts by one common inverse map Q_j. If a changed source implements the proper sum, surjectivity of its physical visible boundary makes the decoder unique and linear. Each relevant D has only four symbols per stripe for a receiver; the four independent lift columns of each donor must therefore span the same four-dimensional subspace. This remains necessary with nonlinear downstream encoding by the finite alphabet bound.
+
+A single donor gauge must work at every receiver. It thus preserves the dimensions of sums over any common indexed family of cuts. The18-cut family has field ranks72 and71, contradicting the required equality. Mixing original source classes or repeated stripes by arbitrary invertible donor maps does not remove this invariant. Extending the coefficient field preserves rank; expanding GF32 to binary multiplies rank by five, and body-width or stripe repetition multiplies it further. The same rank contradiction therefore covers the stated arbitrary binary-linear gauges.
+
+The reviewer did not import or execute author code and did not use the author's inverse or elimination routine. From the authenticated source matrices and actual native port minors, the checker constructs the forward source-to-visible-port matrices. Each of the144 published lift columns is verified directly by its forward unit-vector equation. Forty-five relevant48-dimensional field stacks have binary rank240. Fifteen actual three-donor boundary matrices have binary rank675, proving the required135-field surjectivity per class at the three receivers used by the witness.
+
+Separate bitset elimination on the binary expansion of the72 published field columns gives ranks360 and355, hence72 and71 over GF32. Each four-column cut has binary rank20. The18 actual four-K capacities are independently recovered from signed-root orthogonality. The null relation on the deficient side vanishes; deleting a nonzero term fails, and the same relation does not vanish on the full-rank side. Changing one lift coefficient fails its forward unit-vector equation.
+
+The argument only needs these18 cuts. The author's larger60-cut and45-cut corroborating censuses were not repeated here; neither is needed for this review's acceptance. No global minimality claim is made. A source that fails its earlier shared-H consistency is also correctly excluded; the proof merely shows that even assuming all earlier consistency equations, the later D requirements force the impossible indexed-rank equality.
+
+The conclusion is a coordinate-change obstruction for one frozen source. It does not exclude source subspaces changed beyond a common donor gauge, new local H arrays, new routes or additional informative returns. It is distinct from the coefficient-independent class-count theorem, because the gauges here may mix classes while the source subspace arrangement remains frozen.
+
+Run `python3 check.py --repo REPOSITORY --triangle TRIANGLE_AUTHOR --author GAUGE_AUTHOR --out OUTPUT`.
+
+Credit @CubeJerry, the native and source authors and S027 Worker A. S027 Worker B supplied this independent mathematical and implementation review with substantial OpenAI assistance. No new complete kappa, human review or formal-kernel verification is claimed.

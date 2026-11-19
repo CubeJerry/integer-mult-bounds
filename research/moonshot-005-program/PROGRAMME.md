@@ -1,5 +1,35 @@
 # Persistent κ=0.005 research programme
 
+## Current S027 checkpoint1: coupled source and middle construction
+
+The permanent branch resumes at `882a135e95d5f3202ab3c20784668b627a26628e`.
+Canonical main remains `e54523517d0f03e58352e647c403a5af3e525a57`; the selected
+complete conditional bound remains kappa=0.00363005817. **No new kappa.**
+The five foundational assumptions remain visible in STATE.json.
+
+A new characteristic-two target has all6470 foreign blocks invertible,
+rank(I+B)=9b+b/30, and full coefficient algebra M_b(F). It has neither a flat
+input subsystem nor flat output quotient. At b480/1920/5760 its excess is
+16/64/192; the retained movement arithmetic first closes at even m=870.
+This is an algebraic target, not a physical source or supplier:
+[admission](results/bit-irreducible-low-excess-target/ADMISSION.md).
+
+Three reviewed gates force joint source/decoder redesign. Fixed separated
+classes fail34425 of34965 tight native cuts. For the frozen triangle, a common
+donor gauge cannot identify indexed source arrangements of ranks72 and71.
+Even retaining that source and adding informative repairs requires at least
+105rho=7b/16 symbols across one joint receiver cut. These scopes do not exclude
+changed source maps, changed routes, or arbitrary replacement return banks.
+The new package admissions and OBLIGATIONS.md state exact quantifiers.
+
+The next construction is a class-coupled source and common H/D/K/F decoder
+realizing an affordable proper B, with genuine owner restoration and invertible
+public-output baselines. Work now combines a paid target-bound D12 tile,
+saturated common-information/causal middle criteria, and noncommuting coefficient
+sources. The compatible strict complex supplier and complete recursive caller
+remain necessary. Historical sections below retain their original status.
+
+
 ## S026 checkpoint 1: a paid completion criterion
 
 The [canonical quotient repair theorem](results/bit-canonical-quotient-repair/ADMISSION.md)

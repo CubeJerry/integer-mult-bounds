@@ -1,0 +1,130 @@
+{
+  "all_five_foundations_retained": true,
+  "baseline_programme_sha": "882a135e95d5f3202ab3c20784668b627a26628e",
+  "body_tensor_irreducible_claimed": false,
+  "column_center": 10,
+  "degrees": [
+    62,
+    61
+  ],
+  "finite_bank_transport_irreducible": true,
+  "flat_input_dimension": 0,
+  "flat_output_quotient_dimension": 0,
+  "foreign_blocks": 6470,
+  "full_native_controls": [
+    {
+      "b": 120,
+      "foreign_block_checks": 123,
+      "full_matrix_dimension": 13320,
+      "h": 4,
+      "q": 1084,
+      "w": 2
+    },
+    {
+      "b": 180,
+      "foreign_block_checks": 123,
+      "full_matrix_dimension": 19980,
+      "h": 6,
+      "q": 1626,
+      "w": 3
+    }
+  ],
+  "full_width_structural_instances": [
+    {
+      "b": 480,
+      "excess_ratio": "1/30",
+      "generator_count": 61,
+      "h": 16,
+      "native_block_assignments": 123,
+      "nonidentity_foreign_blocks": 122,
+      "q": 4336,
+      "w": 8
+    },
+    {
+      "b": 1920,
+      "excess_ratio": "1/30",
+      "generator_count": 61,
+      "h": 64,
+      "native_block_assignments": 123,
+      "nonidentity_foreign_blocks": 122,
+      "q": 17344,
+      "w": 32
+    },
+    {
+      "b": 5760,
+      "excess_ratio": "1/30",
+      "generator_count": 61,
+      "h": 192,
+      "native_block_assignments": 123,
+      "nonidentity_foreign_blocks": 122,
+      "q": 52032,
+      "w": 96
+    }
+  ],
+  "matrix_algebra_controls": [
+    {
+      "all_matrix_units": 14400,
+      "b": 120,
+      "common_right_kernel_dimension": 0,
+      "one_sided_flat_left_dimension": 118,
+      "w": 2
+    },
+    {
+      "all_matrix_units": 32400,
+      "b": 180,
+      "common_right_kernel_dimension": 0,
+      "one_sided_flat_left_dimension": 177,
+      "w": 3
+    }
+  ],
+  "movement": {
+    "first_even_m": 870,
+    "inherited_budget_only": true,
+    "inherited_excess_at_b5760": 192,
+    "limiting_room": {
+      "decimal": [
+        "0.0141984734149543689553724953605943768942721",
+        "0.0141984734149543689553724953605943768949537125"
+      ],
+      "rational": [
+        "141984734149543689553724953605943768942721/10000000000000000000000000000000000000000000",
+        "1135877873196349516429799628847550151596297/80000000000000000000000000000000000000000000"
+      ]
+    },
+    "power_enclosures_checked": 24,
+    "previous_even_m": 868
+  },
+  "negative_controls": {
+    "adjacent_center_rejected": true,
+    "diagonal_nonnilpotent_mutation_singular": true,
+    "one_sided_star_has_proper_invariant_bank": true,
+    "one_sided_star_retains_left_quotient": true
+  },
+  "new_complete_kappa": false,
+  "row_center": 80,
+  "scope": "algebraic endpoint target only; no physical source or decoder realization",
+  "source_pins": [
+    {
+      "path": "research/moonshot-005-program/sessions/2026-11-14-S013/cloud/SOURCE-RECOVERY.json",
+      "sha256": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-canonical-quotient-repair/author/output/BUDGET.json",
+      "sha256": "cc859f5311a64bbf3bb9b6dbd500870c9e9e93a0ab5cd05a562c145c53314769"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-one-star-nilpotent-target/author/PROOF.md",
+      "sha256": "660df03107cd664bf138a7608d23a624004746ea3f71e22f139e11db760b7eba"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-one-star-nilpotent-target/development/two-star188/author/PROOF.md",
+      "sha256": "62a64fdddc4734978d9aa5ea39ca5f7dae1db66862be54dce3508ee4f8d35ee5"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-replacement-return-bank/author/PROOF.md",
+      "sha256": "05d147139a6c13b9bf8a80fe7cfac08fac844fa8992da14c0ba575a72199d852"
+    }
+  ],
+  "status": "PASS_NATIVE_IRREDUCIBLE_TARGET",
+  "theorem_domain": "every characteristic-two field and b=60w, integer w>=2"
+}

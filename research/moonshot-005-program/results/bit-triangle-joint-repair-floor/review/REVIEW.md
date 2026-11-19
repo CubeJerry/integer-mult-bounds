@@ -1,0 +1,19 @@
+# Independent review of the frozen-triangle joint cut
+
+Accept the stated joint-cut theorem and its fixed-canonical repair application. The proof correctly uses the rank of the union of contribution images rather than blindly adding individual cut deficits. Surjectivity of the original source-to-port boundary is essential and is explicitly supplied by the author's fresh reconstruction.
+
+Fixing the boundary outside the selected middles is legitimate even though those boundary coordinates are linear combinations of common original inputs: surjectivity guarantees a complete product alphabet. An arbitrary helper depending on the full original input is harmless to the lower bound. Condition on its value as part of the joint transcript; downstream data outside the selected cut are then functions of fixed boundary values and that helper. The combined alphabet has at most |F| raised to helper size plus selected outgoing capacity. This remains true for nonlinear or correlated encoders and for receivers mixing stripes.
+
+The canonical-zero extension is valid. The native canonical matrix has rank9, and its columns outside receiver10's foreign set still span all nine dimensions. Hence arbitrary active inputs29,36,77 can be extended outside that foreign set while keeping other foreign inputs zero. Those outside donors cannot reach receiver10 on the retained proper routes. On the canonical-zero slice X10 equals the foreign sum, and originalY=0 eliminates the pure-Y baseline. This argument does not grant arbitrary replacement-bank containment.
+
+The reviewer independently expanded all frozen field columns into their five-bit polynomial representation and used binary bitset elimination, importing no author algebra or checker. The three-middle witness has binary rank135 and the full33-middle witness has binary rank1185, equal to the sum of individual binary ranks. These give field ranks27 and237. All33 actual right-plane lists were reconstructed by signed-root orthogonality; each has exactly four flags. Repeating one selected middle gives binary rank90 rather than135, checking the additivity premise.
+
+The reviewer independently reconstructed the nine-dimensional canonical space and gave explicit outside-foreign correction columns for each of the three active donor basis inputs. These identities extend coordinatewise to arbitrary field and bank coordinates. A small exact cut control has16 target states, a sharp16-state transcript with two nonlinear helper bits, and only8 transcript states when a helper bit is removed. A changed-bank control has fitting excess h=0 but retained-canonical repair dimension r=1, confirming that h cannot replace r without containment.
+
+The retained helper floor105rho equals7b/16. At the b1920 and b5760 retained source lifts this is840 and2520, exceeding the stated excess-return screens67 and202. The b480 statement is only a formal fixed-port scaling because its changed early source has not been realized by the frozen triangle. The movement comparison is also scoped to retaining the existing invoice and paying additional crossings; reallocating already paid channels remains outside it.
+
+This review checks the proof and an independently implemented binary rank/geometry/canonical certificate. It does not separately reconstruct all source-to-port coefficient matrices; that source binding is supplied by root's fresh `reconstruct.py` and predecessor source reviews. Replaying that script would not have been called an additional independent implementation. No human or formal-kernel verification is claimed.
+
+Run `python3 check.py --repo REPOSITORY --author JOINT_CUT_DIRECTORY --out OUTPUT`.
+
+Credit @CubeJerry, the retained source and atlas authors, S026 triangle contributors and S027 root. S027 Worker B supplied this review with substantial OpenAI assistance. No new complete kappa or unrestricted replacement-return obstruction follows.

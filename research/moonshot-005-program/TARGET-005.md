@@ -223,3 +223,26 @@ Every near-minimum native foreign block has rank at least b-floor(9h/2). The cri
 Both admitted smaller atlases preserve Q=(4451/8)[1]+(7213/16)[2]+24[4]+9[8] at t199/200. Bank1920 permits excess67, with hypothetical31 first passing at even m84; bank480 permits excess16, with hypothetical8 first passing at m86. These are conditional movement screens, not achieved repair ranks. Ordinary bounds are ADD<=17M^2+50M+111C, INIT/CLEAR<=5M+C and peak<=7M+C, with all actual binary owners included.
 
 Generic all-foreign-invertibility fields are GF(2^27) and GF(2^25). Bank1920 retains23 common rows by scaling the old mixed69 capacities and using integral max-flow. Bank480 changes edge capacities and requires fresh mixed witnesses; it cannot inherit that scaling. Its fixed GF16 H words fit a degree28 tower, with local costs multiplied by seven. Fixed GF32 modules require degree divisible by five. None of these alternatives proves a full endpoint or the strict supplier pair. See the two atlas admissions and their exact budget outputs.
+
+## S027 checkpoint1: affordable irreducible target, source remains open
+
+For every characteristic-two field and b=60w, w>=2, the target package proves
+q=rank(I+B)=9b+2w and retained-bank repair r=2w. The generated coefficient algebra
+is M_b(F); no flat subsystem or quotient survives. Thus h/b=r/b=1/30 in this
+particular target, with proven canonical containment. At b=480,1920,5760 the
+excesses16,64,192 lie within the existing respective movement ceilings16,67,202.
+Independent rational enclosures give limiting room0.014198473414954369 and the
+first admissible even m=870 (m868 fails). This is sufficient movement arithmetic
+for an unbuilt target, not a completed BIT supplier or new complete kappa.
+
+The frozen separated-class source cannot be repaired by scalar retuning or
+common donor gauges in the proved scopes. A joint-cut lower bound of7b/16
+additional informative symbols is larger than the original base movement room
+(<0.279), when added crossings retain that invoice. It concerns retained-bank
+repair r, not optimized replacement excess h. Do not transfer the bound to
+changed source maps, redistributed owners, or different routes.
+
+Next: synthesize source maps and the actual common H/D/K/F decoder together.
+Keep local operations, early/late availability, original baselines, return
+rank, all recursion, strict complex compatibility and all five foundations.
+See the four new result admissions and S027 verification receipt.

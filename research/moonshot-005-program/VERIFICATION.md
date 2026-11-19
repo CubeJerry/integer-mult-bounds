@@ -400,3 +400,9 @@ All author and independent result objects match integrated replays. The shared r
 - Root's separate binary field/word review checks84 GF16 triples,252 full minors, both partial donor ranks and singleton rank, every basis vector of two full early/late words, arbitrary Y and charged caches. Independent polynomial irreducibility and integer-Newton radical bounds verify all fields, finite invoices and excess screens67/16.
 
 Each package has exact reviewed input hashes and reproduction commands. The fixed-H polynomial-product proof is reviewed as rank-only existence; no numerical complete coefficient table or low rank(I+B) is claimed. Source fragments and newly identified downstream obstructions remain separate pending admissions.
+
+## S027 checkpoint1
+
+Four separately reviewed packages: irreducible target (binary-column rank at b240, matrix units, fresh integer-authenticated power enclosures); separated-class gate (rational native incidence reconstruction and all34965 cuts); triangle repair floor (fresh source decoder and separate binary rank review); donor-gauge gate (forward lift equations and binary ranks360/355). These are AI-assisted independent mathematical reviews, not only repeated author executions.
+
+Nine relocated jobs exactly reproduced admitted receipts. Run `python -B research/moonshot-005-program/sessions/2026-11-19-S027/checkpoint1_replay.py --repo . --out /tmp/moonshot-S027-checkpoint1`. See sessions/2026-11-19-S027/CHECKPOINT1-VALIDATION.json. Finite checks support the written universal proofs. The frozen previously unpublished triangle source is input data, not newly admitted full physical chronology. No new supplier, complete kappa or foundational discharge.

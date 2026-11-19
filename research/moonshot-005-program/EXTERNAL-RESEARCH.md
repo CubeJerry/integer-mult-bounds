@@ -507,3 +507,7 @@ Sources and budgets remain pinned. No outside PR was merged, selected certificat
 ## S026 checkpoint4 composition and provenance note
 
 No external result is newly adopted. The bank1920 mixed23 theorem uses the already authenticated mixed69/late69 flow theorem via exact capacity scaling and integral max-flow. Bank480 uses changed native phases, so that inherited proof does not transfer. Fixed GF16 versus GF32 coefficient fields are recorded as distinct interfaces. Native nine-port partitions are new internal constructive evidence, independently reviewed; existing canonical, balanced, color-solver and mixed-source authors retain credit. Concurrent S025 evidence is still awaited and will be reconciled without rewriting remote history.
+
+## S027 intake, 2026-11-19
+
+Canonical main e54523517d0f03e58352e647c403a5af3e525a57 and selected conditional kappa=0.00363005817 remain unchanged. Canonical instructions were read. Open PR#7786 at89a67c404226d51028e135de2b9169e9020d57af claims kappa>=0.00387944011068, remains below0.005, and is not adopted. PR#7792 has a Gaussian-dyadic field scope; PR#7783 supplies a scoped upper bound, not a0.005 construction; PR#7787 addresses invoice binding. See sessions/2026-11-19-S027/UPSTREAM-INTAKE.json for metadata and partial Discussion1163/1166/1167 coverage. PR#6916 and recent @CubeJerry PRs7600/7599/7598 were inspected for reporting style. No upstream PR or message was posted.

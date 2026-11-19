@@ -376,3 +376,39 @@ The explicit one-receiver nilpotent target has excess93, all6470 foreign blocks 
 The original5760-coordinate atlas is no longer the smallest known finite implementation. We add an integral bank1920 compression and a new asymmetric bank480 allocation with the same normalized MOVE profile. Both have full original-owner route certificates and causal path proofs for all6470 foreign blocks. The480 construction selects65 full planes and orients227 partial planes, permitting two fields per plane-middle flag. Its explicit GF16 Vandermonde/derivative library can remain fixed in a degree28 rank-only global code.
 
 Independent checks cover every route, source/terminal quota, native incidence, local binary word and exact field/budget inequality. The finite dense ordinary bill decreases with the bank size, while native identity synchronization and recursive admission remain open. The new actual nine-port GF32 library and one-raw-donor repeated-two obstruction are separately admitted with explicit scope. All five foundations remain, selected conditional kappa is unchanged, and this cumulative programme is ongoing and not PR-ready.
+
+## S027 cumulative addition: an irreducible target and exact source gates
+
+**No new kappa.** The programme remains an ongoing construction, not yet ready
+for upstream submission. Baseline882a135e95d5f3202ab3c20784668b627a26628e;
+canonical e54523517d0f03e58352e647c403a5af3e525a57. The selected conditional
+kappa=0.00363005817 and all five foundational assumptions are unchanged.
+
+The new characteristic-two algebraic target has all6470 foreign blocks
+invertible, rank(I+B)=9b+b/30, retained-bank repair b/30, and generated algebra
+M_b(F), excluding flat input subsystems and output quotients. At b480/1920/5760
+its exact excess is16/64/192. Fresh rigorous enclosures show the retained
+movement profile first closes at even m870. A complete physical native source,
+strict BIT/complex suppliers and recursive caller are still missing.
+
+Three source-specific results explain why source and decoder must change
+together:34425/34965 tight native cuts reject the fixed separated-class
+interface; two frozen donor arrangements have invariant ranks72/71 under
+common gauges; and a joint receiver cut requires105rho=7b/16 extra information
+when the frozen triangle and retained canonical bank are kept. None is an
+unrestricted lower bound on all multiplication architectures.
+
+Proofs, exact receipts, negative controls and separate reviews are in:
+
+- [Irreducible target](results/bit-irreducible-low-excess-target/ADMISSION.md).
+- [Separated-class gate](results/bit-class-separated-middle-gate/ADMISSION.md).
+- [Joint repair floor](results/bit-triangle-joint-repair-floor/ADMISSION.md).
+- [Donor-gauge gate](results/bit-triangle-donor-gauge-gate/ADMISSION.md).
+
+Reproduce all nine relocated jobs with
+`python -B research/moonshot-005-program/sessions/2026-11-19-S027/checkpoint1_replay.py --repo . --out /tmp/moonshot-S027-checkpoint1`.
+Expected: every job matches its admitted JSON; final VALIDATION.json passes.
+The programme preserves @CubeJerry attribution, predecessor source/atlas
+credit, and substantial OpenAI assistance. Independent reviews here mean
+separate mathematical/code checks by AI workers and the orchestrator, not
+external human peer review. Exact source pins remain in each package.

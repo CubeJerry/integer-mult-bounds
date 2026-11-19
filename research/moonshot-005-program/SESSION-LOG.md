@@ -2690,3 +2690,11 @@ Baseline remote57c72c28db6bb1ce37713cee839da9c6006b012e; prior publication recei
 B's one-raw-donor zero-slice theorem is also admitted after root recomputed all111 boundaries and checked5409 hard coloring exclusions with a distinct historical solver. All-field/binary deficits are74556/83376 at r180. The scope does not include mixed helpers or replacement banks.
 
 The constructive frontier has sharpened: source-only triangle/A3/A4 fragments are being reviewed, while B found a fixed triangle D-cut obstruction and C identified a possible class-separation obstruction. These are not admitted by this checkpoint. The next task is D/K-compatible source/lift construction, with all actual sources, arbitrary Y and return costs included. Fresh bank480 mixed5 flows await review. No new complete kappa; no PR. The requested session remains active until06:00:26 UTC.
+
+## 2026-11-19-S027 checkpoint1 — active five-hour session
+
+Start12:22:00 UTC; planned finish17:22:00 UTC. Remote baseline882a135e95d5f3202ab3c20784668b627a26628e; canonical e54523517d0f03e58352e647c403a5af3e525a57. Earlier expired active labels are historical. Three workers plus orchestrator continued the global source/decoder frontier.
+
+Proved and separately reviewed: characteristic-two full-algebra target q=9b+b/30 with no flat input/output quotient and first even movement m870; separated-class gate failing34425/34965 native cuts; frozen triangle donor-gauge ranks72/71; joint-cut repair floor105rho=7b/16. Nine exact relocated receipts passed. All source restrictions, h/r distinctions and five foundations retained. No new complete kappa. Upstream main unchanged; open PR#7786 not adopted.
+
+Next: paid D12 target tile, common-information/causal middle factorization and noncommuting sources. Resulting remote SHA will be recorded after confirmation; baseline above avoids self-reference. No PR; programme remains active.

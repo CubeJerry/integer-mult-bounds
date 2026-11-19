@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "matches_admitted_json": true,
+      "name": "irreducible-author",
+      "script": "research/moonshot-005-program/results/bit-irreducible-low-excess-target/author/check.py",
+      "script_sha256": "bf38218a13a1a24f6906ff47ac821c15a027a167ca255551b404dac8ccfd8844",
+      "seconds": 4.761
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "irreducible-review",
+      "script": "research/moonshot-005-program/results/bit-irreducible-low-excess-target/review/check.py",
+      "script_sha256": "020b4b8897b884603f07f718493835025c14011aa119ef48c42139de04fd2fd6",
+      "seconds": 4.159
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "irreducible-budget",
+      "script": "research/moonshot-005-program/results/bit-irreducible-low-excess-target/review/budget.py",
+      "script_sha256": "af078222fa2be72ebe856399665e43f6423d2557b8583445c28a8818d7270b82",
+      "seconds": 0.097
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "class-author",
+      "script": "research/moonshot-005-program/results/bit-class-separated-middle-gate/author/check.py",
+      "script_sha256": "6e4d540496f3e91e3ffa23e81a779f9048dda72e8e0c1fccf4d717cefe8e6cfe",
+      "seconds": 10.184
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "class-review",
+      "script": "research/moonshot-005-program/results/bit-class-separated-middle-gate/review/check.py",
+      "script_sha256": "17732824e1ce050771f352850c31d19bcd25f4c12fe8c79512ba8b457d6ec660",
+      "seconds": 4.59
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "joint-cut-author",
+      "script": "research/moonshot-005-program/results/bit-triangle-joint-repair-floor/author/reconstruct.py",
+      "script_sha256": "a9fcb4c6ce74d755f3241a61092a3b0129f4096ce520e9dfd8a4ef8a6d200012",
+      "seconds": 0.866
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "joint-cut-review",
+      "script": "research/moonshot-005-program/results/bit-triangle-joint-repair-floor/review/check.py",
+      "script_sha256": "8ce8334c143ac7f99574f3072640c62771d531ead41070523d9f3bea2fbdb4de",
+      "seconds": 0.343
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "gauge-author",
+      "script": "research/moonshot-005-program/results/bit-triangle-donor-gauge-gate/author/check.py",
+      "script_sha256": "c073a330d75e48f94127d2582a6bb0b8d01e301993fbaeb484f4a764f7610253",
+      "seconds": 2.902
+    },
+    {
+      "matches_admitted_json": true,
+      "name": "gauge-review",
+      "script": "research/moonshot-005-program/results/bit-triangle-donor-gauge-gate/review/check.py",
+      "script_sha256": "563df20d227021c2f65bce127a95433b997048359834aa0fcdd516bc92c13fec",
+      "seconds": 0.524
+    }
+  ],
+  "new_complete_kappa": false,
+  "separate_mathematical_reviews": "Per-package review/REVIEW.md; this serial replay is not another independent review.",
+  "status": "PASS_S027_CHECKPOINT1_INTEGRATED_REPLAY"
+}

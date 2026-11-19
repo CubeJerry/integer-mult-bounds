@@ -150,3 +150,21 @@ PROVED NECESSITY: no fresh donor77 injection after early departure forces excess
 - **Open next:** source and decoder gluing satisfying actual D/K/F capacities, low rank(I+B), strict BIT and complex suppliers and complete recursive admission. A new fixed triangle transport obstruction is pending separate review; source-only identities do not settle this interface.
 
 Evidence: [local modules](results/bit-native-nine-port-modules/ADMISSION.md), [raw helper gate](results/bit-raw-donor-zero-slice/ADMISSION.md), [bank1920](results/bit-compressed-balanced-atlas/ADMISSION.md), [bank480](results/bit-asymmetric-balanced-atlas/ADMISSION.md).
+
+## S027 checkpoint1: current source and middle frontier
+
+| Obligation | Exact status and dependency | Next requirement |
+|---|---|---|
+| Irreducible low-excess target | Proved for characteristic two, b=60w,w>=2: q=9b+2w, r=2w, full M_b(F); [admission](results/bit-irreducible-low-excess-target/ADMISSION.md) | Realize B on actual native routes with invertible original-Y map |
+| Separated-class tight D cuts | Disproved within fixed independent-class/source-port scope;34425/34965 fail; [admission](results/bit-class-separated-middle-gate/ADMISSION.md) | Change coupled source representation, not just coefficients |
+| Frozen triangle donor gauges | Disproved: donor29/36 indexed arrangements have ranks72/71; [admission](results/bit-triangle-donor-gauge-gate/ADMISSION.md) | Change source quotient arrangement or informative interface |
+| Frozen triangle repair | Proved additional-information floor105rho=7b/16 from a237-rank joint cut and132 existing symbols; [admission](results/bit-triangle-joint-repair-floor/ADMISSION.md) | Avoid fixed-source, fixed-invoice premise |
+| Common D and causal K interface | New candidate criterion under independent review; not admitted in this checkpoint | Prove common shared-slot vectors, timing and physical invertibility |
+| Global target-bound source | Open; local D12 construction being developed | Simultaneously satisfy shared H and downstream constraints for all original columns |
+| Complete kappa>=1/200 | Open; strict BIT/complex suppliers, complete caller and retained foundational assumptions | No new complete kappa from these algebraic and source-specific results |
+
+The target proves existence of useful matrices, not physical transport. The
+source gates constrain previously specified representations, not all possible
+constructions. The joint repair theorem is not a lower bound on every optimized
+replacement bank. Precise quantifiers, dependencies, negative controls and
+independent reviews are in the linked admissions.
