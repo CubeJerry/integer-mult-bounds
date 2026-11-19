@@ -205,3 +205,9 @@ acquisition and custody, not free grants.
 
 Detailed historical budgets remain [archived exactly](sessions/2026-11-17-S020/logical-records-before-cp1/TARGET-005.md)
 with their source-dependent scope. Current concrete tasks are in[OBLIGATIONS](OBLIGATIONS.md).
+
+## S026 checkpoint2: representation gates, target unchanged
+
+The original exact canonical source now requires at least71 globally asymmetric planes. Repeating a fixed width-two quotient over any finite characteristic-two field cannot complete that source: the early causal gate yields493824 available against587520 required information dimensions at the balanced base. The binary specialization gives the stronger488964 bound.
+
+These bounds do not transfer to paid retained-bank repair or replacement banks. The current movement target remains an actual proper map with affordable exact completion, followed by both strict suppliers and the complete caller. No complete kappa>=0.005 result is present. See results/bit-native-global-asymmetry, results/bit-repeated-binary-two-source and results/bit-repeated-field-two-causal-source.

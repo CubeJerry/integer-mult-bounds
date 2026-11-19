@@ -128,3 +128,9 @@ No new complete κ. The selected conditional bound remains .00363005817. Both st
 Current actual fields and costs are in [PROGRAMME](PROGRAMME.md); every gate
 retains its quantifiers in [the registry](REGISTERED-RESULTS.json). No earlier
 fixed-bank or fixed-column obstruction is transplanted to a changed source.
+
+## S026 checkpoint2: new source obligations and scope
+
+On the original saturated interface, any successful gluing must meet the421 odd-witness constraints, including71 asymmetric planes,152 unequal pair flags and receiver80's2q+t>=68 restriction. Fixed identical width-two modules are excluded over all finite characteristic-two fields by actual early information preservation.
+
+Larger coupled modules, varying original-copy maps and changed return banks remain construction alternatives. None is validated by these exclusions. In particular do not subtract the old scalar or new width-two deficits from a small repair budget: the common-function and saturation premises must first be re-established. All five foundational assumptions, complete ordinary/recursive invoices and both strict suppliers remain open.

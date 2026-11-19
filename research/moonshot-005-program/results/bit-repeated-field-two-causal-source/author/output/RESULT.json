@@ -1,0 +1,71 @@
+{
+  "status": "PASS_REPEATED_FIELD_TWO_CAUSAL_GATE",
+  "source_sha256": {
+    "native": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+    "layout": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+    "factor": "346e7604b000ba057e49e8dcae639eaf1b8d82aeb1466f8b959a84390971dfa7",
+    "color_review": "55062cf00045a9d8888fbea8cd613d9c8db65ef570381c282aa004e73d8aa0ae"
+  },
+  "ordinary_planes": 1108,
+  "receiver_pair_port_checks": 477089,
+  "early_top_deficit_histogram_at_r180": {
+    "30": 23,
+    "60": 8,
+    "72": 4,
+    "90": 204,
+    "120": 215,
+    "180": 484,
+    "195": 16,
+    "270": 74,
+    "360": 80
+  },
+  "minimum_strict_early_top_deficit_at_r180": 30,
+  "covered_capacity_per_r": 2519,
+  "uncovered_ports": 1436,
+  "capacity_per_r": "41152/15",
+  "required_per_r": 3264,
+  "deficit_per_r": "7808/15",
+  "r180": {
+    "capacity": 493824,
+    "required": 587520,
+    "deficit": 93696
+  },
+  "nonlinear_entropy_controls": {
+    "all_boolean_early_encoder_triples": 4096,
+    "integer_entropy_comparisons": true,
+    "sharp_entropy_cases": 8,
+    "maximum_common_components": 4,
+    "component_mass_histogram": [
+      [
+        [
+          16,
+          16,
+          16,
+          16
+        ],
+        8
+      ],
+      [
+        [
+          32,
+          32
+        ],
+        592
+      ],
+      [
+        [
+          64
+        ],
+        3496
+      ]
+    ],
+    "future_input_causality_control_rejected": true
+  },
+  "field": "every finite field of characteristic2",
+  "identical_repetition_required": true,
+  "original_early_X_restoration_required": true,
+  "extra_information_channel_or_changed_canonical_covered": false,
+  "inherited_coloring_recomputed": false,
+  "new_complete_kappa": false,
+  "causal_census_sha256": "433815117f4834ce5cd1e902ea4924379d6b479776b1b170c6dd8b6dc9d1bd57"
+}

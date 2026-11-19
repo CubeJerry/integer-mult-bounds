@@ -1,0 +1,9 @@
+# Admission: repeated width-two source obstruction over every finite characteristic-two field
+
+Accepted on the original canonical interface, genuine early source bijection, prescribed restoration chronology and paid balanced routes. Ordinary quotient maps are arbitrary rank-two32-coordinate base maps over the same finite characteristic-two field, repeated identically across common copies. Noncommuting coefficients, nonlinear early maps and nonlinear downstream functions are permitted within this interface.
+
+A nonstar pairwise-intersecting family lies in a3-dimensional top. The covered early tuple is a common function of that top and the actual early inputs; its information is at most r+xr/4. All1108 ordinary planes violate the resulting necessary preservation inequality, with minimum integer margin30. Thus every family is a star. The proof then correctly grants full ambient capacity where the inherited color cap was truncated. The final bound41152r/15<3264r gives493824<587520 at r180, deficit93696.
+
+Worker B independently reconstructed the new native causal census and larger-field accounting and checked4096 nonlinear information controls without author imports. Root inspected the separation between canonical-zero functional identities and the independent entropy distribution, the no-bypass premise and the truncated-cap treatment, then replayed both implementations after integration.
+
+This excludes changing only the coefficient field of the repeated width-two source. It does not exclude larger modules, varying copies, changed routes or changed return banks. No numerical deficit is transported to those interfaces without a new proof. All foundations, both strict suppliers and the complete caller remain open; no new kappa follows. Detailed provenance and scope are in author/PROOF.md and review/REVIEW.md.

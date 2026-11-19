@@ -1,0 +1,48 @@
+{
+  "session": "2026-11-19-S026",
+  "checkpoint": 2,
+  "python": "3.12.14",
+  "baseline": "1c9901dc120af122d55a718ce6e6ec4c70ebf370",
+  "integrated_replays": [
+    {
+      "package": "bit-native-global-asymmetry",
+      "entry_point": "author/check.py",
+      "result_semantically_identical": true,
+      "result_sha256": "b67e11c97cdf2b4ac846c7b40a5e3ae3344e29b28f2969c5e2156da8202b6a76"
+    },
+    {
+      "package": "bit-native-global-asymmetry",
+      "entry_point": "review/check.py",
+      "result_semantically_identical": true,
+      "result_sha256": "e54faf356c16c179e70acede66a2ee5ff9e94220d2bd4c3cbbdb5b8a67703db1"
+    },
+    {
+      "package": "bit-repeated-binary-two-source",
+      "entry_point": "author/check.py",
+      "result_semantically_identical": true,
+      "result_sha256": "4929a326a03cddbd489dc82a3e85c93adfb9e8da729889ceb6713c4a409e027d"
+    },
+    {
+      "package": "bit-repeated-binary-two-source",
+      "entry_point": "review/check.py",
+      "result_semantically_identical": true,
+      "result_sha256": "725acc1674c62dfa9caad462b045df28121942fd3bc1f752c8d624a39c640cfb"
+    },
+    {
+      "package": "bit-repeated-field-two-causal-source",
+      "entry_point": "author/check.py",
+      "result_semantically_identical": true,
+      "result_sha256": "b97b2eab0798bdd0cc35e1ab383291fc7857629557f27730ae5909f222cb2195"
+    },
+    {
+      "package": "bit-repeated-field-two-causal-source",
+      "entry_point": "review/check.py",
+      "result_semantically_identical": true,
+      "result_sha256": "b91421fa32a80410e6bea24e6de42d6bdcecbda1afcb50571cc63457e0745098"
+    }
+  ],
+  "root_mathematical_review": true,
+  "new_kappa": false,
+  "full_caller_tested": false,
+  "human_or_formal_review": false
+}

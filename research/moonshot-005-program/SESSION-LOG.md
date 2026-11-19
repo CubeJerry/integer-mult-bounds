@@ -2668,3 +2668,11 @@ contain proofs, source pins, exact controls and separate reviews. No new κ.
 Next: actual low-defect source construction, a replacement canonical bank and
 near-minimum fitting rank, plus review of the complete native asymmetry census.
 The session continues; the resulting commit is confirmed in a later receipt.
+
+## 2026-11-19 S026 checkpoint2 — exact-source constraints
+
+Start01:00:26 UTC; planned finish06:00:26 UTC; active checkpoint at approximately01:55 UTC. Remote checkpoint1 was verified at1c9901dc120af122d55a718ce6e6ec4c70ebf370 with tree exactly matching reviewed local bytes. Publication used an expected-head, non-forced API ref update after the checkout lacked a CLI write credential.
+
+Admitted results:421 odd witnesses force71 asymmetric planes,152 unequal pair flags and discrepancy sum at least51657 at p360; fixed repeated binary width-two source capacity488964<587520; the causal all-field extension capacity493824<587520. Separate reviewers reconstructed new geometry and information controls; root replayed the integrated packages and retained precise original-interface scope. No new kappa or foundation discharge.
+
+Ongoing wave: review the freely chosen return-bank theorem and near-minimum native rank consequences; test the explicit188-excess two-star endpoint target; develop genuinely larger local modules and physical source compatibility. S025 may still publish concurrently, so preserve its evidence and inspect the remote before every update. Session not closed.

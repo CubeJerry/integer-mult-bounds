@@ -358,3 +358,9 @@ source predecessors; CrocSwap/integer-mult-bounds#7000/#7001 and earlier#6916;
 the entropy/index-coding predecessors cited in admissions; and the independent
 construction/review contributions. Substantial OpenAI assistance is disclosed.
 No upstream PR is submitted automatically. No new complete κ. The selected conditional bound remains .00363005817. Both strict suppliers, the outer assembly and all five foundations remain open. The branch is ongoing research and is not PR-ready.
+
+## S026 checkpoint2 research continuation — not ready for upstream PR
+
+The programme now includes a complete native odd-witness census with exact dual certificates, and independently reviewed exclusions of fixed repeated width-two source modules. The all-field extension uses genuine early information preservation and retains arbitrary nonlinear local functions within its stated routes. These results refine the construction search without proving an affordable native source or a new multiplication exponent.
+
+The canonical, retained-repair and replacement-bank interfaces remain distinct. The new source deficits are not presented as repair costs. The programme remains active and requires a concrete low-defect physical map, both strict suppliers, the complete caller and all five foundational discharges before a kappa>=0.005 claim or upstream PR.

@@ -210,3 +210,9 @@ record PR7631's common-U conditional claim and PR7632's restricted Lean
 floors/endpoint-corrected bridge without adoption or Lean rerun. No upstream
 PR has been submitted. Credit retained authors, workers A/B/C, root,
 @CubeJerry and disclosed OpenAI assistance throughout.
+
+## S026 checkpoint2: global gluing constraints and repeated-module gates
+
+Three independently reviewed packages now strengthen the original exact-source interface. The complete421-witness census forces at least71 asymmetric ordinary planes and152 unequal donor-pair flags. Repeated binary width-two sources have an information deficit98556 at the balanced base. The genuine early causal interface extends the exclusion to every finite characteristic-two field, with deficit93696 after allowing the larger-field star capacity.
+
+These are exact scoped theorems, not repair-rank or MOVE lower bounds. A changed return bank can break saturation. The constructive next step is a larger coupled module or an actual correlated low-defect proper map; a promising native two-star endpoint target and a five-class local port partition are under review, not yet admitted here. The five-hour S026 session remains active until06:00:26 UTC. Selected kappa and all five foundations are unchanged.

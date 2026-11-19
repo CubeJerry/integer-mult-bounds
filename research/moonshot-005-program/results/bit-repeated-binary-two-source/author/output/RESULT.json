@@ -1,0 +1,140 @@
+{
+  "status": "PASS_REPEATED_BINARY_TWO_SOURCE_GATE",
+  "source_sha256": {
+    "native": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+    "layout": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+    "factor": "346e7604b000ba057e49e8dcae639eaf1b8d82aeb1466f8b959a84390971dfa7",
+    "admitted_color_review": "55062cf00045a9d8888fbea8cd613d9c8db65ef570381c282aa004e73d8aa0ae"
+  },
+  "base_source_dimension": 32,
+  "base_ordinary_quotient_dimension": 2,
+  "identical_repetition_required": true,
+  "binary_base_field_required": true,
+  "arbitrary_nonlinear_downstream_allowed": true,
+  "ordinary_planes": 1108,
+  "inherited_color_cap_histogram": [
+    [
+      [
+        2,
+        1
+      ],
+      204
+    ],
+    [
+      [
+        2,
+        2
+      ],
+      23
+    ],
+    [
+      [
+        3,
+        1
+      ],
+      630
+    ],
+    [
+      [
+        3,
+        2
+      ],
+      249
+    ],
+    [
+      [
+        3,
+        3
+      ],
+      2
+    ]
+  ],
+  "all_pair_shared_port_histogram": {
+    "3": 201929,
+    "6": 275160
+  },
+  "covered_capacity_per_replication": 2492,
+  "uncovered_ports": 1436,
+  "singleton_capacity_per_replication": 33,
+  "information_capacity_per_replication": "40747/15",
+  "required_per_replication": 3264,
+  "strict_deficit_per_replication": "8213/15",
+  "base_balanced_r180": {
+    "information_capacity": 488964,
+    "required": 587520,
+    "deficit": 98556
+  },
+  "binary_graph_controls": [
+    {
+      "donors": 2,
+      "graph_planes": 6,
+      "maximal_intersecting_families": 9,
+      "family_size_histogram": {
+        "2": 9
+      },
+      "span_dimension_histogram": {
+        "3": 9
+      },
+      "noncommuting_GL2_control": true
+    },
+    {
+      "donors": 3,
+      "graph_planes": 36,
+      "maximal_intersecting_families": 27,
+      "family_size_histogram": {
+        "4": 27
+      },
+      "span_dimension_histogram": {
+        "4": 27
+      },
+      "noncommuting_GL2_control": true
+    }
+  ],
+  "GF4_scope_control": {
+    "modulus": 7,
+    "matrices": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    ],
+    "pair_intersection_sizes": [
+      4,
+      4,
+      4
+    ],
+    "joint_intersection_size": 1,
+    "binary_field_hypothesis_essential": true
+  },
+  "inherited_coloring_search_reexecuted": false,
+  "new_complete_kappa": false,
+  "extra_repair_or_changed_canonical_covered": false,
+  "scope": "One binary32-coordinate quotient base repeated identically; original exact balanced interface.",
+  "native_incidence_payload_sha256": "e4ab1852c1f9f7b3e7d71c0d5d237969492b7db99ad2f40bbab3217c48d619c0"
+}

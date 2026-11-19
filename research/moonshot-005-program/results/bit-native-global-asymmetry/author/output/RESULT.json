@@ -1,0 +1,53 @@
+{
+  "status": "PASS_GLOBAL_NATIVE_SOURCE_ASYMMETRY",
+  "baseline": "d8544284cbd0527cd03a0aad576a2d2c6eddcc0e",
+  "source_sha256": {
+    "native": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e",
+    "layout": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+    "factor": "346e7604b000ba057e49e8dcae639eaf1b8d82aeb1466f8b959a84390971dfa7"
+  },
+  "witnesses": 421,
+  "receiver_histogram": {
+    "0": 24,
+    "1": 7,
+    "2": 27,
+    "4": 32,
+    "8": 15,
+    "16": 5,
+    "32": 1
+  },
+  "ordinary_planes": 1108,
+  "ordinary_unordered_donor_pairs": 2870,
+  "plane_dual_bound": "2200463/31250",
+  "plane_dual_max_load": 999987,
+  "minimum_asymmetric_planes": 71,
+  "pair_dual_bound": "37945411/250000",
+  "pair_dual_max_load": 999993,
+  "minimum_unequal_donor_pairs": 152,
+  "rank_sum_lower_bound_per_p": "134487693944/937265625",
+  "rank_sum_minimum_at_p360": 51657,
+  "receiver80": {
+    "odd_witnesses": 32,
+    "tight_donors": 62,
+    "three_tight_planes": 320,
+    "two_tight_planes": 16,
+    "inequality": "2q+t>=68",
+    "minimum_q": 23,
+    "q23_implies_t_at_least": 22,
+    "minimum_unequal_pairs": 52
+  },
+  "controls": {
+    "projection_cases": 256,
+    "fixed_kernel_two_lift_ranks": [
+      1,
+      1
+    ],
+    "different_image_control_rejected": true,
+    "deleted_donor_rejected": true,
+    "overloaded_dual_rejected": true
+  },
+  "new_complete_kappa": false,
+  "extra_repair_channel_covered": false,
+  "scope": "Original exact saturated quotient source; no MOVE tariff or source construction.",
+  "witness_payload_sha256": "b9ef3e55cb08f04de50001994e78ee4a21b0a4b54a94b04db94a14159efcea82"
+}
