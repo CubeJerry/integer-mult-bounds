@@ -1,0 +1,103 @@
+{
+  "common_lift_rank_histogram": {
+    "9": 405
+  },
+  "common_lift_scope": "fixed GF512 V9 nodes1..9, one common J for all tight H263 receivers; arbitrary receiver-dependent kernel lifts remain open",
+  "common_lift_span_checks": 405,
+  "complete_source_coefficients_emitted": false,
+  "coupling": {
+    "commuting_word_rank": 3,
+    "components": [
+      {
+        "lambda": 0,
+        "relative_trace": 0,
+        "word_rank": 9
+      },
+      {
+        "lambda": 1,
+        "relative_trace": 1,
+        "word_rank": 9
+      },
+      {
+        "lambda": 2,
+        "relative_trace": 2,
+        "word_rank": 9
+      },
+      {
+        "lambda": 3,
+        "relative_trace": 3,
+        "word_rank": 9
+      },
+      {
+        "lambda": 4,
+        "relative_trace": 4,
+        "word_rank": 9
+      }
+    ],
+    "covariant_parameters_per_incidence_per_component": 576,
+    "duplicate_trace_factor": 0,
+    "field_size": 512,
+    "individual_degree_bound": 361,
+    "total_components": 5
+  },
+  "joint_tight_receivers": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    46,
+    47,
+    48,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    73,
+    74,
+    75,
+    76,
+    84,
+    85,
+    86,
+    87,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+  ],
+  "new_complete_kappa": false,
+  "single_receiver_scalar_rank_control": 3,
+  "source_pins": [
+    {
+      "decompressed_sha256": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+      "path": "research/moonshot-005-program/results/bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz",
+      "sha256": "ef8611b33835a799193e8aec4f615486d73f5743558997de0262bceb3ae9eb3c"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-clifford-one-evaluation-gate/author/BASIS.json",
+      "sha256": "d2a825f09a4d24a8a0319743ec84bed9b9e6b50656d3105a1c4577ec78fba9ab"
+    },
+    {
+      "decompressed_sha256": "6d55093625ffd123daf3ae0914bcaeba1308756cec24fd2de083f6887ad0b036",
+      "path": "research/moonshot-005-program/results/bit-asymmetric-balanced-atlas/author/output/ROUTES.jsonl.gz",
+      "sha256": "8d0caea35131728c255e731531d2e876383376e7706b9bc84bbc28a424f1e9d4"
+    },
+    {
+      "decompressed_sha256": "2c3fd50f5b9e1e12f25b48baaaaf15d92690af9ac3685a7b29ce7cc982c8fc25",
+      "path": "research/moonshot-005-program/results/bit-native-nine-port-modules/author/output/PARTITIONS.json.gz",
+      "sha256": "adc6efb66d0f46b924828a1ab8b0c2ed1eb30dfcfdd7eb43bb44d09f6c6d410b"
+    }
+  ],
+  "source_scope": "existence of five inequivalent coupled components; no selected complete coefficients or shared decoder",
+  "status": "PASS_COUPLED_SOURCE_AND_COMMON_LIFT_CERTIFICATES"
+}

@@ -1,0 +1,45 @@
+{
+  "achieves": "Three fullrank30s receiver quotients and their common rank15s early flag at K370.",
+  "additional_MOVE": 0,
+  "exact_minors_checked": 216,
+  "extra_owned_records": 0,
+  "field": "GF512: z^9+z^4+1",
+  "minimum_b3840_forward_plus_inverse_ADD": 2632720,
+  "minor_rank": 15,
+  "negative_controls": [
+    "duplicate row rank45->44",
+    "omitted donor direction rank15->14"
+  ],
+  "new_CLEAR": 0,
+  "new_INIT": 0,
+  "new_complete_kappa": false,
+  "not_achieved": "Specified target B, source/D gluing, Clifford phase frames, complete supplier or new kappa.",
+  "one_body_forward_ADD": 164545,
+  "one_body_forward_plus_inverse_ADD": 329090,
+  "phases": {
+    "X": {
+      "binary_matrix_sha256": "922ee82e4e8d5cc41babbd6c85186e7c4bff68c7abfce0ea02add54e6c3b846d",
+      "forward_ADD": 82236,
+      "inverse_ADD": 82236
+    },
+    "Y": {
+      "binary_matrix_sha256": "0701f3c6ddc31f916a2836ba24e9f80c794fad05ee5fbdf94b6bf03544a705a8",
+      "forward_ADD": 82309,
+      "inverse_ADD": 82309
+    }
+  },
+  "precondition": "Each incoming donor-to-K quotient has rank30s; this package does not establish that premise.",
+  "retained_entire_atlas_movement_charged": true,
+  "source_pins": [
+    {
+      "path": "research/moonshot-005-program/results/bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz",
+      "sha256": "ef8611b33835a799193e8aec4f615486d73f5743558997de0262bceb3ae9eb3c"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-asymmetric-balanced-atlas/author/output/ROUTES.jsonl.gz",
+      "sha256": "8d0caea35131728c255e731531d2e876383376e7706b9bc84bbc28a424f1e9d4"
+    }
+  ],
+  "status": "PASS_NATIVE_K370_DENSE_PHASE_MIXER",
+  "word_payload_sha256": "5441395e2e5a4458d010251ebc30939d876aa8f99c45c81d1da4022be7df5696"
+}

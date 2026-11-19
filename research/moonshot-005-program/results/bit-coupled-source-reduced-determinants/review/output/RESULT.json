@@ -1,0 +1,62 @@
+{
+  "GF4_determinant_and_invertibility_checks": 1024,
+  "GF8_distinct_coupling_traces": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "author_pins": [
+    {
+      "path": "PROOF.md",
+      "sha256": "11341e6cfabf6430092218ec9cab8bb1eeb33c5781f9ba49a096db7bd924581b"
+    },
+    {
+      "path": "COMMON-LIFT.md",
+      "sha256": "f8fad053c31d32c6a36bd4b8adeef4e019406aac0796413280188fb3c9a59da3"
+    },
+    {
+      "path": "REDUCED-DETERMINANT.md",
+      "sha256": "40d252cfa9aee6e850d8a3c51c99b49029c3fd7034e65504dc9ef9400fca2f0e"
+    }
+  ],
+  "common_lift_span_checks": 405,
+  "degrees": {
+    "coupled_with_all_extra_factors": 217,
+    "full64_with_commutator": 154,
+    "reduced_foreign": 144,
+    "source_and_early": 152,
+    "unreduced_early": 8
+  },
+  "native_rank_four_restrictions": 396,
+  "native_rank_half_nilpotents": 120,
+  "negative_controls": {
+    "commuting_word_rank": 3,
+    "defective_early_frame_rank": 1,
+    "nonintertwining_full_rank": 2,
+    "restriction_rank": 2,
+    "single_receiver_span": 3
+  },
+  "new_complete_kappa": false,
+  "scope": "Source-family existence, reduced foreign determinants, fixed common-lift exclusion; no selected GF256 constants or full shared decoder.",
+  "source_pins": [
+    {
+      "path": "research/moonshot-005-program/results/bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz",
+      "sha256": "ef8611b33835a799193e8aec4f615486d73f5743558997de0262bceb3ae9eb3c"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-clifford-one-evaluation-gate/author/BASIS.json",
+      "sha256": "d2a825f09a4d24a8a0319743ec84bed9b9e6b50656d3105a1c4577ec78fba9ab"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-asymmetric-balanced-atlas/author/output/ROUTES.jsonl.gz",
+      "sha256": "8d0caea35131728c255e731531d2e876383376e7706b9bc84bbc28a424f1e9d4"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-native-nine-port-modules/author/output/PARTITIONS.json.gz",
+      "sha256": "adc6efb66d0f46b924828a1ab8b0c2ed1eb30dfcfdd7eb43bb44d09f6c6d410b"
+    }
+  ],
+  "status": "PASS_INDEPENDENT_COUPLED_SOURCE_REDUCTION_AND_COMMON_LIFT_REVIEW"
+}

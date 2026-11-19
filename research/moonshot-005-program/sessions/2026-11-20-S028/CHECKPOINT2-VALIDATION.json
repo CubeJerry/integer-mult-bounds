@@ -1,0 +1,250 @@
+{
+  "all_five_foundations_retained": true,
+  "baseline_sha": "fb59a4ae85b7d81dce79ee5189f7b9f081542a3c",
+  "group": "all",
+  "independence": "Reproduction is separate from the mathematical and independently implemented reviews already in each package.",
+  "jobs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-shared-k-filtered-quotient/author/check.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp2-middle/k-cut-author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "f1cbb1df00fc30827e1ab15fdbf19d90c64d5af539109a5d59d3dd3f2dc60943",
+      "name": "k-cut-author",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "payload_replay_sha256": "f529eab83e63f503f68c74914a977bba95798ecbbdd118b85116da24050eacfe",
+          "payload_stored_sha256": "f529eab83e63f503f68c74914a977bba95798ecbbdd118b85116da24050eacfe"
+        }
+      ],
+      "wall_seconds": 1.3685751520001759
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-shared-k-filtered-quotient/author/mixer.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp2-middle/k-mixer-author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "d4d279b7f52d644df057dea99f56cdb35eaf82236c17c22bfa083b96233643ba",
+      "name": "k-mixer-author",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "payload_replay_sha256": "bfadbacb046fcfd3e71a01b7f63fedaf5e31b09d50449b7f88bb25dca9a7a466",
+          "payload_stored_sha256": "bfadbacb046fcfd3e71a01b7f63fedaf5e31b09d50449b7f88bb25dca9a7a466"
+        },
+        {
+          "file": "MATRIX.json",
+          "payload_replay_sha256": "fa5988cc8be1a40f108b81923ef7de0455664a21be33eaca304ff13de5cdb54a",
+          "payload_stored_sha256": "fa5988cc8be1a40f108b81923ef7de0455664a21be33eaca304ff13de5cdb54a"
+        },
+        {
+          "file": "WORD.json.gz",
+          "payload_replay_sha256": "5441395e2e5a4458d010251ebc30939d876aa8f99c45c81d1da4022be7df5696",
+          "payload_stored_sha256": "5441395e2e5a4458d010251ebc30939d876aa8f99c45c81d1da4022be7df5696"
+        }
+      ],
+      "wall_seconds": 1.6309633579999172
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-shared-k-filtered-quotient/review/check.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp2-middle/k-review",
+        "--author",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-shared-k-filtered-quotient/author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "2040b9863143bd0cd7d4587cab62b58d87be409b7cdfc477b21aeb7c7cd3d7e5",
+      "name": "k-review",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "payload_replay_sha256": "36f8882e36269c4363d42bf5b4d79759df1d8814f7c9d5e631bd1007fe299de3",
+          "payload_stored_sha256": "36f8882e36269c4363d42bf5b4d79759df1d8814f7c9d5e631bd1007fe299de3"
+        }
+      ],
+      "wall_seconds": 1.26906058700024
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-clifford-adjoint-interface/author/check.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp2-middle/dual-author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "42ab30c6c3dc601bdd45c6e1caf481e5d2b0765068197ee2163c177b9da3cafb",
+      "name": "dual-author",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "payload_replay_sha256": "a7a5d361ec9c9abb9e3841e5c2fbf47f560fbd6fcb119dc88233b62faa13070d",
+          "payload_stored_sha256": "a7a5d361ec9c9abb9e3841e5c2fbf47f560fbd6fcb119dc88233b62faa13070d"
+        }
+      ],
+      "wall_seconds": 0.5155783479999627
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-clifford-adjoint-interface/review/check.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp2-middle/dual-review",
+        "--author",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-clifford-adjoint-interface/author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "a57f7a78370c7826f46d009902c90cdaa959ca56fe22c8de800843f8d36bcb1e",
+      "name": "dual-review",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "payload_replay_sha256": "3783451ce6b5d2383626e35d4529e2ec074d415c62091e5ce90ea91171502e6c",
+          "payload_stored_sha256": "3783451ce6b5d2383626e35d4529e2ec074d415c62091e5ce90ea91171502e6c"
+        }
+      ],
+      "wall_seconds": 0.21444465500007936
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-coupled-source-reduced-determinants/author/check.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp2-source-spread/coupled-author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "657cc038beddb33676df9aadced635bd9954f74abcd7be045cd6e107d74d4fa7",
+      "name": "coupled-author",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "payload_replay_sha256": "0c7695d503d402f71b8c6a3fa082f31b171d7a5fd58918f6578d9af7f57c4b71",
+          "payload_stored_sha256": "0c7695d503d402f71b8c6a3fa082f31b171d7a5fd58918f6578d9af7f57c4b71"
+        },
+        {
+          "file": "SPAN-WITNESSES.json",
+          "payload_replay_sha256": "46dc91fe00159c90f15dcf151f966e8b5f3359be29007c8101885e9ce7a4591e",
+          "payload_stored_sha256": "46dc91fe00159c90f15dcf151f966e8b5f3359be29007c8101885e9ce7a4591e"
+        },
+        {
+          "file": "GRAPHS.json",
+          "payload_replay_sha256": "048537679cc864919d4063e2d3a4f411a51114c6a34e77aa4fab645f39fe01d4",
+          "payload_stored_sha256": "048537679cc864919d4063e2d3a4f411a51114c6a34e77aa4fab645f39fe01d4"
+        }
+      ],
+      "wall_seconds": 1.1786060250005903
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-coupled-source-reduced-determinants/review/check.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp2-source-spread/coupled-review",
+        "--author",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-coupled-source-reduced-determinants/author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "556d1f6ffec09e7cd935e56f95666c9016e21663acaf8d9d9be13ccc6bc6b5aa",
+      "name": "coupled-review",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "payload_replay_sha256": "d4e49758d7ed03ce00a9573d55008c0a561fe542763c2429d7d8b29e91b6f18d",
+          "payload_stored_sha256": "d4e49758d7ed03ce00a9573d55008c0a561fe542763c2429d7d8b29e91b6f18d"
+        },
+        {
+          "file": "SPAN-CENSUS.json",
+          "payload_replay_sha256": "51ac493eaa5d15f40bddddb08af3e569b873b4f7684fbec83c18f3b0bba68615",
+          "payload_stored_sha256": "51ac493eaa5d15f40bddddb08af3e569b873b4f7684fbec83c18f3b0bba68615"
+        }
+      ],
+      "wall_seconds": 1.0181095920006555
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-orthogonal-spread-port-allocation/author/discover.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp2-source-spread/spread-author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "de7066ddf96ce3f9d6bc89b8256679247d67045cd05b7c6ec2c61b6a7467386c",
+      "name": "spread-author",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "payload_replay_sha256": "5ff40cca586541c889776015372a43153a079ce43b023038bbfaae3a4623acb6",
+          "payload_stored_sha256": "016d5a653163329111e214118a4a0e39139daff9657e98221cbd8e25aeaa27a8"
+        },
+        {
+          "file": "WITNESS.json.gz",
+          "payload_replay_sha256": "7fff55e31738681191562949439537ea240557370895488934187455cd29d8ab",
+          "payload_stored_sha256": "7fff55e31738681191562949439537ea240557370895488934187455cd29d8ab"
+        }
+      ],
+      "wall_seconds": 1.4202397059998475
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-orthogonal-spread-port-allocation/review/check.py",
+        "--repo",
+        "/workspace/scratch/81aa8ae831c3/programme",
+        "--out",
+        "/workspace/scratch/81aa8ae831c3/replay-cp2-source-spread/spread-review",
+        "--author",
+        "/workspace/scratch/81aa8ae831c3/programme/research/moonshot-005-program/results/bit-orthogonal-spread-port-allocation/author"
+      ],
+      "exit_code": 0,
+      "log_sha256": "07665495a8251d3251e1de4692a88124af6390d8c2ec0b037f0b278f974b762d",
+      "name": "spread-review",
+      "outputs": [
+        {
+          "file": "RESULT.json",
+          "payload_replay_sha256": "fd842f2429cc8cc83e733c15e783a57bcb5148815c3ce727c5682a3888d02921",
+          "payload_stored_sha256": "fd842f2429cc8cc83e733c15e783a57bcb5148815c3ce727c5682a3888d02921"
+        }
+      ],
+      "wall_seconds": 8.992467330000181
+    }
+  ],
+  "new_complete_kappa": false,
+  "normalization": "Only elapsed_seconds/seconds runtime metadata is ignored. Compressed artifacts are compared by exact decompressed bytes. All scientific fields and pins must agree.",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "receipt_composition": "Five unchanged middle jobs followed by four source/spread jobs.",
+  "status": "PASS_S028_CHECKPOINT2_RELOCATED_REPRODUCTION"
+}

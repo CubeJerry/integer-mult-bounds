@@ -217,3 +217,16 @@ The covariant target changes only row80/column10, preserving the identity-block 
 | Complete conditional kappa>=1/200 | Open | All preceding realization/cost obligations plus strict BIT/complex suppliers and complete caller; five foundations retained |
 
 The full proofs state all field, route, independence and target premises. Their separately implemented reviews and exact finite certificates are linked in each admission. A rank certificate proves a finite integer-system statement; the accompanying reduction proves its stated universal obstruction. No finite failed search is treated as impossibility.
+
+## S028 checkpoint2: spread allocation and exact algebraic bridges
+
+| Proposition | Status | Dependency and next step |
+| --- | --- | --- |
+| Global9/36 H/K allocation and all D donor-profile equalities | Proved | [Orthogonal spread](results/bit-orthogonal-spread-port-allocation/ADMISSION.md); actual phases, source inverse graphs and coefficients open |
+| Full64 and five genuine3-copy sources over GF256 | Proved existence | [Reduced determinants](results/bit-coupled-source-reduced-determinants/ADMISSION.md); bounds154/217, early determinant unreduced; no chosen GF256 constants |
+| One fixed common lift for all33 H263 receivers with the declared five V9 words | Disproved within this scope | All405 annihilation spans have rank9; general receiver-dependent corrections allowed |
+| Shared K donor quotient and early flag | Proved necessary, local GF512 mixer conditionally constructed | [K admission](results/bit-shared-k-filtered-quotient/ADMISSION.md); full incoming ranks and exact target equations remain |
+| Paired Clifford adjoint and mirrored endpoint criterion | Proved algebraic interface | [Adjoint admission](results/bit-clifford-adjoint-interface/ADMISSION.md); physical reversal and output frames open |
+| GF64 scalar-copy source with16 receiver-dependent H lifts | Author candidate, not admitted here | Separate exact matching/field/owner review underway; remaining17 H263 receivers open |
+
+The spread construction is a positive witness outside the frozen-class obstruction. It is not a proof of a complete shared code. No nonlinear linearization is extended to mixed-phase/two-donor H charts by this checkpoint.
