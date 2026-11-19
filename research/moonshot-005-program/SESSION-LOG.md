@@ -2676,3 +2676,9 @@ Start01:00:26 UTC; planned finish06:00:26 UTC; active checkpoint at approximatel
 Admitted results:421 odd witnesses force71 asymmetric planes,152 unequal pair flags and discrepancy sum at least51657 at p360; fixed repeated binary width-two source capacity488964<587520; the causal all-field extension capacity493824<587520. Separate reviewers reconstructed new geometry and information controls; root replayed the integrated packages and retained precise original-interface scope. No new kappa or foundation discharge.
 
 Ongoing wave: review the freely chosen return-bank theorem and near-minimum native rank consequences; test the explicit188-excess two-star endpoint target; develop genuinely larger local modules and physical source compatibility. S025 may still publish concurrently, so preserve its evidence and inspect the remote before every update. Session not closed.
+
+## 2026-11-19 S026 checkpoint3: paid return-rank architecture
+
+Session began01:00:26 UTC and remains planned through06:00:26. Prior remote checkpoint ba9ff2c54ec43411360d03aa4911d4f49303dc0e was read back with exact matching tree. This checkpoint admits the exact return theorem, common-row envelope and actual bad-member existence, all6470 near-minimum foreign rank floors, the changed-bank early-only gate h>=b/6, and the explicit93-excess one-receiver target. Its first even movement pass is84. Every package has separate review and integrated replay. No physical low-defect code or new kappa.
+
+Active work includes reviewed nine-port modules, smaller literal atlases, and a donor-cycle source fragment across all five classes with actual early quotas being checked independently. Root completed raw-helper review using a second historical coloring implementation; admission follows separately. Preserve concurrent S025 evidence and inspect the remote before every non-forced update.

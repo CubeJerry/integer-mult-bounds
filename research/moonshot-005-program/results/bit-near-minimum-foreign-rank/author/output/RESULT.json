@@ -1,0 +1,146 @@
+{
+  "status": "PASS_NATIVE_NEAR_MINIMUM_FOREIGN_RANK",
+  "certificate_uncompressed_sha256": "e7015bd9e1111ec8d4c3ebaa30460d767b66ea1d7e8a33279b9f033c0053dc57",
+  "native_pairs": 3235,
+  "directed_foreign_blocks": 6470,
+  "frames": 621,
+  "frame_edge_count_histogram": {
+    "23": 7,
+    "24": 30,
+    "25": 100,
+    "26": 145,
+    "27": 319,
+    "28": 20
+  },
+  "best_coefficient_histogram": {
+    "3": 2967,
+    "7/2": 261,
+    "9/2": 2,
+    "27/8": 1,
+    "19/5": 2,
+    "35/9": 2
+  },
+  "uniform_foreign_rank_floor": "b-floor(9h/2)",
+  "uniform_floor_at_b5760_h202": 4851,
+  "minimum_certified_late_dimensions_at_h202": 1554,
+  "maximum_postline_excess_floor": 960,
+  "critical_pair": {
+    "receiver": 5,
+    "donor": 77,
+    "early_capacity": 2880,
+    "coefficient": "3",
+    "foreign_rank_floor_at_h202": 5154,
+    "late_dimension_floor_at_h202": 2274,
+    "minimum_excess_for_postline_gate": 960
+  },
+  "critical_frame": [
+    9,
+    30,
+    37,
+    46,
+    52,
+    77,
+    92,
+    101
+  ],
+  "critical_K7": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "residual_duals": [
+    {
+      "pair": [
+        7,
+        80
+      ],
+      "coefficient": "9/2",
+      "dual_support": 24
+    },
+    {
+      "pair": [
+        10,
+        81
+      ],
+      "coefficient": "9/2",
+      "dual_support": 24
+    },
+    {
+      "pair": [
+        41,
+        80
+      ],
+      "coefficient": "27/8",
+      "dual_support": 27
+    },
+    {
+      "pair": [
+        42,
+        51
+      ],
+      "coefficient": "19/5",
+      "dual_support": 28
+    },
+    {
+      "pair": [
+        51,
+        53
+      ],
+      "coefficient": "7/2",
+      "dual_support": 25
+    },
+    {
+      "pair": [
+        80,
+        96
+      ],
+      "coefficient": "35/9",
+      "dual_support": 23
+    },
+    {
+      "pair": [
+        81,
+        95
+      ],
+      "coefficient": "35/9",
+      "dual_support": 24
+    },
+    {
+      "pair": [
+        99,
+        103
+      ],
+      "coefficient": "19/5",
+      "dual_support": 26
+    }
+  ],
+  "movement": {
+    "scale": 1000000000000,
+    "exponent": "199/200",
+    "room_interval": [
+      "1668641489207/6000000000000",
+      "106793055571/384000000000"
+    ],
+    "excess_ceiling_interval_at_b5760": [
+      "800947914819360/3958626625661",
+      "533965277855000/2639084417107"
+    ],
+    "finite_budget_offset_numerator_T2_minus_P2": [
+      "-11101580411523/25000000000",
+      "-222031608192951/500000000000"
+    ],
+    "postline_cost_lower_bound": "7/6",
+    "room_upper_bound": "279/1000",
+    "postline_gate_excludes_every_even_m_ge_2": true,
+    "verification": "integer 200th powers; no floating point or numerical optimizer"
+  },
+  "negative_controls": {
+    "corrupted_dual_rejected": true,
+    "coefficient_below_7_over_2_excluded_by_relaxation_control": true
+  },
+  "scope": "Linear proper transfers and arbitrary-width fitting matrices; nonlinear return-bank messages allowed only through the separate fixed-code rank necessity. No new kappa."
+}

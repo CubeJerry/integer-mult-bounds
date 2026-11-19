@@ -216,3 +216,9 @@ PR has been submitted. Credit retained authors, workers A/B/C, root,
 Three independently reviewed packages now strengthen the original exact-source interface. The complete421-witness census forces at least71 asymmetric ordinary planes and152 unequal donor-pair flags. Repeated binary width-two sources have an information deficit98556 at the balanced base. The genuine early causal interface extends the exclusion to every finite characteristic-two field, with deficit93696 after allowing the larger-field star capacity.
 
 These are exact scoped theorems, not repair-rank or MOVE lower bounds. A changed return bank can break saturation. The constructive next step is a larger coupled module or an actual correlated low-defect proper map; a promising native two-star endpoint target and a five-class local port partition are under review, not yet admitted here. The five-hour S026 session remains active until06:00:26 UTC. Selected kappa and all five foundations are unchanged.
+
+## S026 checkpoint3: a concrete low-rank return target
+
+The physical objective is now an actual proper map B with q=rank(I+B) close to9b. A paid freely chosen return bank is available. Common rows give q<=9b+102(b-k), but an actual seventy-row family member can have excess580380, so determinant nonvanishing alone does not synchronize the map.
+
+The explicit one-receiver target has excess93,5667 common left rows, all foreign blocks invertible and no nonzero flat input subsystem. It passes the movement screen at evenm84, conditional on physical realization. Its optimality is restricted to one-receiver perturbations. The near-minimum rank theorem still requires genuine late source information: omitting fresh donor77 information forces h>=b/6. Source gluing and two-wave transport remain central; no complete kappa or foundation changes.

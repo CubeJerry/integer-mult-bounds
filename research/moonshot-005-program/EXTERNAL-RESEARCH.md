@@ -497,3 +497,9 @@ No additional external theorem is imported. The exact initial upstream pins rema
 This checkpoint develops internal exact-source consequences from the authenticated native root, balanced atlas, quotient/common-function and self-cover color packages at baseline d8544284cbd0527cd03a0aad576a2d2c6eddcc0e. Worker A authored the global asymmetry and repeated-width-two theorems; Worker C independently reviewed the asymmetry census; Worker B independently reviewed both width-two gates. Root inspected arguments and replayed integrated entry points. All substantial OpenAI assistance and retained native-author credit are explicit in the packages.
 
 No additional external PR is adopted by this checkpoint, no upstream PR is opened, and no historical external claim is promoted to the selected result. The exact upstream intake remains sessions/2026-11-19-S026/UPSTREAM-INTAKE.json.
+
+## S026 checkpoint3 provenance and compatibility
+
+The return theorem builds on the paid retained-H bridge and native rank-nine result. The near-minimum theorem credits DreamingOfClouds PR#7114 and the reviewed saturated-star LR derivation, now with rectangular factor spaces and621 actual frames. Worker C authored those extensions; B supplied the common-row result and independent near-minimum review; root supplied the independent return review and one-star target, independently reviewed by C.
+
+Sources and budgets remain pinned. No outside PR was merged, selected certificate changed or upstream PR opened. Concurrent compressed-atlas work keeps generic field assignments distinct from fixedGF32/GF16 local arrays: retaining those coefficients requires field degrees divisible by five/four. These newer physical candidates are under separate review.

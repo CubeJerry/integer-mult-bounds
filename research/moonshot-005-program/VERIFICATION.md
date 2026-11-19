@@ -385,3 +385,9 @@ is archived exactly. No new complete κ. Selected upstream conditional κ remain
 The global-asymmetry package has separate native/witness reconstruction, exact dual-load arithmetic and8960 projection controls. The binary-two package has independent graph-plane enumeration and all477089 shared-port pair incidences. The all-field extension has an independent1108-plane causal census and4096 nonlinear information controls. All author and review entry points were replayed from integrated locations; results are recorded in sessions/2026-11-19-S026/CHECKPOINT2-VALIDATION.json.
 
 The historical color caps are authenticated and matched to the exact new instances; this checkpoint does not claim a new independent replay of that historical search. Root inspected the proof arguments, including full joint port range, independent-local-input entropy and the early no-bypass contract. No human review, formal-kernel proof, full caller benchmark or foundational discharge is claimed.
+
+## S026 checkpoint3: independent rank-target review
+
+The return/common-row packages have a separate root checker with688128 full small endpoint cases, nativeGF4 lower-left mixing controls, exact affine degrees and the216/11 LR dual. Worker B separately verified621 native frames, eight duals and6470 early cuts. Worker C separately verified full one-star selectors, inverses, different finite allocations, negative controls and fresh exact movement.
+
+All author and independent result objects match integrated replays. The shared root checker is counted once for its two related packages. See sessions/2026-11-19-S026/CHECKPOINT3-VALIDATION.json. The188 development target is separately reviewed; the labelled square-zero93 note is not an admission dependency. No physical low-defect source, human review, formal kernel or complete caller test is claimed.

@@ -1,0 +1,118 @@
+{
+  "status": "PASS_INDEPENDENT_NATIVE_TWO_STAR_REVIEW",
+  "native_facts": {
+    "rank_K": 9,
+    "outside_union_rank": 7,
+    "outside_pair_rank": 9,
+    "supported_union_binary_codewords": 4,
+    "supported_pair_binary_codewords": 1
+  },
+  "width": 5760,
+  "fitting_rank": 52028,
+  "excess_rank": 188,
+  "retained_repair_rank": 188,
+  "flat_gauge_dimension": 0,
+  "literal_common_left_rows": 5572,
+  "additive_commutator_rank": 186,
+  "full_selector_checks": {
+    "modified_foreign_blocks": 121,
+    "Va_kernel_dimension": 93,
+    "Vb_kernel_dimension": 95,
+    "Vc_row_rank": 188
+  },
+  "small_complete_matrix_controls": [
+    {
+      "width": 5,
+      "image_widths": [
+        1,
+        1
+      ],
+      "fitting_rank": 47,
+      "retained_repair_rank": 2,
+      "joint_flat_solution_dimension": 0,
+      "endpoint_controls": 16,
+      "selector_validation": {
+        "modified_foreign_blocks": 121,
+        "Va_kernel_dimension": 1,
+        "Vb_kernel_dimension": 1,
+        "Vc_row_rank": 2
+      }
+    },
+    {
+      "width": 7,
+      "image_widths": [
+        1,
+        1
+      ],
+      "fitting_rank": 65,
+      "retained_repair_rank": 2,
+      "joint_flat_solution_dimension": 0,
+      "endpoint_controls": 16,
+      "selector_validation": {
+        "modified_foreign_blocks": 121,
+        "Va_kernel_dimension": 1,
+        "Vb_kernel_dimension": 1,
+        "Vc_row_rank": 2
+      }
+    },
+    {
+      "width": 123,
+      "image_widths": [
+        2,
+        3
+      ],
+      "fitting_rank": 1112,
+      "retained_repair_rank": 5,
+      "joint_flat_solution_dimension": null,
+      "endpoint_controls": 16,
+      "selector_validation": {
+        "modified_foreign_blocks": 121,
+        "Va_kernel_dimension": 2,
+        "Vb_kernel_dimension": 3,
+        "Vc_row_rank": 5
+      }
+    }
+  ],
+  "negative_controls": {
+    "missing_selector_coordinate_restores_flat_dimension": 1,
+    "single_star_flat_dimension": 1,
+    "non_nilpotent_shear_is_singular": true,
+    "either_one_sided_rank_separation_is_insufficient": true,
+    "omitted_return_syndrome_fails": true
+  },
+  "movement": {
+    "limiting_room": {
+      "rational": [
+        "14181527484427973228683500075895770191/720000000000000000000000000000000000000",
+        "5672610993771189291473400030358504381/288000000000000000000000000000000000000"
+      ],
+      "decimal": [
+        "0.019696565950594407262060416772077458598611111111111",
+        "0.019696565950594407262060416772078140211805555555556"
+      ]
+    },
+    "first_even_m": 628,
+    "previous_m626_gap": {
+      "rational": [
+        "-142477207034476414141983086821448477/320000000000000000000000000000000000",
+        "-7123860351723820707099154340949133331/16000000000000000000000000000000000000"
+      ],
+      "decimal": [
+        "-0.445241271982738794193697146317026490625",
+        "-0.4452412719827387941936971463093208331875"
+      ]
+    },
+    "first_m628_gap": {
+      "rational": [
+        "10553404089546394689619114299110480757/40000000000000000000000000000000000000",
+        "4221361635818557875847645719767875431/16000000000000000000000000000000000000"
+      ],
+      "decimal": [
+        "0.263835102238659867240477857477762018925",
+        "0.2638351022386598672404778574854922144375"
+      ]
+    },
+    "scope": "Movement screen only; no physical realization or full caller invoice"
+  },
+  "scope": "Accept algebraic target and conditional movement screen only; no physical source realization"
+}

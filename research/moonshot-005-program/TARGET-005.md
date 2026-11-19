@@ -211,3 +211,9 @@ with their source-dependent scope. Current concrete tasks are in[OBLIGATIONS](OB
 The original exact canonical source now requires at least71 globally asymmetric planes. Repeating a fixed width-two quotient over any finite characteristic-two field cannot complete that source: the early causal gate yields493824 available against587520 required information dimensions at the balanced base. The binary specialization gives the stronger488964 bound.
 
 These bounds do not transfer to paid retained-bank repair or replacement banks. The current movement target remains an actual proper map with affordable exact completion, followed by both strict suppliers and the complete caller. No complete kappa>=0.005 result is present. See results/bit-native-global-asymmetry, results/bit-repeated-binary-two-source and results/bit-repeated-field-two-causal-source.
+
+## S026 checkpoint3: exact paid return criterion
+
+For a supplied linear proper word Gz+Bx with G invertible, exact minimum one-way return size is rank(I+B), even with nonlinear messages. At b5760 its excess screen is h<=202. The algebraic one-receiver target has h=r93 and q51933, first passing at even movement multiplicity84. Its width1920 rescaling has h31 and the same ratio; physical realization remains open.
+
+Every near-minimum native foreign block has rank at least b-floor(9h/2). The critical early-only comparison requires h>=b/6 without fresh donor77 information or an informative bypass. Both strict suppliers, completed BIT/complex compatibility, ordinary and recursive costs, and all five foundations remain open. Selected complete conditional kappa remains0.00363005817.

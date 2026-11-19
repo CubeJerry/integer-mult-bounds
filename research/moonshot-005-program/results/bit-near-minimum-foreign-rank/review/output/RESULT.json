@@ -1,0 +1,151 @@
+{
+  "all_eight_corrupted_duals_rejected": true,
+  "author_code_imported_or_executed": false,
+  "author_hashes": {
+    "PROOF.md": "cdabb112366cb1ea364d7cb822cc547f8cbd2803f8d81f43b1ea02421eb4700d",
+    "check.py": "94f5047d0d052424f2992c3b180583b2076520e9dad04909ab53ee04ef4771ce",
+    "output/RESULT.json": "af4d8e26da525cffafd8e71b5cfe903bd530910b93e047317683bb25acf0f8a4"
+  },
+  "certificate_uncompressed_sha256": "e7015bd9e1111ec8d4c3ebaa30460d767b66ea1d7e8a33279b9f033c0053dc57",
+  "clique_covered_pairs": 3227,
+  "coefficient_histogram": {
+    "19/5": 2,
+    "27/8": 1,
+    "3": 2967,
+    "35/9": 2,
+    "7/2": 261,
+    "9/2": 2
+  },
+  "critical_pair": {
+    "coefficient": "3",
+    "donor": 77,
+    "early_capacity": 2880,
+    "foreign_rank_floor_at_h202": 5154,
+    "late_dimension_floor_at_h202": 2274,
+    "minimum_excess_for_postline_gate": 960,
+    "receiver": 5
+  },
+  "directed_blocks": 6470,
+  "frame_edge_count_histogram": {
+    "23": 7,
+    "24": 30,
+    "25": 100,
+    "26": 145,
+    "27": 319,
+    "28": 20
+  },
+  "frames": 621,
+  "minimum_additional_late_dimensions": 1554,
+  "movement": {
+    "T2_minus_P2": [
+      "-222031621383/500000000",
+      "-111015791937/250000000"
+    ],
+    "base_excess_threshold": [
+      "400473601620/1979313313",
+      "533966110920/2639084417"
+    ],
+    "excludes_all_even_m_ge_2": true,
+    "extra_movement_lower_bound": "7/6",
+    "room": [
+      "6674560027/24000000000",
+      "4449717591/16000000000"
+    ],
+    "root_interval_scale": 1000000000
+  },
+  "native_pairs": 3235,
+  "new_complete_kappa": false,
+  "nonlinear_proper_transfer_claim": false,
+  "relaxation_controls": [
+    {
+      "incidences": 30,
+      "objective": "7/2",
+      "order": 6
+    },
+    {
+      "incidences": 42,
+      "objective": "3",
+      "order": 7
+    }
+  ],
+  "residual_duals": [
+    {
+      "bound": "9/2",
+      "nonzero_weights": 24,
+      "opposite_endpoint": 3,
+      "pair": [
+        7,
+        80
+      ]
+    },
+    {
+      "bound": "9/2",
+      "nonzero_weights": 24,
+      "opposite_endpoint": 3,
+      "pair": [
+        10,
+        81
+      ]
+    },
+    {
+      "bound": "27/8",
+      "nonzero_weights": 27,
+      "opposite_endpoint": 0,
+      "pair": [
+        41,
+        80
+      ]
+    },
+    {
+      "bound": "19/5",
+      "nonzero_weights": 28,
+      "opposite_endpoint": 7,
+      "pair": [
+        42,
+        51
+      ]
+    },
+    {
+      "bound": "7/2",
+      "nonzero_weights": 25,
+      "opposite_endpoint": 7,
+      "pair": [
+        51,
+        53
+      ]
+    },
+    {
+      "bound": "35/9",
+      "nonzero_weights": 23,
+      "opposite_endpoint": 1,
+      "pair": [
+        80,
+        96
+      ]
+    },
+    {
+      "bound": "35/9",
+      "nonzero_weights": 24,
+      "opposite_endpoint": 1,
+      "pair": [
+        81,
+        95
+      ]
+    },
+    {
+      "bound": "19/5",
+      "nonzero_weights": 26,
+      "opposite_endpoint": 1,
+      "pair": [
+        99,
+        103
+      ]
+    }
+  ],
+  "source_pins": {
+    "factor": "346e7604b000ba057e49e8dcae639eaf1b8d82aeb1466f8b959a84390971dfa7",
+    "layout": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+    "native": "8cd5303821f7cb529ab756e1c6d6697672023a9d63193a676fd0b7c62308ab4e"
+  },
+  "status": "PASS_INDEPENDENT_NEAR_MINIMUM_FOREIGN_REVIEW"
+}

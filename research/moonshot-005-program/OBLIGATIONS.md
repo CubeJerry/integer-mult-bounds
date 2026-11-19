@@ -134,3 +134,9 @@ fixed-bank or fixed-column obstruction is transplanted to a changed source.
 On the original saturated interface, any successful gluing must meet the421 odd-witness constraints, including71 asymmetric planes,152 unequal pair flags and receiver80's2q+t>=68 restriction. Fixed identical width-two modules are excluded over all finite characteristic-two fields by actual early information preservation.
 
 Larger coupled modules, varying original-copy maps and changed return banks remain construction alternatives. None is validated by these exclusions. In particular do not subtract the old scalar or new width-two deficits from a small repair budget: the common-function and saturation premises must first be re-established. All five foundational assumptions, complete ordinary/recursive invoices and both strict suppliers remain open.
+
+## S026 checkpoint3: revised source and rank obligations
+
+PROVED ON FIXED INTERFACE: minimum return size rank(I+B), with all new owners, work and descents paid. PROVED ALGEBRAIC TARGET: one native receiver admits excess93 atb5760 with no nonzero flat vertex-gauge input subsystem. OPEN: realize this or another h<=202 map on actual paid source and downstream charts.
+
+PROVED NECESSITY: no fresh donor77 injection after early departure forces excess ratio at least1/6 under retained linear proper routes. Nonlinear proper words, fresh line taps and changed paid routes remain outside that exclusion. Individual late-cut dimensions are not additive MOVE fees. Neither seventy correct rows nor invertibility implies inexpensive repair; small positive fitting excess does not force a large flat input summand. No foundation or complete-caller obligation is discharged.

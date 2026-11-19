@@ -364,3 +364,9 @@ No upstream PR is submitted automatically. No new complete κ. The selected cond
 The programme now includes a complete native odd-witness census with exact dual certificates, and independently reviewed exclusions of fixed repeated width-two source modules. The all-field extension uses genuine early information preservation and retains arbitrary nonlinear local functions within its stated routes. These results refine the construction search without proving an affordable native source or a new multiplication exponent.
 
 The canonical, retained-repair and replacement-bank interfaces remain distinct. The new source deficits are not presented as repair costs. The programme remains active and requires a concrete low-defect physical map, both strict suppliers, the complete caller and all five foundational discharges before a kappa>=0.005 claim or upstream PR.
+
+## S026 checkpoint3 continuation: paid return-rank architecture
+
+The programme proves minimum fixed-code return size rank(I+B), its paid completion word, its relation to retained-H repair and a common-row envelope. The actual seventy-row affine family contains high-return-rank members, so a successful source must deliberately correlate its transfers.
+
+The explicit one-receiver nilpotent target has excess93, all6470 foreign blocks invertible and no nonzero flat input subsystem. Its optimality is restricted to one-receiver perturbations. A621-frame theorem proves that near-minimum rank still requires fresh late source information. The target remains physically unrealized. No new complete kappa, foundational discharge or PR-ready claim follows.
