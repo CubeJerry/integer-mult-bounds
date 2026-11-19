@@ -440,3 +440,13 @@ with --repo and --out; every regenerated receipt should match. All source,
 route and predecessor pins and credit remain. No complete BIT/complex supplier,
 outer theorem or foundational discharge is claimed. @CubeJerry attribution and
 substantial OpenAI assistance remain as above.
+
+## S027 checkpoint3 integrated contribution (ongoing; No new kappa)
+
+The branch now includes an explicit receiver-covariant irreducible native fitting with rank(I+B)=9b+b/30. Its first matrix-compatible bank b3840 has h128/q34688; the same movement-only m870 screen remains. This repairs a structural incompatibility with mixed Clifford sources without claiming physical realization.
+
+A coherent native word sequence demonstrates true late source taps, globally cancelled original-input masks across overlapping H charts, and actual cross-D K aggregation in a common receiver frame. The five-tile word serves31 donors and four rows at each of80/1, with119252 binary ADD,640 initialized/dirty-cleared extra owners and the unchanged full movement invoice. Its exact q53280 is stated explicitly. The full-K saturation gate identifies why a retained sparse row cannot complete the chosen invertible foreign blocks.
+
+Supporting the same architecture are exact source-image completion, correlated baseline phase completion and marginal completed-return optimization theorems. Scoped negative results exclude one-D terminal packets and all common commuting source coefficients on the fully early asymmetric chart. New separate reviews and29 relocation jobs are recorded in the S027 checkpoint3 verification receipt. Source/certificate pins, formulas, owner faults, negative controls, predecessor credit and author/reviewer roles are retained in each admission.
+
+The full64 covariant source is unadmitted checkpoint evidence at this point. Shared H/D/K realization, complete cost composition, strict BIT/complex suppliers, recurrence and all five foundations remain unresolved. These are partial constructions and enabling theorems, not a complete kappa=0.005 result. No upstream PR is submitted. Credit @CubeJerry, the retained native/source/return contributors, the named S027 workers and root reviews, with substantial OpenAI assistance.

@@ -422,3 +422,11 @@ Run `python -B research/moonshot-005-program/sessions/2026-11-19-S027/checkpoint
 The default replay includes all source/scope and baseline jobs. Review ledgers
 state exact provenance and distinguish separate reviews from this reproduction.
 No new kappa, complete supplier or foundational discharge.
+
+## S027 checkpoint3: nine packages and29 relocated jobs
+
+Parent abe1b6b933b16f2a0dce0e08c2d6aa13fc4a8ad2. `sessions/2026-11-19-S027/CHECKPOINT3-VALIDATION.json` records29 exact matches from `checkpoint3_replay.py --repo REPO --out FRESH --group all`. Reproduction is not another independent review.
+
+Root separately reviewed source masks, terminal support, the nonsemisimple gate, covariant target and native-word proofs. B independently reviewed root's correlated phase and return-rank theorems. B's owner interpreter covers all532800 original columns and seven faults for each native word; its response/saturation checks establish complete mask cancellation, exact q and true K support. Nilpotence uses disjoint coordinate supports, not native roles.
+
+The target review checks123 star blocks at b960, native separation,64 matrix units and four partial traces. Source-mask review uses73710 F3 criteria. Return-aware author/reviewer domains are450660 binary/ternary minima and1717 GF4 boundaries. Per-package receipts and SCIENTIFIC-FILES retain exact scope and pins. No global covariant source array, H/D/K realization, new kappa or foundation is admitted here. Historical STATE/PROGRAMME bytes are retained under history/.

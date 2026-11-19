@@ -2719,3 +2719,13 @@ is claimed. Next: overlapping masked D tiles, genuine cross-D K aggregation,
 whole-output mask/return audits, and correlated-boundary phase lifting. Current
 canonical/selected pins remain unchanged. No upstream PR; resulting checkpoint
 SHA will be recorded after remote confirmation, not self-referentially here.
+
+### S027 checkpoint3 — covariant endpoint and genuine K aggregation
+
+Session began at882a135e95d5f3202ab3c20784668b627a26628e; checkpoint3 parent isabe1b6b933b16f2a0dce0e08c2d6aa13fc4a8ad2. Checkpoint2's exact remote readback is preserved in CHECKPOINT2-REMOTE.json.
+
+Nine new admitted packages prove a receiver-covariant irreducible h/b=1/30 endpoint; the exact full-transfer source-mask and marginal return-rank formulas; correlated proper-phase completion; the nonsemisimple commuting-source obstruction; a terminal-support obstruction to one-D packets; and the shared-pair, masked-overlap and actual five-tile K-frame words. The final word shares K messages across31 donors and cancels116 original masks globally, but q remains53280. The exact reason B squared is zero uses coordinate supports, not native-role separation: residual H holders can reach source-set roles. This corrects the briefly considered stronger role-support inference before any such claim was admitted.
+
+Independent reviews and29 relocated reproductions passed. All words preserve532800 independent original columns, actual owner chronology and full movement invoices. Root/Worker B use separate finite fields for the new algebraic interfaces; Worker C's target is separately checked by root. The stronger full64 covariant source proof/witnesses are preserved as explicitly unadmitted interruption evidence. Current-state consolidation archives prior STATE/PROGRAMME bytes without altering earlier session conclusions.
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. No new kappa, supplier closure, foundation or PR readiness. Next: independently admit the covariant source and H module, solve their common inverse-lift/decoder gluing, and verify the new K support repair. The resulting checkpoint3 SHA is recorded by remote readback in the subsequent receipt; no self-referential hash is embedded here. The five-hour session continues to17:22UTC.

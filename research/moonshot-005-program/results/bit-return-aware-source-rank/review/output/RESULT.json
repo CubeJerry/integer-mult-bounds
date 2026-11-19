@@ -1,0 +1,25 @@
+{
+  "status": "PASS_INDEPENDENT_GF4_RETURN_MINIMUM_REVIEW",
+  "field": "GF(4), polynomial t^2+t+1",
+  "proof_sha256": "aa905e4f005bfb2b6f6e4695e20e577e42cc91b731fe4c9c800b8c1a78c2ae90",
+  "case_families": {
+    "exhaustive_scalar_output_boundary_cases": 1024,
+    "exhaustive_two_output_one_input_cases": 256,
+    "sampled_y2_b2_m1_l1_c1": 192,
+    "sampled_y3_b2_m2_l1_c1": 96,
+    "sampled_y3_b3_m2_l0_c1": 48,
+    "sampled_y2_b2_m0_l1_c0": 32,
+    "sampled_y3_b2_m2_l0_c0": 64,
+    "sampled_y0_b2_m1_l1_c1": 1,
+    "sampled_y2_b0_m0_l1_c1": 1
+  },
+  "total_boundary_cases": 1717,
+  "actual_completion_ranks_evaluated": 227215,
+  "controls": [
+    "strict additive z plus surjectivity term",
+    "selected target forbids unconstrained optimizer",
+    "dropping full-rank source changes minimum"
+  ],
+  "author_code_imported": false,
+  "universal_statement_basis": "written arbitrary-field proof; finite checks only cover specified cases"
+}

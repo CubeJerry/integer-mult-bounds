@@ -1,0 +1,63 @@
+{
+  "actions": 248,
+  "active_donors": 18,
+  "actual_public_field_paths": 106560,
+  "all_independent_original_binary_columns": 532800,
+  "all_unselected_proper_targets_prescribed": false,
+  "author_code_imported_or_executed": false,
+  "cache_fields": 76,
+  "invoice": {
+    "ADD": 47278,
+    "INIT": 380,
+    "added_MOVE": 0,
+    "canonical_return_included": false,
+    "dirty_CLEAR": 380,
+    "extra_peak_binary_owners": 380,
+    "peak_total_binary_owners": 533180,
+    "proper_MOVE_binary_counts": {
+      "1": 1335300,
+      "2": 1081950,
+      "4": 57600
+    },
+    "public_binary_owners": 532800
+  },
+  "negative_controls": {
+    "cache_use_after_clear": "owned operand used outside lifetime",
+    "inverse-arbitrary-Y": "all_Y_identity",
+    "late_original_X_read": "nonlocal original or stationary-cache operand",
+    "omit_add:capture-F80-joint-0": "selected_targets",
+    "omit_add:inject-12-0-101": "selected_targets",
+    "restore-all-X": "all_X_final",
+    "wrong_chart": "nonlocal original or stationary-cache operand"
+  },
+  "new_complete_kappa": false,
+  "same_B_owner_engine_as_predecessor": true,
+  "selected_receivers": [
+    80,
+    1
+  ],
+  "source_pins": {
+    "layout": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+    "routes": "6d55093625ffd123daf3ae0914bcaeba1308756cec24fd2de083f6887ad0b036"
+  },
+  "status": "PASS_INDEPENDENT_FULL_NATIVE_OWNER_WORD_REVIEW",
+  "target_binary_rows": 40,
+  "touched_public_binary_columns": 1860,
+  "untouched_X_columns": 265080,
+  "untouched_Y_columns": 265860,
+  "verification": {
+    "all_X_before_Y": true,
+    "all_X_final": true,
+    "all_Y_identity": true,
+    "counts": {
+      "ADD": 47278,
+      "CLEAR": 380,
+      "INIT": 380
+    },
+    "dirty_CLEAR": 380,
+    "extra_peak": 380,
+    "operand_locality_checks": 95316,
+    "selected_targets": true
+  },
+  "word_pin": "6096382d0542028f812130d707dbd299de23bbc52a800283ef219f9f9ab45ae7"
+}

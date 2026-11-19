@@ -1,0 +1,115 @@
+{
+  "actual_width_structure": [
+    {
+      "b": 960,
+      "column_star_rank": 16,
+      "excess": 32,
+      "excess_ratio": "1/30",
+      "full_matrix_units_proved": 921600,
+      "return_rank": 8672,
+      "row_star_rank": 16,
+      "w": 8
+    },
+    {
+      "b": 3840,
+      "column_star_rank": 64,
+      "excess": 128,
+      "excess_ratio": "1/30",
+      "full_matrix_units_proved": 14745600,
+      "return_rank": 34688,
+      "row_star_rank": 64,
+      "w": 32
+    },
+    {
+      "b": 11520,
+      "column_star_rank": 192,
+      "excess": 384,
+      "excess_ratio": "1/30",
+      "full_matrix_units_proved": 132710400,
+      "return_rank": 104064,
+      "row_star_rank": 192,
+      "w": 96
+    }
+  ],
+  "column_center": 10,
+  "covariance": {
+    "all_other_foreign_blocks": "identity",
+    "b": 960,
+    "diagonal_mutation_rank": 959,
+    "direct_commutator_checks": 123,
+    "omitted_E10_invariant_dimension": 480,
+    "s": 1,
+    "wrong_root_control": {
+      "receiver": 109,
+      "wrong_root": 0
+    }
+  },
+  "excess_ratio": "1/30",
+  "five_foundational_assumptions_retained": true,
+  "foreign_blocks": 6470,
+  "literal_full_native_check": {
+    "altered_or_identity_star_blocks": 123,
+    "b": 240,
+    "literal_matrix_dimension": 26640,
+    "perturbation_rank": 8,
+    "return_rank": 2168,
+    "w": 2
+  },
+  "minimum_matrix_source_compatibility": {
+    "End16_copies": 15,
+    "atlas480_copies": 8,
+    "b": 3840,
+    "excess": 128,
+    "return_rank": 34688,
+    "s": 4,
+    "secondary_width": 32,
+    "spinor_copies": 240
+  },
+  "movement": {
+    "first_even_m": 870,
+    "inherited_movement_only": true,
+    "limiting_room": {
+      "decimal": [
+        "0.0141984734149543689553724953605943768942721",
+        "0.0141984734149543689553724953605943768949537125"
+      ],
+      "rational": [
+        "141984734149543689553724953605943768942721/10000000000000000000000000000000000000000000",
+        "1135877873196349516429799628847550151596297/80000000000000000000000000000000000000000000"
+      ]
+    },
+    "previous_even_m": 868
+  },
+  "negative_controls": [
+    "omitted E10 leaves invariant half",
+    "wrong Clifford root breaks receiver covariance",
+    "diagonal mutation makes foreign block singular"
+  ],
+  "new_complete_kappa": false,
+  "row_center": 80,
+  "scope": "explicit algebraic endpoint; no physical H/D/K realization or new complete kappa",
+  "source_pins": [
+    {
+      "path": "research/moonshot-005-program/results/bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz",
+      "sha256": "ef8611b33835a799193e8aec4f615486d73f5743558997de0262bceb3ae9eb3c"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-clifford-one-evaluation-gate/author/BASIS.json",
+      "sha256": "d2a825f09a4d24a8a0319743ec84bed9b9e6b50656d3105a1c4577ec78fba9ab"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-canonical-quotient-repair/author/output/BUDGET.json",
+      "sha256": "cc859f5311a64bbf3bb9b6dbd500870c9e9e93a0ab5cd05a562c145c53314769"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-irreducible-low-excess-target/author/PROOF.md",
+      "sha256": "6152dccf9ff7f42357f23c9578b3ccfdd7a01814957e4cf4ab0642f8d11596d9"
+    },
+    {
+      "path": "research/moonshot-005-program/results/bit-replacement-return-bank/author/PROOF.md",
+      "sha256": "05d147139a6c13b9bf8a80fe7cfac08fac844fa8992da14c0ba575a72199d852"
+    }
+  ],
+  "status": "PASS_NATIVE_RECEIVER_COVARIANT_IRREDUCIBLE_TARGET",
+  "theorem_domain": "every characteristic-two field and every positive integer s; b=960s"
+}

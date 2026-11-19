@@ -1,0 +1,151 @@
+{
+  "status": "PASS_SIX_FRAME_SOURCE_NEGATIVE_CONTROLS",
+  "controls": [
+    {
+      "control": "D_frame_row_order",
+      "rejected": true,
+      "all_X_restored": true,
+      "all_Y_baseline_identity": true,
+      "target_rows": {
+        "80": false,
+        "1": true
+      }
+    },
+    {
+      "control": "early_K_missing_tile",
+      "rejected": true,
+      "all_X_restored": true,
+      "all_Y_baseline_identity": true,
+      "target_rows": {
+        "80": false,
+        "1": true
+      }
+    },
+    {
+      "control": "late_K_missing_tile",
+      "rejected": true,
+      "all_X_restored": true,
+      "all_Y_baseline_identity": true,
+      "target_rows": {
+        "80": true,
+        "1": false
+      }
+    },
+    {
+      "control": "final_frame_weight",
+      "rejected": true,
+      "all_X_restored": true,
+      "all_Y_baseline_identity": true,
+      "target_rows": {
+        "80": false,
+        "1": true
+      }
+    },
+    {
+      "control": "native_capture_order",
+      "rejected": true,
+      "all_X_restored": true,
+      "all_Y_baseline_identity": true,
+      "target_rows": {
+        "80": true,
+        "1": false
+      }
+    },
+    {
+      "control": "independent_target_only_tile_lifts",
+      "rejected": true,
+      "failures": [
+        {
+          "donor": 2,
+          "target_only_rank": 4,
+          "required_early_rank": 8
+        },
+        {
+          "donor": 5,
+          "target_only_rank": 4,
+          "required_early_rank": 12
+        },
+        {
+          "donor": 7,
+          "target_only_rank": 4,
+          "required_early_rank": 16
+        },
+        {
+          "donor": 19,
+          "target_only_rank": 4,
+          "required_early_rank": 8
+        },
+        {
+          "donor": 40,
+          "target_only_rank": 4,
+          "required_early_rank": 12
+        },
+        {
+          "donor": 41,
+          "target_only_rank": 4,
+          "required_early_rank": 12
+        },
+        {
+          "donor": 42,
+          "target_only_rank": 4,
+          "required_early_rank": 8
+        },
+        {
+          "donor": 43,
+          "target_only_rank": 4,
+          "required_early_rank": 12
+        },
+        {
+          "donor": 44,
+          "target_only_rank": 4,
+          "required_early_rank": 12
+        },
+        {
+          "donor": 45,
+          "target_only_rank": 4,
+          "required_early_rank": 16
+        },
+        {
+          "donor": 53,
+          "target_only_rank": 4,
+          "required_early_rank": 8
+        },
+        {
+          "donor": 57,
+          "target_only_rank": 4,
+          "required_early_rank": 12
+        },
+        {
+          "donor": 58,
+          "target_only_rank": 4,
+          "required_early_rank": 8
+        },
+        {
+          "donor": 68,
+          "target_only_rank": 4,
+          "required_early_rank": 8
+        },
+        {
+          "donor": 82,
+          "target_only_rank": 4,
+          "required_early_rank": 8
+        },
+        {
+          "donor": 84,
+          "target_only_rank": 4,
+          "required_early_rank": 8
+        },
+        {
+          "donor": 85,
+          "target_only_rank": 4,
+          "required_early_rank": 8
+        },
+        {
+          "donor": 106,
+          "target_only_rank": 4,
+          "required_early_rank": 12
+        }
+      ]
+    }
+  ]
+}

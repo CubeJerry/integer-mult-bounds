@@ -185,3 +185,21 @@ The new source theorem is not a free selection oracle. Its finite selector and
 large finite ordinary bill are explicit. A failed all-plane-pairs-rank12 guess
 was repaired using the exact eleven rank11 exceptions and their matching graphs;
 no universal claim relies on the false stronger guess. No new complete kappa.
+
+## S027 checkpoint3 dependency update
+
+| Obligation | Current status | Package and remaining task |
+| --- | --- | --- |
+| Covariant low-excess target | Proved q=9b+b/30 for b960s | bit-receiver-covariant-target; physical realization open |
+| Fixed-word source masks | Proved iff im[B D]=im[C D], m<=b | bit-fixed-transfer-source-masks; actual full C,D required |
+| Correlated proper phases | Necessary nonlinear H/E/L; sufficient linear over field size>d+1 | bit-correlated-middle-phase-completion; source and K delivery open |
+| Marginal return minimum | Proved rank M0+z+max(0,r-a), other sources fixed | bit-return-aware-source-rank; actual transfer/target constraints remain |
+| Common commuting sources | Disproved on stated fully early asymmetric interface, including nilpotents | bit-nonsemisimple-commuting-source-gate; changed phases outside scope |
+| One-D terminal packets | Disproved at target price; h/b>=26/121 | bit-one-d-terminal-support-gate; shared K escapes |
+| Shared-K native word | Proved four rows at80/1 from31 donors; q53280 | bit-native-common-frame-k-stitch; full target open |
+| Full K donor capacity | Necessary rank30 per native donor at each actual K | Same package SATURATION.md; sparse retained rows must change |
+| Full64 covariant source | Unadmitted author theorem/certificates | Independent orbit, determinant, degree and invoice review next |
+| Source inverse lift to H demands | Open primary gluing task | Same source coefficients must induce compatible target graphs |
+| D/K and complete caller | Open | Actual quotient representations, phases, costs, suppliers and foundations |
+
+The covariant target changes only row80/column10, preserving the identity-block premises of the odd witness and H263 commuting gate. Earlier conclusions retain their original scopes.

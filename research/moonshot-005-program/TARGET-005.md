@@ -269,3 +269,13 @@ its forty successful binary rows for the full paid bank in normalization. It
 is a physical module, not an improved supplier. Whole-source/H/D/K composition,
 strict completed BIT and uniform complex savings above1/200, and every original
 outer/foundational condition remain open.
+
+## S027 checkpoint3: covariance and terminal information
+
+The receiver-covariant irreducible target preserves h/b=1/30, all6470 invertible foreign blocks, and the movement profile. At b3840 it gives h128/q34688; even m870 remains movement-only. The printed bank480 words still implement selected rows of the original target.
+
+Independent one-D packets cannot complete the target: actual terminal counts and inherited rank inequalities force h/b>=26/121. Shared K aggregation is part of the architecture. Full foreign rank requires rank30 per supported donor in every K packet. The31-donor word has proper rank128 but full q53280.
+
+The correlated late-phase test is dim(sum pi Q_a)+(nL-rho)+s>=|S|, together with receiver/early Hall tests. The fixed-source return optimizer is rank M0+z+max(0,r-a); its marginal values cannot be summed across separately changed sources. All original baselines, true owners, snapshots and inverses remain paid.
+
+The full64 covariant source is unadmitted checkpoint material pending independent review. Even source/H success requires common D/K maps, affordable actual B, reconciled ordinary costs, strict BIT/complex suppliers, recurrence and all five foundations. No new kappa.

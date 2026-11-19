@@ -1,0 +1,70 @@
+{
+  "status": "PASS_SEVEN_SHARED_PAIR_NEGATIVE_CONTROLS",
+  "controls": [
+    {
+      "control": "hub_restore",
+      "tag": "restore-all-X",
+      "rejected": true,
+      "X": false,
+      "Y": true,
+      "targets": {
+        "80": true,
+        "1": true
+      }
+    },
+    {
+      "control": "ground_restore",
+      "tag": "inverse-arbitrary-Y",
+      "rejected": true,
+      "X": true,
+      "Y": false,
+      "targets": {
+        "80": true,
+        "1": false
+      }
+    },
+    {
+      "control": "late_native_capture",
+      "tag": "native-late-5-89",
+      "rejected": true,
+      "X": true,
+      "Y": true,
+      "targets": {
+        "80": true,
+        "1": false
+      }
+    },
+    {
+      "control": "early_source_chart",
+      "tag": "early-source-5",
+      "rejected": true,
+      "X": false,
+      "Y": true,
+      "targets": {
+        "80": false,
+        "1": true
+      }
+    },
+    {
+      "control": "late_H_sum",
+      "tag": "sum-Y-H-86",
+      "rejected": true,
+      "X": true,
+      "Y": false,
+      "targets": {
+        "80": true,
+        "1": false
+      }
+    },
+    {
+      "control": "native_capture_after_source_chart",
+      "rejected": true,
+      "reason": "late_target_wrong"
+    },
+    {
+      "control": "late_D_owner_used_in_early_phase",
+      "rejected": true,
+      "reason": "owner_location"
+    }
+  ]
+}

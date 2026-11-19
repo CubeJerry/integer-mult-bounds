@@ -1,0 +1,38 @@
+{
+  "additional_zero_boundary_constructive_cases": 17405,
+  "controls": {
+    "duplicate_early_rows_are_not_independent": true,
+    "equal_dimension_wrong_image": true,
+    "individual_receiver_pass_joint_fail": true,
+    "late_compensation_removes_real_extra_mode": {
+      "F_columns": [
+        1,
+        2
+      ],
+      "L_columns": [
+        0,
+        1
+      ]
+    },
+    "same_rank_one_perturbation_can_raise_or_lower_return_rank": true,
+    "too_many_genuine_early_rows": true
+  },
+  "counts": {
+    "complete_targets": 262144,
+    "constructive_sources": 72696,
+    "leakage_cases": 26880,
+    "minimum_rank_projections": 94720
+  },
+  "field": 2,
+  "field_extension_required": false,
+  "finite_checks_only": true,
+  "general_proofs": "PROOF.md",
+  "main_domain": {
+    "early_rows": 2,
+    "late_rows": 1,
+    "outputs": 3,
+    "source_bank": 3
+  },
+  "new_complete_kappa": false,
+  "status": "PASS_EXACT_MASKED_SOURCE_OUTPUT_CRITERION"
+}

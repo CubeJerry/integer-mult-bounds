@@ -522,3 +522,7 @@ witness with a fresh proper-map premise check and actual source/plane cuts.
 The explicit target projection credits S023's prior abstract one-receiver gauge
 feasibility; its novelty is paid literal compilation at the smaller atlas.
 No new upstream theorem was imported or selected certificate changed.
+
+## S027 checkpoint3 upstream compatibility
+
+Canonical main was read back during checkpoint3 integration and remains e54523517d0f03e58352e647c403a5af3e525a57. The selected conditional certificate is unchanged. The earlier targeted open-PR intake remains evidence of proposals, not accepted supplier premises. No external PR is merged or selected certificate changed. New source/target/middle results compose only within their explicit local contracts; no outside price improvement is silently included.

@@ -1,0 +1,84 @@
+{
+  "status": "PASS_EIGHT_OVERLAP_STITCH_NEGATIVE_CONTROLS",
+  "controls": [
+    {
+      "control": "hub_inverse",
+      "rejected": true,
+      "X": false,
+      "Y": true,
+      "targets": {
+        "80": true,
+        "1": true
+      }
+    },
+    {
+      "control": "ground_inverse",
+      "rejected": true,
+      "X": true,
+      "Y": false,
+      "targets": {
+        "80": true,
+        "1": false
+      }
+    },
+    {
+      "control": "joint_source",
+      "rejected": true,
+      "X": false,
+      "Y": true,
+      "targets": {
+        "80": false,
+        "1": true
+      }
+    },
+    {
+      "control": "late_target_sum",
+      "rejected": true,
+      "X": true,
+      "Y": false,
+      "targets": {
+        "80": true,
+        "1": false
+      }
+    },
+    {
+      "control": "omit_second_tile_at_joint_early_capture",
+      "rejected": true,
+      "targets": {
+        "80": false,
+        "1": true
+      }
+    },
+    {
+      "control": "native_capture_after_joint_source_chart",
+      "rejected": true,
+      "targets": {
+        "80": true,
+        "1": false
+      }
+    },
+    {
+      "control": "alias_two_D_carriers_at_shared_H",
+      "rejected": true,
+      "targets": {
+        "80": false,
+        "1": true
+      }
+    },
+    {
+      "control": "target_only_two_tile_lift",
+      "selected_aggregate_correct": true,
+      "source_rank": 4,
+      "required_source_rank": 8,
+      "rejected_shared_donors": [
+        5,
+        7,
+        42,
+        43,
+        44,
+        45
+      ],
+      "rejected": true
+    }
+  ]
+}
