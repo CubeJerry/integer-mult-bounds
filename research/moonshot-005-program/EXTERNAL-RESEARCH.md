@@ -573,3 +573,31 @@ The all 111 source preserves the admitted native geometry, spread allocation, co
 ## S030 checkpoint 3 provenance
 
 Connected, hybrid and array-anchor results retain the native/source/port/compiler and rank-classification predecessor credit. Their extension obstructions preserve the positive local source constructions. The elliptic-quadric evaluation lead is internal work using the authenticated E8 binary geometry; no external supplier theorem is presumed. The complex export cut retains the #7830 source and literal #7833 surgery. No selected certificate or external PR changes.
+
+## S031 checkpoint1: exact upstream intake and transfer limits
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; its selected conditional kappa remains
+.00363005817 with the recorded five premises. The targeted
+[startup intake](sessions/2026-11-21-S031/UPSTREAM-INTAKE.json) and
+[proof pointers](sessions/2026-11-21-S031/UPSTREAM-PROOFS.md) retain exact heads.
+
+Ali Romman's open [#7837](https://github.com/CrocSwap/integer-mult-bounds/pull/7837)
+at a7f99a5f5f919dd3ffb2987f90c1e7d6527feb1e proposes a source-specific
+native_all_columns proof for the grade14 application at .00387992802601.
+@CubeJerry's open [#7840](https://github.com/CrocSwap/integer-mult-bounds/pull/7840)
+at adf2e0aa6777977a280ce50f8938f4a0f4f19b76 binds an independently reviewed
+native construction to selected #7000/#7001 sources. These are important
+source-specific advances under four retained assumptions, not an automatic
+native realization of this programme's redesigned H/source/return word.
+No canonical selection or moonshot foundational status is changed here.
+
+Open #7830 at87fbf4f7b35b0f18ab12b5767775a9a424cf0b15 now advertises
+.00387992803556. Its9.55e-12 increase over #7835 is not the material gain
+sought by the .0043/.005 construction. The #7826 ordinary self-hosting and
+#7828 compiler heads remain pinned and unchanged. Their interface results
+remain potentially useful once a complete compatible physical word exists.
+
+No external PR, branch or selected certificate was modified. The two new
+internal compatibility results preserve the native atlas, geometric node,
+feedback, tight-cut and independent-review predecessor credit. They do not
+claim a foundation discharge or complete supplier improvement.

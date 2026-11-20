@@ -521,3 +521,49 @@ The two-edit lemma also received a root mathematical proof review, including the
 Four further admissions have five fresh root checker receipts in [CHECKPOINT5-VALIDATION.json](sessions/2026-11-20-S030/CHECKPOINT5-VALIDATION.json). Every JSON field agrees with the frozen independent output; no path or scientific-value normalization is used. The runner executes all five by default. Its collect-existing mode only aggregates already performed fresh executions and does not claim another independent review.
 
 The cycle positive checker independently reconstructs all504 cuts,144 fibres and eight early bases. Root separately reconstructs all240 sufficient alternate-triangle propagations using C arithmetic; it does not claim an independent repetition of B's additional6,048-pair census. The Hermite reviewer works in original48 coordinates, obtaining six3024-by297 full-rank systems. The Clifford root review uses603 direct off-H products and256 labelled raw equations, independently verifying twelve projective guards. The feedback reviewer reconstructs all100 coefficient tables,6,300 cuts,100 early bases and756 rank27 propagation spans, alongside the all-width algebraic proof. Exact scopes and negative controls are in their admission files.
+
+## S031 checkpoint1: independently reconstructed source compatibility
+
+The [frozen-feedback package](results/bit-shared-h-s031-review/feedback-partition-gate/ADMISSION.md) has a standalone author
+checker and a separate root implementation and proof review. The author
+reconstructs99 native source cuts, all528 pairs and5456 triples, exact
+rank-minor/kernel certificates and six288-by108 Frobenius systems. Root
+separately reconstructs the native kernels and partition joins; its exact
+receipt and review are retained in the package. The nonlinear theorem uses
+a proved finite additive sumset reduction, not an assumption that bank
+bijections are linear. Balanced companions, singleton/pair controls and a
+rank-dropping minor mutation delimit its scope.
+
+The [geometric/gap15 port package](results/bit-geometric-gauge-port-gate/ADMISSION.md) has a separate Worker C
+proof review and standalone checker importing no author executable code. It
+rebuilds99 literal polynomial fibres,28 exceptional pencils, two invertible
+binary parameter maps, each33-vertex/276-edge additive graph, actual owner
+capacities and shared D108. The independent ratios are26 and49. A Jordan
+matrix at the exceptional eigenvalue tests nonsemisimple coupling; equal-ratio
+and damaged-minor controls pass. Its all-width theorem follows from the
+universal pencil argument and connectedness, not from the finite matrix test.
+
+Reproduction commands and exact source pins are in each package. Replaying an
+author's program is recorded separately from independently reconstructing its
+mathematical object. This checkpoint admits neither an untested global source
+word nor a complete multiplication exponent. Pending S030 artifacts absent
+from its committed tree remain absent evidence rather than inherited proofs.
+
+
+## S031 checkpoint1: independently reviewed complex repair cuts
+
+The [saturated target-cut package](results/complex-paid-export-s031-repair/ADMISSION.md)
+adds four exact cuts of ranks 2, 5, 6 and 8 for the pinned #7830 word after the
+specified #7833 surgery and any positive number of parallel paid 3→282 observers.
+They force six more high-grade cycle arcs: 43, 89777, 96404, 96513, 97320 and
+100120. Together with the retained circulation theorem, 1071 of 1076 old
+high-grade routes are mandatory. The remaining deletion profile is four
+grade-4 routes and one grade-3 route. Its optimistic complete-caller margin
+at κ=.005 lies in [-6.807280786881,-6.807280786880], so high-grade-only deletion
+repairs in this exact route family cannot reach the target. The .0043 margin
+is positive, [8.013020317933,8.013020317934]. Low-grade deletions, changed routes
+and changed sources remain open; these cuts are not a general supplier bound.
+
+Root independently reconstructed the four canonical chart cuts, reverse
+rational target minors and exact integer-power price bounds. The complete
+source/owner repair is still unconstructed. No new complete κ is admitted.

@@ -1,5 +1,24 @@
 # Remaining proof obligations — current programme
 
+## S031 checkpoint1: current shared-source obligation
+
+| Proposition | Status and exact scope | Next requirement |
+| --- | --- | --- |
+| Frozen seed-zero feedback diagrams can be aligned by separate bank bijections | Disproved under the native identity-target/tight-cut contract, including arbitrary nonlinear gauges, repetitions, finite extensions and named balanced companions | Choose correlated different source parameters or a specifically compensating companion; [proof and independent review](results/bit-shared-h-s031-review/feedback-partition-gate/ADMISSION.md) |
+| Geometric tensor or single-gap15 source can complete H263 under GF64-linear bank gauges | Disproved for every matrix feedback width and finite coefficient extension, with nonlinear downstream processing allowed | Multiple-gap source changes or genuinely binary-linear gauge mechanisms; [proof and independent review](results/bit-geometric-gauge-port-gate/ADMISSION.md) |
+| Mere binary-linear gauges for the geometric/gap15 family | Open | Reconcile actual shared-port information without assuming scalar commutation |
+| Two-centre geometric source with moving first fibres and at most two quotient edits | Active construction; unverified | Prove all relevant source ranks, common H readouts, true early bases and the inherited nonsaturation premise on the same source |
+| One source/H/D/K/facet word with affordable return | Open and primary | Realize one exact global target with the retained costs and q<=34688 at b3840,m870 |
+| Strict complex supplier, ordinary BIT completion and complete caller | Open | Complete paid source correctness, all target outputs and the full recursive inequalities |
+| Transfer pending #7837/#7840 native reduction to the changed moonshot word | Open | Bind actual operators, phases, spectators, weighted leaves and adapters to the new exact source; metadata or analogous words do not suffice |
+
+The nonlinear gate is a fresh S031 proof. S030's promised common-line and
+feedback-gauge artifacts were absent from its tracked checkpoint and are not
+treated as previously verified results. The old universal source theorem and
+local positive constructions retain their stated scopes. The new gates do
+not exclude every changed companion or convert a local obstruction into a
+general near-minimum return lower bound.
+
 ## S030 checkpoint 3: nearest constructive obligation
 
 | Obligation | Status and evidence | Next requirement |
@@ -324,3 +343,22 @@ No foundation or strict supplier is discharged, and no new complete kappa follow
 | Scalar geometric fibres align under one common S Gamma(j) T scaffold | Disproved by six native centres, with projective normalization proved | [Admission](results/bit-global-clifford-fibre-scaffold/ADMISSION.md); arbitrary donor gauges and other array sources remain open |
 
 **B-STRUCTURED-SHARED-SOURCE remains the primary open obligation.** Mandatory overlaps between geometric fibre cores must be respected; generic free tails and unrestricted feedback seeds have failed specific tests. No complete H/D/K/facet target, affordable return, strict supplier, foundation discharge or new complete kappa is admitted.
+
+
+## S031 checkpoint1: independently reviewed complex repair cuts
+
+The [saturated target-cut package](results/complex-paid-export-s031-repair/ADMISSION.md)
+adds four exact cuts of ranks 2, 5, 6 and 8 for the pinned #7830 word after the
+specified #7833 surgery and any positive number of parallel paid 3→282 observers.
+They force six more high-grade cycle arcs: 43, 89777, 96404, 96513, 97320 and
+100120. Together with the retained circulation theorem, 1071 of 1076 old
+high-grade routes are mandatory. The remaining deletion profile is four
+grade-4 routes and one grade-3 route. Its optimistic complete-caller margin
+at κ=.005 lies in [-6.807280786881,-6.807280786880], so high-grade-only deletion
+repairs in this exact route family cannot reach the target. The .0043 margin
+is positive, [8.013020317933,8.013020317934]. Low-grade deletions, changed routes
+and changed sources remain open; these cuts are not a general supplier bound.
+
+Root independently reconstructed the four canonical chart cuts, reverse
+rational target minors and exact integer-power price bounds. The complete
+source/owner repair is still unconstructed. No new complete κ is admitted.

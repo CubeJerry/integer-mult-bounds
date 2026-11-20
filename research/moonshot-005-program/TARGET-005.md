@@ -1,5 +1,36 @@
 # Exact target κ=1/200 — current programme
 
+## S031 checkpoint1: compatibility gates with unchanged target prices
+
+**No new complete kappa and no numerical supplier credit.** The new proofs
+constrain source selection, not the complete paid profile. At b=3840,m=870,
+the .005 return cap remains34688 and the .0043 cap remains36875. The abstract
+nine-bank floor is34560; the .005 screen therefore leaves128 return fields.
+These are necessary conditions under the retained tariff, not a constructed
+supplier or a proof that all remaining costs fit.
+
+The [frozen feedback](results/bit-shared-h-s031-review/feedback-partition-gate/ADMISSION.md) cannot pass the native source
+partition gate even after arbitrary nonlinear independent whole-bank gauges.
+For r copies, the eight-receiver join profile is(24r,21r,23r). A changed
+companion would need rank differences c61-c0=3r and c62-c0=r on that same
+receiver set, plus the corresponding triple conditions. Balanced geometric
+tensor and Hermite companions cannot do this. The join gap itself is not a
+lower bound on additional return fields.
+
+The [scalar and gap15 family](results/bit-geometric-gauge-port-gate/ADMISSION.md) fails one actual shared
+port under arbitrary GF64-linear bank gauges, including finite-extension
+coordinate mixing. Source cut invertibility and nonsaturation are therefore
+insufficient even across that whole matrix-feedback family. Multiple-gap
+families, changed source quotients and merely binary-linear gauges remain
+open in their respective scopes.
+
+The nearest constructive test moves both centre fibres jointly while editing
+at most two geometric quotients per donor. If its actual full source cuts
+survive, the inherited two-edit14k propagation bound applies. Shared H
+readouts, actual early bases, all later maps, the measured complete return and
+the full invoice still require proof. Pending external native realizations
+cannot be substituted for this changed word's native obligation.
+
 ## S030 checkpoint5: new source family, unchanged whole-system budgets
 
 The universal feedback theorem supplies explicit source inverses and global9k propagation slack at every positive width. It introduces no proved H/D/K/facet endpoint, return saving or complete physical invoice. Thus neither the .005 return cap34688 nor the .0043 cap36875 at b3840,m870 changes.
@@ -361,3 +392,22 @@ The unconditional native floor is 34,560 and the proposed m=870 cap is 34,688. I
 ## S029 checkpoint 8
 
 Deleting even one directed proper donor forces 35,200 field symbols at b=3,840, 512 above the 34,688 cap. Equality q=34,560 forces the canonical binary transport up to native basis changes. Within the prescribed invertible foreign interface, fixing D/K/F excludes all earlier-only rewrites by q≥35,109. With S/H retained the cut census gives at least 712 changed D charts at h=128. With spread K/RS F retained the count is 707; with both ends fixed it is 764. The cost of a different source/endpoint must be paid.
+
+
+## S031 checkpoint1: independently reviewed complex repair cuts
+
+The [saturated target-cut package](results/complex-paid-export-s031-repair/ADMISSION.md)
+adds four exact cuts of ranks 2, 5, 6 and 8 for the pinned #7830 word after the
+specified #7833 surgery and any positive number of parallel paid 3→282 observers.
+They force six more high-grade cycle arcs: 43, 89777, 96404, 96513, 97320 and
+100120. Together with the retained circulation theorem, 1071 of 1076 old
+high-grade routes are mandatory. The remaining deletion profile is four
+grade-4 routes and one grade-3 route. Its optimistic complete-caller margin
+at κ=.005 lies in [-6.807280786881,-6.807280786880], so high-grade-only deletion
+repairs in this exact route family cannot reach the target. The .0043 margin
+is positive, [8.013020317933,8.013020317934]. Low-grade deletions, changed routes
+and changed sources remain open; these cuts are not a general supplier bound.
+
+Root independently reconstructed the four canonical chart cuts, reverse
+rational target minors and exact integer-power price bounds. The complete
+source/owner repair is still unconstructed. No new complete κ is admitted.

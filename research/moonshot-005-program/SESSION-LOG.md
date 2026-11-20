@@ -2844,3 +2844,65 @@ The new noncommuting polynomial-feedback family has an explicit square-zero sour
 The global shared-node Hermite family fails all six Frobenius-relative Hom systems, excluding arbitrary binary-linear gauges, repetitions, Hermite12 and finite extensions. A common scalar Clifford S Gamma(j) T scaffold fails at six centres after projective scalar normalization is proved. Root independently reconstructs its256 raw equations and603 off-H products.
 
 Five fresh root replays match in all fields. A new common-line obstruction and structured core-overlap/node-relabeling investigations continue. Selected conditional kappa remains .00363005817; no strict supplier, new complete exponent, foundation discharge or PR readiness. The resulting remote commit is verified separately after publication.
+
+## 2026-11-21-S031 checkpoint1 — native partition compatibility
+
+Session start:2026-11-20T14:44:01Z; requested five-hour window ends
+2026-11-20T19:44:01Z. This is an active checkpoint, not the final session entry.
+Programme start and checkpoint parent:5953b86befe08da02dbaa5ff6c16111aea8a81d4. Canonical upstream remains
+e54523517d0f03e58352e647c403a5af3e525a57. Resulting checkpoint identity is verified and reported externally;
+no self-referential commit hash is embedded here.
+
+Resumed S030 checkpoint5. Its promised common-line and frozen-feedback-gauge
+artifacts were absent from the tracked tree, so they were not admitted as
+inherited evidence. The next research attacked actual shared source fibres
+and native H readouts, preserving the global geometric-node direction.
+
+New mathematics: the [frozen feedback](results/bit-shared-h-s031-review/feedback-partition-gate/ADMISSION.md) has exactly
+three minimal three-receiver partition-join discrepancies. Their union has
+ranks24,21,23 across donors0,61,62. A fresh additive sumset proof excludes
+arbitrary nonlinear separate-bank gauges, repetitions and the specified
+balanced companions. A separate six-twist system gives108-column full-rank
+certificates. Root independently reconstructed and reviewed the result.
+
+The [geometric/gap15 theorem](results/bit-geometric-gauge-port-gate/ADMISSION.md) proves that every
+single-gap15 matrix source retains an injective six-dimensional fibre
+diagram and unchanged scalar readouts. Connected native parameter relations
+force a fixed amplitude map under arbitrary GF64-linear whole-bank gauges.
+Different ratios26 and49 at shared D108 contradict any positive exact port
+message, including nonlinear processing. Worker C independently reviewed the
+proof and reconstructed its geometry and exceptional-pencil certificates.
+
+Both gates are source-specific. The universal multiple-gap feedback family,
+arbitrary changed companions and merely binary-linear scalar-source gauges
+remain outside their respective negative claims. No rank-gap-to-return
+tariff is inferred. No complete kappa, supplier or foundation is discharged.
+
+Upstream intake records open source-specific native reductions #7837/#7840
+and the incremental #7830 comparator .00387992803556. Selection is unchanged;
+no external claim is automatically transferred to the redesigned source.
+
+Immediate work: build two compatible geometric centres while moving the
+first fibres and retaining at most two quotient edits; examine binary
+amplitude escapes; finish the complementary paid complex repair cut and its
+independent review. All earlier session conclusions remain in this append-only
+log and the full S031 startup snapshot.
+
+
+## S031 checkpoint1: independently reviewed complex repair cuts
+
+The [saturated target-cut package](results/complex-paid-export-s031-repair/ADMISSION.md)
+adds four exact cuts of ranks 2, 5, 6 and 8 for the pinned #7830 word after the
+specified #7833 surgery and any positive number of parallel paid 3→282 observers.
+They force six more high-grade cycle arcs: 43, 89777, 96404, 96513, 97320 and
+100120. Together with the retained circulation theorem, 1071 of 1076 old
+high-grade routes are mandatory. The remaining deletion profile is four
+grade-4 routes and one grade-3 route. Its optimistic complete-caller margin
+at κ=.005 lies in [-6.807280786881,-6.807280786880], so high-grade-only deletion
+repairs in this exact route family cannot reach the target. The .0043 margin
+is positive, [8.013020317933,8.013020317934]. Low-grade deletions, changed routes
+and changed sources remain open; these cuts are not a general supplier bound.
+
+Root independently reconstructed the four canonical chart cuts, reverse
+rational target minors and exact integer-power price bounds. The complete
+source/owner repair is still unconstructed. No new complete κ is admitted.
