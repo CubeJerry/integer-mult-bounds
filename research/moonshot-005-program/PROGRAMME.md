@@ -53,3 +53,7 @@ The [global rank classification](results/bit-global-native-rank-rigidity/ADMISSI
 ## S029 checkpoint 6
 
 The [19-receiver cut](results/bit-physical-regional-prefix-cut/ADMISSION.md) rules out the fixed source/H/D prefix, even with unrestricted later native recoding. The complete RS continuation has return rank 426,240. Near the image minimum, arbitrary single-donor functions now satisfy a common binary transport law.
+
+## S029 checkpoint 7
+
+The [native lower bound](results/bit-native-petersen-converse/ADMISSION.md) now covers arbitrary zero-error broadcasts with the stated receiver side information. The canonical binary word has the exact abstract minimum, nine whole banks. Reaching the paid architecture requires the same receiver information within at most 128 extra field symbols at b=3,840. Upstream’s mixed-grade tail approach materially reduces the formal product size needed once the physical source is provided.

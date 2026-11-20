@@ -468,3 +468,7 @@ Eleven relocated jobs reproduced all substantive H263, K, Reed–Solomon/H/F, ga
 ## S029 checkpoint 6
 
 [Checkpoint 6 replay](sessions/2026-11-20-S029/checkpoint6_replay.py) checks both cuts and the exact repair arithmetic. Its --heavy mode regenerates eight original-source and reverse-coordinate determinant streams. The [receipt](sessions/2026-11-20-S029/CHECKPOINT6-VALIDATION.json) distinguishes stored eliminations from structural arithmetic. Every erasure detour verifies eight true pivots. The signed recovery was separately checked on the original native roots.
+
+## S029 checkpoint 7
+
+[Checkpoint 7](sessions/2026-11-20-S029/checkpoint7_replay.py) replays eight proof and review paths. The Petersen dual cancels exactly both in its 1,024-coordinate expansion and in an independently implemented 34-orbit quotient. The three-donor proof and erasure verification check 2,965 propagation charts and 12,481 disjoint repairs. Independent 85-digit directed arithmetic confirms both target cutoff schedules. [Recomputed results](sessions/2026-11-20-S029/CHECKPOINT7-VALIDATION.json). The separate upstream Python replay matched #7831 BIT and RESULT bytewise and AUDIT as JSON.

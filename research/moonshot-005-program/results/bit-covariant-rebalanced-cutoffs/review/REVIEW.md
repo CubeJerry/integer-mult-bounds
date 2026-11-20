@@ -1,0 +1,3 @@
+# Independent cutoff and finite-width verification
+
+The reviewer rebuilds the integer histograms from the literal paid MOVE word and the target's bank and excess. Directed 85-digit Decimal arithmetic encloses the three tail ratios independently of the credited upstream rational evaluator and the author's series. Both proposed powers pass. At the preceding power, even the tighter pure-exponential test on the stated upper ratios fails. Exact integer comparisons check shifted-log requirements, the previous logarithmic power and the preceding carrier grid point. These are certificates for the proposed physical tariff under the stated contracts. No new κ.

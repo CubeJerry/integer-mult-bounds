@@ -488,3 +488,7 @@ An exact global theorem classifies every minimum native square fitting with the 
 ## S029 checkpoint 6
 
 On the fixed physical RS word the whole return and two distinct restricted classes have independently certified ranks or lower bounds of 111b, 55b and 19b under their respective hypotheses. Sum-separable finite-alphabet rigidity applies to arbitrary single-donor functions in a neighborhood of the optimum. The odd-characteristic 111b/8 bound allows arbitrary singular blocks. The binary target and its complex companion remain open.
+
+## S029 checkpoint 7
+
+An induced 14-owner entropy certificate gives an exact nine-bank binary broadcast optimum without proper-rank restrictions. This fixes the abstract target against which physical words must be measured. A three-donor functional equation gives a sharp rigidity theorem for separable finite-alphabet maps. Independently priced mixed-grade product schedules from a new #7831 transfer reduce the formal tensor construction to 88 factors under the required source and interface contracts. The complete multiplication theorem remains open.

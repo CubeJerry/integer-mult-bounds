@@ -1,0 +1,210 @@
+{
+  "low_log": {
+    "separation": {
+      "alpha": {
+        "lower": "0.999999999856639233041490780354",
+        "upper": "0.999999999856639233041490780355"
+      },
+      "ambient": "127^194",
+      "construction": "chronological product; specialize low complete targets to owned zero; retain all original paid calls; split paid calls on disjoint axes",
+      "cutoff_base": 24,
+      "floor_base": 38,
+      "gamma": {
+        "lower": "0.903306211233837624310264212071",
+        "upper": "0.903306211233837624310264212072"
+      },
+      "label": "source",
+      "lambda": {
+        "lower": "0.912639015007093506814810649337",
+        "upper": "0.912639015007093506814810649338"
+      },
+      "maximum_paid": "24^194",
+      "minimum_retained_target": "38^194",
+      "normalized_paid_plus_lost_target_upper": {
+        "lower": "0.999999997457441126732360620226",
+        "upper": "0.999999997457441126732360620227"
+      },
+      "owned_allocation_records_bound": "2*42455715840^194",
+      "paid": {
+        "1": 205537668480,
+        "14": 4449945600,
+        "2": 162988718400,
+        "21": 4449945600,
+        "28": 4449945600,
+        "3": 25712640,
+        "35": 4449945600,
+        "4": 8668892160,
+        "42": 4449945600,
+        "49": 4449945600,
+        "5": 3732480,
+        "56": 4449945600,
+        "6": 43130880,
+        "7": 4454092800,
+        "8": 3255538176
+      },
+      "paid_tail_offset": "17/50",
+      "product_or_uniform_word_materialized": false,
+      "product_raw_invocation_count": "sum(i=0..193, 42455715840^(193-i)*416127105216^i)",
+      "rank_mass_surplus": "positive by separated t-moment advantage; no discarded target mass retained as credit",
+      "rational_upper_limits": [
+        "48828124993/48828125000",
+        "451653105616919/500000000000000",
+        "456319507503547/500000000000000"
+      ],
+      "retained_productive_fields": "W = sum over target tuples with product >= 38^194 of their multiplicities",
+      "source_paid_calls": 416127105216,
+      "source_paid_rank_mass": 1714004886528,
+      "source_public_fields": 42455715840,
+      "source_status": "unadmitted",
+      "specialized_initial_and_final": 0,
+      "specialized_owned_fields": "D = 42455715840^194 - W",
+      "split_paid_calls_upper": "1714004886528^194",
+      "strict_normalized_gap": {
+        "lower": "0.000000002542558873267639379773",
+        "upper": "0.000000002542558873267639379774"
+      },
+      "target_tail_offset": "33/50",
+      "targets": {
+        "127": 2224972800,
+        "15": 4449945600,
+        "2": 414720,
+        "22": 4449945600,
+        "29": 4449945600,
+        "36": 4449945600,
+        "4": 10368000,
+        "43": 4449945600,
+        "50": 4449945600,
+        "57": 4449945600,
+        "6": 414720,
+        "64": 4449945600,
+        "8": 4619980800
+      },
+      "tensor_power": 194,
+      "tested_saving": "10000001/2000000000"
+    },
+    "uniform": {
+      "H": 15790000000000,
+      "N": "2^15790000000000",
+      "eta": {
+        "lower": "0.009060105756640154105735049743",
+        "upper": "0.009060105756640154105735049744"
+      },
+      "gap": "1/10000000000",
+      "integer_test_exponent": 1579,
+      "logarithm_power": 36,
+      "ordinary_base_bound": {
+        "lower": "109.822117558701145976367139835317",
+        "upper": "109.822117558701145976367139835318"
+      },
+      "preceding_integer_grid_fails": true,
+      "previous_logarithm_power_fails": true,
+      "proof": "retained separated finite compiler and logarithmic majorant, with all new owned fields charged",
+      "theta": "7/8",
+      "uniform_saving": "12500001/2500000000"
+    }
+  },
+  "short": {
+    "separation": {
+      "alpha": {
+        "lower": "0.999999999856639233041490780354",
+        "upper": "0.999999999856639233041490780355"
+      },
+      "ambient": "127^88",
+      "construction": "chronological product; specialize low complete targets to owned zero; retain all original paid calls; split paid calls on disjoint axes",
+      "cutoff_base": 31,
+      "floor_base": 32,
+      "gamma": {
+        "lower": "0.805568217127009122900395058879",
+        "upper": "0.805568217127009122900395058880"
+      },
+      "label": "source",
+      "lambda": {
+        "lower": "0.788789104840500981005403579388",
+        "upper": "0.788789104840500981005403579389"
+      },
+      "maximum_paid": "31^88",
+      "minimum_retained_target": "32^88",
+      "normalized_paid_plus_lost_target_upper": {
+        "lower": "0.999999999155758074477008778115",
+        "upper": "0.999999999155758074477008778116"
+      },
+      "owned_allocation_records_bound": "2*42455715840^88",
+      "paid": {
+        "1": 205537668480,
+        "14": 4449945600,
+        "2": 162988718400,
+        "21": 4449945600,
+        "28": 4449945600,
+        "3": 25712640,
+        "35": 4449945600,
+        "4": 8668892160,
+        "42": 4449945600,
+        "49": 4449945600,
+        "5": 3732480,
+        "56": 4449945600,
+        "6": 43130880,
+        "7": 4454092800,
+        "8": 3255538176
+      },
+      "paid_tail_offset": "57/100",
+      "product_or_uniform_word_materialized": false,
+      "product_raw_invocation_count": "sum(i=0..87, 42455715840^(87-i)*416127105216^i)",
+      "rank_mass_surplus": "positive by separated t-moment advantage; no discarded target mass retained as credit",
+      "rational_upper_limits": [
+        "48828124993/48828125000",
+        "80556821712701/100000000000000",
+        "788789104840501/1000000000000000"
+      ],
+      "retained_productive_fields": "W = sum over target tuples with product >= 32^88 of their multiplicities",
+      "source_paid_calls": 416127105216,
+      "source_paid_rank_mass": 1714004886528,
+      "source_public_fields": 42455715840,
+      "source_status": "unadmitted",
+      "specialized_initial_and_final": 0,
+      "specialized_owned_fields": "D = 42455715840^88 - W",
+      "split_paid_calls_upper": "1714004886528^88",
+      "strict_normalized_gap": {
+        "lower": "0.000000000844241925522991221884",
+        "upper": "0.000000000844241925522991221885"
+      },
+      "target_tail_offset": "51/50",
+      "targets": {
+        "127": 2224972800,
+        "15": 4449945600,
+        "2": 414720,
+        "22": 4449945600,
+        "29": 4449945600,
+        "36": 4449945600,
+        "4": 10368000,
+        "43": 4449945600,
+        "50": 4449945600,
+        "57": 4449945600,
+        "6": 414720,
+        "64": 4449945600,
+        "8": 4619980800
+      },
+      "tensor_power": 88,
+      "tested_saving": "10000001/2000000000"
+    },
+    "uniform": {
+      "H": 109130000000000,
+      "N": "2^109130000000000",
+      "eta": {
+        "lower": "0.118072660920566331921042314048",
+        "upper": "0.118072660920566331921042314049"
+      },
+      "gap": "1/10000000000",
+      "integer_test_exponent": 10913,
+      "logarithm_power": 234,
+      "ordinary_base_bound": {
+        "lower": "8.427014278685466867810647534477",
+        "upper": "8.427014278685466867810647534478"
+      },
+      "preceding_integer_grid_fails": true,
+      "previous_logarithm_power_fails": true,
+      "proof": "retained separated finite compiler and logarithmic majorant, with all new owned fields charged",
+      "theta": "109/110",
+      "uniform_saving": "12500001/2500000000"
+    }
+  }
+}

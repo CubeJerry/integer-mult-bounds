@@ -2767,3 +2767,7 @@ The fifth S029 checkpoint upgraded formal rigidity to global classification unde
 ## S029 checkpoint 6
 
 The sixth checkpoint records the full RS rank, a disjoint rank distance invariant under endpoint bases, a 19-bank cutoff valid with nonlinear suffixes, nonlinear rigidity with 54 unidentified erasures, and an eight-evaluation odd-alphabet obstruction.
+
+## S029 checkpoint 7
+
+Checkpoint seven proved the abstract nine-bank native floor, a sharp factor-two separable image gap and its bounded-erasure extension. Two fresh upstream developments were read at exact commits. The transplanted cutoff method yields 88- and 194-factor mixed-grade witnesses for the proposed tariff. All three new directions have independently implemented arithmetic or structural verification.

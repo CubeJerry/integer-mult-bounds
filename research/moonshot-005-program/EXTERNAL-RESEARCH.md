@@ -548,3 +548,7 @@ The explicit #7828 product type and #7826 self-hosting parameters are now checke
 ## S029 checkpoint 3
 
 The application of [Ali Romman’s single-grade compiler](https://github.com/CrocSwap/integer-mult-bounds/pull/7828) admits projectors, equal-rank matchers and positive splits over Z[1/6]. This removes additional address-prime exclusions at unbounded finite compilation heights. The physical, leaf, ordinary and analytic hypotheses remain. [Native proof](results/bit-localized-native-addresses/ADMISSION.md).
+
+## S029 checkpoint 7
+
+At the [second-hour intake](sessions/2026-11-20-S029/UPSTREAM-HOUR2.json), canonical main was still e545235. Dugongue’s open [#7831](https://github.com/CrocSwap/integer-mult-bounds/pull/7831) reports 0.00387992802506 under the five premises. Its two changed numerical cutoffs deliver ordinary BIT 0.003879928025145 on the existing words. We authenticated 127 inherited files, replayed its Python finite and outer checks and independently transferred the tail inequalities to our 0.005 tariff. [#7833](https://github.com/CrocSwap/integer-mult-bounds/pull/7833) advanced from d83f58f to 155e79e during intake. The successor closes the fixed four-scalar rational route and five one-edited binary peer choices, with zero saving credit. Its full successor receipt and the two original replays were reproduced. [Exact replay evidence](sessions/2026-11-20-S029/UPSTREAM-REPLAY-HOUR2.json).

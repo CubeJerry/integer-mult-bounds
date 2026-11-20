@@ -313,3 +313,7 @@ For the m=870 charge, b=3,840 and the admissible excess is 128. Separate native 
 ## S029 checkpoint 6
 
 The [disjoint restriction](results/bit-native-rs-return-distance/ADMISSION.md) of the fixed RS word has rank 211,200. At the 34,688 cap this slice must lose at least 176,512 dimensions. Holding only source/H/D fixed forces 72,960 returns after any K/F. In odd characteristic even arbitrary singular foreign blocks give rank≥53,280 at b=3,840.
+
+## S029 checkpoint 7
+
+The unconditional native floor is 34,560 and the proposed m=870 cap is 34,688. In the separable finite-alphabet model the strict twofold output threshold already forces common elementary-binary transports when the specified native tree is bijective, or when at most 54 unidentified functions are defective. The [mixed-grade budget](results/bit-covariant-rebalanced-cutoffs/ADMISSION.md) holds at raw price 0.0050000005 for 88 copies, or 194 copies with uniform logarithmic power 36. Both depend on the fully normalized source.

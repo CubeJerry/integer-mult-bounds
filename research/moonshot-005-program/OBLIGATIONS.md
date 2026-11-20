@@ -254,3 +254,7 @@ Proved for all b on the native support: an invertible 221-cell tree and rank at 
 ## S029 checkpoint 6
 
 With arbitrary K/F at least 10 selected original donors, 59 H charts, or 200 D charts must change if that is the sole earlier family changed. The [regional cut](results/bit-physical-regional-prefix-cut/author/PROOF.md) uses reachability of all true inputs at 401 K planes. Single-donor finite-alphabet functions near the minimum glue to common binary additive transport under the stated tree or bounded-erasure conditions.
+
+## S029 checkpoint 7
+
+Proved: the abstract nine-bank optimum on the true complete native side-information graph over binary alphabets, with an alphabet-independent entropy lower bound and arbitrary-field rank lower bound. Proved under its stated tree or bounded-erasure hypothesis: sharp finite-abelian rigidity for sum-separable maps below twice the minimum image size. Proved conditional on the proposed physical tariff: two new mixed-grade finite schedules, with the same outstanding source, cover and outer assumptions. The [unrestricted native converse](results/bit-native-petersen-converse/author/PROOF.md) and [sharp stability proof](results/bit-nonlinear-separable-native-minimum/sharp/PROOF.md) have different decoder hypotheses.
