@@ -293,3 +293,7 @@ The next target-first obligation is a coupled source/H/D/K construction, not a f
 The orthogonal-spread allocation meets every H/K3/12 view count and every D donor-profile balance with components3+12 matrix copies at b3840. It changes local partitions rather than relabelling the rejected five-class system. The current algebraic target still has h128/q34688 and movement-only even m870. No cost or exponent changes follow from dimensions alone.
 
 Generic covariant source existence improves to GF256 via degree154/217 bounds; source frames and early determinants remain full. The live GF64 scalar-copy candidate and16-receiver inverse lifts are under separate verification. Actual phase quotas, common-field D/K words and the perturbed endpoint remain binding interfaces. GF512 K constants do not directly embed in GF64. All complete supplier inequalities, recursive terms and five foundations remain unchanged. No new kappa.
+
+## S029 checkpoint 2
+
+The m=870 raw saving is in (.00500000060450,.00500000060451). Its asymptotic supremum is below .00500220831286 and below the old one-stage threshold. With all source and covered-word contracts, the new compiler/recursive budget could offer ordinary BIT at .0050000002. [Exact proof](results/bit-covariant-single-grade-budget/ADMISSION.md).

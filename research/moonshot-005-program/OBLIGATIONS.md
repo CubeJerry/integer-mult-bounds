@@ -234,3 +234,7 @@ The spread construction is a positive witness outside the frozen-class obstructi
 ## S029 checkpoint 1
 
 Simultaneous rank on all formal eight-coordinate D cuts is proved with 4,942 separately allocated stationary field symbols per base body. Specified output values and joint source gluing remain open. [D construction and separate review](results/bit-minimum-cache-d-atlas/ADMISSION.md).
+
+## S029 checkpoint 2
+
+The [H263 source](results/bit-spread-h263-source/ADMISSION.md) realizes all 33 native inverse-fibre constraints. A separate [physical GF(64) word](results/bit-spread-rs-physical-word/ADMISSION.md) has full rank on all 6,470 foreign blocks. Achieving the specified low return is still open.

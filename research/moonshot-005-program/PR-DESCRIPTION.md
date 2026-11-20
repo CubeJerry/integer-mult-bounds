@@ -468,3 +468,7 @@ Supporting results prove GF256 full64 and genuinely coupled source existence, id
 ## S029 checkpoint 1
 
 Extended Cauchy matrices and paid cross-phase storage attain every one of 388,200 native D cuts. A separate implementation reproduced physical prices and four negative controls. [D construction and separate review](results/bit-minimum-cache-d-atlas/ADMISSION.md). No new κ. Credit @CubeJerry and the atlas authors. Substantial OpenAI assistance.
+
+## S029 checkpoint 2
+
+The [H263 source](results/bit-spread-h263-source/ADMISSION.md) realizes all 33 native inverse-fibre constraints. A separate [physical GF(64) word](results/bit-spread-rs-physical-word/ADMISSION.md) has full rank on all 6,470 foreign blocks. Achieving the specified low return is still open. The independent-gauge and source-specific compiler proofs are in the current programme. No new κ.

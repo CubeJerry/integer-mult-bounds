@@ -2747,3 +2747,7 @@ The spread is the central architecture change:3+12 coupled matrix components mee
 ## S029 checkpoint 1
 
 Three-hour session, 03:19:03–06:19:03 UTC. Resumed at 914097a04bb93f730b805e9d4f036b46707c8675, the last published S028 checkpoint. The [D construction and separate review](results/bit-minimum-cache-d-atlas/ADMISSION.md) establishes sharp local snapshot widths on 3,150 charts. Earlier scratch candidates remain unadmitted. The selected conditional price stays 0.00363005817. Resulting SHA is recorded after remote confirmation.
+
+## S029 checkpoint 2
+
+The D checkpoint was confirmed at a1d5d7857428051de755fc0d7bd02e2d4c62275c. Five additional packages and eleven relocated checks are admitted. The [H263 source](results/bit-spread-h263-source/ADMISSION.md) realizes all 33 native inverse-fibre constraints. A separate [physical GF(64) word](results/bit-spread-rs-physical-word/ADMISSION.md) has full rank on all 6,470 foreign blocks. Achieving the specified low return is still open. Multi-chart lifts and physical return checks continue.

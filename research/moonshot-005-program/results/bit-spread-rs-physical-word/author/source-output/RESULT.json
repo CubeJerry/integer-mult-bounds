@@ -1,0 +1,99 @@
+{
+  "all_foreign_H_observation_ranks": 3840,
+  "bank": 3840,
+  "channels_per_donor": 240,
+  "chosen_singleton_scales": {
+    "8": [
+      1,
+      2
+    ],
+    "31": [
+      1,
+      1
+    ],
+    "49": [
+      3,
+      2
+    ],
+    "53": [
+      1,
+      2
+    ],
+    "58": [
+      2,
+      1
+    ],
+    "77": [
+      7,
+      1
+    ],
+    "82": [
+      3,
+      1
+    ],
+    "93": [
+      1,
+      7
+    ],
+    "97": [
+      1,
+      1
+    ],
+    "105": [
+      1,
+      2
+    ],
+    "106": [
+      1,
+      1
+    ]
+  },
+  "common_endpoint_inverse_fibres": false,
+  "complete_proper_target_or_new_kappa": false,
+  "controls": {
+    "all_derivative_scales_one_fails": {
+      "h": 1062,
+      "i": 3,
+      "j": 8,
+      "ports": 36,
+      "required_rank": 24,
+      "unscaled_rank": 22
+    },
+    "positive_early_rank": 16,
+    "zero_singleton_derivative_early_rank": 15
+  },
+  "distinct_compiled_early_ADD_word_hashes": 124,
+  "field": "GF(2)[z]/(z^6+z+1)",
+  "finite_source_costs": {
+    "INIT": 2557440,
+    "dirty_CLEAR": 2557440,
+    "early_basis_ADD": 115084896,
+    "extra_MOVE": 0,
+    "extra_peak_all_donors": 2557440,
+    "extra_peak_one_donor": 23040,
+    "forward_ADD": 213474180,
+    "forward_plus_reserved_pure_inverse_ADD": 336206520,
+    "late_evaluation_ADD": 88184400,
+    "pure_X_Hub_inverse_ADD": 122732340,
+    "snapshot_copy_ADD_INIT_dirty_CLEAR": 2557440,
+    "source_owner_permutation_ADD": 7647444
+  },
+  "foreign_pairs": 6470,
+  "late_tap_assignments_sha256": "91bb15f1f5bc1a77db0884ee86ded35d607e00f3eac1b2051af0e800e3e8e371",
+  "ordinary_interpolation_pairs": 6110,
+  "polynomial_coefficients_per_channel": 16,
+  "programme_baseline": "914097a04bb93f730b805e9d4f036b46707c8675",
+  "singleton_component_minors": 720,
+  "singleton_kernel_pairs": 360,
+  "source_early_channel_bases": 26640,
+  "source_owner_permutations_sha256": "c9d9d9bc548c439fa9830066504226e39be1328baacb167ee07a3e921b32bae4",
+  "source_pins_decompressed": {
+    "bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+    "bit-asymmetric-balanced-atlas/author/output/PLANE-PHASES.json": "bae4a03a923abfc840e0d030093bdb635eb948de312697b5a08d0338bcc83cf6",
+    "bit-asymmetric-balanced-atlas/author/output/ROUTES.jsonl.gz": "6d55093625ffd123daf3ae0914bcaeba1308756cec24fd2de083f6887ad0b036",
+    "bit-orthogonal-spread-port-allocation/author/output/WITNESS.json.gz": "7fff55e31738681191562949439537ea240557370895488934187455cd29d8ab"
+  },
+  "status": "PASS_ACTUAL_GF64_SOURCE_TO_ALL_FOREIGN_H_BOUNDARIES",
+  "true_early_owners": 426240,
+  "true_late_line_visits": 321000
+}

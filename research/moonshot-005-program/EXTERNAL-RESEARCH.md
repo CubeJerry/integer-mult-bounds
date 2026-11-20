@@ -540,3 +540,7 @@ No external PR or selected certificate is adopted. The spread uses the authentic
 ## S029 checkpoint 1
 
 Canonical main is unchanged. Open #7830 reports 0.00387990740712 on its contracted P104 word. Ali Romman’s #7826 gives self-hosted ordinary interchange and #7828 a single-grade compiler. Their transfer to the actual tariff is under review. DreamingOfClouds’ #7829 prices word traces on the #7113 caller in Lean. Its word and caller contracts differ from the moonshot atlas. [PR heads and source paths](sessions/2026-11-20-S029/UPSTREAM-INTAKE.json).
+
+## S029 checkpoint 2
+
+The explicit #7828 product type and #7826 self-hosting parameters are now checked on the moonshot tariff. Sharp integer degree 18 applies within the specified homogeneous schedule. The original PRs are open and do not supply the physical target word. [Review](results/bit-covariant-single-grade-budget/review/REVIEW.md).

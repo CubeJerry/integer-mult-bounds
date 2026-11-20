@@ -1,5 +1,11 @@
 # Persistent κ=0.005 research programme
 
+## S029 checkpoint 2
+
+The [H263 source](results/bit-spread-h263-source/ADMISSION.md) realizes all 33 native inverse-fibre constraints. A separate [physical GF(64) word](results/bit-spread-rs-physical-word/ADMISSION.md) has full rank on all 6,470 foreign blocks. Achieving the specified low return is still open.
+
+The [two-sided gauge proof](results/bit-bipartite-component-gauges/ADMISSION.md) gives two rank-16 physical routing objectives. The [tariff calculation](results/bit-covariant-single-grade-budget/ADMISSION.md) shows how open upstream #7826 and #7828 could preserve a strict ordinary BIT price above 1/200 once the physical word and cover contracts hold. Both strict suppliers and the complete caller remain open.
+
 ## S029 checkpoint 1
 
 The [D construction and separate review](results/bit-minimum-cache-d-atlas/ADMISSION.md) establishes simultaneous rank and the exact local stationary requirement at every native D. The specified endpoint and both strict suppliers remain open.

@@ -448,3 +448,7 @@ Nine relocated receipts pass in CHECKPOINT2-VALIDATION.json. Run `python -B rese
 ## S029 checkpoint 1
 
 All 388,200 actual eight-by-eight restrictions passed independent direct elimination. Weight, lost-cache, owner-label and phase-order faults were detected. Both pure inverses and all binary costs were recomputed. [D construction and separate review](results/bit-minimum-cache-d-atlas/ADMISSION.md).
+
+## S029 checkpoint 2
+
+Eleven relocated jobs reproduced all substantive H263, K, Reed–Solomon/H/F, gauge and tariff receipts. Run `python -B research/moonshot-005-program/sessions/2026-11-20-S029/checkpoint2_replay.py --repo . --out /tmp/S029-cp2`. [Receipt](sessions/2026-11-20-S029/CHECKPOINT2-VALIDATION.json).

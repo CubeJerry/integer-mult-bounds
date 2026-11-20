@@ -1,0 +1,95 @@
+{
+  "H": {
+    "cache_bits": 175056,
+    "derivative_ADD": 14940112,
+    "permutation_ADD": 11323296,
+    "template_ADD": 375697536,
+    "total_ADD_including_pure_inverse": 789156832
+  },
+  "H_payload": "bda9d599f8c17fd04993a96994fca0d6c8e20ea9951fd55c21e6431b82f3cd84",
+  "K_payloads": {
+    "MIXED": "8b2428093a2c432ebcc2770679574213c1ae45c57baa57900fd92d7eaf2b9f4a",
+    "SPREAD": "513cdf43f2d7e15d6c753e48fd592b95c56e178b7b1819b646ab7acd6f405af0"
+  },
+  "MIXED": {
+    "right_rank": {
+      "bad_unscaled": [
+        8,
+        3,
+        1062,
+        45,
+        29,
+        30
+      ],
+      "duplicate_node_control": true,
+      "ordinary": 6110,
+      "singleton": 360,
+      "singleton_component_tests": 360
+    },
+    "terminal": {
+      "cache_bits": 1926000,
+      "early_to_late_ADD": 88184400,
+      "late_basis_ADD": 115166040,
+      "permutation_ADD": 7651512,
+      "total_ADD_including_pure_inverse": 335745504
+    }
+  },
+  "RS_source": {
+    "cache_bits": 2557440,
+    "early_basis_ADD": 115084896,
+    "late_evaluation_ADD": 88184400,
+    "permutation_ADD": 7647444,
+    "total_ADD_including_pure_inverse": 336206520
+  },
+  "SPREAD": {
+    "right_rank": {
+      "bad_unscaled": [
+        49,
+        104,
+        956,
+        9,
+        5,
+        6
+      ],
+      "duplicate_node_control": true,
+      "ordinary": 6110,
+      "singleton": 360,
+      "singleton_component_tests": 720
+    },
+    "terminal": {
+      "cache_bits": 1926000,
+      "early_to_late_ADD": 88184400,
+      "late_basis_ADD": 115166664,
+      "permutation_ADD": 7646796,
+      "total_ADD_including_pure_inverse": 335737320
+    }
+  },
+  "actual_native_H_donor_views": 103520,
+  "audited_parent_H_views": 40320,
+  "distinct_H_node_subsets": {
+    "9": 84,
+    "36": 40221
+  },
+  "field": 67,
+  "left_rank": {
+    "bad_unscaled": [
+      8,
+      3,
+      1062,
+      36,
+      22,
+      24
+    ],
+    "duplicate_node_control": true,
+    "ordinary": 6110,
+    "singleton": 360,
+    "singleton_component_tests": 720
+  },
+  "new_complete_kappa": false,
+  "source_pins": {
+    "bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+    "bit-asymmetric-balanced-atlas/author/output/ROUTES.jsonl.gz": "6d55093625ffd123daf3ae0914bcaeba1308756cec24fd2de083f6887ad0b036",
+    "bit-orthogonal-spread-port-allocation/author/output/WITNESS.json.gz": "7fff55e31738681191562949439537ea240557370895488934187455cd29d8ab"
+  },
+  "status": "PASS_NATIVE_RS_SOURCE_H_AND_BOTH_PAID_TERMINALS"
+}

@@ -1,0 +1,15 @@
+# GF(64) words on every native K
+
+Fix one GF(64) field per bank-480 owner, modulo z^6+z+1. The split library uses the marked nine and unmarked 36 D inputs. The mixed library uses all 45 in one group. In either library, 30 designated actual outputs of each native receiver have rank 30 on each supported donor's 30 incoming coordinates. All 103,520 cases use one physical word per shared chart.
+
+Label the sorted n=3k flags of a group by distinct nonzero nodes a_p=p+1. On input x form moments y_t=sum_p a_p^t x_p, for t=0,...,n−1. This is invertible. Each donor has k flags in the group by the spread or the native incidence counts. Every block of k consecutive exponents projects invertibly onto those k nodes by the Vandermonde determinant and nonzero diagonal scaling.
+
+There are 816 three-receiver K with one early and one late input per flag. Transform each phase and give each receiver k consecutive moments in each group. A further 65 K have two late owners per flag. Use two separately ordered late stripes. The K without a native terminal is the identity on its 90 transit owners. These charts need zero extra cross-phase memory.
+
+At the 227 two-receiver K, one native terminal receives 15 early and 15 late owners; the other gets 30 late owners. The eleven singleton terminals receive all 45 late owners. Transform both phases separately. A two-phase receiver gets rows t=2k,...,3k−1 of each phase. For an entirely late receiver reserve t=0,...,2k−1 of its late rows and add early moment t−1 to late row t whenever t is odd. A singleton retains the other k late outputs too. All remaining early outputs use actual closure owners.
+
+On any donor's k nodes the 2k rows give the transpose of the polynomial value-and-first-derivative map on degrees below 2k, up to column order. The kernel vanishes by divisibility by k squared distinct linear factors. The physical map is block lower triangular with invertible pure phases. Across groups the k cached moments sum to 15. At these 238 charts they are necessary on the formal input cut: hold all late inputs fixed and vary the 15 early donor inputs. The entirely late receiver must recover them through the stationary message. The counts are separate chart allocations.
+
+Compile the literal field-transpose templates on binary polynomial-basis inputs. Each permutation is paid in its actual owner order with three bitwise XORs per field swap. Each saved bit costs one INIT, two ADDs and a dirty CLEAR. The pure inverse reserve prices the actual diagonal blocks for normalization at Hub/Ground. At b=3840 spread costs 787,040,640 ADDs and mixed costs 1,149,928,896. Each uses 171,360 INITs and dirty CLEARs. A construction chooses one variant. All pre-existing movement remains charged. F reception, endpoint matching, and the return need their own proofs.
+
+[Independent review](../review/REVIEW.md) directly eliminates every restricted matrix on its actual owners. Credit @CubeJerry, S028's K cut and spread authors. Substantial OpenAI assistance. No new κ.

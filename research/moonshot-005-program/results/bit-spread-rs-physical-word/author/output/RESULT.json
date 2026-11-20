@@ -1,0 +1,163 @@
+{
+  "H263": {
+    "X-0": {
+      "donors": [
+        0,
+        61,
+        62
+      ],
+      "ports": [
+        120,
+        353,
+        720,
+        825,
+        1046,
+        1603,
+        2033,
+        2621,
+        2835
+      ],
+      "stripes": 16
+    },
+    "X-1": {
+      "donors": [
+        0,
+        61,
+        62
+      ],
+      "ports": [
+        108,
+        110,
+        118,
+        131,
+        132,
+        182,
+        185,
+        296,
+        321,
+        386,
+        717,
+        733,
+        735,
+        810,
+        813,
+        1044,
+        1054,
+        1247,
+        1254,
+        1393,
+        1475,
+        1509,
+        1527,
+        1733,
+        1734,
+        1735,
+        1831,
+        1852,
+        1994,
+        2573,
+        2575,
+        2770,
+        2836,
+        3010,
+        3060,
+        3107
+      ],
+      "stripes": 16
+    }
+  },
+  "actual_receiver_views": {
+    "active_native": 37263,
+    "all": 40320,
+    "native": 37296,
+    "native_donor_projections": 103520
+  },
+  "bank_field_coordinates_per_donor": 3840,
+  "complete_proper_endpoint": false,
+  "controls": [
+    {
+      "duplicate_one_node_rank": 4,
+      "jet_rank": 6,
+      "omit_derivative_rank": 3,
+      "ports": 9
+    },
+    {
+      "duplicate_one_node_rank": 22,
+      "jet_rank": 24,
+      "omit_derivative_rank": 12,
+      "ports": 36
+    }
+  ],
+  "every_donor_early_component_widths": [
+    768,
+    3072
+  ],
+  "field": "GF(2)[z]/(z^6+z+1)",
+  "field_degree": 6,
+  "finite_word_accounting": {
+    "INIT": 175056,
+    "additional_pure_X_at_Hub_and_pure_Y_at_Ground_inverse_ADD": 387020832,
+    "cross_ADD": 14940112,
+    "dirty_CLEAR": 175056,
+    "extra_MOVE": 0,
+    "extra_peak_at_one_H": 1056,
+    "extra_peak_if_all_snapshots_live": 175056,
+    "forward_ADD": 402136000,
+    "forward_plus_reserved_endpoint_inverses_ADD": 789156832,
+    "permutation_ADD": 11323296,
+    "pure_field_ADD": 375697536,
+    "pure_phase_ADD": 387020832,
+    "snapshot_copy_ADD_INIT_dirty_CLEAR": 175056
+  },
+  "native_chart_types": {
+    "empty": 1,
+    "full_early": 65,
+    "full_mixed": 816,
+    "singleton": 11,
+    "two": 227
+  },
+  "owner_copies": 8,
+  "per_type_cost_sums": {
+    "full_early": {
+      "permutation_ADD": 628128,
+      "pure_field_ADD": 21823360
+    },
+    "full_mixed": {
+      "permutation_ADD": 8100144,
+      "pure_field_ADD": 273967104
+    },
+    "singleton": {
+      "cross_ADD": 1036816,
+      "permutation_ADD": 128736,
+      "pure_field_ADD": 3693184,
+      "snapshot_copy_ADD_INIT_dirty_CLEAR": 11616
+    },
+    "two": {
+      "cross_ADD": 13903296,
+      "permutation_ADD": 2466288,
+      "pure_field_ADD": 76213888,
+      "snapshot_copy_ADD_INIT_dirty_CLEAR": 163440
+    }
+  },
+  "permutation_payload_sha256": "11934940a73e3ce4bf36ee554bb8710506a625e720847446c395ad3af350dd02",
+  "phase_owners": {
+    "full_early/X": 46800,
+    "full_mixed/X": 293760,
+    "full_mixed/Y": 293760,
+    "singleton/X": 3960,
+    "singleton/Y": 3960,
+    "two/X": 81720,
+    "two/Y": 81720
+  },
+  "polynomial_mask": 67,
+  "programme_baseline": "914097a04bb93f730b805e9d4f036b46707c8675",
+  "same_source_inverse_fibres_established": false,
+  "source_pins_decompressed": {
+    "bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+    "bit-asymmetric-balanced-atlas/author/output/PLANE-PHASES.json": "bae4a03a923abfc840e0d030093bdb635eb948de312697b5a08d0338bcc83cf6",
+    "bit-asymmetric-balanced-atlas/author/output/ROUTES.jsonl.gz": "6d55093625ffd123daf3ae0914bcaeba1308756cec24fd2de083f6887ad0b036",
+    "bit-orthogonal-spread-port-allocation/author/output/WITNESS.json.gz": "7fff55e31738681191562949439537ea240557370895488934187455cd29d8ab"
+  },
+  "status": "PASS_ALL_NATIVE_SPREAD_H_PHASE_WORDS",
+  "strict_suppliers_or_new_kappa": false
+}

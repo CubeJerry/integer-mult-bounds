@@ -1,0 +1,129 @@
+{
+  "H263_native_receivers": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    46,
+    47,
+    48,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    73,
+    74,
+    75,
+    76,
+    84,
+    85,
+    86,
+    87,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+  ],
+  "actual_early_bases": 111,
+  "bank_after_16_spinor_lanes": 3840,
+  "common_D_K_endpoint_word": false,
+  "components": {
+    "12": {
+      "core_rows_per_other_plane": 4,
+      "exterior_cut_types": 27,
+      "geometric_H_receivers": 36,
+      "literal_donor_readout_equalities": 72,
+      "native_H_receivers": 33,
+      "scope_controls": {
+        "corrupt_one_readout_rank": 181,
+        "omit_one_quotient_rank": 168
+      },
+      "special_early_pair_ranks": {
+        "0": 384,
+        "61": 384,
+        "62": 384
+      },
+      "special_native_foreign_pairs": 174
+    },
+    "3": {
+      "core_rows_per_other_plane": 1,
+      "exterior_cut_types": 27,
+      "geometric_H_receivers": 36,
+      "literal_donor_readout_equalities": 72,
+      "native_H_receivers": 33,
+      "scope_controls": {
+        "corrupt_one_readout_rank": 46,
+        "omit_one_quotient_rank": 42
+      },
+      "special_early_pair_ranks": {
+        "0": 96,
+        "61": 96,
+        "62": 96
+      },
+      "special_native_foreign_pairs": 174
+    }
+  },
+  "compressed_coefficient_sha256": "d95b4bee7265940cd8540902992e25e36a8572d7670c698bf3e1cb9a5220c028",
+  "field_modulus": 67,
+  "generic_donors": 108,
+  "generic_native_foreign_pairs": 6296,
+  "input_pins_decompressed": {
+    "algebra": [
+      "bit-coupled-source-reduced-determinants/author/algebra.py",
+      "c482936813c11783f88fb74bd83d683989a709733f8aac6d6f99ddad50a288ba"
+    ],
+    "basis": [
+      "bit-clifford-one-evaluation-gate/author/BASIS.json",
+      "d2a825f09a4d24a8a0319743ec84bed9b9e6b50656d3105a1c4577ec78fba9ab"
+    ],
+    "layout": [
+      "bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz",
+      "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72"
+    ],
+    "routes": [
+      "bit-asymmetric-balanced-atlas/author/output/ROUTES.jsonl.gz",
+      "6d55093625ffd123daf3ae0914bcaeba1308756cec24fd2de083f6887ad0b036"
+    ],
+    "spread": [
+      "bit-orthogonal-spread-port-allocation/author/output/WITNESS.json.gz",
+      "7fff55e31738681191562949439537ea240557370895488934187455cd29d8ab"
+    ]
+  },
+  "new_complete_kappa": false,
+  "ordinary_quotient_after_16_spinor_lanes": [
+    48,
+    192
+  ],
+  "other_H_inverse_graphs": false,
+  "programme_baseline": "914097a04bb93f730b805e9d4f036b46707c8675",
+  "scalar_input_by_component": [
+    48,
+    192
+  ],
+  "separate_source_binary_record_bill": {
+    "additional_MOVE": 0,
+    "extra_peak_upper_bound": 1926000,
+    "forward_and_reserved_original_inverse_ADD_upper_bound": 162239145840,
+    "genuine_singleton_extra_field_rows": 1320,
+    "late_INIT": 1926000,
+    "late_dirty_CLEAR": 1926000
+  },
+  "special_donors": [
+    0,
+    61,
+    62
+  ],
+  "status": "PASS_ALL33_H263_GLOBAL_GF64_SOURCE",
+  "strict_supplier": false,
+  "total_native_foreign_pairs": 6470
+}
