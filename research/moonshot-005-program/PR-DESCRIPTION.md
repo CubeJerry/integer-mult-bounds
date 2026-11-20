@@ -492,3 +492,7 @@ On the fixed physical RS word the whole return and two distinct restricted class
 ## S029 checkpoint 7
 
 An induced 14-owner entropy certificate gives an exact nine-bank binary broadcast optimum without proper-rank restrictions. This fixes the abstract target against which physical words must be measured. A three-donor functional equation gives a sharp rigidity theorem for separable finite-alphabet maps. Independently priced mixed-grade product schedules from a new #7831 transfer reduce the formal tensor construction to 88 factors under the required source and interface contracts. The complete multiplication theorem remains open.
+
+## S029 checkpoint 8
+
+The nine-bank optimum now characterizes all minimum linear fittings and normalized sum-separable finite-abelian fittings on the authenticated native geometry. A missing directed donor costs at least one-sixth of a bank even for general zero-error index coding. The physical traces include a 31-chart source delivered through the final facets, complete target restrictions on every proper edge, and two independent whole-network eliminations. The rational track proves an exact private rail and a scoped 71,411-test obstruction. Its 995-move repair misses the 0.005 charge. No complete κ improvement is claimed.

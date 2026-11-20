@@ -2771,3 +2771,7 @@ The sixth checkpoint records the full RS rank, a disjoint rank distance invarian
 ## S029 checkpoint 7
 
 Checkpoint seven proved the abstract nine-bank native floor, a sharp factor-two separable image gap and its bounded-erasure extension. Two fresh upstream developments were read at exact commits. The transplanted cutoff method yields 88- and 194-factor mixed-grade witnesses for the proposed tariff. All three new directions have independently implemented arithmetic or structural verification.
+
+## S029 checkpoint 8
+
+The eighth checkpoint proves every directed native donor individually necessary at the nine-bank optimum and gives a quantitative loss bound. It integrates complete original-owner H-to-facet routing, the all-pair S028 coordinate witness, exact global fixed-word ranks, native prefix/suffix retuning cuts and the full rational #7830 rail plus #7833 compatibility. Each incomplete physical continuation has its own certificate and invoice.

@@ -35,9 +35,9 @@ A binary canonical fitting of rank nine gives nine broadcast banks on this graph
 `check.py` needs only the Python standard library, the published layout and the compact witness. It validates the native owner graph, five-link upper witness, every raw decoding antecedent, positivity of the inequality coefficients, the exact integer identity, and targeted falsifications. The optional SciPy discovery program regenerates the same owner chart and dual. The proof and replay do not depend on numerical optimization.
 
 ```sh
-python work-review/petersen/check.py \
-  --layout programme/research/moonshot-005-program/results/bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz \
-  --witness work-review/petersen/output/WITNESS.json --out work-review/petersen/output
+python research/moonshot-005-program/results/bit-native-petersen-converse/author/check.py \
+  --layout research/moonshot-005-program/results/bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz \
+  --witness research/moonshot-005-program/results/bit-native-petersen-converse/author/output/WITNESS.json --out /tmp/native-petersen-replay
 ```
 
 Credit @CubeJerry and the original native root and index-code programme. Substantial OpenAI assistance. The result does not change κ.

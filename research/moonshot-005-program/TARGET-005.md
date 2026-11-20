@@ -317,3 +317,7 @@ The [disjoint restriction](results/bit-native-rs-return-distance/ADMISSION.md) o
 ## S029 checkpoint 7
 
 The unconditional native floor is 34,560 and the proposed m=870 cap is 34,688. In the separable finite-alphabet model the strict twofold output threshold already forces common elementary-binary transports when the specified native tree is bijective, or when at most 54 unidentified functions are defective. The [mixed-grade budget](results/bit-covariant-rebalanced-cutoffs/ADMISSION.md) holds at raw price 0.0050000005 for 88 copies, or 194 copies with uniform logarithmic power 36. Both depend on the fully normalized source.
+
+## S029 checkpoint 8
+
+Deleting even one directed proper donor forces 35,200 field symbols at b=3,840, 512 above the 34,688 cap. Equality q=34,560 forces the canonical binary transport up to native basis changes. Within the prescribed invertible foreign interface, fixing D/K/F excludes all earlier-only rewrites by q≥35,109. With S/H retained the cut census gives at least 712 changed D charts at h=128. With spread K/RS F retained the count is 707; with both ends fixed it is 764. The cost of a different source/endpoint must be paid.

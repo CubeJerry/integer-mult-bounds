@@ -472,3 +472,7 @@ Eleven relocated jobs reproduced all substantive H263, K, Reed–Solomon/H/F, ga
 ## S029 checkpoint 7
 
 [Checkpoint 7](sessions/2026-11-20-S029/checkpoint7_replay.py) replays eight proof and review paths. The Petersen dual cancels exactly both in its 1,024-coordinate expansion and in an independently implemented 34-orbit quotient. The three-donor proof and erasure verification check 2,965 propagation charts and 12,481 disjoint repairs. Independent 85-digit directed arithmetic confirms both target cutoff schedules. [Recomputed results](sessions/2026-11-20-S029/CHECKPOINT7-VALIDATION.json). The separate upstream Python replay matched #7831 BIT and RESULT bytewise and AUDIT as JSON.
+
+## S029 checkpoint 8
+
+[Checkpoint 8](sessions/2026-11-20-S029/checkpoint8_replay.py) checks the asymmetric entropy dual independently, all 19,410 native implications, the integer mixed repair lower bound, the priced four-facet word and the full rational rail. The [physical replay](results/bit-native-physical-replay/author/REPLAY.md) independently extracts all 6,470 original-owner coefficient blocks for the named words. [Both execution sets](sessions/2026-11-20-S029/CHECKPOINT6-HEAVY-VALIDATION.json) together regenerated all eight original 111/55/19 rank streams, with seven of eight available separately in each run. The complete #7830 portfolio was also separately replayed with --full.

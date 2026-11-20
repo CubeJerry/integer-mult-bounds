@@ -47,9 +47,7 @@ Choose any proper cell (i,j) outside the prescribed tree. On A=F₂ᵐ start wit
 From the workspace, run the following command against the published layout. Certificate generation optionally accepts `--seeds` pointing to the upstream CLOSURE and WEIGHTED files. Replay of the included certificate needs only the native layout.
 
 ```sh
-python work-review/nonlinear-rigidity/triples.py \
-  --layout programme/research/moonshot-005-program/results/bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz \
-  --out work-review/nonlinear-rigidity/output
+python -B research/moonshot-005-program/sessions/2026-11-20-S029/checkpoint7_replay.py --repo . --out /tmp/native-sharp-replay
 ```
 
 The four targeted faults independently replace an exterior anchor by a receiver, collide two of the three identified donors, remove a required additive join, and use an ineligible pivot donor. Each is rejected for its intended reason.

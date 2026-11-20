@@ -57,3 +57,7 @@ The [19-receiver cut](results/bit-physical-regional-prefix-cut/ADMISSION.md) rul
 ## S029 checkpoint 7
 
 The [native lower bound](results/bit-native-petersen-converse/ADMISSION.md) now covers arbitrary zero-error broadcasts with the stated receiver side information. The canonical binary word has the exact abstract minimum, nine whole banks. Reaching the paid architecture requires the same receiver information within at most 128 extra field symbols at b=3,840. Upstream’s mixed-grade tail approach materially reduces the formal product size needed once the physical source is provided.
+
+## S029 checkpoint 8
+
+Near the nine-bank optimum every native donor carries substantial information. The [individual-donor theorem](results/bit-native-petersen-converse/author/HORN-PROOF.md) requires rank≥3,072 on each of the 6,470 proper blocks at the 34,688 budget, even allowing singular old tree entries. A common source now reaches all 3,123 donor/H/receiver fibres prescribed by the 31-chart placement. A separate word carries the specified S028 perturbations on 314,864 original directions. Its exact global return of 417,873 quantifies the missing coordination.

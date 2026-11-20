@@ -1,0 +1,29 @@
+# The two-sided target on actual original-input columns at every native edge
+
+One physical source, H, D, K and facet word agrees with the published S028 two-sided target on an explicit original-input subspace at every one of the 6,470 proper foreign pairs. All 123 nonidentity target blocks act nontrivially on the specified tests. The word works on 40 field directions at each of 42 donors, 48 at each of 19 donors and 56 at each of 50 donors. These counts refer to independent original inputs with their full 3,840-coordinate physical facet outputs. The same chosen subspace works at every foreign receiver of a given donor. In total there are 314,864 donor/receiver/direction equalities.
+
+All 6,470 entire proper blocks remain invertible. The return fitting lies between 45,616 and 417,873 field records. The S028 target requires 34,688; this partial realization therefore has an insufficient full return. No complete κ follows.
+
+## Coordinate convention and the fixed physical word
+
+Use the actual all-RS source, H, D and K and the previously printed global facet interpolation word. Its original source and final raw facet have the same physical order. Within each copy e the marked 96 body coordinates appear at absolute ordinals 96e+s. The unmarked 384 coordinates appear at 768+384e+s. The target's explicit published adapted order uses sixty consecutive banks of 64, with column zero the least significant bit of each stored binary row. Identify these printed target field ordinals with the genuine physical raw ordinals 0 through 3,839 throughout. The checker constructs both permutations and consumes the five actual internal matrices plus every numbered bank transfer from the authenticated assignment.
+
+Let U be the preceding seven-column original-body family. Select five, six or seven leading columns per donor and use all eight physical copies independently. The preceding transfer equals identity on those columns. Each nonidentity target block equals I+N_ij. At i=80 its 62 possible perturbations land in the central 64-field bank, which belongs entirely to copy zero. A distinct receiver i foreign to donor 10 has exactly one perturbation, whose input belongs to that same central bank. Its output belongs to one specified bank of 64 fields, including the two internal cases at bank zero. These are disjoint perturbation stars.
+
+## Direct physical interpolation of the missing target values
+
+For a fixed affected receiver and input copy e, take every native donor's actual early field matrix E_ij on its designated original columns. Their concatenation D has full column rank, checked in GF64 for every one of the 62 affected receivers. The subspace choices were reduced slightly from the preceding flat word to fit this genuine early interface. The previous five-to-seven-column fitting remains valid on all selected subspaces.
+
+Compute in the single destination bank the exact 64-row matrix of all desired N_ij U^(e) values across every donor and input copy. Choose a column basis A for their joint image. Its rank is 64 at receiver 80 and five at each of the 61 receivers foreign to donor 10. Each input-copy target is uniquely A times the known desired coefficients. The stored finite seeds and pivot submatrix of D give one actual matrix L_e with A L_e D equal to those target values for every selected donor. Other copies have zero corrections. Each added field matrix A L_e is compiled directly from the genuine captured early holders into the named output bank after the prior V_i facet transform. The original Y diagonal is unchanged.
+
+For an entire 3,840-by-3,840 proper block the new copy matrix is triangular. At receiver 80 all cross-copy corrections leave their result in copy zero. At every affected column-star receiver they all read input copy zero. The other copy-diagonal blocks retain the preceding full-rank transfer. When the active source copy also intersects the destination bank, its complete 480-square block becomes B+A_e L_e E. The exact determinant test uses I+L_e E B^(-1) A_e, and direct 480-square elimination independently confirms every such diagonal. The selected nonzero outputs and all their output-coordinate zeros are tested against the published target values. No donor-specific final facet word is used.
+
+## Return and price
+
+Each receiver's correction has image in the single column basis A. Their total image dimension is at most 64+61·5=369 in the complete field vector space. The former physical upper bound 417,504 gives the stated upper bound. The checker evaluates the correction on every generator of the preceding exhibited 8,736-dimensional kernel. Its rank there is 369, leaving at least 8,367 of those actual return-kernel directions. Write A for the old fitting and P for the correction. Since P maps a subspace of ker A onto all of im P, the image of A+P contains im P and therefore contains each Ax=(A+P)x+Px as well. Its image is exactly im A+im P. In particular every independently established lower bound for the preceding complete fitting transfers without loss, including the author's 45,616.
+
+The added matrices cost 27,790,197 binary ADDs, obtained by expanding their actual six-bit field scalars. All sites reuse their already paid original early snapshots. They require zero additional INIT, dirty CLEAR, MOVE, or pure-Y inverse ADD. The previous 10,139,516,416 additional local ADD charge and all native source, H, D, K and F bills remain payable.
+
+    python -B PATH/author/check.py --repo REPOSITORY --out FRESH
+
+The verifier requires Python 3, NumPy, a C compiler and the preceding global facet package. An optional cache directory allows verified arrays from the preceding replay to be reused. Credit @CubeJerry and the authors of the native geometry, actual transfer words, global facet interpolation and the original irreducible two-sided target. Substantial OpenAI assistance.

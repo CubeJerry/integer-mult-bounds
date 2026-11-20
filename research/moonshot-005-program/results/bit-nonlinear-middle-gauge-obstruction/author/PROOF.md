@@ -29,3 +29,46 @@ The checker exhausts all pairs of subsets of matching cardinalities in the eight
     python -B check.py --native-review PATH/TO/ISOLATED-MIDDLE/review/output/RESULT.json --out FRESH
 
 Credit @CubeJerry and the native route, target, source, H-word and isolated-middle-fibre contributors. The strengthening and finite verifier used OpenAI assistance. The full multiplication bound remains open.
+
+## Native census and 27 disjoint necessary changes
+
+The 107 fixed ordinary donor stars exclude the three H263 donors and the modified source 10. Receiver 80 is excluded. All remaining sections considered here have the identity S028 target. Across all 630 marked D nodes there are 6,174 proper donor/receiver cuts and 74,088 labelled eight-field isolated fibres. For each D, compare the joined fibre partitions over every nonempty subset of its actual native receivers at every eligible donor. This exhausts 1,530,250 labelled receiver subsets.
+
+Exactly 32 D nodes have a mismatch. In each such case the full set of twelve receivers is required. On 6,708 labelled donor/D configurations all the fibre directions are independent. Another 19 configurations have a one-dimensional relation space and 14 have a two-dimensional one. To verify all receiver subsets, form the kernel of the matrix whose column blocks are the labelled inverse directions. For a subset S the rank deficit is the dimension of the relation vectors supported inside S. A two-dimensional field space has 65 projective lines. The checker computes the support mask of each of its lines and counts how many are contained in S. Counts 0, 1 and 65 give deficit 0, 1 and 2. This is exact over the finite field. It also certifies the lack of shorter single-D subset conflicts in the stated native census.
+
+An incompatibility graph on the ordinary donors joins j and k whenever any of those native receiver subsets gives unequal partition sizes. Its 301 edges contain 27 disjoint pairs. Whichever actual changes one makes, at least one donor's fixed left source/H transfer in each of those 27 pairs must change. Arbitrary preprocessing or output relabellings under the theorem cannot resolve an edge. The 27-element cover in MATCHING.json meets all 301 certified edges, so exactly 27 vertices are needed to cover this graph. A complete physical repair may require additional changes. A shared H modification can affect several donor stars at once.
+
+The shorter `verify_matching.py` replay starts from genuine native routes and source coefficients, directly solves every selected 96-square block and checks the resulting join ranks on all 54 distinct donors. It provides the lower bound without regenerating the full census. The larger exact census may use the optional C elimination routine. Its scalar path is portable to ordinary C99, and the `-march=native` flag enables an optional AVX2 table lookup when supported. All actual data and geometry are regenerated from the repository; the temporary 55 MB field array is reproducible.
+
+    cc -O3 -shared -fPIC finite_rank.c -o /tmp/native-finite-rank.so
+    python -B census.py --repo REPO --library /tmp/native-finite-rank.so --degree 0 --save-fibres /tmp/native-fibres.npz --out /tmp/census
+    python -B all_joins.py --repo REPO --library /tmp/native-finite-rank.so --fibres /tmp/native-fibres.npz --out /tmp/census
+    python -B verify_matching.py --repo REPO --out /tmp/native-matching
+
+The integer cardinality certificate is independent of the arithmetic accelerator. Exact multiplication by the unmodified finite-field implementation checks representative inverse matrices, and the 27-pair replay uses only Python and NumPy.
+
+## Simultaneous labelled separators force a complete conflict graph
+
+For either donor of a fixed pair, consider any family of separator labels (receiver i, marked D). The common-coset conclusion above holds separately for every label where both original equations have identity target. The sender uses the same bijection for every label. Taking the join of these partitions on each sender's original input alphabet therefore gives equal block cardinalities at both donors. This argument permits different receivers and different D in the same family. Each matching relation is on the original sender domain, so comparing joins requires no common choice of receiver readout. In the frozen left source/H transfer the block cardinality of this join is the cardinality of the sum of the associated isolated native fibre directions. Eight identical copies multiply each component rank by eight.
+
+The literal archive `PAIR-WITNESSES.json.gz` lists every unordered pair among the 107 ordinary fixed donor stars. Each of its 5,671 records specifies twelve distinct native (D,i) labels shared by those two donors and their unequal exact ranks. At least one fixed ordinary donor-star transfer in each pair must change. Consequently **at most one of these 107 transfers can survive and at least 106 must change** if the complete native identity equations are to hold under the stated frozen left-boundary architecture. An operation at a shared physical H can alter several donor-star maps. The theorem counts altered donor-star transfers. It permits full nonlinear, independently chosen original-input and output bijections and arbitrary downstream decisions at these fixed saturated separators.
+
+The 301 single-D witnesses form part of the complete certificate. The other 5,370 records use two through nine D nodes. The checker verifies native geometry, labels, the recorded rank inequalities, the complete set of donors and the complete set of unordered pairs. It authenticates all 74,088 input fibres as regenerated by `census.py`. It can run entirely in Python and NumPy or use the same small C arithmetic accelerator. The exact ranks take precedence over any discovery seeds.
+
+    python -B cross_joins.py --repo REPO --library /tmp/native-finite-rank.so --fibres /tmp/native-fibres.npz --out /tmp/census
+
+## All 110 identity-input donors in nine complete source words
+
+The same criterion gives a separate complete incompatibility graph on all 110 donors other than the modified donor 10 for each of nine frozen native source/H words. These are the ordinary all-RS word, the H263 three-donor source, its isolated-D120 retuning, both independently verified D120 facet variants, and the 23-, 24-, 30- and 31-centre packed physical sources. The 31-centre source simultaneously supports 3,123 positive end-to-end donor/receiver/H fibres. The present obstruction concerns the full original-input identity equations at the native proper edges of the same word.
+
+For each fixed source, all 5,995 unordered donor pairs have a separate literal witness among 76,164 native eight-dimensional per-copy fibre spaces derived from 6,347 actual invertible cuts. At least 109 of the 110 frozen donor-star source/H maps must change before attaining the whole target, even under the arbitrary nonlinear bijections in the theorem. This is a necessary change count for each individual listed source word. It gives no lower bound on a universal architecture that changes the maps. Each source record includes the complete native singleton rows, true mixed H phase frames and any fixed original-input gauges of that variant. The regular inventory is reused only on donors whose source is exactly unchanged. Each smaller variant file stores literal differences against a complete predecessor table.
+
+    python -B variant_joins.py --repo REPO --variant packed_31 --library /tmp/native-finite-rank.so --fibres /tmp/native-fibres.npz --out /tmp/variants
+
+The other legal selectors are ordinary, H263, retuned_D120, D120_36, D120_132, packed_23, packed_24 and packed_30.
+
+### The canonical contact summand uses all 111 donors
+
+For the separately proposed canonical contact matrix O tensor I, donor 10 also has the identity on every proper edge. All nine frozen source variants therefore permit the same test on all 111 native donors. Holding receiver 80 out throughout already supplies 6,408 invertible native source/receiver cuts and 76,896 isolated one-copy fibre spaces. In each variant the exact certificates give a complete 111-vertex conflict graph, consisting of all 6,105 unordered pairs. At least 110 of the 111 fixed donor-star source/H words have to change to realize the entire canonical summand, even under the arbitrary local relabellings in the finite theorem. These certificates concern the proposed canonical base of the separately paid rank-128 difference. The full S028 target has the distinct 110-vertex certificates above, which exclude its modified donor 10.
+
+    python -B variant_joins.py --repo REPO --variant packed_31 --canonical --library /tmp/native-finite-rank.so --fibres /tmp/native-fibres.npz --out /tmp/variants

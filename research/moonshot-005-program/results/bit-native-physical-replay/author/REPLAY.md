@@ -1,0 +1,11 @@
+# Reproduce the native endpoint and return calculations
+
+One command rebuilds the paid proper words, independently checks original field coordinates, and collects the numerical results. The primary physical word agrees with the prescribed S028 target on 314,864 original field directions distributed across every one of the 6,470 native proper pairs. Its exact physical return rank is 417,873, compared with 34,688 for the complete target. The preceding unmodified-facet interpolation word has exact physical return rank 417,504. The distinct packed 31-centre word gives 240-field identities on 3,123 chart incidences. The two D120 words and the nine frozen-source obstructions have their own finite inputs. These products of the computation describe separate physical words and cannot be combined into one claimed circuit.
+
+    python -B research/moonshot-005-program/results/bit-native-physical-replay/author/check.py --repo . --out /tmp/native-results
+
+The optional --work directory retains temporary libraries, matrices, certificates and logs for inspection. Without it the runner clears these files after the replay. Add --select with one or several names from nonlinear, d120, packed, global and two-sided for targeted replay. The two-sided selector also reproduces the global predecessor. For the entire global return rank reproduce the optional --exact extension. The C99/GNU-compatible compiler, NumPy, Python 3 and about 4 GB of temporary disk suffice for the ordinary run. The complete elimination needs about 3 GB of additional working memory and several CPU cores. The compact numerical receipt contains the checked whole-word and subspace scopes, and records that the complete kappa gate remains open.
+
+The code reconstructs complete native routing authorities and the recorded full matrix hashes. It uses actual physical field owners, the native H and K phase flags and snapshots, and the all111 true early and late bases. The certificates use real polynomial-basis GF(64) records. All pricing is in binary ADD unless a different unit is stated.
+
+Contributors include @CubeJerry, the source, H/D/K and native facet word authors, the two-sided target construction and independent verification efforts. OpenAI assistance supported construction and verification.

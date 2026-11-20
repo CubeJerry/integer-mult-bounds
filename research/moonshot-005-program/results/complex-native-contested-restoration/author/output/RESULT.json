@@ -1,0 +1,166 @@
+{
+  "complete_kappa_claimed": false,
+  "conditional_complex_compiler": {
+    "grade_above": "(239/10)^v",
+    "mode": {
+      "1": 1401985,
+      "2": 977993,
+      "3": 2091456,
+      "4": 67387319,
+      "5": 11125978,
+      "7": 6803205,
+      "8": 17759776,
+      "9": 338207732,
+      "17": 30548003,
+      "25": 44836983,
+      "33": 59102708,
+      "41": 73350977,
+      "49": 87585261,
+      "57": 101807876,
+      "65": 116020480,
+      "129": 114734092
+    },
+    "paid_mean_log2_upper": "24194171/7925760",
+    "positive_log2_chord_derivative_margin_lower": "545956753/4335390720",
+    "positive_raw_gap_at_trial": [
+      "0.472038208598",
+      "0.472038208599"
+    ],
+    "power": 1073741824,
+    "scaled_funding_slack_lower": "689",
+    "scaled_overhead_upper": 499,
+    "split_cutoff": "70^(v/2)",
+    "strict_degree_nine_controls": {
+      "batch_over_3.1_to_nine": [
+        "97744.990450792949",
+        "97744.990450792950"
+      ],
+      "linear_mass_over_cutoff": [
+        "117.374022309519",
+        "117.374022309520"
+      ],
+      "paid_over_large_grade": [
+        "14.672187869522",
+        "14.672187869523"
+      ]
+    },
+    "target_mean_log2_lower": "3560767/1120256",
+    "trial_saving": "10001/2000000",
+    "width_degree": 10
+  },
+  "grouped_relay": {
+    "both_possible_mod_p": 822,
+    "incoming_possible_mod_p": 899,
+    "positive_quotient_ranks": 0,
+    "triples": 6959
+  },
+  "native_banks": {
+    "adjoint": {
+      "active_charts": 978,
+      "rank_deficit": 0,
+      "scalars": 6996
+    },
+    "forward": {
+      "active_charts": 978,
+      "rank_deficit": 0,
+      "scalars": 6996
+    }
+  },
+  "negative_controls": [
+    "remove final contested join",
+    "use a common rank supplier without full paid chord",
+    "take a deficient modular rank as a rational upper bound",
+    "packed product above one field digit",
+    "count one fixed funded homogeneous grade as O(N^9)"
+  ],
+  "path_price": {
+    "gain_needed_per_native": [
+      "23.708028821921",
+      "23.708028821922"
+    ],
+    "graph_incidences": 11511,
+    "maximal_path_lengths": {
+      "1": 2674,
+      "2": 977,
+      "3": 265,
+      "4": 37,
+      "5": 26,
+      "6": 1
+    },
+    "maximum_one_contested_join_gain": [
+      "0.030629456147",
+      "0.030629456148"
+    ],
+    "maximum_private_native_gain": [
+      "19.840144855237",
+      "19.840144855238"
+    ],
+    "necessary_contested_per_identical_copy": 127,
+    "original_gap": [
+      "-1137.985383452244",
+      "-1137.985383452243"
+    ],
+    "private_joins": 1727,
+    "remaining_per_native": [
+      "3.867883966684",
+      "3.867883966685"
+    ],
+    "source_histograms": {
+      "all_private_coarsened": {
+        "1": 1723,
+        "2": 1072,
+        "3": 408,
+        "4": 122,
+        "5": 224,
+        "6": 98,
+        "7": 312,
+        "8": 14,
+        "9": 7
+      },
+      "original": {
+        "1": 3840,
+        "2": 790,
+        "3": 489,
+        "4": 230,
+        "5": 314,
+        "6": 40,
+        "7": 3,
+        "8": 1
+      },
+      "private_plus_152_contested": {
+        "1": 1723,
+        "2": 1002,
+        "3": 340,
+        "4": 88,
+        "5": 194,
+        "6": 66,
+        "7": 262,
+        "8": 30,
+        "9": 123
+      }
+    },
+    "truncated_caller_gap": [
+      "-0.268912844374",
+      "-0.268912844373"
+    ],
+    "witness_caller_gap_at_target": [
+      "0.865705659795",
+      "0.865705659796"
+    ],
+    "witness_contested_joins": 152,
+    "witness_raw_crossing": [
+      "500109954083/100000000000000",
+      "125027488521/25000000000000"
+    ]
+  },
+  "source": {
+    "application_sha256": "1b2d87e93ae023f5ffd464546af53281b6cb4963dfd76ae4742e0a5540b752fa",
+    "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
+    "grade_head": "03b572b3b9ab72c6ba67762e85e1630cda1daad5",
+    "grade_pr": 7828,
+    "p104_head": "14c74c6a67108f675ac1196a5f2415ead0920e71",
+    "source_pr": 7830,
+    "word_sha256": "7660985e0b618cdbee13e4190a4c6d5f91fbdf01a8f7a5186fdde8b980c19b48"
+  },
+  "status": "PASS_P104_PATH_PRICES_AND_EXACT_GROUPED_RELAY_INTERFACE"
+}

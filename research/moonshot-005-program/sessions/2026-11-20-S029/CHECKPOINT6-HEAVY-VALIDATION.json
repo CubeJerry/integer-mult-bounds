@@ -1,0 +1,79 @@
+{
+  "verified_regenerations": {
+    "stream-small": [
+      {
+        "execution": "first",
+        "result_sha256": "09d39cf15e0ad41380ff4d8c78ee68d7577b4c0d997be5f5e2d9feab2f44c2f5"
+      },
+      {
+        "execution": "second",
+        "result_sha256": "09d39cf15e0ad41380ff4d8c78ee68d7577b4c0d997be5f5e2d9feab2f44c2f5"
+      }
+    ],
+    "stream-large": [
+      {
+        "execution": "first",
+        "result_sha256": "bf0ea40327f3ade0b675465bdae3b9172a6d1fe07a48562b5960f83edba96a6e"
+      }
+    ],
+    "disjoint-small": [
+      {
+        "execution": "first",
+        "result_sha256": "160b9701a07c2f86f29a31eab53f2b33c4df88fd297181734f92d6b27df4946b"
+      },
+      {
+        "execution": "second",
+        "result_sha256": "160b9701a07c2f86f29a31eab53f2b33c4df88fd297181734f92d6b27df4946b"
+      }
+    ],
+    "disjoint-large": [
+      {
+        "execution": "first",
+        "result_sha256": "18946b0e434d2be1ccc70462421fe82f4623720eb9bc0e5cbde5f77d88e316aa"
+      },
+      {
+        "execution": "second",
+        "result_sha256": "18946b0e434d2be1ccc70462421fe82f4623720eb9bc0e5cbde5f77d88e316aa"
+      }
+    ],
+    "cut-small": [
+      {
+        "execution": "first",
+        "result_sha256": "316673189a0ab55af4d98b5dbcae7d2f66dbb8f926998e4ad9b0694ab8056cb9"
+      },
+      {
+        "execution": "second",
+        "result_sha256": "316673189a0ab55af4d98b5dbcae7d2f66dbb8f926998e4ad9b0694ab8056cb9"
+      }
+    ],
+    "cut-large": [
+      {
+        "execution": "first",
+        "result_sha256": "fb2a33d67057b24e2715c6b246f276ca92af492fcaf776782246127a13691ac2"
+      },
+      {
+        "execution": "second",
+        "result_sha256": "fb2a33d67057b24e2715c6b246f276ca92af492fcaf776782246127a13691ac2"
+      }
+    ],
+    "cut-review-small": [
+      {
+        "execution": "first",
+        "result_sha256": "88bb068513048d696d8b5719750d888c3b9e168c19347cbb4c4adebde0bd2a57"
+      },
+      {
+        "execution": "second",
+        "result_sha256": "88bb068513048d696d8b5719750d888c3b9e168c19347cbb4c4adebde0bd2a57"
+      }
+    ],
+    "cut-review-large": [
+      {
+        "execution": "second",
+        "result_sha256": "ba0795ad406b06d676cae21dc3f72941fc57e6178cd56e91c69edaafa226fdb4"
+      }
+    ]
+  },
+  "scope": "Seven jobs completed in each of two fresh runs. All eight completed at least once. The original-source full stream has no external block side inputs.",
+  "replay": "checkpoint6_replay.py --heavy --jobs 1",
+  "supplementary_fields": "Pre-K regeneration also emits three H/donor capacity fields. All preexisting quantities matched. The gate independently verifies these additional capacities."
+}
