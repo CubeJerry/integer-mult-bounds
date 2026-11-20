@@ -1,5 +1,22 @@
 # Construct structured native sources and prove exact compatibility gates toward κ=0.005
 
+## S031 checkpoint5: fullwidth compatible H pair and a joint-loss theorem
+
+The programme now has a source-bound full45-port H263/H642 pair on five shared
+sources, with one genuine donor61 early basis. Its corrected width12 component
+uses the current global port allocation. Independent checks cover315/291 full
+source cuts,72/67 whole readouts, ranks45/44, and nonsaturation216/207<225.
+Actual-owner binary words cost1509520 local replacement ADDs plus16 field
+exports; these are gross local costs and not a new full supplier invoice.
+
+A separate information theorem proves that disjoint H rank losses add even
+under nonlinear joint recovery at the specified original-X restoration
+boundary. Direct gap6 defects satisfy2a+b<=21 at m870, or22 in the limit.
+Two further scoped gates rule out both frozen anchor tails and establish a
+constrained union-loss lower bound12. The next work is a third compatible H
+and common downstream transport. All five foundations and both suppliers
+remain open; the branch remains an ongoing programme, not PR-ready.
+
 **Cumulative draft only. The branch remains an ongoing research programme,
 not PR-ready. No new complete κ is claimed.**
 

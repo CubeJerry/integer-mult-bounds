@@ -1,0 +1,277 @@
+{
+  "H_receipts": [
+    {
+      "H": 263,
+      "component_core_ranks": [
+        22,
+        192
+      ],
+      "donors": [
+        0,
+        61,
+        62
+      ],
+      "full_core_rank": 214,
+      "geometric_receivers": 36,
+      "native_receivers": 33,
+      "physical_ports": [
+        108,
+        110,
+        118,
+        120,
+        131,
+        132,
+        182,
+        185,
+        296,
+        321,
+        353,
+        386,
+        717,
+        720,
+        733,
+        735,
+        810,
+        813,
+        825,
+        1044,
+        1046,
+        1054,
+        1247,
+        1254,
+        1393,
+        1475,
+        1509,
+        1527,
+        1603,
+        1733,
+        1734,
+        1735,
+        1831,
+        1852,
+        1994,
+        2033,
+        2573,
+        2575,
+        2621,
+        2770,
+        2835,
+        2836,
+        3010,
+        3060,
+        3107
+      ],
+      "provider_rank": 45
+    },
+    {
+      "H": 642,
+      "component_core_ranks": [
+        18,
+        192
+      ],
+      "donors": [
+        45,
+        61,
+        100
+      ],
+      "full_core_rank": 210,
+      "geometric_receivers": 36,
+      "native_receivers": 34,
+      "physical_ports": [
+        296,
+        297,
+        302,
+        349,
+        375,
+        506,
+        576,
+        594,
+        673,
+        733,
+        774,
+        775,
+        778,
+        825,
+        1027,
+        1089,
+        1166,
+        1202,
+        1297,
+        1299,
+        1343,
+        1360,
+        1412,
+        1509,
+        1511,
+        1525,
+        1601,
+        1726,
+        1727,
+        1738,
+        1817,
+        1852,
+        1854,
+        1870,
+        1961,
+        2125,
+        2131,
+        2156,
+        2192,
+        2230,
+        2909,
+        2910,
+        3008,
+        3059,
+        3067
+      ],
+      "provider_rank": 44
+    }
+  ],
+  "actual_early_bases": [
+    {
+      "component_determinants": [
+        18,
+        1
+      ],
+      "component_seeds": [
+        0,
+        0
+      ],
+      "determinant": 18,
+      "donor": 0,
+      "rank": 480,
+      "source_chart": 263
+    },
+    {
+      "component_determinants": [
+        3,
+        34
+      ],
+      "component_seeds": [
+        0,
+        0
+      ],
+      "determinant": 37,
+      "donor": 45,
+      "rank": 480,
+      "source_chart": 642
+    },
+    {
+      "component_determinants": [
+        21,
+        55
+      ],
+      "component_seeds": [
+        0,
+        0
+      ],
+      "determinant": 9,
+      "donor": 61,
+      "rank": 480,
+      "source_chart": 263
+    },
+    {
+      "component_determinants": [
+        61,
+        41
+      ],
+      "component_seeds": [
+        0,
+        0
+      ],
+      "determinant": 30,
+      "donor": 62,
+      "rank": 480,
+      "source_chart": 263
+    },
+    {
+      "component_determinants": [
+        22,
+        43
+      ],
+      "component_seeds": [
+        0,
+        0
+      ],
+      "determinant": 17,
+      "donor": 100,
+      "rank": 480,
+      "source_chart": 642
+    }
+  ],
+  "all111_sources": false,
+  "binary_INIT_MOVE_CLEAR_each": 96,
+  "centres": [
+    263,
+    642
+  ],
+  "coefficient_payload_sha256": "b91519b632eab296dd7593483e8074c6b4e777dc916b32521635fa3d1e7a63b4",
+  "common_readout_dimension": 15,
+  "compiler_payload_sha256": "dae92014c4de31ddb39b9ade54166ffb098d43d85f8ed8426b6c0a338c24dea2",
+  "complete_D_K_facet_word": false,
+  "complete_invoice": false,
+  "complete_return": false,
+  "corrupted_port_readout_failures": 12,
+  "donors": [
+    0,
+    45,
+    61,
+    62,
+    100
+  ],
+  "early_payload_sha256": "839deafecd59045b84dabd95a5e81fd45e2aa20a22251f38551204fedd1eda3c",
+  "fibre_payload_sha256": "78cb20cad2703fd433f14b29f168883fd28a32bdb38963f89cc484b321dc3fac",
+  "full45_joint_two_H_sources": true,
+  "geometric_receiver_chart_pairs": 72,
+  "native_receiver_chart_pairs": 67,
+  "new_complete_kappa": false,
+  "paid_MOVE_gap": 6,
+  "paid_field_exports": 16,
+  "physical_H_receipts": [
+    {
+      "H": 263,
+      "MOVE_gap": null,
+      "binary_ADDs_per_direction": 47210,
+      "binary_INIT_MOVE_CLEAR_each": 0,
+      "binary_dimension": 540,
+      "eight_lane_forward_inverse_ADDs": 755360,
+      "paid_field_exports": 0,
+      "two_copy_inputs": 90,
+      "two_copy_rank": 90
+    },
+    {
+      "H": 642,
+      "MOVE_gap": 6,
+      "binary_ADDs_per_direction": 47135,
+      "binary_INIT_MOVE_CLEAR_each": 96,
+      "binary_dimension": 552,
+      "eight_lane_forward_inverse_ADDs": 754160,
+      "paid_field_exports": 16,
+      "two_copy_inputs": 90,
+      "two_copy_rank": 88
+    }
+  ],
+  "physical_bank_fields": 3840,
+  "physical_propagation_upper_by_donor": {
+    "0": 3456,
+    "45": 3312,
+    "61": 3456,
+    "62": 3456,
+    "100": 3312
+  },
+  "physical_saturation_threshold": 3600,
+  "saturation_threshold": 225,
+  "shared_donor": 61,
+  "source_bank_dimension": 240,
+  "source_geometric_cuts": 315,
+  "source_native_cuts": 291,
+  "source_width": 15,
+  "status": "PASS_FULL45_TWO_H_SHARED_SOURCE_PAIR",
+  "uniform_propagation_upper_by_donor": {
+    "0": 216,
+    "45": 207,
+    "61": 216,
+    "62": 216,
+    "100": 207
+  }
+}

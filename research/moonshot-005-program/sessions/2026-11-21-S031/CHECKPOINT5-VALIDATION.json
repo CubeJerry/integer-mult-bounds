@@ -1,0 +1,72 @@
+{
+  "status": "PASS_CHECKPOINT5_EVIDENCE_COLLECTION",
+  "mode": "Collect completed checks; collection is not another execution or independent review",
+  "checkpoint_parent": "353d2e9ada3538da776a2d2857561881d968ee7b",
+  "checked_source_pin_entries": 86,
+  "jobs": [
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-construction/both-tail-obstruction/root-review/check.py",
+      "checker_sha256": "2e2da54f3a093f96021b7f6fcb2a43983c91abf88c0f809739105d07169ea45e",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-construction/both-tail-obstruction/root-review/output/RESULT.json",
+      "receipt_sha256": "107f7638c6b66c70c3adfefe516f4e48268b83c1f43a7bbb44d076e2b04c2501",
+      "status": "PASS_ROOT_BOTH_ANCHOR_TAIL_REVIEW",
+      "verification_kind": "root independent reconstruction",
+      "fresh_reproduction_all_result_fields_match": null
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-construction/contraction-union-gate/root-review/check.py",
+      "checker_sha256": "2f0ab44ff7c9b368d3396269fe2eb8eae537e00754b83faf375bacd722a13ef9",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-construction/contraction-union-gate/root-review/output/RESULT.json",
+      "receipt_sha256": "716d3463b6391c93b3a940a8365bb8435565da9545eb24128ea01a0981d5879e",
+      "status": "PASS_ROOT_CONSTRAINED_CONTRACTION_UNION_REVIEW",
+      "verification_kind": "root independent reconstruction",
+      "fresh_reproduction_all_result_fields_match": null
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-review/full45-local-h642/review-a/check.py",
+      "checker_sha256": "fea5d1537226aadc7b2f97b2e3d7f21b5bea2d72f294f0ce251bd63990d76cd5",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-review/full45-local-h642/review-a/output/RESULT.json",
+      "receipt_sha256": "97d80a9b3c25b5c257ddfcf33144d4dd00d7c3d6611fbd7f4e3660da510f16f8",
+      "status": "PASS_INDEPENDENT_FULL45_LOCAL_H642_SOURCES",
+      "verification_kind": "independent A source review and fresh root reproduction",
+      "fresh_reproduction_all_result_fields_match": true
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-review/full45-local-h642/root-physical/check.py",
+      "checker_sha256": "52c9841f474d53089f22c8eff1ee9f30e9061044a222e45bd4f00a21b57327c0",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-review/full45-local-h642/root-physical/output/RESULT.json",
+      "receipt_sha256": "dd5418df1919f62bfd333fd644f4cb5a93f692cb9eff9ceccde238e0b271bea2",
+      "status": "PASS_ROOT_FULL45_ACTUAL_OWNER_COMPILER",
+      "verification_kind": "root independent actual-owner and binary-word reconstruction",
+      "fresh_reproduction_all_result_fields_match": null
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-review/full45-two-h-pair/review-a/check.py",
+      "checker_sha256": "ce4775b3fdf422122a24b09cde8bfacfa9a9a61b0bbbb79d9d4abb5193c27369",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-review/full45-two-h-pair/review-a/output/RESULT.json",
+      "receipt_sha256": "82747d96b414084bb17934542f6efe5f63f50eda196fe05d26758f8dd1cb40ed",
+      "status": "PASS_INDEPENDENT_CURRENT_PORT_FULL45_TWO_H_PAIR",
+      "verification_kind": "independent A source review and fresh root reproduction",
+      "fresh_reproduction_all_result_fields_match": true
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-review/full45-two-h-pair/root-physical/check.py",
+      "checker_sha256": "82484aca9da5a5d7bb464c5f20543d5026b0a297368111055594b545b017e87e",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-review/full45-two-h-pair/root-physical/output/RESULT.json",
+      "receipt_sha256": "ecb2d40838ca383172cfc92f00bb22eeb699911b18747d880ac67bfa43e4bb85",
+      "status": "PASS_ROOT_FULL45_PAIR_OWNER_WORDS",
+      "verification_kind": "root independent actual-owner and binary-word reconstruction",
+      "fresh_reproduction_all_result_fields_match": null
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-simultaneous-paid-h-loss/review-a/check.py",
+      "checker_sha256": "a29b11de5cd26427d9b50334259ec5c832b1c423563ce5a4b8ac3d21d06e1e64",
+      "receipt": "research/moonshot-005-program/results/bit-simultaneous-paid-h-loss/review-a/output/RESULT.json",
+      "receipt_sha256": "ac46180f3e96f4f7e55c6a1f594da32db922495f3092d5959537eeac36ffc706",
+      "status": "PASS_INDEPENDENT_JOINT_H_LOSS_INFORMATION_AND_PRICE",
+      "verification_kind": "independent A theorem and price review and fresh root reproduction",
+      "fresh_reproduction_all_result_fields_match": true
+    }
+  ],
+  "new_complete_kappa": false
+}

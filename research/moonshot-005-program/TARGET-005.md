@@ -1,5 +1,24 @@
 # Exact target κ=1/200 — current programme
 
+## S031 checkpoint5: fullwidth pair and joint restoration budget
+
+The [full45 pair](results/bit-shared-h-s031-review/full45-two-h-pair/ADMISSION.md)
+closes the complementary width12 and all45-port obligations at H263/H642 on
+one five-source system. Provider ranks45/44 require16 extra gap6 exports at
+bank3840. The two literal local forward/inverse words cost1509520 binary ADDs;
+96 binary INIT/MOVE/CLEAR operations each are additional. No complete invoice
+or exponent credit follows. The necessary m870 return cap remains34675.
+
+The [joint-loss theorem](results/bit-simultaneous-paid-h-loss/ADMISSION.md)
+strengthens the earlier separate-export screen: fixed losses on disjoint
+actual H input sets add even for nonlinear joint recovery. Under its explicit
+restoration-information hypotheses, direct-export doubled/single defects
+satisfy2a+b<=21 at m870 or22 in the limit, even at q34560. The native census
+has65 doubled and816 single three-donor centres. Their sources have not all
+been constructed. Stationary caches may aid the later B endpoint; no return
+excess follows from local rank loss alone. Both strict suppliers, outer
+conditions, all added costs and five foundations remain open.
+
 ## S031 checkpoint4: rank-eight repair, core22 overlap and exact continuation gates
 
 The independently admitted [rank-one overlap](results/bit-shared-h-s031-construction/rank-one-overlap/ADMISSION.md)

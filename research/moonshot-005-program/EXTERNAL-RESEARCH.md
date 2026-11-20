@@ -1,5 +1,16 @@
 # Relevant external research and compatibility
 
+## S031 checkpoint5: source compatibility remains local
+
+The new full45 two-centre word is an internal construction on the programme's
+current selected-D allocation. Its older complementary pair could not be
+copied unchanged:14 port labels per36-port complement differed. A fresh
+literal complement and independent direct-witness check now close that
+interface. No external native-realization or uniform-composition theorem is
+automatically inherited by the changed word. The last exact upstream refresh
+and selective #7846 intake below remain the authoritative external status;
+checkpoint5 does not assert a newer upstream check or merge.
+
 ## S031 second live upstream refresh
 
 Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; #7830,#7837,#7840

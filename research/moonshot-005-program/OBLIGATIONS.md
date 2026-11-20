@@ -1,5 +1,21 @@
 # Remaining proof obligations — current programme
 
+## S031 checkpoint5: fullwidth two-centre source completed
+
+| Obligation | Current status | Next exact requirement |
+| --- | --- | --- |
+| Full3+12 sources and all45 H ports at H263/H642 | Proved on five shared donors, with315/291 cuts,72/67 readouts and five genuine early bases | [Admission](results/bit-shared-h-s031-review/full45-two-h-pair/ADMISSION.md); extend to a third actual shared centre and ultimately all sources |
+| Physical H restoration | Proved local words, ranks90/88,1509520 replacement ADDs and16 paid fields | Include these words and all source/cache costs in one complete invoice |
+| Share away independent H rank losses | Excluded under the fixed disjoint restoration frontier, even for nonlinear joint coding | [Information theorem](results/bit-simultaneous-paid-h-loss/ADMISSION.md); change retained information or construct mostly invertible H maps |
+| Repair frozen anchors with both tails | Excluded for72 permitted parameters by a universal distant rank3 kernel | [Gate](results/bit-shared-h-s031-construction/both-tail-obstruction/ADMISSION.md); change off-centre maps or the fibre constraints |
+| Contract away all frozen native view kernels cheaply | Literal union dimension15; constrained family lower bound12 | [Gate](results/bit-shared-h-s031-construction/contraction-union-gate/ADMISSION.md); changed targets require a new argument |
+| Shared D/K/facet word, exact endpoint and return | Open | Bind the actual common exits of the full45 pair to one downstream word; do not infer return excess from H loss when later caches exist |
+| Complex two-message causal repair | Open after120 necessary-screen survivors | Find exact useful internal recoding and prove complete endpoint, ownership and cost |
+
+The single main frontier is a compatible multi-centre source and downstream
+word under the paid information budget. A local fullwidth pair does not
+establish either strict supplier or any new complete kappa.
+
 ## S031 checkpoint4: rank-eight repair, core22 overlap and exact continuation gates
 
 The independently admitted [rank-one overlap](results/bit-shared-h-s031-construction/rank-one-overlap/ADMISSION.md)

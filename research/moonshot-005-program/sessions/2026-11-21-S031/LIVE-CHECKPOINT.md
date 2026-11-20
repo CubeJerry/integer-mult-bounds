@@ -1,17 +1,17 @@
-# S031 active checkpoint4
+# S031 active checkpoint5
 
 Session start:2026-11-20 14:44:01 UTC. Planned end:19:44:01 UTC.
-Confirmed parent:3e26cbd7f781c463e0d55b23ee429435683afc77.
-Resulting commit is verified separately.
+Confirmed parent:353d2e9ada3538da776a2d2857561881d968ee7b. Resulting commit verified separately.
 
-Seven new admissions: rank-eight native provider; rank-one two-centre overlap
-with core22; frozen-fibre binary readout rigidity; universal one-anchor tail
-gate; universal E18 port gate; all-slot involutive E21 extension; and the
-complex two-message/120-pair reduction. Local paid compiler application:
-1474 ADDs/direction,16 extra field exports, m870 necessary return cap34675.
+Full45 H263/H642 pair independently accepted:315/291 source cuts,72/67 whole
+readouts, five actual early bases and one shared donor61 source. Logical
+ranks45/44; physical local replacement cost1509520 ADDs plus16 gap6 field
+exports. The single-H alternative and both-tail/contraction gates are also
+admitted. Joint recovery cannot hide disjoint local loss at the stated Hub
+restoration boundary; doubled/single defects obey2a+b<=21 m870,22 limiting.
 
-No new complete kappa. Extend the core22/rank8 component while controlling
-paid information loss. Three-term conditional feedback, a third common H,
-the complementary component, full D/K/facet continuation and return, and
-complete coupled complex repair remain open. Selective review of #7846 is complete; its full theorem is not admitted.
-The branch is not PR-ready. Research continues in the supported session.
+A third H, shared downstream D/K/facet maps, remaining sources, complete
+return, both suppliers and all five foundations remain open. Later incoming
+caches may help B; H loss alone implies no canonical-return excess. No new
+complete kappa. Three workers continue construction, D compatibility and
+complex causal recoding. The branch is not PR-ready.

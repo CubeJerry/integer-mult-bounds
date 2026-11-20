@@ -1,5 +1,30 @@
 # Verification ledger
 
+## S031 checkpoint5: full source, physical word and joint-loss reviews
+
+Five new packages are admitted. Worker A independently reconstructs the
+single-H and two-H fullwidth sources from literals and raw geometry, imports
+no new author checker, and verifies all source cuts, whole receiver kernels,
+current selected-port labels and actual early bases. It also enumerates2268
+and3780 protected propagation pairs. Root reads both proofs and freshly
+reproduces both reviews. Root separately reconstructs actual H owner words,
+complete540/552-variable binary extensions, inverse restoration, ADD counts
+and deletion controls. The pair's shared donor61 has one actual early basis.
+
+Root independently rebuilds the both-tail72-parameter witness and the
+contraction gate's765-by270 amplitude system and64 coefficient identities.
+Worker A independently reviews root's joint-loss proof, reconstructs the
+53280-owner census and uses a separate integer200th-root price engine; root
+freshly reproduces that check. Its time-scoped supplement explicitly allows
+stationary caches to help the later B endpoint without assisting earlier
+Hub restoration. No canonical-return excess is inferred from H loss.
+
+[Checkpoint5 evidence collection](sessions/2026-11-21-S031/CHECKPOINT5-VALIDATION.json)
+records exact source and receipt hashes. Collection is not another execution.
+Each admission names universal hypotheses and finite check coverage. No
+unreviewed port-rigidity, third-centre, downstream-D or complex-search claim
+is included in this checkpoint.
+
 ## S031 checkpoint4: independently reconstructed compatible local components
 
 Seven new admissions have distinct proof and reproduction records. Worker C

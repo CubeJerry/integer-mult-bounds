@@ -3011,3 +3011,25 @@ endpoint pairs. A complete useful causal recoding remains open. No new complete
 kappa, supplier or foundational discharge follows from any local component.
 
 Checkpoint4 confirmed parent:3e26cbd7f781c463e0d55b23ee429435683afc77. The resulting remote SHA is verified separately. Session remains active; no final handoff.
+
+## S031 checkpoint5: simultaneous fullwidth source/H pair
+
+Confirmed parent:353d2e9ada3538da776a2d2857561881d968ee7b. Five admissions: complete local45-port H642;
+current-allocation full45 H263/H642 pair; both-anchor-tail obstruction;
+constrained contraction-union gate; and joint nonlinear restoration-loss
+theorem. The full pair has315/291 source cuts,72/67 readouts, five actual early
+bases and logical ranks45/44. Its source and physical words have separate
+independent reviews; root freshly reproduced the source checks. Physical
+local cost1509520 ADDs,16 gap6 field exports and96 INIT/MOVE/CLEAR each.
+
+The paired complement initially used an older allocation with14 wrong port
+labels per centre; that candidate was not admitted. A fresh current-allocation
+construction passed direct witness checks. The joint-loss theorem gives
+2a+b<=21 at m870 and22 limiting, under the fixed restoration frontier; it
+does not bound later canonical return when incoming stationary caches help.
+
+The fullwidth two-centre obligation is closed. Third-centre compatibility,
+shared downstream transport and complete complex causal recoding remain
+active. New port-rigidity and recoding-search artifacts await review and are
+not admitted here. No supplier, foundation or new complete kappa. Resulting
+remote SHA is verified separately. This is an active checkpoint, not handoff.
