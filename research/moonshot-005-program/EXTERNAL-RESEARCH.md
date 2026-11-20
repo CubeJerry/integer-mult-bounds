@@ -1,5 +1,14 @@
 # Relevant external research and compatibility
 
+## S031 checkpoint7: local source changes still need their own external transfer
+
+The new source compiler inventory and exact frozen complex gates are internal
+source-bound results. They do not import an external uniform theorem or discharge
+native_all_columns, owned_erasure, compiler, precision_tape or analytic_recovery
+for a completed changed moonshot word. The latest upstream facts remain those
+in UPSTREAM-REFRESH2 until the next recorded refresh. The #7846 selective intake
+remains conditional source-transfer guidance, not a full independent adoption.
+
 ## S031 checkpoint6: no automatic transfer to the revised source
 
 The repaired full45 pair changes source coefficients and early preparation;

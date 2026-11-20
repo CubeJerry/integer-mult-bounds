@@ -40,3 +40,12 @@ See [proof](root-review/INCOMING-MESSAGE-REDUCTION.md) and
 [independent Worker B review](review-b-incoming-message-reduction.md).
 The separate [outside-rank review](review-b-rank-corollary.md) confirms
 376<=rank(C_a)<=377 and its two intersection-dimension cases.
+
+## Independently checked frozen baselines
+
+The [outside-control ranks](rank-boundary/ADMISSION.md) are376 for both the
+genuine paid and frozen D1 words. The [frozen completion gate](frozen-gates/ADMISSION.md)
+proves C rank909 but a pinned quotient of rank5 with103 failures. The total
+control/external-input response has rank1288, only one global dimension short.
+These diagnostics guide surrounding recoding; they do not invalidate the
+conditional completion theorem or exclude every changed circuit.

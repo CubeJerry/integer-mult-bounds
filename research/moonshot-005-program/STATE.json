@@ -1,19 +1,19 @@
 {
-  "schema": "moonshot-005-program-state-v15",
+  "schema": "moonshot-005-program-state-v16",
   "repository": "CubeJerry/integer-mult-bounds",
   "branch": "research/moonshot-005-program",
   "target_kappa": "1/200",
   "selected_conditional_kappa": "363005817/100000000000",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
   "session": "2026-11-21-S031",
-  "session_status": "active-checkpoint6",
+  "session_status": "active-checkpoint7",
   "session_started_utc": "2026-11-20T14:44:01Z",
   "session_planned_end_utc": "2026-11-20T19:44:01Z",
   "requested_session_seconds": 18000,
   "session_start_sha": "5953b86befe08da02dbaa5ff6c16111aea8a81d4",
-  "checkpoint_baseline_sha": "aa1a48ee65630ab185cd45affe27ba8f09b9cedf",
+  "checkpoint_baseline_sha": "905a6434113f71ac8c909b5ed06de81e6e440c69",
   "checkpoint_sha_semantics": "Confirmed parent of this checkpoint; resulting commit is verified and reported separately.",
-  "phase": "D-aligned full45 source/H pair with all known shared-cut tests; actual D decoder and complex causal recoding",
+  "phase": "Priced full45 local source/H pair; actual D1509 prototype under review; exact frozen complex completion obstructions",
   "primary_obligation": "Construct a phase-compatible common physical D word for the D-aligned H263/H642 pair, starting at D1509 with its five supplied donors, then extend the same source/transport architecture while meeting the global restoration and return budgets.",
   "programme_new_complete_kappa": false,
   "pr_ready": false,
@@ -53,7 +53,11 @@
     "results/bit-shared-h-s031-construction/port-aligned-complement/ADMISSION.md",
     "results/bit-shared-h-s031-construction/protected-d1509-tail-repair/ADMISSION.md",
     "results/bit-shared-h-s031-construction/d-aligned-full45-pair/ADMISSION.md",
-    "results/complex-paid-export-s031-coupled-repair/source-hub-completion/ADMISSION.md"
+    "results/complex-paid-export-s031-coupled-repair/source-hub-completion/ADMISSION.md",
+    "results/bit-shared-h-s031-construction/d-aligned-full45-pair/source-compilation/ADMISSION.md",
+    "results/complex-paid-export-s031-coupled-repair/source-hub-completion/rank-boundary/ADMISSION.md",
+    "results/complex-paid-export-s031-coupled-repair/source-hub-completion/frozen-gates/ADMISSION.md",
+    "results/bit-shared-h-s031-review/reciprocal-port-complement/ADMISSION.md"
   ],
   "verified_results": {
     "frozen_feedback_partition_gate": {
@@ -667,7 +671,7 @@
       "extra_field_exports": 16,
       "binary_INIT_MOVE_CLEAR_each": 96,
       "move_gap": 6,
-      "source_compilers_priced": false,
+      "source_compilers_priced": true,
       "fixed_provider_nonlinear_loss_transfer_verified": true,
       "complete_D_word": false,
       "complete_return": false,
@@ -701,6 +705,93 @@
       "formal_control_coordinate_is_extra_input": false,
       "successful_surrounding_circuit_found": false,
       "complete_causal_repair": false
+    },
+    "actual_five_source_compilers": {
+      "path": "results/bit-shared-h-s031-construction/d-aligned-full45-pair/source-compilation/ADMISSION.md",
+      "actual_source_owners_per_lane": 480,
+      "binary_owners_per_lane": 2880,
+      "source_ADD_per_direction": [
+        2433642,
+        2412700,
+        2391802,
+        2353561,
+        2345849
+      ],
+      "source_eight_lane_forward_inverse_ADD": 191000864,
+      "known_source_and_two_H_ADD": 192510384,
+      "gross_local_bill_only": true,
+      "source_auxiliaries": 0,
+      "actual_owner_row_permutation_compiled": true,
+      "all_bits_symbolic_forward_inverse_replayed": true,
+      "later_D1509_source_redesign_included": false,
+      "complete_global_invoice": false
+    },
+    "complex_outside_control_rank_boundary": {
+      "path": "results/complex-paid-export-s031-coupled-repair/source-hub-completion/rank-boundary/ADMISSION.md",
+      "genuine_paid_Ca_rank_Q": 376,
+      "frozen_D1_Ca_rank_Q": 376,
+      "exact_zero_outside_rows": 11,
+      "independent_direct_rational_elimination": true,
+      "changed_circuits_not_covered": true
+    },
+    "complex_frozen_pinned_gates": {
+      "path": "results/complex-paid-export-s031-coupled-repair/source-hub-completion/frozen-gates/ADMISSION.md",
+      "C_rank_Q": 909,
+      "outside_external_defect_rank": 2,
+      "affected_external_columns": 73,
+      "affected_outside_rows": 75,
+      "affected_external_columns_unavailable_at_chart27": 72,
+      "pinned_quotient_rank": 5,
+      "failed_pinned_memberships": 103,
+      "total_pinned_memberships": 376,
+      "pure_source_only_pinned_columns": 272,
+      "pure_source_only_quotient_rank": 1,
+      "pure_source_only_failed_terminal": 155100,
+      "fixed_common_acyclic_scalar_form_edits_required": 5,
+      "scalar_form_count_is_paid_call_bound": false,
+      "candidate_second_routes_already_in_baseline": false,
+      "free_surrounding_recoding_excluded": false,
+      "complete_repaired_word": false,
+      "full_control_external_input_rank_Q": 1288,
+      "global_information_rank_defect": 1,
+      "pinned_rank_is_global_rank_defect": false
+    },
+    "reciprocal_width12_local_four_spaces": {
+      "path": "results/bit-shared-h-s031-review/reciprocal-port-complement/ADMISSION.md",
+      "source_cuts": [
+        315,
+        291
+      ],
+      "whole_H_readouts": [
+        72,
+        67
+      ],
+      "early_dimension": 384,
+      "early_determinants": [
+        1,
+        36,
+        48,
+        33,
+        4
+      ],
+      "common_four_spaces": [
+        48,
+        46
+      ],
+      "supplied_H_lines": 14,
+      "all_geometric_partial_star_checks": 576,
+      "unbuilt_whole_H_fibre_join_ranks": [
+        21,
+        22,
+        24
+      ],
+      "physical_D_word": false,
+      "full45_pair_assembly": false,
+      "global_completion": false,
+      "completed_abstract_H_lines": 16,
+      "independent_complete_star_determinants": 576,
+      "line_completion_polynomial_degree": 3,
+      "maximum_forbidden_curve_parameters": 9
     }
   },
   "native_target": {
@@ -732,15 +823,17 @@
     "joint_recovery_eight_field_unit_cap_limiting": 22
   },
   "active_subproblems": [
-    "Build a genuine D1509 word with actual source/H inputs, owners, phases and common target readouts.",
-    "Check stronger reciprocal and multi-receiver constraints at the four unmarked common D charts.",
-    "Construct all remaining compatible H and source stars, downstream K/facets and affordable return on one word.",
-    "Use the exact complex source/hub elimination gates to search surrounding causal recoding; additional frozen-baseline rank packages await independent review."
+    "Independently verify the new single-cut D1509 physical construction, including actual early/late cache costs.",
+    "Complete compatible source data for the six remaining native D1509 donors and extend one common word to all its native receivers.",
+    "Review reciprocal width12 local four-space compatibility without assuming full unbuilt H readouts.",
+    "Construct remaining source/H/D/K/facet transport and affordable return on one word.",
+    "Use the exact complex rank-five pinned gate to guide genuine surrounding-form recoding, with two paid routes and all old outputs restored."
   ],
   "next_actions": [
-    "Construct an actual shared D decoder; the57 necessary isolation tests are not sufficient.",
-    "Price the rebuilt source preparation and complete restoration/caches before any global supplier claim.",
-    "Review and exploit exact complex pinned-observation failures, then produce rational causal repair coefficients if feasible."
+    "Finish independent review of the actual D1509 prototype; retain matrix, causal owner and complete global word distinctions.",
+    "Extend the same D architecture across all native donor/receiver incidences and whole shared H stars.",
+    "Complete the new-source compiler and global return/cache invoice before a supplier claim.",
+    "Find exact surrounding complex recoding; changing only the received-field coefficients cannot repair the frozen pinned defect."
   ],
   "pending_recovery": {
     "S030_missing_artifacts": "Promised common-line and frozen-feedback-gauge packages were absent from tracked checkpoint5; not inherited as proofs. Frozen feedback now has a fresh stronger S031 proof."

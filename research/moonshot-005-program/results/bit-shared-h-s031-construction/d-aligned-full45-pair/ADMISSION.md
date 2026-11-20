@@ -48,3 +48,11 @@ frozen-pair gate remains valid for its unchanged source; this is a different
 literal that removes its displayed failures. Pending-author status is
 superseded here. Credit @CubeJerry, retained machinery, Worker A's repairs,
 Worker C's independent review and root's physical review. OpenAI assisted.
+
+## Checkpoint7 source compiler addendum
+
+The [five actual source compilers](source-compilation/ADMISSION.md) are now
+independently accepted. Their191000864 ADDs give192510384 together with the
+unchanged H pair, plus its existing16 gap6 exports and96 INIT/MOVE/CLEAR each.
+This is the gross local inventory for this frozen source, not a global invoice
+or a price for a later D1509 source redesign.

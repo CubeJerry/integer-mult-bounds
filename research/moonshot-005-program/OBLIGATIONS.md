@@ -1,5 +1,26 @@
 # Remaining proof obligations — current programme
 
+## S031 checkpoint7: local compilation closed, surrounding recoding forced
+
+The [reciprocal complement](results/bit-shared-h-s031-review/reciprocal-port-complement/ADMISSION.md)
+now has independently verified common4-spaces at all48 geometric/46 native
+unmarked shared-D cuts and576 compatible partial-star tests. Its whole unbuilt
+H-fibre mismatch remains explicit. The complex global response has rank1288,
+so its one global information defect must be distinguished from five pinned
+alignment defects.
+
+| Obligation | Current status | Next requirement |
+|---|---|---|
+| Actual five-source preparation and local inverse | Independently compiled;191000864 ADDs | Supply global owner restoration; later redesigned sources need a fresh word |
+| Shared D1509 decoder | New physical prototype under independent review | Bind all phases/caches, then complete six other native donor sources and all native receiver readouts |
+| Frozen complex source/hub completion | Exact pinned quotient rank5 blocks it | Change surrounding scalar forms; source incoming coefficients alone are ineffective |
+| Pure-source complex pinned column | Sole failure at155100 among272 columns | Repair its control-space membership while retaining every other output |
+| Full BIT/complex suppliers and caller | Open | Compose one actual global word, exact full invoices and all-column/precision contracts |
+
+[Compiler admission](results/bit-shared-h-s031-construction/d-aligned-full45-pair/source-compilation/ADMISSION.md)
+and [complex gate](results/complex-paid-export-s031-coupled-repair/source-hub-completion/frozen-gates/ADMISSION.md).
+The five-scalar-form lower bound is not a communication-price bound.
+
 ## S031 checkpoint6: one actual shared D word is now the immediate target
 
 | Obligation | Current status | Next exact requirement |

@@ -1,5 +1,31 @@
 # Exact target κ=1/200 — current programme
 
+## S031 checkpoint7: actual source costs and a sharper complex repair obligation
+
+The [reciprocal complement](results/bit-shared-h-s031-review/reciprocal-port-complement/ADMISSION.md)
+now has independently verified common4-spaces at all48 geometric/46 native
+unmarked shared-D cuts and576 compatible partial-star tests. Its whole unbuilt
+H-fibre mismatch remains explicit. The complex global response has rank1288,
+so its one global information defect must be distinguished from five pinned
+alignment defects.
+
+The [five checkpoint6 source compilers](results/bit-shared-h-s031-construction/d-aligned-full45-pair/source-compilation/ADMISSION.md)
+now have an exact gross cost:191000864 ADDs for eight lanes and both directions.
+With the two H words, the known local total is192510384 ADDs plus16 gap6 field
+exports and96 binary INIT/MOVE/CLEAR each. This closes their local compiler
+invoice; remaining transport, caches, return, ordinary and recursive costs are
+still open. The m870 necessary return cap34675 and floor34560 are unchanged.
+A later D1509 source redesign must be compiled separately.
+
+For frozen complex D1, exact control rank909 and outside-control rank376 do not
+suffice. The pinned completion quotient has rank5, with103 failing columns;
+source-only incoming coefficients cannot fix it. At least five surrounding
+scalar forms must change under a common acyclic schedule. This is not a paid
+call lower bound and leaves the two-route surrounding-recoding search open.
+The272 external-input-free pinned columns isolate one indispensable repair at
+terminal155100. Both complete strict suppliers and all five foundations remain
+open. No new kappa.
+
 ## S031 checkpoint6: repaired shared-cut interfaces, unchanged global budget
 
 The [D-aligned full45 pair](results/bit-shared-h-s031-construction/d-aligned-full45-pair/ADMISSION.md)

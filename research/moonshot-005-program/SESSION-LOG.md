@@ -3061,3 +3061,28 @@ The surrounding causal code remains unconstructed. Additional exact rank
 packages and numerical searches await review. Six new admissions; no new
 complete kappa or foundational discharge. Work continues toward an actual
 shared D word. Resulting remote SHA is verified separately; not final handoff.
+
+## S031 checkpoint7: exact source compilation and frozen complex gates
+
+Confirmed parent905a6434113f71ac8c909b5ed06de81e6e440c69; the session continues
+until19:44:01UTC. The five checkpoint6 source maps now have explicit in-place
+binary words with all owner permutations paid. Independent B reconstruction
+and byte-identical root replay confirm191000864 source ADDs and192510384 for
+sources plus both H words;16 gap6 field exports and96 INIT/MOVE/CLEAR each
+remain. This is a gross local bill, not a complete supplier invoice.
+
+Root independently reconstructed the full rational complex endpoint, frozen
+responses and natural control basis. Both outside-control ranks are exactly376;
+frozen C has rank909. The external defect has rank2 on73 columns, while the
+pinned quotient has rank5 and103 failing memberships. A fixed-common-schedule
+argument requires five surrounding scalar-form changes, not five paid calls.
+Among272 pure-source pinned columns, only terminal155100 fails. The planned
+D1509 physical prototype and reciprocal width12 extension remain under review.
+No selected certificate change, complete new kappa or upstream PR.
+
+Checkpoint7 review addendum: C's separate reciprocal width12 literal is accepted
+by root reconstruction, including48/46 common four-spaces and576 partial-star
+checks. Whole-H joins21/22/24 remain incompatible with the required12. Root's
+complex total-rank refinement is independently accepted by B: rank[C N]=1288,
+with an exact rank6 small matrix; the five pinned defects are stronger alignment
+conditions, not five missing global dimensions. All scopes remain source-bound.

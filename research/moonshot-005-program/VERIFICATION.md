@@ -1,5 +1,35 @@
 # Verification ledger
 
+## S031 checkpoint7: full rational gate review and complete binary source words
+
+The [reciprocal complement](results/bit-shared-h-s031-review/reciprocal-port-complement/ADMISSION.md)
+now has independently verified common4-spaces at all48 geometric/46 native
+unmarked shared-D cuts and576 compatible partial-star tests. Its whole unbuilt
+H-fibre mismatch remains explicit. The complex global response has rank1288,
+so its one global information defect must be distinguished from five pinned
+alignment defects.
+
+Root independently reconstructs all1289 rational endpoints and all frozen
+impulse responses. Direct full-dimensional elimination proves C rank909,
+both outside-control ranks376, external defect rank2 and pinned quotient rank5.
+It then confirms the smaller eight-variable explanation, all103 failed columns,
+the272 pure-source columns and explicit negative controls. The two complex
+admissions share one independent execution; they are not counted as two reviews.
+
+Worker B independently reconstructs every source-owner row, uses polynomial
+long division for the GF64 binary lift, regenerates all deterministic ADDs and
+paid swaps, and replays every forward/inverse word symbolically. A fresh root
+execution reproduces its receipt byte-for-byte. It confirms191000864 source
+ADDs and192510384 for the known source/H components. This is a reproduction of
+B's review, not a third independent review.
+
+See [checkpoint7 collection](sessions/2026-11-21-S031/CHECKPOINT7-VALIDATION.json),
+[complex root review](results/complex-paid-export-s031-coupled-repair/source-hub-completion/frozen-gates/root-review/REVIEW.md)
+and [compiler review](results/bit-shared-h-s031-construction/d-aligned-full45-pair/source-compilation/review-b/REVIEW.md).
+C separately reviews the root two-line extension:48 cuts,46 native and576
+nonzero completed-star determinants. Root reproduces that exact receipt.
+The D1509 prototype remains outside admission until its independent review.
+
 ## S031 checkpoint6: independent shared-D diagnosis and source repair
 
 Root independently reconstructs the old pair's two component-separated D

@@ -1,6 +1,6 @@
 # Persistent κ=0.005 research programme
 
-## S031 checkpoint6: shared-D obstructions turned into a repaired source pair
+## S031 checkpoint7: priced local words and exact complex completion obstructions
 
 **No new complete κ.** The selected conditional value remains .00363005817.
 The session is active. Both strict suppliers, a complete physical word with
@@ -38,14 +38,26 @@ at D1509 on the five constructed donors, followed by the remaining sources,
 H words and shared D/K/facet transport. The other106 compatible donor stars
 and a complete return remain open.
 
+The separate [reciprocal width12 variant](results/bit-shared-h-s031-review/reciprocal-port-complement/ADMISSION.md)
+strengthens the four unmarked shared-D cuts: all48/46 have a common four-space
+preserved by every supplied source coordinate projector, with fourteen compatible
+H lines and576 partial-star tests. A reviewed degree-three-curve construction
+completes all sixteen local lines, with576 nonzero completed-star determinants.
+It retains complete source/H checks but its
+whole unbuilt H fibres still have joins21/22/24 rather than12. This is an exact
+local interface, not a full45 physical continuation or a global H completion.
+
 ### Actual ownership and information budget
 
 The repaired pair has exactly the old H provider matrices, physical owner
 assignments, complements, extensions and binary ADD lists. Root independently
 binds its new early source rows to all six actual H input interfaces. The
 H forward/inverse replacement bill remains1509520 ADDs plus16 gap6 field
-exports and96 binary INIT/MOVE/CLEAR each. New source preparation costs are
-not inferred from unchanged H words and still need a separate invoice.
+exports and96 binary INIT/MOVE/CLEAR each. The new source words are
+now independently compiled on the actual owners. The [five source compilers](results/bit-shared-h-s031-construction/d-aligned-full45-pair/source-compilation/ADMISSION.md)
+cost191000864 ADDs in both directions over eight lanes, giving192510384 with
+the H pair. This is a gross local inventory, not a net saving or completed
+supplier bill. A later D1509 source redesign is outside this invoice.
 
 The [fixed-provider port theorem](results/bit-shared-h-s031-review/full45-two-h-pair/port-rigidity/ADMISSION.md)
 shows that nonlinear H processing or copy mixing cannot remove H642's loss
@@ -70,8 +82,17 @@ sufficient tests for a fixed surrounding circuit with rank(C)=909. It fixes
 376 source columns and completes532 others against370 fixed stock columns.
 Successful instances have376<=rank(C_a)<=377. The pinned membership tests
 are independent of the received field's coefficients; that field gives
-only a rank-one stock update. These are conditional synthesis tools, not
-a repaired supplier or numerical exponent improvement.
+only a rank-one stock update. The [two frozen baselines](results/complex-paid-export-s031-coupled-repair/source-hub-completion/rank-boundary/ADMISSION.md)
+have exact outside-control rank376. For frozen D1, the [direct rational gate](results/complex-paid-export-s031-coupled-repair/source-hub-completion/frozen-gates/ADMISSION.md)
+gives an external defect of rank2 on73 input columns and a pinned quotient of
+rank5, with103 of376 memberships failing. At least five surrounding scalar
+forms must change in a fixed common acyclic model; this does not require five
+paid calls. The272 external-input-free pinned columns have one independent
+failure, at terminal155100. These results guide real surrounding recoding;
+The independently reviewed total response rank is1288, only one below the
+full1289. The rank-five pinned defect expresses additional alignment constraints,
+not five missing global information directions. No repaired supplier or numerical
+exponent improvement has been obtained.
 
 ### Foundations and publication
 
@@ -82,7 +103,7 @@ selective #7846 source-transfer intake does not independently adopt its full
 uniform theorem for the changed moonshot source. The cumulative branch
 remains an ongoing programme and is not PR-ready.
 
-Confirmed checkpoint parent: aa1a48ee65630ab185cd45affe27ba8f09b9cedf.
+Confirmed checkpoint parent:905a6434113f71ac8c909b5ed06de81e6e440c69.
 Session:2026-11-20 14:44:01 UTC to19:44:01 UTC; work continues.
 See [STATE](STATE.json), [TARGET-005](TARGET-005.md), [OBLIGATIONS](OBLIGATIONS.md)
 and the individual admissions for precise scopes and replay commands.

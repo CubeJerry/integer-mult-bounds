@@ -1,0 +1,11 @@
+# Exact outside-control rank at the two frozen baselines
+
+**Result:** the genuine paid word and its frozen D1 deletion both have `rank(C_a)=376` over Q when the 909 existing chart-3 export values are treated as independent controls. This is a baseline fact, not a certificate for a recoded circuit or a repaired supplier.
+
+The checker reconstructs the source word and its genuine paid compensation from the pinned inputs. The eleven outside terminal rows with no original chart-3 input coefficient are listed in its result. Their complete donor ancestor closure excludes slot 94019 and all seven D1 slots. On the first 908 natural export-basis columns these rows vanish because the genuine endpoint has no chart-3 input there. On the last basis column, supported only at export 94019, they vanish because that slot is not an ancestor. The natural 909-column export basis is invertible by the admitted source-hub interface. Hence the corresponding eleven free-export control rows vanish identically over Q. D1 does not change their ancestor closure or forms, so the same statement holds after the frozen deletion. There are only 376 other outside rows; this proves the rational upper bound 376.
+
+All local coefficient denominators are nonzero modulo 1000003. Exact modular propagation and elimination exhibit a nonzero 376-by-376 minor for each baseline, with terminal rows, export columns and determinant residues retained in `author/output/RESULT.json`. The residues are 496067 for the genuine paid baseline and 125984 for D1. Each nonzero modular minor is therefore a nonzero rational minor, proving the matching lower bound. Modular rank alone would not have proved the upper bound.
+
+The parent rank corollary requires 376 <= rank(C_a) <= 377 for any successful full-column-rank completion. These two baselines lie on its lower boundary, but still fail other completion requirements. Their rank does not transfer automatically to changed surrounding forms. Numerical singular values from exploratory fits are not used in this proof.
+
+Run `python author/check.py` from this directory or any working directory. The checker uses exact rational source coefficients and exact modular integer arithmetic. It writes its own output only. No positive circuit or new kappa is claimed.

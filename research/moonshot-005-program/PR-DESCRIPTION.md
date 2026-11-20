@@ -1,5 +1,31 @@
 # Construct structured native sources and prove exact compatibility gates toward κ=0.005
 
+## S031 checkpoint7: explicit source words and a source-completion obstruction
+
+The [reciprocal complement](results/bit-shared-h-s031-review/reciprocal-port-complement/ADMISSION.md)
+now has independently verified common4-spaces at all48 geometric/46 native
+unmarked shared-D cuts and576 compatible partial-star tests. Its whole unbuilt
+H-fibre mismatch remains explicit. The complex global response has rank1288,
+so its one global information defect must be distinguished from five pinned
+alignment defects.
+
+This checkpoint supplies the missing local binary compilers for all five repaired
+source bases. Each word includes the actual owner-row assignment, every three-ADD
+swap, and exact symbolic forward/inverse verification. The gross inventory for
+these sources and the two completed H transformations is192510384 ADDs plus the
+already charged16 gap6 field exports and96 binary INIT/MOVE/CLEAR each. It does
+not price unbuilt downstream transport or establish an incremental saving.
+
+For the frozen complex deletion pattern, an independent full1289-dimensional
+rational reconstruction confirms C rank909 and outside-control rank376, but a
+rank-five quotient obstruction defeats103 pinned completion conditions. The
+proof forces at least five surrounding scalar-form changes on a common acyclic
+supergraph, while making no five-call claim. A272-column pure-source subproblem
+has only one failed coordinate,155100, giving a precise first repair target.
+The programme still has no complete causal complex repair, complete supplier or
+new kappa, and is not PR-ready. Credit @CubeJerry, the retained source authors
+and substantial OpenAI-assisted construction and independent review.
+
 ## S031 checkpoint6: an obstruction-guided shared-source repair
 
 The earlier full45 pair fails a native proper-D information cut under its

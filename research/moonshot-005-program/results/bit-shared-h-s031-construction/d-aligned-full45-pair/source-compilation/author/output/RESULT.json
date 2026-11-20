@@ -1,0 +1,79 @@
+{
+  "status": "PASS_ACTUAL_FIVE_SOURCE_BINARY_COMPILERS",
+  "sources": [
+    {
+      "donor": 0,
+      "field_owners_per_lane": 480,
+      "binary_owners_per_lane": 2880,
+      "field_matrix_row_major_sha256": "51641fd353bc95cbae033d6e34ad15db3be603e55ab87c59933a99f60ad9fba3",
+      "ADDs_per_direction": 2433642,
+      "three_ADD_swaps": 2213,
+      "binary_elimination_word_u16le_sha256": "8778fa2e6ac9fcc9f87ffed6d74ab030b241ae73aebf9f35fdaf08d386367f0b",
+      "eight_lane_forward_inverse_ADDs": 38938272,
+      "auxiliary_fields": 0,
+      "extra_exports": 0
+    },
+    {
+      "donor": 45,
+      "field_owners_per_lane": 480,
+      "binary_owners_per_lane": 2880,
+      "field_matrix_row_major_sha256": "272765e16f4998c8fec097504c3bb125abb31077c73f60f3abb4b2cd10e406f0",
+      "ADDs_per_direction": 2412700,
+      "three_ADD_swaps": 2278,
+      "binary_elimination_word_u16le_sha256": "8a69c8a8fa3572b6aaee2b7f2ddfc7470c3d65492ba3cf31643bd0863485a4f9",
+      "eight_lane_forward_inverse_ADDs": 38603200,
+      "auxiliary_fields": 0,
+      "extra_exports": 0
+    },
+    {
+      "donor": 61,
+      "field_owners_per_lane": 480,
+      "binary_owners_per_lane": 2880,
+      "field_matrix_row_major_sha256": "5386c7f32ca7c261dfa5c4fbbfb674efe15a717b55c5299bd833a6f49c9b5dde",
+      "ADDs_per_direction": 2391802,
+      "three_ADD_swaps": 2406,
+      "binary_elimination_word_u16le_sha256": "aa6d1c5691653505d09c5a81820aa9c8dc5bfc24d2fbe9ba4d3d558a14aa3665",
+      "eight_lane_forward_inverse_ADDs": 38268832,
+      "auxiliary_fields": 0,
+      "extra_exports": 0
+    },
+    {
+      "donor": 62,
+      "field_owners_per_lane": 480,
+      "binary_owners_per_lane": 2880,
+      "field_matrix_row_major_sha256": "5c5da5bd5a9bb482b42382838a136b35cde2c0c6bf9920d89d58d0fb069a97d3",
+      "ADDs_per_direction": 2353561,
+      "three_ADD_swaps": 2512,
+      "binary_elimination_word_u16le_sha256": "b34bfac9c8bb9cc93c2bf09274827b52e2eaf5b7f3a9b900c795ea06b2904259",
+      "eight_lane_forward_inverse_ADDs": 37656976,
+      "auxiliary_fields": 0,
+      "extra_exports": 0
+    },
+    {
+      "donor": 100,
+      "field_owners_per_lane": 480,
+      "binary_owners_per_lane": 2880,
+      "field_matrix_row_major_sha256": "ec8e65feaaa417053ec03a03eb8bbab20c5e1826da8238929016bbfc982ae39b",
+      "ADDs_per_direction": 2345849,
+      "three_ADD_swaps": 2475,
+      "binary_elimination_word_u16le_sha256": "9826735d3989e390f9fba8ac5a4b2ec4dae4a86103fc8f9bb2165f8095f0b3c8",
+      "eight_lane_forward_inverse_ADDs": 37533584,
+      "auxiliary_fields": 0,
+      "extra_exports": 0
+    }
+  ],
+  "source_forward_inverse_ADD_total": 191000864,
+  "H_pair_forward_inverse_ADD_total": 1509520,
+  "known_source_and_two_H_ADD_total": 192510384,
+  "H_paid_field_exports": 16,
+  "binary_INIT_MOVE_CLEAR_each": 96,
+  "paid_MOVE_gap": 6,
+  "word_encoding": "deterministic elimination; each ADD is two unsigned16 little-endian indices (target,source); reverse order implements forward matrix",
+  "owner_reordering_included_in_matrix": true,
+  "all_forward_inverse_words_symbolically_replayed": true,
+  "free_permutations": false,
+  "gross_replacement_bill_not_incremental_saving": true,
+  "unbuilt_H_D_K_F_and_global_return_costs_not_included": true,
+  "complete_global_invoice": false,
+  "new_complete_kappa": false
+}
