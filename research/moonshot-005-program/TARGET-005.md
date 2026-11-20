@@ -1,5 +1,27 @@
 # Exact target κ=1/200 — current programme
 
+## S031 checkpoint6: repaired shared-cut interfaces, unchanged global budget
+
+The [D-aligned full45 pair](results/bit-shared-h-s031-construction/d-aligned-full45-pair/ADMISSION.md)
+passes all57 known native shared-D isolation tests while retaining315/291
+source cuts,72/67 full readouts, five actual early bases and provider ranks
+45/44. This repairs the two component failures of the frozen previous pair;
+it does not construct a D decoder. Known partial-D kernels remain18/20/22.
+
+The H implementation is literally unchanged:1509520 replacement ADDs,
+16 gap6 field exports and96 binary INIT/MOVE/CLEAR each. Changed source
+preparation still requires its own compiler bill. The necessary m870
+return cap remains34675,115 above34560. Fixed-provider nonlinear rigidity
+transfers to the new sources and prevents removing their16-field H642
+loss while retaining that tight interface. No global return is computed.
+
+The [complex source/hub criterion](results/complex-paid-export-s031-coupled-repair/source-hub-completion/ADMISSION.md)
+is exact and conditional on a fixed legal circuit with rank(C)=909.
+It determines376 source columns and tests completion of532 more against370
+fixed stock columns. Incoming-message optimization cannot fix failed pinned
+column-space membership. These gates do not supply a successful circuit,
+change the price screen or discharge either strict supplier or foundation.
+
 ## S031 checkpoint5: fullwidth pair and joint restoration budget
 
 The [full45 pair](results/bit-shared-h-s031-review/full45-two-h-pair/ADMISSION.md)

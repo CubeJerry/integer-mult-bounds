@@ -1,5 +1,16 @@
 # Relevant external research and compatibility
 
+## S031 checkpoint6: no automatic transfer to the revised source
+
+The repaired full45 pair changes source coefficients and early preparation;
+its H implementation remains literally identical. Only the reviewed local
+compiler and fixed-provider port-rigidity results transfer through those
+checked identities. External native or uniform-composition claims still need
+source-specific premises and prices. The complex completion reduction is
+internal exact rational linear algebra on the retained #7830/#7833 endpoint.
+It supplies no new adopted upstream theorem. The last recorded upstream
+refresh below remains current evidence; no additional refresh is asserted here.
+
 ## S031 checkpoint5: source compatibility remains local
 
 The new full45 two-centre word is an internal construction on the programme's

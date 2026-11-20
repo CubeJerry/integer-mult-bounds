@@ -3033,3 +3033,31 @@ shared downstream transport and complete complex causal recoding remain
 active. New port-rigidity and recoding-search artifacts await review and are
 not admitted here. No supplier, foundation or new complete kappa. Resulting
 remote SHA is verified separately. This is an active checkpoint, not handoff.
+
+## S031 checkpoint6: proper-D diagnosis and a revised full45 pair
+
+Confirmed parent:aa1a48ee65630ab185cd45affe27ba8f09b9cedf. The frozen cp5 pair remains a valid local
+source/H theorem, but its unchanged proper-D continuation fails: separate
+width12 and protected3 witnesses need80 fields against64 at a native cut.
+Root independently binds the witnesses to actual early owners and both
+right-output waves, including caches and canonical neutralization. The
+nonproper-information restriction and nonadditivity of cut deficits are
+explicit. A new port theorem and fixed-provider transfer preserve H642's
+16-field local loss even under nonlinear processing/copy mixing.
+
+The failure led directly to two positive source corrections: actual same-D
+width12 gluing and protected D1509 central tails. Worker C separately reviews
+each and the assembled full45 pair; root freshly reproduces all three reviews.
+The revised pair retains315/291 source cuts,72/67 readouts and5 actual early
+bases; all57 known shared-D isolation conditions now pass. Logical and
+physical H words and their1509520-ADD/16-field bill are unchanged. Root
+verifies exact owner binding and both binary words. Known partial kernels
+18/20/22 are not complete D fibres; no D decoder is admitted.
+
+A separate complex source/hub theorem gives four exact conditional completion
+tests for rank(C)=909. Root reconstructs its full1289-field source interface,
+and Worker B reviews root's outside-rank and incoming-message refinements.
+The surrounding causal code remains unconstructed. Additional exact rank
+packages and numerical searches await review. Six new admissions; no new
+complete kappa or foundational discharge. Work continues toward an actual
+shared D word. Resulting remote SHA is verified separately; not final handoff.

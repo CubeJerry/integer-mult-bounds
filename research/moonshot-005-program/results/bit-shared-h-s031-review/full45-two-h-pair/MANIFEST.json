@@ -1,11 +1,8 @@
 {
-  "status": "ADMITTED_CHECKPOINT5_SCOPE",
-  "excluded_unreviewed_children": [
-    "port-rigidity",
-    "shared-d-continuation"
-  ],
+  "status": "ADMITTED_CHECKPOINT6_SCOPE",
   "files": {
     "ADMISSION.md": "d34e06f5e6b0150d2653296a54a3d5dc825bc307973ac9fbfa25aad73a6f9956",
+    "CONTINUATION-STATUS.md": "ef3f37bdf84bf8241237a5d22005b27682c01f4e8f733d1606cd371878c5ae01",
     "author/MANIFEST.json": "44ea2c9bb9bd17a9ad6b12486594fd417aed4f956912ba2df3668704aa3da4cf",
     "author/PAIR-TWELVE.json.gz": "ab462732c94f79b048399dc0fee29755843e3a719901e0e7a3fb556fd9715752",
     "author/PROOF.md": "f6222f2e18de6ceeb767502d57cd086a42214ee0488286dbe2ed175918d959e4",
@@ -19,6 +16,20 @@
     "author/output/FIBRES.json.gz": "0d08c6f1176a2547564063bb909ecc8d6441c9f33bc2b158c70161a35270c0f6",
     "author/output/RESULT.json": "5ca859046d2c293a77fde2933afd68eabac2311140ded3f8470dcd6d8a4790a3",
     "author/output/SOURCE-CUT-DETERMINANTS.json": "353360c8557dcead695c1779cce110f564cd1ec22d2887e25074dbfe583a8703",
+    "port-rigidity/ADMISSION.md": "73c0172c65eb00151786ae6b62b5759d95f00201ca14e89bfd6f3d79f519a6ce",
+    "port-rigidity/MANIFEST.json": "736c7f7c1109e6fb9069ccf3ad15ea5e964f756867dc1102712d791ec55e4695",
+    "port-rigidity/WORD-TRANSFER-REVIEW.md": "da3430d14f8fefbb89dc5a03e9445da9cfc76d030dee211f16c72ea95ce6c2af",
+    "port-rigidity/author/MANIFEST.json": "0b53607db9652090ca5e7a632d70cb67ead014df44c3913144e3739329856361",
+    "port-rigidity/author/PROOF.md": "fa1d9d12e64c1965f6b13f63b47b5613ad77569f7bff75b02e74935784012378",
+    "port-rigidity/author/SOURCE-PINS.json": "ce2345be4b645ba59699fb980a5620995a5b747a76d2e20fce0b083fe4ae71e2",
+    "port-rigidity/author/check.py": "aff0d50dd85db740429fb512e9eda0e0b7c663c5e3971d59c5576330c8a0fe2f",
+    "port-rigidity/author/output/CERTIFICATES.json.gz": "01da9aeafcebc5f108ae35c1cb8e79abdb2dbaea2c44c1f9ce09d2e1a77d8022",
+    "port-rigidity/author/output/RESULT.json": "cc05e98eaf6d65bb2945c2e96a92feb5dfda8571b2988a0d3a85a368507bd1a0",
+    "port-rigidity/root-review/MANIFEST.json": "a32365c1c333b6188e244771dc1b960d716c0233be6b7c972dd872c8921a9566",
+    "port-rigidity/root-review/REVIEW.md": "a9158bc2e183aeefec76cda5324551528041993236a2cb46eddee5343da908b8",
+    "port-rigidity/root-review/SOURCE-PINS.json": "0bc275cf87ec942dda508acfb958ca176c7a431a480314c49436447a782ad1e3",
+    "port-rigidity/root-review/check.py": "24d629fe3f654af1df9c15454b17ce4ea3c1a0377317dcea2802188c2a8a7d3c",
+    "port-rigidity/root-review/output/RESULT.json": "df00ee92867548ad3499972b9935491b4159ac5b0a93415a86ce5cb649a51433",
     "review-a/MANIFEST.json": "47d892e7d6ebfe11f6a8b2910f1b041b59092a0286c0794d3cb861671fff09a3",
     "review-a/REVIEW.md": "706ae3314c0b77a49025b3c2badc8d87b52181b847dbd020e96c8b179a728f96",
     "review-a/SOURCE-PINS.json": "619e462d22ca4660fad4d8440090bc8ca30a6f2d61fbba77b9fa9916fdb5f66f",
@@ -29,6 +40,19 @@
     "root-physical/REVIEW.md": "43950b8e48ad232e8231d7bae73c429716b9be276481469645e87d7929e9cf99",
     "root-physical/SOURCE-PINS.json": "4537165f2ca522e3d8ad2bf099d781f2e7c0d9696046ea588edac1e5aebe55d9",
     "root-physical/check.py": "82484aca9da5a5d7bb464c5f20543d5026b0a297368111055594b545b017e87e",
-    "root-physical/output/RESULT.json": "ecb2d40838ca383172cfc92f00bb22eeb699911b18747d880ac67bfa43e4bb85"
+    "root-physical/output/RESULT.json": "ecb2d40838ca383172cfc92f00bb22eeb699911b18747d880ac67bfa43e4bb85",
+    "shared-d-gate/ADMISSION.md": "fc5f8f5d14b09658c82d3851b13e446b93e925d8de25d48227c54edb6619c5b6",
+    "shared-d-gate/MANIFEST.json": "5e5791e865b84212c317de756b06f41b0ce77c481f61f9ba706e683da93b1348",
+    "shared-d-gate/author/MANIFEST.json": "9fd9182c8d15a4baa83c5be3f6269f20850b92cb7e5959dcfc97a235f24e53a8",
+    "shared-d-gate/author/PROOF.md": "d4fd3df909108b66e3f39615180566c6ea562319b547293dad637f3724565430",
+    "shared-d-gate/author/SOURCE-PINS.json": "b3753e34c28946df690f41e9b4d7a0dc4013f06c7f5a493fc3f0c7e74654ab12",
+    "shared-d-gate/author/check.py": "a2905dd4749996f92563e1cffb11e1f48a34c94c1978674dc84be603455fd293",
+    "shared-d-gate/author/output/RESULT.json": "0ef9cf60dd21c3c7aa51e33907bb1bdfbd6ce8e308aabafd112eb01e6d767636",
+    "shared-d-gate/author/output/WITNESS.json.gz": "4d02cc913366610b88d4604a5d970f2e7d1a73fe287837348e2b506a235f04cb",
+    "shared-d-gate/root-review/MANIFEST.json": "ad82d2ae4679c6dfcd7272d9f7830e4c737f6984b9d465ada016db1ee8a077f8",
+    "shared-d-gate/root-review/REVIEW.md": "de7179aaa9921e232fe80aa244783f9ec8c31affdb9f4d1449705446e17af219",
+    "shared-d-gate/root-review/SOURCE-PINS.json": "1c2ff80a31e9e587d063bc486f48e72618211620a445f379eb8e165ec78e8edc",
+    "shared-d-gate/root-review/check.py": "d0c4d58ad2173a595a39b8091afa713aeff204386a818ab214bd69cf64a50545",
+    "shared-d-gate/root-review/output/RESULT.json": "5dffce0867d10b5b906af42b6e9c8a6643089206bbb0a2f8aae838bcf352f7f1"
   }
 }

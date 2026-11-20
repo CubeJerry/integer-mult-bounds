@@ -1,5 +1,22 @@
 # Remaining proof obligations — current programme
 
+## S031 checkpoint6: one actual shared D word is now the immediate target
+
+| Obligation | Current status | Next exact requirement |
+| --- | --- | --- |
+| Continue the checkpoint5 source pair unchanged through proper D | Excluded under its fixed-prefix, capacity and nonproper-information contract; one cut needs80 fields against64 | [Gate](results/bit-shared-h-s031-review/full45-two-h-pair/shared-d-gate/ADMISSION.md); deficits are not added across cuts |
+| Repair the complementary and protected cross-D interference | Proved separate source changes;46 and11 native conditions pass | [Width12](results/bit-shared-h-s031-construction/port-aligned-complement/ADMISSION.md) and [protected3](results/bit-shared-h-s031-construction/protected-d1509-tail-repair/ADMISSION.md) |
+| Assemble one full45 pair with both repairs | Proved315/291 cuts,72/67 readouts,5 early bases and57 shared-cut tests | [Revised pair](results/bit-shared-h-s031-construction/d-aligned-full45-pair/ADMISSION.md); construct a common phase-compatible D decoder |
+| Remove H642 loss by nonlinear processing under the same provider | Excluded; all port quotients are one field, joined rank44 | [Fixed-provider transfer](results/bit-shared-h-s031-review/full45-two-h-pair/port-rigidity/ADMISSION.md); changed providers remain open |
+| Choose complex source forms after fixing the surrounding circuit | Exact conditional necessary-and-sufficient reduction proved | [Completion theorem](results/complex-paid-export-s031-coupled-repair/source-hub-completion/ADMISSION.md); find a circuit meeting all four tests |
+
+The primary next proposition is an actual shared D word with genuine input
+owners, permitted early/late dependencies and common target readouts, starting
+at D1509 on the five supplied donors. Common known partial kernels and zero
+cross-pairings are necessary evidence, not a decoder. Global sources, H/D/K/
+facet completion, affordable return, both suppliers and all five foundations
+remain open. No new complete kappa.
+
 ## S031 checkpoint5: fullwidth two-centre source completed
 
 | Obligation | Current status | Next exact requirement |

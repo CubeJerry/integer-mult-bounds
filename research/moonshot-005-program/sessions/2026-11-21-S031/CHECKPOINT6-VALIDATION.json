@@ -1,0 +1,88 @@
+{
+  "status": "PASS_CHECKPOINT6_EVIDENCE_COLLECTION",
+  "mode": "Collect completed checks and durable mathematical reviews; this collection is not another execution or independent review",
+  "checkpoint_parent": "aa1a48ee65630ab185cd45affe27ba8f09b9cedf",
+  "checked_source_pin_entries": 110,
+  "precollection_existing_manifest_and_pin_entries_checked": 168,
+  "jobs": [
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-review/full45-two-h-pair/port-rigidity/root-review/check.py",
+      "checker_sha256": "24d629fe3f654af1df9c15454b17ce4ea3c1a0377317dcea2802188c2a8a7d3c",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-review/full45-two-h-pair/port-rigidity/root-review/output/RESULT.json",
+      "receipt_sha256": "df00ee92867548ad3499972b9935491b4159ac5b0a93415a86ce5cb649a51433",
+      "status": "PASS_ROOT_FULL45_NATIVE_PORT_RIGIDITY",
+      "verification_kind": "root independent reconstruction and proof review",
+      "fresh_reproduction_all_result_fields_match": null
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-review/full45-two-h-pair/shared-d-gate/root-review/check.py",
+      "checker_sha256": "d0c4d58ad2173a595a39b8091afa713aeff204386a818ab214bd69cf64a50545",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-review/full45-two-h-pair/shared-d-gate/root-review/output/RESULT.json",
+      "receipt_sha256": "5dffce0867d10b5b906af42b6e9c8a6643089206bbb0a2f8aae838bcf352f7f1",
+      "status": "PASS_ROOT_FROZEN_PAIR_SHARED_D_GATE",
+      "verification_kind": "root independent geometry, causal-owner and isolated-translation reconstruction",
+      "fresh_reproduction_all_result_fields_match": null
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-construction/port-aligned-complement/review-c/check.py",
+      "checker_sha256": "99bbbdeadd099a5ca7a964e65ad1bf1c2bc5417f60e267dc97d9a44475060f06",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-construction/port-aligned-complement/review-c/output/RESULT.json",
+      "receipt_sha256": "69ed1c3d9cce3da9d72a7e068ba8e3444a877ed55dbdeb22c1d210eda7aa9e29",
+      "status": "PASS_INDEPENDENT_PORT_ALIGNED_WIDTH12_PAIR",
+      "verification_kind": "independent C source/readout review; fresh root reproduction",
+      "fresh_reproduction_all_result_fields_match": true
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-construction/protected-d1509-tail-repair/review-c/check.py",
+      "checker_sha256": "f425b52b78da8dea4cfc0effa48647ea45f6332316826a2ab843f6ee563f130d",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-construction/protected-d1509-tail-repair/review-c/output/RESULT.json",
+      "receipt_sha256": "bb9cfff0f44483c56f4ee6eff7c36e00870553dad7997a9e029e1a1cc4af29f7",
+      "status": "PASS_INDEPENDENT_PROTECTED_D1509_TAIL_REPAIR",
+      "verification_kind": "independent C source/readout review; fresh root reproduction",
+      "fresh_reproduction_all_result_fields_match": true
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-construction/d-aligned-full45-pair/review-c/check.py",
+      "checker_sha256": "218c0bd886715b60c8569ed540845a62e6c428aca893989876985ba0d558a864",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-construction/d-aligned-full45-pair/review-c/output/RESULT.json",
+      "receipt_sha256": "1fb3bc62a1162a478a776d6dc9ba8140b02c13e9ac1e97757ec6b4c33bac54cc",
+      "status": "PASS_INDEPENDENT_D_ALIGNED_FULL45_TWO_H_PAIR",
+      "verification_kind": "independent C source/readout review; fresh root reproduction",
+      "fresh_reproduction_all_result_fields_match": true
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-construction/d-aligned-full45-pair/root-physical/check.py",
+      "checker_sha256": "cf8507846e3ef555ef07f2f55b75fe5a2a10009fa7471677c39b8035bd9f2a96",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-construction/d-aligned-full45-pair/root-physical/output/RESULT.json",
+      "receipt_sha256": "016b7cb7f3415e4aceef2fdad5860ef45b4d9de5ff05ff9ebb42093d5a35c65b",
+      "status": "PASS_ROOT_D_ALIGNED_FULL45_PAIR_OWNER_WORDS",
+      "verification_kind": "root independent actual-owner and complete binary-word reconstruction",
+      "fresh_reproduction_all_result_fields_match": null
+    },
+    {
+      "checker": "research/moonshot-005-program/results/complex-paid-export-s031-coupled-repair/source-hub-completion/root-review/check.py",
+      "checker_sha256": "66febde27771371775753cddb04bb83e909ead418b1615ac64b8e1ff10b3eb18",
+      "receipt": "research/moonshot-005-program/results/complex-paid-export-s031-coupled-repair/source-hub-completion/root-review/output/RESULT.json",
+      "receipt_sha256": "66cd3622a21f4d9a3727845887e40f1bca8531d95310043dee3f4080a5e5bee2",
+      "status": "PASS_ROOT_SOURCE_HUB_COMPLETION_INTERFACE",
+      "verification_kind": "root independent raw rational interface reconstruction and proof review",
+      "fresh_reproduction_all_result_fields_match": null
+    }
+  ],
+  "additional_independent_proof_reviews": [
+    {
+      "path": "research/moonshot-005-program/results/bit-shared-h-s031-review/full45-two-h-pair/port-rigidity/WORD-TRANSFER-REVIEW.md",
+      "sha256": "da3430d14f8fefbb89dc5a03e9445da9cfc76d030dee211f16c72ea95ce6c2af"
+    },
+    {
+      "path": "research/moonshot-005-program/results/complex-paid-export-s031-coupled-repair/source-hub-completion/review-b-rank-corollary.md",
+      "sha256": "fc7f5a15a661310942afe866272d6306db3b47f8b4e1a241e01d86959f2880ef"
+    },
+    {
+      "path": "research/moonshot-005-program/results/complex-paid-export-s031-coupled-repair/source-hub-completion/review-b-incoming-message-reduction.md",
+      "sha256": "520ba0d50a006f8374eba4b7b715b4eab4c856545495a104d02bb44189fcf657"
+    }
+  ],
+  "new_complete_kappa": false,
+  "complete_D_decoder": false
+}

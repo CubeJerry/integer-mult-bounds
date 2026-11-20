@@ -1,5 +1,31 @@
 # Verification ledger
 
+## S031 checkpoint6: independent shared-D diagnosis and source repair
+
+Root independently reconstructs the old pair's two component-separated D
+witnesses, actual early emissions, both physical H words, canonical
+neutralization and both-wave right-cut capacity. The proof allows arbitrary
+nonlinear remaining words and caches within declared routes. Root also
+rebuilds all90 fullwidth port translation spaces and their exact minors.
+Worker C reviews root's fixed-provider transfer lemma; the new source review
+discharges its concrete hypotheses.
+
+Worker C independently checks the aligned width12 and protected D1509
+components, then freshly reconstructs the assembled240-dimensional source
+matrices, whole15-dimensional readouts,480-dimensional early bases and57
+shared-cut conditions. Root reads each proof and freshly reproduces all three
+independent checks. Root separately binds the new early rows to unchanged
+actual H words and replays the full binary extensions. Old nonzero values20
+and30 become0 on the repaired source, while the old literal remains frozen.
+
+For the complex reduction, root reuses its independent reverse-DAG method
+and sparse inversion, with new source/export/interface checks. Worker B
+independently reviews the outside-rank and incoming-message refinements.
+No numerical optimizer is proof evidence. [Checkpoint6 collection](sessions/2026-11-21-S031/CHECKPOINT6-VALIDATION.json)
+records checker/receipt hashes and replay agreement; collecting these records
+is not another execution. Additional rank-boundary, recoding-search and
+actual-D investigations remain outside this checkpoint until reviewed.
+
 ## S031 checkpoint5: full source, physical word and joint-loss reviews
 
 Five new packages are admitted. Worker A independently reconstructs the

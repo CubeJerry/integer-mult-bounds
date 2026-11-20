@@ -1,78 +1,88 @@
 # Persistent κ=0.005 research programme
 
-## S031 checkpoint5: a complete fullwidth shared two-centre component
+## S031 checkpoint6: shared-D obstructions turned into a repaired source pair
 
 **No new complete κ.** The selected conditional value remains .00363005817.
-The session is active. Both strict suppliers, the complete physical word and
+The session is active. Both strict suppliers, a complete physical word with
 affordable return, and the full recursive caller remain open.
 
 ### Current constructive frontier
 
-The [full45 pair](results/bit-shared-h-s031-review/full45-two-h-pair/ADMISSION.md)
-serves every actual port at H263 and H642 with five shared ordinary sources,
-including one source dictionary and one actual480-dimensional early basis at
-donor61. A newly constructed width12 complement uses the current global port
-allocation and couples with the protected width3 rank-one overlap. All315
-full240-dimensional source cuts (291 native),72 common whole15-dimensional
-readouts (67 native), and five actual early bases pass independent review.
-The full provider ranks are45 and44; joined fibre cores are214 and210.
+The [D-aligned full45 pair](results/bit-shared-h-s031-construction/d-aligned-full45-pair/ADMISSION.md)
+uses five shared sources0,45,61,62,100 and all45 actual ports at H263/H642.
+Every315 full240-dimensional source cut (291 native),72 whole15-dimensional
+readout (67 native), and five actual480-dimensional early bases pass separate
+review. Donor61 has one source and one basis. Provider ranks remain45/44,
+fibre cores214/210, and uniform propagation bounds216/207 remain below225.
+At bank3840 those bounds are3456/3312 below3600.
 
-Uniform propagation bounds are216 for donors0,61,62 and207 for45,100, below225.
-Sixteen copies give3456 and3312 below3600 at bank3840. The actual H words use
-ninety original owners each; the shared donor supplies disjoint owner sets.
-Their full binary forward and inverse words cost1509520 local replacement
-ADDs. H642 uses16 extra gap6 field exports and96 binary INIT/MOVE/CLEAR each.
-The separate [single-H construction](results/bit-shared-h-s031-review/full45-local-h642/ADMISSION.md)
-is also reviewed and has the lower local ADD total217312, but does not supply
-the pair's shared-source compatibility. These are different literal words.
+The earlier fullwidth pair failed a [proper shared-D gate](results/bit-shared-h-s031-review/full45-two-h-pair/shared-d-gate/ADMISSION.md).
+A source0 direction isolated to one D changed a different D packet at
+source45. With fixed canonical information, a single proper cut needed80
+fields at bank3840 but had64, even allowing nonlinear other H/D/K words and
+stationary caches. Separate witnesses affected the protected and complementary
+components. The old local theorem remains valid; its unchanged continuation
+is blocked under the gate's explicit information assumptions.
 
-### Information budget and the next construction
+The new [width12 alignment](results/bit-shared-h-s031-construction/port-aligned-complement/ADMISSION.md)
+uses actual same-D contribution rows in the eight cross-centre equations.
+The [protected tail repair](results/bit-shared-h-s031-construction/protected-d1509-tail-repair/ADMISSION.md)
+solves142-by144 affine systems of rank110 while preserving the entire H642
+core. Together they remove the old values20/30 and pass both-direction
+isolation tests at all57 native incidences of the five shared D charts.
+
+These are necessary continuation conditions. The known partial-D common
+kernels have dimensions18,20 or22; no actual common D decoder is supplied.
+The next main obligation is a phase-compatible physical D word, starting
+at D1509 on the five constructed donors, followed by the remaining sources,
+H words and shared D/K/facet transport. The other106 compatible donor stars
+and a complete return remain open.
+
+### Actual ownership and information budget
+
+The repaired pair has exactly the old H provider matrices, physical owner
+assignments, complements, extensions and binary ADD lists. Root independently
+binds its new early source rows to all six actual H input interfaces. The
+H forward/inverse replacement bill remains1509520 ADDs plus16 gap6 field
+exports and96 binary INIT/MOVE/CLEAR each. New source preparation costs are
+not inferred from unchanged H words and still need a separate invoice.
+
+The [fixed-provider port theorem](results/bit-shared-h-s031-review/full45-two-h-pair/port-rigidity/ADMISSION.md)
+shows that nonlinear H processing or copy mixing cannot remove H642's loss
+while retaining the same tight provider/readout interface. Its transfer to
+the repaired source is proved: zero-target translations equal ker(P_i),
+so the invariant port quotient depends only on provider rows and audience.
 
 At bank3840,m870,kappa=.005,16 extra gap6 exports leave strict return cap34675,
 115 above the abstract floor34560. The [joint-loss theorem](results/bit-simultaneous-paid-h-loss/ADMISSION.md)
-proves that fixed rank losses on disjoint H inputs add even under arbitrary
-nonlinear joint recovery, when all old information available at original-X
-restoration factors through the retained signals. Actual routes partition
-53280 base owners. There are65 three-donor double-quota centres and816
-single-quota centres. Direct-export rank-one defects obey2a+b<=21 at m870,
-or22 in the limiting screen, even at the return floor.
+requires fixed losses on disjoint early H inputs to add, even for nonlinear
+joint recovery at the original-X restoration boundary. Direct-export doubled
+and single defects obey2a+b<=21 at m870 or22 in the limit. Stationary caches
+may aid the later B endpoint; no return excess follows from H loss alone.
 
-Stationary incoming H caches may help the later B endpoint, although they
-are unavailable to Hub's earlier restoration. The information theorem does
-not infer canonical-return excess from H rank loss alone. Source compatibility,
-other operation costs and the return must still be proved on the same word.
+### Complementary complex construction
 
-The next primary obligation is to extend the protected shared-source system
-to a third actual centre and construct compatible downstream D/K/facet maps,
-while controlling total lost information. The other106 source stars remain
-unconstructed. The fullwidth complement at these two centres is now complete.
+The [two-message screen](results/complex-paid-export-s031-coupled-repair/ADMISSION.md)
+leaves120 endpoint pairs for the exact seven deletions. No complete useful
+causal recoding has been found. The new [source/hub completion theorem](results/complex-paid-export-s031-coupled-repair/source-hub-completion/ADMISSION.md)
+replaces free source-coefficient search with four exact necessary and
+sufficient tests for a fixed surrounding circuit with rank(C)=909. It fixes
+376 source columns and completes532 others against370 fixed stock columns.
+Successful instances have376<=rank(C_a)<=377. The pinned membership tests
+are independent of the received field's coefficients; that field gives
+only a rank-one stock update. These are conditional synthesis tools, not
+a repaired supplier or numerical exponent improvement.
 
-### Scoped continuation gates
-
-The [both-anchor tail gate](results/bit-shared-h-s031-construction/both-tail-obstruction/ADMISSION.md)
-forces a distant rank3 translation kernel for all72 allowed tail parameters,
-including noncommuting repeated blocks. The [contraction-union gate](results/bit-shared-h-s031-construction/contraction-union-gate/ADMISSION.md)
-gives literal union loss15 and family-wide lower bound12 under its fixed
-readout and translation constraints. Changed targets and off-centre maps are
-outside these gates. Earlier nonlinear bank, frozen-readout and full-update
-involution gates remain source specific. Three-term conditional feedback
-is still a possible alternative, not an established common H word.
-
-### Complementary complex repair and publication
-
-The [complex screen](results/complex-paid-export-s031-coupled-repair/ADMISSION.md)
-requires two affordable grade-one replacement messages for the exact seven
-specified deletions and leaves120 endpoint pairs. A complete useful causal
-recoding remains open. New recoding searches have not been admitted as a
-supplier or theorem. Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57.
-The selective #7846 source-transfer review is complete; its full claimed
-uniform theorem is not independently adopted for this changed source.
+### Foundations and publication
 
 All five foundations remain explicit: native_all_columns, owned_erasure,
-compiler, precision_tape and analytic_recovery. The branch is an ongoing
-research programme and is not PR-ready. No complete exponent changes.
+compiler, precision_tape and analytic_recovery. Canonical main remains
+e54523517d0f03e58352e647c403a5af3e525a57 at the last recorded refresh. The
+selective #7846 source-transfer intake does not independently adopt its full
+uniform theorem for the changed moonshot source. The cumulative branch
+remains an ongoing programme and is not PR-ready.
 
-Confirmed checkpoint parent: 353d2e9ada3538da776a2d2857561881d968ee7b.
+Confirmed checkpoint parent: aa1a48ee65630ab185cd45affe27ba8f09b9cedf.
 Session:2026-11-20 14:44:01 UTC to19:44:01 UTC; work continues.
 See [STATE](STATE.json), [TARGET-005](TARGET-005.md), [OBLIGATIONS](OBLIGATIONS.md)
-and the source-bound admissions for exact scopes and replay commands.
+and the individual admissions for precise scopes and replay commands.

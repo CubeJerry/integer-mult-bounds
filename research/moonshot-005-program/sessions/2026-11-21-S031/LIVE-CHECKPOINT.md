@@ -1,17 +1,16 @@
-# S031 active checkpoint5
+# S031 active checkpoint6
 
 Session start:2026-11-20 14:44:01 UTC. Planned end:19:44:01 UTC.
-Confirmed parent:353d2e9ada3538da776a2d2857561881d968ee7b. Resulting commit verified separately.
+Confirmed parent:aa1a48ee65630ab185cd45affe27ba8f09b9cedf. Resulting commit verified separately.
 
-Full45 H263/H642 pair independently accepted:315/291 source cuts,72/67 whole
-readouts, five actual early bases and one shared donor61 source. Logical
-ranks45/44; physical local replacement cost1509520 ADDs plus16 gap6 field
-exports. The single-H alternative and both-tail/contraction gates are also
-admitted. Joint recovery cannot hide disjoint local loss at the stated Hub
-restoration boundary; doubled/single defects obey2a+b<=21 m870,22 limiting.
+The new D-aligned full45 H263/H642 pair passes315/291 source cuts,72/67
+whole readouts, five actual early bases and all57 known native shared-D
+isolation tests. Both old component failures are repaired. Physical H words
+and owners are unchanged, with1509520 local ADDs and16 gap6 field exports.
+Changed source preparation is not yet priced. A physical common D decoder,
+remaining source/H/D/K/facet completion and complete return remain open.
 
-A third H, shared downstream D/K/facet maps, remaining sources, complete
-return, both suppliers and all five foundations remain open. Later incoming
-caches may help B; H loss alone implies no canonical-return excess. No new
-complete kappa. Three workers continue construction, D compatibility and
-complex causal recoding. The branch is not PR-ready.
+Complex source/hub completion is reduced to exact conditional linear algebra;
+no successful surrounding causal code is found. All five foundations and
+both strict suppliers remain open. No new complete kappa. The branch remains
+an ongoing research programme, not PR-ready. Research continues in-session.

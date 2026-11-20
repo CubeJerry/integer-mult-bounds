@@ -1,5 +1,24 @@
 # Construct structured native sources and prove exact compatibility gates toward κ=0.005
 
+## S031 checkpoint6: an obstruction-guided shared-source repair
+
+The earlier full45 pair fails a native proper-D information cut under its
+fixed-prefix contract. The programme preserves that exact obstruction and
+constructs a different source pair that removes both component failures.
+The new width12 gluing uses actual same-D contribution rows; the protected
+repair solves two central-tail systems while retaining the full H642 core.
+Their separately reviewed full45 assembly passes315/291 source cuts,72/67
+readouts, five genuine early bases and all57 known shared-D isolation tests.
+
+Actual H ownership and compiler words are unchanged and rebound to the new
+source. The gross H bill remains1509520 ADDs plus16 field exports. The exact
+partial-D tests do not establish a D decoder. The next work is a common
+physical D word, further source/transport completion and an affordable return.
+On the complex side, an independently reviewed source/hub theorem reduces
+source-coefficient choice to exact conditional linear algebra for the fixed
+surrounding circuit. Neither improvement establishes a complete supplier,
+foundation or new kappa. This remains a cumulative draft, not PR-ready.
+
 ## S031 checkpoint5: fullwidth compatible H pair and a joint-loss theorem
 
 The programme now has a source-bound full45-port H263/H642 pair on five shared
