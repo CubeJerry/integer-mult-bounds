@@ -1,5 +1,7 @@
 # Remaining proof obligations — current programme
 
+[Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md). The paid two-star construction still requires at least 182,875 return symbols against the target budget of 34,688.
+
 ## S026 checkpoint 1
 
 | Obligation | Status and next step |

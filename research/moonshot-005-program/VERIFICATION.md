@@ -1,5 +1,7 @@
 # Verification ledger
 
+[Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md). The paid two-star construction still requires at least 182,875 return symbols against the target budget of 34,688.
+
 ## S026 checkpoint 1
 
 Root independently reviewed the exact canonical quotient repair proof, its

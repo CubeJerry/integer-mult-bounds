@@ -1,5 +1,7 @@
 # Relevant external research and compatibility
 
+[Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md). The paid two-star construction still requires at least 182,875 return symbols against the target budget of 34,688.
+
 ## S026 intake
 
 Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57 and selects

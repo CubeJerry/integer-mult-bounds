@@ -1,5 +1,7 @@
 # Reproduce the scoped results
 
+[Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md). The paid two-star construction still requires at least 182,875 return symbols against the target budget of 34,688.
+
 Run from repository root. Python3.12 was used; primary capacity uses NumPy2.3.5.
 The four temporal verifiers and independent capacity/endpoint checks use the
 standard library. Receipts do not establish unimplemented suppliers.

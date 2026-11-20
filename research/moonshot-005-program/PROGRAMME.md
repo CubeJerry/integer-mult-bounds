@@ -1,5 +1,7 @@
 # Persistent κ=0.005 research programme
 
+[Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md). The paid two-star construction still requires at least 182,875 return symbols against the target budget of 34,688.
+
 ## S029 checkpoint 2
 
 The [H263 source](results/bit-spread-h263-source/ADMISSION.md) realizes all 33 native inverse-fibre constraints. A separate [physical GF(64) word](results/bit-spread-rs-physical-word/ADMISSION.md) has full rank on all 6,470 foreign blocks. Achieving the specified low return is still open.

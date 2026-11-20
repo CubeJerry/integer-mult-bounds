@@ -54,6 +54,11 @@ def main(a):
         py(star/'author/check.py',{'repo':repo,'cache-dir':cache,'late-cache':late,'source-cache':author_cache,'out':w/'star-author'})
         equal(read(w/'star-author/RESULT.json'),read(star/'author/output/RESULT.json'),'authoritative second star word')
         v=read(so/'RESULT.json');total['stars']={k:v[k]for k in ('full_original_native_blocks','nonflat_full_proper_original_targets','additional_full_identity_blocks','net_extra_source_forward_ADD','net_extra_receiver_forward_ADD','net_extra_inverse_ADD')};total['stars']['whole_return_upper']=read(so/'FULL-ROLE-TARGET-SECTIONS.json')['native_fitting_upper']
+    if a.bridge:
+        if 'stars'not in sel:raise ValueError('--bridge requires --select stars')
+        py(star/'review/check.py',{**shared,'taps':taps,'out':so},'--bridge');py(star/'review/full_sections.py',{**ct,'config':config['output-config'],'out':so},'--bridge')
+        for stem in ('BRIDGE-RESULT','BRIDGE-WORDS','BRIDGE-FULL-ROLE-TARGET-SECTIONS'):equal(read(so/(stem+'.json')),read(star/'review/output'/(stem+'.json')),stem)
+        v=read(so/'BRIDGE-RESULT.json');total['separate_connected_spanning_tree']={k:v[k]for k in ('full_original_native_blocks','additional_full_identity_blocks','net_extra_forward_ADD','net_extra_inverse_ADD')}
     if 'profile' in sel:
         po=w/'profile';py(profile/'review/check.py',{**ct,**config,'profile':profile/'author/output/PROFILE.json','aggregate':agg,'prices':profile/'author/output/WORD-PRICES.json','out':po})
         for name in ('RESULT','PRICES'):equal(read(po/(name+'.json')),read(profile/'review/output'/(name+'.json')),name)
@@ -64,7 +69,7 @@ def main(a):
         v=read(fo/'RESULT.json');equal(v,read(frozen/'review/output/RESULT.json'),'all actual frozen-boundary residuals');total['frozen']={k:v[k]for k in ('native_edges','actual_nonflat_edges','minimum_error_rank_lower','maximum_error_rank_lower')}
     total['new_complete_kappa']=False;(a.out/'RESULT.json').write_text(json.dumps(total,sort_keys=True,indent=2)+'\n');print('Verified',','.join(sorted(sel)),flush=True)
 if __name__=='__main__':
-    p=ArgumentParser();p.add_argument('--repo',type=Path,required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--work',type=Path);p.add_argument('--prior-work',type=Path);p.add_argument('--select',nargs='+',choices=SELECT);p.add_argument('--full-rim',action='store_true');p.add_argument('--threads',type=int,default=3);a=p.parse_args()
+    p=ArgumentParser();p.add_argument('--repo',type=Path,required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--work',type=Path);p.add_argument('--prior-work',type=Path);p.add_argument('--select',nargs='+',choices=SELECT);p.add_argument('--bridge',action='store_true');p.add_argument('--full-rim',action='store_true');p.add_argument('--threads',type=int,default=3);a=p.parse_args()
     if a.work:main(a)
     else:
         with tempfile.TemporaryDirectory(prefix='native-physical-supplement-')as tmp:a.work=Path(tmp);main(a)

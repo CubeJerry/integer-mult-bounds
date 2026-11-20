@@ -1,10 +1,12 @@
 # Persistent κ = 0.005 programme
 
+[Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md). The paid two-star construction still requires at least 182,875 return symbols against the target budget of 34,688.
+
 **No new κ. Ongoing research; not PR-ready.**
 
 Start with [STATE.json](STATE.json) and [PROGRAMME.md](PROGRAMME.md), then
 [TARGET-005.md](TARGET-005.md) and [OBLIGATIONS.md](OBLIGATIONS.md).
-The next task is a causal cochart difference-delivery construction and its costs.
+The next task is to change source and middle charts together.
 
 The first session proves exact restrictions on fixed-channel sharing, temporal
 exchanges, endpoint repair and shared-cut capacity, and supplies a conditional

@@ -9,3 +9,5 @@ The main physical witness is the two-star word in `bit-global-two-star-target`. 
 `--prior-work` can point to the generated working directory of `bit-native-physical-replay/author/check.py`. The independent native matrix and gauge hashes are checked before their use. The full native rim rank has a separate `--full-rim` option together with `--select bilateral`. Temporary working space holds the regenerated large coefficient arrays. Only source programs, explicit parameter data and compact receipts are required in the checkout.
 
 The final two-star and synchronized profile words use different endpoint operators. A third result freezes the pure endpoint operators as a hypothesis for the negative theorem. Their costs and kernel dimensions are separate.
+
+With `--select stars --bridge`, the optional final independent construction verifies a separate connected spanning tree of 221 whole proper target blocks, keeping at least 35 full input directions and 15 to 35 output probes. Its added cost and profile bounds appear in `bit-global-two-star-target/review/BRIDGE.md`.

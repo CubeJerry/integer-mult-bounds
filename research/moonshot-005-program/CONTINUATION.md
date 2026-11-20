@@ -1,7 +1,3 @@
 # Resume the permanent programme
 
-Synchronize the remaining foreign-transfer coordinates across all 111 native receivers while restoring all originals and preserving the paid chart word.
-
-The [balanced native routing](results/bit-all111-balanced-causal-atlas/ADMISSION.md) supports all 6,470 full-rank foreign blocks simultaneously on real X and Y owners within the target movement ceiling. The [coordinate theorem](results/bit-simultaneous-native-coordinates/ADMISSION.md) fixes 69 common identity rows at every endpoint in one such code. A separate GF(64) realization gives 76 rows with one plane cache per donor.
-
-Consult [the exact state](STATE.json), [obligations](OBLIGATIONS.md) and [verification ledger](VERIFICATION.md).
+[Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md). Keep the 123 nonflat target blocks, constrain the 55-by-56 disjoint submatrix and change the common source and H/D/K transport. Pure endpoint transformations preserve its 182,875 lower bound. Seek a nine-bank factorization with at most 128 spill fields. Check the whole return, 6,470 original maps, inverse, movement and erasure before attaching the 88-copy compiler. [Physical capacities](results/bit-global-source-facet-row-column/interior-distance/PROOF.md).

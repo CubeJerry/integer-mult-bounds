@@ -2,18 +2,18 @@
 
 The 111 native roles have b independent input coordinates each. A linear fitting has an identity on every true own block and zeros outside the native proper support and its diagonal. Write q for its rank, h=q−9b, and dᵢⱼ=b−rank(Mᵢⱼ) for the corank of a proper directed block. The nine-bank lower bound makes h nonnegative, without any nonsingularity premise.
 
-For 6,462 native directions the result is dᵢⱼ≤7h/5. For the eight remaining directions it is dᵢⱼ≤122h/75. The four unordered exceptional pairs are (7,80), (10,81), (80,96), and (81,95). Both directions in each pair use the second bound. Every coefficient is unconditional on the ranks of the other proper blocks.
+For 6,462 native directions the result is dᵢⱼ≤7h/5. For the eight remaining directions it is dᵢⱼ≤3h/2. The four unordered exceptional pairs are (7,80), (10,81), (80,96), and (81,95). Both directions in each pair use the second bound. Every coefficient is unconditional on the ranks of the other proper blocks.
 
 The same result holds for arbitrary deterministic zero-error index coding where one donor is supplied through a compressed representation g(Xⱼ). Give each input an independent uniform n-symbol bank, set B=log n, and let ε=H(Y)−9B for broadcast Y. Then replace dᵢⱼ by B−H(g(Xⱼ)) and h by ε. Removing a directed link takes g constant. If a separable fitting is the broadcast, a receiver can use its own edge function as this representation.
 
-At b=3,840 and the programme's 34,688 limit, any proper block in the full Clebsch class must have rank at least 3,661. Each of the eight exceptions must have rank at least 3,632. Deleting one directed block gives the following whole-return lower bounds.
+At b=3,840 and the programme's 34,688 limit, any proper block in the full Clebsch class must have rank at least 3,661. Each of the eight exceptions must have rank at least 3,648. Deleting one directed block gives the following whole-return lower bounds.
 
 | Deleted direction | Count | Lower bound on q | Excess over 34,688 |
 |---|---:|---:|---:|
 | Full Clebsch chart | 6,462 | 37,303 | 2,615 |
-| Punctured Clebsch chart | 8 | 36,921 | 2,233 |
+| Punctured Clebsch chart | 8 | 37,120 | 2,432 |
 
-Thus deletion of any one unspecified native direction requires at least 36,921 symbols. More than one deletion may make this bound stricter. These are native return conditions whenever the physical word realizes the declared fitting or transcript.
+Thus deletion of any one unspecified native direction requires at least 37,120 symbols. More than one deletion may make this bound stricter. These are native return conditions whenever the physical word realizes the declared fitting or transcript.
 
 ## The physical local graphs
 
@@ -27,11 +27,17 @@ On either local graph P, let H be a monotone submodular function with H(∅)=0. 
 
     H(P) ≥ 6B + a [H(S+0)−H(S)].
 
-The full coefficient is a=5/7. The punctured coefficient is a=75/122. Each full dual term is a monotonicity or diminishing-returns inequality, a genuine decoding equality, or H(∅)=0. The full chart has 24 underlying generator permutations fixing ordered edge (0,1). The puncture has four also fixing the missing vertex. The verifier expands every term in these raw coordinates using exact fractions, checks every decoding antecedent and positive inequality multiplier, and confirms that only P, S and S+0 remain, with right-hand side six bank units after averaging. Its sparse accumulator represents all 65,536 or 32,768 subset coordinates. This proof is independent of the floating solver used to find an active constraint set. Algebraic elimination recovered the exact rational coefficients.
+The full coefficient is a=5/7. The punctured coefficient is a=2/3. Each full dual term is a monotonicity or diminishing-returns inequality, a genuine decoding equality, or H(∅)=0. The full chart has 24 underlying generator permutations fixing ordered edge (0,1). The puncture has four also fixing the missing vertex. The verifier expands every term in these raw coordinates using exact fractions, checks every decoding antecedent and positive inequality multiplier, and confirms that only P, S and S+0 remain, with right-hand side six bank units after averaging. Its sparse accumulator represents all 65,536 or 32,768 subset coordinates. This proof is independent of the floating solver used to find an active constraint set. Algebraic elimination recovered the exact rational coefficients.
 
 For a linear fitting take H(U) to be the dimension spanned by the complete block columns indexed by U. Row i kills columns from its nonneighbors and realizes I on its own column, giving the legal decoding equalities. The three native anchors are independent of the P columns, since restriction to their three row blocks kills P and has the true diagonal on the anchors. Consequently H(P)≤q−3b. When S is enlarged to all global nonneighbors of i together with donor j, submodularity cannot increase the marginal of adjoining i. Projection at row i shows this global marginal is at least b−rank(Mᵢⱼ). Therefore dᵢⱼ≤h/a.
 
 For a zero-error code use H(U)=H(Y|X outside U), with independent uniform original messages. This function is submodular because H(Y,X_V) is submodular, H(X_V) is modular and complementing sets preserves the inequality. Each legal decoding increment equals B. The three anchor messages are determined by Y and the inputs outside the chart. Thus H(P)+3B≤H(Y), and the same inequality applies to the global marginal. That marginal equals I(Y;Xᵢ|X_W), where W contains all proper donors of i except j. Since i can decode with the additional input g(Xⱼ), this mutual information is at least B−H(g(Xⱼ)).
+
+## Both isolated chart constants are sharp
+
+On the 16-role Clebsch graph, delete both directions between 0 and 1. Use three canonical rank-six words omitting 0 and three omitting 1. Add the four pairwise sums between 0 and its remaining neighbors, the four between 1 and its remaining neighbors, and the three disjoint proper pairs (6,7), (10,11), and (12,13). Every role now has precisely seven independent coordinates. The bank-seven fitting has rank 47, meeting 6+5/7 exactly.
+
+On the chart punctured at 6, use two canonical words omitting 0 and three omitting 1. Add three pairwise sums joining 0 to 2, 4 and 15, four joining 1 to 3, 5, 9 and 14, and the three pairs (7,8), (10,11), and (12,13). Every live role has six original coordinates. This rank-40 bank-six fitting attains 6+2/3. These examples attain the local entropy bounds and prove both chart coefficients optimal for the participating chart alone. `local_sharp.py` verifies every scalar word and coverage count.
 
 ## Concrete native fittings with a missing pair
 
@@ -49,6 +55,6 @@ From the results directory, the Python standard library suffices.
 python bit-native-directed-arc-gap/author/replay.py --out /tmp/native-arc-gap-replay
 ```
 
-The script locates the original published `bit-all111-tight-port-atlas` layout relative to its own directory. `--layout` accepts an independently relocated file with the same pinned uncompressed SHA-256. Compare the four receipts produced by `replay.py` with `author/output`.
+The script locates the original published `bit-all111-tight-port-atlas` layout relative to its own directory. `--layout` accepts an independently relocated file with the same pinned uncompressed SHA-256. Compare the five receipts produced by `replay.py` with `author/output`.
 
 Credit @CubeJerry and the original native owner, canonical coding, rank-nine and directed-arc programmes. Substantial OpenAI assistance.

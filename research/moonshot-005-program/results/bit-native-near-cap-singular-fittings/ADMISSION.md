@@ -1,0 +1,3 @@
+# Exact abstract return fits with singular proper blocks
+
+At bank 3,840, one native characteristic-two fitting of return rank 34,688 has corank 150 on the exceptional block (80,96). A second attains corank 148 on the regular block (0,1) at the same return rank. A third has return rank 34,686, with all 6,470 proper blocks simultaneously singular and coranks from fourteen to twenty-one. The fits retain every true original input and own diagonal. They describe abstract return matrices and leave the causal physical supplier and κ open. [Proof](author/PROOF.md) · [Portable verifier](author/check.py) · [All native distributions](author/output/RESULT.json).

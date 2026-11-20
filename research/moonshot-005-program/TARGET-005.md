@@ -1,5 +1,7 @@
 # Exact target κ=1/200 — current programme
 
+[Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md). The paid two-star construction still requires at least 182,875 return symbols against the target budget of 34,688.
+
 ## S026 checkpoint 1: exact correction budget
 
 For a fixed balanced causal code B, existing canonical bank H and bank width

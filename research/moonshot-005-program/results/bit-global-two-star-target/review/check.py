@@ -46,6 +46,8 @@ def main(a):
                 for g in set(lane[oi]):
                     use=lane[oi]==g;x=np.zeros((480,amp.shape[1]),dtype=np.uint8);x[body[oi[use]]]=amp[use];phase[int(g),e]=[(x,y)]
         Z=Proper(ar,ee,bb,l,Taps[j],phase);price[k,i,j]=int(Z.price);native[i,j]=Z.sha;return Z
+    if a.cycle_mode:
+        cm=mod(a.cycle_mode,'native_cycles');cm.run(a.out,ar,pr,op,adj,body,lane,fun,E,B,VS,Taps,L);return
     def apply(word,x,transpose=False):
         for k,i,j,inv in (reversed(word) if transpose else word):x=op(k,i,j).apply(x,inv,transpose)
         return x
@@ -86,4 +88,4 @@ def main(a):
 if __name__=='__main__':
     p=ArgumentParser()
     for k in ('repo','arithmetic','library','previous','flat-config','input-config','output-config','functional','cache','gauges','taps','late','out'):p.add_argument('--'+k,type=Path,required=True)
-    p.add_argument('--complete-census',action='store_true');p.add_argument('--bridge',action='store_true');main(p.parse_args())
+    p.add_argument('--cycle-mode',type=Path);p.add_argument('--complete-census',action='store_true');p.add_argument('--bridge',action='store_true');main(p.parse_args())

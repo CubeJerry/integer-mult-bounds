@@ -11,11 +11,12 @@ def main(a):
     for dual in (False,True):
         target={(j,i):(s,d,T.T)for (i,j),(d,s,T)in terms.items()}if dual else terms;k=80 if dual else 10
         C=pr.rand('globally shared native output rows 0',(8,480)).T if dual else pr.rand('globally shared native original-column frame 0',(480,8));w=width if dual else [5]*111
-        def cols(m):
-            W=np.zeros((3840,7*m),dtype=np.uint8)
-            for e in range(1,8):W[true[e],(e-1)*m:e*m]=C[:,:m]
+        def cols(m,copies=range(1,8)):
+            W=np.zeros((3840,len(copies)*m),dtype=np.uint8)
+            for h,e in enumerate(copies):W[true[e],h*m:(h+1)*m]=C[:,:m]
             return W
-        V=[cols(m) for m in w];common=cols(max(w));js=[j for j in range(111) if j!=k];offs=np.r_[0,np.cumsum([V[j].shape[1]for j in js])];parts=[]
+        import bridge
+        V=[cols(m,bridge.probes(i,adj[10],terms,lane) if dual and a.bridge else range(1,8))for i,m in enumerate(w)];common=cols(max(w));js=[j for j in range(111) if j!=k];offs=np.r_[0,np.cumsum([V[j].shape[1]for j in js])];parts=[]
         # Role k gives a complete identity pivot. Its other coefficients are canonical on the seven chosen physical copies.
         req(not any((k,j) in target for j in js),'dual/source pivot row is entirely proper identity or zero')
         for i in js:
@@ -33,8 +34,8 @@ def main(a):
                 out[:,offs[idx]:offs[idx+1]]=y
             parts.append(out)
         R=np.vstack(parts);r=len(ar.reduce(R));domain=int(3840+offs[-1]);res['entire_receiver_row' if dual else 'entire_donor_column']={'full_original_role':k,'total_restricted_original_dimensions':domain,'exact_target_fitting_rank':3840+r,'forced_kernel':domain-3840-r,'remaining_compact_rows':len(R),'eliminated_3840_pivot_schur_sha256':sha256(R).hexdigest()}
-    res['native_fitting_upper']=426240-max(v['forced_kernel']for v in res.values());a.out.mkdir(parents=True,exist_ok=True);(a.out/'FULL-ROLE-TARGET-SECTIONS.json').write_text(json.dumps(res,sort_keys=True,indent=2)+'\n');print(res,flush=True)
+    res['native_fitting_upper']=426240-max(v['forced_kernel']for v in res.values());a.out.mkdir(parents=True,exist_ok=True);(a.out/(('BRIDGE-' if a.bridge else '')+'FULL-ROLE-TARGET-SECTIONS.json')).write_text(json.dumps(res,sort_keys=True,indent=2)+'\n');print(res,flush=True)
 if __name__=='__main__':
     p=ArgumentParser()
     for x in ('repo','arithmetic','library','previous','config','out'):p.add_argument('--'+x,type=Path,required=True)
-    main(p.parse_args())
+    p.add_argument('--bridge',action='store_true');main(p.parse_args())

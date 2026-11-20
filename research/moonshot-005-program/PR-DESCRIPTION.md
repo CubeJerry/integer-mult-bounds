@@ -1,5 +1,7 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+[Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md). The paid two-star construction still requires at least 182,875 return symbols against the target budget of 34,688.
+
 ## Latest cumulative progress: S026 checkpoint 1
 
 **No new κ.** The new completion theorem gives an exact, paid alternative to

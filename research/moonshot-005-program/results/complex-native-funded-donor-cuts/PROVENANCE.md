@@ -1,0 +1,5 @@
+# Source and authorship
+
+Clear1nsight and prior contributors supplied the exact [#7830 P104 word](https://github.com/Clear1nsight/integer-mult-bounds/tree/14c74c6a67108f675ac1196a5f2415ead0920e71/research/p104-chart306-chain) and [#7833 funded-leg compensation and exact source reader](https://github.com/Clear1nsight/integer-mult-bounds/tree/2b3176a88b4c46d4e1dc944843859634baa18b82/research/p104-successor-reader-cuts/funded-legs). The upstream package credits OpenAI Codex assistance and includes Apache-2.0. The upstream funded-leg roster, its first-reader obstruction, and its separate public-only cut for 95681 remain attributed to its authors.
+
+OpenAI Codex under @CubeJerry's direction derived the complete fixed-endpoint public cut for all 181 eligible individual donors, generated exterior certificates and wrote the forward replay. The strengthened input gift makes the exterior argument independent of the chosen donor's delivery time at chart 282. The single-donor result with 208 terminal tests is in the companion chart package. [Exact compensation](inputs/7833-construction.py) · [Authenticating source](inputs/7833-replay.py) · [License](inputs/LICENSE)

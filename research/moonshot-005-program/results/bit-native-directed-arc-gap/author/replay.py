@@ -14,6 +14,7 @@ def main():
     subprocess.run([sys.executable,str(here/'clebsch.py'),'--layout',str(a.layout),'--dual',str(data/'CLEBSCH-DUAL.json'),'--charts',str(data/'CLEBSCH.json.gz'),'--puncture',str(data/'PUNCTURE.json'),'--puncture-dual',str(data/'PUNCTURE-STRONGER.json'),'--out',str(a.out)],check=True)
     subprocess.run([sys.executable,str(here/'upper.py'),'--layout',str(a.layout),'--witness',str(data/'UPPER.json'),'--out',str(a.out)],check=True)
     subprocess.run([sys.executable,str(here/'upper.py'),'--layout',str(a.layout),'--witness',str(data/'UPPER13.json'),'--out',str(a.out),'--receipt-name','UPPER13-RESULT.json'],check=True)
+    subprocess.run([sys.executable,str(here/'local_sharp.py'),'--out',str(a.out)],check=True)
     local=json.loads((a.out/'CLEBSCH-RESULT.json').read_bytes());upper=json.loads((a.out/'UPPER-RESULT.json').read_bytes());b=3840;h=128;cap=9*b+h;prices={}
     for label,k,cnt in [('full_Clebsch','local_dual',6462),('punctured_Clebsch','punctured_dual',8)]:
         price=Fraction(local[k]['native_arc_deletion_excess_over_b']);q=9*b+ceil(price*b)

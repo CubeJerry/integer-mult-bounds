@@ -1,0 +1,3 @@
+# Grade-14 on the m=870 target
+
+The published #7835 schedule increases its own conditional result to 0.00387992802601. Our 832-copy bill exceeds 1.23 even omitting the productive tail. The independent [interval certificate](target/output/RESULT.json) gives the least admissible power 5,755, versus 88 with paid cutoff 31. The smaller downstream losses in #7835 transfer to the 88- and 194-copy schedules and yield a contingent ordinary saving of 0.005000000479705 with the same source and host contracts. [Four stock stages](target/output/LOSS.json) · [PR #7835](https://github.com/CrocSwap/integer-mult-bounds/pull/7835).

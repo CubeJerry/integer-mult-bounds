@@ -2783,3 +2783,7 @@ Two native Clebsch certificates give a 36,921-symbol lower bound after any one p
 ## S029 checkpoint 10
 
 One priced native word realizes every one of the 123 complete nonflat targets and 97 additional identity blocks. A native 55-by-56 rectangle still needs 182,875 fields. A separate source retains packed H fibres and one complete contact on each of all 111 final roles. Original-coordinate Gaussian recovery from upstream #7834 gives a testable alternative outer route. Its compact wrapper followed by the Gaussian invoice misses 0.005 even at this native tariff’s ideal ceiling. The updated #7833 successor closes a real funded retarget on its 208 original public outputs.
+
+## S029 handoff
+
+[Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md) records the verified three-hour run, starting commit, target and next construction.
