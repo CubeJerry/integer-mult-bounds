@@ -2751,3 +2751,7 @@ Three-hour session, 03:19:03–06:19:03 UTC. Resumed at 914097a04bb93f730b805e9d
 ## S029 checkpoint 2
 
 The D checkpoint was confirmed at a1d5d7857428051de755fc0d7bd02e2d4c62275c. Five additional packages and eleven relocated checks are admitted. The [H263 source](results/bit-spread-h263-source/ADMISSION.md) realizes all 33 native inverse-fibre constraints. A separate [physical GF(64) word](results/bit-spread-rs-physical-word/ADMISSION.md) has full rank on all 6,470 foreign blocks. Achieving the specified low return is still open. Multi-chart lifts and physical return checks continue.
+
+## S029 checkpoint 3
+
+Integrated the 24-chart physical source, both original-owner packed invoices, minimum facet storage and the localized address proof. Thirteen portable verification jobs matched. An independent primitive audit checked both packed source invoices. The first hourly upstream check retained the original selected and PR heads.

@@ -297,3 +297,7 @@ Generic covariant source existence improves to GF256 via degree154/217 bounds; s
 ## S029 checkpoint 2
 
 The m=870 raw saving is in (.00500000060450,.00500000060451). Its asymptotic supremum is below .00500220831286 and below the old one-stage threshold. With all source and covered-word contracts, the new compiler/recursive budget could offer ordinary BIT at .0050000002. [Exact proof](results/bit-covariant-single-grade-budget/ADMISSION.md).
+
+## S029 checkpoint 3
+
+The 24-chart source attains 801 specified H observations and preserves full rank on all 6,470 individual source-to-H cuts. Its 3,252,599,256-ADD source invoice includes its pure early inverse. The per-facet storage minimum is exact for both K variants. The global return budget remains 34,688 field dimensions at bank 3,840 and m=870.

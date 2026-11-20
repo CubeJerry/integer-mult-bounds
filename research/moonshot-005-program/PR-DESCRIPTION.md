@@ -472,3 +472,7 @@ Extended Cauchy matrices and paid cross-phase storage attain every one of 388,20
 ## S029 checkpoint 2
 
 The [H263 source](results/bit-spread-h263-source/ADMISSION.md) realizes all 33 native inverse-fibre constraints. A separate [physical GF(64) word](results/bit-spread-rs-physical-word/ADMISSION.md) has full rank on all 6,470 foreign blocks. Achieving the specified low return is still open. The independent-gauge and source-specific compiler proofs are in the current programme. No new κ.
+
+## S029 checkpoint 3
+
+A physically compiled source realizes 801 simultaneous native inverse fibres across 24 H charts. Both alternative original-owner source invoices are charged and reproducible. The least stationary width on each formal facet and all-column Z[1/6] address compatibility with the proposed rank compiler now have checked proofs. The physical low-return transfer remains open. No new κ.

@@ -238,3 +238,7 @@ Simultaneous rank on all formal eight-coordinate D cuts is proved with 4,942 sep
 ## S029 checkpoint 2
 
 The [H263 source](results/bit-spread-h263-source/ADMISSION.md) realizes all 33 native inverse-fibre constraints. A separate [physical GF(64) word](results/bit-spread-rs-physical-word/ADMISSION.md) has full rank on all 6,470 foreign blocks. Achieving the specified low return is still open.
+
+## S029 checkpoint 3
+
+The shared-donor equations and all true singleton rows have simultaneous solutions on 24 H charts. The D/K/F endpoint equations and both strict suppliers remain open. The single-grade construction has a source-specific proof for address denominators at all eligible columns. All five framework assumptions remain.

@@ -544,3 +544,7 @@ Canonical main is unchanged. Open #7830 reports 0.00387990740712 on its contract
 ## S029 checkpoint 2
 
 The explicit #7828 product type and #7826 self-hosting parameters are now checked on the moonshot tariff. Sharp integer degree 18 applies within the specified homogeneous schedule. The original PRs are open and do not supply the physical target word. [Review](results/bit-covariant-single-grade-budget/review/REVIEW.md).
+
+## S029 checkpoint 3
+
+The application of [Ali Romman’s single-grade compiler](https://github.com/CrocSwap/integer-mult-bounds/pull/7828) admits projectors, equal-rank matchers and positive splits over Z[1/6]. This removes additional address-prime exclusions at unbounded finite compilation heights. The physical, leaf, ordinary and analytic hypotheses remain. [Native proof](results/bit-localized-native-addresses/ADMISSION.md).

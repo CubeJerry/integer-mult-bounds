@@ -37,3 +37,7 @@ Actual spread component early/late counts are being audited. No one-fifth early-
 Construct the same source, H lifts and shared D/K maps jointly; prove the resulting whole B and affordable return; then reconcile all ordinary/storage/precision costs, strict BIT and uniform complex suppliers, and the recursive caller. An unconditional result must additionally prove or legitimately bypass every foundation. The branch remains an ongoing research programme, not PR-ready.
 
 Checkpoint parent fb59a4ae85b7d81dce79ee5189f7b9f081542a3c is remotely confirmed. Canonical upstream remains e54523517d0f03e58352e647c403a5af3e525a57. Nine relocated author/reviewer jobs pass. STATE/PROGRAMME history is preserved through S028 checkpoint1, and all earlier conclusions remain in the append-only session/dependency records. The permanent branch is research/moonshot-005-program.
+
+## S029 checkpoint 3
+
+One paid original-owner source now realizes 801 simultaneous inverse fibres at 24 H charts. The rational address arithmetic works over Z[1/6] at every column. The next global equation couples these physical fibres through D, K and the facets to a low-return endpoint.

@@ -1,0 +1,137 @@
+{
+  "additional_compiler_address_primes_needed": [],
+  "atlas": {
+    "A2": 1120,
+    "D4": 3150,
+    "H_D_flags": 50400,
+    "excluded_address_prime_witnesses": {
+      "2": [
+        "L",
+        8,
+        1,
+        1,
+        "1/4"
+      ],
+      "3": [
+        "H",
+        0,
+        1,
+        1,
+        "1/3"
+      ]
+    },
+    "projector_denominators": {
+      "D": {
+        "1": 14,
+        "2": 448,
+        "4": 2688
+      },
+      "H": {
+        "3": 224,
+        "6": 896
+      },
+      "L": {
+        "1": 8,
+        "4": 112
+      }
+    },
+    "root_lines": 120,
+    "saturated_basis_abs_determinants": {
+      "D": {
+        "1": 14,
+        "4": 336,
+        "16": 1904,
+        "64": 896
+      },
+      "H": {
+        "3": 224,
+        "12": 896
+      },
+      "L": {
+        "1": 8,
+        "4": 112
+      }
+    },
+    "tight_routes": 53280
+  },
+  "base_address_localization": [
+    2,
+    3
+  ],
+  "caller": {
+    "ambient_with_seven_reused_native_axes": 134,
+    "binary_lanes": 23040,
+    "independent_base_helper_outputs": 181232640,
+    "independent_body_axes_sets": 18,
+    "independent_root_outputs": 42274483200,
+    "joint_native_occurrences": 15642,
+    "paired_word_roles": 38,
+    "polynomial_coefficients": 1444,
+    "public_pair_groups_per_native_line_per_lane": 435,
+    "rail_multiplicity": 870,
+    "selected_base_native_occurrences": 414720
+  },
+  "inputs": {
+    "atlas": {
+      "path": "research/moonshot-005-program/results/bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz",
+      "sha256": "ef8611b33835a799193e8aec4f615486d73f5743558997de0262bceb3ae9eb3c"
+    },
+    "caller": {
+      "path": "research/paired-query-only-bit/EFREE-CALLER.json.gz",
+      "sha256": "757b3523798f840bdb02028b23708c3416627a99ea09e7a3c4bcdc5cd0c7ce4b"
+    },
+    "native": {
+      "path": "research/paired-query-only-bit/retained/inputs/BIT-NATIVE-WORD.json.gz",
+      "sha256": "51203e7fc75ba10bd3ac3f8e675759f47e13d262bea66b6600d1e515095cad78"
+    }
+  },
+  "native": {
+    "distinct_nested_move_pairs": 2374,
+    "owned_counts": {
+      "INIT": 237,
+      "dirty": 237
+    },
+    "paid_histogram": {
+      "1": 1386,
+      "2": 1253,
+      "3": 62,
+      "4": 47,
+      "5": 9,
+      "6": 104,
+      "7": 10
+    },
+    "port_basis_determinants": {
+      "-4": 50,
+      "-1": 4,
+      "1": 4,
+      "4": 53
+    },
+    "productive_helpers": {
+      "2": 1,
+      "4": 25,
+      "6": 1,
+      "8": 410
+    },
+    "projector_denominators": {
+      "1": 28,
+      "2": 95,
+      "4": 513
+    },
+    "saturated_basis_abs_determinants": {
+      "1": 28,
+      "4": 326,
+      "16": 250,
+      "64": 32
+    },
+    "source_frames": 636,
+    "stored_basis_abs_determinants": {
+      "1": 28,
+      "4": 326,
+      "16": 250,
+      "64": 32
+    }
+  },
+  "new_complete_kappa": false,
+  "scope": "Address algebra and conditional paired-source contract for all valid late covers. No full H/D/K circuit.",
+  "status": "PASS_LOCALIZED_ATLAS_AND_PAIRED_CALLER"
+}

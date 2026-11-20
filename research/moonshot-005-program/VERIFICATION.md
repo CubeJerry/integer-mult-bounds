@@ -452,3 +452,7 @@ All 388,200 actual eight-by-eight restrictions passed independent direct elimina
 ## S029 checkpoint 2
 
 Eleven relocated jobs reproduced all substantive H263, K, Reed–Solomon/H/F, gauge and tariff receipts. Run `python -B research/moonshot-005-program/sessions/2026-11-20-S029/checkpoint2_replay.py --repo . --out /tmp/S029-cp2`. [Receipt](sessions/2026-11-20-S029/CHECKPOINT2-VALIDATION.json).
+
+## S029 checkpoint 3
+
+[Checkpoint 3 replay](sessions/2026-11-20-S029/checkpoint3_replay.py) matched [thirteen retained jobs](sessions/2026-11-20-S029/CHECKPOINT3-VALIDATION.json). The independent source check assembled 522 physical singleton cuts. Separate emitted-primitive audits confirmed both packed invoices. A second Gram/Smith calculation recovered 50,400 address flags and every gluing type. Run the replay with `--repo . --out FRESH --jobs 2`. The price audit is documented in its own package.
