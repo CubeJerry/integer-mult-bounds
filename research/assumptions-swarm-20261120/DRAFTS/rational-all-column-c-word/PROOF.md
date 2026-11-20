@@ -31,6 +31,14 @@ O_word(V log(h+2)); each local scalar occurrence costs O_word(V), including
 complete scans, head returns and scratch retirement. The paid C count,
 productive width and recursive rank profile do not change.
 
+The row entry must contain at least W^d complete independent rows, where
+d=floor(log_N h). Padding to the next multiple of W^d costs a factor below
+two and is removed only after its zero outputs are checked. Descendants
+receive no new padding. In the source address geometry, the required
+row prefix is reserved from genuine unselected bits. If it does not fit,
+retain the source's literal fallback; no auxiliary field is counted as an
+arbitrary productive input.
+
 This is a conditional grammar/numerical extension of the named recursion.
 Its disjoint-XOR provider, row placement, scalar service and parking retain
 their physical contracts. No funded word is materialized and no new
@@ -43,7 +51,9 @@ sum c_A A^(tensor f). Here c_A is Gaussian rational and A is a nonzero
 Gaussian-dyadic one-column matrix. Scalar operations combine coefficients;
 column operations left-multiply A. Collect equal matrices exactly, retaining
 absolute phase. Accept the prescribed productive expressions and zero
-private expressions. Sufficiency follows by instruction induction.
+private expressions. Sufficiency follows by instruction induction. The common
+row-major/column-major permutation is identical for every term and target;
+complete exterior coordinates tensor with the identity.
 
 For necessity, take the distinct nonzero matrices A_1,...,A_m in an output
 difference. A complex linear functional L can make all L(A_i) nonzero and
@@ -143,11 +153,12 @@ fixed-D division passes at exit. Each pass scans the full reserved component
 capacity, returns heads, and retires scratch. Binary multiplication and
 restoring long division use a fixed number of tapes and cost a fixed
 polynomial in bitlength(D) times the component width. Thus the new root
-bill is O_word(V log(h+2)). Do not generate a D-state lookup table for
-each startup candidate: D can be as large as L^L. Startup uses ordinary
-binary rational arithmetic; the selected fixed word's numerical service
-reads D's bits explicitly. No growing alphabet or unit-time wide arithmetic
-is assumed.
+bill is O_word(V log(h+2)). Startup uses ordinary binary rational arithmetic; the selected fixed
+word's numerical service reads D's bits explicitly. For unary code length
+L, the denominator fields share the length budget: sum q_i <= L, hence
+D <= product q_i <= 3^(L/3). A D-state table would therefore still have
+2^O(L) size; it is not needed by this binary implementation. No growing
+alphabet or unit-time wide arithmetic is assumed.
 
 The binary lift and drop are sequential writes/scans of the widened format,
 costing O_word(V) when h=O(p). Every local SCALE is a fixed number of integer

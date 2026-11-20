@@ -1,73 +1,96 @@
 # Assumption-directed research, 20 November 2026
 
-Recovery checkpoint only. Drafts are unverified and must not be submitted
-upstream. Verified contributions are separately published and listed in
-PUBLICATIONS.json. No upstream PR has been created.
+Recovery checkpoint only, updated at 07:21 UTC. Unfinished claims below
+are unverified and must not be submitted upstream. Five independently
+reviewed contributions are separately published in PUBLICATIONS.json.
+No upstream PR has been created.
 
 ## Exact source state
 
-Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57, rechecked
-at the wave transition. Selected saving remains 363005817/100000000000
-= 0.00363005817. All five selected assumptions remain; ASSUMPTIONS.md
-quotes them exactly. Current-priorities revision 8 contains older numbers.
+Canonical main is e54523517d0f03e58352e647c403a5af3e525a57, last checked
+at the preceding wave transition. Selected saving remains
+363005817/100000000000 = 0.00363005817. All five selected assumptions
+remain; ASSUMPTIONS.md quotes them exactly. Current-priorities revision 8
+contains older numbers and is not the frontier authority.
 
-Direct REST intake still reaches #7835. #7830 changed to
+Direct REST intake reached #7835. #7830 changed to
 87fbf4f7b35b0f18ab12b5767775a9a424cf0b15 at 06:34 UTC; this does not
-change the frozen source dependencies below. An initial empty-query PR
-search returned stale results and is not used for current-state decisions.
+change frozen dependencies. An initial empty-query PR search returned
+stale results and is not used for current-state decisions.
 
-## Completed independent review and publication
+## Independently reviewed and published
 
 1. Gaussian parity flux: a total error-one injection with forward slack
-   below one half must change infinitely many integral ideal images, with
-   an explicit linear annular count. No unrestricted optimum is proved.
-2. Three-axis source rank: full ordinary Stein displacement rank in every
-   vertex order for the stated distinct-prime, extremal-source family.
-   Exact rank only; no rounding/alias robustness follows.
+   below one half must change integral ideal images at an explicit linear
+   annular rate. No unrestricted optimum or positive-density claim.
+2. Three-axis exact source rank: full ordinary Stein displacement rank
+   in all 40,320 vertex orders for the distinct-prime extremal family.
+   This theorem alone gives no quantitative rounding margin.
+3. Literal CRT Word lifecycle: ordered allocation, copying, zeroing,
+   freeing and physical live/free metadata at the pinned reservation
+   boundary. The published source replays still use raw arithmetic;
+   the actual literal arithmetic join is a separate new candidate.
+4. Rational all-column C word: fixed Gaussian-rational scalars with an
+   exact common root odd grid, paid guard bits and a logical integer-grid
+   model. Physical movement, scalar scans and parking remain premises.
+5. Separated three-axis margin: explicit forward/inverse, alias and
+   rounding margins in a singular order and its reverse. It does not
+   establish an all-order margin or infer separation from distinctness.
 
-Both packages passed registered replay and separate root mathematical and
-implementation review. Remote tree equality, exact refs and the upstream
-compare file lists were checked. See PUBLICATIONS.json for all SHAs and
-review links. Full proposed descriptions are committed in each package;
-short compare links are used instead of claiming an untested prefilled form.
+Each package passed registered replay, independent mathematical and
+implementation review, remote tree equality and additions-only upstream
+comparison. Exact local/remote commits, trees and review links are in
+PUBLICATIONS.json. Full proposed PR descriptions are committed in each
+package. Short compare links avoid claiming an untested prefilled form.
 
-## Rolling allocation
+The rational package's initial unverified unary-denominator estimate was
+corrected before publication: sum(q_i)<=L implies D<=3^(L/3), not an
+attainable L^L bound. DRAFTS contains a corrected, superseded recovery
+copy; the complete immutable published package is authoritative.
 
-| Worker | Wave/track | Exact active or completed scope | State and next action |
+## Rolling allocation and next actions
+
+| Worker | Wave/track | Current exact scope | State and next action |
 |---|---|---|---|
-| rounding | 1/65 | Integral-input parity flux | Published and frozen |
-| rounding | 2/75 | Independent rational-grid derivation | Complete in run/rational-independent-review; final-code review follows |
-| rounding | 3/75 | Literal CRT lifecycle graph/cost review | Independent review in progress; finish before publication |
-| crt_lifecycle | 1/85 | #7596 physical LIFO, zero/copy/free and membership | Clean local commit 980ec81469b4cabaee1afa58776e1bc5281834af; root integrates independent review |
-| crt_lifecycle | 2/55 | Selected #7828 complex program to rational C-word alphabet | New worktree workers/compiler_bridge, branch research/complex-compiler-c-word-admission-20261120; phase/owner/paid-count translation only |
-| gaussian_source | 1/45 | Three-axis exact source rank | Published and frozen |
-| gaussian_source | 2/45 | Quantitative fixed-order margin for separated source primes | workers/gaussian_margin, branch research/three-axis-source-separation-margin-20261120; candidate proof unverified |
-| root | 2/55 | Rational scalar all-column C-word and common odd grid | workers/outer, branch research/rational-all-column-c-word-20261120; primary tests pass, independent code review pending |
+| rounding | 1/65, 2/75, 3/75 | Parity theorem; independent rational-grid and lifecycle reviews | Complete and recorded in published packages |
+| rounding | 4/85 | Join literal #7596 arithmetic with published lifecycle | workers/combined_crt, research/combined-crt-literal-services-20261120. The 1,435,098-state union and first producer oracle pass; a closure-order issue was caught. Integration checks and review pending |
+| crt_lifecycle | 1/85 | Exact CRT lifecycle | Published and frozen |
+| crt_lifecycle | 2/55 | Selected #7828 compiler to rational C-word grammar | workers/compiler_bridge, research/complex-compiler-c-word-admission-20261120. Author commit 628ac6676c8703166bf8b86f228a4232c035ac25; root review and published scalar pin update pending |
+| crt_lifecycle | 3/85 | Literal fixed-divisor overlap audit | Complete in run/rational-literal-service-audit: reuse canonical #6968, 120 exact calls; common numerical format to physical coded-field ABI remains an explicit boundary |
+| crt_lifecycle | 4/75 | Independent all-order Gaussian classification review | run/gaussian-all-order-independent-review; inspect complete coverage, truncation, vanishing and mass bounds by distinct methods |
+| gaussian_source | 1/45, 2/45 | Exact all-order source rank; two-order separated margin | Published and frozen |
+| gaussian_source | 3/45 | All-order quantitative margin in narrow source intervals | workers/gaussian_all_orders, research/all-order-separated-gaussian-margin-20261120. Candidate at p>=2^20, t>=p^72; finite algebra and mixed-column checks complete; independent review pending |
+| root | 2/55 | Rational common-grid construction | Published and frozen |
+| root | 3/75 | Compiler interface, all-order analytic proof, integration and publication | Independently check critical implications and publish only complete scoped results |
+
+The all-order Gaussian candidate narrows prime placement beyond the
+published two-order theorem. Pairwise separated centers can annihilate
+its leading Taylor coefficient: this is a proof-method obstruction, not
+a counterexample to the actual physical source theorem.
 
 ## Frozen dependencies and nonoverlap
 
 - #7596: ee6005fe241ab947e511fe9f6d86f5f4fa58478b, exact CRT binder.
-- #7828: 03b572b3b9ab72c6ba67762e85e1630cda1daad5, polynomial-width compiler.
+- #7598: 0a6315b71a47b37a4faa2a4f555c5bc4e9e87811, source rank predecessor.
+- #7599: 702c7616667c5f4e583eb73687944d148b7a1ccf, literal Gaussian source.
+- #7828: 03b572b3b9ab72c6ba67762e85e1630cda1daad5, finite rank compiler.
 - #7834: 4f0c67d5bb41d4af5501dcd40b3b388b35e0ff02, fine-prime runtime.
-- #7835: 43007c979859fa84ccc3a3509ccacc9620d181fa, pending stronger
-  conditional coefficient; not selected or admitted by this run.
-- Separate moonshot branch snapshot 2355ab333aa698637c07bddc8c526f5efcded029
-  already has the fine-prime .005 target-compatibility obstruction. This
-  run did not modify that branch or republish the same result.
+- #7835: 43007c979859fa84ccc3a3509ccacc9620d181fa, pending conditional
+  coefficient; not selected or admitted by this run.
+- Separate moonshot snapshot 2355ab333aa698637c07bddc8c526f5efcded029
+  already covers fine-prime .005 compatibility. This run did not alter
+  that branch or republish its result.
 
-The CRT actual-source test retains raw arithmetic; a literal whole graph
-join has not been executed. Its initial blank grants and higher controller
-remain supplied. The rational-grid prototype uses Python logical arrays;
-physical movement/scalar/parking contracts remain explicit. Neither is
-an unconditional multiplication theorem or a new kappa.
+No result here is an unconditional multiplication theorem or a new kappa.
+Initial blank grants, higher callers, full native closure, physical tape
+costs and complete analytic recovery remain explicit obligations.
 
 ## Restart
 
 Read PUBLICATIONS.json and do not repeat published work. Refresh only
-canonical/ref/PR deltas. Inspect DRAFTS for the root candidate, explicitly
-unverified despite passing finite checks. Finish independent reviews and
-publish only complete scoped claims. Every worker writes in its own
-worktree and shares read-only source objects. No fork-main modification,
-upstream submission, force push or selected-certificate change is authorized.
+canonical/ref/PR deltas. Resume each isolated active worktree; do not reset
+other worker branches. Finish independent reviews before publication.
+The shared source/reference store is read-only to researchers. Fork main,
+the selected certificate and upstream PR submission remain untouched.
 
 Prepared for Jerry Chen / @CubeJerry with substantial OpenAI assistance.
