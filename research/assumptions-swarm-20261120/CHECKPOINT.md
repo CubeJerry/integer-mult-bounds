@@ -1,7 +1,7 @@
 # Assumption-directed research, 20 November 2026
 
 Recovery checkpoint only. Unfinished claims below
-are unverified and must not be submitted upstream. Nine independently
+are unverified and must not be submitted upstream. Ten independently
 reviewed contributions are separately published in PUBLICATIONS.json.
 No upstream PR has been created.
 
@@ -192,3 +192,25 @@ implication: 0 -> .0034 -> .0038507 -> .00385248, with actual covered
 C=.0038525298 and strict exact margins; the entire native binding is separate.
 
 Updated 2026-11-20 08:08:29 UTC
+
+## Latest authoritative update: ten publications
+
+Contribution 10, the complete CRT terminal integration, is published at
+8bef1b31d974f48f7a0599c57d56d185d33bf7b0. All six registered commands pass,
+including both complete 73-role invocations and both independent raw-array
+replays. The exact remote tree, 46 additions-only compare and ref are checked.
+It executes 2,339 literal calls / 3,120,094 instructions and separately
+records 2,050 retained native actions, with fixed 76-owner histories.
+Higher controller, grants and changing-Entry work remain explicit.
+
+Only the selected four-premise candidate remains active. Root's full
+3,057-map / 104-boundary complex catalogue replay passed with byte-identical
+canonical logs, including phase fault controls. CORE-REVIEW.md records
+independent good-leaf, tensor/phase, recurrence and fixed-cost checks.
+CRT peer now challenges binary/stock/bootstrap/premise closure; rounding
+peer independently audits the complex 1125/common-grid/phase interface.
+Gaussian author packages the exact selected-source theorem on an isolated
+branch. Final acceptance and publication wait for both peer dispositions.
+No additional speculative search is active.
+
+Updated 2026-11-20T08:20:48.790018+00:00
