@@ -1,0 +1,59 @@
+{
+  "bank3840_costs": {
+    "INIT": 237216,
+    "dirty_CLEAR": 237216,
+    "pure_forward_ADD": 261025824,
+    "pure_inverse_ADD": 261025824,
+    "snapshot_read_ADD": 12013632,
+    "snapshot_write_ADD": 11901048,
+    "total_ADD": 545966328
+  },
+  "base_cache_fields": 4942,
+  "base_costs": {
+    "INIT": 29652,
+    "dirty_CLEAR": 29652,
+    "pure_forward_ADD": 32628228,
+    "pure_inverse_ADD": 32628228,
+    "snapshot_read_ADD": 1501704,
+    "snapshot_write_ADD": 1487631,
+    "total_ADD": 68245791
+  },
+  "cache_rank_histogram": {
+    "0": 386,
+    "1": 1138,
+    "2": 1136,
+    "3": 428,
+    "4": 62
+  },
+  "charts": 3150,
+  "charts_payload": "9e2fbdb0a1ec95926903b65acea48b7428f1a2bf0c8233271ac655d76e630e15",
+  "controls": {
+    "all_weights_one_bad_cuts_with_full_cross_rank": 3,
+    "chart": 0,
+    "late_before_early_detected_with_full_total_rank": true,
+    "maximal_deficit": 4,
+    "rank_after_dropping_one_cache": 7,
+    "same_phase_owner_swap_and_bad_cuts": [
+      1,
+      0,
+      2
+    ]
+  },
+  "deficit_histogram": {
+    "0": 229458,
+    "1": 129232,
+    "2": 26712,
+    "3": 2688,
+    "4": 110
+  },
+  "layout_payload": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+  "method": "primitive-element field table and direct Gaussian elimination on original owner cuts",
+  "passed_8_by_8_minors": 388200,
+  "pure_and_full_matrix_ranks_checked": {
+    "charts": 3150,
+    "pure_shape_word_classes": 7
+  },
+  "routes_payload": "6d55093625ffd123daf3ae0914bcaeba1308756cec24fd2de083f6887ad0b036",
+  "scope": "formal native D cuts, local rank and paid linear chart normalization only; no prescribed endpoint or new kappa",
+  "status": "PASS_ALL_DIRECT_GF64_D_RANKS"
+}

@@ -444,3 +444,7 @@ Frozen S027 author pending-review labels are superseded by the new source admiss
 Parent fb59a4ae85b7d81dce79ee5189f7b9f081542a3c. Worker A separately reviewed the K cut/word and adjoint. Root independently reviewed the coupled-source, reduced determinant, common-lift and orthogonal-spread proofs. New implementations check all50400 incoming K flags and810 bit columns of the K words;120 adjoint identities and GF4 controls;396 reduced parameter ranks,1024 GF4 determinant/restriction tests and405 rebuilt common-lift spans; and all3150 D charts,1120 H charts,40320 receiver views and37800 D donor profiles of the spread. The spread's one-label fault breaks16 H quotas.
 
 Nine relocated receipts pass in CHECKPOINT2-VALIDATION.json. Run `python -B research/moonshot-005-program/sessions/2026-11-20-S028/checkpoint2_replay.py --repo . --out /tmp/moonshot-S028-checkpoint2`. Runtime seconds metadata and gzip headers are not mathematical equality criteria; all scientific fields, pins and decompressed artifacts are compared exactly. Reproduction remains distinct from the separate reviews. GF64 source/word candidates and the rank-Delta diagnostic await their own admission.
+
+## S029 checkpoint 1
+
+All 388,200 actual eight-by-eight restrictions passed independent direct elimination. Weight, lost-cache, owner-label and phase-order faults were detected. Both pure inverses and all binary costs were recomputed. [D construction and separate review](results/bit-minimum-cache-d-atlas/ADMISSION.md).

@@ -1,6 +1,10 @@
 # Persistent κ=0.005 research programme
 
-## Current construction — S028 checkpoint2
+## S029 checkpoint 1
+
+The [D construction and separate review](results/bit-minimum-cache-d-atlas/ADMISSION.md) establishes simultaneous rank and the exact local stationary requirement at every native D. The specified endpoint and both strict suppliers remain open.
+
+## Inherited construction at S028 checkpoint 2
 
 The target remains T(n)=O(n(log n)^(1-kappa)) with kappa>=1/200 in the retained model. The selected complete conditional bound is still0.00363005817. **No new kappa.** Native all-columns, owned erasure, compiler, precision tape and analytic recovery remain explicit foundations. Both strict suppliers and the complete caller remain open.
 

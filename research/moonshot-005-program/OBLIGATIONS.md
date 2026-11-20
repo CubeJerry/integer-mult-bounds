@@ -230,3 +230,7 @@ The full proofs state all field, route, independence and target premises. Their 
 | GF64 scalar-copy source with16 receiver-dependent H lifts | Author candidate, not admitted here | Separate exact matching/field/owner review underway; remaining17 H263 receivers open |
 
 The spread construction is a positive witness outside the frozen-class obstruction. It is not a proof of a complete shared code. No nonlinear linearization is extended to mixed-phase/two-donor H charts by this checkpoint.
+
+## S029 checkpoint 1
+
+Simultaneous rank on all formal eight-coordinate D cuts is proved with 4,942 separately allocated stationary field symbols per base body. Specified output values and joint source gluing remain open. [D construction and separate review](results/bit-minimum-cache-d-atlas/ADMISSION.md).

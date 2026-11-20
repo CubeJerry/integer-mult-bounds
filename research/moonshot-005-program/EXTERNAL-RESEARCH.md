@@ -536,3 +536,7 @@ Substantial @CubeJerry PRs#6916,#7000,#7001 were inspected for technical reporti
 ## S028 checkpoint2 provenance
 
 No external PR or selected certificate is adopted. The spread uses the authenticated E8 quadratic geometry and an explicit finite orthogonal spread; all port counts are newly derived and independently enumerated. The source bounds use the admitted covariant-family witnesses plus a nilpotent restriction argument. The K and adjoint packages preserve native route and source credit. Canonical main remains pinned to the session intake; all new work is internal to the permanent programme. Credit @CubeJerry and the named predecessor/authors/reviewers, with substantial OpenAI assistance.
+
+## S029 checkpoint 1
+
+Canonical main is unchanged. Open #7830 reports 0.00387990740712 on its contracted P104 word. Ali Romman’s #7826 gives self-hosted ordinary interchange and #7828 a single-grade compiler. Their transfer to the actual tariff is under review. DreamingOfClouds’ #7829 prices word traces on the #7113 caller in Lean. Its word and caller contracts differ from the moonshot atlas. [PR heads and source paths](sessions/2026-11-20-S029/UPSTREAM-INTAKE.json).
