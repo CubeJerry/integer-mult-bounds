@@ -1,0 +1,93 @@
+{
+  "status": "PASS_EXISTING_FIXED_D_BINDING",
+  "packets": 120,
+  "physical_actions_plus_rows": 1594740,
+  "catalogue": [
+    {
+      "D": 1,
+      "operation": "multiply",
+      "rows": 165,
+      "states": 67,
+      "carry_bound": 2
+    },
+    {
+      "D": 1,
+      "operation": "divide",
+      "rows": 165,
+      "states": 67,
+      "carry_bound": 2
+    },
+    {
+      "D": 3,
+      "operation": "multiply",
+      "rows": 302,
+      "states": 124,
+      "carry_bound": 4
+    },
+    {
+      "D": 3,
+      "operation": "divide",
+      "rows": 246,
+      "states": 108,
+      "carry_bound": 4
+    },
+    {
+      "D": 5,
+      "operation": "multiply",
+      "rows": 438,
+      "states": 180,
+      "carry_bound": 6
+    },
+    {
+      "D": 5,
+      "operation": "divide",
+      "rows": 326,
+      "states": 148,
+      "carry_bound": 6
+    },
+    {
+      "D": 15,
+      "operation": "multiply",
+      "rows": 1118,
+      "states": 460,
+      "carry_bound": 16
+    },
+    {
+      "D": 15,
+      "operation": "divide",
+      "rows": 726,
+      "states": 348,
+      "carry_bound": 16
+    },
+    {
+      "D": 105,
+      "operation": "multiply",
+      "rows": 7238,
+      "states": 2980,
+      "carry_bound": 106
+    },
+    {
+      "D": 105,
+      "operation": "divide",
+      "rows": 4326,
+      "states": 2148,
+      "carry_bound": 106
+    },
+    {
+      "D": 1125,
+      "operation": "multiply",
+      "rows": 76598,
+      "states": 31540,
+      "carry_bound": 1126
+    },
+    {
+      "D": 1125,
+      "operation": "divide",
+      "rows": 45126,
+      "states": 22548,
+      "carry_bound": 1126
+    }
+  ],
+  "nonmultiple_rejected_before_install": true,
+  "scope": "Unchanged #6968 table generator/executor; supplied coded fields and backed intervals. No new arithmetic implementation."
+}

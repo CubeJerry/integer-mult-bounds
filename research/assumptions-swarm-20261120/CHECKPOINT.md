@@ -1,7 +1,7 @@
 # Assumption-directed research, 20 November 2026
 
-Recovery checkpoint only, updated at 07:21 UTC. Unfinished claims below
-are unverified and must not be submitted upstream. Five independently
+Recovery checkpoint only, updated at 07:33 UTC. Unfinished claims below
+are unverified and must not be submitted upstream. Six independently
 reviewed contributions are separately published in PUBLICATIONS.json.
 No upstream PR has been created.
 
@@ -48,6 +48,34 @@ corrected before publication: sum(q_i)<=L implies D<=3^(L/3), not an
 attainable L^L bound. DRAFTS contains a corrected, superseded recovery
 copy; the complete immutable published package is authoritative.
 
+6. Complex compiler admission: explicit phase-preserving translation of the
+   selected #7828 complex construction into the published rational receiver.
+   It preserves N,W,P and charges private CLEARs. Source native, compiler and
+   physical contracts remain premises. Independent receiver check and full
+   registered replay passed; the remote branch/tree/compare are checked.
+
+## Latest wave transition
+
+Canonical main was rechecked at 07:24 UTC and is unchanged. New PR #7837
+(aliromman, a7f99a5f5f919dd3ffb2987f90c1e7d6527feb1e) claims removal of
+native_all_columns for the grade-14 application. This is a pending proposal,
+not an update to the selected certificate. Its exact PROOF, ROUTES, APPLICATION,
+VALIDATION, ORIGINS and VERIFY files are in reference/pr7837. Shared ref
+refs/research/pr7837 is fetched. A fresh independent binary composition audit
+is active in run/pr7837-binary-independent-audit; root handles complementary
+complex/outer assessment. No complete acceptance of this new PR is claimed.
+
+The all-order Gaussian candidate now has a complete separate reconstruction
+of all 3,360 leading polynomials and lower-coefficient vanishing using
+Kronecker/Berkowitz arithmetic. Its exact mass, gradient, center and coverage
+claims agree. Root analytic review also accepts the explicit source, inverse,
+alias and precision inequalities. Packaging and final replay are underway
+in workers/gaussian_all_orders; it is not yet a published contribution.
+
+DRAFTS/fixed-divisor-binding preserves the #6968 reuse audit, exact source
+pins and 120-call receipt. It is a recovery artifact, not a separately
+accepted new provider. No duplicate arithmetic graph is needed.
+
 ## Rolling allocation and next actions
 
 | Worker | Wave/track | Current exact scope | State and next action |
@@ -55,11 +83,11 @@ copy; the complete immutable published package is authoritative.
 | rounding | 1/65, 2/75, 3/75 | Parity theorem; independent rational-grid and lifecycle reviews | Complete and recorded in published packages |
 | rounding | 4/85 | Join literal #7596 arithmetic with published lifecycle | workers/combined_crt, research/combined-crt-literal-services-20261120. The 1,435,098-state union and first producer oracle pass; a closure-order issue was caught. Integration checks and review pending |
 | crt_lifecycle | 1/85 | Exact CRT lifecycle | Published and frozen |
-| crt_lifecycle | 2/55 | Selected #7828 compiler to rational C-word grammar | workers/compiler_bridge, research/complex-compiler-c-word-admission-20261120. Author commit 628ac6676c8703166bf8b86f228a4232c035ac25; root review and published scalar pin update pending |
+| crt_lifecycle | 2/55 | Selected #7828 compiler to rational C-word grammar | workers/compiler_bridge, research/complex-compiler-c-word-admission-20261120. Published at e8ad467a4b8e28e9db08fb9b80a06b56f3bdb128; see PUBLICATIONS.json |
 | crt_lifecycle | 3/85 | Literal fixed-divisor overlap audit | Complete in run/rational-literal-service-audit: reuse canonical #6968, 120 exact calls; common numerical format to physical coded-field ABI remains an explicit boundary |
-| crt_lifecycle | 4/75 | Independent all-order Gaussian classification review | run/gaussian-all-order-independent-review; inspect complete coverage, truncation, vanishing and mass bounds by distinct methods |
+| crt_lifecycle | 4/75 | Independent all-order Gaussian classification review | Complete: full exact reconstruction passed; current wave audits the new #7837 binary composition seam |
 | gaussian_source | 1/45, 2/45 | Exact all-order source rank; two-order separated margin | Published and frozen |
-| gaussian_source | 3/45 | All-order quantitative margin in narrow source intervals | workers/gaussian_all_orders, research/all-order-separated-gaussian-margin-20261120. Candidate at p>=2^20, t>=p^72; finite algebra and mixed-column checks complete; independent review pending |
+| gaussian_source | 3/45 | All-order quantitative margin in narrow source intervals | workers/gaussian_all_orders, research/all-order-separated-gaussian-margin-20261120. Candidate at p>=2^20, t>=p^72; independent finite algebra and analytic reviews passed; packaging/final replay underway |
 | root | 2/55 | Rational common-grid construction | Published and frozen |
 | root | 3/75 | Compiler interface, all-order analytic proof, integration and publication | Independently check critical implications and publish only complete scoped results |
 
