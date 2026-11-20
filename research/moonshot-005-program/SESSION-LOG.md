@@ -2798,3 +2798,13 @@ The new ordinary-source theorem covers all 2,281 nonorthogonal pairs using the c
 The secondary search established a rigorous all-arm ceiling for the current binary profile and a separate ceiling for the fixed rational caller. It prices the actual per-native changes needed for .0043/.005 and the full balanced-return caps, retaining finite-m credit and true bank widths. This rules out cutoff-only improvements of material size. Actual binary contractions and complex interior changes remain under investigation.
 
 Worker A constructed a new source covering all 100 ordinary donors at 40 centres, then a candidate covering all 111 donors at 44 centres. The former passed root's separate source reconstruction; admission of these packages and actual connected-middle work remain pending. The next wave studies centre overlaps with distinct shared donors. Four relocated proof/reviewer jobs reproduce the two admissions. No new complete κ or foundational discharge. The resulting checkpoint SHA is externally confirmed after publication; the session remains active.
+
+## S030 checkpoint 2 — 20 November 2026, active session
+
+Confirmed parent c09b211672fb9349db98bcb69ac234be3cb6ae9b. Three further packages pass admission and six relocated reproductions. The44-centre source changes all 111 donor information systems while preserving every native source cut and early bijection, including literal singleton repairs. Its1,474 common H/receiver graphs and complete source invoice have independent review. The40-centre precursor is retained with its separately stated cost-review scope.
+
+The single-anchor triangle theorem strengthens 91 ordinary source changes to 99 and the old 31-centre residual 22 to 29. Tight arbitrary-leaf fibres propagate quotient partitions; all 99 contradictions,2,970 rank 15 spans and 44,550 fibre polynomials have separate verification. The preceding pair theorem stays valid.
+
+The complex cut requires 90/146 directional fields against 8/64 old crossings, forcing164 additional MOVEs despite arbitrary recoding and retiming. Exact price rejects fixed routes at .0043/.005 and optimistically requires at least 12/13 changed old occurrences. Changed-route source repairs continue.
+
+At 07:37:24 UTC the five-hour session remained active. The next wave pursues connected sources, structured quotient slack and global shared-middle continuation; the complex worker broadens actual source/route repair. No new complete κ or foundational discharge. The resulting commit is externally verified after publication.

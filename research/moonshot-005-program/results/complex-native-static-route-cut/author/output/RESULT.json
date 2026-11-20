@@ -1,0 +1,600 @@
+{
+  "status": "PASS_TWO_WAY_STATIC_CUT_164",
+  "complete_kappa_claimed": false,
+  "binding": {
+    "independent_source_columns": 1289,
+    "decoded_terminal_rows": 1289,
+    "clearing_denominator": "42138574625233840801398675996672000000",
+    "lane_bits": 184
+  },
+  "source": {
+    "instructions": 4748,
+    "counts": {
+      "INIT": 365,
+      "ADD": 3213,
+      "MOVE": 803,
+      "CLEAR": 365,
+      "SCALE": 2
+    },
+    "allocated_owned_labels": 93,
+    "max_live_owned": 29
+  },
+  "cut_size": 128,
+  "initial_inside": 172,
+  "final_inside": 228,
+  "target_cross_ranks": [
+    90,
+    146
+  ],
+  "old_cross_capacities": [
+    8,
+    64
+  ],
+  "old_endpoint_cross_ranks": [
+    8,
+    64
+  ],
+  "new_move_deficits": [
+    82,
+    82
+  ],
+  "minimum_new_moves": 164,
+  "old_crossing_histograms": {
+    "forward": {
+      "9": 8
+    },
+    "reverse": {
+      "1": 32,
+      "3": 6,
+      "5": 12,
+      "8": 14
+    }
+  },
+  "old_crossings": {
+    "forward": [
+      {
+        "instruction": 3528,
+        "source": 127,
+        "destination": 3,
+        "register": 451,
+        "rank": 9
+      },
+      {
+        "instruction": 3661,
+        "source": 127,
+        "destination": 3,
+        "register": 451,
+        "rank": 9
+      },
+      {
+        "instruction": 3794,
+        "source": 127,
+        "destination": 3,
+        "register": 451,
+        "rank": 9
+      },
+      {
+        "instruction": 3927,
+        "source": 127,
+        "destination": 3,
+        "register": 451,
+        "rank": 9
+      },
+      {
+        "instruction": 4060,
+        "source": 127,
+        "destination": 3,
+        "register": 451,
+        "rank": 9
+      },
+      {
+        "instruction": 4193,
+        "source": 127,
+        "destination": 3,
+        "register": 451,
+        "rank": 9
+      },
+      {
+        "instruction": 4326,
+        "source": 127,
+        "destination": 3,
+        "register": 451,
+        "rank": 9
+      },
+      {
+        "instruction": 4459,
+        "source": 127,
+        "destination": 3,
+        "register": 451,
+        "rank": 9
+      }
+    ],
+    "reverse": [
+      {
+        "instruction": 2,
+        "source": 3,
+        "destination": 16,
+        "register": 400,
+        "rank": 1
+      },
+      {
+        "instruction": 7,
+        "source": 3,
+        "destination": 18,
+        "register": 400,
+        "rank": 1
+      },
+      {
+        "instruction": 12,
+        "source": 3,
+        "destination": 28,
+        "register": 400,
+        "rank": 1
+      },
+      {
+        "instruction": 17,
+        "source": 3,
+        "destination": 35,
+        "register": 400,
+        "rank": 1
+      },
+      {
+        "instruction": 22,
+        "source": 3,
+        "destination": 36,
+        "register": 400,
+        "rank": 1
+      },
+      {
+        "instruction": 27,
+        "source": 3,
+        "destination": 43,
+        "register": 400,
+        "rank": 1
+      },
+      {
+        "instruction": 32,
+        "source": 3,
+        "destination": 48,
+        "register": 400,
+        "rank": 1
+      },
+      {
+        "instruction": 37,
+        "source": 3,
+        "destination": 56,
+        "register": 400,
+        "rank": 1
+      },
+      {
+        "instruction": 76,
+        "source": 3,
+        "destination": 1114,
+        "register": 346,
+        "rank": 3
+      },
+      {
+        "instruction": 77,
+        "source": 3,
+        "destination": 1114,
+        "register": 357,
+        "rank": 3
+      },
+      {
+        "instruction": 78,
+        "source": 3,
+        "destination": 1114,
+        "register": 390,
+        "rank": 3
+      },
+      {
+        "instruction": 119,
+        "source": 1113,
+        "destination": 1116,
+        "register": 212,
+        "rank": 1
+      },
+      {
+        "instruction": 120,
+        "source": 1113,
+        "destination": 1116,
+        "register": 252,
+        "rank": 1
+      },
+      {
+        "instruction": 121,
+        "source": 1113,
+        "destination": 1116,
+        "register": 263,
+        "rank": 1
+      },
+      {
+        "instruction": 122,
+        "source": 1113,
+        "destination": 1116,
+        "register": 292,
+        "rank": 1
+      },
+      {
+        "instruction": 130,
+        "source": 1115,
+        "destination": 1118,
+        "register": 308,
+        "rank": 1
+      },
+      {
+        "instruction": 131,
+        "source": 1115,
+        "destination": 1118,
+        "register": 348,
+        "rank": 1
+      },
+      {
+        "instruction": 132,
+        "source": 1115,
+        "destination": 1118,
+        "register": 359,
+        "rank": 1
+      },
+      {
+        "instruction": 133,
+        "source": 1115,
+        "destination": 1118,
+        "register": 388,
+        "rank": 1
+      },
+      {
+        "instruction": 197,
+        "source": 1117,
+        "destination": 127,
+        "register": 250,
+        "rank": 5
+      },
+      {
+        "instruction": 199,
+        "source": 1117,
+        "destination": 127,
+        "register": 261,
+        "rank": 5
+      },
+      {
+        "instruction": 201,
+        "source": 1117,
+        "destination": 127,
+        "register": 294,
+        "rank": 5
+      },
+      {
+        "instruction": 227,
+        "source": 3,
+        "destination": 1120,
+        "register": 311,
+        "rank": 3
+      },
+      {
+        "instruction": 228,
+        "source": 3,
+        "destination": 1120,
+        "register": 319,
+        "rank": 3
+      },
+      {
+        "instruction": 229,
+        "source": 3,
+        "destination": 1120,
+        "register": 325,
+        "rank": 3
+      },
+      {
+        "instruction": 270,
+        "source": 1119,
+        "destination": 1122,
+        "register": 259,
+        "rank": 1
+      },
+      {
+        "instruction": 271,
+        "source": 1119,
+        "destination": 1122,
+        "register": 270,
+        "rank": 1
+      },
+      {
+        "instruction": 272,
+        "source": 1119,
+        "destination": 1122,
+        "register": 288,
+        "rank": 1
+      },
+      {
+        "instruction": 273,
+        "source": 1119,
+        "destination": 1122,
+        "register": 295,
+        "rank": 1
+      },
+      {
+        "instruction": 281,
+        "source": 1121,
+        "destination": 1124,
+        "register": 355,
+        "rank": 1
+      },
+      {
+        "instruction": 282,
+        "source": 1121,
+        "destination": 1124,
+        "register": 366,
+        "rank": 1
+      },
+      {
+        "instruction": 283,
+        "source": 1121,
+        "destination": 1124,
+        "register": 384,
+        "rank": 1
+      },
+      {
+        "instruction": 284,
+        "source": 1121,
+        "destination": 1124,
+        "register": 391,
+        "rank": 1
+      },
+      {
+        "instruction": 348,
+        "source": 1123,
+        "destination": 127,
+        "register": 215,
+        "rank": 5
+      },
+      {
+        "instruction": 350,
+        "source": 1123,
+        "destination": 127,
+        "register": 223,
+        "rank": 5
+      },
+      {
+        "instruction": 352,
+        "source": 1123,
+        "destination": 127,
+        "register": 229,
+        "rank": 5
+      },
+      {
+        "instruction": 408,
+        "source": 128,
+        "destination": 127,
+        "register": 4,
+        "rank": 1
+      },
+      {
+        "instruction": 411,
+        "source": 169,
+        "destination": 127,
+        "register": 51,
+        "rank": 1
+      },
+      {
+        "instruction": 414,
+        "source": 180,
+        "destination": 127,
+        "register": 63,
+        "rank": 1
+      },
+      {
+        "instruction": 417,
+        "source": 231,
+        "destination": 127,
+        "register": 92,
+        "rank": 1
+      },
+      {
+        "instruction": 488,
+        "source": 134,
+        "destination": 127,
+        "register": 59,
+        "rank": 1
+      },
+      {
+        "instruction": 491,
+        "source": 146,
+        "destination": 127,
+        "register": 70,
+        "rank": 1
+      },
+      {
+        "instruction": 494,
+        "source": 152,
+        "destination": 127,
+        "register": 88,
+        "rank": 1
+      },
+      {
+        "instruction": 497,
+        "source": 160,
+        "destination": 127,
+        "register": 95,
+        "rank": 1
+      },
+      {
+        "instruction": 1994,
+        "source": 95,
+        "destination": 1096,
+        "register": 94,
+        "rank": 5
+      },
+      {
+        "instruction": 2008,
+        "source": 50,
+        "destination": 1096,
+        "register": 49,
+        "rank": 5
+      },
+      {
+        "instruction": 2009,
+        "source": 62,
+        "destination": 1096,
+        "register": 61,
+        "rank": 5
+      },
+      {
+        "instruction": 3244,
+        "source": 24,
+        "destination": 1107,
+        "register": 23,
+        "rank": 5
+      },
+      {
+        "instruction": 3257,
+        "source": 8,
+        "destination": 1107,
+        "register": 7,
+        "rank": 5
+      },
+      {
+        "instruction": 3258,
+        "source": 17,
+        "destination": 1107,
+        "register": 16,
+        "rank": 5
+      },
+      {
+        "instruction": 4527,
+        "source": 3,
+        "destination": 189,
+        "register": 165,
+        "rank": 8
+      },
+      {
+        "instruction": 4551,
+        "source": 3,
+        "destination": 179,
+        "register": 155,
+        "rank": 8
+      },
+      {
+        "instruction": 4554,
+        "source": 3,
+        "destination": 198,
+        "register": 174,
+        "rank": 8
+      },
+      {
+        "instruction": 4557,
+        "source": 3,
+        "destination": 220,
+        "register": 196,
+        "rank": 8
+      },
+      {
+        "instruction": 4560,
+        "source": 3,
+        "destination": 223,
+        "register": 199,
+        "rank": 8
+      },
+      {
+        "instruction": 4568,
+        "source": 3,
+        "destination": 177,
+        "register": 153,
+        "rank": 8
+      },
+      {
+        "instruction": 4569,
+        "source": 3,
+        "destination": 144,
+        "register": 120,
+        "rank": 8
+      },
+      {
+        "instruction": 4575,
+        "source": 3,
+        "destination": 222,
+        "register": 198,
+        "rank": 8
+      },
+      {
+        "instruction": 4601,
+        "source": 3,
+        "destination": 151,
+        "register": 127,
+        "rank": 8
+      },
+      {
+        "instruction": 4602,
+        "source": 3,
+        "destination": 135,
+        "register": 111,
+        "rank": 8
+      },
+      {
+        "instruction": 4604,
+        "source": 3,
+        "destination": 191,
+        "register": 167,
+        "rank": 8
+      },
+      {
+        "instruction": 4608,
+        "source": 3,
+        "destination": 187,
+        "register": 163,
+        "rank": 8
+      },
+      {
+        "instruction": 4611,
+        "source": 3,
+        "destination": 216,
+        "register": 192,
+        "rank": 8
+      },
+      {
+        "instruction": 4636,
+        "source": 3,
+        "destination": 132,
+        "register": 108,
+        "rank": 8
+      }
+    ]
+  },
+  "price": {
+    "old_private_moment": [
+      "3253.637809671082",
+      "3253.637809671083"
+    ],
+    "limiting_private_allowance": [
+      "3317.516539247334",
+      "3317.516539247335"
+    ],
+    "limiting_extra_allowance": [
+      "63.878729576252",
+      "63.878729576253"
+    ],
+    "minimum_complete_fixed_route_moment": [
+      "3417.637809671082",
+      "3417.637809671083"
+    ],
+    "minimum_shortfall": [
+      "100.121270423747",
+      "100.121270423748"
+    ],
+    "finite_m_native_penalty": [
+      "23.708028821921",
+      "23.708028821922"
+    ],
+    "maximum_discount_per_removed_old_move": [
+      "7.917253251321",
+      "7.917253251322"
+    ],
+    "necessary_number_of_removed_or_retargeted_old_moves": 13
+  },
+  "controls": [
+    "The implemented old endpoint has no cut deficit.",
+    "All chart aliases are merged by literal binary span.",
+    "Both demand directions use exact rational elimination.",
+    "All eight old rank-nine moves cross the cut."
+  ]
+}

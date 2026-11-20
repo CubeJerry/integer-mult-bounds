@@ -1,5 +1,13 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+## S030 checkpoint 2 addition
+
+**No new κ. This remains an ongoing programme, not a complete supplier PR.** The cumulative contribution adds an all 111-donor source at 44 designated centres, a single-RS-anchor obstruction requiring all 99 eligible ordinary information systems to change for the exact S028 target, and a complex static route cut requiring164 additional fields when the 803 old private routes are retained.
+
+The all-source package independently checks 6,470 source cuts,111 early bijections,1,474 common receiver/H graphs and the full source invoice of 4,615,832,120 ADD plus 1,926,000 INIT/CLEAR each, with no extra source MOVE. Its canonical local endpoint is distinct from the S028 target. The anchor proof covers arbitrary nonlinear gauges and arbitrary separated neighbouring sources. The complex proof covers arbitrary old-payload recoding and retiming, with separate exact price rejection at .0043/.005.
+
+[Six fresh reproductions](sessions/2026-11-20-S030/CHECKPOINT2-VALIDATION.json) match the reviewed evidence. Credit @CubeJerry and the cited native/source/compiler/rail predecessors, with substantial OpenAI assistance. Separate reviews are model-assisted mathematical and computational work, not human or formal-kernel acceptance. All five foundations, shared global transport, return and both strict suppliers remain open.
+
 ## S030 checkpoint 1: source information and significant-saving requirements
 
 [Live session checkpoint](sessions/2026-11-20-S030/LIVE-CHECKPOINT.md). **No new complete κ.** The selected complete conditional saving remains .00363005817; all five foundations and both strict suppliers remain open.

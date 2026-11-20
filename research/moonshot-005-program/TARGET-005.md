@@ -1,5 +1,13 @@
 # Exact target κ=1/200 — current programme
 
+## S030 checkpoint 2: revised source and complex-route gates
+
+The [single-anchor proof](results/bit-single-rs-anchor-obstruction/ADMISSION.md) requires all 99 eligible ordinary sources to change for the exact S028 target under the actual separated-source routes. The earlier91/22 consequences below remain valid but are weaker than 99/29. No physical charge per source change is inferred.
+
+The [all 111-source witness](results/bit-coupled-native-forty-h-source/ADMISSION.md) supplies44 canonical local H interfaces and 1,474 common receiver/H graphs at the full source invoice. It does not realize the complete target or small return. The necessary caps remain q≤34,688 at .005 and q≤36,875 at .0043, for b=3,840,m=870 under the specified balanced tariff.
+
+The [complex fixed-route cut](results/complex-native-static-route-cut/ADMISSION.md) forces164 new fields. Its limiting private allowance is exceeded by more than 100.12127042374797 at .005 and 93.05619666105226 at .0043. Finite multiplicity tightens both comparisons. Even optimistic accounting requires at least 13 or 12 changed old occurrences, respectively. These are necessary conditions for the stated source/interface, not an obstruction to every changed route list or complex supplier.
+
 ## S030: material intermediate target and source-change gate
 
 The [reviewed significant-gain calculation](results/kappa-significant-gain-screen/ADMISSION.md) fixes .0043 as a secondary construction screen. The unchanged binary invoice, even with every positive paired-caller arm count, has ceiling below .003879928046155. A real net gain exceeding 4.459941333825857 per native is required at .0043; the separate fixed complex caller needs more than 8.90159173920848 per native. These are necessary changes under the respective invoices, not complete supplier thresholds.

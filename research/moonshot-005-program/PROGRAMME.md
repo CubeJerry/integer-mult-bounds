@@ -1,5 +1,17 @@
 # Persistent κ=0.005 research programme
 
+## S030 checkpoint 2: all-source construction and stronger global requirements
+
+[Current active session](sessions/2026-11-20-S030/LIVE-CHECKPOINT.md). **No new complete κ.** The selected conditional value remains .00363005817; all five foundations and both strict suppliers remain open.
+
+The [single-anchor theorem](results/bit-single-rs-anchor-obstruction/ADMISSION.md) strengthens the preceding 91-source bound to **all 99** eligible ordinary RS sources. One retained source already obstructs the exact S028 target, even when all other sources and downstream processing may change arbitrarily within the separated-source and fixed-route contract. The old 31-centre source needs **29** further ordinary information changes. The nonlinear partition argument and all 99 native triangle certificates have separate review.
+
+The [44-centre construction](results/bit-coupled-native-forty-h-source/ADMISSION.md) changes all **111** original donor information systems, preserves all **6,470** native source cuts and **111** actual early bijections, and supplies **1,474** simultaneous native receiver/H inverse graphs. Its full source and pure inverse cost **4,615,832,120 ADD**, with **1,926,000 INIT and dirty CLEAR each**, and no extra source MOVE. This establishes canonical local interfaces, with a common D/K/F continuation and the affordable full return still open. It is distinct from the S028 perturbed target.
+
+The [complex static route cut](results/complex-native-static-route-cut/ADMISSION.md) requires at least **164** additional whole-field MOVEs if the 803 old private routes remain, even with arbitrary recoding and retiming. Its exact .005 price is short by more than 100.12127 per native. An optimistic affordable repair must change at least 13 old occurrences, or 12 at the secondary .0043 target. Changed routes remain open.
+
+The next construction joins connected centres on one changed source and tests the remaining quotient freedom. A three-centre source and a hybrid allowing different quotient kernels are under review. The global physical fitting and complete return remain the decisive obligation.
+
 ## S030 checkpoint 1: source information and significant-saving requirements
 
 [Live session checkpoint](sessions/2026-11-20-S030/LIVE-CHECKPOINT.md). **No new complete κ.** The selected complete conditional saving remains .00363005817; all five foundations and both strict suppliers remain open.

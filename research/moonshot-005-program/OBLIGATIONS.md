@@ -1,5 +1,16 @@
 # Remaining proof obligations — current programme
 
+## S030 checkpoint 2: reviewed gates and next construction
+
+| Obligation | Reviewed progress | Remaining requirement |
+|---|---|---|
+| Change source information for the exact S028 target | [All99 eligible pinned RS anchors are individually impossible](results/bit-single-rs-anchor-obstruction/ADMISSION.md), allowing nonlinear gauges and arbitrary separated neighbours | A compatible different source; other targets and node assignments are outside this theorem |
+| Replace every original source bank while preserving real cuts | [All111 donors,44 centres,1,474 inverse graphs](results/bit-coupled-native-forty-h-source/ADMISSION.md), including singleton repairs and full source price | Connected-centre compatibility and shared D/K/F continuation on that same source |
+| Complete the complex private rail with unchanged old routes | [At least164 additional MOVEs](results/complex-native-static-route-cut/ADMISSION.md), failing both .0043 and .005 prices | Enough actual route changes or a different paid source; cut feasibility alone is insufficient |
+| Reach a significant complete intermediate κ | [Unchanged-profile ceilings remain binding](results/kappa-significant-gain-screen/ADMISSION.md) | Both strict suppliers, ordinary completion and all finite/recursive caller costs |
+
+The connected three-centre source, hybrid quotient freedom, complex four-chart source cut and bounded binary operator search remain unadmitted at this checkpoint. Their presence in a working directory is not proof status. The central open equation remains the global physical fitting and its complete affordable return.
+
 [Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md). The paid two-star construction still requires at least 182,875 return symbols against the target budget of 34,688.
 
 ## S026 checkpoint 1

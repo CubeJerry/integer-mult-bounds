@@ -565,3 +565,7 @@ The native Petersen converse adapts the known isolated Petersen broadcast rate f
 At intake and the 06:53 UTC pre-checkpoint refresh, canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. The selected complete conditional value remains .00363005817. Open #7835 at43007c979859fa84ccc3a3509ccacc9620d181fa claims .00387992802601; it is a comparator, not an accepted new theorem. The source pins retain #7830's full rational invoice at14c74c6a67108f675ac1196a5f2415ead0920e71 and the current #7786 binary source.
 
 [Fresh exact price proofs](results/kappa-significant-gain-screen/ADMISSION.md) establish that these unchanged invoices cannot reach a material .0043 intermediate target by cutoff refinement. The binary all-arm optimum has ceiling below .003879928046155; the separate fixed rational caller has ceiling below .00388013644475. The mixed ordinary/product interfaces in #7826/#7828 may still help after a changed physical source is supplied. No compatibility or acceptance is inferred from an open PR.
+
+## S030 checkpoint 2 provenance
+
+The all 111 source preserves the admitted native geometry, spread allocation, coupled two-centre and singleton source credit. Its canonical local target differs from the S028 perturbation. The single-anchor result retains the actual pinned RS node assignment and physical routes. The complex cut reconstructs the authenticated #7830 private word and complete target; it does not adopt #7833's incomplete surgery as a supplier. No selected certificate or external PR changes.

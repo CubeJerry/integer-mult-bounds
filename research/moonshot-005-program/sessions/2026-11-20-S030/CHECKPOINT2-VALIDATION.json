@@ -1,0 +1,70 @@
+{
+  "independent_review": "Separate proof/code reviews in the three admissions; these executions are reproduction, not additional independent reviews.",
+  "jobs": [
+    {
+      "expected": "bit-coupled-native-forty-h-source/root-review/output/RESULT.json",
+      "expected_sha256": "6ee5b93e0dc438d4a987ab3b30004338f93b33366a1a7d48138c8e890609cff5",
+      "matched": true,
+      "name": "forty-source-review",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-coupled-native-forty-h-source/root-review/check.py",
+      "script_sha256": "f72b4258518a4cc9cdae06349093fc481fc94147a47b769b24593e2629660962"
+    },
+    {
+      "expected": "bit-coupled-native-forty-h-source/review-all-donors-b/RESULT.json",
+      "expected_sha256": "ca690931273c7894b29585bf08f682795aee4f82e59c86e30012db9e5b30702c",
+      "matched": true,
+      "name": "all111-source-review",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-coupled-native-forty-h-source/review-all-donors-b/check.py",
+      "script_sha256": "7fd50803ec6f7f29b4c3548b90521b57348db73af50102f1fbeb79fd92fdfbd8"
+    },
+    {
+      "expected": "bit-single-rs-anchor-obstruction/author/output/RESULT.json",
+      "expected_sha256": "eac0d4d923e7b9499a138fa906e634986eb3d4ec2738ea31e8f195ddad41b1f4",
+      "matched": true,
+      "name": "single-anchor-author",
+      "normalized_metadata": [],
+      "optimized": true,
+      "script": "bit-single-rs-anchor-obstruction/author/check.py",
+      "script_sha256": "499f07bca007b56566c41b19376b68dba33c3a7eb58c0816caf21c9cd19d5ba1"
+    },
+    {
+      "expected": "bit-single-rs-anchor-obstruction/review-b/RESULT.json",
+      "expected_sha256": "c94041db40d0ba12280eb4e9ec078246dca131cdb08c794f19367c5d25a4cc52",
+      "matched": true,
+      "name": "single-anchor-review",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-single-rs-anchor-obstruction/review-b/check.py",
+      "script_sha256": "5e23c62ad91c94f228e7af54be343259dea3807fe66f5c2d166b2e8b3b217f49"
+    },
+    {
+      "expected": "complex-native-static-route-cut/review-b/RESULT.json",
+      "expected_sha256": "de2018b877db2f8d7c9476e4e929ef5af49c73136d13e1007b6e6d8805fa2ddc",
+      "matched": true,
+      "name": "static-cut-review",
+      "normalized_metadata": [
+        "elapsed wall-clock runtime only"
+      ],
+      "optimized": false,
+      "script": "complex-native-static-route-cut/review-b/check.py",
+      "script_sha256": "39aebe9941bd1b4551f0194f8ce010a76d682ac441d911cc0d1206efd573e04d"
+    },
+    {
+      "expected": "complex-native-static-route-cut/root-price/output/RESULT.json",
+      "expected_sha256": "ef82421554ee914e2d82338a69e9b0590ec9124b4bb5f4888d0e9c0627360df2",
+      "matched": true,
+      "name": "static-price-review",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "complex-native-static-route-cut/root-price/check.py",
+      "script_sha256": "32a20befd01d0babd7520931c86cf8324f3f2a88e3b42a19c11e48ad3c69fb91"
+    }
+  ],
+  "new_complete_kappa": false,
+  "parent_baseline": "c09b211672fb9349db98bcb69ac234be3cb6ae9b",
+  "status": "PASS_S030_CHECKPOINT2_REPRODUCTION"
+}
