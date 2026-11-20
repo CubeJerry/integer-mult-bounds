@@ -476,3 +476,7 @@ The [H263 source](results/bit-spread-h263-source/ADMISSION.md) realizes all 33 n
 ## S029 checkpoint 3
 
 A physically compiled source realizes 801 simultaneous native inverse fibres across 24 H charts. Both alternative original-owner source invoices are charged and reproducible. The least stationary width on each formal facet and all-column Z[1/6] address compatibility with the proposed rank compiler now have checked proofs. The physical low-return transfer remains open. No new κ.
+
+## S029 checkpoint 4
+
+The original-source constraints now compose at 31 charts and one twelve-donor D cut has a verified causal word. A separate physical trace implements the complete 123-edge difference and both canonical centre slices. Rank-nine formal rigidity holds for all body dimensions on the actual native support. A different full-rank prefix still has a large terminal return obstruction. The global shared low-return trace, both strict suppliers and the five framework assumptions remain open.

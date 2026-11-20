@@ -301,3 +301,7 @@ The m=870 raw saving is in (.00500000060450,.00500000060451). Its asymptotic sup
 ## S029 checkpoint 3
 
 The 24-chart source attains 801 specified H observations and preserves full rank on all 6,470 individual source-to-H cuts. Its 3,252,599,256-ADD source invoice includes its pure early inverse. The per-facet storage minimum is exact for both K variants. The global return budget remains 34,688 field dimensions at bank 3,840 and m=870.
+
+## S029 checkpoint 4
+
+The endpoint budget of 9b+128 at b=3,840 now has an exact local deformation test. A scalar nongauge square-zero variation costs at least the rank of the nilpotent coefficient. The 31-chart source solves 1,041 original receiver/H constraints, and one genuine native D carries all twelve donor fibres at a selected receiver. The studied RS prefix followed by arbitrary linear F still requires at least 41,880 returns. Its earlier coefficients must change.

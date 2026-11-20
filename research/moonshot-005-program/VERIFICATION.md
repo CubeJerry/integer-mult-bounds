@@ -456,3 +456,7 @@ Eleven relocated jobs reproduced all substantive H263, K, Reed–Solomon/H/F, ga
 ## S029 checkpoint 3
 
 [Checkpoint 3 replay](sessions/2026-11-20-S029/checkpoint3_replay.py) matched [thirteen retained jobs](sessions/2026-11-20-S029/CHECKPOINT3-VALIDATION.json). The independent source check assembled 522 physical singleton cuts. Separate emitted-primitive audits confirmed both packed invoices. A second Gram/Smith calculation recovered 50,400 address flags and every gluing type. Run the replay with `--repo . --out FRESH --jobs 2`. The price audit is documented in its own package.
+
+## S029 checkpoint 4
+
+[Checkpoint 4 replay](sessions/2026-11-20-S029/checkpoint4_replay.py) matches [the retained proof and word results](sessions/2026-11-20-S029/CHECKPOINT4-VALIDATION.json). The two rigidity computations use different ambient variables. The full-star bit-basis check and the terminal physical forward sweep use independently implemented operators. The 23/24 singleton check also reproduced after generalizing its helper for 30/31 charts.

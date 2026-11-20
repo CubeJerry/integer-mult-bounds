@@ -1,0 +1,116 @@
+{
+  "INIT": 768,
+  "actual_X_fields": 426240,
+  "actual_Y_fields": 426240,
+  "arithmetic": "GF(64) polynomial x6+x+1",
+  "dirty_CLEAR": 768,
+  "extra_MOVE": 0,
+  "global_proper_rank": 128,
+  "internal_edges": 5,
+  "layout_pin_SHA256": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+  "nonzero_target_edges": 123,
+  "original_bank": 3840,
+  "original_roles": 111,
+  "regular_edges": 118,
+  "route_pin_SHA256": "6d55093625ffd123daf3ae0914bcaeba1308756cec24fd2de083f6887ad0b036",
+  "standalone_rank_I_plus_delta": 426240,
+  "target": "Entire S028 difference Delta = B-S028 canonical foreign O tensor I. Entire B still needs canonical contribution.",
+  "total_binary_ADD": 20269944,
+  "word_SHA256": {
+    "column": "8bf8925ae0375f37089397778f6e262fc4ec3b19fa93e3b413485d0735268de2",
+    "row": "a71dc39f2b71fe2bbe5b00bf0df93668cae35a5b780188294d9306c3238b454d"
+  },
+  "word_costs": {
+    "column": {
+      "D_to_plane": 2592,
+      "OPCODE_counts_including_bundles": {
+        "D": {
+          "a": 2430,
+          "w": 113
+        },
+        "endpoint": {
+          "a": 14802,
+          "s": 102,
+          "w": 785
+        },
+        "plane": {
+          "a": 19621,
+          "c": 116,
+          "s": 1774,
+          "w": 1964
+        }
+      },
+      "coded_capture_or_injection_ADD": 171032,
+      "emissions": 162,
+      "internal_anchor": {
+        "109": 843,
+        "110": 858
+      },
+      "phase": "Y",
+      "plane_span_histogram": {
+        "1": 4,
+        "2": 21,
+        "3": 15,
+        "4": 19,
+        "5": 34,
+        "6": 46,
+        "7": 32,
+        "8": 163
+      },
+      "pure_by_stage_binary_ADD": {
+        "D": 132912,
+        "endpoint": 1739904,
+        "plane": 2822880
+      },
+      "pure_forward_ADD": 4695696,
+      "pure_reverse_ADD": 4695696,
+      "snapshot_copy_or_delivery_ADD": 384,
+      "stationary_binary_fields": 384,
+      "total_ADD": 9562808
+    },
+    "row": {
+      "D_to_plane": 3776,
+      "OPCODE_counts_including_bundles": {
+        "D": {
+          "a": 3540,
+          "w": 227
+        },
+        "endpoint": {
+          "a": 8132,
+          "s": 7,
+          "w": 599
+        },
+        "plane": {
+          "a": 31164,
+          "c": 376,
+          "s": 2253,
+          "w": 2460
+        }
+      },
+      "coded_capture_or_injection_ADD": 248384,
+      "emissions": 236,
+      "internal_anchor": {
+        "106": 760,
+        "107": 784,
+        "109": 833
+      },
+      "phase": "X",
+      "plane_span_histogram": {
+        "5": 1,
+        "6": 9,
+        "7": 7,
+        "8": 319
+      },
+      "pure_by_stage_binary_ADD": {
+        "D": 202608,
+        "endpoint": 591216,
+        "plane": 4435360
+      },
+      "pure_forward_ADD": 5229184,
+      "pure_reverse_ADD": 5229184,
+      "snapshot_copy_or_delivery_ADD": 384,
+      "stationary_binary_fields": 384,
+      "total_ADD": 10707136
+    }
+  }
+}

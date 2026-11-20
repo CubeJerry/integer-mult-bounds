@@ -1,4 +1,4 @@
-# Binary source programs for the 23-chart and 24-chart placements
+# Binary source programs for four native chart placements
 
 Two independently specified source words supply the native H interfaces. For the 23-chart placement, 68 patched donor stars use explicit early matrix words and cache their late parities. The other 43 donors use the singleton-aware source program. For the alternative 24-chart placement, 71 patched donor stars use the same compilation with all three real singleton coordinate groups integrated where required. The other 40 use the singleton-aware background.
 
@@ -33,11 +33,27 @@ The compiler reduces both early matrices to identity and replays the inverse str
 
 The remaining source entries are copied from the per-donor manifest, restricted to exactly the complementary donors. For the 43-star background, the early basis, shuffle, late evaluation and snapshot counts are 44,631,096, 2,963,052, 34,414,680 and 990,720. The pure-X inverse is 47,594,148. For the 40-star background these four forward counts are 41,520,792, 2,756,196, 31,886,040 and 921,600. Its pure-X inverse is 44,276,988. Each background snapshot counts one binary ADD, INIT and dirty CLEAR.
 
+## Fifteen two-centre components
+
+The same program accepts the two-centre packing parameter table. Its 30-chart option compiles all 75 special stars and the 36 remaining singleton-aware background stars. Its 31-chart option includes eight true special singleton stars, 78 patched donors in total and 33 regular background donors. Within each pair the shared donor receives exactly one early frame and one physical source word. Every literal repaired singleton has all three coordinate groups early. The two raw word manifests charge all H input addresses and bind every field operation stream.
+
+| Complete source-only quantity | 30 charts, 1,005 local fibres | 31 charts, 1,041 local fibres |
+| --- | ---: | ---: |
+| Forward binary ADD | 1,738,948,668 | 1,811,051,516 |
+| Optional pure-X inverse ADD | 1,463,687,780 | 1,528,136,740 |
+| Forward plus inverse ADD | 3,202,636,448 | 3,339,188,256 |
+| INIT and dirty CLEAR | 2,125,440 each | 2,113,920 each |
+| Additional MOVE | 0 | 0 |
+
+For the 30-chart version the patched donors use 1,418,802,656 early-basis ADDs, 5,109,840 holder-permutation ADDs, 244,250,008 early parity ADDs and 1,296,000 Y-injection ADDs. The corresponding figures for the 31-chart version are 1,486,329,112, 5,312,880, 254,610,496 and 1,353,600. The complementary ordinary-source manifests charge respectively 829,440 and 760,320 snapshot lifetimes. The receiver and middle equations remain separate.
+
+The corresponding options are `--parameters "$R/bit-spread-two-centre-packing/author/output/PARAMETERS.json"` for the 30-chart case, with `--singleton-coefficients "$R/bit-spread-two-centre-packing/author/output/SINGLETONS.json.gz"` added for the 31-chart case. The receipts are `output-30/RESULT.json` and `output-31/RESULT.json`.
+
 ## Reproduction
 
 From a pristine repository checkout set `R=research/moonshot-005-program/results`. Run the compiler with the following inputs and any fresh output path. Python 3 and NumPy are sufficient.
 
-    python -B PATH/compile_pack.py --repo . --parameters "$R/bit-spread-overlap-source/author/output/PARAMETERS.json" --background "$R/bit-spread-rs-physical-word/author/source-output/PER-DONOR-COSTS.json" --out /tmp/packed23
+    python -B "$R/bit-spread-packed-source-owner-compiler/author/compile_pack.py" --repo . --parameters "$R/bit-spread-overlap-source/author/output/PARAMETERS.json" --background "$R/bit-spread-rs-physical-word/author/source-output/PER-DONOR-COSTS.json" --out /tmp/packed23
 
 To generate the 24-chart receipt add the option below and choose a different output directory.
 

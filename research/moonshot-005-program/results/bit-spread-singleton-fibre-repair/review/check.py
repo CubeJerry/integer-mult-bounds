@@ -92,15 +92,17 @@ class Transfer:
             block=np.block([[v[:,2*k:],zero],[zero,v[:,:k]]])
         return f.matmul(block,self.coeff[h]),block
 
-def check_case(review,n,pr,entry):
+def check_case(review,n,pr,entry,maps=None,anchor=None):
     j,k,h,p=(entry[q] for q in ('donor','k','h','singleton'))
     S=np.asarray(entry['S'],dtype=np.uint8)
     require(S.shape==(3*k,32*k) and S.max()<64,'declared finite field literal singleton matrix')
     c=review.Chart(n,h,k)
-    maps=c.single(pr)
+    if maps is None:
+        maps=c.single(pr)
     tran=Transfer(review,c,maps[j],pr['early'][str(j)],j,p,S)
     f=n.f
-    anchor=next(d for d in c.donors if d!=j)
+    if anchor is None:
+        anchor=next(d for d in c.donors if d!=j)
     native=range(111)
     central=np.zeros((16*k,k),dtype=np.uint8)
     central[:k]=np.eye(k,dtype=np.uint8)

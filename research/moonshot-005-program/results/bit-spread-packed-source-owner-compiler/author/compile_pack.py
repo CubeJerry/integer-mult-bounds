@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compile paid native source words for the 23- and 24-chart packings."""
+"""Compile paid native source words for the 23-, 24-, 30- and 31-chart packings."""
 from argparse import ArgumentParser
 from collections import Counter, defaultdict
 import gzip
@@ -121,7 +121,7 @@ def main():
     p.add_argument('--parameters',type=Path,required=True)
     p.add_argument('--background',type=Path,required=True)
     p.add_argument('--singleton-coefficients',type=Path,
-                   help='select the 24-chart packing and its repaired three-group singleton inputs')
+                   help='select the repaired 24- or 31-chart packing with all three genuine singleton groups')
     p.add_argument('--source-compiler',type=Path)
     p.add_argument('--packing-review',type=Path)
     p.add_argument('--field-review',type=Path)
@@ -137,31 +137,41 @@ def main():
     wires,xcount=physical_slots(n,a.repo,helper)
     raw=a.parameters.read_bytes()
     params=json.loads(raw)
-    pair=params['pair']
-    centres=set(pair['centres'])
     repairs={}
     if a.singleton_coefficients:
         singleton_raw=a.singleton_coefficients.read_bytes()
         for v in json.loads(gzip.decompress(singleton_raw)):
             repairs[v['h'],v['donor'],v['k']]=(v['singleton'],np.asarray(v['S'],dtype=np.uint8))
-        roster=params['extended_ordinary_packing']
+    if 'pairs' in params:
+        place=params['complete_31' if repairs else 'singleton_free_30']
+        roster=place['charts']
+        lookup={tuple(z['centres']):z for z in params['pairs']}
+        pairs=[lookup[h,q] for h,q,_ in place['pairs']]
+        independent=place['singles']
+        singles={(h,k):params['one_centre'][str(k)] for h in independent for k in (3,12)}
+        expected=(31,78) if repairs else (30,75)
     else:
-        roster=params['native_all_views_packing']
-    singles={(p['H'],p['k']):p for p in params['one_centre']}
+        roster=params['extended_ordinary_packing' if repairs else 'native_all_views_packing']
+        pairs=[params['pair']]
+        independent=[h for h in roster if h not in pairs[0]['centres']]
+        singles={(p['H'],p['k']):p for p in params['one_centre']}
+        expected=(24,71) if repairs else (23,68)
     patched=set.union(*(n.H[h] for h in roster))
-    require((len(roster),len(patched))==((24,71) if repairs else (23,68)),'exact physical roster')
+    require((len(roster),len(patched))==expected,'exact physical roster')
     totals=Counter()
     separate={}
     all_y=set()
     templates=defaultdict(dict)
     for k in (3,12):
-        ps=[review.Chart(n,h,k) for h in pair['centres']]
-        maps=review.paired(ps,pair[str(k)])
-        for j,rows in maps.items():
-            c=next(c for c in ps if j in c.donors)
-            templates[j][k]=(c,rows,pair[str(k)]['early'][str(j)],centres)
-        for h in roster:
-            if h in centres: continue
+        for pair in pairs:
+            centres=set(pair['centres'])
+            ps=[review.Chart(n,h,k) for h in pair['centres']]
+            maps=review.paired(ps,pair[str(k)])
+            for j,rows in maps.items():
+                require(k not in templates[j],'no donor reused across pair components')
+                c=next(c for c in ps if j in c.donors)
+                templates[j][k]=(c,rows,pair[str(k)]['early'][str(j)],centres)
+        for h in independent:
             c=review.Chart(n,h,k)
             prm=singles[h,k]
             for j,rows in c.single(prm).items():

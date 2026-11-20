@@ -1,0 +1,128 @@
+{
+  "INIT": 768,
+  "actual_X_fields": 426240,
+  "actual_Y_fields": 426240,
+  "additional_base_overlay_forward_stage_ADD": {
+    "column": {
+      "endpoint": 22656,
+      "plane": 768
+    },
+    "row": {
+      "endpoint": 22656,
+      "plane": 1152
+    }
+  },
+  "arithmetic": "GF(64) polynomial x6+x+1",
+  "correct_entire_F80_center_on_every_source": true,
+  "correct_entire_transfer_on_line10_center": true,
+  "dirty_CLEAR": 768,
+  "extra_MOVE": 0,
+  "global_proper_rank": 128,
+  "internal_edges": 5,
+  "layout_pin_SHA256": "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72",
+  "nonzero_target_edges": 123,
+  "original_bank": 3840,
+  "original_roles": 111,
+  "regular_edges": 118,
+  "route_pin_SHA256": "6d55093625ffd123daf3ae0914bcaeba1308756cec24fd2de083f6887ad0b036",
+  "standalone_rank_I_plus_delta": 426240,
+  "target": "Entire S028 Delta plus the canonical central I64 at all 123 modified edges.",
+  "total_binary_ADD": 20364408,
+  "word_SHA256": {
+    "column": "689bd72438944f5dcf57850c9a869e6f3dc3bb306aa7fdf63db8d81a4ab78a97",
+    "row": "340c6c1428919f2980dc8847a7ffc50b670b790784e74bf915ebc411babeecc4"
+  },
+  "word_costs": {
+    "column": {
+      "D_to_plane": 2592,
+      "OPCODE_counts_including_bundles": {
+        "D": {
+          "a": 2430,
+          "w": 113
+        },
+        "endpoint": {
+          "a": 15274,
+          "s": 102,
+          "w": 785
+        },
+        "plane": {
+          "a": 19621,
+          "c": 244,
+          "s": 1774,
+          "w": 1964
+        }
+      },
+      "coded_capture_or_injection_ADD": 171032,
+      "emissions": 162,
+      "internal_anchor": {
+        "109": 843,
+        "110": 858
+      },
+      "phase": "Y",
+      "plane_span_histogram": {
+        "1": 4,
+        "2": 21,
+        "3": 15,
+        "4": 19,
+        "5": 34,
+        "6": 46,
+        "7": 32,
+        "8": 163
+      },
+      "pure_by_stage_binary_ADD": {
+        "D": 132912,
+        "endpoint": 1762560,
+        "plane": 2823648
+      },
+      "pure_forward_ADD": 4719120,
+      "pure_reverse_ADD": 4719120,
+      "snapshot_copy_or_delivery_ADD": 384,
+      "stationary_binary_fields": 384,
+      "total_ADD": 9609656
+    },
+    "row": {
+      "D_to_plane": 3776,
+      "OPCODE_counts_including_bundles": {
+        "D": {
+          "a": 3540,
+          "w": 227
+        },
+        "endpoint": {
+          "a": 8604,
+          "s": 7,
+          "w": 599
+        },
+        "plane": {
+          "a": 31164,
+          "c": 568,
+          "s": 2253,
+          "w": 2460
+        }
+      },
+      "coded_capture_or_injection_ADD": 248384,
+      "emissions": 236,
+      "internal_anchor": {
+        "106": 760,
+        "107": 784,
+        "109": 833
+      },
+      "phase": "X",
+      "plane_span_histogram": {
+        "5": 1,
+        "6": 9,
+        "7": 7,
+        "8": 319
+      },
+      "pure_by_stage_binary_ADD": {
+        "D": 202608,
+        "endpoint": 613872,
+        "plane": 4436512
+      },
+      "pure_forward_ADD": 5252992,
+      "pure_reverse_ADD": 5252992,
+      "snapshot_copy_or_delivery_ADD": 384,
+      "stationary_binary_fields": 384,
+      "total_ADD": 10754752
+    }
+  }
+}

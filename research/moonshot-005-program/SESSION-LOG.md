@@ -2755,3 +2755,7 @@ The D checkpoint was confirmed at a1d5d7857428051de755fc0d7bd02e2d4c62275c. Five
 ## S029 checkpoint 3
 
 Integrated the 24-chart physical source, both original-owner packed invoices, minimum facet storage and the localized address proof. Thirteen portable verification jobs matched. An independent primitive audit checked both packed source invoices. The first hourly upstream check retained the original selected and PR heads.
+
+## S029 checkpoint 4
+
+The fourth S029 checkpoint retains the 31-chart original source, a first twelve-donor D120 word, a nonlinear obstruction at D3, complete two-star routing with a canonical centre overlay, a global formal-rigidity theorem at 9b and an independently reconstructed terminal obstruction.

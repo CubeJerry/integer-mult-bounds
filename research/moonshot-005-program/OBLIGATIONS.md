@@ -242,3 +242,7 @@ The [H263 source](results/bit-spread-h263-source/ADMISSION.md) realizes all 33 n
 ## S029 checkpoint 3
 
 The shared-donor equations and all true singleton rows have simultaneous solutions on 24 H charts. The D/K/F endpoint equations and both strict suppliers remain open. The single-grade construction has a source-specific proof for address denominators at all eligible columns. All five framework assumptions remain.
+
+## S029 checkpoint 4
+
+The [31-chart source](results/bit-spread-two-centre-packing/ADMISSION.md), [common D120 cut](results/bit-spread-isolated-middle-cut/ADMISSION.md), and [two complete centre banks of rows and columns](results/bit-covariant-canonical-center/ADMISSION.md) are individually verified. These are different witnesses with their own source and endpoint choices. The global all-donor coefficient identity on one affordable word remains open. Native fitting rigidity excludes a cost-free nonflat infinitesimal escape from 9b.

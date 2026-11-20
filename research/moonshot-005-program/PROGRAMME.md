@@ -41,3 +41,7 @@ Checkpoint parent fb59a4ae85b7d81dce79ee5189f7b9f081542a3c is remotely confirmed
 ## S029 checkpoint 3
 
 One paid original-owner source now realizes 801 simultaneous inverse fibres at 24 H charts. The rational address arithmetic works over Z[1/6] at every column. The next global equation couples these physical fibres through D, K and the facets to a low-return endpoint.
+
+## S029 checkpoint 4
+
+The [canonical rank-nine fitting](results/bit-native-rank-nine-rigidity/ADMISSION.md) is formally rigid up to role-wise basis changes. Any nonflat construction adjacent to it must spend actual excess. All 123 changes of the proposed two-star target can now run on one native pass, together with its complete central rows and columns. The missing part is shared physical transport of the remaining canonical coordinates.
