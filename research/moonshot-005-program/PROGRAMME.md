@@ -1,93 +1,78 @@
 # Persistent κ=0.005 research programme
 
-## S031 checkpoint3: coupled protected sources and an explicitly paid H repair
+## S031 checkpoint4: a smaller shared fibre core and a one-field paid provider
 
 **No new complete κ.** The selected conditional value remains .00363005817.
-The same source/H/D/K/facet word, affordable complete return, both strict
-suppliers and complete recursive caller remain open. This is an active
-checkpoint of the requested five-hour session, not a final handoff or PR.
+The session remains active. Both strict suppliers, the same complete physical
+word and affordable return, and the full recursive caller remain open.
 
-### Extend the protected component by changing its anchors jointly
+### Current constructive frontier
 
-The [admitted two-centre component](results/bit-shared-h-s031-construction/ADMISSION.md)
-supplies H263 and H642 on the same five ordinary sources. It has315 full
-geometric source views (291 native),72 common whole H fibres/readouts
-(67 native), and five genuine early bases. H263 changes20 geometric fibres
-while H642 retains its old fibres. This remains a width-three component;
-a third chart and the complementary width-twelve bank are not constructed.
+The [rank-one two-centre component](results/bit-shared-h-s031-construction/rank-one-overlap/ADMISSION.md)
+has H263 and H642 on the same five ordinary sources,315 full geometric cuts
+(291 native),72 common whole fibres/readouts (67 native), and five actual
+96-dimensional early bases. One/two quotient edits preserve the uniform
+propagation bounds27/36, below45. At20 geometric receivers the first fibre
+moves by the explicit rank-one correction U60(v) tensor (rho lambda).
+Its total core is22-dimensional, reduced from30. H642 retains an18-dimensional
+core and now uses a rank-eight nine-input provider with one lost coordinate.
 
-The new [four-edit theorem](results/bit-shared-h-s031-construction/four-edit-protection/ADMISSION.md)
-allows arbitrary linear changes at up to four geometric quotient nodes,
-provided the required source views stay invertible. For zero through four
-edited nodes other than H, propagation is at most5k,9k,12k,13k,14k, strictly
-below15k. A literal five-edit source preserves every geometric cut but
-saturates one native propagation family, so this edit-count guarantee is sharp.
-The current two-H component consequently improves from the older bounds30/42
-to27/36, below45. This slack is an opportunity for coupled source redesign,
-not a construction of a third H word.
+The separate [finite rank-eight construction](results/bit-shared-h-s031-construction/rank-eight-provider/ADMISSION.md)
+provides the exact algebra, a literal one-field complement, all source views
+and physical receiver readouts. The reviewed paid-H compiler exports this
+complement at gap6 and restores original owners before canonical formation.
+The literal10-field extension costs1474 binary ADDs per direction:16 copies
+use47168 replacement ADDs and96 binary INIT/MOVE/CLEAR operations each.
+These are local gross costs; no complete global saving is claimed.
 
-The [frozen-anchor obstruction](results/bit-shared-h-s031-construction/companion-obstruction/ADMISSION.md)
-shows that the current two-H component cannot be extended at the indicated
-companion donors while keeping both relevant anchors fixed. A common
-three-dimensional translation kernel survives even arbitrary nonlinear
-source functions at the new donor. The immediate construction must change
-both anchors or the shared fibre diagram while preserving actual source
-ranks, common readouts and early owners.
+At bank3840,m870,kappa=.005,16 extra gap-six field exports leave the strict
+return cap34675,115 above the abstract floor34560. At that floor, separately
+exporting16 copies of every component defect permits total defect at most10
+(m870), or11 in the limiting screen. All other added costs remain to be paid.
+The complementary width12 component, all45 exits and a third shared centre
+are not constructed. The immediate goal is to extend this smaller common
+fibre diagram while controlling the total rank lost by the actual early word.
 
-### A paid alternative to an invertible local H map
+### What the new gates require us to change
 
-The [paid complement compiler](results/bit-paid-deficient-h-repair/ADMISSION.md)
-allows one early H map to lose rank by adding explicit owned complement
-records. They move directly to Hub at paid gap six and enter the inverse
-before canonical formation; all original X are restored and added records
-are zeroed and cleared. No later canonical row repairs early loss for free.
+The [frozen-fibre readout theorem](results/bit-shared-h-s031-construction/readout-rigidity/ADMISSION.md)
+allows arbitrary binary-linear central maps and nonlinear new companion
+functions, but still forces a common translation kernel for the earlier
+30-dimensional first fibre diagram. The [one-anchor tail theorem](results/bit-shared-h-s031-construction/paid-tail-obstruction/ADMISSION.md)
+exhibits a universal distant source kernel for all36 effective tail parameters,
+including noncommuting repeated blocks. These are scoped obstructions; the
+new rank-one fibre diagram is not ruled out by their frozen hypotheses.
+The four-edit protection theorem and its five-edit sharpness remain available.
 
-A concrete rank-three9-input provider loses six dimensions. Its invertible
-15-field extension costs1421 binary ADDs per direction. Sixteen copies use
-45472 replacement ADDs plus576 binary INIT, gap-six MOVE and CLEAR each.
-Compatible source coefficients, the complementary component and the changed
-late endpoint remain open; this compiler alone is not a complete H/source word.
+The [universal feedback gate](results/bit-shared-h-s031-review/universal-gap-feedback-port-gate/ADMISSION.md)
+and [all-slot involutive extension](results/bit-shared-h-s031-review/involutive-feedback-extension/ADMISSION.md)
+exclude a tight positive D110 packet at fixed H263 whenever one reference
+source has the stated square-zero inverse. The comparison source may be any
+degree16 matrix polynomial; GF64-linear bank gauges and nonlinear H processing
+are allowed. Twelve exact scalar certificates cover all donor orientations.
+The enlarged theorem requires the full update N to satisfy N²=0. Valid
+conditional sources with N³=0 but N² nonzero lie outside it and are active.
 
-At bank3840,m870, the necessary .005 movement screen with e extra field
-exports is q+e(6/8)^(.995)<34688.0018887478... . Thus e96 leaves q<=34615,
-only55 fields above the abstract floor34560. Two such repairs, e192, fail even
-the limiting allowance. Smaller rank defects are priced at their actual size;
-no rank-eight provider is constructed. The original zero-export .0043 cap
-remains36875. Ordinary, recursive, precision and all remaining costs are
-additional obligations.
+### Complementary complex repair
 
-### Source-family and complex repair gates
+The [coupled repair screen](results/complex-paid-export-s031-coupled-repair/ADMISSION.md)
+binds one exact seven-deletion source plan. A rank-six target cut with four
+retained exports requires at least two new messages. The exact .005 price
+can afford precisely two grade-one messages; a distinct new bank cannot
+help in that budget. Exhaustive endpoint and minor-cut checks leave120
+pairs from27002 cut-eligible pairs. None is yet a complete causal repair.
+The search now allows coupled useful internal recoding, beyond the frozen
+five-message class already ruled out by nonlinear boundary rigidity.
 
-The admitted frozen-feedback partition theorem and arbitrary-nonlinear
-geometric/gap15 gate retain their exact scopes. They rule out coordinate
-changes as a repair for those pinned fibre diagrams. The universal nine-gap
-source still has explicit inverses and9k propagation slack, but no actual
-shared H word. A broader port-equation obstruction and conditional feedback
-constructions are under independent investigation; they are not admitted here.
+### Source and publication status
 
-The [complex saturated cuts](results/complex-paid-export-s031-repair/ADMISSION.md)
-leave only four grade-four and one grade-three high-grade routes available for
-deletion in their fixed route family. Even optimistic high-grade-only repair
-has a negative .005 complete-caller margin. The new
-[five-message theorem](results/complex-survivor-boundary-rigidity/ADMISSION.md)
-shows that arbitrary functions on those five payloads, with all surrounding
-forms fixed, are equivalent to the old endpoint under separate boundary-bank
-bijections only when they are translations. Zero-preserving changes must be
-identities. This does not exclude coupled recoding or added paid routes;
-the active complex search must restore every target column in that broader
-model before crediting any saving.
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. Open #7846
+claims a uniform proof for the existing .00387992803556 mixed-rank source;
+its targeted source-transfer review is complete and the full claim is not
+independently admitted. All five foundations remain explicit for the changed moonshot word.
+The cumulative branch remains an ongoing programme and is not PR-ready.
 
-### Programme and source status
-
-All five foundational assumptions remain explicit for the changed moonshot
-word. Pending upstream #7837/#7840 native realizations bind other sources and
-do not transfer automatically. Canonical selection is unchanged. The branch
-remains an ongoing programme and is not PR-ready.
-
-Confirmed checkpoint parent: ffc1dbc07ed9a68bc3b650a934bc30477c900812.
-Canonical upstream last examined: e54523517d0f03e58352e647c403a5af3e525a57.
-The session runs from2026-11-20 14:44:01 UTC to19:44:01 UTC; work continues.
-See [STATE](STATE.json), [TARGET-005](TARGET-005.md),
-[OBLIGATIONS](OBLIGATIONS.md), [VERIFICATION](VERIFICATION.md),
-[SESSION-LOG](SESSION-LOG.md), and the
-[live checkpoint](sessions/2026-11-21-S031/LIVE-CHECKPOINT.md).
+Confirmed checkpoint parent: 3e26cbd7f781c463e0d55b23ee429435683afc77.
+Session:2026-11-20 14:44:01 UTC to19:44:01 UTC; work continues.
+See [STATE](STATE.json), [TARGET-005](TARGET-005.md), [OBLIGATIONS](OBLIGATIONS.md)
+and the source-bound admissions for exact quantifiers and replay commands.

@@ -1,5 +1,38 @@
 # Remaining proof obligations — current programme
 
+## S031 checkpoint4: rank-eight repair, core22 overlap and exact continuation gates
+
+The independently admitted [rank-one overlap](results/bit-shared-h-s031-construction/rank-one-overlap/ADMISSION.md)
+reduces H263's joined fibre core30→22 while retaining315/291 full geometric/native
+source cuts,72/67 common readouts and five actual early bases. H263 has rank9;
+H642 has rank8 and needs one paid complement. Its width3/nine-port scope does
+not construct the complementary width12 component, all45 exits or a third H.
+
+The [rank-eight provider](results/bit-shared-h-s031-construction/rank-eight-provider/ADMISSION.md)
+has a literal10-field reversible extension. Its16-copy application uses47168
+replacement binary ADDs,96 INIT/MOVE/CLEAR each, and16 gap6 field exports.
+The necessary m870 return cap is34675,115 above floor34560. Separately exporting
+all losses permits total component defect at most10 at m870 (11 limiting)
+even at the floor; joint coding is not excluded by this separate-export screen.
+
+[Readout rigidity](results/bit-shared-h-s031-construction/readout-rigidity/ADMISSION.md)
+closes arbitrary binary-linear central-map changes for the old frozen30-dimensional
+fibre diagram. The [36-parameter tail gate](results/bit-shared-h-s031-construction/paid-tail-obstruction/ADMISSION.md)
+forces a distant native translation kernel at receiver22 for all permitted tail
+changes. The new rank-one diagram changes their hypotheses and remains active.
+
+[Universal E18](results/bit-shared-h-s031-review/universal-gap-feedback-port-gate/ADMISSION.md)
+and [all-slot E21](results/bit-shared-h-s031-review/involutive-feedback-extension/ADMISSION.md)
+port certificates have ranks298/302/303 and343/348/349. They cover all ordered
+donor pairs, arbitrary GF64-linear bank gauges and nonlinear H/downstream
+functions, under the stated fixed-node and full-update involution hypotheses.
+The three-term conditional source inverse is outside these gates.
+
+The [complex seven-deletion screen](results/complex-paid-export-s031-coupled-repair/ADMISSION.md)
+requires exactly two affordable grade-one replacement messages and leaves120
+endpoint pairs. A complete useful causal recoding remains open. No new complete
+kappa, supplier or foundational discharge follows from any local component.
+
 ## S031 checkpoint3: four-edit protection, frozen-anchor obstruction and paid repair
 
 The [four-edit theorem](results/bit-shared-h-s031-construction/four-edit-protection/ADMISSION.md)

@@ -1,5 +1,24 @@
 # Relevant external research and compatibility
 
+## S031 second live upstream refresh
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57; #7830,#7837,#7840
+heads remain unchanged. New open #7846, head343f7b1817e26ad3f89d2ddad313b12741d53602
+in aliromman/integer-mult-bounds, claims a uniform unconditional composition at
+unchanged .00387992803556. Its written bridges and source-specific conditions
+have received a selective review; neither the full claim nor any foundational discharge is adopted
+for the moonshot. New #7848 uses the original74 single-courier source and claims
+conditional .0036527403111; it does not replace the current constructive frontier.
+[Exact refresh metadata](sessions/2026-11-21-S031/UPSTREAM-REFRESH2.json).
+
+The [selective source-transfer intake](results/complex-paid-export-s031-coupled-repair/upstream-7846-intake/SELECTIVE-INTAKE.md)
+identifies a conditional chart-conjugation lemma: exact whole-field relative
+chart transports and equality of the entire scalar endpoint imply equality
+at every multiplicity. It does not certify a changed causal schedule, new
+precision debt, native counts or prices. The full Gaussian/CRT/asymptotic
+claim was not independently audited. Exact read source copies are retained.
+
+
 ## S031 checkpoint3: source-bound internal consequences
 
 The new complex nonlinear rigidity theorem binds the authenticated #7830 head14c74c6a67108f675ac1196a5f2415ead0920e71 and genuine paid #7833 control, not the latest advertised #7830 head. The 1289-field endpoint is independently reconstructed. Other internal recoding and new communication remain open. No new upstream merge, selected result or automatic native-realization transfer is asserted. The next targeted upstream refresh is still pending; existing #7837/#7840 evidence retains its earlier status.

@@ -1,5 +1,29 @@
 # Verification ledger
 
+## S031 checkpoint4: independently reconstructed compatible local components
+
+Seven new admissions have distinct proof and reproduction records. Worker C
+independently reconstructs the native rank-eight provider and rank-one two-H
+component from raw geometry and literal coefficients; root reviews both proofs
+and freshly reproduces both checks. The resulting source/readout counts are
+189/176 and36/34 for the single H, and315/291 and72/67 for the two-H component.
+The second component's core dimensions are22 and18, with one paid complement.
+
+Root separately reconstructs the old frozen-fibre binary readout implications
+in all six Frobenius phases; the36-parameter universal tail certificate; and
+the complex rank-six/two-message tariff and120-pair endpoint reduction using
+SCC condensation and exact target minors. The root feedback review rebuilds
+both E18/E21 systems from raw incidences, including all12 dual identities,
+complete off-kernels, six same-donor controls and12 corrupted-dual controls.
+Worker C independently verifies root's all-slot algebra and the strict
+large-versus-small involution boundary. Root also reproduces that review.
+
+The literal1474-ADD one-complement word is a symbolic application of the
+already reviewed general paid compiler. Worker C independently replays the
+word and verifies prices using a separate directed-square-root engine.
+Detailed source pins, receipts, scopes and controls are in each admission.
+No unreviewed both-tail extension or common-kernel-union claim is admitted.
+
 ## S031 checkpoint3: independently admitted evidence
 
 | Package | Independent verification | Exact receipt |
