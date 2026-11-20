@@ -1,216 +1,104 @@
-# Assumption-directed research, 20 November 2026
+# Completed assumption-directed research run — 20 November 2026
 
-Recovery checkpoint only. Unfinished claims below
-are unverified and must not be submitted upstream. Ten independently
-reviewed contributions are separately published in PUBLICATIONS.json.
-No upstream PR has been created.
+**All assignments are closed. Eleven reviewed contributions are published on
+separate fork branches.** [PUBLICATIONS.json](PUBLICATIONS.json) is the complete
+publication manifest: immutable commits, tested trees, review/replay dispositions,
+compare links and proposed PR descriptions. Proofs, source pins and reproduction
+commands remain in those packages. This recovery directory is a status and
+evidence index, not another research claim.
 
-## Exact source state
+[HISTORICAL-CHECKPOINTS.md](HISTORICAL-CHECKPOINTS.md) preserves the superseded
+rolling checkpoint. Its old active/pending statements are historical.
 
-Canonical main is e54523517d0f03e58352e647c403a5af3e525a57, last checked
-at the preceding wave transition. Selected saving remains
-363005817/100000000000 = 0.00363005817. All five selected assumptions
-remain; ASSUMPTIONS.md quotes them exactly. Current-priorities revision 8
-contains older numbers and is not the frontier authority.
+## Canonical record and the source-specific theorem
 
-Direct REST intake reached #7835. #7830 changed to
-87fbf4f7b35b0f18ab12b5767775a9a424cf0b15 at 06:34 UTC; this does not
-change frozen dependencies. An initial empty-query PR search returned
-stale results and is not used for current-state decisions.
+The latest direct upstream check at **08:40 UTC on 2026-11-20** left canonical
+main unchanged at `e54523517d0f03e58352e647c403a5af3e525a57`; see
+[UPSTREAM-FINAL.json](UPSTREAM-FINAL.json). The canonical selected record still
+has its original five assumptions and saving
+`363005817/100000000000 = 0.00363005817`.
+[ASSUMPTIONS.md](ASSUMPTIONS.md) preserves all five statements exactly.
 
-## Independently reviewed and published
+Contribution 11 separately proves the required `native_all_columns` instance
+for the exact selected #7000/#7001 construction, including phases, spectators,
+whole-job adapters and a noncircular ordinary input. Its reviewed theorem gives
+the **same kappa** under precisely the original `owned_erasure`, `compiler`,
+`precision_tape` and `analytic_recovery` contracts. This source-specific
+four-premise theorem does not edit or silently replace the canonical
+five-assumption certificate. The four remaining contracts are genuine;
+no unconditional multiplier or larger kappa is claimed.
 
-1. Gaussian parity flux: a total error-one injection with forward slack
-   below one half must change integral ideal images at an explicit linear
-   annular rate. No unrestricted optimum or positive-density claim.
-2. Three-axis exact source rank: full ordinary Stein displacement rank
-   in all 40,320 vertex orders for the distinct-prime extremal family.
-   This theorem alone gives no quantitative rounding margin.
-3. Literal CRT Word lifecycle: ordered allocation, copying, zeroing,
-   freeing and physical live/free metadata at the pinned reservation
-   boundary. The published source replays still use raw arithmetic;
-   the actual literal arithmetic join is a separate new candidate.
-4. Rational all-column C word: fixed Gaussian-rational scalars with an
-   exact common root odd grid, paid guard bits and a logical integer-grid
-   model. Physical movement, scalar scans and parking remain premises.
-5. Separated three-axis margin: explicit forward/inverse, alias and
-   rounding margins in a singular order and its reverse. It does not
-   establish an all-order margin or infer separation from distinctness.
+## Eleven completed publications
 
-Each package passed registered replay, independent mathematical and
-implementation review, remote tree equality and additions-only upstream
-comparison. Exact local/remote commits, trees and review links are in
-PUBLICATIONS.json. Full proposed PR descriptions are committed in each
-package. Short compare links avoid claiming an untested prefilled form.
+| No. | Immutable published package | Exact scope |
+| --- | --- | --- |
+| 1 | [gaussian-forward-parity-flux](https://github.com/CubeJerry/integer-mult-bounds/tree/82553cf6f369459e18d00fb4e6bda808d5f10ce1/research/gaussian-forward-parity-flux) | Linear annular parity changes required below half-unit outward slack; a restricted rounding obstruction. |
+| 2 | [three-axis-extremal-source-rank](https://github.com/CubeJerry/integer-mult-bounds/tree/a42363910dcb8c8f74b8e7b280959db1ae2cee7f/research/three-axis-extremal-source-rank) | Exact distinct-prime three-axis source rank in all 40,320 orders; rank alone gives no margin. |
+| 3 | [literal-crt-word-lifecycle](https://github.com/CubeJerry/integer-mult-bounds/tree/39c309f1aa72af12669d37ae055da0ece1ae0e7d/research/literal-crt-word-lifecycle) | Literal ordered CRT Word allocation, copying and retirement at the fixed reservation boundary. |
+| 4 | [rational-all-column-c-word](https://github.com/CubeJerry/integer-mult-bounds/tree/88dd72b4864665362230c56538d2bd2579c6beca/research/rational-all-column-c-word) | Fixed Gaussian-rational scalars and an exact common root grid for all-column C words. |
+| 5 | [separated-three-axis-source-margin](https://github.com/CubeJerry/integer-mult-bounds/tree/5f9abf0a7b702e08cc4159e407cd4d644666c77d/research/separated-three-axis-source-margin) | Forward/inverse, alias and rounding margins for a singular order and its reverse under prime separation. |
+| 6 | [complex-compiler-c-word-admission](https://github.com/CubeJerry/integer-mult-bounds/tree/e8ad467a4b8e28e9db08fb9b80a06b56f3bdb128/research/complex-compiler-c-word-admission) | Phase-preserving compiler translation to the rational C-word receiver, retaining supplier contracts. |
+| 7 | [combined-crt-literal-services](https://github.com/CubeJerry/integer-mult-bounds/tree/7a6334dceef9d03fb5b1aeec4269a2911c0112b4/research/combined-crt-literal-services) | Literal arithmetic and ordered Word lifecycle joined on the same fixed physical inventory. |
+| 8 | [narrow-three-axis-all-order-margin](https://github.com/CubeJerry/integer-mult-bounds/tree/347f1a654d90fa787a387989f536956c2508c0bf/research/narrow-three-axis-all-order-margin) | All-order quantitative margins for the explicitly narrower three-prime interval family. |
+| 9 | [grade14-weighted-route-cross-review](https://github.com/CubeJerry/integer-mult-bounds/tree/92d7dda40179e6804a0c8cadf1a1bc64dd05ebdc/research/grade14-weighted-route-cross-review) | Complete-cover carry, inverse, coupled-role and common-weight route identities; no new runtime tariff. |
+| 10 | [complete-crt-terminal-service](https://github.com/CubeJerry/integer-mult-bounds/tree/8bef1b31d974f48f7a0599c57d56d185d33bf7b0/research/complete-crt-terminal-service) | Complete literal CRT service and terminal retirement with the fixed 73-role extension. |
+| 11 | [selected-native-four-premise-specialization](https://github.com/CubeJerry/integer-mult-bounds/tree/618999111ffe5c316ccfb3bfdcee2891ede3d785/research/selected-native-four-premise-specialization) | Reviewed selected-source native discharge under four unchanged retained premises, at the same kappa. |
 
-The rational package's initial unverified unary-denominator estimate was
-corrected before publication: sum(q_i)<=L implies D<=3^(L/3), not an
-attainable L^L bound. DRAFTS contains a corrected, superseded recovery
-copy; the complete immutable published package is authoritative.
+Each package's exact scope and limitations control its use. Finite rank and
+margin results do not supply complete analytic recovery; literal CRT services
+do not supply every higher controller or blank grant; a grammar translation
+does not prove the retained compiler theorem. The completed link audits
+[REVIEW-LINKS-1-10.json](REVIEW-LINKS-1-10.json) and
+[REVIEW-LINK-11.json](REVIEW-LINK-11.json) cover all eleven records.
 
-6. Complex compiler admission: explicit phase-preserving translation of the
-   selected #7828 complex construction into the published rational receiver.
-   It preserves N,W,P and charges private CLEARs. Source native, compiler and
-   physical contracts remain premises. Independent receiver check and full
-   registered replay passed; the remote branch/tree/compare are checked.
+## Final native replay and publication facts
 
-7. Literal arithmetic/lifecycle union: all 1,435,098 fixed locations and
-   70 roles compose at the same eager CRT Entry. A complete current producer
-   runs with both old providers blocked; independent global inverse-relocation
-   and raw-cell checks pass. Published at 7a6334dceef9d03fb5b1aeec4269a2911c0112b4.
-8. Narrow three-axis all-order margin: complete 3,360-class exact certificate,
-   independent coefficient reconstruction and analytic source/alias/rounding
-   review pass. All 40,320 orders are covered under the stated stronger prime
-   intervals, p>=2^20 and t>=p^72. Published at
-   347f1a654d90fa787a387989f536956c2508c0bf.
+The author and a separate root execution each passed all **seven registered
+commands** at frozen local commit
+`4151b619a299713c1785ece0edeb5b56e0eb62d8`.
+[NATIVE-FINAL-GATE.json](NATIVE-FINAL-GATE.json) records root's completed
+08:41:00–08:42:51 UTC run, clean worktree, and strict source-history,
+committed-byte and executable-mode checks.
+[NATIVE-AUTHOR-FREEZE.json](NATIVE-AUTHOR-FREEZE.json) binds 101 package files,
+60 authenticated source extracts, deterministic read-only predicates,
+normal/optimized execution and the proof digest.
 
-## Latest wave transition
+Remote commit `618999111ffe5c316ccfb3bfdcee2891ede3d785` has exactly the
+fully tested repository tree `7485bf0f4579eae255395aa6afe1bddd7a7dcaf0`,
+package tree `7714dd2cce86a1b6173cf42e7b423fa86f0b636e`, and source-retention
+parent `092fa626df40c51ade0dbc001f1743bbbea14206`.
+The canonical merge base, two-commit ancestry, remote ref and 101-file
+additions-only comparison were checked; see
+[NATIVE-PUBLICATION.json](NATIVE-PUBLICATION.json).
+[NATIVE-REMOTE-HISTORY.json](NATIVE-REMOTE-HISTORY.json) records the successful
+strict history/mode gate at that actual remote commit. Complementary binary,
+complex and root mathematical reviews, fresh complete catalogue execution and
+source bindings support the conditional theorem; these are not human peer or
+proof-kernel acceptance.
 
-Canonical main was rechecked at 07:24 UTC and is unchanged. New PR #7837
-(aliromman, a7f99a5f5f919dd3ffb2987f90c1e7d6527feb1e) claims removal of
-native_all_columns for the grade-14 application. This is a pending proposal,
-not an update to the selected certificate. Its exact PROOF, ROUTES, APPLICATION,
-VALIDATION, ORIGINS and VERIFY files are in reference/pr7837. Shared ref
-refs/research/pr7837 is fetched. A fresh independent binary composition audit
-is active in run/pr7837-binary-independent-audit; root handles complementary
-complex/outer assessment. No complete acceptance of this new PR is claimed.
+## Priority, scoped reuse and remaining questions
 
-The all-order Gaussian candidate now has a complete separate reconstruction
-of all 3,360 leading polynomials and lower-coefficient vanishing using
-Kronecker/Berkowitz arithmetic. Its exact mass, gradient, center and coverage
-claims agree. Root analytic review also accepts the explicit source, inverse,
-alias and precision inequalities. The eight-command final replay passed and the exact reviewed tree is now
-published; see contribution 8 and PUBLICATIONS.json.
+Ali Romman's #7837 at `a7f99a5f5f919dd3ffb2987f90c1e7d6527feb1e` has
+priority for the general native realization and cold-completion mechanism.
+Contribution 11 supplies the exact selected-source transfer and unchanged
+outer application; it does not adopt the newer grade-14 price.
+The final intake read #7838 by Clear1nsight, head
+`cd9ce5a555977b469bd848199bc36025bd82fdcb`. Its carryless middle-product-bit
+ranks/channel-width scope does not overlap the selected-native specialization.
 
-DRAFTS/fixed-divisor-binding preserves the #6968 reuse audit, exact source
-pins and 120-call receipt. It is a recovery artifact, not a separately
-accepted new provider. No duplicate arithmetic graph is needed.
+`DRAFTS/fixed-divisor-binding` remains a **scoped reuse audit of #6968**,
+including its exact 120-call check. It is not a twelfth contribution, a new
+arithmetic provider, or a completed binding of every numerical format to the
+physical coded-field ABI.
 
-## Rolling allocation and next actions
+ASSUMPTIONS.md records concrete future questions for the four remaining
+contracts. They are unassigned next questions; no further research or review
+is active in this run. The three superseded draft STATUS files point to their
+complete published packages.
 
-| Worker | Wave/track | Current exact scope | State and next action |
-|---|---|---|---|
-| rounding | 1/65, 2/75, 3/75 | Parity theorem; independent rational-grid and lifecycle reviews | Complete and recorded in published packages |
-| rounding | 4/85 | Join literal #7596 arithmetic with published lifecycle | workers/combined_crt, research/combined-crt-literal-services-20261120. The 1,435,098-state union and first producer oracle pass; a closure-order issue was caught. Integration checks and review pending |
-| crt_lifecycle | 1/85 | Exact CRT lifecycle | Published and frozen |
-| crt_lifecycle | 2/55 | Selected #7828 compiler to rational C-word grammar | workers/compiler_bridge, research/complex-compiler-c-word-admission-20261120. Published at e8ad467a4b8e28e9db08fb9b80a06b56f3bdb128; see PUBLICATIONS.json |
-| crt_lifecycle | 3/85 | Literal fixed-divisor overlap audit | Complete in run/rational-literal-service-audit: reuse canonical #6968, 120 exact calls; common numerical format to physical coded-field ABI remains an explicit boundary |
-| crt_lifecycle | 4/75 | Independent all-order Gaussian classification review | Complete: full exact reconstruction passed; current wave audits the new #7837 binary composition seam |
-| gaussian_source | 1/45, 2/45 | Exact all-order source rank; two-order separated margin | Published and frozen |
-| gaussian_source | 3/45 | All-order quantitative margin in narrow source intervals | workers/gaussian_all_orders, research/all-order-separated-gaussian-margin-20261120. Candidate at p>=2^20, t>=p^72; independent finite algebra and analytic reviews passed; packaging/final replay underway |
-| root | 2/55 | Rational common-grid construction | Published and frozen |
-| root | 3/75 | Compiler interface, all-order analytic proof, integration and publication | Independently check critical implications and publish only complete scoped results |
-
-The all-order Gaussian candidate narrows prime placement beyond the
-published two-order theorem. Pairwise separated centers can annihilate
-its leading Taylor coefficient: this is a proof-method obstruction, not
-a counterexample to the actual physical source theorem.
-
-## Frozen dependencies and nonoverlap
-
-- #7596: ee6005fe241ab947e511fe9f6d86f5f4fa58478b, exact CRT binder.
-- #7598: 0a6315b71a47b37a4faa2a4f555c5bc4e9e87811, source rank predecessor.
-- #7599: 702c7616667c5f4e583eb73687944d148b7a1ccf, literal Gaussian source.
-- #7828: 03b572b3b9ab72c6ba67762e85e1630cda1daad5, finite rank compiler.
-- #7834: 4f0c67d5bb41d4af5501dcd40b3b388b35e0ff02, fine-prime runtime.
-- #7835: 43007c979859fa84ccc3a3509ccacc9620d181fa, pending conditional
-  coefficient; not selected or admitted by this run.
-- Separate moonshot snapshot 2355ab333aa698637c07bddc8c526f5efcded029
-  already covers fine-prime .005 compatibility. This run did not alter
-  that branch or republish its result.
-
-No result here is an unconditional multiplication theorem or a new kappa.
-Initial blank grants, higher callers, full native closure, physical tape
-costs and complete analytic recovery remain explicit obligations.
-
-## Restart
-
-Read PUBLICATIONS.json and do not repeat published work. Refresh only
-canonical/ref/PR deltas. Resume each isolated active worktree; do not reset
-other worker branches. Finish independent reviews before publication.
-The shared source/reference store is read-only to researchers. Fork main,
-the selected certificate and upstream PR submission remain untouched.
+No upstream PR was submitted by this run. Canonical main, fork main, selected
+certificates and the separate moonshot branch were not edited. Later work
+should begin with an upstream delta check and PUBLICATIONS.json rather than
+repeat these completed assignments.
 
 Prepared for Jerry Chen / @CubeJerry with substantial OpenAI assistance.
-
-## Current active wave after eight publications
-
-- Gaussian worker: selected-source specialization audit in
-  run/selected-native-four-premise-audit. Determine whether the new universal
-  machinery and an elementary preparatory ordinary stage actually discharge
-  native_all_columns for selected #7000, without adding an unreviewed premise.
-  The candidate cold envelope .0038371196808 exceeds the selected .0034 seed.
-  This numerical observation alone is not a premise-removal proof.
-- CRT worker: package the independently checked #7837 binary composition seam
-  in workers/native_routes_review, branch
-  research/grade14-weighted-route-cross-review-20261120. Its complete carry
-  cocycle, coupled-role matching, high-fibre return and joint weight controls
-  passed. Root requested the sharper route-invariance condition for common
-  weights, with an invariant fresh-dependent positive control. Full #7837
-  application acceptance remains outside the review.
-- Rounding worker: run/crt-entry-close-lowering. The unchanged 70-role union
-  cannot write the three additional record owners. Investigate an explicit
-  fixed 73-role extension for complete terminal close, with all histories
-  and the same final-query ordering. No full higher controller is claimed.
-- Root: finish independent reviews and publication of complete scoped work,
-  preserve exact selected assumptions and refresh only upstream deltas.
-
-The first eight remote refs and additions-only comparisons are checked.
-No upstream PR was submitted, no selected certificate or fork main changed,
-and no new complete kappa or unconditional theorem has been established.
-
-## Latest authoritative update: nine publications
-
-The earlier allocation rows are historical. Main and #7837 are unchanged on
-the latest direct REST refresh. Contribution 9 is the independently reviewed
-grade-14 weighted route lemma, published at
-92d7dda40179e6804a0c8cadf1a1bc64dd05ebdc. Both registered commands pass;
-48 additions, exact tree, remote ref and upstream compare are checked.
-Its exact route-invariance condition allows nonconstant fresh weights as an
-algebraic refinement; it adds no descriptor or runtime tariff theorem.
-
-Current allocation:
-- gaussian_source: run/selected-native-four-premise-audit. A detailed candidate
-  selected-source reduction is now written in AUDIT.md and fresh source
-  predicates pass. Root independent review and packaging remain. It is
-  UNVERIFIED as a complete four-premise theorem until that review finishes.
-- rounding: workers/crt_terminal, branch
-  research/complete-crt-terminal-service-20261120. Integrate the 2,949-state
-  terminal suffix with the unchanged 1,435,098-state prefix and execute the
-  complete producer/consumer with old services blocked. Fixed roles grow from
-  70 to 73, addressing three already existing record owners; no new backing.
-- crt_lifecycle: run/crt-terminal-independent-review, a separate raw-array
-  interpreter, all-width opcode formulas and physical-history controls.
-- root: mathematical review and publication of these two candidates; no new
-  speculative assignment. All five selected certificate assumptions remain
-  unchanged until an independently accepted source-specific reduction.
-
-Terminal price under the stated admission is 7(P+n70+n71+n72)+2928. The
-unique free-stack invariant, supplied windows and clean inactive histories
-remain premises. Root's cold selected bootstrap is only a recurrence
-implication: 0 -> .0034 -> .0038507 -> .00385248, with actual covered
-C=.0038525298 and strict exact margins; the entire native binding is separate.
-
-Updated 2026-11-20 08:08:29 UTC
-
-## Latest authoritative update: ten publications
-
-Contribution 10, the complete CRT terminal integration, is published at
-8bef1b31d974f48f7a0599c57d56d185d33bf7b0. All six registered commands pass,
-including both complete 73-role invocations and both independent raw-array
-replays. The exact remote tree, 46 additions-only compare and ref are checked.
-It executes 2,339 literal calls / 3,120,094 instructions and separately
-records 2,050 retained native actions, with fixed 76-owner histories.
-Higher controller, grants and changing-Entry work remain explicit.
-
-Only the selected four-premise candidate remains active. Root's full
-3,057-map / 104-boundary complex catalogue replay passed with byte-identical
-canonical logs, including phase fault controls. CORE-REVIEW.md records
-independent good-leaf, tensor/phase, recurrence and fixed-cost checks.
-CRT peer now challenges binary/stock/bootstrap/premise closure; rounding
-peer independently audits the complex 1125/common-grid/phase interface.
-Gaussian author packages the exact selected-source theorem on an isolated
-branch. Final acceptance and publication wait for both peer dispositions.
-No additional speculative search is active.
-
-Updated 2026-11-20T08:20:48.790018+00:00

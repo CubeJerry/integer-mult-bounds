@@ -1,0 +1,37 @@
+{
+  "started_at_utc": "2026-11-20T08:41:00.734985+00:00",
+  "finished_at_utc": "2026-11-20T08:42:51.421354+00:00",
+  "local_commit": "4151b619a299713c1785ece0edeb5b56e0eb62d8",
+  "tested_tree": "7485bf0f4579eae255395aa6afe1bddd7a7dcaf0",
+  "final_head": "4151b619a299713c1785ece0edeb5b56e0eb62d8",
+  "worktree_clean": true,
+  "steps": [
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "scripts/check_research_commit.py",
+        "--package",
+        "research/selected-native-four-premise-specialization",
+        "--check-source-history",
+        "--check-modes"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.264
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "scripts/research_package.py",
+        "--package",
+        "research/selected-native-four-premise-specialization"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 110.361
+    }
+  ],
+  "elapsed_seconds": 110.69,
+  "log_sha256": "15d0a40c2baa56f14a6e73a906e1f37a8238f272c2a54a7c8a2c9525c75cebfe",
+  "pass": true
+}
