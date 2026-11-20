@@ -264,3 +264,15 @@ Proved: the abstract nine-bank optimum on the true complete native side-informat
 ## S029 checkpoint 8
 
 [The individual-donor loss theorem](results/bit-native-petersen-converse/author/HORN-PROOF.md) removes initial nonsingularity from the exact linear and separable-sum minimum classification. The [quantified physical boundaries](results/bit-native-prefix-suffix-stability/ADMISSION.md) show why fixing one end of the native word is restrictive. Among nine tested true source/H variants, the least changes under the documented saturated-separator and free nonlinear recoding hypotheses are 109 of 110 donor stars for S028, or 110 of 111 for the canonical target. A common earlier nonlinear recoding remains open. On the rational side an actual [995-move full endpoint](results/complex-native-contested-restoration/ADMISSION.md) misses its moment bill.
+
+
+## S030 checkpoint 1
+
+| Obligation or result | Status and exact scope | Evidence and next step |
+| --- | --- | --- |
+| Retain many ordinary RS source information systems for the exact S028 target | Disproved on the fixed proper routes: at least 91 of 99 must change, even after separate arbitrary bijections and downstream retuning | [Admission](results/bit-rs-source-fibre-census/ADMISSION.md); all 2,281 indexed pair witnesses separately checked |
+| Extend the previous 31-centre source to the exact target | Open; at least 22 further ordinary sources must change | Exact remaining-root maximum is seven among 29; [review](results/bit-rs-source-fibre-census/review-large-kappa/REVIEW.md) |
+| Obtain κ≥.0043 by retuning the present binary caller alone | Disproved within the granted all-arm moment contract | [Price theorem](results/kappa-significant-gain-screen/ADMISSION.md); changed paid work or productive identities required |
+| Obtain a complete material gain by improving only BIT | Unresolved in general; unchanged full rational invoice fails above its .00388013644475 ceiling | Independently improve the complex word or caller and prove complete supplier compatibility |
+| Delete one proper donor to simplify a .0043 balanced source | Disproved under the same non-return and broadcast tariff | All 6,470 proper directions remain necessary; actual return cap 36,875 at b=3,840,m=870 |
+| Changed all-donor source and coupled H/D/K/facet transport | Open; 40/44-centre source candidates undergoing admission | Canonical local interfaces, not the S028 perturbation; compute the same complete fitting and return |

@@ -1,0 +1,13 @@
+# Independent review of the significant-gain screen
+
+The root reviewer separately checked the algebraic arguments and recomputed all twelve displayed threshold brackets, the binary and complex raw crossings, the global arm-optimizer signs, and the strict integer return caps at .0043 and .005. The independent checker imports no author price code. It bounds logarithms by a rational positive series and powers by an outward-rounded alternating exponential, rather than the author's repeated-square-root method. The author replay is a separate reproduction, not the independent check.
+
+For the all-arm theorem, W(a+1)-W(a) is the sum of two fixed-length increments of a strictly concave power. Thus the successive differences decrease, and J(a+1)-J(a)=(a+1) times the second difference is negative. The signs at 8 and 9 select the global positive-integer maximum. After division by 8^t, all native terms increase with t; every wrapper difference increases because x^t log x is increasing for x >= 7/8 and 0 <= t <= 1. Hence negativity at the upper bracket propagates to every larger κ < 1. No extrapolation of a finite arm scan is needed.
+
+The finite-m return formula was independently expanded from the original sharing invoice. Its credit G_old/(36(m-1)) must be retained: G_old(1)=1506 is positive, so the correct all-finite-m zero-saving ceiling is 55/3, not 629/48. At the relevant positive targets the credit is negative. This sign change is handled correctly. The missing-donor thresholds follow only under that same non-return tariff and broadcast/return interface.
+
+The separate complete rational histogram has negative derivative throughout [0,1/32], using the explicit signed-term interval bound. Its fixed-word obstruction does not exclude a different rational caller or physical word. Positive mixtures and products preserve moment failure; changed productive identities, shared work or different interfaces require fresh comparison and are not excluded.
+
+The bank-480 projection and bank-3840 two-star word are normalized by their own genuine paid widths. Their inherited rank lower bounds are not fresh replays of the large physical matrices. The package is a new exact price/ceiling result using those admitted inputs, not a new supplier or exponent. All five foundations and the global construction remain open.
+
+Accepted scope: the quantified fixed-source ceiling, the complete finite-m return gates, and the stated construction requirements. Credit the package author, the pinned native/caller contributors, @CubeJerry and OpenAI assistance. This is a separate model-assisted mathematical/code review, not human or formal-kernel acceptance.

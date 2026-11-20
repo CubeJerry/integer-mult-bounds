@@ -558,3 +558,10 @@ At the [second-hour intake](sessions/2026-11-20-S029/UPSTREAM-HOUR2.json), canon
 ## S029 checkpoint 8
 
 The native Petersen converse adapts the known isolated Petersen broadcast rate five of [Blasiak, Kleinberg and Lubetzky](https://arxiv.org/abs/1004.1379). The new native embedding, 54-term asymmetric inequality and three implications for each of 6,470 directed native donors give a quantitative arc bound. The [#7830/#7833 package](results/complex-native-contested-restoration/ADMISSION.md) independently distinguishes the live upstream fixed chart-282 results from its 71,411 same-receiver portfolio tests and signed rail construction.
+
+
+## S030 targeted refresh and significant-gain assessment
+
+At intake and the 06:53 UTC pre-checkpoint refresh, canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. The selected complete conditional value remains .00363005817. Open #7835 at43007c979859fa84ccc3a3509ccacc9620d181fa claims .00387992802601; it is a comparator, not an accepted new theorem. The source pins retain #7830's full rational invoice at14c74c6a67108f675ac1196a5f2415ead0920e71 and the current #7786 binary source.
+
+[Fresh exact price proofs](results/kappa-significant-gain-screen/ADMISSION.md) establish that these unchanged invoices cannot reach a material .0043 intermediate target by cutoff refinement. The binary all-arm optimum has ceiling below .003879928046155; the separate fixed rational caller has ceiling below .00388013644475. The mixed ordinary/product interfaces in #7826/#7828 may still help after a changed physical source is supplied. No compatibility or acceptance is inferred from an open PR.

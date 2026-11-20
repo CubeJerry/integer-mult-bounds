@@ -1,5 +1,15 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+## S030 checkpoint 1: source information and significant-saving requirements
+
+[Live session checkpoint](sessions/2026-11-20-S030/LIVE-CHECKPOINT.md). **No new complete κ.** The selected complete conditional saving remains .00363005817; all five foundations and both strict suppliers remain open.
+
+The [ordinary-source theorem](results/bit-rs-source-fibre-census/ADMISSION.md) requires at least 91 of 99 current ordinary RS source information systems to change for the exact S028 target. Arbitrary separate nonlinear bank bijections and arbitrary downstream retuning cannot evade the actual tight-cut witnesses. The previous 31-centre source needs at least 22 further ordinary changes. This directs work toward a globally changed source.
+
+The [significant-gain screen](results/kappa-significant-gain-screen/ADMISSION.md) proves an all-positive-integer-arm ceiling below .003879928046155 for the unchanged binary invoice. The fixed rational invoice separately stops below .00388013644475. At .0043 the balanced source permits at most 36,875 full return fields at b=3,840 and m=870 and still requires every directed native donor. At .005 the cap remains 34,688. Actual paid source changes are needed for a material intermediate gain.
+
+A canonical 40-centre source replaces all 100 ordinary donor stars in one candidate and has passed an independent source reconstruction. An extension covering all 111 donors is under review. The next construction wave seeks connected centre-overlap compatibility, followed by shared D/K/facet words and the measured complete return. These canonical local interfaces must not be conflated with the S028 perturbed target. Neither source candidate is admitted by this checkpoint.
+
 [Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md). The paid two-star construction still requires at least 182,875 return symbols against the target budget of 34,688.
 
 ## Latest cumulative progress: S026 checkpoint 1

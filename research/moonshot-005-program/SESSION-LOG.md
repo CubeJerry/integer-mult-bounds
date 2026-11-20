@@ -2787,3 +2787,14 @@ One priced native word realizes every one of the 123 complete nonflat targets an
 ## S029 handoff
 
 [Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md) records the verified three-hour run, starting commit, target and next construction.
+
+
+## 2026-11-20-S030 — checkpoint 1 (session continuing)
+
+Started approximately 06:22 UTC from `dc063045868f2072e0be1ef9f3fbb4ca3d43c8f2`, with a five-hour requested working window. Canonical main remains `e54523517d0f03e58352e647c403a5af3e525a57`; the open .00387992802601 comparator is not selected. The first checkpoint preserves the start state in history/2026-11-20-S030-start.
+
+The new ordinary-source theorem covers all 2,281 nonorthogonal pairs using the current node assignment and actual mixed-phase cut capacities. Its partition-join proof allows separate arbitrary nonlinear source bijections. At least 91 of 99 ordinary sources must change for the exact target. Independent review reconstructs 37,296 physical cuts and strengthens the previous 31-centre source's remaining requirement to 22 changes.
+
+The secondary search established a rigorous all-arm ceiling for the current binary profile and a separate ceiling for the fixed rational caller. It prices the actual per-native changes needed for .0043/.005 and the full balanced-return caps, retaining finite-m credit and true bank widths. This rules out cutoff-only improvements of material size. Actual binary contractions and complex interior changes remain under investigation.
+
+Worker A constructed a new source covering all 100 ordinary donors at 40 centres, then a candidate covering all 111 donors at 44 centres. The former passed root's separate source reconstruction; admission of these packages and actual connected-middle work remain pending. The next wave studies centre overlaps with distinct shared donors. Four relocated proof/reviewer jobs reproduce the two admissions. No new complete κ or foundational discharge. The resulting checkpoint SHA is externally confirmed after publication; the session remains active.

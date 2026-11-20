@@ -1,0 +1,50 @@
+{
+  "independent_review": "Separate proof/code reviews in the two admissions; these executions are reproduction, not additional independent reviews.",
+  "jobs": [
+    {
+      "expected": "bit-rs-source-fibre-census/author/output/CENSUS.json",
+      "expected_sha256": "8bea2c57f35c76fe0cf87b098328b856b621f43ab72c545c3c58be187e858419",
+      "matched": true,
+      "name": "source-author",
+      "normalized_metadata": [
+        "elapsed wall-clock runtime only"
+      ],
+      "optimized": true,
+      "script": "bit-rs-source-fibre-census/author/check.py",
+      "script_sha256": "227cd76e3bec14e2c30db134cb670f0419037e3e740e966bae49e892a154ebc9"
+    },
+    {
+      "expected": "bit-rs-source-fibre-census/review-large-kappa/RESULT.json",
+      "expected_sha256": "90edc4023d98b4282ce72450d0bd1832414b9c9ffa30201c0dd08ddde77fc1c0",
+      "matched": true,
+      "name": "source-review",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-rs-source-fibre-census/review-large-kappa/check.py",
+      "script_sha256": "2408c2321a112d6aff8d2ca9d0a54ea235572cf54cf9da6886cd9c60f8cfc489"
+    },
+    {
+      "expected": "kappa-significant-gain-screen/RESULT.json",
+      "expected_sha256": "6b30b04b5c4b03e58570cceb6d9e58f88748cbfd904aa6f54327a582dddce8e4",
+      "matched": true,
+      "name": "price-author",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "kappa-significant-gain-screen/verify.py",
+      "script_sha256": "ca457ec730f641e56cab2c8fb30aea87bd0a16728d4ce52963febb2b15be9e1f"
+    },
+    {
+      "expected": "kappa-significant-gain-screen/root-review/output/RESULT.json",
+      "expected_sha256": "0c456fe41b04935cd8b66100bc5b871086438968eba1e5c0c1bfac51813b1700",
+      "matched": true,
+      "name": "price-review",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "kappa-significant-gain-screen/root-review/check.py",
+      "script_sha256": "a49a5e30850010e6cab2811093c4e716b554272da4e0755007df1e946103759d"
+    }
+  ],
+  "new_complete_kappa": false,
+  "parent_baseline": "dc063045868f2072e0be1ef9f3fbb4ca3d43c8f2",
+  "status": "PASS_S030_CHECKPOINT1_REPRODUCTION"
+}

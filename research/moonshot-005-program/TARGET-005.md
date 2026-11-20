@@ -1,5 +1,13 @@
 # Exact target κ=1/200 — current programme
 
+## S030: material intermediate target and source-change gate
+
+The [reviewed significant-gain calculation](results/kappa-significant-gain-screen/ADMISSION.md) fixes .0043 as a secondary construction screen. The unchanged binary invoice, even with every positive paired-caller arm count, has ceiling below .003879928046155. A real net gain exceeding 4.459941333825857 per native is required at .0043; the separate fixed complex caller needs more than 8.90159173920848 per native. These are necessary changes under the respective invoices, not complete supplier thresholds.
+
+For the balanced tariff at actual bank 3,840 and m=870, q≤36,875 is necessary for .0043; q≤34,688 remains necessary for .005. Even one omitted proper donor forces a limiting saving below .00422258539286 under that same tariff. Thus the secondary target still requires all 6,470 directed donors.
+
+The [ordinary-source census](results/bit-rs-source-fibre-census/ADMISSION.md) requires at least 91 of 99 ordinary source information systems to change for the exact S028 target. The actual previous 31-centre source needs at least 22 further changes. This gate permits arbitrary separate nonlinear source bank bijections and downstream processing, but holds the proper paths and informative capacities fixed. It does not exclude every near-minimum fitting. Full shared source/middle/facet compatibility and the measured whole return remain the construction objective.
+
 [Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md). The paid two-star construction still requires at least 182,875 return symbols against the target budget of 34,688.
 
 ## S026 checkpoint 1: exact correction budget

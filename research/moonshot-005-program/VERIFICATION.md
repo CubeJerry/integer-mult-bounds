@@ -478,3 +478,10 @@ Eleven relocated jobs reproduced all substantive H263, K, Reed–Solomon/H/F, ga
 ## S029 checkpoint 8
 
 [Checkpoint 8](sessions/2026-11-20-S029/checkpoint8_replay.py) checks the asymmetric entropy dual independently, all 19,410 native implications, the integer mixed repair lower bound, the priced four-facet word and the full rational rail. The [physical replay](results/bit-native-physical-replay/author/REPLAY.md) independently extracts all 6,470 original-owner coefficient blocks for the named words. [Both execution sets](sessions/2026-11-20-S029/CHECKPOINT6-HEAVY-VALIDATION.json) together regenerated all eight original 111/55/19 rank streams, with seven of eight available separately in each run. The complete #7830 portfolio was also separately replayed with --full.
+
+
+## S030 checkpoint 1: global source census and all-arm price gates
+
+The independent source review imports no author code, reconstructs the true 106,560 routes and 37,296 receiver/H cuts, and verifies all 2,281 inverse-fibre witnesses with a separate field and synthetic division. It proves the nonlinear partition argument and checks exact remaining-source orthogonality maxima. The independent price review uses rational log/alternating-exponential enclosures, distinct from the author's repeated-square-root engine, and separately checks all-arm concavity/monotonicity and twelve threshold brackets.
+
+[Four relocated checks](sessions/2026-11-20-S030/checkpoint1_replay.py) reproduce [all substantive receipts](sessions/2026-11-20-S030/CHECKPOINT1-VALIDATION.json). Only the author's elapsed runtime metadata is ignored; all source fields, witness data, prices and independent outputs agree. The source author also executes under Python optimization with explicit proof checks. Reproduction is distinguished from the separate mathematical/code reviews. No large predecessor return matrix was freshly regenerated for the price corollary, and no new complete κ is admitted.
