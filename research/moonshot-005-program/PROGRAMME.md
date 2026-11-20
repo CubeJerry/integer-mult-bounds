@@ -1,5 +1,17 @@
 # Persistent κ=0.005 research programme
 
+## S030 checkpoint 3: structured source redesign
+
+**No new complete κ.** Selected conditional κ remains .00363005817; all five foundations and both strict suppliers remain open. The next construction uses native geometric evaluation nodes. Its scalar identities are under independent review and its coupled H word is not yet built.
+
+The [connected source](results/bit-coupled-native-three-chain-source/ADMISSION.md) supplies 101 native inverse fibres at three centres on seven shared original banks. A hybrid changes four quotient kernels while preserving those fibres. Their complete source invoices are 592,316,904 and 584,743,880 ADD, respectively, with 2,517,120 INIT/CLEAR each and no extra source MOVE. Retaining the hybrid's old fibres excludes all five candidate closing centres; a continuation must move some old fibres.
+
+The [array-anchor criterion](results/bit-array-anchor-degeneracy/ADMISSION.md) shows why source information changes alone were insufficient. Thirty saturated quotient propagations around a native triangle obstruct one frozen array bank even when every neighbour may change arbitrarily. Every one of 99 eligible donors must satisfy a nontrivial exceptional polynomial condition. Separate applications obstruct six banks in the all 111 word, all seven in the general connected word and four in the hybrid. Their positive local source theorems remain valid, but their frozen full words cannot complete the exact S028 target. The exact rank 9b classification also excludes tree-invertible minimum fittings with these sources, without a bound exceeding 34688.
+
+A geometric-node lead avoids the sufficient saturation test: identify each donor's 28 planes with the zeros of a^9+a^18+a^36 in GF64. Author calculations give propagation span5 instead of 15 at every recorded triangle, even using all valid native receivers. The node polynomial is z^28+z^10+z. This structured exceptional source is the active direction for coupled widths and shared H construction; its scalar census alone supplies no physical supplier.
+
+The [full complex source cut](results/complex-native-source-cut/ADMISSION.md) proves that every subset of 181 proposed same-source funding transfers leaves only 911 exports for 912 independent originals. Arbitrary whole-source linear recoding and retiming do not cure that deficit. A genuinely new export or other changed route is needed, followed by complete target restoration and price.
+
 ## S030 checkpoint 2: all-source construction and stronger global requirements
 
 [Current active session](sessions/2026-11-20-S030/LIVE-CHECKPOINT.md). **No new complete κ.** The selected conditional value remains .00363005817; all five foundations and both strict suppliers remain open.

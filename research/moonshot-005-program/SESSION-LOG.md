@@ -2808,3 +2808,13 @@ The single-anchor triangle theorem strengthens 91 ordinary source changes to 99 
 The complex cut requires 90/146 directional fields against 8/64 old crossings, forcing164 additional MOVEs despite arbitrary recoding and retiming. Exact price rejects fixed routes at .0043/.005 and optimistically requires at least 12/13 changed old occurrences. Changed-route source repairs continue.
 
 At 07:37:24 UTC the five-hour session remained active. The next wave pursues connected sources, structured quotient slack and global shared-middle continuation; the complex worker broadens actual source/route repair. No new complete κ or foundational discharge. The resulting commit is externally verified after publication.
+
+## S030 checkpoint 3 — 20 November 2026, active session
+
+Confirmed parent ef071187ffe94f1469b6401c8d217c2c3c175557. The connected three-centre source and hybrid kernel changes passed separate reconstruction and full invoice review. A native-only rank proof excludes all five closing centres while the 101 old inverse-fibre subspaces and native cut ranks remain fixed, even with whole-bank binary mixing.
+
+The array-anchor criterion allows arbitrary gauged array sources and arbitrary separated neighbours. Its99 nonzero necessary polynomials, unbounded-width tensor proof and ambient codimension 99 statement have independent review. Seventeen applications obstruct specific changed banks in three source words. The exact9b corollary uses the admitted221-tree-block classification and makes no bound above34688.
+
+The complex four-space theorem compares912 required original dimensions with 911 exports after the surgery. All subsets of 181 eligible retargets preserve the deficit. The independently reconstructed genuine fifth-channel word is exact on all 1,289 originals. Changed routes remain open.
+
+At 08:10:41 UTC the session was active. A structured geometric-node source now gives author propagation rank 5 at all 99 triangles; independent field/geometry review and coupled H construction are the next wave. Five fresh root reviewer executions are collected in the checkpoint receipt. No new complete κ or foundational discharge.

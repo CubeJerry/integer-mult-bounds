@@ -1,5 +1,13 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+## S030 checkpoint 3 addition
+
+**No new κ; ongoing programme.** The cumulative contribution now contains connected sources with complete source invoices, genuine quotient-kernel freedom, five scoped fixed-fibre closure obstructions, an arbitrary-array anchor criterion and seventeen applications to changed source words. Its99 nonzero necessary donor polynomials are proved for all positive widths; ambient codimension is separated from finite-field probability and physical cost.
+
+A separate complex source cut proves that every subset of 181 same-source funding transfers leaves911 exports for 912 independent originals. Independent verification reconstructs all 1,289 rational columns, both surgeries and the genuine fifth-channel positive control.
+
+[Five fresh root reproductions](sessions/2026-11-20-S030/CHECKPOINT3-VALIDATION.json) match the reviewed evidence. The checkpoint collector combines those already executed jobs; its default portable replay executes all five anew. Local source positives and invoices remain valid despite global extension obstructions. A geometric-node source lead is under independent review and physical construction. Credit @CubeJerry and the cited predecessors, with substantial OpenAI assistance and all five foundations retained.
+
 ## S030 checkpoint 2 addition
 
 **No new κ. This remains an ongoing programme, not a complete supplier PR.** The cumulative contribution adds an all 111-donor source at 44 designated centres, a single-RS-anchor obstruction requiring all 99 eligible ordinary information systems to change for the exact S028 target, and a complex static route cut requiring164 additional fields when the 803 old private routes are retained.

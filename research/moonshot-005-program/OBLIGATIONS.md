@@ -1,5 +1,17 @@
 # Remaining proof obligations — current programme
 
+## S030 checkpoint 3: nearest constructive obligation
+
+| Obligation | Status and evidence | Next requirement |
+|---|---|---|
+| Connected source on distinct donor overlaps | [General and hybrid three-centre words reviewed](results/bit-coupled-native-three-chain-source/ADMISSION.md) | Preserve real early ranks while joining more centres |
+| Close another centre with frozen hybrid fibres | All five native candidates excluded, including whole-bank binary mixing | Some existing inverse-fibre subspaces must change |
+| Extend frozen changed source arrays globally | [Seventeen separate anchor applications reviewed](results/bit-array-anchor-degeneracy/ADMISSION.md) | Redesign the six all 111, seven general-chain or four hybrid anchor banks, as applicable |
+| Build structured source arrays outside the saturated regime | Author geometric-node rank 5 census at all 99 triangles; independent review pending | Coupled multiplicities 3/12 or free H controls, with actual port intersections and early owners |
+| Fund complex surgery from the same 181 exports | [One export missing for every subset](results/complex-native-source-cut/ADMISSION.md) | Change another route or pay a new export, then restore every target within the full price |
+
+The global source-middle-return obligation remains open. The immediate constructive test is a coupled geometric-node H interface. Extending a frozen source already excluded by the new criterion is not the active plan.
+
 ## S030 checkpoint 2: reviewed gates and next construction
 
 | Obligation | Reviewed progress | Remaining requirement |

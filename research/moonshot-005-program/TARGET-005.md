@@ -1,5 +1,13 @@
 # Exact target κ=1/200 — current programme
 
+## S030 checkpoint 3: compatibility beyond information change
+
+The [array-anchor theorem](results/bit-array-anchor-degeneracy/ADMISSION.md) applies to changed sources as well as the pinned RS source. The frozen all 111, connected and hybrid words fail exact S028 extension at the listed anchors. They also fail exact rank 9b tree-invertible native fitting under the retained source routes. This strict qualitative gap does not exclude rank 34688 at bank3840 for every alternative target or source.
+
+Geometric elliptic-quadric nodes give author propagation rank 5, escaping the sufficient saturation test. Their independent review and a genuine coupled H construction remain pending. Source early bases, all shared H/D/K/facet stages and the actual affordable return remain necessary. The .005/.0043 return caps and significant-gain price thresholds are unchanged.
+
+The [full-source complex cut](results/complex-native-source-cut/ADMISSION.md) requires an extra export beyond all 181 same-source funded retargets. Neither sufficiency nor a universal price for that export follows. A legal repair still must restore all 1,289 target columns and achieve the >8.90159 moment gain needed at .0043 in the fixed caller.
+
 ## S030 checkpoint 2: revised source and complex-route gates
 
 The [single-anchor proof](results/bit-single-rs-anchor-obstruction/ADMISSION.md) requires all 99 eligible ordinary sources to change for the exact S028 target under the actual separated-source routes. The earlier91/22 consequences below remain valid but are weaker than 99/29. No physical charge per source change is inferred.

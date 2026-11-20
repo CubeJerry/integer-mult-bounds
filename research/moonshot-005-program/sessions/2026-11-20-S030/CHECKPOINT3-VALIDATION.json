@@ -1,0 +1,59 @@
+{
+  "execution_mode": "collected separate fresh S030 root executions",
+  "independent_review": "Separate proof/code reviews in the three admissions; these executions are reproduction, not additional independent reviews.",
+  "jobs": [
+    {
+      "expected": "bit-coupled-native-three-chain-source/review-b/RESULT.json",
+      "expected_sha256": "a4c59f6b04f796f16653cf003c05c3322da93460bcb81e7dad787021c69ed51b",
+      "matched": true,
+      "name": "connected-source",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-coupled-native-three-chain-source/review-b/check.py",
+      "script_sha256": "b96daa69e849bd59451ce14b0f1d03ef202985901139888668853b3a27f101a0"
+    },
+    {
+      "expected": "bit-coupled-native-three-chain-source/review-fibre-only-b/RESULT.json",
+      "expected_sha256": "a616f1bffeb0a509d5978cfce4453a499e9399a23a88663f0a2c8d667d464c0b",
+      "matched": true,
+      "name": "hybrid-source",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-coupled-native-three-chain-source/review-fibre-only-b/check.py",
+      "script_sha256": "6f80a01caf1890d6b1a78876fa670a0c38771ac9c713a329f26b993e7834a412"
+    },
+    {
+      "expected": "complex-native-source-cut/root-review/RESULT.json",
+      "expected_sha256": "95aadbc99ae2032ad0a4d1971f627ce8c7d938b77e5e90e547b023d6742d58b0",
+      "matched": true,
+      "name": "full-complex-source-cut",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "complex-native-source-cut/root-review/check.py",
+      "script_sha256": "a1ba2f03ec1aecf7255533aa3195dc316f97dc19d08308596c46f5782b7aaf52"
+    },
+    {
+      "expected": "bit-array-anchor-degeneracy/review-b/RESULT.json",
+      "expected_sha256": "9e953e8e91f79356a9be2ffc0438fed127594410ca912f59fbb794754bd4698a",
+      "matched": true,
+      "name": "array-anchor-general",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-array-anchor-degeneracy/review-b/check.py",
+      "script_sha256": "3607827ff967d2fb3f7665598d4456d0de0936314c0db948e3eb4ba9e6669289"
+    },
+    {
+      "expected": "bit-array-anchor-degeneracy/applications/review-b/RESULT.json",
+      "expected_sha256": "1b4a77022d2391a76b57f682219ea2c65fd50135d7607d8f85bde29fd417219f",
+      "matched": true,
+      "name": "array-anchor-applications",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-array-anchor-degeneracy/applications/review-b/check.py",
+      "script_sha256": "33bd1113af9c449a809be9757af7cfaf364de8c3f6b4b8145b45353c00047a29"
+    }
+  ],
+  "new_complete_kappa": false,
+  "parent_baseline": "ef071187ffe94f1469b6401c8d217c2c3c175557",
+  "status": "PASS_S030_CHECKPOINT3_REPRODUCTION"
+}

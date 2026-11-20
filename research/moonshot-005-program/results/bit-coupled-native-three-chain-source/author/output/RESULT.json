@@ -1,0 +1,117 @@
+{
+  "S028_perturbed_target_not_asserted": true,
+  "actual_early_source_bases": 7,
+  "actual_global_return_rank": null,
+  "centre_donors": {
+    "135": [
+      25,
+      45,
+      47
+    ],
+    "263": [
+      0,
+      61,
+      62
+    ],
+    "642": [
+      45,
+      61,
+      100
+    ]
+  },
+  "centres": [
+    263,
+    642,
+    135
+  ],
+  "common_D_K_endpoint": false,
+  "components": {
+    "3": {
+      "constraint_rank": 54,
+      "constraint_sha256": "b4b0c13284b53c07b63f81df5b15f8d35441afb538c9d10f93da8fc1c4e7199a",
+      "constraint_shape": [
+        54,
+        102
+      ],
+      "embedding_sha256": "506aca6c84e9089e691644b3d39b616f6860a32cb9fb3ea343ed3dd74f715b0d",
+      "geometry_foreign_full_ranks": 441,
+      "input_dimension": 48,
+      "native_foreign_full_ranks": 408,
+      "quotient_classes": 34
+    },
+    "12": {
+      "constraint_rank": 216,
+      "constraint_sha256": "83d2e34170497c84bccecc52c744a0ab1f6073588eec25a3a289a0aa0dfab71b",
+      "constraint_shape": [
+        216,
+        408
+      ],
+      "embedding_sha256": "a9bd039d6e2bb703f1cca315406d642c3632759df8f82738c3675573fd924479",
+      "geometry_foreign_full_ranks": 441,
+      "input_dimension": 192,
+      "native_foreign_full_ranks": 408,
+      "quotient_classes": 34
+    }
+  },
+  "designated_interfaces_avoid_donor10_and_receiver80": true,
+  "early_original_slots_per_centre": {
+    "135": 45,
+    "263": 90,
+    "642": 90
+  },
+  "endpoint_target": "canonical foreign identity on the three designated H interfaces",
+  "native_common_inverse_fibres": 101,
+  "native_donor_inverse_fibres": 303,
+  "negative_controls": [
+    {
+      "damaged_rank": 45,
+      "donor": 0,
+      "mutation": "delete_real_source_quotient",
+      "original_rank": 48,
+      "receiver": 1
+    },
+    {
+      "mutation": "change_one_donor_control",
+      "rejected": true
+    }
+  ],
+  "new_complete_kappa": false,
+  "non_RS_witnesses_sha256": "e8ddd68f2ea58e5c38786c703ef56d0ffe6602820d033525cbc1949ca297388f",
+  "parameters_sha256": "2b2e533d780e3cfbc14a34f7734d7a8ecfd2e1e4c7d0d76bf2644c545fc1da03",
+  "per_centre_native_receivers": {
+    "135": 34,
+    "263": 33,
+    "642": 34
+  },
+  "source_coefficient_sha256": {
+    "0/12": "687e8afde7c611a242930a271d888064e01b1d0d92faa8f3dba6b05c665e35e4",
+    "0/3": "a6aa69df833d565026ef45cd609e1ccc33acd46e77588a879b01719cd7297773",
+    "100/12": "eb2300d11d6c8a7002bdd425b8a0ac26935cd70ca12ab4dfb9a05d0181661fb0",
+    "100/3": "5eed830214f77ee2896fc6013bd3cdddd513d0ac6ed5f4b5aa90c6a6abdec67f",
+    "25/12": "b96adb73939d83a578c418e9b7dfcbb2f4c6f49de92fd91f2051a5e2bf5363d9",
+    "25/3": "80d65c9413b6e6a36c3e2806325aa460121c2e3006bce4111cad8bf073282760",
+    "45/12": "7cbb821b244b53df43e2cfe9533534006fc01af0e5c36a7f10b624725d46eeba",
+    "45/3": "eda6e64f5048ca9a72e2528146597b70895addb3bba557c43cb60c27e4c2278c",
+    "47/12": "2f1f65a3dbf82d8169d5c87179988c3511dfd35fa42b23090cd63d789b306140",
+    "47/3": "49b866a68c13888ec5d1c7112761b06828cf04bc5baf2c45b0928e28e941f5e5",
+    "61/12": "b75a30b32c508c30237f41948bba2396a0635f583f45af2d31b94e301e1905d8",
+    "61/3": "c606af2d4cd332f88f701afa311c0f41add674db8100d1532489e4204f1ac8dc",
+    "62/12": "31d006a4883ef95b04c09fffda89f39274d8d360dc4fd0d7c13429edc91426fb",
+    "62/3": "ae1cf326862dcac499c0da908519c4a2764c8c3777fc87f239073cd8304ffca3"
+  },
+  "source_donors": [
+    0,
+    25,
+    45,
+    47,
+    61,
+    62,
+    100
+  ],
+  "source_pins": {
+    "research/moonshot-005-program/results/bit-spread-disjoint-h-sources/author/families.py": "97e1d8cdccfb4a6f12d662cb65f9a34bfb027afbfaaf77a991d4993667133212",
+    "research/moonshot-005-program/results/bit-spread-overlap-source/author/pair.py": "5516e8f11b8b96a1e5a3ea4eca11d7ff43118a7312ad3b31c30ec43cdbc70749"
+  },
+  "source_stars_inequivalent_to_RS": 7,
+  "status": "PASS_CONNECTED_THREE_CENTRE_SOURCE"
+}

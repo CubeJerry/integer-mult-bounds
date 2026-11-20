@@ -495,3 +495,13 @@ The anchor review reuses only a pinned previous independent field implementation
 The complex cut review imports no author or predecessor code and reconstructs all 1,289 original columns with sparse rational arithmetic, all 889 helper identities, physical endpoints and exact directional ranks90/146. A separate outward-rounded price engine verifies .004/.0043/.005 shortfalls and necessary occurrence counts.
 
 Run `python -B research/moonshot-005-program/sessions/2026-11-20-S030/checkpoint2_replay.py --repo . --out FRESH --jobs 2`. [All six receipts match](sessions/2026-11-20-S030/CHECKPOINT2-VALIDATION.json); only static-review elapsed seconds are normalized. The author anchor check also passes under optimization. Reproduction remains distinct from independent review. No global source-middle-return word is certified.
+
+## S030 checkpoint 3: connected sources, array applications and full complex source
+
+Separate source reviews reconstruct 408 native cuts/component,101 native common fibres/component, actual early bases, every literal source stream and every retained background charge. The hybrid review checks four whole-bank kernel changes and all five native-only closure witnesses, with 80 block-deletion controls/component.
+
+The general array review imports no author code, independently inverts 4,422 scalar native matrices and verifies 5,960 adjugate columns,2,970 selected minors and 99 final minors. Its tensor scaling and degree proofs are separate from finite checks. The application review uses new reverse-column kernel and column-span routines for 17 anchors,34 coefficient hashes and 1,020 propagation ranks. It separately checks the rank 9b corollary and tree-invertibility premise.
+
+The complex reviewer reuses only an earlier independent sparse rational reader, reconstructing both surgeries, all 1,289 columns, ownership, aliases, restricted rank 912, every 911 modified export slot and 181 eligible donors. The fifth-channel control equals the authentic target.
+
+The [checkpoint3 replay](sessions/2026-11-20-S030/checkpoint3_replay.py) executes five checks by default with `--repo . --out FRESH --jobs 2`. Its retained [receipt](sessions/2026-11-20-S030/CHECKPOINT3-VALIDATION.json) collects separate fresh root executions already performed in S030 and compares every result field without normalization. Collection is not another execution or independent review.

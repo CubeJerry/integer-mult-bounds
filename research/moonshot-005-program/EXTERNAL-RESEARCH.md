@@ -569,3 +569,7 @@ At intake and the 06:53 UTC pre-checkpoint refresh, canonical main remains e5452
 ## S030 checkpoint 2 provenance
 
 The all 111 source preserves the admitted native geometry, spread allocation, coupled two-centre and singleton source credit. Its canonical local target differs from the S028 perturbation. The single-anchor result retains the actual pinned RS node assignment and physical routes. The complex cut reconstructs the authenticated #7830 private word and complete target; it does not adopt #7833's incomplete surgery as a supplier. No selected certificate or external PR changes.
+
+## S030 checkpoint 3 provenance
+
+Connected, hybrid and array-anchor results retain the native/source/port/compiler and rank-classification predecessor credit. Their extension obstructions preserve the positive local source constructions. The elliptic-quadric evaluation lead is internal work using the authenticated E8 binary geometry; no external supplier theorem is presumed. The complex export cut retains the #7830 source and literal #7833 surgery. No selected certificate or external PR changes.
