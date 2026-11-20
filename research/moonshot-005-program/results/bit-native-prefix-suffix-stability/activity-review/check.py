@@ -49,6 +49,12 @@ def verify(a):
     exception={(7,80),(10,81),(80,96),(81,95)};exception|={(j,i)for i,j in exception};assert len(exception)==8 and exception<=keys
     exc=sum(val[q]for q in exception);new=2*mass+4*exc
     receipt.update(clebsch_exception_weights={str(q):val[q]for q in sorted(exception)},clebsch_total_exception_weight=exc,clebsch_max_dead_regular=2,clebsch_max_dead_exception=6,clebsch_weighted_numerator=new,clebsch_max_dead_all_D=new//low,clebsch_minimum_active_D=len(D)-new//low)
+    by_excess={}
+    for excess in (0,45,46,49,56,91,92,128,134):
+        ordinary=7*excess//(5*64);special=3*excess//64;num=ordinary*mass+(special-ordinary)*exc
+        by_excess[excess]={'regular_dead_per_pair':ordinary,'exceptional_dead_per_pair':special,'weighted_numerator':num,'maximum_dead_D':num//low,'minimum_active_D':len(D)-num//low}
+    assert by_excess[49]['minimum_active_D']==by_excess[56]['minimum_active_D']==3093 and by_excess[45]['minimum_active_D']==3150
+    receipt['clebsch_excess_table']=by_excess
     a.out.mkdir(exist_ok=True,parents=True);(a.out/'RESULT.json').write_text(json.dumps(receipt,indent=2)+'\n');print(receipt)
 if __name__=='__main__':
  p=argparse.ArgumentParser()
