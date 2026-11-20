@@ -1,0 +1,280 @@
+{
+  "status": "PASS_S031_FIVE_MESSAGE_OPERATOR_BOUNDARY_RIGIDITY",
+  "scope": "Frozen other internal forms and routes; arbitrary whole-field linear maps on five messages; arbitrary independent bijections at each original physical input/output bank.",
+  "not_claimed": "No rigidity for other internal recoding, new communication, merged banks, changed caller contracts, or a new kappa.",
+  "source_files": {
+    "research/moonshot-005-program/results/complex-native-funded-donor-cuts/inputs/7833-construction.py": "a88390b6ee3b31ea1d7068c068d22edf5d5f8f826eae9e1d2f62629d3ebbc690",
+    "research/moonshot-005-program/results/complex-native-funded-donor-cuts/inputs/DOUBLE-CANDIDATE.json.gz": "1b1b3294e86979f1f41076fb056f3c0a08ace6df7bf80f2886bc579a22962f4b"
+  },
+  "endpoint_fields": 1289,
+  "endpoint_components": {
+    "one_by_one": 889,
+    "two_by_two": 200
+  },
+  "full_two_sided_inverse_verified": true,
+  "canonical_charts": 1102,
+  "candidates": [
+    86,
+    97232,
+    97241,
+    97323,
+    99064
+  ],
+  "candidate_routes": {
+    "86": [
+      594,
+      117
+    ],
+    "97232": [
+      243,
+      517
+    ],
+    "97241": [
+      240,
+      518
+    ],
+    "97323": [
+      595,
+      737
+    ],
+    "99064": [
+      1090,
+      477
+    ]
+  },
+  "candidate_grades": {
+    "86": 4,
+    "97232": 4,
+    "97241": 4,
+    "97323": 3,
+    "99064": 4
+  },
+  "H": [
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "P_E_inverse_B": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "witnesses": [
+    {
+      "edge": 86,
+      "input_axis": 17,
+      "input_chart": 16,
+      "output_axis": 131,
+      "terminal_slot": 154899,
+      "terminal_chart": 145,
+      "isolated_coefficient": "-63/128",
+      "all_five_products": [
+        "-63/128",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "whole_old_inverse_bank_block_zero": true,
+      "source_bank_input_count": 1,
+      "terminal_bank_output_count": 1
+    },
+    {
+      "edge": 97232,
+      "input_axis": 17,
+      "input_chart": 16,
+      "output_axis": 150,
+      "terminal_slot": 154918,
+      "terminal_chart": 162,
+      "isolated_coefficient": "1/2",
+      "all_five_products": [
+        "0",
+        "1/2",
+        "0",
+        "0",
+        "0"
+      ],
+      "whole_old_inverse_bank_block_zero": true,
+      "source_bank_input_count": 1,
+      "terminal_bank_output_count": 1
+    },
+    {
+      "edge": 97241,
+      "input_axis": 19,
+      "input_chart": 18,
+      "output_axis": 129,
+      "terminal_slot": 154897,
+      "terminal_chart": 143,
+      "isolated_coefficient": "-1/2",
+      "all_five_products": [
+        "0",
+        "0",
+        "-1/2",
+        "0",
+        "0"
+      ],
+      "whole_old_inverse_bank_block_zero": true,
+      "source_bank_input_count": 1,
+      "terminal_bank_output_count": 1
+    },
+    {
+      "edge": 97323,
+      "input_axis": 17,
+      "input_chart": 16,
+      "output_axis": 776,
+      "terminal_slot": 155544,
+      "terminal_chart": 134,
+      "isolated_coefficient": "1",
+      "all_five_products": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      "whole_old_inverse_bank_block_zero": true,
+      "source_bank_input_count": 1,
+      "terminal_bank_output_count": 2
+    },
+    {
+      "edge": 99064,
+      "input_axis": 19,
+      "input_chart": 18,
+      "output_axis": 150,
+      "terminal_slot": 154918,
+      "terminal_chart": 162,
+      "isolated_coefficient": "1/2",
+      "all_five_products": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1/2"
+      ],
+      "whole_old_inverse_bank_block_zero": true,
+      "source_bank_input_count": 1,
+      "terminal_bank_output_count": 1
+    }
+  ],
+  "literal_and_inverse_controls": [
+    {
+      "name": "delete_four_invertible_survivors",
+      "scales": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "all_terminal_rows_verified": 1289,
+      "determinant_ratio_at_scalar_width": "1",
+      "inverse_control": "exact factorized left/right product residuals"
+    },
+    {
+      "name": "nontrivial_simultaneous_rescaling",
+      "scales": [
+        "2",
+        "3",
+        "-1",
+        "1/2",
+        "4"
+      ],
+      "all_terminal_rows_verified": 1289,
+      "determinant_ratio_at_scalar_width": "2",
+      "inverse_control": "exact factorized left/right product residuals"
+    },
+    {
+      "name": "delete_all_five",
+      "scales": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "all_terminal_rows_verified": 1289,
+      "determinant_ratio_at_scalar_width": "0",
+      "inverse_control": "explicit nonzero kernel vector"
+    }
+  ],
+  "negative_controls": [
+    {
+      "mutation": "wrong_isolating_coefficient",
+      "rejected": "witness isolates exactly the named operator"
+    },
+    {
+      "mutation": "wrong_terminal_role",
+      "rejected": "witness terminal slot"
+    }
+  ],
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "arithmetic": "fractions.Fraction; exact integers; standard library only"
+  },
+  "review_status": "author replay; independent mathematical admission is separate"
+}

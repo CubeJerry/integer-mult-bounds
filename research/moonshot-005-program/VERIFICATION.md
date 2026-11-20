@@ -1,5 +1,22 @@
 # Verification ledger
 
+## S031 checkpoint3: independently admitted evidence
+
+| Package | Independent verification | Exact receipt |
+| --- | --- | --- |
+| Four-edit protection and sharpness | Root reconstructs native source incidence, all63 scalar views and15 actual fibres; reviews uniform envelope proof | PASS_ROOT_FOUR_EDIT_PROTECTION_AND_SHARPNESS_REVIEW 63 15 5 |
+| Frozen-anchor companion obstruction | Root reconstructs both forced translation families from raw atlas and literal coefficients, including each-family-alone controls | PASS_ROOT_JOINT_TRANSLATION_KERNEL_REVIEW 29 27 3 |
+| Paid early-H compiler | Worker C standalone symbolic owner replay and distinct outward-rounded power engine; fresh root replay | PASS_INDEPENDENT_PAID_H_REPAIR_REVIEW 1421 45472 576 34615 |
+| Complex five-message nonlinear rigidity | Root raw-DAG backward reconstruction and full sparse inverse; Worker B independently reviews root's universal nonlinear extension | PASS_ROOT_NONLINEAR_FIVE_MESSAGE_BOUNDARY_REVIEW 1289 5 |
+
+Each package has source pins, complete admission boundary, exact receipt and
+local manifest. The complex nonlinear controls include two full width-two
+literal examples, all five inverse-bank dependencies, the deletion kernel
+and a nonzero translation positive control. Universal claims follow from
+proofs, not the sampled controls. New readout-rigidity, universal paid-tail,
+full nine-gap and complex route-pair investigations remain unadmitted until
+separate review. No new complete kappa or foundational discharge.
+
 [Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md). The paid two-star construction still requires at least 182,875 return symbols against the target budget of 34,688.
 
 ## S026 checkpoint 1

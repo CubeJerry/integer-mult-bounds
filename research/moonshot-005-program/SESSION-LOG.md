@@ -2931,3 +2931,48 @@ No movement budget, full invoice, strict supplier, foundational assumption or
 complete κ changes. The .005 return cap at b=3840,m=870 remains 34688; the
 .0043 cap remains 36875. Global source/H/D/K/facet completion and the complete
 complex repair remain the main obligations.
+
+## S031 checkpoint3 preparation, 2026-11-20 16:22 UTC
+
+Checkpoint2 was published and fetched as ffc1dbc07ed9a68bc3b650a934bc30477c900812; its remote tree exactly matched the reviewed local tree. Work continues within the five-hour live window.
+
+## S031 checkpoint3: four-edit protection, frozen-anchor obstruction and paid repair
+
+The [four-edit theorem](results/bit-shared-h-s031-construction/four-edit-protection/ADMISSION.md)
+proves uniform propagation bounds 5k,9k,12k,13k,14k for zero through four
+edited quotient nodes other than H, provided every required source view
+remains invertible. It holds for arbitrary linear matrix edits, every width
+and coefficient extension. A literal five-edit scalar source at native donor
+0 preserves all 63 geometric views but saturates a native 15-dimensional
+propagation family. The edit count is sharp for this protection statement.
+The existing two-H component now has the stronger bounds 27 or 36, below45.
+
+The [joint translation-kernel obstruction](results/bit-shared-h-s031-construction/companion-obstruction/ADMISSION.md)
+excludes extending the current two-H component with its two relevant anchors
+frozen, even with arbitrary nonlinear source functions at the new donor.
+There are29 deficient native views at donor45 and27 at donor100, each with a
+forced three-dimensional common translation kernel. Either anchor family
+alone has no such common kernel. Both-anchor source changes remain open.
+
+The [paid early-H compiler](results/bit-paid-deficient-h-repair/ADMISSION.md)
+permits a local rank defect d by adding d real owned complement fields and
+paying direct gap-six exports to Hub. It restores all original X and clears
+the added owners before canonical formation. In the marked component, d=6
+costs96 field exports after sixteen copies; its exact replacement compiler
+uses45472 ADDs and576 binary INIT, MOVE and CLEAR operations each. Compatible
+source quotients, complementary components and the changed late endpoint
+remain unconstructed.
+
+With e extra field exports, the retained necessary movement condition is
+q+e(6/8)^(1-kappa)<b R_m(kappa). At b3840,m870,kappa=.005, the integer q caps
+for e=0,16,96,192 are34688,34675,34615,34543. One six-dimensional component
+repair leaves55 above the floor34560; two fail even the limiting cap34550.
+These are necessary screens, not sufficient supplier prices.
+
+The [complex five-message theorem](results/complex-survivor-boundary-rigidity/ADMISSION.md)
+now covers arbitrary nonlinear per-message functions and arbitrary separate
+boundary-bank bijections on the frozen paid control. Only translations
+survive; zero-preserving functions must be identities. The original1289-field
+endpoint and its full inverse are independently reconstructed. Coupled
+internal recoding, other forms, new routes and changed bank partitions remain
+open. No new complete kappa, foundational discharge or PR readiness follows.

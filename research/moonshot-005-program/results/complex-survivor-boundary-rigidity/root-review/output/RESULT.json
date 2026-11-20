@@ -1,0 +1,237 @@
+{
+  "status": "PASS_ROOT_NONLINEAR_FIVE_MESSAGE_BOUNDARY_REVIEW",
+  "endpoint_fields": 1289,
+  "physical_charts": 1102,
+  "source_method": "raw JSON; explicit paid surgery; reverse DAG derivatives; whole sparse elimination",
+  "author_code_imported": false,
+  "full_endpoint_restored_by_control": true,
+  "H": [
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "G": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "witnesses": [
+    {
+      "edge": 86,
+      "input_axis": 17,
+      "output_axis": 131,
+      "terminal_slot": 154899,
+      "products": [
+        "-63/128",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "whole_bank_zero": true,
+      "input_bank_size": 1,
+      "output_bank_size": 1
+    },
+    {
+      "edge": 97232,
+      "input_axis": 17,
+      "output_axis": 150,
+      "terminal_slot": 154918,
+      "products": [
+        "0",
+        "1/2",
+        "0",
+        "0",
+        "0"
+      ],
+      "whole_bank_zero": true,
+      "input_bank_size": 1,
+      "output_bank_size": 1
+    },
+    {
+      "edge": 97241,
+      "input_axis": 19,
+      "output_axis": 129,
+      "terminal_slot": 154897,
+      "products": [
+        "0",
+        "0",
+        "-1/2",
+        "0",
+        "0"
+      ],
+      "whole_bank_zero": true,
+      "input_bank_size": 1,
+      "output_bank_size": 1
+    },
+    {
+      "edge": 97323,
+      "input_axis": 17,
+      "output_axis": 776,
+      "terminal_slot": 155544,
+      "products": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      "whole_bank_zero": true,
+      "input_bank_size": 1,
+      "output_bank_size": 2
+    },
+    {
+      "edge": 99064,
+      "input_axis": 19,
+      "output_axis": 150,
+      "terminal_slot": 154918,
+      "products": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1/2"
+      ],
+      "whole_bank_zero": true,
+      "input_bank_size": 1,
+      "output_bank_size": 1
+    }
+  ],
+  "nonlinear_full_word_controls": [
+    {
+      "seed": 1,
+      "width": 2,
+      "fields_restored": 1289
+    },
+    {
+      "seed": 2,
+      "width": 2,
+      "fields_restored": 1289
+    }
+  ],
+  "nonlinear_inverse_dependencies": [
+    {
+      "edge": 86,
+      "step": [
+        "1",
+        "2"
+      ],
+      "inverse_difference": [
+        "-19845/32768",
+        "0"
+      ]
+    },
+    {
+      "edge": 97232,
+      "step": [
+        "1",
+        "2"
+      ],
+      "inverse_difference": [
+        "3/8",
+        "-1/8"
+      ]
+    },
+    {
+      "edge": 97241,
+      "step": [
+        "1",
+        "2"
+      ],
+      "inverse_difference": [
+        "1/4",
+        "0"
+      ]
+    },
+    {
+      "edge": 97323,
+      "step": [
+        "1",
+        "2"
+      ],
+      "inverse_difference": [
+        "-1",
+        "0"
+      ]
+    },
+    {
+      "edge": 99064,
+      "step": [
+        "1",
+        "2"
+      ],
+      "inverse_difference": [
+        "15/32",
+        "1/2"
+      ]
+    }
+  ],
+  "edge_86_deletion_noninjective": true,
+  "translation_positive_control": true,
+  "theorem": "With other forms and routes fixed, arbitrary per-message functions compatible with independent boundary-bank bijections are exactly translations. Zero-preserving functions are identity.",
+  "not_claimed": "No restriction on coupled internal recoding or new communication; no new supplier or exponent."
+}

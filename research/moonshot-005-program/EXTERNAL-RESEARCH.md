@@ -1,5 +1,9 @@
 # Relevant external research and compatibility
 
+## S031 checkpoint3: source-bound internal consequences
+
+The new complex nonlinear rigidity theorem binds the authenticated #7830 head14c74c6a67108f675ac1196a5f2415ead0920e71 and genuine paid #7833 control, not the latest advertised #7830 head. The 1289-field endpoint is independently reconstructed. Other internal recoding and new communication remain open. No new upstream merge, selected result or automatic native-realization transfer is asserted. The next targeted upstream refresh is still pending; existing #7837/#7840 evidence retains its earlier status.
+
 [Current handoff and live upstream assessment](sessions/2026-11-20-S029/HANDOFF.md). The paid two-star construction still requires at least 182,875 return symbols against the target budget of 34,688.
 
 ## S026 intake
