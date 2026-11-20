@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Authenticate every single funded-donor obstruction on the public original inputs."""
-import argparse,gzip,hashlib,importlib.util,json,subprocess
+import argparse,gzip,hashlib,importlib.util,json,subprocess,sys
 from collections import Counter,defaultdict
 from pathlib import Path
 HERE=Path(__file__).resolve().parent
@@ -48,6 +48,14 @@ def main():
         xi=dict(r['original_input']);require(len(xi)==len(r['original_input'])and all(0<=j<len(w.inputs)and type(v)==int and v for j,v in xi.items()),'integral public stimulus')
         v=g.evaluate(xi);true=w.evaluate(xi)[t];require(all(not v.get(e,0)for e in fixed)and true==v[t] and true==S.Q(r['terminal_value'])!=0,'forward scalar evaluation');counts[grade]+=1;values.append((len(xi),len(fixed)))
     same=[e for e in elig if w.grade(w.routes[e])==3 and len(w.frames[w.routes[e][1]])>len(w.frames[3])];require(len(same)==74,'all grade and orientation preserving donors')
+    subprocess.run([sys.executable,'-I','-B',str(HERE/'review/check.py'),'--sources',str(src),'--witness',str(HERE/'WITNESSES.json.gz'),'--out',str(out/'review')],check=True,stdout=subprocess.DEVNULL)
+    require(json.loads((out/'review/RESULT.json').read_text())==json.loads((HERE/'review/output/RESULT.json').read_text()),'independent backwards review')
+    subprocess.run([sys.executable,'-I','-B',str(HERE/'flexible/verify.py'),'--out',str(out/'flexible')],check=True)
+    subprocess.run([sys.executable,'-I','-B',str(HERE/'review/flexible.py'),'--sources',str(src),'--witness',str(HERE/'flexible/WITNESSES.json.gz'),'--out',str(out/'review')],check=True,stdout=subprocess.DEVNULL)
+    require(json.loads((out/'review/FLEXIBLE.json').read_text())==json.loads((HERE/'review/output/FLEXIBLE.json').read_text()),'independent arbitrary measurement audit')
+    bill=json.loads((src/'7833-SUMMARY.json').read_text())['signed_price']
+    deficit,credit=S.Q(bill['baseline_deficit'][0]),S.Q(bill['nominal_credit'][1]);calls=bill['native_calls']
+    require(calls==48 and credit/calls>1 and deficit-(credit-calls)>S.Q('9.5511294717'),'same-grade fully charged shortfall')
     result={'status':'PASS_ALL_181_FUNDED_DONORS_PUBLIC_ONLY','upstream':UP,'word':S.WORD,'eligible':len(elig),'fixed_grade_orientation':len(same),'by_grade':dict(counts),'max_pulse_support':max(x for x,y in values),'exterior_min_max':[min(y for x,y in values),max(y for x,y in values)],'upstream_objects_present':[wordhead,head]}
     (out/'RESULT.json').write_text(json.dumps(result,indent=2,sort_keys=True)+'\n');print(result,flush=True)
 if __name__=='__main__':main()

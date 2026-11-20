@@ -37,3 +37,27 @@ Combining the two one-sided results and this two-sided result permits at most 49
     python -B PATH/author/check_double.py --repo REPOSITORY --out FRESH
 
 The optional probe cache is authenticated against the full ordered native 134 × 130 matrices. The 35 MB array is generated from the input word when absent. `output/DOUBLE-RESULT.json` and `output/DOUBLE-INPUT.json` include the exact census and content digests. The common-arithmetic definition uses the same GF64 polynomial and physical owner order as the bilateral construction.
+
+## Canonical targets independent of either marked star
+
+For four canonical edges \((i,j),(i,l),(k,j),(k,l)\), exact identity after arbitrary local endpoint bijections would give \(B_{ij}B_{kj}^{-1}=B_{il}B_{kl}^{-1}\) as maps on the entire original field space. These four physical maps are invertible linear maps, so their original \(2\times2\) block matrix would have rank exactly 3,840. Restrict it to the seven ordinary copies on all selected original inputs and outputs. The resulting submatrix is the direct sum of seven copies of the native 480-field rim rectangle, of rank
+
+    7 [480 + rank(R_ij R_kj^(-1) − R_il R_kl^(-1))].
+
+A projected native difference of rank at least 69 already forces the full two-by-two rank above 3,840. `check_flat.py` tests every all-canonical rectangle using 76 genuine rim output rows and 71 genuine input directions. Its finite receipt records the complete census and field-array hashes. Its proof fixes the same internal native operator and allows every marked target to be sacrificed.
+
+Consequently the bipartite graph of complete correct **canonical** edges of this native word after any endpoint bijections is four-cycle-free. Each unordered pair of donors shares at most one exact receiver. If receiver degrees are \(d_i\), double counting gives \(\sum_i \binom{d_i}{2}\le\binom{111}{2}=6105\). Among integer degree lists of given sum the minimum is attained by balancing. At 1,221 total incidences, all 111 degrees can be 11 and this lower bound already equals \(111\binom{11}{2}=6105\). Every larger sum violates the inequality. Thus at most 1,221 of 6,347 complete canonical matrices can be correct and at least **5,126 canonical matrices fail** for every such endpoint choice. Even granting all 123 nonidentity matrices, at most 1,344 of the 6,470 complete targets can be correct. The conclusion concerns this fixed internal physical word, with arbitrary endpoint bijections.
+
+    python -B PATH/author/check_flat.py --repo REPOSITORY --out FRESH
+
+### Sharpening the global count when the marked edges may be sacrificed
+
+The canonical graph in fact has only 110 possible nonisolated donors and 110 possible nonisolated receivers, since every proper block at donor 10 or receiver 80 is nonflat. The same integer degree balancing bounds its edge count by 1,204. The two star censuses strengthen the total count even when an arbitrary subset of the 123 marked edges is kept.
+
+Suppose \(u\) incoming marked edges and \(v\) outgoing marked edges are exactly realized, where \(0\le u\le62\) and \(0\le v\le61\). Let \(m\) be the number of correct whole canonical edges. No receiver is incident to two of the \(u\) corresponding donors, and no donor is incident to two of the \(v\) corresponding receivers. When both sets are nonempty, their mutual rectangle contains at most one correct edge by the two-star pair test. Thus the total degrees of these \(v\) receivers is at most \(110-u+1\), and that of these \(u\) donors at most \(110-v+1\). Without the opposite set the appropriate cap is 110. Moreover the usual four-cycle pair count on the receiver degrees has at most \(\binom{110}{2}-\binom u2\) available donor pairs, and the transpose has the corresponding bound with \(v\).
+
+For each allowed \((u,v)\), `extremal.py` independently minimizes the degree-pair count by balancing the degrees within each of the two groups, enumerating every possible group degree sum up to the applicable cap. It also imposes the four-cycle bound on the outside \((110-v)\times(110-u)\) rectangle. All 3,906 integer cases then give \(m+u+v\le1220\). Consequently **at least 5,250 of all 6,470 original target matrices fail under every choice of endpoint bijections** with the internal word fixed, independently of whether any particular marked block is required. Without charging marked successes, at least 5,143 of the canonical blocks themselves must fail.
+
+If all 123 marked edges are retained, the outside 49 × 48 canonical rectangle admits at most 357 edges by the same degree bound. Together with the sharp 98-edge cap on the 5,055-edge touching union, the entire word can realize at most **578 of the 6,470 original target blocks**. At least 5,892 fail in this fully marked regime. The lower bound of 221 exact blocks is realized by the connected two-star word. The separate higher-girth audit of the remaining 49 × 48 rectangle in `bit-global-two-star-target/review` improves its upper bound from 357 to 158. Combining that result with the sharp anchored 98 gives the stronger overall interval **[221, 379]** when all 123 marked blocks are required.
+
+    python -B PATH/author/extremal.py --out FRESH
