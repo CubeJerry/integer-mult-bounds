@@ -299,3 +299,17 @@ Proved: the abstract nine-bank optimum on the true complete native side-informat
 | Obtain a complete material gain by improving only BIT | Unresolved in general; unchanged full rational invoice fails above its .00388013644475 ceiling | Independently improve the complex word or caller and prove complete supplier compatibility |
 | Delete one proper donor to simplify a .0043 balanced source | Disproved under the same non-return and broadcast tariff | All 6,470 proper directions remain necessary; actual return cap 36,875 at b=3,840,m=870 |
 | Changed all-donor source and coupled H/D/K/facet transport | Open; 40/44-centre source candidates undergoing admission | Canonical local interfaces, not the S028 perturbation; compute the same complete fitting and return |
+
+## S030 checkpoint4: structured source and global allocation obligations
+
+**B-GEOMETRIC-FIBRES — proved within stated geometry.** The63 GF64 blocks have the sparse polynomial identity, fixed-centre rank6 and two-node rank5. All111 nominal source tables are authenticated; the linear rank statements extend to every coefficient-field extension and tensor width. Arbitrary nonlinear gauge inequivalence is admitted for the finite native alphabet. At most two edited quotients retain a14t span bound when their source cuts are invertible. [Admission](results/bit-geometric-rs-quotients/ADMISSION.md).
+
+**B-GEOMETRIC-LOCAL-H — proved finite local word and exact price.** The3+12 source components jointly serve all33 native H263 receivers and compile on the720 actual early owners. Full all111-source-plus-H cost458867280 ADD is independently rebuilt. The96 unchanged obstructed ordinary backgrounds remain; this is not global completion. [Admission](results/bit-coupled-native-geometric-h-source/ADMISSION.md).
+
+**B-GLOBAL-DESARGUESIAN — proved finite allocation and shared coordinates.** All1120 centres have a compatible nine-line F4 spread under one dual630-D marking. Seven alternating forms generate its315 radical lines, all local field actions,28 shared H labels and a globally consistent scalar node assignment. [Admission](results/bit-global-desarguesian-port-allocation/ADMISSION.md).
+
+**B-STRUCTURED-SHARED-SOURCE — open and primary.** Construct actual source quotient maps whose whole inverse fibres support every needed common H target, preserve source/early ranks and survive alternate anchor tests. A common geometric label is insufficient: the40 centres sharing one label have40 distinct local field actions. Then construct common D/K/facet maps, the exact endpoint and a complete return within the unchanged budget. A generic local cycle does not discharge these quantifiers.
+
+**C-PAID-EXPORT-SIEVE — proved necessary conditions only.** With arbitrary k>=1 paid parallel3-to282 exports, any high-grade deletion belongs to eleven cycle occurrences;1065 high-grade occurrences are mandatory. Eleven exact support-cut clauses leave352 subsets and the stated optimistic price margins. Correct recoding, endpoint restoration and physical scheduling remain open. Additional routes change the premises. [Admission](results/complex-native-paid-export-sieve/ADMISSION.md).
+
+No foundation or strict supplier is discharged, and no new complete kappa follows.

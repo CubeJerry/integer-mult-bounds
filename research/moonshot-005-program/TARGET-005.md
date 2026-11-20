@@ -1,5 +1,13 @@
 # Exact target κ=1/200 — current programme
 
+## S030 checkpoint4: geometric prerequisites met; whole-word thresholds unchanged
+
+The reviewed global Desarguesian allocation and seven-form node system remove a concrete incidence obstruction for the new local H mechanism. They do not change the return caps:34688 at .005 and36875 at the significant intermediate .0043 target, for b3840 and paired multiplicity870. Both strict suppliers and the complete caller still require an assembled word.
+
+The local source/H invoice is458867280 ADD,2540160 INIT and dirty CLEAR each, zero extra MOVE. It stops at one H and is not a recurrence profile. Old background source anchors must still change. Geometric two-node spans5t instead of15t provide a structural escape from the old sufficient obstruction; they do not prove shared-target compatibility.
+
+For the restricted complex repair interface with paid parallel observer exports, the maximum target-support-feasible high-grade deletion profile is{3:1,4:5,5:1}. One paid observer leaves optimistic net savings25.856355267054... at .0043 and25.833043528738... at .005. Relative to the complete caller requirements, additional-repair margins are16.954763527846... and2.125014706817.... These grant all other repair free and are necessary feasibility calculations, not achieved gains. Extra observers consume another3^(1-kappa) each; different new routes or low-grade deletions require new accounting.
+
 ## S030 checkpoint 3: compatibility beyond information change
 
 The [array-anchor theorem](results/bit-array-anchor-degeneracy/ADMISSION.md) applies to changed sources as well as the pinned RS source. The frozen all 111, connected and hybrid words fail exact S028 extension at the listed anchors. They also fail exact rank 9b tree-invertible native fitting under the retained source routes. This strict qualitative gap does not exclude rank 34688 at bank3840 for every alternative target or source.

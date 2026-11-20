@@ -1,5 +1,17 @@
 # Draft cumulative contribution: physical source delivery, exact information bounds and ordinary endpoint interfaces
 
+## S030 checkpoint4 contribution and current boundary
+
+The cumulative branch remains an ongoing research programme, not ready for submission as a complete multiplication theorem. No new complete kappa is claimed.
+
+The new structured source mechanism uses an elliptic quadric in GF64: inverse fibres span six dimensions at one centre and five across two nodes, rather than the fifteen-dimensional saturation that obstructed prior sources. A weighted quadratic-annihilator construction turns this structure into one actual3+12 local source/H word, including720 original early owners,108 physical donor minors and an independently rebuilt458867280 ADD source-plus-H invoice.
+
+A different globally compatible marking selects630 native D charts and makes every one of1120 local nine-port spreads Desarguesian. Seven explicit alternating forms describe the whole allocation, derive the local F4 actions, and give28 globally shared H labels with40 planes each. All7560 geometric and6470 native scalar source views are checked. This common coordinate system is the main new constructive direction; it does not itself glue whole source inverse fibres or provide the missing shared D/K/facet and low-return word.
+
+The complementary complex proof permits arbitrary retained-payload recoding and paid parallel observer exports, reduces all high-grade deletions to eleven directed-cycle occurrences, and classifies352 target-support-feasible subsets. The optimistic .005 margin for all remaining repair is only2.125014706817... after one paid observer. These are necessary conditions, with no repaired supplier claimed.
+
+Full proofs, source pins, exact receipts and independent reviews are linked in [the programme](PROGRAMME.md), [obligations](OBLIGATIONS.md) and [verification ledger](VERIFICATION.md). Credit @CubeJerry and all retained predecessor authors; the S030 derivations and checks used substantial OpenAI assistance. All five foundational assumptions and the complete supplier/caller obligations remain explicit.
+
 ## S030 checkpoint 3 addition
 
 **No new κ; ongoing programme.** The cumulative contribution now contains connected sources with complete source invoices, genuine quotient-kernel freedom, five scoped fixed-fibre closure obstructions, an arbitrary-array anchor criterion and seventeen applications to changed source words. Its99 nonzero necessary donor polynomials are proved for all positive widths; ambient codimension is separated from finite-field probability and physical cost.

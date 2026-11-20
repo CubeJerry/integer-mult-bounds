@@ -1,0 +1,96 @@
+{
+  "Hermite_jet_rank_claim": false,
+  "common_H_word_claim": false,
+  "details_payload_sha256": "ee416863ba7d33b1298d41f79ad145aaad052d2276a1c2868b6762a6756c7a7e",
+  "extension_scope": "fixed GF64 node and receiver sets; exact ranks persist over every field extension",
+  "field": {
+    "all_common_node_pair_rank": 5,
+    "all_fixed_centre_rank": 6,
+    "blocks": 63,
+    "global_block_polynomial_rank": 7,
+    "nodes": 28,
+    "pairs_checked": 378
+  },
+  "field_receipt_sha256": "4885c4387261d6ce2614565354964cdebfb312767d192ccad86a5bd86defeb18",
+  "native": {
+    "all_native_propagation_rank_histogram": {
+      "5": 2970
+    },
+    "anchors": 99,
+    "distinct_actual_inverse_fibres": 6509,
+    "geometric_source_views": 6237,
+    "native_all_common_node_pair_receiver_count_histogram": {
+      "14": 53,
+      "15": 473,
+      "16": 2071,
+      "17": 5567,
+      "18": 11294,
+      "19": 12384,
+      "20": 5580
+    },
+    "native_all_common_node_pair_span_rank_histogram": {
+      "5": 37422
+    },
+    "native_fixed_centre_span_rank_histogram": {
+      "6": 2772
+    },
+    "native_receiver_family_size_histogram": {
+      "15": 83,
+      "16": 193,
+      "17": 474,
+      "18": 888,
+      "19": 887,
+      "20": 445
+    },
+    "native_source_views": 5767,
+    "nongeometric_node_permutation_rejected": true,
+    "selected_propagation_rank_histogram": {
+      "5": 2970
+    },
+    "status": "PASS_INDEPENDENT_NINETY_NINE_GEOMETRIC_RS_NODE_SYSTEMS"
+  },
+  "new_complete_kappa": false,
+  "physical_source_word_claim": false,
+  "positive_width_scope": "tensor RS tuple F_R=(1,a_R,...,a_R^15) tensor I_t, every positive integer t",
+  "scalar_bank_dimension": 16,
+  "scalar_quotient_dimension": 1,
+  "source_pins": {
+    "binary_basis": [
+      "bit-clifford-one-evaluation-gate/author/BASIS.json",
+      "d2a825f09a4d24a8a0319743ec84bed9b9e6b50656d3105a1c4577ec78fba9ab"
+    ],
+    "geometry": [
+      "bit-all111-tight-port-atlas/author/output/LAYOUT.json.gz",
+      "9f3834b7663a25b782531a11ccc22cffb66433de1a9a072059395265fdb07b72"
+    ],
+    "node_witnesses": [
+      "bit-geometric-rs-quotients/review-b/NODE-WITNESSES.json.gz",
+      "8aeee87046645cb89f1f44768686cb6b93930c4fb2570b18e2318cab047ed9b2"
+    ],
+    "old_RS_proof": [
+      "bit-spread-rs-physical-word/author/RS-SOURCE.md",
+      "432e19d4d11e6068eac7bea94dba459464e804b539634be54824c30f25f7fcae"
+    ],
+    "old_RS_source": [
+      "bit-spread-rs-physical-word/author/rs_source.py",
+      "a51189b6d5422ec07fb2fedc822dc856e3277ea8ae0631894c34464419b8c7f9"
+    ],
+    "triangle_witnesses": [
+      "bit-single-rs-anchor-obstruction/author/WITNESSES.json.gz",
+      "c74e4cd954ed1d68d7be46dc35290241558c785ff22c37e25061ecb379f26798"
+    ]
+  },
+  "status": "PASS_INDEPENDENT_GEOMETRIC_RS_ESCAPE",
+  "tensor_bank_3840_example": {
+    "common_two_node_span_rank": 1200,
+    "fixed_centre_span_rank": 1440,
+    "quotient_width": 240,
+    "saturation_needed": 3600
+  },
+  "tensor_rank_formulas": {
+    "all_certified_native_pairs": "5*t",
+    "common_two_node_upper_bound": "5*t",
+    "fixed_centre": "6*t",
+    "saturation_needed": "15*t"
+  }
+}

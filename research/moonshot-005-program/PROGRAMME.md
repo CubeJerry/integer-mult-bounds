@@ -1,5 +1,19 @@
 # Persistent κ=0.005 research programme
 
+## S030 checkpoint4: shared geometric coordinates and a physical local H word
+
+**No new complete kappa.** The selected conditional value remains .00363005817. All five foundations and both strict suppliers remain open. The constructive frontier is a shared source with structured fibres across the native atlas.
+
+The [geometric source identity](results/bit-geometric-rs-quotients/ADMISSION.md) is now independently proved. Elliptic-quadric nodes give fixed-centre span6 and two-node span5, instead of the old rank15. All111 nominal source tables pass. Two arbitrary linear quotient edits preserve strict nonsaturation when full source cuts survive; generic edits of all quotients have no such protection.
+
+The [local geometric source/H construction](results/bit-coupled-native-geometric-h-source/ADMISSION.md) uses weighted quadratic annihilators on a Desarguesian nine-port set and a complementary12-copy ramp. All45 actual ports,720 early owners and108 physical donor minors are verified. The all111-source-plus-H word costs458867280 ADD,2540160 INIT and dirty CLEAR each, and zero extra MOVE. Its96 unchanged obstructed ordinary backgrounds prohibit treating this local word as a global completion.
+
+The [new global allocation](results/bit-global-desarguesian-port-allocation/ADMISSION.md) accommodates these ports at every H:630 marked D,1120 local Desarguesian spreads, and all30240 point reservations. Seven alternating forms give28 shared H labels, each used by40 disjoint planes, and one global GF64 node system. They derive every local F4 action and all40320 receiver-parameter sum relations. This allocation is not induced by any orthogonal spread. It gives a coherent geometry for construction, not the missing shared inverse fibres.
+
+The [paid complex export sieve](results/complex-native-paid-export-sieve/ADMISSION.md) permits arbitrary retained-payload recoding and retiming plus any positive number of paid parallel3-to282 exports. Only eleven high-grade cycle occurrences can be deleted; target-support cuts leave352 subsets. After one observer, the best high-grade-only optimistic family leaves2.125014706817... units at .005, or16.954763527846... at .0043, for all additional repair. No actual repair word has been produced.
+
+The next source must preserve structural degeneracy beyond its selected centres. A newly closed local cycle is being checked against alternate triangles; full replication is paused. The shared H/D/K/facet word and its complete affordable return remain the central missing construction.
+
 ## S030 checkpoint 3: structured source redesign
 
 **No new complete κ.** Selected conditional κ remains .00363005817; all five foundations and both strict suppliers remain open. The next construction uses native geometric evaluation nodes. Its scalar identities are under independent review and its coupled H word is not yet built.

@@ -2818,3 +2818,17 @@ The array-anchor criterion allows arbitrary gauged array sources and arbitrary s
 The complex four-space theorem compares912 required original dimensions with 911 exports after the surgery. All subsets of 181 eligible retargets preserve the deficit. The independently reconstructed genuine fifth-channel word is exact on all 1,289 originals. Changed routes remain open.
 
 At 08:10:41 UTC the session was active. A structured geometric-node source now gives author propagation rank 5 at all 99 triangles; independent field/geometry review and coupled H construction are the next wave. Five fresh root reviewer executions are collected in the checkpoint receipt. No new complete κ or foundational discharge.
+
+### S030 checkpoint4 — geometric fibres, physical local H, and global bilinear allocation
+
+Parent03f6aac8600ae2bad705eadcb4b22e40d3c7dc50, live observation09:04:42 UTC. The five-hour session continues toward11:22:15 UTC. Four further packages bring the session total to twelve admissions.
+
+Proved the sparse geometric RS block identity and rank6/rank5 fibre formula, authenticated all111 nominal source tables, and accepted the two-quotient-edit stability lemma. Constructed and independently compiled a complete local3+12 source/H263 word with all720 original early owners and full cost458867280 ADD,2540160 INIT/CLEAR each, no extra MOVE. The local result does not repair its96 old obstructed ordinary backgrounds.
+
+Root discovered a new global630-D allocation extending its nine ports; every one of1120 local spreads is Desarguesian. An explicit seven-alternating-form description gives28 shared H labels, every source star bijective onto them, all7560 geometric/6470 native scalar views, and all40320 receiver-parameter sum identities. Independent review reconstructs the physical atlas and checks all local field actions. No orthogonal spread induces this marking.
+
+The complex paid-export circulation theorem and target-support cuts were independently checked with full1289-column rational source replay, SCCs, all2048 deletion graphs and separate interval prices. Only eleven high-grade cycle deletions remain eligible;352 subsets survive support, with optimistic extra-repair margins16.954763527846... at .0043 and2.125014706817... at .005.
+
+A newly closed four-centre k3 source was found locally, but alternate triangles obstruct each of its eight standalone anchors. Its positive component and scoped obstruction await the next root admission; the unbuilt40-component replication was stopped. The next wave uses structured global coordinates instead of generic source tails.
+
+All six checkpoint4 fresh root replays match frozen independent receipts. Selected conditional kappa remains .00363005817; no new complete kappa, foundation discharge, strict supplier or PR readiness. Resulting remote commit is externally verified after publication, not embedded self-referentially here.

@@ -505,3 +505,13 @@ The general array review imports no author code, independently inverts 4,422 sca
 The complex reviewer reuses only an earlier independent sparse rational reader, reconstructing both surgeries, all 1,289 columns, ownership, aliases, restricted rank 912, every 911 modified export slot and 181 eligible donors. The fifth-channel control equals the authentic target.
 
 The [checkpoint3 replay](sessions/2026-11-20-S030/checkpoint3_replay.py) executes five checks by default with `--repo . --out FRESH --jobs 2`. Its retained [receipt](sessions/2026-11-20-S030/CHECKPOINT3-VALIDATION.json) collects separate fresh root executions already performed in S030 and compares every result field without normalization. Collection is not another execution or independent review.
+
+## S030 checkpoint4 — six fresh root replays
+
+Four new admissions: geometric quadric source identities, the physical local geometric source/H word, global Desarguesian allocation/shared bilinear nodes, and the complex paid-export sieve. The independent geometry and H reviewers rebuild from pinned data without author constructors; the global reviewer uses independent physical-lattice reconstruction and RREF enumeration. The complex root review uses separate SCC decomposition, direct traversal of all2048 subsets and a separate rational log/exp price engine.
+
+Root freshly executed the99-source geometric review, all111 supplement, physical source/H review, global allocation review, bilinear supplement, and paid-export review. The checkpoint4 collector compares every JSON field without normalization. These are reproductions of separate independent reviews, not six new independent reviews. Default checkpoint4_replay.py executes all six again; the retained receipt records collection of the already executed fresh jobs.
+
+The two-edit lemma also received a root mathematical proof review, including the distinction between finite-alphabet nonlinear gauge claims and arbitrary-extension linear ranks. Scope remains local/geometric or necessary-condition only. No complete supplier or exponent was tested or claimed.
+
+[Reproduction](sessions/2026-11-20-S030/checkpoint4_replay.py) and [six-job receipt](sessions/2026-11-20-S030/CHECKPOINT4-VALIDATION.json). Confirmed checkpoint parent03f6aac8600ae2bad705eadcb4b22e40d3c7dc50; resulting publication SHA is verified externally.

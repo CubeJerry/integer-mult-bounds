@@ -1,9 +1,11 @@
-# S030 live checkpoint 3
+# S030 live checkpoint4
 
-The five-hour session remains active, with approximate endpoint 11:22 UTC on 20 November 2026. Confirmed checkpoint parent: `ef071187ffe94f1469b6401c8d217c2c3c175557`; canonical upstream remains the last examined `e54523517d0f03e58352e647c403a5af3e525a57`. This is not a final handoff.
+The five-hour session remains active until approximately11:22 UTC on20 November2026. Confirmed parent03f6aac8600ae2bad705eadcb4b22e40d3c7dc50; canonical upstream last examined e54523517d0f03e58352e647c403a5af3e525a57. This is not the final handoff.
 
-Eight result packages are now admitted this session. Connected and hybrid source words serve 101 native H/receiver interfaces with full source invoices. Four quotient kernels change while preserving those fibres; all five closing centres require moving old fibres. The arbitrary-array criterion and 17 applications show that the frozen all 111/chain/hybrid words cannot complete the exact S028 target, while their local positive source results remain valid.
+Twelve packages are admitted this session. New geometric scalar sources have rank5 two-node propagation spans; a genuine3+12 source/H263 word has a fully reviewed458867280 ADD source-plus-H invoice. A different global630-D allocation makes every local nine-port spread Desarguesian. Seven explicit alternating forms give one shared28-node system across all120 roots and derive all1120 local field structures.
 
-The active construction uses geometric elliptic-quadric evaluation nodes in GF64. Author calculations give propagation rank 5 instead of 15 at all 99 native triangles. Independent review and coupled H construction are underway. The complex worker seeks broad changed-route repairs after the reviewed 912/911 export deficit excludes every same-source funding subset.
+The main gap is now a shared source whose complete inverse fibres satisfy all relevant H targets while retaining structured degeneracy. Generic local constructions still fail alternate anchor tests. A new closed four-centre component and its standalone obstructions are under final root review; full40 replication was stopped.
 
-Selected complete conditional κ remains .00363005817. No significant new complete κ, strict supplier, foundational discharge or PR readiness is claimed. All five foundations remain open. The compatible global physical word and its actual return remain the central obligation.
+The complex paid-export sieve reduces all high-grade deletions to eleven cycle occurrences and352 support-feasible subsets. At .005 the best optimistic high-grade-only family leaves about2.125 units for further repair; it is not an actual source.
+
+Selected complete conditional kappa remains .00363005817. No significant new complete exponent, supplier, foundational discharge or PR readiness is claimed. Both strict suppliers and all five foundations remain open. The next checkpoint continues structured coupling and actual route repair.

@@ -1,0 +1,69 @@
+{
+  "execution_mode": "collected separate fresh S030 root executions",
+  "independent_review": "Separate proof/code reviews in the four admissions; these executions are reproduction, not additional independent reviews.",
+  "jobs": [
+    {
+      "expected": "bit-geometric-rs-quotients/review-b/RESULT.json",
+      "expected_sha256": "52d8da880897c6f02a5591dd0c667725f13236669832af2317f687bf16f8f1da",
+      "matched": true,
+      "name": "geometric-rs-core",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-geometric-rs-quotients/review-b/check.py",
+      "script_sha256": "32ecce4f1f8679469b449f5677f892fc76d0576e2f11c6c242f2a5b1cbc8bb42"
+    },
+    {
+      "expected": "bit-geometric-rs-quotients/review-b/author-supplement/RESULT.json",
+      "expected_sha256": "7b56613c1b6187d1e4cc38ab69677601e2e781d3b9ae50fb132c51b263f6b80d",
+      "matched": true,
+      "name": "geometric-rs",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-geometric-rs-quotients/review-b/author-supplement/check.py",
+      "script_sha256": "e6d0e0face6c685a60bbe23d3ae86a349ac358f7637fe577f9b32568c804730b"
+    },
+    {
+      "expected": "bit-coupled-native-geometric-h-source/review-b/output/RESULT.json",
+      "expected_sha256": "ca03d25e3930f566e9998566a366e892de2411c5895134223b9803cb11853cf6",
+      "matched": true,
+      "name": "geometric-h",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-coupled-native-geometric-h-source/review-b/check.py",
+      "script_sha256": "db1b6ebd68b24e6131572b4ecad925fc8f2044d3849d7b011c58a03a439aa249"
+    },
+    {
+      "expected": "bit-global-desarguesian-port-allocation/review-c/output/RESULT.json",
+      "expected_sha256": "74e4cc8c26430d4ed2226baa959f7a92b1a905901204ea197c59f025ba851f5d",
+      "matched": true,
+      "name": "global-ports",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-global-desarguesian-port-allocation/review-c/check.py",
+      "script_sha256": "acc88cc6c88cbd0336cd740072a0a406e0b6689fb2143d9a284d388d26c0c7b5"
+    },
+    {
+      "expected": "bit-global-desarguesian-port-allocation/review-c-bilinear/output/RESULT.json",
+      "expected_sha256": "57b1e87140548c457cc1675fd1490294f9a6f0ab2a8197ed14a4187aef234eb4",
+      "matched": true,
+      "name": "global-bilinear",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-global-desarguesian-port-allocation/review-c-bilinear/check.py",
+      "script_sha256": "f67b05375165930319c1829c8469cd8ec28cac3bb6d1e8d2dbb06fc4ecf89df4"
+    },
+    {
+      "expected": "complex-native-paid-export-sieve/root-review/RESULT.json",
+      "expected_sha256": "272897725199f7ae2deea31ee4c594b559416aeeede5881466fcb266f23b0451",
+      "matched": true,
+      "name": "paid-export-sieve",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "complex-native-paid-export-sieve/root-review/check.py",
+      "script_sha256": "cdbe00b75d38e1e5a624a1c038b0ffd3d2170e4457214edb0e43d6b7fe31a3c2"
+    }
+  ],
+  "new_complete_kappa": false,
+  "parent_baseline": "03f6aac8600ae2bad705eadcb4b22e40d3c7dc50",
+  "status": "PASS_S030_CHECKPOINT4_REPRODUCTION"
+}
