@@ -2775,3 +2775,7 @@ Checkpoint seven proved the abstract nine-bank native floor, a sharp factor-two 
 ## S029 checkpoint 8
 
 The eighth checkpoint proves every directed native donor individually necessary at the nine-bank optimum and gives a quantitative loss bound. It integrates complete original-owner H-to-facet routing, the all-pair S028 coordinate witness, exact global fixed-word ranks, native prefix/suffix retuning cuts and the full rational #7830 rail plus #7833 compatibility. Each incomplete physical continuation has its own certificate and invoice.
+
+## S029 checkpoint 9
+
+Two native Clebsch certificates give a 36,921-symbol lower bound after any one proper donor is deleted. Losing a regular donor costs at least 37,303. A physical cut cover forces 3,036 active middle charts. One word realizes a 31-chart packing and 51 full proper blocks together. A separate twelve-chart and three-terminal feedback edit restores 736 global kernel directions at its priced ADD cost.

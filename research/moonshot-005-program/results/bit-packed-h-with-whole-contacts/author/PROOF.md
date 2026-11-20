@@ -1,0 +1,15 @@
+# All 31 packed H centres and 51 complete prescribed native contacts
+
+The earlier 31-centre word supplied, on each receiver i in its support, full-column-rank matrices Z_i,L_i for each 96- and 384-component body. On prescribed H-only fibres it suffices that the terminal output gauge obey O_i Z_i=L_i. There are 78 distinct original donor stars involved in these constraints. Keep them unchanged. The other 33 donor stars allow a local source coordinate change G_j before the genuine Reed–Solomon source. Call B_ij the actual invertible regular source–H–D–K–RS map on a new donor's true contact.
+
+For 32 ordinary donors choose 49 actual facets, at most one donor per receiving facet. Their specified full target is I. A single input gauge can serve every facet assigned to this donor if it satisfies
+
+    G_j L_i = B_ij^(-1) Z_i     on each assigned packed-H panel.
+
+Both joint lists of columns are independent in each body sector for all selected groups. Extend these two lists by increasing coordinate pivots to full bases and take their change-of-basis map. At each assigned receiver set O_i=(B_ij G_j)^(-1). This realizes the entire original-coordinate identity and preserves every packed H panel. Other ordinary receivers retain their earlier gauge. This construction uses the two actual source bands and the true middle and terminal words.
+
+Two additional contacts carry genuine prescribed shears. At receiver 80 its packed-H list is empty, so set O_80=(I+F_2)(B_80,2 G_2)^(-1). F_2 is the transfer from the original 64-field bank 2 to bank 0. At donor 10 choose G_10=(O_0 B_0,10)^(-1)(I+R_1), where R_1 sends bank 0 to bank 1. The native assignment explicitly requires these two blocks. The row and column changes affect distinct gauges and every checked full contact remains invertible.
+
+The 51 full blocks are disjoint from the earlier 2,844 packed-fibre donor/receiver pairs. They add 195,840 verified original input directions to 749,520 and give 945,360 over 2,895 ordered proper contacts. All 6,470 full proper block ranks survive by invertible source and receiving gauges. Every original holder permutation and its matching Ground inverse are charged. The complete source costs 2,426,833,912 forward and 2,143,919,136 inverse binary ADDs, with 2,113,920 INITs and dirty CLEARs. The receiving gauges and their Ground inverses cost 2,263,263,740 ADDs in each direction. All source-gauge and receiving-gauge changes add zero MOVE, INIT and dirty CLEAR. These figures are local increments or source totals, with the retained H/D/K and RS terminal word invoiced separately.
+
+The direct source-first replay recomputes the full 480-square contact coefficients on all 51 changed cells independently of the factorized B construction. Each of the 11,750,400 body coefficients passes, including off-sector zeros and both real exceptions. The two-sector 31-centre panel digest is pinned to the separately admitted native source/receiver proof. Remaining foreign directions, the low return and recursive suppliers remain open. Credit @CubeJerry and the actual native/packed source compilers. OpenAI assistance was used.

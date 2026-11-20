@@ -11,3 +11,5 @@ The converse also forces every proper linear block to have rank at least b−6h 
 The proof checks an asymmetric 54-term entropy certificate on 2,673 authenticated native diagrams. Three implications per directed edge suffice. [Complete proof](author/HORN-PROOF.md) · [Reproducible native certificate](author/output/HORN-RESULT.json) · [Independent quotient and edge-by-edge verification](review/output/ARC.json).
 
 Blasiak, Kleinberg and Lubetzky previously established broadcast rate five for the Petersen graph. The present contribution uses its actual native embedding and proves the individual 6h bound with a second explicit dual. [Index coding via linear programming](https://arxiv.org/abs/1004.1379).
+
+A [Clebsch and punctured-Clebsch certificate](../bit-native-directed-arc-gap/ADMISSION.md) strengthens the individual-donor prices to 36,921 and 37,303 at bank 3,840.
