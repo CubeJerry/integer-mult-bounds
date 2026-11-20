@@ -3086,3 +3086,24 @@ checks. Whole-H joins21/22/24 remain incompatible with the required12. Root's
 complex total-rank refinement is independently accepted by B: rank[C N]=1288,
 with an exact rank6 small matrix; the five pinned defects are stronger alignment
 conditions, not five missing global dimensions. All scopes remain source-bound.
+
+## S031 checkpoint8 — all native donors at one physical D cut
+
+Confirmed parent:577f510cb4942e9096a197b656c69479577832a0. Worker C accepts the five-source D1509 construction
+and all-eleven extension, and B independently accepts both actual binary/cache
+invoices. Root fresh author replays reproduce both result pairs. The extension
+has693/639 source views,280 H modules,11088 donor sections, one common entire
+8-space at receiver6,444189456 ADDs and279648 INIT/CLEAR each, retaining16 gap6
+field exports. Pure inverse placement and complete global return remain open.
+The old five-source construction and its313198856 ADD bill remain separately
+frozen. Other receiver compatibility is being investigated in a separate package.
+
+Root independently accepts the complex tap patch on all1289 endpoint columns:
+input332 and272 pure-source pinned conditions are repaired;102 failures still
+span rank5 and global response rank remains1288. No independent obstruction or
+new exponent credit is obtained. The final upstream refresh finds open PR7849
+at3615fd982f2f4dc7172bef6f0dc9a4f77d5ab6dd; its changed outer Fourier architecture
+retains the mixed supplier price. Four exact source documents and a scoped
+price/interface intake are preserved. Canonical main and selection are unchanged.
+No upstream PR is created. Work continues to19:44:01UTC; the resulting remote
+checkpoint identity is verified separately and becomes the next baseline.

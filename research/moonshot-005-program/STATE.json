@@ -1,20 +1,20 @@
 {
-  "schema": "moonshot-005-program-state-v16",
+  "schema": "moonshot-005-program-state-v17",
   "repository": "CubeJerry/integer-mult-bounds",
   "branch": "research/moonshot-005-program",
   "target_kappa": "1/200",
   "selected_conditional_kappa": "363005817/100000000000",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
   "session": "2026-11-21-S031",
-  "session_status": "active-checkpoint7",
+  "session_status": "active-checkpoint8",
   "session_started_utc": "2026-11-20T14:44:01Z",
   "session_planned_end_utc": "2026-11-20T19:44:01Z",
   "requested_session_seconds": 18000,
   "session_start_sha": "5953b86befe08da02dbaa5ff6c16111aea8a81d4",
-  "checkpoint_baseline_sha": "905a6434113f71ac8c909b5ed06de81e6e440c69",
+  "checkpoint_baseline_sha": "577f510cb4942e9096a197b656c69479577832a0",
   "checkpoint_sha_semantics": "Confirmed parent of this checkpoint; resulting commit is verified and reported separately.",
-  "phase": "Priced full45 local source/H pair; actual D1509 prototype under review; exact frozen complex completion obstructions",
-  "primary_obligation": "Construct a phase-compatible common physical D word for the D-aligned H263/H642 pair, starting at D1509 with its five supplied donors, then extend the same source/transport architecture while meeting the global restoration and return budgets.",
+  "phase": "One physical D1509 cut on all eleven native donors; simultaneous receiver compatibility remains open",
+  "primary_obligation": "Extend the eleven-source receiver6/D1509 whole-fibre and readout construction to simultaneous receivers while preserving whole H263/H642 interfaces, then complete the global source/H/D/K/facet word and affordable return.",
   "programme_new_complete_kappa": false,
   "pr_ready": false,
   "background_execution": false,
@@ -57,7 +57,10 @@
     "results/bit-shared-h-s031-construction/d-aligned-full45-pair/source-compilation/ADMISSION.md",
     "results/complex-paid-export-s031-coupled-repair/source-hub-completion/rank-boundary/ADMISSION.md",
     "results/complex-paid-export-s031-coupled-repair/source-hub-completion/frozen-gates/ADMISSION.md",
-    "results/bit-shared-h-s031-review/reciprocal-port-complement/ADMISSION.md"
+    "results/bit-shared-h-s031-review/reciprocal-port-complement/ADMISSION.md",
+    "results/bit-shared-h-s031-construction/native-d1509-cut/ADMISSION.md",
+    "results/bit-shared-h-s031-construction/native-d1509-all-native/ADMISSION.md",
+    "results/complex-paid-export-s031-coupled-repair/source-hub-completion/tap-isolation/ADMISSION.md"
   ],
   "verified_results": {
     "frozen_feedback_partition_gate": {
@@ -792,6 +795,74 @@
       "independent_complete_star_determinants": 576,
       "line_completion_polynomial_degree": 3,
       "maximum_forbidden_curve_parameters": 9
+    },
+    "native_d1509_five_source_cut": {
+      "path": "results/bit-shared-h-s031-construction/native-d1509-cut/ADMISSION.md",
+      "native_sources": [
+        0,
+        45,
+        61,
+        62,
+        100
+      ],
+      "receiver": 6,
+      "D": 1509,
+      "entire_common_fibre_dimension": 8,
+      "source_bank_dimension": 480,
+      "H_modules": 136,
+      "H_donor_sections": 5040,
+      "gross_ADD": 313198856,
+      "gross_INIT_and_CLEAR_each": 134928,
+      "gap6_field_exports": 16,
+      "global_inverse_and_return": false
+    },
+    "native_d1509_all_native_cut": {
+      "path": "results/bit-shared-h-s031-construction/native-d1509-all-native/ADMISSION.md",
+      "native_sources": [
+        0,
+        32,
+        35,
+        38,
+        45,
+        61,
+        62,
+        68,
+        69,
+        90,
+        100
+      ],
+      "receiver": 6,
+      "D": 1509,
+      "entire_common_fibre_dimension": 8,
+      "source_bank_dimension": 480,
+      "source_quotient_dimension": 30,
+      "geometric_source_views": 693,
+      "native_source_views": 639,
+      "physical_early_bases": 11,
+      "H_modules": 280,
+      "H_donor_sections": 11088,
+      "whole_H_common_centres": [
+        263,
+        642
+      ],
+      "gross_ADD": 444189456,
+      "gross_INIT_and_CLEAR_each": 279648,
+      "gap6_field_exports": 16,
+      "other_native_sources_unconstructed": 100,
+      "other_receiver_cuts": false,
+      "global_inverse_and_return": false,
+      "complete_supplier_invoice": false
+    },
+    "complex_tap_isolation": {
+      "path": "results/complex-paid-export-s031-coupled-repair/source-hub-completion/tap-isolation/ADMISSION.md",
+      "restored_full_input_column": 332,
+      "pure_source_pinned_passes": 272,
+      "remaining_pinned_failures": 102,
+      "pinned_quotient_rank": 5,
+      "total_response_rank": 1288,
+      "net_independent_obstruction_removed": false,
+      "new_routes": 0,
+      "complete_repair": false
     }
   },
   "native_target": {
@@ -823,22 +894,21 @@
     "joint_recovery_eight_field_unit_cap_limiting": 22
   },
   "active_subproblems": [
-    "Independently verify the new single-cut D1509 physical construction, including actual early/late cache costs.",
-    "Complete compatible source data for the six remaining native D1509 donors and extend one common word to all its native receivers.",
-    "Review reciprocal width12 local four-space compatibility without assuming full unbuilt H readouts.",
-    "Construct remaining source/H/D/K/facet transport and affordable return on one word.",
-    "Use the exact complex rank-five pinned gate to guide genuine surrounding-form recoding, with two paid routes and all old outputs restored."
+    "Independently review the separate fixed-word other-receiver census and possible four-view input changes.",
+    "Construct simultaneous common D receiver fibres and whole H compatibility on the same sources.",
+    "Complete the other100 native source stars, K/facet transport and the physical global restoration/return invoice.",
+    "Find surrounding complex recoding that removes the remaining rank5 pinned obstruction and restores outside endpoints and stock."
   ],
   "next_actions": [
-    "Finish independent review of the actual D1509 prototype; retain matrix, causal owner and complete global word distinctions.",
-    "Extend the same D architecture across all native donor/receiver incidences and whole shared H stars.",
-    "Complete the new-source compiler and global return/cache invoice before a supplier claim.",
-    "Find exact surrounding complex recoding; changing only the received-field coefficients cannot repair the frozen pinned defect."
+    "Resolve multi-receiver source/H/D compatibility using exact whole inverse fibres and actual readout maps.",
+    "Compile and price any further source changes; retain the pure-inverse/global-return distinction.",
+    "Construct the complete global return within34675 at m870 if the sixteen gap6 exports remain.",
+    "Satisfy both strict supplier inequalities and the full recursive caller before any kappa claim."
   ],
   "pending_recovery": {
     "S030_missing_artifacts": "Promised common-line and frozen-feedback-gauge packages were absent from tracked checkpoint5; not inherited as proofs. Frozen feedback now has a fresh stronger S031 proof."
   },
-  "upstream_evidence": "sessions/2026-11-21-S031/UPSTREAM-REFRESH2.json",
+  "upstream_evidence": "sessions/2026-11-21-S031/UPSTREAM-REFRESH3.json",
   "latest_open_comparator": {
     "pr": 7830,
     "head": "87fbf4f7b35b0f18ab12b5767775a9a424cf0b15",
@@ -887,5 +957,13 @@
     "status": "open, unmerged; targeted source-transfer review complete; full claim not independently admitted",
     "transferred_to_moonshot": false,
     "intake": "results/complex-paid-export-s031-coupled-repair/upstream-7846-intake/SELECTIVE-INTAKE.md"
+  },
+  "pending_external_direct_fourier": {
+    "pr": 7849,
+    "head": "3615fd982f2f4dc7172bef6f0dc9a4f77d5ab6dd",
+    "scope": "new outer geometry using unchanged .00387992803556 mixed suppliers",
+    "status": "open unmerged; source and explicit interface read, full theorem not independently admitted",
+    "transferred_to_moonshot": false,
+    "intake": "results/complex-paid-export-s031-coupled-repair/upstream-7849-intake/SELECTIVE-INTAKE.md"
   }
 }

@@ -1,5 +1,26 @@
 # Exact target κ=1/200 — current programme
 
+## S031 checkpoint8: a complete local D cut, unchanged global thresholds
+
+The [all-native D1509 cut](results/bit-shared-h-s031-construction/native-d1509-all-native/ADMISSION.md) now supplies all eleven native
+donors at receiver6. Its whole common fibre has dimension8 per480-field source,
+or64 at bank3840. All693/639 source views,280 H modules and11088 donor sections
+have exact evidence. This is one receiver; the remaining receivers and whole-H
+interfaces are unproved.
+
+The charged eleven-source/280-H/one-D replacement cost is444189456 ADDs,
+279648 INITs,279648 dirty CLEARs and16 retained gap6 field exports. It includes
+all new source compositions, stationary caches and pure phase inverse words.
+The global placement of those inverses and the complete supplier invoice remain
+open. Finite local constants do not alone determine an asymptotic kappa.
+The strict m870 return cap34675 and floor34560 are unchanged.
+
+The [complex tap repair](results/complex-paid-export-s031-coupled-repair/source-hub-completion/tap-isolation/ADMISSION.md) closes all272 pure-source pinned
+conditions, but leaves quotient rank5,102 failed memberships and global rank1288.
+It does not close an independent obstruction. Open upstream PR7849 retains
+rates below.005 and cannot supply the target using its unchanged supplier ledger.
+Both strict suppliers, the recursive caller and all five foundations stay open.
+
 ## S031 checkpoint7: actual source costs and a sharper complex repair obligation
 
 The [reciprocal complement](results/bit-shared-h-s031-review/reciprocal-port-complement/ADMISSION.md)

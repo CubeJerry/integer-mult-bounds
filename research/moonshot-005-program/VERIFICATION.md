@@ -1,5 +1,34 @@
 # Verification ledger
 
+## S031 checkpoint8: independently reviewed native D cut and tap patch
+
+Worker C independently reconstructed the five-source D geometry, whole fibres,
+actual H/D owner bindings and chronological cache word. Worker B independently
+rebuilt every five-source/H/D binary operation and holder, with all-bit symbolic
+replays. The accepted gross count is313198856 ADDs and134928 INIT/CLEAR each.
+Root freshly reproduced both author outputs after reviewing the proofs.
+
+For the [all-eleven extension](results/bit-shared-h-s031-construction/native-d1509-all-native/ADMISSION.md), C independently checks the
+six96-coordinate compositions, the378 new determinant factorizations, six actual
+early bases,4536 scalar propagation spans, all11088 H sections and the35-by88
+ingress with eleven copies of I8. B independently reconstructs all source/H/D
+words and cache bindings:444189456 ADDs,279648 INIT/CLEAR each and16 gap6 fields.
+Both author result files reproduce exactly in fresh root runs. These author
+replays are not additional independent checks.
+
+Root's [tap review](results/complex-paid-export-s031-coupled-repair/source-hub-completion/tap-isolation/root-review/REVIEW.md) reconstructs all1289 rational
+endpoints from raw causal forms and reuses the previously independent frozen
+baseline reconstruction. It verifies the restored entire input332 column,
+unchanged other columns/outside rows,272 pure-source memberships, rank5 quotient
+with102 failures and total response rank1288. The new author executable is not
+imported. No independent obstruction is removed.
+
+The checkpoint evidence collection binds scripts, result bytes and source pins.
+The [PR7849 intake](results/complex-paid-export-s031-coupled-repair/upstream-7849-intake/SELECTIVE-INTAKE.md) verifies exact source Git blobs and
+an elementary rational price comparison only; its full external theorem is not
+admitted. No full inverse, return, complete invoice or kappa follows from the
+local proofs. All five foundational dependencies remain explicit.
+
 ## S031 checkpoint7: full rational gate review and complete binary source words
 
 The [reciprocal complement](results/bit-shared-h-s031-review/reciprocal-port-complement/ADMISSION.md)

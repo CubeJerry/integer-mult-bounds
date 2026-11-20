@@ -1,0 +1,110 @@
+{
+  "status": "PASS_CHECKPOINT8_EVIDENCE_COLLECTION",
+  "mode": "Collect completed independent executions, author reproductions and proof reviews; collection is not another independent review",
+  "checkpoint_parent": "577f510cb4942e9096a197b656c69479577832a0",
+  "checked_existing_source_pin_and_manifest_entries": 172,
+  "jobs": [
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-cut/check.py",
+      "checker_sha256": "93c436a71ba5ae51ed99236a3aeefdce7dd05c1fa4273528eb1127712cc138da",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-cut/output/RESULT.json",
+      "receipt_sha256": "c7eef8fb346564557ea5952e5d1de89b172108c007390d00efb0a22687e8a8f3",
+      "status": "PASS_ACTUAL_FIVE_SOURCE_D1509_CUT",
+      "verification_kind": "author geometry with fresh root reproduction",
+      "fresh_reproduction_all_result_fields_match": true
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-cut/compile_prefix.py",
+      "checker_sha256": "b2ee29c4819bc94b8f5c810c40c731726beae4e9e725aa6213d38924241560a3",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-cut/output/COMPILER-RESULT.json",
+      "receipt_sha256": "8915b49172a0620f10bbe21f6f9ff42121ca6784009b64eaf1465f53211acd68",
+      "status": "PASS_CHRONOLOGICAL_FIVE_SOURCE_H_D_COMPILERS",
+      "verification_kind": "author compiler with fresh root reproduction",
+      "fresh_reproduction_all_result_fields_match": true
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-cut/review-c/check.py",
+      "checker_sha256": "dea543a45afbe12027e227ab34e63cc3f08a1249c853849281318b048ee1a2f4",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-cut/review-c/output/FULL-RESULT.json",
+      "receipt_sha256": "48a7b1cdf8f082dcaf58fe18c950b21f6cd3e8395fbeee0bd1e97538108a1378",
+      "status": "PASS_INDEPENDENT_FULL_WIDTH_D1509_CACHE_INTERFACE",
+      "verification_kind": "independent C full-width geometry, whole fibres, actual H/D owners and chronological D cache replay",
+      "fresh_reproduction_all_result_fields_match": null
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-cut/review-c/compiler-check.py",
+      "checker_sha256": "5bbfd678072256e05c34ade4b79f5622074685b455fa84b2977bb607344126d7",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-cut/review-c/output/COMPILER-REVIEW.json",
+      "receipt_sha256": "35aba125f5bd0b060801aa52e77020d34bf30add549ff60f222c649b10f16771",
+      "status": "PASS_INDEPENDENT_D1509_FULL_PREFIX_COMPILER_COUNTS",
+      "verification_kind": "independent C binary phase reconstruction and complete gross counts",
+      "fresh_reproduction_all_result_fields_match": null
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-cut/review-b-compiler/check.py",
+      "checker_sha256": "205b5167410508609f4b59d0a0877017493bd3073d9f6834c94ffc522f30495d",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-cut/review-b-compiler/output/RESULT.json",
+      "receipt_sha256": "a5b4a9c0d449260fdd270a41879c1eb8bc40c1771eb230f2cbe59fb9db5a4e19",
+      "status": "PASS_INDEPENDENT_NATIVE_D1509_COMPILER_AND_GROSS_BILL",
+      "verification_kind": "independent B owner, polynomial-lift, binary-word and typed-holder replay",
+      "fresh_reproduction_all_result_fields_match": null
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-all-native/check.py",
+      "checker_sha256": "866e2dc335a06fba3a7b2b3b5fb29f41ae3e7493ac7405dda902c560b4f5c22c",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-all-native/output/RESULT.json",
+      "receipt_sha256": "26364717ab78b301c956b70468e0a7d58f2635637c725e5e66ae8bb2df9bdd7d",
+      "status": "PASS_ALL_ELEVEN_NATIVE_D1509_CUT_EXTENSION",
+      "verification_kind": "author eleven-source geometry with fresh root reproduction",
+      "fresh_reproduction_all_result_fields_match": true
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-all-native/compile_prefix.py",
+      "checker_sha256": "e1e183066fed9cfdd4051a0b0b4992cd1bb69e2f69d202a8e9b7c1d9026586c7",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-all-native/output/COMPILER-RESULT.json",
+      "receipt_sha256": "0b435b0111248820ad9b8a8109e2d1c45761998b76f6aaebbbb076075db82df5",
+      "status": "PASS_CHRONOLOGICAL_ELEVEN_SOURCE_H_D_COMPILERS",
+      "verification_kind": "author eleven-source compiler with fresh root reproduction",
+      "fresh_reproduction_all_result_fields_match": true
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-all-native/review-c/check.py",
+      "checker_sha256": "d5cb7d58be6c08c6e7e7b4b3228cfeff70d2e6070836bcd64a55e50f3e492941",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-all-native/review-c/output/RESULT.json",
+      "receipt_sha256": "32d7d1859c36c6271a24a3fa6fc354c6d6d51f66045c1c34d75ff3056ff78c0a",
+      "status": "PASS_INDEPENDENT_ALL_NATIVE_D1509_EXTENSION",
+      "verification_kind": "independent C exact tensor factors, six input changes, whole fibres and11088 H sections",
+      "fresh_reproduction_all_result_fields_match": null
+    },
+    {
+      "checker": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-all-native/review-b-compiler/check.py",
+      "checker_sha256": "f2dd1f85a44b8e8c51335bfaae2578ed2476941c2e478bf0836b7ed89591989d",
+      "receipt": "research/moonshot-005-program/results/bit-shared-h-s031-construction/native-d1509-all-native/review-b-compiler/output/RESULT.json",
+      "receipt_sha256": "78b697c0b6fe0cbd0e32d3eaa09316d0a31e26e405b5acb85d0a3181ef591dc8",
+      "status": "PASS_INDEPENDENT_ALL_ELEVEN_NATIVE_D1509_COMPILER_AND_GROSS_BILL",
+      "verification_kind": "independent B composed source/H/D compilation and complete local holder inventory",
+      "fresh_reproduction_all_result_fields_match": null
+    },
+    {
+      "checker": "research/moonshot-005-program/results/complex-paid-export-s031-coupled-repair/source-hub-completion/tap-isolation/root-review/check.py",
+      "checker_sha256": "2721667e66060d859ca0aa75031e35402f1233100bdefa9f87d03d3f3c9f1c7c",
+      "receipt": "research/moonshot-005-program/results/complex-paid-export-s031-coupled-repair/source-hub-completion/tap-isolation/root-review/output/RESULT.json",
+      "receipt_sha256": "bedbb587b9cb81daf8b7597676112b2d42316ff13ea9e3f369e2197522d99cdd",
+      "status": "PASS_ROOT_EXACT_TAP_ISOLATION",
+      "verification_kind": "independent root raw causal patch, all1289 rational endpoints and control-space ranks; retained independent frozen reconstruction reused",
+      "fresh_reproduction_all_result_fields_match": null
+    }
+  ],
+  "admissions": [
+    "results/bit-shared-h-s031-construction/native-d1509-cut/ADMISSION.md",
+    "results/bit-shared-h-s031-construction/native-d1509-all-native/ADMISSION.md",
+    "results/complex-paid-export-s031-coupled-repair/source-hub-completion/tap-isolation/ADMISSION.md"
+  ],
+  "external_intake": "results/complex-paid-export-s031-coupled-repair/upstream-7849-intake/INTAKE-RECEIPT.json",
+  "native_D_scope": "one receiver6/D1509, all11 native donors; all other receiver consistency remains separate",
+  "pure_phase_inverse_scope": "local inverse words only; full global restoration/preload and return not replayed",
+  "gross_counts_not_complete_supplier_invoice": true,
+  "tap_removes_independent_obstruction": false,
+  "new_complete_kappa": false,
+  "pr_ready": false
+}

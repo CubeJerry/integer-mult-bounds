@@ -1,5 +1,21 @@
 # Remaining proof obligations — current programme
 
+## S031 checkpoint8: all donor sources supplied for one native D cut
+
+| Obligation | Verified status | Next requirement |
+|---|---|---|
+| Receiver6/D1509 common entire fibre | Proved for all11 native donors, dimension8 | Extend compatible whole fibres/readouts to other receivers on one architecture |
+| Actual source/H/D local implementation | Independently compiled,444189456 ADDs and279648 INIT/CLEAR each | Place pure inverses in the full restoration/preload order; price all remaining work |
+| Whole common H readouts | H263/H642 retained;280 H donor-section words exist | Prove whole-common fibres at other shared H centres |
+| Other native sources, K/facets and return | Open;100 source stars remain | Build one complete native word and meet strict return cap34675 with16 paid fields |
+| Complex pure-source pinned repair | All272 now pass after exact tap isolation | Repair the still rank5 quotient, outside endpoints and stock under the full price |
+| Complete strict suppliers and caller | Open | All complete inequalities, uniformity, ownership, precision and recovery |
+
+[All-native cut](results/bit-shared-h-s031-construction/native-d1509-all-native/ADMISSION.md), [five-source predecessor](results/bit-shared-h-s031-construction/native-d1509-cut/ADMISSION.md),
+[tap repair](results/complex-paid-export-s031-coupled-repair/source-hub-completion/tap-isolation/ADMISSION.md). The current multi-receiver exploration is
+separate and under review. Neither sectional minors nor a small selected space
+are substituted for common entire inverse fibres. All five foundations remain.
+
 ## S031 checkpoint7: local compilation closed, surrounding recoding forced
 
 The [reciprocal complement](results/bit-shared-h-s031-review/reciprocal-port-complement/ADMISSION.md)

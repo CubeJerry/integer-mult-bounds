@@ -1,5 +1,27 @@
 # Construct structured native sources and prove exact compatibility gates toward κ=0.005
 
+## S031 checkpoint8: actual D decoding for all native donors
+
+The cumulative construction now supplies one complete local receiver6/D1509
+cut on all eleven native donors. Its entire common inverse fibre has dimension8
+in each480-field source bank, and an actual35-owner D word gives eleven identity
+readouts. The six new sources include explicitly paid96-coordinate input changes.
+The old five sources,136 H words, H263/H642 whole-readout interfaces and complete
+D cache circuit remain unchanged.
+
+Independent geometry and compiler implementations verify693/639 source views,
+280 H modules,11088 donor sections, every owner/cache binding and all binary
+phase words. The local eight-lane gross cost is444189456 ADDs,279648 INIT/CLEAR
+each and16 retained gap6 exports. Global inverse placement, other receivers,
+whole-H consistency, K/facet transport, affordable return and the complete
+supplier/caller invoice remain open.
+
+An exact complex tap patch restores one full endpoint column and all272
+pure-source pinned conditions, but rank5 alignment and rank1288 total response
+remain. This partial repair receives no kappa credit. The branch is a persistent
+research programme, not a complete .005 theorem and not ready for upstream
+submission. All five foundations and contributor credits are retained.
+
 ## S031 checkpoint7: explicit source words and a source-completion obstruction
 
 The [reciprocal complement](results/bit-shared-h-s031-review/reciprocal-port-complement/ADMISSION.md)

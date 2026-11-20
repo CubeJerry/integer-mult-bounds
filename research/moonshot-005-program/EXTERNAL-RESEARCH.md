@@ -1,5 +1,27 @@
 # Relevant external research and compatibility
 
+## S031 checkpoint8: new direct Fourier proposal, same supplier frontier
+
+[UPSTREAM-REFRESH3](sessions/2026-11-21-S031/UPSTREAM-REFRESH3.json) rechecks
+canonical main e54523517d0f03e58352e647c403a5af3e525a57 and the unchanged open
+heads of PR7830,7837,7840,7846 and7848. The selected conditional .00363005817
+certificate is unchanged.
+
+New open [PR7849](https://github.com/CrocSwap/integer-mult-bounds/pull/7849),
+head3615fd982f2f4dc7172bef6f0dc9a4f77d5ab6dd by Ali Romman, proposes direct
+Fourier multiplication on composite cyclic axes using accretive circulant
+roots. It retains the .00387992803556 mixed supplier price. The
+[selective intake](results/complex-paid-export-s031-coupled-repair/upstream-7849-intake/SELECTIVE-INTAKE.md) preserves the README, complete outer
+cost argument, notice and license with exact Git blob/SHA256 bindings.
+
+The possible contribution is a different outer interface with heterogeneous
+coprime-square axes and polynomial local compiler requirements. The full root
+circuit, machine refinement and supplier proofs were not independently replayed
+or adopted here. Its explicit q,a,b_BIT rates remain below.005, so the unchanged
+ledger does not reach the target. Transferring a future moonshot supplier still
+requires complete native, stock, ownership, precision, support and restoration
+contracts. No programme foundation is removed by external claims.
+
 ## S031 checkpoint7: local source changes still need their own external transfer
 
 The new source compiler inventory and exact frozen complex gates are internal
