@@ -1,11 +1,9 @@
-# S030 live checkpoint4
+# S030 live checkpoint5
 
-The five-hour session remains active until approximately11:22 UTC on20 November2026. Confirmed parent03f6aac8600ae2bad705eadcb4b22e40d3c7dc50; canonical upstream last examined e54523517d0f03e58352e647c403a5af3e525a57. This is not the final handoff.
+The five-hour session remains active until approximately11:22:15 UTC on20 November2026. Confirmed parent139b807548730e3743b134c128ecb52430a31002; live observation09:40:47 UTC. This is not the final handoff.
 
-Twelve packages are admitted this session. New geometric scalar sources have rank5 two-node propagation spans; a genuine3+12 source/H263 word has a fully reviewed458867280 ADD source-plus-H invoice. A different global630-D allocation makes every local nine-port spread Desarguesian. Seven explicit alternating forms give one shared28-node system across all120 roots and derive all1120 local field structures.
+Sixteen packages are admitted this session. The latest constructive family has every source view invertible for arbitrary noncommuting gap-supported blocks at every positive width, and uniform propagation bound9k below15k. Its complete100-ordinary-source finite instance and early bases are independently reconstructed. It supplies no common H word or physical full-bank invoice.
 
-The main gap is now a shared source whose complete inverse fibres satisfy all relevant H targets while retaining structured degeneracy. Generic local constructions still fail alternate anchor tests. A new closed four-centre component and its standalone obstructions are under final root review; full40 replication was stopped.
+The four-centre local cycle is verified but its eight standalone banks fail alternate triangles. The shared-node Hermite family fails arbitrary binary-linear gauge transport; the common scalar Clifford scaffold fails its exact projective test. A seed-specific feedback obstruction and a common-line H gate are pending admission. The next constructive attempt respects geometric core overlaps and allows actual symplectic node relabelings.
 
-The complex paid-export sieve reduces all high-grade deletions to eleven cycle occurrences and352 support-feasible subsets. At .005 the best optimistic high-grade-only family leaves about2.125 units for further repair; it is not an actual source.
-
-Selected complete conditional kappa remains .00363005817. No significant new complete exponent, supplier, foundational discharge or PR readiness is claimed. Both strict suppliers and all five foundations remain open. The next checkpoint continues structured coupling and actual route repair.
+The source/H/D/K/facet word, affordable return, compatible strict complex supplier and all five foundations remain open. Selected conditional kappa remains .00363005817. No significant new complete exponent or PR readiness is claimed.

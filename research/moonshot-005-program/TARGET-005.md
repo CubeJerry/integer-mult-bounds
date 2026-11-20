@@ -1,5 +1,11 @@
 # Exact target κ=1/200 — current programme
 
+## S030 checkpoint5: new source family, unchanged whole-system budgets
+
+The universal feedback theorem supplies explicit source inverses and global9k propagation slack at every positive width. It introduces no proved H/D/K/facet endpoint, return saving or complete physical invoice. Thus neither the .005 return cap34688 nor the .0043 cap36875 at b3840,m870 changes.
+
+The independently checked local cycle cannot be extended as a standalone width-three word with its frozen banks; the shared-node Hermite and common scalar Clifford gauge classes also fail their specified native tests. The next sufficient construction must solve shared H compatibility at the same time as source selection. No numerical credit is taken for passing a source-only rank test. The strict complex supplier and all five foundational assumptions remain explicit.
+
 ## S030 checkpoint4: geometric prerequisites met; whole-word thresholds unchanged
 
 The reviewed global Desarguesian allocation and seven-form node system remove a concrete incidence obstruction for the new local H mechanism. They do not change the return caps:34688 at .005 and36875 at the significant intermediate .0043 target, for b3840 and paired multiplicity870. Both strict suppliers and the complete caller still require an assembled word.

@@ -313,3 +313,14 @@ Proved: the abstract nine-bank optimum on the true complete native side-informat
 **C-PAID-EXPORT-SIEVE — proved necessary conditions only.** With arbitrary k>=1 paid parallel3-to282 exports, any high-grade deletion belongs to eleven cycle occurrences;1065 high-grade occurrences are mandatory. Eleven exact support-cut clauses leave352 subsets and the stated optimistic price margins. Correct recoding, endpoint restoration and physical scheduling remain open. Additional routes change the premises. [Admission](results/complex-native-paid-export-sieve/ADMISSION.md).
 
 No foundation or strict supplier is discharged, and no new complete kappa follows.
+
+## S030 checkpoint5: uniform feedback and exact fibre transport
+
+| Proposition | Status and scope | Evidence and next obligation |
+| --- | --- | --- |
+| Noncommuting nine-slot polynomial feedback has all native source views invertible and every two-plane propagation span at most9k | Proved for every positive k and coefficient extension; arbitrary finite-alphabet gauges preserve partition nonsaturation | [Admission](results/bit-coupled-native-polynomial-feedback/ADMISSION.md); choose parameters with common H fibres, replace singleton sources, and price the full word |
+| A closed four-centre geometric width-three source/H cycle exists | Independently verified finite construction; all eight standalone anchors fail alternate native triangles | [Admission](results/bit-coupled-native-geometric-cycle-source/ADMISSION.md); do not assume unbuilt full-bank mixing is excluded or completed |
+| Shared-node Hermite3/Hermite12 repetitions can be repaired by binary-linear bank gauges | Disproved under the fixed quotient and native identity-target contract, including arbitrary copy mixing and finite extensions | [Admission](results/bit-global-hermite-fibre-obstruction/ADMISSION.md); changed quotient information remains open |
+| Scalar geometric fibres align under one common S Gamma(j) T scaffold | Disproved by six native centres, with projective normalization proved | [Admission](results/bit-global-clifford-fibre-scaffold/ADMISSION.md); arbitrary donor gauges and other array sources remain open |
+
+**B-STRUCTURED-SHARED-SOURCE remains the primary open obligation.** Mandatory overlaps between geometric fibre cores must be respected; generic free tails and unrestricted feedback seeds have failed specific tests. No complete H/D/K/facet target, affordable return, strict supplier, foundation discharge or new complete kappa is admitted.

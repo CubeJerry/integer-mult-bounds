@@ -2832,3 +2832,15 @@ The complex paid-export circulation theorem and target-support cuts were indepen
 A newly closed four-centre k3 source was found locally, but alternate triangles obstruct each of its eight standalone anchors. Its positive component and scoped obstruction await the next root admission; the unbuilt40-component replication was stopped. The next wave uses structured global coordinates instead of generic source tails.
 
 All six checkpoint4 fresh root replays match frozen independent receipts. Selected conditional kappa remains .00363005817; no new complete kappa, foundation discharge, strict supplier or PR readiness. Resulting remote commit is externally verified after publication, not embedded self-referentially here.
+
+### S030 checkpoint5 — universal feedback and exact local compatibility obstructions
+
+Confirmed parent139b807548730e3743b134c128ecb52430a31002, live observation09:40:47 UTC. The requested five-hour session remains active until approximately11:22:15 UTC. Four further admissions bring the session total to sixteen.
+
+A closed four-centre width-three source cycle has all504 source cuts,144 common geometric fibres and eight actual early bases. Every one of its eight frozen standalone anchors is independently obstructed by a different triangle. The sufficient240 propagation certificates are reviewed separately from the author's full pair census. No unbuilt full-bank component-mixing impossibility is inferred.
+
+The new noncommuting polynomial-feedback family has an explicit square-zero source inverse at every width. A two-space envelope and visible-quotient rank subtraction give a universal9k propagation bound. Its100 ordinary donors and all6,300 geometric/5,828 native source cuts,100 early bases and rank27 all-pair witness pass separate reconstruction. It is source-only; a further seed-specific local gauge obstruction is being finalized.
+
+The global shared-node Hermite family fails all six Frobenius-relative Hom systems, excluding arbitrary binary-linear gauges, repetitions, Hermite12 and finite extensions. A common scalar Clifford S Gamma(j) T scaffold fails at six centres after projective scalar normalization is proved. Root independently reconstructs its256 raw equations and603 off-H products.
+
+Five fresh root replays match in all fields. A new common-line obstruction and structured core-overlap/node-relabeling investigations continue. Selected conditional kappa remains .00363005817; no strict supplier, new complete exponent, foundation discharge or PR readiness. The resulting remote commit is verified separately after publication.

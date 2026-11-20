@@ -515,3 +515,9 @@ Root freshly executed the99-source geometric review, all111 supplement, physical
 The two-edit lemma also received a root mathematical proof review, including the distinction between finite-alphabet nonlinear gauge claims and arbitrary-extension linear ranks. Scope remains local/geometric or necessary-condition only. No complete supplier or exponent was tested or claimed.
 
 [Reproduction](sessions/2026-11-20-S030/checkpoint4_replay.py) and [six-job receipt](sessions/2026-11-20-S030/CHECKPOINT4-VALIDATION.json). Confirmed checkpoint parent03f6aac8600ae2bad705eadcb4b22e40d3c7dc50; resulting publication SHA is verified externally.
+
+## S030 checkpoint5
+
+Four further admissions have five fresh root checker receipts in [CHECKPOINT5-VALIDATION.json](sessions/2026-11-20-S030/CHECKPOINT5-VALIDATION.json). Every JSON field agrees with the frozen independent output; no path or scientific-value normalization is used. The runner executes all five by default. Its collect-existing mode only aggregates already performed fresh executions and does not claim another independent review.
+
+The cycle positive checker independently reconstructs all504 cuts,144 fibres and eight early bases. Root separately reconstructs all240 sufficient alternate-triangle propagations using C arithmetic; it does not claim an independent repetition of B's additional6,048-pair census. The Hermite reviewer works in original48 coordinates, obtaining six3024-by297 full-rank systems. The Clifford root review uses603 direct off-H products and256 labelled raw equations, independently verifying twelve projective guards. The feedback reviewer reconstructs all100 coefficient tables,6,300 cuts,100 early bases and756 rank27 propagation spans, alongside the all-width algebraic proof. Exact scopes and negative controls are in their admission files.

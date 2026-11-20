@@ -1,0 +1,59 @@
+{
+  "execution_mode": "collected separate fresh S030 root executions",
+  "independent_review": "Separate proof/code reviews in the four admissions; these executions are reproduction, not additional independent reviews.",
+  "jobs": [
+    {
+      "expected": "bit-coupled-native-geometric-cycle-source/review-c/output/RESULT.json",
+      "expected_sha256": "27c9cd2d4469a7954c4750a554fcf51e339649aa8a4d2fd3a364766d38bc38d1",
+      "matched": true,
+      "name": "cycle-positive",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-coupled-native-geometric-cycle-source/review-c/check.py",
+      "script_sha256": "0b817e49c91871c14acb226e22457c112d86a125066df7770c7c921f4a868b9c"
+    },
+    {
+      "expected": "bit-coupled-native-geometric-cycle-source/root-review/output/RESULT.json",
+      "expected_sha256": "9d53fc9014a84ebb26fa31f29f7696ce57acd29c5e1c94a0071156f8d440840d",
+      "matched": true,
+      "name": "cycle-triangles",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-coupled-native-geometric-cycle-source/root-review/check.py",
+      "script_sha256": "03a3912c63356c3088d200aa8dd8f52d87691f8941d3e445d3d5ffeb04b929b1"
+    },
+    {
+      "expected": "bit-global-hermite-fibre-obstruction/review-c/output/RESULT.json",
+      "expected_sha256": "a7f08c3b2e3ac0a0a253b71a297922055fd567b57c291d2635ab220caf38a353",
+      "matched": true,
+      "name": "hermite",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-global-hermite-fibre-obstruction/review-c/check.py",
+      "script_sha256": "6dc26738fd7941274991f330ff62fd71277a9a054d43cc603968c22454180919"
+    },
+    {
+      "expected": "bit-global-clifford-fibre-scaffold/root-review/output/RESULT.json",
+      "expected_sha256": "56e6e423ae6b3fb736cc4f6deea2a1f884248598cfdea87ab2888eea87add851",
+      "matched": true,
+      "name": "clifford",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-global-clifford-fibre-scaffold/root-review/check.py",
+      "script_sha256": "64eb2323cc4f140e0ecbe8bfd27329f6187531dd304660b9ec175d4165b53603"
+    },
+    {
+      "expected": "bit-coupled-native-polynomial-feedback/review-c/output/RESULT.json",
+      "expected_sha256": "ced5ae3d93063ff1541914acbebe0d4a75f1bbc1131f54310d26f82d18ee03d4",
+      "matched": true,
+      "name": "feedback",
+      "normalized_metadata": [],
+      "optimized": false,
+      "script": "bit-coupled-native-polynomial-feedback/review-c/check.py",
+      "script_sha256": "a97be27841bc2b4a97d9e0c7b6ca8b95ac1b612fecb2396f5ed5cb0cd06ecf84"
+    }
+  ],
+  "new_complete_kappa": false,
+  "parent_baseline": "139b807548730e3743b134c128ecb52430a31002",
+  "status": "PASS_S030_CHECKPOINT5_REPRODUCTION"
+}

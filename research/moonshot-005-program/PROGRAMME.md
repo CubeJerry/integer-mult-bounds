@@ -1,5 +1,15 @@
 # Persistent κ=0.005 research programme
 
+## S030 checkpoint5: uniform source slack and the remaining H compatibility
+
+**No new complete kappa.** Selected conditional kappa remains .00363005817. The strongest new source theorem is [noncommuting polynomial feedback](results/bit-coupled-native-polynomial-feedback/ADMISSION.md): all source views are explicitly invertible at every positive width, while every two-plane propagation span is at most9k, below the old15k obstruction threshold. Its complete finite example changes100 ordinary donors, with6,300 geometric/5,828 native cuts and100 actual early bases. Eleven singleton replacements and a common H word are not supplied. Strict nonsaturation survives arbitrary bank relabelings as a partition statement.
+
+The [closed geometric cycle](results/bit-coupled-native-geometric-cycle-source/ADMISSION.md) supplies four locally compatible H interfaces on eight shared sources, with144 geometric common fibres and genuine early bases. Eight independent alternate-triangle certificates exclude those frozen standalone width-three sources from global completion. Arbitrary mixing with unbuilt extra components is outside that negative claim.
+
+Two natural transport routes are now closed in precise scopes. The [shared-node Hermite source](results/bit-global-hermite-fibre-obstruction/ADMISSION.md) cannot be aligned even with arbitrary binary-linear bank gauges, repetitions and finite extensions. The [common Clifford scaffold](results/bit-global-clifford-fibre-scaffold/ADMISSION.md) fails a256-variable exact certificate after its projective normalization is proved. These do not exclude arbitrary redesigned sources.
+
+The constructive task is shared inverse-fibre alignment within a globally structured family. Uniform source rank and nonsaturation do not suffice: a separate obstruction to the frozen feedback parameters is being finalized. New work respects the forced overlaps of geometric fibre cores and allows actual node-block symmetries. Common D/K/facet words, the measured affordable return, both strict suppliers and all five foundations remain open.
+
 ## S030 checkpoint4: shared geometric coordinates and a physical local H word
 
 **No new complete kappa.** The selected conditional value remains .00363005817. All five foundations and both strict suppliers remain open. The constructive frontier is a shared source with structured fibres across the native atlas.
