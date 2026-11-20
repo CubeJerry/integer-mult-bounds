@@ -1,0 +1,9 @@
+# Independent disjoint-restriction determinants
+
+For actual receivers 0 through 54 and donors 56 through 110, the selected all-RS spread word has determinant 41 on its 5,280-dimensional marked component and 52 on its 21,120-dimensional unmarked component. Both values are in GF(64) in the native polynomial basis. The sets of node labels are disjoint, so the added identity in the full fitting contributes zero to either check.
+
+The verifier computes each of 55 entire donor packets from the authenticated source/H/D/K/facet coefficients using the independently written source-first Cascade. It restricts each packet to the 55 actual output labels and feeds these transposed rows in original donor order to the independent streamed reciprocal-field eliminator. The native field has polynomial 67, while the second basis uses the reciprocal polynomial 97. Neither dense author array, pivot order nor author Gaussian routine is read. The two field determinants confirm the original-row calculation by a separately extracted coefficient stream. The readout hashes are those of the transpose, as reflected in the receipts.
+
+Use the canonical independent propagation package's stream.c compiled as described in its proof. Run verify.py with its author and native replay directories, the existing H/D/K output directories, the compiled stream library and --sector small or --sector large. The selectors and address ordering are fixed at all replications. Eight genuine copies give a rank of 211,200 field records on the combined disjoint restriction at native bank 3840. Left and right invertible local gauges preserve the rank of this disjoint submatrix. The rank calculation is specific to the checked proper word.
+
+Credit @CubeJerry, the original atlas and all current H/D/K/F constructions, and the independent source-first reciprocal-field verifier. OpenAI assistance was used.

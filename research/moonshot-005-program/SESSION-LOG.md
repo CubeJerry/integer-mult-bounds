@@ -2763,3 +2763,7 @@ The fourth S029 checkpoint retains the 31-chart original source, a first twelve-
 ## S029 checkpoint 5
 
 The fifth S029 checkpoint upgraded formal rigidity to global classification under invertibility of 221 specified native cells. It proves characteristic-two stability and a positive b/8 excess in odd characteristic, with independently checked deletion, wrong-rank-cost and support controls.
+
+## S029 checkpoint 6
+
+The sixth checkpoint records the full RS rank, a disjoint rank distance invariant under endpoint bases, a 19-bank cutoff valid with nonlinear suffixes, nonlinear rigidity with 54 unidentified erasures, and an eight-evaluation odd-alphabet obstruction.

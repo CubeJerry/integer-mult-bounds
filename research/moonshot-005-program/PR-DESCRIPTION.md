@@ -484,3 +484,7 @@ The original-source constraints now compose at 31 charts and one twelve-donor D 
 ## S029 checkpoint 5
 
 An exact global theorem classifies every minimum native square fitting with the exhibited 221 tree coefficients invertible, over all body sizes. The proof uses noncommutative rectangle transport, independently checked geometric pivots at each self block, and a determinant-two odd-characteristic obstruction. At the m=870 target its quantitative form imposes native coherent transport on thousands of actual source dimensions per foreign cell. No new κ.
+
+## S029 checkpoint 6
+
+On the fixed physical RS word the whole return and two distinct restricted classes have independently certified ranks or lower bounds of 111b, 55b and 19b under their respective hypotheses. Sum-separable finite-alphabet rigidity applies to arbitrary single-donor functions in a neighborhood of the optimum. The odd-characteristic 111b/8 bound allows arbitrary singular blocks. The binary target and its complex companion remain open.

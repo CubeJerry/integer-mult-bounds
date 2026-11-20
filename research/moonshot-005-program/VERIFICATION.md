@@ -464,3 +464,7 @@ Eleven relocated jobs reproduced all substantive H263, K, Reed–Solomon/H/F, ga
 ## S029 checkpoint 5
 
 [Checkpoint 5](sessions/2026-11-20-S029/checkpoint5_replay.py) rebuilds the canonical native support from its authenticated roots and replays the author and two independent checks. The independent proof also handles singular tree blocks of bounded corank. See its [receipt](sessions/2026-11-20-S029/CHECKPOINT5-VALIDATION.json).
+
+## S029 checkpoint 6
+
+[Checkpoint 6 replay](sessions/2026-11-20-S029/checkpoint6_replay.py) checks both cuts and the exact repair arithmetic. Its --heavy mode regenerates eight original-source and reverse-coordinate determinant streams. The [receipt](sessions/2026-11-20-S029/CHECKPOINT6-VALIDATION.json) distinguishes stored eliminations from structural arithmetic. Every erasure detour verifies eight true pivots. The signed recovery was separately checked on the original native roots.

@@ -309,3 +309,7 @@ The endpoint budget of 9b+128 at b=3,840 now has an exact local deformation test
 ## S029 checkpoint 5
 
 For the m=870 charge, b=3,840 and the admissible excess is 128. Separate native bases force agreement on at least 3,712, 3,584 and 3,456 dimensions on 4,668, 405 and 1,176 proper cells, respectively. A simultaneous basis per role yields at least 2,048 dimensions on each cell. Each agreeing space can depend on that cell. Odd characteristic requires h≥480 for a fitting with the certified tree invertible.
+
+## S029 checkpoint 6
+
+The [disjoint restriction](results/bit-native-rs-return-distance/ADMISSION.md) of the fixed RS word has rank 211,200. At the 34,688 cap this slice must lose at least 176,512 dimensions. Holding only source/H/D fixed forces 72,960 returns after any K/F. In odd characteristic even arbitrary singular foreign blocks give rank≥53,280 at b=3,840.

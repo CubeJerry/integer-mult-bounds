@@ -49,3 +49,7 @@ The [canonical rank-nine fitting](results/bit-native-rank-nine-rigidity/ADMISSIO
 ## S029 checkpoint 5
 
 The [global rank classification](results/bit-global-native-rank-rigidity/ADMISSION.md) identifies the only exact minimum compatible with an invertible native spanning tree. A near-minimal physical word must approximate coherent basis changes at all 6,470 foreign positions. The target now has a global structural test as well as the earlier infinitesimal one.
+
+## S029 checkpoint 6
+
+The [19-receiver cut](results/bit-physical-regional-prefix-cut/ADMISSION.md) rules out the fixed source/H/D prefix, even with unrestricted later native recoding. The complete RS continuation has return rank 426,240. Near the image minimum, arbitrary single-donor functions now satisfy a common binary transport law.

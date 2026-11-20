@@ -250,3 +250,7 @@ The [31-chart source](results/bit-spread-two-centre-packing/ADMISSION.md), [comm
 ## S029 checkpoint 5
 
 Proved for all b on the native support: an invertible 221-cell tree and rank at most 9b force simultaneous characteristic-two gauges of the canonical fitting; quantitative stability holds above the minimum. The [6,249 anchored rectangle implications and 111 diagonal recoveries](results/bit-global-native-rank-rigidity/author/PROOF.md) constrain global physical routing. Affordable realization of suitable gauges and of the remaining excess stays open.
+
+## S029 checkpoint 6
+
+With arbitrary K/F at least 10 selected original donors, 59 H charts, or 200 D charts must change if that is the sole earlier family changed. The [regional cut](results/bit-physical-regional-prefix-cut/author/PROOF.md) uses reachability of all true inputs at 401 K planes. Single-donor finite-alphabet functions near the minimum glue to common binary additive transport under the stated tree or bounded-erasure conditions.

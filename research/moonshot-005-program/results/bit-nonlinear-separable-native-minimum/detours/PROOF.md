@@ -1,0 +1,9 @@
+# Rigidity survives 54 unidentified singular native cells
+
+For every one of the 221 native tree cells (i,j), the witness exhibits min(deg i,deg j)−1 pairwise edge-disjoint three-cell detours around this cell. Each detour closes a proper two-by-two native square with eight disjoint diagonal pivots that leave its four exterior entries unchanged. There are 12,481 detours. Their numbers per cell are 54,55,56,57,58,59, with counts 2,75,24,79,18,23 respectively. Each count attains its local maximum because every detour requires a distinct other edge in row i and in column j.
+
+Consider a native block fitting of rank at most 9b+h and suppose at most 54 of its 6,470 proper blocks are singular. Fix a singular tree cell. At most 53 other singular cells remain, so one of its detours has three invertible corners. Pivoting an invertible corner of the square (rank at most b+h) shows the unknown block lies within rank h of a product of invertible matrices. In particular its corank is at most h. This holds separately for each missing tree edge. At h=0 the whole tree must be invertible, and the global minimum classification follows without naming any of the 54 positions. In characteristic two every proper block is then invertible. A noncanonical rank-at-most-9b fitting must have at least 55 singular proper blocks. Attainability of 55 by a fitting is open.
+
+The same detours apply to zero-preserving sum-separable functions on any finite abelian alphabet A if the native image has size less than 3|A|⁹/2. By the two-set subgroup lemma three bijective detour functions force the fourth to be bijective. Thus at most 54 unspecified nonbijections imply the elementary binary alphabet and the global additive native transport classification.
+
+[Linear native proof](../../bit-global-native-rank-rigidity/ADMISSION.md) · [Finite-alphabet proof](../author/PROOF.md). Credit @CubeJerry and the native support and rectangle predecessors. No new κ.
