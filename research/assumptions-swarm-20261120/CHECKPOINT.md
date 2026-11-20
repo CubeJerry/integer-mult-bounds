@@ -1,7 +1,7 @@
 # Assumption-directed research, 20 November 2026
 
-Recovery checkpoint only, updated at 07:50 UTC. Unfinished claims below
-are unverified and must not be submitted upstream. Eight independently
+Recovery checkpoint only. Unfinished claims below
+are unverified and must not be submitted upstream. Nine independently
 reviewed contributions are separately published in PUBLICATIONS.json.
 No upstream PR has been created.
 
@@ -158,3 +158,37 @@ Prepared for Jerry Chen / @CubeJerry with substantial OpenAI assistance.
 The first eight remote refs and additions-only comparisons are checked.
 No upstream PR was submitted, no selected certificate or fork main changed,
 and no new complete kappa or unconditional theorem has been established.
+
+## Latest authoritative update: nine publications
+
+The earlier allocation rows are historical. Main and #7837 are unchanged on
+the latest direct REST refresh. Contribution 9 is the independently reviewed
+grade-14 weighted route lemma, published at
+92d7dda40179e6804a0c8cadf1a1bc64dd05ebdc. Both registered commands pass;
+48 additions, exact tree, remote ref and upstream compare are checked.
+Its exact route-invariance condition allows nonconstant fresh weights as an
+algebraic refinement; it adds no descriptor or runtime tariff theorem.
+
+Current allocation:
+- gaussian_source: run/selected-native-four-premise-audit. A detailed candidate
+  selected-source reduction is now written in AUDIT.md and fresh source
+  predicates pass. Root independent review and packaging remain. It is
+  UNVERIFIED as a complete four-premise theorem until that review finishes.
+- rounding: workers/crt_terminal, branch
+  research/complete-crt-terminal-service-20261120. Integrate the 2,949-state
+  terminal suffix with the unchanged 1,435,098-state prefix and execute the
+  complete producer/consumer with old services blocked. Fixed roles grow from
+  70 to 73, addressing three already existing record owners; no new backing.
+- crt_lifecycle: run/crt-terminal-independent-review, a separate raw-array
+  interpreter, all-width opcode formulas and physical-history controls.
+- root: mathematical review and publication of these two candidates; no new
+  speculative assignment. All five selected certificate assumptions remain
+  unchanged until an independently accepted source-specific reduction.
+
+Terminal price under the stated admission is 7(P+n70+n71+n72)+2928. The
+unique free-stack invariant, supplied windows and clean inactive histories
+remain premises. Root's cold selected bootstrap is only a recurrence
+implication: 0 -> .0034 -> .0038507 -> .00385248, with actual covered
+C=.0038525298 and strict exact margins; the entire native binding is separate.
+
+Updated 2026-11-20 08:08:29 UTC

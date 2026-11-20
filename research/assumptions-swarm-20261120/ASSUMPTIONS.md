@@ -20,7 +20,7 @@ The rounding task concerns a restricted replacement-provider class. A negative
 result there would not falsify the selected assumptions or exclude arbitrary
 Gaussian rounding. The selected bound remains conditional.
 
-## Verified progress at the eight-contribution checkpoint
+## Verified progress at the nine-contribution checkpoint
 
 The exact five statements above are unchanged. PUBLICATIONS.json binds each
 reviewed result to its remote commit and exact tested tree.
@@ -38,3 +38,8 @@ claims four original premises for a grade-14 application. It is pending and
 is being independently audited. A scoped binary composition review found no
 flaw, but that finding is not acceptance of the entire theorem and is not
 silently substituted for the selected five-assumption record.
+
+The published route review proves complete carry/inverse, exact coupled-role
+compatibility and a route-invariant common-weight algebraic condition. The
+selected four-premise specialization and full terminal integration are still
+under independent review; no complete native discharge is recorded yet.
