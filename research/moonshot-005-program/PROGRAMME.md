@@ -1,77 +1,92 @@
 # Persistent κ=0.005 research programme
 
-## S031 checkpoint1: source compatibility before global compilation
+## S031 checkpoint2: shared fibres, physical readouts and protected continuation
 
-**No new complete kappa.** The selected conditional value remains
-363005817/100000000000 = .00363005817. Both strict suppliers and the complete
-recursive caller remain open for the changed moonshot construction. This is an
-active research checkpoint, not a final handoff or a PR-ready theorem.
+**No new complete κ.** The selected conditional value remains .00363005817.
+Both strict suppliers and the complete recursive caller remain open for the
+changed moonshot word. This is an active checkpoint, and the programme is not
+PR-ready.
 
-The construction retains the native atlas, the global Desarguesian allocation
-and shared GF64 geometric nodes. The universal polynomial-feedback source has
-explicit inverses at every width and a9k propagation bound below the old15k
-saturation threshold. The decisive missing step is to choose shared source
-information whose inverse fibres and actual H readouts agree simultaneously,
-then construct common D/K/facet maps and the same affordable complete return.
+### A positive two-centre component
 
-Two newly reviewed gates sharpen that task. The [frozen-feedback partition
-theorem](results/bit-shared-h-s031-review/feedback-partition-gate/ADMISSION.md) finds three native H263 receivers with
-join ranks9,8,8 at the three donor sources. Arbitrary nonlinear separate bank
-gauges preserve partition-join class sizes, so they cannot repair this seed.
-An eight-receiver witness has ranks24,21,23. Repetitions and the named balanced
-tensor/Hermite companions remain excluded; arbitrary changed companions and
-the universal feedback family do not. These ranks are not a return-cost bound.
+The [protected moving-fibre construction](results/bit-shared-h-s031-construction/ADMISSION.md)
+now supplies two connected native H charts, H263 and H642, on the same five
+ordinary sources. Its width-three component has 315 invertible geometric
+source cuts, including 291 native cuts; 72 common complete H fibres and actual
+readouts, including 67 native cases; and five invertible early source bases.
+H263 fibres move at 20 geometric receivers while H642 keeps its old fibres.
 
-The [geometric/gap15 port gate](results/bit-geometric-gauge-port-gate/ADMISSION.md) excludes the scalar
-geometric source and every single-gap15 matrix-feedback source after arbitrary
-GF64-linear whole-bank gauges, at all widths and finite coefficient extensions.
-Their source fibres force one amplitude map, but receivers5 and7 have different
-readout ratios26 and49 at a shared positive D108 exit. Nonlinear downstream
-processing cannot repair this conflict. Merely F2-linear bank gauges remain
-outside this theorem.
+Each source changes only one or two geometric quotient maps. The independent
+review authenticates the full geometric block incidence, source determinants,
+whole kernels, actual port readouts and early owners. These premises justify
+uniform propagation bounds 30 or 42, strictly below the old saturation
+threshold 45, at every eligible centre. The result survives extensions and
+tensor repetition. It remains a component result: a third chart, complementary
+component, full bank, global middle word and invoice are unconstructed.
 
-The immediate constructive lane jointly moves the first and second centre's
-fibres while retaining at most two edited geometric quotients per donor.
-Its purpose is to keep the proved propagation slack while avoiding frozen-core
-gluing failures. Binary-linear amplitude maps form a separate open escape.
-Neither lane is yet an admitted shared physical word.
+The adjacent centre-gluing theorem explains why preserving both old geometric
+fibre families fails for the specified quadratic provider at a nonzero central
+node. The positive construction changes the first fibres to avoid that precise
+obstruction. Continued coupled source redesign is the immediate constructive
+obligation; the verified component is not assumed globally extendable.
 
-At bank3840 and paired multiplicity870, the retained .005 movement screen
-allows at most34688 return fields:128 above the abstract nine-bank floor34560.
-The .0043 intermediate screen allows36875. All source, native, ordinary,
-ownership, precision and recursive costs remain charged. The complex paid
-export repair is being investigated separately; source cuts alone do not give
-a compatible strict supplier.
+### Exact gates for the source search
 
-Open upstream #7837 and #7840 propose source-specific reductions of
-native_all_columns for other exact words. Their transfer to this changed
-moonshot word remains unproved; the canonical selected record is unchanged.
-The five named programme foundations stay explicit. [Intake and source pins](sessions/2026-11-21-S031/UPSTREAM-INTAKE.json) distinguish published claims
-from programme admission.
+The [frozen-feedback partition gate](results/bit-shared-h-s031-review/feedback-partition-gate/ADMISSION.md)
+excludes the frozen polynomial-feedback seed after arbitrary nonlinear separate
+bank bijections. Three native receiver fibres have join ranks 9,8,8; eight
+receivers have ranks 24,21,23. Bijections preserve partition-join class sizes.
+Repetitions and the named balanced companions do not remove the mismatch.
+Arbitrary changed companions and the universal feedback family remain open.
+
+The [stronger geometric/gap15 gate](results/bit-shared-h-s031-review/binary-gap15-port-gate/ADMISSION.md)
+excludes arbitrary separate bank bijections for the entire scalar and
+single-gap15 matrix-feedback family, at every admissible width and finite
+extension. Five actual receivers force additivity on a three-axis core coset.
+At the shared D108 exit, receivers 5 and 76 have derivative triples
+(30,18,12) and (38,18,52). The repeated 18 produces an invertible binary
+operator difference for every amplitude map, so a positive common packet is
+impossible. This strengthens the earlier field-linear theorem. No global
+linearity of a bank bijection or return-excess tariff is inferred.
+
+The universal nine-gap feedback source still has explicit inverses and uniform
+9k propagation slack below 15k. Its correlated parameters, conditional larger
+feedback family and actual common H readouts form a separate active lane.
+Source invertibility and nonsaturation alone do not provide a supplier.
+
+### Complete-caller prices and complex repair
+
+At bank 3840 and paired multiplicity 870, the retained .005 movement screen
+permits at most 34688 return fields, only 128 above the abstract nine-bank
+floor 34560. The .0043 intermediate cap is 36875. These necessary screens do
+not establish that the remaining ordinary, ownership, precision and recursive
+charges fit.
+
+The [complex saturated-cut theorem](results/complex-paid-export-s031-repair/ADMISSION.md)
+adds four exact target cuts to the pinned observer-export repair family. Six
+more high-grade cycle arcs are mandatory, leaving four grade-4 and one grade-3
+old routes available for deletion. Even optimistic high-grade-only repair
+has a negative .005 complete-caller margin, between -6.807280786881 and
+-6.807280786880. Low-grade deletions and changed routes remain outside that
+exclusion. A proposed bypass must restore the entire target with causal useful
+information before its price is credited.
+
+### Programme and source status
+
+The global Desarguesian allocation and shared geometric node system remain
+admitted prerequisites. The source/H/D/K/facet word, affordable complete return,
+both strict suppliers and full outer application remain open. All five
+foundational obligations stay explicit for this changed word. Pending upstream
+#7837/#7840 native realizations concern other pinned sources and do not transfer
+automatically. Canonical selection is unchanged.
 
 Permanent branch: research/moonshot-005-program. Confirmed checkpoint parent:
-5953b86befe08da02dbaa5ff6c16111aea8a81d4. Canonical upstream: e54523517d0f03e58352e647c403a5af3e525a57.
-The full prior logical state is preserved in
-[the S031 startup snapshot](sessions/2026-11-21-S031/start-of-session/PROGRAMME.md).
-Detailed proofs, prices, rejected scopes and cumulative history remain in
-[TARGET-005](TARGET-005.md), [OBLIGATIONS](OBLIGATIONS.md),
-[SESSION-LOG](SESSION-LOG.md) and [VERIFICATION](VERIFICATION.md).
+60baae20d1fc7243ea470e01f4d3e5b0231daebf. Canonical upstream last examined:
+e54523517d0f03e58352e647c403a5af3e525a57. Requested session: five hours, from
+2026-11-20 14:44:01 UTC to 19:44:01 UTC; work is continuing.
 
-
-## S031 checkpoint1: independently reviewed complex repair cuts
-
-The [saturated target-cut package](results/complex-paid-export-s031-repair/ADMISSION.md)
-adds four exact cuts of ranks 2, 5, 6 and 8 for the pinned #7830 word after the
-specified #7833 surgery and any positive number of parallel paid 3→282 observers.
-They force six more high-grade cycle arcs: 43, 89777, 96404, 96513, 97320 and
-100120. Together with the retained circulation theorem, 1071 of 1076 old
-high-grade routes are mandatory. The remaining deletion profile is four
-grade-4 routes and one grade-3 route. Its optimistic complete-caller margin
-at κ=.005 lies in [-6.807280786881,-6.807280786880], so high-grade-only deletion
-repairs in this exact route family cannot reach the target. The .0043 margin
-is positive, [8.013020317933,8.013020317934]. Low-grade deletions, changed routes
-and changed sources remain open; these cuts are not a general supplier bound.
-
-Root independently reconstructed the four canonical chart cuts, reverse
-rational target minors and exact integer-power price bounds. The complete
-source/owner repair is still unconstructed. No new complete κ is admitted.
+The [startup snapshot](sessions/2026-11-21-S031/start-of-session/PROGRAMME.md)
+preserves the prior logical state. See [TARGET-005](TARGET-005.md),
+[OBLIGATIONS](OBLIGATIONS.md), [SESSION-LOG](SESSION-LOG.md),
+[VERIFICATION](VERIFICATION.md) and the [live checkpoint](sessions/2026-11-21-S031/LIVE-CHECKPOINT.md)
+for exact scopes, receipts and cumulative history.

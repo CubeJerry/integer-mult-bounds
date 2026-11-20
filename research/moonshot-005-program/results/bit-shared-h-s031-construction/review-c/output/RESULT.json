@@ -1,0 +1,325 @@
+{
+  "H": [
+    {
+      "H": 263,
+      "donors": [
+        0,
+        61,
+        62
+      ],
+      "geometric_common_fibres": 36,
+      "moved_native_fibres": 19,
+      "moved_receivers": [
+        4,
+        6,
+        9,
+        10,
+        48,
+        52,
+        54,
+        55,
+        57,
+        73,
+        74,
+        75,
+        76,
+        85,
+        87,
+        93,
+        95,
+        97,
+        98,
+        117
+      ],
+      "native_common_fibres": 33,
+      "ports": [
+        110,
+        132,
+        720,
+        810,
+        1509,
+        1735,
+        1994,
+        2621,
+        2836
+      ]
+    },
+    {
+      "H": 642,
+      "donors": [
+        45,
+        61,
+        100
+      ],
+      "geometric_common_fibres": 36,
+      "moved_native_fibres": 0,
+      "moved_receivers": [],
+      "native_common_fibres": 34,
+      "ports": [
+        302,
+        594,
+        673,
+        1089,
+        1297,
+        1509,
+        1726,
+        2230,
+        3067
+      ]
+    }
+  ],
+  "actual_early_bases": [
+    {
+      "determinant": 49,
+      "donor": 0,
+      "rank": 96,
+      "seed": 0,
+      "source_chart": 263
+    },
+    {
+      "determinant": 12,
+      "donor": 45,
+      "rank": 96,
+      "seed": 0,
+      "source_chart": 642
+    },
+    {
+      "determinant": 42,
+      "donor": 61,
+      "rank": 96,
+      "seed": 0,
+      "source_chart": 263
+    },
+    {
+      "determinant": 22,
+      "donor": 62,
+      "rank": 96,
+      "seed": 0,
+      "source_chart": 263
+    },
+    {
+      "determinant": 57,
+      "donor": 100,
+      "rank": 96,
+      "seed": 0,
+      "source_chart": 642
+    }
+  ],
+  "all_ordered_core_overlap_pairs": 756,
+  "author_executable_imports": false,
+  "coefficient_payload_sha256": "3982be0eeee403f05caa19d078780f68d3f5ae81268f2ca1c618a65178ff049f",
+  "complete_bank_invoice": false,
+  "deleted_quotient_ranks": [
+    48,
+    45
+  ],
+  "fibre_payload_sha256": "af0f781f495a601330733a9af6640c09843c1458b7965394eb7e2845d7a26acb",
+  "geometric_incidence_authenticated": true,
+  "global_middle_word": false,
+  "native_nonzero_centre_parameter_bindings": [
+    {
+      "R_coefficients": [
+        [
+          30,
+          39,
+          11
+        ],
+        [
+          6,
+          57,
+          14
+        ],
+        [
+          10,
+          33,
+          20
+        ],
+        [
+          28,
+          43,
+          25
+        ],
+        [
+          21,
+          61,
+          31
+        ],
+        [
+          26,
+          40,
+          23
+        ]
+      ],
+      "centre": 263,
+      "donor": 0,
+      "node": 49,
+      "r4": [
+        21,
+        61,
+        31
+      ]
+    },
+    {
+      "R_coefficients": [
+        [
+          49,
+          7,
+          20
+        ],
+        [
+          26,
+          54,
+          3
+        ],
+        [
+          46,
+          29,
+          31
+        ],
+        [
+          6,
+          51,
+          17
+        ],
+        [
+          37,
+          27,
+          11
+        ],
+        [
+          28,
+          62,
+          18
+        ]
+      ],
+      "centre": 263,
+      "donor": 61,
+      "node": 49,
+      "r4": [
+        37,
+        27,
+        11
+      ]
+    },
+    {
+      "R_coefficients": [
+        [
+          47,
+          32,
+          31
+        ],
+        [
+          28,
+          15,
+          13
+        ],
+        [
+          36,
+          60,
+          11
+        ],
+        [
+          26,
+          24,
+          8
+        ],
+        [
+          48,
+          38,
+          20
+        ],
+        [
+          6,
+          22,
+          5
+        ]
+      ],
+      "centre": 263,
+      "donor": 62,
+      "node": 49,
+      "r4": [
+        48,
+        38,
+        20
+      ]
+    }
+  ],
+  "native_source_cuts": 291,
+  "new_complete_kappa": false,
+  "omitted_companion_edit_failures": [
+    4,
+    6,
+    9,
+    10,
+    48,
+    52,
+    54,
+    55,
+    57,
+    73,
+    74,
+    75,
+    76,
+    85,
+    87,
+    93,
+    95,
+    97,
+    98,
+    117
+  ],
+  "proportional_weight_provider_rank": 3,
+  "quadratic_pencil_schur_rank": 6,
+  "source_cuts": 315,
+  "source_rows": [
+    {
+      "donor": 0,
+      "edited_planes": [
+        116,
+        263
+      ],
+      "geometric_cuts": 63,
+      "native_cuts": 56,
+      "uniform_propagation_upper": 42
+    },
+    {
+      "donor": 45,
+      "edited_planes": [
+        642
+      ],
+      "geometric_cuts": 63,
+      "native_cuts": 59,
+      "uniform_propagation_upper": 30
+    },
+    {
+      "donor": 61,
+      "edited_planes": [
+        263,
+        642
+      ],
+      "geometric_cuts": 63,
+      "native_cuts": 59,
+      "uniform_propagation_upper": 42
+    },
+    {
+      "donor": 62,
+      "edited_planes": [
+        263,
+        643
+      ],
+      "geometric_cuts": 63,
+      "native_cuts": 59,
+      "uniform_propagation_upper": 42
+    },
+    {
+      "donor": 100,
+      "edited_planes": [
+        642
+      ],
+      "geometric_cuts": 63,
+      "native_cuts": 58,
+      "uniform_propagation_upper": 30
+    }
+  ],
+  "status": "PASS_INDEPENDENT_PROTECTED_TWO_H_MOVING_FIBRES"
+}

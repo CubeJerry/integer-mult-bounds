@@ -6,12 +6,12 @@
   "selected_conditional_kappa": "363005817/100000000000",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
   "session": "2026-11-21-S031",
-  "session_status": "active-checkpoint1",
+  "session_status": "active-checkpoint2",
   "session_started_utc": "2026-11-20T14:44:01Z",
   "session_planned_end_utc": "2026-11-20T19:44:01Z",
   "requested_session_seconds": 18000,
   "session_start_sha": "5953b86befe08da02dbaa5ff6c16111aea8a81d4",
-  "checkpoint_baseline_sha": "5953b86befe08da02dbaa5ff6c16111aea8a81d4",
+  "checkpoint_baseline_sha": "60baae20d1fc7243ea470e01f4d3e5b0231daebf",
   "checkpoint_sha_semantics": "Confirmed parent of this checkpoint; resulting commit is verified and reported separately.",
   "phase": "Shared source partition compatibility and native readout construction",
   "primary_obligation": "Construct shared source inverse fibres and actual H readouts on the same globally nonsaturating sources, then realize compatible D/K/facet maps and the affordable complete return.",
@@ -29,7 +29,9 @@
   "admitted_this_session": [
     "results/bit-shared-h-s031-review/feedback-partition-gate/ADMISSION.md",
     "results/bit-geometric-gauge-port-gate/ADMISSION.md",
-    "results/complex-paid-export-s031-repair/ADMISSION.md"
+    "results/complex-paid-export-s031-repair/ADMISSION.md",
+    "results/bit-shared-h-s031-construction/ADMISSION.md",
+    "results/bit-shared-h-s031-review/binary-gap15-port-gate/ADMISSION.md"
   ],
   "verified_results": {
     "frozen_feedback_partition_gate": {
@@ -106,6 +108,62 @@
       },
       "margin_at_005": "[-6.807280786881,-6.807280786880]",
       "low_grade_deletions_excluded": false
+    },
+    "protected_two_H_component": {
+      "path": "results/bit-shared-h-s031-construction/ADMISSION.md",
+      "H": [
+        263,
+        642
+      ],
+      "donors": [
+        0,
+        45,
+        61,
+        62,
+        100
+      ],
+      "quotient_width": 3,
+      "source_dimension": 48,
+      "geometric_source_cuts": 315,
+      "native_source_cuts": 291,
+      "geometric_common_fibres": 72,
+      "native_common_fibres": 67,
+      "actual_early_bases": 5,
+      "uniform_propagation_upper": [
+        42,
+        30
+      ],
+      "saturation_threshold": 45,
+      "full_bank_and_invoice": false,
+      "third_H": false
+    },
+    "geometric_gap15_nonlinear_gate": {
+      "path": "results/bit-shared-h-s031-review/binary-gap15-port-gate/ADMISSION.md",
+      "all_matrix_widths": true,
+      "all_finite_coefficient_extensions": true,
+      "arbitrary_separate_bank_bijections_excluded": true,
+      "root_witness_receivers": [
+        5,
+        76,
+        52,
+        56,
+        97
+      ],
+      "root_core_axis_count": 3,
+      "shared_exit": 108,
+      "collision_derivatives": [
+        [
+          30,
+          18,
+          12
+        ],
+        [
+          38,
+          18,
+          52
+        ]
+      ],
+      "multiple_gap_feedback_excluded": false
     }
   },
   "native_target": {
@@ -131,14 +189,14 @@
     "further_changes_for_previous_31_centre_source": 29
   },
   "active_subproblems": [
-    "Two-centre geometric source with moving first fibres and at most two quotient edits; source/early/H verification pending.",
-    "Merely binary-linear amplitude maps outside the new GF64-linear port gate.",
-    "Complete paid complex export repair with all target columns and restored owners."
+    "Coupled source redesign beyond the admitted two-H component; a third chart and full bank remain open.",
+    "Nine-gap and conditional full-slot feedback with correlated parameters and actual common H readouts.",
+    "Complete paid complex export repair using changed routes, with all target columns and original owners restored."
   ],
   "next_actions": [
-    "Require native partition-join compatibility and actual common H readouts while choosing source parameters.",
-    "Verify the two-centre candidate and retain the two-edit propagation bound only when actual source cuts are full rank.",
-    "Independently verify any complex repair cut before changing the whole-system feasibility assessment."
+    "Independently verify the frozen two-H candidate extension obstruction before admitting it.",
+    "Construct compatible shared fibres and H readouts jointly; arbitrary gauges alone cannot repair geometric/gap15 sources.",
+    "Test proposed complex bypass routes for causal useful information and full target restoration before granting any price saving."
   ],
   "pending_recovery": {
     "S030_missing_artifacts": "Promised common-line and frozen-feedback-gauge packages were absent from tracked checkpoint5; not inherited as proofs. Frozen feedback now has a fresh stronger S031 proof."

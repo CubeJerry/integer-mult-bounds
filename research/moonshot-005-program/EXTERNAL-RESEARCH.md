@@ -601,3 +601,10 @@ No external PR, branch or selected certificate was modified. The two new
 internal compatibility results preserve the native atlas, geometric node,
 feedback, tight-cut and independent-review predecessor credit. They do not
 claim a foundation discharge or complete supplier improvement.
+
+## S031 checkpoint2 provenance
+
+The protected two-H component and nonlinear geometric/gap15 gate are internal
+programme results with separate independent reviews. They do not adopt an
+upstream source-specific native reduction or alter canonical selection.
+The checkpoint1 upstream pins remain the latest intake for this checkpoint.

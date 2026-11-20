@@ -30,7 +30,7 @@ has explicit native inverses at every positive width with propagation at
 most9k, below the old15k saturation test. These are constructive source results,
 not a complete shared supplier.
 
-S031 proves two exact compatibility gates:
+S031 checkpoint1 proves two exact compatibility gates (subsequently strengthened below):
 
 * **Frozen feedback and arbitrary nonlinear bank gauges.** Three actual H263
   receivers have inverse-fibre join ranks9,8,8 at donors0,61,62. A tight
@@ -131,3 +131,29 @@ and changed sources remain open; these cuts are not a general supplier bound.
 Root independently reconstructed the four canonical chart cuts, reverse
 rational target minors and exact integer-power price bounds. The complete
 source/owner repair is still unconstructed. No new complete κ is admitted.
+
+
+## S031 checkpoint2 additions
+
+An independently reviewed positive width-three component now supports H263 and
+H642 at five shared ordinary sources: 315 source cuts, 72 whole common fibres
+and physical readouts, and five early bases. At most two source quotients
+change at each donor. Verified native geometric incidence makes the uniform
+42<45 (or 30<45) nonsaturation protection apply beyond the selected charts.
+The first fibres move while the second remain geometric. This construction
+has no third-chart continuation, complementary component or full-bank invoice.
+See [the admitted component](results/bit-shared-h-s031-construction/ADMISSION.md).
+
+The geometric/single-gap15 obstruction now covers arbitrary separate bank
+bijections. The independent five-receiver proof derives affine restrictions
+on three-axis core cosets, then uses the derivative collision at D108 to rule
+out a positive common packet. It closes the binary-linear and nonlinear
+source-gauge escapes of the first checkpoint, with the source, target and
+informative cut fixed. Other feedback/source families remain open. See
+[the strengthened admission](results/bit-shared-h-s031-review/binary-gap15-port-gate/ADMISSION.md).
+
+The positive construction is due to Worker A, independently reviewed by Worker C.
+The nonlinear strengthening is due to Worker C, independently reviewed and
+reconstructed from native polynomial products by root. No new complete κ,
+strict supplier or foundational discharge is claimed. The branch remains an
+ongoing programme; no upstream submission is made at this checkpoint.

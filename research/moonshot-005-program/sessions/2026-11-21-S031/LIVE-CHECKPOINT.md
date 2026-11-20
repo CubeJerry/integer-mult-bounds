@@ -1,32 +1,31 @@
-# S031 checkpoint1: native partition compatibility
+# S031 checkpoint2: active research
 
-Session began at the live clock observation2026-11-20 14:44:01 UTC
-(21 November01:44:01 Australia/Sydney). Requested duration: five hours;
-planned end19:44:01 UTC. This is an active checkpoint, not a final handoff.
+## S031 checkpoint2: a protected two-centre component and a nonlinear gate
 
-Remote start and confirmed checkpoint parent:
-5953b86befe08da02dbaa5ff6c16111aea8a81d4. Canonical main remains
-e54523517d0f03e58352e647c403a5af3e525a57. The S030 branch ended at its
-checkpoint5; promised later common-line and frozen-feedback artifacts were
-not present in the tracked tree and are not treated as inherited evidence.
+The [two-H construction](../../results/bit-shared-h-s031-construction/ADMISSION.md)
+is independently admitted as a width-three component: five shared ordinary
+sources, 315 full geometric source cuts (291 native), 72 common whole H
+fibres/readouts (67 native), and five actual early bases. Only one or two
+quotients change per donor. Authenticated geometric block incidence and full
+source rank make the uniform propagation bounds 30 or 42, below 45, valid at
+every eligible centre. H263 moves 20 geometric fibres while H642 retains its
+old fibres. This does not construct a third chart or the full 3+12 bank.
 
-The first admitted result independently reconstructs the frozen feedback
-source and proves that three actual H263 receivers already prevent compatible
-source partitions after arbitrary nonlinear separate-bank gauges. The full
-finite census and eight-receiver rank profile24,21,23 have separate root
-reconstruction. Repetitions and the specified balanced companions cannot
-repair this seed. The universal feedback family itself remains open.
+The [nonlinear geometric/gap15 gate](../../results/bit-shared-h-s031-review/binary-gap15-port-gate/ADMISSION.md)
+now excludes arbitrary separate bank bijections for that fixed source family,
+identity target and tight cut. A five-receiver, three-axis native witness forces
+affine behaviour on the relevant core cosets. Equal second-donor derivatives
+at receivers 5 and 76 yield the invertible difference D(56) M D(18)^(-1),
+preventing the actual positive shared D108 packet. This closes the merely
+binary-linear and nonlinear gauge escapes left by checkpoint1; multiple-gap
+and genuinely changed source information remain open.
 
-Three packages are now independently reviewed and admitted: the frozen-feedback
-nonlinear partition gate, the geometric/single-gap15 GF64-linear shared-port
-gate, and four complex saturated target cuts. The latter exclude high-grade-only
-deletion repairs at .005 in their exact pinned route family.
+No movement budget, full invoice, strict supplier, foundational assumption or
+complete κ changes. The .005 return cap at b=3840,m=870 remains 34688; the
+.0043 cap remains 36875. Global source/H/D/K/facet completion and the complete
+complex repair remain the main obligations.
 
-A positive width-3 two-centre source construction is ready for independent
-review. Binary-linear and nonlinear strengthenings of the geometric port gate
-are being developed separately. These ongoing files are not admitted here.
 
-Open #7837 and #7840 give source-specific native realization reductions for
-other exact words. Canonical selection remains five-premise .00363005817;
-no automatic transfer to the changed moonshot source is made. No new complete
-kappa, strict supplier, foundational discharge or PR-readiness is claimed.
+Session start: 2026-11-20 14:44:01 UTC. Planned five-hour finish: 19:44:01 UTC.
+Checkpoint parent: 60baae20d1fc7243ea470e01f4d3e5b0231daebf.
+This is an active checkpoint, not the final handoff.
