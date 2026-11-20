@@ -480,3 +480,7 @@ A physically compiled source realizes 801 simultaneous native inverse fibres acr
 ## S029 checkpoint 4
 
 The original-source constraints now compose at 31 charts and one twelve-donor D cut has a verified causal word. A separate physical trace implements the complete 123-edge difference and both canonical centre slices. Rank-nine formal rigidity holds for all body dimensions on the actual native support. A different full-rank prefix still has a large terminal return obstruction. The global shared low-return trace, both strict suppliers and the five framework assumptions remain open.
+
+## S029 checkpoint 5
+
+An exact global theorem classifies every minimum native square fitting with the exhibited 221 tree coefficients invertible, over all body sizes. The proof uses noncommutative rectangle transport, independently checked geometric pivots at each self block, and a determinant-two odd-characteristic obstruction. At the m=870 target its quantitative form imposes native coherent transport on thousands of actual source dimensions per foreign cell. No new κ.

@@ -2759,3 +2759,7 @@ Integrated the 24-chart physical source, both original-owner packed invoices, mi
 ## S029 checkpoint 4
 
 The fourth S029 checkpoint retains the 31-chart original source, a first twelve-donor D120 word, a nonlinear obstruction at D3, complete two-star routing with a canonical centre overlay, a global formal-rigidity theorem at 9b and an independently reconstructed terminal obstruction.
+
+## S029 checkpoint 5
+
+The fifth S029 checkpoint upgraded formal rigidity to global classification under invertibility of 221 specified native cells. It proves characteristic-two stability and a positive b/8 excess in odd characteristic, with independently checked deletion, wrong-rank-cost and support controls.

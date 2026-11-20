@@ -45,3 +45,7 @@ One paid original-owner source now realizes 801 simultaneous inverse fibres at 2
 ## S029 checkpoint 4
 
 The [canonical rank-nine fitting](results/bit-native-rank-nine-rigidity/ADMISSION.md) is formally rigid up to role-wise basis changes. Any nonflat construction adjacent to it must spend actual excess. All 123 changes of the proposed two-star target can now run on one native pass, together with its complete central rows and columns. The missing part is shared physical transport of the remaining canonical coordinates.
+
+## S029 checkpoint 5
+
+The [global rank classification](results/bit-global-native-rank-rigidity/ADMISSION.md) identifies the only exact minimum compatible with an invertible native spanning tree. A near-minimal physical word must approximate coherent basis changes at all 6,470 foreign positions. The target now has a global structural test as well as the earlier infinitesimal one.

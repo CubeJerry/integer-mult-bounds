@@ -305,3 +305,7 @@ The 24-chart source attains 801 specified H observations and preserves full rank
 ## S029 checkpoint 4
 
 The endpoint budget of 9b+128 at b=3,840 now has an exact local deformation test. A scalar nongauge square-zero variation costs at least the rank of the nilpotent coefficient. The 31-chart source solves 1,041 original receiver/H constraints, and one genuine native D carries all twelve donor fibres at a selected receiver. The studied RS prefix followed by arbitrary linear F still requires at least 41,880 returns. Its earlier coefficients must change.
+
+## S029 checkpoint 5
+
+For the m=870 charge, b=3,840 and the admissible excess is 128. Separate native bases force agreement on at least 3,712, 3,584 and 3,456 dimensions on 4,668, 405 and 1,176 proper cells, respectively. A simultaneous basis per role yields at least 2,048 dimensions on each cell. Each agreeing space can depend on that cell. Odd characteristic requires h≥480 for a fitting with the certified tree invertible.

@@ -460,3 +460,7 @@ Eleven relocated jobs reproduced all substantive H263, K, Reed–Solomon/H/F, ga
 ## S029 checkpoint 4
 
 [Checkpoint 4 replay](sessions/2026-11-20-S029/checkpoint4_replay.py) matches [the retained proof and word results](sessions/2026-11-20-S029/CHECKPOINT4-VALIDATION.json). The two rigidity computations use different ambient variables. The full-star bit-basis check and the terminal physical forward sweep use independently implemented operators. The 23/24 singleton check also reproduced after generalizing its helper for 30/31 charts.
+
+## S029 checkpoint 5
+
+[Checkpoint 5](sessions/2026-11-20-S029/checkpoint5_replay.py) rebuilds the canonical native support from its authenticated roots and replays the author and two independent checks. The independent proof also handles singular tree blocks of bounded corank. See its [receipt](sessions/2026-11-20-S029/CHECKPOINT5-VALIDATION.json).

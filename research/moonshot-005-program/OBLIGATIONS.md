@@ -246,3 +246,7 @@ The shared-donor equations and all true singleton rows have simultaneous solutio
 ## S029 checkpoint 4
 
 The [31-chart source](results/bit-spread-two-centre-packing/ADMISSION.md), [common D120 cut](results/bit-spread-isolated-middle-cut/ADMISSION.md), and [two complete centre banks of rows and columns](results/bit-covariant-canonical-center/ADMISSION.md) are individually verified. These are different witnesses with their own source and endpoint choices. The global all-donor coefficient identity on one affordable word remains open. Native fitting rigidity excludes a cost-free nonflat infinitesimal escape from 9b.
+
+## S029 checkpoint 5
+
+Proved for all b on the native support: an invertible 221-cell tree and rank at most 9b force simultaneous characteristic-two gauges of the canonical fitting; quantitative stability holds above the minimum. The [6,249 anchored rectangle implications and 111 diagonal recoveries](results/bit-global-native-rank-rigidity/author/PROOF.md) constrain global physical routing. Affordable realization of suitable gauges and of the remaining excess stays open.
