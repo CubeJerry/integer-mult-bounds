@@ -1,7 +1,7 @@
 # Assumption-directed research, 20 November 2026
 
-Recovery checkpoint only, updated at 07:33 UTC. Unfinished claims below
-are unverified and must not be submitted upstream. Six independently
+Recovery checkpoint only, updated at 07:50 UTC. Unfinished claims below
+are unverified and must not be submitted upstream. Eight independently
 reviewed contributions are separately published in PUBLICATIONS.json.
 No upstream PR has been created.
 
@@ -54,6 +54,16 @@ copy; the complete immutable published package is authoritative.
    physical contracts remain premises. Independent receiver check and full
    registered replay passed; the remote branch/tree/compare are checked.
 
+7. Literal arithmetic/lifecycle union: all 1,435,098 fixed locations and
+   70 roles compose at the same eager CRT Entry. A complete current producer
+   runs with both old providers blocked; independent global inverse-relocation
+   and raw-cell checks pass. Published at 7a6334dceef9d03fb5b1aeec4269a2911c0112b4.
+8. Narrow three-axis all-order margin: complete 3,360-class exact certificate,
+   independent coefficient reconstruction and analytic source/alias/rounding
+   review pass. All 40,320 orders are covered under the stated stronger prime
+   intervals, p>=2^20 and t>=p^72. Published at
+   347f1a654d90fa787a387989f536956c2508c0bf.
+
 ## Latest wave transition
 
 Canonical main was rechecked at 07:24 UTC and is unchanged. New PR #7837
@@ -69,8 +79,8 @@ The all-order Gaussian candidate now has a complete separate reconstruction
 of all 3,360 leading polynomials and lower-coefficient vanishing using
 Kronecker/Berkowitz arithmetic. Its exact mass, gradient, center and coverage
 claims agree. Root analytic review also accepts the explicit source, inverse,
-alias and precision inequalities. Packaging and final replay are underway
-in workers/gaussian_all_orders; it is not yet a published contribution.
+alias and precision inequalities. The eight-command final replay passed and the exact reviewed tree is now
+published; see contribution 8 and PUBLICATIONS.json.
 
 DRAFTS/fixed-divisor-binding preserves the #6968 reuse audit, exact source
 pins and 120-call receipt. It is a recovery artifact, not a separately
@@ -122,3 +132,29 @@ The shared source/reference store is read-only to researchers. Fork main,
 the selected certificate and upstream PR submission remain untouched.
 
 Prepared for Jerry Chen / @CubeJerry with substantial OpenAI assistance.
+
+## Current active wave after eight publications
+
+- Gaussian worker: selected-source specialization audit in
+  run/selected-native-four-premise-audit. Determine whether the new universal
+  machinery and an elementary preparatory ordinary stage actually discharge
+  native_all_columns for selected #7000, without adding an unreviewed premise.
+  The candidate cold envelope .0038371196808 exceeds the selected .0034 seed.
+  This numerical observation alone is not a premise-removal proof.
+- CRT worker: package the independently checked #7837 binary composition seam
+  in workers/native_routes_review, branch
+  research/grade14-weighted-route-cross-review-20261120. Its complete carry
+  cocycle, coupled-role matching, high-fibre return and joint weight controls
+  passed. Root requested the sharper route-invariance condition for common
+  weights, with an invariant fresh-dependent positive control. Full #7837
+  application acceptance remains outside the review.
+- Rounding worker: run/crt-entry-close-lowering. The unchanged 70-role union
+  cannot write the three additional record owners. Investigate an explicit
+  fixed 73-role extension for complete terminal close, with all histories
+  and the same final-query ordering. No full higher controller is claimed.
+- Root: finish independent reviews and publication of complete scoped work,
+  preserve exact selected assumptions and refresh only upstream deltas.
+
+The first eight remote refs and additions-only comparisons are checked.
+No upstream PR was submitted, no selected certificate or fork main changed,
+and no new complete kappa or unconditional theorem has been established.

@@ -19,3 +19,22 @@ premise without proving the callers or the other assumptions.
 The rounding task concerns a restricted replacement-provider class. A negative
 result there would not falsify the selected assumptions or exclude arbitrary
 Gaussian rounding. The selected bound remains conditional.
+
+## Verified progress at the eight-contribution checkpoint
+
+The exact five statements above are unchanged. PUBLICATIONS.json binds each
+reviewed result to its remote commit and exact tested tree.
+
+| Selected obligation | What this run actually proves | Remaining contract and weakest next step |
+|---|---|---|
+| native_all_columns | The finite rational receiver distinguishes exterior scalars from columnwise phases and checks the all-column public/private endpoint. A conditional source-compiler translation preserves dimension, width and every paid call, including global LAMBDA and complete spectators. | The source raw-native all-column premise and physical realization remain. A fresh selected-source specialization audit examines new #7837, whose grade-14 proposal is not the selected certificate. |
+| owned_erasure | Literal ordered Word lifecycle and its actually executed arithmetic union, with fixed physical identities, exact local bills, shared selectors and per-owner historical backing. | Supplied blank grants, higher Word/record/controller operations and changing-Entry attachment remain. A fixed 73-role terminal close is under investigation; the original 70 roles cannot address three record owners. |
+| compiler | An explicit grammar interface from the pinned selected-complex #7828 construction to the expanded #7834 receiver, with finite private clears and the exact strict receiver funding comparison. | The source compiler's construction/funding theorem is retained; the full selected uniform closure contract is not discharged by translation. |
+| precision_tape | Common odd root grid, paid guard width and exact logical execution for arbitrary fixed Gaussian-rational scalar words. Existing #6968 supplies fixed-divisor physical passes under a specific coded-field ABI. | Binding all row operations, placement, parking and complete input/output formats to one literal physical tariff remains. The #6968 reuse audit is retained, not republished as a new arithmetic algorithm. |
+| analytic_recovery | Exact three-axis source rank in every order; explicit two-order margins under prime separation; and all-order rounding/alias margins for a narrower three-interval source family, with qualified eventual prime availability. A rounding obstruction also rules out finitely many integral-image repairs below half-unit slack. | Full source coefficient production, arbitrary source triples, larger dimensions, complete decomposition and exact integer recovery remain. Fixed-dimensional rank or margin certificates do not prove an unconditional multiplier or improve its exponent. |
+
+New upstream #7837 at a7f99a5f5f919dd3ffb2987f90c1e7d6527feb1e
+claims four original premises for a grade-14 application. It is pending and
+is being independently audited. A scoped binary composition review found no
+flaw, but that finding is not acceptance of the entire theorem and is not
+silently substituted for the selected five-assumption record.
