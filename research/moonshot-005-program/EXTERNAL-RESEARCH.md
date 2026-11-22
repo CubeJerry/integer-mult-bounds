@@ -1,5 +1,17 @@
 # Relevant external research and compatibility
 
+## S032 final delta refresh: no changed upstream frontier
+
+At2026-11-22T01:28:43Z canonical main remains
+ e54523517d0f03e58352e647c403a5af3e525a57.
+PR8035,8027,8030,8034 retain their exact initial heads and remain open/unmerged.
+The newest-created and newest-updated first20 PR collections contain no newer
+material than the initial intake. [Exact readback](results/s032-upstream-intake/FINAL-REFRESH.json)
+and [source-specific compatibility](results/s032-upstream-intake/FINAL-COMPATIBILITY.md)
+keep the outer transfer, paired suppliers, band compiler and pruning ceiling
+separate. No external full theorem was replayed, adopted or transferred to
+the changed S032 word. The five foundations remain explicit.
+
 ## S032: new pending paired/band/pruning claims, same selected main
 
 [Selective intake](results/s032-upstream-intake/SELECTIVE-INTAKE.md) and

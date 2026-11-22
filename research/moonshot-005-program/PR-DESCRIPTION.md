@@ -1,5 +1,48 @@
 # Construct structured native sources and prove exact compatibility gates toward κ=0.005
 
+## S032 checkpoint2: actual D repair and precise limits of the next step
+
+The four-receiver source system now has a literal changed D1509 word. A
+phase-legal rank6 update repairs one forced receiver95 vector's readout at
+all11 donors, preserves all44 existing whole fibre/readout pairs and all144
+geometric D sections, and costs2104 additional eight-lane ADDs. Independent
+raw-owner and binary-column replay gives453939712 local ADDs,279648 INIT/CLEAR
+each and16 gap6 exports. This is a local paid construction: the vector still
+leaks off-D at ten donors and no fifth whole fibre is claimed.
+
+The next construction has a sharper mathematical specification. Arbitrary
+source-only edits with fixed H/D words fail receiver95 under the retained
+native interfaces. Conversely frozen donor ingress permits only rank2 common
+response on a forced four-space, even allowing arbitrary phase-free linear D
+rows. Joint source/H-ingress and D changes are necessary within this contract.
+At least two ingress coordinate functions must change if that four-space is
+retained; this is not a communication-cost lower bound. A separate finite
+partition theorem extends the sharp four-receiver ceiling to arbitrary bank
+bijections retaining all whole partitions at every input baseline.
+
+For the complex supplier, four equal-price seven-deletion profiles are closed
+by827 exact physical cuts. Root reconstructs all boundaries and affordable
+repeated route pairs directly from the raw paid graph, without the former120
+screen or a closure optimizer. The strict deficit exceeds0.868065818837735
+native moment units in each fixed linear graph/tariff model. The record includes
+a corrected exploratory boundary omission and explicitly invalidates its
+initial receipts; the admitted direct cover does not depend on that method.
+
+[Changed word and gate](results/bit-d1509-coupled-repair-s032/ADMISSION.md),
+[independent compiler/proof](results/bit-d1509-coupled-repair-s032-independent/REVIEW.md),
+[source-only gate](results/bit-fifth-receiver-quotient-s032/ADMISSION.md),
+[nonlinear partition scope](results/bit-d1509-nonlinear-partition-gate-s032/ADMISSION.md),
+[complex family admission](results/complex-price-preserving-topology-s032/ADMISSION.md).
+
+Confirmed parent486925d1094ce0f758e2032e982bb64ba67b0224. All source pins,
+reproduction commands, controls and independent-agent review scopes are retained.
+No independent human or kernel review is claimed. Credit @CubeJerry, workers
+and all predecessor contributors; substantial OpenAI assistance. The final
+upstream refresh finds no changed frontier. **No new complete kappa and no
+upstream PR.** Both strict suppliers, actual global return, full recursive
+caller and all five explicit foundations remain; the cumulative draft is not
+ready for upstream submission.
+
 ## S032 addition: simultaneous receivers and a complete scoped route exclusion
 
 One actual source system aligns receivers6,9,48,73 on all11 native D1509 donors,

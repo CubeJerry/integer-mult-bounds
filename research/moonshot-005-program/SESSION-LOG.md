@@ -3121,3 +3121,30 @@ route pairs and the exact cost deficit. New upstream paired/band/pruning work
 was selectively read, not transferred. Next wave changes actual quotient/H
 information and complex topology. No new kappa or foundation discharge.
 Resulting remote SHA is recorded separately after publication, without self-reference.
+
+## 2026-11-22-S032 checkpoint2
+
+Confirmed parent486925d1094ce0f758e2032e982bb64ba67b0224, first checkpoint
+published and read back exactly. The next physical D1509 word repairs one
+forced vector's readout across all11 donors while retaining all44 old whole
+interfaces,144 geometric sections and19/16 phase ranks. Independent raw-owner
+and210-column binary replay gives453939712 local ADDs (+2104),279648 INIT/CLEAR
+each and16 gap6 fields. No fifth fibre is completed: off-D leakage persists
+at ten donors and the donor0/61 fifth-fibre join rank is14.
+
+Exact source-only and D-only gates identify joint ingress/D interpolation as
+the next task. The forced four-space has contrast rank30, common-row dimension5
+and common response rank2. Two changed ingress coordinate positions are
+necessary if that space stays fixed; no paid-message bound is inferred.
+The finite all-baseline nonlinear partition gate is independently checked
+with924 fresh ranks,462 five-sets and both nonlinear controls.
+
+Root reconstructs all827 full boundaries and every affordable repeated route
+pair for four equal-price complex deletion profiles. All fail; the common
+strict moment deficit exceeds0.868065818837735. An exploratory boundary omission
+was corrected and its first receipts invalidated before admission. The admitted
+proof uses direct complete cut certificates and no closure search. Final
+upstream heads and main remain unchanged. Four new admissions, no new kappa,
+no foundation discharge, no upstream PR. A separate bounded joint-interpolation
+attempt may follow; current admitted packages are frozen. Resulting checkpoint
+SHA is verified after publication and is not embedded self-referentially.

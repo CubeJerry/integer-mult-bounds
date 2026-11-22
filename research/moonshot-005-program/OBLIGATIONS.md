@@ -1,5 +1,26 @@
 # Remaining proof obligations — current programme
 
+## S032 checkpoint2: joint ingress/D interpolation is the next construction
+
+| Obligation | Verified status | Next requirement |
+|---|---|---|
+| Four entire D1509 receiver fibres | All11 donors;44 literal interfaces retained by changed D | Keep all four during joint source/H and D redesign |
+| Receiver95 | One vector has common D output; it leaks off-D at ten donors | Align the entire eight-space and its readout, with proper isolation |
+| Frozen-ingress four-space | Contrast rank30, common response rank2<4 | Change at least two ingress coordinate functions if K stays fixed; no message-cost conclusion |
+| Source-only edits with fixed H/D | Receiver95 excluded using native H interfaces | Change D and ingress together or change a stated retained interface |
+| Nonlinear bank gauges | Five whole partitions excluded at all baselines over finite fields | Actual changed observations; zero-only agreement is a different contract |
+| Physical local word |453939712 ADD,279648 INIT/CLEAR,16 exports | Global inverse placement,100 further sources, other whole H/D/K/facets |
+| Canonical return | Open; necessary ceiling34675, floor34560 | Build and price the actual global return |
+| Four equal-price complex profiles | Excluded by827 direct cuts | Leave this deletion/endpoint/target/tariff family |
+| Strict suppliers/caller | Open under five explicit foundations | Complete every required physical and asymptotic interface |
+
+[Coupled-D proof](results/bit-d1509-coupled-repair-s032/PROOF.md),
+[native source-edit review](results/bit-fifth-receiver-quotient-s032-independent/REVIEW.md),
+[finite partition scope](results/bit-d1509-nonlinear-partition-gate-s032/PROOF.md),
+[complex direct cover](results/complex-price-preserving-topology-s032/PROOF.md).
+Earlier coefficient-only continuations within these exact frozen classes are
+superseded; their historical lemmas remain valid in their original scope.
+
 ## S032 checkpoint1: local construction and a decisive scoped closure
 
 | Obligation | Verified status | Next requirement |

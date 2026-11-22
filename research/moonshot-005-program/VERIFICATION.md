@@ -1,5 +1,36 @@
 # Verification ledger
 
+## S032 checkpoint2: independent changed-word, partition and full-boundary proofs
+
+C independently reconstructs all11 physical35-by96 ingress maps and all44
+retained whole fibres, checks both saved D changes and all144 sections, and
+replays the changed binary word on all210 original columns plus pure inverses.
+The exact updated local total is453939712 ADDs. Its independently derived
+whole-K contrast has rank30, annihilator dimension5 and common response rank2.
+It explicitly detects ten off-D leaks and the donor0/61 fifth-fibre join rank14.
+Root read the proofs and freshly reproduced C's independent receipt; that
+replay is not another independent derivation.
+
+C's source-only receiver95 review uses native H constraints alone and an
+explicit H333 control. B independently reviews the finite-partition theorem
+and computes924 ranks with fresh GF64 arithmetic; all462 five-sets fail, all24
+zero-only alignments fail the full-partition test, and a nonlinear positive
+control passes. Root's fresh replay reproduces B's receipt.
+
+Root's complex-family checker manually installs the paid compensation on raw
+source data, reverse-expands26 target rows and verifies seven distinct exact
+nonzero minors on827 complete physical boundaries. It enumerates all4802
+grade-one routes and repeated pairs afresh, without the old120 list, author
+executables, closure algorithm or optimizer. Every pair is covered. All827
+original paid-cut controls pass and four forged boundaries are rejected.
+The prior exact allowance is explicitly reused. The exploratory boundary
+omission and invalidated initial receipts remain in CORRECTION.md.
+
+See [coupled review](results/bit-d1509-coupled-repair-s032-independent/REVIEW.md),
+[partition review](results/bit-d1509-nonlinear-partition-gate-s032/independent-review-b.md)
+and [root finite-cover review](results/complex-price-preserving-topology-s032/root-review/REVIEW.md).
+No complete fifth receiver, global supplier, new kappa or foundation discharge.
+
 ## S032 checkpoint1: independent receiver, compiler and route-cut proofs
 
 C independently reconstructs132 D frames and216 protected H fibres from actual

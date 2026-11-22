@@ -1,0 +1,450 @@
+{
+  "schema": "s032-final-upstream-refresh-v1",
+  "checked_utc": "2026-11-22T01:28:43Z",
+  "initial_intake_utc": "2026-11-22T00:56:59Z",
+  "canonical_repository": "CrocSwap/integer-mult-bounds",
+  "canonical_main_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "canonical_main_unchanged": true,
+  "canonical_selected_conditional_kappa": "0.00363005817",
+  "canonical_selected_record_replay": "not rerun; canonical tree unchanged from initial intake",
+  "prs": [
+    {
+      "pr": 8035,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/8035",
+      "title": "Raise conditional κ to 0.0038901152865907 with a smaller signed margin",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "head_sha": "ea776471bf8ed143a0625cf2d7532f65d15eb5f9",
+      "head_repository": "Clear1nsight/integer-mult-bounds",
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "updated_at": "2026-11-21T22:59:03Z",
+      "unchanged_since_initial_S032_intake": true,
+      "final_refresh_review_level": "metadata rechecked; prior selective proof reading only; no new package replay or transfer admission"
+    },
+    {
+      "pr": 8027,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/8027",
+      "title": "Conditional κ ≥ 0.00389011507650 (+0.26255722% over #8026) from paired P104 suppliers",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "head_sha": "fb9b6a7b0d27da1cf98430893a3016bf811e2aa4",
+      "head_repository": "aliromman/integer-mult-bounds",
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "updated_at": "2026-11-21T17:02:43Z",
+      "unchanged_since_initial_S032_intake": true,
+      "final_refresh_review_level": "metadata rechecked; prior selective proof reading only; no new package replay or transfer admission"
+    },
+    {
+      "pr": 8030,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/8030",
+      "title": "Reduce the native carrier, setup and complete activation exponents",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "head_sha": "6285dd829114705862e8d91facaedc1f31d3cfcb",
+      "head_repository": "aliromman/integer-mult-bounds",
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "updated_at": "2026-11-21T19:07:55Z",
+      "unchanged_since_initial_S032_intake": true,
+      "final_refresh_review_level": "metadata rechecked; prior selective proof reading only; no new package replay or transfer admission"
+    },
+    {
+      "pr": 8034,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/8034",
+      "title": "Prove a tensor-stable support-pruning ceiling for the paired BIT word",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "head_sha": "5251f24363ea1c20bd1cb10ae18ba85f54212394",
+      "head_repository": "Clear1nsight/integer-mult-bounds",
+      "base_sha": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "updated_at": "2026-11-21T22:37:45Z",
+      "unchanged_since_initial_S032_intake": true,
+      "final_refresh_review_level": "metadata rechecked; prior selective proof reading only; no new package replay or transfer admission"
+    }
+  ],
+  "delta_scan": {
+    "method": "Read-only GitHub REST pull-request collection, first 20 sorted created descending and first 20 sorted updated descending; state=all. No diff retrieval.",
+    "urls": [
+      "https://api.github.com/repos/CrocSwap/integer-mult-bounds/pulls?state=all&sort=created&direction=desc&per_page=20&page=1",
+      "https://api.github.com/repos/CrocSwap/integer-mult-bounds/pulls?state=all&sort=updated&direction=desc&per_page=20&page=1"
+    ],
+    "created_page": [
+      {
+        "pr": 8035,
+        "title": "Raise conditional κ to 0.0038901152865907 with a smaller signed margin",
+        "state": "open",
+        "head_sha": "ea776471bf8ed143a0625cf2d7532f65d15eb5f9",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T22:42:58Z",
+        "updated_at": "2026-11-21T22:59:03Z"
+      },
+      {
+        "pr": 8034,
+        "title": "Prove a tensor-stable support-pruning ceiling for the paired BIT word",
+        "state": "open",
+        "head_sha": "5251f24363ea1c20bd1cb10ae18ba85f54212394",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T22:37:45Z",
+        "updated_at": "2026-11-21T22:37:45Z"
+      },
+      {
+        "pr": 8033,
+        "title": "Raise conditional κ to 0.003890115286352 with a 268-factor single band",
+        "state": "open",
+        "head_sha": "a1313ff9f84fd00d50b282fe432e522191277821",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T22:20:42Z",
+        "updated_at": "2026-11-21T22:20:42Z"
+      },
+      {
+        "pr": 8032,
+        "title": "Raise conditional κ to 0.00389011528633 with a 320-factor single-band supplier",
+        "state": "open",
+        "head_sha": "9c5881ab4015854c68d5f5a3fc7d97f68505cc4c",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T21:20:41Z",
+        "updated_at": "2026-11-21T21:30:58Z"
+      },
+      {
+        "pr": 8031,
+        "title": "Raise conditional κ to 0.00389011528360 using weighted source complements",
+        "state": "open",
+        "head_sha": "745f2763cbe4eaa83cb0aa7d1dcebd4823668f08",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T20:56:53Z",
+        "updated_at": "2026-11-21T20:59:55Z"
+      },
+      {
+        "pr": 8030,
+        "title": "Reduce the native carrier, setup and complete activation exponents",
+        "state": "open",
+        "head_sha": "6285dd829114705862e8d91facaedc1f31d3cfcb",
+        "head_repository": "aliromman/integer-mult-bounds",
+        "created_at": "2026-11-21T18:17:09Z",
+        "updated_at": "2026-11-21T19:07:55Z"
+      },
+      {
+        "pr": 8029,
+        "title": "Conditional κ = .00389011527141 (+0.00000501039162510749% over #8027): bound paid moments on the paired supplier",
+        "state": "open",
+        "head_sha": "c3837013dd7e2c50f6c3065c8f99d52a33b617bb",
+        "head_repository": "ToikY/integer-mult-bounds",
+        "created_at": "2026-11-21T17:28:51Z",
+        "updated_at": "2026-11-21T18:25:55Z"
+      },
+      {
+        "pr": 8027,
+        "title": "Conditional κ ≥ 0.00389011507650 (+0.26255722% over #8026) from paired P104 suppliers",
+        "state": "open",
+        "head_sha": "fb9b6a7b0d27da1cf98430893a3016bf811e2aa4",
+        "head_repository": "aliromman/integer-mult-bounds",
+        "created_at": "2026-11-21T17:02:43Z",
+        "updated_at": "2026-11-21T17:02:43Z"
+      },
+      {
+        "pr": 8026,
+        "title": "Bound small paid remainders on the original 451-factor supplier",
+        "state": "open",
+        "head_sha": "d9c3e9ad79686d863cb30cf00f1e32e6c7461300",
+        "head_repository": "ToikY/integer-mult-bounds",
+        "created_at": "2026-11-21T14:08:06Z",
+        "updated_at": "2026-11-21T17:33:30Z"
+      },
+      {
+        "pr": 8025,
+        "title": "Find rank-compatible BIT grade exchanges and prove their address-mixing limits",
+        "state": "open",
+        "head_sha": "bb329c87a742437c2ed0de92b56771a4fe77ddb2",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T13:34:11Z",
+        "updated_at": "2026-11-21T13:42:25Z"
+      },
+      {
+        "pr": 8024,
+        "title": "Separate whole paid fields across the 36 P104 binary calls",
+        "state": "open",
+        "head_sha": "cbdf491fca0e6b235a27512e15fc146b5175c900",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T13:34:07Z",
+        "updated_at": "2026-11-21T13:34:07Z"
+      },
+      {
+        "pr": 8023,
+        "title": "Prove the exact block broadcast cost at P104 packet 3300",
+        "state": "open",
+        "head_sha": "d90592cc485bd6511adf0aa0c854d7461544f774",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T13:24:38Z",
+        "updated_at": "2026-11-21T13:24:38Z"
+      },
+      {
+        "pr": 8022,
+        "title": "Rule out 3,112 equal-mass helper destination swaps at a single frozen BIT chart",
+        "state": "open",
+        "head_sha": "8bd02daca9f4e7a227f6c552905930eed9498655",
+        "head_repository": "ToikY/integer-mult-bounds",
+        "created_at": "2026-11-21T13:18:36Z",
+        "updated_at": "2026-11-21T13:30:10Z"
+      },
+      {
+        "pr": 8021,
+        "title": "Prove the shared packet 3300 obstruction in the early chart-268 route",
+        "state": "open",
+        "head_sha": "0a693d83e85eda96a863d1ea262f4f733f01abc0",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T11:20:34Z",
+        "updated_at": "2026-11-21T11:20:34Z"
+      },
+      {
+        "pr": 8020,
+        "title": "Restore owner-221 stock before the original chart-635 cutoff",
+        "state": "open",
+        "head_sha": "28700135af647bc31378ccc886ae9d0bfc693f10",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T11:10:03Z",
+        "updated_at": "2026-11-21T11:26:32Z"
+      },
+      {
+        "pr": 8019,
+        "title": "Find the exact chart-268 feedback minimum and replay all nine releases",
+        "state": "open",
+        "head_sha": "1cfbd53554154a3bb0b18b8ee607bb6c8ceaa37d",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T11:04:32Z",
+        "updated_at": "2026-11-21T11:04:32Z"
+      },
+      {
+        "pr": 8018,
+        "title": "Force an old input coefficient to change on the funded chart-268 graph",
+        "state": "open",
+        "head_sha": "405cbc9f1c457d5cb45a5bcffd883717d0b43bc9",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T11:00:54Z",
+        "updated_at": "2026-11-21T11:00:54Z"
+      },
+      {
+        "pr": 8017,
+        "title": "Restore the full chart-268 operator by rebinding owner 17",
+        "state": "open",
+        "head_sha": "6e090c180ad5c8c9a3ed50e94737fd2be04adf54",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T11:00:50Z",
+        "updated_at": "2026-11-21T11:00:50Z"
+      },
+      {
+        "pr": 8016,
+        "title": "Independently replay four chart-268 and chart-635 diagnostics",
+        "state": "open",
+        "head_sha": "c38ed7d80157ac03ef35106c1ac3463419a60130",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T10:53:32Z",
+        "updated_at": "2026-11-21T10:53:32Z"
+      },
+      {
+        "pr": 8015,
+        "title": "Restrict owner 679 to seven paid packets in both orientations",
+        "state": "open",
+        "head_sha": "b8f7adb79fde8c992d0f0f2a2ad6be83778df89c",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T10:53:28Z",
+        "updated_at": "2026-11-21T10:53:28Z"
+      }
+    ],
+    "updated_page": [
+      {
+        "pr": 8035,
+        "title": "Raise conditional κ to 0.0038901152865907 with a smaller signed margin",
+        "state": "open",
+        "head_sha": "ea776471bf8ed143a0625cf2d7532f65d15eb5f9",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T22:42:58Z",
+        "updated_at": "2026-11-21T22:59:03Z"
+      },
+      {
+        "pr": 8034,
+        "title": "Prove a tensor-stable support-pruning ceiling for the paired BIT word",
+        "state": "open",
+        "head_sha": "5251f24363ea1c20bd1cb10ae18ba85f54212394",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T22:37:45Z",
+        "updated_at": "2026-11-21T22:37:45Z"
+      },
+      {
+        "pr": 8033,
+        "title": "Raise conditional κ to 0.003890115286352 with a 268-factor single band",
+        "state": "open",
+        "head_sha": "a1313ff9f84fd00d50b282fe432e522191277821",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T22:20:42Z",
+        "updated_at": "2026-11-21T22:20:42Z"
+      },
+      {
+        "pr": 8032,
+        "title": "Raise conditional κ to 0.00389011528633 with a 320-factor single-band supplier",
+        "state": "open",
+        "head_sha": "9c5881ab4015854c68d5f5a3fc7d97f68505cc4c",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T21:20:41Z",
+        "updated_at": "2026-11-21T21:30:58Z"
+      },
+      {
+        "pr": 8031,
+        "title": "Raise conditional κ to 0.00389011528360 using weighted source complements",
+        "state": "open",
+        "head_sha": "745f2763cbe4eaa83cb0aa7d1dcebd4823668f08",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T20:56:53Z",
+        "updated_at": "2026-11-21T20:59:55Z"
+      },
+      {
+        "pr": 8030,
+        "title": "Reduce the native carrier, setup and complete activation exponents",
+        "state": "open",
+        "head_sha": "6285dd829114705862e8d91facaedc1f31d3cfcb",
+        "head_repository": "aliromman/integer-mult-bounds",
+        "created_at": "2026-11-21T18:17:09Z",
+        "updated_at": "2026-11-21T19:07:55Z"
+      },
+      {
+        "pr": 8029,
+        "title": "Conditional κ = .00389011527141 (+0.00000501039162510749% over #8027): bound paid moments on the paired supplier",
+        "state": "open",
+        "head_sha": "c3837013dd7e2c50f6c3065c8f99d52a33b617bb",
+        "head_repository": "ToikY/integer-mult-bounds",
+        "created_at": "2026-11-21T17:28:51Z",
+        "updated_at": "2026-11-21T18:25:55Z"
+      },
+      {
+        "pr": 8026,
+        "title": "Bound small paid remainders on the original 451-factor supplier",
+        "state": "open",
+        "head_sha": "d9c3e9ad79686d863cb30cf00f1e32e6c7461300",
+        "head_repository": "ToikY/integer-mult-bounds",
+        "created_at": "2026-11-21T14:08:06Z",
+        "updated_at": "2026-11-21T17:33:30Z"
+      },
+      {
+        "pr": 8027,
+        "title": "Conditional κ ≥ 0.00389011507650 (+0.26255722% over #8026) from paired P104 suppliers",
+        "state": "open",
+        "head_sha": "fb9b6a7b0d27da1cf98430893a3016bf811e2aa4",
+        "head_repository": "aliromman/integer-mult-bounds",
+        "created_at": "2026-11-21T17:02:43Z",
+        "updated_at": "2026-11-21T17:02:43Z"
+      },
+      {
+        "pr": 8025,
+        "title": "Find rank-compatible BIT grade exchanges and prove their address-mixing limits",
+        "state": "open",
+        "head_sha": "bb329c87a742437c2ed0de92b56771a4fe77ddb2",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T13:34:11Z",
+        "updated_at": "2026-11-21T13:42:25Z"
+      },
+      {
+        "pr": 8024,
+        "title": "Separate whole paid fields across the 36 P104 binary calls",
+        "state": "open",
+        "head_sha": "cbdf491fca0e6b235a27512e15fc146b5175c900",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T13:34:07Z",
+        "updated_at": "2026-11-21T13:34:07Z"
+      },
+      {
+        "pr": 8022,
+        "title": "Rule out 3,112 equal-mass helper destination swaps at a single frozen BIT chart",
+        "state": "open",
+        "head_sha": "8bd02daca9f4e7a227f6c552905930eed9498655",
+        "head_repository": "ToikY/integer-mult-bounds",
+        "created_at": "2026-11-21T13:18:36Z",
+        "updated_at": "2026-11-21T13:30:10Z"
+      },
+      {
+        "pr": 8023,
+        "title": "Prove the exact block broadcast cost at P104 packet 3300",
+        "state": "open",
+        "head_sha": "d90592cc485bd6511adf0aa0c854d7461544f774",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T13:24:38Z",
+        "updated_at": "2026-11-21T13:24:38Z"
+      },
+      {
+        "pr": 8006,
+        "title": "Replay chart-268 BIT repairs and prove their missing information",
+        "state": "open",
+        "head_sha": "4035f150285513852cab8d00b8bfc233c699ea0a",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T09:58:51Z",
+        "updated_at": "2026-11-21T11:30:32Z"
+      },
+      {
+        "pr": 8020,
+        "title": "Restore owner-221 stock before the original chart-635 cutoff",
+        "state": "open",
+        "head_sha": "28700135af647bc31378ccc886ae9d0bfc693f10",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T11:10:03Z",
+        "updated_at": "2026-11-21T11:26:32Z"
+      },
+      {
+        "pr": 8021,
+        "title": "Prove the shared packet 3300 obstruction in the early chart-268 route",
+        "state": "open",
+        "head_sha": "0a693d83e85eda96a863d1ea262f4f733f01abc0",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T11:20:34Z",
+        "updated_at": "2026-11-21T11:20:34Z"
+      },
+      {
+        "pr": 8019,
+        "title": "Find the exact chart-268 feedback minimum and replay all nine releases",
+        "state": "open",
+        "head_sha": "1cfbd53554154a3bb0b18b8ee607bb6c8ceaa37d",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T11:04:32Z",
+        "updated_at": "2026-11-21T11:04:32Z"
+      },
+      {
+        "pr": 8018,
+        "title": "Force an old input coefficient to change on the funded chart-268 graph",
+        "state": "open",
+        "head_sha": "405cbc9f1c457d5cb45a5bcffd883717d0b43bc9",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T11:00:54Z",
+        "updated_at": "2026-11-21T11:00:54Z"
+      },
+      {
+        "pr": 8017,
+        "title": "Restore the full chart-268 operator by rebinding owner 17",
+        "state": "open",
+        "head_sha": "6e090c180ad5c8c9a3ed50e94737fd2be04adf54",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T11:00:50Z",
+        "updated_at": "2026-11-21T11:00:50Z"
+      },
+      {
+        "pr": 8016,
+        "title": "Independently replay four chart-268 and chart-635 diagnostics",
+        "state": "open",
+        "head_sha": "c38ed7d80157ac03ef35106c1ac3463419a60130",
+        "head_repository": "Clear1nsight/integer-mult-bounds",
+        "created_at": "2026-11-21T10:53:32Z",
+        "updated_at": "2026-11-21T10:53:32Z"
+      }
+    ],
+    "latest_created_pr": 8035,
+    "latest_created_at": "2026-11-21T22:42:58Z",
+    "latest_updated_pr": 8035,
+    "latest_updated_at": "2026-11-21T22:59:03Z",
+    "items_created_after_initial_intake": [],
+    "items_updated_after_initial_intake": [],
+    "new_actionable_frontier_found": false,
+    "scope": "No newly created or updated PR since the initial S032 intake was returned by the ordered REST collections; no broader proof re-audit."
+  },
+  "adopted": false,
+  "new_kappa": false,
+  "remote_mutations": false
+}

@@ -1,5 +1,22 @@
 # Exact target κ=1/200 — current programme
 
+## S032 checkpoint2: a paid D change, unchanged complete target
+
+The physical D word now equalizes one receiver95 vector across all11 donors
+while retaining four whole receiver interfaces. Its exact local bill is
+453939712 ADDs,279648 INIT/CLEAR each and16 gap6 exports. This is not a fifth
+whole fibre: off-D leakage and the frozen-ingress rank2/4 gate remain. The
+retained necessary return ceiling34675 versus floor34560 is not an achieved
+return or complete invoice.
+
+Four equal-price complex deletion profiles are excluded by827 direct cut
+certificates; each exceeds its complete .005 allowance by more than
+0.868065818837735. Both strict suppliers U>1/200 and B>1/200, full BIT conversion
+and the complete recursive caller remain unproved. All five assumptions stay
+explicit. Selected conditional kappa remains0.00363005817.
+[Changed D admission](results/bit-d1509-coupled-repair-s032/ADMISSION.md);
+[complex family](results/complex-price-preserving-topology-s032/ADMISSION.md).
+
 ## S032 checkpoint1: constructive compatibility and changed next architecture
 
 Four D1509 receivers now share one source word on11 donors. Exact joined-fibre
