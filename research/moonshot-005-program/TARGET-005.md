@@ -1,5 +1,19 @@
 # Exact target κ=1/200 — current programme
 
+## S032 checkpoint1: constructive compatibility and changed next architecture
+
+Four D1509 receivers now share one source word on11 donors. Exact joined-fibre
+ranks exclude a fifth through linear input changes alone. The gross local bill
+is453937608 ADDs and279648 INIT/CLEAR each;16 gap6 exports retain necessary
+return cap34675 versus floor34560. A complete return remains open.
+The seven-deletion complex repair is excluded: required added moment is at
+least1+2^(199/200), exceeding the complete allowance by more than0.868065818837735.
+A changed deletion/route architecture is needed. Both strict suppliers U>1/200
+and B>1/200, completed BIT conversion, all physical/recursive costs and five
+foundations remain unchanged. No new kappa.
+[BIT admission](results/bit-simultaneous-d1509-s032/ADMISSION.md);
+[complex closure](results/complex-source-hub-s032/ADMISSION.md).
+
 ## S031 checkpoint8: a complete local D cut, unchanged global thresholds
 
 The [all-native D1509 cut](results/bit-shared-h-s031-construction/native-d1509-all-native/ADMISSION.md) now supplies all eleven native

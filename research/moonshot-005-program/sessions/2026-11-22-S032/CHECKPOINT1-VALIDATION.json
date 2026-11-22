@@ -1,0 +1,42 @@
+{
+  "baseline": "2626a0707b56697774c5a9989a095b38458411ee",
+  "scope": "Independent proof reviews and actual scientific replays for four-receiver and fixed-complex-cut packages",
+  "receipts": {
+    "bit_author": {
+      "path": "results/bit-simultaneous-d1509-s032/verification/VERIFY-RESULT.json",
+      "sha256": "7a667ecb45150ea1ca13dcde0915cac0f2202386d93e168a22730fe5b5ada1f3",
+      "status": "PASS_FOUR_RECEIVER_D1509_AND_SHARP_FIXED_INPUT_GAUGE_GATE"
+    },
+    "bit_geometry": {
+      "path": "results/bit-simultaneous-d1509-s032-independent/output/RESULT.json",
+      "sha256": "b9fd032eeabb5efd85025edd1f3c5bde3ac95afae47835891646bb5772d617c3",
+      "status": "PASS_INDEPENDENT_D1509_FRAMES_AND_H_CORES"
+    },
+    "bit_candidate": {
+      "path": "results/bit-simultaneous-d1509-s032-independent/candidate-output/RESULT.json",
+      "sha256": "9961c4ad16791a5bc46f2a77dd57857b539dc77f06fef475d59bf953b9079969",
+      "status": "PASS_INDEPENDENT_FOUR_RECEIVERS_AND_FIVE_RECEIVER_GAUGE_GATE"
+    },
+    "bit_compiler": {
+      "path": "results/bit-simultaneous-d1509-s032-independent/compiler-output/RESULT.json",
+      "sha256": "def2f8cf44397c4512e999e15f8626dc12a8aba42a25c3844271a44d511be0e3",
+      "status": "PASS_INDEPENDENT_S032_SOURCE_COMPILER_DELTA"
+    },
+    "complex_author": {
+      "path": "results/complex-source-hub-s032/output/RESULT.json",
+      "sha256": "4d43518a16fb14f31451b167475264b20fcb59ac1b7257539b98818c012472f8",
+      "status": "PASS_S032_ALL_120_COMPLEX_REPAIR_PAIRS_EXCLUDED"
+    },
+    "complex_root": {
+      "path": "results/complex-source-hub-s032/root-review/output/RESULT.json",
+      "sha256": "522076f935776389483d0c3525adde1b87b6a732af93a19413107486ae402d9f",
+      "status": "PASS_INDEPENDENT_S032_COMPLEX_CUT_AUDIT"
+    }
+  },
+  "root_author_reproduction_matches": true,
+  "root_author_reproduction_is_independent": false,
+  "independent_workers_are_AI": true,
+  "new_complete_kappa": false,
+  "full_global_return": false,
+  "all_five_foundations_retained": true
+}

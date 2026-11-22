@@ -1,5 +1,22 @@
 # Remaining proof obligations — current programme
 
+## S032 checkpoint1: local construction and a decisive scoped closure
+
+| Obligation | Verified status | Next requirement |
+|---|---|---|
+| Entire common D1509 fibres | Four receivers6,9,48,73 on all11 donors | Change quotient/H information for a fifth; sharp linear-gauge ceiling4 |
+| Whole H263/H642 interfaces | Preserved72/67 readouts | Preserve through new quotient edits; construct other whole-H interfaces |
+| Local source/H/D words |453937608 ADD;279648 INIT/CLEAR;16 exports | Global inverse placement,100 more sources, remaining H/D/K/facets |
+| Canonical return | Open; necessary cap34675, floor34560 | Build and price one complete return |
+| Seven-deletion complex repair | Disproved for all120 two-route survivors in fixed linear graph/tariff scope | Change deletion or paid-route architecture |
+| Strict suppliers/caller/foundations | Open or explicitly retained | Complete every original interface and cost |
+
+[Four-receiver proof](results/bit-simultaneous-d1509-s032/PROOF.md),
+[independent proof](results/bit-simultaneous-d1509-s032-independent/JOINT-GAUGE-PROOF.md),
+[complex theorem](results/complex-source-hub-s032/PROOF.md).
+Earlier requests to fit the same120 complex pairs are superseded by the new
+cut; all earlier exact lemmas remain valid within their original scope.
+
 ## S031 checkpoint8: all donor sources supplied for one native D cut
 
 | Obligation | Verified status | Next requirement |

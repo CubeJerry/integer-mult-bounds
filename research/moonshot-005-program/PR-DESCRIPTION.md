@@ -1,5 +1,27 @@
 # Construct structured native sources and prove exact compatibility gates toward κ=0.005
 
+## S032 addition: simultaneous receivers and a complete scoped route exclusion
+
+One actual source system aligns receivers6,9,48,73 on all11 native D1509 donors,
+preserving both whole H interfaces. Independent geometry and binary compiler
+proofs accompany literal matrices:453937608 ADDs,279648 INIT/CLEAR each and16
+exports. Exact certificates exclude all462 five-receiver extensions through
+invertible linear whole-bank changes of this fixed prefix.
+
+A rank4 cut excludes all120 former complex two-route survivors, allowing
+arbitrary surviving local linear recoding and legal retiming. The exact
+seven-deletion .005 repair misses its budget by more than0.868065818837735.
+This is a source-specific closure, not a universal complex-supplier bound.
+
+[Construction/admission](results/bit-simultaneous-d1509-s032/ADMISSION.md),
+[independent review](results/bit-simultaneous-d1509-s032-independent/REVIEW.md),
+[complex proof](results/complex-source-hub-s032/PROOF.md),
+[root audit](results/complex-source-hub-s032/root-review/REVIEW.md).
+Baseline2626a0707b56697774c5a9989a095b38458411ee. Packages give source pins,
+reproduction commands and negative controls. Credit @CubeJerry and all retained
+predecessors; substantial OpenAI assistance. **No new κ.** Both strict suppliers,
+a complete word, affordable return and all five foundations remain. Not PR-ready.
+
 ## S031 checkpoint8: actual D decoding for all native donors
 
 The cumulative construction now supplies one complete local receiver6/D1509

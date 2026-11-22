@@ -1,0 +1,66 @@
+{
+  "status": "PASS_INDEPENDENT_S032_COMPLEX_CUT_AUDIT",
+  "imported_author_code": false,
+  "method": "reverse DAG over exact rational coefficients; binary reduced chart bases; all retained routes",
+  "cuts": [
+    {
+      "id": "1",
+      "target_rank": 2,
+      "full_boundary": [
+        89777,
+        96404
+      ],
+      "retained_boundary": [
+        96404
+      ],
+      "rejected_pairs": 75,
+      "capacity_histogram": {
+        "1": 75,
+        "2": 45
+      }
+    },
+    {
+      "id": "2",
+      "target_rank": 2,
+      "full_boundary": [
+        97232,
+        97320,
+        100120
+      ],
+      "retained_boundary": [
+        100120
+      ],
+      "rejected_pairs": 84,
+      "capacity_histogram": {
+        "2": 33,
+        "1": 84,
+        "3": 3
+      }
+    },
+    {
+      "id": "3",
+      "target_rank": 4,
+      "full_boundary": [
+        89777,
+        96404,
+        97320,
+        97369,
+        100120
+      ],
+      "retained_boundary": [
+        96404,
+        97369,
+        100120
+      ],
+      "rejected_pairs": 120,
+      "capacity_histogram": {
+        "3": 120
+      }
+    }
+  ],
+  "prior_survivors_checked": 120,
+  "all_excluded": true,
+  "strict_moment_deficit_lower": "173613163767547/200000000000000",
+  "predecessor_exhaustiveness_and_allowance": "source-bound earlier independent admission reused",
+  "new_kappa": false
+}

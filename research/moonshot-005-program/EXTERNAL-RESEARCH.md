@@ -1,5 +1,17 @@
 # Relevant external research and compatibility
 
+## S032: new pending paired/band/pruning claims, same selected main
+
+[Selective intake](results/s032-upstream-intake/SELECTIVE-INTAKE.md) and
+[exact readback](results/s032-upstream-intake/SOURCE-READBACK.json) record canonical
+main e54523517d0f03e58352e647c403a5af3e525a57 and unchanged older comparator heads.
+New PR8035 claims conditional0.0038901152865907 on the paired PR8027 source.
+PR8030 offers a single-band compiler; PR8034 an ordered-transport tensor/pruning
+ceiling for its exact paired BIT word. Proofs were selectively read, not fully
+replayed or adopted. All prices remain below.005. Compiler transfer needs an
+actual complete changed native word and strict cost/owner/precision contracts.
+No moonshot foundation is discharged.
+
 ## S031 checkpoint8: new direct Fourier proposal, same supplier frontier
 
 [UPSTREAM-REFRESH3](sessions/2026-11-21-S031/UPSTREAM-REFRESH3.json) rechecks

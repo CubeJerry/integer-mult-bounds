@@ -1,5 +1,26 @@
 # Verification ledger
 
+## S032 checkpoint1: independent receiver, compiler and route-cut proofs
+
+C independently reconstructs132 D frames and216 protected H fibres from actual
+routes, coefficients and Euclidean root orthogonality; it checks308 changed
+quotients,3960 late parities and every early matrix. All462 five-subsets have
+exact minor/nullspace certificates. All-column binary source replay and old
+H/D receipt pins establish453937608 ADDs,279648 INIT/CLEAR each and16 gap6
+fields. Root read the proofs/review and reproduced the author verifier;
+that replay is not another independent derivation.
+[Independent record](results/bit-simultaneous-d1509-s032-independent/REVIEW.md).
+
+Root independently rebuilds the complex paid graph without author imports,
+reverse-expands eight target rows over Q, canonicalizes physical aliases by
+binary row reduction and checks every boundary and all120 new pairs. Identity
+minors have ranks2,2,4; the third cut alone excludes every survivor. Previous
+exhaustive coverage and allowance are explicitly reused from pinned independent
+evidence. Integer powers certify the strict price bound.
+[Root audit](results/complex-source-hub-s032/root-review/REVIEW.md).
+See sessions/2026-11-22-S032/CHECKPOINT1-VALIDATION.json. No full endpoint,
+return, complete supplier, foundational discharge or new kappa.
+
 ## S031 checkpoint8: independently reviewed native D cut and tap patch
 
 Worker C independently reconstructed the five-source D geometry, whole fibres,
