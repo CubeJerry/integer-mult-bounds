@@ -3148,3 +3148,28 @@ upstream heads and main remain unchanged. Four new admissions, no new kappa,
 no foundation discharge, no upstream PR. A separate bounded joint-interpolation
 attempt may follow; current admitted packages are frozen. Resulting checkpoint
 SHA is verified after publication and is not embedded self-referentially.
+
+## 2026-11-22-S032 checkpoint3 and research handoff
+
+Confirmed parent681d420b32db0fb63e719d23330d814d264c86b3. Two preceding
+checkpoints were published and read back exactly. The final bounded continuation
+constructed44 exact source/D interpolation systems. The128 elementary-shear
+screen fails (19 singular sections,109 incompatible relations), but is not a
+general impossibility result. The full944-by561 tangent operator has rank88,
+giving473 visible compatible directions and projected D tangent dimension833.
+
+A literal E00 direction has an exact finite lift and a rational family.
+Twelve quotients change at t=1; all44 equations,144 D sections and both phases
+pass. Independently checked grouped inverse identities and nine geometric plus
+one phase pole certify53 nonzero GF64 parameters. The current fixed-K response
+remains2; no full source validity, whole fifth fibre or source price is claimed.
+C independently reconstructs local systems/tangent/finite data; B independently
+checks the rational line and all poles. Root proof review and fresh replays
+match their receipts. Eight new S032 admissions in total, no new complete kappa.
+
+All workers have finished. The primary continuation is an exact coupled
+candidate that changes useful fifth-fibre information, followed by full source,
+whole-fibre, physical and cost verification. Global return and both strict
+suppliers/caller remain open under the five explicit foundations. No upstream
+PR or background continuation. The final publication is verified separately
+without embedding its own future commit ID in the committed state.

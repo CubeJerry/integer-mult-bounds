@@ -1,5 +1,12 @@
 # Relevant external research and compatibility
 
+## S032 final construction compatibility
+
+The new exact local source/D family has its own interpolation and section
+proofs. It is not an external supplier transfer and does not inherit a full
+price or remove any foundation. The last targeted upstream refresh remains
+2026-11-22T01:28:43Z; no later refresh or new external adoption is asserted.
+
 ## S032 final delta refresh: no changed upstream frontier
 
 At2026-11-22T01:28:43Z canonical main remains

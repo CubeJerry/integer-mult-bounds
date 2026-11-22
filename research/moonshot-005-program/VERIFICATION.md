@@ -1,5 +1,28 @@
 # Verification ledger
 
+## S032 checkpoint3: independently reconstructed interpolation, tangent and rational line
+
+C reconstructs all 176 physical H-to-proper maps and all 44 native-H local
+systems. Both known D words pass; the 128 specified shears reproduce19 singular
+sections and109 relation failures. The exact iff criterion uses kernel
+containment, and its sufficiency is local interpolation only.
+
+C independently assembles the full944-by561 tangent operator, rank88, and
+checks the complete473-column visible kernel. The full D projection has
+dimension833. C also verifies all44 literal t=1 source corrections, twelve
+changed quotients, both phases and all144 geometric sections; the fixed-K
+response remains2. B separately rebuilds raw D owners/geometry and checks
+all grouped rank-one inverse identities and the nine-plus-one pole census,
+certifying exactly53 nonzero parameters. Both scopes stop before full source
+validity, whole-fibre preservation and source compilation.
+
+Root reviewed the proofs and freshly replayed all three independent checkers.
+These replays reproduce the retained receipts and are not additional independent
+derivations. [C tangent review](results/bit-source-d-tangent-s032-independent/REVIEW.md)
+and [B exact-line review](results/bit-source-d-tangent-s032/independent-proof-review-b.md)
+separate the arithmetic and proof coverage explicitly. See the final checkpoint
+validation and scientific-file manifests in sessions/2026-11-22-S032.
+
 ## S032 checkpoint2: independent changed-word, partition and full-boundary proofs
 
 C independently reconstructs all11 physical35-by96 ingress maps and all44

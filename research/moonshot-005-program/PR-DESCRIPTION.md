@@ -1,5 +1,28 @@
 # Construct structured native sources and prove exact compatibility gates toward κ=0.005
 
+## S032 checkpoint3: an exact coupled local source/D family
+
+The final follow-up replaces isolated shear trials with 44 exact source/D
+interpolation systems. Independent reconstruction proves the local criterion
+ker X subset ker Y and reproduces the bounded failures. The complete projected
+D tangent has dimension833 in921 phase-legal entries;473 compatible directions
+change required source images.
+
+One direction, T(t)=T+tE00, has an exact rational lift. Independent grouped
+inverse identities and a raw geometric pole census certify53 nonzero GF64
+parameters satisfying all local equations, all144 D sections and both phases.
+At t=1 twelve quotient maps change. The fixed-K response remains rank2, and
+full source ranks, nonsaturation, entire fibres and source compilation are
+unverified. This is an exact local construction with a clear next test, not a
+completed fifth receiver or replacement physical supplier.
+
+[Local reduction](results/bit-source-d-interpolation-s032/ADMISSION.md),
+[complete tangent and exact family](results/bit-source-d-tangent-s032/ADMISSION.md),
+[independent physical review](results/bit-source-d-tangent-s032-independent/REVIEW.md),
+[independent rational proof](results/bit-source-d-tangent-s032/independent-proof-review-b.md).
+The final checkpoint preserves all eight S032 admissions and their limits.
+No new complete kappa, foundational discharge or upstream PR.
+
 ## S032 checkpoint2: actual D repair and precise limits of the next step
 
 The four-receiver source system now has a literal changed D1509 word. A

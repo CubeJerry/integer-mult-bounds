@@ -1,5 +1,20 @@
 # Remaining proof obligations — current programme
 
+## S032 checkpoint3: use the exact coupled equations to change fifth-fibre information
+
+| Obligation | Current evidence | Remaining requirement |
+|---|---|---|
+| Coupled source/D interpolation | 44 exact local systems and 53-parameter rational family | A useful finite combination changing fifth-fibre information |
+| Projected D tangent | Dimension833, with473 visible compatible directions | Prove finite feasibility; tangent dimension alone is insufficient |
+| Current t=1 local lift | Twelve quotient changes; all D phases/sections pass | Fixed-K response remains2; full source ranks and whole fibres are unproved |
+| Changed source word | Only prescribed local values proved | Nonsaturation, true early preparation, source compilation and complete cost |
+| Global target | Four whole receivers in prior physical word; no fifth completion | Remaining sources/interfaces, affordable return and both strict suppliers/caller |
+
+[Local criterion](results/bit-source-d-interpolation-s032/ADMISSION.md),
+[tangent and exact family](results/bit-source-d-tangent-s032/ADMISSION.md).
+A changed forced subspace requires a fresh isolation argument; the old-K rank
+comparison cannot be transferred without its hypotheses.
+
 ## S032 checkpoint2: joint ingress/D interpolation is the next construction
 
 | Obligation | Verified status | Next requirement |

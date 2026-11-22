@@ -1,5 +1,15 @@
 # Exact target κ=1/200 — current programme
 
+## S032 checkpoint3: exact coupled local family, no new complete price
+
+The 44 source/D interpolation systems now have an exact rational family with
+53 nonzero GF64 parameters preserving all D phases and 144 geometric sections.
+At t=1 twelve source quotients change, but the old forced four-space still has
+common-response rank2. Full source validity and compilation remain unchecked;
+this local family does not inherit the earlier physical word's invoice.
+The complete target and selected conditional kappa remain unchanged.
+[Admission](results/bit-source-d-tangent-s032/ADMISSION.md).
+
 ## S032 checkpoint2: a paid D change, unchanged complete target
 
 The physical D word now equalizes one receiver95 vector across all11 donors
