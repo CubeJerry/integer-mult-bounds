@@ -1,58 +1,66 @@
 # Construct structured native sources and prove exact compatibility gates toward κ=0.005
 
-## S033 checkpoint1: exact local family and physical rank-four constructions
+## S033 final continuation: receiver 87 needs a rebased phase profile
 
-**No new complete kappa.** The selected conditional saving remains0.00363005817.
-Starting programme SHA:44f09459f91f8c3e27fcd45f54be7d043e6493b7. The resulting
-checkpoint SHA is verified separately after publication.
+The [final frontier](sessions/2026-11-22-S033/FINAL-FRONTIER.md) supersedes earlier
+S033 next-step suggestions. Whole receivers 54 and 74 are now excluded under fixed
+H actions and old source spaces even with arbitrary common D readout rebasing.
+The small column witnesses need neither phases nor the original833-dimensional
+family. Receiver95 remains excluded as previously proved. Receiver87 survives
+the stronger input test but requires an early image of rank exactly one;
+literal old readouts do not suffice. An explicit abstract code passes all 11
+constrained pairs, without supplying a full D/source word. Construct that
+rebased, phase-legal87 interface next, then verify whole-fibre/source/cost
+admission. No complete kappa or foundation is added.
 
-The44 source/D interpolation systems are now proved equivalent, on the
-invertible-section domain, to fixing88 entries of the physical D matrix.
-There are833 free D coefficients and13368 independent source-extension
-parameters. This closes the previous finite-integrability question for the
-local family; full source validity is a separate requirement.
 
-The canonical S032 t=1 extension fails four full source views. The t=26
-specialization passes693/639 source views, all11 early bases, strict
-nonsaturation,72/67 whole H interfaces and44 whole D identity fibres. A new
-general theorem supplies a valid full-source gauge lift for every admissible
-D rectangle. These lifts change all source quotients and preserve source
-ranks and propagation dimensions by invertible composition.
+## S033: integrate the local source/D family and isolate the remaining whole-fibre obstruction
 
-Two exceptional overlap constructions raise the forced-four-space common
-response from2 to4. The stronger has contrast27 and joined donor span31,
-refuting the suggested universal span32 invariant. Its compiled gross local
-bill is454540232 ADD,279648 INIT/CLEAR each and16 gap6 exports, with no added
-MOVE. All31680 source binary columns and210 D columns were replayed.
-Global inverse placement and a complete supplier invoice remain open.
+**No new complete kappa.** Selected conditional kappa remains 0.00363005817.
+The cumulative programme is ongoing and is not yet PR-ready. This section
+updates the earlier local continuation; the cumulative results below retain
+their original scopes and provenance.
 
-The actual receiver95 requires eight independent common native output rows,
-so contrast at most24 is necessary. The48/73 overlap mechanism supplies at
-most5 common rows, and the stronger candidate attains that ceiling. This is
-not a universal contrast lower bound. The next investigation seeks a decoder
-outside that intersection and must check entire off-D isolation as well as
-its readout. Global source gauges alone retain the earlier five-fibre barrier.
+The previous 833-dimensional tangent is now an exact determinant-open affine D
+family, specified by 88 fixed coefficients. The44 local source equations add
+13,368 free extension parameters. The canonical t=1 extension fails four full
+source views; t=26 supplies a fully valid local source/H/four-D realization.
+A general invertible source-gauge theorem supplies full source validity for
+every admissible D in the fixed rectangle. These results close integrability
+and source-rank gaps without asserting a fifth whole receiver.
 
-Root independently recomputed all693/639 t26 source views,2268 propagation
-spans, three changed true early matrices,72/67 H observations and four t1
-collisions, with mutation controls. Separate workers reviewed the exact
-family, physical source composition, decoder ranks and gauge extension theorem.
-Verification scopes are stated in each package; author compiler replays are
-not relabelled independent reimplementations.
+A diagonal-code identity then gives an actual receiver 95 pencil. All eight
+physical output rows agree injectively on the forced four-space, with contrast
+rank 24 and joined ingress28. Six common decoder directions lie outside the old
+48/73 intersection. All144 geometric sections, both phase ranks and 44 local
+systems pass. A separately reviewed full-source realization is physically
+compiled on31,680 source binary columns and 210 D columns, including pure inverses.
+Its local bill is 454,477,664 ADDs,279,648 INITs and dirty CLEARs each,16 gap-6
+exports, and no added MOVE. The540,056 ADD increase over S032 is retained;
+global restoration and complete supplier accounting remain open.
 
-Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. PR8035's pending
-conditional0.0038901152865907 comparator is unchanged. New PR8036/8037/8038
-report obstructions for a different paired word and are not adopted here.
+A stronger theorem proves that this correct readout cannot extend to a whole95
+fibre under fixed H words/owners, literal H actions and the old 48/73 source spaces.
+It allows arbitrary full 480-to30 linear source maps, compatible D words and
+invertible common D readout rebasings. H-only observations force K at donor61,
+while donor32 necessarily leaks at least rank 2. Independent reviewers rebuild
+eight full 30 H sections, all 30-input factorizations and all 112 actual parent
+non-D rows. A sharp rank-two abstract update repairs the normalized obstruction,
+but a physical H realization is not supplied. Other fifth receivers are screened
+separately; their necessary-test success is not whole-fibre feasibility.
 
-Both strict suppliers above1/200,100 other native source stars, further whole
-H/D/K/facet interfaces, affordable global return and the recursive caller
-remain open. All five foundations remain explicit. The cumulative programme
-is not PR-ready. No upstream PR is created and no background continuation is
-promised. Later wave3 candidates are not admitted by this checkpoint.
+The [S033 admission](sessions/2026-11-22-S033/ADMISSION.md) links full proofs,
+literal candidates, exact costs, source pins, negative controls and reproduction
+commands. Starting source commit is 44f09459f91f8c3e27fcd45f54be7d043e6493b7;
+the first verified publication is 5e925c0f3619879f5f4211b04710704f7134186e.
+Verification distinguishes independent arithmetic/proof reviews from author
+compiler replays. The exact next isolation obligation is recorded in STATE.json.
 
-Credit @CubeJerry and the source/H/D, geometry, compiler and review lineage.
-Substantial OpenAI assistance; independent agent review is not independent
-human or formal-kernel certification. Apache-2.0.
+Both strict suppliers above 1/200, the remaining 100 source stars, whole middle
+word, paid return, recursive caller and all five foundations remain open.
+No upstream PR is submitted automatically. Credit @CubeJerry and predecessor
+geometry, source/H/D, compiler and review contributors. Substantial OpenAI
+assistance; agent review is not independent human or formal-kernel certification.
 
 ## S032 checkpoint3: an exact coupled local source/D family
 

@@ -3228,3 +3228,72 @@ promised. Later wave3 candidates are not admitted by this checkpoint.
 Credit @CubeJerry and the source/H/D, geometry, compiler and review lineage.
 Substantial OpenAI assistance; independent agent review is not independent
 human or formal-kernel certification. Apache-2.0.
+
+
+## 2026-11-22 S033 final checkpoint — actual readouts, whole-fibre gates, and receiver87 rebasing
+
+Starting remote SHA:44f09459f91f8c3e27fcd45f54be7d043e6493b7. Confirmed first
+checkpoint and final checkpoint parent:5e925c0f3619879f5f4211b04710704f7134186e.
+The resulting final publication SHA is resolved from the containing commit and
+verified/reported after publication, avoiding a self-referential SHA. Three
+concurrent workers and root completed successive construction, interface,
+adversarial and physical-review waves on the same permanent programme branch.
+
+The exact local D family has833 free coefficients with88 fixed entries and
+13,368 source-extension parameters. Canonical t=1 fails four full source views;
+t=26 is source-valid and physically compiled. A general source-gauge extension
+preserves full source rank, propagation, whole H and four whole D interfaces.
+Two/three overlap constructions improve partial readout but expose actual-row
+limitations. The diagonal pencil then supplies all eight actual receiver95
+readout rows on the forced four-space, with contrast24, joined28 and response4.
+Its valid-source local invoice is454,477,664 ADDs,279,648 INIT/CLEAR each and16
+gap-6 exports, with no added MOVE; pure phase inverses are included. Global
+inverse placement and the full supplier invoice remain unbuilt.
+
+The full-source isolation theorem closes whole95 with fixed H words/owners,
+literal H actions and old48/73 spaces. It allows arbitrary full linear source
+maps, compatible D and common invertible D readout rebasing. Independent
+full30 H sections, H-only forced-space anchors and all112 parent off-D rows
+certify unavoidable rank2 leakage at donor32. A rank-two abstract interface
+update is both necessary and sufficient without physical constraints; it is
+not a paid H implementation.
+
+The alternative screen independently checks88 donor/target partitions,176
+retained full H sections,40 anchor cases and1,474 projection tests. Six targets
+pass this necessary reduction. Receiver54's actual-output pencil succeeds on
+a forced two-space but leaks at eight donors. Its literal isolation system
+has rank76 and affine dimension757, with every point singular. The stronger
+normalized-column theorem excludes54 and74 even under arbitrary common D
+readout rebasing: donor0's sections contain dependent columns4,5,22 or4,5,19.
+Two separate physical reviews verify the H normalization and full-source scope.
+
+Receiver87 survives the phase-free union-column test. A proposed phase closure
+fails because donor0 has FIVE early and three late inputs. The corrected exact
+condition is early rank ONE for the physical pinned two-plane. Literal old
+readouts are excluded; arbitrary common rebasing remains open. An explicit
+abstract code passes all11 constrained input pairs, and partial row models
+show the local phase condition is consistent. They do not give an all-native
+D word, shared-row consistency, complete source, whole fibre or price.
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. New PR8036/8037/8038
+are source-specific paired-word obstruction leads; no external theorem is
+adopted. Pending PR8035's conditional0.0038901152865907 comparator is unchanged.
+The selected complete conditional bound remains0.00363005817. Both strict
+suppliers,100 other source stars, whole middle word, global return, recursion
+and all five foundations remain open. No new complete kappa or PR readiness.
+
+Next primary obligation: build the rebased receiver87 interface with early-image
+rank one and all retained sections/parent isolation, then establish nonparent
+and entire eight-fibre conditions outside pure input gauges before compilation.
+Targets52,85,98 and changed H/frame interfaces remain alternatives.
+
+[Admission](sessions/2026-11-22-S033/ADMISSION.md),
+[final frontier](sessions/2026-11-22-S033/FINAL-FRONTIER.md),
+[root reproduction receipt](sessions/2026-11-22-S033/final-replay/RECEIPT.json).
+The eight programme documents are updated. Exact pins, manifests, independent
+proof coverage and negative controls are preserved. Command-line push lacked
+a Git credential; authenticated GitHub Git Data publication preserves the
+reviewed tree, uses an expected-parent fast-forward and verifies remote readback.
+No upstream PR, force push, new permanent branch or background job was created.
+Credit @CubeJerry and predecessor geometry/source/middle/compiler/review authors;
+substantial OpenAI assistance. Agent review is not human or kernel certification.

@@ -1,0 +1,238 @@
+{
+  "scope": "Root replay of the listed independently authored checkers; not another independent implementation. The global-gauge checker is root-authored.",
+  "results": [
+    {
+      "name": "pencil",
+      "returncode": 0,
+      "seconds": 0.775,
+      "command": [
+        "python3",
+        "-B",
+        "research/moonshot-005-program/results/bit-coupled-fifth-s033/wave3/check.py",
+        "--repo",
+        ".",
+        "--out",
+        "/workspace/scratch/aed10f238a26/s033-final-replays/pencil"
+      ],
+      "log": "/workspace/scratch/aed10f238a26/s033-final-replays/pencil.log",
+      "saved_log": "research/moonshot-005-program/sessions/2026-11-22-S033/final-replay/pencil.log",
+      "log_sha256": "b357953056cb949a0baf9810d03cfde890555ee77044bb2044dc4e03fb038f89"
+    },
+    {
+      "name": "forced-K",
+      "returncode": 0,
+      "seconds": 1.424,
+      "command": [
+        "python3",
+        "-B",
+        "research/moonshot-005-program/results/bit-coupled-fifth-s033/wave3/forced_K.py",
+        "--repo",
+        ".",
+        "--out",
+        "/workspace/scratch/aed10f238a26/s033-final-replays/forced-K"
+      ],
+      "log": "/workspace/scratch/aed10f238a26/s033-final-replays/forced-K.log",
+      "saved_log": "research/moonshot-005-program/sessions/2026-11-22-S033/final-replay/forced-K.log",
+      "log_sha256": "0efc6aa0fc0305b0b97d19144f8de6baadbc7b6accd48292c1d7a9245e872181"
+    },
+    {
+      "name": "isolation",
+      "returncode": 0,
+      "seconds": 2.056,
+      "command": [
+        "python3",
+        "-B",
+        "research/moonshot-005-program/results/bit-coupled-fifth-review-s033/wave3/isolation_gate.py",
+        "--repo",
+        ".",
+        "--out",
+        "/workspace/scratch/aed10f238a26/s033-final-replays/isolation"
+      ],
+      "log": "/workspace/scratch/aed10f238a26/s033-final-replays/isolation.log",
+      "saved_log": "research/moonshot-005-program/sessions/2026-11-22-S033/final-replay/isolation.log",
+      "log_sha256": "9de9fffd0d3acbd767ead8988a656993584ddaf19cfbd412bc86309baf6762a6"
+    },
+    {
+      "name": "physical-gate",
+      "returncode": 0,
+      "seconds": 0.219,
+      "command": [
+        "python3",
+        "-B",
+        "research/moonshot-005-program/results/bit-coupled-source-validity-s033/physical-three-receiver-gate/check.py",
+        "--repo",
+        ".",
+        "--out",
+        "/workspace/scratch/aed10f238a26/s033-final-replays/physical-gate"
+      ],
+      "log": "/workspace/scratch/aed10f238a26/s033-final-replays/physical-gate.log",
+      "saved_log": "research/moonshot-005-program/sessions/2026-11-22-S033/final-replay/physical-gate.log",
+      "log_sha256": "f952909d8597aeba2b8d316f124b1df0f678f37499aca60e8ba06625f089113d"
+    },
+    {
+      "name": "global-gauge-pencil",
+      "returncode": 0,
+      "seconds": 1.427,
+      "command": [
+        "python3",
+        "-B",
+        "research/moonshot-005-program/results/bit-global-gauge-lift-s033/verify.py",
+        "--repo",
+        ".",
+        "--candidate",
+        "research/moonshot-005-program/results/bit-coupled-fifth-s033/wave3/PENCIL-CANDIDATE.json.gz",
+        "--out",
+        "research/moonshot-005-program/results/bit-global-gauge-lift-s033/output-pencil"
+      ],
+      "log": "/workspace/scratch/aed10f238a26/s033-final-replays/global-gauge-pencil.log",
+      "saved_log": "research/moonshot-005-program/sessions/2026-11-22-S033/final-replay/global-gauge-pencil.log",
+      "log_sha256": "112dd5cbb659a0c9f5bc22416e7ffd156a9ca2d9222fa1d4c0304a3cd619cec7"
+    },
+    {
+      "name": "abstract-repair",
+      "returncode": 0,
+      "seconds": 0.22,
+      "command": [
+        "python3",
+        "-B",
+        "research/moonshot-005-program/results/bit-coupled-fifth-review-s033/abstract-rank-two-repair/check.py",
+        "--repo",
+        ".",
+        "--out",
+        "/workspace/scratch/aed10f238a26/s033-final-replays/abstract-repair"
+      ],
+      "saved_log": "research/moonshot-005-program/sessions/2026-11-22-S033/final-replay/abstract-repair.log",
+      "log_sha256": "d9b0ba52f53cffe2ca60321cc481dc5551293f2beb80e972c2925d6c4d2b6cc8"
+    },
+    {
+      "name": "full-source-review",
+      "returncode": 0,
+      "seconds": 1.628,
+      "command": [
+        "python3",
+        "-B",
+        "research/moonshot-005-program/results/bit-full-source-isolation-review-s033/check.py",
+        "--repo",
+        ".",
+        "--out",
+        "/workspace/scratch/aed10f238a26/s033-final-replays/full-source-review"
+      ],
+      "saved_log": "research/moonshot-005-program/sessions/2026-11-22-S033/final-replay/full-source-review.log",
+      "log_sha256": "28eb2dd37a8ac2d4710bdef97c9ec215407bb061d9782411376902d2f34b0fad"
+    },
+    {
+      "name": "alternative-screen",
+      "returncode": 0,
+      "seconds": 9.664,
+      "command": [
+        "python3",
+        "-B",
+        "research/moonshot-005-program/results/bit-coupled-fifth-review-s033/alternative-receiver-screen/check.py",
+        "--repo",
+        ".",
+        "--out",
+        "/workspace/scratch/aed10f238a26/s033-final-replays/alternative-screen"
+      ],
+      "saved_log": "research/moonshot-005-program/sessions/2026-11-22-S033/final-replay/alternative-screen.log",
+      "log_sha256": "b83a5f7a7a272496eff3616a3d24d8550e77c6545cfdf867f6fbb27692f8e24b"
+    },
+    {
+      "name": "receiver54",
+      "returncode": 0,
+      "seconds": 3.303,
+      "command": [
+        "python3",
+        "-B",
+        "research/moonshot-005-program/results/bit-receiver54-review-s033/check.py",
+        "--repo",
+        ".",
+        "--out",
+        "/workspace/scratch/aed10f238a26/s033-final-replays/receiver54",
+        "--candidate",
+        "research/moonshot-005-program/results/bit-coupled-fifth-s033/other-receivers/target54/PENCIL-CANDIDATE.json.gz"
+      ],
+      "saved_log": "research/moonshot-005-program/sessions/2026-11-22-S033/final-replay/receiver54.log",
+      "log_sha256": "3c8fd3fc75f29efc2ff422d9dc70b2a6e943b425ea4e9e6a4f25a23fce4c88c9"
+    },
+    {
+      "name": "normalized54",
+      "returncode": 0,
+      "seconds": 0.892,
+      "command": [
+        "python3",
+        "-B",
+        "research/moonshot-005-program/results/bit-coupled-fifth-review-s033/target54-normalized-singularity/check.py",
+        "--repo",
+        ".",
+        "--out",
+        "/workspace/scratch/aed10f238a26/s033-final-replays/normalized54"
+      ],
+      "saved_log": "research/moonshot-005-program/sessions/2026-11-22-S033/final-replay/normalized54.log",
+      "log_sha256": "e0fea34786560c7462dd3792c310a56ff44a7de8ce8ffcb9993fce552f3f6a6a"
+    },
+    {
+      "name": "normalized74-87",
+      "returncode": 0,
+      "seconds": 1.065,
+      "command": [
+        "python3",
+        "-B",
+        "research/moonshot-005-program/results/bit-coupled-fifth-review-s033/target54-normalized-singularity/extension_check.py",
+        "--repo",
+        ".",
+        "--out",
+        "/workspace/scratch/aed10f238a26/s033-final-replays/normalized74-87"
+      ],
+      "saved_log": "research/moonshot-005-program/sessions/2026-11-22-S033/final-replay/normalized74-87.log",
+      "log_sha256": "871d253c7133675c1a827ebde1c74e29e58e8935ebd4ad1a3bfb2aab7bbfde98"
+    },
+    {
+      "name": "rebased54",
+      "returncode": 0,
+      "seconds": 1.156,
+      "command": [
+        "python3",
+        "-B",
+        "research/moonshot-005-program/results/bit-receiver54-rebased-obstruction-review-s033/check.py",
+        "--repo",
+        ".",
+        "--out",
+        "/workspace/scratch/aed10f238a26/s033-final-replays/rebased54"
+      ],
+      "saved_log": "research/moonshot-005-program/sessions/2026-11-22-S033/final-replay/rebased54.log",
+      "log_sha256": "bb1e6c2fc4b2906f0e8ea14d44aa1e59cab3e5f384490c03454ad50f206d5e09"
+    },
+    {
+      "name": "rebased74",
+      "returncode": 0,
+      "seconds": 1.229,
+      "command": [
+        "python3",
+        "-B",
+        "research/moonshot-005-program/results/bit-receiver74-rebased-obstruction-review-s033/check.py",
+        "--repo",
+        ".",
+        "--out",
+        "/workspace/scratch/aed10f238a26/s033-final-replays/rebased74"
+      ],
+      "saved_log": "research/moonshot-005-program/sessions/2026-11-22-S033/final-replay/rebased74.log",
+      "log_sha256": "22b2dbe1859cab10444ddeb1a8caa6ac44ee0af0fbc4a771995919c940964c84"
+    },
+    {
+      "name": "phase87",
+      "returncode": 0,
+      "seconds": 0.154,
+      "command": [
+        "python3",
+        "-B",
+        "research/moonshot-005-program/results/bit-coupled-fifth-review-s033/target87-phase-gate/check.py",
+        "--repo",
+        ".",
+        "--out",
+        "/workspace/scratch/aed10f238a26/s033-final-replays/phase87"
+      ],
+      "saved_log": "research/moonshot-005-program/sessions/2026-11-22-S033/final-replay/phase87.log",
+      "log_sha256": "3ae64a1519815bcf9723d19b43cb7dc6c531a51ddd285eddc0057ed93d93d544"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "author_executable_imported": false,
+  "commands": [
+    "python3 -B research/moonshot-005-program/results/bit-coupled-fifth-review-s033/target54-normalized-singularity/check.py --repo . --out research/moonshot-005-program/results/bit-coupled-fifth-review-s033/target54-normalized-singularity/output",
+    "python3 -B research/moonshot-005-program/results/bit-coupled-fifth-review-s033/target54-normalized-singularity/extension_check.py --repo . --out research/moonshot-005-program/results/bit-coupled-fifth-review-s033/target54-normalized-singularity/output"
+  ],
+  "compiler_run": false,
+  "negative_control": "old54 retained section invertible but fails forced input22 relation",
+  "new_complete_kappa": false,
+  "python": "3.12.14",
+  "statuses": [
+    "PASS_INDEPENDENT_NORMALIZED_RECEIVER54_SINGULARITY",
+    "PASS_INDEPENDENT_TARGET74_OBSTRUCTION_AND_TARGET87_UNION_SCREEN"
+  ]
+}

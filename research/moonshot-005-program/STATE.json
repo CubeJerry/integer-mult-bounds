@@ -1,20 +1,20 @@
 {
-  "schema": "moonshot-005-program-state-v20",
+  "schema": "moonshot-005-program-state-v22",
   "repository": "CubeJerry/integer-mult-bounds",
   "branch": "research/moonshot-005-program",
   "target_kappa": "1/200",
   "selected_conditional_kappa": "363005817/100000000000",
   "canonical_upstream_sha_last_examined": "e54523517d0f03e58352e647c403a5af3e525a57",
   "session": "2026-11-22-S033",
-  "session_status": "in_progress",
+  "session_status": "complete",
   "session_started_utc": "2026-11-22T08:30:04Z",
   "session_planned_end_utc": null,
   "requested_session_seconds": null,
   "session_start_sha": "44f09459f91f8c3e27fcd45f54be7d043e6493b7",
-  "checkpoint_baseline_sha": "44f09459f91f8c3e27fcd45f54be7d043e6493b7",
+  "checkpoint_baseline_sha": "5e925c0f3619879f5f4211b04710704f7134186e",
   "checkpoint_sha_semantics": "Confirmed parent of this checkpoint; resulting commit is verified and reported separately.",
-  "phase": "Exact833-parameter coupled D family and physically valid rank-four response; fifth whole receiver remains open",
-  "primary_obligation": "Construct and verify the actual eight-output receiver95 response and entire common inverse fibre while preserving four receivers and the whole H interfaces; the contrast27 overlap-only construction is insufficient.",
+  "phase": "Actual readouts constructed; fixed-H whole95/54/74 excluded; receiver87 with a rank-one early image is next",
+  "primary_obligation": "Construct a common phase-legal D word for receiver87 with rebased retained readouts whose forced two-space has early-image rank one, all retained invertible sections and parent isolation; then complete the entire common eight-fibre beyond input gauges.",
   "programme_new_complete_kappa": false,
   "pr_ready": false,
   "background_execution": false,
@@ -30,7 +30,8 @@
     "results/bit-coupled-fifth-s033/ADMISSION.md",
     "results/bit-coupled-fifth-review-s033/ADMISSION.md",
     "results/bit-coupled-source-validity-s033/ADMISSION.md",
-    "results/bit-global-gauge-lift-s033/ADMISSION.md"
+    "results/bit-global-gauge-lift-s033/ADMISSION.md",
+    "sessions/2026-11-22-S033/ADMISSION.md"
   ],
   "verified_results": {
     "frozen_feedback_partition_gate": {
@@ -997,7 +998,8 @@
       "phase_poles": [
         46
       ],
-      "local_family_inherits_physical_invoice": false
+      "local_family_inherits_physical_invoice": false,
+      "canonical_t1_extension_status": "Invalid as a full source: four S033 source-view collisions. Exact local equations remain valid."
     },
     "exact_affine_source_D_family": {
       "path": "results/bit-coupled-fifth-s033/ADMISSION.md",
@@ -1069,6 +1071,185 @@
       "necessary_contrast_upper": 24,
       "overlap_common_row_ceiling": 5,
       "universal_contrast_lower": false
+    },
+    "actual_receiver95_pencil": {
+      "proof": "results/bit-coupled-fifth-s033/wave3/PROOF.md",
+      "physical_review": "results/bit-coupled-source-validity-s033/global-gauge-pencil/REVIEW.md",
+      "contrast_rank": 24,
+      "joined_ingress_rank": 28,
+      "actual_rows": 8,
+      "response_rank": 4,
+      "overlap_dimension": 2,
+      "geometric_sections": 144,
+      "local_ADD": 454477664,
+      "INIT_CLEAR_each": 279648,
+      "gap6_exports": 16,
+      "added_MOVE": 0,
+      "source_binary_columns": 31680,
+      "D_binary_columns": 210,
+      "whole_fifth": false,
+      "global_inverse_placement": false
+    },
+    "universal_fixed_H_receiver95_gate": {
+      "proof": "results/bit-coupled-fifth-review-s033/wave3/ISOLATION-GATE.md",
+      "independent_review": "results/bit-full-source-isolation-review-s033/REVIEW.md",
+      "anchor_donor": 61,
+      "contradicting_donor": 32,
+      "forced_dimension": 4,
+      "map_rank": 12,
+      "kernel_dimension": 4,
+      "kernel_projection_ranks": [
+        2,
+        2
+      ],
+      "leakage_lower_rank": 2,
+      "full_H_sections": 8,
+      "full_parent_off_D_rows": 112,
+      "arbitrary_full480_to30_source_maps": true,
+      "arbitrary_compatible_D": true,
+      "arbitrary_common_D_readouts": true,
+      "fixed_rectangle_needed": false,
+      "fixed_premises": [
+        "H words and owners",
+        "literal H actions",
+        "old48/73 fibre spaces",
+        "linear separate source maps",
+        "whole proper isolation"
+      ],
+      "other_fifth_receivers_excluded": false,
+      "changed_H_actions_excluded": false,
+      "all_fields_and_repeated_lane_mixing": true
+    },
+    "abstract_rank_two_interface_repair": {
+      "proof": "results/bit-coupled-fifth-review-s033/abstract-rank-two-repair/PROOF.md",
+      "minimum_update_rank": 2,
+      "attained": true,
+      "new_map_rank": 10,
+      "new_kernel_projection_ranks": [
+        4,
+        4
+      ],
+      "physical_H_realization": false,
+      "physical_price": false
+    },
+    "refined_three_receiver_gate": {
+      "proof": "results/bit-coupled-source-validity-s033/physical-three-receiver-gate/PROOF.md",
+      "overlap_to_contrast_upper": {
+        "2": 24,
+        "3": 24,
+        "4": 23,
+        "5": 21
+      },
+      "annihilator_premise_required": true,
+      "abstract_sharpness": true,
+      "native_feasibility_inferred": false
+    },
+    "alternative_receiver_screen": {
+      "review": "results/bit-coupled-fifth-review-s033/alternative-receiver-screen/REVIEW.md",
+      "passing_targets": [
+        52,
+        54,
+        74,
+        85,
+        87,
+        98
+      ],
+      "forced_dimension_in_this_reduction": 2,
+      "all_possible_forced_spaces_claimed": false,
+      "physical_parent_off_rows": 112,
+      "donor_target_pairs": 88,
+      "retained_H_sections": 176,
+      "block_subset_tests": 1474,
+      "existence_claimed": false
+    },
+    "receiver54_pencil_and_affine_gate": {
+      "proof": "results/bit-coupled-fifth-s033/other-receivers/target54/PROOF.md",
+      "review": "results/bit-receiver54-review-s033/REVIEW.md",
+      "contrast": 16,
+      "joined": 18,
+      "actual_response": 2,
+      "leaking_donors": [
+        32,
+        35,
+        38,
+        45,
+        68,
+        69,
+        90,
+        100
+      ],
+      "leakage_rank": 2,
+      "full_source_admitted": false,
+      "compiled": false,
+      "isolation_linear_rank": 76,
+      "free_D_parameters": 833,
+      "affine_dimension": 757,
+      "every_affine_point_has_singular_retained_section": true
+    },
+    "normalized54_74_gate": {
+      "proof": "results/bit-coupled-fifth-review-s033/target54-normalized-singularity/PROOF.md",
+      "separate_reviews": [
+        "results/bit-receiver54-rebased-obstruction-review-s033/REVIEW.md",
+        "results/bit-receiver74-rebased-obstruction-review-s033/REVIEW.md"
+      ],
+      "54": {
+        "tight_donor": 32,
+        "retained_receivers": [
+          9,
+          48
+        ],
+        "dependent_columns": [
+          4,
+          5,
+          22
+        ]
+      },
+      "74": {
+        "tight_donor": 38,
+        "retained_receivers": [
+          6,
+          73
+        ],
+        "dependent_columns": [
+          4,
+          5,
+          19
+        ]
+      },
+      "contradicted_donor": 0,
+      "section_rank_upper": 7,
+      "arbitrary_common_D_readouts": true,
+      "phase_required": false,
+      "fixed_rectangle_required": false,
+      "literal_H_actions_fixed": true
+    },
+    "receiver87_phase_target": {
+      "proof": "results/bit-coupled-fifth-s033/other-receivers/target87-phase/README.md",
+      "independent_review": "results/bit-coupled-fifth-review-s033/target87-phase-gate/REVIEW.md",
+      "receivers": [
+        9,
+        73
+      ],
+      "input_span": [
+        2,
+        4,
+        5,
+        14,
+        16,
+        17,
+        27,
+        31
+      ],
+      "native_intersection_dimension": 2,
+      "necessary_early_image_rank": 1,
+      "donor0_early_late": [
+        5,
+        3
+      ],
+      "literal_readouts_excluded": true,
+      "arbitrary_common_readouts_excluded": false,
+      "abstract_pair_code_passes": 11,
+      "full_native_word": false
     }
   },
   "native_target": {
@@ -1100,15 +1281,15 @@
     "joint_recovery_eight_field_unit_cap_limiting": 22
   },
   "active_subproblems": [
-    "Actual receiver95 readout and entire off-D isolation outside the exhausted48/73 overlap method.",
-    "Changed source/H information beyond global source right gauges.",
-    "Remaining100 source stars, whole H/D/K/facet word and affordable global return.",
-    "A complex architecture outside the four excluded equal-price profiles."
+    "Receiver87 common-readout rebasing, phase legality and parent isolation with early-image rank one.",
+    "Entire eight-fibre and full source validity beyond input gauges, followed by paid implementation.",
+    "Remaining100 source stars, whole H/D/K/facets, global return and complete BIT invoice.",
+    "Complex architecture outside four excluded equal-price profiles."
   ],
   "next_actions": [
-    "Construct actual common decoder rows outside the48/73 intersection and verify eight-row equality.",
-    "Check source61 forced-space isolation and whole-fibre compatibility before source compilation.",
-    "Retain both strict suppliers above1/200, actual global return and full recursive accounting as open obligations."
+    "Use the exact receiver87 input code and rank-one early-image condition; solve shared physical rows and all retained sections.",
+    "Check all parent/nonparent isolation and entire common fibres before compiling.",
+    "Retain both strict suppliers above1/200, full recursion and all five foundations."
   ],
   "pending_recovery": {
     "S030_missing_artifacts": "Promised common-line and frozen-feedback-gauge packages were absent from tracked checkpoint5; not inherited as proofs. Frozen feedback now has a fresh stronger S031 proof."
@@ -1152,7 +1333,7 @@
       "status": "Generated bytecode entry absent from confirmed baseline db6e513c96cb8ceea10c1071b26a7db1de9fe008. Old hash retained; not proof evidence."
     }
   ],
-  "handoff": "sessions/2026-11-22-S033/CHECKPOINT-1.md",
+  "handoff": "sessions/2026-11-22-S033/FINAL-FRONTIER.md",
   "session_label_timezone": "Australia/Sydney",
   "pending_external_uniform_composition": {
     "pr": 7846,
@@ -1171,6 +1352,6 @@
     "transferred_to_moonshot": false,
     "intake": "results/complex-paid-export-s031-coupled-repair/upstream-7849-intake/SELECTIVE-INTAKE.md"
   },
-  "checkpoint_created_utc": "2026-11-22T08:54:18.395779+00:00",
-  "target_closeness": "Construction stage: exact coupled family and physical rank-four response; no fifth whole receiver, global return or complete complex supplier. No defensible completion percentage or ETA."
+  "checkpoint_created_utc": "2026-11-22T09:26:06.266237+00:00",
+  "target_closeness": "Construction stage: valid local sources and actual readouts, but no fifth whole fibre, complete native word, global return or strict complex supplier. No defensible completion percentage or ETA; no new complete kappa."
 }

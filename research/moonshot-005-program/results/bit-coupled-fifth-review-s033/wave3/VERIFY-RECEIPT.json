@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "exit_codes": [
+    0,
+    0
+  ],
+  "checks": [
+    "independent actual95 readout,132 native/geometricsections,44 interpolation systems,forcedphysicalleakage",
+    "universal isolationmatrix,all30sourcecolumns,eight full30Hsections,all16H-onlyanchorquotients"
+  ],
+  "pencil_command": "python3 -B research/moonshot-005-program/results/bit-coupled-fifth-review-s033/wave3/check.py --repo . --out /tmp/s033-independent-pencil-review --candidate research/moonshot-005-program/results/bit-coupled-fifth-s033/wave3/PENCIL-CANDIDATE.json.gz --gauges research/moonshot-005-program/results/bit-coupled-fifth-review-s033/wave3/PENCIL-GAUGES.json.gz",
+  "isolation_command": "python3 -B research/moonshot-005-program/results/bit-coupled-fifth-review-s033/wave3/isolation_gate.py --repo . --out /tmp/s033-universal-isolation-review"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_H_normalization_checks": 8,
+  "new_complete_kappa": false,
+  "phase_or_shared_row_constraints_used": false,
+  "status": "PASS_INDEPENDENT_TARGET74_OBSTRUCTION_AND_TARGET87_UNION_SCREEN",
+  "target87_existence_claim": false,
+  "targets": [
+    {
+      "active_receivers": [
+        6,
+        73
+      ],
+      "status": "excluded_by_normalized_column_dependence",
+      "target": 74,
+      "witness_count": 2
+    },
+    {
+      "active_receivers": [
+        9,
+        73
+      ],
+      "status": "not_excluded_by_input_union_test",
+      "target": 87,
+      "witness_count": 0
+    }
+  ]
+}

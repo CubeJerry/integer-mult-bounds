@@ -1,58 +1,44 @@
 # Exact target κ=1/200 — current programme
 
-## S033 checkpoint1: exact local family and physical rank-four constructions
+## S033 final continuation: receiver 87 needs a rebased phase profile
 
-**No new complete kappa.** The selected conditional saving remains0.00363005817.
-Starting programme SHA:44f09459f91f8c3e27fcd45f54be7d043e6493b7. The resulting
-checkpoint SHA is verified separately after publication.
+The [final frontier](sessions/2026-11-22-S033/FINAL-FRONTIER.md) supersedes earlier
+S033 next-step suggestions. Whole receivers 54 and 74 are now excluded under fixed
+H actions and old source spaces even with arbitrary common D readout rebasing.
+The small column witnesses need neither phases nor the original833-dimensional
+family. Receiver95 remains excluded as previously proved. Receiver87 survives
+the stronger input test but requires an early image of rank exactly one;
+literal old readouts do not suffice. An explicit abstract code passes all 11
+constrained pairs, without supplying a full D/source word. Construct that
+rebased, phase-legal87 interface next, then verify whole-fibre/source/cost
+admission. No complete kappa or foundation is added.
 
-The44 source/D interpolation systems are now proved equivalent, on the
-invertible-section domain, to fixing88 entries of the physical D matrix.
-There are833 free D coefficients and13368 independent source-extension
-parameters. This closes the previous finite-integrability question for the
-local family; full source validity is a separate requirement.
 
-The canonical S032 t=1 extension fails four full source views. The t=26
-specialization passes693/639 source views, all11 early bases, strict
-nonsaturation,72/67 whole H interfaces and44 whole D identity fibres. A new
-general theorem supplies a valid full-source gauge lift for every admissible
-D rectangle. These lifts change all source quotients and preserve source
-ranks and propagation dimensions by invertible composition.
+## S033 target update: actual readout does not establish whole-fibre admission
 
-Two exceptional overlap constructions raise the forced-four-space common
-response from2 to4. The stronger has contrast27 and joined donor span31,
-refuting the suggested universal span32 invariant. Its compiled gross local
-bill is454540232 ADD,279648 INIT/CLEAR each and16 gap6 exports, with no added
-MOVE. All31680 source binary columns and210 D columns were replayed.
-Global inverse placement and a complete supplier invoice remain open.
+The complete target, selected conditional kappa and strict supplier inequalities
+below remain unchanged. Both U>1/200 and completed ordinary B>1/200, valid covered
+conversion, paid return and full recursive accounting are still required.
+See the [S033 admission](sessions/2026-11-22-S033/ADMISSION.md).
 
-The actual receiver95 requires eight independent common native output rows,
-so contrast at most24 is necessary. The48/73 overlap mechanism supplies at
-most5 common rows, and the stronger candidate attains that ceiling. This is
-not a universal contrast lower bound. The next investigation seeks a decoder
-outside that intersection and must check entire off-D isolation as well as
-its readout. Global source gauges alone retain the earlier five-fibre barrier.
+At bank size 3,840, the retained 16 gap-6 exports leave the necessary m=870
+return ceiling 34,675 against floor 34,560. The valid receiver-95 pencil costs
+454,477,664 local ADDs, including pure inverses, plus 279,648 INITs and dirty
+CLEARs each. No MOVE is added. Its 540,056 added ADDs are retained; global
+inverse placement and the full supplier invoice remain open.
 
-Root independently recomputed all693/639 t26 source views,2268 propagation
-spans, three changed true early matrices,72/67 H observations and four t1
-collisions, with mutation controls. Separate workers reviewed the exact
-family, physical source composition, decoder ranks and gauge extension theorem.
-Verification scopes are stated in each package; author compiler replays are
-not relabelled independent reimplementations.
+Receiver 95 attains contrast rank 24, joined ingress rank 28 and common response
+rank four at eight actual rows. The refined physical gate requires contrast at
+most 24,24,23,21 at overlap dimensions 2,3,4,5, under its annihilator premise.
+The pencil meets the overlap-two bound. Whole isolation is nevertheless excluded
+with fixed H words/owners, literal H actions and old 48/73 fibre spaces, even for
+arbitrary full linear source recoding and invertible D readout rebasing.
 
-Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. PR8035's pending
-conditional0.0038901152865907 comparator is unchanged. New PR8036/8037/8038
-report obstructions for a different paired word and are not adopted here.
-
-Both strict suppliers above1/200,100 other native source stars, further whole
-H/D/K/facet interfaces, affordable global return and the recursive caller
-remain open. All five foundations remain explicit. The cumulative programme
-is not PR-ready. No upstream PR is created and no background continuation is
-promised. Later wave3 candidates are not admitted by this checkpoint.
-
-Credit @CubeJerry and the source/H/D, geometry, compiler and review lineage.
-Substantial OpenAI assistance; independent agent review is not independent
-human or formal-kernel certification. Apache-2.0.
+Other receiver targets and changed H/frame interfaces are outside that theorem.
+Abstract rank-two repair is sharp but unpriced. The six alternative receiver
+screens and receiver-54 partial readout receive no supplier credit: an entire
+common eight-fibre, full source validity and physical accounting are still needed.
+All five foundations and all original end-to-end inequalities remain in force.
 
 ## S032 checkpoint3: exact coupled local family, no new complete price
 

@@ -1,5 +1,27 @@
 # Relevant external research and compatibility
 
+## S033 selective intake and metadata refresh
+
+Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. The
+[initial intake](results/s033-upstream-intake/SOURCE-READBACK.json) and
+[09:07 UTC refresh](results/s033-upstream-intake/FINAL-REFRESH.json) preserve
+exact heads. No external proof or changed selected certificate is adopted.
+
+New open CrocSwap/integer-mult-bounds#8036 at
+99878b566bfcce80ef7ae2650a1231a203361445 addresses chart-510 price/recovery and a
+hypothetical cheaper rewrite. #8037 at 112fc71da5477c108764bf488eafa7eab8dd6268
+treats a single co-endpoint helper constraint; #8038 at
+da5cae2eb54cccb04ef798b3cfda574dcb9eec5e treats fixed-clock rank-two shortcuts.
+They concern a separate paired BIT word. Their announced scopes are relevant
+to interface redesign; no full independent replay or transfer to S033 is claimed.
+
+The pending conditional 0.0038901152865907 comparator #8035 is unchanged at
+ea776471bf8ed143a0625cf2d7532f65d15eb5f9. The earlier #7846 native/outer and #7849
+direct-Fourier leads remain source specific at their recorded heads. This final
+refresh checks main and the ten newest-created PRs, not every updated discussion.
+S033 local algebra and compilation discharge none of the five global foundations.
+
+
 ## S032 final construction compatibility
 
 The new exact local source/D family has its own interpolation and section
