@@ -1,0 +1,81 @@
+{
+  "abstract_rank4_required_contrast_upper": 28,
+  "actual_receiver95_required_contrast_upper": 24,
+  "actual_target_gate_sufficient": false,
+  "additional_required_contrast_rank_drop_from_baseline": 6,
+  "affine_family_review": {
+    "fixed_coefficients": 88,
+    "free_D_dimension": 833,
+    "local_systems": 44,
+    "phase_legal_D_dimension": 921,
+    "source_extension_dimension": 13368
+  },
+  "baseline": {
+    "abstract_common_response_rank": 2,
+    "augmented_rank": 32,
+    "contrast_rank": 30
+  },
+  "candidate": {
+    "abstract_common_response_rank": 4,
+    "actual_common_decoder_rank": 4,
+    "actual_receiver95_contrast_response_rank": 6,
+    "actual_receiver95_rank": 8,
+    "augmented_rank": 32,
+    "contrast_rank": 28,
+    "phase_ranks": [
+      19,
+      16
+    ],
+    "source_sha256": "2d4aec13b2cfd30ba00799c7dd9d01b675a21da9e3701ffe0b9c89e1b5706923"
+  },
+  "coefficient_extensions": true,
+  "controls": [
+    "rank28 q4 countermodel fails eight-row interface",
+    "rank24 permits eight independent common rows",
+    "mutated response rank rejected"
+  ],
+  "forced_K_dimension": 4,
+  "missing_inputs": [
+    24,
+    29,
+    33
+  ],
+  "native_inputs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    30,
+    31,
+    32,
+    34
+  ],
+  "new_complete_kappa": false,
+  "repeated_width_form": "rank(Z_m)<=24m for8m independent actual receiver rows on32m native inputs",
+  "source61_H_fixed_parent_count": 4,
+  "status": "PASS_ACTUAL_RECEIVER95_CONTRAST_RANK_GATE"
+}

@@ -1,0 +1,29 @@
+{
+  "baseline_commit": "44f09459f91f8c3e27fcd45f54be7d043e6493b7",
+  "full_supplier": false,
+  "global_q4_compiler": {
+    "exit_code": 0,
+    "fresh_D_binary_columns": 210,
+    "fresh_source_binary_columns": 31680,
+    "result": "global-gauge-q4/COMPILER-RESULT.json",
+    "unchanged_H_receipts_reused": true
+  },
+  "global_three_overlap_compiler": {
+    "exit_code": 0,
+    "fresh_D_binary_columns": 210,
+    "fresh_source_binary_columns": 31680,
+    "result": "global-gauge-three-overlap/COMPILER-RESULT.json",
+    "unchanged_H_receipts_reused": true
+  },
+  "independent_global_gauge_review": "GLOBAL-GAUGE-REVIEW.md",
+  "new_complete_kappa": false,
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "t26_replay": {
+    "command": "python -B research/moonshot-005-program/results/bit-coupled-source-validity-s033/reproduce.py --repo . --out /workspace/scratch/aed10f238a26/source-validity-final-replay",
+    "exit_code": 0,
+    "log_sha256": "a887186d27c5803257ea97e37e147eef153ac670d774d60f93e2fd571d920b42",
+    "result": "output/REPLAY-RESULT.json"
+  }
+}
