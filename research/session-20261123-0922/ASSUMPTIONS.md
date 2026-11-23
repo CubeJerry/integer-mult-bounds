@@ -43,3 +43,13 @@ The finite compiler invokes native services; native realization may recursively 
 - **precision_tape:** #8091 source-local history and stopping obligations are reduced; a universal Lean predicate proof has passed author and root kernels, but machine costs remain a separate written/source argument. Actual ordinary role/repair bytes are the active next audit.
 - **analytic_recovery:** #8093 proves a local sufficient precision for #7849 with independent literal-gate/cache review; it retains the full compiler, phase, native and CRT/recovery hypotheses. It is not a new kappa or an improvement over the differently scheduled #7981. Growing fine-prime/decomposition and full recovery remain open.
 - **Finite prime selection:** the current localization investigation concerns fixed generated matchers only. It must not be reported as solving the outer growing fine-prime assumption.
+
+## 09:51 UTC recovery and fresh-wave update
+
+The recovered fixed compiler localization is published in #8092 at2fa1ba900f88ec6d32829eb69986cf585e3006af. Complete dyadic image/kernel matchers work for every odd prime power; the large-prime and outer growing-prime requirements remain. The source-specific Gaussian115058-field census and local repair byte results have passed independent review and are being registered for #8091. Historical role maxima are explicitly distinguished from per-call totals. A separately reviewed direct scalar envelope is27521/3420<9 incoming volumes across differing siblings; five root roles cost<7 and the public rectangle pair<18 per slab.
+
+A new literal Measure induction proves directed mass error Delta<=2V E_d(X)/(tg), with E_d(X)=((d+1)(d+2)/2)X+d+1. The actual installation gives Delta<2^24 N^-57<1/4. Separate rational-series review and actual grade/constructor binding accept this result. It can remove only the census bin-enclosure premise, not complete analytic_recovery.
+
+The source-specific arbitrary-cut and relative-interval proof has been independently accepted. Applying the credited sharper downset theorem to the actual prepared displacement gives the new sufficient selector4p+277L+3011d+(L mod2)+bit_length(C), saving1084L+1735d bits versus #8093. It retains phase, rank, native, Fourier and recovery premises; no complete recurrence is repriced. Both supplements are integrating into #8093.
+
+Fresh unresolved target: fullGL fixed-q descriptors independent of the growing prime-power width, with the exact source shift/swap/scaling counts. This is a source constructive interface question, not a reproof of general elimination or a solution of #6201 restricted ordered shears.

@@ -1,5 +1,5 @@
 {
-  "checkpoint_utc": "2026-11-23T09:27:19.843821+00:00",
+  "checkpoint_utc": "2026-11-23T09:51:56.744562+00:00",
   "session_start_utc": "2026-11-23T09:22:01Z",
   "speculation_cutoff_utc": "2026-11-23T10:52:01Z",
   "deadline_utc": "2026-11-23T11:22:01Z",
@@ -8,8 +8,8 @@
   "priority_revision": 8,
   "previous_recovery": "https://github.com/CubeJerry/integer-mult-bounds/tree/recovery/continuous-20261123-0704",
   "resumed_from_checkpoint_utc": "2026-11-23T08:28:02.690705+00:00",
-  "wave": 1,
-  "status": "Recovery verification in progress; no new result published in this session yet",
+  "wave": 3,
+  "status": "Recovered dyadic theorem published in existing PR8092; storage and numerical follow-ups independently reviewed and integrating",
   "existing_prs": [
     {
       "number": 8091,
@@ -18,8 +18,10 @@
     },
     {
       "number": 8092,
-      "head": "715b07832f433414c8a3a66284668192846e618a",
-      "branch": "research/selected-native-compiler-closure-20261123"
+      "head": "2fa1ba900f88ec6d32829eb69986cf585e3006af",
+      "branch": "research/selected-native-compiler-closure-20261123",
+      "verified_tree": "4e3b1dedba0f7291cb9f33a2e6037c872cb181b3",
+      "browser_description_verified": true
     },
     {
       "number": 8093,
@@ -30,32 +32,37 @@
   "allocations": [
     {
       "worker": "storage_recovery",
+      "wave": 2,
       "track": 80,
-      "scope": "Finish actual Gaussian owner census and ordinary historical byte audit; correct generic tag counterexample and independently verify successful-repair bound",
-      "path": "/workspace/scratch/e64488edfaad/storage",
-      "status": "author/reviewer active",
-      "next": "root review and consolidate into #8091"
-    },
-    {
-      "worker": "dyadic_recovery",
-      "track": 81,
-      "scope": "Finish dyadic complete basis and generated matcher localization; exact finite quotient oracle and literal source syntax",
-      "path": "/workspace/scratch/e64488edfaad/dyadic",
-      "status": "independent oracle repaired to retain 237 nonzero CLEAR ownership premises",
-      "next": "review and consolidate with #8092"
+      "scope": "Integrate frozen census/bytes then direct scale/root role envelopes in separate local commits",
+      "status": "integration replay active",
+      "path": "publish-storage",
+      "next": "root publication"
     },
     {
       "worker": "norm_recovery",
-      "track": 64,
-      "scope": "Actual chronological compiler partial-matching cuts, inverses and nested-downset interval envelope",
-      "path": "/workspace/scratch/e64488edfaad/norm",
-      "status": "proof in progress; bounds unverified",
-      "next": "separate review before #8093 follow-up"
+      "wave": 2,
+      "track": 81,
+      "scope": "Integrate reviewed compiler cuts then sharper selector as separate local commits",
+      "status": "integration active",
+      "path": "publish-precision",
+      "next": "root publication"
+    },
+    {
+      "worker": "dyadic_recovery",
+      "wave": 3,
+      "track": 46,
+      "scope": "Construct fixed-q, all-width fullGL descriptors in actual #7828/#7840 alphabet; bound complete route counts",
+      "status": "new bounded investigation",
+      "path": "dyadic/route-descriptors",
+      "deadline_utc": "2026-11-23T10:26:00Z",
+      "next": "independent review or precise scoped obstruction"
     },
     {
       "worker": "root",
+      "wave": 3,
       "track": 95,
-      "scope": "Independent verification, source pins, publication, checkpoint and opportunity map",
+      "scope": "Direct-scale independent certificate; mass enclosure proof/portable registration; publication and checkpoints",
       "status": "active"
     }
   ],
@@ -65,9 +72,59 @@
     "disposition": "No workaround attempted; scopes tracked locally and in this recovery branch; unaffected research continues"
   },
   "next_actions": [
-    "Complete independent recovery reviews",
-    "Publish coherent verified follow-ups promptly",
-    "Refresh current upstream and relevant open PRs at next wave",
-    "Protect final30minutes for verification and publication"
+    "Publish completed storage and numerical integrations promptly",
+    "Package independent mass review without hardcoded runtime paths",
+    "Review fullGL descriptor candidate when frozen",
+    "Start no speculative work after10:52:01UTC; finish by11:22:01UTC"
+  ],
+  "last_overlap_refresh": {
+    "main": "e54523517d0f03e58352e647c403a5af3e525a57",
+    "updated_prs_since_start": [
+      8091,
+      8092,
+      8093
+    ],
+    "coordination": "Read current Discussion1166; blocked editing old claim; no new conflicting scope observed"
+  },
+  "completed_results": [
+    {
+      "result": "dyadic fixed compiler bases",
+      "status": "published and browser description verified",
+      "pr": 8092,
+      "head": "2fa1ba900f88ec6d32829eb69986cf585e3006af",
+      "limitation": "No outer growing-prime result"
+    },
+    {
+      "result": "Gaussian owner census and actual local bytes",
+      "status": "independently reviewed; integration replay running",
+      "target_pr": 8091,
+      "path": "storage/census and storage/bytes"
+    },
+    {
+      "result": "compiler physical cuts and nested downsets",
+      "status": "independently accepted; integrating",
+      "target_pr": 8093,
+      "proof_sha256": "e942012e66adc2d696cde3fedd6ae9c73df98e77a71b16e5004f5a74ccdfaa07"
+    },
+    {
+      "result": "sharper spectral sufficient precision selector",
+      "status": "author and separate review accepted; integrating sequentially",
+      "target_pr": 8093,
+      "selector": "4p+277L+3011d+(L mod2)+bit_length(C)",
+      "comparison": "saves1084L+1735d relative to original PR8093; no new kappa"
+    },
+    {
+      "result": "direct scalar and root historical byte envelopes",
+      "status": "author and independent root review accepted; publication queued",
+      "target_pr": 8091,
+      "coefficient": "scalar27521/3420<9,root<7,public rectangle<18 per slab"
+    },
+    {
+      "result": "literal dyadic mass enclosure",
+      "status": "root proof and separate rational-series/production review accepted; packaging",
+      "target_pr": 8091,
+      "delta": "<2^24*N^-57<1/4 for installed domains",
+      "limitation": "Local bin-count premise only"
+    }
   ]
 }
