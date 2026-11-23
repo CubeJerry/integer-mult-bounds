@@ -54,3 +54,9 @@ Fresh work is active on the production owner census, pure-Lean capped-power pred
 The first batch does not end the five-hour research window. Three genuine workers remain active: independent owner-census review, actual byte-census audit, and dyadic matcher localization. The capped-power theorem has now passed separate root Lean compilation with fifteen axiom reports containing only propext, Quot.sound and Classical.choice. It will be a coherent #8091 follow-up, not a separate micro-PR. The source/Python correspondence is inspected and hash/AST checked; no Python semantics or machine-time theorem is implied.
 
 #8092 hosted CI failed in the same unchanged test_current_ci_section_matches_selected_record preflight before research replay; the exact log was inspected. Local registered scientific replay passed. The claim at discussion comment 19825594 now links all three submitted results and the new scopes.
+
+## Formal supplement published; fifth-wave review transition
+
+At 2026-11-23T08:28:02.690705+00:00, #8091 received its second commit `61eef3f8aef8c40a952af08a0d518cdb3ee0b9f0`: the actual stopping predicate now has a kernel-checked Lean theorem with separate Python source correspondence. Its complete remote tree matches the tested local tree, 59 package files pass the committed-byte/mode gate, and the rendered/full PR description was read back. No main/certificate change.
+
+Complete author packages for dyadic matcher construction and local route/repair byte census are under `provisional/`, explicitly unverified pending independent reviews. The accepted Gaussian owner census and separate review are under `reviewed/`, awaiting root integration into #8091. The compiler worker now reviews byte bounds; the storage worker reviews dyadic localization; the analytic worker audits the retained intermediate compiler norm bound. Canonical main remains e54523517d0f03e58352e647c403a5af3e525a57. Only our #8091 changed in the latest PR delta since 08:13 UTC.

@@ -1,8 +1,8 @@
 ## Source-bound storage and control audit; no new κ
 
-This answers two concrete parts of the #8042 independent-review handoff: the nonidentity packet crossing and the actual capped stopping predicate. It consolidates the packet/owner investigation with a separately authored stopping-control appendix. The accepted selected certificate and all five foundational assumptions remain unchanged.
+This answers two concrete parts of the #8042 independent-review handoff: the nonidentity packet crossing and the actual capped stopping predicate. It consolidates the packet/owner investigation with a separately authored stopping-control appendix and a kernel-checked Lean proof of the actual capped-power predicate. The accepted selected certificate and all five foundational assumptions remain unchanged.
 
-Base: `e54523517d0f03e58352e647c403a5af3e525a57`. Audited source: Ali Romman's #8042 at `dfd25d553a843a946ca0b94130a5ff8943e98fdd`. Publication head: `deb97fbee58c4146e2e6de0f463e3b82a93e951b`. Package: `research/retimed-packet-storage-audit`.
+Base: `e54523517d0f03e58352e647c403a5af3e525a57`. Audited source: Ali Romman's #8042 at `dfd25d553a843a946ca0b94130a5ff8943e98fdd`. Publication head: `61eef3f8aef8c40a952af08a0d518cdb3ee0b9f0`. Package: `research/retimed-packet-storage-audit`.
 
 ## Exact result and why it matters
 
@@ -13,6 +13,12 @@ The correct lifetime fence is narrower than “no scratch survives”: named pag
 For positive owner arenas, a child starts after the parent's historical slot high. A minimal two-slot example disproves using the current live count: retiring the first slot leaves the second live, so a child beginning at `live*extent` overwrites it. The unchanged source correctly uses `high*extent`. Changing child-window widths and live zero owners are also checked.
 
 The stopping appendix binds `D=10^21` to the source predicate: 70 exponent bits, at most 69 squares and 29 selected products. Its independent serial-bit lowering includes restoration and clearing. The comparison-width charge uses the genuine parent's failed test; an arbitrary large root header with a small unrelated child does not satisfy that theorem. Existing abstract inequalities in #8042's `OuterStop.lean` retain their credit.
+
+### Consolidated Lean supplement
+
+`formal/CappedPower.lean` proves the cap-at-`h+1` threshold equivalence, termination by exponent halving, the source low-bit branch, the omitted final square, and the actual wrapper/caller theorem. The negated caller yields the strict failed-parent relation used by `STOPPING.md`. The proof SHA256 is `ee9ec96c4f92b2a45f6d2998db0383b43e4051b32131be09ff1c3a36d3b1bec2`.
+
+Author and root Lean 4.36.0 replays and a fresh offline publication-wrapper replay passed. All fifteen axiom reports use only the declared standard Lean axioms `propext`, `Quot.sound` and, for the bitwise theorem, `Classical.choice`. There is no `sorry`, `admit`, new axiom or native decision oracle. Exact hash/AST checks bind the theorem to the pinned Python function and its parameter forwarding; Python operational semantics, tape time and the 98-product cost argument are not formalized. The predecessor `OuterStop.lean` is retained unchanged and keeps priority for its abstract volume inequalities.
 
 ## Independent evidence and failure controls
 
@@ -35,7 +41,16 @@ python3 -B scripts/research_package.py --package research/retimed-packet-storage
 python3 -B scripts/check_research_commit.py --package research/retimed-packet-storage-audit --check-modes
 ```
 
-Expected markers: `PASS_RETIMED_STORAGE_AND_STOPPING_AUDIT`, `PASS_REGISTERED_RESEARCH_PACKAGE`, and `PASS_RESEARCH_COMMIT_BYTES`. Python 3.12, standard library plus Git; the full registered command has a 600-second bound. It authenticates 25 retained source files and restores a fresh offline runtime from the original hash-checked export. The 47-file remote tree exactly matches the tested local tree; existing repository files are unchanged. The exact remote commit also passed the committed-byte/mode check.
+Expected markers: `PASS_RETIMED_STORAGE_AND_STOPPING_AUDIT`, `PASS_REGISTERED_RESEARCH_PACKAGE`, and `PASS_RESEARCH_COMMIT_BYTES`. Python 3.12, standard library plus Git; the full registered command has a 600-second bound. The original complete packet replay passed in both author and root publication worktrees; that scientific engine is unchanged. The follow-up adds the unchanged predecessor `OuterStop.lean` to the authenticated inventory (26 source files, versus 25 in the original receipts), validates metadata/source bindings, and replays the formal supplement separately:
+
+```sh
+python3 -B research/retimed-packet-storage-audit/formal/replay.py \
+  --lean /absolute/path/to/lean --output /tmp/retimed-capped-power-review
+```
+
+This requires an already installed Lean 4.36.0 binary; no installation, network or Mathlib is used. Expected additional marker: `PASS_CAPPED_POWER_KERNEL_AND_SOURCE_BINDING`. The Python-only registered runner does not silently claim a Lean check. The 59-file package at the publication head has exactly the reviewed local tree; no pre-existing canonical files are changed. The exact remote commit passed the committed-byte/mode gate.
+
+Hosted CI success is not claimed. The initial run failed in unchanged base onboarding: `test_current_ci_section_matches_selected_record` expects `make frontier7000-verify`, but `docs/ci.md` still names #6030. That failure occurred before research package selection/replay; the local registered replay passed. This contribution does not modify shared CI guidance.
 
 ## Scope, overlap and remaining obligations
 

@@ -1,18 +1,21 @@
 {
-  "checkpoint_utc": "2026-11-23T08:13:25.992973+00:00",
+  "checkpoint_utc": "2026-11-23T08:28:02.690705+00:00",
   "base": "e54523517d0f03e58352e647c403a5af3e525a57",
-  "wave": 4,
+  "wave": 5,
   "claim": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1166#discussioncomment-19825594",
   "verified_frontier": ".00363005817 conditional on five exact selected premises",
   "submitted_prs": [
     {
       "number": 8091,
       "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/8091",
-      "head": "deb97fbee58c4146e2e6de0f463e3b82a93e951b",
+      "head": "61eef3f8aef8c40a952af08a0d518cdb3ee0b9f0",
       "branch": "research/retimed-storage-audit-20261123",
-      "tree": "5e06b45416366da29a5542c7d178ae47245c5e60",
+      "tree": "f4e5a8415a9b99e6d32c1158155925de5e716f75",
       "local_registered_replay": "passed",
-      "hosted_CI": "onboarding preflight failure: stale canonical docs/ci.md references #6030; package replay skipped"
+      "hosted_CI": "onboarding preflight failure: stale canonical docs/ci.md references #6030; package replay skipped",
+      "formal_kernel": "author, root and offline wrapper Lean 4.36.0 passed",
+      "remote_byte_and_mode_gate": "passed",
+      "description": "verified rendered browser update and connector readback; CRLF normalized"
     },
     {
       "number": 8092,
@@ -94,58 +97,72 @@
       "path": "snapshots/CappedPower.lean",
       "source": "work-stop/formal/CappedPower.lean",
       "sha256": "ee9ec96c4f92b2a45f6d2998db0383b43e4051b32131be09ff1c3a36d3b1bec2",
-      "status": "Kernel compiled by author and root, allowed standard axioms only; source semantics correspondence separately inspected"
+      "status": "published formal follow-up in #8091 at 61eef3f8aef8c40a952af08a0d518cdb3ee0b9f0; kernel/source boundary explicit"
     },
     {
       "path": "snapshots/capped-power-correspondence.md",
       "source": "work-stop/formal/SOURCE-CORRESPONDENCE.md",
       "sha256": "496db88ecff42c62d58fca7841084ae3f072dc3ac675822e198f2ffab9a4896e",
-      "status": "Root accepted source correspondence; integration into #8091 ongoing"
+      "status": "published formal follow-up in #8091 at 61eef3f8aef8c40a952af08a0d518cdb3ee0b9f0; kernel/source boundary explicit"
     },
     {
       "path": "snapshots/owner-census-provisional.md",
       "source": "work-storage/wave2-stock/OWNER-CENSUS.md",
       "sha256": "c3a4466317732d44c7c3c7e57e1180106a71d2fb3083152cb54b8b7971b35bf0",
-      "status": "Author theorem and exact fixtures passed; independent cross-review pending"
+      "status": "separate model-assisted review accepted exact proof; root integration pending; universal mass enclosure retained"
+    },
+    {
+      "path": "provisional/prime-closure/PROOF.md",
+      "source": "work-analytic/prime-closure/PROOF.md",
+      "sha256": "080be9adb3d9a6f2bd58be334881d7ce7c3be691b49c7fb451705917d92a1283",
+      "status": "author complete; independent review in progress; UNVERIFIED"
+    },
+    {
+      "path": "provisional/byte-census/PROOF.md",
+      "source": "work-storage/wave3-bytes/PROOF.md",
+      "sha256": "d21a68af1cd9720b691fdd4866452c909955557e211a75f93ead381db88f64cc",
+      "status": "author complete; independent review in progress; UNVERIFIED"
     }
   ],
   "next_actions": [
-    "Publish verified formal predicate as coherent follow-up in #8091",
-    "Review owner census before adding it to #8091",
-    "Review actual byte-bound result and localized matcher construction when ready",
-    "Assign fresh distinct work on completion before 10:49:44 UTC",
-    "Refresh canonical main, claim expiry and opportunity map at next wave"
+    "Integrate independently accepted owner census into #8091 as separate commit; actual owner bounds retain analytic mass enclosure for production exponent",
+    "Finish byte-theorem review and consolidate accepted component into #8091",
+    "Finish dyadic matcher review and, if accepted, consolidate with #8092",
+    "Assess actual compiler interior-cut norm result before any claim changes in #8093",
+    "Keep workers on fresh distinct tasks before 10:49:44 UTC; protect publication window to 12:04:44 UTC",
+    "Refresh claim before 09:20 UTC; canonical main unchanged on current delta check"
   ],
   "active": [
     {
       "worker": "compiler_closure",
-      "wave": 4,
-      "track": 79,
-      "scope": "Independent production owner-census review including inclusive intervals and free-first history",
-      "location": "work-compiler/census-review",
+      "wave": 5,
+      "track": 81,
+      "scope": "Independent actual local historical-byte and production repair-tag review with separate exact method",
+      "location": "work-compiler/byte-review",
       "status": "in progress"
     },
     {
       "worker": "analytic_recovery",
-      "wave": 3,
-      "track": 52,
-      "scope": "Selected dyadic raw-frame localization and constructive whole-matcher closure",
-      "location": "work-analytic",
-      "status": "author investigation in progress"
+      "wave": 4,
+      "track": 64,
+      "scope": "Audit actual chronological rational-unitary compiler interior-cut norm bound and inverses, retaining stated conditioning premises",
+      "location": "work-analytic/compiler-cut-audit",
+      "status": "in progress"
     },
     {
       "worker": "tape_storage",
-      "wave": 3,
-      "track": 69,
-      "scope": "Ordinary tape-role byte extents and repair-tag bounds at exact #8042",
-      "location": "work-storage/wave3-bytes",
+      "wave": 4,
+      "track": 80,
+      "scope": "Independent dyadic full-basis/matcher localization review with separate exact oracle and source syntax audit",
+      "location": "work-storage/prime-review",
       "status": "in progress"
     },
     {
       "worker": "root",
-      "wave": 4,
+      "wave": 5,
       "track": 95,
-      "scope": "Consolidate independently checked capped-power kernel proof into #8091; review census and other completed results",
+      "scope": "Review and consolidate accepted Gaussian owner census into #8091; checkpoint and fresh objective planning",
+      "location": "publish-storage",
       "status": "in progress"
     }
   ]

@@ -1,0 +1,1 @@
+Recovery snapshot only. The author reports a completed local result, but independent review is pending. This directory is not an upstream submission or accepted theorem. See session STATE.json for current status.
