@@ -1,0 +1,413 @@
+{
+  "repository": "CubeJerry/integer-mult-bounds",
+  "pull_request": 8093,
+  "branch": "research/direct-circulant-production-precision-20261123",
+  "expected_remote_base": "ea0274f8e6b6add282a63c11c5b8c4420ed3bc7e",
+  "base_tree": "c09b52f711358be141d4403f449c57dd89fb68b3",
+  "local_baseline": "2f4b1e65d7e0dd3ba69c5910dbef1f4964737090",
+  "local_commit": "16e38597b66c435a27c24ceafaff47b40c3b06e6",
+  "proposed_full_tree": "05084a98863808d388706d69775e8dbbff2ba3db",
+  "local_commit_note": "Local parent has the exact remote base tree. Publish a new commit on expected_remote_base with this tree; do not push the local ancestry.",
+  "package_files_byte_and_mode_checked": 149,
+  "preserved_original_files": 107,
+  "modified_original_metadata": [
+    "README.md",
+    "TASK.json",
+    "VERIFY.json"
+  ],
+  "added_files": 39,
+  "modified_files": 3,
+  "deleted_files": 0,
+  "outside_package_changes": 0,
+  "files": [
+    {
+      "status": "M",
+      "path": "research/direct-circulant-production-precision/README.md",
+      "mode": "100644",
+      "git_blob": "115113617d9940763e68544a14f58a41e096a348",
+      "sha256": "f915ea59c61913d05741d5c1ecc6fa031d3de406de8af87dd2724674bfb3d977",
+      "bytes": 18620,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/README.md"
+    },
+    {
+      "status": "M",
+      "path": "research/direct-circulant-production-precision/TASK.json",
+      "mode": "100644",
+      "git_blob": "4cdff41d86563fdd95417ec07d4cb9db270566b9",
+      "sha256": "70354a6650b63431e988073bd3170b5595568dcf4db16afb575c83e986ab1345",
+      "bytes": 11999,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/TASK.json"
+    },
+    {
+      "status": "M",
+      "path": "research/direct-circulant-production-precision/VERIFY.json",
+      "mode": "100644",
+      "git_blob": "4c161622a10fec8f4dd47a5715330548a16a1f55",
+      "sha256": "79881fcdb50a3a115b0765c17e90f270872e48ebfc67d5222f4ecb2662eff5c5",
+      "bytes": 3732,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/VERIFY.json"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/EVIDENCE-OPTIMIZED.json",
+      "mode": "100644",
+      "git_blob": "3253046533423cb485bd818a2cabdae765131f34",
+      "sha256": "9d1a747ccf2c366edf2f9b90d46330a5bd6770327f4b89a7870ff1581a200512",
+      "bytes": 1584,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/EVIDENCE-OPTIMIZED.json"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/EVIDENCE.json",
+      "mode": "100644",
+      "git_blob": "3253046533423cb485bd818a2cabdae765131f34",
+      "sha256": "9d1a747ccf2c366edf2f9b90d46330a5bd6770327f4b89a7870ff1581a200512",
+      "bytes": 1584,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/EVIDENCE.json"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/FROZEN.json",
+      "mode": "100644",
+      "git_blob": "0ffac82326360516e09186b5eb7639fdfc84dc00",
+      "sha256": "f700e9c653e8abdddb10ff7d8e7c46755177be0cef835b93b424a7897f404988",
+      "bytes": 3827,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/FROZEN.json"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/INTEGRATION.md",
+      "mode": "100644",
+      "git_blob": "5034ba9326f3a6b380e72121b41f93454888dbcd",
+      "sha256": "e49ec41e2a6d3ada5cf1380473e655dbc37bf42b1452d94a8a6ba4ededd3bca8",
+      "bytes": 2346,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/INTEGRATION.md"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/PROOF.md",
+      "mode": "100644",
+      "git_blob": "fbd1430dca1eff88f6931b1e0624d3205b01cd78",
+      "sha256": "05e85b54fd4b8f834f1790ff18ca53f5cd05aaf58e316aef4ba72aabe2b7fa9a",
+      "bytes": 13328,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/PROOF.md"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/README.md",
+      "mode": "100644",
+      "git_blob": "6d5cd28f177adf6f6640774459127e7a8fd8828a",
+      "sha256": "8f1022510c0f6dea9b9cdff443a1c99d2c2e60eed6b63e93206463dc97bea7e7",
+      "bytes": 3886,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/README.md"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/SOURCES.json",
+      "mode": "100644",
+      "git_blob": "2c94fd658ccaea9b2886863d8948dcd50a8a86bd",
+      "sha256": "5bc0d3ea2f6b3e9a2c3e69d4693fdbba4f236987d061bcf1ca8b297038b2f9bf",
+      "bytes": 10035,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/SOURCES.json"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/TASK.json",
+      "mode": "100644",
+      "git_blob": "67b04fae7d2838906cb9af80f653212e37fc2cb8",
+      "sha256": "b9f6417c4a0b526f27fcd36be10388631deb70e04a3b9b0e205623e24feddc4e",
+      "bytes": 1536,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/TASK.json"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/VERIFY.json",
+      "mode": "100644",
+      "git_blob": "3335a77a02874bfdb9e6b6b0c9dfc6a8fb1e1d91",
+      "sha256": "363e966ea518c555cedb82ca5060d9359056dea5639c18e364f2bc34465c1fb2",
+      "bytes": 447,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/VERIFY.json"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/check.py",
+      "mode": "100644",
+      "git_blob": "8ba50914f0e58bff2bf4c94045357d71602493f5",
+      "sha256": "d4490384a50bc6869b20adc93071d265b6d8649937d4687c7ae528e1c446719d",
+      "bytes": 15337,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/check.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/grid_arithmetic.py",
+      "mode": "100644",
+      "git_blob": "8727e1e43da91d5fa3465959276aa132a919e4e3",
+      "sha256": "cce97fcc515e3240224cada0a25c666fbac13454135b4fd71589f30bf67b3184",
+      "bytes": 2683,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/grid_arithmetic.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/PROOF.md",
+      "mode": "100644",
+      "git_blob": "6909bff0ab15bf16c8c5d2d50eb6a7a1ddc3be92",
+      "sha256": "00d2782a462612ad061c46ff9556c0e85108e8a3e38b181bc878bf1589976b9d",
+      "bytes": 6626,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/PROOF.md"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/README.md",
+      "mode": "100644",
+      "git_blob": "80e8ae627ef8b35553f43a014c2a4b4686c84def",
+      "sha256": "8fbc9c0b34f5d9233664c9822034b3ab2e9725452c59227eb0b25f416b93951b",
+      "bytes": 7667,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/README.md"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/SOURCES.json",
+      "mode": "100644",
+      "git_blob": "d32aacea72d1560fdb9443ad1e1c7ff8882a6d90",
+      "sha256": "a3ce4df0d59bc95323134c2f8c2ee3165ae2cb04898eec9ab6cf6d9cb6a25ee7",
+      "bytes": 1801,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/SOURCES.json"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/TASK.json",
+      "mode": "100644",
+      "git_blob": "3bddd95b97bb4f443d825bc655fc2b8794170c90",
+      "sha256": "a760a13208ecee3f65a85bf6a9b204da8ae3532c0c2e82bf5d8bec99c363dd4e",
+      "bytes": 7056,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/TASK.json"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/VERIFY.json",
+      "mode": "100644",
+      "git_blob": "1c7b65b6ddce2d5d92f26351043f4fbef481d9d0",
+      "sha256": "10c341a64b0bca5b614fbf616c65774e6f4a4819091373487aa06f702ea2b6f7",
+      "bytes": 1050,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/VERIFY.json"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/STEIN-PROVENANCE.json",
+      "mode": "100644",
+      "git_blob": "c602fb5bb332dbe098950b14d55da05ce2cf4312",
+      "sha256": "e7f0e8dc517387e302b1e8bf5dff7e12b29da8aa91abc6ea597f33c1ac08ba62",
+      "bytes": 1366,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/STEIN-PROVENANCE.json"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/check_circuits.py",
+      "mode": "100644",
+      "git_blob": "f80c141c8116b163c2bb5a028c28212077c8d5a9",
+      "sha256": "06d1861bfe8af543908e26557ffda7e451ff176bceb9bacfaf0f04f234b336d5",
+      "bytes": 10774,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/check_circuits.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/engine.py",
+      "mode": "100644",
+      "git_blob": "e9f2f2b08dc2bc4c646e47dca92059351ca89384",
+      "sha256": "9e36aee0835e6b1b62997433581f88b5a434ccab8ae43e5c25d1deaaf1ebf653",
+      "bytes": 13174,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/engine.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/exact.py",
+      "mode": "100644",
+      "git_blob": "aae41e6acfb2e5a4fafdd85727891eb746b57b42",
+      "sha256": "c9b89d7357210af69865690ba12e695366961f8b501a8fab9d0fefe3fb30c479",
+      "bytes": 7863,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/exact.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/full.py",
+      "mode": "100644",
+      "git_blob": "7f85ad1a89e81b7dfc6b54e7bd9547120e86d5d3",
+      "sha256": "1f42d5f2858564ffb320e54ba6aa29651025491569823e25006bf5862457b803",
+      "bytes": 12561,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/full.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/generator.py",
+      "mode": "100644",
+      "git_blob": "d761d3c88b1685fb64d92d69f699b8218c9ec30f",
+      "sha256": "827ef9fe1bd664859995892b59843c390f7969c938fb7e1e6dc585c31a54b555",
+      "bytes": 12562,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/generator.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/interval_kernel.py",
+      "mode": "100644",
+      "git_blob": "1182175a55cb871481de0f56ea9ae56e474705fe",
+      "sha256": "9b7bb24640a9a7d3f83c7951dfef483ec933db4c50de6c0130b85f450eeddfbe",
+      "bytes": 2363,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/interval_kernel.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/stein_rational.py",
+      "mode": "100644",
+      "git_blob": "71b240a460a185ee2fe926cd189b56aeac6f997f",
+      "sha256": "3065fc5d6d22ec44de533b08fb0c639603449456383668e561dc46629e641502",
+      "bytes": 6045,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/stein_rational.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/triangular.py",
+      "mode": "100644",
+      "git_blob": "2bd8de01a7ac80de7e6b9f8252bc69d0e0a291e8",
+      "sha256": "46780d95ddebfed22e8f0c18565fe2e768250afa5beeb31f450292cc06f7ec11",
+      "bytes": 10040,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/compiler/triangular.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/direct/product.py",
+      "mode": "100644",
+      "git_blob": "6059b6e2cecd125f741d148ba91d32637ef41ac1",
+      "sha256": "29ab6c60f937b7cce58666f5ddd7a921c3197cf72abf91ecca0ff7ad9486850e",
+      "bytes": 6733,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/direct/product.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/direct/root_gate_plan.py",
+      "mode": "100644",
+      "git_blob": "f306aa7fa8e1161caec399ae7f44a8af6a3db486",
+      "sha256": "379ca05625076824ac9c2399eac03c1c64c13fecee45ea17f78b8898df57cd2d",
+      "bytes": 6607,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/direct/root_gate_plan.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/direct/spectral.py",
+      "mode": "100644",
+      "git_blob": "57d84e16559f6d2b235a41b6b13abb8a2e076ac6",
+      "sha256": "ede9c48d34280c9c1c5c332b9434ff666fd321f4a18ffbf1f61b3339339e8ab6",
+      "bytes": 3836,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/direct/spectral.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/direct/tensor_word.py",
+      "mode": "100644",
+      "git_blob": "8bc7bc59957c1d56ae5cfeeec329e60fce02b998",
+      "sha256": "36c5a9a0082c9aa3c6cb2d04a9196af8debce0d551a0525975b710018ea02cac",
+      "bytes": 6815,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/direct/tensor_word.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/kernel.py",
+      "mode": "100644",
+      "git_blob": "45ffe0f280e6b88dbdd8873adbc2f8abc6d9f81f",
+      "sha256": "33afb9b22d1b7e53f41747b5b798f98511b3e0d8053fecb504e7137ed5f208a9",
+      "bytes": 4635,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/kernel.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/parent-PROOF.md",
+      "mode": "100644",
+      "git_blob": "76e89b74b3dd120e7ca54f9064e03f07956e498b",
+      "sha256": "26e4e214f0a5785c1d1414561465bb49a3248f9e6f59f6b514eb95a887bdfe2f",
+      "bytes": 17479,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/parent-PROOF.md"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/precision.py",
+      "mode": "100644",
+      "git_blob": "2115eb2e584056fb21a25263f47914871b88918a",
+      "sha256": "9c3e99219f741c5b08c0628c30784cf72c60b4421beae3373fa976aeffcd8e20",
+      "bytes": 1379,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/precision.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/spectral-PROOF.md",
+      "mode": "100644",
+      "git_blob": "1f5901dadcf8959132c3a318ecb4d39cd4073fa8",
+      "sha256": "0501a6a9a5f467fff4c998606965babc8157e74d98cf33b93f71fb10674d57bb",
+      "bytes": 7716,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/spectral-PROOF.md"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/retained/verify.py",
+      "mode": "100644",
+      "git_blob": "6da494b00401267476ede0a00322b3b5a91f7814",
+      "sha256": "75e4e9aeca05475fba814986b6713e5f84970681718e2bcc7df3bb478cd11d52",
+      "bytes": 9024,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/retained/verify.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/review/EVIDENCE-OPTIMIZED.json",
+      "mode": "100644",
+      "git_blob": "e30e3eb5987ac908c1639c7edf684e6748f6fd5c",
+      "sha256": "8cb77f8a596e93cb1f56795e0a6ac95dc6bebdddf8d93a7b3f37a2d183395e7c",
+      "bytes": 810,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/review/EVIDENCE-OPTIMIZED.json"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/review/EVIDENCE.json",
+      "mode": "100644",
+      "git_blob": "e30e3eb5987ac908c1639c7edf684e6748f6fd5c",
+      "sha256": "8cb77f8a596e93cb1f56795e0a6ac95dc6bebdddf8d93a7b3f37a2d183395e7c",
+      "bytes": 810,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/review/EVIDENCE.json"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/review/REVIEW.md",
+      "mode": "100644",
+      "git_blob": "8c39344a01a352fe7b15ebd38768a6c244874aa4",
+      "sha256": "9a2db500067a0832d1a744d5ff4b96be8ef2f66434fe80df2145b8e87af48048",
+      "bytes": 7472,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/review/REVIEW.md"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/review/independent.py",
+      "mode": "100644",
+      "git_blob": "858ad401dff1dee1a585703f3db1f22a163c434d",
+      "sha256": "95235b86e3f1a2fc1353a41d45233df6911318ee62ba11836ab00bc0f6e64e49",
+      "bytes": 7735,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/review/independent.py"
+    },
+    {
+      "status": "A",
+      "path": "research/direct-circulant-production-precision/grid-arithmetic/run_registered.py",
+      "mode": "100644",
+      "git_blob": "0bad19b2692ca9c0a12db95b2920d7cf93f4d222",
+      "sha256": "df050a93047a7349577e5b7ba7e70fb2aa63498a10d3836038e0573ae5557c7d",
+      "bytes": 2478,
+      "local_file": "/workspace/scratch/e64488edfaad/reconcile-precision/research/direct-circulant-production-precision/grid-arithmetic/run_registered.py"
+    }
+  ],
+  "registered_replay_status": "PASS_ALL_EIGHT_REGISTERED_COMMANDS",
+  "registered_log": "/tmp/grid-integration-publication/REGISTERED-REPLAY.txt",
+  "verification_timeout_sum_seconds": 1200,
+  "last_command_timeout_seconds": 510,
+  "proof_sha256": "05e85b54fd4b8f834f1790ff18ca53f5cd05aaf58e316aef4ba72aabe2b7fa9a",
+  "program_sha256": "cce97fcc515e3240224cada0a25c666fbac13454135b4fd71589f30bf67b3184",
+  "source_manifest_sha256": "5bc0d3ea2f6b3e9a2c3e69d4693fdbba4f236987d061bcf1ca8b297038b2f9bf",
+  "frozen_package_sha256": "f700e9c653e8abdddb10ff7d8e7c46755177be0cef835b93b424a7897f404988",
+  "pr_description": "/tmp/grid-integration-publication/PR-DESCRIPTION.md",
+  "description_substitution": "Replace GRID_PUBLICATION_COMMIT with the leased remote publication SHA after confirming the exact tree.",
+  "no_remote_writes_by_agent": true
+}
