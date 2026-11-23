@@ -1,0 +1,11 @@
+{
+  "status": "hosted replay blocked before package selection",
+  "cause": "Unchanged docs/ci.md selects #6030 and make frontier6030-verify, while selected record requires make frontier7000-verify.",
+  "failing_test": "test_current_ci_section_matches_selected_record (test_research_current_status.CurrentCiNavigationTests)",
+  "runs": [
+    {"pr":8093,"head":"780e96d8c149690df0f06661e2b9f94eb91737fe","run_id":45187159339,"job_id":137735646190,"tests":760,"failures":1,"skipped":24,"selection_step":"skipped","replay":"skipped"},
+    {"pr":8092,"head":"bb089049666a335a3211d3ecef17113c4f1afb06","run_id":45188279456,"job_id":137739528082,"tests":760,"failures":1,"skipped":24,"selection_step":"skipped","replay":"skipped"}
+  ],
+  "local_validation": "Both new sibling packages independently passed their canonical registered replay and committed-byte/mode gate. This is not hosted CI acceptance.",
+  "unrelated_base_files_modified": false
+}

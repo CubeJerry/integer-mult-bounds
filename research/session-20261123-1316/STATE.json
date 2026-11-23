@@ -1,6 +1,6 @@
 {
   "schema": "research-swarm-checkpoint/1",
-  "status": "active; two reviewed follow-ups published; fresh wave 3 interfaces ongoing",
+  "status": "active; three reviewed follow-ups published; lifetime and sequential bookkeeping independently accepted, packaging; prefix-width review active",
   "started_utc": "2026-11-23T13:16:00Z",
   "new_speculation_cutoff_utc": "2026-11-23T14:46:00Z",
   "session_deadline_utc": "2026-11-23T15:16:00Z",
@@ -31,7 +31,7 @@
       "dependency_pr": 8091,
       "dependency_head": "b500f72bbcf9c03a7f7fd40b366eedd6d1dd285b",
       "output": "work/storage",
-      "status": "representation author complete; independent review active; wave 2 sequential-time appendix active"
+      "status": "published in #8091"
     },
     {
       "worker": "precision_research",
@@ -57,7 +57,7 @@
       "track": "50/60",
       "scope": "Explicit sequential cost for supplied serialized decoder event/control contract; charge all table scans and primitive counters",
       "output": "work/storage/decoder-control/sequential",
-      "status": "active; unverified"
+      "status": "frozen author and separate precision-agent review accepted; packaging"
     },
     {
       "worker": "compiler_research",
@@ -65,7 +65,7 @@
       "track": "75",
       "scope": "Independent exact storage codec/source/event review",
       "output": "work/review-storage",
-      "status": "active"
+      "status": "review complete; accepted and published"
     },
     {
       "worker": "precision_research",
@@ -73,15 +73,31 @@
       "track": "20/50",
       "scope": "Caller-bound native arena lifetime/service-admission implication after exact grid theorem",
       "output": "work/precision",
-      "status": "active: exact seven-slot outer-field lifetime candidate; not yet verified"
+      "status": "frozen author and root review accepted; packaging"
     },
     {
       "worker": "compiler_research",
       "wave": 3,
       "track": "50",
-      "scope": "Generated producer to payload/owner-return interface; exact missing implication after focused overlap check",
+      "scope": "Structural all-prefix dyadic denominator/norm certificates, fixed-denominator carry width, actual ordered lowering",
+      "output": "work/compiler/prefix-width",
+      "status": "author frozen; separate precision-agent independent review active"
+    },
+    {
+      "worker": "storage_research",
+      "wave": 4,
+      "track": "50/60",
+      "scope": "Exact source native restoration-list closure and storage only",
+      "output": "work/storage",
+      "status": "active, unverified; must establish productive target closure"
+    },
+    {
+      "worker": "compiler_research",
+      "wave": 4,
+      "track": "50",
+      "scope": "Source-bound high-payload canonical q-adic carry stream; overlap check first",
       "output": "work/compiler",
-      "status": "starting after storage review; lemma proposal pending"
+      "status": "active, unverified"
     }
   ],
   "verified_findings": [
@@ -102,6 +118,21 @@
       "scope": "two-pass actual-alphabet low/carry output; fused widths; odd-q read-once shear needs at least B-2 retained state bits",
       "proof_sha256": "5de0684584f6fd9fe80cfa91b1c6ac24f9ca408ca6e59ff1ac11c758acfe40ae",
       "all_canonical_assumptions_retained": true
+    },
+    {
+      "scope": "Decoder control representation <32BNh bits; exact typed axes and whole-calendar/continuation charges",
+      "kind": "independently reviewed scoped theorem, published",
+      "proof_sha256": "47a15407cc97e41c3fc8dfaf11d223b8e75665c5b41c4f9d3d19131652e71dd3"
+    },
+    {
+      "scope": "Native source lifetime join: seven outer fields, one conversion window, separate native histories under explicit return/extent contract",
+      "kind": "independently accepted; publication pending",
+      "proof_sha256": "f51241c10a4bfb9e64aa35de0d89eb2e5e91f636c9ca4917e7f3b2862de6ae8b"
+    },
+    {
+      "scope": "Supplied-calendar sequential bookkeeping <BN^350<W; setup and native service costs excluded",
+      "kind": "independently accepted; publication pending",
+      "proof_sha256": "ff44f670b01ebb6748a0f5879d2fc83c1bc1950c9f15cb0a14743d86f7634ea8"
     }
   ],
   "publications": [
@@ -122,6 +153,15 @@
       "tree": "11732d7bb75707d75cfe7f4200130554fe61f1ba",
       "package": "research/generated-route-two-output",
       "verified": "31 additive files; registered author/independent fresh-cache normal/optimized replay; 32-file byte/mode gate; remote tree and preserved body"
+    },
+    {
+      "pr": 8091,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/8091",
+      "action": "updated existing open PR via Cloud Browser",
+      "head": "bf8058ef342a98a586ce41d67d5bd2173b2c871e",
+      "tree": "0f8e8f28ebf185f5a27eea76800863ea2964ad75",
+      "package": "research/retimed-decoder-control",
+      "verified": "42 additive files; registered author and independent normal/optimized fresh-cache gates; 43-file committed byte/mode gate; exact remote tree and preserved PR body"
     }
   ],
   "constraints": [
@@ -129,8 +169,8 @@
     "No selected-certificate change, fork-main mutation or upstream merge.",
     "Independent proof review before scientific publication."
   ],
-  "next_action": "Publish reviewed generated-route producer and decoder-control proof when reviews freeze; continue fresh interface investigations before 14:46 UTC.",
-  "last_refresh_utc": "2026-11-23T13:54:12Z",
+  "next_action": "Publish accepted lifetime and sequential packages; finish independent prefix review; investigate wave 4 only before 14:46, then verification and handoff.",
+  "last_refresh_utc": "2026-11-23T14:30:00Z",
   "review_findings": [
     {
       "worker": "precision_research",
@@ -138,5 +178,5 @@
       "issue": "Terminal normalization requires explicit endpoint divisibility/parity, now added and source-pinned."
     }
   ],
-  "unfinished_snapshot": "unverified-storage contains author proof/code notes only; exact retained sources are obtainable from SOURCE-BINDINGS.json; no independent acceptance yet"
+  "unfinished_snapshot": "pending/ contains frozen reviewed-but-unpublished lifetime/sequential notes, and unverified prefix author evidence. Exact sources recoverable from manifests; previous unverified-storage snapshot superseded by published #8091."
 }
