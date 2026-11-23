@@ -1,0 +1,46 @@
+{
+  "checkpoint_utc": "2026-11-23T07:28:20Z",
+  "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "wave": 1,
+  "claim": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1166#discussioncomment-19825594",
+  "verified_frontier": ".00363005817 conditional on five exact selected premises",
+  "submitted_prs": [],
+  "snapshots": [
+    {
+      "path": "snapshots/compiler-provisional.md",
+      "sha256": "244cfde3793030017fca6f3248465a162e8b47369f70d19564f3a9a577f24656",
+      "source": "work-compiler/JOINT-PROOF.md",
+      "status": "provisional; independent review pending"
+    },
+    {
+      "path": "snapshots/precision-provisional.md",
+      "sha256": "c656c190db48e8bfc7860536eceaafb4a53c462d38424d4db10cef3d8b83a2da",
+      "source": "work-analytic/PROOF-DRAFT.md",
+      "status": "provisional; independent review pending"
+    },
+    {
+      "path": "snapshots/stopping-provisional.md",
+      "sha256": "313b6553a0503f8eb265c4170cb415d6773895a6f35c46636293973de9854a1a",
+      "source": "work-stop/PROOF.md",
+      "status": "provisional; independent review pending"
+    },
+    {
+      "path": "snapshots/stopping-check.py",
+      "sha256": "1aabb3d794336236848fe85d7e3b1e69f16bd1fcf3b0aff3e2707df881153bf3",
+      "source": "work-stop/verify_stopping.py",
+      "status": "provisional; independent review pending"
+    },
+    {
+      "path": "snapshots/stopping-receipt.json",
+      "sha256": "e554503cb5dde499b7664158ed6605a3249567f3420d4fac30f5d7c5602be509",
+      "source": "work-stop/result.json",
+      "status": "provisional; independent review pending"
+    }
+  ],
+  "next_actions": [
+    "Cross-review joint native/compiler construction without changing remaining premises",
+    "Independently audit precise lowered gate and coefficient precision constants",
+    "Complete source mutations and universal pending/answer/history argument",
+    "Consolidate source-bound stopping control with storage handoff audit"
+  ]
+}

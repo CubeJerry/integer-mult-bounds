@@ -32,3 +32,9 @@ First investigations bounded to about 65 minutes absent a new discriminating ide
 Entry guidance, selected application, current status, ledger introduction, current priorities, family gates, package and coordination procedures were read. Historical priority numerics are not the frontier authority. Live PRs and discussions #1166, #7827, #7845, #7847 were inspected; sparse and targeted coverage is not an exhaustive archive audit.
 
 Prepared for Jerry Chen / @CubeJerry with substantial OpenAI assistance. Model-assisted checks are distinct from human review and formal-kernel acceptance. Credit remains with the cited source authors.
+
+## Checkpoint after initial bounded investigations
+
+Canonical main was rechecked and is unchanged. The discussion claim is posted at [comment 19825594](https://github.com/CrocSwap/integer-mult-bounds/discussions/1166#discussioncomment-19825594). No upstream PR has been submitted. Provisional source-specific proofs and the independently executed stopping receipt are preserved in `snapshots/`; all universal proposed improvements still await independent review.
+
+The storage worker has exercised a nonidentity direct route and a full 16-by-27 covered packet, with zero open transient work scopes at every same-rank call. Named page buffers remain live and must be counted. The analytic worker proposes a smaller sufficient precision selector; the compiler worker proposes a joint well-founded implementation. Neither proposal is accepted here. The stopping checker passes its bounded independent oracle, serial-bit and mutation cases; this does not prove the complete global tariff. See STATE.json for exact snapshot hashes and next actions.
