@@ -14,3 +14,6 @@ This recovery branch is an unfinished checkpoint, not an upstream scientific con
 
 ## 14:30 UTC checkpoint
 Published storage representation after both registered modes and exact-tree gates. Lifetime join and sequential bookkeeping accepted by distinct reviewer implementations; publication pending. Prefix-width supplement in independent review; high-payload conversion and restoration-list tasks remain unverified. Hosted CI baseline onboarding blocker is recorded in HOSTED-CI.json. No selected assumptions or kappa changed.
+
+## Six published packages; fourth-wave review checkpoint
+Native lifetime, supplied-calendar sequential bookkeeping and structural prefix widths published via existing PR forms; exact remote trees/parents verified. Sequential independent scalar allowance corrected to512w+2048 before final replay/publication. Restoration lists and quotient non-affinity remain in independent review; direct recovery lifetimes are an unverified fresh task. No selected assumptions or kappa changed.

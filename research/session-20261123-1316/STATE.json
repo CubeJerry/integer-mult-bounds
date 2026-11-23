@@ -1,6 +1,6 @@
 {
   "schema": "research-swarm-checkpoint/1",
-  "status": "active; three reviewed follow-ups published; lifetime and sequential bookkeeping independently accepted, packaging; prefix-width review active",
+  "status": "active; six independently reviewed follow-up packages published in three existing PRs; fourth-wave native restoration and quotient-boundary reviews active; direct recovery lifetime author active",
   "started_utc": "2026-11-23T13:16:00Z",
   "new_speculation_cutoff_utc": "2026-11-23T14:46:00Z",
   "session_deadline_utc": "2026-11-23T15:16:00Z",
@@ -98,6 +98,30 @@
       "scope": "Source-bound high-payload canonical q-adic carry stream; overlap check first",
       "output": "work/compiler",
       "status": "active, unverified"
+    },
+    {
+      "worker": "precision_research",
+      "wave": 4,
+      "track": "50/60",
+      "scope": "Source-bound recovery array, carry and output integer width/lifetime under existing exact-recovery premise",
+      "output": "work/precision",
+      "status": "active, unverified; freeze by14:44"
+    },
+    {
+      "worker": "compiler_research",
+      "wave": 4,
+      "track": "75",
+      "scope": "Independent native restoration-list review, complete target closure and fixed-slot history",
+      "output": "work/review-native-restores",
+      "status": "active"
+    },
+    {
+      "worker": "storage_research",
+      "wave": 4,
+      "track": "75",
+      "scope": "Independent quotient-consumer non-affinity and direct branch boundary",
+      "output": "work/review-consumer-audit",
+      "status": "active; intended behavior, no source defect alleged"
     }
   ],
   "verified_findings": [
@@ -126,13 +150,18 @@
     },
     {
       "scope": "Native source lifetime join: seven outer fields, one conversion window, separate native histories under explicit return/extent contract",
-      "kind": "independently accepted; publication pending",
+      "kind": "independently accepted and published",
       "proof_sha256": "f51241c10a4bfb9e64aa35de0d89eb2e5e91f636c9ca4917e7f3b2862de6ae8b"
     },
     {
       "scope": "Supplied-calendar sequential bookkeeping <BN^350<W; setup and native service costs excluded",
-      "kind": "independently accepted; publication pending",
+      "kind": "independently accepted and published",
       "proof_sha256": "ff44f670b01ebb6748a0f5879d2fc83c1bc1950c9f15cb0a14743d86f7634ea8"
+    },
+    {
+      "kind": "independently accepted and published",
+      "scope": "Every forward/inverse generated and lowered prefix has structural (d,e); fixed denominator and d+e+9 signed work bits; fixed-seed tensor O(log N) only",
+      "proof_sha256": "b024fe8d5b8841eba2739561754c26d24a120b9fca3299bc6c41b04ff6ba12b9"
     }
   ],
   "publications": [
@@ -162,6 +191,33 @@
       "tree": "0f8e8f28ebf185f5a27eea76800863ea2964ad75",
       "package": "research/retimed-decoder-control",
       "verified": "42 additive files; registered author and independent normal/optimized fresh-cache gates; 43-file committed byte/mode gate; exact remote tree and preserved PR body"
+    },
+    {
+      "pr": 8093,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/8093",
+      "action": "updated existing open PR via Cloud Browser",
+      "head": "1c45d4f74f40d60339190184cf564027ddeb42dd",
+      "tree": "9d9844eff6c241270e0e241bb5089689956a6d50",
+      "package": "research/direct-native-lifetime-join",
+      "verified": "author and independent normal/optimized fresh-cache replay; exact local/remote tree and parent; additive committed byte/mode gate; saved PR body prefix preserved"
+    },
+    {
+      "pr": 8091,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/8091",
+      "action": "updated existing open PR via Cloud Browser",
+      "head": "705c4ed728856fa03899a35764c42f7779676ace",
+      "tree": "21d372cbfc29d84fec08adc84ad5ec73afc7cb49",
+      "package": "research/retimed-decoder-sequential",
+      "verified": "author and independent normal/optimized fresh-cache replay; exact local/remote tree and parent; additive committed byte/mode gate; saved PR body prefix preserved"
+    },
+    {
+      "pr": 8092,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/8092",
+      "action": "updated existing open PR via Cloud Browser",
+      "head": "c5d12cfa88aff546f550c8b4cf9d7febd7848eed",
+      "tree": "4a885208488d0afb7c622f841f62c975751a0475",
+      "package": "research/generated-route-prefix-width",
+      "verified": "author and independent normal/optimized fresh-cache replay; exact local/remote tree and parent; additive committed byte/mode gate; saved PR body prefix preserved"
     }
   ],
   "constraints": [
@@ -169,8 +225,8 @@
     "No selected-certificate change, fork-main mutation or upstream merge.",
     "Independent proof review before scientific publication."
   ],
-  "next_action": "Publish accepted lifetime and sequential packages; finish independent prefix review; investigate wave 4 only before 14:46, then verification and handoff.",
-  "last_refresh_utc": "2026-11-23T14:30:00Z",
+  "next_action": "Complete restoration and recovery reviews; stop starting speculative tasks14:46; finalize exact-source and publication handoffs.",
+  "last_refresh_utc": "2026-11-23T14:30:38Z",
   "review_findings": [
     {
       "worker": "precision_research",
@@ -178,5 +234,6 @@
       "issue": "Terminal normalization requires explicit endpoint divisibility/parity, now added and source-pinned."
     }
   ],
-  "unfinished_snapshot": "pending/ contains frozen reviewed-but-unpublished lifetime/sequential notes, and unverified prefix author evidence. Exact sources recoverable from manifests; previous unverified-storage snapshot superseded by published #8091."
+  "unfinished_snapshot": "pending/ contains reviewed/published lifetime, prefix and sequential snapshots plus unverified native-restores and consumer-boundary. Exact retained sources recoverable from manifests; published PR heads supersede corresponding older snapshots.",
+  "upstream_refresh": "main unchanged; latest eight PRs show only our deltas; selected certificate unchanged at exact main"
 }
