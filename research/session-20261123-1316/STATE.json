@@ -1,6 +1,6 @@
 {
   "schema": "research-swarm-checkpoint/1",
-  "status": "active; one reviewed follow-up published; further waves ongoing",
+  "status": "active; two reviewed follow-ups published; fresh wave 3 interfaces ongoing",
   "started_utc": "2026-11-23T13:16:00Z",
   "new_speculation_cutoff_utc": "2026-11-23T14:46:00Z",
   "session_deadline_utc": "2026-11-23T15:16:00Z",
@@ -21,7 +21,7 @@
       "dependency_pr": 8092,
       "dependency_head": "6a3437d1cd94dc4e1792f4052511af6160120bf9",
       "output": "work/compiler",
-      "status": "author and independent review frozen; publication next"
+      "status": "complete and published #8092"
     },
     {
       "worker": "storage_research",
@@ -73,7 +73,7 @@
       "track": "20/50",
       "scope": "Caller-bound native arena lifetime/service-admission implication after exact grid theorem",
       "output": "work/precision",
-      "status": "starting; lemma proposal pending"
+      "status": "active: exact seven-slot outer-field lifetime candidate; not yet verified"
     },
     {
       "worker": "compiler_research",
@@ -96,6 +96,12 @@
       "scope": "exact raw-H/H0 output grid Q=P+E+1+h; source-bound terminal normalization; conditional temporary width <=4839p",
       "proof_sha256": "69ce2e2d57df59cf706960df2495cde5b3556e392acd7bc50a2d06c0800d5a8b",
       "all_canonical_assumptions_retained": true
+    },
+    {
+      "kind": "independently reviewed producer plus scoped lower bound, published",
+      "scope": "two-pass actual-alphabet low/carry output; fused widths; odd-q read-once shear needs at least B-2 retained state bits",
+      "proof_sha256": "5de0684584f6fd9fe80cfa91b1c6ac24f9ca408ca6e59ff1ac11c758acfe40ae",
+      "all_canonical_assumptions_retained": true
     }
   ],
   "publications": [
@@ -107,6 +113,15 @@
       "tree": "72218d1b24decb4543a96ecdac1762efaf0b4b2b",
       "package": "research/direct-native-grid-interface",
       "verified": "registered replay, independent normal/optimized oracle, corruption controls, 27-file byte/mode gate; remote exact tree and preserved body"
+    },
+    {
+      "pr": 8092,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/8092",
+      "action": "updated existing open PR via Cloud Browser",
+      "head": "bb089049666a335a3211d3ecef17113c4f1afb06",
+      "tree": "11732d7bb75707d75cfe7f4200130554fe61f1ba",
+      "package": "research/generated-route-two-output",
+      "verified": "31 additive files; registered author/independent fresh-cache normal/optimized replay; 32-file byte/mode gate; remote tree and preserved body"
     }
   ],
   "constraints": [
@@ -115,12 +130,13 @@
     "Independent proof review before scientific publication."
   ],
   "next_action": "Publish reviewed generated-route producer and decoder-control proof when reviews freeze; continue fresh interface investigations before 14:46 UTC.",
-  "last_refresh_utc": "2026-11-23T13:48:57Z",
+  "last_refresh_utc": "2026-11-23T13:54:12Z",
   "review_findings": [
     {
       "worker": "precision_research",
       "status": "accepted after repair and published",
       "issue": "Terminal normalization requires explicit endpoint divisibility/parity, now added and source-pinned."
     }
-  ]
+  ],
+  "unfinished_snapshot": "unverified-storage contains author proof/code notes only; exact retained sources are obtainable from SOURCE-BINDINGS.json; no independent acceptance yet"
 }
