@@ -1,0 +1,46 @@
+{
+  "observed_at_utc": "2026-11-23T11:06:16Z",
+  "canonical_base": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "selected_record_sha256": "154c3d30455d778fd3343b6b4851f0fa4665f0f7625b0adb3675e2bafbbf6bf1",
+  "selected_kappa": "363005817/100000000000",
+  "hosted_ci_is_not_local_replay": true,
+  "runs": [
+    {
+      "pr": 8091,
+      "head": "b500f72bbcf9c03a7f7fd40b366eedd6d1dd285b",
+      "run_id": 45160580056,
+      "job_id": 137644655774,
+      "status": "completed",
+      "conclusion": "failure",
+      "replay": "skipped",
+      "failure": "Onboarding helper test test_current_ci_section_matches_selected_record expects make frontier7000-verify; unchanged base docs/ci.md still describes frontier6030.",
+      "tests": 760,
+      "failures": 1,
+      "skipped": 24,
+      "job_url": "https://github.com/CrocSwap/integer-mult-bounds/actions/runs/45160580056/job/137644655774"
+    },
+    {
+      "pr": 8092,
+      "head": "6a3437d1cd94dc4e1792f4052511af6160120bf9",
+      "run_id": 45160515142,
+      "job_id": 137644436489,
+      "status": "completed",
+      "conclusion": "failure",
+      "replay": "skipped",
+      "failure": "Fetch pinned onboarding source commits failed with HTTP 403; exit 128 before helper tests or package selection.",
+      "job_url": "https://github.com/CrocSwap/integer-mult-bounds/actions/runs/45160515142/job/137644436489"
+    },
+    {
+      "pr": 8093,
+      "head": "8559a122f55614163c037b3c20a21f449a0531f6",
+      "run_id": 45161018700,
+      "job_id": 137646185062,
+      "status": "completed",
+      "conclusion": "failure",
+      "replay": "skipped",
+      "failure": "Onboarding helper test test_current_ci_section_matches_selected_record expects make frontier7000-verify; unchanged base docs/ci.md still describes frontier6030.",
+      "job_url": "https://github.com/CrocSwap/integer-mult-bounds/actions/runs/45161018700/job/137646185062"
+    }
+  ],
+  "action": "Record exact failures. No claim of hosted success; no unrelated canonical baseline rewrite or modification of security controls."
+}

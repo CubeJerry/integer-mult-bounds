@@ -1,0 +1,20 @@
+2026-11-23T11:03:14.6113619Z FAIL: test_current_ci_section_matches_selected_record (test_research_current_status.CurrentCiNavigationTests.test_current_ci_section_matches_selected_record)
+2026-11-23T11:03:14.6115024Z ----------------------------------------------------------------------
+2026-11-23T11:03:14.6115748Z Traceback (most recent call last):
+2026-11-23T11:03:14.6119293Z   File "/home/runner/work/integer-mult-bounds/integer-mult-bounds/tests/test_research_current_status.py", line 58, in test_current_ci_section_matches_selected_record
+2026-11-23T11:03:14.6120735Z     self.assertIn(f"`{SELECTED['reproduce']}`", current)
+2026-11-23T11:03:14.6129916Z AssertionError: '`make frontier7000-verify`' not found in '# CI verification\n\n## Current selected-family replay: #6030\n\nThe [selected record](../certificates/selected-result.json) binds conditional\nκ = 0.003125804 to the [proof review](research/pr-intake-evidence/pr6030-audit/PROOF-REVIEW.md),\n[validation receipts](research/pr-intake-evidence/pr6030-audit/VALIDATION.json),\nand [explicit source closure](../certificates/frontier6030-source.json).\n`make frontier6030-verify` follows that source-bound selected replay. The review\nseparates retained normal primary macOS/Linux evidence from fresh independent\nword/invoice/native, original caller, adapted caller and optimized primary checks.\nConsult its receipts for exact commands, source heads and limits; the #5599\ncheckpoint below retains its own historical replay details.\n\nThe five inherited framework assumptions remain. Neither the full uniform word\nnor a complete rounded multiplier is materialized. A source/metadata check is\nnot an operator replay or a formal theorem proof. Routine research submissions\ndo not need to rerun this selected-family replay.\n'
+2026-11-23T11:03:14.6137826Z 
+2026-11-23T11:03:14.6138139Z ----------------------------------------------------------------------
+2026-11-23T11:03:14.6139117Z Ran 760 tests in 140.376s
+2026-11-23T11:03:14.6139420Z 
+2026-11-23T11:03:14.6139637Z FAILED (failures=1, skipped=24)
+2026-11-23T11:03:14.6541254Z ##[error]Process completed with exit code 1.
+2026-11-23T11:03:14.6663400Z Post job cleanup.
+2026-11-23T11:03:14.7306947Z [command]/usr/bin/git version
+2026-11-23T11:03:14.7338005Z git version 2.56.1
+2026-11-23T11:03:14.7361219Z Temporarily overriding HOME='/home/runner/work/_temp/9b4a1e28-fe0d-4ce1-b6e6-1db55ad500bd' before making global git config changes
+2026-11-23T11:03:14.7362121Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-23T11:03:14.7364624Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/integer-mult-bounds/integer-mult-bounds
+2026-11-23T11:03:14.7389097Z Removing SSH command configuration
+2026-11-23T11:03:14.7393827Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
