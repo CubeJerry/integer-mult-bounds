@@ -1,10 +1,20 @@
 {
-  "checkpoint_utc": "2026-11-23T07:28:20Z",
+  "checkpoint_utc": "2026-11-23T07:54:55.563466+00:00",
   "base": "e54523517d0f03e58352e647c403a5af3e525a57",
-  "wave": 1,
+  "wave": 3,
   "claim": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1166#discussioncomment-19825594",
   "verified_frontier": ".00363005817 conditional on five exact selected premises",
-  "submitted_prs": [],
+  "submitted_prs": [
+    {
+      "number": 8091,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/8091",
+      "head": "deb97fbee58c4146e2e6de0f463e3b82a93e951b",
+      "branch": "research/retimed-storage-audit-20261123",
+      "tree": "5e06b45416366da29a5542c7d178ae47245c5e60",
+      "local_registered_replay": "passed",
+      "hosted_CI": "onboarding preflight failure: stale canonical docs/ci.md references #6030; package replay skipped"
+    }
+  ],
   "snapshots": [
     {
       "path": "snapshots/compiler-provisional.md",
@@ -35,12 +45,70 @@
       "sha256": "e554503cb5dde499b7664158ed6605a3249567f3420d4fac30f5d7c5602be509",
       "source": "work-stop/result.json",
       "status": "provisional; independent review pending"
+    },
+    {
+      "path": "snapshots/compiler-reviewed.md",
+      "sha256": "814c514717592ef64bf4afd1bc5dff8284cf534790287fc8b2d1a0408c6caee5",
+      "source": "work-compiler/package/PROOF.md",
+      "status": "accepted by separate model-assisted cross-review; root publication review ongoing"
+    },
+    {
+      "path": "snapshots/compiler-cross-review.md",
+      "sha256": "1d2e4b6eb3b40a2c6eba2a77190c7423578d99d0325fed9a6b597659b4ff4cc7",
+      "source": "work-analytic/compiler-cross-review/CROSS-REVIEW.md",
+      "status": "completed independent scoped review"
+    },
+    {
+      "path": "snapshots/precision-reviewed.md",
+      "sha256": "26e4e214f0a5785c1d1414561465bb49a3248f9e6f59f6b514eb95a887bdfe2f",
+      "source": "work-analytic/research/direct-circulant-production-precision/PROOF.md",
+      "status": "accepted local conditional theorem by separate model-assisted review; packaging ongoing"
+    },
+    {
+      "path": "snapshots/precision-cross-review.md",
+      "sha256": "2c032c534efd1e6ee261c1b4733a756fb2dc5b2c6115cce810113b7c2b2fd25c",
+      "source": "work-compiler/analytic-review/CROSS-REVIEW.md",
+      "status": "completed independent scoped review"
     }
   ],
   "next_actions": [
-    "Cross-review joint native/compiler construction without changing remaining premises",
-    "Independently audit precise lowered gate and coefficient precision constants",
-    "Complete source mutations and universal pending/answer/history argument",
-    "Consolidate source-bound stopping control with storage handoff audit"
+    "Publish reviewed joint native/compiler package at unchanged kappa and three exact remaining contracts",
+    "Publish reviewed same-chronology direct-circulant local precision theorem",
+    "Independently review new owner census and capped-power kernel proof before coherent #8091 follow-up",
+    "Check selected-basis prime-localization construction and negative fixed-pivot controls",
+    "Continue distinct waves until 10:49:44 UTC cutoff; protect final 75 minutes for verification/publication"
+  ],
+  "active": [
+    {
+      "worker": "compiler_closure",
+      "wave": 3,
+      "track": 78,
+      "scope": "Kernel correctness of actual capped binary-power predicate; source #8042",
+      "location": "work-stop/formal/",
+      "status": "unverified in progress"
+    },
+    {
+      "worker": "analytic_recovery",
+      "wave": 3,
+      "track": 52,
+      "scope": "Prime localization of generated whole-matchers using actual selected dyadic raw bases and image/kernel construction",
+      "location": "work-analytic/",
+      "status": "unverified in progress; distinguish alternative basis from historical exact basis"
+    },
+    {
+      "worker": "tape_storage",
+      "wave": 2,
+      "track": 67,
+      "scope": "Production Gaussian simultaneous-owner and local adapter census",
+      "location": "work-storage/wave2-stock/",
+      "status": "author finding; independent review pending"
+    },
+    {
+      "worker": "root",
+      "wave": 3,
+      "track": 95,
+      "scope": "Review and publish compiler and local precision packages; update #8091 with independently verified compatible follow-ups",
+      "status": "in progress"
+    }
   ]
 }
