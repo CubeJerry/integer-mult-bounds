@@ -1,0 +1,80 @@
+{
+  "session_start_utc": "2026-11-23T09:22:23Z",
+  "speculation_cutoff_utc": "2026-11-23T10:52:23Z",
+  "deadline_utc": "2026-11-23T11:22:23Z",
+  "canonical_base": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "priority_revision": 8,
+  "selected_kappa": "363005817/100000000000",
+  "previous_recovery": {
+    "branch": "recovery/continuous-20261123-0704",
+    "head": "e9828e810e3d77156bf6f7d46325417630b93d6b"
+  },
+  "run": "20261123-0922-review",
+  "wave": 1,
+  "status": "Finishing interrupted drafts with new separate reviews. No new result published by this resumption yet.",
+  "existing_prs": [
+    {
+      "number": 8091,
+      "head": "61eef3f8aef8c40a952af08a0d518cdb3ee0b9f0",
+      "branch": "research/retimed-storage-audit-20261123"
+    },
+    {
+      "number": 8092,
+      "head": "715b07832f433414c8a3a66284668192846e618a",
+      "branch": "research/selected-native-compiler-closure-20261123"
+    },
+    {
+      "number": 8093,
+      "head": "13561dbdf4971a7ae0901d2f43df8de3981e94a5",
+      "branch": "research/direct-circulant-production-precision-20261123"
+    }
+  ],
+  "allocations": [
+    {
+      "worker": "storage_completion",
+      "track": 80,
+      "scope": "Independent source-specific owner census and historical physical byte bounds; correct overbroad counterexample wording",
+      "path": "/workspace/scratch/5ec7193af3d0/work-storage-completion",
+      "status": "review in progress",
+      "next": "verify and consolidate into existing #8091"
+    },
+    {
+      "worker": "prime_completion",
+      "track": 81,
+      "scope": "Finish independent dyadic full-basis/matcher localization review, exposing retained nonzero owned erasures",
+      "path": "/workspace/scratch/5ec7193af3d0/work-prime-completion",
+      "status": "independent checks passed; packaging",
+      "next": "consolidate into #8092 then separately review compiler cut proof"
+    },
+    {
+      "worker": "recover_pending",
+      "track": 64,
+      "scope": "Complete missing actual rational-unitary compiler whole-gate interval and inverse proof",
+      "path": "/workspace/scratch/5ec7193af3d0/work-compiler-cuts",
+      "status": "proof drafted; initial exact checks passed; independent review pending",
+      "next": "separate cross-review before #8093 follow-up"
+    },
+    {
+      "worker": "root",
+      "track": 95,
+      "scope": "Five-assumption map, canonical/overlap checks, integration, publication and restart trail",
+      "status": "active"
+    }
+  ],
+  "coordination_blocker": {
+    "action": "Renew own Discussion #1166 comment 19825594",
+    "reason": "Automatic approval review rejected modifying this specific published research claim as not explicitly authorized.",
+    "disposition": "No workaround; keep local/durable manifest; complete unaffected research."
+  },
+  "parallel_workspace_observed": {
+    "path": "/workspace/scratch/e64488edfaad",
+    "recovery_branch": "recovery/continuous-20261123-0922",
+    "instruction": "Do not modify this separate worker state. Recheck remote heads before any publication; add only nonduplicative independently checked results."
+  },
+  "next_actions": [
+    "Finish and inspect interrupted review artifacts",
+    "Publish coherent verified follow-ups after source and byte checks",
+    "Launch fresh complementary objectives before cutoff",
+    "Reserve final30minutes for verification, publication and concise handoff"
+  ]
+}
