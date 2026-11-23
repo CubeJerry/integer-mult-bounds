@@ -1,7 +1,7 @@
 {
-  "checkpoint_utc": "2026-11-23T07:54:55.563466+00:00",
+  "checkpoint_utc": "2026-11-23T08:13:25.992973+00:00",
   "base": "e54523517d0f03e58352e647c403a5af3e525a57",
-  "wave": 3,
+  "wave": 4,
   "claim": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1166#discussioncomment-19825594",
   "verified_frontier": ".00363005817 conditional on five exact selected premises",
   "submitted_prs": [
@@ -13,6 +13,26 @@
       "tree": "5e06b45416366da29a5542c7d178ae47245c5e60",
       "local_registered_replay": "passed",
       "hosted_CI": "onboarding preflight failure: stale canonical docs/ci.md references #6030; package replay skipped"
+    },
+    {
+      "number": 8092,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/8092",
+      "head": "715b07832f433414c8a3a66284668192846e618a",
+      "branch": "research/selected-native-compiler-closure-20261123",
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "local_registered_replay": "passed",
+      "remote_byte_and_mode_gate": "passed",
+      "hosted_CI": "not used as scientific evidence; unchanged canonical onboarding preflight defect"
+    },
+    {
+      "number": 8093,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/8093",
+      "head": "13561dbdf4971a7ae0901d2f43df8de3981e94a5",
+      "branch": "research/direct-circulant-production-precision-20261123",
+      "base": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "local_registered_replay": "passed",
+      "remote_byte_and_mode_gate": "passed",
+      "hosted_CI": "not used as scientific evidence; unchanged canonical onboarding preflight defect"
     }
   ],
   "snapshots": [
@@ -69,45 +89,63 @@
       "sha256": "2c032c534efd1e6ee261c1b4733a756fb2dc5b2c6115cce810113b7c2b2fd25c",
       "source": "work-compiler/analytic-review/CROSS-REVIEW.md",
       "status": "completed independent scoped review"
+    },
+    {
+      "path": "snapshots/CappedPower.lean",
+      "source": "work-stop/formal/CappedPower.lean",
+      "sha256": "ee9ec96c4f92b2a45f6d2998db0383b43e4051b32131be09ff1c3a36d3b1bec2",
+      "status": "Kernel compiled by author and root, allowed standard axioms only; source semantics correspondence separately inspected"
+    },
+    {
+      "path": "snapshots/capped-power-correspondence.md",
+      "source": "work-stop/formal/SOURCE-CORRESPONDENCE.md",
+      "sha256": "496db88ecff42c62d58fca7841084ae3f072dc3ac675822e198f2ffab9a4896e",
+      "status": "Root accepted source correspondence; integration into #8091 ongoing"
+    },
+    {
+      "path": "snapshots/owner-census-provisional.md",
+      "source": "work-storage/wave2-stock/OWNER-CENSUS.md",
+      "sha256": "c3a4466317732d44c7c3c7e57e1180106a71d2fb3083152cb54b8b7971b35bf0",
+      "status": "Author theorem and exact fixtures passed; independent cross-review pending"
     }
   ],
   "next_actions": [
-    "Publish reviewed joint native/compiler package at unchanged kappa and three exact remaining contracts",
-    "Publish reviewed same-chronology direct-circulant local precision theorem",
-    "Independently review new owner census and capped-power kernel proof before coherent #8091 follow-up",
-    "Check selected-basis prime-localization construction and negative fixed-pivot controls",
-    "Continue distinct waves until 10:49:44 UTC cutoff; protect final 75 minutes for verification/publication"
+    "Publish verified formal predicate as coherent follow-up in #8091",
+    "Review owner census before adding it to #8091",
+    "Review actual byte-bound result and localized matcher construction when ready",
+    "Assign fresh distinct work on completion before 10:49:44 UTC",
+    "Refresh canonical main, claim expiry and opportunity map at next wave"
   ],
   "active": [
     {
       "worker": "compiler_closure",
-      "wave": 3,
-      "track": 78,
-      "scope": "Kernel correctness of actual capped binary-power predicate; source #8042",
-      "location": "work-stop/formal/",
-      "status": "unverified in progress"
+      "wave": 4,
+      "track": 79,
+      "scope": "Independent production owner-census review including inclusive intervals and free-first history",
+      "location": "work-compiler/census-review",
+      "status": "in progress"
     },
     {
       "worker": "analytic_recovery",
       "wave": 3,
       "track": 52,
-      "scope": "Prime localization of generated whole-matchers using actual selected dyadic raw bases and image/kernel construction",
-      "location": "work-analytic/",
-      "status": "unverified in progress; distinguish alternative basis from historical exact basis"
+      "scope": "Selected dyadic raw-frame localization and constructive whole-matcher closure",
+      "location": "work-analytic",
+      "status": "author investigation in progress"
     },
     {
       "worker": "tape_storage",
-      "wave": 2,
-      "track": 67,
-      "scope": "Production Gaussian simultaneous-owner and local adapter census",
-      "location": "work-storage/wave2-stock/",
-      "status": "author finding; independent review pending"
+      "wave": 3,
+      "track": 69,
+      "scope": "Ordinary tape-role byte extents and repair-tag bounds at exact #8042",
+      "location": "work-storage/wave3-bytes",
+      "status": "in progress"
     },
     {
       "worker": "root",
-      "wave": 3,
+      "wave": 4,
       "track": 95,
-      "scope": "Review and publish compiler and local precision packages; update #8091 with independently verified compatible follow-ups",
+      "scope": "Consolidate independently checked capped-power kernel proof into #8091; review census and other completed results",
       "status": "in progress"
     }
   ]

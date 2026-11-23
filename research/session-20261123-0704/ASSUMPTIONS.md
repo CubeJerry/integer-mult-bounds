@@ -35,3 +35,11 @@ The selected theorem inherits the outer framework. #7846 produces Gaussian pages
 ## Dependency order and what would count
 
 The finite compiler invokes native services; native realization may recursively invoke compiled smaller children. Their composition needs one actual well-founded construction. Every nested call must preserve ownership, precision, complete spectators and return boundaries. Analytic recovery then consumes the normalized numerical output with all padding and digit scales. A proven caller-specific universal lemma reduces an obligation only over its explicit domain. No complete assumption removal or new kappa follows from finite tests or successful PR submission.
+
+## Updated dispositions after submitted work
+
+- **native_all_columns + compiler:** #8092 supplies a joint alternative selected-source construction under exactly owned_erasure, precision_tape and analytic_recovery. Separate model-assisted review accepts its frozen proof. This is a submitted mathematical reduction; canonical selected status remains unchanged. New finite carriers, fixed-template domains and complete zero-query billing are explicit.
+- **owned_erasure:** #8091 establishes packet/history invariants and a scoped stopping-control bill. The production per-context census of 115,058 fields is now an author result under independent review; it retains the existing mass enclosure. The changing-Entry CRT runtime and general blank grants remain open.
+- **precision_tape:** #8091 source-local history and stopping obligations are reduced; a universal Lean predicate proof has passed author and root kernels, but machine costs remain a separate written/source argument. Actual ordinary role/repair bytes are the active next audit.
+- **analytic_recovery:** #8093 proves a local sufficient precision for #7849 with independent literal-gate/cache review; it retains the full compiler, phase, native and CRT/recovery hypotheses. It is not a new kappa or an improvement over the differently scheduled #7981. Growing fine-prime/decomposition and full recovery remain open.
+- **Finite prime selection:** the current localization investigation concerns fixed generated matchers only. It must not be reported as solving the outer growing fine-prime assumption.

@@ -46,3 +46,11 @@ The storage worker has exercised a nonidentity direct route and a full 16-by-27 
 Separate workers completed accepting scoped cross-reviews of the compiler/native joint construction and local production precision theorem. Frozen proof and review snapshots are preserved here; their full packages are undergoing publication integration. The compiler construction retains owned_erasure, precision_tape and analytic_recovery, and changes neither selected record nor kappa. The precision theorem is a local numerical guarantee for the #7849 chronology, not an improvement over #7981 or a complete exact multiplier.
 
 Fresh work is active on the production owner census, pure-Lean capped-power predicate correctness and raw-basis prime localization. These newer claims remain unverified. See STATE.json for current assignments and actual local artifacts. Public claim 19825594 was updated with #8091 and these precise scopes; expiry remains 09:20 UTC pending renewal.
+
+## Wave 4 checkpoint: first three contributions submitted
+
+#8091, #8092 and #8093 are actual open PRs created through Cloud Browser. Each final head/base, full description and diff was independently read back through the GitHub connector; exact metadata and descriptions are under submissions/. #8092 has 42 additions and #8093 has 30 additions, with no pre-existing files changed. Their remote trees equal their tested local trees; committed-byte/mode gates passed at the remote heads. Canonical main was rechecked and is unchanged.
+
+The first batch does not end the five-hour research window. Three genuine workers remain active: independent owner-census review, actual byte-census audit, and dyadic matcher localization. The capped-power theorem has now passed separate root Lean compilation with fifteen axiom reports containing only propext, Quot.sound and Classical.choice. It will be a coherent #8091 follow-up, not a separate micro-PR. The source/Python correspondence is inspected and hash/AST checked; no Python semantics or machine-time theorem is implied.
+
+#8092 hosted CI failed in the same unchanged test_current_ci_section_matches_selected_record preflight before research replay; the exact log was inspected. Local registered scientific replay passed. The claim at discussion comment 19825594 now links all three submitted results and the new scopes.
