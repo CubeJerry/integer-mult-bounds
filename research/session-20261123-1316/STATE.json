@@ -13,12 +13,74 @@
   "recovery_branch": "recovery/swarm-20261123-1316",
   "source_reference": "/workspace/scratch/5b0914ccc34e/source",
   "allocation": [
-    {"worker":"compiler_research","wave":1,"track":"50/75","scope":"Streaming dyadic carry evaluation from generated elementary words, with coefficient widths and full local arithmetic charge.","dependency_pr":8092,"dependency_head":"6a3437d1cd94dc4e1792f4052511af6160120bf9","output":"work/compiler","status":"unverified investigation"},
-    {"worker":"storage_research","wave":1,"track":"50/60","scope":"Serialized Plan.decode control at event cuts beyond the completed ordinary data-file bound.","dependency_pr":8091,"dependency_head":"b500f72bbcf9c03a7f7fd40b366eedd6d1dd285b","output":"work/storage","status":"unverified investigation"},
-    {"worker":"precision_research","wave":1,"track":"20/75","scope":"One source-bound native-H/private-grid implementation interface beyond supplied dyadic arithmetic.","dependency_pr":8093,"dependency_head":"8559a122f55614163c037b3c20a21f449a0531f6","output":"work/precision","status":"target refinement"}
+    {
+      "worker": "compiler_research",
+      "wave": 1,
+      "track": "50/75",
+      "scope": "Streaming dyadic carry evaluation from generated elementary words, with coefficient widths and full local arithmetic charge.",
+      "dependency_pr": 8092,
+      "dependency_head": "6a3437d1cd94dc4e1792f4052511af6160120bf9",
+      "output": "work/compiler",
+      "status": "unverified investigation"
+    },
+    {
+      "worker": "storage_research",
+      "wave": 1,
+      "track": "50/60",
+      "scope": "Serialized Plan.decode control at event cuts beyond the completed ordinary data-file bound.",
+      "dependency_pr": 8091,
+      "dependency_head": "b500f72bbcf9c03a7f7fd40b366eedd6d1dd285b",
+      "output": "work/storage",
+      "status": "unverified investigation"
+    },
+    {
+      "worker": "precision_research",
+      "wave": 1,
+      "track": "20/75",
+      "scope": "One source-bound native-H/private-grid implementation interface beyond supplied dyadic arithmetic.",
+      "dependency_pr": 8093,
+      "dependency_head": "8559a122f55614163c037b3c20a21f449a0531f6",
+      "output": "work/precision",
+      "status": "target refinement"
+    },
+    {
+      "worker": "precision_research",
+      "wave": 2,
+      "track": "75",
+      "scope": "Independent producer and scoped one-pass state lower-bound review",
+      "output": "work/review-compiler",
+      "status": "active"
+    }
   ],
-  "verified_findings": [],
+  "verified_findings": [
+    {
+      "kind": "orientation only",
+      "status": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "source_files": 222,
+      "receipt": "baseline.json"
+    },
+    {
+      "kind": "independent finite corroboration; final written review in progress",
+      "scope": "exact raw-H/H0 grid interface",
+      "fields": 360,
+      "phase_entries": 5460,
+      "sharpness_witnesses": 240,
+      "optimized_agrees": true
+    }
+  ],
   "publications": [],
-  "constraints": ["Only about 343 MB disk initially; reuse read-only source and targeted files.","No selected-certificate change, fork-main mutation or upstream merge.","Independent proof review before scientific publication."],
-  "next_action": "Derive first-wave claims and exact evidence, then independent cross-review."
+  "constraints": [
+    "Only about 343 MB disk initially; reuse read-only source and targeted files.",
+    "No selected-certificate change, fork-main mutation or upstream merge.",
+    "Independent proof review before scientific publication."
+  ],
+  "next_action": "Finish and publish precision supplement; independently review compiler and decoder-control results; continue new feasible waves.",
+  "last_refresh_utc": "2026-11-23T13:34:58Z",
+  "review_findings": [
+    {
+      "worker": "precision_research",
+      "status": "author correction supplied, final review pending",
+      "issue": "Terminal normalization requires explicit endpoint divisibility/parity, now added and source-pinned."
+    }
+  ]
 }

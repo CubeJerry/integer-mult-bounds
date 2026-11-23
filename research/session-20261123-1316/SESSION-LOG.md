@@ -5,3 +5,5 @@
 - Wave 1: three distinct source-interface investigations started. New claims are unverified. Last half hour reserved for verification/publication.
 
 This recovery branch is an unfinished checkpoint, not an upstream scientific contribution or an accepted proof. Publication will distinguish existing open PRs receiving coherent follow-ups from newly created PRs.
+
+- 13:34:58 UTC refresh: canonical main and three dependency heads unchanged. First precision package frozen after terminal-normalization correction. Independent root oracle passed; final written review underway. Wave2 adds independent compiler review and a coherent one-pass lower-bound appendix.
