@@ -1,0 +1,1 @@
+Accepted local proof and independent review checkpoint. Full retained-source exports and registered package integration are still being assembled in the active PR8093 branch; SOURCES.json gives exact public reconstruction pins. This snapshot is not a separately submitted research package.

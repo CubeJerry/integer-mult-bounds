@@ -1,1 +1,0 @@
-Original integer-mult-bounds/H25 source and predecessor authors retain credit. New source/proof work used OpenAI ChatGPT Pro and Codex. The independent review is an AI source review; no human, maintainer, proof-kernel or runtime approval is asserted. Historical source and negative findings are preserved.
