@@ -7,3 +7,5 @@
 This recovery branch is an unfinished checkpoint, not an upstream scientific contribution or an accepted proof. Publication will distinguish existing open PRs receiving coherent follow-ups from newly created PRs.
 
 - 13:34:58 UTC refresh: canonical main and three dependency heads unchanged. First precision package frozen after terminal-normalization correction. Independent root oracle passed; final written review underway. Wave2 adds independent compiler review and a coherent one-pass lower-bound appendix.
+
+- 13:48:57 UTC: Published exact native output-grid interface as 26 additive sibling-package files on existing #8093 at 780e96d8c149690df0f06661e2b9f94eb91737fe. Full remote tree equals locally tested tree; earlier package bytes and normalized PR description prefix preserved. Cloud Browser edit verified. Registered and byte/mode gates passed. Compiler independent review now frozen; storage review and sequential-cost appendix active. Wave 3 interface tasks allocated.

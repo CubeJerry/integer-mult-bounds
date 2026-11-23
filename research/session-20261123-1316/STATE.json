@@ -1,6 +1,6 @@
 {
   "schema": "research-swarm-checkpoint/1",
-  "status": "active; new investigations unverified",
+  "status": "active; one reviewed follow-up published; further waves ongoing",
   "started_utc": "2026-11-23T13:16:00Z",
   "new_speculation_cutoff_utc": "2026-11-23T14:46:00Z",
   "session_deadline_utc": "2026-11-23T15:16:00Z",
@@ -21,7 +21,7 @@
       "dependency_pr": 8092,
       "dependency_head": "6a3437d1cd94dc4e1792f4052511af6160120bf9",
       "output": "work/compiler",
-      "status": "unverified investigation"
+      "status": "author and independent review frozen; publication next"
     },
     {
       "worker": "storage_research",
@@ -31,7 +31,7 @@
       "dependency_pr": 8091,
       "dependency_head": "b500f72bbcf9c03a7f7fd40b366eedd6d1dd285b",
       "output": "work/storage",
-      "status": "unverified investigation"
+      "status": "representation author complete; independent review active; wave 2 sequential-time appendix active"
     },
     {
       "worker": "precision_research",
@@ -41,7 +41,7 @@
       "dependency_pr": 8093,
       "dependency_head": "8559a122f55614163c037b3c20a21f449a0531f6",
       "output": "work/precision",
-      "status": "target refinement"
+      "status": "complete and published #8093"
     },
     {
       "worker": "precision_research",
@@ -49,7 +49,39 @@
       "track": "75",
       "scope": "Independent producer and scoped one-pass state lower-bound review",
       "output": "work/review-compiler",
+      "status": "complete; accepted scoped construction"
+    },
+    {
+      "worker": "storage_research",
+      "wave": 2,
+      "track": "50/60",
+      "scope": "Explicit sequential cost for supplied serialized decoder event/control contract; charge all table scans and primitive counters",
+      "output": "work/storage/decoder-control/sequential",
+      "status": "active; unverified"
+    },
+    {
+      "worker": "compiler_research",
+      "wave": 2,
+      "track": "75",
+      "scope": "Independent exact storage codec/source/event review",
+      "output": "work/review-storage",
       "status": "active"
+    },
+    {
+      "worker": "precision_research",
+      "wave": 3,
+      "track": "20/50",
+      "scope": "Caller-bound native arena lifetime/service-admission implication after exact grid theorem",
+      "output": "work/precision",
+      "status": "starting; lemma proposal pending"
+    },
+    {
+      "worker": "compiler_research",
+      "wave": 3,
+      "track": "50",
+      "scope": "Generated producer to payload/owner-return interface; exact missing implication after focused overlap check",
+      "output": "work/compiler",
+      "status": "starting after storage review; lemma proposal pending"
     }
   ],
   "verified_findings": [
@@ -60,26 +92,34 @@
       "receipt": "baseline.json"
     },
     {
-      "kind": "independent finite corroboration; final written review in progress",
-      "scope": "exact raw-H/H0 grid interface",
-      "fields": 360,
-      "phase_entries": 5460,
-      "sharpness_witnesses": 240,
-      "optimized_agrees": true
+      "kind": "independently reviewed conditional theorem, published",
+      "scope": "exact raw-H/H0 output grid Q=P+E+1+h; source-bound terminal normalization; conditional temporary width <=4839p",
+      "proof_sha256": "69ce2e2d57df59cf706960df2495cde5b3556e392acd7bc50a2d06c0800d5a8b",
+      "all_canonical_assumptions_retained": true
     }
   ],
-  "publications": [],
+  "publications": [
+    {
+      "pr": 8093,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/8093",
+      "action": "updated existing open PR via Cloud Browser",
+      "head": "780e96d8c149690df0f06661e2b9f94eb91737fe",
+      "tree": "72218d1b24decb4543a96ecdac1762efaf0b4b2b",
+      "package": "research/direct-native-grid-interface",
+      "verified": "registered replay, independent normal/optimized oracle, corruption controls, 27-file byte/mode gate; remote exact tree and preserved body"
+    }
+  ],
   "constraints": [
     "Only about 343 MB disk initially; reuse read-only source and targeted files.",
     "No selected-certificate change, fork-main mutation or upstream merge.",
     "Independent proof review before scientific publication."
   ],
-  "next_action": "Finish and publish precision supplement; independently review compiler and decoder-control results; continue new feasible waves.",
-  "last_refresh_utc": "2026-11-23T13:34:58Z",
+  "next_action": "Publish reviewed generated-route producer and decoder-control proof when reviews freeze; continue fresh interface investigations before 14:46 UTC.",
+  "last_refresh_utc": "2026-11-23T13:48:57Z",
   "review_findings": [
     {
       "worker": "precision_research",
-      "status": "author correction supplied, final review pending",
+      "status": "accepted after repair and published",
       "issue": "Terminal normalization requires explicit endpoint divisibility/parity, now added and source-pinned."
     }
   ]
