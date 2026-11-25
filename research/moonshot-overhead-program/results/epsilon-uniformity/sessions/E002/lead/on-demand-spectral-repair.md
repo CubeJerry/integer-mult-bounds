@@ -37,7 +37,7 @@ Put s=floor(B/32) and use the s-by-B Vandermonde matrix
 
     H_(i,beta)=alpha_beta^i,       0<=i<s,
 
-on distinct nodes of E. Pairwise independence gives variance 2m/3 and outside-window fraction at most 2/75. For B>=219 this implies |J|<=s. The full check map is H tensor I_v.
+on distinct nodes of E. Pairwise independence gives variance 2m/3 and outside-window fraction at most 2/75. For B>=219 this implies |J|<=s. Take v=32w, where w is the predictor module width, so R=Bv and S=R/32 are integers. The active check map is H tensor I_v, with s*v rows. Append S-s*v zero rows to reach exactly S checks. These are paid internal coordinates, not independent parent inputs. The correction map ignores these added input coordinates and returns zero in its added outputs. Consequently each forward/inverse phase has exactly 2S=R/16 rows, including the padding.
 
 Put ell=|J|, with J in fixed seed order. Let V_J be the first ell rows of H restricted to J. Its determinant is a product of distinct-node differences, so it is invertible. For ell=0 all correction maps are zero, with no inverse computation. Given a=H Xhat and b=H P Xhat, compute
 
@@ -81,3 +81,7 @@ The number of spectral cases need not multiply the execution or space cost of st
 Next establish and combine the actual succinct-factor executor, small-radix batching and numerical branch, keeping each interface and all costs explicit. Finite checks support the identities; the proof, not those checks, establishes the universal statement.
 
 Credit: Jerry Chen (@CubeJerry), the cited OpenAI manuscripts and S002/E001 predecessors, and substantial ChatGPT assistance. No human referee verification, Lean build or full multiplier execution is claimed.
+
+## 5. Finite verification
+
+The exact checker verify_spectral_repair.py passed 2,310 signed truncation identities, 6,930 phase cases and 23,664 full-basis small repair identities over F16. It included 1,020 containing sets with zero gaps. Negative controls detected 2,766 wrong-transpose failures, 2,328 missing-gap-square failures and all 96 chosen gaps outside F4. Full-basis checks certify those finite linear maps for arbitrary field inputs, not the universal family. The JSON receipt records the field and scope. No physical machine or asymptotic theorem was checked by execution.

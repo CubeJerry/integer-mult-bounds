@@ -186,3 +186,20 @@ record is included in the seventh final checkpoint. No upstream PR opened.
 ## E002 resumption — 2026-11-25 21:19:31 UTC
 
 Remote start 0607d044d1d09489580da0e5828588820e1a6775. Reuse E001/S002 results; target their physical proportional-cost bottleneck. New session evidence lives in sessions/E002, preserving E001 files. On-demand F4 repair drafted, independent review pending. No stronger complete bound yet.
+
+## E002 component checkpoint — 2026-11-25 21:52 UTC
+
+The height-priced affine streams, succinct cyclic row executor, compatible
+small radix, on-demand characteristic-two repair and complete local
+interchange invoice have written independent component reviews. The
+separate rational numerical coefficients/precision and direct-selection
+transfer also passed A/C review. Root replayed all five finite component
+checkers in isolated temporary directories; all passed. These are finite
+identities and adverse controls, not a physical full-multiplier test.
+
+An integration review caught and corrected the grouped child space ratio:
+it is at most 2/N_label, not 2/W. The total time invoice is unchanged and
+the corrected ratio still gives uniform geometric parking. The complete
+fixed-family multiplication profile remains under lead audit; no new
+complete bound is admitted at this checkpoint. Route B is protected for
+variable-parameter discovery in the next wave.

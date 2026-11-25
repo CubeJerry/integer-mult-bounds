@@ -140,3 +140,20 @@ Started at 2026-11-25T21:19:05Z from exact remote HEAD `0607d044d1d09489580da0e5
 ## 2026-11-26 E002 — focused resumption, 21:19:31 UTC
 
 Resumed remote head 0607d044d1d09489580da0e5828588820e1a6775. Canonical and OpenAI source pins unchanged. Three real task agents pursue height-priced affine streams, separated-setup selection, and succinct tensor/radix interfaces; lead develops on-demand spectral repair. First drafts are not yet a new complete envelope. Requested deadline is 2026-11-26 00:19:31 UTC. Detailed evidence: results/epsilon-uniformity/sessions/E002/.
+
+## E002 component checkpoint — 2026-11-25 21:52 UTC
+
+The height-priced affine streams, succinct cyclic row executor, compatible
+small radix, on-demand characteristic-two repair and complete local
+interchange invoice have written independent component reviews. The
+separate rational numerical coefficients/precision and direct-selection
+transfer also passed A/C review. Root replayed all five finite component
+checkers in isolated temporary directories; all passed. These are finite
+identities and adverse controls, not a physical full-multiplier test.
+
+An integration review caught and corrected the grouped child space ratio:
+it is at most 2/N_label, not 2/W. The total time invoice is unchanged and
+the corrected ratio still gives uniform geometric parking. The complete
+fixed-family multiplication profile remains under lead audit; no new
+complete bound is admitted at this checkpoint. Route B is protected for
+variable-parameter discovery in the next wave.

@@ -1,0 +1,37 @@
+{
+  "status": "PASS_EXACT_FINITE_HS_IDENTITIES",
+  "counts": {
+    "integer_forward": 8562,
+    "integer_inverse": 8562,
+    "signed": 8562,
+    "rational": 4996,
+    "transpose": 312,
+    "run_identity": 527486,
+    "wrong_sign_rejected": 7989,
+    "ragged_padding_rejected": 8177
+  },
+  "source_pin": "3344da59991ed94f9ba711217b29c1d760badfa6",
+  "negative_witnesses": [
+    {
+      "Q": 4,
+      "coefficient": 3,
+      "error": "wrong residue sign"
+    },
+    {
+      "Q": 4,
+      "coefficient": 7,
+      "error": "wrong residue sign"
+    },
+    {
+      "Q": 4,
+      "coefficient": 11,
+      "error": "wrong residue sign"
+    },
+    {
+      "Q": 5,
+      "coefficient": 3,
+      "error": "wrong residue sign"
+    }
+  ],
+  "scope": "Finite exact arithmetic/permutation checks only, not physical tape execution or an asymptotic proof."
+}
