@@ -1,0 +1,34 @@
+{
+  "schema": "moonshot-overhead-program-state-v1",
+  "branch": "research/moonshot-overhead-program",
+  "status": "initialized_partial_research_checkpoint",
+  "session_date_local": "2026-11-26",
+  "requested_duration_seconds": 10800,
+  "elapsed_seconds_claim": null,
+  "source_pins": {
+    "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
+    "openai_math_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
+    "prompt_blob": "b5762a4dacb999703e83621301a455fbb12755f7",
+    "historical_state_blob": "411eb5aba139d47ff3d705cb7da51a4d42660d64"
+  },
+  "best_unconditional": "n L^(1/2+o(1)) (OpenAI November 24, 2026)",
+  "new_complete_overhead_bound": null,
+  "conditional_complete_overhead_bound": null,
+  "kappa_ov": null,
+  "route_gaps": {
+    "A": "uniform explicit A_j, N_j, i_j from paper and end-to-end implementation",
+    "B": "exact repair with subdominant total tape movement and legal linear space",
+    "C": "precise scope and proof of candidate-family lower bound"
+  },
+  "source_audit": "partial; see SOURCE-AUDIT.md",
+  "publication": {
+    "program_branch": "created",
+    "upstream_pr": "not opened"
+  },
+  "next_actions": [
+    "read all primary manuscript proof chapters and quantitative inequalities",
+    "bound candidate constants and thresholds uniformly",
+    "stress-test independently designed constant-error repair route",
+    "assemble audited full recurrence"
+  ]
+}
