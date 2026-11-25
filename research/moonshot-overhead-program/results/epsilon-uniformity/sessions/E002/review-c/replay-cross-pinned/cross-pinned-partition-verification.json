@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "scope": "finite exact partition, incidence and Gram-side checks; not a physical runtime proof",
+  "cases": [
+    {
+      "d": 2,
+      "q": 2,
+      "words": 8,
+      "rectangles": 24,
+      "edges": 24,
+      "regular_incidence": 3,
+      "old_incidence": 3,
+      "within_side_pair_checks": 0,
+      "omission_and_unpin_controls": 2,
+      "wrong_old_incidence_control": 0
+    },
+    {
+      "d": 2,
+      "q": 4,
+      "words": 64,
+      "rectangles": 192,
+      "edges": 1728,
+      "regular_incidence": 9,
+      "old_incidence": 18,
+      "within_side_pair_checks": 1152,
+      "omission_and_unpin_controls": 2,
+      "wrong_old_incidence_control": 1
+    },
+    {
+      "d": 2,
+      "q": 8,
+      "words": 512,
+      "rectangles": 1536,
+      "edges": 75264,
+      "regular_incidence": 21,
+      "old_incidence": 63,
+      "within_side_pair_checks": 64512,
+      "omission_and_unpin_controls": 2,
+      "wrong_old_incidence_control": 1
+    },
+    {
+      "d": 3,
+      "q": 2,
+      "words": 32,
+      "rectangles": 320,
+      "edges": 320,
+      "regular_incidence": 10,
+      "old_incidence": 10,
+      "within_side_pair_checks": 0,
+      "omission_and_unpin_controls": 2,
+      "wrong_old_incidence_control": 0
+    },
+    {
+      "d": 3,
+      "q": 4,
+      "words": 1024,
+      "rectangles": 15360,
+      "edges": 276480,
+      "regular_incidence": 60,
+      "old_incidence": 120,
+      "within_side_pair_checks": 215040,
+      "omission_and_unpin_controls": 2,
+      "wrong_old_incidence_control": 1
+    },
+    {
+      "d": 4,
+      "q": 2,
+      "words": 128,
+      "rectangles": 4480,
+      "edges": 4480,
+      "regular_incidence": 35,
+      "old_incidence": 35,
+      "within_side_pair_checks": 0,
+      "omission_and_unpin_controls": 2,
+      "wrong_old_incidence_control": 0
+    }
+  ],
+  "total_rectangles": 21912,
+  "total_partitioned_edges": 358296,
+  "total_words": 1768,
+  "within_side_pair_checks": 280704,
+  "outer_formula_cases": 16,
+  "negative_controls": 15
+}

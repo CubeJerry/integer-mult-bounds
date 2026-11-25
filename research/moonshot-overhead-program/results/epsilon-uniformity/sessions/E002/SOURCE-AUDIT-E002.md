@@ -128,3 +128,28 @@ priority or full transitive formal-audit claim. S003 checkpoint c65aac11
 and E003 df91e4c8 were subsequently fast-forwarded. E003's optional
 full-rate packing and other component proposals are not implicit premises
 of E002 Theorem V.
+
+## Final-hour source and literature refresh
+
+At 23:44 UTC the actual OpenAI main and CrocSwap main refs were checked
+again and remained 3344da59991ed94f9ba711217b29c1d760badfa6 and
+e54523517d0f03e58352e647c403a5af3e525a57. At 23:47 UTC both prompt
+contents were fetched and their Git blob hashes recomputed from returned
+bytes: focused ce6fe4edbf039aa964a08aaec216a1cc60dbfe2a and parent
+b5762a4dacb999703e83621301a455fbb12755f7, both unchanged.
+
+A further two-engine primary-source search checked local biclique covers,
+exact partitions and tensor rank distinctions. The precise read scope and
+standard prior methods are recorded in COVER-PARTITION-LITERATURE.md.
+The new overlap-cover/rank comparison is source-specific; general
+cover/partition separation is not claimed as a new discovery. No new
+physical primitive is imported from that literature.
+
+Concurrent S004 checkpoint af5d7983 supplies a separately reviewed JR-only
+conditional log-free two-thirds transfer through E002's existing suppliers.
+Its summary, dependency status and conflict additions were read and
+preserved. A fresh complete E002 review of all S004 proofs is not claimed.
+Its open exact-partition condition is distinct from E002's two open
+rectangle-volume delivery contracts. Neither changes the unconditional V/AQ
+scale. Checkpoint a8dd6c249eecfa26028a7d67b895c5d7cd3f1d83 was verified on
+the actual remote and preserves all prior concurrent commits.

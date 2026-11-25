@@ -1,0 +1,141 @@
+{
+  "status": "PASS_EXACT_COVER_AND_RANK_CHECKS",
+  "executed_utc": "2026-11-25T23:40:38.090839+00:00",
+  "checker_sha256": "12b6231c5f51ad953a2d430605ae6434bb594eaeb252d86705bb9ebdc3f24f21",
+  "note_sha256": "7229b37ee2e7b5aace2346f89ee97e49d6b99d64e1ab21fd20f7e506f9929b38",
+  "cases": [
+    {
+      "q": 2,
+      "r": 0,
+      "words": 1,
+      "unequal_pairs": 1,
+      "cut_tuples": 1,
+      "proved_cut_bound": 1,
+      "nonempty_rectangles": 1,
+      "max_source_incidence": 1,
+      "target_rank": 1,
+      "rectangle_matrix_span_rank": 1,
+      "scalar_weighted_identity_solvable_F2": true,
+      "unit_weight_identity_correct": true
+    },
+    {
+      "q": 2,
+      "r": 1,
+      "words": 2,
+      "unequal_pairs": 2,
+      "cut_tuples": 1,
+      "proved_cut_bound": 6,
+      "nonempty_rectangles": 2,
+      "max_source_incidence": 1,
+      "target_rank": 2,
+      "rectangle_matrix_span_rank": 2,
+      "scalar_weighted_identity_solvable_F2": true,
+      "unit_weight_identity_correct": true
+    },
+    {
+      "q": 2,
+      "r": 2,
+      "words": 4,
+      "unequal_pairs": 4,
+      "cut_tuples": 1,
+      "proved_cut_bound": 20,
+      "nonempty_rectangles": 4,
+      "max_source_incidence": 1,
+      "target_rank": 4,
+      "rectangle_matrix_span_rank": 4,
+      "scalar_weighted_identity_solvable_F2": true,
+      "unit_weight_identity_correct": true
+    },
+    {
+      "q": 2,
+      "r": 3,
+      "words": 8,
+      "unequal_pairs": 8,
+      "cut_tuples": 1,
+      "proved_cut_bound": 56,
+      "nonempty_rectangles": 8,
+      "max_source_incidence": 1,
+      "target_rank": 8,
+      "rectangle_matrix_span_rank": 8,
+      "scalar_weighted_identity_solvable_F2": true,
+      "unit_weight_identity_correct": true
+    },
+    {
+      "q": 4,
+      "r": 1,
+      "words": 4,
+      "unequal_pairs": 12,
+      "cut_tuples": 2,
+      "proved_cut_bound": 10,
+      "nonempty_rectangles": 4,
+      "max_source_incidence": 2,
+      "target_rank": 4,
+      "rectangle_matrix_span_rank": 4,
+      "scalar_weighted_identity_solvable_F2": false,
+      "unit_weight_identity_correct": false
+    },
+    {
+      "q": 4,
+      "r": 2,
+      "words": 16,
+      "unequal_pairs": 144,
+      "cut_tuples": 3,
+      "proved_cut_bound": 36,
+      "nonempty_rectangles": 12,
+      "max_source_incidence": 3,
+      "target_rank": 16,
+      "rectangle_matrix_span_rank": 12,
+      "scalar_weighted_identity_solvable_F2": false,
+      "unit_weight_identity_correct": false
+    },
+    {
+      "q": 8,
+      "r": 1,
+      "words": 8,
+      "unequal_pairs": 56,
+      "cut_tuples": 3,
+      "proved_cut_bound": 14,
+      "nonempty_rectangles": 6,
+      "max_source_incidence": 3,
+      "target_rank": 8,
+      "rectangle_matrix_span_rank": 6,
+      "scalar_weighted_identity_solvable_F2": false,
+      "unit_weight_identity_correct": false
+    }
+  ],
+  "balanced_parameter_rank_obstructions": [
+    {
+      "d": 4,
+      "t": 32,
+      "log2_m": 482,
+      "rectangle_ratio_below_rank_floor": true,
+      "ratio_numerator_bits": 54,
+      "ratio_denominator_bits": 241
+    },
+    {
+      "d": 8,
+      "t": 64,
+      "log2_m": 3970,
+      "rectangle_ratio_below_rank_floor": true,
+      "ratio_numerator_bits": 191,
+      "ratio_denominator_bits": 2977
+    },
+    {
+      "d": 16,
+      "t": 128,
+      "log2_m": 32258,
+      "rectangle_ratio_below_rank_floor": true,
+      "ratio_numerator_bits": 668,
+      "ratio_denominator_bits": 28225
+    },
+    {
+      "d": 32,
+      "t": 256,
+      "log2_m": 260098,
+      "rectangle_ratio_below_rank_floor": true,
+      "ratio_numerator_bits": 2415,
+      "ratio_denominator_bits": 243841
+    }
+  ],
+  "scope": "Exact finite greedy coverage, independent matrix span/rank checks and integer inequalities; no physical pencil, asymptotic runtime or full multiplier execution."
+}

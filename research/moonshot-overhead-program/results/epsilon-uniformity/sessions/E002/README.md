@@ -45,3 +45,12 @@ execution, formal refinement, human refereeing or priority is claimed.
 - [Independent conditional review A](review-a/REVIEW-RECTANGLE-VOLUME-CONDITIONAL.md) and [review C](review-c/REVIEW-RECTANGLE-VOLUME-CONDITIONAL.md).
 
 Concurrent S003 independently admits the same unconditional V scale using its distinct absolute-space construction. Its checkpoint2fde2b0c and subsequent E003 checkpoint3b220847 are preserved; their own proofs and review scopes govern those results.
+
+## Final-phase additions
+
+- [Cross-pinned partition and positive Weyl-star batching admissions](lead/LATE-ADMISSIONS.md), with exact review bindings and limits.
+- [Optimal-order covering construction and its scalar rank defect](lead/overlapping-cover-rank-gap.md), [admission](lead/ADMISSION-CG.md), and [independent review](review-a/REVIEW-OVERLAPPING-COVER-RANK.md).
+- [Focused cover/partition prior-art check](COVER-PARTITION-LITERATURE.md).
+
+These additions do not change the unconditional V envelope or establish the
+open RV-I/RV-W physical delivery contracts.
