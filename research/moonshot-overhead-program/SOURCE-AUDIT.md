@@ -117,3 +117,7 @@ current fixed-field result remains the stronger explicit programme envelope.
 ## E001 closing integration — 16:23 UTC
 
 E001 root read S002 B1-B11, Q1-Q13, its lead gate and IP4 bridge. E001 C separately audited the finite constructor and A separately audited both-branch physical composition at848fbf1, with exact blob receipts. Root read both audits. The final28a7435 theorem diff is a scope wording correction; optional prime-carry and structured-check additions are preserved without a fresh E001 proof audit. Source branch heads remained unchanged16:20:39 UTC; focused and parent prompt blobs were verified unchanged16:15:45 UTC.
+
+## S003 resumption and critical-chain audit
+
+Remote canonical main, OpenAI main and prompt pins remain as recorded at resumption. Lead reread the complete source interchange, selected Walsh and first single-machine section, plus S002 Q1-Q13, count/label formulas, physical compiler, cyclic and structured-shift interfaces, and current S003 proofs. Root guidance, selected record and relevant family/priority sections were read. Public Discussion1163 start-here guidance and newest1166/1167 pages were retrieved; full comment coverage is not claimed. The newest50 open-PR metadata were inspected; #8102 now has head `a739963c682d47b07e949861da58d2a1bcdbc4c6`. A limited current search found no applicable stronger explicit envelope; this is not a novelty certification. Historical, companion and full formal-dependency reading remains staged.

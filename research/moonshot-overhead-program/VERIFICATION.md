@@ -108,3 +108,7 @@ Root's isolated replay passed84 predictor cases,152 complete cyclic products and
 E001's separate finite-count and physical-composition audits are route-c/S002-COUNT-FORMULA-REVIEW.md and route-a/S002-FIXED-FIELD-REVIEW.md inside results/epsilon-uniformity/. Root read both in full. B independently compared the two recipe barriers. The local final integrity pass parsed all12 JSON receipts and10 Python scripts and found no broken local Markdown links. No additional numerical replay, full machine execution or formal proof is claimed.
 
 E001 final record: all scoped review gates are closed; optional observations retain their explicit status. Completion is after the actual requested endpoint. No full-machine run, formal refinement or human referee review is claimed.
+
+## S003 first-wave verification
+
+Lead read complete Theorem N, the independent symmetric proof, succinct scalar-factor proof and C reviews; checked the exact Gram/rank/rectangle/invoice argument. Isolated byte-bound replays are in `sessions/2026-11-26-S003/lead/replays/`, with `manifest.json`. All three copied checkers passed; the lead packed-batch checker also passed. Exact counts and claim scopes appear in `lead/first-wave-review.md`. These are written proof audits plus finite exact tests, not a formal kernel build, physical tape implementation or human review.

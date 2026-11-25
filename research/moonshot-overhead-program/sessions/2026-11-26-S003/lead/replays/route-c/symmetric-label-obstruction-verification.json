@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "arithmetic": "exact integers and binary matrices",
+  "source_sha256": "5922df999274455131b9cc9d706aed710047e341dcdf67d75aaa9cb3ce721421",
+  "counts": {
+    "inner_matrix_entries": 20544,
+    "outer_matrix_entries": 262144,
+    "selector_coefficient_cases": 126,
+    "exact_rank_cases": [
+      {
+        "q": 2,
+        "d": 2,
+        "dimension": 8,
+        "rank": 2
+      },
+      {
+        "q": 2,
+        "d": 2,
+        "dimension": 512,
+        "rank": 64,
+        "outer": true
+      },
+      {
+        "q": 4,
+        "d": 2,
+        "dimension": 64,
+        "rank": 8
+      },
+      {
+        "q": 2,
+        "d": 4,
+        "dimension": 128,
+        "rank": 16
+      }
+    ],
+    "rectangle_cases": [
+      {
+        "q": 2,
+        "d": 2,
+        "rectangles": 24,
+        "incidence_per_side": 3,
+        "directed_edges": 24
+      },
+      {
+        "q": 4,
+        "d": 2,
+        "rectangles": 864,
+        "incidence_per_side": 18,
+        "directed_edges": 1728
+      }
+    ],
+    "integer_invoice_majorant_cases": 320,
+    "negative_controls_rejected": 3
+  },
+  "scope": "Finite selector, rank-witness, literal rectangle and invoice checks. Does not prove the unbounded analytic theorem or execute physical tape routing."
+}

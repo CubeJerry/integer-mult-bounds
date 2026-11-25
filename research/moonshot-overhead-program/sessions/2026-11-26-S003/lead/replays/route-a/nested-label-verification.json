@@ -1,0 +1,279 @@
+{
+  "scope": "Finite exact support, actual-rank, Gram, incidence and integer-invoice checks; no full multiplier or formal proof.",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "source_openai_math": "3344da59991ed94f9ba711217b29c1d760badfa6",
+  "programme_start": "0607d044d1d09489580da0e5828588820e1a6775",
+  "selector_cases": 508,
+  "actual_matrix_cases": [
+    {
+      "q": 2,
+      "distances": [
+        2
+      ],
+      "size": 8,
+      "rank": 2
+    },
+    {
+      "q": 4,
+      "distances": [
+        2
+      ],
+      "size": 64,
+      "rank": 8
+    },
+    {
+      "q": 2,
+      "distances": [
+        4
+      ],
+      "size": 128,
+      "rank": 16
+    },
+    {
+      "q": 2,
+      "distances": [
+        2,
+        2
+      ],
+      "size": 512,
+      "rank": 64
+    }
+  ],
+  "arbitrary_square_zero_cases": [
+    {
+      "n": 2,
+      "rank": 1,
+      "tensor_rank": 2,
+      "lower": 1
+    },
+    {
+      "n": 3,
+      "rank": 1,
+      "tensor_rank": 5,
+      "lower": 2
+    },
+    {
+      "n": 4,
+      "rank": 1,
+      "tensor_rank": 8,
+      "lower": 3
+    },
+    {
+      "n": 4,
+      "rank": 2,
+      "tensor_rank": 16,
+      "lower": 8
+    },
+    {
+      "n": 5,
+      "rank": 1,
+      "tensor_rank": 11,
+      "lower": 4
+    },
+    {
+      "n": 5,
+      "rank": 2,
+      "tensor_rank": 28,
+      "lower": 12
+    },
+    {
+      "n": 6,
+      "rank": 1,
+      "tensor_rank": 14,
+      "lower": 5
+    },
+    {
+      "n": 6,
+      "rank": 2,
+      "tensor_rank": 40,
+      "lower": 16
+    },
+    {
+      "n": 6,
+      "rank": 3,
+      "tensor_rank": 54,
+      "lower": 27
+    }
+  ],
+  "gram_cases": [
+    {
+      "name": "base_two",
+      "size": 16,
+      "expected_rank": 5,
+      "ranks": {
+        "101": 5,
+        "103": 5
+      }
+    },
+    {
+      "name": "base_four",
+      "size": 128,
+      "expected_rank": 11,
+      "ranks": {
+        "101": 11,
+        "103": 11
+      }
+    },
+    {
+      "name": "actual_two_level",
+      "size": 1024,
+      "expected_rank": 23,
+      "ranks": {
+        "101": 23,
+        "103": 23
+      }
+    }
+  ],
+  "rectangle_cases": [
+    {
+      "q": 2,
+      "d": 2,
+      "rectangles": 24,
+      "pairs": 24,
+      "exact_incidence": 3
+    },
+    {
+      "q": 4,
+      "d": 2,
+      "rectangles": 864,
+      "pairs": 1728,
+      "exact_incidence": 18
+    },
+    {
+      "q": 2,
+      "d": 4,
+      "rectangles": 4480,
+      "pairs": 4480,
+      "exact_incidence": 35
+    }
+  ],
+  "uniform_depth_telescoping_cases": 1089,
+  "positive_integer_invoice_cases": [
+    {
+      "J": 64,
+      "depth": 2,
+      "distances": [
+        1024,
+        1024
+      ],
+      "t": 4096,
+      "log2_m": 4292870146,
+      "upper_log_invoice": 27242504
+    },
+    {
+      "J": 64,
+      "depth": 3,
+      "distances": [
+        1024,
+        2,
+        2048
+      ],
+      "t": 4096,
+      "log2_m": 17171480578,
+      "upper_log_invoice": 100585480
+    },
+    {
+      "J": 64,
+      "depth": 4,
+      "distances": [
+        1024,
+        2,
+        2,
+        4096
+      ],
+      "t": 4096,
+      "log2_m": 68685922306,
+      "upper_log_invoice": 377188361
+    },
+    {
+      "J": 128,
+      "depth": 2,
+      "distances": [
+        2048,
+        2048
+      ],
+      "t": 16384,
+      "log2_m": 68711088130,
+      "upper_log_invoice": 167716872
+    },
+    {
+      "J": 128,
+      "depth": 3,
+      "distances": [
+        2048,
+        2,
+        4096
+      ],
+      "t": 16384,
+      "log2_m": 274844352514,
+      "upper_log_invoice": 603774985
+    },
+    {
+      "J": 128,
+      "depth": 4,
+      "distances": [
+        2048,
+        2,
+        2,
+        8192
+      ],
+      "t": 16384,
+      "log2_m": 1099377410050,
+      "upper_log_invoice": 2213822473
+    },
+    {
+      "J": 256,
+      "depth": 2,
+      "distances": [
+        4096,
+        4096
+      ],
+      "t": 65536,
+      "log2_m": 1099478073346,
+      "upper_log_invoice": 1107144713
+    },
+    {
+      "J": 256,
+      "depth": 3,
+      "distances": [
+        4096,
+        2,
+        8192
+      ],
+      "t": 65536,
+      "log2_m": 4397912293378,
+      "upper_log_invoice": 3891773449
+    },
+    {
+      "J": 256,
+      "depth": 4,
+      "distances": [
+        4096,
+        2,
+        2,
+        16384
+      ],
+      "t": 65536,
+      "log2_m": 17591649173506,
+      "upper_log_invoice": 13956677642
+    }
+  ],
+  "negative_controls": {
+    "non_power_two_distance_selector": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "omitting_rank_term": {
+      "J": 64,
+      "log2_m": 640,
+      "D": 23,
+      "incidence": 27,
+      "actual_rank_fraction": "1/8"
+    }
+  },
+  "passed": true
+}

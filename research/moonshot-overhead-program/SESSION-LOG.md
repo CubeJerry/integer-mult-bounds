@@ -137,9 +137,17 @@ record is included in the seventh final checkpoint. No upstream PR opened.
 
 Started at 2026-11-25T21:19:05Z from exact remote HEAD `0607d044d1d09489580da0e5828588820e1a6775`; requested duration 10800 seconds. Canonical `e54523517d0f03e58352e647c403a5af3e525a57`, OpenAI `3344da59991ed94f9ba711217b29c1d760badfa6` and prompt blob `b5762a4dacb999703e83621301a455fbb12755f7` were read from their remotes and remain unchanged. Three genuine workers began geometry quantification, protected compact-executor discovery, and adversarial proof/bridge research. The lead recovered prior claims and scoped source coverage. The previous best written envelope is retained as the starting claim under audit; no S003 complete overhead advance is asserted at resumption. See `sessions/2026-11-26-S003/README.md`.
 
+### S003 first mathematical checkpoint
+
+Accepted the exact arbitrary-depth asymmetric literal-invoice obstruction (Theorem N), its independent symmetric corroboration, and the succinct scalar-factor executor after lead/C proof review and isolated exact replays. The lead packed-batch component was reviewed by A; setup absorption was made explicit. The prior complete H(n) is unchanged. Parameter-only geometry search is closed in its stated scope; active work pivots to actual compact endpoint routing, spectral repair and numerical Walsh. See `sessions/2026-11-26-S003/lead/first-wave-review.md`. Last confirmed remote checkpoint before this update: `97624303563d83467eebbf6872d85e39edc0d9ec`.
+
 ## 2026-11-26 E002 — focused resumption, 21:19:31 UTC
 
 Resumed remote head 0607d044d1d09489580da0e5828588820e1a6775. Canonical and OpenAI source pins unchanged. Three real task agents pursue height-priced affine streams, separated-setup selection, and succinct tensor/radix interfaces; lead develops on-demand spectral repair. First drafts are not yet a new complete envelope. Requested deadline is 2026-11-26 00:19:31 UTC. Detailed evidence: results/epsilon-uniformity/sessions/E002/.
+
+### S003 concurrent checkpoint reconciliation
+
+Before publishing the first mathematical checkpoint, remote E002 commit `f3ed00d87df18bdee984e8e7e75f16ea8774ff75` was read and preserved. Its four focused files are byte-identical; both session records and appended log sections are retained. The S003 checkpoint descends from that remote head. No branch history is rewritten.
 
 ## E002 component checkpoint — 2026-11-25 21:52 UTC
 
@@ -157,3 +165,5 @@ the corrected ratio still gives uniform geometric parking. The complete
 fixed-family multiplication profile remains under lead audit; no new
 complete bound is admitted at this checkpoint. Route B is protected for
 variable-parameter discovery in the next wave.
+
+S003 publication also preserves concurrent E002 second checkpoint `9d5abf18ff741ff6f8b9f82790e0475fc662b4fe`, including its 42 focused files. Their physical components remain separately scoped pending S003 audit.

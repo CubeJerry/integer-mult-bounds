@@ -132,3 +132,11 @@ EU-RECIPE is closed as a restricted theorem: the literal unreduced syntactically
 ## E001 closing integration — 16:23 UTC
 
 E001 independently closed the finite IP4 audit and fixed-field physical-composition review. The strongest shared bound remains S002 Theorem Q. E001 dyadic MR, all-odd-characteristic IP, endpoint preflight families and exact H=O(1) remain open. The restricted multilinear barriers do not apply to the characteristic-two nonmultilinear count formulas.
+
+## S003 new obligations and closed scoped questions
+
+- **Proved scoped:** exact nested/asymmetric literal label invoice cannot lower the cubic-logarithmic arity scale; Theorem N, S003 route A, independently checked by C/lead.
+- **Proved enabling:** polynomial-description execution of each scalar coefficient slice of a full-rate cyclic factor; S003 route B, reviewed by C/lead. Spatial query composition is separate.
+- **Proved conditional component:** packed batches can use several leading digits instead of radix b>W under explicit compact/grouped calls and setup guards; S003 lead note, reviewed by A.
+- **Open physical gates:** small-numeric-coefficient endpoint maps; packed shared-pencil group volumes; on-demand spectral repair; compact numerical Walsh coefficient/norm bill; assembled common-cap profile.
+- **Unchanged:** previous full overhead theorem and endpoint status. No arithmetic-model or local result is silently promoted to a tape bound.
