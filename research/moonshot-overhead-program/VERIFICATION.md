@@ -147,3 +147,7 @@ reviews and receipts for commands and scope. No new Lean build occurred.
 ## S004 first-wave independent evidence
 
 Lead reviewed A's final radix wrapper and C's correction/review, B's spectral and sparse-residual proofs, C's spectral/sparse reviews and A's physical sparse review. Lead separately accepted B4's dense-output argument in its stated model. Isolated exact replays passed: 65,008 wrapper profiles and 1,790 finite permutations; 1,089 named-bit layouts; 18,372 spectral rank evaluations with the listed filtration/CRT checks; and 33 full sparse recoveries plus 3,618 signed folds and 465 long reciprocal reductions. A independently reviewed the full compact JR transfer; the lead rechecked the generator-time/workspace distinction and geometry. Hashes and results: `sessions/2026-11-26-S004/lead/replays/`. No full multiplier, tape implementation, formal refinement or human review is claimed.
+
+## E002 variable-profile admission — 22:42 UTC
+
+A/C independently accepted the whole V1--V20 composition and root theorem ccad2873bfa36755382495a24c488d1cdfd622f562fb1c8b3cd7712b6a4b9cb4; status-only edits are identified in ADMISSION-V.md. Final local transfer 243849c3349a2ae9e48e5d48e259f510dc63283e24e3d7a4c45a0836615a7d19 includes the external-only global-cache amendment. Root replayed 108 grouped layouts/56,889 vector repairs/108 wrong-order controls. Exact receipts and imported hashes are retained. These support finite identities; there is no executed full multiplier, Lean refinement or human review.

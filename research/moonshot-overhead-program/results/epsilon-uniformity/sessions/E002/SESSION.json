@@ -20,16 +20,23 @@
     "lead": "On-demand spectral repair, source audit, integration and global theorem"
   },
   "new_complete_overhead_bound": {
-    "formula": "T(n)=O(n sqrt(L) 2^{O(x^(3/4)(log2(x+2))^(1/4))})",
+    "formula": "T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log2(x+2))^(1/3))})",
     "L": "1+log2 n",
     "x": "log2 L",
     "status": "Accepted written unconditional algorithm/profile construction",
     "space": "One fixed O(n) bound on cells ever visited",
-    "proof": "lead/polynomial-profile-theorem.md",
-    "admission": "lead/ADMISSION-P.md",
-    "scope": "No endpoint or polynomial-x claim; every fixed beta>3/4 follows. No human refereeing, full execution or formal refinement."
+    "proof": "lead/variable-profile-theorem.md",
+    "admission": "lead/ADMISSION-V.md",
+    "parameters": "PARAMETERS-V.md",
+    "scope": "Every fixed beta>2/3; logarithmic factor retained. No endpoint, polynomial-x, formal refinement, full execution, human refereeing or priority claim.",
+    "independent_composition_reviews": [
+      "results/epsilon-uniformity/sessions/E002/route-a/REVIEW-GLOBAL-VARIABLE-ARITY.md",
+      "results/epsilon-uniformity/sessions/E002/route-c/review-variable-arity-global.md",
+      "results/epsilon-uniformity/sessions/E002/route-c/review-variable-profile-theorem.md"
+    ],
+    "threshold": "Absolute eventual; constants and cutoff not numerically evaluated"
   },
-  "current_status": "Theorem P admitted after A/C independent global reviews and lead audit; protected variable-parameter route active.",
+  "current_status": "Theorem V admitted after A/C independent global and root-wrapper reviews; protected endpoint/geometry discovery continues.",
   "publication": "regular fast-forward checkpoints; no upstream PR",
   "verification_limits": [
     "No full multiplier execution",
@@ -48,8 +55,20 @@
   ],
   "verified_checkpoints": [
     "f3ed00d87df18bdee984e8e7e75f16ea8774ff75",
-    "9d5abf18ff741ff6f8b9f82790e0475fc662b4fe"
+    "9d5abf18ff741ff6f8b9f82790e0475fc662b4fe",
+    "9e84956f071e7cc845935a55a5c717db08be6ea0"
   ],
-  "component_verification": "Five isolated lead replays passed, with adverse controls; independent A/B/C written component reviews. No full multiplier or formal build.",
-  "concurrent_preserved_head": "a2d9c4b00c02dadf7bdc970acf9190dfabf9ec32"
+  "component_verification": "Earlier five isolated lead component replays plus independent composite-radix checks and isolated grouped-role replay:108 layouts,56889 repairs,108 wrong-order controls. Written full source/composition reviews; no complete multiplier execution.",
+  "concurrent_preserved_head": "df91e4c8",
+  "previous_complete_overhead_bound": {
+    "formula": "T(n)=O(n sqrt(L) 2^{O(x^(3/4)(log2(x+2))^(1/4))})",
+    "L": "1+log2 n",
+    "x": "log2 L",
+    "status": "Accepted written unconditional algorithm/profile construction",
+    "space": "One fixed O(n) bound on cells ever visited",
+    "proof": "lead/polynomial-profile-theorem.md",
+    "admission": "lead/ADMISSION-P.md",
+    "scope": "No endpoint or polynomial-x claim; every fixed beta>3/4 follows. No human refereeing, full execution or formal refinement."
+  },
+  "latest_admission_utc": "2026-11-25T22:42:21Z"
 }

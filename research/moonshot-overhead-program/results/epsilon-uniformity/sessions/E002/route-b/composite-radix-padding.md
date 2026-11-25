@@ -1,7 +1,10 @@
 # Input-dependent composite radix with charged height and tiny padding
 
-Status: **proved arithmetic/source-specialization component, awaiting
-independent review**. This strengthens the earlier E001 input-dependent
+Status: **proved arithmetic/source-specialization component, independently
+reviewed by Routes A and C**. Their reviews are
+`../route-a/REVIEW-COMPOSITE-RADIX.md` and
+`../route-c/review-composite-and-outer-transfer.md`. This strengthens
+the earlier E001 input-dependent
 radix preparation by removing prime search and its analytic prime-gap
 premise. It does not by itself establish a variable-arity tape algorithm.
 
@@ -75,8 +78,8 @@ than W. It has bit length at most 2H+2. Moreover
 \]
 
 Thus two-field padding followed by the source's leading batch padding
-has volume inflation at most `1+1/(u+1)` after increasing a harmless
-absolute constant at the smallest admissible width. All quantities are
+has volume inflation at most `1+1/(u+1)` for every admissible width.
+All quantities are
 computed by finite integer arithmetic; no prime theorem or prime search
 is used.
 
@@ -162,6 +165,19 @@ Open next questions: verify the complete unit list in the actual endpoint
 plans; audit the integer selection against tiny/boundary cases; compose
 the variable-radix child interface and determine whether its remaining
 padding/space losses fit the desired recurrence.
+
+## 5. Independent finite check
+
+Route A's exact checker was replayed in this directory as
+`verify_composite_radix_replay.py`. It passed 894 radix selections and
+combined-padding inequalities, rejected all 894 immediately preceding
+congruence candidates, specialized 16 rational inverse identities at
+explicit composite moduli, and checked 1,728 short-digit moves and
+their inverses. Of the selected radices, 260 had a detected small
+proper divisor, so those cases do not merely retest prime moduli.
+The receipt is `composite-radix-verification.json`. The copied checker
+is the author's implementation, not an independently coded tape machine.
+These finite checks do not prove the asymptotic physical cost.
 
 Credits: @CubeJerry; the pinned OpenAI address construction; E001's prior
 input-dependent-radix idea and proof; E002's height-priced affine streams;

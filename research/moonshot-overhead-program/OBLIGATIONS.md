@@ -186,3 +186,7 @@ Proofs, reviews and status are in results/epsilon-uniformity/sessions/E003/.
 - **Inverse-query model:** active-volume commutator obstruction is under independent review; it is not a general time lower bound.
 
 Evidence and portfolio decisions: `sessions/2026-11-26-S004/lead/FIRST-WAVE-ADMISSION.md`.
+
+## E002 variable-profile admission — 22:42 UTC
+
+Theorem V's composite radix, common field, refined workspace, changing-arity exact recurrence, slower numerical recurrence, absolute precision, source outer substitution and actual common-cap gates are closed at the written-proof level. The remaining endpoint task is to reduce actual local geometry/delivery and numerical costs. The literal certificate's scoped 2/3 obstruction does not lower-bound runtime. Optional later optimizations are not premises of V.

@@ -111,3 +111,20 @@ E002 audit of every new S003 theorem is not claimed by this note.
 The current claimed advance is a stronger explicit programme envelope,
 not a demonstrated improvement over any unspecified published o(1), not
 a certified new literature record, and not the constant-overhead endpoint.
+
+## Variable-profile phase
+
+Root has now read Fourier repair.tex, kernel.tex, binary.tex and grids.tex
+in full at the same pin. This includes the integral predictor, Hermite
+repair, finite-free specialization, actual endpoint Fourier sharing, binary
+normalization and all-length geometric-grid packing. The latter remains
+a circuit theorem; its field descent is not treated as a tape operation.
+The complete variable proof uses separately audited physical routing.
+
+OpenAI and canonical main refs remained unchanged during this phase.
+The focused prompt was retrieved again without content changes. The source
+proof and current-literature coverage remain as limited above, with no
+priority or full transitive formal-audit claim. S003 checkpoint c65aac11
+and E003 df91e4c8 were subsequently fast-forwarded. E003's optional
+full-rate packing and other component proposals are not implicit premises
+of E002 Theorem V.

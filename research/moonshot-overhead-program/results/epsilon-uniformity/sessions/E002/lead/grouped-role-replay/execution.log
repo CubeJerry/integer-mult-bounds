@@ -1,0 +1,13 @@
+{
+  "status": "PASS_EXACT_GROUPED_ROLE_LAYOUTS",
+  "counts": {
+    "grouped_layouts": 108,
+    "grouped_vector_repairs": 56889,
+    "mask_budget_checks": 108,
+    "exact_zero_symbols": 31800,
+    "wrong_role_order_rejections": 108
+  },
+  "field": "F16, modulus x^4+x+1; unchanged across role sizes",
+  "checker_sha256": "8f4a5c7a217614457dc2388270ad22a95da15eda3242000cb84ff8307b064d09",
+  "scope": "Exact short-coordinate regrouping, inverse, padding, one mask per grouped block, and small spectral repair after regrouping. Repair helper reused from lead checker; regrouping independently coded here. Toy check dimension two, not the asymptotic 1/16 invoice. No physical tape runtime, full interchanger, or asymptotic proof is tested."
+}

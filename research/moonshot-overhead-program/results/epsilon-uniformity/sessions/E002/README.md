@@ -1,20 +1,38 @@
 # E002: quantitative uniformity session
 
-Status: live three-hour research session. The strongest currently admitted
-written result is Theorem P: `H<=2^{O(x^(3/4)(log2(x+2))^(1/4))}`,
-with exact full output and one O(n) visited-cell bound.
+Status: live three-hour research session, ending 26 November 2026 at
+00:19:31 UTC. The strongest admitted written result is Theorem V:
 
-- [Complete proof](lead/polynomial-profile-theorem.md)
-- [Lead admission and scope](lead/ADMISSION-P.md)
-- [Parameter/dependency ledger](PARAMETERS.md)
-- [Independent A global review](route-a/REVIEW-GLOBAL-POLYNOMIAL-PROFILE.md)
-- [Independent C global review](route-c/review-polynomial-profile.md)
-- [Complete conditional transfer](route-b/separated-setup-transfer.md)
+    T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log_2(x+2))^(1/3))}),
+    L=1+log_2 n, x=log_2 L, cells ever visited=O(n).
+
+It describes one fixed exact finite-alphabet multitape full-product machine,
+including actual selection, preparation, head movement, precision, marked
+caps and exact all-length fallback. Every fixed beta>2/3 follows; the
+logarithmic factor remains at beta=2/3. The exact endpoint is open.
+
+- [Complete variable-parameter proof](lead/variable-profile-theorem.md)
+- [Admission, exact review hashes and limits](lead/ADMISSION-V.md)
+- [Current parameter/dependency ledger](PARAMETERS-V.md)
+- [Independent A whole review](route-a/REVIEW-GLOBAL-VARIABLE-ARITY.md)
+- [Independent C whole review](route-c/review-variable-arity-global.md)
+- [Independent C root-wrapper review](route-c/review-variable-profile-theorem.md)
+- [Sharp physical space proof](route-b/variable-interchanger-space.md)
+- [Two different arity schedules and recurrences](route-b/variable-arity-transfer.md)
+- [A outer source substitution](route-a/VARIABLE-OUTER-SUBSTITUTION.md)
+- [C outer source substitution](route-c/variable-arity-outer-transfer.md)
+- [Scoped variable-invoice barrier](lead/variable-invoice-barrier.md)
+- [Preceding Theorem P](lead/polynomial-profile-theorem.md) and [its admission](lead/ADMISSION-P.md)
 - [Source/current-literature audit](SOURCE-AUDIT-E002.md)
-- [Session manifest](SESSION.json) and [finite replay receipts](lead-component-replays.json)
+- [Session manifest](SESSION.json), [earlier finite replays](lead-component-replays.json), and [grouped-role replay](lead/grouped-role-replay/replay-receipt.json)
 
-Routes A/B/C are real independent agents. Variable-parameter discovery
-continues separately; no stronger rate or endpoint is currently admitted.
+Routes A/B/C are real independent agents. Supplier files retain their
+historical proposed-status headings; exact admission/review hashes govern
+which contents are now accepted. Later optional component proposals are
+not silently included in the theorem. Protected discovery continues on
+tighter local delivery, geometry and numerical costs.
+
 Credits: @CubeJerry, pinned OpenAI source and cited prior authors, earlier
-S002/E001 programme work, and substantial ChatGPT multi-agent assistance.
-No full tape-machine execution, formal refinement or human review is claimed.
+S002/E001 programme work, separately credited concurrent S003/E003/S004,
+and substantial ChatGPT multi-agent assistance. No full tape-machine
+execution, formal refinement, human refereeing or priority is claimed.

@@ -209,3 +209,31 @@ results/epsilon-uniformity/sessions/E003/CLAIMS.md and SESSION-LOG.md.
 ## S004 first scientific checkpoint — 2026-11-25 22:42 UTC
 
 Admitted the corrected radix wrapper, scoped spectral-rank/rounding barrier, and deterministic promised sparse ordinary-residual corrector after independent reviews and isolated lead replays. Admitted JR => H<=2^{O(s^(3/4))} as a conditional transfer; JR remains open. No new S004 unconditional complete bound. Preserved S003/E002 polynomial-profile theorem and concurrent E003 head `df91e4c8e31b1020e05056db5b0eb16169ef3421`. The session remains active toward 01:01:15 UTC. Detailed proof scope, actual corrections, test counts and portfolio pivots: `sessions/2026-11-26-S004/lead/FIRST-WAVE-ADMISSION.md`.
+
+## E002 variable-parameter theorem admitted — 2026-11-25 22:42 UTC
+
+Theorem V gives T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log_2(x+2))^(1/3))}),
+L=1+log_2 n, x=log_2 L, with one fixed exact deterministic finite-alphabet
+multitape full-product machine and uniform O(n) cells ever visited. A/C
+independently accepted both the complete local/outer composition and the
+root theorem. No unproved efficient-family hypothesis remains in this
+written construction. Every fixed beta>2/3 follows; the logarithmic factor,
+polynomial-x overhead and exact endpoint remain distinct. No full execution,
+formal refinement, human refereeing, practical cutoff or priority is claimed.
+
+The proof uses polynomial arity for exact interchange, slower subpower
+arity for numerical Walsh, one root coefficient field, near-unit compatible
+composite radix padding, grouped masks and incidence-priced endpoint space.
+The complete outer source substitution and actual integer chunk selector
+preserve exact recovery and one common cap. Final corrections explicitly
+charge binary-entry padding, fixed-eta subexponential setup and only local
+plan access inside spatial recursion. The finite grouped-role replay passed
+108 layouts and 56,889 repairs with 108 wrong-order adverse controls.
+
+Proof/admission/ledger: results/epsilon-uniformity/sessions/E002/lead/
+variable-profile-theorem.md, ADMISSION-V.md, and ../PARAMETERS-V.md.
+The scoped literal-variable-invoice barrier has independent review and
+is not a runtime lower bound or a premise of the positive theorem.
+S003 c65aac1156a46d10c0ef2aa36fd846c7a93518e1 and E003 df91e4c8
+were fast-forwarded and preserved. The live session continues through
+00:19:31 UTC; no upstream PR or external message was sent.

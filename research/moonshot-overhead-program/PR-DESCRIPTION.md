@@ -1,81 +1,77 @@
-# Draft: quantify the overhead with compact fixed-tape execution
+# Draft: explicit variable-parameter overhead for the tape multiplier
 
 The November 24 tape theorem gives one exact linear-space multiplier in
-n(1+log n)^(1/2+o(1)) time. An explicit rate requires charging how finite
-construction, physical execution, precision and thresholds grow as the
-requested excess exponent decreases.
+n(1+log n)^(1/2+o(1)) time. An explicit rate requires charging finite
+construction, physical execution, precision, applicability thresholds and
+the actual uniform selection mechanism.
 
-The current complete written construction gives
+The current complete written construction, E002 Theorem V, gives
 
-    T(n)=O(n sqrt(L) 2^{O(x^(3/4)(log2(x+2))^(1/4))}),
-    L=1+log2 n, x=log2 L, cells ever visited=O(n).
+    T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log_2(x+2))^(1/3))}),
+    L=1+log_2 n, x=log_2 L, cells ever visited=O(n).
 
 One fixed deterministic finite-alphabet multitape machine returns the full
-exact product at every length. This implies every fixed beta>3/4 in the
-benchmark H<=2^{O(x^beta)}, including beta=4/5. It does not establish the
-log-free beta=3/4, polynomial-x or constant overhead. kappa_ov is undefined
-on this scale.
+exact product at every length. This implies every fixed beta>2/3 in the
+benchmark H<=2^{O(x^beta)}, including beta=3/4. It retains the logarithmic
+factor at beta=2/3 and does not establish polynomial-x or constant overhead.
+No kappa_ov value is assigned on this scale.
 
-## What changes
+## Construction and resulting behavior
 
-The earlier expanded compiler charged a power of its singly exponential
-finite envelope per payload volume. The new processor has polynomial-m
-proportional time and space, while large generation remains additive.
-Height-priced rational affine streams, short-key row moves, succinct cyclic
-module translations and on-demand spectral repair remove expanded scans.
-The numerical Walsh branch separately prices exact rational coefficients,
-record arithmetic and absolute precision. Small compatible radix batching,
-occupied reserves and all shared recursive calls remain charged.
+Compact affine streams, short-key row moves, succinct cyclic factors and
+on-demand spectral repair first replace an expanded proportional compiler
+bill by polynomial local costs. The preceding E002 P and independent S003
+PP constructions consequently obtained the explicit 3/4-scale envelope.
+Those proofs, reviews and provenance remain in the history and current tree.
 
-The full profile permits additive setup 2^{m^K}L(u)^{m^K}. The retained
-geometry has log m=O(J^3 log J). An actual dyadic selector satisfying
-J^4 log2 J<=x+O(1), with r=m^{O(1)} operand chunks, proves admissibility,
-exact fallback and one common visited-cell cap. Its complete bill is
-log H=O(log m+x/J), giving the displayed envelope.
+The new exact interchanger changes its local arity with the active width.
+Near-unit composite address padding, one root coefficient field, grouped
+comparison masks and incidence-priced endpoint storage preserve the actual
+recursive invoice and sufficiently small workspace. Its polynomial arity
+schedule makes logarithmic widths fall geometrically.
 
-## Proof and verification
+Numerical Walsh uses a slower arity schedule because its column changes
+call the completed interchanger. Its full recurrence retains this tape toll,
+exact long/short rational arithmetic and a computed precision guard. A
+power-of-two divisor test supplies exact internal batch volumes. Independent
+source substitutions then cover guarded permutations, CRT, occupied short
+Fourier transforms, phase streams, final rounding and carries.
 
-The proof is `results/epsilon-uniformity/sessions/E002/lead/polynomial-profile-theorem.md`.
-Its parameter ledger, lead admission, independent A/C global reviews and
-finite receipts are in the same session. The lead read the critical
-source/component chain and replayed five exact checkers in isolated work
-areas. Reproduce those finite checks with:
+An integer cube-root rule selects the actual chunk count. Prepared compact
+plans are reused, spatial descendants access only local descriptions, and
+all attempts run within marked linear regions with preparation and step
+caps. Any failed guard or cap invokes exact schoolbook multiplication.
+Combined optional setup is bounded by 2^{k^eta'} for fixed eta'<1, charged
+additively; it is never used as a per-record table lookup.
 
-    python research/moonshot-overhead-program/results/epsilon-uniformity/sessions/E002/verify_components.py
+## Review and validation
 
-Reviews corrected the grouped individual child fraction to 2/N_label and
-retained the numerical Walsh active-width routing toll. Global spectator
-padding gives exact V/W_F internal Walsh child volumes. Negative controls
-cover signs, ragged padding, grades, transpose inverses and scalar domains.
+The proof, precise supplier hashes, independent A/C whole-profile and
+root-wrapper reviews are under
+`results/epsilon-uniformity/sessions/E002/lead/ADMISSION-V.md`.
+`PARAMETERS-V.md` gives the complete parameter/threshold ledger. The lead
+read the full proof chain and relevant original operations.
 
-This is an AI-assisted written algorithm/profile result, not human
-refereeing, full multiplier execution or a new Lean refinement. The source
-absolute prime-shape cutoff is unevaluated. Source/read scope and current
-literature checks are documented. The bound improves the programme's
-explicit envelope; no strict comparison against an unspecified published
-o(1), practical crossover or literature-priority certification is asserted.
+Finite supporting checks include isolated affine, cyclic, radix, rational
+and spectral-repair replays. The added grouped-role replay passed 108
+layouts and 56,889 vector repairs with 108 wrong-order adverse controls.
+Finite checks support component identities; written proofs establish the
+asymptotic construction. No complete multiplier execution, new Lean
+refinement, human referee certification or practical cutoff is claimed.
 
-## Retained work and next gate
+The original weighted-search certificate and the new literal-invoice
+barriers retain explicit scope. They are not lower bounds on actual
+multiplication time. The exact square-root endpoint remains open; the next
+research target is a smaller physical local geometry/delivery or numerical
+cost, rather than only a different schedule of the same majorants.
 
-Earlier S002/E001 complete envelopes, conditional transfers and certificate
-barriers are preserved. Concurrent S003 compact factors/batching and its
-nested asymmetric literal-label obstruction retain separate provenance.
-Those restricted results are not multiplication-time lower bounds.
-Protected variable-parameter research must jointly close changing radix,
-workspace and numerical Walsh costs before a stronger rate is admitted.
-This remains a draft for the authorized fork; no upstream PR was opened.
+This is a stronger explicit programme envelope, not a certified literature
+record or a comparison with an unspecified published o(1). Exact source
+pins and limits of source/literature coverage are in SOURCE-AUDIT.md and
+the E002 source audit. Concurrent S003/E003/S004 work is preserved with
+separate provenance. This file is a repository draft; no upstream PR has
+been opened by E002.
 
-## Consolidated credits
-
-Research for Jerry Chen (@CubeJerry), with substantial OpenAI ChatGPT
-multi-agent assistance. Credit belongs to the named authors of the pinned
-OpenAI manuscripts and their cited predecessors; earlier S002/E001 and
-concurrent S003 work retain separate records. Graded tensor factorization
-is established prior art, including Sheng and Tribone. Source lineage
-includes #7000/#7001 and the Kartal, Sussman, Davis, Romman, Yao and Liu
-constructions credited in the manuscripts. PR #8102 is a prior fixed-kappa
-specialization. Exact provenance is in SOURCE-AUDIT.md and EXTERNAL-RESEARCH.md.
-
-## S003 polynomial-profile milestone
-
-S003 adds an independently reviewed construction of the same3/4 log^1/4 envelope using explicit dyadic geometry at radix3 and the weighted common-cap scheduler. Proof/admission: sessions/2026-11-26-S003/lead/. Nested-label obstruction, compact-component checks and independent audits are included. Stronger adaptive drafts remain separate.
+Credits: Jerry Chen (@CubeJerry), OpenAI source authors and cited prior
+work, S002/E001 predecessors, E002 A/B/C and lead, independently credited
+concurrent sessions, and substantial ChatGPT multi-agent assistance.

@@ -2,7 +2,7 @@
 
 Define L(n)=1+log_2 n and s(n)=log_2 L(n). Published upper bound: T(n)<=n L(n)^(1/2+o(1)). The latest S002 section records an accepted explicit source extraction; earlier sections retain their checkpoint-specific scope.
 
-The consolidated current statement is E002 Theorem P in the final section below. Earlier sections are dated research history, including the preceding S002 fixed-field result.
+The consolidated current statement is E002 Theorem V in the final section below. Earlier sections are dated research history, including the preceding S002 fixed-field result.
 
 ## Lemma (scheduler envelope, conditional on actual candidate completion bound)
 Read the schedule in openai/math `uniformity.tex`. Suppose a fixed attempt i=(j,k), with r=2^k<=n, completes in t_i(n) actual operations and fits the common space cap. Its round is reached by s=i+ceil(log_2(t_i(n)+1)); each round costs O(2^s), so one machine halts in
@@ -147,3 +147,17 @@ is assigned to it. The concurrent admitted E002/S003 result is preserved.
 ## S004 alternative-partition conditional transfer
 
 The precise JR hypothesis in `sessions/2026-11-26-S004/lead/joint-rectangle-transfer.md` asks for an exact disjoint partition of the all-coordinates-unequal relation with local load exp(O(k)) poly(log q). Under JR, Section 9 proves H<=2^{O(s^(3/4))} for the same fixed exact multitape model and common O(n) visited cap. A/lead accepted the composition; JR is unproved. This conditionally removes (log s)^(1/4) from the S003/E002 displayed log-overhead. A small q=4,k=2 example does not prove JR. The unconditional target remains unchanged by S004.
+
+## Current admitted E002 variable-parameter envelope
+
+The complete written unconditional construction in
+`results/epsilon-uniformity/sessions/E002/lead/variable-profile-theorem.md`
+gives H(n)<=2^{O(x^(2/3)(log_2(x+2))^(1/3))}, x=log_2(1+log_2 n),
+with exact full product and one uniform O(n) visited-cell bound. It improves
+the programme's preceding explicit 3/4-scale envelope. Every fixed beta>2/3
+follows, including pure beta=3/4. The log factor at beta=2/3 remains.
+No polynomial-x or constant-overhead conclusion follows; kappa_ov stays null.
+The excess-exponent envelope is delta_H=O((log(x+2)/x)^(1/3)).
+This rate conversion is elementary; the new content is the complete
+charged two-schedule construction and common-cap proof. See ADMISSION-V.md
+and PARAMETERS-V.md there for exact reviews and threshold accounting.

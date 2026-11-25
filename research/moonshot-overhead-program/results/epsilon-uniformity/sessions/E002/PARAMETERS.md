@@ -58,3 +58,11 @@ No unproved compact-executor or setup-profile hypothesis remains at the
 written-proof admission gate. Mathematical source inputs and verification
 limits are recorded in `lead/ADMISSION-P.md`. Earlier complete bounds and
 the original weighted-search certificate retain their separate scopes.
+
+## Later variable-parameter admission
+
+This table remains the fixed-family Theorem P ledger. The stronger current
+Theorem V has its separate complete ledger in `PARAMETERS-V.md`; it uses
+changing local arities, a common root field, near-unit composite radix
+padding, refined incidence workspace, and a different numerical schedule.
+Its proof is not obtained by substituting a varying m into this table.

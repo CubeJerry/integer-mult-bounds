@@ -153,3 +153,7 @@ Full historical, companion and formal-dependency reading remains staged.
 ## S004 scoped refresh and critical-chain read
 
 Canonical main `e54523517d0f03e58352e647c403a5af3e525a57`, OpenAI math `3344da59991ed94f9ba711217b29c1d760badfa6`, prompt blob `b5762a4dacb999703e83621301a455fbb12755f7` were refreshed at launch. Lead read complete tape interchange.tex and walsh.tex, named S002 fixed-field suppliers and S003 compact profile/geometry/interchange. Prior archive and companion-paper coverage remains staged. Relevant PR metadata includes #8102, a direct fixed-epsilon specialization; metadata does not verify a proof. Live Discussion fetch was rejected, so discussion completeness is not claimed. Concurrent E003 checkpoint df91e4c8e is preserved; overlap and new two-scale proofs remain under separate review.
+
+## E002 variable-profile admission — 22:42 UTC
+
+E002 root completed fresh full reads of Fourier repair.tex, kernel.tex, binary.tex and grids.tex at OpenAI 3344da59991ed94f9ba711217b29c1d760badfa6, alongside the earlier tape/source audits. A/C outer transfers inspect the actual guarded permutations and integer pipeline. The circuit all-length theorem is not imported as a tape primitive. OpenAI and canonical main pins were unchanged during this phase; focused prompt unchanged in content at the later reread. S003/E003 concurrent checkpoints are preserved; their optional advances retain separate review scope. No priority claim is made.

@@ -76,3 +76,7 @@ S003 B3 interchanger, C spectral repair and A rational Walsh passed component re
 ## S004 reassessment
 
 Repair-free low-degree prediction fails uniform rounding and dense ordinary-error gates, so protected discovery pivots to deterministic sparse residual correction and its missing candidate supplier. Constant tuning of product endpoint partitions retains the binding logarithm, so the lead isolates JR as a pure combinatorial existence question. Multi-stage affine work moves from duplicate determinant identities to inverse-aware active query volume. Nonstationary source work is coordinated with S003/E003. Reviewed components and the conditional transfer are retained without promoting them to an unconditional complete multiplier.
+
+## E002 variable-profile admission — 22:42 UTC
+
+E002 A supplied physical affine streams and independent global/outer audits; B supplied two distinct variable-arity schedules, common-field sharp space and numerical precision; C supplied compact exact components and adversarial whole-profile review. V is admitted with no remaining family-efficiency premise. B remains protected for alternative delivery/geometry discovery, A checks reusable full-rate/repair refinements, and C sharpens scoped incidence obstructions. Concurrent sessions keep their own route plans.

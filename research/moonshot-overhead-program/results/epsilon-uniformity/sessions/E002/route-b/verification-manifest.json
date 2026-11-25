@@ -1,17 +1,23 @@
 {
-  "status": "recorded finite exact replays",
+  "status": "recorded source snapshots and finite exact replays",
   "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
   "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
   "source_sha256": {
-    "polynomial-walsh-precision.md": "7dbc8926b2e68840e54f1ce981b5a827f53ab3f29dbe0ea7420ba25093a0ce19",
-    "separated-setup-transfer.md": "e2d4aab0a74edf4acac884588728d734524e112a3e4f92ec0eeb62f572aa8ed5",
-    "verify_rational_walsh.py": "dee120e42ae4d4ba0637a015e1f2e331df35ac382ea2dbf0d6cfca4ae75db5f7",
-    "rational-walsh-verification.json": "47a8f7a8ec5ddb69310c6e4369abbf350a7200176853d5a8adcf77d094590f55",
-    "height-replay/verify_height_streams.py": "be01035ba5ae04de6aafc224fde24ff79da4ae13c79b0692bc4a3a53c3403299",
-    "height-replay/height-streams-verification.json": "cfa38d9cb52cb3b9d2a75f4e7365a4091b199350162fa849dcf37fa63072dd0f",
-    "f4-replay/verify_spectral_repair.py": "5eace21602bf71419905f81592972f244fb05cf1ebf01202cab9e626f81804f6",
+    "composite-radix-padding.md": "afbef1f7f68361c9d0c865fdef95acf1f5eaad78bc5cec35c9eb43d9ad7404c6",
+    "composite-radix-verification.json": "a149ff775fe4f7a41615cf43982b50d1dd01b02790801f93495624bdb4c1268d",
     "f4-replay/spectral-repair-verification.json": "7dfd53a3a28994f3e288e0d9afe9cb1bf5dbde3e9a9231b8cc069b769e7d82b0",
-    "review-height-streams-and-f4-repair.md": "3e1a0241c3fcb8b3eaf559b6d1ed3d510beaddd3328d6916de38526676e53f94"
+    "f4-replay/verify_spectral_repair.py": "5eace21602bf71419905f81592972f244fb05cf1ebf01202cab9e626f81804f6",
+    "height-replay/height-streams-verification.json": "cfa38d9cb52cb3b9d2a75f4e7365a4091b199350162fa849dcf37fa63072dd0f",
+    "height-replay/verify_height_streams.py": "be01035ba5ae04de6aafc224fde24ff79da4ae13c79b0692bc4a3a53c3403299",
+    "polynomial-walsh-precision.md": "7dbc8926b2e68840e54f1ce981b5a827f53ab3f29dbe0ea7420ba25093a0ce19",
+    "rational-walsh-verification.json": "47a8f7a8ec5ddb69310c6e4369abbf350a7200176853d5a8adcf77d094590f55",
+    "review-height-streams-and-f4-repair.md": "3e1a0241c3fcb8b3eaf559b6d1ed3d510beaddd3328d6916de38526676e53f94",
+    "review-polynomial-interchanger.md": "6a1a8bfabfb097826f709c64f574b8ea1989812a59940fc434386998a2bb1357",
+    "separated-setup-transfer.md": "0290ece9913c8398fbe1342d2171f627fcb2f8f9fee037f492296a4acd732970",
+    "variable-arity-transfer.md": "cb357755f43172cbba7ba3a4bc9fddbdd6574a02ec3786905cf755e7fb47ea2c",
+    "variable-interchanger-space.md": "71cf477715f4991a0c67ccf25df0ee3ad6669a1eea7ac29658faf01b7d96c300",
+    "verify_composite_radix_replay.py": "1a6cc91f8bfe50b15609da305cf8b2e83dbb8f85df294bddb7479bb35cf4c4dc",
+    "verify_rational_walsh.py": "dee120e42ae4d4ba0637a015e1f2e331df35ac382ea2dbf0d6cfca4ae75db5f7"
   },
   "limits": "Finite mathematical checks only; no physical tape build, complete multiplier, or Lean verification."
 }

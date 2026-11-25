@@ -107,3 +107,7 @@ protected and separately gated; no stronger rate is admitted yet.
 ## S003 polynomial-profile milestone
 
 S003 independently closes the same polynomial-profile envelope admitted by E002: log H=O(s^(3/4)(log(s+2))^(1/4)). Its explicit dyadic geometry uses radix3 and its proof uses the weighted common-cap scheduler. See sessions/2026-11-26-S003/lead/ADMISSION-PP.md. A separate adaptive route is active but unadmitted.
+
+## E002 variable-profile admission — 22:42 UTC
+
+The current admitted E002 theorem has H=2^{O(x^(2/3)(log_2(x+2))^(1/3))}, one fixed exact full-product tape machine and O(n) visited cells. The complete proof, parameter ledger, exact A/C reviews and source scope are under results/epsilon-uniformity/sessions/E002. The endpoint remains open. Current discovery should improve local delivery/geometry or numerical costs, rather than only reschedule the same literal certificate.
