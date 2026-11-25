@@ -140,3 +140,18 @@ E001 independently closed the finite IP4 audit and fixed-field physical-composit
 - **Proved conditional component:** packed batches can use several leading digits instead of radix b>W under explicit compact/grouped calls and setup guards; S003 lead note, reviewed by A.
 - **Open physical gates:** small-numeric-coefficient endpoint maps; packed shared-pencil group volumes; on-demand spectral repair; compact numerical Walsh coefficient/norm bill; assembled common-cap profile.
 - **Unchanged:** previous full overhead theorem and endpoint status. No arithmetic-model or local result is silently promoted to a tape bound.
+
+## E002 admitted profile and remaining stronger gates
+
+Closed for Theorem P: height-priced address execution; small compatible
+radix and full occupied batching; compact cyclic coefficient application;
+on-demand F4 and rational repair; absolute precision above polynomial-m
+threshold; both physical recurrences; exact outer assembly; additive setup;
+direct selector and one common visited-cell cap. Independent global A/C
+reviews and lead admission are under `results/epsilon-uniformity/sessions/E002/`.
+
+Still open: a stronger variable-arity full caller with charged changing
+radix, workspace, field encoding and numerical Walsh toll; endpoint and
+polynomial-x overhead. The original weighted certificate and the literal
+label-invoice barriers remain restricted to their stated accounting models.
+Concurrent S003 physical audits retain their own provenance and status.

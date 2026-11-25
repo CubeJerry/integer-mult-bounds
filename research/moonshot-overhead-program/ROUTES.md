@@ -57,3 +57,14 @@ B's order-three geometry/repair and rational Walsh route are both essential in t
 ## S003 first-wave reassessment
 
 Theorem N proves that the literal nested characteristic-two label invoice requires `log m >= 2^(ell-2) J^3 log J/128`, even with unequal distances and exact ranks. This excludes parameter-only improvements in that family, not other routing or compact execution. B supplied a polynomial-description scalar-factor executor by masked grade rotations; C independently reviewed it. Lead supplied multiple-digit packed batching under an explicit grouped-call interface, reviewed by A. The active independent discovery now targets explicit small-coefficient endpoint frames; A proves the compact numerical Walsh gate and C on-demand spectral repair. No S003 complete H(n) is admitted yet. Proof/replay scopes: `sessions/2026-11-26-S003/lead/first-wave-review.md`.
+
+## E002 second-wave result and protected next mechanism
+
+The polynomial proportional executor and separated-setup direct selector
+now compose to the accepted 3/4-power logarithmic-overhead envelope. A/C
+independently reviewed the whole theorem; B retains substantial protected
+discovery time on variable arity. The new conjectured 2/3 scale requires
+a different recursive parameter schedule, near-unit radix padding, a
+smaller proportional workspace coefficient and a distinct slower Walsh
+arity. It is not inferred from fixed-m estimates. A and C adversarially
+audit those interfaces while the lead checks synthesis and source scope.

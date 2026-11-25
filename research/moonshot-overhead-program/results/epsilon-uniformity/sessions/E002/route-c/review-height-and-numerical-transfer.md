@@ -146,3 +146,27 @@ complete multiplication theorem by itself.
 - `e002-route-b/polynomial-walsh-precision.md`: `7dbc8926b2e68840e54f1ce981b5a827f53ab3f29dbe0ea7420ba25093a0ce19`.
 - `e002-route-b/separated-setup-transfer.md`: `e2d4aab0a74edf4acac884588728d734524e112a3e4f92ec0eeb62f572aa8ed5`.
 - `e002-route-b/verify_rational_walsh.py`: `dee120e42ae4d4ba0637a015e1f2e331df35ac382ea2dbf0d6cfca4ae75db5f7`.
+
+## 7. Amendment after the outer-source audit
+
+The original E premise allowed only `m^C V polylog(L)` ordinary local
+work. Source `walsh.tex` additionally invokes the already-proved
+interchanger/packed-XOR processor for its column changes, at cost
+`m^C V(1+a^rho) polylog(L)` for active width a. Route B amended E and
+S2 to state this width-dependent toll and the sequential proof order:
+interchange first, numerical Walsh second. The same normalized half-margin
+recurrence sums the extra toll, so the conditional transfer conclusion
+does not change. This review accepts the amended premise and proof.
+
+The amended `separated-setup-transfer.md` snapshot has SHA-256
+`0290ece9913c8398fbe1342d2171f627fcb2f8f9fee037f492296a4acd732970`.
+The earlier hash in Section 6 records the originally reviewed version.
+The complete audit is in `review-composite-and-outer-transfer.md`; the
+global composition is separately reviewed in `review-polynomial-profile.md`.
+
+The isolated rational replay completed successfully: 203949 signed
+scalings, 611847 signed same-grid rounding cases, 630 negative binomial
+cases, 200 predictor cases, 1440 complete repair-basis cases, 184 zero-gap
+rejections, 128 wrong-transpose negative controls, and 48 empty-defect
+cases. These finite results support the algebra and arithmetic component;
+they do not execute a physical tape multiplier.

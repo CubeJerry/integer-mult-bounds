@@ -112,3 +112,19 @@ E001 final record: all scoped review gates are closed; optional observations ret
 ## S003 first-wave verification
 
 Lead read complete Theorem N, the independent symmetric proof, succinct scalar-factor proof and C reviews; checked the exact Gram/rank/rectangle/invoice argument. Isolated byte-bound replays are in `sessions/2026-11-26-S003/lead/replays/`, with `manifest.json`. All three copied checkers passed; the lead packed-batch checker also passed. Exact counts and claim scopes appear in `lead/first-wave-review.md`. These are written proof audits plus finite exact tests, not a formal kernel build, physical tape implementation or human review.
+
+## E002 complete polynomial-profile gate
+
+A/C independently accepted the complete global proof at SHA256
+319601f989b4696d5328fbe42673bcce2b9f026e30b9b1d29a16f5d3d18274dd.
+The lead read all critical proofs and receipts. Later theorem status edits
+do not change P2--P11. Five component scripts passed isolated lead replay
+with source hashes and negative controls; reproduction command:
+
+    python research/moonshot-overhead-program/results/epsilon-uniformity/sessions/E002/verify_components.py
+
+Scope and exact receipts are in the focused session. Optional streamed
+Lagrange coefficients additionally passed 2384 coefficient checks, 4449
+basis repairs and 606 occupied extension-field vectors with adverse controls;
+that optional lemma is not a premise of P. No complete multiplier, formal
+refinement or human referee verification was run.

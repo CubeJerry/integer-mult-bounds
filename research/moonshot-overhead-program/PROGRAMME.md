@@ -90,3 +90,16 @@ This supersedes the fourth-wave upper envelope by a factor (log2 s)^(1/6) in its
 ## S003 first-wave update
 
 The exact arbitrary-depth asymmetric literal label invoice now has a reviewed lower bound of order J^3 log J in log m. This closes parameter-only improvement within that billed family; it is not a lower bound on multiplication or all routing. A succinct cyclic scalar-factor executor and a conditional packed small-radix batching component are proved and reviewed. The active portfolio now targets explicit compact endpoint maps, on-demand spectral repair and rational Walsh execution. The previous complete fixed-field envelope remains unchanged pending full physical composition. See `sessions/2026-11-26-S003/lead/first-wave-review.md`.
+
+## E002 quantitative breakthrough within the written programme
+
+The current complete explicit envelope is
+`H<=2^{O(x^(3/4)(log2(x+2))^(1/4))}` with uniform O(n) visited cells.
+It is a written source-specific construction accepted after independent
+A/C global reviews and lead audit; no human or formal verification is
+implied. The expanded per-volume compiler has been replaced by compact
+polynomial-m stream execution. Large finite setup is charged additively
+and an actual capped direct selector replaces a certificate infimum.
+The endpoint remains open. Current proof/ledger/admission are in
+`results/epsilon-uniformity/sessions/E002/`. Variable-arity research is
+protected and separately gated; no stronger rate is admitted yet.

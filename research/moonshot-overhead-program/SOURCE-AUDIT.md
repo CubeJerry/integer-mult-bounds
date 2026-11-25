@@ -121,3 +121,14 @@ E001 root read S002 B1-B11, Q1-Q13, its lead gate and IP4 bridge. E001 C separat
 ## S003 resumption and critical-chain audit
 
 Remote canonical main, OpenAI main and prompt pins remain as recorded at resumption. Lead reread the complete source interchange, selected Walsh and first single-machine section, plus S002 Q1-Q13, count/label formulas, physical compiler, cyclic and structured-shift interfaces, and current S003 proofs. Root guidance, selected record and relevant family/priority sections were read. Public Discussion1163 start-here guidance and newest1166/1167 pages were retrieved; full comment coverage is not claimed. The newest50 open-PR metadata were inspected; #8102 now has head `a739963c682d47b07e949861da58d2a1bcdbc4c6`. A limited current search found no applicable stronger explicit envelope; this is not a novelty certification. Historical, companion and full formal-dependency reading remains staged.
+
+## E002 physical-profile admission audit
+
+OpenAI and canonical source heads remain pinned unchanged. The focused and
+parent prompt contents were rehashed at 22:10 UTC and match their original
+blobs. Fresh tape/Fourier critical-interface reading, formalization scope
+and actual Main.lean/comparator distinction, current PR/discussion coverage,
+primary literature and unread dependencies are recorded in
+`results/epsilon-uniformity/sessions/E002/SOURCE-AUDIT-E002.md`. The complete
+P2--P11 proof was independently reviewed by A/C and audited by the lead.
+No new formal build or exhaustive novelty certification is asserted.

@@ -203,3 +203,23 @@ the corrected ratio still gives uniform geometric parking. The complete
 fixed-family multiplication profile remains under lead audit; no new
 complete bound is admitted at this checkpoint. Route B is protected for
 variable-parameter discovery in the next wave.
+
+## E002 complete polynomial profile admitted — 2026-11-25 22:15 UTC
+
+Theorem P now gives T(n)=O(n sqrt(L) 2^{O(x^(3/4)(log2(x+2))^(1/4))}),
+L=1+log2 n, x=log2 L, for one fixed exact deterministic finite-alphabet
+multitape full-product machine with a uniform O(n) visited-cell cap. A and
+C independently accepted the complete P2--P11 composition at the same
+reviewed proof hash; the lead read both reviews and all critical suppliers.
+No unproved compact-execution premise remains in the written construction.
+No full multiplier execution, formal refinement, human refereeing, practical
+cutoff or priority certification is claimed. The endpoint remains open.
+
+The decisive change is polynomial-m proportional execution, with large
+finite preparation charged additively. The corrected grouped child fraction
+is 2/N_label; numerical Walsh retains its active-width routing toll; global
+spectator padding supplies exact V/W_F internal child volumes. Proof and
+parameter ledger: results/epsilon-uniformity/sessions/E002/. Concurrent S003
+head a2d9c4b00c02dadf7bdc970acf9190dfabf9ec32 is preserved. Protected Route B
+continues variable-parameter research, whose stronger predicted scale is
+not part of this admission.

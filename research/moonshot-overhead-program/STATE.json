@@ -14,25 +14,21 @@
     "historical_owned_rank": "4115049c5126cb56133072982d9158acfd74d4b3",
     "historical_recovery": "4ff4ec023f0ac9222fe5aaf4d19388d764d6bcf8"
   },
-  "best_unconditional": "T(n)=O(n sqrt(L(n)) 2^{O(s(n)(log2 log2 s(n)/log2 s(n))^(1/3))})",
+  "best_unconditional": "T(n)=O(n sqrt(L) 2^{O(x^(3/4)(log2(x+2))^(1/4))})",
   "new_complete_overhead_bound": {
-    "formula": "T(n)=O(n sqrt(L(n)) 2^{O(s(n)(log2 log2 s(n)/log2 s(n))^(1/3))})",
-    "L": "1+log2(n)",
-    "s": "log2(L)",
-    "space": "O(n) cells ever visited; one fixed exact deterministic finite-alphabet multitape full-product machine",
-    "status": "Accepted written unconditional algorithm/profile construction after independent B, C and lead finite and global reviews",
-    "proof": "routes/A/fixed-field-extraction-theorem.md",
-    "construction": "routes/A/characteristic-two-count-formula.md",
-    "factorization": "routes/B/formula-full-rate-linearization.md",
-    "compiler": "routes/A/physical-compiler-ledger.md",
-    "review": "verification/S002/lead-review-fixed-field-extraction.md",
+    "formula": "T(n)=O(n sqrt(L) 2^{O(x^(3/4)(log2(x+2))^(1/4))})",
+    "L": "1+log2 n",
+    "x": "log2 L",
+    "status": "Accepted written unconditional algorithm/profile construction",
+    "space": "One fixed O(n) bound on cells ever visited",
+    "proof": "results/epsilon-uniformity/sessions/E002/lead/polynomial-profile-theorem.md",
+    "admission": "results/epsilon-uniformity/sessions/E002/lead/ADMISSION-P.md",
+    "scope": "No endpoint or polynomial-x claim; every fixed beta>3/4 follows. No human refereeing, full execution or formal refinement.",
     "independent_composition_reviews": [
-      "routes/B/review-fixed-field-physical-composition.md",
-      "routes/C/REVIEW-A-FIXED-FIELD-EXTRACTION.md"
+      "results/epsilon-uniformity/sessions/E002/route-a/REVIEW-GLOBAL-POLYNOMIAL-PROFILE.md",
+      "results/epsilon-uniformity/sessions/E002/route-c/review-polynomial-profile.md"
     ],
-    "meaning": "Explicit characteristic-two count formulas establish IP4; complete singly exponential finite profile strengthens programme envelope. No remaining IP4 hypothesis; all-odd-characteristic IP remains open.",
-    "threshold": "Absolute eventual; constants and cutoff not numerically evaluated",
-    "verification_limits": "AI-assisted written mathematical audits and isolated exact finite replays; no full multiplier execution, formal refinement, human refereeing or literature-priority certification"
+    "threshold": "Absolute eventual; constants and cutoff not numerically evaluated"
   },
   "conditional_complete_overhead_bound": {
     "formula": "T(n)=O(n sqrt(L) x^a), including a=0 endpoint, under explicit hypotheses",
@@ -89,7 +85,7 @@
     "new_complete_bound": false,
     "first_wave_review": "sessions/2026-11-26-S003/lead/first-wave-review.md"
   },
-  "verification_status": "Finite characteristic-two count formula and complete physical/scheduling composition accepted by B, C and lead; isolated count and exact growth replays passed. No full machine execution, formal build or human refereeing.",
+  "verification_status": "Current best E002 P: independent A/C global written reviews and lead source/component audit; exact finite component replays. No full multiplier, formal refinement or human refereeing.",
   "concurrent_work": {
     "epsilon_uniformity": "results/epsilon-uniformity/SESSION.json",
     "reconciled_head": "d1f3baccdcc547263c0c0cc7241aa0cb1ef12bee",
@@ -215,8 +211,23 @@
       "initial_head": "0607d044d1d09489580da0e5828588820e1a6775",
       "scope": "results/epsilon-uniformity/sessions/E002/",
       "manifest": "results/epsilon-uniformity/sessions/E002/SESSION.json",
-      "new_complete_overhead_bound": null,
-      "binding_gap": "Polynomial proportional physical executor and compatible small-radix/precision profile; separated-setup transfer pending construction audits"
+      "new_complete_overhead_bound": {
+        "formula": "T(n)=O(n sqrt(L) 2^{O(x^(3/4)(log2(x+2))^(1/4))})",
+        "L": "1+log2 n",
+        "x": "log2 L",
+        "status": "Accepted written unconditional algorithm/profile construction",
+        "space": "One fixed O(n) bound on cells ever visited",
+        "proof": "results/epsilon-uniformity/sessions/E002/lead/polynomial-profile-theorem.md",
+        "admission": "results/epsilon-uniformity/sessions/E002/lead/ADMISSION-P.md",
+        "scope": "No endpoint or polynomial-x claim; every fixed beta>3/4 follows. No human refereeing, full execution or formal refinement.",
+        "independent_composition_reviews": [
+          "results/epsilon-uniformity/sessions/E002/route-a/REVIEW-GLOBAL-POLYNOMIAL-PROFILE.md",
+          "results/epsilon-uniformity/sessions/E002/route-c/review-polynomial-profile.md"
+        ],
+        "threshold": "Absolute eventual; constants and cutoff not numerically evaluated"
+      },
+      "binding_gap": "Stronger variable-arity envelope: changing-radix child invoice, sufficiently small workspace, numerical Walsh toll and complete common-cap composition.",
+      "current_status": "Theorem P admitted after A/C independent global reviews and lead audit; protected variable-parameter route active."
     },
     "epsilon_uniformity_E003": {
       "id": "2026-11-26-E003",
@@ -273,6 +284,25 @@
       "meaning": "Stronger explicit programme envelope from a full-rate balanced-formula evaluator; known tensor construction credited; no priority, unspecified-o(1) comparison or endpoint claim",
       "threshold": "Absolute eventual; constants and cutoff not numerically evaluated",
       "verification_limits": "Written AI-assisted proof audits and exact finite replays; no giant template or full multiplier execution, formal refinement or human refereeing"
+    },
+    {
+      "formula": "T(n)=O(n sqrt(L(n)) 2^{O(s(n)(log2 log2 s(n)/log2 s(n))^(1/3))})",
+      "L": "1+log2(n)",
+      "s": "log2(L)",
+      "space": "O(n) cells ever visited; one fixed exact deterministic finite-alphabet multitape full-product machine",
+      "status": "Accepted written unconditional algorithm/profile construction after independent B, C and lead finite and global reviews",
+      "proof": "routes/A/fixed-field-extraction-theorem.md",
+      "construction": "routes/A/characteristic-two-count-formula.md",
+      "factorization": "routes/B/formula-full-rate-linearization.md",
+      "compiler": "routes/A/physical-compiler-ledger.md",
+      "review": "verification/S002/lead-review-fixed-field-extraction.md",
+      "independent_composition_reviews": [
+        "routes/B/review-fixed-field-physical-composition.md",
+        "routes/C/REVIEW-A-FIXED-FIELD-EXTRACTION.md"
+      ],
+      "meaning": "Explicit characteristic-two count formulas establish IP4; complete singly exponential finite profile strengthens programme envelope. No remaining IP4 hypothesis; all-odd-characteristic IP remains open.",
+      "threshold": "Absolute eventual; constants and cutoff not numerically evaluated",
+      "verification_limits": "AI-assisted written mathematical audits and isolated exact finite replays; no full multiplier execution, formal refinement, human refereeing or literature-priority certification"
     }
   ],
   "independent_complete_overhead_bounds": [
@@ -325,7 +355,7 @@
     "verification_limits": "AI-assisted written mathematical audits and isolated exact finite replays; no full multiplier execution, formal refinement, human refereeing or literature-priority certification"
   },
   "published_baseline_unconditional": "n L^(1/2+o(1)) (OpenAI November 24, 2026)",
-  "best_unconditional_proof": "routes/A/fixed-field-extraction-theorem.md",
+  "best_unconditional_proof": "results/epsilon-uniformity/sessions/E002/lead/polynomial-profile-theorem.md",
   "source_refresh": {
     "canonical_openai_utc": "2026-11-25T15:57:17Z",
     "prompt_utc": "2026-11-25T15:58:38Z",
@@ -354,6 +384,21 @@
       "ended_utc": "2026-11-25T16:20:45Z",
       "actual_elapsed_seconds": 10822
     }
+  },
+  "e002_current_result": {
+    "formula": "T(n)=O(n sqrt(L) 2^{O(x^(3/4)(log2(x+2))^(1/4))})",
+    "L": "1+log2 n",
+    "x": "log2 L",
+    "status": "Accepted written unconditional algorithm/profile construction",
+    "space": "One fixed O(n) bound on cells ever visited",
+    "proof": "results/epsilon-uniformity/sessions/E002/lead/polynomial-profile-theorem.md",
+    "admission": "results/epsilon-uniformity/sessions/E002/lead/ADMISSION-P.md",
+    "scope": "No endpoint or polynomial-x claim; every fixed beta>3/4 follows. No human refereeing, full execution or formal refinement.",
+    "independent_composition_reviews": [
+      "results/epsilon-uniformity/sessions/E002/route-a/REVIEW-GLOBAL-POLYNOMIAL-PROFILE.md",
+      "results/epsilon-uniformity/sessions/E002/route-c/review-polynomial-profile.md"
+    ],
+    "threshold": "Absolute eventual; constants and cutoff not numerically evaluated"
   },
   "parallel_sessions": {
     "2026-11-26-S004": {

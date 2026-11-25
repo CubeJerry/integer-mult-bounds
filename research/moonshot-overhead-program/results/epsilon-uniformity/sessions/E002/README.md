@@ -1,13 +1,20 @@
-# E002: reducing physical profile costs
+# E002: quantitative uniformity session
 
-Started 26 November 2026 at 08:19:31 Melbourne time. Requested active duration: three hours, ending 11:19:31 Melbourne time.
+Status: live three-hour research session. The strongest currently admitted
+written result is Theorem P: `H<=2^{O(x^(3/4)(log2(x+2))^(1/4))}`,
+with exact full output and one O(n) visited-cell bound.
 
-This session resumes authoritative programme head `0607d044d1d09489580da0e5828588820e1a6775`. Predecessor results and source pins are retained. The current strongest prior written envelope remains S002 fixed-field extraction; no stronger complete bound has yet been accepted in E002.
+- [Complete proof](lead/polynomial-profile-theorem.md)
+- [Lead admission and scope](lead/ADMISSION-P.md)
+- [Parameter/dependency ledger](PARAMETERS.md)
+- [Independent A global review](route-a/REVIEW-GLOBAL-POLYNOMIAL-PROFILE.md)
+- [Independent C global review](route-c/review-polynomial-profile.md)
+- [Complete conditional transfer](route-b/separated-setup-transfer.md)
+- [Source/current-literature audit](SOURCE-AUDIT-E002.md)
+- [Session manifest](SESSION.json) and [finite replay receipts](lead-component-replays.json)
 
-Three actual independent agents are working on distinct gates: height-priced address operations, separated-setup uniformization, and succinct tensor/radix constructions. The lead studies on-demand spectral repair and audits the complete composition. Drafts are explicitly labelled and will be checked before global promotion.
-
-## Open next questions
-
-Can all proportional physical work and storage be polynomial in the template parameter while exponentially large finite construction is paid additively? Does the source recursive margin survive the changed radix, batch layout, row executor and numerical preparation? If both hold, the separated-setup transfer predicts a fixed-beta overhead scale; this remains conditional at this checkpoint.
-
-Credit: @CubeJerry, the OpenAI manuscripts, the S002/E001 predecessors and substantial ChatGPT assistance by the lead and three independent task agents. No upstream PR is authorized automatically.
+Routes A/B/C are real independent agents. Variable-parameter discovery
+continues separately; no stronger rate or endpoint is currently admitted.
+Credits: @CubeJerry, pinned OpenAI source and cited prior authors, earlier
+S002/E001 programme work, and substantial ChatGPT multi-agent assistance.
+No full tape-machine execution, formal refinement or human review is claimed.

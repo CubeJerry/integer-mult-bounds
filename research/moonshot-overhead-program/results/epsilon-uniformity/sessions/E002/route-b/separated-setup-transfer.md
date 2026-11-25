@@ -83,11 +83,12 @@ volumes. Returned finite data, generation and finite checking cost at most
 specified local grammar: row-linear maps, tensor/module-index rearrangements,
 shift-only checks and inverses, spectral selectors, ordered rational address
 maps, finite-field coordinates and numerical pointwise arithmetic. Its
-*whole one-level nonrecursive list*, excluding the recursive calls in F,
-has, at local bit volume `V`, actual time at most
+*whole one-level list*, excluding self-recursive calls in F, has, at local
+bit volume `V` and active field width `a`, actual time at most
 
 \[
-m^C V(1+\log_2 L(n))^C+2^{m^C}L(n)^{m^C},           \tag{S3}
+m^C V(1+a^{\rho_J})(1+\log_2 L(n))^C
+ +2^{m^C}L(n)^{m^C}.                                \tag{S3}
 \]
 
 and reusable visited workspace at most
@@ -97,6 +98,12 @@ m^C V+2^{m^C}L(n)^C.                                \tag{S4}
 \]
 
 Preparation may be shared or repeated at nodes: both cases are allowed.
+There are two sequential proof tiers. The exact interchanger has the
+stronger ordinary local bound with `1+a^rho_J` replaced by `1`.
+Prove that interchanger first. Numerical Walsh then uses it for the
+source's column changes and packed XOR operations, charged by the
+displayed `a^rho_J` factor. These are local work only relative to the
+Walsh recursion; they are not declared free or ordinary linear scans.
 Dispatch, tags, sorting, record widths, copying, cleanup and head returns
 are included. Extra scans or padding **must not multiply child volumes**;
 otherwise they change F's invoice. Numerical record arithmetic uses the
@@ -154,9 +161,13 @@ U_J\le\max\{U_{\rm abs},2^{m_J^{K'}}\},             \tag{S8}
 after a fixed constant enlargement and another absolute exponent `K'`.
 All calls and interpretation are physical fixed-tape work.
 
-**Proof.** Omit additive terms first. Dividing by node volume and then
-by active width to exponent `rho_J` gives a geometric recurrence of ratio
-at most `1/2`, by F. The local coefficient is polynomial in `m`. Source
+**Proof.** Omit additive terms first. First solve the interchanger
+recurrence, then insert its bound in the numerical Walsh local column
+changes in S3. At each tier, dividing by node volume and then by active
+width to exponent `rho_J` gives a geometric recurrence of ratio at most
+`1/2`, by F. The local coefficient is polynomial in `m`; the allowed
+`a^rho_J` toll becomes a bounded local term after this normalization.
+There is no mutual or circular recurrence between the two tiers. Source
 block assembly adds only a fixed number of factors `1+log L`. The volume
 term is thus `m^{O(1)}u L^rho_J(1+log L)^{O(1)}`.
 

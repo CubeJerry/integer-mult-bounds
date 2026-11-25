@@ -1,52 +1,77 @@
-# Draft cumulative contribution — research package, not yet submitted
+# Draft: quantify the overhead with compact fixed-tape execution
 
-The November 24 fixed-tape multiplier establishes n(1+log n)^(1/2+o(1)) but does not specify a decay rate merely by writing o(1). This programme records quantitative interfaces and representation barriers needed to investigate that remaining overhead.
+The November 24 tape theorem gives one exact linear-space multiplier in
+n(1+log n)^(1/2+o(1)) time. An explicit rate requires charging how finite
+construction, physical execution, precision and thresholds grow as the
+requested excess exponent decreases.
 
-The package now gives a stronger explicit fixed-field extraction for the exact uniform linear-space tape multiplier:
+The current complete written construction gives
 
-    T(n)=O(n sqrt(L(n)) 2^{O(s(n)(log2 log2 s(n)/log2 s(n))^(1/3))}),
-    L(n)=1+log2 n, s(n)=log2 L(n).
+    T(n)=O(n sqrt(L) 2^{O(x^(3/4)(log2(x+2))^(1/4))}),
+    L=1+log2 n, x=log2 L, cells ever visited=O(n).
 
-A polynomial-size characteristic-two count formula of degree O(sqrt m) is converted into a full-rate sequence of affine matrix factors through the established graded tensor construction. Its actual bounded generator, rational/cyclotomic data, physical tape coefficients, numerical precision and validity thresholds are charged, followed by a prefix-weighted restart schedule and O(nr) chunk convolution. This quantifies the published residual o(1); it does not claim a strict improvement over an unspecified o(1), a practical numerical cutoff or the endpoint.
+One fixed deterministic finite-alphabet multitape machine returns the full
+exact product at every length. This implies every fixed beta>3/4 in the
+benchmark H<=2^{O(x^beta)}, including beta=4/5. It does not establish the
+log-free beta=3/4, polynomial-x or constant overhead. kappa_ov is undefined
+on this scale.
 
-Separate components include growing-arity rational Walsh arithmetic, physical half-angle reflection closure, exact count prediction and characteristic/aliasing obstructions. Their computational scopes are retained. The support-preserving lift proof has also passed independent review; it applies to arbitrary supported unit-diagonal lifts modulo every p^e, e>=2.
+## What changes
 
-## Verification
+The earlier expanded compiler charged a power of its singly exponential
+finite envelope per payload volume. The new processor has polynomial-m
+proportional time and space, while large generation remains additive.
+Height-priced rational affine streams, short-key row moves, succinct cyclic
+module translations and on-demand spectral repair remove expanded scans.
+The numerical Walsh branch separately prices exact rational coefficients,
+record arithmetic and absolute precision. Small compatible radix batching,
+occupied reserves and all shared recursive calls remain charged.
 
-The lead reviewed the critical source/proof chain and independently replayed route scripts with failure controls. C separately audited the finite generator and addresses; B audited integer assembly. These are AI-assisted mathematical reviews, not human refereeing. Reproduction evidence and exact limits are in VERIFICATION.md. No Lean build or full multiplier validation was performed. Publication to the fork is a research checkpoint; no upstream PR has been opened.
+The full profile permits additive setup 2^{m^K}L(u)^{m^K}. The retained
+geometry has log m=O(J^3 log J). An actual dyadic selector satisfying
+J^4 log2 J<=x+O(1), with r=m^{O(1)} operand chunks, proves admissibility,
+exact fallback and one common visited-cell cap. Its complete bill is
+log H=O(log m+x/J), giving the displayed envelope.
+
+## Proof and verification
+
+The proof is `results/epsilon-uniformity/sessions/E002/lead/polynomial-profile-theorem.md`.
+Its parameter ledger, lead admission, independent A/C global reviews and
+finite receipts are in the same session. The lead read the critical
+source/component chain and replayed five exact checkers in isolated work
+areas. Reproduce those finite checks with:
+
+    python research/moonshot-overhead-program/results/epsilon-uniformity/sessions/E002/verify_components.py
+
+Reviews corrected the grouped individual child fraction to 2/N_label and
+retained the numerical Walsh active-width routing toll. Global spectator
+padding gives exact V/W_F internal Walsh child volumes. Negative controls
+cover signs, ragged padding, grades, transpose inverses and scalar domains.
+
+This is an AI-assisted written algorithm/profile result, not human
+refereeing, full multiplier execution or a new Lean refinement. The source
+absolute prime-shape cutoff is unevaluated. Source/read scope and current
+literature checks are documented. The bound improves the programme's
+explicit envelope; no strict comparison against an unspecified published
+o(1), practical crossover or literature-priority certification is asserted.
+
+## Retained work and next gate
+
+Earlier S002/E001 complete envelopes, conditional transfers and certificate
+barriers are preserved. Concurrent S003 compact factors/batching and its
+nested asymmetric literal-label obstruction retain separate provenance.
+Those restricted results are not multiplication-time lower bounds.
+Protected variable-parameter research must jointly close changing radix,
+workspace and numerical Walsh costs before a stronger rate is admitted.
+This remains a draft for the authorized fork; no upstream PR was opened.
 
 ## Consolidated credits
 
-Research coordinated for @CubeJerry with substantial AI assistance from OpenAI ChatGPT and three concurrent research agents. The November 24 Fourier, tape and companion manuscripts and their proofs belong to their credited OpenAI authors. The earlier programme and recovered batch-contraction note retain their provenance. Source lineage includes the shared-wire/helper-split work in #7000/#7001, and the Kartal, Sussman, Davis, Romman, Yao and Liu constructions credited in the manuscripts; this programme does not claim authorship of those constructions. PR #8102 is a prior fixed-kappa specialization, not this programme's result. Exact predecessor references and read scope are recorded in SOURCE-AUDIT.md and EXTERNAL-RESEARCH.md.
-
-
-Concurrent E001 work retains its own provenance under `results/epsilon-uniformity/`. No priority is claimed over overlapping independent results. This is a fork research checkpoint; no upstream PR has been opened.
-
-## Focused E001 refinement
-
-The focused epsilon-uniformity work now proves the sharper written source profile log m=O(j³ log j), giving
-
-    T(n)=n sqrt(L) 2^{O(x(log2(y+2)/y)^(1/3))},
-    x=log2 L, y=log2 log2(x+16),
-
-on one exact fixed machine with uniform O(n) visited cells. The complete finite-generator and physical-compiler proof has separate root/C AI review. It retains original integral/dyadic templates, specified efficient generation and actual weighted scheduling. The earlier S002 sixth-power extraction remains recorded.
-
-Additional scoped results are a literal p² factor-rank/reserve obstruction, input-dependent compatible-radix preparation, and a complete conditional bounded-preflight transfer. These preserve their distinct premises and do not settle the endpoint. Full astronomical execution, a Lean proof of the refinement, human refereeing, a practical cutoff and a literature-priority audit remain absent. No upstream PR has been opened.
-
-## Fourth-wave formula result
-
-The complete proof is `routes/A/formula-extraction-theorem.md`; construction is `routes/B/formula-full-rate-linearization.md`; the final gate is `verification/S002/lead-review-formula-extraction.md` with a separate C composition review. The new common finite envelope is P_m<=2^{2^{C log²(m+2)}}, giving log-prefactor and log-log-threshold at most 2^{C J^6(log J)^2}. The source permits both varying fixed affine pencils and arbitrary batch width. Exact formula and ramified-ring checkers were independently replayed. The graded tensor sum is credited to its existing literature; no compact-IP assumption enters this result. Earlier focused-session statements above retain their dated provenance.
-
-## Current fixed-field result
-
-`routes/A/characteristic-two-count-formula.md` proves the previously missing IP4 premise by explicit copied carry formulas and a negative-offset binomial identity. `routes/A/fixed-field-extraction-theorem.md` supplies the complete physical composition and eligible sparse schedule. The common finite envelope is P_m<=2^(m^C), and logarithmic prefactors and log-log thresholds are at most 2^(C J^3 log J). The lead and separate B/C global reviews accepted all changed interfaces and constants.
-
-The numerical Walsh template remains rational, with each coefficient prepared once at charged precision; the interchanger is exact in characteristic two. Their coefficient rings are never conflated. The all-odd-characteristic dyadic hypothesis remains open. Exact finite tests and intentional-error controls passed, but no complete multiplier, formal refinement or practical threshold was produced. The constant-overhead endpoint remains open. This cumulative text is a reviewable draft only; no upstream PR has been opened.
-
-## Independent focused formula proof and scoped next gap
-
-E001 supplies a separate proof of the same stronger formula envelope, complete actual generator and both-branch physical composition, with A/B/C/root audits. A matching lower bound prices high-degree additions in the literal unreduced multilinear recipe; arbitrary matrix roots remain open. The general formula-size transfer and precise MR interface state what further progress would require. Concurrent S002 proofs and dated baseline records are preserved. No upstream PR has been opened.
-
-## E001 closing integration — 16:23 UTC
-
-The consolidated focused report is results/epsilon-uniformity/FINAL-REPORT.md. It states the strongest shared fixed-field result, separate dyadic theorem, certificate restrictions, general transfers, exact replay scope and next quantitative obligation. Additional E001 A/C reviews cover S002's current construction. No upstream PR has been opened.
+Research for Jerry Chen (@CubeJerry), with substantial OpenAI ChatGPT
+multi-agent assistance. Credit belongs to the named authors of the pinned
+OpenAI manuscripts and their cited predecessors; earlier S002/E001 and
+concurrent S003 work retain separate records. Graded tensor factorization
+is established prior art, including Sheng and Tribone. Source lineage
+includes #7000/#7001 and the Kartal, Sussman, Davis, Romman, Yao and Liu
+constructions credited in the manuscripts. PR #8102 is a prior fixed-kappa
+specialization. Exact provenance is in SOURCE-AUDIT.md and EXTERNAL-RESEARCH.md.

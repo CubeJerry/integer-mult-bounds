@@ -2,7 +2,7 @@
 
 Define L(n)=1+log_2 n and s(n)=log_2 L(n). Published upper bound: T(n)<=n L(n)^(1/2+o(1)). The latest S002 section records an accepted explicit source extraction; earlier sections retain their checkpoint-specific scope.
 
-The consolidated current statement is in [SESSION-S002-REPORT.md](SESSION-S002-REPORT.md). All earlier claims below are dated research history; the fifth-wave fixed-field result is the current admitted envelope.
+The consolidated current statement is E002 Theorem P in the final section below. Earlier sections are dated research history, including the preceding S002 fixed-field result.
 
 ## Lemma (scheduler envelope, conditional on actual candidate completion bound)
 Read the schedule in openai/math `uniformity.tex`. Suppose a fixed attempt i=(j,k), with r=2^k<=n, completes in t_i(n) actual operations and fits the common space cap. Its round is reached by s=i+ceil(log_2(t_i(n)+1)); each round costs O(2^s), so one machine halts in
@@ -114,3 +114,21 @@ Before publishing this focused checkpoint, remote848fbf1d7a5e192aa352d79b4d3e36f
 ## E001 closing integration — 16:23 UTC
 
 The strongest shared third-root envelope is now also covered by separate E001 finite-count and physical-composition reviews. E001 Theorem F remains the weaker independent dyadic construction. The general formula-size theorem and matching unreduced-recipe obstruction retain their precise scopes. Full results and remaining obligations are in results/epsilon-uniformity/FINAL-REPORT.md.
+
+## E002: first admitted fixed-beta envelope
+
+The current strongest written theorem is [P](results/epsilon-uniformity/sessions/E002/lead/polynomial-profile-theorem.md):
+
+    H(n)<=2^{O(x^(3/4)(log2(x+2))^(1/4))}, x=log2(1+log2 n).
+
+It has one exact fixed multitape machine and uniform O(n) visited space.
+Every fixed beta>3/4 follows; no pure beta=3/4 or polynomial-x/constant
+overhead is asserted. Proportional time/space are m^{O(1)}, whereas allowed
+additive setup is 2^{m^K}L(u)^{m^K}. The source geometry still needs
+log m=O(J^3 log J). The actual dyadic selector J^4 log2 J<=x+O(1),
+chunk factor r=m^{O(1)} and charged fallback give the complete envelope.
+See [parameters](results/epsilon-uniformity/sessions/E002/PARAMETERS.md) and
+[admission](results/epsilon-uniformity/sessions/E002/lead/ADMISSION-P.md).
+The result improves the programme's preceding explicit envelope. A current
+scoped search is not a priority certification. kappa_ov remains undefined
+on this scale. All earlier sections above retain their historical status.
