@@ -194,8 +194,7 @@ Let `omega=exp(pi i/p)` and
 `phi_j=((1+omega^j)/2)^m`. Fourier inversion modulo `2p` gives
 
 \[
- A_r-A_{r+p}=\frac1p\sum_{\substack{0\le j<2p\\j\ {
-m odd}}}
+ A_r-A_{r+p}=\frac1p\sum_{\substack{0\le j<2p\\j\ {\mathrm{odd}}}}
                                       \phi_j\omega^{-jr}.
 \]
 
@@ -204,10 +203,8 @@ As functions of `r=0,...,p-1`, these p odd-frequency characters are orthogonal
 Parseval followed by Cauchy--Schwarz therefore gives
 
 \[
- \Delta^2\le\sum_{j\ {
-m odd}}|\phi_j|^2
-          =\sum_{j\ {
-m odd}}|\cos(\pi j/(2p))|^{2m}.
+ \Delta^2\le\sum_{j\ {\mathrm{odd}}}|\phi_j|^2
+          =\sum_{j\ {\mathrm{odd}}}|\cos(\pi j/(2p))|^{2m}.
 \]
 
 The central term `j=p` is zero. Pair the other terms around it. The inequality
