@@ -20,8 +20,16 @@
     "C": "Endpoint template tradeoffs and scoped obstructions",
     "lead": "Original-source audit, global composition, independent verification and integration"
   },
-  "new_complete_overhead_bound": null,
-  "current_status": "Local constant-array and outer caller components reviewed; two-scale transfer independently accepted conditional on final physical audit; concurrent E002 same-scale theorem preserved",
+  "new_complete_overhead_bound": {
+    "formula": "T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log2(x+2))^(1/3))})",
+    "space": "One absolute O(n) bound on all visited cells",
+    "status": "accepted written complete construction; independent same-scale proof, not a new programme best",
+    "proof": "route-b/TWO-SCALE-RECURSION.md",
+    "admission": "lead/ADMISSION-TWO-SCALE.md",
+    "integration_review": "route-c/REVIEW-LEAD-INTEGRATION.md",
+    "remaining_efficiency_hypotheses": []
+  },
+  "current_status": "Complete same-scale two-schedule construction admitted with P-I/P-W/P-O supplied; protected routing and joint-rectangle research continues",
   "verification_limits": [
     "No full multiplier execution",
     "No formal refinement build",
@@ -30,10 +38,11 @@
   ],
   "verified_checkpoints": [
     "efd0c7be613fb3c53be887449d206c309b58905a",
-    "df91e4c8e31b1020e05056db5b0eb16169ef3421"
+    "df91e4c8e31b1020e05056db5b0eb16169ef3421",
+    "3b22084737ba8d49d0ca4fb4ff1ae30e1633f771"
   ],
   "publication": "regular reconciled fast-forward checkpoints; no automatic upstream PR",
-  "last_reconciled_head": "8af1911b02c04d0c410dd181597fd160582a78b4",
+  "last_reconciled_head": "3b22084737ba8d49d0ca4fb4ff1ae30e1633f771",
   "proved_components": [
     "Header-free height-priced rational scaling with absolute payload space",
     "Matrix prediction rank tradeoff for arbitrary row mixing and multiple spectral ports",
@@ -41,21 +50,29 @@
     "Full-rate binary packing between completed spatial permutations",
     "Absolute-array shared-pencil schedule and streaming comparisons",
     "Source outer-caller transfer P-O",
-    "Order-five one-converter/two-power gate and exact word classification"
+    "Order-five one-converter/two-power gate and exact word classification",
+    "Rational Walsh fixed-array physical schedule",
+    "Complete two-scale fixed-machine composition with uniform visited space",
+    "Sharp restricted two-converter parity-sensitive port floor",
+    "Literal binary Walsh rank/incidence invoice barrier",
+    "Coupled Walsh call-loss and routing-toll equality-invoice barrier",
+    "Exact crown-product minimum total runs and one-family laminar lower bound"
   ],
   "candidate_complete_bound": {
     "formula": "T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log2(x+2))^(1/3))})",
-    "status": "conditional transfer draft; full physical/source admission pending",
+    "space": "One absolute O(n) bound on all visited cells",
+    "status": "accepted written complete construction; independent same-scale proof, not a new programme best",
     "proof": "route-b/TWO-SCALE-RECURSION.md",
-    "remaining": [
-      "P-I whole-executor composition review",
-      "P-W fixed-array numerical schedule and full composition review"
-    ]
+    "admission": "lead/ADMISSION-TWO-SCALE.md",
+    "integration_review": "route-c/REVIEW-LEAD-INTEGRATION.md",
+    "remaining_efficiency_hypotheses": [],
+    "remaining": []
   },
-  "last_prepared_utc": "2026-11-25T22:59:06Z",
+  "last_prepared_utc": "2026-11-25T23:37:13Z",
   "concurrent_best": {
     "head": "8af1911b02c04d0c410dd181597fd160582a78b4",
     "formula": "T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log2(x+2))^(1/3))})",
     "provenance": "E002 variable-profile theorem at 8af1911b; admission read; separate full proof not yet independently audited here"
-  }
+  },
+  "binding_gap": "No remaining efficiency-family hypothesis in admitted construction; improving the rate requires changed physical routing, labels or recursive interface"
 }

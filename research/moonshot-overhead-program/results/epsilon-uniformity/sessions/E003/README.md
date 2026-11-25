@@ -1,6 +1,6 @@
 # E003 — quantitative uniformity beyond expanded templates
 
-Status: **active research; no new complete bound admitted at initialization**.
+Status: **active research; complete same-scale construction independently admitted**.
 
 This focused session starts from remote programme commit
 `a2d9c4b00c02dadf7bdc970acf9190dfabf9ec32`. Its requested duration is
@@ -34,9 +34,11 @@ proved by this initialization.
 
 Remote 8af1911b contains E002's complete written two-thirds envelope,
 `T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log2(x+2))^(1/3))})`, with uniform O(n)
-visited cells. Its provenance is preserved. E003 has an independent
-same-scale two-schedule implication whose physical composition is under
-final audit; it is not claimed as a new programme best.
+visited cells. S003 independently admitted the same scale at 2fde2b0c.
+Their provenance is preserved. E003's independent same-scale construction
+is now admitted in `lead/ADMISSION-TWO-SCALE.md`; its physical gates,
+numerical precision and one absolute visited-space cap have written
+independent reviews. It is not claimed as a new programme best.
 
 Reviewed E003 components include header-free scaling, fixed-array shared
 pencils, changing-field full-rate packing, simultaneous comparison flags,
@@ -44,8 +46,10 @@ an all-arity label profile and the outer source transfer. Route C also
 constructed an order-five gate with shorter converter and swap words.
 The lead's exact local classification explains why order five is forced
 by that specific pair of word requirements. These finite savings do not
-by themselves improve the asymptotic envelope. See `CLAIMS.md` and the
-append-only session log for current gates and evidence.
+by themselves improve the asymptotic envelope. New exact invoice bounds
+and an ordering/laminar graph obstruction restrict specific improvement
+routes without lower-bounding arbitrary multiplication algorithms.
+See `CLAIMS.md` and the append-only session log for evidence and limits.
 
 ## Independent routes
 

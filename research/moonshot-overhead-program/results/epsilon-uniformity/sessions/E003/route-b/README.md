@@ -19,6 +19,10 @@ The time claim is for one exact fixed finite-alphabet multitape machine,
 conditional on the explicitly stated source-executor interfaces. It includes
 setup, precision, record movement, cleanup, the full product and a common
 visited-space cap. It is not an endpoint or polynomial-log-log overhead.
+Remote E002 checkpoint `8af1911b`, learned during this session, has
+independently admitted the same scale following S004 `04c1cb0d`.
+This package is an independent derivation/review and a set of explicit
+supplier improvements; it makes no new programme-best or priority claim.
 
 ## Main arguments
 

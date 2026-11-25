@@ -1,0 +1,109 @@
+{
+  "scope": "Exact finite gate, spectrum, discrepancy-repair and occupied-regrouping checks; no full tape compiler or multiplication execution.",
+  "field16_modulus": "X^4+X+1",
+  "field256_modulus": "X^8+X^4+X^3+X+1",
+  "gate": [
+    [
+      9,
+      7
+    ],
+    [
+      7,
+      14
+    ]
+  ],
+  "eigenbasis": [
+    [
+      7,
+      7
+    ],
+    [
+      1,
+      6
+    ]
+  ],
+  "converter_diagonals": [
+    [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        10
+      ]
+    ],
+    [
+      [
+        14,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  ],
+  "swap_diagonals": [
+    [
+      [
+        12,
+        0
+      ],
+      [
+        0,
+        8
+      ]
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        12
+      ]
+    ]
+  ],
+  "shared_swap_decompositions": 4,
+  "physical_tensor_word_cases": [
+    {
+      "pairs": 1,
+      "independent_physical_basis_inputs": 4
+    },
+    {
+      "pairs": 2,
+      "independent_physical_basis_inputs": 16
+    },
+    {
+      "pairs": 3,
+      "independent_physical_basis_inputs": 64
+    }
+  ],
+  "old_order_three_one_gate_negative_cases": 162,
+  "pairwise_shift_pairs": 653,
+  "exact_shift_moment_cases": 18,
+  "field_embedding_products": 256,
+  "predictor_spectral_values": 46875,
+  "invertible_check_minors": 375,
+  "complete_discrepancy_repair_vectors": 750,
+  "omitted_lift_negative_controls_rejected": 417,
+  "occupied_regrouping_cases": 12,
+  "toy_repair": {
+    "queries": 3,
+    "shifts": 125,
+    "window": [
+      3,
+      10
+    ],
+    "marked_rows": 14,
+    "child_mass": "56/125"
+  },
+  "asymptotic_chosen_budget": {
+    "marked_fraction": "1/16",
+    "table_fraction": "1/8",
+    "children": 2,
+    "total_child_mass": "1/4"
+  }
+}

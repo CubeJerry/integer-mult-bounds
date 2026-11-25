@@ -53,3 +53,8 @@ F16: 196 symmetric matrices, 12 converter solutions, four joint solutions,
 2,700 diagonal trials and two adverse controls. C independently accepted
 B's analytic transfer and restricted nonstationary invoice barrier.
 No E003 complete theorem has yet been admitted at this timestamp.
+
+
+## E003 checkpoint update — 2026-11-25T23:37:13Z
+
+The complete two-scale construction is admitted after the fixed-array rational Walsh supplier and independent integration review. All fifteen component hashes match. The result matches prior E002/S003 admissions, not a new programme best. New scoped work proves a canonical binary-Walsh label invoice floor, a coupled nonstationary toll/loss barrier, and exact crown-product minimum total run counts with a stronger one-sided laminar-family restriction. C accepted the universal graph proof. Exact graph checks covered 10,248 neighborhood pairs and 403,256 orderings; subset dynamic programming gives hierarchy totals 4, 27, 80 for C(2,2), C(3,2), C(4,2). The C(4,2) nonlaminar load-three partition remains a positive control. Research continues through the requested end time.

@@ -1,0 +1,36 @@
+{
+  "status": "passed exact finite checks",
+  "counts": {
+    "exact_subsolution_inequalities": 131840,
+    "exact_minimum_potentials": 512,
+    "rejected_unpatched_even_degree_zero": 256,
+    "rejected_naive_q_two_continuum_potential": 255,
+    "exact_finite_depth_relaxations": 768,
+    "matrix_rank_pairs": 16256,
+    "constant_matrix_targets": 896
+  },
+  "small_potentials": {
+    "1": "1",
+    "2": "2",
+    "3": "4/3",
+    "4": "16/7",
+    "5": "8/5",
+    "6": "64/25",
+    "7": "64/35",
+    "8": "256/91",
+    "9": "128/63",
+    "10": "64/21",
+    "11": "512/231",
+    "12": "2048/627"
+  },
+  "sha256": {
+    "verify_two_converter_floor.py": "25366d229b5c0533d4dc1c0fb8d1bb94545cb60149c1fa26a556b6bb59d302c4",
+    "TWO-CONVERTER-PORT-FLOOR.md": "ac3028890cc8d601b87a1957480ddc13597f78e4d4e5475f5385fe5aadd73921",
+    "verify_matrix_prediction_barrier.py": "29bd84297f1a551159b9538235c13984e138514aeb35706c024a9a282d770939"
+  },
+  "scope": [
+    "The proof is the finite-tree subsolution and central-mass argument in the note",
+    "No finite check proves asymptotics or an actual tape lower bound",
+    "Relaxed potential attainment does not construct a predictor attaining the rank bound"
+  ]
+}

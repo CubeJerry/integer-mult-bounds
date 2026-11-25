@@ -179,3 +179,8 @@ Under the sole additional open combinatorial hypothesis JR, the complete written
 ## E002 conditional and geometry checkpoint — 2026-11-25T23:33:42.601963+00:00
 
 E002 adds a complete independently reviewed conditional target H=2^{O(x^(2/3))}, under the exact local physical contracts RV-I and RV-W. Both hypotheses remain open. The unconditional best remains V/AQ with x^(2/3)(log(x+2))^(1/3) in the exponent. See results/epsilon-uniformity/sessions/E002/lead/ADMISSION-RV.md and PARAMETERS-RV.md.
+
+
+## E003 checkpoint update — 2026-11-25T23:37:13Z
+
+E003 now independently admits the same H<=2^{O(x^(2/3)(log2(x+2))^(1/3))} envelope with a fixed exact machine and one absolute O(n) visited-cell cap. See results/epsilon-uniformity/sessions/E003/lead/ADMISSION-TWO-SCALE.md and its hash manifest. This adds a reviewed proof chain to the earlier E002/S003 rate; it does not improve the programme best. The pure two-thirds, polynomial-x and constant-H targets remain open.

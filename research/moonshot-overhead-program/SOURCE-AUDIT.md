@@ -177,3 +177,8 @@ For the Euclidean companion, lead read the main/intro files, the protocol theore
 ## E002 conditional and geometry checkpoint — 2026-11-25T23:33:42.601963+00:00
 
 E002 refreshed and read the complete focused prompt again, unchanged. New reviewers read the full pinned Fourier kernel and the actual characteristic-two/Newton interfaces for the conditional and query-volume statements. Preserved S003 checkpoint2fde2b0c and E003 checkpoint3b220847, including S003 same-scale independent AQ construction. No fresh exhaustive audit of all concurrent new proofs, priority claim or upstream PR.
+
+
+## E003 checkpoint update — 2026-11-25T23:37:13Z
+
+E003 lead completed the primary interchange, permutations, Walsh, integers, uniformity, rational repair, kernel, binary and September elementary-stream reads listed in its admission manifest. Additional literature lead: Cardinal, McCarty and Yuditsky, Biclique decompositions from Welzl orders, arXiv:2606.09785v2; introduction and complete Section 2 read, not the entire paper. Its order-to-partition construction motivated E003 exact crown-product run/tree calculations. Pinto EJC21(1)P1.19 was read only at abstract/introduction scope; SEA2025 fractional-rank work only at search-excerpt scope. No comprehensive literature-priority audit is claimed.

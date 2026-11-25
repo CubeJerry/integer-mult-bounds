@@ -173,3 +173,8 @@ C independently reviewed the complete JR composition and B's supplier/certificat
 ## E002 conditional and geometry checkpoint — 2026-11-25T23:33:42.601963+00:00
 
 E002 integrated separate A/C whole conditional-transfer reviews, with explicit visited-cell and child-volume corrections. Isolated lead canonical-incidence and source-basis replays passed; independent reviewers replayed noncanonical-incidence and strengthened query-map checkers. Optional subfield/packing/Lagrange identities have written reviews and finite replays. Exact hashes and all scope limits are in results/epsilon-uniformity/sessions/E002/lead/FOLLOW-ON-GATES.md. No full multiplier execution or formal build.
+
+
+## E003 checkpoint update — 2026-11-25T23:37:13Z
+
+E003 complete admission has a fresh fifteen-component hash match and independent C integration review. Binary Walsh diagnostics passed 15 Gram-rank cases, 14,940 canonical rectangles, 231,102 partitioned edges, 2,142 exact Newton values and 3,948 integer guards. Crown-product checks passed 10,248 neighborhood pairs and 403,256 full orderings; exact hierarchy subset DP includes 65,535 states and 21,457,825 split trials for C(4,2), with optimum total80. These are finite exact diagnostics supporting separate universal written proofs, not a full multiplier or formal machine execution.

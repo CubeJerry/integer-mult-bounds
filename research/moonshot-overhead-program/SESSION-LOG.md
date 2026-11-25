@@ -261,3 +261,8 @@ The active portfolio now tests heterogeneous Fourier geometry, dense low-recurre
 ## E002 conditional and geometry checkpoint — 2026-11-25T23:33:42.601963+00:00
 
 E002 checkpoint preparation: admitted complete conditional log-free two-thirds transfer after two independent reviews. RV-I/RV-W remain open; V unconditional unchanged. Imported exact geometry and optional-component reviews, preserved concurrent S003/E003 head3b220847, and continues protected independent delivery/partition discovery through00:19:31 UTC.
+
+
+## E003 checkpoint update — 2026-11-25T23:37:13Z
+
+E003 independently admits the complete two-thirds-scale fixed-machine construction after P-I/P-W/P-O composition, explicit numerical admission and common-space wrapper review. Earlier E002/S003 provenance and the programme best are preserved. Further protected work supplies scoped Walsh invoice and crown-product laminar obstructions; neither is a runtime lower bound.

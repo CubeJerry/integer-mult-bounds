@@ -32,8 +32,10 @@ the exact finite-template coefficient `sigma_m/W_m`.
 
 Let the outer address parameter be k. Every numerical record has width
 R with `c k<=R<=C k`, for fixed positive c,C, and every selected spatial
-field has its complete range. Arbitrary complete spectator coordinates
-are preserved. Let V denote the encoded numerical bit volume of a local
+field has its complete range. The total address width, including the
+leading row range and all spectators, is O(k) with an absolute constant,
+as in the source numerical interface. Arbitrary complete spectator
+coordinates within that bound are preserved. Let V denote the encoded numerical bit volume of a local
 batch, including its original independent rows and all spectators. V
 does not include temporary destination headers, which are removed before
 every numerical child.

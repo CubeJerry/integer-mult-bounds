@@ -15,10 +15,12 @@ Notation: `L=1+log2 n`, `x=log2 L`,
 | Walsh arity | log m=Theta(Phi(log a)) | Smaller than power-size interchange arity; prices its polynomial routing toll. |
 | Walsh row padding | product_i W_i <= a^C | Global padding against exponential leading spectator count, not per-node inflation. |
 | Numerical local height / log gain | <=m^C | Scalar generation and actual k-bit record arithmetic remain separate. |
-| Whole numerical preparation | <=2^{k^{o(1)}} | After variable arity, including repeated setup at polynomially many nodes. |
-| Numerical precision | C0 k bits | Candidate implication from ancestor-path gains, completed unitary children and fault counts. |
-| Preliminary visited space | n poly(1+x) | Final positional chunk wrapper must reduce this to one absolute O(n) cap. |
-| Candidate final envelope | H<=2^{O(Phi(x))} | Conditional on complete physical/source admission; not yet an E003 unconditional result. |
+| Whole numerical preparation | <=2^{k^{o(1)}} | Walsh setup only, including repeated setup at polynomially many nodes; interchange setup is paid locally. |
+| Numerical precision | C0 k bits | Admitted after explicit k>=m_max^K2 guard; counts ancestor-path gains, completed unitary children and faults. |
+| Preliminary visited space | n poly(1+x) | Sequential chunk wrapper proves one absolute O(n) cap, with O(nr) rowwise assembly. |
+| Admitted final envelope | H<=2^{O(Phi(x))} | Complete written admission in lead/ADMISSION-TWO-SCALE.md; matches earlier E002/S003 rate. |
+| Canonical binary-Walsh invoice | log J>=sqrt(log m log log m) | Exact rank and incidence lower bound on specified positive invoice; no runtime inference. |
+| Crown-product laminar load | >=ceil[(1+(q-2)/q^k)(q-1)^(k-1)] | One common laminar endpoint family; arbitrary nonlaminar partitions remain open. |
 
 The existing weighted-search certificate and its growing-index obstruction
 remain recorded in E001. No claim here turns that sufficient certificate

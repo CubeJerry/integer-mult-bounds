@@ -30,7 +30,12 @@ for one fixed exact deterministic finite-alphabet multitape machine.
 This is stronger than the stationary profile scale
 `log H=O(x^(3/4)(log(x+2))^(1/4))`, provided the physical premises below
 are supplied. The comparison is between explicit programme envelopes,
-not a priority claim against the paper's unspecified `o(1)`.
+not a priority claim against the paper's unspecified `o(1)`. During
+this session, remote E002 checkpoint `8af1911b` independently admitted
+the same two-thirds scale, following S004 `04c1cb0d`. This E003 note
+records an independent derivation and its explicit fixed-three,
+full-rate and common-space suppliers; it is not a new programme-best
+scale or a priority claim.
 
 ## 1. Exact sources and what is imported
 
@@ -231,6 +236,10 @@ numerical record width; a fixed number of payload arrays and marked
 reusable regions gives `V(1+log(k+2))^C` visited space plus the additive
 setup workspace. Descents park geometrically shrinking payloads, and
 siblings reuse regions. These are bounds on all visited cells.
+Here an exact bit interchanger is treated as one completed record
+permutation. Its temporary binary field encodings are not numerical
+linear arrays and create no rounding events. Numerical norm bounds
+refer to the logical numerical arrays at the stated record boundaries.
 
 **P-O: outer source reduction.** The exact short-axis/CRT/carry reduction
 retains its original shape and numerical correctness with absolute
@@ -421,8 +430,9 @@ exponent. This remains true with the finite repair descendants counted
 inside their local program. It is not an assertion of constant work
 per node.
 
-The largest `m` is `2^(O(Phi(log k)))=k^o(1)`. Hence all additive setup
-and finite-data generation, even if repeated at every node, cost at most
+The largest **Walsh/numerical** arity is
+`2^(O(Phi(log k)))=k^o(1)`. Hence its additive setup and finite-data
+generation, even if repeated at every numerical node, cost at most
 
 ```
 k^C' 2^(C m_max^C) (1+k)^(m_max^C)
@@ -433,6 +443,12 @@ The same bound pays their visited storage. It is permissible to prepare
 data before processing payloads, provided the executor accesses only
 its compact local instructions during streaming. A whole `2^(m^C)`
 table scan per record would violate P-W and is not covered by G1.
+G1 is a Walsh/numerical finite-data bound only. Exact interchange
+uses its different arity `m(e)<=e^beta`, whose constructor exponent
+can be a fixed positive power of e. Section 4 charges that work
+against each local payload volume; it is not part of the
+`2^(k^o(1))` claim. No global cache is rescanned at small spatial
+descendants.
 
 Before choosing the fixed format, explicitly test
 `k>=m_max^K_2` for a sufficiently large absolute integer `K_2`.
