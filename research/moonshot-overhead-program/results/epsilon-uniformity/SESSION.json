@@ -7,7 +7,7 @@
   "requested_seconds": 10800,
   "timezone": "Australia/Melbourne",
   "initial_programme_head": "99f0b3644f1858687db74e01d07a4808602854e2",
-  "latest_reconciled_programme_head": "96028cba1342c02bdca1f537ae9a80485087bdf3",
+  "latest_reconciled_programme_head": "4689161c5bc6c9e64536034d4fa6af033d26a3e0",
   "source_pins": {
     "prompt_commit": "02d6478f212049f92a68f3d622604bf26bff9cee",
     "focused_prompt_blob": "ce6fe4edbf039aa964a08aaec216a1cc60dbfe2a",
@@ -41,17 +41,28 @@
     "C": "Variable-arity normalized recurrences, summable local excess and additive routing-toll obstruction."
   },
   "coordination": "Three real subagents plus lead. Scoped writes only; remote parent changes preserved. No upstream PR or external discussion post authorized by this focused task.",
-  "verification": "Root and Route C full source/compiler audit; B and C independent p-adic reviews; B certificate review; exact finite replays. No full multiplier execution or Lean build.",
+  "verification": "Root and Route C source/compiler audit; Route B synthesis snapshot audit; B and C p-adic reviews; B certificate review; root conditional MR, rational-height and window-resource proof reviews; exact finite replays. No full multiplier execution or Lean build.",
   "background_execution": false,
   "proved_source_specific_results": [
     "Characteristic/reserve obstruction for count-only specialization in retained interchanger",
     "Exact interval radix-padding obstruction for specified power-selected template family",
     "Variable-arity analytic transfer with summable excess and a separate Walsh toll obstruction",
     "Input-dependent compatible radix with bounded or summably small volume loss and explicit integer preparation cost",
-    "Literal label matrix modulo p\u00b2 has factor rank at least h binom(h,p-1)(q-1)^(h\u00b2-p); independent reviews B and C"
+    "Literal label matrix modulo p² has factor rank at least h binom(h,p-1)(q-1)^(h²-p); independent reviews B and C",
+    "Exact Hamming-window parity degree and affine-pencil depth equal window width; retained all-shift/window-marked conversion tradeoff has Theta(sqrt(m log m)) resource optimum"
   ],
   "conditional_component_theorems": [
     "O(V sqrt(e)) exact uniform linear-space interchange under the explicitly listed one-level binary reduction contracts; not a multiplication theorem"
   ],
-  "pending_review": []
+  "pending_review": [],
+  "source_heads_rechecked_utc": "2026-11-25T15:16:37Z",
+  "additional_conditional_complete_bounds": [
+    {
+      "proof": "route-a/single-exponential-root-hypothesis.md",
+      "hypothesis": "MR: uniform singly-exponential full-rate affine matrix root of the exact integral predictor with charged bit output and generation",
+      "H": "2^{O(x (log2(z+2)/z)^(1/3))}, z=log2(x+16)",
+      "status": "conditional transfer independently reviewed by root; MR open"
+    }
+  ],
+  "active_followup": "Balanced degree-preserving arithmetic formulas and integral cyclic matrix factorizations; proposed smaller predictor under construction and review"
 }

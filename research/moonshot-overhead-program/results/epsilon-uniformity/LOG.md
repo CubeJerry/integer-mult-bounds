@@ -65,3 +65,31 @@ Input-dependent radix selection now has a complete arithmetic/preparation proof,
 ## 2026-11-25 14:57 UTC — Complete quantitative extraction admitted
 
 Root and Route C independently audited the original-template constructor and full physical compiler. The implementation includes sequential single-control triangular updates, pre-materialization shape checks, an aggregate microstep setup clock and scratch caps, immutable-input fallback, explicit precision and short-arithmetic workspace, common-space chunking and the actual weighted schedule. The resulting sharper log m=O(j³ log(j+2)) profile proves the envelope in THEOREM.md. The p-adic proof also passed separate B and C reviews. Concurrent S002 checkpoint96028cba1342c02bdca1f537ae9a80485087bdf3 admitted a coarse sixth-power extraction and a complementary support-preserving lift theorem; both were read, credited and preserved. No endpoint, priority, full execution, Lean or human-review claim is made. Session remains active.
+
+## E001, 2026-11-25 15:20 UTC — New restricted barrier and next algebraic target
+
+The complete synthesis passed a further independent Route B audit against
+checkpoint0961d2083f80429dde4b6ec5197585f727c7f87b, with matching proof hashes.
+Root reviewed Route C's exact Hamming-window degree/depth theorem and its
+Theta(sqrt(m log m)) window-versus-full-conversion resource tradeoff, then
+replayed the isolated exact checker successfully. This is a restricted
+resource statement, not a tape-runtime lower bound.
+
+Root reviewed the sharper rational-address height proof and the complete
+conditional matrix-root transfer in Route A. The latter would give a stronger
+explicit envelope under a specific singly-exponential full-rate predictor
+construction; that algebraic hypothesis remains open. A balanced-formula
+matrix-factorization alternative is now under active independent review and
+is not yet part of the admitted global theorem. Primary tensor-factorization
+and homogeneous-formula literature was consulted.
+
+Prompt, canonical repository and OpenAI manuscript heads were rechecked at
+15:16:37 UTC; all remain at their initial pins. The session is still active
+and its actual planned end remains16:25:26 UTC.
+
+Concurrent S002 head4689161c5bc6c9e64536034d4fa6af033d26a3e0 was read before
+this checkpoint. It independently reached the same baseline arity scale and
+proved a more general compact-IP conditional bridge on the MR rate scale.
+Root read those proofs and its exact formal Chow barrier; all are preserved.
+The new characteristic-two components are preserved without claiming a fresh
+E001 full-proof audit.

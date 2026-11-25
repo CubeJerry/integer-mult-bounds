@@ -113,3 +113,39 @@ Root reviewed the full bounded-preflight and rowwise-chunk proofs. The
 preflight theorem is admitted as a **conditional** complete transfer; its
 stronger family hypotheses are not consequences of the tower extraction.
 S002's earlier linear-r diagonal chunk wrapper is explicitly credited.
+
+## Synthesis, window-resource and rational-height reviews — 15:20 UTC
+
+Route B independently audited the complete theorem, finite-budget ledger,
+compiler interface, common-space chunking, integer inversion and absence of
+circular assumptions. Its `route-b/global-synthesis-review.md` records exact
+hashes matching checkpoint0961d2083f80429dde4b6ec5197585f727c7f87b. No
+blocking error was found. That review covers the theorem as saved there.
+
+Root independently checked `route-c/WINDOW-PREDICTOR-DEPTH.md`: the parity
+subcube and unit-ring condition, integral upper predictor, affine-query
+degree induction, clamped window, modal mass, adjacent-binomial ratios,
+two outside bands, explicit large cutoff and matching resource upper bound.
+Root replayed `check_window_depth.py` under `python3 -I -B`; it passed
+10,625 band identities, 5,310 odd-characteristic witnesses, 64 mod-four
+negative controls, 2,925 centered-window comparisons and twelve exact source
+tail budgets. The floating illustrative optimum is not asymptotic evidence.
+
+Root read `route-a/rational-geometry-height.md` and corroborated Route C's
+independent review: quotient principal minors, projection complements,
+fixed-depth endpoint construction and minor-controlled triangular factors
+give polynomial bit heights and an explicit singly-exponential-in-m
+generator. S002's prior proof is credited.
+
+Root also reviewed `route-a/single-exponential-root-hypothesis.md`. The
+conditional implication is accepted: actual output and denominator budgets,
+shifted roots, Boolean-quotient specialization, finite free scalar algebras,
+repair units and full pattern enumeration, both transform branches,
+numerical norms, physical compiler, chunking and threshold inversion are
+charged. Hypothesis MR itself is not proved. This review does not promote
+its conclusion to the unconditional programme bound.
+
+Finally, root read the complete macro-dispatch transfer. Its finite opcode
+contracts, additive description scans, explicit stack/head return costs,
+shrinking-tree count and charged bill computation are sound as a conditional
+compiler lemma. The full source primitive library remains an obligation.

@@ -106,8 +106,8 @@ predictor to specialize in odd characteristic.
 | Cyclotomic basis rank `d_ext` | `<=R_0` | Power-of-two root order at most `2R_0`. |
 | Expanded rows and dense scalar lists | `poly(R_0,m_I)<=E_3(O(Z_j))` | Basis expansion, all patterns, Vandermonde checks, repair matrices, entry counts. |
 | Characteristic-zero coefficient bits | `poly(R_0,m_I)` | Geometric-sum inverses and polynomially many exact array products. |
-| Rational address coefficient bits | `2^(poly(m_I))` | Conservative bound for polynomially many rational operations on the label geometry. |
-| Address numerator/denominator values and their product `B` | `<=E_3(O(Z_j))` | Their values control monotone pieces and forbidden radix primes. |
+| Rational address coefficient bits | Original invoice `2^(poly(m_I))`; reviewed refinement `poly(m_I)` | Direct quotient/complement choices and minor bounds; `route-a/rational-geometry-height.md` and S002's prior rational-address proof. |
+| Address numerator/denominator values and their product `B` | Original invoice `E_3(O(Z_j))`; refined `E_2(O(Z_j))` | Values control monotone pieces and forbidden primes. Refined literal determinant generation is also `E_2(O(Z_j))`. |
 | Address radix `b_rad` | Prime between `max(W,B,2)` and twice that bound | `W` is expanded batch width. Trial division in the value and padding below `b_rad^2` stay at height three. |
 | Complete finite budget `S_j` | `2<=S_j<=E_3(C Z_j)` | Total lists, entries, rows, passes, roles, radix/scaling values, numerical bit lengths, actual generation time/space. |
 
@@ -117,6 +117,14 @@ allowed by `cor:swap-repair`. Calls and input rows both multiply by
 the `p^(d_ext)` extension elements; that unnecessary alphabet table would
 create a fourth exponential. Fixed polynomial enlargements of `S_j`
 cover total list lengths and scans without changing its height.
+
+The unconditional extraction is already valid with its conservative
+address invoice. The separately reviewed refinement proves polynomial
+address bit heights and removes address geometry as an independent source
+of a third exponential. S002 had established this sharper bound at
+`96028cba1342c02bdca1f537ae9a80485087bdf3`; the focused proof and review
+corroborate it. The literal scalar width, and hence the complete unconditional
+budget and rate, remain unchanged.
 
 ### The binary Fourier branch
 
@@ -260,7 +268,7 @@ oracle. Small inputs use the direct fallback.
 |---|---|---|
 | Interchange incidence versus saving | `r_I=O(p log p)`, `log m_I=O(j^3 log j)` | Stronger label/call estimates, another label family, or another recurrence. The current estimate is sufficient, not a universal lower bound. |
 | Literal monomial tensor matrix | `H_mon` is double exponential; `b_0^(H_mon)` makes rows triple exponential | Smaller full-rate pencils in the required odd characteristic, preserving exact repair and call/row ratios. |
-| Address constants and radix | Conservative address-value bound also has height three | A lower global height must sharpen this invoice too. Better fraction-free geometry may help; compatible-radix and tape costs still need proof. |
+| Address constants and radix | Conservative theorem invoice has height three; reviewed address values/generation have height two | The sharper choice removes this independent third-tower expense. The radix still exceeds expanded scalar width `W`, whose current bound has height three. |
 | Extension basis representation | Prevents an avoidable fourth exponential | Preserve basis expansion instead of a table over all extension elements. |
 | Physical execution and precision | `a_j,c_j<=poly(S_j)`, `log U_j<=poly(S_j)` | Charge actual row scans, field maps, routing, widths, setup and live space; finite-description savings alone do not establish these costs. |
 | Weighted enumeration | `i_j=O((j+log S_j)^2)` | Binary weights/preflight improve selection, but core and threshold profiles retain the present height. |

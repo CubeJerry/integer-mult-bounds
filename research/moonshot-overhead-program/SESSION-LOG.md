@@ -42,3 +42,10 @@ Remote S002 checkpoint96028cba1342c02bdca1f537ae9a80485087bdf3 supplied a prior 
 Prepared after reconciling concurrent E001 head `0961d2083f80429dde4b6ec5197585f727c7f87b`. Its focused files, top-level additions, primary bound and separate conditional theorem are preserved. S002 independently derived and reviewed the same cubic-logarithmic parameter scale; neither session's derivation is overwritten or represented as a priority claim.
 
 This checkpoint saves the sharper accepted rate, characteristic-two power-of-two labels, a complete finite order-three physical closure with two-predictor repair, and independently reviewed scoped representation barriers. Exact isolated replays and their hashes are saved. Compact-representation IP/IP4 premises remain open, with conditional bridge review active. All three agents remain active. The requested session still runs toward 16:20:23 UTC; this checkpoint does not claim three-hour completion.
+
+
+## E001 fifth checkpoint — 15:20 UTC preparation
+
+A further independent synthesis audit matched checkpoint0961d208 proof hashes. New reviewed work includes the exact-window depth/resource obstruction, sharper rational-address heights and a complete conditional compact-matrix-root transfer. Root replayed the exact window verifier successfully. The accepted complete envelope is unchanged; a balanced-formula construction is still under review.
+
+Fresh remote head4689161c5bc6c9e64536034d4fa6af033d26a3e0 contained S002's independent same-scale extraction, characteristic-two physical closure and new scoped barriers/conditional bridge. Those files and parent entries are preserved. E001 ends at the actual requested16:25:26 UTC, and remains active.

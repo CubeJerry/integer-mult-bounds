@@ -150,7 +150,7 @@ def main():
         "slack_selector_cases": slack_cases,
         "slack_selector_admitted": slack_admitted,
         "slack_prime_witness_cases": len(slack_witnesses),
-        "scope": "integer-root/threshold inequalities, exact primality and compatibility, constant padding volume, finite failure flag",
+        "scope": "integer-root and R7/R10 selector inequalities, exact primality and compatibility, R1 constant and R2 reciprocal-slack padding volumes, finite failure flag",
         "not_verified": ["BHP threshold", "template generation cost", "uniform address-map implementation", "new multiplication bound"],
         "witnesses": witnesses,
         "slack_witnesses": slack_witnesses,

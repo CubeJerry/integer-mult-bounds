@@ -58,3 +58,10 @@ Concurrent S002 checkpoint96028cba1342c02bdca1f537ae9a80485087bdf3 was read and 
 The lead additionally read complete Fourier `layers.tex` and `geometry.tex`, including occupied-workspace restoration, characteristic-two order-three arithmetic closure, spectral-price interfaces and the two-phase conversion argument. The new physical order-three result is compared against that source arithmetic closure; the source already treats general finite fields algebraically, while the new note supplies its explicit physical shared-swap closure and parameter accounting.
 
 Primary-source searches identified generalized Clifford/Ulrich representations and modular incidence-rank literature as leads. Their search excerpts or abstracts were inspected; complete external proofs were not imported. The new scoped Chow, width and sketch proofs are written out self-contained. Full companion tensor/permanent geometry proofs, remaining Fourier chapters and a complete formal dependency audit remain unfinished. The 103-file integrity manifest continues to mean byte verification only.
+
+
+## E001 additional review and source refresh — 15:20 UTC
+
+Prompt, canonical main and OpenAI manuscript heads were rechecked at2026-11-25T15:16:37Z and remained at their recorded pins. Root directly read S002's new sharper-parameter proof, compact integral IP bridge and exact formal Chow barrier at4689161c5bc6c9e64536034d4fa6af033d26a3e0. The other new characteristic-two component records are preserved, without claiming a fresh E001 audit of their complete proofs.
+
+E001 root read the primary Sheng–Tribone tensor-factorization Proposition3.2 and Hrubes–Yehudayoff homogeneous-formula statements while investigating a different representation. The integral Gaussian-binomial identity and general scalar-ring descent are being checked self-contained. Search excerpts are not substituted for the full source proof. The proposed formula construction is not yet an admitted global premise.

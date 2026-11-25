@@ -68,3 +68,8 @@ The accepted source family also satisfies log2 m_j=O((j+2)^3 log2(j+2)), using a
 This is the same scale recorded by E001, now independently derived and reviewed in S002. The [lead review](verification/S002/lead-review-sharper-extraction.md) records all reused gates. The correct fallback and common O(n) visited-cell cap persist. This rate remains larger than 2^{O(s^beta)} for every fixed beta<1; no kappa_ov is assigned.
 
 The new characteristic-two order-three physical family changes the finite algebra and repair closure but retains a large generic representation. Proposed compact IP/IP4 hypotheses would remove one exponential layer and give a stronger conditional iterated-logarithm rate. Those hypotheses are open and do not alter this unconditional envelope or replace E001's separately scoped conditional selector theorem.
+
+
+## E001 compact-root conditional target — 15:20 UTC
+
+The complete MR implication in `results/epsilon-uniformity/route-a/single-exponential-root-hypothesis.md` gives H<=2^{O(x(log2(z+2)/z)^(1/3))}, z=log2(x+16), under a precise actual-bit-construction hypothesis for a full-rate matrix root. It charges both transform branches, all shifts, repair, scalar descent, refined rational heights, physical compilation, thresholds, chunking and search. MR remains unproved. This is the same asymptotic scale as S002's more general IP conditional bridge at4689161c; neither changes the unconditional bound. The bounded-preflight poly-x conditional result remains separately scoped.

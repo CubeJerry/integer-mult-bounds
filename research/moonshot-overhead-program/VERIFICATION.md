@@ -59,3 +59,8 @@ The lead also replayed Chow compression (102 exact inclusion ranks, 243 formal p
 The latest order-three isolated replay includes 390 cyclotomic difference tests, 64 basis orbits, 3,456 predictions, both transform signs at one and two levels, and a final three-factor swap word. The largest exact computation has 19,683 independent rows and 1,259,712 field entries. Seven deliberate ordering/identity/repair failures are detected. It uses the new two-predictor F4 identity. Direct spectral matrices in this finite test do not execute the generic representation, physical router or full multiplier. C independently reviewed and replayed this same latest construction.
 
 A independently replayed the root linear-sketch theorem; C independently replayed the characteristic-two error-rank theorem. Their proof/replay files retain separate provenance. All findings are AI-assisted written proofs and finite checks, not human refereeing or kernel certification.
+
+
+## E001 synthesis and window-resource audit — 15:20 UTC
+
+`route-b/global-synthesis-review.md` under the focused result records a separate theorem/profile/compiler/space/threshold audit and SHA-256 matches to checkpoint0961d208. Root reviewed the window-degree and resource proof, rational-height refinement and complete conditional MR implication. The isolated exact window checker passed10625 band values,5310 odd-characteristic degree witnesses,64 mod-four controls,2925 centered-window comparisons and twelve source tail budgets. Floating resource examples are explicitly illustrative. No universal theorem is inferred merely from these finite cases.

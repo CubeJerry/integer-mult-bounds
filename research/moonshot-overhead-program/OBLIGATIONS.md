@@ -79,3 +79,10 @@ EU-PREFLIGHT is closed as a complete conditional selector/transfer, with stronge
 | S2-IP / IP4 | Open hypotheses, conditional bridge review in progress | Single-exponential actual full-rate data and construction would reduce one exponential in the candidate profile. |
 
 The stronger unconditional rate has no new conjectural premise. The endpoint and all stronger benchmark families remain open.
+
+
+## E001 window/resource and compact-root gates — 15:20 UTC
+
+EU-WINDOW is closed as a scoped theorem: the exact parity predictor on a Hamming band has degree and affine-query depth at least its width, over rings with two invertible. The retained all-shift, window-marked full-conversion resource optimum is Theta(sqrt(m log m)). This is not an actual tape-runtime lower bound and does not exclude S002's changed constant-tail repair.
+
+EU-MR is a complete conditional transfer from a specified singly-exponential full-rate affine root of the actual integral predictor, with charged scalar output and generation. The implication passed root review; the algebraic construction remains open. It overlaps S002's independently proved, more general IP bridge and is credited accordingly. A balanced-formula alternative is being reviewed separately; no new unconditional bound is admitted at this checkpoint.

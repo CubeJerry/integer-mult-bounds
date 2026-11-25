@@ -149,3 +149,156 @@ one recursive call per input row. Under such an invoice with uniform
 positive cost per stage, the window alone precludes a main-call mass
 `sqrt(m)(1+o(1))`. Without that additional premise, (W2)--(W3) remain
 algebraic depth bounds only.
+
+## 4. Rebalancing the same window-marked repair does not remove the factor
+
+There is a stronger two-resource statement if one keeps the source's
+uniform use of all translated shifts and marks every row outside one
+contiguous count window. At each fixed frequency the count then has
+distribution `C~Binomial(m,1/2)`. Set
+
+\[
+ \delta=\Pr[C\notin[u,v]].
+\]
+
+On `R` independent rows with equal shift multiplicities, the marked
+set has exactly `R delta` rows. A Hermite table sized to contain that
+set has `s>=R delta`. The literal source conversion protocol performs
+`4s` full-row conversions, each invoiced at `m` smaller swaps. Thus
+its conversion invoice is at least `4m delta` per input row. This
+counts the specified protocol; it does not prove that every possible
+conversion or repair needs this many calls.
+
+**Theorem W2.** For every sufficiently large `m` and every integer
+window `[u,v]` in `[0,m]`,
+
+\[
+ (v-u)+m\Pr[C\notin[u,v]]
+       \ge\frac1{16}\sqrt{m\ln m}. \tag{W4}
+\]
+
+One explicit conservative valid range for the proof below is `m>=2^512`.
+Consequently the sum of pencil depth and the full-conversion invoice
+cannot be `O(sqrt(m))` in this window-marked protocol. This is a
+two-resource obstruction: either the predictor depth has the excess,
+or the marked full-row conversions have a still larger cost.
+
+### Proof without asymptotic normal approximations
+
+Let `c=floor(m/2)` be a binomial mode. Chebyshev's inequality and
+`Var(C)=m/4` put at least `3/4` of the probability in at most
+`2 sqrt(m)+2` counts around `m/2`. Since a mode has maximal mass,
+
+\[
+ \Pr[C=c]\ge\frac{3}{16\sqrt m}. \tag{W5}
+\]
+
+For an integer `0<=t<=c/4`, compare consecutive probabilities:
+
+\[
+ \frac{\Pr[C=c+t]}{\Pr[C=c]}
+ =\prod_{i=1}^t\frac{m-c-i+1}{c+i}
+ \ge\exp\left(-\frac{6t(t+1)}m\right). \tag{W6}
+\]
+
+Indeed each ratio is at least `1-2i/c`; here `2i/c<=1/2` and
+`ln(1-x)>=-2x` on `[0,1/2]`. Sum the logarithms and use
+`c>=m/3`. A negative displacement of size `t` has the mass of a
+positive displacement of size at most `t+1`, by binomial symmetry.
+
+Write `D=v-u`. If `D>=sqrt(m ln m)/16`, (W4) is immediate.
+Otherwise put `s=floor(sqrt(m))` and consider the two bands
+
+\[
+ \{c+D+1,\ldots,c+D+s\},\qquad
+ \{c-D-s,\ldots,c-D-1\}.
+\]
+
+Their nearest points are more than `D` apart, so an interval of width
+`D` cannot meet both. One entire band lies outside `[u,v]`. At the
+stated range of `m`, both bands lie in `[0,m]`, their relevant mode
+displacements satisfy the condition of (W6), and every required
+`t(t+1)` is at most `(D+sqrt(m)+2)^2`. With `l=ln m>=256`,
+
+\[
+ \frac{6(D+\sqrt m+2)^2}{m}
+ \le6(\sqrt l/16+2)^2\le l/4.
+\]
+
+For the last inequality, expand the square: it is enough that
+`29l/128>=1.5 sqrt(l)+24`, which holds at `l=256` and increases
+thereafter. The displacement condition follows, for example, from
+`ln m<=sqrt(m)` and `m>=2^512`.
+
+Each of the at least `sqrt(m)/2` outside-band counts has mass at
+least `3 m^(-1/4)/(16 sqrt(m))`. Hence
+
+\[
+ \delta\ge\frac3{32}m^{-1/4},\qquad
+ m\delta\ge\frac3{32}m^{3/4}
+          \ge\frac1{16}\sqrt{m\ln m}.
+\]
+
+The last inequality again follows from `ln m<=sqrt(m)`. This proves
+(W4). The large explicit cutoff simplifies constants; no numerical
+normal approximation or uncomputed tail threshold enters the proof.
+
+### Sharpness for this resource accounting
+
+The source's window has `D=O(sqrt(m log m))` and
+`delta<=1/(2m^3)`. Its original matrix-root predictor has at most
+`2D` stages for large `m`. Therefore the resource quantity
+
+\[
+ \text{predictor depth}+m\delta
+\]
+
+is `O(sqrt(m log m))`. Together with (W2) and (W4), its optimal
+order within this particular window-marked family is
+`Theta(sqrt(m log m))`. Binary Hermite's four predictor applications
+and four conversion batches change only constants in this comparison.
+
+This conclusion allows one to rebalance the window arbitrarily; it is
+not merely tied to the source's convenient error target `m^-3`.
+It still requires all translated shifts with equal multiplicity,
+marking the whole complement of the window, and the literal full-row
+conversion bill. A smaller shift family with another count law,
+fortuitous correctness outside the window combined with a smaller
+marked set, or a new repair mechanism is outside the conclusion.
+
+## 5. Consequence for the next endpoint attempt
+
+The near-critical recurrence in `NONSTATIONARY-RECURSION.md` needs an
+actual normalized child mass close enough to one that its excesses
+are summable. Merely replacing the original large matrix root by a
+more compact exact-window representation does not provide that mass:
+the predictor depth remains as in (W3). The inference to mass is
+conditional on the separate per-stage invoice described above.
+
+S002's pairwise-independent constant-tail protocol changes the window
+and the repair and is **not ruled out** by the window-marked resource
+tradeoff. Its own conversion, division, precision, movement and space
+costs must be evaluated under its changed interface. The literal
+finite-characteristic lift barriers in the parent notes and S002's
+complementary supported-transfer theorem concern a different resource;
+they should not be added to this depth bound without a shared cost model.
+
+The useful research decision is therefore precise: improve the row
+representation to reduce constants, but an endpoint attempt must also
+change the vanishing-error window/repair invoice, exploit cheaper
+stage accounting with a proof, or supply another mechanism entirely.
+
+Credits: the cited OpenAI predictor and repair constructions, S002 compact
+prediction and constant-tail programme, and @CubeJerry. This application
+and its elementary finite checks were developed with GPT-6 Astra Pro.
+
+## Finite verification receipt
+
+`check_window_depth.py` passes under `python3 -I -B`. It checks 10,625
+integer band values, 5,310 nonzero odd-characteristic degree witnesses,
+64 characteristic-four negative controls, 2,925 exact comparisons of
+centered-window mass, and the source's integer tail budget at twelve
+widths from two through 4,096. The adjacent JSON also gives illustrative
+values of the optimized window resource functional. Those floating
+values are not runtime measurements or proofs of the asymptotic lower
+bound. The universal degree and resource theorems are proved above.

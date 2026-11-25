@@ -34,7 +34,10 @@ are preserved; no literature-priority or practical-runtime claim is made.
 - [route-a/elementary-tower-extraction.md](route-a/elementary-tower-extraction.md)
   and [compiler-invoice.md](route-a/compiler-invoice.md): complete quantitative
   construction and physical cost proof supporting the main theorem.
-- [PARAMETER-LEDGER.md](PARAMETER-LEDGER.md): dependency and threshold ledger.
+- [PARAMETER-LEDGER.md](PARAMETER-LEDGER.md): parameter and threshold ledger.
+- [DEPENDENCIES.md](DEPENDENCIES.md): complete path, conditional branches and exact remaining interfaces.
+- [route-c/WINDOW-PREDICTOR-DEPTH.md](route-c/WINDOW-PREDICTOR-DEPTH.md): exact window degree/depth and a scoped window-versus-conversion resource obstruction.
+- [route-a/single-exponential-root-hypothesis.md](route-a/single-exponential-root-hypothesis.md): a complete stronger conditional transfer from a precise full-rate matrix-root hypothesis; the hypothesis remains open.
 - [INTERCHANGE-OBSTRUCTION.md](INTERCHANGE-OBSTRUCTION.md): rational Gram rank
   forces a characteristic/window conflict in the retained tape interchanger.
   This has separate algebraic agent review and exact finite checks.

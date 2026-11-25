@@ -204,6 +204,13 @@ is still `E_3(O(Z))`. It avoids every bad numerator and denominator,
 and the source's binary-to-radix padding costs a factor less than `b^2`,
 also of the same elementary height.
 
+The conservative geometry invoice above is sufficient for this theorem.
+The separately reviewed `rational-geometry-height.md` sharpens address bit
+heights to `poly(m)` and address values/generation to `E_2(O(Z))`,
+corroborating S002's existing rational-address bound. It does not alter
+the present scalar-dominated `E_3` budget. That refinement is relevant to
+the conditional compact-matrix-root transfer.
+
 Thus one computably generated bound `S>=2` of size
 
 \[

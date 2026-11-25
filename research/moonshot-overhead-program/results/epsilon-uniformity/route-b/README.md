@@ -21,6 +21,7 @@ constructed.
 | [Macro dispatch transfer](macro-dispatch-transfer.md) | A fixed finite primitive library makes description dispatch additive in macro events; explicit control and bill-generation bounds | Physical opcode contracts for the complete source |
 | [Tower-profile comparison](tower-profile-comparison.md) | Preflight does not improve the current advertised tower envelope using only its coarse cost profiles | Better core execution/space and/or threshold growth |
 | [Independent reviews](independent-reviews.md) | Lead certificate calculus and literal p-adic lift proof reviewed, with successful finite replay | No human or Lean certification |
+| [Global synthesis review](global-synthesis-review.md) | Theorem E's quantifiers, complete profiles, common space and integer inversion pass a snapshot-pinned audit | The cited source/compiler proofs; no full formalization |
 
 ## Exact conditional endpoint/polylog-log theorem
 
@@ -86,7 +87,7 @@ Also independently ran the lead's `verify_padic_lift.py` and read its source;
 the exact coverage and report timestamp are in the independent-review note.
 No source-wide Lean build, full formal compiler or human review was run.
 
-## Most consequential next proof obligation
+## Next proof obligation for the preflight route
 
 Construct a finite macro vocabulary and its **actual physical bills** for a
 specific scalable template family. Use M1–M3 to avoid scanning an entire
