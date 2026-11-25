@@ -1,0 +1,86 @@
+{
+  "scope": "Exact finite combinatorial partition checks; no tape or asymptotic execution.",
+  "source_sha256": "2ca147f8186074c7957eb0ca6926e856d425639afc39d6db96002e50dce93fa3",
+  "inner_cases": [
+    {
+      "d": 2,
+      "q": 2,
+      "words": 8,
+      "rectangles": 24,
+      "edges": 24,
+      "source_incidence": 3,
+      "destination_incidence": 3,
+      "average_side_size": "1",
+      "negative_controls": 1
+    },
+    {
+      "d": 2,
+      "q": 4,
+      "words": 64,
+      "rectangles": 864,
+      "edges": 1728,
+      "source_incidence": 18,
+      "destination_incidence": 18,
+      "average_side_size": "4/3",
+      "negative_controls": 66
+    },
+    {
+      "d": 2,
+      "q": 8,
+      "words": 512,
+      "rectangles": 18816,
+      "edges": 75264,
+      "source_incidence": 63,
+      "destination_incidence": 63,
+      "average_side_size": "12/7",
+      "negative_controls": 514
+    },
+    {
+      "d": 3,
+      "q": 2,
+      "words": 32,
+      "rectangles": 320,
+      "edges": 320,
+      "source_incidence": 10,
+      "destination_incidence": 10,
+      "average_side_size": "1",
+      "negative_controls": 1
+    },
+    {
+      "d": 3,
+      "q": 4,
+      "words": 1024,
+      "rectangles": 69120,
+      "edges": 276480,
+      "source_incidence": 120,
+      "destination_incidence": 120,
+      "average_side_size": "16/9",
+      "negative_controls": 1026
+    },
+    {
+      "d": 4,
+      "q": 2,
+      "words": 128,
+      "rectangles": 4480,
+      "edges": 4480,
+      "source_incidence": 35,
+      "destination_incidence": 35,
+      "average_side_size": "1",
+      "negative_controls": 1
+    }
+  ],
+  "full_outer_case": {
+    "d": 2,
+    "q": 2,
+    "labels": 512,
+    "rectangles": 13824,
+    "edges": 13824,
+    "regular_source_and_destination_incidence": 27
+  },
+  "totals": {
+    "inner_rectangles": 93624,
+    "inner_edges": 358296,
+    "inner_words": 1768,
+    "negative_controls": 1609
+  }
+}

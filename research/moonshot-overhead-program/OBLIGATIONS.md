@@ -209,3 +209,7 @@ E003 local PS/CL/FP and P-O reviewed. Its remaining composition gate is fixed-ar
 - **New mechanisms:** heterogeneous endpoint alphabets, dense low-recurrence residuals and full-alphabet survivor rank are active and unadmitted at this checkpoint.
 
 See S004 `lead/SECOND-WAVE-ADMISSION.md` for the exact boundaries.
+
+## E002 conditional and geometry checkpoint — 2026-11-25T23:33:42.601963+00:00
+
+The next E002 positive gate is actual rectangle-volume shared delivery in BOTH exact interchange and the numerical Fourier kernel, including visited regions and individual child/reserve contractions. Counts alone do not establish it. Complete conditional implication and both independent reviews are recorded; physical hypotheses remain open. New noncanonical incidence and query-map theorems are scoped geometry/certificate results, never runtime lower bounds.

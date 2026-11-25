@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "scope": "finite exact algebra and geometry, not tape/runtime lower bounds",
+  "binary_cases": [
+    {
+      "d": 2,
+      "points": 3,
+      "polynomial_rank": 1,
+      "monomial_bound": 1,
+      "exact_largest_independent_family": 1,
+      "family_bitmasks": [
+        6
+      ]
+    },
+    {
+      "d": 4,
+      "points": 35,
+      "polynomial_rank": 7,
+      "monomial_bound": 8,
+      "exact_largest_independent_family": 5,
+      "family_bitmasks": [
+        106,
+        90,
+        120,
+        114,
+        58
+      ]
+    }
+  ],
+  "qary_cases": [
+    {
+      "d": 2,
+      "q": 2,
+      "far_neighbors": 3,
+      "exact_largest_independent_family": 1,
+      "rank_bound": 8
+    },
+    {
+      "d": 2,
+      "q": 4,
+      "far_neighbors": 27,
+      "exact_largest_independent_family": 6,
+      "rank_bound": 16
+    }
+  ],
+  "binomial_inequalities": 9,
+  "uniform_incidence_inequalities": 60,
+  "different_outer_support_checks": 598,
+  "negative_assumption_controls": 2
+}

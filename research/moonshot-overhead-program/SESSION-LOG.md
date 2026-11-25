@@ -257,3 +257,7 @@ The complete JR-only conditional theorem now gives H<=2^{O_c(s^(2/3))}, by separ
 Admitted scoped components include inverse-aware active query volume, its weighted two-point rational-fraction extension, full-batch and active-row two-converter repair-tree floors, constraints on fixed-bilinear sparse suppliers, and a sound budgeted ordinary-residual certificate under a coefficientwise one-sided premise. The latter uses exact zeroth, first and second folded moments plus total mass; it removes the trusted sparsity premise but does not supply a fast candidate or certify the sign premise. Complete proofs, reviews, limitations and lead replay counts are in `sessions/2026-11-26-S004/lead/SECOND-WAVE-ADMISSION.md`.
 
 The active portfolio now tests heterogeneous Fourier geometry, dense low-recurrence residuals and full-alphabet survivor rank. Euclidean spectral-price source scope was audited; no physical tape primitive is imported from an advised circuit or contradiction-hypothesis construction. Work continues to the requested 01:01:15 UTC endpoint.
+
+## E002 conditional and geometry checkpoint — 2026-11-25T23:33:42.601963+00:00
+
+E002 checkpoint preparation: admitted complete conditional log-free two-thirds transfer after two independent reviews. RV-I/RV-W remain open; V unconditional unchanged. Imported exact geometry and optional-component reviews, preserved concurrent S003/E003 head3b220847, and continues protected independent delivery/partition discovery through00:19:31 UTC.

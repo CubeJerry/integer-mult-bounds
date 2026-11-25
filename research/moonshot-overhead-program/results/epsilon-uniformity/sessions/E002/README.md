@@ -36,3 +36,12 @@ Credits: @CubeJerry, pinned OpenAI source and cited prior authors, earlier
 S002/E001 programme work, separately credited concurrent S003/E003/S004,
 and substantial ChatGPT multi-agent assistance. No full tape-machine
 execution, formal refinement, human refereeing or priority is claimed.
+
+## Reviewed follow-on work
+
+- [Conditional log-free two-thirds theorem](lead/rectangle-volume-conditional-transfer.md) and [admission](lead/ADMISSION-RV.md): RV-I/RV-W remain open.
+- [Conditional parameter/threshold ledger](PARAMETERS-RV.md).
+- [Accepted components, exact geometry, scoped obstructions and evidence](lead/FOLLOW-ON-GATES.md).
+- [Independent conditional review A](review-a/REVIEW-RECTANGLE-VOLUME-CONDITIONAL.md) and [review C](review-c/REVIEW-RECTANGLE-VOLUME-CONDITIONAL.md).
+
+Concurrent S003 independently admits the same unconditional V scale using its distinct absolute-space construction. Its checkpoint2fde2b0c and subsequent E003 checkpoint3b220847 are preserved; their own proofs and review scopes govern those results.

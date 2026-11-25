@@ -1,0 +1,82 @@
+{
+  "status": "PASS_EXACT_FINITE_COUNTS",
+  "counts": {
+    "predictor_values": 29,
+    "label_pairs": 139792,
+    "wrong_free_sign_rejections": 41576,
+    "even_support_rejections": 7,
+    "deleted_incidence_rejections": 7,
+    "cases": 7,
+    "rectangles": 8408,
+    "covered_edges": 41576,
+    "regular_labels_both_sides": 1352
+  },
+  "cases": [
+    {
+      "L": 2,
+      "q": 2,
+      "labels": 4,
+      "rectangles": 8,
+      "incidence_per_side": 2,
+      "covered_edges": 8,
+      "charged_rectangle_majorant": 5
+    },
+    {
+      "L": 2,
+      "q": 4,
+      "labels": 16,
+      "rectangles": 48,
+      "incidence_per_side": 4,
+      "covered_edges": 96,
+      "charged_rectangle_majorant": 9
+    },
+    {
+      "L": 2,
+      "q": 8,
+      "labels": 64,
+      "rectangles": 224,
+      "incidence_per_side": 6,
+      "covered_edges": 896,
+      "charged_rectangle_majorant": 17
+    },
+    {
+      "L": 2,
+      "q": 16,
+      "labels": 256,
+      "rectangles": 960,
+      "incidence_per_side": 8,
+      "covered_edges": 7680,
+      "charged_rectangle_majorant": 33
+    },
+    {
+      "L": 4,
+      "q": 2,
+      "labels": 16,
+      "rectangles": 128,
+      "incidence_per_side": 8,
+      "covered_edges": 128,
+      "charged_rectangle_majorant": 33
+    },
+    {
+      "L": 4,
+      "q": 4,
+      "labels": 256,
+      "rectangles": 4992,
+      "incidence_per_side": 40,
+      "covered_edges": 30720,
+      "charged_rectangle_majorant": 113
+    },
+    {
+      "L": 6,
+      "q": 2,
+      "labels": 64,
+      "rectangles": 2048,
+      "incidence_per_side": 32,
+      "covered_edges": 2048,
+      "charged_rectangle_majorant": 233
+    }
+  ],
+  "checker_sha256": "3c64f5757e21388e09150a13249d7d2738b7fb0f6834247955c5b112c2005ce0",
+  "note_sha256": "bdd57fe9291e7e928346c81d8ea120e14457e4d0fbc95c9386cca29f5b5450e8",
+  "scope": "Exact finite source partitions and weights; not a physical rectangle-volume executor or an asymptotic proof."
+}

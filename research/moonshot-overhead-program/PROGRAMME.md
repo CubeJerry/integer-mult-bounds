@@ -123,3 +123,7 @@ A/C's matching literal-invoice obstruction closes further arity/distance/nesting
 ## S004 alternative-geometry conditional result
 
 JR exact local-load partitions, if they exist with the specified uniform exponential-in-dimension and polynomial-in-log-alphabet bound, imply the complete conditional H<=2^{O_c(s^(2/3))} theorem. Exact interchange and numerical Fourier need distinct geometry substitutions; the admitted E002 schedule, precision and common-cap suppliers close the rest. JR is open. S004 also supplies independently reviewed sparse-correction/certification components and inverse-aware model bounds. The shared unconditional envelope remains E002's log-corrected two-thirds theorem. Detailed status: `sessions/2026-11-26-S004/lead/SECOND-WAVE-ADMISSION.md`.
+
+## E002 conditional and geometry checkpoint — 2026-11-25T23:33:42.601963+00:00
+
+The E002 follow-on package now separates an admitted unconditional V construction, a complete conditional rectangle-volume target, proved finite-parameter components, and scoped incidence/query-map certificate obstructions. The next construction must improve actual shared delivery; lower output counts do not suffice. S003 independently attains the same current unconditional envelope with a different space implementation and retains separate provenance.

@@ -36,7 +36,7 @@
     ],
     "threshold": "Absolute eventual; constants and cutoff not numerically evaluated"
   },
-  "current_status": "Theorem V admitted after A/C independent global and root-wrapper reviews; protected endpoint/geometry discovery continues.",
+  "current_status": "V unconditional; RV complete conditional implication reviewed, both physical hypotheses open; protected construction and geometry discovery continues.",
   "publication": "regular fast-forward checkpoints; no upstream PR",
   "verification_limits": [
     "No full multiplier execution",
@@ -56,10 +56,11 @@
   "verified_checkpoints": [
     "f3ed00d87df18bdee984e8e7e75f16ea8774ff75",
     "9d5abf18ff741ff6f8b9f82790e0475fc662b4fe",
-    "9e84956f071e7cc845935a55a5c717db08be6ea0"
+    "9e84956f071e7cc845935a55a5c717db08be6ea0",
+    "8af1911b02c04d0c410dd181597fd160582a78b4"
   ],
   "component_verification": "Earlier five isolated lead component replays plus independent composite-radix checks and isolated grouped-role replay:108 layouts,56889 repairs,108 wrong-order controls. Written full source/composition reviews; no complete multiplier execution.",
-  "concurrent_preserved_head": "df91e4c8",
+  "concurrent_preserved_head": "af5d7983fce7c50a8df5fe13428e587e96543727",
   "previous_complete_overhead_bound": {
     "formula": "T(n)=O(n sqrt(L) 2^{O(x^(3/4)(log2(x+2))^(1/4))})",
     "L": "1+log2 n",
@@ -70,5 +71,21 @@
     "admission": "lead/ADMISSION-P.md",
     "scope": "No endpoint or polynomial-x claim; every fixed beta>3/4 follows. No human refereeing, full execution or formal refinement."
   },
-  "latest_admission_utc": "2026-11-25T22:42:21Z"
+  "latest_admission_utc": "2026-11-25T22:42:21Z",
+  "conditional_complete_overhead_bound": {
+    "formula": "T(n)=O(n sqrt(L) 2^{O(x^(2/3))})",
+    "L": "1+log2 n",
+    "x": "log2 L",
+    "status": "Complete conditional implication independently reviewed; RV-I and RV-W OPEN",
+    "hypotheses": [
+      "RV-I: exact shared-pencil recursive-volume and visited-space delivery with full occupancy, local construction and explicit child/reserve bounds",
+      "RV-W: numerical shared-pencil Fourier-call delivery with polynomial ordinary costs, coefficient heights, visited array regions and preserved source interfaces"
+    ],
+    "proof": "results/epsilon-uniformity/sessions/E002/lead/rectangle-volume-conditional-transfer.md",
+    "admission": "results/epsilon-uniformity/sessions/E002/lead/ADMISSION-RV.md",
+    "parameters": "results/epsilon-uniformity/sessions/E002/PARAMETERS-RV.md",
+    "space": "Uniform O(n) cells ever visited",
+    "scope": "No unconditional improvement, polynomial-x overhead, endpoint, full execution, formal refinement or priority claim"
+  },
+  "last_prepared_utc": "2026-11-25T23:33:42.601963+00:00"
 }

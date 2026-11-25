@@ -1,11 +1,16 @@
 {
-  "copied_utc": "2026-11-25T22:44:29.256330+00:00",
-  "scope": "Imported snapshots; admission/review hashes govern accepted mathematical contents.",
+  "copied_utc": "2026-11-25T23:22:47.577694+00:00",
+  "scope": "Imported snapshots; admission/review hashes govern accepted mathematical contents. Optional proposals are not premises of admitted V.",
   "files": [
     {
       "path": "route-a/ADDRESS-RADIX-INTERFACE.md",
       "sha256": "757b2404080e356a5362b29448756ab11a3e3c7aa5fea0b8433eeee587c2de91",
       "bytes": 8483
+    },
+    {
+      "path": "route-a/EMBEDDED-SUBFIELD-ENUMERATION.md",
+      "sha256": "7d656ab3e91552ba61510d4687773a53e8d63b54971180efcea53717c8db924e",
+      "bytes": 6857
     },
     {
       "path": "route-a/HEIGHT-PRICED-AFFINE-STREAMS.md",
@@ -16,6 +21,16 @@
       "path": "route-a/LITERAL-LABEL-PROFILE-BARRIER.md",
       "sha256": "4f486788baf7b1a9ce64a29e3303e73f97273dc868cbaef28eac0ff5307cb5c5",
       "bytes": 4755
+    },
+    {
+      "path": "route-a/LOW-BIT-COEFFICIENT-PACKING.md",
+      "sha256": "0d231ce8e872f577cfee1eca3074a4f418fbfd2e6d8db05b2f99ec3ad41bfa89",
+      "bytes": 6053
+    },
+    {
+      "path": "route-a/NONCANONICAL-RECTANGLE-INCIDENCE-BARRIER.md",
+      "sha256": "35143ce234fee2acd20c23dbaf53987972e705d92b4839c77449b5952c8cd806",
+      "bytes": 8826
     },
     {
       "path": "route-a/OUTER-TAPE-COMPILATION-AUDIT.md",
@@ -38,6 +53,11 @@
       "bytes": 7623
     },
     {
+      "path": "route-a/REVIEW-E003-PACKING-AND-PENCIL.md",
+      "sha256": "c64748f3ebf7e3d143bd79c34c490c6fe42ab73980ff7601efe1327757130acc",
+      "bytes": 5770
+    },
+    {
       "path": "route-a/REVIEW-GLOBAL-POLYNOMIAL-PROFILE.md",
       "sha256": "0acb8e9619da130129fb5f4b25c90f0be9b88af41d5db00f6e4499c6d5966ef7",
       "bytes": 15170
@@ -51,6 +71,16 @@
       "path": "route-a/REVIEW-POLYNOMIAL-INTERCHANGER.md",
       "sha256": "416d4444580f324b932ac6abf4f56be805ae04b69c2552d5ff0588b49336b360",
       "bytes": 5824
+    },
+    {
+      "path": "route-a/REVIEW-STREAMED-LAGRANGE.md",
+      "sha256": "96a852a6821cd1fe5ec28fd6f1a828e1a4d6965d263d462ee0ad61584f01f7d9",
+      "bytes": 3629
+    },
+    {
+      "path": "route-a/REVIEW-VARIABLE-INVOICE-AND-EXACT-INCIDENCE.md",
+      "sha256": "2fa4877bbdb8b526315104c8d7c40b416c6a23a3c2d53fba9a5be9a7ff274329",
+      "bytes": 6216
     },
     {
       "path": "route-a/SUCCINCT-ROW-EXECUTION.md",
@@ -68,9 +98,34 @@
       "bytes": 542
     },
     {
+      "path": "route-a/embedded-subfield-verification.json",
+      "sha256": "ca1c0dc24f09c59514c140d744afadb801c91f34459bc1d1065aad4f78e4fdfe",
+      "bytes": 675
+    },
+    {
       "path": "route-a/height-streams-verification.json",
       "sha256": "cfa38d9cb52cb3b9d2a75f4e7365a4091b199350162fa849dcf37fa63072dd0f",
       "bytes": 842
+    },
+    {
+      "path": "route-a/low-bit-packing-verification.json",
+      "sha256": "a224343875859ae56f85127e560ded88504a0839f857648354fb22b46cf22417",
+      "bytes": 267
+    },
+    {
+      "path": "route-a/noncanonical-incidence-verification.json",
+      "sha256": "4b426dfb680dd4afd09ce7aedf174db99ede3444db052ab58e9f9104c26de05a",
+      "bytes": 1001
+    },
+    {
+      "path": "route-a/replay-canonical-incidence/canonical-incidence-verification.json",
+      "sha256": "90be8b4a5d8ff3f9d2e013af4155b7b71d79e0f7960037abf5087c35570f976e",
+      "bytes": 1917
+    },
+    {
+      "path": "route-a/replay-canonical-incidence/verify_canonical_incidence.py",
+      "sha256": "2ca147f8186074c7957eb0ca6926e856d425639afc39d6db96002e50dce93fa3",
+      "bytes": 7731
     },
     {
       "path": "route-a/replay-cyclic/execution.log",
@@ -81,6 +136,16 @@
       "path": "route-a/replay-cyclic/verify_succinct_cyclic.py",
       "sha256": "859c4d782c252dfa3d1ecae7d942449c6704c8cbf0cddf3bd8d11ee37b47a963",
       "bytes": 8267
+    },
+    {
+      "path": "route-a/replay-e003-packing/full-rate-packing-verification.json",
+      "sha256": "6d7a9b3845d1007b9271b39ffa3ae6876374fe9c7e48930d1cc64450d9321980",
+      "bytes": 530
+    },
+    {
+      "path": "route-a/replay-e003-packing/verify_full_rate_packing.py",
+      "sha256": "9283e19a471344778d556551836c366397d227968a41a545948dd3d153a2bd3a",
+      "bytes": 6740
     },
     {
       "path": "route-a/replay-lagrange/streamed-lagrange-verification.json",
@@ -113,9 +178,24 @@
       "bytes": 6049
     },
     {
+      "path": "route-a/verify_embedded_subfields.py",
+      "sha256": "e238ddab6849d877fc85bd17e1fc84875e0676f3fa0e54f73a05aab47a95981d",
+      "bytes": 7223
+    },
+    {
       "path": "route-a/verify_height_streams.py",
       "sha256": "be01035ba5ae04de6aafc224fde24ff79da4ae13c79b0692bc4a3a53c3403299",
       "bytes": 5250
+    },
+    {
+      "path": "route-a/verify_low_bit_packing.py",
+      "sha256": "513e5fde829717dc6956d69fe55ccbfb99c41d499e86993ccee0b8ad9f18c285",
+      "bytes": 2534
+    },
+    {
+      "path": "route-a/verify_noncanonical_incidence.py",
+      "sha256": "df4dc85c787ed83eb5bd4e4eb3588c30acc417e018853afbedd9c5a6a498289c",
+      "bytes": 4936
     },
     {
       "path": "route-b/composite-radix-padding.md",
@@ -153,9 +233,24 @@
       "bytes": 5250
     },
     {
+      "path": "route-b/numerical-address-invoice-gate.md",
+      "sha256": "00ac6444b61f6d64aff3d51be0f356c79fcfc152e0ce8af1d4fab968b9655f41",
+      "bytes": 7668
+    },
+    {
       "path": "route-b/polynomial-walsh-precision.md",
       "sha256": "7dbc8926b2e68840e54f1ce981b5a827f53ab3f29dbe0ea7420ba25093a0ce19",
       "bytes": 13291
+    },
+    {
+      "path": "route-b/query-representative-obstruction.md",
+      "sha256": "bf0edde5973aa5b29fccb163f06ceb0d644bc264acaf41170e95801793729079",
+      "bytes": 9277
+    },
+    {
+      "path": "route-b/query-representative-verification.json",
+      "sha256": "0bd04a0fb05f532608ca151a263f63f536d33a70b4d4ffe5882da1b44fb9c6f5",
+      "bytes": 869
     },
     {
       "path": "route-b/rational-walsh-verification.json",
@@ -173,6 +268,11 @@
       "bytes": 4609
     },
     {
+      "path": "route-b/review-source-side-basis-obstruction.md",
+      "sha256": "e2f0c5b44cc9375569856b8c321184df53c11ceadd6135d55507b6463cb7ee61",
+      "bytes": 3019
+    },
+    {
       "path": "route-b/review-variable-outer-substitution.md",
       "sha256": "dd2fbebdd916c44f6dd81d4ccece4f8de2aa67457f90164239b24db2c9e9eb61",
       "bytes": 6424
@@ -181,6 +281,11 @@
       "path": "route-b/separated-setup-transfer.md",
       "sha256": "0290ece9913c8398fbe1342d2171f627fcb2f8f9fee037f492296a4acd732970",
       "bytes": 14996
+    },
+    {
+      "path": "route-b/source-basis-verification.json",
+      "sha256": "817aae71539ea7893dae26bcbe8b56ce3f135db900fb495eba73c556581ef9e2",
+      "bytes": 2954
     },
     {
       "path": "route-b/variable-arity-transfer.md",
@@ -208,9 +313,19 @@
       "bytes": 5955
     },
     {
+      "path": "route-b/verify_query_representatives.py",
+      "sha256": "186ebdee556ccbd21294d8e073445cf28e339cdff82299a8e01d68b7e46fe62f",
+      "bytes": 4443
+    },
+    {
       "path": "route-b/verify_rational_walsh.py",
       "sha256": "dee120e42ae4d4ba0637a015e1f2e331df35ac382ea2dbf0d6cfca4ae75db5f7",
       "bytes": 5305
+    },
+    {
+      "path": "route-b/verify_source_basis_obstruction_replay.py",
+      "sha256": "49e463e9b8565485815b44abba791f5867ef73e4acc29c3bd1546219ff06f2a6",
+      "bytes": 4301
     },
     {
       "path": "route-c/canonical-incidence-exactness.md",
@@ -223,9 +338,24 @@
       "bytes": 1917
     },
     {
+      "path": "route-c/fourier-free-rectangle-counts.md",
+      "sha256": "bdd57fe9291e7e928346c81d8ea120e14457e4d0fbc95c9386cca29f5b5450e8",
+      "bytes": 4926
+    },
+    {
+      "path": "route-c/fourier-rectangle-counts-verification.json",
+      "sha256": "5fb784bf25e0e8d72bd39144c3e273e991440b39b295c256a7dbeb5201ef186c",
+      "bytes": 1942
+    },
+    {
       "path": "route-c/polynomial-interchange-invoice.md",
       "sha256": "311c0d4987fde89502183bf2fb860c2462675667c6ff8e29ce59769d154aa5d1",
       "bytes": 13528
+    },
+    {
+      "path": "route-c/rectangle-volume-invoice-target.md",
+      "sha256": "021c3159692d69b93a9c118235039a88f9aae2e16e04aa2ee898942ec0bf079d",
+      "bytes": 4588
     },
     {
       "path": "route-c/replay-height/height-streams-verification.json",
@@ -236,6 +366,36 @@
       "path": "route-c/replay-height/verify_height_streams.py",
       "sha256": "be01035ba5ae04de6aafc224fde24ff79da4ae13c79b0692bc4a3a53c3403299",
       "bytes": 5250
+    },
+    {
+      "path": "route-c/replay-optional-packing/EMBEDDED-SUBFIELD-ENUMERATION.md",
+      "sha256": "9cc550a9850b021cfc73b92170cc0d72b43f868dd6db7c8239cd6f76c381b600",
+      "bytes": 6527
+    },
+    {
+      "path": "route-c/replay-optional-packing/LOW-BIT-COEFFICIENT-PACKING.md",
+      "sha256": "0d231ce8e872f577cfee1eca3074a4f418fbfd2e6d8db05b2f99ec3ad41bfa89",
+      "bytes": 6053
+    },
+    {
+      "path": "route-c/replay-optional-packing/embedded-subfield-verification.json",
+      "sha256": "ca1c0dc24f09c59514c140d744afadb801c91f34459bc1d1065aad4f78e4fdfe",
+      "bytes": 675
+    },
+    {
+      "path": "route-c/replay-optional-packing/low-bit-packing-verification.json",
+      "sha256": "a224343875859ae56f85127e560ded88504a0839f857648354fb22b46cf22417",
+      "bytes": 267
+    },
+    {
+      "path": "route-c/replay-optional-packing/verify_embedded_subfields.py",
+      "sha256": "e238ddab6849d877fc85bd17e1fc84875e0676f3fa0e54f73a05aab47a95981d",
+      "bytes": 7223
+    },
+    {
+      "path": "route-c/replay-optional-packing/verify_low_bit_packing.py",
+      "sha256": "513e5fde829717dc6956d69fe55ccbfb99c41d499e86993ccee0b8ad9f18c285",
+      "bytes": 2534
     },
     {
       "path": "route-c/replay-rational/rational-walsh-verification.json",
@@ -263,9 +423,24 @@
       "bytes": 1835
     },
     {
+      "path": "route-c/review-numerical-invoice-frontier.md",
+      "sha256": "2fccc3afe4a1d8da94efb0cc83d5164b4fc4d54f33ef8c7ca84b00f64af7c288",
+      "bytes": 4602
+    },
+    {
+      "path": "route-c/review-optional-subfield-and-packing.md",
+      "sha256": "78abd1e0d15d0d6e1ee4a3ffcd0cd0c61ac28f48b3103c0849845eefaef245ec",
+      "bytes": 5423
+    },
+    {
       "path": "route-c/review-polynomial-profile.md",
       "sha256": "f0bd0817a6aa11a0881759d4d733e6dac73fedfa6754be01792e75dd55f3b1d2",
       "bytes": 12097
+    },
+    {
+      "path": "route-c/review-query-representative-obstruction.md",
+      "sha256": "51a99b643ac198677691fe5678b3c212e883c709b05797188d0ba93405e41c18",
+      "bytes": 5013
     },
     {
       "path": "route-c/review-variable-arity-global.md",
@@ -313,6 +488,16 @@
       "bytes": 539
     },
     {
+      "path": "route-c/source-basis-verification.json",
+      "sha256": "817aae71539ea7893dae26bcbe8b56ce3f135db900fb495eba73c556581ef9e2",
+      "bytes": 2954
+    },
+    {
+      "path": "route-c/source-side-basis-obstruction.md",
+      "sha256": "d88feb7e5e334e89ad6f271a42955a0a982fbbd851d482c9e61019cfaafdd2a0",
+      "bytes": 6914
+    },
+    {
       "path": "route-c/succinct-cyclic-executor.md",
       "sha256": "e80a78c29b14da9f7806b73e3cf296fbad5deeb98ddbb8a11ef8e76a47be607e",
       "bytes": 10712
@@ -333,9 +518,19 @@
       "bytes": 7731
     },
     {
+      "path": "route-c/verify_fourier_rectangle_counts.py",
+      "sha256": "3c64f5757e21388e09150a13249d7d2738b7fb0f6834247955c5b112c2005ce0",
+      "bytes": 5617
+    },
+    {
       "path": "route-c/verify_small_radix.py",
       "sha256": "2f36ac0df6be98983670a2356d32a100b1cbf6c27fd0bc47528677b1379cfa07",
       "bytes": 4057
+    },
+    {
+      "path": "route-c/verify_source_basis_obstruction.py",
+      "sha256": "49e463e9b8565485815b44abba791f5867ef73e4acc29c3bd1546219ff06f2a6",
+      "bytes": 4301
     },
     {
       "path": "route-c/verify_succinct_cyclic.py",

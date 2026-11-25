@@ -175,3 +175,7 @@ E003 independently derives the same two-thirds candidate now admitted by concurr
 ## S004 stronger conditional partition transfer
 
 Under the sole additional open combinatorial hypothesis JR, the complete written construction in `sessions/2026-11-26-S004/route-a/joint-rectangle-two-scale-transfer.md` Section 9 gives H(n)<=2^{O_c(s^(2/3))}, s=log2(1+log2 n), with the same exact fixed multitape model and one O(n) visited-cell cap. C review and lead admission are complete. This conditional log-free two-thirds scale supersedes the earlier stationary JR transfer. It does not establish JR, polynomial-s overhead, the constant-overhead endpoint or an unconditional S004 improvement. The E002 unconditional variable-profile theorem above remains the shared baseline.
+
+## E002 conditional and geometry checkpoint — 2026-11-25T23:33:42.601963+00:00
+
+E002 adds a complete independently reviewed conditional target H=2^{O(x^(2/3))}, under the exact local physical contracts RV-I and RV-W. Both hypotheses remain open. The unconditional best remains V/AQ with x^(2/3)(log(x+2))^(1/3) in the exponent. See results/epsilon-uniformity/sessions/E002/lead/ADMISSION-RV.md and PARAMETERS-RV.md.
