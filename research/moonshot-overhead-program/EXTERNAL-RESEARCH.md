@@ -31,3 +31,26 @@ Richie Sheng and Tim Tribone, [Tensor products of d-fold matrix factorizations](
 ## Restricted multilinear compiler barrier (S002 fifth wave)
 
 Primary author copy: Pavel Hrubes and Amir Yehudayoff, *Homogeneous formulas and symmetric polynomials*, Computational Complexity 20 (2011), 559–578, <https://users.math.cas.cz/~hrubes/PDFs/SymPoly.pdf>. The lead read the model definitions and Theorem 1(i), with portions of its supporting proof; C independently checked the primary theorem and model. No full-paper proof audit is claimed. The published leaf lower bound gives B's scoped width obstruction for the canonical uncompressed compiler on literal characteristic-zero multilinear predictors. It does not constrain the new nonmultilinear characteristic-two spectral formulas. Both the derived count/pruning argument and this distinction passed independent C and lead review.
+
+## S002 final count-formula prior-art check
+
+- Ian Orzel, *Computing the Elementary Symmetric Polynomials in Positive
+  Characteristics*, ECCC TR25-128, revision 2 dated 9 February 2026,
+  <https://eccc.weizmann.ac.il/report/2025/128/revision/2/download/>. The lead
+  read the abstract, introduction, Theorem 1.1 and preceding-work discussion.
+  Its literal-polynomial formula model and large-field interpolation results
+  are relevant context; they are not automatically the programme's prescribed
+  syntactic-degree quotient representation. No complete paper audit or
+  priority comparison is claimed.
+- Behera, Limaye, Ramanathan and Srinivasan, *New Bounds for the
+  Ideal Proof System in Positive Characteristic*, 2025,
+  <https://eccc.weizmann.ac.il/report/2025/079/download/> and
+  <https://drops.dagstuhl.de/doi/10.4230/LIPIcs.ICALP.2025.22>. The lead inspected
+  the primary abstract/contents and the retrieved Claim 4.2 Lucas/symmetric
+  function passage. Attempts to retrieve the detailed later PDF section timed
+  out; the complete section and proof were not read. The low-digit Lucas
+  observation is standard prior art, not an invention claimed by this session.
+
+Neither lead is a premise of the locally proved carry identities. The specific
+full-rate matrix application and physical composition still require external
+novelty review. The session does not certify discovery priority.

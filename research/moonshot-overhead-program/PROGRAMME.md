@@ -1,6 +1,8 @@
 # Square-root overhead moonshot
 
-Status: active S002 session, 2026-11-26 (Australia/Melbourne). Historical programme retained intact. The current strongest accepted rate is the fifth-wave fixed-field extraction linked below; earlier dated sections preserve checkpoint history.
+Status: S002 completed at 2026-11-25 16:20:45 UTC after 3 hours 22 seconds; the research programme remains open. Historical programme retained intact. The current strongest accepted rate is the fifth-wave fixed-field extraction linked below; earlier dated sections preserve checkpoint history.
+
+Current handoff: [S002 session report](SESSION-S002-REPORT.md), with the strongest theorem, source pins, independent gates, verification limits and continuation targets in one place.
 
 ## Objective and model
 Study the **exact deterministic fixed finite-alphabet multitape full-product** problem with a uniform O(n) visited-cell cap. Let L=1+log_2 n, s=log_2 L. Seek quantitative bounds T(n)=O(n sqrt(L) H(n)) with H(n)>=1, ultimately H=O(1). Do not count arbitrary fixed-kappa corollaries of the November 24 result as progress. Do not claim an o(1) exponent gives a quantitative rate without uniform constants and thresholds.

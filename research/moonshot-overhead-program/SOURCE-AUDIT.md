@@ -78,6 +78,21 @@ For the fixed-field theorem, the lead reread the pinned tape `walsh.tex` batch, 
 
 The count-bit identities are proved locally and independently checked. No exhaustive literature review or new reading of every companion manuscript is claimed. Exact source pins and the prior partial-read ledger remain the provenance basis.
 
+## S002 pre-close pin refresh and remaining limits
+
+At 2026-11-25 15:57:17 UTC, direct remote-head reads confirmed canonical main
+`e54523517d0f03e58352e647c403a5af3e525a57` and OpenAI math main
+`3344da59991ed94f9ba711217b29c1d760badfa6`, unchanged. At 15:58:38 UTC,
+the GitHub connector confirmed prompt blob
+`b5762a4dacb999703e83621301a455fbb12755f7`, unchanged; the lead reread the
+requested session instructions. This is a source freshness check, not a new
+full-source audit. Companion proofs, full formal dependencies and complete
+community/novelty coverage retain their listed limits.
+
+The lead additionally inspected primary positive-characteristic symmetric
+polynomial literature at the scopes recorded in EXTERNAL-RESEARCH.md. It is
+not imported as an unexamined dependency or treated as proof of novelty.
+
 ## E001 formula-source and primary literature reconciliation
 
 Root read the complete new cyclic construction, regular dyadic descent and physical transfer, and rechecked arbitrary batch-width source interfaces. B independently checked finite-ring repair and binary/Walsh widths. Root also read S002's formula construction, cyclotomic generator, extraction and lead review at58c754b583815e4fe40d333ec9d71e4c254749ba; the same-rate derivations retain separate credit.
@@ -87,3 +102,14 @@ The scoped MR symmetry/module audit is results/epsilon-uniformity/route-a/mr-sym
 ## Fresh concurrent fixed-field result — 16:09 UTC
 
 Before publishing this focused checkpoint, remote848fbf1d7a5e192aa352d79b4d3e36fa06be21ee was read and preserved. S002's new characteristic-two count formulas establish IP4 and its stronger third-root envelope. E001's dyadic formula theorem remains a separate weaker result. Root has read the new finite formula, complete extraction and lead review; additional E001 finite and physical reviews are in progress. The dyadic MR hypothesis remains open even though its displayed rate is now attained by S002's different fixed-field construction.
+
+## S002 closing freshness and concurrent preservation — 16:18 UTC
+
+Canonical and OpenAI main were rechecked directly, and the prompt file's blob
+was rechecked through the connected GitHub file reader. All three pins remain
+unchanged. The newly arrived E001 head
+`d1f3baccdcc547263c0c0cc7241aa0cb1ef12bee` was fetched; its 42 changed files
+were reconciled, including 35 focused-session files preserved byte-for-byte.
+The lead read its shared-state and summary changes. This reconciliation is not
+a claim to have independently reread all of its new focused proofs. S002's
+current fixed-field result remains the stronger explicit programme envelope.

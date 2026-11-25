@@ -64,6 +64,23 @@ Prepared after confirmed remote head `58c754b583815e4fe40d333ec9d71e4c254749ba`.
 
 The previous IP4 representation premise is now established explicitly. Rational Walsh coefficients remain a separate, charged numerical component; the dyadic all-odd-characteristic IP remains open. The new result is a written AI-assisted mathematical construction, not a full multiplier execution or formal/human certification. This is an ongoing checkpoint; the session continues toward 16:20:23 UTC and three-hour completion is not yet claimed.
 
+## S002 checkpoint 6 publication and closing audit
+
+Checkpoint `848fbf1d7a5e192aa352d79b4d3e36fa06be21ee` was created with parent
+`58c754b583815e4fe40d333ec9d71e4c254749ba` and tree
+`faa4380f06e93b8b298219dfad00332fccf72f13`. Intermittent GitHub GraphQL
+errors delayed the protected branch update. A browser fallback upload stalled
+and was discarded without a commit. The API subsequently recovered; a direct
+remote-ref read at 16:08 UTC confirmed checkpoint 6, and its GitHub commit page
+was visibly verified. No force push or duplicate browser commit occurred.
+
+The lead replayed and read the final general-prime checker and the formal
+four-bit full-row matrix witness. Both passed; their admitted finite scope is
+recorded in verification/S002/lead-review-final-finite-witnesses.md. Optional
+small-field/structured-shift refinements do not change the accepted global
+rate. Source pins were refreshed and the final report prepared. The requested
+three-hour endpoint remains 16:20:23 UTC; this entry alone is not completion.
+
 ## E001 sixth checkpoint — 16:06 UTC preparation
 
 Remote58c754b583815e4fe40d333ec9d71e4c254749ba was reread and preserved. E001 adds its separately reviewed same-rate balanced-formula theorem, complete scalar generator and physical transfer, isolated exact replay, general formula-size transfer and matching restricted recipe obstruction. The baseline theorem remains byte-identical under BASELINE-THEOREM.md, preserving historical review hashes.
@@ -73,3 +90,31 @@ The formula chain passed independent A, B, C and root written audits. No endpoin
 ## Fresh concurrent fixed-field result — 16:09 UTC
 
 Before publishing this focused checkpoint, remote848fbf1d7a5e192aa352d79b4d3e36fa06be21ee was read and preserved. S002's new characteristic-two count formulas establish IP4 and its stronger third-root envelope. E001's dyadic formula theorem remains a separate weaker result. Root has read the new finite formula, complete extraction and lead review; additional E001 finite and physical reviews are in progress. The dyadic MR hypothesis remains open even though its displayed rate is now attained by S002's different fixed-field construction.
+
+## S002 final branch reconciliation — 16:18 UTC
+
+Before closing, remote head advanced to E001 commit
+`d1f3baccdcc547263c0c0cc7241aa0cb1ef12bee`, parent
+`848fbf1d7a5e192aa352d79b4d3e36fa06be21ee`. All 42 incoming changed files
+were reconciled. Its 35 focused files are byte-for-byte preserved; shared
+append-only notes, focused state, historical baseline pointer and independent
+formula-bound record are retained. The next S002 checkpoint will descend from
+this head. No history was rewritten. A/B/C route files are frozen, and C's
+independent report review passed after clarifying that candidate selection
+is performed in the analysis of the schedule.
+
+## S002 completed — 2026-11-25 16:20:45 UTC
+
+The actual clock now exceeds the requested 16:20:23 UTC endpoint. From the
+13:20:23 UTC start, elapsed research/session time is 10,822 seconds: three
+hours and 22 seconds. The closing record and consolidated report are complete.
+All three route handoffs, exact evidence, source/novelty limits, remaining
+physical-executor gaps and optional finite refinements are saved. The accepted
+fixed-field rate remains the current S002 result; no endpoint, fixed-beta
+benchmark, full execution, formal build or human refereeing is claimed.
+
+The final protected publication descends from reconciled E001 head
+`d1f3baccdcc547263c0c0cc7241aa0cb1ef12bee`. E001's independent session has a
+later endpoint and its state remains preserved. No upstream PR is opened.
+The final commit SHA is recorded by Git and in the user-facing completion
+message after remote confirmation.

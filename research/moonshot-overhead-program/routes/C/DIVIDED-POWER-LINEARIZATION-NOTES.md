@@ -1,5 +1,16 @@
 # Divided-power predictors and full-rate matrix evaluation
 
+**Later S002 update, 2026-11-25:** these are preserved early working
+notes. Their broad missing-compiler statements have been superseded by
+the full-rate cyclic formula construction and the characteristic-two
+count-bit formula, reviewed in `FORMULA-CYCLOTOMIC-GENERATOR.md` and
+`CHAR2-COUNT-BIT-FORMULA.md`. They give O(D) stages on arbitrary occupied
+rows with the stated finite widths, including a `2^(m^C)` width in the
+fixed-field case. Polynomial width is still a separate open target. The
+formal determinant constraint and the ABP/full-rate distinction below
+remain valid in their stated scopes and do not obstruct those later
+positive constructions.
+
 Status: **working notes; one scoped algebraic lemma, no new compiler**.
 Saved before the independent bounded-source-generator audit on 2026-11-25.
 The finite-characteristic count aliasing obstruction does not apply to the

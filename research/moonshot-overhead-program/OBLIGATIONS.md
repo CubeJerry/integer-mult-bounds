@@ -105,6 +105,24 @@ The unconditional result has log H=O(s(log log s)^(1/3)/(log s)^(1/6)). IP and I
 
 Evidence: `verification/S002/lead-review-fixed-field-extraction.md` and linked independent reviews/replays. IP4 is now established. The dyadic IP hypothesis, E001's stronger bounded-preflight family, the constant endpoint, full machine execution and formal/human verification remain unresolved or unperformed. These are not hidden assumptions of the new written source composition.
 
+## S002 closing finite refinements and continuation gates
+
+- General-prime digit/count formulas PC1--PC8: C and lead finite review pass;
+  growing-prime global backup PC10 not promoted. The all-odd-characteristic
+  dyadic IP statement remains open.
+- Power-of-two degree architecture: B and lead finite review pass; cyclic
+  predictor can be represented over F4 with no additional query roots.
+- Structured shift-only checks: A and lead finite review pass; pairwise
+  ternary shifts and tensor checks permit O(log m) scalar extension degree.
+- Succinct physical execution: open. All module-index row movements, checks,
+  numerical preparation, setup and visited cells must be charged. No stronger
+  global rate or reuse of unchanged numerical Q constants is admitted.
+
+The consolidated current result and final handoff are in SESSION-S002-REPORT.md.
+These optional refinements are not required assumptions of the accepted
+fixed-field theorem. Formal refinement, full execution, human review and a
+complete novelty audit remain unperformed.
+
 ## E001 formula and recipe gates — 16:06 UTC
 
 EU-FORMULA is accepted after independent A algebra, C full composition, B final synthesis and root complete-proof reviews. The explicit full-rate cyclic formula constructor supplies S_j<=E_2(C Z_j²) and the same unconditional sixth-root envelope independently proved by S002 at58c754b. No MR premise is imported.

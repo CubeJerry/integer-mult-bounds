@@ -2,6 +2,8 @@
 
 Define L(n)=1+log_2 n and s(n)=log_2 L(n). Published upper bound: T(n)<=n L(n)^(1/2+o(1)). The latest S002 section records an accepted explicit source extraction; earlier sections retain their checkpoint-specific scope.
 
+The consolidated current statement is in [SESSION-S002-REPORT.md](SESSION-S002-REPORT.md). All earlier claims below are dated research history; the fifth-wave fixed-field result is the current admitted envelope.
+
 ## Lemma (scheduler envelope, conditional on actual candidate completion bound)
 Read the schedule in openai/math `uniformity.tex`. Suppose a fixed attempt i=(j,k), with r=2^k<=n, completes in t_i(n) actual operations and fits the common space cap. Its round is reached by s=i+ceil(log_2(t_i(n)+1)); each round costs O(2^s), so one machine halts in
 T(n)<=C n + C' 2^i(t_i(n)+1).

@@ -273,7 +273,7 @@ bound; it is not free advice depending on n.
 ## 7. Scope
 
 The representation premise IP4 has been replaced by the explicit
-characteristic-two bit-formula constructor. The all-odd-prime
+characteristic-two bit-formula constructor. The separate all-odd-prime
 dyadic hypothesis IP remains open. The degree-controlled formulas rely
 on characteristic-two Boolean carry identities and are generally not
 multilinear as formal polynomials. Their spectral values, degree budgets

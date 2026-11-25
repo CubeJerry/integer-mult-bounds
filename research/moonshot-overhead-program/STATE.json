@@ -1,10 +1,10 @@
 {
   "schema": "moonshot-overhead-program-state-v2",
   "branch": "research/moonshot-overhead-program",
-  "status": "active_research",
+  "status": "session_completed",
   "session_date_local": "2026-11-26",
   "requested_duration_seconds": 10800,
-  "elapsed_seconds_claim": null,
+  "elapsed_seconds_claim": 10822,
   "source_pins": {
     "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
     "openai_math_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
@@ -15,7 +15,7 @@
     "historical_owned_rank": "4115049c5126cb56133072982d9158acfd74d4b3",
     "historical_recovery": "4ff4ec023f0ac9222fe5aaf4d19388d764d6bcf8"
   },
-  "best_unconditional": "n L^(1/2+o(1)) (OpenAI November 24, 2026)",
+  "best_unconditional": "T(n)=O(n sqrt(L(n)) 2^{O(s(n)(log2 log2 s(n)/log2 s(n))^(1/3))})",
   "new_complete_overhead_bound": {
     "formula": "T(n)=O(n sqrt(L(n)) 2^{O(s(n)(log2 log2 s(n)/log2 s(n))^(1/3))})",
     "L": "1+log2(n)",
@@ -39,7 +39,8 @@
     "formula": "T(n)=O(n sqrt(L) x^a), including a=0 endpoint, under explicit hypotheses",
     "proof": "results/epsilon-uniformity/route-b/preflight-selection.md, Theorem P2",
     "hypotheses": "One sound physical plan family: complete j^a execution bills, log2 L(N_j)<=Cj, and stated double-exponential constant/exponential-degree preflight profile; uniform O(n) visited regions",
-    "status": "Complete conditional transfer; stronger family hypotheses not established for original source"
+    "status": "Complete conditional transfer; stronger family hypotheses not established for original source",
+    "x": "s=log2(L)"
   },
   "kappa_ov": null,
   "route_gaps": {
@@ -50,14 +51,25 @@
   "source_audit": "partial; see SOURCE-AUDIT.md",
   "publication": {
     "program_branch": "created",
-    "upstream_pr": "not opened"
+    "upstream_pr": "not opened",
+    "last_confirmed_s002_checkpoint": "848fbf1d7a5e192aa352d79b4d3e36fa06be21ee",
+    "confirmed_s002_checkpoints_before_final": [
+      "bbfd1086b7e629375f9891998e4602270d8801cd",
+      "d0b775ecf26b1f248ffa8839e3890cb452d53919",
+      "96028cba1342c02bdca1f537ae9a80485087bdf3",
+      "4689161c5bc6c9e64536034d4fa6af033d26a3e0",
+      "58c754b583815e4fe40d333ec9d71e4c254749ba",
+      "848fbf1d7a5e192aa352d79b4d3e36fa06be21ee"
+    ],
+    "final_checkpoint_contains_session_completion": true,
+    "final_commit_id_location": "Git history and final chat response; no recursive self-identifier embedded."
   },
   "next_actions": [
-    "Publish accepted fixed-field theorem and all independent gates with a protected branch update.",
-    "Finish representation-barrier scope and final result consistency.",
-    "Refresh source pins and remote head; finish full session at or after 16:20:23 UTC."
+    "Seek independent human review and formal/executable refinement of the accepted construction.",
+    "Investigate physically charged execution of structured tensor modules and shift checks; no stronger global rate admitted.",
+    "Continue scoped novelty and companion-source audit; all-odd-characteristic IP remains open."
   ],
-  "checkpoint_baseline_sha": "58c754b583815e4fe40d333ec9d71e4c254749ba",
+  "checkpoint_baseline_sha": "d1f3baccdcc547263c0c0cc7241aa0cb1ef12bee",
   "session": {
     "id": "2026-11-26-S002",
     "started_utc": "2026-11-25T13:20:23Z",
@@ -65,18 +77,19 @@
     "requested_seconds": 10800,
     "timezone": "Australia/Melbourne",
     "background_execution": false,
-    "last_prepared_utc": "2026-11-25T15:55:37Z"
-  },
-  "work_in_progress": {
-    "A": "Final accepted theorem status and result scope.",
-    "B": "Conditional IP4 history update and next bottleneck assessment.",
-    "C": "Restricted multilinear barrier review and conditional-bridge history update."
+    "last_prepared_utc": "2026-11-25T16:20:45Z",
+    "report": "SESSION-S002-REPORT.md",
+    "status": "completed",
+    "ended_utc": "2026-11-25T16:20:45Z",
+    "actual_elapsed_seconds": 10822
   },
   "verification_status": "Finite characteristic-two count formula and complete physical/scheduling composition accepted by B, C and lead; isolated count and exact growth replays passed. No full machine execution, formal build or human refereeing.",
   "concurrent_work": {
     "epsilon_uniformity": "results/epsilon-uniformity/SESSION.json",
-    "reconciled_head": "ba0e0e394c3608defa9a061708915f0562253311",
-    "scope": "E001 files, top-level additions and state preserved; overlapping results retain separate provenance."
+    "reconciled_head": "d1f3baccdcc547263c0c0cc7241aa0cb1ef12bee",
+    "scope": "E001 files, top-level additions and state preserved; overlapping results retain separate provenance.",
+    "final_preserved_files": 42,
+    "focused_files_preserved_byte_for_byte": 35
   },
   "focused_sessions": {
     "epsilon_uniformity": {
@@ -221,7 +234,7 @@
     {
       "session": "S002",
       "formula": "T(n)=n sqrt(L(n)) 2^{O(x (log2(y+2)/y)^(1/3))}",
-      "notation": "Same x=s and y as primary bound",
+      "notation": "L=1+log2(n), x=s=log2(L), y=log2 log2(x+16)",
       "space": "O(n) visited cells, fixed exact deterministic multitape full-product machine",
       "status": "Accepted by lead and independent Route C review",
       "proof": "routes/A/sharper-parameter-growth.md",
@@ -265,5 +278,21 @@
     "meaning": "Explicit characteristic-two count formulas establish IP4; complete singly exponential finite profile strengthens programme envelope. No remaining IP4 hypothesis; all-odd-characteristic IP remains open.",
     "threshold": "Absolute eventual; constants and cutoff not numerically evaluated",
     "verification_limits": "AI-assisted written mathematical audits and isolated exact finite replays; no full multiplier execution, formal refinement, human refereeing or literature-priority certification"
+  },
+  "published_baseline_unconditional": "n L^(1/2+o(1)) (OpenAI November 24, 2026)",
+  "best_unconditional_proof": "routes/A/fixed-field-extraction-theorem.md",
+  "source_refresh": {
+    "canonical_openai_utc": "2026-11-25T15:57:17Z",
+    "prompt_utc": "2026-11-25T15:58:38Z",
+    "result": "All recorded active source pins unchanged; partial-read limitations retained.",
+    "final_recheck_minute_utc": "2026-11-25T16:18Z",
+    "final_result": "Canonical main, OpenAI math main and prompt blob all unchanged."
+  },
+  "final_finite_extension_review": "verification/S002/lead-review-final-finite-witnesses.md",
+  "final_report_independent_review": "Route C found no mathematical/model/provenance mismatch; lead corrected wording to separate analytic candidate selection from execution of the schedule.",
+  "completed_routes": {
+    "A": "Frozen at 16:15 UTC; handoff routes/A/HANDOFF-S002.md.",
+    "B": "Frozen at 16:14 UTC; handoff routes/B/S002-HANDOFF.md.",
+    "C": "Frozen at 16:14 UTC; handoff routes/C/S002-ROUTE-REPORT.md."
   }
 }

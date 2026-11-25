@@ -85,6 +85,18 @@ The lead replayed copies under `verification/S002/count-formula-lead-replays/`. 
 
 Root reread both numerical component notes, the complete new theorem, common physical ledger and pinned source Walsh recursion/precision interface. These are mathematical audits and finite exact corroborations. They do not claim a complete astronomical template, tape-machine execution, Lean refinement, human refereeing or practical numerical threshold.
 
+## S002 final finite extension and interface witnesses
+
+The lead read and independently replayed C's general-prime count checker and
+four-bit full-rate matrix checker. Both passed. The first checks 1,535,617
+signed Lucas cases plus carry, count, size/degree and predictor cases; it
+accepts finite PC1--PC8 only, without promoting the growing-prime global backup.
+The second checks four formal polynomial identities for all eight independent
+rows of four affine factors, all 256 entries, 16 Boolean points, and an off-cube
+negative control. Scripts, outputs, hashes and exact admission limits are in
+verification/S002/lead-review-final-finite-witnesses.md and its replay folders.
+No end-to-end multiplier execution, formal build or human review is implied.
+
 ## E001 formula and representation audit
 
 A reviewed the cyclic algebra, C the complete transfer, B the final algebra/generator/source/compiler/inversion chain, and root all these interfaces separately. The receipts are in results/epsilon-uniformity/ROOT-FORMULA-REVIEW.md and route-b/formula-synthesis-review.md. Historical baseline hashes apply to the unchanged BASELINE-THEOREM.md.

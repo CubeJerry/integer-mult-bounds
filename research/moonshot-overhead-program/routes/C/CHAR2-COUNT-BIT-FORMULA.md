@@ -168,3 +168,28 @@ count every copied subtree. Results are in
 `count-bit-formula-verification.json`. These checks corroborate the
 formula proof; they do not replace the separately reviewed physical
 compiler or execute its resulting enormous finite machine.
+
+## A small combined full-rate witness
+
+The separate `verify_four_bit_full_rate.py` checks the formula and matrix
+factorization interfaces together on a complete multivariate example.
+For four Boolean inputs put
+
+    a0=x1+x2, a1=x1*x2,
+    b0=x3+x4, b1=x3*x4,
+    f=a1*b1+(a1+b1)*a0*b0.
+
+This is the bit-two carry of their sum. The formal cyclic sum/product
+compiler constructs **four affine 8-by-8 factors**, with every cyclic
+product exactly `f I_8` over `F2[x1,x2,x3,x4]`. All eight inputs are
+independent. The verifier compares complete formal polynomial matrices
+for all four rotations and checks all 256 factor entries are affine.
+
+The formal f has nine monomials, including squared-variable terms. On
+all 16 Boolean points it equals the bit-two count, namely x1*x2*x3*x4.
+At the F4 point `(omega,1,1,0)` it instead has value 1 while that
+multilinear monomial has value 0. This explicit negative control shows
+both the required quotient validity and why a formal multilinear lower
+bound cannot be applied to the representation. Results are recorded in
+`four-bit-full-rate-verification.json`. This is a small combined algebraic
+witness, not an execution of the global repair or physical tape compiler.
