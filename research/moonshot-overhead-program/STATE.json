@@ -28,7 +28,17 @@
       "results/epsilon-uniformity/sessions/E002/route-a/REVIEW-GLOBAL-POLYNOMIAL-PROFILE.md",
       "results/epsilon-uniformity/sessions/E002/route-c/review-polynomial-profile.md"
     ],
-    "threshold": "Absolute eventual; constants and cutoff not numerically evaluated"
+    "threshold": "Absolute eventual; constants and cutoff not numerically evaluated",
+    "same_scale_constructions": [
+      {
+        "session": "S003",
+        "proof": "sessions/2026-11-26-S003/lead/polynomial-profile-extraction.md",
+        "admission": "sessions/2026-11-26-S003/lead/ADMISSION-PP.md",
+        "review": "sessions/2026-11-26-S003/route-c/REVIEW-POLYNOMIAL-PROFILE-EXTRACTION.md",
+        "method": "Explicit dyadic geometry at radix3, compact repair/numerics, weighted common-cap schedule",
+        "status": "Complete written construction independently accepted by C and lead"
+      }
+    ]
   },
   "conditional_complete_overhead_bound": {
     "formula": "T(n)=O(n sqrt(L) x^a), including a=0 endpoint, under explicit hypotheses",
@@ -39,9 +49,9 @@
   },
   "kappa_ov": null,
   "route_gaps": {
-    "A": "Literal asymmetric/arbitrary-depth label invoice now has matching-order J^3 log J obstruction; next gate is compact numerical Walsh with actual rational bit and precision costs.",
-    "B": "Succinct full-rate scalar-factor executor established; small-numeric-coefficient endpoint frames and complete packed shared-pencil composition remain open.",
-    "C": "Nested obstruction and succinct scalar proof independently reviewed; on-demand spectral repair and physical comparison/phase accounting remain open."
+    "A": "Uniform-payload pencil and adaptive numerical precision/caller; stronger global rate not admitted.",
+    "B": "Full-rate bit/field packing and adaptive exact interchanger with absolute payload coefficient.",
+    "C": "Review changing-arity composition and prove scoped literal-invoice path barrier."
   },
   "source_audit": "partial; see SOURCE-AUDIT.md",
   "publication": {
@@ -64,11 +74,11 @@
     "e001_publication_blockers": []
   },
   "next_actions": [
-    "Complete and independently review compact rational endpoint geometry and shared-pencil layout.",
-    "Prove on-demand spectral repair and compact numerical Walsh, preserving the source recursive bills.",
-    "Assemble a complete polynomial-m profile only after all physical, precision, threshold and visited-space gates close."
+    "Review absolute-payload schedules and changing-field packing.",
+    "Compose adaptive interchange and Walsh with the physical address toll charged.",
+    "Preserve accepted3/4 theorem until all stronger gates close."
   ],
-  "checkpoint_baseline_sha": "9d5abf18ff741ff6f8b9f82790e0475fc662b4fe",
+  "checkpoint_baseline_sha": "9e84956f071e7cc845935a55a5c717db08be6ea0",
   "session": {
     "id": "2026-11-26-S003",
     "started_utc": "2026-11-25T21:19:05Z",
@@ -80,10 +90,13 @@
     "scope": "sessions/2026-11-26-S003/",
     "starting_remote_head": "0607d044d1d09489580da0e5828588820e1a6775",
     "initial_source_refresh": "Canonical main and OpenAI main unchanged; prior complete written bound retained pending fresh critical-chain audit.",
-    "last_prepared_utc": "2026-11-25T21:43:04Z",
-    "last_confirmed_checkpoint": "9d5abf18ff741ff6f8b9f82790e0475fc662b4fe",
-    "new_complete_bound": false,
-    "first_wave_review": "sessions/2026-11-26-S003/lead/first-wave-review.md"
+    "last_prepared_utc": "2026-11-25T22:20:56Z",
+    "last_confirmed_checkpoint": "9e84956f071e7cc845935a55a5c717db08be6ea0",
+    "new_complete_bound": true,
+    "first_wave_review": "sessions/2026-11-26-S003/lead/first-wave-review.md",
+    "accepted_proof": "sessions/2026-11-26-S003/lead/polynomial-profile-extraction.md",
+    "admission": "sessions/2026-11-26-S003/lead/ADMISSION-PP.md",
+    "current_frontier": "Absolute payload and nonstationary interchange/Walsh; stronger2/3-scale not yet admitted"
   },
   "verification_status": "Current best E002 P: independent A/C global written reviews and lead source/component audit; exact finite component replays. No full multiplier, formal refinement or human refereeing.",
   "concurrent_work": {

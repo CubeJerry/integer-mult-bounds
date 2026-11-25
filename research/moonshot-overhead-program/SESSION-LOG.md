@@ -191,3 +191,7 @@ parameter ledger: results/epsilon-uniformity/sessions/E002/. Concurrent S003
 head a2d9c4b00c02dadf7bdc970acf9190dfabf9ec32 is preserved. Protected Route B
 continues variable-parameter research, whose stronger predicted scale is
 not part of this admission.
+
+## S003 polynomial-profile milestone
+
+At22:20 UTC S003 admitted its complete written polynomial-profile theorem after C global review and lead audit. Remote9e84956f and E002 same-scale theorem plus S004/E003 records were preserved before publication. Session remains active toward00:19:05 UTC; no three-hour completion claimed.

@@ -103,3 +103,7 @@ and an actual capped direct selector replaces a certificate infimum.
 The endpoint remains open. Current proof/ledger/admission are in
 `results/epsilon-uniformity/sessions/E002/`. Variable-arity research is
 protected and separately gated; no stronger rate is admitted yet.
+
+## S003 polynomial-profile milestone
+
+S003 independently closes the same polynomial-profile envelope admitted by E002: log H=O(s^(3/4)(log(s+2))^(1/4)). Its explicit dyadic geometry uses radix3 and its proof uses the weighted common-cap scheduler. See sessions/2026-11-26-S003/lead/ADMISSION-PP.md. A separate adaptive route is active but unadmitted.

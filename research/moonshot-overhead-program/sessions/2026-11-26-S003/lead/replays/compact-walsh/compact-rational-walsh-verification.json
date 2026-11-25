@@ -1,0 +1,63 @@
+{
+  "python": "3.12.14",
+  "scope": "Exact rational coefficient/repair identities and bounded-divisor precision; no full tape multiplier.",
+  "source_openai_math": "3344da59991ed94f9ba711217b29c1d760badfa6",
+  "key_cases": 168,
+  "nonempty_defects": 33,
+  "exact_inverse_cases": 33,
+  "max_inverse_height": 40,
+  "parameter_cases": [
+    {
+      "m": 17,
+      "width": 32,
+      "checks": 2,
+      "keys": 28
+    },
+    {
+      "m": 25,
+      "width": 32,
+      "checks": 2,
+      "keys": 28
+    },
+    {
+      "m": 31,
+      "width": 32,
+      "checks": 2,
+      "keys": 28
+    },
+    {
+      "m": 63,
+      "width": 64,
+      "checks": 4,
+      "keys": 28
+    },
+    {
+      "m": 127,
+      "width": 128,
+      "checks": 8,
+      "keys": 28
+    },
+    {
+      "m": 255,
+      "width": 256,
+      "checks": 16,
+      "keys": 28
+    }
+  ],
+  "dyadic_precision_cases": 1309,
+  "linear_precision_growth_cases": 187,
+  "column_selector_cases": 320,
+  "negative_controls": {
+    "growing_divisor_is_quadratic": [
+      20736,
+      82432,
+      328704
+    ],
+    "even_arity_loses_auxiliary_phase": {
+      "m": 4,
+      "query_product_parity": 0,
+      "target_parity": 1
+    }
+  },
+  "passed": true
+}

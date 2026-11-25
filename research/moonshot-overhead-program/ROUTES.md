@@ -68,3 +68,7 @@ a different recursive parameter schedule, near-unit radix padding, a
 smaller proportional workspace coefficient and a distinct slower Walsh
 arity. It is not inferred from fixed-m estimates. A and C adversarially
 audit those interfaces while the lead checks synthesis and source scope.
+
+## S003 polynomial-profile milestone
+
+S003 B3 interchanger, C spectral repair and A rational Walsh passed component reviews. PP passed C global review and lead admission. Next: absolute payload and changing arity; stronger drafts remain conditional.

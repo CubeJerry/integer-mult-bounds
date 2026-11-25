@@ -94,7 +94,11 @@ template profile could still improve the global overhead at unchanged
 arity. These limits are correctly stated in A's note.
 
 Finite checks of the symmetric construction have been run separately by C
-and are recorded beside its narrower theorem. A's dedicated checker will
-be replayed and recorded separately when available. The unbounded theorem
+and are recorded beside its narrower theorem. C also replayed A's unmodified
+`verify_nested_label_barrier.py` in an isolated temporary directory: four
+actual matrix cases, nine arbitrary square-zero tensor cases, three Gram
+rank cases, 1,089 depth/asymmetry cases and nine sufficient-invoice cases
+passed. `independent-a-nested-replay.json` records the exact source SHA-256.
+The unbounded theorem
 rests on the algebraic and quantitative proof above. No Lean build, human
 review, full multiplier execution, or endpoint theorem is claimed.

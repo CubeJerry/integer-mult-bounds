@@ -155,3 +155,7 @@ radix, workspace, field encoding and numerical Walsh toll; endpoint and
 polynomial-x overhead. The original weighted certificate and the literal
 label-invoice barriers remain restricted to their stated accounting models.
 Concurrent S003 physical audits retain their own provenance and status.
+
+## S003 polynomial-profile milestone
+
+Closed for PP: compact scalar execution, dyadic endpoints, packed rows, on-demand repair, rational precision, outer integer assembly, common cap and actual eligibility. Stronger-route gates remain: absolute payload, changing-field packing, adaptive recurrence and full numerical composition.

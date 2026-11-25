@@ -1,0 +1,13 @@
+{
+  "source": "research/moonshot-overhead-program/sessions/2026-11-26-S003/lead/verify_polynomial_profile.py",
+  "source_sha256": "24768e60420037f0ec31c43c55037ac676d43c2691cfeea40ddb32bf849adae3",
+  "command": [
+    "python3",
+    "-I",
+    "-B",
+    "research/moonshot-overhead-program/sessions/2026-11-26-S003/route-c/replays/polynomial-profile/verify_polynomial_profile.py"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"python\": \"3.12.14\",\n  \"passed\": true,\n  \"scope\": \"Exact finite majorants, dyadic eligibility and cap arithmetic; no template instantiation or tape execution.\",\n  \"parameter_cases\": 255,\n  \"profile_cases\": 2037,\n  \"cap_cases\": 64,\n  \"paid_pencil_constant\": 1048576,\n  \"sufficient_parameter_constant\": 1152921504606846976,\n  \"negative_controls\": [\n    \"omitted chunk cap\",\n    \"recursive spectral tags\",\n    \"insufficient arity guard\"\n  ],\n  \"source_openai_math\": \"3344da59991ed94f9ba711217b29c1d760badfa6\"\n}\n",
+  "stderr": ""
+}

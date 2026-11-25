@@ -132,3 +132,7 @@ primary literature and unread dependencies are recorded in
 `results/epsilon-uniformity/sessions/E002/SOURCE-AUDIT-E002.md`. The complete
 P2--P11 proof was independently reviewed by A/C and audited by the lead.
 No new formal build or exhaustive novelty certification is asserted.
+
+## S003 polynomial-profile milestone
+
+Lead/C reread pinned Walsh, guarded-XOR/controlled-block, integer shape/precision/carry, common-machine scheduling and Fourier normalization sections. Remote9e84956f, E002 same-scale theorem and S004/E003 records were preserved. C separately reviewed E002 height-priced streams and repair. Novelty audit remains nonexhaustive.

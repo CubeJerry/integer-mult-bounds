@@ -128,3 +128,7 @@ Lagrange coefficients additionally passed 2384 coefficient checks, 4449
 basis repairs and 606 occupied extension-field vectors with adverse controls;
 that optional lemma is not a premise of P. No complete multiplier, formal
 refinement or human referee verification was run.
+
+## S003 polynomial-profile milestone
+
+PP accepted after C independent global audit and lead source review. Isolated replay:255 parameter cases,2037 eligibility cases,64 caps,3 negative controls. Exact geometry, spectral and rational checks are in the session tree. No full multiplier, Lean refinement, human review or priority certification.

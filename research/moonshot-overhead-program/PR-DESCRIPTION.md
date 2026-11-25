@@ -75,3 +75,7 @@ is established prior art, including Sheng and Tribone. Source lineage
 includes #7000/#7001 and the Kartal, Sussman, Davis, Romman, Yao and Liu
 constructions credited in the manuscripts. PR #8102 is a prior fixed-kappa
 specialization. Exact provenance is in SOURCE-AUDIT.md and EXTERNAL-RESEARCH.md.
+
+## S003 polynomial-profile milestone
+
+S003 adds an independently reviewed construction of the same3/4 log^1/4 envelope using explicit dyadic geometry at radix3 and the weighted common-cap scheduler. Proof/admission: sessions/2026-11-26-S003/lead/. Nested-label obstruction, compact-component checks and independent audits are included. Stronger adaptive drafts remain separate.

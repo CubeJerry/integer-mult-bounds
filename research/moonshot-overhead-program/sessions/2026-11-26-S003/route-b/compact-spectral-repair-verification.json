@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "arithmetic": "exact finite-field arithmetic in F256 with F4 subfield",
+  "source_sha256": "f01e146e1fcb14b6b87856ca459184e9cdc653a17b905d48f950ef8f1b61260f",
+  "predecessor_orbit_source": "routes/B/verify_order_three_interchange.py",
+  "predecessor_orbit_sha256": "d8989eb94dd0afcdbe2fdf264c98d4584700f66e87493539fb4efc0803f1703c",
+  "counts": {
+    "physical_repair_cases": 6,
+    "parent_scalar_outputs": 6912,
+    "negative_offset_predictor_cases": 250,
+    "pairwise_count_cases": 117,
+    "zero_gap_containing_set_cases": 3,
+    "phase_ledger_cases": 28
+  },
+  "negative_controls": {
+    "omit_gap_square_1": 352,
+    "omit_transpose_1": 392,
+    "incomplete_forward_1": 528,
+    "wrong_module_1": 1148,
+    "omit_gap_square_-1": 352,
+    "omit_transpose_-1": 400,
+    "incomplete_forward_-1": 528,
+    "wrong_module_-1": 1146,
+    "wrong_inverse_key": 1004
+  },
+  "toy": {
+    "m": 3,
+    "shifts": 9,
+    "module_width": 2,
+    "physical_addresses": 64,
+    "max_exception_shifts": 2,
+    "check_rows_with_padding": 6,
+    "padding_rows_per_family": 2
+  },
+  "scope": "Complete finite repair with physical comparison keys and both directions. Predictor uses direct diagonalizers, not succinct pencils. Phase1/16 checked separately; no full tape-machine/global bound verification."
+}
