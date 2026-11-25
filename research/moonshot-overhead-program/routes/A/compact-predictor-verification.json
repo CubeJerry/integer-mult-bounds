@@ -1,0 +1,30 @@
+{
+  "scope": "finite exact arithmetic and negative controls; no fixed-tape or Lean verification",
+  "shift_cases": [
+    {
+      "t": 2,
+      "m": 7,
+      "rows": 64,
+      "projections": 28,
+      "all_frequency_patterns": 128,
+      "maximum_moment_numerator": 448,
+      "denominator": 64,
+      "zero_shift_control": "rejected"
+    },
+    {
+      "t": 4,
+      "m": 7,
+      "rows": 4096,
+      "projections": 98,
+      "all_frequency_patterns": 128,
+      "maximum_moment_numerator": 544768,
+      "denominator": 4096,
+      "zero_shift_control": "rejected"
+    }
+  ],
+  "interpolation_cases": 5475,
+  "wrong_leading_scalar_control": "rejected",
+  "root_product_cases": 40,
+  "binomial_tail_controls": 1023,
+  "status": "PASS"
+}

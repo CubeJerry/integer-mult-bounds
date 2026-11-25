@@ -19,3 +19,13 @@ C. Adversarial: isolate whether polynomial degree lower bounds obstruct the *exi
 
 ## Decisions
 The source theorem is n L^(1/2+o(1)); the exact endpoint is not established. Conditional analyses are to be labelled as such. No old five assumptions are inherited. A numerical local certificate never substitutes for an all-size tape theorem.
+
+## S002: first-wave results and decisions
+
+The first wave establishes useful component statements, not a new complete overhead envelope. Route A replaces the exponential index penalty by a prefix-weighted restart schedule and gives a diagonal chunk-convolution wrapper with O(nr) tape work. Its full quantitative interface is in [scheduler-and-chunking.md](routes/A/scheduler-and-chunking.md); candidate constants and thresholds remain explicit unknowns. Compact characteristic-zero prediction and Hermite table bounds are separately documented.
+
+Route B constructs a pairwise-independent shift family of width O(m), a degree O(sqrt(m)) Newton predictor with constant defect, and exact two-predictor discrepancy-division repair. A recovered finite batch-contraction argument has been preserved with provenance and independently replayed. This is a rational/characteristic-zero mechanism; factorial division is not freely available in the source finite-characteristic interchange construction.
+
+Route C proves an exact ordinary-count-polynomial error bound and the sharp asymptotic degree needed for polynomially rare error. For the explicitly defined degree-plus-linear-repair invoice, optimizing the error tolerance alone retains a sqrt(log m) loss. This is a scoped representation obstruction, not a multiplication lower bound.
+
+The next wave tests complete quantitative source compilation and the full physical cost of Route B. A separate characteristic-compatibility obstruction is under review. No substitution of a growing parameter into a fixed-parameter O-constant is admitted. Two distinct constructive routes remain active; the portfolio will be reassessed after this wave.

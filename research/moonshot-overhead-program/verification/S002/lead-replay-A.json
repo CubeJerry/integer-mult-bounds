@@ -1,0 +1,9 @@
+{
+  "script": "research/moonshot-overhead-program/routes/A/verify_scheduler_chunking.py",
+  "sha256": "1abe4911cd0c0b52ff3cbfa03100652aab5aac66ed73aba72647f10c2b13d1e7",
+  "python": "3.12.14",
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"passed\",\n  \"scope\": \"exact arithmetic only\",\n  \"schedule\": {\n    \"rounds_checked\": 1024,\n    \"indices_checked\": 19999,\n    \"partial_kraft_mass\": \"12287/65536\",\n    \"proved_infinite_kraft_mass\": \"3/16 (see proof, not inferred from scan)\",\n    \"maximum_checked_control_ratio\": \"147/64\"\n  },\n  \"assembly\": {\n    \"exhaustive_cases\": 145636,\n    \"larger_cases\": 980,\n    \"negative_control_detected\": \"omitting cross-diagonal carry\"\n  },\n  \"cap\": {\n    \"boundary_cases\": 3840\n  },\n  \"thresholds\": {\n    \"polynomial_threshold_cases\": 867,\n    \"exact_log_slack_cases\": 1024,\n    \"node_count_cases\": 5208\n  }\n}\n",
+  "stderr": "",
+  "isolation": "temporary script copy; source artifacts not regenerated"
+}

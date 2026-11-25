@@ -1,0 +1,54 @@
+{
+  "status": "finite computational verification",
+  "field_prime": 257,
+  "numpy_version": "2.3.5",
+  "exact_arithmetic": true,
+  "asymptotic_or_tape_verification": false,
+  "tests": [
+    {
+      "name": "normalized_walsh_closure",
+      "passed": true
+    },
+    {
+      "name": "frequency_dependent_exception_sets",
+      "cases": 4096,
+      "passed": true
+    },
+    {
+      "name": "full_rate_exact_unrolling",
+      "depth": 1,
+      "rows": 64,
+      "entries": 16384,
+      "passed": true,
+      "statistics": {
+        "terminal_rows": 32,
+        "terminal_calls": 2,
+        "internal_rows": 64,
+        "internal_calls": 1
+      }
+    },
+    {
+      "name": "full_rate_exact_unrolling",
+      "depth": 2,
+      "rows": 256,
+      "entries": 65536,
+      "passed": true,
+      "statistics": {
+        "terminal_rows": 64,
+        "terminal_calls": 4,
+        "internal_rows": 384,
+        "internal_calls": 3
+      }
+    },
+    {
+      "name": "omit_repair_negative_control",
+      "mismatching_entries": 16328,
+      "correctly_rejected": true
+    },
+    {
+      "name": "q_one_eighth_call_ledger",
+      "depths": 12,
+      "passed": true
+    }
+  ]
+}

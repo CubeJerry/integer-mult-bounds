@@ -10,3 +10,19 @@
 | Proposed direct-corollary PR | CrocSwap #8102, head e8ac3899a03df571fbbd5d1e42a6d9bb196abde0 | Read scope, parameters, incomplete template caveat | Independent source verification and current review status |
 
 No claim is made that the entire literature or proof-chain audit has been completed. Read all relevant primary proofs before relying on quantitative template or recurrence statements.
+
+## S002 expanded coverage
+
+The lead verified all 103 available source files in the five requested manuscript build directories plus Lean scope documents 130 and 379 against the pinned Git blobs. `audit/source-manifest.json` records identities. This is integrity verification, NOT a claim that all 103 proofs were read.
+
+| Reader / source chain | Actual coverage | Reuse and limits |
+|---|---|---|
+| Lead: tape intro, interchange, Walsh | Read complete text of these chapters | Exact machine model; label/routing recursion; selected Walsh caller. Fixed-parameter constants remain explicit gaps. |
+| Lead: tape integers | Read digit packing, CRT, short-transform construction through the sharing-workspace step | Source implementation dependencies; remaining coefficient streaming, complete rounding/carry and lower chain still staged. |
+| Lead and A/B/C: Fourier repair, kernel, binary | Read complete relevant proof chain | Count interpolation, Hermite repair, generalized Clifford representation, shared routing, normalized binary closure. |
+| A: tape uniformity, permutations and quantitative interfaces | Full uniformity read, relevant source chain and exact thresholds recorded in route notes | New controller/chunking proofs are separate from claiming the source constants quantified. |
+| B: Fourier layers and recovered local contraction | Full route-specific read and current mathematical review | Recovered files retain original hashes and provenance; their earlier review statements do not imply fresh events. |
+| Lead: Lean docs 130 and 379 | Read both scope documents | Reported formalization includes the uniform exact multiplier and Weak-ETH lower bound, while division/root and several stronger companion bounds remain unformalized. No Lean build or comparator run this session. |
+| Canonical guidance and selected record | Read AGENTS, autoresearch, CONTRIBUTING, bottleneck/glossary/family status and selected-result metadata | Selected #7000 remains source-specific conditional history, not the global post-November mathematical baseline. |
+
+The full tensor-geometry/permanent/lower-bound chain, complete historical archive and bibliography lineage remain staged reading. None of the new upper-bound component claims imports Weak ETH or the old five assumptions. Live Discussions remain unread because the available fetch endpoint rejected them.

@@ -1,9 +1,13 @@
-# Draft cumulative contribution — not PR-ready
+# Draft cumulative contribution — research package, not yet submitted
 
-A new research programme focused on quantifying and removing overhead above OpenAI's November 24 exact fixed-tape multiplier result n(1+log n)^(1/2+o(1)). Its initial result is an explicit conditional scheduler inequality isolating candidate generation, common linear-space chunking, applicability thresholds and weighted universal-search constants. Three genuinely different active routes are documented: quantitative extraction, recursive constant-rate repair, and adversarial predictor lower bounds. **No new complete H(n) bound is claimed.**
+The November 24 fixed-tape multiplier establishes n(1+log n)^(1/2+o(1)) but does not specify a decay rate merely by writing o(1). This programme records quantitative interfaces and representation barriers needed to investigate that remaining overhead.
+
+The current package contains a prefix-weighted uniform scheduler, an O(nr) chunk-convolution wrapper, exact constant-defect rational prediction and repair, a finite batch-contraction recurrence, and a sharp ordinary-count-polynomial error bound. These results have different computational scopes, stated in the individual notes. **No new complete H(n) bound is claimed.** Uniform template compilation and the full tape caller remain open.
 
 ## Verification
-Only current source reading and mathematical derivation; see VERIFICATION.md. The primary proof audit and complete recurrence remain open.
 
-## Credit
-Research coordinated for @CubeJerry with substantial OpenAI assistance. The underlying November 24 algorithm and proof belong to OpenAI; CrocSwap's prior selected and pending mathematics retain their original authorship, including #7000 and #8102. All old moonshot constructions retain their original contributor credits.
+The lead reviewed the first-wave proofs and independently replayed the route scripts, including adversarial failure controls. Reproduction evidence and exact limits are in VERIFICATION.md. No Lean build or full multiplier validation was performed. Publication to the fork is a research checkpoint; no upstream PR has been opened.
+
+## Consolidated credits
+
+Research coordinated for @CubeJerry with substantial AI assistance from OpenAI ChatGPT and three concurrent research agents. The November 24 Fourier, tape and companion manuscripts and their proofs belong to their credited OpenAI authors. The earlier programme and recovered batch-contraction note retain their provenance. Source lineage includes the shared-wire/helper-split work in #7000/#7001, and the Kartal, Sussman, Davis, Romman, Yao and Liu constructions credited in the manuscripts; this programme does not claim authorship of those constructions. PR #8102 is a prior fixed-kappa specialization, not this programme's result. Exact predecessor references and read scope are recorded in SOURCE-AUDIT.md and EXTERNAL-RESEARCH.md.

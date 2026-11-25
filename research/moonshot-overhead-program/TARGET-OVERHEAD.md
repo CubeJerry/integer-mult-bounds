@@ -14,3 +14,13 @@ If for a valid sequence of candidates j, D_j=2^(i_j) A_j <= 2^(C j^p) and log_2 
 
 ## Endpoint
 Exact H=O(1) would require uniform bounded overhead by a genuinely stronger family/direct algorithm or a different schedule. Even D_j>=2^j at optimal j implies an unbounded overhead for the displayed fixed-exponent family; this does not exclude other architectures. Any proposed poly(s) overhead must be proved with its own complete cost ledger.
+
+## S002: stronger scheduling interface, still no complete envelope
+
+The first scheduler above is the published schedule. A new prefix-weighted schedule is proved in [Route A](routes/A/scheduler-and-chunking.md): a valid interpreted attempt i completing in actual cost t_i gives
+
+T(n) <= C[n + i(1+log i)^2(t_i+1)].
+
+The proof includes round enumeration, clocks, cap checks, cleanup and a schoolbook fallback. The source candidate family is sampled at j=2^h-2, so its excess exponent is 2^-h. A candidate with certified runtime coefficient a_j, proportional space c_j, fixed setup space d_j, generator cost g_j and applicability threshold U_j can be chunked using r_j<8c_j and common linear space. The resulting bound (A10) keeps all five quantities and the index weight visible. See that note for exact rounding and eligibility thresholds.
+
+This is a proved interface conditional on concrete candidate profiles, not a complete conditional overhead theorem: those profiles still need to be obtained from an actual source compiler. The older exponential-index estimate remains a correct description of the original scheduler, but is no longer the best scheduler available in this programme. No particular H, alpha or kappa_ov has been certified.

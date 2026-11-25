@@ -11,3 +11,13 @@ Mechanism: understand the approximation degree required by the Fourier repair sc
 
 ## Pivot rule
 After two unproductive substantive waves, reassess the architecture, not just adjust coefficients. Never convert B into A merely because A is more straightforward.
+
+## S002 first-wave portfolio
+
+| Route | Established within its stated model | Decisive remaining question |
+| --- | --- | --- |
+| A: quantitative source extraction | Prefix-weighted restart schedule; O(nr) chunk wrapper; explicit threshold absorption; compact characteristic-zero predictor | Bound complete finite-template descriptions, interpreted tape cost, precision and usable thresholds uniformly in the target exponent. |
+| B: constant-tail repair | Pairwise shifts, rational Newton predictor, two-predictor division repair; recovered finite batch contraction | Can the full repair/routing caller, including scalar work and movement, give a realizable uniform multiplier with useful overhead? |
+| C: adversarial representation tests | Exact count-polynomial defect inequality; sharp rare-error degree and scoped invoice asymptotics | Which representation changes evade the obstruction without moving the cost to arithmetic, routing or space? |
+
+The next wave preserves B's rational-arithmetic and constant-tail starting point rather than requiring it to use A's finite-characteristic representation. A characteristic-compatibility obstruction and a growing-arity circuit candidate are being checked separately.

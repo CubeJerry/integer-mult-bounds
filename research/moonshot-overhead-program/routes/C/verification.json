@@ -1,0 +1,687 @@
+{
+  "status": "pass",
+  "scope": "finite exact checks of scoped count-prediction lemmas; no formal kernel or tape-time theorem",
+  "python": "3.12.14",
+  "prefix_identity_checks": 33152,
+  "threshold_patterns_exhausted": 16380,
+  "threshold_cases": [
+    {
+      "m": 1,
+      "degree_caps_checked": 2
+    },
+    {
+      "m": 2,
+      "degree_caps_checked": 3
+    },
+    {
+      "m": 3,
+      "degree_caps_checked": 4
+    },
+    {
+      "m": 4,
+      "degree_caps_checked": 5
+    },
+    {
+      "m": 5,
+      "degree_caps_checked": 6
+    },
+    {
+      "m": 6,
+      "degree_caps_checked": 7
+    },
+    {
+      "m": 7,
+      "degree_caps_checked": 8
+    },
+    {
+      "m": 8,
+      "degree_caps_checked": 9
+    },
+    {
+      "m": 9,
+      "degree_caps_checked": 10
+    },
+    {
+      "m": 10,
+      "degree_caps_checked": 11
+    },
+    {
+      "m": 11,
+      "degree_caps_checked": 12
+    },
+    {
+      "m": 12,
+      "degree_caps_checked": 13
+    }
+  ],
+  "exact_interpolants_checked": 1473,
+  "exact_prediction_cases": [
+    {
+      "m": 1,
+      "degree": 0,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 2,
+        "decimal": 0.5
+      },
+      "witness_nodes": [
+        0
+      ]
+    },
+    {
+      "m": 1,
+      "degree": 1,
+      "minimum_failure": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal": 0.0
+      },
+      "witness_nodes": [
+        0,
+        1
+      ]
+    },
+    {
+      "m": 2,
+      "degree": 0,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 2,
+        "decimal": 0.5
+      },
+      "witness_nodes": [
+        0
+      ]
+    },
+    {
+      "m": 2,
+      "degree": 1,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 4,
+        "decimal": 0.25
+      },
+      "witness_nodes": [
+        0,
+        1
+      ]
+    },
+    {
+      "m": 2,
+      "degree": 2,
+      "minimum_failure": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal": 0.0
+      },
+      "witness_nodes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "m": 3,
+      "degree": 0,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 2,
+        "decimal": 0.5
+      },
+      "witness_nodes": [
+        0
+      ]
+    },
+    {
+      "m": 3,
+      "degree": 1,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 4,
+        "decimal": 0.25
+      },
+      "witness_nodes": [
+        1,
+        2
+      ]
+    },
+    {
+      "m": 3,
+      "degree": 2,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 8,
+        "decimal": 0.125
+      },
+      "witness_nodes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "m": 3,
+      "degree": 3,
+      "minimum_failure": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal": 0.0
+      },
+      "witness_nodes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "m": 4,
+      "degree": 0,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 2,
+        "decimal": 0.5
+      },
+      "witness_nodes": [
+        0
+      ]
+    },
+    {
+      "m": 4,
+      "degree": 1,
+      "minimum_failure": {
+        "numerator": 3,
+        "denominator": 8,
+        "decimal": 0.375
+      },
+      "witness_nodes": [
+        1,
+        2
+      ]
+    },
+    {
+      "m": 4,
+      "degree": 2,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 8,
+        "decimal": 0.125
+      },
+      "witness_nodes": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "m": 4,
+      "degree": 3,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 16,
+        "decimal": 0.0625
+      },
+      "witness_nodes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "m": 4,
+      "degree": 4,
+      "minimum_failure": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal": 0.0
+      },
+      "witness_nodes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "m": 5,
+      "degree": 0,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 2,
+        "decimal": 0.5
+      },
+      "witness_nodes": [
+        0
+      ]
+    },
+    {
+      "m": 5,
+      "degree": 1,
+      "minimum_failure": {
+        "numerator": 3,
+        "denominator": 8,
+        "decimal": 0.375
+      },
+      "witness_nodes": [
+        2,
+        3
+      ]
+    },
+    {
+      "m": 5,
+      "degree": 2,
+      "minimum_failure": {
+        "numerator": 7,
+        "denominator": 32,
+        "decimal": 0.21875
+      },
+      "witness_nodes": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "m": 5,
+      "degree": 3,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 16,
+        "decimal": 0.0625
+      },
+      "witness_nodes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "m": 5,
+      "degree": 4,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 32,
+        "decimal": 0.03125
+      },
+      "witness_nodes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "m": 6,
+      "degree": 0,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 2,
+        "decimal": 0.5
+      },
+      "witness_nodes": [
+        0
+      ]
+    },
+    {
+      "m": 6,
+      "degree": 1,
+      "minimum_failure": {
+        "numerator": 29,
+        "denominator": 64,
+        "decimal": 0.453125
+      },
+      "witness_nodes": [
+        2,
+        3
+      ]
+    },
+    {
+      "m": 6,
+      "degree": 2,
+      "minimum_failure": {
+        "numerator": 7,
+        "denominator": 32,
+        "decimal": 0.21875
+      },
+      "witness_nodes": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "m": 6,
+      "degree": 3,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 8,
+        "decimal": 0.125
+      },
+      "witness_nodes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "m": 6,
+      "degree": 4,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 32,
+        "decimal": 0.03125
+      },
+      "witness_nodes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "m": 7,
+      "degree": 0,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 2,
+        "decimal": 0.5
+      },
+      "witness_nodes": [
+        0
+      ]
+    },
+    {
+      "m": 7,
+      "degree": 1,
+      "minimum_failure": {
+        "numerator": 29,
+        "denominator": 64,
+        "decimal": 0.453125
+      },
+      "witness_nodes": [
+        3,
+        4
+      ]
+    },
+    {
+      "m": 7,
+      "degree": 2,
+      "minimum_failure": {
+        "numerator": 37,
+        "denominator": 128,
+        "decimal": 0.2890625
+      },
+      "witness_nodes": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "m": 7,
+      "degree": 3,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 8,
+        "decimal": 0.125
+      },
+      "witness_nodes": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "m": 7,
+      "degree": 4,
+      "minimum_failure": {
+        "numerator": 9,
+        "denominator": 128,
+        "decimal": 0.0703125
+      },
+      "witness_nodes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "m": 8,
+      "degree": 0,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 2,
+        "decimal": 0.5
+      },
+      "witness_nodes": [
+        0
+      ]
+    },
+    {
+      "m": 8,
+      "degree": 1,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 2,
+        "decimal": 0.5
+      },
+      "witness_nodes": [
+        0,
+        2
+      ]
+    },
+    {
+      "m": 8,
+      "degree": 2,
+      "minimum_failure": {
+        "numerator": 37,
+        "denominator": 128,
+        "decimal": 0.2890625
+      },
+      "witness_nodes": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "m": 8,
+      "degree": 3,
+      "minimum_failure": {
+        "numerator": 23,
+        "denominator": 128,
+        "decimal": 0.1796875
+      },
+      "witness_nodes": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "m": 8,
+      "degree": 4,
+      "minimum_failure": {
+        "numerator": 9,
+        "denominator": 128,
+        "decimal": 0.0703125
+      },
+      "witness_nodes": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "m": 9,
+      "degree": 0,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 2,
+        "decimal": 0.5
+      },
+      "witness_nodes": [
+        0
+      ]
+    },
+    {
+      "m": 9,
+      "degree": 1,
+      "minimum_failure": {
+        "numerator": 1,
+        "denominator": 2,
+        "decimal": 0.5
+      },
+      "witness_nodes": [
+        0,
+        2
+      ]
+    },
+    {
+      "m": 9,
+      "degree": 2,
+      "minimum_failure": {
+        "numerator": 11,
+        "denominator": 32,
+        "decimal": 0.34375
+      },
+      "witness_nodes": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "m": 9,
+      "degree": 3,
+      "minimum_failure": {
+        "numerator": 23,
+        "denominator": 128,
+        "decimal": 0.1796875
+      },
+      "witness_nodes": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "m": 9,
+      "degree": 4,
+      "minimum_failure": {
+        "numerator": 7,
+        "denominator": 64,
+        "decimal": 0.109375
+      },
+      "witness_nodes": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "shift_histograms_checked": 510,
+  "negative_controls": {
+    "characteristic_two_constant_predictor": "exact parity multiplier is constant",
+    "characteristic_three_root_bound_counterexample": {
+      "m": 36,
+      "degree": 2,
+      "polynomial": "1+c^2 over F_3",
+      "agreement": {
+        "numerator": 17309009347,
+        "denominator": 34359738368,
+        "decimal": 0.503758473409107
+      },
+      "invalid_characteristic_zero_root_bound": {
+        "numerator": 1,
+        "denominator": 2,
+        "decimal": 0.5
+      },
+      "scope": "counterexample to C4 extension, not a claim refuting C1 over every odd field"
+    },
+    "divided_power_not_count_residue_function": {
+      "binom_0_3_mod_3": 0,
+      "binom_3_3_mod_3": 1
+    }
+  },
+  "invoice_diagnostics": [
+    {
+      "m": 16,
+      "minimizing_degree": 4,
+      "invoice_decimal": 6.4140625,
+      "ratio_to_sqrt_m_ln_m": 0.9630092750133549,
+      "optimization_arithmetic": "exact integers; displayed value and ratio rounded"
+    },
+    {
+      "m": 32,
+      "minimizing_degree": 8,
+      "invoice_decimal": 10.393804550170898,
+      "ratio_to_sqrt_m_ln_m": 0.9869651639865878,
+      "optimization_arithmetic": "exact integers; displayed value and ratio rounded"
+    },
+    {
+      "m": 64,
+      "minimizing_degree": 12,
+      "invoice_decimal": 16.157373536721682,
+      "ratio_to_sqrt_m_ln_m": 0.9903584756410755,
+      "optimization_arithmetic": "exact integers; displayed value and ratio rounded"
+    },
+    {
+      "m": 128,
+      "minimizing_degree": 20,
+      "invoice_decimal": 24.83395579076457,
+      "ratio_to_sqrt_m_ln_m": 0.996504279912758,
+      "optimization_arithmetic": "exact integers; displayed value and ratio rounded"
+    },
+    {
+      "m": 256,
+      "minimizing_degree": 30,
+      "invoice_decimal": 37.689802606742,
+      "ratio_to_sqrt_m_ln_m": 1.0003365938268185,
+      "optimization_arithmetic": "exact integers; displayed value and ratio rounded"
+    },
+    {
+      "m": 512,
+      "minimizing_degree": 48,
+      "invoice_decimal": 56.60643693827492,
+      "ratio_to_sqrt_m_ln_m": 1.001605852673039,
+      "optimization_arithmetic": "exact integers; displayed value and ratio rounded"
+    },
+    {
+      "m": 1024,
+      "minimizing_degree": 72,
+      "invoice_decimal": 84.45797110788104,
+      "ratio_to_sqrt_m_ln_m": 1.0024851210894394,
+      "optimization_arithmetic": "exact integers; displayed value and ratio rounded"
+    },
+    {
+      "m": 2048,
+      "minimizing_degree": 108,
+      "invoice_decimal": 125.36933314645555,
+      "ratio_to_sqrt_m_ln_m": 1.0032687074530942,
+      "optimization_arithmetic": "exact integers; displayed value and ratio rounded"
+    },
+    {
+      "m": 4096,
+      "minimizing_degree": 162,
+      "invoice_decimal": 185.23792930788247,
+      "ratio_to_sqrt_m_ln_m": 1.003567503605342,
+      "optimization_arithmetic": "exact integers; displayed value and ratio rounded"
+    }
+  ]
+}
