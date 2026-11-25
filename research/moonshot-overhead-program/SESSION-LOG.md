@@ -167,3 +167,7 @@ complete bound is admitted at this checkpoint. Route B is protected for
 variable-parameter discovery in the next wave.
 
 S003 publication also preserves concurrent E002 second checkpoint `9d5abf18ff741ff6f8b9f82790e0475fc662b4fe`, including its 42 focused files. Their physical components remain separately scoped pending S003 audit.
+
+## 2026-11-26-S004 — concurrent resumption
+
+Start: 2026-11-25 22:01:15 UTC; requested duration 10,800 seconds. Authoritative fork head `a2d9c4b00c02dadf7bdc970acf9190dfabf9ec32`; canonical and OpenAI pins unchanged. S003 and E002 are active and preserved. Three genuine subagents cover nonstationary precision/recurrences, protected repair-free approximation, and higher-stage affine-factorization width. The lead investigates alternative endpoint rectangle partitions. Detailed scope and actual completion record are in `sessions/2026-11-26-S004/`. No new complete bound is admitted at launch.
