@@ -26,3 +26,11 @@ The lead verified all 103 available source files in the five requested manuscrip
 | Canonical guidance and selected record | Read AGENTS, autoresearch, CONTRIBUTING, bottleneck/glossary/family status and selected-result metadata | Selected #7000 remains source-specific conditional history, not the global post-November mathematical baseline. |
 
 The full tensor-geometry/permanent/lower-bound chain, complete historical archive and bibliography lineage remain staged reading. None of the new upper-bound component claims imports Weak ETH or the old five assumptions. Live Discussions remain unread because the available fetch endpoint rejected them.
+
+## Focused E001 audit delta (26 November 2026 Melbourne)
+
+All primary manuscript reads retain OpenAI pin `3344da59991ed94f9ba711217b29c1d760badfa6`. Lead read the complete single-machine proof, introduction/model, integer packing and short-transform sections, interchange label/Gram/spectral/contraction proof, and Walsh recurrence/precision proof. Route workers read the Fourier repair/kernel/binary dependencies they use. The formal files `NearSquareRoot/Main.lean`, `UniformWorstCase.lean`, `UniformMultiplicationRelease.lean`, and scope documents `lean/docs/109.md`, `130.md` were inspected; no kernel build or complete dependency audit was run.
+
+Current community selected record is #7000/#7001, conditional kappa `0.00363005817`; the priority summary still contains an older selected value. Read Discussion #1163 and retrieved newest views of #1166/#1167; cached newest views are not complete live overlap coverage. PR #8102 remains a fixed-exponent corollary at `e8ac3899a03df571fbbd5d1e42a6d9bb196abde0`, not a quantitative overhead theorem. Hutter's 2002 primary paper was read for prior art on moving search cost into time-bound computation; no claim to invent that general principle.
+
+Concurrent S002 compact prediction at `bbfd1086b7e629375f9891998e4602270d8801cd` was read and credited; E001 redirected overlapping work. Detailed proof/review scope is in [REVIEWS.md](results/epsilon-uniformity/REVIEWS.md). Prior source archives and the historical programme remain unchanged.

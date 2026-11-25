@@ -41,3 +41,19 @@ All certificate lower bounds are explicitly separated from actual runtime.
 Checked 9,999 rational diagonal inequalities and 11 exact attainable-x witnesses.
 These finite checks support arithmetic and are not universal proof verification.
 Substantive source-specific route work and independent review are continuing.
+
+## E001, 2026-11-25 13:56 — first substantive reviewed results
+
+Proved the source-specific rational Gram rank lower bound D>=2^(2p-1)+1.
+The retained reserve contraction forces m>4^p-2>p^2, while the central
+window contains counts separated by p. This prevents any scalar predictor
+of the reduced count from supplying parity, even after a field extension.
+Route C independently re-derived the proof. Exact finite checks passed.
+
+Reviewed and replayed Route C nonstationary recurrence and literal-radix
+padding results. A complete conditional root interchange implication is
+proved under explicit uniform one-level contracts. It does not establish
+a root multiplier; the current Walsh invoice has a separate cumulative toll.
+A new follow-up will examine choosing radix per input width to remove the
+literal fixed-radix padding problem, with prime search and conversion priced.
+Canonical main and OpenAI main remain at their initial pinned revisions.

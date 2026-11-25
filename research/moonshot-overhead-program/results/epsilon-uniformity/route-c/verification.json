@@ -1,0 +1,221 @@
+{
+  "status": "finite_exact_checks_passed",
+  "scope": "integer roots, ceiling boundaries, exact recurrence unfolding, rounding telescoping, critical-toll and fixed-excess negative controls",
+  "not_verified": [
+    "asymptotic theorem by computation",
+    "one-level interchange family",
+    "multiplication algorithm",
+    "Lean formalization"
+  ],
+  "integer_root_cases": 1970,
+  "recurrence_boundary_cases": 135,
+  "illustrations": [
+    {
+      "active_width": "2^40",
+      "summable": {
+        "depth": 1,
+        "normalized_bill_illustration": 1.0635089874267578,
+        "excess_sum_illustration": 0.0625
+      },
+      "borderline": {
+        "depth": 1,
+        "normalized_bill_illustration": 1.2510147094726562,
+        "excess_sum_illustration": 0.25
+      },
+      "constant": {
+        "depth": 1,
+        "normalized_bill_illustration": 1.1260108947753906,
+        "excess_sum_illustration": 0.125
+      },
+      "critical_toll_negative_control": {
+        "depth": 1,
+        "normalized_bill_illustration": 2.000030517578125,
+        "excess_sum_illustration": 0.0
+      }
+    },
+    {
+      "active_width": "2^64",
+      "summable": {
+        "depth": 3,
+        "normalized_bill_illustration": 1.1764076709747315,
+        "excess_sum_illustration": 0.165
+      },
+      "borderline": {
+        "depth": 3,
+        "normalized_bill_illustration": 1.8781349182128906,
+        "excess_sum_illustration": 0.7
+      },
+      "constant": {
+        "depth": 3,
+        "normalized_bill_illustration": 1.4264982342720032,
+        "excess_sum_illustration": 0.375
+      },
+      "critical_toll_negative_control": {
+        "depth": 3,
+        "normalized_bill_illustration": 4.000030517578125,
+        "excess_sum_illustration": 0.0
+      }
+    },
+    {
+      "active_width": "2^96",
+      "summable": {
+        "depth": 4,
+        "normalized_bill_illustration": 1.2221430366583168,
+        "excess_sum_illustration": 0.205
+      },
+      "borderline": {
+        "depth": 4,
+        "normalized_bill_illustration": 2.2517344903945924,
+        "excess_sum_illustration": 0.9
+      },
+      "constant": {
+        "depth": 4,
+        "normalized_bill_illustration": 1.6031866225748672,
+        "excess_sum_illustration": 0.5
+      },
+      "critical_toll_negative_control": {
+        "depth": 4,
+        "normalized_bill_illustration": 5.0000194683671,
+        "excess_sum_illustration": 0.0
+      }
+    },
+    {
+      "active_width": "2^128",
+      "summable": {
+        "depth": 5,
+        "normalized_bill_illustration": 1.2560914545761006,
+        "excess_sum_illustration": 0.23277777777777778
+      },
+      "borderline": {
+        "depth": 5,
+        "normalized_bill_illustration": 2.627023572359855,
+        "excess_sum_illustration": 1.0666666666666667
+      },
+      "constant": {
+        "depth": 5,
+        "normalized_bill_illustration": 1.8035849506295563,
+        "excess_sum_illustration": 0.625
+      },
+      "critical_toll_negative_control": {
+        "depth": 5,
+        "normalized_bill_illustration": 6.0000194683671,
+        "excess_sum_illustration": 0.0
+      }
+    },
+    {
+      "active_width": "2^256",
+      "summable": {
+        "depth": 8,
+        "normalized_bill_illustration": 1.3726373773384977,
+        "excess_sum_illustration": 0.32096371882086167
+      },
+      "borderline": {
+        "depth": 8,
+        "normalized_bill_illustration": 4.209947798164492,
+        "excess_sum_illustration": 1.5761904761904761
+      },
+      "constant": {
+        "depth": 8,
+        "normalized_bill_illustration": 2.5725939979430272,
+        "excess_sum_illustration": 1.0
+      },
+      "critical_toll_negative_control": {
+        "depth": 8,
+        "normalized_bill_illustration": 9.000081473993284,
+        "excess_sum_illustration": 0.0
+      }
+    },
+    {
+      "active_width": "2^512",
+      "summable": {
+        "depth": 10,
+        "normalized_bill_illustration": 1.4204097783676062,
+        "excess_sum_illustration": 0.3569968820861678
+      },
+      "borderline": {
+        "depth": 10,
+        "normalized_bill_illustration": 5.4060073369770265,
+        "excess_sum_illustration": 1.8440476190476192
+      },
+      "constant": {
+        "depth": 10,
+        "normalized_bill_illustration": 3.2513701141121296,
+        "excess_sum_illustration": 1.25
+      },
+      "critical_toll_negative_control": {
+        "depth": 10,
+        "normalized_bill_illustration": 11.000004936044023,
+        "excess_sum_illustration": 0.0
+      }
+    },
+    {
+      "active_width": "2^1024",
+      "summable": {
+        "depth": 13,
+        "normalized_bill_illustration": 1.5369865193836763,
+        "excess_sum_illustration": 0.43524533887629124
+      },
+      "borderline": {
+        "depth": 13,
+        "normalized_bill_illustration": 8.227895481774455,
+        "excess_sum_illustration": 2.2968253968253967
+      },
+      "constant": {
+        "depth": 13,
+        "normalized_bill_illustration": 4.639363256770134,
+        "excess_sum_illustration": 1.625
+      },
+      "critical_toll_negative_control": {
+        "depth": 13,
+        "normalized_bill_illustration": 14.000001177868473,
+        "excess_sum_illustration": 0.0
+      }
+    },
+    {
+      "active_width": "2^2048",
+      "summable": {
+        "depth": 15,
+        "normalized_bill_illustration": 1.5244301045092636,
+        "excess_sum_illustration": 0.42772140337616527
+      },
+      "borderline": {
+        "depth": 15,
+        "normalized_bill_illustration": 9.44282434094514,
+        "excess_sum_illustration": 2.434126984126984
+      },
+      "constant": {
+        "depth": 15,
+        "normalized_bill_illustration": 5.861699746772492,
+        "excess_sum_illustration": 1.875
+      },
+      "critical_toll_negative_control": {
+        "depth": 15,
+        "normalized_bill_illustration": 16.000021498160482,
+        "excess_sum_illustration": 0.0
+      }
+    },
+    {
+      "active_width": "2^4096",
+      "summable": {
+        "depth": 17,
+        "normalized_bill_illustration": 1.5255064833115237,
+        "excess_sum_illustration": 0.42898048069855427
+      },
+      "borderline": {
+        "depth": 17,
+        "normalized_bill_illustration": 10.835886356401113,
+        "excess_sum_illustration": 2.573845598845599
+      },
+      "constant": {
+        "depth": 17,
+        "normalized_bill_illustration": 7.412082538666174,
+        "excess_sum_illustration": 2.125
+      },
+      "critical_toll_negative_control": {
+        "depth": 17,
+        "normalized_bill_illustration": 18.000022731347183,
+        "excess_sum_illustration": 0.0
+      }
+    }
+  ]
+}

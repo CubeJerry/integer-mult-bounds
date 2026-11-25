@@ -1,0 +1,434 @@
+{
+  "status": "finite_exact_checks_passed",
+  "scope": "Lemma P1 on finite intervals; prime-radix witnesses for P2; bounded-radix negative control",
+  "interval_cases": 4160,
+  "witness_cases": 30,
+  "universal_proof": "SOURCE-PADDING-BARRIER.md, Lemma P1 and Theorem P2",
+  "not_claimed": [
+    "lower bound on arbitrary interchangers",
+    "lower bound on multiplication",
+    "actual source implementation replay"
+  ],
+  "witnesses": [
+    {
+      "root_degree": 2,
+      "m": 2,
+      "radix_prime": 5,
+      "interval_start": 4,
+      "interval_end": 8,
+      "witness_width": 7,
+      "volume_inflation_exact": {
+        "numerator": "5^8",
+        "denominator": "2^14"
+      },
+      "volume_inflation_illustration": 23.84185791015625,
+      "proved_threshold": "4"
+    },
+    {
+      "root_degree": 2,
+      "m": 3,
+      "radix_prime": 11,
+      "interval_start": 9,
+      "interval_end": 15,
+      "witness_width": 14,
+      "volume_inflation_exact": {
+        "numerator": "11^10",
+        "denominator": "2^28"
+      },
+      "volume_inflation_illustration": 96.62443623319268,
+      "proved_threshold": "16"
+    },
+    {
+      "root_degree": 2,
+      "m": 4,
+      "radix_prime": 17,
+      "interval_start": 16,
+      "interval_end": 24,
+      "witness_width": 21,
+      "volume_inflation_exact": {
+        "numerator": "17^12",
+        "denominator": "2^42"
+      },
+      "volume_inflation_illustration": 132.47295947388943,
+      "proved_threshold": "64"
+    },
+    {
+      "root_degree": 2,
+      "m": 5,
+      "radix_prime": 37,
+      "interval_start": 25,
+      "interval_end": 35,
+      "witness_width": 32,
+      "volume_inflation_exact": {
+        "numerator": "37^14",
+        "denominator": "2^64"
+      },
+      "volume_inflation_illustration": 488.54482178451593,
+      "proved_threshold": "256"
+    },
+    {
+      "root_degree": 2,
+      "m": 6,
+      "radix_prime": 67,
+      "interval_start": 36,
+      "interval_end": 48,
+      "witness_width": 43,
+      "volume_inflation_exact": {
+        "numerator": "67^16",
+        "denominator": "2^86"
+      },
+      "volume_inflation_illustration": 2131.16569169447,
+      "proved_threshold": "1024"
+    },
+    {
+      "root_degree": 2,
+      "m": 7,
+      "radix_prime": 131,
+      "interval_start": 49,
+      "interval_end": 63,
+      "witness_width": 57,
+      "volume_inflation_exact": {
+        "numerator": "131^18",
+        "denominator": "2^114"
+      },
+      "volume_inflation_illustration": 6215.324616946241,
+      "proved_threshold": "4096"
+    },
+    {
+      "root_degree": 2,
+      "m": 8,
+      "radix_prime": 257,
+      "interval_start": 64,
+      "interval_end": 80,
+      "witness_width": 73,
+      "volume_inflation_exact": {
+        "numerator": "257^20",
+        "denominator": "2^146"
+      },
+      "volume_inflation_illustration": 17712.631996759723,
+      "proved_threshold": "16384"
+    },
+    {
+      "root_degree": 2,
+      "m": 9,
+      "radix_prime": 521,
+      "interval_start": 81,
+      "interval_end": 99,
+      "witness_width": 91,
+      "volume_inflation_exact": {
+        "numerator": "521^22",
+        "denominator": "2^182"
+      },
+      "volume_inflation_illustration": 96154.74085484317,
+      "proved_threshold": "65536"
+    },
+    {
+      "root_degree": 2,
+      "m": 10,
+      "radix_prime": 1031,
+      "interval_start": 100,
+      "interval_end": 120,
+      "witness_width": 111,
+      "volume_inflation_exact": {
+        "numerator": "1031^24",
+        "denominator": "2^222"
+      },
+      "volume_inflation_illustration": 308708.74300448375,
+      "proved_threshold": "262144"
+    },
+    {
+      "root_degree": 2,
+      "m": 11,
+      "radix_prime": 2053,
+      "interval_start": 121,
+      "interval_end": 143,
+      "witness_width": 133,
+      "volume_inflation_exact": {
+        "numerator": "2053^26",
+        "denominator": "2^266"
+      },
+      "volume_inflation_illustration": 1117207.4858165982,
+      "proved_threshold": "1048576"
+    },
+    {
+      "root_degree": 3,
+      "m": 2,
+      "radix_prime": 5,
+      "interval_start": 8,
+      "interval_end": 26,
+      "witness_width": 14,
+      "volume_inflation_exact": {
+        "numerator": "5^14",
+        "denominator": "2^28"
+      },
+      "volume_inflation_illustration": 22.737367544323206,
+      "proved_threshold": "4"
+    },
+    {
+      "root_degree": 3,
+      "m": 3,
+      "radix_prime": 11,
+      "interval_start": 27,
+      "interval_end": 63,
+      "witness_width": 45,
+      "volume_inflation_exact": {
+        "numerator": "11^28",
+        "denominator": "2^90"
+      },
+      "volume_inflation_illustration": 116.49185867656935,
+      "proved_threshold": "16"
+    },
+    {
+      "root_degree": 3,
+      "m": 4,
+      "radix_prime": 17,
+      "interval_start": 64,
+      "interval_end": 124,
+      "witness_width": 90,
+      "volume_inflation_exact": {
+        "numerator": "17^46",
+        "denominator": "2^180"
+      },
+      "volume_inflation_illustration": 260.1663738514353,
+      "proved_threshold": "64"
+    },
+    {
+      "root_degree": 3,
+      "m": 5,
+      "radix_prime": 37,
+      "interval_start": 125,
+      "interval_end": 215,
+      "witness_width": 198,
+      "volume_inflation_exact": {
+        "numerator": "37^78",
+        "denominator": "2^396"
+      },
+      "volume_inflation_illustration": 1293.7673719415018,
+      "proved_threshold": "256"
+    },
+    {
+      "root_degree": 3,
+      "m": 6,
+      "radix_prime": 67,
+      "interval_start": 216,
+      "interval_end": 342,
+      "witness_width": 273,
+      "volume_inflation_exact": {
+        "numerator": "67^92",
+        "denominator": "2^546"
+      },
+      "volume_inflation_illustration": 4330.162712515864,
+      "proved_threshold": "1024"
+    },
+    {
+      "root_degree": 3,
+      "m": 7,
+      "radix_prime": 131,
+      "interval_start": 343,
+      "interval_end": 511,
+      "witness_width": 415,
+      "volume_inflation_exact": {
+        "numerator": "131^120",
+        "denominator": "2^830"
+      },
+      "volume_inflation_illustration": 16506.65512344663,
+      "proved_threshold": "4096"
+    },
+    {
+      "root_degree": 3,
+      "m": 8,
+      "radix_prime": 257,
+      "interval_start": 512,
+      "interval_end": 728,
+      "witness_width": 721,
+      "volume_inflation_exact": {
+        "numerator": "257^182",
+        "denominator": "2^1442"
+      },
+      "volume_inflation_illustration": 33310.00507315142,
+      "proved_threshold": "16384"
+    },
+    {
+      "root_degree": 3,
+      "m": 9,
+      "radix_prime": 521,
+      "interval_start": 729,
+      "interval_end": 999,
+      "witness_width": 993,
+      "volume_inflation_exact": {
+        "numerator": "521^222",
+        "denominator": "2^1986"
+      },
+      "volume_inflation_illustration": 196066.40408694124,
+      "proved_threshold": "65536"
+    },
+    {
+      "root_degree": 3,
+      "m": 10,
+      "radix_prime": 1031,
+      "interval_start": 1000,
+      "interval_end": 1330,
+      "witness_width": 1011,
+      "volume_inflation_exact": {
+        "numerator": "1031^204",
+        "denominator": "2^2022"
+      },
+      "volume_inflation_illustration": 1052244.0659765934,
+      "proved_threshold": "262144"
+    },
+    {
+      "root_degree": 3,
+      "m": 11,
+      "radix_prime": 2053,
+      "interval_start": 1331,
+      "interval_end": 1727,
+      "witness_width": 1717,
+      "volume_inflation_exact": {
+        "numerator": "2053^314",
+        "denominator": "2^3434"
+      },
+      "volume_inflation_illustration": 2254888.087519566,
+      "proved_threshold": "1048576"
+    },
+    {
+      "root_degree": 4,
+      "m": 2,
+      "radix_prime": 5,
+      "interval_start": 16,
+      "interval_end": 80,
+      "witness_width": 72,
+      "volume_inflation_exact": {
+        "numerator": "5^64",
+        "denominator": "2^144"
+      },
+      "volume_inflation_illustration": 24.308653429145085,
+      "proved_threshold": "4"
+    },
+    {
+      "root_degree": 4,
+      "m": 3,
+      "radix_prime": 11,
+      "interval_start": 81,
+      "interval_end": 255,
+      "witness_width": 128,
+      "volume_inflation_exact": {
+        "numerator": "11^76",
+        "denominator": "2^256"
+      },
+      "volume_inflation_illustration": 120.82733092993452,
+      "proved_threshold": "16"
+    },
+    {
+      "root_degree": 4,
+      "m": 4,
+      "radix_prime": 17,
+      "interval_start": 256,
+      "interval_end": 624,
+      "witness_width": 327,
+      "volume_inflation_exact": {
+        "numerator": "17^162",
+        "denominator": "2^654"
+      },
+      "volume_inflation_illustration": 287.81147091476106,
+      "proved_threshold": "64"
+    },
+    {
+      "root_degree": 4,
+      "m": 5,
+      "radix_prime": 37,
+      "interval_start": 625,
+      "interval_end": 1295,
+      "witness_width": 771,
+      "volume_inflation_exact": {
+        "numerator": "37^298",
+        "denominator": "2^1542"
+      },
+      "volume_inflation_illustration": 1367.289435225708,
+      "proved_threshold": "256"
+    },
+    {
+      "root_degree": 4,
+      "m": 6,
+      "radix_prime": 67,
+      "interval_start": 1296,
+      "interval_end": 2400,
+      "witness_width": 2111,
+      "volume_inflation_exact": {
+        "numerator": "67^698",
+        "denominator": "2^4222"
+      },
+      "volume_inflation_illustration": 4483.019127431741,
+      "proved_threshold": "1024"
+    },
+    {
+      "root_degree": 4,
+      "m": 7,
+      "radix_prime": 131,
+      "interval_start": 2401,
+      "interval_end": 4095,
+      "witness_width": 2525,
+      "volume_inflation_exact": {
+        "numerator": "131^720",
+        "denominator": "2^5050"
+      },
+      "volume_inflation_illustration": 17133.842446420553,
+      "proved_threshold": "4096"
+    },
+    {
+      "root_degree": 4,
+      "m": 8,
+      "radix_prime": 257,
+      "interval_start": 4096,
+      "interval_end": 6560,
+      "witness_width": 5692,
+      "volume_inflation_exact": {
+        "numerator": "257^1424",
+        "denominator": "2^11384"
+      },
+      "volume_inflation_illustration": 65962.48144222282,
+      "proved_threshold": "16384"
+    },
+    {
+      "root_degree": 4,
+      "m": 9,
+      "radix_prime": 521,
+      "interval_start": 6561,
+      "interval_end": 9999,
+      "witness_width": 9693,
+      "volume_inflation_exact": {
+        "numerator": "521^2150",
+        "denominator": "2^19386"
+      },
+      "volume_inflation_illustration": 271399.5680010764,
+      "proved_threshold": "65536"
+    },
+    {
+      "root_degree": 4,
+      "m": 10,
+      "radix_prime": 1031,
+      "interval_start": 10000,
+      "interval_end": 14640,
+      "witness_width": 11201,
+      "volume_inflation_exact": {
+        "numerator": "1031^2240",
+        "denominator": "2^22402"
+      },
+      "volume_inflation_illustration": 1060345.4339605644,
+      "proved_threshold": "262144"
+    },
+    {
+      "root_degree": 4,
+      "m": 11,
+      "radix_prime": 2053,
+      "interval_start": 14641,
+      "interval_end": 20735,
+      "witness_width": 15636,
+      "volume_inflation_exact": {
+        "numerator": "2053^2844",
+        "denominator": "2^31272"
+      },
+      "volume_inflation_illustration": 4208696.472531708,
+      "proved_threshold": "1048576"
+    }
+  ]
+}

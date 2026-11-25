@@ -13,9 +13,17 @@ explicit overhead bound has yet been established by this focused session.
 
 - [CERTIFICATE.md](CERTIFICATE.md): rigorous diagnostic lemmas and explicit scope
   of the source's weighted-search upper certificate.
+- [INTERCHANGE-OBSTRUCTION.md](INTERCHANGE-OBSTRUCTION.md): rational Gram rank
+  forces a characteristic/window conflict in the retained tape interchanger.
+  This has separate algebraic agent review and exact finite checks.
 - `route-a/`: quantitative source extraction and repair/routing costs (in progress).
 - `route-b/`: alternative scheduling and bounded preflight (in progress).
-- `route-c/`: nonstationary recursion and additive-toll endpoint tests (in progress).
+- [route-c/NONSTATIONARY-RECURSION.md](route-c/NONSTATIONARY-RECURSION.md):
+  a complete conditional interchange endpoint, and a separate Walsh-toll
+  obstruction; neither is a complete multiplication theorem.
+- [route-c/SOURCE-PADDING-BARRIER.md](route-c/SOURCE-PADDING-BARRIER.md):
+  literal radix padding violates common linear space for a specified natural
+  variable-template selector.
 
 Exact source revision: OpenAI `math` 3344da59991ed94f9ba711217b29c1d760badfa6.
 No upstream PR is opened automatically. Proofs, partial results, scoped negative

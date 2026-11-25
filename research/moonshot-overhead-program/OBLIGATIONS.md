@@ -23,3 +23,11 @@
 | S2-C1 | Proved scoped obstruction; independently reviewed/replayed | Exact ordinary-count-polynomial defect bound and rare-error degree; characteristic-zero scope is essential. |
 | S2-C2 | Under review | Incompatibility between small-characteristic count-only prediction and the published interchange contraction. |
 | G1 | Open | A complete exact fixed-machine overhead theorem. No new complete overhead bound. |
+
+## Focused epsilon-uniformity E001
+
+- **EU-GRAM (proved, scoped):** retained interchange Gram dimension is at least `2^(2p-1)+1`. Its reserve contraction forces a count window longer than characteristic p. A scalar function of the reduced count cannot predict parity on that window. See [proof](results/epsilon-uniformity/INTERCHANGE-OBSTRUCTION.md) and separate review. This does not invalidate multivariate integral prediction.
+- **EU-SELECT (open):** construct a fixed-tape preflight that certifies complete execution costs and common space before direct selection; no free interpreter or omitted compilation.
+- **EU-REC (complete conditional component):** a uniform one-level binary reduction with near-critical child-volume mass, polynomial local work and the stated stack contract yields `O(V sqrt(e))` interchange. See [contract](results/epsilon-uniformity/route-c/NONSTATIONARY-RECURSION.md). These hypotheses are not supplied by the current paper.
+- **EU-PAD (proved, scoped):** literal fixed-radix padding under a power-selected growing template violates uniform linear space. Input-dependent radix selection or a different representation remains open.
+- **EU-TOLL (proved invoice obstruction):** a nonvanishing normalized Walsh routing toll accumulates across unbounded depth; summable homogeneous excess alone is insufficient. No runtime lower bound is asserted.
