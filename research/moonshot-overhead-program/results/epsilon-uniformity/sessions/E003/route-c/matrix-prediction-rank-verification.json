@@ -1,0 +1,93 @@
+{
+  "scope": "Exact finite matrix moment identities, rank inequalities, ternary restrictions and telescoping; not an asymptotic or tape proof.",
+  "seed": 260326,
+  "matrix_rank_cases": 252,
+  "full_gram_identity_cases": 120,
+  "exhaustive_scalar_cases": [
+    {
+      "field_order": 3,
+      "m": 3,
+      "t": 2,
+      "polynomials": 2187,
+      "minimum_errors": 1,
+      "rank_bound": 1
+    },
+    {
+      "field_order": 4,
+      "m": 3,
+      "t": 2,
+      "polynomials": 16384,
+      "minimum_errors": 1,
+      "rank_bound": 1
+    },
+    {
+      "field_order": 5,
+      "m": 3,
+      "t": 1,
+      "polynomials": 625,
+      "minimum_errors": 2,
+      "rank_bound": 1
+    },
+    {
+      "field_order": 7,
+      "m": 2,
+      "t": 1,
+      "polynomials": 343,
+      "minimum_errors": 1,
+      "rank_bound": 1
+    },
+    {
+      "field_order": 3,
+      "m": 4,
+      "t": 1,
+      "polynomials": 243,
+      "minimum_errors": 6,
+      "rank_bound": 5
+    }
+  ],
+  "ternary_average_rank_cases": 24,
+  "telescoping_cases": 80,
+  "negative_controls": {
+    "nonzero_diagonal_count_is_not_rank": "4 nonzero diagonal entries, rank 1",
+    "characteristic_two_parity": "local values coincide; depth-zero exact output would violate an improperly applied positive bound",
+    "degree_m_exact_product": "zero defect is allowed at t=m; falsely pricing it at t=m-1 would require positive rank"
+  },
+  "gamma_one_invoice_diagnostics_only": [
+    {
+      "m": 64,
+      "degree": 12,
+      "invoice_lower_bound": 15.309500106114589,
+      "ratio_to_sqrt_m_log_m": 0.938388479628779
+    },
+    {
+      "m": 128,
+      "degree": 18,
+      "invoice_lower_bound": 23.93216197749619,
+      "ratio_to_sqrt_m_log_m": 0.960318285136405
+    },
+    {
+      "m": 256,
+      "degree": 30,
+      "invoice_lower_bound": 36.716374186514315,
+      "ratio_to_sqrt_m_log_m": 0.9745005320043403
+    },
+    {
+      "m": 512,
+      "degree": 46,
+      "invoice_lower_bound": 55.64771441350229,
+      "ratio_to_sqrt_m_log_m": 0.9846420205747773
+    },
+    {
+      "m": 1024,
+      "degree": 72,
+      "invoice_lower_bound": 83.51358192319282,
+      "ratio_to_sqrt_m_log_m": 0.991275568056743
+    },
+    {
+      "m": 2048,
+      "degree": 108,
+      "invoice_lower_bound": 124.3778094905962,
+      "ratio_to_sqrt_m_log_m": 0.995334034501926
+    }
+  ]
+}

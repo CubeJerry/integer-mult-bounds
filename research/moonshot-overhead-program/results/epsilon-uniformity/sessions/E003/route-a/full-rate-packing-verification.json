@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "scope": "exact finite packing, field-linear naturality, nested permutation and batching identities; no tape-transition simulation",
+  "counts": {
+    "single_field_shapes": 420,
+    "packed_bits_checked": 37800,
+    "scalar_roundtrips": 3500,
+    "nested_field_shapes": 756,
+    "nested_bits_checked": 136080,
+    "leading_batch_cases": 24576
+  },
+  "negative_controls": {
+    "basis_order_detected": true,
+    "zero_embedding_inflates_volume": true,
+    "dropping_basis_loses_independence": true
+  }
+}

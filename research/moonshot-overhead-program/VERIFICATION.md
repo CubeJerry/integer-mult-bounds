@@ -132,3 +132,14 @@ refinement or human referee verification was run.
 ## S003 polynomial-profile milestone
 
 PP accepted after C independent global audit and lead source review. Isolated replay:255 parameter cases,2037 eligibility cases,64 caps,3 negative controls. Exact geometry, spectral and rational checks are in the session tree. No full multiplier, Lean refinement, human review or priority certification.
+
+## E003 first checkpoint
+
+HFS has an independent A written review and isolated replay. The main
+exact replay passed 66,672 floor sums, 15,552 modular residue counts,
+2,805 modular sorts, 1,195,902 reconstructed keys and 592 forward/inverse
+scaling cases. Root's separate matrix replay passed 252 matrix-rank cases,
+120 full moment identities, 19,782 scalar polynomials, 24 ternary cases
+and 80 telescoping identities. These support the written component proofs;
+they are not full tape executions or asymptotic proofs. See E003 lead
+reviews and receipts for commands and scope. No new Lean build occurred.

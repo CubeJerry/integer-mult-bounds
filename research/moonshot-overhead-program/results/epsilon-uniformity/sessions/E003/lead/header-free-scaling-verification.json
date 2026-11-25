@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "scope": "exact finite identities and permutation simulation; no full physical tape execution",
+  "max_modulus": 96,
+  "counts": {
+    "floor_sum": 66672,
+    "residue_count": 15552,
+    "modular_sort": 2805,
+    "key_reconstruction": 1195902,
+    "scaling": 592,
+    "inverse_composition": 592
+  },
+  "negative_controls": {
+    "wrong_count_boundary_rejected": true,
+    "wrong_inverse_rejected": true,
+    "drop_genuine_zero_rejected": true,
+    "nonunit_multiplier_rejected": true
+  }
+}

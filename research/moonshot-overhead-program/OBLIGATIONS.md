@@ -159,3 +159,21 @@ Concurrent S003 physical audits retain their own provenance and status.
 ## S003 polynomial-profile milestone
 
 Closed for PP: compact scalar execution, dyadic endpoints, packed rows, on-demand repair, rational precision, outer integer assembly, common cap and actual eligibility. Stronger-route gates remain: absolute payload, changing-field packing, adaptive recurrence and full numerical composition.
+
+## E003 first-wave obligations
+
+- **E3-HFS (proved component, A review):** implicit modular-key rank/select
+  replaces per-run headers; actual time is V poly(height), payload space
+  has an absolute constant, and control space remains additive.
+- **E3-RANK (proved scoped, lead review):** matrix prediction/port rank
+  tradeoff and the q=4 recursive invoice floor. These are not machine
+  lower bounds or added upper-bound assumptions.
+- **E3-TWO-SCALE (conditional draft):** power-size interchange arity and
+  smaller Walsh arity jointly target H<=2^{O(x^(2/3)(log(x+2))^(1/3))}.
+  Exact child payload, shared endpoints, comparison/coefficient access,
+  source outer reduction and uniform visited-space composition must close.
+- **E3-FIXED-RADIX (fresh review in progress):** S003's explicit dyadic
+  geometry could replace prime-menu compatibility throughout the changing
+  interchanger. Preserve its separate concurrent provenance.
+
+Proofs, reviews and status are in results/epsilon-uniformity/sessions/E003/.

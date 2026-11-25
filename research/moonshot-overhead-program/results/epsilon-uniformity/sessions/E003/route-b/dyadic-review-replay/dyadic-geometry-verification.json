@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "arithmetic": "exact fractions plus integer modular arithmetic",
+  "parameters": {
+    "d": 2,
+    "q": 4,
+    "h": 3,
+    "inner_words": 64,
+    "ambient_dimension": 388,
+    "source_endpoints": 4,
+    "destination_endpoints": 4,
+    "difference_dimension": 5
+  },
+  "checks": {
+    "gram_blocks": 64,
+    "isotropic_pairs": 200,
+    "individual_layout_basis_vectors": 3104,
+    "reserve_inverse_basis_vectors": 3088,
+    "reserve_geometric_columns": 40,
+    "modular_scalings": 30
+  },
+  "negative_controls": {
+    "wrong_cross_sign": 8,
+    "wrong_endpoint_reserve_sign": 8
+  },
+  "scope": "Explicit Gram, pair complements, rectangle isotropy, reserve-only inverse, fixed odd radix units. No full tape router or multiplier execution."
+}

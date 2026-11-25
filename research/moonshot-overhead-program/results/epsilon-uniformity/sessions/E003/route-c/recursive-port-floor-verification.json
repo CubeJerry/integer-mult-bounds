@@ -1,0 +1,77 @@
+{
+  "scope": "Finite exact integer inequalities and rational relaxed-invoice dynamics; no tape-runtime lower bound or asymptotic proof by sampling.",
+  "central_mass_inequalities": 256,
+  "binomial_tail_inequalities": 33152,
+  "finite_subsolution_checks": [
+    {
+      "m": 4096,
+      "exact_integer_subsolution_checks": 78
+    },
+    {
+      "m": 4097,
+      "exact_integer_subsolution_checks": 78
+    },
+    {
+      "m": 4225,
+      "exact_integer_subsolution_checks": 80
+    },
+    {
+      "m": 8192,
+      "exact_integer_subsolution_checks": 110
+    },
+    {
+      "m": 16384,
+      "exact_integer_subsolution_checks": 155
+    }
+  ],
+  "exact_cutoff_constant": "389^2 < 6*160^2",
+  "relaxed_finite_potential_diagnostics": [
+    {
+      "m": 16,
+      "optimal_rank_bound_potential_degree": 4,
+      "potential_over_sqrt_m_diagnostic": 1.7248131382250764,
+      "eight_level_relaxed_invoice_over_sqrt_m_diagnostic": 1.725363979826421
+    },
+    {
+      "m": 32,
+      "optimal_rank_bound_potential_degree": 8,
+      "potential_over_sqrt_m_diagnostic": 1.8139508917571943,
+      "eight_level_relaxed_invoice_over_sqrt_m_diagnostic": 1.8139640318688184
+    },
+    {
+      "m": 64,
+      "optimal_rank_bound_potential_degree": 10,
+      "potential_over_sqrt_m_diagnostic": 1.8861826759630933,
+      "eight_level_relaxed_invoice_over_sqrt_m_diagnostic": 1.886319318189581
+    },
+    {
+      "m": 128,
+      "optimal_rank_bound_potential_degree": 16,
+      "potential_over_sqrt_m_diagnostic": 1.9247537224527185,
+      "eight_level_relaxed_invoice_over_sqrt_m_diagnostic": 1.924810208640374
+    },
+    {
+      "m": 256,
+      "optimal_rank_bound_potential_degree": 24,
+      "potential_over_sqrt_m_diagnostic": 1.9633389892915594,
+      "eight_level_relaxed_invoice_over_sqrt_m_diagnostic": 1.96336976296377
+    }
+  ],
+  "gaussian_constants_diagnostics_only": [
+    {
+      "q": 3,
+      "c_q_diagnostic": 1.2521989503315494,
+      "Lambda_q_diagnostic": 1.8300208315373447
+    },
+    {
+      "q": 4,
+      "c_q_diagnostic": 1.5381722544550525,
+      "Lambda_q_diagnostic": 2.04547720484006
+    },
+    {
+      "q": 8,
+      "c_q_diagnostic": 2.0269052606454787,
+      "Lambda_q_diagnostic": 2.4440816750340444
+    }
+  ]
+}

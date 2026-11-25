@@ -195,3 +195,13 @@ not part of this admission.
 ## S003 polynomial-profile milestone
 
 At22:20 UTC S003 admitted its complete written polynomial-profile theorem after C global review and lead audit. Remote9e84956f and E002 same-scale theorem plus S004/E003 records were preserved before publication. Session remains active toward00:19:05 UTC; no three-hour completion claimed.
+
+## E003 first focused mathematical checkpoint
+
+Focused session E003 started at 2026-11-25 22:01:09 UTC and continues for
+the requested three hours. Remote initialization efd0c7be was verified;
+concurrent c65aac11 was preserved. Its reviewed header-free scaling and
+matrix/recursive-port results are scoped components, not a new multiplier.
+A distinct two-scale recursion targets log H=O(x^(2/3)(log(x+2))^(1/3));
+complete physical/source admission remains pending. See
+results/epsilon-uniformity/sessions/E003/CLAIMS.md and SESSION-LOG.md.

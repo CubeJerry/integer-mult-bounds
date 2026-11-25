@@ -136,3 +136,16 @@ No new formal build or exhaustive novelty certification is asserted.
 ## S003 polynomial-profile milestone
 
 Lead/C reread pinned Walsh, guarded-XOR/controlled-block, integer shape/precision/carry, common-machine scheduling and Fourier normalization sections. Remote9e84956f, E002 same-scale theorem and S004/E003 records were preserved. C separately reviewed E002 height-priced streams and repair. Novelty audit remains nonexhaustive.
+
+## E003 reading and concurrent reconciliation — first checkpoint
+
+E003 root read the complete pinned tape single-machine and Walsh sections,
+Fourier spectral repair, and September elementary-stream/ordered-affine
+proofs; read relevant interchange geometry and the actual preceding
+rational Newton/finite contraction and auxiliary-cost proofs. It read
+S003's full new dyadic geometry at concurrent c65aac11 and is checking the
+remaining physical interfaces. It independently reviewed E003 HFS and
+matrix/recursive-invoice proofs and replayed exact finite rank tests.
+A limited current primary-source search did not identify a stronger
+applicable rate in the retrieved material; it is not a novelty audit.
+Full historical, companion and formal-dependency reading remains staged.

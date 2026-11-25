@@ -132,3 +132,14 @@ See [parameters](results/epsilon-uniformity/sessions/E002/PARAMETERS.md) and
 The result improves the programme's preceding explicit envelope. A current
 scoped search is not a priority certification. kappa_ov remains undefined
 on this scale. All earlier sections above retain their historical status.
+
+## E003 candidate with two distinct recursion scales
+
+E003's separate local schedules give a conditional transfer draft on the
+scale `log H=O(x^(2/3)(log2(x+2))^(1/3))`, with `x=log2(1+log2 n)`.
+Interchange uses a power-size arity so its logarithmic losses sum
+geometrically; Walsh uses `log m=Theta(x^(2/3)(log(x+2))^(1/3))` locally
+to pay its genuine polynomial routing toll. All physical gates remain
+explicit in `results/epsilon-uniformity/sessions/E003/route-b/TWO-SCALE-RECURSION.md`.
+This candidate is not yet an E003 unconditional bound, and no kappa_ov
+is assigned to it. The concurrent admitted E002/S003 result is preserved.
