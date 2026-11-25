@@ -182,3 +182,7 @@ certificate and representation scopes, independent reviews and source pins
 are consolidated in FINAL-REPORT.md. Concurrent closing head28a7435 is
 preserved. Six prior focused checkpoints are verified; this completion
 record is included in the seventh final checkpoint. No upstream PR opened.
+
+## E002 resumption — 2026-11-25 21:19:31 UTC
+
+Remote start 0607d044d1d09489580da0e5828588820e1a6775. Reuse E001/S002 results; target their physical proportional-cost bottleneck. New session evidence lives in sessions/E002, preserving E001 files. On-demand F4 repair drafted, independent review pending. No stronger complete bound yet.

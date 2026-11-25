@@ -136,3 +136,7 @@ record is included in the seventh final checkpoint. No upstream PR opened.
 ## S003 opened — 26 November 2026 Melbourne
 
 Started at 2026-11-25T21:19:05Z from exact remote HEAD `0607d044d1d09489580da0e5828588820e1a6775`; requested duration 10800 seconds. Canonical `e54523517d0f03e58352e647c403a5af3e525a57`, OpenAI `3344da59991ed94f9ba711217b29c1d760badfa6` and prompt blob `b5762a4dacb999703e83621301a455fbb12755f7` were read from their remotes and remain unchanged. Three genuine workers began geometry quantification, protected compact-executor discovery, and adversarial proof/bridge research. The lead recovered prior claims and scoped source coverage. The previous best written envelope is retained as the starting claim under audit; no S003 complete overhead advance is asserted at resumption. See `sessions/2026-11-26-S003/README.md`.
+
+## 2026-11-26 E002 — focused resumption, 21:19:31 UTC
+
+Resumed remote head 0607d044d1d09489580da0e5828588820e1a6775. Canonical and OpenAI source pins unchanged. Three real task agents pursue height-priced affine streams, separated-setup selection, and succinct tensor/radix interfaces; lead develops on-demand spectral repair. First drafts are not yet a new complete envelope. Requested deadline is 2026-11-26 00:19:31 UTC. Detailed evidence: results/epsilon-uniformity/sessions/E002/.
