@@ -1,9 +1,9 @@
 # Actual and hypothetical size profiles for the order-three construction
 
-Status: **quantitative finite profile and conditional bridge**. The compact
-predictor hypothesis below is not proved. The unconditional construction
-retains the generic module; no new unconditional overhead rate follows
-merely from working over four elements.
+Status: **historical conditional bridge, completed by an explicit IP4
+constructor on November 25, 2026**. Sections 1--3 preserve the original
+generic-profile comparison and implication. The new constructor and
+accepted complete composition are identified in the dated addendum below.
 
 ## 1. Actual generic module
 
@@ -196,3 +196,44 @@ Credits: source physical compiler interfaces and finite ring repair;
 A's quantified common-cap schedule and explicit label accounting;
 B's rational Walsh template and characteristic-two order-three closure;
 Jerry Chen (@CubeJerry); AI-assisted conditional profile analysis.
+
+## 4. Addendum, November 25, 2026: IP4 is established
+
+`../A/characteristic-two-count-formula.md` supplies an explicit polynomial-
+size formula of syntactic degree O(sqrt m) for the F4 predictor on every
+order-three query tuple. Balanced binary addition uses factored carries,
+with copied formula size bounded by `8^r binom(r+k,k)`. A fixed negative
+offset and the binary coefficient identity preserve the degree bound.
+These formulas have nonmultilinear intermediates, which the full-rate
+cyclic compiler permits.
+
+That compiler and one explicitly generated common finite algebra supply
+the `2^{m^C}` constructor, arbitrary independent input occupancy,
+O(sqrt m) active pencil volume and known F4-valued defects required by
+IP4. The session lead and Routes B/C independently reviewed the proof and
+replayed finite exact checks. See B's
+`review-characteristic-two-count-formula.md` and
+`review-fixed-field-physical-composition.md`, plus C's independent
+`../C/CHAR2-COUNT-BIT-FORMULA.md` and `../C/REVIEW-B-IP4-BRIDGE.md`.
+
+The complete resulting machine/profile proof is
+`../A/fixed-field-extraction-theorem.md`, Q1--Q13. It retains the reviewed
+characteristic-two interchange, rational numerical Walsh, bounded
+compiler, common cell cap and restart schedule. Thus the previously
+conditional scale (P3-6) now has an explicit construction under those
+accepted source gates. Historical statements above that IP4 was unproved
+are superseded by this dated addendum.
+
+The separate dyadic representation premise specializing to all odd
+characteristics remains open. The characteristic-two carry construction
+does not establish that premise, and no such specialization is used here.
+
+The next bottleneck is quantitative: the present labels require
+`log2 m_J=O(J^3 log J)`, and the expanded full-rate module and physical
+data have envelope `P_m<=2^{m^C}`. These yield logarithmic candidate
+prefactors and thresholds `2^{O(J^3 log J)}`. A new routing family with a
+smaller complete parameter invoice, a much smaller whole-row module, or
+a proved physical executor for the existing structured module would have
+to improve those costs. Sparse symbolic matrices alone do not pay for
+row-index movement, check maps, scalar coordinates, generation or the
+common visited-cell cap. No further overhead theorem is asserted here.

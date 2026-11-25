@@ -76,3 +76,11 @@ The lead, A and C independently read the cyclic-factorization and bounded-genera
 | A independent F4-sketch replay | 5,238 exact fiber/Parseval cases; 5,127 kernel collisions; 111 injective sketches; additive Frobenius controls | Scoped additive-sketch theorem, not a general representation lower bound. |
 
 The exact asymptotic profile inversion was checked mathematically. These tests do not execute an astronomical template or full multiplier. All source and verification limits remain as stated in the complete lead review.
+
+## S002 fifth wave — fixed-field count formulas and complete composition
+
+Lead acceptance: `verification/S002/lead-review-fixed-field-extraction.md`. Independent finite reviews: B `review-characteristic-two-count-formula.md`, C `CHAR2-COUNT-BIT-FORMULA.md`. Independent global reviews: B `review-fixed-field-physical-composition.md`, C `REVIEW-A-FIXED-FIELD-EXTRACTION.md`.
+
+The lead replayed copies under `verification/S002/count-formula-lead-replays/`. B passed 5,460 adder cases, 137,214 shifted Lucas cases, 120 serialized formula evaluations, 525 size/degree recurrences and 45,864 F4 predictors, rejecting both negative controls. C passed 13,996 bit assignments (4,786 negative offsets), 260 copied size/degree budgets, 178,330 binomial residues, 18 indicators and 9,702 predictors with 3,259 central matches; all three negative controls rejected. A's exact quantitative checker passed 4,121 margin/guard cases and equally many threshold negatives, 290 label majorants and 546 sparse roundings.
+
+Root reread both numerical component notes, the complete new theorem, common physical ledger and pinned source Walsh recursion/precision interface. These are mathematical audits and finite exact corroborations. They do not claim a complete astronomical template, tape-machine execution, Lean refinement, human refereeing or practical numerical threshold.

@@ -86,3 +86,15 @@ For s=log2 L(n), the largest dyadic J below [log2 s/(2C(log2 log2 s)^2)]^(1/6) i
     H(n)<=2^{O(s (log2 log2 s)^(1/3)/(log2 s)^(1/6))}
 
 for one fixed exact finite-alphabet multitape machine with uniform O(n) visited cells. This supersedes the earlier explicit programme envelopes. Its proof uses no compact-IP assumption. The displayed upper-bound scale still grows faster than s^beta in log H for every fixed beta<1; this is not a lower bound on actual machine time. No benchmark kappa_ov, polynomial-s overhead or constant endpoint is claimed.
+
+## S002 fifth wave — IP4 established and stronger unconditional envelope
+
+The [explicit count formula](routes/A/characteristic-two-count-formula.md) establishes IP4. The [complete theorem](routes/A/fixed-field-extraction-theorem.md) gives
+
+    P_m<=2^(m^C),
+    log2 D_j, log2 L(N_j)<=2^(C J^3 log2 J),
+    H(n)<=2^{O(s (log2 log2 s/log2 s)^(1/3))}.
+
+Every fixed candidate has a bounded constructor and charged physical caller; the single scheduled machine has uniform O(n) visited cells and exact full output. Choosing a dyadic J of order (log2 s/log2 log2 s)^(1/3) makes the actual log-prefactor and eligibility threshold at most sqrt(s). Both independent global gates and the lead gate passed.
+
+The characteristic-two formulas use nonmultilinear intermediates and equality on actual order-three spectral tuples. They do not prove the separate dyadic IP or E001 MR representation hypotheses. They nevertheless remove the IP4 premise from this complete bound. All previous envelopes remain historical valid estimates. Constants/cutoffs are unevaluated; the constant endpoint and stronger fixed-beta subexponential scales remain open.

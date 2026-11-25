@@ -57,3 +57,9 @@ Prepared at about 15:36 UTC after preserving concurrent E001 head `ba0e0e394c360
 The cyclic formula representation and integral common algebra now pass A, C and lead audits. C separately accepted A's full composition and actual sparse-candidate eligibility. The current unconditional written envelope is log H=O(s(log log s)^(1/3)/(log s)^(1/6)), with a uniform O(n) visited-cell cap. It improves the programme's earlier explicit rate and has no compact-IP premise. Exact finite tests and negative controls were replayed in isolation. The tensor sum is credited to established literature.
 
 The additive-sketch F4 proof also passed A's independent review/replay. The session remains active toward 16:20:23 UTC; three-hour completion is not yet claimed. Remaining work includes compact-representation questions, conditional-bridge scope, final source/remote checks and publication integration.
+
+## S002 fifth-wave checkpoint — explicit IP4 and complete fixed-field extraction
+
+Prepared after confirmed remote head `58c754b583815e4fe40d333ec9d71e4c254749ba`. The characteristic-two count formula now has separate B/C proofs and exact checkers. Both independent global reviews and the lead accept the complete new envelope log H=O(s(log log s/log s)^(1/3)), with actual 2^(m^C) finite generation and uniform O(n) visited cells. Lead-isolated replays of all three new verifiers passed.
+
+The previous IP4 representation premise is now established explicitly. Rational Walsh coefficients remain a separate, charged numerical component; the dyadic all-odd-characteristic IP remains open. The new result is a written AI-assisted mathematical construction, not a full multiplier execution or formal/human certification. This is an ongoing checkpoint; the session continues toward 16:20:23 UTC and three-hour completion is not yet claimed.

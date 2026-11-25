@@ -1,6 +1,6 @@
 # Square-root overhead moonshot
 
-Status: active S002 session, 2026-11-26 (Australia/Melbourne). Historical programme retained intact. The current strongest accepted rate is the fourth-wave formula extraction linked below; earlier dated sections preserve checkpoint history.
+Status: active S002 session, 2026-11-26 (Australia/Melbourne). Historical programme retained intact. The current strongest accepted rate is the fifth-wave fixed-field extraction linked below; earlier dated sections preserve checkpoint history.
 
 ## Objective and model
 Study the **exact deterministic fixed finite-alphabet multitape full-product** problem with a uniform O(n) visited-cell cap. Let L=1+log_2 n, s=log_2 L. Seek quantitative bounds T(n)=O(n sqrt(L) H(n)) with H(n)>=1, ultimately H=O(1). Do not count arbitrary fixed-kappa corollaries of the November 24 result as progress. Do not claim an o(1) exponent gives a quantitative rate without uniform constants and thresholds.
@@ -57,7 +57,7 @@ New scoped barriers distinguish literal formal polynomial compression, two-stage
 
 ## S002 fourth wave — smaller full-rate formula representation
 
-The current strongest complete programme envelope is
+The fourth-wave complete programme envelope is
 
     T(n)=O(n sqrt(L(n))
              2^{O(s(n)(log2 log2 s(n))^(1/3)/(log2 s(n))^(1/6))}),
@@ -68,3 +68,19 @@ See [complete theorem](routes/A/formula-extraction-theorem.md), [finite construc
 The tensor operation is established matrix-factorization mathematics and is credited. The quantified application improves this programme's preceding explicit upper envelope, not a claimed comparison against an unspecified published o(1). A and C independently audited the finite construction; C independently reviewed the complete composition; the lead reread the changed source interfaces and replayed both exact checkers. Constants and the eventual input cutoff remain unevaluated. No full multiplier execution, formal build or human refereeing occurred.
 
 The exact constant-overhead endpoint and stronger 2^{O(s^beta)}, beta<1, benchmarks remain open. IP/IP4 compact-representation targets are stronger than this new quasi-polynomial-exponent construction. A new additive-sketch theorem over F4 also passed independent review; it permits polynomial matrix width and is compatible with the positive result.
+
+## S002 fifth wave — explicit characteristic-two count formulas
+
+The current strongest accepted written envelope is
+
+    T(n)=O(n sqrt(L(n))
+             2^{O(s(n)(log2 log2 s(n)/log2 s(n))^(1/3))}),
+    L(n)=1+log2 n, s(n)=log2 L(n), visited cells=O(n).
+
+See the [complete theorem](routes/A/fixed-field-extraction-theorem.md), [count-formula construction](routes/A/characteristic-two-count-formula.md), [lead gate](verification/S002/lead-review-fixed-field-extraction.md), and separate [B](routes/B/review-fixed-field-physical-composition.md) and [C](routes/C/REVIEW-A-FIXED-FIELD-EXTRACTION.md) composition reviews.
+
+The new mechanism is a polynomial-size characteristic-two formula for the low bits of an ordinary integer count. Its copied carry expression contains the previous carry once; repeated cumulative sums give polynomial formula size while bit k has syntactic degree at most 2^k. A formal-series coefficient identity handles negative offsets. The resulting degree-O(sqrt(m)) predictor compiles to a whole-row affine factorization with actual data and generation bounded by 2^(m^C). Thus the previously hypothetical IP4 representation is now explicit.
+
+The characteristic-two interchanger and the rational numerical Walsh program retain distinct coefficient algebras. Their complete physical composition, coefficient preparation, all call constants, common cap and eligible sparse schedule passed B, C and lead review. The complete profile is log-prefactor and log-log-threshold at most 2^(C J^3 log J). Exact independent finite tests were replayed by the lead.
+
+This supersedes the fourth-wave upper envelope by a factor (log2 s)^(1/6) in its displayed logarithmic scale. It does not settle the constant-overhead endpoint or any fixed-beta 2^(O(s^beta)) benchmark. The all-odd-characteristic dyadic IP premise remains open. Earlier conditional IP4 sections above describe their checkpoint state and are now superseded by this explicit construction. No full multiplier execution, practical cutoff, formal build, human refereeing or priority claim is made.

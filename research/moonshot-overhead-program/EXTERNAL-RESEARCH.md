@@ -27,3 +27,7 @@ A narrow current-source search did not identify a prior explicit November overhe
 ## S002 matrix-factorization prior art
 
 Richie Sheng and Tim Tribone, [Tensor products of d-fold matrix factorizations](https://doi.org/10.1017/nmj.2025.12), Nagoya Mathematical Journal 261 (2026), e2 (published online 2025). The lead and C read the ring hypothesis, Definition 3.1 and Proposition 3.2. This is established graded tensor-product machinery, with earlier generalized Clifford predecessors. The programme claims no invention of that operation. Its balanced-formula predictor application, effective finite bounds and physical composition are separately proved.
+
+## Restricted multilinear compiler barrier (S002 fifth wave)
+
+Primary author copy: Pavel Hrubes and Amir Yehudayoff, *Homogeneous formulas and symmetric polynomials*, Computational Complexity 20 (2011), 559–578, <https://users.math.cas.cz/~hrubes/PDFs/SymPoly.pdf>. The lead read the model definitions and Theorem 1(i), with portions of its supporting proof; C independently checked the primary theorem and model. No full-paper proof audit is claimed. The published leaf lower bound gives B's scoped width obstruction for the canonical uncompressed compiler on literal characteristic-zero multilinear predictors. It does not constrain the new nonmultilinear characteristic-two spectral formulas. Both the derived count/pruning argument and this distinction passed independent C and lead review.

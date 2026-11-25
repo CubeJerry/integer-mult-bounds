@@ -47,3 +47,9 @@ Root supplied an independently reviewed odd-characteristic linear-sketch obstruc
 B's independent search led from characteristic-two repair to cyclic formula factorization; C identified and checked the integral specialization; A completed the global quantitative composition. The lead and independent reviewers accepted the new complete rate. This is a new finite evaluator within the source physical architecture, with its actual data and generation priced.
 
 The remaining constructive target is a genuinely smaller full-rate representation, such as the stated compact IP/IP4 profiles, or a different architecture with better complete physical costs. Circuit sharing cannot be counted as formula sharing without a new full-rate construction. Scoped Chow, two-stage width and additive-sketch barriers remain distinct and do not exclude all such possibilities.
+
+## S002 fifth-wave disposition
+
+A's explicit characteristic-two count formulas now supply IP4 with polynomial formula size, degree O(sqrt m), full-rate cyclic factorization and actual 2^(m^C) construction. B and C independently proved/reviewed the pivotal carry, negative-offset and spectral identities. A's complete fixed-field extraction passed B, C and lead composition gates; it is the current primary result.
+
+B's order-three geometry/repair and rational Walsh route are both essential in the complete caller. The rational coefficients are prepared numerically and never reduced into the characteristic-two ring. C's scoped barriers and independent audits distinguish formal multilinearity from the new nonmultilinear spectral construction. The dyadic all-odd-characteristic IP and the exact endpoint remain open. Final research is focused on the remaining routing/profile bottleneck and consistent publication of the complete evidence.

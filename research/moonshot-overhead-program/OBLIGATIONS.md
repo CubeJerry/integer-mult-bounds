@@ -94,3 +94,13 @@ S2-FORMULA and the stronger G1 gate are **accepted**. The proof chain is B's cyc
 S2-F4-SKETCH is accepted with A's independent proof review and replay. It bounds arbitrary additive summaries, including both order-three query powers, and leaves polynomial-width representations possible.
 
 The unconditional result has log H=O(s(log log s)^(1/3)/(log s)^(1/6)). IP and IP4 remain open stronger representation hypotheses; E001's separate conditional preflight family likewise remains conditional. Full endpoint, practical crossover, formal refinement and human verification remain open.
+
+## S002 fifth-wave gates — closed for the new fixed-field theorem
+
+- Copied formula size, syntactic degree, negative offsets, F4 phase and constant tail: independent B/C/lead PASS.
+- Whole-row cyclic factorization, common odd cyclotomic algebra, check-node units and actual generator/table bounds: PASS using the accepted compiler plus the new finite proof.
+- Characteristic-two label geometry, both query powers, two-predictor repair and final swap word: existing accepted physical gates retained.
+- Complete call constants, strict margins, rational Walsh coefficient preparation, common physical envelope and numerical precision: independent B/C/lead PASS.
+- Actual finite search, uniform visited-cell cap, chunk convolution, restart costs and sparse-candidate eligibility: PASS.
+
+Evidence: `verification/S002/lead-review-fixed-field-extraction.md` and linked independent reviews/replays. IP4 is now established. The dyadic IP hypothesis, E001's stronger bounded-preflight family, the constant endpoint, full machine execution and formal/human verification remain unresolved or unperformed. These are not hidden assumptions of the new written source composition.

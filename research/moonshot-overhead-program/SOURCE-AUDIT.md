@@ -71,3 +71,9 @@ E001 root read the primary Sheng–Tribone tensor-factorization Proposition3.2 a
 The lead reread the full physical compiler and common-cap assembly, source integral interpolation and matrix-root construction, full binary implementation, and the kernel/tape Walsh batching paragraphs. The source permits different fixed affine matrices at successive stages and arbitrary integer batch width. Its original repeated-pencil and power-of-two-width constructor are not downstream requirements. B recorded a separate varying-pencil interface audit.
 
 The lead retrieved and read Sheng–Tribone's ring convention, Definition 3.1 and Proposition 3.2 in the publisher's primary PDF, DOI 10.1017/nmj.2025.12. C separately read those sections. The known graded tensor construction is credited; the complete external paper and all predecessor proofs are not claimed as read. Source-wide literature/formal limitations remain unchanged.
+
+## S002 fifth-wave source-interface review
+
+For the fixed-field theorem, the lead reread the pinned tape `walsh.tex` batch, physical recursive call, work/visited-space and precision paragraphs, plus the complete rational Newton/division and auxiliary-map notes. The source admits fixed pointwise coefficient lists and varying affine pencils; rational replacements are prepared once to dyadic precision with explicit rounding errors and setup cost. The completed characteristic-two interchanger moves encoded numerical records without identifying their coefficient rings.
+
+The count-bit identities are proved locally and independently checked. No exhaustive literature review or new reading of every companion manuscript is claimed. Exact source pins and the prior partial-read ledger remain the provenance basis.
