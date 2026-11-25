@@ -205,3 +205,7 @@ matrix/recursive-port results are scoped components, not a new multiplier.
 A distinct two-scale recursion targets log H=O(x^(2/3)(log(x+2))^(1/3));
 complete physical/source admission remains pending. See
 results/epsilon-uniformity/sessions/E003/CLAIMS.md and SESSION-LOG.md.
+
+## S004 first scientific checkpoint — 2026-11-25 22:42 UTC
+
+Admitted the corrected radix wrapper, scoped spectral-rank/rounding barrier, and deterministic promised sparse ordinary-residual corrector after independent reviews and isolated lead replays. Admitted JR => H<=2^{O(s^(3/4))} as a conditional transfer; JR remains open. No new S004 unconditional complete bound. Preserved S003/E002 polynomial-profile theorem and concurrent E003 head `df91e4c8e31b1020e05056db5b0eb16169ef3421`. The session remains active toward 01:01:15 UTC. Detailed proof scope, actual corrections, test counts and portfolio pivots: `sessions/2026-11-26-S004/lead/FIRST-WAVE-ADMISSION.md`.

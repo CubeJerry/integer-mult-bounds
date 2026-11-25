@@ -27,3 +27,7 @@ Current canonical and OpenAI heads match the recorded pins. The prompt blob is u
 ## Open next questions
 
 Can any surviving mechanism lower a binding global cost while preserving exactness, full-rate inputs and a common visited-space cap? Complete formulas and all unproved assumptions will be recorded before claiming a stronger overhead bound.
+
+## First checkpoint
+
+See [first-wave admission](lead/FIRST-WAVE-ADMISSION.md) for admitted components, the independently reviewed conditional JR transfer, exact replay receipts, and the current portfolio decision. The shared S003/E002 unconditional polynomial-profile bound is preserved. S004 has not yet established a new unconditional complete bound.

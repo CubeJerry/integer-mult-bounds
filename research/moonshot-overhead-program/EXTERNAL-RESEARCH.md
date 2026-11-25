@@ -54,3 +54,7 @@ Primary author copy: Pavel Hrubes and Amir Yehudayoff, *Homogeneous formulas and
 Neither lead is a premise of the locally proved carry identities. The specific
 full-rate matrix application and physical composition still require external
 novelty review. The session does not certify discovery priority.
+
+## S004 partition and sparse-repair route
+
+Lead read definitions and introductory theorem statements in Trevor Pinto, *Biclique Covers and Partitions*, EJC21(1) P1.19 (2014), and the introduction/definitions of Ghosal--Karrenbauer, SEA2025, DOI10.4230/LIPIcs.SEA.2025.18. Covers, fractional partitions and exact local partitions are kept distinct; neither paper is claimed to settle JR. Route B read the specified sections of Giorgi--Grenet--Perret du Cray--Roche, *Fast interpolation and multiplication of unbalanced polynomials* (2024), on cyclic folds, derivatives and sparse recovery. Its established derivative-ratio method is credited; the new note proves its own deterministic all-moduli and physical implementation claims. Huang's derivative-based sparse interpolation paper remains a staged full-text lead. Exact reading scope and URLs are in the S004 proof files.

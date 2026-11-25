@@ -143,3 +143,7 @@ scaling cases. Root's separate matrix replay passed 252 matrix-rank cases,
 and 80 telescoping identities. These support the written component proofs;
 they are not full tape executions or asymptotic proofs. See E003 lead
 reviews and receipts for commands and scope. No new Lean build occurred.
+
+## S004 first-wave independent evidence
+
+Lead reviewed A's final radix wrapper and C's correction/review, B's spectral and sparse-residual proofs, C's spectral/sparse reviews and A's physical sparse review. Lead separately accepted B4's dense-output argument in its stated model. Isolated exact replays passed: 65,008 wrapper profiles and 1,790 finite permutations; 1,089 named-bit layouts; 18,372 spectral rank evaluations with the listed filtration/CRT checks; and 33 full sparse recoveries plus 3,618 signed folds and 465 long reciprocal reductions. A independently reviewed the full compact JR transfer; the lead rechecked the generator-time/workspace distinction and geometry. Hashes and results: `sessions/2026-11-26-S004/lead/replays/`. No full multiplier, tape implementation, formal refinement or human review is claimed.

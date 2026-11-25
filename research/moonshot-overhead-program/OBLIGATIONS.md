@@ -177,3 +177,12 @@ Closed for PP: compact scalar execution, dyadic endpoints, packed rows, on-deman
   interchanger. Preserve its separate concurrent provenance.
 
 Proofs, reviews and status are in results/epsilon-uniformity/sessions/E003/.
+
+## S004 active obligations
+
+- **JR partition existence:** exact local-load partitions, not Boolean covers or finite constant improvements. The complete compact-profile implication is proved conditionally.
+- **Sparse candidate supplier:** ordinary residual correction is proved below the target main cost for subpolynomial sparse errors, but no useful fast candidate with that guarantee is constructed. The modular corrector is not a general product verifier.
+- **Changing-template caller:** the radix wrapper removes whole-square padding space inflation but retains its processor's own space/setup contract. Stronger adaptive physical composition remains separate.
+- **Inverse-query model:** active-volume commutator obstruction is under independent review; it is not a general time lower bound.
+
+Evidence and portfolio decisions: `sessions/2026-11-26-S004/lead/FIRST-WAVE-ADMISSION.md`.

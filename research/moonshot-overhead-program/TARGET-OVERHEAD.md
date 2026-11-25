@@ -143,3 +143,7 @@ to pay its genuine polynomial routing toll. All physical gates remain
 explicit in `results/epsilon-uniformity/sessions/E003/route-b/TWO-SCALE-RECURSION.md`.
 This candidate is not yet an E003 unconditional bound, and no kappa_ov
 is assigned to it. The concurrent admitted E002/S003 result is preserved.
+
+## S004 alternative-partition conditional transfer
+
+The precise JR hypothesis in `sessions/2026-11-26-S004/lead/joint-rectangle-transfer.md` asks for an exact disjoint partition of the all-coordinates-unequal relation with local load exp(O(k)) poly(log q). Under JR, Section 9 proves H<=2^{O(s^(3/4))} for the same fixed exact multitape model and common O(n) visited cap. A/lead accepted the composition; JR is unproved. This conditionally removes (log s)^(1/4) from the S003/E002 displayed log-overhead. A small q=4,k=2 example does not prove JR. The unconditional target remains unchanged by S004.

@@ -149,3 +149,7 @@ matrix/recursive-invoice proofs and replayed exact finite rank tests.
 A limited current primary-source search did not identify a stronger
 applicable rate in the retrieved material; it is not a novelty audit.
 Full historical, companion and formal-dependency reading remains staged.
+
+## S004 scoped refresh and critical-chain read
+
+Canonical main `e54523517d0f03e58352e647c403a5af3e525a57`, OpenAI math `3344da59991ed94f9ba711217b29c1d760badfa6`, prompt blob `b5762a4dacb999703e83621301a455fbb12755f7` were refreshed at launch. Lead read complete tape interchange.tex and walsh.tex, named S002 fixed-field suppliers and S003 compact profile/geometry/interchange. Prior archive and companion-paper coverage remains staged. Relevant PR metadata includes #8102, a direct fixed-epsilon specialization; metadata does not verify a proof. Live Discussion fetch was rejected, so discussion completeness is not claimed. Concurrent E003 checkpoint df91e4c8e is preserved; overlap and new two-scale proofs remain under separate review.

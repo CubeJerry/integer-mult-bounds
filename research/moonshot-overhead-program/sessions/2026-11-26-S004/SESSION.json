@@ -15,7 +15,8 @@
   },
   "concurrent_sessions_preserved": [
     "2026-11-26-S003",
-    "2026-11-26-E002"
+    "2026-11-26-E002",
+    "2026-11-26-E003"
   ],
   "new_complete_overhead_bound": null,
   "routes": {
@@ -24,5 +25,19 @@
     "C": "Growing-depth full-rate affine factorization: width/degree/space tradeoffs beyond the existing two-stage obstruction.",
     "lead": "Alternative directed rectangle partitions for distance-label graphs: can joint endpoint geometry reduce the product incidence overhead?"
   },
-  "checkpoint_policy": "Lead-only integration, scoped files, reconcile every remote advance without force-push; preserve S003 and E002 records."
+  "checkpoint_policy": "Lead-only integration, scoped files, reconcile every remote advance without force-push; preserve S003 and E002 records.",
+  "last_prepared_utc": "2026-11-25T22:42:21Z",
+  "latest_reconciled_remote_head": "df91e4c8e31b1020e05056db5b0eb16169ef3421",
+  "admitted_components": [
+    "Radix wrapper without whole-square padding",
+    "Matrix spectral rank and repair-free rounding obstruction",
+    "Deterministic promised sparse ordinary-residual correction"
+  ],
+  "conditional_complete_bound": {
+    "hypothesis": "JR exact local-load rectangle partition hypothesis, open",
+    "formula": "H(n)<=2^{O(s(n)^(3/4))}",
+    "proof": "lead/joint-rectangle-transfer.md Section 9",
+    "review": "route-a/review-joint-rectangle-transfer.md"
+  },
+  "first_wave_admission": "lead/FIRST-WAVE-ADMISSION.md"
 }

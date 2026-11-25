@@ -437,9 +437,42 @@
       "started_utc": "2026-11-25T22:01:15Z",
       "planned_end_utc": "2026-11-26T01:01:15Z",
       "requested_seconds": 10800,
-      "scope": "sessions/2026-11-26-S004/",
+      "timezone": "Australia/Melbourne",
+      "background_execution": false,
       "starting_remote_head": "a2d9c4b00c02dadf7bdc970acf9190dfabf9ec32",
-      "new_complete_overhead_bound": null
+      "scope": "sessions/2026-11-26-S004/",
+      "source_pins": {
+        "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
+        "openai_math_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
+        "prompt_blob": "b5762a4dacb999703e83621301a455fbb12755f7"
+      },
+      "concurrent_sessions_preserved": [
+        "2026-11-26-S003",
+        "2026-11-26-E002",
+        "2026-11-26-E003"
+      ],
+      "new_complete_overhead_bound": null,
+      "routes": {
+        "A": "Audit full precision/profile chain; study nonstationary template recurrences and whether varying arity can improve the fixed-profile rate.",
+        "B": "Protected discovery: operator approximation and exact rounding as a replacement for spectral repair, with worst-case rather than average guarantees.",
+        "C": "Growing-depth full-rate affine factorization: width/degree/space tradeoffs beyond the existing two-stage obstruction.",
+        "lead": "Alternative directed rectangle partitions for distance-label graphs: can joint endpoint geometry reduce the product incidence overhead?"
+      },
+      "checkpoint_policy": "Lead-only integration, scoped files, reconcile every remote advance without force-push; preserve S003 and E002 records.",
+      "last_prepared_utc": "2026-11-25T22:42:21Z",
+      "latest_reconciled_remote_head": "df91e4c8e31b1020e05056db5b0eb16169ef3421",
+      "admitted_components": [
+        "Radix wrapper without whole-square padding",
+        "Matrix spectral rank and repair-free rounding obstruction",
+        "Deterministic promised sparse ordinary-residual correction"
+      ],
+      "conditional_complete_bound": {
+        "hypothesis": "JR exact local-load rectangle partition hypothesis, open",
+        "formula": "H(n)<=2^{O(s(n)^(3/4))}",
+        "proof": "lead/joint-rectangle-transfer.md Section 9",
+        "review": "route-a/review-joint-rectangle-transfer.md"
+      },
+      "first_wave_admission": "lead/FIRST-WAVE-ADMISSION.md"
     }
   }
 }

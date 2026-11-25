@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "arithmetic": "exact F4 and integers",
+  "seed": 2718281828,
+  "counts": {
+    "support_shift_reductions": 83652,
+    "support_hilbert_tails": 44,
+    "ordinary_shift_reductions": 157464,
+    "matrix_predictors": 68,
+    "spectral_rank_evaluations": 18372,
+    "crt_regular_representation_ranks": 32,
+    "exact_constant_matrix_case": 1,
+    "phase_indicator_identities": 9,
+    "rank_vs_coordinate_negative_controls": 5
+  },
+  "examples": [
+    {
+      "m": 1,
+      "width": 1,
+      "support_degree": 0,
+      "actual_rank_sum": 2,
+      "lower_rank_sum": 2
+    },
+    {
+      "m": 2,
+      "width": 2,
+      "support_degree": 0,
+      "actual_rank_sum": 12,
+      "lower_rank_sum": 8
+    },
+    {
+      "m": 3,
+      "width": 2,
+      "support_degree": 1,
+      "actual_rank_sum": 45,
+      "lower_rank_sum": 0
+    },
+    {
+      "m": 4,
+      "width": 3,
+      "support_degree": 1,
+      "actual_rank_sum": 224,
+      "lower_rank_sum": 48
+    },
+    {
+      "m": 5,
+      "width": 2,
+      "support_degree": 1,
+      "actual_rank_sum": 407,
+      "lower_rank_sum": 64
+    },
+    {
+      "m": 5,
+      "width": 3,
+      "support_degree": 2,
+      "actual_rank_sum": 658,
+      "lower_rank_sum": 0
+    },
+    {
+      "m": 6,
+      "width": 2,
+      "support_degree": 1,
+      "actual_rank_sum": 1277,
+      "lower_rank_sum": 128
+    },
+    {
+      "m": 7,
+      "width": 2,
+      "support_degree": 2,
+      "actual_rank_sum": 3692,
+      "lower_rank_sum": 256
+    }
+  ],
+  "negative_controls": [
+    {
+      "omission": "semisimplicity",
+      "model": "F2, r=2, m=1, P=1",
+      "actual_rank_fraction": "0",
+      "invalid_binary_tail": "1/2"
+    },
+    {
+      "omission": "rank versus coordinate distinction",
+      "model": "defect J_W",
+      "rank": 1,
+      "bad_diagonal_entries": "W"
+    },
+    {
+      "omission": "full-product character",
+      "model": "constant target and P=I",
+      "actual_rank_fraction": "0",
+      "invalid_tail": "positive at degree zero"
+    },
+    {
+      "omission": "affine stage contract",
+      "model": "P=chi I declared one stage",
+      "actual_rank_fraction": "0",
+      "invalid_tail_numerator": 2816,
+      "denominator": 19683
+    }
+  ],
+  "checker_sha256": "3c28f685c9d59e08d769401586eea01ca882a1df0fae99b1cfb27878c22647e3",
+  "scope": "Finite algebra/CRT/weight checks; no proof by enumeration, no tape execution"
+}
