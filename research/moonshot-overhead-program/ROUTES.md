@@ -98,3 +98,7 @@ E002 retains protected positive batching discovery while independent reviewers e
 ## S003 fifth-wave checkpoint
 
 The fifth wave formally stops the finite-spectrum-only separate-query pivot: SQ removes the formal-polynomial premise while retaining essential-coordinate and rank-error sensitivity. B has sustained independent discovery time on a genuinely joint middle-pencil executor. A separated actual numerical address work and exposed the surviving m factor; C broadened finite-alphabet packing and is testing a p-power-only compiler. Root proved NT and a narrow AP floor. Two nearby scalar-routing escapes have failed, so another parameter-only retuning is not supported by this research decision. JR and joint physical delivery change different premises and remain distinct routes.
+
+## S004 third-wave pivot
+
+A retains the proved heterogeneous invoice and weaker OWL Fourier gate, and now tests a local endpoint-preconditioning executor. B retains sparse, one-sided and dense-recurrence repair components and pivots to bounded-amplitude dense errors with charged small-modulus convolution. C retains the survivor and inverse-aware phase-sector bounds and attacks the exact subset-spectrum gap. Lead completes reviews and source-scope checks and keeps the open combinatorial and physical hypotheses separate from the unconditional E002/S003/E003 envelope.

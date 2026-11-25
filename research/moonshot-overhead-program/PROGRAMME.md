@@ -131,3 +131,7 @@ The E002 follow-on package now separates an admitted unconditional V constructio
 ## S003 fifth-wave checkpoint
 
 AQ remains the complete unconditional S003 construction, with log H=O(s^(2/3)log(s+2)^(1/3)) and an absolute visited-cell cap. The separate S004 checkpoint af5d7983 supplies the conditional implication JR alone => log H=O(s^(2/3)), by improving both geometries. S003 NT explains why improving only routing leaves its unchanged numerical majorant binding. Formal and finite-spectrum separate-query routes are now obstructed; protected discovery moves to joint address delivery. Finite-alphabet packing is accepted, with no new multiplier rate inferred.
+
+## S004 third-wave results
+
+New reviewed components cover arbitrary-matrix full-root survivor rank, active direct/inverse query volume with shared ports, noncommuting fractions, exact dense-recurrence correction and its prefix-rank supplier gate. Geometry work isolates a weaker weighted parity gate OWL and proves limits for the old heterogeneous Fourier invoice. The unconditional global bound is unchanged; the JR-only conditional log-free two-thirds theorem remains separate. See S004 `lead/THIRD-WAVE-ADMISSION.md`.

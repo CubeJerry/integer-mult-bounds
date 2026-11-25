@@ -1,0 +1,205 @@
+{
+  "status": "pass",
+  "scope": "exact finite ranks, incidences and integer invoice majorants",
+  "matrix_cases": [
+    {
+      "qs": [
+        2,
+        2
+      ],
+      "labels": 4,
+      "binary_gram_rank": 2,
+      "rational_charged_rank": 3,
+      "top_degree_rank_lower_bound": 2,
+      "free_load": 2,
+      "prime": 101,
+      "wrong_field_rank_negative": false
+    },
+    {
+      "qs": [
+        2,
+        4
+      ],
+      "labels": 8,
+      "binary_gram_rank": 4,
+      "rational_charged_rank": 5,
+      "top_degree_rank_lower_bound": 4,
+      "free_load": 3,
+      "prime": 101,
+      "wrong_field_rank_negative": false
+    },
+    {
+      "qs": [
+        4,
+        4
+      ],
+      "labels": 16,
+      "binary_gram_rank": 6,
+      "rational_charged_rank": 7,
+      "top_degree_rank_lower_bound": 6,
+      "free_load": 4,
+      "prime": 101,
+      "wrong_field_rank_negative": true
+    },
+    {
+      "qs": [
+        2,
+        8
+      ],
+      "labels": 16,
+      "binary_gram_rank": 8,
+      "rational_charged_rank": 9,
+      "top_degree_rank_lower_bound": 8,
+      "free_load": 4,
+      "prime": 101,
+      "wrong_field_rank_negative": false
+    },
+    {
+      "qs": [
+        4,
+        8
+      ],
+      "labels": 32,
+      "binary_gram_rank": 10,
+      "rational_charged_rank": 11,
+      "top_degree_rank_lower_bound": 10,
+      "free_load": 5,
+      "prime": 101,
+      "wrong_field_rank_negative": false
+    },
+    {
+      "qs": [
+        8,
+        8
+      ],
+      "labels": 64,
+      "binary_gram_rank": 14,
+      "rational_charged_rank": 15,
+      "top_degree_rank_lower_bound": 14,
+      "free_load": 6,
+      "prime": 101,
+      "wrong_field_rank_negative": false
+    },
+    {
+      "qs": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "labels": 16,
+      "binary_gram_rank": 2,
+      "rational_charged_rank": 11,
+      "top_degree_rank_lower_bound": 6,
+      "free_load": 8,
+      "prime": 101,
+      "wrong_field_rank_negative": false
+    },
+    {
+      "qs": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "labels": 32,
+      "binary_gram_rank": 4,
+      "rational_charged_rank": 19,
+      "top_degree_rank_lower_bound": 12,
+      "free_load": 12,
+      "prime": 101,
+      "wrong_field_rank_negative": false
+    },
+    {
+      "qs": [
+        2,
+        2,
+        4,
+        4
+      ],
+      "labels": 64,
+      "binary_gram_rank": 6,
+      "rational_charged_rank": 31,
+      "top_degree_rank_lower_bound": 22,
+      "free_load": 18,
+      "prime": 101,
+      "wrong_field_rank_negative": false
+    },
+    {
+      "qs": [
+        2,
+        4,
+        4,
+        4
+      ],
+      "labels": 128,
+      "binary_gram_rank": 8,
+      "rational_charged_rank": 47,
+      "top_degree_rank_lower_bound": 36,
+      "free_load": 27,
+      "prime": 101,
+      "wrong_field_rank_negative": false
+    },
+    {
+      "qs": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "labels": 256,
+      "binary_gram_rank": 10,
+      "rational_charged_rank": 67,
+      "top_degree_rank_lower_bound": 54,
+      "free_load": 40,
+      "prime": 101,
+      "wrong_field_rank_negative": false
+    },
+    {
+      "qs": [
+        2,
+        2,
+        2,
+        8
+      ],
+      "labels": 64,
+      "binary_gram_rank": 8,
+      "rational_charged_rank": 35,
+      "top_degree_rank_lower_bound": 24,
+      "free_load": 16,
+      "prime": 101,
+      "wrong_field_rank_negative": false
+    },
+    {
+      "qs": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "labels": 64,
+      "binary_gram_rank": 2,
+      "rational_charged_rank": 42,
+      "top_degree_rank_lower_bound": 20,
+      "free_load": 32,
+      "prime": 101,
+      "wrong_field_rank_negative": false
+    }
+  ],
+  "profile_checks": {
+    "integer_profiles": 1452,
+    "x_min": 256,
+    "x_max": 8192,
+    "largest_coordinate_count": 64,
+    "claim": "finite majorant checks only; universal theorem is the written inequality proof"
+  },
+  "lower_degree_zero_control": [
+    2,
+    4,
+    8,
+    8
+  ],
+  "total_matrix_entries": 101200
+}

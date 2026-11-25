@@ -270,3 +270,7 @@ E003 independently admits the complete two-thirds-scale fixed-machine constructi
 ## S003 fifth-wave checkpoint
 
 At 2026-11-25T23:40:52Z, confirmed checkpoint2fde2b0c and reconciled E0033b220847, S004af5d7983 and E002a8dd6c24 without altering their live session deadlines. Accepted DR, FP-A, SQ, NT and AP at their stated scopes; recorded the stronger concurrent JR-only implication. A found a surviving query-dependent address factor, and B pivoted to joint delivery. Root AP is a narrower independent floor than the newly fetched E002 NC. Source heads unchanged; next checkpoint preserves admitted and explicitly pending components. S003 continues until00:19:05 UTC.
+
+## S004 third scientific checkpoint — 2026-11-25 23:53 UTC
+
+Admitted the heterogeneous Fourier invoice, parity-weighted Fourier transfer under open OWL, exact JR local-load bounds and small-example optimality, the full-root survivor quotient, the joint lead/C equivariant-sector active inverse-query and fraction bounds, and dense forward-recurrence residual correction with its rank/prefix supplier obstruction. All have independent written reviews and isolated lead finite checks. No new unconditional S004 complete multiplier is asserted. The JR-only conditional log-free two-thirds transfer remains admitted with JR open. Details: `sessions/2026-11-26-S004/lead/THIRD-WAVE-ADMISSION.md`. Preserved concurrent head d88a36eea2010113e08f83f49bbe50886111ceff and E002/S003/E003 provenance. Session remains active to 01:01:15 UTC.

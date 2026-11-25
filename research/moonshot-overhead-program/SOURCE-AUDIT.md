@@ -186,3 +186,7 @@ E003 lead completed the primary interchange, permutations, Walsh, integers, unif
 ## S003 fifth-wave checkpoint
 
 Canonical main e54523517d0f03e58352e647c403a5af3e525a57 and OpenAI main3344da59991ed94f9ba711217b29c1d760badfa6 were live-rechecked unchanged at23:36 UTC. Root reread the Fourier kernel endpoint section and read the full S004 JRT-U transfer, independent C review and second-wave admission at af5d7983. Root read E002's complete noncanonical incidence proof at a8dd6c24, including its constant-weight rank and binomial bounds; no S003 replay of its checker is claimed. The E002 RV admission was read, not all RV suppliers. Broader manuscript and archive coverage remains staged as previously recorded.
+
+## S004 third-wave source scope
+
+Lead read the complete newly published E002 noncanonical zero-Gram-side incidence proof and E003 crown-product ordering/laminar obstruction, plus E002's RV admission. They retain their exact premises and concurrent credit; no complete S004 reread of all newly arrived suppliers is claimed. The P4-free primary-source reading covers the ITC2021 introduction, Theorem 8, Sections 5.1/5.4/6.1 and Section 7; Pinto's local definitions and crown argument were inspected. These global-count/local-load distinctions are recorded in S004 `lead/jr-local-load-gates.md`. B's separate Bostan--Mori recurrence reading and its limits are recorded in B's proof; no unread implementation is imported as a tape primitive.

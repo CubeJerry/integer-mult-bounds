@@ -37,3 +37,7 @@ See [first-wave admission](lead/FIRST-WAVE-ADMISSION.md) for admitted components
 The shared unconditional E002 theorem now gives H<=2^{O(s^(2/3)(log2(s+2))^(1/3))}, with the same exact machine and common O(n) visited-cell cap. S004's separately reviewed complete conditional theorem gives H<=2^{O_c(s^(2/3))} under the sole additional open hypothesis JR. See [second-wave admission](lead/SECOND-WAVE-ADMISSION.md) for this composition, inverse-aware model bounds, two-converter floors, sparse-supplier constraints and the one-sided residual certificate. No new unconditional S004 complete bound is asserted.
 
 Active discovery has moved to heterogeneous/parity-specific Fourier geometry, dense low-recurrence residuals and full-alphabet survivor rank. All historical first-checkpoint statements retain their checkpoint scope.
+
+## Third checkpoint
+
+See [third-wave admission](lead/THIRD-WAVE-ADMISSION.md) for six further reviewed geometry, algebra and repair components, their exact hypotheses, finite replay evidence and the next discovery questions. The unconditional envelope is unchanged. The session continues through its requested endpoint.

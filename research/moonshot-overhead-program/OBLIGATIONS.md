@@ -222,3 +222,10 @@ E003 closes its P-I/P-W/P-O composition gates through the rational Walsh fixed-a
 ## S003 fifth-wave checkpoint
 
 Accepted: finite-alphabet payload bridge FP-A; formal direct-rank obstruction DR; spectral-only, approximate-output and fixed linear-program extension SQ; positive-majorant NT and its conditional physical implications; AP elementary anchored-incidence floor after A review. Proofs/reviews/replays are under sessions/2026-11-26-S003. Open: JR exact partitions; an actual joint-address supplier SN. A refined source audit retains an m query factor, with an exact free-endpoint support witness. The p-power compiler is completing independent review. E002 NC gives a stronger noncanonical incidence floor than AP; its scope is credited separately.
+
+## S004 third-wave open gates
+
+- **OWL:** exact rational weighted odd-Hamming rectangles with small local load imply an improved Fourier component. Support containment, exact coefficient identity, bounded heights and finite construction are explicit; existence remains open and does not improve interchange alone.
+- **Dense recurrence supplier:** correction is proved under a normalized forward recurrence, but a uniformly small recurrence over a full linear image forces small rank. A fast useful nonlinear or later-stage candidate remains missing. Finite Hankel boundary degeneracy is not the forward promise.
+- **Subset spectrum:** the new sharp full-root rank constants do not apply automatically to the three-valued order-five gate. This is an active separate question.
+- **Physical endpoint execution:** local preconditioning and shared work are now being tested outside the earlier positive incidence bills; any improved actual invoice needs independent review.
