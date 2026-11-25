@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "field": "F_2",
+  "exact_arithmetic": true,
+  "scope": "finite rank and algebra checks; no physical correction implementation",
+  "counts": {
+    "elementary_products": 284,
+    "triangular_monomial_basis": 510,
+    "automorphism_coefficient_identities": 21,
+    "unit_factor_identities": 21,
+    "rank_equalities": 37,
+    "general_degree_cut_cases": 175
+  },
+  "negative_controls": {
+    "omitted_prefix_failures": 16,
+    "predictor_is_low_rank_failures": 31
+  },
+  "samples": [
+    {
+      "m": 4,
+      "d": 1,
+      "error_rank": 8,
+      "dimension": 16,
+      "degree_cut_bound": 10
+    },
+    {
+      "m": 4,
+      "d": 2,
+      "error_rank": 6,
+      "dimension": 16,
+      "degree_cut_bound": 10
+    },
+    {
+      "m": 4,
+      "d": 4,
+      "error_rank": 1,
+      "dimension": 16,
+      "degree_cut_bound": 2
+    },
+    {
+      "m": 8,
+      "d": 1,
+      "error_rank": 128,
+      "dimension": 256,
+      "degree_cut_bound": 186
+    },
+    {
+      "m": 8,
+      "d": 2,
+      "error_rank": 120,
+      "dimension": 256,
+      "degree_cut_bound": 186
+    },
+    {
+      "m": 8,
+      "d": 4,
+      "error_rank": 46,
+      "dimension": 256,
+      "degree_cut_bound": 74
+    },
+    {
+      "m": 8,
+      "d": 8,
+      "error_rank": 1,
+      "dimension": 256,
+      "degree_cut_bound": 2
+    },
+    {
+      "m": 12,
+      "d": 1,
+      "error_rank": 2048,
+      "dimension": 4096,
+      "degree_cut_bound": 3172
+    },
+    {
+      "m": 12,
+      "d": 2,
+      "error_rank": 2016,
+      "dimension": 4096,
+      "degree_cut_bound": 3172
+    },
+    {
+      "m": 12,
+      "d": 4,
+      "error_rank": 1092,
+      "dimension": 4096,
+      "degree_cut_bound": 1588
+    },
+    {
+      "m": 12,
+      "d": 8,
+      "error_rank": 92,
+      "dimension": 4096,
+      "degree_cut_bound": 158
+    }
+  ]
+}

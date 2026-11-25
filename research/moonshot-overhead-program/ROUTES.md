@@ -31,3 +31,13 @@ The next wave preserves B's rational-arithmetic and constant-tail starting point
 | C | Sharp count barrier, characteristic/interchange conflict, aliasing obstruction and independent finite-generator audit | Support-preserving lift review and alternatives to count-only prediction. |
 
 B's pivot changes the converter target through a finite half-angle family and retains source physical routing. It does not merely tune coefficients or turn B into A. A characteristic-two error-rank representation is exploratory and not part of the accepted H(n).
+
+## S002 third-wave reassessment
+
+| Route | Current accepted advance | Next decisive question |
+|---|---|---|
+| A | Sharper complete extraction from log m=O(J^3 log J); literal Chow compression barrier | Compact full-rate representation with actual bounded construction and scalar heights. |
+| B | Characteristic-two label geometry and complete order-three physical closure; two-predictor F4 repair | Can the exact full-rate predictor be represented within a single-exponential finite-data budget? |
+| C | Independent sharper-rate and rank reviews; exact two-stage characteristic-two width theorem | Which many-stage/Boolean-quotient representations evade these scoped barriers? |
+
+Root supplied an independently reviewed odd-characteristic linear-sketch obstruction and characteristic-two error-rank result. These narrow specific candidate classes; they do not prove a general multiplication lower bound. B remains a distinct constructive route: its fixed-field group-word closure does not use the original odd-characteristic involution converter.

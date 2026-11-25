@@ -1,0 +1,9 @@
+{
+  "script": "routes/C/verify_char2_full_rate_width.py",
+  "script_sha256": "535d35cb04fd2844dcc0a0c904ac3cd9d335045a17903e43756045de1dda20c4",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"field\": \"F_2\",\n  \"scope\": \"full-rate square affine identities; no physical algorithm\",\n  \"constructed_m_values\": 16,\n  \"quadratic_coefficient_pairs\": 680,\n  \"commutator_pairs\": 560,\n  \"reverse_product_pairs\": 680,\n  \"exhaustive_small_width_graphs\": [\n    {\n      \"width\": 1,\n      \"all_coefficient_matrices\": 2,\n      \"clique_counts_by_m\": [\n        2,\n        1,\n        0\n      ],\n      \"maximum_m\": 2\n    },\n    {\n      \"width\": 2,\n      \"all_coefficient_matrices\": 16,\n      \"clique_counts_by_m\": [\n        16,\n        20,\n        8,\n        2,\n        0\n      ],\n      \"maximum_m\": 4\n    }\n  ],\n  \"negative_controls\": {\n    \"omitted_linear_terms\": 14,\n    \"omitted_even_identity\": 8\n  },\n  \"samples\": [\n    {\n      \"m\": 1,\n      \"constructed_width\": 1,\n      \"proved_minimum_two_stage_width\": 1\n    },\n    {\n      \"m\": 2,\n      \"constructed_width\": 1,\n      \"proved_minimum_two_stage_width\": 1\n    },\n    {\n      \"m\": 3,\n      \"constructed_width\": 2,\n      \"proved_minimum_two_stage_width\": 2\n    },\n    {\n      \"m\": 4,\n      \"constructed_width\": 2,\n      \"proved_minimum_two_stage_width\": 2\n    },\n    {\n      \"m\": 8,\n      \"constructed_width\": 8,\n      \"proved_minimum_two_stage_width\": 8\n    },\n    {\n      \"m\": 12,\n      \"constructed_width\": 32,\n      \"proved_minimum_two_stage_width\": 32\n    },\n    {\n      \"m\": 16,\n      \"constructed_width\": 128,\n      \"proved_minimum_two_stage_width\": 128\n    }\n  ]\n}\n",
+  "stderr": "",
+  "isolation": "Copied script in fresh temporary directory."
+}

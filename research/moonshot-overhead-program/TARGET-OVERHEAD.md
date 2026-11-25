@@ -57,3 +57,14 @@ The focused source extraction now gives, for one exact fixed multitape machine w
 A weaker simple form is H<=2^{O(x/y^(1/4))}. Proof: `results/epsilon-uniformity/THEOREM.md`; physical costs: its `route-a/compiler-invoice.md`; independent audit: `route-c/ELEMENTARY-TOWER-REVIEW.md`. The sharper log m=O(j³ log j) choice refines S002's preceding j^6 certificate. This quantifies the source scheme without an actual-runtime, priority, practical-crossover or endpoint claim. No kappa_ov is assigned on this scale.
 
 The separate bounded-preflight theorem proves H=O(x^a), including a=0, only under its explicit quantitative execution, threshold, preparation and common-space plan contracts. Fixed candidate constants can be absorbed into slack at an explicit later threshold, so those quantities must be controlled jointly.
+
+## S002 third wave — independent cubic-logarithmic extraction
+
+The accepted source family also satisfies log2 m_j=O((j+2)^3 log2(j+2)), using absolute actual call inequalities, the existing quarter pre-padding Walsh margin, and all physical/compiler constants. Its complete profiles obey log2 D_j, log2 L(N_j)<=2^(2^(C (j+2)^3 log2(j+2))). Exact dyadic candidate rounding and eligibility give
+
+    H(n)<=2^{O(s (log2(y+2)/y)^(1/3))},
+    s=log2 L(n), y=log2 log2(s+16).
+
+This is the same scale recorded by E001, now independently derived and reviewed in S002. The [lead review](verification/S002/lead-review-sharper-extraction.md) records all reused gates. The correct fallback and common O(n) visited-cell cap persist. This rate remains larger than 2^{O(s^beta)} for every fixed beta<1; no kappa_ov is assigned.
+
+The new characteristic-two order-three physical family changes the finite algebra and repair closure but retains a large generic representation. Proposed compact IP/IP4 hypotheses would remove one exponential layer and give a stronger conditional iterated-logarithm rate. Those hypotheses are open and do not alter this unconditional envelope or replace E001's separately scoped conditional selector theorem.

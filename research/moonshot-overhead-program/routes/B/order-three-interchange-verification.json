@@ -1,0 +1,135 @@
+{
+  "status": "exact finite checks passed",
+  "field_size": 256,
+  "query_order": 3,
+  "toy_phase_fraction": "4/27",
+  "proof_phase_fraction": "1/16",
+  "physical_routing_or_generic_module_verified": false,
+  "tests": [
+    {
+      "name": "exact_F4_group_words",
+      "omega": 188,
+      "passed": true
+    },
+    {
+      "name": "three_power_cyclotomic_unit_differences",
+      "cases": 390,
+      "passed": true
+    },
+    {
+      "name": "all_basis_physical_field_orbits",
+      "basis_rows": 64,
+      "equal_field_addresses": 8,
+      "passed": true
+    },
+    {
+      "name": "one_shared_swap_pencil_identity",
+      "passed": true
+    },
+    {
+      "name": "all_shift_frequency_predictions",
+      "cases": 3456,
+      "exception_rows_per_frequency": 2,
+      "passed": true
+    },
+    {
+      "name": "four_element_predictor_P4_equals_P",
+      "predictor_applications_per_repair": 2,
+      "passed": true
+    },
+    {
+      "name": "three_label_gather_scatter",
+      "rows": 324,
+      "passed": true
+    },
+    {
+      "name": "full_rate_order_three_repair",
+      "sign": 1,
+      "depth": 1,
+      "labels": 2,
+      "rows": 1458,
+      "entries": 93312,
+      "event_count": 6,
+      "statistics": {
+        "internal_rows": 1458,
+        "internal_calls": 1,
+        "terminal_rows": 864,
+        "terminal_calls": 4
+      },
+      "passed": true
+    },
+    {
+      "name": "full_rate_order_three_repair",
+      "sign": -1,
+      "depth": 1,
+      "labels": 2,
+      "rows": 1458,
+      "entries": 93312,
+      "event_count": 6,
+      "statistics": {
+        "internal_rows": 1458,
+        "internal_calls": 1,
+        "terminal_rows": 864,
+        "terminal_calls": 4
+      },
+      "passed": true
+    },
+    {
+      "name": "full_rate_order_three_repair",
+      "sign": 1,
+      "depth": 2,
+      "labels": 1,
+      "rows": 19683,
+      "entries": 1259712,
+      "event_count": 30,
+      "statistics": {
+        "internal_rows": 31347,
+        "internal_calls": 5,
+        "terminal_rows": 6912,
+        "terminal_calls": 16
+      },
+      "passed": true
+    },
+    {
+      "name": "full_rate_order_three_repair",
+      "sign": -1,
+      "depth": 2,
+      "labels": 1,
+      "rows": 19683,
+      "entries": 1259712,
+      "event_count": 30,
+      "statistics": {
+        "internal_rows": 31347,
+        "internal_calls": 5,
+        "terminal_rows": 6912,
+        "terminal_calls": 16
+      },
+      "passed": true
+    },
+    {
+      "name": "full_rate_final_swap_word",
+      "rows": 1458,
+      "entries": 93312,
+      "full_transform_factors": 3,
+      "passed": true
+    },
+    {
+      "name": "negative_controls",
+      "mismatches": {
+        "wrong_group_word": 3,
+        "omitted_equal_field_identity": 98,
+        "check_order": 15480,
+        "omit_diagonal": 21522,
+        "label_return": 22780,
+        "omit_repair": 22825
+      },
+      "inverse_before_table_rejected": true,
+      "passed": true
+    },
+    {
+      "name": "proof_four_children_one_sixteenth_ledger",
+      "depths": 16,
+      "passed": true
+    }
+  ]
+}

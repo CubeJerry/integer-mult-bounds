@@ -42,3 +42,15 @@ See the [theorem](routes/A/explicit-extraction-theorem.md) and [lead review](ver
 The independent route produced a growing-arity rational arithmetic Walsh theorem and a finite half-angle reflection family compatible with physical swap pencils. Their scopes differ: the arithmetic result is not a tape bound, and the reflection component does not yet improve H(n). Characteristic/interchange and count-aliasing obstructions passed independent review. The support-preserving lift obstruction also passed independent review.
 
 After two substantive waves A pursues a sharper search profile; B pivots from its rational-only caller to the physical reflection family and smaller representations; C tests alternatives to count prediction. The exact endpoint and stronger subexponential-in-s benchmarks remain open.
+
+## S002 third wave — sharper extraction and characteristic-two closure
+
+The sharpened search now passes the same complete physical and scheduling gates with log2 m_j=O(J^3 log J), J=j+2. With s=log2 L and y=log2 log2(s+16), it gives
+
+    H(n)<=2^{O(s (log2(y+2)/y)^(1/3))}.
+
+See [sharper proof](routes/A/sharper-parameter-growth.md), [lead acceptance](verification/S002/lead-review-sharper-extraction.md), and [independent C review](routes/C/REVIEW-SHARPER-PARAMETER-GROWTH.md). This independently reaches the same asymptotic scale as concurrent E001 checkpoint 0961d208; both derivations and their provenance are preserved. The earlier sixth-power envelope is superseded as a programme bound, retained as a historical derivation. The current result remains an explicit extraction of the published qualitative bound, with unevaluated absolute constants and no priority or strict published-runtime comparison.
+
+Route B now supplies a complete finite full-rate order-three closure in characteristic two, using new power-of-two-distance labels and a short F4 group identity. Four recursive phases each use 1/16 of the rows; a four-element discrepancy identity reduces repair to two predictor applications. The lead and C have accepted the physical component and independently replayed its finite checker. The generic predictor representation still has a double-exponential profile, so this construction alone does not improve the displayed global envelope.
+
+New scoped barriers distinguish literal formal polynomial compression, two-stage characteristic-two full-rate width, and arbitrary odd-characteristic linear sketches. They do not lower-bound general multiplication. A characteristic-two low-rank error theorem is separately accepted; its missing cheap address-space correction is not assumed by the order-three construction. The IP and IP4 compact-representation bridges remain explicitly conditional, with final review in progress at this checkpoint.

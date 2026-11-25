@@ -64,3 +64,18 @@ The review required single-control triangular rotations, source shape/row-paddin
 EU-LIFT is closed as a scoped theorem: the literal P_* modulo p² has factor rank at least h binom(h,p-1)(q-1)^(h²-p). B and C independently reviewed it. S002's arbitrary supported-lift theorem has complementary scope.
 
 EU-PREFLIGHT is closed as a complete conditional selector/transfer, with stronger plan-family hypotheses explicitly open. Applying only the current tower profiles does not improve the advertised envelope. The next global obstacle is the finite-characteristic representation and its actual execution/threshold costs, not an unpriced search weight.
+
+## S002 third-wave gates
+
+| ID | Status | Scope |
+|---|---|---|
+| S2-SHARP | Accepted by lead and C | Actual parameter inequalities give log m=O(J^3 log J), complete profile inversion and unchanged common-space machine. |
+| S2-CHAR2-RANK | Accepted with C review | Low-degree truncation rank and power-of-two rank identity; no free physical extraction or correction. |
+| S2-CHAR2-LABELS | Accepted by lead and C | Power-of-two distance selectors, rank/incidence bounds and source physical shared-pencil interface. |
+| S2-ORDER3 | Accepted by lead and C | Exact F4 group words, two-predictor discrepancy repair, finite full-rate contraction and fixed-parameter physical closure. |
+| S2-CHOW | Lead accepted with exact replay | Lower bound for literal formal sums of products, not Boolean-quotient or arbitrary matrix representations. |
+| S2-CHAR2-WIDTH | Lead accepted with exact replay | Sharp exponential width at exactly two affine stages; only the stated weaker bound at many stages. |
+| S2-LINEAR-SKETCH | A independently reviewed/replayed | Odd-characteristic parity prediction from arbitrary linear summaries; matrix-width corollary remains polynomial. |
+| S2-IP / IP4 | Open hypotheses, conditional bridge review in progress | Single-exponential actual full-rate data and construction would reduce one exponential in the candidate profile. |
+
+The stronger unconditional rate has no new conjectural premise. The endpoint and all stronger benchmark families remain open.

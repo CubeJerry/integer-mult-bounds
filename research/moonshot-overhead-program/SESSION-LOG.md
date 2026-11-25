@@ -36,3 +36,9 @@ B's rational arithmetic theorem and fixed-parameter physical reflection family a
 The focused session admitted its complete written source extraction with H<=2^{O(x(log2(y+2)/y)^(1/3))}, based on log m=O(j³ log j), after root and Route C compiler audits. It also admitted the independently reviewed literal p² factor-rank obstruction, complete conditional preflight transfer and constructive radix repair. Exact component checks were replayed; no full multiplier execution or human/Lean certification is claimed.
 
 Remote S002 checkpoint96028cba1342c02bdca1f537ae9a80485087bdf3 supplied a prior coarse sixth-power extraction and complementary supported-lift result. Both were read and preserved, with the former retained in the state history. E001 remains active within the requested three-hour session; this is an ongoing checkpoint, not a completion claim.
+
+## S002 third-wave checkpoint — sharper rate and new physical closure
+
+Prepared after reconciling concurrent E001 head `0961d2083f80429dde4b6ec5197585f727c7f87b`. Its focused files, top-level additions, primary bound and separate conditional theorem are preserved. S002 independently derived and reviewed the same cubic-logarithmic parameter scale; neither session's derivation is overwritten or represented as a priority claim.
+
+This checkpoint saves the sharper accepted rate, characteristic-two power-of-two labels, a complete finite order-three physical closure with two-predictor repair, and independently reviewed scoped representation barriers. Exact isolated replays and their hashes are saved. Compact-representation IP/IP4 premises remain open, with conditional bridge review active. All three agents remain active. The requested session still runs toward 16:20:23 UTC; this checkpoint does not claim three-hour completion.

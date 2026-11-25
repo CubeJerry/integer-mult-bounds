@@ -1,0 +1,49 @@
+{
+  "status": "exact finite checks passed",
+  "selector_cases": 508,
+  "inner_ranks": [
+    {
+      "d": 2,
+      "q": 2,
+      "labels": 8,
+      "rank": 2,
+      "bound": 8
+    },
+    {
+      "d": 2,
+      "q": 4,
+      "labels": 64,
+      "rank": 8,
+      "bound": 16
+    },
+    {
+      "d": 2,
+      "q": 8,
+      "labels": 512,
+      "rank": 20,
+      "bound": 32
+    },
+    {
+      "d": 4,
+      "q": 2,
+      "labels": 128,
+      "rank": 16,
+      "bound": 512
+    }
+  ],
+  "inner_rectangles": {
+    "rectangles": 864,
+    "far_pairs": 1728,
+    "maximum_incidence": 18,
+    "bound": 18
+  },
+  "outer_example": {
+    "d": 2,
+    "q": 2,
+    "labels": 512,
+    "rank": 64,
+    "row_support": 28,
+    "square_zero": true
+  },
+  "full_tape_or_repair_verification": false
+}

@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "field": "F_2",
+  "scope": "full-rate square affine identities; no physical algorithm",
+  "constructed_m_values": 16,
+  "quadratic_coefficient_pairs": 680,
+  "commutator_pairs": 560,
+  "reverse_product_pairs": 680,
+  "exhaustive_small_width_graphs": [
+    {
+      "width": 1,
+      "all_coefficient_matrices": 2,
+      "clique_counts_by_m": [
+        2,
+        1,
+        0
+      ],
+      "maximum_m": 2
+    },
+    {
+      "width": 2,
+      "all_coefficient_matrices": 16,
+      "clique_counts_by_m": [
+        16,
+        20,
+        8,
+        2,
+        0
+      ],
+      "maximum_m": 4
+    }
+  ],
+  "negative_controls": {
+    "omitted_linear_terms": 14,
+    "omitted_even_identity": 8
+  },
+  "samples": [
+    {
+      "m": 1,
+      "constructed_width": 1,
+      "proved_minimum_two_stage_width": 1
+    },
+    {
+      "m": 2,
+      "constructed_width": 1,
+      "proved_minimum_two_stage_width": 1
+    },
+    {
+      "m": 3,
+      "constructed_width": 2,
+      "proved_minimum_two_stage_width": 2
+    },
+    {
+      "m": 4,
+      "constructed_width": 2,
+      "proved_minimum_two_stage_width": 2
+    },
+    {
+      "m": 8,
+      "constructed_width": 8,
+      "proved_minimum_two_stage_width": 8
+    },
+    {
+      "m": 12,
+      "constructed_width": 32,
+      "proved_minimum_two_stage_width": 32
+    },
+    {
+      "m": 16,
+      "constructed_width": 128,
+      "proved_minimum_two_stage_width": 128
+    }
+  ]
+}
