@@ -155,8 +155,12 @@ def main():
         "witnesses": witnesses,
         "slack_witnesses": slack_witnesses,
     }
-    Path(__file__).with_name("dynamic-radix-verification.json").write_text(json.dumps(output, indent=2) + "\n")
-    print(json.dumps({k: v for k, v in output.items() if k not in ["witnesses", "slack_witnesses"]}, indent=2))
+    # The file and stdout carry exactly the same complete JSON document.
+    # Redirecting stdout to this receipt must not overwrite its beginning
+    # with a shorter summary and leave a dangling old witness suffix.
+    serialized = json.dumps(output, indent=2) + "\n"
+    Path(__file__).with_name("dynamic-radix-verification.json").write_text(serialized, encoding="utf-8")
+    print(serialized, end="")
 
 
 if __name__ == "__main__":

@@ -1,10 +1,18 @@
 # A full-rate matrix-root hypothesis and its complete tape consequence
 
-Status: **proved conditional transfer, pending independent review**.
+Status: **proved conditional transfer, independently reviewed by the lead
+and Route C**; see `../route-c/FORMULA-TRANSFER-REVIEW.md`.
 Hypothesis MR is unproved. Its implication includes generation, all shifts,
 cyclotomic descent, repair, precision, physical tape work, space, chunking,
 thresholds and scheduling. A conjectured matrix representation is not an
 unconditional multiplication improvement.
+
+Concurrent S002 `routes/A/compact-integral-predictor-bridge.md` at
+`4689161c5bc6c9e64536034d4fa6af033d26a3e0` records an overlapping
+conditional integral-predictor bridge with a more general finite-algebra
+interface and the same improved envelope. This note states a specific
+matrix-root sufficient condition. The overlap is credited; neither its
+existence nor priority is claimed here.
 
 Sources: OpenAI `math`, `3344da59991ed94f9ba711217b29c1d760badfa6`, Fourier
 `build/repair.tex` (`lem:count-predict`, `lem:matrix-root`,

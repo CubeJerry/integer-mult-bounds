@@ -149,3 +149,50 @@ Finally, root read the complete macro-dispatch transfer. Its finite opcode
 contracts, additive description scans, explicit stack/head return costs,
 shrinking-tree count and charged bill computation are sound as a conditional
 compiler lemma. The full source primitive library remains an obligation.
+
+## New formula constructor and full transfer — 16:01 UTC
+
+Route A independently audited C's full cyclic-product invariant, balanced
+formula size, degree accounting, integral graded tensor sum and scalar
+descent. Route C independently audited A's both-branch transfer, all-shift
+repair, finite budget, compiler and joint cost/threshold inversion. Root
+separately read both complete arguments and the original source batch-width
+interfaces; its six-file receipt is ROOT-FORMULA-REVIEW.md. Arbitrary batch
+width is permitted by the source, so cyclotomic regular descent creates no
+unaccounted power-of-two width requirement. Route B's additional synthesis
+audit is being finalized after a reported preliminary pass.
+
+Root's isolated exact replay is root-formula-replay.json. It verifies
+84 predictor cases, 152 cyclic products and 72 full descended matrix roots
+with maximum dimension96. The script hash is
+67404455b1003f470839c634c780e66e98d0cc9fe0304dbd48be918597fd6475.
+The checker includes the wrong-phase control, unequal lengths, all shifted
+non-Boolean query cases and a nonsemisimple characteristic-three example.
+No inference about asymptotic complexity is based solely on these cases.
+
+Root read C's formula-size-transfer review and A's matching-recipe review.
+Root independently verified the latter's compression lemma: contracting
+linear subtrees and removing s expensive additions leaves at most2s+1
+product components with O(D(s+1)) linear leaves. Expanding those leaves and
+applying the published homogeneous multilinear formula lower bound yields
+K>=2^{2^{Omega(log²D)}} for the literal unreduced recipe. Top-degree
+extraction produces (-1)^u e_D(X) without adding sum nodes. The formal,
+syntactic-degree, multilinearity and unreduced-recipe restrictions are
+essential and remain explicit.
+
+The earlier Route B synthesis hash for THEOREM.md applies to the exact
+preserved BASELINE-THEOREM.md, SHA256
+6e814bff4ae85f44cebd5a8fcab74a2c8383b47e0628b486de9add34a56e6097.
+No prior review is silently reassigned to the stronger theorem.
+
+## Final additional synthesis gate — 16:05 UTC
+
+Route B's independent formula-synthesis-review.md passes the full new
+algebra, actual generator, finite-ring and arbitrary-batch-width source
+interfaces, both branches, complete physical profiles and eligible integer
+inversion. It records eight exact reviewed hashes. Root read the entire
+review. The theorem's review status is now accepted by A, B, C and root.
+The later scoped recipe paragraph and concurrent-formula credit were
+separately reviewed by root; status/provenance edits are not silently
+attributed to earlier exact snapshot hashes. The proof of Theorem F is
+unchanged. No additional numerical replay was required.

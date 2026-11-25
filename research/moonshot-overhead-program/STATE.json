@@ -86,22 +86,22 @@
       "planned_end_utc": "2026-11-25T16:25:26Z",
       "scope": "results/epsilon-uniformity/",
       "initial_head": "99f0b3644f1858687db74e01d07a4808602854e2",
-      "strongest_complete_multiplication_bound": "T(n)=n sqrt(L(n)) 2^{O(x (log2(y+2)/y)^(1/3))}",
+      "strongest_complete_multiplication_bound": "T(n)=n sqrt(L) 2^{O(x ((log2(z+2))^2/z)^(1/6))}",
       "new_complete_multiplication_bound": {
-        "formula": "T(n)=n sqrt(L(n)) 2^{O(x (log2(y+2)/y)^(1/3))}",
-        "L": "1+log2(n)",
-        "x": "log2(L)",
-        "y": "log2 log2(x+16)",
-        "weaker_form": "H(n)<=2^{O(x/y^(1/4))}",
-        "space": "O(n) cells ever visited; one fixed exact deterministic finite-alphabet multitape machine",
-        "status": "proved written quantitative source implementation; independently reviewed by root and Route C",
+        "L": "1+log2 n",
+        "x": "log2 L",
+        "z": "log2(x+16)",
+        "weaker_form": "2^{O(x/z^(1/8))}",
         "proof": "results/epsilon-uniformity/THEOREM.md",
-        "construction": "results/epsilon-uniformity/route-a/elementary-tower-extraction.md",
-        "compiler": "results/epsilon-uniformity/route-a/compiler-invoice.md",
-        "review": "results/epsilon-uniformity/route-c/ELEMENTARY-TOWER-REVIEW.md",
-        "meaning": "Sharper log m=O(j^3 log j) profile than preceding S002 sixth-power extraction; no actual-runtime comparison, priority or endpoint claim",
-        "threshold": "absolute eventual; not numerically evaluated",
-        "verification_limits": "No complete astronomical template execution, Lean proof of refinement or independent human refereeing"
+        "construction": "results/epsilon-uniformity/route-c/FORMULA-FACTORIZATION-COMPRESSION.md",
+        "transfer": "results/epsilon-uniformity/route-a/formula-template-transfer.md",
+        "status": "complete written proof independently reviewed by Routes A, B, C and root",
+        "space": "uniform O(n) visited cells",
+        "machine": "one fixed exact deterministic finite-alphabet multitape full-product machine",
+        "limits": "unspecified absolute constants and eventual cutoff; no full execution, Lean refinement or human referee verification",
+        "concurrent_provenance": "S002 independently established the same formula envelope at58c754b583815e4fe40d333ec9d71e4c254749ba; root read and preserved its proof",
+        "formula": "T(n)=n sqrt(L) 2^{O(x ((log2(z+2))^2/z)^(1/6))}",
+        "review": "results/epsilon-uniformity/route-b/formula-synthesis-review.md"
       },
       "proved": [
         "source Gram-rank/characteristic-reserve obstruction",
@@ -110,7 +110,9 @@
         "complete sharper elementary-tower source extraction",
         "input-dependent radix preparation repair",
         "literal p-adic factor-rank obstruction with quantitative reserve tradeoff",
-        "Exact Hamming-window parity degree/depth and scoped Theta(sqrt(m log m)) window/conversion resource tradeoff"
+        "Exact Hamming-window parity degree/depth and scoped Theta(sqrt(m log m)) window/conversion resource tradeoff",
+        "Explicit balanced-formula full-rate predictor with complete double-exponential-in-log-squared-m bit generator; both transform branches and complete stronger machine envelope",
+        "Matching double-exponential-in-log-squared-m row lower bound for the literal unreduced syntactically multilinear formula recipe, reduced to Hrubes--Yehudayoff Theorem1(i)"
       ],
       "conditional_component": "uniform O(V sqrt(e)) interchange under explicit one-level implementation contracts; not a complete multiplier",
       "next": [
@@ -118,7 +120,7 @@
         "Separate predictor-depth barrier from routing and repair alternatives",
         "Complete focused proof integration and final source/remote checks"
       ],
-      "verification": "Compiler and global synthesis independently reviewed; root MR, rational geometry and window resource proofs reviewed; exact window checker replay passed. No full multiplier execution, Lean build or human review.",
+      "verification": "Separate A algebra, C composition, B final synthesis and root algebra/generator/source/compiler/inversion audits; isolated exact formula replay; earlier synthesis, p-adic, certificate, window and rational-height reviews. No full multiplier execution, Lean refinement or human refereeing.",
       "arithmetic_preparation_result": "Input-dependent compatible radix with constant or summably small padding loss; explicit integer search and compatibility scan bound. Variable-radix address-map compiler remains open.",
       "pending_review": [],
       "conditional_complete_multiplication_bound": {
@@ -127,7 +129,7 @@
         "hypotheses": "One sound physical plan family: complete j^a execution bills, log2 L(N_j)<=Cj, and stated double-exponential constant/exponential-degree preflight profile; uniform O(n) visited regions",
         "status": "Complete conditional transfer; stronger family hypotheses not established for original source"
       },
-      "latest_reconciled_head": "4689161c5bc6c9e64536034d4fa6af033d26a3e0",
+      "latest_reconciled_head": "848fbf1d7a5e192aa352d79b4d3e36fa06be21ee",
       "additional_conditional_complete_bounds": [
         {
           "proof": "results/epsilon-uniformity/route-a/single-exponential-root-hypothesis.md",
@@ -137,7 +139,37 @@
           "overlap": "S002 compact-integral-predictor-bridge at 4689161c5bc6c9e64536034d4fa6af033d26a3e0 independently proves a more general IP bridge on the same scale"
         }
       ],
-      "active_followup": "Balanced degree-preserving formula to full-rate cyclic matrix factorization under independent review; not yet promoted to a global bound."
+      "active_followup": "Final independent review, exact scope of smaller-representation hypotheses, primary-source applicability checks and final consistency/remote reconciliation",
+      "previous_complete_overhead_bounds": [
+        {
+          "formula": "T(n)=n sqrt(L(n)) 2^{O(x (log2(y+2)/y)^(1/3))}",
+          "L": "1+log2(n)",
+          "x": "log2(L)",
+          "y": "log2 log2(x+16)",
+          "weaker_form": "H(n)<=2^{O(x/y^(1/4))}",
+          "space": "O(n) cells ever visited; one fixed exact deterministic finite-alphabet multitape machine",
+          "status": "proved written quantitative source implementation; independently reviewed by root and Route C",
+          "proof": "results/epsilon-uniformity/BASELINE-THEOREM.md",
+          "construction": "results/epsilon-uniformity/route-a/elementary-tower-extraction.md",
+          "compiler": "results/epsilon-uniformity/route-a/compiler-invoice.md",
+          "review": "results/epsilon-uniformity/route-c/ELEMENTARY-TOWER-REVIEW.md",
+          "meaning": "Sharper log m=O(j^3 log j) profile than preceding S002 sixth-power extraction; no actual-runtime comparison, priority or endpoint claim",
+          "threshold": "absolute eventual; not numerically evaluated",
+          "verification_limits": "No complete astronomical template execution, Lean proof of refinement or independent human refereeing"
+        }
+      ],
+      "general_conditional_transfer": {
+        "proof": "results/epsilon-uniformity/FORMULA-SIZE-TRANSFER.md",
+        "status": "root proof independently reviewed by Routes A and C",
+        "scope": "Degree-preserving dyadic formula size, actual generator and complete overhead profile; no small-formula existence assertion"
+      },
+      "concurrent_stronger_result": {
+        "head": "848fbf1d7a5e192aa352d79b4d3e36fa06be21ee",
+        "formula": "H<=2^{O(x(log2(z+2)/z)^(1/3))}, z=log2(x+16)",
+        "proof": "routes/A/fixed-field-extraction-theorem.md",
+        "status": "Accepted in S002 after its B/C/lead reviews; additional focused E001 finite and physical reviews in progress",
+        "meaning": "Characteristic-two IP4 construction; does not establish E001's all-odd-characteristic dyadic MR"
+      }
     }
   },
   "previous_complete_overhead_bounds": [
@@ -160,7 +192,7 @@
       "weaker_form": "H(n)<=2^{O(x/y^(1/4))}",
       "space": "O(n) cells ever visited; one fixed exact deterministic finite-alphabet multitape machine",
       "status": "proved written quantitative source implementation; independently reviewed by root and Route C",
-      "proof": "results/epsilon-uniformity/THEOREM.md",
+      "proof": "results/epsilon-uniformity/BASELINE-THEOREM.md",
       "construction": "results/epsilon-uniformity/route-a/elementary-tower-extraction.md",
       "compiler": "results/epsilon-uniformity/route-a/compiler-invoice.md",
       "review": "results/epsilon-uniformity/route-c/ELEMENTARY-TOWER-REVIEW.md",
@@ -195,6 +227,24 @@
       "proof": "routes/A/sharper-parameter-growth.md",
       "review": "verification/S002/lead-review-sharper-extraction.md",
       "meaning": "Same cubic-logarithmic parameter scale as concurrent E001; no priority or strict comparison against unspecified published o(1)"
+    },
+    {
+      "L": "1+log2 n",
+      "x": "log2 L",
+      "z": "log2(x+16)",
+      "weaker_form": "2^{O(x/z^(1/8))}",
+      "proof": "results/epsilon-uniformity/THEOREM.md",
+      "construction": "results/epsilon-uniformity/route-c/FORMULA-FACTORIZATION-COMPRESSION.md",
+      "transfer": "results/epsilon-uniformity/route-a/formula-template-transfer.md",
+      "status": "complete written proof independently reviewed by Routes A, B, C and root",
+      "space": "uniform O(n) visited cells",
+      "machine": "one fixed exact deterministic finite-alphabet multitape full-product machine",
+      "limits": "unspecified absolute constants and eventual cutoff; no full execution, Lean refinement or human referee verification",
+      "concurrent_provenance": "S002 independently established the same formula envelope at58c754b583815e4fe40d333ec9d71e4c254749ba; root read and preserved its proof",
+      "formula": "T(n)=n sqrt(L) 2^{O(x ((log2(z+2))^2/z)^(1/6))}",
+      "review": "results/epsilon-uniformity/route-b/formula-synthesis-review.md",
+      "session": "E001",
+      "meaning": "Independent same-envelope construction and full cost audit; concurrent S002 formula proof at58c754b read and preserved without priority claim."
     }
   ],
   "s002_current_result": {

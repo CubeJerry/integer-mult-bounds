@@ -8,12 +8,32 @@ audit is [`route-c/ELEMENTARY-TOWER-REVIEW.md`](route-c/ELEMENTARY-TOWER-REVIEW.
 The absolute constants below have not been evaluated numerically. This ledger
 does not give a practical crossover length or a numeric implementation budget.
 
+Sections 2--6 retain the first accepted literal-construction profile as
+baseline history. Section 8 records the stronger formula-compression
+profile. Its algebra and complete transfer have passed lead, Route A
+and Route C review, and the complete synthesis passed
+[`route-b/formula-synthesis-review.md`](route-b/formula-synthesis-review.md).
+The baseline proof remains valid throughout.
+
 Concurrent S002 independently completed an accepted elementary extraction at
 commit `96028cba1342c02bdca1f537ae9a80485087bdf3`, with sufficient arity estimate
 `log m=O(j^6)` and envelope `H<=2^{O(x/(log log x)^(1/6))}`. The present
 extraction sharpens the arity estimate to `O(j^3 log j)` and carries it through
 the complete ledger. The proofs have separate provenance; no priority claim
 is made.
+
+S002 subsequently matched the baseline cubic-log rate and recorded its
+conditional compact-integral bridge at
+`4689161c5bc6c9e64536034d4fa6af033d26a3e0`. Both checkpoints are credited.
+Section 8 uses standard cyclic matrix-factorization operations in a
+separate representation with a complete generator and tape invoice.
+Concurrent S002 independently admitted the same balanced-formula
+full-rate construction and resulting envelope at
+`58c754b583815e4fe40d333ec9d71e4c254749ba`, in
+`routes/B/formula-full-rate-linearization.md`,
+`routes/A/formula-extraction-theorem.md`, and
+`routes/C/FORMULA-CYCLOTOMIC-GENERATOR.md`. This ledger preserves the
+separate derivations and their shared source dependencies.
 
 ## 1. Notation and source locations
 
@@ -262,13 +282,13 @@ A simpler weaker expression is `H_cert<=2^{O(x/(log log x)^(1/4))}`.
 The chosen `j` analyzes a fixed schedule, not an uncharged selection
 oracle. Small inputs use the direct fallback.
 
-## 7. Binding expenses and requirements for a stronger rate
+## 7. Baseline binding expenses and the improvements they required
 
 | Source of growth | Effect in this ledger | Requirement for a substantive improvement |
 |---|---|---|
 | Interchange incidence versus saving | `r_I=O(p log p)`, `log m_I=O(j^3 log j)` | Stronger label/call estimates, another label family, or another recurrence. The current estimate is sufficient, not a universal lower bound. |
 | Literal monomial tensor matrix | `H_mon` is double exponential; `b_0^(H_mon)` makes rows triple exponential | Smaller full-rate pencils in the required odd characteristic, preserving exact repair and call/row ratios. |
-| Address constants and radix | Conservative theorem invoice has height three; reviewed address values/generation have height two | The sharper choice removes this independent third-tower expense. The radix still exceeds expanded scalar width `W`, whose current bound has height three. |
+| Address constants and radix | Conservative baseline invoice has height three; reviewed address values/generation have height two | The sharper choice removes this independent third-tower expense. In the baseline, the radix still exceeds literal expanded scalar width `W`, whose sufficient bound has height three. Section 8 replaces that scalar representation. |
 | Extension basis representation | Prevents an avoidable fourth exponential | Preserve basis expansion instead of a table over all extension elements. |
 | Physical execution and precision | `a_j,c_j<=poly(S_j)`, `log U_j<=poly(S_j)` | Charge actual row scans, field maps, routing, widths, setup and live space; finite-description savings alone do not establish these costs. |
 | Weighted enumeration | `i_j=O((j+log S_j)^2)` | Binary weights/preflight improve selection, but core and threshold profiles retain the present height. |
@@ -291,3 +311,73 @@ Credits: @CubeJerry; the pinned OpenAI manuscripts and cited predecessors;
 S002's compact predictor, label/threshold invoices and independently accepted
 complete extraction; Route B's chunk/schedule analysis; Route C's independent
 component/compiler audit. Developed with GPT-6 Astra Pro assistance.
+
+## 8. Stronger formula-compression profile
+
+Algebra:
+[`route-c/FORMULA-FACTORIZATION-COMPRESSION.md`](route-c/FORMULA-FACTORIZATION-COMPRESSION.md).
+Complete transfer:
+[`route-a/formula-template-transfer.md`](route-a/formula-template-transfer.md).
+Independent reviews are `route-a/FORMULA-FACTORIZATION-REVIEW.md` and
+`route-c/FORMULA-TRANSFER-REVIEW.md`, with the complete additional audit in
+`route-b/formula-synthesis-review.md`. This changes the finite scalar
+representation. Baseline label and physical compiler interfaces retain
+their exact invoices.
+
+| Parameter | New bound | Why it holds |
+|---|---|---|
+| Formula size `T_m` | `2^{O(log^2(m+2))}` | Balanced symmetric convolution; duplicated subformulas charged. |
+| Syntactic degree/factor length `D` | `O(sqrt(m log m))` | Omit unit children; scale one factor; pad constants by identities. |
+| Cyclic grade rank `K` | `<=max(2,D)^(T_m)` | Product ranks multiply; sum rank is `d K_1 K_2`, `d<=D`. |
+| Cyclotomic order `M` | `lcm(1,...,D)<=D!` | Contains every intermediate factor length. |
+| Pencil degree `b` | Least power of two at least `max(2,D)` | Pad once, then form the cyclic matrix. |
+| Dyadic pencil dimension | `b K phi(M)<=E_2(C log^2(m+2))` | Regular representation descends the full-rate identity to dyadics. |
+| Coefficient heights/actual generator | `<=E_2(C log^2(m+2))` | Entries copy, shift phases, add or scalar-scale; dense output and descent charged. |
+| All-shift/Hermite repair budget | Same height | Equal full input dimension per shift; all patterns and unit inverses generated. |
+| Interchange `log m_I` | `O(Z_j)` | Existing labels/strict margin unchanged; stage count remains `4b`. |
+| Fourier `log m_F` | `O((j+2)^2 log(j+3))` | The replacement applies to both branches. |
+| Address values/generation | `E_2(O(Z_j))` | Reviewed minors refinement, already established in S002. |
+| Complete `S_j` | `E_2(CZ_j^2)` | Both branches, radix values, entries, roles, numerical bits and generation. |
+
+Every cyclic product equals the target polynomial times the identity.
+There is no uncharged zero-filled input workspace. After descent the
+matrix is dyadic, so odd-characteristic specialization does not require
+intermediate roots to stay primitive. Source repair nodes remain
+power-of-two roots with explicit geometric-sum unit inverses.
+
+The core and wrapper profiles become
+
+\[
+ a_j,c_j\le S_j^c,\quad
+ \log U_j\le S_j^c+\log U_{\rm abs}+O(1),\quad
+ A_j\le C a_jc_j,\quad N_j=\max(4c_j,R_jU_j),
+\]
+
+with the same chunk and diagonal-index definitions as Section 5. Thus
+
+\[
+ d_j,b_j\le E_1(CZ_j^2),\qquad
+ Z_j^2=(j+2)^6\log_2^2(j+3). \tag{2}
+\]
+
+Put `z=log_2(x+16)`. Choose
+`j=floor(c_0(z/log_2^2(z+2))^(1/6))`. For sufficiently small fixed
+`c_0`, eventually `CZ_j^2<=z/2`, making both coordinates in (2) at most
+`2sqrt x` and proving feasibility. The complete sufficient envelope is
+
+\[
+ H(n)\le
+ 2^{\,O\!\left(x\left(\frac{\log_2^2(z+2)}{z}\right)^{1/6}\right)},
+ \qquad z=\log_2(x+16),\quad x=\log_2(1+\log_2n),
+\]
+
+with one exact fixed multitape machine and uniform `O(n)` visited cells.
+Sections 2--6 preserve the literal profile as a baseline, not a withdrawn
+or incorrect result.
+
+The stronger `exp(poly(m))` full-rate matrix-root target remains open.
+Its separately reviewed conditional transfer in
+`route-a/single-exponential-root-hypothesis.md` gives
+`S_j<=E_2(CZ_j)`, `d_j,b_j<=E_1(CZ_j)` and
+`H<=2^{O(x(log_2(z+2)/z)^(1/3))}`. The present
+`exp(exp(O(log^2 m)))` estimate does not establish that stronger hypothesis.

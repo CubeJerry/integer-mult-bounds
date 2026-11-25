@@ -98,3 +98,13 @@ The [explicit count formula](routes/A/characteristic-two-count-formula.md) estab
 Every fixed candidate has a bounded constructor and charged physical caller; the single scheduled machine has uniform O(n) visited cells and exact full output. Choosing a dyadic J of order (log2 s/log2 log2 s)^(1/3) makes the actual log-prefactor and eligibility threshold at most sqrt(s). Both independent global gates and the lead gate passed.
 
 The characteristic-two formulas use nonmultilinear intermediates and equality on actual order-three spectral tuples. They do not prove the separate dyadic IP or E001 MR representation hypotheses. They nevertheless remove the IP4 premise from this complete bound. All previous envelopes remain historical valid estimates. Constants/cutoffs are unevaluated; the constant endpoint and stronger fixed-beta subexponential scales remain open.
+
+## E001 independent formula envelope and representation limit
+
+The focused [complete theorem](results/epsilon-uniformity/THEOREM.md) independently obtains the same earlier formula envelope: H<=2^{O(x[(log_2(z+2))²/z]^{1/6})}, x=log_2 L, z=log_2(x+16). It uses one repeated dyadic affine root, all-row identities and a literal bit generator. Both transform branches and the complete physical invoice are included. The preceding baseline is preserved verbatim in BASELINE-THEOREM.md.
+
+The [general formula-size transfer](results/epsilon-uniformity/FORMULA-SIZE-TRANSFER.md) supplies intermediate conditional rates. The [matching recipe lower bound](results/epsilon-uniformity/route-c/FORMULA-RECIPE-LOWER-BOUND.md) shows that optimizing only multilinear formulas within the same unreduced composition cannot reach singly-exponential row size. This is not an actual multiplier-time or arbitrary representation lower bound. Both sessions' independent provenance is preserved.
+
+## Fresh concurrent fixed-field result — 16:09 UTC
+
+Before publishing this focused checkpoint, remote848fbf1d7a5e192aa352d79b4d3e36fa06be21ee was read and preserved. S002's new characteristic-two count formulas establish IP4 and its stronger third-root envelope. E001's dyadic formula theorem remains a separate weaker result. Root has read the new finite formula, complete extraction and lead review; additional E001 finite and physical reviews are in progress. The dyadic MR hypothesis remains open even though its displayed rate is now attained by S002's different fixed-field construction.

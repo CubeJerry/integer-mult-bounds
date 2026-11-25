@@ -86,8 +86,9 @@ def main():
         "not_claimed": ["lower bound on arbitrary interchangers", "lower bound on multiplication", "actual source implementation replay"],
         "witnesses": witnesses,
     }
-    Path(__file__).with_name("padding-verification.json").write_text(json.dumps(output, indent=2) + "\n")
-    print(json.dumps({k: v for k, v in output.items() if k != "witnesses"}, indent=2))
+    serialized = json.dumps(output, indent=2) + "\n"
+    Path(__file__).with_name("padding-verification.json").write_text(serialized, encoding="utf-8")
+    print(serialized, end="")
 
 
 if __name__ == "__main__":

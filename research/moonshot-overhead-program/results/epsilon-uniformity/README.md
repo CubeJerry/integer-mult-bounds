@@ -5,35 +5,79 @@ for source pins, active routes and actual bound status, and [LOG.md](LOG.md) for
 the append-only record. This directory is the scope of focused session E001;
 concurrent parent session S002 is preserved separately.
 
-## Admitted quantitative result
+## Current shared-programme result
 
-Start with [THEOREM.md](THEOREM.md). With `L=1+log_2 n`, `x=log_2 L`, and
-`y=log_2 log_2(x+16)`, a specified implementation of the original construction
-has the explicit upper envelope
+Concurrent S002 has since established the stronger envelope
+`H<=2^{O(x(log_2(z+2)/z)^(1/3))}`, with `x=log_2(1+log_2 n)` and
+`z=log_2(x+16)`, using a characteristic-two count-formula construction.
+Its [complete theorem](https://github.com/CubeJerry/integer-mult-bounds/blob/848fbf1d7a5e192aa352d79b4d3e36fa06be21ee/research/moonshot-overhead-program/routes/A/fixed-field-extraction-theorem.md)
+and its B/C/lead reviews were committed at848fbf1. Root has read the finite
+formula, complete extraction and lead review; additional focused E001
+finite and physical reviews are in progress. This establishes IP4 and
+does not establish our different all-odd-characteristic dyadic MR hypothesis.
+
+The separate fully reviewed E001 result below remains useful as a dyadic
+construction and general formula-size transfer. Its bound is weaker than
+the new shared-programme result. Both proofs and provenance are preserved.
+
+## Independent dyadic formula theorem
+
+Start with [THEOREM.md](THEOREM.md). Put `L=1+log_2 n`, `x=log_2 L`, and
+`z=log_2(x+16)`. A specified fixed exact deterministic multitape machine has
 
 \[
- T(n)=n\sqrt L\;2^{O(x(\log_2(y+2)/y)^{1/3})},
+ T(n)=n\sqrt L\;2^{O\left(x\left(\frac{[\log_2(z+2)]^2}{z}\right)^{1/6}\right)},
  \qquad\text{visited cells}=O(n).
 \]
 
-This is one fixed exact deterministic multitape machine. A weaker simple
-form is `H<=2^{O(x/y^(1/4))}`. The complete finite-generator, physical
-compiler, precision, all-length fallback, chunking and scheduling arguments
-have passed separate AI reviews. This is a written mathematical extraction,
-not a Lean certification, human referee report or execution of the enormous
-templates. The square-root endpoint and poly-`x` overhead remain open.
+Correctness and the common visited-cell bound hold at every length. The
+complete formula construction, actual scalar generator and physical
+composition passed separate Route A, Route B, Route C and root reviews. Constants and the eventual cutoff
+are not numerically evaluated. The square-root endpoint and polynomial
+in `x` overhead remain open.
 
-The profile `log m=O(j³ log(j+2))` sharpens concurrent S002's earlier
-sixth-power extraction. The source and both sessions' proofs and credits
-are preserved; no literature-priority or practical-runtime claim is made.
+Balanced degree-preserving formulas and integral cyclic factorizations give
+a full-rate matrix root of the source predictor with total dimension, bit
+output and actual construction budget `2^{2^{O(log^2 m)}}`. This removes one
+exponential layer from the preceding sufficient finite-data budget while
+preserving query-stage count. Both transform branches, all shifts, repair,
+scalar descent, precision, physical movement, fallback, common-space chunking
+and scheduling are included.
+
+Concurrent S002 independently established the same stronger envelope at
+[58c754b](https://github.com/CubeJerry/integer-mult-bounds/commit/58c754b583815e4fe40d333ec9d71e4c254749ba).
+Its proof was read, credited and preserved. The earlier E001 theorem is
+preserved verbatim in [BASELINE-THEOREM.md](BASELINE-THEOREM.md), to which
+historical review hashes continue to apply. No priority or practical-runtime
+claim is made. These are written mathematical proofs and exact finite checks,
+not a Lean refinement, human referee report or giant template execution.
 
 ## Research files
 
+- [Formula construction](route-c/FORMULA-FACTORIZATION-COMPRESSION.md) and
+  [complete transfer](route-a/formula-template-transfer.md): the main new
+  algebra, bit generator and complete machine proof.
+- [Final synthesis review](route-b/formula-synthesis-review.md): independent
+  algebra, generation, source-interface, physical-profile and inversion audit.
+- [ROOT-FORMULA-REVIEW.md](ROOT-FORMULA-REVIEW.md),
+  [A algebra review](route-a/FORMULA-FACTORIZATION-REVIEW.md), and
+  [C transfer review](route-c/FORMULA-TRANSFER-REVIEW.md): separate proof audits.
+- [root-formula-replay.json](root-formula-replay.json): 84 predictor cases,
+  152 cyclic-product checks and 72 descended matrix-root identities, including
+  negative and nonsemisimple controls, independently replayed in isolation.
+- [FORMULA-SIZE-TRANSFER.md](FORMULA-SIZE-TRANSFER.md): a general conditional
+  formula-size-to-complete-overhead theorem, independently reviewed.
+- [Matching recipe lower bound](route-c/FORMULA-RECIPE-LOWER-BOUND.md):
+  the literal unreduced multilinear recipe requires `2^{2^{Omega(log^2 m)}}`
+  rows for the retained window; arbitrary matrix roots remain open.
+- [MR literature audit](route-a/mr-symmetry-literature.md) and
+  [LITERATURE-AUDIT.md](LITERATURE-AUDIT.md): primary results, exact applicability
+  gaps and provenance.
 - [CERTIFICATE.md](CERTIFICATE.md): rigorous diagnostic lemmas and explicit scope
   of the source's weighted-search upper certificate.
 - [route-a/elementary-tower-extraction.md](route-a/elementary-tower-extraction.md)
   and [compiler-invoice.md](route-a/compiler-invoice.md): complete quantitative
-  construction and physical cost proof supporting the main theorem.
+  construction and physical cost proof underlying the baseline and reused compiler.
 - [PARAMETER-LEDGER.md](PARAMETER-LEDGER.md): parameter and threshold ledger.
 - [DEPENDENCIES.md](DEPENDENCIES.md): complete path, conditional branches and exact remaining interfaces.
 - [route-c/WINDOW-PREDICTOR-DEPTH.md](route-c/WINDOW-PREDICTOR-DEPTH.md): exact window degree/depth and a scoped window-versus-conversion resource obstruction.

@@ -93,3 +93,55 @@ proved a more general compact-IP conditional bridge on the MR rate scale.
 Root read those proofs and its exact formal Chow barrier; all are preserved.
 The new characteristic-two components are preserved without claiming a fresh
 E001 full-proof audit.
+
+## E001, 2026-11-25 16:01 UTC — Formula theorem and matching recipe scope
+
+The explicit balanced-formula cyclic factorization, literal bit generator,
+regular dyadic descent and complete physical transfer passed separate A, C
+and root audits. The new theorem has S_j<=E_2(C Z_j²), hence
+d_j,b_j<=E_1(C Z_j²), and H<=2^{O(x[(log_2(z+2))²/z]^{1/6})},
+z=log_2(x+16). No new algebraic hypothesis is used. Route B reports a
+preliminary synthesis pass and is completing its written source-interface
+review. The previous theorem is preserved byte-identically as
+BASELINE-THEOREM.md; its historical proof hashes remain valid.
+
+Root independently replayed the formula checker under Python isolation:
+84 predictor cases, 152 complete cyclic-product identities and 72 regular
+matrix-root checks passed, including wrong-phase, non-Boolean shifted and
+nonsemisimple characteristic-three controls. These finite checks are local
+verification, not a proof by enumeration or full machine execution.
+
+The general formula-size transfer passed A and C reviews. The matching
+unreduced multilinear rank obstruction passed A and root review; it invokes
+the published Hrubes--Yehudayoff homogeneous-formula lower bound through
+a reduction counting only additions of degree at least two. Arbitrary matrix
+roots, nonmultilinear cancellations and smaller invariant summands remain
+open. A primary-source symmetry/module audit records precise applicability
+gaps and does not claim MR.
+
+Fresh remote head58c754b583815e4fe40d333ec9d71e4c254749ba independently
+establishes the same formula-based global envelope in concurrent S002.
+Root read its construction, finite generator, complete extraction and lead
+review, preserving both sessions' provenance. The shared result is not
+claimed as a priority discovery. Session remains active to16:25:26 UTC.
+
+## Final additional synthesis gate — 16:05 UTC
+
+Route B's independent formula-synthesis-review.md passes the full new
+algebra, actual generator, finite-ring and arbitrary-batch-width source
+interfaces, both branches, complete physical profiles and eligible integer
+inversion. It records eight exact reviewed hashes. Root read the entire
+review. The theorem's review status is now accepted by A, B, C and root.
+The later scoped recipe paragraph and concurrent-formula credit were
+separately reviewed by root; status/provenance edits are not silently
+attributed to earlier exact snapshot hashes. The proof of Theorem F is
+unchanged. No additional numerical replay was required.
+
+## Fresh concurrent fixed-field theorem — 16:10 UTC
+
+Remote848fbf1 establishes IP4 and a stronger third-root global envelope.
+The fresh parent state and all concurrent files are preserved. Root read
+the finite formula, complete extraction, lead review and conditional-bridge
+addendum. Additional E001 finite, physical and barrier-overlap reviews are
+under way. E001's dyadic theorem is retained as a separate weaker result;
+MR stays open despite its displayed rate being achieved by a different route.

@@ -104,3 +104,9 @@ The unconditional result has log H=O(s(log log s)^(1/3)/(log s)^(1/6)). IP and I
 - Actual finite search, uniform visited-cell cap, chunk convolution, restart costs and sparse-candidate eligibility: PASS.
 
 Evidence: `verification/S002/lead-review-fixed-field-extraction.md` and linked independent reviews/replays. IP4 is now established. The dyadic IP hypothesis, E001's stronger bounded-preflight family, the constant endpoint, full machine execution and formal/human verification remain unresolved or unperformed. These are not hidden assumptions of the new written source composition.
+
+## E001 formula and recipe gates — 16:06 UTC
+
+EU-FORMULA is accepted after independent A algebra, C full composition, B final synthesis and root complete-proof reviews. The explicit full-rate cyclic formula constructor supplies S_j<=E_2(C Z_j²) and the same unconditional sixth-root envelope independently proved by S002 at58c754b. No MR premise is imported.
+
+EU-RECIPE is closed as a restricted theorem: the literal unreduced syntactically multilinear degree-D formula composition requires E_2(Omega(log²m)) rows for the retained predictor. Arbitrary matrix roots, nonmultilinear cancellation and invariant summands remain open. EU-FORMULA-TRANSFER is a complete general conditional implication from actual degree-preserving dyadic formula generation to full machine rates. The dyadic MR and compact-IP hypotheses and stronger preflight families and the endpoint remain open.

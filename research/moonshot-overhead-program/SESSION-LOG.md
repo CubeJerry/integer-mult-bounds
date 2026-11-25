@@ -63,3 +63,13 @@ The additive-sketch F4 proof also passed A's independent review/replay. The sess
 Prepared after confirmed remote head `58c754b583815e4fe40d333ec9d71e4c254749ba`. The characteristic-two count formula now has separate B/C proofs and exact checkers. Both independent global reviews and the lead accept the complete new envelope log H=O(s(log log s/log s)^(1/3)), with actual 2^(m^C) finite generation and uniform O(n) visited cells. Lead-isolated replays of all three new verifiers passed.
 
 The previous IP4 representation premise is now established explicitly. Rational Walsh coefficients remain a separate, charged numerical component; the dyadic all-odd-characteristic IP remains open. The new result is a written AI-assisted mathematical construction, not a full multiplier execution or formal/human certification. This is an ongoing checkpoint; the session continues toward 16:20:23 UTC and three-hour completion is not yet claimed.
+
+## E001 sixth checkpoint — 16:06 UTC preparation
+
+Remote58c754b583815e4fe40d333ec9d71e4c254749ba was reread and preserved. E001 adds its separately reviewed same-rate balanced-formula theorem, complete scalar generator and physical transfer, isolated exact replay, general formula-size transfer and matching restricted recipe obstruction. The baseline theorem remains byte-identical under BASELINE-THEOREM.md, preserving historical review hashes.
+
+The formula chain passed independent A, B, C and root written audits. No endpoint, practical cutoff, formal refinement, human refereeing or priority is claimed. E001 remains active toward its actual requested end16:25:26 UTC; S002's session record is preserved.
+
+## Fresh concurrent fixed-field result — 16:09 UTC
+
+Before publishing this focused checkpoint, remote848fbf1d7a5e192aa352d79b4d3e36fa06be21ee was read and preserved. S002's new characteristic-two count formulas establish IP4 and its stronger third-root envelope. E001's dyadic formula theorem remains a separate weaker result. Root has read the new finite formula, complete extraction and lead review; additional E001 finite and physical reviews are in progress. The dyadic MR hypothesis remains open even though its displayed rate is now attained by S002's different fixed-field construction.

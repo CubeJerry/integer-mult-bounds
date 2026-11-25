@@ -302,3 +302,7 @@ widths from two through 4,096. The adjacent JSON also gives illustrative
 values of the optimized window resource functional. Those floating
 values are not runtime measurements or proofs of the asymptotic lower
 bound. The universal degree and resource theorems are proved above.
+
+## Independent written review
+
+On 2026-11-25 the lead independently reviewed the degree and window-resource proofs and found no blocker. The review checked the unit-of-two hypothesis, Boolean subcube, affine-query degree, source-window clamping, binomial mode mass, probability-ratio bound, two-band coverage and explicit large-`m` cutoff. The distinction between a predictor-depth bound, the specified window/repair resource invoice and an unconditional multiplication-time lower bound is retained throughout.

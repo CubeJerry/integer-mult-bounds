@@ -77,3 +77,13 @@ The lead retrieved and read Sheng–Tribone's ring convention, Definition 3.1 an
 For the fixed-field theorem, the lead reread the pinned tape `walsh.tex` batch, physical recursive call, work/visited-space and precision paragraphs, plus the complete rational Newton/division and auxiliary-map notes. The source admits fixed pointwise coefficient lists and varying affine pencils; rational replacements are prepared once to dyadic precision with explicit rounding errors and setup cost. The completed characteristic-two interchanger moves encoded numerical records without identifying their coefficient rings.
 
 The count-bit identities are proved locally and independently checked. No exhaustive literature review or new reading of every companion manuscript is claimed. Exact source pins and the prior partial-read ledger remain the provenance basis.
+
+## E001 formula-source and primary literature reconciliation
+
+Root read the complete new cyclic construction, regular dyadic descent and physical transfer, and rechecked arbitrary batch-width source interfaces. B independently checked finite-ring repair and binary/Walsh widths. Root also read S002's formula construction, cyclotomic generator, extraction and lead review at58c754b583815e4fe40d333ec9d71e4c254749ba; the same-rate derivations retain separate credit.
+
+The scoped MR symmetry/module audit is results/epsilon-uniformity/route-a/mr-symmetry-literature.md, with a separate C review. No nearby existence theorem is imported as an actual finite-free dyadic generator. Hrubes--Yehudayoff's homogeneous multilinear formula theorem is the explicitly identified external input for the new restricted recipe lower bound, independently reviewed by A and root.
+
+## Fresh concurrent fixed-field result — 16:09 UTC
+
+Before publishing this focused checkpoint, remote848fbf1d7a5e192aa352d79b4d3e36fa06be21ee was read and preserved. S002's new characteristic-two count formulas establish IP4 and its stronger third-root envelope. E001's dyadic formula theorem remains a separate weaker result. Root has read the new finite formula, complete extraction and lead review; additional E001 finite and physical reviews are in progress. The dyadic MR hypothesis remains open even though its displayed rate is now attained by S002's different fixed-field construction.

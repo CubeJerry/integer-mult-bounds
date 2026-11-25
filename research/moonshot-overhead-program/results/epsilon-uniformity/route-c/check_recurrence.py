@@ -149,8 +149,9 @@ def main():
         "illustrations": rows,
     }
     target = Path(__file__).with_name("verification.json")
-    target.write_text(json.dumps(output, indent=2) + "\n")
-    print(json.dumps({k: v for k, v in output.items() if k != "illustrations"}, indent=2))
+    serialized = json.dumps(output, indent=2) + "\n"
+    target.write_text(serialized, encoding="utf-8")
+    print(serialized, end="")
 
 
 if __name__ == "__main__":
