@@ -18,3 +18,7 @@ Before the next publication, remote-head recheck found concurrent E001 commit b0
 ## 2026-11-26 E001 — focused uniformity, first substantive checkpoint
 
 Started 2026-11-25 13:25:26 UTC for a requested three hours; planned end 16:25:26 UTC. Resumed initial head `99f0b3644f1858687db74e01d07a4808602854e2`; reconciled concurrent S002 at `bbfd1086b7e629375f9891998e4602270d8801cd`. First focused checkpoint `b00f1a46949d00ef17585276edd677b613ecb99f` saved analytic certificate diagnostics. New independently reviewed source result: rational Gram rank `D>=2^(2p-1)+1` forces a characteristic/window conflict for scalar count predictors under the retained interchanger reserve recursion. Finite exact checks passed. Route C additionally proved a conditional variable-arity interchange transfer, a separate Walsh-toll invoice obstruction and a literal-radix padding barrier, with root review/replay. No new complete multiplication envelope. Three real independent workers continue; see `results/epsilon-uniformity/LOG.md`. The session remains active and the requested duration is not yet claimed as completed.
+
+## E001 checkpoint 3 — Ongoing focused session
+
+Saved the input-dependent compatible-radix proof and binary-length scheduling analysis, plus explicitly pending-review drafts for a literal p-adic lift obstruction and a complete elementary-tower extraction. The current complete bound is unchanged. This session remains active until its requested three-hour budget is handled; elapsed completion has not been claimed. Base HEAD: `9dad7c318db1f56425878d10651cb98827bb0ad3`.

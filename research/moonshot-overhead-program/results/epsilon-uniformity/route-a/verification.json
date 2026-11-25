@@ -1,0 +1,112 @@
+{
+  "scope": "Exact finite identity checks and integer boundary controls; universal claims are proved in Markdown.",
+  "source_math_sha": "3344da59991ed94f9ba711217b29c1d760badfa6",
+  "compact_predictor_checkpoint": "bbfd1086b7e629375f9891998e4602270d8801cd",
+  "repair": {
+    "cases": 1252,
+    "max_numerator_bits_observed": 83,
+    "includes_overmarked_exceptions": true
+  },
+  "predictor": {
+    "integer_count_cases": 40329
+  },
+  "modular_obstruction": [
+    {
+      "p": 3,
+      "m": 36,
+      "error_at_least_quarter": true,
+      "exact_error_numerator_bits": 34
+    },
+    {
+      "p": 5,
+      "m": 125,
+      "error_at_least_quarter": true,
+      "exact_error_numerator_bits": 124
+    },
+    {
+      "p": 7,
+      "m": 245,
+      "error_at_least_quarter": true,
+      "exact_error_numerator_bits": 244
+    },
+    {
+      "p": 11,
+      "m": 726,
+      "error_at_least_quarter": true,
+      "exact_error_numerator_bits": 722
+    },
+    {
+      "p": 17,
+      "m": 2023,
+      "error_at_least_quarter": true,
+      "exact_error_numerator_bits": 2019
+    }
+  ],
+  "integer_parameters": [
+    {
+      "t": 8,
+      "r": 896,
+      "log2_m_plus_1": 7168,
+      "log2_W": 308324352
+    },
+    {
+      "t": 9,
+      "r": 1033,
+      "log2_m_plus_1": 9297,
+      "log2_W": 518661036
+    },
+    {
+      "t": 12,
+      "r": 1457,
+      "log2_m_plus_1": 17484,
+      "log2_W": 1834246440
+    },
+    {
+      "t": 16,
+      "r": 2048,
+      "log2_m_plus_1": 32768,
+      "log2_W": 6442647552
+    },
+    {
+      "t": 20,
+      "r": 2664,
+      "log2_m_plus_1": 53280,
+      "log2_W": 17032870080
+    },
+    {
+      "t": 32,
+      "r": 4608,
+      "log2_m_plus_1": 147456,
+      "log2_W": 130460516352
+    },
+    {
+      "t": 40,
+      "r": 5967,
+      "log2_m_plus_1": 238680,
+      "log2_W": 341810286480
+    },
+    {
+      "t": 80,
+      "r": 13213,
+      "log2_m_plus_1": 1057040,
+      "log2_W": 6704007711840
+    },
+    {
+      "t": 160,
+      "r": 28985,
+      "log2_m_plus_1": 4637600,
+      "log2_W": 129044030385600
+    },
+    {
+      "t": 400,
+      "r": 80921,
+      "log2_m_plus_1": 32368400,
+      "log2_W": 6286280105570400
+    }
+  ],
+  "proof_sha256": {
+    "count-mod-p-obstruction.md": "172cfa5504c8ebb31308f654d2cda066ba38cca1a223d6e25ca4feaf39838836",
+    "explicit-binary-kernel.md": "2ccc3b19fc28e4b50f9cb225816c22a308f6034bec27242f37f47802b6ce8e87",
+    "repair-table-compiler.md": "d1a664423c38eddb9a7100595dd0d1813cf4d679ecbb6eccf86b540ea07d2912"
+  }
+}

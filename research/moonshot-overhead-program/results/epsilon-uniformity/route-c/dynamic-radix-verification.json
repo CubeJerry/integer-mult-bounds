@@ -1,0 +1,142 @@
+{
+  "status": "finite_exact_checks_passed",
+  "parameter_cases": 210,
+  "admitted_parameter_cases": 116,
+  "prime_witness_cases": 5,
+  "exhaustion_negative_controls": 1,
+  "slack_selector_cases": 108,
+  "slack_selector_admitted": 55,
+  "slack_prime_witness_cases": 5,
+  "scope": "integer-root/threshold inequalities, exact primality and compatibility, constant padding volume, finite failure flag",
+  "not_verified": [
+    "BHP threshold",
+    "template generation cost",
+    "uniform address-map implementation",
+    "new multiplication bound"
+  ],
+  "witnesses": [
+    {
+      "binary_width": 60,
+      "radix_digits": 4,
+      "interval_base": 32768,
+      "excluded_primes": [],
+      "compatibility_product": "1",
+      "selected_prime": 32771,
+      "prime_tests_reaching_compatibility": 1,
+      "integers_examined": 4,
+      "two_field_inflation_exact": "1330201863463909335520519005424851361/1329227995784915872903807060280344576",
+      "two_field_inflation_illustration": 1.0007326566112673
+    },
+    {
+      "binary_width": 72,
+      "radix_digits": 4,
+      "interval_base": 262144,
+      "excluded_primes": [
+        262147
+      ],
+      "compatibility_product": "262147",
+      "selected_prime": 262151,
+      "prime_tests_reaching_compatibility": 2,
+      "integers_examined": 8,
+      "two_field_inflation_exact": "22305509596930751045365358258001439522027201/22300745198530623141535718272648361505980416",
+      "two_field_inflation_illustration": 1.000213643013169
+    },
+    {
+      "binary_width": 80,
+      "radix_digits": 4,
+      "interval_base": 1048576,
+      "excluded_primes": [
+        1048583,
+        1048589,
+        1048601
+      ],
+      "compatibility_product": "1152970983249807587",
+      "selected_prime": 1048609,
+      "prime_tests_reaching_compatibility": 4,
+      "integers_examined": 34,
+      "two_field_inflation_exact": "1461869640160049932658780420340844190358239473921/1461501637330902918203684832716283019655932542976",
+      "two_field_inflation_illustration": 1.0002517977535894
+    },
+    {
+      "binary_width": 100,
+      "radix_digits": 4,
+      "interval_base": 33554432,
+      "excluded_primes": [
+        33554467,
+        33554473,
+        33554501,
+        33554503,
+        33554509,
+        33554519,
+        33554527
+      ],
+      "compatibility_product": "47891163598762307921724283583202166813084268547136741",
+      "selected_prime": 33554579,
+      "prime_tests_reaching_compatibility": 8,
+      "integers_examined": 148,
+      "two_field_inflation_exact": "1606994364333683734369423438418882675458973169625486394230561/1606938044258990275541962092341162602522202993782792835301376",
+      "two_field_inflation_illustration": 1.0000350480685267
+    },
+    {
+      "binary_width": 100,
+      "radix_digits": 5,
+      "interval_base": 1048576,
+      "excluded_primes": [
+        1048583
+      ],
+      "compatibility_product": "1048583",
+      "selected_prime": 1048589,
+      "prime_tests_reaching_compatibility": 2,
+      "integers_examined": 14,
+      "two_field_inflation_exact": "1607137279794390261496649734148834504945430246757258833798601/1606938044258990275541962092341162602522202993782792835301376",
+      "two_field_inflation_illustration": 1.0001239845780687
+    }
+  ],
+  "slack_witnesses": [
+    {
+      "h": 1,
+      "binary_width": 72,
+      "radix_digits": 4,
+      "batch_width": 262143,
+      "selected_prime": 262147,
+      "integers_examined": 4,
+      "combined_padding_illustration": 2.0001525927801524
+    },
+    {
+      "h": 2,
+      "binary_width": 80,
+      "radix_digits": 4,
+      "batch_width": 524287,
+      "selected_prime": 1048583,
+      "integers_examined": 8,
+      "combined_padding_illustration": 1.5000672353094289
+    },
+    {
+      "h": 4,
+      "binary_width": 92,
+      "radix_digits": 4,
+      "batch_width": 2097151,
+      "selected_prime": 8388617,
+      "integers_examined": 10,
+      "combined_padding_illustration": 1.2500087917108438
+    },
+    {
+      "h": 8,
+      "binary_width": 100,
+      "radix_digits": 4,
+      "batch_width": 4194303,
+      "selected_prime": 33554467,
+      "integers_examined": 36,
+      "combined_padding_illustration": 1.1250079460679527
+    },
+    {
+      "h": 16,
+      "binary_width": 112,
+      "radix_digits": 4,
+      "batch_width": 16777215,
+      "selected_prime": 268435459,
+      "integers_examined": 4,
+      "combined_padding_illustration": 1.0625000197906025
+    }
+  ]
+}

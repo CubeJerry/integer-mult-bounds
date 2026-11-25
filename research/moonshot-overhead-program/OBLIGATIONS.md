@@ -31,3 +31,9 @@
 - **EU-REC (complete conditional component):** a uniform one-level binary reduction with near-critical child-volume mass, polynomial local work and the stated stack contract yields `O(V sqrt(e))` interchange. See [contract](results/epsilon-uniformity/route-c/NONSTATIONARY-RECURSION.md). These hypotheses are not supplied by the current paper.
 - **EU-PAD (proved, scoped):** literal fixed-radix padding under a power-selected growing template violates uniform linear space. Input-dependent radix selection or a different representation remains open.
 - **EU-TOLL (proved invoice obstruction):** a nonvanishing normalized Walsh routing toll accumulates across unbounded depth; summable homogeneous excess alone is insufficient. No runtime lower bound is asserted.
+
+## E001 checkpoint 3 — Constructive padding repair and new audit gates
+
+EU-PAD arithmetic repair is proved in `results/epsilon-uniformity/route-c/INPUT-DEPENDENT-RADIX.md`: input-dependent compatible primes give bounded or summably small volume loss, with explicit search and product-scan costs. The finite compatibility product must be supplied. The variable-radix fixed-tape address-map dispatcher and consistent child interface remain open.
+
+EU-TOWER is a new review gate for Route A's `elementary-tower-extraction.md`: prove a complete polynomial-in-template-size physical compiler, numerical width and threshold invoice before admitting its proposed explicit decay rate. EU-LIFT separately reviews the factor-rank obstruction to retaining literal zero/one label transfers modulo p². Neither draft changes the programme's current unconditional envelope.

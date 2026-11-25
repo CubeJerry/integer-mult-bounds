@@ -39,3 +39,40 @@ rather than establish, the asymptotic proofs.
 All reviewers are AI agents. No independent human review, Lean build or
 complete upstream source-kernel replay is claimed. Route A and B results
 remain subject to their separate reviews before final admission.
+
+## Input-dependent radix: root review, 25 November 2026 UTC
+
+Root independently checked the narrow prime-interval packing, integer-root
+rounding, compatibility-product scan cost, both volume bounds, and the
+bitlength selectors in `route-c/INPUT-DEPENDENT-RADIX.md`. The primary
+Baker--Harman--Pintz paper's Theorem 1 and effectivity comment were opened
+directly. Its unspecified absolute threshold is explicitly retained; finite
+experiments do not certify that threshold. No algebraic blocker was found.
+The product Q must be supplied and its creation remains charged separately.
+This repairs the literal padding obstruction but does not supply the varying
+radix address-map compiler or a complete multiplication bound.
+
+An isolated replay exposed an implicit sibling-module import in the finite
+checker. The author was asked to fix the import and add checks for the
+summable-slack version, which was not covered by the first receipt. Record
+the new replay separately after it runs; do not treat this review as an
+already successful replay of the revised script.
+
+## Binary-length schedule: root review
+
+Root read `route-b/binary-length-schedule.md` and checked its Kraft sums,
+length-first enumeration overhead, actual-step budgets, space fences, sparse
+parameter choice and conditional polylog-log transfer. No blocking issue
+was found. The method is credited as an application of program-length
+universal search; it does not claim the source candidate constants satisfy
+the new conditional hypotheses. The separate bounded-preflight proposal
+has not yet been admitted.
+
+## Results saved pending full review
+
+`PADIC-LIFT-OBSTRUCTION.md` has a complete written root proof, with independent
+review and finite checks pending. Its target is the literal zero/one label
+matrix modulo p², not arbitrary lifts or general algorithms.
+`route-a/elementary-tower-extraction.md` is a proposed source-wide extraction;
+its compiler and threshold audit is an explicit gate. No global envelope
+from that draft has yet been added to the proved programme bound.

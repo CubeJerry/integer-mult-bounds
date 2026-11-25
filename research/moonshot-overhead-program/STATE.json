@@ -76,7 +76,12 @@
         "finish bounded preflight theorem",
         "price input-dependent radix selection and physical conversion"
       ],
-      "verification": "Separate agent algebraic review plus root replay of exact finite checks; no Lean build"
+      "verification": "Separate agent algebraic review plus root replay of exact finite checks; no Lean build",
+      "arithmetic_preparation_result": "Input-dependent compatible radix with constant or summably small padding loss; explicit integer search and compatibility scan bound. Variable-radix address-map compiler remains open.",
+      "pending_review": [
+        "Literal P_* factor rank modulo p² and reserve tradeoff",
+        "Source-wide elementary-tower coefficient/threshold extraction; no bound promoted"
+      ]
     }
   }
 }

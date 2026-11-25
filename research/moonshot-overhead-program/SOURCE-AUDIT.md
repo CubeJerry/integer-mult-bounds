@@ -34,3 +34,7 @@ All primary manuscript reads retain OpenAI pin `3344da59991ed94f9ba711217b29c1d7
 Current community selected record is #7000/#7001, conditional kappa `0.00363005817`; the priority summary still contains an older selected value. Read Discussion #1163 and retrieved newest views of #1166/#1167; cached newest views are not complete live overlap coverage. PR #8102 remains a fixed-exponent corollary at `e8ac3899a03df571fbbd5d1e42a6d9bb196abde0`, not a quantitative overhead theorem. Hutter's 2002 primary paper was read for prior art on moving search cost into time-bound computation; no claim to invent that general principle.
 
 Concurrent S002 compact prediction at `bbfd1086b7e629375f9891998e4602270d8801cd` was read and credited; E001 redirected overlapping work. Detailed proof/review scope is in [REVIEWS.md](results/epsilon-uniformity/REVIEWS.md). Prior source archives and the historical programme remain unchanged.
+
+## E001 checkpoint 3 — Primary reading and implementation audit
+
+Root read the primary Baker–Harman–Pintz paper, *The difference between consecutive primes, II* (2001), Theorem 1 and its effectivity comment, for the input-dependent-radix proof. The eventual prime theorem's absolute threshold is retained, not numerically certified. Root re-read the full November interchange and Fourier repair proofs, including the finite-basis descent in `cor:swap-repair`, while checking the original-template tower draft. That draft's physical compiler audit is still in progress. No full Lean build or complete implementation replay is claimed.

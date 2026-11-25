@@ -57,3 +57,7 @@ a root multiplier; the current Walsh invoice has a separate cumulative toll.
 A new follow-up will examine choosing radix per input width to remove the
 literal fixed-radix padding problem, with prime search and conversion priced.
 Canonical main and OpenAI main remain at their initial pinned revisions.
+
+## 2026-11-25 14:19 UTC — Third checkpoint preparation
+
+Input-dependent radix selection now has a complete arithmetic/preparation proof, reviewed by root against the primary prime-interval theorem. It repairs the scoped padding barrier; the varying-radix address-map implementation remains open. Binary-length scheduling has passed root review. Route A has a draft complete elementary-height extraction whose compiler and threshold gate is being reviewed, and root has a written factor-rank obstruction for the literal label matrix modulo p². These drafts are saved without promotion to a new complete bound. Remote HEAD was re-read as 9dad7c318db1f56425878d10651cb98827bb0ad3; no concurrent update was overwritten.

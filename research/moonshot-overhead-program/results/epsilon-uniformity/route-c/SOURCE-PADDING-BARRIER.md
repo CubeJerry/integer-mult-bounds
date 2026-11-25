@@ -64,6 +64,22 @@ Materializing that many padded records visits that many cells, up to a fixed rec
 
 This rules out transplanting the **literal fixed-radix binary padding** into this natural power-selected scheme while retaining common linear space. It is independent of recursive call counts, coefficient choices or fast template generation. The paper's abort-and-chunk wrapper still preserves its own common cap; this result does not lower-bound its actual runtime or assert that capped attempts succeed at all lengths.
 
+### A label-only barrier survives repair-shift compression
+
+The exponential version uses the literal all-shifts batch. A smaller repair batch does not remove the underlying obstruction when the source labels, `q` choice and radix interface are retained. They have `h=2p-1`, `N=q^(h^2)`, `p>=3` and `q>=m^(1/p^2)`, hence
+
+\[
+ b>W=RN\ge N\ge m^{(2-1/p)^2}\ge m^{25/9}. \tag{P2c}
+\]
+
+This estimate has no `O_p` constant and remains valid when `p` varies. Under the same power-selected arity rule, Lemma P1 then forces inflation at least
+
+\[
+ \min(4^D,m^{50/9}/4)=\Omega(m^{50/9})
+\]
+
+somewhere on every sufficiently large parameter plateau. Thus repair-shift compression alone does not restore common space for the literal padding interface. Changing the labels, radix rule or representation is outside this statement.
+
 ### Sparse-menu coverage
 
 **Proposition P2b.** Let `U>=1`, `1<=M<=U`, and fix a padding cap `C>=1`. A menu of `K` radices with `log_2 b_i>=M` can have one-field padding at most `C` at no more than
