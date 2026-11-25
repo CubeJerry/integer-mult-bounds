@@ -1,10 +1,9 @@
 {
   "schema": "moonshot-overhead-program-state-v2",
   "branch": "research/moonshot-overhead-program",
-  "status": "session_completed",
+  "status": "session_in_progress",
   "session_date_local": "2026-11-26",
   "requested_duration_seconds": 10800,
-  "elapsed_seconds_claim": 10822,
   "source_pins": {
     "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
     "openai_math_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
@@ -73,19 +72,18 @@
     "Investigate physically charged execution of structured tensor modules and shift checks; no stronger global rate admitted.",
     "Continue scoped novelty and companion-source audit; all-odd-characteristic IP remains open."
   ],
-  "checkpoint_baseline_sha": "d1f3baccdcc547263c0c0cc7241aa0cb1ef12bee",
+  "checkpoint_baseline_sha": "0607d044d1d09489580da0e5828588820e1a6775",
   "session": {
-    "id": "2026-11-26-S002",
-    "started_utc": "2026-11-25T13:20:23Z",
-    "planned_end_utc": "2026-11-25T16:20:23Z",
+    "id": "2026-11-26-S003",
+    "started_utc": "2026-11-25T21:19:05Z",
+    "planned_end_utc": "2026-11-26T00:19:05Z",
     "requested_seconds": 10800,
     "timezone": "Australia/Melbourne",
     "background_execution": false,
-    "last_prepared_utc": "2026-11-25T16:20:45Z",
-    "report": "SESSION-S002-REPORT.md",
-    "status": "completed",
-    "ended_utc": "2026-11-25T16:20:45Z",
-    "actual_elapsed_seconds": 10822
+    "status": "running",
+    "scope": "sessions/2026-11-26-S003/",
+    "starting_remote_head": "0607d044d1d09489580da0e5828588820e1a6775",
+    "initial_source_refresh": "Canonical main and OpenAI main unchanged; prior complete written bound retained pending fresh critical-chain audit."
   },
   "verification_status": "Finite characteristic-two count formula and complete physical/scheduling composition accepted by B, C and lead; isolated count and exact growth replays passed. No full machine execution, formal build or human refereeing.",
   "concurrent_work": {
@@ -315,5 +313,20 @@
     "A": "Frozen at 16:15 UTC; handoff routes/A/HANDOFF-S002.md.",
     "B": "Frozen at 16:14 UTC; handoff routes/B/S002-HANDOFF.md.",
     "C": "Frozen at 16:14 UTC; handoff routes/C/S002-ROUTE-REPORT.md."
+  },
+  "completed_sessions": {
+    "2026-11-26-S002": {
+      "id": "2026-11-26-S002",
+      "started_utc": "2026-11-25T13:20:23Z",
+      "planned_end_utc": "2026-11-25T16:20:23Z",
+      "requested_seconds": 10800,
+      "timezone": "Australia/Melbourne",
+      "background_execution": false,
+      "last_prepared_utc": "2026-11-25T16:20:45Z",
+      "report": "SESSION-S002-REPORT.md",
+      "status": "completed",
+      "ended_utc": "2026-11-25T16:20:45Z",
+      "actual_elapsed_seconds": 10822
+    }
   }
 }
