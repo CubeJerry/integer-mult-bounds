@@ -1,0 +1,113 @@
+{
+  "scope": "Finite integer arity/batch ledgers and high-precision recurrence evidence; no asymptotic or tape-machine certification.",
+  "programme_start": "0607d044d1d09489580da0e5828588820e1a6775",
+  "openai_math": "3344da59991ed94f9ba711217b29c1d760badfa6",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "exact_paths": [
+    {
+      "root_active_log2": 512,
+      "levels": 7,
+      "leaf_width_bits": 13,
+      "consumed_spectator_bits": 1963,
+      "allowed_polynomial_batch_exponent": 8,
+      "max_direct_remainder_bitlength": 140,
+      "exact_product_arity_le_root": true,
+      "exact_power_two_spectator_divisibility": true
+    },
+    {
+      "root_active_log2": 1024,
+      "levels": 10,
+      "leaf_width_bits": 9,
+      "consumed_spectator_bits": 3969,
+      "allowed_polynomial_batch_exponent": 8,
+      "max_direct_remainder_bitlength": 210,
+      "exact_product_arity_le_root": true,
+      "exact_power_two_spectator_divisibility": true
+    },
+    {
+      "root_active_log2": 2048,
+      "levels": 13,
+      "leaf_width_bits": 12,
+      "consumed_spectator_bits": 7890,
+      "allowed_polynomial_batch_exponent": 8,
+      "max_direct_remainder_bitlength": 371,
+      "exact_product_arity_le_root": true,
+      "exact_power_two_spectator_divisibility": true
+    },
+    {
+      "root_active_log2": 4096,
+      "levels": 17,
+      "leaf_width_bits": 12,
+      "consumed_spectator_bits": 15720,
+      "allowed_polynomial_batch_exponent": 8,
+      "max_direct_remainder_bitlength": 604,
+      "exact_product_arity_le_root": true,
+      "exact_power_two_spectator_divisibility": true
+    },
+    {
+      "root_active_log2": 8192,
+      "levels": 22,
+      "leaf_width_bits": 13,
+      "consumed_spectator_bits": 31280,
+      "allowed_polynomial_batch_exponent": 8,
+      "max_direct_remainder_bitlength": 982,
+      "exact_product_arity_le_root": true,
+      "exact_power_two_spectator_divisibility": true
+    },
+    {
+      "root_active_log2": 16384,
+      "levels": 29,
+      "leaf_width_bits": 4,
+      "consumed_spectator_bits": 62403,
+      "allowed_polynomial_batch_exponent": 8,
+      "max_direct_remainder_bitlength": 1518,
+      "exact_product_arity_le_root": true,
+      "exact_power_two_spectator_divisibility": true
+    }
+  ],
+  "log_domain_checks": {
+    "decimal_precision": 100,
+    "grid_points": 169,
+    "grid_log_domain_powers": [
+      12,
+      180
+    ],
+    "minimum_decrease_over_sqrt_y_log_y": 0.808048583918917,
+    "maximum_log_binary_route_over_sqrt_y_log_y": 2.50996878128017,
+    "model_constants": {
+      "interchange": 10,
+      "polynomial_degree": 100,
+      "binary_loss": 16,
+      "target": 700
+    },
+    "norm_absorption_grid_points": 117,
+    "sampled_first": {
+      "log_domain_power": 12,
+      "decrease_ratio": 0.8298790581658609,
+      "recursion_log_fraction": -42128.89873218235,
+      "local_log_fraction": -344212.55883395654,
+      "norm_absorption_checked": false
+    },
+    "sampled_last": {
+      "log_domain_power": 180,
+      "decrease_ratio": 0.8121102704927089,
+      "recursion_log_fraction": -1.6767248744392312e+22,
+      "local_log_fraction": -4.4266268095200657e+39,
+      "norm_absorption_checked": true
+    }
+  },
+  "negative_controls": 3,
+  "inherited_rational_replay": {
+    "file": "compact-rational-walsh-verification.json",
+    "sha256": "e1bece9fa2d47a6279008a4945822cc5e8fce4036a0278bc50aff7fae864fbb9",
+    "status": "previous separate exact replay; not rerun or recounted here"
+  },
+  "limitations": [
+    "Numerical constants in the log-domain grid are a model invoice, not claimed universal constants of the full compiler.",
+    "Finite exact paths use the valid padded upper dimension 1+Lq; they do not enumerate the enormous label family.",
+    "The asymptotic calculus, physical scheduling and global precision arguments are in the accompanying proof.",
+    "The exact interchanger and integer assembly remain separate interfaces."
+  ],
+  "checker_sha256": "2c5bd2e268c2fedee118004564d817a187194e59b9279e6f28efa438cb0177b7"
+}

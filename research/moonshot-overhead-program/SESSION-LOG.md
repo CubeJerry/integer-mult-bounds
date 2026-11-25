@@ -237,3 +237,11 @@ is not a runtime lower bound or a premise of the positive theorem.
 S003 c65aac1156a46d10c0ef2aa36fd846c7a93518e1 and E003 df91e4c8
 were fast-forwarded and preserved. The live session continues through
 00:19:31 UTC; no upstream PR or external message was sent.
+
+## S003 adaptive checkpoint prepared 2026-11-25T22:55:27Z
+
+From confirmed S003c65aac1156a46d10c0ef2aa36fd846c7a93518e1, this wave proved/admitted AQ's complete2/3 log^(1/3) envelope with absolute O(n) visited cells. It composes constant-payload pencils, full-rate changing-field packing, two distinct arity recurrences, fixed precision and the actual source integer caller. C accepted the exact global proof; A independently audited the caller; root read both and replayed the finite evidence. The earlier conditional lead draft is retained as superseded.
+
+A/C's matching literal-invoice theorem and B's common-isotropic obstruction passed scoped review/replay. The portfolio changes geometry/delivery premises instead of retuning the closed certificate. This real three-hour session remains active through00:19:05 UTC; no future/background execution or elapsed duration is invented.
+
+The branch was fast-forwarded through E003df91e4c8, S00404c1cb0d and E0028af1911b, preserving their files/state. E002 independently admits the same rate through a distinct wrapper. No upstream PR was opened and no selected certificate changed.

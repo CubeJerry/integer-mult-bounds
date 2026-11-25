@@ -151,3 +151,11 @@ Lead reviewed A's final radix wrapper and C's correction/review, B's spectral an
 ## E002 variable-profile admission — 22:42 UTC
 
 A/C independently accepted the whole V1--V20 composition and root theorem ccad2873bfa36755382495a24c488d1cdfd622f562fb1c8b3cd7712b6a4b9cb4; status-only edits are identified in ADMISSION-V.md. Final local transfer 243849c3349a2ae9e48e5d48e259f510dc63283e24e3d7a4c45a0836615a7d19 includes the external-only global-cache amendment. Root replayed 108 grouped layouts/56,889 vector repairs/108 wrong-order controls. Exact receipts and imported hashes are retained. These support finite identities; there is no executed full multiplier, Lean refinement or human review.
+
+## S003 adaptive verification
+
+Admitted proof: `sessions/2026-11-26-S003/lead/adaptive-extraction.md`; C global review: `REVIEW-ADAPTIVE-EXTRACTION.md`; A source audit: `audit-adaptive-integer-caller.md`. C separately accepted AI/NW. Root read those proofs/reviews and replayed isolated sources under `python3 -I -B`. Receipts/copies: `sessions/2026-11-26-S003/lead/replays/adaptive/`.
+
+AI:96 root boundaries,3,597 exact toy width/mass/toll ledgers,36 model recurrences,32 batches and missing-budget/toll controls; maximum depth228. NW:6 exact integer/batch paths,169 illustrative100-digit recurrence points,117 norm checks,3 countermodels. The inherited rational receipt was copied/hashed, not rerun.
+
+Root also reviewed/replayed both NI proofs and B's isotropic counterexample. C NI:2,048 exact discriminants,489 cubic cases,160 normalized prices,160 Decimal partition diagnostics,3 controls. A NI:336 exact-rational lower witnesses with90-digit log comparisons,109 inversion points,640 schedules,one control. B:6 finite families,142 isotropic vectors,4,452 exact rational/modular distinct pairings,246 identical-source pairs,142 wrong-vector controls. Finite tests supplement the written unbounded proofs; no enormous template, full tape multiplier, Lean build or human referee review was executed.

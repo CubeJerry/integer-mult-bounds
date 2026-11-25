@@ -80,3 +80,9 @@ Repair-free low-degree prediction fails uniform rounding and dense ordinary-erro
 ## E002 variable-profile admission — 22:42 UTC
 
 E002 A supplied physical affine streams and independent global/outer audits; B supplied two distinct variable-arity schedules, common-field sharp space and numerical precision; C supplied compact exact components and adversarial whole-profile review. V is admitted with no remaining family-efficiency premise. B remains protected for alternative delivery/geometry discovery, A checks reusable full-rate/repair refinements, and C sharpens scoped incidence obstructions. Concurrent sessions keep their own route plans.
+
+## S003 adaptive wave and formal pivot
+
+A supplied uniform payload, nonstationary rational Walsh and a separate actual-source caller audit. B's compact representation developed into full-rate changing-field interchange, and its independent sharing attempt produced a counterexample. C audited AI/NW/AQ and independently converged with A on the regular-path literal-invoice barrier. Root assembled and reviewed AQ: log H=O(s^(2/3)log(s+2)^(1/3)).
+
+B's common-isotropic preparation fails on an explicit(q/2)^d identical-source anchor family. This does not exclude other aggregation/layouts. A/C's barrier permits arbitrary arities/asymmetric nesting but prices only the retained certificate. Primary effort therefore changes physical/geometric premises. B keeps protected discovery; A/C pursue new mechanisms/bridges. Concurrent E002/E003 convergence is preserved without duplicate novelty claims.

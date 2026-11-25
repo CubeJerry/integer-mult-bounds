@@ -111,3 +111,11 @@ S003 independently closes the same polynomial-profile envelope admitted by E002:
 ## E002 variable-profile admission — 22:42 UTC
 
 The current admitted E002 theorem has H=2^{O(x^(2/3)(log_2(x+2))^(1/3))}, one fixed exact full-product tape machine and O(n) visited cells. The complete proof, parameter ledger, exact A/C reviews and source scope are under results/epsilon-uniformity/sessions/E002. The endpoint remains open. Current discovery should improve local delivery/geometry or numerical costs, rather than only reschedule the same literal certificate.
+
+## S003 adaptive milestone — direct uniform-space construction
+
+S003's AQ is admitted with log H=O(s^(2/3)(log2(s+2))^(1/3)) and one absolute O(n) visited-cell cap. Proof and admission: `sessions/2026-11-26-S003/lead/adaptive-extraction.md` and `ADMISSION-AQ.md`. Independent C global review and A actual source-caller audit close the complete machine. Routing and numerical arities differ; the numerical address toll is retained. Two-pass rank scheduling, one-role tags and bijective changing-field packing make the component space coefficient absolute, so this construction needs no parameter-dependent chunk wrapper.
+
+Concurrent E002 V at8af1911b independently admits the same envelope through composite radix/root-field execution and subpower-space chunk compression. Both are preserved with distinct provenance; neither is a priority claim. E003's conditional draft remains separately recorded. This is written AI-assisted mathematics, not a full implementation, formal refinement or human refereeing.
+
+A/C's matching literal-invoice obstruction closes further arity/distance/nesting retuning within that certificate. B's common-isotropic counterexample defeats one cross-rectangle reuse. The portfolio pivots toward changed geometry or smaller actual shared delivery, with protected independent discovery. Polynomial-s and constant overhead remain open.

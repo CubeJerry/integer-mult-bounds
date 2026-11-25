@@ -1,0 +1,13 @@
+{
+  "source": "route-b/verify_isotropic_preparation_obstruction.py",
+  "source_sha256": "4771ada6d5b1d6d1e711fdbc36a601961b6a8470bf77fa27629678233faaee8b",
+  "command": [
+    "python3",
+    "-I",
+    "-B",
+    "verify_isotropic_preparation_obstruction.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"pass\",\n  \"scope\": \"common totally isotropic preparation only\",\n  \"counts\": {\n    \"complete_families\": 6,\n    \"isotropic_vectors\": 142,\n    \"nonorthogonal_pairs\": 4452,\n    \"identical_source_pairs\": 246,\n    \"nonzero_radix3_pairings\": 4452,\n    \"rejected_wrong_vectors\": 142\n  },\n  \"cases\": [\n    {\n      \"d\": 2,\n      \"q\": 2,\n      \"anchor_count\": 1,\n      \"identical_source_anchor_count\": 1,\n      \"tested_modulus\": 3\n    },\n    {\n      \"d\": 2,\n      \"q\": 4,\n      \"anchor_count\": 9,\n      \"identical_source_anchor_count\": 4,\n      \"tested_modulus\": 3\n    },\n    {\n      \"d\": 2,\n      \"q\": 8,\n      \"anchor_count\": 49,\n      \"identical_source_anchor_count\": 16,\n      \"tested_modulus\": 3\n    },\n    {\n      \"d\": 4,\n      \"q\": 2,\n      \"anchor_count\": 1,\n      \"identical_source_anchor_count\": 1,\n      \"tested_modulus\": 9\n    },\n    {\n      \"d\": 4,\n      \"q\": 4,\n      \"anchor_count\": 81,\n      \"identical_source_anchor_count\": 16,\n      \"tested_modulus\": 9\n    },\n    {\n      \"d\": 8,\n      \"q\": 2,\n      \"anchor_count\": 1,\n      \"identical_source_anchor_count\": 1,\n      \"tested_modulus\": 9\n    }\n  ]\n}\n",
+  "stderr": ""
+}

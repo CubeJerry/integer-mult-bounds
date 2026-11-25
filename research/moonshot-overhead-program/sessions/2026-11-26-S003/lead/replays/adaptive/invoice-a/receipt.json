@@ -1,0 +1,13 @@
+{
+  "source": "route-a/verify_nonstationary_invoice.py",
+  "source_sha256": "ab5b5054024630af100b9b53af38c6b503ae3ca030824e4e5de2a873485a9890",
+  "command": [
+    "python3",
+    "-I",
+    "-B",
+    "verify_nonstationary_invoice.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"passed\",\n  \"scope\": \"Literal invoice lower bounds and normalized schedule accumulation; not actual-machine lower bounds.\",\n  \"python\": \"3.12.14\",\n  \"decimal_precision\": 90,\n  \"nested_families\": 7,\n  \"exact_rank_lower_invoice_cases\": 336,\n  \"local_inversion_grid_points\": 109,\n  \"uneven_schedules\": 640,\n  \"minimum_schedule_log_margin\": 0.6945382396141137,\n  \"fast_descent_negative_controls\": 1,\n  \"limitations\": [\n    \"The local rank fraction is the proved lower witness, not a newly computed exact rank.\",\n    \"The cost recurrence is an explicitly defined positive upper invoice.\",\n    \"This checker does not prove a runtime lower bound or instantiate a tape algorithm.\"\n  ],\n  \"checker_sha256\": \"ab5b5054024630af100b9b53af38c6b503ae3ca030824e4e5de2a873485a9890\"\n}\n",
+  "stderr": ""
+}

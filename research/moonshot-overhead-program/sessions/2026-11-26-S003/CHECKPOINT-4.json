@@ -1,0 +1,47 @@
+{
+  "session": "2026-11-26-S003",
+  "milestone": "AQ adaptive direct-space construction",
+  "baseline_parent": "8af1911b02c04d0c410dd181597fd160582a78b4",
+  "openai_pin": "3344da59991ed94f9ba711217b29c1d760badfa6",
+  "critical_proof_hashes": {
+    "lead/adaptive-extraction.md": "03e32dffc1835f5cf4d3d49fbc386ae7903c8a6c9f9244a37517b7ab2380827e",
+    "lead/ADMISSION-AQ.md": "344e381189da4891496dbbc893f8b7adfb931522f27c11037e707e2cc1817773",
+    "lead/review-scoped-adaptive-obstructions.md": "941c34479af845647f717d1dd04cb8a7ca01a73fe5e3313d019ef0be4cad95d3",
+    "route-a/nonstationary-rational-walsh.md": "c3a51f58cb32ce8d5ba350b035b99d680d6a7e44fe9c3cdce08bc51ffdff72ee",
+    "route-a/audit-adaptive-integer-caller.md": "5aa266634f39ce65161717536dfefc7ad2cc279ae4761e0265e964b7e48c586a",
+    "route-a/uniform-payload-shared-pencil.md": "0c93aee3328b752b2e3263c6a0a49dc8315ba824dfd2e71ce032b6144788d77a",
+    "route-b/adaptive-interchange.md": "d9cfa8087202a87fd97d21aff980ecc345ed47bfdc9ed8e81145ad55c1faf813",
+    "route-b/full-rate-field-packing.md": "c52766cd4fffdc679f9af1b68ce0dec70035ab6b956d29e7c2c129f55e4dfc68",
+    "route-c/REVIEW-ADAPTIVE-EXTRACTION.md": "49fd2235758921e86914c6404d05442be83d44cef51bca371f46e1597404cb3f",
+    "route-c/REVIEW-ADAPTIVE-INTERCHANGE.md": "aae4aaa9e3e4f7c5bc8a9620baedb4eb54f6744543d4d0552ff480c8fb0a0dd3",
+    "route-c/REVIEW-NONSTATIONARY-RATIONAL-WALSH.md": "88bb2be0bb6030b068eff32b9333004ce7db074ec4d998df7439a037824692fe"
+  },
+  "lead_isolated_replays": [
+    {
+      "path": "lead/replays/adaptive/interchange/receipt.json",
+      "source_sha256": "e0b89f773f5b8f18bd3b42325ff9549ec07dce1fd17b77ac39e3712b834914a3",
+      "exit_code": 0
+    },
+    {
+      "path": "lead/replays/adaptive/invoice-a/receipt.json",
+      "source_sha256": "ab5b5054024630af100b9b53af38c6b503ae3ca030824e4e5de2a873485a9890",
+      "exit_code": 0
+    },
+    {
+      "path": "lead/replays/adaptive/invoice-c/receipt.json",
+      "source_sha256": "4ed6f2cd516c3732d4685894dda95e3f4e7930c4484b36804eb67303491c4c1b",
+      "exit_code": 0
+    },
+    {
+      "path": "lead/replays/adaptive/isotropic/receipt.json",
+      "source_sha256": "4771ada6d5b1d6d1e711fdbc36a601961b6a8470bf77fa27629678233faaee8b",
+      "exit_code": 0
+    },
+    {
+      "path": "lead/replays/adaptive/walsh/receipt.json",
+      "source_sha256": "2c5bd2e268c2fedee118004564d817a187194e59b9279e6f28efa438cb0177b7",
+      "exit_code": 0
+    }
+  ],
+  "verification_scope": "Written unbounded proofs plus independent agent audits and finite checks; no full multiplier, formal build or human refereeing."
+}

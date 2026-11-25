@@ -157,3 +157,9 @@ Canonical main `e54523517d0f03e58352e647c403a5af3e525a57`, OpenAI math `3344da59
 ## E002 variable-profile admission — 22:42 UTC
 
 E002 root completed fresh full reads of Fourier repair.tex, kernel.tex, binary.tex and grids.tex at OpenAI 3344da59991ed94f9ba711217b29c1d760badfa6, alongside the earlier tape/source audits. A/C outer transfers inspect the actual guarded permutations and integer pipeline. The circuit all-length theorem is not imported as a tape primitive. OpenAI and canonical main pins were unchanged during this phase; focused prompt unchanged in content at the later reread. S003/E003 concurrent checkpoints are preserved; their optional advances retain separate review scope. No priority claim is made.
+
+## S003 adaptive caller audit
+
+Pin3344da59991ed94f9ba711217b29c1d760badfa6 remains unchanged. A read all491 lines of `integers.tex`, all `permutations.tex` and `walsh.tex`, and relevant generation/precision/cap portions of `uniformity.tex`. Exact replacement map/lemma labels: `sessions/2026-11-26-S003/route-a/audit-adaptive-integer-caller.md`. C independently audited complete AQ; root reread changed phase/recovery/physical interfaces.
+
+The outer ledger has a fixed log^4 factor and polynomial(k) setup. Norm requests13k/50k and phase errors70k suffice even with the executable b<=4k guard. An integer precision majorant replaces literal all-key coefficient maximization. Shape tests avoid requiring a computed prime-gap cutoff. No new source revision or formal rebuild is asserted.

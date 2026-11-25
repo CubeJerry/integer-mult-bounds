@@ -1,0 +1,13 @@
+{
+  "source": "route-c/verify_nonstationary_invoice_barrier.py",
+  "source_sha256": "4ed6f2cd516c3732d4685894dda95e3f4e7930c4484b36804eb67303491c4c1b",
+  "command": [
+    "python3",
+    "-I",
+    "-B",
+    "verify_nonstationary_invoice_barrier.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"pass\",\n  \"scope\": \"Literal invoice implications and finite recurrence diagnostics; no actual-machine lower bound.\",\n  \"counts\": {\n    \"concavity_discriminants\": 2048,\n    \"local_cubic_contrapositions\": 489,\n    \"regular_normalized_prices\": 160,\n    \"nonstationary_partitions\": 160,\n    \"negative_controls\": 3\n  },\n  \"decimal_precision\": 100,\n  \"minimum_partition_ratio\": 1.0,\n  \"maximum_partition_ratio\": 3.6789980353285947,\n  \"python\": \"3.12.14\",\n  \"checker_sha256\": \"4ed6f2cd516c3732d4685894dda95e3f4e7930c4484b36804eb67303491c4c1b\",\n  \"limitations\": [\n    \"No label family is instantiated in the large-m inverse checks.\",\n    \"Decimal partition checks are evidence, not interval-certified calculus.\",\n    \"The fast-descent countermodel tests logical hypotheses, not realizability by the source labels.\"\n  ]\n}\n",
+  "stderr": ""
+}

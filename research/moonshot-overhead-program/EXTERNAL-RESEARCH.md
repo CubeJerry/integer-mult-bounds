@@ -58,3 +58,9 @@ novelty review. The session does not certify discovery priority.
 ## S004 partition and sparse-repair route
 
 Lead read definitions and introductory theorem statements in Trevor Pinto, *Biclique Covers and Partitions*, EJC21(1) P1.19 (2014), and the introduction/definitions of Ghosal--Karrenbauer, SEA2025, DOI10.4230/LIPIcs.SEA.2025.18. Covers, fractional partitions and exact local partitions are kept distinct; neither paper is claimed to settle JR. Route B read the specified sections of Giorgi--Grenet--Perret du Cray--Roche, *Fast interpolation and multiplication of unbalanced polynomials* (2024), on cyclic folds, derivatives and sparse recovery. Its established derivative-ratio method is credited; the new note proves its own deterministic all-moduli and physical implementation claims. Huang's derivative-based sparse interpolation paper remains a staged full-text lead. Exact reading scope and URLs are in the S004 proof files.
+
+## S003 current-source search and concurrent provenance
+
+A live search used the exact November tape/Fourier titles and overhead/quantitative terms, with a recent-publication filter. It recovered unchanged primary OpenAI sources and derivative listings, but no additional explicit overhead theorem. Only primary manuscript facts are imported. This narrow search is not evidence of priority or exhaustive coverage.
+
+E002 checkpoint8af1911b independently admits the same2/3 log^(1/3) envelope through a different physical/space wrapper. S003 lead read its complete theorem/admission and preserved it; this is not a fresh review of every E002 supplier. S003 supplies direct absolute-space AI/NW/AQ with its own review chain. E003df91e4c8 records a conditional same-scale candidate; S004's separate rectangle/sparse-repair work remains preserved. Established tensor, moment, interpolation and scheduling machinery retain prior-art credit.

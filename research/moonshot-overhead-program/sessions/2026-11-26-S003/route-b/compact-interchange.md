@@ -1,6 +1,6 @@
 # A polynomial-profile packed interchange family
 
-Status: **complete written physical component; pending independent composition review**. This is a field-interchange theorem, not a complete multiplication bound. Its linked local constructions are explicit, rather than assumptions that the desired interchanger exists.
+Status: **complete written physical component; independently accepted by Route C**. See `../route-c/REVIEW-B-COMPACT-INTERCHANGE.md`. This is a field-interchange theorem, not a complete multiplication bound. Its linked local constructions are explicit, rather than assumptions that the desired interchanger exists.
 
 ## 1. Dependencies and parameters
 

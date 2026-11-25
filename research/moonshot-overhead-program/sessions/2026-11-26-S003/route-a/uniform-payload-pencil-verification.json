@@ -1,0 +1,69 @@
+{
+  "scope": "Two-pass shared-pencil algebra and explicit local liveness/call ledgers; no tape simulation or asymptotic proof.",
+  "source_openai_math": "3344da59991ed94f9ba711217b29c1d760badfa6",
+  "programme_start": "0607d044d1d09489580da0e5828588820e1a6775",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "cases": [
+    {
+      "name": "all-ones-odd-field",
+      "characteristic": 5,
+      "labels": 8,
+      "rank": 1,
+      "queries": 3,
+      "scalar_rows": 3,
+      "physical_positions": 64,
+      "independent_outputs": 1536,
+      "rectangles": 14,
+      "rank_payload_fraction": "3/8",
+      "conservative_live_payload_ratio": 7.75,
+      "endpoint_operations_before": 48,
+      "endpoint_operations_after": 72,
+      "middle_inverse_nonzeros": 1,
+      "negative_controls": 4
+    },
+    {
+      "name": "two-blocks-full-occupancy",
+      "characteristic": 2,
+      "labels": 8,
+      "rank": 2,
+      "queries": 4,
+      "scalar_rows": 3,
+      "physical_positions": 256,
+      "independent_outputs": 6144,
+      "rectangles": 12,
+      "rank_payload_fraction": "8/8",
+      "conservative_live_payload_ratio": 8.0,
+      "endpoint_operations_before": 32,
+      "endpoint_operations_after": 48,
+      "middle_inverse_nonzeros": 2,
+      "negative_controls": 3
+    },
+    {
+      "name": "actual-q4-d2-labels",
+      "characteristic": 2,
+      "labels": 64,
+      "rank": 8,
+      "queries": 4,
+      "scalar_rows": 2,
+      "physical_positions": 256,
+      "independent_outputs": 32768,
+      "rectangles": 64,
+      "rank_payload_fraction": "32/64",
+      "conservative_live_payload_ratio": 7.0,
+      "endpoint_operations_before": 1792,
+      "endpoint_operations_after": 3520,
+      "middle_inverse_nonzeros": 36,
+      "negative_controls": 3
+    }
+  ],
+  "total_independent_outputs": 40448,
+  "negative_controls": 11,
+  "limitations": [
+    "Finite endpoint remainders are arbitrary permutations; lower triangularity is supplied by the separately checked geometry.",
+    "Liveness ledger counts the stated schedule; this is not measured tape execution.",
+    "Not a complete interchange, numerical precision or multiplication verification."
+  ],
+  "checker_sha256": "ce1de589ced8a143bed1a86d87c6376302e22e442a2ee6ca7afe8a381d5fd3aa"
+}

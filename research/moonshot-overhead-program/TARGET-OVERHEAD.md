@@ -161,3 +161,9 @@ The excess-exponent envelope is delta_H=O((log(x+2)/x)^(1/3)).
 This rate conversion is elementary; the new content is the complete
 charged two-schedule construction and common-cap proof. See ADMISSION-V.md
 and PARAMETERS-V.md there for exact reviews and threshold accounting.
+
+## S003 AQ: two growing arities, absolute visited space
+
+The admitted target is T(n)=O(n sqrt(L) 2^{O(F(s))}), F(s)=(s^2 log2(s+2))^(1/3). AI chooses m approximately e^delta for fixed small delta; its normalized logarithmic widths contract geometrically and sum their F penalties. NW chooses log2 m approximately F(log2 a), pays physical routing, and uses F(x)-F(x-cF(x)) to absorb its binary-label penalty. Its power-of-two batch product is polynomial in the root active width and divides the spectator supply.
+
+The source caller costs O(Nk J(k)(1+log(2+k))^4)+poly(k), J(k)=sqrt(1+k)2^{O(F(log2(k+2)))}. Absolute precision/space and Nk=Theta(n) give AQ without a search/chunk penalty. The displayed logarithmic-envelope ratio to3/4 is (log(s+2)/s)^(1/12), tending to zero; this does not lower-bound older runtime. Every pure beta>2/3 follows. The log-free2/3, polynomial-s and constant-H targets remain open; kappa_ov is null. See the complete AQ proof and caller audit under S003.

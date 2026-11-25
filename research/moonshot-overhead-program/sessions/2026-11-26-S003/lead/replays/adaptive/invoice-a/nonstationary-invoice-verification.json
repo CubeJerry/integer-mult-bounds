@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "scope": "Literal invoice lower bounds and normalized schedule accumulation; not actual-machine lower bounds.",
+  "python": "3.12.14",
+  "decimal_precision": 90,
+  "nested_families": 7,
+  "exact_rank_lower_invoice_cases": 336,
+  "local_inversion_grid_points": 109,
+  "uneven_schedules": 640,
+  "minimum_schedule_log_margin": 0.6945382396141137,
+  "fast_descent_negative_controls": 1,
+  "limitations": [
+    "The local rank fraction is the proved lower witness, not a newly computed exact rank.",
+    "The cost recurrence is an explicitly defined positive upper invoice.",
+    "This checker does not prove a runtime lower bound or instantiate a tape algorithm."
+  ],
+  "checker_sha256": "ab5b5054024630af100b9b53af38c6b503ae3ca030824e4e5de2a873485a9890"
+}

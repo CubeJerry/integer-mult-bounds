@@ -1,0 +1,13 @@
+{
+  "source": "research/moonshot-overhead-program/sessions/2026-11-26-S003/route-b/verify_adaptive_interchange.py",
+  "source_sha256": "e0b89f773f5b8f18bd3b42325ff9549ec07dce1fd17b77ac39e3712b834914a3",
+  "command": [
+    "python3",
+    "-I",
+    "-B",
+    "research/moonshot-overhead-program/sessions/2026-11-26-S003/route-c/replays/adaptive-interchange/verify_adaptive_interchange.py"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"pass\",\n  \"scope\": \"exact toy-profile invoices; not optimized geometry or a tape-machine run\",\n  \"counts\": {\n    \"root_boundary_cases\": 96,\n    \"width_invoices\": 3597,\n    \"normalized_mass_invoices\": 3597,\n    \"local_toll_invoices\": 3597,\n    \"complete_recurrences\": 36,\n    \"leading_batches\": 32,\n    \"rejected_missing_leading_reserve_budget\": 3597,\n    \"rejected_missing_local_tolls\": 36\n  },\n  \"maximum_checked_recursion_depth\": 228,\n  \"toy_profile\": {\n    \"K\": 2,\n    \"root_degrees\": [\n      32,\n      64\n    ],\n    \"max_input_width_bitlength\": 4097\n  }\n}\n",
+  "stderr": ""
+}

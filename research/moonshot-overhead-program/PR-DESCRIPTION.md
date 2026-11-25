@@ -75,3 +75,9 @@ been opened by E002.
 Credits: Jerry Chen (@CubeJerry), OpenAI source authors and cited prior
 work, S002/E001 predecessors, E002 A/B/C and lead, independently credited
 concurrent sessions, and substantial ChatGPT multi-agent assistance.
+
+## S003 independent direct-space construction and scoped obstructions
+
+S003 adds a separately reviewed complete construction on the same current2/3 log^(1/3) scale. It proves absolute linear-space exact interchange and numerical transforms through a two-pass rank pencil, one-role tags and bijective changing-field packing. Numerical routing remains charged; the actual caller uses a constructive precision majorant. Proof/admission: `sessions/2026-11-26-S003/lead/adaptive-extraction.md` and `ADMISSION-AQ.md`, with independent global/source reviews.
+
+A/C's barrier matches only the retained positive geometric invoice under a regular split. B supplies a same-source counterexample to one isotropic sharing method. Neither lower-bounds multiplication or optimal routing time. Finite replay commands/scope are recorded. E002/E003/S004 contributions remain separately attributed. No upstream PR is opened automatically.

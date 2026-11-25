@@ -30,7 +30,18 @@
       "results/epsilon-uniformity/sessions/E002/route-c/review-variable-arity-global.md",
       "results/epsilon-uniformity/sessions/E002/route-c/review-variable-profile-theorem.md"
     ],
-    "threshold": "Absolute eventual; constants and cutoff not numerically evaluated"
+    "threshold": "Absolute eventual; constants and cutoff not numerically evaluated",
+    "same_scale_constructions": [
+      {
+        "session": "S003",
+        "proof": "sessions/2026-11-26-S003/lead/adaptive-extraction.md",
+        "admission": "sessions/2026-11-26-S003/lead/ADMISSION-AQ.md",
+        "review": "sessions/2026-11-26-S003/route-c/REVIEW-ADAPTIVE-EXTRACTION.md",
+        "source_caller_review": "sessions/2026-11-26-S003/route-a/audit-adaptive-integer-caller.md",
+        "method": "Fixed radix3, two-pass constant-payload pencil, bijective changing-field packing; direct absolute-space AI/NW without chunk compression",
+        "status": "Complete written unconditional construction independently accepted by C, A source audit and lead"
+      }
+    ]
   },
   "conditional_complete_overhead_bound": {
     "formula": "T(n)=O(n sqrt(L) x^a), including a=0 endpoint, under explicit hypotheses",
@@ -41,9 +52,9 @@
   },
   "kappa_ov": null,
   "route_gaps": {
-    "A": "Uniform-payload pencil and adaptive numerical precision/caller; stronger global rate not admitted.",
-    "B": "Full-rate bit/field packing and adaptive exact interchanger with absolute payload coefficient.",
-    "C": "Review changing-arity composition and prove scoped literal-invoice path barrier."
+    "A": "Improve a different physical/label mechanism; parameter-only variation in the literal nested invoice has a proved scoped barrier.",
+    "B": "Protected independent delivery/geometry beyond common-isotropic sharing; no stronger full family yet.",
+    "C": "Seek a different decisive bridge or theorem-level counterexample; retained-invoice optimality is not a runtime lower bound."
   },
   "source_audit": "partial; see SOURCE-AUDIT.md",
   "publication": {
@@ -63,14 +74,19 @@
     "last_confirmed_e001_checkpoint": "d1f3baccdcc547263c0c0cc7241aa0cb1ef12bee",
     "e001_final_commit_id_location": "Git history and final chat response; no recursive self-identifier embedded.",
     "e001_final_checkpoint_contains_session_completion": true,
-    "e001_publication_blockers": []
+    "e001_publication_blockers": [],
+    "s003_confirmed_checkpoints": [
+      "97624303563d83467eebbf6872d85e39edc0d9ec",
+      "a2d9c4b00c02dadf7bdc970acf9190dfabf9ec32",
+      "c65aac1156a46d10c0ef2aa36fd846c7a93518e1"
+    ]
   },
   "next_actions": [
-    "Review absolute-payload schedules and changing-field packing.",
-    "Compose adaptive interchange and Walsh with the physical address toll charged.",
-    "Preserve accepted3/4 theorem until all stronger gates close."
+    "Preserve and externally review both complete two-thirds-scale constructions.",
+    "Change actual local endpoint delivery, label/rectangle geometry or another explicit invoice premise to improve the rate.",
+    "Keep protected independent discovery; do not infer polynomial-s or constant overhead from the present result."
   ],
-  "checkpoint_baseline_sha": "9e84956f071e7cc845935a55a5c717db08be6ea0",
+  "checkpoint_baseline_sha": "8af1911b02c04d0c410dd181597fd160582a78b4",
   "session": {
     "id": "2026-11-26-S003",
     "started_utc": "2026-11-25T21:19:05Z",
@@ -82,15 +98,18 @@
     "scope": "sessions/2026-11-26-S003/",
     "starting_remote_head": "0607d044d1d09489580da0e5828588820e1a6775",
     "initial_source_refresh": "Canonical main and OpenAI main unchanged; prior complete written bound retained pending fresh critical-chain audit.",
-    "last_prepared_utc": "2026-11-25T22:20:56Z",
-    "last_confirmed_checkpoint": "9e84956f071e7cc845935a55a5c717db08be6ea0",
+    "last_prepared_utc": "2026-11-25T22:54:35Z",
+    "last_confirmed_checkpoint": "c65aac1156a46d10c0ef2aa36fd846c7a93518e1",
     "new_complete_bound": true,
     "first_wave_review": "sessions/2026-11-26-S003/lead/first-wave-review.md",
-    "accepted_proof": "sessions/2026-11-26-S003/lead/polynomial-profile-extraction.md",
-    "admission": "sessions/2026-11-26-S003/lead/ADMISSION-PP.md",
-    "current_frontier": "Absolute payload and nonstationary interchange/Walsh; stronger2/3-scale not yet admitted"
+    "accepted_proof": "sessions/2026-11-26-S003/lead/adaptive-extraction.md",
+    "admission": "sessions/2026-11-26-S003/lead/ADMISSION-AQ.md",
+    "current_frontier": "Complete two-thirds-scale AQ admitted; protected discovery must leave the retained geometric invoice.",
+    "latest_reconciled_remote_head": "8af1911b02c04d0c410dd181597fd160582a78b4",
+    "verification": "Independent C global review, independent A actual source-caller audit, lead review and isolated finite replays; no full execution/formal build/human refereeing.",
+    "previous_accepted_proof": "sessions/2026-11-26-S003/lead/polynomial-profile-extraction.md"
   },
-  "verification_status": "Current best E002 V: two independent whole-profile and root-wrapper reviews, lead source/composition audit, finite exact component and grouped-role replays. No full multiplier execution, formal refinement or human refereeing.",
+  "verification_status": "E002 V and S003 AQ separately admitted with independent global/source audits and finite evidence. S003 has direct absolute linear payload space. No full multiplier execution, formal refinement or human refereeing.",
   "concurrent_work": {
     "epsilon_uniformity": "results/epsilon-uniformity/SESSION.json",
     "reconciled_head": "d1f3baccdcc547263c0c0cc7241aa0cb1ef12bee",
@@ -410,7 +429,12 @@
     "prompt_utc": "2026-11-25T15:58:38Z",
     "result": "All recorded active source pins unchanged; partial-read limitations retained.",
     "final_recheck_minute_utc": "2026-11-25T16:18Z",
-    "final_result": "Canonical main, OpenAI math main and prompt blob all unchanged."
+    "final_result": "Canonical main, OpenAI math main and prompt blob all unchanged.",
+    "s003_adaptive_audit": {
+      "utc": "2026-11-25T22:54:35Z",
+      "openai_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
+      "result": "OpenAI main unchanged; current primary-source search found no additional explicit rate, without a novelty-exhaustiveness claim."
+    }
   },
   "final_finite_extension_review": "verification/S002/lead-review-final-finite-witnesses.md",
   "final_report_independent_review": "Route C found no mathematical/model/provenance mismatch; lead corrected wording to separate analytic candidate selection from execution of the schedule.",
@@ -499,6 +523,38 @@
   "current_verified_frontier": {
     "session": "E002",
     "admission": "results/epsilon-uniformity/sessions/E002/lead/ADMISSION-V.md",
-    "next": "Improve actual local delivery/geometry and numerical template invoices beyond the retained Phi scale; scoped barriers do not lower-bound runtime."
+    "next": "Improve actual local delivery/geometry and numerical template invoices beyond the retained Phi scale; scoped barriers do not lower-bound runtime.",
+    "same_scale_constructions": [
+      {
+        "session": "S003",
+        "proof": "sessions/2026-11-26-S003/lead/adaptive-extraction.md",
+        "admission": "sessions/2026-11-26-S003/lead/ADMISSION-AQ.md",
+        "review": "sessions/2026-11-26-S003/route-c/REVIEW-ADAPTIVE-EXTRACTION.md",
+        "source_caller_review": "sessions/2026-11-26-S003/route-a/audit-adaptive-integer-caller.md",
+        "method": "Fixed radix3, two-pass constant-payload pencil, bijective changing-field packing; direct absolute-space AI/NW without chunk compression",
+        "status": "Complete written unconditional construction independently accepted by C, A source audit and lead"
+      }
+    ]
+  },
+  "s003_current_result": {
+    "formula": "T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log2(x+2))^(1/3))})",
+    "L": "1+log2 n",
+    "x": "log2 L",
+    "status": "Complete written unconditional construction independently accepted by C, A source audit and lead",
+    "space": "One fixed O(n) bound on cells ever visited",
+    "proof": "sessions/2026-11-26-S003/lead/adaptive-extraction.md",
+    "admission": "sessions/2026-11-26-S003/lead/ADMISSION-AQ.md",
+    "parameters": "results/epsilon-uniformity/sessions/E002/PARAMETERS-V.md",
+    "scope": "Every fixed beta>2/3; logarithmic factor retained. No endpoint, polynomial-x, formal refinement, full execution, human refereeing or priority claim.",
+    "independent_composition_reviews": [
+      "results/epsilon-uniformity/sessions/E002/route-a/REVIEW-GLOBAL-VARIABLE-ARITY.md",
+      "results/epsilon-uniformity/sessions/E002/route-c/review-variable-arity-global.md",
+      "results/epsilon-uniformity/sessions/E002/route-c/review-variable-profile-theorem.md"
+    ],
+    "threshold": "Absolute eventual; constants and cutoff not numerically evaluated",
+    "session": "S003",
+    "review": "sessions/2026-11-26-S003/route-c/REVIEW-ADAPTIVE-EXTRACTION.md",
+    "source_caller_review": "sessions/2026-11-26-S003/route-a/audit-adaptive-integer-caller.md",
+    "method": "Fixed radix3, two-pass constant-payload pencil, bijective changing-field packing; direct absolute-space AI/NW without chunk compression"
   }
 }

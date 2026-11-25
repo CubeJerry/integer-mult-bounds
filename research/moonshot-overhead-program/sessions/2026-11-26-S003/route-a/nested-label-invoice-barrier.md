@@ -1,6 +1,9 @@
 # Asymmetric and deeper labels do not improve the cubic-logarithmic invoice
 
-Status: **proved scoped invoice obstruction, pending independent review**.
+Status: **proved scoped invoice obstruction; independently reviewed by C**.
+The review and isolated replay are in
+`../route-c/REVIEW-A-NESTED-LABEL-BARRIER.md`. This is a written mathematical
+and finite-check review, not formal-kernel or human-referee certification.
 
 This extends the S002 characteristic-two labels to arbitrary nesting depth
 and different distance parameters at each level, then proves a lower bound
@@ -240,6 +243,22 @@ also outside its scope.
 3. Can a different rectangle partition preserve the same k=0/d endpoint
    geometry while reducing the exact incidence in (N1)? Theorem N assumes
    this specific first-differing-bit product partition.
+
+## 7. Exact finite verification
+
+From the programme root:
+
+    python3 -B research/moonshot-overhead-program/sessions/2026-11-26-S003/route-a/verify_nested_label_barrier.py
+
+The saved `nested-label-verification.json` passed 508 selector cases,
+four actual label matrices (including the 512-label nested example), nine
+arbitrary square-zero tensor restrictions, three rational Gram-rank
+checks, three exhaustive rectangle partitions, 1,089 telescoping-count
+identities and nine positive integer invoice profiles. Negative controls
+reject a non-power-of-two distance and omission of the actual-rank factor.
+The verifier uses modular rank witnesses for the rational Gram lower
+bounds alongside the analytic upper bound. It is not a formal proof or a
+complete multiplication run. C separately replayed and reviewed it.
 
 Credits: the OpenAI tape and Fourier constructions and their cited
 intersection/rectangle predecessors; S002 characteristic-two label

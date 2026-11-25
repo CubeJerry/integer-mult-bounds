@@ -190,3 +190,9 @@ Evidence and portfolio decisions: `sessions/2026-11-26-S004/lead/FIRST-WAVE-ADMI
 ## E002 variable-profile admission — 22:42 UTC
 
 Theorem V's composite radix, common field, refined workspace, changing-arity exact recurrence, slower numerical recurrence, absolute precision, source outer substitution and actual common-cap gates are closed at the written-proof level. The remaining endpoint task is to reduce actual local geometry/delivery and numerical costs. The literal certificate's scoped 2/3 obstruction does not lower-bound runtime. Optional later optimizations are not premises of V.
+
+## S003 adaptive admission and next binding obligation
+
+Closed: UP constant-payload rank pencil (A, reviewed B); FP full-rate changing-field packing (B, reviewed A); AI exact adaptive interchange (B, reviewed C); NW adaptive numerical transform with routing/precision/spectator costs (A, reviewed C); AQ complete integer theorem (lead, reviewed C plus independent A source audit). Exact links: `sessions/2026-11-26-S003/lead/ADMISSION-AQ.md`.
+
+No unproved family-efficiency premise remains for AQ. Fixed source shape/analytic theorems remain dependencies, with executable tests/fallback. The next global gap is a smaller actual geometric/delivery price. A/C's nonstationary NI lower-bounds only the declared positive invoice and regular split, not runtime. B's isotropic obstruction is similarly restricted. Parameter retuning inside those premises is stopped as a route to a better order.

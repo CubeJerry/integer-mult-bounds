@@ -1,7 +1,8 @@
 # Compact rational Walsh execution without spectral lookup tables
 
-Status: **proved conditional numerical component, pending independent
-review**. The remaining premise is a compact physical interchange caller,
+Status: **proved conditional numerical component; independently reviewed
+by the lead** in `../lead/review-compact-rational-walsh.md`. The remaining
+premise is a compact physical interchange caller,
 specified below. This note does not establish that premise or a complete
 multiplication overhead bound.
 
