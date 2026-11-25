@@ -104,9 +104,78 @@
       "log2_W": 6286280105570400
     }
   ],
+  "interchange_log_majorants": [
+    {
+      "p": 29,
+      "r": 20153,
+      "log2_m": 16948673,
+      "q_free_square_majorant_bits": 36541,
+      "available_margin_bits": 3506622,
+      "m_materialized": false
+    },
+    {
+      "p": 31,
+      "r": 21734,
+      "log2_m": 20886374,
+      "q_free_square_majorant_bits": 42190,
+      "available_margin_bits": 4042524,
+      "m_materialized": false
+    },
+    {
+      "p": 43,
+      "r": 31446,
+      "log2_m": 58143654,
+      "q_free_square_majorant_bits": 85238,
+      "available_margin_bits": 8113068,
+      "m_materialized": false
+    },
+    {
+      "p": 61,
+      "r": 46578,
+      "log2_m": 173316738,
+      "q_free_square_majorant_bits": 180100,
+      "available_margin_bits": 17047548,
+      "m_materialized": false
+    },
+    {
+      "p": 101,
+      "r": 81823,
+      "log2_m": 834676423,
+      "q_free_square_majorant_bits": 526863,
+      "available_margin_bits": 49584738,
+      "m_materialized": false
+    },
+    {
+      "p": 149,
+      "r": 126058,
+      "log2_m": 2798613658,
+      "q_free_square_majorant_bits": 1201214,
+      "available_margin_bits": 112695852,
+      "m_materialized": false
+    },
+    {
+      "p": 211,
+      "r": 185290,
+      "log2_m": 8249296090,
+      "q_free_square_majorant_bits": 2505640,
+      "available_margin_bits": 234577140,
+      "m_materialized": false
+    }
+  ],
+  "cyclotomic_basis": {
+    "unit_difference_identities": 924,
+    "rings_are_not_assumed_fields": true
+  },
+  "integral_specialization": {
+    "correct_specialized_window_values": 276,
+    "field_count_collision_control": true
+  },
+  "global_tower_status": "Written mathematical implementation and independent internal review completed; the asymptotic theorem is not established by these finite tests.",
   "proof_sha256": {
+    "compiler-invoice.md": "5ecd20dd366da0d62b1d3b399d07d67fb8e10a1c939a862c723c40eb2395657d",
     "count-mod-p-obstruction.md": "172cfa5504c8ebb31308f654d2cda066ba38cca1a223d6e25ca4feaf39838836",
+    "elementary-tower-extraction.md": "fa61e12164ced3f48483f289d5659ccd6c2051e18020538a48cf51f1d62e74bb",
     "explicit-binary-kernel.md": "2ccc3b19fc28e4b50f9cb225816c22a308f6034bec27242f37f47802b6ce8e87",
-    "repair-table-compiler.md": "d1a664423c38eddb9a7100595dd0d1813cf4d679ecbb6eccf86b540ea07d2912"
+    "repair-table-compiler.md": "19bfe676c200275209a0957590aa4bda834dd2048136fd11bb1e9f3a25e8db01"
   }
 }

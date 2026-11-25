@@ -216,6 +216,16 @@ explicitly contrasts unary enumeration with program-length weights; see
 The present restricted family does not enumerate all programs, so one cannot
 assume that it automatically contains a simulator of every improved search.
 
+Concurrent S002, `routes/A/scheduler-and-chunking.md`, A1–A2, independently
+provides a near-linear penalty in the diagonal *pair index* and uses a sparse
+exponent sequence. That already removes the unary-index exponential. B2
+here directly weights the two binary parameters and is a complementary
+certificate, not a uniform improvement over S002: it can be smaller when
+the parameters are very unequal, while S002 can have smaller logarithmic
+factors when they are comparable. Sparse indexing and removal of the unary
+tax are therefore shared/overlapping enabling results; the distinct main
+Route B development is the preflight selector.
+
 ## Open next questions
 
 1. Bound the source's **actual** `A_m,k_m,N_m` after sparse indexing. Removing
@@ -228,5 +238,7 @@ assume that it automatically contains a simulator of every improved search.
 
 Attribution: @CubeJerry; the OpenAI November 24, 2026 tape/Fourier manuscripts;
 Levin's universal-search construction; Hutter's explicit coding discussion.
+Credit also to concurrent S002 A1–A2 for the overlapping sparse/weighted
+search result and A3–A4 for quantified chunk accounting.
 Prepared with OpenAI ChatGPT multi-agent assistance. No Lean build or physical
 Turing-machine implementation is claimed by this document.

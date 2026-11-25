@@ -21,3 +21,14 @@ Research coordinated for @CubeJerry with substantial AI assistance from OpenAI C
 
 
 Concurrent E001 work retains its own provenance under `results/epsilon-uniformity/`. No priority is claimed over overlapping independent results. This is a fork research checkpoint; no upstream PR has been opened.
+
+## Focused E001 refinement
+
+The focused epsilon-uniformity work now proves the sharper written source profile log m=O(j³ log j), giving
+
+    T(n)=n sqrt(L) 2^{O(x(log2(y+2)/y)^(1/3))},
+    x=log2 L, y=log2 log2(x+16),
+
+on one exact fixed machine with uniform O(n) visited cells. The complete finite-generator and physical-compiler proof has separate root/C AI review. It retains original integral/dyadic templates, specified efficient generation and actual weighted scheduling. The earlier S002 sixth-power extraction remains recorded.
+
+Additional scoped results are a literal p² factor-rank/reserve obstruction, input-dependent compatible-radix preparation, and a complete conditional bounded-preflight transfer. These preserve their distinct premises and do not settle the endpoint. Full astronomical execution, a Lean proof of the refinement, human refereeing, a practical cutoff and a literature-priority audit remain absent. No upstream PR has been opened.

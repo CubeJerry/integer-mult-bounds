@@ -17,20 +17,30 @@
   },
   "best_unconditional": "n L^(1/2+o(1)) (OpenAI November 24, 2026)",
   "new_complete_overhead_bound": {
-    "formula": "T(n)=O(n sqrt(L(n)) 2^{O(s(n)/(log2 log2 s(n))^(1/6))})",
+    "formula": "T(n)=n sqrt(L(n)) 2^{O(x (log2(y+2)/y)^(1/3))}",
     "L": "1+log2(n)",
-    "s": "log2(L)",
-    "space": "O(n) visited cells; one fixed exact deterministic finite-alphabet multitape machine",
-    "status": "accepted quantitative source extraction; AI-assisted mathematical audit",
-    "proof": "routes/A/explicit-extraction-theorem.md",
-    "review": "verification/S002/lead-review-explicit-extraction.md",
-    "meaning": "Explicit published o(1) rate; no strict improvement, priority or endpoint claim",
-    "threshold": "absolute eventual; not numerically evaluated"
+    "x": "log2(L)",
+    "y": "log2 log2(x+16)",
+    "weaker_form": "H(n)<=2^{O(x/y^(1/4))}",
+    "space": "O(n) cells ever visited; one fixed exact deterministic finite-alphabet multitape machine",
+    "status": "proved written quantitative source implementation; independently reviewed by root and Route C",
+    "proof": "results/epsilon-uniformity/THEOREM.md",
+    "construction": "results/epsilon-uniformity/route-a/elementary-tower-extraction.md",
+    "compiler": "results/epsilon-uniformity/route-a/compiler-invoice.md",
+    "review": "results/epsilon-uniformity/route-c/ELEMENTARY-TOWER-REVIEW.md",
+    "meaning": "Sharper log m=O(j^3 log j) profile than preceding S002 sixth-power extraction; no actual-runtime comparison, priority or endpoint claim",
+    "threshold": "absolute eventual; not numerically evaluated",
+    "verification_limits": "No complete astronomical template execution, Lean proof of refinement or independent human refereeing"
   },
-  "conditional_complete_overhead_bound": null,
+  "conditional_complete_overhead_bound": {
+    "formula": "T(n)=O(n sqrt(L) x^a), including a=0 endpoint, under explicit hypotheses",
+    "proof": "results/epsilon-uniformity/route-b/preflight-selection.md, Theorem P2",
+    "hypotheses": "One sound physical plan family: complete j^a execution bills, log2 L(N_j)<=Cj, and stated double-exponential constant/exponential-degree preflight profile; uniform O(n) visited regions",
+    "status": "Complete conditional transfer; stronger family hypotheses not established for original source"
+  },
   "kappa_ov": null,
   "route_gaps": {
-    "A": "Sharpen accepted sixth-power search profile; compare quantitative prior art.",
+    "A": "Sharpen finite-characteristic predictor representation and joint execution/threshold profile beyond the admitted elementary-tower extraction.",
     "B": "Arithmetic theorem and physical reflection component accepted; complete quantitative tape improvement open.",
     "C": "Review support-preserving lifts and representations beyond ordinary counts."
   },
@@ -45,7 +55,7 @@
     "Quantify reflections and explore characteristic-two rank repair.",
     "Continue source audit and final verification within remaining session."
   ],
-  "checkpoint_baseline_sha": "2fe18c267dc76e30b98a662403ca8745d40a913f",
+  "checkpoint_baseline_sha": "96028cba1342c02bdca1f537ae9a80485087bdf3",
   "session": {
     "id": "2026-11-26-S002",
     "started_utc": "2026-11-25T13:20:23Z",
@@ -62,7 +72,7 @@
   "verification_status": "Critical source chain read; independent finite-generator, integer-assembly, physical-compiler and uniform-rate gates accepted; isolated exact checks replayed. No Lean build or full multiplier execution.",
   "concurrent_work": {
     "epsilon_uniformity": "results/epsilon-uniformity/SESSION.json",
-    "reconciled_head": "2fe18c267dc76e30b98a662403ca8745d40a913f",
+    "reconciled_head": "96028cba1342c02bdca1f537ae9a80485087bdf3",
     "scope": "E001 files, top-level additions and state preserved; overlapping results retain separate provenance."
   },
   "focused_sessions": {
@@ -73,25 +83,59 @@
       "planned_end_utc": "2026-11-25T16:25:26Z",
       "scope": "results/epsilon-uniformity/",
       "initial_head": "99f0b3644f1858687db74e01d07a4808602854e2",
-      "strongest_complete_multiplication_bound": "Published n L^(1/2+o(1)); no new complete envelope",
-      "new_complete_multiplication_bound": null,
+      "strongest_complete_multiplication_bound": "T(n)=n sqrt(L(n)) 2^{O(x (log2(y+2)/y)^(1/3))}",
+      "new_complete_multiplication_bound": {
+        "formula": "T(n)=n sqrt(L(n)) 2^{O(x (log2(y+2)/y)^(1/3))}",
+        "L": "1+log2(n)",
+        "x": "log2(L)",
+        "y": "log2 log2(x+16)",
+        "weaker_form": "H(n)<=2^{O(x/y^(1/4))}",
+        "space": "O(n) cells ever visited; one fixed exact deterministic finite-alphabet multitape machine",
+        "status": "proved written quantitative source implementation; independently reviewed by root and Route C",
+        "proof": "results/epsilon-uniformity/THEOREM.md",
+        "construction": "results/epsilon-uniformity/route-a/elementary-tower-extraction.md",
+        "compiler": "results/epsilon-uniformity/route-a/compiler-invoice.md",
+        "review": "results/epsilon-uniformity/route-c/ELEMENTARY-TOWER-REVIEW.md",
+        "meaning": "Sharper log m=O(j^3 log j) profile than preceding S002 sixth-power extraction; no actual-runtime comparison, priority or endpoint claim",
+        "threshold": "absolute eventual; not numerically evaluated",
+        "verification_limits": "No complete astronomical template execution, Lean proof of refinement or independent human refereeing"
+      },
       "proved": [
         "source Gram-rank/characteristic-reserve obstruction",
         "specified variable-template radix-padding obstruction",
-        "summable-excess recurrence transfer and Walsh toll invoice obstruction"
+        "summable-excess recurrence transfer and Walsh toll invoice obstruction",
+        "complete sharper elementary-tower source extraction",
+        "input-dependent radix preparation repair",
+        "literal p-adic factor-rank obstruction with quantitative reserve tradeoff"
       ],
       "conditional_component": "uniform O(V sqrt(e)) interchange under explicit one-level implementation contracts; not a complete multiplier",
       "next": [
-        "quantify full candidate constants and thresholds",
-        "finish bounded preflight theorem",
-        "price input-dependent radix selection and physical conversion"
+        "Improve odd-characteristic full-rate predictor representation",
+        "Separate predictor-depth barrier from routing and repair alternatives",
+        "Complete focused proof integration and final source/remote checks"
       ],
-      "verification": "Separate agent algebraic review plus root replay of exact finite checks; no Lean build",
+      "verification": "Root/C full compiler review; B/C p-adic review; B certificate review; root exact A/B/radix replays. No full multiplier execution, Lean build or human review.",
       "arithmetic_preparation_result": "Input-dependent compatible radix with constant or summably small padding loss; explicit integer search and compatibility scan bound. Variable-radix address-map compiler remains open.",
-      "pending_review": [
-        "Literal P_* factor rank modulo p\u00b2 and reserve tradeoff",
-        "Source-wide elementary-tower coefficient/threshold extraction; no bound promoted"
-      ]
+      "pending_review": [],
+      "conditional_complete_multiplication_bound": {
+        "formula": "T(n)=O(n sqrt(L) x^a), including a=0 endpoint, under explicit hypotheses",
+        "proof": "results/epsilon-uniformity/route-b/preflight-selection.md, Theorem P2",
+        "hypotheses": "One sound physical plan family: complete j^a execution bills, log2 L(N_j)<=Cj, and stated double-exponential constant/exponential-degree preflight profile; uniform O(n) visited regions",
+        "status": "Complete conditional transfer; stronger family hypotheses not established for original source"
+      }
     }
-  }
+  },
+  "previous_complete_overhead_bounds": [
+    {
+      "formula": "T(n)=O(n sqrt(L(n)) 2^{O(s(n)/(log2 log2 s(n))^(1/6))})",
+      "L": "1+log2(n)",
+      "s": "log2(L)",
+      "space": "O(n) visited cells; one fixed exact deterministic finite-alphabet multitape machine",
+      "status": "accepted quantitative source extraction; AI-assisted mathematical audit",
+      "proof": "routes/A/explicit-extraction-theorem.md",
+      "review": "verification/S002/lead-review-explicit-extraction.md",
+      "meaning": "Explicit published o(1) rate; no strict improvement, priority or endpoint claim",
+      "threshold": "absolute eventual; not numerically evaluated"
+    }
+  ]
 }

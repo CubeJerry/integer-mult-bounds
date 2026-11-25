@@ -46,3 +46,14 @@ The [theorem](routes/A/explicit-extraction-theorem.md) and [completed review gat
 for one exact deterministic finite-alphabet multitape full-product machine with a common O(n) visited-cell cap. A correct fallback covers every length. No conjectural assumptions are used. Absolute constants and the fixed eventual prime-shape cutoff are not numerically evaluated.
 
 The explicit search accepts with log2 m_j=O((j+2)^6). Complete generator/physical profiles imply log2 D_j and log2 L(N_j)<=2^(2^(C(j+2)^6)). An eligible sparse j of order (log2 log2 s)^(1/6), with exact rounding and threshold checks, gives the displayed envelope. This quantifies the qualitative source theorem; it remains slower than every H=2^{O(s^beta)}, beta<1. No kappa_ov, polynomial-in-s overhead or constant endpoint is established. Earlier E001 sections describe that concurrent session's own checkpoint state and remain as provenance.
+
+## E001 checkpoint 4 — Sharper admitted quantitative profile
+
+The focused source extraction now gives, for one exact fixed multitape machine with uniform O(n) visited cells,
+
+    H(n) <= 2^{O(x (log2(y+2)/y)^(1/3))},
+    x=log2(1+log2 n),  y=log2 log2(x+16).
+
+A weaker simple form is H<=2^{O(x/y^(1/4))}. Proof: `results/epsilon-uniformity/THEOREM.md`; physical costs: its `route-a/compiler-invoice.md`; independent audit: `route-c/ELEMENTARY-TOWER-REVIEW.md`. The sharper log m=O(j³ log j) choice refines S002's preceding j^6 certificate. This quantifies the source scheme without an actual-runtime, priority, practical-crossover or endpoint claim. No kappa_ov is assigned on this scale.
+
+The separate bounded-preflight theorem proves H=O(x^a), including a=0, only under its explicit quantitative execution, threshold, preparation and common-space plan contracts. Fixed candidate constants can be absorbed into slack at an explicit later threshold, so those quantities must be controlled jointly.

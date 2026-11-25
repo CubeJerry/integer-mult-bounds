@@ -1,0 +1,25 @@
+{
+  "status": "exact_finite_checks_passed",
+  "timestamp_utc": "2026-11-25T14:56:54.782478+00:00",
+  "python": "3.12.14",
+  "simple_schedule_rounds": 22,
+  "max_simple_schedule_pairs": 9217,
+  "sharp_penalty_parameter_pairs": 65536,
+  "exhaustive_chunk_products": 30948,
+  "seeded_larger_chunk_products": 205,
+  "space_threshold_cases": 2560,
+  "preflight_discovery_cases": 9420,
+  "preflight_rate_cases": 14400,
+  "negative_controls": [
+    "bare binary-length weights are non-summable",
+    "dropping positional carries changes the product",
+    "uncontrolled index growth can outrun linear preparation"
+  ],
+  "not_verified": [
+    "literal fixed-tape implementation",
+    "all asymptotic claims by finite enumeration",
+    "sound source-wide bill compiler",
+    "source candidate constants and thresholds",
+    "complete new unconditional multiplication envelope"
+  ]
+}

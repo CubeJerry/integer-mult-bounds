@@ -54,3 +54,13 @@ EU-TOWER is a new review gate for Route A's `elementary-tower-extraction.md`: pr
 | S2-CHAR2 | Exploratory | Low-rank error representation; cheap extraction, correction and physical layout not established. |
 
 The accepted upper bound uses no Weak ETH or historical five assumptions. Reviews are AI-assisted mathematical audits, not Lean or full-machine validation.
+
+## E001 checkpoint 4 — Explicit envelope admitted
+
+EU-TOWER is closed for the specified written implementation in `results/epsilon-uniformity/THEOREM.md` and its complete compiler invoice. With x=log2 L and y=log2 log2(x+16), it proves H<=2^{O(x(log2(y+2)/y)^(1/3))}. The sharper log m=O(j³ log j) profile improves the programme's preceding coarse sixth-power certificate; S002 evidence is retained. This does not establish the endpoint or a poly-x bound.
+
+The review required single-control triangular rotations, source shape/row-padding checks before materialization, an aggregate TM-microstep setup clock, scratch caps with immutable-input fallback, and explicit numerical and interpreter charges. These are incorporated. Absolute constants and the eventual cutoff remain unevaluated, and the full astronomical multiplier is not executed or formalized.
+
+EU-LIFT is closed as a scoped theorem: the literal P_* modulo p² has factor rank at least h binom(h,p-1)(q-1)^(h²-p). B and C independently reviewed it. S002's arbitrary supported-lift theorem has complementary scope.
+
+EU-PREFLIGHT is closed as a complete conditional selector/transfer, with stronger plan-family hypotheses explicitly open. Applying only the current tower profiles does not improve the advertised envelope. The next global obstacle is the finite-characteristic representation and its actual execution/threshold costs, not an unpriced search weight.

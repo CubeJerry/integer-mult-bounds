@@ -41,3 +41,11 @@ The finite-generator, integer-assembly, physical-compiler and uniform-rate revie
 | B reflections | 75 ring cases, 4096 basis conjugacies, full-rate examples through 768 rows | Labels, fixed points and phase order; all six wrong-construction controls and early-inverse trace rejected. |
 
 Replay records include script hashes, Python 3.12.14 and output. Reflection tests use direct spectral matrices and do not execute generic root construction or physical routing. All-size assertions come from written proofs, not these finite checks. No full multiplier timing, formal build or human refereeing is claimed.
+
+## E001 checkpoint 4 — Actual review and replay
+
+Complete source/physical-compiler admission is documented in `results/epsilon-uniformity/REVIEWS.md` and `route-c/ELEMENTARY-TOWER-REVIEW.md`. Root independently read all listed critical source routines. B and C separately reviewed the p² proof; B reviewed the certificate calculus.
+
+Root's latest isolated Route A replay passed 1,252 exact repair identities, 40,329 count values, 924 cyclotomic-unit identities, 276 positive-characteristic values, 10 binary parameter rows and 7 interchange integer-log majorants. No enormous m was materialized. Root replayed Route B successfully: 22 schedule rounds, 65,536 weight pairs, 30,948 exhaustive chunk products, 205 larger/boundary products, 2,560 cap cases, 9,420 discovery cases and 14,400 preparation-window cases, with negative controls. The revised dynamic-radix script passed both volume and summable-slack checks. The root p² script checked full inner spectra of orders32/512/8192, an actual32×32 matrix modulo9 and exhaustive small factorization/polynomial controls; B independently replayed it and C supplied a separate checker.
+
+These are finite algebraic/model checks. They do not execute the full multiplier or establish universal asymptotics by enumeration. No Lean build or independent human verification is claimed.

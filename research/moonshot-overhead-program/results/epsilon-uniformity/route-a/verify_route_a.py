@@ -3,7 +3,7 @@
 
 from fractions import Fraction as F
 from itertools import combinations
-from math import comb, factorial
+from math import comb, factorial, gcd, isqrt
 import hashlib
 import json
 from pathlib import Path
@@ -133,6 +133,99 @@ def check_integer_parameters():
     return rows
 
 
+def check_interchange_log_majorants():
+    """Check q-free factors without constructing q, m or a template.
+
+    The universal proof absorbs any fixed absolute pencil/stage constant.
+    The 2**32 prefactor below is a generous finite arithmetic control, not
+    a claim that the entire physical compiler has this particular constant.
+    """
+    rows = []
+    for p in (29, 31, 43, 61, 101, 149, 211):
+        assert all(p % divisor for divisor in range(2, isqrt(p)+1))
+        h = 2*p-1
+        r = ((64*p)**(64*p)-1).bit_length()
+        rank_coefficient = (1+h**(p-1))**(p+1)
+        binomial_majorant = 2**(h*(p+1))
+        assert comb(h, p)**(p+1) <= binomial_majorant
+        prefix = 2**32*(2*p+1)*binomial_majorant*rank_coefficient*r**(p*(p-1))
+        square_prefix = prefix**2*(1+p*p*r)
+        # 64*prefix**2*(1+p**2*r) < 2**(6*p*r).
+        # Compare integer bit lengths; the huge right-hand value is absent.
+        assert (64*square_prefix).bit_length() <= 6*p*r
+        assert p*p >= 6*h  # (1/2)p**2-h >= p**2/3.
+        assert 3*(8*h).bit_length() <= r*p*p
+        assert 6*p*r >= 3  # m**(epsilon/2) >= 8 if epsilon*p >= 12.
+        rows.append({
+            "p": p, "r": r, "log2_m": r*p*p,
+            "q_free_square_majorant_bits": square_prefix.bit_length(),
+            "available_margin_bits": 6*p*r,
+            "m_materialized": False,
+        })
+    return rows
+
+
+def check_cyclotomic_units():
+    cases = 0
+    for prime in (3, 5, 7):
+        for order in (4, 8, 16):
+            degree = order//2
+
+            def monomial(exponent):
+                exponent %= order
+                result = [0]*degree
+                result[exponent % degree] = (-1 if exponent >= degree else 1) % prime
+                return result
+
+            def multiply(left, right):
+                result = [0]*degree
+                for a, av in enumerate(left):
+                    for b, bv in enumerate(right):
+                        result[(a+b) % degree] += av*bv*(-1 if a+b >= degree else 1)
+                return [v % prime for v in result]
+
+            def add(left, right):
+                return [(a+b) % prime for a, b in zip(left, right)]
+
+            for first in range(order):
+                for second in range(order):
+                    if first == second:
+                        continue
+                    difference = [(a-b) % prime for a, b in zip(monomial(first), monomial(second))]
+                    exponent = (first-second) % order
+                    half_order = order//gcd(exponent, order)//2
+                    geometric = [0]*degree
+                    for j in range(half_order):
+                        geometric = add(geometric, monomial(exponent*j))
+                    inverse = multiply(monomial(-second), geometric)
+                    inverse = [(-pow(2, -1, prime)*a) % prime for a in inverse]
+                    assert multiply(difference, inverse) == monomial(0)
+                    cases += 1
+    return {"unit_difference_identities": cases, "rings_are_not_assumed_fields": True}
+
+
+def check_integral_predictor_specialization():
+    cases = 0
+    collision_seen = False
+    for prime, m, low, high in ((3, 5, 1, 4), (5, 8, 1, 6)):
+        degree = high-low
+        for mask in range(2**m):
+            bits = [(mask >> j) & 1 for j in range(m)]
+            coeff = [generalized_binomial(-low, h) % prime for h in range(degree+1)]
+            for bit in bits:
+                for h in range(degree, 0, -1):
+                    coeff[h] = (coeff[h]+bit*coeff[h-1]) % prime
+            result = ((-1)**low * sum((-2)**h * coeff[h] for h in range(degree+1))) % prime
+            count = sum(bits)
+            if low <= count <= high:
+                assert result == (-1)**count % prime
+                cases += 1
+        assert low % prime == (low+prime) % prime
+        assert (-1)**low % prime != (-1)**(low+prime) % prime
+        collision_seen = True
+    return {"correct_specialized_window_values": cases, "field_count_collision_control": collision_seen}
+
+
 def main():
     root = Path(__file__).resolve().parent
     result = {
@@ -143,6 +236,10 @@ def main():
         "predictor": check_predictor_values(),
         "modular_obstruction": check_modular_obstruction(),
         "integer_parameters": check_integer_parameters(),
+        "interchange_log_majorants": check_interchange_log_majorants(),
+        "cyclotomic_basis": check_cyclotomic_units(),
+        "integral_specialization": check_integral_predictor_specialization(),
+        "global_tower_status": "Written mathematical implementation and independent internal review completed; the asymptotic theorem is not established by these finite tests.",
         "proof_sha256": {
             path.name: hashlib.sha256(path.read_bytes()).hexdigest()
             for path in sorted(root.glob("*.md"))

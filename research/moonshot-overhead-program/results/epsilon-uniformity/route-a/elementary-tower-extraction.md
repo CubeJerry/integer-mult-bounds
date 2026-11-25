@@ -1,14 +1,39 @@
-# Proposed source-wide elementary-height extraction
+# A source-wide elementary-height extraction
 
-Status: **draft mathematical extraction awaiting adversarial review**. The
-local finite-template bounds below are being assembled into a complete
-fixed-tape certificate. Do not promote the final envelope to the programme's
-proved bound until the compiler and threshold sections have been reviewed.
+Status: **proved mathematical implementation, with independent internal
+review**. The detailed compiler invoice is `compiler-invoice.md`; the
+separate review is `../route-c/ELEMENTARY-TOWER-REVIEW.md`. This is a written
+proof and AI-assisted review of a specified implementation. It is not a Lean
+formalization, a human referee report, or a replay of the astronomical
+templates.
+
+**Theorem.** There is one deterministic multitape Turing machine, with a
+fixed finite alphabet and tape count, which returns the exact full product
+of two `n`-bit integers, uses `O(n)` visited work cells, and has time
+
+\[
+ n\sqrt L\;2^{\,O\!\left(x\left(\frac{\log_2(y+2)}{y}\right)^{1/3}\right)},
+ \qquad
+ L=1+\log_2n,\quad x=\log_2L,\quad y=\log_2\log_2(x+16),
+\]
+
+for sufficiently large `n`. The proof quantitatively implements the pinned
+source construction, using efficient generators and a specified diagonal
+pairing. It does not bound arbitrary merely computable implementations of
+the same mathematical templates. No Weak ETH assumption is used.
 
 This deliberately weak rate uses the *original* integral predictor and
 Clifford construction in both branches. It does not require the changed
 real-algebraic predictor. The compact S002 work remains a separate route
 towards better constants and stronger rates.
+
+Concurrent S002 independently completed an accepted full elementary
+extraction at `96028cba1342c02bdca1f537ae9a80485087bdf3`, with
+`log m=O(j^6)` and `H<=2^{O(x/(log log x)^(1/6))}`. The present
+`O(j^3 log j)` arity estimate yields a sharper sufficient envelope.
+This comparison concerns proved profiles, not measured runtimes or
+literature priority. The consolidated dependence is recorded in
+`../PARAMETER-LEDGER.md`.
 
 ## 1. Source pins and notation
 
@@ -38,8 +63,9 @@ attempts can be chosen with
  \log_2(1+\log_2 N_j)\le E_2(C(j+2)^3\log_2(j+3)). \tag{T}
 \]
 
-The terminal optimization in Section 5 is conditional on the successful
-completion of Sections 2--4; it is not a substitute for them.
+Sections 2--4 establish the complete-candidate bounds; Section 5 performs
+the terminal optimization. The optimization is not a substitute for the
+source and compiler estimates.
 
 ## 2. Finite interchange templates have elementary-height descriptions
 
@@ -214,9 +240,9 @@ Normalization is the source's even-width normalized binary construction.
 An odd selected width adds the fixed `1/sqrt(2)` butterfly. This weak
 extraction needs no changed high-degree algebraic-coefficient premise.
 
-## 4. Compiler and threshold claim requiring independent audit
+## 4. Compiler and threshold lemma
 
-**Compiler claim.** Let `S` cover the quantities after (I5), Section 3's
+**Compiler lemma.** Let `S` cover the quantities after (I5), Section 3's
 binary data, and the successful generators' costs. There is an absolute
 integer `c` such that the complete candidate for `theta_j` has a common
 finite tape count and alphabet, and
@@ -232,7 +258,9 @@ finite tape count and alphabet, and
 
 Here `U_0` is the absolute source prime-shape threshold, independent of
 `j`; shapes are tested, with schoolbook fallback. The exponent `c` may
-be enlarged finitely many times, but must remain absolute.
+be enlarged finitely many times, but remains absolute. The source-by-source
+implementation proof is `compiler-invoice.md`; this section records the
+interfaces used below.
 
 ### 4.1 Finite control and physical streams
 
@@ -262,6 +290,10 @@ The source instructions admit the following explicit implementations.
   one exchanges and polynomially many lower-triangular updates. The
   exchanges receive their original volume. Additional scans, parking
   and restoration belong to the parent, preserving call coefficients.
+  Implement a triangular sum as successive single-control rotations,
+  leaving its control fields unchanged. Each rotation uses an absolute
+  fixed number of collapsed fields and counters; the list of coordinates
+  is an outer loop with a `poly(S)` factor.
 - Full-volume reserve descents retain only descriptors. Main descents
   shrink volume by the source factor below one, so parked arrays sum
   geometrically. End-access stacks avoid scans through ancestors.
@@ -304,16 +336,30 @@ near-root algorithm being constructed.
 For `E,H<=S^c` and `k>=64(E+H+1)^2`,
 `2^H(1+k)^E<=2^(k/4)`, using `log_2(1+k)<=sqrt(k)` for `k>=32`.
 Enlarging `c` therefore makes `k>=S^c` absorb (C2), finite coefficient
-storage and row padding into full-stream volume. Below that preflight
-threshold, use schoolbook after generation. Its `poly(S)` retained
-generation storage is still within `S^c(u+1)`.
+storage and row padding into full-stream volume. This is a sufficient
+analytical threshold, not an unavailable constant supplied to the machine.
+The implementation uses the aggregate setup clock and auxiliary space caps
+of `compiler-invoice.md`: permit at most `u` setup microsteps and `u`
+auxiliary cells, preserve immutable inputs, and fall back to schoolbook
+when a cap would fail. A microstep is one transition of the specified
+fixed-tape engine, not an arbitrarily expensive macro instruction.
+
+Non-volume setup includes the finite coefficients, descriptors and each
+root or phase table. Per-fibre and per-record operations belong to the
+already charged volume work. Before materializing arrays, test the
+source's prime-box shape, coprimality and digit bounds, and require the
+row padding to obey `q'<=2q` and borrowed coordinate budgets. Failed
+tests invoke schoolbook; above the sufficient threshold they all pass.
+The fallback and retained generation storage are within `S^c(u+1)` at
+every input length. Thus all-length space does not rely on knowing an
+ineffective absolute prime-gap cutoff.
 
 The visible non-setup integer time is
 `poly(S)u(1+log u)^rho(1+log(2+log u))^4`: controlled-block permutations
 have a third power and the layer count adds one. The slack
 `theta_j-rho_j=1/(2(j+2))` absorbs that fourth power with prefactor
-`O((j+2)^4)<=poly(S)`. This establishes the form of (C1) if the finite
-control audit above is admitted.
+`O((j+2)^4)<=poly(S)`. Together with the detailed invoice, these estimates
+establish (C1).
 
 ### 4.3 Chunking and the weighted certificate
 
@@ -333,7 +379,7 @@ In standard diagonal order on `(j,log_2 r_j)`, its index is at most
 enlarged absolute constant. Candidate generation, encoding, interpretation
 and operand chunking have all entered either this constant or threshold.
 
-## 5. Envelope if the complete audit admits (C1)
+## 5. Complete certificate envelope
 
 Let `x=log_2(1+log_2 n)` and, for large `x`, put
 `y=log_2 log_2(x+16)`. Choose
@@ -357,21 +403,23 @@ A simpler weaker form is
 `L=1+log_2 n`. The choice of `j` analyzes the weighted schedule; the
 machine does not receive a free selection oracle.
 
-## Review gates and scope
+## Review and scope
 
 The local label counts, literal matrix-root dimensions and finite-basis
-representation are explicit source-specific bounds. Admitting the global
-claim requires the compiler audit in Section 4: every `poly(S)` factor,
-especially role serialization, control words, code generation and the
-all-length space fallback, must be checked. If a step requires another
-exponential, change the tower height and final rate; do not bury it in an
-unspecified fixed-parameter constant.
+representation are source-specific bounds. The compiler invoice accounts
+for role serialization, control words, code generation, setup microsteps
+and the all-length space fallback. Route C's independent review and the
+parent review found no omitted exponential or unresolved implementation
+charge, with the single-control and pre-materialization clarifications now
+included. The finite checks in `verification.json` support local identities
+and parameter controls; they do not establish the asymptotic theorem.
 
-This would quantify the published mechanism. It does not prove bounded
+This quantifies an efficient implementation of the published mechanism.
+It does not prove bounded
 overhead or a multiplication lower bound, and is not claimed to beat the
 actual runtime of the published machine or a later comparable explicit
 bound. Exact `O(n sqrt L)` remains open.
 
 Credits: @CubeJerry; the cited OpenAI manuscripts and predecessors;
-concurrent S002 label and threshold extraction. This proposed synthesis
+concurrent S002 label and threshold extraction. This synthesis
 was developed with OpenAI GPT-6 Astra Pro assistance.

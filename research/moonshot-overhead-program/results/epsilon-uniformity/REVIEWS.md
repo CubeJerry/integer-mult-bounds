@@ -76,3 +76,40 @@ matrix modulo p², not arbitrary lifts or general algorithms.
 `route-a/elementary-tower-extraction.md` is a proposed source-wide extraction;
 its compiler and threshold audit is an explicit gate. No global envelope
 from that draft has yet been added to the proved programme bound.
+
+## Admission after full compiler review — 25 November 2026 UTC
+
+The pending tower gate above has now passed. Root read the complete November
+interchange, permutations, Walsh, integers and uniformity proofs and the
+September elementary-stream/affine/parking proofs against the detailed
+`route-a/compiler-invoice.md`. Route C separately performed the same critical
+dependency audit in `route-c/ELEMENTARY-TOWER-REVIEW.md`. Both found a fixed
+polynomial in the complete finite budget S, without an extra tower.
+
+The final implementation incorporates the material clarifications from
+review: triangular sums are successive single-control rotations with fixed
+collapsed counter arity; shape and row-padding checks precede materialization;
+the aggregate setup clock counts actual candidate TM microsteps and is not
+reset per node; immutable operands support a late fallback; short-multiplier
+scratch is bounded by its time and reused additively. Numerical precision
+uses the source's computed error majorant. Complete interpreted costs and
+all-length visited space are charged before chunking and scheduling.
+
+The admitted result is `THEOREM.md`, with the stronger
+`log m=O(j³ log(j+2))` profile. Concurrent S002 separately admitted a coarse
+sixth-power profile at `96028cba1342c02bdca1f537ae9a80485087bdf3`; its work is
+credited and preserved. Neither extraction is a full template execution or
+a claim to improve the unknown actual published residual term.
+
+The literal p-adic lift proof has also passed two independent reviews, in
+`route-b/independent-reviews.md` and `route-c/PADIC-LIFT-REVIEW.md`. Root's
+exact checker passed and was independently replayed by B. Root replayed the
+revised isolated radix checker successfully: 116 admitted constant-volume
+selector cases, five prime witnesses, 55 admitted summable-slack cases,
+five slack witnesses and the exhaustion control. The earlier import failure
+is resolved and retained above as part of the record.
+
+Root reviewed the full bounded-preflight and rowwise-chunk proofs. The
+preflight theorem is admitted as a **conditional** complete transfer; its
+stronger family hypotheses are not consequences of the tower extraction.
+S002's earlier linear-r diagonal chunk wrapper is explicitly credited.

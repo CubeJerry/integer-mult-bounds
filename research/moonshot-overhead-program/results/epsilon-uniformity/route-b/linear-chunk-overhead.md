@@ -4,6 +4,17 @@ Status: **proved source-specific quantitative implementation lemma**. This
 refines the `O_r(n)` accumulation/gathering term in the source; it does not
 provide bounds on the source's unknown program-dependent constants.
 
+**Overlap and attribution correction.** Concurrent programme session S002,
+`routes/A/scheduler-and-chunking.md`, Propositions A3–A4, already proves an
+`O(nr)` wrapper by diagonal accumulation with an amortized high carry and
+gives a stronger space ledger separating proportional space `c_j u` from
+additive description space `d_j`. This note independently obtains the same
+linear dependence by rowwise single-digit carries. It is an alternative
+proof, **not a new asymptotic improvement over S002**. The more informative
+S002 `c_j u+d_j` ledger should be used when its separate constants are
+available; the special case here intentionally follows the published
+`c_j(u+1)` contract and can overcharge fixed description space.
+
 Source: `openai/math@3344da59991ed94f9ba711217b29c1d760badfa6`, tape paper,
 `build/uniformity.tex`, subsection “Scheduling within linear space.” The
 source forms `r^2` digit products and gives an unspecified `O_r(n)` cost for
@@ -14,8 +25,9 @@ gathering and accumulation. The construction below realizes that cost as
 
 Let `1 <= r <= n`, let `u=ceil(n/r)`, and let `B=2^u`. Suppose one fixed
 interpreter can correctly multiply two `u`-bit operands in `t(u)` actual
-steps, using at most `s(u)` visited work cells, including any repeated setup
-and cleanup. There is a fixed-tape wrapper which multiplies two `n`-bit
+steps, using at most `s(u)` visited work cells, including any repeated setup,
+cleanup and return to its documented input/output head positions. There is
+a fixed-tape wrapper which multiplies two `n`-bit
 operands in
 
 ```
@@ -60,9 +72,10 @@ digits is being omitted.
 During a row, both the `b` stream and the accumulator move sequentially
 over `r` digits. Rewinding `b` and returning the accumulator to the next
 row's starting digit each cost `O(ru)=O(n)` per row. The `a` input advances
-by one digit per row. Preparing operand copies, clearing reusable candidate
-scratch, accessing the held digit and maintaining the local carry cost
-`O(u)` per pair in addition to the already charged `t(u)`. The loop
+by one digit per row. Preparing operand copies, clearing wrapper buffers,
+accessing the held digit and maintaining the local carry cost `O(u)` per pair
+in addition to the already charged `t(u)`. Candidate scratch cleanup and
+candidate head returns are part of `t(u)`, not assumed to cost `O(u)`. The loop
 counters can be advanced amortized in `O(1)` steps per increment, with their
 initializations and returns included in the row scans. Thus all wrapper
 work is `O(r^2 u + r n) = O(r n)`. Final trimming and reversal cost `O(n)`.
@@ -151,6 +164,8 @@ efficient macro interpreter can remove generic full-transition-list scans
 from `a_j`. Neither question is answered by the rowwise carry invariant.
 
 Attribution: @CubeJerry; OpenAI's November 24, 2026 tape construction;
-classical positional multiplication. Prepared with ChatGPT multi-agent
+classical positional multiplication; concurrent S002 Propositions A3–A4
+for the same linear chunking bound and the sharper separated-space ledger.
+Prepared with ChatGPT multi-agent
 assistance. Finite arithmetic checks are complementary to the proof, not
 kernel verification or a measured tape implementation.

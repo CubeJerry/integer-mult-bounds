@@ -1,0 +1,44 @@
+{
+  "status": "exact_finite_checks_passed",
+  "timestamp_utc": "2026-11-25T14:30:33.212996+00:00",
+  "python": "3.12.14",
+  "prime_and_alphabet_parameter_cases": 88,
+  "large_alphabet_reserve_cases": 25,
+  "direct_binary_spectra": [
+    {
+      "p": 3,
+      "matrix_order": 32,
+      "eigenvalues_checked": 32
+    },
+    {
+      "p": 5,
+      "matrix_order": 512,
+      "eigenvalues_checked": 512
+    },
+    {
+      "p": 7,
+      "matrix_order": 8192,
+      "eigenvalues_checked": 8192
+    }
+  ],
+  "direct_inner_matrix_modulus": 9,
+  "direct_inner_matrix_order": 32,
+  "unit_p_and_zero_pivots": [
+    16,
+    15,
+    1
+  ],
+  "rank_one_factorizations_excluded": 6561,
+  "degree_three_polynomials_excluded": 6561,
+  "negative_controls": [
+    "modulo-p lower degree",
+    "non-coprime alphabet",
+    "zero determinant does not certify low factor rank"
+  ],
+  "not_verified": [
+    "complete outer matrix materialization",
+    "universal formal proof",
+    "full multiplier implementation",
+    "new runtime lower bound"
+  ]
+}

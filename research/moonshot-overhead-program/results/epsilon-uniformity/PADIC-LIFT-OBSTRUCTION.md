@@ -1,6 +1,6 @@
 # The literal label matrix loses its small-rank advantage modulo p²
 
-Status: **proved restricted obstruction, awaiting independent review**. This is
+Status: **proved restricted obstruction, independently reviewed by Routes B and C**. This is
 a statement about the source's exact zero/one transfer matrix, its rational
 reserve geometry, and factorizations over a ring of characteristic `p²`. It is
 not a lower bound for interchange or integer multiplication.
@@ -292,3 +292,21 @@ Prepared for @CubeJerry with substantial OpenAI AI assistance. The source
 label construction and the standard character/finite-ring tools are
 credited above. Novelty relative to all literature has not been established;
 the claim here is a proved source-specific consequence with explicit scope.
+
+## 5. Independent review and complementary concurrent result
+
+Independent reviews appear in `route-b/independent-reviews.md` and
+`route-c/PADIC-LIFT-REVIEW.md`. The exact root verifier is
+`verify_padic_lift.py`; Route C also made a separate finite checker.
+These support the written proof without materializing the full outer matrix.
+
+Concurrent S002 checkpoint `96028cba1342c02bdca1f537ae9a80485087bdf3`
+contains `../interchange-lift-barrier/PROOF.md`. Root read that proof.
+Its entrywise-product identity `P entrywise (pJ-K)=p diag(P)` proves
+`r rank_Q(pJ-K)>=N` for every support-preserving unit-diagonal lift over
+`Z/p^eZ`, `e>=2`. It also proves the literal matrix nonsingular over Q
+for power-of-two q. These are broader support/modulus statements.
+Theorem L1 here gives a stronger explicit large-q factor-rank fraction
+for the literal matrix modulo p². The two proofs have complementary
+scope and separate provenance; neither is claimed as an unrestricted
+computational lower bound or a priority result.

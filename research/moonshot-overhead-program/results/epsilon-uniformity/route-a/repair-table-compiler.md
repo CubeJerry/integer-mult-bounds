@@ -11,6 +11,12 @@ Sources: OpenAI `math` at `3344da59991ed94f9ba711217b29c1d760badfa6`, Fourier
 This note adds a common denominator, coefficient-height estimate and an
 alternative to materializing all frequency tables.
 
+Concurrent S002 `routes/A/hermite-table-bounds.md` independently obtains
+the repair formula, height and norm estimates using subset-specific
+denominators. The common denominator and the on-demand bit compiler below
+are a distinct implementation refinement; the underlying Hermite and
+Vandermonde formulas are not claimed as new.
+
 ## 1. Exact hypotheses
 
 Let `m>=2`, `M>=2`, `0<=u<v<=m`, and `D=v-u`. There are `M` independent
@@ -73,6 +79,11 @@ gives
 The positive differences below `nu_i` form a subset of `{1,...,M-1}`, and
 the absolute differences above it form another subset. Each product divides
 `(M-1)!`; thus `w_i` divides `F_M^2`, including its sign.
+
+In fact `w_i` divides `F_M`: the two products divide `(nu_i-1)!` and
+`(M-nu_i)!`, and their product divides `(M-1)!`. Route C pointed out this
+sharpening in review. The more conservative `2F_M^4` is retained throughout
+to keep one consistent explicit compiler; `2F_M^2` would also suffice.
 
 For binary repair,
 
@@ -145,9 +156,11 @@ can be rounded to `P` fractional bits by binary long division in
 subtraction of that size. All coefficients at one frequency therefore
 cost `poly(M,m)(P+1)` steps to prepare.
 
-Applying a dense table uses `poly(M,m)` products and sums on
-`O(P+B_*)`-bit words. With the fixed short-integer multiplier already used
-in the tape paper, its pointwise cost is
+Assume the incoming values have integer parts fitting `O(P+B_*)` bits;
+the precision choice below satisfies this once `P>=I` with the stated
+intermediate-gain allowance. Applying a dense table then uses `poly(M,m)`
+products and sums on `O(P+B_*)`-bit words. With the fixed short-integer
+multiplier already used in the tape paper, its pointwise cost is
 
 \[
  \operatorname{poly}(M,m)(P+B_*)\log(2+P+B_*).
