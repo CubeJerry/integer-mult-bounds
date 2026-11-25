@@ -1,0 +1,38 @@
+{
+  "status": "passed finite exact checks",
+  "utc": "2026-11-25T22:51:34.976307+00:00",
+  "python": "3.12.14",
+  "counts": {
+    "exact_integer_roots": 2610,
+    "source_interchange_label_profiles": 14,
+    "source_interchange_polynomial_label_guards": 14,
+    "source_walsh_label_profiles": 14,
+    "source_walsh_polynomial_label_guards": 14,
+    "interchange_rounded_nodes": 4110,
+    "interchange_chains": 108,
+    "walsh_rounded_nodes": 1063,
+    "walsh_chains": 117,
+    "common_radix_exact_guards": 32,
+    "exact_padding_candidates": 7810,
+    "rejected_round_up_children": 2046,
+    "rejected_unpriced_power_arity_walsh_tolls": 4
+  },
+  "maximum_finite_interchange_loss_ratio": [
+    2949,
+    980
+  ],
+  "maximum_finite_walsh_loss_ratio": [
+    1927,
+    1591
+  ],
+  "maximum_finite_batch_product_log_ratio": [
+    81755,
+    16384
+  ],
+  "limitations": [
+    "No complete source template or tape multiplier execution",
+    "No finite test establishes the asymptotic theorem",
+    "No test of the prime-interval theorem or its absolute cutoff",
+    "No Lean build or human refereeing"
+  ]
+}

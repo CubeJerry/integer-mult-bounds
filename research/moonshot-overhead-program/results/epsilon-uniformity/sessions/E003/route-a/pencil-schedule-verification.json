@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "exact F4 two-pass linear-operator and query-layout simulation; no physical tape or actual source geometry execution",
+  "counts": {
+    "instances": 120,
+    "output_field_entries": 13056,
+    "rank_guard_instances": 120,
+    "query_layouts": 3648,
+    "rectangle_updates": 27792
+  },
+  "negative_controls": {
+    "omit_lowrank_rejected": 115,
+    "wrong_destination_layout_rejected": 115,
+    "omit_central_inverse_rejected": 115
+  }
+}

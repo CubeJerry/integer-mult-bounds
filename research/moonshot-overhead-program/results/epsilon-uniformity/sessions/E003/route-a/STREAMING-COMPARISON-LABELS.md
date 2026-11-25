@@ -1,6 +1,7 @@
 # Simultaneous comparison labels without full-volume mask tracks
 
-Status: **proved source-specific fixed-tape component; independent review pending**.
+Status: **proved source-specific fixed-tape component; independently accepted
+by Route B** in `../route-b/REVIEW-PHYSICAL-SUPPLIERS.md`.
 The source already proves one comparison mask costs linear volume for a
 fixed template. This note supplies the growing-parameter space refinement
 needed by the on-demand spectral table: keep all m current comparison

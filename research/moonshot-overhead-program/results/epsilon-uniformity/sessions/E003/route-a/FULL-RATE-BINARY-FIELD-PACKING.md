@@ -1,6 +1,8 @@
 # Full-rate binary packing for changing coefficient fields
 
-Status: **proved fixed-tape encoding component; independent review pending**.
+Status: **proved fixed-tape encoding component; independently accepted by
+Routes B and C**, reviews at `../route-b/REVIEW-PHYSICAL-SUPPLIERS.md`
+and `../route-c/REVIEW-A-BINARY-FIELD-PACKING.md`.
 This removes an otherwise artificial product of scalar-extension degrees
 from the recursive bit-volume invoice. It is not a complete variable-
 template interchange or multiplication theorem.
@@ -32,6 +34,12 @@ shift-check construction, `E_m=F_(4^r)` with `r=ceil(log_4 B_m)` and
 No embedding of the parent's field into E_m is needed. The parent payload
 is treated as a vector of independent binary coordinates during the
 permutation. Only the child's coefficient arithmetic uses E_m.
+
+This field-change permission applies to a **completed spatial permutation**
+call. A finite repair child whose target is the order-three transform F
+or F inverse is not such a call; it retains its parent's coefficient
+field and finite template throughout that local unrolling. FP3 does not
+authorize reinterpreting those nonpermutation algebraic children.
 
 ## 2. Exact full-rate packing
 
@@ -116,9 +124,10 @@ For exact batches the complete binary row width is
 
     W_bin=d_m W_E.                                      (FP1)
 
-It may be non-power-of-two. Use the predecessor multidigit leading block
-with `ell=ceil(log_b W_bin)` and an occupied leading range of size b^ell.
-Pad that range to the next multiple of W_bin. Because b^ell>=W_bin,
+It may be non-power-of-two. Write q>=2 for the **address radix**, keeping
+b for the unrelated payload-record width. Use the predecessor multidigit
+leading block with `ell=ceil(log_q W_bin)` and an occupied leading range
+of size q^ell. Pad that range to the next multiple of W_bin. Because q^ell>=W_bin,
 the resulting row inflation is strictly less than two. This is the
 already charged leading-row factor in the source spatial invoice, not
 a new factor d_m. Packing and unpacking preserve the padded bit volume
@@ -176,6 +185,14 @@ supply the payload contraction where the exact layouts are preserved.
 Arithmetic-field descriptions must be constructed or retained inside the
 stated additive budget. A dense lookup table whose size grows with the
 field is not free.
+
+If the opaque records encode approximate numerical values, the intermediate
+field-mixed bit words need not encode useful numerical approximations.
+The child performs exact bit arithmetic and returns the exact permutation
+of the represented input records; it introduces no rounding fault. The
+numerical error analysis therefore uses the completed permutation as an
+isometry, exactly as in the source physical compiler. It must not assign
+a complex-linear operator norm to the child's intermediate bit mixtures.
 
 ## 6. Scope and next obligations
 

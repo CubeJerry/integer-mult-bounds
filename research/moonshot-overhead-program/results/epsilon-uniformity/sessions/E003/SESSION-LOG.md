@@ -36,3 +36,20 @@ Root read and independently checked the complete HFS and rank/invoice
 proofs, inspected/replayed the matrix verifier, and read complete source
 uniformity, Walsh, spectral repair and September elementary streams. The
 source/novelty audit remains partial. Detailed claim scopes are in CLAIMS.md.
+
+## 2026-11-25T22:59:43Z — third prepared checkpoint
+
+Verified remote df91e4c8 by fresh fetch and identical tree, then reconciled
+E002/S004 through 8af1911b02c04d0c410dd181597fd160582a78b4. E002 independently
+admits the same two-thirds scale; E003 preserves this provenance and
+continues its separate physical gate. Lead read complete primary
+interchange, permutations, integers, kernel and binary source files and
+accepted P-O, PS/CL/FP and the explicit fixed-three geometry.
+
+The Walsh storage audit identified the need for a fixed-array schedule
+instead of importing an older polynomial-m proportional-space bound.
+The new O5 word classification was proved algebraically and checked over
+F16: 196 symmetric matrices, 12 converter solutions, four joint solutions,
+2,700 diagonal trials and two adverse controls. C independently accepted
+B's analytic transfer and restricted nonstationary invoice barrier.
+No E003 complete theorem has yet been admitted at this timestamp.

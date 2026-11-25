@@ -8,7 +8,7 @@ three hours, from 2026-11-25 22:01:09 UTC to approximately
 2026-11-26 01:01:09 UTC (26 November, Melbourne). Actual completion and
 checks will be recorded, not inferred from the requested duration.
 
-## Current mathematical starting point
+## Mathematical starting point at initialization
 
 The programme records the written fixed-field extraction
 
@@ -29,6 +29,23 @@ Their files and credits are preserved. E002's separated-preparation theorem
 currently gives a **conditional** transfer on the scale
 `log H=O(x^(3/4)(log(x+2))^(1/4))`; its physical premises are not assumed
 proved by this initialization.
+
+## Current checkpoint
+
+Remote 8af1911b contains E002's complete written two-thirds envelope,
+`T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log2(x+2))^(1/3))})`, with uniform O(n)
+visited cells. Its provenance is preserved. E003 has an independent
+same-scale two-schedule implication whose physical composition is under
+final audit; it is not claimed as a new programme best.
+
+Reviewed E003 components include header-free scaling, fixed-array shared
+pencils, changing-field full-rate packing, simultaneous comparison flags,
+an all-arity label profile and the outer source transfer. Route C also
+constructed an order-five gate with shorter converter and swap words.
+The lead's exact local classification explains why order five is forced
+by that specific pair of word requirements. These finite savings do not
+by themselves improve the asymptotic envelope. See `CLAIMS.md` and the
+append-only session log for current gates and evidence.
 
 ## Independent routes
 

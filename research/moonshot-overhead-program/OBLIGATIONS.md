@@ -196,3 +196,7 @@ Theorem V's composite radix, common field, refined workspace, changing-arity exa
 Closed: UP constant-payload rank pencil (A, reviewed B); FP full-rate changing-field packing (B, reviewed A); AI exact adaptive interchange (B, reviewed C); NW adaptive numerical transform with routing/precision/spectator costs (A, reviewed C); AQ complete integer theorem (lead, reviewed C plus independent A source audit). Exact links: `sessions/2026-11-26-S003/lead/ADMISSION-AQ.md`.
 
 No unproved family-efficiency premise remains for AQ. Fixed source shape/analytic theorems remain dependencies, with executable tests/fallback. The next global gap is a smaller actual geometric/delivery price. A/C's nonstationary NI lower-bounds only the declared positive invoice and regular split, not runtime. B's isotropic obstruction is similarly restricted. Parameter retuning inside those premises is stopped as a route to a better order.
+
+### E003 update — 2026-11-25T22:59:43Z
+
+E003 local PS/CL/FP and P-O reviewed. Its remaining composition gate is fixed-array numerical Walsh execution, joint precision/constructor accounting and common visited-space. Concurrent E002 two-thirds admission remains the programme best.

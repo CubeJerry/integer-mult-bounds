@@ -1,6 +1,7 @@
 # An absolute-space schedule for the actual shared swap pencil
 
-Status: **proved source-specific local schedule; independent review pending**.
+Status: **proved source-specific local schedule; independently accepted by
+Route B** in `../route-b/REVIEW-PHYSICAL-SUPPLIERS.md`.
 The schedule retains the source shared-endpoint call bound up to an absolute
 factor while replacing a template-dependent number of full-volume tracks
 by a fixed collection of arrays. Its decisive observation is the actual
@@ -77,10 +78,12 @@ Process each off-diagonal rectangle (L,K) successively:
    obtained by transforming a nonzero copy of the global output.
 3. For each j, the source's lower-triangular maps form the common sum
    X_(L,j). A single R-row common stream, of volume V/N, suffices for
-   that sum and a work copy. Apply A_j and deliver the direct negative
+   that sum and a work copy. Preserve the unmodified sum; apply A_j only
+   to the work copy and deliver the direct negative
    rectangle contribution into the K accumulator via the source inverse
    lower-triangular maps.
-4. Also convert X_(L,j) into the fixed common layout for query j and every basis row
+4. Also convert the **raw, pre-A_j** X_(L,j) into the fixed common layout
+   for query j and every basis row
    i in I intersect K to which it contributes. Add it to U_j. This is
    exactly the source low-rank source invoice, bounded by
    `O(m R r* D(1+lambda))` calls. It is not recomputed after the

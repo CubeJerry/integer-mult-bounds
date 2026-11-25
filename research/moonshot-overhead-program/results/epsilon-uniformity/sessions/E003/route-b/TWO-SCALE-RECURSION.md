@@ -67,6 +67,9 @@ template. E003 Route A supplies the explicit constant-space pencil
 schedule, guarded stream primitives, comparison labels and full-rate
 binary field packing. Route B's separate supplier review records the
 proofs actually read and its isolated exact geometry replay.
+Route A's `ALL-ARITY-LABEL-PROFILE.md` supplies the integer parameter
+rule and a sufficient guard for every large arity, independently of
+the earlier fixed-inverse-exponent trial subsequence.
 
 Source fixed-parameter correctness and the cited finite identities are
 imports. The separate E003 physical audits must verify that their new
@@ -85,8 +88,13 @@ log2[D_I(1+lambda_I)] <= 3z/d + 10d^2 log2(4z).
 
 Choose `d` within a factor two of
 `(z/log2(z+2))^(1/3)`. This is an integer algorithm: take
-`z_hat=ceil(log2 m)`, `v=ceil(log2(z_hat+2))`, and the least power
-of two with `d^3 v>=z_hat`. For all sufficiently large `m`, it gives
+`z_hat=ceil(log2 m)`, `v=ceil(log2(z_hat+2))`, the least power
+of two at least two with `d^3 v>=z_hat`, and
+`t=2+ceil(z_hat/d^2)`, `q=2^t`. Route A's all-arity lemma proves,
+for every `z_hat>=2^40`, the exact guards `m r_*/N<=1/4`,
+`N<=m^5`, `D_I<=sqrt(m)`, and
+`log2[D_I(1+lambda_I)]<=64 z_hat^(2/3)v^(1/3)` for the new
+dyadic dimension. Thus for all sufficiently large `m` it gives
 
 ```
 D_I = m^o(1),  N<=m^5,
@@ -138,10 +146,19 @@ correct, has child width
 
 ```
 f = floor((e-ell_m)/(m+2a_m)),
-a_m=D_I-2,  ell_m=ceil(log_b W_m),                      (P1)
+a_m=D_I-2,  ell_m=ceil(log_b W_I,m),                    (P1)
 ```
 
-and has the volume-weighted child bound I1. At nonbase nodes satisfying
+Here `W_I,m=d_m W_E,m` is the completed **binary** row count of the
+interchange template: `d_m` is its finite-field degree over F2 and
+`W_E,m` its completed field-row count. Only
+`log W_I,m<=m^C` is needed; it must not be confused with the
+polynomial numerical Walsh batch width `W_m` in W1. Full-rate packing
+has exactly `W_I,m` input bit rows and the same number of output bit
+rows; the child's sum-of-volume ratio remains I1. Leading padding by
+this binary count is already the factor at most two paid in I1.
+
+At nonbase nodes satisfying
 `e>=m^(C+2)`, all nonrecursive work costs at most
 
 ```
@@ -173,6 +190,12 @@ E003 A's full-rate packing treats a parent's record as arbitrary binary
 payload, so a child's chosen field causes no multiplicative bit-volume
 expansion. Alternatively `COMMON-CHECK-FIELD.md` supplies one field for
 the whole menu with an explicitly charged initial encoding factor.
+The changes of `m` and of the check field occur only when a completed
+spatial-permutation call descends to its smaller spatial width. The
+local predictor's internal `F`/`F^-1` repair descendants retain that
+node's `m`, field, row coordinates and exact algebra throughout their
+finite unrolling. A fresh template is never substituted for one of
+those internal algebraic maps.
 
 **P-W: local numerical executor.** The rational batch in W1 accepts
 arbitrary independent numerical rows with complete spectators. Its
@@ -191,8 +214,13 @@ No child Walsh volume is inflated by its temporary keys or tags.
 
 The number of actual children/ordinary array operations per local node,
 including finite repair unrolling, is at most `m^C`. A compact local
-description has size at most `m^C`; coefficient height and logarithmic
-norm gain of the complete finite node are at most `m^C`. Exact numerical
+description has size at most `m^C`; coefficient height is at most `m^C`.
+The logarithmic gain bound `m^C` applies to every input-to-intermediate
+map and to propagation of an additive error from any intermediate array
+to every later local array or output, with completed children counted
+as unitary operations. It is not merely a bound on the completed target.
+The polynomial operation count times the polynomial coefficient/dimension
+height proves this after increasing C. Exact numerical
 preparation, including per-key coefficient generation, has the explicit
 additive profile in P3 with one fixed absolute `C`; its degree in `k`
 is allowed to grow as `m^C`. Completed numerical children and
@@ -211,6 +239,11 @@ below is supplied. Its number of record-permutation/Walsh layers and
 other logarithmic factors is `(1+log k)^C`; its additional preparation
 is `poly(k)` with an absolute degree. These are the unchanged operations
 of the source integer proof, not a new near-root arithmetic premise.
+`OUTER-REDUCTION-TRANSFER.md` checks this premise directly against the
+full pinned permutation, Walsh and integer source files: packed XOR,
+bit-position moves and controlled small-block permutations use the
+interchange envelope linearly, while outer setup and precision constants
+are absolute. The remaining physical admission gates are P-I and P-W.
 
 P-I's guarded payload storage and P-W's exact physical composition are
 the current admission gates. Their polynomial generation alone would
@@ -401,6 +434,16 @@ data before processing payloads, provided the executor accesses only
 its compact local instructions during streaming. A whole `2^(m^C)`
 table scan per record would violate P-W and is not covered by G1.
 
+Before choosing the fixed format, explicitly test
+`k>=m_max^K_2` for a sufficiently large absolute integer `K_2`.
+This is E002's numerical guard, enlarged to dominate the local gain
+and event exponents in P-W. In particular
+`C m_max^K log2(k+2)<=k` follows from this guard after enlarging
+`K_2`, using `log2(k+2)<=3sqrt(k)`. A failed guard selects the
+exact schoolbook fallback. Since `m_max=k^o(1)`, it succeeds at
+every sufficiently large outer width. Time/space caps alone would
+not detect numerical inaccuracy and are not substituted for this test.
+
 Local logarithmic numerical gain is at most `m_i^C`. Summing these
 along the two ancestor paths through which an error can propagate gives
 at most `k^o(1)`, since path depth is `O(log k)`. Completed children are
@@ -447,7 +490,9 @@ To obtain one absolute visited-space cap, let `r_n` be the least power
 of two at least `8C(1+ceil(log2 Lhat(n)))^C`, where
 `Lhat(n)=1+ceil(log2 n)`. Split each operand into `r_n` chunks of
 length `u_n=ceil(n/r_n)`, and run the same digit routine sequentially on
-all chunk pairs. Choose the fixed wrapper constant large enough to pay
+all chunk pairs. If `r_n>n`, use schoolbook multiplication directly;
+this is an explicit branch and applies only to a bounded initial range.
+Choose the fixed wrapper constant large enough to pay
 its input/output, carry and marked-region overhead. Since
 `x(u_n)<=x(n)+O(1)`, each core space bill is at most its allocated
 constant fraction of `n`, for sufficiently large `n`; bounded lengths
@@ -479,8 +524,9 @@ is erased and no `O_m` coefficient is declared uniform.
 
 Open next questions are sharply located: close P-I's guarded constant
 payload-space compiler and P-W's physical operator/precision composition;
-review the common-radix menu and leading-row product; then audit the
-outer source substitutions. Improving this recursion toward polynomial
+independently review the leading-row product and the recorded outer
+source substitutions. The optional common-radix menu is unnecessary
+for the primary fixed-three construction. Improving this recursion toward polynomial
 `x` or constant overhead would require better local call loss or a new
 handling of Walsh's middle-query routing, not merely a larger fixed J.
 

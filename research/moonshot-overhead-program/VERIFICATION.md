@@ -159,3 +159,7 @@ Admitted proof: `sessions/2026-11-26-S003/lead/adaptive-extraction.md`; C global
 AI:96 root boundaries,3,597 exact toy width/mass/toll ledgers,36 model recurrences,32 batches and missing-budget/toll controls; maximum depth228. NW:6 exact integer/batch paths,169 illustrative100-digit recurrence points,117 norm checks,3 countermodels. The inherited rational receipt was copied/hashed, not rerun.
 
 Root also reviewed/replayed both NI proofs and B's isotropic counterexample. C NI:2,048 exact discriminants,489 cubic cases,160 normalized prices,160 Decimal partition diagnostics,3 controls. A NI:336 exact-rational lower witnesses with90-digit log comparisons,109 inversion points,640 schedules,one control. B:6 finite families,142 isotropic vectors,4,452 exact rational/modular distinct pairings,246 identical-source pairs,142 wrong-vector controls. Finite tests supplement the written unbounded proofs; no enormous template, full tape multiplier, Lean build or human referee review was executed.
+
+### E003 update — 2026-11-25T22:59:43Z
+
+E003 order-five exact classification replay passed 196 symmetric matrices, 12 converter solutions, four joint order-five solutions, 2,700 diagonal trials, three displayed identities and two adverse controls. Universal proof is restricted to its exact word model. No full multiplier execution.

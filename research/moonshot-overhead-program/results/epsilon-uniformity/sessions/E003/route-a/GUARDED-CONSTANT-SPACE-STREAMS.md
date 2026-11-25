@@ -1,6 +1,7 @@
 # Guarded constant-space execution of compact stream primitives
 
-Status: **proved local fixed-tape space refinement; independent review pending**.
+Status: **proved local fixed-tape space refinement; independently accepted by
+Route B** in `../route-b/REVIEW-PHYSICAL-SUPPLIERS.md`.
 This is not a new multiplication envelope. It removes a parameter-dependent
 proportional-space coefficient from specified compact operations under
 explicit large-field guards. Changing templates, radices and coefficient

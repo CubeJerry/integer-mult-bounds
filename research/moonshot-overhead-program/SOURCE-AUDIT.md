@@ -163,3 +163,7 @@ E002 root completed fresh full reads of Fourier repair.tex, kernel.tex, binary.t
 Pin3344da59991ed94f9ba711217b29c1d760badfa6 remains unchanged. A read all491 lines of `integers.tex`, all `permutations.tex` and `walsh.tex`, and relevant generation/precision/cap portions of `uniformity.tex`. Exact replacement map/lemma labels: `sessions/2026-11-26-S003/route-a/audit-adaptive-integer-caller.md`. C independently audited complete AQ; root reread changed phase/recovery/physical interfaces.
 
 The outer ledger has a fixed log^4 factor and polynomial(k) setup. Norm requests13k/50k and phase errors70k suffice even with the executable b<=4k guard. An integer precision majorant replaces literal all-key coefficient maximization. Shape tests avoid requiring a computed prime-gap cutoff. No new source revision or formal rebuild is asserted.
+
+### E003 update — 2026-11-25T22:59:43Z
+
+E003 lead read complete pinned tape interchange/permutations/walsh/integers/uniformity and Fourier repair/kernel/binary, plus September elementary streams. PS/CL/FP, fixed-three geometry and P-O accepted in results/epsilon-uniformity/sessions/E003/lead/review-source-composition.md. Full archive and novelty audit remain partial.
