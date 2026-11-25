@@ -118,3 +118,17 @@ The final protected publication descends from reconciled E001 head
 later endpoint and its state remains preserved. No upstream PR is opened.
 The final commit SHA is recorded by Git and in the user-facing completion
 message after remote confirmation.
+
+## E001 closing integration — 16:23 UTC
+
+E001 completed all proof integration and independent reviews. Its formula theorem has A/B/C/root audits; its additional fixed-field count and physical reviews pass. The final S002 closing commit28a7435337195b837f35dac12bedc31a0eea77ce and its completed-session timing are preserved. Exact E001 completion is recorded below only after its own16:25:26 endpoint.
+
+## E001 completed — 2026-11-25T16:26:41Z
+
+Actual elapsed time: 10875 seconds from13:25:26 UTC, exceeding the
+requested10800 seconds. All three routes finished; no background work is
+claimed. The current shared fixed-field bound, separate dyadic theorem,
+certificate and representation scopes, independent reviews and source pins
+are consolidated in FINAL-REPORT.md. Concurrent closing head28a7435 is
+preserved. Six prior focused checkpoints are verified; this completion
+record is included in the seventh final checkpoint. No upstream PR opened.

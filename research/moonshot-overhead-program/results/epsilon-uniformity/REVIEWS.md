@@ -196,3 +196,30 @@ The later scoped recipe paragraph and concurrent-formula credit were
 separately reviewed by root; status/provenance edits are not silently
 attributed to earlier exact snapshot hashes. The proof of Theorem F is
 unchanged. No additional numerical replay was required.
+
+## Closing fixed-field and overlap audit — 16:22 UTC
+
+Root read the complete new S002 count construction, global extraction,
+lead gate and IP4 bridge addendum at848fbf1. E001 C independently passed
+the finite formula size, degree, negative offsets, spectral phase, all-row
+identity, even-length characteristic-two cyclic algebra and actual generator.
+E001 A independently passed the separate physical composition: both scalar
+domains and transform branches, completed binary swap descent, finite
+tables, radix, one-time rational preparation, precision, geometric parking,
+additive workspace, strict call margins and sparse eligibility. Root read
+both complete receipts. No duplicate numerical tests were run.
+
+B compared the independently obtained S002 and E001 recipe barriers and
+found matching scope and width scale. Root read that comparison. Root also
+checked B's optional finite-free ordered-factor bridge, infinite universal
+quotient example and even-generator quadratic dimension argument; these
+remain optional mathematical observations and are not premises of any
+admitted global theorem. Their literature coverage stays narrowly stated.
+
+All12 JSON files parse, all10 Python scripts parse, and local Markdown
+links resolve. A prior dynamic-radix receipt serialization defect was repaired
+without changing numerical evidence. Source heads stayed unchanged at
+16:20:39 UTC. Concurrent closing head28a7435337195b837f35dac12bedc31a0eea77ce
+was read and preserved; its new optional prime-carry/structured-check notes
+are not represented as freshly audited E001 results. The published global
+theorem's only change there is a scope wording correction.

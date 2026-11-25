@@ -110,3 +110,7 @@ The [general formula-size transfer](results/epsilon-uniformity/FORMULA-SIZE-TRAN
 ## Fresh concurrent fixed-field result — 16:09 UTC
 
 Before publishing this focused checkpoint, remote848fbf1d7a5e192aa352d79b4d3e36fa06be21ee was read and preserved. S002's new characteristic-two count formulas establish IP4 and its stronger third-root envelope. E001's dyadic formula theorem remains a separate weaker result. Root has read the new finite formula, complete extraction and lead review; additional E001 finite and physical reviews are in progress. The dyadic MR hypothesis remains open even though its displayed rate is now attained by S002's different fixed-field construction.
+
+## E001 closing integration — 16:23 UTC
+
+The strongest shared third-root envelope is now also covered by separate E001 finite-count and physical-composition reviews. E001 Theorem F remains the weaker independent dyadic construction. The general formula-size theorem and matching unreduced-recipe obstruction retain their precise scopes. Full results and remaining obligations are in results/epsilon-uniformity/FINAL-REPORT.md.

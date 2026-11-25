@@ -128,3 +128,7 @@ complete novelty audit remain unperformed.
 EU-FORMULA is accepted after independent A algebra, C full composition, B final synthesis and root complete-proof reviews. The explicit full-rate cyclic formula constructor supplies S_j<=E_2(C Z_j²) and the same unconditional sixth-root envelope independently proved by S002 at58c754b. No MR premise is imported.
 
 EU-RECIPE is closed as a restricted theorem: the literal unreduced syntactically multilinear degree-D formula composition requires E_2(Omega(log²m)) rows for the retained predictor. Arbitrary matrix roots, nonmultilinear cancellation and invariant summands remain open. EU-FORMULA-TRANSFER is a complete general conditional implication from actual degree-preserving dyadic formula generation to full machine rates. The dyadic MR and compact-IP hypotheses and stronger preflight families and the endpoint remain open.
+
+## E001 closing integration — 16:23 UTC
+
+E001 independently closed the finite IP4 audit and fixed-field physical-composition review. The strongest shared bound remains S002 Theorem Q. E001 dyadic MR, all-odd-characteristic IP, endpoint preflight families and exact H=O(1) remain open. The restricted multilinear barriers do not apply to the characteristic-two nonmultilinear count formulas.

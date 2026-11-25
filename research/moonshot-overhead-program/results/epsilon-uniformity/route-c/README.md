@@ -7,6 +7,15 @@ ledger are maintained in [THEOREM.md](../THEOREM.md) and
 the representation or scheduling family to which it applies; none is a
 general multiplication-time lower bound.
 
+The late concurrent S002 checkpoint `848fbf1d7a5e192aa352d79b4d3e36fa06be21ee`
+subsequently establishes the stronger fixed-field IP4 representation by
+polynomial-size characteristic-two count formulas. Its finite algebra,
+degree, copied-size, generator and full-row interfaces pass the independent
+[S002 count-formula review](S002-COUNT-FORMULA-REVIEW.md). This uses
+nonmultilinear spectral formulas and therefore is outside the literal
+multilinear lower-bound family below. Its whole-input physical synthesis
+and stronger global rate are maintained in the consolidated parent notes.
+
 ## Main representation result
 
 [FORMULA-FACTORIZATION-COMPRESSION.md](FORMULA-FACTORIZATION-COMPRESSION.md)
@@ -49,6 +58,7 @@ derivations and the common matrix-factorization literature are credited.
 - [Formula and stronger conditional MR transfers](FORMULA-TRANSFER-REVIEW.md).
 - [General formula-size transfer](FORMULA-SIZE-TRANSFER-REVIEW.md).
 - [Repeated-root symmetry and finite-free localization](SYMMETRY-REDUCTION-REVIEW.md).
+- [S002 characteristic-two count formulas and IP4](S002-COUNT-FORMULA-REVIEW.md).
 - [Interchange rank/reserve/count obstruction](ROOT-OBSTRUCTION-REVIEW.md).
 - [Literal modulo-prime-squared lift obstruction](PADIC-LIFT-REVIEW.md).
 

@@ -102,3 +102,9 @@ No end-to-end multiplier execution, formal build or human review is implied.
 A reviewed the cyclic algebra, C the complete transfer, B the final algebra/generator/source/compiler/inversion chain, and root all these interfaces separately. The receipts are in results/epsilon-uniformity/ROOT-FORMULA-REVIEW.md and route-b/formula-synthesis-review.md. Historical baseline hashes apply to the unchanged BASELINE-THEOREM.md.
 
 Root's isolated replay passed84 predictor cases,152 complete cyclic products and72 descended matrix-root identities, maximum dimension96. Unequal padding, non-Boolean shifts, wrong-phase and nonsemisimple characteristic-three controls are covered. These are local exact checks, not full multiplier execution or formal verification. A and root passed the reduction to the published homogeneous-formula lower bound; A and C passed the general formula-size transfer. A serialization-only repair preserves the dynamic-radix receipt as valid JSON; no numerical result was changed.
+
+## E001 closing integration — 16:23 UTC
+
+E001's separate finite-count and physical-composition audits are route-c/S002-COUNT-FORMULA-REVIEW.md and route-a/S002-FIXED-FIELD-REVIEW.md inside results/epsilon-uniformity/. Root read both in full. B independently compared the two recipe barriers. The local final integrity pass parsed all12 JSON receipts and10 Python scripts and found no broken local Markdown links. No additional numerical replay, full machine execution or formal proof is claimed.
+
+E001 final record: all scoped review gates are closed; optional observations retain their explicit status. Completion is after the actual requested endpoint. No full-machine run, formal refinement or human referee review is claimed.

@@ -167,3 +167,21 @@ that representation bound.
 Credits: @CubeJerry; the pinned OpenAI constructions and cited
 matrix-factorization literature; the separate S002 derivation; Routes A
 and C and the lead. Prepared with GPT-6 Astra Pro assistance.
+
+## Final editorial and scope receipt
+
+At 16:20:50 UTC, `THEOREM.md` has SHA-256
+`e93874e88dea84e69449dc37a2753a469acb257c433d3f77a579907816a6ae21`.
+The header now records this review's admission and a later S002 advance;
+the document also credits the independent same-rate formula construction
+and states the scoped multilinear-recipe obstruction. The displayed
+Theorem F, `E_2(CZ_j^2)` finite profile, `2^(CZ_j^2)` cost/threshold
+coordinates and integer inversion remain the statements audited above.
+The recipe comparison is separately recorded in `barrier-overlap-review.md`.
+
+S002's later fixed-field IP4 result reaches the stronger third-root rate.
+This receipt does not independently admit that new construction; the lead
+and Routes A/C conduct its separate review. The all-odd-characteristic MR
+representation interface and the best attained programme rate must not be
+conflated. The stronger programme result does not invalidate this separately
+proved all-odd-characteristic formula theorem or its historical receipt.

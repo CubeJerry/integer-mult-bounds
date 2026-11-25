@@ -113,3 +113,7 @@ were reconciled, including 35 focused-session files preserved byte-for-byte.
 The lead read its shared-state and summary changes. This reconciliation is not
 a claim to have independently reread all of its new focused proofs. S002's
 current fixed-field result remains the stronger explicit programme envelope.
+
+## E001 closing integration — 16:23 UTC
+
+E001 root read S002 B1-B11, Q1-Q13, its lead gate and IP4 bridge. E001 C separately audited the finite constructor and A separately audited both-branch physical composition at848fbf1, with exact blob receipts. Root read both audits. The final28a7435 theorem diff is a scope wording correction; optional prime-carry and structured-check additions are preserved without a fresh E001 proof audit. Source branch heads remained unchanged16:20:39 UTC; focused and parent prompt blobs were verified unchanged16:15:45 UTC.

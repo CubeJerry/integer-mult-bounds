@@ -46,3 +46,7 @@ The numerical Walsh template remains rational, with each coefficient prepared on
 ## Independent focused formula proof and scoped next gap
 
 E001 supplies a separate proof of the same stronger formula envelope, complete actual generator and both-branch physical composition, with A/B/C/root audits. A matching lower bound prices high-degree additions in the literal unreduced multilinear recipe; arbitrary matrix roots remain open. The general formula-size transfer and precise MR interface state what further progress would require. Concurrent S002 proofs and dated baseline records are preserved. No upstream PR has been opened.
+
+## E001 closing integration — 16:23 UTC
+
+The consolidated focused report is results/epsilon-uniformity/FINAL-REPORT.md. It states the strongest shared fixed-field result, separate dyadic theorem, certificate restrictions, general transfers, exact replay scope and next quantitative obligation. Additional E001 A/C reviews cover S002's current construction. No upstream PR has been opened.

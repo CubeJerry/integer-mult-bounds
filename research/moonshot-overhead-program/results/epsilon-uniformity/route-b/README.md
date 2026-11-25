@@ -23,6 +23,8 @@ constructed.
 | [Independent reviews](independent-reviews.md) | Lead certificate calculus and literal p-adic lift proof reviewed, with successful finite replay | No human or Lean certification |
 | [Global synthesis review](global-synthesis-review.md) | Theorem E's quantifiers, complete profiles, common space and integer inversion pass a snapshot-pinned audit | The cited source/compiler proofs; no full formalization |
 | [Formula synthesis review](formula-synthesis-review.md) | New Theorem F passes an independent algebra, generator, source-interface and complete-profile audit | Written universal proofs; finite tests do not certify the full multiplier |
+| [Barrier overlap review](barrier-overlap-review.md) | S002 and E001 independently prove overlapping restricted compiler obstructions | No bound for nonmultilinear or quotient constructions |
+| [Ring extension transfer](ring-extension-transfer.md) | Derived finite-free ordered-factor bridge and scoped dimension checks | Optional lemmas have not received independent review and are not theorem premises |
 
 ## Exact conditional endpoint/polylog-log theorem
 

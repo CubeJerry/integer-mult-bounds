@@ -145,3 +145,40 @@ the finite formula, complete extraction, lead review and conditional-bridge
 addendum. Additional E001 finite, physical and barrier-overlap reviews are
 under way. E001's dyadic theorem is retained as a separate weaker result;
 MR stays open despite its displayed rate being achieved by a different route.
+
+## Closing fixed-field and overlap audit — 16:22 UTC
+
+Root read the complete new S002 count construction, global extraction,
+lead gate and IP4 bridge addendum at848fbf1. E001 C independently passed
+the finite formula size, degree, negative offsets, spectral phase, all-row
+identity, even-length characteristic-two cyclic algebra and actual generator.
+E001 A independently passed the separate physical composition: both scalar
+domains and transform branches, completed binary swap descent, finite
+tables, radix, one-time rational preparation, precision, geometric parking,
+additive workspace, strict call margins and sparse eligibility. Root read
+both complete receipts. No duplicate numerical tests were run.
+
+B compared the independently obtained S002 and E001 recipe barriers and
+found matching scope and width scale. Root read that comparison. Root also
+checked B's optional finite-free ordered-factor bridge, infinite universal
+quotient example and even-generator quadratic dimension argument; these
+remain optional mathematical observations and are not premises of any
+admitted global theorem. Their literature coverage stays narrowly stated.
+
+All12 JSON files parse, all10 Python scripts parse, and local Markdown
+links resolve. A prior dynamic-radix receipt serialization defect was repaired
+without changing numerical evidence. Source heads stayed unchanged at
+16:20:39 UTC. Concurrent closing head28a7435337195b837f35dac12bedc31a0eea77ce
+was read and preserved; its new optional prime-carry/structured-check notes
+are not represented as freshly audited E001 results. The published global
+theorem's only change there is a scope wording correction.
+
+## E001 completed — 2026-11-25T16:26:41Z
+
+Actual elapsed time: 10875 seconds from13:25:26 UTC, exceeding the
+requested10800 seconds. All three routes finished; no background work is
+claimed. The current shared fixed-field bound, separate dyadic theorem,
+certificate and representation scopes, independent reviews and source pins
+are consolidated in FINAL-REPORT.md. Concurrent closing head28a7435 is
+preserved. Six prior focused checkpoints are verified; this completion
+record is included in the seventh final checkpoint. No upstream PR opened.

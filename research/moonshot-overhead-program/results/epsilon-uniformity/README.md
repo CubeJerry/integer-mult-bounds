@@ -5,6 +5,8 @@ for source pins, active routes and actual bound status, and [LOG.md](LOG.md) for
 the append-only record. This directory is the scope of focused session E001;
 concurrent parent session S002 is preserved separately.
 
+See [FINAL-REPORT.md](FINAL-REPORT.md) for the consolidated session findings.
+
 ## Current shared-programme result
 
 Concurrent S002 has since established the stronger envelope
@@ -12,8 +14,9 @@ Concurrent S002 has since established the stronger envelope
 `z=log_2(x+16)`, using a characteristic-two count-formula construction.
 Its [complete theorem](https://github.com/CubeJerry/integer-mult-bounds/blob/848fbf1d7a5e192aa352d79b4d3e36fa06be21ee/research/moonshot-overhead-program/routes/A/fixed-field-extraction-theorem.md)
 and its B/C/lead reviews were committed at848fbf1. Root has read the finite
-formula, complete extraction and lead review; additional focused E001
-finite and physical reviews are in progress. This establishes IP4 and
+formula, complete extraction and lead review. E001 independently passed
+the [finite count audit](route-c/S002-COUNT-FORMULA-REVIEW.md) and
+[physical composition audit](route-a/S002-FIXED-FIELD-REVIEW.md). This establishes IP4 and
 does not establish our different all-odd-characteristic dyadic MR hypothesis.
 
 The separate fully reviewed E001 result below remains useful as a dyadic
