@@ -49,8 +49,10 @@ call coefficient, not this tower height.
 
 ## 2. A small-field full-rate hypothesis
 
-The following hypothesis is sufficient and is weaker than asking for a
-single dyadic representation which specializes to every odd characteristic.
+The following hypothesis is sufficient and asks only for a representation
+in characteristic two. It is a different characteristic-specific premise
+from a dyadic representation which specializes to every odd characteristic;
+neither is asserted to imply the other.
 
 **IP4.** There are absolute constants `C,c` and a deterministic constructor
 which, for every sufficiently large `m`, supplies a finite commutative
@@ -65,6 +67,30 @@ number of independently transformed input rows is at most this bound.
 All row widths, scalar-algebra coordinates, coefficient lists, ordinary
 instructions, exception tables, generation time and generation workspace
 are bounded by `2^(m^C)`.
+
+The abstract evaluator is an explicit finite list of scalar row-linear
+maps and affine pencils in the individual query powers. Ordinary row maps
+act at the same address, with fixed coefficients independent of the query
+eigenvalues. Copies and temporary rows are allowed, with their actual
+widths and work charged. The physical address instructions are those
+supplied by the shared-pencil compiler, with their complete endpoint lists
+charged. An uncompiled permutation or spectral oracle is not an ordinary
+instruction under IP4. The finite checks include actual
+construction of every polynomial-value and exception table, all common
+algebra arithmetic, and validation of the full row-program identity at all
+`3^m` spectral tuples. With the displayed bounds, straightforward dense
+arithmetic performs these checks in `2^(m^C')` time and space for a fixed C'.
+
+For a total constructor at every m>=2, dovetail the proposed constructor
+and these finite checks with the known generic constructor and its checks.
+Return the first valid program meeting a fixed stage-volume bound
+`c_* sqrt m`, where c_* dominates both absolute constants. The generic
+branch guarantees termination for the finitely many initial m at which
+IP4 makes no promise. For sufficiently large m the IP4 branch and all its
+checks finish in `2^(m^C')` work. By that time the competing branch has
+used no more than that order of charged work and visited space. If it
+finished first, its emitted data also fit that same budget. Thus this
+totality guard preserves the single-exponential asymptotic profile.
 
 The canonical integral predictor would satisfy IP4 if it had such a compact
 full-rate evaluator. A different predictor with the stated rowwise property
@@ -128,7 +154,7 @@ Thus, under the independently reviewed bounded-template physical compiler,
 
 \[
  a_J,c_J,g_J,d_J\le P_{m_J}^{C_3},\qquad
- U_J\le2^{P_{m_J}^{C_3}},\qquad
+ U_J\le\max\{U_{\rm abs},2^{P_{m_J}^{C_3}}\},\qquad
  m_J\le2^{O(J^3\log(J+2))}.                            \tag{P3-4}
 \]
 
@@ -158,6 +184,13 @@ arithmetic circuit, a single-output branching program, matrix rank alone,
 or a finite but unbounded construction. The actual generic evaluator only
 supplies (P3-2), and hence retains the extra iterated logarithm in the
 available coarse unconditional extraction.
+
+The constant `U_abs` is the source's one fixed absolute prime-shape cutoff.
+Actual shape tests and the correct fallback keep the machine total without
+knowing a numerical value for it. This note's generic comparison remains
+a record of that route: the separately proved formula construction in
+`formula-full-rate-linearization.md` improves the unconditional finite
+profile but still does not meet IP4's `2^(m^C)` promise.
 
 Credits: source physical compiler interfaces and finite ring repair;
 A's quantified common-cap schedule and explicit label accounting;

@@ -73,3 +73,16 @@ The new characteristic-two order-three physical family changes the finite algebr
 ## E001 compact-root conditional target — 15:20 UTC
 
 The complete MR implication in `results/epsilon-uniformity/route-a/single-exponential-root-hypothesis.md` gives H<=2^{O(x(log2(z+2)/z)^(1/3))}, z=log2(x+16), under a precise actual-bit-construction hypothesis for a full-rate matrix root. It charges both transform branches, all shifts, repair, scalar descent, refined rational heights, physical compilation, thresholds, chunking and search. MR remains unproved. This is the same asymptotic scale as S002's more general IP conditional bridge at4689161c; neither changes the unconditional bound. The bounded-preflight poly-x conditional result remains separately scoped.
+
+## S002 fourth wave — unconditional formula extraction
+
+The [formula theorem](routes/A/formula-extraction-theorem.md) and [lead/independent gates](verification/S002/lead-review-formula-extraction.md) replace the literal monomial evaluator by a complete full-rate cyclic factorization of a balanced arithmetic formula. The actual finite profile becomes
+
+    P_m<=2^{2^{C(log2(m+2))^2}},
+    log2 D_j, log2 L(N_j)<=2^{C J^6(log2 J)^2}.
+
+For s=log2 L(n), the largest dyadic J below [log2 s/(2C(log2 log2 s)^2)]^(1/6) is eligible and has logarithmic prefactor at most sqrt(s). Thus
+
+    H(n)<=2^{O(s (log2 log2 s)^(1/3)/(log2 s)^(1/6))}
+
+for one fixed exact finite-alphabet multitape machine with uniform O(n) visited cells. This supersedes the earlier explicit programme envelopes. Its proof uses no compact-IP assumption. The displayed upper-bound scale still grows faster than s^beta in log H for every fixed beta<1; this is not a lower bound on actual machine time. No benchmark kappa_ov, polynomial-s overhead or constant endpoint is claimed.

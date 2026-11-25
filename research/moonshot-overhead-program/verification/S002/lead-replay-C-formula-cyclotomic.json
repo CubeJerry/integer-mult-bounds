@@ -1,0 +1,9 @@
+{
+  "script": "routes/C/verify_formula_cyclotomic.py",
+  "script_sha256": "1f2d251975da3316717e8715e6b0cfbece8d3f3767043e0cd2a88719a7edefcf",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"scope\": \"finite cyclotomic identities, including ramified odd-characteristic reductions; no huge template or tape implementation\",\n  \"integer_cyclotomic_polynomials_and_height_checks\": 120,\n  \"integer_power_two_node_inverse_products\": 25,\n  \"odd_characteristic_node_inverse_checks\": 75,\n  \"vanishing_gaussian_coefficients\": 522,\n  \"ramified_gaussian_coefficients\": 138,\n  \"all_rotated_sum_products_over_F3_epsilon_squared\": 216,\n  \"ramified_sum_instances\": 48,\n  \"negative_controls\": {\n    \"degree_six_partial_sum_nonzero_square_zero\": true,\n    \"wrong_noncyclotomic_root_rejected\": true\n  }\n}\n",
+  "stderr": "",
+  "isolation": "Fresh directory, unchanged copied script."
+}

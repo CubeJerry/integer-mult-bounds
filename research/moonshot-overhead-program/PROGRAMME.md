@@ -1,6 +1,6 @@
 # Square-root overhead moonshot
 
-Status: active S002 session, 2026-11-26 (Australia/Melbourne). Historical programme retained intact. The current accepted rate is below.
+Status: active S002 session, 2026-11-26 (Australia/Melbourne). Historical programme retained intact. The current strongest accepted rate is the fourth-wave formula extraction linked below; earlier dated sections preserve checkpoint history.
 
 ## Objective and model
 Study the **exact deterministic fixed finite-alphabet multitape full-product** problem with a uniform O(n) visited-cell cap. Let L=1+log_2 n, s=log_2 L. Seek quantitative bounds T(n)=O(n sqrt(L) H(n)) with H(n)>=1, ultimately H=O(1). Do not count arbitrary fixed-kappa corollaries of the November 24 result as progress. Do not claim an o(1) exponent gives a quantitative rate without uniform constants and thresholds.
@@ -54,3 +54,17 @@ See [sharper proof](routes/A/sharper-parameter-growth.md), [lead acceptance](ver
 Route B now supplies a complete finite full-rate order-three closure in characteristic two, using new power-of-two-distance labels and a short F4 group identity. Four recursive phases each use 1/16 of the rows; a four-element discrepancy identity reduces repair to two predictor applications. The lead and C have accepted the physical component and independently replayed its finite checker. The generic predictor representation still has a double-exponential profile, so this construction alone does not improve the displayed global envelope.
 
 New scoped barriers distinguish literal formal polynomial compression, two-stage characteristic-two full-rate width, and arbitrary odd-characteristic linear sketches. They do not lower-bound general multiplication. A characteristic-two low-rank error theorem is separately accepted; its missing cheap address-space correction is not assumed by the order-three construction. The IP and IP4 compact-representation bridges remain explicitly conditional, with final review in progress at this checkpoint.
+
+## S002 fourth wave — smaller full-rate formula representation
+
+The current strongest complete programme envelope is
+
+    T(n)=O(n sqrt(L(n))
+             2^{O(s(n)(log2 log2 s(n))^(1/3)/(log2 s(n))^(1/6))}),
+    L(n)=1+log2 n, s(n)=log2 L(n), visited cells=O(n).
+
+See [complete theorem](routes/A/formula-extraction-theorem.md), [finite construction](routes/B/formula-full-rate-linearization.md), [lead gate](verification/S002/lead-review-formula-extraction.md), and [independent final C gate](routes/C/REVIEW-A-FORMULA-EXTRACTION.md). The balanced coefficient formula has syntactic degree O(sqrt(m log m)) and actual tree size 2^{O(log²m)}. A graded tensor factorization turns it into a full-rate affine program. Its actual scalar/address/generator envelope is P_m<=2^{2^{C log²(m+2)}}. The existing complete physical compiler, uniform cap and schedule then give the displayed rate with no compact-IP hypothesis.
+
+The tensor operation is established matrix-factorization mathematics and is credited. The quantified application improves this programme's preceding explicit upper envelope, not a claimed comparison against an unspecified published o(1). A and C independently audited the finite construction; C independently reviewed the complete composition; the lead reread the changed source interfaces and replayed both exact checkers. Constants and the eventual input cutoff remain unevaluated. No full multiplier execution, formal build or human refereeing occurred.
+
+The exact constant-overhead endpoint and stronger 2^{O(s^beta)}, beta<1, benchmarks remain open. IP/IP4 compact-representation targets are stronger than this new quasi-polynomial-exponent construction. A new additive-sketch theorem over F4 also passed independent review; it permits polynomial matrix width and is compatible with the positive result.

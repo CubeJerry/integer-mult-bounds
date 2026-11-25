@@ -86,3 +86,11 @@ The stronger unconditional rate has no new conjectural premise. The endpoint and
 EU-WINDOW is closed as a scoped theorem: the exact parity predictor on a Hamming band has degree and affine-query depth at least its width, over rings with two invertible. The retained all-shift, window-marked full-conversion resource optimum is Theta(sqrt(m log m)). This is not an actual tape-runtime lower bound and does not exclude S002's changed constant-tail repair.
 
 EU-MR is a complete conditional transfer from a specified singly-exponential full-rate affine root of the actual integral predictor, with charged scalar output and generation. The implication passed root review; the algebraic construction remains open. It overlaps S002's independently proved, more general IP bridge and is credited accordingly. A balanced-formula alternative is being reviewed separately; no new unconditional bound is admitted at this checkpoint.
+
+## S002 fourth-wave final formula gate
+
+S2-FORMULA and the stronger G1 gate are **accepted**. The proof chain is B's cyclic formula construction, C's localized cyclotomic generator audit, A's complete extraction, the accepted physical compiler/common-cap schedule, and the lead plus C final composition reviews. Varying affine pencils and arbitrary batch widths have explicit source-interface audits.
+
+S2-F4-SKETCH is accepted with A's independent proof review and replay. It bounds arbitrary additive summaries, including both order-three query powers, and leaves polynomial-width representations possible.
+
+The unconditional result has log H=O(s(log log s)^(1/3)/(log s)^(1/6)). IP and IP4 remain open stronger representation hypotheses; E001's separate conditional preflight family likewise remains conditional. Full endpoint, practical crossover, formal refinement and human verification remain open.

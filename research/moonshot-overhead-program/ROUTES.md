@@ -41,3 +41,9 @@ B's pivot changes the converter target through a finite half-angle family and re
 | C | Independent sharper-rate and rank reviews; exact two-stage characteristic-two width theorem | Which many-stage/Boolean-quotient representations evade these scoped barriers? |
 
 Root supplied an independently reviewed odd-characteristic linear-sketch obstruction and characteristic-two error-rank result. These narrow specific candidate classes; they do not prove a general multiplication lower bound. B remains a distinct constructive route: its fixed-field group-word closure does not use the original odd-characteristic involution converter.
+
+## S002 fourth-wave result and retained open directions
+
+B's independent search led from characteristic-two repair to cyclic formula factorization; C identified and checked the integral specialization; A completed the global quantitative composition. The lead and independent reviewers accepted the new complete rate. This is a new finite evaluator within the source physical architecture, with its actual data and generation priced.
+
+The remaining constructive target is a genuinely smaller full-rate representation, such as the stated compact IP/IP4 profiles, or a different architecture with better complete physical costs. Circuit sharing cannot be counted as formula sharing without a new full-rate construction. Scoped Chow, two-stage width and additive-sketch barriers remain distinct and do not exclude all such possibilities.

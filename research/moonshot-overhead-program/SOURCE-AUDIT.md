@@ -65,3 +65,9 @@ Primary-source searches identified generalized Clifford/Ulrich representations a
 Prompt, canonical main and OpenAI manuscript heads were rechecked at2026-11-25T15:16:37Z and remained at their recorded pins. Root directly read S002's new sharper-parameter proof, compact integral IP bridge and exact formal Chow barrier at4689161c5bc6c9e64536034d4fa6af033d26a3e0. The other new characteristic-two component records are preserved, without claiming a fresh E001 audit of their complete proofs.
 
 E001 root read the primary Sheng–Tribone tensor-factorization Proposition3.2 and Hrubes–Yehudayoff homogeneous-formula statements while investigating a different representation. The integral Gaussian-binomial identity and general scalar-ring descent are being checked self-contained. Search excerpts are not substituted for the full source proof. The proposed formula construction is not yet an admitted global premise.
+
+## S002 fourth-wave finite representation audit
+
+The lead reread the full physical compiler and common-cap assembly, source integral interpolation and matrix-root construction, full binary implementation, and the kernel/tape Walsh batching paragraphs. The source permits different fixed affine matrices at successive stages and arbitrary integer batch width. Its original repeated-pencil and power-of-two-width constructor are not downstream requirements. B recorded a separate varying-pencil interface audit.
+
+The lead retrieved and read Sheng–Tribone's ring convention, Definition 3.1 and Proposition 3.2 in the publisher's primary PDF, DOI 10.1017/nmj.2025.12. C separately read those sections. The known graded tensor construction is credited; the complete external paper and all predecessor proofs are not claimed as read. Source-wide literature/formal limitations remain unchanged.

@@ -2,12 +2,12 @@
 
 The November 24 fixed-tape multiplier establishes n(1+log n)^(1/2+o(1)) but does not specify a decay rate merely by writing o(1). This programme records quantitative interfaces and representation barriers needed to investigate that remaining overhead.
 
-The package now gives a conservative explicit source extraction for the exact uniform linear-space tape multiplier:
+The package now gives a stronger explicit formula-based extraction for the exact uniform linear-space tape multiplier:
 
-    T(n)=O(n sqrt(L(n)) 2^{O(s(n)/(log2 log2 s(n))^(1/6))}),
+    T(n)=O(n sqrt(L(n)) 2^{O(s(n)(log2 log2 s(n))^(1/3)/(log2 s(n))^(1/6))}),
     L(n)=1+log2 n, s(n)=log2 L(n).
 
-It bounds actual finite construction, rational/cyclotomic data, physical tape coefficients, numerical precision and validity thresholds, then uses a prefix-weighted restart schedule and O(nr) chunk convolution. This quantifies the published residual o(1); it does not claim a strict improvement over an unspecified o(1), a practical numerical cutoff or the endpoint.
+A balanced coefficient formula is converted into a full-rate sequence of affine matrix factors through the established graded tensor construction. Its actual bounded generator, rational/cyclotomic data, physical tape coefficients, numerical precision and validity thresholds are charged, followed by a prefix-weighted restart schedule and O(nr) chunk convolution. This quantifies the published residual o(1); it does not claim a strict improvement over an unspecified o(1), a practical numerical cutoff or the endpoint.
 
 Separate components include growing-arity rational Walsh arithmetic, physical half-angle reflection closure, exact count prediction and characteristic/aliasing obstructions. Their computational scopes are retained. The support-preserving lift proof has also passed independent review; it applies to arbitrary supported unit-diagonal lifts modulo every p^e, e>=2.
 
@@ -32,3 +32,7 @@ The focused epsilon-uniformity work now proves the sharper written source profil
 on one exact fixed machine with uniform O(n) visited cells. The complete finite-generator and physical-compiler proof has separate root/C AI review. It retains original integral/dyadic templates, specified efficient generation and actual weighted scheduling. The earlier S002 sixth-power extraction remains recorded.
 
 Additional scoped results are a literal p² factor-rank/reserve obstruction, input-dependent compatible-radix preparation, and a complete conditional bounded-preflight transfer. These preserve their distinct premises and do not settle the endpoint. Full astronomical execution, a Lean proof of the refinement, human refereeing, a practical cutoff and a literature-priority audit remain absent. No upstream PR has been opened.
+
+## Current formula result
+
+The complete proof is `routes/A/formula-extraction-theorem.md`; construction is `routes/B/formula-full-rate-linearization.md`; the final gate is `verification/S002/lead-review-formula-extraction.md` with a separate C composition review. The new common finite envelope is P_m<=2^{2^{C log²(m+2)}}, giving log-prefactor and log-log-threshold at most 2^{C J^6(log J)^2}. The source permits both varying fixed affine pencils and arbitrary batch width. Exact formula and ramified-ring checkers were independently replayed. The graded tensor sum is credited to its existing literature; no compact-IP assumption enters this result. Earlier focused-session statements above retain their dated provenance.

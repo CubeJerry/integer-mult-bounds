@@ -23,3 +23,7 @@ Current novelty position: claim source-specific constructions, scoped quantitati
 - David Harvey, October 20, 2026, [commentary](https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf). Read the opening summary only, which distinguishes plausibility comments from full proof review. This is not a premise or validation of the November result.
 
 A narrow current-source search did not identify a prior explicit November overhead rate. This is not comprehensive coverage or evidence for priority. The result is described as a quantitative source extraction.
+
+## S002 matrix-factorization prior art
+
+Richie Sheng and Tim Tribone, [Tensor products of d-fold matrix factorizations](https://doi.org/10.1017/nmj.2025.12), Nagoya Mathematical Journal 261 (2026), e2 (published online 2025). The lead and C read the ring hypothesis, Definition 3.1 and Proposition 3.2. This is established graded tensor-product machinery, with earlier generalized Clifford predecessors. The programme claims no invention of that operation. Its balanced-formula predictor application, effective finite bounds and physical composition are separately proved.

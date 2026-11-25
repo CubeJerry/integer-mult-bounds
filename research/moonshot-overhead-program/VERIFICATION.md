@@ -64,3 +64,15 @@ A independently replayed the root linear-sketch theorem; C independently replaye
 ## E001 synthesis and window-resource audit — 15:20 UTC
 
 `route-b/global-synthesis-review.md` under the focused result records a separate theorem/profile/compiler/space/threshold audit and SHA-256 matches to checkpoint0961d208. Root reviewed the window-degree and resource proof, rational-height refinement and complete conditional MR implication. The isolated exact window checker passed10625 band values,5310 odd-characteristic degree witnesses,64 mod-four controls,2925 centered-window comparisons and twelve source tail budgets. Floating resource examples are explicitly illustrative. No universal theorem is inferred merely from these finite cases.
+
+## S002 fourth-wave formula constructor and complete composition
+
+The lead, A and C independently read the cyclic-factorization and bounded-generator proofs. The lead and C separately accepted the complete global profile, common-cap and eligibility calculation. B also checked the original per-stage source interfaces: downstream routing and Hermite repair accept a sequence of different fixed pencils.
+
+| Isolated lead replay | Actual result | Scope |
+|---|---|---|
+| B formula linearization | 196 complete rotated formal-polynomial matrix identities; 264 unfolded-tree size/degree cases; all wrong-twist/grade/cyclic-invariant controls rejected | Includes zero children, unequal degrees and ramified characteristics in F_p[z]/Phi_12. |
+| C cyclotomic constructor | 120 height checks; 25 integer and 75 odd-characteristic node inverses; 522 Gaussian coefficients including 138 ramified; 216 rotations in 48 ramified examples | Includes a nonzero square-zero partial sum and a rejected noncyclotomic root. |
+| A independent F4-sketch replay | 5,238 exact fiber/Parseval cases; 5,127 kernel collisions; 111 injective sketches; additive Frobenius controls | Scoped additive-sketch theorem, not a general representation lower bound. |
+
+The exact asymptotic profile inversion was checked mathematically. These tests do not execute an astronomical template or full multiplier. All source and verification limits remain as stated in the complete lead review.

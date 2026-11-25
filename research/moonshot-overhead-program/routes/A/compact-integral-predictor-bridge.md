@@ -1,6 +1,8 @@
 # A concrete algebraic hypothesis removing one exponential layer
 
-Status: **complete conditional profile implication, pending independent review**.
+Status: **conditional profile implication accepted by the session lead**
+after the constructor-totality review; the arbitrary-width source batching
+is clarified below.
 The hypothesis below is open. It is not used in the unconditional source
 extraction and does not assert that a compact predictor has been constructed.
 
@@ -83,6 +85,13 @@ of independent input rows and the number of calls both multiply by the
 algebra degree. Stage count and per-input call ratios are preserved. No
 new field extension is incurred at recursive depths.
 
+Neither w_m nor this algebra degree must be a power of two. The source
+binary/Walsh caller accepts arbitrary batch width W, using its explicit
+leading-row padding and shape threshold. The /4 pre-padding acceptance
+margin in Section 3 absorbs its possible factor-two cost. No replication
+of an odd-dimensional module to an exactly power-of-two width is assumed,
+and no row is silently treated as zero-initialized scratch space.
+
 This argument uses IP1 only on commuting involutions, which both source
 applications provide. It does not require a polynomial identity on arbitrary
 query values or ordinary-count evaluation in F_p.
@@ -155,8 +164,10 @@ That rules out merely shortening the source tensor-product decomposition.
 
 IP leaves two concrete possibilities: an integral identity in the Boolean
 quotient that is much smaller than the literal polynomial representation,
-or a different full-rate matrix factorization. Neither has been constructed
-here. Failure of one decomposition scheme is not evidence against all such
+or a different full-rate matrix factorization meeting its stated finite
+size bound. B's new balanced-formula factorization supplies an integral
+full-rate construction with a larger quasi-polynomial-exponent envelope;
+it does not establish IP. Failure of one decomposition scheme is not evidence against all such
 families. Conversely a representation with a small dimension but enormous
 coefficient heights or an unbounded search time would not prove IP4.
 

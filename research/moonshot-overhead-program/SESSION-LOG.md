@@ -49,3 +49,11 @@ This checkpoint saves the sharper accepted rate, characteristic-two power-of-two
 A further independent synthesis audit matched checkpoint0961d208 proof hashes. New reviewed work includes the exact-window depth/resource obstruction, sharper rational-address heights and a complete conditional compact-matrix-root transfer. Root replayed the exact window verifier successfully. The accepted complete envelope is unchanged; a balanced-formula construction is still under review.
 
 Fresh remote head4689161c5bc6c9e64536034d4fa6af033d26a3e0 contained S002's independent same-scale extraction, characteristic-two physical closure and new scoped barriers/conditional bridge. Those files and parent entries are preserved. E001 ends at the actual requested16:25:26 UTC, and remains active.
+
+## S002 fourth-wave checkpoint — complete formula-based improvement
+
+Prepared at about 15:36 UTC after preserving concurrent E001 head `ba0e0e394c3608defa9a061708915f0562253311`, whose parent is S002 checkpoint `4689161c5bc6c9e64536034d4fa6af033d26a3e0`. All 23 incoming files/top-level changes were preserved before continuing; no history was rewritten.
+
+The cyclic formula representation and integral common algebra now pass A, C and lead audits. C separately accepted A's full composition and actual sparse-candidate eligibility. The current unconditional written envelope is log H=O(s(log log s)^(1/3)/(log s)^(1/6)), with a uniform O(n) visited-cell cap. It improves the programme's earlier explicit rate and has no compact-IP premise. Exact finite tests and negative controls were replayed in isolation. The tensor sum is credited to established literature.
+
+The additive-sketch F4 proof also passed A's independent review/replay. The session remains active toward 16:20:23 UTC; three-hour completion is not yet claimed. Remaining work includes compact-representation questions, conditional-bridge scope, final source/remote checks and publication integration.
