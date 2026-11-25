@@ -22,4 +22,6 @@ The present full source invoice satisfies the declared lower price because its w
 
 This acceptance is a written mathematical review. No whole machine, lower-bound kernel proof or human referee certification was performed. C's independent finite discriminant/partition/normalization checker supports the shared consequence but is not counted as a proof of all label ranks or asymptotic cases.
 
+An isolated `python3 -I -B` replay of A's checker subsequently passed336 exact lower-witness invoice cases over7 nested/asymmetric families,109 inversion grid points,640 uneven schedules and the fast-descent negative control. Source SHA256 is `ab5b5054024630af100b9b53af38c6b503ae3ca030824e4e5de2a873485a9890`; copied source and receipt are in `route-c/replays/a-nonstationary-invoice/`. The90-digit calculations are finite evidence, and the rank fraction in these cases is the proved lower witness rather than a newly computed exact rank.
+
 Prepared for Jerry Chen (@CubeJerry), with substantial ChatGPT assistance; the source and predecessor attribution in A's note is retained.

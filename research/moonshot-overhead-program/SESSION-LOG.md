@@ -266,3 +266,7 @@ E002 checkpoint preparation: admitted complete conditional log-free two-thirds t
 ## E003 checkpoint update — 2026-11-25T23:37:13Z
 
 E003 independently admits the complete two-thirds-scale fixed-machine construction after P-I/P-W/P-O composition, explicit numerical admission and common-space wrapper review. Earlier E002/S003 provenance and the programme best are preserved. Further protected work supplies scoped Walsh invoice and crown-product laminar obstructions; neither is a runtime lower bound.
+
+## S003 fifth-wave checkpoint
+
+At 2026-11-25T23:40:52Z, confirmed checkpoint2fde2b0c and reconciled E0033b220847, S004af5d7983 and E002a8dd6c24 without altering their live session deadlines. Accepted DR, FP-A, SQ, NT and AP at their stated scopes; recorded the stronger concurrent JR-only implication. A found a surviving query-dependent address factor, and B pivoted to joint delivery. Root AP is a narrower independent floor than the newly fetched E002 NC. Source heads unchanged; next checkpoint preserves admitted and explicitly pending components. S003 continues until00:19:05 UTC.

@@ -1,0 +1,15 @@
+{
+  "source": "research/moonshot-overhead-program/sessions/2026-11-26-S003/route-b/verify_spectral_query_rank.py",
+  "sha256": "b69ba9839ca60fca9edf298bd9f86ed9dbfd9588d7c18fb10e9a77fd4bc3e333",
+  "command": [
+    "python3",
+    "-I",
+    "-B",
+    "research/moonshot-overhead-program/sessions/2026-11-26-S003/lead/replays/fifth-wave/spectral-query-rank/verify_spectral_query_rank.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"pass\",\n  \"counts\": {\n    \"product_difference_bounds\": 1296,\n    \"rectangular_program_bounds\": 144,\n    \"approximate_rank_bounds\": 162,\n    \"predictor_essential_coordinates\": 651,\n    \"constant_spectrum_controls\": 11988\n  },\n  \"scope\": \"separate scalar-query rank; fixed linear programs and finite spectra only\"\n}\n",
+  "stderr": "",
+  "replayed_utc": "2026-11-25T23:35:18.684397+00:00",
+  "scope": "Finite exact algebra checks; not full physical execution or universal proof"
+}

@@ -1,0 +1,80 @@
+{
+  "session": "2026-11-26-S003",
+  "prepared_utc": "2026-11-25T23:42:03.822041+00:00",
+  "parent": "a8dd6c249eecfa26028a7d67b895c5d7cd3f1d83",
+  "last_confirmed_checkpoint": "2fde2b0cf84f6a2e99d12cdeb112f8b9a0fd8812",
+  "session_complete": false,
+  "proof_snapshots": {
+    "lead/numerical-toll-gate.md": "ad1f888cd30acf03a56fd8dccda45293d64aee3fe2ba28058faa63f28253c0a8",
+    "lead/anchored-partition-floor.md": "86d4a5c6706aea67e0783ecd0bea8addaa7767d60441ca8c4458079d2ac59afd",
+    "lead/review-fifth-wave-components.md": "39b17441fcbdc539f4fac06f4f740c3d5b1ba835f912eee2322a2be564c6b0c2",
+    "route-a/separated-numerical-address-audit.md": "98562bf960f3986839a4e3fe729f26dc94343930bb8319adc30baf2e5faaab6b",
+    "route-a/review-anchored-partition-floor.md": "3df79e50dda20f296ca477ba278403398070c48c2900c9f29a98ce4835eff54d",
+    "route-b/direct-rank-routing-obstruction.md": "2d673f1e42f4c983c62b9fdf6993c311c3032d536175306011cf05781f50ef4b",
+    "route-b/spectral-query-rank-obstruction.md": "b63319f70fde7075184f892f1b68ae22bfe834602c5df642ffcf9deea936ab3b",
+    "route-c/FINITE-ALPHABET-PAYLOAD-PACKING.md": "472f2c2c8a00d33a2fde2164bdfaa9531f488e80f05c2d26f5ac65ba9cd6fe84",
+    "route-c/REVIEW-NUMERICAL-TOLL-GATE.md": "00ec4334469dc5d2cbc285252b25524263b24674212c51029ad8bd4b0f646372",
+    "route-c/REVIEW-SEPARATED-NUMERICAL-ADDRESS.md": "2aa5931511344741a785ea97ef3ff790157e01b979ce9484ce453fe3152c4ac8"
+  },
+  "root_replays": {
+    "lead/replays/fifth-wave/separated-address/receipt.json": {
+      "source": "research/moonshot-overhead-program/sessions/2026-11-26-S003/route-a/verify_separated_numerical_address.py",
+      "sha256": "d4395f18c420d151bea1372b84093495352a0458bbd8d2aadf20ee6b1e850228",
+      "command": [
+        "python3",
+        "-I",
+        "-B",
+        "research/moonshot-overhead-program/sessions/2026-11-26-S003/lead/replays/fifth-wave/separated-address/verify_separated_numerical_address.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"exact_kernel_entries\": 256,\n  \"full_global_query_outputs\": 217872,\n  \"support_witnesses\": 32,\n  \"negative_controls\": 35,\n  \"regular_price_cancellation_checks\": 80,\n  \"cases\": [\n    {\n      \"m\": 1,\n      \"f\": 1,\n      \"full_addresses\": 16,\n      \"query_maps\": 1\n    },\n    {\n      \"m\": 3,\n      \"f\": 1,\n      \"full_addresses\": 256,\n      \"query_maps\": 3\n    },\n    {\n      \"m\": 5,\n      \"f\": 1,\n      \"full_addresses\": 4096,\n      \"query_maps\": 5\n    },\n    {\n      \"m\": 3,\n      \"f\": 2,\n      \"full_addresses\": 65536,\n      \"query_maps\": 3\n    }\n  ],\n  \"scope\": \"Exact endpoint identity and literal query-map obstruction; no joint executor or runtime lower bound.\",\n  \"script_sha256\": \"d4395f18c420d151bea1372b84093495352a0458bbd8d2aadf20ee6b1e850228\"\n}\n",
+      "stderr": "",
+      "replayed_utc": "2026-11-25T23:38:40.249157+00:00",
+      "scope": "Finite exact kernel/layout controls; no joint executor or runtime lower bound"
+    },
+    "lead/replays/fifth-wave/direct-rank/receipt.json": {
+      "source": "route-b/verify_direct_rank_obstruction.py",
+      "source_sha256": "4ce23b9d849ba4f8c5c8c4b5d2655ffcf301e8f448e1b5938b8e69d9c65ebcfe",
+      "command": [
+        "python3",
+        "-I",
+        "-B",
+        "verify_direct_rank_obstruction.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"pass\",\n  \"scope\": \"formal full-identity coefficient-rank invoice only\",\n  \"counts\": {\n    \"predictor_coefficients\": 17241,\n    \"full_degree_restrictions\": 885114,\n    \"determinant_rank_bounds\": 600,\n    \"formal_factor_identities\": 128,\n    \"rank_invoice_checks\": 76,\n    \"finite_spectral_counterexamples\": 3267,\n    \"rejected_formal_substitution_controls\": 5\n  },\n  \"finite_spectral_escape\": \"constant identity agrees on q_j^3=1 but fails as a formal polynomial\"\n}\n",
+      "stderr": ""
+    },
+    "lead/replays/fifth-wave/spectral-query-rank/receipt.json": {
+      "source": "research/moonshot-overhead-program/sessions/2026-11-26-S003/route-b/verify_spectral_query_rank.py",
+      "sha256": "b69ba9839ca60fca9edf298bd9f86ed9dbfd9588d7c18fb10e9a77fd4bc3e333",
+      "command": [
+        "python3",
+        "-I",
+        "-B",
+        "research/moonshot-overhead-program/sessions/2026-11-26-S003/lead/replays/fifth-wave/spectral-query-rank/verify_spectral_query_rank.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"pass\",\n  \"counts\": {\n    \"product_difference_bounds\": 1296,\n    \"rectangular_program_bounds\": 144,\n    \"approximate_rank_bounds\": 162,\n    \"predictor_essential_coordinates\": 651,\n    \"constant_spectrum_controls\": 11988\n  },\n  \"scope\": \"separate scalar-query rank; fixed linear programs and finite spectra only\"\n}\n",
+      "stderr": "",
+      "replayed_utc": "2026-11-25T23:35:18.684397+00:00",
+      "scope": "Finite exact algebra checks; not full physical execution or universal proof"
+    },
+    "lead/replays/fifth-wave/finite-alphabet/receipt.json": {
+      "source": "route-c/verify_finite_alphabet_packing.py",
+      "source_sha256": "08f367f2a4eec4aa63ffca39d5c054b15c404c312c8fe651aa15ae9c246dae46",
+      "command": [
+        "python3",
+        "-I",
+        "-B",
+        "verify_finite_alphabet_packing.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"pass\",\n  \"counts\": {\n    \"algebras\": 11,\n    \"packing_shapes\": 22,\n    \"independent_inputs\": 854,\n    \"nested_codec_calls\": 854,\n    \"outside_input_subset\": 388,\n    \"premature_truncation_rejected\": 388,\n    \"incomplete_identity_rejected\": 830\n  },\n  \"scope\": \"Literal packing scans and complete algebra/permutation identities, including nested codecs; not a complete tape algorithm.\",\n  \"checker_sha256\": \"08f367f2a4eec4aa63ffca39d5c054b15c404c312c8fe651aa15ae9c246dae46\"\n}\n",
+      "stderr": ""
+    }
+  },
+  "limits": "AQ unchanged; conditional and scoped claims separately labelled. No full multiplier, Lean refinement or human refereeing.",
+  "publication_parent": "d88a36eea2010113e08f83f49bbe50886111ceff",
+  "reconciliation": "Preserved E003 d88a36ee concurrent complete two-scale admission and scoped components; no foreign files overwritten."
+}

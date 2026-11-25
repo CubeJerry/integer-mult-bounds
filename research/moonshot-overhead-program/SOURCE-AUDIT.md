@@ -182,3 +182,7 @@ E002 refreshed and read the complete focused prompt again, unchanged. New review
 ## E003 checkpoint update — 2026-11-25T23:37:13Z
 
 E003 lead completed the primary interchange, permutations, Walsh, integers, uniformity, rational repair, kernel, binary and September elementary-stream reads listed in its admission manifest. Additional literature lead: Cardinal, McCarty and Yuditsky, Biclique decompositions from Welzl orders, arXiv:2606.09785v2; introduction and complete Section 2 read, not the entire paper. Its order-to-partition construction motivated E003 exact crown-product run/tree calculations. Pinto EJC21(1)P1.19 was read only at abstract/introduction scope; SEA2025 fractional-rank work only at search-excerpt scope. No comprehensive literature-priority audit is claimed.
+
+## S003 fifth-wave checkpoint
+
+Canonical main e54523517d0f03e58352e647c403a5af3e525a57 and OpenAI main3344da59991ed94f9ba711217b29c1d760badfa6 were live-rechecked unchanged at23:36 UTC. Root reread the Fourier kernel endpoint section and read the full S004 JRT-U transfer, independent C review and second-wave admission at af5d7983. Root read E002's complete noncanonical incidence proof at a8dd6c24, including its constant-weight rank and binomial bounds; no S003 replay of its checker is claimed. The E002 RV admission was read, not all RV suppliers. Broader manuscript and archive coverage remains staged as previously recorded.

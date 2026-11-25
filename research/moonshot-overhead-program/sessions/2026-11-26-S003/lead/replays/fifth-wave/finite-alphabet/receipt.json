@@ -1,0 +1,13 @@
+{
+  "source": "route-c/verify_finite_alphabet_packing.py",
+  "source_sha256": "08f367f2a4eec4aa63ffca39d5c054b15c404c312c8fe651aa15ae9c246dae46",
+  "command": [
+    "python3",
+    "-I",
+    "-B",
+    "verify_finite_alphabet_packing.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"pass\",\n  \"counts\": {\n    \"algebras\": 11,\n    \"packing_shapes\": 22,\n    \"independent_inputs\": 854,\n    \"nested_codec_calls\": 854,\n    \"outside_input_subset\": 388,\n    \"premature_truncation_rejected\": 388,\n    \"incomplete_identity_rejected\": 830\n  },\n  \"scope\": \"Literal packing scans and complete algebra/permutation identities, including nested codecs; not a complete tape algorithm.\",\n  \"checker_sha256\": \"08f367f2a4eec4aa63ffca39d5c054b15c404c312c8fe651aa15ae9c246dae46\"\n}\n",
+  "stderr": ""
+}

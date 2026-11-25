@@ -1,6 +1,6 @@
 # A varying-arity exact interchanger with absolute linear space
 
-Status: **written theorem; independent review requested**. This is the exact physical-address component. It does not alone prove a numerical transform or integer-multiplication bound. Unlike the fixed-profile component, it chooses a fresh finite parameter at each spatial descent.
+Status: **written theorem; independently accepted by Route C**. See `../route-c/REVIEW-ADAPTIVE-INTERCHANGE.md`. This is the exact physical-address component. It does not alone prove a numerical transform or integer-multiplication bound. Unlike the fixed-profile component, it chooses a fresh finite parameter at each spatial descent.
 
 Pins: programme `0607d044d1d09489580da0e5828588820e1a6775`; OpenAI math `3344da59991ed94f9ba711217b29c1d760badfa6`. Dependencies: B's `compact-interchange.md` (CI), `succinct-factor.md` (B1), `explicit-dyadic-geometry.md` (B2), `full-rate-field-packing.md` (FP); A's `uniform-payload-shared-pencil.md` (UP); C's `COMPACT-SPECTRAL-REPAIR-EXECUTOR.md` (SR); lead `packed-batch-with-small-radix.md` (PB). The source supplies elementary streams, shared-pencil identities and the main/reserve recursion. All constants are independent of input and recursion depth. Write
 

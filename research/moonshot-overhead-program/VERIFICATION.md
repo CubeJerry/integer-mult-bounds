@@ -178,3 +178,7 @@ E002 integrated separate A/C whole conditional-transfer reviews, with explicit v
 ## E003 checkpoint update — 2026-11-25T23:37:13Z
 
 E003 complete admission has a fresh fifteen-component hash match and independent C integration review. Binary Walsh diagnostics passed 15 Gram-rank cases, 14,940 canonical rectangles, 231,102 partitioned edges, 2,142 exact Newton values and 3,948 integer guards. Crown-product checks passed 10,248 neighborhood pairs and 403,256 full orderings; exact hierarchy subset DP includes 65,535 states and 21,457,825 split trials for C(4,2), with optimum total80. These are finite exact diagnostics supporting separate universal written proofs, not a full multiplier or formal machine execution.
+
+## S003 fifth-wave checkpoint
+
+Root read DR, FP-A, SQ, NT and C NT review, and ran isolated finite replays recorded in sessions/2026-11-26-S003/lead/replays/fifth-wave/. SQ replay passed1,296 product differences,144 rectangular-register programs,162 rank-error comparisons,651 essential-coordinate cases and11,988 constant-spectrum controls. C independently replayed NT:640 exact certificates,4 controls,5 paths through122 levels. A independently accepted/replayed AP:22 covers,10,564 edges,768 correlated sides,20 anchored and6,144 parameter profiles,4 scope controls. Root reread the actual source endpoint Fourier section and replayed the separated-address audit:256 kernel entries,217,872 spectator-preserving outputs,35 controls and80 cancellation checks. No full multiplier, tape-time simulation, Lean build or human referee review occurred.

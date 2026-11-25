@@ -1,0 +1,13 @@
+{
+  "source": "route-b/verify_direct_rank_obstruction.py",
+  "source_sha256": "4ce23b9d849ba4f8c5c8c4b5d2655ffcf301e8f448e1b5938b8e69d9c65ebcfe",
+  "command": [
+    "python3",
+    "-I",
+    "-B",
+    "verify_direct_rank_obstruction.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"pass\",\n  \"scope\": \"formal full-identity coefficient-rank invoice only\",\n  \"counts\": {\n    \"predictor_coefficients\": 17241,\n    \"full_degree_restrictions\": 885114,\n    \"determinant_rank_bounds\": 600,\n    \"formal_factor_identities\": 128,\n    \"rank_invoice_checks\": 76,\n    \"finite_spectral_counterexamples\": 3267,\n    \"rejected_formal_substitution_controls\": 5\n  },\n  \"finite_spectral_escape\": \"constant identity agrees on q_j^3=1 but fails as a formal polynomial\"\n}\n",
+  "stderr": ""
+}

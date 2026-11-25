@@ -127,3 +127,7 @@ JR exact local-load partitions, if they exist with the specified uniform exponen
 ## E002 conditional and geometry checkpoint — 2026-11-25T23:33:42.601963+00:00
 
 The E002 follow-on package now separates an admitted unconditional V construction, a complete conditional rectangle-volume target, proved finite-parameter components, and scoped incidence/query-map certificate obstructions. The next construction must improve actual shared delivery; lower output counts do not suffice. S003 independently attains the same current unconditional envelope with a different space implementation and retains separate provenance.
+
+## S003 fifth-wave checkpoint
+
+AQ remains the complete unconditional S003 construction, with log H=O(s^(2/3)log(s+2)^(1/3)) and an absolute visited-cell cap. The separate S004 checkpoint af5d7983 supplies the conditional implication JR alone => log H=O(s^(2/3)), by improving both geometries. S003 NT explains why improving only routing leaves its unchanged numerical majorant binding. Formal and finite-spectrum separate-query routes are now obstructed; protected discovery moves to joint address delivery. Finite-alphabet packing is accepted, with no new multiplier rate inferred.

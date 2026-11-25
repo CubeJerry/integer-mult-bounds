@@ -218,3 +218,7 @@ The next E002 positive gate is actual rectangle-volume shared delivery in BOTH e
 ## E003 checkpoint update — 2026-11-25T23:37:13Z
 
 E003 closes its P-I/P-W/P-O composition gates through the rational Walsh fixed-array supplier, separate source caller audit, explicit numerical guard and sequential common-cap wrapper. C independently accepted final integration. Remaining discovery targets concern actual routing and labels beyond the retained invoice. One common ordering or one laminar endpoint family cannot supply S004 JR for crown products; arbitrary nonlaminar partitions remain open.
+
+## S003 fifth-wave checkpoint
+
+Accepted: finite-alphabet payload bridge FP-A; formal direct-rank obstruction DR; spectral-only, approximate-output and fixed linear-program extension SQ; positive-majorant NT and its conditional physical implications; AP elementary anchored-incidence floor after A review. Proofs/reviews/replays are under sessions/2026-11-26-S003. Open: JR exact partitions; an actual joint-address supplier SN. A refined source audit retains an m query factor, with an exact free-endpoint support witness. The p-power compiler is completing independent review. E002 NC gives a stronger noncanonical incidence floor than AP; its scope is credited separately.

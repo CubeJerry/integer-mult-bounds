@@ -94,3 +94,7 @@ A's JR composition now pays the actual E002 variable-profile suppliers and all n
 ## E002 conditional and geometry checkpoint — 2026-11-25T23:33:42.601963+00:00
 
 E002 retains protected positive batching discovery while independent reviewers examine alternative compatible partitions and endpoint architecture. Whole RV conditional composition is accepted after two explicit interface corrections; neither processor is asserted to exist. See its admission and follow-on gate register for exact proof/review bindings.
+
+## S003 fifth-wave checkpoint
+
+The fifth wave formally stops the finite-spectrum-only separate-query pivot: SQ removes the formal-polynomial premise while retaining essential-coordinate and rank-error sensitivity. B has sustained independent discovery time on a genuinely joint middle-pencil executor. A separated actual numerical address work and exposed the surviving m factor; C broadened finite-alphabet packing and is testing a p-power-only compiler. Root proved NT and a narrow AP floor. Two nearby scalar-routing escapes have failed, so another parameter-only retuning is not supported by this research decision. JR and joint physical delivery change different premises and remain distinct routes.

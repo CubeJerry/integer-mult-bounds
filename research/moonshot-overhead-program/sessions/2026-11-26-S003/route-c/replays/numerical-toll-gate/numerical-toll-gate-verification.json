@@ -1,0 +1,51 @@
+{
+  "status": "pass",
+  "scope": "Exact positive-majorant and conditional shape diagnostics; no proof of JR, SN or full multiplier execution.",
+  "irregular_certificates": 640,
+  "maximum_exact_integer_bits": 10020,
+  "negative_controls": 4,
+  "conditional_shape_paths": [
+    {
+      "root_log2_active": 512,
+      "levels": 37,
+      "terminal_log2_active": 124,
+      "product_arity_bound": true,
+      "norm_gain_guard": true
+    },
+    {
+      "root_log2_active": 1024,
+      "levels": 57,
+      "terminal_log2_active": 126,
+      "product_arity_bound": true,
+      "norm_gain_guard": true
+    },
+    {
+      "root_log2_active": 2048,
+      "levels": 78,
+      "terminal_log2_active": 126,
+      "product_arity_bound": true,
+      "norm_gain_guard": true
+    },
+    {
+      "root_log2_active": 4096,
+      "levels": 100,
+      "terminal_log2_active": 124,
+      "product_arity_bound": true,
+      "norm_gain_guard": true
+    },
+    {
+      "root_log2_active": 8192,
+      "levels": 122,
+      "terminal_log2_active": 123,
+      "product_arity_bound": true,
+      "norm_gain_guard": true
+    }
+  ],
+  "python": "3.12.14",
+  "checker_sha256": "0f958527bef56b923c18a6f138b5e7b8b21058e9f636b92f5a3dd8b4f89f81a7",
+  "limitations": [
+    "The lower theorem is about a specified positive upper-cost certificate, not runtime.",
+    "Conditional path constants are illustrative; no JR rectangle search is instantiated.",
+    "The unbounded proofs and explicit open hypotheses are in numerical-toll-gate.md."
+  ]
+}

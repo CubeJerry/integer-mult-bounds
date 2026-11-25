@@ -68,3 +68,7 @@ E002 checkpoint8af1911b independently admits the same2/3 log^(1/3) envelope thro
 ## S004 sparse-repair primary-source confirmation
 
 Lead independently read the abstract/introduction, related work, Sections 2.2--2.4 and the start of Section 3 through Lemma 3.4 of Giorgi, Grenet, Perret du Cray and Roche, *Fast interpolation and multiplication of unbalanced polynomials* (2024), https://www-verimag.imag.fr/~grenetb/publis/GGPR24.pdf. Derivative-based recovery and cyclic folding are established prior art; the S004 deterministic all-moduli physical bound and one-sided three-moment certificate are separately proved, with no claim that the paper's randomized algorithm is a deterministic tape primitive. No novelty certification follows from this scoped reading.
+
+## S003 fifth-wave checkpoint
+
+Fresh narrow GitHub searches found only already-known PR8102 and issue8100 among the queried November overhead/title updates; this is not exhaustive novelty coverage. Root read primary Pinto definitions/introduction and Ghosal--Karrenbauer abstract/introduction/definitions on exact versus fractional biclique partitions; neither settles JR. Concurrent S004 af5d7983 supplies JR-only log-free two-thirds; E002 a8dd6c24 supplies separate conditional RV contracts and a stronger noncanonical incidence floor. These are credited, preserved and kept distinct from S003's direct absolute-space AQ and its narrower invoice proofs.

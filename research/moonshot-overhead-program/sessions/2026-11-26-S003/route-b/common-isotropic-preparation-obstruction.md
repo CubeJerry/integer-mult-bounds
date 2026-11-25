@@ -51,15 +51,17 @@ independent of a_i. Its destination side is
 
 These are actual members of the retained directed-rectangle construction. Take their product over the first d outer positions and fix the other outer positions at u(0). All resulting outer rectangles have the identical source side L0^d times the fixed positions. Their destination anchors u(a_i) are valid. The preceding proof therefore forces at least (q/2)^d common isotropic difference spaces even for an identical source endpoint set. Its logarithm is d log2(q)-d, so the opposite-letter dependence survives at its leading scale in this reuse model.
 
+Changing the chosen source anchor inside this fixed side does not evade the proposition. If l_a is another source anchor, its new cross vector differs from g_a by z_l-z_(l_a). Any common space supporting the source side already contains all those source differences. If it contained every reanchored cross vector, it would therefore contain every original g_a. This refinement was observed independently by Route C.
+
 ## 4. Consequence and limits
 
 The failed construction replaces every opposite-anchor-specific isotropic preparation by one depending only on the source anchor or source set. Proposition IP gives an explicit obstruction. It does not prove that the required distinct spaces force distinct expensive calls on all data: prefix sharing, algebraic aggregation, nonisotropic layouts or another compiler may still help. It does not price the separate t^(d(d-1)) factor or assert any new general exponent-2/3 barrier.
 
-A second generic attempt sums inputs in a source-only common layout, then changes each sum to a full rectangle layout separately for each query. Its cost is m times the number of rectangles divided by N. The inner rectangle count is
+A second generic attempt sums inputs in a source-only common layout, then changes each sum to a full rectangle layout separately for each query. This generic variant declares one full common-layout conversion per query/rectangle pair, so its invoice is m times the number of rectangles divided by N. The inner rectangle count is
 
     R0=binom(h,d) 2^(d-1) q^d (q-1)^d.
 
-The outer count divided by N is binom(h,d)(R0/q^h)^d, which is at least one: q-1>=q/2 gives R0/q^h>=binom(h,d)q/2>=1. Thus the generic per-query conversion already costs at least m normalized spatial calls and cannot meet a sqrt(m) subexponential invoice. A query-independent aggregate identity would be a different mechanism.
+The outer count divided by N is binom(h,d)(R0/q^h)^d, which is at least one: q-1>=q/2 gives R0/q^h>=binom(h,d)q/2>=1. Thus this generic per-query conversion invoice already charges at least m normalized spatial calls and cannot meet a sqrt(m) subexponential invoice. A query-independent aggregate identity would be a different mechanism.
 
 `verify_isotropic_preparation_obstruction.py` constructs sparse primal vectors and evaluates the Gram form directly, rather than merely substituting (IP2). It checks self-isotropy, distinct pairings, the identical-source-side subfamily, radix-3 reductions and wrong-vector controls. These finite checks supplement the exact argument. No tape-machine execution or new global multiplication result is claimed.
 

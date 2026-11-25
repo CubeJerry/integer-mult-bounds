@@ -38,3 +38,7 @@ The lead read current root AGENTS, CONTRIBUTING and autoresearch, selected-resul
 3. Does asymmetric or multilevel geometry reduce the complete routing invoice, or is there a scoped lower bound for that family?
 
 No new theorem is admitted in this resumption checkpoint.
+
+## Current fifth-wave status
+
+The initial questions above describe resumption, not the current frontier. AQ is now admitted: `H<=2^{O(s^(2/3)(log2(s+2))^(1/3))}` with one absolute O(n) visited-cell cap. See `lead/ADMISSION-AQ.md`. The fifth-wave component/replay review is `lead/review-fifth-wave-components.md`; NT has a separate independent C review. Concurrent S004 JR alone conditionally removes the logarithmic factor. Separate-query spectral routing is stopped by SQ; genuinely joint address delivery remains open. The session is still live through00:19:05 UTC.

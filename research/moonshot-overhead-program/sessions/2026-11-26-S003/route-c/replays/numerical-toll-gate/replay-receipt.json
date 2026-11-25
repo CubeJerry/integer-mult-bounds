@@ -1,0 +1,13 @@
+{
+  "source": "research/moonshot-overhead-program/sessions/2026-11-26-S003/lead/verify_numerical_toll_gate.py",
+  "source_sha256": "0f958527bef56b923c18a6f138b5e7b8b21058e9f636b92f5a3dd8b4f89f81a7",
+  "command": [
+    "python3",
+    "-I",
+    "-B",
+    "research/moonshot-overhead-program/sessions/2026-11-26-S003/route-c/replays/numerical-toll-gate/verify_numerical_toll_gate.py"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"pass\",\n  \"scope\": \"Exact positive-majorant and conditional shape diagnostics; no proof of JR, SN or full multiplier execution.\",\n  \"irregular_certificates\": 640,\n  \"maximum_exact_integer_bits\": 10020,\n  \"negative_controls\": 4,\n  \"conditional_shape_paths\": [\n    {\n      \"root_log2_active\": 512,\n      \"levels\": 37,\n      \"terminal_log2_active\": 124,\n      \"product_arity_bound\": true,\n      \"norm_gain_guard\": true\n    },\n    {\n      \"root_log2_active\": 1024,\n      \"levels\": 57,\n      \"terminal_log2_active\": 126,\n      \"product_arity_bound\": true,\n      \"norm_gain_guard\": true\n    },\n    {\n      \"root_log2_active\": 2048,\n      \"levels\": 78,\n      \"terminal_log2_active\": 126,\n      \"product_arity_bound\": true,\n      \"norm_gain_guard\": true\n    },\n    {\n      \"root_log2_active\": 4096,\n      \"levels\": 100,\n      \"terminal_log2_active\": 124,\n      \"product_arity_bound\": true,\n      \"norm_gain_guard\": true\n    },\n    {\n      \"root_log2_active\": 8192,\n      \"levels\": 122,\n      \"terminal_log2_active\": 123,\n      \"product_arity_bound\": true,\n      \"norm_gain_guard\": true\n    }\n  ],\n  \"python\": \"3.12.14\",\n  \"checker_sha256\": \"0f958527bef56b923c18a6f138b5e7b8b21058e9f636b92f5a3dd8b4f89f81a7\",\n  \"limitations\": [\n    \"The lower theorem is about a specified positive upper-cost certificate, not runtime.\",\n    \"Conditional path constants are illustrative; no JR rectangle search is instantiated.\",\n    \"The unbounded proofs and explicit open hypotheses are in numerical-toll-gate.md.\"\n  ]\n}\n",
+  "stderr": ""
+}
