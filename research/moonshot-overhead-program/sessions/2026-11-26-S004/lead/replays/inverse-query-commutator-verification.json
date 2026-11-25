@@ -1,0 +1,116 @@
+{
+  "status": "passed",
+  "arithmetic": "exact F4, F5 and integers",
+  "seed": 1414213562,
+  "counts": {
+    "exact_binary_ternary_cut_formulas": 160,
+    "enumerated_cut_counts": 88,
+    "exact_affine_inverse_identities": 18,
+    "inverse_commutator_rank_equalities": 54,
+    "changing_width_network_invoices": 54,
+    "noncommuting_one_fraction_cases": 56,
+    "one_fraction_spectral_ranks": 4064
+  },
+  "examples": [
+    {
+      "m": 2,
+      "width": 3,
+      "a": 1,
+      "b": 1,
+      "left_and_right_rank_sums": [
+        9,
+        9
+      ],
+      "lower_rank_sum": 0
+    },
+    {
+      "m": 3,
+      "width": 3,
+      "a": 1,
+      "b": 1,
+      "left_and_right_rank_sums": [
+        23,
+        23
+      ],
+      "lower_rank_sum": 3
+    },
+    {
+      "m": 4,
+      "width": 3,
+      "a": 1,
+      "b": 1,
+      "left_and_right_rank_sums": [
+        45,
+        45
+      ],
+      "lower_rank_sum": 3
+    },
+    {
+      "m": 5,
+      "width": 3,
+      "a": 1,
+      "b": 1,
+      "left_and_right_rank_sums": [
+        89,
+        89
+      ],
+      "lower_rank_sum": 18
+    },
+    {
+      "m": 6,
+      "width": 3,
+      "a": 1,
+      "b": 1,
+      "left_and_right_rank_sums": [
+        180,
+        180
+      ],
+      "lower_rank_sum": 21
+    },
+    {
+      "m": 7,
+      "width": 3,
+      "a": 1,
+      "b": 1,
+      "left_and_right_rank_sums": [
+        361,
+        361
+      ],
+      "lower_rank_sum": 87
+    },
+    {
+      "m": 8,
+      "width": 3,
+      "a": 1,
+      "b": 1,
+      "left_and_right_rank_sums": [
+        715,
+        715
+      ],
+      "lower_rank_sum": 111
+    }
+  ],
+  "negative_controls": [
+    {
+      "omission": "active row volume",
+      "example": "one inverse on m+1 path rows, input/output width 1",
+      "m": 9,
+      "invalid_gate_count": 1,
+      "correct_active_volume": 10
+    },
+    {
+      "omission": "singular denominator defect",
+      "example": "A=B=0, P=chi I",
+      "apparent_error": 0,
+      "denominator_nullity_fraction": 1
+    },
+    {
+      "omission": "affine query contract",
+      "example": "chi I declared one affine gate for m=9",
+      "actual_support_degree": 9
+    }
+  ],
+  "checker_sha256": "5225dbbb4e7e6cf536e29a80233f69fec4822eb085819fe99ca8e3e8567abad9",
+  "helper_sha256": "3c28f685c9d59e08d769401586eea01ca882a1df0fae99b1cfb27878c22647e3",
+  "scope": "Exact finite rank/count/inverse tests; no tape runtime or asymptotic verification by enumeration"
+}

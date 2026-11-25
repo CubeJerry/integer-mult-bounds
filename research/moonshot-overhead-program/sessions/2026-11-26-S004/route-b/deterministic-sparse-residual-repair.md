@@ -1,8 +1,7 @@
 # Deterministic recovery of a sparse ordinary convolution residual
 
-Checkpoint disposition: R1 admitted after A/C/lead review under the explicit sparsity promise. See `lead/FIRST-WAVE-ADMISSION.md` relative to the session root.
-
-Status: **proved component algorithm, pending independent physical review**.
+Status: **proved component algorithm; independently reviewed by the
+session lead and Routes A and C, with exact finite controls replayed**.
 The algorithm uses a promised bound on the number of erroneous ordinary
 coefficients. Their positions are unknown. No algorithm producing a fast
 candidate with this promise is supplied, so there is no new complete
@@ -411,11 +410,13 @@ target input variable at each ordinary output coordinate. On independent
 binary input bits, each decoded output has error probability at least one
 half. Some input therefore has at least half of all ordinary outputs wrong.
 
-Thus deleting spectral repair from that route does not leave a sparse
-ordinary residual to which Theorem R1 applies. The positive correction
-algorithm and this negative bridge test are compatible: they isolate a
-different candidate-construction problem instead of silently reusing an
-inapplicable approximation guarantee.
+Thus deleting spectral repair does not by itself supply a sparse ordinary
+residual at this independent-input transform interface. This is not a theorem
+that every later multiplication composition has a dense final convolution
+residual: a later map or nonlinear step could change its geometry and would
+need a separate proof. The positive correction algorithm and this negative
+bridge test are compatible: they isolate a different candidate-construction
+problem instead of silently reusing an inapplicable approximation guarantee.
 
 ## 9. Sources and provenance
 

@@ -249,3 +249,11 @@ The branch was fast-forwarded through E003df91e4c8, S00404c1cb0d and E0028af1911
 ### E003 update — 2026-11-25T22:59:43Z
 
 E003 reconciled E002 two-thirds admission at 8af1911b. Independent source and fixed-array audits continue, with exact order-five word classification. See its scoped session log.
+
+## S004 second scientific checkpoint — 2026-11-25 23:21 UTC
+
+The complete JR-only conditional theorem now gives H<=2^{O_c(s^(2/3))}, by separately replacing exact-interchange and Fourier endpoint geometry and composing with the admitted E002 variable profile. JR remains an open exact partition hypothesis. The current unconditional bound is the concurrent E002 H<=2^{O(s^(2/3)(log2(s+2))^(1/3))}; it is not an S004 discovery. C independently reviewed the entire conditional transfer and lead read and replayed its critical geometry.
+
+Admitted scoped components include inverse-aware active query volume, its weighted two-point rational-fraction extension, full-batch and active-row two-converter repair-tree floors, constraints on fixed-bilinear sparse suppliers, and a sound budgeted ordinary-residual certificate under a coefficientwise one-sided premise. The latter uses exact zeroth, first and second folded moments plus total mass; it removes the trusted sparsity premise but does not supply a fast candidate or certify the sign premise. Complete proofs, reviews, limitations and lead replay counts are in `sessions/2026-11-26-S004/lead/SECOND-WAVE-ADMISSION.md`.
+
+The active portfolio now tests heterogeneous Fourier geometry, dense low-recurrence residuals and full-alphabet survivor rank. Euclidean spectral-price source scope was audited; no physical tape primitive is imported from an advised circuit or contradiction-hypothesis construction. Work continues to the requested 01:01:15 UTC endpoint.

@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "arithmetic": "exact rational and integer",
+  "counts": {
+    "parity_corrected_tails": 45150,
+    "finite_local_potentials": 45150,
+    "finite_six_fifths_bounds": 276,
+    "relaxed_trees": 1495,
+    "degree_one_equalities": 299
+  },
+  "negative_control": {
+    "omission": "one-coordinate parity restriction",
+    "m": 8,
+    "naive_two_child_mass": "93/128",
+    "correct_zero_stage_two_child_mass": "1",
+    "depth_20_naive_cost_less_than_true_floor": true
+  },
+  "asymptotic_diagnostics": [
+    {
+      "m": 25,
+      "exact_potential_over_sqrt_m": 1.2408467558824268,
+      "limit": 1.2533141373155001
+    },
+    {
+      "m": 100,
+      "exact_potential_over_sqrt_m": 1.25645129018549,
+      "limit": 1.2533141373155001
+    },
+    {
+      "m": 1000,
+      "exact_potential_over_sqrt_m": 1.2536275049669254,
+      "limit": 1.2533141373155001
+    },
+    {
+      "m": 10000,
+      "exact_potential_over_sqrt_m": 1.253345470560545,
+      "limit": 1.2533141373155001
+    }
+  ],
+  "checker_sha256": "480f7bb7af8855e18d59e04502d75d1d86c4a00d306758097c6f1e4b212ad528",
+  "scope": "Finite invoice inequalities and relaxed trees; no physical algorithm or general runtime lower bound"
+}

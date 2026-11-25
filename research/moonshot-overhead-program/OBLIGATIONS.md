@@ -200,3 +200,12 @@ No unproved family-efficiency premise remains for AQ. Fixed source shape/analyti
 ### E003 update — 2026-11-25T22:59:43Z
 
 E003 local PS/CL/FP and P-O reviewed. Its remaining composition gate is fixed-array numerical Walsh execution, joint precision/constructor accounting and common visited-space. Concurrent E002 two-thirds admission remains the programme best.
+
+## S004 second-wave status
+
+- **JR:** sole unclosed premise of the complete log-free two-thirds conditional construction. Free Fourier endpoints may use arbitrary correlated rectangle sides; small examples and Boolean covers do not prove the required exact partitions.
+- **Sparse supplier:** fixed bilinear and rounded bilinear suppliers face proved coordinatewise constraints. A one-sided residual can be soundly recovered or rejected against a budget without trusting sparsity, but a fast useful candidate and its coefficientwise sign guarantee remain open.
+- **Model barriers:** inverse-aware query volume, weighted restrictions and the two-converter finite-tree floors are admitted in their explicitly billed algebraic models. They are not lower bounds on general multiplication time.
+- **New mechanisms:** heterogeneous endpoint alphabets, dense low-recurrence residuals and full-alphabet survivor rank are active and unadmitted at this checkpoint.
+
+See S004 `lead/SECOND-WAVE-ADMISSION.md` for the exact boundaries.

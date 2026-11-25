@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "arithmetic": "exact F4, F5, F7 and integers",
+  "seed": 1732050807,
+  "counts": {
+    "local_two_point_matrix_identities": 504,
+    "universal_target_cut_ranks": 144,
+    "high_low_degree_subspace_identities": 432,
+    "ternary_fraction_spectral_ranks": 13068,
+    "ternary_binary_tail_fraction_cases": 20
+  },
+  "negative_controls": [
+    {
+      "omission": "nonzero local target values",
+      "model": "AND on {0,1}^5 versus zero predictor",
+      "actual_error_numerator": 1,
+      "invalid_binary_tail_numerator": 16,
+      "common_denominator": 32
+    }
+  ],
+  "checker_sha256": "6cc9822f921fb8ea7b5eecef5db05c1de61543540966415e7ac28a082c682e25",
+  "helper_sha256": "5225dbbb4e7e6cf536e29a80233f69fec4822eb085819fe99ca8e3e8567abad9",
+  "scope": "Weighted two-point algebra and exact finite rank checks; not a tape implementation"
+}

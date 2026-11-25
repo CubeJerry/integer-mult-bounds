@@ -1,0 +1,140 @@
+{
+  "status": "pass",
+  "scope": "Exact finite identity and correlated endpoint checks; JR remains unproved.",
+  "finite_cases": [
+    {
+      "q": 2,
+      "L": 2,
+      "labels": 4,
+      "charged_rectangles": 5,
+      "free_rectangles": 8,
+      "nonproduct_sides": 0,
+      "both_nonproduct_rectangles": 0,
+      "source_load": 2,
+      "destination_load": 2,
+      "gamma_rank": 2,
+      "endpoint_span_checks": 8,
+      "identity_checks": 16,
+      "missing_free_negative_controls": 8,
+      "even_distance_negative_controls": 4
+    },
+    {
+      "q": 2,
+      "L": 4,
+      "labels": 16,
+      "charged_rectangles": 33,
+      "free_rectangles": 128,
+      "nonproduct_sides": 0,
+      "both_nonproduct_rectangles": 0,
+      "source_load": 8,
+      "destination_load": 8,
+      "gamma_rank": 2,
+      "endpoint_span_checks": 128,
+      "identity_checks": 256,
+      "missing_free_negative_controls": 128,
+      "even_distance_negative_controls": 112
+    },
+    {
+      "q": 2,
+      "L": 6,
+      "labels": 64,
+      "charged_rectangles": 233,
+      "free_rectangles": 2048,
+      "nonproduct_sides": 0,
+      "both_nonproduct_rectangles": 0,
+      "source_load": 32,
+      "destination_load": 32,
+      "gamma_rank": 2,
+      "endpoint_span_checks": 2048,
+      "identity_checks": 4096,
+      "missing_free_negative_controls": 2048,
+      "even_distance_negative_controls": 1984
+    },
+    {
+      "q": 2,
+      "L": 8,
+      "labels": 256,
+      "charged_rectangles": 1697,
+      "free_rectangles": 32768,
+      "nonproduct_sides": 0,
+      "both_nonproduct_rectangles": 0,
+      "source_load": 128,
+      "destination_load": 128,
+      "gamma_rank": 2,
+      "endpoint_span_checks": 32768,
+      "identity_checks": 65536,
+      "missing_free_negative_controls": 32768,
+      "even_distance_negative_controls": 32512
+    },
+    {
+      "q": 4,
+      "L": 2,
+      "labels": 16,
+      "charged_rectangles": 9,
+      "free_rectangles": 96,
+      "nonproduct_sides": 0,
+      "both_nonproduct_rectangles": 0,
+      "source_load": 6,
+      "destination_load": 6,
+      "gamma_rank": 6,
+      "endpoint_span_checks": 96,
+      "identity_checks": 256,
+      "missing_free_negative_controls": 96,
+      "even_distance_negative_controls": 144
+    },
+    {
+      "q": 4,
+      "L": 4,
+      "labels": 256,
+      "charged_rectangles": 113,
+      "free_rectangles": 13824,
+      "nonproduct_sides": 7168,
+      "both_nonproduct_rectangles": 3584,
+      "source_load": 72,
+      "destination_load": 72,
+      "gamma_rank": 10,
+      "endpoint_span_checks": 28672,
+      "identity_checks": 65536,
+      "missing_free_negative_controls": 30720,
+      "even_distance_negative_controls": 34560
+    },
+    {
+      "q": 8,
+      "L": 2,
+      "labels": 64,
+      "charged_rectangles": 17,
+      "free_rectangles": 512,
+      "nonproduct_sides": 0,
+      "both_nonproduct_rectangles": 0,
+      "source_load": 10,
+      "destination_load": 10,
+      "gamma_rank": 14,
+      "endpoint_span_checks": 896,
+      "identity_checks": 4096,
+      "missing_free_negative_controls": 896,
+      "even_distance_negative_controls": 3136
+    }
+  ],
+  "profile_checks": {
+    "integer_profiles": 61860,
+    "polynomial_universe_checks": 61335,
+    "x_max": 1099511627776,
+    "c_range": [
+      2,
+      16
+    ]
+  },
+  "recurrence_checks": {
+    "integer_chain_cases": 1020,
+    "chain_edges": 53810,
+    "largest_log_width": 1073741841,
+    "scope": "smoke test; analytic telescoping is in the theorem"
+  },
+  "totals": {
+    "identity_checks": 139792,
+    "endpoint_span_checks": 64616,
+    "both_nonproduct_rectangles": 3584,
+    "missing_free_negative_controls": 66664,
+    "even_distance_negative_controls": 72452
+  }
+}

@@ -171,3 +171,7 @@ The source caller costs O(Nk J(k)(1+log(2+k))^4)+poly(k), J(k)=sqrt(1+k)2^{O(F(l
 ### E003 update — 2026-11-25T22:59:43Z
 
 E003 independently derives the same two-thirds candidate now admitted by concurrent E002. Its constant-array suppliers and shorter order-five finite repair word receive separate review; no smaller asymptotic H is claimed.
+
+## S004 stronger conditional partition transfer
+
+Under the sole additional open combinatorial hypothesis JR, the complete written construction in `sessions/2026-11-26-S004/route-a/joint-rectangle-two-scale-transfer.md` Section 9 gives H(n)<=2^{O_c(s^(2/3))}, s=log2(1+log2 n), with the same exact fixed multitape model and one O(n) visited-cell cap. C review and lead admission are complete. This conditional log-free two-thirds scale supersedes the earlier stationary JR transfer. It does not establish JR, polynomial-s overhead, the constant-overhead endpoint or an unconditional S004 improvement. The E002 unconditional variable-profile theorem above remains the shared baseline.

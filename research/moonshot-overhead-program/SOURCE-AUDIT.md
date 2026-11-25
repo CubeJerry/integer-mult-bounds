@@ -167,3 +167,9 @@ The outer ledger has a fixed log^4 factor and polynomial(k) setup. Norm requests
 ### E003 update — 2026-11-25T22:59:43Z
 
 E003 lead read complete pinned tape interchange/permutations/walsh/integers/uniformity and Fourier repair/kernel/binary, plus September elementary streams. PS/CL/FP, fixed-three geometry and P-O accepted in results/epsilon-uniformity/sessions/E003/lead/review-source-composition.md. Full archive and novelty audit remain partial.
+
+## S004 second-wave source and dependency audit
+
+Lead read E002's complete variable-profile theorem, admission, sharp interchanger-space supplier and independent review; E003's complete two-scale note and recursive-port floor and its weighted matrix-rank proof sections. A and C checked the full JR replacement against the admitted E002 chain at 8af1911b02c04d0c410dd181597fd160582a78b4. The source Fourier free-endpoint cross-orthogonality interface was read directly; correlated rectangle sides need no artificial anchor.
+
+For the Euclidean companion, lead read the main/intro files, the protocol theorem and surrounding beginning, and the beginning of width including approximation and amplification setup. The resulting scoped note is S004 `lead/spectral-price-source-scope.md`: zero Euclidean spectral price is not free physical movement, and contradiction-hypothesis tagged routing is not an unconditional tape primitive. Remaining companion proof coverage is staged. Source pins and lack of exhaustive priority certification remain as previously stated.

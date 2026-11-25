@@ -1,8 +1,7 @@
 # Polynomial prediction, rank repair, and the failure of repair-free rounding
 
-Checkpoint disposition: B1--B3 admitted after C and lead review; B4 separately lead accepted. See `lead/FIRST-WAVE-ADMISSION.md` relative to the session root.
-
-Status: **proved scoped algebraic obstruction; independent review in progress**.
+Status: **proved scoped algebraic obstruction; independently reviewed by
+the session lead and Route C, with exact finite controls replayed**.
 This is not a lower bound on general Fourier algorithms or integer
 multiplication. It supplies no new complete multiplication envelope.
 
@@ -441,6 +440,33 @@ or classical polynomial method.
 No Lean build, full multiplier execution, human refereeing, or general
 complexity lower bound is claimed. Finite checks and the independent audit
 are recorded in their companion files after completion.
+
+### Concurrent E003 result and comparison
+
+After this draft and its initial independent review, the lead refreshed
+remote programme head `df91e4c8e` and read the concurrent focused-session
+file `results/epsilon-uniformity/sessions/E003/route-c/`
+`MATRIX-PREDICTION-RANK-BARRIER.md`. Route B then read its complete
+Theorems M1--M4. E003 independently proves the same binary matrix/port
+tail by a weighted moment method, and proves a **stronger local-spectrum
+extension**: on any product of finite nonzero local spectra containing at
+least two distinct values, the binary binomial tail still lower-bounds
+the uniformly averaged rank defect per affine-query depth.
+
+The weighted proof restricts each local spectrum to two values, chooses
+nonzero algebraic weights annihilating the reciprocal target, and obtains
+a full-rank low-degree Gram matrix. Averaging over choices of pairs returns
+the uniform measure on the full spectra. It correctly counts arbitrary
+local query powers as affine on the restricted pair. The argument was
+read and no mathematical objection was found.
+
+Consequently E003's order-three lower constant is stronger than (10) as
+stated here. The present quotient-module proof remains a separate valid
+derivation, and the norm/dense ordinary-error witnesses retain their own
+scope. Preserve both sessions' provenance; neither the scalar classical
+bound nor the stronger E003 scope is claimed as an exclusive S004 result.
+The two-point theorem is the preferred current statement for the broad
+affine-query rank/port interface.
 
 ## Open next questions
 

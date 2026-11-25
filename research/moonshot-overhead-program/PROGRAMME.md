@@ -119,3 +119,7 @@ S003's AQ is admitted with log H=O(s^(2/3)(log2(s+2))^(1/3)) and one absolute O(
 Concurrent E002 V at8af1911b independently admits the same envelope through composite radix/root-field execution and subpower-space chunk compression. Both are preserved with distinct provenance; neither is a priority claim. E003's conditional draft remains separately recorded. This is written AI-assisted mathematics, not a full implementation, formal refinement or human refereeing.
 
 A/C's matching literal-invoice obstruction closes further arity/distance/nesting retuning within that certificate. B's common-isotropic counterexample defeats one cross-rectangle reuse. The portfolio pivots toward changed geometry or smaller actual shared delivery, with protected independent discovery. Polynomial-s and constant overhead remain open.
+
+## S004 alternative-geometry conditional result
+
+JR exact local-load partitions, if they exist with the specified uniform exponential-in-dimension and polynomial-in-log-alphabet bound, imply the complete conditional H<=2^{O_c(s^(2/3))} theorem. Exact interchange and numerical Fourier need distinct geometry substitutions; the admitted E002 schedule, precision and common-cap suppliers close the rest. JR is open. S004 also supplies independently reviewed sparse-correction/certification components and inverse-aware model bounds. The shared unconditional envelope remains E002's log-corrected two-thirds theorem. Detailed status: `sessions/2026-11-26-S004/lead/SECOND-WAVE-ADMISSION.md`.

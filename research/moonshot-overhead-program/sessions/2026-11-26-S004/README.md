@@ -31,3 +31,9 @@ Can any surviving mechanism lower a binding global cost while preserving exactne
 ## First checkpoint
 
 See [first-wave admission](lead/FIRST-WAVE-ADMISSION.md) for admitted components, the independently reviewed conditional JR transfer, exact replay receipts, and the current portfolio decision. The shared S003/E002 unconditional polynomial-profile bound is preserved. S004 has not yet established a new unconditional complete bound.
+
+## Second checkpoint and current baseline
+
+The shared unconditional E002 theorem now gives H<=2^{O(s^(2/3)(log2(s+2))^(1/3))}, with the same exact machine and common O(n) visited-cell cap. S004's separately reviewed complete conditional theorem gives H<=2^{O_c(s^(2/3))} under the sole additional open hypothesis JR. See [second-wave admission](lead/SECOND-WAVE-ADMISSION.md) for this composition, inverse-aware model bounds, two-converter floors, sparse-supplier constraints and the one-sided residual certificate. No new unconditional S004 complete bound is asserted.
+
+Active discovery has moved to heterogeneous/parity-specific Fourier geometry, dense low-recurrence residuals and full-alphabet survivor rank. All historical first-checkpoint statements retain their checkpoint scope.

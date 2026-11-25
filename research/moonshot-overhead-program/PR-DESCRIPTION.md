@@ -72,6 +72,22 @@ the E002 source audit. Concurrent S003/E003/S004 work is preserved with
 separate provenance. This file is a repository draft; no upstream PR has
 been opened by E002.
 
+## S004 conditional improvement and separate components
+
+The separately reviewed JR-only transfer in S004 gives the conditional
+log-free scale H<=2^{O_c(x^(2/3))}. JR asks for exact local-load rectangle
+partitions of an all-coordinates-unequal relation and remains open. The
+transfer replaces both interchange and free Fourier endpoint geometry,
+then pays the admitted E002 physical, numerical and common-space chain.
+It does not change the unconditional bound displayed above.
+
+S004 also records deterministic sparse ordinary-residual correction, a
+sound budgeted certificate under a coefficientwise one-sided premise,
+fixed-bilinear supplier constraints, and inverse-aware/two-converter
+model bounds. Each has explicit scope and independent review; none is
+a general multiplication lower bound or a supplied fast candidate. See
+`sessions/2026-11-26-S004/lead/SECOND-WAVE-ADMISSION.md`.
+
 Credits: Jerry Chen (@CubeJerry), OpenAI source authors and cited prior
 work, S002/E001 predecessors, E002 A/B/C and lead, independently credited
 concurrent sessions, and substantial ChatGPT multi-agent assistance.
