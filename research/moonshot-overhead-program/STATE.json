@@ -1,7 +1,7 @@
 {
-  "schema": "moonshot-overhead-program-state-v1",
+  "schema": "moonshot-overhead-program-state-v2",
   "branch": "research/moonshot-overhead-program",
-  "status": "initialized_partial_research_checkpoint",
+  "status": "active_research",
   "session_date_local": "2026-11-26",
   "requested_duration_seconds": 10800,
   "elapsed_seconds_claim": null,
@@ -9,7 +9,11 @@
     "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
     "openai_math_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
     "prompt_blob": "b5762a4dacb999703e83621301a455fbb12755f7",
-    "historical_state_blob": "411eb5aba139d47ff3d705cb7da51a4d42660d64"
+    "historical_state_blob": "411eb5aba139d47ff3d705cb7da51a4d42660d64",
+    "historical_programme": "18035aafaa782a540142a3037bdf73a51f75549d",
+    "historical_bit_bootstrap": "8bd8a92d611f17fdc368b114fee8302df63cc51d",
+    "historical_owned_rank": "4115049c5126cb56133072982d9158acfd74d4b3",
+    "historical_recovery": "4ff4ec023f0ac9222fe5aaf4d19388d764d6bcf8"
   },
   "best_unconditional": "n L^(1/2+o(1)) (OpenAI November 24, 2026)",
   "new_complete_overhead_bound": null,
@@ -30,5 +34,20 @@
     "bound candidate constants and thresholds uniformly",
     "stress-test independently designed constant-error repair route",
     "assemble audited full recurrence"
-  ]
+  ],
+  "checkpoint_baseline_sha": "99f0b3644f1858687db74e01d07a4808602854e2",
+  "session": {
+    "id": "2026-11-26-S002",
+    "started_utc": "2026-11-25T13:20:23Z",
+    "planned_end_utc": "2026-11-25T16:20:23Z",
+    "requested_seconds": 10800,
+    "timezone": "Australia/Melbourne",
+    "background_execution": false
+  },
+  "work_in_progress": {
+    "A": "restart scheduler, chunk convolution, compact characteristic-zero predictor and quantitative templates",
+    "B": "protected constant-tail contraction with rational prediction and discrepancy division",
+    "C": "scoped count-degree lower bounds and characteristic counterexamples"
+  },
+  "verification_status": "First-wave notes are being independently reviewed; no new complete overhead bound."
 }
