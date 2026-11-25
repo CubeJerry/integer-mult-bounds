@@ -1,6 +1,6 @@
 # Quantitative target and first derivation
 
-Define L(n)=1+log_2 n and s(n)=log_2 L(n). Known upper bound: T(n)<=n L(n)^(1/2+o(1)); an explicit H(n) is not yet certified.
+Define L(n)=1+log_2 n and s(n)=log_2 L(n). Published upper bound: T(n)<=n L(n)^(1/2+o(1)). The latest S002 section records an accepted explicit source extraction; earlier sections retain their checkpoint-specific scope.
 
 ## Lemma (scheduler envelope, conditional on actual candidate completion bound)
 Read the schedule in openai/math `uniformity.tex`. Suppose a fixed attempt i=(j,k), with r=2^k<=n, completes in t_i(n) actual operations and fits the common space cap. Its round is reached by s=i+ceil(log_2(t_i(n)+1)); each round costs O(2^s), so one machine halts in
@@ -36,3 +36,13 @@ The independent [nonstationary recurrence](results/epsilon-uniformity/route-c/NO
 ## E001 checkpoint 3 — Scope of the current positive and negative drafts
 
 A proved input-dependent-radix preparation lemma removes the literal fixed-radix padding obstruction. It supplies no complete varying-parameter multiplier. A proposed elementary-tower extraction of the original templates is undergoing a full compiler/threshold audit; its terminal envelope is not yet admitted. A separate written proof shows a factor-rank loss for the literal label matrix modulo p² and is awaiting independent review. The strongest admitted complete multiplication bound therefore remains the published qualitative residual exponent.
+
+## S002 accepted complete envelope
+
+The [theorem](routes/A/explicit-extraction-theorem.md) and [completed review gates](verification/S002/lead-review-explicit-extraction.md) establish
+
+    H(n) <= 2^{O(s(n)/(log2 log2 s(n))^(1/6))}
+
+for one exact deterministic finite-alphabet multitape full-product machine with a common O(n) visited-cell cap. A correct fallback covers every length. No conjectural assumptions are used. Absolute constants and the fixed eventual prime-shape cutoff are not numerically evaluated.
+
+The explicit search accepts with log2 m_j=O((j+2)^6). Complete generator/physical profiles imply log2 D_j and log2 L(N_j)<=2^(2^(C(j+2)^6)). An eligible sparse j of order (log2 log2 s)^(1/6), with exact rounding and threshold checks, gives the displayed envelope. This quantifies the qualitative source theorem; it remains slower than every H=2^{O(s^beta)}, beta<1. No kappa_ov, polynomial-in-s overhead or constant endpoint is established. Earlier E001 sections describe that concurrent session's own checkpoint state and remain as provenance.

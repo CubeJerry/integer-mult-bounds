@@ -1,0 +1,304 @@
+{
+  "status": "pass",
+  "python": "3.12.14",
+  "scope": "exact finite checks of a source-specific rank and finite-characteristic obstruction; no general multiplication lower bound",
+  "inner_spectra": {
+    "krawtchouk_values_checked": 10302,
+    "exact_character_row_checks": 5312,
+    "odd_prime_examples": [
+      {
+        "p": 3,
+        "h": 5,
+        "binary_gram_rank": 157
+      },
+      {
+        "p": 5,
+        "h": 9,
+        "binary_gram_rank": 4601
+      },
+      {
+        "p": 7,
+        "h": 13,
+        "binary_gram_rank": 106485
+      },
+      {
+        "p": 11,
+        "h": 21,
+        "binary_gram_rank": 44040173
+      },
+      {
+        "p": 13,
+        "h": 25,
+        "binary_gram_rank": 838860777
+      },
+      {
+        "p": 17,
+        "h": 33,
+        "binary_gram_rank": 283467841505
+      },
+      {
+        "p": 19,
+        "h": 37,
+        "binary_gram_rank": 5085241278429
+      },
+      {
+        "p": 23,
+        "h": 45,
+        "binary_gram_rank": 1583296743997397
+      },
+      {
+        "p": 29,
+        "h": 57,
+        "binary_gram_rank": 8214565720323784649
+      },
+      {
+        "p": 31,
+        "h": 61,
+        "binary_gram_rank": 140656423562035331013
+      },
+      {
+        "p": 37,
+        "h": 73,
+        "binary_gram_rank": 689465506498968201199545
+      },
+      {
+        "p": 41,
+        "h": 81,
+        "binary_gram_rank": 195845982777569926302400433
+      },
+      {
+        "p": 43,
+        "h": 85,
+        "binary_gram_rank": 3288278229351791355200798637
+      },
+      {
+        "p": 47,
+        "h": 93,
+        "binary_gram_rank": 921027389228322924524948422565
+      },
+      {
+        "p": 53,
+        "h": 105,
+        "binary_gram_rank": 4259306016766850789028922770063257
+      },
+      {
+        "p": 59,
+        "h": 117,
+        "binary_gram_rank": 19439959438354394641218178256600039309
+      },
+      {
+        "p": 61,
+        "h": 121,
+        "binary_gram_rank": 321673174979949641242721308587843387273
+      },
+      {
+        "p": 67,
+        "h": 133,
+        "binary_gram_rank": 1448241753615514100500122329229605507956605
+      },
+      {
+        "p": 71,
+        "h": 141,
+        "binary_gram_rank": 393050634124102232869567034555427371542904693
+      },
+      {
+        "p": 73,
+        "h": 145,
+        "binary_gram_rank": 6467216107573880711045358299068024836734320497
+      },
+      {
+        "p": 79,
+        "h": 157,
+        "binary_gram_rank": 28681969632618969769747314842057054260747676155749
+      },
+      {
+        "p": 83,
+        "h": 165,
+        "binary_gram_rank": 7716728645107167408115455916741974343783323826913117
+      },
+      {
+        "p": 89,
+        "h": 177,
+        "binary_gram_rank": 33906463841657790991178427975700590687564603078312197969
+      },
+      {
+        "p": 97,
+        "h": 193,
+        "binary_gram_rank": 2422961269859258774840614717358159236615509201563117321977665
+      },
+      {
+        "p": 101,
+        "h": 201,
+        "binary_gram_rank": 645989093792114090767868761121147366213925603500682719791152953
+      }
+    ]
+  },
+  "outer_rank_certificate": {
+    "p": 3,
+    "auxiliary_prime": 101,
+    "minus_principal_matrix_side": 156,
+    "minus_principal_rank": 156,
+    "plus_block_rank": 1,
+    "certified_total_rank_lower_bound": 157,
+    "proof_total_rank_upper_bound": 157,
+    "full_outer_label_count_not_materialized": 33554432,
+    "interpretation": "nonzero modular minor gives rational rank lower bound; tensor proof gives matching upper bound"
+  },
+  "residue_agreement": {
+    "count_residue_functions_exhausted": 672,
+    "examples": [
+      {
+        "p": 3,
+        "m": 9,
+        "best_failure_decimal": 0.341796875,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 3,
+        "m": 10,
+        "best_failure_decimal": 0.341796875,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 3,
+        "m": 18,
+        "best_failure_decimal": 0.44994354248046875,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 3,
+        "m": 36,
+        "best_failure_decimal": 0.49624152659089305,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 5,
+        "m": 25,
+        "best_failure_decimal": 0.3244456946849823,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 5,
+        "m": 26,
+        "best_failure_decimal": 0.3244456946849823,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 5,
+        "m": 50,
+        "best_failure_decimal": 0.44735417827018686,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 5,
+        "m": 100,
+        "best_failure_decimal": 0.49571766946035567,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 7,
+        "m": 49,
+        "best_failure_decimal": 0.3196343587685657,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 7,
+        "m": 50,
+        "best_failure_decimal": 0.3196343587685657,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 7,
+        "m": 98,
+        "best_failure_decimal": 0.44668658297069047,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 7,
+        "m": 196,
+        "best_failure_decimal": 0.49557266941359857,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 11,
+        "m": 121,
+        "best_failure_decimal": 0.31664668405939,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 11,
+        "m": 122,
+        "best_failure_decimal": 0.31664668405939,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 11,
+        "m": 242,
+        "best_failure_decimal": 0.44628239664259145,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 11,
+        "m": 484,
+        "best_failure_decimal": 0.4954827292093443,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 13,
+        "m": 169,
+        "best_failure_decimal": 0.31606874901578674,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 13,
+        "m": 170,
+        "best_failure_decimal": 0.31606874901578674,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 13,
+        "m": 338,
+        "best_failure_decimal": 0.4462051089447912,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 13,
+        "m": 676,
+        "best_failure_decimal": 0.4954653409020753,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 17,
+        "m": 289,
+        "best_failure_decimal": 0.3154636738688405,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 17,
+        "m": 290,
+        "best_failure_decimal": 0.3154636738688405,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 17,
+        "m": 578,
+        "best_failure_decimal": 0.44612450047710295,
+        "failure_gt_one_quarter": true
+      },
+      {
+        "p": 17,
+        "m": 1156,
+        "best_failure_decimal": 0.4954471395321951,
+        "failure_gt_one_quarter": true
+      }
+    ],
+    "negative_controls": [
+      "characteristic two excluded",
+      "divided powers distinguish equal count residues"
+    ]
+  },
+  "contraction": {
+    "necessary_budget_cases_checked": 7680,
+    "feasible_reserve_cases_checked": 6412
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "status": "pass",
+  "scope": "Exact finite corroboration of the same-field/support-preserving prime-power lift obstruction; no general tape lower bound.",
+  "odd_binomial_parity_cases": 499,
+  "small_principal_matrix": {
+    "matrix_side": 32,
+    "hadamard_identity_entries": 1024,
+    "mod_two_involution_entries": 1024,
+    "exact_character_row_checks": 1024,
+    "mod_two_rank": 32,
+    "mod_three_rank": 16
+  },
+  "ring_inner_rank_checks": {
+    "rank_one_factorizations_exhausted": 10913,
+    "prime_power_rings": 3
+  },
+  "spectral_strata": [
+    {
+      "p": 3,
+      "q": 2,
+      "full_outer_side_not_materialized": 33554432,
+      "type_tuples": 7776,
+      "rational_rank": 33554432,
+      "integer_gram_rank": 156,
+      "prime_power_inner_ranks": {
+        "1": 16777216,
+        "2": 30777856,
+        "3": 31274057
+      },
+      "rank_products_divided_by_N": {
+        "1": "78",
+        "2": "2344407/16384",
+        "3": "1219688223/8388608"
+      }
+    },
+    {
+      "p": 3,
+      "q": 4,
+      "full_outer_side_not_materialized": 1125899906842624,
+      "type_tuples": 7776,
+      "rational_rank": 1125899906842624,
+      "integer_gram_rank": 5116,
+      "prime_power_inner_ranks": {
+        "1": 10629836856256,
+        "2": 451317904401136,
+        "3": 901474098938554
+      },
+      "rank_products_divided_by_N": {
+        "1": "212430645924241/4398046511104",
+        "2": "36077224983065809/17592186044416",
+        "3": "576492686271205283/140737488355328"
+      }
+    },
+    {
+      "p": 3,
+      "q": 8,
+      "full_outer_side_not_materialized": 37778931862957161709568,
+      "type_tuples": 7776,
+      "rational_rank": 37778931862957161709568,
+      "integer_gram_rank": 163836,
+      "prime_power_inner_ranks": {
+        "1": 1525249325400390976,
+        "2": 2903151935194072981336,
+        "3": 25590608147848534680443
+      },
+      "rank_products_divided_by_N": {
+        "1": "976135736235540843531/147573952589676412928",
+        "2": "14863775014201754405317653/1180591620717411303424",
+        "3": "1048165719127728131976264837/9444732965739290427392"
+      }
+    },
+    {
+      "p": 3,
+      "q": 16,
+      "full_outer_side_not_materialized": 1267650600228229401496703205376,
+      "type_tuples": 7776,
+      "rational_rank": 1267650600228229401496703205376,
+      "integer_gram_rank": 5242876,
+      "prime_power_inner_ranks": {
+        "1": 137905877627512328205376,
+        "2": 13969699228360791672484455376,
+        "3": 750538606426555952548949299126
+      },
+      "rank_products_divided_by_N": {
+        "1": "2824310219032114551765972271/4951760157141521099596496896",
+        "2": "1144396887681114281260447054123459/19807040628566084398385987584",
+        "3": "491872605838404495784503138200565797/158456325028528675187087900672"
+      }
+    },
+    {
+      "p": 3,
+      "q": 32,
+      "full_outer_side_not_materialized": 42535295865117307932921825928971026432,
+      "type_tuples": 7776,
+      "rational_rank": 42535295865117307932921825928971026432,
+      "integer_gram_rank": 167772156,
+      "prime_power_inner_ranks": {
+        "1": 10482390199063367328629617216,
+        "2": 61861378477943248043023840565712856,
+        "3": 36862681985170863909044599755629931557
+      },
+      "rank_products_divided_by_N": {
+        "1": "6869739077070821552125591428839991/166153499473114484112975882535043072",
+        "2": "324331776261766786556902827847184547751173/1329227995784915872903807060280344576",
+        "3": "1546132908148618966600750100289776688862581723/10633823966279326983230456482242756608"
+      }
+    }
+  ],
+  "negative_controls": [
+    "The exponent-one ring does not satisfy the pI inner-rank lemma.",
+    "Omitting P_*'s diagonal fails the mod-two involution identity.",
+    "At p=3,q=16, substituting the mod-p rank as the mod-p^2 inner rank violates the exact rank-product obstruction."
+  ]
+}

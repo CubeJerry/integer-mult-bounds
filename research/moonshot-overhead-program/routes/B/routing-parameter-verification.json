@@ -1,0 +1,167 @@
+{
+  "status": "passed",
+  "scope": "Integer parameter and threshold formulas, not spatial routing execution",
+  "cases": [
+    {
+      "ceil_log2_m": 16,
+      "side": "lower",
+      "L": 4,
+      "log2_q": 10,
+      "log2_batch_width": 68,
+      "pencil_bound_bits": 30,
+      "pencil_bound_below_m": false,
+      "label_bound_below_m_cubed": true
+    },
+    {
+      "ceil_log2_m": 16,
+      "side": "upper",
+      "L": 4,
+      "log2_q": 10,
+      "log2_batch_width": 68,
+      "pencil_bound_bits": 30,
+      "pencil_bound_below_m": false,
+      "label_bound_below_m_cubed": true
+    },
+    {
+      "ceil_log2_m": 32,
+      "side": "lower",
+      "L": 6,
+      "log2_q": 13,
+      "log2_batch_width": 134,
+      "pencil_bound_bits": 42,
+      "pencil_bound_below_m": false,
+      "label_bound_below_m_cubed": true
+    },
+    {
+      "ceil_log2_m": 32,
+      "side": "upper",
+      "L": 6,
+      "log2_q": 13,
+      "log2_batch_width": 134,
+      "pencil_bound_bits": 42,
+      "pencil_bound_below_m": false,
+      "label_bound_below_m_cubed": true
+    },
+    {
+      "ceil_log2_m": 64,
+      "side": "lower",
+      "L": 8,
+      "log2_q": 18,
+      "log2_batch_width": 256,
+      "pencil_bound_bits": 59,
+      "pencil_bound_below_m": true,
+      "label_bound_below_m_cubed": true
+    },
+    {
+      "ceil_log2_m": 64,
+      "side": "upper",
+      "L": 8,
+      "log2_q": 18,
+      "log2_batch_width": 256,
+      "pencil_bound_bits": 59,
+      "pencil_bound_below_m": true,
+      "label_bound_below_m_cubed": true
+    },
+    {
+      "ceil_log2_m": 256,
+      "side": "lower",
+      "L": 12,
+      "log2_q": 45,
+      "log2_batch_width": 988,
+      "pencil_bound_bits": 119,
+      "pencil_bound_below_m": true,
+      "label_bound_below_m_cubed": true
+    },
+    {
+      "ceil_log2_m": 256,
+      "side": "upper",
+      "L": 12,
+      "log2_q": 45,
+      "log2_batch_width": 988,
+      "pencil_bound_bits": 119,
+      "pencil_bound_below_m": true,
+      "label_bound_below_m_cubed": true
+    },
+    {
+      "ceil_log2_m": 1024,
+      "side": "lower",
+      "L": 20,
+      "log2_q": 105,
+      "log2_batch_width": 3892,
+      "pencil_bound_bits": 248,
+      "pencil_bound_below_m": true,
+      "label_bound_below_m_cubed": true
+    },
+    {
+      "ceil_log2_m": 1024,
+      "side": "upper",
+      "L": 20,
+      "log2_q": 105,
+      "log2_batch_width": 3892,
+      "pencil_bound_bits": 248,
+      "pencil_bound_below_m": true,
+      "label_bound_below_m_cubed": true
+    },
+    {
+      "ceil_log2_m": 65536,
+      "side": "lower",
+      "L": 126,
+      "log2_q": 1043,
+      "log2_batch_width": 246106,
+      "pencil_bound_bits": 2317,
+      "pencil_bound_below_m": true,
+      "label_bound_below_m_cubed": true
+    },
+    {
+      "ceil_log2_m": 65536,
+      "side": "upper",
+      "L": 126,
+      "log2_q": 1043,
+      "log2_batch_width": 246106,
+      "pencil_bound_bits": 2317,
+      "pencil_bound_below_m": true,
+      "label_bound_below_m_cubed": true
+    },
+    {
+      "ceil_log2_m": 131072,
+      "side": "lower",
+      "L": 172,
+      "log2_q": 1527,
+      "log2_batch_width": 492020,
+      "pencil_bound_bits": 3358,
+      "pencil_bound_below_m": true,
+      "label_bound_below_m_cubed": true
+    },
+    {
+      "ceil_log2_m": 131072,
+      "side": "upper",
+      "L": 172,
+      "log2_q": 1527,
+      "log2_batch_width": 492020,
+      "pencil_bound_bits": 3358,
+      "pencil_bound_below_m": true,
+      "label_bound_below_m_cubed": true
+    },
+    {
+      "ceil_log2_m": 1048576,
+      "side": "lower",
+      "L": 448,
+      "log2_q": 4684,
+      "log2_batch_width": 3933440,
+      "pencil_bound_bits": 10159,
+      "pencil_bound_below_m": true,
+      "label_bound_below_m_cubed": true
+    },
+    {
+      "ceil_log2_m": 1048576,
+      "side": "upper",
+      "L": 448,
+      "log2_q": 4684,
+      "log2_batch_width": 3933440,
+      "pencil_bound_bits": 10159,
+      "pencil_bound_below_m": true,
+      "label_bound_below_m_cubed": true
+    }
+  ],
+  "negative_small_parameter_control": "rejected unqualified R_m<=m"
+}

@@ -1,5 +1,7 @@
 # Proof obligations
 
+Initial lists and dated tables are checkpoint history. The latest S002 gate below records current status.
+
 - **A1 (open):** Effective quantitative bound for template generation, parameter search, number/size of instructions and interpreter, uniform in exponent index j.
 - **A2 (open):** Uniform candidate runtime A_j and threshold N_j with all numerical precision, CRT, movement, padding, regeneration, interchanges and constant tape counts charged.
 - **A3 (partially established from source):** Scheduler upper bound in terms of a *successful* fixed indexed attempt. See TARGET-OVERHEAD.md.
@@ -37,3 +39,18 @@
 EU-PAD arithmetic repair is proved in `results/epsilon-uniformity/route-c/INPUT-DEPENDENT-RADIX.md`: input-dependent compatible primes give bounded or summably small volume loss, with explicit search and product-scan costs. The finite compatibility product must be supplied. The variable-radix fixed-tape address-map dispatcher and consistent child interface remain open.
 
 EU-TOWER is a new review gate for Route A's `elementary-tower-extraction.md`: prove a complete polynomial-in-template-size physical compiler, numerical width and threshold invoice before admitting its proposed explicit decay rate. EU-LIFT separately reviews the factor-rank obstruction to retaining literal zero/one label transfers modulo p². Neither draft changes the programme's current unconditional envelope.
+
+## S002 completed source-extraction gate
+
+| ID | Current status | Evidence and limits |
+|---|---|---|
+| S2-A3 / original A1-A2 | Accepted | Explicit scalar/address generator, numerical and tape costs, precision and thresholds; separate C finite, B integer and lead physical audits. |
+| G1 | Accepted for the slow extracted rate | [Theorem](routes/A/explicit-extraction-theorem.md), [final review](verification/S002/lead-review-explicit-extraction.md). Stronger benchmarks and H=O(1) remain open. |
+| S2-B3 | Arithmetic gate closed; global tape gate open | Complete polynomial auxiliary invoice for rational Walsh arithmetic, not a tape theorem. |
+| S2-B4 | Accepted physical component | Finite reflection full-rate closure with labels/phases retained; no improved complete H(n). |
+| S2-C2 | Accepted scoped obstruction | Exact Gram rank plus count-residue approximation excludes that predictor in the retained contracting interchanger. |
+| S2-LIFT | Independent review passed | Same-field and support-preserving mod p^e rank/invoice barriers; arbitrary new-support lifts excluded from scope. |
+| S2-SHARP | Open refinement | Sharpen sixth-power search growth and redo full profile inversion. |
+| S2-CHAR2 | Exploratory | Low-rank error representation; cheap extraction, correction and physical layout not established. |
+
+The accepted upper bound uses no Weak ETH or historical five assumptions. Reviews are AI-assisted mathematical audits, not Lean or full-machine validation.

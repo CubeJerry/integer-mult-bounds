@@ -1,0 +1,127 @@
+{
+  "status": "exact finite verification passed",
+  "field_prime": 257,
+  "primitive_root_order": 64,
+  "exact_arithmetic": true,
+  "routed_pencil_or_physical_tape_verification": false,
+  "tests": [
+    {
+      "name": "cyclotomic_ring_half_angle_identities",
+      "primes": [
+        3,
+        5,
+        7,
+        11,
+        17
+      ],
+      "cases": 75,
+      "passed": true
+    },
+    {
+      "name": "all_basis_query_and_family_closure",
+      "local_basis_cases": 4096,
+      "equal_field_addresses": 16,
+      "passed": true
+    },
+    {
+      "name": "shared_pencil_plus_ordinary_diagonal_identity",
+      "levels": 5,
+      "passed": true
+    },
+    {
+      "name": "exact_constant_tail_counts",
+      "cases": 509,
+      "passed": true
+    },
+    {
+      "name": "label_preserving_gather_scatter",
+      "labels": 3,
+      "rows": 192,
+      "wrong_return_rejected": true,
+      "passed": true
+    },
+    {
+      "name": "changing_target_full_rate_repair",
+      "start_level": 0,
+      "depth": 1,
+      "labels": 2,
+      "rows": 128,
+      "entries": 32768,
+      "event_count": 6,
+      "statistics": {
+        "terminal_rows": 64,
+        "terminal_calls": 2,
+        "internal_rows": 128,
+        "internal_calls": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "changing_target_full_rate_repair",
+      "start_level": 0,
+      "depth": 2,
+      "labels": 2,
+      "rows": 512,
+      "entries": 131072,
+      "event_count": 18,
+      "statistics": {
+        "terminal_rows": 128,
+        "terminal_calls": 4,
+        "internal_rows": 768,
+        "internal_calls": 3
+      },
+      "passed": true
+    },
+    {
+      "name": "changing_target_full_rate_repair",
+      "start_level": 1,
+      "depth": 2,
+      "labels": 2,
+      "rows": 512,
+      "entries": 131072,
+      "event_count": 18,
+      "statistics": {
+        "terminal_rows": 128,
+        "terminal_calls": 4,
+        "internal_rows": 768,
+        "internal_calls": 3
+      },
+      "passed": true
+    },
+    {
+      "name": "changing_target_full_rate_repair",
+      "start_level": 0,
+      "depth": 2,
+      "labels": 3,
+      "rows": 768,
+      "entries": 196608,
+      "event_count": 18,
+      "statistics": {
+        "terminal_rows": 192,
+        "terminal_calls": 4,
+        "internal_rows": 1152,
+        "internal_calls": 3
+      },
+      "passed": true
+    },
+    {
+      "name": "negative_controls",
+      "mismatching_entries": {
+        "wrong_half_angle": 1280,
+        "omitted_equal_field_correction": 240,
+        "same_target": 30591,
+        "check_order": 9433,
+        "label_return": 18620,
+        "omit_repair": 18627
+      },
+      "inverse_before_table_rejected": true,
+      "passed": true
+    },
+    {
+      "name": "proof_phase_one_eighth_call_and_batch_ledgers",
+      "depths": 17,
+      "arities": 1021,
+      "passed": true
+    }
+  ]
+}

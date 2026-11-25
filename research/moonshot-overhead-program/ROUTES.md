@@ -21,3 +21,13 @@ After two unproductive substantive waves, reassess the architecture, not just ad
 | C: adversarial representation tests | Exact count-polynomial defect inequality; sharp rare-error degree and scoped invoice asymptotics | Which representation changes evade the obstruction without moving the cost to arithmetic, routing or space? |
 
 The next wave preserves B's rational-arithmetic and constant-tail starting point rather than requiring it to use A's finite-characteristic representation. A characteristic-compatibility obstruction and a growing-arity circuit candidate are being checked separately.
+
+## S002 second-wave reassessment
+
+| Route | Accepted result | Next gate |
+|---|---|---|
+| A | Complete explicit extraction, log H=O(s/(log log s)^(1/6)); generation, physical costs and common space audited | Sharper parameter search and quantitative prior-art comparison. |
+| B | Growing-arity rational normalized Walsh arithmetic bound with factor 2^{O(sqrt(log k log log k))}; finite physical reflection closure | Price expanded data; smaller full-rate representation or new geometry. Arithmetic and tape bounds remain distinct. |
+| C | Sharp count barrier, characteristic/interchange conflict, aliasing obstruction and independent finite-generator audit | Support-preserving lift review and alternatives to count-only prediction. |
+
+B's pivot changes the converter target through a finite half-angle family and retains source physical routing. It does not merely tune coefficients or turn B into A. A characteristic-two error-rank representation is exploratory and not part of the accepted H(n).

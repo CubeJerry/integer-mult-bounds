@@ -16,3 +16,10 @@ The live canonical and OpenAI source pins remain e54523517d0f03e58352e647c403a5a
 - OpenAI, *Average sensitivity of polynomial threshold functions* (September 25, 2026), [source directory](https://github.com/openai/math/tree/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/Average-Sensitivity-of-Polynomial-Threshold-Functions-September-25-2026), [formalization scope](https://github.com/openai/math/blob/3344da59991ed94f9ba711217b29c1d760badfa6/lean/docs/127.md). The stated 8d sqrt(n) influence bound is a relevant possible nonsymmetric-prediction obstruction. Only the theorem/scope were inspected; no new claim relies on an independently rebuilt proof of it.
 
 Current novelty position: claim source-specific constructions, scoped quantitative proofs and verified applications. No priority claim is made for the general moment method, interpolation, limited independence, universal search, or the square-root degree scale.
+
+## S002 additional primary-source checks
+
+- Baker, Harman and Pintz, *The difference between consecutive primes, II* (2001), [paper](https://www.cs.umd.edu/~gasarch/BLOGPAPERS/BakerHarmanPintz.pdf). Read Theorem 1 and effectivity comment. The eventual exponent 0.525 is stronger than the source's 0.6 use. The absolute cutoff is not computed; the full proof was not reread.
+- David Harvey, October 20, 2026, [commentary](https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf). Read the opening summary only, which distinguishes plausibility comments from full proof review. This is not a premise or validation of the November result.
+
+A narrow current-source search did not identify a prior explicit November overhead rate. This is not comprehensive coverage or evidence for priority. The result is described as a quantitative source extraction.

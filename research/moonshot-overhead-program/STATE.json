@@ -16,13 +16,23 @@
     "historical_recovery": "4ff4ec023f0ac9222fe5aaf4d19388d764d6bcf8"
   },
   "best_unconditional": "n L^(1/2+o(1)) (OpenAI November 24, 2026)",
-  "new_complete_overhead_bound": null,
+  "new_complete_overhead_bound": {
+    "formula": "T(n)=O(n sqrt(L(n)) 2^{O(s(n)/(log2 log2 s(n))^(1/6))})",
+    "L": "1+log2(n)",
+    "s": "log2(L)",
+    "space": "O(n) visited cells; one fixed exact deterministic finite-alphabet multitape machine",
+    "status": "accepted quantitative source extraction; AI-assisted mathematical audit",
+    "proof": "routes/A/explicit-extraction-theorem.md",
+    "review": "verification/S002/lead-review-explicit-extraction.md",
+    "meaning": "Explicit published o(1) rate; no strict improvement, priority or endpoint claim",
+    "threshold": "absolute eventual; not numerically evaluated"
+  },
   "conditional_complete_overhead_bound": null,
   "kappa_ov": null,
   "route_gaps": {
-    "A": "Explicit complete candidate profiles (a_j,c_j,d_j,g_j,U_j), with interpreted tape cost and effective threshold bounds.",
-    "B": "Full auxiliary arithmetic, growing-parameter precision, routing/movement and common linear space for rational constant-tail contraction.",
-    "C": "Characteristic/interchange compatibility obstruction under independent review; broader representations remain outside count-only barrier."
+    "A": "Sharpen accepted sixth-power search profile; compare quantitative prior art.",
+    "B": "Arithmetic theorem and physical reflection component accepted; complete quantitative tape improvement open.",
+    "C": "Review support-preserving lifts and representations beyond ordinary counts."
   },
   "source_audit": "partial; see SOURCE-AUDIT.md",
   "publication": {
@@ -30,12 +40,12 @@
     "upstream_pr": "not opened"
   },
   "next_actions": [
-    "Quantify source finite-template compiler and all candidate profiles.",
-    "Audit full growing-arity rational repair circuit and a realizable tape caller.",
-    "Independently review characteristic/interchange obstruction.",
-    "Reassess portfolio after second substantive wave, preserving independent discovery."
+    "Publish accepted extraction checkpoint with lease protection.",
+    "Sharpen parameter growth and independently review the inverted rate.",
+    "Quantify reflections and explore characteristic-two rank repair.",
+    "Continue source audit and final verification within remaining session."
   ],
-  "checkpoint_baseline_sha": "b00f1a46949d00ef17585276edd677b613ecb99f",
+  "checkpoint_baseline_sha": "2fe18c267dc76e30b98a662403ca8745d40a913f",
   "session": {
     "id": "2026-11-26-S002",
     "started_utc": "2026-11-25T13:20:23Z",
@@ -45,15 +55,15 @@
     "background_execution": false
   },
   "work_in_progress": {
-    "A": "restart scheduler, chunk convolution, compact characteristic-zero predictor and quantitative templates",
-    "B": "protected constant-tail contraction with rational prediction and discrepancy division",
-    "C": "Count barrier proved within characteristic-zero ordinary-count scope; characteristic/interchange obstruction and variable-arity recurrence under review."
+    "A": "Sharper log m_j dependence and rate inversion.",
+    "B": "Reflection costs and alternative full-rate representations.",
+    "C": "Lift review and alternative algebraic representations."
   },
-  "verification_status": "First-wave critical proofs reviewed and isolated A/B/C plus recovered-B verifiers replayed with failure controls; no Lean build or complete multiplier verification.",
+  "verification_status": "Critical source chain read; independent finite-generator, integer-assembly, physical-compiler and uniform-rate gates accepted; isolated exact checks replayed. No Lean build or full multiplier execution.",
   "concurrent_work": {
     "epsilon_uniformity": "results/epsilon-uniformity/SESSION.json",
-    "reconciled_head": "b00f1a46949d00ef17585276edd677b613ecb99f",
-    "scope": "Concurrent focused session E001 preserved; its abstract certificate diagnostics were read, not claimed as S002 discoveries."
+    "reconciled_head": "2fe18c267dc76e30b98a662403ca8745d40a913f",
+    "scope": "E001 files, top-level additions and state preserved; overlapping results retain separate provenance."
   },
   "focused_sessions": {
     "epsilon_uniformity": {
@@ -79,7 +89,7 @@
       "verification": "Separate agent algebraic review plus root replay of exact finite checks; no Lean build",
       "arithmetic_preparation_result": "Input-dependent compatible radix with constant or summably small padding loss; explicit integer search and compatibility scan bound. Variable-radix address-map compiler remains open.",
       "pending_review": [
-        "Literal P_* factor rank modulo p² and reserve tradeoff",
+        "Literal P_* factor rank modulo p\u00b2 and reserve tradeoff",
         "Source-wide elementary-tower coefficient/threshold extraction; no bound promoted"
       ]
     }

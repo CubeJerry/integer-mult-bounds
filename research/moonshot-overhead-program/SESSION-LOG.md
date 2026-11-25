@@ -22,3 +22,11 @@ Started 2026-11-25 13:25:26 UTC for a requested three hours; planned end 16:25:2
 ## E001 checkpoint 3 — Ongoing focused session
 
 Saved the input-dependent compatible-radix proof and binary-length scheduling analysis, plus explicitly pending-review drafts for a literal p-adic lift obstruction and a complete elementary-tower extraction. The current complete bound is unchanged. This session remains active until its requested three-hour budget is handled; elapsed completion has not been claimed. Base HEAD: `9dad7c318db1f56425878d10651cb98827bb0ad3`.
+
+## S002 second-wave checkpoint — complete conservative extraction
+
+S002 checkpoint `d0b775ecf26b1f248ffa8839e3890cb452d53919` was confirmed. Before this publication, concurrent E001 heads `9dad7c318db1f56425878d10651cb98827bb0ad3` and `2fe18c267dc76e30b98a662403ca8745d40a913f` were fetched and their files, top-level additions and focused state preserved. No history was overwritten.
+
+The sixth-power source-extraction theorem is accepted after C's final generator/address gate, B's integer audit, the lead's physical audit and exact sparse-eligibility calculation. Walsh pre-padding is at most one quarter, leaving a half margin after generic padding. The resulting log H=O(s/(log log s)^(1/6)) has uniform O(n) visited cells, absolute unevaluated constants and correct fallback. No conjectural premise, endpoint, practical timing, formal build, human refereeing or strict improvement over an unspecified published o(1) is asserted.
+
+B's rational arithmetic theorem and fixed-parameter physical reflection family are accepted within their separate models. C's characteristic/interchange and aliasing proofs pass review. The support-preserving lift proof passed Route C review and a separate exact replay. The two-wave reassessment preserves B's independence and pivots it to physical reflection closure. Root explores characteristic-two rank error; this is not in the admitted rate. The session remains active toward 16:20:23 UTC; three-hour completion is not yet claimed.

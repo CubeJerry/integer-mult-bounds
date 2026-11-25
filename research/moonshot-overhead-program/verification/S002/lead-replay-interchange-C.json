@@ -1,0 +1,9 @@
+{
+  "script": "routes/C/verify_interchange_obstruction.py",
+  "script_sha256": "94a255467d71d28858682f453ea38326fc1914e6c21e7c34c9d6a851880c2a7b",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"pass\",\n  \"scope\": \"exact finite checks of a source-specific rank and finite-characteristic obstruction; no general multiplication lower bound\",\n  \"krawtchouk_values_checked\": 10302,\n  \"character_row_checks\": 5312,\n  \"outer_rank_certificate\": {\n    \"p\": 3,\n    \"auxiliary_prime\": 101,\n    \"minus_principal_matrix_side\": 156,\n    \"minus_principal_rank\": 156,\n    \"plus_block_rank\": 1,\n    \"certified_total_rank_lower_bound\": 157,\n    \"proof_total_rank_upper_bound\": 157,\n    \"full_outer_label_count_not_materialized\": 33554432,\n    \"interpretation\": \"nonzero modular minor gives rational rank lower bound; tensor proof gives matching upper bound\"\n  },\n  \"residue_functions_exhausted\": 672,\n  \"contraction\": {\n    \"necessary_budget_cases_checked\": 7680,\n    \"feasible_reserve_cases_checked\": 6412\n  }\n}\n",
+  "stderr": "",
+  "isolation": "Copied script in fresh temporary directory; no source files modified."
+}

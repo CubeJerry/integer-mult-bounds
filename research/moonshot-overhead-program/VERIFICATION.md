@@ -24,4 +24,20 @@ The source manifest checks 103 available primary-source files against the pinned
 
 ## Not performed
 
-No Lean build; no complete re-derivation of all Fourier/tape/lower-bound chapters; no all-size generated multiplier; no new multiplier runtime measurements; no new complete conditional or unconditional H(n); no independent human refereeing; no full scientific cold replay. Literature and live discussion coverage remain partial. All such status remains open until the corresponding work is actually performed.
+No Lean build; no complete re-derivation of all Fourier/tape/lower-bound chapters; no all-size generated multiplier; no new multiplier runtime measurements; no independent human refereeing; no full scientific cold replay. Literature and live discussion coverage remain partial. All such status remains open until the corresponding work is actually performed.
+
+## S002 second-wave completed gates
+
+The finite-generator, integer-assembly, physical-compiler and uniform-rate reviews are accepted. Review files record exact scope. The revised quarter pre-padding margin and setup exponent 1001 resolve the identified bookkeeping points.
+
+| Isolated lead replay | Exact controls | Scope |
+|---|---|---|
+| A cyclotomic | 246 inverses, 1230 odd-characteristic reductions, 765 dimensions; 246 missing-half failures | Finite algebra. |
+| C scalar/generator | 120 inverses, 480 reductions, 184 Vandermonde entries, 48 matrix-root cases, 257 parameter invoices | Finite algebra and call bounds. |
+| C stable checks | 50 Gram, 100 full-input identities, 50 support supersets; 90 missing-right-inverse failures | Check/lift component. |
+| C interchange obstruction | 10302 Krawtchouk cases, 5312 character rows, rank-157 witness, 672 residue functions, 7680 budgets | Scoped obstruction. |
+| B routing | 16 large-integer cases; overbroad R<=m control rejected | Arithmetic invoice. |
+| B aliasing | 66 Parseval cases, 129 collisions and tuple controls | Count-residue scope. |
+| B reflections | 75 ring cases, 4096 basis conjugacies, full-rate examples through 768 rows | Labels, fixed points and phase order; all six wrong-construction controls and early-inverse trace rejected. |
+
+Replay records include script hashes, Python 3.12.14 and output. Reflection tests use direct spectral matrices and do not execute generic root construction or physical routing. All-size assertions come from written proofs, not these finite checks. No full multiplier timing, formal build or human refereeing is claimed.

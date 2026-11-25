@@ -1,6 +1,6 @@
 # Square-root overhead moonshot
 
-Status: initialized 2026-11-26 (Australia/Melbourne). Historical programme retained intact.
+Status: active S002 session, 2026-11-26 (Australia/Melbourne). Historical programme retained intact. The current accepted rate is below.
 
 ## Objective and model
 Study the **exact deterministic fixed finite-alphabet multitape full-product** problem with a uniform O(n) visited-cell cap. Let L=1+log_2 n, s=log_2 L. Seek quantitative bounds T(n)=O(n sqrt(L) H(n)) with H(n)>=1, ultimately H=O(1). Do not count arbitrary fixed-kappa corollaries of the November 24 result as progress. Do not claim an o(1) exponent gives a quantitative rate without uniform constants and thresholds.
@@ -29,3 +29,16 @@ Route B constructs a pairwise-independent shift family of width O(m), a degree O
 Route C proves an exact ordinary-count-polynomial error bound and the sharp asymptotic degree needed for polynomially rare error. For the explicitly defined degree-plus-linear-repair invoice, optimizing the error tolerance alone retains a sqrt(log m) loss. This is a scoped representation obstruction, not a multiplication lower bound.
 
 The next wave tests complete quantitative source compilation and the full physical cost of Route B. A separate characteristic-compatibility obstruction is under review. No substitution of a growing parameter into a fixed-parameter O-constant is admitted. Two distinct constructive routes remain active; the portfolio will be reassessed after this wave.
+
+## S002 accepted complete conservative extraction
+
+The finite-constructor, physical-compiler and common-cap assembly gates are accepted. With L(n)=1+log2 n and s(n)=log2 L(n), one fixed exact deterministic finite-alphabet multitape multiplier has
+
+    T(n)=O(n sqrt(L(n)) 2^{O(s(n)/(log2 log2 s(n))^(1/6))}),
+    visited cells=O(n).
+
+See the [theorem](routes/A/explicit-extraction-theorem.md) and [lead review](verification/S002/lead-review-explicit-extraction.md). Actual finite generation, rational/cyclotomic data, numeric address magnitudes, interpreted tape costs, precision, thresholds, chunk convolution and unsuccessful attempts are charged. This unconditional quantitative source extraction has unspecified absolute constants and an eventual threshold. It is not a claimed strict improvement over the published unspecified o(1), practical implementation, formal certification or endpoint solution.
+
+The independent route produced a growing-arity rational arithmetic Walsh theorem and a finite half-angle reflection family compatible with physical swap pencils. Their scopes differ: the arithmetic result is not a tape bound, and the reflection component does not yet improve H(n). Characteristic/interchange and count-aliasing obstructions passed independent review. The support-preserving lift obstruction also passed independent review.
+
+After two substantive waves A pursues a sharper search profile; B pivots from its rational-only caller to the physical reflection family and smaller representations; C tests alternatives to count prediction. The exact endpoint and stronger subexponential-in-s benchmarks remain open.

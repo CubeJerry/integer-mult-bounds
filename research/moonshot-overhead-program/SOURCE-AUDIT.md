@@ -38,3 +38,11 @@ Concurrent S002 compact prediction at `bbfd1086b7e629375f9891998e4602270d8801cd`
 ## E001 checkpoint 3 — Primary reading and implementation audit
 
 Root read the primary Baker–Harman–Pintz paper, *The difference between consecutive primes, II* (2001), Theorem 1 and its effectivity comment, for the input-dependent-radix proof. The eventual prime theorem's absolute threshold is retained, not numerically certified. Root re-read the full November interchange and Fourier repair proofs, including the finite-basis descent in `cor:swap-repair`, while checking the original-template tower draft. That draft's physical compiler audit is still in progress. No full Lean build or complete implementation replay is claimed.
+
+## S002 completed upper-bound source chain
+
+The lead now read complete November tape `interchange.tex`, `permutations.tex`, `walsh.tex`, `integers.tex`, `uniformity.tex` and September `sections/02-streams.tex`. The Fourier `repair.tex`, `kernel.tex`, `binary.tex` chain was fully read and its relevant quantitative interfaces rechecked. B independently read the integer/permutation chain; C independently checked matrix-root, cyclotomic and rational-address dependencies. Accepted polynomial dependence is on actual expanded finite data, including numeric address magnitudes.
+
+The lead also read complete tape `lower.tex`, `graphs.tex`, `advice.tex`. That conditional lower-bound chain uses variable-count Weak ETH and a partial-transposition reduction; it is not a premise of the upper bound. The complete tensor/permanent companion proofs, historical archives and formal dependencies remain outside this completed audit. No Lean build occurred.
+
+Baker-Harman-Pintz Theorem 1 and its introductory effectivity statement were read for the absolute eventual prime cutoff; no numerical cutoff or independent number-theory proof is claimed. Harvey's October commentary was read only at summary scope and is historical context. Source pins were rechecked at 14:09 UTC and were unchanged.
