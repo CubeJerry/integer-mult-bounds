@@ -6,6 +6,8 @@ Use the S003 AQ direct-space construction for external review, retaining E002/E0
 
 On the protected route the exact four-point row support defeats separate orbit-word storage at full degree. The campaign's single changed representation groups complete remainder blocks. Its finest possible bundles are classified. A trace layout works at every degree divisible by three, with complete-root padding at most four. The local separate-pass implementation has an $\Omega(qb)$ bill if used through $\Theta(b)$ levels. Freeze that use; a further discovery slot requires a genuinely fused operation or a charged crossing to a required boundary layout. [Obstruction](sessions/2026-11-26-S006/four-point-all-degrees.md) · [Changed layout and actual neighboring stages](sessions/2026-11-26-S006/stable-four-point-bundles.md)
 
+The literal coefficient prefix and the grouped factor decomposition identify both sides of a narrower physical experiment. The grouped binary remainder theorem has a [Lean verification](contributions/explicit-overhead/formal/GroupedComposition.lean). Review the actual cost of crossing these encodings. Additional single full-stream layers leave the complete budget unchanged.
+
 ## Earlier checkpoints
 
 ## A. Quantitative paper extraction

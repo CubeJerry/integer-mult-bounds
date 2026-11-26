@@ -27,3 +27,7 @@ At the failed separate-row representation, replace it once by complete four-row 
 ## Literal coefficient side of the same trace layout
 
 Test whether the special trace bundle's vanishing polynomial has sufficiently few nonzero terms for a divide-and-recombine step on the caller's binary coefficients. A pass requires an unbounded number of actual contiguous divisions starting in increasing coefficient order, exact prescribed endpoints and inverses, and cumulative $O(q\sqrt b)$ head steps and $O(q)$ visited bits. Independent ordinary polynomial long division must agree. A generic subspace-basis change or uncharged transpose fails. This is a boundary of the existing trace-bundle construction. Its partial conversion cannot discharge the full two-way CRT contract.
+
+## Gate decisions
+
+AX, AQ-P and A2 supply reviewed lemmas on the direct full-product proof. The exact modular Walsh target and the separate native-plan obstruction are kernel-checked. CRT4 refutes separate scalar representatives and admits the single dense-bundle alternative on its stated endpoints. Its coefficient prefix begins at the literal caller input. The grouped binary factor state has exactly $q$ bits; full cost for crossing and splitting it remains open. Independent review and exact outputs are recorded in the [final report](FINAL-REPORT.md).

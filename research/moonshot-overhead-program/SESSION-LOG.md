@@ -350,3 +350,7 @@ A pinned Lean 4.34.1 build [checked](sessions/2026-11-26-S006/lean-axioms.txt) t
 ### S006 all caller lengths and modular recovery
 
 The contiguous additive-layer proof applies to every $3\mid b$. Raising the binary root degree by at most two preserves $qH=\Theta(n)$ and the coefficient guard. The actual published modular Walsh target and its signed lift are kernel-checked at every even address width. Physical complexity remains a written theorem. Scientific checkpoint `9ea0ba937248dd4d21b3813a40ba97bb925ae660` contains the two proofs and executable evidence. A fresh replay of the Walsh module and its imports also exited successfully. No upstream PR was opened.
+
+### S006 literal input and grouped binary factors
+
+The trace polynomial admits one-correction radix division on unrestricted input bits. A growing prefix is paid in both directions. Mixed-coordinate quotients and remainders are verified over all fields, and grouped binary factors use exactly $q$ independent bits. The source-linked Walsh theorem, additive transforms, orbit semantics and ordinary coefficient divisions have separate Lean statements. [Full report and remaining cost](sessions/2026-11-26-S006/FINAL-REPORT.md)

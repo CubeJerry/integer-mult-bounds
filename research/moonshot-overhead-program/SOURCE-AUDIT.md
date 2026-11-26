@@ -252,3 +252,7 @@ S005 canonical e54523517d0f03e58352e647c403a5af3e525a57 and OpenAI3344da59991ed9
 ### S005 final upstream refresh
 
 At 02:41:20 UTC on 26 November 2026, canonical main remained `e54523517d0f03e58352e647c403a5af3e525a57` and OpenAI math main remained `3344da59991ed94f9ba711217b29c1d760badfa6`. The research branch was confirmed at `b07df605a6724c017d0dbf3c3b9952e3fd2a6c58`. The frozen report's earlier 02:20 refresh remains a true historical observation.
+
+### S006 closing source refresh
+
+The governing prompt and charter, OpenAI source and canonical community main revisions were reread from their branch refs at the close. They match the S006 pins recorded at the head of this ledger. The grouped decomposition uses the literal binary factor directory in S005, with all per-factor precision and carry requirements retained.

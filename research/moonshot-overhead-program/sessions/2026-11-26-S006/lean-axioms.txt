@@ -199,3 +199,106 @@ Verified the axiom sets of 55 named results.
 real	0m53.503s
 user	0m36.204s
 sys	0m12.394s
+
+Final eight-module verification. Each checked source has been replayed with all imports in a fresh Lean kernel. The following three separate invocations cover all eight modules.
+
+six-full-fresh.log
+replaying RepairDyadic with --fresh
+replaying FrobeniusBundles with --fresh
+replaying ModularWalshExact with --fresh
+replaying TraceBundles with --fresh
+replaying AdditiveTraceLayers with --fresh
+replaying BundleTransport with --fresh
+Verified the axiom sets of 49 named results.
+real	16m55.329s
+
+radix-fresh.log
+replaying TraceCoefficientPrefix with --fresh
+real	3m12.429s
+
+grouped-lean.log
+replaying GroupedComposition with --fresh
+real	2m42.347s
+
+Official program file hashes, in the order of the subsequent list:
+23da33e63121f0ec4eb9d33104e0cf601f617def AdditiveTraceLayers.lean
+35e8f30e26d3c8ebe1cdffbfa7e5a6a7f28b0c2f BundleTransport.lean
+8c74b91c64af541677daa5c1b5fd78deaa0aaa03 FrobeniusBundles.lean
+418ab17f68a161a7129e23dd84dc5b7cb9f35bca GroupedComposition.lean
+db7c503a6b55e9f46e1fc79aa0e14b5caaf8623e ModularWalshExact.lean
+5b1607e9f368039b50afb73904ba7f04137af4ae RepairDyadic.lean
+618f9d1504bd1722b510ff5f408f287be88431e7 TraceBundles.lean
+f22132be6790c0a9c605afbe51f261d35e8f3f20 TraceCoefficientPrefix.lean
+a0686433e5bb6036c9b72be63b77e8c807d63e6e check.sh
+
+Full clean eight-module compiler, axiom and kernel transcript:
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+Current branch: HEAD
+Using cache from origin: (some leanprover-community/mathlib4)
+No files to download
+Already decompressed 1728 file(s)
+'Moonshot.WalshPlan.twoTermGap_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.WalshPlan.checkBlock_has_nondyadic_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.WalshPlan.plan_entries_dyadic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.WalshPlan.actual_repair_gaps' depends on axioms: [propext]
+'Moonshot.WalshPlan.gap_has_factor_73' does not depend on any axioms
+'Moonshot.WalshPlan.native_plan_excludes_singleton_repair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.FrobeniusBundles.finest_stable_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.FrobeniusBundles.one_bundle_of_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CompactSpecialization.correction_from_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CompactSpecialization.correction_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CompactSpecialization.quotient_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CompactSpecialization.scalar_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CompactSpecialization.canonical_scalar_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CompactSpecialization.matrix_entry_tickets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CompactSpecialization.signed_lift_of_ticket' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CompactSpecialization.scalar_maps_ticket' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CompactSpecialization.row_pass_tickets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CompactSpecialization.source_row_pass_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CompactSpecialization.target_entry_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CompactSpecialization.target_scaled_input' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CompactSpecialization.walsh_sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CompactSpecialization.correct_plan_exact_walsh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CompactSpecialization.compact_target_exact_walsh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.TraceBundles.no_flip_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.TraceBundles.even_flip_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.TraceBundles.empty_odd_flip' depends on axioms: [propext]
+'Moonshot.TraceBundles.disjoint_signs' depends on axioms: [propext]
+'Moonshot.TraceBundles.kernel_iff_pair_image' depends on axioms: [propext, Quot.sound]
+'Moonshot.TraceBundles.unique_trace_split' depends on axioms: [propext, Quot.sound]
+'Moonshot.TraceBundles.full_period_direction' depends on axioms: [propext, Quot.sound]
+'Moonshot.AdditiveLayers.rootProduct_zero_iff_address' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.AdditiveLayers.gaps_of_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.AdditiveLayers.independent_field_equivalence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.AdditiveLayers.subspace_eq_rootProduct' does not depend on any axioms
+'Moonshot.AdditiveLayers.forward_is_evaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.AdditiveLayers.inverse_forward' depends on axioms: [propext, Quot.sound]
+'Moonshot.AdditiveLayers.forward_inverse' depends on axioms: [propext, Quot.sound]
+'Moonshot.AdditiveLayers.Example.field_four_roundtrip' depends on axioms: [propext, Quot.sound]
+'Moonshot.BundleTransport.stable_coset_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.reverse_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.finite_stable_coset_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.address_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.transported_binary_at_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.finite_frobenius_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.unique_source_digit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.sourceDigit_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.transport_at_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.binaryHorner_conjugate' depends on axioms: [propext, Quot.sound]
+'Moonshot.BundleTransport.binary_remainder_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CoefficientPrefix.feedback_square_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CoefficientPrefix.streamed_binary_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CoefficientPrefix.trace_power_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CoefficientPrefix.trace_power_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CoefficientPrefix.truncated_quotient_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.CoefficientPrefix.binary_quotient_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.GroupedComposition.actual_grouped_division' depends on axioms: [propext, Classical.choice, Quot.sound]
+replaying RepairDyadic
+replaying FrobeniusBundles
+replaying ModularWalshExact
+replaying TraceBundles
+replaying AdditiveTraceLayers
+replaying BundleTransport
+replaying TraceCoefficientPrefix
+replaying GroupedComposition
+Verified the axiom sets of 56 named results.
