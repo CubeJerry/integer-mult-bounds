@@ -320,3 +320,8 @@ Completed 2026-11-26T01:01:30Z, elapsed10815seconds from2026-11-25T22:01:15Z; re
 ### 2026-11-26T01:29:41Z — S005 first wave prepared
 
 Reconciled S004/E003 completion through8a5d9b06. Accepted conditional CT after C checked actual guards, post-XOR invoice and outer exponents; accepted scoped CR/SP/RG and positive RO. Four narrow pure-Std files independently rebuilt by lead. Unconditional frontier unchanged. Continue one constructive orbit-transition wave, independent label-family comparison and count-semantics bridge. See sessions/2026-11-26-S005/lead/FIRST-WAVE-ADMISSION.md.
+
+
+## S005 second-wave checkpoint
+
+S005 second-wave checkpoint prepared 2026-11-26T02:09:00.451085+00:00: accepted BE/SF/FC/SU/BO/AS/F5 with exact review scopes; completed fresh lead finite-algebra reconstruction; retained baseline and conditional CT. Explicitly froze two non-improving representation invoices and moved discovery to a distinct exact polynomial CRT caller. Last confirmed remote6cc55998; publication of this snapshot is separately checked.

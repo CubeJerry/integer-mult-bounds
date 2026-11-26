@@ -1,11 +1,11 @@
 # Independent review of square-product star obstruction
 
-**Verdict: SP1--SP3a accepted within the stated square-product model.**
+**Verdict: SP1--SP3a and SP3f accepted within the stated square-product model.**
 No tape-time, whole-pencil or multiplication lower bound follows.
 
 Reviewed source: ../route-a/square-product-star-obstruction.md.
-Final reviewed proof hash: c3bdd4466e711f0562bf079cc4bd8b1c8281aae0c7c19bc99c918a775866ad0a.
-The added affine-Newton scope clarification was read and accepted; the
+Final reviewed proof hash: bd4749fef46737e2196f70091d3e9e18fc9176c4e054378aa771571b2438a28c.
+The affine-Newton scope clarification and SP3f extension were read and accepted; the
 independent replay was refreshed against these exact bytes.
 
 ## Actual physical sectors
@@ -83,6 +83,27 @@ a shifted affine Newton update, a whole predictor, or cancellation across
 rectangles. SP2 only supplies its stated nonnegative shifts of the unweighted
 star, not every row-dependent signed shift.
 
+## SP3f: the exact characteristic extension
+
+The all-equal physical address supplies a one-dimensional invariant line
+over every field, without dividing by \(m+1\) or decomposing the natural
+permutation module into trivial and standard summands. Each controlled
+register permutation fixes that basis vector. On the independent seed rows,
+the target is \(\operatorname{diag}(m,-1,\ldots,-1)\), which is invertible
+when the characteristic does not divide \(m\). Consequently every square
+scalar row factor is invertible, and so is the entire physical product.
+
+For any nonzero seed there are at least two negative leaves. The
+difference of their one-special-letter basis vectors is nonzero over
+every field, including characteristic two; direct signed-star action
+annihilates it. The exact target is therefore singular on the full space,
+contradicting the preceding conclusion. This proves SP3f without applying
+the characteristic-zero determinant argument in a field where its sector
+decomposition may fail. If the characteristic divides \(m\), the fixed-line
+target is singular and this argument no longer applies; that exclusion is
+real. The extension does not make rational predictor denominators invertible.
+
+
 ## Scope controls and decision
 
 A physical diagonal phase that is minus one on the distinguished-center
@@ -109,6 +130,8 @@ physical one-special-letter orbits and dense/singular products before
 changing basis. Passed: 166 physical actions, 18 exact mixed products,
 six positive spectra, 56 signed seed kernel blocks and six address-phase
 scope controls. It also checks the nullity ratio and rational constant.
+The characteristic extension adds 265 exact finite-field kernel checks,
+19 invertible fixed-line cases, and five excluded-characteristic controls.
 Receipt: square-product-independent-verification.json.
 
 These are finite algebra checks. The analytic and unbounded proofs above

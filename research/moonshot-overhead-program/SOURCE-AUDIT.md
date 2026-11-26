@@ -223,3 +223,8 @@ S004 final provenance addition: Route B actually read Filmus, Smolensky's Lower 
 ## S005 source refresh and critical-chain coverage
 
 Programme start62d9d8e9 was reconciled through S004/E003 completion at8a5d9b06. Canonical main e54523517d0f03e58352e647c403a5af3e525a57 and OpenAI main3344da59991ed94f9ba711217b29c1d760badfa6 were live rechecked unchanged. Current prompt and strategy pins are in S005 SESSION.json. Lead read the actual OAI NearSquareRoot/Main.lean closure and relevant AQ, numerical, kernel/binary and outer source sections; C reconstructed the critical source/physical chain; B/C reread outer logarithms for CT. The source vanishing excess alone does not imply AQ's envelope. Coverage remains partial: no full matching-toolchain build, comparator, complete transitive formal audit, exhaustive archive/literature audit or human review. Precise boundaries are in S005's admission and reviews.
+
+
+## S005 second-wave checkpoint
+
+S005 lead and C independently read the actual general-fare controller, floor clock, exact tie closure and mixed-space interfaces at OpenAI3344da59. Arbitrary fare and floor rounding already exist; separated long-time/small-workspace body execution is the missing bridge. Lead additionally reconstructed the complete named characteristic-two finite suppliers, including current power-of-two cyclic factors and compact check-node field. Exact read scope and limits: sessions/2026-11-26-S005/lead/FINITE-ALGEBRA-AUDIT.md and adaptive-source-interface.md. No full matching-toolchain closure or comparator was run.

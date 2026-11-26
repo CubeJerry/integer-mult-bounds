@@ -34,7 +34,9 @@ def standard_coordinates(m):
 def main():
     counts={"physical_orbit_actions":0,"exact_mixed_products":0,
             "positive_sector_spectra":0,"seed_kernel_blocks":0,
-            "address_phase_scope_controls":0}
+            "address_phase_scope_controls":0,
+            "field_kernel_blocks":0,"field_fixed_line_cases":0,
+            "excluded_characteristic_controls":0}
     for m in range(2,8):
         n=m+1
         b=standard_coordinates(m)
@@ -85,6 +87,14 @@ def main():
 
     for r in range(2,6):
         m=2**r-1
+        primes=(2,3,5,7,11,31)
+        for p in primes:
+            fixed_line_determinant=(m*pow(-1,m,p))%p
+            assert bool(fixed_line_determinant)==bool(m%p)
+            if m%p:
+                counts["field_fixed_line_cases"]+=1
+            else:
+                counts["excluded_characteristic_controls"]+=1
         for t in range(1,2**r):
             signs=[-1 if (j&t).bit_count()%2 else 1 for j in range(1,m+1)]
             assert sum(signs)==-1
@@ -99,6 +109,19 @@ def main():
                 image.extend(s*v[0]+(-1-s)*v[i+1] for i,s in enumerate(signs))
                 assert not any(image)
             counts["seed_kernel_blocks"]+=1
+            for p in primes:
+                if m%p==0:
+                    continue
+                v=[0]*(m+1)
+                v[neg[0]],v[neg[-1]]=1,-1
+                assert any(z%p for z in v)
+                image=[0]*(m+1)
+                for j,s in enumerate(signs,1):
+                    moved=v[:]
+                    moved[0],moved[j]=moved[j],moved[0]
+                    image=[(a+s*b)%p for a,b in zip(image,moved)]
+                assert not any(image)
+                counts["field_kernel_blocks"]+=1
         h=sp.Rational(m*(m-1),2)
         d=m*(m+1)
         assert h/d>=sp.Rational(1,4)

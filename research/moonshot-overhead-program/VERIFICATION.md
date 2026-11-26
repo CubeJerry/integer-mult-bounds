@@ -219,3 +219,8 @@ S004 final isolated replays passed: FFT217cases/2542coefficients, actual triadic
 C independently accepts CT/CR and the orbit compiler with explicit scopes; B independently accepts the lead's cross-orbit rank theorem. Separate exact implementations check star products and Walsh rank/Gram identities. Finite examples support the unbounded written proofs, not a machine-runtime claim.
 
 ArenaSchedule, BatchPath, CopiedCountFormula and CountSemantics compile with Lean4.35.0 (eb6cafb7290e8bd5f2937522d8d804f58f02bafc); lead read complete sources and rebuilt isolated byte copies. Axioms and hashes are in [receipt](sessions/2026-11-26-S005/lead/formal-replay.json). Source requires4.34.1; its full target/comparator were not rebuilt. The exact natural-number count, literal false padding, copied size and degree are checked. Cyclic factorization remains outside this development. No complete multiplier or physical refinement was kernel checked.
+
+
+## S005 second-wave checkpoint
+
+S005 second wave: BE/SU/BO/AS and the finite-characteristic SP extension have independent written reviews; BE and BO also have separately implemented exact replays. Lead accepted SF after a complete proof read and isolated author-checker replay, explicitly not a second implementation. Five pure-Std files now have fresh Lean 4.35.0 build receipts. ResourcePotential proves resource arithmetic only; the full AS source instantiation and actual multiplier remain unformalized. See sessions/2026-11-26-S005/lead/SECOND-WAVE-ADMISSION.md.

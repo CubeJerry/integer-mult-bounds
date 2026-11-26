@@ -120,3 +120,8 @@ E003 has independently admitted the same two-thirds complete envelope already re
 ## S005 checkpoint addition
 
 Adds a complete **conditional** polynomial-log-log transfer from two unconstructed local finite template contracts, a positive fixed-tape orbit-layout compiler with converter charged, scoped star/collision/Fourier-rank gates, and four narrow independently rebuilt Lean supporting proofs. Reviews are distinct from authors' checkers. The unconditional AQ/V/E003 written frontier remains unchanged; no endpoint, complete formal multiplier or practical implementation is claimed.
+
+
+## S005 second-wave checkpoint
+
+S005 second-wave additions: a full-rate paired Bell compiler for the retained local algebra; exact spectator-span and outer product/phase identities; scoped encoder-invoice limits; a conditional exact-source time/space interface using the already general upstream clock; five narrow supporting formal proofs in total. The complete unconditional frontier is unchanged. No upstream PR is opened by this checkpoint.

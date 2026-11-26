@@ -25,3 +25,14 @@ kernel checks are distinct evidence levels. Complete machine formalization,
 human refereeing and an exhaustive novelty review remain unperformed.
 
 Jerry Chen (@CubeJerry); substantial ChatGPT multi-agent research and review.
+
+## Second wave
+
+- [Admission and explicit pivot](lead/SECOND-WAVE-ADMISSION.md).
+- [Paired Bell executor](route-a/paired-column-bell-executor.md) and [outer boundary](route-b/bell-outer-boundary.md).
+- [Spectator-span factorization](route-b/spectator-span-fourier-lift.md) and [lead review](lead/REVIEW-SPECTATOR-SPAN.md).
+- [Adaptive source interface](lead/adaptive-source-interface.md) and [independent review](route-c/REVIEW-ADAPTIVE-SOURCE-INTERFACE.md).
+- [Fresh finite-algebra audit](lead/FINITE-ALGEBRA-AUDIT.md).
+
+The fifth narrow checked file is `lead/formal/ResourcePotential.lean`.
+The exact polynomial-CRT caller is under construction and not admitted here.

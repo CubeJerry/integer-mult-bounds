@@ -131,3 +131,8 @@ S004 final mathematical work: A shared Fourier graphs and canonical leaf geometr
 A stopped the square-product star route after a determinant obstruction and proved a positive orbit-layout compiler. A owns the physical converter; B owns the all-input subspace/quotient Fourier transition. B's CT gives the complete conditional polynomial-log-log target and CR isolates a retained dimension bill. C reviewed CT/CR/RO and audited AQ, with four narrow kernel-checked developments. The lead proved and B reviewed the quantitative cross-orbit Walsh rank gate.
 
 This constructive orbit wave must change the converter or child bill; otherwise freeze it unless a concrete new supplier changes that conclusion. The lead separately compares a constant-weight label family with source and prior incidence proofs. No new unconditional complete bound is claimed.
+
+
+## S005 second-wave checkpoint
+
+S005 explicit pivot: ordinary rowspace compiler survives as a positive supplied-layout executor, but two converter/Fourier waves left its binding bill unchanged. Bell coordinates close the actual paired GL/Walsh/quadratic repair algebra; paid endpoints and outer convolution/phase interfaces stop the current implementation. The next distinct route is an exact polynomial CRT caller with compressed irreducible factors; its transform/generation gate is pending, not admitted.

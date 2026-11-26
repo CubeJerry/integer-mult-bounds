@@ -266,3 +266,8 @@ S004: JR remains open; no stronger unconditional bound. Exact residual corrector
 - **S005-F1/F2/F3/F4 (narrow kernel checks):** abstract arena reuse, batch divisibility, copied formula size/degree and local adder truth. Whole-word semantics and literal zero padding are checked; physical refinement remains open.
 
 The unconditional AQ/V/E003 written frontier is unchanged. See [admission](sessions/2026-11-26-S005/lead/FIRST-WAVE-ADMISSION.md).
+
+
+## S005 second-wave checkpoint
+
+S005 open obligations: CT-I/CT-W remain unconstructed. BE needs fast entry/exit conversion or a changed caller covering its full bilinear convolution and actual outer phases. AS needs one concrete adaptive dispatcher and direct separated BoundedFits execution, followed by physical refinement. The newly explored exact polynomial CRT route must pay uniform factor generation and both conversion directions. No unconditional frontier change.

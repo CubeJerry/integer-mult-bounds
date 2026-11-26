@@ -1,7 +1,7 @@
 # S005 independent AQ audit and discrete formal components
 
 Status: **partial independent critical-chain audit; no contradiction found in
-the examined chain. Three discrete supporting components are kernel-checked.
+the examined chain. Four discrete supporting components are kernel-checked.
 No full multiplier formalization or new overhead bound is claimed.**
 
 Programme pin: 62d9d8e917379cb2edc17c9761e12e2345bc01f4.
@@ -140,6 +140,12 @@ appears once, degree at most $2^k$ for bit $k$, and size at most $m^5$ for
 the balanced tree on $m=2^r$ unit-size leaves and $k\le r$. These are
 formula-size and degree claims, not a complete cyclic-factor or tape proof.
 Whole-word Boolean count semantics is not included in that first-wave file.
+The fourth file, [CountSemantics.lean](formal/CountSemantics.lean), imports
+it unchanged and proves the exact ordinary count with literal false padding.
+For $m\le 2^r\le2m$, the same actual formula counts all $m$ input Booleans,
+has copied size at most $32m^5$, and retains degree at most $2^k$ for bit
+$k\le r$. The fuller scope and reproducible check are recorded in
+[FORMAL-COUNT-SEMANTICS.md](FORMAL-COUNT-SEMANTICS.md).
 
 ## 6. Formal source and new checks
 
@@ -154,6 +160,15 @@ all visited tape/address pairs, but gives only a vanishing excess.
 InterchangeROMBinary.RectPhysical uses fixed $\rho$ and a header/record mass.
 Neither already states AQ's explicit envelope.
 
+A subsequent source-level review found that resolve_controller already
+accepts an arbitrary analytic fare; only its width specialization fixes
+a power. The missing adaptation is a direct local BoundedFits contract
+separating growing work from a fixed payload coefficient. The written
+AS bridge and checked ResourcePotential arithmetic are independently
+reviewed in [REVIEW-ADAPTIVE-SOURCE-INTERFACE.md](REVIEW-ADAPTIVE-SOURCE-INTERFACE.md).
+They do not instantiate the physical supplier or rebuild the OAI target.
+
+
 The source requires Lean 4.34.1. A matching compiled Mathlib/OAI closure was
 unavailable for a source build. The pure-Std files were compiled with the
 available Lean 4.35.0 release, commit
@@ -166,9 +181,10 @@ No source build, comparator run or full-multiplier kernel check is claimed.
 
 - Refine actual UP/SR/reserve tape addresses into fixed ArenaSchedule fences,
   then apply the source visitsAtMost_of_tape_fences theorem.
-- Establish a physical interchange contract for general monotone envelope $J$,
-  retaining machine and visited-cell specifications. Fixed-$\rho$ statements
-  alone cannot formally certify a variable envelope.
+- Instantiate AS's separated BoundedFits contract for one adaptive physical
+  dispatcher, retaining the exact machine and visited-cell specifications.
+  The arbitrary-fare clock is already available; selected fixed-exponent
+  interface statements alone do not supply this new physical body.
 - Change physical geometry or polynomial-arity numerical work for a new rate.
 - Independently examine the unbounded cyclic-factor/predictor chain before
   describing this partial work as a full theorem audit.

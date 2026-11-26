@@ -59,7 +59,12 @@ payloads to those destinations remains a separate operation.
 Gaussian elimination writes C as polynomially many elementary row
 operations. Executing them on long f-A slots with existing suppliers gives
 
-    V poly(A) I(f-A) + V poly(A).                         (FC3)
+    V poly(A) (1+I(f-A)) (1+log(k+2)) + poly(A,k),         (FC3)
+
+where k is the unchanged global numerical record/address parameter.
+The common logarithm and additive setup are the retained packed-XOR
+compiler's actual costs, not an interchange counted as a free row add.
+For f=A the tail is empty and this controlled operation is the identity.
 
 This recreates the repeated long-width toll. Generic radix conversion
 instead costs O(V[poly(A)+Af]). Neither upper bound is a lower bound,
