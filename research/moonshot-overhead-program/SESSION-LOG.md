@@ -301,3 +301,8 @@ S004 fifth checkpoint: two constructive Fourier sharing graphs and fresh changed
 ## E003 final-science checkpoint — 2026-11-26T00:51:12.839544+00:00
 
 E003 verified baeb200f5bb627efae99adb028b6e58198e6d335 by fresh fetch and exact tree match after reconciling E002/S003/S004. The state-tree proof and final report have passed independent routing review. Work continues until the requested 01:01:09 UTC end; this entry does not claim early completion.
+
+
+## S005 start: 2026-11-26T00:49:41Z
+
+Two-hour combined invocation under the revised shared endpoint charter. Start remote62d9d8e9; reconciled E003 completion52c62730. Canonical and OpenAI heads unchanged. Three actual workers own structured star-sum discovery, backward physical transfer, and independent AQ/formal audit. Lead owns synthesis and a separate algebra/geometry investigation. Current written two-thirds envelope retained pending audit; no new complete bound claimed. S004 recent work is preserved and its supplier audits are not duplicated. Full scope/pins: sessions/2026-11-26-S005/SESSION.json.

@@ -718,6 +718,41 @@
       "third_wave_admission": "lead/THIRD-WAVE-ADMISSION.md",
       "fourth_wave_admission": "lead/FOURTH-WAVE-ADMISSION.md",
       "fifth_wave_admission": "lead/FIFTH-WAVE-ADMISSION.md"
+    },
+    "2026-11-26-S005": {
+      "id": "2026-11-26-S005",
+      "status": "in_progress",
+      "started_utc": "2026-11-26T00:49:41Z",
+      "planned_end_utc": "2026-11-26T02:49:41Z",
+      "requested_seconds": 7200,
+      "timezone": "Australia/Melbourne",
+      "background_execution": false,
+      "starting_remote_head": "62d9d8e917379cb2edc17c9761e12e2345bc01f4",
+      "latest_reconciled_remote_head": "52c62730289449e01f53fee3aa3f7087d982e9e8",
+      "source_pins": {
+        "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
+        "openai_math_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
+        "prompt_blob": "5985e694d1f7f59da2c98ca54576bf7d1dc734d4",
+        "strategy_blob": "56ea16ddca6229eedd8fbd84ff9fa403bc9beb44",
+        "focused_prompt_blob": "b0675bc6a3886431dec5a7e0c06b296ef909f590"
+      },
+      "baseline": {
+        "formula": "T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log2(x+2))^(1/3))})",
+        "status": "Existing written AQ/V/E003 constructions; fresh critical-chain audit in progress",
+        "new_complete_overhead_bound": false
+      },
+      "routes": {
+        "A": "Structured star-sum execution and its regular-lift gate",
+        "B": "Backward physical transfer to polynomial log-log overhead",
+        "C": "Independent AQ critical-chain and formal arena audit",
+        "lead": "Global synthesis, independent alternate algebra inquiry and integration"
+      },
+      "concurrent_evidence": {
+        "S004": "Recent checkpoint00:45 UTC; planned end01:01. Avoid duplicate certified FFT and query-rank audits.",
+        "E003": "Completed at52c62730; final state/tree/gauge results preserved."
+      },
+      "checkpoints": [],
+      "publication": "Fork checkpoints only; no automatic upstream PR"
     }
   },
   "current_verified_frontier": {
@@ -839,5 +874,12 @@
       "TPC": "Accepted formal carry and absolute polynomial-m grammar for 3<=p<=m; L<=pD retained",
       "reviews": "Independent A/C reviews, lead proof/code reads and isolated exact replays"
     }
+  },
+  "current_strategy": {
+    "revision": "2026-11-26",
+    "charter": "autoresearch/moonshot-strategy.md",
+    "next_major_target": "G(x)=O(log(x+2)); finite absolute polynomial log-log exponent",
+    "long_term_target": "G(x)=O(1)",
+    "baseline_review_status": "Fresh independent S005 critical-chain review; existing AQ/V/E003 written provenance retained"
   }
 }
