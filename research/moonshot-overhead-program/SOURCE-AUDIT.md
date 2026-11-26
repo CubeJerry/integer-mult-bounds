@@ -1,5 +1,20 @@
 # Source audit — staged, not complete
 
+## S006 source-to-proof map
+
+The governing prompt and common charter are pinned to CubeJerry/AI_Prompts at `522e19e4624c243fd4e2465f4cd6dfef79ae1704`. The multiplier and finite-Fourier sources are OpenAI/math at `3344da59991ed94f9ba711217b29c1d760badfa6`. The community source pin is `e54523517d0f03e58352e647c403a5af3e525a57`. The session began from fork-branch commit `69632d87c99b5a75d0b44a7d964e6550e457e016`.
+
+| Source dependency | Check and outcome |
+|---|---|
+| Published integer short axes; BoxScale/CoprimeBox/BoxCoprimeTest | Distinguished the manuscript's prime interval from the released code's descending gcd test, and attached the elementary interval witness to its original $20\lceil\log_2 k\rceil$ width and density. [AX](contributions/explicit-overhead/coprime-axes.md) |
+| Published binary/interchange/integers source | Audited the actual supplied finite row operation, grouped prefix transfers, local diagonal and endpoint products. [Integrated construction](contributions/explicit-overhead/README.md) |
+| KernelColumn, KernelPass and Port.Token | Verified source bytes and pinned mathlib. The native plan is entirely dyadic; the modular rows use the actual Port.Token definition. All declarations in the Token source remain identical under its narrower test imports. [Hashes and axioms](sessions/2026-11-26-S006/lean-axioms.txt) |
+| S005 unramified caller and factor generation | Rechecked the literal binary factor domain, inverse coefficient order, precision $H$, and the $qH$ packing. The selected trace family requires at most two extra address bits. [Adjusted caller](sessions/2026-11-26-S006/stable-four-point-bundles.md) |
+
+The published paper states a square-root exponent with unspecified vanishing excess. This review supplies no literature-priority conclusion for the retained explicit envelope.
+
+## Earlier checkpoints
+
 | Source | Exact pin | Coverage this checkpoint | Missing |
 |---|---|---|---|
 | CrocSwap AGENTS.md, autoresearch.md, CONTRIBUTING.md | e54523517d0f03e58352e647c403a5af3e525a57 | Read current guidance and conventions | Other priority and selected-review files, discussions and overlapping PR proofs |

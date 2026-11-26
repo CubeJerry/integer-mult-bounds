@@ -1,5 +1,13 @@
 # Quantitative target and first derivation
 
+## Current target and measured change
+
+With $T=O(n\sqrt L H)$, the retained unconditional written result has $H\le2^{O(\Phi(x))}$, $G=\log_2H=O(\Phi(x))$ and $\delta=G/x=O((\log_2(x+2)/x)^{1/3})$ for large $x$. Exact signed-word execution reduces proof dependencies at this rate. A specific local CRT routine now meets the binary clock for a growing number of consecutive levels. Its endpoints are already expressed in the chosen trace-bundle formats.
+
+The next complete target is $G=O(\log(x+2))$. The endpoint is $G=O(1)$. S005 CT-I/CT-W would give the former under the outstanding physical hypotheses. UC6 needs both binary transform directions, their literal factor formats and higher-precision carry bounds. The partial layer result gives no unconditional value for those complete costs. Weak ETH enters the literature's conditional lower bound only. [Proof and bounds](contributions/explicit-overhead/README.md) · [Constructive partial CRT](sessions/2026-11-26-S006/stable-four-point-bundles.md)
+
+## Earlier checkpoints
+
 Define L(n)=1+log_2 n and s(n)=log_2 L(n). Published upper bound: T(n)<=n L(n)^(1/2+o(1)). The latest S002 section records an accepted explicit source extraction; earlier sections retain their checkpoint-specific scope.
 
 The consolidated current statement is E002 Theorem V in the final section below. Earlier sections are dated research history, including the preceding S002 fixed-field result.

@@ -1,5 +1,15 @@
 # External research and attribution
 
+## S006 external comparisons
+
+- OpenAI's [integer tape paper](https://github.com/openai/math/tree/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/The-logarithmic-exponent-of-integer-multiplication-on-tapes-November-24-2026) and [finite Fourier paper](https://github.com/openai/math/tree/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/The-logarithmic-exponent-of-finite-Fourier-transforms-November-24-2026) supply the transform identities, tape layout and caller. The quantitative extraction uses the earlier project constructions. The simulated scalar and formal dense-reference theorem refine the proof interface.
+- The elementary axis witness uses classical combinatorial sieve ideas. Its contribution here is a sufficient result for the unchanged programmed window with an explicit eventual cutoff. [Koukoulopoulos, chapter 19](https://dms.umontreal.ca/~koukoulo/documents/publications/primes.pdf)
+- The ordinary additive butterfly, novel polynomial basis and Frobenius evaluation savings are established. Li et al. and Chen et al. treat Frobenius partitions, with explicit Cantor-basis constructions at power-of-two extension degrees. The 2026 general-basis work already gives arbitrary decompositions and operation counts for the ordinary butterfly. S006's distinct claim is a specific full-field, fixed-head, two-direction representative invoice for $3\mid b$ and its attachment to the caller, covering a contiguous subset of layers. Priority for that refinement remains unestablished. [Li et al.](https://arxiv.org/abs/1802.03932) · [Chen et al.](https://arxiv.org/abs/1803.11301) · [General-basis additive FFT](https://arxiv.org/abs/2608.20855)
+- The Frobenius annihilator/conjugate-rank relation is classical. The dimension optimization is applied only to the allowed whole-block support grouping. The finite-field preparation imports polynomial-time normal basis construction; the tape proof prices its stream arithmetic separately. [Huczynska et al.](https://people.math.carleton.ca/~dthomson/Research/pdfs/DThomson-k-normal.pdf) · [Bshouty et al., §2](https://arxiv.org/abs/1602.05032v3)
+- Harvey and van der Hoeven provide the published multitape short-integer supplier used in the stronger consecutive-layer count. Fixed Toom-3 already suffices for an unbounded weaker count and for the AQ multiplication proof's outer arithmetic. [Harvey and van der Hoeven](https://annals.math.princeton.edu/2021/193-2/p04)
+
+## Earlier checkpoints
+
 - OpenAI, November 24, 2026: *The logarithmic exponent of integer multiplication on tapes*, source openai/math at 3344da59991ed94f9ba711217b29c1d760badfa6. All n L^(1/2+o(1)) claims derive from this paper.
 - OpenAI, November 24, 2026: *The logarithmic exponent of finite Fourier transforms*, companion proof; detailed audit pending.
 - CrocSwap #8102 by zxv: source-specific formal/repository contract specialization to any fixed kappa<1/2; this is not an overhead rate and no new algorithm is claimed here.

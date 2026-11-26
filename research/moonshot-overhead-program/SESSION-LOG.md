@@ -346,3 +346,7 @@ The elementary interval proof, the fixed-head reserve schedule, and a modular ex
 ### S006 kernel and dense-bundle checkpoints
 
 A pinned Lean 4.34.1 build [checked](sessions/2026-11-26-S006/lean-axioms.txt) the actual native plan language and the finest stable-partition theorem. The mathematical proof now explains both the separate-scalar obstruction and a constructive dense-bundle exception at three-power degrees. Cost is charged in both directions in [the local construction](sessions/2026-11-26-S006/stable-four-point-bundles.md). The tighter source-row and all-multiples-of-three refinements are under test. The previous deposited checkpoint is `932601d78f8c71d42dd5a1f5426d726ad93b8d42`.
+
+### S006 all caller lengths and modular recovery
+
+The contiguous additive-layer proof applies to every $3\mid b$. Raising the binary root degree by at most two preserves $qH=\Theta(n)$ and the coefficient guard. The actual published modular Walsh target and its signed lift are kernel-checked at every even address width. Physical complexity remains a written theorem. Scientific checkpoint `9ea0ba937248dd4d21b3813a40ba97bb925ae660` contains the two proofs and executable evidence. A fresh replay of the Walsh module and its imports also exited successfully. No upstream PR was opened.

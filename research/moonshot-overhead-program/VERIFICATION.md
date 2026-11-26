@@ -1,5 +1,16 @@
 # Verification
 
+## S006 verified evidence
+
+The [verification map](contributions/explicit-overhead/verification.md) records the scope of each proof and execution. The complete fixed-machine bound remains a written result.
+
+- Pinned Lean 4.34.1 checks the actual published plan, the signed modular Walsh target at every width and the arithmetic of its rational matrix rows. It also checks the finest stable coset partition, relative trace split and quotient-cycle cases. The four primary modules passed a second kernel replay. A fresh replay of the complete import environment for the Walsh module exited successfully. [Axioms and source hashes](sessions/2026-11-26-S006/lean-axioms.txt)
+- Exact finite checks covered 21,844 signed Walsh outputs, 16,984 independent small-denominator divisions, 576 actual repair coordinates and 2,040 midpoint cases. The adverse arity-63 key exposes a missing factor of 73 in denominator support.
+- The fixed-head implementation checked 2,520 unit cases and 1,281 nonunits. A separate 3,205-case harness checked values, preserved inputs, scratch erasure, return heads and $7K+16B+58$ visited cells.
+- Actual gcd-box searches, signed Toom-3 interpolation and 1,024 sieve patterns were replayed. The trace-layout review checked 72,160 intermediate results over 5,456 round trips in seven extension degrees. A separate checker inspected the caller's root padding at 67,763 input lengths. [Finite receipt](sessions/2026-11-26-S006/finite-replay.json) · [Independent layout review](sessions/2026-11-26-S006/REVIEW-BUNDLE-LAYERS.md)
+
+## Earlier checkpoints
+
 ## Actually performed at checkpoint 1
 - Read current remote `AGENTS.md`, `autoresearch.md`, `CONTRIBUTING.md` at canonical main SHA e54523517d0f03e58352e647c403a5af3e525a57.
 - Read OpenAI `uniformity.tex` at math SHA 3344da59991ed94f9ba711217b29c1d760badfa6 (blob 5ea562044e8830c8402f2a61caf8729dd2feb086).

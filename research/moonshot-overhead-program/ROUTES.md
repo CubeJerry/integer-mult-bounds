@@ -1,5 +1,13 @@
 # Independent routes and decision gates
 
+## S006 decisions
+
+Use the S003 AQ direct-space construction for external review, retaining E002/E003 as independent comparisons. The [modular implementation](contributions/explicit-overhead/modular-walsh.md) removes the internal numerical-error recurrence from this proof and the [fixed-head scalar](contributions/explicit-overhead/modular-scalar-machine.md) supplies the local arithmetic. The [source-importing proof](contributions/explicit-overhead/formal/ModularWalshExact.lean) checks row semantics. Its dense reference does not price the adaptive routing.
+
+On the protected route the exact four-point row support defeats separate orbit-word storage at full degree. The campaign's single changed representation groups complete remainder blocks. Its finest possible bundles are classified. A trace layout works at every degree divisible by three, with complete-root padding at most four. The local separate-pass implementation has an $\Omega(qb)$ bill if used through $\Theta(b)$ levels. Freeze that use; a further discovery slot requires a genuinely fused operation or a charged crossing to a required boundary layout. [Obstruction](sessions/2026-11-26-S006/four-point-all-degrees.md) · [Changed layout and actual neighboring stages](sessions/2026-11-26-S006/stable-four-point-bundles.md)
+
+## Earlier checkpoints
+
 ## A. Quantitative paper extraction
 Mechanism: optimize j against effective candidate/scheduler constants, not merely choose epsilon(n). Deciding question: can the paper's finite-template construction/search and valid input thresholds be bounded by a computable and useful function of j? Exit when the precise D_j,N_j dominate all possible envelope improvement.
 

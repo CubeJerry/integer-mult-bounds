@@ -1,5 +1,15 @@
 # Square-root overhead moonshot
 
+## Current contribution after S006
+
+[The explicit-overhead proof](contributions/explicit-overhead/README.md) consolidates the S003 direct-space construction. One fixed deterministic machine multiplies every pair of $n$-bit integers in $O(n\sqrt L\,2^{O(\Phi(x))})$ steps and visits $O(n)$ cells, where $L=1+\log_2 n$, $x=\log_2 L$ and $\Phi(x)=(x^2\log_2(x+2))^{1/3}$. The complete result is a written construction with AI review. The fixed-tape exponent is unchanged. E002 and E003 retain independent same-order proofs.
+
+The integrated argument supplies an elementary witness for the released gcd-axis search, a paid head/stack schedule, exact modular Walsh rows and an explicit fixed-head scalar. The protected CRT experiment supplies a reversible block of consecutive additive layers at all caller lengths under constant padding. The [verification record](contributions/explicit-overhead/verification.md) distinguishes the actual Lean theorems, finite executions and written time/space estimates.
+
+This is the first of three shared contribution-campaign sessions. The active proof issue is the uniform refinement of the adaptive interchange body on arbitrary independent records. The discovery issue is how to traverse many levels without materializing all data at each boundary.
+
+## Earlier checkpoints
+
 Status: S002 completed at 2026-11-25 16:20:45 UTC after 3 hours 22 seconds; the research programme remains open. Historical programme retained intact. The current strongest accepted rate is the fifth-wave fixed-field extraction linked below; earlier dated sections preserve checkpoint history.
 
 Current handoff: [S002 session report](SESSION-S002-REPORT.md), with the strongest theorem, source pins, independent gates, verification limits and continuation targets in one place.
