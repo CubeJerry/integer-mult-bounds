@@ -38,5 +38,12 @@ lake env bash -euo pipefail -c '
   lean -o OAI/Computability/NearSquareRoot/KernelColumn.olean OAI/Computability/NearSquareRoot/KernelColumn.lean
   lean -o OAI/Computability/NearSquareRoot/KernelPass.olean OAI/Computability/NearSquareRoot/KernelPass.lean
   lean -o OAI/LinearAlgebra/FiniteFourier/ProtectedRationals.olean OAI/LinearAlgebra/FiniteFourier/ProtectedRationals.lean
-  lean -DwarningAsError=true -o RepairDyadic.olean RepairDyadic.lean
+  lean -DwarningAsError=true -o RepairDyadic.olean RepairDyadic.lean | tee repair-axioms.log
 '
+for theorem in plan_entries_dyadic actual_repair_gaps gap_has_factor_73 native_plan_excludes_singleton_repair; do
+  grep -F "Moonshot.WalshPlan.$theorem" repair-axioms.log >/dev/null
+done
+if grep -E 'sorryAx|Lean\.ofReduceBool|Lean\.trustCompiler' repair-axioms.log; then
+  exit 1
+fi
+
