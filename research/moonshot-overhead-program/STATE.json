@@ -114,12 +114,12 @@
     ],
     "s006_upstream_pr": "not opened",
     "s006_last_confirmed_science_and_verification": "217739be447dfed13c02a8b8682872e84378f6ed",
-    "s006_final_commit_id_location": "Git history and final response"
+    "s006_final_commit_id_location": "Git history and final response",
+    "s007_upstream_pr": "none",
+    "s007_final_commit_id_location": "Git history and final chat response; no recursive self identifier."
   },
   "next_actions": [
-    "Review the arbitrary-independent-bit interchange body and cumulative visited space.",
-    "Continue discovery only for a costed fused operation or a fast crossing from the exact grouped binary factors to a required caller layout.",
-    "Freeze the separate-scalar and one-full-pass-per-level full transforms. CT-I, CT-W and UC6 carry obligations remain open."
+    "Use the third and final shared campaign slot for a complete independent external-review reconstruction of the fixed-precision factor-transform tape bill and packaging."
   ],
   "checkpoint_baseline_sha": "a31ed45a680b62562a14e8afa566c5c471d7eb3c",
   "session": {
@@ -131,7 +131,7 @@
     "background_execution": false,
     "record": "sessions/2026-11-26-S007/SESSION.md"
   },
-  "verification_status": "S007: strict pinned Lean build and kernel replay of 21 modules and 126 designated axiom checks; separate finite-word proof, written tape clocks and independent numerical comparisons. Human review pending.",
+  "verification_status": "S007: strict pinned Lean source build and kernel replay of 23 modules, with 139 designated axiom audits; separate finite word and 28 numerical certificates. New tape bounds are written constructions with AI review, awaiting independent human refereeing.",
   "concurrent_work": {
     "epsilon_uniformity": "results/epsilon-uniformity/SESSION.json",
     "reconciled_head": "d1f3baccdcc547263c0c0cc7241aa0cb1ef12bee",
@@ -925,7 +925,13 @@
         "proof": "sessions/2026-11-26-S007/first-witt-carry.md",
         "converse": "sessions/2026-11-26-S007/first-carry-converse.md"
       },
-      "verification": "sessions/2026-11-26-S007/VERIFICATION.md"
+      "verification": "sessions/2026-11-26-S007/VERIFICATION.md",
+      "fixed_precision_crt": {
+        "domain": "Every fixed precision h >= 1; all hq independent coefficient bits or all literal FS1 residue bits.",
+        "clock": "O_{h,eta}(q b/(1+log b)^eta); O_h(q) distinct visited tape cells",
+        "proof": "sessions/2026-11-26-S007/fixed-witt-precision.md",
+        "uniform_obstacle": "The separate binary-coordinate schedule materializes q h(h+1)/2 bits; at h=Theta(b), qh=Theta(n), these writes alone take Omega(nb) steps."
+      }
     }
   },
   "s003_current_result": {
@@ -1252,6 +1258,10 @@
           {
             "sha": "a4a98c97ae97c234c967159604c293016ab050a1",
             "result": "Full wide clock at the true FS1 boundary and the first literal Witt carry."
+          },
+          {
+            "sha": "7ecbffd890f4e721d47c2fac9c478db6cd2242ee",
+            "result": "Precision-uniform finite-ring multiplication, first-carry equivalence, 126-lemma proof checkpoint."
           }
         ],
         "verified_partial": "Earlier grouped embedding and trace-radix milestones preserved in checkpoints. The complete FS1 transform below supersedes them.",
@@ -1282,7 +1292,13 @@
           "proof": "sessions/2026-11-26-S007/first-witt-carry.md",
           "converse": "sessions/2026-11-26-S007/first-carry-converse.md"
         },
-        "polynomial_product": "Single pair over Z/2^H for H <= (1+log s)^K: O(s H log s/(1+loglog s)^eta), O(sH) total visited cells."
+        "polynomial_product": "Single pair over Z/2^H for H <= (1+log s)^K: O(s H log s/(1+loglog s)^eta), O(sH) total visited cells.",
+        "fixed_precision_crt": {
+          "domain": "Every fixed precision h >= 1; all hq independent coefficient bits or all literal FS1 residue bits.",
+          "clock": "O_{h,eta}(q b/(1+log b)^eta); O_h(q) distinct visited tape cells",
+          "proof": "sessions/2026-11-26-S007/fixed-witt-precision.md",
+          "uniform_obstacle": "The separate binary-coordinate schedule materializes q h(h+1)/2 bits; at h=Theta(b), qh=Theta(n), these writes alone take Omega(nb) steps."
+        }
       }
     ],
     "used_or_reserved": 2,
@@ -1346,5 +1362,22 @@
       "TPC": "Accepted formal carry and absolute polynomial-m grammar for 3<=p<=m; L<=pD retained",
       "reviews": "Independent A/C reviews, lead proof/code reads and isolated exact replays"
     }
+  },
+  "s007_current_result": {
+    "complete_integer_bound_improved": false,
+    "accepted_integer_rate": "T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log2(x+2))^(1/3))})",
+    "fixed_precision_crt": {
+      "domain": "Every fixed precision h >= 1; all hq independent coefficient bits or all literal FS1 residue bits.",
+      "clock": "O_{h,eta}(q b/(1+log b)^eta); O_h(q) distinct visited tape cells",
+      "proof": "sessions/2026-11-26-S007/fixed-witt-precision.md",
+      "uniform_obstacle": "The separate binary-coordinate schedule materializes q h(h+1)/2 bits; at h=Theta(b), qh=Theta(n), these writes alone take Omega(nb) steps."
+    },
+    "formal": {
+      "modules": 23,
+      "designated_results": 139
+    },
+    "numerical_receipts": 28,
+    "report": "sessions/2026-11-26-S007/FINAL-REPORT.md",
+    "remaining_campaign_slots": 1
   }
 }

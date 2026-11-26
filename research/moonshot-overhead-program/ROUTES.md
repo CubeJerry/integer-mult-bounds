@@ -2,7 +2,7 @@
 
 ## Decision after the second contribution session
 
-The cubic trace-plane route now reaches the literal ordered FS1 endpoint and admits its first lift to $\mathbf Z/4$. The straightforward self-recursion through chirp products inflates normalized child volume and is retired in that form. Batching the long products through an independent short convolution supplier closes that expense. The next campaign task is an independent reconstruction of the full tape invoice and proof package for external review. [Complete ordered binary CRT](sessions/2026-11-26-S007/binary-transform-and-product.md) · [First carry](sessions/2026-11-26-S007/first-witt-carry.md) · [Session report](sessions/2026-11-26-S007/FINAL-REPORT.md)
+The cubic trace-plane route now reaches the literal ordered FS1 endpoint and admits every fixed-precision lift, including $\mathbf Z/4$. The straightforward self-recursion through chirp products inflates normalized child volume and is retired in that form. Batching the long products through an independent short convolution supplier closes that expense. The next campaign task is an independent reconstruction of the full tape invoice and proof package for external review. [Complete ordered binary CRT](sessions/2026-11-26-S007/binary-transform-and-product.md) · [First carry](sessions/2026-11-26-S007/first-witt-carry.md) · [Session report](sessions/2026-11-26-S007/FINAL-REPORT.md)
 
 ## S006 decisions
 

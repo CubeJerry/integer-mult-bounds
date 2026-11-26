@@ -34,3 +34,7 @@ For the O(q/b) selected roots, test replacing the b-conjugate interpolation per 
 ## Fifth construction test
 
 The two remaining fixed-product bills have O(q) total operand length, individual length n=Theta(2^{b/3}b) and n^{2-o(1)} independent packets per fixed sign and grid axis. Test whether the positive-characteristic polynomial-convolution construction in the November Fourier paper can run these batches on fixed tapes in O(V log n/(loglog n)^η) time and O(V) visited cells, for V=n times the number of independent packets. The changed mechanism uses independent lane digits to fill each local non-binary address block up to a power of two at constant *aggregate* padding, followed by local controlled permutations and wide Pascal on O(log n/loglog n) active bits. Failure includes exponential padding, repeated full-width sorts at every layer, an ineffective extension-field setup or a missing price for jet multiplication. Passing would give a full root CRT below q log q. Two forward transforms, reduced factorwise products and one inverse would then also multiply one arbitrary pair of binary polynomials below n log n. This is the characteristic-two polynomial problem. The integer multiplication overhead and precision-carry issues require a separate transfer.
+
+## Decision
+
+The full crossing, first carry and fixed-precision extension are separately priced in the [session report](FINAL-REPORT.md). The complete integer envelope is unchanged. These results meet the session gate through actual FS1 output and arbitrary inverse input.

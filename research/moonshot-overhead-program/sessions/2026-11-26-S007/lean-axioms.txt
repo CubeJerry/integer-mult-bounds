@@ -129,6 +129,19 @@ Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd
 'Moonshot.LiteralWittCarry.literal_root' depends on axioms: [propext, Classical.choice, Quot.sound]
 'Moonshot.LiteralWittCarry.actual_factor_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
 'Moonshot.LiteralWittCarry.sqrt_parity_columns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.MacroTriadic.tri_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.MacroTriadic.restrictionEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.MacroTriadic.laneBasis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.MacroTriadic.cooley_tukey_entry' depends on axioms: [propext]
+'Moonshot.MacroTriadic.separated_lanes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.MacroTriadic.odd_chirp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.MacroTriadic.twisted_high' depends on axioms: [propext, Quot.sound]
+'Moonshot.DividedSquareProduct.exact_expansion' depends on axioms: [propext, Quot.sound]
+'Moonshot.DividedSquareProduct.binary_carry' depends on axioms: [propext, Quot.sound]
+'Moonshot.DividedSquareProduct.exists_divided_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.DividedSquareProduct.coefficient_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.DividedSquareProduct.coefficient_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.DividedSquareProduct.binary_input_square_high' depends on axioms: [propext, Classical.choice, Quot.sound]
 replaying RepairDyadic
 replaying FrobeniusBundles
 replaying ModularWalshExact
@@ -150,4 +163,6 @@ replaying ProjectedDirectory
 replaying ProjectedTraceCRT
 replaying MaskedTensorPascal
 replaying LiteralWittCarry
-Verified the axiom sets of 126 named results.
+replaying MacroTriadic
+replaying DividedSquareProduct
+Verified the axiom sets of 139 named results.

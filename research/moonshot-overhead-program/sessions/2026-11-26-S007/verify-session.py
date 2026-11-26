@@ -31,6 +31,9 @@ CASES = (
     ('check-first-witt-carry.py','first-witt-carry-receipt.json'),
     ('verify-half-square-converse.py','half-square-converse-cases.json'),
     ('verify-macro-triadic-product.py','macro-triadic-product-receipt.json'),
+    ('check-fixed-witt-precision.py','fixed-witt-precision-receipt.json'),
+    ('verify-fixed-witt-independent.py','fixed-witt-independent-cases.json'),
+    ('verify-macro-ck-independent.py','macro-ck-independent-cases.json'),
     ('verify-precision-striped-pascal.py','precision-striped-pascal-receipt.json'),
 )
 

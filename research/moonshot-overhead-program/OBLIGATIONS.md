@@ -6,7 +6,7 @@
 |---|---|---|
 | Canonical FS1 forward and inverse | Both directions on arbitrary input at the wide-record clock. [Complete ordered binary CRT](sessions/2026-11-26-S007/binary-transform-and-product.md) | Human review of convolution, routing and call multiplicities. |
 | First carry on literal factors | Priced modulo-four arithmetic and derivative correction. [First carry](sessions/2026-11-26-S007/first-witt-carry.md) | Reduce its normalized cost to the square-root target alongside the binary supplier. |
-| Higher carries | Precision doubling uses a separate supplier at each $t=2,4,8,\ldots$. | Construct the higher remainder digits and sum their costs at growing precision. |
+| Higher carries | Every fixed precision has an explicit transform. Uniform doubling must bound all costs at $t=2,4,8,\ldots$. | Construct the higher remainder digits and sum their costs at growing precision. |
 | Complete integer bound | The previous unconditional written estimate stands. | Independent review and physical formalization. |
 
 ## S006 obligations

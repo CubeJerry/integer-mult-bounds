@@ -2,7 +2,7 @@
 
 ## Current contribution after S007
 
-For $b=3c$, $q=2^b$, one fixed deterministic multitape machine converts all $q$ ordinary coefficient bits to the actual degree/Lyndon factor remainders and inverts any independent residue assignment in $O_\eta(qb/(1+\log b)^\eta)$ time, $O(q)$ cells ever visited, for every fixed rational $0<\eta<1/2$. A modulo-four construction gives the first carry for those same literal factors. The previous explicit integer bound remains in force. [Complete ordered binary CRT](sessions/2026-11-26-S007/binary-transform-and-product.md) · [First carry](sessions/2026-11-26-S007/first-witt-carry.md) · [Session report](sessions/2026-11-26-S007/FINAL-REPORT.md)
+For $b=3c$, $q=2^b$, one fixed deterministic multitape machine converts all $q$ ordinary coefficient bits to the actual degree/Lyndon factor remainders and inverts any independent residue assignment in $O_\eta(qb/(1+\log b)^\eta)$ time, $O(q)$ cells ever visited, for every fixed rational $0<\eta<1/2$. A modulo-four construction gives the first carry for those same literal factors. Truncated Witt coordinates extend both directions to each fixed coefficient precision with precision-dependent constants. The previous explicit integer bound remains in force. [Complete ordered binary CRT](sessions/2026-11-26-S007/binary-transform-and-product.md) · [First carry](sessions/2026-11-26-S007/first-witt-carry.md) · [Session report](sessions/2026-11-26-S007/FINAL-REPORT.md)
 
 The shared campaign has used slots S006 and S007. The remaining slot is for verifying and preparing the contribution for external review. The open integer questions are the square-root-scale price of the transform and costs across increasing precisions.
 

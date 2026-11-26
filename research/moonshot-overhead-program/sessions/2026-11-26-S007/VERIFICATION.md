@@ -12,6 +12,8 @@
 
 A [two-stage triadic implementation](macro-triadic-product-receipt.json) checked 12,960 transform coefficients and 3,388 ordinary product coefficients. Complete integer guard tests at 1,000 and 3,072 bits checked the final carry scan. This route gives a simpler, asymptotically slower integer bound than the retained square-root envelope.
 
+The [fixed-precision evaluation](fixed-witt-precision.md) was checked against 32,512 independent Witt-coordinate Horner evaluations, 16,256 literal modulo-eight factor comparisons and 4,132 arbitrary inverse inputs. A [second implementation](fixed-witt-independent-cases.json) uses literal quotient rings and checks Hensel roots and higher Hasse terms at precisions four, five and six. The [separate macro-transform replay](macro-ck-independent-cases.json) compares 39,204 transform symbols, five complete outer products, and 19,602 coefficient positions. [Independent review](review-macro-and-fixed-witt.md)
+
 ## Reproduction
 
 Run `python3 verify-session.py` in this directory for the recorded numeric fixtures. It compares decoded JSON values for every run and reports the SHA-256 of each expected certificate. [Verification driver](verify-session.py)
@@ -19,3 +21,7 @@ Run `python3 verify-session.py` in this directory for the recorded numeric fixtu
 The [formal checker](../../contributions/explicit-overhead/formal/check.sh) pins Lean 4.34.1, Mathlib and the reused OpenAI source modules. It builds the deposited Lean sources with warnings as errors, kernel-replays each named module, and rejects any designated theorem with axioms outside `propext`, `Classical.choice` and `Quot.sound`. [Kernel transcript](lean-axioms.txt)
 
 Lean verifies individual-factor membership and product, arbitrary low-degree CRT lifting, selected orbit coverage, actual ordinary-product reconstruction, moment and affine-chart identities, the masked tensor identity and the two-Witt-coordinate formula under its literal-root and remainder hypotheses. The October finite word has its own source pin and [kernel receipt](fourier-word-kernel.txt). The exponential design constants, full fixed-tape implementation, cumulative physical complexity of the new algorithms and complete integer theorem remain outside the Lean proof.
+
+## Verified release totals
+
+The complete pinned run built and replayed 23 component modules, auditing 139 named results. The actual scalar specialization of the divided-square product identity and the triadic cyclotomic restriction, lane basis, transform entry and chirp are included. Fresh-environment spot checks include the binary factor inventory, masked tensor, literal Witt carry and trace-fibre join. The [numeric transcript](numerical-replay.txt) records all 28 matching certificates.

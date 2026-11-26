@@ -1,0 +1,78 @@
+{
+  "seed": "0xc07a4",
+  "cases": [
+    {
+      "n": 9,
+      "m": 27,
+      "H": 1,
+      "counts": {
+        "direct_DFT_symbols_compared": 324,
+        "full_two_operand_CK_products": 1,
+        "ordinary_CK_coefficients_including_zero_padding": 162,
+        "ordinary_macro_packet_products": 432,
+        "true_pointwise_products": 18,
+        "wrong_omitted_twiddle_symbols": 54
+      }
+    },
+    {
+      "n": 9,
+      "m": 81,
+      "H": 2,
+      "counts": {
+        "direct_DFT_symbols_compared": 972,
+        "full_two_operand_CK_products": 1,
+        "ordinary_CK_coefficients_including_zero_padding": 486,
+        "ordinary_macro_packet_products": 1296,
+        "true_pointwise_products": 18,
+        "wrong_omitted_twiddle_symbols": 241
+      }
+    },
+    {
+      "n": 27,
+      "m": 81,
+      "H": 2,
+      "counts": {
+        "direct_DFT_symbols_compared": 2916,
+        "full_two_operand_CK_products": 1,
+        "ordinary_CK_coefficients_including_zero_padding": 1458,
+        "ordinary_macro_packet_products": 2160,
+        "true_pointwise_products": 54,
+        "wrong_omitted_twiddle_symbols": 962
+      }
+    },
+    {
+      "n": 27,
+      "m": 243,
+      "H": 5,
+      "counts": {
+        "direct_DFT_symbols_compared": 8748,
+        "full_two_operand_CK_products": 1,
+        "ordinary_CK_coefficients_including_zero_padding": 4374,
+        "ordinary_macro_packet_products": 6480,
+        "true_pointwise_products": 54,
+        "wrong_omitted_twiddle_symbols": 3775
+      }
+    },
+    {
+      "n": 81,
+      "m": 243,
+      "H": 3,
+      "counts": {
+        "direct_DFT_symbols_compared": 26244,
+        "full_two_operand_CK_products": 1,
+        "ordinary_CK_coefficients_including_zero_padding": 13122,
+        "ordinary_macro_packet_products": 3888,
+        "true_pointwise_products": 162,
+        "wrong_omitted_twiddle_symbols": 10282
+      }
+    }
+  ],
+  "totals": {
+    "direct_DFT_symbols_compared": 39204,
+    "full_two_operand_CK_products": 5,
+    "ordinary_CK_coefficients_including_zero_padding": 19602,
+    "ordinary_macro_packet_products": 14256,
+    "true_pointwise_products": 306,
+    "wrong_omitted_twiddle_symbols": 15314
+  }
+}

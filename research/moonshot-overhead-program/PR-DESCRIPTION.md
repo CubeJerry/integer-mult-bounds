@@ -15,7 +15,7 @@ This is the programme's retained unconditional written result. The published tap
 - The [elementary sieve](contributions/explicit-overhead/coprime-axes.md) certifies the released descending gcd search at its original widths. The [interchange schedule](contributions/explicit-overhead/AQ-P.md) prices full-volume returns and the union of tape cells visited. Fixed Toom-3 covers the outer full-word products.
 - The [modular Walsh executor](contributions/explicit-overhead/modular-walsh.md) carries out each rational row operation on bounded words and rounds at the boundary. Its short scalar has [fixed-head code](contributions/explicit-overhead/modular-scalar-machine.mjs). The [Lean proof](contributions/explicit-overhead/formal/ModularWalshExact.lean) recovers exact signed sums of the published target under its integer magnitude bound.
 - The [Complete ordered binary CRT](sessions/2026-11-26-S007/binary-transform-and-product.md) accepts all $2^b$ independent coefficient or factor bits in both directions and charges the full degree/Lyndon order.
-- The [First carry](sessions/2026-11-26-S007/first-witt-carry.md) computes the actual first high remainder digit for the literal integer factors. All growing-precision costs remain to be established.
+- The [First carry](sessions/2026-11-26-S007/first-witt-carry.md) computes the actual first high remainder digit for the literal integer factors. The [fixed-precision extension](sessions/2026-11-26-S007/fixed-witt-precision.md) handles arbitrary independent residues over each fixed coefficient ring. Its costs at growing precision remain open.
 
 ## Verification
 
