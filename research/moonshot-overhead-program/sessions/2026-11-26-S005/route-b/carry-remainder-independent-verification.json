@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "utc": "2026-11-26T02:24:36.825185+00:00",
+  "scope": "KC1--KC5 finite b=2 checks; KC6--KC7 and UC4--UC6 separately reviewed algebraically",
+  "proof_sha256": "db94d6694f7352309f021e93e41e07cfae5c7bdf9720408691b22ad213774d5d",
+  "checker_sha256": "50537eab00fd288b00075de0d6e9ab7cd8d8e1844aeff4815840259a2e89629c",
+  "caller_sha256": "e451b65deb2657176e354e2b3d4ab3da6d1ecba44d75c4d7b44610ac9bb6560b",
+  "review_sha256": "1839c32790fef277a36fd7395c103b192f0960eb822456f0150145cd8dd38f1a",
+  "counts": {
+    "literal_input_vectors": 16,
+    "literal_lifted_circuit_inputs": 48,
+    "polarization_pairs": 256,
+    "uncorrected_lift_negative_controls": 2
+  },
+  "integer_remainder_matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      -1,
+      1,
+      -1
+    ],
+    [
+      1,
+      0,
+      -1,
+      1
+    ],
+    [
+      0,
+      1,
+      -1,
+      0
+    ]
+  ],
+  "high_coefficient_matrix": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ]
+  ]
+}

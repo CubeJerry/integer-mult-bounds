@@ -125,3 +125,8 @@ Adds a complete **conditional** polynomial-log-log transfer from two unconstruct
 ## S005 second-wave checkpoint
 
 S005 second-wave additions: a full-rate paired Bell compiler for the retained local algebra; exact spectator-span and outer product/phase identities; scoped encoder-invoice limits; a conditional exact-source time/space interface using the already general upstream clock; five narrow supporting formal proofs in total. The complete unconditional frontier is unchanged. No upstream PR is opened by this checkpoint.
+
+
+## S005 final scientific checkpoint
+
+S005 adds a full-input exact CRT caller, explicit affordable factor stream, canonical precision recurrence and actual carry/circuit-lift identities. Fast binary CRT/carry and CT local template families remain open. These complement reviewed Bell/source-interface work without a new unconditional bound. This is a fork research checkpoint; no upstream PR was opened.

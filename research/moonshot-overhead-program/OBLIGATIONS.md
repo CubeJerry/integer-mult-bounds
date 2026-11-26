@@ -271,3 +271,8 @@ The unconditional AQ/V/E003 written frontier is unchanged. See [admission](sessi
 ## S005 second-wave checkpoint
 
 S005 open obligations: CT-I/CT-W remain unconstructed. BE needs fast entry/exit conversion or a changed caller covering its full bilinear convolution and actual outer phases. AS needs one concrete adaptive dispatcher and direct separated BoundedFits execution, followed by physical refinement. The newly explored exact polynomial CRT route must pay uniform factor generation and both conversion directions. No unconditional frontier change.
+
+
+## S005 final scientific checkpoint
+
+UC/FS/KC are admitted within their written scopes. Next suppliers: binary CRT and actual high-digit remainder K_t, including correction generation, factor access and absolute visited space. Factor generation fits the prospective endpoint budget; global transforms/inverse constants do not yet have that bound. CT-I/CT-W remain open. Ordinary-orbit/Bell current implementations are frozen pending a changed complete invoice.

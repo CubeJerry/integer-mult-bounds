@@ -207,3 +207,8 @@ Under the explicit, unconstructed local CT-I and CT-W contracts, T(n)=O(n sqrt(L
 ## S005 second-wave checkpoint
 
 S005 second-wave status: the strongest unconditional written G(x) remains O(x^(2/3)(log2(x+2))^(1/3)). CT conditionally gives G=O(log(x+2)), with C*=max(p_I+4,p_W+b+1), only under all open CT-I/CT-W contracts. BE/SF/AS and five narrow formal files do not instantiate those premises.
+
+
+## S005 final scientific checkpoint
+
+S005 retains unconditional H=2^{O(x^(2/3)(log2(x+2))^(1/3))}, G on that scale, delta=O((log2(x+2)/x)^(1/3)). CT conditionally gives H=(x+2)^C* with unconstructed local templates. UC6 conditionally reaches the endpoint from binary B(b)=O(sqrt(b)) and carry D(b,t)=O(1+sqrt(t)), plus all stated physical contracts; neither supplier is built.

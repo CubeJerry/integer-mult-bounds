@@ -141,9 +141,81 @@ for exponent, w in product(range(6, 22), (1, 3, 1 << 100)):
     assert 16 * (2 * B * w) == 32 * B * w
     counts['coarse_module_padding_ledgers'] += 1
 
+# Repair in an actual extension field, on arbitrary independent module values.
+# F16 uses X^4+X+1; its F4 root is found rather than conflated with check nodes.
+def kmul(a, b):
+    out = 0
+    while b:
+        if b & 1: out ^= a
+        b >>= 1
+        a <<= 1
+        if a & 16: a ^= 19
+    return out
+
+
+def kpow(a, n):
+    out = 1
+    while n:
+        if n & 1: out = kmul(out, a)
+        a = kmul(a, a)
+        n >>= 1
+    return out
+
+
+omega = next(a for a in range(2, 16) if kpow(a, 2) ^ a ^ 1 == 0)
+base_field = {0, 1, omega, kpow(omega, 2)}
+assert kpow(omega, 3) == 1 and len(base_field) == 4
+
+
+def kmm(a, b):
+    out = [[0] * len(b[0]) for _ in a]
+    for i, j, k in product(range(len(a)), range(len(b[0])), range(len(b))): out[i][j] ^= kmul(a[i][k], b[k][j])
+    return out
+
+
+def inverse(a):
+    n = len(a)
+    out = [row[:] + [int(i == j) for j in range(n)] for i, row in enumerate(a)]
+    for c in range(n):
+        p = next(i for i in range(c, n) if out[i][c])
+        out[c], out[p] = out[p], out[c]
+        inv = kpow(out[c][c], 14)
+        out[c] = [kmul(inv, x) for x in out[c]]
+        for i in range(n):
+            if i != c:
+                scalar = out[i][c]
+                out[i] = [x ^ kmul(scalar, y) for x, y in zip(out[i], out[c])]
+    return [row[n:] for row in out]
+
+
+H = [[kpow(node, exponent) for node in range(9)] for exponent in range(4)]
+for J, seed in product(((), (0,), (1, 3), (0, 4, 6), (2, 3, 5, 8)), range(4)):
+    j = len(J)
+    gaps = [0] * 9
+    for position, row in enumerate(J): gaps[row] = (0, omega, kpow(omega, 2))[position % 3]
+    M = [[0] * 4 for _ in range(4)]
+    if j:
+        V = [[H[i][row] for row in J] for i in range(j)]
+        Vi = inverse(V)
+        Vt = [list(col) for col in zip(*Vi)]
+        diag = [[kpow(gaps[J[i]], 2) if i == k else 0 for k in range(j)] for i in range(j)]
+        small = kmm(kmm(Vt, diag), Vi)
+        for i, k in product(range(j), repeat=2): M[i][k] = small[i][k]
+    X = [[(row * row + 3 * row + 7 * module + seed) % 16 for module in range(4)] for row in range(9)]
+    assert any(x not in base_field for row in X for x in row)
+    residual = [[kmul(gaps[row], x) for x in X[row]] for row in range(9)]
+    lifted = kmm([list(col) for col in zip(*H)], kmm(M, kmm(H, residual)))
+    for row, module in product(range(9), range(4)):
+        if row in J: assert lifted[row][module] == kmul(kpow(gaps[row], 2), residual[row][module])
+        assert kmul(gaps[row], X[row][module] ^ lifted[row][module]) == 0
+        if row not in J and lifted[row][module]: counts['harmless_off_set_lift_values'] += 1
+        counts['extension_field_independent_module_repairs'] += 1
+
 receipt = {'status': 'passed', 'utc': datetime.now(timezone.utc).isoformat(),
            'scope': 'fresh scalar, total-grade cyclic, spectral-word and integer-role controls only; no historical-suite rerun',
            'counts': dict(sorted(counts.items())),
-           'checker_sha256': sha256(Path(__file__).read_bytes()).hexdigest()}
+           'checker_sha256': sha256(Path(__file__).read_bytes()).hexdigest(),
+           'review_sha256': sha256((ROOT / 'REVIEW-FINITE-ALGEBRA-CHAIN.md').read_bytes()).hexdigest(),
+           'lead_audit_sha256': sha256((ROOT.parent / 'lead/FINITE-ALGEBRA-AUDIT.md').read_bytes()).hexdigest()}
 (ROOT / 'finite-algebra-seams-verification.json').write_text(json.dumps(receipt, indent=2) + '\n')
 print(json.dumps(receipt, indent=2))

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "deterministic_seed": 26110577,
+  "exact_arithmetic": "integers modulo powers of two and GF(2) polynomials",
+  "checks": {
+    "factor_degree_identities": 5,
+    "full_ring_inverses": 25,
+    "arbitrary_payload_roundtrips": 400,
+    "quotient_products": 200,
+    "forward_precision_lifts": 180,
+    "inverse_precision_lifts": 180,
+    "omitted_carry_failures": 154,
+    "literal_lift_controls": 16,
+    "integer_products": 96,
+    "lyndon_factors": 41,
+    "packed_field_products": 191
+  },
+  "scope": "Finite exact CRT, full-dimensional inverses, precision carry, integer recovery and factor-generation identities. Brute-force setup and dense CRT are test oracles, not the claimed fast suppliers, tape timing or a formal proof.",
+  "files": {
+    "verify_unramified_crt.py": "0705e673ba4eca81ddc31b78c6e8ccacb82b4289aef61efae7be2ca26a090c3c",
+    "unramified-polynomial-crt-caller.md": "e451b65deb2657176e354e2b3d4ab3da6d1ecba44d75c4d7b44610ac9bb6560b",
+    "binary-factor-stream-compiler.md": "13be8001733a677195095abbace706db3fe86f1fcef490531c65f4c49f09be2c"
+  }
+}

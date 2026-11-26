@@ -325,3 +325,8 @@ Reconciled S004/E003 completion through8a5d9b06. Accepted conditional CT after C
 ## S005 second-wave checkpoint
 
 S005 second-wave checkpoint prepared 2026-11-26T02:09:00.451085+00:00: accepted BE/SF/FC/SU/BO/AS/F5 with exact review scopes; completed fresh lead finite-algebra reconstruction; retained baseline and conditional CT. Explicitly froze two non-improving representation invoices and moved discovery to a distinct exact polynomial CRT caller. Last confirmed remote6cc55998; publication of this snapshot is separately checked.
+
+
+## S005 final scientific checkpoint
+
+S005 scientific snapshot prepared 2026-11-26T02:35:29.758641+00:00. Three report reviews accepted the frozen synthesis after scope corrections. UC/FS/KC is the distinct next route; current orbit/Bell invoices are frozen. Last confirmed remote d0600416. The requested session remains active until02:49:41UTC; observed completion will be recorded separately.

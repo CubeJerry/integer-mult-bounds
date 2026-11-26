@@ -1,7 +1,7 @@
 # S005 — two-hour combined moonshot session
 
 Requested interval: 26 November 2026, 00:49:41–02:49:41 UTC
-(11:49:41–13:49:41 Australia/Melbourne). This session is currently active.
+(11:49:41–13:49:41 Australia/Melbourne). Observed timing and completion status are in SESSION.json.
 
 The shared frontier remains authoritative in the programme STATE.json.
 No new unconditional complete multiplication bound has been admitted.
@@ -36,3 +36,12 @@ Jerry Chen (@CubeJerry); substantial ChatGPT multi-agent research and review.
 
 The fifth narrow checked file is `lead/formal/ResourcePotential.lean`.
 The exact polynomial-CRT caller is under construction and not admitted here.
+
+## Final scientific result
+
+- [Final report](FINAL-REPORT.md) and [admission](lead/FINAL-ADMISSION.md).
+- [Exact CRT caller](route-a/unramified-polynomial-crt-caller.md), [factor stream](route-a/binary-factor-stream-compiler.md) and [independent review](route-c/REVIEW-UNRAMIFIED-CRT.md).
+- [Actual carry interface](lead/carry-remainder-interface.md) and [independent review](route-b/REVIEW-CRT-CALLER-AND-CARRY.md).
+- [Independent retained-algebra audit](route-b/REVIEW-FINITE-ALGEBRA-CHAIN.md).
+
+Final additions are admitted in their explicit scopes. Fast binary CRT and carry suppliers remain open; the unconditional frontier is unchanged.

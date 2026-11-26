@@ -136,3 +136,8 @@ This constructive orbit wave must change the converter or child bill; otherwise 
 ## S005 second-wave checkpoint
 
 S005 explicit pivot: ordinary rowspace compiler survives as a positive supplied-layout executor, but two converter/Fourier waves left its binding bill unchanged. Bell coordinates close the actual paired GL/Walsh/quadratic repair algebra; paid endpoints and outer convolution/phase interfaces stop the current implementation. The next distinct route is an exact polynomial CRT caller with compressed irreducible factors; its transform/generation gate is pending, not admitted.
+
+
+## S005 final scientific checkpoint
+
+S005 pivots to an exact polynomial CRT caller. Its full-input reduction and factor setup are proved; fast binary CRT/carry is the live gap. Retain CT and the local Bell/orbit theorems, without claiming their missing global suppliers. Final decisions: sessions/2026-11-26-S005/lead/FINAL-ADMISSION.md.

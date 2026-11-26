@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "scope": "Independent finite algebra replay only; dense inverse and brute irreducibles are test oracles, not fast suppliers or tape implementations.",
+  "counts": {
+    "full_module_inverses": 25,
+    "arbitrary_coefficient_roundtrips": 200,
+    "packed_newton_quotient_products": 345,
+    "forward_and_inverse_precision_lifts": 180,
+    "nonzero_carry_negative_controls": 149,
+    "literal_lift_not_frobenius_binomial": 1,
+    "integer_products_and_carry_bounds": 80,
+    "complete_duval_enumerations": 8,
+    "normal_basis_lyndon_irreducibles": 71,
+    "two_dimensional_packed_field_products": 545,
+    "first_carry_polarization_and_coordinate_formula": 150,
+    "overlapping_support_correction_negative_controls": 125
+  },
+  "proof_sha256": {
+    "unramified-polynomial-crt-caller.md": "e451b65deb2657176e354e2b3d4ab3da6d1ecba44d75c4d7b44610ac9bb6560b",
+    "binary-factor-stream-compiler.md": "13be8001733a677195095abbace706db3fe86f1fcef490531c65f4c49f09be2c"
+  },
+  "checker_sha256": "882aeeb5d2a2c9cc707e6f64cf788413eed90ca5c94a6b18a33c5f7085400c16",
+  "seed": 2026112605
+}

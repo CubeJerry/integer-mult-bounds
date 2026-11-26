@@ -228,3 +228,8 @@ Programme start62d9d8e9 was reconciled through S004/E003 completion at8a5d9b06. 
 ## S005 second-wave checkpoint
 
 S005 lead and C independently read the actual general-fare controller, floor clock, exact tie closure and mixed-space interfaces at OpenAI3344da59. Arbitrary fare and floor rounding already exist; separated long-time/small-workspace body execution is the missing bridge. Lead additionally reconstructed the complete named characteristic-two finite suppliers, including current power-of-two cyclic factors and compact check-node field. Exact read scope and limits: sessions/2026-11-26-S005/lead/FINITE-ALGEBRA-AUDIT.md and adaptive-source-interface.md. No full matching-toolchain closure or comparator was run.
+
+
+## S005 final scientific checkpoint
+
+S005 canonical e54523517d0f03e58352e647c403a5af3e525a57 and OpenAI3344da59991ed94f9ba711217b29c1d760badfa6 refreshed unchanged at02:20:40UTC. Lead/C checked Bshouty–Diab–Kawar–Shahla2016 section2 deterministic fixed-field preprocessing and the published Annals2021 multitape multiplier statement; no full reread of the latter long proof is claimed. Scoped Tal revision1 and Perles–Weinstein operation-model reads are recorded in S005 lead/LITERATURE-REFRESH.md. Wider transitive/archive/priority coverage remains partial.

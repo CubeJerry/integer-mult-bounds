@@ -224,3 +224,8 @@ ArenaSchedule, BatchPath, CopiedCountFormula and CountSemantics compile with Lea
 ## S005 second-wave checkpoint
 
 S005 second wave: BE/SU/BO/AS and the finite-characteristic SP extension have independent written reviews; BE and BO also have separately implemented exact replays. Lead accepted SF after a complete proof read and isolated author-checker replay, explicitly not a second implementation. Five pure-Std files now have fresh Lean 4.35.0 build receipts. ResourcePotential proves resource arithmetic only; the full AS source instantiation and actual multiplier remain unformalized. See sessions/2026-11-26-S005/lead/SECOND-WAVE-ADMISSION.md.
+
+
+## S005 final scientific checkpoint
+
+All three routes reviewed frozen S005 report30ee75e8f25d475f42a8960792bb1d2dfd04127c675f4be4166d06c1d9f47ff2. UC/FS has separately implemented exact checks. B independently reviewed KC and UC precision; C independently derived first-carry polarization. Fresh retained-algebra controls include cyclic phases, negative offsets and independent extension-field repair. Five narrow Lean4.35.0 files were independently rebuilt; no complete multiplier, upstream4.34.1 closure or comparator. Root receipt-hash consistency check found no unmatched proof/checker hash.
