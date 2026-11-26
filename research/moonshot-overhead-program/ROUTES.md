@@ -1,5 +1,9 @@
 # Independent routes and decision gates
 
+## S008 numerical construction and rate decision
+
+Use the [fixed \(R=240\) multiplier](sessions/2026-11-26-S008/integer-clock.md) for quantitative review. Its explicit smooth and piecewise estimates bound the same algorithm. Two separate cross-anchor attempts compared coalesced endpoint views and a movable within-box partition. The latter attains a restricted optimal incidence count even against correlated subdivisions and substantially reduces actual endpoint requests. The remaining terms keep the order of the full excess. These trials are closed for this campaign. [Both proofs and scopes](sessions/2026-11-26-S008/routing-cross-anchor.md) · [Independent audit](sessions/2026-11-26-S008/address-review-cross.md)
+
 ## Decision after the second contribution session
 
 The cubic trace-plane route now reaches the literal ordered FS1 endpoint and admits every fixed-precision lift, including $\mathbf Z/4$. The straightforward self-recursion through chirp products inflates normalized child volume and is retired in that form. Batching the long products through an independent short convolution supplier closes that expense. The next campaign task is an independent reconstruction of the full tape invoice and proof package for external review. [Complete ordered binary CRT](sessions/2026-11-26-S007/binary-transform-and-product.md) · [First carry](sessions/2026-11-26-S007/first-witt-carry.md) · [Session report](sessions/2026-11-26-S007/FINAL-REPORT.md)

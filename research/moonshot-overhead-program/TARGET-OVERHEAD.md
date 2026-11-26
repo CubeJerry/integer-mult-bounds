@@ -1,5 +1,9 @@
 # Quantitative target and first derivation
 
+## S008 quantitative frontier
+
+Put \(L=1+\log_2n,\ x=\log_2L,\ \Phi(x)=(x^2\log_2(x+2))^{1/3}\). On the [explicit large-input range](sessions/2026-11-26-S008/integer-clock.md) one machine has \(H(n)\le 2^{71\Phi(x)},\ G=\log_2H\le71\Phi(x)\), and \(\delta(n)=G/x\le71(\log_2(x+2)/x)^{1/3}\). A literal bit-length cutoff and finite transition coefficients now accompany exponent \(0.501\). Attaining \(G=O(\log(x+2))\), \(G=O(1)\), or even removing the cube-root logarithmic factor still requires a new algorithmic argument. The remaining charge in the tested traversal includes the spatial placement of differing endpoints and the full Walsh computation. [Scoped cost comparison](sessions/2026-11-26-S008/routing-cross-anchor.md)
+
 ## S007 frontier
 
 Write $L=1+\log_2 n$, $x=\log_2 L$ and $\Phi=(x^2\log_2(x+2))^{1/3}$. The strongest complete unconditional written estimate is still $H=2^{O(\Phi)}$, $G=\log_2 H=O(\Phi)$ and $\delta=G/x=O((\log_2(x+2)/x)^{1/3})$. The normalized binary price is now $b/(1+\log b)^\eta$. The target for the alternative integer route is $\sqrt b\,(1+\log b)^C$ for fixed $C$. The ratio of these two displayed prices eventually grows for every such $C$. The targets $G=O(\log x)$ and $G=O(1)$ remain open. [Complete ordered binary CRT](sessions/2026-11-26-S007/binary-transform-and-product.md) · [First carry](sessions/2026-11-26-S007/first-witt-carry.md)

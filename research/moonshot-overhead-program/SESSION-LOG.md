@@ -410,3 +410,7 @@ A separate implementation review confirmed the whole native local bill at R=4096
 ### S008 complete multiplier transfer under review
 
 The [full clock](sessions/2026-11-26-S008/integer-clock.md) now selects one fixed R=240 machine. Its written large-input bound has explicit profile coefficient 71 and a unit-coefficient 0.501 cutoff. The raw fallback, phase/recovery, true slot-volume Walsh costs and uniform distinct-cell budget are priced. The [numerical Lean proof](sessions/2026-11-26-S008/full-cutoff.lean) independently checks the analytic threshold implication. The program-level proof remains written; source-level and executable integration checks continue.
+
+### S008 all-length and piecewise verification
+
+The [all-length calculation](sessions/2026-11-26-S008/all-lengths.md) joins the raw interface, a direct power-of-two transform and the adaptive coprime-box machine. The [piecewise estimate](sessions/2026-11-26-S008/routing-piecewise-walsh.md) reduces the sufficient threshold for exponent 0.501 on this same R=240 machine. The [end-to-end test](sessions/2026-11-26-S008/recount-system-audit.md) checked a 1,000-bit product and every convolution row on the source precision formulas. A deliberately omitted inverse CRT corrupted 204 out of 210 rows. Kernel checks of physical components and the separate quantitative implications are indexed in the final evidence record.

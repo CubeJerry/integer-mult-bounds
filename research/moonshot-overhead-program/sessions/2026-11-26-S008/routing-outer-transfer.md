@@ -87,6 +87,28 @@ $$
 n_* = 2^{K-3}(K+Z-2)+1. \tag{5}
 $$
 
-The global leading-one bounds in this note hold for all $n\ge n_*$ at their corresponding $K$. The usual power-of-two condition $n\ge2^{K+Z-2}$ also suffices. The length-specific test $n>2^{K-3}\lceil\log_2 n\rceil$ may pass at some smaller lengths. This distinction matters because $\lceil n/\lceil\log_2 n\rceil\rceil$ can decrease at a power-of-two boundary. Equation (5) is sharp for admissibility of this literal width guard. It gives a sufficient threshold for the multiplier running time.
+For a dispatcher using the literal width test $k\ge K$, the global leading-one bounds hold for all $n\ge n_*$ at their corresponding $K$. To implement that dispatcher, measure $n$ and its logarithmic digit width $d$, compute $h=\lceil n/d\rceil$ by binary division on words of at most $d+2$ digits, and compute $k=\mathrm{bitlength}(4h-1)$. The comparison $\mathrm{bitlength}(k)\ge Z+1$ is a fixed finite-state chain, so no huge threshold is materialized. The preparatory $O(d^2)$ steps fit the polynomial fast setup. A machine instead explicitly routed to a quadratic fallback for every $n<2^{2K}$ retains that chosen switch. The usual power-of-two condition $n\ge2^{K+Z-2}$ suffices for the literal width test. The test $n>2^{K-3}\lceil\log_2 n\rceil$ may pass at some smaller lengths because $\lceil n/\lceil\log_2 n\rceil\rceil$ can decrease at a power-of-two boundary. Equation (5) is sharp for admissibility of this guard.
+
+## The root-degree-240 machine
+
+For the final [fixed $R=240$ native machine](node-root-parameter.md), one can instead use $B_I=61$ and the same $A_I=5120$. The typed Walsh bill then has $B_W=70$. Equation (1) with that substitution is also the [full integer ledger](integer-clock.md). Put $x=\log_2\log_2n$. After division by $n\sqrt{\log_2 n}$ the logarithm of its entire clock is bounded by
+
+$$
+2^{25}+4\log_2(x+2)+70((x+2)^2\log_2(x+4))^{1/3}. \tag{6}
+$$
+
+All fast guards hold for $x\ge2^{48}+1$. At an endpoint $z<2^{55}-4$, put $C=2^{25}+220$. Using the decreasing ratios in (2), the bound $n(\log_2 n)^{501/1000}$ holds for the actual machine at every $x\ge z$ as soon as
+
+$$
+(z-1000C)^3 > 70000^3(z+2)^2\log_2(z+4),\qquad z>1000C. \tag{7}
+$$
+
+The [rational interval certificate](routing-outer-threshold.py) proves (7) at $z=18{,}536{,}231{,}398{,}600{,}959$ and proves the strict reverse at $z-1$. It bounds $\ln((1+t)/(1-t))$ for $0\le t\le1/3$ between the first 24 terms $2\sum_{i=0}^{23}t^{2i+1}/(2i+1)$ and this sum plus $2t^{49}/(49(1-t^2))$. Apply this first to $\ln2$, and then to $\ln((z+4)/2^j)$ with $j=\lfloor\log_2(z+4)\rfloor$. All endpoint comparisons are strict rational comparisons. Thus a sufficient input length is
+
+$$
+n\ge 2^{\,2^{18{,}536{,}231{,}398{,}600{,}959}} .
+$$
+
+This also works with the larger $A_W$ used above and with the initially chosen fallback at $n<2^{2K}$, as $z>2^{48}+1$. The adjacent signs locate the first integer satisfying this particular conservative inequality. They do not provide a lower bound on the running time.
 
 [Exact integer replay](routing-outer-transfer.py). Prepared for Jerry Chen (@CubeJerry) with ChatGPT research assistance.

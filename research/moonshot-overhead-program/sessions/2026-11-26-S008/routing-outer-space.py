@@ -26,15 +26,24 @@ def check():
 
     outside = 2 * 2**16 + 2**12 * 100 + 2**14 + 3 + 1 + 1 + 8
     assert outside < 2**22
-    all_arenas = 5 * 2**19 * (1024 + 100) + 2**22
-    assert all_arenas == 2_950_692_864 < 2**32
+    all_arenas_coarse = 5 * 2**19 * (1024 + 100) + 2**22
+    assert all_arenas_coarse == 2_950_692_864 < 2**32
+    native_binary = (1024 * (144 + 9) + 2 * ((3 * 2**12 + 2) * 9 + 2)
+                     + 17 * (918 + 1) + 128 * (18 + 5))
+    assert native_binary == 396_463
+    family_unrounded = native_binary + 62 * 23 + 160 * 13
+    assert family_unrounded == 399_969
+    all_arenas = family_unrounded * (1024 + 100) + 2**22
+    assert all_arenas == 453_759_460 < 2**29
+    assert 9 * all_arenas < 2**32
     return {
         "native_uniform_envelope": 2**18,
         "routing_family": one_family,
+        "routing_family_unrounded": family_unrounded,
         "routing_heads_upper_accounted": route_heads,
         "ordinary_walsh_heads_upper_accounted": walsh_heads,
         "all_arenas_per_Nk": all_arenas,
-        "convenient_fast_space_per_input_bit": 2**36,
+        "convenient_space_per_input_bit": 2**32,
     }
 
 

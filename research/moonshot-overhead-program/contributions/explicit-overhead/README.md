@@ -1,5 +1,15 @@
 # An explicit overhead for integer multiplication on fixed tapes
 
+## Numerical bound for the complete product
+
+One fixed deterministic multitape machine multiplies every pair of \(n\)-bit inputs exactly. For \(\ell=\log_2n,\ x=\log_2\ell,\ \Phi(x)=(x^2\log_2(x+2))^{1/3}\), its large-input time is at most
+\[
+ n\sqrt{\ell}\,2^{71\Phi(x)}.
+\]
+The bound has leading coefficient one once \(n\ge2^{2K}\), with \(K=2^{2^{48}}\). On earlier lengths the same machine takes at most \(4096n^2\) transitions. For every \(n\) with \(\log_2\log_2n\ge19{,}685{,}105{,}000{,}000{,}000\), its worst case is at most \(n(\log_2 n)^{0.501}\). The fixed \(R=240\) native clock, the actual Walsh role volumes, all three transforms and the original input/output format enter the proof. The review also counts the union of visited physical cells through termination. [Complete numerical theorem and threshold](../../sessions/2026-11-26-S008/integer-clock.md) · [Whole-program source audit](../../sessions/2026-11-26-S008/recount-system-audit.md) · [Distinct-cell proof](../../sessions/2026-11-26-S008/routing-outer-space.md)
+
+The functional order of the excess remains \(O((\log(x+2)/x)^{1/3})\). The new constants specify what one concrete algorithm guarantees at a given length. Two cross-anchor constructions were also tested. The better partition reduces the number of endpoint occurrences on an unbounded family; its full normalized cost still has the same order. [Routing theorem and scope](../../sessions/2026-11-26-S008/routing-cross-anchor.md) · [Independent check](../../sessions/2026-11-26-S008/address-review-cross.md)
+
 ## Complete factor transforms at each fixed precision
 
 The [complete factor transform](../../sessions/2026-11-26-S007/binary-transform-and-product.md) now converts from contiguous binary coefficients to every literal monic factor remainder and inverts arbitrary independent residues. For $b=3c$, $q=2^b$, its clock is $O_\eta(qb/(1+\log b)^\eta)$ with $O(q)$ cells ever visited, for each fixed rational $0<\eta<1/2$. The [first carry](../../sessions/2026-11-26-S007/first-witt-carry.md) identifies the actual new high bits for the same factors modulo four. It reduces to one ordinary divided square and a fixed number of binary transforms. The [converse](../../sessions/2026-11-26-S007/first-carry-converse.md) recovers ordinary modulo-four multiplication using this carry. [Truncated Witt coordinates](../../sessions/2026-11-26-S007/fixed-witt-precision.md) extend both directions to every fixed $h$ over $\mathbf Z/2^h$ with the same time order and constants depending on $h$. The integer theorem below retains its previous explicit overhead. [Decision and external-review scope](../../sessions/2026-11-26-S007/FINAL-REPORT.md)

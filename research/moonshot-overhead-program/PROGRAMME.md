@@ -1,5 +1,9 @@
 # Square-root overhead moonshot
 
+## S008 numerical integer multiplier
+
+The [current contribution](contributions/explicit-overhead/README.md) gives one fixed exact machine with the explicit time bound \(n\sqrt{\log_2n}\,2^{71\Phi(\log_2\log_2n)}\) at a stated input-size cutoff. A second explicit cutoff gives unit-coefficient \(n(\log_2n)^{0.501}\). Both operands may contain leading zeros, and one absolute linear space cap covers every visited cell. The older proofs below establish the same asymptotic order. The cross-anchor investigation establishes a scoped improvement in the number of endpoint occurrences. The slower-decaying asymptotic factor remains. [Numerical clock](sessions/2026-11-26-S008/integer-clock.md) · [Routing proof](sessions/2026-11-26-S008/routing-cross-anchor.md)
+
 ## Current contribution after S007
 
 For $b=3c$, $q=2^b$, one fixed deterministic multitape machine converts all $q$ ordinary coefficient bits to the actual degree/Lyndon factor remainders and inverts any independent residue assignment in $O_\eta(qb/(1+\log b)^\eta)$ time, $O(q)$ cells ever visited, for every fixed rational $0<\eta<1/2$. A modulo-four construction gives the first carry for those same literal factors. Truncated Witt coordinates extend both directions to each fixed coefficient precision with precision-dependent constants. The previous explicit integer bound remains in force. [Complete ordered binary CRT](sessions/2026-11-26-S007/binary-transform-and-product.md) · [First carry](sessions/2026-11-26-S007/first-witt-carry.md) · [Session report](sessions/2026-11-26-S007/FINAL-REPORT.md)

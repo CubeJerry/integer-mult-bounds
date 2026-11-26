@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Usage: bash walsh-check-lean.sh PATH_TO_OPENAI_MATH PATH_TO_PINNED_MATHLIB
 # Requires the pinned Lean release on PATH and Mathlib's imported modules built/cached.
+# Set S008_WALSH_FRESH_ALIGNED=1 for an optional whole-import replay of the first module.
 set -euo pipefail
 test "$#" -eq 2
 session_dir=$(cd -- "$(dirname -- "$0")" && pwd)
@@ -32,6 +33,9 @@ cp "$session_dir/../../contributions/explicit-overhead/formal/ModularWalshExact.
 test "$(git hash-object "$root/ModularWalshExact.lean")" = db7c503a6b55e9f46e1fc79aa0e14b5caaf8623e
 cp "$session_dir/walsh-aligned-proof.lean" "$root/WalshAligned.lean"
 cp "$session_dir/walsh-interpolation.lean" "$root/WalshInterpolation.lean"
+cp "$session_dir/walsh-rounding.lean" "$root/WalshRounding.lean"
+cp "$session_dir/walsh-shift.lean" "$root/WalshShift.lean"
+cp "$session_dir/walsh-clock.lean" "$root/WalshClock.lean"
 cd "$mathlib_dir"
 lake env bash -euo pipefail -c '
     cd "$1"
@@ -41,9 +45,9 @@ lake env bash -euo pipefail -c '
     for module in "$2/KernelColumn" "$2/KernelPass" "$3/Token" ModularWalshExact; do
         lean -DwarningAsError=true -o "$module.olean" "$module.lean" > /dev/null
     done
-    for module in WalshAligned WalshInterpolation; do
+    for module in WalshAligned WalshInterpolation WalshRounding WalshShift WalshClock; do
         lean -DwarningAsError=true -o "$module.olean" "$module.lean" | tee -a axioms.txt
-        if [[ "$module" == WalshAligned ]]; then
+        if [[ "$module" == WalshAligned && "${S008_WALSH_FRESH_ALIGNED:-0}" == 1 ]]; then
             leanchecker -v --fresh "$module"
         else
             leanchecker -v "$module"
@@ -59,11 +63,17 @@ expected = set('full_spacing_product subset_spacing_dvd_factorial oriented_spaci
                'lagrange_den_dvd repair_entry_den_dvd correction_eq_short aligned_scalar_token '
                'rationalRow_coeff rationalRow_eval rationalRow_card check_row_on_node actual_entry_den_dvd '
                'check_congruence actual_repair_lift rowDivisor_dvd scaled_row_exact scaled_repair_exact '
-               'actual_repair_token corrected_predictor_all_seeds'.split())
+               'actual_repair_token corrected_predictor_all_seeds rounded_word_spec dyadic_rounding_spec '
+               'midpoint_unique'.split())
+expected.update(('character_orthogonal shifted_count_identity exact_second_moment character_is_dot '
+                 'signed_is_shifted_bit exceptional_card window_card newton_in_window predictor_in_window '
+                 'actual_defect_capacity canonical_mask_count radius_square numbered_defect_capacity '
+                 'gapProduct_pos actual_gap_dvd actual_numbered_gap_dvd numbered_repair_token '
+                 'canonical_degree shiftSign_is_parity numbered_repair_all_rows numerical_decrement quarter_clock').split())
 seen = set()
-for name, axioms in re.findall(r"'Moonshot\.AlignedWalsh\.(\w+)' depends on axioms: \[([^\]]*)\]",
+for name, axioms in re.findall(r"'Moonshot\.AlignedWalsh\.(?:(?:ShiftGeometry|Clock)\.)?(\w+)' depends on axioms: \[([^\]]*)\]",
                               Path(sys.argv[1]).read_text()):
-    if set(axioms.split(', ')) - {'propext', 'Classical.choice', 'Quot.sound'}:
+    if set(re.split(r',\s*', axioms.strip())) - {'propext', 'Classical.choice', 'Quot.sound'}:
         raise SystemExit(f'Unexpected axioms for {name}: {axioms}')
     seen.add(name)
 if seen != expected:

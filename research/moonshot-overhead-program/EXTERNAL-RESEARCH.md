@@ -1,5 +1,11 @@
 # External research and attribution
 
+## S008 source comparison and priority
+
+The November integer-multiplication release states a single-machine \(n(1+\log n)^{1/2+o(1)}\) upper bound with linear visited space. Its lower-bound claim has a separate variable-count Weak ETH hypothesis. The present positive clock uses the published transform, the fork's earlier variable-arity derivation and new numerical tape bills. The [consolidated proof](contributions/explicit-overhead/README.md) retains the earlier attribution. [Source repository](https://github.com/openai/math/tree/3344da59991ed94f9ba711217b29c1d760badfa6) · [November manuscript](https://github.com/openai/math/tree/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/The-logarithmic-exponent-of-integer-multiplication-on-tapes-November-24-2026)
+
+Targeted searches of public results and issue/PR text in CrocSwap/integer-mult-bounds and openai/math for “0.501”, numerical thresholds, double logarithms and quantitative excess yielded no matching whole-program cutoff in the inspected material. These searches do not establish priority.
+
 ## S007 comparison
 
 Csizmadia's November 2 paired-phase manuscript already claims $O(n\log^{1301/1302}n)$ for two arbitrary binary polynomial inputs in the same fixed-tape time model. Its claim record describes the formal and human review status. The statement supplies a stronger standalone time than the present corollary. The present package develops the reversible factor interface, its positive-precision lift and cumulative linear space. Priority for those constructions has not been established. [Earlier claim](https://github.com/arpcs/finite-field-polynomial-multiplication/blob/e85bc1f6ca0ec9c13281c94b6a3e88ec2cdb4fc5/papers/03-best-binary/versions/0.2.1/CLAIM.json) · [Comparison and sources](sessions/2026-11-26-S007/ordinary-binary-product.md)

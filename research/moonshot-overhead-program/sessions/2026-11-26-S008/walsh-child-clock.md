@@ -43,7 +43,7 @@ The true batch product over any positive width chain satisfies \(\prod_i W_{a_i}
 \[
  \log_2 W_a=y+L_FQ+3h\le(15/4)y+3L_F+3\le4y,
 \]
-where \(3L_F+3\le y/4\) for \(y\ge65536\). Since \(A\ge2m\ge2^y\) and \(A_i f_i\le a_i\), multiplying over the width chain proves the claim. If the root has \(2^{k-s}\) complete spectator rows with \(k-s\ge4\lceil\log_2(\max(1,a_0))\rceil\), every batch divisor and their product divide that count, since they are powers of two. Install the direct fallback at \(x<2^{24}\); the stated product estimate covers every other width. This gives a concrete no-padding test for the whole nested Walsh call.
+where \(3L_F+3\le y/4\) for \(y\ge65536\). Since \(A\ge2m\ge2^y\) and \(A_i f_i\le a_i\), multiplying over the width chain proves the claim. If the root has \(2^{k-s}\) complete spectator rows with \(k-s\ge4\lceil\log_2(\max(1,a_0))\rceil\), every batch divisor and their product divide that count, since they are powers of two. Install the direct fallback at \(x<2^{24}\). The stated product estimate covers every other width. This gives a concrete no-padding test for the whole nested Walsh call.
 
 ## Loss of potential under rounding
 
@@ -56,8 +56,20 @@ For \(x'=\lceil\log_2(f+2)\rceil\), one has \(f\le a/(2m)\le2^{x-y}\). Thus \(x'
 \]
 Indeed \(y\ge x^{2/3}\lambda^{1/3}\), \(y\le x\), and \(3\sqrt[3]2<4\). The normalized spatial mass and this decrement leave at most \(2^{-2\sqrt{y\log_2(y+2)}}\le1/4\) of the parent allowance at coefficient 48. This proves the claim at every width in the displayed range.
 
+## Cubic comparison without differentiating the clock
+
+The [numerical potential proof](walsh-clock.lean) checks the actual base-two definitions of \(\Phi\) and \(\psi(y)=\sqrt{y\log_2(y+2)}\). Let \(q=y/(2x)\). The identity
+\[
+ (1-2q/3)^3-(1-q)^2=q^2(9-8q)/27\ge0
+\]
+and monotonicity of the logarithm give \(\Phi(x')\le(1-y/(3x))\Phi(x)\) whenever \(0\le x'\le x-y/2\) and \(0\le y\le x\). Since \(y\ge\Phi(x)\) in the adaptive schedule,
+\[
+ (y\Phi(x)/x)^2\ge y\log_2(x+2)\ge y\log_2(y+2).
+\]
+Consequently the actual potential decrease is at least \(\psi(y)/3\). For \(\psi(y)\ge1\), the normalized spatial mass \(2^{10\psi(y)}\) consumes at most one quarter of the parent's allowance already at coefficient 36. The theorem above uses 48, which also permits its smaller absolute constant on the direct range. The formal module verifies the real-number comparison and the quarter allowance for arbitrary rounded child parameters satisfying these printed inequalities. The earlier section proves the actual Fourier kernel's mass and arity satisfy them.
+
 ## Dependence on the interchange result
 
-A log-free exact interchanger would bound each external bit permutation at \(\sqrt a\,2^{O((\log a)^{2/3})}\) per unit volume. The retained rational Walsh pencil still has a local log loss \(O(\sqrt{y\log(y+2)})\). With a slot decrease \(\Theta(y)\), the old positive invoice accumulates \(O(x\sqrt{\log(y+2)/y})\) along a scale where \(\log a\asymp x\). If one chooses \(y\asymp x^{2/3}\), its majorant is \(O(x^{2/3}\sqrt{\log x})\); balancing the ordinary \(O(y)\) log toll against this majorant recovers \(y\asymp\Phi(x)\). This arithmetic concerns a proof invoice. It supplies no lower bound on the actual Walsh machine. The [joint rectangle transfer](../2026-11-26-S004/route-a/joint-rectangle-two-scale-transfer.md#6-two-scale-recurrence-with-the-logarithm-removed) also improves the **binary Fourier** finite profile to \(O(\sqrt y)\) under its JR assumption. That change allows the log-free \(O(x^{2/3})\) potential. A sharing argument confined to the ternary interchange labels does not supply the binary Fourier profile.
+A log-free exact interchanger would bound each external bit permutation at \(\sqrt a\,2^{O((\log a)^{2/3})}\) per unit volume. The retained rational Walsh pencil still has a local log loss \(O(\sqrt{y\log(y+2)})\). With a slot decrease \(\Theta(y)\), the old positive invoice accumulates \(O(x\sqrt{\log(y+2)/y})\) along a scale where \(\log a\asymp x\). If one chooses \(y\asymp x^{2/3}\), its majorant is \(O(x^{2/3}\sqrt{\log x})\). Balancing the ordinary \(O(y)\) log toll against this majorant recovers \(y\asymp\Phi(x)\). This arithmetic concerns a proof invoice. It supplies no lower bound on the actual Walsh machine. The [joint rectangle transfer](../2026-11-26-S004/route-a/joint-rectangle-two-scale-transfer.md#6-two-scale-recurrence-with-the-logarithm-removed) also improves the **binary Fourier** finite profile to \(O(\sqrt y)\) under its JR assumption. That change allows the log-free \(O(x^{2/3})\) potential. A sharing argument confined to the ternary interchange labels does not supply the binary Fourier profile.
 
-The numerical child coefficient, common spectator guard and the [scalar application](walsh-aligned-denominators.md) apply to the stated actual suppliers. A numerical end-to-end \(N\) still needs the nonrecursive numerical selector, charged guarded permutations, base execution and the complete caller's other operations.
+The numerical child coefficient, common spectator guard and the [scalar application](walsh-aligned-denominators.md) apply to the stated actual suppliers. The [complete Walsh layer](walsh-node.md) attaches its nonrecursive selector, direct base and guarded moves at true word widths. The [integer clock](integer-clock.md) accounts for the remaining outer operations.

@@ -168,7 +168,8 @@ private theorem home_tour (p : Home) (d : Data) (h : Heads) (n : ℕ) (zero : h 
 
 private theorem empty (k : ℕ) : un k k = un 0 0 := by
   funext z
-  simp [un]
+  unfold un
+  split_ifs <;> first | rfl | omega
 
 private theorem un_home (a b : ℕ) : un a b (-1) = .home := by simp [un]
 
@@ -181,7 +182,7 @@ private theorem un_inside (a b j : ℕ) (h : a≤j) (e : j<b) : un a b (j:ℤ) =
 
 private theorem un_end (a b : ℕ) : un a b (b:ℤ) = .blank := by simp [un]
 
-private theorem take_first (a b : ℕ) (h : a<b) :
+private theorem take_first (a b : ℕ) :
     Function.update (un a b) (a:ℤ) .blank = un (a+1) b := by
   funext z
   by_cases e : z=(a:ℤ)
@@ -228,9 +229,9 @@ private theorem double_first (digit : Bool) (d : ℤ → Letter) (p : ℤ) (a b 
   apply cfg_ext
   intro t
   cases t with
-  | digits => simp [triple,tape_same,TM.Move.shift]
-  | output => simp [triple,tape_write,take_first a b h,TM.Move.shift]
-  | work => simp [triple,tape_write,put_end,TM.Move.shift]
+  | digits => simp [tape_same,TM.Move.shift]
+  | output => simp [tape_write,take_first a b,TM.Move.shift]
+  | work => simp [tape_write,put_end,TM.Move.shift]
 
 private theorem double_second (digit : Bool) (d : ℤ → Letter) (p : ℤ) (a b n : ℕ) :
     TM.advance rule (frame (.second digit) d p a b a n n) =
@@ -267,6 +268,240 @@ private theorem double_end (digit : Bool) (d : ℤ → Letter) (p : ℤ) (k n : 
   simp only [see,rule,triple,un_end,Option.map_some,Option.some.injEq]
   apply cfg_ext
   intro t
-  cases digit <;> cases t <;> simp [triple,valueBit,tape_same,tape_write,put_end,empty,TM.Move.shift]
+  cases digit <;> cases t <;> simp [valueBit,tape_same,tape_write,put_end,empty,TM.Move.shift]
+
+
+private theorem before_restore (d : ℤ → Letter) (p : ℤ) (k n : ℕ) :
+    Trace (TM.advance rule) (frame (.home .before) d p 0 0 k n n) (k+2)
+      (frame .restore d p 0 0 0 n ((n:ℤ)-1)) := by
+  have tr := home_tour .before (triple d (un 0 0) (un 0 n)) (triple p 0 (n:ℤ)) k rfl
+    (un_home 0 0) (fun j _ => un_nohome 0 0 j)
+  unfold frame
+  convert tr using 1 <;> apply congrArg (cfg _ _) <;> funext t <;> cases t <;>
+    simp [active,triple,Function.update,returned]
+
+private theorem restore_one (d : ℤ → Letter) (p : ℤ) (j n : ℕ) :
+    TM.advance rule (frame .restore d p 0 j j (n+1) n) =
+      some (frame .restore d p 0 (j+1) (j+1:ℕ) n ((n:ℤ)-1)) := by
+  unfold TM.advance frame cfg
+  simp only [see,rule,triple,un_inside 0 (n+1) n (by omega) (by omega),Option.map_some,Option.some.injEq]
+  apply cfg_ext
+  intro t
+  cases t with
+  | digits => simp [tape_same,TM.Move.shift]
+  | output => simp [tape_write,put_end,TM.Move.shift]
+  | work => simp [tape_write,take_end,TM.Move.shift]; congr 1
+
+private theorem restore_all (d : ℤ → Letter) (p : ℤ) (j n : ℕ) :
+    Trace (TM.advance rule) (frame .restore d p 0 j j n ((n:ℤ)-1)) n
+      (frame .restore d p 0 (j+n) (j+n:ℕ) 0 (-1)) := by
+  induction n generalizing j with
+  | zero => simp; exact .nil _
+  | succ n ih =>
+    have path := Trace.cons (restore_one d p j n) (ih (j+1))
+    have front : (↑(n+1:ℕ):ℤ)-1 = n := by omega
+    simpa only [front,Nat.add_assoc,Nat.add_left_comm,Nat.add_comm] using path
+
+private theorem restore_end (d : ℤ → Letter) (p : ℤ) (k : ℕ) :
+    TM.advance rule (frame .restore d p 0 k k 0 (-1)) =
+      some (frame (.home .after) d p 0 k k 0 0) := by
+  have tr := plain (triple d (un 0 k) (un 0 0)) (triple p (k:ℤ) (-1)) .restore (.home .after)
+    (fun t => if t=.work then .right else .stay) (by simp [rule,triple,un_home])
+  unfold frame
+  convert tr using 2
+  apply congrArg (cfg _ _)
+  funext t
+  cases t <;> simp [triple,TM.Move.shift]
+
+private theorem after_restore (d : ℤ → Letter) (p : ℤ) (k : ℕ) :
+    Trace (TM.advance rule) (frame (.home .after) d p 0 k k 0 0) (k+2)
+      (frame .read d p 0 k 0 0 0) := by
+  have tr := home_tour .after (triple d (un 0 k) (un 0 0)) (triple p 0 0) k rfl
+    (un_home 0 k) (fun j _ => un_nohome 0 k j)
+  unfold frame
+  convert tr using 1 <;> apply congrArg (cfg _ _) <;> funext t <;> cases t <;>
+    simp [triple,active,Function.update,returned]
+
+private theorem read_bit (d : ℤ → Letter) (p : ℤ) (k : ℕ) (digit : Bool) (hb : d p = .bit digit) :
+    TM.advance rule (frame .read d p 0 k 0 0 0) =
+      some (frame (.first digit) d (p+1) 0 k 0 0 0) := by
+  have tr := plain (triple d (un 0 k) (un 0 0)) (triple p 0 0) .read (.first digit)
+    (fun t => if t=.digits then .right else .stay) (by simp [rule,triple,hb])
+  unfold frame
+  convert tr using 2
+  apply congrArg (cfg _ _)
+  funext t
+  cases t <;> simp [triple,TM.Move.shift]
+
+private theorem bit_step (d : ℤ → Letter) (p : ℤ) (k : ℕ) (digit : Bool) (hb : d p = .bit digit) :
+    Trace (TM.advance rule) (frame .read d p 0 k 0 0 0) (7*k+2*valueBit digit+7)
+      (frame .read d (p+1) 0 (2*k+valueBit digit) 0 0 0) := by
+  let n := 2*k+valueBit digit
+  have a := (Trace.single (read_bit d p k digit hb)).trans (double_all digit d (p+1) k)
+  have b := a.trans (Trace.single (double_end digit d (p+1) k (2*k)))
+  have c := b.trans (before_restore d (p+1) k n)
+  have rev := restore_all d (p+1) 0 n
+  simp only [Nat.zero_add] at rev
+  have rest := (c.trans rev).trans (Trace.single (restore_end d (p+1) n))
+  have all := rest.trans (after_restore d (p+1) n)
+  convert all using 1
+  dsimp [n]
+  omega
+
+
+def eval (k : ℕ) : List Bool → ℕ
+  | [] => k
+  | d :: ds => eval (2*k+valueBit d) ds
+
+def cost (k : ℕ) : List Bool → ℕ
+  | [] => 0
+  | d :: ds => 7*k+2*valueBit d+7 + cost (2*k+valueBit d) ds
+
+def ones : List Bool → ℕ
+  | [] => 0
+  | d :: ds => valueBit d + ones ds
+
+def wordAt (d : ℤ → Letter) (p : ℤ) : List Bool → Prop
+  | [] => True
+  | x :: xs => d p = .bit x ∧ wordAt d (p+1) xs
+
+private theorem prefix_scan (d : ℤ → Letter) (p : ℤ) (k : ℕ) (xs : List Bool) (word : wordAt d p xs) :
+    Trace (TM.advance rule) (frame .read d p 0 k 0 0 0) (cost k xs)
+      (frame .read d (p+xs.length) 0 (eval k xs) 0 0 0) := by
+  induction xs generalizing p k with
+  | nil => simpa [cost,eval] using (Trace.nil (step := TM.advance rule) (frame .read d p 0 k 0 0 0))
+  | cons x xs ih =>
+    have start := bit_step d p k x word.1
+    have tail := ih (p+1) (2*k+valueBit x) word.2
+    simpa [cost,eval,add_assoc,add_left_comm,add_comm] using start.trans tail
+
+theorem cost_value (k : ℕ) (xs : List Bool) :
+    cost k xs+5*ones xs+7*k = 7*eval k xs+7*xs.length := by
+  induction xs generalizing k with
+  | nil => simp [cost,ones,eval]
+  | cons x xs ih =>
+    have ha := ih (2*k+valueBit x)
+    simp only [cost,ones,eval,List.length_cons]
+    omega
+
+private theorem matches_nohome (d : ℤ → Letter) (p : ℤ) (xs : List Bool)
+    (word : wordAt d p xs) (j : ℕ) (small : j<xs.length) : d (p+j) ≠ .home := by
+  induction xs generalizing p j with
+  | nil => simp at small
+  | cons x xs ih =>
+    cases j with
+    | zero => simp; rw [word.1]; cases x <;> decide
+    | succ j =>
+      have t := ih (p+1) word.2 j (by simpa using small)
+      simpa [add_assoc,add_left_comm,add_comm] using t
+
+private theorem read_end (d : ℤ → Letter) (p : ℤ) (k : ℕ) (stop : d p = .delimiter) :
+    TM.advance rule (frame .read d p 0 k 0 0 0) = some (frame .suffix d p 0 k 0 0 0) := by
+  unfold frame
+  simpa [TM.Move.shift] using
+    plain (triple d (un 0 k) (un 0 0)) (triple p 0 0) .read .suffix (fun _ => .stay)
+      (by simp [rule,triple,stop])
+
+private theorem final_next (d : ℤ → Letter) (p : ℤ) (k j : ℕ) (small : j<k) :
+    TM.advance rule (frame .suffix d p 0 k j 0 0) =
+      some (frame .suffix d p 0 k (j+1:ℕ) 0 0) := by
+  have a := plain (triple d (un 0 k) (un 0 0)) (triple p (j:ℤ) 0) .suffix .suffix
+    (fun t => if t=.output then .right else .stay)
+    (by simp [triple,rule,un_inside 0 k j (by omega) small])
+  unfold frame
+  convert a using 2
+  apply congrArg (cfg _ _)
+  funext t
+  cases t <;> simp [triple,TM.Move.shift]
+
+private theorem final_scan (d : ℤ → Letter) (p : ℤ) (k : ℕ) :
+    Trace (TM.advance rule) (frame .suffix d p 0 k 0 0 0) k (frame .suffix d p 0 k k 0 0) := by
+  suffices scan : ∀ j : ℕ, j≤k → Trace (TM.advance rule) (frame .suffix d p 0 k 0 0 0) j
+      (frame .suffix d p 0 k j 0 0) from scan k (by omega)
+  intro j sj
+  induction j with
+  | zero => exact .nil _
+  | succ j ih => exact (ih (by omega)).trans (Trace.single (final_next d p k j (by omega)))
+
+private theorem end_write (d : ℤ → Letter) (p : ℤ) (k : ℕ) :
+    TM.advance rule (frame .suffix d p 0 k k 0 0) =
+      some (cfg (.home .finalOutput) (triple d (closed k) (un 0 0)) (triple p (k:ℤ) 0)) := by
+  unfold TM.advance frame cfg
+  simp only [see,rule,triple,un_end,Option.map_some,Option.some.injEq]
+  apply cfg_ext
+  intro t
+  cases t <;> simp [tape_same,tape_write,shut,TM.Move.shift]
+
+private theorem closed_home (k : ℕ) : closed k (-1) = .home := by simp [closed,un_home]
+
+private theorem closed_nohome (k j : ℕ) : closed k j ≠ .home := by
+  unfold closed
+  split <;> first | decide | exact un_nohome 0 k j
+
+
+private theorem final_output (d : ℤ → Letter) (p : ℤ) (k : ℕ) :
+    Trace (TM.advance rule)
+      (cfg (.home .finalOutput) (triple d (closed k) (un 0 0)) (triple p (k:ℤ) 0)) (k+2)
+      (cfg (.home .finalDigits) (triple d (closed k) (un 0 0)) (triple p 0 0)) := by
+  have tr := home_tour .finalOutput (triple d (closed k) (un 0 0)) (triple p 0 0) k rfl
+    (closed_home k) (fun j _ => closed_nohome k j)
+  convert tr using 1 <;> apply congrArg (cfg _ _) <;> funext t <;> cases t <;>
+    simp [triple,active,Function.update,returned]
+
+private theorem final_digits (d : ℤ → Letter) (p k : ℕ) (home : d (-1) = .home)
+    (span : ∀ j : ℕ, j≤p → d (j:ℤ) ≠ .home) :
+    Trace (TM.advance rule)
+      (cfg (.home .finalDigits) (triple d (closed k) (un 0 0)) (triple (p:ℤ) 0 0)) (p+2)
+      (cfg .done (triple d (closed k) (un 0 0)) (triple 0 0 0)) := by
+  have tr := home_tour .finalDigits (triple d (closed k) (un 0 0)) (triple 0 0 0) p rfl home span
+  convert tr using 1 <;> apply congrArg (cfg _ _) <;> funext t <;> cases t <;>
+    simp [triple,active,Function.update,returned]
+
+/-- A canonical binary address may have leading zero padding. Its external tape is preserved. -/
+structure Input (d : ℤ → Letter) (xs : List Bool) : Prop where
+  home : d (-1) = .home
+  digits : wordAt d 0 xs
+  stop : d (xs.length:ℤ) = .delimiter
+
+/-- The computed unary value and all three heads are returned in canonical positions.
+    The theorem charges the actual deterministic machine through its halting state. -/
+theorem binary_to_unary (d : ℤ → Letter) (xs : List Bool) (bin : Input d xs) :
+    Trace (TM.advance rule) (frame .read d 0 0 0 0 0 0)
+      (9*eval 0 xs+8*xs.length+6-5*ones xs)
+      (cfg .done (triple d (closed (eval 0 xs)) (un 0 0)) (triple 0 0 0)) := by
+  let k := eval 0 xs
+  let n := xs.length
+  have good : ∀ j : ℕ, j≤n → d (j:ℤ) ≠ .home := by
+    intro j hj
+    by_cases e : j=n
+    · subst j
+      rw [bin.stop]
+      decide
+    · simpa using matches_nohome d 0 xs bin.digits j (by dsimp [n] at hj e; omega)
+  have prep := prefix_scan d 0 0 xs bin.digits
+  simp only [Int.zero_add] at prep
+  have a := prep.trans (Trace.single (read_end d n k bin.stop))
+  have b := a.trans (final_scan d n k)
+  have c := b.trans (Trace.single (end_write d n k))
+  have all := (c.trans (final_output d n k)).trans (final_digits d n k bin.home good)
+  convert all using 1
+  have eqn := cost_value 0 xs
+  dsimp [k,n]
+  omega
+
+theorem binary_to_unary_halts (d : ℤ → Letter) (xs : List Bool) :
+    TM.advance rule (cfg .done (triple d (closed (eval 0 xs)) (un 0 0)) (triple 0 0 0)) = none := rfl
+
+theorem mark_at (n j : ℕ) (small : j<n) : closed n (j:ℤ) = .count := by
+  have ne : (j:ℤ) ≠ n := by omega
+  simp [closed,ne,un_inside 0 n j (by omega) small]
+
+theorem stop_at (n : ℕ) : closed n (n:ℤ) = .delimiter := by simp [closed]
+
+theorem home_at (n : ℕ) : closed n (-1) = .home := closed_home n
+
+#print axioms binary_to_unary
+#print axioms binary_to_unary_halts
+#print axioms mark_at
 
 end S008.Compiler.Unary

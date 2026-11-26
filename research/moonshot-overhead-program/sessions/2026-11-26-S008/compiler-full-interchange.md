@@ -6,7 +6,7 @@ $$
  \qquad S_2(V,u)\le 2{,}359{,}424\,V .
  \tag{1}
 $$
-Here space is the total number of tape/address cells ever visited. These are $A_I=5120$ and $B_I=156$ in the literal [selected Walsh supplier](walsh-node.md). In particular that supplier's $\max(102,B_I+41)$ equals 197. The larger smooth coefficients 240, 288 and 576 also satisfy (1). Independently, a piecewise width potential gives the unit-coefficient result
+Here space is the total number of tape/address cells ever visited. These are $A_I=5120$ and $B_I=156$ in the literal [selected Walsh supplier](walsh-node.md). In particular the selected Walsh layer's subsequent $\max(48,B_I+9)$ equals 165 for this root degree. The larger smooth coefficients 240, 288 and 576 also satisfy (1). Independently, a piecewise width potential gives the unit-coefficient result
 $$
  T_2(V,u)\le V u^{501/1000}
  \quad\text{for}\quad

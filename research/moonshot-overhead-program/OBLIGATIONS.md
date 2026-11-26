@@ -1,5 +1,16 @@
 # Proof obligations
 
+## S008 admission gates
+
+| Binding cost | Evidence at the fixed machine |
+|---|---|
+| Native setup, movement, return, and direct base | Actual nonrecursive price at most \(2m^{120}V\), \(R=240\), including all caller-side work. Binary width price has \(A_I=5120,\ B_I=61\). The analytical child-weight contraction and selected raw transfers have kernel proofs. [Native budget](sessions/2026-11-26-S008/node-root-parameter.md) · [Independent integration](sessions/2026-11-26-S008/recount-system-audit.md) |
+| Walsh repairs and true spatial calls | Bounded signed accumulators, shared divisor alignment, actual rank/role volumes and rounded output yield \(B_W=70\). Initial and return address orders are tracked. [Walsh ledger](sessions/2026-11-26-S008/walsh-node.md) |
+| Whole-product threshold | Finite phase tables, guarded movement, all three transforms, fresh output and uniform memory give an explicit threshold for a leading-one \(0.501\) clock. [Whole clock](sessions/2026-11-26-S008/integer-clock.md) · [Piecewise improvement](sessions/2026-11-26-S008/routing-piecewise-walsh.md) |
+| Faster functional rate | The new partition reduces endpoint occurrences. Existing placement and the remaining transform costs retain the cube-root logarithm. A general cross-anchor traversal with smaller complete costs is open. [Scope and independent review](sessions/2026-11-26-S008/address-review-cross.md) |
+
+The remaining verification work is an independent human review and, for a fully formalized result, a source-level proof that the entire revised machine has the billed execution. The component Lean modules and limited executions cover specific parts of that obligation.
+
 ## S007 obligations
 
 | Interface | Current evidence | Remaining obligation |
