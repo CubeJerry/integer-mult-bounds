@@ -191,3 +191,7 @@ Independent C review accepted A's heterogeneous and parity-weighted Fourier comp
 ## E002 final integration — 26 November 2026
 
 E002 imported final hash-bound independent reviews and exact replays for CP, WB, corrected SS and WC, plus the lead's independent source/composition review of ER. The original SS spectator-half description and initial C review are explicitly withdrawn; corrected full-two-half checks pass (768 cases). WC's unsigned equal-weight rank test is not asserted for the complete signed source pencil. Main V mathematical content is unchanged (current status-only hash e3cdaae1f325951365104e275c84663f5e0d290bffcf59482845fe6f5d5611ea). Full report and detailed limits: results/epsilon-uniformity/sessions/E002/FINAL-REPORT.md. No full multiplier execution, fresh formal build or human referee review.
+
+### S004 fourth checkpoint — 2026-11-26T00:21:33Z
+
+S004 wave4: lead replays 153,896 Fourier partial identities, 4,368 phase entries, 84 channel entries, 8,408 side ranks; subset checks include 4,808 invariant entries, 161 transitions, 3 inverse completions, 6 fractions, 256 multiplicity blocks; amplitude 60 products/405 recursive nodes/192 root sums; tall-Hankel 19,305 sequences/108 tail products. Finite exact controls, not machine execution. See scoped FOURTH-WAVE-ADMISSION and manifest-wave4.

@@ -1,0 +1,107 @@
+{
+  "status": "pass",
+  "scope": "finite identities and exact source call invoices; no full tape execution",
+  "partial_transform_checks": {
+    "basis_subspace_cases": 320,
+    "exact_identity_entries": 153896,
+    "degenerate_restricted_subspace_cases": 73,
+    "omitted_dual_change_negative_controls": 45961,
+    "omitted_inverse_scale_negative_controls": 25834
+  },
+  "phase_and_adjoint_checks": {
+    "full_phase_adjoint_identity_entries": 4368,
+    "wrong_output_phase_order_negative_controls": 2142,
+    "two_channel_aggregation_entries": 84
+  },
+  "incidence_cases": [
+    {
+      "q": 2,
+      "L": 2,
+      "labels": 4,
+      "D": 2,
+      "lambda_value": 2,
+      "lambda_derivative": 2,
+      "K": 2,
+      "product_side_rank_checks": 8,
+      "old_axis_invoice": 8,
+      "new_axis_invoice": 6,
+      "singleton_source_star_invoice": 6
+    },
+    {
+      "q": 2,
+      "L": 4,
+      "labels": 16,
+      "D": 2,
+      "lambda_value": 8,
+      "lambda_derivative": 16,
+      "K": 8,
+      "product_side_rank_checks": 128,
+      "old_axis_invoice": 32,
+      "new_axis_invoice": 18
+    },
+    {
+      "q": 2,
+      "L": 6,
+      "labels": 64,
+      "D": 2,
+      "lambda_value": 32,
+      "lambda_derivative": 96,
+      "K": 32,
+      "product_side_rank_checks": 2048,
+      "old_axis_invoice": 128,
+      "new_axis_invoice": 66
+    },
+    {
+      "q": 4,
+      "L": 2,
+      "labels": 16,
+      "D": 6,
+      "lambda_value": 4,
+      "lambda_derivative": 2,
+      "K": 8,
+      "product_side_rank_checks": 48,
+      "old_axis_invoice": 48,
+      "new_axis_invoice": 26,
+      "singleton_source_star_invoice": 22
+    },
+    {
+      "q": 4,
+      "L": 4,
+      "labels": 256,
+      "D": 10,
+      "lambda_value": 40,
+      "lambda_derivative": 52,
+      "K": 144,
+      "product_side_rank_checks": 4992,
+      "old_axis_invoice": 800,
+      "new_axis_invoice": 306
+    },
+    {
+      "q": 8,
+      "L": 2,
+      "labels": 64,
+      "D": 14,
+      "lambda_value": 6,
+      "lambda_derivative": 2,
+      "K": 22,
+      "product_side_rank_checks": 224,
+      "old_axis_invoice": 168,
+      "new_axis_invoice": 70,
+      "singleton_source_star_invoice": 54
+    },
+    {
+      "q": 16,
+      "L": 2,
+      "labels": 256,
+      "D": 30,
+      "lambda_value": 8,
+      "lambda_derivative": 2,
+      "K": 52,
+      "product_side_rank_checks": 960,
+      "old_axis_invoice": 480,
+      "new_axis_invoice": 162,
+      "singleton_source_star_invoice": 118
+    }
+  ],
+  "total_product_side_rank_checks": 8408
+}

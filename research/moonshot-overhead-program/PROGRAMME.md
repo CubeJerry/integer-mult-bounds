@@ -140,3 +140,7 @@ New reviewed components cover arbitrary-matrix full-root survivor rank, active d
 ## E002 final integration — 26 November 2026
 
 E002's final reviewed discoveries distinguish exact partitions, overlapping covers, compatible endpoint reuse and actual occupied-address batching. The positive Weyl executor is restricted to its declared family; source star swaps and the literal parameter lift expose precise unresolved contractions. These findings refine physical construction targets while the complete unconditional V scale remains unchanged. See results/epsilon-uniformity/sessions/E002/FINAL-REPORT.md and lead/LATE-ADMISSIONS.md.
+
+### S004 fourth checkpoint — 2026-11-26T00:21:33Z
+
+S004 fourth scientific checkpoint adds reviewed physical/local components without changing the shared unconditional envelope or JR-only conditional theorem. E003 independently derived the balanced rank-weighted endpoint formula; parallel attribution is explicit. See scoped FOURTH-WAVE-ADMISSION.md.

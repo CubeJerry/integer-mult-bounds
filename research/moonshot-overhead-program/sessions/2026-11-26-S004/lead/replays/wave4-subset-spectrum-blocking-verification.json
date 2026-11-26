@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "seed": 2026112601,
+  "arithmetic": "exact F4, F16 and rational/integer multiplicities",
+  "counts": {
+    "f16_distributivity": 4096,
+    "local_regular_cycle_columns": 13,
+    "local_query_invariant_entries": 4808,
+    "dimension_weighted_sector_counts": 3,
+    "global_target_sector_transitions": 161,
+    "actual_subset_inverse_completions": 3,
+    "noncommuting_actual_subset_fraction_bounds": 6,
+    "ports_mixing_actual_strata": 3,
+    "actual_dimension_mixture_identities": 3,
+    "unequal_physical_multiplicity_blocks": 256,
+    "poisson_binomial_boundary_profiles": 192
+  },
+  "profiles": [
+    {
+      "r": 3,
+      "old_coordinates": 6,
+      "physical_dimension": 64,
+      "regular_fraction_per_group": "3/4",
+      "exceptional_dimension": 1,
+      "exact_boundary_fraction": "15/16",
+      "actual_query_offblock_rank": 53
+    },
+    {
+      "r": 5,
+      "old_coordinates": 4,
+      "physical_dimension": 81,
+      "regular_fraction_per_group": "5/9",
+      "exceptional_dimension": 16,
+      "exact_boundary_fraction": "65/81",
+      "actual_query_offblock_rank": 61
+    },
+    {
+      "r": 5,
+      "old_coordinates": 4,
+      "physical_dimension": 16,
+      "regular_fraction_per_group": "5/16",
+      "exceptional_dimension": 11,
+      "exact_boundary_fraction": "5/16",
+      "actual_query_offblock_rank": 8
+    }
+  ],
+  "negative_controls": [
+    "five selected points with repeated target roots are not regular",
+    "uniform three-value weights cannot replace physical fixed-point multiplicities"
+  ],
+  "checker_sha256": "8b95262bdb69817d96f048253b1e2b005624e3b0344109f7d6e4cb965980422a",
+  "scope": "Subset-to-regular blocking and actual-dimension rank controls; no physical transform-cost claim"
+}

@@ -195,3 +195,7 @@ Lead read the complete newly published E002 noncanonical zero-Gram-side incidenc
 ## E002 final integration — 26 November 2026
 
 E002 refreshed OpenAI math main and canonical main at 23:44 UTC: unchanged at3344da59991ed94f9ba711217b29c1d760badfa6 and e54523517d0f03e58352e647c403a5af3e525a57. Both full prompt contents were rehashed at23:47:41 UTC: focused ce6fe4edbf039aa964a08aaec216a1cc60dbfe2a and parent b5762a4dacb999703e83621301a455fbb12755f7 unchanged. Focused Pinto cover/partition and Ghosal-Karrenbauer binary-rank primary-source reads are recorded with partial-read limits; no priority claim. Complete local source endpoint subsection read for late ER/SS/WC reviews; no full transitive formal audit.
+
+### S004 fourth checkpoint — 2026-11-26T00:21:33Z
+
+S004 lead reread the pinned Fourier endpoint subsection, Bostan--Mori Section 2.1/Lemma 1/Algorithms 1--2 (https://mathexp.eu/bostan/publications/BoMo21.pdf), and Cantor--Kaltofen Sections 1--2 through cyclotomic operation bounds (https://kaltofen.math.ncsu.edu/bibliography/91/CaKa91.pdf). Fully read E002 WEYL-STAR-BATCHING and E003 rank-weighted invoice, star-transposition normal form and support-monotone shared-sum obstruction at 8fbe12b3c. No full-paper/novelty audit or unrestricted routing lower bound is claimed.

@@ -41,3 +41,7 @@ Active discovery has moved to heterogeneous/parity-specific Fourier geometry, de
 ## Third checkpoint
 
 See [third-wave admission](lead/THIRD-WAVE-ADMISSION.md) for six further reviewed geometry, algebra and repair components, their exact hypotheses, finite replay evidence and the next discovery questions. The unconditional envelope is unchanged. The session continues through its requested endpoint.
+
+## Fourth checkpoint
+
+[Fourth-wave admission](lead/FOURTH-WAVE-ADMISSION.md) records reviewed endpoint preconditioning, actual order-five subset-spectrum bounds, dense bounded-amplitude correction with a fixed-tape stack schedule, and a precisely shaped tall-Hankel extension. Full costs, physical multiplicities, exact replays and corrected optional scalar charges are explicit. The complete unconditional envelope is unchanged.

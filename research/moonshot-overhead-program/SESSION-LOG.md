@@ -284,3 +284,7 @@ E002 final integration preserves concurrent S003, E003 and S004 checkpoints thro
 ## E002 completed three-hour session
 
 Started 2026-11-25T21:19:31Z; actual closure 2026-11-26T00:20:30.262760+00:00; elapsed 10859 seconds (requested 10800). Seven remote checkpoints independently verified before closure, latest a31ed45a680b62562a14e8afa566c5c471d7eb3c. Final report SHA-256 9756aa369369b2f2e37a8f8900618af744a85a8667963445123fb35e0e7b3829 passed both independent final reviews. All 147 files in the retained import manifests and 18 key bindings matched; 59 JSON files parsed before the final receipt was added. The final short-seed comparison is separately checked and does not supply the missing long-field router. V remains unconditional; RV-I/RV-W, polynomial-x and endpoint targets remain open. Own workers completed; concurrent sessions preserved. Final metadata and closing files are published in the containing commit, with the remote ref checked afterward. No upstream PR or message sent.
+
+### S004 fourth checkpoint — 2026-11-26T00:21:33Z
+
+S004 fourth checkpoint: reviewed Fourier endpoint preconditioning and two-channel phase order; actual subset-spectrum/physical-multiplicity rank theorem; dense-amplitude corrector with fixed-tape dispatch, explicit optional mass-product charge and capped modulus width; tall-Hankel prefix/tail corollary. Lead isolated replays pass. Concurrent 8fbe12b3c and its E002 parent are preserved. Session remains active to 01:01:15 UTC.

@@ -107,3 +107,7 @@ A retains the proved heterogeneous invoice and weaker OWL Fourier gate, and now 
 ## E002 final integration — 26 November 2026
 
 E002 original A/B/C suppliers and final-phase independent A/C reviews plus protected batching discovery are frozen. Lead integration admits the exact cross-pinned partition, source-specific cover/rank comparison, positive Weyl executor, corrected source-star and literal contraction tests, and compatible endpoint characterization. Final report is independently reviewed before closure. No agent activity from concurrent sessions is stopped or reclassified.
+
+### S004 fourth checkpoint — 2026-11-26T00:21:33Z
+
+S004 now explores reuse among preconditioned partial transforms; dense small residuals plus sparse large outliers; and ratio-subgroup/physical-matching refinements. See sessions/2026-11-26-S004/lead/FOURTH-WAVE-ADMISSION.md.
