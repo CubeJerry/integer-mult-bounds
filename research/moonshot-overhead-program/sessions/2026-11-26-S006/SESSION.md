@@ -14,3 +14,7 @@ The four gates feed the two workstreams in the charter. Existing S005 UC/FS/KC/F
 ## Second proof check in the same contribution
 
 A2 tests whether all full-width scalar products fit fixed Toom-3 multiplication once the selected Walsh rows use the modular executor. A pass removes the Harvey–van der Hoeven short multiplier from this proof, with an audited count and a strictly sub-3/2 exponent. A missed full-width product inside the high-multiplicity recursive layers would invalidate the substitution. F3 tests the source Lean plan language on the actual singleton spectral-repair denominator. A pass is a kernel-checked nonrepresentability theorem for arbitrary source plans. A proof sketch or a failed build cannot count as formal verification.
+
+## Physical modular-scalar check
+
+The new Walsh supplier uses an exact rational scalar at every row. Construct one fixed program whose only word access is its current tape symbol and a unit head move, returning the residue of signed A*x/b modulo M. Its pass criterion is correctness for all word widths when gcd(b,M)=1, O(kB+B^3) head work and O(k+B) distinct cells for a k-bit modulus and B-bit coefficient parts, including denominator inversion. A host integer operation on a tape word or a per-bit full-length remainder inverse would fail this test. This is an executable refinement of the existing modular supplier; the complete multiplier envelope stays fixed.

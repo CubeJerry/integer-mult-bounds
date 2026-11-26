@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-26T03:27:13.634Z",
+  "as_of": "2026-11-26T03:48:25.862Z",
   "runtime": "code-mode V8, exact integer operations; these source bytes can also be run using Node.js",
   "modular": {
     "scalarCases": 112,
@@ -175,6 +175,360 @@
         ],
         "nonmonomialRows": 0
       }
+    ]
+  },
+  "outer": {
+    "axes": [
+      {
+        "k": 257,
+        "full": 1,
+        "remainder": 77,
+        "denied": 1
+      },
+      {
+        "k": 300,
+        "full": 1,
+        "remainder": 120,
+        "denied": 1
+      },
+      {
+        "k": 600,
+        "full": 3,
+        "remainder": 0,
+        "denied": 9
+      },
+      {
+        "k": 1200,
+        "full": 5,
+        "remainder": 100,
+        "denied": 33
+      },
+      {
+        "k": 1540,
+        "full": 7,
+        "remainder": 0,
+        "denied": 77
+      },
+      {
+        "k": 2640,
+        "full": 11,
+        "remainder": 0,
+        "denied": 353
+      },
+      {
+        "k": 3120,
+        "full": 13,
+        "remainder": 0,
+        "denied": 517
+      },
+      {
+        "k": 4096,
+        "full": 17,
+        "remainder": 16,
+        "denied": 929
+      },
+      {
+        "k": 8320,
+        "full": 29,
+        "remainder": 200,
+        "denied": 2749
+      },
+      {
+        "k": 16384,
+        "full": 58,
+        "remainder": 144,
+        "denied": 12628
+      }
+    ],
+    "sieve": {
+      "patterns": 1024,
+      "bandMassUpper": 1.4800443611198906,
+      "relativeLossUpper": 0.33431603773584906
+    },
+    "toom": {
+      "pairs": 1296,
+      "recursiveNodes": 10918
+    }
+  },
+  "four_point_all_degrees": [
+    {
+      "b": 4,
+      "fieldElementsExamined": 14,
+      "families": [
+        {
+          "d": 2,
+          "r": 1,
+          "eta": 6,
+          "stable": true,
+          "good": 0,
+          "goodTopClasses": 0,
+          "etaCount": 2
+        },
+        {
+          "d": 4,
+          "r": 2,
+          "eta": 2,
+          "stable": false,
+          "good": 0,
+          "goodTopClasses": 0,
+          "etaCount": 4
+        },
+        {
+          "d": 4,
+          "r": 4,
+          "eta": 8,
+          "stable": false,
+          "good": 0,
+          "goodTopClasses": 0,
+          "etaCount": 8
+        }
+      ]
+    },
+    {
+      "b": 6,
+      "fieldElementsExamined": 62,
+      "families": [
+        {
+          "d": 2,
+          "r": 1,
+          "eta": 58,
+          "stable": true,
+          "good": 12,
+          "goodTopClasses": 2,
+          "etaCount": 2
+        },
+        {
+          "d": 3,
+          "r": 3,
+          "eta": 14,
+          "stable": false,
+          "good": 8,
+          "goodTopClasses": 4,
+          "etaCount": 6
+        },
+        {
+          "d": 6,
+          "r": 3,
+          "eta": 34,
+          "stable": false,
+          "good": 12,
+          "goodTopClasses": 6,
+          "etaCount": 6
+        },
+        {
+          "d": 6,
+          "r": 6,
+          "eta": 2,
+          "stable": false,
+          "good": 4,
+          "goodTopClasses": 4,
+          "etaCount": 48
+        }
+      ]
+    },
+    {
+      "b": 8,
+      "fieldElementsExamined": 254,
+      "families": [
+        {
+          "d": 2,
+          "r": 1,
+          "eta": 188,
+          "stable": true,
+          "good": 48,
+          "goodTopClasses": 6,
+          "etaCount": 2
+        },
+        {
+          "d": 4,
+          "r": 2,
+          "eta": 92,
+          "stable": false,
+          "good": 48,
+          "goodTopClasses": 12,
+          "etaCount": 4
+        },
+        {
+          "d": 4,
+          "r": 4,
+          "eta": 12,
+          "stable": false,
+          "good": 44,
+          "goodTopClasses": 22,
+          "etaCount": 8
+        },
+        {
+          "d": 8,
+          "r": 4,
+          "eta": 18,
+          "stable": false,
+          "good": 48,
+          "goodTopClasses": 24,
+          "etaCount": 16
+        },
+        {
+          "d": 8,
+          "r": 8,
+          "eta": 2,
+          "stable": false,
+          "good": 44,
+          "goodTopClasses": 44,
+          "etaCount": 224
+        }
+      ]
+    },
+    {
+      "b": 9,
+      "fieldElementsExamined": 510,
+      "families": [
+        {
+          "d": 3,
+          "r": 3,
+          "eta": 28,
+          "stable": false,
+          "good": 126,
+          "goodTopClasses": 42,
+          "etaCount": 6
+        },
+        {
+          "d": 9,
+          "r": 9,
+          "eta": 2,
+          "stable": false,
+          "good": 121,
+          "goodTopClasses": 121,
+          "etaCount": 504
+        }
+      ]
+    }
+  ],
+  "fixed_head_scalar": {
+    "valid": 2520,
+    "rejectedNonunits": 1281,
+    "maxTapes": 21,
+    "maxCellRatio": 20,
+    "maxWorkRatio": 197.60526315789474,
+    "sizes": [
+      {
+        "K": 8,
+        "B": 3,
+        "work": 8753,
+        "cells": 162
+      },
+      {
+        "K": 8,
+        "B": 7,
+        "work": 19127,
+        "cells": 226
+      },
+      {
+        "K": 16,
+        "B": 3,
+        "work": 13219,
+        "cells": 218
+      },
+      {
+        "K": 16,
+        "B": 7,
+        "work": 26845,
+        "cells": 282
+      },
+      {
+        "K": 16,
+        "B": 12,
+        "work": 48368,
+        "cells": 362
+      },
+      {
+        "K": 32,
+        "B": 3,
+        "work": 22057,
+        "cells": 330
+      },
+      {
+        "K": 32,
+        "B": 7,
+        "work": 42368,
+        "cells": 394
+      },
+      {
+        "K": 32,
+        "B": 12,
+        "work": 72130,
+        "cells": 474
+      },
+      {
+        "K": 64,
+        "B": 3,
+        "work": 39827,
+        "cells": 554
+      },
+      {
+        "K": 64,
+        "B": 7,
+        "work": 73327,
+        "cells": 618
+      },
+      {
+        "K": 64,
+        "B": 12,
+        "work": 119928,
+        "cells": 698
+      },
+      {
+        "K": 96,
+        "B": 3,
+        "work": 57550,
+        "cells": 778
+      },
+      {
+        "K": 96,
+        "B": 7,
+        "work": 104286,
+        "cells": 842
+      },
+      {
+        "K": 96,
+        "B": 12,
+        "work": 167452,
+        "cells": 922
+      },
+      {
+        "K": 128,
+        "B": 3,
+        "work": 75273,
+        "cells": 1002
+      },
+      {
+        "K": 128,
+        "B": 7,
+        "work": 135245,
+        "cells": 1066
+      },
+      {
+        "K": 128,
+        "B": 12,
+        "work": 215250,
+        "cells": 1146
+      }
+    ]
+  },
+  "independent_fixed_head_scalar": {
+    "total": 3205,
+    "valid": 2113,
+    "rejected_nonunits": 1092,
+    "valid_B_gt_K": 440,
+    "valid_zero_magnitude": 173,
+    "max_valid_K": 96,
+    "max_valid_B": 72,
+    "source_review": [
+      "word outputs",
+      "input contents preserved",
+      "all successful heads returned",
+      "no head past its right marker",
+      "cleared work",
+      "visited cells",
+      "tape count"
     ]
   }
 }
