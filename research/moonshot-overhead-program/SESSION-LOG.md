@@ -342,3 +342,7 @@ Started at 2026-11-26T03:04:51Z from `69632d87c99b5a75d0b44a7d964e6550e457e016`.
 ### S006 first substantive checkpoint
 
 The elementary interval proof, the fixed-head reserve schedule, and a modular execution of the adaptive Walsh rows are in [the contribution](contributions/explicit-overhead/README.md). The ordinary four-point CRT stage has a prime-degree materialization obstruction. Mathematical proofs and independent finite controls are saved with this session. The full multiplication envelope is unchanged. The short-multiplication dependency and source Lean plan syntax are under review.
+
+### S006 kernel and dense-bundle checkpoints
+
+A pinned Lean 4.34.1 build [checked](sessions/2026-11-26-S006/lean-axioms.txt) the actual native plan language and the finest stable-partition theorem. The mathematical proof now explains both the separate-scalar obstruction and a constructive dense-bundle exception at three-power degrees. Cost is charged in both directions in [the local construction](sessions/2026-11-26-S006/stable-four-point-bundles.md). The tighter source-row and all-multiples-of-three refinements are under test. The previous deposited checkpoint is `932601d78f8c71d42dd5a1f5426d726ad93b8d42`.

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-26T03:48:25.862Z",
+  "as_of": "2026-11-26T04:13:41.636Z",
   "runtime": "code-mode V8, exact integer operations; these source bytes can also be run using Node.js",
   "modular": {
     "scalarCases": 112,
@@ -529,6 +529,227 @@
       "cleared work",
       "visited cells",
       "tape count"
+    ],
+    "reproduction": {
+      "total": 3205,
+      "valid": 2113,
+      "nonunits": 1092,
+      "widerCoefficient": 440,
+      "zeroMagnitude": 173,
+      "maxValidK": 96,
+      "maxValidB": 72
+    }
+  },
+  "dense_bundle_minima": {
+    "fieldResults": [
+      {
+        "n": 2,
+        "full": 2,
+        "min": 2,
+        "groupedPlanes": 2,
+        "interpolationFamilies": 1
+      },
+      {
+        "n": 3,
+        "full": 6,
+        "min": 3,
+        "groupedPlanes": 6,
+        "interpolationFamilies": 1
+      },
+      {
+        "n": 4,
+        "full": 12,
+        "min": 3,
+        "groupedPlanes": 14,
+        "interpolationFamilies": 3
+      },
+      {
+        "n": 5,
+        "full": 30,
+        "min": 5,
+        "groupedPlanes": 30,
+        "interpolationFamilies": 1
+      },
+      {
+        "n": 6,
+        "full": 54,
+        "min": 4,
+        "groupedPlanes": 62,
+        "interpolationFamilies": 5
+      },
+      {
+        "n": 7,
+        "full": 126,
+        "min": 4,
+        "groupedPlanes": 126,
+        "interpolationFamilies": 2
+      },
+      {
+        "n": 8,
+        "full": 240,
+        "min": 5,
+        "groupedPlanes": 254,
+        "interpolationFamilies": 7
+      },
+      {
+        "n": 9,
+        "full": 504,
+        "min": 7,
+        "groupedPlanes": 510,
+        "interpolationFamilies": 3
+      },
+      {
+        "n": 10,
+        "full": 990,
+        "min": 6,
+        "groupedPlanes": 0,
+        "interpolationFamilies": 0
+      },
+      {
+        "n": 11,
+        "full": 2046,
+        "min": 11,
+        "groupedPlanes": 0,
+        "interpolationFamilies": 0
+      },
+      {
+        "n": 12,
+        "full": 4020,
+        "min": 5,
+        "groupedPlanes": 0,
+        "interpolationFamilies": 0
+      }
+    ],
+    "cyclicResults": [
+      {
+        "n": 2,
+        "full": 2,
+        "min": 2,
+        "minimizers": 2
+      },
+      {
+        "n": 3,
+        "full": 6,
+        "min": 3,
+        "minimizers": 6
+      },
+      {
+        "n": 4,
+        "full": 12,
+        "min": 3,
+        "minimizers": 4
+      },
+      {
+        "n": 5,
+        "full": 30,
+        "min": 5,
+        "minimizers": 30
+      },
+      {
+        "n": 6,
+        "full": 54,
+        "min": 4,
+        "minimizers": 6
+      },
+      {
+        "n": 7,
+        "full": 126,
+        "min": 4,
+        "minimizers": 28
+      },
+      {
+        "n": 8,
+        "full": 240,
+        "min": 5,
+        "minimizers": 16
+      },
+      {
+        "n": 9,
+        "full": 504,
+        "min": 7,
+        "minimizers": 126
+      },
+      {
+        "n": 10,
+        "full": 990,
+        "min": 6,
+        "minimizers": 30
+      },
+      {
+        "n": 11,
+        "full": 2046,
+        "min": 11,
+        "minimizers": 2046
+      },
+      {
+        "n": 12,
+        "full": 4020,
+        "min": 5,
+        "minimizers": 12
+      },
+      {
+        "n": 15,
+        "full": 32730,
+        "min": 5,
+        "minimizers": 60
+      },
+      {
+        "n": 21,
+        "full": 2097018,
+        "min": 6,
+        "minimizers": 84
+      }
+    ],
+    "triple": [
+      {
+        "b": 3,
+        "orbit": 3,
+        "dimension": 3
+      },
+      {
+        "b": 9,
+        "orbit": 9,
+        "dimension": 7
+      },
+      {
+        "b": 27,
+        "orbit": 27,
+        "dimension": 19
+      },
+      {
+        "b": 81,
+        "orbit": 81,
+        "dimension": 55
+      },
+      {
+        "b": 243,
+        "orbit": 243,
+        "dimension": 163
+      }
     ]
-  }
+  },
+  "first_rep_layer": [
+    {
+      "b": 3,
+      "eta": 2,
+      "representatives": 1,
+      "VSize": 8,
+      "storedQuartets": 2,
+      "bits": 24,
+      "cases": 256,
+      "quartetRoundTrips": 512,
+      "badStabilizerRejected": true
+    },
+    {
+      "b": 9,
+      "eta": 12,
+      "representatives": 2,
+      "VSize": 128,
+      "storedQuartets": 64,
+      "bits": 2304,
+      "cases": 520,
+      "quartetRoundTrips": 33280,
+      "badStabilizerRejected": true
+    }
+  ]
 }
