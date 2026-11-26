@@ -398,3 +398,7 @@ The last campaign slot is reserved from 10:47:18 to 13:47:18 UTC on 26 November 
 ### S008 child-volume and physical handoff
 
 The [numerical volume proof](sessions/2026-11-26-S008/child-volume.md) gives quarter slack at exponent 0.501 for all log arities at least 42·2³⁶. This threshold covers the executed spatial child list. The [physical handoff](sessions/2026-11-26-S008/recount-handoff.md) saves occupied banks and accepts independent replies with an exact transition count. Lead replay passed 4,096 cursor cases, 1,488 contracted returns and 526 full reserves. The complete integer clock is still under investigation.
+
+### S008 executed suppliers
+
+The [direct and internal stream machines](sessions/2026-11-26-S008/node-streams.md), [dyadic address changes](sessions/2026-11-26-S008/address-dyadic.md) and [independent recount](sessions/2026-11-26-S008/recount-node.md) now price several former ordinary-work terms. A [common denominator](sessions/2026-11-26-S008/walsh-aligned-denominators.md) removes the per-record modular inverse. The lead reproduced its seven Lean checks and all 8,062 scalar tests. The [fixed-head Toom word](sessions/2026-11-26-S008/word-toom.md) prices the general products. The [changed cross-anchor partition](sessions/2026-11-26-S008/routing-cross-anchor.md) reduces endpoint incidences on an unbounded family but retains the order of the complete envelope. Integrated numerical claims are undergoing independent review.

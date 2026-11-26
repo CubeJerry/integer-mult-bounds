@@ -10,3 +10,7 @@ Start from `036d2fc958482f9489d4efadf395844ab3b3eb60`. The first recorded clock 
 | Cross-anchor sharing | Separate endpoint placements incur the cube-root logarithm | Construct and price shared routing through Walsh and the integer caller, or exhibit a consequential unbounded bill in the proposed traversal. | Same-cost transfer, free regrouping, or a restricted floor presented as a global lower bound. |
 
 The direct construction and independent tape recount have distinct owners. The sharing trial also has a distinct owner. The integrating researcher computes the numerical child-volume constants, checks the source/outer implications and reproduces accepted checks. The previous complete written envelope is the baseline until a full proof changes it.
+
+## Numerical caller tests after the first checkpoint
+
+The independent child-volume recount passed. The next numerical tests are the actual full-width short products and synchronized outer layers in the published integer caller. For two independent signed $w$-bit words, the target is a numerical transition constant times $(w+1)^{3/2}$, including split, interpolation, return and reuse. At address width $k$ the target is an explicit count of phase, position and selected-Walsh layers and of phase table construction at the required precision. The proof must distinguish setup from operations repeated on $2^k$ records. The integer clock can use a local constant only where its other suppliers are numerical.
