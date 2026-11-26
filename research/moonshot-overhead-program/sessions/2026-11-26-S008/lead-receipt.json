@@ -1,0 +1,78 @@
+{
+  "session": "2026-11-26-S008",
+  "scope": "Selected lead replays. Written global assembly and human refereeing are separate. Durable commands are in VERIFICATION.md.",
+  "pins": {
+    "lean": "4.34.1",
+    "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+    "openai_math": "3344da59991ed94f9ba711217b29c1d760badfa6"
+  },
+  "numerical": {
+    "C_all": 63,
+    "n_min": 2,
+    "n_one_steps": 4096,
+    "distinct_cells_per_bit": 4294967296,
+    "smooth_t_gates": {
+      "60": "1572864480",
+      "53": "2^69110"
+    },
+    "unit_501": {
+      "endpoint": 7519517465920988,
+      "last_failing": 7519517465920987,
+      "simple_endpoint": 7600000000000000,
+      "active_historical_knot": 6201245580657120,
+      "height": "890362700843914785456/158055205",
+      "earlier_vertices": 29,
+      "historical_upper_integer": 610546135041,
+      "passing_gap_above_trillionths": 53248687,
+      "previous_gap_above_trillionths": 325836552,
+      "reduction_from_previous_endpoint": 1412197431986042
+    }
+  },
+  "kernel": {
+    "program_clock_and_effective53": "pinned rebuild and ordinary kernel replays from actual-input branch inequalities",
+    "axis_small_primes": "all source blocks regenerated from actual Nat.Prime; clean rebuild and module kernel replay",
+    "width_dispatch": "pinned clean rebuild and fresh transitive kernel replay",
+    "source_product": "pinned original TM operators, full transitive kernel replay of final source product, including staged output",
+    "intermediate_8931714897907030": "pinned complete checked schedule and fresh transitive kernel replay"
+  },
+  "box": {
+    "kind": "forced host-array schedule using full grid formulas",
+    "binary_cases": [
+      {
+        "inputs": "reference",
+        "n": 1000,
+        "address_bits": 9,
+        "data_fraction": 648,
+        "phase_fraction": 720,
+        "recovered_coefficients": 210,
+        "output_bits": 2000,
+        "leading_output_zeros": 7,
+        "max_real_error_ulp_bits": 21,
+        "max_imag_error_ulp_bits": 22,
+        "wrong_without_inverse_crt": 204,
+        "permutation_slots": 421056,
+        "phase_slots": 792672,
+        "walsh_slots": 557280
+      }
+    ]
+  },
+  "scope_of_negative_control": "Omit the inverse CRT while reading the final rank. A zero product is invariant under this mutation.",
+  "script_replays": {
+    "public_native_staircase": "pass",
+    "independent_profile_rounding": "pass",
+    "physical_key_port": "pass",
+    "verified_row_replay": {
+      "complete_runs": 12211,
+      "largest_bits": 1024,
+      "nonhalting_rows": 14976,
+      "physical_transitions": 254000,
+      "rows": 163296,
+      "stream_nonhalting_rows": 48672,
+      "stream_rows": 209952,
+      "stream_runs": 284,
+      "stream_table_sha256": "47a557d85f5c74a2868abfb55fe4dda16a1e778d003390f426df5fa7507387f5",
+      "stream_transitions": 375240,
+      "table_sha256": "84b8de66434cb2c0f1c51e1c3433a53e0536ba4d18f8b02c403377daca5d7fcf"
+    }
+  }
+}

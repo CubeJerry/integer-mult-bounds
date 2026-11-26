@@ -1,5 +1,6 @@
 """Build one occupied CRT/short-Fourier/fixed-grid/full-carry integration fixture."""
 from argparse import ArgumentParser
+import json
 from functools import lru_cache
 from importlib.util import module_from_spec, spec_from_file_location
 from math import prod
@@ -188,6 +189,8 @@ def main():
     parser=ArgumentParser(description=__doc__)
     parser.add_argument("--quick",action="store_true",help="use a 64-bit data grid")
     parser.add_argument("--directory",default=None,help="parent for reproducible temporary files")
+    parser.add_argument("--inputs", choices=("reference", "boundaries"), default="reference",
+                        help="select the original operand pair or three arithmetic edge cases")
     args=parser.parse_args()
     axes=(3,5,7,2)
     sizes=tuple(1<<(a-1).bit_length() for a in axes)
@@ -209,8 +212,13 @@ def main():
         order.append(address)
     assert len(set(order))==modulus
     rng=Random(0x8008)
-    x=(1<<n)-1
-    y=rng.getrandbits(n-7)|(1<<(n-8))
+    maximum = (1 << n) - 1
+    reference = ("reference", maximum, rng.getrandbits(n-7) | (1 << (n-8)))
+    cases = [reference] if args.inputs == "reference" else [
+        ("maximal", maximum, maximum),
+        ("zero", 0, maximum),
+        ("single-pair", 1 << (27*b+2), 1 << (44*b+3)),
+    ]
     with TemporaryDirectory(prefix="recount-system-",dir=args.directory) as temp:
         temp=Path(temp)
         spec=temp/"fixture"
@@ -224,13 +232,25 @@ def main():
             for op, fields in fixture.gates: row((op,*fields))
             for word in (forward,backward):
                 row((len(word),));row(word)
-            row(order);row((x,y))
+            row(order)
         print(f"Compiled {len(fixture.phase_ids)} phases, {len(fixture.gates)} gates "
               f"and {len(forward)} forward slots.",flush=True)
         binary=temp/"replay"
         run(["c++","-std=c++17","-O3",HERE/"recount-system.cpp","-lgmpxx","-lgmp","-o",binary],check=True)
-        with spec.open("r") as f:
-            run([binary],stdin=f,check=True)
+        with spec.open("r+") as f:
+            f.seek(0, 2)
+            operands_offset = f.tell()
+            for label, x, y in cases:
+                f.seek(operands_offset)
+                print(x, y, file=f)
+                f.truncate()
+                f.flush()
+                f.seek(0)
+                result = run([binary], stdin=f, check=True, capture_output=True, text=True)
+                receipt = json.loads(result.stdout)
+                assert receipt["leading_output_zeros"] == 2*n - (x*y).bit_length()
+                assert (receipt["wrong_without_inverse_crt"] > 0) == (x*y != 0)
+                print(json.dumps({"inputs": label, **receipt}), flush=True)
 
 
 if __name__=="__main__":

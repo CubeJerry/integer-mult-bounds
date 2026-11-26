@@ -159,7 +159,13 @@ theorem later_knot {D Q a c h y : ℝ} (hD : 0≤D) (hQ : 0≤Q) (ha : 0≤a)
   have h4 := mul_le_mul_of_nonneg_right h3
     (show (0:ℝ)≤(433/8:ℝ)^3*Q by positivity)
   apply native_gate (hb.trans hy) hlog
-  nlinarith only [h1,h2,h4]
+  calc
+    h^3 ≤ (240*D^2*Q*c)^3 := h1
+    _ = (240*c^3)*(240^2*D^6*Q^3) := by ring
+    _ ≤ ((433/8:ℝ)^3*a^2)*(240^2*D^6*Q^3) := h2
+    _ = (240*a*Q*D^3)^2*((433/8:ℝ)^3*Q) := by ring
+    _ ≤ y^2*((433/8:ℝ)^3*Q) := h4
+    _ = (433/8:ℝ)^3*y^2*Q := by ring
 
 inductive Place where
   | first | second | fourth

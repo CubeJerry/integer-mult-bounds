@@ -9,7 +9,7 @@ $$
  8+\sqrt[3]{240}\left(7+\frac{\ln 2}{3}\right)
      =52.9371013839\ldots .
 $$
-This is a property of the charge used to prove an upper bound. The [all-input coefficient 63](address-native-staircase.md) and the [finite unit-coefficient $0.501$ threshold](address-review-profile.md) supply separate explicit range statements. The coefficient 53 in this note has no claimed numerical onset.
+This is a property of the charge used to prove an upper bound. The [all-input coefficient 63](address-native-staircase.md) and the [finite unit-coefficient $0.501$ threshold](address-review-profile.md) supply separate explicit range statements. The [effective continuation](coefficient-53.md), with an [independent proof check](compiler-review-refined-label.md#a-numerical-guard), proves the coefficient 53 when $\log_2\log_2n\ge2^{69110}$.
 
 ## The actual child invoice
 
@@ -26,7 +26,7 @@ We have $t\le s/d^2+3$, $\log_2h_0\le d$, and $(d+1)h_0\le 2d^2+2d$. Because $39
 $$
  \sigma+2\le 3s/d+d^2(\log_2 t+3). \tag{1}
 $$
-The independent coarse estimate $(\sigma+2)/s\le17/(4d)$ remains available when the actual degree is larger than the guaranteed candidate.
+The [kernel-checked cardinality transfer](address-refined-cardinality.lean) derives (1) directly from the displayed total mass and binomial/letter alphabet bound for all positive integral bit widths, verifying the logarithm, dimension, degree and multiplicative inequalities. The independent coarse estimate $(\sigma+2)/s\le17/(4d)$ remains available when the actual degree is larger than the guaranteed candidate.
 
 ## A continuous concave native majorant
 
@@ -78,6 +78,12 @@ $$
       =\alpha_*=\sqrt[3]R(7+\ln(2)/3).
 $$
 
+The formal [continuous-band certificate](address-refined-curve.lean) proves the limiting endpoint bound and the numerical $M=1447/200$, $E=167/500$, $U\le8001/1000$ version used in the effective continuation. It also verifies (1) from its expanded logarithmic cardinality invoice. A direct Jensen argument gives an alternative to the derivative test. Put $r=\tau^{1/3}$ and subtract $M r^2$ from $h+3(r^3-1)+3E\ln r$. For two cube roots $a,b\ge1$ and $r=pa+qb$ with $p+q=1$, $p,q\ge0$, write $v=pq(b-a)^2$. Then
+$$
+ \ln r-p\ln a-q\ln b\le v/(ab)\le v
+$$
+by applying $\ln u\le u-1$ to $r/a$ and $r/b$. The corresponding cubic and square Jensen differences are $v(a+b+r)$ and $v$. Thus the weighted endpoint residual minus the interior residual is at least $v[3(a+b+r)-M-3E]\ge0$ when $M+3E\le9$, which holds in both applications. This proves the maximum assertion on the complete real interval, including its endpoints.
+
 ## Fourier and full-integer transfer
 
 The [true-slot Walsh movement invoice](walsh-node.md#only-actual-column-maps-use-the-interchanger) after dividing by $\sqrt a$ has $m^8$ remaining: the factor $\sqrt{f/a}$ pays $m^{-1/2}$ from $m^{17/2}$. For adaptive log-width $x$, the *actual* $m=2^{Y(x)}-1$ with
@@ -97,6 +103,6 @@ $$
 $$
 For the upper inequality split the supremum at a fixed large $v_0$. The earlier bounded contribution divided by $\Phi(x)$ vanishes. For $v\ge v_0$, any positive contribution is at most $(\alpha_*+8-48+\varepsilon)\Phi(v)\le(\alpha_*+8-48+\varepsilon)\Phi(x)$. For the lower inequality evaluate the uncorrected expression at $v=x=S_j$ and let $j$ grow. The leading factor $8$ here uses actual arities and thus differs from the uniform all-width allowance $33/4$.
 
-The complete joined integer invoice has logarithmic excess above $n\sqrt{\log_2 n}$ bounded by $182+4\log_2(z+2)+G_*(z+2)$ for $z=\log_2\log_2n$. The function $G_*$ is increasing, and $\Phi(z+2)/\Phi(z)\to1$; also $\log_2(z+2)/\Phi(z)\to0$. The excess divided by $\Phi(z)$ therefore has limsup at most $\alpha_*+8$. Finally $\ln2<7/10$ by the degree-three positive exponential series at $7/10$, and the rational inequality $240(217/30)^3<45^3$ proves $\alpha_*+8<53$. The strict gap absorbs the outside constant and logarithmic costs at all sufficiently large lengths, with the asserted unit multiplicative coefficient. The complete returned integer words and common total visited space obey the same proof as the all-input result.
+The complete joined integer invoice has logarithmic excess above $n\sqrt{\log_2 n}$ bounded by $182+4\log_2(z+2)+G_*(z+2)$ for $z=\log_2\log_2n$. The function $G_*$ is increasing, and $\Phi(z+2)/\Phi(z)\to1$ and $\log_2(z+2)/\Phi(z)\to0$. The excess divided by $\Phi(z)$ therefore has limsup at most $\alpha_*+8$. Finally $\ln2<7/10$ by the degree-three positive exponential series at $7/10$, and the rational inequality $240(217/30)^3<45^3$ proves $\alpha_*+8<53$. The strict gap absorbs the outside constant and logarithmic costs at all sufficiently large lengths, with the asserted unit multiplicative coefficient. The complete returned integer words and common total visited space obey the same proof as the all-input result.
 
 Prepared for Jerry Chen (@CubeJerry) with substantial ChatGPT research assistance.

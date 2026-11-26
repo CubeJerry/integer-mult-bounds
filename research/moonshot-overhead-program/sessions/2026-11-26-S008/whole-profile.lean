@@ -131,4 +131,3 @@ theorem natlog_501_of_invoice (n cost : ℝ) (hn : (2:ℝ)^((2:ℝ)^(19685105000
   nlinarith only [hb, mul_le_mul_of_nonneg_left (hmono.trans hh) hnpos.le]
 
 end S008.WholeProfile
-

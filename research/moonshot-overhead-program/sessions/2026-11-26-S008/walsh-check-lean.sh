@@ -19,6 +19,14 @@ mkdir -p "$root/$kernel" "$root/$token"
 for module in KernelColumn KernelPass; do
     git -C "$openai_dir" show "$openai_sha:lean/$kernel/$module.lean" > "$root/$kernel/$module.lean"
 done
+source_model=OAI/Computability/IntegerMultiplication
+for module in "$source_model/TMModel" "$source_model/Goal" "$kernel/Specification" "$kernel/VisitedCells"; do
+    git -C "$openai_dir" show "$openai_sha:lean/$module.lean" > "$root/$module.lean"
+done
+test "$(git hash-object "$root/$source_model/TMModel.lean")" = 06cbddcc5618309f39c41dbe44a97cd9b85f2040
+test "$(git hash-object "$root/$source_model/Goal.lean")" = 6fd24def585459e192e582a7dfcc4f0f808c1658
+test "$(git hash-object "$root/$kernel/Specification.lean")" = 0df09baa9b15ef9d572f99586666cea07f77d4da
+test "$(git hash-object "$root/$kernel/VisitedCells.lean")" = 4b209de9ccd7c35dc07ce5b5736d757b29ca91b2
 git -C "$openai_dir" show "$openai_sha:lean/$token/Token.lean" > "$root/OriginalToken.lean"
 test "$(git hash-object "$root/$kernel/KernelColumn.lean")" = 5e4a90e86fbe6b1e52d90480c4b4e3477284d3db
 test "$(git hash-object "$root/$kernel/KernelPass.lean")" = 7fcb8ff3060b9059b6e89f087fde71482fce66ed
@@ -37,24 +45,28 @@ cp "$session_dir/walsh-rounding.lean" "$root/WalshRounding.lean"
 cp "$session_dir/walsh-shift.lean" "$root/WalshShift.lean"
 cp "$session_dir/walsh-clock.lean" "$root/WalshClock.lean"
 cp "$session_dir/walsh-groups.lean" "$root/WalshGroups.lean"
+cp "$session_dir/compiler-controller.lean" "$root/compiler-controller.lean"
+cp "$session_dir/walsh-key-tape.lean" "$root/WalshKeyTape.lean"
+cp "$session_dir/walsh-key-stream.lean" "$root/WalshKeyStream.lean"
 cd "$mathlib_dir"
 lake env bash -euo pipefail -c '
     cd "$1"
     export LEAN_PATH="$PWD:$LEAN_PATH"
     lean --version | tee version.txt
     grep -F "version 4.34.1" version.txt >/dev/null
-    for module in "$2/KernelColumn" "$2/KernelPass" "$3/Token" ModularWalshExact; do
-        lean -DwarningAsError=true -o "$module.olean" "$module.lean" > /dev/null
+    for module in "$2/KernelColumn" "$2/KernelPass" "$3/Token" ModularWalshExact \
+                  "$4/TMModel" "$4/Goal" "$2/Specification" "$2/VisitedCells" compiler-controller; do
+        lean -j1 -DwarningAsError=true -o "$module.olean" "$module.lean" > /dev/null
     done
-    for module in WalshAligned WalshInterpolation WalshRounding WalshShift WalshClock WalshGroups; do
-        lean -DwarningAsError=true -o "$module.olean" "$module.lean" | tee -a axioms.txt
+    for module in WalshAligned WalshInterpolation WalshRounding WalshShift WalshClock WalshGroups WalshKeyTape WalshKeyStream; do
+        lean -j1 -DwarningAsError=true -o "$module.olean" "$module.lean" | tee -a axioms.txt
         if [[ "$module" == WalshAligned && "${S008_WALSH_FRESH_ALIGNED:-0}" == 1 ]]; then
             leanchecker -v --fresh "$module"
         else
             leanchecker -v "$module"
         fi
     done
-' bash "$root" "$kernel" "$token"
+' bash "$root" "$kernel" "$token" "$source_model"
 python3 - "$root/axioms.txt" <<'PY'
 from pathlib import Path
 import re
@@ -75,8 +87,11 @@ expected.update(('character_orthogonal shifted_count_identity exact_second_momen
 expected.update(('raw_word_bound group_modulus_range group_modulus_fits recover_group group_tensor '
                  'two_group_return even_shift_spec real_midpoint_error normalized_magnitude_spec '
                  'normalized_signed_error grid_error grouped_grid_error complex_layer_squared_error').split())
+expected.update('paired_scan column_sign scan_halts pair_visits slot_scan'.split())
+expected.update(('stream_trace source_key output_position output_exterior output_digit '
+                 'stream_halts stream_counts stream_visits').split())
 seen = set()
-for name, axioms in re.findall(r"'Moonshot\.AlignedWalsh\.(?:(?:ShiftGeometry|Clock|Groups)\.)?(\w+)' depends on axioms: \[([^\]]*)\]",
+for name, axioms in re.findall(r"'Moonshot\.AlignedWalsh\.(?:(?:ShiftGeometry|Clock|Groups|KeyTape(?:\.Stream)?)\.)?(\w+)' depends on axioms: \[([^\]]*)\]",
                               Path(sys.argv[1]).read_text()):
     if set(re.split(r',\s*', axioms.strip())) - {'propext', 'Classical.choice', 'Quot.sound'}:
         raise SystemExit(f'Unexpected axioms for {name}: {axioms}')

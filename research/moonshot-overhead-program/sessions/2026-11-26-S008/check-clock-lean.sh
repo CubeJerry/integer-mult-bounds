@@ -23,15 +23,16 @@ cp "$session_dir/address-native-staircase.lean" "$scratch/S008/ThreeSlope.lean"
 cp "$session_dir/input-clock-63.lean" "$scratch/S008/InputClock63.lean"
 cp "$session_dir/profile-limit.lean" "$scratch/S008/ProfileLimit.lean"
 cp "$session_dir/coefficient-53.lean" "$scratch/S008/Effective53.lean"
+cp "$session_dir/frontier.lean" "$scratch/S008/Frontier.lean"
 base_path=$(cd "$mathlib_dir" && lake env printenv LEAN_PATH)
 cd "$scratch"
 export LEAN_PATH="$PWD:$base_path"
-for name in NumericalCutoff NativeContraction WholeProfile AllLengths Packing InputClock Piecewise PiecewiseHistory ThreeSlope InputClock63 ProfileLimit Effective53; do
+for name in NumericalCutoff NativeContraction WholeProfile AllLengths Packing InputClock Piecewise PiecewiseHistory ThreeSlope InputClock63 ProfileLimit Effective53 Frontier; do
     lean -j1 -DwarningAsError=true -o "S008/$name.olean" "S008/$name.lean"
 done
 cat > Axioms.lean <<'CHECK'
 import S008.NativeContraction
-import S008.Effective53
+import S008.Frontier
 #print axioms S008.NativeQuantitative.shared_rounding
 #print axioms S008.NativeQuantitative.native_weight_quarter
 #print axioms S008.NumericalCutoff.unit_501_of_71
@@ -47,6 +48,9 @@ import S008.Effective53
 #print axioms S008.ProfileLimit.outer_sixty
 #print axioms S008.Effective53.history_length_gate
 #print axioms S008.Effective53.whole_clock
+#print axioms S008.Frontier.integer_53
+#print axioms S008.Frontier.natural_reciprocal
+#print axioms S008.Frontier.table_receipts
 CHECK
 lean -j1 -DwarningAsError=true Axioms.lean
 if [[ ${2:-} == --fresh ]]; then leanchecker -v --fresh S008.NativeContraction; else leanchecker -v S008.NativeContraction; fi
@@ -56,4 +60,4 @@ leanchecker -v S008.InputClock
 leanchecker -v S008.InputClock63
 leanchecker -v S008.ProfileLimit
 leanchecker -v S008.Effective53
-
+leanchecker -v S008.Frontier

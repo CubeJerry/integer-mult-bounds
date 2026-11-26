@@ -33,4 +33,3 @@ Set \(D=(71{,}000)^3,\ t_*=55D=19{,}685{,}105{,}000{,}000{,}000\). We have \(t_*
  \boxed{T(n)\le n(\log_2n)^{501/1000}},\qquad S(n)\le2^{32}n. \tag{3}
 \]
 This is a worst-case step count with leading coefficient one. The threshold is sufficient. Its logarithm twice in base two is \(t_*\). All bounds cover leading zeros and arbitrary input words, not just the oracle replays.
-

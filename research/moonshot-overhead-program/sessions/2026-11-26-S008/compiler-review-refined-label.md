@@ -4,7 +4,7 @@ The counted $R=240$ multiplier satisfies, with $L=1+\log _2 n$, $x=\log _2 L$ an
 
 $$T(n)\le n\sqrt L\,2^{53\Phi(x)}\qquad\text{whenever}\qquad \log _2\log _2 n\ge2^{69110}.$$
 
-The normalized logarithm of the written full-integer invoice has upper limit at most $8+240^{1/3}(7+(\ln2)/3)=52.9371013839181\ldots$. The existing through-halt cap is $2^{32}n$. The cutoff above applies to the coefficient 53. The independent fixed-exponent $0.501$ statement has its own much smaller onset. [Time envelope](address-refined-label.md) · [Native transition ledger](node-root-parameter.md) · [Complete integer ledger](integer-clock.md)
+The normalized logarithmic excess over $n\sqrt{\log _2 n}$, divided by $\Phi(\log _2\log _2n)$, has upper limit at most $8+240^{1/3}(7+(\ln2)/3)=52.9371013839181\ldots$. The existing through-halt cap is $2^{32}n$. The cutoff above applies to the coefficient 53. The independent fixed-exponent $0.501$ statement has its own much smaller onset. [Time envelope](address-refined-label.md) · [Effective threshold](coefficient-53.md) · [Native transition ledger](node-root-parameter.md) · [Complete integer ledger](integer-clock.md)
 
 ## Actual labels, widths and recursive events
 

@@ -76,4 +76,3 @@ theorem coprime_excess {x : ℝ} (hx : 4096 ≤ x) :
   linarith
 
 end S008.AllLengths
-

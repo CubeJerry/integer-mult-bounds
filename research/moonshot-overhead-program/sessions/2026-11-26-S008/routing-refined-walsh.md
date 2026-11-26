@@ -26,7 +26,7 @@ The normalized heights $h_j=H(S_{j,1})/(240D^2Q_j)$ satisfy
 
 $$
  h_5=577283/67584,\qquad
- h_{j+1}=20/3+[Q_j/(4Q_{j+1})](h_j-7/4).
+ h_{j+1}=20/3+\frac{Q_j}{4Q_{j+1}}(h_j-7/4).
 $$
 
 This follows by adding the three interval lengths times their slopes. The bound $h_j\le43/5$ is invariant. At all three later vertices the exact cubings $240c_a^3<(433/8)^3 a^2$ from the supplier suffice. At the three early positive vertices, independent summation gives heights 15,728,880, 16,773,360 and 24,883,440; respective lower log bounds are $124/5,25,26$. In particular $(31{,}457{,}762)^5>2^{124}$. Using concavity of $\Phi$ on each affine segment gives $H(y)\le(433/8)\Phi(y)$ for every $y\ge0$. The native interchanger and its direct/adaptive guard are unchanged.

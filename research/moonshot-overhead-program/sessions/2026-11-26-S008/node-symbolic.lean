@@ -33,16 +33,6 @@ def Glyph.asBit : Glyph → Option Formula
   | .bits f => some f
   | _ => none
 
-private def bitOf : Letter → Option Bool
-  | .bit b => some b
-  | _ => none
-
-private theorem bit_eval (v : ℕ → Bool) (a : Glyph) :
-    a.asBit.map (Formula.eval v) = bitOf (a.eval v) := by
-  cases a with
-  | fixed x => cases x <;> rfl
-  | bits f => rfl
-
 def value {k : ℕ} (r : Fin k → Glyph) : Expr k → Option Glyph
   | .literal c => some (.fixed c)
   | .copy i => some (r i)
@@ -51,13 +41,6 @@ def value {k : ℕ} (r : Fin k → Glyph) : Expr k → Option Glyph
     let b ← (r j).asBit
     return .bits (.xor a b)
 
-private theorem xor_eval (u w : Letter) :
-    (do let a ← bitOf u
-        let b ← bitOf w
-        pure (Letter.bit (a != b))) =
-       (match u,w with | .bit a,.bit b => some (.bit (a != b)) | _,_ => none) := by
-  cases u <;> cases w <;> rfl
-
 theorem value_eval {k : ℕ} (v : ℕ → Bool) (r : Fin k → Glyph) (e : Expr k) :
     (value r e).map (Glyph.eval v) = S008.NodeSource.value (fun i => (r i).eval v) e := by
   cases e with
@@ -65,8 +48,13 @@ theorem value_eval {k : ℕ} (v : ℕ → Bool) (r : Fin k → Glyph) (e : Expr 
   | copy i => rfl
   | bx i j =>
     simp only [value,S008.NodeSource.value]
-    rw [← xor_eval ((r i).eval v) ((r j).eval v),← bit_eval,← bit_eval]
-    cases (r i).asBit <;> cases (r j).asBit <;> rfl
+    generalize r i=a
+    generalize r j=b
+    cases a <;> cases b
+    case fixed.fixed u w => cases u <;> cases w <;> rfl
+    case fixed.bits u _ => cases u <;> rfl
+    case bits.fixed _ w => cases w <;> rfl
+    case bits.bits => rfl
 
 /-- An unknown bit may control only a probe that gives both bits its default branch. -/
 def pick {k s : ℕ} (row : Instruction k s) (r : Fin k → Glyph) : Option (Action k s) :=
@@ -162,7 +150,7 @@ structure WindowS where
   pos : ℤ
   pre : List Glyph
   post : List Glyph
-  deriving Repr
+  deriving Repr, DecidableEq
 
 def WindowS.eval (v : ℕ → Bool) (w : WindowS) : Window :=
   ⟨w.pos,w.pre.map (Glyph.eval v),w.post.map (Glyph.eval v)⟩
@@ -191,6 +179,7 @@ structure State (k s : ℕ) where
   windows : Vector WindowS k
   low : Vector ℤ k
   high : Vector ℤ k
+  deriving DecidableEq
 
 def State.eval {k s : ℕ} (v : ℕ → Bool) (r : State k s) : Runtime k s :=
   ⟨r.pc,Vector.ofFn (fun i => r.windows[i].eval v),r.low,r.high⟩
@@ -225,6 +214,22 @@ theorem step_eval {k s : ℕ} (v : ℕ → Bool) (p : Table k s) {r d : State k 
 def run {k s : ℕ} (p : Table k s) (r : State k s) : ℕ → Option (State k s)
   | 0 => some r
   | n+1 => (step p r).bind (fun w => run p w n)
+
+theorem run_add {k s : ℕ} (p : Table k s) (r : State k s) (n m : ℕ) :
+    run p r (n+m)=(run p r n).bind (fun d => run p d m) := by
+  induction n generalizing r with
+  | zero => simp [run]
+  | succ j ih =>
+    rw [Nat.succ_add]
+    simp only [run,Option.bind_assoc]
+    apply congrArg (Option.bind (step p r))
+    funext w
+    exact ih w
+
+theorem join {k s : ℕ} {p : Table k s} {r w d : State k s} {n m : ℕ}
+    (a : run p r n=some w) (b : run p w m=some d) : run p r (n+m)=some d := by
+  rw [run_add,a]
+  exact b
 
 theorem run_eval {k s : ℕ} (v : ℕ → Bool) (p : Table k s) {r d : State k s}
     {n : ℕ} (h : run p r n=some d) :
@@ -290,6 +295,16 @@ def check {k s : ℕ} (p : Table k s) (entry : Fin (s+1)) (start : Array (List G
   | none => false
   | some d => decide (d.pc.val=s ∧ (∑ i : Fin k, (d.high[i]+1-d.low[i]).toNat)=cells ∧
                 ∀ i : Fin k, same d.windows[i] expected[i])
+
+theorem check_from_run {k s : ℕ} (p : Table k s) (entry : Fin (s+1))
+    (start : Array (List Glyph)) (clock cells : ℕ) (expected : Vector WindowS k) (d : State k s)
+    (h : run p (initial entry start) clock=some d)
+    (endpoints : (decide (d.pc.val=s ∧ (∑ i : Fin k, (d.high[i]+1-d.low[i]).toNat)=cells ∧
+                ∀ i : Fin k, same d.windows[i] expected[i]) : Bool)=true) :
+    check p entry start clock cells expected=true := by
+  unfold check
+  rw [h]
+  exact endpoints
 
 /-- Once a shape's symbolic trace is checked, vary every source bit simultaneously.
     This proves the original physical rule's full output and visited bound. -/

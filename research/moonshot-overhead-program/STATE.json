@@ -25,8 +25,8 @@
     "status": "Written unconditional fixed-machine proof with independent AI checks; selected Lean proofs and executions.",
     "space": "At most 2^32 n distinct tape/address pairs for all n>=1.",
     "proof": "sessions/2026-11-26-S008/address-native-staircase.md",
-    "threshold": "For t=log2(log2(n)) >= 8931714897907030, T(n) <= n (ln n)^(501/1000) with coefficient one.",
-    "threshold_proof": "sessions/2026-11-26-S008/routing-refined-walsh.md",
+    "threshold": "For t=log2(log2(n)) >= 7519517465920988, T(n) <= n (ln n)^(501/1000) with coefficient one.",
+    "threshold_proof": "sessions/2026-11-26-S008/routing-label-walsh.md",
     "scope": "Explicit constants and onset for the prior functional order. The log-free improvement and square-root endpoint stay open.",
     "guard": "X=2^24 starts the global adaptive Walsh supplier.",
     "other_smooth_bounds": [
@@ -41,7 +41,8 @@
         "proof": "sessions/2026-11-26-S008/coefficient-53.md"
       }
     ],
-    "fixed_exponent_family": "sessions/2026-11-26-S008/all-exponents.md"
+    "fixed_exponent_family": "sessions/2026-11-26-S008/all-exponents.md",
+    "threshold_formal": "sessions/2026-11-26-S008/routing-label-schedule.lean"
   },
   "conditional_complete_overhead_bound": {
     "formula": "T(n)=O(n sqrt(L) x^a), including a=0 endpoint, under explicit hypotheses",
@@ -1365,9 +1366,13 @@
           {
             "sha": "6736a4f950a55c8e7c1e460f5d3952d6d43ace7e",
             "scope": "Every input length, literal dyadic words, fixed source outputs and actual-input analytic join."
+          },
+          {
+            "sha": "53b2384b62a825654ab4efec4e89e8c96fdd760c",
+            "scope": "All-input coefficient 63, explicit coefficient-53 onset, and previous sharper fixed-exponent threshold."
           }
         ],
-        "verified_partial": "Coefficient 63 on all n>=2, coefficients 60 and 53 on explicit stronger ranges, physical space 2^32 n. The .501 natural-log threshold is 8931714897907030 at this checkpoint."
+        "verified_partial": "Final natural-log unit threshold 7519517465920988, including all later scales; coefficient 63 all lengths; explicit coefficient 53 and fixed-exponent table. Final report and published head verification under preparation."
       }
     ],
     "used_or_reserved": 3,

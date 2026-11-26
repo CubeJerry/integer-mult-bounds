@@ -117,4 +117,3 @@ theorem native_weight_quarter (V U E F M y z s : ℝ) (hV : 0 ≤ V)
       nlinarith only [hb,hc]
 
 end S008.NativeQuantitative
-

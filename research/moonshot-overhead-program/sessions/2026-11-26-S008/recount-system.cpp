@@ -187,14 +187,14 @@ int main() {
         carry >>= b;
     }
     const mpz_class reference = x*y;
-    const std::string ordinary = recovered.get_str(2);
+    const std::string ordinary = recovered == 0 ? "" : recovered.get_str(2);
     if (carry != 0 || recovered != reference || ordinary.size() > 2*n)
         throw std::runtime_error("full carry or output-length mismatch");
     const std::size_t leading = 2*n - ordinary.size();
     const std::string output = std::string(leading, '0') + ordinary;
-    if (leading == 0 || output.size() != 2*n || mpz_class(output, 2) != reference)
+    if (output.size() != 2*n || mpz_class(output, 2) != reference)
         throw std::runtime_error("padded MSB-first raw output mismatch");
-    if (bad_without_inverse_crt == 0)
+    if (reference != 0 && bad_without_inverse_crt == 0)
         throw std::runtime_error("inverse-CRT negative control did not discriminate");
     std::cout << "{\"n\":" << n << ",\"address_bits\":" << k
         << ",\"data_fraction\":" << width << ",\"phase_fraction\":" << phase_width

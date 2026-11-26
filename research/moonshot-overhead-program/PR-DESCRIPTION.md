@@ -4,7 +4,7 @@
 
 One deterministic finite-alphabet multitape machine multiplies two arbitrary \(n\)-bit strings and writes exactly \(2n\) bits. Set \(L=1+\log_2 n,\ x=\log_2 L,\ \Phi(x)=(x^2\log_2(x+2))^{1/3}\). Its written time bound is \(n\sqrt L\,2^{63\Phi(x)}\) for every \(n\ge2\); \(n=1\) takes at most 4096 transitions. At most \(2^{32}n\) physical tape cells are visited through halt. [All-length proof](sessions/2026-11-26-S008/all-lengths.md) · [Space proof](sessions/2026-11-26-S008/routing-outer-space.md)
 
-Whenever \(\log_2\log_2 n\ge8{,}931{,}714{,}897{,}907{,}030\), the worst case is at most \(n(\ln n)^{501/1000}\), with coefficient one. This is a sufficient length. The construction quantifies the fork's earlier cube-root rate for the excess. The square-root endpoint and a faster functional order remain open. [Threshold proof](sessions/2026-11-26-S008/routing-refined-walsh.md) · [Independent certificate](sessions/2026-11-26-S008/routing-refined-walsh.py)
+Whenever \(\log_2\log_2 n\ge7{,}519{,}517{,}465{,}920{,}988\), the worst case is at most \(n(\ln n)^{501/1000}\), with coefficient one. This is a sufficient length. The construction quantifies the fork's earlier cube-root rate for the excess. The square-root endpoint and a faster functional order remain open. [Threshold proof](sessions/2026-11-26-S008/routing-label-walsh.md) · [Independent certificate](sessions/2026-11-26-S008/recount-label-cutoff.lean)
 
 For \(t=\log_2\log_2 n\), the proven coefficient in front of \(\Phi(t)\) falls to 60 throughout \(t\ge1{,}572{,}864{,}480\), and to 53 throughout \(t\ge2^{69110}\). The latter proof uses the actual number of bits per label. Both estimates include an extra factor of two on the time side and use the same fixed machine. [Coefficient 60](sessions/2026-11-26-S008/profile-limit.md) · [Effective coefficient 53](sessions/2026-11-26-S008/coefficient-53.md) · [Fixed-exponent cutoffs](sessions/2026-11-26-S008/all-exponents.md)
 
@@ -23,4 +23,3 @@ Independent AI reviews reconstructed the numerical joins and port conventions. C
 ## Credits
 
 Jerry Chen (@CubeJerry) directed the programme with substantial ChatGPT research and multi-agent assistance. OpenAI's source authors supplied the 2026 tape and Fourier constructions. S002/E001, E002, S003/E003 and S004–S007 supplied the preceding credited proofs, conditional transfers and negative results. The cited authors retain credit for combinatorial sieves, fast multiplication, Toom–Cook interpolation, Frobenius partitions, Fourier transforms and normal-basis theory. Cantor and Kaltofen supplied the cyclotomic decomposition, Yann Tal the fixed-tape sorting theorem, Harvey and van der Hoeven the short products, and Swapnil Jain the verified finite residue word.
-

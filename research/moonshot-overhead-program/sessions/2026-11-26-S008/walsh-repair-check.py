@@ -8,6 +8,7 @@ from pathlib import Path
 import json
 import argparse
 import random
+import runpy
 import subprocess
 
 
@@ -109,18 +110,46 @@ def invert_raw(A):
     return [row[n:] for row in matrix]
 
 
+def source_frequency_key(y):
+    """Get the missing-prime key from a nonzero address on the actual template axes."""
+    m = (1 << y) - 1
+    v = (y+1).bit_length()
+    half_blocks = 1
+    while half_blocks*half_blocks*v < y:
+        half_blocks += 1
+    blocks = 2*half_blocks
+    qbits = 2 + (2*y+blocks-1)//blocks
+    auxiliaries = blocks*(1 << qbits)
+    slots = m + auxiliaries
+    columns, prefix, suffix = 2, 3, 5
+    address = ['1']*prefix + ['0']*(2*columns*slots) + ['1']*suffix
+    for slot in range(m+1):
+        # The first column gives dot 1 on every distinguished and one auxiliary slot.
+        # Their signs therefore cancel to the zero key at a nonzero frequency address.
+        address[prefix+slot] = '1'
+        address[prefix+slots+slot] = '1'
+    reader = runpy.run_path(str(Path(__file__).with_name('walsh-key-port.py')))
+    word, steps, cells = reader['fixture'](reader['compile_key'](), ''.join(address), m,
+                                          auxiliaries, columns, prefix, suffix, True)
+    key = int(word[::-1], 2)
+    assert key == 0 and any(c == '1' for c in address[prefix:-suffix])
+    return key, dict(address_bits=len(address), distinguished=m, auxiliary=auxiliaries,
+                     columns=columns, head_transitions=steps, visited=cells)
+
+
 def verify(unreduced=False):
     rng = random.Random(2037)
     counts = {'keys': 0, 'empty': 0, 'nonempty': 0, 'max_actual_defects': 0,
               'exact_table_entries': 0, 'exact_lagrange_entries': 0,
               'arbitrary_sets': 0, 'physical_real_coefficients': 0}
     physical = []
+    physical_key, counts['physical_frequency_receipt'] = source_frequency_key(6)
     for y in (6, 7, 8):
         W = 1 << y
         m = W-1
         degree, low, values, G, F, scale, D, width, masks = template(y)
         # Select actual keys at the center of a few mutually separated shift words.
-        keys = {0, (1 << m)-1, *masks[:5]}
+        keys = {physical_key if y == 6 else 0, (1 << m)-1, *masks[:5]}
         for t,u in combinations(range(7), 2):
             diff = masks[t] ^ masks[u]
             bits = [i for i in range(m) if (diff >> i) & 1]
@@ -153,7 +182,7 @@ def verify(unreduced=False):
                     assert abs(mat[r][s]).bit_length() < width
                     counts['exact_table_entries'] += 1
                     # Price the real missing-prime case on the actual larger common modulus.
-                    if y == 6 and key == 0 and r == s == 0:
+                    if y == 6 and key == physical_key and r == s == 0:
                         assert target.denominator % 73 == 0
                         M = 1 + (1 << 104) * (2*D)
                         physical.append([hex(M-1), str(target.numerator), str(target.denominator),

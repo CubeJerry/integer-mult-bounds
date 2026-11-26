@@ -4,7 +4,9 @@
 from array import array
 from itertools import product
 import json
+from pathlib import Path
 import random
+import runpy
 
 
 def checksum_record(value, offset, stage):
@@ -103,6 +105,85 @@ def spatial_case(rng, W1, W2, outer, prefix, axis, suffix, first, second):
     return len(bank), changed_count
 
 
+def physical_role_copy(machine, program, source, destination, leading, src_count, dst_count,
+                       src_role, dst_role, run_bits):
+    """Execute the fixed 15-head role copier. Its controls receive only binary descriptors."""
+    source_width = src_count * run_bits
+    destination_width = dst_count * run_bits
+    assert len(source) == leading * source_width
+    assert len(destination) == leading * destination_width
+    inputs = {"A": source, "Y": destination}
+    for tape, number in (("J", src_count), ("K", dst_count), ("I", src_role),
+                         ("D", dst_role), ("S", run_bits)):
+        inputs[tape] = format(number, 'b')
+    volume = len(source) + len(destination)
+    sim = machine(program, inputs).execute(103 * volume)
+    expected = bytearray(destination, 'ascii')
+    for prefix in range(leading):
+        start = prefix * source_width + src_role * run_bits
+        target = prefix * destination_width + dst_role * run_bits
+        expected[target:target + run_bits] = source[start:start + run_bits].encode('ascii')
+    copied = sim.contents('Y')
+    assert copied == expected.decode('ascii')
+    for tape in sim.tapes:
+        assert sim.head[tape] == 0
+        if tape != 'Y':
+            assert sim.contents(tape) == inputs.get(tape, '')
+    assert sim.visited <= 30 * volume
+    return copied, sim.steps, sim.visited
+
+
+def physical_spatial_cases(rng):
+    """Return arbitrary changed children twice through genuine nested head scans."""
+    library = runpy.run_path(str(Path(__file__).with_name('node-tapes.py')))
+    program = library['build_role'](xor=False)
+    machine = library['Simulation']
+    shapes = ((1, 2, 2, 1, 2, 1, 7, 0, 1), (3, 4, 2, 2, 4, 1, 8, 3, 0),
+              (2, 2, 4, 1, 4, 3, 11, 1, 2), (1, 4, 4, 2, 4, 3, 13, 0, 3),
+              (1, 8, 4, 1, 4, 1, 100, 5, 2), (1, 4, 8, 1, 2, 3, 73, 3, 6),
+              (1, 16, 8, 1, 2, 1, 9, 11, 3), (3, 1, 2, 3, 2, 1, 5, 0, 1))
+    calls = steps = parent_records = changed_records = max_cells = 0
+    for outer, first_count, second_count, pre, axis, post, width, first, second in shapes:
+        row_records = pre * axis * post
+        run_bits = row_records * width
+        def random_bits(count):
+            return format(rng.getrandbits(count), f'0{count}b')
+        original = random_bits(outer * second_count * first_count * run_bits)
+        def copy(src, dst, p, J, K, i, d):
+            nonlocal steps, calls, max_cells
+            result, elapsed, visited = physical_role_copy(machine, program, src, dst, p, J, K,
+                                                         i, d, run_bits)
+            steps += elapsed
+            calls += 1
+            max_cells = max(max_cells, visited)
+            return result
+        first_bank = copy(original, random_bits(outer * second_count * run_bits),
+                          outer * second_count, first_count, 1, first, 0)
+        second_bank = copy(first_bank, random_bits(outer * run_bits),
+                           outer, second_count, 1, second, 0)
+        # The reply reflects every active axis, then complements its fixed-width word.
+        # Its old prefix, suffix, and the independent leading reserve stay in place.
+        changed = []
+        expected = bytearray(original, 'ascii')
+        for p, prefix, x, suffix in product(range(outer), range(pre), range(axis), range(post)):
+            offset = ((p * pre + prefix) * axis + (axis - 1 - x)) * post + suffix
+            word = second_bank[offset * width:(offset + 1) * width]
+            new_word = ''.join('0' if v == '1' else '1' for v in word)
+            changed.append(new_word)
+            old_role = (p * second_count + second) * first_count + first
+            start = (old_role * row_records + (prefix * axis + x) * post + suffix) * width
+            expected[start:start + width] = new_word.encode('ascii')
+        restored_first = copy(''.join(changed), first_bank, outer, 1, second_count, 0, second)
+        restored_parent = copy(restored_first, original, outer * second_count,
+                               1, first_count, 0, first)
+        assert restored_parent == expected.decode('ascii')
+        parent_records += len(original) // width
+        changed_records += len(changed)
+    return dict(physical_cases=len(shapes), physical_calls=calls,
+                physical_head_transitions=steps, physical_peak_cells=max_cells,
+                physical_parent_records=parent_records, physical_selected_records=changed_records)
+
+
 def main():
     rng = random.Random(51083)
     finite_records = finite_cases = spatial_records = changed = spatial_cases = 0
@@ -116,9 +197,11 @@ def main():
             spatial_records += records
             changed += count
             spatial_cases += 1
-    print(json.dumps(dict(finite_two_arm_cases=finite_cases, finite_return_records=finite_records,
-                          nested_spatial_cases=spatial_cases, spatial_records=spatial_records,
-                          replaced_selected_records=changed), sort_keys=True))
+    results = dict(finite_two_arm_cases=finite_cases, finite_return_records=finite_records,
+                   nested_spatial_cases=spatial_cases, spatial_records=spatial_records,
+                   replaced_selected_records=changed)
+    results.update(physical_spatial_cases(rng))
+    print(json.dumps(results, sort_keys=True))
 
 
 if __name__ == '__main__':

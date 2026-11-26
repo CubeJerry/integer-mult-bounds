@@ -16,7 +16,7 @@ Both the coefficient one and the input cutoff are part of this estimate. Neither
 | 10,000 | 0.5001 | 64 | 13,824,000,000,000,000,000 |
 | 100,000 | 0.50001 | 74 | 15,984,000,000,000,000,000,000 |
 
-For \(q=1000\) the separate [three-slope history calculation](routing-refined-walsh.md) supplies a lower sufficient threshold. The table evaluates the [60-coefficient smooth formula](profile-limit.md) uniformly in \(q\).
+For \(q=1000\) the separate [three-slope history calculation](routing-label-walsh.md) supplies a lower sufficient threshold. The table evaluates the [60-coefficient smooth formula](profile-limit.md) uniformly in \(q\).
 
 ## Proof
 
@@ -24,6 +24,6 @@ The search terminates. For example, \(b=\lceil\log_2(2D+4)\rceil\) has \(b\le2D+
 \[
         2T(n)\le n\sqrt{\ell}\,2^{60\Phi(t)} .
 \]
-At \(jD\) one has \(D\log_2(jD+2)\le Dj\). Since \(\log_2(t+2)/t\) is decreasing, \(D\log_2(t+2)\le t\) for every \(t\ge t_q\). Cubing gives \(60\Phi(t)\le t/q\). Thus \(2T(n)\le n\ell^{1/2+1/q}\). Finally \(\ell=\ln n/\ln 2\le2\ln n\) and \(1/2+1/q\le1\), proving the claimed natural-log coefficient. [Uniform real comparison](full-cutoff.lean) · [Profile density](whole-profile.lean) · [Natural-input geometry](input-clock.lean)
+At \(jD\) one has \(D\log_2(jD+2)\le Dj\). Since \(\log_2(t+2)/t\) is decreasing, \(D\log_2(t+2)\le t\) for every \(t\ge t_q\). Cubing gives \(60\Phi(t)\le t/q\). Thus \(2T(n)\le n\ell^{1/2+1/q}\). Finally \(\ell=\ln n/\ln 2\le2\ln n\) and \(1/2+1/q\le1\), proving the claimed natural-log coefficient. [Whole-integer implication and table receipts](frontier.lean) · [Uniform real comparison](full-cutoff.lean) · [Profile density](whole-profile.lean) · [Natural-input geometry](input-clock.lean)
 
 The exponent excess tends to zero with increasing \(q\). The displayed cutoffs increase with \(q\); this argument gives no single finite input beyond which the exponent is exactly \(1/2\).

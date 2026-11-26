@@ -49,7 +49,7 @@ for pos in "${!modules[@]}"; do
   fi
   test "$(git hash-object "$mod.lean")" = "${blobs[pos]}"
 done
-for source in compiler-{controller,indexed-transfer,indexed-export,unary,binary-access,binary-export,binary-space}.lean; do
+for source in compiler-{controller,indexed-transfer,indexed-export,unary,binary-access,binary-export,binary-space,butterfly,butterfly-stream,butterfly-stream-space,butterfly-export}.lean; do
   cp "$session_dir/$source" "$stage/"
 done
 cd "$library"
@@ -65,12 +65,15 @@ lake env bash -euc '
   cd "$1"
   shift
   export LEAN_PATH="$PWD:$LEAN_PATH"
-  for name in "$@" compiler-controller compiler-indexed-transfer compiler-unary compiler-binary-access compiler-binary-space; do
+  for name in "$@" compiler-controller compiler-indexed-transfer compiler-unary compiler-binary-access compiler-binary-space compiler-butterfly compiler-butterfly-stream compiler-butterfly-stream-space; do
     printf "Checking %s\n" "$name"
     lean -j1 -DwarningAsError=true -o "$name.olean" "$name.lean"
   done
-  lean -DwarningAsError=true --run compiler-indexed-export.lean > rule
-  lean -DwarningAsError=true --run compiler-binary-export.lean > binary-rule
+  lean -j1 -DwarningAsError=true --run compiler-indexed-export.lean > rule
+  lean -j1 -DwarningAsError=true --run compiler-binary-export.lean > binary-rule
+  lean -j1 -DwarningAsError=true --run compiler-butterfly-export.lean > butterfly-rule
+  lean -j1 -DwarningAsError=true --run compiler-butterfly-export.lean --stream > butterfly-stream-rule
 ' bash "$stage" "${modules[@]}"
 python3 -I -B "$session_dir/compiler-indexed-transfer.py" --table "$stage/rule"
 python3 -I -B "$session_dir/compiler-binary-access.py" --table "$stage/binary-rule"
+python3 -I -B "$session_dir/compiler-butterfly.py" --extended --table "$stage/butterfly-rule" --stream-table "$stage/butterfly-stream-rule"

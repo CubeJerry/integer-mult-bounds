@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Check the width dispatcher against the pinned physical machine and visit definitions.
+# Check the physical rules and optionally one arbitrary-data trace against frozen source.
 set -euo pipefail
 
-if [[ $# != 2 ]]; then
-  echo "usage: bash node-check-lean.sh PATH_TO_OPENAI_MATH PATH_TO_PINNED_MATHLIB" >&2
+if (( $# < 2 || $# > 3 )); then
+  echo "usage: bash node-check-lean.sh PATH_TO_OPENAI_MATH PATH_TO_PINNED_MATHLIB [width|tables|nine|copy|xor|seventytwo|eightyone]" >&2
   exit 2
 fi
 session_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
@@ -36,14 +36,103 @@ for i in "${!mods[@]}"; do
   git -C "$source_dir" show "$openai_commit:lean/$path" > "$stage/$path"
   test "$(git hash-object "$stage/$path")" = "${blobs[i]}"
 done
+mode=${3:-width}
+case "$mode" in
+  width|tables|nine|copy|xor|seventytwo|eightyone) ;;
+  *) echo "unknown source proof mode: $mode" >&2; exit 2 ;;
+esac
 cp "$session_dir/node-width-dispatch.lean" "$stage/WidthDispatch.lean"
-cd "$mathlib_dir"
-lake env bash -euc '
-  cd "$1"
-  shift
-  export LEAN_PATH="$PWD:$LEAN_PATH"
-  for module in "$@"; do
-    lean -DwarningAsError=true -o "$module.olean" "$module.lean"
+local_modules=(WidthDispatch)
+if [[ "$mode" != width ]]; then
+  while read -r source module; do
+    cp "$session_dir/$source" "$stage/$module.lean"
+    local_modules+=("$module")
+  done <<'MODULES'
+recount-handoff.lean RecountHandoff
+node-source-bridge.lean NodeBridge
+MODULES
+  python3 -I -B "$session_dir/node-source-tables.py" --extras --split "$stage/NodeTables.lean"
+  local_modules+=(NodeTablesSupport)
+  for path in "$stage"/NodeTablesRule*.lean; do
+    module=${path##*/}
+    local_modules+=("${module%.lean}")
   done
-  leanchecker -v --fresh WidthDispatch
-' bash "$stage" "${mods[@]}" WidthDispatch
+  local_modules+=(NodeTables)
+  while read -r source module; do
+    cp "$session_dir/$source" "$stage/$module.lean"
+    local_modules+=("$module")
+  done <<'MODULES'
+node-direct-zero.lean NativeZero
+node-symbolic.lean NodeSymbolic
+node-symbolic-cases.lean NodeSymbolicCases
+node-exact-cells.lean NodeExactCells
+node-locality.lean NodeLocality
+node-composition.lean NodeComposition
+node-data-oblivious.lean NodeDataLayout
+node-linear-tapes.lean NodeLinearTapes
+node-affine-tags.lean NodeAffineTags
+MODULES
+fi
+if [[ "$mode" != width && "$mode" != tables ]]; then
+  python3 -I -B "$session_dir/node-certified-traces.py" "$mode" "$stage/NativeCertificate.lean"
+  shopt -s nullglob
+  for path in "$stage"/NativeCertificateWins*.lean "$stage"/NativeCertificateFrames*.lean; do
+    module=${path##*/}
+    local_modules+=("${module%.lean}")
+  done
+  local_modules+=(NativeCertificateData)
+  for path in "$stage"/NativeCertificatePart*.lean; do
+    module=${path##*/}
+    local_modules+=("${module%.lean}")
+  done
+  local_modules+=(NativeCertificate)
+fi
+if [[ "$mode" != width ]]; then
+  {
+    for module in WidthDispatch NativeZero NodeSymbolicCases NodeExactCells NodeComposition NodeAffineTags; do
+      echo "import $module"
+    done
+    if [[ "$mode" != tables ]]; then
+      echo 'import NativeCertificate'
+    fi
+    echo '#print axioms S008.NodeSource.check_sound'
+    echo '#print axioms S008.NativeZero.all_inputs'
+    echo '#print axioms S008.Symbolic.check_sound'
+    echo '#print axioms S008.ExactCells.cardinality'
+    echo '#print axioms S008.Locality.install_checked'
+    echo '#print axioms S008.Composition.ambient_card'
+    echo '#print axioms S008.Composition.full_visited'
+    echo '#print axioms S008.DataLayout.matched'
+    echo '#print axioms S008.DataLayout.direct_safe'
+    echo '#print axioms S008.LinearTapes.superposition'
+    echo '#print axioms S008.LinearTapes.basis_suffices'
+    echo '#print axioms S008.AffineTags.affine_three'
+    echo '#print axioms S008.AffineTags.affine_visited'
+    if [[ "$mode" != tables ]]; then
+      echo "#print axioms S008.Certified.$mode.certified"
+      echo "#print axioms S008.Certified.$mode.exact_cells"
+    fi
+  } > "$stage/NodeProofBundle.lean"
+  local_modules+=(NodeProofBundle)
+fi
+last=${local_modules[-1]}
+fresh=${S008_NODE_FRESH:-0}
+if [[ "$mode" == width ]]; then
+  fresh=${S008_NODE_FRESH:-1}
+fi
+cd "$mathlib_dir"
+mathlib_lean_path=$(lake env printenv LEAN_PATH)
+cd "$stage"
+export LEAN_PATH="$stage:$mathlib_lean_path"
+for module in "${mods[@]}" "${local_modules[@]}"; do
+  lean -j1 -DwarningAsError=true -o "$module.olean" "$module.lean" || {
+    rc=$?
+    echo "Lean failed in $module with status $rc" >&2
+    exit "$rc"
+  }
+done
+if [[ "$fresh" == 1 ]]; then
+  leanchecker -v --fresh "$last"
+else
+  leanchecker -v "$last"
+fi

@@ -7,7 +7,7 @@ Advance the global Walsh switch to \(X=2^{24}\). This one configuration change, 
  T(n)\le n\sqrt{1+\log_2 n}\;2^{63\Phi(\log_2(1+\log_2 n))}\quad(n\ge2),
  \qquad T(1)\le4096,\qquad S(n)\le 2^{32}n .
 \]
-Here \(\Phi(x)=(x^2\log_2(x+2))^{1/3}\). The [stronger proof](address-native-staircase.md) identifies the changed guard, its full physical setup price and the all-input join. The [fixed-exponent table](all-exponents.md) gives the sufficient lengths for general \(1/2+1/q\). The [finite-history proof](routing-refined-walsh.md) gives the sharper specialized \(0.501\) result. Both dispatchers have the same large-input execution.
+Here \(\Phi(x)=(x^2\log_2(x+2))^{1/3}\). The [stronger proof](address-native-staircase.md) identifies the changed guard, its full physical setup price and the all-input join. The [fixed-exponent table](all-exponents.md) gives the sufficient lengths for general \(1/2+1/q\). The [finite-history proof](routing-label-walsh.md) gives the sharper specialized \(0.501\) result. Both dispatchers have the same large-input execution.
 
 For \(t=\log_2\log_2 n\), the same configuration satisfies the [smooth coefficient 60](profile-limit.md) from \(t=1{,}572{,}864{,}480\) and the [smooth coefficient 53](coefficient-53.md) from \(t=2^{69110}\). Both sharper bounds use \(\sqrt{\log_2 n}\) and leave an additional binary bit of time allowance.
 
@@ -39,4 +39,3 @@ For \(k\ge2^{4096}\) all tables requiring \(k\ge2^{256}\) fit. The [sharper axis
 * **Coprime box.** Here \(z\ge4096\). Use equation (1) in [the whole clock](integer-clock.md) with the smaller \(A_W\). The logarithm of time divided by \(n\sqrt\ell\) is bounded by \(182+4\log_2(z+2)+70\Phi(z+2)\), since \(55+110+13+4=182\). The [formal profile calculation](whole-profile.lean) proves \(\Phi(z+2)\le\Phi(z)+2\). For \(z\ge4096\), \(64\log_2(z+2)\le z\) by comparison at 4096 and decreasing log density. Cubing gives \(16\log_2(z+2)\le\Phi(z)\). Also \(\Phi(z)\ge512\) because \(4096^2\cdot8=512^3\). Thus \(182+140+1\le3\Phi(z)/4\) and in fact \(2T\le n\sqrt\ell\,2^{71\Phi(z)}\).
 
 The sharper \(0.501\) cutoffs exceed the start of the third branch and its adaptive Walsh domain. Both small-length changes leave their physical execution unchanged. [Large-length implication](integer-clock.md) · [Piecewise transfer](routing-piecewise-walsh.md)
-

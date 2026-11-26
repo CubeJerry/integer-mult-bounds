@@ -359,7 +359,7 @@ private theorem step_motion {x y : State} (hxy : step x = some y) (i : Bool) :
     subst y
     obtain ⟨rfl,hu,hd⟩ := command_motion _ _ _ _ _ _ _ _ h
     refine ⟨m.shift,?_,?_,?_,hu,hd⟩
-    · cases i <;> exact window_pos .. 
+    · cases i <;> exact window_pos ..
     · cases m <;> decide
     · cases m <;> decide
 

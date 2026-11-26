@@ -1,16 +1,18 @@
 #!/usr/bin/env bash
 # Rebuild the rounded Walsh transfer and replay its Lean kernel certificates.
 set -euo pipefail
-test "$#" -ge 1 && test "$#" -le 3
+test "$#" -ge 1 && test "$#" -le 4
 session_dir=$(cd -- "$(dirname -- "$0")" && pwd)
 mathlib_dir=$(cd -- "$1" && pwd)
 shift
 use_fresh=false
 use_refined=false
+use_label=false
 for mode in "$@"; do
     case "$mode" in
         --fresh) use_fresh=true ;;
         --refined) use_refined=true ;;
+        --label) use_label=true; use_refined=true ;;
         *) exit 2 ;;
     esac
 done
@@ -37,6 +39,14 @@ if "$use_refined"; then
     modules+=(RecountSharp RecountRefined RefinedFrame RefinedClock RefinedSchedule)
     replay_modules+=(RefinedFrame RefinedClock RefinedSchedule)
 fi
+if "$use_label"; then
+    cp "$session_dir/recount-label-cutoff.lean" "$out_dir/S008/RecountTrueLabel.lean"
+    cp "$session_dir/routing-label-simple.lean" "$out_dir/S008/LabelSimple.lean"
+    cp "$session_dir/routing-label-sharp.lean" "$out_dir/S008/LabelSharp.lean"
+    cp "$session_dir/routing-label-schedule.lean" "$out_dir/S008/LabelSchedule.lean"
+    modules+=(RecountTrueLabel LabelSimple LabelSharp LabelSchedule)
+    replay_modules+=(LabelSimple LabelSharp LabelSchedule)
+fi
 target=${modules[-1]}
 base_path=$(cd -- "$mathlib_dir" && lake env printenv LEAN_PATH)
 cd -- "$out_dir"
@@ -62,6 +72,16 @@ if "$use_refined"; then
 #print axioms S008.Piecewise.Refined.paid_all_later
 #print axioms S008.Piecewise.Refined.measured29_valid
 #print axioms S008.Piecewise.Refined.schedule_natural_clock
+CHECK
+fi
+if "$use_label"; then
+    cat >> Axioms.lean <<'CHECK'
+#print axioms S008.Piecewise.LabelSimple.all_later
+#print axioms S008.Piecewise.LabelSimple.natural_clock
+#print axioms S008.Piecewise.LabelSharp.all_later
+#print axioms S008.Piecewise.LabelSharp.natural_clock
+#print axioms S008.Piecewise.LabelSchedule.measured29_valid
+#print axioms S008.Piecewise.LabelSchedule.schedule_natural_clock
 CHECK
 fi
 lean -j1 -DwarningAsError=true Axioms.lean

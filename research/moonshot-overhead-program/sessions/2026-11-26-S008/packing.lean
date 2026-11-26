@@ -88,4 +88,3 @@ theorem physical_sizes {n : ℕ} (hn : 2^48 < n) :
     _ ≤ 16*n := by omega
 
 end S008.Packing
-

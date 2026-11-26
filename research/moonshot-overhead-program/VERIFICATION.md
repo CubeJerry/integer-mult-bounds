@@ -2,7 +2,7 @@
 
 ## S008 numerical machine and range audit
 
-The session [verification record](sessions/2026-11-26-S008/VERIFICATION.md) gives the pinned Lean instructions, finite source-rule executions, full-precision integer test, independent analytic audits and outstanding review scope. The [all-length proof](sessions/2026-11-26-S008/all-lengths.md) composes physical machine costs with numerical inequalities. The [piecewise threshold proof](sessions/2026-11-26-S008/routing-refined-walsh.md) uses the same adaptive program at large lengths. Its cutoff accounts for all larger real scales. The branch includes machine-checked components and theorems transferring cost estimates. The full assembled program and its global time/space claims have a written proof with independent AI review. Independent human review is outstanding.
+The session [verification record](sessions/2026-11-26-S008/VERIFICATION.md) gives the pinned Lean instructions, finite source-rule executions, full-precision integer test, independent analytic audits and outstanding review scope. The [all-length proof](sessions/2026-11-26-S008/all-lengths.md) composes physical machine costs with numerical inequalities. The [piecewise threshold proof](sessions/2026-11-26-S008/routing-label-walsh.md) uses the same adaptive program at large lengths. Its cutoff accounts for all larger real scales. The branch includes machine-checked components and theorems transferring cost estimates. The full assembled program and its global time/space claims have a written proof with independent AI review. Independent human review is outstanding.
 
 ## S007 verification
 

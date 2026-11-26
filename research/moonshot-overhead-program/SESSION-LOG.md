@@ -1,5 +1,9 @@
 # Session log (append only)
 
+## S008 final arity-band proof, 13:21 UTC
+
+Checkpoint 53b2384b62a825654ab4efec4e89e8c96fdd760c saved the effective coefficient-53 proof. The last fixed-exponent calculation uses the true bit length of each label at each degree band. At the final crossing a previous recursive width supplies the binding term. Accounting for every preceding vertex gives \(T(n)\le n(\ln n)^{501/1000}\) from \(\log_2\log_2 n=7{,}519{,}517{,}465{,}920{,}988\). Three separate arithmetic calculations and a pinned Lean transfer check the exact endpoint and extend the result to every later size. The complete original-model machine cost remains written. The [review report](sessions/2026-11-26-S008/FINAL-REPORT.md) identifies the gate decisions and the remaining independent human review.
+
 ## S008 true label widths and numerical threshold, 13:09 UTC
 
 Checkpoint 6736a4f950a55c8e7c1e460f5d3952d6d43ace7e saved the all-input coefficient-71 construction. Switching to the previously implemented adaptive Walsh engine at \(X=2^{24}\) supports coefficient 63 on every \(n\ge2\). The baseline and revised guards use the same large-input program. The lead and two independent researchers reproduced the crossovers for the native three-slope history. The large-width estimates [with coefficient 60](sessions/2026-11-26-S008/profile-limit.md) and [with coefficient 53](sessions/2026-11-26-S008/coefficient-53.md) each have a literal input threshold. The source-level exact output, through-halt cardinalities and rounded Walsh group joins have separate kernel proofs. Further work is limited to checking the final per-band numerical threshold, writing the external review packet, and replaying the assembled verification scripts.

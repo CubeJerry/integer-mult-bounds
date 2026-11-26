@@ -67,4 +67,6 @@ In particular the transfer sum at a call has at most $1024V$ active parent paylo
 
 The scientific claim is a written fixed-program numerical upper bound for the existing adaptive native interchange under its finite algebraic identities. The majorant $m^{256}$ is not an observed scaling law. No claim of a faster complete integer exponent follows from the local count. The optional independent machine replays for its data movement, finite compiler, address actions and stacks are linked from their proofs. The full source-level Lean dispatcher and a human review are still separate.
 
+The [source-level program appendix](node-source-review.md) supplies the released-machine semantics for the raw tables, all-width data-dependence results, and exact scratch/tape installation and return lemmas.
+
 Prepared for Jerry Chen (@CubeJerry) with ChatGPT research assistance. The finite identities, packed schedule, common coordinate maps and parent exactness come from the OpenAI tape manuscript and the linked S002/S003/AQ-P proofs. S008 supplies explicit numerical control and physical-operation budgets at those interfaces.

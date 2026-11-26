@@ -151,4 +151,3 @@ def run(a, p=96):
 if __name__ == "__main__":
     mp.mp.prec=180
     print(json.dumps([run(a) for a in (2,3,4,5,7)], indent=2))
-

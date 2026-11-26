@@ -59,4 +59,6 @@ The [integer replay](node-root-check.py) checks all 3,857 fixed-degree choices, 
 
 The [formal width dispatcher](node-width-dispatch.lean) defines the literal finite state machine directly in the original four pinned Lean modules. Its theorems prove the binary threshold decision for every natural width, the exact home-restoring transition count, and a visited-cell bound including the original head. Its single-tape installation also proves the corresponding trace on any selected tape in an arbitrary finite ambient machine, preserving every spectator tape. The [clean replay](node-check-lean.sh) compiled it under Lean 4.34.1 and replayed its proof objects with `leanchecker --fresh`.
 
+The [source-level native program appendix](node-source-review.md) records the actual numerical table translations, their unbounded payload-layout and superposition theorems, examined exact coordinate families, and the physical composition and visited-set lemmas.
+
 Prepared for Jerry Chen (@CubeJerry) with substantial ChatGPT research assistance. The altered literal and numerical count reuse the frozen algebra, physical operations and independent comparisons in the linked S003 and S008 notes.

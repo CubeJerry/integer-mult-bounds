@@ -27,6 +27,6 @@ Keeping the integer knots and replacing a band slope by $(3+\bar E_j/a)/2^j$ for
 | 7,519,517,465,920,987 | $[-325836553,-325836552]$ |
 | 7,519,517,465,920,988 | $[53248687,53248688]$ |
 
-The same tail proof applies with $D$ equal to the actual earlier maximum. At $x_0$, the second density bound $H(x_0)+(33/4)\Phi(x_0)$ passes because the current surplus is strictly less than $D$. The first bound $48\Phi(x_0)+D$ passes by the positive residual. Both decrease after division by $z$ exactly as above. Thus $z\ge7519517465920988$ suffices for the unit-coefficient natural-log bound on every later input length. The previous integer fails this particular complete charge.
+The same tail proof applies with $D$ equal to the actual earlier maximum. At $x_0$, the second density bound $H(x_0)+(33/4)\Phi(x_0)$ passes because the current surplus is strictly less than $D$. The first bound $48\Phi(x_0)+D$ passes by the positive residual. Both decrease after division by $z$ exactly as above. Thus $z\ge7519517465920988$ suffices for the unit-coefficient natural-log bound on every later input length. The previous integer fails this particular complete charge. The [separate signed-knot calculation](routing-label-walsh.md) gives the original upper and lower arithmetic at this prior-anchor winner.
 
 Prepared for Jerry Chen (@CubeJerry) with substantial ChatGPT research assistance.
