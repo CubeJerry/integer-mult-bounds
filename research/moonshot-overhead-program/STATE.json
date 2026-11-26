@@ -1,7 +1,7 @@
 {
   "schema": "moonshot-overhead-program-state-v2",
   "branch": "research/moonshot-overhead-program",
-  "status": "session_active",
+  "status": "session_completed",
   "session_date_local": "2026-11-26",
   "requested_duration_seconds": 10800,
   "source_pins": {
@@ -120,21 +120,40 @@
     "s006_final_commit_id_location": "Git history and final response",
     "s007_upstream_pr": "none",
     "s007_final_commit_id_location": "Git history and final chat response; no recursive self identifier.",
-    "s007_verified_preclose_head": "7d84c00d9422c599119795553a2396155330e3d7"
+    "s007_verified_preclose_head": "7d84c00d9422c599119795553a2396155330e3d7",
+    "s008_confirmed_checkpoints": [
+      "066ee02d5912fecdd23aaf6eddd9ed6473399b14",
+      "0d65ee64c2d8565f9f24572df68e01ee8947e343",
+      "0cfd0699a19f934940f152e7cbd523be0f6466e1",
+      "ad6642217538ddb30536b92a43629934bb38cb5e",
+      "481455c823daf79175706d56c290dcea9ae792bc",
+      "c2caf1653b16bd5ea88a1b9cca9f63ba980bd5d8",
+      "6736a4f950a55c8e7c1e460f5d3952d6d43ace7e",
+      "53b2384b62a825654ab4efec4e89e8c96fdd760c",
+      "793b4364ea5f42bbad22e3b8423d157a22343265",
+      "4627397635390e83e7639c8aa7ad5e61c9d3c411",
+      "de92e69b7a0dbb3a360a359a012cc67b1c0a8243"
+    ],
+    "s008_last_confirmed_before_close": "de92e69b7a0dbb3a360a359a012cc67b1c0a8243",
+    "s008_upstream_pr": "none",
+    "s008_final_commit_id_location": "Git branch history and final research response."
   },
   "next_actions": [
-    "Complete the S008 numerical threshold, component kernel checks and external-review packet within the reserved final campaign slot."
+    "Request independent human review of the real child-volume, extraction/return movement and union-of-visited-cells proofs. The shared three-session discovery campaign is closed."
   ],
   "checkpoint_baseline_sha": "a31ed45a680b62562a14e8afa566c5c471d7eb3c",
   "session": {
     "id": "2026-11-26-S008",
-    "starting_sha": "036d2fc958482f9489d4efadf395844ab3b3eb60",
     "started_utc": "2026-11-26T10:47:18Z",
     "target_end_utc": "2026-11-26T13:47:18Z",
-    "status": "active",
-    "requested_seconds": 10800
+    "ended_utc": "2026-11-26T13:47:18Z",
+    "requested_seconds": 10800,
+    "elapsed_seconds": 10800,
+    "status": "completed",
+    "starting_sha": "036d2fc958482f9489d4efadf395844ab3b3eb60",
+    "report": "sessions/2026-11-26-S008/FINAL-REPORT.md"
   },
-  "verification_status": "S008 numerical branch bills have independent written audits and component kernel proofs; see sessions/2026-11-26-S008/VERIFICATION.md",
+  "verification_status": "Written whole-machine proof with independent AI review. Pinned strict Lean builds, source-model kernel proofs, exact threshold transfer and four full-precision forced box fixtures are indexed in sessions/2026-11-26-S008/VERIFICATION.md. Independent human review and a complete source-level formalization remain open.",
   "concurrent_work": {
     "epsilon_uniformity": "results/epsilon-uniformity/SESSION.json",
     "reconciled_head": "d1f3baccdcc547263c0c0cc7241aa0cb1ef12bee",
@@ -597,6 +616,12 @@
       "openai_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
       "prompt_blob": "da7825ae5ddad080494674d35e2c1058c3e18230",
       "charter_blob": "0dc678d97579526634453fbb5376463c64482229"
+    },
+    "S008": {
+      "verified_utc": "2026-11-26T13:29:00Z",
+      "CrocSwap/integer-mult-bounds": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "openai/math": "3344da59991ed94f9ba711217b29c1d760badfa6",
+      "CubeJerry/AI_Prompts": "d4ff248476b9d814d6dadde546645349fda1e33f"
     }
   },
   "final_finite_extension_review": "verification/S002/lead-review-final-finite-witnesses.md",
@@ -667,6 +692,17 @@
       "ended_utc": "2026-11-26T08:32:16Z",
       "actual_elapsed_seconds": 10800,
       "final_report": "sessions/2026-11-26-S007/FINAL-REPORT.md"
+    },
+    "2026-11-26-S008": {
+      "id": "2026-11-26-S008",
+      "started_utc": "2026-11-26T10:47:18Z",
+      "target_end_utc": "2026-11-26T13:47:18Z",
+      "ended_utc": "2026-11-26T13:47:18Z",
+      "requested_seconds": 10800,
+      "elapsed_seconds": 10800,
+      "status": "completed",
+      "starting_sha": "036d2fc958482f9489d4efadf395844ab3b3eb60",
+      "report": "sessions/2026-11-26-S008/FINAL-REPORT.md"
     }
   },
   "e002_current_result": {
@@ -1328,16 +1364,12 @@
         "starting_sha": "036d2fc958482f9489d4efadf395844ab3b3eb60",
         "started_utc": "2026-11-26T10:47:18Z",
         "target_end_utc": "2026-11-26T13:47:18Z",
-        "status": "active",
+        "status": "completed",
         "gates": [
           "A. Numerical fixed-tape interchange, counts and child volume at the actual native interface.",
           "B. Shared traversal across different anchor cells and its surviving Walsh cost."
         ],
-        "active_obligations": [
-          "finite controller and head travel",
-          "explicit recurrence mass and width guards",
-          "Walsh and outer numerical caller"
-        ],
+        "active_obligations": [],
         "prompt_blob": "c27b5ebcc9694221ac833c75db3071578ce9c4d1",
         "charter_blob": "977a98df197accf4cb8d3535e06608110f91167c",
         "checkpoints": [
@@ -1376,13 +1408,32 @@
           {
             "sha": "793b4364ea5f42bbad22e3b8423d157a22343265",
             "scope": "Exact final 0.501 cutoff, formal transfer on all 29 source rows, physical compiler and verification packet."
+          },
+          {
+            "sha": "4627397635390e83e7639c8aa7ad5e61c9d3c411",
+            "scope": "Four full-precision products and the frozen single-program contribution."
+          },
+          {
+            "sha": "de92e69b7a0dbb3a360a359a012cc67b1c0a8243",
+            "scope": "Frozen receipt and reviewed contribution before the final elapsed-time record."
           }
         ],
-        "verified_partial": "Both final numerical clocks and the all-later natural-log threshold pass independent checks. Four actual-precision forced-box boundary/reference pairs recover every coefficient and output bit. The campaign close time is pending."
+        "ended_utc": "2026-11-26T13:47:18Z",
+        "elapsed_seconds": 10800,
+        "requested_seconds": 10800,
+        "result": "Explicit unit physical 0.501 bound, numerical all-input coefficient 63, explicit eventual coefficient 53, identical functional order, and a frozen scoped routing trial.",
+        "report": "sessions/2026-11-26-S008/FINAL-REPORT.md",
+        "remaining_campaign_slots": 0,
+        "open_obligations": [
+          "Independent human review of the physical child/return tape accounting.",
+          "A general route with smaller full-integer excess.",
+          "End-to-end original-model formalization of the revised algorithm."
+        ]
       }
     ],
     "used_or_reserved": 3,
-    "remaining_unreserved": 0
+    "remaining_unreserved": 0,
+    "status": "closed: cap reached; recommend external review"
   },
   "s006_current_result": {
     "report": "sessions/2026-11-26-S006/FINAL-REPORT.md",
@@ -1507,5 +1558,44 @@
       "Use the third and final shared campaign slot for a complete independent external-review reconstruction of the fixed-precision factor-transform tape bill and packaging."
     ],
     "verification_status": "S007: strict pinned Lean source build and kernel replay of 23 modules, with 139 designated axiom audits; separate finite word and 28 numerical certificates. New tape bounds are written constructions with AI review, awaiting independent human refereeing."
+  },
+  "s008_current_result": {
+    "proof": "sessions/2026-11-26-S008/address-native-staircase.md",
+    "report": "sessions/2026-11-26-S008/FINAL-REPORT.md",
+    "quantitative_whole_bound_improved": true,
+    "asymptotic_order_improved": false,
+    "endpoint_proved": false,
+    "upper_bound_assumptions": "unconditional",
+    "limsup_upper_constant_of_true_label_invoice": "8+cuberoot(240)*(7+ln(2)/3)",
+    "numerical": {
+      "formula": "T(n) <= n sqrt(L) 2^{63 Phi(x)} for all n>=2; T(1)<=4096; L=1+log2(n), x=log2(L).",
+      "L": "1+log2(n)",
+      "x": "log2(L)",
+      "delta": "<=63 (log2(x+2)/x)^(1/3)",
+      "status": "Written unconditional fixed-machine proof with independent AI checks; selected Lean proofs and executions.",
+      "space": "At most 2^32 n distinct tape/address pairs for all n>=1.",
+      "proof": "sessions/2026-11-26-S008/address-native-staircase.md",
+      "threshold": "For t=log2(log2(n)) >= 7519517465920988, T(n) <= n (ln n)^(501/1000) with coefficient one.",
+      "threshold_proof": "sessions/2026-11-26-S008/routing-label-walsh.md",
+      "scope": "Explicit constants and onset for the prior functional order. The log-free improvement and square-root endpoint stay open.",
+      "guard": "X=2^24 starts the global adaptive Walsh supplier.",
+      "other_smooth_bounds": [
+        {
+          "C": 60,
+          "t_at_least": 1572864480,
+          "proof": "sessions/2026-11-26-S008/profile-limit.md"
+        },
+        {
+          "C": 53,
+          "t_at_least": "2^69110",
+          "proof": "sessions/2026-11-26-S008/coefficient-53.md"
+        }
+      ],
+      "fixed_exponent_family": "sessions/2026-11-26-S008/all-exponents.md",
+      "threshold_formal": "sessions/2026-11-26-S008/routing-label-schedule.lean",
+      "verification": "sessions/2026-11-26-S008/VERIFICATION.md",
+      "receipt": "sessions/2026-11-26-S008/lead-receipt.json"
+    },
+    "optional_geometry": "Four positive exact ground certificates completed. The separate 81-bit ground replay stopped early; its complete executable symbolic check passed."
   }
 }
