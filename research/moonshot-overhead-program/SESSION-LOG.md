@@ -362,3 +362,7 @@ Started at 03:04:51 UTC and closed at 05:04:51 UTC on 26 November 2026, after 7,
 ### S007 reservation, 26 November 2026
 
 The broad session started at 05:32:16 UTC on `579617a612e21ed44409ea203c376977f5a3ec69`. S006 is complete. S007 occupies the second of three shared slots and owns the coefficient-to-representative conversion. One slot remains unreserved. The [experiment record](sessions/2026-11-26-S007/SESSION.md) identifies the pass criteria and the inverse review.
+
+### S007 first verified crossing
+
+The [bidirectional word conversion](sessions/2026-11-26-S007/grouped-ambient-words.md) takes the orbit-ordered power-basis coefficients of grouped binary remainders to the actual ambient monomial words at the chosen anchor in O(q b^{2/5}) steps and O(q) cells. This brings one representation change below the unrelaxed binary budget. It still leaves the change to the additive product basis and the precision caller open. The integrating researcher checked the exact characteristic-two rank source and reproduced the finite receipt byte for byte.

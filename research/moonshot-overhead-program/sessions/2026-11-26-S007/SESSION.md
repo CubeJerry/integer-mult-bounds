@@ -14,3 +14,7 @@ For every sufficiently large b=3c, start with the actual 2^r coefficient blocks 
 | Integration | Verify the proposed crossings against literal polynomial division and the S005 precision caller, compare with published tape interchange, and assess the multiplier implication. If the direct crossing stalls, audit the named arbitrary-bit interchanger in the contribution. |
 
 Success is a complete crossing, a priced partial crossing with a strict saving, a correction to the retained theorem or a consequential obstruction for the stated mechanism. Additional ordinary layers, finite checks alone or a transfer that moves the same cost to an unnamed conversion fail. The two-attempt rule applies across sessions.
+
+## Second construction test
+
+Write A=2^c and h=A². The alternative uses the relative trace T=X^h+X^A+X before the final quadratic map. Test whether two batched Pascal transforms in the exponent j, plus O(q) steps and O(q) cells, convert the actual coefficient stream to the complete base-T digits and back. Compare the aggregate smaller binary CRT input volume with q. Both roots t,t+1 of t²+t=s must reach the actual chosen grouped monomial remainder, including conjugate anchors and short orbits. A free layout, a larger aggregate volume or an uncancelled full pass at every ordinary level defeats the claimed improvement. Any cost still assigned to the Pascal transform, ordered child evaluations or onward basis change must remain explicit.

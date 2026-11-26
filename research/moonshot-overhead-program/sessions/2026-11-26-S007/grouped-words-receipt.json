@@ -1,0 +1,68 @@
+{
+  "degrees": [
+    {
+      "b": 3,
+      "field_modulus": "0xb",
+      "orbit_degrees": [
+        1
+      ],
+      "coefficient_bits": 8,
+      "ambient_bits": 24
+    },
+    {
+      "b": 6,
+      "field_modulus": "0x43",
+      "orbit_degrees": [
+        1,
+        1
+      ],
+      "coefficient_bits": 64,
+      "ambient_bits": 384
+    },
+    {
+      "b": 9,
+      "field_modulus": "0x203",
+      "orbit_degrees": [
+        1,
+        3
+      ],
+      "coefficient_bits": 512,
+      "ambient_bits": 2304
+    },
+    {
+      "b": 12,
+      "field_modulus": "0x1009",
+      "orbit_degrees": [
+        1,
+        4,
+        2,
+        1
+      ],
+      "coefficient_bits": 4096,
+      "ambient_bits": 24576
+    },
+    {
+      "b": 15,
+      "field_modulus": "0x8003",
+      "orbit_degrees": [
+        1,
+        5,
+        5,
+        5
+      ],
+      "coefficient_bits": 32768,
+      "ambient_bits": 122880
+    }
+  ],
+  "counts": {
+    "matrix_tiles": 3060,
+    "short_final_tiles": 52,
+    "exhaustive_scalar_encodings": 138,
+    "ordinary_monic_remainder_coefficients": 10568,
+    "arbitrary_monomial_words_recovered": 10568,
+    "wrong_conjugate_controls": 6,
+    "outside_image_controls": 13,
+    "independent_CRT_reconstruction_coefficients": 21136,
+    "coefficient_order_reconstructions": 10
+  }
+}

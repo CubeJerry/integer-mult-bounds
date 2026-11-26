@@ -1194,7 +1194,7 @@
         "starting_sha": "579617a612e21ed44409ea203c376977f5a3ec69",
         "started_utc": "2026-11-26T05:32:16Z",
         "target_end_utc": "2026-11-26T08:32:16Z",
-        "status": "reserved",
+        "status": "active",
         "gates": [
           "Bidirectional passage from the paid radix prefix to the stored representative boundary",
           "Fixed-head movement and basis conversion on arbitrary legal records",
@@ -1208,7 +1208,13 @@
         ],
         "prompt_blob": "da7825ae5ddad080494674d35e2c1058c3e18230",
         "charter_blob": "0dc678d97579526634453fbb5376463c64482229",
-        "checkpoints": []
+        "checkpoints": [
+          {
+            "sha": "d3aa1e45f407661c93a285e100b04d8ee7a75202",
+            "scope": "shared reservation and initial proof tests"
+          }
+        ],
+        "verified_partial": "Grouped coefficient words to actual ambient monomial words and inverse, O(q b^{2/5}) time, O(q) visited cells. Product coordinates and complete CRT open."
       }
     ],
     "used_or_reserved": 2,
