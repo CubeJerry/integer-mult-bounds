@@ -334,3 +334,7 @@ S005 scientific snapshot prepared 2026-11-26T02:35:29.758641+00:00. Three report
 ## S005 observed completion — 2026-11-26T02:49:41.710128+00:00
 
 Completed the requested active interval from 2026-11-26T00:49:41Z; actual elapsed 7200 seconds, requested 7200. The frozen core report, separately reviewed late factor-lift addendum, supporting receipts and final manifest are integrated. No new unconditional complete multiplication bound. The preceding confirmed remote is b07df605a6724c017d0dbf3c3b9952e3fd2a6c58; publication and independent tree confirmation of the containing final commit are recorded separately in Git history and chat. No background continuation or upstream PR.
+
+## S006 / contribution campaign 1, opening
+
+Started at 2026-11-26T03:04:51Z from `69632d87c99b5a75d0b44a7d964e6550e457e016`. One of three shared campaign slots is reserved. The scoped obligations and pass/fail criteria are in [the session record](sessions/2026-11-26-S006/SESSION.md). AQ is the selected chain. Canonical main and OpenAI main were refreshed at the same revisions as S005.
