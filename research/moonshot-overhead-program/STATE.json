@@ -1220,11 +1220,27 @@
           {
             "sha": "97bb973719a60c242c52eea2731247726c2ec9c5",
             "result": "full relative-trace radix at O(q b/(log b)^eta), true two-fibre interpolation and ordered child interface"
+          },
+          {
+            "sha": "f0e80c3261a746272ebe621fb2b03f76273985d9",
+            "result": "all child FS1 CRTs and inverse via full-rate packed binary chirps; six new Lean modules"
           }
         ],
         "verified_partial": "Grouped coefficient words to actual ambient monomial words and inverse, O(q b^{2/5}) time, O(q) visited cells. Product coordinates and complete CRT open.",
         "radix_result": "Complete ordinary-to-relative-trace digits and inverse in O(q b/(log b)^eta), every fixed rational 0<eta<1/2. Tape proof independently reviewed. Literal child CRT and onward product basis remain separately priced.",
-        "complete_grouped_clock": "O(q b 4^(log* b)) time, O(q) cells; packed fixed binary convolution, no field-width expansion."
+        "complete_grouped_clock": "O(q b 4^(log* b)) time, O(q) cells; packed fixed binary convolution, no field-width expansion.",
+        "full_binary_transform": {
+          "degrees": "b=3c, c>=1, q=2^b",
+          "inputs": "contiguous coefficients or paid S006 prefix",
+          "outputs": "literal canonical monomial remainders modulo every FS1 irreducible dividing X^q-X",
+          "inverse": "all q independent FS1 bits",
+          "time": "O(q b 4^(log* b)), unconditional written",
+          "other_than_two_long_product_families": "O_eta(q b/(1+loglog(b+3))^eta), fixed rational 0<eta<1/2",
+          "visited_cells": "O(q)",
+          "proof": "sessions/2026-11-26-S007/full-plane-crt.md",
+          "stronger_clock": "square-root-times-polylog clock remains open",
+          "integer_implication": "No new complete integer-multiplication exponent or overhead."
+        }
       }
     ],
     "used_or_reserved": 2,
