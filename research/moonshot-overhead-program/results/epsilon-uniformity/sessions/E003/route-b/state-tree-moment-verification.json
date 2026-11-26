@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "scope": "Exact finite state-tree moments, integer label profiles and positive invoices; no tape multiplier or numerical infinite sum.",
+  "utc": "2026-11-26T00:48:51.483807+00:00",
+  "python": "3.12.14",
+  "proof_sha256": "b4216256a1bd2fa16c5564390e36a2f7f9facbfd3f73f7acf07e936451656888",
+  "verifier_sha256": "e71eff12f6afba1d945f93c2ad270abbeb7aef072ba2e40a92fca9be4d821a09",
+  "coefficient_checks": 17,
+  "exact_tree_moment_checks": 1479,
+  "two_sided_range_checks": 153,
+  "integer_profile_checks": 200,
+  "maximum_x": 16384,
+  "maximum_L": 64,
+  "negative_controls": [
+    "odd coefficient rejects the even-parity formula",
+    "omitting the factor q is rejected",
+    "omitting the positive t reserve breaks the rank guard"
+  ]
+}

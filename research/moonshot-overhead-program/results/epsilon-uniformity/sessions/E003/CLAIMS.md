@@ -37,6 +37,9 @@ physical, source and numerical review. It is not a new programme best.
 | Walking through partial Fourier bases | Source-compatible construction independently accepted by B and lead; exact matrix replay | `route-a/ROUTING-STATE-WALK-SHARING.md`; exact transitions and Gray traversal reduce the free component by Theta(Lt); a fresh scoped invoice lower bound retains the same leading scale. |
 | Translation-orbit C(4,3) partitions | Exact optimum six; lead independently read and replayed | `route-c/C4K3-TRANSLATION-ORBIT-OBSTRUCTION.md`; includes nonmaximal product sides, leaves asymmetric/correlated load five open. |
 | One fixed endpoint gauge | Restricted partial-Fourier obstruction independently accepted by C | `route-a/ROUTING-GLOBAL-ENDPOINT-GAUGE.md`; triangle obstruction with a real binary exception, no general circuit lower bound. |
+| Weighted state tree | Exact component count and minimum-tree weight; A/B/lead independent derivations, lead finite replay | `route-a/ROUTING-STATE-TREE-SHARING.md`; closed traversal free bill 2D+8M, factorial upper bound, unchanged retained leading invoice scale. |
+| Directed one-gauge graph criterion | Complete algebraic classification in the declared model; lead accepted | `route-c/ONE-GAUGE-GRAPH-CLASSIFICATION.md`; component-completion orthogonality, including a triangle-free path obstruction. |
+| Signed-star test sector | Exact invariant-sector spectrum; A independently accepted, lead read | `route-b/STAR-SPECTRAL-TEST-SECTOR.md`; rules out scalar Q(i) diagonalization for the stated binary seed family, leaves rational block forms open. |
 
 The complete E003 admission matches the earlier concurrent E002/S003
 two-thirds scale. The exact endpoint, a pure two-thirds exponent without

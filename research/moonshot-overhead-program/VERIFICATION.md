@@ -204,3 +204,7 @@ S003 final review: `sessions/2026-11-26-S003/lead/review-final-components.md`. I
 ### S004 fifth checkpoint — 2026-11-26T00:45:05Z
 
 S004 wave5 exact lead replays: 15,618 source entries; 164,932 shear entries; 9,250 independent-input destination outputs; 256 physical matchings and 44,597 subgroup words; 24 signed/24 one-sided mixed repairs; 66,066 monotone candidates; 8,160 missing-input profiles and 225 moment invoices. See scoped admission, proofs and manifest-wave5. No full multiplier or tape simulation.
+
+## E003 final-science checkpoint — 2026-11-26T00:51:12.839544+00:00
+
+E003 final integrity pass: all fifteen component hashes plus the integration review and all nine primary-source hashes match. Fifty-four session JSON files parsed and thirty-nine Python files parsed as syntax at that snapshot. Independent exact replays and their coverage are recorded separately; no full multiplier, formal refinement, practical cutoff evaluation or human refereeing is claimed.

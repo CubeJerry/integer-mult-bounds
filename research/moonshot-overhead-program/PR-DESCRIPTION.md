@@ -111,3 +111,8 @@ E002 adds an independently reviewed complete variable-profile construction at H<
 ## S003 final handoff — 2026-11-26T00:19:10Z
 
 S003 adds the complete AQ construction and reviewed finite/restricted components to the cumulative package. Its final report and proof chain are at `sessions/2026-11-26-S003/FINAL-REPORT.md`. The finite carry compiler now has an absolute polynomial-m formula bound for growing p<=m; this does not improve the complete AQ rate. A validated, once-encoded prefilled compare URL is in `sessions/2026-11-26-S003/PR-LINK.md`. No upstream PR was opened. Existing consolidated credits and source-specific claim limits apply.
+
+
+## E003 final-science checkpoint — 2026-11-26T00:51:12.839544+00:00
+
+E003 has independently admitted the same two-thirds complete envelope already recorded by E002/S003, with one absolute linear visited-space bound. Its protected local work now shares destination gauges, walks through partial Fourier states, and uses an exact minimum spanning tree of the state metric. The free call invoice becomes 2D+8M, with an explicit component-count formula and factorial bound; the charged term and retained routing toll leave the leading complete envelope unchanged. All lower statements are restricted to their stated positive invoices or algebraic models. E003 final report and scoped reviews are under results/epsilon-uniformity/sessions/E003/. No upstream PR was created by E003.

@@ -208,3 +208,7 @@ S003 final refresh at00:12 UTC: canonical main e54523517d0f03e58352e647c403a5af3
 ### S004 fifth checkpoint — 2026-11-26T00:45:05Z
 
 S004 lead read Gashkov--Sergeev2012 Lemma16 and convolution application at pp1443--1444 (https://web.vu.lt/mif/s.jukna/boolean/Gashkov-Sergeev-Sbornik.pdf). Also fully read E002 COMPATIBLE-ENDPOINT-REUSE and SWAP-WEYL-CONTRACTION-GATE. These have their stated physical/model limits. A renewed local-biclique product search found no verified resolution of JR; no exhaustive literature claim is made.
+
+## E003 final-science checkpoint — 2026-11-26T00:51:12.839544+00:00
+
+E003 records complete reading of the primary tape interchange, permutations, Walsh, integers and uniformity files, Fourier kernel, binary and repair files, and September elementary streams at the pinned OpenAI commit. The wider archive and literature/priority audit remain partial. Concurrent S004 span-weighted preconditioning and E002 occupied-parameter contraction results were read after reconciliation; their provenance is retained.

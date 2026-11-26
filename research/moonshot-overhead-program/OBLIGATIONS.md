@@ -247,3 +247,7 @@ S003 final O4 finite algebra and TPC count grammar are accepted after independen
 ### S004 fifth checkpoint — 2026-11-26T00:45:05Z
 
 S004 changed Fourier invoice now has explicit source and destination reuse. Even ignoring tree costs, the remaining one-axis incidence term plus charged rank retains sqrt(log m loglog m) logarithmic order. Sharing leaf transforms remains open. Mixed correctors are reviewed, but fast all-input suppliers remain a separate gate. The certified numerical supplier under final audit has a slower stated schedule.
+
+## E003 final-science checkpoint — 2026-11-26T00:51:12.839544+00:00
+
+E003 closes the exact weighted-state MST within the canonical single-prepared-basis model. Further gains require fewer separately visited states, different charged geometry, or a smaller fully priced physical routing toll. The one-gauge graph criterion and translation-closed C(4,3) optimum do not settle general multi-gauge routing or JR.

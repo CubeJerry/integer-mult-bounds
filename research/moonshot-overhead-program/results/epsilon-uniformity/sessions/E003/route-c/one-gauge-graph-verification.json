@@ -1,0 +1,167 @@
+{
+  "status": "passed",
+  "directed_graph_family": {
+    "dimension": 3,
+    "labels": 3,
+    "direction_tuples": 64,
+    "graphs": 766,
+    "input_assignments_examined": 22864,
+    "feasible": 616,
+    "infeasible": 150
+  },
+  "controls": [
+    {
+      "case": "norm_one_triangle",
+      "feasible": false,
+      "input_assignments_examined": 125,
+      "endpoint_components": [
+        [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "case": "directed_triangle_is_different",
+      "feasible": true,
+      "input_assignments_examined": 37,
+      "endpoint_components": [
+        [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "case": "complete_bipartite",
+      "feasible": true,
+      "input_assignments_examined": 157,
+      "endpoint_components": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "case": "isolated_vertex",
+      "feasible": true,
+      "input_assignments_examined": 7,
+      "endpoint_components": [
+        [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "case": "triangle_free_P4",
+      "feasible": false,
+      "input_assignments_examined": 65536,
+      "endpoint_components": [
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "case": "directed_P4",
+      "feasible": true,
+      "input_assignments_examined": 436,
+      "endpoint_components": [
+        [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        [
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      ]
+    }
+  ],
+  "scope": "Exact finite graph/subspace checks of the stated one-gauge, individual-monomial-route model.",
+  "sha256": {
+    "ONE-GAUGE-GRAPH-CLASSIFICATION.md": "975bfd042b9956564ced3758146f5cec059a7fe72430c1265ec5b12050a8a397",
+    "verify_one_gauge_graph.py": "39b584d5cc0e5c33df99890c849d904d94b2bfedc470a2f0faf0341d83af6843"
+  }
+}

@@ -266,3 +266,8 @@ See sessions/E002/FINAL-REPORT.md. Unconditional V remains admitted; log-free RV
 ## E002 completed three-hour session
 
 Started 2026-11-25T21:19:31Z; actual closure 2026-11-26T00:20:30.262760+00:00; elapsed 10859 seconds (requested 10800). Seven remote checkpoints independently verified before closure, latest a31ed45a680b62562a14e8afa566c5c471d7eb3c. Final report SHA-256 9756aa369369b2f2e37a8f8900618af744a85a8667963445123fb35e0e7b3829 passed both independent final reviews. All 147 files in the retained import manifests and 18 key bindings matched; 59 JSON files parsed before the final receipt was added. The final short-seed comparison is separately checked and does not supply the missing long-field router. V remains unconditional; RV-I/RV-W, polynomial-x and endpoint targets remain open. Own workers completed; concurrent sessions preserved. Final metadata and closing files are published in the containing commit, with the remote ref checked afterward. No upstream PR or message sent.
+
+
+## E003 final-science checkpoint — 2026-11-26T00:51:12.839544+00:00
+
+E003 has independently admitted the same two-thirds complete envelope already recorded by E002/S003, with one absolute linear visited-space bound. Its protected local work now shares destination gauges, walks through partial Fourier states, and uses an exact minimum spanning tree of the state metric. The free call invoice becomes 2D+8M, with an explicit component-count formula and factorial bound; the charged term and retained routing toll leave the leading complete envelope unchanged. All lower statements are restricted to their stated positive invoices or algebraic models. The exact C(4,3) translation-orbit optimum is six; all broader load-five time-limited searches remain inconclusive.

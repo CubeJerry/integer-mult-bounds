@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "affine_upper_certificate": {
+    "parts": 9,
+    "part_sizes": [
+      1,
+      2,
+      2,
+      4,
+      4,
+      4,
+      8,
+      8,
+      16
+    ],
+    "rectangles": 196,
+    "edges": 3136,
+    "maximum_source_load": 9,
+    "maximum_destination_load": 9,
+    "nonproduct_sides": 160
+  },
+  "warm_upper_certificate": {
+    "rectangles": 96,
+    "edges": 1728,
+    "maximum_load": 6,
+    "solver_status": "Time limit reached",
+    "solver_bound_not_exactly_certified": 5.0
+  },
+  "inconclusive_runs": [
+    {
+      "file": "c4-k3-load5-experiment.json",
+      "status": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "time_limit_seconds": 90.0
+    },
+    {
+      "file": "c4-k3-fixed-case0.json",
+      "status": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "time_limit_seconds": 300.0
+    },
+    {
+      "file": "c4-k3-fixed-case1.json",
+      "status": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "time_limit_seconds": 300.0
+    },
+    {
+      "file": "c4-k3-fixed-case2.json",
+      "status": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "time_limit_seconds": 300.0
+    }
+  ],
+  "scope": "Exact upper certificates only; no solver lower bound promoted to a mathematical obstruction.",
+  "sha256": {
+    "affine-difference-q8-k2.json": "beeba48168b3f5c47e9ac15e5be84fe19bcc819f38bdaa510483920139c170a2",
+    "c4-k3-warm-structured.json": "a5588171c03081fe1f86bb26b7e0ea316cfdc43e70868437c39e8fff67ec60aa",
+    "c4-k3-load5-experiment.json": "4f9b87ade8d727ef4ea522117fed67195c7948b66e73d4956266cd0bce54ac22",
+    "c4-k3-fixed-case0.json": "bc62f150e496b376e5a18e6a8b710ab191b2d6c6f01cd96225d6776c8a139209",
+    "c4-k3-fixed-case1.json": "62ff49c7d960adbe0ab1b2001a85bb6894affdcc17c6d6bf77c2e7f6a40c22db",
+    "c4-k3-fixed-case2.json": "fe6ccba782a5ca804a8fdc1d59188d82b3dc6b12d73533ca8ab9d4d41a164f4e",
+    "FINITE-JR-EXPERIMENTS.md": "07cee90864593dce1f28fec04430cfc03863a2bc1f4125ffac508b2c978776c4",
+    "verify_finite_jr_certificates.py": "cb4e78d083c57f260d7e7efe17afd01949ea5dbcc8f6fe367f87230b14f68055"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "replayed_utc": "2026-11-26T00:44:47.470389+00:00",
+  "reviewer": "E003 lead",
+  "scope": "Independent invocation of read complete-graph checker on three odd/even, multi-threshold cases; not all A cases and not a tape execution",
+  "cases": [
+    {
+      "t": 2,
+      "L": 4,
+      "states": 40,
+      "complete_edges": 780,
+      "threshold_groups": 2,
+      "tree_edges": 39,
+      "tree_weight": 53,
+      "closed_visits": 79,
+      "tree_free_calls": 444,
+      "support_gray_free_calls": 560
+    },
+    {
+      "t": 3,
+      "L": 3,
+      "states": 36,
+      "complete_edges": 630,
+      "threshold_groups": 4,
+      "tree_edges": 35,
+      "tree_weight": 75,
+      "closed_visits": 71,
+      "tree_free_calls": 640,
+      "support_gray_free_calls": 820
+    },
+    {
+      "t": 4,
+      "L": 4,
+      "states": 272,
+      "complete_edges": 36856,
+      "threshold_groups": 8,
+      "tree_edges": 271,
+      "tree_weight": 629,
+      "closed_visits": 543,
+      "tree_free_calls": 5148,
+      "support_gray_free_calls": 10000
+    }
+  ],
+  "sha256": {
+    "route-a/ROUTING-STATE-TREE-SHARING.md": "4958f7396176546c8929ee4a6e8d1faf4e4c471a9781e41415c993115b25c6b8",
+    "route-a/ROUTING-verify-state-tree.py": "beb3882f3c988b153cb705a7b2794b0418fae12d42a532094c3a69e74154f8e1",
+    "route-a/ROUTING-verify-state-walk.py": "b10468a3835b72c57fb4c40e91bc1e21176d1ad4f97a9a467ad0f211dbd8f879"
+  }
+}

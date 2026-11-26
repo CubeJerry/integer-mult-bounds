@@ -153,3 +153,7 @@ S003 completed its requested three-hour interval. The admitted unconditional AQ 
 ### S004 fifth checkpoint — 2026-11-26T00:45:05Z
 
 S004 fifth checkpoint admits two Fourier sharing graphs, revised invoice analysis, spectrum matching, mixed correction and scoped supplier gates. Unconditional and JR-conditional complete-bound statuses are unchanged. Concurrent S003/E002 completion records are preserved.
+
+## E003 final-science checkpoint — 2026-11-26T00:51:12.839544+00:00
+
+E003 has independently admitted the same two-thirds complete envelope already recorded by E002/S003, with one absolute linear visited-space bound. Its protected local work now shares destination gauges, walks through partial Fourier states, and uses an exact minimum spanning tree of the state metric. The free call invoice becomes 2D+8M, with an explicit component-count formula and factorial bound; the charged term and retained routing toll leave the leading complete envelope unchanged. All lower statements are restricted to their stated positive invoices or algebraic models.
