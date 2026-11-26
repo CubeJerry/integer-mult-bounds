@@ -1216,10 +1216,15 @@
           {
             "sha": "9b219455b4fcc2c1790383576cada3f5ae9d42a9",
             "result": "bidirectional O(q b^{2/5}) grouped power-basis word embedding at the actual anchor"
+          },
+          {
+            "sha": "97bb973719a60c242c52eea2731247726c2ec9c5",
+            "result": "full relative-trace radix at O(q b/(log b)^eta), true two-fibre interpolation and ordered child interface"
           }
         ],
         "verified_partial": "Grouped coefficient words to actual ambient monomial words and inverse, O(q b^{2/5}) time, O(q) visited cells. Product coordinates and complete CRT open.",
-        "radix_result": "Complete ordinary-to-relative-trace digits and inverse in O(q b/(log b)^eta), every fixed rational 0<eta<1/2. Tape proof independently reviewed. Literal child CRT and onward product basis remain separately priced."
+        "radix_result": "Complete ordinary-to-relative-trace digits and inverse in O(q b/(log b)^eta), every fixed rational 0<eta<1/2. Tape proof independently reviewed. Literal child CRT and onward product basis remain separately priced.",
+        "complete_grouped_clock": "O(q b 4^(log* b)) time, O(q) cells; packed fixed binary convolution, no field-width expansion."
       }
     ],
     "used_or_reserved": 2,
