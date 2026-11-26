@@ -1,0 +1,84 @@
+{
+  "status": "pass",
+  "scope": "Exact finite partial-basis and triangle checks plus sharp q=2 rank examples; no general circuit or tape lower bound.",
+  "proof_sha256": "5b2755bf746faf5ed041f91f1cfd1a1d3dc084a1adf315008a8110d0a887ed06",
+  "verifier_sha256": "88e3bed7043a28c078d6814ca8065c0693ddb97624bdcfde1012c9978f059342",
+  "helper_sha256": "fc556c3cd12d921a406e51d525fc796d325523b5ec1f035140cdb02dc5029681",
+  "partial_basis": {
+    "subspace_pairs": 4774,
+    "matrix_entries": 1165984,
+    "monomial_pairs": 90
+  },
+  "triangles": {
+    "input_gauge_triples": 4221,
+    "compatible_triangles": 0,
+    "native_label_triangles": 4,
+    "norm_zero_counterexample": true
+  },
+  "parity_rank": [
+    {
+      "L": 1,
+      "labels": 2,
+      "charged_rectangles": 1,
+      "rank": 1
+    },
+    {
+      "L": 2,
+      "labels": 4,
+      "charged_rectangles": 2,
+      "rank": 2
+    },
+    {
+      "L": 3,
+      "labels": 8,
+      "charged_rectangles": 4,
+      "rank": 4
+    },
+    {
+      "L": 4,
+      "labels": 16,
+      "charged_rectangles": 8,
+      "rank": 8
+    },
+    {
+      "L": 5,
+      "labels": 32,
+      "charged_rectangles": 16,
+      "rank": 16
+    },
+    {
+      "L": 6,
+      "labels": 64,
+      "charged_rectangles": 32,
+      "rank": 32
+    },
+    {
+      "L": 7,
+      "labels": 128,
+      "charged_rectangles": 64,
+      "rank": 64
+    },
+    {
+      "L": 8,
+      "labels": 256,
+      "charged_rectangles": 128,
+      "rank": 128
+    },
+    {
+      "L": 9,
+      "labels": 512,
+      "charged_rectangles": 256,
+      "rank": 256
+    },
+    {
+      "L": 10,
+      "labels": 1024,
+      "charged_rectangles": 512,
+      "rank": 512
+    }
+  ],
+  "negative_controls": [
+    "norm-zero directions admit the forbidden self-dual gauge",
+    "q=2 bipartite exception remains admitted"
+  ]
+}

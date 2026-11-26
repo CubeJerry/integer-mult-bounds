@@ -234,6 +234,90 @@ This is consequently a matching statement about the specified positive
 equality invoice. At no point is an upper bound on a call count reversed
 into a lower bound on machine time.
 
+### After the constructive destination-gauge refinement
+
+E003 A's `ROUTING-DESTINATION-GAUGE-SHARING.md` changes the free
+endpoint list. Its exact free charge becomes
+`2(D-1)+2lambda+4(q-1-t)lambda'`, where the derivative denotes the
+explicit incidence polynomial derivative. The older D-lambda lower
+bound is not assumed to survive this change unchanged.
+
+The lead's separately proved `rank-weighted-walsh-invoice.md`, checked
+in `REVIEW-DESTINATION-GAUGE-AND-RANK.md`, uses the fresh invoice
+
+```
+J_rank=D+lambda+2(q-1-t)lambda'
+       +D m binom(L,s)q^(-ceil(L/2)).
+```
+
+Its free part is smaller by Theta(t) than the old free part, with
+absolute comparison constants for t>=2. Nevertheless its own proof
+gives `log2 J_rank>=sqrt(log2 m log2 log2 m)/4` for m>=2^16.
+Declaring the completed sufficient call invoice as
+`K sqrt(m) J_rank` and repeating the rounded normalization above
+therefore supplies the same local Psi premise, with different
+absolute constants. Theorem W1 still applies when the **separate
+positive polynomial normalized routing toll** is retained.
+
+This records a real local sharing improvement and a fresh analysis of
+its new invoice. It does not reject that improvement by appealing to
+a theorem about a call list that has been replaced.
+
+### After the prepared-basis walk and Gray refinement
+
+E003 A's `ROUTING-STATE-WALK-SHARING.md`, independently checked in
+`REVIEW-STATE-WALK-SHARING.md`, further changes both endpoint schedules.
+Writing B=2^(L-1), its round-trip reflected Gray order has exact free
+invoice, for t>=2,
+
+```
+F_gray=2D+4(B-1)+8(q-2)(lambda-B)/(t-1).
+```
+
+Thus `F_gray=Theta(D+(q/t)lambda)`. The prepared source and accumulated
+destination arrays are changed between states; reverse visits change
+bases without adding the same contribution again. This is a real
+order-L improvement over the earlier rank-weighted free bill when
+its nonconstant term dominates D. At q=2 all relevant subspaces are
+constant and the free invoice is exactly four.
+
+The smaller free invoice requires a new argument. For q>=4, every
+distinct source-state transition has subspace distance at least two,
+and all lambda source states must be visited. Boundary calls contribute
+at least D. The retained call list therefore dominates
+
+```
+J_walk=D+lambda+mD binom(L,s)q^(-ceil(L/2)).
+```
+
+The fresh proof gives `log2 J_walk>=sqrt(log2 m log2 log2 m)/2`
+for m>=2^16. At q=2 the D+lambda free subinvoice is unavailable;
+the charged term alone is at least m and supplies the same lower scale.
+This exception is not concealed by extrapolating the q>=4 transition
+formula.
+
+J_walk is a lower subinvoice, not automatically a sufficient call bill.
+For the actual normalization, retain the changed executor's sufficient
+positive bill, for example an absolute multiple of
+
+```
+J_actual=1+D+F_gray+mD binom(L,s)q^(-ceil(L/2)),
+```
+
+with F_gray replaced by four at q=2. The full canonical charged count
+is at most twice its displayed top term. Retained Newton stage and
+finite-repair factors are included in the completed bill
+`K sqrt(m) J_actual` as in the earlier instantiations. After enlarging
+K, the rounded width guard again gives normalized coefficient at least
+J_actual, hence the fresh Psi lower profile from J_walk (or the q=2
+charged term). Theorem W1 therefore applies **if the independent
+positive polynomial normalized routing toll is still retained**.
+
+This extension concerns the changed positive equality invoice. It
+does not prove that a smaller shared physical routing bill is impossible,
+and does not apply the obsolete D-lambda or rank-weighted lower count
+to the new walk.
+
 ## 4. A general necessary tradeoff
 
 The same proof applies to a local logarithmic loss

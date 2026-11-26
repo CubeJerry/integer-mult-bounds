@@ -1,0 +1,151 @@
+{
+  "status": "pass",
+  "python": "3.12.14",
+  "scope": "Exact finite complement, phase, Gram-rank and incidence checks; integer lower-bound guards, not tape timing or a complete multiplier.",
+  "proof_sha256": "c19dc584e19d6b54907dd386cb447a106923d9e931e2da5acb1f529172aee04e",
+  "verifier_sha256": "fc556c3cd12d921a406e51d525fc796d325523b5ec1f035140cdb02dc5029681",
+  "complement": {
+    "subspaces": 464,
+    "degenerate_subspaces": 216,
+    "basis_states": 13192,
+    "character_sum_entries": 401240,
+    "paired_phase_entries": 256,
+    "omitted_phase_differences": 96
+  },
+  "incidence": {
+    "cases": [
+      {
+        "t": 1,
+        "L": 2,
+        "labels": 4,
+        "D": 2,
+        "rectangles": 8,
+        "lambda": 2,
+        "mu": 2,
+        "old_free_calls": 8,
+        "new_free_calls": 6
+      },
+      {
+        "t": 1,
+        "L": 3,
+        "labels": 8,
+        "D": 2,
+        "rectangles": 32,
+        "lambda": 4,
+        "mu": 4,
+        "old_free_calls": 16,
+        "new_free_calls": 10
+      },
+      {
+        "t": 1,
+        "L": 4,
+        "labels": 16,
+        "D": 2,
+        "rectangles": 128,
+        "lambda": 8,
+        "mu": 8,
+        "old_free_calls": 32,
+        "new_free_calls": 18
+      },
+      {
+        "t": 1,
+        "L": 5,
+        "labels": 32,
+        "D": 2,
+        "rectangles": 512,
+        "lambda": 16,
+        "mu": 16,
+        "old_free_calls": 64,
+        "new_free_calls": 34
+      },
+      {
+        "t": 1,
+        "L": 6,
+        "labels": 64,
+        "D": 2,
+        "rectangles": 2048,
+        "lambda": 32,
+        "mu": 32,
+        "old_free_calls": 128,
+        "new_free_calls": 66
+      },
+      {
+        "t": 2,
+        "L": 2,
+        "labels": 16,
+        "D": 6,
+        "rectangles": 48,
+        "lambda": 4,
+        "mu": 6,
+        "old_free_calls": 48,
+        "new_free_calls": 26
+      },
+      {
+        "t": 2,
+        "L": 3,
+        "labels": 64,
+        "D": 8,
+        "rectangles": 504,
+        "lambda": 14,
+        "mu": 29,
+        "old_free_calls": 224,
+        "new_free_calls": 102
+      },
+      {
+        "t": 2,
+        "L": 4,
+        "labels": 256,
+        "D": 10,
+        "rectangles": 4992,
+        "lambda": 40,
+        "mu": 92,
+        "old_free_calls": 800,
+        "new_free_calls": 306
+      },
+      {
+        "t": 3,
+        "L": 2,
+        "labels": 64,
+        "D": 14,
+        "rectangles": 224,
+        "lambda": 6,
+        "mu": 14,
+        "old_free_calls": 168,
+        "new_free_calls": 70
+      },
+      {
+        "t": 3,
+        "L": 3,
+        "labels": 512,
+        "D": 20,
+        "rectangles": 5432,
+        "lambda": 36,
+        "mu": 156,
+        "old_free_calls": 1440,
+        "new_free_calls": 590
+      },
+      {
+        "t": 4,
+        "L": 2,
+        "labels": 256,
+        "D": 30,
+        "rectangles": 960,
+        "lambda": 8,
+        "mu": 30,
+        "old_free_calls": 480,
+        "new_free_calls": 162
+      }
+    ],
+    "rectangles": 14888,
+    "rank_checks": 29776,
+    "incidences": 69584
+  },
+  "inequalities": {
+    "derivative_guards": 6241,
+    "q_guards": 6241,
+    "rounded_logarithmic_bound_checks": 5922
+  },
+  "negative_controls": [
+    "omitting the shared auxiliary quadratic phase changes the paired map"
+  ]
+}

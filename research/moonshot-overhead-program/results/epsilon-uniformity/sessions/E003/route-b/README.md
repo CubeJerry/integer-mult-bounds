@@ -1,13 +1,16 @@
 # E003 Route B: two coupled nonstationary recursions
 
-Status: **proved analytic/conditional transfer and scoped invoice obstruction;
-physical composition awaiting independent admission**.
+Status: **independent same-scale construction admitted by the E003 lead;
+new scoped invoice and routing results have their separate reviews**.
+The original two-scale note keeps its physical premises separate for
+auditability. Their completed composition is recorded in
+`../lead/ADMISSION-TWO-SCALE.md` and its exact-file manifest.
 
 This route studies a different uniformization mechanism from stationary
 selection of one epsilon-dependent template. Interchange uses arity that is
 a small fixed power of its current width. Walsh uses a smaller arity whose
 logarithm has the order of the interchange's logarithmic overhead. Charging
-the genuine Walsh routing toll at every level gives the conditional envelope
+the genuine Walsh routing toll at every level gives the admitted envelope
 
 ```
 T(n) <= n sqrt(1+log2 n) 2^(O(Phi(log2(1+log2 n)))),
@@ -16,7 +19,7 @@ visited cells <= C n.
 ```
 
 The time claim is for one exact fixed finite-alphabet multitape machine,
-conditional on the explicitly stated source-executor interfaces. It includes
+under the explicitly stated and separately admitted source-executor interfaces. It includes
 setup, precision, record movement, cleanup, the full product and a common
 visited-space cap. It is not an endpoint or polynomial-log-log overhead.
 Remote E002 checkpoint `8af1911b`, learned during this session, has
@@ -46,6 +49,34 @@ supplier improvements; it makes no new programme-best or priority claim.
   controlled block permutations, short Fourier transforms, precision and
   final carries accept the new uniform envelope through their actual
   interfaces. Source file hashes and remaining hypotheses are explicit.
+* `WALSH-TOLL-INVOICE-BARRIER.md` proves a separate matching constraint
+  for arbitrary arity schedules that retain both a Psi local Walsh
+  call loss and a positive polynomial-arity routing toll at square-root
+  width. `REVIEW-BINARY-WALSH-INVOICE.md` checks the exact source supplier.
+* `STAR-SHARED-SUM-OBSTRUCTION.md` refines A's exposed star middle model:
+  arbitrary support-monotone linear DAGs need the stated number of
+  scalar additions on injective tuples. Their density is at least half
+  once the pair alphabet exceeds m(m+1). This is not a routing-time
+  lower bound.
+* `REVIEW-DESTINATION-GAUGE-AND-RANK.md` checks A's constructive sharing
+  of one destination Fourier transform across all free rectangles and
+  the lead's fresh rank-weighted invoice. The free Fourier-call part
+  saves Theta(log q), while the reviewed leading logarithmic scale
+  remains unchanged.
+* `WEYL-STAR-COMPARISON.md` compares remote E002's positive common-basis
+  batching with the exposed star family, including the stronger
+  two-sided-relative-product obstruction and its precise limits.
+* `STAR-SPECTRAL-TEST-SECTOR.md` calculates an exact invariant sector of
+  one signed star sum. Its quadratic factor is
+  `lambda^2-B lambda-(m+1)`; binary character signs give explicit
+  nonsquare discriminants. This excludes scalar diagonalization over
+  the retained Q(i) field in the stated cases, while leaving rational
+  blocks and other physical factorizations open.
+* `REVIEW-STATE-WALK-SHARING.md` passes A's source-compatible reuse of
+  both partial Fourier preparations and the lead's better Gray ordering.
+  It independently checks subspace transitions, fixed-array execution,
+  exact boundary and walk counts, and the fresh lower invoice required
+  after this further sharing improvement.
 
 ## Alternative preparation bridges
 
@@ -67,6 +98,8 @@ Run from this directory:
 ```
 python3 -B verify_two_scale.py
 python3 -B dyadic-review-replay/verify_dyadic_geometry.py
+python3 -B verify_star_shared_sums.py
+python3 -B verify_star_spectral_sector.py
 ```
 
 The checked-in JSON receipts state the actual finite cases, negative
@@ -80,13 +113,14 @@ prime theorem, or replaces the unbounded mathematical arguments.
 
 ## Open next questions
 
-1. Independently admit the composition of the explicit physical suppliers
-   with the two-scale transfer, including numerical Walsh operations and
-   the unchanged source outer reduction.
-2. Quantify and exploit actual sharing below the retained
-   `D(1+lambda)` endpoint invoice, or develop a different label geometry.
-   Further optimization of arity scheduling alone is excluded by the
-   scoped matching obstruction once that invoice is retained.
+1. Develop shared physical routing for a signed sum of star permutations,
+   or a priced rational block transform for that sum. The positive E002
+   common-basis batching applies to a different commuting family.
+2. Go beyond the current single prepared-basis walk or develop another
+   label geometry. Destination sharing and Gray-ordered two-endpoint
+   reuse improve the free call list, but each new retained invoice has
+   a separately proved Psi local obstruction. Arity scheduling alone
+   cannot remove the coupled Phi barrier while its toll premises remain.
 3. Determine whether a different physical Walsh coordinate-change
    implementation can reduce its local polynomial-arity routing bill.
    The present proof deliberately retains that bill.

@@ -54,9 +54,12 @@ See `CLAIMS.md` and the append-only session log for evidence and limits.
 The protected follow-on work now exposes a weighted star-transposition
 operator inside each individual free transfer. Its monomial-list and
 support-monotone arithmetic restrictions identify what a sharing mechanism
-must change. A destination-gauge factoring proposal is being checked as a
-concrete local improvement; its rank-weighted invoice has separate exact
-geometric counts and still retains the same leading logarithmic scale.
+must change. The destination-gauge factoring has passed independent
+physical and arithmetic review, reducing the free component by Theta(t)
+for q=2^t. Its changed invoice has a fresh lower-bound proof. A further
+schedule that keeps prepared bases while traversing rectangle states has
+passed independent review, including an explicit reflected-Gray traversal. These local
+savings retain the same leading logarithmic scale in the current model.
 The nonsymmetric extension of the finite gate classification has passed
 independent review and exhaustive small-field checks.
 
