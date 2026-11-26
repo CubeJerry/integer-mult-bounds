@@ -1,0 +1,20 @@
+S006 targeted kernel verification
+Lean 4.34.1 x86_64-unknown-linux-gnu, release commit 5045d0056413266e57c625dcd7c365b10e377c52
+Linux release archive SHA256 47bf4bbd78f70c2e9670598ab7124d92b6efb7330ff33e5fbb4030f6fd72e4e4
+Mathlib d13f23b723b8a846827a245b89c10fc7d3f11612
+OpenAI math 3344da59991ed94f9ba711217b29c1d760badfa6
+KernelColumn.lean Git blob 5e4a90e86fbe6b1e52d90480c4b4e3477284d3db
+KernelPass.lean Git blob 7fcb8ff3060b9059b6e89f087fde71482fce66ed
+RepairDyadic.lean Git blob fce64ca84b540828a09acd4834d03ca4b2190b29
+FrobeniusBundles.lean Git blob 8c74b91c64af541677daa5c1b5fd78deaa0aaa03
+Commands: bash formal/check.sh, repeat with S006_MATHLIB_DIR pointing to the pinned mathlib checkout
+Both original source modules were built from checked bytes. Both new modules compiled with -DwarningAsError=true.
+The singleton obstruction uses the source Plan, and a small attributed protected-denominator subring.
+The bundle theorem is general over additive automorphisms and partitions, including unequal parts.
+Console output:
+'Moonshot.WalshPlan.plan_entries_dyadic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.WalshPlan.actual_repair_gaps' depends on axioms: [propext]
+'Moonshot.WalshPlan.gap_has_factor_73' does not depend on any axioms
+'Moonshot.WalshPlan.native_plan_excludes_singleton_repair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.FrobeniusBundles.finest_stable_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.FrobeniusBundles.one_bundle_of_top' depends on axioms: [propext, Classical.choice, Quot.sound]

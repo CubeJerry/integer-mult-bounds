@@ -1,5 +1,6 @@
 import OAI.Computability.NearSquareRoot.KernelPass
-import OAI.LinearAlgebra.FiniteFourier.ProtectedRationals
+import Mathlib.Algebra.Ring.Subring.Basic
+import Mathlib.Data.Rat.Lemmas
 
 /-!
 The published binary-plan syntax operates over Z[1/2]. The rational Newton
@@ -13,7 +14,30 @@ Source pin: openai/math 3344da59991ed94f9ba711217b29c1d760badfa6.
 namespace Moonshot.WalshPlan
 
 open OAI.Computability.NearSquareRoot.KernelPass
-open OAI.LinearAlgebra.FiniteFourier
+/-- OpenAI's ProtectedRationals module defines the same closure. The small
+imports above avoid compiling its separate maximal-ideal theory. -/
+def dyadicRationals : Subring ℚ := Subring.closure {(2 : ℚ)⁻¹}
+
+/-- The singleton-73 specialization of OpenAI's protectedRationals carrier
+and closure proof (same source pin as KernelPass). -/
+private def prime73Ring : Subring ℚ where
+  carrier := {q | Nat.Coprime 73 q.den}
+  zero_mem' := by decide
+  one_mem' := by decide
+  neg_mem' {a} ha := by
+    change Nat.Coprime 73 (-a).den
+    simpa using ha
+  add_mem' {a b} ha hb :=
+    (ha.mul_right hb).coprime_dvd_right (Rat.add_den_dvd a b)
+  mul_mem' {a b} ha hb :=
+    (ha.mul_right hb).coprime_dvd_right (Rat.mul_den_dvd a b)
+
+private theorem dyadicRationals_le_prime73Ring : dyadicRationals ≤ prime73Ring := by
+  apply Subring.closure_le.mpr
+  apply Set.singleton_subset_iff.mpr
+  change Nat.Coprime 73 (((2 : ℚ)⁻¹).den)
+  rw [Rat.inv_ofNat_den]
+  decide
 
 private theorem halfInverse_mem : (2 : ℚ)⁻¹ ∈ dyadicRationals := by
   apply Subring.subset_closure
@@ -126,14 +150,12 @@ theorem gap_has_factor_73 : (73 : ℤ) ∣ singletonGap :=
 
 theorem singleton_inverse_not_dyadic : ((singletonGap : ℚ)⁻¹) ∉ dyadicRationals := by
   intro h
-  have restrict : dyadicRationals ≤ protectedRationals ({73} : Finset ℕ) := by
-    apply dyadicRationals_le_protectedRationals
-    intro p hp
-    have heq : p = 73 := Finset.mem_singleton.mp hp
-    subst p
-    exact ⟨36, by decide⟩
-  have bad : ¬ Nat.Coprime 73 (((singletonGap : ℚ)⁻¹).den) := by decide
-  exact bad (mem_protectedRationals.mp (restrict h) 73 (by simp))
+  have allowed : Nat.Coprime 73 (((singletonGap : ℚ)⁻¹).den) :=
+    dyadicRationals_le_prime73Ring h
+  have denied : ¬ Nat.Coprime 73 (((singletonGap : ℚ)⁻¹).den) := by
+    rw [Rat.den_inv, Rat.num_intCast]
+    decide
+  exact denied allowed
 
 /-- Neither signed coefficient of the isolated singleton repair can occur
 as an entry of a native plan acting on arbitrary independent check rows. -/
