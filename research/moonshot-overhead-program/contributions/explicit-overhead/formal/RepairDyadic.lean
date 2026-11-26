@@ -1,12 +1,17 @@
 import OAI.Computability.NearSquareRoot.KernelPass
 import Mathlib.Algebra.Ring.Subring.Basic
 import Mathlib.Data.Rat.Lemmas
+import Mathlib.Data.Nat.Choose.Sum
+import Mathlib.Tactic.Ring
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.NormNum
 
 /-!
 The published binary-plan syntax operates over Z[1/2]. The rational Newton
 repair used by the adaptive Walsh construction has a one-seed active block
 whose division by its true nonzero gap has 73 in its reduced denominator.
-Both the plan invariant and the actual six-bit singleton are checked here.
+The file also checks the two-term Newton tail at arbitrary odd degree and
+its consequence for a full active check matrix on independent coordinates.
 
 Source pin: openai/math 3344da59991ed94f9ba711217b29c1d760badfa6.
 -/
@@ -18,26 +23,26 @@ open OAI.Computability.NearSquareRoot.KernelPass
 imports above avoid compiling its separate maximal-ideal theory. -/
 def dyadicRationals : Subring ℚ := Subring.closure {(2 : ℚ)⁻¹}
 
-/-- The singleton-73 specialization of OpenAI's protectedRationals carrier
-and closure proof (same source pin as KernelPass). -/
-private def prime73Ring : Subring ℚ where
-  carrier := {q | Nat.Coprime 73 q.den}
-  zero_mem' := by decide
-  one_mem' := by decide
+/-- The one-denominator specialization of OpenAI's protectedRationals. -/
+private def protectedDenominator (p : ℕ) : Subring ℚ where
+  carrier := {q | p.Coprime q.den}
+  zero_mem' := by change p.Coprime 1; simp
+  one_mem' := by change p.Coprime 1; simp
   neg_mem' {a} ha := by
-    change Nat.Coprime 73 (-a).den
+    change p.Coprime (-a).den
     simpa using ha
   add_mem' {a b} ha hb :=
     (ha.mul_right hb).coprime_dvd_right (Rat.add_den_dvd a b)
   mul_mem' {a b} ha hb :=
     (ha.mul_right hb).coprime_dvd_right (Rat.mul_den_dvd a b)
 
-private theorem dyadicRationals_le_prime73Ring : dyadicRationals ≤ prime73Ring := by
+private theorem dyadic_protected {p : ℕ} (odd : Odd p) :
+    dyadicRationals ≤ protectedDenominator p := by
   apply Subring.closure_le.mpr
   apply Set.singleton_subset_iff.mpr
-  change Nat.Coprime 73 (((2 : ℚ)⁻¹).den)
+  change p.Coprime (((2 : ℚ)⁻¹).den)
   rw [Rat.inv_ofNat_den]
-  decide
+  exact Nat.coprime_two_right.mpr odd
 
 private theorem halfInverse_mem : (2 : ℚ)⁻¹ ∈ dyadicRationals := by
   apply Subring.subset_closure
@@ -151,7 +156,7 @@ theorem gap_has_factor_73 : (73 : ℤ) ∣ singletonGap :=
 theorem singleton_inverse_not_dyadic : ((singletonGap : ℚ)⁻¹) ∉ dyadicRationals := by
   intro h
   have allowed : Nat.Coprime 73 (((singletonGap : ℚ)⁻¹).den) :=
-    dyadicRationals_le_prime73Ring h
+    dyadic_protected (p := 73) (by decide) h
   have denied : ¬ Nat.Coprime 73 (((singletonGap : ℚ)⁻¹).den) := by
     rw [Rat.den_inv, Rat.num_intCast]
     decide
@@ -171,6 +176,101 @@ theorem native_plan_excludes_singleton_repair {A i o : ℕ} (p : Plan A i o) (h 
     apply singleton_inverse_not_dyadic
     simpa only [he, neg_neg] using dyadicRationals.neg_mem entry
 
+/-- At count d+2 above the starting offset, exactly the last two binomial
+terms are omitted by a degree-d Newton predictor. The seed sign can be
+applied after this unsigned discrepancy. -/
+def twoTermGap (d : ℕ) : ℚ :=
+  (∑ h ∈ Finset.range (d+1), (-2 : ℚ)^h * ((d+2).choose h : ℚ)) - (-1 : ℚ)^(d+2)
+
+theorem twoTermGap_eq (d : ℕ) :
+    twoTermGap d = -((-2 : ℚ)^(d+1) * d) := by
+  let term (h : ℕ) : ℚ := (-2 : ℚ)^h * ((d+2).choose h : ℚ)
+  have total : (∑ h ∈ Finset.range ((d+2)+1), term h) = (-1 : ℚ)^(d+2) := by
+    simpa only [term, one_pow, mul_one, show (-2 : ℚ)+1 = -1 by norm_num] using
+      (add_pow (-2 : ℚ) 1 (d+2)).symm
+  have expand : (∑ h ∈ Finset.range ((d+2)+1), term h) =
+      (∑ h ∈ Finset.range (d+1), term h) + term (d+1) + term (d+2) :=
+    (Finset.sum_range_succ term (d+2)).trans
+      (congrArg (fun z => z + term (d+2)) (Finset.sum_range_succ term (d+1)))
+  have penultimate : term (d+1) = (-2 : ℚ)^(d+1) * ((d : ℚ)+2) := by
+    dsimp only [term]
+    rw [show (d+2).choose (d+1) = d+2 from Nat.choose_succ_self_right (d+1)]
+    push_cast
+    ring
+  have last : term (d+2) = (-2 : ℚ)^(d+1) * (-2) := by
+    simpa only [term, Nat.choose_self, Nat.cast_one, mul_one] using
+      (pow_succ (-2 : ℚ) (d+1))
+  change (∑ h ∈ Finset.range (d+1), term h) - (-1 : ℚ)^(d+2) = _
+  rw [← total, expand, penultimate, last]
+  ring
+
+private theorem oddInverse_not_mem (d : ℕ) (odd : Odd d) (large : 1 < d) :
+    (d : ℚ)⁻¹ ∉ dyadicRationals := by
+  intro h
+  have self : d.Coprime (((d : ℚ)⁻¹).den) := dyadic_protected odd h
+  rw [Rat.inv_natCast_den_of_pos (by omega : 0 < d)] at self
+  have heq : d = 1 := by simpa [Nat.Coprime] using self
+  omega
+
+theorem twoTermGap_inverse_not_dyadic (d : ℕ) (odd : Odd d) (large : 1 < d) :
+    (twoTermGap d)⁻¹ ∉ dyadicRationals := by
+  intro h
+  have base : (-2 : ℚ) ∈ dyadicRationals :=
+    dyadicRationals.neg_mem (natCast_mem dyadicRationals 2)
+  have factor := dyadicRationals.neg_mem (dyadicRationals.pow_mem base (d+1))
+  have scaled := dyadicRationals.mul_mem factor h
+  have hd : (d : ℚ) ≠ 0 := by exact_mod_cast (by omega : d ≠ 0)
+  have hp : (-2 : ℚ)^(d+1) ≠ 0 := pow_ne_zero _ (by norm_num)
+  have cancel : -((-2 : ℚ)^(d+1)) * (-((-2 : ℚ)^(d+1)*(d:ℚ)))⁻¹ = (d:ℚ)⁻¹ := by
+    field_simp [hd, hp]
+  rw [twoTermGap_eq, cancel] at scaled
+  exact oddInverse_not_mem d odd large scaled
+
+/-- Powers of actual nodes i/2^r form the active Vandermonde check matrix. -/
+def checkMatrix {n : ℕ} (width : ℕ) (label : Fin n → ℕ) : Matrix (Fin n) (Fin n) ℚ :=
+  fun i j => ((label j : ℚ) / (2 : ℚ)^width)^i.val
+
+private theorem checkMatrix_mem {n : ℕ} (width : ℕ) (label : Fin n → ℕ) (i j : Fin n) :
+    checkMatrix width label i j ∈ dyadicRationals := by
+  unfold checkMatrix
+  apply dyadicRationals.pow_mem
+  rw [div_eq_mul_inv, ← inv_pow]
+  exact dyadicRationals.mul_mem (natCast_mem _ _) (dyadicRationals.pow_mem halfInverse_mem width)
+
+private theorem matrixMul_mem {n : ℕ} {P Q : Matrix (Fin n) (Fin n) ℚ}
+    (hp : ∀ i j, P i j ∈ dyadicRationals) (hq : ∀ i j, Q i j ∈ dyadicRationals) :
+    ∀ i j, (P*Q) i j ∈ dyadicRationals := by
+  intro i j
+  rw [Matrix.mul_apply]
+  exact dyadicRationals.sum_mem (fun a _ => dyadicRationals.mul_mem (hp i a) (hq a j))
+
+/-- Multiplying both sides by the original dyadic check matrix exposes
+the reciprocal of the true discrepancy. Other defective seeds cannot make
+the entire isolated check-to-lift table dyadic by cancellation. The equality
+hypothesis is precisely the selected diagonal entry of Vᵀ T V=diag(1/g).
+The two alternatives retain the seed sign. -/
+theorem checkBlock_has_nondyadic_entry {n : ℕ} (width d : ℕ) (label : Fin n → ℕ)
+    (odd : Odd d) (large : 1 < d) (T : Matrix (Fin n) (Fin n) ℚ) (seed : Fin n)
+    (hgap :
+      let V := checkMatrix width label
+      (V.transpose * T * V) seed seed = (twoTermGap d)⁻¹ ∨
+        (V.transpose * T * V) seed seed = -((twoTermGap d)⁻¹)) :
+    ∃ i j, T i j ∉ dyadicRationals := by
+  classical
+  by_contra! hT
+  let V := checkMatrix width label
+  have hv : ∀ i j, V i j ∈ dyadicRationals := checkMatrix_mem width label
+  have hvt : ∀ i j, V.transpose i j ∈ dyadicRationals := fun i j => hv j i
+  have hm : (V.transpose * T * V) seed seed ∈ dyadicRationals :=
+    matrixMul_mem (matrixMul_mem hvt hT) hv seed seed
+  have hn := twoTermGap_inverse_not_dyadic d odd large
+  rcases hgap with he | he
+  · exact hn (he ▸ hm)
+  · have hneg := dyadicRationals.neg_mem (he ▸ hm)
+    exact hn (by simpa only [neg_neg] using hneg)
+
+#print axioms twoTermGap_eq
+#print axioms checkBlock_has_nondyadic_entry
 #print axioms plan_entries_dyadic
 #print axioms actual_repair_gaps
 #print axioms gap_has_factor_73

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-26T04:13:41.636Z",
+  "as_of": "2026-11-26T04:20:23.011Z",
   "runtime": "code-mode V8, exact integer operations; these source bytes can also be run using Node.js",
   "modular": {
     "scalarCases": 112,
@@ -751,5 +751,219 @@
       "quartetRoundTrips": 33280,
       "badStabilizerRejected": true
     }
-  ]
+  ],
+  "actual_three_divisible_author": [
+    "b=3 dim(V)=3 quotient=1 orbits=1 canonical_bits=24 ratio=3",
+    "  2 forward/inverse four-point records; recovered all 8 binary-polynomial evaluations",
+    "  3 consecutive layers in both directions on 1 tested cosets; every intermediate polynomial checked on all of its roots",
+    "b=6 dim(V)=5 quotient=2 orbits=2 canonical_bits=384 ratio=6",
+    "  16 forward/inverse four-point records; recovered all 64 binary-polynomial evaluations",
+    "  5 consecutive layers in both directions on 2 tested cosets; every intermediate polynomial checked on all of its roots",
+    "b=9 dim(V)=7 quotient=4 orbits=2 canonical_bits=2304 ratio=4.5",
+    "  64 forward/inverse four-point records; recovered all 512 binary-polynomial evaluations",
+    "  7 consecutive layers in both directions on 2 tested cosets; every intermediate polynomial checked on all of its roots",
+    "b=12 dim(V)=9 quotient=8 orbits=4 canonical_bits=24576 ratio=6",
+    "  5 consecutive layers in both directions on 4 tested cosets; every intermediate polynomial checked on all of its roots",
+    "b=15 dim(V)=11 quotient=16 orbits=4 canonical_bits=122880 ratio=3.75",
+    "  5 consecutive layers in both directions on 4 tested cosets; every intermediate polynomial checked on all of its roots",
+    "b=18 dim(V)=13 quotient=32 orbits=8 canonical_bits=1179648 ratio=4.5",
+    "  5 consecutive layers in both directions on 4 tested cosets; every intermediate polynomial checked on all of its roots",
+    "b=27 dim(V)=19 quotient=256 orbits=30 canonical_bits=424673280 ratio=3.16406",
+    "  5 consecutive layers in both directions on 4 tested cosets; every intermediate polynomial checked on all of its roots",
+    "67763 exact root-rounding checks across all three padding amounts"
+  ],
+  "actual_three_divisible_independent": [
+    {
+      "degree": 3,
+      "modulus": 11,
+      "eta": 6,
+      "bundleDimension": 3,
+      "quotientFixed": [
+        1
+      ],
+      "representatives": 1,
+      "offsetBundles": 0,
+      "pieces": 1,
+      "sliceDimension": 3,
+      "inputs": 20,
+      "chains": 80,
+      "comparisons": 480,
+      "expandedPoints": 8,
+      "untwistedRejected": 0,
+      "rejected": {
+        "unit": true,
+        "offset": true,
+        "order": true,
+        "unconvertedNormalization": true
+      }
+    },
+    {
+      "degree": 6,
+      "modulus": 67,
+      "eta": 8,
+      "bundleDimension": 5,
+      "quotientFixed": [
+        2,
+        2
+      ],
+      "representatives": 2,
+      "offsetBundles": 1,
+      "pieces": 2,
+      "sliceDimension": 5,
+      "inputs": 76,
+      "chains": 608,
+      "comparisons": 6080,
+      "expandedPoints": 64,
+      "untwistedRejected": 1,
+      "rejected": {
+        "unit": true,
+        "offset": true,
+        "order": true,
+        "unconvertedNormalization": true
+      }
+    },
+    {
+      "degree": 9,
+      "modulus": 515,
+      "eta": 110,
+      "bundleDimension": 7,
+      "quotientFixed": [
+        4,
+        1,
+        1
+      ],
+      "representatives": 2,
+      "offsetBundles": 0,
+      "pieces": 2,
+      "sliceDimension": 7,
+      "inputs": 524,
+      "chains": 4192,
+      "comparisons": 58688,
+      "expandedPoints": 512,
+      "untwistedRejected": 0,
+      "rejected": {
+        "unit": true,
+        "offset": true,
+        "order": true,
+        "unconvertedNormalization": true
+      }
+    },
+    {
+      "degree": 12,
+      "modulus": 4105,
+      "eta": 404,
+      "bundleDimension": 9,
+      "quotientFixed": [
+        8,
+        2,
+        4,
+        2
+      ],
+      "representatives": 4,
+      "offsetBundles": 2,
+      "pieces": 3,
+      "sliceDimension": 6,
+      "inputs": 12,
+      "chains": 144,
+      "comparisons": 1728,
+      "expandedPoints": 0,
+      "untwistedRejected": 2,
+      "rejected": {
+        "unit": true,
+        "offset": true,
+        "order": true,
+        "unconvertedNormalization": true
+      }
+    },
+    {
+      "degree": 15,
+      "modulus": 32771,
+      "eta": 6504,
+      "bundleDimension": 11,
+      "quotientFixed": [
+        16,
+        1,
+        1,
+        1,
+        1
+      ],
+      "representatives": 4,
+      "offsetBundles": 0,
+      "pieces": 3,
+      "sliceDimension": 6,
+      "inputs": 12,
+      "chains": 144,
+      "comparisons": 1728,
+      "expandedPoints": 0,
+      "untwistedRejected": 0,
+      "rejected": {
+        "unit": true,
+        "offset": true,
+        "order": true,
+        "unconvertedNormalization": true
+      }
+    },
+    {
+      "degree": 18,
+      "modulus": 262153,
+      "eta": 223536,
+      "bundleDimension": 13,
+      "quotientFixed": [
+        32,
+        2,
+        2,
+        8,
+        2,
+        2
+      ],
+      "representatives": 8,
+      "offsetBundles": 2,
+      "pieces": 3,
+      "sliceDimension": 6,
+      "inputs": 12,
+      "chains": 144,
+      "comparisons": 1728,
+      "expandedPoints": 0,
+      "untwistedRejected": 2,
+      "rejected": {
+        "unit": true,
+        "offset": true,
+        "order": true,
+        "unconvertedNormalization": true
+      }
+    },
+    {
+      "degree": 27,
+      "modulus": 134217767,
+      "eta": 61593919,
+      "bundleDimension": 19,
+      "quotientFixed": [
+        256,
+        1,
+        1,
+        4,
+        1,
+        1,
+        4,
+        1,
+        1
+      ],
+      "representatives": 30,
+      "offsetBundles": 0,
+      "pieces": 3,
+      "sliceDimension": 6,
+      "inputs": 12,
+      "chains": 144,
+      "comparisons": 1728,
+      "expandedPoints": 0,
+      "untwistedRejected": 0,
+      "rejected": {
+        "unit": true,
+        "offset": true,
+        "order": true,
+        "unconvertedNormalization": true
+      }
+    }
+  ],
+  "selected_physical_local_runtime": "Lead repeated the bundle, scalar-head and later adjacent-layer checks using Node.js/Python and a clean, pinned Lean verification run."
 }

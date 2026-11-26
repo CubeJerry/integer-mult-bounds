@@ -29,6 +29,80 @@ def kernel(images):
     return answer
 
 
+def polynomial_field(b):
+    """Small ordinary polynomial-basis oracle, including reverse division."""
+    def convolution(a, v):
+        out = 0
+        while v:
+            if v & 1:
+                out ^= a
+            a <<= 1
+            v >>= 1
+        return out
+
+    def remainder(a, v):
+        while a.bit_length() >= v.bit_length():
+            a ^= v << (a.bit_length() - v.bit_length())
+        return a
+
+    def polynomial_gcd(a, v):
+        while v:
+            a, v = v, remainder(a, v)
+        return a
+
+    def irreducible(f):
+        x = 2
+        for i in range(1, b + 1):
+            x = remainder(convolution(x, x), f)
+            if 2*i <= b and polynomial_gcd(x ^ 2, f) != 1:
+                return False
+        return x == 2
+
+    f = next(p for p in range((1 << b) + 1, 1 << (b + 1), 2) if irreducible(p))
+    mask = (1 << b) - 1
+
+    def reverse(x, length):
+        out = 0
+        for _ in range(length):
+            out, x = 2*out + (x & 1), x >> 1
+        return out
+
+    rev = reverse(f, b + 1)
+    reciprocal = 1
+    for j in range(1, b):
+        reciprocal |= ((convolution(reciprocal, rev) >> j) & 1) << j
+    assert convolution(reciprocal, rev) & mask == 1
+
+    def multiply(x, y):
+        return remainder(convolution(x, y), f)
+
+    def square(x):
+        return multiply(x, x)
+
+    def frobenius(x, count):
+        for _ in range(count):
+            x = square(x)
+        return x
+
+    def inverse(x):
+        assert x
+        y = 1
+        for bit in bin((1 << b) - 2)[2:]:
+            y = square(y)
+            if bit == "1":
+                y = multiply(y, x)
+        assert multiply(x, y) == 1
+        return y
+
+    rng = Random(b + 1701)
+    for _ in range(250):
+        x, y = rng.getrandbits(b), rng.getrandbits(b)
+        prod = convolution(x, y)
+        k = reverse(convolution(reverse(prod, 2*b), reciprocal) & mask, b)
+        assert prod ^ convolution(k, f) == multiply(x, y)
+    return 1, multiply, square, frobenius, inverse
+
+
 def column_orbits(width):
     """Compressed real cyclotomic basis r1,...,r_(b-1),1."""
     b = width
@@ -108,12 +182,13 @@ def check_neighboring_stages(b, one, mul, square, inv, basis, reps, values):
             acc = mul(acc, x ^ root)
         return acc
 
-    tables = [[subspace_value(x, j) for x in range(1 << b)] for j in range(dimension)]
+    needed = {alpha ^ point for alpha in reps for point in directions} | set(basis)
+    tables = [{x: subspace_value(x, j) for x in needed} for j in range(dimension)]
     deltas = [tables[j][basis[j]] for j in range(dimension)]
     reciprocals = [inv(delta) for delta in deltas]
     for j in range(dimension - 1):
         assert all(tables[j+1][x] == square(tables[j][x]) ^ mul(deltas[j], tables[j][x])
-                   for x in range(1 << b))
+                   for x in needed)
 
     def verify_stream(stream, alpha, level):
         width = 1 << level
@@ -164,40 +239,78 @@ def check_neighboring_stages(b, one, mul, square, inv, basis, reps, values):
             run = layer(run, alpha, j, False)
             assert run == levels[j]
         assert run == leaves
-    print(f"  {dimension} consecutive layers in both directions on {len(reps)} bundles; "
+    print(f"  {dimension} consecutive layers in both directions on {len(reps)} tested cosets; "
           "every intermediate polynomial checked on all of its roots")
 
 
 def check_degree(b):
     c = b // 3
-    one, mul, sq, frob, inv = column_orbits(b)
+    one, mul, sq, frob, inv = column_orbits(b) if b in (3, 9, 27) else polynomial_field(b)
     rel = lambda x: x ^ frob(x, c) ^ frob(x, 2 * c)
-
-    def subfield_and_trace(x):
-        total, point = 0, x
-        for _ in range(c):
-            total ^= point
-            point = sq(point)
-        return (total << b) ^ (point ^ x)
-
-    ker = kernel([rel(1 << i) for i in range(b)])
-    complement = kernel([subfield_and_trace(1 << i) for i in range(b)])
-    assert len(ker) == 2 * c and len(complement) == c - 1
+    q = 1 << b
+    rng = Random(20261126 + b)
+    for _ in range(1000):
+        theta = rng.randrange(q)
+        normal = [frob(theta, i) for i in range(b)]
+        if not kernel(normal):
+            break
+    else:
+        raise AssertionError("finite normal-element search failed")
+    ker = [normal[i] ^ normal[i+c] for i in range(2*c)]
     eta = ker[0]
-    assert eta != one and frob(eta, b) == eta and frob(eta, c) != eta
+    assert not kernel([one] + ker) and all(rel(x) == 0 for x in ker)
+    assert len(kernel([rel(1 << i) for i in range(b)])) == 2*c
+    assert frob(eta, b) == eta and all(frob(eta, i) != eta for i in range(1, b))
     assert b - len(kernel([frob(eta, i) for i in range(b)])) == 2 * c
-    quotient = sorted(span(complement))
-    reps = [x for x in quotient if x == min(frob(x, i) for i in range(c))]
-    expected = sum(1 << (gcd(i, c) - 1) for i in range(c)) // c
-    assert len(reps) == expected
+    h_basis = [normal[i] ^ normal[i+c] ^ normal[i+2*c] for i in range(c)]
+    h_words = span(h_basis)
+    h_mask = (1 << c) - 1
+    assert h_words[-1] == one and all(frob(x, c) == x for x in h_words)
+    quotient = range(0, 1 << c, 2)
+
+    def qshift(x):
+        shifted = ((x << 1) & h_mask) | (x >> (c-1))
+        return shifted ^ (h_mask if shifted & 1 else 0)
+
+    orbits = {}
+    for start in quotient:
+        o, current = [], start
+        for _ in range(c):
+            following = qshift(current)
+            assert h_words[following] ^ sq(h_words[current]) in (0, one)
+            o.append(current)
+            current = following
+        assert current == start
+        orbits[start] = o
+    fixes = [sum(o[i] == x for x, o in orbits.items()) for i in range(c)]
+    for i, count in enumerate(fixes):
+        g = gcd(i, c)
+        assert count == (1 << (g-1)) * (1 + int((c//g) % 2 == 0))
+    reps = [h_words[x] for x in quotient if x == min(orbits[x])]
+    expected = sum(fixes) // c
+    assert len(reps) == expected and expected * c == sum(fixes)
     slots = (1 << (2 * c + 1)) * expected
     print(f"b={b} dim(V)={2*c + 1} quotient={len(quotient)} orbits={expected} "
           f"canonical_bits={b * slots} ratio={b * slots / (1 << b):g}")
     if b > 9:
+        # Check the actual lower five levels in representative subcosets,
+        # also outside the first subcoset if higher directions are present.
+        basis = [one] + ker
+        depth = min(5, len(basis))
+        seeds = reps[:2]
+        if len(basis) > depth:
+            seeds += [s ^ basis[depth] for s in seeds]
+        coefficients = [rng.randrange(2) for _ in range(2 << depth)]
+        points = {s ^ v for s in seeds for v in span(basis[:depth])}
+        values = {}
+        for z in points:
+            y = 0
+            for a in reversed(coefficients):
+                y = mul(z, y) ^ (one if a else 0)
+            values[z] = y
+        check_neighboring_stages(b, one, mul, sq, inv, basis[:depth], seeds, values)
         return
 
-    q = 1 << b
-    rng = Random(20261126 + b)
     coeffs = [rng.randrange(2) for _ in range(q)]
     values = []
     for z in range(q):
@@ -263,6 +376,28 @@ def check_degree(b):
     check_neighboring_stages(b, one, mul, sq, inv, [one] + ker, reps, values)
 
 
+def check_root_rounding():
+    sizes = set(range(256, 65537))
+    for k in range(9, 513):
+        sizes.update((1 << k) + offset for offset in (-2, -1, 0, 1, 2))
+    saw_padding = set()
+    for n in sizes:
+        digit_width = (n + 1).bit_length()
+        digits = (n + digit_width - 1) // digit_width
+        original = (2*digits - 1).bit_length()
+        extension = 3*((original + 2)//3)
+        height_floor = 2*digit_width + digits.bit_length() + 2
+        height = 1 << (height_floor - 1).bit_length()
+        q = 1 << extension
+        saw_padding.add(extension-original)
+        assert extension % 3 == 0 and 2*digits <= q < 16*digits
+        assert extension <= height <= 8*extension and 4*n <= q*height < 256*n
+        assert (2*digits-2) < q and digits*((1 << digit_width)-1)**2 < 1 << height
+    assert saw_padding == {0, 1, 2}
+    print(f"{len(sizes)} exact root-rounding checks across all three padding amounts")
+
+
 if __name__ == "__main__":
-    for degree in (3, 9, 27):
+    for degree in (3, 6, 9, 12, 15, 18, 27):
         check_degree(degree)
+    check_root_rounding()
