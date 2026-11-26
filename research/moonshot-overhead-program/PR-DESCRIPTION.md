@@ -3,11 +3,11 @@
 ## Result
 
 One deterministic finite-alphabet multitape machine computes the full $2n$-bit product for every input length in
-\[
+$$
  O\!\left(n\sqrt L\,2^{O((x^2\log_2(x+2))^{1/3})}\right)
  \quad\text{steps and } O(n)\text{ cells ever visited},
  \qquad L=1+\log_2 n,\quad x=\log_2 L.
-\]
+$$
 This is the programme's retained unconditional written result. The published tape theorem gives a vanishing logarithmic excess. The contribution exposes an explicit rate, parameters and tape costs in one [direct-space proof](contributions/explicit-overhead/README.md). E002 and E003 give independent same-order constructions. The exact square-root upper bound, polynomial overhead in $x$, and literature priority remain open.
 
 ## Changes available for review
