@@ -212,3 +212,10 @@ S004 lead read Gashkov--Sergeev2012 Lemma16 and convolution application at pp144
 ## E003 final-science checkpoint — 2026-11-26T00:51:12.839544+00:00
 
 E003 records complete reading of the primary tape interchange, permutations, Walsh, integers and uniformity files, Fourier kernel, binary and repair files, and September elementary streams at the pinned OpenAI commit. The wider archive and literature/priority audit remain partial. Concurrent S004 span-weighted preconditioning and E002 occupied-parameter contraction results were read after reconciliation; their provenance is retained.
+
+
+### S004 final-wave evidence (2026-11-26)
+
+S004 lead fully read E003 ROUTING-STATE-WALK-SHARING.md atbaeb200f5, including Gray walk and binary exception. Overlap retains E003 credit. B read indexed primary Cooley–Tukey p297; lead read the self-contained FFT proof, not the complete primary article. No exhaustive novelty audit.
+
+S004 final provenance addition: Route B actually read Filmus, Smolensky's Lower Bound, Section5/Theorem5.2/Corollary5.3 at https://yuvalfilmus.cs.technion.ac.il/Manuscripts/Smolensky.pdf. The scalar complement/binomial-tail method retains that prior-art pointer; this does not expand the lead's claimed primary-paper read scope.

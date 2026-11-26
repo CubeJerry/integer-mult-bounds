@@ -120,3 +120,8 @@ S003 closes with AQ admitted and a pivot away from separately billed queries, sc
 ### S004 fifth checkpoint — 2026-11-26T00:45:05Z
 
 S004 fifth-wave positive execution and repair results are in sessions/2026-11-26-S004/lead/FIFTH-WAVE-ADMISSION.md. Final work audits the numerical supplier and direct physical swap-query model.
+
+
+### S004 final-wave evidence (2026-11-26)
+
+S004 final mathematical work: A shared Fourier graphs and canonical leaf geometry; B exact correction interfaces and certified slower FFT supplier; C actual-swap rank bridge and independent numerical/physical audits. FINAL-REPORT.md collects bounds, scope and attribution.

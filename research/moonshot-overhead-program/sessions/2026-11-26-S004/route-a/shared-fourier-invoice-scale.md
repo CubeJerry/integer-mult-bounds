@@ -1,7 +1,9 @@
 # The remaining one-axis incidence toll after endpoint sharing
 
-Status: **proved arithmetic/rank consequence of the new explicit invoice;
-independent review requested**. This rederives the scale after the source
+Status: **independently reviewed arithmetic/rank consequence of the new
+explicit invoice**. The lead and Route C accepted SI1–SI7; see
+`route-c-work/REVIEW-SHARED-FOURIER-INVOICE-SCALE.md`.
+This rederives the scale after the source
 and destination execution changes. It does not import the earlier
 unshared-invoice barrier as a lower bound for a changed mechanism.
 
@@ -109,6 +111,14 @@ the rectangle geometry. JR and the weaker parity-weighted Fourier gate
 remain useful sufficient targets. This is a falsifiable interface for
 future work, not a claim that other algorithms must pay lambda.
 
+Concurrent E003's independently reviewed `ROUTING-STATE-WALK-SHARING.md`
+also proves the same logarithmic order for its changed state-walk invoice
+through D+lambda and its retained canonical charged term. It was read after
+this SI derivation. The present statement explicitly allows the optimal
+rational rank and addresses the S004 copying/accumulation invoice; no
+priority claim is made for the common order or three-inequality argument.
+
 Credits: the exact top-degree rank calculation; S004's changed graphs;
+concurrent E003's state-walk invoice calculation;
 independent lead observation that D+lambda and charged rank already suffice;
 Route C review insights; @CubeJerry; substantial ChatGPT assistance.

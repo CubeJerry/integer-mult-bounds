@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "arithmetic": "actual permutations and exact F2,F3,F5 ranks",
+  "counts": {
+    "nonsemisimple_regular_cycle_rank_identities": 12,
+    "actual_swap_boundary_column_checks": 1461,
+    "physical_identity_exact_baselines": 14,
+    "actual_multiplicity_mixture_identities": 7,
+    "f2_inverse_and_mixed_stratum_port_controls": 4,
+    "exact_binomial_atom_bounds": 1000
+  },
+  "profiles": [
+    {
+      "q": [
+        2
+      ],
+      "D": 4,
+      "fixed": 2,
+      "eta1": "1/2"
+    },
+    {
+      "q": [
+        3
+      ],
+      "D": 9,
+      "fixed": 3,
+      "eta1": "2/3"
+    },
+    {
+      "q": [
+        2,
+        2
+      ],
+      "D": 16,
+      "fixed": 4,
+      "eta1": "3/4"
+    },
+    {
+      "q": [
+        2,
+        3
+      ],
+      "D": 36,
+      "fixed": 6,
+      "eta1": "5/6"
+    },
+    {
+      "q": [
+        4,
+        2
+      ],
+      "D": 64,
+      "fixed": 8,
+      "eta1": "7/8"
+    },
+    {
+      "q": [
+        2,
+        2,
+        2
+      ],
+      "D": 64,
+      "fixed": 8,
+      "eta1": "27/32"
+    },
+    {
+      "q": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "D": 256,
+      "fixed": 16,
+      "eta1": "111/128"
+    }
+  ],
+  "negative_control": "F2 swap has sole eigenvalue1 but rank(Q-I)=1; scalar substitution is invalid",
+  "checker_sha256": "1365263557294e9ad6a1289a640cd07a38f9ea6d74f1cee3d38db31c3c2d3c2c",
+  "scope": "Actual swap-query model; free masks, comparisons and payload permutations excluded"
+}

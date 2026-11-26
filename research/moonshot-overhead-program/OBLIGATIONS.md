@@ -251,3 +251,8 @@ S004 changed Fourier invoice now has explicit source and destination reuse. Even
 ## E003 final-science checkpoint — 2026-11-26T00:51:12.839544+00:00
 
 E003 closes the exact weighted-state MST within the canonical single-prepared-basis model. Further gains require fewer separately visited states, different charged geometry, or a smaller fully priced physical routing toll. The one-gauge graph criterion and translation-closed C(4,3) optimum do not settle general multi-gauge routing or JR.
+
+
+### S004 final-wave evidence (2026-11-26)
+
+S004: JR remains open; no stronger unconditional bound. Exact residual correctors now have an all-input FFT supplier, but its fixed-a complete n log n(loglog n)^alpha time is slower. q2 free-call collapse retains charged rank>=N/2. q>=4 odd-line disjointness and actual-swap algebra exclude only stated models.

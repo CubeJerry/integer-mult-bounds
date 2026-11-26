@@ -306,3 +306,13 @@ E003 verified baeb200f5bb627efae99adb028b6e58198e6d335 by fresh fetch and exact 
 ## S005 start: 2026-11-26T00:49:41Z
 
 Two-hour combined invocation under the revised shared endpoint charter. Start remote62d9d8e9; reconciled E003 completion52c62730. Canonical and OpenAI heads unchanged. Three actual workers own structured star-sum discovery, backward physical transfer, and independent AQ/formal audit. Lead owns synthesis and a separate algebra/geometry investigation. Current written two-thirds envelope retained pending audit; no new complete bound claimed. S004 recent work is preserved and its supplier audits are not duplicated. Full scope/pins: sessions/2026-11-26-S005/SESSION.json.
+
+
+### S004 final-wave evidence (2026-11-26)
+
+S004 final evidence integrated: DA/SI/leaf geometry, complete slower FFT/modular composition and actual-swap bridge. Fifth checkpoint62d9d8e verified by fetched SHA/tree equality. Completion remains pending01:01:15UTC.
+
+
+### S004 completed requested active interval
+
+Completed 2026-11-26T01:01:30Z, elapsed10815seconds from2026-11-25T22:01:15Z; requested10800seconds satisfied. Three route reviews, final admission and report integrated. No background continuation. Final publication is the containing commit.

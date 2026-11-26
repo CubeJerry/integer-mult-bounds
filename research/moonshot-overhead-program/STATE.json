@@ -642,7 +642,7 @@
   "parallel_sessions": {
     "2026-11-26-S004": {
       "id": "2026-11-26-S004",
-      "status": "running",
+      "status": "completed",
       "started_utc": "2026-11-25T22:01:15Z",
       "planned_end_utc": "2026-11-26T01:01:15Z",
       "requested_seconds": 10800,
@@ -658,18 +658,19 @@
       "concurrent_sessions_preserved": [
         "2026-11-26-S003",
         "2026-11-26-E002",
-        "2026-11-26-E003"
+        "2026-11-26-E003",
+        "2026-11-26-S005"
       ],
       "new_complete_overhead_bound": null,
       "routes": {
-        "A": "Final independent review of certified numerical FFT supplier.",
-        "B": "Certified numerical supplier and independent actual-swap review.",
-        "C": "Final destination graph and characteristic-independent swap-query audits.",
-        "lead": "Final source audits, exact replays, report and requested-duration completion."
+        "A": "Completed; proofs, reviews and exact receipts integrated in FINAL-REPORT.md and lead/FINAL-ADMISSION.md.",
+        "B": "Completed; proofs, reviews and exact receipts integrated in FINAL-REPORT.md and lead/FINAL-ADMISSION.md.",
+        "C": "Completed; proofs, reviews and exact receipts integrated in FINAL-REPORT.md and lead/FINAL-ADMISSION.md.",
+        "lead": "Completed; proofs, reviews and exact receipts integrated in FINAL-REPORT.md and lead/FINAL-ADMISSION.md."
       },
       "checkpoint_policy": "Lead-only integration, scoped files, reconcile every remote advance without force-push; preserve S003 and E002 records.",
-      "last_prepared_utc": "2026-11-26T00:45:05Z",
-      "latest_reconciled_remote_head": "baeb200f5bb627efae99adb028b6e58198e6d335",
+      "last_prepared_utc": "2026-11-26T01:01:30Z",
+      "latest_reconciled_remote_head": "016c4918119959ba7c005676ab7ddf0313b55b09",
       "admitted_components": [
         "Radix wrapper without whole-square padding",
         "Matrix spectral rank and repair-free rounding obstruction",
@@ -694,7 +695,10 @@
         "Ratio-subgroup and sharpened physical spectrum matching",
         "Dense-small plus sparse-outlier correction",
         "Sharp nonnegative bilinear mixed-supplier product count",
-        "Direct mixed-error missing-input and bilinear energy gates"
+        "Direct mixed-error missing-input and bilinear energy gates",
+        "Canonical Fourier leaf-line classification with binary exception",
+        "Complete certified FFT supplier with slower all-input modular composition",
+        "Characteristic-independent actual-swap query rank bridge"
       ],
       "conditional_complete_bound": {
         "hypothesis": "JR exact local-load rectangle partition hypothesis, open; sole additional mathematical hypothesis",
@@ -707,13 +711,14 @@
         "base": "E002 admitted variable profile at8af1911b02c04d0c410dd181597fd160582a78b4"
       },
       "first_wave_admission": "lead/FIRST-WAVE-ADMISSION.md",
-      "last_confirmed_s004_checkpoint": "e2f2eac3743b6f0e807ec460369fd5ec6931b46c",
+      "last_confirmed_s004_checkpoint": "62d9d8e917379cb2edc17c9761e12e2345bc01f4",
       "verified_s004_checkpoints": [
         "842f879d3adf45b86d38cf3ff52dbead638cfe74",
         "04c1cb0da225d990d65aef86006cadbd929e0e31",
         "af5d7983fce7c50a8df5fe13428e587e96543727",
         "39b90725c48b732307be587b8cb53e1b2d0e3fc0",
-        "e2f2eac3743b6f0e807ec460369fd5ec6931b46c"
+        "e2f2eac3743b6f0e807ec460369fd5ec6931b46c",
+        "62d9d8e917379cb2edc17c9761e12e2345bc01f4"
       ],
       "historical_conditional_complete_bounds": [
         {
@@ -726,7 +731,26 @@
       "second_wave_admission": "lead/SECOND-WAVE-ADMISSION.md",
       "third_wave_admission": "lead/THIRD-WAVE-ADMISSION.md",
       "fourth_wave_admission": "lead/FOURTH-WAVE-ADMISSION.md",
-      "fifth_wave_admission": "lead/FIFTH-WAVE-ADMISSION.md"
+      "fifth_wave_admission": "lead/FIFTH-WAVE-ADMISSION.md",
+      "final_admission": "lead/FINAL-ADMISSION.md",
+      "final_report": "FINAL-REPORT.md",
+      "slower_complete_construction": {
+        "proof": "route-b/certified-fft-lower-candidate.md",
+        "status": "complete written construction, not a best-bound improvement",
+        "time": "O_alpha(n log n (log log n)^alpha), fixed alpha>1/2, with fixed a=1,M=2",
+        "space": "one O(n) visited-cell cap",
+        "verification": "217 exact supplier cases and34 actual modular-engine integrations; no full tape implementation"
+      },
+      "report_reviews": [
+        "route-a/review-final-report.md",
+        "route-b/review-final-report.md",
+        "route-c/REVIEW-FINAL-REPORT.md"
+      ],
+      "ended_utc": "2026-11-26T01:01:30Z",
+      "elapsed_seconds": 10815,
+      "requested_interval_satisfied": true,
+      "final_manifest": "lead/replays/manifest-final.json",
+      "final_publication_record": "Final checkpoint is the commit containing this completed record; preceding confirmed checkpoint is recorded separately."
     },
     "2026-11-26-S005": {
       "id": "2026-11-26-S005",

@@ -157,3 +157,8 @@ S004 fifth checkpoint admits two Fourier sharing graphs, revised invoice analysi
 ## E003 final-science checkpoint — 2026-11-26T00:51:12.839544+00:00
 
 E003 has independently admitted the same two-thirds complete envelope already recorded by E002/S003, with one absolute linear visited-space bound. Its protected local work now shares destination gauges, walks through partial Fourier states, and uses an exact minimum spanning tree of the state metric. The free call invoice becomes 2D+8M, with an explicit component-count formula and factorial bound; the charged term and retained routing toll leave the leading complete envelope unchanged. All lower statements are restricted to their stated positive invoices or algebraic models.
+
+
+### S004 final-wave evidence (2026-11-26)
+
+S004 final report: sessions/2026-11-26-S004/FINAL-REPORT.md. Unconditional envelope remains the E002-first-admitted project result; S004 JR-only2/3 transfer remains conditional. Final local/repair results do not establish polynomial-s overhead.

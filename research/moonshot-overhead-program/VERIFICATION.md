@@ -208,3 +208,8 @@ S004 wave5 exact lead replays: 15,618 source entries; 164,932 shear entries; 9,2
 ## E003 final-science checkpoint — 2026-11-26T00:51:12.839544+00:00
 
 E003 final integrity pass: all fifteen component hashes plus the integration review and all nine primary-source hashes match. Fifty-four session JSON files parsed and thirty-nine Python files parsed as syntax at that snapshot. Independent exact replays and their coverage are recorded separately; no full multiplier, formal refinement, practical cutoff evaluation or human refereeing is claimed.
+
+
+### S004 final-wave evidence (2026-11-26)
+
+S004 final isolated replays passed: FFT217cases/2542coefficients, actual triadic integration34cases/568coefficients, swap1461boundary columns, leaf140cosets/588points. Written time/all-visited audits and receipts: sessions/2026-11-26-S004/lead/FINAL-ADMISSION.md. These are not full machine timing simulations.
