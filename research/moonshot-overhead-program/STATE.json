@@ -1,7 +1,7 @@
 {
   "schema": "moonshot-overhead-program-state-v2",
   "branch": "research/moonshot-overhead-program",
-  "status": "session_active",
+  "status": "session_completed",
   "session_date_local": "2026-11-26",
   "requested_duration_seconds": 10800,
   "source_pins": {
@@ -116,7 +116,8 @@
     "s006_last_confirmed_science_and_verification": "217739be447dfed13c02a8b8682872e84378f6ed",
     "s006_final_commit_id_location": "Git history and final response",
     "s007_upstream_pr": "none",
-    "s007_final_commit_id_location": "Git history and final chat response; no recursive self identifier."
+    "s007_final_commit_id_location": "Git history and final chat response; no recursive self identifier.",
+    "s007_verified_preclose_head": "7d84c00d9422c599119795553a2396155330e3d7"
   },
   "next_actions": [
     "Use the third and final shared campaign slot for a complete independent external-review reconstruction of the fixed-precision factor-transform tape bill and packaging."
@@ -127,9 +128,12 @@
     "started_utc": "2026-11-26T05:32:16Z",
     "planned_end_utc": "2026-11-26T08:32:16Z",
     "requested_seconds": 10800,
-    "status": "active",
+    "status": "completed",
     "background_execution": false,
-    "record": "sessions/2026-11-26-S007/SESSION.md"
+    "record": "sessions/2026-11-26-S007/SESSION.md",
+    "ended_utc": "2026-11-26T08:32:16Z",
+    "actual_elapsed_seconds": 10800,
+    "final_report": "sessions/2026-11-26-S007/FINAL-REPORT.md"
   },
   "verification_status": "S007: strict pinned Lean source build and kernel replay of 23 modules, with 139 designated axiom audits; separate finite word and 28 numerical certificates. New tape bounds are written constructions with AI review, awaiting independent human refereeing.",
   "concurrent_work": {
@@ -652,6 +656,18 @@
       "status": "completed",
       "background_execution": false,
       "report": "sessions/2026-11-26-S006/FINAL-REPORT.md"
+    },
+    "2026-11-26-S007": {
+      "id": "2026-11-26-S007",
+      "started_utc": "2026-11-26T05:32:16Z",
+      "planned_end_utc": "2026-11-26T08:32:16Z",
+      "requested_seconds": 10800,
+      "status": "completed",
+      "background_execution": false,
+      "record": "sessions/2026-11-26-S007/SESSION.md",
+      "ended_utc": "2026-11-26T08:32:16Z",
+      "actual_elapsed_seconds": 10800,
+      "final_report": "sessions/2026-11-26-S007/FINAL-REPORT.md"
     }
   },
   "e002_current_result": {
@@ -1216,7 +1232,7 @@
         "starting_sha": "579617a612e21ed44409ea203c376977f5a3ec69",
         "started_utc": "2026-11-26T05:32:16Z",
         "target_end_utc": "2026-11-26T08:32:16Z",
-        "status": "active",
+        "status": "completed",
         "gates": [
           "Bidirectional passage from the paid radix prefix to the stored representative boundary",
           "Fixed-head movement and basis conversion on arbitrary legal records",
@@ -1262,6 +1278,10 @@
           {
             "sha": "7ecbffd890f4e721d47c2fac9c478db6cd2242ee",
             "result": "Precision-uniform finite-ring multiplication, first-carry equivalence, 126-lemma proof checkpoint."
+          },
+          {
+            "sha": "7d84c00d9422c599119795553a2396155330e3d7",
+            "result": "Fixed-precision FS1 and inverse, explicit growing-precision write cost, final verified Lean and numeric package."
           }
         ],
         "verified_partial": "Earlier grouped embedding and trace-radix milestones preserved in checkpoints. The complete FS1 transform below supersedes them.",
@@ -1298,7 +1318,10 @@
           "clock": "O_{h,eta}(q b/(1+log b)^eta); O_h(q) distinct visited tape cells",
           "proof": "sessions/2026-11-26-S007/fixed-witt-precision.md",
           "uniform_obstacle": "The separate binary-coordinate schedule materializes q h(h+1)/2 bits; at h=Theta(b), qh=Theta(n), these writes alone take Omega(nb) steps."
-        }
+        },
+        "ended_utc": "2026-11-26T08:32:16Z",
+        "actual_elapsed_seconds": 10800,
+        "decision": "prepare external review in the one remaining shared campaign slot"
       }
     ],
     "used_or_reserved": 2,

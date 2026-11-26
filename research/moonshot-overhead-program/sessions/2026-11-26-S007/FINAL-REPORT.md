@@ -30,3 +30,5 @@ S006 and S007 use two of the three shared campaign slots. Use the last slot to p
 The work was prepared for Jerry Chen (@CubeJerry) with ChatGPT research assistance. The parent [attribution record](../../PR-DESCRIPTION.md#credits) and the linked proofs identify the original authors and inherited constructions.
 
 The released checks cover 23 Lean component modules, 139 named results and 28 numerical certificates. The common time and tape-space bounds remain written results.
+
+The recorded work interval was 05:32:16–08:32:16 UTC on 26 November 2026 (10,800 seconds). The last verified scientific checkpoint before this closing record was [7d84c00d94](https://github.com/CubeJerry/integer-mult-bounds/commit/7d84c00d9422c599119795553a2396155330e3d7). The closing commit itself is visible in the branch history.

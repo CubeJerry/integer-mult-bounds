@@ -386,3 +386,7 @@ The [native three-batch construction](sessions/2026-11-26-S007/binary-transform-
 ### S007 full-rate individual factor order and first lift
 
 Two independently reviewed physical orderings achieve the same logarithmic saving at the literal individual factors as at the selected grids, in both directions. The factor inventory, independent CRT lift and exact ordinary product now have Lean proofs. A [first-carry formula](sessions/2026-11-26-S007/first-witt-carry.md) and [mod-four batch](sessions/2026-11-26-S007/mod-four-batch.md) give a separate two-bit construction.
+
+### S007 completed
+
+The session ran from 05:32:16 UTC to 08:32:16 UTC on 26 November 2026 (10,800 seconds). The [report](sessions/2026-11-26-S007/FINAL-REPORT.md) records the fixed-precision transform, unchanged integer envelope, formal scope and publication decision. Two of three shared campaign slots have been used. Last independently confirmed pre-close commit: `7d84c00d9422c599119795553a2396155330e3d7`.
