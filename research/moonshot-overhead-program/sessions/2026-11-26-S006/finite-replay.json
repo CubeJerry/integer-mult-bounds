@@ -1,0 +1,180 @@
+{
+  "as_of": "2026-11-26T03:27:13.634Z",
+  "runtime": "code-mode V8, exact integer operations; these source bytes can also be run using Node.js",
+  "modular": {
+    "scalarCases": 112,
+    "nonunitRejected": true,
+    "rejectedGap63": "-4510048854467219030016",
+    "arity": 127,
+    "defectSeeds": [
+      0,
+      1,
+      64,
+      65
+    ],
+    "supportedModulusBits": 32324,
+    "exactOutputs": 21844,
+    "roundingCases": 2040,
+    "midpointCorrections": 22
+  },
+  "modular_adversarial": {
+    "divisionCases": 16984,
+    "repairs": [
+      {
+        "m": 31,
+        "mode": 0,
+        "j": 1,
+        "modulusBits": 519,
+        "checks": 32
+      },
+      {
+        "m": 31,
+        "mode": 1,
+        "j": 0,
+        "modulusBits": 519,
+        "checks": 0
+      },
+      {
+        "m": 31,
+        "mode": 2,
+        "j": 1,
+        "modulusBits": 519,
+        "checks": 32
+      },
+      {
+        "m": 63,
+        "mode": 0,
+        "j": 1,
+        "modulusBits": 2274,
+        "checks": 64
+      },
+      {
+        "m": 63,
+        "mode": 1,
+        "j": 0,
+        "modulusBits": 2274,
+        "checks": 0
+      },
+      {
+        "m": 63,
+        "mode": 2,
+        "j": 1,
+        "modulusBits": 2274,
+        "checks": 64
+      },
+      {
+        "m": 127,
+        "mode": 0,
+        "j": 1,
+        "modulusBits": 9009,
+        "checks": 128
+      },
+      {
+        "m": 127,
+        "mode": 1,
+        "j": 4,
+        "modulusBits": 9009,
+        "checks": 128
+      },
+      {
+        "m": 127,
+        "mode": 2,
+        "j": 1,
+        "modulusBits": 9009,
+        "checks": 128
+      }
+    ],
+    "adverseGap": "-4510048854467219030016",
+    "rejected": true
+  },
+  "four_point": {
+    "prime": [
+      {
+        "b": 5,
+        "cosets": 8,
+        "good": 5,
+        "fullRank": 6,
+        "nontrivialProjectiveTopImages": 0
+      },
+      {
+        "b": 7,
+        "cosets": 32,
+        "good": 28,
+        "fullRank": 29,
+        "nontrivialProjectiveTopImages": 0
+      },
+      {
+        "b": 11,
+        "cosets": 512,
+        "good": 506,
+        "fullRank": 507,
+        "nontrivialProjectiveTopImages": 0
+      }
+    ],
+    "matrices": [
+      {
+        "b": 5,
+        "U": [
+          0,
+          1
+        ],
+        "graded": false,
+        "monomial": true,
+        "nonzerosPerRow": [
+          1
+        ],
+        "nonmonomialRows": 0
+      },
+      {
+        "b": 5,
+        "U": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "graded": false,
+        "monomial": false,
+        "nonzerosPerRow": [
+          1,
+          6,
+          7,
+          8
+        ],
+        "nonmonomialRows": 31
+      },
+      {
+        "b": 5,
+        "U": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "graded": true,
+        "monomial": false,
+        "nonzerosPerRow": [
+          1,
+          3,
+          4
+        ],
+        "nonmonomialRows": 30
+      },
+      {
+        "b": 3,
+        "U": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "graded": false,
+        "monomial": true,
+        "nonzerosPerRow": [
+          1
+        ],
+        "nonmonomialRows": 0
+      }
+    ]
+  }
+}

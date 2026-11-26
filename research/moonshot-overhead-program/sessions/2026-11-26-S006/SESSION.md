@@ -10,3 +10,7 @@ Start at 2026-11-26T03:04:51Z from `69632d87c99b5a75d0b44a7d964e6550e457e016`. T
 | CRT4, protected discovery | Solve the actual stage condition for arbitrary binary inputs on an unbounded family. A costed two-direction supplier or an obstruction that changes the decision on the specified method passes. | Repeating the existing prime-cycle argument, a finite witness alone, or an uncharged representation. |
 
 The four gates feed the two workstreams in the charter. Existing S005 UC/FS/KC/FL and CT retain their separate conditional scopes. The multiplication envelope is unchanged at reservation.
+
+## Second proof check in the same contribution
+
+A2 tests whether all full-width scalar products fit fixed Toom-3 multiplication once the selected Walsh rows use the modular executor. A pass removes the Harvey–van der Hoeven short multiplier from this proof, with an audited count and a strictly sub-3/2 exponent. A missed full-width product inside the high-multiplicity recursive layers would invalidate the substitution. F3 tests the source Lean plan language on the actual singleton spectral-repair denominator. A pass is a kernel-checked nonrepresentability theorem for arbitrary source plans. A proof sketch or a failed build cannot count as formal verification.

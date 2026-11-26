@@ -1,0 +1,7 @@
+# An explicit overhead for integer multiplication on fixed tapes
+
+For $L=1+\log_2 n$, $x=\log_2 L$ and $\Phi(x)=(x^2\log_2(x+2))^{1/3}$, the selected written construction gives one deterministic fixed finite-alphabet multitape machine with time $O(n\sqrt L\,2^{O(\Phi(x))})$ and one absolute $O(n)$ bound on tape cells ever visited. It returns the exact $2n$-bit product on every positive input length. The November 24 paper proves a single-machine $nL^{1/2+o(1)}$ bound. The explicit rate here is the programme's adaptive extraction of that construction.
+
+The proof follows [AQ](../../sessions/2026-11-26-S003/lead/adaptive-extraction.md). The [physical exact interchange](AQ-P.md) supplies a marked-arena implementation and a strict recursion clock. [Exact modular Walsh rows](modular-walsh.md) replace accumulated internal numerical errors in the adaptive transform. The [elementary coprime-axis lemma](coprime-axes.md) supplies the existing deterministic transform-shape search. The outer numerical phases, pointwise multiplication, inverse scaling, final rounding and carry retain their precision obligations.
+
+The [session record](../../sessions/2026-11-26-S006/SESSION.md) identifies the verification scopes. The [four-point CRT result](../../sessions/2026-11-26-S006/four-point-frobenius-obstruction.md) addresses the separate endpoint experiment. The multiplication theorem is written and AI-assisted. An end-to-end Lean certification of the adaptive multiplier and external mathematical refereeing remain open.

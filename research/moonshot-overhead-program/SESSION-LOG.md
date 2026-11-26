@@ -338,3 +338,7 @@ Completed the requested active interval from 2026-11-26T00:49:41Z; actual elapse
 ## S006 / contribution campaign 1, opening
 
 Started at 2026-11-26T03:04:51Z from `69632d87c99b5a75d0b44a7d964e6550e457e016`. One of three shared campaign slots is reserved. The scoped obligations and pass/fail criteria are in [the session record](sessions/2026-11-26-S006/SESSION.md). AQ is the selected chain. Canonical main and OpenAI main were refreshed at the same revisions as S005.
+
+### S006 first substantive checkpoint
+
+The elementary interval proof, the fixed-head reserve schedule, and a modular execution of the adaptive Walsh rows are in [the contribution](contributions/explicit-overhead/README.md). The ordinary four-point CRT stage has a prime-degree materialization obstruction. Mathematical proofs and independent finite controls are saved with this session. The full multiplication envelope is unchanged. The short-multiplication dependency and source Lean plan syntax are under review.
