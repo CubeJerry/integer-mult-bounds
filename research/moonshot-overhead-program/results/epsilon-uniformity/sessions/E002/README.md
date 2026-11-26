@@ -54,3 +54,7 @@ Concurrent S003 independently admits the same unconditional V scale using its di
 
 These additions do not change the unconditional V envelope or establish the
 open RV-I/RV-W physical delivery contracts.
+
+- [Full E002 research report](FINAL-REPORT.md).
+- [Corrected source swap and occupied-parameter contraction](batching/SWAP-WEYL-CONTRACTION-GATE.md), with independent A/C reviews.
+- [Compatible endpoint reuse characterization](review-c/COMPATIBLE-ENDPOINT-REUSE.md) and [lead review](lead/REVIEW-ENDPOINT-REUSE.md).

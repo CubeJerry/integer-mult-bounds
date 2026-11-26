@@ -1,0 +1,64 @@
+{
+  "status": "FROZEN_COMPONENT_HANDOFF",
+  "frozen_utc": "2026-11-26T00:02:38.493503+00:00",
+  "source_pin": "3344da59991ed94f9ba711217b29c1d760badfa6",
+  "scope": "Reviewed local construction and scoped algebraic bridge tests; no stronger global bound or physical lower bound.",
+  "files": [
+    {
+      "path": "HANDOFF.md",
+      "size": 3740,
+      "sha256": "ea21e0b63faabfb5f0b0f2641775bf7a66e39d723f90ea4bbeaac10c5ff8a9a6"
+    },
+    {
+      "path": "STAR-SWAP-FALSIFIER.md",
+      "size": 6748,
+      "sha256": "5db06e11c67fba3e0ed5db2a060bf3616a40f42c5d2281853f58f50f50fd3ceb"
+    },
+    {
+      "path": "SWAP-WEYL-CONTRACTION-GATE.md",
+      "size": 9599,
+      "sha256": "5be659cade5396420a38ab06dbb852a59a56a3aa00858308f0be4f277033012b"
+    },
+    {
+      "path": "WEYL-STAR-BATCHING.md",
+      "size": 10646,
+      "sha256": "8472657f7ac8307c1fa99908918a45ba3901048cd31f3a757111ea0c01a4bb02"
+    },
+    {
+      "path": "bridge-execution.log",
+      "size": 819,
+      "sha256": "f13683e5951da28960432fc8393599b1b5ee782e83efc98f6be82484d1e03c59"
+    },
+    {
+      "path": "execution.log",
+      "size": 723,
+      "sha256": "388e07413e06a359aa51db3b2aef2d824f047c0e7b4bf84311b7b7e6584687f1"
+    },
+    {
+      "path": "swap-weyl-bridge-verification.json",
+      "size": 819,
+      "sha256": "f13683e5951da28960432fc8393599b1b5ee782e83efc98f6be82484d1e03c59"
+    },
+    {
+      "path": "verify_swap_weyl_bridge.py",
+      "size": 6600,
+      "sha256": "d6c90c3dd4d1439d7ba1e805dba665dbb4fa5aba3ed583bb9e413f6e3626c75e"
+    },
+    {
+      "path": "verify_weyl_star_batching.py",
+      "size": 10399,
+      "sha256": "4f1b22db3b25ec520fd6e527d1e3eec5c1d6daea7b38a2eb2de4cc81e49c4905"
+    },
+    {
+      "path": "weyl-star-verification.json",
+      "size": 723,
+      "sha256": "388e07413e06a359aa51db3b2aef2d824f047c0e7b4bf84311b7b7e6584687f1"
+    }
+  ],
+  "independent_reviews": [
+    "../e002-review-c/REVIEW-WEYL-STAR-BATCHING.md",
+    "../e002-review-c/REVIEW-STAR-SWAP-FALSIFIER.md",
+    "../e002-review-c/REVIEW-SWAP-WEYL-CONTRACTION.md",
+    "../e002-review-a/REVIEW-SWAP-WEYL-BRIDGE.md"
+  ]
+}

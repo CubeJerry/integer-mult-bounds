@@ -135,3 +135,8 @@ AQ remains the complete unconditional S003 construction, with log H=O(s^(2/3)log
 ## S004 third-wave results
 
 New reviewed components cover arbitrary-matrix full-root survivor rank, active direct/inverse query volume with shared ports, noncommuting fractions, exact dense-recurrence correction and its prefix-rank supplier gate. Geometry work isolates a weaker weighted parity gate OWL and proves limits for the old heterogeneous Fourier invoice. The unconditional global bound is unchanged; the JR-only conditional log-free two-thirds theorem remains separate. See S004 `lead/THIRD-WAVE-ADMISSION.md`.
+
+
+## E002 final integration — 26 November 2026
+
+E002's final reviewed discoveries distinguish exact partitions, overlapping covers, compatible endpoint reuse and actual occupied-address batching. The positive Weyl executor is restricted to its declared family; source star swaps and the literal parameter lift expose precise unresolved contractions. These findings refine physical construction targets while the complete unconditional V scale remains unchanged. See results/epsilon-uniformity/sessions/E002/FINAL-REPORT.md and lead/LATE-ADMISSIONS.md.

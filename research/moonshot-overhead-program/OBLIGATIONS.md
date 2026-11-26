@@ -229,3 +229,8 @@ Accepted: finite-alphabet payload bridge FP-A; formal direct-rank obstruction DR
 - **Dense recurrence supplier:** correction is proved under a normalized forward recurrence, but a uniformly small recurrence over a full linear image forces small rank. A fast useful nonlinear or later-stage candidate remains missing. Finite Hankel boundary degeneracy is not the forward promise.
 - **Subset spectrum:** the new sharp full-root rank constants do not apply automatically to the three-valued order-five gate. This is an active separate question.
 - **Physical endpoint execution:** local preconditioning and shared work are now being tested outside the earlier positive incidence bills; any improved actual invoice needs independent review.
+
+
+## E002 final integration — 26 November 2026
+
+Theorem V remains unconditional. RV-I/RV-W are both open. ER now characterizes the reserve-only/triangular-tail reuse route: construct uniformly described compatible groups with small incidence and complete child-volume/visited-region bounds. WB needs a physical occupied-parameter contraction or fixed-star-sum executor; the literal Weyl lift has nonzero cross-row blocks and scoped full-rank defects. The corrected two-half source calculation is admitted; no universal runtime floor follows. CP improves exact counts without a new leading scale; CG's optimal-order cover cannot realize the target exact identity by rank.

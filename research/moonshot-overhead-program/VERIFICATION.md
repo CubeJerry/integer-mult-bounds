@@ -186,3 +186,8 @@ Root read DR, FP-A, SQ, NT and C NT review, and ran isolated finite replays reco
 ## S004 third-wave evidence
 
 Independent C review accepted A's heterogeneous and parity-weighted Fourier components and lead's local-load proof; B accepted C's survivor theorem; C audited the joint equivariant-sector active-volume/fraction theorem; A/C accepted B's dense recurrence H1/H2 and physical invoice. Lead reviewed the complete named notes and replayed all six finite checkers in isolated directories with their actual helpers. Counts, adverse controls, exact hashes and limits are in S004 `lead/THIRD-WAVE-ADMISSION.md` and `lead/replays/manifest-wave3.json`. Full-spectrum and physical multiplicity qualifications remain explicit. No full tape execution, formal proof or human verification is claimed.
+
+
+## E002 final integration — 26 November 2026
+
+E002 imported final hash-bound independent reviews and exact replays for CP, WB, corrected SS and WC, plus the lead's independent source/composition review of ER. The original SS spectator-half description and initial C review are explicitly withdrawn; corrected full-two-half checks pass (768 cases). WC's unsigned equal-weight rank test is not asserted for the complete signed source pencil. Main V mathematical content is unchanged (current status-only hash e3cdaae1f325951365104e275c84663f5e0d290bffcf59482845fe6f5d5611ea). Full report and detailed limits: results/epsilon-uniformity/sessions/E002/FINAL-REPORT.md. No full multiplier execution, fresh formal build or human referee review.

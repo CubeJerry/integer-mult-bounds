@@ -190,3 +190,8 @@ Canonical main e54523517d0f03e58352e647c403a5af3e525a57 and OpenAI main3344da599
 ## S004 third-wave source scope
 
 Lead read the complete newly published E002 noncanonical zero-Gram-side incidence proof and E003 crown-product ordering/laminar obstruction, plus E002's RV admission. They retain their exact premises and concurrent credit; no complete S004 reread of all newly arrived suppliers is claimed. The P4-free primary-source reading covers the ITC2021 introduction, Theorem 8, Sections 5.1/5.4/6.1 and Section 7; Pinto's local definitions and crown argument were inspected. These global-count/local-load distinctions are recorded in S004 `lead/jr-local-load-gates.md`. B's separate Bostan--Mori recurrence reading and its limits are recorded in B's proof; no unread implementation is imported as a tape primitive.
+
+
+## E002 final integration — 26 November 2026
+
+E002 refreshed OpenAI math main and canonical main at 23:44 UTC: unchanged at3344da59991ed94f9ba711217b29c1d760badfa6 and e54523517d0f03e58352e647c403a5af3e525a57. Both full prompt contents were rehashed at23:47:41 UTC: focused ce6fe4edbf039aa964a08aaec216a1cc60dbfe2a and parent b5762a4dacb999703e83621301a455fbb12755f7 unchanged. Focused Pinto cover/partition and Ghosal-Karrenbauer binary-rank primary-source reads are recorded with partial-read limits; no priority claim. Complete local source endpoint subsection read for late ER/SS/WC reviews; no full transitive formal audit.
