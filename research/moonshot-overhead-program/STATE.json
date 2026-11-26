@@ -42,7 +42,9 @@
       }
     ],
     "fixed_exponent_family": "sessions/2026-11-26-S008/all-exponents.md",
-    "threshold_formal": "sessions/2026-11-26-S008/routing-label-schedule.lean"
+    "threshold_formal": "sessions/2026-11-26-S008/routing-label-schedule.lean",
+    "verification": "sessions/2026-11-26-S008/VERIFICATION.md",
+    "receipt": "sessions/2026-11-26-S008/lead-receipt.json"
   },
   "conditional_complete_overhead_bound": {
     "formula": "T(n)=O(n sqrt(L) x^a), including a=0 endpoint, under explicit hypotheses",
@@ -1370,9 +1372,13 @@
           {
             "sha": "53b2384b62a825654ab4efec4e89e8c96fdd760c",
             "scope": "All-input coefficient 63, explicit coefficient-53 onset, and previous sharper fixed-exponent threshold."
+          },
+          {
+            "sha": "793b4364ea5f42bbad22e3b8423d157a22343265",
+            "scope": "Exact final 0.501 cutoff, formal transfer on all 29 source rows, physical compiler and verification packet."
           }
         ],
-        "verified_partial": "Final natural-log unit threshold 7519517465920988, including all later scales; coefficient 63 all lengths; explicit coefficient 53 and fixed-exponent table. Final report and published head verification under preparation."
+        "verified_partial": "Both final numerical clocks and the all-later natural-log threshold pass independent checks. Four actual-precision forced-box boundary/reference pairs recover every coefficient and output bit. The campaign close time is pending."
       }
     ],
     "used_or_reserved": 3,

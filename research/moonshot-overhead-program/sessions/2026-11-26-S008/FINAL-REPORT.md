@@ -1,6 +1,6 @@
 # Numerical overhead for the full integer product
 
-Jerry Chen (@CubeJerry) directed this three-hour research session with substantial ChatGPT research and verification assistance. It used the final slot of the joint S006–S008 contribution campaign. The proof, code and reproduction commands are on the programme branch of the fork.
+Jerry Chen (@CubeJerry) directed this research session with substantial ChatGPT research and verification assistance. It used the final slot of the joint S006–S008 contribution campaign. The proof, code and reproduction commands are on the programme branch of the fork.
 
 ## Results
 
@@ -46,6 +46,6 @@ S006, S007 and S008 used all three campaign slots. No new conditional assumption
 
 ## Proof status and review
 
-The complete time and space estimates are **written mathematical constructions with independent AI review**. The Lean development verifies selected literal tape rules, exact visited-cell bounds, data-independent control, selected Walsh identities, integer recovery and the analytical transfer of numerical supplier bills. A full-precision box test, deliberately invoked below the normal transform cutoff, recovered all 210 coefficients and all 2,000 output bits from a pair of 1,000-bit inputs. Suppressing the inverse CRT changed 204 coefficients. The test used host arrays for the transform schedule. Human peer review and an end-to-end Lean theorem for the entire revised machine remain outstanding. [Verification matrix and commands](VERIFICATION.md) · [Complete box test](recount-system-audit.md)
+The complete time and space estimates are **written mathematical constructions with independent AI review**. The Lean development verifies selected literal tape rules, exact visited-cell bounds, data-independent control, selected Walsh identities, integer recovery and the analytical transfer of numerical supplier bills. Four full-precision box tests, deliberately invoked below the normal transform cutoff, each recovered all 210 coefficients and all 2,000 output bits. The cases included two all-one inputs, a zero operand, isolated one-bits, and a padded dense product. Omitting inverse CRT changed 204 coefficients on the dense reference pair. These tests used host arrays for the transform schedule. Human peer review and an end-to-end Lean theorem for the entire revised machine remain outstanding. [Verification matrix and commands](VERIFICATION.md) · [Complete box test](recount-system-audit.md)
 
 The session began from fork commit 036d2fc958482f9489d4efadf395844ab3b3eb60. The source pins were CrocSwap/integer-mult-bounds e54523517d0f03e58352e647c403a5af3e525a57, OpenAI/math 3344da59991ed94f9ba711217b29c1d760badfa6, and CubeJerry/AI_Prompts d4ff248476b9d814d6dadde546645349fda1e33f. The two routing approaches have completed their decision tests. The programme branch contains the external-review draft; publication upstream is separate. [Session record](SESSION.md) · [Programme state](../../STATE.json) · [Draft contribution description](../../PR-DESCRIPTION.md)

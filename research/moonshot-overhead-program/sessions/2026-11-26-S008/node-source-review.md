@@ -36,15 +36,15 @@ The two [signed tag appenders](node-affine-tags.lean) use the same branch geomet
 
 The [symbolic interpreter](node-symbolic.lean) gives every physical input bit its own variable. It carries copies and binary XOR formulas through the real table. It accepts a probe of an unassigned bit only when both of its possible values take the default branch. Induction on the accepted symbolic trace proves the original concrete trace, its complete outputs and its exact visited-set size for every Boolean assignment at once.
 
-The [coordinate oracle](node-symbolic-cases.lean) calculates the expected row by interchanging the two actual ternary fields with prefix, gap and suffix in place. Its packed-role oracle addresses an independent source and destination word and changes exactly the named destination role in each outer prefix. Five original-program symbolic checks cover all five geometries below. The [proof-object generator](node-certified-traces.py) also emits explicit intermediate state certificates in pieces of at most four transitions. Each piece is reduced by the Lean kernel, and the exact subtraces are joined using the proven composition theorem. The generator's suggested machine states carry no mathematical authority. An incorrect intermediate symbol, head or interval makes the corresponding proof fail.
+The [coordinate oracle](node-symbolic-cases.lean) calculates the expected row by interchanging the two actual ternary fields with prefix, gap and suffix in place. Its packed-role oracle addresses an independent source and destination word and changes exactly the named destination role in each outer prefix. Five original-program symbolic checks cover the geometries below. The [proof-object generator](node-certified-traces.py) emits explicit intermediate states in pieces of at most four transitions. Lean can compare each piece with the source interpreter by definitional reduction and join its exact subtraces using the proved composition theorem. An incorrect intermediate symbol, head or interval makes the corresponding proof fail.
 
-| Shape | Independent input bits | Exact steps | Exact visited cells |
-| --- | ---: | ---: | ---: |
-| One 3 × 3 trit exchange | 9 | 296 | 59 |
-| Two prefixes, width-one fields, gap two, suffix two | 72 | 1,086 | 190 |
-| Width-two ternary fields, unit prefix/gap/suffix | 81 | 2,521 | 211 |
-| Copy one of three source roles to one of four destinations, over two prefixes and suffix two | 28 | 490 | 86 |
-| XOR on the same geometry | 28 | 490 | 86 |
+| Shape | Independent input bits | Exact steps | Exact visited cells | Verification completed |
+| --- | ---: | ---: | ---: | --- |
+| One 3 × 3 trit exchange | 9 | 296 | 59 | Executable and ground kernel proof |
+| Two prefixes, width-one fields, gap two, suffix two | 72 | 1,086 | 190 | Executable and ground kernel proof |
+| Width-two ternary fields, unit prefix/gap/suffix | 81 | 2,521 | 211 | Executable symbolic check |
+| Copy one of three source roles to one of four destinations, over two prefixes and suffix two | 28 | 490 | 86 | Executable and ground kernel proof |
+| XOR on the same geometry | 28 | 490 | 86 | Executable and ground kernel proof |
 
 For example, the nine-bit result proves the transposed source indices are \(0,3,6,1,4,7,2,5,8\) on all 512 fillings. The twenty-eight-bit XOR result quantifies over \(2^{28}\) independently occupied joint inputs. Its four changed bits are computed from their own source/destination pairs. All unselected destination, source, and descriptor data are restored. The 22 concrete complete-tape fixtures separately replay 19,768 transitions across the twelve programs, covering exact return positions even for the schoolbook output whose head ends after its last bit.
 
@@ -60,6 +60,8 @@ bash node-check-lean.sh PATH_TO_OPENAI_MATH PATH_TO_MATHLIB xor
 bash node-check-lean.sh PATH_TO_OPENAI_MATH PATH_TO_MATHLIB eightyone
 ```
 
-The compiler-generated intermediate modules reside inside the temporary build tree. The modes `copy`, `seventytwo`, and `eightyone` request the other independent kernel certificates. Set `S008_NODE_FRESH=1` to replay the chosen module's full transitive dependency closure, and run such jobs serially. The width-only mode uses a transitive replay by default. These source results establish the displayed subroutines and geometry certificates. The all-width positive-coordinate permutation proof and the assembly of the complete adaptive multiplier into the original numerical goal retain the written arguments linked from the [native ledger](node-integrated.md).
+The compiler-generated intermediate modules reside inside the temporary build tree. The modes `copy`, `seventytwo`, and `eightyone` request the other independent kernel certificates. Set `S008_NODE_FRESH=1` to replay the chosen module's full transitive dependency closure, and run such jobs serially. The width-only mode uses a transitive replay by default. The structural `tables` mode has been rebuilt from the pinned source and checked with the module-local `leanchecker`. Its reported axioms are a subset of `propext`, `Classical.choice` and `Quot.sound`. A separate joint import checked both the original-tape trace and the exact visited-cardinality theorem for each of the four completed positive certificates. All eight declarations reported exactly these three axioms. The previously completed width-only run also checked its full transitive closure.
+
+The width-two executable check uses the same symbolic interpreter and checks the entire body on 81 variables. The optional ground kernel run for this fifth positive fixture was stopped before completion. The all-width positive-coordinate permutation and the assembly of the complete adaptive multiplier into the original numerical goal retain the written arguments linked from the [native ledger](node-integrated.md).
 
 Prepared for Jerry Chen (@CubeJerry) with substantial ChatGPT research assistance. The upstream machine and visited predicates, and the reusable two-sided window proof in [the recursive handoff](recount-handoff.lean), retain their original attributions.

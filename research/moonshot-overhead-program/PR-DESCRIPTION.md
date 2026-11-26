@@ -18,7 +18,7 @@ For \(t=\log_2\log_2 n\), the proven coefficient in front of \(\Phi(t)\) falls t
 
 ## Verification
 
-Independent AI reviews reconstructed the numerical joins and port conventions. Component Lean proofs cover selected tape rules, interpolation, real-variable bounds and numerical cutoffs. A small-box full-grid replay recovered all 210 coefficients and a 2,000-bit product. The written whole-machine time theorem awaits independent human review and end-to-end formalization. [Verification record](sessions/2026-11-26-S008/VERIFICATION.md)
+Independent AI reviews reconstructed the numerical joins and port conventions. Component Lean proofs cover selected tape rules, interpolation, real-variable bounds and numerical cutoffs. Four full-grid box tests each recovered all 210 coefficients and the exact 2,000-bit product. The written whole-machine time theorem awaits independent human review and end-to-end formalization. [Verification record](sessions/2026-11-26-S008/VERIFICATION.md)
 
 ## Credits
 

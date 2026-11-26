@@ -33,7 +33,15 @@
     "axis_small_primes": "all source blocks regenerated from actual Nat.Prime; clean rebuild and module kernel replay",
     "width_dispatch": "pinned clean rebuild and fresh transitive kernel replay",
     "source_product": "pinned original TM operators, full transitive kernel replay of final source product, including staged output",
-    "intermediate_8931714897907030": "pinned complete checked schedule and fresh transitive kernel replay"
+    "intermediate_8931714897907030": "pinned complete checked schedule and fresh transitive kernel replay",
+    "final_7519517465920988": "Strict source build, designated axiom audit, and successful separate module kernel replays for the exact adjacent test, simpler all-later proof, sharp all-later proof and 29-row schedule.",
+    "compiler_suite": {
+      "complete_rule_rows": 734400,
+      "occupied_cases": 105049,
+      "physical_transitions": 2399528
+    },
+    "walsh": "73 declarations in the frozen eight-module algebra and physical selector package, rebuilt and kernel-replayed.",
+    "physical_carry": "Pinned independent source build and module replay of recovered_physical_readout, starting from prepared coefficient banks."
   },
   "box": {
     "kind": "forced host-array schedule using full grid formulas",
@@ -53,8 +61,57 @@
         "permutation_slots": 421056,
         "phase_slots": 792672,
         "walsh_slots": 557280
+      },
+      {
+        "inputs": "maximal",
+        "n": 1000,
+        "address_bits": 9,
+        "data_fraction": 648,
+        "phase_fraction": 720,
+        "recovered_coefficients": 210,
+        "output_bits": 2000,
+        "leading_output_zeros": 0,
+        "max_real_error_ulp_bits": 23,
+        "max_imag_error_ulp_bits": 22,
+        "wrong_without_inverse_crt": 203,
+        "permutation_slots": 421056,
+        "phase_slots": 792672,
+        "walsh_slots": 557280
+      },
+      {
+        "inputs": "zero",
+        "n": 1000,
+        "address_bits": 9,
+        "data_fraction": 648,
+        "phase_fraction": 720,
+        "recovered_coefficients": 210,
+        "output_bits": 2000,
+        "leading_output_zeros": 2000,
+        "max_real_error_ulp_bits": 1,
+        "max_imag_error_ulp_bits": 1,
+        "wrong_without_inverse_crt": 0,
+        "permutation_slots": 421056,
+        "phase_slots": 792672,
+        "walsh_slots": 557280
+      },
+      {
+        "inputs": "single-pair",
+        "n": 1000,
+        "address_bits": 9,
+        "data_fraction": 648,
+        "phase_fraction": 720,
+        "recovered_coefficients": 210,
+        "output_bits": 2000,
+        "leading_output_zeros": 1284,
+        "max_real_error_ulp_bits": 12,
+        "max_imag_error_ulp_bits": 12,
+        "wrong_without_inverse_crt": 1,
+        "permutation_slots": 421056,
+        "phase_slots": 792672,
+        "walsh_slots": 557280
       }
-    ]
+    ],
+    "scheduled_slots_per_complete_product": 1771008
   },
   "scope_of_negative_control": "Omit the inverse CRT while reading the final rank. A zero product is invariant under this mutation.",
   "script_replays": {

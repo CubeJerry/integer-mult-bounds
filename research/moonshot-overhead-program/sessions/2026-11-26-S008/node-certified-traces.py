@@ -147,6 +147,7 @@ def micro_segment(case, built, each, cut, idx):
     begin, stop = idx*cut, min(clock,(idx+1)*cut)
     left = f"(initial {entry} {start})" if idx == 0 else f"cut{idx-1}"
     first = left
+    tactic = "rfl" if case == "eightyone" else "decide +kernel"
     definitions, obligations, leaves, windows = [], [], [], {}
     for j in range(begin+1,stop+1):
         if j == stop:
@@ -164,7 +165,7 @@ def micro_segment(case, built, each, cut, idx):
             right=f"m{idx}t{j}"
             definitions.append(f"private def {right} : State {k} {states} := ⟨{pc},{vec(indices)},{vec(map(str,lo))},{vec(map(str,hi))}⟩")
         sub=f"m{idx}step{j}"
-        obligations.append(f"private theorem {sub} : run {table} {left} 1=some {right} := by decide +kernel")
+        obligations.append(f"private theorem {sub} : run {table} {left} 1=some {right} := by {tactic}")
         leaves.append((sub,left,right,1))
         left=right
     derivation=tree(leaves,k,states,table)[0]
