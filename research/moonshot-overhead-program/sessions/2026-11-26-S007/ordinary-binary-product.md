@@ -1,5 +1,7 @@
 # An ordinary binary polynomial product through the selected planes
 
+The [stronger ordered directory](binary-transform-and-product.md) now matches the direct-grid clock on this proof’s individual-factor path as well. The short-key invoice below remains a fallback.
+
 For each fixed rational $0<\eta<1/2$, the S007 supplies multiply two ascending lists of $n$ binary coefficients in
 $$
 O_\eta\!\left(n(1+\log n)/(1+\log\log(n+3))^\eta\right)

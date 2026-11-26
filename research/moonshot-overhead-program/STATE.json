@@ -1228,6 +1228,10 @@
           {
             "sha": "e9645d497787bc063a0ea8aede298c249f60128d",
             "result": "Full literal FS1 transform and all independent inputs using the published polynomial multiplier, including the corrected even-degree orbit count."
+          },
+          {
+            "sha": "3d54553efd68c1b6ca292c5a46de9b653f3ea2cc",
+            "result": "First sub-qb full transform, verified independent-batch convolution and standalone binary product."
           }
         ],
         "verified_partial": "Earlier grouped embedding and trace-radix milestones preserved in checkpoints. The complete FS1 transform below supersedes them.",
@@ -1238,7 +1242,7 @@
           "inputs": "contiguous coefficients or paid S006 prefix",
           "outputs": "literal canonical monomial remainders modulo every FS1 irreducible dividing X^q-X",
           "inverse": "all q independent FS1 bits",
-          "time": "O_eta(q b/(1+loglog(b+3))^eta) for each rational 0<eta<1/2; written proof",
+          "time": "O_eta(q b/(1+log(b+2))^eta), verified written full FS1, fixed rational 0<eta<1/2",
           "other_than_two_long_product_families": "O_eta(q b/(1+loglog(b+3))^eta), fixed rational 0<eta<1/2",
           "visited_cells": "O(q)",
           "proof": "sessions/2026-11-26-S007/full-plane-crt.md",
@@ -1246,7 +1250,11 @@
           "integer_implication": "No new complete integer-multiplication exponent or overhead.",
           "geometric_layout_time": "O_eta(q b/(1+log(b+2))^eta)",
           "batched_proof": "sessions/2026-11-26-S007/binary-transform-and-product.md",
-          "standalone_polynomial": "O_eta(n log(n+2)/(1+loglog(n+3))^eta), O(n) ever visited; faster earlier written time claim recorded."
+          "standalone_polynomial": "O_eta(n log(n+2)/(1+loglog(n+3))^eta), O(n) ever visited; faster earlier written time claim recorded.",
+          "factor_order_proofs": [
+            "sessions/2026-11-26-S007/marked-plane-directory.md",
+            "sessions/2026-11-26-S007/structured-orbit-directory.md"
+          ]
         }
       }
     ],

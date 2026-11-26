@@ -382,3 +382,7 @@ The [trace-plane construction](sessions/2026-11-26-S007/full-plane-crt.md) now s
 ### S007 batched polynomial products
 
 The [native three-batch construction](sessions/2026-11-26-S007/binary-transform-and-product.md) closes every long product at a strictly sub-$qb$ clock. The selected-grid product also bypasses the narrow final sort. Independent tests compared all 36 ordinary products via both routes, 69 separate packed-input products against direct convolution, and all 126 two-Pascal masks through rank six. A stronger earlier standalone time claim is linked in the proof. The integer bound and its carry obligations are unchanged.
+
+### S007 full-rate individual factor order and first lift
+
+Two independently reviewed physical orderings achieve the same logarithmic saving at the literal individual factors as at the selected grids, in both directions. The factor inventory, independent CRT lift and exact ordinary product now have Lean proofs. A [first-carry formula](sessions/2026-11-26-S007/first-witt-carry.md) and [mod-four batch](sessions/2026-11-26-S007/mod-four-batch.md) give a separate two-bit construction.

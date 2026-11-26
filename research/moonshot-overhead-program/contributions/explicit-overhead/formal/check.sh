@@ -7,7 +7,7 @@ trap 'rm -rf -- "$run_dir"' EXIT
 mathlib_sha=d13f23b723b8a846827a245b89c10fc7d3f11612
 openai_sha=3344da59991ed94f9ba711217b29c1d760badfa6
 export MATHLIB_NO_CACHE_ON_UPDATE=1
-export MOONSHOT_PROOF_MODULES="RepairDyadic FrobeniusBundles ModularWalshExact TraceBundles AdditiveTraceLayers BundleTransport TraceCoefficientPrefix GroupedComposition TraceShearRadix GroupedAmbientWords TraceFibreJoin TraceRadixRank TraceRadixMatrix RadixCircuitCharges AffineTraceGrid RootFactorDirectory"
+export MOONSHOT_PROOF_MODULES="RepairDyadic FrobeniusBundles ModularWalshExact TraceBundles AdditiveTraceLayers BundleTransport TraceCoefficientPrefix GroupedComposition TraceShearRadix GroupedAmbientWords TraceFibreJoin TraceRadixRank TraceRadixMatrix RadixCircuitCharges AffineTraceGrid RootFactorDirectory BinaryFactorInventory ProjectedDirectory ProjectedTraceCRT MaskedTensorPascal"
 lean --version | tee "$run_dir/version.txt"
 grep -F 'version 4.34.1' "$run_dir/version.txt" >/dev/null
 if [[ -n ${S006_MATHLIB_DIR:-} ]]; then
@@ -87,7 +87,10 @@ targets = {
     "FrobeniusBundles": "finest_stable_partition one_bundle_of_top",
     "CompactSpecialization": "correction_from_inverse correction_exact quotient_spec scalar_spec canonical_scalar_unique matrix_entry_tickets signed_lift_of_ticket scalar_maps_ticket row_pass_tickets source_row_pass_lift target_entry_integer target_scaled_input walsh_sum_bound correct_plan_exact_walsh compact_target_exact_walsh",
     "AffineTraceGrid": "forward_rectangle rectangle_lift_degree inverse_one_fold inverseLift_degree exists_cubic_chart round_trip fibre_iff recover_at recover_degree forward_at moore_ne_zero forward_evaluates",
-    "RootFactorDirectory": "recover_literal_remainder at_conjugate selected_points_injective independent_directory",
+    "RootFactorDirectory": "recover_literal_remainder at_conjugate selected_points_injective independent_directory binary_factor_iff binary_factor_product binary_directory_lift binary_directory_product binary_factor_at_selected",
+    "MaskedTensorPascal": "pair_phase tensor_mul choose_phases masked_tensor",
+    "ProjectedDirectory": "annihilate_polynomial_combinations projected_annihilator_iff moment_shift_formula moment_recurrence_iff_minpoly_dvd finite_projected_window descending_cutoff_cofactors",
+    "ProjectedTraceCRT": "matrix_inverse trace_fixed binary_trace_bit binary_matrices",
     "TraceShearRadix": "two_shifts row_split forward_trace reverse_trace",
     "GroupedAmbientWords": "fibre_remainder grouped_then_fibre grouped_fibre_coefficient grouped_and_full_same_fibre",
     "TraceFibreJoin": "translated_period same_orbit_iff_twisted actual_orbit_period recover_parent twisted_iff untwisted_iff frobenius_twisted recover_children actual_pair_remainder translated_pair fibre_from_coefficients actual_trace_fibre_join",
