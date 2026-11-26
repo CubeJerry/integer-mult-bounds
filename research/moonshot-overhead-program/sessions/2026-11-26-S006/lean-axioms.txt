@@ -110,3 +110,18 @@ replaying AdditiveTraceLayers
 Verified the axiom sets of 38 named results.
 
 Separate fresh-kernel replays of RepairDyadic, FrobeniusBundles and TraceBundles also exited 0, in 3m41.333s, 1m51.275s and 2m13.405s respectively. This checks all imported constants in a new environment each time.
+
+BundleTransport compiled with -DwarningAsError=true, exit 0. Module git blob 35e8f30e26d3c8ebe1cdffbfa7e5a6a7f28b0c2f, six-module checker fead180895b54730e4cfbf38063f685ede908b88.
+'Moonshot.BundleTransport.stable_coset_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.reverse_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.finite_stable_coset_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.address_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.transported_binary_at_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.finite_frobenius_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.unique_source_digit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.sourceDigit_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.transport_at_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Moonshot.BundleTransport.binaryHorner_conjugate' depends on axioms: [propext, Quot.sound]
+'Moonshot.BundleTransport.binary_remainder_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+The separate AdditiveTraceLayers --fresh kernel replay also passed, elapsed 2m4.974s.
