@@ -1056,5 +1056,115 @@
     "valid": 4633,
     "rejected_nonunits": 2373,
     "total": 7006
+  },
+  "remote_source_replay": {
+    "commit": "cc75d2b35c1d6828536a0473d5e6de5426ac2ef0",
+    "blobs": 52,
+    "relative_links": 93,
+    "broken_links": [],
+    "tests": [
+      {
+        "name": "verify-bundle-butterfly-review.js",
+        "exit": 0,
+        "seconds": 0.37,
+        "log_bytes": 411,
+        "output_sha256": "95aacdb5f7b3e38b98d9e60b7bb2c43ffb31ad2a50cc9126cef474818cbddcc0"
+      },
+      {
+        "name": "verify-bundle-layers.js",
+        "exit": 0,
+        "seconds": 1.54,
+        "log_bytes": 3454,
+        "output_sha256": "ad00cfc101a4fa4c452ca98020068bfa1ae9eb7abc01fbb31f23f4b2ce5dfb28"
+      },
+      {
+        "name": "verify-four-point-all-degrees.js",
+        "exit": 0,
+        "seconds": 0.17,
+        "log_bytes": 2611,
+        "output_sha256": "10c8c24d7ee33baace3612103f0a122583032909cf4fe5081193fb961a2e6023"
+      },
+      {
+        "name": "verify-four-point-bundles.js",
+        "exit": 0,
+        "seconds": 0.56,
+        "log_bytes": 2862,
+        "output_sha256": "47b84d593f929bbb8bfb944c4981674c1eb3a2d93548e5f7c2c4dda6782d6c0e"
+      },
+      {
+        "name": "verify-four-point.js",
+        "exit": 0,
+        "seconds": 0.17,
+        "log_bytes": 1305,
+        "output_sha256": "186f8627f1703f1e2d0d423ccc626c2ea2717438a677ea176a97af5545ae554f"
+      },
+      {
+        "name": "verify-modular-walsh-review.js",
+        "exit": 0,
+        "seconds": 0.13,
+        "log_bytes": 1057,
+        "output_sha256": "8d0bf2024ee81cdc7561f813eca85188296b31c4a49f1505445a2004d06fe7de"
+      },
+      {
+        "name": "verify-trace-coefficient-prefix.js",
+        "exit": 0,
+        "seconds": 0.8,
+        "log_bytes": 1367,
+        "output_sha256": "7385fddfdc232a7a900f06d361f1c6349b4a3b99db16c7927f2597dd38602359"
+      },
+      {
+        "name": "verify-trace-prefix-independent.js",
+        "exit": 0,
+        "seconds": 21.29,
+        "log_bytes": 2178,
+        "output_sha256": "b13a0f18dc7bd99c696b223f01466c3a4a373b4b6e25ea310bb51a438ede0d9d"
+      },
+      {
+        "name": "verify-modular-walsh.mjs",
+        "exit": 0,
+        "seconds": 0.17,
+        "log_bytes": 279,
+        "output_sha256": "94f78de4d31446ea815d8c9e79e759ec80a53c845cde6c3163acf0d8b9207994"
+      },
+      {
+        "name": "verify-outer-caller.mjs",
+        "exit": 0,
+        "seconds": 0.42,
+        "log_bytes": 1107,
+        "output_sha256": "1b2c6642d8fe1681d0d63cbd7abb42d1038e613580181165e85f164ca02da4d2"
+      },
+      {
+        "name": "check_bundles.py",
+        "exit": 0,
+        "seconds": 2.5,
+        "log_bytes": 1629,
+        "output_sha256": "2932d7ebcfc3350ec578946621a3b4de670b92d7f57fee5a95b8626ca6e054e7"
+      },
+      {
+        "name": "modular-scalar-machine.mjs",
+        "exit": 0,
+        "seconds": 0.26,
+        "log_bytes": 1550,
+        "output_sha256": "35ceed311c34c14a1edc82295ca8f35f91d5c9b0c4dfe49fc87cd76f7d077020"
+      },
+      {
+        "name": "verify-scalar-heads.mjs",
+        "exit": 0,
+        "seconds": 2.97,
+        "log_bytes": 146,
+        "output_sha256": "1097c4d8bb9fb6662e7164c5bbb67ea2dbed86b90e97a51153d66fd6e616fe23"
+      }
+    ]
+  },
+  "independent_prefix_and_groups": {
+    "source": "verify-trace-prefix-independent.js",
+    "receipt": "trace-prefix-independent-receipt.json",
+    "forward_first": 2046,
+    "inverse_first": 1853,
+    "ordinary_division_comparisons": 5709,
+    "flat_polynomial_reconstructions": 3899,
+    "actual_coset_coefficients": 28080,
+    "literal_grouped_remainders": 54,
+    "distinct_scalar_coordinate_encodings": 65814
   }
 }

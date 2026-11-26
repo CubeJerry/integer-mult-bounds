@@ -8,6 +8,8 @@
 - The Frobenius annihilator/conjugate-rank relation is classical. The dimension optimization is applied only to the allowed whole-block support grouping. The finite-field preparation imports polynomial-time normal basis construction; the tape proof prices its stream arithmetic separately. [Huczynska et al.](https://people.math.carleton.ca/~dthomson/Research/pdfs/DThomson-k-normal.pdf) · [Bshouty et al., §2](https://arxiv.org/abs/1602.05032v3)
 - Harvey and van der Hoeven provide the published multitape short-integer supplier used in the stronger consecutive-layer count. Fixed Toom-3 already suffices for an unbounded weaker count and for the AQ multiplication proof's outer arithmetic. [Harvey and van der Hoeven](https://annals.math.princeton.edu/2021/193-2/p04)
 
+The relative trace polynomial, its additive fibres and ordinary polynomial CRT use established finite-field algebra. S006 prices a specific coefficient-side prefix and gives a source-matched grouped factor and ordered-stream interpretation. The [general mixed-coordinate division proof](contributions/explicit-overhead/formal/GroupedComposition.lean) establishes both quotient and remainder. Literature priority for the decomposition is unclaimed.
+
 ## Earlier checkpoints
 
 - OpenAI, November 24, 2026: *The logarithmic exponent of integer multiplication on tapes*, source openai/math at 3344da59991ed94f9ba711217b29c1d760badfa6. All n L^(1/2+o(1)) claims derive from this paper.
