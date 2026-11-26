@@ -31,6 +31,7 @@ test "$(git hash-object "$root/$token/Token.lean")" = c3bb81d443674cc63fe1dbaf47
 cp "$session_dir/../../contributions/explicit-overhead/formal/ModularWalshExact.lean" "$root/"
 test "$(git hash-object "$root/ModularWalshExact.lean")" = db7c503a6b55e9f46e1fc79aa0e14b5caaf8623e
 cp "$session_dir/walsh-aligned-proof.lean" "$root/WalshAligned.lean"
+cp "$session_dir/walsh-interpolation.lean" "$root/WalshInterpolation.lean"
 cd "$mathlib_dir"
 lake env bash -euo pipefail -c '
     cd "$1"
@@ -40,7 +41,14 @@ lake env bash -euo pipefail -c '
     for module in "$2/KernelColumn" "$2/KernelPass" "$3/Token" ModularWalshExact; do
         lean -DwarningAsError=true -o "$module.olean" "$module.lean" > /dev/null
     done
-    lean -DwarningAsError=true -o WalshAligned.olean WalshAligned.lean | tee axioms.txt
+    for module in WalshAligned WalshInterpolation; do
+        lean -DwarningAsError=true -o "$module.olean" "$module.lean" | tee -a axioms.txt
+        if [[ "$module" == WalshAligned ]]; then
+            leanchecker -v --fresh "$module"
+        else
+            leanchecker -v "$module"
+        fi
+    done
 ' bash "$root" "$kernel" "$token"
 python3 - "$root/axioms.txt" <<'PY'
 from pathlib import Path
@@ -48,7 +56,10 @@ import re
 import sys
 
 expected = set('full_spacing_product subset_spacing_dvd_factorial oriented_spacing_eq '
-               'lagrange_den_dvd repair_entry_den_dvd correction_eq_short aligned_scalar_token'.split())
+               'lagrange_den_dvd repair_entry_den_dvd correction_eq_short aligned_scalar_token '
+               'rationalRow_coeff rationalRow_eval rationalRow_card check_row_on_node actual_entry_den_dvd '
+               'check_congruence actual_repair_lift rowDivisor_dvd scaled_row_exact scaled_repair_exact '
+               'actual_repair_token corrected_predictor_all_seeds'.split())
 seen = set()
 for name, axioms in re.findall(r"'Moonshot\.AlignedWalsh\.(\w+)' depends on axioms: \[([^\]]*)\]",
                               Path(sys.argv[1]).read_text()):

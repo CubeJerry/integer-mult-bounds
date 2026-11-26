@@ -406,3 +406,7 @@ The [direct and internal stream machines](sessions/2026-11-26-S008/node-streams.
 ### S008 numerical native and outer suppliers
 
 A separate implementation review confirmed the whole native local bill at R=4096 and the binary range adapter. The [ordinary outer transform](sessions/2026-11-26-S008/outer-layers.md) has an explicit layer count, a priced fixed-point compiler and an occupied-complement replay. The [Walsh ledger](sessions/2026-11-26-S008/walsh-node.md) and [permutation ledger](sessions/2026-11-26-S008/routing-outer-permutations.md) enter the integrated review. The exact full-integer range is being reconciled.
+
+### S008 complete multiplier transfer under review
+
+The [full clock](sessions/2026-11-26-S008/integer-clock.md) now selects one fixed R=240 machine. Its written large-input bound has explicit profile coefficient 71 and a unit-coefficient 0.501 cutoff. The raw fallback, phase/recovery, true slot-volume Walsh costs and uniform distinct-cell budget are priced. The [numerical Lean proof](sessions/2026-11-26-S008/full-cutoff.lean) independently checks the analytic threshold implication. The program-level proof remains written; source-level and executable integration checks continue.

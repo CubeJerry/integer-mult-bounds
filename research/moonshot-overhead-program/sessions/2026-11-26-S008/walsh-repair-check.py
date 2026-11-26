@@ -6,6 +6,7 @@ from itertools import combinations
 from math import comb, factorial, isqrt
 from pathlib import Path
 import json
+import argparse
 import random
 import subprocess
 
@@ -108,7 +109,7 @@ def invert_raw(A):
     return [row[n:] for row in matrix]
 
 
-def verify():
+def verify(unreduced=False):
     rng = random.Random(2037)
     counts = {'keys': 0, 'empty': 0, 'nonempty': 0, 'max_actual_defects': 0,
               'exact_table_entries': 0, 'exact_lagrange_entries': 0,
@@ -158,6 +159,10 @@ def verify():
                         physical.append([hex(M-1), str(target.numerator), str(target.denominator),
                                          hex(M), M.bit_length(), max(1, abs(target.numerator).bit_length(),
                                                                    target.denominator.bit_length())])
+                        if unreduced:
+                            raw_a = mat[r][s]
+                            physical.append([hex(M-1), str(raw_a), str(scale), hex(M),
+                                             M.bit_length(), max(abs(raw_a).bit_length(), scale.bit_length())])
         # Exercise factorial divisibility independently of the active small shift geometry.
         for n in (1, 2, 3, W//16):
             for _ in range(3):
@@ -169,15 +174,23 @@ def verify():
     check_module = (here / 'walsh-aligned-scalar.mjs').as_uri()
     child = 'import {checkScalar} from ' + json.dumps(check_module) + ';\n'
     child += '''import {readFileSync} from "node:fs";
+const receipts=[];
 for (const [x,a,b,M,K,B] of JSON.parse(readFileSync(0,"utf8"))) {
-  checkScalar(BigInt(x),BigInt(a),BigInt(b),BigInt(M),K,B);
-}'''
-    subprocess.run(['node', '--input-type=module', '-e', child],
-                   input=json.dumps(physical), text=True, check=True)
+  const receipt={count:0,moreShortDigits:0,maxTapes:0,maxReadsWritesMoves:0};
+  checkScalar(BigInt(x),BigInt(a),BigInt(b),BigInt(M),K,B,receipt);
+  receipts.push({K,B,head_actions:receipt.maxReadsWritesMoves});
+}
+console.log(JSON.stringify(receipts));'''
+    result = subprocess.run(['node', '--input-type=module', '-e', child],
+                            input=json.dumps(physical), text=True, check=True, capture_output=True)
+    counts['physical_word_receipts'] = json.loads(result.stdout)
     counts['physical_real_coefficients'] = len(physical)
     counts['physical_modulus_bits'] = [case[4] for case in physical]
     print(json.dumps(counts, sort_keys=True))
 
 
 if __name__ == '__main__':
-    verify()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--unreduced", action="store_true",
+                        help="Also run the full F²G numerator and denominator on the physical tapes.")
+    verify(parser.parse_args().unreduced)
