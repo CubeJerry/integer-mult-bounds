@@ -141,3 +141,7 @@ S005 explicit pivot: ordinary rowspace compiler survives as a positive supplied-
 ## S005 final scientific checkpoint
 
 S005 pivots to an exact polynomial CRT caller. Its full-input reduction and factor setup are proved; fast binary CRT/carry is the live gap. Retain CT and the local Bell/orbit theorems, without claiming their missing global suppliers. Final decisions: sessions/2026-11-26-S005/lead/FINAL-ADMISSION.md.
+
+### S005 late factor-lift interface
+
+S005-FL is admitted as exact carry transport plus affordable modulo-four Hensel-factor setup; see `sessions/2026-11-26-S005/LATE-ADDENDUM.md` and its independent review. The bottom conversion costs O(qH[B(b)+polylog(b)]), preserving the conditional endpoint budget when B(b)=O(sqrt(b)). Repeating it at all precisions would introduce normalized child mass 3/2. Binary CRT, higher carries and coherent higher factor setup remain open; the unconditional frontier is unchanged.

@@ -212,3 +212,7 @@ S005 second-wave status: the strongest unconditional written G(x) remains O(x^(2
 ## S005 final scientific checkpoint
 
 S005 retains unconditional H=2^{O(x^(2/3)(log2(x+2))^(1/3))}, G on that scale, delta=O((log2(x+2)/x)^(1/3)). CT conditionally gives H=(x+2)^C* with unconstructed local templates. UC6 conditionally reaches the endpoint from binary B(b)=O(sqrt(b)) and carry D(b,t)=O(1+sqrt(t)), plus all stated physical contracts; neither supplier is built.
+
+### S005 late factor-lift interface
+
+S005-FL is admitted as exact carry transport plus affordable modulo-four Hensel-factor setup; see `sessions/2026-11-26-S005/LATE-ADDENDUM.md` and its independent review. The bottom conversion costs O(qH[B(b)+polylog(b)]), preserving the conditional endpoint budget when B(b)=O(sqrt(b)). Repeating it at all precisions would introduce normalized child mass 3/2. Binary CRT, higher carries and coherent higher factor setup remain open; the unconditional frontier is unchanged.

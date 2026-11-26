@@ -40,3 +40,7 @@ bill. Formal work should instantiate a real AS body and physical cap.
 The one programme and S004/E003 records are preserved. No canonical
 certificate, source or upstream branch changed. Consolidated credits
 and substantial AI assistance are in the report and component notes.
+
+## Late admission FL
+
+[The separate addendum](../LATE-ADDENDUM.md) admits exact factor-lift carry transport and affordable modulo-four Hensel factors after complete lead and independent B review. This changes the first-carry interface; it constructs neither fast CRT nor a fast carry supplier. Higher-precision gates remain open. The frozen main report and its three review hashes are unchanged.

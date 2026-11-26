@@ -276,3 +276,7 @@ S005 open obligations: CT-I/CT-W remain unconstructed. BE needs fast entry/exit 
 ## S005 final scientific checkpoint
 
 UC/FS/KC are admitted within their written scopes. Next suppliers: binary CRT and actual high-digit remainder K_t, including correction generation, factor access and absolute visited space. Factor generation fits the prospective endpoint budget; global transforms/inverse constants do not yet have that bound. CT-I/CT-W remain open. Ordinary-orbit/Bell current implementations are frozen pending a changed complete invoice.
+
+### S005 late factor-lift interface
+
+S005-FL is admitted as exact carry transport plus affordable modulo-four Hensel-factor setup; see `sessions/2026-11-26-S005/LATE-ADDENDUM.md` and its independent review. The bottom conversion costs O(qH[B(b)+polylog(b)]), preserving the conditional endpoint budget when B(b)=O(sqrt(b)). Repeating it at all precisions would introduce normalized child mass 3/2. Binary CRT, higher carries and coherent higher factor setup remain open; the unconditional frontier is unchanged.

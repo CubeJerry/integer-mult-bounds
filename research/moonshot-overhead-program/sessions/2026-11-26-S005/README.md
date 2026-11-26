@@ -35,7 +35,7 @@ Jerry Chen (@CubeJerry); substantial ChatGPT multi-agent research and review.
 - [Fresh finite-algebra audit](lead/FINITE-ALGEBRA-AUDIT.md).
 
 The fifth narrow checked file is `lead/formal/ResourcePotential.lean`.
-The exact polynomial-CRT caller is under construction and not admitted here.
+At the second-wave checkpoint the exact CRT caller was still under construction; it is admitted in the final section below.
 
 ## Final scientific result
 
@@ -45,3 +45,11 @@ The exact polynomial-CRT caller is under construction and not admitted here.
 - [Independent retained-algebra audit](route-b/REVIEW-FINITE-ALGEBRA-CHAIN.md).
 
 Final additions are admitted in their explicit scopes. Fast binary CRT and carry suppliers remain open; the unconditional frontier is unchanged.
+
+## Late constructive result
+
+[Factor-lift addendum](LATE-ADDENDUM.md) records the independently reviewed carry transport and affordable modulo-four Hensel factors, with its precise bottom-layer cost and all-precision limitation.
+
+[Next concrete experiment](NEXT-EXPERIMENT.md): test compressed Frobenius-equivariant evaluation circuits, with full payload, basis conversion and movement charged. This is an open handoff, not an admitted fast supplier.
+
+[Final consistency review](route-c/FINAL-CONSISTENCY.md) verifies the frozen report, late references and pre-completion metadata. Observed completion and final publication are recorded separately.

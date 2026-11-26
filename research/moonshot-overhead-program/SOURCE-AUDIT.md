@@ -233,3 +233,7 @@ S005 lead and C independently read the actual general-fare controller, floor clo
 ## S005 final scientific checkpoint
 
 S005 canonical e54523517d0f03e58352e647c403a5af3e525a57 and OpenAI3344da59991ed94f9ba711217b29c1d760badfa6 refreshed unchanged at02:20:40UTC. Lead/C checked Bshouty–Diab–Kawar–Shahla2016 section2 deterministic fixed-field preprocessing and the published Annals2021 multitape multiplier statement; no full reread of the latter long proof is claimed. Scoped Tal revision1 and Perles–Weinstein operation-model reads are recorded in S005 lead/LITERATURE-REFRESH.md. Wider transitive/archive/priority coverage remains partial.
+
+### S005 final upstream refresh
+
+At 02:41:20 UTC on 26 November 2026, canonical main remained `e54523517d0f03e58352e647c403a5af3e525a57` and OpenAI math main remained `3344da59991ed94f9ba711217b29c1d760badfa6`. The research branch was confirmed at `b07df605a6724c017d0dbf3c3b9952e3fd2a6c58`. The frozen report's earlier 02:20 refresh remains a true historical observation.

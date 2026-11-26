@@ -229,3 +229,7 @@ S005 second wave: BE/SU/BO/AS and the finite-characteristic SP extension have in
 ## S005 final scientific checkpoint
 
 All three routes reviewed frozen S005 report30ee75e8f25d475f42a8960792bb1d2dfd04127c675f4be4166d06c1d9f47ff2. UC/FS has separately implemented exact checks. B independently reviewed KC and UC precision; C independently derived first-carry polarization. Fresh retained-algebra controls include cyclic phases, negative offsets and independent extension-field repair. Five narrow Lean4.35.0 files were independently rebuilt; no complete multiplier, upstream4.34.1 closure or comparator. Root receipt-hash consistency check found no unmatched proof/checker hash.
+
+### S005 late factor-lift interface
+
+S005-FL is admitted as exact carry transport plus affordable modulo-four Hensel-factor setup; see `sessions/2026-11-26-S005/LATE-ADDENDUM.md` and its independent review. The bottom conversion costs O(qH[B(b)+polylog(b)]), preserving the conditional endpoint budget when B(b)=O(sqrt(b)). Repeating it at all precisions would introduce normalized child mass 3/2. Binary CRT, higher carries and coherent higher factor setup remain open; the unconditional frontier is unchanged.

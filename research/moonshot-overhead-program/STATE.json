@@ -1,9 +1,9 @@
 {
   "schema": "moonshot-overhead-program-state-v2",
   "branch": "research/moonshot-overhead-program",
-  "status": "session_in_progress",
+  "status": "session_completed",
   "session_date_local": "2026-11-26",
-  "requested_duration_seconds": 10800,
+  "requested_duration_seconds": 7200,
   "source_pins": {
     "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
     "openai_math_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
@@ -89,11 +89,15 @@
     "s005_confirmed_checkpoints": [
       "78273a08ea35dee9997a5d4cfdecb0a1fb787687",
       "6cc559980c3005e5550ed9c97d6073be51491091",
-      "d0600416df65f62a935fccf100f3feec5ab363c8"
-    ]
+      "d0600416df65f62a935fccf100f3feec5ab363c8",
+      "b07df605a6724c017d0dbf3c3b9952e3fd2a6c58"
+    ],
+    "s005_final_checkpoint_contains_session_completion": true,
+    "s005_final_commit_id_location": "Git history and final chat; no recursive self-identifier."
   },
   "next_actions": [
     "Construct binary CRT and its actual integer-lift correction; extend to K_t with UC6 bills and absolute cap",
+    "Test binary CRT and first carry in the exact modulo-four Hensel-factor format; retain FL local work and higher-precision limits",
     "Retain full CT-I/CT-W contracts for changed joint delivery",
     "Formalize an actual AS dispatcher/body and physical visited-space refinement",
     "Freeze current ordinary-orbit/Bell invoices until a supplier changes the complete cost",
@@ -145,7 +149,7 @@
       "reviews": "Independent A/C reviews, lead proof/code reads and isolated exact replays"
     }
   },
-  "verification_status": "E002 V and S003 AQ separately admitted with independent global/source audits and finite evidence. S003 has direct absolute linear payload space. No full multiplier execution, formal refinement or human refereeing.",
+  "verification_status": "E002 V and S003 AQ separately admitted with independent global/source audits and finite evidence. S003 has direct absolute linear payload space. No full multiplier execution, formal refinement or human refereeing. S005 added fresh scoped finite-algebra/source reconstruction, separately reviewed CT and exact CRT interfaces, independent finite controls and five narrow Lean builds; no complete multiplier formalization.",
   "concurrent_work": {
     "epsilon_uniformity": "results/epsilon-uniformity/SESSION.json",
     "reconciled_head": "d1f3baccdcc547263c0c0cc7241aa0cb1ef12bee",
@@ -596,6 +600,12 @@
       "openai_math_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
       "unchanged": true,
       "reconciled_programme": "d88a36eea2010113e08f83f49bbe50886111ceff"
+    },
+    "s005_final": {
+      "checked_utc": "2026-11-26T02:41:20Z",
+      "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "openai_math_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
+      "changed": false
     }
   },
   "final_finite_extension_review": "verification/S002/lead-review-final-finite-witnesses.md",
@@ -629,6 +639,19 @@
       "background_execution": false,
       "final_report": "results/epsilon-uniformity/sessions/E002/FINAL-REPORT.md",
       "final_verification": "results/epsilon-uniformity/sessions/E002/FINAL-VERIFICATION.json"
+    },
+    "2026-11-26-S005": {
+      "id": "2026-11-26-S005",
+      "started_utc": "2026-11-26T00:49:41Z",
+      "planned_end_utc": "2026-11-26T02:49:41Z",
+      "ended_utc": "2026-11-26T02:49:41.710128+00:00",
+      "requested_seconds": 7200,
+      "actual_elapsed_seconds": 7200,
+      "requested_interval_satisfied": true,
+      "status": "completed",
+      "background_execution": false,
+      "report": "sessions/2026-11-26-S005/FINAL-REPORT.md",
+      "late_addendum": "sessions/2026-11-26-S005/LATE-ADDENDUM.md"
     }
   },
   "e002_current_result": {
@@ -763,14 +786,14 @@
     },
     "2026-11-26-S005": {
       "id": "2026-11-26-S005",
-      "status": "in_progress",
+      "status": "completed",
       "started_utc": "2026-11-26T00:49:41Z",
       "planned_end_utc": "2026-11-26T02:49:41Z",
       "requested_seconds": 7200,
       "timezone": "Australia/Melbourne",
       "background_execution": false,
       "starting_remote_head": "62d9d8e917379cb2edc17c9761e12e2345bc01f4",
-      "latest_reconciled_remote_head": "d0600416df65f62a935fccf100f3feec5ab363c8",
+      "latest_reconciled_remote_head": "b07df605a6724c017d0dbf3c3b9952e3fd2a6c58",
       "source_pins": {
         "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
         "openai_math_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
@@ -784,10 +807,10 @@
         "new_complete_overhead_bound": false
       },
       "routes": {
-        "A": "Complete: SP/RO/FC/BE/SU/UC/FS; final report reviewed",
-        "B": "Complete: CT/CR/SF/BO and finite-algebra/KC/UC reviews; report reviewed",
+        "A": "Complete: SP/RO/FC/BE/SU/UC/FS/FL; final report reviewed",
+        "B": "Complete: CT/CR/SF/BO and finite-algebra/KC/UC/FL independent reviews; report reviewed",
         "C": "Complete: independent component/formal/reproduction/report audits",
-        "lead": "Scientific report and admission frozen; final persistence and observed two-hour completion pending"
+        "lead": "Completed: independent source/algebra/formal reviews, exact carry and factor-lift derivations, synthesis, handoff and observed two-hour interval"
       },
       "concurrent_evidence": {
         "S004": "Completed at8a5d9b06; preserved",
@@ -796,10 +819,11 @@
       "checkpoints": [
         "78273a08ea35dee9997a5d4cfdecb0a1fb787687",
         "6cc559980c3005e5550ed9c97d6073be51491091",
-        "d0600416df65f62a935fccf100f3feec5ab363c8"
+        "d0600416df65f62a935fccf100f3feec5ab363c8",
+        "b07df605a6724c017d0dbf3c3b9952e3fd2a6c58"
       ],
       "publication": "Fork checkpoints only; no automatic upstream PR",
-      "last_prepared_utc": "2026-11-26T02:32:16.697203+00:00",
+      "last_prepared_utc": "2026-11-26T02:49:41.710128+00:00",
       "first_wave_admission": "lead/FIRST-WAVE-ADMISSION.md",
       "new_complete_unconditional_bound": false,
       "conditional_complete_bound": {
@@ -835,17 +859,35 @@
         "new_unconditional_bound": false
       },
       "source_refresh": {
-        "checked_utc": "2026-11-26T02:20:40Z",
+        "checked_utc": "2026-11-26T02:41:20Z",
         "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
         "openai_math_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
         "changed": false
       },
       "next_handoff": [
         "Construct binary CRT and its actual integer-lift correction; extend to K_t with UC6 bills and absolute cap",
+        "Test binary CRT and first carry in the exact modulo-four Hensel-factor format; use FL only with its paid conversion and higher-gate limits",
         "Retain full CT-I/CT-W contracts for changed joint delivery",
         "Formalize an actual AS dispatcher/body and physical visited-space refinement",
         "Freeze current ordinary-orbit/Bell invoices until a supplier changes the complete cost"
-      ]
+      ],
+      "late_addendum": "LATE-ADDENDUM.md",
+      "late_result": {
+        "claim": "S005-FL",
+        "status": "accepted exact factor-lift carry transport and affordable modulo-four setup; fast suppliers remain open",
+        "proof": "route-a/factor-lift-carry-transport.md",
+        "review": "route-b/REVIEW-FACTOR-LIFT-TRANSPORT.md",
+        "scope": "Bottom K_1 comparison only; higher-precision factor coherence and carry suppliers remain open",
+        "new_unconditional_bound": false
+      },
+      "late_scientific_finalized_utc": "2026-11-26T02:42:27.775574+00:00",
+      "next_experiment": "NEXT-EXPERIMENT.md",
+      "final_consistency_review": "route-c/FINAL-CONSISTENCY.md",
+      "ended_utc": "2026-11-26T02:49:41.710128+00:00",
+      "actual_elapsed_seconds": 7200,
+      "requested_interval_satisfied": true,
+      "final_manifest": "lead/manifest-final.json",
+      "final_publication_record": "The final checkpoint is the commit containing this completed record; Git history and final chat confirm its publication. The preceding confirmed checkpoint is b07df605a6724c017d0dbf3c3b9952e3fd2a6c58."
     }
   },
   "current_verified_frontier": {
@@ -862,7 +904,12 @@
         "method": "Fixed radix3, two-pass constant-payload pencil, bijective changing-field packing; direct absolute-space AI/NW without chunk compression",
         "status": "Complete written unconditional construction independently accepted by C, A source audit and lead"
       }
-    ]
+    ],
+    "s005_review": {
+      "scope": "Fresh finite-algebra and source/physical critical-chain reconstruction with no defect found; retained unconditional written frontier unchanged",
+      "report": "sessions/2026-11-26-S005/FINAL-REPORT.md",
+      "verification": "Five supporting Lean files independently rebuilt; complete multiplier not kernel-checked in this session"
+    }
   },
   "s003_current_result": {
     "formula": "T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log2(x+2))^(1/3))})",
@@ -973,7 +1020,7 @@
     "charter": "autoresearch/moonshot-strategy.md",
     "next_major_target": "G(x)=O(log(x+2)); finite absolute polynomial log-log exponent",
     "long_term_target": "G(x)=O(1)",
-    "baseline_review_status": "S005 partial independent critical-chain audit found no contradiction in examined chain; four narrow supporting kernel checks, full physical/caller formalization still open"
+    "baseline_review_status": "S005 scoped fresh critical-chain and finite-algebra audits found no defect in the examined retained written construction; five narrow supporting Lean files independently rebuilt; complete physical/caller formalization remains open"
   },
   "s005_current_result": {
     "admission": "sessions/2026-11-26-S005/lead/FINAL-ADMISSION.md",
@@ -1005,15 +1052,17 @@
       "S005-F5",
       "S005-UC",
       "S005-FS",
-      "S005-KC"
+      "S005-KC",
+      "S005-FL"
     ],
     "dominant_gaps": [
       "Construct binary CRT and its actual integer-lift correction; extend to K_t with UC6 bills and absolute cap",
+      "Test binary CRT and first carry in the exact modulo-four Hensel-factor format; use FL only with its paid conversion and higher-gate limits",
       "Retain full CT-I/CT-W contracts for changed joint delivery",
       "Formalize an actual AS dispatcher/body and physical visited-space refinement",
       "Freeze current ordinary-orbit/Bell invoices until a supplier changes the complete cost"
     ],
-    "checked_utc": "2026-11-26T02:32:16.697203+00:00",
+    "checked_utc": "2026-11-26T02:49:41.710128+00:00",
     "report": "sessions/2026-11-26-S005/FINAL-REPORT.md",
     "exact_caller": {
       "claim": "S005-UC/FS/KC",
@@ -1026,6 +1075,20 @@
         "route-b/REVIEW-CRT-CALLER-AND-CARRY.md"
       ],
       "new_unconditional_bound": false
-    }
-  }
+    },
+    "late_addendum": "sessions/2026-11-26-S005/LATE-ADDENDUM.md",
+    "late_result": {
+      "claim": "S005-FL",
+      "status": "accepted exact factor-lift carry transport and affordable modulo-four setup; fast suppliers remain open",
+      "proof": "route-a/factor-lift-carry-transport.md",
+      "review": "route-b/REVIEW-FACTOR-LIFT-TRANSPORT.md",
+      "scope": "Bottom K_1 comparison only; higher-precision factor coherence and carry suppliers remain open",
+      "new_unconditional_bound": false
+    },
+    "next_experiment": "sessions/2026-11-26-S005/NEXT-EXPERIMENT.md",
+    "final_consistency_review": "sessions/2026-11-26-S005/route-c/FINAL-CONSISTENCY.md",
+    "status": "completed"
+  },
+  "current_session_id": "2026-11-26-S005",
+  "current_session_record": "parallel_sessions.2026-11-26-S005"
 }

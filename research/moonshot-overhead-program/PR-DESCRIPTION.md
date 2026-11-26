@@ -130,3 +130,7 @@ S005 second-wave additions: a full-rate paired Bell compiler for the retained lo
 ## S005 final scientific checkpoint
 
 S005 adds a full-input exact CRT caller, explicit affordable factor stream, canonical precision recurrence and actual carry/circuit-lift identities. Fast binary CRT/carry and CT local template families remain open. These complement reviewed Bell/source-interface work without a new unconditional bound. This is a fork research checkpoint; no upstream PR was opened.
+
+## S005 completed interval and late factor-lift result
+
+The completed two-hour session adds exact transport between nearby factor lifts and affordable modulo-four Hensel factors. The complete bottom surcharge is O(qH[B(b)+polylog(b)]), preserving the endpoint implication under the stated open binary CRT/carry contracts. Higher precision is not supplied. Written proofs, independent agent reviews, exact controls, five narrow Lean builds and explicit verification limits are recorded in the S005 report, addendum and final manifest. The unconditional written frontier is unchanged.
