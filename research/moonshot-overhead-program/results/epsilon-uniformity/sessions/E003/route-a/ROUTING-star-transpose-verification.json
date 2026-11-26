@@ -1,0 +1,329 @@
+{
+  "status": "pass",
+  "scope": "Exact finite pair-query, endpoint-ordering, and monomial-support checks; no full tape execution or runtime lower bound.",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "source_pin": "3344da59991ed94f9ba711217b29c1d760badfa6",
+  "source_sha256": {
+    "kernel.tex": "f960a1c403134df527daafcb9b9e312057750cda922ce930b04e251e1382e361",
+    "binary.tex": "5979011cb813600f02b695af5cb320fe926f6e4ccbfaeb05073c9789e63f5fd7",
+    "walsh.tex": "4f28d915ef8f1b540d84037e00835078d12e30027380656db8a01532e90a6249",
+    "pairwise-newton-division.md": "792890b346b47ec28d5b7fffd4e16fd8d26b728ce5d92fcf15492f9ae9caffea"
+  },
+  "proof_sha256": "3a912cee9d62478f04189b001b409ba096f168aa6d81ef0e5771ad43d3246ce2",
+  "verifier_sha256": "9d8ede2047ba63f3828242c7bea7345ee95587d895e52f56fda5575df0a09e6b",
+  "spectral_cases": [
+    {
+      "f": 1,
+      "pair_alphabet": 4,
+      "matrix_entries": 16
+    },
+    {
+      "f": 2,
+      "pair_alphabet": 16,
+      "matrix_entries": 256
+    },
+    {
+      "f": 3,
+      "pair_alphabet": 64,
+      "matrix_entries": 4096
+    }
+  ],
+  "spectral_kernel_entries": 4368,
+  "involution_entries": 4368,
+  "normalized_walsh_entries": 4368,
+  "endpoint_cases": [
+    {
+      "f": 1,
+      "m": 1,
+      "array_entries": 16
+    },
+    {
+      "f": 1,
+      "m": 2,
+      "array_entries": 64
+    },
+    {
+      "f": 1,
+      "m": 3,
+      "array_entries": 256
+    },
+    {
+      "f": 1,
+      "m": 4,
+      "array_entries": 1024
+    },
+    {
+      "f": 2,
+      "m": 1,
+      "array_entries": 256
+    },
+    {
+      "f": 2,
+      "m": 2,
+      "array_entries": 4096
+    }
+  ],
+  "basis_query_pairs": 13456,
+  "nonzero_kernel_entries": 2242816,
+  "complete_array_coordinates": 13456,
+  "support_cases": [
+    {
+      "alphabet": 2,
+      "m": 1,
+      "row_support": 1
+    },
+    {
+      "alphabet": 2,
+      "m": 2,
+      "row_support": 2
+    },
+    {
+      "alphabet": 2,
+      "m": 3,
+      "row_support": 3
+    },
+    {
+      "alphabet": 2,
+      "m": 4,
+      "row_support": 4
+    },
+    {
+      "alphabet": 2,
+      "m": 5,
+      "row_support": 5
+    },
+    {
+      "alphabet": 2,
+      "m": 6,
+      "row_support": 6
+    },
+    {
+      "alphabet": 2,
+      "m": 7,
+      "row_support": 7
+    },
+    {
+      "alphabet": 2,
+      "m": 8,
+      "row_support": 8
+    },
+    {
+      "alphabet": 2,
+      "m": 9,
+      "row_support": 9
+    },
+    {
+      "alphabet": 2,
+      "m": 10,
+      "row_support": 10
+    },
+    {
+      "alphabet": 3,
+      "m": 1,
+      "row_support": 1
+    },
+    {
+      "alphabet": 3,
+      "m": 2,
+      "row_support": 2
+    },
+    {
+      "alphabet": 3,
+      "m": 3,
+      "row_support": 3
+    },
+    {
+      "alphabet": 3,
+      "m": 4,
+      "row_support": 4
+    },
+    {
+      "alphabet": 3,
+      "m": 5,
+      "row_support": 5
+    },
+    {
+      "alphabet": 3,
+      "m": 6,
+      "row_support": 6
+    },
+    {
+      "alphabet": 3,
+      "m": 7,
+      "row_support": 7
+    },
+    {
+      "alphabet": 3,
+      "m": 8,
+      "row_support": 8
+    },
+    {
+      "alphabet": 3,
+      "m": 9,
+      "row_support": 9
+    },
+    {
+      "alphabet": 3,
+      "m": 10,
+      "row_support": 10
+    },
+    {
+      "alphabet": 4,
+      "m": 1,
+      "row_support": 1
+    },
+    {
+      "alphabet": 4,
+      "m": 2,
+      "row_support": 2
+    },
+    {
+      "alphabet": 4,
+      "m": 3,
+      "row_support": 3
+    },
+    {
+      "alphabet": 4,
+      "m": 4,
+      "row_support": 4
+    },
+    {
+      "alphabet": 4,
+      "m": 5,
+      "row_support": 5
+    },
+    {
+      "alphabet": 4,
+      "m": 6,
+      "row_support": 6
+    },
+    {
+      "alphabet": 4,
+      "m": 7,
+      "row_support": 7
+    },
+    {
+      "alphabet": 4,
+      "m": 8,
+      "row_support": 8
+    },
+    {
+      "alphabet": 4,
+      "m": 9,
+      "row_support": 9
+    },
+    {
+      "alphabet": 4,
+      "m": 10,
+      "row_support": 10
+    },
+    {
+      "alphabet": 8,
+      "m": 1,
+      "row_support": 1
+    },
+    {
+      "alphabet": 8,
+      "m": 2,
+      "row_support": 2
+    },
+    {
+      "alphabet": 8,
+      "m": 3,
+      "row_support": 3
+    },
+    {
+      "alphabet": 8,
+      "m": 4,
+      "row_support": 4
+    },
+    {
+      "alphabet": 8,
+      "m": 5,
+      "row_support": 5
+    },
+    {
+      "alphabet": 8,
+      "m": 6,
+      "row_support": 6
+    },
+    {
+      "alphabet": 8,
+      "m": 7,
+      "row_support": 7
+    },
+    {
+      "alphabet": 8,
+      "m": 8,
+      "row_support": 8
+    },
+    {
+      "alphabet": 8,
+      "m": 9,
+      "row_support": 9
+    },
+    {
+      "alphabet": 8,
+      "m": 10,
+      "row_support": 10
+    },
+    {
+      "alphabet": 16,
+      "m": 1,
+      "row_support": 1
+    },
+    {
+      "alphabet": 16,
+      "m": 2,
+      "row_support": 2
+    },
+    {
+      "alphabet": 16,
+      "m": 3,
+      "row_support": 3
+    },
+    {
+      "alphabet": 16,
+      "m": 4,
+      "row_support": 4
+    },
+    {
+      "alphabet": 16,
+      "m": 5,
+      "row_support": 5
+    },
+    {
+      "alphabet": 16,
+      "m": 6,
+      "row_support": 6
+    },
+    {
+      "alphabet": 16,
+      "m": 7,
+      "row_support": 7
+    },
+    {
+      "alphabet": 16,
+      "m": 8,
+      "row_support": 8
+    },
+    {
+      "alphabet": 16,
+      "m": 9,
+      "row_support": 9
+    },
+    {
+      "alphabet": 16,
+      "m": 10,
+      "row_support": 10
+    }
+  ],
+  "signed_support_assignments": 10230,
+  "signed_support_incidences": 92170,
+  "negative_controls": [
+    "omitted endpoint rejected",
+    "one-slot instead of pair swap rejected",
+    "zero-weight m-support extension rejected"
+  ]
+}

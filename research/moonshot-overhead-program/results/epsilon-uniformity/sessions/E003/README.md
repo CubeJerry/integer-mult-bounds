@@ -51,6 +51,15 @@ and an ordering/laminar graph obstruction restrict specific improvement
 routes without lower-bounding arbitrary multiplication algorithms.
 See `CLAIMS.md` and the append-only session log for evidence and limits.
 
+The protected follow-on work now exposes a weighted star-transposition
+operator inside each individual free transfer. Its monomial-list and
+support-monotone arithmetic restrictions identify what a sharing mechanism
+must change. A destination-gauge factoring proposal is being checked as a
+concrete local improvement; its rank-weighted invoice has separate exact
+geometric counts and still retains the same leading logarithmic scale.
+The nonsymmetric extension of the finite gate classification has passed
+independent review and exhaustive small-field checks.
+
 ## Independent routes
 
 | Route | Question | Deliverable and decision gate |

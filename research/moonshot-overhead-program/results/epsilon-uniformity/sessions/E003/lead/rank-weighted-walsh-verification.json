@@ -1,0 +1,117 @@
+{
+  "status": "passed",
+  "scope": "Exact rank and arithmetic diagnostics only; physical factoring is a separate proof obligation.",
+  "canonical_cases": [
+    {
+      "q": 2,
+      "L": 2,
+      "rectangles": 8,
+      "side_rank_checks": 16,
+      "labels_per_side": 4,
+      "incidences_per_label": 2,
+      "rank_minus_one_sum_per_label": 0
+    },
+    {
+      "q": 2,
+      "L": 3,
+      "rectangles": 32,
+      "side_rank_checks": 64,
+      "labels_per_side": 8,
+      "incidences_per_label": 4,
+      "rank_minus_one_sum_per_label": 0
+    },
+    {
+      "q": 2,
+      "L": 4,
+      "rectangles": 128,
+      "side_rank_checks": 256,
+      "labels_per_side": 16,
+      "incidences_per_label": 8,
+      "rank_minus_one_sum_per_label": 0
+    },
+    {
+      "q": 2,
+      "L": 5,
+      "rectangles": 512,
+      "side_rank_checks": 1024,
+      "labels_per_side": 32,
+      "incidences_per_label": 16,
+      "rank_minus_one_sum_per_label": 0
+    },
+    {
+      "q": 2,
+      "L": 6,
+      "rectangles": 2048,
+      "side_rank_checks": 4096,
+      "labels_per_side": 64,
+      "incidences_per_label": 32,
+      "rank_minus_one_sum_per_label": 0
+    },
+    {
+      "q": 4,
+      "L": 2,
+      "rectangles": 48,
+      "side_rank_checks": 96,
+      "labels_per_side": 16,
+      "incidences_per_label": 4,
+      "rank_minus_one_sum_per_label": 2
+    },
+    {
+      "q": 4,
+      "L": 3,
+      "rectangles": 504,
+      "side_rank_checks": 1008,
+      "labels_per_side": 64,
+      "incidences_per_label": 14,
+      "rank_minus_one_sum_per_label": 15
+    },
+    {
+      "q": 4,
+      "L": 4,
+      "rectangles": 4992,
+      "side_rank_checks": 9984,
+      "labels_per_side": 256,
+      "incidences_per_label": 40,
+      "rank_minus_one_sum_per_label": 52
+    },
+    {
+      "q": 8,
+      "L": 2,
+      "rectangles": 224,
+      "side_rank_checks": 448,
+      "labels_per_side": 64,
+      "incidences_per_label": 6,
+      "rank_minus_one_sum_per_label": 8
+    },
+    {
+      "q": 8,
+      "L": 3,
+      "rectangles": 5432,
+      "side_rank_checks": 10864,
+      "labels_per_side": 512,
+      "incidences_per_label": 36,
+      "rank_minus_one_sum_per_label": 120
+    },
+    {
+      "q": 16,
+      "L": 2,
+      "rectangles": 960,
+      "side_rank_checks": 1920,
+      "labels_per_side": 256,
+      "incidences_per_label": 8,
+      "rank_minus_one_sum_per_label": 22
+    }
+  ],
+  "proper_product_sides_checked": 2948,
+  "free_bill_integer_guards": 4032,
+  "total_invoice_integer_guards": 5292,
+  "negative_controls": {
+    "proper_subset_hypothesis_is_required": true,
+    "subtracting_t_in_rank_sum_is_required": true,
+    "new_invoice_is_not_the_old_endpoint_list": true
+  },
+  "sha256": {
+    "verify_rank_weighted_walsh.py": "74c49a84c773896e677c99337206b026a771b35eae41d6cb88e350cffbfb4a0f",
+    "rank-weighted-walsh-invoice.md": "0f2537e62bb76e0c031f4d6f6a2cccb50e85b0a1e656402f03355966c6a719c4"
+  }
+}

@@ -24,9 +24,14 @@ physical, source and numerical review. It is not a new programme best.
 | Order-five converter/repair | Written finite construction and compact substitution independently accepted by A | Route C O5 notes; no improved asymptotic envelope claimed. |
 | Order-five word classification | Lead proof/exact F16 replay; C independently accepted | `lead/order-five-word-classification.md`; symmetric determinant-one and the specific C D C^2 word only. |
 | Two-converter port floor | Written scoped theorem independently accepted by lead | `route-c/TWO-CONVERTER-PORT-FLOOR.md`; integer parity matters at bounded degree; not an arbitrary algorithm lower bound. |
-| Binary Walsh literal label invoice | Exact rank/incidence proof and finite replay; B mathematical review accepted, exact review being recorded | `lead/binary-walsh-label-invoice-barrier.md`; log invoice >= sqrt(log m log log m) for the canonical positive invoice. |
+| Binary Walsh literal label invoice | Exact rank/incidence proof and finite replay; B independent exact-hash review accepted | `lead/binary-walsh-label-invoice-barrier.md`; log invoice >= sqrt(log m log log m) for the original canonical positive invoice. |
 | Coupled Walsh loss/toll barrier | Abstract equality-invoice theorem accepted by lead | `route-b/WALSH-TOLL-INVOICE-BARRIER.md`; positive square-root-normalized arity toll is a separate premise. |
 | Crown-product ordering/laminar obstruction | Written universal graph theorem independently accepted by C; exact finite replay | `lead/crown-product-laminar-obstruction.md`; rules out one global hierarchy or ordering, leaves arbitrary JR open. |
+| Nonsymmetric order-five extension | Universal algebraic proof; C independently reviewed and replayed | `lead/order-five-nonsymmetric-extension.md`; the same word pair forces diagonal conjugacy to the order-five gate without assuming symmetry. |
+| Exposed star middle kernel | Source normal form and monomial-list obstruction accepted by lead; independent exact replay | `route-a/ROUTING-STAR-TRANSPOSE-NORMAL-FORM.md`; m terms required in this representation, not m physical passes. |
+| Shared-sum star obstruction | Support-monotone circuit theorem accepted by lead | `route-b/STAR-SHARED-SUM-OBSTRUCTION.md`; exact injective-sector bound and alphabet-density guard, no movement-cost inference. |
+| Rank-weighted endpoint invoice | Exact span/load and arithmetic theorem; B review in progress | `lead/rank-weighted-walsh-invoice.md`; conditional interpretation of a changed endpoint list. Route A's physical factoring is reviewed separately; no better global H claimed. |
+| Maximal rectangles and bulk thinning | Universal graph theorem independently accepted by lead; C finite checks | `route-c/MAXIMAL-RECTANGLE-OBSTRUCTION.md`; sharp supported-maximal tradeoff and rank-essential thinning, leaves general JR open. |
 
 The complete E003 admission matches the earlier concurrent E002/S003
 two-thirds scale. The exact endpoint, a pure two-thirds exponent without

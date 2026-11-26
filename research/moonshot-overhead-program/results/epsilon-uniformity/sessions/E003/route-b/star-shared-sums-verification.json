@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "timestamp_utc": "2026-11-25T23:46:56.610060+00:00",
+  "python": "3.12.14",
+  "orbit_cases": [
+    {
+      "m": 2,
+      "vertices": 6,
+      "degree": 2,
+      "shared_input_pairs": 6,
+      "proved_addition_lower_bound": 6
+    },
+    {
+      "m": 3,
+      "vertices": 24,
+      "degree": 3,
+      "shared_input_pairs": 72,
+      "proved_addition_lower_bound": 48
+    },
+    {
+      "m": 4,
+      "vertices": 120,
+      "degree": 4,
+      "shared_input_pairs": 720,
+      "proved_addition_lower_bound": 360
+    },
+    {
+      "m": 5,
+      "vertices": 720,
+      "degree": 5,
+      "shared_input_pairs": 7200,
+      "proved_addition_lower_bound": 2880
+    },
+    {
+      "m": 6,
+      "vertices": 5040,
+      "degree": 6,
+      "shared_input_pairs": 75600,
+      "proved_addition_lower_bound": 25200
+    }
+  ],
+  "vertex_checks": 5910,
+  "edge_checks": 34404,
+  "unique_two_input_support_checks": 83598,
+  "weighted_support_checks": 11820,
+  "exact_density_checks": 126,
+  "negative_controls": {
+    "repeated_letters": {
+      "left": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "common": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "nonhub_generator": {
+      "left": [
+        0,
+        1,
+        2
+      ],
+      "right": [
+        1,
+        2,
+        0
+      ],
+      "common": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ]
+    },
+    "zero_weight_support": 2
+  },
+  "sha256": {
+    "route-b/verify_star_shared_sums.py": "91d1c4445cc82893cc01f5bb25f3ad7cc3fe5efeca75efbb29fa93091b51c105",
+    "route-b/STAR-SHARED-SUM-OBSTRUCTION.md": "f7a992b0f438efd9521eb2ffe055a5ee3d926099ae9ca55c0fddd60c1ede3511",
+    "route-a/ROUTING-STAR-TRANSPOSE-NORMAL-FORM.md": "3a912cee9d62478f04189b001b409ba096f168aa6d81ef0e5771ad43d3246ce2"
+  },
+  "scope": "Finite exact support/density controls; no circuit enumeration, bit-runtime claim, or multiplier execution."
+}

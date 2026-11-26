@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "fields": [
+    {
+      "q": 4,
+      "ordered_split_gates": 40,
+      "one_converter_gates": 14,
+      "nontriangular_converters": 0,
+      "triangular_converters": 14,
+      "joint_gates": 0,
+      "joint_nonsymmetric": 0,
+      "diagonal_word_trials": 126,
+      "one_converter_eigenvalue_orders": {
+        "3": 14
+      },
+      "nontriangular_orders": {}
+    },
+    {
+      "q": 8,
+      "ordered_split_gates": 432,
+      "one_converter_gates": 132,
+      "nontriangular_converters": 42,
+      "triangular_converters": 90,
+      "joint_gates": 0,
+      "joint_nonsymmetric": 0,
+      "diagonal_word_trials": 6468,
+      "one_converter_eigenvalue_orders": {
+        "7": 132
+      },
+      "nontriangular_orders": {
+        "7": 42
+      }
+    },
+    {
+      "q": 16,
+      "ordered_split_gates": 3808,
+      "one_converter_gates": 614,
+      "nontriangular_converters": 180,
+      "triangular_converters": 434,
+      "joint_gates": 60,
+      "joint_nonsymmetric": 56,
+      "diagonal_word_trials": 138150,
+      "one_converter_eigenvalue_orders": {
+        "15": 368,
+        "3": 62,
+        "5": 184
+      },
+      "nontriangular_orders": {
+        "15": 120,
+        "5": 60
+      }
+    }
+  ],
+  "negative_controls": {
+    "triangular_one_converters_do_exist": true,
+    "one_converter_does_not_force_order_five": true,
+    "joint_gates_need_not_be_symmetric": true,
+    "no_order_five_in_F4_or_F8": true
+  },
+  "scope": "Finite exact all-gate checks; universal classification uses the companion proof.",
+  "sha256": {
+    "verify_order_five_nonsymmetric.py": "ab43f93bf7206096e298cc069d7c274fae6ff754cc86ec9721b9b7408c533e7a",
+    "order-five-nonsymmetric-extension.md": "7e9656f5b901f5d7b4fd2da91e9792176c969c8e0d9611f2c90ac7c0cbd71a00"
+  }
+}

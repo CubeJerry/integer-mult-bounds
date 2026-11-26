@@ -1,7 +1,7 @@
 # A coupled Walsh call-loss and routing-toll invoice barrier
 
-Status: **proved abstract equality-invoice obstruction; source-profile
-supplier and independent review separate**.
+Status: **proved equality-invoice obstruction; independent review passed
+for the abstract proof, with separately reviewed literal source supplier**.
 
 This is a lower bound on a specified sufficient cost certificate. It is
 not a running-time lower bound for a Walsh transform, interchange or
@@ -178,12 +178,61 @@ invoice model. This is an analytic matching statement, not a priority
 claim: remote E002 independently admitted the same global scale during
 this session.
 
-The source-profile supplier must establish the actual positive label
-invoice, including charged rectangles whose coefficients are nonzero,
-and its relation to the normalized child coefficient after rounding.
-It cannot merely state that a call count is at most an expression and
-then treat that expression as a runtime lower bound. The theorem here
-remains explicitly a statement about the specified equality invoice.
+### Literal source instantiation
+
+The E003 lead's `../lead/binary-walsh-label-invoice-barrier.md`, reviewed
+separately in `REVIEW-BINARY-WALSH-INVOICE.md`, proves the required
+literal local profile. For `q=2^t`, `L>=2`, `s=floor(L/2)`, put
+
+```
+D=2+L(q-2),
+lambda=sum_(j odd) binom(L,j)t^j,
+J=D[1+lambda+m binom(L,s)q^(-ceil(L/2))].
+```
+
+Its exact-rank, exact-free-incidence and nonzero charged-coefficient
+proof gives `log2 J>=sqrt(log2 m log2 log2 m)` for `m>=2^16`.
+The canonical charged count is within a factor two of its highest
+degree term: successive terms `binom(L,j)q^j`, for `j<=s`, increase
+by a factor at least two. Thus the nonzero highest coefficient and
+the full canonical list are comparable with absolute constants.
+
+Retain the source polynomial-dimension guard `D<=m`, its rational
+Newton stage count Theta(sqrt(m)), and its finite repair. A conservative
+completed call **upper invoice** may be declared as
+
+```
+lambda_m=K sqrt(m) J,
+```
+
+where K is one fixed sufficiently large constant and may be enlarged
+to `K>=sqrt(8)`. This enlargement is an explicitly chosen sufficient
+bill, not a lower bound on an implementation's call count. Under the
+rounded source width `f>=a/(8m)`, its normalized equality coefficient
+satisfies
+
+```
+mu=lambda_m sqrt(f/a) >= J.
+```
+
+For large m, the lead's theorem therefore gives
+`log2 mu>=c_l Psi(log2 m)` with fixed `c_l>0`. For any retained
+bounded arity range, `J>=D>=2` and bounded Psi extend the same
+inequality after shrinking c_l. Alternatively one may restrict every
+nonbase call to the fixed admissible large-arity guard.
+
+The **independent routing premise** is still
+`tau>=c_0 m^kappa` after square-root normalization. It is satisfied
+by a declared polynomial-arity routing bill using an ideal
+`I(a)=sqrt(a)` interchange upper envelope, or by a retained
+`m^kappa0 sqrt(f)` bill with `kappa0>1/2`. The lead's label theorem
+does not prove this premise as an actual-time lower bound. If a new
+implementation changes that declared routing bill, this instantiation
+does not apply until the new recurrence is analyzed.
+
+This is consequently a matching statement about the specified positive
+equality invoice. At no point is an upper bound on a call count reversed
+into a lower bound on machine time.
 
 ## 4. A general necessary tradeoff
 
@@ -219,10 +268,35 @@ merely replacing Psi by a positive constant. A call coefficient tending
 to one, a smaller physical routing toll, or another recursive structure
 falls outside this obstruction and remains a possible research target.
 
-## 5. Open next questions and scope
+## 5. Structural negative controls
 
-1. Close the literal binary-Walsh label lower-bound supplier and verify
-   precisely which retained positive invoice its normalization gives.
+Each binding premise has a concrete failure mode if removed.
+
+* Without the polynomial-arity normalized toll, take one large jump
+  from `a=2mE` to a fixed even E and give it toll one. The invoice
+  `U=1+2^(c_l Psi(log m))` has logarithm of order
+  `sqrt(log a log log a)`, which is smaller than Phi(log a).
+  This satisfies the source-scale width relation but violates the
+  positive kappa toll premise.
+* Without positive accumulated call loss, choose one fixed arity
+  at every level, a fixed width reduction, and `mu_i=1`. With constant
+  positive toll, the equality invoice is linear in the number of
+  levels. Its logarithm is only O(log log a), smaller than W3.
+* Without W1, fix `m=2` and jump from an arbitrary root directly to
+  E. Constant local toll and local call coefficient then give a
+  constant invoice regardless of root width. The width-volume
+  interface is therefore an essential hypothesis.
+
+These controls are mathematical examples outside the theorem's
+hypotheses. They do not describe implementations of the source
+transform. In particular they show why the result cannot be promoted
+to an unconditional Walsh or multiplication lower bound.
+
+## 6. Open next questions and scope
+
+1. Determine whether the declared polynomial-arity routing bill can
+   be improved enough to change the proved local invoice, rather than
+   only optimizing the schedule of its existing terms.
 2. Can successive middle coordinate changes share physical routing so
    that the normalized polynomial-arity toll in W2 is replaced by a
    smaller proved bound?
