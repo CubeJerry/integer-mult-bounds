@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "claim": "RG exact finite character/separator/rank identities",
+  "scope": "Finite checks complement the unbounded proof; no time or full multiplier claim.",
+  "counts": {
+    "elementary_orbit_invariance": 55616,
+    "determinant_linear_identity": 40668,
+    "cofactor_families": 3,
+    "halfspace_matrices": 88,
+    "gram_entries": 33772,
+    "independent_rational_ranks": 38,
+    "full_cross_matrices": 3,
+    "rank_fraction_profiles": 12,
+    "negative_controls": 40
+  },
+  "profiles": [
+    {
+      "A": 2,
+      "f": 2,
+      "N": 16,
+      "cross_rank": 5,
+      "rank_fraction": "5/16"
+    },
+    {
+      "A": 2,
+      "f": 3,
+      "N": 64,
+      "cross_rank": 20,
+      "rank_fraction": "5/16"
+    },
+    {
+      "A": 2,
+      "f": 4,
+      "N": 256,
+      "cross_rank": 80,
+      "rank_fraction": "5/16"
+    },
+    {
+      "A": 2,
+      "f": 5,
+      "N": 1024,
+      "cross_rank": 320,
+      "rank_fraction": "5/16"
+    },
+    {
+      "A": 3,
+      "f": 3,
+      "N": 512,
+      "cross_rank": 132,
+      "rank_fraction": "33/128"
+    },
+    {
+      "A": 3,
+      "f": 4,
+      "N": 4096,
+      "cross_rank": 1056,
+      "rank_fraction": "33/128"
+    },
+    {
+      "A": 3,
+      "f": 5,
+      "N": 32768,
+      "cross_rank": 8448,
+      "rank_fraction": "33/128"
+    },
+    {
+      "A": 3,
+      "f": 6,
+      "N": 262144,
+      "cross_rank": 67584,
+      "rank_fraction": "33/128"
+    },
+    {
+      "A": 4,
+      "f": 4,
+      "N": 65536,
+      "cross_rank": 15456,
+      "rank_fraction": "483/2048"
+    },
+    {
+      "A": 4,
+      "f": 5,
+      "N": 1048576,
+      "cross_rank": 247296,
+      "rank_fraction": "483/2048"
+    },
+    {
+      "A": 4,
+      "f": 6,
+      "N": 16777216,
+      "cross_rank": 3956736,
+      "rank_fraction": "483/2048"
+    },
+    {
+      "A": 4,
+      "f": 7,
+      "N": 268435456,
+      "cross_rank": 63307776,
+      "rank_fraction": "483/2048"
+    }
+  ],
+  "source_sha256": "0382c151a6ca625a5399d072d555f3f0d767d1bd9936a73f23e9559b6b658f0a",
+  "proof_sha256": "0dbf77a282e0f7417169fb0153e8255aad5c4f149c7b6d528c2b74ca44ea5cda"
+}

@@ -1,0 +1,58 @@
+{
+  "checked_utc": "2026-11-26T01:34:13.218255+00:00",
+  "toolchain": "Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "review": "Lead read all four complete statements and proofs and independently rebuilt isolated byte copies. New importing semantics file built against a fresh compiled copy of its dependency.",
+  "scope": "Abstract allocation and batch divisibility; actual copied balanced count syntax with exact whole-word Boolean semantics, literal zero padding, size and degree. No cyclic compiler, physical refinement, matching upstream build, comparator or complete multiplier formalization.",
+  "records": [
+    {
+      "file": "ArenaSchedule.lean",
+      "sha256": "0457ccde1512c84a3f07bd0ae91a79cc6981d745f974ac583d952aa772c60176",
+      "command": [
+        "/tmp/riemann-toolchain/lean-4.35.0-linux/bin/lean",
+        "ArenaSchedule.lean"
+      ],
+      "exit_code": 0,
+      "stdout": "'MoonshotS005.ArenaSchedule.span_le' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.ArenaSchedule.visited_address_lt' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.repeatedReserve_span' does not depend on any axioms\n'MoonshotS005.three_parked_full_frames_exceed' depends on axioms: [propext, Quot.sound]\n",
+      "stderr": ""
+    },
+    {
+      "file": "BatchPath.lean",
+      "sha256": "e36aebac6f8f789fa11814f415565f6dadeeb306a3c89043c2a539b008316933",
+      "command": [
+        "/tmp/riemann-toolchain/lean-4.35.0-linux/bin/lean",
+        "BatchPath.lean"
+      ],
+      "exit_code": 0,
+      "stdout": "'MoonshotS005.BatchPath.product_le' depends on axioms: [propext]\n'MoonshotS005.BatchPath.product_dvd_spectators' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MoonshotS005.BatchPath.prefix_dvd_spectators' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": ""
+    },
+    {
+      "file": "CopiedCountFormula.lean",
+      "sha256": "7acf9cb4b02b654166b8cd355e73b9c5b18a1ee77034c0439ca57b13a29877f8",
+      "command": [
+        "/tmp/riemann-toolchain/lean-4.35.0-linux/bin/lean",
+        "-DwarningAsError=true",
+        "-o",
+        "/tmp/s005-lead-semantic-7qdfs_z4/CopiedCountFormula.olean",
+        "/tmp/s005-lead-semantic-7qdfs_z4/CopiedCountFormula.lean"
+      ],
+      "exit_code": 0,
+      "stdout": "'MoonshotS005.BitFormula.adder_truth' depends on axioms: [propext]\n'MoonshotS005.BitFormula.carry_size' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.carryChain_degree' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.output_size' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.output_degree' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.copiedSizeProfile_bound' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.copiedSizeProfile_fifth_power' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.balancedCount_size' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.balancedCount_degree' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.balancedCount_polynomial_size' depends on axioms: [propext, Quot.sound]\n",
+      "stderr": ""
+    },
+    {
+      "file": "CountSemantics.lean",
+      "sha256": "83a7132dbbe2121204c004badbfc6d8345ca7e5eb77f5b24001e6b08dbdabb50",
+      "command": [
+        "/tmp/riemann-toolchain/lean-4.35.0-linux/bin/lean",
+        "-DwarningAsError=true",
+        "-o",
+        "/tmp/s005-lead-semantic-7qdfs_z4/CountSemantics.olean",
+        "/tmp/s005-lead-semantic-7qdfs_z4/CountSemantics.lean"
+      ],
+      "exit_code": 0,
+      "stdout": "'MoonshotS005.BitFormula.paddedBalancedCount_exact_count' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.paddedBalancedCount_complete_spec' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.ripple_value' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.ripple_value_mod' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.balancedCount_value_mod' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.balancedCount_exact_count' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.balancedCount_complete_spec' depends on axioms: [propext, Quot.sound]\n",
+      "stderr": ""
+    }
+  ]
+}

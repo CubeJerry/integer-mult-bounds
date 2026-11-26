@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "deterministic_seed": 261105,
+  "checks": {
+    "codec_ranks": 23136,
+    "large_codec_samples": 135,
+    "address_roundtrips": 5024,
+    "orbit_sizes": 174,
+    "gl_action_identities": 20096,
+    "child_support_cases": 30,
+    "fourier_blocks": 634,
+    "zero_blocks": 280,
+    "degenerate_controls": 163,
+    "nondegenerate_blocks": 191
+  },
+  "scope": "Exact finite algebra/codecs and sparse rational matrix ranks, not physical tape execution, asymptotic timing or a formal-kernel proof.",
+  "files": {
+    "verify_rowspace_orbits.py": "d5ddb0b2c53f135d4736fbad34c269e21bf19c8436bc0ab2f956275ec3f139af",
+    "rowspace-orbit-compiler.md": "b8c07d0cfc933636f4182555d5a41578167ebb58959be119bd5eaa5562117c40"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "checked_utc": "2026-11-26T01:32:58.252888+00:00",
+  "toolchain": "Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "source_toolchain": "leanprover/lean4:v4.34.1 (not built)",
+  "programme_pin": "62d9d8e917379cb2edc17c9761e12e2345bc01f4",
+  "openai_pin": "3344da59991ed94f9ba711217b29c1d760badfa6",
+  "scope": "Abstract allocation/batch contracts; literal copied balanced count-formula syntax, local and whole-word exact semantics, literal zero padding, copied-tree size and degree bounds. No physical machine refinement, cyclic factorization, OAI build, comparator or multiplier theorem.",
+  "verifier_sha256": "d9c4fa53fbed5520880759bc00e4e93a3d52f5dfa77a037ec10b8477ddfb7d96",
+  "dependency_order": [
+    "ArenaSchedule.lean",
+    "BatchPath.lean",
+    "CopiedCountFormula.lean",
+    "CountSemantics.lean"
+  ],
+  "records": [
+    {
+      "file": "ArenaSchedule.lean",
+      "sha256": "0457ccde1512c84a3f07bd0ae91a79cc6981d745f974ac583d952aa772c60176",
+      "command": [
+        "/tmp/riemann-toolchain/lean-4.35.0-linux/bin/lean",
+        "-DwarningAsError=true",
+        "-o",
+        "/tmp/s005-count-proof-8vzpm26l/ArenaSchedule.olean",
+        "/workspace/scratch/23753152c6f8/s005-work/research/moonshot-overhead-program/sessions/2026-11-26-S005/route-c/formal/ArenaSchedule.lean"
+      ],
+      "lean_path": "/tmp/s005-count-proof-8vzpm26l",
+      "exit_code": 0,
+      "stdout": "'MoonshotS005.ArenaSchedule.span_le' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.ArenaSchedule.visited_address_lt' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.repeatedReserve_span' does not depend on any axioms\n'MoonshotS005.three_parked_full_frames_exceed' depends on axioms: [propext, Quot.sound]\n",
+      "stderr": "",
+      "printed_axioms": [
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "file": "BatchPath.lean",
+      "sha256": "e36aebac6f8f789fa11814f415565f6dadeeb306a3c89043c2a539b008316933",
+      "command": [
+        "/tmp/riemann-toolchain/lean-4.35.0-linux/bin/lean",
+        "-DwarningAsError=true",
+        "-o",
+        "/tmp/s005-count-proof-8vzpm26l/BatchPath.olean",
+        "/workspace/scratch/23753152c6f8/s005-work/research/moonshot-overhead-program/sessions/2026-11-26-S005/route-c/formal/BatchPath.lean"
+      ],
+      "lean_path": "/tmp/s005-count-proof-8vzpm26l",
+      "exit_code": 0,
+      "stdout": "'MoonshotS005.BatchPath.product_le' depends on axioms: [propext]\n'MoonshotS005.BatchPath.product_dvd_spectators' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MoonshotS005.BatchPath.prefix_dvd_spectators' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": "",
+      "printed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "file": "CopiedCountFormula.lean",
+      "sha256": "7acf9cb4b02b654166b8cd355e73b9c5b18a1ee77034c0439ca57b13a29877f8",
+      "command": [
+        "/tmp/riemann-toolchain/lean-4.35.0-linux/bin/lean",
+        "-DwarningAsError=true",
+        "-o",
+        "/tmp/s005-count-proof-8vzpm26l/CopiedCountFormula.olean",
+        "/workspace/scratch/23753152c6f8/s005-work/research/moonshot-overhead-program/sessions/2026-11-26-S005/route-c/formal/CopiedCountFormula.lean"
+      ],
+      "lean_path": "/tmp/s005-count-proof-8vzpm26l",
+      "exit_code": 0,
+      "stdout": "'MoonshotS005.BitFormula.adder_truth' depends on axioms: [propext]\n'MoonshotS005.BitFormula.carry_size' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.carryChain_degree' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.output_size' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.output_degree' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.copiedSizeProfile_bound' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.copiedSizeProfile_fifth_power' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.balancedCount_size' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.balancedCount_degree' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.balancedCount_polynomial_size' depends on axioms: [propext, Quot.sound]\n",
+      "stderr": "",
+      "printed_axioms": [
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "file": "CountSemantics.lean",
+      "sha256": "83a7132dbbe2121204c004badbfc6d8345ca7e5eb77f5b24001e6b08dbdabb50",
+      "command": [
+        "/tmp/riemann-toolchain/lean-4.35.0-linux/bin/lean",
+        "-DwarningAsError=true",
+        "-o",
+        "/tmp/s005-count-proof-8vzpm26l/CountSemantics.olean",
+        "/workspace/scratch/23753152c6f8/s005-work/research/moonshot-overhead-program/sessions/2026-11-26-S005/route-c/formal/CountSemantics.lean"
+      ],
+      "lean_path": "/tmp/s005-count-proof-8vzpm26l",
+      "exit_code": 0,
+      "stdout": "'MoonshotS005.BitFormula.paddedBalancedCount_exact_count' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.paddedBalancedCount_complete_spec' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.ripple_value' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.ripple_value_mod' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.balancedCount_value_mod' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.balancedCount_exact_count' depends on axioms: [propext, Quot.sound]\n'MoonshotS005.BitFormula.balancedCount_complete_spec' depends on axioms: [propext, Quot.sound]\n",
+      "stderr": "",
+      "printed_axioms": [
+        "Quot.sound",
+        "propext"
+      ]
+    }
+  ]
+}

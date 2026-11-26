@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "independent_method": "Integer character Gram idempotence, rational ranks, binary kernel counts.",
+  "scope": "Finite independent evidence for RG; no tape time or asymptotic execution.",
+  "cofactors": [
+    {
+      "A": 2,
+      "full_rank_B0": 3,
+      "cofactor_multiplicity": 1,
+      "alpha": "3/4",
+      "beta": "5/16"
+    },
+    {
+      "A": 3,
+      "full_rank_B0": 42,
+      "cofactor_multiplicity": 6,
+      "alpha": "21/32",
+      "beta": "33/128"
+    },
+    {
+      "A": 4,
+      "full_rank_B0": 2520,
+      "cofactor_multiplicity": 168,
+      "alpha": "315/512",
+      "beta": "483/2048"
+    }
+  ],
+  "halfspaces": {
+    "character_gram_checks": 120,
+    "literal_rational_rank_checks": 26,
+    "isotropic_radical_control": true
+  },
+  "separator": {
+    "explicit_GL_separator_checks": 86112
+  },
+  "source_sha256": {
+    "lead/rowspace-walsh-rank-gate.md": "0dbf77a282e0f7417169fb0153e8255aad5c4f149c7b6d528c2b74ca44ea5cda",
+    "review_rowspace_rank.py": "8837dea7943bf266896ba6755257addaca288d68e4df415645c427f43d96e60f"
+  }
+}

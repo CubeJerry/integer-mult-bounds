@@ -125,3 +125,9 @@ S004 fifth-wave positive execution and repair results are in sessions/2026-11-26
 ### S004 final-wave evidence (2026-11-26)
 
 S004 final mathematical work: A shared Fourier graphs and canonical leaf geometry; B exact correction interfaces and certified slower FFT supplier; C actual-swap rank bridge and independent numerical/physical audits. FINAL-REPORT.md collects bounds, scope and attribution.
+
+## S005 first-wave portfolio
+
+A stopped the square-product star route after a determinant obstruction and proved a positive orbit-layout compiler. A owns the physical converter; B owns the all-input subspace/quotient Fourier transition. B's CT gives the complete conditional polynomial-log-log target and CR isolates a retained dimension bill. C reviewed CT/CR/RO and audited AQ, with four narrow kernel-checked developments. The lead proved and B reviewed the quantitative cross-orbit Walsh rank gate.
+
+This constructive orbit wave must change the converter or child bill; otherwise freeze it unless a concrete new supplier changes that conclusion. The lead separately compares a constant-weight label family with source and prior incidence proofs. No new unconditional complete bound is claimed.

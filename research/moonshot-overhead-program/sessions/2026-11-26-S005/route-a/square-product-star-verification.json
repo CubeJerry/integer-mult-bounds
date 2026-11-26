@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "exact_arithmetic": "fractions.Fraction",
+  "deterministic_seed": 5026005,
+  "checks": {
+    "product_identities": 144,
+    "singular_row_products": 90,
+    "all_positive_determinants": 78,
+    "spectral_vectors": 104,
+    "signed_seed_kernel_vectors": 2547,
+    "rectangular_controls": 10,
+    "sum_controls": 5,
+    "address_diagonal_controls": 8,
+    "trivial_single_star_controls": 1
+  },
+  "scope": "Finite algebra only; unbounded proof in the accompanying note. No tape execution or formal kernel build.",
+  "files": {
+    "verify_square_product_star.py": "aa1f3fa51d78fea01afcbf6b74e97b136d3f3b7e2b84f55132a2598b9f01fd4a",
+    "square-product-star-obstruction.md": "bd4749fef46737e2196f70091d3e9e18fc9176c4e054378aa771571b2438a28c"
+  }
+}

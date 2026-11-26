@@ -1,0 +1,453 @@
+{
+  "claim": "CR3-CR7 and finite CR8-CR9 diagnostics",
+  "scope": "Exact algebra/rational invoices; no physical tape timing or full multiplication.",
+  "collision": {
+    "random_geometric_instances": 216,
+    "exact_scalar_rank_checks": 864,
+    "identity_class_entries": 25848,
+    "symmetric_count_checks": [
+      {
+        "dimension": 1,
+        "norm_one_directions": 1
+      },
+      {
+        "dimension": 2,
+        "norm_one_directions": 2
+      },
+      {
+        "dimension": 3,
+        "norm_one_directions": 4
+      },
+      {
+        "dimension": 4,
+        "norm_one_directions": 8
+      },
+      {
+        "dimension": 5,
+        "norm_one_directions": 16
+      },
+      {
+        "dimension": 6,
+        "norm_one_directions": 32
+      },
+      {
+        "dimension": 7,
+        "norm_one_directions": 64
+      },
+      {
+        "dimension": 8,
+        "norm_one_directions": 128
+      }
+    ],
+    "sharp_binary_examples": [
+      {
+        "D": 2,
+        "N": 2,
+        "rank": 1
+      },
+      {
+        "D": 2,
+        "N": 4,
+        "rank": 2
+      },
+      {
+        "D": 2,
+        "N": 6,
+        "rank": 3
+      },
+      {
+        "D": 2,
+        "N": 8,
+        "rank": 4
+      },
+      {
+        "D": 2,
+        "N": 10,
+        "rank": 5
+      },
+      {
+        "D": 2,
+        "N": 12,
+        "rank": 6
+      },
+      {
+        "D": 2,
+        "N": 14,
+        "rank": 7
+      },
+      {
+        "D": 2,
+        "N": 16,
+        "rank": 8
+      },
+      {
+        "D": 2,
+        "N": 18,
+        "rank": 9
+      },
+      {
+        "D": 2,
+        "N": 20,
+        "rank": 10
+      },
+      {
+        "D": 2,
+        "N": 22,
+        "rank": 11
+      },
+      {
+        "D": 2,
+        "N": 24,
+        "rank": 12
+      },
+      {
+        "D": 2,
+        "N": 26,
+        "rank": 13
+      },
+      {
+        "D": 2,
+        "N": 28,
+        "rank": 14
+      },
+      {
+        "D": 2,
+        "N": 30,
+        "rank": 15
+      },
+      {
+        "D": 2,
+        "N": 32,
+        "rank": 16
+      }
+    ],
+    "all_ones_target_rejected": true
+  },
+  "invoice": {
+    "families": [
+      {
+        "K": 1,
+        "B": 2,
+        "p": 1,
+        "exact_optimum_samples": [
+          {
+            "x": 32,
+            "depth": 2,
+            "first_y": 24,
+            "bill_numerator_bits": 11,
+            "bill_denominator_bits": 1,
+            "selected_chain": [
+              [
+                32,
+                24
+              ],
+              [
+                8,
+                6
+              ]
+            ]
+          },
+          {
+            "x": 64,
+            "depth": 3,
+            "first_y": 44,
+            "bill_numerator_bits": 15,
+            "bill_denominator_bits": 1,
+            "selected_chain": [
+              [
+                64,
+                44
+              ],
+              [
+                20,
+                16
+              ],
+              [
+                4,
+                2
+              ]
+            ]
+          },
+          {
+            "x": 128,
+            "depth": 3,
+            "first_y": 80,
+            "bill_numerator_bits": 20,
+            "bill_denominator_bits": 1,
+            "selected_chain": [
+              [
+                128,
+                80
+              ],
+              [
+                48,
+                34
+              ],
+              [
+                14,
+                12
+              ]
+            ]
+          },
+          {
+            "x": 256,
+            "depth": 4,
+            "first_y": 150,
+            "bill_numerator_bits": 27,
+            "bill_denominator_bits": 1,
+            "selected_chain": [
+              [
+                256,
+                150
+              ],
+              [
+                106,
+                68
+              ],
+              [
+                38,
+                28
+              ],
+              [
+                10,
+                8
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "K": 2,
+        "B": 2,
+        "p": 1,
+        "exact_optimum_samples": [
+          {
+            "x": 32,
+            "depth": 4,
+            "first_y": 14,
+            "bill_numerator_bits": 17,
+            "bill_denominator_bits": 1,
+            "selected_chain": [
+              [
+                32,
+                14
+              ],
+              [
+                18,
+                10
+              ],
+              [
+                8,
+                4
+              ],
+              [
+                4,
+                2
+              ]
+            ]
+          },
+          {
+            "x": 64,
+            "depth": 6,
+            "first_y": 26,
+            "bill_numerator_bits": 25,
+            "bill_denominator_bits": 1,
+            "selected_chain": [
+              [
+                64,
+                26
+              ],
+              [
+                38,
+                16
+              ],
+              [
+                22,
+                10
+              ],
+              [
+                12,
+                6
+              ],
+              [
+                6,
+                2
+              ],
+              [
+                4,
+                2
+              ]
+            ]
+          },
+          {
+            "x": 128,
+            "depth": 7,
+            "first_y": 46,
+            "bill_numerator_bits": 34,
+            "bill_denominator_bits": 1,
+            "selected_chain": [
+              [
+                128,
+                46
+              ],
+              [
+                82,
+                32
+              ],
+              [
+                50,
+                20
+              ],
+              [
+                30,
+                14
+              ],
+              [
+                16,
+                8
+              ],
+              [
+                8,
+                4
+              ],
+              [
+                4,
+                2
+              ]
+            ]
+          },
+          {
+            "x": 256,
+            "depth": 9,
+            "first_y": 84,
+            "bill_numerator_bits": 46,
+            "bill_denominator_bits": 1,
+            "selected_chain": [
+              [
+                256,
+                84
+              ],
+              [
+                172,
+                60
+              ],
+              [
+                112,
+                42
+              ],
+              [
+                70,
+                28
+              ],
+              [
+                42,
+                18
+              ],
+              [
+                24,
+                12
+              ],
+              [
+                12,
+                6
+              ],
+              [
+                6,
+                2
+              ],
+              [
+                4,
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "K": 1,
+        "B": 3,
+        "p": 2,
+        "exact_optimum_samples": [
+          {
+            "x": 32,
+            "depth": 1,
+            "first_y": 30,
+            "bill_numerator_bits": 15,
+            "bill_denominator_bits": 1,
+            "selected_chain": [
+              [
+                32,
+                30
+              ]
+            ]
+          },
+          {
+            "x": 64,
+            "depth": 2,
+            "first_y": 52,
+            "bill_numerator_bits": 22,
+            "bill_denominator_bits": 1,
+            "selected_chain": [
+              [
+                64,
+                52
+              ],
+              [
+                12,
+                10
+              ]
+            ]
+          },
+          {
+            "x": 128,
+            "depth": 3,
+            "first_y": 92,
+            "bill_numerator_bits": 31,
+            "bill_denominator_bits": 1,
+            "selected_chain": [
+              [
+                128,
+                92
+              ],
+              [
+                36,
+                32
+              ],
+              [
+                4,
+                2
+              ]
+            ]
+          },
+          {
+            "x": 256,
+            "depth": 3,
+            "first_y": 166,
+            "bill_numerator_bits": 42,
+            "bill_denominator_bits": 1,
+            "selected_chain": [
+              [
+                256,
+                166
+              ],
+              [
+                90,
+                68
+              ],
+              [
+                22,
+                20
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "failed_premise_controls": 316,
+    "scope": "Exact rational finite dynamic programming. No finite grid proves CR10."
+  },
+  "source_sha256": {
+    "verify_collision_and_invoice.py": "bc6878be70648ccf33a484824dfc1af824b5d9ee75281a0fa9903cb6044a10d6",
+    "collision-rank-and-invoice-floor.md": "6c361acb779ee32e4f14575a336278973d10feee29508085859e63f57cc2118f"
+  }
+}

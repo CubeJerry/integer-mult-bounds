@@ -219,3 +219,7 @@ E003 records complete reading of the primary tape interchange, permutations, Wal
 S004 lead fully read E003 ROUTING-STATE-WALK-SHARING.md atbaeb200f5, including Gray walk and binary exception. Overlap retains E003 credit. B read indexed primary Cooley–Tukey p297; lead read the self-contained FFT proof, not the complete primary article. No exhaustive novelty audit.
 
 S004 final provenance addition: Route B actually read Filmus, Smolensky's Lower Bound, Section5/Theorem5.2/Corollary5.3 at https://yuvalfilmus.cs.technion.ac.il/Manuscripts/Smolensky.pdf. The scalar complement/binomial-tail method retains that prior-art pointer; this does not expand the lead's claimed primary-paper read scope.
+
+## S005 source refresh and critical-chain coverage
+
+Programme start62d9d8e9 was reconciled through S004/E003 completion at8a5d9b06. Canonical main e54523517d0f03e58352e647c403a5af3e525a57 and OpenAI main3344da59991ed94f9ba711217b29c1d760badfa6 were live rechecked unchanged. Current prompt and strategy pins are in S005 SESSION.json. Lead read the actual OAI NearSquareRoot/Main.lean closure and relevant AQ, numerical, kernel/binary and outer source sections; C reconstructed the critical source/physical chain; B/C reread outer logarithms for CT. The source vanishing excess alone does not imply AQ's envelope. Coverage remains partial: no full matching-toolchain build, comparator, complete transitive formal audit, exhaustive archive/literature audit or human review. Precise boundaries are in S005's admission and reviews.

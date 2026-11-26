@@ -116,3 +116,7 @@ S003 adds the complete AQ construction and reviewed finite/restricted components
 ## E003 final-science checkpoint — 2026-11-26T00:51:12.839544+00:00
 
 E003 has independently admitted the same two-thirds complete envelope already recorded by E002/S003, with one absolute linear visited-space bound. Its protected local work now shares destination gauges, walks through partial Fourier states, and uses an exact minimum spanning tree of the state metric. The free call invoice becomes 2D+8M, with an explicit component-count formula and factorial bound; the charged term and retained routing toll leave the leading complete envelope unchanged. All lower statements are restricted to their stated positive invoices or algebraic models. E003 final report and scoped reviews are under results/epsilon-uniformity/sessions/E003/. No upstream PR was created by E003.
+
+## S005 checkpoint addition
+
+Adds a complete **conditional** polynomial-log-log transfer from two unconstructed local finite template contracts, a positive fixed-tape orbit-layout compiler with converter charged, scoped star/collision/Fourier-rank gates, and four narrow independently rebuilt Lean supporting proofs. Reviews are distinct from authors' checkers. The unconditional AQ/V/E003 written frontier remains unchanged; no endpoint, complete formal multiplier or practical implementation is claimed.

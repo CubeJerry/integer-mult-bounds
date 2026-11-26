@@ -198,3 +198,7 @@ The admitted E002 target attained is H<=2^{O(x^(2/3)(log2(x+2))^(1/3))}, x=log2(
 ## S003 final handoff — 2026-11-26T00:19:10Z
 
 S003 completed its requested three-hour interval. The admitted unconditional AQ bound remains `T(n)=O(n sqrt(L) 2^{O(s^(2/3)(log2(s+2))^(1/3))})`, with one fixed exact multitape machine and an absolute O(n) visited-cell cap. Final report: `sessions/2026-11-26-S003/FINAL-REPORT.md`; evidence manifest: `sessions/2026-11-26-S003/FINAL-MANIFEST.json`. The log factor remains at beta=2/3; every fixed beta>2/3 follows. S004 JR-only gives a complete conditional log-free two-thirds implication; JR is open. Polynomial-s overhead and the endpoint remain open; kappa_ov is null. Final carry improvements do not alter this complete envelope.
+
+## S005 conditional polynomial-log-log transfer
+
+Under the explicit, unconstructed local CT-I and CT-W contracts, T(n)=O(n sqrt(L) (x+2)^C*) with one fixed exact multitape full-product machine and one O(n) visited-cell cap, where C*=max(p_I+4,p_W+b+1). Thus G(x)=O(log(x+2)) and delta=O(log(x+2)/x) conditionally. Actual post-XOR delivery, integer guards, occupied batching, precision, setup and the real outer caller are charged. See [proof](sessions/2026-11-26-S005/route-b/critical-template-transfer.md) and [independent review](sessions/2026-11-26-S005/route-c/REVIEW-CRITICAL-TEMPLATE.md). The families are not instantiated. The unconditional AQ/V/E003 written frontier and separate JR conditional result are unchanged; the endpoint remains open.

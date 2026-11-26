@@ -213,3 +213,9 @@ E003 final integrity pass: all fifteen component hashes plus the integration rev
 ### S004 final-wave evidence (2026-11-26)
 
 S004 final isolated replays passed: FFT217cases/2542coefficients, actual triadic integration34cases/568coefficients, swap1461boundary columns, leaf140cosets/588points. Written time/all-visited audits and receipts: sessions/2026-11-26-S004/lead/FINAL-ADMISSION.md. These are not full machine timing simulations.
+
+## S005 first-wave verification
+
+C independently accepts CT/CR and the orbit compiler with explicit scopes; B independently accepts the lead's cross-orbit rank theorem. Separate exact implementations check star products and Walsh rank/Gram identities. Finite examples support the unbounded written proofs, not a machine-runtime claim.
+
+ArenaSchedule, BatchPath, CopiedCountFormula and CountSemantics compile with Lean4.35.0 (eb6cafb7290e8bd5f2937522d8d804f58f02bafc); lead read complete sources and rebuilt isolated byte copies. Axioms and hashes are in [receipt](sessions/2026-11-26-S005/lead/formal-replay.json). Source requires4.34.1; its full target/comparator were not rebuilt. The exact natural-number count, literal false padding, copied size and degree are checked. Cyclic factorization remains outside this development. No complete multiplier or physical refinement was kernel checked.

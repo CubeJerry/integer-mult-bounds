@@ -256,3 +256,13 @@ E003 closes the exact weighted-state MST within the canonical single-prepared-ba
 ### S004 final-wave evidence (2026-11-26)
 
 S004: JR remains open; no stronger unconditional bound. Exact residual correctors now have an all-input FFT supplier, but its fixed-a complete n log n(loglog n)^alpha time is slower. q2 free-call collapse retains charged rank>=N/2. q>=4 odd-line disjointness and actual-swap algebra exclude only stated models.
+
+## S005 first-wave gates — 26 November 2026
+
+- **S005-CT (accepted conditional complete):** bounded actual exact child mass and bounded Fourier mass with charged joint delivery imply C*=max(p_I+4,p_W+b+1) polynomial-log-log overhead, including the actual caller and one visited-space cap. Both finite families remain open.
+- **S005-RO (positive component):** full row-space layout supplies V poly(A) columnwise GL reindexing; ordinary converter costs V Af. Complete wide-record fibres, spectator order and role keys are explicit. Faster conversion and collective Fourier children remain open.
+- **S005-RG / SP (scoped):** a small-rank correction cannot complete an orbit-local Walsh operator; same-width square controlled-permutation products cannot execute the specified star core. Neither is a tape-runtime lower bound.
+- **S005-CR (scoped):** identity-on-labels collisions force logarithmic dimension; the declared dimension-charging adaptive invoice has log-squared log overhead. Changed joint invoices remain allowed.
+- **S005-F1/F2/F3/F4 (narrow kernel checks):** abstract arena reuse, batch divisibility, copied formula size/degree and local adder truth. Whole-word semantics and literal zero padding are checked; physical refinement remains open.
+
+The unconditional AQ/V/E003 written frontier is unchanged. See [admission](sessions/2026-11-26-S005/lead/FIRST-WAVE-ADMISSION.md).
