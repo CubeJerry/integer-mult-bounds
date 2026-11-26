@@ -1,0 +1,187 @@
+{
+  "seed": 26071119,
+  "field": "F2[w]/(w^2+w+1)",
+  "all_mask_basis_columns": 680,
+  "cases": [
+    {
+      "native_shape": [
+        3
+      ],
+      "full_binary_shape": [
+        4
+      ],
+      "lane_copies_per_axis": [
+        1
+      ],
+      "residual_lanes_per_row": 3,
+      "original_lanes": 2,
+      "padded_lanes": 3,
+      "true_points": 3,
+      "full_address_rows": 4,
+      "nonzero_dummy_rows": 1,
+      "synchronized_slots": 7,
+      "active_masks_seen": [
+        0,
+        1
+      ],
+      "native_GF4_comparisons_across_steps_and_both_directions": 126,
+      "mutation_wrong_bits_on_original_lanes": {
+        "omit_copies": 0,
+        "all_pairs": 3
+      },
+      "logical_output_sha256": "bcf169fcc2c952fdbd000fb9f895bbfac1a474a11f2e01a910cad87d3d05230e"
+    },
+    {
+      "native_shape": [
+        3,
+        5
+      ],
+      "full_binary_shape": [
+        8,
+        16
+      ],
+      "lane_copies_per_axis": [
+        2,
+        3
+      ],
+      "residual_lanes_per_row": 4,
+      "original_lanes": 22,
+      "padded_lanes": 24,
+      "true_points": 15,
+      "full_address_rows": 128,
+      "nonzero_dummy_rows": 38,
+      "synchronized_slots": 7,
+      "active_masks_seen": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "native_GF4_comparisons_across_steps_and_both_directions": 5040,
+      "mutation_wrong_bits_on_original_lanes": {
+        "omit_copies": 147,
+        "all_pairs": 303
+      },
+      "logical_output_sha256": "12ae0df576757469eb0d4c35a657b30c4aa4153e0708de3e9084de343273fb2f"
+    },
+    {
+      "native_shape": [
+        3,
+        5,
+        7
+      ],
+      "full_binary_shape": [
+        16,
+        16,
+        32
+      ],
+      "lane_copies_per_axis": [
+        5,
+        3,
+        4
+      ],
+      "residual_lanes_per_row": 3,
+      "original_lanes": 179,
+      "padded_lanes": 180,
+      "true_points": 105,
+      "full_address_rows": 8192,
+      "nonzero_dummy_rows": 1892,
+      "synchronized_slots": 7,
+      "active_masks_seen": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "native_GF4_comparisons_across_steps_and_both_directions": 264600,
+      "mutation_wrong_bits_on_original_lanes": {
+        "omit_copies": 15671,
+        "all_pairs": 18053
+      },
+      "logical_output_sha256": "10f209a9f769c539666bb836208f870609119a8cdfccc47fafc68e23e023161a"
+    },
+    {
+      "native_shape": [
+        4,
+        3,
+        5
+      ],
+      "full_binary_shape": [
+        16,
+        16,
+        16
+      ],
+      "lane_copies_per_axis": [
+        4,
+        5,
+        3
+      ],
+      "residual_lanes_per_row": 2,
+      "original_lanes": 119,
+      "padded_lanes": 120,
+      "true_points": 60,
+      "full_address_rows": 4096,
+      "nonzero_dummy_rows": 496,
+      "synchronized_slots": 7,
+      "active_masks_seen": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "native_GF4_comparisons_across_steps_and_both_directions": 100800,
+      "mutation_wrong_bits_on_original_lanes": {
+        "omit_copies": 6059,
+        "all_pairs": 7034
+      },
+      "logical_output_sha256": "2061f9038e61dd2336ff1978e7f6bc0d66a1b2069d9c662b67c30846060d7584"
+    },
+    {
+      "native_shape": [
+        6,
+        5
+      ],
+      "full_binary_shape": [
+        16,
+        16
+      ],
+      "lane_copies_per_axis": [
+        2,
+        3
+      ],
+      "residual_lanes_per_row": 4,
+      "original_lanes": 21,
+      "padded_lanes": 24,
+      "true_points": 30,
+      "full_address_rows": 256,
+      "nonzero_dummy_rows": 76,
+      "synchronized_slots": 8,
+      "active_masks_seen": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "native_GF4_comparisons_across_steps_and_both_directions": 11520,
+      "mutation_wrong_bits_on_original_lanes": {
+        "omit_copies": 346,
+        "all_pairs": 583,
+        "incomplete_borrow_restore": 94
+      },
+      "logical_output_sha256": "af5389e8720607928558eb09aeb2fb099c01beec42205b418b54aa4e5fd26af2"
+    }
+  ],
+  "total_native_GF4_comparisons": 382086,
+  "mutation_wrong_bits": {
+    "omit_copies": 22223,
+    "all_pairs": 25976,
+    "incomplete_borrow_restore": 94
+  }
+}

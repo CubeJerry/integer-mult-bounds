@@ -1224,9 +1224,13 @@
           {
             "sha": "f0e80c3261a746272ebe621fb2b03f76273985d9",
             "result": "all child FS1 CRTs and inverse via full-rate packed binary chirps; six new Lean modules"
+          },
+          {
+            "sha": "e9645d497787bc063a0ea8aede298c249f60128d",
+            "result": "Full literal FS1 transform and all independent inputs using the published polynomial multiplier, including the corrected even-degree orbit count."
           }
         ],
-        "verified_partial": "Grouped coefficient words to actual ambient monomial words and inverse, O(q b^{2/5}) time, O(q) visited cells. Product coordinates and complete CRT open.",
+        "verified_partial": "Earlier grouped embedding and trace-radix milestones preserved in checkpoints. The complete FS1 transform below supersedes them.",
         "radix_result": "Complete ordinary-to-relative-trace digits and inverse in O(q b/(log b)^eta), every fixed rational 0<eta<1/2. Tape proof independently reviewed. Literal child CRT and onward product basis remain separately priced.",
         "complete_grouped_clock": "O(q b 4^(log* b)) time, O(q) cells; packed fixed binary convolution, no field-width expansion.",
         "full_binary_transform": {
@@ -1234,12 +1238,15 @@
           "inputs": "contiguous coefficients or paid S006 prefix",
           "outputs": "literal canonical monomial remainders modulo every FS1 irreducible dividing X^q-X",
           "inverse": "all q independent FS1 bits",
-          "time": "O(q b 4^(log* b)), unconditional written",
+          "time": "O_eta(q b/(1+loglog(b+3))^eta) for each rational 0<eta<1/2; written proof",
           "other_than_two_long_product_families": "O_eta(q b/(1+loglog(b+3))^eta), fixed rational 0<eta<1/2",
           "visited_cells": "O(q)",
           "proof": "sessions/2026-11-26-S007/full-plane-crt.md",
           "stronger_clock": "square-root-times-polylog clock remains open",
-          "integer_implication": "No new complete integer-multiplication exponent or overhead."
+          "integer_implication": "No new complete integer-multiplication exponent or overhead.",
+          "geometric_layout_time": "O_eta(q b/(1+log(b+2))^eta)",
+          "batched_proof": "sessions/2026-11-26-S007/binary-transform-and-product.md",
+          "standalone_polynomial": "O_eta(n log(n+2)/(1+loglog(n+3))^eta), O(n) ever visited; faster earlier written time claim recorded."
         }
       }
     ],

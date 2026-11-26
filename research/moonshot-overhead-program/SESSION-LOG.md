@@ -378,3 +378,7 @@ The [all-degree construction](sessions/2026-11-26-S007/packed-chirp.md) computes
 ### S007 complete binary factor directory
 
 The [trace-plane construction](sessions/2026-11-26-S007/full-plane-crt.md) now starts at contiguous coefficients or the paid prefix, and ends at every literal FS1 factor. All independent inverse records recover their unique input. For q=2^b and every 3|b it takes O(q b 4^{log* b}) steps and O(q) cells ever visited on fixed tapes. A [power-projection and Padé directory](sessions/2026-11-26-S007/point-factor-directory.md) puts the work outside two explicit fixed binary product families at o(qb). The actual input-to-directory implementation passed at b=3,6,9,12,15. Ordinary monic division matched every degree-15 result. The complete multiplier still has its previous written bound. The requested square-root binary time and all higher carry obligations are open.
+
+### S007 batched polynomial products
+
+The [native three-batch construction](sessions/2026-11-26-S007/binary-transform-and-product.md) closes every long product at a strictly sub-$qb$ clock. The selected-grid product also bypasses the narrow final sort. Independent tests compared all 36 ordinary products via both routes, 69 separate packed-input products against direct convolution, and all 126 two-Pascal masks through rank six. A stronger earlier standalone time claim is linked in the proof. The integer bound and its carry obligations are unchanged.
