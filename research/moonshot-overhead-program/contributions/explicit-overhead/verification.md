@@ -1,5 +1,9 @@
 # Verification and provenance
 
+## S008 verification
+
+The [session verification record](../../sessions/2026-11-26-S008/VERIFICATION.md) identifies the exact kernel results and the written physical bills. Independent reconstructions check the fixed-tape node, the Walsh role counts, three outer transforms and the positive-length space cap. A full-precision 1,000-bit test recovered every coefficient and the exact 2,000-bit product. Deliberately omitting the inverse CRT changed 204 of 210 coefficients. The smooth and piecewise numerical thresholds have separate Lean certificates. The complete global machine theorem awaits independent human review.
+
 ## S007 verification
 
 The [component and numerical record](../../sessions/2026-11-26-S007/VERIFICATION.md) covers the new canonical factor inventory, arbitrary CRT assignments, two independently implemented order changes, first-carry formula and mod-four convolution. The full physical clocks are written arguments with AI review. Independent human refereeing remains open.

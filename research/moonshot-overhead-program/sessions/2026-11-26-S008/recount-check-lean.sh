@@ -1,6 +1,13 @@
 #!/usr/bin/env bash
-# Build the physical neutral-bank trace against the original OAI finite-tape definitions.
+# Rebuild one physical proof against the original OAI finite-tape definitions.
 set -euo pipefail
+
+case ${1:-handoff} in
+  handoff) local_modules=(RecountHandoff) ;;
+  product) local_modules=(RecountHandoff RecountProduct) ;;
+  *) echo 'Usage: recount-check-lean.sh [handoff|product]' >&2; exit 2 ;;
+esac
+test "$#" -le 1
 
 session_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 staging=$(mktemp -d)
@@ -47,10 +54,16 @@ for i in "${!modules[@]}"; do
   test "$(git hash-object "$proof_root/$path")" = "${blobs[i]}"
 done
 cp "$session_dir/recount-handoff.lean" "$proof_root/RecountHandoff.lean"
+if [[ ${local_modules[-1]} == RecountProduct ]]; then
+  cp "$session_dir/recount-product.lean" "$proof_root/RecountProduct.lean"
+fi
 
 cd "$mathlib_dir"
 needed=(Mathlib/Basic/Finite/Prod Mathlib/Data/Nat/Log Mathlib/Analysis/SpecialFunctions/Pow/Real
         Mathlib/Data/Set/Card Mathlib/Data/Int/Interval Mathlib/Algebra/BigOperators/Group/Finset/Basic)
+if [[ ${local_modules[-1]} == RecountProduct ]]; then
+  needed+=(Mathlib/Tactic/Ring Mathlib/Tactic/Linarith)
+fi
 for module in "${needed[@]}"; do
   if [[ ! -f ".lake/build/lib/lean/$module.olean" ]]; then
     lake exe cache get "${needed[@]/%/.lean}"
@@ -62,7 +75,7 @@ lake env bash -euc '
   shift
   export LEAN_PATH="$PWD:$LEAN_PATH"
   for module in "$@"; do
-    lean -DwarningAsError=true -o "$module.olean" "$module.lean"
+    lean -j1 -DwarningAsError=true -o "$module.olean" "$module.lean"
   done
-  leanchecker -v --fresh RecountHandoff
-' bash "$proof_root" "${modules[@]}" RecountHandoff
+  leanchecker -v --fresh "${!#}"
+' bash "$proof_root" "${modules[@]}" "${local_modules[@]}"

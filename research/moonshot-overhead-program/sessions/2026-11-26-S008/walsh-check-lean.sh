@@ -36,6 +36,7 @@ cp "$session_dir/walsh-interpolation.lean" "$root/WalshInterpolation.lean"
 cp "$session_dir/walsh-rounding.lean" "$root/WalshRounding.lean"
 cp "$session_dir/walsh-shift.lean" "$root/WalshShift.lean"
 cp "$session_dir/walsh-clock.lean" "$root/WalshClock.lean"
+cp "$session_dir/walsh-groups.lean" "$root/WalshGroups.lean"
 cd "$mathlib_dir"
 lake env bash -euo pipefail -c '
     cd "$1"
@@ -45,7 +46,7 @@ lake env bash -euo pipefail -c '
     for module in "$2/KernelColumn" "$2/KernelPass" "$3/Token" ModularWalshExact; do
         lean -DwarningAsError=true -o "$module.olean" "$module.lean" > /dev/null
     done
-    for module in WalshAligned WalshInterpolation WalshRounding WalshShift WalshClock; do
+    for module in WalshAligned WalshInterpolation WalshRounding WalshShift WalshClock WalshGroups; do
         lean -DwarningAsError=true -o "$module.olean" "$module.lean" | tee -a axioms.txt
         if [[ "$module" == WalshAligned && "${S008_WALSH_FRESH_ALIGNED:-0}" == 1 ]]; then
             leanchecker -v --fresh "$module"
@@ -69,9 +70,13 @@ expected.update(('character_orthogonal shifted_count_identity exact_second_momen
                  'signed_is_shifted_bit exceptional_card window_card newton_in_window predictor_in_window '
                  'actual_defect_capacity canonical_mask_count radius_square numbered_defect_capacity '
                  'gapProduct_pos actual_gap_dvd actual_numbered_gap_dvd numbered_repair_token '
-                 'canonical_degree shiftSign_is_parity numbered_repair_all_rows numerical_decrement quarter_clock').split())
+                 'canonical_degree shiftSign_is_parity numbered_repair_all_rows numerical_decrement quarter_clock '
+                 'two_eighth_invoice square_root_invoice finite_to_quarter').split())
+expected.update(('raw_word_bound group_modulus_range group_modulus_fits recover_group group_tensor '
+                 'two_group_return even_shift_spec real_midpoint_error normalized_magnitude_spec '
+                 'normalized_signed_error grid_error grouped_grid_error complex_layer_squared_error').split())
 seen = set()
-for name, axioms in re.findall(r"'Moonshot\.AlignedWalsh\.(?:(?:ShiftGeometry|Clock)\.)?(\w+)' depends on axioms: \[([^\]]*)\]",
+for name, axioms in re.findall(r"'Moonshot\.AlignedWalsh\.(?:(?:ShiftGeometry|Clock|Groups)\.)?(\w+)' depends on axioms: \[([^\]]*)\]",
                               Path(sys.argv[1]).read_text()):
     if set(re.split(r',\s*', axioms.strip())) - {'propext', 'Classical.choice', 'Quot.sound'}:
         raise SystemExit(f'Unexpected axioms for {name}: {axioms}')

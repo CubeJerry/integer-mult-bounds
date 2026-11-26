@@ -2,7 +2,7 @@
 
 ## S008 numerical integer multiplier
 
-The [current contribution](contributions/explicit-overhead/README.md) gives one fixed exact machine with the explicit time bound \(n\sqrt{\log_2n}\,2^{71\Phi(\log_2\log_2n)}\) at a stated input-size cutoff. A second explicit cutoff gives unit-coefficient \(n(\log_2n)^{0.501}\). Both operands may contain leading zeros, and one absolute linear space cap covers every visited cell. The older proofs below establish the same asymptotic order. The cross-anchor investigation establishes a scoped improvement in the number of endpoint occurrences. The slower-decaying asymptotic factor remains. [Numerical clock](sessions/2026-11-26-S008/integer-clock.md) · [Routing proof](sessions/2026-11-26-S008/routing-cross-anchor.md)
+One fixed deterministic multitape machine multiplies two arbitrary \(n\)-bit strings, writes the complete \(2n\)-bit product, and visits at most \(2^{32}n\) tape/address pairs. With \(L=1+\log_2 n\), \(x=\log_2 L\), and \(\Phi(x)=(x^2\log_2(x+2))^{1/3}\), it takes at most \(n\sqrt L\,2^{71\Phi(x)}\) transitions for every \(n\ge2\). The explicit sufficient threshold \(\log_2\log_2n\ge11{,}665{,}715{,}140{,}844{,}862\) gives \(T(n)\le n(\ln n)^{501/1000}\). These estimates quantify the previous functional order. The cross-anchor investigation reduced endpoint occurrences by an unbounded factor under its stated constraints; the complete machine still incurs the prior order of excess. [All-length proof](sessions/2026-11-26-S008/all-lengths.md) · [Threshold proof](sessions/2026-11-26-S008/routing-piecewise-walsh.md) · [Routing experiment](sessions/2026-11-26-S008/routing-cross-anchor.md)
 
 ## Current contribution after S007
 

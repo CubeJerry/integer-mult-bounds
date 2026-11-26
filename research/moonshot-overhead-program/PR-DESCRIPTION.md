@@ -1,26 +1,24 @@
-# Explicit overhead for exact integer multiplication on fixed tapes
+# Quantitative overhead for exact integer multiplication on fixed tapes
 
 ## Result
 
-One deterministic finite-alphabet multitape machine computes the full $2n$-bit product for every input length in
-$$
- O\!\left(n\sqrt L\,2^{O((x^2\log_2(x+2))^{1/3})}\right)
- \quad\text{steps and } O(n)\text{ cells ever visited},
- \qquad L=1+\log_2 n,\quad x=\log_2 L.
-$$
-This is the programme's retained unconditional written result. The published tape theorem gives a vanishing logarithmic excess. The contribution exposes an explicit rate, parameters and tape costs in one [direct-space proof](contributions/explicit-overhead/README.md). E002 and E003 give independent same-order constructions. The exact square-root upper bound, polynomial overhead in $x$, and literature priority remain open.
+One deterministic finite-alphabet multitape machine multiplies two arbitrary \(n\)-bit strings and writes exactly \(2n\) bits. Set \(L=1+\log_2 n,\ x=\log_2 L,\ \Phi(x)=(x^2\log_2(x+2))^{1/3}\). Its written time bound is \(n\sqrt L\,2^{71\Phi(x)}\) for every \(n\ge2\); \(n=1\) takes at most 4096 transitions. At most \(2^{32}n\) physical tape cells are visited through halt. [All-length proof](sessions/2026-11-26-S008/all-lengths.md) · [Space proof](sessions/2026-11-26-S008/routing-outer-space.md)
 
-## Changes available for review
+Whenever \(\log_2\log_2 n\ge11{,}665{,}715{,}140{,}844{,}862\), the worst case is at most \(n(\ln n)^{501/1000}\), with coefficient one. This is a sufficient length. The construction quantifies the fork's earlier cube-root rate for the excess. The square-root endpoint and a faster functional order remain open. [Threshold proof](sessions/2026-11-26-S008/routing-piecewise-walsh.md) · [Independent certificate](sessions/2026-11-26-S008/recount-sharp.lean)
 
-- The [elementary sieve](contributions/explicit-overhead/coprime-axes.md) certifies the released descending gcd search at its original widths. The [interchange schedule](contributions/explicit-overhead/AQ-P.md) prices full-volume returns and the union of tape cells visited. Fixed Toom-3 covers the outer full-word products.
-- The [modular Walsh executor](contributions/explicit-overhead/modular-walsh.md) carries out each rational row operation on bounded words and rounds at the boundary. Its short scalar has [fixed-head code](contributions/explicit-overhead/modular-scalar-machine.mjs). The [Lean proof](contributions/explicit-overhead/formal/ModularWalshExact.lean) recovers exact signed sums of the published target under its integer magnitude bound.
-- The [Complete ordered binary CRT](sessions/2026-11-26-S007/binary-transform-and-product.md) accepts all $2^b$ independent coefficient or factor bits in both directions and charges the full degree/Lyndon order.
-- The [First carry](sessions/2026-11-26-S007/first-witt-carry.md) computes the actual first high remainder digit for the literal integer factors. The [fixed-precision extension](sessions/2026-11-26-S007/fixed-witt-precision.md) handles arbitrary independent residues over each fixed coefficient ring. Its costs at growing precision remain open.
+## Construction for review
+
+* The native ternary interchange includes ordinary steps, all grouped children, returns, binary adaptation and the finite compiler. The full proof fixes \(R=240\). [Numerical interchange](sessions/2026-11-26-S008/node-root-parameter.md)
+* The Walsh calculation charges the common denominator, each true slot width, actual child volumes, bounded precision and reusable banks. [Walsh proof](sessions/2026-11-26-S008/walsh-node.md)
+* The two forward transforms and adjoint include phase generation, guarded permutations, CRT, exact recovery and fresh output. Earlier lengths use a direct dyadic transform or the raw grade-school machine. [Outer caller](sessions/2026-11-26-S008/outer-layers.md) · [Dyadic caller](sessions/2026-11-26-S008/address-dyadic-caller.md)
+
+* The cross-anchor partition reduces endpoint occurrences within a stated routing model. The remaining local and Walsh costs keep the previous asymptotic rate. Fixed-precision ordered factor transforms remain a separate result in this contribution. [Routing assessment](sessions/2026-11-26-S008/address-review-cross.md) · [Earlier fixed-precision transform](sessions/2026-11-26-S007/fixed-witt-precision.md)
 
 ## Verification
 
-Component Lean modules were rebuilt with the pinned compiler and replayed in the kernel. Independent AI reviews reconstructed routing, arithmetic and the caller interfaces. Direct finite polynomial division, independent inverse inputs, and signed division modulo four check the numerical implementations. The resource bounds are written proofs awaiting human review. [Session verification](sessions/2026-11-26-S007/VERIFICATION.md) · [Session report](sessions/2026-11-26-S007/FINAL-REPORT.md)
+Independent AI reviews reconstructed the numerical joins and port conventions. Component Lean proofs cover selected tape rules, interpolation, real-variable bounds and numerical cutoffs. A small-box full-grid replay recovered all 210 coefficients and a 2,000-bit product. The written whole-machine time theorem awaits independent human review and end-to-end formalization. [Verification record](sessions/2026-11-26-S008/VERIFICATION.md)
 
 ## Credits
 
-Jerry Chen (@CubeJerry) directed the programme with substantial ChatGPT research and multi-agent assistance. OpenAI's source authors supplied the 2026 tape and Fourier constructions. S002/E001, E002, S003/E003, S004 and S005 supplied the preceding credited proofs, conditional transfers and negative results. The cited authors retain credit for combinatorial sieves, fast integer multiplication, Toom–Cook interpolation, Frobenius partitions, additive Fourier transforms and normal-basis theory. Cantor and Kaltofen supplied the cyclotomic decomposition, Yann Tal the fixed-tape sorting theorem, Harvey and van der Hoeven the short products, and Swapnil Jain the verified finite residue word.
+Jerry Chen (@CubeJerry) directed the programme with substantial ChatGPT research and multi-agent assistance. OpenAI's source authors supplied the 2026 tape and Fourier constructions. S002/E001, E002, S003/E003 and S004–S007 supplied the preceding credited proofs, conditional transfers and negative results. The cited authors retain credit for combinatorial sieves, fast multiplication, Toom–Cook interpolation, Frobenius partitions, Fourier transforms and normal-basis theory. Cantor and Kaltofen supplied the cyclotomic decomposition, Yann Tal the fixed-tape sorting theorem, Harvey and van der Hoeven the short products, and Swapnil Jain the verified finite residue word.
+

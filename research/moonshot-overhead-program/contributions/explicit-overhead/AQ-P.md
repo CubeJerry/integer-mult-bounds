@@ -1,5 +1,9 @@
 # A fixed tape arena and a strict clock for AQ interchange
 
+## Numerical specialization used by the integer caller
+
+At cutoff exponent \(R=240\), the fixed physical node costs at most \(2m^{120}V\) transitions before child charges, and the direct base costs at most \(256(e+1)V\). With \(A_I=5120\) and \(B_I=61\), the induction in the [native ledger](../../sessions/2026-11-26-S008/node-root-parameter.md) gives the required numerical width price. The full reserve and repeated-child mass are included. The [formal contraction](../../sessions/2026-11-26-S008/native-contraction.lean) proves the analytic quarter from the node-mass estimate. The [whole-input dispatch](../../sessions/2026-11-26-S008/all-lengths.md) gives its use in ordinary integer multiplication.
+
 The actual recursive calls of S003's adaptive interchanger (AI), including all full-volume reserve calls, consume at most a quarter of a suitable parent time allowance. Its payload passes through the recursion using fixed tape regions. These two statements instantiate the physical scheduling and analytic clock edges of S005-AS for this algorithm.
 
 **Claim.** Let V = PGS·3^(2e) be the number of independent raw bits of a native request with two radix-three fields of width e and three positive spectator ranges. Write v(e)=max(1,e), and set

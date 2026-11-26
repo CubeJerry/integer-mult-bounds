@@ -2,7 +2,7 @@
 
 ## S008 quantitative frontier
 
-Put \(L=1+\log_2n,\ x=\log_2L,\ \Phi(x)=(x^2\log_2(x+2))^{1/3}\). On the [explicit large-input range](sessions/2026-11-26-S008/integer-clock.md) one machine has \(H(n)\le 2^{71\Phi(x)},\ G=\log_2H\le71\Phi(x)\), and \(\delta(n)=G/x\le71(\log_2(x+2)/x)^{1/3}\). A literal bit-length cutoff and finite transition coefficients now accompany exponent \(0.501\). Attaining \(G=O(\log(x+2))\), \(G=O(1)\), or even removing the cube-root logarithmic factor still requires a new algorithmic argument. The remaining charge in the tested traversal includes the spatial placement of differing endpoints and the full Walsh computation. [Scoped cost comparison](sessions/2026-11-26-S008/routing-cross-anchor.md)
+Put \(L=1+\log_2 n,\ x=\log_2 L,\ \Phi(x)=(x^2\log_2(x+2))^{1/3}\). For all \(n\ge2\) one machine has \(H(n)\le2^{71\Phi(x)}\), \(G=\log_2H\le71\Phi(x)\), and \(\delta(n)=G/x\le71(\log_2(x+2)/x)^{1/3}\). At \(\log_2\log_2n\ge11{,}665{,}715{,}140{,}844{,}862\) its clock is at most \(n(\ln n)^{501/1000}\) with leading coefficient one. The open targets include removing the logarithmic factor inside the cube root, then \(G=O(\log(x+2))\), and ultimately \(G=O(1)\). Shared delivery of data to differing endpoints and the price of the complete Walsh transform remain unresolved. [All-length proof](sessions/2026-11-26-S008/all-lengths.md) · [Threshold certificate](sessions/2026-11-26-S008/routing-piecewise-walsh.md) · [Scoped cost comparison](sessions/2026-11-26-S008/routing-cross-anchor.md)
 
 ## S007 frontier
 

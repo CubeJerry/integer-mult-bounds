@@ -2,13 +2,11 @@
 
 ## Numerical bound for the complete product
 
-One fixed deterministic multitape machine multiplies every pair of \(n\)-bit inputs exactly. For \(\ell=\log_2n,\ x=\log_2\ell,\ \Phi(x)=(x^2\log_2(x+2))^{1/3}\), its large-input time is at most
+One fixed deterministic finite-alphabet multitape machine takes two \(n\)-bit words, permits leading zeros, and writes their complete \(2n\)-bit product on a fresh tape. Set \(L=1+\log_2n,\ x=\log_2 L,\ \Phi(x)=(x^2\log_2(x+2))^{1/3}\). For every \(n\ge2\) its worst-case transition count satisfies
 \[
- n\sqrt{\ell}\,2^{71\Phi(x)}.
+                         T(n)\le n\sqrt L\,2^{71\Phi(x)} .
 \]
-The bound has leading coefficient one once \(n\ge2^{2K}\), with \(K=2^{2^{48}}\). On earlier lengths the same machine takes at most \(4096n^2\) transitions. For every \(n\) with \(\log_2\log_2n\ge19{,}685{,}105{,}000{,}000{,}000\), its worst case is at most \(n(\log_2 n)^{0.501}\). The fixed \(R=240\) native clock, the actual Walsh role volumes, all three transforms and the original input/output format enter the proof. The review also counts the union of visited physical cells through termination. [Complete numerical theorem and threshold](../../sessions/2026-11-26-S008/integer-clock.md) · [Whole-program source audit](../../sessions/2026-11-26-S008/recount-system-audit.md) · [Distinct-cell proof](../../sessions/2026-11-26-S008/routing-outer-space.md)
-
-The functional order of the excess remains \(O((\log(x+2)/x)^{1/3})\). The new constants specify what one concrete algorithm guarantees at a given length. Two cross-anchor constructions were also tested. The better partition reduces the number of endpoint occurrences on an unbounded family; its full normalized cost still has the same order. [Routing theorem and scope](../../sessions/2026-11-26-S008/routing-cross-anchor.md) · [Independent check](../../sessions/2026-11-26-S008/address-review-cross.md)
+At \(n=1\) it takes at most 4096 transitions. Every positive input length satisfies the same bound of \(2^{32}n\) on distinct tape/address pairs visited before halt. On the explicit range \(\log_2\log_2n\ge11{,}665{,}715{,}140{,}844{,}862\) the same program satisfies \(T(n)\le n(\ln n)^{501/1000}\), including the leading coefficient. The published asymptotic theorem and the fork's earlier extraction are credited below. This proof replaces unspecified constants and onset with an all-length formula and a numerical sufficient threshold. [Proof for all lengths](../../sessions/2026-11-26-S008/all-lengths.md) · [Sharper threshold](../../sessions/2026-11-26-S008/routing-piecewise-walsh.md) · [Verification scope](../../sessions/2026-11-26-S008/VERIFICATION.md) · [Distinct-cell proof](../../sessions/2026-11-26-S008/routing-outer-space.md)
 
 ## Complete factor transforms at each fixed precision
 

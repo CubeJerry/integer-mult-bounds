@@ -66,7 +66,7 @@ and monotonicity of the logarithm give \(\Phi(x')\le(1-y/(3x))\Phi(x)\) whenever
 \[
  (y\Phi(x)/x)^2\ge y\log_2(x+2)\ge y\log_2(y+2).
 \]
-Consequently the actual potential decrease is at least \(\psi(y)/3\). For \(\psi(y)\ge1\), the normalized spatial mass \(2^{10\psi(y)}\) consumes at most one quarter of the parent's allowance already at coefficient 36. The theorem above uses 48, which also permits its smaller absolute constant on the direct range. The formal module verifies the real-number comparison and the quarter allowance for arbitrary rounded child parameters satisfying these printed inequalities. The earlier section proves the actual Fourier kernel's mass and arity satisfy them.
+Consequently the actual potential decrease is at least \(\psi(y)/3\). For \(\psi(y)\ge1\), the normalized spatial mass \(2^{10\psi(y)}\) consumes at most one quarter of the parent's allowance already at coefficient 36. The theorem above uses 48, which also permits its smaller absolute constant on the direct range. The formal module also derives the finite mass recurrence from two one-eighth jobs with terminal cost \(A\). It multiplies that complete invoice by the actual \(\sqrt{f/a}\), obtains the bound \(16R\) from the displayed degree, depth and width guards, and composes it with the cubic decrease. The theorem `finite_to_quarter` verifies the resulting quarter allowance for all finite depths and valid real parameters. The pencil profile and the rounding of the published Fourier parameters meet its hypotheses by the arithmetic above.
 
 ## Dependence on the interchange result
 

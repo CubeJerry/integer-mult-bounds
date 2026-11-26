@@ -50,4 +50,6 @@ Finally, each prime $p\mid A$ above $z$ uses more than $B$ bits of $\log_2 A$. T
 
 Run python3 -I -B address-axis-window.py for the finite prime products and integer/rational comparisons. The proof controls all later real $t=\log_2 k$ by the displayed analytic inequalities. The elementary sieve is not executed by the multiplier.
 
+The checked [Lean module](address-sieve.lean) proves the finite-degree tail identity, the binomial pointwise Bonferroni bound, the integer-interval divisor discrepancy, the one-omission product comparison, the supplementary 54-prime estimate, the rational band-loss bound, and positivity from the normalized error estimates. [address-check-sieve.sh](address-check-sieve.sh) compiles with Lean 4.34.1 and warning-as-error, replays every declaration in this module with leanchecker against pinned Mathlib commit d13f23b723b8a846827a245b89c10fc7d3f11612, and prints the axioms of seven principal results. Its output lists only propositional extensionality, classical choice, and quotient soundness. The application of the elementary sieve to the actual prime bands and the deduction about the caller's coprime search are supplied by the written proof above.
+
 Prepared for Jerry Chen (@CubeJerry) with substantial ChatGPT research assistance.

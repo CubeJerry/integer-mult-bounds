@@ -76,4 +76,12 @@ At $z=11700000000000000$ both inequalities hold even on replacing the logarithm 
 
 The tests leave one full exponent bit for the source convention. At either endpoint, $z+4<2^{54}$ gives $2^{25}+4\log_2(z+2)+1<C$. Applying the same decreasing-ratio argument therefore proves $2T(n)\le n(\log_2 n)^{501/1000}$. Since $\ln 2\ge1/2$ and $501/1000<1$, this yields the stated unit coefficient with $\ln n$.
 
+## Formal checks
+
+The [rounded-width proof](routing-piecewise.lean) replaces the real prefix maximum by the running maximum over exactly the natural-number logarithms used by recursion. Monotonicity of the native shape makes this discrete majorant sufficient for the literal child data movement. Its weighted-quarter theorem accepts a finite family of paid invocations and their individual widths and volumes. Repeated uses can occupy distinct indices.
+
+The [historical bound](routing-history.lean) proves the cube inequality behind Jensen concavity, the real logarithm inequality at the final breakpoint, and the two competing bounds for every earlier rounded width. It also prices the $m^{17/2}\sqrt f$ and $m^{45}$ terms from their separate invoices. Given the complete rounded invoice and the integer packing inequality $X\le\log_2\log_2 n+2$, its last time theorem proves the natural-logarithm conclusion at the simplified endpoint. The independent [sharp endpoint proof](recount-sharp.lean) verifies the adjacent scalar tests for the more precise number above. The physical data layout, frequency arithmetic, and occupied-volume schedules enter through the linked machine-level proofs.
+
+Run the [replay script](routing-check-lean.sh) with a pinned mathlib checkout. Its optional second argument `--fresh` also replays the transitive imports in an empty Lean environment.
+
 The original program's fast guards hold since $z>2^{48}+1$. The phase accuracy, full product and marked-space proofs use the same program and therefore continue to apply. The exact piecewise argument concerns this machine's fixed-exponent numerical cutoff; the smooth variable-exponent statement remains available separately. Prepared for Jerry Chen (@CubeJerry) with ChatGPT research assistance.

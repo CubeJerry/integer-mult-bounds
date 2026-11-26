@@ -63,6 +63,22 @@ def inherited_sign(n):
     raise ArithmeticError("Increase binary log precision to decide this sign")
 
 
+def piecewise_margins(n):
+    """Enclose the two normalized cubic residuals in the weighted Walsh caller."""
+    base = Fraction(n, 1000) - (2**25 + 220)
+    intercept = Fraction(4_112_174_977_105_665, 1024)
+    slope = Fraction(17, 32768)
+    low, high = log_bounds(n + 4)
+    residuals = ((base - 2_220_000_000_000, Fraction(48)),
+                 (base - intercept - slope*(n + 2), Fraction(33, 4)))
+    intervals = []
+    for residual, coefficient in residuals:
+        squared_size = (n + 2)**2
+        scaled = (residual / coefficient)**3 / squared_size
+        intervals.append((scaled - high, scaled - low))
+    return intervals
+
+
 def first_positive(sign):
     low, high = 2**48, 2**55
     assert sign(low) == -1 and sign(high) == 1
@@ -81,6 +97,13 @@ if __name__ == "__main__":
     assert older == 18_536_231_398_600_959
     binary = first_positive(sharp_sign)
     natural = first_positive(lambda n: sharp_sign(n, 1))
-    print(json.dumps({"binary_fraction_digits": 112, "old_additive": older,
+    z = 11_665_715_140_844_862
+    historical, movement = piecewise_margins(z)
+    previous_historical, previous_movement = piecewise_margins(z - 1)
+    assert min(historical[0], previous_historical[0]) > Fraction(262, 100)
+    assert Fraction(127, 10**17) < movement[0] < movement[1] < Fraction(129, 10**17)
+    assert Fraction(-378, 10**16) < previous_movement[0] < previous_movement[1] < Fraction(-376, 10**16)
+    print(json.dumps({"piecewise_two_invoices": z, "piecewise_binding": "movement",
+                      "binary_fraction_digits": 112, "old_additive": older,
                       "actual_prefactor": binary,
                       "one_full_extra_bit": natural}, indent=2))

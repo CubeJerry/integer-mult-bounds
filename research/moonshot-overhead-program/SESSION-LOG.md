@@ -1,5 +1,9 @@
 # Session log (append only)
 
+## S008 all-length checkpoint, 12:47 UTC
+
+Checkpoint c2caf1653b16bd5ea88a1b9cca9f63ba980bd5d8 recorded the first sharper whole-machine cutoff and selected original-source proofs. Subsequent independent reviews support the public profile with coefficient 71 for every \(n\ge2\), using exact schoolbook below \(2^{48}\) and an explicit dyadic middle branch before the coprime construction. The small and middle clocks, union-of-cells proof, and compiler receipts are in [the session](sessions/2026-11-26-S008/VERIFICATION.md). A lead replay of the complete 1,000-bit host-array box recovered 210 coefficients and every output bit; suppressing inverse CRT changed 204 coefficients. The natural-input packing parameters and analytic join of the three supplier bills also compile in Lean. The session remains active.
+
 ## 2026-11-26 — checkpoint 1
 User requested a 3-hour session, subject to supported execution. Read the revised moonshot.md and canonical source guidance; confirmed canonical SHA e5452351, OpenAI SHA 3344da59 and historical old-state blob 411eb5ab. Identified upstream overlap PR #8102 (fixed kappa corollary only). Initialized the new research branch at canonical SHA, preserving the old moonshot branches. Read the OpenAI single-machine proof in uniformity.tex. Established the exact schedulability reduction from successful-attempt time to a weighted 2^i penalty, with constants and usable thresholds kept explicit. Began three separate research routes; no complete overhead theorem claimed. This checkpoint is an early partial research checkpoint, NOT a claim that the requested three hours elapsed.
 
