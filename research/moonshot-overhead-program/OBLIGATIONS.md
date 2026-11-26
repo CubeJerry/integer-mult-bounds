@@ -243,3 +243,7 @@ S004 endpoint preconditioning and subset-to-regular physical-rank bridge are adm
 ## S003 final handoff — 2026-11-26T00:19:10Z
 
 S003 final O4 finite algebra and TPC count grammar are accepted after independent review and isolated root replay. TPC supplies actual p-power sum budgets and absolute m^K syntax for3<=p<=m; L<=pD remains. A complete odd-characteristic physical pipeline, address costs, batching and common visited cap remain unproved. LP obstructs only real row mixers differing from scalar identities by rank<=r; arbitrary full-rank mixing remains open. See the final component review and report.
+
+### S004 fifth checkpoint — 2026-11-26T00:45:05Z
+
+S004 changed Fourier invoice now has explicit source and destination reuse. Even ignoring tree costs, the remaining one-axis incidence term plus charged rank retains sqrt(log m loglog m) logarithmic order. Sharing leaf transforms remains open. Mixed correctors are reviewed, but fast all-input suppliers remain a separate gate. The certified numerical supplier under final audit has a slower stated schedule.

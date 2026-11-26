@@ -1,0 +1,168 @@
+{
+  "status": "pass",
+  "scope": "exact finite source-reuse identities and call counts; no full tape simulation",
+  "combinatorics": {
+    "exhaustive_incidence_families": 12,
+    "distinct_states": 4368,
+    "original_incidences": 10320,
+    "integer_invoice_profiles": 300,
+    "examples": [
+      {
+        "L": 4,
+        "t": 2,
+        "q": 4,
+        "D": 10,
+        "incidence": 40,
+        "old_source_axes": 52,
+        "shared_source_axes": 14,
+        "original_free_axes": 800,
+        "preconditioned_free_axes": 306,
+        "nested_free_axes": 230
+      },
+      {
+        "L": 4,
+        "t": 3,
+        "q": 8,
+        "D": 26,
+        "incidence": 120,
+        "old_source_axes": 448,
+        "shared_source_axes": 78,
+        "original_free_axes": 6240,
+        "preconditioned_free_axes": 2082,
+        "nested_free_axes": 1342
+      },
+      {
+        "L": 4,
+        "t": 4,
+        "q": 16,
+        "D": 58,
+        "incidence": 272,
+        "old_source_axes": 2156,
+        "shared_source_axes": 266,
+        "original_free_axes": 31552,
+        "preconditioned_free_axes": 9282,
+        "nested_free_axes": 5502
+      },
+      {
+        "L": 4,
+        "t": 8,
+        "q": 256,
+        "D": 1018,
+        "incidence": 2080,
+        "old_source_axes": 190684,
+        "shared_source_axes": 8474,
+        "original_free_axes": 4234880,
+        "preconditioned_free_axes": 768930,
+        "nested_free_axes": 404510
+      },
+      {
+        "L": 4,
+        "t": 16,
+        "q": 65536,
+        "D": 262138,
+        "incidence": 16448,
+        "old_source_axes": 201536444,
+        "shared_source_axes": 2421338,
+        "original_free_axes": 8623291648,
+        "preconditioned_free_axes": 806702946,
+        "nested_free_axes": 408472734
+      }
+    ]
+  },
+  "geometry_and_execution": [
+    {
+      "exact_projected_side_rank_checks": 1,
+      "degenerate_requested_flag_spaces": 0,
+      "wrong_affine_projection_controls": 0,
+      "q": 2,
+      "L": 4,
+      "source_label": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "auxiliary_dimension": 1,
+      "exact_transform_output_entries": 2,
+      "wrong_dual_basis_controls": 0,
+      "mutated_parent_copy_controls": 0,
+      "tree_axis_count": 0
+    },
+    {
+      "exact_projected_side_rank_checks": 3,
+      "degenerate_requested_flag_spaces": 0,
+      "wrong_affine_projection_controls": 2,
+      "q": 4,
+      "L": 2,
+      "source_label": [
+        0,
+        0
+      ],
+      "auxiliary_dimension": 5,
+      "exact_transform_output_entries": 96,
+      "wrong_dual_basis_controls": 88,
+      "mutated_parent_copy_controls": 29,
+      "tree_axis_count": 2
+    },
+    {
+      "exact_projected_side_rank_checks": 15,
+      "degenerate_requested_flag_spaces": 10,
+      "wrong_affine_projection_controls": 4,
+      "q": 4,
+      "L": 4,
+      "source_label": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "auxiliary_dimension": 9,
+      "exact_transform_output_entries": 7680,
+      "wrong_dual_basis_controls": 7581,
+      "mutated_parent_copy_controls": 512,
+      "tree_axis_count": 14
+    },
+    {
+      "exact_projected_side_rank_checks": 15,
+      "degenerate_requested_flag_spaces": 10,
+      "wrong_affine_projection_controls": 4,
+      "q": 4,
+      "L": 4,
+      "source_label": [
+        1,
+        2,
+        3,
+        1
+      ],
+      "auxiliary_dimension": 9,
+      "exact_transform_output_entries": 7680,
+      "wrong_dual_basis_controls": 7574,
+      "mutated_parent_copy_controls": 508,
+      "tree_axis_count": 14
+    },
+    {
+      "exact_projected_side_rank_checks": 5,
+      "degenerate_requested_flag_spaces": 0,
+      "wrong_affine_projection_controls": 6,
+      "q": 8,
+      "L": 2,
+      "source_label": [
+        3,
+        6
+      ],
+      "auxiliary_dimension": 13,
+      "exact_transform_output_entries": 160,
+      "wrong_dual_basis_controls": 158,
+      "mutated_parent_copy_controls": 8177,
+      "tree_axis_count": 6
+    }
+  ],
+  "totals": {
+    "exact_projected_side_rank_checks": 39,
+    "degenerate_requested_flag_spaces": 20,
+    "wrong_affine_projection_controls": 16,
+    "exact_transform_output_entries": 15618,
+    "wrong_dual_basis_controls": 15401,
+    "mutated_parent_copy_controls": 9226
+  }
+}

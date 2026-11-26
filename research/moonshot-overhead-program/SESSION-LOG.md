@@ -293,3 +293,7 @@ S004 fourth checkpoint: reviewed Fourier endpoint preconditioning and two-channe
 ## S003 final handoff — 2026-11-26T00:19:10Z
 
 S003 research cutoff: 2026-11-26T00:19:10Z; actual elapsed 10805 seconds from21:19:05 UTC. Confirmed checkpoint5:72ad1c4e9259b43ff0ea8f76e6d4e2001d3c3ebe. Final wave accepted SL, LP, O4 and TPC in exact finite/restricted scopes; no new complete rate after AQ. Canonical/OpenAI heads unchanged at00:12 UTC. Reconciled remote a31ed45a680b62562a14e8afa566c5c471d7eb3c. Final snapshot is published separately with an expected-parent lease; resulting SHA belongs in Git history, not this self-referential document.
+
+### S004 fifth checkpoint — 2026-11-26T00:45:05Z
+
+S004 fifth checkpoint: two constructive Fourier sharing graphs and fresh changed-invoice scale; actual-spectrum matching and subgroup constant; mixed correction plus monotone, missing-input and bilinear supplier gates. All root replays pass. Session remains active to 01:01:15 UTC.

@@ -1,0 +1,149 @@
+{
+  "status": "pass",
+  "scope": "exact shear, actual Gram geometry and independent-input accumulation; no tape simulation",
+  "shear_controls": {
+    "exact_shear_cases": 3730,
+    "exact_shear_entries": 164932,
+    "omitted_conjugation_phase_negative_entries": 52304
+  },
+  "destination_cases": [
+    {
+      "q": 2,
+      "L": 4,
+      "destination": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "auxiliary_dimension": 1,
+      "independent_internal_directions": 0,
+      "exact_rectangle_span_checks": 8,
+      "representatives_with_selected_internal_components": 0,
+      "rectangle_contributions": 8,
+      "complete_accumulation_output_entries": 2,
+      "source_edge_axes": 0,
+      "destination_edge_axes": 0,
+      "shared_free_axis_invoice": 18
+    },
+    {
+      "q": 4,
+      "L": 2,
+      "destination": [
+        1,
+        2
+      ],
+      "auxiliary_dimension": 5,
+      "independent_internal_directions": 2,
+      "exact_rectangle_span_checks": 4,
+      "representatives_with_selected_internal_components": 0,
+      "rectangle_contributions": 4,
+      "complete_accumulation_output_entries": 32,
+      "source_edge_axes": 2,
+      "destination_edge_axes": 2,
+      "shared_free_axis_invoice": 26
+    },
+    {
+      "q": 4,
+      "L": 4,
+      "destination": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "auxiliary_dimension": 9,
+      "independent_internal_directions": 4,
+      "exact_rectangle_span_checks": 40,
+      "representatives_with_selected_internal_components": 6,
+      "rectangle_contributions": 40,
+      "complete_accumulation_output_entries": 512,
+      "source_edge_axes": 14,
+      "destination_edge_axes": 14,
+      "shared_free_axis_invoice": 154
+    },
+    {
+      "q": 4,
+      "L": 4,
+      "destination": [
+        1,
+        2,
+        3,
+        1
+      ],
+      "auxiliary_dimension": 9,
+      "independent_internal_directions": 4,
+      "exact_rectangle_span_checks": 40,
+      "representatives_with_selected_internal_components": 19,
+      "rectangle_contributions": 40,
+      "complete_accumulation_output_entries": 512,
+      "source_edge_axes": 14,
+      "destination_edge_axes": 14,
+      "shared_free_axis_invoice": 154
+    },
+    {
+      "q": 8,
+      "L": 2,
+      "destination": [
+        3,
+        6
+      ],
+      "auxiliary_dimension": 13,
+      "independent_internal_directions": 8,
+      "exact_rectangle_span_checks": 6,
+      "representatives_with_selected_internal_components": 0,
+      "rectangle_contributions": 6,
+      "complete_accumulation_output_entries": 8192,
+      "source_edge_axes": 6,
+      "destination_edge_axes": 8,
+      "shared_free_axis_invoice": 66
+    }
+  ],
+  "invoice_controls": {
+    "exact_integer_profiles": 300,
+    "examples": [
+      {
+        "L": 4,
+        "t": 2,
+        "S": 14,
+        "T": 14,
+        "states": 15,
+        "shared_free_axes": 154
+      },
+      {
+        "L": 4,
+        "t": 3,
+        "S": 78,
+        "T": 92,
+        "states": 65,
+        "shared_free_axes": 630
+      },
+      {
+        "L": 4,
+        "t": 4,
+        "S": 266,
+        "T": 358,
+        "states": 175,
+        "shared_free_axes": 1906
+      },
+      {
+        "L": 4,
+        "t": 8,
+        "S": 8474,
+        "T": 15254,
+        "states": 1695,
+        "shared_free_axes": 53650
+      },
+      {
+        "L": 4,
+        "t": 16,
+        "S": 2421338,
+        "T": 4827766,
+        "states": 14911,
+        "shared_free_axes": 15055378
+      }
+    ]
+  },
+  "total_span_checks": 98,
+  "total_accumulation_entries": 9250
+}

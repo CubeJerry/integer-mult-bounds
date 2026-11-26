@@ -1,0 +1,22 @@
+{
+  "status": "all exact finite controls passed",
+  "seed": 2026112610,
+  "scope": "exact two-stage arithmetic and certificates; no tape timing simulation",
+  "counts": {
+    "signed_complete_mixed_repairs": 24,
+    "signed_height_and_carry_controls": 24,
+    "centered_endpoint_control": 1,
+    "one_sided_complete_or_incomplete_mixed_attempts": 24,
+    "one_sided_accepted": 18,
+    "one_sided_incomplete": 6,
+    "one_sided_false_outlier_guesses": 12,
+    "dense_positive_false_budget_rejected": 1,
+    "zero_outlier_mass_controls": 2,
+    "signed_missing_promise_false_certificate_control": 1
+  },
+  "dependency_sha256": {
+    "verify_bounded_amplitude.py": "307fc19abfd1c28740cd2c1de3d6d28d5de876a97c5917e10d09cadffd49254e",
+    "verify_sparse_residual.py": "f060c3b90c3bc7222a30ea289bfe166b89f96903377d64cad58591e184d20835",
+    "verify_one_sided_certificate.py": "f12635b366414be9c4c788705b45a6a72927655d381ef376868024b4ad382588"
+  }
+}

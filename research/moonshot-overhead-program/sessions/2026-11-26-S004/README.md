@@ -45,3 +45,7 @@ See [third-wave admission](lead/THIRD-WAVE-ADMISSION.md) for six further reviewe
 ## Fourth checkpoint
 
 [Fourth-wave admission](lead/FOURTH-WAVE-ADMISSION.md) records reviewed endpoint preconditioning, actual order-five subset-spectrum bounds, dense bounded-amplitude correction with a fixed-tape stack schedule, and a precisely shaped tall-Hankel extension. Full costs, physical multiplicities, exact replays and corrected optional scalar charges are explicit. The complete unconditional envelope is unchanged.
+
+## Fifth checkpoint
+
+[Fifth-wave admission](lead/FIFTH-WAVE-ADMISSION.md) records source copying and destination accumulation graphs, their freshly proved invoice scale, ratio-subgroup refinement, mixed residual repair and direct supplier gates. Exact local calls fall from 800 to 154 in one checked family, with all remaining costs explicit. The complete unconditional envelope remains unchanged.

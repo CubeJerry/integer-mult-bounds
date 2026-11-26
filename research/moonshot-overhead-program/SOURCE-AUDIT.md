@@ -204,3 +204,7 @@ S004 lead reread the pinned Fourier endpoint subsection, Bostan--Mori Section 2.
 ## S003 final handoff — 2026-11-26T00:19:10Z
 
 S003 final refresh at00:12 UTC: canonical main e54523517d0f03e58352e647c403a5af3e525a57 and OpenAI math main3344da59991ed94f9ba711217b29c1d760badfa6 unchanged. Final finite proof/code reviews include LP, O4 and TPC. The staged audit outside the reused critical chain remains partial. B's two exploratory web leads are explicitly unread and unused in its PORTFOLIO. No literature-priority certification or formal kernel build is claimed.
+
+### S004 fifth checkpoint — 2026-11-26T00:45:05Z
+
+S004 lead read Gashkov--Sergeev2012 Lemma16 and convolution application at pp1443--1444 (https://web.vu.lt/mif/s.jukna/boolean/Gashkov-Sergeev-Sbornik.pdf). Also fully read E002 COMPATIBLE-ENDPOINT-REUSE and SWAP-WEYL-CONTRACTION-GATE. These have their stated physical/model limits. A renewed local-biclique product search found no verified resolution of JR; no exhaustive literature claim is made.

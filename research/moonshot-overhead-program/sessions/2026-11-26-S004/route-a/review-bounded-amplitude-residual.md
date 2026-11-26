@@ -8,6 +8,14 @@ candidate algorithm satisfying the amplitude promise.
 Reviewed author file: `route-b-work/bounded-amplitude-residual-repair.md`.
 SHA256: `206372011b3951cfaeef20c60626e0b36efa84597f24919d3c3a6820cddb38b4`.
 
+Post-review correction from Route C: the optional Section 5 budget must
+satisfy `1<=a<=tau` for its O(V) space claim. The algebraic mass identity
+itself permits larger a. This restriction was not explicit at the original
+reviewed snapshot and is required for that section's space conclusion.
+The corrected current snapshot was read and passes:
+SHA256 `d14a485feb80a092f1bf57b05116fdefef62511b97998a568a83ea96ec5b3827`.
+The core promised A1 corrector already had a<=tau and is unchanged.
+
 Physical scheduling supplier: `route-a-work/amplitude-fixed-tape-stack-supplier.md`.
 SHA256: `97ac9b9e104bc762854a3aa361faa4d168d643f07e0db6eceb7446ebacd60151`.
 
@@ -108,7 +116,8 @@ each residual coefficient in [-B,B]. Candidate reduction, reconstruction,
 addition and carries take O(V) scans. This proves A1 under the stated
 amplitude promise without any scalar mass computation.
 
-Section 5's optional one-sided test uses least nonnegative residues. Under
+Section 5's optional one-sided test uses least nonnegative residues and a
+budget capped at tau. Under
 the separate structural premise E_i>=0, every E_i-r_i is a nonnegative
 multiple of M; equality of total mass is therefore equivalent to absence
 of aliasing in every coefficient. The product A(1)B(1) has an explicit

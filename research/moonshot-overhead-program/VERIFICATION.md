@@ -200,3 +200,7 @@ S004 wave4: lead replays 153,896 Fourier partial identities, 4,368 phase entries
 ## S003 final handoff — 2026-11-26T00:19:10Z
 
 S003 final review: `sessions/2026-11-26-S003/lead/review-final-components.md`. Isolated root receipts bind script versions for numerical conjugation, p-power factors, star lift, order-four closure, joint-lift moments and telescoping carry. TPC includes formal coefficient comparison, not only point evaluation. The final manifest records current proof/review/script hashes and structural JSON/Python/link integrity. No full multiplier, numerical eventual cutoff, Lean refinement or human referee review was performed.
+
+### S004 fifth checkpoint — 2026-11-26T00:45:05Z
+
+S004 wave5 exact lead replays: 15,618 source entries; 164,932 shear entries; 9,250 independent-input destination outputs; 256 physical matchings and 44,597 subgroup words; 24 signed/24 one-sided mixed repairs; 66,066 monotone candidates; 8,160 missing-input profiles and 225 moment invoices. See scoped admission, proofs and manifest-wave5. No full multiplier or tape simulation.
