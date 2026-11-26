@@ -1211,10 +1211,15 @@
         "checkpoints": [
           {
             "sha": "d3aa1e45f407661c93a285e100b04d8ee7a75202",
-            "scope": "shared reservation and initial proof tests"
+            "result": "reservation and experimental contract"
+          },
+          {
+            "sha": "9b219455b4fcc2c1790383576cada3f5ae9d42a9",
+            "result": "bidirectional O(q b^{2/5}) grouped power-basis word embedding at the actual anchor"
           }
         ],
-        "verified_partial": "Grouped coefficient words to actual ambient monomial words and inverse, O(q b^{2/5}) time, O(q) visited cells. Product coordinates and complete CRT open."
+        "verified_partial": "Grouped coefficient words to actual ambient monomial words and inverse, O(q b^{2/5}) time, O(q) visited cells. Product coordinates and complete CRT open.",
+        "radix_result": "Complete ordinary-to-relative-trace digits and inverse in O(q b/(log b)^eta), every fixed rational 0<eta<1/2. Tape proof independently reviewed. Literal child CRT and onward product basis remain separately priced."
       }
     ],
     "used_or_reserved": 2,

@@ -366,3 +366,7 @@ The broad session started at 05:32:16 UTC on `579617a612e21ed44409ea203c376977f5
 ### S007 first verified crossing
 
 The [bidirectional word conversion](sessions/2026-11-26-S007/grouped-ambient-words.md) takes the orbit-ordered power-basis coefficients of grouped binary remainders to the actual ambient monomial words at the chosen anchor in O(q b^{2/5}) steps and O(q) cells. This brings one representation change below the unrelaxed binary budget. It still leaves the change to the additive product basis and the precision caller open. The integrating researcher checked the exact characteristic-two rank source and reproduced the finite receipt byte for byte.
+
+### S007 relative-trace digits and the two fibres
+
+The [complete relative-trace radix change](sessions/2026-11-26-S007/relative-trace-radix.md) and its inverse use two upper Pascal transforms on wide records. The [tape proof](sessions/2026-11-26-S007/striped-pascal.md) gives O(q b/(log b)^η) time for every fixed rational 0<η<1/2 and O(q) cells ever visited. This saves a growing factor on the complete change from coefficients. An [independent audit](sessions/2026-11-26-S007/review-pascal.md) checked the true padded ternary multiplicity and head returns. The [fibre join](sessions/2026-11-26-S007/fibre-join.md) identifies the actual grouped monomial remainders on arbitrary legal data. The h smaller CRTs, the subsequent product-basis or full-directory conversion, and the outer precision calls have their own bills.
