@@ -1,6 +1,10 @@
 # Quantitative target and first derivation
 
-## Current target and measured change
+## S007 frontier
+
+Write $L=1+\log_2 n$, $x=\log_2 L$ and $\Phi=(x^2\log_2(x+2))^{1/3}$. The strongest complete unconditional written estimate is still $H=2^{O(\Phi)}$, $G=\log_2 H=O(\Phi)$ and $\delta=G/x=O((\log_2(x+2)/x)^{1/3})$. The normalized binary price is now $b/(1+\log b)^\eta$. The target for the alternative integer route is $\sqrt b\,(1+\log b)^C$ for fixed $C$. The ratio of these two displayed prices eventually grows for every such $C$. The targets $G=O(\log x)$ and $G=O(1)$ remain open. [Complete ordered binary CRT](sessions/2026-11-26-S007/binary-transform-and-product.md) · [First carry](sessions/2026-11-26-S007/first-witt-carry.md)
+
+## S006 target and measured change
 
 With $T=O(n\sqrt L H)$, the retained unconditional written result has $H\le2^{O(\Phi(x))}$, $G=\log_2H=O(\Phi(x))$ and $\delta=G/x=O((\log_2(x+2)/x)^{1/3})$ for large $x$. Exact signed-word execution reduces proof dependencies at this rate. A specific local CRT routine now meets the binary clock for a growing number of consecutive levels. A second reversible prefix starts at the literal binary input. The exact grouped factor boundary has $q$ independent bits. The middle and individual factor transforms retain their physical cost obligations.
 

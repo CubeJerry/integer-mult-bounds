@@ -1,5 +1,9 @@
 # Independent routes and decision gates
 
+## Decision after the second contribution session
+
+The cubic trace-plane route now reaches the literal ordered FS1 endpoint and admits its first lift to $\mathbf Z/4$. The straightforward self-recursion through chirp products inflates normalized child volume and is retired in that form. Batching the long products through an independent short convolution supplier closes that expense. The next campaign task is an independent reconstruction of the full tape invoice and proof package for external review. [Complete ordered binary CRT](sessions/2026-11-26-S007/binary-transform-and-product.md) · [First carry](sessions/2026-11-26-S007/first-witt-carry.md) · [Session report](sessions/2026-11-26-S007/FINAL-REPORT.md)
+
 ## S006 decisions
 
 Use the S003 AQ direct-space construction for external review, retaining E002/E003 as independent comparisons. The [modular implementation](contributions/explicit-overhead/modular-walsh.md) removes the internal numerical-error recurrence from this proof and the [fixed-head scalar](contributions/explicit-overhead/modular-scalar-machine.md) supplies the local arithmetic. The [source-importing proof](contributions/explicit-overhead/formal/ModularWalshExact.lean) checks row semantics. Its dense reference does not price the adaptive routing.

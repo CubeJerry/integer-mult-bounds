@@ -1,5 +1,9 @@
 # Verification
 
+## S007 verification
+
+The ordered binary and first-carry results are written proofs with independent AI reviews. Lean checks finite-field, polynomial, matrix and arithmetic interfaces. Deterministic programs exercise both directory implementations, arbitrary independent residues, true mod-four division and deliberately incorrect variants. The fixed-tape complexity itself awaits physical formalization and human review. [Session verification](sessions/2026-11-26-S007/VERIFICATION.md)
+
 ## S006 verified evidence
 
 The [verification map](contributions/explicit-overhead/verification.md) records the scope of each proof and execution. The complete fixed-machine bound remains a written result.

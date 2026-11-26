@@ -1,5 +1,9 @@
 # Source audit — staged, not complete
 
+## S007 source and scope
+
+The prompt and charter blobs are `da7825ae5ddad080494674d35e2c1058c3e18230` and `0dc678d97579526634453fbb5376463c64482229`. OpenAI/math `3344da59991ed94f9ba711217b29c1d760badfa6` supplies the ring-universal ternary Fourier kernel, occupied-fibre words and fixed-tape permutation lemmas. Yann Tal supplies the stable wide-record sort. Harvey and van der Hoeven supply unconditional short binary products. Cantor and Kaltofen supply the triadic finite-ring identities. S007 prices the physical transfers and composes them for the actual degree/Lyndon endpoint. [Complete ordered binary CRT](sessions/2026-11-26-S007/binary-transform-and-product.md) · [Session verification](sessions/2026-11-26-S007/VERIFICATION.md)
+
 ## S006 source-to-proof map
 
 The governing prompt and common charter are pinned to CubeJerry/AI_Prompts at `522e19e4624c243fd4e2465f4cd6dfef79ae1704`. The multiplier and finite-Fourier sources are OpenAI/math at `3344da59991ed94f9ba711217b29c1d760badfa6`. The community source pin is `e54523517d0f03e58352e647c403a5af3e525a57`. The session began from fork-branch commit `69632d87c99b5a75d0b44a7d964e6550e457e016`.

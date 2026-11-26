@@ -1,5 +1,9 @@
 # External research and attribution
 
+## S007 comparison
+
+Csizmadia's November 2 paired-phase manuscript already claims $O(n\log^{1301/1302}n)$ for two arbitrary binary polynomial inputs in the same fixed-tape time model. Its claim record describes the formal and human review status. The statement supplies a stronger standalone time than the present corollary. The present package develops the reversible factor interface, its positive-precision lift and cumulative linear space. Priority for those constructions has not been established. [Earlier claim](https://github.com/arpcs/finite-field-polynomial-multiplication/blob/e85bc1f6ca0ec9c13281c94b6a3e88ec2cdb4fc5/papers/03-best-binary/versions/0.2.1/CLAIM.json) · [Comparison and sources](sessions/2026-11-26-S007/ordinary-binary-product.md)
+
 ## S006 external comparisons
 
 - OpenAI's [integer tape paper](https://github.com/openai/math/tree/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/The-logarithmic-exponent-of-integer-multiplication-on-tapes-November-24-2026) and [finite Fourier paper](https://github.com/openai/math/tree/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/The-logarithmic-exponent-of-finite-Fourier-transforms-November-24-2026) supply the transform identities, tape layout and caller. The quantitative extraction uses the earlier project constructions. The simulated scalar and formal dense-reference theorem refine the proof interface.

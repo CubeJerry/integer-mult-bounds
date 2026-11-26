@@ -1,0 +1,140 @@
+{
+  "macro_direction_checks": [
+    {
+      "m": 27,
+      "n": 9,
+      "H": 1,
+      "direct_DFT_coefficients_both_signs": 324,
+      "wrong_coefficients": {
+        "drop_twiddle": 60,
+        "wrong_lanes": 78
+      }
+    },
+    {
+      "m": 81,
+      "n": 9,
+      "H": 3,
+      "direct_DFT_coefficients_both_signs": 972,
+      "wrong_coefficients": {
+        "drop_twiddle": 280,
+        "wrong_lanes": 433
+      }
+    },
+    {
+      "m": 81,
+      "n": 27,
+      "H": 4,
+      "direct_DFT_coefficients_both_signs": 2916,
+      "wrong_coefficients": {
+        "drop_twiddle": 1219,
+        "wrong_lanes": 1362
+      }
+    },
+    {
+      "m": 243,
+      "n": 27,
+      "H": 8,
+      "direct_DFT_coefficients_both_signs": 8748,
+      "wrong_coefficients": {
+        "drop_twiddle": 3873,
+        "wrong_lanes": 4360
+      }
+    }
+  ],
+  "full_ring_products": [
+    {
+      "s": 120,
+      "H": 1,
+      "M_m_n": [
+        729,
+        81,
+        9
+      ],
+      "ordinary_coefficients": 239
+    },
+    {
+      "s": 320,
+      "H": 3,
+      "M_m_n": [
+        2187,
+        81,
+        27
+      ],
+      "ordinary_coefficients": 639
+    },
+    {
+      "s": 930,
+      "H": 8,
+      "M_m_n": [
+        6561,
+        243,
+        27
+      ],
+      "ordinary_coefficients": 1859
+    },
+    {
+      "s": 326,
+      "H": 16,
+      "M_m_n": [
+        2187,
+        81,
+        27
+      ],
+      "ordinary_coefficients": 651
+    }
+  ],
+  "integer_products": [
+    {
+      "N_bits": 1000,
+      "w": 10,
+      "s": 100,
+      "H": 28,
+      "returned_product_bits": 1998
+    },
+    {
+      "N_bits": 3072,
+      "w": 12,
+      "s": 256,
+      "H": 34,
+      "returned_product_bits": 6141
+    }
+  ],
+  "packet_shapes": [
+    {
+      "macro_radix": 3,
+      "independent_jobs": 27,
+      "ordinary_RH_operand_length": 9,
+      "invocations": 4
+    },
+    {
+      "macro_radix": 3,
+      "independent_jobs": 81,
+      "ordinary_RH_operand_length": 9,
+      "invocations": 28
+    },
+    {
+      "macro_radix": 3,
+      "independent_jobs": 243,
+      "ordinary_RH_operand_length": 9,
+      "invocations": 20
+    },
+    {
+      "macro_radix": 3,
+      "independent_jobs": 729,
+      "ordinary_RH_operand_length": 9,
+      "invocations": 8
+    },
+    {
+      "macro_radix": 9,
+      "independent_jobs": 27,
+      "ordinary_RH_operand_length": 99,
+      "invocations": 20
+    },
+    {
+      "macro_radix": 9,
+      "independent_jobs": 81,
+      "ordinary_RH_operand_length": 99,
+      "invocations": 8
+    }
+  ]
+}

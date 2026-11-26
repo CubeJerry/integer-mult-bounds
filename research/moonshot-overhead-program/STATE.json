@@ -131,7 +131,7 @@
     "background_execution": false,
     "record": "sessions/2026-11-26-S007/SESSION.md"
   },
-  "verification_status": "S006: eight formal component modules, 56 designated axiom checks, finite replays and independent AI review. Complete multiplier remains a written result without human refereeing.",
+  "verification_status": "S007: strict pinned Lean build and kernel replay of 21 modules and 126 designated axiom checks; separate finite-word proof, written tape clocks and independent numerical comparisons. Human review pending.",
   "concurrent_work": {
     "epsilon_uniformity": "results/epsilon-uniformity/SESSION.json",
     "reconciled_head": "d1f3baccdcc547263c0c0cc7241aa0cb1ef12bee",
@@ -588,6 +588,12 @@
       "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
       "openai_math_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
       "changed": false
+    },
+    "s007_recheck": {
+      "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
+      "openai_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
+      "prompt_blob": "da7825ae5ddad080494674d35e2c1058c3e18230",
+      "charter_blob": "0dc678d97579526634453fbb5376463c64482229"
     }
   },
   "final_finite_extension_review": "verification/S002/lead-review-final-finite-witnesses.md",
@@ -910,6 +916,16 @@
       "formal": "contributions/explicit-overhead/formal/ModularWalshExact.lean",
       "crt": "sessions/2026-11-26-S006/stable-four-point-bundles.md",
       "report": "sessions/2026-11-26-S006/FINAL-REPORT.md"
+    },
+    "s007_review": {
+      "proof": "sessions/2026-11-26-S007/binary-transform-and-product.md",
+      "first_carry": {
+        "ring": "Z/4",
+        "clock": "O_eta(qb/(1+log b)^eta), O(q) cells",
+        "proof": "sessions/2026-11-26-S007/first-witt-carry.md",
+        "converse": "sessions/2026-11-26-S007/first-carry-converse.md"
+      },
+      "verification": "sessions/2026-11-26-S007/VERIFICATION.md"
     }
   },
   "s003_current_result": {
@@ -1232,6 +1248,10 @@
           {
             "sha": "3d54553efd68c1b6ca292c5a46de9b653f3ea2cc",
             "result": "First sub-qb full transform, verified independent-batch convolution and standalone binary product."
+          },
+          {
+            "sha": "a4a98c97ae97c234c967159604c293016ab050a1",
+            "result": "Full wide clock at the true FS1 boundary and the first literal Witt carry."
           }
         ],
         "verified_partial": "Earlier grouped embedding and trace-radix milestones preserved in checkpoints. The complete FS1 transform below supersedes them.",
@@ -1255,7 +1275,14 @@
             "sessions/2026-11-26-S007/marked-plane-directory.md",
             "sessions/2026-11-26-S007/structured-orbit-directory.md"
           ]
-        }
+        },
+        "first_precision_lift": {
+          "ring": "Z/4",
+          "clock": "O_eta(qb/(1+log b)^eta), O(q) cells",
+          "proof": "sessions/2026-11-26-S007/first-witt-carry.md",
+          "converse": "sessions/2026-11-26-S007/first-carry-converse.md"
+        },
+        "polynomial_product": "Single pair over Z/2^H for H <= (1+log s)^K: O(s H log s/(1+loglog s)^eta), O(sH) total visited cells."
       }
     ],
     "used_or_reserved": 2,

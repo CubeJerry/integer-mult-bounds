@@ -1,5 +1,7 @@
 # The first lift of the literal polynomial CRT
 
+The [two-stage outer transform](macro-triadic-product.md) improves the single modulo-four square below to $O_\eta(qb/(1+\log b)^\eta)$ steps and $O(q)$ cells. All remaining operations in formula (1) fit the same clock by the [complete binary directory](binary-transform-and-product.md). The first carry and the complete bidirectional modulo-four FS1 transform therefore both achieve that clock. The $O(qb)$ and $O(qb\log b)$ constructions below are independent fallback estimates. [Converse reduction](first-carry-converse.md)
+
 Let $b=3c$, $q=2^b$, and keep the FS1 order of the monic irreducible factors $g$ of $X^q-X$ over $\mathbf F_2$. For their literal zero-one coefficient lifts, the modulo-four CRT and its inverse admit an $O(qb)$ deterministic fixed-tape algorithm with $O(q)$ cells ever visited. A direct older convolution supplier in the same construction gives $O(qb\log(b+2))$. The sharper bound uses the [wide modulo-four convolution compiler](mod-four-batch.md). The only global operation beyond a fixed number of [binary CRTs](full-plane-crt.md) and near-linear local work is the divided square
 $$
 H(F)(X)=\sum_{i<j}f_i f_j X^{i+j},\qquad f_i\in\mathbf F_2 .

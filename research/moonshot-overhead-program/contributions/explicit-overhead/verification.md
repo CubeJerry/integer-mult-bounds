@@ -1,5 +1,9 @@
 # Verification and provenance
 
+## S007 verification
+
+The [component and numerical record](../../sessions/2026-11-26-S007/VERIFICATION.md) covers the new canonical factor inventory, arbitrary CRT assignments, two independently implemented order changes, first-carry formula and mod-four convolution. The full physical clocks are written arguments with AI review. Independent human refereeing remains open.
+
 The proposition under review is the single-machine upper envelope in [the proof](README.md). The [published source at its fixed revision](https://github.com/openai/math/tree/3344da59991ed94f9ba711217b29c1d760badfa6) supplies the fixed-template identities, the short-FFT and integer caller, and the original tape layout. The branch supplies its own uniform variable-arity estimates. The comparison with the paper's unspecified excess is quantitative. Priority remains undetermined.
 
 | Dependency | Evidence and scope |
