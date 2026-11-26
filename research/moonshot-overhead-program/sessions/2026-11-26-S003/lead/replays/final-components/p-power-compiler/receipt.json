@@ -1,0 +1,15 @@
+{
+  "source": "route-c/verify_p_power_count_compiler.py",
+  "sha256": "ff83527440f20499e75553633484edbdd348b201150504bf0f7dd982b78dff97",
+  "command": [
+    "python3",
+    "-I",
+    "-B",
+    "research/moonshot-overhead-program/sessions/2026-11-26-S003/lead/replays/final-components/p-power-compiler/verify_p_power_count_compiler.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"passed\",\n  \"scope\": \"Finite formula budgets, carry values, and whole cyclic identities; no full machine or kernel proof.\",\n  \"source_sha256\": \"ff83527440f20499e75553633484edbdd348b201150504bf0f7dd982b78dff97\",\n  \"formula\": {\n    \"formulas\": 504,\n    \"digit_values\": 47544,\n    \"offset_values\": 47544,\n    \"newton_values\": 24924,\n    \"window_parity_values\": 9966,\n    \"checked_additions\": 30244,\n    \"actual_digit_size_bounds\": 742,\n    \"largest_unfolded_formula\": 1311481\n  },\n  \"unfolded_size_majorant_cases\": 936,\n  \"carry_and_budget\": {\n    \"digit_carry_cases\": 754,\n    \"rejected_old_budget_controls\": 10\n  },\n  \"cyclic\": {\n    \"child_cyclic_products\": 192,\n    \"sum_cyclic_products\": 96,\n    \"wrong_phase_controls\": 12,\n    \"non_prime_power_controls\": 4\n  },\n  \"formal_cyclic\": {\n    \"formal_bivariate_cyclic_products\": 21,\n    \"formal_polynomial_matrix_entries\": 3225\n  }\n}\n",
+  "stderr": "",
+  "replayed_utc": "2026-11-25T23:50:27.835156+00:00",
+  "scope": "Finite component replay; no full multiplier or universal asymptotic proof by enumeration"
+}

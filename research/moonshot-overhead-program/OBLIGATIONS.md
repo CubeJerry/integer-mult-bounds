@@ -238,3 +238,8 @@ Theorem V remains unconditional. RV-I/RV-W are both open. ER now characterizes t
 ### S004 fourth checkpoint — 2026-11-26T00:21:33Z
 
 S004 endpoint preconditioning and subset-to-regular physical-rank bridge are admitted local components. Dense-amplitude correction has a fixed-tape schedule; its optional one-sided verifier pays an additional scalar product and caps modulus width at tau. Fast candidate suppliers, JR and global endpoint claims remain open. The tall-Hankel promise is not a general residual verifier.
+
+
+## S003 final handoff — 2026-11-26T00:19:10Z
+
+S003 final O4 finite algebra and TPC count grammar are accepted after independent review and isolated root replay. TPC supplies actual p-power sum budgets and absolute m^K syntax for3<=p<=m; L<=pD remains. A complete odd-characteristic physical pipeline, address costs, batching and common visited cap remain unproved. LP obstructs only real row mixers differing from scalar identities by rank<=r; arbitrary full-rank mixing remains open. See the final component review and report.

@@ -1,0 +1,15 @@
+{
+  "source": "route-c/verify_order_four_closure.py",
+  "sha256": "a8fb4c5d98a1dec843294438fdf751aa9eb0ce7f520551b1ecd98272739575b8",
+  "command": [
+    "python3",
+    "-I",
+    "-B",
+    "research/moonshot-overhead-program/sessions/2026-11-26-S003/lead/replays/final-components/order-four/verify_order_four_closure.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"passed\",\n  \"exact_field_matrix_identities\": 192,\n  \"primes\": [\n    3,\n    5,\n    7,\n    11,\n    13,\n    17,\n    19,\n    31\n  ],\n  \"orbit_checks\": {\n    \"global_word_outputs\": 251136,\n    \"pencil_outputs\": 62784,\n    \"negative_controls\": 48,\n    \"independent_rows\": 2,\n    \"suffix_spectators\": 2\n  },\n  \"predictor_checks\": {\n    \"count_offset_newton_cases\": 28600,\n    \"fourier_projectors\": 32,\n    \"missing_initial_base_three_high_digit_control\": 1\n  },\n  \"repair_checks\": {\n    \"corrected_output_entries\": 6912,\n    \"zero_gap_containing_sets\": 96,\n    \"nonzero_outside_lift_examples\": 288,\n    \"rejected_wrong_transpose_examples\": 288\n  },\n  \"source_sha256\": \"a8fb4c5d98a1dec843294438fdf751aa9eb0ce7f520551b1ecd98272739575b8\",\n  \"scope\": \"Finite identities and complete occupied-orbit pencils; no full tape multiplier.\"\n}\n",
+  "stderr": "",
+  "replayed_utc": "2026-11-26T00:02:24.757331+00:00",
+  "scope": "Finite matrix, occupied-orbit, predictor and repair checks; no full odd-characteristic physical compiler"
+}

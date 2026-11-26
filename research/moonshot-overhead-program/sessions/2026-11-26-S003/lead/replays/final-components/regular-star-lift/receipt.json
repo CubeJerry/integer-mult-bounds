@@ -1,0 +1,15 @@
+{
+  "source": "route-b/verify_star_pencil_lift.py",
+  "sha256": "9155a95b0a9b585c4ab208e049cecafc99905e24ac5ab7569bceee9df12927a7",
+  "command": [
+    "python3",
+    "-I",
+    "-B",
+    "research/moonshot-overhead-program/sessions/2026-11-26-S003/lead/replays/final-components/regular-star-lift/verify_star_pencil_lift.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"pass\",\n  \"scope\": \"joint regular lift with scalar pre/post compression; not all joint star algorithms\",\n  \"counts\": {\n    \"signed_conjugations\": 9360,\n    \"cyclic_regular_conjugations\": 5439,\n    \"independence_witnesses\": 10,\n    \"partial_lift_outputs\": 2426,\n    \"rejected_single_call_full_rate\": 256,\n    \"matching_full_rate_outputs\": 16982,\n    \"seed_dependent_outputs\": 16982,\n    \"volume_invoices\": 60\n  }\n}\n",
+  "stderr": "",
+  "replayed_utc": "2026-11-25T23:50:25.664352+00:00",
+  "scope": "Finite component replay; no full multiplier or universal asymptotic proof by enumeration"
+}

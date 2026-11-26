@@ -1,6 +1,6 @@
 # Spectral identities do not evade separately billed query rank
 
-Status: **proved extension; independent review requested**. The telescoping insight was proposed by the session lead after B's formal determinant-degree theorem. B independently checked it and derives the finite-spectrum, approximate-output and linear-program versions below. This replaces the earlier suggestion that dropping a formal identity alone might escape the separate-query invoice.
+Status: **proved extension; independently accepted by the lead**. See `../lead/review-final-components.md`. The telescoping insight was proposed by the session lead after B's formal determinant-degree theorem. B independently checked it and derives the finite-spectrum, approximate-output and linear-program versions below. This replaces the earlier suggestion that dropping a formal identity alone might escape the separate-query invoice.
 
 This is an algebraic query-budget obstruction. It is not a lower bound for physical interchangers that jointly mix address coordinates, and not a lower bound for multiplication. Source context and pins are those of `direct-rank-routing-obstruction.md`.
 

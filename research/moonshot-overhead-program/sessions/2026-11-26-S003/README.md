@@ -42,3 +42,8 @@ No new theorem is admitted in this resumption checkpoint.
 ## Current fifth-wave status
 
 The initial questions above describe resumption, not the current frontier. AQ is now admitted: `H<=2^{O(s^(2/3)(log2(s+2))^(1/3))}` with one absolute O(n) visited-cell cap. See `lead/ADMISSION-AQ.md`. The fifth-wave component/replay review is `lead/review-fifth-wave-components.md`; NT has a separate independent C review. Concurrent S004 JR alone conditionally removes the logarithmic factor. Separate-query spectral routing is stopped by SQ; genuinely joint address delivery remains open. The session is still live through00:19:05 UTC.
+
+
+## S003 completed session
+
+The requested three-hour research interval is complete. [FINAL-REPORT.md](FINAL-REPORT.md) gives the admitted AQ bound, conditional JR frontier, final finite components and exact limitations. [FINAL-MANIFEST.json](FINAL-MANIFEST.json) binds current proofs, reviews, checkers and replay receipts. Concurrent sessions keep their own deadlines and records.

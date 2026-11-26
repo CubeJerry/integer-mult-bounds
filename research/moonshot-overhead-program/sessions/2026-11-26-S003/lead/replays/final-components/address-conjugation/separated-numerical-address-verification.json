@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "exact_kernel_entries": 256,
+  "full_global_query_outputs": 217872,
+  "common_conjugation_outputs": 217872,
+  "support_witnesses": 32,
+  "negative_controls": 35,
+  "regular_price_cancellation_checks": 80,
+  "cases": [
+    {
+      "m": 1,
+      "f": 1,
+      "full_addresses": 16,
+      "query_maps": 1
+    },
+    {
+      "m": 3,
+      "f": 1,
+      "full_addresses": 256,
+      "query_maps": 3
+    },
+    {
+      "m": 5,
+      "f": 1,
+      "full_addresses": 4096,
+      "query_maps": 5
+    },
+    {
+      "m": 3,
+      "f": 2,
+      "full_addresses": 65536,
+      "query_maps": 3
+    }
+  ],
+  "scope": "Exact endpoint identity and literal query-map obstruction; no joint executor or runtime lower bound.",
+  "script_sha256": "a1f630dab1db53bd5755044e3477b223e1c34517e33db1cbe5002bc7c6069350"
+}

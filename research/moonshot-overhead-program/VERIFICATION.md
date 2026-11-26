@@ -195,3 +195,8 @@ E002 imported final hash-bound independent reviews and exact replays for CP, WB,
 ### S004 fourth checkpoint — 2026-11-26T00:21:33Z
 
 S004 wave4: lead replays 153,896 Fourier partial identities, 4,368 phase entries, 84 channel entries, 8,408 side ranks; subset checks include 4,808 invariant entries, 161 transitions, 3 inverse completions, 6 fractions, 256 multiplicity blocks; amplitude 60 products/405 recursive nodes/192 root sums; tall-Hankel 19,305 sequences/108 tail products. Finite exact controls, not machine execution. See scoped FOURTH-WAVE-ADMISSION and manifest-wave4.
+
+
+## S003 final handoff — 2026-11-26T00:19:10Z
+
+S003 final review: `sessions/2026-11-26-S003/lead/review-final-components.md`. Isolated root receipts bind script versions for numerical conjugation, p-power factors, star lift, order-four closure, joint-lift moments and telescoping carry. TPC includes formal coefficient comparison, not only point evaluation. The final manifest records current proof/review/script hashes and structural JSON/Python/link integrity. No full multiplier, numerical eventual cutoff, Lean refinement or human referee review was performed.

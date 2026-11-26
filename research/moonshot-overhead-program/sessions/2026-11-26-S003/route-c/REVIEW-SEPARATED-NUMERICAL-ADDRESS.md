@@ -39,3 +39,9 @@ An address with only X_j nonzero witnesses P_j!=P_l for j!=l. Multiplying a mono
 Copied the checker into `replays/separated-numerical-address/` and ran it independently with `python3 -I -B`. It passed 256 exact rational kernel entries, 217,872 complete global query outputs, 32 distinct-support witnesses, 80 regular-price cancellation checks and 35 negative controls. The source script hash is `d4395f18c420d151bea1372b84093495352a0458bbd8d2aadf20ee6b1e850228`; the replay and receipt are preserved in that directory.
 
 These tests support the explicit local identities and support distinction. They do not execute the asymptotic tape supplier or prove that joint aggregation is impossible. The independent S004 JR-alone conditional transfer improves the binary rectangle family by another route and is compatible with this audit. This is an AI-assisted written review, not a formal-kernel or human-referee certificate.
+
+## 5. Accepted common-conjugation addendum
+
+Independently checked the subsequently added SN-A10–SN-A11. Reversing the auxiliary pair before and after an ordinary pair-valued star exchange gives exactly P_j. Conjugation by P_j exchanges the two dot-product phases D_j and D_0; those phases commute. Thus D_j P_j D_j=D_0 P_j D_0. The auxiliary reversal commutes with D_0 and both are involutions, giving U_0^2=I and M_j=U_0 S_j U_0. Since each b_j acts only on scalar row roles, it commutes with U_0, so the conjugation applies to the entire weighted sum. The only added physical operations are the shared pointwise phase and auxiliary-field exchange at its two boundaries.
+
+Replayed the expanded checker separately in `replays/separated-numerical-address-conjugation/`. Its additional 217,872 exact common-conjugation output/phase checks passed. This correctly reduces the isolated core to a weighted ordinary star-transposition sum, without supplying a fast joint executor for that sum.

@@ -106,3 +106,8 @@ The S003 fifth wave adds reviewed finite-spectrum and rank-error query obstructi
 ## E002 final integration — 26 November 2026
 
 E002 adds an independently reviewed complete variable-profile construction at H<=2^{O(x^(2/3)(log2(x+2))^(1/3))}, and a separate complete conditional log-free transfer under open RV-I/RV-W. Late components provide improved exact partition counts, an optimal-order covering/rank comparison, a positive Weyl batching executor, corrected source swap tests and a compatible endpoint-reuse criterion. These do not establish the endpoint or remove the conditional contracts. Reviews, exact finite receipts, source pins and correction history are included. This is a repository description only; no upstream PR has been opened.
+
+
+## S003 final handoff — 2026-11-26T00:19:10Z
+
+S003 adds the complete AQ construction and reviewed finite/restricted components to the cumulative package. Its final report and proof chain are at `sessions/2026-11-26-S003/FINAL-REPORT.md`. The finite carry compiler now has an absolute polynomial-m formula bound for growing p<=m; this does not improve the complete AQ rate. A validated, once-encoded prefilled compare URL is in `sessions/2026-11-26-S003/PR-LINK.md`. No upstream PR was opened. Existing consolidated credits and source-specific claim limits apply.

@@ -67,6 +67,19 @@ def column_middle(t, j, m, f):
     return result, phase
 
 
+def common_conjugation(t, j, m, f):
+    mask = (1 << f) - 1
+    def auxiliary_u(index):
+        x0 = (index >> (m*f)) & mask
+        z0 = (index >> ((2*m+1)*f)) & mask
+        return field_swap(index, m, 2*m+1, f), sign((x0 & z0).bit_count())
+    first, phase1 = auxiliary_u(t)
+    middle = field_swap(field_swap(first, j, m, f),
+                        m+1+j, 2*m+1, f)
+    output, phase2 = auxiliary_u(middle)
+    return output, phase1*phase2
+
+
 def main():
     haux = []
     kernel = []
@@ -119,6 +132,7 @@ def main():
             for t in range(count):
                 image, phase = global_middle(t, j, m, f)
                 assert (image, phase) == column_middle(t, j, m, f)
+                assert (image, phase) == common_conjugation(t, j, m, f)
                 assert (image & inactive_mask) == (t & inactive_mask)
                 assert global_middle(image, j, m, f) == (t, phase)
                 seen.add(image)
@@ -149,6 +163,7 @@ def main():
         "status": "PASS",
         "exact_kernel_entries": 256,
         "full_global_query_outputs": checks,
+        "common_conjugation_outputs": checks,
         "support_witnesses": support_witnesses,
         "negative_controls": negative_controls,
         "regular_price_cancellation_checks": cancellation_checks,

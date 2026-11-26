@@ -144,3 +144,8 @@ E002's final reviewed discoveries distinguish exact partitions, overlapping cove
 ### S004 fourth checkpoint — 2026-11-26T00:21:33Z
 
 S004 fourth scientific checkpoint adds reviewed physical/local components without changing the shared unconditional envelope or JR-only conditional theorem. E003 independently derived the balanced rank-weighted endpoint formula; parallel attribution is explicit. See scoped FOURTH-WAVE-ADMISSION.md.
+
+
+## S003 final handoff — 2026-11-26T00:19:10Z
+
+S003 completed its requested three-hour interval. The admitted unconditional AQ bound remains `T(n)=O(n sqrt(L) 2^{O(s^(2/3)(log2(s+2))^(1/3))})`, with one fixed exact multitape machine and an absolute O(n) visited-cell cap. Final report: `sessions/2026-11-26-S003/FINAL-REPORT.md`; evidence manifest: `sessions/2026-11-26-S003/FINAL-MANIFEST.json`. Protected alternatives ended with scoped separate-query, scalar-compression and fixed-rank real row-mixer product obstructions. Continue with changed physical joint delivery or geometry. Concurrent sessions and provenance are preserved.

@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "exact_field_matrix_identities": 192,
+  "primes": [
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    31
+  ],
+  "orbit_checks": {
+    "global_word_outputs": 251136,
+    "pencil_outputs": 62784,
+    "negative_controls": 48,
+    "independent_rows": 2,
+    "suffix_spectators": 2
+  },
+  "predictor_checks": {
+    "count_offset_newton_cases": 28600,
+    "fourier_projectors": 32,
+    "missing_initial_base_three_high_digit_control": 1
+  },
+  "repair_checks": {
+    "corrected_output_entries": 6912,
+    "zero_gap_containing_sets": 96,
+    "nonzero_outside_lift_examples": 288,
+    "rejected_wrong_transpose_examples": 288
+  },
+  "source_sha256": "a8fb4c5d98a1dec843294438fdf751aa9eb0ce7f520551b1ecd98272739575b8",
+  "scope": "Finite identities and complete occupied-orbit pencils; no full tape multiplier."
+}

@@ -1,0 +1,10 @@
+{
+  "source": "route-c/verify_telescoping_carry.py",
+  "sha256": "bf0513d59c75929c4ebafd24beca5d28f7f591379c95a4fb853493d467535057",
+  "dependency_sha256": "ff83527440f20499e75553633484edbdd348b201150504bf0f7dd982b78dff97",
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"passed\",\n  \"checks\": {\n    \"formal_polynomials\": 4,\n    \"formal_nonzero_coefficients\": 6469,\n    \"ordinary_digit_values\": 223,\n    \"checked_additions\": 517,\n    \"negative_controls\": 8,\n    \"profiles\": [\n      {\n        \"p\": 2,\n        \"unfolded_nodes\": 17,\n        \"addition_budgets\": [\n          1,\n          2\n        ],\n        \"root_length\": 2\n      },\n      {\n        \"p\": 3,\n        \"unfolded_nodes\": 101,\n        \"addition_budgets\": [\n          1,\n          3\n        ],\n        \"root_length\": 3\n      },\n      {\n        \"p\": 5,\n        \"unfolded_nodes\": 639,\n        \"addition_budgets\": [\n          1,\n          5\n        ],\n        \"root_length\": 5\n      },\n      {\n        \"p\": 7,\n        \"unfolded_nodes\": 2169,\n        \"addition_budgets\": [\n          1,\n          7\n        ],\n        \"root_length\": 7\n      }\n    ]\n  },\n  \"script_sha256\": \"bf0513d59c75929c4ebafd24beca5d28f7f591379c95a4fb853493d467535057\",\n  \"dependency_sha256\": \"ff83527440f20499e75553633484edbdd348b201150504bf0f7dd982b78dff97\",\n  \"scope\": \"Formal finite prime-ary carry formula and actual budgets; no complete physical compiler.\"\n}\n",
+  "stderr": "",
+  "replayed_utc": "2026-11-26T00:14:02.796028+00:00",
+  "scope": "Finite formal carry identity and actual formula budgets; no complete physical compiler"
+}

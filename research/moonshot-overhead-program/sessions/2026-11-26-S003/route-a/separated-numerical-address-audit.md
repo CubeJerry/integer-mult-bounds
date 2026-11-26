@@ -1,7 +1,9 @@
 # The remaining query factor in numerical address work
 
 Status: **proved source-operation audit and explicit local obstruction;
-submitted for independent review**. This sharpens NW's coarse local physical
+independently accepted by C** in `../route-c/REVIEW-SEPARATED-NUMERICAL-ADDRESS.md`.
+The common-conjugation addendum also passed C's separate read and replay.
+This sharpens NW's coarse local physical
 toll, but does not establish the separated numerical supplier SN. The
 unconditional AQ theorem is unchanged. Concurrent S004's
 `joint-rectangle-two-scale-transfer.md` gives a different conditional route
@@ -256,3 +258,48 @@ impossibility. The finite verifier checks SN-A6--SN-A8 exactly over the
 rationals, checks distinct support permutations with all spectator fields
 present, and includes omitted-swap/phase negative controls. It does not
 certify such a joint executor or a new multiplication envelope.
+
+### A common conjugation removes all query-dependent phases
+
+B and A independently observed the following further simplification after
+the first SN audit was saved. Let D_0=D_aux, and let R_0 exchange X_0 and
+Z_0. Regard t_j=(X_j,Z_j) as one pair-valued tensor coordinate and let S_j
+exchange t_j with t_0 without reversing either pair. Then
+
+    P_j=R_0 S_j R_0,
+    M_j=D_j P_j D_j=D_0 P_j D_0=U_0 S_j U_0,
+    U_0=D_0 R_0=R_0 D_0,      U_0^2=I.               (SN-A10)
+
+Indeed P_j carries D_j to D_0 and vice versa; R_0 preserves the dot-product
+phase D_0. Consequently the whole joint core equals
+
+    sum_j b_j M_j = U_0 (sum_j b_j S_j) U_0.           (SN-A11)
+
+The change U_0 is independent of j and costs a pointwise sign and one
+width-f auxiliary-field exchange. Thus the unresolved core can be taken
+to be a **weighted star-transposition sum on tensor coordinates**. This
+is an exact local simplification, not a fast executor for that sum.
+The checker verifies SN-A10 on every already enumerated full address.
+
+## 5. Verification and concurrent scope comparison
+
+The initial exact checker passed 256 rational kernel entries, 217,872
+complete query-map outputs, 32 pairwise distinct-support witnesses and
+80 regular-price cancellation inequalities. Three matrix negative
+controls plus those support witnesses give 35 controls. The common
+conjugation adds 217,872 exact output/phase comparisons without changing
+the underlying examples. The large f=2 case includes all 65,536 addresses
+for m=3, with every other distinguished slot as a complete spectator.
+
+After this audit was written, the lead pointed to concurrent E002's
+`results/epsilon-uniformity/sessions/E002/route-b/query-representative-obstruction.md`.
+A then read that note in full. Its intrinsic coset-functional argument
+rules out auxiliary-only alignment for distinct source directions, and
+its actual q>=4 canonical rectangle family gives at least mV/2 nontrivial
+conversion volume per pencil and Omega(m^(3/2)V) over Newton stages.
+That positive-volume result is stronger than inferring a family-wide
+count from the isolated D=2 example; this note explicitly does not make
+the latter inference. The results converge on the same remaining joint
+executor gate and should be counted as one obstruction, with separate
+credit for the concrete four-slot identity and common conjugation here.
+Neither result is a tape-time lower bound or excludes joint query sharing.

@@ -1,6 +1,6 @@
 # Direct coefficient-rank routing cannot replace the geometric pencil
 
-Status: **proved scoped algebraic obstruction; independent review requested**. This tests a proposed route outside the retained rectangle invoice. It lower-bounds the coefficient-rank invoice of formal full-identity affine factorizations, not general interchange time or integer multiplication.
+Status: **proved scoped algebraic obstruction; independently accepted by the lead**. See `../lead/review-fifth-wave-components.md`. This tests a proposed route outside the retained rectangle invoice. It lower-bounds the coefficient-rank invoice of formal full-identity affine factorizations, not general interchange time or integer multiplication.
 
 Pins: programme `0607d044d1d09489580da0e5828588820e1a6775`; OpenAI math `3344da59991ed94f9ba711217b29c1d760badfa6`. The concrete application uses `routes/A/power-two-degree-predictor.md`, `routes/A/characteristic-two-count-formula.md`, and `routes/B/structured-shift-check-refinement.md`. The proof uses elementary determinant degree and exact Boolean interpolation.
 
