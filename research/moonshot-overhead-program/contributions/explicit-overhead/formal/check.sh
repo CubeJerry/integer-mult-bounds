@@ -42,7 +42,7 @@ test "$(git hash-object "$run_dir/original-token.lean")" = 7926eb0b192567a40b051
   tail -n +2 "$run_dir/original-token.lean"
 } > "$proof_root/$token_dir/Token.lean"
 test "$(git hash-object "$proof_root/$token_dir/Token.lean")" = c3bb81d443674cc63fe1dbaf47c9025d1d1ba4ca
-for name in RepairDyadic FrobeniusBundles ModularWalshExact TraceBundles AdditiveTraceLayers BundleTransport; do
+for name in RepairDyadic FrobeniusBundles ModularWalshExact TraceBundles AdditiveTraceLayers BundleTransport TraceCoefficientPrefix; do
   cp "$formal_dir/$name.lean" "$proof_root/"
 done
 mapfile -t modules < <(awk '$1 == "import" && $2 ~ /^Mathlib([.]|$)/ {print $2}' \
@@ -56,14 +56,14 @@ lake env bash -euo pipefail -c '
   lean -o OAI/Computability/NearSquareRoot/KernelColumn.olean OAI/Computability/NearSquareRoot/KernelColumn.lean
   lean -o OAI/Computability/NearSquareRoot/KernelPass.olean OAI/Computability/NearSquareRoot/KernelPass.lean
   lean -o OAI/Computability/IntegerMultiplication/Port/Token.olean OAI/Computability/IntegerMultiplication/Port/Token.lean
-  for module in RepairDyadic FrobeniusBundles ModularWalshExact TraceBundles AdditiveTraceLayers BundleTransport; do
+  for module in RepairDyadic FrobeniusBundles ModularWalshExact TraceBundles AdditiveTraceLayers BundleTransport TraceCoefficientPrefix; do
     lean -DwarningAsError=true -o "$module.olean" "$module.lean"
   done
-  for module in RepairDyadic FrobeniusBundles ModularWalshExact TraceBundles AdditiveTraceLayers BundleTransport; do
+  for module in RepairDyadic FrobeniusBundles ModularWalshExact TraceBundles AdditiveTraceLayers BundleTransport TraceCoefficientPrefix; do
     leanchecker -v "$module"
   done
   if [[ ${S006_FRESH:-0} == 1 ]]; then
-    for module in RepairDyadic FrobeniusBundles ModularWalshExact TraceBundles AdditiveTraceLayers BundleTransport; do
+    for module in RepairDyadic FrobeniusBundles ModularWalshExact TraceBundles AdditiveTraceLayers BundleTransport TraceCoefficientPrefix; do
       leanchecker -v --fresh "$module"
     done
   fi
@@ -78,6 +78,7 @@ targets = {
     "WalshPlan": "twoTermGap_eq checkBlock_has_nondyadic_entry plan_entries_dyadic actual_repair_gaps gap_has_factor_73 native_plan_excludes_singleton_repair",
     "FrobeniusBundles": "finest_stable_partition one_bundle_of_top",
     "CompactSpecialization": "correction_from_inverse correction_exact quotient_spec scalar_spec canonical_scalar_unique matrix_entry_tickets signed_lift_of_ticket scalar_maps_ticket row_pass_tickets source_row_pass_lift target_entry_integer target_scaled_input walsh_sum_bound correct_plan_exact_walsh compact_target_exact_walsh",
+    "CoefficientPrefix": "feedback_square_zero streamed_binary_split trace_power_form trace_power_exact truncated_quotient_remainder binary_quotient_remainder",
     "BundleTransport": "stable_coset_support reverse_transport finite_stable_coset_remainder address_injective transported_binary_at_point finite_frobenius_remainder unique_source_digit sourceDigit_bijective transport_at_point binaryHorner_conjugate binary_remainder_transport",
     "AdditiveLayers": "rootProduct_zero_iff_address gaps_of_independent independent_field_equivalence subspace_eq_rootProduct forward_is_evaluation inverse_forward forward_inverse Example.field_four_roundtrip",
     "TraceBundles": "no_flip_count even_flip_count empty_odd_flip disjoint_signs kernel_iff_pair_image unique_trace_split full_period_direction",
