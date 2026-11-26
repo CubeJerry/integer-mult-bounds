@@ -15,6 +15,8 @@ The proposition under review is the single-machine upper envelope in [the proof]
 
 A clean Lean 4.34.1 run compiled the contribution files from their recorded bytes, rejected warnings, checked axiom lists, and replayed the compiled declarations using Lean's kernel. The checker tests the exact names and axiom lists of 49 designated results in six modules. Setting `S006_FRESH=1` requests replay of every module and all its imports in a fresh kernel environment. The original plan and column modules are unchanged. The test narrows the umbrella import in the published `Port.Token` source and retains every declaration in its body. [Full source and axiom receipt](../../sessions/2026-11-26-S006/lean-axioms.txt) · [Reproducible build](formal/check.sh)
 
+The [coefficient-prefix checker](../../sessions/2026-11-26-S006/verify-trace-coefficient-prefix.js) compares the scan formulas against ordinary long division, exact reconstructed polynomials and the actual bundle roots. It checks every prefix at the tested degrees in both directions. The forward input is the literal contiguous binary coefficient list.
+
 The [finite receipt](../../sessions/2026-11-26-S006/finite-replay.json) includes exact counts and finite resource samples. Run the companion JavaScript files with Node.js. Independent written reviews were carried out by different AI workers and examined by the integrating author. No human referee or end-to-end multiplier execution is recorded.
 
 The campaign's remaining open physical and asymptotic questions are in [OBLIGATIONS](../../OBLIGATIONS.md). The terminal writing convention, input-dependent choices and eventual cutoffs are part of the theorem. A numerical cutoff for the entire multiplier remains open.

@@ -103,3 +103,34 @@ The additive stage and earlier scalar lower bound are described in [four-point a
 The kernel-checked [additive-layer semantics](../../contributions/explicit-overhead/formal/AdditiveTraceLayers.lean) identify the recursive forward map with evaluation of the stated product-basis polynomial at every ordered address. Under independent directions the inverse is two-sided for arbitrary rows at every depth. The Mathlib instantiation covers fields of characteristic two. The enumeration and tape estimates in this note are written proofs.
 
 The [Frobenius transport proof](../../contributions/explicit-overhead/formal/BundleTransport.lean) establishes uniqueness of an omitted remainder on any conjugate coset. Its `finite_frobenius_remainder` connects the actual power map on finite Mathlib fields to the ordered target remainder of every binary coefficient list. `stable_coset_support` admits every anchor difference in the stable direction space, including a nonzero subspace translation. `reverse_transport` proves the explicit construction with the inverse field automorphism undoes the forward transport on arbitrary rows. The induced address permutation is chosen noncomputably for the semantics; the separate physical construction processes only the stored representatives.
+
+## The contiguous binary coefficient input
+
+The same bundle has a sparse vanishing polynomial at the opposite end of the transform. For $b=3c$, write $v=2^{2c+1}$ and $m=c-1$, so $q=v2^m$. Over $\mathbf F_2$ put
+$$
+ T(X)=X+X^{2^c}+X^{2^{2c}},\qquad S(X)=T(X)^2+T(X).
+$$
+On $K$, $T$ is the relative trace and $\ker S=V$, since $T(z)^2=T(z)$ is equivalent to $T(z)\in\mathbf F_2$. The polynomial $S$ is monic of degree $v$ and its $v$ distinct roots are exactly $V$. For any anchor $a$, $S(X)+S(a)$ is the vanishing polynomial on $a+V$. The formulas include $c=1$, when cancellation gives $S=X^8+X$.
+
+**Binary coefficient prefix.** For $0\le r\le m$, one fixed multitape program converts the $q$ independent binary coefficients of any $f\in\mathbf F_2[X]_{<q}$, in increasing degree order, bijectively to $2^r$ consecutive ordinary binary polynomials $f_j$, each of degree below $q/2^r$, with
+$$
+ f(X)=\sum_{j<2^r} f_j(X)\,S(X)^{j2^{m-r}}.
+$$
+The output sorts $j$ in increasing order and the coefficients of each $f_j$ in increasing degree. Either direction takes $O((r+1)q+\mathrm{poly}(b))$ tape steps and $O(q)$ cells ever visited. In particular the first $\min(c-1,\lfloor\sqrt b\rfloor)$ levels from the caller's actual coefficient end meet the binary $O(q\sqrt b)$ budget. When $c=1$ there is a single identity record.
+
+For the recursive split use $S_i=S^{2^i}=X^h+E_i$, $h=v2^i$, for $i=m-1,m-2,\ldots,m-r$. In characteristic two, squaring scales each exponent. The support of $S_i$ consists of at most six distinct powers of two, so $E_i$ has at most five terms, each of degree at most $h/2$. For one increasing-order parent $A+X^h B$ with both halves of degree below $h$, define
+$$
+ D(B)=\lfloor E_i B/X^h\rfloor,\qquad
+ Q=B+D(B),\qquad R=A+(E_iQ\bmod X^h).
+$$
+The high half of $E_i B$ has degree below $h/2$. Thus $D^2(B)=0$. The high half of $(X^h+E_i)Q$ is $Q+D(Q)=B$. The low half has precisely the contribution removed from $A$. Consequently $A+X^hB=R+S_iQ$, with $\deg R,\deg Q<h$. Conversely any such pair gives $A=R+(E_iQ\bmod X^h)$ and $B=Q+D(Q)$. The output is physically $R$ followed by $Q$, so repeated splitting and reversed joining preserve the displayed binary order at every depth. This is ordinary monic quotient and remainder on unrestricted independent binary inputs.
+
+Each of the at most five shifts of $E_i$ requires a constant number of scans of two $h$-bit words. Copies, XORs, rewinds and the final ordered write take $O(h)$ steps per parent. A scan is implemented by aligning the appropriate suffix and prefix of the two banks and then moving both heads one cell at a time. The binary counters at each marked end are little-endian and return their heads after an increment or decrement; the total carries over an interval of length $t$ cost $O(t+\log(h+2))$. Each initial shift or limit has $O(b)$ bits. The resulting additive setup per parent is $O(\mathrm{poly}(b))$ for a fixed polynomial and is absorbed by $h\ge v=2^{2c+1}$. A constant number of banks hold the current whole stream, the next stream and one parent's scratch. All layers reuse the same marked intervals. The sum of parent widths in any layer is $q$, and the short control and scratch regions fit the stated $O(q)$ cell cap. No field-word arithmetic occurs in this prefix.
+
+At $r=m$ these are the ordinary base-$S$ digits, with degree below $v$. For each representative $a+V$ its **actual monomial remainder** is
+$$
+ \operatorname{rem}_{a+V} f(X)=\sum_{j<2^m} f_j(X)\,S(a)^j .
+$$
+The right-hand side has degree below $v$ and agrees with $f$ on $a+V$, proving the identity. It identifies the remaining simultaneous evaluation on the relative-trace values and the monomial-to-product-basis conversion at the top of the stored bundle. The full $m$-pass radix algorithm takes $\Theta(qb)$ as $b$ grows, because this implementation emits $q$ bits per level. The proved growing coefficient prefix and internal bundle layers have different endpoints. Their meeting transform and the literal factor-directory conversion remain unpriced at the target.
+
+The [binary coefficient checker](verify-trace-coefficient-prefix.js) used six extension degrees from 3 through 18, 134 prefix round trips, 283 complete polynomial identities, and 99 independent ordinary long divisions. It checked 5,472 equality-of-evaluation instances on the actual bundle roots and classified all 4,680 field points at the four smaller degrees. Dropping the high correction, switching the child order or omitting a divisor term each had an explicit failing input.

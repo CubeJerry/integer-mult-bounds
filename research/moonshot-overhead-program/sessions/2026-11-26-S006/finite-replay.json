@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-26T04:20:23.011Z",
+  "as_of": "2026-11-26T04:47:07.952Z",
   "runtime": "code-mode V8, exact integer operations; these source bytes can also be run using Node.js",
   "modular": {
     "scalarCases": 112,
@@ -965,5 +965,60 @@
       }
     }
   ],
-  "selected_physical_local_runtime": "Lead repeated the bundle, scalar-head and later adjacent-layer checks using Node.js/Python and a clean, pinned Lean verification run."
+  "selected_physical_local_runtime": "Lead repeated the bundle, scalar-head and later adjacent-layer checks using Node.js/Python and a clean, pinned Lean verification run.",
+  "trace_coefficient_prefix": {
+    "degrees": [
+      {
+        "degree": 3,
+        "levels": 0,
+        "kernelSize": 8,
+        "inputs": 9
+      },
+      {
+        "degree": 6,
+        "levels": 1,
+        "kernelSize": 32,
+        "inputs": 9
+      },
+      {
+        "degree": 9,
+        "levels": 2,
+        "kernelSize": 128,
+        "inputs": 9
+      },
+      {
+        "degree": 12,
+        "levels": 3,
+        "kernelSize": 512,
+        "inputs": 9
+      },
+      {
+        "degree": 15,
+        "levels": 4,
+        "kernelSize": 2048,
+        "inputs": 4
+      },
+      {
+        "degree": 18,
+        "levels": 5,
+        "kernelSize": 8192,
+        "inputs": 4
+      }
+    ],
+    "ordinaryDivisions": 99,
+    "polynomialIdentities": 283,
+    "prefixRoundTrips": 134,
+    "fieldEvaluations": 5472,
+    "fieldPointsClassified": 4680,
+    "negativeControls": {
+      "missingFeedback": true,
+      "wrongOrder": true,
+      "omittedTerm": true
+    }
+  },
+  "fixed_head_combined": {
+    "valid": 4633,
+    "rejected_nonunits": 2373,
+    "total": 7006
+  }
 }
