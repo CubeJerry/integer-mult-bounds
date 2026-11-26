@@ -1,9 +1,9 @@
 {
   "schema": "moonshot-overhead-program-state-v2",
   "branch": "research/moonshot-overhead-program",
-  "status": "session_completed",
+  "status": "session_active",
   "session_date_local": "2026-11-26",
-  "requested_duration_seconds": 7200,
+  "requested_duration_seconds": 10800,
   "source_pins": {
     "canonical_main": "e54523517d0f03e58352e647c403a5af3e525a57",
     "openai_math_main": "3344da59991ed94f9ba711217b29c1d760badfa6",
@@ -123,16 +123,13 @@
   ],
   "checkpoint_baseline_sha": "a31ed45a680b62562a14e8afa566c5c471d7eb3c",
   "session": {
-    "id": "2026-11-26-S006",
-    "started_utc": "2026-11-26T03:04:51Z",
-    "planned_end_utc": "2026-11-26T05:04:51Z",
-    "ended_utc": "2026-11-26T05:04:51+00:00",
-    "requested_seconds": 7200,
-    "actual_elapsed_seconds": 7200,
-    "requested_interval_satisfied": true,
-    "status": "completed",
+    "id": "2026-11-26-S007",
+    "started_utc": "2026-11-26T05:32:16Z",
+    "planned_end_utc": "2026-11-26T08:32:16Z",
+    "requested_seconds": 10800,
+    "status": "active",
     "background_execution": false,
-    "report": "sessions/2026-11-26-S006/FINAL-REPORT.md"
+    "record": "sessions/2026-11-26-S007/SESSION.md"
   },
   "verification_status": "S006: eight formal component modules, 56 designated axiom checks, finite replays and independent AI review. Complete multiplier remains a written result without human refereeing.",
   "concurrent_work": {
@@ -1093,7 +1090,7 @@
     "final_consistency_review": "sessions/2026-11-26-S005/route-c/FINAL-CONSISTENCY.md",
     "status": "completed"
   },
-  "current_session_id": "2026-11-26-S006",
+  "current_session_id": "2026-11-26-S007",
   "current_session_record": "contribution_campaign.sessions",
   "contribution_campaign": {
     "revision": "2026-11-26-post-S005",
@@ -1190,10 +1187,32 @@
         "ended_utc": "2026-11-26T05:04:51+00:00",
         "actual_elapsed_seconds": 7200,
         "requested_interval_satisfied": true
+      },
+      {
+        "id": "2026-11-26-S007",
+        "entry": "broad",
+        "starting_sha": "579617a612e21ed44409ea203c376977f5a3ec69",
+        "started_utc": "2026-11-26T05:32:16Z",
+        "target_end_utc": "2026-11-26T08:32:16Z",
+        "status": "reserved",
+        "gates": [
+          "Bidirectional passage from the paid radix prefix to the stored representative boundary",
+          "Fixed-head movement and basis conversion on arbitrary legal records",
+          "Independent inverse and exact caller-order audit"
+        ],
+        "prior_complete_session": "2026-11-26-S006",
+        "active_obligations": [
+          "remaining trace radix conversion",
+          "physical grouping and record order",
+          "inverse and individual-factor contract"
+        ],
+        "prompt_blob": "da7825ae5ddad080494674d35e2c1058c3e18230",
+        "charter_blob": "0dc678d97579526634453fbb5376463c64482229",
+        "checkpoints": []
       }
     ],
-    "used_or_reserved": 1,
-    "remaining_unreserved": 2
+    "used_or_reserved": 2,
+    "remaining_unreserved": 1
   },
   "s006_current_result": {
     "report": "sessions/2026-11-26-S006/FINAL-REPORT.md",

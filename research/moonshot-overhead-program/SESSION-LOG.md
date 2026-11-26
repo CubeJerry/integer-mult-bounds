@@ -358,3 +358,7 @@ The trace polynomial admits one-correction radix division on unrestricted input 
 ### S006 completion record
 
 Started at 03:04:51 UTC and closed at 05:04:51 UTC on 26 November 2026, after 7,200 seconds. The requested interval was 7,200 seconds. One of three shared campaign sessions is complete and two remain.
+
+### S007 reservation, 26 November 2026
+
+The broad session started at 05:32:16 UTC on `579617a612e21ed44409ea203c376977f5a3ec69`. S006 is complete. S007 occupies the second of three shared slots and owns the coefficient-to-representative conversion. One slot remains unreserved. The [experiment record](sessions/2026-11-26-S007/SESSION.md) identifies the pass criteria and the inverse review.
