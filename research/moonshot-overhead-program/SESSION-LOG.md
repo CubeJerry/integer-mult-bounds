@@ -394,3 +394,7 @@ The session ran from 05:32:16 UTC to 08:32:16 UTC on 26 November 2026 (10,800 se
 ## S008 opened
 
 The last campaign slot is reserved from 10:47:18 to 13:47:18 UTC on 26 November 2026, beginning at `036d2fc958482f9489d4efadf395844ab3b3eb60`. The [session record](sessions/2026-11-26-S008/SESSION.md) defines the numerical and rate tests.
+
+### S008 child-volume and physical handoff
+
+The [numerical volume proof](sessions/2026-11-26-S008/child-volume.md) gives quarter slack at exponent 0.501 for all log arities at least 42·2³⁶. This threshold covers the executed spatial child list. The [physical handoff](sessions/2026-11-26-S008/recount-handoff.md) saves occupied banks and accepts independent replies with an exact transition count. Lead replay passed 4,096 cursor cases, 1,488 contracted returns and 526 full reserves. The complete integer clock is still under investigation.
