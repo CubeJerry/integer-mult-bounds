@@ -176,6 +176,21 @@ def check_comparisons():
     return cases
 
 
+def correlated_outer_cliques():
+    # A box-confined side must avoid any far inner pair in any outer position.
+    cases = comparisons = 0
+    for d in (2, 4):
+        for sizes in product(range(1, 4), repeat=d):
+            local = [[tuple((j + 7*i) for i in range(d)) for j in range(c)] for c in sizes]
+            clique = list(product(*local))
+            assert len(clique) == prod(sizes)
+            for x, y in combinations(clique, 2):
+                assert any(all(a != b for a, b in zip(u, v)) for u, v in zip(x, y))
+                comparisons += 1
+            cases += 1
+    return dict(boxes=cases, incompatible_product_pairs=comparisons)
+
+
 def selected_arities():
     comparisons = []
     for d in (4, 8, 16, 32, 64):
@@ -205,5 +220,6 @@ if __name__ == '__main__':
         positive_controls=[check_positive_coarsening(2, 2), check_positive_coarsening(2, 3)],
         partitions=[check_partition(d, t) for d, t in ((2, 1), (2, 2), (2, 3), (2, 4),
                                                        (3, 2), (3, 3), (4, 1), (4, 2))],
-        elementary_comparisons=check_comparisons(), selected_arities=selected_arities()),
+        elementary_comparisons=check_comparisons(), selected_arities=selected_arities(),
+        correlated_outer_cliques=correlated_outer_cliques()),
                      indent=2, sort_keys=True))

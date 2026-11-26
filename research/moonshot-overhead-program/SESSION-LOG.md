@@ -402,3 +402,7 @@ The [numerical volume proof](sessions/2026-11-26-S008/child-volume.md) gives qua
 ### S008 executed suppliers
 
 The [direct and internal stream machines](sessions/2026-11-26-S008/node-streams.md), [dyadic address changes](sessions/2026-11-26-S008/address-dyadic.md) and [independent recount](sessions/2026-11-26-S008/recount-node.md) now price several former ordinary-work terms. A [common denominator](sessions/2026-11-26-S008/walsh-aligned-denominators.md) removes the per-record modular inverse. The lead reproduced its seven Lean checks and all 8,062 scalar tests. The [fixed-head Toom word](sessions/2026-11-26-S008/word-toom.md) prices the general products. The [changed cross-anchor partition](sessions/2026-11-26-S008/routing-cross-anchor.md) reduces endpoint incidences on an unbounded family but retains the order of the complete envelope. Integrated numerical claims are undergoing independent review.
+
+### S008 numerical native and outer suppliers
+
+A separate implementation review confirmed the whole native local bill at R=4096 and the binary range adapter. The [ordinary outer transform](sessions/2026-11-26-S008/outer-layers.md) has an explicit layer count, a priced fixed-point compiler and an occupied-complement replay. The [Walsh ledger](sessions/2026-11-26-S008/walsh-node.md) and [permutation ledger](sessions/2026-11-26-S008/routing-outer-permutations.md) enter the integrated review. The exact full-integer range is being reconciled.

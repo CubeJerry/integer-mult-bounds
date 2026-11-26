@@ -254,6 +254,120 @@ def check_reserve(word, reply, descriptors, prefix, displaced):
     return normalized
 
 
+def alternating(rule, active, handoff, scatter):
+    """Finite-state odd-lane gather or in-place scatter, outside wrapper bills."""
+    rule.step((active, LEFT, 1), (handoff, LEFT, 1))
+    chosen = False
+    while active.read() in BITS:
+        if chosen and scatter:
+            rule.step((active,handoff.read(),1),(handoff,handoff.read(),1))
+        elif chosen:
+            rule.step((active,active.read(),1),(handoff,active.read(),1))
+        else:
+            rule.step((active,active.read(),1))
+        chosen = not chosen
+    rule.step((handoff,RIGHT,0))
+    rule.home(active)
+    rule.home(handoff)
+    if scatter:
+        rule.discard(handoff)
+
+
+def flip(rule, bank):
+    rule.step((bank, LEFT, 1))
+    while bank.read() in BITS:
+        rule.step((bank, "1" if bank.read()=="0" else "0", 1))
+    rule.home(bank)
+
+
+def mixed_path():
+    # A deterministic host fixture chooses the open call tree. Every actual
+    # tape movement, including test gathers, scatters and leaf flips, is
+    # performed by the one-head rule. The wrapper toll is measured separately.
+    rule = Rule()
+    payload = "1001101"*14
+    active, spectator = Tape.bank(payload), Tape.bank("001011",3)
+    handoff = Tape.bank()
+    control = Tape.bank("10110",2)
+    stack, cs = Tape.stack("L11"),Tape.stack("I100")
+    initial_aux = spectator.image(),control.image(),stack.image(),cs.image()
+    base_top, base_ctop = stack.head,cs.head
+    high = [base_top, base_ctop]
+    totals = [0,0,0,0]
+    def word_length(t):
+        return next(i-1 for i,s in t.cells.items() if s==RIGHT)
+    def visit(plan,depth=0):
+        for command,body in plan:
+            if command=="flip":
+                flip(rule,active)
+                continue
+            is_c = command=="C"
+            if is_c:
+                alternating(rule,active,handoff,False)
+                # Every contracted caller deliberately loses canonical home.
+                rule.step((active,LEFT,1))
+            else:
+                assert is_bank(spectator,"")
+            q = word_length(handoff) if is_c else 0
+            rows = ([active,spectator] if is_c else []) + [control]
+            forecast = sum(4*word_length(t)+8-2*t.head for t in rows) + (4*q+6 if is_c else 0) + 3
+            expected_top = stack.head + (sum(1+word_length(t) for t in (active,spectator)) if is_c else 0)
+            expected_ctop = cs.head + word_length(control)+2
+            high[0],high[1] = max(high[0],expected_top),max(high[1],expected_ctop)
+            initial = rule.steps
+            if is_c:
+                rule.park(active,stack)
+                rule.park(spectator,stack)
+            rule.park(control,cs)
+            if is_c:
+                rule.move_word(handoff,active)
+            rule.remember(cs, CONTRACT if is_c else FULL)
+            before = rule.steps
+            assert (stack.head,cs.head)==(expected_top,expected_ctop)
+            visit(body,depth+1)
+            after = rule.steps
+            assert rule.resume(cs)==(CONTRACT if is_c else FULL)
+            if is_c:
+                rule.move_word(active,handoff)
+            rule.unpark(control,cs)
+            if is_c:
+                rule.unpark(spectator,stack)
+                rule.unpark(active,stack)
+            own = before-initial + rule.steps-after
+            assert own == forecast
+            totals[0]+=own
+            totals[1]+=int(is_c)
+            totals[2]+=int(not is_c)
+            totals[3]=max(totals[3],depth+1)
+            if is_c:
+                rule.home(active)
+                alternating(rule,active,handoff,True)
+
+    leaf = [("flip",[])]
+    child = leaf
+    for j in range(25):
+        # Five contractions interspersed with long full-volume runs.
+        child = [("C" if j%5==0 else "F",child)]
+    plan = [("C",child+child+[("F",leaf)]),("C",child)]
+    def result(w,ops):
+        for op,body in ops:
+            if op=="flip":
+                w="".join("1" if b=="0" else "0" for b in w)
+            elif op=="F":
+                w=result(w,body)
+            else:
+                out=list(w)
+                out[1::2]=result(w[1::2],body)
+                w="".join(out)
+        return w
+    visit(plan)
+    assert is_bank(active,result(payload,plan)) and is_bank(handoff,"")
+    assert initial_aux==(spectator.image(),control.image(),stack.image(),cs.image())
+    assert (stack.high,cs.high)==tuple(high)
+    return dict(zip(("mixed_toll","mixed_contracted","mixed_full","mixed_depth",
+                     "payload_frame_peak","control_frame_peak"),totals+[high[0]-base_top,high[1]-base_ctop]))
+
+
 def main():
     counts = {"park_cursor_cases": 0, "move_word_cases": 0,
               "contracted_receipts": 0, "reserve_receipts": 0, "max_contracted_toll": 0}
@@ -295,6 +409,7 @@ def main():
         counts["max_contracted_toll"] = max(bill, counts["max_contracted_toll"])
         check_reserve(req, rep, rows[3:], "L0" * 19, rng.randrange(n + 2))
         counts["reserve_receipts"] += 1
+    counts.update(mixed_path())
     print(json.dumps(counts, sort_keys=True))
 
 
