@@ -390,3 +390,7 @@ Two independently reviewed physical orderings achieve the same logarithmic savin
 ### S007 completed
 
 The session ran from 05:32:16 UTC to 08:32:16 UTC on 26 November 2026 (10,800 seconds). The [report](sessions/2026-11-26-S007/FINAL-REPORT.md) records the fixed-precision transform, unchanged integer envelope, formal scope and publication decision. Two of three shared campaign slots have been used. Last independently confirmed pre-close commit: `7d84c00d9422c599119795553a2396155330e3d7`.
+
+## S008 opened
+
+The last campaign slot is reserved from 10:47:18 to 13:47:18 UTC on 26 November 2026, beginning at `036d2fc958482f9489d4efadf395844ab3b3eb60`. The [session record](sessions/2026-11-26-S008/SESSION.md) defines the numerical and rate tests.

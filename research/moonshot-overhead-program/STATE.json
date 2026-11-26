@@ -1,7 +1,7 @@
 {
   "schema": "moonshot-overhead-program-state-v2",
   "branch": "research/moonshot-overhead-program",
-  "status": "session_completed",
+  "status": "session_active",
   "session_date_local": "2026-11-26",
   "requested_duration_seconds": 10800,
   "source_pins": {
@@ -1128,8 +1128,8 @@
     "final_consistency_review": "sessions/2026-11-26-S005/route-c/FINAL-CONSISTENCY.md",
     "status": "completed"
   },
-  "current_session_id": "2026-11-26-S007",
-  "current_session_record": "contribution_campaign.sessions",
+  "current_session_id": "2026-11-26-S008",
+  "current_session_record": "sessions/2026-11-26-S008/SESSION.md",
   "contribution_campaign": {
     "revision": "2026-11-26-post-S005",
     "limit": 3,
@@ -1322,10 +1322,30 @@
         "ended_utc": "2026-11-26T08:32:16Z",
         "actual_elapsed_seconds": 10800,
         "decision": "prepare external review in the one remaining shared campaign slot"
+      },
+      {
+        "id": "2026-11-26-S008",
+        "entry": "broad",
+        "starting_sha": "036d2fc958482f9489d4efadf395844ab3b3eb60",
+        "started_utc": "2026-11-26T10:47:18Z",
+        "target_end_utc": "2026-11-26T13:47:18Z",
+        "status": "active",
+        "gates": [
+          "A. Numerical fixed-tape interchange, counts and child volume at the actual native interface.",
+          "B. Shared traversal across different anchor cells and its surviving Walsh cost."
+        ],
+        "active_obligations": [
+          "finite controller and head travel",
+          "explicit recurrence mass and width guards",
+          "Walsh and outer numerical caller"
+        ],
+        "prompt_blob": "c27b5ebcc9694221ac833c75db3071578ce9c4d1",
+        "charter_blob": "977a98df197accf4cb8d3535e06608110f91167c",
+        "checkpoints": []
       }
     ],
-    "used_or_reserved": 2,
-    "remaining_unreserved": 1
+    "used_or_reserved": 3,
+    "remaining_unreserved": 0
   },
   "s006_current_result": {
     "report": "sessions/2026-11-26-S006/FINAL-REPORT.md",
