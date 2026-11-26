@@ -34,14 +34,25 @@
     "width_dispatch": "pinned clean rebuild and fresh transitive kernel replay",
     "source_product": "pinned original TM operators, full transitive kernel replay of final source product, including staged output",
     "intermediate_8931714897907030": "pinned complete checked schedule and fresh transitive kernel replay",
-    "final_7519517465920988": "Strict source build, designated axiom audit, and successful separate module kernel replays for the exact adjacent test, simpler all-later proof, sharp all-later proof and 29-row schedule.",
+    "final_7519517465920988": "Warnings-as-errors source build, designated axiom audit, individual replays of both adjacent signs and both all-later extensions, plus a successful fresh transitive kernel replay of S008.LabelSchedule against the pinned imports.",
     "compiler_suite": {
       "complete_rule_rows": 734400,
       "occupied_cases": 105049,
       "physical_transitions": 2399528
     },
     "walsh": "73 declarations in the frozen eight-module algebra and physical selector package, rebuilt and kernel-replayed.",
-    "physical_carry": "Pinned independent source build and module replay of recovered_physical_readout, starting from prepared coefficient banks."
+    "physical_carry": "Pinned independent source build and module replay of recovered_physical_readout, starting from prepared coefficient banks.",
+    "final_schedule_fresh_replay": {
+      "suite": "fresh-final-schedule",
+      "exit": 0,
+      "seconds": 270.19,
+      "peak_kib": 2380764
+    },
+    "whole_input_smooth_table_replay": {
+      "suite": "final-input-clock",
+      "exit": 0,
+      "seconds": 72.8
+    }
   },
   "box": {
     "kind": "forced host-array schedule using full grid formulas",
@@ -130,6 +141,70 @@
       "stream_table_sha256": "47a557d85f5c74a2868abfb55fe4dda16a1e778d003390f426df5fa7507387f5",
       "stream_transitions": 375240,
       "table_sha256": "84b8de66434cb2c0f1c51e1c3433a53e0536ba4d18f8b02c403377daca5d7fcf"
+    },
+    "isolated_published_sources": {
+      "commit": "4627397635390e83e7639c8aa7ad5e61c9d3c411",
+      "replayed_at_utc": "2026-11-26T13:43:17.421941+00:00",
+      "runs": [
+        {
+          "name": "rounded",
+          "argv": [
+            "python",
+            "-I",
+            "-B",
+            "routing-label-walsh.py"
+          ],
+          "exit_status": 0,
+          "seconds": 0.05
+        },
+        {
+          "name": "independent-profile",
+          "argv": [
+            "python",
+            "-I",
+            "-B",
+            "address-review-profile.py"
+          ],
+          "exit_status": 0,
+          "seconds": 0.08
+        },
+        {
+          "name": "independent-width",
+          "argv": [
+            "python",
+            "-I",
+            "-B",
+            "compiler-review-refined-label.py"
+          ],
+          "exit_status": 0,
+          "seconds": 0.21
+        },
+        {
+          "name": "coefficient-53",
+          "argv": [
+            "python",
+            "-I",
+            "-B",
+            "coefficient-53.py"
+          ],
+          "exit_status": 0,
+          "seconds": 0.03
+        },
+        {
+          "name": "published-lean",
+          "argv": [
+            "bash",
+            "routing-check-lean.sh",
+            "/dev/shm/s006-build/mathlib",
+            "--label"
+          ],
+          "exit_status": 0,
+          "seconds": 87.69
+        }
+      ],
+      "source": "isolated sources checked against the published commit tree blob identifiers",
+      "hash_verified_files": 187,
+      "success": true
     }
   }
 }
