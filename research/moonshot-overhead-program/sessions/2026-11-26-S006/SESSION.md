@@ -22,3 +22,8 @@ The new Walsh supplier uses an exact rational scalar at every row. Construct one
 ## The single dense-bundle alternative
 
 At the failed separate-row representation, replace it once by complete four-row coset blocks, with arbitrary invertible linear maps inside a bundle and Frobenius permuting bundles. A pass requires the exact closure for all binary inputs or a reversible unbounded-family stage with its tape and storage bills. Loss of a small presentation alone cannot establish high computation cost. The field-degree-three-power representative layout is tested in both directions, including stabilizer constraints and adjacent ordinary layers. These tests occupy this session's protected discovery allocation.
+
+
+## Literal coefficient side of the same trace layout
+
+Test whether the special trace bundle's vanishing polynomial has sufficiently few nonzero terms for a divide-and-recombine step on the caller's binary coefficients. A pass requires an unbounded number of actual contiguous divisions starting in increasing coefficient order, exact prescribed endpoints and inverses, and cumulative $O(q\sqrt b)$ head steps and $O(q)$ visited bits. Independent ordinary polynomial long division must agree. A generic subspace-basis change or uncharged transpose fails. This is a boundary of the existing trace-bundle construction. Its partial conversion cannot discharge the full two-way CRT contract.
