@@ -108,10 +108,71 @@ prepared gauges between states, so CR2--CR5 do not obstruct those
 constructive sharing improvements. No new complete multiplication bound
 or physical runtime lower bound follows here.
 
+## 5. A finite number of gauge channels
+
+The lead supplied the following extension during review. Suppose there
+are g>=1 fixed gauge channels. In channel a, retain one input/output
+gauge at each label as above, and allow an arbitrary matrix F_a supported
+on that channel's individually monomial routes. Put
+
+    F=sum_(a=1)^g F_a,             C=I-F.
+
+Then
+
+    rank_K(C) >= ceil(N/2^g).                                      (CR6)
+
+To prove this, apply the scalar-key construction separately to each
+channel, after one common field extension if necessary. It supplies
+diagonal A_a,B_a with B_a-A_a invertible and B_a F_a=F_a A_a. Define
+the linear displacement operator
+
+    L_a(X)=B_a X-X A_a.
+
+All the L_a commute, since all their left and right coefficients are
+diagonal and left multiplication commutes with right multiplication.
+For each a, the product of all g operators kills F_a: commute L_a next
+to F_a and use L_a(F_a)=0. Thus
+
+    (L_1 ... L_g)(C)=(L_1 ... L_g)(I)
+                    = product_(a=1)^g (B_a-A_a).
+
+The right side is diagonal and invertible, so its rank is N. Expanding
+the product of operators gives at most 2^g terms, each a diagonal left
+and right multiple of C, with a sign. Every term has rank at most
+rank(C), and rank subadditivity proves CR6. This proof also covers
+overlaps and cancellations between the channel matrices.
+
+The factor 2^g is sharp in the abstract norm-one model. Let N=2^g,
+take the binary ambient space of dimension N with orthonormal label
+directions d_v=e_v indexed by bit strings v, and in channel a set both
+U_(a,v) and V_(a,v) to the span of basis vectors e_w whose a-th bit
+differs from v's. These are auxiliary at v. When v and w differ in bit a,
+V_(a,w)=U_(a,v)-perp, so that route is admitted by channel a. Let F_a
+have entry -1 on ordered label pairs whose first differing bit is a,
+and zero elsewhere. The channel matrices sum to minus the off-diagonal
+all-ones matrix, leaving C equal to the all-ones N-by-N matrix of rank
+one over every field. This shows equality in CR6. It makes no claim of
+sharpness for the native Gram labels when g>1.
+
+Under exactly the retained charged-routine convention in Section 4,
+this gives the charged invoice
+
+    (2D)m ceil(N/2^g)/N >= 2Dm/2^g.                               (CR7)
+
+The channel count is a hypothesis of CR6--CR7, and no channel setup,
+transition or sharing is declared free by the proof. Compositions of
+several routes are not automatically a supported sum of these channel
+matrices. State-walk/tree schedules can change gauges with their states;
+they are not subject to the g=1 consequence, and applying CR6 to any
+such schedule requires first establishing its stated fixed-channel
+representation. No runtime lower bound is inferred.
+
 Dependencies: A's `ROUTING-GLOBAL-ENDPOINT-GAUGE.md`; C's independent
 source review and `ONE-GAUGE-GRAPH-CLASSIFICATION.md`; the pinned OpenAI
 Fourier endpoint construction. The diagonal-displacement argument and
-native matching sharpness were derived in C during final review.
+native matching sharpness were derived in C during final review; the
+finite-channel extension and abstract sharpness were derived by the
+lead and checked algebraically in C.
 
 Credits: @CubeJerry; E003 A's exact gauge model; lead independent check;
 substantial AI-assisted derivation. No priority, formal-proof or human-

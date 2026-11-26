@@ -1,5 +1,5 @@
 {
-  "status": "passed final integrity checks; session completion recorded separately",
+  "status": "passed closing integrity checks; fixed scientific snapshots and reviewed claims preserved",
   "checked_utc": "2026-11-26T00:47:46.761737+00:00",
   "main_admission_components_and_review": {
     "lead/ADMISSION-TWO-SCALE.md": {
@@ -153,12 +153,33 @@
     "lead/state-walk-transition-replay.json",
     "lead/translation-orbit-replay.json"
   ],
-  "last_fresh_fetch_verified_checkpoint": "baeb200f5bb627efae99adb028b6e58198e6d335",
-  "last_verified_tree": "cf4325c4beaece82acfbd008f0171571bf347981",
+  "last_fresh_fetch_verified_checkpoint": "52c62730289449e01f53fee3aa3f7087d982e9e8",
+  "last_verified_tree": "fc68cb240a98c00f464e9db71aa7b7dad56b5cdb",
   "limitations": [
     "This manifest checks integrity and syntax, not the truth of all proofs.",
     "Finite checkers and their individual replays have their own receipts; their coverage is not silently expanded here.",
     "No full multiplier execution, formal refinement build, human refereeing, or practical eventual-cutoff evaluation.",
     "The source and literature novelty audit remains partial."
-  ]
+  ],
+  "closing_scientific_files_sha256": {
+    "route-a/ROUTING-REVIEW-FINAL-REPORT.md": "43dae2da565a76b3cc04943ee4c4e34d2cbd385f3f6e19a3ac0888f04ed1c74f",
+    "route-a/ROUTING-REVIEW-MOMENT-PROFILE.md": "aa699e17728be345032d97c6f8654cdd27982d7aa102a39c2ec12e0deb4e6f39",
+    "route-c/REVIEW-FINAL-REPORT.md": "a868d150fca1a6037a4ff9f4f19585a00fe6dbe27496e3ecf19bb86639bbbe14",
+    "route-c/REVIEW-B-TREE-OPTIMAL-INVOICE.md": "6a47b65504d3f4f4222d176a96ca88e368344552d1b907f4ecde5cad9492d22f",
+    "route-c/ONE-GAUGE-CHARGED-RANK.md": "9d4774510f8d2ab89c53ecfbcb5a5a3e2a5fb2deb024f2ef30dcb89da9cf55b2",
+    "route-b/STATE-TREE-MOMENT-PROFILE.md": "b4216256a1bd2fa16c5564390e36a2f7f9facbfd3f73f7acf07e936451656888",
+    "route-b/STATE-TREE-OPTIMAL-LOCAL-INVOICE.md": "991a31bd50685619602aeadae9e0a35f64ccde6853751d841581d282b156d86c",
+    "lead/review-tree-moment-profile.md": "9ef7e410457feb0abe9de239502b319289df58d8173e8e5a005167521d56aa66",
+    "lead/review-closing-analytic-refinements.md": "a49164446377a03391fdcf1a0dc5fee6f4d5ac6c04ed7e33310e40fba1c22d62",
+    "FINAL-REPORT.md": "49f38dc699cae7aaa438928cb56c4fd6e880d751d37411c9382eccb54b2624cf",
+    "FINAL-ADDENDUM.md": "0ca8fa04faff39c6d027614c15569d6a44c0aebd655ee217265155bf322a5048"
+  },
+  "report_review_header_difference": "A reviewed8c7a0824; C reviewed49f38dc6. Reverting only the three timing-header lines reproduces A hash exactly; scientific text is unchanged.",
+  "closing_json_parse_count": 56,
+  "closing_python_ast_parse_count": 40,
+  "closing_checked_utc": "2026-11-26T00:57:47.943217+00:00",
+  "concurrent_closing_read": "S004 FIFTH-WAVE-ADMISSION.md read completely; not all its new supplier proofs independently reaudited.",
+  "research_closed_utc": "2026-11-26T01:01:27.875591+00:00",
+  "requested_interval_fulfilled": true,
+  "closing_worktree_parent": "78273a08ea35dee9997a5d4cfdecb0a1fb787687"
 }

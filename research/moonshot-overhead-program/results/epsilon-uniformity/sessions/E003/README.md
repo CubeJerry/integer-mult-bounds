@@ -1,12 +1,12 @@
 # E003 — quantitative uniformity beyond expanded templates
 
-Status: **active research; complete same-scale construction independently admitted**.
+Status: **completed three-hour session; complete same-scale construction independently admitted**.
 
 This focused session starts from remote programme commit
 `a2d9c4b00c02dadf7bdc970acf9190dfabf9ec32`. Its requested duration is
 three hours, from 2026-11-25 22:01:09 UTC to approximately
-2026-11-26 01:01:09 UTC (26 November, Melbourne). Actual completion and
-checks will be recorded, not inferred from the requested duration.
+2026-11-26 01:01:09 UTC (26 November, Melbourne). Actual completion and elapsed time are recorded in SESSION.json; the
+requested interval was fulfilled before the closing publication.
 
 ## Mathematical starting point at initialization
 
@@ -30,7 +30,7 @@ currently gives a **conditional** transfer on the scale
 `log H=O(x^(3/4)(log(x+2))^(1/4))`; its physical premises are not assumed
 proved by this initialization.
 
-## Current checkpoint
+## Final scientific record
 
 Remote 8af1911b contains E002's complete written two-thirds envelope,
 `T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log2(x+2))^(1/3))})`, with uniform O(n)
@@ -58,10 +58,17 @@ must change. The destination-gauge factoring has passed independent
 physical and arithmetic review, reducing the free component by Theta(t)
 for q=2^t. Its changed invoice has a fresh lower-bound proof. A further
 schedule that keeps prepared bases while traversing rectangle states has
-passed independent review, including an explicit reflected-Gray traversal. These local
-savings retain the same leading logarithmic scale in the current model.
+passed independent review, including an explicit reflected-Gray traversal
+and an exact minimum-spanning-tree schedule. The exact ordered-partition
+moment further sharpens the local profile. These savings retain the same
+leading complete multiplication scale in the current model.
 The nonsymmetric extension of the finite gate classification has passed
 independent review and exhaustive small-field checks.
+
+The complete account is in [FINAL-REPORT.md](FINAL-REPORT.md), with late
+scoped refinements in [FINAL-ADDENDUM.md](FINAL-ADDENDUM.md). Proof hashes,
+source integrity and verification limits are in
+[FINAL-VERIFICATION.json](FINAL-VERIFICATION.json).
 
 ## Independent routes
 
@@ -88,12 +95,14 @@ or Lean verification. Existing source-audit limitations remain in force.
 
 ## Open next questions
 
-1. Does every compact operation retain the recursive child's original bit
-   volume, with polynomial proportional work and a common visited-space cap?
-2. Can varying parameters reduce the accumulated exponent loss after their
-   actual generation, movement and numerical-precision bills are included?
-3. Which source-specific concentration or label constraint determines the
-   best possible rate in the surviving architecture?
+1. Can complete free contributions be combined without visiting every
+   distinct prepared source state, or with a smaller physical routing toll?
+2. Can noncanonical, nonlaminar rectangle geometry improve both spans and
+   joint loads while preserving all actual numerical and tape costs?
+3. Is there a compact rational block form or priced algebraic basis for
+   the signed-star family that preserves arbitrary occupied input rows?
+4. Can the complete source-compatible construction receive broader
+   independent or formal review, including its absolute visited-cell cap?
 
 ## Credits
 

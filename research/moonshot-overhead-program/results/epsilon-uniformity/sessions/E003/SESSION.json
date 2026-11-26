@@ -1,7 +1,7 @@
 {
   "schema": "epsilon-uniformity-session-v2",
   "id": "2026-11-26-E003",
-  "status": "in_progress",
+  "status": "completed",
   "started_utc": "2026-11-25T22:01:09Z",
   "planned_end_utc": "2026-11-26T01:01:09Z",
   "requested_seconds": 10800,
@@ -29,7 +29,7 @@
     "integration_review": "route-c/REVIEW-LEAD-INTEGRATION.md",
     "remaining_efficiency_hypotheses": []
   },
-  "current_status": "Complete same-scale construction and endpoint tree refinements reviewed; final report under independent review through requested end",
+  "current_status": "Completed three-hour session: same-scale complete admission, reviewed endpoint sharing and local invoice refinements; exact endpoint and improved complete rate remain open",
   "verification_limits": [
     "No full multiplier execution",
     "No formal refinement build",
@@ -42,10 +42,11 @@
     "3b22084737ba8d49d0ca4fb4ff1ae30e1633f771",
     "d88a36eea2010113e08f83f49bbe50886111ceff",
     "8fbe12b3c76979ce11355a63bddfcdfcd4227585",
-    "baeb200f5bb627efae99adb028b6e58198e6d335"
+    "baeb200f5bb627efae99adb028b6e58198e6d335",
+    "52c62730289449e01f53fee3aa3f7087d982e9e8"
   ],
   "publication": "regular reconciled fast-forward checkpoints; no automatic upstream PR",
-  "last_reconciled_head": "baeb200f5bb627efae99adb028b6e58198e6d335",
+  "last_reconciled_head": "78273a08ea35dee9997a5d4cfdecb0a1fb787687",
   "proved_components": [
     "Header-free height-priced rational scaling with absolute payload space",
     "Matrix prediction rank tradeoff for arbitrary row mixing and multiple spectral ports",
@@ -70,7 +71,9 @@
     "Weyl/star operator-family comparison and scoped one-gauge obstruction",
     "Exact weighted state-tree endpoint schedule with factorial bound",
     "Directed component criterion for one monomial endpoint gauge per label",
-    "Signed-star invariant-sector spectral and coefficient-field test"
+    "Signed-star invariant-sector spectral and coefficient-field test",
+    "Exact ordered-partition moment and optimized second-logarithm local tree invoice",
+    "Sharp single-gauge charged-rank theorem and finite-channel displacement extension"
   ],
   "candidate_complete_bound": {
     "formula": "T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log2(x+2))^(1/3))})",
@@ -89,12 +92,18 @@
     "provenance": "E002 variable-profile theorem at 8af1911b; admission read; separate full proof not yet independently audited here"
   },
   "binding_gap": "No remaining efficiency-family hypothesis in admitted construction; improving the rate requires changed physical routing, labels or recursive interface",
-  "last_confirmed_checkpoint": "baeb200f5bb627efae99adb028b6e58198e6d335",
+  "last_confirmed_checkpoint": "52c62730289449e01f53fee3aa3f7087d982e9e8",
   "final_report": "FINAL-REPORT.md",
   "final_verification": "FINAL-VERIFICATION.json",
   "final_report_review": {
     "routing": "route-a/ROUTING-REVIEW-FINAL-REPORT.md",
-    "reviewed_report_sha256": "8c7a0824fb7e7726542fa8a94b04f40e33979f6aec6b60a5515e4da340a01038",
-    "graph_and_scope": "pending final scoped review"
-  }
+    "graph_and_scope": "route-c/REVIEW-FINAL-REPORT.md",
+    "current_report_sha256": "49f38dc699cae7aaa438928cb56c4fd6e880d751d37411c9382eccb54b2624cf",
+    "routing_header_only_difference": "lead/review-closing-analytic-refinements.md"
+  },
+  "ended_utc": "2026-11-26T01:01:27.875591+00:00",
+  "actual_elapsed_seconds": 10818,
+  "requested_interval_fulfilled": true,
+  "final_addendum": "FINAL-ADDENDUM.md",
+  "closing_commit_resolution": "The enclosing Git commit identifies this closing snapshot; its remote publication is checked after creation."
 }
