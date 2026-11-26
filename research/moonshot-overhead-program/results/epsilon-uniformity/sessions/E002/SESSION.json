@@ -1,7 +1,7 @@
 {
   "schema": "epsilon-uniformity-session-v2",
   "id": "2026-11-26-E002",
-  "status": "in_progress",
+  "status": "completed",
   "started_utc": "2026-11-25T21:19:31Z",
   "planned_end_utc": "2026-11-26T00:19:31Z",
   "requested_seconds": 10800,
@@ -36,7 +36,7 @@
     ],
     "threshold": "Absolute eventual; constants and cutoff not numerically evaluated"
   },
-  "current_status": "V unconditional; RV conditional with both local contracts open. Final reviewed CP, CG, WB, SS, WC and ER components integrated; preparing final report.",
+  "current_status": "Completed: V unconditional; RV remains conditional on both open local contracts. Final scoped components and independent report reviews saved.",
   "publication": "regular fast-forward checkpoints; no upstream PR",
   "verification_limits": [
     "No full multiplier execution",
@@ -59,10 +59,11 @@
     "9e84956f071e7cc845935a55a5c717db08be6ea0",
     "8af1911b02c04d0c410dd181597fd160582a78b4",
     "a8dd6c249eecfa26028a7d67b895c5d7cd3f1d83",
-    "b979d2e9bd31d6d00d80ff70fb1a9929ad945db9"
+    "b979d2e9bd31d6d00d80ff70fb1a9929ad945db9",
+    "a31ed45a680b62562a14e8afa566c5c471d7eb3c"
   ],
   "component_verification": "Earlier five isolated lead component replays plus independent composite-radix checks and isolated grouped-role replay:108 layouts,56889 repairs,108 wrong-order controls. Written full source/composition reviews; no complete multiplier execution.",
-  "concurrent_preserved_head": "af5d7983fce7c50a8df5fe13428e587e96543727",
+  "concurrent_preserved_head": "8fbe12b3c76979ce11355a63bddfcdfcd4227585",
   "previous_complete_overhead_bound": {
     "formula": "T(n)=O(n sqrt(L) 2^{O(x^(3/4)(log2(x+2))^(1/4))})",
     "L": "1+log2 n",
@@ -89,5 +90,73 @@
     "space": "Uniform O(n) cells ever visited",
     "scope": "No unconditional improvement, polynomial-x overhead, endpoint, full execution, formal refinement or priority claim"
   },
-  "last_prepared_utc": "2026-11-26T00:05:26.429429+00:00"
+  "last_prepared_utc": "2026-11-26T00:20:30.262760+00:00",
+  "report_review_hashes": {
+    "report": "9756aa369369b2f2e37a8f8900618af744a85a8667963445123fb35e0e7b3829",
+    "review_a": "096069f38ca4b738856ac0ab29d9bdb06b503c6be8c57686a9139c1a3c4f2f1d",
+    "review_c": "912b1fe07da77a427e473371e9414f9e03876ddae64e03f38e5ec56d88e1ec77"
+  },
+  "final_phase_routes": {
+    "independent_review_a": "completed; final report scope PASS",
+    "independent_review_c": "completed; final integration PASS; exact imported bindings checked",
+    "protected_batching_discovery": "completed; WB/SS/WC and concurrent short-seed interface comparison frozen",
+    "lead": "Completed proof integration, source comparison, hash checks and post-deadline closure; publishing final containing commit."
+  },
+  "final_report": "FINAL-REPORT.md",
+  "late_admissions": "lead/LATE-ADMISSIONS.md",
+  "final_review_status": "Both independent final report/integration reviews PASS; actual requested duration completed.",
+  "checkpoint_history": [
+    {
+      "number": 1,
+      "sha": "f3ed00d87df18bdee984e8e7e75f16ea8774ff75",
+      "git_committer_timestamp": "2026-11-26T08:35:44+11:00",
+      "subject": "E002 checkpoint 1: resume focused uniformity and draft on-demand spectral repair",
+      "remote_ref_and_tree_verified": true
+    },
+    {
+      "number": 2,
+      "sha": "9d5abf18ff741ff6f8b9f82790e0475fc662b4fe",
+      "git_committer_timestamp": "2026-11-26T08:52:13+11:00",
+      "subject": "E002 checkpoint 2: polynomial physical components and separated-setup transfer",
+      "remote_ref_and_tree_verified": true
+    },
+    {
+      "number": 3,
+      "sha": "9e84956f071e7cc845935a55a5c717db08be6ea0",
+      "git_committer_timestamp": "2026-11-26T09:18:03+11:00",
+      "subject": "E002 checkpoint 3: admit complete polynomial-profile overhead theorem",
+      "remote_ref_and_tree_verified": true
+    },
+    {
+      "number": 4,
+      "sha": "8af1911b02c04d0c410dd181597fd160582a78b4",
+      "git_committer_timestamp": "2026-11-26T09:49:32+11:00",
+      "subject": "E002 checkpoint 4: admit complete variable-parameter two-thirds overhead theorem",
+      "remote_ref_and_tree_verified": true
+    },
+    {
+      "number": 5,
+      "sha": "a8dd6c249eecfa26028a7d67b895c5d7cd3f1d83",
+      "git_committer_timestamp": "2026-11-26T10:36:00+11:00",
+      "subject": "E002 checkpoint 5: reviewed conditional rectangle-volume transfer and geometry frontiers; preserve concurrent S004",
+      "remote_ref_and_tree_verified": true
+    },
+    {
+      "number": 6,
+      "sha": "b979d2e9bd31d6d00d80ff70fb1a9929ad945db9",
+      "git_committer_timestamp": "2026-11-26T10:59:24+11:00",
+      "subject": "E002 checkpoint 6: reviewed exact partition, optimal cover rank gap and positive Weyl batching; preserve concurrent sessions",
+      "remote_ref_and_tree_verified": true
+    },
+    {
+      "number": 7,
+      "sha": "a31ed45a680b62562a14e8afa566c5c471d7eb3c",
+      "git_committer_timestamp": "2026-11-26T11:14:21+11:00",
+      "subject": "research: E002 checkpoint7 reviewed endpoint reuse, corrected swap bridge and final report",
+      "remote_ref_and_tree_verified": true
+    }
+  ],
+  "ended_utc": "2026-11-26T00:20:30.262760+00:00",
+  "actual_elapsed_seconds": 10859,
+  "final_verification": "FINAL-VERIFICATION.json"
 }

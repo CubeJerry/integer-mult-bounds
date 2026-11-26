@@ -153,3 +153,7 @@ Its open exact-partition condition is distinct from E002's two open
 rectangle-volume delivery contracts. Neither changes the unconditional V/AQ
 scale. Checkpoint a8dd6c249eecfa26028a7d67b895c5d7cd3f1d83 was verified on
 the actual remote and preserves all prior concurrent commits.
+
+## Closing concurrent routing comparison
+
+E003 checkpoint8fbe12b3c76979ce11355a63bddfcdfcd4227585 was preserved. The protected worker read its two full star-routing notes and lead review, together with the retained complete pairwise-Newton supplier. The lead read the full comparison, complete Newton supplier and complete E003 lead review, independently checking the short-seed character conjugation and one-bit scan invoice. No fresh full E003 tape audit or checker replay is claimed. The exact individual-pair normal form does not supply full rectangle delivery. See batching/CONCURRENT-STAR-ROUTING-COMPARISON.md and lead/REVIEW-SHORT-SEED-INTERFACE.md.

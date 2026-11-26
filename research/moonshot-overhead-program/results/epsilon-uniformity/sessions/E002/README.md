@@ -1,7 +1,7 @@
 # E002: quantitative uniformity session
 
-Status: live three-hour research session, ending 26 November 2026 at
-00:19:31 UTC. The strongest admitted written result is Theorem V:
+Status: completed three-hour research session; actual completion time and
+elapsed duration are recorded in SESSION.json. The strongest admitted written result is Theorem V:
 
     T(n)=O(n sqrt(L) 2^{O(x^(2/3)(log_2(x+2))^(1/3))}),
     L=1+log_2 n, x=log_2 L, cells ever visited=O(n).
@@ -29,7 +29,7 @@ logarithmic factor remains at beta=2/3. The exact endpoint is open.
 Routes A/B/C are real independent agents. Supplier files retain their
 historical proposed-status headings; exact admission/review hashes govern
 which contents are now accepted. Later optional component proposals are
-not silently included in the theorem. Protected discovery continues on
+not silently included in the theorem. The completed discovery leaves concrete open targets in
 tighter local delivery, geometry and numerical costs.
 
 Credits: @CubeJerry, pinned OpenAI source and cited prior authors, earlier
@@ -58,3 +58,6 @@ open RV-I/RV-W physical delivery contracts.
 - [Full E002 research report](FINAL-REPORT.md).
 - [Corrected source swap and occupied-parameter contraction](batching/SWAP-WEYL-CONTRACTION-GATE.md), with independent A/C reviews.
 - [Compatible endpoint reuse characterization](review-c/COMPATIBLE-ENDPOINT-REUSE.md) and [lead review](lead/REVIEW-ENDPOINT-REUSE.md).
+
+- [Concurrent exact star-routing comparison and short-seed interface](batching/CONCURRENT-STAR-ROUTING-COMPARISON.md), with [lead interface check](lead/REVIEW-SHORT-SEED-INTERFACE.md); full routing remains open.
+- [Final report scope review A](review-a/FINAL-REPORT-REVIEW.md) and [integration review C](review-c/FINAL-INTEGRATION-REVIEW.md).

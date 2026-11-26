@@ -238,7 +238,7 @@
     },
     "epsilon_uniformity_E002": {
       "id": "2026-11-26-E002",
-      "status": "in_progress",
+      "status": "completed",
       "started_utc": "2026-11-25T21:19:31Z",
       "planned_end_utc": "2026-11-26T00:19:31Z",
       "initial_head": "0607d044d1d09489580da0e5828588820e1a6775",
@@ -262,7 +262,7 @@
         "threshold": "Absolute eventual; constants and cutoff not numerically evaluated"
       },
       "binding_gap": "No remaining hypothesis for admitted V. Exact endpoint and polynomial-x overhead remain open; improve actual local geometry/delivery or numerical costs.",
-      "current_status": "Final integration: unconditional V; conditional RV with both local contracts open; CP, CG, WB, corrected SS/WC, and ER admitted as scoped components.",
+      "current_status": "Completed: V unconditional; RV remains conditional on both open local contracts. Final scoped components and independent report reviews saved.",
       "conditional_complete_overhead_bound": {
         "formula": "T(n)=O(n sqrt(L) 2^{O(x^(2/3))})",
         "L": "1+log2 n",
@@ -278,8 +278,8 @@
         "space": "Uniform O(n) cells ever visited",
         "scope": "No unconditional improvement, polynomial-x overhead, endpoint, full execution, formal refinement or priority claim"
       },
-      "last_reconciled_head": "b979d2e9bd31d6d00d80ff70fb1a9929ad945db9",
-      "last_prepared_utc": "2026-11-26T00:08:28.117523+00:00",
+      "last_reconciled_head": "a31ed45a680b62562a14e8afa566c5c471d7eb3c",
+      "last_prepared_utc": "2026-11-26T00:20:30.262760+00:00",
       "final_report": "results/epsilon-uniformity/sessions/E002/FINAL-REPORT.md",
       "late_admissions": "results/epsilon-uniformity/sessions/E002/lead/LATE-ADMISSIONS.md",
       "verified_checkpoints": [
@@ -288,7 +288,8 @@
         "9e84956f071e7cc845935a55a5c717db08be6ea0",
         "8af1911b02c04d0c410dd181597fd160582a78b4",
         "a8dd6c249eecfa26028a7d67b895c5d7cd3f1d83",
-        "b979d2e9bd31d6d00d80ff70fb1a9929ad945db9"
+        "b979d2e9bd31d6d00d80ff70fb1a9929ad945db9",
+        "a31ed45a680b62562a14e8afa566c5c471d7eb3c"
       ],
       "late_components": {
         "CP": "Exact cross-pinned partition; improved counts, same leading unconditional scale",
@@ -297,7 +298,16 @@
         "SS": "Corrected actual two-half source star swaps; scoped common scalar basis obstruction",
         "WC": "Exact SWAP expansion; scoped occupied-parameter contraction/rank failures, not full signed pencil kernel",
         "ER": "Necessary/sufficient compatible endpoint reuse and constructive serial invoice; better grouping open"
-      }
+      },
+      "ended_utc": "2026-11-26T00:20:30.262760+00:00",
+      "actual_elapsed_seconds": 10859,
+      "background_execution": false,
+      "last_confirmed_checkpoint": "a31ed45a680b62562a14e8afa566c5c471d7eb3c",
+      "final_verification": "results/epsilon-uniformity/sessions/E002/FINAL-VERIFICATION.json",
+      "final_report_reviews": [
+        "results/epsilon-uniformity/sessions/E002/review-a/FINAL-REPORT-REVIEW.md",
+        "results/epsilon-uniformity/sessions/E002/review-c/FINAL-INTEGRATION-REVIEW.md"
+      ]
     },
     "epsilon_uniformity_E003": {
       "id": "2026-11-26-E003",
@@ -537,6 +547,17 @@
       "status": "completed",
       "ended_utc": "2026-11-25T16:20:45Z",
       "actual_elapsed_seconds": 10822
+    },
+    "2026-11-26-E002": {
+      "id": "2026-11-26-E002",
+      "status": "completed",
+      "started_utc": "2026-11-25T21:19:31Z",
+      "planned_end_utc": "2026-11-26T00:19:31Z",
+      "ended_utc": "2026-11-26T00:20:30.262760+00:00",
+      "actual_elapsed_seconds": 10859,
+      "background_execution": false,
+      "final_report": "results/epsilon-uniformity/sessions/E002/FINAL-REPORT.md",
+      "final_verification": "results/epsilon-uniformity/sessions/E002/FINAL-VERIFICATION.json"
     }
   },
   "e002_current_result": {
@@ -704,6 +725,7 @@
     "WB": "Positive physical executor for specified Weyl family; full-source applicability open",
     "SS": "Corrected actual two-half source star swaps; scoped common scalar basis obstruction",
     "WC": "Exact SWAP expansion; scoped occupied-parameter contraction/rank failures, not full signed pencil kernel",
-    "ER": "Necessary/sufficient compatible endpoint reuse and constructive serial invoice; better grouping open"
+    "ER": "Necessary/sufficient compatible endpoint reuse and constructive serial invoice; better grouping open",
+    "CS": "Exact short-seed character conjugation with ordinary scan cost; coupled long-field router and whole-rectangle lift remain open."
   }
 }

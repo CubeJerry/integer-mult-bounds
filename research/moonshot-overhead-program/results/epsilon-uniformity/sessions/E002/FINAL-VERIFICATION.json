@@ -1,0 +1,134 @@
+{
+  "verified_utc": "2026-11-26T00:17:47.590427+00:00",
+  "scope": "Exact retained/imported byte identity, report review binding and JSON/whitespace integrity; no new theorem proof, finite replay or full execution",
+  "import_manifests": [
+    {
+      "manifest": "IMPORTED-COMPONENTS.json",
+      "sha256": "1bda15ff58a6d28acda1675b04f53e5d45f254bfd1a9a2ff6cfcf5b24faab4eb",
+      "verified_files": 107
+    },
+    {
+      "manifest": "batching/HANDOFF-MANIFEST.json",
+      "sha256": "69de72e4d22b19ec625d6940778ea82e23c068f06e02478860369a71f4281761",
+      "verified_files": 10
+    },
+    {
+      "manifest": "review-c/HANDOFF-MANIFEST.json",
+      "sha256": "c6a8bbe8844ed090cd5adeb31ff575c4320e1b018af05b25dfe9287f2cad1c63",
+      "verified_files": 30
+    }
+  ],
+  "files": [
+    {
+      "path": "FINAL-REPORT.md",
+      "sha256": "9756aa369369b2f2e37a8f8900618af744a85a8667963445123fb35e0e7b3829",
+      "bytes": 14792
+    },
+    {
+      "path": "PARAMETERS-V.md",
+      "sha256": "6dcc02d791573e8cae3f58462d4da35479e771219a73049a4c4c893d40ab11a5",
+      "bytes": 5017
+    },
+    {
+      "path": "PARAMETERS-RV.md",
+      "sha256": "40253fac19e75d6e71820708684cef04f81eb5b63b46e48a45d82fb9cd237679",
+      "bytes": 3867
+    },
+    {
+      "path": "lead/ADMISSION-V.md",
+      "sha256": "4be0c296047fe183deeb579acc21f834f54fe583f85b4b7dc3cbdbaae72a054e",
+      "bytes": 7433
+    },
+    {
+      "path": "lead/ADMISSION-RV.md",
+      "sha256": "ef24feb25353e8c87676599a21e06a569f0bf510c40931b62de93b3d6b78d383",
+      "bytes": 4459
+    },
+    {
+      "path": "lead/ADMISSION-CG.md",
+      "sha256": "ff3970936539b75c59fa5f05a956c5a4423c8d9d9456e25b5cf4a4081a8ce544",
+      "bytes": 4123
+    },
+    {
+      "path": "lead/variable-profile-theorem.md",
+      "sha256": "e3cdaae1f325951365104e275c84663f5e0d290bffcf59482845fe6f5d5611ea",
+      "bytes": 17357
+    },
+    {
+      "path": "lead/rectangle-volume-conditional-transfer.md",
+      "sha256": "cf565081bca44d31579f420b1afe0bde4a9a4e48f0bed019b59cbdb4397442e5",
+      "bytes": 16149
+    },
+    {
+      "path": "lead/LATE-ADMISSIONS.md",
+      "sha256": "8c40da9b74c93007741e4679f01d7adfa93bb624e7d8e1471a9deb3897ce8872",
+      "bytes": 5855
+    },
+    {
+      "path": "lead/REVIEW-ENDPOINT-REUSE.md",
+      "sha256": "a2eb8eeb7f4ee7ad6fd18af390e84b932058df8a0890a1e17ab2bad8a7e3eceb",
+      "bytes": 3499
+    },
+    {
+      "path": "lead/REVIEW-SHORT-SEED-INTERFACE.md",
+      "sha256": "214852efdf850c4989dfe6f7cfa0f52ccf643f718dabc6d8e0a50211972802d8",
+      "bytes": 2496
+    },
+    {
+      "path": "review-a/FINAL-REPORT-REVIEW.md",
+      "sha256": "096069f38ca4b738856ac0ab29d9bdb06b503c6be8c57686a9139c1a3c4f2f1d",
+      "bytes": 3596
+    },
+    {
+      "path": "review-c/FINAL-INTEGRATION-REVIEW.md",
+      "sha256": "912b1fe07da77a427e473371e9414f9e03876ddae64e03f38e5ec56d88e1ec77",
+      "bytes": 6566
+    },
+    {
+      "path": "batching/CONCURRENT-STAR-ROUTING-COMPARISON.md",
+      "sha256": "10d8e5c17419e987afe2975a6095012d5b7a5942ffd90d9e03ad4ea302824668",
+      "bytes": 7537
+    },
+    {
+      "path": "batching/STAR-SWAP-FALSIFIER.md",
+      "sha256": "5db06e11c67fba3e0ed5db2a060bf3616a40f42c5d2281853f58f50f50fd3ceb",
+      "bytes": 6748
+    },
+    {
+      "path": "batching/SWAP-WEYL-CONTRACTION-GATE.md",
+      "sha256": "5be659cade5396420a38ab06dbb852a59a56a3aa00858308f0be4f277033012b",
+      "bytes": 9599
+    },
+    {
+      "path": "batching/verify_swap_weyl_bridge.py",
+      "sha256": "d6c90c3dd4d1439d7ba1e805dba665dbb4fa5aba3ed583bb9e413f6e3626c75e",
+      "bytes": 6600
+    },
+    {
+      "path": "review-c/COMPATIBLE-ENDPOINT-REUSE.md",
+      "sha256": "a259a8b858bcc10ad0aa7127b7af0b2b35bf1e016d10c52d27cd011d58ee9b5c",
+      "bytes": 13127
+    }
+  ],
+  "json_files_parsed": 59,
+  "whitespace_check": "pass",
+  "final_report_reviewed_by": [
+    "review-a/FINAL-REPORT-REVIEW.md",
+    "review-c/FINAL-INTEGRATION-REVIEW.md"
+  ],
+  "final_remote_verification": "Performed after completion and publication; this pre-completion receipt does not certify a future commit",
+  "limitations": [
+    "No full multiplier execution",
+    "No new formal build",
+    "No human refereeing",
+    "No new runtime lower bound",
+    "No priority certification"
+  ],
+  "post_deadline_closure": {
+    "ended_utc": "2026-11-26T00:20:30.262760+00:00",
+    "actual_elapsed_seconds": 10859,
+    "requested_seconds": 10800,
+    "all_own_final_phase_workers": "completed",
+    "other_session_statuses": "preserved; E003 and S004 not stopped"
+  }
+}
