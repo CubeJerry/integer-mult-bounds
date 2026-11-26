@@ -136,3 +136,24 @@ The right-hand side has degree below $v$ and agrees with $f$ on $a+V$, proving t
 The [binary coefficient checker](verify-trace-coefficient-prefix.js) used six extension degrees from 3 through 18, 134 prefix round trips, 283 complete polynomial identities, and 99 independent ordinary long divisions. It checked 5,472 equality-of-evaluation instances on the actual bundle roots and classified all 4,680 field points at the four smaller degrees. Dropping the high correction, switching the child order or omitting a divisor term each had an explicit failing input.
 
 The [Lean proof of the streamed split](../../contributions/explicit-overhead/formal/TraceCoefficientPrefix.lean) proves that the one-correction formulas give precisely Mathlib's ordinary polynomial quotient and remainder for every input at each actual Frobenius power of the displayed trace polynomial. It proves that the high-half feedback squares to zero. Its algebra applies to every characteristic-two field. The stream ordering and cumulative head-cost proof are given above.
+
+<a id="grouped-binary-remainders"></a>
+
+### A grouped binary CRT boundary of exactly $q$ bits
+
+Write $W=\{t^2+t:t\in\mathbf F_{2^c}\}$, $M=|W|=2^{c-1}$, and $v=|V|$. Every $s\in W$ is an $S$-value and has exactly $v$ preimages in $K$. For each Frobenius orbit in $W$ choose a representative $s$, let $d_s$ be its length, and let $m_s(Y)\in\mathbf F_2[Y]$ be its monic minimal polynomial. Then
+$$
+ X^q-X=\prod_{[s]}m_s(S(X)).
+$$
+The factor at $s$ is monic of degree $v d_s$ and vanishes precisely on the $v d_s$ elements mapping to its orbit. These disjoint sets contain all $q$ points. This proves the identity, squarefreeness, and identification of each factor with the product of the original irreducibles having roots in those fibres. The sizes sum to $q$.
+
+At full radix depth write $f_j(X)=\sum_{k<v}a_{jk}X^k$ and $g_k(Y)=\sum_{j<M}a_{jk}Y^j$. Then $f=\sum_{k<v}X^k g_k(S(X))$. The actual grouped binary remainder is
+$$
+ f\bmod m_s(S(X))
+   = \sum_{k<v}X^k\,(g_k\bmod m_s)(S(X)).
+$$
+Each term after substitution has degree below $vd_s$ and the difference is divisible by $m_s(S)$. The polynomials $X^kS^j$ for $k<v$ and $j<d_s$ have distinct leading degrees $k+vj$ from $0$ to $vd_s-1$. Their coefficients therefore encode the ordinary grouped remainder bijectively. Since the $g_k$ are arbitrary independent binary polynomials of degree below $M$, CRT in $Y$ makes all $g_k\bmod m_s$ independent across $k$ and the different orbits. Exactly $v\sum_{[s]}d_s=q$ **binary coefficient bits** suffice at this boundary. Equivalently, the $k$th monomial coefficient of the coset remainder is $g_k(s)\in\mathbf F_{2^{d_s}}$, represented in the power basis of $s$. Orbit expansion requires the previously proved Frobenius transport when arbitrary ordered product bases are used.
+
+This exact $q$-bit encoding is for the grouped monomial remainders. The fast internal butterfly schedule established above uses full $K$-words, with $(3+o(1))q$ physical bits. Converting from the smaller fields to that schedule, splitting each $m_s(S)$ into the caller’s individual irreducibles, and the entire precision lift still require algorithms at the target cost. The identity isolates $v$ independent length-$M$ binary transforms over the trace-zero index set. Even rearranging the $j$-major coefficient stream into $k$-major order needs an explicit bill. A basic fixed-tape upper bound is $O(qc)$ steps and $O(q)$ visited bits: cyclically rotate the least significant binary address bit to the top by splitting even and odd positions into two streams and concatenating them, or reverse a rotation by interleaving the two halves. At most $c-1$ inverse rotations transfer the $j$-block to the low end. All passes reuse the same three banks. This invoice leaves fast rearrangement and the reduced transforms open.
+
+The checker independently forms each $m_s$ from its actual conjugate roots, composes it with $S$, and multiplies the resulting binary factors. At $b=3,6,9,12$ it recovered $X^q-X$ and compared 81 literal grouped remainders against ordinary binary long division. For example, at $b=12$, $v=512$ and the orbit degrees are $1,1,2,4$, giving $512(1+1+2+4)=4096$ bits. The comparison is about complete binary representations, with no cost assumption for converting between them.

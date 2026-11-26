@@ -125,8 +125,71 @@ function fieldEval(bits, x, q, modulus) {
   return value;
 }
 
+function binaryTimes(x, y) {
+  let value = 0n;
+  while (y) {
+    if (y & 1n) value ^= x;
+    x <<= 1n;
+    y >>= 1n;
+  }
+  return value;
+}
+function groupDirectory(byValue, q, modulus, base, v) {
+  const seen = new Set(), groups = [];
+  let product = 1n, totalBits = 0;
+  for (const s of byValue.keys()) {
+    if (seen.has(s)) continue;
+    const orbit = [];
+    let y = s;
+    do {
+      assert.ok(byValue.has(y));
+      seen.add(y);
+      orbit.push(y);
+      y = fieldMul(y, y, q, modulus);
+    } while (y !== s);
+    let coefficients = [1];
+    for (const t of orbit) {
+      const next = new Array(coefficients.length + 1).fill(0);
+      coefficients.forEach((coefficient, i) => {
+        next[i] ^= fieldMul(coefficient, t, q, modulus);
+        next[i + 1] ^= coefficient;
+      });
+      coefficients = next;
+    }
+    assert.ok(coefficients.every(bit => bit === 0 || bit === 1));
+    const minimal = pack(coefficients);
+    let divisor = 0n;
+    for (let j = coefficients.length - 1; j >= 0; j--)
+      divisor = sparseTimes(divisor, base) ^ BigInt(coefficients[j]);
+    assert.equal(bitLength(divisor) - 1, v * orbit.length);
+    totalBits += v * orbit.length;
+    product = binaryTimes(product, divisor);
+    groups.push({degree:orbit.length, minimal, divisor});
+  }
+  assert.equal(totalBits, q);
+  assert.equal(product, (1n << BigInt(q)) ^ 2n);
+  return groups;
+}
+function checkGroupedResidues(records, groups, base, v, f) {
+  for (const group of groups) {
+    const digits = new Array(group.degree).fill(0n);
+    for (let k = 0; k < v; k++) {
+      let small = 0n;
+      for (let j = records.length - 1; j >= 0; j--)
+        small = (small << 1n) ^ BigInt(records[j][k]);
+      const [residue] = ordinaryDivide(small, group.minimal, group.degree);
+      for (let j = 0; j < digits.length; j++)
+        if ((residue >> BigInt(j)) & 1n) digits[j] ^= 1n << BigInt(k);
+    }
+    let mixed = 0n;
+    for (let j = digits.length - 1; j >= 0; j--) mixed = sparseTimes(mixed, base) ^ digits[j];
+    assert.equal(mixed, ordinaryDivide(f, group.divisor, group.degree * v)[0]);
+    summary.groupedRemainders++;
+  }
+}
+
 const moduli = new Map([[3, 11], [6, 67], [9, 515], [12, 4105]]);
-const summary = { degrees: [], ordinaryDivisions: 0, polynomialIdentities: 0,
+const summary = { degrees: [], groupedRemainders: 0, groupedDirectories: [], ordinaryDivisions: 0, polynomialIdentities: 0,
   prefixRoundTrips: 0, fieldEvaluations: 0, fieldPointsClassified: 0,
   negativeControls: { missingFeedback: false, wrongOrder: false, omittedTerm: false } };
 
@@ -147,6 +210,8 @@ for (const b of [3, 6, 9, 12, 15, 18]) {
     assert.equal(byValue.size, q / v);
     assert.ok([...byValue.values()].every(points => points.length === v));
   }
+  const groups = modulus ? groupDirectory(byValue, q, modulus, base, v) : [];
+  if (modulus) summary.groupedDirectories.push({degree:b, orbitDegrees:groups.map(g => g.degree), coefficientBits:q});
   const patterns = b <= 12 ? 9 : 4;
   for (let pattern = 0; pattern < patterns; pattern++) {
     const original = input(q, pattern);
@@ -184,6 +249,7 @@ for (const b of [3, 6, 9, 12, 15, 18]) {
       used.push(degrees);
     }
     if (modulus) {
+      checkGroupedResidues(records, groups, base, v, pack(original));
       for (const [value, points] of byValue) {
         const samples = b <= 9 ? points : [points[0], points[Math.floor(points.length / 2)], points.at(-1)];
         for (const z of samples) {
