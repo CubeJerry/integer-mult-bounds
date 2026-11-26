@@ -1,7 +1,7 @@
 {
   "schema": "moonshot-overhead-program-state-v2",
   "branch": "research/moonshot-overhead-program",
-  "status": "session_in_progress",
+  "status": "session_completed",
   "session_date_local": "2026-11-26",
   "requested_duration_seconds": 7200,
   "source_pins": {
@@ -112,7 +112,9 @@
       "039680e5c947d59cff62292e593ecb12a9d0dfe7",
       "cc75d2b35c1d6828536a0473d5e6de5426ac2ef0"
     ],
-    "s006_upstream_pr": "not opened"
+    "s006_upstream_pr": "not opened",
+    "s006_last_confirmed_science_and_verification": "217739be447dfed13c02a8b8682872e84378f6ed",
+    "s006_final_commit_id_location": "Git history and final response"
   },
   "next_actions": [
     "Review the arbitrary-independent-bit interchange body and cumulative visited space.",
@@ -121,49 +123,18 @@
   ],
   "checkpoint_baseline_sha": "a31ed45a680b62562a14e8afa566c5c471d7eb3c",
   "session": {
-    "id": "2026-11-26-S003",
-    "started_utc": "2026-11-25T21:19:05Z",
-    "planned_end_utc": "2026-11-26T00:19:05Z",
-    "requested_seconds": 10800,
-    "timezone": "Australia/Melbourne",
-    "background_execution": false,
+    "id": "2026-11-26-S006",
+    "started_utc": "2026-11-26T03:04:51Z",
+    "planned_end_utc": "2026-11-26T05:04:51Z",
+    "ended_utc": "2026-11-26T05:04:51+00:00",
+    "requested_seconds": 7200,
+    "actual_elapsed_seconds": 7200,
+    "requested_interval_satisfied": true,
     "status": "completed",
-    "scope": "sessions/2026-11-26-S003/",
-    "starting_remote_head": "0607d044d1d09489580da0e5828588820e1a6775",
-    "initial_source_refresh": "Canonical main and OpenAI main unchanged; prior complete written bound retained pending fresh critical-chain audit.",
-    "last_prepared_utc": "2026-11-26T00:19:10Z",
-    "last_confirmed_checkpoint": "72ad1c4e9259b43ff0ea8f76e6d4e2001d3c3ebe",
-    "new_complete_bound": true,
-    "first_wave_review": "sessions/2026-11-26-S003/lead/first-wave-review.md",
-    "accepted_proof": "sessions/2026-11-26-S003/lead/adaptive-extraction.md",
-    "admission": "sessions/2026-11-26-S003/lead/ADMISSION-AQ.md",
-    "current_frontier": "AQ unconditional two-thirds with log^(1/3); S004 JR-alone conditional log-free two-thirds; independent joint-query delivery remains open.",
-    "latest_reconciled_remote_head": "a31ed45a680b62562a14e8afa566c5c471d7eb3c",
-    "verification": "Independent C global review, independent A actual source-caller audit, lead review and isolated finite replays; no full execution/formal build/human refereeing.",
-    "previous_accepted_proof": "sessions/2026-11-26-S003/lead/polynomial-profile-extraction.md",
-    "fifth_wave": {
-      "NT": "accepted positive-majorant theorem; separate reviewed conditional JR-I and JR+SN transfers",
-      "SQ": "accepted spectral and rank-approximate separate-query obstruction; root replay passed",
-      "FP_A": "accepted finite-alphabet full-payload codec; root replay passed",
-      "SN_A": "accepted source-operation audit and exact middle-permutation obstruction after C and lead review",
-      "AP": "accepted elementary anchored invoice floor after A review; stronger concurrent E002 noncanonical floor credited",
-      "p_power_compiler": "Accepted finite grammar; final telescoping p-ary carry improves growing-p syntax to absolute m^K. No new multiplier envelope."
-    },
-    "ended_utc": "2026-11-26T00:19:10Z",
-    "actual_elapsed_seconds": 10805,
-    "final_report": "sessions/2026-11-26-S003/FINAL-REPORT.md",
-    "final_manifest": "sessions/2026-11-26-S003/FINAL-MANIFEST.json",
-    "final_commit_id_location": "Git history and final chat response; no recursive self-identifier.",
-    "publication_status": "Final snapshot prepared; remote publication is separately confirmed in Git history and chat.",
-    "final_components": {
-      "SL": "Accepted scalar-compression queried-volume obstruction",
-      "LP": "Accepted real rank-r row-mixer product obstruction, not arbitrary physical delivery",
-      "O4": "Accepted every-odd-characteristic finite converter, pencil and repair interface",
-      "TPC": "Accepted formal carry and absolute polynomial-m grammar for 3<=p<=m; L<=pD retained",
-      "reviews": "Independent A/C reviews, lead proof/code reads and isolated exact replays"
-    }
+    "background_execution": false,
+    "report": "sessions/2026-11-26-S006/FINAL-REPORT.md"
   },
-  "verification_status": "E002 V and S003 AQ separately admitted with independent global/source audits and finite evidence. S003 has direct absolute linear payload space. No full multiplier execution, formal refinement or human refereeing. S005 added fresh scoped finite-algebra/source reconstruction, separately reviewed CT and exact CRT interfaces, independent finite controls and five narrow Lean builds; no complete multiplier formalization.",
+  "verification_status": "S006: eight formal component modules, 56 designated axiom checks, finite replays and independent AI review. Complete multiplier remains a written result without human refereeing.",
   "concurrent_work": {
     "epsilon_uniformity": "results/epsilon-uniformity/SESSION.json",
     "reconciled_head": "d1f3baccdcc547263c0c0cc7241aa0cb1ef12bee",
@@ -666,6 +637,18 @@
       "background_execution": false,
       "report": "sessions/2026-11-26-S005/FINAL-REPORT.md",
       "late_addendum": "sessions/2026-11-26-S005/LATE-ADDENDUM.md"
+    },
+    "2026-11-26-S006": {
+      "id": "2026-11-26-S006",
+      "started_utc": "2026-11-26T03:04:51Z",
+      "planned_end_utc": "2026-11-26T05:04:51Z",
+      "ended_utc": "2026-11-26T05:04:51+00:00",
+      "requested_seconds": 7200,
+      "actual_elapsed_seconds": 7200,
+      "requested_interval_satisfied": true,
+      "status": "completed",
+      "background_execution": false,
+      "report": "sessions/2026-11-26-S006/FINAL-REPORT.md"
     }
   },
   "e002_current_result": {
@@ -1122,7 +1105,7 @@
         "started_utc": "2026-11-26T03:04:51Z",
         "target_end_utc": "2026-11-26T05:04:51Z",
         "starting_sha": "69632d87c99b5a75d0b44a7d964e6550e457e016",
-        "status": "active",
+        "status": "completed",
         "proof_chain": "S003 AQ direct-space, V and E003 as independent comparisons",
         "gates": [
           "AX: elementary short-axis packing with polynomial setup",
@@ -1203,7 +1186,10 @@
           "crt": "Two bidirectional prefixes, literal input on the coefficient side and exact q-bit grouped binary factor representation; full physical conversion open.",
           "full_CRT": false,
           "new_complete_bound": false
-        }
+        },
+        "ended_utc": "2026-11-26T05:04:51+00:00",
+        "actual_elapsed_seconds": 7200,
+        "requested_interval_satisfied": true
       }
     ],
     "used_or_reserved": 1,
@@ -1224,5 +1210,48 @@
       "First and higher carry suppliers",
       "Human review and full physical formalization"
     ]
+  },
+  "archived_session_header_before_s006": {
+    "id": "2026-11-26-S003",
+    "started_utc": "2026-11-25T21:19:05Z",
+    "planned_end_utc": "2026-11-26T00:19:05Z",
+    "requested_seconds": 10800,
+    "timezone": "Australia/Melbourne",
+    "background_execution": false,
+    "status": "completed",
+    "scope": "sessions/2026-11-26-S003/",
+    "starting_remote_head": "0607d044d1d09489580da0e5828588820e1a6775",
+    "initial_source_refresh": "Canonical main and OpenAI main unchanged; prior complete written bound retained pending fresh critical-chain audit.",
+    "last_prepared_utc": "2026-11-26T00:19:10Z",
+    "last_confirmed_checkpoint": "72ad1c4e9259b43ff0ea8f76e6d4e2001d3c3ebe",
+    "new_complete_bound": true,
+    "first_wave_review": "sessions/2026-11-26-S003/lead/first-wave-review.md",
+    "accepted_proof": "sessions/2026-11-26-S003/lead/adaptive-extraction.md",
+    "admission": "sessions/2026-11-26-S003/lead/ADMISSION-AQ.md",
+    "current_frontier": "AQ unconditional two-thirds with log^(1/3); S004 JR-alone conditional log-free two-thirds; independent joint-query delivery remains open.",
+    "latest_reconciled_remote_head": "a31ed45a680b62562a14e8afa566c5c471d7eb3c",
+    "verification": "Independent C global review, independent A actual source-caller audit, lead review and isolated finite replays; no full execution/formal build/human refereeing.",
+    "previous_accepted_proof": "sessions/2026-11-26-S003/lead/polynomial-profile-extraction.md",
+    "fifth_wave": {
+      "NT": "accepted positive-majorant theorem; separate reviewed conditional JR-I and JR+SN transfers",
+      "SQ": "accepted spectral and rank-approximate separate-query obstruction; root replay passed",
+      "FP_A": "accepted finite-alphabet full-payload codec; root replay passed",
+      "SN_A": "accepted source-operation audit and exact middle-permutation obstruction after C and lead review",
+      "AP": "accepted elementary anchored invoice floor after A review; stronger concurrent E002 noncanonical floor credited",
+      "p_power_compiler": "Accepted finite grammar; final telescoping p-ary carry improves growing-p syntax to absolute m^K. No new multiplier envelope."
+    },
+    "ended_utc": "2026-11-26T00:19:10Z",
+    "actual_elapsed_seconds": 10805,
+    "final_report": "sessions/2026-11-26-S003/FINAL-REPORT.md",
+    "final_manifest": "sessions/2026-11-26-S003/FINAL-MANIFEST.json",
+    "final_commit_id_location": "Git history and final chat response; no recursive self-identifier.",
+    "publication_status": "Final snapshot prepared; remote publication is separately confirmed in Git history and chat.",
+    "final_components": {
+      "SL": "Accepted scalar-compression queried-volume obstruction",
+      "LP": "Accepted real rank-r row-mixer product obstruction, not arbitrary physical delivery",
+      "O4": "Accepted every-odd-characteristic finite converter, pencil and repair interface",
+      "TPC": "Accepted formal carry and absolute polynomial-m grammar for 3<=p<=m; L<=pD retained",
+      "reviews": "Independent A/C reviews, lead proof/code reads and isolated exact replays"
+    }
   }
 }

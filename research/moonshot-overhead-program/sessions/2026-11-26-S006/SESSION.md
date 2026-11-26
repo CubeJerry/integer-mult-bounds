@@ -31,3 +31,7 @@ Test whether the special trace bundle's vanishing polynomial has sufficiently fe
 ## Gate decisions
 
 AX, AQ-P and A2 supply reviewed lemmas on the direct full-product proof. The exact modular Walsh target and the separate native-plan obstruction are kernel-checked. CRT4 refutes separate scalar representatives and admits the single dense-bundle alternative on its stated endpoints. Its coefficient prefix begins at the literal caller input. The grouped binary factor state has exactly $q$ bits; full cost for crossing and splitting it remains open. Independent review and exact outputs are recorded in the [final report](FINAL-REPORT.md).
+
+### S006 completion record
+
+Started at 03:04:51 UTC and closed at 05:04:51 UTC on 26 November 2026, after 7,200 seconds. The requested interval was 7,200 seconds. One of three shared campaign sessions is complete and two remain.

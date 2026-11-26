@@ -354,3 +354,7 @@ The contiguous additive-layer proof applies to every $3\mid b$. Raising the bina
 ### S006 literal input and grouped binary factors
 
 The trace polynomial admits one-correction radix division on unrestricted input bits. A growing prefix is paid in both directions. Mixed-coordinate quotients and remainders are verified over all fields, and grouped binary factors use exactly $q$ independent bits. The source-linked Walsh theorem, additive transforms, orbit semantics and ordinary coefficient divisions have separate Lean statements. [Full report and remaining cost](sessions/2026-11-26-S006/FINAL-REPORT.md)
+
+### S006 completion record
+
+Started at 03:04:51 UTC and closed at 05:04:51 UTC on 26 November 2026, after 7,200 seconds. The requested interval was 7,200 seconds. One of three shared campaign sessions is complete and two remain.
