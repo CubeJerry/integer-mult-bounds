@@ -97,11 +97,91 @@ theorem single_omission (rs : List Band) : upper rs - oneError rs ≤ actual rs 
 
 private def smallPrimes := (List.range 257).filter (fun p => decide (Nat.Prime p))
 
-set_option maxRecDepth 100000 in
-set_option maxHeartbeats 1600000 in
+private def primeBlock (s n : ℕ) := (List.range' s n).filter (fun p => decide (Nat.Prime p))
+
+private theorem primeBlock_append (s m n : ℕ) :
+    primeBlock s (m+n)=primeBlock s m ++ primeBlock (s+m) n := by
+  unfold primeBlock
+  rw [← List.range'_append_1, List.filter_append]
+
+private theorem block_0 : primeBlock 0 16 = [2, 3, 5, 7, 11, 13] := by
+  decide +kernel
+
+private theorem block_16 : primeBlock 16 16 = [17, 19, 23, 29, 31] := by
+  decide +kernel
+
+private theorem block_32 : primeBlock 32 16 = [37, 41, 43, 47] := by
+  decide +kernel
+
+private theorem block_48 : primeBlock 48 16 = [53, 59, 61] := by
+  decide +kernel
+
+private theorem block_64 : primeBlock 64 16 = [67, 71, 73, 79] := by
+  decide +kernel
+
+private theorem block_80 : primeBlock 80 16 = [83, 89] := by
+  decide +kernel
+
+private theorem block_96 : primeBlock 96 16 = [97, 101, 103, 107, 109] := by
+  decide +kernel
+
+private theorem block_112 : primeBlock 112 16 = [113, 127] := by
+  decide +kernel
+
+private theorem block_128 : primeBlock 128 16 = [131, 137, 139] := by
+  decide +kernel
+
+private theorem block_144 : primeBlock 144 16 = [149, 151, 157] := by
+  decide +kernel
+
+private theorem block_160 : primeBlock 160 16 = [163, 167, 173] := by
+  decide +kernel
+
+private theorem block_176 : primeBlock 176 16 = [179, 181, 191] := by
+  decide +kernel
+
+private theorem block_192 : primeBlock 192 16 = [193, 197, 199] := by
+  decide +kernel
+
+private theorem block_208 : primeBlock 208 16 = [211, 223] := by
+  decide +kernel
+
+private theorem block_224 : primeBlock 224 16 = [227, 229, 233, 239] := by
+  decide +kernel
+
+private theorem block_240 : primeBlock 240 16 = [241, 251] := by
+  decide +kernel
+
+private theorem block_256 : primeBlock 256 1 = [] := by
+  decide +kernel
+
+private theorem assembled_primes : smallPrimes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251] := by
+  unfold smallPrimes
+  rw [List.range_eq_range']
+  change primeBlock 0 257 = _
+  rw [show primeBlock 0 257 = primeBlock 0 16 ++ primeBlock 16 241 from primeBlock_append 0 16 241, block_0]
+  rw [show primeBlock 16 241 = primeBlock 16 16 ++ primeBlock 32 225 from primeBlock_append 16 16 225, block_16]
+  rw [show primeBlock 32 225 = primeBlock 32 16 ++ primeBlock 48 209 from primeBlock_append 32 16 209, block_32]
+  rw [show primeBlock 48 209 = primeBlock 48 16 ++ primeBlock 64 193 from primeBlock_append 48 16 193, block_48]
+  rw [show primeBlock 64 193 = primeBlock 64 16 ++ primeBlock 80 177 from primeBlock_append 64 16 177, block_64]
+  rw [show primeBlock 80 177 = primeBlock 80 16 ++ primeBlock 96 161 from primeBlock_append 80 16 161, block_80]
+  rw [show primeBlock 96 161 = primeBlock 96 16 ++ primeBlock 112 145 from primeBlock_append 96 16 145, block_96]
+  rw [show primeBlock 112 145 = primeBlock 112 16 ++ primeBlock 128 129 from primeBlock_append 112 16 129, block_112]
+  rw [show primeBlock 128 129 = primeBlock 128 16 ++ primeBlock 144 113 from primeBlock_append 128 16 113, block_128]
+  rw [show primeBlock 144 113 = primeBlock 144 16 ++ primeBlock 160 97 from primeBlock_append 144 16 97, block_144]
+  rw [show primeBlock 160 97 = primeBlock 160 16 ++ primeBlock 176 81 from primeBlock_append 160 16 81, block_160]
+  rw [show primeBlock 176 81 = primeBlock 176 16 ++ primeBlock 192 65 from primeBlock_append 176 16 65, block_176]
+  rw [show primeBlock 192 65 = primeBlock 192 16 ++ primeBlock 208 49 from primeBlock_append 192 16 49, block_192]
+  rw [show primeBlock 208 49 = primeBlock 208 16 ++ primeBlock 224 33 from primeBlock_append 208 16 33, block_208]
+  rw [show primeBlock 224 33 = primeBlock 224 16 ++ primeBlock 240 17 from primeBlock_append 224 16 17, block_224]
+  rw [show primeBlock 240 17 = primeBlock 240 16 ++ primeBlock 256 1 from primeBlock_append 240 16 1, block_240]
+  rw [block_256]
+  rfl
+
 theorem exact_small_prime_product :
     smallPrimes.length = 54 ∧
     smallPrimes.prod < 10 * (smallPrimes.map (fun p => p-1)).prod := by
+  rw [assembled_primes]
   decide +kernel
 
 theorem bonferroni_relative :

@@ -1,5 +1,18 @@
 # A numerical overhead bound at every input length
 
+## Final fixed dispatcher
+
+Advance the global Walsh switch to \(X=2^{24}\). This one configuration change, a sharper bound on the actual finite search and a three-slope count of the existing native calls give
+\[
+ T(n)\le n\sqrt{1+\log_2 n}\;2^{63\Phi(\log_2(1+\log_2 n))}\quad(n\ge2),
+ \qquad T(1)\le4096,\qquad S(n)\le 2^{32}n .
+\]
+Here \(\Phi(x)=(x^2\log_2(x+2))^{1/3}\). The [stronger proof](address-native-staircase.md) identifies the changed guard, its full physical setup price and the all-input join. The [fixed-exponent table](all-exponents.md) gives the sufficient lengths for general \(1/2+1/q\). The [finite-history proof](routing-refined-walsh.md) gives the sharper specialized \(0.501\) result. Both dispatchers have the same large-input execution.
+
+For \(t=\log_2\log_2 n\), the same configuration satisfies the [smooth coefficient 60](profile-limit.md) from \(t=1{,}572{,}864{,}480\) and the [smooth coefficient 53](coefficient-53.md) from \(t=2^{69110}\). Both sharper bounds use \(\sqrt{\log_2 n}\) and leave an additional binary bit of time allowance.
+
+## Independently verified coefficient-71 dispatcher
+
 Let \(L=1+\log_2n,\ x=\log_2 L,\ \Phi(z)=(z^2\log_2(z+2))^{1/3}\). For every \(n\ge2\), one fixed deterministic multitape machine satisfies
 \[
                         T(n)\le n\sqrt L\,2^{71\Phi(x)}. \tag{1}

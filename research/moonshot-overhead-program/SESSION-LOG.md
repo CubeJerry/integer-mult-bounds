@@ -1,5 +1,9 @@
 # Session log (append only)
 
+## S008 true label widths and numerical threshold, 13:09 UTC
+
+Checkpoint 6736a4f950a55c8e7c1e460f5d3952d6d43ace7e saved the all-input coefficient-71 construction. Switching to the previously implemented adaptive Walsh engine at \(X=2^{24}\) supports coefficient 63 on every \(n\ge2\). The baseline and revised guards use the same large-input program. The lead and two independent researchers reproduced the crossovers for the native three-slope history. The large-width estimates [with coefficient 60](sessions/2026-11-26-S008/profile-limit.md) and [with coefficient 53](sessions/2026-11-26-S008/coefficient-53.md) each have a literal input threshold. The source-level exact output, through-halt cardinalities and rounded Walsh group joins have separate kernel proofs. Further work is limited to checking the final per-band numerical threshold, writing the external review packet, and replaying the assembled verification scripts.
+
 ## S008 all-length checkpoint, 12:47 UTC
 
 Checkpoint c2caf1653b16bd5ea88a1b9cca9f63ba980bd5d8 recorded the first sharper whole-machine cutoff and selected original-source proofs. Subsequent independent reviews support the public profile with coefficient 71 for every \(n\ge2\), using exact schoolbook below \(2^{48}\) and an explicit dyadic middle branch before the coprime construction. The small and middle clocks, union-of-cells proof, and compiler receipts are in [the session](sessions/2026-11-26-S008/VERIFICATION.md). A lead replay of the complete 1,000-bit host-array box recovered 210 coefficients and every output bit; suppressing inverse CRT changed 204 coefficients. The natural-input packing parameters and analytic join of the three supplier bills also compile in Lean. The session remains active.

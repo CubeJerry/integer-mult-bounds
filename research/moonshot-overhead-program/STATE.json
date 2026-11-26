@@ -16,18 +16,32 @@
     "s008_prompt_blob": "c27b5ebcc9694221ac833c75db3071578ce9c4d1",
     "s008_strategy_blob": "977a98df197accf4cb8d3535e06608110f91167c"
   },
-  "best_unconditional": "T(n) <= n sqrt(L) 2^{71 (x^2 log2(x+2))^(1/3)} for every n>=2; T(1)<=4096",
+  "best_unconditional": "T(n) <= n sqrt(L) 2^{63 Phi(x)} for all n>=2; T(1)<=4096; L=1+log2(n), x=log2(L).",
   "new_complete_overhead_bound": {
-    "formula": "T(n) <= n sqrt(L) 2^{71 (x^2 log2(x+2))^(1/3)} for every n>=2; T(1)<=4096",
+    "formula": "T(n) <= n sqrt(L) 2^{63 Phi(x)} for all n>=2; T(1)<=4096; L=1+log2(n), x=log2(L).",
     "L": "1+log2(n)",
     "x": "log2(L)",
-    "delta": "<=71 (log2(x+2)/x)^(1/3)",
+    "delta": "<=63 (log2(x+2)/x)^(1/3)",
     "status": "Written unconditional fixed-machine proof with independent AI checks; selected Lean proofs and executions.",
     "space": "At most 2^32 n distinct tape/address pairs for all n>=1.",
-    "proof": "sessions/2026-11-26-S008/all-lengths.md",
-    "threshold": "For log2(log2(n)) >= 11665715140844862, T(n) <= n (ln n)^(501/1000) with coefficient one.",
-    "threshold_proof": "sessions/2026-11-26-S008/routing-piecewise-walsh.md",
-    "scope": "Explicit constants and onset for the prior functional order. The log-free improvement and square-root endpoint stay open."
+    "proof": "sessions/2026-11-26-S008/address-native-staircase.md",
+    "threshold": "For t=log2(log2(n)) >= 8931714897907030, T(n) <= n (ln n)^(501/1000) with coefficient one.",
+    "threshold_proof": "sessions/2026-11-26-S008/routing-refined-walsh.md",
+    "scope": "Explicit constants and onset for the prior functional order. The log-free improvement and square-root endpoint stay open.",
+    "guard": "X=2^24 starts the global adaptive Walsh supplier.",
+    "other_smooth_bounds": [
+      {
+        "C": 60,
+        "t_at_least": 1572864480,
+        "proof": "sessions/2026-11-26-S008/profile-limit.md"
+      },
+      {
+        "C": 53,
+        "t_at_least": "2^69110",
+        "proof": "sessions/2026-11-26-S008/coefficient-53.md"
+      }
+    ],
+    "fixed_exponent_family": "sessions/2026-11-26-S008/all-exponents.md"
   },
   "conditional_complete_overhead_bound": {
     "formula": "T(n)=O(n sqrt(L) x^a), including a=0 endpoint, under explicit hypotheses",
@@ -550,7 +564,7 @@
     "verification_limits": "AI-assisted written mathematical audits and isolated exact finite replays; no full multiplier execution, formal refinement, human refereeing or literature-priority certification"
   },
   "published_baseline_unconditional": "n L^(1/2+o(1)) (OpenAI November 24, 2026)",
-  "best_unconditional_proof": "sessions/2026-11-26-S008/all-lengths.md",
+  "best_unconditional_proof": "sessions/2026-11-26-S008/address-native-staircase.md",
   "source_refresh": {
     "canonical_openai_utc": "2026-11-25T15:57:17Z",
     "prompt_utc": "2026-11-25T15:58:38Z",
@@ -890,7 +904,7 @@
   },
   "current_verified_frontier": {
     "session": "S008",
-    "admission": "sessions/2026-11-26-S008/all-lengths.md",
+    "admission": "sessions/2026-11-26-S008/address-native-staircase.md",
     "next": "External mathematical review of the fixed-machine upper bound. Test joint uncharged routing only if independent structural input appears.",
     "same_scale_constructions": [
       {
@@ -1347,9 +1361,13 @@
           {
             "sha": "c2caf1653b16bd5ea88a1b9cca9f63ba980bd5d8",
             "scope": "Sharp unit cutoff, restricted incidence theorem, source-level tape proofs and aligned Walsh verification"
+          },
+          {
+            "sha": "6736a4f950a55c8e7c1e460f5d3952d6d43ace7e",
+            "scope": "Every input length, literal dyadic words, fixed source outputs and actual-input analytic join."
           }
         ],
-        "verified_partial": "All-length coefficient 71 and 2^32 n cumulative space; same fixed large program has unit natural-log 0.501 time at log2 log2 n >= 11665715140844862. A stronger staircase and its guard are undergoing independent verification."
+        "verified_partial": "Coefficient 63 on all n>=2, coefficients 60 and 53 on explicit stronger ranges, physical space 2^32 n. The .501 natural-log threshold is 8931714897907030 at this checkpoint."
       }
     ],
     "used_or_reserved": 3,

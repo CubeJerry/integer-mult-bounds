@@ -2,7 +2,7 @@
 
 ## S008 numerical construction and rate decision
 
-Use the [fixed \(R=240\) multiplier](sessions/2026-11-26-S008/integer-clock.md) for quantitative review. Its explicit smooth and piecewise estimates bound the same algorithm. Two separate cross-anchor attempts compared coalesced endpoint views and a movable within-box partition. The latter attains a restricted optimal incidence count even against correlated subdivisions and substantially reduces actual endpoint requests. The remaining terms keep the order of the full excess. These trials are closed for this campaign. [Both proofs and scopes](sessions/2026-11-26-S008/routing-cross-anchor.md) · [Independent audit](sessions/2026-11-26-S008/address-review-cross.md)
+Use the [fixed \(R=240\) multiplier](sessions/2026-11-26-S008/address-native-staircase.md) for quantitative review. It uses the earlier \(X=2^{24}\) switch to the adaptive Walsh routine. Its explicit smooth and piecewise estimates bound the same algorithm. The large-length threshold also holds at the original switch. Two separate cross-anchor attempts compared coalesced endpoint views and a movable within-box partition. The latter attains a restricted optimal incidence count even against correlated subdivisions and substantially reduces actual endpoint requests. The remaining terms keep the order of the full excess. These trials are closed for this campaign. [Both proofs and scopes](sessions/2026-11-26-S008/routing-cross-anchor.md) · [Independent audit](sessions/2026-11-26-S008/address-review-cross.md)
 
 ## Decision after the second contribution session
 

@@ -4,9 +4,11 @@
 
 One fixed deterministic finite-alphabet multitape machine takes two \(n\)-bit words, permits leading zeros, and writes their complete \(2n\)-bit product on a fresh tape. Set \(L=1+\log_2n,\ x=\log_2 L,\ \Phi(x)=(x^2\log_2(x+2))^{1/3}\). For every \(n\ge2\) its worst-case transition count satisfies
 \[
-                         T(n)\le n\sqrt L\,2^{71\Phi(x)} .
+                         T(n)\le n\sqrt L\,2^{63\Phi(x)} .
 \]
-At \(n=1\) it takes at most 4096 transitions. Every positive input length satisfies the same bound of \(2^{32}n\) on distinct tape/address pairs visited before halt. On the explicit range \(\log_2\log_2n\ge11{,}665{,}715{,}140{,}844{,}862\) the same program satisfies \(T(n)\le n(\ln n)^{501/1000}\), including the leading coefficient. The published asymptotic theorem and the fork's earlier extraction are credited below. This proof replaces unspecified constants and onset with an all-length formula and a numerical sufficient threshold. [Proof for all lengths](../../sessions/2026-11-26-S008/all-lengths.md) · [Sharper threshold](../../sessions/2026-11-26-S008/routing-piecewise-walsh.md) · [Verification scope](../../sessions/2026-11-26-S008/VERIFICATION.md) · [Distinct-cell proof](../../sessions/2026-11-26-S008/routing-outer-space.md)
+At \(n=1\) it takes at most 4096 transitions. Every positive input length satisfies the same bound of \(2^{32}n\) on distinct tape/address pairs visited before halt. On the explicit range \(\log_2\log_2n\ge8{,}931{,}714{,}897{,}907{,}030\) the same program satisfies \(T(n)\le n(\ln n)^{501/1000}\), including the leading coefficient. The published asymptotic theorem and the fork's earlier extraction are credited below. This proof replaces unspecified constants and onset with an all-length formula and a numerical sufficient threshold. [Proof for all lengths](../../sessions/2026-11-26-S008/all-lengths.md) · [Sharper threshold](../../sessions/2026-11-26-S008/routing-refined-walsh.md) · [Verification scope](../../sessions/2026-11-26-S008/VERIFICATION.md) · [Distinct-cell proof](../../sessions/2026-11-26-S008/routing-outer-space.md)
+
+For \(t=\log_2\log_2 n\), the proven coefficient in front of \(\Phi(t)\) falls to 60 throughout \(t\ge1{,}572{,}864{,}480\), and to 53 throughout \(t\ge2^{69110}\). The latter proof uses the actual number of bits per label. Both estimates include an extra factor of two on the time side and use the same fixed machine. [Coefficient 60](../../sessions/2026-11-26-S008/profile-limit.md) · [Effective coefficient 53](../../sessions/2026-11-26-S008/coefficient-53.md) · [Fixed-exponent cutoffs](../../sessions/2026-11-26-S008/all-exponents.md)
 
 ## Complete factor transforms at each fixed precision
 

@@ -79,6 +79,44 @@ def piecewise_margins(n):
     return intervals
 
 
+def refined_endpoints():
+    """Rebuild every actual slope and certify the adjacent whole-caller residuals."""
+    z = 8_931_714_897_907_030
+    edges = [(0, Fraction(1, 2)), (240*(2**17 + 2), Fraction(17, 64))]
+    for j in range(4, 14):
+        coefficient = 3*j + (3*j + 2).bit_length() + 2
+        for stage, numerator, denominator in ((1, 17, 4), (2, 11, 3), (4, 10, 3)):
+            edge = 240*(stage*coefficient*8**j + 2)
+            if edges[-1][0] < edge <= z + 1:
+                edges.append((edge, Fraction(numerator, denominator*2**j)))
+    limit = 1_160_000_000_000
+    offset, slope, height = 0, Fraction(0), Fraction(0)
+    for edge, next_slope in edges:
+        height += (edge - offset)*slope
+        # floor(log2((edge+2)^64))/64 is a directed logarithmic lower bound.
+        coarse_log = Fraction(((edge + 2)**64).bit_length() - 1, 64)
+        assert height <= limit or (height-limit)**3 < Fraction(159, 4)**3*edge**2*coarse_log
+        offset, slope = edge, next_slope
+    assert (len(edges), offset, height, slope) == (
+        29, 6_201_245_580_657_120, 6_181_211_607_280, Fraction(17, 32768))
+    intercept = height - offset*slope
+    assert intercept == Fraction(3_035_148_971_130_625, 1024)
+    upper_log = log_bounds(z+4)[1]
+    lower_h = intercept + slope*(z+1)
+    assert (lower_h-limit)**3 > Fraction(159, 4)**3*(z+2)**2*upper_log
+    for n, gap in ((z, Fraction(246_303, 10**9)), (z-1, Fraction(-133_976, 10**9))):
+        x = n + 2
+        ll, lh = log_bounds(x)
+        pl, ph = log_bounds(x+2)
+        allowance = Fraction(n, 1000)-183-intercept-slope*x-gap
+        factor = Fraction(33, 4)**3*x*x
+        if n == z:
+            assert (allowance-4*lh)**3 > factor*ph
+        else:
+            assert (allowance-4*ll)**3 < factor*pl
+    return z
+
+
 def first_positive(sign):
     low, high = 2**48, 2**55
     assert sign(low) == -1 and sign(high) == 1
@@ -103,7 +141,7 @@ if __name__ == "__main__":
     assert min(historical[0], previous_historical[0]) > Fraction(262, 100)
     assert Fraction(127, 10**17) < movement[0] < movement[1] < Fraction(129, 10**17)
     assert Fraction(-378, 10**16) < previous_movement[0] < previous_movement[1] < Fraction(-376, 10**16)
-    print(json.dumps({"piecewise_two_invoices": z, "piecewise_binding": "movement",
+    print(json.dumps({"refined_three_slope": refined_endpoints(), "piecewise_two_invoices": z, "piecewise_binding": "movement",
                       "binary_fraction_digits": 112, "old_additive": older,
                       "actual_prefactor": binary,
                       "one_full_extra_bit": natural}, indent=2))
